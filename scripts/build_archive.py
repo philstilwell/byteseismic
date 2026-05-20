@@ -338,6 +338,7 @@ LOW_VALUE_PROMPT_PATTERNS = (
     "provide 12 discussion",
     "sources of content",
     "table of contents",
+    "does this make sense",
 )
 PROMPT_STARTERS = (
     "provide",
@@ -356,11 +357,14 @@ PROMPT_STARTERS = (
     "are",
     "does",
     "explain",
+    "elaborate",
     "trace",
     "chart",
     "comment",
     "weigh",
     "for each",
+    "allow me",
+    "i am",
 )
 DATE_URL_RE = re.compile(r"/\d{4}/\d{2}/\d{2}/([^/?#]+)/?$")
 NUMBER_PREFIX_RE = re.compile(r"^\s*\d+[\.\)]\s*")
@@ -651,6 +655,251 @@ def normalize_heading_list(content_html: str, title: str) -> tuple[list[str], li
     return prompt_like[:8], thread_like[:16], paragraphs[:5]
 
 
+def sentence_split(text: str) -> list[str]:
+    cleaned = clean_text(text)
+    if not cleaned:
+        return []
+    return [
+        sentence.strip()
+        for sentence in re.split(r"(?<=[.!?])\s+(?=[A-Z“\"'(])", cleaned)
+        if len(sentence.strip()) >= 35
+    ]
+
+
+def compact_text(text: str, limit: int = 310) -> str:
+    cleaned = clean_text(text)
+    if len(cleaned) <= limit:
+        return cleaned
+    clipped = cleaned[:limit].rsplit(" ", 1)[0].rstrip(" ,;:")
+    return f"{clipped}."
+
+
+def is_low_value_heading(text: str) -> bool:
+    lowered = clean_text(text).lower()
+    if lowered in {"questions", "answers", "conclusion"}:
+        return True
+    return any(pattern in lowered for pattern in LOW_VALUE_HEADING_PATTERNS)
+
+
+def heading_level(tag: Tag) -> int:
+    if tag.name and re.fullmatch(r"h[1-6]", tag.name):
+        return int(tag.name[1])
+    return 6
+
+
+def source_root(content_html: str) -> Tag | BeautifulSoup:
+    soup = BeautifulSoup(content_html or "", "html.parser")
+    return soup.select_one(".entry-content") or soup.select_one(".wp-block-post-content") or soup
+
+
+def fragment_from_href(href: str) -> str:
+    if not href or "#" not in href:
+        return ""
+    return href.rsplit("#", 1)[-1].strip()
+
+
+def toc_prompt_heading_ids(root: Tag | BeautifulSoup) -> list[str]:
+    best_ids: list[str] = []
+    best_score = 0
+
+    for ordered_list in root.find_all("ol"):
+        direct_items = ordered_list.find_all("li", recursive=False)
+        if len(direct_items) < 2:
+            continue
+
+        ids: list[str] = []
+        score = 0
+        for item in direct_items:
+            anchor = item.find("a", recursive=False)
+            if anchor is None:
+                continue
+            text = strip_number_prefix(anchor.get_text(" ", strip=True))
+            href = clean_text(anchor.get("href"))
+            fragment = fragment_from_href(href)
+            if not fragment or is_low_value_prompt(text):
+                continue
+            if looks_like_prompt(text):
+                score += 2
+            elif len(text) >= 70:
+                score += 1
+            else:
+                continue
+            ids.append(fragment)
+
+        if score > best_score and len(ids) >= 2:
+            best_score = score
+            best_ids = ids
+
+    return dedupe(best_ids)[:8]
+
+
+def source_prompt_heading_tags(content_html: str, title: str) -> list[Tag]:
+    root = source_root(content_html)
+    headings_by_id = {
+        clean_text(heading.get("id")): heading
+        for heading in root.find_all(re.compile(r"^h[1-6]$"))
+        if heading.get("id")
+    }
+    toc_ids = toc_prompt_heading_ids(root)
+    if toc_ids:
+        toc_headings = []
+        for heading_id in toc_ids:
+            heading = headings_by_id.get(heading_id)
+            if heading is None:
+                continue
+            text = strip_number_prefix(heading.get_text(" ", strip=True))
+            if not text or is_low_value_heading(text) or is_low_value_prompt(text):
+                continue
+            toc_headings.append(heading)
+        if toc_headings:
+            return toc_headings[:5]
+
+    headings: list[Tag] = []
+    seen = set()
+    for heading in root.find_all(re.compile(r"^h[1-6]$")):
+        text = strip_number_prefix(heading.get_text(" ", strip=True))
+        lowered = text.lower()
+        if not text or lowered == clean_text(title).lower():
+            continue
+        if is_low_value_heading(text):
+            continue
+        if not looks_like_prompt(text) or is_low_value_prompt(text):
+            continue
+        normalized = re.sub(r"[^a-z0-9]+", " ", text.lower()).strip()
+        if normalized in seen:
+            continue
+        seen.add(normalized)
+        headings.append(heading)
+    return headings[:5]
+
+
+def split_label(text: str) -> tuple[str, str]:
+    cleaned = clean_text(text)
+    if ":" not in cleaned:
+        return "", cleaned
+    label, body = cleaned.split(":", 1)
+    label = strip_number_prefix(label).strip(" -–")
+    body = body.strip()
+    if not label or len(label) > 92 or len(body) < 20:
+        return "", cleaned
+    return label, body
+
+
+def rewrite_source_sentence(text: str) -> str:
+    cleaned_full = clean_text(text)
+    if cleaned_full.startswith(("“", '"')):
+        sentence = cleaned_full
+    else:
+        sentences = sentence_split(cleaned_full)
+        sentence = sentences[0] if sentences else cleaned_full
+    label, body = split_label(sentence)
+    if label and body:
+        sentence = body
+    replacements = [
+        (r"^Yes,\s*", ""),
+        (r"^Certainly,\s*", ""),
+        (r"^Overall,\s*", ""),
+        (r"^In essence,\s*", ""),
+        (r"\b[Yy]our pushback\b", "the pushback"),
+        (r"\b[Yy]our position\b", "the curator’s position"),
+        (r"\b[Yy]our perspective\b", "the position"),
+        (r"\b[Yy]our point\b", "the point"),
+        (r"\b[Yy]our argument\b", "the argument"),
+        (r"\b[Yy]ou argue that\b", "the argument holds that"),
+        (r"\b[Yy]ou argue\b", "the argument holds"),
+        (r"\b[Yy]ou acknowledge\b", "the position acknowledges"),
+        (r"\b[Yy]ou highlight\b", "the position highlights"),
+        (r"\b[Yy]ou said\b", "the earlier formulation said"),
+        (r"\b[Ll]et’s\b", "the response can"),
+    ]
+    for pattern, replacement in replacements:
+        sentence = re.sub(pattern, replacement, sentence)
+    sentence = re.sub(r"\s+([.,;:!?])", r"\1", sentence)
+    sentence = re.sub(r"([.!?][”\"])\.", r"\1", sentence)
+    sentence = compact_text(sentence, 280).strip()
+    if sentence:
+        sentence = sentence[0].upper() + sentence[1:]
+    closed_quote_punctuation = sentence.endswith((".”", "!”", "?”", '."', '!"', '?"'))
+    if sentence and sentence[-1] not in ".!?" and not closed_quote_punctuation:
+        sentence += "."
+    return sentence
+
+
+def extract_source_prompt_details(content_html: str, title: str) -> list[dict]:
+    root = source_root(content_html)
+    accepted_headings = source_prompt_heading_tags(content_html, title)
+    if not accepted_headings:
+        return []
+
+    details: list[dict] = []
+    for index, prompt_heading in enumerate(accepted_headings):
+        next_prompt_heading = accepted_headings[index + 1] if index + 1 < len(accepted_headings) else None
+        children: list[dict] = []
+        paragraphs: list[str] = []
+        items: list[str] = []
+        current_child: dict | None = None
+
+        for element in prompt_heading.next_elements:
+            if element is prompt_heading:
+                continue
+            if next_prompt_heading is not None and element is next_prompt_heading:
+                break
+            if not isinstance(element, Tag):
+                continue
+
+            if element.name and re.fullmatch(r"h[1-6]", element.name):
+                text = strip_number_prefix(element.get_text(" ", strip=True))
+                if not text or text == strip_number_prefix(prompt_heading.get_text(" ", strip=True)):
+                    continue
+                if (
+                    looks_like_prompt(text)
+                    and is_low_value_prompt(text)
+                    and heading_level(element) <= heading_level(prompt_heading)
+                ):
+                    break
+                if looks_like_prompt(text) and not is_low_value_prompt(text):
+                    continue
+                if is_low_value_heading(text) or is_low_value_prompt(text):
+                    continue
+                current_child = {"title": text, "level": heading_level(element), "paragraphs": [], "items": []}
+                children.append(current_child)
+                continue
+
+            if element.name == "p":
+                text = clean_text(element.get_text(" ", strip=True))
+                lowered = text.lower()
+                if len(text) < 65 or "table of contents" in lowered:
+                    continue
+                target = current_child["paragraphs"] if current_child is not None else paragraphs
+                target.append(text)
+                continue
+
+            if element.name == "li":
+                text = clean_text(element.get_text(" ", strip=True))
+                if len(text) < 45 or is_low_value_prompt(text):
+                    continue
+                target = current_child["items"] if current_child is not None else items
+                target.append(text)
+
+        useful_children = []
+        for child in children:
+            if child["paragraphs"] or child["items"]:
+                child["paragraphs"] = child["paragraphs"][:4]
+                child["items"] = child["items"][:6]
+                useful_children.append(child)
+
+        details.append(
+            {
+                "prompt": clarify_prompt(prompt_heading.get_text(" ", strip=True)),
+                "paragraphs": paragraphs[:4],
+                "items": items[:8],
+                "children": useful_children[:8],
+            }
+        )
+
+    return details
+
+
 def dedupe(items: Iterable[str]) -> list[str]:
     seen = set()
     result = []
@@ -838,6 +1087,94 @@ def discussion_questions(page: dict, thread_like: list[str]) -> list[str]:
     return questions[:5]
 
 
+def serial_join(items: list[str]) -> str:
+    cleaned = [clean_text(item) for item in items if clean_text(item)]
+    if not cleaned:
+        return ""
+    if len(cleaned) == 1:
+        return cleaned[0]
+    if len(cleaned) == 2:
+        return f"{cleaned[0]} and {cleaned[1]}"
+    return f"{', '.join(cleaned[:-1])}, and {cleaned[-1]}"
+
+
+def source_detail_labels(detail: dict | None) -> list[str]:
+    if not detail:
+        return []
+    labels: list[str] = []
+    for child in detail.get("children", []):
+        labels.append(strip_number_prefix(child.get("title", "")))
+    for item in detail.get("items", []):
+        label, body = split_label(item)
+        if label and body:
+            labels.append(label)
+    return usable_thread_items(dedupe(labels))[:5]
+
+
+def prompt_key_phrase(prompt: str, fallback: str) -> str:
+    cleaned = clean_text(prompt)
+    lowered = cleaned.lower()
+    key_phrases = [
+        "inductive substrate",
+        "sub-absolute confidence",
+        "inductive grounding",
+        "moral realism",
+        "moral non-realism",
+        "logical fallacies",
+        "training data bias",
+        "self-evidence",
+        "circularity",
+        "human rights",
+        "free will",
+        "consciousness",
+        "truth alignment",
+    ]
+    for phrase in key_phrases:
+        if phrase in lowered:
+            return phrase[0].upper() + phrase[1:]
+
+    quoted = re.findall(r"[“\"]([^”\"]{8,90})[”\"]", cleaned)
+    if quoted:
+        return quoted[0].strip()
+
+    chunks = re.split(r"[.?;:—–-]", cleaned)
+    chunks = [chunk.strip() for chunk in chunks if len(chunk.strip()) >= 24]
+    if chunks:
+        best = max(chunks[:4], key=len)
+        if best.count("(") > best.count(")"):
+            best = best.split("(", 1)[0].strip()
+        return compact_text(best, 90).rstrip(".")
+    return fallback
+
+
+def source_prompt_heading(prompt: str, topic: str, detail: dict | None) -> str:
+    labels = source_detail_labels(detail)
+    if labels:
+        center = labels[0].strip(" .:")
+        return f"{center} gives the response its center of gravity."
+
+    key = prompt_key_phrase(prompt, topic)
+    if key and key.lower() != topic.lower():
+        return f"{key[0].upper() + key[1:]} is the pressure point."
+    return prompt_heading(prompt, topic)
+
+
+def first_source_claim(detail: dict | None) -> str:
+    if not detail:
+        return ""
+    candidates: list[str] = []
+    candidates.extend(detail.get("paragraphs", []))
+    candidates.extend(detail.get("items", []))
+    for child in detail.get("children", []):
+        candidates.extend(child.get("paragraphs", []))
+        candidates.extend(child.get("items", []))
+    for candidate in candidates:
+        claim = rewrite_source_sentence(candidate)
+        if claim:
+            return claim
+    return ""
+
+
 def prompt_focus(prompt: str) -> str:
     lowered = prompt.lower()
     if "dialogue" in lowered:
@@ -880,12 +1217,43 @@ def prompt_heading(prompt: str, topic: str) -> str:
     return f"The prompt turns {topic} into a question that can be tested."
 
 
-def prompt_response_paragraphs(page: dict, prompt: str, index: int) -> list[str]:
+def prompt_response_paragraphs(page: dict, prompt: str, index: int, detail: dict | None = None) -> list[str]:
     topic = topic_label(page["title"])
     profile = branch_profile(page["section_id"])
     focus = prompt_focus(prompt)
+    labels = source_detail_labels(detail)
+    claim = first_source_claim(detail)
+
+    if detail and (labels or claim):
+        paragraphs = []
+        if labels:
+            paragraphs.append(
+                f"This response is organized around {serial_join(labels[:3])}. "
+                f"Those are the actual steps by which the prompt turns {topic} from a title into a testable philosophical problem."
+            )
+        else:
+            key = prompt_key_phrase(prompt, topic)
+            paragraphs.append(
+                f"This response centers on {key}, treating it as the point where {topic} needs careful reconstruction rather than quick agreement."
+            )
+
+        if claim:
+            paragraphs.append(f"The reconstructed answer’s center of gravity is this: {claim}")
+
+        if len(labels) >= 2:
+            paragraphs.append(
+                f"The important discipline is to keep {labels[0]} distinct from {labels[1]}. "
+                f"When those layers are collapsed, the discussion becomes easier to summarize but less honest about the real pressure in the prompt."
+            )
+        else:
+            paragraphs.append(
+                f"The point is not to close the issue by slogan. It is to preserve the branch-level pressure: {profile['pressure']}"
+            )
+        return paragraphs[:3]
+
+    key = prompt_key_phrase(prompt, topic)
     first = (
-        f"This prompt is valuable because it asks the topic to be handled through {profile['lens']}. "
+        f"This response treats {key} as the hinge of {topic}, keeping the question inside the branch discipline of {profile['lens']}. "
         f"{profile['stakes']}"
     )
 
@@ -901,8 +1269,8 @@ def prompt_response_paragraphs(page: dict, prompt: str, index: int) -> list[str]
         )
     elif focus == "examples":
         second = (
-            f"Examples should not merely decorate the page. They should show where the concept changes judgment, "
-            f"how it handles uncertainty, and what a reader would do differently after understanding it."
+            f"The examples have to carry argumentative weight: they should show how the concept changes judgment, "
+            f"where uncertainty remains, and what a reader would handle differently afterward."
         )
     elif focus == "mapping":
         second = (
@@ -921,7 +1289,7 @@ def prompt_response_paragraphs(page: dict, prompt: str, index: int) -> list[str]
         )
     else:
         second = (
-            f"The response should make the question more disciplined without prematurely closing it. "
+            f"The answer should discipline the question without pretending that the live difficulty has disappeared. "
             f"{profile['pressure']}"
         )
 
@@ -942,7 +1310,51 @@ def usable_thread_items(items: Iterable[str]) -> list[str]:
     return result
 
 
-def section_list_items(page: dict, index: int, prompt: str) -> list[str]:
+def source_detail_list_items(detail: dict | None, page: dict) -> list[str]:
+    if not detail:
+        return []
+
+    items: list[str] = []
+    children = detail.get("children", [])
+    for child in children:
+        label = strip_number_prefix(child.get("title", "")).strip(" .:")
+        if not label:
+            continue
+        if len(children) == 1 and "example" in label.lower() and child.get("paragraphs"):
+            for paragraph in child["paragraphs"][:6]:
+                item_label, item_body = split_label(paragraph)
+                if item_label and item_body:
+                    items.append(f"{item_label}: {rewrite_source_sentence(item_body)}")
+                else:
+                    items.append(rewrite_source_sentence(paragraph))
+            continue
+        body_source = ""
+        if child.get("paragraphs"):
+            body_source = child["paragraphs"][0]
+        elif child.get("items"):
+            body_source = child["items"][0]
+        if body_source:
+            items.append(f"{label}: {rewrite_source_sentence(body_source)}")
+        else:
+            items.append(f"{label}: This is one of the structural moves the prompt asks the reader to keep distinct.")
+
+    for raw_item in detail.get("items", []):
+        label, body = split_label(raw_item)
+        if label.lower() in {"pros", "cons"} and len(items) >= 3:
+            continue
+        if label and body:
+            items.append(f"{label}: {rewrite_source_sentence(body)}")
+        else:
+            items.append(rewrite_source_sentence(raw_item))
+
+    return dedupe([item for item in items if item])[:6]
+
+
+def section_list_items(page: dict, index: int, prompt: str, detail: dict | None = None) -> list[str]:
+    sourced_items = source_detail_list_items(detail, page)
+    if sourced_items:
+        return sourced_items
+
     threads = usable_thread_items(page.get("thread_like", []))
     focus = prompt_focus(prompt)
     child_titles = [child["title"] for child in page.get("children", [])]
@@ -982,14 +1394,16 @@ def section_list_items(page: dict, index: int, prompt: str) -> list[str]:
 
 def source_prompt_sections(page: dict, prompts: list[str]) -> list[dict]:
     sections = []
+    source_details = page.get("source_prompt_details", [])
     for index, prompt in enumerate(prompts, start=1):
+        detail = source_details[index - 1] if index - 1 < len(source_details) else None
         sections.append(
             {
                 "id": f"prompt-{index}",
-                "eyebrow": "Prompt Response",
-                "heading": prompt_heading(prompt, topic_label(page["title"])),
-                "paragraphs": prompt_response_paragraphs(page, prompt, index),
-                "list_items": section_list_items(page, index, prompt),
+                "eyebrow": "Reconstructed Response",
+                "heading": source_prompt_heading(prompt, topic_label(page["title"]), detail),
+                "paragraphs": prompt_response_paragraphs(page, prompt, index, detail),
+                "list_items": section_list_items(page, index, prompt, detail),
             }
         )
 
@@ -1200,7 +1614,16 @@ def compose_sections(page: dict) -> list[dict]:
 def render_list_section(items: list[str], item_tag: str = "li") -> str:
     if not items:
         return ""
-    inner = "\n".join(f"                <{item_tag}>{html.escape(item)}</{item_tag}>" for item in items)
+    rendered_items = []
+    for item in items:
+        label, body = split_label(item)
+        if label and body and item_tag == "li":
+            rendered_items.append(
+                f"                <li><strong>{html.escape(label)}:</strong> {html.escape(body)}</li>"
+            )
+        else:
+            rendered_items.append(f"                <{item_tag}>{html.escape(item)}</{item_tag}>")
+    inner = "\n".join(rendered_items)
     return f"\n              <ol>\n{inner}\n              </ol>"
 
 
@@ -1635,11 +2058,18 @@ def main() -> None:
             return page
 
         source_prompts, thread_like, _paragraphs = ([], [], [])
+        source_prompt_details: list[dict] = []
         if post:
             source_prompts, thread_like, _paragraphs = normalize_heading_list(
                 post.get("content", ""),
                 clean_text(title),
             )
+            source_prompt_details = extract_source_prompt_details(
+                post.get("content", ""),
+                clean_text(title),
+            )
+            if source_prompt_details:
+                source_prompts = [detail["prompt"] for detail in source_prompt_details]
         page = {
             "title": clean_text(title),
             "section_id": section_id,
@@ -1647,6 +2077,7 @@ def main() -> None:
             "source_url": source_url,
             "kind": infer_kind(title, bool(children)),
             "source_prompts": source_prompts,
+            "source_prompt_details": source_prompt_details,
             "thread_like": thread_like,
             "excerpt": strip_html(post.get("excerpt", "") if post else ""),
             "date": post.get("date", "") if post else "",
