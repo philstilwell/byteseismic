@@ -340,6 +340,29 @@ LOW_VALUE_PROMPT_PATTERNS = (
     "table of contents",
     "does this make sense",
 )
+UNAVAILABLE_ASSET_REFERENCE_PATTERNS = (
+    r"\bfollowing images?\b",
+    r"\bfollowing image\b",
+    r"\bthese images?\b",
+    r"\bthis image\b",
+    r"\bin this image\b",
+    r"\bimage above\b",
+    r"\babove image\b",
+    r"\buploaded screenshot\b",
+    r"\bprovided screenshot\b",
+    r"\battached screenshot\b",
+    r"\bprovided image\b",
+    r"\battached image\b",
+    r"\bsupplied image\b",
+    r"\bchart above\b",
+    r"\byour chart above\b",
+    r"\babove chart\b",
+    r"\bgraph above\b",
+    r"\byour graph above\b",
+    r"\babove graph\b",
+    r"\bvisual above\b",
+    r"\bfigure above\b",
+)
 PROMPT_STARTERS = (
     "provide",
     "produce",
@@ -363,6 +386,7 @@ PROMPT_STARTERS = (
     "comment",
     "weigh",
     "for each",
+    "take",
     "allow me",
     "i am",
 )
@@ -378,6 +402,102 @@ def clean_text(value: str | None) -> str:
     text = text.replace("\xa0", " ")
     text = re.sub(r"\s+", " ", text)
     return text.strip()
+
+
+def has_unavailable_asset_reference(text: str) -> bool:
+    lowered = clean_text(text).lower()
+    return any(re.search(pattern, lowered) for pattern in UNAVAILABLE_ASSET_REFERENCE_PATTERNS)
+
+
+def rewrite_unavailable_asset_references(text: str) -> str:
+    """Avoid referring to source-only visuals that are not present in the rebuild."""
+    rewritten = clean_text(text)
+    replacements = [
+        (r"\b[Tt]he following images reflect input from\b", "The source material summarizes input from"),
+        (r"\b[Ff]ollowing images reflect input from\b", "Source material summarizes input from"),
+        (r"\b[Tt]he following images\b", "the referenced source material"),
+        (r"\b[Tt]he following image\b", "the referenced source material"),
+        (r"\b[Ff]ollowing images\b", "referenced source material"),
+        (r"\b[Ff]ollowing image\b", "referenced source material"),
+        (r"\b[Tt]hese images\b", "the referenced source materials"),
+        (r"\b[Tt]his image portrays a scenario where\b", "The referenced scenario describes how"),
+        (r"\b[Tt]his image portrays\b", "The referenced scenario portrays"),
+        (r"\b[Tt]his image\b", "the referenced source material"),
+        (r"\b[Ii]n this image\b", "in the referenced source material"),
+        (r"\b[Ww]hat the percentages in referenced source material reflect\b", "what the unexplained percentages might represent"),
+        (r"\b[Pp]ercentages in referenced source material\b", "unexplained percentages"),
+        (r"\b[Pp]ercentages in the image related to geographical features\b", "percentages if interpreted as geographical features"),
+        (r"\b[Ii]n the image related to\b", "if interpreted as"),
+        (r"\b[Ee]laborate on each of the 12 points in the referenced source material\b", "Elaborate on the twelve listed points"),
+        (r"\b[Ee]ach of the 12 points in this image\b", "each of the twelve points in the referenced source material"),
+        (r"\b[Tt]he image above\b", "the referenced source material"),
+        (r"\b[Aa]bove image\b", "referenced source material"),
+        (r"\b[Uu]ploaded screenshot\b", "example under discussion"),
+        (r"\b[Tt]he uploaded screenshot\b", "the example under discussion"),
+        (r"\b[Pp]rovided screenshot\b", "example under discussion"),
+        (r"\b[Aa]ttached screenshot\b", "example under discussion"),
+        (r"\b[Pp]rovided image\b", "referenced source material"),
+        (r"\b[Aa]ttached image\b", "referenced source material"),
+        (r"\b[Ss]upplied image\b", "referenced source material"),
+        (r"\b[Tt]he radar chart above provides\b", "the trait comparison provides"),
+        (r"\b[Bb]ased on your chart above\b", "Based on the previous structured comparison"),
+        (r"\b[Bb]ased on your graph above\b", "Based on the previous quantitative comparison"),
+        (r"\b[Yy]our chart above\b", "the previous structured comparison"),
+        (r"\b[Yy]our graph above\b", "the previous quantitative comparison"),
+        (r"\b[Tt]he graph above shows\b", "a quantitative comparison would show"),
+        (r"\b[Tt]he graph above\b", "the quantitative comparison"),
+        (r"\b[Tt]he graph shows\b", "the data summary indicates"),
+        (r"\b[Tt]he chart above\b", "the prior comparison"),
+        (r"\b[Aa]bove chart\b", "prior comparison"),
+        (r"\b[Aa]bove graph\b", "quantitative comparison"),
+        (r"\b[Pp]ercentages across different states in the map\b", "state-level percentages"),
+        (r"\b[Ss]tates on the map\b", "states in the distribution"),
+        (r"\b[Ss]tates in the distribution\b", "states"),
+        (r"\b[Pp]ercentages shown on the map\b", "state-level percentages"),
+        (r"\b[Pp]ercentages on the map\b", "percentages in the state-level pattern"),
+        (r"\b[Vv]isual and contextual cues from the map\b", "contextual cues in the state-level pattern"),
+        (r"\b[Tt]he map shows\b", "the pattern shows"),
+        (r"\b[Tt]he map could indicate\b", "the distribution could indicate"),
+        (r"\b[Tt]he map might show\b", "the distribution might show"),
+        (r"\b[Tt]he map might be showing\b", "the distribution might show"),
+        (r"\b[Tt]his map\b", "this distribution"),
+        (r"\b[Ff]ormats like this distribution\b", "state-by-state formats"),
+        (r"\b[Tt]he map reflects\b", "the distribution reflects"),
+        (r"\b[Bb]elow is a chart outlining\b", "A structured comparison can outline"),
+        (r"\b[Hh]ere is a comparison chart of\b", "Here is a structured comparison of"),
+        (r"\b[Cc]omparison Chart\b", "Structured Comparison"),
+        (r"\b[Tt]his chart outlines\b", "the requested comparison outlines"),
+        (r"\b[Tt]his chart\b", "the referenced comparison"),
+        (r"\b[Tt]he chart provides\b", "the comparison provides"),
+        (r"\b[Tt]he chart shows\b", "the comparison shows"),
+        (r"\b[Tt]he chart suggests\b", "the comparison suggests"),
+        (r"\b[Tt]he chart is\b", "the comparison is"),
+        (r"\b[Tt]he chart represents\b", "the comparison represents"),
+        (r"\b[Rr]adar chart\b", "trait comparison"),
+        (r"\b[Gg]enerated Visual Representation\b", "Generated Descriptive Representation"),
+        (r"\b[Uu]pdated Visual Representation\b", "Updated Descriptive Representation"),
+        (r"\b[Vv]isual comparison of the traits\b", "comparative account of the traits"),
+        (r"\b[Pp]rovide a visual comparison of the traits\b", "provide a comparative account of the traits"),
+        (r"\b[Cc]reating an accurate visual representation\b", "Creating an accurate descriptive representation"),
+        (r"\b[Mm]ermaid Chart code\b", "Mermaid-compatible model structure"),
+        (r"\b[Mm]ermaid Chart\b", "Mermaid-compatible model"),
+        (r"\b[Mm]ermaid chart\b", "Mermaid-compatible model"),
+        (
+            r"\b[Yy]ou can paste this code into a Mermaid-compatible tool \(e\.g\., Mermaid Live Editor, or a WordPress plugin like Mermaid-compatible model\) to generate the visual\.",
+            "The model can be translated into Mermaid syntax if code output is later added.",
+        ),
+        (r"\bto generate the visual\b", "to render the model"),
+        (r"\b[Cc]reate a graph that\b", "Create a quantitative account that"),
+        (r"\b[Cc]reate a chart showing\b", "Create a structured comparison showing"),
+        (r"\b[Cc]reate a chart that details\b", "Create a structured account detailing"),
+        (r"\b[Pp]rovide a comparison chart of\b", "Provide a structured comparison of"),
+        (r"\b[Cc]hart the curve that\b", "Describe the curve that"),
+        (r"\b[Ii] will now create the trait comparison to provide\b", "A structured trait comparison can provide"),
+    ]
+    for pattern, replacement in replacements:
+        rewritten = re.sub(pattern, replacement, rewritten)
+    rewritten = re.sub(r"\s+([.,;:!?])", r"\1", rewritten)
+    return clean_text(rewritten)
 
 
 def canonical_url(url: str) -> str:
@@ -814,6 +934,7 @@ def rewrite_source_sentence(text: str) -> str:
     ]
     for pattern, replacement in replacements:
         sentence = re.sub(pattern, replacement, sentence)
+    sentence = rewrite_unavailable_asset_references(sentence)
     sentence = re.sub(r"\s+([.,;:!?])", r"\1", sentence)
     sentence = re.sub(r"([.!?][”\"])\.", r"\1", sentence)
     sentence = compact_text(sentence, 280).strip()
@@ -823,6 +944,30 @@ def rewrite_source_sentence(text: str) -> str:
     if sentence and sentence[-1] not in ".!?" and not closed_quote_punctuation:
         sentence += "."
     return sentence
+
+
+def detail_has_source_material(detail: dict) -> bool:
+    if detail.get("paragraphs") or detail.get("items"):
+        return True
+    for child in detail.get("children", []):
+        if child.get("paragraphs") or child.get("items"):
+            return True
+    return False
+
+
+def should_keep_source_prompt_detail(detail: dict) -> bool:
+    if detail_has_source_material(detail):
+        return True
+    prompt = clean_text(detail.get("prompt", ""))
+    if not looks_like_prompt(prompt):
+        return False
+    if has_unavailable_asset_reference(prompt):
+        return False
+    return not re.search(
+        r"\b(referenced source material|source material summarizes|referenced scenario|prior comparison)\b",
+        prompt,
+        flags=re.IGNORECASE,
+    )
 
 
 def extract_source_prompt_details(content_html: str, title: str) -> list[dict]:
@@ -925,6 +1070,7 @@ def clarify_prompt(text: str) -> str:
     prompt = re.sub(r"\bthe discussion above\b", "this discussion", prompt, flags=re.IGNORECASE)
     prompt = re.sub(r"\bcontent above\b", "this discussion", prompt, flags=re.IGNORECASE)
     prompt = re.sub(r"\bthread above\b", "this discussion", prompt, flags=re.IGNORECASE)
+    prompt = rewrite_unavailable_asset_references(prompt)
     if prompt:
         prompt = prompt[0].upper() + prompt[1:]
     return prompt
@@ -1103,11 +1249,11 @@ def source_detail_labels(detail: dict | None) -> list[str]:
         return []
     labels: list[str] = []
     for child in detail.get("children", []):
-        labels.append(strip_number_prefix(child.get("title", "")))
+        labels.append(rewrite_unavailable_asset_references(strip_number_prefix(child.get("title", ""))))
     for item in detail.get("items", []):
         label, body = split_label(item)
         if label and body:
-            labels.append(label)
+            labels.append(rewrite_unavailable_asset_references(label))
     return usable_thread_items(dedupe(labels))[:5]
 
 
@@ -1299,6 +1445,7 @@ def prompt_response_paragraphs(page: dict, prompt: str, index: int, detail: dict
 def usable_thread_items(items: Iterable[str]) -> list[str]:
     result = []
     for item in items:
+        item = rewrite_unavailable_asset_references(item)
         lowered = clean_text(item).lower()
         if not item or looks_like_prompt(item) or is_low_value_prompt(item):
             continue
@@ -1317,7 +1464,7 @@ def source_detail_list_items(detail: dict | None, page: dict) -> list[str]:
     items: list[str] = []
     children = detail.get("children", [])
     for child in children:
-        label = strip_number_prefix(child.get("title", "")).strip(" .:")
+        label = rewrite_unavailable_asset_references(strip_number_prefix(child.get("title", ""))).strip(" .:")
         if not label:
             continue
         if len(children) == 1 and "example" in label.lower() and child.get("paragraphs"):
@@ -1340,6 +1487,7 @@ def source_detail_list_items(detail: dict | None, page: dict) -> list[str]:
 
     for raw_item in detail.get("items", []):
         label, body = split_label(raw_item)
+        label = rewrite_unavailable_asset_references(label)
         if label.lower() in {"pros", "cons"} and len(items) >= 3:
             continue
         if label and body:
@@ -2401,6 +2549,9 @@ def main() -> None:
                 post.get("content", ""),
                 clean_text(title),
             )
+            source_prompt_details = [
+                detail for detail in source_prompt_details if should_keep_source_prompt_detail(detail)
+            ]
             if source_prompt_details:
                 source_prompts = [detail["prompt"] for detail in source_prompt_details]
         page = {

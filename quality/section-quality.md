@@ -2,9 +2,9 @@
 
 Generated: 2026-05-20
 
-Tracked prompt-response sections: 1793
-Average score: 91.7
-Needs review: 164 (9.1%)
+Tracked prompt-response sections: 1788
+Average score: 91.9
+Needs review: 159 (8.9%)
 
 ## Branch Summary
 
@@ -12,14 +12,14 @@ Needs review: 164 (9.1%)
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
 | Philosophers | 77.8 | 75/216 | 122 | 19 | 74 | 1 |
 | Political Philosophy | 92.2 | 5/51 | 44 | 2 | 5 | 0 |
-| Ethics | 91.8 | 12/131 | 111 | 8 | 7 | 5 |
 | Miscellany | 92.2 | 6/67 | 57 | 4 | 6 | 0 |
+| Ethics | 92.6 | 10/129 | 111 | 8 | 7 | 3 |
 | Rational Thought | 93.1 | 13/183 | 161 | 9 | 12 | 1 |
-| Philosophical Inquiry | 92.9 | 10/151 | 135 | 6 | 8 | 2 |
 | Economics | 93.8 | 7/114 | 102 | 5 | 7 | 0 |
-| Metaphysics | 93.7 | 5/83 | 71 | 7 | 4 | 1 |
+| Philosophical Inquiry | 93.2 | 9/150 | 135 | 6 | 8 | 1 |
 | Philosophy of AI | 94.5 | 5/87 | 81 | 1 | 5 | 0 |
-| Epistemology | 92.7 | 14/265 | 230 | 21 | 12 | 2 |
+| Epistemology | 93.0 | 13/264 | 230 | 21 | 12 | 1 |
+| Metaphysics | 94.4 | 4/82 | 71 | 7 | 4 | 0 |
 | Philosophy of Language | 95.0 | 4/85 | 77 | 4 | 4 | 0 |
 | Humanistic Philosophies | 93.8 | 3/78 | 72 | 3 | 2 | 1 |
 | Introduction | 95.3 | 1/36 | 34 | 1 | 1 | 0 |
@@ -28,13 +28,8 @@ Needs review: 164 (9.1%)
 
 ## Weakest Sections
 
-- `thin` 25 [Epistemology / What is Faith?#prompt-1](../epistemology/what-is-faith/#prompt-1): No clear source claim was extracted.; The section has one or fewer concrete support items.; The source material provides little internal hierarchy.
 - `thin` 37 [Ethics / Fictional Meta-Ethics Debate#prompt-2](../ethics/fictional-meta-ethics-debate/#prompt-2): No clear source claim was extracted.; The source material provides little internal hierarchy.; Support items are mostly labels rather than explanatory claims.
-- `thin` 37 [Ethics / Fictional Meta-Ethics Debate#prompt-3](../ethics/fictional-meta-ethics-debate/#prompt-3): No clear source claim was extracted.; The source material provides little internal hierarchy.; Support items are mostly labels rather than explanatory claims.
-- `thin` 37 [Ethics / Fictional Meta-Ethics Debate#prompt-4](../ethics/fictional-meta-ethics-debate/#prompt-4): No clear source claim was extracted.; The source material provides little internal hierarchy.; Support items are mostly labels rather than explanatory claims.
-- `thin` 37 [Metaphysics / Emergence#prompt-2](../metaphysics/emergence/#prompt-2): No clear source claim was extracted.; The source material provides little internal hierarchy.; Support items are mostly labels rather than explanatory claims.
 - `thin` 37 [Philosophical Inquiry / Dangers: Untestable Ideologies#prompt-3](../philosophical-inquiry/dangers-untestable-ideologies/#prompt-3): The section has one or fewer concrete support items.; The source material provides little internal hierarchy.
-- `thin` 37 [Philosophical Inquiry / Personal Truth?#prompt-4](../philosophical-inquiry/personal-truth/#prompt-4): No clear source claim was extracted.; The source material provides little internal hierarchy.; Support items are mostly labels rather than explanatory claims.
 - `thin` 41 [Philosophers / David Hume#prompt-1](../philosophers/david-hume/#prompt-1): The section has one or fewer concrete support items.; Support items are mostly labels rather than explanatory claims.
 - `thin` 42 [Ethics / Equivocation on “Wrong”#prompt-1](../ethics/equivocation-on-wrong/#prompt-1): No clear source claim was extracted.; The source material provides little internal hierarchy.
 - `thin` 43 [Epistemology / Case #2 – The Telephone Game#prompt-3](../epistemology/case-2-the-telephone-game/#prompt-3): The section has one or fewer concrete support items.; Support items are mostly labels rather than explanatory claims.
@@ -125,7 +120,7 @@ Needs review: 164 (9.1%)
 - `developing` 58 [Rational Thought / Assessing Arguments#prompt-1](../rational-thought/assessing-arguments/#prompt-1): Support items are mostly labels rather than explanatory claims.
 - `developing` 58 [Rational Thought / Calculating Risks#prompt-1](../rational-thought/calculating-risks/#prompt-1): Support items are mostly labels rather than explanatory claims.
 - `developing` 58 [Rational Thought / Perverse Incentives#prompt-1](../rational-thought/perverse-incentives/#prompt-1): Support items are mostly labels rather than explanatory claims.
-- `developing` 59 [Metaphysics / Emergence#prompt-3](../metaphysics/emergence/#prompt-3): The section has one or fewer concrete support items.
+- `developing` 59 [Metaphysics / Emergence#prompt-2](../metaphysics/emergence/#prompt-2): The section has one or fewer concrete support items.
 - `developing` 59 [Miscellany / Information Theory#prompt-3](../miscellany/information-theory/#prompt-3): The section has one or fewer concrete support items.
 - `developing` 59 [Philosophers / Baruch Spinoza#prompt-3](../philosophers/baruch-spinoza/#prompt-3): The section has one or fewer concrete support items.
 - `developing` 59 [Philosophers / Bertrand Russel#prompt-4](../philosophers/bertrand-russell/#prompt-4): The section has one or fewer concrete support items.
@@ -150,7 +145,7 @@ Needs review: 164 (9.1%)
 - `developing` 61 [Epistemology / Abduction: Utility and Issues#prompt-1](../epistemology/abduction-utility-and-issues/#prompt-1): The section has one or fewer concrete support items.
 - `developing` 61 [Epistemology / Avoiding Single-Cause Dogmatism#prompt-1](../epistemology/avoiding-single-cause-dogmatism/#prompt-1): This section is adequate scaffolding but should be considered for a hand-polish pass.
 - `developing` 61 [Epistemology / Charles Darwin#prompt-4](../epistemology/charles-darwin/#prompt-4): The section has one or fewer concrete support items.
-- `developing` 61 [Ethics / Fictional Meta-Ethics Debate#prompt-5](../ethics/fictional-meta-ethics-debate/#prompt-5): The section has one or fewer concrete support items.
+- `developing` 61 [Ethics / Fictional Meta-Ethics Debate#prompt-3](../ethics/fictional-meta-ethics-debate/#prompt-3): The section has one or fewer concrete support items.
 - `developing` 61 [Humanistic Philosophies / Russell on Faith#prompt-3](../humanistic-philosophies/russell-on-faith/#prompt-3): The section has one or fewer concrete support items.
 - `developing` 61 [Metaphysics / Categories of Nihilism#prompt-1](../metaphysics/categories-of-nihilism/#prompt-1): The section has one or fewer concrete support items.
 - `developing` 61 [Miscellany / Assembly Theory#prompt-2](../miscellany/assembly-theory/#prompt-2): The section has one or fewer concrete support items.
@@ -178,3 +173,8 @@ Needs review: 164 (9.1%)
 - `developing` 61 [Philosophers / William of Ockham#prompt-4](../philosophers/william-of-ockham/#prompt-4): The section has one or fewer concrete support items.
 - `developing` 61 [Philosophical Inquiry / Dangers: Ideologies of Mystery#prompt-1](../philosophical-inquiry/dangers-ideologies-of-mystery/#prompt-1): The section has one or fewer concrete support items.
 - `developing` 61 [Philosophical Inquiry / Dangers: Narrative#prompt-1](../philosophical-inquiry/dangers-narrative/#prompt-1): The section has one or fewer concrete support items.
+- `developing` 61 [Philosophical Inquiry / Logic wherever Structure#prompt-1](../philosophical-inquiry/logic-wherever-structure/#prompt-1): This section is adequate scaffolding but should be considered for a hand-polish pass.
+- `developing` 61 [Philosophical Inquiry / Our View of Humanity#prompt-2](../philosophical-inquiry/our-view-of-humanity/#prompt-2): The section has one or fewer concrete support items.
+- `developing` 61 [Philosophy of AI / A Novel AI Thought experiment?#prompt-2](../philosophy-of-ai/a-novel-ai-thought-experiment/#prompt-2): The section has one or fewer concrete support items.
+- `developing` 61 [Philosophy of AI / Synthetic AI Data#prompt-2](../philosophy-of-ai/synthetic-ai-data/#prompt-2): The section has one or fewer concrete support items.
+- `developing` 61 [Philosophy of AI / Synthetic AI Data#prompt-3](../philosophy-of-ai/synthetic-ai-data/#prompt-3): The section has one or fewer concrete support items.

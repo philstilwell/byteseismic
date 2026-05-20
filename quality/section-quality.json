@@ -1,10 +1,10 @@
 {
   "generatedAt": "2026-05-20",
   "overall": {
-    "totalPromptSections": 1793,
-    "averageScore": 91.7,
-    "needsReview": 164,
-    "needsReviewRate": 0.091
+    "totalPromptSections": 1788,
+    "averageScore": 91.9,
+    "needsReview": 159,
+    "needsReviewRate": 0.089
   },
   "sectionSummaries": [
     {
@@ -619,320 +619,6 @@
       ]
     },
     {
-      "sectionId": "ethics",
-      "sectionName": "Ethics",
-      "total": 131,
-      "averageScore": 91.8,
-      "needsReview": 12,
-      "needsReviewRate": 0.092,
-      "levels": {
-        "strong": 111,
-        "good": 8,
-        "developing": 7,
-        "thin": 5
-      },
-      "weakest": [
-        {
-          "sectionId": "ethics",
-          "sectionName": "Ethics",
-          "pageTitle": "Fictional Meta-Ethics Debate",
-          "pagePath": "/ethics/fictional-meta-ethics-debate/",
-          "anchor": "prompt-2",
-          "url": "/ethics/fictional-meta-ethics-debate/#prompt-2",
-          "prompt": "Stilwell would like to reformulate his position into something stronger: Moral intuitions are actually emotional intuitions and their emergent values. The use of the term moral in this context is superfluous. Continue the dialogue",
-          "heading": "Moral intuitions are actually emotional intuitions and their emergent values is the pressure point.",
-          "score": 37,
-          "level": "thin",
-          "needsReview": true,
-          "wordCount": 116,
-          "avgItemWords": 3.5,
-          "metrics": {
-            "children": 0,
-            "sourceParagraphs": 0,
-            "sourceItems": 0,
-            "labels": 0
-          },
-          "reasons": [
-            "No clear source claim was extracted.",
-            "The source material provides little internal hierarchy.",
-            "Support items are mostly labels rather than explanatory claims."
-          ]
-        },
-        {
-          "sectionId": "ethics",
-          "sectionName": "Ethics",
-          "pageTitle": "Fictional Meta-Ethics Debate",
-          "pagePath": "/ethics/fictional-meta-ethics-debate/",
-          "anchor": "prompt-3",
-          "url": "/ethics/fictional-meta-ethics-debate/#prompt-3",
-          "prompt": "I am still dissatisfied with what seems to be a reification of moral intuitions into something weightier than mere emotions. Can we not simply dispense with the muddy term moral and use the terms emotions or values when discussing human behavior? Continue the dialogue accordingly.",
-          "heading": "I am still dissatisfied with what seems to be a reification of moral intuitions into is the pressure point.",
-          "score": 37,
-          "level": "thin",
-          "needsReview": true,
-          "wordCount": 121,
-          "avgItemWords": 3.5,
-          "metrics": {
-            "children": 0,
-            "sourceParagraphs": 0,
-            "sourceItems": 0,
-            "labels": 0
-          },
-          "reasons": [
-            "No clear source claim was extracted.",
-            "The source material provides little internal hierarchy.",
-            "Support items are mostly labels rather than explanatory claims."
-          ]
-        },
-        {
-          "sectionId": "ethics",
-          "sectionName": "Ethics",
-          "pageTitle": "Fictional Meta-Ethics Debate",
-          "pagePath": "/ethics/fictional-meta-ethics-debate/",
-          "anchor": "prompt-4",
-          "url": "/ethics/fictional-meta-ethics-debate/#prompt-4",
-          "prompt": "It is precisely the notion of normative force that I am objecting to. The use of the term normative appears to be simply another attempt to sneak in the assumption of an actual moral realm, and ignores the position of the moral anti-realist that there is no actual moral or normative realm in which moral or normative facts can reside. Continue the dialogue accordingly.",
-          "heading": "The use of the term normative appears to be simply another attempt to sneak in the is the pressure point.",
-          "score": 37,
-          "level": "thin",
-          "needsReview": true,
-          "wordCount": 122,
-          "avgItemWords": 3.5,
-          "metrics": {
-            "children": 0,
-            "sourceParagraphs": 0,
-            "sourceItems": 0,
-            "labels": 0
-          },
-          "reasons": [
-            "No clear source claim was extracted.",
-            "The source material provides little internal hierarchy.",
-            "Support items are mostly labels rather than explanatory claims."
-          ]
-        },
-        {
-          "sectionId": "ethics",
-          "sectionName": "Ethics",
-          "pageTitle": "Equivocation on “Wrong”",
-          "pagePath": "/ethics/equivocation-on-wrong/",
-          "anchor": "prompt-1",
-          "url": "/ethics/equivocation-on-wrong/#prompt-1",
-          "prompt": "What term is defined as having different meanings such as legal justice, distributive justice, and social justice?",
-          "heading": "What term is defined as having different meanings such as legal justice, distributive is the pressure point.",
-          "score": 42,
-          "level": "thin",
-          "needsReview": true,
-          "wordCount": 162,
-          "avgItemWords": 11.2,
-          "metrics": {
-            "children": 0,
-            "sourceParagraphs": 0,
-            "sourceItems": 0,
-            "labels": 0
-          },
-          "reasons": [
-            "No clear source claim was extracted.",
-            "The source material provides little internal hierarchy."
-          ]
-        },
-        {
-          "sectionId": "ethics",
-          "sectionName": "Ethics",
-          "pageTitle": "Equivocation on “Wrong”",
-          "pagePath": "/ethics/equivocation-on-wrong/",
-          "anchor": "prompt-3",
-          "url": "/ethics/equivocation-on-wrong/#prompt-3",
-          "prompt": "Equality of outcome is a concept under which term?",
-          "heading": "The term “rights” can be categorized into all the following except gives the response its center of gravity.",
-          "score": 43,
-          "level": "thin",
-          "needsReview": true,
-          "wordCount": 125,
-          "avgItemWords": 23.0,
-          "metrics": {
-            "children": 1,
-            "sourceParagraphs": 1,
-            "sourceItems": 0,
-            "labels": 1
-          },
-          "reasons": [
-            "The section has one or fewer concrete support items.",
-            "The source material provides little internal hierarchy."
-          ]
-        },
-        {
-          "sectionId": "ethics",
-          "sectionName": "Ethics",
-          "pageTitle": "Equivocation on “Wrong”",
-          "pagePath": "/ethics/equivocation-on-wrong/",
-          "anchor": "prompt-2",
-          "url": "/ethics/equivocation-on-wrong/#prompt-2",
-          "prompt": "Which type of “freedom” refers to the absence of interference in an individual’s actions?",
-          "heading": "Which type of “freedom” refers to the absence of interference in an individual’s actions is the pressure point.",
-          "score": 47,
-          "level": "developing",
-          "needsReview": true,
-          "wordCount": 110,
-          "avgItemWords": 3.7,
-          "metrics": {
-            "children": 0,
-            "sourceParagraphs": 1,
-            "sourceItems": 0,
-            "labels": 0
-          },
-          "reasons": [
-            "The source material provides little internal hierarchy.",
-            "Support items are mostly labels rather than explanatory claims."
-          ]
-        },
-        {
-          "sectionId": "ethics",
-          "sectionName": "Ethics",
-          "pageTitle": "Equivocation on “Wrong”",
-          "pagePath": "/ethics/equivocation-on-wrong/",
-          "anchor": "prompt-4",
-          "url": "/ethics/equivocation-on-wrong/#prompt-4",
-          "prompt": "Which of the following best describes “instrumental value”?",
-          "heading": "Instrumental value is the pressure point.",
-          "score": 50,
-          "level": "developing",
-          "needsReview": true,
-          "wordCount": 110,
-          "avgItemWords": 3.5,
-          "metrics": {
-            "children": 0,
-            "sourceParagraphs": 1,
-            "sourceItems": 0,
-            "labels": 0
-          },
-          "reasons": [
-            "The source material provides little internal hierarchy.",
-            "Support items are mostly labels rather than explanatory claims."
-          ]
-        },
-        {
-          "sectionId": "ethics",
-          "sectionName": "Ethics",
-          "pageTitle": "Compassion vs Moral Systems",
-          "pagePath": "/ethics/compassion-vs-moral-systems/",
-          "anchor": "prompt-1",
-          "url": "/ethics/compassion-vs-moral-systems/#prompt-1",
-          "prompt": "Unless compassion equates to morality, we can treat the effects of the two independently. Is there any reason sufficient compassion would not out-perform all moral systems based on their own metrics for “ morality “?",
-          "heading": "Compassion and Morality: A Relationship gives the response its center of gravity.",
-          "score": 53,
-          "level": "developing",
-          "needsReview": true,
-          "wordCount": 129,
-          "avgItemWords": 24.0,
-          "metrics": {
-            "children": 1,
-            "sourceParagraphs": 3,
-            "sourceItems": 0,
-            "labels": 1
-          },
-          "reasons": [
-            "The section has one or fewer concrete support items."
-          ]
-        },
-        {
-          "sectionId": "ethics",
-          "sectionName": "Ethics",
-          "pageTitle": "The Value Selection Hypothesis",
-          "pagePath": "/ethics/the-value-selection-hypothesis/",
-          "anchor": "prompt-4",
-          "url": "/ethics/the-value-selection-hypothesis/#prompt-4",
-          "prompt": "A corollary of this is that all mentions of “morality” can be reduced to notions of emotions and emotionally-derived values, right?",
-          "heading": "Emotion as the Basis of Morality in a Non-Realist Framework gives the response its center of gravity.",
-          "score": 55,
-          "level": "developing",
-          "needsReview": true,
-          "wordCount": 160,
-          "avgItemWords": 40.0,
-          "metrics": {
-            "children": 1,
-            "sourceParagraphs": 2,
-            "sourceItems": 4,
-            "labels": 1
-          },
-          "reasons": [
-            "The section has one or fewer concrete support items."
-          ]
-        },
-        {
-          "sectionId": "ethics",
-          "sectionName": "Ethics",
-          "pageTitle": "The Value Selection Hypothesis",
-          "pagePath": "/ethics/the-value-selection-hypothesis/",
-          "anchor": "prompt-1",
-          "url": "/ethics/the-value-selection-hypothesis/#prompt-1",
-          "prompt": "What is the value selection hypothesis?",
-          "heading": "Value Selection Hypothesis gives the response its center of gravity.",
-          "score": 56,
-          "level": "developing",
-          "needsReview": true,
-          "wordCount": 120,
-          "avgItemWords": 20.0,
-          "metrics": {
-            "children": 1,
-            "sourceParagraphs": 2,
-            "sourceItems": 5,
-            "labels": 1
-          },
-          "reasons": [
-            "The section has one or fewer concrete support items."
-          ]
-        },
-        {
-          "sectionId": "ethics",
-          "sectionName": "Ethics",
-          "pageTitle": "The Value Selection Hypothesis",
-          "pagePath": "/ethics/the-value-selection-hypothesis/",
-          "anchor": "prompt-2",
-          "url": "/ethics/the-value-selection-hypothesis/#prompt-2",
-          "prompt": "Can this hypothesis accommodate moral non-realism?",
-          "heading": "Value Selection Hypothesis and Moral Non-Realism gives the response its center of gravity.",
-          "score": 56,
-          "level": "developing",
-          "needsReview": true,
-          "wordCount": 110,
-          "avgItemWords": 15.0,
-          "metrics": {
-            "children": 1,
-            "sourceParagraphs": 3,
-            "sourceItems": 3,
-            "labels": 1
-          },
-          "reasons": [
-            "The section has one or fewer concrete support items."
-          ]
-        },
-        {
-          "sectionId": "ethics",
-          "sectionName": "Ethics",
-          "pageTitle": "Fictional Meta-Ethics Debate",
-          "pagePath": "/ethics/fictional-meta-ethics-debate/",
-          "anchor": "prompt-5",
-          "url": "/ethics/fictional-meta-ethics-debate/#prompt-5",
-          "prompt": "Consistent with my position, I would like to dispense with the term moral landscape and employ terms more consistent with moral anti-realism such as the landscape of socially acceptable behaviors . Is this possible? Continue the dialogue accordingly.",
-          "heading": "Feasibility of Challenging the Notion of a Moral Realm with Moral Anti-Realism gives the response its center of gravity.",
-          "score": 61,
-          "level": "developing",
-          "needsReview": true,
-          "wordCount": 137,
-          "avgItemWords": 29.0,
-          "metrics": {
-            "children": 1,
-            "sourceParagraphs": 4,
-            "sourceItems": 6,
-            "labels": 1
-          },
-          "reasons": [
-            "The section has one or fewer concrete support items."
-          ]
-        }
-      ]
-    },
-    {
       "sectionId": "miscellany",
       "sectionName": "Miscellany",
       "total": 67,
@@ -1237,6 +923,316 @@
       ]
     },
     {
+      "sectionId": "ethics",
+      "sectionName": "Ethics",
+      "total": 129,
+      "averageScore": 92.6,
+      "needsReview": 10,
+      "needsReviewRate": 0.078,
+      "levels": {
+        "strong": 111,
+        "good": 8,
+        "developing": 7,
+        "thin": 3
+      },
+      "weakest": [
+        {
+          "sectionId": "ethics",
+          "sectionName": "Ethics",
+          "pageTitle": "Fictional Meta-Ethics Debate",
+          "pagePath": "/ethics/fictional-meta-ethics-debate/",
+          "anchor": "prompt-2",
+          "url": "/ethics/fictional-meta-ethics-debate/#prompt-2",
+          "prompt": "I am still dissatisfied with what seems to be a reification of moral intuitions into something weightier than mere emotions. Can we not simply dispense with the muddy term moral and use the terms emotions or values when discussing human behavior? Continue the dialogue accordingly.",
+          "heading": "I am still dissatisfied with what seems to be a reification of moral intuitions into is the pressure point.",
+          "score": 37,
+          "level": "thin",
+          "needsReview": true,
+          "wordCount": 121,
+          "avgItemWords": 3.5,
+          "metrics": {
+            "children": 0,
+            "sourceParagraphs": 0,
+            "sourceItems": 0,
+            "labels": 0
+          },
+          "reasons": [
+            "No clear source claim was extracted.",
+            "The source material provides little internal hierarchy.",
+            "Support items are mostly labels rather than explanatory claims."
+          ]
+        },
+        {
+          "sectionId": "ethics",
+          "sectionName": "Ethics",
+          "pageTitle": "Equivocation on “Wrong”",
+          "pagePath": "/ethics/equivocation-on-wrong/",
+          "anchor": "prompt-1",
+          "url": "/ethics/equivocation-on-wrong/#prompt-1",
+          "prompt": "What term is defined as having different meanings such as legal justice, distributive justice, and social justice?",
+          "heading": "What term is defined as having different meanings such as legal justice, distributive is the pressure point.",
+          "score": 42,
+          "level": "thin",
+          "needsReview": true,
+          "wordCount": 162,
+          "avgItemWords": 11.2,
+          "metrics": {
+            "children": 0,
+            "sourceParagraphs": 0,
+            "sourceItems": 0,
+            "labels": 0
+          },
+          "reasons": [
+            "No clear source claim was extracted.",
+            "The source material provides little internal hierarchy."
+          ]
+        },
+        {
+          "sectionId": "ethics",
+          "sectionName": "Ethics",
+          "pageTitle": "Equivocation on “Wrong”",
+          "pagePath": "/ethics/equivocation-on-wrong/",
+          "anchor": "prompt-3",
+          "url": "/ethics/equivocation-on-wrong/#prompt-3",
+          "prompt": "Equality of outcome is a concept under which term?",
+          "heading": "The term “rights” can be categorized into all the following except gives the response its center of gravity.",
+          "score": 43,
+          "level": "thin",
+          "needsReview": true,
+          "wordCount": 125,
+          "avgItemWords": 23.0,
+          "metrics": {
+            "children": 1,
+            "sourceParagraphs": 1,
+            "sourceItems": 0,
+            "labels": 1
+          },
+          "reasons": [
+            "The section has one or fewer concrete support items.",
+            "The source material provides little internal hierarchy."
+          ]
+        },
+        {
+          "sectionId": "ethics",
+          "sectionName": "Ethics",
+          "pageTitle": "Equivocation on “Wrong”",
+          "pagePath": "/ethics/equivocation-on-wrong/",
+          "anchor": "prompt-2",
+          "url": "/ethics/equivocation-on-wrong/#prompt-2",
+          "prompt": "Which type of “freedom” refers to the absence of interference in an individual’s actions?",
+          "heading": "Which type of “freedom” refers to the absence of interference in an individual’s actions is the pressure point.",
+          "score": 47,
+          "level": "developing",
+          "needsReview": true,
+          "wordCount": 110,
+          "avgItemWords": 3.7,
+          "metrics": {
+            "children": 0,
+            "sourceParagraphs": 1,
+            "sourceItems": 0,
+            "labels": 0
+          },
+          "reasons": [
+            "The source material provides little internal hierarchy.",
+            "Support items are mostly labels rather than explanatory claims."
+          ]
+        },
+        {
+          "sectionId": "ethics",
+          "sectionName": "Ethics",
+          "pageTitle": "Equivocation on “Wrong”",
+          "pagePath": "/ethics/equivocation-on-wrong/",
+          "anchor": "prompt-4",
+          "url": "/ethics/equivocation-on-wrong/#prompt-4",
+          "prompt": "Which of the following best describes “instrumental value”?",
+          "heading": "Instrumental value is the pressure point.",
+          "score": 50,
+          "level": "developing",
+          "needsReview": true,
+          "wordCount": 110,
+          "avgItemWords": 3.5,
+          "metrics": {
+            "children": 0,
+            "sourceParagraphs": 1,
+            "sourceItems": 0,
+            "labels": 0
+          },
+          "reasons": [
+            "The source material provides little internal hierarchy.",
+            "Support items are mostly labels rather than explanatory claims."
+          ]
+        },
+        {
+          "sectionId": "ethics",
+          "sectionName": "Ethics",
+          "pageTitle": "Compassion vs Moral Systems",
+          "pagePath": "/ethics/compassion-vs-moral-systems/",
+          "anchor": "prompt-1",
+          "url": "/ethics/compassion-vs-moral-systems/#prompt-1",
+          "prompt": "Unless compassion equates to morality, we can treat the effects of the two independently. Is there any reason sufficient compassion would not out-perform all moral systems based on their own metrics for “ morality “?",
+          "heading": "Compassion and Morality: A Relationship gives the response its center of gravity.",
+          "score": 53,
+          "level": "developing",
+          "needsReview": true,
+          "wordCount": 129,
+          "avgItemWords": 24.0,
+          "metrics": {
+            "children": 1,
+            "sourceParagraphs": 3,
+            "sourceItems": 0,
+            "labels": 1
+          },
+          "reasons": [
+            "The section has one or fewer concrete support items."
+          ]
+        },
+        {
+          "sectionId": "ethics",
+          "sectionName": "Ethics",
+          "pageTitle": "The Value Selection Hypothesis",
+          "pagePath": "/ethics/the-value-selection-hypothesis/",
+          "anchor": "prompt-4",
+          "url": "/ethics/the-value-selection-hypothesis/#prompt-4",
+          "prompt": "A corollary of this is that all mentions of “morality” can be reduced to notions of emotions and emotionally-derived values, right?",
+          "heading": "Emotion as the Basis of Morality in a Non-Realist Framework gives the response its center of gravity.",
+          "score": 55,
+          "level": "developing",
+          "needsReview": true,
+          "wordCount": 160,
+          "avgItemWords": 40.0,
+          "metrics": {
+            "children": 1,
+            "sourceParagraphs": 2,
+            "sourceItems": 4,
+            "labels": 1
+          },
+          "reasons": [
+            "The section has one or fewer concrete support items."
+          ]
+        },
+        {
+          "sectionId": "ethics",
+          "sectionName": "Ethics",
+          "pageTitle": "The Value Selection Hypothesis",
+          "pagePath": "/ethics/the-value-selection-hypothesis/",
+          "anchor": "prompt-1",
+          "url": "/ethics/the-value-selection-hypothesis/#prompt-1",
+          "prompt": "What is the value selection hypothesis?",
+          "heading": "Value Selection Hypothesis gives the response its center of gravity.",
+          "score": 56,
+          "level": "developing",
+          "needsReview": true,
+          "wordCount": 120,
+          "avgItemWords": 20.0,
+          "metrics": {
+            "children": 1,
+            "sourceParagraphs": 2,
+            "sourceItems": 5,
+            "labels": 1
+          },
+          "reasons": [
+            "The section has one or fewer concrete support items."
+          ]
+        },
+        {
+          "sectionId": "ethics",
+          "sectionName": "Ethics",
+          "pageTitle": "The Value Selection Hypothesis",
+          "pagePath": "/ethics/the-value-selection-hypothesis/",
+          "anchor": "prompt-2",
+          "url": "/ethics/the-value-selection-hypothesis/#prompt-2",
+          "prompt": "Can this hypothesis accommodate moral non-realism?",
+          "heading": "Value Selection Hypothesis and Moral Non-Realism gives the response its center of gravity.",
+          "score": 56,
+          "level": "developing",
+          "needsReview": true,
+          "wordCount": 110,
+          "avgItemWords": 15.0,
+          "metrics": {
+            "children": 1,
+            "sourceParagraphs": 3,
+            "sourceItems": 3,
+            "labels": 1
+          },
+          "reasons": [
+            "The section has one or fewer concrete support items."
+          ]
+        },
+        {
+          "sectionId": "ethics",
+          "sectionName": "Ethics",
+          "pageTitle": "Fictional Meta-Ethics Debate",
+          "pagePath": "/ethics/fictional-meta-ethics-debate/",
+          "anchor": "prompt-3",
+          "url": "/ethics/fictional-meta-ethics-debate/#prompt-3",
+          "prompt": "Consistent with my position, I would like to dispense with the term moral landscape and employ terms more consistent with moral anti-realism such as the landscape of socially acceptable behaviors. Is this possible? Continue the dialogue accordingly.",
+          "heading": "Feasibility of Challenging the Notion of a Moral Realm with Moral Anti-Realism gives the response its center of gravity.",
+          "score": 61,
+          "level": "developing",
+          "needsReview": true,
+          "wordCount": 137,
+          "avgItemWords": 29.0,
+          "metrics": {
+            "children": 1,
+            "sourceParagraphs": 4,
+            "sourceItems": 6,
+            "labels": 1
+          },
+          "reasons": [
+            "The section has one or fewer concrete support items."
+          ]
+        },
+        {
+          "sectionId": "ethics",
+          "sectionName": "Ethics",
+          "pageTitle": "Moral Black Boxes",
+          "pagePath": "/ethics/moral-black-boxes/",
+          "anchor": "prompt-3",
+          "url": "/ethics/moral-black-boxes/#prompt-3",
+          "prompt": "Create an interesting and clear hypothetical dialogue between a theist and a non-theist that saliently highlights the argument above.",
+          "heading": "Create an interesting and clear hypothetical dialogue between a theist and a non is the pressure point.",
+          "score": 62,
+          "level": "good",
+          "needsReview": false,
+          "wordCount": 110,
+          "avgItemWords": 3.5,
+          "metrics": {
+            "children": 0,
+            "sourceParagraphs": 4,
+            "sourceItems": 0,
+            "labels": 0
+          },
+          "reasons": [
+            "Support items are mostly labels rather than explanatory claims."
+          ]
+        },
+        {
+          "sectionId": "ethics",
+          "sectionName": "Ethics",
+          "pageTitle": "Meta-Ethics Focus #2",
+          "pagePath": "/ethics/meta-ethics-focus-2/",
+          "anchor": "prompt-2",
+          "url": "/ethics/meta-ethics-focus-2/#prompt-2",
+          "prompt": "What is a salient way to express this argument to those who invoke common, alleged moral facts based on diametrically opposed groundings of those alleged moral facts?",
+          "heading": "What is a salient way to express this argument to those who invoke common, alleged moral is the pressure point.",
+          "score": 63,
+          "level": "good",
+          "needsReview": false,
+          "wordCount": 149,
+          "avgItemWords": 12.5,
+          "metrics": {
+            "children": 0,
+            "sourceParagraphs": 4,
+            "sourceItems": 2,
+            "labels": 0
+          },
+          "reasons": [
+            "The section has enough source structure and explanatory density for now."
+          ]
+        }
+      ]
+    },
+    {
       "sectionId": "rational-thought",
       "sectionName": "Rational Thought",
       "total": 183,
@@ -1257,8 +1253,8 @@
           "pagePath": "/rational-thought/integrated-critical-thinking/",
           "anchor": "prompt-3",
           "url": "/rational-thought/integrated-critical-thinking/#prompt-3",
-          "prompt": "Create a graph that quantitatively shows the degree of utility of critical thinking in various disciplines.",
-          "heading": "Create a graph that quantitatively shows the degree of utility of critical thinking in is the pressure point.",
+          "prompt": "Create a quantitative account that quantitatively shows the degree of utility of critical thinking in various disciplines.",
+          "heading": "Create a quantitative account that quantitatively shows the degree of utility of critical is the pressure point.",
           "score": 44,
           "level": "thin",
           "needsReview": true,
@@ -1474,7 +1470,7 @@
           "pagePath": "/rational-thought/perverse-incentives/",
           "anchor": "prompt-1",
           "url": "/rational-thought/perverse-incentives/#prompt-1",
-          "prompt": "Provide a short but clear definition of perverse incentives ?",
+          "prompt": "Provide a short but clear definition of perverse incentives?",
           "heading": "Provide a short but clear definition of perverse incentives is the pressure point.",
           "score": 58,
           "level": "developing",
@@ -1537,313 +1533,6 @@
           },
           "reasons": [
             "The section has one or fewer concrete support items."
-          ]
-        }
-      ]
-    },
-    {
-      "sectionId": "philosophical-inquiry",
-      "sectionName": "Philosophical Inquiry",
-      "total": 151,
-      "averageScore": 92.9,
-      "needsReview": 10,
-      "needsReviewRate": 0.066,
-      "levels": {
-        "strong": 135,
-        "good": 6,
-        "developing": 8,
-        "thin": 2
-      },
-      "weakest": [
-        {
-          "sectionId": "philosophical-inquiry",
-          "sectionName": "Philosophical Inquiry",
-          "pageTitle": "Dangers: Untestable Ideologies",
-          "pagePath": "/philosophical-inquiry/dangers-untestable-ideologies/",
-          "anchor": "prompt-3",
-          "url": "/philosophical-inquiry/dangers-untestable-ideologies/#prompt-3",
-          "prompt": "Many religious ideologies contain clear promises to believers in this life. Here are several",
-          "heading": "Many religious ideologies contain clear promises to believers in this life is the pressure point.",
-          "score": 37,
-          "level": "thin",
-          "needsReview": true,
-          "wordCount": 113,
-          "avgItemWords": 14.0,
-          "metrics": {
-            "children": 0,
-            "sourceParagraphs": 0,
-            "sourceItems": 1,
-            "labels": 0
-          },
-          "reasons": [
-            "The section has one or fewer concrete support items.",
-            "The source material provides little internal hierarchy."
-          ]
-        },
-        {
-          "sectionId": "philosophical-inquiry",
-          "sectionName": "Philosophical Inquiry",
-          "pageTitle": "Personal Truth?",
-          "pagePath": "/philosophical-inquiry/personal-truth/",
-          "anchor": "prompt-4",
-          "url": "/philosophical-inquiry/personal-truth/#prompt-4",
-          "prompt": "I’d like to take issue with your suggestion that the following statement is coherent",
-          "heading": "I’d like to take issue with your suggestion that the following statement is coherent is the pressure point.",
-          "score": 37,
-          "level": "thin",
-          "needsReview": true,
-          "wordCount": 134,
-          "avgItemWords": 5.0,
-          "metrics": {
-            "children": 0,
-            "sourceParagraphs": 0,
-            "sourceItems": 0,
-            "labels": 0
-          },
-          "reasons": [
-            "No clear source claim was extracted.",
-            "The source material provides little internal hierarchy.",
-            "Support items are mostly labels rather than explanatory claims."
-          ]
-        },
-        {
-          "sectionId": "philosophical-inquiry",
-          "sectionName": "Philosophical Inquiry",
-          "pageTitle": "Conspiracies & Misunderstanding Human Nature",
-          "pagePath": "/philosophical-inquiry/conspiracies-misunderstanding-human-nature/",
-          "anchor": "prompt-4",
-          "url": "/philosophical-inquiry/conspiracies-misunderstanding-human-nature/#prompt-4",
-          "prompt": "Create a dialogue between a rationalist and a conspiracy theorist that reflects the latter’s distorted views on human nature.",
-          "heading": "Dialogue gives the response its center of gravity.",
-          "score": 55,
-          "level": "developing",
-          "needsReview": true,
-          "wordCount": 135,
-          "avgItemWords": 26.0,
-          "metrics": {
-            "children": 1,
-            "sourceParagraphs": 4,
-            "sourceItems": 0,
-            "labels": 1
-          },
-          "reasons": [
-            "The section has one or fewer concrete support items."
-          ]
-        },
-        {
-          "sectionId": "philosophical-inquiry",
-          "sectionName": "Philosophical Inquiry",
-          "pageTitle": "Dangers: Promissory Treasures",
-          "pagePath": "/philosophical-inquiry/dangers-promissory-treasures/",
-          "anchor": "prompt-3",
-          "url": "/philosophical-inquiry/dangers-promissory-treasures/#prompt-3",
-          "prompt": "Create a hypothetical dialogue in which an ideologue is attempting to convince a rational young person that they will receive rewards in an afterlife if they only surrender their earthly life to the ideologue’s ideology.",
-          "heading": "Hypothetical Dialogue: Ideologue vs. Rational Young Person gives the response its center of gravity.",
-          "score": 55,
-          "level": "developing",
-          "needsReview": true,
-          "wordCount": 140,
-          "avgItemWords": 30.0,
-          "metrics": {
-            "children": 1,
-            "sourceParagraphs": 4,
-            "sourceItems": 0,
-            "labels": 1
-          },
-          "reasons": [
-            "The section has one or fewer concrete support items."
-          ]
-        },
-        {
-          "sectionId": "philosophical-inquiry",
-          "sectionName": "Philosophical Inquiry",
-          "pageTitle": "Logic wherever Structure",
-          "pagePath": "/philosophical-inquiry/logic-wherever-structure/",
-          "anchor": "prompt-4",
-          "url": "/philosophical-inquiry/logic-wherever-structure/#prompt-4",
-          "prompt": "Thanks! Please write an essay that reiterates our conclusions in the conversation above.",
-          "heading": "The Inevitability of Logic : Structure , Subjectivity , and Predictive Power gives the response its center of gravity.",
-          "score": 57,
-          "level": "developing",
-          "needsReview": true,
-          "wordCount": 124,
-          "avgItemWords": 19.0,
-          "metrics": {
-            "children": 1,
-            "sourceParagraphs": 5,
-            "sourceItems": 0,
-            "labels": 1
-          },
-          "reasons": [
-            "The section has one or fewer concrete support items."
-          ]
-        },
-        {
-          "sectionId": "philosophical-inquiry",
-          "sectionName": "Philosophical Inquiry",
-          "pageTitle": "Dangers: Siloed Ideologies",
-          "pagePath": "/philosophical-inquiry/dangers-siloed-ideologies/",
-          "anchor": "prompt-3",
-          "url": "/philosophical-inquiry/dangers-siloed-ideologies/#prompt-3",
-          "prompt": "Provide a stream-of-consciousness inner dialogue of a believer encountering evidence against their ideology that reflects a suspicion of an evil spiritual influence and a fear of doubting the ideology’s creed to a degree that would allow for an honest re-assessment of its core assumptions.",
-          "heading": "Stream-of-Consciousness Inner Dialogue gives the response its center of gravity.",
-          "score": 60,
-          "level": "developing",
-          "needsReview": true,
-          "wordCount": 104,
-          "avgItemWords": 12.0,
-          "metrics": {
-            "children": 1,
-            "sourceParagraphs": 4,
-            "sourceItems": 5,
-            "labels": 1
-          },
-          "reasons": [
-            "The section has one or fewer concrete support items."
-          ]
-        },
-        {
-          "sectionId": "philosophical-inquiry",
-          "sectionName": "Philosophical Inquiry",
-          "pageTitle": "Dangers: Ideologies of Mystery",
-          "pagePath": "/philosophical-inquiry/dangers-ideologies-of-mystery/",
-          "anchor": "prompt-1",
-          "url": "/philosophical-inquiry/dangers-ideologies-of-mystery/#prompt-1",
-          "prompt": "Some ideologies emphasize the beauty of mysteries and suggest that the awe generated by the absurd, unfathomable or ineffable constitutes evidence of the ideology’s truth. What dangers does this notion intrinsically hold?",
-          "heading": "ChatGPT 4 was inaccessible, so Claude 2 was brought in for this discussion gives the response its center of gravity.",
-          "score": 61,
-          "level": "developing",
-          "needsReview": true,
-          "wordCount": 139,
-          "avgItemWords": 29.0,
-          "metrics": {
-            "children": 1,
-            "sourceParagraphs": 4,
-            "sourceItems": 6,
-            "labels": 1
-          },
-          "reasons": [
-            "The section has one or fewer concrete support items."
-          ]
-        },
-        {
-          "sectionId": "philosophical-inquiry",
-          "sectionName": "Philosophical Inquiry",
-          "pageTitle": "Dangers: Narrative",
-          "pagePath": "/philosophical-inquiry/dangers-narrative/",
-          "anchor": "prompt-1",
-          "url": "/philosophical-inquiry/dangers-narrative/#prompt-1",
-          "prompt": "Many ideologies center around stories that contain all the elements of powerful story-telling such as a hero, tension, and resolution. Why might we suspect such ideologies do not align with truth?",
-          "heading": "* Claude 3 Sonnet is stepping in for a sluggish ChatGPT 4 gives the response its center of gravity.",
-          "score": 61,
-          "level": "developing",
-          "needsReview": true,
-          "wordCount": 161,
-          "avgItemWords": 41.0,
-          "metrics": {
-            "children": 1,
-            "sourceParagraphs": 4,
-            "sourceItems": 6,
-            "labels": 1
-          },
-          "reasons": [
-            "The section has one or fewer concrete support items."
-          ]
-        },
-        {
-          "sectionId": "philosophical-inquiry",
-          "sectionName": "Philosophical Inquiry",
-          "pageTitle": "Logic wherever Structure",
-          "pagePath": "/philosophical-inquiry/logic-wherever-structure/",
-          "anchor": "prompt-1",
-          "url": "/philosophical-inquiry/logic-wherever-structure/#prompt-1",
-          "prompt": "It seems that, as long as anything exists, there must be structure, and where there is structure, there is a logic that can be assigned to that structure by subjective minds. Is this a solid position?",
-          "heading": "It seems that, as long as anything exists, there must be structure, and where there is is the pressure point.",
-          "score": 61,
-          "level": "developing",
-          "needsReview": true,
-          "wordCount": 137,
-          "avgItemWords": 12.5,
-          "metrics": {
-            "children": 0,
-            "sourceParagraphs": 4,
-            "sourceItems": 0,
-            "labels": 0
-          },
-          "reasons": [
-            "This section is adequate scaffolding but should be considered for a hand-polish pass."
-          ]
-        },
-        {
-          "sectionId": "philosophical-inquiry",
-          "sectionName": "Philosophical Inquiry",
-          "pageTitle": "Our View of Humanity",
-          "pagePath": "/philosophical-inquiry/our-view-of-humanity/",
-          "anchor": "prompt-2",
-          "url": "/philosophical-inquiry/our-view-of-humanity/#prompt-2",
-          "prompt": "Provide 5 real-life accounts of individuals whose distorted views of humanity lead to tragic mistakes.",
-          "heading": "Real-Life Accounts of Distorted Views Leading to Tragic Mistakes gives the response its center of gravity.",
-          "score": 61,
-          "level": "developing",
-          "needsReview": true,
-          "wordCount": 156,
-          "avgItemWords": 37.0,
-          "metrics": {
-            "children": 1,
-            "sourceParagraphs": 4,
-            "sourceItems": 6,
-            "labels": 1
-          },
-          "reasons": [
-            "The section has one or fewer concrete support items."
-          ]
-        },
-        {
-          "sectionId": "philosophical-inquiry",
-          "sectionName": "Philosophical Inquiry",
-          "pageTitle": "Dangers: Unnuanced Conclusions",
-          "pagePath": "/philosophical-inquiry/dangers-unnuanced-conclusions/",
-          "anchor": "prompt-3",
-          "url": "/philosophical-inquiry/dangers-unnuanced-conclusions/#prompt-3",
-          "prompt": "Create a dialogue that saliently highlights the contrast between an individual who keeps their conclusions appropriately nuanced and and individual who does not.",
-          "heading": "Create a dialogue that saliently highlights the contrast between an individual who keeps is the pressure point.",
-          "score": 62,
-          "level": "good",
-          "needsReview": false,
-          "wordCount": 128,
-          "avgItemWords": 5.0,
-          "metrics": {
-            "children": 0,
-            "sourceParagraphs": 4,
-            "sourceItems": 0,
-            "labels": 0
-          },
-          "reasons": [
-            "Support items are mostly labels rather than explanatory claims."
-          ]
-        },
-        {
-          "sectionId": "philosophical-inquiry",
-          "sectionName": "Philosophical Inquiry",
-          "pageTitle": "Logic wherever Structure",
-          "pagePath": "/philosophical-inquiry/logic-wherever-structure/",
-          "anchor": "prompt-2",
-          "url": "/philosophical-inquiry/logic-wherever-structure/#prompt-2",
-          "prompt": "But if we “perceive structure” as you suggest, the fact that we cannot make full sense of it does not mean that the “perceived structure” does not give us an inductive foundation for predictive success, right? As long as the structure generates predictive power, we can formulate a logic around those inductive inferences, right?",
-          "heading": "Perceive structure is the pressure point.",
-          "score": 62,
-          "level": "good",
-          "needsReview": false,
-          "wordCount": 106,
-          "avgItemWords": 5.0,
-          "metrics": {
-            "children": 0,
-            "sourceParagraphs": 4,
-            "sourceItems": 0,
-            "labels": 0
-          },
-          "reasons": [
-            "Support items are mostly labels rather than explanatory claims."
           ]
         }
       ]
@@ -2061,7 +1750,7 @@
           "pagePath": "/economics/what-are-moral-hazards/",
           "anchor": "prompt-3",
           "url": "/economics/what-are-moral-hazards/#prompt-3",
-          "prompt": "Moral hazards appear to be correlated with perverse incentives . Discuss this correlation.",
+          "prompt": "Moral hazards appear to be correlated with perverse incentives. Discuss this correlation.",
           "heading": "Moral Hazards and Perverse Incentives: A Correlation gives the response its center of gravity.",
           "score": 63,
           "level": "good",
@@ -2153,59 +1842,58 @@
       ]
     },
     {
-      "sectionId": "metaphysics",
-      "sectionName": "Metaphysics",
-      "total": 83,
-      "averageScore": 93.7,
-      "needsReview": 5,
+      "sectionId": "philosophical-inquiry",
+      "sectionName": "Philosophical Inquiry",
+      "total": 150,
+      "averageScore": 93.2,
+      "needsReview": 9,
       "needsReviewRate": 0.06,
       "levels": {
-        "strong": 71,
-        "good": 7,
-        "developing": 4,
+        "strong": 135,
+        "good": 6,
+        "developing": 8,
         "thin": 1
       },
       "weakest": [
         {
-          "sectionId": "metaphysics",
-          "sectionName": "Metaphysics",
-          "pageTitle": "Emergence",
-          "pagePath": "/metaphysics/emergence/",
-          "anchor": "prompt-2",
-          "url": "/metaphysics/emergence/#prompt-2",
-          "prompt": "For the following types of emergence, create a table with their definitions and clear examples.",
-          "heading": "For the following types of emergence, create a table with their definitions and clear is the pressure point.",
+          "sectionId": "philosophical-inquiry",
+          "sectionName": "Philosophical Inquiry",
+          "pageTitle": "Dangers: Untestable Ideologies",
+          "pagePath": "/philosophical-inquiry/dangers-untestable-ideologies/",
+          "anchor": "prompt-3",
+          "url": "/philosophical-inquiry/dangers-untestable-ideologies/#prompt-3",
+          "prompt": "Many religious ideologies contain clear promises to believers in this life. Here are several",
+          "heading": "Many religious ideologies contain clear promises to believers in this life is the pressure point.",
           "score": 37,
           "level": "thin",
           "needsReview": true,
-          "wordCount": 110,
-          "avgItemWords": 4.8,
+          "wordCount": 113,
+          "avgItemWords": 14.0,
           "metrics": {
             "children": 0,
             "sourceParagraphs": 0,
-            "sourceItems": 0,
+            "sourceItems": 1,
             "labels": 0
           },
           "reasons": [
-            "No clear source claim was extracted.",
-            "The source material provides little internal hierarchy.",
-            "Support items are mostly labels rather than explanatory claims."
+            "The section has one or fewer concrete support items.",
+            "The source material provides little internal hierarchy."
           ]
         },
         {
-          "sectionId": "metaphysics",
-          "sectionName": "Metaphysics",
-          "pageTitle": "Dualism vs Materialism",
-          "pagePath": "/metaphysics/dualismvsmaterialism/",
-          "anchor": "prompt-5",
-          "url": "/metaphysics/dualismvsmaterialism/#prompt-5",
-          "prompt": "Organize the arguments and counter-arguments for and against dualism and materialism in a clear table.",
-          "heading": "ChatGPT gives the response its center of gravity.",
+          "sectionId": "philosophical-inquiry",
+          "sectionName": "Philosophical Inquiry",
+          "pageTitle": "Conspiracies & Misunderstanding Human Nature",
+          "pagePath": "/philosophical-inquiry/conspiracies-misunderstanding-human-nature/",
+          "anchor": "prompt-4",
+          "url": "/philosophical-inquiry/conspiracies-misunderstanding-human-nature/#prompt-4",
+          "prompt": "Create a dialogue between a rationalist and a conspiracy theorist that reflects the latter’s distorted views on human nature.",
+          "heading": "Dialogue gives the response its center of gravity.",
           "score": 55,
           "level": "developing",
           "needsReview": true,
-          "wordCount": 110,
-          "avgItemWords": 17.0,
+          "wordCount": 135,
+          "avgItemWords": 26.0,
           "metrics": {
             "children": 1,
             "sourceParagraphs": 4,
@@ -2217,22 +1905,190 @@
           ]
         },
         {
-          "sectionId": "metaphysics",
-          "sectionName": "Metaphysics",
-          "pageTitle": "Could Mind be Fundamental?",
-          "pagePath": "/metaphysics/could-mind-be-fundamental/",
-          "anchor": "prompt-2",
-          "url": "/metaphysics/could-mind-be-fundamental/#prompt-2",
-          "prompt": "Using the 7 schools of thought found in ChatGPT’s response, provide a table of these schools of thought, their general positions, and the common counter-arguments.",
-          "heading": "Using the 7 schools of thought found in ChatGPT’s response, provide a table of these is the pressure point.",
-          "score": 58,
+          "sectionId": "philosophical-inquiry",
+          "sectionName": "Philosophical Inquiry",
+          "pageTitle": "Dangers: Promissory Treasures",
+          "pagePath": "/philosophical-inquiry/dangers-promissory-treasures/",
+          "anchor": "prompt-3",
+          "url": "/philosophical-inquiry/dangers-promissory-treasures/#prompt-3",
+          "prompt": "Create a hypothetical dialogue in which an ideologue is attempting to convince a rational young person that they will receive rewards in an afterlife if they only surrender their earthly life to the ideologue’s ideology.",
+          "heading": "Hypothetical Dialogue: Ideologue vs. Rational Young Person gives the response its center of gravity.",
+          "score": 55,
           "level": "developing",
           "needsReview": true,
-          "wordCount": 126,
-          "avgItemWords": 4.5,
+          "wordCount": 140,
+          "avgItemWords": 30.0,
+          "metrics": {
+            "children": 1,
+            "sourceParagraphs": 4,
+            "sourceItems": 0,
+            "labels": 1
+          },
+          "reasons": [
+            "The section has one or fewer concrete support items."
+          ]
+        },
+        {
+          "sectionId": "philosophical-inquiry",
+          "sectionName": "Philosophical Inquiry",
+          "pageTitle": "Logic wherever Structure",
+          "pagePath": "/philosophical-inquiry/logic-wherever-structure/",
+          "anchor": "prompt-4",
+          "url": "/philosophical-inquiry/logic-wherever-structure/#prompt-4",
+          "prompt": "Thanks! Please write an essay that reiterates our conclusions in the conversation above.",
+          "heading": "The Inevitability of Logic: Structure, Subjectivity, and Predictive Power gives the response its center of gravity.",
+          "score": 57,
+          "level": "developing",
+          "needsReview": true,
+          "wordCount": 118,
+          "avgItemWords": 16.0,
+          "metrics": {
+            "children": 1,
+            "sourceParagraphs": 5,
+            "sourceItems": 0,
+            "labels": 1
+          },
+          "reasons": [
+            "The section has one or fewer concrete support items."
+          ]
+        },
+        {
+          "sectionId": "philosophical-inquiry",
+          "sectionName": "Philosophical Inquiry",
+          "pageTitle": "Dangers: Siloed Ideologies",
+          "pagePath": "/philosophical-inquiry/dangers-siloed-ideologies/",
+          "anchor": "prompt-3",
+          "url": "/philosophical-inquiry/dangers-siloed-ideologies/#prompt-3",
+          "prompt": "Provide a stream-of-consciousness inner dialogue of a believer encountering evidence against their ideology that reflects a suspicion of an evil spiritual influence and a fear of doubting the ideology’s creed to a degree that would allow for an honest re-assessment of its core assumptions.",
+          "heading": "Stream-of-Consciousness Inner Dialogue gives the response its center of gravity.",
+          "score": 60,
+          "level": "developing",
+          "needsReview": true,
+          "wordCount": 104,
+          "avgItemWords": 12.0,
+          "metrics": {
+            "children": 1,
+            "sourceParagraphs": 4,
+            "sourceItems": 5,
+            "labels": 1
+          },
+          "reasons": [
+            "The section has one or fewer concrete support items."
+          ]
+        },
+        {
+          "sectionId": "philosophical-inquiry",
+          "sectionName": "Philosophical Inquiry",
+          "pageTitle": "Dangers: Ideologies of Mystery",
+          "pagePath": "/philosophical-inquiry/dangers-ideologies-of-mystery/",
+          "anchor": "prompt-1",
+          "url": "/philosophical-inquiry/dangers-ideologies-of-mystery/#prompt-1",
+          "prompt": "Some ideologies emphasize the beauty of mysteries and suggest that the awe generated by the absurd, unfathomable or ineffable constitutes evidence of the ideology’s truth. What dangers does this notion intrinsically hold?",
+          "heading": "ChatGPT 4 was inaccessible, so Claude 2 was brought in for this discussion gives the response its center of gravity.",
+          "score": 61,
+          "level": "developing",
+          "needsReview": true,
+          "wordCount": 139,
+          "avgItemWords": 29.0,
+          "metrics": {
+            "children": 1,
+            "sourceParagraphs": 4,
+            "sourceItems": 6,
+            "labels": 1
+          },
+          "reasons": [
+            "The section has one or fewer concrete support items."
+          ]
+        },
+        {
+          "sectionId": "philosophical-inquiry",
+          "sectionName": "Philosophical Inquiry",
+          "pageTitle": "Dangers: Narrative",
+          "pagePath": "/philosophical-inquiry/dangers-narrative/",
+          "anchor": "prompt-1",
+          "url": "/philosophical-inquiry/dangers-narrative/#prompt-1",
+          "prompt": "Many ideologies center around stories that contain all the elements of powerful story-telling such as a hero, tension, and resolution. Why might we suspect such ideologies do not align with truth?",
+          "heading": "* Claude 3 Sonnet is stepping in for a sluggish ChatGPT 4 gives the response its center of gravity.",
+          "score": 61,
+          "level": "developing",
+          "needsReview": true,
+          "wordCount": 161,
+          "avgItemWords": 41.0,
+          "metrics": {
+            "children": 1,
+            "sourceParagraphs": 4,
+            "sourceItems": 6,
+            "labels": 1
+          },
+          "reasons": [
+            "The section has one or fewer concrete support items."
+          ]
+        },
+        {
+          "sectionId": "philosophical-inquiry",
+          "sectionName": "Philosophical Inquiry",
+          "pageTitle": "Logic wherever Structure",
+          "pagePath": "/philosophical-inquiry/logic-wherever-structure/",
+          "anchor": "prompt-1",
+          "url": "/philosophical-inquiry/logic-wherever-structure/#prompt-1",
+          "prompt": "It seems that, as long as anything exists, there must be structure, and where there is structure, there is a logic that can be assigned to that structure by subjective minds. Is this a solid position?",
+          "heading": "It seems that, as long as anything exists, there must be structure, and where there is is the pressure point.",
+          "score": 61,
+          "level": "developing",
+          "needsReview": true,
+          "wordCount": 134,
+          "avgItemWords": 11.0,
           "metrics": {
             "children": 0,
-            "sourceParagraphs": 2,
+            "sourceParagraphs": 4,
+            "sourceItems": 0,
+            "labels": 0
+          },
+          "reasons": [
+            "This section is adequate scaffolding but should be considered for a hand-polish pass."
+          ]
+        },
+        {
+          "sectionId": "philosophical-inquiry",
+          "sectionName": "Philosophical Inquiry",
+          "pageTitle": "Our View of Humanity",
+          "pagePath": "/philosophical-inquiry/our-view-of-humanity/",
+          "anchor": "prompt-2",
+          "url": "/philosophical-inquiry/our-view-of-humanity/#prompt-2",
+          "prompt": "Provide 5 real-life accounts of individuals whose distorted views of humanity lead to tragic mistakes.",
+          "heading": "Real-Life Accounts of Distorted Views Leading to Tragic Mistakes gives the response its center of gravity.",
+          "score": 61,
+          "level": "developing",
+          "needsReview": true,
+          "wordCount": 156,
+          "avgItemWords": 37.0,
+          "metrics": {
+            "children": 1,
+            "sourceParagraphs": 4,
+            "sourceItems": 6,
+            "labels": 1
+          },
+          "reasons": [
+            "The section has one or fewer concrete support items."
+          ]
+        },
+        {
+          "sectionId": "philosophical-inquiry",
+          "sectionName": "Philosophical Inquiry",
+          "pageTitle": "Dangers: Unnuanced Conclusions",
+          "pagePath": "/philosophical-inquiry/dangers-unnuanced-conclusions/",
+          "anchor": "prompt-3",
+          "url": "/philosophical-inquiry/dangers-unnuanced-conclusions/#prompt-3",
+          "prompt": "Create a dialogue that saliently highlights the contrast between an individual who keeps their conclusions appropriately nuanced and and individual who does not.",
+          "heading": "Create a dialogue that saliently highlights the contrast between an individual who keeps is the pressure point.",
+          "score": 62,
+          "level": "good",
+          "needsReview": false,
+          "wordCount": 128,
+          "avgItemWords": 5.0,
+          "metrics": {
+            "children": 0,
+            "sourceParagraphs": 4,
             "sourceItems": 0,
             "labels": 0
           },
@@ -2241,67 +2097,19 @@
           ]
         },
         {
-          "sectionId": "metaphysics",
-          "sectionName": "Metaphysics",
-          "pageTitle": "Emergence",
-          "pagePath": "/metaphysics/emergence/",
-          "anchor": "prompt-3",
-          "url": "/metaphysics/emergence/#prompt-3",
-          "prompt": "Provide a list of the most respected names in the field of emergence .",
-          "heading": "Respected Names in the Field of Emergence gives the response its center of gravity.",
-          "score": 59,
-          "level": "developing",
-          "needsReview": true,
-          "wordCount": 112,
-          "avgItemWords": 19.0,
-          "metrics": {
-            "children": 1,
-            "sourceParagraphs": 3,
-            "sourceItems": 6,
-            "labels": 1
-          },
-          "reasons": [
-            "The section has one or fewer concrete support items."
-          ]
-        },
-        {
-          "sectionId": "metaphysics",
-          "sectionName": "Metaphysics",
-          "pageTitle": "Categories of Nihilism",
-          "pagePath": "/metaphysics/categories-of-nihilism/",
-          "anchor": "prompt-1",
-          "url": "/metaphysics/categories-of-nihilism/#prompt-1",
-          "prompt": "What are the various discrete categories of nihilism?",
-          "heading": "Various Categories of Nihilism gives the response its center of gravity.",
-          "score": 61,
-          "level": "developing",
-          "needsReview": true,
-          "wordCount": 130,
-          "avgItemWords": 27.0,
-          "metrics": {
-            "children": 1,
-            "sourceParagraphs": 4,
-            "sourceItems": 6,
-            "labels": 1
-          },
-          "reasons": [
-            "The section has one or fewer concrete support items."
-          ]
-        },
-        {
-          "sectionId": "metaphysics",
-          "sectionName": "Metaphysics",
-          "pageTitle": "Dualism vs Materialism",
-          "pagePath": "/metaphysics/dualismvsmaterialism/",
-          "anchor": "prompt-1",
-          "url": "/metaphysics/dualismvsmaterialism/#prompt-1",
-          "prompt": "Create a hypothetical spirited dialogue between a dualist and a materialist, with each defending their position with clear arguments.",
-          "heading": "Create a hypothetical spirited dialogue between a dualist and a materialist, with each is the pressure point.",
-          "score": 67,
+          "sectionId": "philosophical-inquiry",
+          "sectionName": "Philosophical Inquiry",
+          "pageTitle": "Logic wherever Structure",
+          "pagePath": "/philosophical-inquiry/logic-wherever-structure/",
+          "anchor": "prompt-2",
+          "url": "/philosophical-inquiry/logic-wherever-structure/#prompt-2",
+          "prompt": "But if we “perceive structure” as you suggest, the fact that we cannot make full sense of it does not mean that the “perceived structure” does not give us an inductive foundation for predictive success, right? As long as the structure generates predictive power, we can formulate a logic around those inductive inferences, right?",
+          "heading": "Perceive structure is the pressure point.",
+          "score": 62,
           "level": "good",
           "needsReview": false,
-          "wordCount": 143,
-          "avgItemWords": 9.8,
+          "wordCount": 106,
+          "avgItemWords": 5.0,
           "metrics": {
             "children": 0,
             "sourceParagraphs": 4,
@@ -2309,151 +2117,31 @@
             "labels": 0
           },
           "reasons": [
-            "The section has enough source structure and explanatory density for now."
+            "Support items are mostly labels rather than explanatory claims."
           ]
         },
         {
-          "sectionId": "metaphysics",
-          "sectionName": "Metaphysics",
-          "pageTitle": "A Taxonomy of Impossibilities",
-          "pagePath": "/metaphysics/a-taxonomy-of-impossibilities/",
-          "anchor": "prompt-2",
-          "url": "/metaphysics/a-taxonomy-of-impossibilities/#prompt-2",
-          "prompt": "Create a table that coherently organizes these types of impossibility and specifies their relationship to the other types.",
-          "heading": "Relationships of Impossibility Types gives the response its center of gravity.",
-          "score": 72,
+          "sectionId": "philosophical-inquiry",
+          "sectionName": "Philosophical Inquiry",
+          "pageTitle": "Logic wherever Structure",
+          "pagePath": "/philosophical-inquiry/logic-wherever-structure/",
+          "anchor": "prompt-3",
+          "url": "/philosophical-inquiry/logic-wherever-structure/#prompt-3",
+          "prompt": "If the blob changes its structure to a degree that confounds our inductive inferences, then we essentially have a new universe that itself can be inductively probed for regularities and corresponding “laws”, right?",
+          "heading": "If the blob changes its structure to a degree that confounds our inductive inferences is the pressure point.",
+          "score": 62,
           "level": "good",
           "needsReview": false,
-          "wordCount": 147,
-          "avgItemWords": 22.5,
+          "wordCount": 139,
+          "avgItemWords": 5.0,
           "metrics": {
-            "children": 2,
-            "sourceParagraphs": 3,
-            "sourceItems": 3,
-            "labels": 2
-          },
-          "reasons": [
-            "The section has enough source structure and explanatory density for now."
-          ]
-        },
-        {
-          "sectionId": "metaphysics",
-          "sectionName": "Metaphysics",
-          "pageTitle": "Jeremy Sherman on Emergence",
-          "pagePath": "/metaphysics/jeremy-sherman-on-emergence/",
-          "anchor": "prompt-2",
-          "url": "/metaphysics/jeremy-sherman-on-emergence/#prompt-2",
-          "prompt": "Provide a profile of the podcast guest and links to media featuring his work.",
-          "heading": "Profile of Jeremy Sherman gives the response its center of gravity.",
-          "score": 75,
-          "level": "good",
-          "needsReview": false,
-          "wordCount": 146,
-          "avgItemWords": 25.0,
-          "metrics": {
-            "children": 2,
+            "children": 0,
             "sourceParagraphs": 4,
-            "sourceItems": 4,
-            "labels": 2
-          },
-          "reasons": [
-            "The section has enough source structure and explanatory density for now."
-          ]
-        },
-        {
-          "sectionId": "metaphysics",
-          "sectionName": "Metaphysics",
-          "pageTitle": "Terrence Deacon on Emergence",
-          "pagePath": "/metaphysics/terrence-deacon-on-emergence/",
-          "anchor": "prompt-2",
-          "url": "/metaphysics/terrence-deacon-on-emergence/#prompt-2",
-          "prompt": "Provide a profile of the podcast guest and links to media featuring his work.",
-          "heading": "Profile: Terrence Deacon gives the response its center of gravity.",
-          "score": 75,
-          "level": "good",
-          "needsReview": false,
-          "wordCount": 129,
-          "avgItemWords": 20.5,
-          "metrics": {
-            "children": 2,
-            "sourceParagraphs": 1,
-            "sourceItems": 10,
-            "labels": 2
-          },
-          "reasons": [
-            "The section has enough source structure and explanatory density for now."
-          ]
-        },
-        {
-          "sectionId": "metaphysics",
-          "sectionName": "Metaphysics",
-          "pageTitle": "Emergence",
-          "pagePath": "/metaphysics/emergence/",
-          "anchor": "prompt-4",
-          "url": "/metaphysics/emergence/#prompt-4",
-          "prompt": "Create a hypothetical debate between two expert on emergence who have contrasting opinions on the concept.",
-          "heading": "Hypothetical Debate on Emergence gives the response its center of gravity.",
-          "score": 77,
-          "level": "good",
-          "needsReview": false,
-          "wordCount": 124,
-          "avgItemWords": 15.5,
-          "metrics": {
-            "children": 2,
-            "sourceParagraphs": 8,
             "sourceItems": 0,
-            "labels": 2
+            "labels": 0
           },
           "reasons": [
-            "The section has enough source structure and explanatory density for now."
-          ]
-        },
-        {
-          "sectionId": "metaphysics",
-          "sectionName": "Metaphysics",
-          "pageTitle": "Jeremy Sherman on Emergence",
-          "pagePath": "/metaphysics/jeremy-sherman-on-emergence/",
-          "anchor": "prompt-4",
-          "url": "/metaphysics/jeremy-sherman-on-emergence/#prompt-4",
-          "prompt": "Provide your own assessment of the plausibility of these arguments, then assess the potential weaknesses.",
-          "heading": "Plausibility of the Arguments gives the response its center of gravity.",
-          "score": 77,
-          "level": "good",
-          "needsReview": false,
-          "wordCount": 145,
-          "avgItemWords": 25.0,
-          "metrics": {
-            "children": 2,
-            "sourceParagraphs": 2,
-            "sourceItems": 12,
-            "labels": 2
-          },
-          "reasons": [
-            "The section has enough source structure and explanatory density for now."
-          ]
-        },
-        {
-          "sectionId": "metaphysics",
-          "sectionName": "Metaphysics",
-          "pageTitle": "Stuart Kauffman on Emergence",
-          "pagePath": "/metaphysics/stuart-kauffman-on-emergence/",
-          "anchor": "prompt-2",
-          "url": "/metaphysics/stuart-kauffman-on-emergence/#prompt-2",
-          "prompt": "Provide a profile of the podcast guest and links to media featuring his work.",
-          "heading": "Profile of Stuart Kauffman gives the response its center of gravity.",
-          "score": 77,
-          "level": "good",
-          "needsReview": false,
-          "wordCount": 128,
-          "avgItemWords": 20.5,
-          "metrics": {
-            "children": 2,
-            "sourceParagraphs": 2,
-            "sourceItems": 10,
-            "labels": 2
-          },
-          "reasons": [
-            "The section has enough source structure and explanatory density for now."
+            "Support items are mostly labels rather than explanatory claims."
           ]
         }
       ]
@@ -2720,7 +2408,7 @@
           "pagePath": "/philosophy-of-ai/self-reported-ai-capabilities-06-24/",
           "anchor": "prompt-1",
           "url": "/philosophy-of-ai/self-reported-ai-capabilities-06-24/#prompt-1",
-          "prompt": "Create a table with the following domains of AI capability and add columns reflecting Recently Acquired , Beta Stage , and 1-Year Away .",
+          "prompt": "Create a table with the following domains of AI capability and add columns reflecting Recently Acquired, Beta Stage, and 1-Year Away.",
           "heading": "Domains of Capability for Web-Based Public AI Bots gives the response its center of gravity.",
           "score": 81,
           "level": "strong",
@@ -2766,43 +2454,17 @@
     {
       "sectionId": "epistemology",
       "sectionName": "Epistemology",
-      "total": 265,
-      "averageScore": 92.7,
-      "needsReview": 14,
-      "needsReviewRate": 0.053,
+      "total": 264,
+      "averageScore": 93.0,
+      "needsReview": 13,
+      "needsReviewRate": 0.049,
       "levels": {
         "strong": 230,
         "good": 21,
         "developing": 12,
-        "thin": 2
+        "thin": 1
       },
       "weakest": [
-        {
-          "sectionId": "epistemology",
-          "sectionName": "Epistemology",
-          "pageTitle": "What is Faith?",
-          "pagePath": "/epistemology/what-is-faith/",
-          "anchor": "prompt-1",
-          "url": "/epistemology/what-is-faith/#prompt-1",
-          "prompt": "Faith is a term with denotations that are highly debated. Since the term is most commonly invoked in religious contexts, perhaps it is best to allow religious leaders to define faith. The following images reflect input from 406 Christian Ministers on the notion of faith taken from a 2023 project called Christian Thought Survey .",
-          "heading": "The following images reflect input from 406 Christian Ministers on the notion of faith is the pressure point.",
-          "score": 25,
-          "level": "thin",
-          "needsReview": true,
-          "wordCount": 161,
-          "avgItemWords": 55.0,
-          "metrics": {
-            "children": 0,
-            "sourceParagraphs": 0,
-            "sourceItems": 0,
-            "labels": 0
-          },
-          "reasons": [
-            "No clear source claim was extracted.",
-            "The section has one or fewer concrete support items.",
-            "The source material provides little internal hierarchy."
-          ]
-        },
         {
           "sectionId": "epistemology",
           "sectionName": "Epistemology",
@@ -2885,7 +2547,7 @@
           "pagePath": "/epistemology/adequate-evidence/",
           "anchor": "prompt-1",
           "url": "/epistemology/adequate-evidence/#prompt-1",
-          "prompt": "Rational belief is a degree of belief that maps to the degree of the relevant evidence. Therefore there is no “adequate” degree of evidence at which an epistemic switch goes from off to on , right?",
+          "prompt": "Rational belief is a degree of belief that maps to the degree of the relevant evidence. Therefore there is no “adequate” degree of evidence at which an epistemic switch goes from off to on, right?",
           "heading": "Adequate is the pressure point.",
           "score": 50,
           "level": "developing",
@@ -3068,6 +2730,334 @@
           },
           "reasons": [
             "The section has one or fewer concrete support items."
+          ]
+        },
+        {
+          "sectionId": "epistemology",
+          "sectionName": "Epistemology",
+          "pageTitle": "Avoiding Single-Cause Dogmatism",
+          "pagePath": "/epistemology/avoiding-single-cause-dogmatism/",
+          "anchor": "prompt-1",
+          "url": "/epistemology/avoiding-single-cause-dogmatism/#prompt-1",
+          "prompt": "The following dialogue, produced by AI Claude, highlights the contrasts between a rational, scientific mind (Randy) and a mind prone to over-simplification (Tom).",
+          "heading": "The following dialogue, produced by AI Claude, highlights the contrasts between a is the pressure point.",
+          "score": 61,
+          "level": "developing",
+          "needsReview": true,
+          "wordCount": 121,
+          "avgItemWords": 14.5,
+          "metrics": {
+            "children": 0,
+            "sourceParagraphs": 4,
+            "sourceItems": 0,
+            "labels": 0
+          },
+          "reasons": [
+            "This section is adequate scaffolding but should be considered for a hand-polish pass."
+          ]
+        }
+      ]
+    },
+    {
+      "sectionId": "metaphysics",
+      "sectionName": "Metaphysics",
+      "total": 82,
+      "averageScore": 94.4,
+      "needsReview": 4,
+      "needsReviewRate": 0.049,
+      "levels": {
+        "strong": 71,
+        "good": 7,
+        "developing": 4,
+        "thin": 0
+      },
+      "weakest": [
+        {
+          "sectionId": "metaphysics",
+          "sectionName": "Metaphysics",
+          "pageTitle": "Dualism vs Materialism",
+          "pagePath": "/metaphysics/dualismvsmaterialism/",
+          "anchor": "prompt-5",
+          "url": "/metaphysics/dualismvsmaterialism/#prompt-5",
+          "prompt": "Organize the arguments and counter-arguments for and against dualism and materialism in a clear table.",
+          "heading": "ChatGPT gives the response its center of gravity.",
+          "score": 55,
+          "level": "developing",
+          "needsReview": true,
+          "wordCount": 110,
+          "avgItemWords": 17.0,
+          "metrics": {
+            "children": 1,
+            "sourceParagraphs": 4,
+            "sourceItems": 0,
+            "labels": 1
+          },
+          "reasons": [
+            "The section has one or fewer concrete support items."
+          ]
+        },
+        {
+          "sectionId": "metaphysics",
+          "sectionName": "Metaphysics",
+          "pageTitle": "Could Mind be Fundamental?",
+          "pagePath": "/metaphysics/could-mind-be-fundamental/",
+          "anchor": "prompt-2",
+          "url": "/metaphysics/could-mind-be-fundamental/#prompt-2",
+          "prompt": "Using the 7 schools of thought found in ChatGPT’s response, provide a table of these schools of thought, their general positions, and the common counter-arguments.",
+          "heading": "Using the 7 schools of thought found in ChatGPT’s response, provide a table of these is the pressure point.",
+          "score": 58,
+          "level": "developing",
+          "needsReview": true,
+          "wordCount": 126,
+          "avgItemWords": 4.5,
+          "metrics": {
+            "children": 0,
+            "sourceParagraphs": 2,
+            "sourceItems": 0,
+            "labels": 0
+          },
+          "reasons": [
+            "Support items are mostly labels rather than explanatory claims."
+          ]
+        },
+        {
+          "sectionId": "metaphysics",
+          "sectionName": "Metaphysics",
+          "pageTitle": "Emergence",
+          "pagePath": "/metaphysics/emergence/",
+          "anchor": "prompt-2",
+          "url": "/metaphysics/emergence/#prompt-2",
+          "prompt": "Provide a list of the most respected names in the field of emergence.",
+          "heading": "Respected Names in the Field of Emergence gives the response its center of gravity.",
+          "score": 59,
+          "level": "developing",
+          "needsReview": true,
+          "wordCount": 112,
+          "avgItemWords": 19.0,
+          "metrics": {
+            "children": 1,
+            "sourceParagraphs": 3,
+            "sourceItems": 6,
+            "labels": 1
+          },
+          "reasons": [
+            "The section has one or fewer concrete support items."
+          ]
+        },
+        {
+          "sectionId": "metaphysics",
+          "sectionName": "Metaphysics",
+          "pageTitle": "Categories of Nihilism",
+          "pagePath": "/metaphysics/categories-of-nihilism/",
+          "anchor": "prompt-1",
+          "url": "/metaphysics/categories-of-nihilism/#prompt-1",
+          "prompt": "What are the various discrete categories of nihilism?",
+          "heading": "Various Categories of Nihilism gives the response its center of gravity.",
+          "score": 61,
+          "level": "developing",
+          "needsReview": true,
+          "wordCount": 130,
+          "avgItemWords": 27.0,
+          "metrics": {
+            "children": 1,
+            "sourceParagraphs": 4,
+            "sourceItems": 6,
+            "labels": 1
+          },
+          "reasons": [
+            "The section has one or fewer concrete support items."
+          ]
+        },
+        {
+          "sectionId": "metaphysics",
+          "sectionName": "Metaphysics",
+          "pageTitle": "Dualism vs Materialism",
+          "pagePath": "/metaphysics/dualismvsmaterialism/",
+          "anchor": "prompt-1",
+          "url": "/metaphysics/dualismvsmaterialism/#prompt-1",
+          "prompt": "Create a hypothetical spirited dialogue between a dualist and a materialist, with each defending their position with clear arguments.",
+          "heading": "Create a hypothetical spirited dialogue between a dualist and a materialist, with each is the pressure point.",
+          "score": 67,
+          "level": "good",
+          "needsReview": false,
+          "wordCount": 143,
+          "avgItemWords": 9.8,
+          "metrics": {
+            "children": 0,
+            "sourceParagraphs": 4,
+            "sourceItems": 0,
+            "labels": 0
+          },
+          "reasons": [
+            "The section has enough source structure and explanatory density for now."
+          ]
+        },
+        {
+          "sectionId": "metaphysics",
+          "sectionName": "Metaphysics",
+          "pageTitle": "A Taxonomy of Impossibilities",
+          "pagePath": "/metaphysics/a-taxonomy-of-impossibilities/",
+          "anchor": "prompt-2",
+          "url": "/metaphysics/a-taxonomy-of-impossibilities/#prompt-2",
+          "prompt": "Create a table that coherently organizes these types of impossibility and specifies their relationship to the other types.",
+          "heading": "Relationships of Impossibility Types gives the response its center of gravity.",
+          "score": 72,
+          "level": "good",
+          "needsReview": false,
+          "wordCount": 147,
+          "avgItemWords": 22.5,
+          "metrics": {
+            "children": 2,
+            "sourceParagraphs": 3,
+            "sourceItems": 3,
+            "labels": 2
+          },
+          "reasons": [
+            "The section has enough source structure and explanatory density for now."
+          ]
+        },
+        {
+          "sectionId": "metaphysics",
+          "sectionName": "Metaphysics",
+          "pageTitle": "Jeremy Sherman on Emergence",
+          "pagePath": "/metaphysics/jeremy-sherman-on-emergence/",
+          "anchor": "prompt-2",
+          "url": "/metaphysics/jeremy-sherman-on-emergence/#prompt-2",
+          "prompt": "Provide a profile of the podcast guest and links to media featuring his work.",
+          "heading": "Profile of Jeremy Sherman gives the response its center of gravity.",
+          "score": 75,
+          "level": "good",
+          "needsReview": false,
+          "wordCount": 146,
+          "avgItemWords": 25.0,
+          "metrics": {
+            "children": 2,
+            "sourceParagraphs": 4,
+            "sourceItems": 4,
+            "labels": 2
+          },
+          "reasons": [
+            "The section has enough source structure and explanatory density for now."
+          ]
+        },
+        {
+          "sectionId": "metaphysics",
+          "sectionName": "Metaphysics",
+          "pageTitle": "Terrence Deacon on Emergence",
+          "pagePath": "/metaphysics/terrence-deacon-on-emergence/",
+          "anchor": "prompt-2",
+          "url": "/metaphysics/terrence-deacon-on-emergence/#prompt-2",
+          "prompt": "Provide a profile of the podcast guest and links to media featuring his work.",
+          "heading": "Profile: Terrence Deacon gives the response its center of gravity.",
+          "score": 75,
+          "level": "good",
+          "needsReview": false,
+          "wordCount": 129,
+          "avgItemWords": 20.5,
+          "metrics": {
+            "children": 2,
+            "sourceParagraphs": 1,
+            "sourceItems": 10,
+            "labels": 2
+          },
+          "reasons": [
+            "The section has enough source structure and explanatory density for now."
+          ]
+        },
+        {
+          "sectionId": "metaphysics",
+          "sectionName": "Metaphysics",
+          "pageTitle": "Emergence",
+          "pagePath": "/metaphysics/emergence/",
+          "anchor": "prompt-3",
+          "url": "/metaphysics/emergence/#prompt-3",
+          "prompt": "Create a hypothetical debate between two expert on emergence who have contrasting opinions on the concept.",
+          "heading": "Hypothetical Debate on Emergence gives the response its center of gravity.",
+          "score": 77,
+          "level": "good",
+          "needsReview": false,
+          "wordCount": 124,
+          "avgItemWords": 15.5,
+          "metrics": {
+            "children": 2,
+            "sourceParagraphs": 8,
+            "sourceItems": 0,
+            "labels": 2
+          },
+          "reasons": [
+            "The section has enough source structure and explanatory density for now."
+          ]
+        },
+        {
+          "sectionId": "metaphysics",
+          "sectionName": "Metaphysics",
+          "pageTitle": "Jeremy Sherman on Emergence",
+          "pagePath": "/metaphysics/jeremy-sherman-on-emergence/",
+          "anchor": "prompt-4",
+          "url": "/metaphysics/jeremy-sherman-on-emergence/#prompt-4",
+          "prompt": "Provide your own assessment of the plausibility of these arguments, then assess the potential weaknesses.",
+          "heading": "Plausibility of the Arguments gives the response its center of gravity.",
+          "score": 77,
+          "level": "good",
+          "needsReview": false,
+          "wordCount": 145,
+          "avgItemWords": 25.0,
+          "metrics": {
+            "children": 2,
+            "sourceParagraphs": 2,
+            "sourceItems": 12,
+            "labels": 2
+          },
+          "reasons": [
+            "The section has enough source structure and explanatory density for now."
+          ]
+        },
+        {
+          "sectionId": "metaphysics",
+          "sectionName": "Metaphysics",
+          "pageTitle": "Stuart Kauffman on Emergence",
+          "pagePath": "/metaphysics/stuart-kauffman-on-emergence/",
+          "anchor": "prompt-2",
+          "url": "/metaphysics/stuart-kauffman-on-emergence/#prompt-2",
+          "prompt": "Provide a profile of the podcast guest and links to media featuring his work.",
+          "heading": "Profile of Stuart Kauffman gives the response its center of gravity.",
+          "score": 77,
+          "level": "good",
+          "needsReview": false,
+          "wordCount": 128,
+          "avgItemWords": 20.5,
+          "metrics": {
+            "children": 2,
+            "sourceParagraphs": 2,
+            "sourceItems": 10,
+            "labels": 2
+          },
+          "reasons": [
+            "The section has enough source structure and explanatory density for now."
+          ]
+        },
+        {
+          "sectionId": "metaphysics",
+          "sectionName": "Metaphysics",
+          "pageTitle": "Ontological Domains",
+          "pagePath": "/metaphysics/ontological-domains/",
+          "anchor": "prompt-1",
+          "url": "/metaphysics/ontological-domains/#prompt-1",
+          "prompt": "Provide a list of proposed ontological domains.",
+          "heading": "Provide a list of proposed ontological domains is the pressure point.",
+          "score": 83,
+          "level": "strong",
+          "needsReview": false,
+          "wordCount": 216,
+          "avgItemWords": 18.5,
+          "metrics": {
+            "children": 0,
+            "sourceParagraphs": 4,
+            "sourceItems": 8,
+            "labels": 0
+          },
+          "reasons": [
+            "The section has enough source structure and explanatory density for now."
           ]
         }
       ]
@@ -3285,7 +3275,7 @@
           "pagePath": "/philosophy-of-language/abandoned-words/",
           "anchor": "prompt-2",
           "url": "/philosophy-of-language/abandoned-words/#prompt-2",
-          "prompt": "To what degree do contradictory meanings contribute to the disuse of a word such as we see with the word sanction ?",
+          "prompt": "To what degree do contradictory meanings contribute to the disuse of a word such as we see with the word sanction?",
           "heading": "Factors Contributing to Disuse Due to Contradictory Meanings gives the response its center of gravity.",
           "score": 82,
           "level": "strong",
@@ -3446,7 +3436,7 @@
           "pagePath": "/humanistic-philosophies/russell-on-faith/",
           "anchor": "prompt-3",
           "url": "/humanistic-philosophies/russell-on-faith/#prompt-3",
-          "prompt": "Research other quotes by Russel on faith , categorize them, and comment on the relevance of each category.",
+          "prompt": "Research other quotes by Russel on faith, categorize them, and comment on the relevance of each category.",
           "heading": "Bertrand Russell’s Quotes on Faith gives the response its center of gravity.",
           "score": 61,
           "level": "developing",
@@ -3827,7 +3817,7 @@
           "score": 88,
           "level": "strong",
           "needsReview": false,
-          "wordCount": 247,
+          "wordCount": 246,
           "avgItemWords": 24.8,
           "metrics": {
             "children": 1,
@@ -4126,13 +4116,13 @@
           "pagePath": "/philosophy-of-mind/the-chemical-basis-of-happiness/",
           "anchor": "prompt-3",
           "url": "/philosophy-of-mind/the-chemical-basis-of-happiness/#prompt-3",
-          "prompt": "Create a chart that details the effects of the six neurotransmitters.",
+          "prompt": "Create a structured account detailing the effects of the six neurotransmitters.",
           "heading": "Effects of the Six Neurotransmitters gives the response its center of gravity.",
           "score": 73,
           "level": "good",
           "needsReview": false,
-          "wordCount": 133,
-          "avgItemWords": 16.0,
+          "wordCount": 135,
+          "avgItemWords": 16.5,
           "metrics": {
             "children": 2,
             "sourceParagraphs": 5,
@@ -4311,12 +4301,12 @@
           "anchor": "prompt-1",
           "url": "/philosophy-of-science/orthogonality/#prompt-1",
           "prompt": "What is orthogonality (causal independence) in the context of scientific research, and how is it commonly established?",
-          "heading": "NOTE: The term orthogonal is derived from Greek, meaning a straight angle . You can imagine a line perfectly perpendicular to another with no degree of parallelism gives the response its center of gravity.",
+          "heading": "NOTE: The term orthogonal is derived from Greek, meaning a straight angle. You can imagine a line perfectly perpendicular to another with no degree of parallelism gives the response its center of gravity.",
           "score": 61,
           "level": "developing",
           "needsReview": true,
-          "wordCount": 168,
-          "avgItemWords": 47.0,
+          "wordCount": 166,
+          "avgItemWords": 46.0,
           "metrics": {
             "children": 1,
             "sourceParagraphs": 4,
@@ -4550,7 +4540,7 @@
           "pagePath": "/philosophy-of-science/what-are-pseudosciences/",
           "anchor": "prompt-1",
           "url": "/philosophy-of-science/what-are-pseudosciences/#prompt-1",
-          "prompt": "Provide a short but rigorous definition of a pseudoscience ?",
+          "prompt": "Provide a short but rigorous definition of a pseudoscience?",
           "heading": "Rigorous methodology gives the response its center of gravity.",
           "score": 78,
           "level": "strong",
@@ -4596,64 +4586,12 @@
   ],
   "weakest": [
     {
-      "sectionId": "epistemology",
-      "sectionName": "Epistemology",
-      "pageTitle": "What is Faith?",
-      "pagePath": "/epistemology/what-is-faith/",
-      "anchor": "prompt-1",
-      "url": "/epistemology/what-is-faith/#prompt-1",
-      "prompt": "Faith is a term with denotations that are highly debated. Since the term is most commonly invoked in religious contexts, perhaps it is best to allow religious leaders to define faith. The following images reflect input from 406 Christian Ministers on the notion of faith taken from a 2023 project called Christian Thought Survey .",
-      "heading": "The following images reflect input from 406 Christian Ministers on the notion of faith is the pressure point.",
-      "score": 25,
-      "level": "thin",
-      "needsReview": true,
-      "wordCount": 161,
-      "avgItemWords": 55.0,
-      "metrics": {
-        "children": 0,
-        "sourceParagraphs": 0,
-        "sourceItems": 0,
-        "labels": 0
-      },
-      "reasons": [
-        "No clear source claim was extracted.",
-        "The section has one or fewer concrete support items.",
-        "The source material provides little internal hierarchy."
-      ]
-    },
-    {
       "sectionId": "ethics",
       "sectionName": "Ethics",
       "pageTitle": "Fictional Meta-Ethics Debate",
       "pagePath": "/ethics/fictional-meta-ethics-debate/",
       "anchor": "prompt-2",
       "url": "/ethics/fictional-meta-ethics-debate/#prompt-2",
-      "prompt": "Stilwell would like to reformulate his position into something stronger: Moral intuitions are actually emotional intuitions and their emergent values. The use of the term moral in this context is superfluous. Continue the dialogue",
-      "heading": "Moral intuitions are actually emotional intuitions and their emergent values is the pressure point.",
-      "score": 37,
-      "level": "thin",
-      "needsReview": true,
-      "wordCount": 116,
-      "avgItemWords": 3.5,
-      "metrics": {
-        "children": 0,
-        "sourceParagraphs": 0,
-        "sourceItems": 0,
-        "labels": 0
-      },
-      "reasons": [
-        "No clear source claim was extracted.",
-        "The source material provides little internal hierarchy.",
-        "Support items are mostly labels rather than explanatory claims."
-      ]
-    },
-    {
-      "sectionId": "ethics",
-      "sectionName": "Ethics",
-      "pageTitle": "Fictional Meta-Ethics Debate",
-      "pagePath": "/ethics/fictional-meta-ethics-debate/",
-      "anchor": "prompt-3",
-      "url": "/ethics/fictional-meta-ethics-debate/#prompt-3",
       "prompt": "I am still dissatisfied with what seems to be a reification of moral intuitions into something weightier than mere emotions. Can we not simply dispense with the muddy term moral and use the terms emotions or values when discussing human behavior? Continue the dialogue accordingly.",
       "heading": "I am still dissatisfied with what seems to be a reification of moral intuitions into is the pressure point.",
       "score": 37,
@@ -4661,58 +4599,6 @@
       "needsReview": true,
       "wordCount": 121,
       "avgItemWords": 3.5,
-      "metrics": {
-        "children": 0,
-        "sourceParagraphs": 0,
-        "sourceItems": 0,
-        "labels": 0
-      },
-      "reasons": [
-        "No clear source claim was extracted.",
-        "The source material provides little internal hierarchy.",
-        "Support items are mostly labels rather than explanatory claims."
-      ]
-    },
-    {
-      "sectionId": "ethics",
-      "sectionName": "Ethics",
-      "pageTitle": "Fictional Meta-Ethics Debate",
-      "pagePath": "/ethics/fictional-meta-ethics-debate/",
-      "anchor": "prompt-4",
-      "url": "/ethics/fictional-meta-ethics-debate/#prompt-4",
-      "prompt": "It is precisely the notion of normative force that I am objecting to. The use of the term normative appears to be simply another attempt to sneak in the assumption of an actual moral realm, and ignores the position of the moral anti-realist that there is no actual moral or normative realm in which moral or normative facts can reside. Continue the dialogue accordingly.",
-      "heading": "The use of the term normative appears to be simply another attempt to sneak in the is the pressure point.",
-      "score": 37,
-      "level": "thin",
-      "needsReview": true,
-      "wordCount": 122,
-      "avgItemWords": 3.5,
-      "metrics": {
-        "children": 0,
-        "sourceParagraphs": 0,
-        "sourceItems": 0,
-        "labels": 0
-      },
-      "reasons": [
-        "No clear source claim was extracted.",
-        "The source material provides little internal hierarchy.",
-        "Support items are mostly labels rather than explanatory claims."
-      ]
-    },
-    {
-      "sectionId": "metaphysics",
-      "sectionName": "Metaphysics",
-      "pageTitle": "Emergence",
-      "pagePath": "/metaphysics/emergence/",
-      "anchor": "prompt-2",
-      "url": "/metaphysics/emergence/#prompt-2",
-      "prompt": "For the following types of emergence, create a table with their definitions and clear examples.",
-      "heading": "For the following types of emergence, create a table with their definitions and clear is the pressure point.",
-      "score": 37,
-      "level": "thin",
-      "needsReview": true,
-      "wordCount": 110,
-      "avgItemWords": 4.8,
       "metrics": {
         "children": 0,
         "sourceParagraphs": 0,
@@ -4748,32 +4634,6 @@
       "reasons": [
         "The section has one or fewer concrete support items.",
         "The source material provides little internal hierarchy."
-      ]
-    },
-    {
-      "sectionId": "philosophical-inquiry",
-      "sectionName": "Philosophical Inquiry",
-      "pageTitle": "Personal Truth?",
-      "pagePath": "/philosophical-inquiry/personal-truth/",
-      "anchor": "prompt-4",
-      "url": "/philosophical-inquiry/personal-truth/#prompt-4",
-      "prompt": "I’d like to take issue with your suggestion that the following statement is coherent",
-      "heading": "I’d like to take issue with your suggestion that the following statement is coherent is the pressure point.",
-      "score": 37,
-      "level": "thin",
-      "needsReview": true,
-      "wordCount": 134,
-      "avgItemWords": 5.0,
-      "metrics": {
-        "children": 0,
-        "sourceParagraphs": 0,
-        "sourceItems": 0,
-        "labels": 0
-      },
-      "reasons": [
-        "No clear source claim was extracted.",
-        "The source material provides little internal hierarchy.",
-        "Support items are mostly labels rather than explanatory claims."
       ]
     },
     {
@@ -4908,8 +4768,8 @@
       "pagePath": "/rational-thought/integrated-critical-thinking/",
       "anchor": "prompt-3",
       "url": "/rational-thought/integrated-critical-thinking/#prompt-3",
-      "prompt": "Create a graph that quantitatively shows the degree of utility of critical thinking in various disciplines.",
-      "heading": "Create a graph that quantitatively shows the degree of utility of critical thinking in is the pressure point.",
+      "prompt": "Create a quantitative account that quantitatively shows the degree of utility of critical thinking in various disciplines.",
+      "heading": "Create a quantitative account that quantitatively shows the degree of utility of critical is the pressure point.",
       "score": 44,
       "level": "thin",
       "needsReview": true,
@@ -5083,7 +4943,7 @@
       "pagePath": "/epistemology/adequate-evidence/",
       "anchor": "prompt-1",
       "url": "/epistemology/adequate-evidence/#prompt-1",
-      "prompt": "Rational belief is a degree of belief that maps to the degree of the relevant evidence. Therefore there is no “adequate” degree of evidence at which an epistemic switch goes from off to on , right?",
+      "prompt": "Rational belief is a degree of belief that maps to the degree of the relevant evidence. Therefore there is no “adequate” degree of evidence at which an epistemic switch goes from off to on, right?",
       "heading": "Adequate is the pressure point.",
       "score": 50,
       "level": "developing",
@@ -6477,12 +6337,12 @@
       "anchor": "prompt-4",
       "url": "/philosophical-inquiry/logic-wherever-structure/#prompt-4",
       "prompt": "Thanks! Please write an essay that reiterates our conclusions in the conversation above.",
-      "heading": "The Inevitability of Logic : Structure , Subjectivity , and Predictive Power gives the response its center of gravity.",
+      "heading": "The Inevitability of Logic: Structure, Subjectivity, and Predictive Power gives the response its center of gravity.",
       "score": 57,
       "level": "developing",
       "needsReview": true,
-      "wordCount": 124,
-      "avgItemWords": 19.0,
+      "wordCount": 118,
+      "avgItemWords": 16.0,
       "metrics": {
         "children": 1,
         "sourceParagraphs": 5,
@@ -6932,7 +6792,7 @@
       "pagePath": "/rational-thought/perverse-incentives/",
       "anchor": "prompt-1",
       "url": "/rational-thought/perverse-incentives/#prompt-1",
-      "prompt": "Provide a short but clear definition of perverse incentives ?",
+      "prompt": "Provide a short but clear definition of perverse incentives?",
       "heading": "Provide a short but clear definition of perverse incentives is the pressure point.",
       "score": 58,
       "level": "developing",
@@ -6954,9 +6814,9 @@
       "sectionName": "Metaphysics",
       "pageTitle": "Emergence",
       "pagePath": "/metaphysics/emergence/",
-      "anchor": "prompt-3",
-      "url": "/metaphysics/emergence/#prompt-3",
-      "prompt": "Provide a list of the most respected names in the field of emergence .",
+      "anchor": "prompt-2",
+      "url": "/metaphysics/emergence/#prompt-2",
+      "prompt": "Provide a list of the most respected names in the field of emergence.",
       "heading": "Respected Names in the Field of Emergence gives the response its center of gravity.",
       "score": 59,
       "level": "developing",
@@ -7554,9 +7414,9 @@
       "sectionName": "Ethics",
       "pageTitle": "Fictional Meta-Ethics Debate",
       "pagePath": "/ethics/fictional-meta-ethics-debate/",
-      "anchor": "prompt-5",
-      "url": "/ethics/fictional-meta-ethics-debate/#prompt-5",
-      "prompt": "Consistent with my position, I would like to dispense with the term moral landscape and employ terms more consistent with moral anti-realism such as the landscape of socially acceptable behaviors . Is this possible? Continue the dialogue accordingly.",
+      "anchor": "prompt-3",
+      "url": "/ethics/fictional-meta-ethics-debate/#prompt-3",
+      "prompt": "Consistent with my position, I would like to dispense with the term moral landscape and employ terms more consistent with moral anti-realism such as the landscape of socially acceptable behaviors. Is this possible? Continue the dialogue accordingly.",
       "heading": "Feasibility of Challenging the Notion of a Moral Realm with Moral Anti-Realism gives the response its center of gravity.",
       "score": 61,
       "level": "developing",
@@ -7580,7 +7440,7 @@
       "pagePath": "/humanistic-philosophies/russell-on-faith/",
       "anchor": "prompt-3",
       "url": "/humanistic-philosophies/russell-on-faith/#prompt-3",
-      "prompt": "Research other quotes by Russel on faith , categorize them, and comment on the relevance of each category.",
+      "prompt": "Research other quotes by Russel on faith, categorize them, and comment on the relevance of each category.",
       "heading": "Bertrand Russell’s Quotes on Faith gives the response its center of gravity.",
       "score": 61,
       "level": "developing",
@@ -8211,6 +8071,126 @@
       "needsReview": true,
       "wordCount": 161,
       "avgItemWords": 41.0,
+      "metrics": {
+        "children": 1,
+        "sourceParagraphs": 4,
+        "sourceItems": 6,
+        "labels": 1
+      },
+      "reasons": [
+        "The section has one or fewer concrete support items."
+      ]
+    },
+    {
+      "sectionId": "philosophical-inquiry",
+      "sectionName": "Philosophical Inquiry",
+      "pageTitle": "Logic wherever Structure",
+      "pagePath": "/philosophical-inquiry/logic-wherever-structure/",
+      "anchor": "prompt-1",
+      "url": "/philosophical-inquiry/logic-wherever-structure/#prompt-1",
+      "prompt": "It seems that, as long as anything exists, there must be structure, and where there is structure, there is a logic that can be assigned to that structure by subjective minds. Is this a solid position?",
+      "heading": "It seems that, as long as anything exists, there must be structure, and where there is is the pressure point.",
+      "score": 61,
+      "level": "developing",
+      "needsReview": true,
+      "wordCount": 134,
+      "avgItemWords": 11.0,
+      "metrics": {
+        "children": 0,
+        "sourceParagraphs": 4,
+        "sourceItems": 0,
+        "labels": 0
+      },
+      "reasons": [
+        "This section is adequate scaffolding but should be considered for a hand-polish pass."
+      ]
+    },
+    {
+      "sectionId": "philosophical-inquiry",
+      "sectionName": "Philosophical Inquiry",
+      "pageTitle": "Our View of Humanity",
+      "pagePath": "/philosophical-inquiry/our-view-of-humanity/",
+      "anchor": "prompt-2",
+      "url": "/philosophical-inquiry/our-view-of-humanity/#prompt-2",
+      "prompt": "Provide 5 real-life accounts of individuals whose distorted views of humanity lead to tragic mistakes.",
+      "heading": "Real-Life Accounts of Distorted Views Leading to Tragic Mistakes gives the response its center of gravity.",
+      "score": 61,
+      "level": "developing",
+      "needsReview": true,
+      "wordCount": 156,
+      "avgItemWords": 37.0,
+      "metrics": {
+        "children": 1,
+        "sourceParagraphs": 4,
+        "sourceItems": 6,
+        "labels": 1
+      },
+      "reasons": [
+        "The section has one or fewer concrete support items."
+      ]
+    },
+    {
+      "sectionId": "philosophy-of-ai",
+      "sectionName": "Philosophy of AI",
+      "pageTitle": "A Novel AI Thought experiment?",
+      "pagePath": "/philosophy-of-ai/a-novel-ai-thought-experiment/",
+      "anchor": "prompt-2",
+      "url": "/philosophy-of-ai/a-novel-ai-thought-experiment/#prompt-2",
+      "prompt": "ChatGPT Prompt: Did your response come from your training data or from independent reflection?",
+      "heading": "Claude Prompt: I asked ChatGPT to devise a novel thought experiment, and the responded with the following. Please tell me whether this experiment is actually novel gives the response its center of gravity.",
+      "score": 61,
+      "level": "developing",
+      "needsReview": true,
+      "wordCount": 160,
+      "avgItemWords": 35.0,
+      "metrics": {
+        "children": 1,
+        "sourceParagraphs": 4,
+        "sourceItems": 6,
+        "labels": 1
+      },
+      "reasons": [
+        "The section has one or fewer concrete support items."
+      ]
+    },
+    {
+      "sectionId": "philosophy-of-ai",
+      "sectionName": "Philosophy of AI",
+      "pageTitle": "Synthetic AI Data",
+      "pagePath": "/philosophy-of-ai/synthetic-ai-data/",
+      "anchor": "prompt-2",
+      "url": "/philosophy-of-ai/synthetic-ai-data/#prompt-2",
+      "prompt": "What actions can be taken to mitigate the weaknesses of synthetic data?",
+      "heading": "Actions to Mitigate the Weaknesses of Synthetic Data gives the response its center of gravity.",
+      "score": 61,
+      "level": "developing",
+      "needsReview": true,
+      "wordCount": 137,
+      "avgItemWords": 30.0,
+      "metrics": {
+        "children": 1,
+        "sourceParagraphs": 4,
+        "sourceItems": 6,
+        "labels": 1
+      },
+      "reasons": [
+        "The section has one or fewer concrete support items."
+      ]
+    },
+    {
+      "sectionId": "philosophy-of-ai",
+      "sectionName": "Philosophy of AI",
+      "pageTitle": "Synthetic AI Data",
+      "pagePath": "/philosophy-of-ai/synthetic-ai-data/",
+      "anchor": "prompt-3",
+      "url": "/philosophy-of-ai/synthetic-ai-data/#prompt-3",
+      "prompt": "The value of AI responses increases as the domains of inquiry increase in intrinsic complexity. At the same time, the available metrics to assess veracity and predictive power decreases. How can this be best addressed?",
+      "heading": "Addressing the Challenge of Veracity and Predictive Power in AI Responses to Complex Domains gives the response its center of gravity.",
+      "score": 61,
+      "level": "developing",
+      "needsReview": true,
+      "wordCount": 167,
+      "avgItemWords": 45.0,
       "metrics": {
         "children": 1,
         "sourceParagraphs": 4,
@@ -9646,7 +9626,7 @@
       "pagePath": "/economics/justified-optimism/",
       "anchor": "prompt-1",
       "url": "/economics/justified-optimism/#prompt-1",
-      "prompt": "Who is Hans Rosling , the author of the book “Factfulness”, and what are some of the more interesting statistics he presents?",
+      "prompt": "Who is Hans Rosling, the author of the book “Factfulness”, and what are some of the more interesting statistics he presents?",
       "heading": "Global Poverty gives the response its center of gravity.",
       "score": 100,
       "level": "strong",
@@ -9670,7 +9650,7 @@
       "pagePath": "/economics/justified-optimism/",
       "anchor": "prompt-2",
       "url": "/economics/justified-optimism/#prompt-2",
-      "prompt": "Steven Pinker seems to share the same optimism. What are some of the more salient statistics in Pinker’s book The Better Angels of our Nature ?",
+      "prompt": "Steven Pinker seems to share the same optimism. What are some of the more salient statistics in Pinker’s book The Better Angels of our Nature?",
       "heading": "Homicide Rates gives the response its center of gravity.",
       "score": 100,
       "level": "strong",
@@ -10678,7 +10658,7 @@
       "pagePath": "/economics/what-are-moral-hazards/",
       "anchor": "prompt-3",
       "url": "/economics/what-are-moral-hazards/#prompt-3",
-      "prompt": "Moral hazards appear to be correlated with perverse incentives . Discuss this correlation.",
+      "prompt": "Moral hazards appear to be correlated with perverse incentives. Discuss this correlation.",
       "heading": "Moral Hazards and Perverse Incentives: A Correlation gives the response its center of gravity.",
       "score": 63,
       "level": "good",
@@ -11182,13 +11162,37 @@
       "pagePath": "/epistemology/ai-reasoning-case-study/",
       "anchor": "prompt-1",
       "url": "/epistemology/ai-reasoning-case-study/#prompt-1",
-      "prompt": "Explain the rationale behind your guess of Voter Turnout .",
+      "prompt": "Take a few stabs at what the unexplained percentages might represent.",
+      "heading": "Voter Turnout gives the response its center of gravity.",
+      "score": 97,
+      "level": "strong",
+      "needsReview": false,
+      "wordCount": 220,
+      "avgItemWords": 21.0,
+      "metrics": {
+        "children": 0,
+        "sourceParagraphs": 2,
+        "sourceItems": 6,
+        "labels": 5
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "epistemology",
+      "sectionName": "Epistemology",
+      "pageTitle": "AI Reasoning Case Study",
+      "pagePath": "/epistemology/ai-reasoning-case-study/",
+      "anchor": "prompt-2",
+      "url": "/epistemology/ai-reasoning-case-study/#prompt-2",
+      "prompt": "Explain the rationale behind your guess of Voter Turnout.",
       "heading": "Geographical Distribution gives the response its center of gravity.",
       "score": 95,
       "level": "strong",
       "needsReview": false,
-      "wordCount": 205,
-      "avgItemWords": 27.5,
+      "wordCount": 203,
+      "avgItemWords": 27.2,
       "metrics": {
         "children": 0,
         "sourceParagraphs": 2,
@@ -11204,8 +11208,8 @@
       "sectionName": "Epistemology",
       "pageTitle": "AI Reasoning Case Study",
       "pagePath": "/epistemology/ai-reasoning-case-study/",
-      "anchor": "prompt-2",
-      "url": "/epistemology/ai-reasoning-case-study/#prompt-2",
+      "anchor": "prompt-3",
+      "url": "/epistemology/ai-reasoning-case-study/#prompt-3",
       "prompt": "Does that rationale reflect what you know about actual voter turnout?",
       "heading": "Range of Percentages gives the response its center of gravity.",
       "score": 78,
@@ -11228,15 +11232,15 @@
       "sectionName": "Epistemology",
       "pageTitle": "AI Reasoning Case Study",
       "pagePath": "/epistemology/ai-reasoning-case-study/",
-      "anchor": "prompt-3",
-      "url": "/epistemology/ai-reasoning-case-study/#prompt-3",
-      "prompt": "Can you provide a few guesses on the significance of the percentages in the image related to geographical features?",
+      "anchor": "prompt-4",
+      "url": "/epistemology/ai-reasoning-case-study/#prompt-4",
+      "prompt": "Can you provide a few guesses on the significance of the percentages if interpreted as geographical features?",
       "heading": "Population Density gives the response its center of gravity.",
       "score": 97,
       "level": "strong",
       "needsReview": false,
-      "wordCount": 210,
-      "avgItemWords": 19.0,
+      "wordCount": 206,
+      "avgItemWords": 18.8,
       "metrics": {
         "children": 0,
         "sourceParagraphs": 2,
@@ -11252,43 +11256,19 @@
       "sectionName": "Epistemology",
       "pageTitle": "AI Reasoning Case Study",
       "pagePath": "/epistemology/ai-reasoning-case-study/",
-      "anchor": "prompt-4",
-      "url": "/epistemology/ai-reasoning-case-study/#prompt-4",
-      "prompt": "Which of those guesses is most likely, in your opinion?",
-      "heading": "Regional Patterns gives the response its center of gravity.",
-      "score": 95,
-      "level": "strong",
-      "needsReview": false,
-      "wordCount": 210,
-      "avgItemWords": 27.8,
-      "metrics": {
-        "children": 0,
-        "sourceParagraphs": 2,
-        "sourceItems": 4,
-        "labels": 4
-      },
-      "reasons": [
-        "The section has enough source structure and explanatory density for now."
-      ]
-    },
-    {
-      "sectionId": "epistemology",
-      "sectionName": "Epistemology",
-      "pageTitle": "AI Reasoning Case Study",
-      "pagePath": "/epistemology/ai-reasoning-case-study/",
       "anchor": "prompt-5",
       "url": "/epistemology/ai-reasoning-case-study/#prompt-5",
-      "prompt": "Provide a more rigorous defense of your position that the image likely reflects forest coverage.",
+      "prompt": "Which of those guesses is most likely, in your opinion?",
       "heading": "Correlation with Known Forested Areas gives the response its center of gravity.",
       "score": 100,
       "level": "strong",
       "needsReview": false,
-      "wordCount": 271,
+      "wordCount": 268,
       "avgItemWords": 27.5,
       "metrics": {
         "children": 8,
-        "sourceParagraphs": 6,
-        "sourceItems": 22,
+        "sourceParagraphs": 7,
+        "sourceItems": 26,
         "labels": 5
       },
       "reasons": [
@@ -11566,7 +11546,7 @@
       "pagePath": "/epistemology/black-boxes-epistemology/",
       "anchor": "prompt-3",
       "url": "/epistemology/black-boxes-epistemology/#prompt-3",
-      "prompt": "For the last, more rigorous scenario, ChatGPT claims that for individuals who “ prioritize theoretical foundations “, the stance that there is a 1/6 chance of throwing a 6 remains rational . Do you agree, and what is your rationale? Would the same rate of 90% success over 1,000 years make a difference?",
+      "prompt": "For the last, more rigorous scenario, ChatGPT claims that for individuals who “ prioritize theoretical foundations “, the stance that there is a 1/6 chance of throwing a 6 remains rational. Do you agree, and what is your rationale? Would the same rate of 90% success over 1,000 years make a difference?",
       "heading": "Prioritizing Theoretical Foundations gives the response its center of gravity.",
       "score": 81,
       "level": "strong",
@@ -11860,7 +11840,7 @@
       "score": 100,
       "level": "strong",
       "needsReview": false,
-      "wordCount": 261,
+      "wordCount": 260,
       "avgItemWords": 22.7,
       "metrics": {
         "children": 1,
@@ -14185,7 +14165,7 @@
       "pagePath": "/epistemology/many-logics/",
       "anchor": "prompt-3",
       "url": "/epistemology/many-logics/#prompt-3",
-      "prompt": "Does Intuitionist logic contradict classical logic in that it rejects the law of the excluded middle ?",
+      "prompt": "Does Intuitionist logic contradict classical logic in that it rejects the law of the excluded middle?",
       "heading": "Does Intuitionist logic contradict classical logic in that it rejects the law of the is the pressure point.",
       "score": 62,
       "level": "good",
@@ -14425,7 +14405,7 @@
       "pagePath": "/epistemology/non-scientific-ways-of-knowing/",
       "anchor": "prompt-4",
       "url": "/epistemology/non-scientific-ways-of-knowing/#prompt-4",
-      "prompt": "You are now suggesting social value is a metric by which we can legitimately determine whether something is knowledge .",
+      "prompt": "You are now suggesting social value is a metric by which we can legitimately determine whether something is knowledge.",
       "heading": "Phil’s Pushback on Social Value as a Metric for Knowledge gives the response its center of gravity.",
       "score": 100,
       "level": "strong",
@@ -15121,7 +15101,7 @@
       "pagePath": "/epistemology/properly-basic-beliefs/",
       "anchor": "prompt-2",
       "url": "/epistemology/properly-basic-beliefs/#prompt-2",
-      "prompt": "Based on your last response, our belief 1) “ I am happy ” and our belief 2) “ God exists ” are both properly basic beliefs , but only the first is incorrigible, correct?",
+      "prompt": "Based on your last response, our belief 1) “ I am happy ” and our belief 2) “ God exists ” are both properly basic beliefs, but only the first is incorrigible, correct?",
       "heading": "“I am happy” gives the response its center of gravity.",
       "score": 100,
       "level": "strong",
@@ -16273,13 +16253,13 @@
       "pagePath": "/epistemology/types-of-knowing/",
       "anchor": "prompt-2",
       "url": "/epistemology/types-of-knowing/#prompt-2",
-      "prompt": "Provide a comparison chart of the types of knowledge discussed above.",
-      "heading": "ChatGPT Comparison Chart gives the response its center of gravity.",
+      "prompt": "Provide a structured comparison of the types of knowledge discussed above.",
+      "heading": "ChatGPT Structured Comparison gives the response its center of gravity.",
       "score": 67,
       "level": "good",
       "needsReview": false,
-      "wordCount": 163,
-      "avgItemWords": 26.5,
+      "wordCount": 165,
+      "avgItemWords": 27.0,
       "metrics": {
         "children": 2,
         "sourceParagraphs": 2,
@@ -16393,7 +16373,7 @@
       "pagePath": "/epistemology/vicious-virtuous-circularity/",
       "anchor": "prompt-3",
       "url": "/epistemology/vicious-virtuous-circularity/#prompt-3",
-      "prompt": "Presuppositional religious apologists often claim circularity in their ideology is virtuous . Critique these claims.",
+      "prompt": "Presuppositional religious apologists often claim circularity in their ideology is virtuous. Critique these claims.",
       "heading": "Key Figures and Their Claims gives the response its center of gravity.",
       "score": 100,
       "level": "strong",
@@ -16969,32 +16949,6 @@
       "pagePath": "/epistemology/what-is-faith/",
       "anchor": "prompt-1",
       "url": "/epistemology/what-is-faith/#prompt-1",
-      "prompt": "Faith is a term with denotations that are highly debated. Since the term is most commonly invoked in religious contexts, perhaps it is best to allow religious leaders to define faith. The following images reflect input from 406 Christian Ministers on the notion of faith taken from a 2023 project called Christian Thought Survey .",
-      "heading": "The following images reflect input from 406 Christian Ministers on the notion of faith is the pressure point.",
-      "score": 25,
-      "level": "thin",
-      "needsReview": true,
-      "wordCount": 161,
-      "avgItemWords": 55.0,
-      "metrics": {
-        "children": 0,
-        "sourceParagraphs": 0,
-        "sourceItems": 0,
-        "labels": 0
-      },
-      "reasons": [
-        "No clear source claim was extracted.",
-        "The section has one or fewer concrete support items.",
-        "The source material provides little internal hierarchy."
-      ]
-    },
-    {
-      "sectionId": "epistemology",
-      "sectionName": "Epistemology",
-      "pageTitle": "What is Faith?",
-      "pagePath": "/epistemology/what-is-faith/",
-      "anchor": "prompt-2",
-      "url": "/epistemology/what-is-faith/#prompt-2",
       "prompt": "While there is no strong consensus, the notion of faith in the minds of these Christian leaders does appear to reflect a degree of belief that exceeds the degree of the evidence. Let’s explore whether that notion of faith can be considered coherent. Is a degree of belief in something that exceeds the degree of the perceived evidence for that thing problematic in any way?",
       "heading": "Epistemological Concerns gives the response its center of gravity.",
       "score": 100,
@@ -17017,8 +16971,8 @@
       "sectionName": "Epistemology",
       "pageTitle": "What is Faith?",
       "pagePath": "/epistemology/what-is-faith/",
-      "anchor": "prompt-3",
-      "url": "/epistemology/what-is-faith/#prompt-3",
+      "anchor": "prompt-2",
+      "url": "/epistemology/what-is-faith/#prompt-2",
       "prompt": "Has the notion of faith evolved over the centuries?",
       "heading": "Ancient and Classical Periods gives the response its center of gravity.",
       "score": 100,
@@ -17041,8 +16995,8 @@
       "sectionName": "Epistemology",
       "pageTitle": "What is Faith?",
       "pagePath": "/epistemology/what-is-faith/",
-      "anchor": "prompt-4",
-      "url": "/epistemology/what-is-faith/#prompt-4",
+      "anchor": "prompt-3",
+      "url": "/epistemology/what-is-faith/#prompt-3",
       "prompt": "Religious individuals sometimes attempt to equivocate between religious faith (disjointed from the degree of the evidence) and the degree of confidence (mapping to the degree of the evidence) scientists have in conclusions that are less than fully certain. How can we prevent this equivocation and encourage the mapping of our degree of belief to the degree of the evidence we perceive?",
       "heading": "Clarify Definitions gives the response its center of gravity.",
       "score": 100,
@@ -17065,8 +17019,8 @@
       "sectionName": "Epistemology",
       "pageTitle": "What is Faith?",
       "pagePath": "/epistemology/what-is-faith/",
-      "anchor": "prompt-5",
-      "url": "/epistemology/what-is-faith/#prompt-5",
+      "anchor": "prompt-4",
+      "url": "/epistemology/what-is-faith/#prompt-4",
       "prompt": "What are other problems that a degree of faith in something that exceeds the degree of the evidence for that thing might generate? Pull examples related to professional occupations if possible.",
       "heading": "Medicine and Healthcare gives the response its center of gravity.",
       "score": 100,
@@ -17144,7 +17098,7 @@
       "score": 100,
       "level": "strong",
       "needsReview": false,
-      "wordCount": 253,
+      "wordCount": 248,
       "avgItemWords": 22.2,
       "metrics": {
         "children": 7,
@@ -17235,7 +17189,7 @@
       "pagePath": "/epistemology/adequate-evidence/",
       "anchor": "prompt-1",
       "url": "/epistemology/adequate-evidence/#prompt-1",
-      "prompt": "Rational belief is a degree of belief that maps to the degree of the relevant evidence. Therefore there is no “adequate” degree of evidence at which an epistemic switch goes from off to on , right?",
+      "prompt": "Rational belief is a degree of belief that maps to the degree of the relevant evidence. Therefore there is no “adequate” degree of evidence at which an epistemic switch goes from off to on, right?",
       "heading": "Adequate is the pressure point.",
       "score": 50,
       "level": "developing",
@@ -17427,7 +17381,7 @@
       "pagePath": "/ethics/assisted-suicide/",
       "anchor": "prompt-3",
       "url": "/ethics/assisted-suicide/#prompt-3",
-      "prompt": "Create a chart showing the types of arguments different schools of ethical theory would employ to establish the moral status of assisted suicide.",
+      "prompt": "Create a structured comparison showing the types of arguments different schools of ethical theory would employ to establish the moral status of assisted suicide.",
       "heading": "Ethical Theories and Their Arguments on Assisted Suicide gives the response its center of gravity.",
       "score": 95,
       "level": "strong",
@@ -17451,7 +17405,7 @@
       "pagePath": "/ethics/assisted-suicide/",
       "anchor": "prompt-4",
       "url": "/ethics/assisted-suicide/#prompt-4",
-      "prompt": "Based on your chart above, provide a general score for each ethical theory on a ethical spectrum between -10 (highly immoral) and 10 (highly moral).",
+      "prompt": "Based on the previous structured comparison, provide a general score for each ethical theory on a ethical spectrum between -10 (highly immoral) and 10 (highly moral).",
       "heading": "Utilitarianism gives the response its center of gravity.",
       "score": 100,
       "level": "strong",
@@ -18075,7 +18029,7 @@
       "pagePath": "/ethics/divine-command-theory/",
       "anchor": "prompt-3",
       "url": "/ethics/divine-command-theory/#prompt-3",
-      "prompt": "This discussion seems to reveal confusion about the term “moral”. If morality is simply disobedience, calling sometime “disobedient to God” would have the same denotation as the term “immoral”. But the usage of the term “immoral” seems to extend beyond mere disobedience to a God, even among those who hold to divine command theory . Right?",
+      "prompt": "This discussion seems to reveal confusion about the term “moral”. If morality is simply disobedience, calling sometime “disobedient to God” would have the same denotation as the term “immoral”. But the usage of the term “immoral” seems to extend beyond mere disobedience to a God, even among those who hold to divine command theory. Right?",
       "heading": "Moral vs. Immoral gives the response its center of gravity.",
       "score": 100,
       "level": "strong",
@@ -18655,32 +18609,6 @@
       "pagePath": "/ethics/fictional-meta-ethics-debate/",
       "anchor": "prompt-2",
       "url": "/ethics/fictional-meta-ethics-debate/#prompt-2",
-      "prompt": "Stilwell would like to reformulate his position into something stronger: Moral intuitions are actually emotional intuitions and their emergent values. The use of the term moral in this context is superfluous. Continue the dialogue",
-      "heading": "Moral intuitions are actually emotional intuitions and their emergent values is the pressure point.",
-      "score": 37,
-      "level": "thin",
-      "needsReview": true,
-      "wordCount": 116,
-      "avgItemWords": 3.5,
-      "metrics": {
-        "children": 0,
-        "sourceParagraphs": 0,
-        "sourceItems": 0,
-        "labels": 0
-      },
-      "reasons": [
-        "No clear source claim was extracted.",
-        "The source material provides little internal hierarchy.",
-        "Support items are mostly labels rather than explanatory claims."
-      ]
-    },
-    {
-      "sectionId": "ethics",
-      "sectionName": "Ethics",
-      "pageTitle": "Fictional Meta-Ethics Debate",
-      "pagePath": "/ethics/fictional-meta-ethics-debate/",
-      "anchor": "prompt-3",
-      "url": "/ethics/fictional-meta-ethics-debate/#prompt-3",
       "prompt": "I am still dissatisfied with what seems to be a reification of moral intuitions into something weightier than mere emotions. Can we not simply dispense with the muddy term moral and use the terms emotions or values when discussing human behavior? Continue the dialogue accordingly.",
       "heading": "I am still dissatisfied with what seems to be a reification of moral intuitions into is the pressure point.",
       "score": 37,
@@ -18705,35 +18633,9 @@
       "sectionName": "Ethics",
       "pageTitle": "Fictional Meta-Ethics Debate",
       "pagePath": "/ethics/fictional-meta-ethics-debate/",
-      "anchor": "prompt-4",
-      "url": "/ethics/fictional-meta-ethics-debate/#prompt-4",
-      "prompt": "It is precisely the notion of normative force that I am objecting to. The use of the term normative appears to be simply another attempt to sneak in the assumption of an actual moral realm, and ignores the position of the moral anti-realist that there is no actual moral or normative realm in which moral or normative facts can reside. Continue the dialogue accordingly.",
-      "heading": "The use of the term normative appears to be simply another attempt to sneak in the is the pressure point.",
-      "score": 37,
-      "level": "thin",
-      "needsReview": true,
-      "wordCount": 122,
-      "avgItemWords": 3.5,
-      "metrics": {
-        "children": 0,
-        "sourceParagraphs": 0,
-        "sourceItems": 0,
-        "labels": 0
-      },
-      "reasons": [
-        "No clear source claim was extracted.",
-        "The source material provides little internal hierarchy.",
-        "Support items are mostly labels rather than explanatory claims."
-      ]
-    },
-    {
-      "sectionId": "ethics",
-      "sectionName": "Ethics",
-      "pageTitle": "Fictional Meta-Ethics Debate",
-      "pagePath": "/ethics/fictional-meta-ethics-debate/",
-      "anchor": "prompt-5",
-      "url": "/ethics/fictional-meta-ethics-debate/#prompt-5",
-      "prompt": "Consistent with my position, I would like to dispense with the term moral landscape and employ terms more consistent with moral anti-realism such as the landscape of socially acceptable behaviors . Is this possible? Continue the dialogue accordingly.",
+      "anchor": "prompt-3",
+      "url": "/ethics/fictional-meta-ethics-debate/#prompt-3",
+      "prompt": "Consistent with my position, I would like to dispense with the term moral landscape and employ terms more consistent with moral anti-realism such as the landscape of socially acceptable behaviors. Is this possible? Continue the dialogue accordingly.",
       "heading": "Feasibility of Challenging the Notion of a Moral Realm with Moral Anti-Realism gives the response its center of gravity.",
       "score": 61,
       "level": "developing",
@@ -19146,8 +19048,8 @@
       "score": 100,
       "level": "strong",
       "needsReview": false,
-      "wordCount": 272,
-      "avgItemWords": 22.8,
+      "wordCount": 265,
+      "avgItemWords": 22.2,
       "metrics": {
         "children": 7,
         "sourceParagraphs": 20,
@@ -19213,13 +19115,13 @@
       "pagePath": "/ethics/model-of-ethical-dynamics/",
       "anchor": "prompt-5",
       "url": "/ethics/model-of-ethical-dynamics/#prompt-5",
-      "prompt": "Now create the Mermaid Chart code that will accurately reflect our basic model of the dynamics of ethical dispositions.",
-      "heading": "Explanation of the Mermaid Chart gives the response its center of gravity.",
+      "prompt": "Now create the Mermaid-compatible model structure that will accurately reflect our basic model of the dynamics of ethical dispositions.",
+      "heading": "Explanation of the Mermaid-compatible model gives the response its center of gravity.",
       "score": 100,
       "level": "strong",
       "needsReview": false,
-      "wordCount": 396,
-      "avgItemWords": 41.0,
+      "wordCount": 375,
+      "avgItemWords": 39.2,
       "metrics": {
         "children": 8,
         "sourceParagraphs": 11,
@@ -19621,7 +19523,7 @@
       "pagePath": "/ethics/recommendations-vs-moral-claims/",
       "anchor": "prompt-1",
       "url": "/ethics/recommendations-vs-moral-claims/#prompt-1",
-      "prompt": "Your response appears circular since you appeal to “ actions considered [morally] obligatory or prohibited .” Please try again.",
+      "prompt": "Your response appears circular since you appeal to “ actions considered [morally] obligatory or prohibited.” Please try again.",
       "heading": "Altruism gives the response its center of gravity.",
       "score": 94,
       "level": "strong",
@@ -19765,7 +19667,7 @@
       "pagePath": "/ethics/self-evident-morality/",
       "anchor": "prompt-2",
       "url": "/ethics/self-evident-morality/#prompt-2",
-      "prompt": "Produce an extended essay for your argument Subjectivity of Self-Evidence .",
+      "prompt": "Produce an extended essay for your argument Subjectivity of Self-Evidence.",
       "heading": "The Nature of Self-Evidence gives the response its center of gravity.",
       "score": 100,
       "level": "strong",
@@ -19789,7 +19691,7 @@
       "pagePath": "/ethics/self-evident-morality/",
       "anchor": "prompt-3",
       "url": "/ethics/self-evident-morality/#prompt-3",
-      "prompt": "Produce an extended essay for your argument Circular Reasoning .",
+      "prompt": "Produce an extended essay for your argument Circular Reasoning.",
       "heading": "Understanding Circular Reasoning gives the response its center of gravity.",
       "score": 100,
       "level": "strong",
@@ -19813,7 +19715,7 @@
       "pagePath": "/ethics/self-evident-morality/",
       "anchor": "prompt-4",
       "url": "/ethics/self-evident-morality/#prompt-4",
-      "prompt": "Produce an extended essay for your argument Disagreement in Moral Intuitions .",
+      "prompt": "Produce an extended essay for your argument Disagreement in Moral Intuitions.",
       "heading": "The Nature of Moral Intuitions gives the response its center of gravity.",
       "score": 100,
       "level": "strong",
@@ -19837,7 +19739,7 @@
       "pagePath": "/ethics/self-evident-morality/",
       "anchor": "prompt-5",
       "url": "/ethics/self-evident-morality/#prompt-5",
-      "prompt": "Produce an extended essay for your argument Inapplicability of Mathematical Objectivity .",
+      "prompt": "Produce an extended essay for your argument Inapplicability of Mathematical Objectivity.",
       "heading": "The Nature of Mathematical Objectivity gives the response its center of gravity.",
       "score": 100,
       "level": "strong",
@@ -20029,7 +19931,7 @@
       "pagePath": "/ethics/the-value-selection-hypothesis/",
       "anchor": "prompt-5",
       "url": "/ethics/the-value-selection-hypothesis/#prompt-5",
-      "prompt": "Elaborate on the advantages and disadvantages of allowing humans to believe and perpetuate this fiction of morality .",
+      "prompt": "Elaborate on the advantages and disadvantages of allowing humans to believe and perpetuate this fiction of morality.",
       "heading": "Advantages and Disadvantages of Allowing Humans to Believe in and Perpetuate the Fiction of Morality gives the response its center of gravity.",
       "score": 100,
       "level": "strong",
@@ -20053,7 +19955,7 @@
       "pagePath": "/ethics/torturing-babies/",
       "anchor": "prompt-1",
       "url": "/ethics/torturing-babies/#prompt-1",
-      "prompt": "Tom find torturing babies to be emotionally abhorrent but not immoral since he can identify no legitimate grounding for the notion of morality . Yet many would find Tom’s position untenable. Comment on this.",
+      "prompt": "Tom find torturing babies to be emotionally abhorrent but not immoral since he can identify no legitimate grounding for the notion of morality. Yet many would find Tom’s position untenable. Comment on this.",
       "heading": "Distinction Between Emotion and Morality gives the response its center of gravity.",
       "score": 100,
       "level": "strong",
@@ -20197,13 +20099,13 @@
       "pagePath": "/ethics/utility-functions/",
       "anchor": "prompt-1",
       "url": "/ethics/utility-functions/#prompt-1",
-      "prompt": "What are utility functions ?",
+      "prompt": "What are utility functions?",
       "heading": "Key Concepts of Utility Functions gives the response its center of gravity.",
       "score": 100,
       "level": "strong",
       "needsReview": false,
-      "wordCount": 203,
-      "avgItemWords": 16.8,
+      "wordCount": 202,
+      "avgItemWords": 16.6,
       "metrics": {
         "children": 5,
         "sourceParagraphs": 11,
@@ -21758,7 +21660,7 @@
       "pagePath": "/humanistic-philosophies/russell-on-faith/",
       "anchor": "prompt-3",
       "url": "/humanistic-philosophies/russell-on-faith/#prompt-3",
-      "prompt": "Research other quotes by Russel on faith , categorize them, and comment on the relevance of each category.",
+      "prompt": "Research other quotes by Russel on faith, categorize them, and comment on the relevance of each category.",
       "heading": "Bertrand Russell’s Quotes on Faith gives the response its center of gravity.",
       "score": 61,
       "level": "developing",
@@ -22507,7 +22409,7 @@
       "score": 88,
       "level": "strong",
       "needsReview": false,
-      "wordCount": 247,
+      "wordCount": 246,
       "avgItemWords": 24.8,
       "metrics": {
         "children": 1,
@@ -23131,7 +23033,7 @@
       "score": 100,
       "level": "strong",
       "needsReview": false,
-      "wordCount": 287,
+      "wordCount": 288,
       "avgItemWords": 33.4,
       "metrics": {
         "children": 1,
@@ -23774,33 +23676,7 @@
       "pagePath": "/metaphysics/emergence/",
       "anchor": "prompt-2",
       "url": "/metaphysics/emergence/#prompt-2",
-      "prompt": "For the following types of emergence, create a table with their definitions and clear examples.",
-      "heading": "For the following types of emergence, create a table with their definitions and clear is the pressure point.",
-      "score": 37,
-      "level": "thin",
-      "needsReview": true,
-      "wordCount": 110,
-      "avgItemWords": 4.8,
-      "metrics": {
-        "children": 0,
-        "sourceParagraphs": 0,
-        "sourceItems": 0,
-        "labels": 0
-      },
-      "reasons": [
-        "No clear source claim was extracted.",
-        "The source material provides little internal hierarchy.",
-        "Support items are mostly labels rather than explanatory claims."
-      ]
-    },
-    {
-      "sectionId": "metaphysics",
-      "sectionName": "Metaphysics",
-      "pageTitle": "Emergence",
-      "pagePath": "/metaphysics/emergence/",
-      "anchor": "prompt-3",
-      "url": "/metaphysics/emergence/#prompt-3",
-      "prompt": "Provide a list of the most respected names in the field of emergence .",
+      "prompt": "Provide a list of the most respected names in the field of emergence.",
       "heading": "Respected Names in the Field of Emergence gives the response its center of gravity.",
       "score": 59,
       "level": "developing",
@@ -23822,8 +23698,8 @@
       "sectionName": "Metaphysics",
       "pageTitle": "Emergence",
       "pagePath": "/metaphysics/emergence/",
-      "anchor": "prompt-4",
-      "url": "/metaphysics/emergence/#prompt-4",
+      "anchor": "prompt-3",
+      "url": "/metaphysics/emergence/#prompt-3",
       "prompt": "Create a hypothetical debate between two expert on emergence who have contrasting opinions on the concept.",
       "heading": "Hypothetical Debate on Emergence gives the response its center of gravity.",
       "score": 77,
@@ -23992,7 +23868,7 @@
       "pagePath": "/metaphysics/establishing-the-spiritual/",
       "anchor": "prompt-3",
       "url": "/metaphysics/establishing-the-spiritual/#prompt-3",
-      "prompt": "It also seems that what is called spiritual is often conflated with the emotions which seem only to be immaterial . Please comment on this.",
+      "prompt": "It also seems that what is called spiritual is often conflated with the emotions which seem only to be immaterial. Please comment on this.",
       "heading": "Conflation of the Spiritual and the Immaterial gives the response its center of gravity.",
       "score": 100,
       "level": "strong",
@@ -24040,7 +23916,7 @@
       "pagePath": "/metaphysics/establishing-the-spiritual/",
       "anchor": "prompt-5",
       "url": "/metaphysics/establishing-the-spiritual/#prompt-5",
-      "prompt": "Provide a clear demarcation between what is emotional (immaterial) and what is spiritual .",
+      "prompt": "Provide a clear demarcation between what is emotional (immaterial) and what is spiritual.",
       "heading": "Clear Demarcation Between Emotional (Immaterial) and Spiritual gives the response its center of gravity.",
       "score": 100,
       "level": "strong",
@@ -24136,7 +24012,7 @@
       "pagePath": "/metaphysics/explanations/",
       "anchor": "prompt-4",
       "url": "/metaphysics/explanations/#prompt-4",
-      "prompt": "Write a short essay on the muddled notion of explanation .",
+      "prompt": "Write a short essay on the muddled notion of explanation.",
       "heading": "The Muddled Notion of Explanation gives the response its center of gravity.",
       "score": 100,
       "level": "strong",
@@ -25000,7 +24876,7 @@
       "pagePath": "/metaphysics/the-principle-of-sufficient-reason/",
       "anchor": "prompt-4",
       "url": "/metaphysics/the-principle-of-sufficient-reason/#prompt-4",
-      "prompt": "Provide a list of key research questions relevant to resolving issues surrounding the principle of sufficient reason .",
+      "prompt": "Provide a list of key research questions relevant to resolving issues surrounding the principle of sufficient reason.",
       "heading": "Key Research Questions on the Principle of Sufficient Reason gives the response its center of gravity.",
       "score": 91,
       "level": "strong",
@@ -27040,7 +26916,7 @@
       "pagePath": "/philosophers/aquinas-five-ways/",
       "anchor": "prompt-2",
       "url": "/philosophers/aquinas-five-ways/#prompt-2",
-      "prompt": "Provide rigorous counter-arguments to Aquinas’ Five Ways .",
+      "prompt": "Provide rigorous counter-arguments to Aquinas’ Five Ways.",
       "heading": "Counter-Argument to the Argument from Motion (First Way) gives the response its center of gravity.",
       "score": 100,
       "level": "strong",
@@ -27064,7 +26940,7 @@
       "pagePath": "/philosophers/aquinas-five-ways/",
       "anchor": "prompt-3",
       "url": "/philosophers/aquinas-five-ways/#prompt-3",
-      "prompt": "Provide an essay on the conceptual gulf between the deistic god the Five Ways , if valid, would entail and the specific God of the Bible.",
+      "prompt": "Provide an essay on the conceptual gulf between the deistic god the Five Ways, if valid, would entail and the specific God of the Bible.",
       "heading": "The Conceptual Gulf between the Deistic God of Aquinas’ Five Ways and the Christian God of the Bible gives the response its center of gravity.",
       "score": 100,
       "level": "strong",
@@ -33091,7 +32967,7 @@
       "pagePath": "/philosophical-inquiry/dangers-gaslighting/",
       "anchor": "prompt-3",
       "url": "/philosophical-inquiry/dangers-gaslighting/#prompt-3",
-      "prompt": "This tactic is commonly called gaslighting . How can honest seekers avoid falling prey to this tactic?",
+      "prompt": "This tactic is commonly called gaslighting. How can honest seekers avoid falling prey to this tactic?",
       "heading": "Education and Knowledge gives the response its center of gravity.",
       "score": 100,
       "level": "strong",
@@ -33619,7 +33495,7 @@
       "pagePath": "/philosophical-inquiry/dangers-ontological-buffet/",
       "anchor": "prompt-1",
       "url": "/philosophical-inquiry/dangers-ontological-buffet/#prompt-1",
-      "prompt": "Once the rational demand for evidential substantiation has been removed or diminished, configuring and defending an internally logical ideology from whole cloth becomes much easier. Explain how this works using Carl Sagan’s The Dragon in my Garage .",
+      "prompt": "Once the rational demand for evidential substantiation has been removed or diminished, configuring and defending an internally logical ideology from whole cloth becomes much easier. Explain how this works using Carl Sagan’s The Dragon in my Garage.",
       "heading": "The Process of Constructing an Internally Logical Ideology gives the response its center of gravity.",
       "score": 91,
       "level": "strong",
@@ -34412,7 +34288,7 @@
       "pagePath": "/philosophical-inquiry/dangers-transcendent-meaning/",
       "anchor": "prompt-1",
       "url": "/philosophical-inquiry/dangers-transcendent-meaning/#prompt-1",
-      "prompt": "Some ideologues claim that if meaning is not transcendent and eternal, then we are just molecules, clashing in the universe , making all other meaning illusory. Comment on this move to reduce personal meaning to molecules.",
+      "prompt": "Some ideologues claim that if meaning is not transcendent and eternal, then we are just molecules, clashing in the universe, making all other meaning illusory. Comment on this move to reduce personal meaning to molecules.",
       "heading": "Reductionism vs. Emergentism gives the response its center of gravity.",
       "score": 100,
       "level": "strong",
@@ -34777,8 +34653,8 @@
       "score": 61,
       "level": "developing",
       "needsReview": true,
-      "wordCount": 137,
-      "avgItemWords": 12.5,
+      "wordCount": 134,
+      "avgItemWords": 11.0,
       "metrics": {
         "children": 0,
         "sourceParagraphs": 4,
@@ -34845,12 +34721,12 @@
       "anchor": "prompt-4",
       "url": "/philosophical-inquiry/logic-wherever-structure/#prompt-4",
       "prompt": "Thanks! Please write an essay that reiterates our conclusions in the conversation above.",
-      "heading": "The Inevitability of Logic : Structure , Subjectivity , and Predictive Power gives the response its center of gravity.",
+      "heading": "The Inevitability of Logic: Structure, Subjectivity, and Predictive Power gives the response its center of gravity.",
       "score": 57,
       "level": "developing",
       "needsReview": true,
-      "wordCount": 124,
-      "avgItemWords": 19.0,
+      "wordCount": 118,
+      "avgItemWords": 16.0,
       "metrics": {
         "children": 1,
         "sourceParagraphs": 5,
@@ -35060,32 +34936,6 @@
       "pagePath": "/philosophical-inquiry/personal-truth/",
       "anchor": "prompt-4",
       "url": "/philosophical-inquiry/personal-truth/#prompt-4",
-      "prompt": "I’d like to take issue with your suggestion that the following statement is coherent",
-      "heading": "I’d like to take issue with your suggestion that the following statement is coherent is the pressure point.",
-      "score": 37,
-      "level": "thin",
-      "needsReview": true,
-      "wordCount": 134,
-      "avgItemWords": 5.0,
-      "metrics": {
-        "children": 0,
-        "sourceParagraphs": 0,
-        "sourceItems": 0,
-        "labels": 0
-      },
-      "reasons": [
-        "No clear source claim was extracted.",
-        "The source material provides little internal hierarchy.",
-        "Support items are mostly labels rather than explanatory claims."
-      ]
-    },
-    {
-      "sectionId": "philosophical-inquiry",
-      "sectionName": "Philosophical Inquiry",
-      "pageTitle": "Personal Truth?",
-      "pagePath": "/philosophical-inquiry/personal-truth/",
-      "anchor": "prompt-5",
-      "url": "/philosophical-inquiry/personal-truth/#prompt-5",
       "prompt": "Your statement above seems to affirm that truth can be subjective in some way. This notion is what we want to avoid so we can end up with a clear denotation of “truth” that can maintain semantic significance and distance from beliefs and emotions.",
       "heading": "This notion is what we want to avoid so we can end up with a clear denotation of “truth” is the pressure point.",
       "score": 80,
@@ -36839,7 +36689,7 @@
       "pagePath": "/philosophy-of-ai/feedback-loops/",
       "anchor": "prompt-2",
       "url": "/philosophy-of-ai/feedback-loops/#prompt-2",
-      "prompt": "Explain the strengths and limitations these types of feedback loops introduced by Claude AI .",
+      "prompt": "Explain the strengths and limitations these types of feedback loops introduced by Claude AI.",
       "heading": "Supervised Learning Feedback Loops gives the response its center of gravity.",
       "score": 100,
       "level": "strong",
@@ -37252,7 +37102,7 @@
       "score": 100,
       "level": "strong",
       "needsReview": false,
-      "wordCount": 254,
+      "wordCount": 255,
       "avgItemWords": 24.0,
       "metrics": {
         "children": 0,
@@ -37391,7 +37241,7 @@
       "pagePath": "/philosophy-of-ai/self-reported-ai-capabilities-06-24/",
       "anchor": "prompt-1",
       "url": "/philosophy-of-ai/self-reported-ai-capabilities-06-24/#prompt-1",
-      "prompt": "Create a table with the following domains of AI capability and add columns reflecting Recently Acquired , Beta Stage , and 1-Year Away .",
+      "prompt": "Create a table with the following domains of AI capability and add columns reflecting Recently Acquired, Beta Stage, and 1-Year Away.",
       "heading": "Domains of Capability for Web-Based Public AI Bots gives the response its center of gravity.",
       "score": 81,
       "level": "strong",
@@ -37751,7 +37601,7 @@
       "pagePath": "/philosophy-of-language/abandoned-words/",
       "anchor": "prompt-2",
       "url": "/philosophy-of-language/abandoned-words/#prompt-2",
-      "prompt": "To what degree do contradictory meanings contribute to the disuse of a word such as we see with the word sanction ?",
+      "prompt": "To what degree do contradictory meanings contribute to the disuse of a word such as we see with the word sanction?",
       "heading": "Factors Contributing to Disuse Due to Contradictory Meanings gives the response its center of gravity.",
       "score": 82,
       "level": "strong",
@@ -37871,7 +37721,7 @@
       "pagePath": "/philosophy-of-language/can-words-constitute-violence/",
       "anchor": "prompt-1",
       "url": "/philosophy-of-language/can-words-constitute-violence/#prompt-1",
-      "prompt": "For mere words to be classified as violence , it seems the denotation of violence must be wrenched from its standard denotation and be given a much softer denotation. Correct?",
+      "prompt": "For mere words to be classified as violence, it seems the denotation of violence must be wrenched from its standard denotation and be given a much softer denotation. Correct?",
       "heading": "The Classification of Words as Violence gives the response its center of gravity.",
       "score": 100,
       "level": "strong",
@@ -39335,7 +39185,7 @@
       "pagePath": "/philosophy-of-language/thought-language/",
       "anchor": "prompt-3",
       "url": "/philosophy-of-language/thought-language/#prompt-3",
-      "prompt": "Do a deep dive into the primary arguments made in the content on language and thought , augmented by other relevant sources. Create syllogisms of the arguments if possible, clearly restate any analogies, and make any causal chains explicit.",
+      "prompt": "Do a deep dive into the primary arguments made in the content on language and thought, augmented by other relevant sources. Create syllogisms of the arguments if possible, clearly restate any analogies, and make any causal chains explicit.",
       "heading": "Deep Dive into the Primary Arguments on Language and Thought gives the response its center of gravity.",
       "score": 100,
       "level": "strong",
@@ -40655,7 +40505,7 @@
       "pagePath": "/philosophy-of-mind/neurotypical-neurodivergent-minds/",
       "anchor": "prompt-1",
       "url": "/philosophy-of-mind/neurotypical-neurodivergent-minds/#prompt-1",
-      "prompt": "Comment on the accuracy and significance of this chart.",
+      "prompt": "Comment on the accuracy and significance of the referenced comparison.",
       "heading": "Labeling and Clarity gives the response its center of gravity.",
       "score": 95,
       "level": "strong",
@@ -40684,8 +40534,8 @@
       "score": 100,
       "level": "strong",
       "needsReview": false,
-      "wordCount": 200,
-      "avgItemWords": 24.2,
+      "wordCount": 196,
+      "avgItemWords": 23.2,
       "metrics": {
         "children": 4,
         "sourceParagraphs": 8,
@@ -41303,13 +41153,13 @@
       "pagePath": "/philosophy-of-mind/the-chemical-basis-of-happiness/",
       "anchor": "prompt-3",
       "url": "/philosophy-of-mind/the-chemical-basis-of-happiness/#prompt-3",
-      "prompt": "Create a chart that details the effects of the six neurotransmitters.",
+      "prompt": "Create a structured account detailing the effects of the six neurotransmitters.",
       "heading": "Effects of the Six Neurotransmitters gives the response its center of gravity.",
       "score": 73,
       "level": "good",
       "needsReview": false,
-      "wordCount": 133,
-      "avgItemWords": 16.0,
+      "wordCount": 135,
+      "avgItemWords": 16.5,
       "metrics": {
         "children": 2,
         "sourceParagraphs": 5,
@@ -41831,7 +41681,7 @@
       "pagePath": "/philosophy-of-science/bimodal-distributions/",
       "anchor": "prompt-1",
       "url": "/philosophy-of-science/bimodal-distributions/#prompt-1",
-      "prompt": "What are the possible reasons for the bimodal distribution in this chart?",
+      "prompt": "What are the possible reasons for the bimodal distribution in the referenced comparison?",
       "heading": "Different Levels of Preparation gives the response its center of gravity.",
       "score": 100,
       "level": "strong",
@@ -42647,7 +42497,7 @@
       "pagePath": "/philosophy-of-science/hard-vs-soft-sciences/",
       "anchor": "prompt-4",
       "url": "/philosophy-of-science/hard-vs-soft-sciences/#prompt-4",
-      "prompt": "Introduce 12 essential terms scientists employ related to the notions of multi-variable , degrees of freedom , and boundedness . Provide clear definitions and examples.",
+      "prompt": "Introduce 12 essential terms scientists employ related to the notions of multi-variable, degrees of freedom, and boundedness. Provide clear definitions and examples.",
       "heading": "12 Essential Terms for Multi-Variable Analysis, Degrees of Freedom, and Boundedness gives the response its center of gravity.",
       "score": 100,
       "level": "strong",
@@ -42791,7 +42641,7 @@
       "pagePath": "/philosophy-of-science/improving-science/",
       "anchor": "prompt-2",
       "url": "/philosophy-of-science/improving-science/#prompt-2",
-      "prompt": "Elaborate on the history of the Reproducibility Crisis , and provide an extensive explanation of its causes and effects.",
+      "prompt": "Elaborate on the history of the Reproducibility Crisis, and provide an extensive explanation of its causes and effects.",
       "heading": "History gives the response its center of gravity.",
       "score": 100,
       "level": "strong",
@@ -42815,7 +42665,7 @@
       "pagePath": "/philosophy-of-science/improving-science/",
       "anchor": "prompt-3",
       "url": "/philosophy-of-science/improving-science/#prompt-3",
-      "prompt": "Elaborate on the history of Publication Bias , and provide an extensive explanation of its causes and effects.",
+      "prompt": "Elaborate on the history of Publication Bias, and provide an extensive explanation of its causes and effects.",
       "heading": "History gives the response its center of gravity.",
       "score": 100,
       "level": "strong",
@@ -42839,7 +42689,7 @@
       "pagePath": "/philosophy-of-science/improving-science/",
       "anchor": "prompt-4",
       "url": "/philosophy-of-science/improving-science/#prompt-4",
-      "prompt": "Elaborate on the history of Poor Access to Scientific Research , and provide an extensive explanation of its causes and effects.",
+      "prompt": "Elaborate on the history of Poor Access to Scientific Research, and provide an extensive explanation of its causes and effects.",
       "heading": "History gives the response its center of gravity.",
       "score": 100,
       "level": "strong",
@@ -43440,12 +43290,12 @@
       "anchor": "prompt-1",
       "url": "/philosophy-of-science/orthogonality/#prompt-1",
       "prompt": "What is orthogonality (causal independence) in the context of scientific research, and how is it commonly established?",
-      "heading": "NOTE: The term orthogonal is derived from Greek, meaning a straight angle . You can imagine a line perfectly perpendicular to another with no degree of parallelism gives the response its center of gravity.",
+      "heading": "NOTE: The term orthogonal is derived from Greek, meaning a straight angle. You can imagine a line perfectly perpendicular to another with no degree of parallelism gives the response its center of gravity.",
       "score": 61,
       "level": "developing",
       "needsReview": true,
-      "wordCount": 168,
-      "avgItemWords": 47.0,
+      "wordCount": 166,
+      "avgItemWords": 46.0,
       "metrics": {
         "children": 1,
         "sourceParagraphs": 4,
@@ -43636,7 +43486,7 @@
       "score": 100,
       "level": "strong",
       "needsReview": false,
-      "wordCount": 263,
+      "wordCount": 258,
       "avgItemWords": 36.2,
       "metrics": {
         "children": 4,
@@ -44207,7 +44057,7 @@
       "pagePath": "/philosophy-of-science/scientism-faith/",
       "anchor": "prompt-1",
       "url": "/philosophy-of-science/scientism-faith/#prompt-1",
-      "prompt": "Is there a robust definition of scientism ?",
+      "prompt": "Is there a robust definition of scientism?",
       "heading": "Core Idea gives the response its center of gravity.",
       "score": 98,
       "level": "strong",
@@ -44639,7 +44489,7 @@
       "pagePath": "/philosophy-of-science/the-power-of-thought-experiments/",
       "anchor": "prompt-2",
       "url": "/philosophy-of-science/the-power-of-thought-experiments/#prompt-2",
-      "prompt": "Walk us through step-by-step Galileo’s Leaning Tower of Pisa experiment .",
+      "prompt": "Walk us through step-by-step Galileo’s Leaning Tower of Pisa experiment.",
       "heading": "Step 1: Questioning Aristotle’s Theory gives the response its center of gravity.",
       "score": 100,
       "level": "strong",
@@ -45023,7 +44873,7 @@
       "pagePath": "/philosophy-of-science/what-are-pseudosciences/",
       "anchor": "prompt-1",
       "url": "/philosophy-of-science/what-are-pseudosciences/#prompt-1",
-      "prompt": "Provide a short but rigorous definition of a pseudoscience ?",
+      "prompt": "Provide a short but rigorous definition of a pseudoscience?",
       "heading": "Rigorous methodology gives the response its center of gravity.",
       "score": 78,
       "level": "strong",
@@ -45215,7 +45065,7 @@
       "pagePath": "/philosophy-of-science/what-is-etiology/",
       "anchor": "prompt-1",
       "url": "/philosophy-of-science/what-is-etiology/#prompt-1",
-      "prompt": "Provide a comprehensive treatment of the philosophical meaning of etiology .",
+      "prompt": "Provide a comprehensive treatment of the philosophical meaning of etiology.",
       "heading": "Understanding the Philosophical Meaning of Etiology gives the response its center of gravity.",
       "score": 100,
       "level": "strong",
@@ -46900,7 +46750,7 @@
       "score": 63,
       "level": "good",
       "needsReview": false,
-      "wordCount": 181,
+      "wordCount": 180,
       "avgItemWords": 52.0,
       "metrics": {
         "children": 1,
@@ -47111,7 +46961,7 @@
       "pagePath": "/rational-thought/ai-logic-intelligence/",
       "anchor": "prompt-2",
       "url": "/rational-thought/ai-logic-intelligence/#prompt-2",
-      "prompt": "Extract, as precisely as possible, the author’s notion of the relationship and dynamics between “ logic ” and “ intelligence .”",
+      "prompt": "Extract, as precisely as possible, the author’s notion of the relationship and dynamics between “ logic ” and “ intelligence.”",
       "heading": "Definition and Scope gives the response its center of gravity.",
       "score": 100,
       "level": "strong",
@@ -48503,7 +48353,7 @@
       "pagePath": "/rational-thought/detecting-bad-science/",
       "anchor": "prompt-1",
       "url": "/rational-thought/detecting-bad-science/#prompt-1",
-      "prompt": "Elaborate on each of the 12 points in this image.",
+      "prompt": "Elaborate on the twelve listed points.",
       "heading": "Sensationalized Headlines gives the response its center of gravity.",
       "score": 100,
       "level": "strong",
@@ -49151,8 +49001,8 @@
       "pagePath": "/rational-thought/integrated-critical-thinking/",
       "anchor": "prompt-3",
       "url": "/rational-thought/integrated-critical-thinking/#prompt-3",
-      "prompt": "Create a graph that quantitatively shows the degree of utility of critical thinking in various disciplines.",
-      "heading": "Create a graph that quantitatively shows the degree of utility of critical thinking in is the pressure point.",
+      "prompt": "Create a quantitative account that quantitatively shows the degree of utility of critical thinking in various disciplines.",
+      "heading": "Create a quantitative account that quantitatively shows the degree of utility of critical is the pressure point.",
       "score": 44,
       "level": "thin",
       "needsReview": true,
@@ -49512,7 +49362,7 @@
       "pagePath": "/rational-thought/perverse-incentives/",
       "anchor": "prompt-1",
       "url": "/rational-thought/perverse-incentives/#prompt-1",
-      "prompt": "Provide a short but clear definition of perverse incentives ?",
+      "prompt": "Provide a short but clear definition of perverse incentives?",
       "heading": "Provide a short but clear definition of perverse incentives is the pressure point.",
       "score": 58,
       "level": "developing",
@@ -49776,7 +49626,7 @@
       "pagePath": "/rational-thought/sample-size-margin-of-error/",
       "anchor": "prompt-2",
       "url": "/rational-thought/sample-size-margin-of-error/#prompt-2",
-      "prompt": "Chart the curve that tracks the margin of error as n rises from 1 to 100.",
+      "prompt": "Describe the curve that tracks the margin of error as n rises from 1 to 100.",
       "heading": "Horizontal axis (x-axis) gives the response its center of gravity.",
       "score": 68,
       "level": "good",
@@ -50112,7 +49962,7 @@
       "pagePath": "/rational-thought/the-motive-fallacy/",
       "anchor": "prompt-3",
       "url": "/rational-thought/the-motive-fallacy/#prompt-3",
-      "prompt": "In the most severe manifestations of the motive fallacy , an accusation of being evil or blind is made. Can a discussion recover from a bad faith remark of this sort?",
+      "prompt": "In the most severe manifestations of the motive fallacy, an accusation of being evil or blind is made. Can a discussion recover from a bad faith remark of this sort?",
       "heading": "Recovering from Bad Faith Remarks in Discussions gives the response its center of gravity.",
       "score": 100,
       "level": "strong",
@@ -50280,12 +50130,12 @@
       "pagePath": "/rational-thought/the-primacy-of-emotions/",
       "anchor": "prompt-3",
       "url": "/rational-thought/the-primacy-of-emotions/#prompt-3",
-      "prompt": "You’ve indicated that humans can compartmentalize , being very rational in some respects, and quite irrational in others. How can we ensure we are applying rationality consistently across all aspects of our lives?",
-      "heading": "You’ve indicated that humans can compartmentalize , being very rational in some respects is the pressure point.",
+      "prompt": "You’ve indicated that humans can compartmentalize, being very rational in some respects, and quite irrational in others. How can we ensure we are applying rationality consistently across all aspects of our lives?",
+      "heading": "You’ve indicated that humans can compartmentalize, being very rational in some respects is the pressure point.",
       "score": 83,
       "level": "strong",
       "needsReview": false,
-      "wordCount": 231,
+      "wordCount": 230,
       "avgItemWords": 21.5,
       "metrics": {
         "children": 0,
@@ -50712,7 +50562,7 @@
       "pagePath": "/rational-thought/tu-quoque-or-you-too/",
       "anchor": "prompt-4",
       "url": "/rational-thought/tu-quoque-or-you-too/#prompt-4",
-      "prompt": "Discuss the similarities and differences between a tu quoque argument and a false equivalency .",
+      "prompt": "Discuss the similarities and differences between a tu quoque argument and a false equivalency.",
       "heading": "Similarities gives the response its center of gravity.",
       "score": 80,
       "level": "strong",
@@ -51000,7 +50850,7 @@
       "pagePath": "/rational-thought/what-is-rational-thought/",
       "anchor": "prompt-2",
       "url": "/rational-thought/what-is-rational-thought/#prompt-2",
-      "prompt": "I will use the term Rational Thought to encompass Critical Thinking , Logical Thinking , and Problem-Solving . Given this stipulation, what are the common characteristics of someone highly skilled in Rational Thought ?",
+      "prompt": "I will use the term Rational Thought to encompass Critical Thinking, Logical Thinking, and Problem-Solving. Given this stipulation, what are the common characteristics of someone highly skilled in Rational Thought?",
       "heading": "Common Characteristics of Someone Highly Skilled in Rational Thought gives the response its center of gravity.",
       "score": 100,
       "level": "strong",
@@ -51096,7 +50946,7 @@
       "pagePath": "/rational-thought/what-is-design-thinking/",
       "anchor": "prompt-1",
       "url": "/rational-thought/what-is-design-thinking/#prompt-1",
-      "prompt": "What is design thinking ?",
+      "prompt": "What is design thinking?",
       "heading": "Empathize gives the response its center of gravity.",
       "score": 100,
       "level": "strong",
