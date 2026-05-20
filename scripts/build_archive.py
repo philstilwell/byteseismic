@@ -1392,18 +1392,115 @@ def section_list_items(page: dict, index: int, prompt: str, detail: dict | None 
     return branch_profile(page["section_id"])["items"]
 
 
+def detail_metric_counts(detail: dict | None) -> dict[str, int]:
+    if not detail:
+        return {"children": 0, "sourceParagraphs": 0, "sourceItems": 0, "labels": 0}
+    source_paragraphs = len(detail.get("paragraphs", []))
+    source_items = len(detail.get("items", []))
+    for child in detail.get("children", []):
+        source_paragraphs += len(child.get("paragraphs", []))
+        source_items += len(child.get("items", []))
+    return {
+        "children": len(detail.get("children", [])),
+        "sourceParagraphs": source_paragraphs,
+        "sourceItems": source_items,
+        "labels": len(source_detail_labels(detail)),
+    }
+
+
+def quality_level(score: int) -> str:
+    if score >= 78:
+        return "strong"
+    if score >= 62:
+        return "good"
+    if score >= 45:
+        return "developing"
+    return "thin"
+
+
+def quality_assessment(
+    page: dict,
+    prompt: str,
+    detail: dict | None,
+    paragraphs: list[str],
+    list_items: list[str],
+) -> dict:
+    metrics = detail_metric_counts(detail)
+    word_count = sum(len(clean_text(part).split()) for part in paragraphs + list_items)
+    avg_item_words = round(
+        sum(len(clean_text(item).split()) for item in list_items) / max(len(list_items), 1),
+        1,
+    )
+    claim = first_source_claim(detail)
+    reasons: list[str] = []
+
+    score = 18
+    if detail:
+        score += 12
+    else:
+        reasons.append("No source prompt structure was recovered; this section relies on branch-level reconstruction.")
+
+    score += min(20, metrics["labels"] * 5)
+    score += min(14, metrics["sourceParagraphs"] * 2)
+    score += min(10, metrics["sourceItems"])
+    score += min(12, len(list_items) * 3)
+    score += min(10, len(paragraphs) * 3)
+
+    if claim:
+        score += 8
+    else:
+        reasons.append("No clear source claim was extracted.")
+
+    if word_count >= 170:
+        score += 8
+    elif word_count < 95:
+        score -= 10
+        reasons.append("The reconstructed response is short enough to need hand expansion.")
+
+    if len(list_items) <= 1:
+        score -= 8
+        reasons.append("The section has one or fewer concrete support items.")
+    if metrics["labels"] <= 1 and metrics["sourceParagraphs"] <= 1:
+        score -= 6
+        reasons.append("The source material provides little internal hierarchy.")
+    if avg_item_words < 8 and list_items:
+        score -= 5
+        reasons.append("Support items are mostly labels rather than explanatory claims.")
+
+    score = max(0, min(100, score))
+    level = quality_level(score)
+    if level in {"thin", "developing"} and not reasons:
+        reasons.append("This section is adequate scaffolding but should be considered for a hand-polish pass.")
+    if level in {"good", "strong"} and not reasons:
+        reasons.append("The section has enough source structure and explanatory density for now.")
+
+    return {
+        "score": score,
+        "level": level,
+        "needsReview": level in {"thin", "developing"},
+        "wordCount": word_count,
+        "avgItemWords": avg_item_words,
+        "metrics": metrics,
+        "reasons": reasons[:3],
+    }
+
+
 def source_prompt_sections(page: dict, prompts: list[str]) -> list[dict]:
     sections = []
     source_details = page.get("source_prompt_details", [])
     for index, prompt in enumerate(prompts, start=1):
         detail = source_details[index - 1] if index - 1 < len(source_details) else None
+        paragraphs = prompt_response_paragraphs(page, prompt, index, detail)
+        list_items = section_list_items(page, index, prompt, detail)
         sections.append(
             {
                 "id": f"prompt-{index}",
                 "eyebrow": "Reconstructed Response",
                 "heading": source_prompt_heading(prompt, topic_label(page["title"]), detail),
-                "paragraphs": prompt_response_paragraphs(page, prompt, index, detail),
-                "list_items": section_list_items(page, index, prompt, detail),
+                "paragraphs": paragraphs,
+                "list_items": list_items,
+                "prompt": prompt,
+                "quality": quality_assessment(page, prompt, detail, paragraphs, list_items),
             }
         )
 
@@ -1646,8 +1743,15 @@ def render_article_page(page: dict) -> str:
 
     body_parts = []
     for section in sections:
+        quality = section.get("quality")
+        quality_attrs = ""
+        if quality:
+            quality_attrs = (
+                f' data-quality-level="{html.escape(quality["level"])}"'
+                f' data-quality-score="{quality["score"]}"'
+            )
         block = [
-            f'            <section class="article-section" id="{section["id"]}">',
+            f'            <section class="article-section" id="{section["id"]}"{quality_attrs}>',
             f'              <p class="eyebrow">{html.escape(section["eyebrow"])}</p>',
             f'              <h2>{html.escape(section["heading"])}</h2>',
             render_paragraphs(section.get("paragraphs", [])),
@@ -1983,6 +2087,235 @@ def render_podcast_page() -> str:
     )
 
 
+def build_quality_report(generated_pages: list[dict]) -> dict:
+    records = []
+    for page in generated_pages:
+        if page["built_path"] in GROUP_PAGE_TITLES.values():
+            continue
+        if page.get("quality_tracked") is False:
+            continue
+        for section in compose_sections(page):
+            quality = section.get("quality")
+            if not quality:
+                continue
+            records.append(
+                {
+                    "sectionId": page["section_id"],
+                    "sectionName": SECTION_META[page["section_id"]]["name"],
+                    "pageTitle": page["title"],
+                    "pagePath": page["built_path"],
+                    "anchor": section["id"],
+                    "url": f'{page["built_path"]}#{section["id"]}',
+                    "prompt": section.get("prompt", ""),
+                    "heading": section["heading"],
+                    "score": quality["score"],
+                    "level": quality["level"],
+                    "needsReview": quality["needsReview"],
+                    "wordCount": quality["wordCount"],
+                    "avgItemWords": quality["avgItemWords"],
+                    "metrics": quality["metrics"],
+                    "reasons": quality["reasons"],
+                }
+            )
+
+    by_section: dict[str, list[dict]] = defaultdict(list)
+    for record in records:
+        by_section[record["sectionId"]].append(record)
+
+    summaries = []
+    for section_id in SECTION_IDS:
+        section_records = by_section.get(section_id, [])
+        if not section_records:
+            continue
+        level_counts = {level: 0 for level in ("strong", "good", "developing", "thin")}
+        for record in section_records:
+            level_counts[record["level"]] += 1
+        total = len(section_records)
+        needs_review = sum(1 for record in section_records if record["needsReview"])
+        average_score = round(sum(record["score"] for record in section_records) / total, 1)
+        summaries.append(
+            {
+                "sectionId": section_id,
+                "sectionName": SECTION_META[section_id]["name"],
+                "total": total,
+                "averageScore": average_score,
+                "needsReview": needs_review,
+                "needsReviewRate": round(needs_review / total, 3),
+                "levels": level_counts,
+                "weakest": sorted(section_records, key=lambda item: (item["score"], item["pageTitle"]))[:12],
+            }
+        )
+
+    summaries.sort(key=lambda item: (-item["needsReviewRate"], item["averageScore"], item["sectionName"]))
+    weakest = sorted(records, key=lambda item: (item["score"], item["sectionName"], item["pageTitle"]))[:150]
+    total_records = len(records)
+    total_needs_review = sum(1 for record in records if record["needsReview"])
+
+    return {
+        "generatedAt": "2026-05-20",
+        "overall": {
+            "totalPromptSections": total_records,
+            "averageScore": round(sum(record["score"] for record in records) / max(total_records, 1), 1),
+            "needsReview": total_needs_review,
+            "needsReviewRate": round(total_needs_review / max(total_records, 1), 3),
+        },
+        "sectionSummaries": summaries,
+        "weakest": weakest,
+        "records": records,
+    }
+
+
+def render_quality_review_page(report: dict) -> str:
+    summary = report["overall"]
+    section_blocks = []
+    for branch in report["sectionSummaries"]:
+        weak_items = "\n".join(
+            f'                <li><a href="..{html.escape(item["url"])}">{html.escape(item["pageTitle"])} — {html.escape(item["anchor"])}</a><span>{html.escape(item["level"])} · {item["score"]}</span></li>'
+            for item in branch["weakest"][:10]
+        )
+        section_blocks.append(
+            f"""\
+            <section class="article-section">
+              <p class="eyebrow">Quality Branch</p>
+              <h2>{html.escape(branch["sectionName"])}</h2>
+              <p>
+                Average score: <strong>{branch["averageScore"]}</strong>. Sections needing review:
+                <strong>{branch["needsReview"]}</strong> of <strong>{branch["total"]}</strong>.
+                Levels: strong {branch["levels"]["strong"]}, good {branch["levels"]["good"]},
+                developing {branch["levels"]["developing"]}, thin {branch["levels"]["thin"]}.
+              </p>
+              <ul class="archive-year-list">
+{weak_items}
+              </ul>
+            </section>"""
+        )
+
+    weakest_items = "\n".join(
+        f'                <li><a href="..{html.escape(item["url"])}">{html.escape(item["sectionName"])} / {html.escape(item["pageTitle"])} / {html.escape(item["anchor"])}</a><span>{html.escape(item["level"])} · {item["score"]}</span></li>'
+        for item in report["weakest"][:30]
+    )
+
+    return textwrap.dedent(
+        f"""\
+        {AUTO_MARKER}
+        <!DOCTYPE html>
+        <html lang="en">
+          <head>
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <title>Quality Review | Byteseismic Reconstruction</title>
+            <meta
+              name="description"
+              content="A quality ledger for tracking reconstructed prompt-response sections that need later hand refinement."
+            />
+            <link rel="preconnect" href="https://fonts.googleapis.com" />
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+            <link
+              href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,700&family=Spline+Sans:wght@400;500;600;700&display=swap"
+              rel="stylesheet"
+            />
+            <link rel="stylesheet" href="../assets/css/styles.css" />
+          </head>
+          <body>
+            <div class="page-shell">
+              <header class="hero hero--article">
+                <img
+                  class="hero__image"
+                  src="../assets/images/byteseismic-large-header-x.5-b-8000-x-800-px.png"
+                  alt="Byteseismic banner"
+                />
+                <div class="hero__content">
+                  <div class="breadcrumbs">
+                    <a href="../index.html">Home</a>
+                    <span>/</span>
+                    <span>Quality Review</span>
+                  </div>
+                  <p class="hero__kicker">Internal Ledger</p>
+                  <h1>Quality Review</h1>
+                  <p class="article-standfirst">
+                    A working ledger for finding weak reconstructed prompt-response sections and
+                    returning to them branch by branch.
+                  </p>
+                </div>
+              </header>
+
+              <div class="article-layout article-layout--single">
+                <main class="article-stack">
+                  <section class="content-card">
+                    <p class="eyebrow">Quality Scope</p>
+                    <h2>Prompt-response coverage</h2>
+                    <p>
+                      This review tracks <strong>{summary["totalPromptSections"]}</strong> generated
+                      prompt-response sections. Average score is <strong>{summary["averageScore"]}</strong>.
+                      Sections needing review: <strong>{summary["needsReview"]}</strong>
+                      ({round(summary["needsReviewRate"] * 100, 1)}%).
+                    </p>
+                    <p>
+                      Levels are heuristic, not final judgment: <strong>strong</strong>,
+                      <strong>good</strong>, <strong>developing</strong>, and <strong>thin</strong>.
+                      “Developing” and “thin” are the backlog for hand-polish.
+                    </p>
+                  </section>
+
+                  <section class="article-section">
+                    <p class="eyebrow">Weakest Sections</p>
+                    <h2>Start here when polishing manually</h2>
+                    <ul class="archive-year-list">
+{weakest_items}
+                    </ul>
+                  </section>
+
+                  <div class="article-body">
+        {'\n\n'.join(section_blocks)}
+                  </div>
+                </main>
+              </div>
+            </div>
+          </body>
+        </html>
+        """
+    )
+
+
+def render_quality_markdown(report: dict) -> str:
+    lines = [
+        "# Byteseismic Quality Ledger",
+        "",
+        "Generated: 2026-05-20",
+        "",
+        f"Tracked prompt-response sections: {report['overall']['totalPromptSections']}",
+        f"Average score: {report['overall']['averageScore']}",
+        f"Needs review: {report['overall']['needsReview']} ({round(report['overall']['needsReviewRate'] * 100, 1)}%)",
+        "",
+        "## Branch Summary",
+        "",
+        "| Branch | Avg | Needs Review | Strong | Good | Developing | Thin |",
+        "| --- | ---: | ---: | ---: | ---: | ---: | ---: |",
+    ]
+    for branch in report["sectionSummaries"]:
+        levels = branch["levels"]
+        lines.append(
+            f"| {branch['sectionName']} | {branch['averageScore']} | {branch['needsReview']}/{branch['total']} | {levels['strong']} | {levels['good']} | {levels['developing']} | {levels['thin']} |"
+        )
+
+    lines.extend(["", "## Weakest Sections", ""])
+    for item in report["weakest"][:150]:
+        reasons = "; ".join(item["reasons"])
+        lines.append(
+            f"- `{item['level']}` {item['score']} [{item['sectionName']} / {item['pageTitle']}#{item['anchor']}](..{item['url']}): {reasons}"
+        )
+
+    lines.append("")
+    return "\n".join(lines)
+
+
+def write_quality_files(report: dict) -> None:
+    quality_dir = ROOT / "quality"
+    quality_dir.mkdir(exist_ok=True)
+    (quality_dir / "section-quality.json").write_text(json.dumps(report, indent=2, ensure_ascii=False))
+    (quality_dir / "section-quality.md").write_text(render_quality_markdown(report))
+
+
 def write_if_allowed(target: Path, contents: str) -> bool:
     if target.exists():
         existing = target.read_text()
@@ -2150,12 +2483,13 @@ def main() -> None:
             continue
         target = ROOT / page["built_path"].strip("/") / "index.html"
         valid_targets.add(target)
-        write_if_allowed(target, render_article_page(page))
+        page["quality_tracked"] = write_if_allowed(target, render_article_page(page))
 
     menu_target = ROOT / "menu-structure" / "index.html"
     podcast_target = ROOT / "byteseismic-podcasts" / "index.html"
     archive_target = ROOT / "recent-posts-expanded-version" / "index.html"
-    valid_targets.update({menu_target, podcast_target, archive_target})
+    quality_review_target = ROOT / "quality-review" / "index.html"
+    valid_targets.update({menu_target, podcast_target, archive_target, quality_review_target})
 
     write_if_allowed(menu_target, render_menu_structure_page())
     write_if_allowed(podcast_target, render_podcast_page())
@@ -2170,6 +2504,9 @@ def main() -> None:
         section_counts[page["section_id"]] += 1
 
     write_if_allowed(archive_target, render_expanded_archive_page(posts_by_year, section_counts))
+    quality_report = build_quality_report(generated_pages)
+    write_if_allowed(quality_review_target, render_quality_review_page(quality_report))
+    write_quality_files(quality_report)
 
     def choose_featured_pages() -> list[dict]:
         chosen = []
