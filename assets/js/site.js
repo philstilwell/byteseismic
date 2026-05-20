@@ -1,0 +1,328 @@
+(function () {
+  const data = window.BYTESEISMIC_DATA;
+
+  if (!data) {
+    return;
+  }
+
+  const isFile = window.location.protocol === "file:";
+  const decodedPath = decodeURIComponent(window.location.pathname);
+  const repoMarker = "/BYTESEISMIC/";
+  const repoIndex = decodedPath.indexOf(repoMarker);
+  const fileRoot = isFile && repoIndex !== -1 ? decodedPath.slice(0, repoIndex + repoMarker.length - 1) : "";
+  const githubPrefix =
+    window.location.hostname.endsWith("github.io") &&
+    window.location.pathname.startsWith("/byteseismic/")
+      ? "/byteseismic"
+      : "";
+
+  function href(path) {
+    const normalized = path.startsWith("/") ? path : `/${path}`;
+
+    if (isFile && fileRoot) {
+      if (normalized === "/") {
+        return `file://${fileRoot}/index.html`;
+      }
+
+      if (normalized.endsWith("/")) {
+        return `file://${fileRoot}${normalized}index.html`;
+      }
+
+      return `file://${fileRoot}${normalized}`;
+    }
+
+    return `${githubPrefix}${normalized}`;
+  }
+
+  function homeAnchor(sectionId) {
+    return `${href("/")}#section-${sectionId}`;
+  }
+
+  function currentSection() {
+    return document.body.dataset.currentSection || "";
+  }
+
+  function currentPage() {
+    return document.body.dataset.currentPage || "";
+  }
+
+  function countTree(nodes) {
+    return (nodes || []).reduce(
+      (total, node) => total + 1 + countTree(node.children || []),
+      0,
+    );
+  }
+
+  function fallbackTopicTree(section) {
+    return (section.seedTopics || []).map((topic) => ({
+      title: topic,
+      path: data.topicPaths?.[topic] || "",
+    }));
+  }
+
+  function sectionTree(section) {
+    return section.topicTree?.length ? section.topicTree : fallbackTopicTree(section);
+  }
+
+  function hasCurrentDescendant(node, activePage) {
+    if (!node || !activePage) {
+      return false;
+    }
+
+    if (node.path === activePage) {
+      return true;
+    }
+
+    return (node.children || []).some((child) => hasCurrentDescendant(child, activePage));
+  }
+
+  function renderOutlineTree(nodes, activePage, fallbackTarget, level = 0) {
+    if (!nodes?.length) {
+      return "";
+    }
+
+    const listClass = level === 0 ? "outline-topic-tree" : "outline-subtree";
+    const items = nodes
+      .map((node) => {
+        const hasChildren = Boolean(node.children?.length);
+        const target = node.path ? href(node.path) : fallbackTarget;
+        const isCurrent = node.path === activePage;
+        const containsCurrent = hasCurrentDescendant(node, activePage);
+
+        if (hasChildren) {
+          const nestedCount = countTree(node.children);
+          const jumpLink = node.path
+            ? `
+                <a class="outline-node__jump${isCurrent ? " is-current" : ""}" href="${target}">
+                  Open ${node.title}
+                </a>
+              `
+            : "";
+
+          return `
+            <li class="outline-tree__item outline-tree__item--branch">
+              <details class="outline-branch"${containsCurrent ? " open" : ""}>
+                <summary>
+                  <span class="outline-branch__summary">
+                    <span class="outline-branch__label">${node.title}</span>
+                    <span class="outline-branch__count">${nestedCount}</span>
+                  </span>
+                </summary>
+                <div class="outline-branch__body">
+                  ${jumpLink}
+                  ${renderOutlineTree(node.children, activePage, fallbackTarget, level + 1)}
+                </div>
+              </details>
+            </li>
+          `;
+        }
+
+        if (!target) {
+          return `
+            <li class="outline-tree__item outline-tree__item--leaf">
+              <span class="outline-node__text">${node.title}</span>
+            </li>
+          `;
+        }
+
+        return `
+          <li class="outline-tree__item outline-tree__item--leaf">
+            <a class="outline-node__link${isCurrent ? " is-current" : ""}" href="${target}">
+              ${node.title}
+            </a>
+          </li>
+        `;
+      })
+      .join("");
+
+    return `<ul class="${listClass}">${items}</ul>`;
+  }
+
+  function renderStructurePreview(section) {
+    const tree = sectionTree(section);
+    const items = tree
+      .slice(0, 6)
+      .map((node) => {
+        const target = node.path ? href(node.path) : sectionTarget(section);
+        const nestedCount = countTree(node.children || []);
+        const meta = nestedCount ? `${nestedCount} nested` : "leaf page";
+
+        return `
+          <li>
+            <a href="${target}">${node.title}</a>
+            <span class="seed-list__meta">${meta}</span>
+          </li>
+        `;
+      })
+      .join("");
+
+    return `<ul class="seed-list seed-list--preview">${items}</ul>`;
+  }
+
+  function topicTarget(section, topic) {
+    const builtPath = data.topicPaths?.[topic];
+    return builtPath ? href(builtPath) : homeAnchor(section.id);
+  }
+
+  function sectionTarget(section) {
+    return section.samplePath ? href(section.samplePath) : homeAnchor(section.id);
+  }
+
+  function renderNav() {
+    const mounts = document.querySelectorAll("[data-site-nav]");
+    if (!mounts.length) {
+      return;
+    }
+
+    const activeSection = currentSection();
+    const list = data.sections
+      .map((section) => {
+        const isActive = section.id === activeSection ? " is-active" : "";
+        const count = section.topicCount || countTree(sectionTree(section));
+        const target =
+          document.body.dataset.pageType === "home" ? `#section-${section.id}` : sectionTarget(section);
+
+        return `
+          <li class="site-nav__item${isActive}">
+            <a href="${target}">
+              <span class="site-nav__name">${section.name}</span>
+              <span class="site-nav__meta">${count} topics</span>
+            </a>
+          </li>
+        `;
+      })
+      .join("");
+
+    mounts.forEach((mount) => {
+      mount.innerHTML = `
+        <div class="site-nav">
+          <p class="site-nav__eyebrow">Archive Map</p>
+          <h2 class="site-nav__title">Branch Guide</h2>
+          <p class="site-nav__intro">
+            A condensed guide to the rebuilt archive branches, including nested paths where the old hierarchy goes deeper.
+          </p>
+          <ul class="site-nav__list">${list}</ul>
+        </div>
+      `;
+    });
+  }
+
+  function renderArticleOutline() {
+    const mount = document.querySelector("[data-article-outline]");
+    if (!mount) {
+      return;
+    }
+
+    const activeSection = currentSection();
+    const activePage = currentPage();
+    const groups = data.sections
+      .map((section) => {
+        const open = section.id === activeSection ? " open" : "";
+        const tree = sectionTree(section);
+        const count = section.topicCount || countTree(tree);
+        const topics = renderOutlineTree(tree, activePage, sectionTarget(section));
+
+        return `
+          <details class="outline-group"${open}>
+            <summary>
+              <span class="outline-group__name">${section.name}</span>
+              <span class="outline-group__count">${count}</span>
+            </summary>
+            <div class="outline-group__body">
+              <a class="outline-group__jump" href="${sectionTarget(section)}">${section.summary}</a>
+              ${topics}
+            </div>
+          </details>
+        `;
+      })
+      .join("");
+
+    mount.innerHTML = `
+      <div class="outline-card">
+        <div class="outline-card__header">
+          <p class="eyebrow">Archive Hierarchy</p>
+          <h2>Condensed branch view</h2>
+          <p>
+            Each branch opens into its own nested path. Sub-branches get their own compact accordions so the larger archive stays legible.
+          </p>
+        </div>
+        <div class="outline-accordion">${groups}</div>
+      </div>
+    `;
+  }
+
+  function renderStructureGrid() {
+    const mount = document.querySelector("[data-section-grid]");
+    if (!mount) {
+      return;
+    }
+
+    mount.innerHTML = data.sections
+      .map((section) => {
+        const sampleLink = section.samplePath
+          ? `<a class="text-link" href="${href(section.samplePath)}">Open branch entry</a>`
+          : `<span class="muted-label">Branch entry coming next</span>`;
+        const tags = section.futureTags.map((tag) => `<span class="tag-chip">${tag}</span>`).join("");
+
+        return `
+          <article class="structure-card" id="section-${section.id}">
+            <div class="structure-card__header">
+              <p class="eyebrow">${section.name}</p>
+              <h3>${section.summary}</h3>
+            </div>
+            <div class="structure-card__body">
+              <div>
+                <p class="mini-label">Visible top-level paths in this branch</p>
+                ${renderStructurePreview(section)}
+              </div>
+              <div>
+                <p class="mini-label">Starter tags for future expansion</p>
+                <div class="tag-row">${tags}</div>
+              </div>
+            </div>
+            <div class="structure-card__footer">${sampleLink}</div>
+          </article>
+        `;
+      })
+      .join("");
+  }
+
+  function renderTagCloud() {
+    const mount = document.querySelector("[data-tag-cloud]");
+    if (!mount) {
+      return;
+    }
+
+    const tags = [...new Set(data.sections.flatMap((section) => section.futureTags))].sort();
+    mount.innerHTML = tags.map((tag) => `<span class="tag-chip tag-chip--large">${tag}</span>`).join("");
+  }
+
+  function renderFeaturedPages() {
+    const mount = document.querySelector("[data-featured-pages]");
+    if (!mount) {
+      return;
+    }
+
+    mount.innerHTML = data.featuredPages
+      .map((page) => {
+        const tags = page.tags.map((tag) => `<span class="tag-chip">${tag}</span>`).join("");
+
+        return `
+          <article class="feature-card">
+            <p class="eyebrow">${page.section}</p>
+            <h3>${page.title}</h3>
+            <p>${page.summary}</p>
+            <div class="tag-row">${tags}</div>
+            <a class="button button--ghost" href="${href(page.path)}">Read the page</a>
+          </article>
+        `;
+      })
+      .join("");
+  }
+
+  renderNav();
+  renderArticleOutline();
+  renderStructureGrid();
+  renderTagCloud();
+  renderFeaturedPages();
+})();
