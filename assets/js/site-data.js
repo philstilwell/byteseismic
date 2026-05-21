@@ -203,11 +203,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/ethics/a-history-of-golden-rules/",
       "summary": "A reconstructed page on A History of Golden Rules, written to clarify its role inside the ethics branch.",
       "tags": [
+        "golden-rules",
         "history",
-        "golden",
-        "rules",
         "ethics",
-        "meta-ethics"
+        "meta-ethics",
+        "culpability"
       ]
     },
     {
@@ -216,11 +216,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/economics/a-living-wage/",
       "summary": "A reconstructed page on A Living Wage, written to clarify its role inside the economics branch.",
       "tags": [
-        "living",
-        "wage",
+        "living-wage",
         "economics",
         "incentives",
-        "risk"
+        "risk",
+        "public-policy"
       ]
     },
     {

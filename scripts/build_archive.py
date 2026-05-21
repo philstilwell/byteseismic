@@ -324,6 +324,39 @@ TOPIC_ALIASES = {
     "Critical Theorists": "Critical Theory",
 }
 
+COMPOUND_TAG_PHRASES = (
+    "case study",
+    "case studies",
+    "edge case",
+    "free will",
+    "human rights",
+    "human nature",
+    "human value",
+    "social contract",
+    "divine command theory",
+    "economic thought",
+    "future of work",
+    "moral hazard",
+    "moral hazards",
+    "moral realism",
+    "moral non-realism",
+    "logical fallacies",
+    "training data",
+    "public judgment",
+    "political theory",
+    "identity politics",
+    "critical race theory",
+    "universal basic income",
+    "minimum wage",
+    "living wage",
+    "game theory",
+    "design thinking",
+    "decision making",
+    "burden of proof",
+    "golden rule",
+    "golden rules",
+)
+
 LOW_VALUE_HEADING_PATTERNS = (
     "table of contents",
     "quiz",
@@ -1159,9 +1192,40 @@ def infer_kind(title: str, has_children: bool) -> str:
     return "essay"
 
 
+def normalized_phrase(text: str) -> str:
+    return re.sub(r"[^a-z0-9]+", " ", clean_text(text).lower()).strip()
+
+
+def compound_tag_candidates(topic: str) -> tuple[list[str], set[str]]:
+    normalized_topic = normalized_phrase(topic)
+    phrase_tags: list[str] = []
+    suppressed_components: set[str] = set()
+
+    for phrase in sorted(COMPOUND_TAG_PHRASES, key=len, reverse=True):
+        normalized = normalized_phrase(phrase)
+        if not normalized:
+            continue
+        if not re.search(rf"\b{re.escape(normalized)}\b", normalized_topic):
+            continue
+        phrase_tags.append(slugify(normalized))
+        suppressed_components.update(
+            slugify(word)
+            for word in normalized.split()
+            if len(word) > 3
+        )
+
+    return dedupe(phrase_tags), suppressed_components
+
+
 def tag_candidates(page: dict, section_meta: dict) -> list[str]:
-    base = [slugify(word) for word in re.split(r"[\s/&:—–-]+", topic_label(page["title"])) if len(word) > 3]
-    tags = dedupe(base + list(section_meta["futureTags"]))
+    topic = topic_label(page["title"])
+    phrase_tags, suppressed_components = compound_tag_candidates(topic)
+    base = [
+        slugify(word)
+        for word in re.split(r"[\s/&:—–-]+", topic)
+        if len(word) > 3 and slugify(word) not in suppressed_components
+    ]
+    tags = dedupe(phrase_tags + base + list(section_meta["futureTags"]))
     return tags[:5]
 
 
