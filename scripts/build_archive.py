@@ -381,6 +381,9 @@ PROMPT_STARTERS = (
     "does",
     "explain",
     "elaborate",
+    "restate",
+    "summarize",
+    "enumerate",
     "trace",
     "chart",
     "comment",
@@ -553,7 +556,12 @@ def strip_number_prefix(text: str) -> str:
 def looks_like_prompt(text: str) -> bool:
     cleaned = strip_number_prefix(text)
     lowered = cleaned.lower()
-    return "?" in cleaned or lowered.startswith(PROMPT_STARTERS)
+    return (
+        "?" in cleaned
+        or lowered.startswith(PROMPT_STARTERS)
+        or "weigh in on this" in lowered
+        or "would you not agree" in lowered
+    )
 
 
 def fetch_homepage_html() -> str:
@@ -914,7 +922,7 @@ def split_label(text: str) -> tuple[str, str]:
     if ":" not in cleaned:
         return "", cleaned
     label, body = cleaned.split(":", 1)
-    label = strip_number_prefix(label).strip(" -–")
+    label = strip_number_prefix(label).strip(" -–.")
     body = body.strip()
     if not label or len(label) > 92 or len(body) < 20:
         return "", cleaned
@@ -960,6 +968,7 @@ def rewrite_source_sentence(text: str) -> str:
     sentence = re.sub(r"\s+([.,;:!?])", r"\1", sentence)
     sentence = re.sub(r"([.!?][”\"])\.", r"\1", sentence)
     sentence = compact_text(sentence, 280).strip()
+    sentence = sentence.rstrip(" :;")
     if sentence:
         sentence = sentence[0].upper() + sentence[1:]
     closed_quote_punctuation = sentence.endswith((".”", "!”", "?”", '."', '!"', '?"'))
@@ -1092,6 +1101,7 @@ def clarify_prompt(text: str) -> str:
     prompt = re.sub(r"\bthe discussion above\b", "this discussion", prompt, flags=re.IGNORECASE)
     prompt = re.sub(r"\bcontent above\b", "this discussion", prompt, flags=re.IGNORECASE)
     prompt = re.sub(r"\bthread above\b", "this discussion", prompt, flags=re.IGNORECASE)
+    prompt = re.sub(r"\bunevidence presupposition\b", "unevidenced presupposition", prompt, flags=re.IGNORECASE)
     prompt = rewrite_unavailable_asset_references(prompt)
     if prompt:
         prompt = prompt[0].upper() + prompt[1:]
@@ -1344,7 +1354,7 @@ def source_prompt_heading(prompt: str, topic: str, detail: dict | None) -> str:
         center = labels[0].strip(" .:")
         return f"{center} gives the response its center of gravity."
 
-    key = prompt_key_phrase(prompt, topic)
+    key = short_prompt_key(prompt, topic)
     if key and key.lower() != topic.lower():
         verb = "are" if re.search(r"\b(intuitions|values|rights|duties|scores|percentages)\b", key, flags=re.IGNORECASE) else "is"
         return f"{key[0].upper() + key[1:]} {verb} the pressure point."
@@ -1373,7 +1383,13 @@ def prompt_focus(prompt: str) -> str:
         return "dialogue"
     if "general description" in lowered or "description of" in lowered:
         return "description"
-    if "example" in lowered or "anecdote" in lowered or "case" in lowered:
+    if (
+        "example" in lowered
+        or "anecdote" in lowered
+        or "case study" in lowered
+        or re.search(r"\bcase\s*#?\d+\b", lowered)
+        or re.search(r"\bscenario\b", lowered)
+    ):
         return "examples"
     if (
         "list" in lowered
@@ -1424,13 +1440,13 @@ def prompt_response_paragraphs(page: dict, prompt: str, index: int, detail: dict
                 f"Those are the actual steps by which the prompt turns {topic} from a title into a testable philosophical problem."
             )
         else:
-            key = prompt_key_phrase(prompt, topic)
+            key = short_prompt_key(prompt, topic)
             paragraphs.append(
                 f"This response centers on {key}, treating it as the point where {topic} needs careful reconstruction rather than quick agreement."
             )
 
         if claim:
-            paragraphs.append(f"The reconstructed answer’s center of gravity is this: {claim}")
+            paragraphs.append(f"The composite answer's center of gravity is this: {claim}")
 
         if len(labels) >= 2:
             paragraphs.append(
@@ -1443,7 +1459,7 @@ def prompt_response_paragraphs(page: dict, prompt: str, index: int, detail: dict
             )
         return paragraphs[:3]
 
-    key = prompt_key_phrase(prompt, topic)
+    key = short_prompt_key(prompt, topic)
     first = (
         f"This response treats {key} as the hinge of {topic}, keeping the question inside the branch discipline of {profile['lens']}. "
         f"{profile['stakes']}"
@@ -1533,6 +1549,8 @@ def source_detail_list_items(detail: dict | None, page: dict) -> list[str]:
             items.append(f"{label}: This is one of the structural moves the prompt asks the reader to keep distinct.")
 
     for raw_item in detail.get("items", []):
+        if looks_like_prompt(raw_item) or is_low_value_prompt(raw_item):
+            continue
         label, body = split_label(raw_item)
         label = rewrite_unavailable_asset_references(label)
         label = display_label(label)
@@ -1603,6 +1621,8 @@ def enrich_support_item(item: str, page: dict, prompt: str, focus: str) -> str:
     if label and body:
         if label == "the curator":
             label = "The curator"
+        if body and body[0].islower():
+            body = body[0].upper() + body[1:]
         if len(body.split()) >= 9:
             return f"{label}: {body}"
         return f"{label}: {body} {support_item_body(label, page, prompt, focus)}"
@@ -1619,7 +1639,7 @@ def enrich_support_item(item: str, page: dict, prompt: str, focus: str) -> str:
 def supplemental_support_items(page: dict, prompt: str, detail: dict | None, focus: str) -> list[str]:
     topic = topic_label(page["title"])
     profile = branch_profile(page["section_id"])
-    key = prompt_key_phrase(prompt, topic)
+    key = short_prompt_key(prompt, topic)
 
     if page["section_id"] == "philosophers":
         return [
@@ -1659,6 +1679,208 @@ def supplemental_support_items(page: dict, prompt: str, detail: dict | None, foc
         "Pressure point: The vulnerability lies where the idea becomes ambiguous, overextended, or dependent on background assumptions.",
         f"Future branch: The answer opens a path toward the next related question inside {SECTION_META[page['section_id']]['name']}.",
     ]
+
+
+def short_prompt_key(prompt: str, topic: str) -> str:
+    cleaned = clean_text(prompt)
+    lowered = cleaned.lower()
+    if re.match(r"^restate the following from .+$", cleaned, flags=re.IGNORECASE):
+        if "moral realism" in topic.lower():
+            return "moral realism's apparent common-sense appeal"
+        return f"the source passage on {topic}"
+    if re.match(r"^summarize .+$", cleaned, flags=re.IGNORECASE):
+        return topic
+
+    special_patterns = [
+        (r"^take a few stabs at what (.+?) might represent\.?$", r"\1"),
+        (r"^explain the rationale behind your guess of (.+?)\.?$", r"the rationale for \1"),
+        (r"^does that rationale reflect what you know about actual (.+?)\??$", r"the fit between the rationale and actual \1"),
+        (
+            r"^can you provide a few guesses on the significance of (.+?) if interpreted as (.+?)\??$",
+            r"\2 interpretations of \1",
+        ),
+        (r"^which of those guesses is most likely.*$", "the most likely interpretation"),
+    ]
+    for pattern, replacement in special_patterns:
+        match = re.match(pattern, cleaned, flags=re.IGNORECASE)
+        if match:
+            refined = match.expand(replacement).strip(" .:")
+            if refined:
+                return compact_text(refined, 92).rstrip(".")
+
+    key = prompt_key_phrase(prompt, topic).strip(" .:")
+    if not key:
+        key = topic
+    key = re.sub(r"\byour guess of\b", "the guess about", key, flags=re.IGNORECASE)
+    key = re.sub(r"\byour position\b", "the curator's position", key, flags=re.IGNORECASE)
+    key = re.sub(r"\bmy position\b", "the curator's position", key, flags=re.IGNORECASE)
+    key = re.sub(r"\bthe following\b", topic, key, flags=re.IGNORECASE)
+    if lowered.startswith("it would seem") and "moral realism" in lowered:
+        key = "moral realism's intuitive pull"
+    if lowered.startswith("enumerate") and "moral realism" in lowered:
+        key = "emotions behind moral-realist intuitions"
+    return compact_text(key, 92).rstrip(".")
+
+
+def sequence_context_paragraph(page: dict, prompt: str, prompts: list[str], index: int) -> str:
+    topic = topic_label(page["title"])
+    total = len(prompts)
+    key = short_prompt_key(prompt, topic)
+
+    if total <= 1:
+        return (
+            f"Because this page has a single controlling prompt, the response has to serve as both entry point and test case. "
+            f"It should give the reader enough orientation to see why the issue of {key} matters without pretending the wider issue of {topic} has been exhausted."
+        )
+
+    if index == 1:
+        next_key = short_prompt_key(prompts[index], topic)
+        return (
+            f"As the opening move in the sequence, this response establishes the vocabulary and stakes for {topic}. "
+            f"It gives the reader a first handle on the issue of {key}, so the next prompt can press {next_key} without forcing the discussion to restart."
+        )
+
+    if index == total:
+        previous_key = short_prompt_key(prompts[index - 2], topic)
+        return (
+            f"By this point in the page, the earlier responses have already put {previous_key} in motion. "
+            f"This final prompt gathers that pressure into the issue of {key}, so the page closes with a more disciplined view rather than a disconnected last answer."
+        )
+
+    previous_key = short_prompt_key(prompts[index - 2], topic)
+    next_key = short_prompt_key(prompts[index], topic)
+    return (
+        f"This response is the bridge between the issue of {previous_key} and the issue of {next_key}. "
+        f"Read it as a middle movement: it clarifies the pressure already introduced while preparing the next turn in the argument."
+    )
+
+
+def intermediate_reader_paragraph(page: dict, prompt: str, focus: str) -> str:
+    topic = topic_label(page["title"])
+    section_id = page["section_id"]
+    profile = branch_profile(section_id)
+    key = short_prompt_key(prompt, topic)
+
+    focus_guides = {
+        "dialogue": "The useful question is not only who is speaking, but what the exchange makes newly visible under pressure.",
+        "description": "The reader should ask which description is merely verbal and which one supplies a criterion that can guide judgment.",
+        "examples": "Examples should be read as stress tests: they show whether a distinction keeps working when it leaves the abstract setting.",
+        "mapping": "A map is successful only when it shows dependence, priority, and tension rather than a decorative list of parts.",
+        "argument": "The charitable version of the argument should be kept alive long enough for the real weakness to become visible.",
+        "definition": "The definition matters only if it changes what the reader would count as evidence, confusion, misuse, or progress.",
+        "inquiry": "The question should remain open enough for revision but structured enough that disagreement is not mere drift.",
+    }
+    branch_guides = {
+        "epistemology": "The practical habit to learn is calibration: matching confidence to evidence rather than to comfort, repetition, or social pressure.",
+        "ethics": "The important caution is to keep moral feeling, moral language, and moral authority distinct even when they travel together in ordinary speech.",
+        "rational-thought": "The practical test is whether the reader could use the distinction to catch a real mistake in reasoning, not merely name a concept.",
+        "philosophy-of-science": "The scientific pressure is methodological: claims need standards of explanation, evidence, and error-correction that survive enthusiasm.",
+        "philosophy-of-ai": "The AI pressure is responsibility: fluent assistance can sharpen thought, but it cannot inherit the reader's duty to judge.",
+        "philosophy-of-language": "The linguistic pressure is that words do not merely label thoughts; they can steer what counts as a possible thought.",
+        "philosophy-of-mind": "The mind-related pressure is to respect first-person experience without letting it outrun what careful explanation can support.",
+        "metaphysics": "The metaphysical pressure is to distinguish what must be true, what may be true, and what language merely makes easy to imagine.",
+        "political-philosophy": "The political pressure is legitimacy: claims about order, identity, or stability must answer to actual persons living under institutions.",
+        "economics": "The economic pressure is incentives: moral hope, policy design, and human behavior have to be held in the same field of view.",
+        "humanistic-philosophies": "The humanistic pressure is lived orientation: a view matters when it changes how a person inhabits meaning, finitude, or agency.",
+        "philosophical-inquiry": "The inquiry pressure is self-suspicion: the reader has to ask which conclusion is being protected by identity, habit, or tribe.",
+    }
+
+    return (
+        f"For an intermediate reader, the payoff is to see how the issue of {key} changes the handling of {topic}, not simply to retain a conclusion. "
+        f"{focus_guides.get(focus, focus_guides['inquiry'])} {branch_guides.get(section_id, profile['pressure'])}"
+    )
+
+
+def editorial_insight_paragraph(page: dict, prompt: str, focus: str) -> str:
+    topic = topic_label(page["title"])
+    key = short_prompt_key(prompt, topic)
+    section_id = page["section_id"]
+
+    if section_id == "ethics":
+        return (
+            f"The added philosophical insight is that {topic} often becomes confused when motivational force is mistaken for justificatory force. "
+            f"A claim can feel urgent, humane, or socially necessary while still needing an account of what makes it binding."
+        )
+    if section_id == "epistemology":
+        return (
+            f"The added epistemic insight is that {topic} is usually less about choosing certainty or skepticism than about learning the right degree of confidence. "
+            f"That makes {key} a calibration problem before it is a slogan."
+        )
+    if section_id == "philosophy-of-science":
+        return (
+            f"The added methodological insight is that {topic} should be judged by how it handles error. "
+            f"A view becomes more scientific when it can say what would count against it, not merely what makes it attractive."
+        )
+    if section_id == "philosophy-of-ai":
+        return (
+            f"The added AI insight is that the human-machine exchange is strongest when the machine expands the field of considerations and the human remains answerable for selection, emphasis, and judgment."
+        )
+    if section_id == "rational-thought":
+        return (
+            f"The added reasoning insight is that {topic} should train a transferable habit. "
+            f"If the reader cannot use {key} in a neighboring case, the answer has not yet become practical rationality."
+        )
+    if section_id == "philosophers":
+        return (
+            f"The added historical insight is that {topic} is best read as a method of pressure, not only as a set of theses. "
+            f"The question is what the thinker makes harder to ignore."
+        )
+
+    if focus == "definition":
+        return (
+            f"The added editorial insight is that a definition becomes philosophical when it disciplines use. "
+            f"It should tell the reader what would count as a misuse of {topic}, not merely what the term roughly means."
+        )
+    if focus == "mapping":
+        return (
+            f"The added editorial insight is that a map is an argument about importance. "
+            f"What it puts at the center, what it treats as derivative, and what it leaves unstable all shape how {topic} will be understood."
+        )
+    return (
+        f"The added editorial insight is that {topic} should remain connected to a live intellectual practice. "
+        f"The response is strongest when {key} changes how the reader would question, compare, or revise a neighboring claim."
+    )
+
+
+def append_unique_paragraph(paragraphs: list[str], candidate: str) -> None:
+    normalized_candidate = clean_text(candidate).lower()
+    if not normalized_candidate:
+        return
+    normalized_existing = {clean_text(paragraph).lower() for paragraph in paragraphs}
+    if normalized_candidate not in normalized_existing:
+        paragraphs.append(candidate)
+
+
+def editorial_polish_content(
+    page: dict,
+    prompt: str,
+    prompts: list[str],
+    index: int,
+    detail: dict | None,
+    paragraphs: list[str],
+    list_items: list[str],
+) -> tuple[list[str], list[str]]:
+    focus = prompt_focus(prompt)
+
+    polished_items = [
+        enriched
+        for item in list_items
+        if (enriched := enrich_support_item(item, page, prompt, focus))
+    ]
+    polished_items = dedupe(polished_items)
+    for item in supplemental_support_items(page, prompt, detail, focus):
+        if len(polished_items) >= 5 and average_item_words(polished_items) >= 13:
+            break
+        polished_items.append(enrich_support_item(item, page, prompt, focus) or item)
+        polished_items = dedupe(polished_items)
+
+    polished_paragraphs = list(paragraphs)
+    append_unique_paragraph(polished_paragraphs, sequence_context_paragraph(page, prompt, prompts, index))
+    append_unique_paragraph(polished_paragraphs, intermediate_reader_paragraph(page, prompt, focus))
+    if content_word_count(polished_paragraphs, polished_items) < 285:
+        append_unique_paragraph(polished_paragraphs, editorial_insight_paragraph(page, prompt, focus))
+
+    return polished_paragraphs[:5], polished_items[:6]
 
 
 def content_word_count(paragraphs: list[str], list_items: list[str]) -> int:
@@ -1862,9 +2084,27 @@ def source_prompt_sections(page: dict, prompts: list[str]) -> list[dict]:
         detail = source_details[index - 1] if index - 1 < len(source_details) else None
         paragraphs = prompt_response_paragraphs(page, prompt, index, detail)
         list_items = section_list_items(page, index, prompt, detail)
+        paragraphs, list_items = editorial_polish_content(
+            page,
+            prompt,
+            prompts,
+            index,
+            detail,
+            paragraphs,
+            list_items,
+        )
         quality = quality_assessment(page, prompt, detail, paragraphs, list_items)
         if quality["needsReview"]:
             paragraphs, list_items = polish_review_content(page, prompt, detail, paragraphs, list_items)
+            paragraphs, list_items = editorial_polish_content(
+                page,
+                prompt,
+                prompts,
+                index,
+                detail,
+                paragraphs,
+                list_items,
+            )
             quality = quality_assessment(page, prompt, detail, paragraphs, list_items)
         sections.append(
             {
