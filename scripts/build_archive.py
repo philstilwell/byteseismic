@@ -5223,6 +5223,25 @@ def is_counter_speaker(speaker: str, philosopher: str) -> bool:
     return bool(philosopher_parts & speaker_parts) and not speaker_parts <= {"philosopher", "critic", "student", "beginner", "interlocutor"}
 
 
+def normalize_dialogue_speaker(speaker: str, text: str) -> str:
+    speaker_clean = clean_text(speaker)
+    text_clean = clean_text(text)
+    if not re.fullmatch(r"#?\d+", speaker_clean):
+        return speaker_clean
+    speaker_number = speaker_clean.lstrip("#")
+    number = int(speaker_number)
+    lowered = text_clean.lower()
+    if 1800 <= number <= 2100:
+        return f"Year {speaker_number}"
+    if lowered.startswith(("what ", "how ", "why ", "which ", "who ", "when ", "where ", "provide ", "give ", "name ", "list ", "briefly ", "according ", "in the context ")):
+        return f"Question {speaker_number}"
+    if lowered.startswith(("chatgpt says", "gemini says", "claude says", "gpt says")):
+        return f"Exchange {speaker_number}"
+    if re.search(r"\s[–-]\s", text_clean[:120]):
+        return f"Score {speaker_number}"
+    return f"Example {speaker_number}"
+
+
 def render_dialogue_card(turns: list[dict], philosopher: str) -> str:
     if not turns:
         return ""
@@ -5232,6 +5251,7 @@ def render_dialogue_card(turns: list[dict], philosopher: str) -> str:
         text = clean_text(turn.get("text", ""))
         if not text:
             continue
+        speaker = normalize_dialogue_speaker(speaker, text)
         counter_class = " dialogue-turn--counter" if is_counter_speaker(speaker, philosopher) or index % 2 == 1 else ""
         rendered_turns.append(
             textwrap.dedent(
