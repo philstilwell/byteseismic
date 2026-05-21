@@ -5,26 +5,180 @@ Generated: 2026-05-20
 Tracked prompt-response sections: 1787
 Average score: 99.6
 Needs review: 0 (0.0%)
+Exceptional gap-fill backlog: 261 (14.6%)
 
 ## Branch Summary
 
-| Branch | Avg | Needs Review | Strong | Good | Developing | Thin |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| Philosophers | 98.8 | 0/216 | 216 | 0 | 0 | 0 |
-| Rational Thought | 99.4 | 0/183 | 183 | 0 | 0 | 0 |
-| Humanistic Philosophies | 99.5 | 0/79 | 79 | 0 | 0 | 0 |
-| Epistemology | 99.6 | 0/263 | 263 | 0 | 0 | 0 |
-| Introduction | 99.6 | 0/36 | 36 | 0 | 0 | 0 |
-| Philosophical Inquiry | 99.6 | 0/150 | 150 | 0 | 0 | 0 |
-| Economics | 99.7 | 0/114 | 114 | 0 | 0 | 0 |
-| Ethics | 99.7 | 0/128 | 128 | 0 | 0 | 0 |
-| Miscellany | 99.7 | 0/67 | 67 | 0 | 0 | 0 |
-| Philosophy of Mind | 99.7 | 0/81 | 81 | 0 | 0 | 0 |
-| Metaphysics | 99.8 | 0/82 | 82 | 0 | 0 | 0 |
-| Philosophy of Language | 99.8 | 0/85 | 85 | 0 | 0 | 0 |
-| Philosophy of Science | 99.8 | 0/165 | 165 | 0 | 0 | 0 |
-| Political Philosophy | 99.8 | 0/51 | 51 | 0 | 0 | 0 |
-| Philosophy of AI | 99.9 | 0/87 | 87 | 0 | 0 | 0 |
+| Branch | Avg | Needs Review | Gap Fill | Exceptional | Strong | Good | Developing | Thin |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Philosophers | 98.8 | 0/216 | 216/216 | 188 | 28 | 0 | 0 | 0 |
+| Rational Thought | 99.4 | 0/183 | 5/183 | 172 | 11 | 0 | 0 | 0 |
+| Humanistic Philosophies | 99.5 | 0/79 | 1/79 | 74 | 5 | 0 | 0 | 0 |
+| Epistemology | 99.6 | 0/263 | 13/263 | 245 | 18 | 0 | 0 | 0 |
+| Introduction | 99.6 | 0/36 | 2/36 | 35 | 1 | 0 | 0 | 0 |
+| Philosophical Inquiry | 99.6 | 0/150 | 2/150 | 143 | 7 | 0 | 0 | 0 |
+| Economics | 99.7 | 0/114 | 2/114 | 111 | 3 | 0 | 0 | 0 |
+| Ethics | 99.7 | 0/128 | 8/128 | 124 | 4 | 0 | 0 | 0 |
+| Miscellany | 99.7 | 0/67 | 1/67 | 65 | 2 | 0 | 0 | 0 |
+| Philosophy of Mind | 99.7 | 0/81 | 2/81 | 77 | 4 | 0 | 0 | 0 |
+| Metaphysics | 99.8 | 0/82 | 1/82 | 80 | 2 | 0 | 0 | 0 |
+| Philosophy of Language | 99.8 | 0/85 | 3/85 | 83 | 2 | 0 | 0 | 0 |
+| Philosophy of Science | 99.8 | 0/165 | 4/165 | 162 | 3 | 0 | 0 | 0 |
+| Political Philosophy | 99.8 | 0/51 | 1/51 | 50 | 1 | 0 | 0 | 0 |
+| Philosophy of AI | 99.9 | 0/87 | 0/87 | 86 | 1 | 0 | 0 | 0 |
+
+## Exceptional Gap-Fill Backlog
+
+- `strong` 86 [Ethics / Fictional Meta-Ethics Debate#prompt-2](../ethics/fictional-meta-ethics-debate/#prompt-2): Source hierarchy is sparse; later hand-curation should add examples, objections, or context.
+- `strong` 90 [Philosophers / Aristotle#prompt-1](../philosophers/aristotle/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `strong` 90 [Philosophers / Daniel Dennett#prompt-1](../philosophers/daniel-dennett/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `strong` 90 [Philosophers / David Hume#prompt-1](../philosophers/david-hume/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `strong` 90 [Philosophers / Friedrich Nietzsche#prompt-1](../philosophers/friedrich-nietzsche/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `strong` 90 [Philosophers / Georg Wilhelm Friedrich Hegel#prompt-1](../philosophers/georg-wilhelm-friedrich-hegel/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `strong` 90 [Philosophers / Herbert Marcuse#prompt-1](../philosophers/herbert-marcuse/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `strong` 90 [Philosophers / Jean-Paul Sartre#prompt-1](../philosophers/jean-paul-sartre/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `strong` 90 [Philosophers / Ludwig Wittgenstein#prompt-1](../philosophers/ludwig-wittgenstein/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `strong` 90 [Philosophers / Marcus Aurelius#prompt-1](../philosophers/marcus-aurelius/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `strong` 90 [Philosophers / Plato#prompt-1](../philosophers/plato-2/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `strong` 90 [Philosophers / René Descartes#prompt-1](../philosophers/rene-descartes/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `strong` 90 [Philosophers / Simone de Beauvoir#prompt-1](../philosophers/simone-de-beauvoir/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `strong` 90 [Philosophers / Socrates#prompt-1](../philosophers/socrates/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `strong` 90 [Philosophers / Søren Kierkegaard#prompt-1](../philosophers/soren-kierkegaard/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `strong` 94 [Epistemology / Induction: Forecasting#prompt-4](../epistemology/induction-forecasting/#prompt-4): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `strong` 94 [Ethics / Competing Ethical Considerations#prompt-2](../ethics/competing-ethical-considerations/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `strong` 94 [Philosophers / Analytic Philosophers#prompt-4](../philosophers/analytic-philosophers/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `strong` 94 [Philosophers / Ancient Philosophers#prompt-4](../philosophers/ancient-philosophers/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `strong` 94 [Philosophers / Continental Philosophers#prompt-4](../philosophers/continental-philosophers/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `strong` 94 [Philosophers / Critical Theorists#prompt-4](../philosophers/critical-theorists/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `strong` 94 [Philosophers / Empiricists#prompt-4](../philosophers/empiricists/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `strong` 94 [Philosophers / Existentialists#prompt-4](../philosophers/existentialists/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `strong` 94 [Philosophers / Phenomenologists#prompt-4](../philosophers/phenomenologists/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `strong` 94 [Philosophers / Pragmatists#prompt-4](../philosophers/pragmatists/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `strong` 94 [Philosophers / Rationalists#prompt-4](../philosophers/rationalists/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `strong` 94 [Philosophers / Scholastics#prompt-4](../philosophers/scholastics/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `strong` 94 [Philosophers / Stoics#prompt-4](../philosophers/stoics/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `strong` 94 [Philosophy of Language / What is Language?#prompt-1](../philosophy-of-language/what-is-language/#prompt-1): Support items should become more explanatory and less list-like.
+- `strong` 95 [Philosophers / Immanuel Kant#prompt-1](../philosophers/immanuel-kant/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `strong` 95 [Philosophers / Martin Heidegger#prompt-1](../philosophers/martin-heidegger/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `strong` 95 [Philosophers / Thomas Hobbes#prompt-1](../philosophers/thomas-hobbes/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 97 [Philosophers / Baruch Spinoza#prompt-1](../philosophers/baruch-spinoza/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 97 [Philosophers / Bertrand Russel#prompt-1](../philosophers/bertrand-russell/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 97 [Philosophers / Charles Sanders Peirce#prompt-1](../philosophers/charles-sanders-peirce/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 97 [Philosophers / Edmund Husserl#prompt-1](../philosophers/edmund-husserl/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 97 [Philosophers / Epictetus#prompt-1](../philosophers/epictetus/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 97 [Philosophers / Epicurus#prompt-1](../philosophers/epicurus/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 97 [Philosophers / Gottfried Wilhelm Leibniz#prompt-1](../philosophers/gottfried-wilhelm-leibniz/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 97 [Philosophers / Jacques Derrida#prompt-1](../philosophers/jacques-derrida/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 97 [Philosophers / John Locke#prompt-1](../philosophers/john-locke/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 97 [Philosophers / Seneca#prompt-1](../philosophers/seneca/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 97 [Philosophers / Thomas Aquinas#prompt-1](../philosophers/thomas-aquinas/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 98 [Rational Thought / Assessing Arguments#prompt-2](../rational-thought/assessing-arguments/#prompt-2): Support items should become more explanatory and less list-like.
+- `exceptional` 99 [Economics / Economic Comparisons#prompt-2](../economics/economic-comparisons/#prompt-2): Support items should become more explanatory and less list-like.
+- `exceptional` 99 [Epistemology / Charles Darwin#prompt-3](../epistemology/charles-darwin/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.; Source hierarchy is sparse; later hand-curation should add examples, objections, or context.
+- `exceptional` 99 [Philosophers / Duns Scotus#prompt-1](../philosophers/duns-scotus/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 99 [Philosophers / Michel Foucault#prompt-1](../philosophers/michel-foucault/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 99 [Philosophers / Thomas Hobbes#prompt-2](../philosophers/thomas-hobbes/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 99 [Philosophers / Thomas Hobbes#prompt-3](../philosophers/thomas-hobbes/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 99 [Philosophers / Willard Van Orman Quine#prompt-1](../philosophers/willard-van-orman-quine/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 99 [Philosophers / William James#prompt-1](../philosophers/william-james/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Economics / Salaries and Public Judgment#prompt-2](../economics/salaries-and-public-judgment/#prompt-2): Support items should become more explanatory and less list-like.
+- `exceptional` 100 [Epistemology / AI Reasoning Case Study#prompt-4](../epistemology/ai-reasoning-case-study/#prompt-4): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Epistemology / Deduction: Utility and Issues#prompt-4](../epistemology/deduction-utility-and-issues/#prompt-4): Support items should become more explanatory and less list-like.
+- `exceptional` 100 [Epistemology / Doxastic Voluntarism#prompt-1](../epistemology/doxastic-voluntarism/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Epistemology / Hypostatic Illogic#prompt-2](../epistemology/hypostatic-illogic/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Epistemology / Induction: Forecasting#prompt-1](../epistemology/induction-forecasting/#prompt-1): Support items should become more explanatory and less list-like.
+- `exceptional` 100 [Epistemology / Many Logics?#prompt-4](../epistemology/many-logics/#prompt-4): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Epistemology / Predictive Power#prompt-3](../epistemology/predictive-power/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Epistemology / The Burden of Proof#prompt-4](../epistemology/the-burden-of-proof/#prompt-4): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Epistemology / The Inductive Paradox#prompt-2](../epistemology/the-inductive-paradox/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.; Support items should become more explanatory and less list-like.
+- `exceptional` 100 [Epistemology / What are Syllogisms?#prompt-2](../epistemology/what-are-syllogisms/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Epistemology / What is Evidence?#prompt-1](../epistemology/what-is-evidence/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Ethics / Assisted Suicide#prompt-4](../ethics/assisted-suicide/#prompt-4): Support items should become more explanatory and less list-like.
+- `exceptional` 100 [Ethics / Equivocation on “Wrong”#prompt-1](../ethics/equivocation-on-wrong/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Ethics / Evidences of Moral Facts#prompt-1](../ethics/evidences-of-moral-facts/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Ethics / Intrinsic Human Value#prompt-5](../ethics/intrinsic-human-value/#prompt-5): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Ethics / Meta-Ethics Focus #2#prompt-1](../ethics/meta-ethics-focus-2/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Ethics / Moral Realism & Intuition#prompt-3](../ethics/moral-realism-intuition/#prompt-3): Support items should become more explanatory and less list-like.
+- `exceptional` 100 [Humanistic Philosophies / Christian Apologetics#prompt-3](../humanistic-philosophies/christian-apologetics/#prompt-3): Support items should become more explanatory and less list-like.
+- `exceptional` 100 [Introduction / Philosophical Maturity#prompt-2](../introduction/philosophical-maturity/#prompt-2): Support items should become more explanatory and less list-like.
+- `exceptional` 100 [Introduction / Studying Philosophy: Resources#prompt-2](../introduction/studying-philosophy-resources/#prompt-2): Support items should become more explanatory and less list-like.
+- `exceptional` 100 [Metaphysics / Are Quantum Physics “Spiritual”?#prompt-1](../metaphysics/are-quantum-physics-spiritual/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Miscellany / What is Axiology?#prompt-2](../miscellany/what-is-axiology/#prompt-2): Support items should become more explanatory and less list-like.
+- `exceptional` 100 [Philosophers / Analytic Philosophers#prompt-1](../philosophers/analytic-philosophers/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Analytic Philosophers#prompt-2](../philosophers/analytic-philosophers/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Analytic Philosophers#prompt-3](../philosophers/analytic-philosophers/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Ancient Philosophers#prompt-1](../philosophers/ancient-philosophers/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Ancient Philosophers#prompt-2](../philosophers/ancient-philosophers/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Ancient Philosophers#prompt-3](../philosophers/ancient-philosophers/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Aquinas’ Five Ways#prompt-1](../philosophers/aquinas-five-ways/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Aquinas’ Five Ways#prompt-2](../philosophers/aquinas-five-ways/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Aquinas’ Five Ways#prompt-3](../philosophers/aquinas-five-ways/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Aristotle#prompt-2](../philosophers/aristotle/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Aristotle#prompt-3](../philosophers/aristotle/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Aristotle#prompt-4](../philosophers/aristotle/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / At the Edge of Miracles#prompt-1](../philosophers/at-the-edge-of-miracles/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / At the Edge of Miracles#prompt-2](../philosophers/at-the-edge-of-miracles/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / At the Edge of Miracles#prompt-3](../philosophers/at-the-edge-of-miracles/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / At the Edge of Miracles#prompt-4](../philosophers/at-the-edge-of-miracles/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Baruch Spinoza#prompt-2](../philosophers/baruch-spinoza/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Baruch Spinoza#prompt-3](../philosophers/baruch-spinoza/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Baruch Spinoza#prompt-4](../philosophers/baruch-spinoza/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Bertrand Russel#prompt-2](../philosophers/bertrand-russell/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Bertrand Russel#prompt-3](../philosophers/bertrand-russell/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Bertrand Russel#prompt-4](../philosophers/bertrand-russell/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Charles Sanders Peirce#prompt-2](../philosophers/charles-sanders-peirce/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Charles Sanders Peirce#prompt-3](../philosophers/charles-sanders-peirce/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Charles Sanders Peirce#prompt-4](../philosophers/charles-sanders-peirce/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Continental Philosophers#prompt-1](../philosophers/continental-philosophers/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Continental Philosophers#prompt-2](../philosophers/continental-philosophers/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Continental Philosophers#prompt-3](../philosophers/continental-philosophers/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Critical Theorists#prompt-1](../philosophers/critical-theorists/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Critical Theorists#prompt-2](../philosophers/critical-theorists/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Critical Theorists#prompt-3](../philosophers/critical-theorists/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Daniel Dennett#prompt-2](../philosophers/daniel-dennett/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Daniel Dennett#prompt-3](../philosophers/daniel-dennett/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Daniel Dennett#prompt-4](../philosophers/daniel-dennett/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / David Hume#prompt-2](../philosophers/david-hume/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / David Hume#prompt-3](../philosophers/david-hume/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / David Hume#prompt-4](../philosophers/david-hume/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Duns Scotus#prompt-2](../philosophers/duns-scotus/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Duns Scotus#prompt-3](../philosophers/duns-scotus/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Duns Scotus#prompt-4](../philosophers/duns-scotus/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Edmund Husserl#prompt-2](../philosophers/edmund-husserl/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Edmund Husserl#prompt-3](../philosophers/edmund-husserl/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Edmund Husserl#prompt-4](../philosophers/edmund-husserl/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Empiricists#prompt-1](../philosophers/empiricists/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Empiricists#prompt-2](../philosophers/empiricists/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Empiricists#prompt-3](../philosophers/empiricists/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Epictetus#prompt-2](../philosophers/epictetus/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Epictetus#prompt-3](../philosophers/epictetus/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Epictetus#prompt-4](../philosophers/epictetus/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Epicurus#prompt-2](../philosophers/epicurus/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Epicurus#prompt-3](../philosophers/epicurus/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Epicurus#prompt-4](../philosophers/epicurus/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Existentialists#prompt-1](../philosophers/existentialists/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Existentialists#prompt-2](../philosophers/existentialists/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Existentialists#prompt-3](../philosophers/existentialists/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Friedrich Nietzsche#prompt-2](../philosophers/friedrich-nietzsche/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Friedrich Nietzsche#prompt-3](../philosophers/friedrich-nietzsche/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Friedrich Nietzsche#prompt-4](../philosophers/friedrich-nietzsche/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Georg Wilhelm Friedrich Hegel#prompt-2](../philosophers/georg-wilhelm-friedrich-hegel/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Georg Wilhelm Friedrich Hegel#prompt-3](../philosophers/georg-wilhelm-friedrich-hegel/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Georg Wilhelm Friedrich Hegel#prompt-4](../philosophers/georg-wilhelm-friedrich-hegel/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / George Berkeley#prompt-1](../philosophers/george-berkeley/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / George Berkeley#prompt-2](../philosophers/george-berkeley/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / George Berkeley#prompt-3](../philosophers/george-berkeley/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / George Berkeley#prompt-4](../philosophers/george-berkeley/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Gottfried Wilhelm Leibniz#prompt-2](../philosophers/gottfried-wilhelm-leibniz/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Gottfried Wilhelm Leibniz#prompt-3](../philosophers/gottfried-wilhelm-leibniz/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Gottfried Wilhelm Leibniz#prompt-4](../philosophers/gottfried-wilhelm-leibniz/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Herbert Marcuse#prompt-2](../philosophers/herbert-marcuse/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Herbert Marcuse#prompt-3](../philosophers/herbert-marcuse/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Herbert Marcuse#prompt-4](../philosophers/herbert-marcuse/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Immanuel Kant#prompt-2](../philosophers/immanuel-kant/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Immanuel Kant#prompt-3](../philosophers/immanuel-kant/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Immanuel Kant#prompt-4](../philosophers/immanuel-kant/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Jacques Derrida#prompt-2](../philosophers/jacques-derrida/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 
 ## Weakest Sections
 
@@ -120,61 +274,61 @@ Needs review: 0 (0.0%)
 - `strong` 95 [Philosophy of AI / AI in Public Discourse#prompt-1](../philosophy-of-ai/ai-in-public-discourse/#prompt-1): Source hierarchy was sparse, so the reconstruction supplies explicit support structure.
 - `strong` 95 [Philosophy of Science / Is Logic Acquired Inductively?#prompt-3](../philosophy-of-science/is-logic-acquired-inductively/#prompt-3): The section has enough source structure and explanatory density for now.
 - `strong` 95 [Rational Thought / A Taxonomy of Emotions#prompt-4](../rational-thought/a-taxonomy-of-emotions/#prompt-4): The section has enough source structure and explanatory density for now.
-- `strong` 96 [Ethics / Meta-Ethics Focus #2#prompt-2](../ethics/meta-ethics-focus-2/#prompt-2): The section has enough source structure and explanatory density for now.
-- `strong` 96 [Philosophical Inquiry / Dangers: Awe as an Indicator#prompt-1](../philosophical-inquiry/dangers-awe-as-an-indicator/#prompt-1): The section has enough source structure and explanatory density for now.
-- `strong` 96 [Philosophy of Science / Observable Regularities#prompt-3](../philosophy-of-science/observable-regularity/#prompt-3): The source claim was sparse, so this section was expanded with explicit reconstruction supports.; Source hierarchy was sparse, so the reconstruction supplies explicit support structure.
-- `strong` 97 [Economics / Innovation Attractors#prompt-3](../economics/innovation-attractors/#prompt-3): The section has enough source structure and explanatory density for now.
-- `strong` 97 [Epistemology / Charles Darwin#prompt-2](../epistemology/charles-darwin/#prompt-2): Source hierarchy was sparse, so the reconstruction supplies explicit support structure.
-- `strong` 97 [Ethics / Compassion vs Moral Systems#prompt-1](../ethics/compassion-vs-moral-systems/#prompt-1): The section has enough source structure and explanatory density for now.
-- `strong` 97 [Ethics / Moral Black Boxes#prompt-1](../ethics/moral-black-boxes/#prompt-1): The section has enough source structure and explanatory density for now.
-- `strong` 97 [Philosophers / Baruch Spinoza#prompt-1](../philosophers/baruch-spinoza/#prompt-1): The section has enough source structure and explanatory density for now.
-- `strong` 97 [Philosophers / Bertrand Russel#prompt-1](../philosophers/bertrand-russell/#prompt-1): The section has enough source structure and explanatory density for now.
-- `strong` 97 [Philosophers / Charles Sanders Peirce#prompt-1](../philosophers/charles-sanders-peirce/#prompt-1): The section has enough source structure and explanatory density for now.
-- `strong` 97 [Philosophers / Edmund Husserl#prompt-1](../philosophers/edmund-husserl/#prompt-1): The section has enough source structure and explanatory density for now.
-- `strong` 97 [Philosophers / Epictetus#prompt-1](../philosophers/epictetus/#prompt-1): The section has enough source structure and explanatory density for now.
-- `strong` 97 [Philosophers / Epicurus#prompt-1](../philosophers/epicurus/#prompt-1): The section has enough source structure and explanatory density for now.
-- `strong` 97 [Philosophers / Gottfried Wilhelm Leibniz#prompt-1](../philosophers/gottfried-wilhelm-leibniz/#prompt-1): The section has enough source structure and explanatory density for now.
-- `strong` 97 [Philosophers / Jacques Derrida#prompt-1](../philosophers/jacques-derrida/#prompt-1): The section has enough source structure and explanatory density for now.
-- `strong` 97 [Philosophers / John Locke#prompt-1](../philosophers/john-locke/#prompt-1): The section has enough source structure and explanatory density for now.
-- `strong` 97 [Philosophers / Seneca#prompt-1](../philosophers/seneca/#prompt-1): The section has enough source structure and explanatory density for now.
-- `strong` 97 [Philosophers / Thomas Aquinas#prompt-1](../philosophers/thomas-aquinas/#prompt-1): The section has enough source structure and explanatory density for now.
-- `strong` 97 [Philosophy of Science / What is Induction?#prompt-4](../philosophy-of-science/what-is-induction/#prompt-4): The section has enough source structure and explanatory density for now.
-- `strong` 98 [Humanistic Philosophies / What is Existentialism?#prompt-3](../humanistic-philosophies/what-is-existentialism/#prompt-3): The section has enough source structure and explanatory density for now.
-- `strong` 98 [Introduction / Miscellaneous Philosophers#prompt-3](../introduction/miscellaneous-philosophers/#prompt-3): The section has enough source structure and explanatory density for now.
-- `strong` 98 [Philosophical Inquiry / Dangers: Carrot & Stick#prompt-1](../philosophical-inquiry/dangers-carrot-stick/#prompt-1): The section has enough source structure and explanatory density for now.
-- `strong` 98 [Philosophy of Science / What is Falsifiability?#prompt-1](../philosophy-of-science/what-is-falsifiability/#prompt-1): The section has enough source structure and explanatory density for now.
-- `strong` 98 [Political Philosophy / Electoral Systems#prompt-2](../political-philosophy/electoral-systems/#prompt-2): The section has enough source structure and explanatory density for now.
-- `strong` 98 [Rational Thought / Assessing Arguments#prompt-2](../rational-thought/assessing-arguments/#prompt-2): The section has enough source structure and explanatory density for now.
-- `strong` 98 [Rational Thought / Credencing#prompt-3](../rational-thought/credencing/#prompt-3): The section has enough source structure and explanatory density for now.
-- `strong` 99 [Economics / Economic Comparisons#prompt-1](../economics/economic-comparisons/#prompt-1): The section has enough source structure and explanatory density for now.
-- `strong` 99 [Economics / Economic Comparisons#prompt-2](../economics/economic-comparisons/#prompt-2): The section has enough source structure and explanatory density for now.
-- `strong` 99 [Economics / Wealth Creation#prompt-2](../economics/wealth-creation/#prompt-2): The section has enough source structure and explanatory density for now.
-- `strong` 99 [Epistemology / Charles Darwin#prompt-3](../epistemology/charles-darwin/#prompt-3): Source hierarchy was sparse, so the reconstruction supplies explicit support structure.
-- `strong` 99 [Epistemology / Collapsing Epistemological Terms#prompt-3](../epistemology/collapsing-epistemological-terms/#prompt-3): The source claim was sparse, so this section was expanded with explicit reconstruction supports.
-- `strong` 99 [Epistemology / Shades of Certainty#prompt-3](../epistemology/shades-of-certainty/#prompt-3): The section has enough source structure and explanatory density for now.
-- `strong` 99 [Ethics / The Value Selection Hypothesis#prompt-3](../ethics/the-value-selection-hypothesis/#prompt-3): The section has enough source structure and explanatory density for now.
-- `strong` 99 [Ethics / The Value Selection Hypothesis#prompt-4](../ethics/the-value-selection-hypothesis/#prompt-4): The section has enough source structure and explanatory density for now.
-- `strong` 99 [Metaphysics / Dualism vs Materialism#prompt-5](../metaphysics/dualismvsmaterialism/#prompt-5): The section has enough source structure and explanatory density for now.
-- `strong` 99 [Philosophers / Duns Scotus#prompt-1](../philosophers/duns-scotus/#prompt-1): The section has enough source structure and explanatory density for now.
-- `strong` 99 [Philosophers / Michel Foucault#prompt-1](../philosophers/michel-foucault/#prompt-1): The section has enough source structure and explanatory density for now.
-- `strong` 99 [Philosophers / Thomas Hobbes#prompt-2](../philosophers/thomas-hobbes/#prompt-2): Source hierarchy was sparse, so the reconstruction supplies explicit support structure.
-- `strong` 99 [Philosophers / Thomas Hobbes#prompt-3](../philosophers/thomas-hobbes/#prompt-3): Source hierarchy was sparse, so the reconstruction supplies explicit support structure.
-- `strong` 99 [Philosophers / Willard Van Orman Quine#prompt-1](../philosophers/willard-van-orman-quine/#prompt-1): The section has enough source structure and explanatory density for now.
-- `strong` 99 [Philosophers / William James#prompt-1](../philosophers/william-james/#prompt-1): The section has enough source structure and explanatory density for now.
-- `strong` 99 [Philosophical Inquiry / Conspiracies & Misunderstanding Human Nature#prompt-4](../philosophical-inquiry/conspiracies-misunderstanding-human-nature/#prompt-4): The section has enough source structure and explanatory density for now.
-- `strong` 99 [Philosophical Inquiry / Dangers: Promissory Treasures#prompt-3](../philosophical-inquiry/dangers-promissory-treasures/#prompt-3): The section has enough source structure and explanatory density for now.
-- `strong` 99 [Philosophical Inquiry / Personal Truth?#prompt-4](../philosophical-inquiry/personal-truth/#prompt-4): The section has enough source structure and explanatory density for now.
-- `strong` 99 [Rational Thought / 1 at 99.5% or 5 at 95%?#prompt-1](../rational-thought/1-at-99-5-or-5-at-95/#prompt-1): The section has enough source structure and explanatory density for now.
-- `strong` 99 [Rational Thought / Are Averages “Not Always True”?#prompt-2](../rational-thought/are-averages-not-always-true/#prompt-2): The source claim was sparse, so this section was expanded with explicit reconstruction supports.
-- `strong` 99 [Rational Thought / Sample Size & Margin of Error#prompt-4](../rational-thought/sample-size-margin-of-error/#prompt-4): The section has enough source structure and explanatory density for now.
-- `strong` 100 [Economics / A Living Wage#prompt-1](../economics/a-living-wage/#prompt-1): The section has enough source structure and explanatory density for now.
-- `strong` 100 [Economics / A Living Wage#prompt-2](../economics/a-living-wage/#prompt-2): The section has enough source structure and explanatory density for now.
-- `strong` 100 [Economics / A Living Wage#prompt-3](../economics/a-living-wage/#prompt-3): The section has enough source structure and explanatory density for now.
-- `strong` 100 [Economics / A Living Wage#prompt-4](../economics/a-living-wage/#prompt-4): The section has enough source structure and explanatory density for now.
-- `strong` 100 [Economics / AI & the Future of Work#prompt-1](../economics/ai-the-future-of-work/#prompt-1): The section has enough source structure and explanatory density for now.
-- `strong` 100 [Economics / AI & the Future of Work#prompt-2](../economics/ai-the-future-of-work/#prompt-2): The section has enough source structure and explanatory density for now.
-- `strong` 100 [Economics / AI & the Future of Work#prompt-3](../economics/ai-the-future-of-work/#prompt-3): The section has enough source structure and explanatory density for now.
-- `strong` 100 [Economics / AI & the Future of Work#prompt-4](../economics/ai-the-future-of-work/#prompt-4): The section has enough source structure and explanatory density for now.
-- `strong` 100 [Economics / Behavioral Economics#prompt-1](../economics/behavioral-economics/#prompt-1): The section has enough source structure and explanatory density for now.
-- `strong` 100 [Economics / Behavioral Economics#prompt-2](../economics/behavioral-economics/#prompt-2): The section has enough source structure and explanatory density for now.
-- `strong` 100 [Economics / Behavioral Economics#prompt-3](../economics/behavioral-economics/#prompt-3): The section has enough source structure and explanatory density for now.
+- `exceptional` 96 [Ethics / Meta-Ethics Focus #2#prompt-2](../ethics/meta-ethics-focus-2/#prompt-2): The section has enough source structure and explanatory density for now.
+- `exceptional` 96 [Philosophical Inquiry / Dangers: Awe as an Indicator#prompt-1](../philosophical-inquiry/dangers-awe-as-an-indicator/#prompt-1): The section has enough source structure and explanatory density for now.
+- `exceptional` 96 [Philosophy of Science / Observable Regularities#prompt-3](../philosophy-of-science/observable-regularity/#prompt-3): The source claim was sparse, so this section was expanded with explicit reconstruction supports.; Source hierarchy was sparse, so the reconstruction supplies explicit support structure.
+- `exceptional` 97 [Economics / Innovation Attractors#prompt-3](../economics/innovation-attractors/#prompt-3): The section has enough source structure and explanatory density for now.
+- `exceptional` 97 [Epistemology / Charles Darwin#prompt-2](../epistemology/charles-darwin/#prompt-2): Source hierarchy was sparse, so the reconstruction supplies explicit support structure.
+- `exceptional` 97 [Ethics / Compassion vs Moral Systems#prompt-1](../ethics/compassion-vs-moral-systems/#prompt-1): The section has enough source structure and explanatory density for now.
+- `exceptional` 97 [Ethics / Moral Black Boxes#prompt-1](../ethics/moral-black-boxes/#prompt-1): The section has enough source structure and explanatory density for now.
+- `exceptional` 97 [Philosophers / Baruch Spinoza#prompt-1](../philosophers/baruch-spinoza/#prompt-1): The section has enough source structure and explanatory density for now.
+- `exceptional` 97 [Philosophers / Bertrand Russel#prompt-1](../philosophers/bertrand-russell/#prompt-1): The section has enough source structure and explanatory density for now.
+- `exceptional` 97 [Philosophers / Charles Sanders Peirce#prompt-1](../philosophers/charles-sanders-peirce/#prompt-1): The section has enough source structure and explanatory density for now.
+- `exceptional` 97 [Philosophers / Edmund Husserl#prompt-1](../philosophers/edmund-husserl/#prompt-1): The section has enough source structure and explanatory density for now.
+- `exceptional` 97 [Philosophers / Epictetus#prompt-1](../philosophers/epictetus/#prompt-1): The section has enough source structure and explanatory density for now.
+- `exceptional` 97 [Philosophers / Epicurus#prompt-1](../philosophers/epicurus/#prompt-1): The section has enough source structure and explanatory density for now.
+- `exceptional` 97 [Philosophers / Gottfried Wilhelm Leibniz#prompt-1](../philosophers/gottfried-wilhelm-leibniz/#prompt-1): The section has enough source structure and explanatory density for now.
+- `exceptional` 97 [Philosophers / Jacques Derrida#prompt-1](../philosophers/jacques-derrida/#prompt-1): The section has enough source structure and explanatory density for now.
+- `exceptional` 97 [Philosophers / John Locke#prompt-1](../philosophers/john-locke/#prompt-1): The section has enough source structure and explanatory density for now.
+- `exceptional` 97 [Philosophers / Seneca#prompt-1](../philosophers/seneca/#prompt-1): The section has enough source structure and explanatory density for now.
+- `exceptional` 97 [Philosophers / Thomas Aquinas#prompt-1](../philosophers/thomas-aquinas/#prompt-1): The section has enough source structure and explanatory density for now.
+- `exceptional` 97 [Philosophy of Science / What is Induction?#prompt-4](../philosophy-of-science/what-is-induction/#prompt-4): The section has enough source structure and explanatory density for now.
+- `exceptional` 98 [Humanistic Philosophies / What is Existentialism?#prompt-3](../humanistic-philosophies/what-is-existentialism/#prompt-3): The section has enough source structure and explanatory density for now.
+- `exceptional` 98 [Introduction / Miscellaneous Philosophers#prompt-3](../introduction/miscellaneous-philosophers/#prompt-3): The section has enough source structure and explanatory density for now.
+- `exceptional` 98 [Philosophical Inquiry / Dangers: Carrot & Stick#prompt-1](../philosophical-inquiry/dangers-carrot-stick/#prompt-1): The section has enough source structure and explanatory density for now.
+- `exceptional` 98 [Philosophy of Science / What is Falsifiability?#prompt-1](../philosophy-of-science/what-is-falsifiability/#prompt-1): The section has enough source structure and explanatory density for now.
+- `exceptional` 98 [Political Philosophy / Electoral Systems#prompt-2](../political-philosophy/electoral-systems/#prompt-2): The section has enough source structure and explanatory density for now.
+- `exceptional` 98 [Rational Thought / Assessing Arguments#prompt-2](../rational-thought/assessing-arguments/#prompt-2): The section has enough source structure and explanatory density for now.
+- `exceptional` 98 [Rational Thought / Credencing#prompt-3](../rational-thought/credencing/#prompt-3): The section has enough source structure and explanatory density for now.
+- `exceptional` 99 [Economics / Economic Comparisons#prompt-1](../economics/economic-comparisons/#prompt-1): The section has enough source structure and explanatory density for now.
+- `exceptional` 99 [Economics / Economic Comparisons#prompt-2](../economics/economic-comparisons/#prompt-2): The section has enough source structure and explanatory density for now.
+- `exceptional` 99 [Economics / Wealth Creation#prompt-2](../economics/wealth-creation/#prompt-2): The section has enough source structure and explanatory density for now.
+- `exceptional` 99 [Epistemology / Charles Darwin#prompt-3](../epistemology/charles-darwin/#prompt-3): Source hierarchy was sparse, so the reconstruction supplies explicit support structure.
+- `exceptional` 99 [Epistemology / Collapsing Epistemological Terms#prompt-3](../epistemology/collapsing-epistemological-terms/#prompt-3): The source claim was sparse, so this section was expanded with explicit reconstruction supports.
+- `exceptional` 99 [Epistemology / Shades of Certainty#prompt-3](../epistemology/shades-of-certainty/#prompt-3): The section has enough source structure and explanatory density for now.
+- `exceptional` 99 [Ethics / The Value Selection Hypothesis#prompt-3](../ethics/the-value-selection-hypothesis/#prompt-3): The section has enough source structure and explanatory density for now.
+- `exceptional` 99 [Ethics / The Value Selection Hypothesis#prompt-4](../ethics/the-value-selection-hypothesis/#prompt-4): The section has enough source structure and explanatory density for now.
+- `exceptional` 99 [Metaphysics / Dualism vs Materialism#prompt-5](../metaphysics/dualismvsmaterialism/#prompt-5): The section has enough source structure and explanatory density for now.
+- `exceptional` 99 [Philosophers / Duns Scotus#prompt-1](../philosophers/duns-scotus/#prompt-1): The section has enough source structure and explanatory density for now.
+- `exceptional` 99 [Philosophers / Michel Foucault#prompt-1](../philosophers/michel-foucault/#prompt-1): The section has enough source structure and explanatory density for now.
+- `exceptional` 99 [Philosophers / Thomas Hobbes#prompt-2](../philosophers/thomas-hobbes/#prompt-2): Source hierarchy was sparse, so the reconstruction supplies explicit support structure.
+- `exceptional` 99 [Philosophers / Thomas Hobbes#prompt-3](../philosophers/thomas-hobbes/#prompt-3): Source hierarchy was sparse, so the reconstruction supplies explicit support structure.
+- `exceptional` 99 [Philosophers / Willard Van Orman Quine#prompt-1](../philosophers/willard-van-orman-quine/#prompt-1): The section has enough source structure and explanatory density for now.
+- `exceptional` 99 [Philosophers / William James#prompt-1](../philosophers/william-james/#prompt-1): The section has enough source structure and explanatory density for now.
+- `exceptional` 99 [Philosophical Inquiry / Conspiracies & Misunderstanding Human Nature#prompt-4](../philosophical-inquiry/conspiracies-misunderstanding-human-nature/#prompt-4): The section has enough source structure and explanatory density for now.
+- `exceptional` 99 [Philosophical Inquiry / Dangers: Promissory Treasures#prompt-3](../philosophical-inquiry/dangers-promissory-treasures/#prompt-3): The section has enough source structure and explanatory density for now.
+- `exceptional` 99 [Philosophical Inquiry / Personal Truth?#prompt-4](../philosophical-inquiry/personal-truth/#prompt-4): The section has enough source structure and explanatory density for now.
+- `exceptional` 99 [Rational Thought / 1 at 99.5% or 5 at 95%?#prompt-1](../rational-thought/1-at-99-5-or-5-at-95/#prompt-1): The section has enough source structure and explanatory density for now.
+- `exceptional` 99 [Rational Thought / Are Averages “Not Always True”?#prompt-2](../rational-thought/are-averages-not-always-true/#prompt-2): The source claim was sparse, so this section was expanded with explicit reconstruction supports.
+- `exceptional` 99 [Rational Thought / Sample Size & Margin of Error#prompt-4](../rational-thought/sample-size-margin-of-error/#prompt-4): The section has enough source structure and explanatory density for now.
+- `exceptional` 100 [Economics / A Living Wage#prompt-1](../economics/a-living-wage/#prompt-1): The section has enough source structure and explanatory density for now.
+- `exceptional` 100 [Economics / A Living Wage#prompt-2](../economics/a-living-wage/#prompt-2): The section has enough source structure and explanatory density for now.
+- `exceptional` 100 [Economics / A Living Wage#prompt-3](../economics/a-living-wage/#prompt-3): The section has enough source structure and explanatory density for now.
+- `exceptional` 100 [Economics / A Living Wage#prompt-4](../economics/a-living-wage/#prompt-4): The section has enough source structure and explanatory density for now.
+- `exceptional` 100 [Economics / AI & the Future of Work#prompt-1](../economics/ai-the-future-of-work/#prompt-1): The section has enough source structure and explanatory density for now.
+- `exceptional` 100 [Economics / AI & the Future of Work#prompt-2](../economics/ai-the-future-of-work/#prompt-2): The section has enough source structure and explanatory density for now.
+- `exceptional` 100 [Economics / AI & the Future of Work#prompt-3](../economics/ai-the-future-of-work/#prompt-3): The section has enough source structure and explanatory density for now.
+- `exceptional` 100 [Economics / AI & the Future of Work#prompt-4](../economics/ai-the-future-of-work/#prompt-4): The section has enough source structure and explanatory density for now.
+- `exceptional` 100 [Economics / Behavioral Economics#prompt-1](../economics/behavioral-economics/#prompt-1): The section has enough source structure and explanatory density for now.
+- `exceptional` 100 [Economics / Behavioral Economics#prompt-2](../economics/behavioral-economics/#prompt-2): The section has enough source structure and explanatory density for now.
+- `exceptional` 100 [Economics / Behavioral Economics#prompt-3](../economics/behavioral-economics/#prompt-3): The section has enough source structure and explanatory density for now.

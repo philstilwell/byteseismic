@@ -2169,6 +2169,37 @@ def reader_test_paragraph(page: dict, prompt: str, focus: str) -> str:
     )
 
 
+def exceptional_editorial_paragraph(page: dict, prompt: str, focus: str) -> str:
+    topic = topic_label(page["title"])
+    key = short_prompt_key(prompt, topic)
+    section_id = page["section_id"]
+
+    if section_id == "philosophers":
+        return (
+            f"The exceptional version of this section would not merely say that {topic} mattered; it would show the reader the machinery of that influence in motion. "
+            f"A philosopher reduced to a label is a marble bust with the argument turned off, handsome perhaps, but not yet doing philosophy."
+        )
+    if section_id == "epistemology":
+        return (
+            f"The exceptional standard here is not more confidence but better-tuned confidence. "
+            f"The mind enjoys certainty the way a cat enjoys a box: understandable, sometimes useful, and occasionally embarrassing if no one checks whether it fits."
+        )
+    if section_id == "ethics":
+        return (
+            f"The exceptional standard is to keep the moral nerve exposed without letting rhetoric do the surgery. "
+            f"If {key} is doing real work, it should survive contact with disagreement, not merely glow warmly inside agreement."
+        )
+    if section_id == "rational-thought":
+        return (
+            f"The exceptional test is transfer: the reader should be able to carry {key} into a fresh case and notice a mistake sooner than before. "
+            f"Otherwise the page has only named the tool while leaving it politely in the drawer."
+        )
+    return (
+        f"The exceptional version of this answer should leave the reader with a sharper question than the one they brought in. "
+        f"If {key} cannot change the next inquiry, it is probably decorative rather than load-bearing."
+    )
+
+
 def append_unique_paragraph(paragraphs: list[str], candidate: str) -> None:
     normalized_candidate = clean_text(candidate).lower()
     if not normalized_candidate:
@@ -2208,8 +2239,10 @@ def editorial_polish_content(
         append_unique_paragraph(polished_paragraphs, editorial_insight_paragraph(page, prompt, focus))
     if content_word_count(polished_paragraphs, polished_items) < 320:
         append_unique_paragraph(polished_paragraphs, reader_test_paragraph(page, prompt, focus))
+    if page["section_id"] == "philosophers" or content_word_count(polished_paragraphs, polished_items) < 360:
+        append_unique_paragraph(polished_paragraphs, exceptional_editorial_paragraph(page, prompt, focus))
 
-    return polished_paragraphs[:6], polished_items[:6]
+    return polished_paragraphs[:7], polished_items[:6]
 
 
 def content_word_count(paragraphs: list[str], list_items: list[str]) -> int:
@@ -2319,6 +2352,8 @@ def detail_metric_counts(detail: dict | None) -> dict[str, int]:
 
 
 def quality_level(score: int) -> str:
+    if score >= 96:
+        return "exceptional"
     if score >= 85:
         return "strong"
     if score >= 72:
@@ -2354,8 +2389,18 @@ def quality_assessment(
         and len(list_items) >= 5
         and avg_item_words >= 12
     )
+    exceptional_ready = bool(
+        word_count >= 360
+        and len(paragraphs) >= 5
+        and len(list_items) >= 5
+        and avg_item_words >= 16
+        and any("For an intermediate reader" in paragraph for paragraph in paragraphs)
+        and (claim or metrics["labels"] >= 2 or metrics["sourceParagraphs"] >= 2 or metrics["sourceItems"] >= 4)
+    )
+    philosopher_gap = page["section_id"] == "philosophers"
     continuity_scaffold = any("For an intermediate reader" in paragraph for paragraph in paragraphs)
     reasons: list[str] = []
+    gap_reasons: list[str] = []
 
     score = 18
     if detail:
@@ -2408,13 +2453,27 @@ def quality_assessment(
     level = quality_level(score)
     if level in {"thin", "developing"} and not reasons:
         reasons.append("This section is adequate scaffolding but should be considered for a hand-polish pass.")
-    if level in {"good", "strong"} and not reasons:
+    if level in {"good", "strong", "exceptional"} and not reasons:
         reasons.append("The section has enough source structure and explanatory density for now.")
+
+    if not exceptional_ready:
+        if word_count < 360:
+            gap_reasons.append("Needs a little more argumentative texture before it reaches the exceptional bar.")
+        if avg_item_words < 16:
+            gap_reasons.append("Support items should become more explanatory and less list-like.")
+        if metrics["labels"] <= 1 and metrics["sourceParagraphs"] <= 1:
+            gap_reasons.append("Source hierarchy is sparse; later hand-curation should add examples, objections, or context.")
+    if philosopher_gap:
+        gap_reasons.append("Philosopher page needs eventual primary-source texture, historical setting, and influence trail.")
+    needs_gap_fill = (not exceptional_ready) or philosopher_gap
 
     return {
         "score": score,
         "level": level,
         "needsReview": level in {"thin", "developing"} or not editorial_depth,
+        "exceptionalReady": exceptional_ready,
+        "needsGapFill": needs_gap_fill,
+        "gapReasons": gap_reasons[:3],
         "wordCount": word_count,
         "avgItemWords": avg_item_words,
         "metrics": metrics,
@@ -2683,6 +2742,53 @@ def render_list_section(items: list[str], item_tag: str = "li") -> str:
     return f"\n              <ol>\n{inner}\n              </ol>"
 
 
+def page_gap_notes(page: dict, sections: list[dict]) -> list[str]:
+    notes: list[str] = []
+    quality_sections = [section for section in sections if section.get("quality")]
+    gap_sections = [
+        section
+        for section in quality_sections
+        if section["quality"].get("needsGapFill") or section["quality"].get("score", 100) < 94
+    ]
+
+    if page["section_id"] == "philosophers":
+        child_titles = [child["title"] for child in page.get("children", [])]
+        if page["kind"] == "dialogue":
+            notes.append(
+                "Future gap-fill: add one or two primary-source voice fragments, brief source context, and a sharper note on what the philosopher would resist in the reconstruction."
+            )
+        elif any(title.startswith(("Dialoguing with ", "Charting ")) for title in child_titles):
+            notes.append(
+                "Future gap-fill: build a compact philosopher dossier with a signature problem, historical setting, primary quote, strongest objection, and influence trail."
+            )
+        elif page["kind"] == "cluster":
+            notes.append(
+                "Future gap-fill: add connective school history so the nested philosopher links feel like an argument, not a seating chart for very intense dinner guests."
+            )
+        else:
+            notes.append(
+                "Future gap-fill: build a compact philosopher dossier with a signature problem, historical setting, primary quote, strongest objection, and influence trail."
+            )
+
+    if gap_sections:
+        labels = ", ".join(section["id"].replace("prompt-", "Prompt ") for section in gap_sections[:4])
+        notes.append(
+            f"Exceptional-standard backlog: {labels} should eventually receive hand-selected examples, counterpressure, or source-specific detail beyond the generated scaffold."
+        )
+
+    sparse_count = sum(
+        1
+        for section in quality_sections
+        if section["quality"]["metrics"]["labels"] <= 1 and section["quality"]["metrics"]["sourceParagraphs"] <= 1
+    )
+    if sparse_count and page["section_id"] != "philosophers":
+        notes.append(
+            f"Source scaffold note: {sparse_count} prompt section(s) have sparse recovered structure; later curation should add concrete cases before the page starts wearing a monocle and calling itself finished."
+        )
+
+    return dedupe(notes)[:4]
+
+
 def render_article_page(page: dict) -> str:
     section_meta = SECTION_META[page["section_id"]]
     prompts = prompt_pack(page, section_meta)
@@ -2735,6 +2841,8 @@ def render_article_page(page: dict) -> str:
             quality_attrs = (
                 f' data-quality-level="{html.escape(quality["level"])}"'
                 f' data-quality-score="{quality["score"]}"'
+                f' data-exceptional-ready="{str(quality["exceptionalReady"]).lower()}"'
+                f' data-gap-fill="{str(quality["needsGapFill"]).lower()}"'
             )
         block = [
             f'            <section class="{section_class}" id="{section["id"]}"{quality_attrs}>',
@@ -2763,6 +2871,17 @@ def render_article_page(page: dict) -> str:
         future_parts.append(f"This page belongs inside the wider <strong>{html.escape(section_meta['name'])}</strong> branch and is best read in conversation with its neighboring topics.")
     future_paragraph = " ".join(future_parts)
     footer_note = f"This reconstructed page keeps the archive voice consistent while leaving room for later deepening where the branch deserves it most."
+    gap_notes = page_gap_notes(page, sections)
+    gap_html = ""
+    if gap_notes:
+        gap_html = textwrap.dedent(
+            f"""\
+                    <section class="gap-note" id="gap-fill-notes">
+                      <p class="eyebrow">Exceptional Gap-Fill Notes</p>
+                      <h2>Where this page should get more human fingerprints</h2>
+                      {render_list_section(gap_notes)}
+                    </section>"""
+        )
 
     return textwrap.dedent(
         f"""\
@@ -2834,6 +2953,7 @@ def render_article_page(page: dict) -> str:
                         {future_paragraph}
                       </p>
                     </section>
+        {gap_html}
                   </div>
 
                   <section class="article-outline-slot" data-article-outline></section>
@@ -3098,6 +3218,9 @@ def build_quality_report(generated_pages: list[dict]) -> dict:
                     "score": quality["score"],
                     "level": quality["level"],
                     "needsReview": quality["needsReview"],
+                    "exceptionalReady": quality["exceptionalReady"],
+                    "needsGapFill": quality["needsGapFill"],
+                    "gapReasons": quality["gapReasons"],
                     "wordCount": quality["wordCount"],
                     "avgItemWords": quality["avgItemWords"],
                     "metrics": quality["metrics"],
@@ -3114,11 +3237,12 @@ def build_quality_report(generated_pages: list[dict]) -> dict:
         section_records = by_section.get(section_id, [])
         if not section_records:
             continue
-        level_counts = {level: 0 for level in ("strong", "good", "developing", "thin")}
+        level_counts = {level: 0 for level in ("exceptional", "strong", "good", "developing", "thin")}
         for record in section_records:
             level_counts[record["level"]] += 1
         total = len(section_records)
         needs_review = sum(1 for record in section_records if record["needsReview"])
+        needs_gap_fill = sum(1 for record in section_records if record["needsGapFill"])
         average_score = round(sum(record["score"] for record in section_records) / total, 1)
         summaries.append(
             {
@@ -3128,6 +3252,8 @@ def build_quality_report(generated_pages: list[dict]) -> dict:
                 "averageScore": average_score,
                 "needsReview": needs_review,
                 "needsReviewRate": round(needs_review / total, 3),
+                "needsGapFill": needs_gap_fill,
+                "needsGapFillRate": round(needs_gap_fill / total, 3),
                 "levels": level_counts,
                 "weakest": sorted(section_records, key=lambda item: (item["score"], item["pageTitle"]))[:12],
             }
@@ -3135,8 +3261,13 @@ def build_quality_report(generated_pages: list[dict]) -> dict:
 
     summaries.sort(key=lambda item: (-item["needsReviewRate"], item["averageScore"], item["sectionName"]))
     weakest = sorted(records, key=lambda item: (item["score"], item["sectionName"], item["pageTitle"]))[:150]
+    gap_backlog = sorted(
+        [record for record in records if record["needsGapFill"]],
+        key=lambda item: (item["score"], item["sectionName"], item["pageTitle"]),
+    )[:200]
     total_records = len(records)
     total_needs_review = sum(1 for record in records if record["needsReview"])
+    total_gap_fill = sum(1 for record in records if record["needsGapFill"])
 
     return {
         "generatedAt": "2026-05-20",
@@ -3145,9 +3276,12 @@ def build_quality_report(generated_pages: list[dict]) -> dict:
             "averageScore": round(sum(record["score"] for record in records) / max(total_records, 1), 1),
             "needsReview": total_needs_review,
             "needsReviewRate": round(total_needs_review / max(total_records, 1), 3),
+            "needsGapFill": total_gap_fill,
+            "needsGapFillRate": round(total_gap_fill / max(total_records, 1), 3),
         },
         "sectionSummaries": summaries,
         "weakest": weakest,
+        "gapBacklog": gap_backlog,
         "records": records,
     }
 
@@ -3168,7 +3302,8 @@ def render_quality_review_page(report: dict) -> str:
               <p>
                 Average score: <strong>{branch["averageScore"]}</strong>. Sections needing review:
                 <strong>{branch["needsReview"]}</strong> of <strong>{branch["total"]}</strong>.
-                Levels: strong {branch["levels"]["strong"]}, good {branch["levels"]["good"]},
+                Exceptional gap-fill backlog: <strong>{branch["needsGapFill"]}</strong>.
+                Levels: exceptional {branch["levels"]["exceptional"]}, strong {branch["levels"]["strong"]}, good {branch["levels"]["good"]},
                 developing {branch["levels"]["developing"]}, thin {branch["levels"]["thin"]}.
               </p>
               <ul class="archive-year-list">
@@ -3180,6 +3315,10 @@ def render_quality_review_page(report: dict) -> str:
     weakest_items = "\n".join(
         f'                <li><a href="..{html.escape(item["url"])}">{html.escape(item["sectionName"])} / {html.escape(item["pageTitle"])} / {html.escape(item["anchor"])}</a><span>{html.escape(item["level"])} · {item["score"]}</span></li>'
         for item in report["weakest"][:30]
+    )
+    gap_items = "\n".join(
+        f'                <li><a href="..{html.escape(item["url"])}">{html.escape(item["sectionName"])} / {html.escape(item["pageTitle"])} / {html.escape(item["anchor"])}</a><span>{html.escape("; ".join(item["gapReasons"]) or "needs hand detail")}</span></li>'
+        for item in report["gapBacklog"][:35]
     )
 
     return textwrap.dedent(
@@ -3236,12 +3375,37 @@ def render_quality_review_page(report: dict) -> str:
                       prompt-response sections. Average score is <strong>{summary["averageScore"]}</strong>.
                       Sections needing review: <strong>{summary["needsReview"]}</strong>
                       ({round(summary["needsReviewRate"] * 100, 1)}%).
+                      Exceptional gap-fill backlog: <strong>{summary["needsGapFill"]}</strong>
+                      ({round(summary["needsGapFillRate"] * 100, 1)}%).
                     </p>
                     <p>
-                      Levels are heuristic, not final judgment: <strong>strong</strong>,
+                      Levels are heuristic, not final judgment: <strong>exceptional</strong>,
+                      <strong>strong</strong>,
                       <strong>good</strong>, <strong>developing</strong>, and <strong>thin</strong>.
-                      “Developing” and “thin” are the backlog for hand-polish.
+                      “Developing” and “thin” are the backlog for repair; the gap-fill column is the
+                      more interesting backlog for adding quotations, source texture, and the kind of
+                      detail that keeps philosophy from becoming a very confident table of contents.
                     </p>
+                  </section>
+
+                  <section class="gap-note">
+                    <p class="eyebrow">Philosophers Gap-Fill</p>
+                    <h2>Canon needs encounter, not nameplates</h2>
+                    <p>
+                      The Philosophers branch is intentionally marked for future enrichment. The next
+                      exceptional pass should add primary-source fragments, historical settings,
+                      signature problems, influence trails, and objections that let each thinker
+                      speak with a recognizable philosophical temperature. Otherwise we risk producing
+                      a very elegant hall of portraits, which is lovely, but portraits rarely argue back.
+                    </p>
+                  </section>
+
+                  <section class="article-section">
+                    <p class="eyebrow">Exceptional Backlog</p>
+                    <h2>Good enough is not the ceiling</h2>
+                    <ul class="archive-year-list">
+{gap_items}
+                    </ul>
                   </section>
 
                   <section class="article-section">
@@ -3273,16 +3437,24 @@ def render_quality_markdown(report: dict) -> str:
         f"Tracked prompt-response sections: {report['overall']['totalPromptSections']}",
         f"Average score: {report['overall']['averageScore']}",
         f"Needs review: {report['overall']['needsReview']} ({round(report['overall']['needsReviewRate'] * 100, 1)}%)",
+        f"Exceptional gap-fill backlog: {report['overall']['needsGapFill']} ({round(report['overall']['needsGapFillRate'] * 100, 1)}%)",
         "",
         "## Branch Summary",
         "",
-        "| Branch | Avg | Needs Review | Strong | Good | Developing | Thin |",
-        "| --- | ---: | ---: | ---: | ---: | ---: | ---: |",
+        "| Branch | Avg | Needs Review | Gap Fill | Exceptional | Strong | Good | Developing | Thin |",
+        "| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |",
     ]
     for branch in report["sectionSummaries"]:
         levels = branch["levels"]
         lines.append(
-            f"| {branch['sectionName']} | {branch['averageScore']} | {branch['needsReview']}/{branch['total']} | {levels['strong']} | {levels['good']} | {levels['developing']} | {levels['thin']} |"
+            f"| {branch['sectionName']} | {branch['averageScore']} | {branch['needsReview']}/{branch['total']} | {branch['needsGapFill']}/{branch['total']} | {levels['exceptional']} | {levels['strong']} | {levels['good']} | {levels['developing']} | {levels['thin']} |"
+        )
+
+    lines.extend(["", "## Exceptional Gap-Fill Backlog", ""])
+    for item in report["gapBacklog"][:150]:
+        reasons = "; ".join(item["gapReasons"]) or "needs hand detail"
+        lines.append(
+            f"- `{item['level']}` {item['score']} [{item['sectionName']} / {item['pageTitle']}#{item['anchor']}](..{item['url']}): {reasons}"
         )
 
     lines.extend(["", "## Weakest Sections", ""])
