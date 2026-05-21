@@ -947,6 +947,16 @@ img {
   line-height: 1.82;
 }
 
+.article-section strong {
+  color: var(--ink-strong);
+  font-weight: 800;
+}
+
+.article-section em {
+  color: var(--accent);
+  font-style: italic;
+}
+
 .article-section p + p,
 .article-section ul + p,
 .article-section p + ul,

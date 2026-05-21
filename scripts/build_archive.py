@@ -357,6 +357,51 @@ COMPOUND_TAG_PHRASES = (
     "golden rules",
 )
 
+INLINE_STRONG_PHRASES = (
+    "center of gravity",
+    "pressure point",
+    "intermediate reader",
+    "important discipline",
+    "calibration problem",
+    "belief calibration",
+    "epistemic humility",
+    "epistemic rigor",
+    "source of authority",
+    "anti-realist pressure",
+    "moral realism",
+    "moral non-realism",
+    "moral anti-realism",
+    "inductive grounding",
+    "inductive substrate",
+    "sub-absolute confidence",
+    "burden of proof",
+    "free will",
+    "social contract",
+    "human rights",
+    "divine command theory",
+    "critical thinking",
+    "truth alignment",
+    "training data",
+    "case study",
+    "case studies",
+    "logical fallacies",
+    "ordinary usage",
+    "testable expectation",
+)
+INLINE_EMPHASIS_PHRASES = (
+    "not merely",
+    "not simply",
+    "rather than",
+    "without pretending",
+    "without forcing",
+    "not to close the issue by slogan",
+    "the live difficulty has disappeared",
+    "before it is a slogan",
+    "instead of a closed verdict",
+    "not only as a set of theses",
+    "middle movement",
+)
+
 LOW_VALUE_HEADING_PATTERNS = (
     "table of contents",
     "quiz",
@@ -373,7 +418,17 @@ LOW_VALUE_PROMPT_PATTERNS = (
     "table of contents",
     "does this make sense",
 )
+LOW_VALUE_PROMPT_REGEXES = (
+    r"\bwhat term is defined as\b",
+    r"\bwhich of the following\b",
+    r"\bwhich type of\b.+\brefers to\b",
+    r"\bunder which term\b",
+    r"\bwhat does .{1,80}\bprimarily refer to\b",
+    r"\b[A-D]\.\s+\S.+\b[B-D]\.\s+\S",
+)
 UNAVAILABLE_ASSET_REFERENCE_PATTERNS = (
+    r"\btable above\b",
+    r"\babove table\b",
     r"\bfollowing images?\b",
     r"\bfollowing image\b",
     r"\bthese images?\b",
@@ -423,6 +478,7 @@ PROMPT_STARTERS = (
     "weigh",
     "for each",
     "take",
+    "based",
     "allow me",
     "i am",
 )
@@ -545,6 +601,9 @@ def rewrite_unavailable_asset_references(text: str) -> str:
         (r"\b[Pp]rovide a comparison chart of\b", "Provide a structured comparison of"),
         (r"\b[Cc]hart the curve that\b", "Describe the curve that"),
         (r"\b[Ii] will now create the trait comparison to provide\b", "A structured trait comparison can provide"),
+        (r"\b[Bb]ased on the table above\b", "Based on the previous structured table"),
+        (r"\b[Tt]he table above\b", "the previous structured table"),
+        (r"\b[Aa]bove table\b", "previous structured table"),
     ]
     for pattern, replacement in replacements:
         rewritten = re.sub(pattern, replacement, rewritten)
@@ -832,6 +891,83 @@ def normalize_heading_list(content_html: str, title: str) -> tuple[list[str], li
     return prompt_like[:8], thread_like[:16], paragraphs[:5]
 
 
+def quiz_item_to_discussion_question(text: str, topic: str) -> str:
+    item = strip_number_prefix(clean_text(text)).strip(" :-")
+    if not item or is_low_value_heading(item):
+        return ""
+    item = re.sub(r"\s+[A-D]\.\s+.*$", "", item).strip()
+    lowered = item.lower()
+
+    if "answers at the end" in lowered:
+        return ""
+
+    match = re.search(
+        r"what term is defined as having different meanings such as\s+(.+?)\??$",
+        item,
+        flags=re.IGNORECASE,
+    )
+    if match:
+        examples = match.group(1).strip(" .?")
+        return f"How do meanings such as {examples} show why terms must be clarified before debating {topic}?"
+
+    if "which type of" in lowered and "freedom" in lowered and "absence of interference" in lowered:
+        return f"How does negative freedom differ from positive freedom, and why does that distinction matter for {topic}?"
+
+    if "equality of outcome" in lowered and "under which term" in lowered:
+        return f"How does equality of outcome differ from equality of opportunity, and what ethical confusion follows when they are merged?"
+
+    match = re.search(
+        r"which of the following best describes\s+[“\"]?([^”\"?]+)[”\"]?\??$",
+        item,
+        flags=re.IGNORECASE,
+    )
+    if match:
+        term = match.group(1).strip(" .?")
+        if term.lower() == "instrumental value":
+            return "How does instrumental value differ from intrinsic value, and why does that difference matter in ethical argument?"
+        return f"What distinction is being tested by the term {term}, and how could it be misused in this discussion?"
+
+    match = re.search(
+        r"what does\s+[“\"]?([^”\"?]+)[”\"]?\s+primarily refer to\b",
+        item,
+        flags=re.IGNORECASE,
+    )
+    if match:
+        term = match.group(1).strip(" .?")
+        return f"Why does {term} need a precise meaning before it can do serious philosophical work?"
+
+    if item.endswith("?") and not is_low_value_prompt(item):
+        return item
+    return ""
+
+
+def extract_quiz_discussion_items(content_html: str, title: str) -> list[str]:
+    soup = BeautifulSoup(content_html or "", "html.parser")
+    root = soup.select_one(".entry-content") or soup.select_one(".wp-block-post-content") or soup
+    topic = topic_label(title)
+    questions: list[str] = []
+
+    for heading in root.find_all(re.compile(r"^h[1-6]$")):
+        heading_text = clean_text(heading.get_text(" ", strip=True))
+        if "quiz" not in heading_text.lower():
+            continue
+        current_level = heading_level(heading)
+        for element in heading.next_elements:
+            if element is heading or not isinstance(element, Tag):
+                continue
+            if element.name and re.fullmatch(r"h[1-6]", element.name):
+                text = clean_text(element.get_text(" ", strip=True))
+                if "answer" in text.lower() or heading_level(element) <= current_level:
+                    break
+            if element.name not in {"li", "p"}:
+                continue
+            question = quiz_item_to_discussion_question(element.get_text(" ", strip=True), topic)
+            if question:
+                questions.append(question)
+
+    return dedupe(questions)[:4]
+
+
 def sentence_split(text: str) -> list[str]:
     cleaned = clean_text(text)
     if not cleaned:
@@ -993,6 +1129,10 @@ def rewrite_source_sentence(text: str) -> str:
         (r"\b[Yy]ou acknowledge\b", "the position acknowledges"),
         (r"\b[Yy]ou highlight\b", "the position highlights"),
         (r"\b[Yy]ou said\b", "the earlier formulation said"),
+        (r"\bI frequently encounter\b", "the curator frequently encountered"),
+        (r"\bdemands that I state whether they believe\b", "demands that the curator state whether a behavior is"),
+        (r"\bI have\b", "the curator has"),
+        (r"\bmy\b", "the curator's"),
         (r"\b[Ll]et’s\b", "the response can"),
     ]
     for pattern, replacement in replacements:
@@ -1125,7 +1265,9 @@ def branch_profile(section_id: str) -> dict:
 
 def is_low_value_prompt(text: str) -> bool:
     lowered = clean_text(text).lower()
-    return any(pattern in lowered for pattern in LOW_VALUE_PROMPT_PATTERNS)
+    return any(pattern in lowered for pattern in LOW_VALUE_PROMPT_PATTERNS) or any(
+        re.search(pattern, lowered, flags=re.IGNORECASE) for pattern in LOW_VALUE_PROMPT_REGEXES
+    )
 
 
 def clarify_prompt(text: str) -> str:
@@ -1135,6 +1277,18 @@ def clarify_prompt(text: str) -> str:
     prompt = re.sub(r"\bcontent above\b", "this discussion", prompt, flags=re.IGNORECASE)
     prompt = re.sub(r"\bthread above\b", "this discussion", prompt, flags=re.IGNORECASE)
     prompt = re.sub(r"\bunevidence presupposition\b", "unevidenced presupposition", prompt, flags=re.IGNORECASE)
+    prompt = re.sub(
+        r"^In discussion on ethics,\s*I frequently encounter demands that I state whether they believe a behavior is [“\"]wrong[”\"]\.\s*But",
+        "In ethical discussion, the curator frequently encounters demands to say whether a behavior is “wrong,” but",
+        prompt,
+        flags=re.IGNORECASE,
+    )
+    prompt = re.sub(
+        r"^While I believe torturing cats is pragmatically wrong if you want people to like you, and is abhorred in most cultures, I do not believe it is morally wrong since I am a moral nihilist\.",
+        "From a moral-nihilist standpoint, torturing cats may be pragmatically wrong if one wants social approval and culturally abhorred in most communities, yet not morally wrong.",
+        prompt,
+        flags=re.IGNORECASE,
+    )
     prompt = rewrite_unavailable_asset_references(prompt)
     if prompt:
         prompt = prompt[0].upper() + prompt[1:]
@@ -1304,7 +1458,22 @@ def prompt_pack(page: dict, section_meta: dict) -> list[tuple[str, str]]:
 
 
 def render_paragraphs(parts: Iterable[str]) -> str:
-    return "\n".join(f"              <p>{html.escape(part)}</p>" for part in parts if part)
+    return "\n".join(f"              <p>{render_inline_text(part)}</p>" for part in parts if part)
+
+
+def emphasize_escaped_phrase(rendered: str, phrase: str, tag: str) -> str:
+    escaped_phrase = html.escape(phrase)
+    pattern = re.compile(rf"(?<![\w-])({re.escape(escaped_phrase)})(?![\w-])", flags=re.IGNORECASE)
+    return pattern.sub(lambda match: f"<{tag}>{match.group(1)}</{tag}>", rendered, count=1)
+
+
+def render_inline_text(text: str) -> str:
+    rendered = html.escape(text)
+    for phrase in sorted(INLINE_STRONG_PHRASES, key=len, reverse=True):
+        rendered = emphasize_escaped_phrase(rendered, phrase, "strong")
+    for phrase in sorted(INLINE_EMPHASIS_PHRASES, key=len, reverse=True):
+        rendered = emphasize_escaped_phrase(rendered, phrase, "em")
+    return rendered
 
 
 def format_thread_list(items: list[str]) -> str:
@@ -1314,19 +1483,30 @@ def format_thread_list(items: list[str]) -> str:
     return f"\n              <ol>\n{lis}\n              </ol>"
 
 
+def discussion_thread_label(item: str, topic: str) -> str:
+    label, _body = split_label(item)
+    if label:
+        return label
+    if len(clean_text(item)) > 80:
+        return short_prompt_key(item, topic)
+    return item
+
+
 def discussion_questions(page: dict, thread_like: list[str]) -> list[str]:
     topic = topic_label(page["title"])
     profile = branch_profile(page["section_id"])
     thread_like = usable_thread_items(thread_like)
-    questions = [
+    questions = list(page.get("quiz_discussion_items", []))[:3]
+    questions.extend([
         f"Which distinction inside {topic} is easiest to miss when the topic is explained too quickly?",
         f"What is the strongest charitable reading of this topic, and what is the strongest criticism?",
         f"How does this page connect to {profile['lens']}?",
         f"What kind of evidence, argument, or lived pressure should most influence our judgment about {topic}?",
-    ]
+    ])
     if thread_like:
-        questions.append(f"Which of these threads matters most right now: {', '.join(thread_like[:3])}?")
-    return questions[:5]
+        thread_labels = [discussion_thread_label(item, topic) for item in thread_like[:3]]
+        questions.append(f"Which of these threads matters most right now: {', '.join(thread_labels)}?")
+    return dedupe(questions)[:5]
 
 
 def serial_join(items: list[str]) -> str:
@@ -1345,10 +1525,12 @@ def source_detail_labels(detail: dict | None) -> list[str]:
         return []
     labels: list[str] = []
     for child in detail.get("children", []):
-        labels.append(rewrite_unavailable_asset_references(strip_number_prefix(child.get("title", ""))))
+        label = rewrite_unavailable_asset_references(strip_number_prefix(child.get("title", "")))
+        if label and not looks_like_prompt(label):
+            labels.append(label)
     for item in detail.get("items", []):
         label, body = split_label(item)
-        if label and body:
+        if label and body and not looks_like_prompt(label):
             labels.append(rewrite_unavailable_asset_references(label))
     return usable_thread_items(dedupe(labels))[:5]
 
@@ -1356,15 +1538,34 @@ def source_detail_labels(detail: dict | None) -> list[str]:
 def prompt_key_phrase(prompt: str, fallback: str) -> str:
     cleaned = clean_text(prompt)
     lowered = cleaned.lower()
+    if "wrong" in lowered and any(term in lowered for term in ("equivocate", "semantically", "different contexts")):
+        return "Equivocation over wrongness"
+    if "wrong" in lowered and "pragmatically wrong" in lowered and "morally wrong" in lowered:
+        return "Pragmatic, cultural, and moral wrongness"
+    if "other terms" in lowered and "ethical" in lowered:
+        return "Ethically loaded terms"
     key_phrases = [
+        "adequate evidence",
+        "anti-realism",
+        "burden of proof",
+        "critical thinking",
+        "divine command theory",
+        "epistemic switch",
+        "gradient belief",
         "inductive substrate",
         "sub-absolute confidence",
         "inductive grounding",
+        "instrumental value",
+        "intuitionist logic",
+        "justice",
         "moral realism",
         "moral non-realism",
         "moral intuitions",
         "moral landscape",
         "normative force",
+        "outliers",
+        "perverse incentives",
+        "personal truth",
         "telephone game",
         "signal fidelity",
         "system fidelity",
@@ -1376,15 +1577,31 @@ def prompt_key_phrase(prompt: str, fallback: str) -> str:
         "free will",
         "consciousness",
         "truth alignment",
+        "wealth creation",
     ]
     for phrase in key_phrases:
         if phrase in lowered:
             return phrase[0].upper() + phrase[1:]
 
     command_patterns = [
+        r"^assess the following statement against\s+(.+?)\.?$",
+        r"^can you provide an actual scenario in which\s+(.+?)\.?$",
+        r"^can you provide actual scenarios in which\s+(.+?)\.?$",
+        r"^create a \d+-line dialogue between\s+(.+?)\.?$",
+        r"^create a short, rigorous paragraph highlighting\s+(.+?)\.?$",
+        r"^create a table that displays\s+(.+?)\.?$",
+        r"^create a table that, for each\s+(.+?)\s*,.+$",
+        r"^create a table of\s+(.+?)\.?$",
         r"^provide a short paragraph explaining\s+(.+?)\.?$",
+        r"^provide a short definition of\s+(.+?)\.?$",
+        r"^provide a short but clear definition of\s+(.+?)\.?$",
         r"^provide an annotated list of\s+(.+?)\.?$",
+        r"^provide a diverse list of\s+(.+?)\.?$",
+        r"^provide a list that includes\s+(.+?)\.?$",
         r"^provide the most likely causes behind\s+(.+?)\.?$",
+        r"^provide scores.+?for\s+(.+?)\.?$",
+        r"^present a table showing\s+(.+?)\.?$",
+        r"^using .+?, provide a table of\s+(.+?)\.?$",
         r"^create a table on\s+(.+?)\s+with columns.+$",
         r"^create a structured comparison showing\s+(.+?)\.?$",
         r"^create a quantitative account that\s+(.+?)\.?$",
@@ -1435,6 +1652,8 @@ def first_source_claim(detail: dict | None) -> str:
         candidates.extend(child.get("paragraphs", []))
         candidates.extend(child.get("items", []))
     for candidate in candidates:
+        if looks_like_prompt(candidate) or is_low_value_prompt(candidate):
+            continue
         claim = rewrite_source_sentence(candidate)
         if claim:
             return claim
@@ -1524,10 +1743,16 @@ def prompt_response_paragraphs(page: dict, prompt: str, index: int, detail: dict
         return paragraphs[:3]
 
     key = short_prompt_key(prompt, topic)
-    first = (
-        f"This response treats {key} as the hinge of {topic}, keeping the question inside the branch discipline of {profile['lens']}. "
-        f"{profile['stakes']}"
-    )
+    if key.lower() == topic.lower():
+        first = (
+            f"This response treats the central ambiguity in {topic} as the hinge of the page, keeping the question inside the branch discipline of {profile['lens']}. "
+            f"{profile['stakes']}"
+        )
+    else:
+        first = (
+            f"This response treats {key} as the hinge of {topic}, keeping the question inside the branch discipline of {profile['lens']}. "
+            f"{profile['stakes']}"
+        )
 
     if focus == "dialogue":
         second = (
@@ -1748,6 +1973,16 @@ def supplemental_support_items(page: dict, prompt: str, detail: dict | None, foc
 def short_prompt_key(prompt: str, topic: str) -> str:
     cleaned = clean_text(prompt)
     lowered = cleaned.lower()
+    if re.match(r"^(what term|which type|which of the following)\b", cleaned, flags=re.IGNORECASE):
+        if topic.lower().startswith("equivocation on"):
+            return "semantic equivocation over wrongness"
+        return topic
+    if re.match(r"^imagine someone says\b", cleaned, flags=re.IGNORECASE):
+        return f"{topic} under skeptical pressure"
+    if re.match(r"^there are many ideologies\b", cleaned, flags=re.IGNORECASE):
+        return f"inscrutable defenses of {topic}"
+    if re.match(r"^many religious ideologies contain\b", cleaned, flags=re.IGNORECASE):
+        return f"testable promises inside {topic}"
     if re.match(r"^restate the following from .+$", cleaned, flags=re.IGNORECASE):
         if "moral realism" in topic.lower():
             return "moral realism's apparent common-sense appeal"
@@ -1763,6 +1998,15 @@ def short_prompt_key(prompt: str, topic: str) -> str:
             r"^can you provide a few guesses on the significance of (.+?) if interpreted as (.+?)\??$",
             r"\2 interpretations of \1",
         ),
+        (r"^provide a diverse list of (.+?), and discuss .+$", r"\1"),
+        (r"^provide a list that includes an extensive list of (.+?)\. .+$", r"\1"),
+        (r"^create a table that, for each (.+?), provides .+$", r"\1"),
+        (r"^create a table of (.+?), their .+$", r"\1"),
+        (r"^create a table that displays (.+?)\.?$", r"\1"),
+        (r"^using .+?, provide a table of (.+?), their .+$", r"\1"),
+        (r"^present a table showing (.+?)\.?$", r"\1"),
+        (r"^provide me with a table with two lists, .+?risks that humans tend to (.+?)\.?$", "risk perception asymmetry"),
+        (r"^create an interesting and clear hypothetical dialogue between (.+?) that .+$", r"\1"),
         (r"^which of those guesses is most likely.*$", "the most likely interpretation"),
     ]
     for pattern, replacement in special_patterns:
@@ -1906,6 +2150,25 @@ def editorial_insight_paragraph(page: dict, prompt: str, focus: str) -> str:
     )
 
 
+def reader_test_paragraph(page: dict, prompt: str, focus: str) -> str:
+    topic = topic_label(page["title"])
+    key = short_prompt_key(prompt, topic)
+    profile = branch_profile(page["section_id"])
+    focus_tests = {
+        "dialogue": "A good dialogue should let the reader feel the pressure of both sides before the answer settles.",
+        "mapping": "A good map should show which distinctions carry the argument and which ones merely name nearby territory.",
+        "examples": "A good example should do more than decorate the point; it should reveal what would otherwise remain abstract.",
+        "critique": "A good critique should preserve the strongest version of the target before identifying the decisive weakness.",
+        "argument": "A good argument should separate the premise under dispute from the conclusion that depends on it.",
+        "definition": "A good definition should change how the reader classifies borderline cases, not only restate familiar usage.",
+    }
+    return (
+        f"A useful reader test is this: after the section is finished, the reader should be able to explain why {key} matters for {topic} "
+        f"and how it changes the next question to ask. {focus_tests.get(focus, 'A good section should convert curiosity into a sharper practice of inquiry.')} "
+        f"That keeps the page tied to {profile['lens']} rather than leaving it as a detached summary."
+    )
+
+
 def append_unique_paragraph(paragraphs: list[str], candidate: str) -> None:
     normalized_candidate = clean_text(candidate).lower()
     if not normalized_candidate:
@@ -1941,10 +2204,12 @@ def editorial_polish_content(
     polished_paragraphs = list(paragraphs)
     append_unique_paragraph(polished_paragraphs, sequence_context_paragraph(page, prompt, prompts, index))
     append_unique_paragraph(polished_paragraphs, intermediate_reader_paragraph(page, prompt, focus))
-    if content_word_count(polished_paragraphs, polished_items) < 285:
+    if len(polished_paragraphs) < 5 or content_word_count(polished_paragraphs, polished_items) < 320:
         append_unique_paragraph(polished_paragraphs, editorial_insight_paragraph(page, prompt, focus))
+    if content_word_count(polished_paragraphs, polished_items) < 320:
+        append_unique_paragraph(polished_paragraphs, reader_test_paragraph(page, prompt, focus))
 
-    return polished_paragraphs[:5], polished_items[:6]
+    return polished_paragraphs[:6], polished_items[:6]
 
 
 def content_word_count(paragraphs: list[str], list_items: list[str]) -> int:
@@ -1965,7 +2230,7 @@ def polish_review_content(
     focus = prompt_focus(prompt)
     topic = topic_label(page["title"])
     profile = branch_profile(page["section_id"])
-    key = prompt_key_phrase(prompt, topic)
+    key = short_prompt_key(prompt, topic)
 
     polished_items = [
         enriched
@@ -1977,7 +2242,7 @@ def polish_review_content(
     for item in supplemental_support_items(page, prompt, detail, focus):
         if len(polished_items) >= 4 and average_item_words(polished_items) >= 12:
             break
-        polished_items.append(item)
+        polished_items.append(enrich_support_item(item, page, prompt, focus) or item)
         polished_items = dedupe(polished_items)
 
     polished_paragraphs = list(paragraphs)
@@ -2054,11 +2319,11 @@ def detail_metric_counts(detail: dict | None) -> dict[str, int]:
 
 
 def quality_level(score: int) -> str:
-    if score >= 78:
+    if score >= 85:
         return "strong"
-    if score >= 62:
+    if score >= 72:
         return "good"
-    if score >= 45:
+    if score >= 60:
         return "developing"
     return "thin"
 
@@ -2083,6 +2348,13 @@ def quality_assessment(
         and len(list_items) >= 4
         and avg_item_words >= 10
     )
+    editorial_depth = (
+        word_count >= 300
+        and len(paragraphs) >= 5
+        and len(list_items) >= 5
+        and avg_item_words >= 12
+    )
+    continuity_scaffold = any("For an intermediate reader" in paragraph for paragraph in paragraphs)
     reasons: list[str] = []
 
     score = 18
@@ -2111,6 +2383,15 @@ def quality_assessment(
         score -= 10
         reasons.append("The reconstructed response is short enough to need hand expansion.")
 
+    if editorial_depth:
+        score += 14
+    else:
+        score -= 4
+        reasons.append("The section is below the current editorial depth target.")
+
+    if continuity_scaffold:
+        score += 4
+
     if len(list_items) <= 1:
         score -= 8
         reasons.append("The section has one or fewer concrete support items.")
@@ -2133,7 +2414,7 @@ def quality_assessment(
     return {
         "score": score,
         "level": level,
-        "needsReview": level in {"thin", "developing"},
+        "needsReview": level in {"thin", "developing"} or not editorial_depth,
         "wordCount": word_count,
         "avgItemWords": avg_item_words,
         "metrics": metrics,
@@ -2158,7 +2439,7 @@ def source_prompt_sections(page: dict, prompts: list[str]) -> list[dict]:
             list_items,
         )
         quality = quality_assessment(page, prompt, detail, paragraphs, list_items)
-        if quality["needsReview"]:
+        if quality["needsReview"] or quality["score"] < 85:
             paragraphs, list_items = polish_review_content(page, prompt, detail, paragraphs, list_items)
             paragraphs, list_items = editorial_polish_content(
                 page,
@@ -2394,10 +2675,10 @@ def render_list_section(items: list[str], item_tag: str = "li") -> str:
         label, body = split_label(item)
         if label and body and item_tag == "li":
             rendered_items.append(
-                f"                <li><strong>{html.escape(label)}:</strong> {html.escape(body)}</li>"
+                f"                <li><strong>{html.escape(label)}:</strong> {render_inline_text(body)}</li>"
             )
         else:
-            rendered_items.append(f"                <{item_tag}>{html.escape(item)}</{item_tag}>")
+            rendered_items.append(f"                <{item_tag}>{render_inline_text(item)}</{item_tag}>")
     inner = "\n".join(rendered_items)
     return f"\n              <ol>\n{inner}\n              </ol>"
 
@@ -3098,8 +3379,13 @@ def main() -> None:
 
         source_prompts, thread_like, _paragraphs = ([], [], [])
         source_prompt_details: list[dict] = []
+        quiz_discussion_items: list[str] = []
         if post:
             source_prompts, thread_like, _paragraphs = normalize_heading_list(
+                post.get("content", ""),
+                clean_text(title),
+            )
+            quiz_discussion_items = extract_quiz_discussion_items(
                 post.get("content", ""),
                 clean_text(title),
             )
@@ -3120,6 +3406,7 @@ def main() -> None:
             "kind": infer_kind(title, bool(children)),
             "source_prompts": source_prompts,
             "source_prompt_details": source_prompt_details,
+            "quiz_discussion_items": quiz_discussion_items,
             "thread_like": thread_like,
             "excerpt": strip_html(post.get("excerpt", "") if post else ""),
             "date": post.get("date", "") if post else "",
