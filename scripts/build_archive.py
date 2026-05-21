@@ -1934,6 +1934,78 @@ def clean_heading_subject(subject: str, topic: str) -> str:
     return cleaned or topic
 
 
+def need_verb_for_heading(subject: str) -> str:
+    """Choose agreement for generated headings such as "Books need a map." """
+    text = clean_text(subject).strip()
+    lower = text.lower()
+    if " - " in lower or " – " in lower or " — " in lower:
+        tail = re.split(r"\s[-–—]\s", lower)[-1].strip()
+        if tail:
+            lower = tail
+    head = re.split(
+        r"\s+(?:of|from|for|against|with|inside|within|used by|correlated with|evaluated|on|to)\s+",
+        lower,
+        maxsplit=1,
+    )[0].strip()
+    head = re.sub(r"^(?:the|a|an|each|every|one|\d+|\d+\s+key|\d+\s+notable)\s+", "", head)
+    last_word = re.sub(r"[^a-z]+$", "", head.split()[-1]) if head.split() else ""
+    singular_endings = (
+        "analysis",
+        "basis",
+        "crisis",
+        "hypothesis",
+        "illogic",
+        "logos",
+        "news",
+        "physics",
+        "series",
+        "thesis",
+    )
+    plural_markers = (
+        "books",
+        "articles",
+        "case studies",
+        "claims",
+        "challenges",
+        "chains",
+        "communities",
+        "concepts",
+        "conditions",
+        "considerations",
+        "contributions",
+        "defenses",
+        "diseases",
+        "examples",
+        "fields",
+        "functions",
+        "ideologies",
+        "mechanisms",
+        "methods",
+        "notions",
+        "opinions",
+        "perspectives",
+        "philosophers",
+        "phenomena",
+        "pseudosciences",
+        "rules",
+        "systems",
+        "tactics",
+        "terms",
+        "theorists",
+        "virtues",
+        "weaknesses",
+    )
+    if any(marker in head for marker in plural_markers):
+        return "need"
+    if head.endswith(singular_endings):
+        return "needs"
+    if re.search(r"\b\d+\b", head) and last_word.endswith("s"):
+        return "need"
+    if last_word.endswith("s") and not last_word.endswith(("ss", "us", "is")):
+        return "need"
+    return "needs"
+
+
 def article_native_heading(subject: str, prompt: str, topic: str) -> str:
     key = clean_heading_subject(subject, topic)
     focus = prompt_focus(prompt)
@@ -1941,7 +2013,14 @@ def article_native_heading(subject: str, prompt: str, topic: str) -> str:
     if re.search(r"provide a list of the key (contributions )?.+ have made to philosophical thought", prompt_lower):
         key = clean_heading_subject(f"key contributions of {key} to philosophical thought", topic)
     if prompt_lower.startswith("list the most influential"):
-        key = clean_heading_subject(f"influential {key} in history", topic)
+        if key.lower().startswith("influential "):
+            key = clean_heading_subject(key, topic)
+        elif key.lower().endswith(" in history"):
+            key = clean_heading_subject(f"influential {key}", topic)
+        else:
+            key = clean_heading_subject(f"influential {key} in history", topic)
+    key = re.sub(r"\bInfluential\s+Influential\b", "Influential", key, flags=re.IGNORECASE)
+    key = re.sub(r"\bin history\s+in history\b", "in history", key, flags=re.IGNORECASE)
     if len(key) > 70 or key.lower().startswith(("a short dialogue", "a dialogue", "a spirited dialogue", "a clear dialogue")):
         key = topic
     lowered = key.lower()
@@ -1951,13 +2030,13 @@ def article_native_heading(subject: str, prompt: str, topic: str) -> str:
     if focus == "examples":
         return f"{key} makes the argument visible in practice."
     if focus == "mapping":
-        return f"{key} needs a map, not a heap of labels."
+        return f"{key} {need_verb_for_heading(key)} a map, not a heap of labels."
     if focus == "argument":
         return f"{key} is where the argument has to earn its keep."
     if focus == "definition":
-        return f"{key} needs a definition that changes judgment."
+        return f"{key} {need_verb_for_heading(key)} a definition that changes judgment."
     if any(term in lowered for term in ("list", "table", "scores", "percentages", "estimates")):
-        return f"{key} needs structure before it can persuade."
+        return f"{key} {need_verb_for_heading(key)} structure before it can persuade."
     return f"{key} is the hinge the section has to make usable."
 
 
@@ -3605,7 +3684,7 @@ def prompt_heading(prompt: str, topic: str) -> str:
     if focus == "dialogue":
         return f"The exchange has to make {topic} answerable to interruption."
     if focus == "description":
-        return f"{key} needs a description with usable criteria."
+        return f"{key} {need_verb_for_heading(key)} a description with usable criteria."
     if focus == "examples":
         return f"The examples have to make {topic} visible in practice."
     if focus == "mapping":
