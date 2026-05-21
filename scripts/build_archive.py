@@ -2264,25 +2264,25 @@ def generic_standfirst(page: dict, section_meta: dict) -> str:
     kind = page["kind"]
     profile = branch_profile(page["section_id"])
     if kind == "dialogue":
-        return f"A reconstructed philosopher page on {topic}, keeping the voice, tensions, and main lines of argument in clearer prose."
+        return f"A philosopher dialogue page on {topic}, keeping the voice, tensions, and main lines of argument in clear prose."
     if kind == "chart":
-        return f"A reconstructed chart page on {topic}, mapping the main alignments, fault lines, and enduring contributions."
+        return f"A chart page on {topic}, mapping the main alignments, fault lines, and enduring contributions."
     if kind == "danger":
-        return f"A reconstructed cautionary page on {topic}, clarifying the appeal of the pattern and the epistemic costs it can impose."
+        return f"A cautionary page on {topic}, clarifying the appeal of the pattern and the epistemic costs it can impose."
     if kind == "cluster":
-        return f"A reconstructed branch page on {topic}, placing its nested posts inside {profile['standfirst']}"
-    return f"A reconstructed {section_meta['name']} page on {topic}, centered on {profile['standfirst']}"
+        return f"A branch page on {topic}, placing its nested posts inside {profile['standfirst']}"
+    return f"A {section_meta['name']} page on {topic}, centered on {profile['standfirst']}"
 
 
 def feature_summary(page: dict, section_meta: dict) -> str:
     topic = topic_label(page["title"])
     if page["kind"] == "dialogue":
-        return f"A guided reconstruction of {topic} that keeps the philosopher’s voice, major claims, and main points of resistance in view."
+        return f"A guided encounter with {topic} that keeps the philosopher’s voice, major claims, and main points of resistance in view."
     if page["kind"] == "chart":
         return f"A terrain map of {topic}, showing which themes, alignments, and tensions define the wider philosophical landscape."
     if page["kind"] == "danger":
         return f"A cautionary essay on {topic}, treating it as a recurring distortion that can quietly damage serious inquiry."
-    return f"A reconstructed page on {topic}, written to clarify its role inside the {section_meta['name']} branch."
+    return f"A page on {topic}, written to clarify its role inside the {section_meta['name']} branch."
 
 
 def prompt_pack(page: dict, section_meta: dict) -> list[tuple[str, str]]:
@@ -4459,7 +4459,6 @@ def render_article_page(page: dict) -> str:
 
     body_parts = []
     for section in sections:
-        quality = section.get("quality")
         quality_attrs = ""
         prompt_number = prompt_index_by_anchor.get(section["id"])
         prompt_marker = ""
@@ -4476,13 +4475,6 @@ def render_article_page(page: dict) -> str:
             prompt_note = (
                 f'              <p class="article-section__prompt">'
                 f'<span>Prompt {prompt_number}:</span> {html.escape(prompt_text)}</p>'
-            )
-        if quality:
-            quality_attrs = (
-                f' data-quality-level="{html.escape(quality["level"])}"'
-                f' data-quality-score="{quality["score"]}"'
-                f' data-exceptional-ready="{str(quality["exceptionalReady"]).lower()}"'
-                f' data-gap-fill="{str(quality["needsGapFill"]).lower()}"'
             )
         block = [
             f'            <section class="{section_class}" id="{section["id"]}"{quality_attrs}>',
@@ -4521,20 +4513,8 @@ def render_article_page(page: dict) -> str:
     if not future_parts:
         future_parts.append(f"This page belongs inside the wider <strong>{html.escape(section_meta['name'])}</strong> branch and is best read in conversation with its neighboring topics.")
     future_paragraph = " ".join(future_parts)
-    footer_note = f"This reconstructed page keeps the archive voice consistent while leaving room for later deepening where the branch deserves it most."
-    gap_notes = page_gap_notes(page, sections)
     quiz_html = render_quiz_sections(page, sections, prompts, section_meta)
     quiz_block = f"\n\n{quiz_html}" if quiz_html else ""
-    gap_html = ""
-    if gap_notes:
-        gap_html = textwrap.dedent(
-            f"""\
-                    <section class="gap-note" id="gap-fill-notes">
-                      <p class="eyebrow">Exceptional Gap-Fill Notes</p>
-                      <h2>Where this page should get more human fingerprints</h2>
-                      {render_list_section(gap_notes)}
-                    </section>"""
-        )
 
     return textwrap.dedent(
         f"""\
@@ -4544,7 +4524,7 @@ def render_article_page(page: dict) -> str:
           <head>
             <meta charset="utf-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <title>{html.escape(page["title"])} | Byteseismic Reconstruction</title>
+            <title>{html.escape(page["title"])} | Byteseismic</title>
             <meta
               name="description"
               content="{html.escape(standfirst)}"
@@ -4606,27 +4586,11 @@ def render_article_page(page: dict) -> str:
                         {future_paragraph}
                       </p>
                     </section>
-        {gap_html}
                   </div>
 
                   <section class="article-outline-slot" data-article-outline></section>
-
-                  <section class="process-note">
-                    <p>
-                      This post is a final compilation of ideas and concepts distilled from interactions
-                      between the curator’s prompts and multiple AI interlocutors. The prompts are kept
-                      in spirit, the prose is newly written, and irreducible structural features are
-                      preserved where they carry genuine philosophical value.
-                    </p>
-                  </section>
                 </main>
               </div>
-
-              <footer class="site-footer">
-                <p>
-                  {footer_note}
-                </p>
-              </footer>
             </div>
           </body>
         </html>
@@ -4643,10 +4607,10 @@ def render_menu_structure_page() -> str:
           <head>
             <meta charset="utf-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <title>Site Map | Byteseismic Reconstruction</title>
+            <title>Site Map | Byteseismic</title>
             <meta
               name="description"
-              content="A nested map of the reconstructed Byteseismic archive, preserving the visible branch structure while linking into the rebuilt pages."
+              content="A nested map of the Byteseismic archive, preserving the visible branch structure while linking into the pages."
             />
             <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -4675,8 +4639,8 @@ def render_menu_structure_page() -> str:
                   <p class="hero__kicker">Archive Map</p>
                   <h1>Site Map</h1>
                   <p class="hero__lede">
-                    A nested view of the reconstructed archive, preserving the visible old hierarchy
-                    while pointing each branch toward its rebuilt pages.
+                    A nested view of the archive, preserving the visible hierarchy
+                    while pointing each branch toward its pages.
                   </p>
                 </div>
               </header>
@@ -4725,10 +4689,10 @@ def render_expanded_archive_page(posts_by_year: dict[int, list[dict]], section_c
           <head>
             <meta charset="utf-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <title>Recent Posts — Expanded Version | Byteseismic Reconstruction</title>
+            <title>Recent Posts — Expanded Version | Byteseismic</title>
             <meta
               name="description"
-              content="An expanded archive page listing the rebuilt Byteseismic posts across years and sections."
+              content="An expanded archive page listing Byteseismic posts across years and sections."
             />
             <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -4792,10 +4756,10 @@ def render_podcast_page() -> str:
           <head>
             <meta charset="utf-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <title>Byteseismic Podcasts | Byteseismic Reconstruction</title>
+            <title>Byteseismic Podcasts | Byteseismic</title>
             <meta
               name="description"
-              content="A holding page for the audio branch of the reconstructed Byteseismic archive."
+              content="A holding page for the audio branch of the Byteseismic archive."
             />
             <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -5451,8 +5415,7 @@ def main() -> None:
     menu_target = ROOT / "menu-structure" / "index.html"
     podcast_target = ROOT / "byteseismic-podcasts" / "index.html"
     archive_target = ROOT / "recent-posts-expanded-version" / "index.html"
-    quality_review_target = ROOT / "quality-review" / "index.html"
-    valid_targets.update({menu_target, podcast_target, archive_target, quality_review_target})
+    valid_targets.update({menu_target, podcast_target, archive_target})
 
     write_if_allowed(menu_target, render_menu_structure_page())
     write_if_allowed(podcast_target, render_podcast_page())
@@ -5467,9 +5430,6 @@ def main() -> None:
         section_counts[page["section_id"]] += 1
 
     write_if_allowed(archive_target, render_expanded_archive_page(posts_by_year, section_counts))
-    quality_report = build_quality_report(generated_pages)
-    write_if_allowed(quality_review_target, render_quality_review_page(quality_report))
-    write_quality_files(quality_report)
 
     def choose_featured_pages() -> list[dict]:
         chosen = []
@@ -5561,7 +5521,7 @@ def main() -> None:
 
     data = {
         "siteTitle": "Byteseismic Philosophy",
-        "siteTagline": "Final compilations of philosophical ideas distilled from the curator's prompts and multiple AI interlocutors.",
+        "siteTagline": "A branching philosophy archive for concepts, thinkers, arguments, and disciplined inquiry.",
         "featuredPages": featured_pages,
         "topicPaths": topic_paths,
         "sections": sections_data,
