@@ -2030,13 +2030,13 @@ def article_native_heading(subject: str, prompt: str, topic: str) -> str:
     if focus == "examples":
         return f"{key} makes the argument visible in practice."
     if focus == "mapping":
-        return f"{key} {need_verb_for_heading(key)} a map, not a heap of labels."
+        return f"{key} {need_verb_for_heading(key)} an order the reader can use."
     if focus == "argument":
         return f"{key} is where the argument has to earn its keep."
     if focus == "definition":
-        return f"{key} {need_verb_for_heading(key)} a definition that changes judgment."
+        return f"{key} {need_verb_for_heading(key)} a definition that can sort hard cases."
     if any(term in lowered for term in ("list", "table", "scores", "percentages", "estimates")):
-        return f"{key} {need_verb_for_heading(key)} structure before it can persuade."
+        return f"{key} {need_verb_for_heading(key)} visible structure before it can persuade."
     return f"{key} is the hinge the section has to make usable."
 
 
@@ -2074,7 +2074,7 @@ def label_role(label: str) -> str:
         return "a structural move"
     if any(term in lowered for term in ("reason", "argument", "rationale")):
         return "a supporting reason"
-    return "a distinct part of the argument"
+    return "a load-bearing piece"
 
 
 def source_sentence_is_incomplete(text: str) -> bool:
@@ -3684,7 +3684,7 @@ def prompt_heading(prompt: str, topic: str) -> str:
     if focus == "dialogue":
         return f"The exchange has to make {topic} answerable to interruption."
     if focus == "description":
-        return f"{key} {need_verb_for_heading(key)} a description with usable criteria."
+        return f"{key} {need_verb_for_heading(key)} criteria the reader can apply."
     if focus == "examples":
         return f"The examples have to make {topic} visible in practice."
     if focus == "mapping":
@@ -3693,7 +3693,12 @@ def prompt_heading(prompt: str, topic: str) -> str:
         return f"The argument about {topic} has to expose the contested premise."
     if focus == "definition":
         return f"A definition of {topic} has to classify hard cases."
-    return f"{topic} has to become usable in judgment, not merely familiar."
+    topic_for_heading = topic
+    if re.match(r"^(are|can|could|did|do|does|how|is|should|what|when|where|why)\b", topic, re.IGNORECASE):
+        return "The practical task is making this question usable in judgment."
+    if topic_for_heading.startswith("The "):
+        topic_for_heading = "the " + topic_for_heading[4:]
+    return f"The practical task is making {topic_for_heading} usable in judgment."
 
 
 def prompt_response_paragraphs(page: dict, prompt: str, index: int, detail: dict | None = None) -> list[str]:
@@ -3703,29 +3708,43 @@ def prompt_response_paragraphs(page: dict, prompt: str, index: int, detail: dict
     labels = source_detail_labels(detail)
     claim = first_source_claim(detail)
 
+    def pressure_sentence(key_text: str) -> str:
+        if key_text in {"the central question", "the opening question", "the opening pressure", "this question"}:
+            if re.match(r"^(are|can|could|did|do|does|how|is|should|what|when|where|why)\b", topic, re.IGNORECASE):
+                return "The opening pressure is to make this question clear enough to survive disagreement."
+            return f"The opening pressure is to make {topic} clear enough to survive disagreement."
+        return f"The pressure point is {key_text}: this is where {topic} has to become clear enough to survive disagreement."
+
     if detail and (labels or claim):
         paragraphs = []
         if labels:
-            roles = [f"{label} as {label_role(label)}" for label in labels[:3]]
-            paragraphs.append(
-                f"The response moves through {serial_join(roles)}. "
-                f"That sequence matters because it prevents {topic} from collapsing into a single slogan or isolated definition."
-            )
+            clean_labels = [clean_text(label).strip(" .:") for label in labels[:3]]
+            roles = [f"{label} as {label_role(label)}" for label in clean_labels]
+            if all(label_role(label) == "a load-bearing piece" for label in clean_labels):
+                paragraphs.append(
+                    f"The section separates {len(clean_labels)} load-bearing pieces: {serial_join(clean_labels)}. "
+                    "That order matters because readers learn the topic only when its parts are kept in relation rather than pressed into one slogan."
+                )
+            else:
+                paragraphs.append(
+                    f"The section works by separating {serial_join(roles)}. "
+                    "That order matters because readers learn the topic only when its parts are kept in relation rather than pressed into one slogan."
+                )
         else:
             key = short_prompt_key(prompt, topic)
             key_text = clean_discussion_key(key, topic)
             if command_like_key(key_text):
                 key_text = semantic_hook_items(page, prompt, detail)[0]
-            paragraphs.append(
-                f"The response centers on {key_text}, treating it as the place where {topic} needs careful reconstruction rather than quick agreement."
-            )
+            paragraphs.append(pressure_sentence(key_text))
 
         if claim:
             paragraphs.append(f"The central claim is this: {claim}")
 
         if len(labels) >= 2:
+            first_label = clean_text(labels[0]).strip(" .:")
+            second_label = clean_text(labels[1]).strip(" .:")
             paragraphs.append(
-                f"The important discipline is to keep {labels[0]} distinct from {labels[1]}. "
+                f"The important discipline is to keep {first_label} distinct from {second_label}. "
                 f"Each does different work, and merging them would make the page easier to summarize but less useful for judgment."
             )
         else:
@@ -4352,7 +4371,7 @@ def exceptional_editorial_paragraph(page: dict, prompt: str, focus: str) -> str:
         )
     return (
         f"The exceptional version of this answer should leave the reader with a sharper question than the one they brought in. "
-        f"If {key_text} cannot change the next inquiry, it is probably decorative rather than load-bearing."
+        f"If {key_text} cannot guide the next inquiry, the section has not yet earned its place."
     )
 
 
@@ -5233,19 +5252,61 @@ def normalize_dialogue_speaker(speaker: str, text: str) -> str:
     lowered = text_clean.lower()
     if 1800 <= number <= 2100:
         return f"Year {speaker_number}"
-    if lowered.startswith(("what ", "how ", "why ", "which ", "who ", "when ", "where ", "provide ", "give ", "name ", "list ", "briefly ", "according ", "in the context ")):
+    if lowered.endswith("?") or lowered.startswith(("what ", "how ", "why ", "which ", "who ", "when ", "where ", "provide ", "give ", "name ", "list ", "briefly ", "according ", "in the context ", "in what ", "in which ", "describe ", "explain ", "summarize ")):
         return f"Question {speaker_number}"
     if lowered.startswith(("chatgpt says", "gemini says", "claude says", "gpt says")):
         return f"Exchange {speaker_number}"
-    if re.search(r"\s[–-]\s", text_clean[:120]):
+    if re.search(r"\s[–-]\s", text_clean[:120]) or (
+        1 <= number <= 5
+        and lowered.startswith((
+            "the system",
+            "most claims",
+            "some core",
+            "few claims",
+            "no established",
+            "demonstrates",
+            "generates",
+            "provides some",
+            "offers minimal",
+            "experiments",
+            "findings",
+            "generally accepted",
+            "mixed consensus",
+        ))
+    ):
         return f"Score {speaker_number}"
     return f"Example {speaker_number}"
+
+
+def dialogue_card_kind(turns: list[dict]) -> str:
+    labels = [
+        normalize_dialogue_speaker(clean_text(turn.get("speaker", "")), clean_text(turn.get("text", "")))
+        for turn in turns
+        if clean_text(turn.get("text", ""))
+    ]
+    if not labels:
+        return ""
+    if sum(label.startswith("Question ") for label in labels) >= max(2, len(labels) // 2):
+        return "questions"
+    if sum(label.startswith("Score ") for label in labels) >= max(2, len(labels) // 2):
+        return "scores"
+    if sum(label.startswith("Year ") for label in labels) >= max(2, len(labels) // 2):
+        return "timeline"
+    if sum(label.startswith("Exchange ") for label in labels) >= max(2, len(labels) // 2):
+        return "exchanges"
+    if sum(label.startswith("Example ") for label in labels) >= max(2, len(labels) // 2):
+        return "examples"
+    synthetic_count = sum(bool(re.match(r"^(Question|Example|Score|Year|Exchange) \d+$", label)) for label in labels)
+    if synthetic_count:
+        return "mixed"
+    return ""
 
 
 def render_dialogue_card(turns: list[dict], philosopher: str) -> str:
     if not turns:
         return ""
     rendered_turns = []
+    kind = dialogue_card_kind(turns)
     for index, turn in enumerate(turns):
         speaker = clean_text(turn.get("speaker", "Interlocutor"))
         text = clean_text(turn.get("text", ""))
@@ -5264,7 +5325,10 @@ def render_dialogue_card(turns: list[dict], philosopher: str) -> str:
         )
     if not rendered_turns:
         return ""
-    return "\n              <div class=\"dialogue-card\">\n" + "\n".join(rendered_turns) + "\n              </div>"
+    card_class = "dialogue-card"
+    if kind:
+        card_class += f" detail-card detail-card--{kind}"
+    return f"\n              <div class=\"{card_class}\">\n" + "\n".join(rendered_turns) + "\n              </div>"
 
 
 QUIZ_OVERRIDES = {
