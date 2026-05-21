@@ -2,10 +2,10 @@
 
 Generated: 2026-05-20
 
-Tracked prompt-response sections: 1785
-Average score: 99.5
+Tracked prompt-response sections: 1885
+Average score: 99.6
 Needs review: 0 (0.0%)
-Exceptional gap-fill backlog: 300 (16.8%)
+Exceptional gap-fill backlog: 400 (21.2%)
 
 ## Editorial Audit
 
@@ -15,7 +15,7 @@ Pattern issues found: 0
 
 | Branch | Avg | Needs Review | Gap Fill | Exceptional | Strong | Good | Developing | Thin |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Philosophers | 98.8 | 0/216 | 216/216 | 188 | 28 | 0 | 0 | 0 |
+| Philosophers | 99.2 | 0/316 | 316/316 | 288 | 28 | 0 | 0 | 0 |
 | Rational Thought | 99.4 | 0/182 | 5/182 | 170 | 12 | 0 | 0 | 0 |
 | Epistemology | 99.5 | 0/263 | 29/263 | 244 | 19 | 0 | 0 | 0 |
 | Humanistic Philosophies | 99.5 | 0/79 | 2/79 | 74 | 5 | 0 | 0 | 0 |
@@ -138,6 +138,10 @@ Pattern issues found: 0
 - `exceptional` 100 [Philosophers / Ancient Philosophers#prompt-1](../philosophers/ancient-philosophers/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 100 [Philosophers / Ancient Philosophers#prompt-2](../philosophers/ancient-philosophers/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 100 [Philosophers / Ancient Philosophers#prompt-3](../philosophers/ancient-philosophers/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Anselm of Canterbury#prompt-1](../philosophers/anselm-of-canterbury/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Anselm of Canterbury#prompt-2](../philosophers/anselm-of-canterbury/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Anselm of Canterbury#prompt-3](../philosophers/anselm-of-canterbury/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Anselm of Canterbury#prompt-4](../philosophers/anselm-of-canterbury/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 100 [Philosophers / Aquinas’ Five Ways#prompt-1](../philosophers/aquinas-five-ways/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 100 [Philosophers / Aquinas’ Five Ways#prompt-2](../philosophers/aquinas-five-ways/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 100 [Philosophers / Aquinas’ Five Ways#prompt-3](../philosophers/aquinas-five-ways/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
@@ -148,6 +152,18 @@ Pattern issues found: 0
 - `exceptional` 100 [Philosophers / At the Edge of Miracles#prompt-2](../philosophers/at-the-edge-of-miracles/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 100 [Philosophers / At the Edge of Miracles#prompt-3](../philosophers/at-the-edge-of-miracles/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 100 [Philosophers / At the Edge of Miracles#prompt-4](../philosophers/at-the-edge-of-miracles/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Augustine of Hippo#prompt-1](../philosophers/augustine-of-hippo/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Augustine of Hippo#prompt-2](../philosophers/augustine-of-hippo/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Augustine of Hippo#prompt-3](../philosophers/augustine-of-hippo/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Augustine of Hippo#prompt-4](../philosophers/augustine-of-hippo/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Averroes#prompt-1](../philosophers/averroes/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Averroes#prompt-2](../philosophers/averroes/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Averroes#prompt-3](../philosophers/averroes/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Averroes#prompt-4](../philosophers/averroes/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Avicenna#prompt-1](../philosophers/avicenna/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Avicenna#prompt-2](../philosophers/avicenna/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Avicenna#prompt-3](../philosophers/avicenna/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Avicenna#prompt-4](../philosophers/avicenna/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 100 [Philosophers / Baruch Spinoza#prompt-2](../philosophers/baruch-spinoza/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 100 [Philosophers / Baruch Spinoza#prompt-3](../philosophers/baruch-spinoza/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 100 [Philosophers / Baruch Spinoza#prompt-4](../philosophers/baruch-spinoza/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
@@ -157,32 +173,16 @@ Pattern issues found: 0
 - `exceptional` 100 [Philosophers / Charles Sanders Peirce#prompt-2](../philosophers/charles-sanders-peirce/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 100 [Philosophers / Charles Sanders Peirce#prompt-3](../philosophers/charles-sanders-peirce/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 100 [Philosophers / Charles Sanders Peirce#prompt-4](../philosophers/charles-sanders-peirce/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Confucius#prompt-1](../philosophers/confucius/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Confucius#prompt-2](../philosophers/confucius/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Confucius#prompt-3](../philosophers/confucius/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Confucius#prompt-4](../philosophers/confucius/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 100 [Philosophers / Continental Philosophers#prompt-1](../philosophers/continental-philosophers/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 100 [Philosophers / Continental Philosophers#prompt-2](../philosophers/continental-philosophers/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 100 [Philosophers / Continental Philosophers#prompt-3](../philosophers/continental-philosophers/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 100 [Philosophers / Critical Theorists#prompt-1](../philosophers/critical-theorists/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 100 [Philosophers / Critical Theorists#prompt-2](../philosophers/critical-theorists/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 100 [Philosophers / Critical Theorists#prompt-3](../philosophers/critical-theorists/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
-- `exceptional` 100 [Philosophers / Daniel Dennett#prompt-2](../philosophers/daniel-dennett/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
-- `exceptional` 100 [Philosophers / Daniel Dennett#prompt-3](../philosophers/daniel-dennett/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
-- `exceptional` 100 [Philosophers / Daniel Dennett#prompt-4](../philosophers/daniel-dennett/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
-- `exceptional` 100 [Philosophers / David Hume#prompt-2](../philosophers/david-hume/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
-- `exceptional` 100 [Philosophers / David Hume#prompt-3](../philosophers/david-hume/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
-- `exceptional` 100 [Philosophers / David Hume#prompt-4](../philosophers/david-hume/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
-- `exceptional` 100 [Philosophers / Duns Scotus#prompt-2](../philosophers/duns-scotus/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
-- `exceptional` 100 [Philosophers / Duns Scotus#prompt-3](../philosophers/duns-scotus/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
-- `exceptional` 100 [Philosophers / Duns Scotus#prompt-4](../philosophers/duns-scotus/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
-- `exceptional` 100 [Philosophers / Edmund Husserl#prompt-2](../philosophers/edmund-husserl/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
-- `exceptional` 100 [Philosophers / Edmund Husserl#prompt-3](../philosophers/edmund-husserl/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
-- `exceptional` 100 [Philosophers / Edmund Husserl#prompt-4](../philosophers/edmund-husserl/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
-- `exceptional` 100 [Philosophers / Empiricists#prompt-1](../philosophers/empiricists/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
-- `exceptional` 100 [Philosophers / Empiricists#prompt-2](../philosophers/empiricists/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
-- `exceptional` 100 [Philosophers / Empiricists#prompt-3](../philosophers/empiricists/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
-- `exceptional` 100 [Philosophers / Epictetus#prompt-2](../philosophers/epictetus/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
-- `exceptional` 100 [Philosophers / Epictetus#prompt-3](../philosophers/epictetus/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
-- `exceptional` 100 [Philosophers / Epictetus#prompt-4](../philosophers/epictetus/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
-- `exceptional` 100 [Philosophers / Epicurus#prompt-2](../philosophers/epicurus/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
-- `exceptional` 100 [Philosophers / Epicurus#prompt-3](../philosophers/epicurus/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 
 ## Weakest Sections
 

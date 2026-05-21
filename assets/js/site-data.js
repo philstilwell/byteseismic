@@ -688,6 +688,15 @@ window.BYTESEISMIC_DATA = {
     "Epicurus": "/philosophers/epicurus/",
     "Dialoguing with Epicurus": "/philosophers/dialoguing-with-epicurus/",
     "Charting Epicurus": "/philosophers/charting-epicurus/",
+    "Heraclitus": "/philosophers/heraclitus/",
+    "Dialoguing with Heraclitus": "/philosophers/dialoguing-with-heraclitus/",
+    "Charting Heraclitus": "/philosophers/charting-heraclitus/",
+    "Parmenides": "/philosophers/parmenides/",
+    "Dialoguing with Parmenides": "/philosophers/dialoguing-with-parmenides/",
+    "Charting Parmenides": "/philosophers/charting-parmenides/",
+    "Plotinus": "/philosophers/plotinus/",
+    "Dialoguing with Plotinus": "/philosophers/dialoguing-with-plotinus/",
+    "Charting Plotinus": "/philosophers/charting-plotinus/",
     "Rationalists": "/philosophers/rationalists/",
     "René Descartes": "/philosophers/rene-descartes/",
     "Dialoguing with Descartes": "/philosophers/dialoguing-with-descartes/",
@@ -736,6 +745,18 @@ window.BYTESEISMIC_DATA = {
     "Charting Dennett": "/philosophers/charting-dennett/",
     "Willard Van Orman Quine": "/philosophers/willard-van-orman-quine/",
     "Charting Quine": "/philosophers/charting-quine/",
+    "Gottlob Frege": "/philosophers/gottlob-frege/",
+    "Dialoguing with Gottlob Frege": "/philosophers/dialoguing-with-gottlob-frege/",
+    "Charting Gottlob Frege": "/philosophers/charting-gottlob-frege/",
+    "G.E. Moore": "/philosophers/g-e-moore/",
+    "Dialoguing with G.E. Moore": "/philosophers/dialoguing-with-g-e-moore/",
+    "Charting G.E. Moore": "/philosophers/charting-g-e-moore/",
+    "Elizabeth Anscombe": "/philosophers/elizabeth-anscombe/",
+    "Dialoguing with Elizabeth Anscombe": "/philosophers/dialoguing-with-elizabeth-anscombe/",
+    "Charting Elizabeth Anscombe": "/philosophers/charting-elizabeth-anscombe/",
+    "Saul Kripke": "/philosophers/saul-kripke/",
+    "Dialoguing with Saul Kripke": "/philosophers/dialoguing-with-saul-kripke/",
+    "Charting Saul Kripke": "/philosophers/charting-saul-kripke/",
     "Continental Philosophers": "/philosophers/continental-philosophers/",
     "Georg Wilhelm Friedrich Hegel": "/philosophers/georg-wilhelm-friedrich-hegel/",
     "Dialoguing with Hegel": "/philosophers/dialoguing-with-hegel/",
@@ -749,6 +770,9 @@ window.BYTESEISMIC_DATA = {
     "Michel Foucault": "/philosophers/michel-foucault/",
     "Dialoguing with Foucault": "/philosophers/dialoguing-with-foucault/",
     "Charting Foucault": "/philosophers/charting-foucault/",
+    "Hannah Arendt": "/philosophers/hannah-arendt/",
+    "Dialoguing with Hannah Arendt": "/philosophers/dialoguing-with-hannah-arendt/",
+    "Charting Hannah Arendt": "/philosophers/charting-hannah-arendt/",
     "Existentialists": "/philosophers/existentialists/",
     "Søren Kierkegaard": "/philosophers/soren-kierkegaard/",
     "Dialoguing with Kierkegaard": "/philosophers/dialoguing-with-kierkegaard/",
@@ -789,14 +813,73 @@ window.BYTESEISMIC_DATA = {
     "Dialoguing with Duns Scotus": "/philosophers/dialoguing-with-duns-scotus/",
     "Charting Duns Scotus": "/philosophers/charting-duns-scotus/",
     "William of Ockham": "/philosophers/william-of-ockham/",
+    "Dialoguing with William of Ockham": "/philosophers/dialoguing-with-william-of-ockham/",
+    "Charting William of Ockham": "/philosophers/charting-william-of-ockham/",
+    "Augustine of Hippo": "/philosophers/augustine-of-hippo/",
+    "Dialoguing with Augustine": "/philosophers/dialoguing-with-augustine/",
+    "Charting Augustine": "/philosophers/charting-augustine/",
+    "Anselm of Canterbury": "/philosophers/anselm-of-canterbury/",
+    "Dialoguing with Anselm": "/philosophers/dialoguing-with-anselm/",
+    "Charting Anselm": "/philosophers/charting-anselm/",
     "Critical Theorists": "/philosophers/critical-theorists/",
     "Theodor W. Adorno": "/philosophers/theodor-w-adorno/",
     "Dialoguing with Adorno": "/philosophers/dialoguing-with-adorno/",
     "Charting Adorno": "/philosophers/charting-adorno/",
     "Jurgen Habermas": "/philosophers/jurgen-habermas/",
+    "Dialoguing with Habermas": "/philosophers/dialoguing-with-habermas/",
+    "Charting Habermas": "/philosophers/charting-habermas/",
     "Herbert Marcuse": "/philosophers/herbert-marcuse/",
     "Dialoguing with Marcuse": "/philosophers/dialoguing-with-marcuse/",
     "Charting Marcuse": "/philosophers/charting-marcuse/",
+    "Walter Benjamin": "/philosophers/walter-benjamin/",
+    "Dialoguing with Walter Benjamin": "/philosophers/dialoguing-with-walter-benjamin/",
+    "Charting Walter Benjamin": "/philosophers/charting-walter-benjamin/",
+    "Islamic and Jewish Philosophers": "/philosophers/islamic-and-jewish-philosophers/",
+    "Avicenna": "/philosophers/avicenna/",
+    "Dialoguing with Avicenna": "/philosophers/dialoguing-with-avicenna/",
+    "Charting Avicenna": "/philosophers/charting-avicenna/",
+    "Averroes": "/philosophers/averroes/",
+    "Dialoguing with Averroes": "/philosophers/dialoguing-with-averroes/",
+    "Charting Averroes": "/philosophers/charting-averroes/",
+    "Maimonides": "/philosophers/maimonides/",
+    "Dialoguing with Maimonides": "/philosophers/dialoguing-with-maimonides/",
+    "Charting Maimonides": "/philosophers/charting-maimonides/",
+    "Political Philosophers": "/philosophers/political-philosophers/",
+    "Niccolo Machiavelli": "/philosophers/niccolo-machiavelli/",
+    "Dialoguing with Machiavelli": "/philosophers/dialoguing-with-machiavelli/",
+    "Charting Machiavelli": "/philosophers/charting-machiavelli/",
+    "Jean-Jacques Rousseau": "/philosophers/jean-jacques-rousseau/",
+    "Dialoguing with Rousseau": "/philosophers/dialoguing-with-rousseau/",
+    "Charting Rousseau": "/philosophers/charting-rousseau/",
+    "John Stuart Mill": "/philosophers/john-stuart-mill/",
+    "Dialoguing with John Stuart Mill": "/philosophers/dialoguing-with-john-stuart-mill/",
+    "Charting John Stuart Mill": "/philosophers/charting-john-stuart-mill/",
+    "John Rawls": "/philosophers/john-rawls/",
+    "Dialoguing with John Rawls": "/philosophers/dialoguing-with-john-rawls/",
+    "Charting John Rawls": "/philosophers/charting-john-rawls/",
+    "Feminist Philosophers": "/philosophers/feminist-philosophers/",
+    "Mary Wollstonecraft": "/philosophers/mary-wollstonecraft/",
+    "Dialoguing with Mary Wollstonecraft": "/philosophers/dialoguing-with-mary-wollstonecraft/",
+    "Charting Mary Wollstonecraft": "/philosophers/charting-mary-wollstonecraft/",
+    "Judith Butler": "/philosophers/judith-butler/",
+    "Dialoguing with Judith Butler": "/philosophers/dialoguing-with-judith-butler/",
+    "Charting Judith Butler": "/philosophers/charting-judith-butler/",
+    "Non-Western Philosophers": "/philosophers/non-western-philosophers/",
+    "Confucius": "/philosophers/confucius/",
+    "Dialoguing with Confucius": "/philosophers/dialoguing-with-confucius/",
+    "Charting Confucius": "/philosophers/charting-confucius/",
+    "Laozi": "/philosophers/laozi/",
+    "Dialoguing with Laozi": "/philosophers/dialoguing-with-laozi/",
+    "Charting Laozi": "/philosophers/charting-laozi/",
+    "Zhuangzi": "/philosophers/zhuangzi/",
+    "Dialoguing with Zhuangzi": "/philosophers/dialoguing-with-zhuangzi/",
+    "Charting Zhuangzi": "/philosophers/charting-zhuangzi/",
+    "Mencius": "/philosophers/mencius/",
+    "Dialoguing with Mencius": "/philosophers/dialoguing-with-mencius/",
+    "Charting Mencius": "/philosophers/charting-mencius/",
+    "Nagarjuna": "/philosophers/nagarjuna/",
+    "Dialoguing with Nagarjuna": "/philosophers/dialoguing-with-nagarjuna/",
+    "Charting Nagarjuna": "/philosophers/charting-nagarjuna/",
     "What is Axiology?": "/miscellany/what-is-axiology/",
     "Domains of Aesthetics": "/miscellany/domains-of-aesthetics/",
     "The Historical Method": "/miscellany/the-historical-method/",
@@ -2958,7 +3041,7 @@ window.BYTESEISMIC_DATA = {
         "Dialoguing with Socrates",
         "Charting Socrates"
       ],
-      "topicCount": 130,
+      "topicCount": 213,
       "futureTags": [
         "socrates",
         "plato",
@@ -3043,6 +3126,48 @@ window.BYTESEISMIC_DATA = {
                 {
                   "title": "Charting Epicurus",
                   "path": "/philosophers/charting-epicurus/"
+                }
+              ]
+            },
+            {
+              "title": "Heraclitus",
+              "path": "/philosophers/heraclitus/",
+              "children": [
+                {
+                  "title": "Dialoguing with Heraclitus",
+                  "path": "/philosophers/dialoguing-with-heraclitus/"
+                },
+                {
+                  "title": "Charting Heraclitus",
+                  "path": "/philosophers/charting-heraclitus/"
+                }
+              ]
+            },
+            {
+              "title": "Parmenides",
+              "path": "/philosophers/parmenides/",
+              "children": [
+                {
+                  "title": "Dialoguing with Parmenides",
+                  "path": "/philosophers/dialoguing-with-parmenides/"
+                },
+                {
+                  "title": "Charting Parmenides",
+                  "path": "/philosophers/charting-parmenides/"
+                }
+              ]
+            },
+            {
+              "title": "Plotinus",
+              "path": "/philosophers/plotinus/",
+              "children": [
+                {
+                  "title": "Dialoguing with Plotinus",
+                  "path": "/philosophers/dialoguing-with-plotinus/"
+                },
+                {
+                  "title": "Charting Plotinus",
+                  "path": "/philosophers/charting-plotinus/"
                 }
               ]
             }
@@ -3283,6 +3408,62 @@ window.BYTESEISMIC_DATA = {
                   "path": "/philosophers/charting-quine/"
                 }
               ]
+            },
+            {
+              "title": "Gottlob Frege",
+              "path": "/philosophers/gottlob-frege/",
+              "children": [
+                {
+                  "title": "Dialoguing with Gottlob Frege",
+                  "path": "/philosophers/dialoguing-with-gottlob-frege/"
+                },
+                {
+                  "title": "Charting Gottlob Frege",
+                  "path": "/philosophers/charting-gottlob-frege/"
+                }
+              ]
+            },
+            {
+              "title": "G.E. Moore",
+              "path": "/philosophers/g-e-moore/",
+              "children": [
+                {
+                  "title": "Dialoguing with G.E. Moore",
+                  "path": "/philosophers/dialoguing-with-g-e-moore/"
+                },
+                {
+                  "title": "Charting G.E. Moore",
+                  "path": "/philosophers/charting-g-e-moore/"
+                }
+              ]
+            },
+            {
+              "title": "Elizabeth Anscombe",
+              "path": "/philosophers/elizabeth-anscombe/",
+              "children": [
+                {
+                  "title": "Dialoguing with Elizabeth Anscombe",
+                  "path": "/philosophers/dialoguing-with-elizabeth-anscombe/"
+                },
+                {
+                  "title": "Charting Elizabeth Anscombe",
+                  "path": "/philosophers/charting-elizabeth-anscombe/"
+                }
+              ]
+            },
+            {
+              "title": "Saul Kripke",
+              "path": "/philosophers/saul-kripke/",
+              "children": [
+                {
+                  "title": "Dialoguing with Saul Kripke",
+                  "path": "/philosophers/dialoguing-with-saul-kripke/"
+                },
+                {
+                  "title": "Charting Saul Kripke",
+                  "path": "/philosophers/charting-saul-kripke/"
+                }
+              ]
             }
           ]
         },
@@ -3343,6 +3524,20 @@ window.BYTESEISMIC_DATA = {
                 {
                   "title": "Charting Foucault",
                   "path": "/philosophers/charting-foucault/"
+                }
+              ]
+            },
+            {
+              "title": "Hannah Arendt",
+              "path": "/philosophers/hannah-arendt/",
+              "children": [
+                {
+                  "title": "Dialoguing with Hannah Arendt",
+                  "path": "/philosophers/dialoguing-with-hannah-arendt/"
+                },
+                {
+                  "title": "Charting Hannah Arendt",
+                  "path": "/philosophers/charting-hannah-arendt/"
                 }
               ]
             }
@@ -3544,7 +3739,45 @@ window.BYTESEISMIC_DATA = {
             },
             {
               "title": "William of Ockham",
-              "path": "/philosophers/william-of-ockham/"
+              "path": "/philosophers/william-of-ockham/",
+              "children": [
+                {
+                  "title": "Dialoguing with William of Ockham",
+                  "path": "/philosophers/dialoguing-with-william-of-ockham/"
+                },
+                {
+                  "title": "Charting William of Ockham",
+                  "path": "/philosophers/charting-william-of-ockham/"
+                }
+              ]
+            },
+            {
+              "title": "Augustine of Hippo",
+              "path": "/philosophers/augustine-of-hippo/",
+              "children": [
+                {
+                  "title": "Dialoguing with Augustine",
+                  "path": "/philosophers/dialoguing-with-augustine/"
+                },
+                {
+                  "title": "Charting Augustine",
+                  "path": "/philosophers/charting-augustine/"
+                }
+              ]
+            },
+            {
+              "title": "Anselm of Canterbury",
+              "path": "/philosophers/anselm-of-canterbury/",
+              "children": [
+                {
+                  "title": "Dialoguing with Anselm",
+                  "path": "/philosophers/dialoguing-with-anselm/"
+                },
+                {
+                  "title": "Charting Anselm",
+                  "path": "/philosophers/charting-anselm/"
+                }
+              ]
             }
           ]
         },
@@ -3568,7 +3801,17 @@ window.BYTESEISMIC_DATA = {
             },
             {
               "title": "Jurgen Habermas",
-              "path": "/philosophers/jurgen-habermas/"
+              "path": "/philosophers/jurgen-habermas/",
+              "children": [
+                {
+                  "title": "Dialoguing with Habermas",
+                  "path": "/philosophers/dialoguing-with-habermas/"
+                },
+                {
+                  "title": "Charting Habermas",
+                  "path": "/philosophers/charting-habermas/"
+                }
+              ]
             },
             {
               "title": "Herbert Marcuse",
@@ -3581,6 +3824,240 @@ window.BYTESEISMIC_DATA = {
                 {
                   "title": "Charting Marcuse",
                   "path": "/philosophers/charting-marcuse/"
+                }
+              ]
+            },
+            {
+              "title": "Walter Benjamin",
+              "path": "/philosophers/walter-benjamin/",
+              "children": [
+                {
+                  "title": "Dialoguing with Walter Benjamin",
+                  "path": "/philosophers/dialoguing-with-walter-benjamin/"
+                },
+                {
+                  "title": "Charting Walter Benjamin",
+                  "path": "/philosophers/charting-walter-benjamin/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Islamic and Jewish Philosophers",
+          "path": "/philosophers/islamic-and-jewish-philosophers/",
+          "children": [
+            {
+              "title": "Avicenna",
+              "path": "/philosophers/avicenna/",
+              "children": [
+                {
+                  "title": "Dialoguing with Avicenna",
+                  "path": "/philosophers/dialoguing-with-avicenna/"
+                },
+                {
+                  "title": "Charting Avicenna",
+                  "path": "/philosophers/charting-avicenna/"
+                }
+              ]
+            },
+            {
+              "title": "Averroes",
+              "path": "/philosophers/averroes/",
+              "children": [
+                {
+                  "title": "Dialoguing with Averroes",
+                  "path": "/philosophers/dialoguing-with-averroes/"
+                },
+                {
+                  "title": "Charting Averroes",
+                  "path": "/philosophers/charting-averroes/"
+                }
+              ]
+            },
+            {
+              "title": "Maimonides",
+              "path": "/philosophers/maimonides/",
+              "children": [
+                {
+                  "title": "Dialoguing with Maimonides",
+                  "path": "/philosophers/dialoguing-with-maimonides/"
+                },
+                {
+                  "title": "Charting Maimonides",
+                  "path": "/philosophers/charting-maimonides/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Political Philosophers",
+          "path": "/philosophers/political-philosophers/",
+          "children": [
+            {
+              "title": "Niccolo Machiavelli",
+              "path": "/philosophers/niccolo-machiavelli/",
+              "children": [
+                {
+                  "title": "Dialoguing with Machiavelli",
+                  "path": "/philosophers/dialoguing-with-machiavelli/"
+                },
+                {
+                  "title": "Charting Machiavelli",
+                  "path": "/philosophers/charting-machiavelli/"
+                }
+              ]
+            },
+            {
+              "title": "Jean-Jacques Rousseau",
+              "path": "/philosophers/jean-jacques-rousseau/",
+              "children": [
+                {
+                  "title": "Dialoguing with Rousseau",
+                  "path": "/philosophers/dialoguing-with-rousseau/"
+                },
+                {
+                  "title": "Charting Rousseau",
+                  "path": "/philosophers/charting-rousseau/"
+                }
+              ]
+            },
+            {
+              "title": "John Stuart Mill",
+              "path": "/philosophers/john-stuart-mill/",
+              "children": [
+                {
+                  "title": "Dialoguing with John Stuart Mill",
+                  "path": "/philosophers/dialoguing-with-john-stuart-mill/"
+                },
+                {
+                  "title": "Charting John Stuart Mill",
+                  "path": "/philosophers/charting-john-stuart-mill/"
+                }
+              ]
+            },
+            {
+              "title": "John Rawls",
+              "path": "/philosophers/john-rawls/",
+              "children": [
+                {
+                  "title": "Dialoguing with John Rawls",
+                  "path": "/philosophers/dialoguing-with-john-rawls/"
+                },
+                {
+                  "title": "Charting John Rawls",
+                  "path": "/philosophers/charting-john-rawls/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Feminist Philosophers",
+          "path": "/philosophers/feminist-philosophers/",
+          "children": [
+            {
+              "title": "Mary Wollstonecraft",
+              "path": "/philosophers/mary-wollstonecraft/",
+              "children": [
+                {
+                  "title": "Dialoguing with Mary Wollstonecraft",
+                  "path": "/philosophers/dialoguing-with-mary-wollstonecraft/"
+                },
+                {
+                  "title": "Charting Mary Wollstonecraft",
+                  "path": "/philosophers/charting-mary-wollstonecraft/"
+                }
+              ]
+            },
+            {
+              "title": "Judith Butler",
+              "path": "/philosophers/judith-butler/",
+              "children": [
+                {
+                  "title": "Dialoguing with Judith Butler",
+                  "path": "/philosophers/dialoguing-with-judith-butler/"
+                },
+                {
+                  "title": "Charting Judith Butler",
+                  "path": "/philosophers/charting-judith-butler/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Non-Western Philosophers",
+          "path": "/philosophers/non-western-philosophers/",
+          "children": [
+            {
+              "title": "Confucius",
+              "path": "/philosophers/confucius/",
+              "children": [
+                {
+                  "title": "Dialoguing with Confucius",
+                  "path": "/philosophers/dialoguing-with-confucius/"
+                },
+                {
+                  "title": "Charting Confucius",
+                  "path": "/philosophers/charting-confucius/"
+                }
+              ]
+            },
+            {
+              "title": "Laozi",
+              "path": "/philosophers/laozi/",
+              "children": [
+                {
+                  "title": "Dialoguing with Laozi",
+                  "path": "/philosophers/dialoguing-with-laozi/"
+                },
+                {
+                  "title": "Charting Laozi",
+                  "path": "/philosophers/charting-laozi/"
+                }
+              ]
+            },
+            {
+              "title": "Zhuangzi",
+              "path": "/philosophers/zhuangzi/",
+              "children": [
+                {
+                  "title": "Dialoguing with Zhuangzi",
+                  "path": "/philosophers/dialoguing-with-zhuangzi/"
+                },
+                {
+                  "title": "Charting Zhuangzi",
+                  "path": "/philosophers/charting-zhuangzi/"
+                }
+              ]
+            },
+            {
+              "title": "Mencius",
+              "path": "/philosophers/mencius/",
+              "children": [
+                {
+                  "title": "Dialoguing with Mencius",
+                  "path": "/philosophers/dialoguing-with-mencius/"
+                },
+                {
+                  "title": "Charting Mencius",
+                  "path": "/philosophers/charting-mencius/"
+                }
+              ]
+            },
+            {
+              "title": "Nagarjuna",
+              "path": "/philosophers/nagarjuna/",
+              "children": [
+                {
+                  "title": "Dialoguing with Nagarjuna",
+                  "path": "/philosophers/dialoguing-with-nagarjuna/"
+                },
+                {
+                  "title": "Charting Nagarjuna",
+                  "path": "/philosophers/charting-nagarjuna/"
                 }
               ]
             }

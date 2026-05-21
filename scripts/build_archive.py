@@ -185,6 +185,465 @@ FEATURED_PAGE_SPECS = [
         "path": "/philosophers/dialoguing-with-merleau-ponty/",
     },
 ]
+
+
+def philosopher_leaf(title: str) -> dict:
+    return {"title": title, "href": "", "children": []}
+
+
+def philosopher_triad(title: str, dialogue_name: str | None = None, chart_name: str | None = None) -> dict:
+    dialogue_name = dialogue_name or title
+    chart_name = chart_name or title
+    return {
+        "title": title,
+        "href": "",
+        "children": [
+            philosopher_leaf(f"Dialoguing with {dialogue_name}"),
+            philosopher_leaf(f"Charting {chart_name}"),
+        ],
+    }
+
+
+PHILOSOPHER_HIERARCHY_ADDITIONS = [
+    (
+        "Ancient Philosophers",
+        [
+            philosopher_triad("Heraclitus"),
+            philosopher_triad("Parmenides"),
+            philosopher_triad("Plotinus"),
+        ],
+    ),
+    (
+        "Scholastics",
+        [
+            philosopher_triad("Augustine of Hippo", "Augustine", "Augustine"),
+            philosopher_triad("Anselm of Canterbury", "Anselm", "Anselm"),
+            philosopher_triad("William of Ockham"),
+        ],
+    ),
+    (
+        "Islamic and Jewish Philosophers",
+        [
+            philosopher_triad("Avicenna"),
+            philosopher_triad("Averroes"),
+            philosopher_triad("Maimonides"),
+        ],
+    ),
+    (
+        "Analytic Philosophers",
+        [
+            philosopher_triad("Gottlob Frege"),
+            philosopher_triad("G.E. Moore"),
+            philosopher_triad("Elizabeth Anscombe"),
+            philosopher_triad("Saul Kripke"),
+        ],
+    ),
+    ("Continental Philosophers", [philosopher_triad("Hannah Arendt")]),
+    ("Critical Theorists", [philosopher_triad("Walter Benjamin"), philosopher_triad("Jurgen Habermas", "Habermas", "Habermas")]),
+    (
+        "Political Philosophers",
+        [
+            philosopher_triad("Niccolo Machiavelli", "Machiavelli", "Machiavelli"),
+            philosopher_triad("Jean-Jacques Rousseau", "Rousseau", "Rousseau"),
+            philosopher_triad("John Stuart Mill"),
+            philosopher_triad("John Rawls"),
+        ],
+    ),
+    (
+        "Feminist Philosophers",
+        [
+            philosopher_triad("Mary Wollstonecraft"),
+            philosopher_triad("Judith Butler"),
+        ],
+    ),
+    (
+        "Non-Western Philosophers",
+        [
+            philosopher_triad("Confucius"),
+            philosopher_triad("Laozi"),
+            philosopher_triad("Zhuangzi"),
+            philosopher_triad("Mencius"),
+            philosopher_triad("Nagarjuna"),
+        ],
+    ),
+]
+
+
+PHILOSOPHER_NAME_ALIASES = {
+    "Augustine": "Augustine of Hippo",
+    "Anselm": "Anselm of Canterbury",
+    "Machiavelli": "Niccolo Machiavelli",
+    "Rousseau": "Jean-Jacques Rousseau",
+    "Habermas": "Jurgen Habermas",
+}
+
+
+PHILOSOPHER_PROFILES = {
+    "Heraclitus": {
+        "period": "early Greek philosophy, before the classical systems hardened into school names",
+        "signature": "the world as ordered change, where stability is not denied but understood through tension, opposition, and transformation",
+        "method": "compressed aphoristic provocation: he does not hand the reader a doctrine so much as a spark that makes ordinary categories smoke a little",
+        "concepts": [
+            "Flux: reality is intelligible as process, not as a museum of fixed objects.",
+            "Logos: change is not mere chaos; there is an order in the conflict.",
+            "Opposition: contraries can reveal structure instead of simply canceling each other.",
+            "Wakefulness: philosophy begins when convention stops hypnotizing the reader.",
+        ],
+        "pressure": "whether a philosophy of change can avoid becoming so fluid that it cannot explain durable identity, knowledge, or law",
+        "legacy": "later metaphysics, dialectic, process philosophy, and every argument that treats tension as more revealing than static definition",
+        "begin": "Start by asking what must remain constant for change to be recognizable at all.",
+    },
+    "Parmenides": {
+        "period": "early Greek philosophy, where logic begins to bully experience in productive ways",
+        "signature": "the radical demand that thought must follow what can be coherently said of being, even when ordinary experience protests",
+        "method": "deductive pressure: he forces the reader to ask whether change, plurality, and becoming can really be thought without contradiction",
+        "concepts": [
+            "Being: what is cannot be treated as though it were also not.",
+            "The way of truth: reason presses beyond the surface traffic of appearances.",
+            "The way of opinion: ordinary experience may be practically vivid while metaphysically suspect.",
+            "Ontological discipline: intelligibility becomes a constraint on what may count as real.",
+        ],
+        "pressure": "whether rigorous logic has earned the right to dismiss the world of motion, difference, and ordinary experience",
+        "legacy": "Plato, metaphysics, modal reasoning, and the suspicion that reality may be stranger than perception can comfortably admit",
+        "begin": "Begin with the scandal: if non-being is nothing, how can change be described as something becoming what it is not?",
+    },
+    "Plotinus": {
+        "period": "late ancient philosophy, where Platonism becomes a metaphysical architecture of ascent",
+        "signature": "a graded reality flowing from the One through intellect and soul, with human life understood as return toward unity",
+        "method": "metaphysical ascent: he reasons from multiplicity toward unity, then asks how finite life can reorient itself toward its source",
+        "concepts": [
+            "The One: ultimate reality exceeds ordinary predication and conceptual grasp.",
+            "Emanation: lower levels of reality depend on higher unity without being created as separate artifacts.",
+            "Intellect: intelligible order is not an afterthought but a level of reality.",
+            "Return: ethical and contemplative life becomes a movement back toward unity.",
+        ],
+        "pressure": "whether the language of emanation explains reality or simply baptizes hierarchy in luminous metaphors",
+        "legacy": "Neoplatonism, Christian mystical theology, Islamic and Jewish metaphysics, and later accounts of beauty as ontological participation",
+        "begin": "Enter through the question of unity: why do many things appear intelligible as parts of a larger order?",
+    },
+    "Augustine of Hippo": {
+        "period": "late antiquity, where classical philosophy, Christian theology, and introspective psychology begin cross-examining one another",
+        "signature": "the restless interior life: memory, will, love, sin, and grace become philosophically serious rather than merely devotional",
+        "method": "confessional analysis: he turns inward not to avoid argument, but to make the self itself a site of metaphysical and moral evidence",
+        "concepts": [
+            "Restless desire: human longing points beyond finite satisfaction.",
+            "Memory: the self is layered, strange, and not fully transparent to itself.",
+            "Will: moral failure is not just ignorance; it involves divided love.",
+            "Time: temporal experience exposes the mind's dependence and instability.",
+        ],
+        "pressure": "whether theological interpretation clarifies the human condition or imports answers before the philosophical questions have finished speaking",
+        "legacy": "Christian philosophy, theories of the will, introspective method, philosophy of time, and the long argument over grace and freedom",
+        "begin": "Begin with divided agency: why do human beings so often know the better and still choose the worse?",
+    },
+    "Anselm of Canterbury": {
+        "period": "medieval philosophy, where faith seeks understanding through deliberately austere argument",
+        "signature": "the attempt to show that reason can unfold what devotion already trusts, especially in the ontological argument",
+        "method": "conceptual compression: he takes one carefully framed idea and tests how much metaphysical weight it can bear",
+        "concepts": [
+            "Faith seeking understanding: belief is treated as a starting point for inquiry, not a substitute for it.",
+            "Ontological argument: the concept of unsurpassable greatness is asked to disclose existence.",
+            "Divine attributes: perfection-language becomes a disciplined field of analysis.",
+            "Atonement reasoning: theology is translated into juridical and rational structure.",
+        ],
+        "pressure": "whether existence can be reached by conceptual analysis or whether the argument quietly moves from thought to reality without paying the toll",
+        "legacy": "natural theology, modal arguments, medieval scholastic method, and the recurring temptation to reason from possibility to necessity",
+        "begin": "Start with the ontological argument, but read it as a test of what concepts can and cannot do.",
+    },
+    "Avicenna": {
+        "period": "medieval Islamic philosophy, where Aristotelian science, metaphysics, and theological questions become a vast systematic project",
+        "signature": "the distinction between essence and existence, joined to a powerful account of necessary being",
+        "method": "system-building analysis: he organizes medicine, logic, psychology, and metaphysics into a hierarchy of intelligible dependence",
+        "concepts": [
+            "Essence and existence: what a thing is does not automatically explain that it is.",
+            "Necessary existent: contingent reality points toward a source whose existence is not borrowed.",
+            "Floating person: self-awareness may be known without ordinary bodily cues.",
+            "Intellect: knowing links human mind to a wider hierarchy of intelligibility.",
+        ],
+        "pressure": "whether metaphysical necessity genuinely explains existence or relocates mystery to a more abstract address",
+        "legacy": "Islamic philosophy, Latin scholasticism, metaphysics of contingency, mind-body debates, and arguments for necessary being",
+        "begin": "Begin with contingency: why does the existence of any finite thing call for explanation beyond its definition?",
+    },
+    "Averroes": {
+        "period": "medieval Andalusian philosophy, where Aristotle is defended with unusual force and clarity",
+        "signature": "the insistence that philosophical demonstration and religious interpretation must not be confused, even when they address the same world",
+        "method": "commentary as philosophical discipline: he clarifies Aristotle by separating demonstrative reasoning from dialectical or rhetorical treatment",
+        "concepts": [
+            "Demonstration: the highest form of inquiry requires disciplined proof rather than pious impression.",
+            "Philosophy and religion: apparent conflict may require interpretation rather than intellectual surrender.",
+            "Aristotelian naturalism: nature deserves explanation through its own intelligible order.",
+            "The intellect: human understanding participates in a controversial shared or universal structure.",
+        ],
+        "pressure": "whether harmonizing philosophy and revelation preserves both or forces one to become the other's interpreter-in-chief",
+        "legacy": "Latin Averroism, debates over reason and revelation, Aristotelian commentary, and the contested autonomy of philosophy",
+        "begin": "Start with the question of double accountability: what happens when demonstration and inherited authority appear to diverge?",
+    },
+    "Maimonides": {
+        "period": "medieval Jewish philosophy, where law, theology, medicine, and Aristotelian reasoning are held in demanding tension",
+        "signature": "negative theology and disciplined interpretation, refusing to let easy language about God become careless metaphysics",
+        "method": "careful concealment and guidance: he writes for readers at different levels, often teaching by tension as much as by declaration",
+        "concepts": [
+            "Negative theology: saying what God is not may be more responsible than claiming to describe divine essence.",
+            "Guide for the perplexed: philosophy addresses readers caught between tradition and reason.",
+            "Law and virtue: religious practice can train intellectual and moral formation.",
+            "Equivocal language: theological terms must be purified before they mislead the mind.",
+        ],
+        "pressure": "whether philosophical purification of religious language protects transcendence or drains religious speech of too much content",
+        "legacy": "Jewish philosophy, natural theology, negative theology, hermeneutics, and debates over esotericism",
+        "begin": "Begin with religious language: what do we think we are saying when we attribute human-style predicates to God?",
+    },
+    "Gottlob Frege": {
+        "period": "late nineteenth-century logic, where modern analytic philosophy starts sharpening its knives",
+        "signature": "the transformation of logic into a formal language capable of analyzing inference, meaning, number, and thought",
+        "method": "logical analysis: he replaces psychological association with public structures of sense, reference, function, and quantification",
+        "concepts": [
+            "Sense and reference: meaning involves both mode of presentation and object of reference.",
+            "Quantification: logical form can reveal structure hidden by ordinary grammar.",
+            "Concept-script: formal notation becomes a philosophical instrument, not just bookkeeping.",
+            "Anti-psychologism: logic is not reducible to how people happen to think.",
+        ],
+        "pressure": "whether formal clarity captures meaning or leaves behind the pragmatic and lived conditions of language",
+        "legacy": "analytic philosophy, mathematical logic, philosophy of language, Russell, Wittgenstein, and modern semantics",
+        "begin": "Start with identity statements: why can two names for the same object teach us something new?",
+    },
+    "G.E. Moore": {
+        "period": "early analytic philosophy, reacting against idealism with common-sense defiance",
+        "signature": "the defense of ordinary certainties and the insistence that some philosophical arguments are less credible than the hands in front of us",
+        "method": "common-sense analysis: he tests metaphysical ambition against propositions we seem more entitled to trust",
+        "concepts": [
+            "Common sense: philosophy must explain ordinary knowledge rather than casually overthrow it.",
+            "Open question argument: good cannot be analytically reduced without leaving a live normative question.",
+            "Naturalistic fallacy: moral terms resist simple identification with natural properties.",
+            "External world proof: skeptical doubt is confronted by ordinary certainty.",
+        ],
+        "pressure": "whether common sense is a philosophical anchor or simply the most respectable costume worn by inherited assumptions",
+        "legacy": "analytic ethics, ordinary-language philosophy, anti-skeptical argument, and twentieth-century realism",
+        "begin": "Begin with the open question argument: why does defining good never seem to end ethical inquiry?",
+    },
+    "Elizabeth Anscombe": {
+        "period": "twentieth-century analytic philosophy, where action, intention, virtue, and moral language are forced back into contact",
+        "signature": "the argument that intention is not an inner glow behind action, but part of how action is described, explained, and made intelligible",
+        "method": "grammatical and practical diagnosis: she asks what our concepts are doing before letting theory sprint ahead",
+        "concepts": [
+            "Intention: action is understood under descriptions, not merely as bodily motion plus mental decoration.",
+            "Practical knowledge: agents may know what they are doing without observing themselves as external objects.",
+            "Modern moral philosophy critique: obligation-language can become unmoored after theology is removed.",
+            "Double effect: moral evaluation must track intended means, side effects, and descriptions of action.",
+        ],
+        "pressure": "whether reviving virtue and intention can handle modern moral pluralism without smuggling in a vanished moral lawgiver",
+        "legacy": "action theory, virtue ethics revival, Wittgensteinian method, Catholic moral philosophy, and critiques of consequentialism",
+        "begin": "Start with the question, 'What are you doing?' and notice how many answers can truthfully describe one action.",
+    },
+    "Saul Kripke": {
+        "period": "late twentieth-century analytic philosophy, where modal logic reshapes metaphysics and language",
+        "signature": "necessary truths discovered a posteriori, rigid designation, and a renewed confidence that metaphysics did not die of embarrassment",
+        "method": "modal counterexample: he uses possible worlds, naming cases, and intuitive tests to expose hidden assumptions in theories of meaning",
+        "concepts": [
+            "Rigid designation: proper names designate the same object across possible worlds where that object exists.",
+            "Necessary a posteriori: some necessities are discovered empirically rather than by mere definition.",
+            "Causal theory of reference: names can refer through historical chains, not private descriptions.",
+            "Rule-following puzzle: meaning and normativity become unstable under skeptical pressure.",
+        ],
+        "pressure": "whether modal intuitions are reliable philosophical evidence or merely very elegant armchairs with better upholstery",
+        "legacy": "modal metaphysics, philosophy of language, philosophy of mind, essentialism, and rule-following debates",
+        "begin": "Begin with names: does 'Aristotle' mean a bundle of descriptions, or does the name latch onto the person more directly?",
+    },
+    "Hannah Arendt": {
+        "period": "twentieth-century political thought after totalitarianism, exile, and the disasters of mass ideology",
+        "signature": "the analysis of action, plurality, natality, and the frightening ordinariness through which evil can become administratively normal",
+        "method": "historical-philosophical judgment: she refuses both tidy system and mere journalism, thinking through events without flattening them",
+        "concepts": [
+            "Plurality: politics exists because human beings are equal enough to speak and different enough to matter.",
+            "Natality: new beginnings are a political and existential fact, not sentimental garnish.",
+            "Banality of evil: moral catastrophe can involve thoughtlessness as much as demonic grandeur.",
+            "Public realm: action and speech need a shared world in which they can appear.",
+        ],
+        "pressure": "whether her categories illuminate modern politics or draw distinctions too sharply between labor, work, action, and moral responsibility",
+        "legacy": "political theory, totalitarianism studies, democratic action, judgment, and the ethics of bureaucratic obedience",
+        "begin": "Begin with the public realm: what kind of world must exist for action and speech to matter?",
+    },
+    "Walter Benjamin": {
+        "period": "early twentieth-century critical theory, where modern media, memory, theology, and capitalism collide",
+        "signature": "the fragment as philosophical lightning: ruins, commodities, images, and artworks disclose historical truth under pressure",
+        "method": "constellation thinking: he places materials side by side until a hidden historical relation flashes into view",
+        "concepts": [
+            "Aura: mechanical reproduction changes how artworks appear, travel, and command attention.",
+            "Dialectical image: history can become legible in a charged fragment rather than a smooth narrative.",
+            "Messianic time: redemption interrupts progress-talk and asks what the present owes the defeated.",
+            "Flaneur: modern urban experience becomes a way of reading capitalism's dream-life.",
+        ],
+        "pressure": "whether poetic compression reveals what systematic prose misses or lets ambiguity do too much unpaid labor",
+        "legacy": "media theory, critical theory, aesthetics, cultural studies, historical memory, and critiques of progress",
+        "begin": "Start with aura: what changes when art can be reproduced, circulated, and consumed everywhere?",
+    },
+    "Jurgen Habermas": {
+        "period": "second-generation critical theory, rebuilding reason after the catastrophes and suspicions of modernity",
+        "signature": "communicative rationality: the idea that public reason survives where participants can challenge claims under fair conditions",
+        "method": "reconstructive social theory: he looks for the implicit norms already at work when people argue, justify, and demand reasons",
+        "concepts": [
+            "Communicative action: language coordinates social life through reasons, not only power or strategy.",
+            "Ideal speech situation: argument is measured against conditions of inclusion, sincerity, and freedom from coercion.",
+            "Public sphere: democracy needs institutions where reasons can circulate and be criticized.",
+            "Lifeworld and system: bureaucratic and market logics can colonize shared meanings.",
+        ],
+        "pressure": "whether procedural reason can withstand propaganda, unequal power, and the internet's talent for turning discourse into confetti",
+        "legacy": "democratic theory, discourse ethics, critical social theory, deliberative politics, and public reason",
+        "begin": "Begin with a simple act of giving reasons: what norms are already implied when someone asks to be justified?",
+    },
+    "Niccolo Machiavelli": {
+        "period": "Renaissance political thought, where classical virtue meets brutal statecraft and refuses to look away",
+        "signature": "politics examined without the consoling assumption that rulers can survive by being conventionally good",
+        "method": "historical realism: he studies power through examples, failures, incentives, and the distance between moral image and political necessity",
+        "concepts": [
+            "Virtu: political capacity, boldness, adaptability, and disciplined force.",
+            "Fortuna: contingency, luck, and the unruly river of circumstance.",
+            "Appearance: reputation and performance can be politically consequential realities.",
+            "Founding violence: stable orders may begin in acts later morality would rather not frame too clearly.",
+        ],
+        "pressure": "whether political realism clarifies power or becomes a permission slip for cynicism in a very handsome cloak",
+        "legacy": "realism, republican theory, statecraft, political ethics, and every argument about whether dirty hands are unavoidable",
+        "begin": "Begin with the gap between how people ought to live and how political actors actually survive.",
+    },
+    "Jean-Jacques Rousseau": {
+        "period": "eighteenth-century political philosophy and moral psychology, at the edge of modern democracy and Romantic suspicion",
+        "signature": "the claim that social life can deform human beings while still requiring a legitimate political form for freedom",
+        "method": "genealogical drama: he reconstructs how comparison, dependence, property, and institutions reshape the self",
+        "concepts": [
+            "Amour-propre: social comparison can corrupt self-relation and produce dependence on esteem.",
+            "General will: legitimate law expresses a common civic standpoint rather than private aggregation.",
+            "Natural goodness: human corruption is historically and socially mediated, not simply innate depravity.",
+            "Freedom through law: obedience can be self-rule if the law is genuinely common.",
+        ],
+        "pressure": "whether the general will safeguards freedom or gives collective authority a dangerously noble mask",
+        "legacy": "democratic theory, social contract theory, education, nationalism, Romanticism, and critiques of inequality",
+        "begin": "Start with dependency on others' opinions: how does society teach us to want through comparison?",
+    },
+    "John Stuart Mill": {
+        "period": "nineteenth-century liberal philosophy, utilitarian ethics, and democratic reform",
+        "signature": "individual liberty defended not as selfish isolation, but as a condition for truth, experiment, and human development",
+        "method": "public-reason liberalism: he tests institutions by their consequences for flourishing, individuality, and intellectual correction",
+        "concepts": [
+            "Harm principle: coercion is justified mainly to prevent harm to others.",
+            "Experiments in living: individuality helps society discover forms of flourishing.",
+            "Higher pleasures: utility must attend to quality of experience, not just quantity.",
+            "Free discussion: even false views may sharpen truth by preventing dead dogma.",
+        ],
+        "pressure": "whether liberty and utility can remain allies when public harm, social pressure, and unequal power become difficult to measure",
+        "legacy": "liberalism, feminism, utilitarianism, free speech theory, democratic reform, and debates over paternalism",
+        "begin": "Begin with free speech: why might a society need even wrong opinions in order to understand true ones?",
+    },
+    "John Rawls": {
+        "period": "late twentieth-century political philosophy, reviving systematic normative theory after utilitarian dominance",
+        "signature": "justice as fairness: principles of social cooperation chosen from behind a veil of ignorance",
+        "method": "constructive equilibrium: he tests principles by moving between considered judgments, idealized choice, and institutional design",
+        "concepts": [
+            "Original position: fairness is modeled by bracketing knowledge of one's social location.",
+            "Veil of ignorance: ignorance becomes a device for impartiality rather than confusion.",
+            "Difference principle: inequalities must benefit the least advantaged if they are to be justified.",
+            "Overlapping consensus: pluralistic citizens may support shared political principles for different reasons.",
+        ],
+        "pressure": "whether idealized fairness can guide real institutions marked by history, domination, and non-ideal bargaining power",
+        "legacy": "political liberalism, theories of justice, social contract revival, egalitarianism, and debates over public reason",
+        "begin": "Start behind the veil: what rules would seem fair if you did not know where you would land?",
+    },
+    "Mary Wollstonecraft": {
+        "period": "Enlightenment feminism and political reform, where rights-language is turned against its own exclusions",
+        "signature": "the demand that women be treated as rational, educable moral agents rather than decorative dependents",
+        "method": "rights critique with moral psychology: she exposes how bad education manufactures the very weakness then used to justify subordination",
+        "concepts": [
+            "Rational equality: capacity for reason grounds claims to education and civic respect.",
+            "Education: social formation can produce dependency and then mistake it for nature.",
+            "Virtue: moral agency cannot flourish under ornamental confinement.",
+            "Critique of sensibility: sentimental femininity can become a polished cage.",
+        ],
+        "pressure": "whether Enlightenment universalism can repair itself once its exclusions are named, or whether the rot goes deeper",
+        "legacy": "feminist philosophy, rights theory, education reform, republican virtue, and critiques of gendered socialization",
+        "begin": "Begin with education: what if supposed natural inferiority is actually the product of training people not to develop?",
+    },
+    "Judith Butler": {
+        "period": "late twentieth-century feminist, queer, and continental philosophy",
+        "signature": "gender performativity: identities are produced through repeated norms rather than simply expressed from an untouched inner essence",
+        "method": "genealogical and linguistic critique: she asks how categories form subjects while also creating sites of resistance",
+        "concepts": [
+            "Performativity: norms are enacted repeatedly until they appear natural.",
+            "Gender trouble: stable categories can conceal the exclusions that make them work.",
+            "Precarity: bodies are differentially recognized, protected, and grieved.",
+            "Subversion: repetition can expose and alter the norms it appears to obey.",
+        ],
+        "pressure": "whether destabilizing categories liberates agency or leaves political organizing without sufficiently stable names",
+        "legacy": "gender theory, queer theory, political ontology, continental philosophy, and debates over recognition",
+        "begin": "Start with performance: what if identity is not a costume over a core, but a norm repeated into apparent obviousness?",
+    },
+    "Confucius": {
+        "period": "classical Chinese philosophy, centered on ethical cultivation, social harmony, and exemplary conduct",
+        "signature": "the formation of humane persons through ritual propriety, relational responsibility, learning, and morally serious governance",
+        "method": "aphoristic teaching through cases, roles, and correction: he cultivates judgment rather than handing over an abstract ethical machine",
+        "concepts": [
+            "Ren: humane concern that gives social life moral warmth.",
+            "Li: ritual propriety that trains feeling, attention, and respect.",
+            "Junzi: the exemplary person whose character stabilizes community.",
+            "Rectification of names: social roles decay when words and conduct no longer match.",
+        ],
+        "pressure": "whether role-based harmony cultivates virtue or too easily blesses hierarchy, conformity, and polite cowardice",
+        "legacy": "East Asian ethics, political philosophy, education, virtue theory, and debates over ritual, family, and moral formation",
+        "begin": "Begin with ritual: what if manners are not trivial decoration, but training wheels for ethical perception?",
+    },
+    "Laozi": {
+        "period": "classical Chinese Daoist thought, resisting anxious control and rigid social ambition",
+        "signature": "alignment with the Dao through simplicity, non-coercive action, humility, and suspicion of overmanaged order",
+        "method": "paradoxical compression: the text loosens the reader's grip by making direct mastery feel clumsy",
+        "concepts": [
+            "Dao: the way that precedes and exceeds fixed naming.",
+            "Wu wei: non-forcing action that works with the grain of things.",
+            "Simplicity: reduction of artificial desire can restore balance.",
+            "Softness: yielding may overcome what rigid force cannot.",
+        ],
+        "pressure": "whether non-forcing wisdom guides responsible action or becomes an elegant excuse for doing very little while sounding profound",
+        "legacy": "Daoism, Chinese metaphysics, political quietism, ecological thought, and critiques of technocratic control",
+        "begin": "Begin with control: when does trying harder make the problem worse?",
+    },
+    "Zhuangzi": {
+        "period": "classical Daoist philosophy, where stories, jokes, dreams, and transformations become instruments of metaphysical therapy",
+        "signature": "liberation from cramped distinctions through perspectival play, spontaneity, and the unsettling comedy of human certainty",
+        "method": "parable and reversal: he makes rigid distinctions wobble until the reader notices how much seriousness was theater",
+        "concepts": [
+            "Perspectival transformation: fixed standpoints are less final than they feel.",
+            "Free wandering: wisdom loosens compulsive attachment to status and control.",
+            "Equalizing things: distinctions may be useful without being ultimate.",
+            "Skill stories: cultivated responsiveness can exceed rule-following.",
+        ],
+        "pressure": "whether radical perspectival freedom can preserve practical judgment or dissolves criticism into butterfly-shaped mist",
+        "legacy": "Daoist philosophy, skepticism, comparative philosophy, aesthetics, and theories of spontaneity",
+        "begin": "Begin with the butterfly dream: how secure is the standpoint from which we declare what is real?",
+    },
+    "Mencius": {
+        "period": "classical Chinese Confucian philosophy, developing a more explicit moral psychology",
+        "signature": "human nature as morally sprouting: compassion, shame, respect, and discernment can grow into virtue when cultivated",
+        "method": "moral psychology through vivid cases: he begins from felt reactions and asks what they reveal about human development",
+        "concepts": [
+            "Four sprouts: compassion, shame, deference, and judgment are beginnings of virtue.",
+            "Human nature: moral cultivation extends tendencies already present, rather than manufacturing virtue from nothing.",
+            "Benevolent government: political order depends on humane care, not merely force.",
+            "Moral nourishment: environments can strengthen or starve ethical capacities.",
+        ],
+        "pressure": "whether compassionate impulses prove moral nature or merely show that evolution and social life gave us useful feelings",
+        "legacy": "Confucian moral psychology, virtue ethics, political legitimacy, and debates over human nature",
+        "begin": "Start with the child-at-the-well case: what does spontaneous concern reveal, and what does it not prove?",
+    },
+    "Nagarjuna": {
+        "period": "Mahayana Buddhist philosophy, especially the Madhyamaka critique of intrinsic essence",
+        "signature": "emptiness as the dependent-arising of all things, not nihilism but a cure for reified metaphysical grasping",
+        "method": "reductio and middle-way analysis: he shows that views collapse when they treat things as self-subsisting in the wrong way",
+        "concepts": [
+            "Emptiness: things lack independent essence because they arise dependently.",
+            "Dependent origination: relations and conditions are not secondary decorations on reality.",
+            "Two truths: conventional truth functions without becoming ultimate metaphysical bedrock.",
+            "Middle way: avoiding both eternalism and nihilism is harder than it looks.",
+        ],
+        "pressure": "whether emptiness can avoid being misunderstood as nothingness while still doing its radical anti-essentialist work",
+        "legacy": "Buddhist philosophy, metaphysics, skepticism, comparative philosophy, and critiques of essence",
+        "begin": "Begin with dependence: if everything is what it is through relations, what exactly were we calling its essence?",
+    },
+}
 FEATURED_PATHS_BY_TITLE = {
     spec["title"].lower(): (spec["section_id"], spec["path"]) for spec in FEATURED_PAGE_SPECS
 }
@@ -821,6 +1280,41 @@ def section_nodes_from_home(html_text: str) -> dict[str, list[dict]]:
             nodes.extend(parse_detail_nodes(detail, section_id, heading["id"]))
         sections[section_id] = nodes
     return sections
+
+
+def merge_hierarchy_node(existing: dict, addition: dict) -> None:
+    if not existing.get("href") and addition.get("href"):
+        existing["href"] = addition["href"]
+    existing_children = existing.setdefault("children", [])
+    existing_by_title = {normalized_phrase(child["title"]): child for child in existing_children}
+    for child in addition.get("children", []):
+        key = normalized_phrase(child["title"])
+        if key in existing_by_title:
+            merge_hierarchy_node(existing_by_title[key], child)
+        else:
+            existing_children.append(child)
+
+
+def augment_philosopher_hierarchy(section_nodes: dict[str, list[dict]]) -> None:
+    philosophers = section_nodes.setdefault("philosophers", [])
+    top_level_by_title = {normalized_phrase(node["title"]): node for node in philosophers}
+    for cluster_title, additions in PHILOSOPHER_HIERARCHY_ADDITIONS:
+        cluster_key = normalized_phrase(cluster_title)
+        cluster_node = top_level_by_title.get(cluster_key)
+        if cluster_node is None:
+            cluster_node = {"title": cluster_title, "href": "", "children": []}
+            philosophers.append(cluster_node)
+            top_level_by_title[cluster_key] = cluster_node
+
+        existing_children = cluster_node.setdefault("children", [])
+        child_by_title = {normalized_phrase(child["title"]): child for child in existing_children}
+        for addition in additions:
+            key = normalized_phrase(addition["title"])
+            if key in child_by_title:
+                merge_hierarchy_node(child_by_title[key], addition)
+            else:
+                existing_children.append(addition)
+                child_by_title[key] = addition
 
 
 def flatten_titles(nodes: Iterable[dict]) -> list[str]:
@@ -1555,6 +2049,157 @@ def topic_label(title: str) -> str:
     return cleaned.strip(" ?")
 
 
+def philosopher_base_name(title: str) -> str:
+    base = topic_label(title)
+    return PHILOSOPHER_NAME_ALIASES.get(base, base)
+
+
+def philosopher_profile_for_title(title: str) -> dict | None:
+    return PHILOSOPHER_PROFILES.get(philosopher_base_name(title))
+
+
+def synthetic_philosopher_threads(title: str) -> list[str]:
+    profile = philosopher_profile_for_title(title)
+    if not profile:
+        return []
+    return [
+        profile["signature"],
+        profile["method"],
+        *profile["concepts"],
+        f"Central pressure: {profile['pressure']}",
+        f"Influence trail: {profile['legacy']}",
+    ]
+
+
+def synthetic_child(title: str, paragraphs: list[str], items: list[str] | None = None) -> dict:
+    return {
+        "title": title,
+        "level": 3,
+        "paragraphs": paragraphs,
+        "items": items or [],
+    }
+
+
+def synthetic_philosopher_prompt_details(title: str) -> list[dict]:
+    base = philosopher_base_name(title)
+    profile = PHILOSOPHER_PROFILES.get(base)
+    if not profile:
+        return []
+
+    concept_children = []
+    for concept in profile["concepts"][:4]:
+        label, body = split_label(concept)
+        concept_children.append(
+            synthetic_child(
+                label or concept,
+                [
+                    body
+                    if body
+                    else f"This concept is one of the handles by which {base}'s position becomes philosophically usable."
+                ],
+                [concept],
+            )
+        )
+
+    return [
+        {
+            "prompt": f"Explain why {base} remains philosophically important.",
+            "paragraphs": [
+                f"{base} belongs to {profile['period']}. The continuing importance lies in {profile['signature']}.",
+                f"The point is not to admire a famous name. It is to see how {base} changed what later readers had to explain, defend, or reject.",
+            ],
+            "items": [
+                f"Signature contribution: {profile['signature']}",
+                f"Historical setting: {profile['period']}",
+                f"Influence trail: {profile['legacy']}",
+            ],
+            "children": [
+                synthetic_child(
+                    "Historical setting",
+                    [
+                        f"{base} stands inside {profile['period']}, so the arguments need to be read as interventions in a live intellectual world rather than museum labels."
+                    ],
+                ),
+                synthetic_child(
+                    "Signature contribution",
+                    [
+                        f"The durable contribution is {profile['signature']}. That contribution gives the page its center of gravity."
+                    ],
+                ),
+                synthetic_child(
+                    "Influence trail",
+                    [
+                        f"The later trail runs through {profile['legacy']}. This is where the philosopher keeps generating new work."
+                    ],
+                ),
+            ],
+        },
+        {
+            "prompt": f"Identify {base}'s major concepts, methods, or questions.",
+            "paragraphs": [
+                f"{base}'s method matters because {profile['method']}. The concepts should therefore be read as tools, not decorative vocabulary.",
+                "A good reconstruction lets the reader see how each concept does a job: it names a pressure, blocks a confusion, or opens a new route through the problem.",
+            ],
+            "items": profile["concepts"],
+            "children": concept_children,
+        },
+        {
+            "prompt": f"Where does {base}'s view face its strongest objection?",
+            "paragraphs": [
+                f"The strongest objection is {profile['pressure']}. The page should not hide that pressure, because the philosopher becomes more interesting when the objection is allowed to breathe.",
+                "For an intermediate reader, the issue is not whether the system can be made invulnerable. The issue is whether the view still clarifies something important after its vulnerability is honestly named.",
+            ],
+            "items": [
+                f"Best objection: {profile['pressure']}",
+                f"Charitable reply: The view can still matter if it clarifies a recurring philosophical problem without pretending to settle every later dispute.",
+                f"Contemporary test: Ask whether the central insight survives translation into current debates without losing its original force.",
+            ],
+            "children": [
+                synthetic_child("Best objection", [profile["pressure"]]),
+                synthetic_child(
+                    "Charitable reply",
+                    [
+                        f"The charitable reply is that {base}'s value does not require total victory. It requires a durable insight, method, or distinction that still improves judgment."
+                    ],
+                ),
+                synthetic_child(
+                    "Contemporary test",
+                    [
+                        "The modern reader should ask whether the view still explains something that rival positions tend to blur."
+                    ],
+                ),
+            ],
+        },
+        {
+            "prompt": f"How should a contemporary reader begin with {base}?",
+            "paragraphs": [
+                profile["begin"],
+                f"From there, the reader can track the method: {profile['method']} The trick is to start with a real question, not with reverent name-recitation.",
+            ],
+            "items": [
+                f"Entry point: {profile['begin']}",
+                f"Reading discipline: Keep the philosopher's historical setting in view while asking which pressure remains alive now.",
+                f"Avoid the shortcut: Do not reduce {base} to one slogan, however conveniently quotable the slogan may be.",
+            ],
+            "children": [
+                synthetic_child("Best entry point", [profile["begin"]]),
+                synthetic_child(
+                    "What to watch",
+                    [
+                        f"Watch how the method shapes the doctrine: {profile['method']} That is often where the philosopher's voice is most visible."
+                    ],
+                ),
+                synthetic_child(
+                    "Where to go next",
+                    [
+                        f"Move next toward {profile['legacy']}, since influence is where the philosopher's questions keep mutating."
+                    ],
+                ),
+            ],
+        },
+    ]
+
+
 def infer_kind(title: str, has_children: bool) -> str:
     lowered = clean_text(title).lower()
     if title in GROUP_PAGE_TITLES:
@@ -2103,6 +2748,25 @@ def support_item_body(label: str, page: dict, prompt: str, focus: str) -> str:
     label_lower = label.lower()
 
     if page["section_id"] == "philosophers":
+        philosopher_profile = philosopher_profile_for_title(page["title"])
+        if philosopher_profile:
+            concept_labels = {
+                split_label(concept)[0].lower()
+                for concept in philosopher_profile["concepts"]
+                if split_label(concept)[0]
+            }
+            if label_lower in concept_labels:
+                return (
+                    f"This concept is one of the working parts of {topic}'s philosophy; it names a pressure the reader must track rather than a decorative term to memorize."
+                )
+            if any(word in label_lower for word in ("objection", "pressure", "test")):
+                return (
+                    f"This is where {topic}'s view has to earn its keep under criticism rather than merely inherit respect from the canon."
+                )
+            if any(word in label_lower for word in ("entry", "begin", "watch")):
+                return (
+                    f"This gives the reader a practical route into {topic} without pretending the first foothold is the whole mountain."
+                )
         if "contribution" in label_lower or "influence" in prompt.lower():
             return (
                 f"{topic}'s influence is clearest where later readers inherit new questions, methods, or suspicions, "
@@ -2811,6 +3475,7 @@ def compose_sections(page: dict) -> list[dict]:
     sibling_titles = page.get("sibling_titles", [])
     child_text = ", ".join(child_titles[:5])
     sibling_text = ", ".join(sibling_titles[:4])
+    philosopher_profile = philosopher_profile_for_title(page["title"]) if page["section_id"] == "philosophers" else None
 
     prompts = curated_source_prompts(page)
     if prompts and page["kind"] not in {"dialogue", "chart"}:
@@ -2833,6 +3498,56 @@ def compose_sections(page: dict) -> list[dict]:
 
     if page["kind"] == "dialogue":
         philosopher = topic
+        if philosopher_profile:
+            concept_text = serial_join([split_label(concept)[0] or concept for concept in philosopher_profile["concepts"][:4]])
+            return [
+                {
+                    "id": "voice-fragment",
+                    "eyebrow": "Voice and Method",
+                    "heading": f"{philosopher} should sound recognizably like {philosopher}.",
+                    "paragraphs": [
+                        f"This dialogue keeps {philosopher}'s voice in view by preserving the method: {philosopher_profile['method']}. The page should feel like an encounter with a way of thinking, not a neutral encyclopedia card with better shoes.",
+                        f"The philosophical center is {philosopher_profile['signature']}. That center determines what the imagined interlocutor should ask and what the philosopher must keep defending.",
+                    ],
+                },
+                {
+                    "id": "beginner-dialogue",
+                    "eyebrow": "For the Beginner",
+                    "heading": f"The first exchange with {philosopher} should begin where the pressure becomes visible.",
+                    "paragraphs": [
+                        philosopher_profile["begin"],
+                        f"A beginner does not need the whole scholarly apparatus at once. The first task is to feel why {philosopher}'s question matters before turning it into a school label.",
+                    ],
+                },
+                {
+                    "id": "deeper-dialogue",
+                    "eyebrow": "For the Fellow Philosopher",
+                    "heading": f"The deeper exchange with {philosopher} has to test the machinery of the view.",
+                    "paragraphs": [
+                        f"The serious interlocutor should press the working concepts: {concept_text}. These are not vocabulary ornaments; they are the load-bearing beams of the view.",
+                        f"The discussion becomes philosophical when the interlocutor asks how those concepts survive contact with rival explanations, historical distance, and the philosopher's own strongest commitments.",
+                    ],
+                    "list_items": philosopher_profile["concepts"][:5],
+                },
+                {
+                    "id": "critical-dialogue",
+                    "eyebrow": "For the Critic",
+                    "heading": f"The critic matters because {philosopher} becomes clearer under pressure.",
+                    "paragraphs": [
+                        f"The strongest objection is {philosopher_profile['pressure']}. The dialogue should let that objection speak plainly rather than hiding it behind reverence.",
+                        f"A charitable reconstruction does not require {philosopher} to win every modern argument. It requires the view to show what it still clarifies after the best objection has done its work.",
+                    ],
+                },
+                {
+                    "id": "five-notions",
+                    "eyebrow": "Enduring Notions",
+                    "heading": f"{philosopher} survives through a cluster of durable moves rather than through total agreement with the system.",
+                    "paragraphs": [
+                        f"The influence trail runs through {philosopher_profile['legacy']}. That is where the philosopher remains alive: not as a collectible name, but as a set of questions later thinkers keep reopening.",
+                    ],
+                    "list_items": philosopher_profile["concepts"][:5],
+                },
+            ]
         return [
             {
                 "id": "voice-fragment",
@@ -2882,6 +3597,44 @@ def compose_sections(page: dict) -> list[dict]:
         ]
 
     if page["kind"] == "chart":
+        if philosopher_profile:
+            return [
+                {
+                    "id": "orientation",
+                    "eyebrow": "Terrain",
+                    "heading": f"{topic} is best understood by mapping the method, not just the doctrine.",
+                    "paragraphs": [
+                        f"This chart places {topic} inside {philosopher_profile['period']}. The signature contribution is {philosopher_profile['signature']}.",
+                        f"That means the map should show what the philosopher makes newly visible and where the view begins to strain.",
+                    ],
+                },
+                {
+                    "id": "threads",
+                    "eyebrow": "Main Alignments",
+                    "heading": f"The chart matters because it keeps {topic}'s central commitments in one field of view.",
+                    "paragraphs": [
+                        f"The method is {philosopher_profile['method']}. Once that method is visible, the individual concepts stop looking like loose vocabulary and begin to form a pattern.",
+                    ],
+                    "list_items": philosopher_profile["concepts"][:6],
+                },
+                {
+                    "id": "pressures",
+                    "eyebrow": "Misalignments",
+                    "heading": f"A good chart also marks where {topic} comes under pressure.",
+                    "paragraphs": [
+                        f"The strongest pressure is {philosopher_profile['pressure']}. A clean map should include that difficulty rather than airbrushing it out for the sake of canon-polish.",
+                        "That pressure is not a defect in the chart. It is one of the reasons the chart is useful: it shows where later readers have to think, not merely where they have to admire.",
+                    ],
+                },
+                {
+                    "id": "discussion",
+                    "eyebrow": "Carrying It Forward",
+                    "heading": f"The point of charting {topic} is to improve orientation, not to end debate.",
+                    "paragraphs": [
+                        f"The influence trail runs through {philosopher_profile['legacy']}. A reader should leave this chart knowing where to go next and what question to carry there.",
+                    ],
+                },
+            ]
         return [
             {
                 "id": "orientation",
@@ -4507,6 +5260,7 @@ def flatten_visible_nodes(nodes: list[dict]) -> list[dict]:
 def main() -> None:
     home_html = fetch_homepage_html()
     section_nodes = section_nodes_from_home(home_html)
+    augment_philosopher_hierarchy(section_nodes)
     all_posts = fetch_all_posts()
 
     visible_lookup: dict[str, dict] = {}
@@ -4536,6 +5290,7 @@ def main() -> None:
                 page["sibling_titles"] = sibling_titles
             return page
 
+        page_kind = infer_kind(title, bool(children))
         source_prompts, thread_like, _paragraphs = ([], [], [])
         source_prompt_details: list[dict] = []
         quiz_discussion_items: list[str] = []
@@ -4557,12 +5312,20 @@ def main() -> None:
             ]
             if source_prompt_details:
                 source_prompts = [detail["prompt"] for detail in source_prompt_details]
+        elif section_id == "philosophers":
+            thread_like = synthetic_philosopher_threads(title)
+            if page_kind not in {"dialogue", "chart"}:
+                source_prompt_details = synthetic_philosopher_prompt_details(title)
+                if source_prompt_details:
+                    source_prompts = [detail["prompt"] for detail in source_prompt_details]
+            if page_kind == "cluster" and philosopher_profile_for_title(title):
+                page_kind = "essay"
         page = {
             "title": clean_text(title),
             "section_id": section_id,
             "built_path": built_path,
             "source_url": source_url,
-            "kind": infer_kind(title, bool(children)),
+            "kind": page_kind,
             "source_prompts": source_prompts,
             "source_prompt_details": source_prompt_details,
             "quiz_discussion_items": quiz_discussion_items,

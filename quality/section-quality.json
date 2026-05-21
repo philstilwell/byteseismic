@@ -1,12 +1,12 @@
 {
   "generatedAt": "2026-05-20",
   "overall": {
-    "totalPromptSections": 1785,
-    "averageScore": 99.5,
+    "totalPromptSections": 1885,
+    "averageScore": 99.6,
     "needsReview": 0,
     "needsReviewRate": 0.0,
-    "needsGapFill": 300,
-    "needsGapFillRate": 0.168
+    "needsGapFill": 400,
+    "needsGapFillRate": 0.212
   },
   "editorialAudit": {
     "totalIssues": 0,
@@ -18,14 +18,14 @@
     {
       "sectionId": "philosophers",
       "sectionName": "Philosophers",
-      "total": 216,
-      "averageScore": 98.8,
+      "total": 316,
+      "averageScore": 99.2,
       "needsReview": 0,
       "needsReviewRate": 0.0,
-      "needsGapFill": 216,
+      "needsGapFill": 316,
       "needsGapFillRate": 1.0,
       "levels": {
-        "exceptional": 188,
+        "exceptional": 288,
         "strong": 28,
         "good": 0,
         "developing": 0,
@@ -12430,6 +12430,122 @@
     {
       "sectionId": "philosophers",
       "sectionName": "Philosophers",
+      "pageTitle": "Anselm of Canterbury",
+      "pagePath": "/philosophers/anselm-of-canterbury/",
+      "anchor": "prompt-1",
+      "url": "/philosophers/anselm-of-canterbury/#prompt-1",
+      "prompt": "Explain why Anselm of Canterbury remains philosophically important.",
+      "heading": "Historical setting is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 387,
+      "avgItemWords": 22.0,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Anselm of Canterbury",
+      "pagePath": "/philosophers/anselm-of-canterbury/",
+      "anchor": "prompt-2",
+      "url": "/philosophers/anselm-of-canterbury/#prompt-2",
+      "prompt": "Identify Anselm of Canterbury's major concepts, methods, or questions.",
+      "heading": "Faith seeking understanding needs a map, not a heap of labels.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 385,
+      "avgItemWords": 25.4,
+      "metrics": {
+        "children": 4,
+        "sourceParagraphs": 6,
+        "sourceItems": 8,
+        "labels": 4
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Anselm of Canterbury",
+      "pagePath": "/philosophers/anselm-of-canterbury/",
+      "anchor": "prompt-3",
+      "url": "/philosophers/anselm-of-canterbury/#prompt-3",
+      "prompt": "Where does Anselm of Canterbury's view face its strongest objection?",
+      "heading": "Best objection is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 396,
+      "avgItemWords": 19.4,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Anselm of Canterbury",
+      "pagePath": "/philosophers/anselm-of-canterbury/",
+      "anchor": "prompt-4",
+      "url": "/philosophers/anselm-of-canterbury/#prompt-4",
+      "prompt": "How should a contemporary reader begin with Anselm of Canterbury?",
+      "heading": "Best entry point is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 408,
+      "avgItemWords": 23.2,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 5
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
       "pageTitle": "Aquinas’ Five Ways",
       "pagePath": "/philosophers/aquinas-five-ways/",
       "anchor": "prompt-1",
@@ -12720,6 +12836,354 @@
     {
       "sectionId": "philosophers",
       "sectionName": "Philosophers",
+      "pageTitle": "Augustine of Hippo",
+      "pagePath": "/philosophers/augustine-of-hippo/",
+      "anchor": "prompt-1",
+      "url": "/philosophers/augustine-of-hippo/#prompt-1",
+      "prompt": "Explain why Augustine of Hippo remains philosophically important.",
+      "heading": "Historical setting is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 376,
+      "avgItemWords": 23.4,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Augustine of Hippo",
+      "pagePath": "/philosophers/augustine-of-hippo/",
+      "anchor": "prompt-2",
+      "url": "/philosophers/augustine-of-hippo/#prompt-2",
+      "prompt": "Identify Augustine of Hippo's major concepts, methods, or questions.",
+      "heading": "Restless desire needs a map, not a heap of labels.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 377,
+      "avgItemWords": 23.8,
+      "metrics": {
+        "children": 4,
+        "sourceParagraphs": 6,
+        "sourceItems": 8,
+        "labels": 4
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Augustine of Hippo",
+      "pagePath": "/philosophers/augustine-of-hippo/",
+      "anchor": "prompt-3",
+      "url": "/philosophers/augustine-of-hippo/#prompt-3",
+      "prompt": "Where does Augustine of Hippo's view face its strongest objection?",
+      "heading": "Best objection is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 386,
+      "avgItemWords": 18.4,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Augustine of Hippo",
+      "pagePath": "/philosophers/augustine-of-hippo/",
+      "anchor": "prompt-4",
+      "url": "/philosophers/augustine-of-hippo/#prompt-4",
+      "prompt": "How should a contemporary reader begin with Augustine of Hippo?",
+      "heading": "Best entry point is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 408,
+      "avgItemWords": 24.4,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 5
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Averroes",
+      "pagePath": "/philosophers/averroes/",
+      "anchor": "prompt-1",
+      "url": "/philosophers/averroes/#prompt-1",
+      "prompt": "Explain why Averroes remains philosophically important.",
+      "heading": "Historical setting is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 375,
+      "avgItemWords": 22.3,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Averroes",
+      "pagePath": "/philosophers/averroes/",
+      "anchor": "prompt-2",
+      "url": "/philosophers/averroes/#prompt-2",
+      "prompt": "Identify Averroes's major concepts, methods, or questions.",
+      "heading": "Demonstration needs a map, not a heap of labels.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 399,
+      "avgItemWords": 18.4,
+      "metrics": {
+        "children": 4,
+        "sourceParagraphs": 6,
+        "sourceItems": 8,
+        "labels": 4
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Averroes",
+      "pagePath": "/philosophers/averroes/",
+      "anchor": "prompt-3",
+      "url": "/philosophers/averroes/#prompt-3",
+      "prompt": "Where does Averroes's view face its strongest objection?",
+      "heading": "Best objection is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 402,
+      "avgItemWords": 17.6,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Averroes",
+      "pagePath": "/philosophers/averroes/",
+      "anchor": "prompt-4",
+      "url": "/philosophers/averroes/#prompt-4",
+      "prompt": "How should a contemporary reader begin with Averroes?",
+      "heading": "Best entry point is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 374,
+      "avgItemWords": 21.2,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 5
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Avicenna",
+      "pagePath": "/philosophers/avicenna/",
+      "anchor": "prompt-1",
+      "url": "/philosophers/avicenna/#prompt-1",
+      "prompt": "Explain why Avicenna remains philosophically important.",
+      "heading": "Historical setting is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 372,
+      "avgItemWords": 21.3,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Avicenna",
+      "pagePath": "/philosophers/avicenna/",
+      "anchor": "prompt-2",
+      "url": "/philosophers/avicenna/#prompt-2",
+      "prompt": "Identify Avicenna's major concepts, methods, or questions.",
+      "heading": "Essence and existence needs a map, not a heap of labels.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 369,
+      "avgItemWords": 18.6,
+      "metrics": {
+        "children": 4,
+        "sourceParagraphs": 6,
+        "sourceItems": 8,
+        "labels": 4
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Avicenna",
+      "pagePath": "/philosophers/avicenna/",
+      "anchor": "prompt-3",
+      "url": "/philosophers/avicenna/#prompt-3",
+      "prompt": "Where does Avicenna's view face its strongest objection?",
+      "heading": "Best objection is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 400,
+      "avgItemWords": 17.4,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Avicenna",
+      "pagePath": "/philosophers/avicenna/",
+      "anchor": "prompt-4",
+      "url": "/philosophers/avicenna/#prompt-4",
+      "prompt": "How should a contemporary reader begin with Avicenna?",
+      "heading": "Best entry point is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 375,
+      "avgItemWords": 21.6,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 5
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
       "pageTitle": "Baruch Spinoza",
       "pagePath": "/philosophers/baruch-spinoza/",
       "anchor": "prompt-2",
@@ -12973,6 +13437,122 @@
         "sourceParagraphs": 4,
         "sourceItems": 6,
         "labels": 1
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Confucius",
+      "pagePath": "/philosophers/confucius/",
+      "anchor": "prompt-1",
+      "url": "/philosophers/confucius/#prompt-1",
+      "prompt": "Explain why Confucius remains philosophically important.",
+      "heading": "Historical setting is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 369,
+      "avgItemWords": 21.3,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Confucius",
+      "pagePath": "/philosophers/confucius/",
+      "anchor": "prompt-2",
+      "url": "/philosophers/confucius/#prompt-2",
+      "prompt": "Identify Confucius's major concepts, methods, or questions.",
+      "heading": "Ren needs a map, not a heap of labels.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 371,
+      "avgItemWords": 27.2,
+      "metrics": {
+        "children": 4,
+        "sourceParagraphs": 6,
+        "sourceItems": 8,
+        "labels": 4
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Confucius",
+      "pagePath": "/philosophers/confucius/",
+      "anchor": "prompt-3",
+      "url": "/philosophers/confucius/#prompt-3",
+      "prompt": "Where does Confucius's view face its strongest objection?",
+      "heading": "Best objection is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 400,
+      "avgItemWords": 17.4,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Confucius",
+      "pagePath": "/philosophers/confucius/",
+      "anchor": "prompt-4",
+      "url": "/philosophers/confucius/#prompt-4",
+      "prompt": "How should a contemporary reader begin with Confucius?",
+      "heading": "Best entry point is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 382,
+      "avgItemWords": 22.4,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 5
       },
       "reasons": [
         "The section has enough source structure and explanatory density for now."
@@ -13503,6 +14083,122 @@
     {
       "sectionId": "philosophers",
       "sectionName": "Philosophers",
+      "pageTitle": "Elizabeth Anscombe",
+      "pagePath": "/philosophers/elizabeth-anscombe/",
+      "anchor": "prompt-1",
+      "url": "/philosophers/elizabeth-anscombe/#prompt-1",
+      "prompt": "Explain why Elizabeth Anscombe remains philosophically important.",
+      "heading": "Historical setting is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 397,
+      "avgItemWords": 24.2,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Elizabeth Anscombe",
+      "pagePath": "/philosophers/elizabeth-anscombe/",
+      "anchor": "prompt-2",
+      "url": "/philosophers/elizabeth-anscombe/#prompt-2",
+      "prompt": "Identify Elizabeth Anscombe's major concepts, methods, or questions.",
+      "heading": "Intention needs a map, not a heap of labels.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 383,
+      "avgItemWords": 20.6,
+      "metrics": {
+        "children": 4,
+        "sourceParagraphs": 6,
+        "sourceItems": 8,
+        "labels": 4
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Elizabeth Anscombe",
+      "pagePath": "/philosophers/elizabeth-anscombe/",
+      "anchor": "prompt-3",
+      "url": "/philosophers/elizabeth-anscombe/#prompt-3",
+      "prompt": "Where does Elizabeth Anscombe's view face its strongest objection?",
+      "heading": "Best objection is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 378,
+      "avgItemWords": 18.2,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Elizabeth Anscombe",
+      "pagePath": "/philosophers/elizabeth-anscombe/",
+      "anchor": "prompt-4",
+      "url": "/philosophers/elizabeth-anscombe/#prompt-4",
+      "prompt": "How should a contemporary reader begin with Elizabeth Anscombe?",
+      "heading": "Best entry point is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 388,
+      "avgItemWords": 22.8,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 5
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
       "pageTitle": "Empiricists",
       "pagePath": "/philosophers/empiricists/",
       "anchor": "prompt-1",
@@ -13938,6 +14634,122 @@
     {
       "sectionId": "philosophers",
       "sectionName": "Philosophers",
+      "pageTitle": "G.E. Moore",
+      "pagePath": "/philosophers/g-e-moore/",
+      "anchor": "prompt-1",
+      "url": "/philosophers/g-e-moore/#prompt-1",
+      "prompt": "Explain why G.E. Moore remains philosophically important.",
+      "heading": "Historical setting is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 371,
+      "avgItemWords": 20.3,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "G.E. Moore",
+      "pagePath": "/philosophers/g-e-moore/",
+      "anchor": "prompt-2",
+      "url": "/philosophers/g-e-moore/#prompt-2",
+      "prompt": "Identify G.E. Moore's major concepts, methods, or questions.",
+      "heading": "Common sense needs a map, not a heap of labels.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 371,
+      "avgItemWords": 24.2,
+      "metrics": {
+        "children": 4,
+        "sourceParagraphs": 6,
+        "sourceItems": 8,
+        "labels": 4
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "G.E. Moore",
+      "pagePath": "/philosophers/g-e-moore/",
+      "anchor": "prompt-3",
+      "url": "/philosophers/g-e-moore/#prompt-3",
+      "prompt": "Where does G.E. Moore's view face its strongest objection?",
+      "heading": "Best objection is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 388,
+      "avgItemWords": 20.0,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "G.E. Moore",
+      "pagePath": "/philosophers/g-e-moore/",
+      "anchor": "prompt-4",
+      "url": "/philosophers/g-e-moore/#prompt-4",
+      "prompt": "How should a contemporary reader begin with G.E. Moore?",
+      "heading": "Best entry point is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 397,
+      "avgItemWords": 19.0,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 5
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
       "pageTitle": "Georg Wilhelm Friedrich Hegel",
       "pagePath": "/philosophers/georg-wilhelm-friedrich-hegel/",
       "anchor": "prompt-2",
@@ -14228,302 +15040,12 @@
     {
       "sectionId": "philosophers",
       "sectionName": "Philosophers",
-      "pageTitle": "Herbert Marcuse",
-      "pagePath": "/philosophers/herbert-marcuse/",
-      "anchor": "prompt-2",
-      "url": "/philosophers/herbert-marcuse/#prompt-2",
-      "prompt": "Provide an annotated list of Herbert Marcuse’s 7 greatest contributions to philosophy.",
-      "heading": "One-Dimensional Man (1964) needs a map, not a heap of labels.",
-      "score": 100,
-      "level": "exceptional",
-      "needsReview": false,
-      "exceptionalReady": true,
-      "needsGapFill": true,
-      "gapReasons": [
-        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
-      ],
-      "wordCount": 452,
-      "avgItemWords": 31.0,
-      "metrics": {
-        "children": 0,
-        "sourceParagraphs": 3,
-        "sourceItems": 8,
-        "labels": 5
-      },
-      "reasons": [
-        "The section has enough source structure and explanatory density for now."
-      ]
-    },
-    {
-      "sectionId": "philosophers",
-      "sectionName": "Philosophers",
-      "pageTitle": "Herbert Marcuse",
-      "pagePath": "/philosophers/herbert-marcuse/",
-      "anchor": "prompt-3",
-      "url": "/philosophers/herbert-marcuse/#prompt-3",
-      "prompt": "Provide the most likely causes behind Herbert Marcuse becoming a notable philosopher.",
-      "heading": "Frankfurt School Association is the hinge of the response.",
-      "score": 100,
-      "level": "exceptional",
-      "needsReview": false,
-      "exceptionalReady": true,
-      "needsGapFill": true,
-      "gapReasons": [
-        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
-      ],
-      "wordCount": 434,
-      "avgItemWords": 28.8,
-      "metrics": {
-        "children": 0,
-        "sourceParagraphs": 3,
-        "sourceItems": 8,
-        "labels": 5
-      },
-      "reasons": [
-        "The section has enough source structure and explanatory density for now."
-      ]
-    },
-    {
-      "sectionId": "philosophers",
-      "sectionName": "Philosophers",
-      "pageTitle": "Herbert Marcuse",
-      "pagePath": "/philosophers/herbert-marcuse/",
-      "anchor": "prompt-4",
-      "url": "/philosophers/herbert-marcuse/#prompt-4",
-      "prompt": "Which schools of philosophical thought and academic domains has the philosophy of Herbert Marcuse most influenced?",
-      "heading": "Critical Theory is the hinge of the response.",
-      "score": 100,
-      "level": "exceptional",
-      "needsReview": false,
-      "exceptionalReady": true,
-      "needsGapFill": true,
-      "gapReasons": [
-        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
-      ],
-      "wordCount": 396,
-      "avgItemWords": 23.0,
-      "metrics": {
-        "children": 0,
-        "sourceParagraphs": 4,
-        "sourceItems": 8,
-        "labels": 5
-      },
-      "reasons": [
-        "The section has enough source structure and explanatory density for now."
-      ]
-    },
-    {
-      "sectionId": "philosophers",
-      "sectionName": "Philosophers",
-      "pageTitle": "Immanuel Kant",
-      "pagePath": "/philosophers/immanuel-kant/",
-      "anchor": "prompt-2",
-      "url": "/philosophers/immanuel-kant/#prompt-2",
-      "prompt": "Provide an annotated list of Kant’s 7 greatest contributions to philosophy.",
-      "heading": "Immanuel Kant’s 7 Greatest Contributions to Philosophy needs a map, not a heap of labels.",
-      "score": 100,
-      "level": "exceptional",
-      "needsReview": false,
-      "exceptionalReady": true,
-      "needsGapFill": true,
-      "gapReasons": [
-        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
-      ],
-      "wordCount": 404,
-      "avgItemWords": 24.4,
-      "metrics": {
-        "children": 2,
-        "sourceParagraphs": 0,
-        "sourceItems": 12,
-        "labels": 2
-      },
-      "reasons": [
-        "The section has enough source structure and explanatory density for now."
-      ]
-    },
-    {
-      "sectionId": "philosophers",
-      "sectionName": "Philosophers",
-      "pageTitle": "Immanuel Kant",
-      "pagePath": "/philosophers/immanuel-kant/",
-      "anchor": "prompt-3",
-      "url": "/philosophers/immanuel-kant/#prompt-3",
-      "prompt": "Provide the most likely causes behind Kant becoming a notable philosopher.",
-      "heading": "Causes Behind Immanuel Kant Becoming a Notable Philosopher needs structure before it can persuade.",
-      "score": 100,
-      "level": "exceptional",
-      "needsReview": false,
-      "exceptionalReady": true,
-      "needsGapFill": true,
-      "gapReasons": [
-        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
-      ],
-      "wordCount": 396,
-      "avgItemWords": 21.4,
-      "metrics": {
-        "children": 1,
-        "sourceParagraphs": 2,
-        "sourceItems": 6,
-        "labels": 1
-      },
-      "reasons": [
-        "The section has enough source structure and explanatory density for now."
-      ]
-    },
-    {
-      "sectionId": "philosophers",
-      "sectionName": "Philosophers",
-      "pageTitle": "Immanuel Kant",
-      "pagePath": "/philosophers/immanuel-kant/",
-      "anchor": "prompt-4",
-      "url": "/philosophers/immanuel-kant/#prompt-4",
-      "prompt": "Which schools of philosophical thought and academic domains has the philosophy of Kant most influenced?",
-      "heading": "Immanuel Kant is the hinge of the response.",
-      "score": 100,
-      "level": "exceptional",
-      "needsReview": false,
-      "exceptionalReady": true,
-      "needsGapFill": true,
-      "gapReasons": [
-        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
-      ],
-      "wordCount": 377,
-      "avgItemWords": 22.6,
-      "metrics": {
-        "children": 1,
-        "sourceParagraphs": 2,
-        "sourceItems": 6,
-        "labels": 1
-      },
-      "reasons": [
-        "The section has enough source structure and explanatory density for now."
-      ]
-    },
-    {
-      "sectionId": "philosophers",
-      "sectionName": "Philosophers",
-      "pageTitle": "Jacques Derrida",
-      "pagePath": "/philosophers/jacques-derrida/",
-      "anchor": "prompt-2",
-      "url": "/philosophers/jacques-derrida/#prompt-2",
-      "prompt": "Provide an annotated list of Jacques Derrida’s 7 greatest contributions to philosophy.",
-      "heading": "Jacques Derrida’s 7 Greatest Contributions to Philosophy needs a map, not a heap of labels.",
-      "score": 100,
-      "level": "exceptional",
-      "needsReview": false,
-      "exceptionalReady": true,
-      "needsGapFill": true,
-      "gapReasons": [
-        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
-      ],
-      "wordCount": 381,
-      "avgItemWords": 24.4,
-      "metrics": {
-        "children": 2,
-        "sourceParagraphs": 2,
-        "sourceItems": 12,
-        "labels": 1
-      },
-      "reasons": [
-        "The section has enough source structure and explanatory density for now."
-      ]
-    },
-    {
-      "sectionId": "philosophers",
-      "sectionName": "Philosophers",
-      "pageTitle": "Jacques Derrida",
-      "pagePath": "/philosophers/jacques-derrida/",
-      "anchor": "prompt-3",
-      "url": "/philosophers/jacques-derrida/#prompt-3",
-      "prompt": "Provide the most likely causes behind Derrida becoming a notable philosopher.",
-      "heading": "Causes Behind Derrida Becoming a Notable Philosopher needs structure before it can persuade.",
-      "score": 100,
-      "level": "exceptional",
-      "needsReview": false,
-      "exceptionalReady": true,
-      "needsGapFill": true,
-      "gapReasons": [
-        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
-      ],
-      "wordCount": 401,
-      "avgItemWords": 26.2,
-      "metrics": {
-        "children": 2,
-        "sourceParagraphs": 2,
-        "sourceItems": 12,
-        "labels": 2
-      },
-      "reasons": [
-        "The section has enough source structure and explanatory density for now."
-      ]
-    },
-    {
-      "sectionId": "philosophers",
-      "sectionName": "Philosophers",
-      "pageTitle": "Jacques Derrida",
-      "pagePath": "/philosophers/jacques-derrida/",
-      "anchor": "prompt-4",
-      "url": "/philosophers/jacques-derrida/#prompt-4",
-      "prompt": "Which schools of philosophical thought and academic domains has the philosophy of Derrida most influenced?",
-      "heading": "Schools of Philosophical Thought Influenced by Derrida is the hinge of the response.",
-      "score": 100,
-      "level": "exceptional",
-      "needsReview": false,
-      "exceptionalReady": true,
-      "needsGapFill": true,
-      "gapReasons": [
-        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
-      ],
-      "wordCount": 410,
-      "avgItemWords": 25.6,
-      "metrics": {
-        "children": 3,
-        "sourceParagraphs": 6,
-        "sourceItems": 18,
-        "labels": 3
-      },
-      "reasons": [
-        "The section has enough source structure and explanatory density for now."
-      ]
-    },
-    {
-      "sectionId": "philosophers",
-      "sectionName": "Philosophers",
-      "pageTitle": "Jean-Paul Sartre",
-      "pagePath": "/philosophers/jean-paul-sartre/",
-      "anchor": "prompt-2",
-      "url": "/philosophers/jean-paul-sartre/#prompt-2",
-      "prompt": "Provide an annotated list of Jean-Paul Sartre’s 7 greatest contributions to philosophy.",
-      "heading": "Existentialism needs a map, not a heap of labels.",
-      "score": 100,
-      "level": "exceptional",
-      "needsReview": false,
-      "exceptionalReady": true,
-      "needsGapFill": true,
-      "gapReasons": [
-        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
-      ],
-      "wordCount": 376,
-      "avgItemWords": 20.0,
-      "metrics": {
-        "children": 0,
-        "sourceParagraphs": 3,
-        "sourceItems": 8,
-        "labels": 1
-      },
-      "reasons": [
-        "The section has enough source structure and explanatory density for now."
-      ]
-    },
-    {
-      "sectionId": "philosophers",
-      "sectionName": "Philosophers",
-      "pageTitle": "Jean-Paul Sartre",
-      "pagePath": "/philosophers/jean-paul-sartre/",
-      "anchor": "prompt-3",
-      "url": "/philosophers/jean-paul-sartre/#prompt-3",
-      "prompt": "Provide the most likely causes behind Jean-Paul Sartre becoming a notable philosopher.",
-      "heading": "Jean-Paul Sartre becoming a notable philosopher needs structure before it can persuade.",
+      "pageTitle": "Gottlob Frege",
+      "pagePath": "/philosophers/gottlob-frege/",
+      "anchor": "prompt-1",
+      "url": "/philosophers/gottlob-frege/#prompt-1",
+      "prompt": "Explain why Gottlob Frege remains philosophically important.",
+      "heading": "Historical setting is the hinge of the response.",
       "score": 100,
       "level": "exceptional",
       "needsReview": false,
@@ -14533,387 +15055,10 @@
         "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
       ],
       "wordCount": 369,
-      "avgItemWords": 19.0,
-      "metrics": {
-        "children": 0,
-        "sourceParagraphs": 4,
-        "sourceItems": 8,
-        "labels": 0
-      },
-      "reasons": [
-        "The section has enough source structure and explanatory density for now."
-      ]
-    },
-    {
-      "sectionId": "philosophers",
-      "sectionName": "Philosophers",
-      "pageTitle": "Jean-Paul Sartre",
-      "pagePath": "/philosophers/jean-paul-sartre/",
-      "anchor": "prompt-4",
-      "url": "/philosophers/jean-paul-sartre/#prompt-4",
-      "prompt": "Which schools of philosophical thought and academic domains has the philosophy of Jean-Paul Sartre most influenced?",
-      "heading": "The prompt turns Jean-Paul Sartre into a question that can be tested.",
-      "score": 100,
-      "level": "exceptional",
-      "needsReview": false,
-      "exceptionalReady": true,
-      "needsGapFill": true,
-      "gapReasons": [
-        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
-      ],
-      "wordCount": 402,
-      "avgItemWords": 25.3,
-      "metrics": {
-        "children": 0,
-        "sourceParagraphs": 4,
-        "sourceItems": 8,
-        "labels": 0
-      },
-      "reasons": [
-        "The section has enough source structure and explanatory density for now."
-      ]
-    },
-    {
-      "sectionId": "philosophers",
-      "sectionName": "Philosophers",
-      "pageTitle": "John Dewey",
-      "pagePath": "/philosophers/john-dewey/",
-      "anchor": "prompt-1",
-      "url": "/philosophers/john-dewey/#prompt-1",
-      "prompt": "Provide a short paragraph explaining John Dewey’s influence on philosophy.",
-      "heading": "John Dewey’s Influence on Philosophy is the hinge of the response.",
-      "score": 100,
-      "level": "exceptional",
-      "needsReview": false,
-      "exceptionalReady": true,
-      "needsGapFill": true,
-      "gapReasons": [
-        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
-      ],
-      "wordCount": 409,
-      "avgItemWords": 24.2,
-      "metrics": {
-        "children": 2,
-        "sourceParagraphs": 4,
-        "sourceItems": 0,
-        "labels": 2
-      },
-      "reasons": [
-        "The section has enough source structure and explanatory density for now."
-      ]
-    },
-    {
-      "sectionId": "philosophers",
-      "sectionName": "Philosophers",
-      "pageTitle": "John Dewey",
-      "pagePath": "/philosophers/john-dewey/",
-      "anchor": "prompt-2",
-      "url": "/philosophers/john-dewey/#prompt-2",
-      "prompt": "Provide an annotated list of Dewey’s 7 greatest contributions to philosophy.",
-      "heading": "John Dewey’s 7 Greatest Contributions to Philosophy needs a map, not a heap of labels.",
-      "score": 100,
-      "level": "exceptional",
-      "needsReview": false,
-      "exceptionalReady": true,
-      "needsGapFill": true,
-      "gapReasons": [
-        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
-      ],
-      "wordCount": 395,
-      "avgItemWords": 22.6,
-      "metrics": {
-        "children": 2,
-        "sourceParagraphs": 4,
-        "sourceItems": 12,
-        "labels": 2
-      },
-      "reasons": [
-        "The section has enough source structure and explanatory density for now."
-      ]
-    },
-    {
-      "sectionId": "philosophers",
-      "sectionName": "Philosophers",
-      "pageTitle": "John Dewey",
-      "pagePath": "/philosophers/john-dewey/",
-      "anchor": "prompt-3",
-      "url": "/philosophers/john-dewey/#prompt-3",
-      "prompt": "Provide the most likely causes behind Dewey becoming a notable philosopher.",
-      "heading": "Most Likely Causes Behind John Dewey Becoming a Notable Philosopher needs structure before it can persuade.",
-      "score": 100,
-      "level": "exceptional",
-      "needsReview": false,
-      "exceptionalReady": true,
-      "needsGapFill": true,
-      "gapReasons": [
-        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
-      ],
-      "wordCount": 404,
-      "avgItemWords": 24.2,
-      "metrics": {
-        "children": 2,
-        "sourceParagraphs": 4,
-        "sourceItems": 12,
-        "labels": 2
-      },
-      "reasons": [
-        "The section has enough source structure and explanatory density for now."
-      ]
-    },
-    {
-      "sectionId": "philosophers",
-      "sectionName": "Philosophers",
-      "pageTitle": "John Dewey",
-      "pagePath": "/philosophers/john-dewey/",
-      "anchor": "prompt-4",
-      "url": "/philosophers/john-dewey/#prompt-4",
-      "prompt": "Which schools of philosophical thought and academic domains has the philosophy of Dewey most influenced?",
-      "heading": "John Dewey is the hinge of the response.",
-      "score": 100,
-      "level": "exceptional",
-      "needsReview": false,
-      "exceptionalReady": true,
-      "needsGapFill": true,
-      "gapReasons": [
-        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
-      ],
-      "wordCount": 383,
-      "avgItemWords": 23.2,
-      "metrics": {
-        "children": 1,
-        "sourceParagraphs": 4,
-        "sourceItems": 6,
-        "labels": 1
-      },
-      "reasons": [
-        "The section has enough source structure and explanatory density for now."
-      ]
-    },
-    {
-      "sectionId": "philosophers",
-      "sectionName": "Philosophers",
-      "pageTitle": "John Locke",
-      "pagePath": "/philosophers/john-locke/",
-      "anchor": "prompt-2",
-      "url": "/philosophers/john-locke/#prompt-2",
-      "prompt": "Provide an annotated list of Locke’s 7 greatest contributions to philosophy.",
-      "heading": "John Locke’s Greatest Contributions to Philosophy needs a map, not a heap of labels.",
-      "score": 100,
-      "level": "exceptional",
-      "needsReview": false,
-      "exceptionalReady": true,
-      "needsGapFill": true,
-      "gapReasons": [
-        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
-      ],
-      "wordCount": 383,
-      "avgItemWords": 21.8,
-      "metrics": {
-        "children": 2,
-        "sourceParagraphs": 2,
-        "sourceItems": 12,
-        "labels": 2
-      },
-      "reasons": [
-        "The section has enough source structure and explanatory density for now."
-      ]
-    },
-    {
-      "sectionId": "philosophers",
-      "sectionName": "Philosophers",
-      "pageTitle": "John Locke",
-      "pagePath": "/philosophers/john-locke/",
-      "anchor": "prompt-3",
-      "url": "/philosophers/john-locke/#prompt-3",
-      "prompt": "Provide the most likely causes behind Locke becoming a notable philosopher.",
-      "heading": "Likely Causes Behind Locke Becoming a Notable Philosopher needs structure before it can persuade.",
-      "score": 100,
-      "level": "exceptional",
-      "needsReview": false,
-      "exceptionalReady": true,
-      "needsGapFill": true,
-      "gapReasons": [
-        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
-      ],
-      "wordCount": 394,
-      "avgItemWords": 21.2,
-      "metrics": {
-        "children": 1,
-        "sourceParagraphs": 4,
-        "sourceItems": 6,
-        "labels": 1
-      },
-      "reasons": [
-        "The section has enough source structure and explanatory density for now."
-      ]
-    },
-    {
-      "sectionId": "philosophers",
-      "sectionName": "Philosophers",
-      "pageTitle": "John Locke",
-      "pagePath": "/philosophers/john-locke/",
-      "anchor": "prompt-4",
-      "url": "/philosophers/john-locke/#prompt-4",
-      "prompt": "Which schools of philosophical thought and academic domains has the philosophy of Locke most influenced?",
-      "heading": "Schools of Philosophical Thought Influenced by Locke is the hinge of the response.",
-      "score": 100,
-      "level": "exceptional",
-      "needsReview": false,
-      "exceptionalReady": true,
-      "needsGapFill": true,
-      "gapReasons": [
-        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
-      ],
-      "wordCount": 385,
-      "avgItemWords": 23.0,
-      "metrics": {
-        "children": 2,
-        "sourceParagraphs": 4,
-        "sourceItems": 12,
-        "labels": 2
-      },
-      "reasons": [
-        "The section has enough source structure and explanatory density for now."
-      ]
-    },
-    {
-      "sectionId": "philosophers",
-      "sectionName": "Philosophers",
-      "pageTitle": "Jurgen Habermas",
-      "pagePath": "/philosophers/jurgen-habermas/",
-      "anchor": "prompt-1",
-      "url": "/philosophers/jurgen-habermas/#prompt-1",
-      "prompt": "Provide a short paragraph explaining Jurgen Habermas’ influence on philosophy.",
-      "heading": "Jurgen Habermas’ Influence on Philosophy is the hinge of the response.",
-      "score": 100,
-      "level": "exceptional",
-      "needsReview": false,
-      "exceptionalReady": true,
-      "needsGapFill": true,
-      "gapReasons": [
-        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
-      ],
-      "wordCount": 403,
-      "avgItemWords": 24.2,
-      "metrics": {
-        "children": 2,
-        "sourceParagraphs": 3,
-        "sourceItems": 0,
-        "labels": 2
-      },
-      "reasons": [
-        "The section has enough source structure and explanatory density for now."
-      ]
-    },
-    {
-      "sectionId": "philosophers",
-      "sectionName": "Philosophers",
-      "pageTitle": "Jurgen Habermas",
-      "pagePath": "/philosophers/jurgen-habermas/",
-      "anchor": "prompt-2",
-      "url": "/philosophers/jurgen-habermas/#prompt-2",
-      "prompt": "Provide an annotated list of Habermas’ 7 greatest contributions to philosophy.",
-      "heading": "Jurgen Habermas’ Greatest Contributions to Philosophy needs a map, not a heap of labels.",
-      "score": 100,
-      "level": "exceptional",
-      "needsReview": false,
-      "exceptionalReady": true,
-      "needsGapFill": true,
-      "gapReasons": [
-        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
-      ],
-      "wordCount": 384,
-      "avgItemWords": 22.6,
-      "metrics": {
-        "children": 2,
-        "sourceParagraphs": 4,
-        "sourceItems": 12,
-        "labels": 2
-      },
-      "reasons": [
-        "The section has enough source structure and explanatory density for now."
-      ]
-    },
-    {
-      "sectionId": "philosophers",
-      "sectionName": "Philosophers",
-      "pageTitle": "Jurgen Habermas",
-      "pagePath": "/philosophers/jurgen-habermas/",
-      "anchor": "prompt-3",
-      "url": "/philosophers/jurgen-habermas/#prompt-3",
-      "prompt": "Provide the most likely causes behind Habermas becoming a notable philosopher.",
-      "heading": "Causes Behind Habermas Becoming a Notable Philosopher needs structure before it can persuade.",
-      "score": 100,
-      "level": "exceptional",
-      "needsReview": false,
-      "exceptionalReady": true,
-      "needsGapFill": true,
-      "gapReasons": [
-        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
-      ],
-      "wordCount": 387,
-      "avgItemWords": 22.8,
-      "metrics": {
-        "children": 2,
-        "sourceParagraphs": 4,
-        "sourceItems": 12,
-        "labels": 2
-      },
-      "reasons": [
-        "The section has enough source structure and explanatory density for now."
-      ]
-    },
-    {
-      "sectionId": "philosophers",
-      "sectionName": "Philosophers",
-      "pageTitle": "Jurgen Habermas",
-      "pagePath": "/philosophers/jurgen-habermas/",
-      "anchor": "prompt-4",
-      "url": "/philosophers/jurgen-habermas/#prompt-4",
-      "prompt": "Which schools of philosophical thought and academic domains has the philosophy of Habermas most influenced?",
-      "heading": "Schools of Philosophical Thought Influenced by Habermas is the hinge of the response.",
-      "score": 100,
-      "level": "exceptional",
-      "needsReview": false,
-      "exceptionalReady": true,
-      "needsGapFill": true,
-      "gapReasons": [
-        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
-      ],
-      "wordCount": 390,
-      "avgItemWords": 23.2,
+      "avgItemWords": 20.2,
       "metrics": {
         "children": 3,
-        "sourceParagraphs": 4,
-        "sourceItems": 18,
-        "labels": 3
-      },
-      "reasons": [
-        "The section has enough source structure and explanatory density for now."
-      ]
-    },
-    {
-      "sectionId": "philosophers",
-      "sectionName": "Philosophers",
-      "pageTitle": "Karl Marx",
-      "pagePath": "/philosophers/karl-marx/",
-      "anchor": "prompt-1",
-      "url": "/philosophers/karl-marx/#prompt-1",
-      "prompt": "Provide a short paragraph explaining Karl Marx’s influence on philosophy.",
-      "heading": "Materialism vs. Idealism is the hinge of the response.",
-      "score": 100,
-      "level": "exceptional",
-      "needsReview": false,
-      "exceptionalReady": true,
-      "needsGapFill": true,
-      "gapReasons": [
-        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
-      ],
-      "wordCount": 400,
-      "avgItemWords": 19.8,
-      "metrics": {
-        "children": 0,
-        "sourceParagraphs": 4,
+        "sourceParagraphs": 5,
         "sourceItems": 3,
         "labels": 3
       },
@@ -14924,201 +15069,28 @@
     {
       "sectionId": "philosophers",
       "sectionName": "Philosophers",
-      "pageTitle": "Karl Marx",
-      "pagePath": "/philosophers/karl-marx/",
+      "pageTitle": "Gottlob Frege",
+      "pagePath": "/philosophers/gottlob-frege/",
       "anchor": "prompt-2",
-      "url": "/philosophers/karl-marx/#prompt-2",
-      "prompt": "Provide an annotated list of Marx’s 7 greatest contributions to philosophy.",
-      "heading": "Marx’s 7 Greatest Contributions to Philosophy needs a map, not a heap of labels.",
+      "url": "/philosophers/gottlob-frege/#prompt-2",
+      "prompt": "Identify Gottlob Frege's major concepts, methods, or questions.",
+      "heading": "Sense and reference needs a map, not a heap of labels.",
       "score": 100,
       "level": "exceptional",
       "needsReview": false,
-      "exceptionalReady": true,
+      "exceptionalReady": false,
       "needsGapFill": true,
       "gapReasons": [
-        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
-      ],
-      "wordCount": 400,
-      "avgItemWords": 25.6,
-      "metrics": {
-        "children": 2,
-        "sourceParagraphs": 3,
-        "sourceItems": 12,
-        "labels": 2
-      },
-      "reasons": [
-        "The section has enough source structure and explanatory density for now."
-      ]
-    },
-    {
-      "sectionId": "philosophers",
-      "sectionName": "Philosophers",
-      "pageTitle": "Karl Marx",
-      "pagePath": "/philosophers/karl-marx/",
-      "anchor": "prompt-3",
-      "url": "/philosophers/karl-marx/#prompt-3",
-      "prompt": "Provide the most likely causes behind Marx becoming a notable philosopher.",
-      "heading": "Causes Behind Marx Becoming a Notable Philosopher needs structure before it can persuade.",
-      "score": 100,
-      "level": "exceptional",
-      "needsReview": false,
-      "exceptionalReady": true,
-      "needsGapFill": true,
-      "gapReasons": [
-        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
-      ],
-      "wordCount": 392,
-      "avgItemWords": 21.0,
-      "metrics": {
-        "children": 1,
-        "sourceParagraphs": 3,
-        "sourceItems": 6,
-        "labels": 1
-      },
-      "reasons": [
-        "The section has enough source structure and explanatory density for now."
-      ]
-    },
-    {
-      "sectionId": "philosophers",
-      "sectionName": "Philosophers",
-      "pageTitle": "Karl Marx",
-      "pagePath": "/philosophers/karl-marx/",
-      "anchor": "prompt-4",
-      "url": "/philosophers/karl-marx/#prompt-4",
-      "prompt": "Which schools of philosophical thought and academic domains has the philosophy of Marx most influenced?",
-      "heading": "Schools of Philosophical Thought Influenced by Marx is the hinge of the response.",
-      "score": 100,
-      "level": "exceptional",
-      "needsReview": false,
-      "exceptionalReady": true,
-      "needsGapFill": true,
-      "gapReasons": [
-        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
-      ],
-      "wordCount": 408,
-      "avgItemWords": 25.4,
-      "metrics": {
-        "children": 2,
-        "sourceParagraphs": 4,
-        "sourceItems": 12,
-        "labels": 2
-      },
-      "reasons": [
-        "The section has enough source structure and explanatory density for now."
-      ]
-    },
-    {
-      "sectionId": "philosophers",
-      "sectionName": "Philosophers",
-      "pageTitle": "Ludwig Wittgenstein",
-      "pagePath": "/philosophers/ludwig-wittgenstein/",
-      "anchor": "prompt-2",
-      "url": "/philosophers/ludwig-wittgenstein/#prompt-2",
-      "prompt": "Provide an annotated list of Ludwig Wittgenstein’s 7 greatest contributions to philosophy.",
-      "heading": "Theory of Logical Atomism (Tractatus Logico-Philosophicus) needs a map, not a heap of labels.",
-      "score": 100,
-      "level": "exceptional",
-      "needsReview": false,
-      "exceptionalReady": true,
-      "needsGapFill": true,
-      "gapReasons": [
-        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
-      ],
-      "wordCount": 423,
-      "avgItemWords": 25.0,
-      "metrics": {
-        "children": 0,
-        "sourceParagraphs": 3,
-        "sourceItems": 8,
-        "labels": 5
-      },
-      "reasons": [
-        "The section has enough source structure and explanatory density for now."
-      ]
-    },
-    {
-      "sectionId": "philosophers",
-      "sectionName": "Philosophers",
-      "pageTitle": "Ludwig Wittgenstein",
-      "pagePath": "/philosophers/ludwig-wittgenstein/",
-      "anchor": "prompt-3",
-      "url": "/philosophers/ludwig-wittgenstein/#prompt-3",
-      "prompt": "Provide the most likely causes behind Ludwig Wittgenstein becoming a notable philosopher.",
-      "heading": "Exceptional Intellectual Environment is the hinge of the response.",
-      "score": 100,
-      "level": "exceptional",
-      "needsReview": false,
-      "exceptionalReady": true,
-      "needsGapFill": true,
-      "gapReasons": [
-        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
-      ],
-      "wordCount": 423,
-      "avgItemWords": 25.5,
-      "metrics": {
-        "children": 0,
-        "sourceParagraphs": 4,
-        "sourceItems": 8,
-        "labels": 5
-      },
-      "reasons": [
-        "The section has enough source structure and explanatory density for now."
-      ]
-    },
-    {
-      "sectionId": "philosophers",
-      "sectionName": "Philosophers",
-      "pageTitle": "Ludwig Wittgenstein",
-      "pagePath": "/philosophers/ludwig-wittgenstein/",
-      "anchor": "prompt-4",
-      "url": "/philosophers/ludwig-wittgenstein/#prompt-4",
-      "prompt": "Which schools of philosophical thought and academic domains has the philosophy of Ludwig Wittgenstein most influenced?",
-      "heading": "Analytic Philosophy is the hinge of the response.",
-      "score": 100,
-      "level": "exceptional",
-      "needsReview": false,
-      "exceptionalReady": true,
-      "needsGapFill": true,
-      "gapReasons": [
-        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
-      ],
-      "wordCount": 389,
-      "avgItemWords": 17.0,
-      "metrics": {
-        "children": 0,
-        "sourceParagraphs": 4,
-        "sourceItems": 8,
-        "labels": 5
-      },
-      "reasons": [
-        "The section has enough source structure and explanatory density for now."
-      ]
-    },
-    {
-      "sectionId": "philosophers",
-      "sectionName": "Philosophers",
-      "pageTitle": "Marcus Aurelius",
-      "pagePath": "/philosophers/marcus-aurelius/",
-      "anchor": "prompt-2",
-      "url": "/philosophers/marcus-aurelius/#prompt-2",
-      "prompt": "Provide an annotated list of Marcus Aurelius’ 7 greatest contributions to philosophy.",
-      "heading": "Description needs a map, not a heap of labels.",
-      "score": 100,
-      "level": "exceptional",
-      "needsReview": false,
-      "exceptionalReady": true,
-      "needsGapFill": true,
-      "gapReasons": [
+        "Support items should become more explanatory and less list-like.",
         "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
       ],
       "wordCount": 380,
-      "avgItemWords": 19.2,
+      "avgItemWords": 13.0,
       "metrics": {
-        "children": 0,
-        "sourceParagraphs": 4,
+        "children": 4,
+        "sourceParagraphs": 6,
         "sourceItems": 8,
-        "labels": 2
+        "labels": 4
       },
       "reasons": [
         "The section has enough source structure and explanatory density for now."
@@ -15127,12 +15099,12 @@
     {
       "sectionId": "philosophers",
       "sectionName": "Philosophers",
-      "pageTitle": "Marcus Aurelius",
-      "pagePath": "/philosophers/marcus-aurelius/",
+      "pageTitle": "Gottlob Frege",
+      "pagePath": "/philosophers/gottlob-frege/",
       "anchor": "prompt-3",
-      "url": "/philosophers/marcus-aurelius/#prompt-3",
-      "prompt": "Provide the most likely causes behind Marcus Aurelius becoming a notable philosopher.",
-      "heading": "Detail is the hinge of the response.",
+      "url": "/philosophers/gottlob-frege/#prompt-3",
+      "prompt": "Where does Gottlob Frege's view face its strongest objection?",
+      "heading": "Best objection is the hinge of the response.",
       "score": 100,
       "level": "exceptional",
       "needsReview": false,
@@ -15141,13 +15113,13 @@
       "gapReasons": [
         "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
       ],
-      "wordCount": 417,
-      "avgItemWords": 27.8,
+      "wordCount": 374,
+      "avgItemWords": 17.8,
       "metrics": {
-        "children": 0,
-        "sourceParagraphs": 3,
-        "sourceItems": 8,
-        "labels": 2
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
       },
       "reasons": [
         "The section has enough source structure and explanatory density for now."
@@ -15156,12 +15128,12 @@
     {
       "sectionId": "philosophers",
       "sectionName": "Philosophers",
-      "pageTitle": "Marcus Aurelius",
-      "pagePath": "/philosophers/marcus-aurelius/",
+      "pageTitle": "Gottlob Frege",
+      "pagePath": "/philosophers/gottlob-frege/",
       "anchor": "prompt-4",
-      "url": "/philosophers/marcus-aurelius/#prompt-4",
-      "prompt": "Which schools of philosophical thought and academic domains has the philosophy of Marcus Aurelius most influenced?",
-      "heading": "Detail is the hinge of the response.",
+      "url": "/philosophers/gottlob-frege/#prompt-4",
+      "prompt": "How should a contemporary reader begin with Gottlob Frege?",
+      "heading": "Best entry point is the hinge of the response.",
       "score": 100,
       "level": "exceptional",
       "needsReview": false,
@@ -15170,13 +15142,42 @@
       "gapReasons": [
         "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
       ],
-      "wordCount": 372,
-      "avgItemWords": 20.7,
+      "wordCount": 378,
+      "avgItemWords": 21.0,
       "metrics": {
-        "children": 0,
-        "sourceParagraphs": 4,
-        "sourceItems": 8,
-        "labels": 2
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 5
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Hannah Arendt",
+      "pagePath": "/philosophers/hannah-arendt/",
+      "anchor": "prompt-1",
+      "url": "/philosophers/hannah-arendt/#prompt-1",
+      "prompt": "Explain why Hannah Arendt remains philosophically important.",
+      "heading": "Historical setting is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 376,
+      "avgItemWords": 21.2,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
       },
       "reasons": [
         "The section has enough source structure and explanatory density for now."
@@ -36288,6 +36289,122 @@
     {
       "sectionId": "philosophers",
       "sectionName": "Philosophers",
+      "pageTitle": "Anselm of Canterbury",
+      "pagePath": "/philosophers/anselm-of-canterbury/",
+      "anchor": "prompt-1",
+      "url": "/philosophers/anselm-of-canterbury/#prompt-1",
+      "prompt": "Explain why Anselm of Canterbury remains philosophically important.",
+      "heading": "Historical setting is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 387,
+      "avgItemWords": 22.0,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Anselm of Canterbury",
+      "pagePath": "/philosophers/anselm-of-canterbury/",
+      "anchor": "prompt-2",
+      "url": "/philosophers/anselm-of-canterbury/#prompt-2",
+      "prompt": "Identify Anselm of Canterbury's major concepts, methods, or questions.",
+      "heading": "Faith seeking understanding needs a map, not a heap of labels.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 385,
+      "avgItemWords": 25.4,
+      "metrics": {
+        "children": 4,
+        "sourceParagraphs": 6,
+        "sourceItems": 8,
+        "labels": 4
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Anselm of Canterbury",
+      "pagePath": "/philosophers/anselm-of-canterbury/",
+      "anchor": "prompt-3",
+      "url": "/philosophers/anselm-of-canterbury/#prompt-3",
+      "prompt": "Where does Anselm of Canterbury's view face its strongest objection?",
+      "heading": "Best objection is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 396,
+      "avgItemWords": 19.4,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Anselm of Canterbury",
+      "pagePath": "/philosophers/anselm-of-canterbury/",
+      "anchor": "prompt-4",
+      "url": "/philosophers/anselm-of-canterbury/#prompt-4",
+      "prompt": "How should a contemporary reader begin with Anselm of Canterbury?",
+      "heading": "Best entry point is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 408,
+      "avgItemWords": 23.2,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 5
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
       "pageTitle": "Aquinas’ Five Ways",
       "pagePath": "/philosophers/aquinas-five-ways/",
       "anchor": "prompt-1",
@@ -36598,6 +36715,354 @@
         "children": 0,
         "sourceParagraphs": 4,
         "sourceItems": 8,
+        "labels": 5
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Augustine of Hippo",
+      "pagePath": "/philosophers/augustine-of-hippo/",
+      "anchor": "prompt-1",
+      "url": "/philosophers/augustine-of-hippo/#prompt-1",
+      "prompt": "Explain why Augustine of Hippo remains philosophically important.",
+      "heading": "Historical setting is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 376,
+      "avgItemWords": 23.4,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Augustine of Hippo",
+      "pagePath": "/philosophers/augustine-of-hippo/",
+      "anchor": "prompt-2",
+      "url": "/philosophers/augustine-of-hippo/#prompt-2",
+      "prompt": "Identify Augustine of Hippo's major concepts, methods, or questions.",
+      "heading": "Restless desire needs a map, not a heap of labels.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 377,
+      "avgItemWords": 23.8,
+      "metrics": {
+        "children": 4,
+        "sourceParagraphs": 6,
+        "sourceItems": 8,
+        "labels": 4
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Augustine of Hippo",
+      "pagePath": "/philosophers/augustine-of-hippo/",
+      "anchor": "prompt-3",
+      "url": "/philosophers/augustine-of-hippo/#prompt-3",
+      "prompt": "Where does Augustine of Hippo's view face its strongest objection?",
+      "heading": "Best objection is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 386,
+      "avgItemWords": 18.4,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Augustine of Hippo",
+      "pagePath": "/philosophers/augustine-of-hippo/",
+      "anchor": "prompt-4",
+      "url": "/philosophers/augustine-of-hippo/#prompt-4",
+      "prompt": "How should a contemporary reader begin with Augustine of Hippo?",
+      "heading": "Best entry point is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 408,
+      "avgItemWords": 24.4,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 5
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Averroes",
+      "pagePath": "/philosophers/averroes/",
+      "anchor": "prompt-1",
+      "url": "/philosophers/averroes/#prompt-1",
+      "prompt": "Explain why Averroes remains philosophically important.",
+      "heading": "Historical setting is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 375,
+      "avgItemWords": 22.3,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Averroes",
+      "pagePath": "/philosophers/averroes/",
+      "anchor": "prompt-2",
+      "url": "/philosophers/averroes/#prompt-2",
+      "prompt": "Identify Averroes's major concepts, methods, or questions.",
+      "heading": "Demonstration needs a map, not a heap of labels.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 399,
+      "avgItemWords": 18.4,
+      "metrics": {
+        "children": 4,
+        "sourceParagraphs": 6,
+        "sourceItems": 8,
+        "labels": 4
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Averroes",
+      "pagePath": "/philosophers/averroes/",
+      "anchor": "prompt-3",
+      "url": "/philosophers/averroes/#prompt-3",
+      "prompt": "Where does Averroes's view face its strongest objection?",
+      "heading": "Best objection is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 402,
+      "avgItemWords": 17.6,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Averroes",
+      "pagePath": "/philosophers/averroes/",
+      "anchor": "prompt-4",
+      "url": "/philosophers/averroes/#prompt-4",
+      "prompt": "How should a contemporary reader begin with Averroes?",
+      "heading": "Best entry point is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 374,
+      "avgItemWords": 21.2,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 5
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Avicenna",
+      "pagePath": "/philosophers/avicenna/",
+      "anchor": "prompt-1",
+      "url": "/philosophers/avicenna/#prompt-1",
+      "prompt": "Explain why Avicenna remains philosophically important.",
+      "heading": "Historical setting is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 372,
+      "avgItemWords": 21.3,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Avicenna",
+      "pagePath": "/philosophers/avicenna/",
+      "anchor": "prompt-2",
+      "url": "/philosophers/avicenna/#prompt-2",
+      "prompt": "Identify Avicenna's major concepts, methods, or questions.",
+      "heading": "Essence and existence needs a map, not a heap of labels.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 369,
+      "avgItemWords": 18.6,
+      "metrics": {
+        "children": 4,
+        "sourceParagraphs": 6,
+        "sourceItems": 8,
+        "labels": 4
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Avicenna",
+      "pagePath": "/philosophers/avicenna/",
+      "anchor": "prompt-3",
+      "url": "/philosophers/avicenna/#prompt-3",
+      "prompt": "Where does Avicenna's view face its strongest objection?",
+      "heading": "Best objection is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 400,
+      "avgItemWords": 17.4,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Avicenna",
+      "pagePath": "/philosophers/avicenna/",
+      "anchor": "prompt-4",
+      "url": "/philosophers/avicenna/#prompt-4",
+      "prompt": "How should a contemporary reader begin with Avicenna?",
+      "heading": "Best entry point is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 375,
+      "avgItemWords": 21.6,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
         "labels": 5
       },
       "reasons": [
@@ -36947,6 +37412,122 @@
         "sourceParagraphs": 4,
         "sourceItems": 6,
         "labels": 1
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Confucius",
+      "pagePath": "/philosophers/confucius/",
+      "anchor": "prompt-1",
+      "url": "/philosophers/confucius/#prompt-1",
+      "prompt": "Explain why Confucius remains philosophically important.",
+      "heading": "Historical setting is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 369,
+      "avgItemWords": 21.3,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Confucius",
+      "pagePath": "/philosophers/confucius/",
+      "anchor": "prompt-2",
+      "url": "/philosophers/confucius/#prompt-2",
+      "prompt": "Identify Confucius's major concepts, methods, or questions.",
+      "heading": "Ren needs a map, not a heap of labels.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 371,
+      "avgItemWords": 27.2,
+      "metrics": {
+        "children": 4,
+        "sourceParagraphs": 6,
+        "sourceItems": 8,
+        "labels": 4
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Confucius",
+      "pagePath": "/philosophers/confucius/",
+      "anchor": "prompt-3",
+      "url": "/philosophers/confucius/#prompt-3",
+      "prompt": "Where does Confucius's view face its strongest objection?",
+      "heading": "Best objection is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 400,
+      "avgItemWords": 17.4,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Confucius",
+      "pagePath": "/philosophers/confucius/",
+      "anchor": "prompt-4",
+      "url": "/philosophers/confucius/#prompt-4",
+      "prompt": "How should a contemporary reader begin with Confucius?",
+      "heading": "Best entry point is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 382,
+      "avgItemWords": 22.4,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 5
       },
       "reasons": [
         "The section has enough source structure and explanatory density for now."
@@ -37651,6 +38232,122 @@
     {
       "sectionId": "philosophers",
       "sectionName": "Philosophers",
+      "pageTitle": "Elizabeth Anscombe",
+      "pagePath": "/philosophers/elizabeth-anscombe/",
+      "anchor": "prompt-1",
+      "url": "/philosophers/elizabeth-anscombe/#prompt-1",
+      "prompt": "Explain why Elizabeth Anscombe remains philosophically important.",
+      "heading": "Historical setting is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 397,
+      "avgItemWords": 24.2,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Elizabeth Anscombe",
+      "pagePath": "/philosophers/elizabeth-anscombe/",
+      "anchor": "prompt-2",
+      "url": "/philosophers/elizabeth-anscombe/#prompt-2",
+      "prompt": "Identify Elizabeth Anscombe's major concepts, methods, or questions.",
+      "heading": "Intention needs a map, not a heap of labels.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 383,
+      "avgItemWords": 20.6,
+      "metrics": {
+        "children": 4,
+        "sourceParagraphs": 6,
+        "sourceItems": 8,
+        "labels": 4
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Elizabeth Anscombe",
+      "pagePath": "/philosophers/elizabeth-anscombe/",
+      "anchor": "prompt-3",
+      "url": "/philosophers/elizabeth-anscombe/#prompt-3",
+      "prompt": "Where does Elizabeth Anscombe's view face its strongest objection?",
+      "heading": "Best objection is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 378,
+      "avgItemWords": 18.2,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Elizabeth Anscombe",
+      "pagePath": "/philosophers/elizabeth-anscombe/",
+      "anchor": "prompt-4",
+      "url": "/philosophers/elizabeth-anscombe/#prompt-4",
+      "prompt": "How should a contemporary reader begin with Elizabeth Anscombe?",
+      "heading": "Best entry point is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 388,
+      "avgItemWords": 22.8,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 5
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
       "pageTitle": "Empiricists",
       "pagePath": "/philosophers/empiricists/",
       "anchor": "prompt-1",
@@ -38231,6 +38928,122 @@
     {
       "sectionId": "philosophers",
       "sectionName": "Philosophers",
+      "pageTitle": "G.E. Moore",
+      "pagePath": "/philosophers/g-e-moore/",
+      "anchor": "prompt-1",
+      "url": "/philosophers/g-e-moore/#prompt-1",
+      "prompt": "Explain why G.E. Moore remains philosophically important.",
+      "heading": "Historical setting is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 371,
+      "avgItemWords": 20.3,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "G.E. Moore",
+      "pagePath": "/philosophers/g-e-moore/",
+      "anchor": "prompt-2",
+      "url": "/philosophers/g-e-moore/#prompt-2",
+      "prompt": "Identify G.E. Moore's major concepts, methods, or questions.",
+      "heading": "Common sense needs a map, not a heap of labels.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 371,
+      "avgItemWords": 24.2,
+      "metrics": {
+        "children": 4,
+        "sourceParagraphs": 6,
+        "sourceItems": 8,
+        "labels": 4
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "G.E. Moore",
+      "pagePath": "/philosophers/g-e-moore/",
+      "anchor": "prompt-3",
+      "url": "/philosophers/g-e-moore/#prompt-3",
+      "prompt": "Where does G.E. Moore's view face its strongest objection?",
+      "heading": "Best objection is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 388,
+      "avgItemWords": 20.0,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "G.E. Moore",
+      "pagePath": "/philosophers/g-e-moore/",
+      "anchor": "prompt-4",
+      "url": "/philosophers/g-e-moore/#prompt-4",
+      "prompt": "How should a contemporary reader begin with G.E. Moore?",
+      "heading": "Best entry point is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 397,
+      "avgItemWords": 19.0,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 5
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
       "pageTitle": "Georg Wilhelm Friedrich Hegel",
       "pagePath": "/philosophers/georg-wilhelm-friedrich-hegel/",
       "anchor": "prompt-1",
@@ -38571,6 +39384,356 @@
         "sourceParagraphs": 4,
         "sourceItems": 10,
         "labels": 2
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Gottlob Frege",
+      "pagePath": "/philosophers/gottlob-frege/",
+      "anchor": "prompt-1",
+      "url": "/philosophers/gottlob-frege/#prompt-1",
+      "prompt": "Explain why Gottlob Frege remains philosophically important.",
+      "heading": "Historical setting is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 369,
+      "avgItemWords": 20.2,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Gottlob Frege",
+      "pagePath": "/philosophers/gottlob-frege/",
+      "anchor": "prompt-2",
+      "url": "/philosophers/gottlob-frege/#prompt-2",
+      "prompt": "Identify Gottlob Frege's major concepts, methods, or questions.",
+      "heading": "Sense and reference needs a map, not a heap of labels.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": false,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Support items should become more explanatory and less list-like.",
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 380,
+      "avgItemWords": 13.0,
+      "metrics": {
+        "children": 4,
+        "sourceParagraphs": 6,
+        "sourceItems": 8,
+        "labels": 4
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Gottlob Frege",
+      "pagePath": "/philosophers/gottlob-frege/",
+      "anchor": "prompt-3",
+      "url": "/philosophers/gottlob-frege/#prompt-3",
+      "prompt": "Where does Gottlob Frege's view face its strongest objection?",
+      "heading": "Best objection is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 374,
+      "avgItemWords": 17.8,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Gottlob Frege",
+      "pagePath": "/philosophers/gottlob-frege/",
+      "anchor": "prompt-4",
+      "url": "/philosophers/gottlob-frege/#prompt-4",
+      "prompt": "How should a contemporary reader begin with Gottlob Frege?",
+      "heading": "Best entry point is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 378,
+      "avgItemWords": 21.0,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 5
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Hannah Arendt",
+      "pagePath": "/philosophers/hannah-arendt/",
+      "anchor": "prompt-1",
+      "url": "/philosophers/hannah-arendt/#prompt-1",
+      "prompt": "Explain why Hannah Arendt remains philosophically important.",
+      "heading": "Historical setting is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 376,
+      "avgItemWords": 21.2,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Hannah Arendt",
+      "pagePath": "/philosophers/hannah-arendt/",
+      "anchor": "prompt-2",
+      "url": "/philosophers/hannah-arendt/#prompt-2",
+      "prompt": "Identify Hannah Arendt's major concepts, methods, or questions.",
+      "heading": "Plurality needs a map, not a heap of labels.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": false,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Support items should become more explanatory and less list-like.",
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 390,
+      "avgItemWords": 15.2,
+      "metrics": {
+        "children": 4,
+        "sourceParagraphs": 6,
+        "sourceItems": 8,
+        "labels": 4
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Hannah Arendt",
+      "pagePath": "/philosophers/hannah-arendt/",
+      "anchor": "prompt-3",
+      "url": "/philosophers/hannah-arendt/#prompt-3",
+      "prompt": "Where does Hannah Arendt's view face its strongest objection?",
+      "heading": "Best objection is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 380,
+      "avgItemWords": 18.4,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Hannah Arendt",
+      "pagePath": "/philosophers/hannah-arendt/",
+      "anchor": "prompt-4",
+      "url": "/philosophers/hannah-arendt/#prompt-4",
+      "prompt": "How should a contemporary reader begin with Hannah Arendt?",
+      "heading": "Best entry point is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 381,
+      "avgItemWords": 21.4,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 5
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Heraclitus",
+      "pagePath": "/philosophers/heraclitus/",
+      "anchor": "prompt-1",
+      "url": "/philosophers/heraclitus/#prompt-1",
+      "prompt": "Explain why Heraclitus remains philosophically important.",
+      "heading": "Historical setting is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 372,
+      "avgItemWords": 22.0,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Heraclitus",
+      "pagePath": "/philosophers/heraclitus/",
+      "anchor": "prompt-2",
+      "url": "/philosophers/heraclitus/#prompt-2",
+      "prompt": "Identify Heraclitus's major concepts, methods, or questions.",
+      "heading": "Flux needs a map, not a heap of labels.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 367,
+      "avgItemWords": 18.2,
+      "metrics": {
+        "children": 4,
+        "sourceParagraphs": 6,
+        "sourceItems": 8,
+        "labels": 4
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Heraclitus",
+      "pagePath": "/philosophers/heraclitus/",
+      "anchor": "prompt-3",
+      "url": "/philosophers/heraclitus/#prompt-3",
+      "prompt": "Where does Heraclitus's view face its strongest objection?",
+      "heading": "Best objection is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 374,
+      "avgItemWords": 18.4,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Heraclitus",
+      "pagePath": "/philosophers/heraclitus/",
+      "anchor": "prompt-4",
+      "url": "/philosophers/heraclitus/#prompt-4",
+      "prompt": "How should a contemporary reader begin with Heraclitus?",
+      "heading": "Best entry point is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 388,
+      "avgItemWords": 22.5,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 5
       },
       "reasons": [
         "The section has enough source structure and explanatory density for now."
@@ -38927,6 +40090,123 @@
     {
       "sectionId": "philosophers",
       "sectionName": "Philosophers",
+      "pageTitle": "Jean-Jacques Rousseau",
+      "pagePath": "/philosophers/jean-jacques-rousseau/",
+      "anchor": "prompt-1",
+      "url": "/philosophers/jean-jacques-rousseau/#prompt-1",
+      "prompt": "Explain why Jean-Jacques Rousseau remains philosophically important.",
+      "heading": "Historical setting is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 390,
+      "avgItemWords": 22.2,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Jean-Jacques Rousseau",
+      "pagePath": "/philosophers/jean-jacques-rousseau/",
+      "anchor": "prompt-2",
+      "url": "/philosophers/jean-jacques-rousseau/#prompt-2",
+      "prompt": "Identify Jean-Jacques Rousseau's major concepts, methods, or questions.",
+      "heading": "Amour-propre needs a map, not a heap of labels.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": false,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Support items should become more explanatory and less list-like.",
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 391,
+      "avgItemWords": 14.2,
+      "metrics": {
+        "children": 4,
+        "sourceParagraphs": 6,
+        "sourceItems": 8,
+        "labels": 4
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Jean-Jacques Rousseau",
+      "pagePath": "/philosophers/jean-jacques-rousseau/",
+      "anchor": "prompt-3",
+      "url": "/philosophers/jean-jacques-rousseau/#prompt-3",
+      "prompt": "Where does Jean-Jacques Rousseau's view face its strongest objection?",
+      "heading": "Best objection is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 375,
+      "avgItemWords": 17.6,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Jean-Jacques Rousseau",
+      "pagePath": "/philosophers/jean-jacques-rousseau/",
+      "anchor": "prompt-4",
+      "url": "/philosophers/jean-jacques-rousseau/#prompt-4",
+      "prompt": "How should a contemporary reader begin with Jean-Jacques Rousseau?",
+      "heading": "Best entry point is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 369,
+      "avgItemWords": 20.0,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 5
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
       "pageTitle": "Jean-Paul Sartre",
       "pagePath": "/philosophers/jean-paul-sartre/",
       "anchor": "prompt-1",
@@ -39275,6 +40555,355 @@
     {
       "sectionId": "philosophers",
       "sectionName": "Philosophers",
+      "pageTitle": "John Rawls",
+      "pagePath": "/philosophers/john-rawls/",
+      "anchor": "prompt-1",
+      "url": "/philosophers/john-rawls/#prompt-1",
+      "prompt": "Explain why John Rawls remains philosophically important.",
+      "heading": "Historical setting is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 379,
+      "avgItemWords": 19.6,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "John Rawls",
+      "pagePath": "/philosophers/john-rawls/",
+      "anchor": "prompt-2",
+      "url": "/philosophers/john-rawls/#prompt-2",
+      "prompt": "Identify John Rawls's major concepts, methods, or questions.",
+      "heading": "Original position needs a map, not a heap of labels.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": false,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Support items should become more explanatory and less list-like.",
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 389,
+      "avgItemWords": 14.2,
+      "metrics": {
+        "children": 4,
+        "sourceParagraphs": 6,
+        "sourceItems": 8,
+        "labels": 4
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "John Rawls",
+      "pagePath": "/philosophers/john-rawls/",
+      "anchor": "prompt-3",
+      "url": "/philosophers/john-rawls/#prompt-3",
+      "prompt": "Where does John Rawls's view face its strongest objection?",
+      "heading": "Best objection is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 374,
+      "avgItemWords": 17.8,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "John Rawls",
+      "pagePath": "/philosophers/john-rawls/",
+      "anchor": "prompt-4",
+      "url": "/philosophers/john-rawls/#prompt-4",
+      "prompt": "How should a contemporary reader begin with John Rawls?",
+      "heading": "Best entry point is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 382,
+      "avgItemWords": 21.8,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 5
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "John Stuart Mill",
+      "pagePath": "/philosophers/john-stuart-mill/",
+      "anchor": "prompt-1",
+      "url": "/philosophers/john-stuart-mill/#prompt-1",
+      "prompt": "Explain why John Stuart Mill remains philosophically important.",
+      "heading": "Historical setting is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 387,
+      "avgItemWords": 22.3,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "John Stuart Mill",
+      "pagePath": "/philosophers/john-stuart-mill/",
+      "anchor": "prompt-2",
+      "url": "/philosophers/john-stuart-mill/#prompt-2",
+      "prompt": "Identify John Stuart Mill's major concepts, methods, or questions.",
+      "heading": "Harm principle needs a map, not a heap of labels.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 385,
+      "avgItemWords": 19.2,
+      "metrics": {
+        "children": 4,
+        "sourceParagraphs": 6,
+        "sourceItems": 8,
+        "labels": 4
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "John Stuart Mill",
+      "pagePath": "/philosophers/john-stuart-mill/",
+      "anchor": "prompt-3",
+      "url": "/philosophers/john-stuart-mill/#prompt-3",
+      "prompt": "Where does John Stuart Mill's view face its strongest objection?",
+      "heading": "Best objection is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 390,
+      "avgItemWords": 18.8,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "John Stuart Mill",
+      "pagePath": "/philosophers/john-stuart-mill/",
+      "anchor": "prompt-4",
+      "url": "/philosophers/john-stuart-mill/#prompt-4",
+      "prompt": "How should a contemporary reader begin with John Stuart Mill?",
+      "heading": "Best entry point is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 385,
+      "avgItemWords": 21.4,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 5
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Judith Butler",
+      "pagePath": "/philosophers/judith-butler/",
+      "anchor": "prompt-1",
+      "url": "/philosophers/judith-butler/#prompt-1",
+      "prompt": "Explain why Judith Butler remains philosophically important.",
+      "heading": "Historical setting is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 382,
+      "avgItemWords": 21.0,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Judith Butler",
+      "pagePath": "/philosophers/judith-butler/",
+      "anchor": "prompt-2",
+      "url": "/philosophers/judith-butler/#prompt-2",
+      "prompt": "Identify Judith Butler's major concepts, methods, or questions.",
+      "heading": "Performativity needs a map, not a heap of labels.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 393,
+      "avgItemWords": 23.2,
+      "metrics": {
+        "children": 4,
+        "sourceParagraphs": 6,
+        "sourceItems": 8,
+        "labels": 4
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Judith Butler",
+      "pagePath": "/philosophers/judith-butler/",
+      "anchor": "prompt-3",
+      "url": "/philosophers/judith-butler/#prompt-3",
+      "prompt": "Where does Judith Butler's view face its strongest objection?",
+      "heading": "Best objection is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 370,
+      "avgItemWords": 17.4,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Judith Butler",
+      "pagePath": "/philosophers/judith-butler/",
+      "anchor": "prompt-4",
+      "url": "/philosophers/judith-butler/#prompt-4",
+      "prompt": "How should a contemporary reader begin with Judith Butler?",
+      "heading": "Best entry point is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 385,
+      "avgItemWords": 22.2,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 5
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
       "pageTitle": "Jurgen Habermas",
       "pagePath": "/philosophers/jurgen-habermas/",
       "anchor": "prompt-1",
@@ -39507,6 +41136,122 @@
     {
       "sectionId": "philosophers",
       "sectionName": "Philosophers",
+      "pageTitle": "Laozi",
+      "pagePath": "/philosophers/laozi/",
+      "anchor": "prompt-1",
+      "url": "/philosophers/laozi/#prompt-1",
+      "prompt": "Explain why Laozi remains philosophically important.",
+      "heading": "Historical setting is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 388,
+      "avgItemWords": 19.3,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Laozi",
+      "pagePath": "/philosophers/laozi/",
+      "anchor": "prompt-2",
+      "url": "/philosophers/laozi/#prompt-2",
+      "prompt": "Identify Laozi's major concepts, methods, or questions.",
+      "heading": "Dao needs a map, not a heap of labels.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 371,
+      "avgItemWords": 26.6,
+      "metrics": {
+        "children": 4,
+        "sourceParagraphs": 6,
+        "sourceItems": 8,
+        "labels": 4
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Laozi",
+      "pagePath": "/philosophers/laozi/",
+      "anchor": "prompt-3",
+      "url": "/philosophers/laozi/#prompt-3",
+      "prompt": "Where does Laozi's view face its strongest objection?",
+      "heading": "Best objection is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 372,
+      "avgItemWords": 18.2,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Laozi",
+      "pagePath": "/philosophers/laozi/",
+      "anchor": "prompt-4",
+      "url": "/philosophers/laozi/#prompt-4",
+      "prompt": "How should a contemporary reader begin with Laozi?",
+      "heading": "Best entry point is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 383,
+      "avgItemWords": 23.4,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 5
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
       "pageTitle": "Ludwig Wittgenstein",
       "pagePath": "/philosophers/ludwig-wittgenstein/",
       "anchor": "prompt-1",
@@ -39614,6 +41359,122 @@
         "children": 0,
         "sourceParagraphs": 4,
         "sourceItems": 8,
+        "labels": 5
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Maimonides",
+      "pagePath": "/philosophers/maimonides/",
+      "anchor": "prompt-1",
+      "url": "/philosophers/maimonides/#prompt-1",
+      "prompt": "Explain why Maimonides remains philosophically important.",
+      "heading": "Historical setting is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 368,
+      "avgItemWords": 20.7,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Maimonides",
+      "pagePath": "/philosophers/maimonides/",
+      "anchor": "prompt-2",
+      "url": "/philosophers/maimonides/#prompt-2",
+      "prompt": "Identify Maimonides's major concepts, methods, or questions.",
+      "heading": "Negative theology needs a map, not a heap of labels.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 373,
+      "avgItemWords": 24.6,
+      "metrics": {
+        "children": 4,
+        "sourceParagraphs": 6,
+        "sourceItems": 8,
+        "labels": 4
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Maimonides",
+      "pagePath": "/philosophers/maimonides/",
+      "anchor": "prompt-3",
+      "url": "/philosophers/maimonides/#prompt-3",
+      "prompt": "Where does Maimonides's view face its strongest objection?",
+      "heading": "Best objection is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 368,
+      "avgItemWords": 17.8,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Maimonides",
+      "pagePath": "/philosophers/maimonides/",
+      "anchor": "prompt-4",
+      "url": "/philosophers/maimonides/#prompt-4",
+      "prompt": "How should a contemporary reader begin with Maimonides?",
+      "heading": "Best entry point is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 382,
+      "avgItemWords": 22.0,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
         "labels": 5
       },
       "reasons": [
@@ -39855,6 +41716,122 @@
     {
       "sectionId": "philosophers",
       "sectionName": "Philosophers",
+      "pageTitle": "Mary Wollstonecraft",
+      "pagePath": "/philosophers/mary-wollstonecraft/",
+      "anchor": "prompt-1",
+      "url": "/philosophers/mary-wollstonecraft/#prompt-1",
+      "prompt": "Explain why Mary Wollstonecraft remains philosophically important.",
+      "heading": "Historical setting is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 375,
+      "avgItemWords": 20.8,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Mary Wollstonecraft",
+      "pagePath": "/philosophers/mary-wollstonecraft/",
+      "anchor": "prompt-2",
+      "url": "/philosophers/mary-wollstonecraft/#prompt-2",
+      "prompt": "Identify Mary Wollstonecraft's major concepts, methods, or questions.",
+      "heading": "Rational equality needs a map, not a heap of labels.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 396,
+      "avgItemWords": 23.4,
+      "metrics": {
+        "children": 4,
+        "sourceParagraphs": 6,
+        "sourceItems": 8,
+        "labels": 4
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Mary Wollstonecraft",
+      "pagePath": "/philosophers/mary-wollstonecraft/",
+      "anchor": "prompt-3",
+      "url": "/philosophers/mary-wollstonecraft/#prompt-3",
+      "prompt": "Where does Mary Wollstonecraft's view face its strongest objection?",
+      "heading": "Best objection is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 378,
+      "avgItemWords": 18.2,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Mary Wollstonecraft",
+      "pagePath": "/philosophers/mary-wollstonecraft/",
+      "anchor": "prompt-4",
+      "url": "/philosophers/mary-wollstonecraft/#prompt-4",
+      "prompt": "How should a contemporary reader begin with Mary Wollstonecraft?",
+      "heading": "Best entry point is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 390,
+      "avgItemWords": 22.6,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 5
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
       "pageTitle": "Maurice Merleau-Ponty",
       "pagePath": "/philosophers/maurice-merleau-ponty/",
       "anchor": "prompt-1",
@@ -39971,6 +41948,122 @@
     {
       "sectionId": "philosophers",
       "sectionName": "Philosophers",
+      "pageTitle": "Mencius",
+      "pagePath": "/philosophers/mencius/",
+      "anchor": "prompt-1",
+      "url": "/philosophers/mencius/#prompt-1",
+      "prompt": "Explain why Mencius remains philosophically important.",
+      "heading": "Historical setting is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 391,
+      "avgItemWords": 18.2,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Mencius",
+      "pagePath": "/philosophers/mencius/",
+      "anchor": "prompt-2",
+      "url": "/philosophers/mencius/#prompt-2",
+      "prompt": "Identify Mencius's major concepts, methods, or questions.",
+      "heading": "Four sprouts needs a map, not a heap of labels.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 398,
+      "avgItemWords": 18.0,
+      "metrics": {
+        "children": 4,
+        "sourceParagraphs": 6,
+        "sourceItems": 8,
+        "labels": 4
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Mencius",
+      "pagePath": "/philosophers/mencius/",
+      "anchor": "prompt-3",
+      "url": "/philosophers/mencius/#prompt-3",
+      "prompt": "Where does Mencius's view face its strongest objection?",
+      "heading": "Best objection is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 372,
+      "avgItemWords": 18.2,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Mencius",
+      "pagePath": "/philosophers/mencius/",
+      "anchor": "prompt-4",
+      "url": "/philosophers/mencius/#prompt-4",
+      "prompt": "How should a contemporary reader begin with Mencius?",
+      "heading": "Best entry point is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 376,
+      "avgItemWords": 21.2,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 5
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
       "pageTitle": "Michel Foucault",
       "pagePath": "/philosophers/michel-foucault/",
       "anchor": "prompt-1",
@@ -40079,6 +42172,354 @@
         "sourceParagraphs": 4,
         "sourceItems": 12,
         "labels": 2
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Nagarjuna",
+      "pagePath": "/philosophers/nagarjuna/",
+      "anchor": "prompt-1",
+      "url": "/philosophers/nagarjuna/#prompt-1",
+      "prompt": "Explain why Nagarjuna remains philosophically important.",
+      "heading": "Historical setting is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 385,
+      "avgItemWords": 19.0,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Nagarjuna",
+      "pagePath": "/philosophers/nagarjuna/",
+      "anchor": "prompt-2",
+      "url": "/philosophers/nagarjuna/#prompt-2",
+      "prompt": "Identify Nagarjuna's major concepts, methods, or questions.",
+      "heading": "Emptiness needs a map, not a heap of labels.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 387,
+      "avgItemWords": 22.6,
+      "metrics": {
+        "children": 4,
+        "sourceParagraphs": 6,
+        "sourceItems": 8,
+        "labels": 4
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Nagarjuna",
+      "pagePath": "/philosophers/nagarjuna/",
+      "anchor": "prompt-3",
+      "url": "/philosophers/nagarjuna/#prompt-3",
+      "prompt": "Where does Nagarjuna's view face its strongest objection?",
+      "heading": "Best objection is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 402,
+      "avgItemWords": 17.6,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Nagarjuna",
+      "pagePath": "/philosophers/nagarjuna/",
+      "anchor": "prompt-4",
+      "url": "/philosophers/nagarjuna/#prompt-4",
+      "prompt": "How should a contemporary reader begin with Nagarjuna?",
+      "heading": "Best entry point is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 380,
+      "avgItemWords": 21.8,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 5
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Niccolo Machiavelli",
+      "pagePath": "/philosophers/niccolo-machiavelli/",
+      "anchor": "prompt-1",
+      "url": "/philosophers/niccolo-machiavelli/#prompt-1",
+      "prompt": "Explain why Niccolo Machiavelli remains philosophically important.",
+      "heading": "Historical setting is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 380,
+      "avgItemWords": 21.5,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Niccolo Machiavelli",
+      "pagePath": "/philosophers/niccolo-machiavelli/",
+      "anchor": "prompt-2",
+      "url": "/philosophers/niccolo-machiavelli/#prompt-2",
+      "prompt": "Identify Niccolo Machiavelli's major concepts, methods, or questions.",
+      "heading": "Virtu needs a map, not a heap of labels.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 390,
+      "avgItemWords": 28.8,
+      "metrics": {
+        "children": 4,
+        "sourceParagraphs": 6,
+        "sourceItems": 8,
+        "labels": 4
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Niccolo Machiavelli",
+      "pagePath": "/philosophers/niccolo-machiavelli/",
+      "anchor": "prompt-3",
+      "url": "/philosophers/niccolo-machiavelli/#prompt-3",
+      "prompt": "Where does Niccolo Machiavelli's view face its strongest objection?",
+      "heading": "Best objection is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 378,
+      "avgItemWords": 18.2,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Niccolo Machiavelli",
+      "pagePath": "/philosophers/niccolo-machiavelli/",
+      "anchor": "prompt-4",
+      "url": "/philosophers/niccolo-machiavelli/#prompt-4",
+      "prompt": "How should a contemporary reader begin with Niccolo Machiavelli?",
+      "heading": "Best entry point is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 394,
+      "avgItemWords": 22.2,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 5
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Parmenides",
+      "pagePath": "/philosophers/parmenides/",
+      "anchor": "prompt-1",
+      "url": "/philosophers/parmenides/#prompt-1",
+      "prompt": "Explain why Parmenides remains philosophically important.",
+      "heading": "Historical setting is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 379,
+      "avgItemWords": 23.0,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Parmenides",
+      "pagePath": "/philosophers/parmenides/",
+      "anchor": "prompt-2",
+      "url": "/philosophers/parmenides/#prompt-2",
+      "prompt": "Identify Parmenides's major concepts, methods, or questions.",
+      "heading": "Being needs a map, not a heap of labels.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 376,
+      "avgItemWords": 18.8,
+      "metrics": {
+        "children": 4,
+        "sourceParagraphs": 6,
+        "sourceItems": 8,
+        "labels": 4
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Parmenides",
+      "pagePath": "/philosophers/parmenides/",
+      "anchor": "prompt-3",
+      "url": "/philosophers/parmenides/#prompt-3",
+      "prompt": "Where does Parmenides's view face its strongest objection?",
+      "heading": "Best objection is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 370,
+      "avgItemWords": 18.0,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Parmenides",
+      "pagePath": "/philosophers/parmenides/",
+      "anchor": "prompt-4",
+      "url": "/philosophers/parmenides/#prompt-4",
+      "prompt": "How should a contemporary reader begin with Parmenides?",
+      "heading": "Best entry point is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 388,
+      "avgItemWords": 23.4,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 5
       },
       "reasons": [
         "The section has enough source structure and explanatory density for now."
@@ -40580,6 +43021,122 @@
     {
       "sectionId": "philosophers",
       "sectionName": "Philosophers",
+      "pageTitle": "Plotinus",
+      "pagePath": "/philosophers/plotinus/",
+      "anchor": "prompt-1",
+      "url": "/philosophers/plotinus/#prompt-1",
+      "prompt": "Explain why Plotinus remains philosophically important.",
+      "heading": "Historical setting is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 374,
+      "avgItemWords": 22.3,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Plotinus",
+      "pagePath": "/philosophers/plotinus/",
+      "anchor": "prompt-2",
+      "url": "/philosophers/plotinus/#prompt-2",
+      "prompt": "Identify Plotinus's major concepts, methods, or questions.",
+      "heading": "The One needs a map, not a heap of labels.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 368,
+      "avgItemWords": 18.6,
+      "metrics": {
+        "children": 4,
+        "sourceParagraphs": 6,
+        "sourceItems": 8,
+        "labels": 4
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Plotinus",
+      "pagePath": "/philosophers/plotinus/",
+      "anchor": "prompt-3",
+      "url": "/philosophers/plotinus/#prompt-3",
+      "prompt": "Where does Plotinus's view face its strongest objection?",
+      "heading": "Best objection is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 400,
+      "avgItemWords": 17.4,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Plotinus",
+      "pagePath": "/philosophers/plotinus/",
+      "anchor": "prompt-4",
+      "url": "/philosophers/plotinus/#prompt-4",
+      "prompt": "How should a contemporary reader begin with Plotinus?",
+      "heading": "Best entry point is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 383,
+      "avgItemWords": 22.4,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 5
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
       "pageTitle": "Pragmatists",
       "pagePath": "/philosophers/pragmatists/",
       "anchor": "prompt-1",
@@ -40919,6 +43476,122 @@
         "children": 0,
         "sourceParagraphs": 4,
         "sourceItems": 8,
+        "labels": 5
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Saul Kripke",
+      "pagePath": "/philosophers/saul-kripke/",
+      "anchor": "prompt-1",
+      "url": "/philosophers/saul-kripke/#prompt-1",
+      "prompt": "Explain why Saul Kripke remains philosophically important.",
+      "heading": "Historical setting is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 373,
+      "avgItemWords": 20.8,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Saul Kripke",
+      "pagePath": "/philosophers/saul-kripke/",
+      "anchor": "prompt-2",
+      "url": "/philosophers/saul-kripke/#prompt-2",
+      "prompt": "Identify Saul Kripke's major concepts, methods, or questions.",
+      "heading": "Rigid designation needs a map, not a heap of labels.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 388,
+      "avgItemWords": 19.8,
+      "metrics": {
+        "children": 4,
+        "sourceParagraphs": 6,
+        "sourceItems": 8,
+        "labels": 4
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Saul Kripke",
+      "pagePath": "/philosophers/saul-kripke/",
+      "anchor": "prompt-3",
+      "url": "/philosophers/saul-kripke/#prompt-3",
+      "prompt": "Where does Saul Kripke's view face its strongest objection?",
+      "heading": "Best objection is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 374,
+      "avgItemWords": 17.8,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Saul Kripke",
+      "pagePath": "/philosophers/saul-kripke/",
+      "anchor": "prompt-4",
+      "url": "/philosophers/saul-kripke/#prompt-4",
+      "prompt": "How should a contemporary reader begin with Saul Kripke?",
+      "heading": "Best entry point is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 391,
+      "avgItemWords": 22.8,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
         "labels": 5
       },
       "reasons": [
@@ -41972,6 +44645,123 @@
     {
       "sectionId": "philosophers",
       "sectionName": "Philosophers",
+      "pageTitle": "Walter Benjamin",
+      "pagePath": "/philosophers/walter-benjamin/",
+      "anchor": "prompt-1",
+      "url": "/philosophers/walter-benjamin/#prompt-1",
+      "prompt": "Explain why Walter Benjamin remains philosophically important.",
+      "heading": "Historical setting is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 379,
+      "avgItemWords": 19.4,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Walter Benjamin",
+      "pagePath": "/philosophers/walter-benjamin/",
+      "anchor": "prompt-2",
+      "url": "/philosophers/walter-benjamin/#prompt-2",
+      "prompt": "Identify Walter Benjamin's major concepts, methods, or questions.",
+      "heading": "Aura needs a map, not a heap of labels.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": false,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Support items should become more explanatory and less list-like.",
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 386,
+      "avgItemWords": 14.2,
+      "metrics": {
+        "children": 4,
+        "sourceParagraphs": 6,
+        "sourceItems": 8,
+        "labels": 4
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Walter Benjamin",
+      "pagePath": "/philosophers/walter-benjamin/",
+      "anchor": "prompt-3",
+      "url": "/philosophers/walter-benjamin/#prompt-3",
+      "prompt": "Where does Walter Benjamin's view face its strongest objection?",
+      "heading": "Best objection is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 376,
+      "avgItemWords": 18.0,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Walter Benjamin",
+      "pagePath": "/philosophers/walter-benjamin/",
+      "anchor": "prompt-4",
+      "url": "/philosophers/walter-benjamin/#prompt-4",
+      "prompt": "How should a contemporary reader begin with Walter Benjamin?",
+      "heading": "Best entry point is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 380,
+      "avgItemWords": 21.2,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 5
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
       "pageTitle": "Willard Van Orman Quine",
       "pagePath": "/philosophers/willard-van-orman-quine/",
       "anchor": "prompt-1",
@@ -42312,6 +45102,122 @@
         "sourceParagraphs": 4,
         "sourceItems": 6,
         "labels": 1
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Zhuangzi",
+      "pagePath": "/philosophers/zhuangzi/",
+      "anchor": "prompt-1",
+      "url": "/philosophers/zhuangzi/#prompt-1",
+      "prompt": "Explain why Zhuangzi remains philosophically important.",
+      "heading": "Historical setting is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 395,
+      "avgItemWords": 20.0,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Zhuangzi",
+      "pagePath": "/philosophers/zhuangzi/",
+      "anchor": "prompt-2",
+      "url": "/philosophers/zhuangzi/#prompt-2",
+      "prompt": "Identify Zhuangzi's major concepts, methods, or questions.",
+      "heading": "Perspectival transformation needs a map, not a heap of labels.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 402,
+      "avgItemWords": 31.8,
+      "metrics": {
+        "children": 4,
+        "sourceParagraphs": 6,
+        "sourceItems": 8,
+        "labels": 4
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Zhuangzi",
+      "pagePath": "/philosophers/zhuangzi/",
+      "anchor": "prompt-3",
+      "url": "/philosophers/zhuangzi/#prompt-3",
+      "prompt": "Where does Zhuangzi's view face its strongest objection?",
+      "heading": "Best objection is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 400,
+      "avgItemWords": 17.4,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 3
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "philosophers",
+      "sectionName": "Philosophers",
+      "pageTitle": "Zhuangzi",
+      "pagePath": "/philosophers/zhuangzi/",
+      "anchor": "prompt-4",
+      "url": "/philosophers/zhuangzi/#prompt-4",
+      "prompt": "How should a contemporary reader begin with Zhuangzi?",
+      "heading": "Best entry point is the hinge of the response.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
+      ],
+      "wordCount": 373,
+      "avgItemWords": 20.8,
+      "metrics": {
+        "children": 3,
+        "sourceParagraphs": 5,
+        "sourceItems": 3,
+        "labels": 5
       },
       "reasons": [
         "The section has enough source structure and explanatory density for now."
