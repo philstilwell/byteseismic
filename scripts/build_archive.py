@@ -5840,15 +5840,22 @@ def render_quiz_sections(
             textwrap.dedent(
                 f"""\
                     <section class="article-section quiz-section" id="{html.escape(quiz['id'])}" data-quiz>
-                      <div class="article-section__meta">
-                        <span class="quiz-section__badge" aria-hidden="true">Q</span>
-                        <p class="eyebrow">{html.escape(quiz['eyebrow'])}</p>
-                      </div>
-                      <h2>{render_inline_text(quiz['title'])}</h2>
-                      <p class="quiz-section__intro">{render_inline_text(quiz['intro'])}</p>
-                      <div class="quiz-list">
+                      <details class="quiz-accordion">
+                        <summary>
+                          <span class="quiz-section__badge" aria-hidden="true">Q</span>
+                          <span class="quiz-accordion__title">
+                            <span class="eyebrow">{html.escape(quiz['eyebrow'])}</span>
+                            <span class="quiz-accordion__heading">{render_inline_text(quiz['title'])}</span>
+                          </span>
+                          <span class="quiz-accordion__cue" aria-hidden="true">+</span>
+                        </summary>
+                        <div class="quiz-accordion__body">
+                          <p class="quiz-section__intro">{render_inline_text(quiz['intro'])}</p>
+                          <div class="quiz-list">
         {chr(10).join(rendered_items)}
+                          </div>
                       </div>
+                      </details>
                     </section>"""
             )
         )
