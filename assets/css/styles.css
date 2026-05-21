@@ -164,7 +164,7 @@ img {
 .hero h1 {
   margin: 16px 0 16px;
   max-width: 12ch;
-  font-size: clamp(3rem, 6vw, 5.8rem);
+  font-size: clamp(2.6rem, 5.2vw, 4.7rem);
   text-shadow: 0 10px 26px rgba(0, 0, 0, 0.28);
 }
 
@@ -267,7 +267,7 @@ img {
 .site-nav__title {
   margin: 8px 0 10px;
   font-family: "Newsreader", Georgia, serif;
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
 .site-nav__intro {
@@ -331,7 +331,7 @@ img {
 .outline-card__header h2 {
   margin: 4px 0 8px;
   font-family: "Newsreader", Georgia, serif;
-  font-size: clamp(1.7rem, 3vw, 2.4rem);
+  font-size: clamp(1.45rem, 2.5vw, 2.05rem);
 }
 
 .outline-card__header p:last-child {
@@ -558,13 +558,13 @@ img {
 
 .home-panel__title h2 {
   margin: 4px 0 0;
-  font-size: clamp(1.8rem, 4vw, 3.1rem);
+  font-size: clamp(1.5rem, 3.2vw, 2.45rem);
 }
 
 .home-panel__cue {
   color: var(--signal);
   font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
-  font-size: 1.6rem;
+  font-size: 1.45rem;
   font-weight: 800;
   transition: transform 0.25s ease;
 }
@@ -632,7 +632,7 @@ img {
 
 .section-heading h2 {
   margin: 8px 0 0;
-  font-size: clamp(2rem, 4vw, 3.4rem);
+  font-size: clamp(1.7rem, 3.2vw, 2.7rem);
 }
 
 .section-heading p {
@@ -684,7 +684,7 @@ img {
 
 .contributor-card h3 {
   margin: 0 0 6px;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .contributor-card p {
@@ -726,7 +726,7 @@ img {
 
 .structure-card__header h3 {
   margin: 8px 0 0;
-  font-size: 1.5rem;
+  font-size: 1.28rem;
   line-height: 1.25;
 }
 
@@ -845,7 +845,7 @@ img {
 
 .tag-results__header h3 {
   margin: 6px 0;
-  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  font-size: clamp(1.35rem, 2.4vw, 2rem);
 }
 
 .tag-results__header p:last-child {
@@ -859,7 +859,7 @@ img {
 
 .feature-card h3 {
   margin: 10px 0 12px;
-  font-size: 2rem;
+  font-size: 1.65rem;
 }
 
 .feature-card p {
@@ -924,7 +924,7 @@ img {
 .article-card h2,
 .callout-card h2 {
   margin: 6px 0 14px;
-  font-size: 2rem;
+  font-size: 1.65rem;
 }
 
 .toc-card ol {
@@ -1055,12 +1055,12 @@ img {
 
 .article-section h2 {
   margin: 6px 0 16px;
-  font-size: clamp(2rem, 3vw, 2.8rem);
+  font-size: clamp(1.65rem, 2.5vw, 2.3rem);
 }
 
 .article-section h3 {
   margin: 24px 0 12px;
-  font-size: 1.6rem;
+  font-size: 1.35rem;
 }
 
 .article-section p {
@@ -1311,7 +1311,7 @@ img {
 .quiz-card h3 {
   margin: 0 0 8px;
   font-family: "Spline Sans", system-ui, sans-serif;
-  font-size: 1rem;
+  font-size: 0.95rem;
   letter-spacing: 0;
 }
 
@@ -1351,7 +1351,7 @@ img {
 .quiz-accordion__heading {
   color: var(--ink-strong);
   font-family: "Newsreader", Georgia, serif;
-  font-size: clamp(1.85rem, 4vw, 3rem);
+  font-size: clamp(1.45rem, 3vw, 2.3rem);
   font-weight: 700;
   line-height: 1.06;
 }
@@ -1359,7 +1359,7 @@ img {
 .quiz-accordion__cue {
   color: var(--signal);
   font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.55rem;
   font-weight: 800;
   transition: transform 0.2s ease;
 }
@@ -1438,7 +1438,7 @@ img {
   margin: 0;
   color: var(--ink-strong);
   font-family: "Spline Sans", system-ui, sans-serif;
-  font-size: clamp(1.02rem, 1.5vw, 1.22rem);
+  font-size: clamp(0.98rem, 1.25vw, 1.1rem);
   line-height: 1.48;
 }
 
@@ -1659,7 +1659,7 @@ img {
 
   .hero h1 {
     margin-top: 12px;
-    font-size: clamp(2.5rem, 12vw, 4rem);
+    font-size: clamp(2.15rem, 10vw, 3.2rem);
   }
 
   .notice-card,
