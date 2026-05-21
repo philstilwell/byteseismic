@@ -1869,7 +1869,7 @@ def source_prompt_sections(page: dict, prompts: list[str]) -> list[dict]:
         sections.append(
             {
                 "id": f"prompt-{index}",
-                "eyebrow": "Reconstructed Response",
+                "eyebrow": "Composite Response",
                 "heading": source_prompt_heading(prompt, topic_label(page["title"]), detail),
                 "paragraphs": paragraphs,
                 "list_items": list_items,
@@ -2111,22 +2111,50 @@ def render_article_page(page: dict) -> str:
         f'<a href="{prefix}index.html#section-{page["section_id"]}">{html.escape(section_meta["name"])}</a>',
         f"<span>{html.escape(page['title'])}</span>",
     ]
+    prompt_index_by_anchor = {anchor: index for index, (anchor, _text) in enumerate(prompts, start=1)}
+    prompt_text_by_anchor = {anchor: text for anchor, text in prompts}
     prompt_html = "\n".join(
-        f'              <li><a href="#{anchor}">{html.escape(text)}</a></li>' for anchor, text in prompts
+        textwrap.dedent(
+            f"""\
+              <li>
+                <a class="prompt-ledger__link" href="#{anchor}">
+                  <span class="prompt-number" aria-hidden="true">{index}</span>
+                  <span class="prompt-ledger__text">{html.escape(text)}</span>
+                </a>
+              </li>"""
+        )
+        for index, (anchor, text) in enumerate(prompts, start=1)
     )
 
     body_parts = []
     for section in sections:
         quality = section.get("quality")
         quality_attrs = ""
+        prompt_number = prompt_index_by_anchor.get(section["id"])
+        prompt_marker = ""
+        section_class = "article-section"
+        if prompt_number is not None:
+            section_class += " article-section--prompt"
+            prompt_marker = (
+                f'                <span class="prompt-number article-section__number" '
+                f'aria-hidden="true">{prompt_number}</span>\n'
+            )
+        prompt_text = section.get("prompt") or prompt_text_by_anchor.get(section["id"], "")
+        prompt_note = ""
+        if prompt_number is not None and prompt_text:
+            prompt_note = (
+                f'              <p class="article-section__prompt">'
+                f'<span>Prompt {prompt_number}:</span> {html.escape(prompt_text)}</p>'
+            )
         if quality:
             quality_attrs = (
                 f' data-quality-level="{html.escape(quality["level"])}"'
                 f' data-quality-score="{quality["score"]}"'
             )
         block = [
-            f'            <section class="article-section" id="{section["id"]}"{quality_attrs}>',
-            f'              <p class="eyebrow">{html.escape(section["eyebrow"])}</p>',
+            f'            <section class="{section_class}" id="{section["id"]}"{quality_attrs}>',
+            f'              <div class="article-section__meta">\n{prompt_marker}                <p class="eyebrow">{html.escape(section["eyebrow"])}</p>\n              </div>',
+            prompt_note,
             f'              <h2>{html.escape(section["heading"])}</h2>',
             render_paragraphs(section.get("paragraphs", [])),
         ]
