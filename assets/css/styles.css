@@ -952,6 +952,23 @@ img {
   font-weight: 800;
 }
 
+.future-link {
+  color: var(--ink-strong);
+  font-weight: 800;
+  text-decoration-color: rgba(164, 75, 31, 0.38);
+  text-decoration-thickness: 0.12em;
+  text-underline-offset: 0.18em;
+  transition:
+    color 160ms ease,
+    text-decoration-color 160ms ease;
+}
+
+.future-link:hover,
+.future-link:focus-visible {
+  color: var(--accent);
+  text-decoration-color: rgba(164, 75, 31, 0.82);
+}
+
 .article-section em {
   color: var(--accent);
   font-style: italic;
