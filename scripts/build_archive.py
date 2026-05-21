@@ -496,6 +496,18 @@ def clean_text(value: str | None) -> str:
     return text.strip()
 
 
+def clean_page_title(title: str) -> str:
+    cleaned = clean_text(title)
+    replacements = [
+        (r"\bAI Thought experiment\b", "AI Thought Experiment"),
+        (r"\bThought experiment\b", "Thought Experiment"),
+        (r"^A Novel AI Thought Experiment\?$", "A Novel AI Thought Experiment"),
+    ]
+    for pattern, replacement in replacements:
+        cleaned = re.sub(pattern, replacement, cleaned)
+    return cleaned
+
+
 def has_unavailable_asset_reference(text: str) -> bool:
     lowered = clean_text(text).lower()
     return any(re.search(pattern, lowered) for pattern in UNAVAILABLE_ASSET_REFERENCE_PATTERNS)
@@ -1099,9 +1111,153 @@ def split_label(text: str) -> tuple[str, str]:
 
 
 def display_label(label: str) -> str:
-    if clean_text(label) == "the curator":
+    cleaned = clean_text(label).strip(" .:")
+    lowered = cleaned.lower()
+    if cleaned == "the curator":
         return "The curator"
-    return label
+    if "i want to pushback" in lowered or "i want to push back" in lowered:
+        return "Curator’s pushback"
+    if re.search(r"\b(you|your)\s+response was circular\b", lowered):
+        return "Circular-definition concern"
+    if re.search(r"\bplease try again\b", lowered):
+        return "Revision request"
+    cleaned = re.sub(r"\s+as best you can\b", "", cleaned, flags=re.IGNORECASE)
+    return cleaned
+
+
+def source_label_is_heading_worthy(label: str) -> bool:
+    cleaned = clean_text(label)
+    lowered = cleaned.lower()
+    if not cleaned:
+        return False
+    if looks_like_prompt(cleaned) or is_low_value_prompt(cleaned):
+        return False
+    if re.search(r"\b(you|your)\s+response\b", lowered):
+        return False
+    if "pushback" in lowered:
+        return False
+    if re.search(r"\b(please|try)\s+again\b", lowered):
+        return False
+    if lowered.startswith(("provide ", "create ", "list ", "produce ", "write ", "explain ", "what ", "how ", "why ")):
+        return False
+    if len(cleaned.split()) > 12:
+        return False
+    return True
+
+
+def clean_heading_subject(subject: str, topic: str) -> str:
+    cleaned = rewrite_unavailable_asset_references(clean_text(subject)).strip(" .:")
+    if not cleaned:
+        return topic
+
+    replacements = [
+        (r"^provide me with a list of\s+", ""),
+        (r"^provide a list of\s+", ""),
+        (r"^provide an extensive list of\s+", ""),
+        (r"^provide a diverse list of\s+", ""),
+        (r"^provide rigorous definitions of\s+", "rigorous definitions of "),
+        (r"^provide scores.+?for\s+", "scoring criteria for "),
+        (r"^list the most influential\s+", "influential "),
+        (r"^create a hypothetical spirited dialogue between\s+", "a spirited dialogue between "),
+        (r"^create a hypothetical dialogue between\s+", "a dialogue between "),
+        (r"^create an interesting and clear hypothetical dialogue between\s+", "a clear dialogue between "),
+        (r"^create a dialogue between\s+", "a dialogue between "),
+        (r"^produce a \d+[- ]line hypothetical dialogue between\s+", "a short dialogue between "),
+        (r"^produce a \d+[- ]line dialogue between\s+", "a short dialogue between "),
+        (r"^\d+[- ]line hypothetical dialogue between\s+", "a short dialogue between "),
+        (r"^line hypothetical dialogue between\s+", "a short dialogue between "),
+        (r"^create a table that displays\s+", ""),
+        (r"^create a table that categorizes\s+", "categories of "),
+        (r"^create a table of\s+", ""),
+        (r"^create a quantitative account that quantitatively shows\s+", "the practical utility of "),
+        (r"^what is a salient way to express this argument to those who invoke common, alleged moral facts.*$", "the moral anti-realist challenge"),
+    ]
+    for pattern, replacement in replacements:
+        cleaned = re.sub(pattern, replacement, cleaned, flags=re.IGNORECASE).strip(" .:")
+
+    cleaned = re.sub(r"\bthe this discussion\b", "this discussion", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\bdiscussion question(s)? based on the this discussion\b", "discussion questions from this discussion", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\bdiscussion question\b", "discussion questions", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\bthe key ([A-Z][A-Za-z -]+?) have made to philosophical thought\b", r"key contributions of \1 to philosophical thought", cleaned)
+    cleaned = re.sub(r"\bthe key contributions ([A-Z][A-Za-z -]+?) have made to philosophical thought\b", r"key contributions of \1 to philosophical thought", cleaned)
+    cleaned = re.sub(r"\bthe the\b", "the", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\bto pushback\b", "to push back", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\bcurator[’']s Pushback\b", "curator’s pushback", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\ban a\b", "a", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\bis it likely that is it\b", "is it", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\s+", " ", cleaned).strip(" .:")
+    words = cleaned.split()
+    sentence_fragment_starters = (
+        "if ",
+        "when ",
+        "while ",
+        "assuming ",
+        "given ",
+        "because ",
+        "as ",
+        "can ",
+        "should ",
+        "does ",
+        "do ",
+        "is ",
+        "are ",
+        "which ",
+        "what ",
+        "how ",
+        "why ",
+        "i ",
+        "we ",
+        "some ",
+        "the curator ",
+    )
+    if "pushback" in cleaned.lower():
+        cleaned = f"{topic} under objection"
+        words = cleaned.split()
+    if (
+        len(words) > 11
+        and cleaned.lower().startswith(sentence_fragment_starters)
+    ) or (
+        len(words) > 5
+        and cleaned.lower().startswith(("which ", "what ", "how ", "why ", "can ", "should ", "does ", "do ", "is ", "are "))
+    ) or (
+        len(words) > 8
+        and re.search(r"\b(if|unless|when|while)\s+you\b", cleaned, flags=re.IGNORECASE)
+    ) or cleaned.lower().endswith((" with", " of", " and", " that", " to", " as", " be")):
+        cleaned = topic
+    cleaned = compact_text(cleaned, 86).rstrip(".")
+
+    if not cleaned or looks_like_prompt(cleaned):
+        cleaned = topic
+    if cleaned:
+        cleaned = cleaned[0].upper() + cleaned[1:]
+    return cleaned or topic
+
+
+def article_native_heading(subject: str, prompt: str, topic: str) -> str:
+    key = clean_heading_subject(subject, topic)
+    focus = prompt_focus(prompt)
+    prompt_lower = clean_text(prompt).lower()
+    if re.search(r"provide a list of the key (contributions )?.+ have made to philosophical thought", prompt_lower):
+        key = clean_heading_subject(f"key contributions of {key} to philosophical thought", topic)
+    if prompt_lower.startswith("list the most influential"):
+        key = clean_heading_subject(f"influential {key} in history", topic)
+    if len(key) > 70 or key.lower().startswith(("a short dialogue", "a dialogue", "a spirited dialogue", "a clear dialogue")):
+        key = topic
+    lowered = key.lower()
+
+    if focus == "dialogue":
+        return f"Dialogue clarifies {key}."
+    if focus == "examples":
+        return f"{key} makes the argument visible in practice."
+    if focus == "mapping":
+        return f"{key} needs a map, not a heap of labels."
+    if focus == "argument":
+        return f"{key} is where the argument has to earn its keep."
+    if focus == "definition":
+        return f"{key} needs a definition that changes judgment."
+    if any(term in lowered for term in ("list", "table", "scores", "percentages", "estimates")):
+        return f"{key} needs structure before it can persuade."
+    return f"{key} is the hinge of the response."
 
 
 def rewrite_source_sentence(text: str) -> str:
@@ -1119,6 +1275,23 @@ def rewrite_source_sentence(text: str) -> str:
         (r"^Certainly,\s*", ""),
         (r"^Overall,\s*", ""),
         (r"^In essence,\s*", ""),
+        (r"\bI understand the intuition behind your question,?\s*[A-Z][a-z]+\.?", "the intuition behind the question is understandable."),
+        (r"\b[Yy]ou[’']ve captured\b", "the formulation captures"),
+        (r"\b[Yy]our observations about\b", "the observations about"),
+        (r"\b[Yy]our question touches\b", "the question touches"),
+        (r"\b[Yy]our question delves into\b", "the question enters"),
+        (r"\b[Yy]our question\b", "the question"),
+        (r"\b[Yy]ou might have\b", "a reader might have"),
+        (r"\b[Yy]ou can\b", "a reader can"),
+        (r"\b[Yy]ou should\b", "a reader should"),
+        (r"\b[Yy]ou response was circular\b", "the previous response was circular"),
+        (r"\b[Yy]our response was circular\b", "the previous response was circular"),
+        (r"\blike myself\b", "like AI systems"),
+        (r"\bmyself\b", "the system itself"),
+        (r"\bPlease try again\b", "the answer should be revised"),
+        (r"\bI want to pushback on a few key points as follows\b", "the curator’s pushback focuses on several key points"),
+        (r"\bI want to push back on a few key points as follows\b", "the curator’s pushback focuses on several key points"),
+        (r"\bChatGPT says\b", "the prior answer says"),
         (r"\b[Yy]our pushback\b", "the pushback"),
         (r"\b[Yy]our position\b", "the curator’s position"),
         (r"\b[Yy]our perspective\b", "the position"),
@@ -1276,6 +1449,29 @@ def clarify_prompt(text: str) -> str:
     prompt = re.sub(r"\bthe discussion above\b", "this discussion", prompt, flags=re.IGNORECASE)
     prompt = re.sub(r"\bcontent above\b", "this discussion", prompt, flags=re.IGNORECASE)
     prompt = re.sub(r"\bthread above\b", "this discussion", prompt, flags=re.IGNORECASE)
+    prompt = re.sub(r"\bthe this discussion\b", "this discussion", prompt, flags=re.IGNORECASE)
+    prompt = re.sub(r"\bbased on the this discussion\b", "based on this discussion", prompt, flags=re.IGNORECASE)
+    prompt = re.sub(r"\brelevant to the this discussion\b", "relevant to this discussion", prompt, flags=re.IGNORECASE)
+    prompt = re.sub(r"\bdiscussion question\b", "discussion questions", prompt, flags=re.IGNORECASE)
+    prompt = re.sub(r"\bProvide (\d+) discussion questions\b", r"Generate \1 discussion questions", prompt, flags=re.IGNORECASE)
+    prompt = re.sub(r"\bCan we then safely say that is it likely that\b", "Can we safely say that it is likely that", prompt, flags=re.IGNORECASE)
+    prompt = re.sub(r"\bis it likely that is it\b", "is it", prompt, flags=re.IGNORECASE)
+    prompt = re.sub(r"\bthe the\b", "the", prompt, flags=re.IGNORECASE)
+    prompt = re.sub(r"\bto pushback\b", "to push back", prompt, flags=re.IGNORECASE)
+    prompt = re.sub(r"\bPushback\b", "pushback", prompt)
+    prompt = re.sub(r"\byour response to my request\b", "the prior response to the curator’s request", prompt, flags=re.IGNORECASE)
+    prompt = re.sub(r"\byour response\b", "the prior response", prompt, flags=re.IGNORECASE)
+    prompt = re.sub(r"\byour responses\b", "the prior responses", prompt, flags=re.IGNORECASE)
+    prompt = re.sub(r"\byour training data\b", "the AI’s training data", prompt, flags=re.IGNORECASE)
+    prompt = re.sub(r"\bmy request\b", "the curator’s request", prompt, flags=re.IGNORECASE)
+    prompt = re.sub(r"\b1st-year\b", "first-year", prompt, flags=re.IGNORECASE)
+    prompt = re.sub(r"\brationality expert a novice\b", "rationality expert and a novice", prompt, flags=re.IGNORECASE)
+    prompt = re.sub(r"\ba Phenomenologists\b", "a phenomenologist", prompt, flags=re.IGNORECASE)
+    prompt = re.sub(r"\ban a\b", "a", prompt, flags=re.IGNORECASE)
+    prompt = re.sub(r"\battached philosophical writings\b", "selected philosophical writings", prompt, flags=re.IGNORECASE)
+    prompt = re.sub(r"\bthree attached writings\b", "three selected writings", prompt, flags=re.IGNORECASE)
+    prompt = re.sub(r"\bthe attached\b", "the selected", prompt, flags=re.IGNORECASE)
+    prompt = re.sub(r"\battached\b", "selected", prompt, flags=re.IGNORECASE)
     prompt = re.sub(r"\bunevidence presupposition\b", "unevidenced presupposition", prompt, flags=re.IGNORECASE)
     prompt = re.sub(
         r"^In discussion on ethics,\s*I frequently encounter demands that I state whether they believe a behavior is [“\"]wrong[”\"]\.\s*But",
@@ -1395,7 +1591,7 @@ def generic_standfirst(page: dict, section_meta: dict) -> str:
         return f"A reconstructed cautionary page on {topic}, clarifying the appeal of the pattern and the epistemic costs it can impose."
     if kind == "cluster":
         return f"A reconstructed branch page on {topic}, placing its nested posts inside {profile['standfirst']}"
-    return f"A reconstructed {section_meta['name'].lower()} page on {topic}, centered on {profile['standfirst']}"
+    return f"A reconstructed {section_meta['name']} page on {topic}, centered on {profile['standfirst']}"
 
 
 def feature_summary(page: dict, section_meta: dict) -> str:
@@ -1406,7 +1602,7 @@ def feature_summary(page: dict, section_meta: dict) -> str:
         return f"A terrain map of {topic}, showing which themes, alignments, and tensions define the wider philosophical landscape."
     if page["kind"] == "danger":
         return f"A cautionary essay on {topic}, treating it as a recurring distortion that can quietly damage serious inquiry."
-    return f"A reconstructed page on {topic}, written to clarify its role inside the {section_meta['name'].lower()} branch."
+    return f"A reconstructed page on {topic}, written to clarify its role inside the {section_meta['name']} branch."
 
 
 def prompt_pack(page: dict, section_meta: dict) -> list[tuple[str, str]]:
@@ -1526,11 +1722,11 @@ def source_detail_labels(detail: dict | None) -> list[str]:
     labels: list[str] = []
     for child in detail.get("children", []):
         label = rewrite_unavailable_asset_references(strip_number_prefix(child.get("title", "")))
-        if label and not looks_like_prompt(label):
+        if label and source_label_is_heading_worthy(label):
             labels.append(label)
     for item in detail.get("items", []):
         label, body = split_label(item)
-        if label and body and not looks_like_prompt(label):
+        if label and body and source_label_is_heading_worthy(label):
             labels.append(rewrite_unavailable_asset_references(label))
     return usable_thread_items(dedupe(labels))[:5]
 
@@ -1588,16 +1784,25 @@ def prompt_key_phrase(prompt: str, fallback: str) -> str:
         r"^can you provide an actual scenario in which\s+(.+?)\.?$",
         r"^can you provide actual scenarios in which\s+(.+?)\.?$",
         r"^create a \d+-line dialogue between\s+(.+?)\.?$",
+        r"^produce a \d+[- ]line hypothetical dialogue between\s+(.+?)\.?$",
+        r"^produce a \d+[- ]line dialogue between\s+(.+?)\.?$",
+        r"^create a hypothetical spirited dialogue between\s+(.+?)\.?$",
+        r"^create a hypothetical dialogue between\s+(.+?)\.?$",
+        r"^create a dialogue between\s+(.+?)\.?$",
         r"^create a short, rigorous paragraph highlighting\s+(.+?)\.?$",
         r"^create a table that displays\s+(.+?)\.?$",
         r"^create a table that, for each\s+(.+?)\s*,.+$",
         r"^create a table of\s+(.+?)\.?$",
+        r"^list the most influential\s+(.+?)\s+in history\.?$",
         r"^provide a short paragraph explaining\s+(.+?)\.?$",
         r"^provide a short definition of\s+(.+?)\.?$",
         r"^provide a short but clear definition of\s+(.+?)\.?$",
         r"^provide an annotated list of\s+(.+?)\.?$",
         r"^provide a diverse list of\s+(.+?)\.?$",
+        r"^provide a list of the key contributions\s+(.+?)\s+have made to philosophical thought\.?$",
+        r"^provide a list of the key\s+(.+?)\s+have made to philosophical thought\.?$",
         r"^provide a list that includes\s+(.+?)\.?$",
+        r"^provide me with a list of\s+(.+?)\.?$",
         r"^provide the most likely causes behind\s+(.+?)\.?$",
         r"^provide scores.+?for\s+(.+?)\.?$",
         r"^present a table showing\s+(.+?)\.?$",
@@ -1633,12 +1838,11 @@ def source_prompt_heading(prompt: str, topic: str, detail: dict | None) -> str:
     labels = source_detail_labels(detail)
     if labels:
         center = labels[0].strip(" .:")
-        return f"{center} gives the response its center of gravity."
+        return article_native_heading(center, prompt, topic)
 
     key = short_prompt_key(prompt, topic)
     if key and key.lower() != topic.lower():
-        verb = "are" if re.search(r"\b(intuitions|values|rights|duties|scores|percentages)\b", key, flags=re.IGNORECASE) else "is"
-        return f"{key[0].upper() + key[1:]} {verb} the pressure point."
+        return article_native_heading(key, prompt, topic)
     return prompt_heading(prompt, topic)
 
 
@@ -2000,6 +2204,11 @@ def short_prompt_key(prompt: str, topic: str) -> str:
         ),
         (r"^provide a diverse list of (.+?), and discuss .+$", r"\1"),
         (r"^provide a list that includes an extensive list of (.+?)\. .+$", r"\1"),
+        (r"^provide a list of the key contributions (.+?) have made to philosophical thought\.?$", r"key contributions of \1 to philosophical thought"),
+        (r"^provide a list of the key (.+?) have made to philosophical thought\.?$", r"key contributions of \1 to philosophical thought"),
+        (r"^list the most influential (.+?) in history\.?$", r"influential \1 in history"),
+        (r"^produce a \d+[- ]line hypothetical dialogue between (.+?)\.?$", r"a short dialogue between \1"),
+        (r"^produce a \d+[- ]line dialogue between (.+?)\.?$", r"a short dialogue between \1"),
         (r"^create a table that, for each (.+?), provides .+$", r"\1"),
         (r"^create a table of (.+?), their .+$", r"\1"),
         (r"^create a table that displays (.+?)\.?$", r"\1"),
@@ -2022,7 +2231,12 @@ def short_prompt_key(prompt: str, topic: str) -> str:
     key = re.sub(r"\byour guess of\b", "the guess about", key, flags=re.IGNORECASE)
     key = re.sub(r"\byour position\b", "the curator's position", key, flags=re.IGNORECASE)
     key = re.sub(r"\bmy position\b", "the curator's position", key, flags=re.IGNORECASE)
+    key = re.sub(r"\byour response\b", "the prior response", key, flags=re.IGNORECASE)
+    key = re.sub(r"\byour responses\b", "the prior responses", key, flags=re.IGNORECASE)
+    key = re.sub(r"\byour training data\b", "the AI’s training data", key, flags=re.IGNORECASE)
+    key = re.sub(r"\bmy request\b", "the curator’s request", key, flags=re.IGNORECASE)
     key = re.sub(r"\bthe following\b", topic, key, flags=re.IGNORECASE)
+    key = clean_heading_subject(key, topic)
     if lowered.startswith("it would seem") and "moral realism" in lowered:
         key = "moral realism's intuitive pull"
     if lowered.startswith("enumerate") and "moral realism" in lowered:
@@ -2563,7 +2777,7 @@ def compose_sections(page: dict) -> list[dict]:
         return source_prompt_sections(page, prompts)
 
     orientation = [
-        f"This reconstruction treats {topic} through the central lens of {section_meta['name'].lower()}: {profile['lens']}.",
+        f"This reconstruction treats {topic} through the central lens of {section_meta['name']}: {profile['lens']}.",
         profile["stakes"],
     ]
     threads_paras = [
@@ -2663,7 +2877,7 @@ def compose_sections(page: dict) -> list[dict]:
                 "eyebrow": "Cluster Logic",
                 "heading": f"{topic} gathers a set of questions that should be read together.",
                 "paragraphs": [
-                    f"This cluster belongs in {section_meta['name'].lower()} because it repeatedly returns to {profile['lens']}.",
+                    f"This cluster belongs in {section_meta['name']} because it repeatedly returns to {profile['lens']}.",
                     profile["stakes"],
                 ],
             },
@@ -3279,6 +3493,7 @@ def build_quality_report(generated_pages: list[dict]) -> dict:
             "needsGapFill": total_gap_fill,
             "needsGapFillRate": round(total_gap_fill / max(total_records, 1), 3),
         },
+        "editorialAudit": build_editorial_audit(records),
         "sectionSummaries": summaries,
         "weakest": weakest,
         "gapBacklog": gap_backlog,
@@ -3286,8 +3501,75 @@ def build_quality_report(generated_pages: list[dict]) -> dict:
     }
 
 
+def editorial_audit_issues(record: dict) -> list[str]:
+    heading = clean_text(record.get("heading", ""))
+    prompt = clean_text(record.get("prompt", ""))
+    combined = f"{heading}\n{prompt}"
+    issues: list[str] = []
+
+    if re.search(r"\b(is|are) the pressure point\.$", heading, flags=re.IGNORECASE):
+        issues.append("legacy pressure-point heading")
+    if re.match(r"^(provide|create|list|produce|line hypothetical)\b", heading, flags=re.IGNORECASE):
+        issues.append("work-order heading")
+    if re.search(r"\b(the this|the the|an a|is it likely that is it|you response|to pushback|discussion question based on)\b", combined, flags=re.IGNORECASE):
+        issues.append("grammar scar")
+    if re.search(r"\b(attached|uploaded|provided screenshot|following images?)\b", combined, flags=re.IGNORECASE):
+        issues.append("unsupported asset reference")
+    if len(heading) > 128:
+        issues.append("overlong heading")
+    if "gives the response its center of gravity" in heading:
+        issues.append("stale generated heading")
+    return dedupe(issues)
+
+
+def build_editorial_audit(records: list[dict]) -> dict:
+    issue_counts: dict[str, int] = defaultdict(int)
+    samples: list[dict] = []
+    for record in records:
+        issues = editorial_audit_issues(record)
+        if not issues:
+            continue
+        for issue in issues:
+            issue_counts[issue] += 1
+        if len(samples) < 40:
+            samples.append(
+                {
+                    "url": record["url"],
+                    "sectionName": record["sectionName"],
+                    "pageTitle": record["pageTitle"],
+                    "anchor": record["anchor"],
+                    "heading": record["heading"],
+                    "issues": issues,
+                }
+            )
+
+    return {
+        "totalIssues": sum(issue_counts.values()),
+        "affectedSections": len(samples),
+        "issueCounts": dict(sorted(issue_counts.items())),
+        "samples": samples,
+    }
+
+
 def render_quality_review_page(report: dict) -> str:
     summary = report["overall"]
+    editorial_audit = report.get("editorialAudit", {})
+    issue_counts = editorial_audit.get("issueCounts", {})
+    if issue_counts:
+        issue_items = "\n".join(
+            f"                <li><strong>{html.escape(issue)}:</strong> {count}</li>"
+            for issue, count in issue_counts.items()
+        )
+        editorial_audit_body = (
+            f"<p>The strict editorial audit is still finding <strong>{editorial_audit.get('totalIssues', 0)}</strong> pattern issue(s). "
+            "These are the places to inspect before calling a branch finished.</p>\n"
+            f"              <ul>\n{issue_items}\n              </ul>"
+        )
+    else:
+        editorial_audit_body = (
+            "<p>The strict editorial audit currently finds <strong>0</strong> stale headings, grammar scars, or unsupported asset references. "
+            "This does not mean the archive is finished; it means the obvious gremlins have stopped waving from the balcony.</p>"
+        )
     section_blocks = []
     for branch in report["sectionSummaries"]:
         weak_items = "\n".join(
@@ -3388,6 +3670,12 @@ def render_quality_review_page(report: dict) -> str:
                     </p>
                   </section>
 
+                  <section class="content-card">
+                    <p class="eyebrow">Editorial Audit</p>
+                    <h2>Scrutiny pass</h2>
+                    {editorial_audit_body}
+                  </section>
+
                   <section class="gap-note">
                     <p class="eyebrow">Philosophers Gap-Fill</p>
                     <h2>Canon needs encounter, not nameplates</h2>
@@ -3439,11 +3727,23 @@ def render_quality_markdown(report: dict) -> str:
         f"Needs review: {report['overall']['needsReview']} ({round(report['overall']['needsReviewRate'] * 100, 1)}%)",
         f"Exceptional gap-fill backlog: {report['overall']['needsGapFill']} ({round(report['overall']['needsGapFillRate'] * 100, 1)}%)",
         "",
+        "## Editorial Audit",
+        "",
+        f"Pattern issues found: {report.get('editorialAudit', {}).get('totalIssues', 0)}",
+        "",
+    ]
+    issue_counts = report.get("editorialAudit", {}).get("issueCounts", {})
+    if issue_counts:
+        for issue, count in issue_counts.items():
+            lines.append(f"- {issue}: {count}")
+        lines.append("")
+
+    lines.extend([
         "## Branch Summary",
         "",
         "| Branch | Avg | Needs Review | Gap Fill | Exceptional | Strong | Good | Developing | Thin |",
         "| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |",
-    ]
+    ])
     for branch in report["sectionSummaries"]:
         levels = branch["levels"]
         lines.append(
@@ -3501,7 +3801,7 @@ def cleanup_auto_generated(valid_targets: set[Path]) -> None:
 def node_to_topic_tree(nodes: list[dict]) -> list[dict]:
     tree = []
     for node in nodes:
-        entry = {"title": node["title"]}
+        entry = {"title": clean_page_title(node["title"])}
         if node.get("built_path"):
             entry["path"] = node["built_path"]
         if node.get("children"):
@@ -3540,6 +3840,7 @@ def main() -> None:
         children: list[dict] | None = None,
         sibling_titles: list[str] | None = None,
     ) -> dict:
+        title = clean_page_title(title)
         key = (section_id, built_path)
         if key in page_index:
             page = page_index[key]
@@ -3746,8 +4047,8 @@ def main() -> None:
         flat_nodes = flatten_visible_nodes(nodes)
         for node in flat_nodes:
             if node.get("built_path"):
-                topic_paths[node["title"]] = node["built_path"]
-        visible_titles = [node["title"] for node in flat_nodes]
+                topic_paths[clean_page_title(node["title"])] = node["built_path"]
+        visible_titles = [clean_page_title(node["title"]) for node in flat_nodes]
         sample_path = meta.get("preferredPath")
         if not sample_path and flat_nodes:
             sample_path = flat_nodes[0].get("built_path")

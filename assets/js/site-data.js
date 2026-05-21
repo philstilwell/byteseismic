@@ -6,7 +6,7 @@ window.BYTESEISMIC_DATA = {
       "title": "What is Philosophy?",
       "section": "Introduction",
       "path": "/introduction/what-is-philosophy/",
-      "summary": "A reconstructed page on Philosophy, written to clarify its role inside the introduction branch.",
+      "summary": "A reconstructed page on Philosophy, written to clarify its role inside the Introduction branch.",
       "tags": [
         "philosophy",
         "orientation",
@@ -19,7 +19,7 @@ window.BYTESEISMIC_DATA = {
       "title": "What is Truth?",
       "section": "Philosophical Inquiry",
       "path": "/philosophical-inquiry/what-is-truth/",
-      "summary": "A reconstructed page on Truth, written to clarify its role inside the philosophical inquiry branch.",
+      "summary": "A reconstructed page on Truth, written to clarify its role inside the Philosophical Inquiry branch.",
       "tags": [
         "truth",
         "truth-seeking",
@@ -32,7 +32,7 @@ window.BYTESEISMIC_DATA = {
       "title": "The Mindset of the Honest Seeker",
       "section": "Philosophical Inquiry",
       "path": "/philosophical-inquiry/the-mindset-of-the-honest-seeker/",
-      "summary": "A reconstructed page on The Mindset of the Honest Seeker, written to clarify its role inside the philosophical inquiry branch.",
+      "summary": "A reconstructed page on The Mindset of the Honest Seeker, written to clarify its role inside the Philosophical Inquiry branch.",
       "tags": [
         "mindset",
         "honest",
@@ -45,7 +45,7 @@ window.BYTESEISMIC_DATA = {
       "title": "What is Belief?",
       "section": "Epistemology",
       "path": "/epistemology/what-is-belief/",
-      "summary": "A reconstructed page on Belief, written to clarify its role inside the epistemology branch.",
+      "summary": "A reconstructed page on Belief, written to clarify its role inside the Epistemology branch.",
       "tags": [
         "belief",
         "evidence",
@@ -58,7 +58,7 @@ window.BYTESEISMIC_DATA = {
       "title": "What is Science?",
       "section": "Philosophy of Science",
       "path": "/philosophy-of-science/what-is-science/",
-      "summary": "A reconstructed page on Science, written to clarify its role inside the philosophy of science branch.",
+      "summary": "A reconstructed page on Science, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
         "science",
         "method",
@@ -71,7 +71,7 @@ window.BYTESEISMIC_DATA = {
       "title": "Where Consciousness Can & Must Emerge",
       "section": "Philosophy of Mind",
       "path": "/philosophy-of-mind/where-consciousness-can-must-emerge/",
-      "summary": "A reconstructed page on Where Consciousness Can & Must Emerge, written to clarify its role inside the philosophy of mind branch.",
+      "summary": "A reconstructed page on Where Consciousness Can & Must Emerge, written to clarify its role inside the Philosophy of Mind branch.",
       "tags": [
         "where",
         "consciousness",
@@ -84,7 +84,7 @@ window.BYTESEISMIC_DATA = {
       "title": "Assessing AI Alignment with Truth",
       "section": "Philosophy of AI",
       "path": "/philosophy-of-ai/assessing-ai-alignment-with-truth/",
-      "summary": "A reconstructed page on Assessing AI Alignment with Truth, written to clarify its role inside the philosophy of ai branch.",
+      "summary": "A reconstructed page on Assessing AI Alignment with Truth, written to clarify its role inside the Philosophy of AI branch.",
       "tags": [
         "assessing",
         "alignment",
@@ -97,7 +97,7 @@ window.BYTESEISMIC_DATA = {
       "title": "Categories of Questions",
       "section": "Rational Thought",
       "path": "/rational-thought/categories-of-questions/",
-      "summary": "A reconstructed page on Categories of Questions, written to clarify its role inside the rational thought branch.",
+      "summary": "A reconstructed page on Categories of Questions, written to clarify its role inside the Rational Thought branch.",
       "tags": [
         "categories",
         "questions",
@@ -110,7 +110,7 @@ window.BYTESEISMIC_DATA = {
       "title": "Stoicism: Key Concepts",
       "section": "Humanistic Philosophies",
       "path": "/humanistic-philosophies/stoicism-key-concepts/",
-      "summary": "A reconstructed page on Stoicism: Key Concepts, written to clarify its role inside the humanistic philosophies branch.",
+      "summary": "A reconstructed page on Stoicism: Key Concepts, written to clarify its role inside the Humanistic Philosophies branch.",
       "tags": [
         "stoicism",
         "concepts",
@@ -175,7 +175,7 @@ window.BYTESEISMIC_DATA = {
       "title": "Abandoned Words",
       "section": "Philosophy of Language",
       "path": "/philosophy-of-language/abandoned-words/",
-      "summary": "A reconstructed page on Abandoned Words, written to clarify its role inside the philosophy of language branch.",
+      "summary": "A reconstructed page on Abandoned Words, written to clarify its role inside the Philosophy of Language branch.",
       "tags": [
         "abandoned",
         "words",
@@ -188,7 +188,7 @@ window.BYTESEISMIC_DATA = {
       "title": "A Taxonomy of Impossibilities",
       "section": "Metaphysics",
       "path": "/metaphysics/a-taxonomy-of-impossibilities/",
-      "summary": "A reconstructed page on A Taxonomy of Impossibilities, written to clarify its role inside the metaphysics branch.",
+      "summary": "A reconstructed page on A Taxonomy of Impossibilities, written to clarify its role inside the Metaphysics branch.",
       "tags": [
         "taxonomy",
         "impossibilities",
@@ -201,7 +201,7 @@ window.BYTESEISMIC_DATA = {
       "title": "A History of Golden Rules",
       "section": "Ethics",
       "path": "/ethics/a-history-of-golden-rules/",
-      "summary": "A reconstructed page on A History of Golden Rules, written to clarify its role inside the ethics branch.",
+      "summary": "A reconstructed page on A History of Golden Rules, written to clarify its role inside the Ethics branch.",
       "tags": [
         "golden-rules",
         "history",
@@ -214,7 +214,7 @@ window.BYTESEISMIC_DATA = {
       "title": "A Living Wage",
       "section": "Economics",
       "path": "/economics/a-living-wage/",
-      "summary": "A reconstructed page on A Living Wage, written to clarify its role inside the economics branch.",
+      "summary": "A reconstructed page on A Living Wage, written to clarify its role inside the Economics branch.",
       "tags": [
         "living-wage",
         "economics",
@@ -227,7 +227,7 @@ window.BYTESEISMIC_DATA = {
       "title": "AI & the US Political Divide",
       "section": "Political Philosophy",
       "path": "/political-philosophy/ai-the-us-political-divide/",
-      "summary": "A reconstructed page on AI & the US Political Divide, written to clarify its role inside the political philosophy branch.",
+      "summary": "A reconstructed page on AI & the US Political Divide, written to clarify its role inside the Political Philosophy branch.",
       "tags": [
         "political",
         "divide",
@@ -240,7 +240,7 @@ window.BYTESEISMIC_DATA = {
       "title": "Assembly Theory",
       "section": "Miscellany",
       "path": "/miscellany/assembly-theory/",
-      "summary": "A reconstructed page on Assembly Theory, written to clarify its role inside the miscellany branch.",
+      "summary": "A reconstructed page on Assembly Theory, written to clarify its role inside the Miscellany branch.",
       "tags": [
         "assembly",
         "theory",
@@ -656,7 +656,7 @@ window.BYTESEISMIC_DATA = {
     "AI in Public Discourse": "/philosophy-of-ai/ai-in-public-discourse/",
     "AI Censorship Case": "/philosophy-of-ai/ai-censorship-case/",
     "Quality Training Data": "/philosophy-of-ai/quality-training-data/",
-    "A Novel AI Thought experiment?": "/philosophy-of-ai/a-novel-ai-thought-experiment/",
+    "A Novel AI Thought Experiment": "/philosophy-of-ai/a-novel-ai-thought-experiment/",
     "AI Defends Itself – Humor": "/philosophy-of-ai/ai-defends-itself-humor/",
     "Political Philosophy – Core Concepts": "/political-philosophy/political-philosophy-core-concepts/",
     "Political Philosophy Basics": "/political-philosophy/political-philosophy-basics/",
@@ -2857,7 +2857,7 @@ window.BYTESEISMIC_DATA = {
           "path": "/philosophy-of-ai/quality-training-data/"
         },
         {
-          "title": "A Novel AI Thought experiment?",
+          "title": "A Novel AI Thought Experiment",
           "path": "/philosophy-of-ai/a-novel-ai-thought-experiment/"
         },
         {
