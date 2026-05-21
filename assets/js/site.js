@@ -301,7 +301,7 @@
           .join("");
 
         return `
-          <article class="structure-card" id="section-${escapeHtml(section.id)}">
+          <article class="structure-card" id="section-card-${escapeHtml(section.id)}" data-section-anchor="section-${escapeHtml(section.id)}">
             <div class="structure-card__header">
               <p class="eyebrow">${escapeHtml(section.name)}</p>
               <h3>${escapeHtml(section.summary)}</h3>
@@ -448,10 +448,17 @@
       return;
     }
 
-    const target = document.getElementById(hash.slice(1));
+    const hashId = hash.slice(1);
+    document.querySelectorAll(".structure-card.is-anchor-target").forEach((card) => {
+      card.classList.remove("is-anchor-target");
+    });
+
+    const sectionCard = document.querySelector(`[data-section-anchor="${CSS.escape(hashId)}"]`);
+    const target = sectionCard || document.getElementById(hashId);
     if (!target) {
       return;
     }
+    sectionCard?.classList.add("is-anchor-target");
 
     const containingPanel = target.closest(".home-panel");
     if (containingPanel) {
@@ -466,7 +473,8 @@
 
     window.requestAnimationFrame(() => {
       window.setTimeout(() => {
-        target.scrollIntoView({ behavior: "smooth", block: "center" });
+        const block = target.classList?.contains("article-section") ? "start" : "center";
+        target.scrollIntoView({ behavior: "smooth", block });
       }, 60);
     });
   }

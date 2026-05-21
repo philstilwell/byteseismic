@@ -707,6 +707,12 @@ img {
   gap: 18px;
 }
 
+.section-anchor-bank {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+}
+
 .structure-card,
 .feature-card {
   padding: 24px;
@@ -717,7 +723,8 @@ img {
   scroll-margin-top: 32px;
 }
 
-.structure-card:target {
+.structure-card:target,
+.structure-card.is-anchor-target {
   border-color: rgba(164, 75, 31, 0.46);
   box-shadow:
     0 0 0 4px rgba(164, 75, 31, 0.11),
