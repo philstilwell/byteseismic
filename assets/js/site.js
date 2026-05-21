@@ -35,6 +35,15 @@
     return `${githubPrefix}${normalized}`;
   }
 
+  function escapeHtml(value) {
+    return String(value ?? "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  }
+
   function homeAnchor(sectionId) {
     return `${href("/")}#section-${sectionId}`;
   }
@@ -169,6 +178,30 @@
     return section.samplePath ? href(section.samplePath) : homeAnchor(section.id);
   }
 
+  function isUsefulTag(tag) {
+    const normalized = String(tag || "").trim().toLowerCase();
+    const stopTags = new Set([
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "with",
+      "what",
+      "where",
+      "when",
+      "from",
+      "that",
+      "this",
+      "into",
+      "core",
+    ]);
+    if (normalized === "ai") {
+      return true;
+    }
+    return normalized.length >= 3 && !stopTags.has(normalized) && !/^\d[\d-]*$/.test(normalized);
+  }
+
   function renderNav() {
     const mounts = document.querySelectorAll("[data-site-nav]");
     if (!mounts.length) {
@@ -197,10 +230,10 @@
     mounts.forEach((mount) => {
       mount.innerHTML = `
         <div class="site-nav">
-          <p class="site-nav__eyebrow">Archive Map</p>
+          <p class="site-nav__eyebrow">Inquiry Map</p>
           <h2 class="site-nav__title">Branch Guide</h2>
           <p class="site-nav__intro">
-            A condensed guide to the rebuilt archive branches, including nested paths where the old hierarchy goes deeper.
+            A condensed guide to the inquiry branches, including nested paths where the visible hierarchy goes deeper.
           </p>
           <ul class="site-nav__list">${list}</ul>
         </div>
@@ -241,10 +274,10 @@
     mount.innerHTML = `
       <div class="outline-card">
         <div class="outline-card__header">
-          <p class="eyebrow">Archive Hierarchy</p>
+          <p class="eyebrow">Branch Hierarchy</p>
           <h2>Condensed branch view</h2>
           <p>
-            Each branch opens into its own nested path. Sub-branches get their own compact accordions so the larger archive stays legible.
+            Each branch opens into its own nested path. Sub-branches get their own compact accordions so the larger inquiry network stays legible.
           </p>
         </div>
         <div class="outline-accordion">${groups}</div>
@@ -263,13 +296,15 @@
         const sampleLink = section.samplePath
           ? `<a class="text-link" href="${href(section.samplePath)}">Open branch entry</a>`
           : `<span class="muted-label">Branch entry coming next</span>`;
-        const tags = section.futureTags.map((tag) => `<span class="tag-chip">${tag}</span>`).join("");
+        const tags = section.futureTags
+          .map((tag) => `<button class="tag-chip" type="button" data-tag-filter="${escapeHtml(tag)}">${escapeHtml(tag)}</button>`)
+          .join("");
 
         return `
-          <article class="structure-card" id="section-${section.id}">
+          <article class="structure-card" id="section-${escapeHtml(section.id)}">
             <div class="structure-card__header">
-              <p class="eyebrow">${section.name}</p>
-              <h3>${section.summary}</h3>
+              <p class="eyebrow">${escapeHtml(section.name)}</p>
+              <h3>${escapeHtml(section.summary)}</h3>
             </div>
             <div class="structure-card__body">
               <div>
@@ -294,8 +329,19 @@
       return;
     }
 
-    const tags = [...new Set(data.sections.flatMap((section) => section.futureTags))].sort();
-    mount.innerHTML = tags.map((tag) => `<span class="tag-chip tag-chip--large">${tag}</span>`).join("");
+    const tags = (data.landingTags?.length
+      ? data.landingTags
+      : [...new Set(data.sections.flatMap((section) => section.futureTags || []))]
+    ).filter(isUsefulTag).sort();
+    mount.innerHTML = tags
+      .map(
+        (tag) => `
+          <button class="tag-chip tag-chip--large" type="button" data-tag-filter="${escapeHtml(tag)}">
+            ${escapeHtml(tag)}
+          </button>
+        `,
+      )
+      .join("");
   }
 
   function renderFeaturedPages() {
@@ -306,19 +352,123 @@
 
     mount.innerHTML = data.featuredPages
       .map((page) => {
-        const tags = page.tags.map((tag) => `<span class="tag-chip">${tag}</span>`).join("");
+        const tags = page.tags
+          .map((tag) => `<button class="tag-chip" type="button" data-tag-filter="${escapeHtml(tag)}">${escapeHtml(tag)}</button>`)
+          .join("");
 
         return `
           <article class="feature-card">
-            <p class="eyebrow">${page.section}</p>
-            <h3>${page.title}</h3>
-            <p>${page.summary}</p>
+            <p class="eyebrow">${escapeHtml(page.section)}</p>
+            <h3>${escapeHtml(page.title)}</h3>
+            <p>${escapeHtml(page.summary)}</p>
             <div class="tag-row">${tags}</div>
             <a class="button button--ghost" href="${href(page.path)}">Read the page</a>
           </article>
         `;
       })
       .join("");
+  }
+
+  function renderTagResults(tag) {
+    const resultMount = document.querySelector("[data-tag-results]");
+    if (!resultMount || !tag) {
+      return;
+    }
+
+    const pages = (data.taggedPages || data.featuredPages || [])
+      .filter((page) => (page.tags || []).includes(tag))
+      .sort((a, b) => a.section.localeCompare(b.section) || a.title.localeCompare(b.title));
+
+    const items = pages
+      .slice(0, 80)
+      .map(
+        (page) => `
+          <li>
+            <a href="${href(page.path)}">${escapeHtml(page.title)}</a>
+            <span>${escapeHtml(page.section)}</span>
+          </li>
+        `,
+      )
+      .join("");
+
+    resultMount.innerHTML = `
+      <div class="tag-results__header">
+        <p class="mini-label">Selected tag</p>
+        <h3>${escapeHtml(tag)}</h3>
+        <p>${pages.length} page${pages.length === 1 ? "" : "s"} use this tag.</p>
+      </div>
+      <ul class="archive-year-list tag-results__list">
+        ${items || "<li><span>No pages use this tag yet.</span></li>"}
+      </ul>
+    `;
+  }
+
+  function initTagFilters() {
+    document.addEventListener("click", (event) => {
+      const trigger = event.target.closest("[data-tag-filter]");
+      if (!trigger) {
+        return;
+      }
+
+      const tag = trigger.dataset.tagFilter;
+      document.querySelectorAll("[data-tag-filter]").forEach((candidate) => {
+        candidate.classList.toggle("is-active", candidate.dataset.tagFilter === tag);
+      });
+      renderTagResults(tag);
+      document.querySelector("[data-tag-results]")?.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    });
+
+    const firstTag = document.querySelector("[data-tag-cloud] [data-tag-filter]");
+    if (firstTag) {
+      firstTag.classList.add("is-active");
+      renderTagResults(firstTag.dataset.tagFilter);
+    }
+  }
+
+  function initExclusiveAccordions() {
+    document.querySelectorAll("[data-exclusive-accordion]").forEach((group) => {
+      group.addEventListener("toggle", (event) => {
+        const opened = event.target;
+        if (!(opened instanceof HTMLDetailsElement) || !opened.open) {
+          return;
+        }
+
+        group.querySelectorAll("details[open]").forEach((details) => {
+          if (details !== opened) {
+            details.open = false;
+          }
+        });
+      }, true);
+    });
+  }
+
+  function revealHashTarget() {
+    const hash = decodeURIComponent(window.location.hash || "");
+    if (!hash || hash === "#") {
+      return;
+    }
+
+    const target = document.getElementById(hash.slice(1));
+    if (!target) {
+      return;
+    }
+
+    const containingPanel = target.closest(".home-panel");
+    if (containingPanel) {
+      const accordion = containingPanel.closest("[data-exclusive-accordion]");
+      accordion?.querySelectorAll(".home-panel[open]").forEach((panel) => {
+        if (panel !== containingPanel) {
+          panel.removeAttribute("open");
+        }
+      });
+      containingPanel.setAttribute("open", "");
+    }
+
+    window.requestAnimationFrame(() => {
+      window.setTimeout(() => {
+        target.scrollIntoView({ behavior: "smooth", block: "center" });
+      }, 60);
+    });
   }
 
   function initQuizzes() {
@@ -381,5 +531,9 @@
   renderStructureGrid();
   renderTagCloud();
   renderFeaturedPages();
+  initTagFilters();
+  initExclusiveAccordions();
+  revealHashTarget();
+  window.addEventListener("hashchange", revealHashTarget);
   initQuizzes();
 })();
