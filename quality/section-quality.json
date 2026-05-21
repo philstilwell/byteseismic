@@ -5,7 +5,7 @@
     "averageScore": 99.5,
     "needsReview": 0,
     "needsReviewRate": 0.0,
-    "needsGapFill": 299,
+    "needsGapFill": 300,
     "needsGapFillRate": 0.168
   },
   "editorialAudit": {
@@ -726,6 +726,355 @@
       ]
     },
     {
+      "sectionId": "epistemology",
+      "sectionName": "Epistemology",
+      "total": 263,
+      "averageScore": 99.5,
+      "needsReview": 0,
+      "needsReviewRate": 0.0,
+      "needsGapFill": 29,
+      "needsGapFillRate": 0.11,
+      "levels": {
+        "exceptional": 244,
+        "strong": 19,
+        "good": 0,
+        "developing": 0,
+        "thin": 0
+      },
+      "weakest": [
+        {
+          "sectionId": "epistemology",
+          "sectionName": "Epistemology",
+          "pageTitle": "Case #2 – The Telephone Game",
+          "pagePath": "/epistemology/case-2-the-telephone-game/",
+          "anchor": "prompt-3",
+          "url": "/epistemology/case-2-the-telephone-game/#prompt-3",
+          "prompt": "Practical Scenario: I have received a message through a chain of 7 friends with a system fidelity of 98%, a comprehension rate of 95%, and an honesty rate of 95%. Provide the calculus and final reliability probability.",
+          "heading": "System fidelity makes the argument visible in practice.",
+          "score": 92,
+          "level": "strong",
+          "needsReview": false,
+          "exceptionalReady": false,
+          "needsGapFill": true,
+          "gapReasons": [
+            "Needs a little more argumentative texture before it reaches the exceptional bar."
+          ],
+          "wordCount": 356,
+          "avgItemWords": 19.4,
+          "metrics": {
+            "children": 0,
+            "sourceParagraphs": 3,
+            "sourceItems": 0,
+            "labels": 0
+          },
+          "reasons": [
+            "The section has enough source structure and explanatory density for now."
+          ]
+        },
+        {
+          "sectionId": "epistemology",
+          "sectionName": "Epistemology",
+          "pageTitle": "Charles Darwin",
+          "pagePath": "/epistemology/charles-darwin/",
+          "anchor": "prompt-1",
+          "url": "/epistemology/charles-darwin/#prompt-1",
+          "prompt": "Provide a short paragraph explaining Charles Darwin’s influence on philosophy.",
+          "heading": "Charles Darwin’s influence on philosophy is the hinge of the response.",
+          "score": 92,
+          "level": "strong",
+          "needsReview": false,
+          "exceptionalReady": true,
+          "needsGapFill": false,
+          "gapReasons": [],
+          "wordCount": 381,
+          "avgItemWords": 19.2,
+          "metrics": {
+            "children": 0,
+            "sourceParagraphs": 3,
+            "sourceItems": 0,
+            "labels": 0
+          },
+          "reasons": [
+            "The section has enough source structure and explanatory density for now."
+          ]
+        },
+        {
+          "sectionId": "epistemology",
+          "sectionName": "Epistemology",
+          "pageTitle": "Avoiding Single-Cause Dogmatism",
+          "pagePath": "/epistemology/avoiding-single-cause-dogmatism/",
+          "anchor": "prompt-1",
+          "url": "/epistemology/avoiding-single-cause-dogmatism/#prompt-1",
+          "prompt": "The following dialogue, produced by AI Claude, highlights the contrasts between a rational, scientific mind (Randy) and a mind prone to over-simplification (Tom).",
+          "heading": "A dialogue makes Avoiding Single-Cause Dogmatism answerable to another mind.",
+          "score": 94,
+          "level": "strong",
+          "needsReview": false,
+          "exceptionalReady": true,
+          "needsGapFill": false,
+          "gapReasons": [],
+          "wordCount": 360,
+          "avgItemWords": 17.2,
+          "metrics": {
+            "children": 0,
+            "sourceParagraphs": 4,
+            "sourceItems": 0,
+            "labels": 0
+          },
+          "reasons": [
+            "The section has enough source structure and explanatory density for now."
+          ]
+        },
+        {
+          "sectionId": "epistemology",
+          "sectionName": "Epistemology",
+          "pageTitle": "Belief/Evidence Graphic",
+          "pagePath": "/epistemology/belief-evidence-graphic/",
+          "anchor": "prompt-1",
+          "url": "/epistemology/belief-evidence-graphic/#prompt-1",
+          "prompt": "Can individual A rationally say at the end of the period, ‘I knew it all along’ if they maintained their high degree of belief without mapping it to the relevant evidence as it fluctuated?",
+          "heading": "The prompt turns Belief/Evidence Graphic into a question that can be tested.",
+          "score": 94,
+          "level": "strong",
+          "needsReview": false,
+          "exceptionalReady": false,
+          "needsGapFill": true,
+          "gapReasons": [
+            "Needs a little more argumentative texture before it reaches the exceptional bar."
+          ],
+          "wordCount": 358,
+          "avgItemWords": 19.4,
+          "metrics": {
+            "children": 0,
+            "sourceParagraphs": 4,
+            "sourceItems": 0,
+            "labels": 0
+          },
+          "reasons": [
+            "The section has enough source structure and explanatory density for now."
+          ]
+        },
+        {
+          "sectionId": "epistemology",
+          "sectionName": "Epistemology",
+          "pageTitle": "Belief/Evidence Graphic",
+          "pagePath": "/epistemology/belief-evidence-graphic/",
+          "anchor": "prompt-2",
+          "url": "/epistemology/belief-evidence-graphic/#prompt-2",
+          "prompt": "Was individual C rational to wait until the evidence reached a particular threshold to flip from disbelief to belief?",
+          "heading": "The prompt turns Belief/Evidence Graphic into a question that can be tested.",
+          "score": 94,
+          "level": "strong",
+          "needsReview": false,
+          "exceptionalReady": true,
+          "needsGapFill": false,
+          "gapReasons": [],
+          "wordCount": 380,
+          "avgItemWords": 21.0,
+          "metrics": {
+            "children": 0,
+            "sourceParagraphs": 4,
+            "sourceItems": 0,
+            "labels": 0
+          },
+          "reasons": [
+            "The section has enough source structure and explanatory density for now."
+          ]
+        },
+        {
+          "sectionId": "epistemology",
+          "sectionName": "Epistemology",
+          "pageTitle": "Case #6 – Insatiable Loops",
+          "pagePath": "/epistemology/case-6-insatiable-loops/",
+          "anchor": "prompt-2",
+          "url": "/epistemology/case-6-insatiable-loops/#prompt-2",
+          "prompt": "How might the son respond to his father to make salient the logical circularity in his argument.",
+          "heading": "Circularity is the hinge of the response.",
+          "score": 94,
+          "level": "strong",
+          "needsReview": false,
+          "exceptionalReady": false,
+          "needsGapFill": true,
+          "gapReasons": [
+            "Needs a little more argumentative texture before it reaches the exceptional bar."
+          ],
+          "wordCount": 355,
+          "avgItemWords": 20.8,
+          "metrics": {
+            "children": 0,
+            "sourceParagraphs": 4,
+            "sourceItems": 0,
+            "labels": 0
+          },
+          "reasons": [
+            "The section has enough source structure and explanatory density for now."
+          ]
+        },
+        {
+          "sectionId": "epistemology",
+          "sectionName": "Epistemology",
+          "pageTitle": "Core & Deep Rationality",
+          "pagePath": "/epistemology/core-deep-rationality/",
+          "anchor": "prompt-5",
+          "url": "/epistemology/core-deep-rationality/#prompt-5",
+          "prompt": "Create a 24-line dialogue between a rationality expert and a novice who does not yet quite understand the difference between core and deep rationality.",
+          "heading": "Dialogue clarifies Core & Deep Rationality.",
+          "score": 94,
+          "level": "strong",
+          "needsReview": false,
+          "exceptionalReady": true,
+          "needsGapFill": false,
+          "gapReasons": [],
+          "wordCount": 384,
+          "avgItemWords": 23.4,
+          "metrics": {
+            "children": 0,
+            "sourceParagraphs": 4,
+            "sourceItems": 0,
+            "labels": 0
+          },
+          "reasons": [
+            "The section has enough source structure and explanatory density for now."
+          ]
+        },
+        {
+          "sectionId": "epistemology",
+          "sectionName": "Epistemology",
+          "pageTitle": "Induction: Forecasting",
+          "pagePath": "/epistemology/induction-forecasting/",
+          "anchor": "prompt-4",
+          "url": "/epistemology/induction-forecasting/#prompt-4",
+          "prompt": "What critical thinking skills are reflected in the predictions of superforecasters?",
+          "heading": "Critical thinking is the hinge of the response.",
+          "score": 94,
+          "level": "strong",
+          "needsReview": false,
+          "exceptionalReady": true,
+          "needsGapFill": false,
+          "gapReasons": [],
+          "wordCount": 375,
+          "avgItemWords": 21.0,
+          "metrics": {
+            "children": 0,
+            "sourceParagraphs": 4,
+            "sourceItems": 0,
+            "labels": 0
+          },
+          "reasons": [
+            "The section has enough source structure and explanatory density for now."
+          ]
+        },
+        {
+          "sectionId": "epistemology",
+          "sectionName": "Epistemology",
+          "pageTitle": "Many Logics?",
+          "pagePath": "/epistemology/many-logics/",
+          "anchor": "prompt-3",
+          "url": "/epistemology/many-logics/#prompt-3",
+          "prompt": "Does Intuitionist logic contradict classical logic in that it rejects the law of the excluded middle?",
+          "heading": "Intuitionist logic is the hinge of the response.",
+          "score": 94,
+          "level": "strong",
+          "needsReview": false,
+          "exceptionalReady": true,
+          "needsGapFill": false,
+          "gapReasons": [],
+          "wordCount": 379,
+          "avgItemWords": 21.0,
+          "metrics": {
+            "children": 0,
+            "sourceParagraphs": 4,
+            "sourceItems": 0,
+            "labels": 0
+          },
+          "reasons": [
+            "The section has enough source structure and explanatory density for now."
+          ]
+        },
+        {
+          "sectionId": "epistemology",
+          "sectionName": "Epistemology",
+          "pageTitle": "Preponderance of Evidence?",
+          "pagePath": "/epistemology/preponderance-of-evidence/",
+          "anchor": "prompt-1",
+          "url": "/epistemology/preponderance-of-evidence/#prompt-1",
+          "prompt": "Assess the following statement against the notion that rational belief is a degree of belief that maps to the degree of the relevant evidence.",
+          "heading": "Preponderance of Evidence is the hinge of the response.",
+          "score": 94,
+          "level": "strong",
+          "needsReview": false,
+          "exceptionalReady": true,
+          "needsGapFill": false,
+          "gapReasons": [],
+          "wordCount": 423,
+          "avgItemWords": 29.8,
+          "metrics": {
+            "children": 0,
+            "sourceParagraphs": 4,
+            "sourceItems": 0,
+            "labels": 0
+          },
+          "reasons": [
+            "The section has enough source structure and explanatory density for now."
+          ]
+        },
+        {
+          "sectionId": "epistemology",
+          "sectionName": "Epistemology",
+          "pageTitle": "Preponderance of Evidence?",
+          "pagePath": "/epistemology/preponderance-of-evidence/",
+          "anchor": "prompt-3",
+          "url": "/epistemology/preponderance-of-evidence/#prompt-3",
+          "prompt": "Create a dialogue featuring a gradient belief proponent and a binary belief proponent.",
+          "heading": "Dialogue clarifies Gradient belief.",
+          "score": 94,
+          "level": "strong",
+          "needsReview": false,
+          "exceptionalReady": true,
+          "needsGapFill": false,
+          "gapReasons": [],
+          "wordCount": 389,
+          "avgItemWords": 18.6,
+          "metrics": {
+            "children": 0,
+            "sourceParagraphs": 4,
+            "sourceItems": 0,
+            "labels": 0
+          },
+          "reasons": [
+            "The section has enough source structure and explanatory density for now."
+          ]
+        },
+        {
+          "sectionId": "epistemology",
+          "sectionName": "Epistemology",
+          "pageTitle": "The Burden of Proof",
+          "pagePath": "/epistemology/the-burden-of-proof/",
+          "anchor": "prompt-1",
+          "url": "/epistemology/the-burden-of-proof/#prompt-1",
+          "prompt": "I understand the burden of proof to be the social obligation of someone who makes a public claim to substantiate that claim. Is this definition correct, or is it wrong or incomplete?",
+          "heading": "Burden of proof is the hinge of the response.",
+          "score": 94,
+          "level": "strong",
+          "needsReview": false,
+          "exceptionalReady": true,
+          "needsGapFill": false,
+          "gapReasons": [],
+          "wordCount": 370,
+          "avgItemWords": 22.8,
+          "metrics": {
+            "children": 0,
+            "sourceParagraphs": 4,
+            "sourceItems": 0,
+            "labels": 0
+          },
+          "reasons": [
+            "The section has enough source structure and explanatory density for now."
+          ]
+        }
+      ]
+    },
+    {
       "sectionId": "humanistic-philosophies",
       "sectionName": "Humanistic Philosophies",
       "total": 79,
@@ -1061,357 +1410,6 @@
             "sourceParagraphs": 4,
             "sourceItems": 8,
             "labels": 1
-          },
-          "reasons": [
-            "The section has enough source structure and explanatory density for now."
-          ]
-        }
-      ]
-    },
-    {
-      "sectionId": "epistemology",
-      "sectionName": "Epistemology",
-      "total": 263,
-      "averageScore": 99.6,
-      "needsReview": 0,
-      "needsReviewRate": 0.0,
-      "needsGapFill": 28,
-      "needsGapFillRate": 0.106,
-      "levels": {
-        "exceptional": 245,
-        "strong": 18,
-        "good": 0,
-        "developing": 0,
-        "thin": 0
-      },
-      "weakest": [
-        {
-          "sectionId": "epistemology",
-          "sectionName": "Epistemology",
-          "pageTitle": "Case #2 – The Telephone Game",
-          "pagePath": "/epistemology/case-2-the-telephone-game/",
-          "anchor": "prompt-3",
-          "url": "/epistemology/case-2-the-telephone-game/#prompt-3",
-          "prompt": "Practical Scenario: I have received a message through a chain of 7 friends with a system fidelity of 98%, a comprehension rate of 95%, and an honesty rate of 95%. Provide the calculus and final reliability probability.",
-          "heading": "System fidelity makes the argument visible in practice.",
-          "score": 92,
-          "level": "strong",
-          "needsReview": false,
-          "exceptionalReady": false,
-          "needsGapFill": true,
-          "gapReasons": [
-            "Needs a little more argumentative texture before it reaches the exceptional bar."
-          ],
-          "wordCount": 356,
-          "avgItemWords": 19.4,
-          "metrics": {
-            "children": 0,
-            "sourceParagraphs": 3,
-            "sourceItems": 0,
-            "labels": 0
-          },
-          "reasons": [
-            "The section has enough source structure and explanatory density for now."
-          ]
-        },
-        {
-          "sectionId": "epistemology",
-          "sectionName": "Epistemology",
-          "pageTitle": "Charles Darwin",
-          "pagePath": "/epistemology/charles-darwin/",
-          "anchor": "prompt-1",
-          "url": "/epistemology/charles-darwin/#prompt-1",
-          "prompt": "Provide a short paragraph explaining Charles Darwin’s influence on philosophy.",
-          "heading": "Charles Darwin’s influence on philosophy is the hinge of the response.",
-          "score": 92,
-          "level": "strong",
-          "needsReview": false,
-          "exceptionalReady": true,
-          "needsGapFill": false,
-          "gapReasons": [],
-          "wordCount": 381,
-          "avgItemWords": 19.2,
-          "metrics": {
-            "children": 0,
-            "sourceParagraphs": 3,
-            "sourceItems": 0,
-            "labels": 0
-          },
-          "reasons": [
-            "The section has enough source structure and explanatory density for now."
-          ]
-        },
-        {
-          "sectionId": "epistemology",
-          "sectionName": "Epistemology",
-          "pageTitle": "Avoiding Single-Cause Dogmatism",
-          "pagePath": "/epistemology/avoiding-single-cause-dogmatism/",
-          "anchor": "prompt-1",
-          "url": "/epistemology/avoiding-single-cause-dogmatism/#prompt-1",
-          "prompt": "The following dialogue, produced by AI Claude, highlights the contrasts between a rational, scientific mind (Randy) and a mind prone to over-simplification (Tom).",
-          "heading": "Dialogue clarifies Avoiding Single-Cause Dogmatism.",
-          "score": 94,
-          "level": "strong",
-          "needsReview": false,
-          "exceptionalReady": false,
-          "needsGapFill": true,
-          "gapReasons": [
-            "Needs a little more argumentative texture before it reaches the exceptional bar."
-          ],
-          "wordCount": 357,
-          "avgItemWords": 20.0,
-          "metrics": {
-            "children": 0,
-            "sourceParagraphs": 4,
-            "sourceItems": 0,
-            "labels": 0
-          },
-          "reasons": [
-            "The section has enough source structure and explanatory density for now."
-          ]
-        },
-        {
-          "sectionId": "epistemology",
-          "sectionName": "Epistemology",
-          "pageTitle": "Belief/Evidence Graphic",
-          "pagePath": "/epistemology/belief-evidence-graphic/",
-          "anchor": "prompt-1",
-          "url": "/epistemology/belief-evidence-graphic/#prompt-1",
-          "prompt": "Can individual A rationally say at the end of the period, ‘I knew it all along’ if they maintained their high degree of belief without mapping it to the relevant evidence as it fluctuated?",
-          "heading": "The prompt turns Belief/Evidence Graphic into a question that can be tested.",
-          "score": 94,
-          "level": "strong",
-          "needsReview": false,
-          "exceptionalReady": false,
-          "needsGapFill": true,
-          "gapReasons": [
-            "Needs a little more argumentative texture before it reaches the exceptional bar."
-          ],
-          "wordCount": 358,
-          "avgItemWords": 19.4,
-          "metrics": {
-            "children": 0,
-            "sourceParagraphs": 4,
-            "sourceItems": 0,
-            "labels": 0
-          },
-          "reasons": [
-            "The section has enough source structure and explanatory density for now."
-          ]
-        },
-        {
-          "sectionId": "epistemology",
-          "sectionName": "Epistemology",
-          "pageTitle": "Belief/Evidence Graphic",
-          "pagePath": "/epistemology/belief-evidence-graphic/",
-          "anchor": "prompt-2",
-          "url": "/epistemology/belief-evidence-graphic/#prompt-2",
-          "prompt": "Was individual C rational to wait until the evidence reached a particular threshold to flip from disbelief to belief?",
-          "heading": "The prompt turns Belief/Evidence Graphic into a question that can be tested.",
-          "score": 94,
-          "level": "strong",
-          "needsReview": false,
-          "exceptionalReady": true,
-          "needsGapFill": false,
-          "gapReasons": [],
-          "wordCount": 380,
-          "avgItemWords": 21.0,
-          "metrics": {
-            "children": 0,
-            "sourceParagraphs": 4,
-            "sourceItems": 0,
-            "labels": 0
-          },
-          "reasons": [
-            "The section has enough source structure and explanatory density for now."
-          ]
-        },
-        {
-          "sectionId": "epistemology",
-          "sectionName": "Epistemology",
-          "pageTitle": "Case #6 – Insatiable Loops",
-          "pagePath": "/epistemology/case-6-insatiable-loops/",
-          "anchor": "prompt-2",
-          "url": "/epistemology/case-6-insatiable-loops/#prompt-2",
-          "prompt": "How might the son respond to his father to make salient the logical circularity in his argument.",
-          "heading": "Circularity is the hinge of the response.",
-          "score": 94,
-          "level": "strong",
-          "needsReview": false,
-          "exceptionalReady": false,
-          "needsGapFill": true,
-          "gapReasons": [
-            "Needs a little more argumentative texture before it reaches the exceptional bar."
-          ],
-          "wordCount": 355,
-          "avgItemWords": 20.8,
-          "metrics": {
-            "children": 0,
-            "sourceParagraphs": 4,
-            "sourceItems": 0,
-            "labels": 0
-          },
-          "reasons": [
-            "The section has enough source structure and explanatory density for now."
-          ]
-        },
-        {
-          "sectionId": "epistemology",
-          "sectionName": "Epistemology",
-          "pageTitle": "Core & Deep Rationality",
-          "pagePath": "/epistemology/core-deep-rationality/",
-          "anchor": "prompt-5",
-          "url": "/epistemology/core-deep-rationality/#prompt-5",
-          "prompt": "Create a 24-line dialogue between a rationality expert and a novice who does not yet quite understand the difference between core and deep rationality.",
-          "heading": "Dialogue clarifies Core & Deep Rationality.",
-          "score": 94,
-          "level": "strong",
-          "needsReview": false,
-          "exceptionalReady": true,
-          "needsGapFill": false,
-          "gapReasons": [],
-          "wordCount": 384,
-          "avgItemWords": 23.4,
-          "metrics": {
-            "children": 0,
-            "sourceParagraphs": 4,
-            "sourceItems": 0,
-            "labels": 0
-          },
-          "reasons": [
-            "The section has enough source structure and explanatory density for now."
-          ]
-        },
-        {
-          "sectionId": "epistemology",
-          "sectionName": "Epistemology",
-          "pageTitle": "Induction: Forecasting",
-          "pagePath": "/epistemology/induction-forecasting/",
-          "anchor": "prompt-4",
-          "url": "/epistemology/induction-forecasting/#prompt-4",
-          "prompt": "What critical thinking skills are reflected in the predictions of superforecasters?",
-          "heading": "Critical thinking is the hinge of the response.",
-          "score": 94,
-          "level": "strong",
-          "needsReview": false,
-          "exceptionalReady": true,
-          "needsGapFill": false,
-          "gapReasons": [],
-          "wordCount": 375,
-          "avgItemWords": 21.0,
-          "metrics": {
-            "children": 0,
-            "sourceParagraphs": 4,
-            "sourceItems": 0,
-            "labels": 0
-          },
-          "reasons": [
-            "The section has enough source structure and explanatory density for now."
-          ]
-        },
-        {
-          "sectionId": "epistemology",
-          "sectionName": "Epistemology",
-          "pageTitle": "Many Logics?",
-          "pagePath": "/epistemology/many-logics/",
-          "anchor": "prompt-3",
-          "url": "/epistemology/many-logics/#prompt-3",
-          "prompt": "Does Intuitionist logic contradict classical logic in that it rejects the law of the excluded middle?",
-          "heading": "Intuitionist logic is the hinge of the response.",
-          "score": 94,
-          "level": "strong",
-          "needsReview": false,
-          "exceptionalReady": true,
-          "needsGapFill": false,
-          "gapReasons": [],
-          "wordCount": 379,
-          "avgItemWords": 21.0,
-          "metrics": {
-            "children": 0,
-            "sourceParagraphs": 4,
-            "sourceItems": 0,
-            "labels": 0
-          },
-          "reasons": [
-            "The section has enough source structure and explanatory density for now."
-          ]
-        },
-        {
-          "sectionId": "epistemology",
-          "sectionName": "Epistemology",
-          "pageTitle": "Preponderance of Evidence?",
-          "pagePath": "/epistemology/preponderance-of-evidence/",
-          "anchor": "prompt-1",
-          "url": "/epistemology/preponderance-of-evidence/#prompt-1",
-          "prompt": "Assess the following statement against the notion that rational belief is a degree of belief that maps to the degree of the relevant evidence.",
-          "heading": "Preponderance of Evidence is the hinge of the response.",
-          "score": 94,
-          "level": "strong",
-          "needsReview": false,
-          "exceptionalReady": true,
-          "needsGapFill": false,
-          "gapReasons": [],
-          "wordCount": 423,
-          "avgItemWords": 29.8,
-          "metrics": {
-            "children": 0,
-            "sourceParagraphs": 4,
-            "sourceItems": 0,
-            "labels": 0
-          },
-          "reasons": [
-            "The section has enough source structure and explanatory density for now."
-          ]
-        },
-        {
-          "sectionId": "epistemology",
-          "sectionName": "Epistemology",
-          "pageTitle": "Preponderance of Evidence?",
-          "pagePath": "/epistemology/preponderance-of-evidence/",
-          "anchor": "prompt-3",
-          "url": "/epistemology/preponderance-of-evidence/#prompt-3",
-          "prompt": "Create a dialogue featuring a gradient belief proponent and a binary belief proponent.",
-          "heading": "Dialogue clarifies Gradient belief.",
-          "score": 94,
-          "level": "strong",
-          "needsReview": false,
-          "exceptionalReady": true,
-          "needsGapFill": false,
-          "gapReasons": [],
-          "wordCount": 389,
-          "avgItemWords": 18.6,
-          "metrics": {
-            "children": 0,
-            "sourceParagraphs": 4,
-            "sourceItems": 0,
-            "labels": 0
-          },
-          "reasons": [
-            "The section has enough source structure and explanatory density for now."
-          ]
-        },
-        {
-          "sectionId": "epistemology",
-          "sectionName": "Epistemology",
-          "pageTitle": "The Burden of Proof",
-          "pagePath": "/epistemology/the-burden-of-proof/",
-          "anchor": "prompt-1",
-          "url": "/epistemology/the-burden-of-proof/#prompt-1",
-          "prompt": "I understand the burden of proof to be the social obligation of someone who makes a public claim to substantiate that claim. Is this definition correct, or is it wrong or incomplete?",
-          "heading": "Burden of proof is the hinge of the response.",
-          "score": 94,
-          "level": "strong",
-          "needsReview": false,
-          "exceptionalReady": true,
-          "needsGapFill": false,
-          "gapReasons": [],
-          "wordCount": 370,
-          "avgItemWords": 22.8,
-          "metrics": {
-            "children": 0,
-            "sourceParagraphs": 4,
-            "sourceItems": 0,
-            "labels": 0
           },
           "reasons": [
             "The section has enough source structure and explanatory density for now."
@@ -2803,6 +2801,349 @@
       ]
     },
     {
+      "sectionId": "metaphysics",
+      "sectionName": "Metaphysics",
+      "total": 82,
+      "averageScore": 99.7,
+      "needsReview": 0,
+      "needsReviewRate": 0.0,
+      "needsGapFill": 2,
+      "needsGapFillRate": 0.024,
+      "levels": {
+        "exceptional": 79,
+        "strong": 3,
+        "good": 0,
+        "developing": 0,
+        "thin": 0
+      },
+      "weakest": [
+        {
+          "sectionId": "metaphysics",
+          "sectionName": "Metaphysics",
+          "pageTitle": "Could Mind be Fundamental?",
+          "pagePath": "/metaphysics/could-mind-be-fundamental/",
+          "anchor": "prompt-2",
+          "url": "/metaphysics/could-mind-be-fundamental/#prompt-2",
+          "prompt": "Using the 7 schools of thought found in ChatGPT’s response, provide a table of these schools of thought, their general positions, and the common counter-arguments.",
+          "heading": "These schools of thought is the hinge of the response.",
+          "score": 90,
+          "level": "strong",
+          "needsReview": false,
+          "exceptionalReady": true,
+          "needsGapFill": false,
+          "gapReasons": [],
+          "wordCount": 379,
+          "avgItemWords": 32.6,
+          "metrics": {
+            "children": 0,
+            "sourceParagraphs": 2,
+            "sourceItems": 0,
+            "labels": 0
+          },
+          "reasons": [
+            "The section has enough source structure and explanatory density for now."
+          ]
+        },
+        {
+          "sectionId": "metaphysics",
+          "sectionName": "Metaphysics",
+          "pageTitle": "Dualism vs Materialism",
+          "pagePath": "/metaphysics/dualismvsmaterialism/",
+          "anchor": "prompt-1",
+          "url": "/metaphysics/dualismvsmaterialism/#prompt-1",
+          "prompt": "Create a hypothetical spirited dialogue between a dualist and a materialist, with each defending their position with clear arguments.",
+          "heading": "Dialogue clarifies Dualism vs Materialism.",
+          "score": 94,
+          "level": "strong",
+          "needsReview": false,
+          "exceptionalReady": true,
+          "needsGapFill": false,
+          "gapReasons": [],
+          "wordCount": 393,
+          "avgItemWords": 20.4,
+          "metrics": {
+            "children": 0,
+            "sourceParagraphs": 4,
+            "sourceItems": 0,
+            "labels": 0
+          },
+          "reasons": [
+            "The section has enough source structure and explanatory density for now."
+          ]
+        },
+        {
+          "sectionId": "metaphysics",
+          "sectionName": "Metaphysics",
+          "pageTitle": "Dualism vs Materialism",
+          "pagePath": "/metaphysics/dualismvsmaterialism/",
+          "anchor": "prompt-5",
+          "url": "/metaphysics/dualismvsmaterialism/#prompt-5",
+          "prompt": "Organize the arguments and counter-arguments for and against dualism and materialism in a clear table.",
+          "heading": "Arguments for and against dualism and materialism in a clear table needs structure before it can persuade.",
+          "score": 94,
+          "level": "strong",
+          "needsReview": false,
+          "exceptionalReady": true,
+          "needsGapFill": false,
+          "gapReasons": [],
+          "wordCount": 392,
+          "avgItemWords": 32.2,
+          "metrics": {
+            "children": 1,
+            "sourceParagraphs": 4,
+            "sourceItems": 0,
+            "labels": 0
+          },
+          "reasons": [
+            "The section has enough source structure and explanatory density for now."
+          ]
+        },
+        {
+          "sectionId": "metaphysics",
+          "sectionName": "Metaphysics",
+          "pageTitle": "A Taxonomy of Impossibilities",
+          "pagePath": "/metaphysics/a-taxonomy-of-impossibilities/",
+          "anchor": "prompt-1",
+          "url": "/metaphysics/a-taxonomy-of-impossibilities/#prompt-1",
+          "prompt": "Consider the following types of impossibility. Do they fall into a nested order? Are there other significant types of impossibility that should be considered in metaphysics?",
+          "heading": "Types of Impossibility is the hinge of the response.",
+          "score": 100,
+          "level": "exceptional",
+          "needsReview": false,
+          "exceptionalReady": true,
+          "needsGapFill": false,
+          "gapReasons": [],
+          "wordCount": 394,
+          "avgItemWords": 18.5,
+          "metrics": {
+            "children": 8,
+            "sourceParagraphs": 8,
+            "sourceItems": 3,
+            "labels": 5
+          },
+          "reasons": [
+            "The section has enough source structure and explanatory density for now."
+          ]
+        },
+        {
+          "sectionId": "metaphysics",
+          "sectionName": "Metaphysics",
+          "pageTitle": "A Taxonomy of Impossibilities",
+          "pagePath": "/metaphysics/a-taxonomy-of-impossibilities/",
+          "anchor": "prompt-2",
+          "url": "/metaphysics/a-taxonomy-of-impossibilities/#prompt-2",
+          "prompt": "Create a table that coherently organizes these types of impossibility and specifies their relationship to the other types.",
+          "heading": "Relationships of Impossibility Types is the hinge of the response.",
+          "score": 100,
+          "level": "exceptional",
+          "needsReview": false,
+          "exceptionalReady": true,
+          "needsGapFill": false,
+          "gapReasons": [],
+          "wordCount": 391,
+          "avgItemWords": 19.8,
+          "metrics": {
+            "children": 2,
+            "sourceParagraphs": 3,
+            "sourceItems": 3,
+            "labels": 2
+          },
+          "reasons": [
+            "The section has enough source structure and explanatory density for now."
+          ]
+        },
+        {
+          "sectionId": "metaphysics",
+          "sectionName": "Metaphysics",
+          "pageTitle": "A Taxonomy of Impossibilities",
+          "pagePath": "/metaphysics/a-taxonomy-of-impossibilities/",
+          "anchor": "prompt-3",
+          "url": "/metaphysics/a-taxonomy-of-impossibilities/#prompt-3",
+          "prompt": "Create a list of non-trivial facts about these types of impossibility.",
+          "heading": "Logical Impossibility needs a map, not a heap of labels.",
+          "score": 100,
+          "level": "exceptional",
+          "needsReview": false,
+          "exceptionalReady": true,
+          "needsGapFill": false,
+          "gapReasons": [],
+          "wordCount": 378,
+          "avgItemWords": 20.7,
+          "metrics": {
+            "children": 7,
+            "sourceParagraphs": 1,
+            "sourceItems": 22,
+            "labels": 5
+          },
+          "reasons": [
+            "The section has enough source structure and explanatory density for now."
+          ]
+        },
+        {
+          "sectionId": "metaphysics",
+          "sectionName": "Metaphysics",
+          "pageTitle": "A Taxonomy of Impossibilities",
+          "pagePath": "/metaphysics/a-taxonomy-of-impossibilities/",
+          "anchor": "prompt-4",
+          "url": "/metaphysics/a-taxonomy-of-impossibilities/#prompt-4",
+          "prompt": "Comment on and give examples of the confusion that an entanglement of different notions of impossibility can create.",
+          "heading": "Confusion from Entanglement of Different Notions of Impossibility makes the argument visible in practice.",
+          "score": 100,
+          "level": "exceptional",
+          "needsReview": false,
+          "exceptionalReady": true,
+          "needsGapFill": false,
+          "gapReasons": [],
+          "wordCount": 383,
+          "avgItemWords": 18.7,
+          "metrics": {
+            "children": 6,
+            "sourceParagraphs": 13,
+            "sourceItems": 14,
+            "labels": 5
+          },
+          "reasons": [
+            "The section has enough source structure and explanatory density for now."
+          ]
+        },
+        {
+          "sectionId": "metaphysics",
+          "sectionName": "Metaphysics",
+          "pageTitle": "Are Quantum Physics “Spiritual”?",
+          "pagePath": "/metaphysics/are-quantum-physics-spiritual/",
+          "anchor": "prompt-1",
+          "url": "/metaphysics/are-quantum-physics-spiritual/#prompt-1",
+          "prompt": "Do quantum physics bleed over into the spiritual realm, or are they subsumed by the “material” realm as it is commonly understood?",
+          "heading": "Quantum Physics and the Spiritual Realm is the hinge of the response.",
+          "score": 100,
+          "level": "exceptional",
+          "needsReview": false,
+          "exceptionalReady": true,
+          "needsGapFill": false,
+          "gapReasons": [],
+          "wordCount": 384,
+          "avgItemWords": 17.6,
+          "metrics": {
+            "children": 4,
+            "sourceParagraphs": 7,
+            "sourceItems": 10,
+            "labels": 4
+          },
+          "reasons": [
+            "The section has enough source structure and explanatory density for now."
+          ]
+        },
+        {
+          "sectionId": "metaphysics",
+          "sectionName": "Metaphysics",
+          "pageTitle": "Are Quantum Physics “Spiritual”?",
+          "pagePath": "/metaphysics/are-quantum-physics-spiritual/",
+          "anchor": "prompt-2",
+          "url": "/metaphysics/are-quantum-physics-spiritual/#prompt-2",
+          "prompt": "Elaborate on common erroneous conceptualizations of quantum physics that contribute to the notion that quantum physics are, at least to some degree, spiritual.",
+          "heading": "Common Erroneous Conceptualizations of Quantum Physics is the hinge of the response.",
+          "score": 100,
+          "level": "exceptional",
+          "needsReview": false,
+          "exceptionalReady": true,
+          "needsGapFill": false,
+          "gapReasons": [],
+          "wordCount": 375,
+          "avgItemWords": 21.3,
+          "metrics": {
+            "children": 6,
+            "sourceParagraphs": 5,
+            "sourceItems": 14,
+            "labels": 5
+          },
+          "reasons": [
+            "The section has enough source structure and explanatory density for now."
+          ]
+        },
+        {
+          "sectionId": "metaphysics",
+          "sectionName": "Metaphysics",
+          "pageTitle": "Are Quantum Physics “Spiritual”?",
+          "pagePath": "/metaphysics/are-quantum-physics-spiritual/",
+          "anchor": "prompt-3",
+          "url": "/metaphysics/are-quantum-physics-spiritual/#prompt-3",
+          "prompt": "What are the best resources that explain why quantum physics do not occupy a spiritual realm.",
+          "heading": "Are Quantum Physics “Spiritual” needs a definition that changes judgment.",
+          "score": 100,
+          "level": "exceptional",
+          "needsReview": false,
+          "exceptionalReady": true,
+          "needsGapFill": false,
+          "gapReasons": [],
+          "wordCount": 406,
+          "avgItemWords": 34.4,
+          "metrics": {
+            "children": 5,
+            "sourceParagraphs": 5,
+            "sourceItems": 24,
+            "labels": 5
+          },
+          "reasons": [
+            "The section has enough source structure and explanatory density for now."
+          ]
+        },
+        {
+          "sectionId": "metaphysics",
+          "sectionName": "Metaphysics",
+          "pageTitle": "Are Quantum Physics “Spiritual”?",
+          "pagePath": "/metaphysics/are-quantum-physics-spiritual/",
+          "anchor": "prompt-4",
+          "url": "/metaphysics/are-quantum-physics-spiritual/#prompt-4",
+          "prompt": "What is a strong argument in response to someone claiming the observation effect demonstrates our souls are connected to the quantum world?",
+          "heading": "Clarify the Observation Effect needs a definition that changes judgment.",
+          "score": 100,
+          "level": "exceptional",
+          "needsReview": false,
+          "exceptionalReady": true,
+          "needsGapFill": false,
+          "gapReasons": [],
+          "wordCount": 413,
+          "avgItemWords": 35.4,
+          "metrics": {
+            "children": 4,
+            "sourceParagraphs": 6,
+            "sourceItems": 16,
+            "labels": 3
+          },
+          "reasons": [
+            "The section has enough source structure and explanatory density for now."
+          ]
+        },
+        {
+          "sectionId": "metaphysics",
+          "sectionName": "Metaphysics",
+          "pageTitle": "Categories of Nihilism",
+          "pagePath": "/metaphysics/categories-of-nihilism/",
+          "anchor": "prompt-1",
+          "url": "/metaphysics/categories-of-nihilism/#prompt-1",
+          "prompt": "What are the various discrete categories of nihilism?",
+          "heading": "Various Categories of Nihilism needs a definition that changes judgment.",
+          "score": 100,
+          "level": "exceptional",
+          "needsReview": false,
+          "exceptionalReady": true,
+          "needsGapFill": false,
+          "gapReasons": [],
+          "wordCount": 383,
+          "avgItemWords": 18.6,
+          "metrics": {
+            "children": 1,
+            "sourceParagraphs": 4,
+            "sourceItems": 6,
+            "labels": 1
+          },
+          "reasons": [
+            "The section has enough source structure and explanatory density for now."
+          ]
+        }
+      ]
+    },
+    {
       "sectionId": "miscellany",
       "sectionName": "Miscellany",
       "total": 67,
@@ -3131,8 +3472,8 @@
           "exceptionalReady": true,
           "needsGapFill": false,
           "gapReasons": [],
-          "wordCount": 371,
-          "avgItemWords": 24.2,
+          "wordCount": 392,
+          "avgItemWords": 27.7,
           "metrics": {
             "children": 8,
             "sourceParagraphs": 8,
@@ -3481,349 +3822,6 @@
             "sourceParagraphs": 1,
             "sourceItems": 16,
             "labels": 5
-          },
-          "reasons": [
-            "The section has enough source structure and explanatory density for now."
-          ]
-        }
-      ]
-    },
-    {
-      "sectionId": "metaphysics",
-      "sectionName": "Metaphysics",
-      "total": 82,
-      "averageScore": 99.8,
-      "needsReview": 0,
-      "needsReviewRate": 0.0,
-      "needsGapFill": 2,
-      "needsGapFillRate": 0.024,
-      "levels": {
-        "exceptional": 80,
-        "strong": 2,
-        "good": 0,
-        "developing": 0,
-        "thin": 0
-      },
-      "weakest": [
-        {
-          "sectionId": "metaphysics",
-          "sectionName": "Metaphysics",
-          "pageTitle": "Could Mind be Fundamental?",
-          "pagePath": "/metaphysics/could-mind-be-fundamental/",
-          "anchor": "prompt-2",
-          "url": "/metaphysics/could-mind-be-fundamental/#prompt-2",
-          "prompt": "Using the 7 schools of thought found in ChatGPT’s response, provide a table of these schools of thought, their general positions, and the common counter-arguments.",
-          "heading": "These schools of thought is the hinge of the response.",
-          "score": 90,
-          "level": "strong",
-          "needsReview": false,
-          "exceptionalReady": true,
-          "needsGapFill": false,
-          "gapReasons": [],
-          "wordCount": 379,
-          "avgItemWords": 32.6,
-          "metrics": {
-            "children": 0,
-            "sourceParagraphs": 2,
-            "sourceItems": 0,
-            "labels": 0
-          },
-          "reasons": [
-            "The section has enough source structure and explanatory density for now."
-          ]
-        },
-        {
-          "sectionId": "metaphysics",
-          "sectionName": "Metaphysics",
-          "pageTitle": "Dualism vs Materialism",
-          "pagePath": "/metaphysics/dualismvsmaterialism/",
-          "anchor": "prompt-1",
-          "url": "/metaphysics/dualismvsmaterialism/#prompt-1",
-          "prompt": "Create a hypothetical spirited dialogue between a dualist and a materialist, with each defending their position with clear arguments.",
-          "heading": "Dialogue clarifies Dualism vs Materialism.",
-          "score": 94,
-          "level": "strong",
-          "needsReview": false,
-          "exceptionalReady": true,
-          "needsGapFill": false,
-          "gapReasons": [],
-          "wordCount": 386,
-          "avgItemWords": 19.0,
-          "metrics": {
-            "children": 0,
-            "sourceParagraphs": 4,
-            "sourceItems": 0,
-            "labels": 0
-          },
-          "reasons": [
-            "The section has enough source structure and explanatory density for now."
-          ]
-        },
-        {
-          "sectionId": "metaphysics",
-          "sectionName": "Metaphysics",
-          "pageTitle": "Dualism vs Materialism",
-          "pagePath": "/metaphysics/dualismvsmaterialism/",
-          "anchor": "prompt-5",
-          "url": "/metaphysics/dualismvsmaterialism/#prompt-5",
-          "prompt": "Organize the arguments and counter-arguments for and against dualism and materialism in a clear table.",
-          "heading": "ChatGPT is the hinge of the response.",
-          "score": 99,
-          "level": "exceptional",
-          "needsReview": false,
-          "exceptionalReady": true,
-          "needsGapFill": false,
-          "gapReasons": [],
-          "wordCount": 363,
-          "avgItemWords": 18.2,
-          "metrics": {
-            "children": 1,
-            "sourceParagraphs": 4,
-            "sourceItems": 0,
-            "labels": 1
-          },
-          "reasons": [
-            "The section has enough source structure and explanatory density for now."
-          ]
-        },
-        {
-          "sectionId": "metaphysics",
-          "sectionName": "Metaphysics",
-          "pageTitle": "A Taxonomy of Impossibilities",
-          "pagePath": "/metaphysics/a-taxonomy-of-impossibilities/",
-          "anchor": "prompt-1",
-          "url": "/metaphysics/a-taxonomy-of-impossibilities/#prompt-1",
-          "prompt": "Consider the following types of impossibility. Do they fall into a nested order? Are there other significant types of impossibility that should be considered in metaphysics?",
-          "heading": "Types of Impossibility is the hinge of the response.",
-          "score": 100,
-          "level": "exceptional",
-          "needsReview": false,
-          "exceptionalReady": true,
-          "needsGapFill": false,
-          "gapReasons": [],
-          "wordCount": 394,
-          "avgItemWords": 18.5,
-          "metrics": {
-            "children": 8,
-            "sourceParagraphs": 8,
-            "sourceItems": 3,
-            "labels": 5
-          },
-          "reasons": [
-            "The section has enough source structure and explanatory density for now."
-          ]
-        },
-        {
-          "sectionId": "metaphysics",
-          "sectionName": "Metaphysics",
-          "pageTitle": "A Taxonomy of Impossibilities",
-          "pagePath": "/metaphysics/a-taxonomy-of-impossibilities/",
-          "anchor": "prompt-2",
-          "url": "/metaphysics/a-taxonomy-of-impossibilities/#prompt-2",
-          "prompt": "Create a table that coherently organizes these types of impossibility and specifies their relationship to the other types.",
-          "heading": "Relationships of Impossibility Types is the hinge of the response.",
-          "score": 100,
-          "level": "exceptional",
-          "needsReview": false,
-          "exceptionalReady": true,
-          "needsGapFill": false,
-          "gapReasons": [],
-          "wordCount": 391,
-          "avgItemWords": 19.8,
-          "metrics": {
-            "children": 2,
-            "sourceParagraphs": 3,
-            "sourceItems": 3,
-            "labels": 2
-          },
-          "reasons": [
-            "The section has enough source structure and explanatory density for now."
-          ]
-        },
-        {
-          "sectionId": "metaphysics",
-          "sectionName": "Metaphysics",
-          "pageTitle": "A Taxonomy of Impossibilities",
-          "pagePath": "/metaphysics/a-taxonomy-of-impossibilities/",
-          "anchor": "prompt-3",
-          "url": "/metaphysics/a-taxonomy-of-impossibilities/#prompt-3",
-          "prompt": "Create a list of non-trivial facts about these types of impossibility.",
-          "heading": "Logical Impossibility needs a map, not a heap of labels.",
-          "score": 100,
-          "level": "exceptional",
-          "needsReview": false,
-          "exceptionalReady": true,
-          "needsGapFill": false,
-          "gapReasons": [],
-          "wordCount": 378,
-          "avgItemWords": 20.7,
-          "metrics": {
-            "children": 7,
-            "sourceParagraphs": 1,
-            "sourceItems": 22,
-            "labels": 5
-          },
-          "reasons": [
-            "The section has enough source structure and explanatory density for now."
-          ]
-        },
-        {
-          "sectionId": "metaphysics",
-          "sectionName": "Metaphysics",
-          "pageTitle": "A Taxonomy of Impossibilities",
-          "pagePath": "/metaphysics/a-taxonomy-of-impossibilities/",
-          "anchor": "prompt-4",
-          "url": "/metaphysics/a-taxonomy-of-impossibilities/#prompt-4",
-          "prompt": "Comment on and give examples of the confusion that an entanglement of different notions of impossibility can create.",
-          "heading": "Confusion from Entanglement of Different Notions of Impossibility makes the argument visible in practice.",
-          "score": 100,
-          "level": "exceptional",
-          "needsReview": false,
-          "exceptionalReady": true,
-          "needsGapFill": false,
-          "gapReasons": [],
-          "wordCount": 383,
-          "avgItemWords": 18.7,
-          "metrics": {
-            "children": 6,
-            "sourceParagraphs": 13,
-            "sourceItems": 14,
-            "labels": 5
-          },
-          "reasons": [
-            "The section has enough source structure and explanatory density for now."
-          ]
-        },
-        {
-          "sectionId": "metaphysics",
-          "sectionName": "Metaphysics",
-          "pageTitle": "Are Quantum Physics “Spiritual”?",
-          "pagePath": "/metaphysics/are-quantum-physics-spiritual/",
-          "anchor": "prompt-1",
-          "url": "/metaphysics/are-quantum-physics-spiritual/#prompt-1",
-          "prompt": "Do quantum physics bleed over into the spiritual realm, or are they subsumed by the “material” realm as it is commonly understood?",
-          "heading": "Quantum Physics and the Spiritual Realm is the hinge of the response.",
-          "score": 100,
-          "level": "exceptional",
-          "needsReview": false,
-          "exceptionalReady": true,
-          "needsGapFill": false,
-          "gapReasons": [],
-          "wordCount": 384,
-          "avgItemWords": 17.6,
-          "metrics": {
-            "children": 4,
-            "sourceParagraphs": 7,
-            "sourceItems": 10,
-            "labels": 4
-          },
-          "reasons": [
-            "The section has enough source structure and explanatory density for now."
-          ]
-        },
-        {
-          "sectionId": "metaphysics",
-          "sectionName": "Metaphysics",
-          "pageTitle": "Are Quantum Physics “Spiritual”?",
-          "pagePath": "/metaphysics/are-quantum-physics-spiritual/",
-          "anchor": "prompt-2",
-          "url": "/metaphysics/are-quantum-physics-spiritual/#prompt-2",
-          "prompt": "Elaborate on common erroneous conceptualizations of quantum physics that contribute to the notion that quantum physics are, at least to some degree, spiritual.",
-          "heading": "Common Erroneous Conceptualizations of Quantum Physics is the hinge of the response.",
-          "score": 100,
-          "level": "exceptional",
-          "needsReview": false,
-          "exceptionalReady": true,
-          "needsGapFill": false,
-          "gapReasons": [],
-          "wordCount": 375,
-          "avgItemWords": 21.3,
-          "metrics": {
-            "children": 6,
-            "sourceParagraphs": 5,
-            "sourceItems": 14,
-            "labels": 5
-          },
-          "reasons": [
-            "The section has enough source structure and explanatory density for now."
-          ]
-        },
-        {
-          "sectionId": "metaphysics",
-          "sectionName": "Metaphysics",
-          "pageTitle": "Are Quantum Physics “Spiritual”?",
-          "pagePath": "/metaphysics/are-quantum-physics-spiritual/",
-          "anchor": "prompt-3",
-          "url": "/metaphysics/are-quantum-physics-spiritual/#prompt-3",
-          "prompt": "What are the best resources that explain why quantum physics do not occupy a spiritual realm.",
-          "heading": "Are Quantum Physics “Spiritual” needs a definition that changes judgment.",
-          "score": 100,
-          "level": "exceptional",
-          "needsReview": false,
-          "exceptionalReady": true,
-          "needsGapFill": false,
-          "gapReasons": [],
-          "wordCount": 406,
-          "avgItemWords": 34.4,
-          "metrics": {
-            "children": 5,
-            "sourceParagraphs": 5,
-            "sourceItems": 24,
-            "labels": 5
-          },
-          "reasons": [
-            "The section has enough source structure and explanatory density for now."
-          ]
-        },
-        {
-          "sectionId": "metaphysics",
-          "sectionName": "Metaphysics",
-          "pageTitle": "Are Quantum Physics “Spiritual”?",
-          "pagePath": "/metaphysics/are-quantum-physics-spiritual/",
-          "anchor": "prompt-4",
-          "url": "/metaphysics/are-quantum-physics-spiritual/#prompt-4",
-          "prompt": "What is a strong argument in response to someone claiming the observation effect demonstrates our souls are connected to the quantum world?",
-          "heading": "Clarify the Observation Effect needs a definition that changes judgment.",
-          "score": 100,
-          "level": "exceptional",
-          "needsReview": false,
-          "exceptionalReady": true,
-          "needsGapFill": false,
-          "gapReasons": [],
-          "wordCount": 413,
-          "avgItemWords": 35.4,
-          "metrics": {
-            "children": 4,
-            "sourceParagraphs": 6,
-            "sourceItems": 16,
-            "labels": 3
-          },
-          "reasons": [
-            "The section has enough source structure and explanatory density for now."
-          ]
-        },
-        {
-          "sectionId": "metaphysics",
-          "sectionName": "Metaphysics",
-          "pageTitle": "Categories of Nihilism",
-          "pagePath": "/metaphysics/categories-of-nihilism/",
-          "anchor": "prompt-1",
-          "url": "/metaphysics/categories-of-nihilism/#prompt-1",
-          "prompt": "What are the various discrete categories of nihilism?",
-          "heading": "Various Categories of Nihilism needs a definition that changes judgment.",
-          "score": 100,
-          "level": "exceptional",
-          "needsReview": false,
-          "exceptionalReady": true,
-          "needsGapFill": false,
-          "gapReasons": [],
-          "wordCount": 383,
-          "avgItemWords": 18.6,
-          "metrics": {
-            "children": 1,
-            "sourceParagraphs": 4,
-            "sourceItems": 6,
-            "labels": 1
           },
           "reasons": [
             "The section has enough source structure and explanatory density for now."
@@ -4953,8 +4951,8 @@
           "exceptionalReady": true,
           "needsGapFill": false,
           "gapReasons": [],
-          "wordCount": 360,
-          "avgItemWords": 23.2,
+          "wordCount": 406,
+          "avgItemWords": 32.4,
           "metrics": {
             "children": 1,
             "sourceParagraphs": 4,
@@ -5061,7 +5059,7 @@
           "exceptionalReady": true,
           "needsGapFill": false,
           "gapReasons": [],
-          "wordCount": 399,
+          "wordCount": 383,
           "avgItemWords": 27.0,
           "metrics": {
             "children": 0,
@@ -5088,7 +5086,7 @@
           "exceptionalReady": true,
           "needsGapFill": false,
           "gapReasons": [],
-          "wordCount": 368,
+          "wordCount": 360,
           "avgItemWords": 23.2,
           "metrics": {
             "children": 0,
@@ -6362,17 +6360,15 @@
       "anchor": "prompt-1",
       "url": "/epistemology/avoiding-single-cause-dogmatism/#prompt-1",
       "prompt": "The following dialogue, produced by AI Claude, highlights the contrasts between a rational, scientific mind (Randy) and a mind prone to over-simplification (Tom).",
-      "heading": "Dialogue clarifies Avoiding Single-Cause Dogmatism.",
+      "heading": "A dialogue makes Avoiding Single-Cause Dogmatism answerable to another mind.",
       "score": 94,
       "level": "strong",
       "needsReview": false,
-      "exceptionalReady": false,
-      "needsGapFill": true,
-      "gapReasons": [
-        "Needs a little more argumentative texture before it reaches the exceptional bar."
-      ],
-      "wordCount": 357,
-      "avgItemWords": 20.0,
+      "exceptionalReady": true,
+      "needsGapFill": false,
+      "gapReasons": [],
+      "wordCount": 360,
+      "avgItemWords": 17.2,
       "metrics": {
         "children": 0,
         "sourceParagraphs": 4,
@@ -6946,10 +6942,37 @@
       "exceptionalReady": true,
       "needsGapFill": false,
       "gapReasons": [],
-      "wordCount": 386,
-      "avgItemWords": 19.0,
+      "wordCount": 393,
+      "avgItemWords": 20.4,
       "metrics": {
         "children": 0,
+        "sourceParagraphs": 4,
+        "sourceItems": 0,
+        "labels": 0
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "metaphysics",
+      "sectionName": "Metaphysics",
+      "pageTitle": "Dualism vs Materialism",
+      "pagePath": "/metaphysics/dualismvsmaterialism/",
+      "anchor": "prompt-5",
+      "url": "/metaphysics/dualismvsmaterialism/#prompt-5",
+      "prompt": "Organize the arguments and counter-arguments for and against dualism and materialism in a clear table.",
+      "heading": "Arguments for and against dualism and materialism in a clear table needs structure before it can persuade.",
+      "score": 94,
+      "level": "strong",
+      "needsReview": false,
+      "exceptionalReady": true,
+      "needsGapFill": false,
+      "gapReasons": [],
+      "wordCount": 392,
+      "avgItemWords": 32.2,
+      "metrics": {
+        "children": 1,
         "sourceParagraphs": 4,
         "sourceItems": 0,
         "labels": 0
@@ -7625,6 +7648,35 @@
         "sourceParagraphs": 4,
         "sourceItems": 1,
         "labels": 0
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "epistemology",
+      "sectionName": "Epistemology",
+      "pageTitle": "Types of Knowing",
+      "pagePath": "/epistemology/types-of-knowing/",
+      "anchor": "prompt-2",
+      "url": "/epistemology/types-of-knowing/#prompt-2",
+      "prompt": "Provide a structured comparison of the types of knowledge discussed above.",
+      "heading": "GEMINI Structured Comparison is the hinge of the response.",
+      "score": 95,
+      "level": "strong",
+      "needsReview": false,
+      "exceptionalReady": false,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Support items should become more explanatory and less list-like."
+      ],
+      "wordCount": 384,
+      "avgItemWords": 15.4,
+      "metrics": {
+        "children": 2,
+        "sourceParagraphs": 2,
+        "sourceItems": 0,
+        "labels": 1
       },
       "reasons": [
         "The section has enough source structure and explanatory density for now."
@@ -8773,33 +8825,6 @@
       ]
     },
     {
-      "sectionId": "metaphysics",
-      "sectionName": "Metaphysics",
-      "pageTitle": "Dualism vs Materialism",
-      "pagePath": "/metaphysics/dualismvsmaterialism/",
-      "anchor": "prompt-5",
-      "url": "/metaphysics/dualismvsmaterialism/#prompt-5",
-      "prompt": "Organize the arguments and counter-arguments for and against dualism and materialism in a clear table.",
-      "heading": "ChatGPT is the hinge of the response.",
-      "score": 99,
-      "level": "exceptional",
-      "needsReview": false,
-      "exceptionalReady": true,
-      "needsGapFill": false,
-      "gapReasons": [],
-      "wordCount": 363,
-      "avgItemWords": 18.2,
-      "metrics": {
-        "children": 1,
-        "sourceParagraphs": 4,
-        "sourceItems": 0,
-        "labels": 1
-      },
-      "reasons": [
-        "The section has enough source structure and explanatory density for now."
-      ]
-    },
-    {
       "sectionId": "philosophers",
       "sectionName": "Philosophers",
       "pageTitle": "Duns Scotus",
@@ -9352,33 +9377,6 @@
       "reasons": [
         "The section has enough source structure and explanatory density for now."
       ]
-    },
-    {
-      "sectionId": "economics",
-      "sectionName": "Economics",
-      "pageTitle": "Behavioral Economics",
-      "pagePath": "/economics/behavioral-economics/",
-      "anchor": "prompt-3",
-      "url": "/economics/behavioral-economics/#prompt-3",
-      "prompt": "How have findings in behavioral economics led to a deeper understanding of the varying perceptions of value among economic agents?",
-      "heading": "Reference Dependence is the hinge of the response.",
-      "score": 100,
-      "level": "exceptional",
-      "needsReview": false,
-      "exceptionalReady": true,
-      "needsGapFill": false,
-      "gapReasons": [],
-      "wordCount": 384,
-      "avgItemWords": 21.5,
-      "metrics": {
-        "children": 0,
-        "sourceParagraphs": 4,
-        "sourceItems": 8,
-        "labels": 5
-      },
-      "reasons": [
-        "The section has enough source structure and explanatory density for now."
-      ]
     }
   ],
   "gapBacklog": [
@@ -9850,35 +9848,6 @@
     {
       "sectionId": "epistemology",
       "sectionName": "Epistemology",
-      "pageTitle": "Avoiding Single-Cause Dogmatism",
-      "pagePath": "/epistemology/avoiding-single-cause-dogmatism/",
-      "anchor": "prompt-1",
-      "url": "/epistemology/avoiding-single-cause-dogmatism/#prompt-1",
-      "prompt": "The following dialogue, produced by AI Claude, highlights the contrasts between a rational, scientific mind (Randy) and a mind prone to over-simplification (Tom).",
-      "heading": "Dialogue clarifies Avoiding Single-Cause Dogmatism.",
-      "score": 94,
-      "level": "strong",
-      "needsReview": false,
-      "exceptionalReady": false,
-      "needsGapFill": true,
-      "gapReasons": [
-        "Needs a little more argumentative texture before it reaches the exceptional bar."
-      ],
-      "wordCount": 357,
-      "avgItemWords": 20.0,
-      "metrics": {
-        "children": 0,
-        "sourceParagraphs": 4,
-        "sourceItems": 0,
-        "labels": 0
-      },
-      "reasons": [
-        "The section has enough source structure and explanatory density for now."
-      ]
-    },
-    {
-      "sectionId": "epistemology",
-      "sectionName": "Epistemology",
       "pageTitle": "Belief/Evidence Graphic",
       "pagePath": "/epistemology/belief-evidence-graphic/",
       "anchor": "prompt-1",
@@ -10335,6 +10304,35 @@
         "sourceParagraphs": 4,
         "sourceItems": 0,
         "labels": 0
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "epistemology",
+      "sectionName": "Epistemology",
+      "pageTitle": "Types of Knowing",
+      "pagePath": "/epistemology/types-of-knowing/",
+      "anchor": "prompt-2",
+      "url": "/epistemology/types-of-knowing/#prompt-2",
+      "prompt": "Provide a structured comparison of the types of knowledge discussed above.",
+      "heading": "GEMINI Structured Comparison is the hinge of the response.",
+      "score": 95,
+      "level": "strong",
+      "needsReview": false,
+      "exceptionalReady": false,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Support items should become more explanatory and less list-like."
+      ],
+      "wordCount": 384,
+      "avgItemWords": 15.4,
+      "metrics": {
+        "children": 2,
+        "sourceParagraphs": 2,
+        "sourceItems": 0,
+        "labels": 1
       },
       "reasons": [
         "The section has enough source structure and explanatory density for now."
@@ -11756,6 +11754,35 @@
         "sourceParagraphs": 4,
         "sourceItems": 8,
         "labels": 5
+      },
+      "reasons": [
+        "The section has enough source structure and explanatory density for now."
+      ]
+    },
+    {
+      "sectionId": "epistemology",
+      "sectionName": "Epistemology",
+      "pageTitle": "Rationality Discussion",
+      "pagePath": "/epistemology/rationality-discussion/",
+      "anchor": "prompt-2",
+      "url": "/epistemology/rationality-discussion/#prompt-2",
+      "prompt": "Weigh in on this discussion. Who has the position more aligned with rationality and reality?",
+      "heading": "EB’s Position and Rationality is where the argument has to earn its keep.",
+      "score": 100,
+      "level": "exceptional",
+      "needsReview": false,
+      "exceptionalReady": false,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Needs a little more argumentative texture before it reaches the exceptional bar."
+      ],
+      "wordCount": 357,
+      "avgItemWords": 23.4,
+      "metrics": {
+        "children": 4,
+        "sourceParagraphs": 2,
+        "sourceItems": 7,
+        "labels": 3
       },
       "reasons": [
         "The section has enough source structure and explanatory density for now."
@@ -15150,35 +15177,6 @@
         "sourceParagraphs": 4,
         "sourceItems": 8,
         "labels": 2
-      },
-      "reasons": [
-        "The section has enough source structure and explanatory density for now."
-      ]
-    },
-    {
-      "sectionId": "philosophers",
-      "sectionName": "Philosophers",
-      "pageTitle": "Martin Heidegger",
-      "pagePath": "/philosophers/martin-heidegger/",
-      "anchor": "prompt-2",
-      "url": "/philosophers/martin-heidegger/#prompt-2",
-      "prompt": "Provide an annotated list of Heidegger’s 7 greatest contributions to philosophy.",
-      "heading": "Heidegger’s 7 Greatest Contributions to Philosophy needs a map, not a heap of labels.",
-      "score": 100,
-      "level": "exceptional",
-      "needsReview": false,
-      "exceptionalReady": true,
-      "needsGapFill": true,
-      "gapReasons": [
-        "Philosopher page needs eventual primary-source texture, historical setting, and influence trail."
-      ],
-      "wordCount": 397,
-      "avgItemWords": 21.0,
-      "metrics": {
-        "children": 1,
-        "sourceParagraphs": 2,
-        "sourceItems": 6,
-        "labels": 1
       },
       "reasons": [
         "The section has enough source structure and explanatory density for now."
@@ -18666,17 +18664,15 @@
       "anchor": "prompt-1",
       "url": "/epistemology/avoiding-single-cause-dogmatism/#prompt-1",
       "prompt": "The following dialogue, produced by AI Claude, highlights the contrasts between a rational, scientific mind (Randy) and a mind prone to over-simplification (Tom).",
-      "heading": "Dialogue clarifies Avoiding Single-Cause Dogmatism.",
+      "heading": "A dialogue makes Avoiding Single-Cause Dogmatism answerable to another mind.",
       "score": 94,
       "level": "strong",
       "needsReview": false,
-      "exceptionalReady": false,
-      "needsGapFill": true,
-      "gapReasons": [
-        "Needs a little more argumentative texture before it reaches the exceptional bar."
-      ],
-      "wordCount": 357,
-      "avgItemWords": 20.0,
+      "exceptionalReady": true,
+      "needsGapFill": false,
+      "gapReasons": [],
+      "wordCount": 360,
+      "avgItemWords": 17.2,
       "metrics": {
         "children": 0,
         "sourceParagraphs": 4,
@@ -18702,7 +18698,7 @@
       "exceptionalReady": true,
       "needsGapFill": false,
       "gapReasons": [],
-      "wordCount": 383,
+      "wordCount": 376,
       "avgItemWords": 19.2,
       "metrics": {
         "children": 0,
@@ -18949,7 +18945,7 @@
       "exceptionalReady": true,
       "needsGapFill": false,
       "gapReasons": [],
-      "wordCount": 384,
+      "wordCount": 375,
       "avgItemWords": 27.7,
       "metrics": {
         "children": 0,
@@ -18976,8 +18972,8 @@
       "exceptionalReady": true,
       "needsGapFill": false,
       "gapReasons": [],
-      "wordCount": 367,
-      "avgItemWords": 19.4,
+      "wordCount": 389,
+      "avgItemWords": 17.6,
       "metrics": {
         "children": 2,
         "sourceParagraphs": 5,
@@ -19003,7 +18999,7 @@
       "exceptionalReady": true,
       "needsGapFill": false,
       "gapReasons": [],
-      "wordCount": 383,
+      "wordCount": 374,
       "avgItemWords": 28.0,
       "metrics": {
         "children": 4,
@@ -20676,8 +20672,8 @@
       "exceptionalReady": true,
       "needsGapFill": false,
       "gapReasons": [],
-      "wordCount": 393,
-      "avgItemWords": 24.8,
+      "wordCount": 363,
+      "avgItemWords": 21.5,
       "metrics": {
         "children": 3,
         "sourceParagraphs": 16,
@@ -21595,20 +21591,20 @@
       "anchor": "prompt-2",
       "url": "/epistemology/induction-utility-and-issues/#prompt-2",
       "prompt": "Provide a more rigorous example of inductive reasoning, such as when playing cards.",
-      "heading": "ChatGPT makes the argument visible in practice.",
+      "heading": "Inductive Reasoning in a Card Game makes the argument visible in practice.",
       "score": 100,
       "level": "exceptional",
       "needsReview": false,
       "exceptionalReady": true,
       "needsGapFill": false,
       "gapReasons": [],
-      "wordCount": 390,
-      "avgItemWords": 23.4,
+      "wordCount": 366,
+      "avgItemWords": 18.6,
       "metrics": {
         "children": 4,
         "sourceParagraphs": 10,
         "sourceItems": 12,
-        "labels": 4
+        "labels": 3
       },
       "reasons": [
         "The section has enough source structure and explanatory density for now."
@@ -22169,8 +22165,8 @@
       "exceptionalReady": true,
       "needsGapFill": false,
       "gapReasons": [],
-      "wordCount": 384,
-      "avgItemWords": 22.5,
+      "wordCount": 385,
+      "avgItemWords": 22.7,
       "metrics": {
         "children": 7,
         "sourceParagraphs": 15,
@@ -23086,20 +23082,20 @@
       "anchor": "prompt-1",
       "url": "/epistemology/rationality-discussion/#prompt-1",
       "prompt": "Provide comprehensive formulations of the positions of EB and PS in the following discussion",
-      "heading": "ChatGPT Response is the hinge of the response.",
+      "heading": "EB’s Position is the hinge of the response.",
       "score": 100,
       "level": "exceptional",
       "needsReview": false,
       "exceptionalReady": true,
       "needsGapFill": false,
       "gapReasons": [],
-      "wordCount": 362,
-      "avgItemWords": 22.2,
+      "wordCount": 384,
+      "avgItemWords": 19.8,
       "metrics": {
         "children": 3,
         "sourceParagraphs": 6,
         "sourceItems": 12,
-        "labels": 3
+        "labels": 2
       },
       "reasons": [
         "The section has enough source structure and explanatory density for now."
@@ -23113,20 +23109,22 @@
       "anchor": "prompt-2",
       "url": "/epistemology/rationality-discussion/#prompt-2",
       "prompt": "Weigh in on this discussion. Who has the position more aligned with rationality and reality?",
-      "heading": "ChatGPT Response is where the argument has to earn its keep.",
+      "heading": "EB’s Position and Rationality is where the argument has to earn its keep.",
       "score": 100,
       "level": "exceptional",
       "needsReview": false,
-      "exceptionalReady": true,
-      "needsGapFill": false,
-      "gapReasons": [],
-      "wordCount": 369,
-      "avgItemWords": 26.0,
+      "exceptionalReady": false,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Needs a little more argumentative texture before it reaches the exceptional bar."
+      ],
+      "wordCount": 357,
+      "avgItemWords": 23.4,
       "metrics": {
         "children": 4,
         "sourceParagraphs": 2,
         "sourceItems": 7,
-        "labels": 4
+        "labels": 3
       },
       "reasons": [
         "The section has enough source structure and explanatory density for now."
@@ -23140,20 +23138,20 @@
       "anchor": "prompt-3",
       "url": "/epistemology/rationality-discussion/#prompt-3",
       "prompt": "List the potential weaknesses in the arguments of each side.",
-      "heading": "ChatGPT Response needs a map, not a heap of labels.",
+      "heading": "Potential Weaknesses in EB’s Arguments needs a map, not a heap of labels.",
       "score": 100,
       "level": "exceptional",
       "needsReview": false,
       "exceptionalReady": true,
       "needsGapFill": false,
       "gapReasons": [],
-      "wordCount": 371,
-      "avgItemWords": 22.4,
+      "wordCount": 388,
+      "avgItemWords": 18.4,
       "metrics": {
         "children": 3,
         "sourceParagraphs": 2,
         "sourceItems": 6,
-        "labels": 3
+        "labels": 2
       },
       "reasons": [
         "The section has enough source structure and explanatory density for now."
@@ -23167,20 +23165,20 @@
       "anchor": "prompt-4",
       "url": "/epistemology/rationality-discussion/#prompt-4",
       "prompt": "Based on the discussion thus far, suggest 15 questions for each side that might advance understanding.",
-      "heading": "ChatGPT Response needs a map, not a heap of labels.",
+      "heading": "The map of Rationality Discussion matters only if it reveals the structure.",
       "score": 100,
       "level": "exceptional",
       "needsReview": false,
       "exceptionalReady": true,
       "needsGapFill": false,
       "gapReasons": [],
-      "wordCount": 364,
-      "avgItemWords": 23.0,
+      "wordCount": 380,
+      "avgItemWords": 20.2,
       "metrics": {
         "children": 3,
         "sourceParagraphs": 2,
         "sourceItems": 12,
-        "labels": 1
+        "labels": 0
       },
       "reasons": [
         "The section has enough source structure and explanatory density for now."
@@ -24276,20 +24274,22 @@
       "anchor": "prompt-2",
       "url": "/epistemology/types-of-knowing/#prompt-2",
       "prompt": "Provide a structured comparison of the types of knowledge discussed above.",
-      "heading": "ChatGPT Structured Comparison is the hinge of the response.",
-      "score": 100,
-      "level": "exceptional",
+      "heading": "GEMINI Structured Comparison is the hinge of the response.",
+      "score": 95,
+      "level": "strong",
       "needsReview": false,
-      "exceptionalReady": true,
-      "needsGapFill": false,
-      "gapReasons": [],
-      "wordCount": 362,
-      "avgItemWords": 19.8,
+      "exceptionalReady": false,
+      "needsGapFill": true,
+      "gapReasons": [
+        "Support items should become more explanatory and less list-like."
+      ],
+      "wordCount": 384,
+      "avgItemWords": 15.4,
       "metrics": {
         "children": 2,
         "sourceParagraphs": 2,
         "sourceItems": 0,
-        "labels": 2
+        "labels": 1
       },
       "reasons": [
         "The section has enough source structure and explanatory density for now."
@@ -26779,7 +26779,7 @@
       "exceptionalReady": true,
       "needsGapFill": false,
       "gapReasons": [],
-      "wordCount": 388,
+      "wordCount": 379,
       "avgItemWords": 25.8,
       "metrics": {
         "children": 7,
@@ -26806,13 +26806,13 @@
       "exceptionalReady": true,
       "needsGapFill": false,
       "gapReasons": [],
-      "wordCount": 388,
-      "avgItemWords": 27.5,
+      "wordCount": 378,
+      "avgItemWords": 26.6,
       "metrics": {
         "children": 6,
         "sourceParagraphs": 13,
         "sourceItems": 16,
-        "labels": 5
+        "labels": 4
       },
       "reasons": [
         "The section has enough source structure and explanatory density for now."
@@ -26833,7 +26833,7 @@
       "exceptionalReady": true,
       "needsGapFill": false,
       "gapReasons": [],
-      "wordCount": 389,
+      "wordCount": 380,
       "avgItemWords": 25.8,
       "metrics": {
         "children": 2,
@@ -27380,8 +27380,8 @@
       "exceptionalReady": true,
       "needsGapFill": false,
       "gapReasons": [],
-      "wordCount": 367,
-      "avgItemWords": 18.0,
+      "wordCount": 366,
+      "avgItemWords": 17.8,
       "metrics": {
         "children": 8,
         "sourceParagraphs": 3,
@@ -27434,8 +27434,8 @@
       "exceptionalReady": true,
       "needsGapFill": false,
       "gapReasons": [],
-      "wordCount": 375,
-      "avgItemWords": 24.0,
+      "wordCount": 374,
+      "avgItemWords": 23.8,
       "metrics": {
         "children": 8,
         "sourceParagraphs": 5,
@@ -30519,8 +30519,8 @@
       "exceptionalReady": true,
       "needsGapFill": false,
       "gapReasons": [],
-      "wordCount": 395,
-      "avgItemWords": 30.0,
+      "wordCount": 388,
+      "avgItemWords": 28.8,
       "metrics": {
         "children": 8,
         "sourceParagraphs": 17,
@@ -32498,8 +32498,8 @@
       "exceptionalReady": true,
       "needsGapFill": false,
       "gapReasons": [],
-      "wordCount": 386,
-      "avgItemWords": 19.0,
+      "wordCount": 393,
+      "avgItemWords": 20.4,
       "metrics": {
         "children": 0,
         "sourceParagraphs": 4,
@@ -32599,20 +32599,20 @@
       "anchor": "prompt-5",
       "url": "/metaphysics/dualismvsmaterialism/#prompt-5",
       "prompt": "Organize the arguments and counter-arguments for and against dualism and materialism in a clear table.",
-      "heading": "ChatGPT is the hinge of the response.",
-      "score": 99,
-      "level": "exceptional",
+      "heading": "Arguments for and against dualism and materialism in a clear table needs structure before it can persuade.",
+      "score": 94,
+      "level": "strong",
       "needsReview": false,
       "exceptionalReady": true,
       "needsGapFill": false,
       "gapReasons": [],
-      "wordCount": 363,
-      "avgItemWords": 18.2,
+      "wordCount": 392,
+      "avgItemWords": 32.2,
       "metrics": {
         "children": 1,
         "sourceParagraphs": 4,
         "sourceItems": 0,
-        "labels": 1
+        "labels": 0
       },
       "reasons": [
         "The section has enough source structure and explanatory density for now."
@@ -34365,8 +34365,8 @@
       "exceptionalReady": true,
       "needsGapFill": false,
       "gapReasons": [],
-      "wordCount": 371,
-      "avgItemWords": 24.2,
+      "wordCount": 392,
+      "avgItemWords": 27.7,
       "metrics": {
         "children": 8,
         "sourceParagraphs": 8,
@@ -34959,8 +34959,8 @@
       "exceptionalReady": true,
       "needsGapFill": false,
       "gapReasons": [],
-      "wordCount": 430,
-      "avgItemWords": 34.2,
+      "wordCount": 434,
+      "avgItemWords": 34.8,
       "metrics": {
         "children": 1,
         "sourceParagraphs": 4,
@@ -43821,8 +43821,8 @@
       "exceptionalReady": true,
       "needsGapFill": false,
       "gapReasons": [],
-      "wordCount": 376,
-      "avgItemWords": 19.2,
+      "wordCount": 383,
+      "avgItemWords": 35.2,
       "metrics": {
         "children": 1,
         "sourceParagraphs": 4,
@@ -43841,15 +43841,15 @@
       "anchor": "prompt-2",
       "url": "/philosophical-inquiry/dangers-ideologies-of-mystery/#prompt-2",
       "prompt": "How might I respond to someone who encourages me to believe something based on the beauty of its mystery instead of the evidence or argumentation supporting it?",
-      "heading": "ChatGPT 4 is back is the hinge of the response.",
+      "heading": "Acknowledge the Appeal of Mystery is the hinge of the response.",
       "score": 100,
       "level": "exceptional",
       "needsReview": false,
       "exceptionalReady": true,
       "needsGapFill": false,
       "gapReasons": [],
-      "wordCount": 377,
-      "avgItemWords": 24.3,
+      "wordCount": 370,
+      "avgItemWords": 22.3,
       "metrics": {
         "children": 7,
         "sourceParagraphs": 15,
@@ -44030,20 +44030,20 @@
       "anchor": "prompt-1",
       "url": "/philosophical-inquiry/dangers-narrative/#prompt-1",
       "prompt": "Many ideologies center around stories that contain all the elements of powerful story-telling such as a hero, tension, and resolution. Why might we suspect such ideologies do not align with truth?",
-      "heading": "* Claude 3 Sonnet is stepping in for a sluggish ChatGPT 4 is the hinge of the response.",
+      "heading": "Narrative is the hinge of the response.",
       "score": 100,
       "level": "exceptional",
       "needsReview": false,
       "exceptionalReady": true,
       "needsGapFill": false,
       "gapReasons": [],
-      "wordCount": 374,
-      "avgItemWords": 23.2,
+      "wordCount": 394,
+      "avgItemWords": 19.0,
       "metrics": {
         "children": 1,
         "sourceParagraphs": 4,
         "sourceItems": 6,
-        "labels": 1
+        "labels": 0
       },
       "reasons": [
         "The section has enough source structure and explanatory density for now."
@@ -46099,7 +46099,7 @@
       "exceptionalReady": true,
       "needsGapFill": false,
       "gapReasons": [],
-      "wordCount": 386,
+      "wordCount": 376,
       "avgItemWords": 22.0,
       "metrics": {
         "children": 5,
@@ -46126,8 +46126,8 @@
       "exceptionalReady": true,
       "needsGapFill": false,
       "gapReasons": [],
-      "wordCount": 364,
-      "avgItemWords": 23.2,
+      "wordCount": 371,
+      "avgItemWords": 21.2,
       "metrics": {
         "children": 4,
         "sourceParagraphs": 4,
@@ -46396,8 +46396,8 @@
       "exceptionalReady": true,
       "needsGapFill": false,
       "gapReasons": [],
-      "wordCount": 360,
-      "avgItemWords": 23.2,
+      "wordCount": 406,
+      "avgItemWords": 32.4,
       "metrics": {
         "children": 1,
         "sourceParagraphs": 4,
@@ -46504,7 +46504,7 @@
       "exceptionalReady": true,
       "needsGapFill": false,
       "gapReasons": [],
-      "wordCount": 399,
+      "wordCount": 383,
       "avgItemWords": 27.0,
       "metrics": {
         "children": 0,
@@ -46531,7 +46531,7 @@
       "exceptionalReady": true,
       "needsGapFill": false,
       "gapReasons": [],
-      "wordCount": 368,
+      "wordCount": 360,
       "avgItemWords": 23.2,
       "metrics": {
         "children": 0,
@@ -47694,7 +47694,7 @@
       "exceptionalReady": true,
       "needsGapFill": false,
       "gapReasons": [],
-      "wordCount": 392,
+      "wordCount": 381,
       "avgItemWords": 19.8,
       "metrics": {
         "children": 2,
@@ -47721,8 +47721,8 @@
       "exceptionalReady": true,
       "needsGapFill": false,
       "gapReasons": [],
-      "wordCount": 380,
-      "avgItemWords": 22.8,
+      "wordCount": 372,
+      "avgItemWords": 23.3,
       "metrics": {
         "children": 6,
         "sourceParagraphs": 4,
@@ -47748,7 +47748,7 @@
       "exceptionalReady": true,
       "needsGapFill": false,
       "gapReasons": [],
-      "wordCount": 379,
+      "wordCount": 368,
       "avgItemWords": 26.0,
       "metrics": {
         "children": 2,
@@ -49232,7 +49232,7 @@
       "anchor": "prompt-1",
       "url": "/philosophy-of-language/gradient-concepts-and-binary-terms/#prompt-1",
       "prompt": "Many concepts that are intrinsically gradient are reflected in language with binary or granular terms that lack nuance. Provide a list of such terms including “belief”, “strange”, “expert”, and “city”. Elaborate on how the linguistic terms may distort the gradient nature of the underlying conceptual reality.",
-      "heading": "* Claude 3 Sonnet stepped in for a sluggish ChatGPT 4 needs a map, not a heap of labels.",
+      "heading": "Gradient Concepts and Binary Terms needs a map, not a heap of labels.",
       "score": 100,
       "level": "exceptional",
       "needsReview": false,
@@ -49240,12 +49240,12 @@
       "needsGapFill": false,
       "gapReasons": [],
       "wordCount": 393,
-      "avgItemWords": 20.8,
+      "avgItemWords": 21.6,
       "metrics": {
         "children": 1,
         "sourceParagraphs": 4,
         "sourceItems": 6,
-        "labels": 1
+        "labels": 0
       },
       "reasons": [
         "The section has enough source structure and explanatory density for now."
@@ -51299,8 +51299,8 @@
       "exceptionalReady": true,
       "needsGapFill": false,
       "gapReasons": [],
-      "wordCount": 391,
-      "avgItemWords": 25.2,
+      "wordCount": 365,
+      "avgItemWords": 25.0,
       "metrics": {
         "children": 6,
         "sourceParagraphs": 10,
@@ -51816,7 +51816,7 @@
       "gapReasons": [
         "Support items should become more explanatory and less list-like."
       ],
-      "wordCount": 360,
+      "wordCount": 407,
       "avgItemWords": 15.2,
       "metrics": {
         "children": 0,
@@ -52403,15 +52403,15 @@
       "anchor": "prompt-3",
       "url": "/philosophy-of-mind/preferences-pleasures/#prompt-3",
       "prompt": "The additional factors you mention in your last response can also be traced back to pleasure seeking and pain avoidance. Right?",
-      "heading": "ChatGPT is the hinge of the response.",
+      "heading": "GEMINI is the hinge of the response.",
       "score": 100,
       "level": "exceptional",
       "needsReview": false,
       "exceptionalReady": true,
       "needsGapFill": false,
       "gapReasons": [],
-      "wordCount": 381,
-      "avgItemWords": 19.0,
+      "wordCount": 386,
+      "avgItemWords": 19.7,
       "metrics": {
         "children": 0,
         "sourceParagraphs": 4,
@@ -53195,13 +53195,13 @@
       "exceptionalReady": true,
       "needsGapFill": false,
       "gapReasons": [],
-      "wordCount": 368,
-      "avgItemWords": 18.8,
+      "wordCount": 364,
+      "avgItemWords": 18.6,
       "metrics": {
         "children": 0,
         "sourceParagraphs": 4,
         "sourceItems": 5,
-        "labels": 3
+        "labels": 2
       },
       "reasons": [
         "The section has enough source structure and explanatory density for now."
@@ -56614,8 +56614,8 @@
       "exceptionalReady": true,
       "needsGapFill": false,
       "gapReasons": [],
-      "wordCount": 380,
-      "avgItemWords": 22.8,
+      "wordCount": 384,
+      "avgItemWords": 20.4,
       "metrics": {
         "children": 6,
         "sourceParagraphs": 10,
@@ -59752,7 +59752,7 @@
       "exceptionalReady": true,
       "needsGapFill": false,
       "gapReasons": [],
-      "wordCount": 380,
+      "wordCount": 368,
       "avgItemWords": 26.8,
       "metrics": {
         "children": 0,
@@ -59779,7 +59779,7 @@
       "exceptionalReady": true,
       "needsGapFill": false,
       "gapReasons": [],
-      "wordCount": 387,
+      "wordCount": 381,
       "avgItemWords": 23.5,
       "metrics": {
         "children": 0,

@@ -5,7 +5,7 @@ Generated: 2026-05-20
 Tracked prompt-response sections: 1785
 Average score: 99.5
 Needs review: 0 (0.0%)
-Exceptional gap-fill backlog: 299 (16.8%)
+Exceptional gap-fill backlog: 300 (16.8%)
 
 ## Editorial Audit
 
@@ -17,15 +17,15 @@ Pattern issues found: 0
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | Philosophers | 98.8 | 0/216 | 216/216 | 188 | 28 | 0 | 0 | 0 |
 | Rational Thought | 99.4 | 0/182 | 5/182 | 170 | 12 | 0 | 0 | 0 |
+| Epistemology | 99.5 | 0/263 | 29/263 | 244 | 19 | 0 | 0 | 0 |
 | Humanistic Philosophies | 99.5 | 0/79 | 2/79 | 74 | 5 | 0 | 0 | 0 |
-| Epistemology | 99.6 | 0/263 | 28/263 | 245 | 18 | 0 | 0 | 0 |
 | Ethics | 99.6 | 0/128 | 9/128 | 124 | 4 | 0 | 0 | 0 |
 | Introduction | 99.6 | 0/36 | 3/36 | 35 | 1 | 0 | 0 | 0 |
 | Philosophical Inquiry | 99.6 | 0/149 | 7/149 | 142 | 7 | 0 | 0 | 0 |
 | Economics | 99.7 | 0/114 | 6/114 | 111 | 3 | 0 | 0 | 0 |
+| Metaphysics | 99.7 | 0/82 | 2/82 | 79 | 3 | 0 | 0 | 0 |
 | Miscellany | 99.7 | 0/67 | 1/67 | 65 | 2 | 0 | 0 | 0 |
 | Philosophy of Mind | 99.7 | 0/81 | 3/81 | 77 | 4 | 0 | 0 | 0 |
-| Metaphysics | 99.8 | 0/82 | 2/82 | 80 | 2 | 0 | 0 | 0 |
 | Philosophy of Language | 99.8 | 0/85 | 6/85 | 83 | 2 | 0 | 0 | 0 |
 | Philosophy of Science | 99.8 | 0/165 | 8/165 | 162 | 3 | 0 | 0 | 0 |
 | Political Philosophy | 99.8 | 0/51 | 1/51 | 50 | 1 | 0 | 0 | 0 |
@@ -49,7 +49,6 @@ Pattern issues found: 0
 - `strong` 90 [Philosophers / Socrates#prompt-1](../philosophers/socrates/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `strong` 90 [Philosophers / Søren Kierkegaard#prompt-1](../philosophers/soren-kierkegaard/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `strong` 92 [Epistemology / Case #2 – The Telephone Game#prompt-3](../epistemology/case-2-the-telephone-game/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `strong` 94 [Epistemology / Avoiding Single-Cause Dogmatism#prompt-1](../epistemology/avoiding-single-cause-dogmatism/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `strong` 94 [Epistemology / Belief/Evidence Graphic#prompt-1](../epistemology/belief-evidence-graphic/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `strong` 94 [Epistemology / Case #6 – Insatiable Loops#prompt-2](../epistemology/case-6-insatiable-loops/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `strong` 94 [Epistemology / What is Doubt?#prompt-3](../epistemology/what-is-doubt/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
@@ -66,6 +65,7 @@ Pattern issues found: 0
 - `strong` 94 [Philosophers / Scholastics#prompt-4](../philosophers/scholastics/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `strong` 94 [Philosophers / Stoics#prompt-4](../philosophers/stoics/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `strong` 94 [Philosophy of Language / What is Language?#prompt-1](../philosophy-of-language/what-is-language/#prompt-1): Support items should become more explanatory and less list-like.
+- `strong` 95 [Epistemology / Types of Knowing#prompt-2](../epistemology/types-of-knowing/#prompt-2): Support items should become more explanatory and less list-like.
 - `strong` 95 [Philosophers / Immanuel Kant#prompt-1](../philosophers/immanuel-kant/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `strong` 95 [Philosophers / Martin Heidegger#prompt-1](../philosophers/martin-heidegger/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `strong` 95 [Philosophers / Thomas Hobbes#prompt-1](../philosophers/thomas-hobbes/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
@@ -115,6 +115,7 @@ Pattern issues found: 0
 - `exceptional` 100 [Epistemology / Operational Epistemic Rigor#prompt-1](../epistemology/operational-epistemic-rigor/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `exceptional` 100 [Epistemology / Pascal’s Wager#prompt-5](../epistemology/pascals-wager/#prompt-5): Support items should become more explanatory and less list-like.
 - `exceptional` 100 [Epistemology / Presuppositions?#prompt-4](../epistemology/presuppositions/#prompt-4): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Epistemology / Rationality Discussion#prompt-2](../epistemology/rationality-discussion/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `exceptional` 100 [Epistemology / The Inductive Paradox#prompt-2](../epistemology/the-inductive-paradox/#prompt-2): Support items should become more explanatory and less list-like.
 - `exceptional` 100 [Epistemology / What is Evidence?#prompt-1](../epistemology/what-is-evidence/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `exceptional` 100 [Ethics / Assisted Suicide#prompt-4](../ethics/assisted-suicide/#prompt-4): Support items should become more explanatory and less list-like.
@@ -182,7 +183,6 @@ Pattern issues found: 0
 - `exceptional` 100 [Philosophers / Epictetus#prompt-4](../philosophers/epictetus/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 100 [Philosophers / Epicurus#prompt-2](../philosophers/epicurus/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 100 [Philosophers / Epicurus#prompt-3](../philosophers/epicurus/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
-- `exceptional` 100 [Philosophers / Epicurus#prompt-4](../philosophers/epicurus/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 
 ## Weakest Sections
 
@@ -249,6 +249,7 @@ Pattern issues found: 0
 - `strong` 94 [Humanistic Philosophies / Can Humans Change?#prompt-1](../humanistic-philosophies/can-humans-change/#prompt-1): The section has enough source structure and explanatory density for now.
 - `strong` 94 [Humanistic Philosophies / Do Humans have an Essence?#prompt-1](../humanistic-philosophies/do-humans-have-an-essence/#prompt-1): The section has enough source structure and explanatory density for now.
 - `strong` 94 [Metaphysics / Dualism vs Materialism#prompt-1](../metaphysics/dualismvsmaterialism/#prompt-1): The section has enough source structure and explanatory density for now.
+- `strong` 94 [Metaphysics / Dualism vs Materialism#prompt-5](../metaphysics/dualismvsmaterialism/#prompt-5): The section has enough source structure and explanatory density for now.
 - `strong` 94 [Miscellany / Complexity Theory#prompt-4](../miscellany/complexity-theory/#prompt-4): The section has enough source structure and explanatory density for now.
 - `strong` 94 [Philosophers / Analytic Philosophers#prompt-4](../philosophers/analytic-philosophers/#prompt-4): The section has enough source structure and explanatory density for now.
 - `strong` 94 [Philosophers / Ancient Philosophers#prompt-4](../philosophers/ancient-philosophers/#prompt-4): The section has enough source structure and explanatory density for now.
@@ -273,6 +274,7 @@ Pattern issues found: 0
 - `strong` 94 [Rational Thought / 1 at 99.5% or 5 at 95%?#prompt-1](../rational-thought/1-at-99-5-or-5-at-95/#prompt-1): The section has enough source structure and explanatory density for now.
 - `strong` 94 [Rational Thought / Sample Size & Margin of Error#prompt-4](../rational-thought/sample-size-margin-of-error/#prompt-4): The section has enough source structure and explanatory density for now.
 - `strong` 95 [Epistemology / Case #2 – The Telephone Game#prompt-2](../epistemology/case-2-the-telephone-game/#prompt-2): The section has enough source structure and explanatory density for now.
+- `strong` 95 [Epistemology / Types of Knowing#prompt-2](../epistemology/types-of-knowing/#prompt-2): The section has enough source structure and explanatory density for now.
 - `strong` 95 [Philosophers / Immanuel Kant#prompt-1](../philosophers/immanuel-kant/#prompt-1): The section has enough source structure and explanatory density for now.
 - `strong` 95 [Philosophers / Martin Heidegger#prompt-1](../philosophers/martin-heidegger/#prompt-1): The section has enough source structure and explanatory density for now.
 - `strong` 95 [Philosophers / Thomas Hobbes#prompt-1](../philosophers/thomas-hobbes/#prompt-1): The section has enough source structure and explanatory density for now.
@@ -314,7 +316,6 @@ Pattern issues found: 0
 - `exceptional` 99 [Ethics / Competing Ethical Considerations#prompt-3](../ethics/competing-ethical-considerations/#prompt-3): The section has enough source structure and explanatory density for now.
 - `exceptional` 99 [Ethics / The Value Selection Hypothesis#prompt-3](../ethics/the-value-selection-hypothesis/#prompt-3): The section has enough source structure and explanatory density for now.
 - `exceptional` 99 [Ethics / The Value Selection Hypothesis#prompt-4](../ethics/the-value-selection-hypothesis/#prompt-4): The section has enough source structure and explanatory density for now.
-- `exceptional` 99 [Metaphysics / Dualism vs Materialism#prompt-5](../metaphysics/dualismvsmaterialism/#prompt-5): The section has enough source structure and explanatory density for now.
 - `exceptional` 99 [Philosophers / Duns Scotus#prompt-1](../philosophers/duns-scotus/#prompt-1): The section has enough source structure and explanatory density for now.
 - `exceptional` 99 [Philosophers / Michel Foucault#prompt-1](../philosophers/michel-foucault/#prompt-1): The section has enough source structure and explanatory density for now.
 - `exceptional` 99 [Philosophers / Thomas Hobbes#prompt-2](../philosophers/thomas-hobbes/#prompt-2): Source hierarchy was sparse, so the reconstruction supplies explicit support structure.
@@ -335,4 +336,3 @@ Pattern issues found: 0
 - `exceptional` 100 [Economics / AI & the Future of Work#prompt-4](../economics/ai-the-future-of-work/#prompt-4): The section has enough source structure and explanatory density for now.
 - `exceptional` 100 [Economics / Behavioral Economics#prompt-1](../economics/behavioral-economics/#prompt-1): The section has enough source structure and explanatory density for now.
 - `exceptional` 100 [Economics / Behavioral Economics#prompt-2](../economics/behavioral-economics/#prompt-2): The section has enough source structure and explanatory density for now.
-- `exceptional` 100 [Economics / Behavioral Economics#prompt-3](../economics/behavioral-economics/#prompt-3): The section has enough source structure and explanatory density for now.

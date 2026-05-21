@@ -2,6 +2,7 @@
   const data = window.BYTESEISMIC_DATA;
 
   if (!data) {
+    initQuizzes();
     return;
   }
 
@@ -320,9 +321,65 @@
       .join("");
   }
 
+  function initQuizzes() {
+    document.querySelectorAll("[data-quiz-item]").forEach((item) => {
+      const reset = item.querySelector("[data-quiz-reset]");
+      const options = item.querySelectorAll("button.quiz-option[data-feedback]");
+
+      if (reset) {
+        reset.addEventListener("click", () => {
+          item.querySelectorAll(".quiz-choice__input").forEach((input) => {
+            input.checked = false;
+          });
+
+          options.forEach((candidate) => {
+            candidate.classList.remove("is-selected", "is-correct", "is-incorrect");
+            candidate.setAttribute("aria-pressed", "false");
+          });
+
+          const feedback = item.querySelector(".quiz-feedback");
+          if (feedback && options.length) {
+            feedback.textContent = "";
+            feedback.classList.remove("is-correct", "is-incorrect");
+          }
+
+          item.classList.remove("is-answered");
+        });
+      }
+
+      if (!options.length) {
+        return;
+      }
+
+      const feedback = item.querySelector(".quiz-feedback");
+
+      options.forEach((option) => {
+        option.addEventListener("click", () => {
+          const isCorrect = option.dataset.correct === "true";
+
+          options.forEach((candidate) => {
+            candidate.classList.remove("is-selected", "is-correct", "is-incorrect");
+            candidate.setAttribute("aria-pressed", "false");
+          });
+
+          option.classList.add("is-selected", isCorrect ? "is-correct" : "is-incorrect");
+          option.setAttribute("aria-pressed", "true");
+          item.classList.add("is-answered");
+
+          if (feedback) {
+            feedback.textContent = option.dataset.feedback || "";
+            feedback.classList.toggle("is-correct", isCorrect);
+            feedback.classList.toggle("is-incorrect", !isCorrect);
+          }
+        });
+      });
+    });
+  }
+
   renderNav();
   renderArticleOutline();
   renderStructureGrid();
   renderTagCloud();
   renderFeaturedPages();
+  initQuizzes();
 })();

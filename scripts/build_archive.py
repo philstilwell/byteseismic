@@ -485,6 +485,10 @@ PROMPT_STARTERS = (
 DATE_URL_RE = re.compile(r"/\d{4}/\d{2}/\d{2}/([^/?#]+)/?$")
 NUMBER_PREFIX_RE = re.compile(r"^\s*\d+[\.\)]\s*")
 LI_LINK_RE = re.compile(r"<li>\s*<a[^>]+href=\"([^\"]*)\"[^>]*>(.*?)</a>", re.IGNORECASE)
+QUIZ_SECTION_RE = re.compile(
+    r"\n\s*<section class=\"article-section quiz-section\" id=\"[^\"]+\" data-quiz>.*?\n\s*</section>\n",
+    re.DOTALL,
+)
 
 
 def clean_text(value: str | None) -> str:
@@ -1111,7 +1115,7 @@ def split_label(text: str) -> tuple[str, str]:
 
 
 def display_label(label: str) -> str:
-    cleaned = clean_text(label).strip(" .:")
+    cleaned = remove_source_artifact_phrases(label).strip(" .:")
     lowered = cleaned.lower()
     if cleaned == "the curator":
         return "The curator"
@@ -1125,10 +1129,38 @@ def display_label(label: str) -> str:
     return cleaned
 
 
+def is_source_artifact_label(text: str) -> bool:
+    lowered = clean_text(text).lower().strip(" *-–:")
+    if not lowered:
+        return True
+    artifact_patterns = [
+        r"\b(chatgpt|claude|sonnet|gpt-?\d?|ai model|language model)\b",
+        r"\b(sluggish|stepped in|model response|assistant response)\b",
+        r"^\*\s*",
+    ]
+    return any(re.search(pattern, lowered, flags=re.IGNORECASE) for pattern in artifact_patterns)
+
+
+def remove_source_artifact_phrases(text: str) -> str:
+    cleaned = clean_text(text)
+    artifact_patterns = [
+        r",?\s*\*?\s*Claude\s+3\s+Sonnet\s+stepped\s+in\s+for\s+a\s+sluggish\s+ChatGPT\s+4\.?,?\s*",
+        r",?\s*\*?\s*(?:ChatGPT|Claude|Sonnet|GPT-?\d?)\s+(?:model\s+)?(?:response|answer|output)\.?,?\s*",
+    ]
+    for pattern in artifact_patterns:
+        cleaned = re.sub(pattern, " ", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\s+([.,;:!?])", r"\1", cleaned)
+    cleaned = re.sub(r"\s+", " ", cleaned)
+    cleaned = re.sub(r"\bor\s*,\s*", "or ", cleaned, flags=re.IGNORECASE)
+    return cleaned.strip(" ,;:")
+
+
 def source_label_is_heading_worthy(label: str) -> bool:
-    cleaned = clean_text(label)
+    cleaned = remove_source_artifact_phrases(label)
     lowered = cleaned.lower()
     if not cleaned:
+        return False
+    if is_source_artifact_label(cleaned):
         return False
     if looks_like_prompt(cleaned) or is_low_value_prompt(cleaned):
         return False
@@ -1146,8 +1178,10 @@ def source_label_is_heading_worthy(label: str) -> bool:
 
 
 def clean_heading_subject(subject: str, topic: str) -> str:
-    cleaned = rewrite_unavailable_asset_references(clean_text(subject)).strip(" .:")
-    if not cleaned:
+    cleaned = remove_source_artifact_phrases(
+        rewrite_unavailable_asset_references(clean_text(subject))
+    ).strip(" .:")
+    if not cleaned or is_source_artifact_label(cleaned):
         return topic
 
     replacements = [
@@ -1261,7 +1295,7 @@ def article_native_heading(subject: str, prompt: str, topic: str) -> str:
 
 
 def rewrite_source_sentence(text: str) -> str:
-    cleaned_full = clean_text(text)
+    cleaned_full = remove_source_artifact_phrases(text)
     if cleaned_full.startswith(("“", '"')):
         sentence = cleaned_full
     else:
@@ -2000,9 +2034,11 @@ def prompt_response_paragraphs(page: dict, prompt: str, index: int, detail: dict
 def usable_thread_items(items: Iterable[str]) -> list[str]:
     result = []
     for item in items:
-        item = rewrite_unavailable_asset_references(item)
+        item = remove_source_artifact_phrases(rewrite_unavailable_asset_references(item))
         lowered = clean_text(item).lower()
         if not item or looks_like_prompt(item) or is_low_value_prompt(item):
+            continue
+        if is_source_artifact_label(item):
             continue
         if lowered in {"conclusion", "questions", "introduction"}:
             continue
@@ -2021,6 +2057,8 @@ def source_detail_list_items(detail: dict | None, page: dict) -> list[str]:
     for child in children:
         label = rewrite_unavailable_asset_references(strip_number_prefix(child.get("title", ""))).strip(" .:")
         label = display_label(label)
+        if is_source_artifact_label(label):
+            continue
         if not label:
             continue
         if len(children) == 1 and "example" in label.lower() and child.get("paragraphs"):
@@ -2047,6 +2085,8 @@ def source_detail_list_items(detail: dict | None, page: dict) -> list[str]:
         label, body = split_label(raw_item)
         label = rewrite_unavailable_asset_references(label)
         label = display_label(label)
+        if label and is_source_artifact_label(label):
+            continue
         if label.lower() in {"pros", "cons"} and len(items) >= 3:
             continue
         if label and body:
@@ -2956,6 +2996,613 @@ def render_list_section(items: list[str], item_tag: str = "li") -> str:
     return f"\n              <ol>\n{inner}\n              </ol>"
 
 
+QUIZ_OVERRIDES = {
+    "/ethics/compassion-vs-moral-systems/": [
+        {
+            "id": "quiz-compassion-moral-systems",
+            "eyebrow": "Deep Understanding Quiz",
+            "title": "Can compassion do moral work without quietly becoming a moral system?",
+            "intro": (
+                "This approval quiz checks whether the page's central distinctions are landing. "
+                "Choose the best answer, then read the feedback: each response is meant to expose a different philosophical pressure point."
+            ),
+            "items": [
+                {
+                    "question": "What is the page's central caution about treating compassion as superior to moral systems?",
+                    "options": [
+                        {
+                            "text": "Compassion can guide action, but only if we ask what makes its guidance fair, informed, and binding.",
+                            "correct": True,
+                            "feedback": "Correct. The page does not dismiss compassion; it asks what disciplines compassion when sympathy is partial, misinformed, or selectively applied.",
+                        },
+                        {
+                            "text": "Compassion is simply another name for objective morality, so no further analysis is needed.",
+                            "correct": False,
+                            "feedback": "Not quite. That collapses the key distinction the page is trying to preserve: compassion may motivate moral concern, but it is not automatically the same as morality.",
+                        },
+                        {
+                            "text": "Compassion is always unreliable and should be replaced by strict rules.",
+                            "correct": False,
+                            "feedback": "Not quite. The page resists both sentimentality and legalism. It treats compassion as powerful but in need of rational formation.",
+                        },
+                        {
+                            "text": "Moral systems are mostly decorative, because decent people already know what compassion requires.",
+                            "correct": False,
+                            "feedback": "Not quite. That answer assumes the very clarity the page questions. Compassion often needs help deciding whose suffering counts and what kind of help is actually good.",
+                        },
+                    ],
+                },
+                {
+                    "question": "Why does the page distinguish moral feeling, social practice, and moral authority?",
+                    "options": [
+                        {
+                            "text": "Because a feeling, a custom, and a justified obligation can look similar in practice while resting on very different grounds.",
+                            "correct": True,
+                            "feedback": "Correct. The distinction prevents the discussion from treating emotional force, social approval, and genuine normativity as interchangeable.",
+                        },
+                        {
+                            "text": "Because moral authority is only a social practice with a more solemn hat.",
+                            "correct": False,
+                            "feedback": "Not quite, though the hat image has promise. The page asks whether authority can be more than convention, pressure, or usefulness.",
+                        },
+                        {
+                            "text": "Because feelings are private, social practices are public, and moral authority is therefore impossible.",
+                            "correct": False,
+                            "feedback": "Not quite. The page does not declare authority impossible; it keeps the question open and presses for a better account.",
+                        },
+                        {
+                            "text": "Because only moral feeling matters when we are deciding how to respond to suffering.",
+                            "correct": False,
+                            "feedback": "Not quite. Moral feeling may alert us to suffering, but the page argues that attention is not the same thing as justification.",
+                        },
+                    ],
+                },
+                {
+                    "question": "What would count as rational compassion in the argument developed here?",
+                    "options": [
+                        {
+                            "text": "Compassion disciplined by evidence, proportion, impartial concern, and attention to long-term effects.",
+                            "correct": True,
+                            "feedback": "Correct. Rational compassion keeps the warmth but refuses to let immediacy, bias, or panic do all the steering.",
+                        },
+                        {
+                            "text": "Compassion that follows the strongest emotional pull in the room.",
+                            "correct": False,
+                            "feedback": "Not quite. The strongest emotional pull may identify a real need, but it can also privilege the visible, familiar, or theatrically urgent case.",
+                        },
+                        {
+                            "text": "Compassion purified of all calculation, because calculation corrupts moral concern.",
+                            "correct": False,
+                            "feedback": "Not quite. The page treats calculation as dangerous when cold, but necessary when care must decide between competing harms.",
+                        },
+                        {
+                            "text": "Compassion that always reduces immediate suffering, regardless of later consequences.",
+                            "correct": False,
+                            "feedback": "Not quite. A major pressure point is that sometimes tolerating short-term pain may prevent deeper harm or support a larger good.",
+                        },
+                    ],
+                },
+                {
+                    "question": "How does moral non-realism function in the page?",
+                    "options": [
+                        {
+                            "text": "As a serious challenge: if objective moral facts are denied, we still need standards for criticism, reform, and responsible action.",
+                            "correct": True,
+                            "feedback": "Correct. The page does not sanitize non-realism into casual relativism; it asks how normativity survives when moral facts are disputed.",
+                        },
+                        {
+                            "text": "As a quick way to prove that compassion is the only possible moral standard.",
+                            "correct": False,
+                            "feedback": "Not quite. Non-realism does not automatically crown compassion; it makes the source of authority harder to explain.",
+                        },
+                        {
+                            "text": "As the view that nothing matters, so moral debate is pointless.",
+                            "correct": False,
+                            "feedback": "Not quite. That is too crude. A non-realist may still care deeply about reasons, suffering, coherence, social goods, and criticism.",
+                        },
+                        {
+                            "text": "As a minor vocabulary issue that can be ignored once people agree to be kind.",
+                            "correct": False,
+                            "feedback": "Not quite. The page treats non-realism as a live conceptual pressure, not a typo in the ethics department.",
+                        },
+                    ],
+                },
+                {
+                    "question": "What is the circularity risk in saying compassion gives moral guidance?",
+                    "options": [
+                        {
+                            "text": "We may smuggle moral judgment into the definition of compassion and then pretend compassion produced it independently.",
+                            "correct": True,
+                            "feedback": "Correct. If compassion already means morally appropriate concern, then using it to ground morality becomes circular.",
+                        },
+                        {
+                            "text": "Compassion is circular because it always returns to the person who feels it.",
+                            "correct": False,
+                            "feedback": "Not quite. Self-reference can be a problem, but the circularity here is conceptual: morality may be hidden inside the term being used to explain morality.",
+                        },
+                        {
+                            "text": "Moral systems are circular because every system has rules and every rule belongs to a system.",
+                            "correct": False,
+                            "feedback": "Not quite. That is a structural observation, not the specific problem the page raises about grounding morality in compassion.",
+                        },
+                        {
+                            "text": "The risk disappears if the compassionate person is sincere.",
+                            "correct": False,
+                            "feedback": "Not quite. Sincerity can intensify the problem. A sincere impulse can still be biased, confused, or unjustified.",
+                        },
+                    ],
+                },
+                {
+                    "question": "Why might compassion need more than immediate suffering-reduction?",
+                    "options": [
+                        {
+                            "text": "Because reducing visible suffering now can sometimes produce greater harm, dependency, injustice, or distortion later.",
+                            "correct": True,
+                            "feedback": "Correct. The page asks compassion to become intelligent about time, tradeoffs, and unintended effects.",
+                        },
+                        {
+                            "text": "Because suffering is never morally relevant by itself.",
+                            "correct": False,
+                            "feedback": "Not quite. The page takes suffering seriously; it simply denies that every immediate reduction is automatically the wisest response.",
+                        },
+                        {
+                            "text": "Because a moral system should be indifferent to emotional pain.",
+                            "correct": False,
+                            "feedback": "Not quite. Indifference is not the goal. The page is seeking disciplined care, not a marble statue with a policy manual.",
+                        },
+                        {
+                            "text": "Because compassion is valuable only when it supports an existing religious or legal code.",
+                            "correct": False,
+                            "feedback": "Not quite. The argument is broader than any one code; it asks how compassion should be evaluated, corrected, and authorized.",
+                        },
+                    ],
+                },
+                {
+                    "question": "Which response best captures the page's stance toward moral systems?",
+                    "options": [
+                        {
+                            "text": "Moral systems can become rigid or cruel, but they also preserve memory, standards, and checks on partial feeling.",
+                            "correct": True,
+                            "feedback": "Correct. The page wants the reader to see why systems can both deform compassion and protect it from its own blind spots.",
+                        },
+                        {
+                            "text": "Moral systems are valuable only when they eliminate the need for judgment.",
+                            "correct": False,
+                            "feedback": "Not quite. A system that eliminates judgment has probably become machinery. The page is allergic to that, and rightly so.",
+                        },
+                        {
+                            "text": "Moral systems are always inferior because rules cannot feel pain.",
+                            "correct": False,
+                            "feedback": "Not quite. Rules cannot feel pain, but they can encode hard-won insights about fairness, restraint, and consistency.",
+                        },
+                        {
+                            "text": "Moral systems should be judged only by whether they make compassionate people feel affirmed.",
+                            "correct": False,
+                            "feedback": "Not quite. Feeling affirmed is too thin a standard. The page asks whether a system can correct as well as comfort.",
+                        },
+                    ],
+                },
+                {
+                    "question": "What is the deepest unresolved question the page leaves open?",
+                    "options": [
+                        {
+                            "text": "What makes a moral claim binding beyond emotion, convention, threat, usefulness, or personal preference?",
+                            "correct": True,
+                            "feedback": "Correct. This is the deepest hinge: compassion matters, but the page keeps asking what gives any moral demand its authority.",
+                        },
+                        {
+                            "text": "Whether compassionate people should be allowed to ignore every moral tradition.",
+                            "correct": False,
+                            "feedback": "Not quite. The page is not licensing ethical freelancing. It is examining the relation between humane concern and justified standards.",
+                        },
+                        {
+                            "text": "Whether moral systems should be made more emotionally expressive.",
+                            "correct": False,
+                            "feedback": "Not quite. Emotional expressiveness may help, but the underlying issue is authority, not tone of voice.",
+                        },
+                        {
+                            "text": "Whether compassion can be measured with enough precision to automate moral decisions.",
+                            "correct": False,
+                            "feedback": "Not quite. Measurement may be useful in some contexts, but the page's primary concern is philosophical justification, not moral spreadsheet sorcery.",
+                        },
+                    ],
+                },
+            ],
+        }
+    ]
+}
+
+
+def quiz_option(text: str, correct: bool, feedback: str) -> dict:
+    return {
+        "text": clean_text(text),
+        "correct": correct,
+        "feedback": clean_text(feedback),
+    }
+
+
+def quiz_section_terms(page: dict, sections: list[dict], section_meta: dict) -> list[str]:
+    terms: list[str] = []
+    generic_terms = {
+        "best charitable version",
+        "pressure point",
+        "central distinction",
+        "core claim",
+        "summary",
+        "conclusion",
+        "questions",
+    }
+    for section in sections:
+        for item in section.get("list_items", []) + section.get("question_items", []):
+            label, body = split_label(item)
+            candidate = label or body or item
+            candidate = compact_text(strip_number_prefix(clean_text(candidate)).strip(" .:?"), 62)
+            if (
+                candidate
+                and not is_source_artifact_label(candidate)
+                and not looks_like_prompt(candidate)
+                and not is_low_value_heading(candidate)
+            ):
+                terms.append(candidate)
+    terms.extend(TOPIC_ITEMS.get(page["title"], []))
+    terms.extend(page.get("thread_like", [])[:6])
+    terms.extend(child["title"] for child in page.get("children", [])[:4])
+    terms.extend(tag_candidates(page, section_meta)[:4])
+
+    cleaned_terms: list[str] = []
+    for term in terms:
+        candidate = clean_text(term).strip(" .:?")
+        if not candidate or len(candidate) < 4 or is_source_artifact_label(candidate):
+            continue
+        if candidate.lower() in generic_terms:
+            continue
+        if len(candidate.split()) > 9:
+            candidate = compact_text(candidate, 68)
+        cleaned_terms.append(candidate)
+    return dedupe(cleaned_terms)[:8]
+
+
+def quiz_context(page: dict, sections: list[dict], prompts: list[tuple[str, str]], section_meta: dict) -> dict:
+    topic = topic_label(page["title"])
+    profile = branch_profile(page["section_id"])
+    prompt_sections = [section for section in sections if section.get("prompt")]
+    first_section = prompt_sections[0] if prompt_sections else (sections[0] if sections else {})
+    synthesis = next((section for section in sections if section.get("id") == "synthesis"), sections[-1] if sections else {})
+    first_prompt = first_section.get("prompt") or (prompts[0][1] if prompts else "")
+    first_key = short_prompt_key(first_prompt, topic) if first_prompt else topic
+    terms = quiz_section_terms(page, sections, section_meta)
+    branch_items = profile["items"]
+    while len(terms) < 4:
+        terms.append(branch_items[len(terms) % len(branch_items)])
+    child_titles = [child["title"] for child in page.get("children", [])]
+    sibling_titles = [title for title in page.get("sibling_titles", []) if title != page["title"]]
+
+    return {
+        "topic": topic,
+        "branch": section_meta["name"],
+        "profile": profile,
+        "kind": page["kind"],
+        "first_heading": clean_text(first_section.get("heading", "")) or f"{topic} needs disciplined interpretation.",
+        "first_eyebrow": clean_text(first_section.get("eyebrow", "")) or "Orientation",
+        "first_prompt": first_prompt,
+        "first_key": first_key,
+        "synthesis_heading": clean_text(synthesis.get("heading", "")) or f"The through-line is what {topic} asks the reader to notice.",
+        "synthesis_paragraph": compact_text(" ".join(synthesis.get("paragraphs", [])[:2]), 130),
+        "terms": terms,
+        "children": child_titles,
+        "siblings": sibling_titles,
+        "tags": tag_candidates(page, section_meta),
+    }
+
+
+def quiz_title_for_context(ctx: dict) -> str:
+    topic = ctx["topic"]
+    kind = ctx["kind"]
+    if kind == "dialogue":
+        return f"Check your understanding of {topic}"
+    if kind == "chart":
+        return f"Check your understanding of the {topic} map"
+    if kind == "danger":
+        return f"Check your understanding of the danger in {topic}"
+    if kind == "cluster":
+        return f"Check your understanding of {topic}"
+    return f"Check your understanding of {topic}"
+
+
+def quiz_focus_phrase(term: str) -> str:
+    cleaned = clean_text(term).strip(" .:")
+    lowered = cleaned.lower()
+    if (
+        not cleaned
+        or len(cleaned.split()) > 7
+        or lowered.startswith(("if ", "when ", "while ", "because ", "whether ", "which ", "what ", "how ", "why "))
+        or re.search(r"\b(used the phrase|refers to|means that|is the|are the)\b", lowered)
+    ):
+        return "a concrete example"
+    return cleaned
+
+
+def central_quiz_item(ctx: dict) -> dict:
+    topic = ctx["topic"]
+    branch = ctx["branch"]
+    profile = ctx["profile"]
+    kind = ctx["kind"]
+    if kind == "dialogue":
+        correct = (
+            f"It shows how {topic}'s voice and method work, not just what the philosopher believed."
+        )
+        question = f"What is this page mainly trying to help you understand?"
+    elif kind == "chart":
+        correct = (
+            f"It helps you see the main parts of {topic}, where they fit, and where they come under pressure."
+        )
+        question = f"What is the main purpose of this chart page?"
+    elif kind == "cluster":
+        correct = (
+            f"It shows how the subtopics under {topic} fit together and why they belong in the same branch."
+        )
+        question = f"What is the main purpose of this branch page?"
+    elif kind == "danger":
+        correct = (
+            f"It explains why {topic} can be tempting, what it can distort, and how a careful reader can resist it."
+        )
+        question = f"What is this page mainly warning the reader about?"
+    else:
+        correct = (
+            f"It explains what has to be kept clear about {topic} inside the wider {branch} discussion."
+        )
+        question = f"What is this page mainly trying to help you understand?"
+
+    return {
+        "question": question,
+        "options": [
+            quiz_option(correct, True, f"Correct. The point is not just to recognize the word {topic}. The page is trying to make the reader more careful about how the idea works and what it is allowed to explain."),
+            quiz_option("It gives a quick definition, and once the term is familiar, the main work is done.", False, "Not quite. A definition can be useful, but this page is asking for more than vocabulary. It wants the reader to see the distinctions and tensions that make the topic philosophically important."),
+            quiz_option("It asks the reader to choose the strongest-sounding side and defend it as quickly as possible.", False, "Not quite. The page is not rewarding speed or confidence. It is training slower judgment: what should be separated, what should be connected, and what still needs evidence."),
+            quiz_option("It gathers interesting related ideas, but does not ask how those ideas fit together.", False, "Not quite. The archive is not just collecting associations. The useful work is seeing which ideas are central, which are secondary, and where confusion usually enters."),
+        ],
+    }
+
+
+def focus_quiz_item(ctx: dict) -> dict:
+    topic = ctx["topic"]
+    terms = ctx["terms"]
+    focus = quiz_focus_phrase(terms[0])
+    if ctx["kind"] == "dialogue":
+        question = f"Why does the philosopher's voice matter here?"
+        correct = (
+            f"Because the style of questioning and answering shows how {topic}'s view actually works."
+        )
+    elif ctx["kind"] == "chart":
+        question = f"Why does the map format matter here?"
+        correct = (
+            f"Because the map keeps the parts of {topic} visible together instead of turning the topic into a single label."
+        )
+    else:
+        question = f"Why does the page spend time on {focus}?"
+        correct = (
+            f"Because {focus} gives the reader a concrete way to see what is at stake in {topic}."
+        )
+
+    return {
+        "question": question,
+        "options": [
+            quiz_option(correct, True, "Correct. A good quiz answer should show why that part of the page is doing work. It is not just a heading or example; it helps the reader understand the larger issue."),
+            quiz_option(f"Because it is a side note that can be skipped once the reader knows the basic definition.", False, "Not quite. The page uses its details to teach the main idea. Skipping them would make the argument easier to summarize but harder to understand."),
+            quiz_option(f"Because the page needs a place to mention more terms even if they do not affect the argument.", False, "Not quite. Extra terms are not valuable by themselves. They matter only when they help the reader make a better distinction or avoid a real mistake."),
+            quiz_option(f"Because the page is mainly asking the reader to agree with its conclusion.", False, "Not quite. Agreement is not the main test. The better test is whether the reader can explain why the distinction matters and where it could be misused."),
+        ],
+    }
+
+
+def distinction_quiz_item(ctx: dict) -> dict:
+    topic = ctx["topic"]
+    terms = ctx["terms"]
+    first = terms[0]
+    second = terms[1]
+    third = terms[2]
+    fourth = terms[3]
+    return {
+        "question": f"Which reading habit would help most with this page?",
+        "options": [
+            quiz_option(f"Keep {first} and {second} separate at first, then ask how they relate.", True, "Correct. Many philosophical mistakes start by blending two nearby ideas too early. The safer habit is to separate them, compare them, and only then decide how they connect."),
+            quiz_option(f"Treat {first} as just another wording of {second}.", False, "Not quite. That may be true in some casual contexts, but the page is asking for more care. If two terms are doing different jobs, merging them will weaken the argument."),
+            quiz_option(f"Replace {third} and {fourth} with a general impression of what sounds reasonable.", False, "Not quite. General impressions can be useful starting points, but they are not enough here. The page asks the reader to track the actual distinctions."),
+            quiz_option(f"Assume every idea near {topic} means about the same thing once the topic feels familiar.", False, "Not quite. Familiarity can hide confusion. A reader can feel comfortable with a topic while still missing the structure that makes it important."),
+        ],
+    }
+
+
+def pressure_quiz_item(ctx: dict) -> dict:
+    topic = ctx["topic"]
+    profile = ctx["profile"]
+    return {
+        "question": f"What mistake is this page trying to prevent?",
+        "options": [
+            quiz_option(f"Using {topic} as a shortcut instead of facing the harder question: {profile['pressure']}", True, "Correct. The page is trying to slow the reader down at the point where a quick answer would be tempting. The warning is that a familiar label can hide the real problem."),
+            quiz_option(f"Thinking the topic is too complex to discuss, so nothing useful can be said.", False, "Not quite. Complexity is not a reason to give up. It is a reason to use clearer distinctions and better examples."),
+            quiz_option(f"Thinking the branch name already explains the page.", False, "Not quite. The branch name gives the page a home, but it does not explain the argument. The reader still has to see how the idea works."),
+            quiz_option(f"Choosing the most comfortable interpretation and avoiding the parts that create tension.", False, "Not quite. The uncomfortable parts are often where the learning happens. This page is trying to keep those tensions visible."),
+        ],
+    }
+
+
+def intermediate_reader_quiz_item(ctx: dict) -> dict:
+    topic = ctx["topic"]
+    branch = ctx["branch"]
+    return {
+        "question": f"What would show real understanding of this page?",
+        "options": [
+            quiz_option(f"The reader can state the main claim, name a serious difficulty, and explain why the page belongs in {branch}.", True, "Correct. That is a stronger standard than remembering a definition. It shows the reader understands the claim, the objection, and the larger setting."),
+            quiz_option(f"The reader can quote the title and say whether they like the topic.", False, "Not quite. Personal reaction matters, but it is not enough. Understanding requires explaining what the page is doing and why the issue matters."),
+            quiz_option("The reader can repeat a definition without explaining what problem the definition solves.", False, "Not quite. Definitions matter when they help us reason better. A repeated definition without a use is mostly verbal memory."),
+            quiz_option(f"The reader can decide whether the page is persuasive before giving the argument a fair reconstruction.", False, "Not quite. Evaluation should come after charity. First make the view as clear and strong as the page allows; then judge it."),
+        ],
+    }
+
+
+def misconception_quiz_item(ctx: dict) -> dict:
+    topic = ctx["topic"]
+    term = quiz_focus_phrase(ctx["terms"][0])
+    return {
+        "question": f"Which response would miss the point of the page?",
+        "options": [
+            quiz_option(f"Assuming {topic} is already clear because the familiar meaning of {term} feels obvious.", True, "Correct. This is the common shortcut the page is trying to resist. A familiar word can feel clear while still hiding the real philosophical issue."),
+            quiz_option(f"Asking how the page's claim would change under a stronger objection.", False, "Not quite. That is usually a good move. Strong objections help reveal whether the argument has real strength or only surface appeal."),
+            quiz_option(f"Connecting the page to nearby topics while still keeping the differences clear.", False, "Not quite. That is part of good reading. The archive depends on connection without careless merging."),
+            quiz_option(f"Noticing when an attractive sentence needs a qualification.", False, "Not quite. Qualification is not a failure. It is often what keeps philosophical writing honest."),
+        ],
+    }
+
+
+def future_branch_quiz_item(ctx: dict) -> dict:
+    topic = ctx["topic"]
+    branch = ctx["branch"]
+    neighbors = ctx["children"][:3] or ctx["siblings"][:3] or ctx["tags"][:3]
+    neighbor_text = serial_join(neighbors) if neighbors else branch
+    return {
+        "question": f"Why does this page point to other pages?",
+        "options": [
+            quiz_option(f"Because {topic} leads naturally to nearby questions such as {neighbor_text}.", True, "Correct. A page is clearer when the reader can see what comes next. The links are not decoration; they show where the same problem continues or becomes more specific."),
+            quiz_option(f"Because every page should link elsewhere, even if the links do not add anything.", False, "Not quite. Links matter only when they help the reader think. Empty branching would make the archive busier but not wiser."),
+            quiz_option(f"Because the archive structure is more important than the argument on the page.", False, "Not quite. The structure exists to support the argument. It should help the reader see relationships, not replace understanding."),
+            quiz_option(f"Because future branches let the reader avoid deciding what this page itself claims.", False, "Not quite. A good branch does not postpone clarity. It gives the reader a way to carry clarity into the next question."),
+        ],
+    }
+
+
+def synthesis_quiz_item(ctx: dict) -> dict:
+    topic = ctx["topic"]
+    synthesis = ctx["synthesis_heading"]
+    synthesis_paragraph = ctx["synthesis_paragraph"]
+    correct = (
+        f"The main lesson is that {topic} should change how the reader notices distinctions, tests claims, and carries the question into nearby problems."
+    )
+    if synthesis_paragraph:
+        correct = f"{correct} In the page's own terms, {synthesis_paragraph}"
+    correct = compact_text(correct, 330)
+    return {
+        "question": f"What is the main lesson to carry away?",
+        "options": [
+            quiz_option(correct, True, f"Correct. This answer treats the synthesis as a guide for further thinking, not just a closing paragraph."),
+            quiz_option(f"The synthesis mainly means the page has reached its ending.", False, "Not quite. A synthesis should gather what has been learned. It is not just a polite way to stop talking."),
+            quiz_option(f"The page's main value is that it removes future disagreement about {topic}.", False, "Not quite. Philosophical work often makes disagreement sharper and more responsible. It rarely makes all disagreement disappear."),
+            quiz_option(f"The best takeaway is the sentence that can be turned into the neatest slogan.", False, "Not quite. A slogan may be memorable, but understanding requires seeing the moving parts behind it."),
+        ],
+    }
+
+
+def generate_page_quiz(page: dict, sections: list[dict], prompts: list[tuple[str, str]], section_meta: dict) -> dict:
+    ctx = quiz_context(page, sections, prompts, section_meta)
+    return {
+        "id": f"quiz-{slugify(ctx['topic']) or 'deep-understanding'}",
+        "eyebrow": "Deep Understanding Quiz",
+        "title": quiz_title_for_context(ctx),
+        "intro": (
+            "This quiz checks whether the main distinctions and cautions on the page are clear. "
+            "Choose an answer, read the feedback, and click the question text if you want to reset that item."
+        ),
+        "items": [
+            central_quiz_item(ctx),
+            focus_quiz_item(ctx),
+            distinction_quiz_item(ctx),
+            pressure_quiz_item(ctx),
+            intermediate_reader_quiz_item(ctx),
+            misconception_quiz_item(ctx),
+            future_branch_quiz_item(ctx),
+            synthesis_quiz_item(ctx),
+        ],
+    }
+
+
+def render_quiz_sections(
+    page: dict,
+    sections: list[dict] | None = None,
+    prompts: list[tuple[str, str]] | None = None,
+    section_meta: dict | None = None,
+) -> str:
+    if page["built_path"] in QUIZ_OVERRIDES:
+        quizzes = QUIZ_OVERRIDES[page["built_path"]]
+    else:
+        section_meta = section_meta or SECTION_META[page["section_id"]]
+        sections = sections or compose_sections(page)
+        prompts = prompts or prompt_pack(page, section_meta)
+        quizzes = [generate_page_quiz(page, sections, prompts, section_meta)]
+    if not quizzes:
+        return ""
+
+    rendered_quizzes = []
+    for quiz_index, quiz in enumerate(quizzes, start=1):
+        rendered_items = []
+        for item_index, item in enumerate(quiz["items"], start=1):
+            option_buttons = []
+            option_order = list(item["options"])
+            if option_order:
+                shift = (item_index - 1) % len(option_order)
+                option_order = option_order[shift:] + option_order[:shift]
+            for option_index, option in enumerate(option_order):
+                marker = chr(ord("A") + option_index)
+                option_id = f"{quiz['id']}-q{item_index}-{marker.lower()}"
+                option_state = "correct" if option["correct"] else "incorrect"
+                option_buttons.append(
+                    textwrap.dedent(
+                        f"""\
+                          <div class="quiz-choice">
+                            <input
+                              class="quiz-choice__input"
+                              type="radio"
+                              name="{html.escape(quiz['id'])}-q{item_index}"
+                              id="{html.escape(option_id)}"
+                            />
+                            <label class="quiz-option quiz-option--{option_state}" for="{html.escape(option_id)}">
+                              <span class="quiz-option__marker" aria-hidden="true">{marker}</span>
+                              <span>{render_inline_text(option['text'])}</span>
+                            </label>
+                            <p class="quiz-feedback is-{option_state}" aria-live="polite">
+                              {html.escape(option['feedback'])}
+                            </p>
+                          </div>"""
+                    )
+                )
+            rendered_items.append(
+                textwrap.dedent(
+                    f"""\
+                      <article class="quiz-item" data-quiz-item>
+                        <div class="quiz-item__header">
+                          <span class="quiz-item__number" aria-hidden="true">{item_index}</span>
+                          <h3>
+                            <button class="quiz-reset" type="button" data-quiz-reset title="Reset this question">
+                              {render_inline_text(item['question'])}
+                            </button>
+                          </h3>
+                        </div>
+                        <fieldset class="quiz-options" aria-label="Question {item_index} options">
+        {chr(10).join(option_buttons)}
+                        </fieldset>
+                      </article>"""
+                )
+            )
+
+        rendered_quizzes.append(
+            textwrap.dedent(
+                f"""\
+                    <section class="article-section quiz-section" id="{html.escape(quiz['id'])}" data-quiz>
+                      <div class="article-section__meta">
+                        <span class="quiz-section__badge" aria-hidden="true">Q</span>
+                        <p class="eyebrow">{html.escape(quiz['eyebrow'])}</p>
+                      </div>
+                      <h2>{render_inline_text(quiz['title'])}</h2>
+                      <p class="quiz-section__intro">{render_inline_text(quiz['intro'])}</p>
+                      <div class="quiz-list">
+        {chr(10).join(rendered_items)}
+                      </div>
+                    </section>"""
+            )
+        )
+
+    return "\n".join(rendered_quizzes)
+
+
 def page_gap_notes(page: dict, sections: list[dict]) -> list[str]:
     notes: list[str] = []
     quality_sections = [section for section in sections if section.get("quality")]
@@ -3086,6 +3733,8 @@ def render_article_page(page: dict) -> str:
     future_paragraph = " ".join(future_parts)
     footer_note = f"This reconstructed page keeps the archive voice consistent while leaving room for later deepening where the branch deserves it most."
     gap_notes = page_gap_notes(page, sections)
+    quiz_html = render_quiz_sections(page, sections, prompts, section_meta)
+    quiz_block = f"\n\n{quiz_html}" if quiz_html else ""
     gap_html = ""
     if gap_notes:
         gap_html = textwrap.dedent(
@@ -3155,7 +3804,7 @@ def render_article_page(page: dict) -> str:
                   </section>
 
                   <div class="article-body">
-        {'\n\n'.join(body_parts)}
+        {'\n\n'.join(body_parts)}{quiz_block}
 
                     <section class="article-section" id="future-branches">
                       <p class="eyebrow">Future Branches</p>
@@ -3785,6 +4434,43 @@ def write_if_allowed(target: Path, contents: str) -> bool:
     return True
 
 
+def inject_quiz_into_manual_page(target: Path, page: dict) -> bool:
+    if not target.exists():
+        return False
+    existing = target.read_text()
+    if AUTO_MARKER in existing or 'data-page-type="article"' not in existing:
+        return False
+
+    section_meta = SECTION_META[page["section_id"]]
+    sections = compose_sections(page)
+    prompts = prompt_pack(page, section_meta)
+    quiz_html = render_quiz_sections(page, sections, prompts, section_meta)
+    if not quiz_html:
+        return False
+
+    cleaned = QUIZ_SECTION_RE.sub("\n", existing)
+    markers = [
+        r"\n\s*<section class=\"article-section\" id=\"future-branches\">",
+        r"\n\s*<section class=\"article-outline-slot\"",
+        r"\n\s*<section class=\"process-note\"",
+        r"\n\s*</main>",
+    ]
+    insert_at = -1
+    for marker in markers:
+        match = re.search(marker, cleaned)
+        if match:
+            insert_at = match.start()
+            break
+    if insert_at == -1:
+        return False
+
+    updated = f"{cleaned[:insert_at].rstrip()}\n\n{quiz_html}\n{cleaned[insert_at:].lstrip()}"
+    if updated == existing:
+        return False
+    target.write_text(updated)
+    return True
+
+
 def cleanup_auto_generated(valid_targets: set[Path]) -> None:
     for target in ROOT.rglob("index.html"):
         if target in valid_targets:
@@ -3953,6 +4639,8 @@ def main() -> None:
         target = ROOT / page["built_path"].strip("/") / "index.html"
         valid_targets.add(target)
         page["quality_tracked"] = write_if_allowed(target, render_article_page(page))
+        if not page["quality_tracked"]:
+            inject_quiz_into_manual_page(target, page)
 
     menu_target = ROOT / "menu-structure" / "index.html"
     podcast_target = ROOT / "byteseismic-podcasts" / "index.html"
