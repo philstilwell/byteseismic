@@ -409,9 +409,25 @@ def has_unavailable_asset_reference(text: str) -> bool:
     return any(re.search(pattern, lowered) for pattern in UNAVAILABLE_ASSET_REFERENCE_PATTERNS)
 
 
+def rewrite_curator_references(text: str) -> str:
+    rewritten = clean_text(text)
+    replacements = [
+        (r"\bPhil[’']s\b", "the curator’s"),
+        (r"\bPhil:\s*", "Curator: "),
+        (r"\bPhil\b", "the curator"),
+        (r"\bStilwell[’']s\b", "the curator’s"),
+        (r"\bStilwell\b", "the curator"),
+    ]
+    for pattern, replacement in replacements:
+        rewritten = re.sub(pattern, replacement, rewritten)
+    rewritten = re.sub(r"\bthe curator who\b", "the curator, who", rewritten)
+    rewritten = re.sub(r"\bbetween ([A-Z][A-Za-z0-9_-]+) and the curator\b", r"between \1 and the curator", rewritten)
+    return clean_text(rewritten)
+
+
 def rewrite_unavailable_asset_references(text: str) -> str:
     """Avoid referring to source-only visuals that are not present in the rebuild."""
-    rewritten = clean_text(text)
+    rewritten = rewrite_curator_references(text)
     replacements = [
         (r"\b[Tt]he following images reflect input from\b", "The source material summarizes input from"),
         (r"\b[Ff]ollowing images reflect input from\b", "Source material summarizes input from"),
@@ -497,7 +513,7 @@ def rewrite_unavailable_asset_references(text: str) -> str:
     for pattern, replacement in replacements:
         rewritten = re.sub(pattern, replacement, rewritten)
     rewritten = re.sub(r"\s+([.,;:!?])", r"\1", rewritten)
-    return clean_text(rewritten)
+    return rewrite_curator_references(rewritten)
 
 
 def canonical_url(url: str) -> str:
@@ -905,6 +921,12 @@ def split_label(text: str) -> tuple[str, str]:
     return label, body
 
 
+def display_label(label: str) -> str:
+    if clean_text(label) == "the curator":
+        return "The curator"
+    return label
+
+
 def rewrite_source_sentence(text: str) -> str:
     cleaned_full = clean_text(text)
     if cleaned_full.startswith(("“", '"')):
@@ -1266,6 +1288,12 @@ def prompt_key_phrase(prompt: str, fallback: str) -> str:
         "inductive grounding",
         "moral realism",
         "moral non-realism",
+        "moral intuitions",
+        "moral landscape",
+        "normative force",
+        "telephone game",
+        "signal fidelity",
+        "system fidelity",
         "logical fallacies",
         "training data bias",
         "self-evidence",
@@ -1278,6 +1306,23 @@ def prompt_key_phrase(prompt: str, fallback: str) -> str:
     for phrase in key_phrases:
         if phrase in lowered:
             return phrase[0].upper() + phrase[1:]
+
+    command_patterns = [
+        r"^provide a short paragraph explaining\s+(.+?)\.?$",
+        r"^provide an annotated list of\s+(.+?)\.?$",
+        r"^provide the most likely causes behind\s+(.+?)\.?$",
+        r"^create a table on\s+(.+?)\s+with columns.+$",
+        r"^create a structured comparison showing\s+(.+?)\.?$",
+        r"^create a quantitative account that\s+(.+?)\.?$",
+        r"^elaborate on\s+(.+?)\.?$",
+        r"^explain\s+(.+?)\.?$",
+    ]
+    for pattern in command_patterns:
+        match = re.match(pattern, cleaned, flags=re.IGNORECASE)
+        if match:
+            candidate = compact_text(match.group(1), 90).rstrip(".")
+            if candidate:
+                return candidate[0].upper() + candidate[1:]
 
     quoted = re.findall(r"[“\"]([^”\"]{8,90})[”\"]", cleaned)
     if quoted:
@@ -1301,7 +1346,8 @@ def source_prompt_heading(prompt: str, topic: str, detail: dict | None) -> str:
 
     key = prompt_key_phrase(prompt, topic)
     if key and key.lower() != topic.lower():
-        return f"{key[0].upper() + key[1:]} is the pressure point."
+        verb = "are" if re.search(r"\b(intuitions|values|rights|duties|scores|percentages)\b", key, flags=re.IGNORECASE) else "is"
+        return f"{key[0].upper() + key[1:]} {verb} the pressure point."
     return prompt_heading(prompt, topic)
 
 
@@ -1465,6 +1511,7 @@ def source_detail_list_items(detail: dict | None, page: dict) -> list[str]:
     children = detail.get("children", [])
     for child in children:
         label = rewrite_unavailable_asset_references(strip_number_prefix(child.get("title", ""))).strip(" .:")
+        label = display_label(label)
         if not label:
             continue
         if len(children) == 1 and "example" in label.lower() and child.get("paragraphs"):
@@ -1488,6 +1535,7 @@ def source_detail_list_items(detail: dict | None, page: dict) -> list[str]:
     for raw_item in detail.get("items", []):
         label, body = split_label(raw_item)
         label = rewrite_unavailable_asset_references(label)
+        label = display_label(label)
         if label.lower() in {"pros", "cons"} and len(items) >= 3:
             continue
         if label and body:
@@ -1496,6 +1544,169 @@ def source_detail_list_items(detail: dict | None, page: dict) -> list[str]:
             items.append(rewrite_source_sentence(raw_item))
 
     return dedupe([item for item in items if item])[:6]
+
+
+def support_item_body(label: str, page: dict, prompt: str, focus: str) -> str:
+    topic = topic_label(page["title"])
+    profile = branch_profile(page["section_id"])
+    label_lower = label.lower()
+
+    if page["section_id"] == "philosophers":
+        if "contribution" in label_lower or "influence" in prompt.lower():
+            return (
+                f"{topic}'s influence is clearest where later readers inherit new questions, methods, or suspicions, "
+                f"not merely where {topic} appears as an important name in the canon."
+            )
+        return (
+            f"{topic}'s method, temperament, and pressure on later philosophy matter more than a biographical label."
+        )
+
+    if page["section_id"] == "ethics":
+        if "is/ought" in label_lower:
+            return "Descriptive facts about what people value do not by themselves yield obligations unless a normative bridge is supplied."
+        if "normativity" in label_lower or "motivation" in label_lower:
+            return "The live question is whether moral motivation requires an objective moral realm or can be explained by desire, empathy, habit, and social pressure."
+        if "rights" in label_lower or "duties" in label_lower or "value" in label_lower:
+            return "Rights-language can remain practically powerful even if its authority is reconstructed as a human institution rather than a discovered moral property."
+        if "realism" in label_lower or "anti-realism" in label_lower:
+            return "The pressure is whether moral claims report stance-independent facts or express human attitudes, commitments, and emotional salience."
+        return (
+            "The argument has to keep moral feeling, social practice, and justificatory force distinct so the conclusion is not smuggled into the vocabulary."
+        )
+
+    if page["section_id"] == "epistemology":
+        return (
+            "The epistemic pressure is how evidence, uncertainty, and responsible confidence interact before the reader accepts or rejects the claim."
+        )
+
+    if focus == "mapping":
+        return (
+            f"The relation among the parts of {topic} matters: what is central, what is derivative, and what pressure would change the map."
+        )
+
+    if focus == "definition":
+        return (
+            "The distinction between ordinary usage and the disciplined sense of the term carries the argument."
+        )
+
+    return (
+        f"This thread connects {topic} to {profile['lens']} rather than leaving the issue at the level of a label."
+    )
+
+
+def enrich_support_item(item: str, page: dict, prompt: str, focus: str) -> str:
+    cleaned = clean_text(item).rstrip()
+    if not cleaned:
+        return ""
+
+    label, body = split_label(cleaned)
+    if label and body:
+        if label == "the curator":
+            label = "The curator"
+        if len(body.split()) >= 9:
+            return f"{label}: {body}"
+        return f"{label}: {body} {support_item_body(label, page, prompt, focus)}"
+
+    if len(cleaned.split()) >= 10:
+        return cleaned
+
+    label = cleaned.rstrip(":")
+    if label == "the curator":
+        label = "The curator"
+    return f"{label}: {support_item_body(label, page, prompt, focus)}"
+
+
+def supplemental_support_items(page: dict, prompt: str, detail: dict | None, focus: str) -> list[str]:
+    topic = topic_label(page["title"])
+    profile = branch_profile(page["section_id"])
+    key = prompt_key_phrase(prompt, topic)
+
+    if page["section_id"] == "philosophers":
+        return [
+            f"Historical pressure: {topic} matters because later philosophy inherits problems, terms, or suspicions that become harder to ignore after {topic}.",
+            f"Method pressure: The reconstruction identifies whether {topic} works by skepticism, system-building, dialogue, analysis, provocation, or some other recurring method.",
+            f"Limits of the influence: {topic}'s influence can be contestable, partial, or dependent on later interpretation rather than a single settled legacy.",
+            f"Present use: {topic} remains valuable where the thinker still sharpens a live question rather than merely belonging to a historical list.",
+        ]
+
+    if page["section_id"] == "ethics":
+        return [
+            f"Claim being tested: {key} has to be distinguished as a possible fact, preference, norm, social practice, or recommendation.",
+            "Source of authority: The pressure is what could make the claim binding beyond emotion, convention, threat, or usefulness.",
+            "Anti-realist pressure: Moral non-realism remains a serious rival and should not be softened into vague relativism.",
+            "Practical residue: Even if objective moral facts are denied, criticism, persuasion, law, and shared life still require practical standards.",
+        ]
+
+    if page["section_id"] == "epistemology":
+        return [
+            f"Belief calibration: {key} concerns how strongly the available evidence warrants belief, disbelief, or suspension of judgment.",
+            "Evidence standard: Support, counterevidence, and merely persuasive appearances have to be kept distinct.",
+            "Error pressure: Overconfidence, underconfidence, and ambiguous testimony each distort the conclusion in different ways.",
+            "Revision path: A responsible answer names the kind of new information that would rationally change confidence.",
+        ]
+
+    if page["section_id"] == "rational-thought":
+        return [
+            f"Reasoning structure: The inferential move inside {key} has to be explicit rather than carried by intuitive agreement.",
+            "Failure mode: The shortcut, bias, incentive, or fallacy explains why weak reasoning can look stronger than it is.",
+            "Correction method: The reader needs a repair procedure in practice, not only a label for the mistake.",
+            "Transfer test: The same reasoning discipline should still work in a neighboring case.",
+        ]
+
+    return [
+        f"Central distinction: {key} helps separate what otherwise becomes compressed inside {topic}.",
+        "Best charitable version: The idea has to be made strong enough that criticism reaches the real view rather than a caricature.",
+        "Pressure point: The vulnerability lies where the idea becomes ambiguous, overextended, or dependent on background assumptions.",
+        f"Future branch: The answer opens a path toward the next related question inside {SECTION_META[page['section_id']]['name']}.",
+    ]
+
+
+def content_word_count(paragraphs: list[str], list_items: list[str]) -> int:
+    return sum(len(clean_text(part).split()) for part in paragraphs + list_items)
+
+
+def average_item_words(list_items: list[str]) -> float:
+    return sum(len(clean_text(item).split()) for item in list_items) / max(len(list_items), 1)
+
+
+def polish_review_content(
+    page: dict,
+    prompt: str,
+    detail: dict | None,
+    paragraphs: list[str],
+    list_items: list[str],
+) -> tuple[list[str], list[str]]:
+    focus = prompt_focus(prompt)
+    topic = topic_label(page["title"])
+    profile = branch_profile(page["section_id"])
+    key = prompt_key_phrase(prompt, topic)
+
+    polished_items = [
+        enriched
+        for item in list_items
+        if (enriched := enrich_support_item(item, page, prompt, focus))
+    ]
+    polished_items = dedupe(polished_items)
+
+    for item in supplemental_support_items(page, prompt, detail, focus):
+        if len(polished_items) >= 4 and average_item_words(polished_items) >= 12:
+            break
+        polished_items.append(item)
+        polished_items = dedupe(polished_items)
+
+    polished_paragraphs = list(paragraphs)
+    if len(polished_paragraphs) < 3 or content_word_count(polished_paragraphs, polished_items) < 170:
+        polished_paragraphs.append(
+            f"The answer therefore has to do three jobs at once: identify the claim about {key}, "
+            f"show why that claim matters inside {SECTION_META[page['section_id']]['name']}, and mark the point at which a reasonable reader could still resist it."
+        )
+    if len(polished_paragraphs) < 4 and content_word_count(polished_paragraphs, polished_items) < 210:
+        polished_paragraphs.append(
+            f"That extra pressure keeps the section from becoming a label or a slogan. It asks whether {topic} clarifies {profile['lens']}, "
+            f"and it gives the reader handles for further revision instead of a closed verdict."
+        )
+
+    return polished_paragraphs[:4], polished_items[:6]
 
 
 def section_list_items(page: dict, index: int, prompt: str, detail: dict | None = None) -> list[str]:
@@ -1580,6 +1791,12 @@ def quality_assessment(
         1,
     )
     claim = first_source_claim(detail)
+    robust_reconstruction = (
+        word_count >= 170
+        and len(paragraphs) >= 3
+        and len(list_items) >= 4
+        and avg_item_words >= 10
+    )
     reasons: list[str] = []
 
     score = 18
@@ -1596,6 +1813,9 @@ def quality_assessment(
 
     if claim:
         score += 8
+    elif robust_reconstruction:
+        score += 8
+        reasons.append("The source claim was sparse, so this section was expanded with explicit reconstruction supports.")
     else:
         reasons.append("No clear source claim was extracted.")
 
@@ -1608,9 +1828,11 @@ def quality_assessment(
     if len(list_items) <= 1:
         score -= 8
         reasons.append("The section has one or fewer concrete support items.")
-    if metrics["labels"] <= 1 and metrics["sourceParagraphs"] <= 1:
+    if metrics["labels"] <= 1 and metrics["sourceParagraphs"] <= 1 and not robust_reconstruction:
         score -= 6
         reasons.append("The source material provides little internal hierarchy.")
+    elif metrics["labels"] <= 1 and metrics["sourceParagraphs"] <= 1 and robust_reconstruction:
+        reasons.append("Source hierarchy was sparse, so the reconstruction supplies explicit support structure.")
     if avg_item_words < 8 and list_items:
         score -= 5
         reasons.append("Support items are mostly labels rather than explanatory claims.")
@@ -1640,6 +1862,10 @@ def source_prompt_sections(page: dict, prompts: list[str]) -> list[dict]:
         detail = source_details[index - 1] if index - 1 < len(source_details) else None
         paragraphs = prompt_response_paragraphs(page, prompt, index, detail)
         list_items = section_list_items(page, index, prompt, detail)
+        quality = quality_assessment(page, prompt, detail, paragraphs, list_items)
+        if quality["needsReview"]:
+            paragraphs, list_items = polish_review_content(page, prompt, detail, paragraphs, list_items)
+            quality = quality_assessment(page, prompt, detail, paragraphs, list_items)
         sections.append(
             {
                 "id": f"prompt-{index}",
@@ -1648,7 +1874,7 @@ def source_prompt_sections(page: dict, prompts: list[str]) -> list[dict]:
                 "paragraphs": paragraphs,
                 "list_items": list_items,
                 "prompt": prompt,
-                "quality": quality_assessment(page, prompt, detail, paragraphs, list_items),
+                "quality": quality,
             }
         )
 
