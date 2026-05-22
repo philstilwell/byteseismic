@@ -1,8 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="faviconTitle faviconDesc">
   <title id="faviconTitle">Byteseismic phi favicon</title>
-  <desc id="faviconDesc">A brown Greek phi on a black rounded square.</desc>
+  <desc id="faviconDesc">A bright orange italic Greek phi on a black rounded square.</desc>
   <rect width="64" height="64" rx="14" fill="#0f0a08"/>
-  <rect x="4.5" y="4.5" width="55" height="55" rx="10.5" fill="none" stroke="#c89264" stroke-opacity="0.34"/>
-  <ellipse cx="32" cy="33" rx="14.5" ry="17.5" fill="none" stroke="#bf8556" stroke-width="5.5"/>
-  <path d="M32 10.5V55.5" fill="none" stroke="#deb082" stroke-width="5.5" stroke-linecap="round"/>
+  <rect x="4.5" y="4.5" width="55" height="55" rx="10.5" fill="none" stroke="#ff9b4a" stroke-opacity="0.4"/>
+  <g transform="translate(6 0) skewX(-11)">
+    <ellipse cx="32" cy="33" rx="14.5" ry="17.5" fill="none" stroke="#f59a42" stroke-width="5.5"/>
+    <path d="M32 10.5V55.5" fill="none" stroke="#ffc784" stroke-width="5.5" stroke-linecap="round"/>
+  </g>
 </svg>

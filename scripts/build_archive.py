@@ -1335,16 +1335,17 @@ def page_is_indexable(path: str) -> bool:
 
 
 def fonts_and_assets(prefix: str, include_site_scripts: bool = True) -> str:
+    favicon_version = "20260522c"
     scripts = ""
     if include_site_scripts:
         scripts = f"""
             <script defer src="{prefix}assets/js/site-data.js"></script>
             <script defer src="{prefix}assets/js/site.js"></script>"""
     return f"""
-            <link rel="icon" href="{prefix}favicon.png" sizes="512x512" type="image/png" />
-            <link rel="icon" href="{prefix}favicon-32x32.png" sizes="32x32" type="image/png" />
-            <link rel="shortcut icon" href="{prefix}favicon.ico" />
-            <link rel="apple-touch-icon" href="{prefix}apple-touch-icon.png" />
+            <link rel="icon" href="{prefix}favicon.png?v={favicon_version}" sizes="512x512" type="image/png" />
+            <link rel="icon" href="{prefix}favicon-32x32.png?v={favicon_version}" sizes="32x32" type="image/png" />
+            <link rel="shortcut icon" href="{prefix}favicon.ico?v={favicon_version}" />
+            <link rel="apple-touch-icon" href="{prefix}apple-touch-icon.png?v={favicon_version}" />
             <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
             <link
