@@ -223,6 +223,30 @@
     `;
   }
 
+  function slugifyTag(tag) {
+    return String(tag || "")
+      .trim()
+      .toLowerCase()
+      .replace(/&/g, " and ")
+      .replace(/["'`]+/g, "")
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "") || "tag";
+  }
+
+  function renderTagLink(tag, extraClass = "") {
+    const count = tagCount(tag);
+    const label = escapeHtml(tag);
+    const className = `tag-chip${extraClass ? ` ${extraClass}` : ""}`;
+    const countLabel = count ? `<span class="tag-chip__count">${count}</span>` : "";
+    const path = data.tagPages?.[tag] || `/tags/${slugifyTag(tag)}/`;
+
+    return `
+      <a class="${className}" href="${href(path)}" aria-label="Open tag page for ${label}">
+        <span>${label}</span>${countLabel}
+      </a>
+    `;
+  }
+
   function renderNav() {
     const mounts = document.querySelectorAll("[data-site-nav]");
     if (!mounts.length) {
@@ -322,7 +346,7 @@
           : "";
         const tags = section.futureTags
           .filter((tag) => tagCount(tag) > 0 || section.id === "philosophers")
-          .map((tag) => renderTagButton(tag))
+          .map((tag) => renderTagLink(tag))
           .join("");
         const tensions = (section.coreTensions || [])
           .slice(0, 4)
@@ -389,7 +413,7 @@
     mount.innerHTML = data.featuredPages
       .map((page) => {
         const tags = page.tags
-          .map((tag) => renderTagButton(tag))
+          .map((tag) => renderTagLink(tag))
           .join("");
 
         return `
@@ -458,7 +482,7 @@
             return `<a class="text-link" href="${href(path)}">${escapeHtml(label)}</a>`;
           })
           .join("");
-        const tags = (entry.tags || []).map((tag) => renderTagButton(tag)).join("");
+        const tags = (entry.tags || []).map((tag) => renderTagLink(tag)).join("");
 
         return `
           <article class="glossary-card">

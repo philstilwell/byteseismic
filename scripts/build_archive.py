@@ -5,11 +5,11 @@ import html
 import json
 import re
 import textwrap
-from collections import defaultdict
+from collections import Counter, defaultdict
 from datetime import date
 from pathlib import Path
 from typing import Iterable
-from urllib.parse import quote, urlparse
+from urllib.parse import unquote, urlparse
 
 import requests
 from bs4 import BeautifulSoup, Tag
@@ -6521,9 +6521,13 @@ def future_branch_link(title: str, built_path: str, prefix: str) -> str:
     return f'<a class="future-link" href="{html.escape(internal_article_href(prefix, built_path))}">{escaped_title}</a>'
 
 
-def tag_discovery_link(tag: str, prefix: str) -> str:
+def tag_page_path(tag: str) -> str:
+    return f"/tags/{slugify(tag)}/"
+
+
+def tag_archive_link(tag: str, prefix: str) -> str:
     escaped_tag = html.escape(tag)
-    href = f"{prefix}index.html?tag={quote(tag, safe='')}#tag-discovery"
+    href = internal_article_href(prefix, tag_page_path(tag))
     return (
         f'<a class="tag-chip" href="{html.escape(href)}" '
         f'aria-label="Show pages tagged {escaped_tag}">{escaped_tag}</a>'
@@ -6546,9 +6550,22 @@ def link_static_tag_chips(target: Path) -> None:
         tag = html.unescape(re.sub(r"<[^>]+>", "", raw_tag)).strip()
         if not tag:
             return match.group(0)
-        return tag_discovery_link(tag, prefix)
+        return tag_archive_link(tag, prefix)
 
     updated = re.sub(r'<span class="tag-chip">([^<]+)</span>', replace_chip, content)
+
+    def replace_old_tag_href(match: re.Match[str]) -> str:
+        tag = unquote(match.group(1)).strip()
+        if not tag:
+            return match.group(0)
+        href = internal_article_href(prefix, tag_page_path(tag))
+        return f'href="{html.escape(href)}"'
+
+    updated = re.sub(
+        r'href="[^"]*index\.html\?tag=([^"#]+)#tag-discovery"',
+        replace_old_tag_href,
+        updated,
+    )
     if updated != content:
         target.write_text(updated)
 
@@ -6688,8 +6705,8 @@ def render_article_page(page: dict) -> str:
         block.append("            </section>")
         body_parts.append("\n".join(part for part in block if part))
 
-    tags = tag_candidates(page, section_meta)
-    tag_html = "\n".join(f"                {tag_discovery_link(tag, prefix)}" for tag in tags)
+    tags = discovery_tag_candidates(page, section_meta)
+    tag_html = "\n".join(f"                {tag_archive_link(tag, prefix)}" for tag in tags)
     child_links = [
         future_branch_link(child["title"], child.get("built_path", ""), prefix)
         for child in page.get("children", [])[:6]
@@ -6920,7 +6937,7 @@ def render_glossary_cards(prefix: str = "") -> str:
             f'                    <a class="text-link" href="{html.escape(internal_article_href(prefix, path))}">{html.escape(path.strip("/").split("/")[-1].replace("-", " ").title())}</a>'
             for path in entry["paths"]
         )
-        tags = "".join(f"                    {tag_discovery_link(tag, prefix)}" for tag in entry["tags"])
+        tags = "".join(f"                    {tag_archive_link(tag, prefix)}" for tag in entry["tags"])
         cards.append(
             textwrap.dedent(
                 f"""\
@@ -7133,6 +7150,148 @@ def render_branch_guide_page(section_id: str, pages: list[dict]) -> str:
         </html>
         """
     )
+
+
+def render_tag_archive_page(tag: str, tagged_pages: list[dict], tag_counts: dict[str, int]) -> str:
+    prefix = "../../"
+    path = tag_page_path(tag)
+    matching_pages = sorted(
+        [page for page in tagged_pages if tag in page.get("tags", [])],
+        key=lambda page: (page["section"], page["title"]),
+    )
+    related_counter: Counter[str] = Counter()
+    for page in matching_pages:
+        related_counter.update(item for item in page.get("tags", []) if item != tag)
+    related_tags = [
+        item
+        for item, _count in related_counter.most_common(8)
+        if tag_counts.get(item, 0)
+    ]
+    related_html = "\n".join(
+        f"                    {tag_archive_link(item, prefix)}"
+        for item in related_tags
+    ) or '                    <span class="muted-label">No nearby tags yet.</span>'
+
+    section_names = dedupe(page["section"] for page in matching_pages)
+    group_blocks = []
+    for section_name in section_names:
+        section_pages = [page for page in matching_pages if page["section"] == section_name]
+        items = "\n".join(
+            f"""\
+                    <li>
+                      <a href="{html.escape(internal_article_href(prefix, page['path']))}">{html.escape(page['title'])}</a>
+                      <span>{html.escape(page['summary'])}</span>
+                    </li>"""
+            for page in section_pages
+        )
+        group_blocks.append(
+            f"""\
+                  <details class="tag-results__group" open>
+                    <summary>
+                      <span>{html.escape(section_name)}</span>
+                      <span>{len(section_pages)}</span>
+                    </summary>
+                    <ul class="archive-year-list tag-results__list">
+{items}
+                    </ul>
+                  </details>"""
+        )
+    groups = "\n".join(group_blocks) or '                  <p class="muted-label">No pages use this tag yet.</p>'
+    count = len(matching_pages)
+    tag_head = render_seo_head(
+        title=f"Tag: {tag}",
+        description=f"Pages tagged {tag} in the Byteseismic philosophy site.",
+        path=path,
+        prefix=prefix,
+        page_type="website",
+        extra_json_ld=[breadcrumb_json_ld([("Home", "/"), (f"Tag: {tag}", path)])],
+        force_noindex=True,
+    )
+    return textwrap.dedent(
+        f"""\
+        {AUTO_MARKER}
+        <!DOCTYPE html>
+        <html lang="en">
+          <head>
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+{tag_head}
+          </head>
+          <body data-page-type="archive">
+            <div class="page-shell">
+              <header class="hero hero--article">
+                <img class="hero__image" src="../../assets/images/byteseismic-large-header-x.5-b-8000-x-800-px.png" alt="Byteseismic banner" />
+                <div class="hero__content">
+                  <div class="breadcrumbs">
+                    <a href="../../index.html">Home</a>
+                    <span>/</span>
+                    <span>Tag</span>
+                    <span>/</span>
+                    <span>{html.escape(tag)}</span>
+                  </div>
+                  <p class="hero__kicker">Tag Path</p>
+                  <h1>{html.escape(tag)}</h1>
+                  <p class="article-standfirst">
+                    {count} page{"" if count == 1 else "s"} currently use this tag. Use this path as a cross-branch way to follow recurring concepts, formats, and tensions.
+                  </p>
+                </div>
+              </header>
+
+              <div class="article-layout article-layout--single">
+                <main class="article-stack">
+                  <section class="content-card">
+                    <p class="eyebrow">Tagged Pages</p>
+                    <h2>Pages connected by {html.escape(tag)}</h2>
+                    <div class="tag-results__groups">
+{groups}
+                    </div>
+                  </section>
+
+                  <section class="content-card">
+                    <p class="eyebrow">Nearby Tags</p>
+                    <h2>Related paths that often appear with this one</h2>
+                    <div class="tag-row">
+{related_html}
+                    </div>
+                  </section>
+                </main>
+              </div>
+            </div>
+          </body>
+        </html>
+        """
+    )
+
+
+def target_site_path(target: Path) -> str:
+    try:
+        relative = target.parent.relative_to(ROOT)
+    except ValueError:
+        return ""
+    if str(relative) == ".":
+        return "/"
+    return f"/{relative.as_posix()}/"
+
+
+def visible_tag_chips_by_path(targets: set[Path]) -> dict[str, list[str]]:
+    by_path: dict[str, list[str]] = {}
+    for target in targets:
+        if not target.exists() or target.name != "index.html":
+            continue
+        path = target_site_path(target)
+        if not path:
+            continue
+        soup = BeautifulSoup(target.read_text(errors="ignore"), "html.parser")
+        tags = []
+        for chip in soup.select(".tag-chip"):
+            for count in chip.select(".tag-chip__count"):
+                count.decompose()
+            text = clean_text(chip.get_text(" ", strip=True))
+            if text:
+                tags.append(text)
+        if tags:
+            by_path[path] = dedupe(tags)
+    return by_path
 
 
 def render_expanded_archive_page(posts_by_year: dict[int, list[dict]], section_counts: dict[str, int]) -> str:
@@ -8388,6 +8547,7 @@ def main() -> None:
     valid_targets.add(quality_target)
     write_quality_files(quality_report)
     write_if_allowed(quality_target, render_quality_review_page(quality_report))
+    visible_tags_by_path = visible_tag_chips_by_path(valid_targets)
 
     def choose_featured_pages() -> list[dict]:
         chosen = []
@@ -8444,7 +8604,13 @@ def main() -> None:
         return chosen
 
     featured_pages = choose_featured_pages()
+    glossary_tags_by_path: dict[str, list[str]] = defaultdict(list)
+    for entry in GLOSSARY_TERMS:
+        for path in entry.get("paths", []):
+            glossary_tags_by_path[normalize_site_path(path)].extend(entry.get("tags", []))
+
     tagged_pages = []
+    tag_archive_pages = []
     for page in generated_pages:
         if page["built_path"] in GROUP_PAGE_TITLES.values():
             continue
@@ -8459,10 +8625,27 @@ def main() -> None:
                 "tags": discovery_tags,
             }
         )
+        tag_archive_pages.append(
+            {
+                "title": page["title"],
+                "section": section_meta["name"],
+                "path": page["built_path"],
+                "summary": feature_summary(page, section_meta),
+                "tags": dedupe(
+                    discovery_tags
+                    + visible_tags_by_path.get(page["built_path"], [])
+                    + glossary_tags_by_path.get(page["built_path"], [])
+                ),
+            }
+        )
     tag_counts: dict[str, int] = defaultdict(int)
     for page in tagged_pages:
         for tag in page["tags"]:
             tag_counts[tag] += 1
+    tag_archive_counts: dict[str, int] = defaultdict(int)
+    for page in tag_archive_pages:
+        for tag in page["tags"]:
+            tag_archive_counts[tag] += 1
     always_show_landing_tags = dedupe(["primer", "dialogue", "comparison", "branch-map", *SECTION_IDS])
     preferred_landing_tags = dedupe(
         [
@@ -8483,6 +8666,16 @@ def main() -> None:
         if tag not in landing_tags and tag_counts.get(tag, 0) >= 2 and is_discovery_safe_tag(tag)
     )
     landing_tags = landing_tags[:48]
+
+    tag_pages = {
+        tag: tag_page_path(tag)
+        for tag in sorted(tag_archive_counts)
+        if tag_archive_counts.get(tag, 0)
+    }
+    for tag, path in tag_pages.items():
+        tag_target = ROOT / path.strip("/") / "index.html"
+        valid_targets.add(tag_target)
+        write_if_allowed(tag_target, render_tag_archive_page(tag, tag_archive_pages, tag_archive_counts))
 
     topic_paths = {
         "Site Map": "/menu-structure/",
@@ -8532,6 +8725,7 @@ def main() -> None:
         "glossaryTerms": GLOSSARY_TERMS,
         "landingTags": landing_tags,
         "tagCounts": dict(sorted(tag_counts.items())),
+        "tagPages": tag_pages,
         "taggedPages": tagged_pages,
         "topicPaths": topic_paths,
         "sections": sections_data,
