@@ -178,6 +178,309 @@
     return section.samplePath ? href(section.samplePath) : homeAnchor(section.id);
   }
 
+  function findTopicContext(nodes, targetPath, trail = []) {
+    for (const node of nodes || []) {
+      const nextTrail = [...trail, node];
+      if (node.path === targetPath) {
+        return { node, trail: nextTrail, siblings: nodes };
+      }
+
+      const childMatch = findTopicContext(node.children || [], targetPath, nextTrail);
+      if (childMatch) {
+        return childMatch;
+      }
+    }
+
+    return null;
+  }
+
+  function uniqueByPath(items) {
+    const seen = new Set();
+    return (items || []).filter((item) => {
+      if (!item?.path || seen.has(item.path)) {
+        return false;
+      }
+      seen.add(item.path);
+      return true;
+    });
+  }
+
+  function cleanInlineText(value) {
+    return String(value || "").replace(/\s+/g, " ").trim();
+  }
+
+  function currentPageEntry() {
+    return (data.taggedPages || []).find((page) => page.path === currentPage()) || null;
+  }
+
+  function directSectionHeading(section) {
+    return Array.from(section.children || []).find((child) => /^H[23]$/.test(child.tagName || "")) || null;
+  }
+
+  function articleSectionLinks() {
+    const seen = new Set();
+    return [...document.querySelectorAll(".article-body > .article-section[id]")]
+      .filter((section) => {
+        if (!section.id || seen.has(section.id)) {
+          return false;
+        }
+        seen.add(section.id);
+        return true;
+      })
+      .map((section, index) => {
+        const heading = directSectionHeading(section);
+        const title = cleanInlineText(heading?.textContent || section.id.replace(/-/g, " "));
+        const metaEyebrow = cleanInlineText(section.querySelector(".article-section__meta .eyebrow")?.textContent || "");
+        return {
+          id: section.id,
+          title,
+          meta: metaEyebrow,
+          index,
+          node: section,
+        };
+      });
+  }
+
+  function relatedBranchLinks(section, activePage) {
+    const items = [];
+    const context = findTopicContext(sectionTree(section), activePage);
+
+    if (context) {
+      const parent = context.trail.at(-2);
+      if (parent?.path) {
+        items.push({
+          title: parent.title,
+          path: parent.path,
+          meta: "up one level",
+        });
+      }
+
+      (context.node.children || []).forEach((child) => {
+        items.push({
+          title: child.title,
+          path: child.path,
+          meta: "nested from here",
+        });
+      });
+
+      (context.siblings || [])
+        .filter((candidate) => candidate.path && candidate.path !== activePage)
+        .forEach((candidate) => {
+          items.push({
+            title: candidate.title,
+            path: candidate.path,
+            meta: "same branch",
+          });
+        });
+    }
+
+    (data.taggedPages || [])
+      .filter((page) => page.path !== activePage && page.section === section.name)
+      .slice(0, 10)
+      .forEach((page) => {
+        items.push({
+          title: page.title,
+          path: page.path,
+          meta: "same branch page",
+        });
+      });
+
+    return uniqueByPath(items).slice(0, 7);
+  }
+
+  function renderContextRail() {
+    const mount = document.querySelector("[data-context-rail]");
+    if (!mount || document.body.dataset.pageType !== "article") {
+      return;
+    }
+
+    const section = data.sections.find((entry) => entry.id === currentSection());
+    const page = currentPageEntry();
+    const pageTitle = cleanInlineText(document.querySelector(".hero h1")?.textContent || page?.title || "");
+    const sectionLinks = articleSectionLinks();
+    const relatedLinks = section ? relatedBranchLinks(section, currentPage()) : [];
+    const tags = (page?.tags || []).filter(isUsefulTag).slice(0, 6);
+    const topicContext = section ? findTopicContext(sectionTree(section), currentPage()) : null;
+    const branchPath = section?.branchGuidePath || sectionTarget(section || { id: currentSection(), samplePath: "", name: "" });
+    const branchTrail = [
+      {
+        label: section?.name || "Branch",
+        path: branchPath,
+      },
+      ...(topicContext?.trail || [])
+        .slice(0, -1)
+        .slice(-2)
+        .filter((node) => node.path)
+        .map((node) => ({
+          label: node.title,
+          path: node.path,
+        })),
+      {
+        label: pageTitle || page?.title || "Current page",
+      },
+    ];
+
+    const activeSection = sectionLinks[0];
+    const branchTrailHtml = branchTrail
+      .map((item, index) => {
+        const label = escapeHtml(item.label);
+        if (index === branchTrail.length - 1 || !item.path) {
+          return `<span aria-current="page">${label}</span>`;
+        }
+        return `<a href="${href(item.path)}">${label}</a>`;
+      })
+      .join("");
+
+    const sectionList = sectionLinks
+      .map(
+        (entry) => `
+          <li>
+            <a href="#${escapeHtml(entry.id)}" data-context-section-link="${escapeHtml(entry.id)}">
+              <span class="context-rail__link-title">${escapeHtml(entry.title)}</span>
+              <span class="context-rail__link-meta">${escapeHtml(entry.meta || `Section ${entry.index + 1}`)}</span>
+            </a>
+          </li>
+        `,
+      )
+      .join("");
+
+    const relatedList = relatedLinks.length
+      ? relatedLinks
+          .map(
+            (entry) => `
+              <li>
+                <a href="${href(entry.path)}">
+                  <span class="context-rail__link-title">${escapeHtml(entry.title)}</span>
+                  <span class="context-rail__link-meta">${escapeHtml(entry.meta)}</span>
+                </a>
+              </li>
+            `,
+          )
+          .join("")
+      : '<li class="context-rail__empty">No nearby branch links yet.</li>';
+
+    const tagList = tags.length
+      ? tags.map((tag) => renderTagLink(tag)).join("")
+      : '<p class="context-rail__empty">No discovery tags on this page yet.</p>';
+
+    mount.innerHTML = `
+      <div class="context-rail">
+        <div class="context-rail__header">
+          <p class="mini-label">You are here</p>
+          <div class="context-rail__trail">${branchTrailHtml}</div>
+          <h2 class="context-rail__title">${escapeHtml(pageTitle)}</h2>
+          <div class="context-rail__status">
+            <span class="context-rail__status-label">Now reading</span>
+            <a class="context-rail__active-link" href="#${escapeHtml(activeSection?.id || "")}" data-context-active-link>
+              ${escapeHtml(activeSection?.title || pageTitle)}
+            </a>
+            <span class="context-rail__status-meta" data-context-active-meta>
+              ${sectionLinks.length ? `Section 1 of ${sectionLinks.length}` : "Top of page"}
+            </span>
+          </div>
+          <div class="context-rail__actions">
+            ${section?.branchGuidePath ? `<a class="context-rail__action" href="${href(section.branchGuidePath)}">Branch guide</a>` : ""}
+            <a class="context-rail__action" href="#top">Page top</a>
+            ${document.getElementById("future-branches") ? '<a class="context-rail__action" href="#future-branches">Future branches</a>' : ""}
+          </div>
+        </div>
+        <div class="context-rail__accordion" data-exclusive-accordion>
+          <details class="context-rail__group"${sectionLinks.length <= 5 ? " open" : ""}>
+            <summary>
+              <span>Page sections</span>
+              <span class="context-rail__count">${sectionLinks.length}</span>
+            </summary>
+            <ul class="context-rail__list">${sectionList}</ul>
+          </details>
+          <details class="context-rail__group">
+            <summary>
+              <span>Nearby in branch</span>
+              <span class="context-rail__count">${relatedLinks.length}</span>
+            </summary>
+            <ul class="context-rail__list">${relatedList}</ul>
+          </details>
+          <details class="context-rail__group">
+            <summary>
+              <span>Concept tags</span>
+              <span class="context-rail__count">${tags.length}</span>
+            </summary>
+            <div class="context-rail__tags">${tagList}</div>
+          </details>
+        </div>
+      </div>
+    `;
+
+    if (!sectionLinks.length) {
+      return;
+    }
+
+    const activeLink = mount.querySelector("[data-context-active-link]");
+    const activeMeta = mount.querySelector("[data-context-active-meta]");
+    const linkMap = new Map(
+      [...mount.querySelectorAll("[data-context-section-link]")].map((link) => [link.dataset.contextSectionLink, link]),
+    );
+    let activeId = "";
+    let ticking = false;
+
+    function applyActiveSection(entry) {
+      if (!entry || activeId === entry.id) {
+        return;
+      }
+
+      activeId = entry.id;
+      if (activeLink) {
+        activeLink.textContent = entry.title;
+        activeLink.setAttribute("href", `#${entry.id}`);
+      }
+      if (activeMeta) {
+        activeMeta.textContent = `Section ${entry.index + 1} of ${sectionLinks.length}${entry.meta ? ` · ${entry.meta}` : ""}`;
+      }
+
+      linkMap.forEach((link, id) => {
+        const isActive = id === entry.id;
+        link.classList.toggle("is-active", isActive);
+        if (isActive) {
+          link.setAttribute("aria-current", "location");
+        } else {
+          link.removeAttribute("aria-current");
+        }
+      });
+    }
+
+    function resolveActiveSection() {
+      const threshold = window.innerWidth <= 1080 ? 132 : 154;
+      let candidate = sectionLinks[0];
+
+      sectionLinks.forEach((entry) => {
+        if (entry.node.getBoundingClientRect().top - threshold <= 0) {
+          candidate = entry;
+        }
+      });
+
+      applyActiveSection(candidate);
+    }
+
+    function requestActiveSectionUpdate() {
+      if (ticking) {
+        return;
+      }
+
+      ticking = true;
+      window.requestAnimationFrame(() => {
+        ticking = false;
+        resolveActiveSection();
+      });
+    }
+
+    resolveActiveSection();
+    window.addEventListener("scroll", requestActiveSectionUpdate, { passive: true });
+    window.addEventListener("resize", requestActiveSectionUpdate);
+    window.addEventListener("hashchange", requestActiveSectionUpdate);
+    window.addEventListener("load", requestActiveSectionUpdate);
+    window.setTimeout(requestActiveSectionUpdate, 140);
+    window.setTimeout(requestActiveSectionUpdate, 360);
+  }
+
   function isUsefulTag(tag) {
     const normalized = String(tag || "").trim().toLowerCase();
     const stopTags = new Set([
@@ -793,6 +1096,7 @@
 
   renderNav();
   renderArticleOutline();
+  renderContextRail();
   renderStructureGrid();
   renderTagCloud();
   renderFeaturedPages();

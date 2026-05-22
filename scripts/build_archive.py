@@ -1990,6 +1990,10 @@ def source_label_is_heading_worthy(label: str) -> bool:
         return False
     if re.search(r"\b(please|try)\s+again\b", lowered):
         return False
+    if lowered.startswith(("week ", "module ", "session ", "part ", "chapter ")):
+        return False
+    if any(fragment in lowered for fragment in ("study program", "moderately accessible", "inaccessible", "objectives")):
+        return False
     if lowered.startswith(("provide ", "create ", "list ", "produce ", "write ", "explain ", "describe ", "assess ", "evaluate ", "compare ", "what ", "how ", "why ")):
         return False
     if len(cleaned.split()) > 12:
@@ -2101,8 +2105,6 @@ def need_verb_for_heading(subject: str) -> str:
         maxsplit=1,
     )[0].strip()
     head = re.sub(r"^(?:the|a|an|each|every|one|\d+|\d+\s+key|\d+\s+notable)\s+", "", head)
-    if re.search(r"\b(?:and|&)\b", head):
-        return "need"
     last_word = re.sub(r"[^a-z]+$", "", head.split()[-1]) if head.split() else ""
     singular_endings = (
         "analysis",
@@ -2150,6 +2152,10 @@ def need_verb_for_heading(subject: str) -> str:
         "virtues",
         "weaknesses",
     )
+    if head.startswith("whether "):
+        return "needs"
+    if re.search(r"\b(?:and|&)\b", head):
+        return "need"
     if any(marker in head for marker in plural_markers):
         return "need"
     if head.endswith(singular_endings):
@@ -2163,8 +2169,13 @@ def need_verb_for_heading(subject: str) -> str:
 
 def article_native_heading(subject: str, prompt: str, topic: str) -> str:
     key = clean_heading_subject(subject, topic)
+    raw_lowered = key.lower()
     focus = prompt_focus(prompt)
     prompt_lower = clean_text(prompt).lower()
+    if "influence on philosophy" in raw_lowered:
+        thinker = re.sub(r"[’']s influence on philosophy", "", key, flags=re.IGNORECASE).strip(" ,")
+        thinker = re.sub(r"\binfluence on philosophy\b", "", thinker, flags=re.IGNORECASE).strip(" ,")
+        return f"The influence of {thinker or topic} is clearest in the questions later thinkers still inherit."
     if re.search(r"provide a list of the key (contributions )?.+ have made to philosophical thought", prompt_lower):
         key = clean_heading_subject(f"key contributions of {key} to philosophical thought", topic)
     if prompt_lower.startswith("list the most influential"):
@@ -2190,20 +2201,28 @@ def article_native_heading(subject: str, prompt: str, topic: str) -> str:
         return "The signature contribution is the move later readers must answer."
     if lowered == "influence trail":
         return "Influence is where the argument keeps mutating."
+    if lowered.startswith("whether "):
+        return f"The real issue is whether {key[8:]}."
+    if lowered.startswith("the real-world value of "):
+        return f"{key[:1].upper() + key[1:]} appears in the decisions it actually improves."
+    if lowered.startswith("key contributions of ") and " to philosophical thought" in lowered:
+        thinker = re.sub(r"^key contributions of ", "", key, flags=re.IGNORECASE)
+        thinker = re.sub(r" to philosophical thought$", "", thinker, flags=re.IGNORECASE).strip(" ,")
+        return f"The lasting contribution of {thinker or topic} is easiest to see where later thinkers borrow, resist, or deepen the original move."
 
     if focus == "dialogue":
         return f"Dialogue clarifies {key}."
     if focus == "examples":
         return f"{key} makes the argument visible in practice."
     if focus == "mapping":
-        return f"{key} {need_verb_for_heading(key)} an order the reader can use."
+        return f"{key} is best read as a map of alignments, tensions, and priority."
     if focus == "argument":
         return f"{key} is where the argument earns or loses its force."
     if focus == "definition":
         return f"{key} {need_verb_for_heading(key)} a definition that can sort hard cases."
     if any(term in lowered for term in ("list", "table", "scores", "percentages", "estimates")):
-        return f"{key} {need_verb_for_heading(key)} visible structure before it can persuade."
-    return f"{key} {need_verb_for_heading(key)} to become concrete enough to guide the reader."
+        return f"{key} becomes more useful once its structure is made visible."
+    return f"{key} matters only once its implications are made concrete."
 
 
 def clean_discussion_key(key: str, topic: str, fallback: str = "the central question") -> str:
@@ -3673,7 +3692,12 @@ def source_prompt_heading(prompt: str, topic: str, detail: dict | None) -> str:
     labels = source_detail_labels(detail)
     if labels:
         center = labels[0].strip(" .:")
-        return article_native_heading(center, prompt, topic)
+        lowered_center = center.lower()
+        if not (
+            prompt_focus(prompt) == "inquiry"
+            and any(term in lowered_center for term in ("example", "methodolog", "consideration", "context", "discussion", "question", "week", "objective", "program", "accessible"))
+        ):
+            return article_native_heading(center, prompt, topic)
 
     key = short_prompt_key(prompt, topic)
     if key and key.lower() != topic.lower():
@@ -3685,13 +3709,13 @@ def command_like_key(text: str) -> bool:
     lowered = clean_text(text).lower()
     return bool(
         re.match(
-            r"^(analyze|argue|assess|clarify|compare|contrast|describe|discuss|evaluate|give|identify|highlight|offer|show|imagine|create|provide|explain|list|produce|write|generate|present|using|line hypothetical)\b",
+            r"^(analyze|argue|assess|clarify|compare|contrast|construct|define|demonstrate|describe|discuss|evaluate|give|highlight|identify|imagine|list|offer|outline|present|produce|provide|rank|reformulate|restate|score|show|summarize|using|write|generate|line hypothetical)\b",
             lowered,
         )
         or "the central pressure" in lowered
         or "the central distinction" in lowered
         or lowered == "revision request"
-        or lowered.startswith("line is what")
+        or lowered.startswith("line is ")
     )
 
 
@@ -3765,14 +3789,31 @@ def semantic_hook_phrase(page: dict, prompt: str = "", detail: dict | None = Non
 def semantic_map_paragraph(page: dict, prompt: str = "", detail: dict | None = None) -> str:
     topic = topic_label(page["title"])
     hooks = semantic_hook_items(page, prompt, detail)
+    focus = prompt_focus(prompt)
     if len(hooks) >= 3:
+        if focus == "mapping":
+            return (
+                f"The orienting landmarks here are {serial_join(hooks[:3])}. "
+                "Read them comparatively: what each part contributes, what depends on what, and where the tensions begin."
+            )
+        if focus == "examples":
+            return (
+                f"The anchors here are {serial_join(hooks[:3])}. "
+                "They show what is being tested, where the strain appears, and what changes in judgment once the example is taken seriously."
+            )
         return (
-            f"The usable checkpoints are {serial_join(hooks[:3])}. "
-            f"Read them as a sequence: what is being claimed, what would test it, and what changes in judgment if the distinction holds."
+            f"The anchors here are {serial_join(hooks[:3])}. "
+            "Together they tell the reader what is being claimed, where it is tested, and what would change if the distinction holds."
+        )
+    anchor = hooks[0]
+    if focus == "definition":
+        return (
+            f"The first anchor is {anchor}. "
+            f"If that anchor stays blurry, {topic} will be defined with familiar words but without a reliable test for hard cases."
         )
     return (
-        f"The first usable checkpoint is {hooks[0]}. "
-        f"Without that checkpoint, {topic} can sound important while still leaving the reader unsure what to do with it."
+        f"The first anchor is {anchor}. "
+        f"Without it, {topic} can sound important while still leaving the reader unsure how to sort the case in front of them."
     )
 
 
@@ -3905,23 +3946,23 @@ def prompt_heading(prompt: str, topic: str) -> str:
     if command_like_key(key):
         key = topic
     if focus == "dialogue":
-        return f"The exchange should make {topic} answerable to interruption."
+        return f"The exchange should show what {topic} can still say under pressure."
     if focus == "description":
-        return f"{key} {need_verb_for_heading(key)} criteria the reader can apply."
+        return f"A good description of {key} should teach the reader what to notice."
     if focus == "examples":
-        return f"The examples make {topic} visible in practice."
+        return f"The examples should show what {topic} looks like on the ground."
     if focus == "mapping":
-        return f"The map of {topic} should show dependence, contrast, and priority."
+        return f"Mapping {topic} should reveal structure, rivalry, and dependence."
     if focus == "argument":
-        return f"The argument about {topic} turns on the contested premise."
+        return f"The argument about {topic} lives or dies with a disputed premise."
     if focus == "definition":
-        return f"A definition of {topic} must classify hard cases."
+        return f"A definition of {topic} should survive the hard cases."
     topic_for_heading = topic
     if re.match(r"^(are|can|could|did|do|does|how|is|should|what|when|where|why)\b", topic, re.IGNORECASE):
-        return "This question needs a clear standard of judgment."
+        return "The question matters only if it becomes precise enough to settle something."
     if topic_for_heading.startswith("The "):
         topic_for_heading = "the " + topic_for_heading[4:]
-    return f"{topic_for_heading} {need_verb_for_heading(topic_for_heading)} a clear standard of judgment."
+    return f"{topic_for_heading} becomes useful only when its standards are clear."
 
 
 def prompt_response_paragraphs(page: dict, prompt: str, index: int, detail: dict | None = None) -> list[str]:
@@ -3934,10 +3975,10 @@ def prompt_response_paragraphs(page: dict, prompt: str, index: int, detail: dict
     def pressure_sentence(key_text: str) -> str:
         if key_text in {"the central question", "the opening question", "the opening pressure", "this question"}:
             if re.match(r"^(are|can|could|did|do|does|how|is|should|what|when|where|why)\b", topic, re.IGNORECASE):
-                return "The opening pressure is to make this question clear enough to survive disagreement."
-            return f"The opening pressure is to make {topic} clear enough to survive disagreement."
+                return "The opening pressure is to make this question precise enough that disagreement can be about the issue itself rather than about a blur of half-meanings."
+            return f"The opening pressure is to make {topic} precise enough that disagreement can land on the issue itself rather than on a blur of half-meanings."
         readable_key = key_text[:1].upper() + key_text[1:] if key_text else "The central issue"
-        return f"The pressure point is {readable_key}: this is where {topic} has to become clear enough to survive disagreement."
+        return f"The pressure point is {readable_key}: this is where {topic} stops being merely named and starts guiding judgment."
 
     if detail and (labels or claim):
         paragraphs = []
@@ -3963,16 +4004,14 @@ def prompt_response_paragraphs(page: dict, prompt: str, index: int, detail: dict
                         "not as a nameplate with impressive dust."
                     )
             elif all(label_role(label) == "a load-bearing piece" for label in clean_labels):
-                count_word = {1: "one", 2: "two", 3: "three"}.get(len(clean_labels), str(len(clean_labels)))
-                noun = "checkpoint" if len(clean_labels) == 1 else "checkpoints"
                 paragraphs.append(
-                    f"The section gives the reader {count_word} usable {noun}: {serial_join(clean_labels)}. "
-                    "The point is to say what each checkpoint contributes and what would become confused if it were skipped."
+                    f"The section turns on {serial_join(clean_labels)}. "
+                    "Each piece is doing different work, and the page becomes thinner if the reader cannot say what is being identified, what is being tested, and what would change if one piece were removed."
                 )
             else:
                 paragraphs.append(
-                    f"The section sets up a working contrast among {serial_join(roles)}. "
-                    "The reader should be able to say why each part is present and how the argument would weaken if the parts were merged."
+                    f"The section works by contrast: {serial_join(roles)}. "
+                    "The reader should be able to say why each part is present and what confusion follows if the distinctions collapse into one another."
                 )
         else:
             key = short_prompt_key(prompt, topic)
@@ -3995,11 +4034,11 @@ def prompt_response_paragraphs(page: dict, prompt: str, index: int, detail: dict
             else:
                 paragraphs.append(
                     f"The important discipline is to keep {first_label} distinct from {second_label}. "
-                    f"Each does different work, and merging them would make the page easier to summarize but less useful for judgment."
+                    "They are not interchangeable bits of vocabulary; they direct the reader toward different judgments, objections, or next steps."
                 )
         else:
             paragraphs.append(
-                f"{semantic_map_paragraph(page, prompt, detail)} The section succeeds when those checkpoints can survive a serious objection."
+                f"{semantic_map_paragraph(page, prompt, detail)} If the reader cannot say what confusion would result from merging those anchors, the section still needs more work."
             )
         return paragraphs[:3]
 
@@ -4010,43 +4049,39 @@ def prompt_response_paragraphs(page: dict, prompt: str, index: int, detail: dict
     if key.lower() == topic.lower():
         first = (
             f"{semantic_map_paragraph(page, prompt, detail)} "
-            f"The question stays tied to {profile['lens']}, but the reader first needs terms that can be used in judgment."
+            f"The page matters inside {profile['lens']} because those anchors determine how the topic is supposed to guide judgment."
         )
     else:
+        readable_key = key_text[:1].upper() + key_text[1:] if key_text else topic
         first = (
-            f"This response treats {key_text} as the point where {topic} becomes philosophically active. "
+            f"{readable_key} is where {topic} stops being merely named and starts doing work. "
             f"{semantic_map_paragraph(page, prompt, detail)}"
         )
 
     if focus == "dialogue":
         second = (
-            f"The dialogue form should not be ornamental here. It lets a position be interrupted, clarified, "
-            f"and pressed by a live interlocutor, which is often where the real philosophical commitments appear."
+            "The dialogue form earns its place only if each interruption changes what can honestly be said next. "
+            "Otherwise the page has speakers but no real exchange."
         )
     elif focus == "description":
         second = (
-            f"A description should give the reader usable handles: the main claim, the habits it trains, "
-            f"and the pressure it places on neighboring views."
+            "A description should do more than rephrase the topic. It should tell the reader what to look for, what to separate, and what would count as a mistake."
         )
     elif focus == "examples":
         second = (
-            f"The examples have to carry argumentative weight: they should show how the concept changes judgment, "
-            f"where uncertainty remains, and what a reader would handle differently afterward."
+            "Examples have to carry the philosophy on their backs: they should show what becomes clearer, what becomes costlier, and where the view may begin to crack."
         )
     elif focus == "mapping":
         second = (
-            f"A list is useful only when it shows relations: what is central, what is peripheral, what depends on "
-            f"what, and where neighboring ideas start to compete."
+            "A map is useful only if it shows relations. The reader should be able to say what is central, what is derivative, and where neighboring views start to compete."
         )
     elif focus == "argument":
         second = (
-            f"The essay answer should keep the strongest version of the view in play while also naming the place "
-            f"where it becomes vulnerable, overstated, or incomplete."
+            "The answer should keep the strongest version of the view on the table long enough for the real point of resistance to appear."
         )
     elif focus == "definition":
         second = (
-            f"The definition should separate ordinary usage from philosophical usage, then show why the distinction "
-            f"matters for reasoning beyond this single page."
+            "The definition should separate ordinary speech from disciplined use, then show why the sharper use matters outside this single page."
         )
     else:
         second = (
@@ -4219,6 +4254,35 @@ def support_item_body(label: str, page: dict, prompt: str, focus: str) -> str:
             "The epistemic pressure is how evidence, uncertainty, and responsible confidence interact before the reader accepts or rejects the claim."
         )
 
+    if page["section_id"] == "economics":
+        if any(term in label_lower for term in ("cellphone", "vehicle", "housing", "food", "transport", "migration", "wage", "income", "cost")):
+            return (
+                "The point is not whether this sounds essential in the abstract, but how including or excluding it changes the standard being used and who counts as adequately provided for."
+            )
+        return (
+            "The economic question is what this factor changes in incentives, tradeoffs, and the distribution of costs or benefits."
+        )
+
+    if page["section_id"] == "philosophy-of-science":
+        return (
+            "This matters only if it changes how the reader judges explanation, evidence, prediction, or error-correction."
+        )
+
+    if page["section_id"] == "philosophy-of-ai":
+        return (
+            "This matters only if it helps the reader separate fluency, prediction, judgment, and responsibility."
+        )
+
+    if page["section_id"] == "rational-thought":
+        return (
+            "This matters only if it helps the reader catch or repair a real reasoning mistake rather than merely name a concept."
+        )
+
+    if page["section_id"] == "philosophy-of-language":
+        return (
+            "This matters only if it changes how meaning, use, ambiguity, or reference is being handled."
+        )
+
     if focus == "mapping":
         return (
             f"The relation among the parts of {topic} matters: what is central, what is derivative, and what pressure would change the map."
@@ -4226,11 +4290,11 @@ def support_item_body(label: str, page: dict, prompt: str, focus: str) -> str:
 
     if focus == "definition":
         return (
-            "The distinction between ordinary usage and the disciplined sense of the term carries the argument."
+            "The distinction matters because it changes what counts as the same concept and what only sounds similar."
         )
 
     return (
-        f"This thread connects {topic} to {profile['lens']} rather than leaving the issue at the level of a label."
+        f"This is not just a label to file away; it changes how {topic} should be judged inside {profile['lens']}."
     )
 
 
@@ -4341,6 +4405,16 @@ def short_prompt_key(prompt: str, topic: str) -> str:
         return topic
 
     special_patterns = [
+        (r"^how does (.+?) differ from (.+?)\??$", r"\1 versus \2"),
+        (r"^how do (.+?) differ from (.+?)\??$", r"\1 versus \2"),
+        (r"^are (.+?) considered to be (.+?) when .+$", r"whether \1 count as \2"),
+        (r"^is there (?:any |a |an )?(.+?)\??$", r"whether there is \1"),
+        (r"^what real[- ]world value do (.+?) have\??$", r"the real-world value of \1"),
+        (r"^what value do (.+?) have\??$", r"the value of \1"),
+        (r"^demonstrate how an informally articulated argument can be reformulated as a syllogism\.?$", r"recasting an informal argument as a syllogism"),
+        (r"^demonstrate how (.+?) can be reformulated as a syllogism\.?$", r"recasting \1 as a syllogism"),
+        (r"^what would be a more coherent way to express (.+?)\??$", r"a clearer way to express \1"),
+        (r"^what would be a more coherent way to state (.+?)\??$", r"a clearer way to state \1"),
         (r"^take a few stabs at what (.+?) might represent\.?$", r"\1"),
         (r"^explain the rationale behind your guess of (.+?)\.?$", r"the rationale for \1"),
         (r"^does that rationale reflect what you know about actual (.+?)\??$", r"the fit between the rationale and actual \1"),
@@ -4398,24 +4472,28 @@ def sequence_context_paragraph(page: dict, prompt: str, prompts: list[str], inde
 
     if total <= 1:
         return (
-            f"Because this page has a single controlling prompt, the response has to serve as both entry point and test case. "
+            f"Because this page is built around a single controlling prompt, the response has to open the issue and test it in the same motion. "
             f"It should give the reader enough orientation to see why {key_text} matters without pretending the wider issue of {topic} has been exhausted."
         )
 
     if index == 1:
         next_key = clean_discussion_key(short_prompt_key(prompts[index], topic), topic, "the next pressure")
+        if command_like_key(next_key):
+            next_key = "the next pressure"
         if is_generic_sequence_key(next_key):
             return (
-                f"As the opening move in the sequence, this response establishes the vocabulary and stakes for {topic}. "
-                f"It gives the reader a first handle on the opening pressure so later prompts can build rather than restart."
+                f"This first move lays down the vocabulary and stakes for {topic}. "
+                "It gives the reader something firm enough to carry into the later prompts, so the page can deepen rather than circle."
             )
         return (
-            f"As the opening move in the sequence, this response establishes the vocabulary and stakes for {topic}. "
-            f"It gives the reader a first handle on {key_text}, so the next prompt can press {next_key} without forcing the discussion to restart."
+            f"This first move lays down the vocabulary and stakes for {topic}. "
+            f"It gives the reader something firm enough about {key_text} that the next prompt can press {next_key} without making the discussion restart."
         )
 
     if index == total:
         previous_key = clean_discussion_key(short_prompt_key(prompts[index - 2], topic), topic, "the previous step")
+        if command_like_key(previous_key):
+            previous_key = "the previous step"
         if is_generic_sequence_key(previous_key) and is_generic_sequence_key(key_text):
             return (
                 f"By this point in the page, the earlier responses have already established the relevant distinctions. "
@@ -4438,24 +4516,28 @@ def sequence_context_paragraph(page: dict, prompt: str, prompts: list[str], inde
 
     previous_key = clean_discussion_key(short_prompt_key(prompts[index - 2], topic), topic, "the previous step")
     next_key = clean_discussion_key(short_prompt_key(prompts[index], topic), topic, "the next step")
+    if command_like_key(previous_key):
+        previous_key = "the previous step"
+    if command_like_key(next_key):
+        next_key = "the next step"
     if is_generic_sequence_key(previous_key) and is_generic_sequence_key(next_key):
         return (
-            "This response does connective work inside the sequence. "
-            "It clarifies the pressure already introduced while preparing the next turn in the argument."
+            "This middle step keeps the sequence honest. "
+            "It takes the pressure already on the table and turns it toward the next distinction rather than letting the page break into separate mini-essays."
         )
     if is_generic_sequence_key(previous_key):
         return (
-            f"This response prepares {next_key}. "
-            f"Read it as a middle movement: it clarifies the pressure already introduced while preparing the next turn in the argument."
+            f"This middle step prepares {next_key}. "
+            "It keeps the earlier pressure alive while turning the reader toward the next issue that has to be faced."
         )
     if is_generic_sequence_key(next_key):
         return (
-            f"This response carries forward {previous_key}. "
-            f"Read it as a middle movement: it clarifies the pressure already introduced while preparing the next turn in the argument."
+            f"This middle step carries forward {previous_key}. "
+            "It shows what that earlier distinction changes before the page asks the reader to carry it any farther."
         )
     return (
-        f"This response bridges {previous_key} and {next_key}. "
-        f"Read it as a middle movement: it clarifies the pressure already introduced while preparing the next turn in the argument."
+        f"This middle step takes the pressure from {previous_key} and turns it toward {next_key}. "
+        "That is what keeps the page cumulative rather than episodic."
     )
 
 
@@ -4468,6 +4550,16 @@ def intermediate_reader_paragraph(page: dict, prompt: str, focus: str) -> str:
     if command_like_key(key_text):
         key_text = semantic_hook_items(page, prompt, None)[0]
     hooks = semantic_hook_items(page, prompt, None)
+    compact_hooks: list[str] = []
+    for hook in hooks[:3]:
+        candidate = clean_text(hook).strip(" .:")
+        if len(candidate.split()) > 6:
+            candidate = compact_text(candidate, 46).rstrip(".")
+        words = candidate.split()
+        if words and words[-1].lower() in {"a", "an", "and", "as", "of", "or", "the", "to", "with"}:
+            candidate = " ".join(words[:-1]).strip()
+        if candidate:
+            compact_hooks.append(candidate)
 
     focus_guides = {
         "dialogue": "The useful question is not only who is speaking, but what the exchange makes newly visible under pressure.",
@@ -4494,7 +4586,7 @@ def intermediate_reader_paragraph(page: dict, prompt: str, focus: str) -> str:
     }
 
     return (
-        f"For an intermediate reader, the payoff is not memorizing a conclusion; it is learning to work with {serial_join(hooks[:3])}. "
+        f"At this stage, the gain is not memorizing the conclusion but learning to think with {serial_join(compact_hooks or [topic])}. "
         f"{focus_guides.get(focus, focus_guides['inquiry'])} {branch_guides.get(section_id, profile['pressure'])}"
     )
 
@@ -4567,7 +4659,7 @@ def reader_test_paragraph(page: dict, prompt: str, focus: str) -> str:
         "definition": "A good definition should change how the reader classifies borderline cases, not only restate familiar usage.",
     }
     return (
-        f"A useful reader test is this: after the section is finished, the reader should be able to use {key_text} to sort a borderline case or answer a serious objection about {topic}. "
+        f"One honest test after reading is whether the reader can use {key_text} to sort a live borderline case or answer a serious objection about {topic}. "
         f"{focus_tests.get(focus, 'The answer should leave the reader with a concrete test, contrast, or objection to carry into the next case.')} "
         f"That keeps the page tied to {profile['lens']} rather than leaving it as a detached summary."
     )
@@ -4654,11 +4746,14 @@ def dialogue_learning_terms(detail: dict | None) -> list[str]:
     for turn in detail.get("dialogue_turns", [])[:8]:
         speaker = clean_text(turn.get("speaker", "")).strip(" :")
         text = clean_text(turn.get("text", ""))
-        if speaker:
-            terms.append(speaker)
+        if speaker and len(speaker.split()) <= 6:
+            terms.append(display_label(speaker))
         if text:
             label, body = split_label(text)
-            terms.append(label if label and body else compact_text(text, 64).rstrip("."))
+            candidate = label if label and body else ""
+            candidate = clean_text(candidate).strip(" .:")
+            if candidate and not command_like_key(candidate) and len(candidate.split()) <= 6:
+                terms.append(display_label(candidate))
     return dedupe([term for term in terms if term])[:4]
 
 
@@ -4666,6 +4761,9 @@ def detail_specific_learning_item(page: dict, prompt: str, detail: dict | None, 
     topic = topic_label(page["title"])
     labels = learning_context_labels(page, prompt, detail, 3)
     label_text = serial_join(labels)
+    discussion_text = label_text or focus_key
+    if discussion_text and discussion_text[0].isupper():
+        discussion_text = discussion_text[:1].lower() + discussion_text[1:]
     if detail and detail.get("tables"):
         return (
             f"Read the table as an argument about {focus_key}: the contrast among {label_text or 'the columns'} "
@@ -4675,13 +4773,31 @@ def detail_specific_learning_item(page: dict, prompt: str, detail: dict | None, 
         turns = dialogue_learning_terms(detail)
         turn_text = serial_join(turns[:3])
         return (
-            f"Track the conversational turn: {turn_text or 'the objection and reply'} should change what the reader thinks "
-            f"{topic} can honestly claim."
+            f"Track how the exchange moves from {turn_text or 'claim to objection to reply'}. "
+            "Each turn should sharpen the issue rather than merely lengthen the page."
+        )
+    if focus == "definition":
+        return (
+            f"Use {label_text or focus_key} to say what counts as {topic} and what only looks nearby. "
+            "If the list does not sharpen classification, it is only paraphrase."
+        )
+    if focus == "mapping":
+        return (
+            f"Do not read {label_text or focus_key} as a flat inventory. "
+            "Use it to see what is central, what is derivative, and where the real fault lines lie."
+        )
+    if focus == "argument":
+        return (
+            f"Use {label_text or focus_key} to find which premise is carrying the argument and where a serious critic should press."
+        )
+    if focus == "description":
+        return (
+            f"Read {label_text or focus_key} as orienting cues: together they should teach the reader what to notice, compare, and keep apart."
         )
     if focus == "examples":
         return f"Use the example as a stress test: {focus_key} should survive contact with a concrete case, not just sound tidy in abstraction."
     return (
-        f"Keep the local materials in view: {label_text or focus_key} should be doing visible work in this section, not sitting there as scenery."
+        f"Use {discussion_text} as the page's working clues. Each should narrow the field rather than merely decorate it."
     )
 
 
@@ -4811,10 +4927,10 @@ def branch_checkpoints(page: dict, prompt: str, detail: dict | None, focus: str,
         "definition": f"Make the definition earn its keep: {focus_key} should help sort a borderline case that ordinary usage leaves blurry.",
         "mapping": f"Read the map as dependencies, not inventory: {label_text} should show what supports, competes with, or modifies what.",
         "examples": f"Let the example do real work: it should show where {focus_key} becomes clearer, costlier, or more questionable in practice.",
-        "dialogue": "Follow the pressure in the exchange: the response should become sharper because an objection or confusion actually landed.",
+        "dialogue": "Follow the pressure in the exchange: each reply should narrow the issue, sharpen the objection, or expose the cost of the view.",
         "argument": f"Find the load-bearing premise: the section should show which claim about {focus_key} would make the argument succeed or fail.",
-        "description": f"Turn the description into orientation: by the end, {label_text} should tell the reader what to look for next.",
-        "inquiry": f"Use the prompt as a live question: {focus_key} should become more usable, not merely more elegantly phrased.",
+        "description": f"Use the description as orientation: by the end, {label_text} should teach the reader what to notice next and what not to collapse together.",
+        "inquiry": f"By the end, {focus_key} should mark a real difference in judgment, not merely a more polished way of posing the issue.",
     }
 
     third_by_section = {
@@ -5025,13 +5141,13 @@ def polish_review_content(
     polished_paragraphs = list(paragraphs)
     if len(polished_paragraphs) < 3 or content_word_count(polished_paragraphs, polished_items) < 170:
         polished_paragraphs.append(
-            f"The answer therefore has to do three jobs at once: identify the claim about {key}, "
-            f"show why that claim matters inside {SECTION_META[page['section_id']]['name']}, and mark the point at which a reasonable reader could still resist it."
+            f"If this section still feels thin, it needs three things: a clear claim about {key}, "
+            f"a reason that claim matters inside {SECTION_META[page['section_id']]['name']}, and an honest point where resistance can still enter."
         )
     if len(polished_paragraphs) < 4 and content_word_count(polished_paragraphs, polished_items) < 210:
         polished_paragraphs.append(
-            f"That extra pressure keeps the section from becoming a label or a slogan. It asks whether {topic} clarifies {profile['lens']}, "
-            f"and it gives the reader handles for further revision instead of a closed verdict."
+            f"That added pressure keeps the section from becoming a slogan. It should show how {topic} changes the reader's grip on {profile['lens']}, "
+            "and it should leave behind a question, distinction, or objection worth carrying forward."
         )
 
     return polished_paragraphs[:4], polished_items[:6]
@@ -5142,12 +5258,16 @@ def quality_assessment(
         and len(list_items) >= 4
         and avg_item_words >= 10
     )
+    continuity_scaffold = any(
+        any(marker in paragraph for marker in ("For an intermediate reader", "At this level, the payoff is"))
+        for paragraph in paragraphs
+    )
     exceptional_ready = bool(
         word_count >= 360
         and len(paragraphs) >= 5
         and len(list_items) >= 5
         and avg_item_words >= 16
-        and any("For an intermediate reader" in paragraph for paragraph in paragraphs)
+        and continuity_scaffold
         and (
             claim
             or metrics["labels"] >= 2
@@ -5158,7 +5278,6 @@ def quality_assessment(
         )
     )
     philosopher_gap = page["section_id"] == "philosophers"
-    continuity_scaffold = any("For an intermediate reader" in paragraph for paragraph in paragraphs)
     reasons: list[str] = []
     gap_reasons: list[str] = []
 
@@ -6984,7 +7103,7 @@ def render_article_page(page: dict) -> str:
             data-current-section="{page["section_id"]}"
             data-current-page="{page["built_path"]}"
           >
-            <div class="page-shell">
+            <div class="page-shell" id="top">
               <header class="hero hero--article">
                 <img
                   class="hero__image"
@@ -7003,7 +7122,7 @@ def render_article_page(page: dict) -> str:
                 </div>
               </header>
 
-              <div class="article-layout article-layout--single">
+              <div class="article-layout article-layout--with-rail">
                 <main class="article-stack">
                   <section class="prompt-ledger">
                     <p class="eyebrow">Prompts</p>
@@ -7032,6 +7151,7 @@ def render_article_page(page: dict) -> str:
 
                   <section class="article-outline-slot" data-article-outline></section>
                 </main>
+                <aside class="context-rail-slot" data-context-rail></aside>
               </div>
             </div>
           </body>
@@ -8492,6 +8612,59 @@ def inject_learning_cards_into_manual_page(target: Path, page: dict) -> bool:
     return True
 
 
+def inject_context_rail_into_article_page(target: Path) -> bool:
+    if not target.exists():
+        return False
+
+    existing = target.read_text()
+    if 'data-page-type="article"' not in existing:
+        return False
+
+    soup = BeautifulSoup(existing, "html.parser")
+    page_shell = soup.select_one(".page-shell")
+    layout = soup.select_one(".article-layout")
+    main = soup.select_one(".article-layout > .article-stack")
+    if page_shell is None or layout is None or main is None:
+        return False
+
+    changed = False
+    if page_shell.get("id") != "top":
+        page_shell["id"] = "top"
+        changed = True
+
+    layout_classes = layout.get("class") or []
+    normalized_layout_classes = [
+        item for item in layout_classes if item != "article-layout--single"
+    ]
+    if "article-layout--with-rail" not in normalized_layout_classes:
+        normalized_layout_classes.append("article-layout--with-rail")
+    if normalized_layout_classes != layout_classes:
+        layout["class"] = normalized_layout_classes
+        changed = True
+
+    rail = layout.select_one("[data-context-rail]")
+    if rail is None:
+        rail = soup.new_tag("aside")
+        rail["class"] = "context-rail-slot"
+        rail["data-context-rail"] = ""
+        main.insert_after(rail)
+        changed = True
+    else:
+        rail_classes = rail.get("class") or []
+        if "context-rail-slot" not in rail_classes:
+            rail["class"] = [*rail_classes, "context-rail-slot"]
+            changed = True
+
+    if not changed:
+        return False
+
+    updated = str(soup)
+    if updated == existing:
+        return False
+    target.write_text(updated)
+    return True
+
+
 def cleanup_auto_generated(valid_targets: set[Path]) -> None:
     for target in ROOT.rglob("index.html"):
         if target in valid_targets:
@@ -8752,6 +8925,7 @@ def main() -> None:
             inject_philosopher_source_texture_into_manual_page(target, page)
             normalize_manual_prompt_system(target)
             inject_learning_cards_into_manual_page(target, page)
+            inject_context_rail_into_article_page(target)
 
     menu_target = ROOT / "menu-structure" / "index.html"
     guided_target = ROOT / "guided-reading" / "index.html"
