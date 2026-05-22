@@ -1974,4 +1974,142 @@ img {
     flex-direction: column;
     align-items: stretch;
   }
+
+  .quiz-accordion summary {
+    gap: 12px;
+    padding: 16px 14px;
+  }
+
+  .quiz-accordion__heading {
+    font-size: clamp(1.28rem, 7.2vw, 1.9rem);
+  }
+
+  .quiz-accordion__body {
+    padding: 0 14px 16px;
+  }
+
+  .quiz-section__badge {
+    width: 2.05rem;
+    height: 2.05rem;
+  }
+
+  .article-section .quiz-section__intro {
+    margin-bottom: 16px;
+  }
+
+  .quiz-list {
+    gap: 14px;
+  }
+
+  .quiz-item {
+    padding: 14px;
+    border-radius: 18px;
+  }
+
+  .quiz-item__header {
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+
+  .quiz-item__number {
+    width: 1.8rem;
+    height: 1.8rem;
+    font-size: 0.92rem;
+  }
+
+  .article-section .quiz-item h3 {
+    font-size: 0.98rem;
+    line-height: 1.38;
+  }
+
+  .quiz-options {
+    gap: 8px;
+  }
+
+  .quiz-option {
+    gap: 10px;
+    padding: 10px 12px;
+    border-radius: 16px;
+    line-height: 1.5;
+  }
+
+  .quiz-option__marker {
+    width: 1.56rem;
+    height: 1.56rem;
+    font-size: 0.78rem;
+  }
+
+  .article-section .quiz-feedback {
+    padding: 8px 10px;
+    border-radius: 12px;
+    font-size: 0.88rem;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 520px) {
+  .quiz-accordion summary {
+    gap: 10px;
+    padding: 14px 12px;
+  }
+
+  .quiz-accordion__body {
+    padding: 0 12px 14px;
+  }
+
+  .quiz-accordion__title {
+    gap: 4px;
+  }
+
+  .quiz-section__badge {
+    width: 1.9rem;
+    height: 1.9rem;
+    font-size: 0.92rem;
+  }
+
+  .article-section .quiz-section__intro {
+    margin-bottom: 14px;
+  }
+
+  .quiz-list {
+    gap: 12px;
+  }
+
+  .quiz-item {
+    padding: 12px;
+    border-radius: 16px;
+  }
+
+  .quiz-item__header {
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+
+  .quiz-item__number {
+    width: 1.68rem;
+    height: 1.68rem;
+    font-size: 0.88rem;
+  }
+
+  .article-section .quiz-item h3 {
+    font-size: 0.94rem;
+    line-height: 1.34;
+  }
+
+  .quiz-option {
+    gap: 8px;
+    padding: 9px 10px;
+    border-radius: 14px;
+  }
+
+  .quiz-option__marker {
+    width: 1.48rem;
+    height: 1.48rem;
+    font-size: 0.74rem;
+  }
+
+  .article-section .quiz-feedback {
+    padding: 8px 9px;
+    font-size: 0.85rem;
+  }
 }
