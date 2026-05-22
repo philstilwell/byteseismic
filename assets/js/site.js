@@ -826,7 +826,36 @@
       }
     }
 
+    function bindMobileSummaryLinks() {
+      const summaryLinks = mount.querySelectorAll(".context-rail__mobile-summary a[href]");
+      summaryLinks.forEach((link) => {
+        link.addEventListener("click", (event) => {
+          event.preventDefault();
+          event.stopPropagation();
+
+          const rawHref = link.getAttribute("href");
+          if (!rawHref) {
+            return;
+          }
+
+          if (rawHref.startsWith("#")) {
+            const target = document.querySelector(rawHref);
+            if (target) {
+              if (compactMode && shell) {
+                shell.open = false;
+              }
+              window.location.hash = rawHref.slice(1);
+              return;
+            }
+          }
+
+          window.location.href = link.href || rawHref;
+        });
+      });
+    }
+
     syncShellMode();
+    bindMobileSummaryLinks();
     resolveActiveSection();
     window.addEventListener("scroll", requestActiveSectionUpdate, { passive: true });
     window.addEventListener("resize", () => {
