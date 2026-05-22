@@ -1197,7 +1197,7 @@ img {
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-bottom: 6px;
+  margin-bottom: 10px;
 }
 
 .article-section__meta .eyebrow {
@@ -1220,7 +1220,7 @@ img {
 
 .article-section__prompt {
   max-width: 78ch;
-  margin: 6px 0 18px;
+  margin: 8px 0 22px;
   padding: 10px 12px;
   border-left: 3px solid rgba(173, 82, 32, 0.34);
   border-radius: 14px;
@@ -1240,7 +1240,7 @@ img {
 }
 
 .article-section h2 {
-  margin: 6px 0 16px;
+  margin: 8px 0 16px;
   font-size: clamp(1.65rem, 2.5vw, 2.3rem);
 }
 
