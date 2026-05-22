@@ -48,12 +48,67 @@
     return `${href("/")}#section-${sectionId}`;
   }
 
+  function normalizeSitePath(path) {
+    let normalized = String(path || "/").trim();
+
+    if (!normalized) {
+      return "/";
+    }
+
+    if (normalized.startsWith(githubPrefix) && githubPrefix) {
+      normalized = normalized.slice(githubPrefix.length) || "/";
+    }
+
+    normalized = normalized.replace(/\/index\.html$/i, "/");
+    if (!normalized.startsWith("/")) {
+      normalized = `/${normalized}`;
+    }
+    normalized = normalized.replace(/\/{2,}/g, "/");
+    if (!normalized.endsWith("/") && !/\.[a-z0-9]+$/i.test(normalized)) {
+      normalized += "/";
+    }
+
+    return normalized || "/";
+  }
+
+  function sitePathFromHref(rawHref) {
+    if (!rawHref) {
+      return "";
+    }
+
+    try {
+      const parsed = new URL(rawHref, window.location.href);
+      let path = decodeURIComponent(parsed.pathname || "/");
+
+      if (isFile && fileRoot && path.startsWith(fileRoot)) {
+        path = path.slice(fileRoot.length) || "/";
+      } else if (githubPrefix && path.startsWith(githubPrefix)) {
+        path = path.slice(githubPrefix.length) || "/";
+      }
+
+      return normalizeSitePath(path);
+    } catch (_error) {
+      return "";
+    }
+  }
+
   function currentSection() {
     return document.body.dataset.currentSection || "";
   }
 
   function currentPage() {
-    return document.body.dataset.currentPage || "";
+    if (document.body.dataset.currentPage) {
+      return document.body.dataset.currentPage;
+    }
+
+    let path = decodedPath || "/";
+    if (isFile && fileRoot && path.startsWith(fileRoot)) {
+      path = path.slice(fileRoot.length) || "/";
+    } else if (githubPrefix && path.startsWith(githubPrefix)) {
+      path = path.slice(githubPrefix.length) || "/";
+    }
+
+    return normalizeSitePath(path);
   }
 
   function countTree(nodes) {
@@ -197,16 +252,27 @@
   function uniqueByPath(items) {
     const seen = new Set();
     return (items || []).filter((item) => {
-      if (!item?.path || seen.has(item.path)) {
+      const key = item?.path || item?.href;
+      if (!key || seen.has(key)) {
         return false;
       }
-      seen.add(item.path);
+      seen.add(key);
       return true;
     });
   }
 
   function cleanInlineText(value) {
     return String(value || "").replace(/\s+/g, " ").trim();
+  }
+
+  function slugifyText(value) {
+    return String(value || "")
+      .trim()
+      .toLowerCase()
+      .replace(/&/g, " and ")
+      .replace(/["'`]+/g, "")
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "");
   }
 
   function currentPageEntry() {
@@ -241,6 +307,210 @@
       });
   }
 
+  function ensureAnchorId(node, index, prefix = "section") {
+    if (!node) {
+      return "";
+    }
+
+    if (node.id) {
+      return node.id;
+    }
+
+    const heading =
+      directSectionHeading(node)
+      || node.querySelector(":scope > .section-heading h2, :scope > .outline-card__header h2, :scope > h2, :scope > h3, :scope > article h3");
+    const label = cleanInlineText(heading?.textContent || node.dataset.sectionAnchor || "");
+    let id = slugifyText(label) || `${prefix}-${index + 1}`;
+
+    if (document.getElementById(id)) {
+      id = `${id}-${index + 1}`;
+    }
+
+    node.id = id;
+    return id;
+  }
+
+  function sectionMetaLabel(node) {
+    if (!node) {
+      return "";
+    }
+
+    const explicit =
+      node.querySelector(":scope > .eyebrow, :scope > .mini-label, :scope > .learning-card__title, :scope > .section-heading .eyebrow")
+      || node.querySelector(":scope > .structure-card__header .eyebrow, :scope > .route-card .eyebrow, :scope > .glossary-card .eyebrow");
+    const text = cleanInlineText(explicit?.textContent || "");
+    if (text) {
+      return text;
+    }
+
+    if (node.classList.contains("route-card")) return "Reading route";
+    if (node.classList.contains("glossary-card")) return "Glossary";
+    if (node.classList.contains("structure-card")) return "Branch";
+    if (node.classList.contains("feature-card")) return "Featured page";
+    if (node.classList.contains("content-card")) return "Section";
+
+    return "";
+  }
+
+  function stackSectionLinks() {
+    const stack = document.querySelector(".article-stack");
+    if (!stack) {
+      return [];
+    }
+
+    const groups = Array.from(stack.children).filter((node) => node instanceof HTMLElement && !node.matches(".context-rail-slot"));
+    const sections = [];
+
+    groups.forEach((node) => {
+      if (node.matches(".route-grid, .glossary-grid, .structure-grid, .feature-grid, .taxonomy-grid")) {
+        sections.push(...Array.from(node.querySelectorAll(":scope > article, :scope > section")));
+      } else if (node.matches(".article-body")) {
+        sections.push(...Array.from(node.querySelectorAll(":scope > .article-section")));
+      } else if (node.matches("section, article")) {
+        sections.push(node);
+      }
+    });
+
+    const seen = new Set();
+    return sections
+      .filter((node) => {
+        if (!(node instanceof HTMLElement) || seen.has(node)) {
+          return false;
+        }
+        seen.add(node);
+        return true;
+      })
+      .map((node, index) => {
+        const id = ensureAnchorId(node, index, "panel");
+        const heading =
+          directSectionHeading(node)
+          || node.querySelector(":scope > .section-heading h2, :scope > .outline-card__header h2, :scope > h2, :scope > h3");
+        const title = cleanInlineText(heading?.textContent || id.replace(/-/g, " "));
+        return {
+          id,
+          title,
+          meta: sectionMetaLabel(node) || `Section ${index + 1}`,
+          index,
+          node,
+        };
+      })
+      .filter((entry) => entry.title);
+  }
+
+  function pageSectionLinks() {
+    const articleLinks = articleSectionLinks();
+    return articleLinks.length ? articleLinks : stackSectionLinks();
+  }
+
+  function breadcrumbTrail(pageTitle) {
+    const trail = [];
+    document.querySelectorAll(".breadcrumbs a, .breadcrumbs span").forEach((node) => {
+      const label = cleanInlineText(node.textContent || "");
+      if (!label || label === "/") {
+        return;
+      }
+
+      if (node.tagName === "A") {
+        trail.push({
+          label,
+          href: node.getAttribute("href") || node.href,
+        });
+        return;
+      }
+
+      trail.push({ label });
+    });
+
+    if (pageTitle && trail.at(-1)?.label !== pageTitle) {
+      trail.push({ label: pageTitle });
+    }
+
+    return trail;
+  }
+
+  function renderTrail(trail) {
+    return trail
+      .map((item, index) => {
+        const label = escapeHtml(item.label);
+        const node = item.href
+          ? `<a href="${escapeHtml(item.href)}">${label}</a>`
+          : `<span${index === trail.length - 1 ? ' aria-current="page"' : ""}>${label}</span>`;
+        const separator = index < trail.length - 1 ? '<span class="context-rail__trail-sep" aria-hidden="true">/</span>' : "";
+        return `${node}${separator}`;
+      })
+      .join("");
+  }
+
+  function ensureContextRailMount() {
+    const pageShell = document.querySelector(".page-shell");
+    if (pageShell && !pageShell.id) {
+      pageShell.id = "top";
+    }
+
+    let mount = document.querySelector("[data-context-rail]");
+    if (mount) {
+      return mount;
+    }
+
+    const layout = document.querySelector(".article-layout");
+    const stack = layout?.querySelector(":scope > .article-stack");
+    if (!layout || !stack) {
+      return null;
+    }
+
+    layout.classList.remove("article-layout--single");
+    layout.classList.add("article-layout--with-rail");
+
+    mount = document.createElement("aside");
+    mount.className = "context-rail-slot";
+    mount.setAttribute("data-context-rail", "");
+    stack.insertAdjacentElement("afterend", mount);
+    return mount;
+  }
+
+  function nearestContextLabel(anchor) {
+    const container = anchor.closest(".content-card, .article-section, .route-card, .glossary-card, .structure-card, .feature-card");
+    return sectionMetaLabel(container) || "From this page";
+  }
+
+  function contentLinksFallback(limit = 7) {
+    const root = document.querySelector(".article-stack");
+    if (!root) {
+      return [];
+    }
+
+    const items = [];
+    root.querySelectorAll("a[href]").forEach((anchor) => {
+      if (anchor.closest(".breadcrumbs") || anchor.closest("[data-context-rail]")) {
+        return;
+      }
+
+      const rawHref = anchor.getAttribute("href");
+      if (!rawHref || rawHref.startsWith("#")) {
+        return;
+      }
+
+      const path = sitePathFromHref(anchor.href || rawHref);
+      if (!path || path === currentPage()) {
+        return;
+      }
+
+      const title = cleanInlineText(anchor.textContent || "");
+      if (title.length < 2) {
+        return;
+      }
+
+      items.push({
+        title,
+        path,
+        href: rawHref,
+        meta: nearestContextLabel(anchor),
+      });
+    });
+
+    return uniqueByPath(items).slice(0, limit);
+  }
+
   function relatedBranchLinks(section, activePage) {
     const items = [];
     const context = findTopicContext(sectionTree(section), activePage);
@@ -251,6 +521,7 @@
         items.push({
           title: parent.title,
           path: parent.path,
+          href: href(parent.path),
           meta: "up one level",
         });
       }
@@ -259,6 +530,7 @@
         items.push({
           title: child.title,
           path: child.path,
+          href: href(child.path),
           meta: "nested from here",
         });
       });
@@ -269,6 +541,7 @@
           items.push({
             title: candidate.title,
             path: candidate.path,
+            href: href(candidate.path),
             meta: "same branch",
           });
         });
@@ -281,6 +554,7 @@
         items.push({
           title: page.title,
           path: page.path,
+          href: href(page.path),
           meta: "same branch page",
         });
       });
@@ -289,47 +563,26 @@
   }
 
   function renderContextRail() {
-    const mount = document.querySelector("[data-context-rail]");
-    if (!mount || document.body.dataset.pageType !== "article") {
+    if (document.body.dataset.pageType === "home") {
+      return;
+    }
+
+    const mount = ensureContextRailMount();
+    if (!mount) {
       return;
     }
 
     const section = data.sections.find((entry) => entry.id === currentSection());
     const page = currentPageEntry();
     const pageTitle = cleanInlineText(document.querySelector(".hero h1")?.textContent || page?.title || "");
-    const sectionLinks = articleSectionLinks();
-    const relatedLinks = section ? relatedBranchLinks(section, currentPage()) : [];
+    const sectionLinks = pageSectionLinks();
+    const relatedLinks = section && page
+      ? relatedBranchLinks(section, currentPage())
+      : contentLinksFallback();
     const tags = (page?.tags || []).filter(isUsefulTag).slice(0, 6);
-    const topicContext = section ? findTopicContext(sectionTree(section), currentPage()) : null;
-    const branchPath = section?.branchGuidePath || sectionTarget(section || { id: currentSection(), samplePath: "", name: "" });
-    const branchTrail = [
-      {
-        label: section?.name || "Branch",
-        path: branchPath,
-      },
-      ...(topicContext?.trail || [])
-        .slice(0, -1)
-        .slice(-2)
-        .filter((node) => node.path)
-        .map((node) => ({
-          label: node.title,
-          path: node.path,
-        })),
-      {
-        label: pageTitle || page?.title || "Current page",
-      },
-    ];
-
+    const trail = breadcrumbTrail(pageTitle);
+    const currentPath = currentPage();
     const activeSection = sectionLinks[0];
-    const branchTrailHtml = branchTrail
-      .map((item, index) => {
-        const label = escapeHtml(item.label);
-        if (index === branchTrail.length - 1 || !item.path) {
-          return `<span aria-current="page">${label}</span>`;
-        }
-        return `<a href="${href(item.path)}">${label}</a>`;
-      })
-      .join("");
 
     const sectionList = sectionLinks
       .map(
@@ -349,7 +602,7 @@
           .map(
             (entry) => `
               <li>
-                <a href="${href(entry.path)}">
+                <a href="${escapeHtml(entry.href || href(entry.path))}">
                   <span class="context-rail__link-title">${escapeHtml(entry.title)}</span>
                   <span class="context-rail__link-meta">${escapeHtml(entry.meta)}</span>
                 </a>
@@ -365,48 +618,64 @@
 
     mount.innerHTML = `
       <div class="context-rail">
-        <div class="context-rail__header">
-          <p class="mini-label">You are here</p>
-          <div class="context-rail__trail">${branchTrailHtml}</div>
-          <h2 class="context-rail__title">${escapeHtml(pageTitle)}</h2>
-          <div class="context-rail__status">
-            <span class="context-rail__status-label">Now reading</span>
-            <a class="context-rail__active-link" href="#${escapeHtml(activeSection?.id || "")}" data-context-active-link>
-              ${escapeHtml(activeSection?.title || pageTitle)}
-            </a>
-            <span class="context-rail__status-meta" data-context-active-meta>
-              ${sectionLinks.length ? `Section 1 of ${sectionLinks.length}` : "Top of page"}
-            </span>
+        <details class="context-rail__shell" open>
+          <summary class="context-rail__mobile-summary">
+            <div class="context-rail__mobile-main">
+              <span class="mini-label">You are here</span>
+              <span class="context-rail__mobile-trail">${renderTrail(trail)}</span>
+              <a class="context-rail__mobile-active" href="#${escapeHtml(activeSection?.id || "")}" data-context-mobile-active-link>
+                ${escapeHtml(activeSection?.title || pageTitle)}
+              </a>
+            </div>
+            <span class="context-rail__mobile-cue" aria-hidden="true">+</span>
+          </summary>
+          <div class="context-rail__body">
+            <div class="context-rail__header">
+              <p class="mini-label">You are here</p>
+              <div class="context-rail__trail">${renderTrail(trail)}</div>
+              <h2 class="context-rail__title">${escapeHtml(pageTitle)}</h2>
+              <div class="context-rail__status">
+                <span class="context-rail__status-label">Now reading</span>
+                <a class="context-rail__active-link" href="#${escapeHtml(activeSection?.id || "")}" data-context-active-link>
+                  ${escapeHtml(activeSection?.title || pageTitle)}
+                </a>
+                <span class="context-rail__status-meta" data-context-active-meta>
+                  ${sectionLinks.length ? `Section 1 of ${sectionLinks.length}` : "Top of page"}
+                </span>
+              </div>
+              <div class="context-rail__actions">
+                ${section?.branchGuidePath && section.branchGuidePath !== currentPath ? `<a class="context-rail__action" href="${href(section.branchGuidePath)}">Branch guide</a>` : ""}
+                ${section?.samplePath && section.branchGuidePath === currentPath ? `<a class="context-rail__action" href="${href(section.samplePath)}">Branch entry</a>` : ""}
+                ${currentPath !== "/" ? `<a class="context-rail__action" href="${href("/")}">Home</a>` : ""}
+                <a class="context-rail__action" href="#top">Page top</a>
+                ${document.getElementById("future-branches") ? '<a class="context-rail__action" href="#future-branches">Future branches</a>' : ""}
+              </div>
+            </div>
+            <div class="context-rail__accordion" data-exclusive-accordion>
+              <details class="context-rail__group"${sectionLinks.length <= 5 ? " open" : ""}>
+                <summary>
+                  <span>Page sections</span>
+                  <span class="context-rail__count">${sectionLinks.length}</span>
+                </summary>
+                <ul class="context-rail__list">${sectionList}</ul>
+              </details>
+              <details class="context-rail__group"${relatedLinks.length <= 5 ? " open" : ""}>
+                <summary>
+                  <span>${page ? "Nearby in branch" : "Related links"}</span>
+                  <span class="context-rail__count">${relatedLinks.length}</span>
+                </summary>
+                <ul class="context-rail__list">${relatedList}</ul>
+              </details>
+              <details class="context-rail__group"${!page && !tags.length ? " hidden" : ""}>
+                <summary>
+                  <span>Concept tags</span>
+                  <span class="context-rail__count">${tags.length}</span>
+                </summary>
+                <div class="context-rail__tags">${tagList}</div>
+              </details>
+            </div>
           </div>
-          <div class="context-rail__actions">
-            ${section?.branchGuidePath ? `<a class="context-rail__action" href="${href(section.branchGuidePath)}">Branch guide</a>` : ""}
-            <a class="context-rail__action" href="#top">Page top</a>
-            ${document.getElementById("future-branches") ? '<a class="context-rail__action" href="#future-branches">Future branches</a>' : ""}
-          </div>
-        </div>
-        <div class="context-rail__accordion" data-exclusive-accordion>
-          <details class="context-rail__group"${sectionLinks.length <= 5 ? " open" : ""}>
-            <summary>
-              <span>Page sections</span>
-              <span class="context-rail__count">${sectionLinks.length}</span>
-            </summary>
-            <ul class="context-rail__list">${sectionList}</ul>
-          </details>
-          <details class="context-rail__group">
-            <summary>
-              <span>Nearby in branch</span>
-              <span class="context-rail__count">${relatedLinks.length}</span>
-            </summary>
-            <ul class="context-rail__list">${relatedList}</ul>
-          </details>
-          <details class="context-rail__group">
-            <summary>
-              <span>Concept tags</span>
-              <span class="context-rail__count">${tags.length}</span>
-            </summary>
-            <div class="context-rail__tags">${tagList}</div>
-          </details>
-        </div>
+        </details>
       </div>
     `;
 
@@ -414,7 +683,8 @@
       return;
     }
 
-    const activeLink = mount.querySelector("[data-context-active-link]");
+    const shell = mount.querySelector(".context-rail__shell");
+    const activeLinks = [...mount.querySelectorAll("[data-context-active-link], [data-context-mobile-active-link]")];
     const activeMeta = mount.querySelector("[data-context-active-meta]");
     const linkMap = new Map(
       [...mount.querySelectorAll("[data-context-section-link]")].map((link) => [link.dataset.contextSectionLink, link]),
@@ -428,10 +698,10 @@
       }
 
       activeId = entry.id;
-      if (activeLink) {
-        activeLink.textContent = entry.title;
-        activeLink.setAttribute("href", `#${entry.id}`);
-      }
+      activeLinks.forEach((link) => {
+        link.textContent = entry.title;
+        link.setAttribute("href", `#${entry.id}`);
+      });
       if (activeMeta) {
         activeMeta.textContent = `Section ${entry.index + 1} of ${sectionLinks.length}${entry.meta ? ` · ${entry.meta}` : ""}`;
       }
@@ -472,13 +742,49 @@
       });
     }
 
+    let compactMode = window.innerWidth <= 760;
+
+    function syncShellMode() {
+      if (!shell) {
+        return;
+      }
+
+      const nextCompactMode = window.innerWidth <= 760;
+      if (nextCompactMode !== compactMode) {
+        compactMode = nextCompactMode;
+        shell.open = !compactMode;
+        return;
+      }
+
+      if (!compactMode) {
+        shell.open = true;
+      }
+    }
+
+    syncShellMode();
     resolveActiveSection();
     window.addEventListener("scroll", requestActiveSectionUpdate, { passive: true });
-    window.addEventListener("resize", requestActiveSectionUpdate);
+    window.addEventListener("resize", () => {
+      syncShellMode();
+      requestActiveSectionUpdate();
+    });
     window.addEventListener("hashchange", requestActiveSectionUpdate);
     window.addEventListener("load", requestActiveSectionUpdate);
     window.setTimeout(requestActiveSectionUpdate, 140);
     window.setTimeout(requestActiveSectionUpdate, 360);
+
+    shell?.addEventListener("click", (event) => {
+      const trigger = event.target.closest("a[href^='#']");
+      if (!trigger) {
+        return;
+      }
+
+      if (window.innerWidth <= 760) {
+        window.setTimeout(() => {
+          shell.open = false;
+        }, 120);
+      }
+    });
   }
 
   function isUsefulTag(tag) {
@@ -1096,12 +1402,12 @@
 
   renderNav();
   renderArticleOutline();
-  renderContextRail();
   renderStructureGrid();
   renderTagCloud();
   renderFeaturedPages();
   renderGuidedRoutes();
   renderGlossaryPreview();
+  renderContextRail();
   initPageSearch();
   initTagFilters();
   initExclusiveAccordions();

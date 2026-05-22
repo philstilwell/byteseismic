@@ -7204,12 +7204,14 @@ def render_menu_structure_page() -> str:
                 </div>
               </header>
 
-              <main class="content">
-                <section class="content-card" data-site-nav></section>
-                <section class="content-card">
-                  <div class="structure-grid" data-section-grid></div>
-                </section>
-              </main>
+              <div class="article-layout article-layout--single">
+                <main class="article-stack">
+                  <section class="content-card" data-site-nav></section>
+                  <section class="content-card">
+                    <div class="structure-grid" data-section-grid></div>
+                  </section>
+                </main>
+              </div>
             </div>
           </body>
         </html>
@@ -7636,7 +7638,6 @@ def render_expanded_archive_page(posts_by_year: dict[int, list[dict]], section_c
         path="/recent-posts-expanded-version/",
         prefix="../",
         page_type="website",
-        include_site_scripts=False,
         force_noindex=True,
     )
 
@@ -7650,7 +7651,7 @@ def render_expanded_archive_page(posts_by_year: dict[int, list[dict]], section_c
             <meta name="viewport" content="width=device-width, initial-scale=1" />
 {archive_head}
           </head>
-          <body>
+          <body data-page-type="archive">
             <div class="page-shell">
               <header class="hero hero--article">
                 <img
@@ -7702,7 +7703,6 @@ def render_podcast_page() -> str:
         path="/byteseismic-podcasts/",
         prefix="../",
         page_type="website",
-        include_site_scripts=False,
         force_noindex=True,
     )
     return textwrap.dedent(
@@ -7715,7 +7715,7 @@ def render_podcast_page() -> str:
             <meta name="viewport" content="width=device-width, initial-scale=1" />
 {podcast_head}
           </head>
-          <body>
+          <body data-page-type="archive">
             <div class="page-shell">
               <header class="hero hero--article">
                 <img
@@ -7923,7 +7923,6 @@ def render_quality_review_page(report: dict) -> str:
         path="/quality-review/",
         prefix="../",
         page_type="website",
-        include_site_scripts=False,
         force_noindex=True,
     )
     issue_counts = editorial_audit.get("issueCounts", {})
@@ -7985,7 +7984,7 @@ def render_quality_review_page(report: dict) -> str:
             <meta name="viewport" content="width=device-width, initial-scale=1" />
 {quality_head}
           </head>
-          <body>
+          <body data-page-type="archive">
             <div class="page-shell">
               <header class="hero hero--article">
                 <img

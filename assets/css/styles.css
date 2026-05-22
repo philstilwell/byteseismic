@@ -1142,6 +1142,19 @@ img {
   backdrop-filter: blur(14px);
 }
 
+.context-rail__shell {
+  display: block;
+}
+
+.context-rail__mobile-summary {
+  display: none;
+}
+
+.context-rail__body {
+  display: grid;
+  gap: 10px;
+}
+
 .context-rail__header {
   display: grid;
   gap: 8px;
@@ -1150,25 +1163,39 @@ img {
 .context-rail__trail {
   display: flex;
   flex-wrap: wrap;
-  gap: 6px;
-  font-size: 0.72rem;
+  gap: 4px 8px;
+  align-items: center;
+  font-size: 0.96rem;
+  font-weight: 700;
+  line-height: 1.42;
+  color: var(--ink);
 }
 
 .context-rail__trail a,
 .context-rail__trail span {
-  display: inline-flex;
-  align-items: center;
-  min-height: 1.7rem;
-  padding: 0 8px;
-  border-radius: 999px;
-  background: rgba(15, 93, 134, 0.08);
-  color: var(--signal);
+  display: inline;
+  min-height: 0;
+  padding: 0;
+  border-radius: 0;
+  background: none;
+  color: inherit;
   text-decoration: none;
 }
 
+.context-rail__trail a:hover,
+.context-rail__trail a:focus-visible {
+  color: var(--signal);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.18em;
+}
+
 .context-rail__trail span[aria-current="page"] {
-  background: rgba(164, 75, 31, 0.12);
-  color: var(--accent);
+  color: var(--ink);
+}
+
+.context-rail__trail-sep {
+  color: var(--ink-muted);
 }
 
 .context-rail__title {
@@ -1352,6 +1379,59 @@ img {
   color: var(--ink-muted);
   font-size: 0.8rem;
   line-height: 1.45;
+}
+
+.context-rail__mobile-main {
+  display: grid;
+  gap: 3px;
+  min-width: 0;
+}
+
+.context-rail__mobile-trail,
+.context-rail__mobile-active {
+  min-width: 0;
+}
+
+.context-rail__mobile-trail {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 7px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--ink);
+}
+
+.context-rail__mobile-trail a,
+.context-rail__mobile-trail span {
+  display: inline;
+  color: inherit;
+  text-decoration: none;
+}
+
+.context-rail__mobile-trail a:hover,
+.context-rail__mobile-trail a:focus-visible {
+  color: var(--signal);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.16em;
+}
+
+.context-rail__mobile-active {
+  color: var(--ink);
+  font-size: 0.9rem;
+  font-weight: 700;
+  line-height: 1.34;
+  text-decoration: none;
+}
+
+.context-rail__mobile-cue {
+  color: var(--signal);
+  font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 1;
+  transition: transform 0.2s ease;
 }
 
 .toc-card h2,
@@ -2321,13 +2401,14 @@ img {
   }
 
   .context-rail__trail {
-    gap: 5px;
+    gap: 4px 7px;
+    font-size: 0.88rem;
   }
 
   .context-rail__trail a,
   .context-rail__trail span {
-    min-height: 1.56rem;
-    padding: 0 7px;
+    min-height: 0;
+    padding: 0;
   }
 
   .context-rail__status,
@@ -2339,6 +2420,10 @@ img {
 
   .context-rail__list {
     padding-bottom: 9px;
+  }
+
+  .context-rail__mobile-trail {
+    font-size: 0.78rem;
   }
 }
 
@@ -2419,6 +2504,10 @@ img {
     font-size: 1.06rem;
   }
 
+  .context-rail__trail {
+    font-size: 0.82rem;
+  }
+
   .context-rail__status {
     gap: 3px;
     padding: 9px;
@@ -2439,5 +2528,54 @@ img {
 
   .context-rail__link-meta {
     font-size: 0.64rem;
+  }
+}
+
+@media (max-width: 760px) {
+  .context-rail {
+    padding: 0;
+    border-radius: 18px;
+    overflow: hidden;
+  }
+
+  .context-rail__mobile-summary {
+    list-style: none;
+    cursor: pointer;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 10px;
+    align-items: center;
+    padding: 12px 14px;
+  }
+
+  .context-rail__mobile-summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .context-rail__body {
+    display: none;
+    gap: 10px;
+    padding: 0 12px 12px;
+    border-top: 1px solid rgba(16, 38, 59, 0.08);
+    max-height: min(70vh, 34rem);
+    overflow: auto;
+  }
+
+  .context-rail__shell[open] .context-rail__body {
+    display: grid;
+  }
+
+  .context-rail__shell[open] .context-rail__mobile-cue {
+    transform: rotate(45deg);
+  }
+
+  .context-rail__header > .mini-label,
+  .context-rail__header > .context-rail__trail,
+  .context-rail__header > .context-rail__title {
+    display: none;
+  }
+
+  .context-rail__status {
+    margin-top: 10px;
   }
 }
