@@ -249,6 +249,16 @@ img {
   grid-template-columns: minmax(0, 1fr);
 }
 
+.layout--with-rail {
+  grid-template-columns: minmax(0, 1fr) minmax(250px, 290px);
+  grid-template-areas: "main rail";
+  align-items: start;
+}
+
+.layout--with-rail .content {
+  grid-area: main;
+}
+
 .sidebar {
   position: relative;
 }
@@ -2207,6 +2217,7 @@ img {
     grid-template-columns: 1fr;
   }
 
+  .layout--with-rail,
   .article-layout--with-rail {
     grid-template-areas:
       "rail"

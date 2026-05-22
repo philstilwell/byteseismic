@@ -335,6 +335,14 @@
       return "";
     }
 
+    if (node.classList.contains("home-panel")) {
+      const homeLabel = cleanInlineText(node.querySelector(":scope > summary .eyebrow")?.textContent || "");
+      if (homeLabel) {
+        return homeLabel;
+      }
+      return "Home panel";
+    }
+
     const explicit =
       node.querySelector(":scope > .eyebrow, :scope > .mini-label, :scope > .learning-card__title, :scope > .section-heading .eyebrow")
       || node.querySelector(":scope > .structure-card__header .eyebrow, :scope > .route-card .eyebrow, :scope > .glossary-card .eyebrow");
@@ -397,7 +405,33 @@
       .filter((entry) => entry.title);
   }
 
+  function homeSectionLinks() {
+    const panels = Array.from(document.querySelectorAll(".home-accordion > .home-panel"));
+    if (!panels.length) {
+      return [];
+    }
+
+    return panels
+      .map((panel, index) => {
+        const id = ensureAnchorId(panel, index, "home-panel");
+        const heading = panel.querySelector(":scope > summary h2");
+        const title = cleanInlineText(heading?.textContent || id.replace(/-/g, " "));
+        return {
+          id,
+          title,
+          meta: sectionMetaLabel(panel) || `Panel ${index + 1}`,
+          index,
+          node: panel,
+        };
+      })
+      .filter((entry) => entry.title);
+  }
+
   function pageSectionLinks() {
+    if (document.body.dataset.pageType === "home") {
+      return homeSectionLinks();
+    }
+
     const articleLinks = articleSectionLinks();
     return articleLinks.length ? articleLinks : stackSectionLinks();
   }
@@ -420,6 +454,10 @@
 
       trail.push({ label });
     });
+
+    if (!trail.length && document.body.dataset.pageType === "home") {
+      return [{ label: "Home" }];
+    }
 
     if (pageTitle && trail.at(-1)?.label !== pageTitle) {
       trail.push({ label: pageTitle });
@@ -452,29 +490,41 @@
       return mount;
     }
 
-    const layout = document.querySelector(".article-layout");
-    const stack = layout?.querySelector(":scope > .article-stack");
-    if (!layout || !stack) {
-      return null;
+    const articleLayout = document.querySelector(".article-layout");
+    const articleStack = articleLayout?.querySelector(":scope > .article-stack");
+    if (articleLayout && articleStack) {
+      articleLayout.classList.remove("article-layout--single");
+      articleLayout.classList.add("article-layout--with-rail");
+
+      mount = document.createElement("aside");
+      mount.className = "context-rail-slot";
+      mount.setAttribute("data-context-rail", "");
+      articleStack.insertAdjacentElement("afterend", mount);
+      return mount;
     }
 
-    layout.classList.remove("article-layout--single");
-    layout.classList.add("article-layout--with-rail");
+    const homeLayout = document.querySelector(".layout--home");
+    const homeContent = homeLayout?.querySelector(":scope > .content");
+    if (homeLayout && homeContent) {
+      homeLayout.classList.add("layout--with-rail");
 
-    mount = document.createElement("aside");
-    mount.className = "context-rail-slot";
-    mount.setAttribute("data-context-rail", "");
-    stack.insertAdjacentElement("afterend", mount);
-    return mount;
+      mount = document.createElement("aside");
+      mount.className = "context-rail-slot";
+      mount.setAttribute("data-context-rail", "");
+      homeContent.insertAdjacentElement("afterend", mount);
+      return mount;
+    }
+
+    return null;
   }
 
   function nearestContextLabel(anchor) {
-    const container = anchor.closest(".content-card, .article-section, .route-card, .glossary-card, .structure-card, .feature-card");
+    const container = anchor.closest(".content-card, .article-section, .route-card, .glossary-card, .structure-card, .feature-card, .home-panel");
     return sectionMetaLabel(container) || "From this page";
   }
 
   function contentLinksFallback(limit = 7) {
-    const root = document.querySelector(".article-stack");
+    const root = document.querySelector(".article-stack") || document.querySelector(".content");
     if (!root) {
       return [];
     }
@@ -563,15 +613,12 @@
   }
 
   function renderContextRail() {
-    if (document.body.dataset.pageType === "home") {
-      return;
-    }
-
     const mount = ensureContextRailMount();
     if (!mount) {
       return;
     }
 
+    const isHomePage = document.body.dataset.pageType === "home";
     const section = data.sections.find((entry) => entry.id === currentSection());
     const page = currentPageEntry();
     const pageTitle = cleanInlineText(document.querySelector(".hero h1")?.textContent || page?.title || "");
@@ -583,6 +630,28 @@
     const trail = breadcrumbTrail(pageTitle);
     const currentPath = currentPage();
     const activeSection = sectionLinks[0];
+    const homeActions = isHomePage
+      ? [
+          { href: "#orientation", label: "Orientation" },
+          { href: "#branch-guide", label: "Branch guide" },
+          { href: "#tag-discovery", label: "Tag discovery" },
+          { href: "#featured-pages", label: "Featured pages" },
+          { href: "#top", label: "Page top" },
+        ]
+      : [];
+    const pageActions = !isHomePage
+      ? [
+          section?.branchGuidePath && section.branchGuidePath !== currentPath ? { href: href(section.branchGuidePath), label: "Branch guide" } : null,
+          section?.samplePath && section.branchGuidePath === currentPath ? { href: href(section.samplePath), label: "Branch entry" } : null,
+          currentPath !== "/" ? { href: href("/"), label: "Home" } : null,
+          { href: "#top", label: "Page top" },
+          document.getElementById("future-branches") ? { href: "#future-branches", label: "Future branches" } : null,
+        ].filter(Boolean)
+      : [];
+    const actionList = (isHomePage ? homeActions : pageActions)
+      .filter((entry) => !entry.href.startsWith("#") || document.querySelector(entry.href))
+      .map((entry) => `<a class="context-rail__action" href="${escapeHtml(entry.href)}">${escapeHtml(entry.label)}</a>`)
+      .join("");
 
     const sectionList = sectionLinks
       .map(
@@ -644,11 +713,7 @@
                 </span>
               </div>
               <div class="context-rail__actions">
-                ${section?.branchGuidePath && section.branchGuidePath !== currentPath ? `<a class="context-rail__action" href="${href(section.branchGuidePath)}">Branch guide</a>` : ""}
-                ${section?.samplePath && section.branchGuidePath === currentPath ? `<a class="context-rail__action" href="${href(section.samplePath)}">Branch entry</a>` : ""}
-                ${currentPath !== "/" ? `<a class="context-rail__action" href="${href("/")}">Home</a>` : ""}
-                <a class="context-rail__action" href="#top">Page top</a>
-                ${document.getElementById("future-branches") ? '<a class="context-rail__action" href="#future-branches">Future branches</a>' : ""}
+                ${actionList}
               </div>
             </div>
             <div class="context-rail__accordion" data-exclusive-accordion>

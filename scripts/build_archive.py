@@ -1341,6 +1341,10 @@ def fonts_and_assets(prefix: str, include_site_scripts: bool = True) -> str:
             <script defer src="{prefix}assets/js/site-data.js"></script>
             <script defer src="{prefix}assets/js/site.js"></script>"""
     return f"""
+            <link rel="icon" href="{prefix}favicon.png" sizes="512x512" type="image/png" />
+            <link rel="icon" href="{prefix}favicon-32x32.png" sizes="32x32" type="image/png" />
+            <link rel="shortcut icon" href="{prefix}favicon.ico" />
+            <link rel="apple-touch-icon" href="{prefix}apple-touch-icon.png" />
             <link rel="preconnect" href="https://fonts.googleapis.com" />
             <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
             <link
@@ -2172,6 +2176,15 @@ def article_native_heading(subject: str, prompt: str, topic: str) -> str:
     raw_lowered = key.lower()
     focus = prompt_focus(prompt)
     prompt_lower = clean_text(prompt).lower()
+
+    def with_heading_suffix(stem: str, suffix: str) -> str:
+        stem = clean_text(stem).strip(" .:")
+        if not stem:
+            stem = topic
+        if stem.endswith("?"):
+            return f"{stem} {suffix}"
+        return f"{stem}: {suffix}"
+
     if "influence on philosophy" in raw_lowered:
         thinker = re.sub(r"[’']s influence on philosophy", "", key, flags=re.IGNORECASE).strip(" ,")
         thinker = re.sub(r"\binfluence on philosophy\b", "", thinker, flags=re.IGNORECASE).strip(" ,")
@@ -2222,7 +2235,7 @@ def article_native_heading(subject: str, prompt: str, topic: str) -> str:
         return f"{key} {need_verb_for_heading(key)} a definition that can sort hard cases."
     if any(term in lowered for term in ("list", "table", "scores", "percentages", "estimates")):
         return f"{key} becomes more useful once its structure is made visible."
-    return f"{key} matters only once its implications are made concrete."
+    return with_heading_suffix(key, "practical stakes and consequences.")
 
 
 def clean_discussion_key(key: str, topic: str, fallback: str = "the central question") -> str:
