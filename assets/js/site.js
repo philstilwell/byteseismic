@@ -525,6 +525,39 @@
     `;
   }
 
+  function openTagDiscoveryPanel() {
+    const tagPanel = document.querySelector("#tag-discovery");
+    if (!tagPanel) {
+      return null;
+    }
+
+    const accordion = tagPanel.closest("[data-exclusive-accordion]");
+    accordion?.querySelectorAll(".home-panel[open]").forEach((panel) => {
+      if (panel !== tagPanel) {
+        panel.removeAttribute("open");
+      }
+    });
+    tagPanel.setAttribute("open", "");
+    return tagPanel;
+  }
+
+  function selectTag(tag, { openPanel = false, scroll = false } = {}) {
+    if (!tag) {
+      return;
+    }
+
+    document.querySelectorAll("[data-tag-filter]").forEach((candidate) => {
+      candidate.classList.toggle("is-active", candidate.dataset.tagFilter === tag);
+    });
+    renderTagResults(tag);
+
+    const tagPanel = openPanel ? openTagDiscoveryPanel() : null;
+    const results = document.querySelector("[data-tag-results]");
+    if (scroll) {
+      (results || tagPanel)?.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    }
+  }
+
   function renderSearchResults(query) {
     const resultMount = document.querySelector("[data-page-search-results]");
     if (!resultMount) {
@@ -606,23 +639,17 @@
       }
 
       const tag = trigger.dataset.tagFilter;
-      document.querySelectorAll("[data-tag-filter]").forEach((candidate) => {
-        candidate.classList.toggle("is-active", candidate.dataset.tagFilter === tag);
+      selectTag(tag, {
+        openPanel: !document.querySelector("#tag-discovery")?.contains(trigger),
+        scroll: true,
       });
-      renderTagResults(tag);
-      const results = document.querySelector("[data-tag-results]");
-      const tagPanel = results?.closest(".home-panel");
-      if (tagPanel && !tagPanel.contains(trigger)) {
-        const accordion = tagPanel.closest("[data-exclusive-accordion]");
-        accordion?.querySelectorAll(".home-panel[open]").forEach((panel) => {
-          if (panel !== tagPanel) {
-            panel.removeAttribute("open");
-          }
-        });
-        tagPanel.setAttribute("open", "");
-      }
-      results?.scrollIntoView({ behavior: "smooth", block: "nearest" });
     });
+
+    const requestedTag = new URLSearchParams(window.location.search).get("tag");
+    if (requestedTag) {
+      selectTag(requestedTag, { openPanel: true, scroll: window.location.hash === "#tag-discovery" });
+      return;
+    }
 
     const firstTag = document.querySelector("[data-tag-cloud] [data-tag-filter]");
     if (firstTag) {

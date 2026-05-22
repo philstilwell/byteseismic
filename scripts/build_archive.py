@@ -9,7 +9,7 @@ from collections import defaultdict
 from datetime import date
 from pathlib import Path
 from typing import Iterable
-from urllib.parse import urlparse
+from urllib.parse import quote, urlparse
 
 import requests
 from bs4 import BeautifulSoup, Tag
@@ -6519,6 +6519,38 @@ def future_branch_link(title: str, built_path: str, prefix: str) -> str:
     return f'<a class="future-link" href="{html.escape(internal_article_href(prefix, built_path))}">{escaped_title}</a>'
 
 
+def tag_discovery_link(tag: str, prefix: str) -> str:
+    escaped_tag = html.escape(tag)
+    href = f"{prefix}index.html?tag={quote(tag, safe='')}#tag-discovery"
+    return (
+        f'<a class="tag-chip" href="{html.escape(href)}" '
+        f'aria-label="Show pages tagged {escaped_tag}">{escaped_tag}</a>'
+    )
+
+
+def link_static_tag_chips(target: Path) -> None:
+    if not target.exists():
+        return
+    try:
+        relative_parent = target.parent.relative_to(ROOT)
+    except ValueError:
+        return
+    depth = 0 if str(relative_parent) == "." else len(relative_parent.parts)
+    prefix = "../" * depth
+    content = target.read_text()
+
+    def replace_chip(match: re.Match[str]) -> str:
+        raw_tag = match.group(1)
+        tag = html.unescape(re.sub(r"<[^>]+>", "", raw_tag)).strip()
+        if not tag:
+            return match.group(0)
+        return tag_discovery_link(tag, prefix)
+
+    updated = re.sub(r'<span class="tag-chip">([^<]+)</span>', replace_chip, content)
+    if updated != content:
+        target.write_text(updated)
+
+
 def serial_join_html(items: list[str]) -> str:
     if not items:
         return ""
@@ -6655,7 +6687,7 @@ def render_article_page(page: dict) -> str:
         body_parts.append("\n".join(part for part in block if part))
 
     tags = tag_candidates(page, section_meta)
-    tag_html = "\n".join(f'                <span class="tag-chip">{html.escape(tag)}</span>' for tag in tags)
+    tag_html = "\n".join(f"                {tag_discovery_link(tag, prefix)}" for tag in tags)
     child_links = [
         future_branch_link(child["title"], child.get("built_path", ""), prefix)
         for child in page.get("children", [])[:6]
@@ -6886,7 +6918,7 @@ def render_glossary_cards(prefix: str = "") -> str:
             f'                    <a class="text-link" href="{html.escape(internal_article_href(prefix, path))}">{html.escape(path.strip("/").split("/")[-1].replace("-", " ").title())}</a>'
             for path in entry["paths"]
         )
-        tags = "".join(f'                    <span class="tag-chip">{html.escape(tag)}</span>' for tag in entry["tags"])
+        tags = "".join(f"                    {tag_discovery_link(tag, prefix)}" for tag in entry["tags"])
         cards.append(
             textwrap.dedent(
                 f"""\
@@ -8504,6 +8536,8 @@ def main() -> None:
     }
     site_data_js = "window.BYTESEISMIC_DATA = " + json.dumps(data, indent=2, ensure_ascii=False) + ";\n"
     (ROOT / "assets" / "js" / "site-data.js").write_text(site_data_js)
+    for target in valid_targets:
+        link_static_tag_chips(target)
     cleanup_auto_generated(valid_targets)
     write_robots_and_sitemap(generated_pages)
 
