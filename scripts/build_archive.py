@@ -6841,6 +6841,15 @@ def internal_article_href(prefix: str, built_path: str) -> str:
     return f"{prefix}{built_path.strip('/')}/"
 
 
+def breadcrumb_anchor(label: str, href: str) -> str:
+    return f'<a href="{html.escape(href)}">{html.escape(label)}</a>'
+
+
+def breadcrumb_trail_html(items: list[tuple[str, str]]) -> str:
+    anchors = [breadcrumb_anchor(label, href) for label, href in items if label and href]
+    return '<span>/</span>'.join(anchors)
+
+
 def future_branch_link(title: str, built_path: str, prefix: str) -> str:
     escaped_title = html.escape(title)
     if not built_path:
@@ -6969,9 +6978,9 @@ def render_article_page(page: dict) -> str:
     depth = len(Path(page_path.strip("/")).parts)
     prefix = "../" * depth
     breadcrumbs = [
-        f'<a href="{prefix}index.html">Home</a>',
-        f'<a href="{prefix}index.html#section-{page["section_id"]}">{html.escape(section_meta["name"])}</a>',
-        f"<span>{html.escape(page['title'])}</span>",
+        ("Home", f"{prefix}index.html"),
+        (section_meta["name"], f"{prefix}index.html#section-{page['section_id']}"),
+        (page["title"], internal_article_href(prefix, page["built_path"])),
     ]
     prompt_index_by_anchor = {anchor: index for index, (anchor, _text) in enumerate(prompts, start=1)}
     prompt_text_by_anchor = {anchor: text for anchor, text in prompts}
@@ -7126,7 +7135,7 @@ def render_article_page(page: dict) -> str:
                 />
                 <div class="hero__content">
                   <div class="breadcrumbs">
-                    {'<span>/</span>'.join(breadcrumbs)}
+                    {breadcrumb_trail_html(breadcrumbs)}
                   </div>
                   <p class="hero__kicker">{html.escape(section_meta["name"])}</p>
                   <h1>{html.escape(page["title"])}</h1>
@@ -7185,6 +7194,12 @@ def render_menu_structure_page() -> str:
             breadcrumb_json_ld([("Home", "/"), ("Site Map", "/menu-structure/")])
         ],
     )
+    breadcrumbs = breadcrumb_trail_html(
+        [
+            ("Home", "../index.html"),
+            ("Site Map", "../menu-structure/"),
+        ]
+    )
     return textwrap.dedent(
         f"""\
         {AUTO_MARKER}
@@ -7205,9 +7220,7 @@ def render_menu_structure_page() -> str:
                 />
                 <div class="hero__content">
                   <div class="breadcrumbs">
-                    <a href="../index.html">Home</a>
-                    <span>/</span>
-                    <span>Site Map</span>
+                    {breadcrumbs}
                   </div>
                   <p class="hero__kicker">Archive Map</p>
                   <h1>Site Map</h1>
@@ -7296,6 +7309,12 @@ def render_guided_reading_page() -> str:
         page_type="website",
         extra_json_ld=[breadcrumb_json_ld([("Home", "/"), ("Guided Reading Paths", "/guided-reading/")])],
     )
+    breadcrumbs = breadcrumb_trail_html(
+        [
+            ("Home", "../index.html"),
+            ("Guided Reading Paths", "../guided-reading/"),
+        ]
+    )
     return textwrap.dedent(
         f"""\
         {AUTO_MARKER}
@@ -7312,9 +7331,7 @@ def render_guided_reading_page() -> str:
                 <img class="hero__image" src="../assets/images/byteseismic-large-header-x.5-b-8000-x-800-px.png" alt="Byteseismic banner" />
                 <div class="hero__content">
                   <div class="breadcrumbs">
-                    <a href="../index.html">Home</a>
-                    <span>/</span>
-                    <span>Guided Reading Paths</span>
+                    {breadcrumbs}
                   </div>
                   <p class="hero__kicker">Reading Routes</p>
                   <h1>Guided Reading Paths</h1>
@@ -7354,6 +7371,12 @@ def render_glossary_page() -> str:
         page_type="website",
         extra_json_ld=[breadcrumb_json_ld([("Home", "/"), ("Concept Glossary", "/concept-glossary/")])],
     )
+    breadcrumbs = breadcrumb_trail_html(
+        [
+            ("Home", "../index.html"),
+            ("Concept Glossary", "../concept-glossary/"),
+        ]
+    )
     return textwrap.dedent(
         f"""\
         {AUTO_MARKER}
@@ -7370,9 +7393,7 @@ def render_glossary_page() -> str:
                 <img class="hero__image" src="../assets/images/byteseismic-large-header-x.5-b-8000-x-800-px.png" alt="Byteseismic banner" />
                 <div class="hero__content">
                   <div class="breadcrumbs">
-                    <a href="../index.html">Home</a>
-                    <span>/</span>
-                    <span>Concept Glossary</span>
+                    {breadcrumbs}
                   </div>
                   <p class="hero__kicker">Concept Index</p>
                   <h1>Concept Glossary</h1>
@@ -7423,6 +7444,12 @@ def render_branch_guide_page(section_id: str, pages: list[dict]) -> str:
         section=meta["name"],
         extra_json_ld=[breadcrumb_json_ld([("Home", "/"), (f"{meta['name']} Branch Guide", f"/branches/{section_id}/")])],
     )
+    breadcrumbs = breadcrumb_trail_html(
+        [
+            ("Home", "../../index.html"),
+            (meta["name"], f"../../index.html#section-{section_id}"),
+        ]
+    )
     return textwrap.dedent(
         f"""\
         {AUTO_MARKER}
@@ -7439,9 +7466,7 @@ def render_branch_guide_page(section_id: str, pages: list[dict]) -> str:
                 <img class="hero__image" src="../../assets/images/byteseismic-large-header-x.5-b-8000-x-800-px.png" alt="Byteseismic banner" />
                 <div class="hero__content">
                   <div class="breadcrumbs">
-                    <a href="../../index.html">Home</a>
-                    <span>/</span>
-                    <span>{html.escape(meta['name'])}</span>
+                    {breadcrumbs}
                   </div>
                   <p class="hero__kicker">Branch Guide</p>
                   <h1>{html.escape(meta['name'])}</h1>
@@ -7534,8 +7559,15 @@ def render_tag_archive_page(tag: str, tagged_pages: list[dict], tag_counts: dict
         path=path,
         prefix=prefix,
         page_type="website",
-        extra_json_ld=[breadcrumb_json_ld([("Home", "/"), (f"Tag: {tag}", path)])],
+        extra_json_ld=[breadcrumb_json_ld([("Home", "/"), ("Tag", "/#tag-discovery"), (f"Tag: {tag}", path)])],
         force_noindex=True,
+    )
+    breadcrumbs = breadcrumb_trail_html(
+        [
+            ("Home", "../../index.html"),
+            ("Tag", "../../index.html#tag-discovery"),
+            (tag, internal_article_href(prefix, path)),
+        ]
     )
     return textwrap.dedent(
         f"""\
@@ -7553,11 +7585,7 @@ def render_tag_archive_page(tag: str, tagged_pages: list[dict], tag_counts: dict
                 <img class="hero__image" src="../../assets/images/byteseismic-large-header-x.5-b-8000-x-800-px.png" alt="Byteseismic banner" />
                 <div class="hero__content">
                   <div class="breadcrumbs">
-                    <a href="../../index.html">Home</a>
-                    <span>/</span>
-                    <span>Tag</span>
-                    <span>/</span>
-                    <span>{html.escape(tag)}</span>
+                    {breadcrumbs}
                   </div>
                   <p class="hero__kicker">Tag Path</p>
                   <h1>{html.escape(tag)}</h1>
@@ -7654,6 +7682,12 @@ def render_expanded_archive_page(posts_by_year: dict[int, list[dict]], section_c
         page_type="website",
         force_noindex=True,
     )
+    breadcrumbs = breadcrumb_trail_html(
+        [
+            ("Home", "../index.html"),
+            ("Recent Posts — Expanded Version", "../recent-posts-expanded-version/"),
+        ]
+    )
 
     return textwrap.dedent(
         f"""\
@@ -7675,9 +7709,7 @@ def render_expanded_archive_page(posts_by_year: dict[int, list[dict]], section_c
                 />
                 <div class="hero__content">
                   <div class="breadcrumbs">
-                    <a href="../index.html">Home</a>
-                    <span>/</span>
-                    <span>Recent Posts — Expanded Version</span>
+                    {breadcrumbs}
                   </div>
                   <p class="hero__kicker">Expanded Archive</p>
                   <h1>Recent Posts — Expanded Version</h1>
@@ -7719,6 +7751,12 @@ def render_podcast_page() -> str:
         page_type="website",
         force_noindex=True,
     )
+    breadcrumbs = breadcrumb_trail_html(
+        [
+            ("Home", "../index.html"),
+            ("Byteseismic Podcasts", "../byteseismic-podcasts/"),
+        ]
+    )
     return textwrap.dedent(
         f"""\
         {AUTO_MARKER}
@@ -7739,9 +7777,7 @@ def render_podcast_page() -> str:
                 />
                 <div class="hero__content">
                   <div class="breadcrumbs">
-                    <a href="../index.html">Home</a>
-                    <span>/</span>
-                    <span>Byteseismic Podcasts</span>
+                    {breadcrumbs}
                   </div>
                   <p class="hero__kicker">Podcast</p>
                   <h1>Byteseismic Podcasts</h1>
@@ -7939,6 +7975,12 @@ def render_quality_review_page(report: dict) -> str:
         page_type="website",
         force_noindex=True,
     )
+    breadcrumbs = breadcrumb_trail_html(
+        [
+            ("Home", "../index.html"),
+            ("Quality Review", "../quality-review/"),
+        ]
+    )
     issue_counts = editorial_audit.get("issueCounts", {})
     if issue_counts:
         issue_items = "\n".join(
@@ -8008,9 +8050,7 @@ def render_quality_review_page(report: dict) -> str:
                 />
                 <div class="hero__content">
                   <div class="breadcrumbs">
-                    <a href="../index.html">Home</a>
-                    <span>/</span>
-                    <span>Quality Review</span>
+                    {breadcrumbs}
                   </div>
                   <p class="hero__kicker">Internal Ledger</p>
                   <h1>Quality Review</h1>
