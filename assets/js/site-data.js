@@ -3011,10 +3011,10 @@ window.BYTESEISMIC_DATA = {
       ]
     },
     {
-      "title": "Bertrand Russel",
+      "title": "Bertrand Russell",
       "section": "Philosophers",
       "path": "/philosophers/bertrand-russell/",
-      "summary": "A page on Bertrand Russel, written to clarify its role inside the Philosophers branch.",
+      "summary": "A page on Bertrand Russell, written to clarify its role inside the Philosophers branch.",
       "tags": [
         "philosophers",
         "branch-map"
@@ -3561,10 +3561,10 @@ window.BYTESEISMIC_DATA = {
       ]
     },
     {
-      "title": "Charting Russel",
+      "title": "Charting Russell",
       "section": "Philosophers",
       "path": "/philosophers/charting-russell/",
-      "summary": "A terrain map of Russel, showing which themes, alignments, and tensions define the wider philosophical landscape.",
+      "summary": "A terrain map of Russell, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
         "philosophers",
         "comparison"
@@ -4253,10 +4253,10 @@ window.BYTESEISMIC_DATA = {
       ]
     },
     {
-      "title": "Dialoguing with Russel",
+      "title": "Dialoguing with Russell",
       "section": "Philosophers",
       "path": "/philosophers/dialoguing-with-russell/",
-      "summary": "A guided encounter with Russel that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
+      "summary": "A guided encounter with Russell that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
         "philosophers",
         "dialogue"
@@ -7877,9 +7877,9 @@ window.BYTESEISMIC_DATA = {
     "Dialoguing with Berkeley": "/philosophers/dialoguing-with-berkeley/",
     "Charting Berkeley": "/philosophers/charting-berkeley/",
     "Analytic Philosophers": "/philosophers/analytic-philosophers/",
-    "Bertrand Russel": "/philosophers/bertrand-russell/",
-    "Dialoguing with Russel": "/philosophers/dialoguing-with-russell/",
-    "Charting Russel": "/philosophers/charting-russell/",
+    "Bertrand Russell": "/philosophers/bertrand-russell/",
+    "Dialoguing with Russell": "/philosophers/dialoguing-with-russell/",
+    "Charting Russell": "/philosophers/charting-russell/",
     "Ludwig Wittgenstein": "/philosophers/ludwig-wittgenstein/",
     "Dialoguing with Wittgenstein": "/philosophers/dialoguing-with-wittgenstein/",
     "Charting Wittgenstein": "/philosophers/charting-wittgenstein/",
@@ -10623,15 +10623,15 @@ window.BYTESEISMIC_DATA = {
           "path": "/philosophers/analytic-philosophers/",
           "children": [
             {
-              "title": "Bertrand Russel",
+              "title": "Bertrand Russell",
               "path": "/philosophers/bertrand-russell/",
               "children": [
                 {
-                  "title": "Dialoguing with Russel",
+                  "title": "Dialoguing with Russell",
                   "path": "/philosophers/dialoguing-with-russell/"
                 },
                 {
-                  "title": "Charting Russel",
+                  "title": "Charting Russell",
                   "path": "/philosophers/charting-russell/"
                 }
               ]

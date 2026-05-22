@@ -74,7 +74,7 @@ Pattern issues found: 0
 - `exceptional` 97 [Epistemology / Abduction: Utility and Issues#prompt-2](../epistemology/abduction-utility-and-issues/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `exceptional` 97 [Ethics / Compassion vs Moral Systems#prompt-1](../ethics/compassion-vs-moral-systems/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `exceptional` 97 [Philosophers / Baruch Spinoza#prompt-1](../philosophers/baruch-spinoza/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
-- `exceptional` 97 [Philosophers / Bertrand Russel#prompt-1](../philosophers/bertrand-russell/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 97 [Philosophers / Bertrand Russell#prompt-1](../philosophers/bertrand-russell/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 97 [Philosophers / Charles Sanders Peirce#prompt-1](../philosophers/charles-sanders-peirce/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 97 [Philosophers / Edmund Husserl#prompt-1](../philosophers/edmund-husserl/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 97 [Philosophers / Epictetus#prompt-1](../philosophers/epictetus/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
@@ -309,7 +309,7 @@ These are the lowest-scoring sections relative to the rest of the archive. Stron
 - `exceptional` 97 [Ethics / Compassion vs Moral Systems#prompt-1](../ethics/compassion-vs-moral-systems/#prompt-1): The section has enough source structure and explanatory density for now.
 - `exceptional` 97 [Metaphysics / The Beginning of Time#prompt-2](../metaphysics/the-beginning-of-time/#prompt-2): The section has enough source structure and explanatory density for now.
 - `exceptional` 97 [Philosophers / Baruch Spinoza#prompt-1](../philosophers/baruch-spinoza/#prompt-1): The section has enough source structure and explanatory density for now.
-- `exceptional` 97 [Philosophers / Bertrand Russel#prompt-1](../philosophers/bertrand-russell/#prompt-1): The section has enough source structure and explanatory density for now.
+- `exceptional` 97 [Philosophers / Bertrand Russell#prompt-1](../philosophers/bertrand-russell/#prompt-1): The section has enough source structure and explanatory density for now.
 - `exceptional` 97 [Philosophers / Charles Sanders Peirce#prompt-1](../philosophers/charles-sanders-peirce/#prompt-1): The section has enough source structure and explanatory density for now.
 - `exceptional` 97 [Philosophers / Edmund Husserl#prompt-1](../philosophers/edmund-husserl/#prompt-1): The section has enough source structure and explanatory density for now.
 - `exceptional` 97 [Philosophers / Epictetus#prompt-1](../philosophers/epictetus/#prompt-1): The section has enough source structure and explanatory density for now.
