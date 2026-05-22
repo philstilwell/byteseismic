@@ -717,14 +717,14 @@
               </div>
             </div>
             <div class="context-rail__accordion" data-exclusive-accordion>
-              <details class="context-rail__group"${sectionLinks.length <= 5 ? " open" : ""}>
+              <details class="context-rail__group">
                 <summary>
                   <span>Page sections</span>
                   <span class="context-rail__count">${sectionLinks.length}</span>
                 </summary>
                 <ul class="context-rail__list">${sectionList}</ul>
               </details>
-              <details class="context-rail__group"${relatedLinks.length <= 5 ? " open" : ""}>
+              <details class="context-rail__group">
                 <summary>
                   <span>${page ? "Nearby in branch" : "Related links"}</span>
                   <span class="context-rail__count">${relatedLinks.length}</span>
