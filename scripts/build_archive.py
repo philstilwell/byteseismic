@@ -131,6 +131,7 @@ SECTION_META = {
 }
 
 SECTION_IDS = tuple(SECTION_META.keys())
+PUBLIC_FORMAT_TAGS = {"primer", "dialogue", "comparison", "branch-map"}
 GROUP_PAGE_TITLES = {
     "Site Map": "/menu-structure/",
     "Recent Posts — Expanded Version": "/recent-posts-expanded-version/",
@@ -3367,12 +3368,22 @@ def discovery_tag_candidates(page: dict, section_meta: dict) -> list[str]:
             tags.append(tag)
 
     page_tags = tag_candidates(page, section_meta)
+    vocabulary = curated_tag_vocabulary()
     for tag in page_tags:
         if tag in section_meta["futureTags"]:
             continue
-        if not re.match(r"^\d", tag) and is_discovery_safe_tag(tag):
+        if tag in vocabulary and not re.match(r"^\d", tag) and is_discovery_safe_tag(tag):
             tags.append(tag)
     return dedupe(tags)[:7]
+
+
+def curated_tag_vocabulary() -> set[str]:
+    vocabulary = set(SECTION_IDS) | set(PUBLIC_FORMAT_TAGS)
+    for meta in SECTION_META.values():
+        vocabulary.update(meta["futureTags"])
+    for entry in GLOSSARY_TERMS:
+        vocabulary.update(entry.get("tags", []))
+    return vocabulary
 
 
 def is_discovery_safe_tag(tag: str) -> bool:
