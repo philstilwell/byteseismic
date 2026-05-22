@@ -8,10 +8,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/introduction/what-is-philosophy/",
       "summary": "A page on Philosophy, written to clarify its role inside the Introduction branch.",
       "tags": [
-        "orientation",
-        "study-of-philosophy",
-        "introductory-philosophy",
-        "careers"
+        "introduction",
+        "primer",
+        "philosophy"
       ]
     },
     {
@@ -20,10 +19,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/what-is-truth/",
       "summary": "A page on Truth, written to clarify its role inside the Philosophical Inquiry branch.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "primer",
+        "truth"
       ]
     },
     {
@@ -32,10 +30,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/the-mindset-of-the-honest-seeker/",
       "summary": "A page on The Mindset of the Honest Seeker, written to clarify its role inside the Philosophical Inquiry branch.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "branch-map",
+        "mindset",
+        "honest",
+        "seeker"
       ]
     },
     {
@@ -44,11 +43,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/what-is-belief/",
       "summary": "A page on Belief, written to clarify its role inside the Epistemology branch.",
       "tags": [
+        "epistemology",
+        "primer",
         "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "evidence"
       ]
     },
     {
@@ -57,11 +55,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/what-is-science/",
       "summary": "A page on Science, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
-        "science",
-        "method",
-        "induction",
-        "causation",
-        "falsifiability"
+        "philosophy-of-science",
+        "primer",
+        "science"
       ]
     },
     {
@@ -70,11 +66,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-mind/where-consciousness-can-must-emerge/",
       "summary": "A page on Where Consciousness Can & Must Emerge, written to clarify its role inside the Philosophy of Mind branch.",
       "tags": [
+        "philosophy-of-mind",
         "consciousness",
-        "cognition",
-        "free-will",
-        "neuroscience",
-        "subjectivity"
+        "must",
+        "emerge"
       ]
     },
     {
@@ -83,11 +78,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-ai/assessing-ai-alignment-with-truth/",
       "summary": "A page on Assessing AI Alignment with Truth, written to clarify its role inside the Philosophy of AI branch.",
       "tags": [
+        "philosophy-of-ai",
         "ai",
-        "prompting",
         "alignment",
-        "bias",
-        "public-discourse"
+        "assessing",
+        "truth"
       ]
     },
     {
@@ -96,11 +91,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/categories-of-questions/",
       "summary": "A page on Categories of Questions, written to clarify its role inside the Rational Thought branch.",
       "tags": [
+        "rational-thought",
         "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "categories",
+        "questions"
       ]
     },
     {
@@ -109,11 +103,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/humanistic-philosophies/stoicism-key-concepts/",
       "summary": "A page on Stoicism: Key Concepts, written to clarify its role inside the Humanistic Philosophies branch.",
       "tags": [
-        "meaning",
+        "humanistic-philosophies",
         "stoicism",
-        "existentialism",
-        "religion",
-        "human-nature"
+        "concepts"
       ]
     },
     {
@@ -122,11 +114,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-epictetus/",
       "summary": "A guided encounter with Epictetus that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "epictetus"
       ]
     },
     {
@@ -135,11 +125,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-aquinas/",
       "summary": "A guided encounter with Aquinas that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "aquinas"
       ]
     },
     {
@@ -148,11 +136,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-quine/",
       "summary": "A guided encounter with Quine that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "quine"
       ]
     },
     {
@@ -161,11 +147,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-merleau-ponty/",
       "summary": "A guided encounter with Merleau-Ponty that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "merleau",
+        "ponty"
       ]
     },
     {
@@ -174,11 +159,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-language/abandoned-words/",
       "summary": "A page on Abandoned Words, written to clarify its role inside the Philosophy of Language branch.",
       "tags": [
-        "language",
-        "semantics",
-        "metaphor",
-        "grammar",
-        "equivocation"
+        "philosophy-of-language",
+        "abandoned",
+        "words"
       ]
     },
     {
@@ -187,11 +170,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/metaphysics/a-taxonomy-of-impossibilities/",
       "summary": "A page on A Taxonomy of Impossibilities, written to clarify its role inside the Metaphysics branch.",
       "tags": [
-        "reality",
-        "emergence",
-        "materialism",
-        "dualism",
-        "nihilism"
+        "metaphysics",
+        "taxonomy",
+        "impossibilities"
       ]
     },
     {
@@ -201,11 +182,8 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on A History of Golden Rules, written to clarify its role inside the Ethics branch.",
       "tags": [
         "ethics",
-        "meta-ethics",
-        "culpability",
-        "moral-realism",
-        "human-rights",
-        "golden-rules"
+        "golden-rules",
+        "history"
       ]
     },
     {
@@ -215,10 +193,6 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on A Living Wage, written to clarify its role inside the Economics branch.",
       "tags": [
         "economics",
-        "incentives",
-        "risk",
-        "public-policy",
-        "future-of-work",
         "living-wage"
       ]
     },
@@ -228,11 +202,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/political-philosophy/ai-the-us-political-divide/",
       "summary": "A page on AI & the US Political Divide, written to clarify its role inside the Political Philosophy branch.",
       "tags": [
+        "political-philosophy",
         "politics",
-        "social-contract",
-        "identity",
-        "institutions",
-        "public-trust"
+        "political",
+        "divide"
       ]
     },
     {
@@ -241,88 +214,1218 @@ window.BYTESEISMIC_DATA = {
       "path": "/miscellany/assembly-theory/",
       "summary": "A page on Assembly Theory, written to clarify its role inside the Miscellany branch.",
       "tags": [
-        "aesthetics",
-        "history",
+        "miscellany",
         "complexity",
-        "information",
-        "wisdom"
+        "assembly",
+        "theory"
+      ]
+    }
+  ],
+  "guidedReadingPaths": [
+    {
+      "id": "start-here",
+      "title": "Start Here: Philosophy Without Losing the Thread",
+      "summary": "A first route for readers who want the archive to feel navigable before it becomes wonderfully unruly.",
+      "audience": "New and returning readers",
+      "steps": [
+        {
+          "title": "What Is Philosophy?",
+          "path": "/introduction/what-is-philosophy/",
+          "reason": "Begin with the activity itself: philosophy as disciplined clarification rather than free-floating opinion."
+        },
+        {
+          "title": "What Is Truth?",
+          "path": "/philosophical-inquiry/what-is-truth/",
+          "reason": "Move next to the archive's central pressure: what it means for inquiry to answer to reality."
+        },
+        {
+          "title": "What Is Belief?",
+          "path": "/epistemology/what-is-belief/",
+          "reason": "Separate assent, confidence, evidence, and action-guiding commitment before the branches multiply."
+        },
+        {
+          "title": "Categories of Questions",
+          "path": "/rational-thought/categories-of-questions/",
+          "reason": "Learn which questions call for empirical testing, conceptual analysis, prudential judgment, or moral argument."
+        }
+      ]
+    },
+    {
+      "id": "epistemic-discipline",
+      "title": "Epistemic Discipline: Belief, Evidence, and Responsible Confidence",
+      "summary": "A route through the archive's standards for holding, revising, suspending, or rejecting claims.",
+      "audience": "Readers interested in knowledge, doubt, and calibration",
+      "steps": [
+        {
+          "title": "What Is Belief?",
+          "path": "/epistemology/what-is-belief/",
+          "reason": "Start with the difference between binary belief-talk and graded confidence."
+        },
+        {
+          "title": "Adequate Evidence",
+          "path": "/epistemology/adequate-evidence/",
+          "reason": "Ask what kind and amount of support a claim needs before belief becomes responsible."
+        },
+        {
+          "title": "Operational Epistemic Rigor",
+          "path": "/epistemology/operational-epistemic-rigor/",
+          "reason": "Turn epistemic virtue into habits that can be used under actual pressure."
+        },
+        {
+          "title": "What Is Science?",
+          "path": "/philosophy-of-science/what-is-science/",
+          "reason": "See how public methods discipline belief without pretending science is the only form of inquiry."
+        }
+      ]
+    },
+    {
+      "id": "metaethics-without-fog",
+      "title": "Metaethics Without the Fog Machine",
+      "summary": "A route for keeping moral realism, moral non-realism, recommendation, obligation, and equivocation distinct.",
+      "audience": "Readers willing to let moral language become difficult before it becomes clearer",
+      "steps": [
+        {
+          "title": "Recommendations vs Moral Claims",
+          "path": "/ethics/recommendations-vs-moral-claims/",
+          "reason": "Separate advice, preference, prudence, and moral demand before arguing over conclusions."
+        },
+        {
+          "title": "Fictional Meta-Ethics Debate",
+          "path": "/ethics/fictional-meta-ethics-debate/",
+          "reason": "Watch positions collide in dialogue rather than pretending a taxonomy has settled the dispute."
+        },
+        {
+          "title": "Equivocation on “Wrong”",
+          "path": "/ethics/equivocation-on-wrong/",
+          "reason": "Track how a single moral word can slide among pragmatic, social, legal, and objective senses."
+        },
+        {
+          "title": "Compassion vs Moral Systems",
+          "path": "/ethics/compassion-vs-moral-systems/",
+          "reason": "Test whether moral warmth can replace moral structure, or whether both need each other."
+        }
+      ]
+    },
+    {
+      "id": "ai-and-truth",
+      "title": "AI and Truth: Prompting as an Epistemic Practice",
+      "summary": "A route through the archive's internal experiment: using AI while refusing to outsource judgment to it.",
+      "audience": "Readers interested in AI, truthfulness, prompting, and human responsibility",
+      "steps": [
+        {
+          "title": "Assessing AI Alignment with Truth",
+          "path": "/philosophy-of-ai/assessing-ai-alignment-with-truth/",
+          "reason": "Start with the question of whether fluent systems are actually answerable to truth."
+        },
+        {
+          "title": "Precision Prompting",
+          "path": "/philosophy-of-ai/precision-prompting/",
+          "reason": "Treat prompting as a discipline of question design rather than a bag of magic words."
+        },
+        {
+          "title": "AI Reasoning Case Study",
+          "path": "/epistemology/ai-reasoning-case-study/",
+          "reason": "Inspect how a model reasons when asked to explain, revise, and justify its answer."
+        },
+        {
+          "title": "Operational Epistemic Rigor",
+          "path": "/epistemology/operational-epistemic-rigor/",
+          "reason": "Return responsibility to the human evaluator: the final judgment still has to be earned."
+        }
+      ]
+    },
+    {
+      "id": "philosophers-as-voices",
+      "title": "Philosophers as Voices, Not Nameplates",
+      "summary": "A route through philosopher pages where method, style, and objection matter as much as doctrine.",
+      "audience": "Readers who want thinkers to feel encounterable rather than embalmed",
+      "steps": [
+        {
+          "title": "Dialoguing with Epictetus",
+          "path": "/philosophers/dialoguing-with-epictetus/",
+          "reason": "Begin with a voice that makes philosophy practical, stern, and strangely relieving."
+        },
+        {
+          "title": "Dialoguing with Aquinas",
+          "path": "/philosophers/dialoguing-with-aquinas/",
+          "reason": "Watch a systematic mind move through objection, answer, and reply."
+        },
+        {
+          "title": "Dialoguing with Nagarjuna",
+          "path": "/philosophers/dialoguing-with-nagarjuna/",
+          "reason": "Use dialogue to feel how anti-essentialist pressure changes the shape of a question."
+        },
+        {
+          "title": "Dialoguing with Marcus Aurelius",
+          "path": "/philosophers/dialoguing-with-marcus-aurelius/",
+          "reason": "End with philosophy as daily discipline rather than merely theoretical allegiance."
+        }
+      ]
+    }
+  ],
+  "glossaryTerms": [
+    {
+      "term": "Abduction",
+      "definition": "Inference to the best explanation: reasoning from observed facts toward the explanation that would make them most intelligible.",
+      "branch": "Epistemology",
+      "paths": [
+        "/epistemology/abduction-utility-and-issues/"
+      ],
+      "tags": [
+        "inference",
+        "explanation"
+      ]
+    },
+    {
+      "term": "Adequate evidence",
+      "definition": "Support strong enough for the claim being made, given the stakes, alternatives, error costs, and available methods of checking.",
+      "branch": "Epistemology",
+      "paths": [
+        "/epistemology/adequate-evidence/"
+      ],
+      "tags": [
+        "evidence",
+        "justification"
+      ]
+    },
+    {
+      "term": "Belief",
+      "definition": "An action-guiding commitment or confidence state that may be binary in ordinary speech but often needs to be graded in careful reasoning.",
+      "branch": "Epistemology",
+      "paths": [
+        "/epistemology/what-is-belief/"
+      ],
+      "tags": [
+        "belief",
+        "credence"
+      ]
+    },
+    {
+      "term": "Credence",
+      "definition": "A degree of confidence rather than a simple yes-or-no belief; useful when evidence supports partial confidence.",
+      "branch": "Epistemology",
+      "paths": [
+        "/epistemology/case-1-credence-complexity/",
+        "/epistemology/what-is-belief/"
+      ],
+      "tags": [
+        "belief",
+        "probability"
+      ]
+    },
+    {
+      "term": "Correspondence",
+      "definition": "The idea that truth depends on how claims relate to reality, not merely on usefulness, coherence, or social endorsement.",
+      "branch": "Philosophical Inquiry",
+      "paths": [
+        "/philosophical-inquiry/what-is-truth/"
+      ],
+      "tags": [
+        "truth",
+        "reality"
+      ]
+    },
+    {
+      "term": "Equivocation",
+      "definition": "A reasoning failure in which the same word shifts meaning across an argument while pretending to remain stable.",
+      "branch": "Philosophy of Language",
+      "paths": [
+        "/ethics/equivocation-on-wrong/",
+        "/philosophy-of-language/what-is-etymology/"
+      ],
+      "tags": [
+        "language",
+        "fallacies"
+      ]
+    },
+    {
+      "term": "Induction",
+      "definition": "Reasoning from observed patterns toward broader expectations, always carrying the question of how far the pattern may responsibly travel.",
+      "branch": "Philosophy of Science",
+      "paths": [
+        "/epistemology/induction-utility-and-issues/",
+        "/philosophy-of-science/is-logic-acquired-inductively/"
+      ],
+      "tags": [
+        "induction",
+        "science"
+      ]
+    },
+    {
+      "term": "Moral realism",
+      "definition": "The view that at least some moral claims are true independently of individual preference or social approval.",
+      "branch": "Ethics",
+      "paths": [
+        "/ethics/fictional-meta-ethics-debate/",
+        "/ethics/recommendations-vs-moral-claims/"
+      ],
+      "tags": [
+        "meta-ethics",
+        "moral-realism"
+      ]
+    },
+    {
+      "term": "Moral non-realism",
+      "definition": "A family of views denying that moral claims describe objective moral facts in the realist sense, while still allowing moral language to do important work.",
+      "branch": "Ethics",
+      "paths": [
+        "/ethics/fictional-meta-ethics-debate/",
+        "/ethics/recommendations-vs-moral-claims/"
+      ],
+      "tags": [
+        "meta-ethics",
+        "moral-non-realism"
+      ]
+    },
+    {
+      "term": "Normativity",
+      "definition": "The force of should, ought, reason, permission, or obligation; the dimension of a claim that purports to guide action or evaluation.",
+      "branch": "Ethics",
+      "paths": [
+        "/ethics/recommendations-vs-moral-claims/",
+        "/ethics/equivocation-on-wrong/"
+      ],
+      "tags": [
+        "ethics",
+        "normativity"
+      ]
+    },
+    {
+      "term": "Operational rigor",
+      "definition": "The habit of translating high-minded standards into visible practices: checks, thresholds, tests, objections, and revision procedures.",
+      "branch": "Epistemology",
+      "paths": [
+        "/epistemology/operational-epistemic-rigor/"
+      ],
+      "tags": [
+        "epistemology",
+        "method"
+      ]
+    },
+    {
+      "term": "Prompting",
+      "definition": "Question design for human-machine dialogue; at its best, a way of shaping the epistemic pressure under which an answer is produced.",
+      "branch": "Philosophy of AI",
+      "paths": [
+        "/philosophy-of-ai/precision-prompting/",
+        "/philosophy-of-ai/assessing-ai-alignment-with-truth/"
+      ],
+      "tags": [
+        "ai",
+        "prompting"
+      ]
+    },
+    {
+      "term": "Scientism",
+      "definition": "The overextension of scientific authority into domains where empirical method may inform inquiry without exhausting it.",
+      "branch": "Philosophy of Science",
+      "paths": [
+        "/philosophy-of-science/scientism-faith/",
+        "/philosophy-of-science/what-is-science/"
+      ],
+      "tags": [
+        "science",
+        "method"
+      ]
+    },
+    {
+      "term": "Steel-manning",
+      "definition": "Reconstructing an opponent's position in its strongest plausible form before criticizing it.",
+      "branch": "Philosophical Inquiry",
+      "paths": [
+        "/philosophical-inquiry/charitable-engagement/"
+      ],
+      "tags": [
+        "charitable-engagement",
+        "argument"
+      ]
+    },
+    {
+      "term": "Worldview",
+      "definition": "A broad interpretive frame that organizes what a person treats as real, valuable, knowable, and worth doing.",
+      "branch": "Philosophical Inquiry",
+      "paths": [
+        "/philosophical-inquiry/do-i-need-a-worldview/"
+      ],
+      "tags": [
+        "worldviews",
+        "inquiry"
       ]
     }
   ],
   "landingTags": [
-    "aesthetics",
-    "ai",
-    "alignment",
-    "bayes",
-    "belief",
-    "bias",
-    "careers",
-    "causation",
-    "charitable-engagement",
-    "cognition",
-    "complexity",
-    "consciousness",
-    "credence",
-    "culpability",
-    "decision-making",
-    "dualism",
-    "economics",
-    "emergence",
-    "equivocation",
+    "primer",
+    "dialogue",
+    "comparison",
+    "branch-map",
+    "introduction",
+    "philosophical-inquiry",
+    "epistemology",
+    "rational-thought",
+    "philosophy-of-science",
+    "philosophy-of-language",
+    "philosophy-of-mind",
+    "metaphysics",
     "ethics",
+    "humanistic-philosophies",
+    "economics",
+    "philosophy-of-ai",
+    "political-philosophy",
+    "philosophers",
+    "miscellany",
+    "bias",
+    "belief",
     "evidence",
-    "existentialism",
-    "fallacies",
-    "falsifiability",
-    "framing",
-    "free-will",
-    "future-of-work",
-    "grammar",
-    "history",
-    "human-nature",
-    "human-rights",
-    "hume",
-    "identity",
-    "incentives",
-    "induction",
-    "information",
-    "institutions",
-    "introductory-philosophy",
-    "kant",
+    "bayes",
     "knowledge",
-    "language",
+    "credence",
     "logic",
-    "materialism",
-    "meaning",
-    "meta-ethics",
-    "metaphor",
-    "method",
-    "moral-realism",
-    "neuroscience",
-    "nietzsche",
-    "nihilism",
-    "orientation",
-    "plato",
-    "politics",
-    "prompting",
-    "public-discourse",
-    "public-policy",
-    "public-trust",
-    "reality",
-    "religion",
-    "risk",
-    "science",
-    "semantics",
-    "social-contract",
-    "socrates",
     "statistics",
-    "stoicism",
-    "study-of-philosophy",
+    "framing",
+    "science",
+    "method",
+    "induction",
+    "causation",
+    "language",
+    "grammar",
+    "equivocation",
+    "consciousness",
+    "cognition",
+    "free-will",
     "subjectivity",
-    "truth-seeking",
-    "wisdom",
-    "worldviews"
+    "reality",
+    "emergence",
+    "meta-ethics",
+    "culpability",
+    "moral-realism",
+    "human-rights",
+    "meaning",
+    "stoicism",
+    "existentialism"
   ],
+  "tagCounts": {
+    "abandoned": 1,
+    "abduction": 1,
+    "absolute": 1,
+    "abstraction": 1,
+    "abuse": 2,
+    "accessibility": 1,
+    "accounting": 1,
+    "acquired": 1,
+    "acts": 1,
+    "adequate": 1,
+    "adorno": 3,
+    "aesthetic": 1,
+    "aesthetics": 2,
+    "ai": 29,
+    "alignment": 1,
+    "altruistic": 1,
+    "always": 1,
+    "analogies": 1,
+    "analogy": 1,
+    "analytic": 1,
+    "ancient": 1,
+    "anscombe": 3,
+    "anselm": 3,
+    "anthropomorphized": 1,
+    "anti": 2,
+    "apologetics": 1,
+    "application": 1,
+    "appreciating": 1,
+    "aquinas": 4,
+    "arendt": 3,
+    "argument": 1,
+    "argumentative": 1,
+    "arguments": 1,
+    "aristotle": 3,
+    "assembly": 1,
+    "assessing": 3,
+    "assessment": 1,
+    "assessments": 1,
+    "assisted": 1,
+    "assuming": 1,
+    "astrology": 1,
+    "asymmetric": 1,
+    "asymmetry": 1,
+    "attractors": 1,
+    "attributions": 1,
+    "augustine": 3,
+    "aurelius": 3,
+    "authentic": 1,
+    "autism": 1,
+    "averages": 1,
+    "averroes": 3,
+    "avicenna": 3,
+    "avoiding": 2,
+    "awareness": 1,
+    "awry": 1,
+    "axiology": 1,
+    "babies": 1,
+    "baruch": 1,
+    "basic": 1,
+    "basics": 3,
+    "basis": 1,
+    "bayes": 2,
+    "beauvoir": 3,
+    "beginning": 1,
+    "behavioral": 1,
+    "belief": 14,
+    "beliefs": 1,
+    "benjamin": 3,
+    "berkeley": 3,
+    "bertrand": 1,
+    "bias": 3,
+    "biases": 1,
+    "bimodal": 1,
+    "binarizing": 1,
+    "binary": 1,
+    "black": 2,
+    "blunders": 1,
+    "both": 1,
+    "boxes": 2,
+    "brain": 2,
+    "branch-map": 114,
+    "buffet": 1,
+    "burden-of-proof": 1,
+    "business": 1,
+    "butler": 3,
+    "calculating": 1,
+    "canterbury": 1,
+    "capabilities": 1,
+    "careers": 1,
+    "carrot": 1,
+    "cascading": 1,
+    "case-studies": 2,
+    "case-study": 1,
+    "categories": 2,
+    "causal": 1,
+    "causation": 4,
+    "cause": 1,
+    "censorship": 1,
+    "certainty": 2,
+    "chain": 1,
+    "chains": 1,
+    "change": 1,
+    "changed": 1,
+    "chaos": 1,
+    "characteristics": 1,
+    "charitable": 1,
+    "charitable-engagement": 1,
+    "charles": 4,
+    "checking": 1,
+    "chemical": 1,
+    "chivalry": 1,
+    "choices": 1,
+    "chomsky": 1,
+    "christian": 1,
+    "christianity": 1,
+    "circularity": 2,
+    "claims": 2,
+    "club": 1,
+    "cognition": 3,
+    "cognitive": 4,
+    "coherent": 1,
+    "cold": 1,
+    "collapsing": 1,
+    "comfort": 1,
+    "common": 1,
+    "comparison": 67,
+    "comparisons": 2,
+    "compassion": 1,
+    "competing": 1,
+    "complexity": 10,
+    "concepts": 13,
+    "conclusions": 1,
+    "conditions": 1,
+    "confidentiality": 1,
+    "confounding": 1,
+    "confucius": 3,
+    "connotative": 1,
+    "consciousness": 5,
+    "considerations": 2,
+    "consistency": 1,
+    "conspiracies": 1,
+    "constitute": 1,
+    "constrained": 1,
+    "content": 1,
+    "continental": 1,
+    "convention": 1,
+    "convergence": 1,
+    "correlation": 2,
+    "cosmic": 1,
+    "could": 1,
+    "counterfactual": 1,
+    "counterfactuals": 1,
+    "covid19": 1,
+    "creation": 1,
+    "credence": 5,
+    "credences": 1,
+    "credencing": 1,
+    "credibility": 2,
+    "critical": 2,
+    "critical-race-theory": 1,
+    "cromwell-s": 1,
+    "cross": 1,
+    "culpability": 3,
+    "cultural": 1,
+    "culture": 1,
+    "danger": 1,
+    "dangers": 1,
+    "daniel": 1,
+    "darwin": 1,
+    "data": 1,
+    "david": 2,
+    "deacon": 1,
+    "debate": 1,
+    "decision-making": 1,
+    "decisions": 1,
+    "deduction": 2,
+    "deep": 1,
+    "defends": 1,
+    "deflationary": 1,
+    "deflecting": 1,
+    "deism": 1,
+    "demarcation": 1,
+    "denial": 1,
+    "dennett": 3,
+    "density": 2,
+    "dependent": 1,
+    "depth": 3,
+    "derrida": 3,
+    "descartes": 3,
+    "descent": 1,
+    "design": 3,
+    "design-thinking": 1,
+    "detecting": 1,
+    "determinism": 1,
+    "dewey": 3,
+    "dialogue": 77,
+    "disagreements": 1,
+    "discourse": 2,
+    "discussion": 1,
+    "disinclination": 1,
+    "dismal": 1,
+    "dispositions": 1,
+    "dissipating": 1,
+    "distributions": 1,
+    "diverse": 1,
+    "diversity": 1,
+    "divide": 1,
+    "divine": 1,
+    "divine-command-theory": 1,
+    "dogmatism": 1,
+    "domain": 1,
+    "domains": 2,
+    "don-t": 1,
+    "double": 1,
+    "doubt": 3,
+    "doxastic": 1,
+    "dualism": 1,
+    "duns": 3,
+    "dynamical": 1,
+    "dynamics": 2,
+    "eclectic": 1,
+    "economic": 5,
+    "economic-thought": 1,
+    "economics": 30,
+    "economicus": 1,
+    "edge": 1,
+    "edge-case": 1,
+    "edmund": 1,
+    "education": 1,
+    "egocentrism": 1,
+    "egoistic": 1,
+    "electoral": 1,
+    "elements": 3,
+    "elitzur": 1,
+    "elizabeth": 3,
+    "emerge": 1,
+    "emergence": 7,
+    "emerging": 1,
+    "emotion": 1,
+    "emotional": 1,
+    "emotions": 2,
+    "empathy": 1,
+    "empiricism": 1,
+    "energy": 1,
+    "engagement": 1,
+    "enriched": 1,
+    "entities": 1,
+    "entitlements": 1,
+    "environment": 1,
+    "epictetus": 3,
+    "epicurus": 3,
+    "epistemic": 3,
+    "epistemological": 2,
+    "epistemology": 72,
+    "equivalencies": 1,
+    "equivocation": 2,
+    "error": 1,
+    "essay": 1,
+    "essence": 1,
+    "establishing": 3,
+    "ethical": 3,
+    "ethics": 37,
+    "etiology": 1,
+    "etymology": 1,
+    "event": 1,
+    "evidence": 22,
+    "evidences": 1,
+    "evident": 3,
+    "evil": 2,
+    "evolution": 2,
+    "existentialism": 4,
+    "experiment": 2,
+    "experiments": 1,
+    "experts": 1,
+    "explanation": 1,
+    "explanations": 1,
+    "explanatory": 1,
+    "extraordinary": 1,
+    "fact": 1,
+    "factor": 1,
+    "facts": 1,
+    "factual": 1,
+    "faith": 6,
+    "fallacies": 1,
+    "fallacy": 2,
+    "false": 1,
+    "falsifiability": 1,
+    "fantastical": 1,
+    "fate": 1,
+    "feedback": 1,
+    "feminist": 1,
+    "fiat": 1,
+    "fictional": 1,
+    "fields": 1,
+    "fine": 1,
+    "five": 1,
+    "flack": 1,
+    "focus": 2,
+    "forecasting": 1,
+    "forensic": 1,
+    "foucault": 3,
+    "framing": 2,
+    "free-will": 3,
+    "frege": 3,
+    "friedrich": 2,
+    "functional": 1,
+    "functionalism": 1,
+    "functions": 1,
+    "fundamental": 1,
+    "future-of-work": 1,
+    "futurism": 1,
+    "g-e": 3,
+    "game": 1,
+    "game-theory": 1,
+    "gaslighting": 1,
+    "georg": 1,
+    "george": 1,
+    "goals": 1,
+    "gods": 1,
+    "goes": 1,
+    "golden-rules": 1,
+    "gottfried": 1,
+    "gottlob": 3,
+    "government": 1,
+    "grade": 1,
+    "gradient": 2,
+    "gradients": 1,
+    "grammar": 2,
+    "graphic": 1,
+    "grok": 1,
+    "growing": 1,
+    "growth": 1,
+    "habermas": 5,
+    "half": 1,
+    "hannah": 3,
+    "happiness": 1,
+    "hard": 1,
+    "harris": 1,
+    "have": 1,
+    "hegel": 3,
+    "heidegger": 3,
+    "heraclitus": 3,
+    "herbert": 1,
+    "hiddenness": 1,
+    "higher": 1,
+    "hippo": 1,
+    "historical": 2,
+    "history": 4,
+    "hobbes": 3,
+    "homo": 1,
+    "honest": 2,
+    "hour": 1,
+    "human": 1,
+    "human-nature": 2,
+    "human-rights": 2,
+    "human-value": 1,
+    "humanistic-philosophies": 24,
+    "humanity": 1,
+    "humans": 4,
+    "hume": 3,
+    "humility": 1,
+    "humor": 1,
+    "husserl": 3,
+    "hypostatic": 2,
+    "hypothesis": 1,
+    "identification": 1,
+    "identity": 1,
+    "identity-politics": 1,
+    "ideologies": 8,
+    "illogic": 2,
+    "illusion": 1,
+    "illusions": 1,
+    "immanuel": 1,
+    "impossibilities": 1,
+    "impossible": 1,
+    "improving": 1,
+    "incentives": 2,
+    "increasing": 1,
+    "indicator": 1,
+    "induction": 10,
+    "inductive": 3,
+    "inductively": 1,
+    "inertia": 1,
+    "inflation": 1,
+    "influence": 1,
+    "information": 1,
+    "inner": 1,
+    "innovation": 1,
+    "inquiry": 1,
+    "insatiable": 1,
+    "inscrutability": 1,
+    "insignificance": 1,
+    "integrated": 1,
+    "intellectualism": 1,
+    "intellectually": 1,
+    "intelligence": 3,
+    "interest": 1,
+    "interests": 1,
+    "interventions": 1,
+    "intrinsic": 1,
+    "introduction": 12,
+    "introspection": 1,
+    "intuition": 1,
+    "invariance": 1,
+    "islamic": 1,
+    "issues": 6,
+    "itself": 1,
+    "jacques": 2,
+    "james": 3,
+    "jean": 2,
+    "jeremy": 1,
+    "jewish": 1,
+    "john": 8,
+    "judith": 3,
+    "jurgen": 2,
+    "justified": 1,
+    "kant": 3,
+    "karl": 1,
+    "kauffman": 1,
+    "kierkegaard": 3,
+    "know": 1,
+    "knowing": 2,
+    "knowledge": 13,
+    "krakauer": 1,
+    "kripke": 3,
+    "land": 1,
+    "language": 11,
+    "languages": 1,
+    "laozi": 3,
+    "laws": 2,
+    "leaders": 1,
+    "leanings": 1,
+    "leaving": 2,
+    "legitimacy": 1,
+    "leibniz": 3,
+    "life": 3,
+    "life-s": 1,
+    "limits": 1,
+    "line": 1,
+    "linearity": 1,
+    "linguistic": 2,
+    "living": 1,
+    "living-wage": 1,
+    "locke": 3,
+    "logic": 8,
+    "logical-fallacies": 2,
+    "logics": 1,
+    "loops": 2,
+    "ludwig": 1,
+    "machiavelli": 3,
+    "macro": 1,
+    "maimonides": 3,
+    "maintaining": 1,
+    "makes": 1,
+    "manifestations": 1,
+    "manufacturer": 1,
+    "many": 1,
+    "mapping": 1,
+    "marcus": 3,
+    "marcuse": 3,
+    "margin": 1,
+    "markets": 1,
+    "martin": 1,
+    "marx": 3,
+    "mary": 3,
+    "materialism": 1,
+    "matthew": 1,
+    "maturity": 1,
+    "maurice": 1,
+    "meaning": 2,
+    "membership": 1,
+    "mencius": 3,
+    "mercy": 1,
+    "merely": 1,
+    "merleau": 3,
+    "meta": 8,
+    "meta-ethics": 4,
+    "metaphor": 1,
+    "metaphysics": 22,
+    "method": 3,
+    "methodological": 2,
+    "metrics": 1,
+    "michel": 1,
+    "micro": 1,
+    "mill": 3,
+    "mind": 5,
+    "minds": 2,
+    "mindset": 1,
+    "minimal": 1,
+    "minimum-wage": 2,
+    "miracles": 1,
+    "miraculous": 1,
+    "miscellaneous": 1,
+    "miscellany": 20,
+    "misunderstanding": 1,
+    "misunderstandings": 1,
+    "mitchell": 1,
+    "model": 1,
+    "models": 2,
+    "monetary": 1,
+    "money": 1,
+    "monologues": 1,
+    "moore": 3,
+    "moral": 7,
+    "moral-hazards": 1,
+    "moral-realism": 7,
+    "morality": 6,
+    "more": 1,
+    "mother": 1,
+    "motive": 1,
+    "must": 1,
+    "mystery": 1,
+    "nagarjuna": 3,
+    "narrative": 1,
+    "nassim": 1,
+    "naturalism": 2,
+    "need": 1,
+    "needless": 1,
+    "neurodivergent": 2,
+    "neuroscience": 1,
+    "neurotypical": 1,
+    "niccolo": 1,
+    "nietzsche": 3,
+    "nihilism": 1,
+    "nomological": 1,
+    "normative": 1,
+    "not": 1,
+    "notion": 3,
+    "novel": 1,
+    "obesity": 1,
+    "objective": 3,
+    "objectively": 1,
+    "observable": 1,
+    "observations": 1,
+    "ockham": 4,
+    "ontological": 2,
+    "openai": 1,
+    "operational": 1,
+    "opted": 1,
+    "optimism": 2,
+    "orman": 1,
+    "orthogonality": 1,
+    "ought": 1,
+    "outpaces": 1,
+    "overconfidence": 1,
+    "overfitting": 1,
+    "overload": 1,
+    "overreach": 1,
+    "ownership": 1,
+    "packaged": 1,
+    "paper": 3,
+    "paradox": 1,
+    "parmenides": 3,
+    "parsimony": 1,
+    "pascal-s": 1,
+    "paul": 1,
+    "peaceful": 1,
+    "peirce": 3,
+    "personal": 2,
+    "perverse": 1,
+    "phenomena": 1,
+    "phenomenology": 1,
+    "phenomenon": 1,
+    "philosopher": 1,
+    "philosophers": 215,
+    "philosophical": 5,
+    "philosophical-inquiry": 47,
+    "philosophy": 17,
+    "philosophy-of-ai": 32,
+    "philosophy-of-language": 22,
+    "philosophy-of-mind": 26,
+    "philosophy-of-science": 46,
+    "physics": 1,
+    "pirkowski": 1,
+    "plato": 3,
+    "pleasures": 1,
+    "plotinus": 3,
+    "political": 5,
+    "political-philosophy": 13,
+    "political-theory": 1,
+    "politics": 4,
+    "ponty": 3,
+    "post": 4,
+    "poverty": 1,
+    "power": 5,
+    "pragmatic": 1,
+    "pragmatism": 1,
+    "prayer": 1,
+    "precision": 1,
+    "predictions": 1,
+    "predictive": 1,
+    "preferences": 1,
+    "preponderance": 1,
+    "pressures": 1,
+    "presuppositions": 1,
+    "prices": 1,
+    "primacy": 2,
+    "primer": 36,
+    "principle": 1,
+    "priori": 1,
+    "probabilities": 2,
+    "problem": 1,
+    "problems": 1,
+    "professional": 1,
+    "profiling": 1,
+    "projects": 1,
+    "promises": 1,
+    "promissory": 1,
+    "prompting": 3,
+    "prompts": 1,
+    "proof": 1,
+    "properly": 1,
+    "proxies": 1,
+    "pseudosciences": 1,
+    "psychic": 1,
+    "psychology": 1,
+    "public": 3,
+    "public-discourse": 2,
+    "public-judgment": 1,
+    "pushback": 2,
+    "quality": 1,
+    "quantum": 1,
+    "questions": 1,
+    "quine": 3,
+    "quoque": 1,
+    "quotient": 1,
+    "rational": 2,
+    "rational-thought": 53,
+    "rationalism": 1,
+    "rationalists": 1,
+    "rationality": 9,
+    "rawls": 3,
+    "reach": 1,
+    "reaction": 1,
+    "reading": 1,
+    "real": 1,
+    "realism": 1,
+    "reality": 4,
+    "reason": 1,
+    "reasoned": 1,
+    "reasoning": 3,
+    "recent": 1,
+    "recommendations": 1,
+    "recursive": 1,
+    "reflection": 1,
+    "regret": 1,
+    "regularities": 1,
+    "reliability": 2,
+    "religion": 5,
+    "religions": 2,
+    "religious": 1,
+    "removing": 1,
+    "ren": 1,
+    "reported": 1,
+    "required": 1,
+    "research": 3,
+    "resources": 1,
+    "response": 1,
+    "resulting": 1,
+    "revelation": 1,
+    "revolutions": 1,
+    "rigor": 1,
+    "risk": 1,
+    "risks": 2,
+    "romance": 1,
+    "room": 1,
+    "rousseau": 3,
+    "rule": 1,
+    "russel": 3,
+    "russell": 1,
+    "s-ren": 1,
+    "salaries": 1,
+    "sample": 1,
+    "sanders": 3,
+    "sara": 1,
+    "sartre": 3,
+    "saul": 3,
+    "scaffolding": 1,
+    "scenario": 1,
+    "scenarios": 1,
+    "schizophrenic": 1,
+    "scholasticism": 1,
+    "schools": 1,
+    "science": 25,
+    "sciences": 1,
+    "scientific": 5,
+    "scientism": 1,
+    "scope": 1,
+    "scoring": 1,
+    "scotus": 3,
+    "searches": 1,
+    "seeker": 2,
+    "seizures": 1,
+    "selection": 1,
+    "selective": 1,
+    "self": 5,
+    "selfless": 1,
+    "semantic": 2,
+    "semantics": 1,
+    "seneca": 3,
+    "sense": 1,
+    "shades": 1,
+    "sherman": 1,
+    "shoe": 1,
+    "siloed": 1,
+    "simone": 1,
+    "single": 1,
+    "site": 1,
+    "situational": 1,
+    "size": 1,
+    "skew": 1,
+    "social-contract": 1,
+    "socrates": 3,
+    "soft": 1,
+    "sorting": 1,
+    "species": 1,
+    "spinoza": 3,
+    "spiral": 1,
+    "spiritual": 2,
+    "stability": 1,
+    "stable": 1,
+    "starting": 1,
+    "state": 1,
+    "statistics": 3,
+    "status": 1,
+    "stein": 1,
+    "steppingstone": 1,
+    "stick": 1,
+    "stipulation": 1,
+    "stoicism": 3,
+    "strong": 2,
+    "structure": 2,
+    "stuart": 4,
+    "studying": 1,
+    "subjective": 1,
+    "subjectively": 1,
+    "subjectivity": 3,
+    "sufficient": 1,
+    "suicide": 1,
+    "surveys": 1,
+    "swapping": 1,
+    "syllogisms": 1,
+    "syllogistic": 1,
+    "synthetic": 1,
+    "systems": 4,
+    "tags": 1,
+    "taleb": 1,
+    "taxation": 1,
+    "taxonomy": 2,
+    "technology": 1,
+    "telephone": 1,
+    "terms": 3,
+    "terrence": 1,
+    "testing": 2,
+    "theism": 2,
+    "theodor": 1,
+    "theorem": 1,
+    "theory": 5,
+    "there": 1,
+    "thinking": 1,
+    "thomas": 2,
+    "thought": 5,
+    "thoughts": 1,
+    "threats": 1,
+    "thresholds": 1,
+    "time": 1,
+    "tips": 1,
+    "too": 1,
+    "torturing": 1,
+    "training-data": 2,
+    "transcendent": 1,
+    "treasures": 1,
+    "tribes": 1,
+    "trolley": 1,
+    "true": 1,
+    "truth": 4,
+    "tuned": 1,
+    "types": 2,
+    "unfair": 1,
+    "unfalsifiability": 1,
+    "universal-basic-income": 1,
+    "unnuanced": 1,
+    "unpalatable": 1,
+    "untestable": 1,
+    "updating": 1,
+    "utility": 4,
+    "vague": 1,
+    "value": 5,
+    "vanishing": 1,
+    "variables": 1,
+    "vested": 1,
+    "vicious": 1,
+    "view": 1,
+    "violence": 1,
+    "virtuous": 1,
+    "voluntarism": 1,
+    "wager": 1,
+    "walker": 2,
+    "walter": 3,
+    "ways": 2,
+    "wealth": 1,
+    "weights": 1,
+    "western": 1,
+    "wherever": 1,
+    "width": 1,
+    "wilhelm": 2,
+    "willard": 1,
+    "william": 7,
+    "wisdom": 1,
+    "wittgenstein": 3,
+    "wollstonecraft": 3,
+    "women-s": 1,
+    "wonders": 1,
+    "words": 2,
+    "workshop": 1,
+    "workweek": 1,
+    "worldview": 1,
+    "worldviews": 1,
+    "wrong": 1,
+    "you": 1,
+    "zhuangzi": 3
+  },
   "taggedPages": [
     {
       "title": "A Living Wage",
@@ -331,10 +1434,6 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on A Living Wage, written to clarify its role inside the Economics branch.",
       "tags": [
         "economics",
-        "incentives",
-        "risk",
-        "public-policy",
-        "future-of-work",
         "living-wage"
       ]
     },
@@ -345,9 +1444,6 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on AI & the Future of Work, written to clarify its role inside the Economics branch.",
       "tags": [
         "economics",
-        "incentives",
-        "risk",
-        "public-policy",
         "future-of-work"
       ]
     },
@@ -358,10 +1454,7 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Behavioral Economics, written to clarify its role inside the Economics branch.",
       "tags": [
         "economics",
-        "incentives",
-        "risk",
-        "public-policy",
-        "future-of-work"
+        "behavioral"
       ]
     },
     {
@@ -371,10 +1464,9 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Business Risks, written to clarify its role inside the Economics branch.",
       "tags": [
         "economics",
-        "incentives",
         "risk",
-        "public-policy",
-        "future-of-work"
+        "business",
+        "risks"
       ]
     },
     {
@@ -384,10 +1476,8 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Can Prices be “Unfair”, written to clarify its role inside the Economics branch.",
       "tags": [
         "economics",
-        "incentives",
-        "risk",
-        "public-policy",
-        "future-of-work"
+        "prices",
+        "unfair"
       ]
     },
     {
@@ -397,10 +1487,9 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Deflationary Spiral for AI Projects, written to clarify its role inside the Economics branch.",
       "tags": [
         "economics",
-        "incentives",
-        "risk",
-        "public-policy",
-        "future-of-work"
+        "deflationary",
+        "spiral",
+        "projects"
       ]
     },
     {
@@ -410,10 +1499,9 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Economic Comparisons, written to clarify its role inside the Economics branch.",
       "tags": [
         "economics",
-        "incentives",
-        "risk",
-        "public-policy",
-        "future-of-work"
+        "branch-map",
+        "economic",
+        "comparisons"
       ]
     },
     {
@@ -423,10 +1511,8 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Economic Complexity, written to clarify its role inside the Economics branch.",
       "tags": [
         "economics",
-        "incentives",
-        "risk",
-        "public-policy",
-        "future-of-work"
+        "economic",
+        "complexity"
       ]
     },
     {
@@ -436,10 +1522,8 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Economic Entitlements, written to clarify its role inside the Economics branch.",
       "tags": [
         "economics",
-        "incentives",
-        "risk",
-        "public-policy",
-        "future-of-work"
+        "economic",
+        "entitlements"
       ]
     },
     {
@@ -449,10 +1533,9 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Economic Optimism, written to clarify its role inside the Economics branch.",
       "tags": [
         "economics",
-        "incentives",
-        "risk",
-        "public-policy",
-        "future-of-work"
+        "branch-map",
+        "economic",
+        "optimism"
       ]
     },
     {
@@ -462,10 +1545,8 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Economic Stability, written to clarify its role inside the Economics branch.",
       "tags": [
         "economics",
-        "incentives",
-        "risk",
-        "public-policy",
-        "future-of-work"
+        "economic",
+        "stability"
       ]
     },
     {
@@ -475,10 +1556,7 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Economics – Core Concepts, written to clarify its role inside the Economics branch.",
       "tags": [
         "economics",
-        "incentives",
-        "risk",
-        "public-policy",
-        "future-of-work"
+        "concepts"
       ]
     },
     {
@@ -488,10 +1566,8 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Fiat Money, written to clarify its role inside the Economics branch.",
       "tags": [
         "economics",
-        "incentives",
-        "risk",
-        "public-policy",
-        "future-of-work"
+        "fiat",
+        "money"
       ]
     },
     {
@@ -501,10 +1577,9 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Government Interventions, written to clarify its role inside the Economics branch.",
       "tags": [
         "economics",
-        "incentives",
-        "risk",
-        "public-policy",
-        "future-of-work"
+        "branch-map",
+        "government",
+        "interventions"
       ]
     },
     {
@@ -514,10 +1589,8 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Homo Economicus, written to clarify its role inside the Economics branch.",
       "tags": [
         "economics",
-        "incentives",
-        "risk",
-        "public-policy",
-        "future-of-work"
+        "homo",
+        "economicus"
       ]
     },
     {
@@ -527,10 +1600,8 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Innovation Attractors, written to clarify its role inside the Economics branch.",
       "tags": [
         "economics",
-        "incentives",
-        "risk",
-        "public-policy",
-        "future-of-work"
+        "innovation",
+        "attractors"
       ]
     },
     {
@@ -540,10 +1611,8 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Justified Optimism, written to clarify its role inside the Economics branch.",
       "tags": [
         "economics",
-        "incentives",
-        "risk",
-        "public-policy",
-        "future-of-work"
+        "justified",
+        "optimism"
       ]
     },
     {
@@ -553,10 +1622,8 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Micro/Macro Economics, written to clarify its role inside the Economics branch.",
       "tags": [
         "economics",
-        "incentives",
-        "risk",
-        "public-policy",
-        "future-of-work"
+        "micro",
+        "macro"
       ]
     },
     {
@@ -566,10 +1633,6 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Minimum Wage, written to clarify its role inside the Economics branch.",
       "tags": [
         "economics",
-        "incentives",
-        "risk",
-        "public-policy",
-        "future-of-work",
         "minimum-wage"
       ]
     },
@@ -580,11 +1643,8 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Minimum Wage Thresholds, written to clarify its role inside the Economics branch.",
       "tags": [
         "economics",
-        "incentives",
-        "risk",
-        "public-policy",
-        "future-of-work",
-        "minimum-wage"
+        "minimum-wage",
+        "thresholds"
       ]
     },
     {
@@ -594,11 +1654,8 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Salaries and Public Judgment, written to clarify its role inside the Economics branch.",
       "tags": [
         "economics",
-        "incentives",
-        "risk",
-        "public-policy",
-        "future-of-work",
-        "public-judgment"
+        "public-judgment",
+        "salaries"
       ]
     },
     {
@@ -608,11 +1665,9 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Schools of Economic Thought, written to clarify its role inside the Economics branch.",
       "tags": [
         "economics",
-        "incentives",
-        "risk",
-        "public-policy",
-        "future-of-work",
-        "economic-thought"
+        "branch-map",
+        "economic-thought",
+        "schools"
       ]
     },
     {
@@ -622,10 +1677,7 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Taxation, written to clarify its role inside the Economics branch.",
       "tags": [
         "economics",
-        "incentives",
-        "risk",
-        "public-policy",
-        "future-of-work"
+        "taxation"
       ]
     },
     {
@@ -635,10 +1687,8 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on The 15-Hour Workweek, written to clarify its role inside the Economics branch.",
       "tags": [
         "economics",
-        "incentives",
-        "risk",
-        "public-policy",
-        "future-of-work"
+        "hour",
+        "workweek"
       ]
     },
     {
@@ -648,10 +1698,8 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on The Poverty Line, written to clarify its role inside the Economics branch.",
       "tags": [
         "economics",
-        "incentives",
-        "risk",
-        "public-policy",
-        "future-of-work"
+        "poverty",
+        "line"
       ]
     },
     {
@@ -661,10 +1709,6 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Universal Basic Income, written to clarify its role inside the Economics branch.",
       "tags": [
         "economics",
-        "incentives",
-        "risk",
-        "public-policy",
-        "future-of-work",
         "universal-basic-income"
       ]
     },
@@ -675,10 +1719,8 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Wealth Creation, written to clarify its role inside the Economics branch.",
       "tags": [
         "economics",
-        "incentives",
-        "risk",
-        "public-policy",
-        "future-of-work"
+        "wealth",
+        "creation"
       ]
     },
     {
@@ -688,10 +1730,8 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Moral Hazards, written to clarify its role inside the Economics branch.",
       "tags": [
         "economics",
+        "primer",
         "incentives",
-        "risk",
-        "public-policy",
-        "future-of-work",
         "moral-hazards"
       ]
     },
@@ -702,10 +1742,7 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Economics, written to clarify its role inside the Economics branch.",
       "tags": [
         "economics",
-        "incentives",
-        "risk",
-        "public-policy",
-        "future-of-work"
+        "primer"
       ]
     },
     {
@@ -715,10 +1752,8 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on What Makes Economics “Dismal”, written to clarify its role inside the Economics branch.",
       "tags": [
         "economics",
-        "incentives",
-        "risk",
-        "public-policy",
-        "future-of-work"
+        "makes",
+        "dismal"
       ]
     },
     {
@@ -727,11 +1762,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/abduction-utility-and-issues/",
       "summary": "A page on Abduction: Utility and Issues, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "epistemology",
+        "abduction",
+        "utility",
+        "issues"
       ]
     },
     {
@@ -740,11 +1774,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/absolute-certainty/",
       "summary": "A page on Absolute Certainty, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "epistemology",
+        "branch-map",
+        "absolute",
+        "certainty"
       ]
     },
     {
@@ -753,12 +1786,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/ai-reasoning-case-study/",
       "summary": "A page on AI Reasoning Case Study, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
+        "epistemology",
         "evidence",
-        "bayes",
-        "knowledge",
-        "credence",
-        "case-study"
+        "case-study",
+        "reasoning"
       ]
     },
     {
@@ -767,11 +1798,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/avoiding-single-cause-dogmatism/",
       "summary": "A page on Avoiding Single-Cause Dogmatism, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "epistemology",
+        "avoiding",
+        "single",
+        "cause",
+        "dogmatism"
       ]
     },
     {
@@ -780,11 +1811,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/belief-evidence-graphic/",
       "summary": "A page on Belief/Evidence Graphic, written to clarify its role inside the Epistemology branch.",
       "tags": [
+        "epistemology",
         "belief",
         "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "graphic"
       ]
     },
     {
@@ -793,11 +1823,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/black-boxes-epistemology/",
       "summary": "A page on Black Boxes & Epistemology, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "epistemology",
+        "black",
+        "boxes"
       ]
     },
     {
@@ -806,11 +1834,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/case-1-credence-complexity/",
       "summary": "A page on Credence Complexity, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "epistemology",
+        "credence",
+        "complexity"
       ]
     },
     {
@@ -819,11 +1845,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/case-2-the-telephone-game/",
       "summary": "A page on The Telephone Game, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "epistemology",
+        "telephone",
+        "game"
       ]
     },
     {
@@ -832,11 +1856,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/case-3-core-rationality/",
       "summary": "A page on Core Rationality, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
+        "epistemology",
         "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "rationality"
       ]
     },
     {
@@ -845,11 +1867,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/case-4-recursive-credences/",
       "summary": "A page on Recursive Credences, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "epistemology",
+        "credence",
+        "recursive",
+        "credences"
       ]
     },
     {
@@ -858,11 +1879,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/case-5-vanishing-probabilities/",
       "summary": "A page on Vanishing Probabilities, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
+        "epistemology",
         "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "vanishing",
+        "probabilities"
       ]
     },
     {
@@ -871,11 +1891,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/case-6-insatiable-loops/",
       "summary": "A page on Insatiable Loops, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "epistemology",
+        "insatiable",
+        "loops"
       ]
     },
     {
@@ -884,11 +1902,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/charles-darwin/",
       "summary": "A page on Charles Darwin, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "epistemology",
+        "charles",
+        "darwin"
       ]
     },
     {
@@ -897,11 +1913,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/collapsing-epistemological-terms/",
       "summary": "A page on Collapsing Epistemological Terms, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "epistemology",
+        "collapsing",
+        "epistemological",
+        "terms"
       ]
     },
     {
@@ -910,11 +1925,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/core-deep-rationality/",
       "summary": "A page on Core & Deep Rationality, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "epistemology",
+        "branch-map",
+        "deep",
+        "rationality"
       ]
     },
     {
@@ -923,11 +1937,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/counterfactual-reasoning/",
       "summary": "A page on Counterfactual Reasoning, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "epistemology",
+        "counterfactual",
+        "reasoning"
       ]
     },
     {
@@ -936,12 +1948,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/cromwells-rule/",
       "summary": "A page on Cromwell’s Rule, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
+        "epistemology",
         "credence",
-        "cromwell-s"
+        "cromwell-s",
+        "rule"
       ]
     },
     {
@@ -950,11 +1960,7 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/decision-making/",
       "summary": "A page on Decision-Making, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence",
+        "epistemology",
         "decision-making"
       ]
     },
@@ -964,11 +1970,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/deduction-utility-and-issues/",
       "summary": "A page on Deduction: Utility and Issues, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "epistemology",
+        "deduction",
+        "utility",
+        "issues"
       ]
     },
     {
@@ -977,11 +1982,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/doxastic-voluntarism/",
       "summary": "A page on Doxastic Voluntarism, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "epistemology",
+        "doxastic",
+        "voluntarism"
       ]
     },
     {
@@ -990,12 +1993,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/epistemological-case-studies/",
       "summary": "A page on Epistemological Case Studies, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence",
-        "case-studies"
+        "epistemology",
+        "branch-map",
+        "case-studies",
+        "epistemological"
       ]
     },
     {
@@ -1004,11 +2005,8 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/epistemology-core-concepts/",
       "summary": "A page on Epistemology — Core Concepts, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "epistemology",
+        "concepts"
       ]
     },
     {
@@ -1017,11 +2015,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/establishing-cognitive-reliability-1/",
       "summary": "A page on Establishing Cognitive Reliability (#1), written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "epistemology",
+        "establishing",
+        "cognitive",
+        "reliability"
       ]
     },
     {
@@ -1030,11 +2027,12 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/establishing-cognitive-reliability-2/",
       "summary": "A page on Establishing Cognitive Reliability (#2), written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
+        "epistemology",
         "evidence",
         "bayes",
-        "knowledge",
-        "credence"
+        "establishing",
+        "cognitive",
+        "reliability"
       ]
     },
     {
@@ -1043,11 +2041,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/evidence-workshop/",
       "summary": "A page on Evidence Workshop, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
+        "epistemology",
         "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "workshop"
       ]
     },
     {
@@ -1056,11 +2052,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/extraordinary-claims/",
       "summary": "A page on Extraordinary Claims, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
+        "epistemology",
         "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "extraordinary",
+        "claims"
       ]
     },
     {
@@ -1069,11 +2064,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/faith-rationality/",
       "summary": "A page on Faith & Rationality, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "epistemology",
+        "faith",
+        "rationality"
       ]
     },
     {
@@ -1082,11 +2075,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/faith-vs-science/",
       "summary": "A page on Faith vs Science, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
+        "epistemology",
         "knowledge",
-        "credence"
+        "faith",
+        "science"
       ]
     },
     {
@@ -1095,11 +2087,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/hypostatic-illogic/",
       "summary": "A page on Hypostatic Illogic, written to clarify its role inside the Epistemology branch.",
       "tags": [
+        "epistemology",
         "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "hypostatic",
+        "illogic"
       ]
     },
     {
@@ -1108,12 +2099,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/i-dont-know/",
       "summary": "A page on I Don’t Know, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence",
-        "don-t"
+        "epistemology",
+        "don-t",
+        "know"
       ]
     },
     {
@@ -1122,11 +2110,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/induction-cold-reading/",
       "summary": "A page on Induction: Cold Reading, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "epistemology",
+        "induction",
+        "cold",
+        "reading"
       ]
     },
     {
@@ -1135,11 +2122,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/induction-forecasting/",
       "summary": "A page on Induction: Forecasting, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "epistemology",
+        "induction",
+        "forecasting"
       ]
     },
     {
@@ -1148,11 +2133,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/induction-utility-and-issues/",
       "summary": "A page on Induction: Utility and Issues, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "epistemology",
+        "branch-map",
+        "induction",
+        "utility",
+        "issues"
       ]
     },
     {
@@ -1161,11 +2146,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/https-byteseismic-com-2024-04-10-inductive-invariance-conistency/",
       "summary": "A page on Inductive Invariance & Consistency, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "epistemology",
+        "inductive",
+        "invariance",
+        "consistency"
       ]
     },
     {
@@ -1174,11 +2158,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/logic/",
       "summary": "A page on Logic, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "epistemology",
+        "branch-map",
+        "logic"
       ]
     },
     {
@@ -1187,11 +2169,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/many-logics/",
       "summary": "A page on Many Logics, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "epistemology",
+        "many",
+        "logics"
       ]
     },
     {
@@ -1200,11 +2180,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/mapping-belief-to-evidence/",
       "summary": "A page on Mapping Belief to Evidence, written to clarify its role inside the Epistemology branch.",
       "tags": [
+        "epistemology",
+        "branch-map",
         "belief",
         "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "mapping"
       ]
     },
     {
@@ -1213,11 +2193,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/non-scientific-ways-of-knowing/",
       "summary": "A page on Non-Scientific Ways of Knowing, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
+        "epistemology",
         "knowledge",
-        "credence"
+        "scientific",
+        "ways",
+        "knowing"
       ]
     },
     {
@@ -1226,11 +2206,12 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/operational-epistemic-rigor/",
       "summary": "A page on Operational Epistemic Rigor, written to clarify its role inside the Epistemology branch.",
       "tags": [
+        "epistemology",
         "belief",
-        "evidence",
-        "bayes",
         "knowledge",
-        "credence"
+        "operational",
+        "epistemic",
+        "rigor"
       ]
     },
     {
@@ -1239,12 +2220,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/pascals-wager/",
       "summary": "A page on Pascal’s Wager, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
+        "epistemology",
         "evidence",
-        "bayes",
-        "knowledge",
-        "credence",
-        "pascal-s"
+        "pascal-s",
+        "wager"
       ]
     },
     {
@@ -1253,11 +2232,13 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/pragmatic-considerations-vs-epistemic-assessments/",
       "summary": "A page on Pragmatic Considerations vs Epistemic Assessments, written to clarify its role inside the Epistemology branch.",
       "tags": [
+        "epistemology",
         "belief",
         "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "pragmatic",
+        "considerations",
+        "epistemic",
+        "assessments"
       ]
     },
     {
@@ -1266,11 +2247,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/predictive-power/",
       "summary": "A page on Predictive Power, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "epistemology",
+        "predictive",
+        "power"
       ]
     },
     {
@@ -1279,11 +2258,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/preponderance-of-evidence/",
       "summary": "A page on Preponderance of Evidence, written to clarify its role inside the Epistemology branch.",
       "tags": [
+        "epistemology",
         "belief",
         "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "preponderance"
       ]
     },
     {
@@ -1292,11 +2270,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/presuppositions/",
       "summary": "A page on Presuppositions, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
+        "epistemology",
         "knowledge",
-        "credence"
+        "presuppositions"
       ]
     },
     {
@@ -1305,11 +2281,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/properly-basic-beliefs/",
       "summary": "A page on Properly Basic Beliefs, written to clarify its role inside the Epistemology branch.",
       "tags": [
+        "epistemology",
         "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "properly",
+        "basic",
+        "beliefs"
       ]
     },
     {
@@ -1318,11 +2294,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/rationality-discussion/",
       "summary": "A page on Rationality Discussion, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "epistemology",
+        "rationality",
+        "discussion"
       ]
     },
     {
@@ -1331,11 +2305,13 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/reasoned-probabilities-and-decisions/",
       "summary": "A page on Reasoned Probabilities and Decisions, written to clarify its role inside the Epistemology branch.",
       "tags": [
+        "epistemology",
         "belief",
         "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "credence",
+        "reasoned",
+        "probabilities",
+        "decisions"
       ]
     },
     {
@@ -1344,11 +2320,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/recent-issues-in-epistemology/",
       "summary": "A page on Recent Issues in Epistemology, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "epistemology",
+        "recent",
+        "issues"
       ]
     },
     {
@@ -1357,11 +2331,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/shades-of-certainty/",
       "summary": "A page on Shades of Certainty, written to clarify its role inside the Epistemology branch.",
       "tags": [
+        "epistemology",
         "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "shades",
+        "certainty"
       ]
     },
     {
@@ -1370,11 +2343,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/swapping-ideologies/",
       "summary": "A page on Swapping Ideologies, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
+        "epistemology",
         "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "swapping",
+        "ideologies"
       ]
     },
     {
@@ -1383,11 +2355,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/syllogistic-complexity/",
       "summary": "A page on Syllogistic Complexity, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "epistemology",
+        "syllogistic",
+        "complexity"
       ]
     },
     {
@@ -1396,11 +2366,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/the-elevation-of-self-evident/",
       "summary": "A page on The Abuse of “Self-Evident”, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "epistemology",
+        "abuse",
+        "self",
+        "evident"
       ]
     },
     {
@@ -1409,11 +2378,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/the-abuse-of-self-evident/",
       "summary": "A page on The Abuse of “Self-Evident”, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
+        "epistemology",
         "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "abuse",
+        "self",
+        "evident"
       ]
     },
     {
@@ -1422,11 +2391,8 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/the-burden-of-proof/",
       "summary": "A page on The Burden of Proof, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
+        "epistemology",
         "evidence",
-        "bayes",
-        "knowledge",
-        "credence",
         "burden-of-proof"
       ]
     },
@@ -1436,11 +2402,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/the-domain-of-proof/",
       "summary": "A page on The Domain of “Proof”, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
+        "epistemology",
         "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "domain",
+        "proof"
       ]
     },
     {
@@ -1449,11 +2414,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/the-inductive-paradox/",
       "summary": "A page on The Inductive Paradox, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "epistemology",
+        "inductive",
+        "paradox"
       ]
     },
     {
@@ -1462,11 +2425,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/the-primacy-of-induction/",
       "summary": "A page on The Primacy of Induction, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "epistemology",
+        "primacy",
+        "induction"
       ]
     },
     {
@@ -1475,11 +2436,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/the-web-of-induction/",
       "summary": "A page on The Web of Induction, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "epistemology",
+        "branch-map",
+        "induction"
       ]
     },
     {
@@ -1488,11 +2447,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/types-of-knowing/",
       "summary": "A page on Types of Knowing, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
+        "epistemology",
+        "branch-map",
         "knowledge",
-        "credence"
+        "types",
+        "knowing"
       ]
     },
     {
@@ -1501,11 +2460,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/types-of-reasoning/",
       "summary": "A page on Types of Reasoning, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "epistemology",
+        "branch-map",
+        "types",
+        "reasoning"
       ]
     },
     {
@@ -1514,11 +2472,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/vicious-virtuous-circularity/",
       "summary": "A page on Vicious & Virtuous Circularity, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "epistemology",
+        "vicious",
+        "virtuous",
+        "circularity"
       ]
     },
     {
@@ -1527,11 +2484,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/what-are-syllogisms/",
       "summary": "A page on Syllogisms, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "epistemology",
+        "primer",
+        "syllogisms"
       ]
     },
     {
@@ -1540,11 +2495,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/what-is-bayes-theorem/",
       "summary": "A page on Bayes Theorem, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
+        "epistemology",
+        "primer",
         "bayes",
         "knowledge",
-        "credence"
+        "theorem"
       ]
     },
     {
@@ -1553,11 +2508,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/what-is-belief/",
       "summary": "A page on Belief, written to clarify its role inside the Epistemology branch.",
       "tags": [
+        "epistemology",
+        "primer",
         "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "evidence"
       ]
     },
     {
@@ -1566,11 +2520,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/what-is-doubt/",
       "summary": "A page on Doubt, written to clarify its role inside the Epistemology branch.",
       "tags": [
+        "epistemology",
+        "primer",
         "belief",
         "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "doubt"
       ]
     },
     {
@@ -1579,11 +2533,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/what-is-epistemic-updating/",
       "summary": "A page on Epistemic Updating, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "epistemology",
+        "primer",
+        "epistemic",
+        "updating"
       ]
     },
     {
@@ -1592,11 +2545,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/what-is-epistemology/",
       "summary": "A page on Epistemology, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "epistemology",
+        "primer",
+        "knowledge"
       ]
     },
     {
@@ -1605,11 +2556,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/what-is-evidence/",
       "summary": "A page on Evidence, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "epistemology",
+        "primer",
+        "evidence"
       ]
     },
     {
@@ -1618,11 +2567,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/what-is-faith/",
       "summary": "A page on Faith, written to clarify its role inside the Epistemology branch.",
       "tags": [
+        "epistemology",
+        "primer",
         "belief",
         "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "faith"
       ]
     },
     {
@@ -1631,9 +2580,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/what-is-knowledge/",
       "summary": "A page on Knowledge, written to clarify its role inside the Epistemology branch.",
       "tags": [
+        "epistemology",
+        "primer",
         "belief",
-        "evidence",
-        "bayes",
         "knowledge",
         "credence"
       ]
@@ -1644,11 +2593,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/a-priori-knowledge-issues/",
       "summary": "A page on ‘A Priori’ Knowledge Issues, written to clarify its role inside the Epistemology branch.",
       "tags": [
-        "belief",
-        "evidence",
-        "bayes",
+        "epistemology",
         "knowledge",
-        "credence"
+        "priori",
+        "issues"
       ]
     },
     {
@@ -1657,11 +2605,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/epistemology/adequate-evidence/",
       "summary": "A page on “Adequate” Evidence, written to clarify its role inside the Epistemology branch.",
       "tags": [
+        "epistemology",
         "belief",
         "evidence",
-        "bayes",
-        "knowledge",
-        "credence"
+        "adequate"
       ]
     },
     {
@@ -1671,11 +2618,8 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on A History of Golden Rules, written to clarify its role inside the Ethics branch.",
       "tags": [
         "ethics",
-        "meta-ethics",
-        "culpability",
-        "moral-realism",
-        "human-rights",
-        "golden-rules"
+        "golden-rules",
+        "history"
       ]
     },
     {
@@ -1685,10 +2629,9 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Assisted Suicide, written to clarify its role inside the Ethics branch.",
       "tags": [
         "ethics",
-        "meta-ethics",
-        "culpability",
-        "moral-realism",
-        "human-rights"
+        "branch-map",
+        "assisted",
+        "suicide"
       ]
     },
     {
@@ -1698,10 +2641,9 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Assuming Objective Evil, written to clarify its role inside the Ethics branch.",
       "tags": [
         "ethics",
-        "meta-ethics",
-        "culpability",
-        "moral-realism",
-        "human-rights"
+        "assuming",
+        "objective",
+        "evil"
       ]
     },
     {
@@ -1711,10 +2653,8 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Circularity in Moral Realism, written to clarify its role inside the Ethics branch.",
       "tags": [
         "ethics",
-        "meta-ethics",
-        "culpability",
         "moral-realism",
-        "human-rights"
+        "circularity"
       ]
     },
     {
@@ -1724,10 +2664,10 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Coherent Moral Systems, written to clarify its role inside the Ethics branch.",
       "tags": [
         "ethics",
-        "meta-ethics",
-        "culpability",
         "moral-realism",
-        "human-rights"
+        "coherent",
+        "moral",
+        "systems"
       ]
     },
     {
@@ -1737,10 +2677,9 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Compassion vs Moral Systems, written to clarify its role inside the Ethics branch.",
       "tags": [
         "ethics",
-        "meta-ethics",
-        "culpability",
-        "moral-realism",
-        "human-rights"
+        "compassion",
+        "moral",
+        "systems"
       ]
     },
     {
@@ -1750,10 +2689,10 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Competing Ethical Considerations, written to clarify its role inside the Ethics branch.",
       "tags": [
         "ethics",
-        "meta-ethics",
-        "culpability",
-        "moral-realism",
-        "human-rights"
+        "branch-map",
+        "competing",
+        "ethical",
+        "considerations"
       ]
     },
     {
@@ -1763,10 +2702,8 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Conditions for Culpability, written to clarify its role inside the Ethics branch.",
       "tags": [
         "ethics",
-        "meta-ethics",
         "culpability",
-        "moral-realism",
-        "human-rights"
+        "conditions"
       ]
     },
     {
@@ -1776,10 +2713,6 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Divine Command Theory, written to clarify its role inside the Ethics branch.",
       "tags": [
         "ethics",
-        "meta-ethics",
-        "culpability",
-        "moral-realism",
-        "human-rights",
         "divine-command-theory"
       ]
     },
@@ -1790,10 +2723,8 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Equivocation on “Wrong”, written to clarify its role inside the Ethics branch.",
       "tags": [
         "ethics",
-        "meta-ethics",
-        "culpability",
-        "moral-realism",
-        "human-rights"
+        "equivocation",
+        "wrong"
       ]
     },
     {
@@ -1803,10 +2734,11 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Essay: Moral Anti-Realism, written to clarify its role inside the Ethics branch.",
       "tags": [
         "ethics",
-        "meta-ethics",
-        "culpability",
         "moral-realism",
-        "human-rights"
+        "essay",
+        "moral",
+        "anti",
+        "realism"
       ]
     },
     {
@@ -1816,11 +2748,9 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Ethical Edge Case #1, written to clarify its role inside the Ethics branch.",
       "tags": [
         "ethics",
-        "meta-ethics",
         "culpability",
-        "moral-realism",
-        "human-rights",
-        "edge-case"
+        "edge-case",
+        "ethical"
       ]
     },
     {
@@ -1830,10 +2760,7 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Ethics — Core Concepts, written to clarify its role inside the Ethics branch.",
       "tags": [
         "ethics",
-        "meta-ethics",
-        "culpability",
-        "moral-realism",
-        "human-rights"
+        "concepts"
       ]
     },
     {
@@ -1843,10 +2770,10 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Evidences of Moral Facts, written to clarify its role inside the Ethics branch.",
       "tags": [
         "ethics",
-        "meta-ethics",
-        "culpability",
         "moral-realism",
-        "human-rights"
+        "evidences",
+        "moral",
+        "facts"
       ]
     },
     {
@@ -1857,9 +2784,9 @@ window.BYTESEISMIC_DATA = {
       "tags": [
         "ethics",
         "meta-ethics",
-        "culpability",
-        "moral-realism",
-        "human-rights"
+        "fictional",
+        "meta",
+        "debate"
       ]
     },
     {
@@ -1869,10 +2796,9 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Harris’ Notion of Morality, written to clarify its role inside the Ethics branch.",
       "tags": [
         "ethics",
-        "meta-ethics",
-        "culpability",
-        "moral-realism",
-        "human-rights"
+        "harris",
+        "notion",
+        "morality"
       ]
     },
     {
@@ -1882,11 +2808,9 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Intrinsic Human Value, written to clarify its role inside the Ethics branch.",
       "tags": [
         "ethics",
-        "meta-ethics",
-        "culpability",
-        "moral-realism",
         "human-rights",
-        "human-value"
+        "human-value",
+        "intrinsic"
       ]
     },
     {
@@ -1896,10 +2820,9 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Meta-Ethics, written to clarify its role inside the Ethics branch.",
       "tags": [
         "ethics",
+        "branch-map",
         "meta-ethics",
-        "culpability",
-        "moral-realism",
-        "human-rights"
+        "meta"
       ]
     },
     {
@@ -1912,7 +2835,8 @@ window.BYTESEISMIC_DATA = {
         "meta-ethics",
         "culpability",
         "moral-realism",
-        "human-rights"
+        "meta",
+        "focus"
       ]
     },
     {
@@ -1923,9 +2847,9 @@ window.BYTESEISMIC_DATA = {
       "tags": [
         "ethics",
         "meta-ethics",
-        "culpability",
         "moral-realism",
-        "human-rights"
+        "meta",
+        "focus"
       ]
     },
     {
@@ -1935,10 +2859,9 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Model of Ethical Dynamics, written to clarify its role inside the Ethics branch.",
       "tags": [
         "ethics",
-        "meta-ethics",
-        "culpability",
-        "moral-realism",
-        "human-rights"
+        "model",
+        "ethical",
+        "dynamics"
       ]
     },
     {
@@ -1948,10 +2871,9 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Moral Black Boxes, written to clarify its role inside the Ethics branch.",
       "tags": [
         "ethics",
-        "meta-ethics",
-        "culpability",
-        "moral-realism",
-        "human-rights"
+        "moral",
+        "black",
+        "boxes"
       ]
     },
     {
@@ -1961,10 +2883,8 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Moral Realism & Intuition, written to clarify its role inside the Ethics branch.",
       "tags": [
         "ethics",
-        "meta-ethics",
-        "culpability",
         "moral-realism",
-        "human-rights"
+        "intuition"
       ]
     },
     {
@@ -1974,10 +2894,10 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Moral Systems: Required Elements, written to clarify its role inside the Ethics branch.",
       "tags": [
         "ethics",
-        "meta-ethics",
-        "culpability",
-        "moral-realism",
-        "human-rights"
+        "moral",
+        "systems",
+        "required",
+        "elements"
       ]
     },
     {
@@ -1987,10 +2907,9 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Morality & Human Rights, written to clarify its role inside the Ethics branch.",
       "tags": [
         "ethics",
-        "meta-ethics",
-        "culpability",
-        "moral-realism",
-        "human-rights"
+        "branch-map",
+        "human-rights",
+        "morality"
       ]
     },
     {
@@ -2000,10 +2919,8 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on No Morality = Chaos, written to clarify its role inside the Ethics branch.",
       "tags": [
         "ethics",
-        "meta-ethics",
-        "culpability",
-        "moral-realism",
-        "human-rights"
+        "morality",
+        "chaos"
       ]
     },
     {
@@ -2013,10 +2930,11 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on PAPER: Are Both Chivalry and Morality Merely Human Constructs, written to clarify its role inside the Ethics branch.",
       "tags": [
         "ethics",
-        "meta-ethics",
-        "culpability",
-        "moral-realism",
-        "human-rights"
+        "paper",
+        "both",
+        "chivalry",
+        "morality",
+        "merely"
       ]
     },
     {
@@ -2026,10 +2944,9 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Recommendations vs Moral Claims, written to clarify its role inside the Ethics branch.",
       "tags": [
         "ethics",
-        "meta-ethics",
-        "culpability",
-        "moral-realism",
-        "human-rights"
+        "recommendations",
+        "moral",
+        "claims"
       ]
     },
     {
@@ -2039,10 +2956,10 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Self-Evident Morality, written to clarify its role inside the Ethics branch.",
       "tags": [
         "ethics",
-        "meta-ethics",
-        "culpability",
-        "moral-realism",
-        "human-rights"
+        "branch-map",
+        "self",
+        "evident",
+        "morality"
       ]
     },
     {
@@ -2052,10 +2969,9 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Species-Dependent Mercy, written to clarify its role inside the Ethics branch.",
       "tags": [
         "ethics",
-        "meta-ethics",
-        "culpability",
-        "moral-realism",
-        "human-rights"
+        "species",
+        "dependent",
+        "mercy"
       ]
     },
     {
@@ -2065,10 +2981,9 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on The Value Selection Hypothesis, written to clarify its role inside the Ethics branch.",
       "tags": [
         "ethics",
-        "meta-ethics",
-        "culpability",
-        "moral-realism",
-        "human-rights"
+        "value",
+        "selection",
+        "hypothesis"
       ]
     },
     {
@@ -2078,10 +2993,8 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Torturing Babies, written to clarify its role inside the Ethics branch.",
       "tags": [
         "ethics",
-        "meta-ethics",
-        "culpability",
-        "moral-realism",
-        "human-rights"
+        "torturing",
+        "babies"
       ]
     },
     {
@@ -2091,10 +3004,8 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Trolley Problems, written to clarify its role inside the Ethics branch.",
       "tags": [
         "ethics",
-        "meta-ethics",
-        "culpability",
-        "moral-realism",
-        "human-rights"
+        "trolley",
+        "problems"
       ]
     },
     {
@@ -2104,10 +3015,8 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Utility Functions, written to clarify its role inside the Ethics branch.",
       "tags": [
         "ethics",
-        "meta-ethics",
-        "culpability",
-        "moral-realism",
-        "human-rights"
+        "utility",
+        "functions"
       ]
     },
     {
@@ -2117,10 +3026,9 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Value & Morality in Diversity, written to clarify its role inside the Ethics branch.",
       "tags": [
         "ethics",
-        "meta-ethics",
-        "culpability",
-        "moral-realism",
-        "human-rights"
+        "value",
+        "morality",
+        "diversity"
       ]
     },
     {
@@ -2130,10 +3038,7 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on Ethics, written to clarify its role inside the Ethics branch.",
       "tags": [
         "ethics",
-        "meta-ethics",
-        "culpability",
-        "moral-realism",
-        "human-rights"
+        "primer"
       ]
     },
     {
@@ -2143,10 +3048,7 @@ window.BYTESEISMIC_DATA = {
       "summary": "A page on “Is” vs “Ought”, written to clarify its role inside the Ethics branch.",
       "tags": [
         "ethics",
-        "meta-ethics",
-        "culpability",
-        "moral-realism",
-        "human-rights"
+        "ought"
       ]
     },
     {
@@ -2155,11 +3057,8 @@ window.BYTESEISMIC_DATA = {
       "path": "/humanistic-philosophies/accounting-for-x/",
       "summary": "A page on Accounting for X, written to clarify its role inside the Humanistic Philosophies branch.",
       "tags": [
-        "meaning",
-        "stoicism",
-        "existentialism",
-        "religion",
-        "human-nature"
+        "humanistic-philosophies",
+        "accounting"
       ]
     },
     {
@@ -2168,11 +3067,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/humanistic-philosophies/anthropomorphized-gods/",
       "summary": "A page on Anthropomorphized Gods, written to clarify its role inside the Humanistic Philosophies branch.",
       "tags": [
-        "meaning",
-        "stoicism",
-        "existentialism",
-        "religion",
-        "human-nature"
+        "humanistic-philosophies",
+        "anthropomorphized",
+        "gods"
       ]
     },
     {
@@ -2181,11 +3078,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/humanistic-philosophies/are-humans-more-egoistic-or-altruistic/",
       "summary": "A page on Are Humans More Egoistic or Altruistic, written to clarify its role inside the Humanistic Philosophies branch.",
       "tags": [
-        "meaning",
-        "stoicism",
-        "existentialism",
-        "religion",
-        "human-nature"
+        "humanistic-philosophies",
+        "humans",
+        "more",
+        "egoistic",
+        "altruistic"
       ]
     },
     {
@@ -2194,11 +3091,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/humanistic-philosophies/can-humans-change/",
       "summary": "A page on Can Humans Change, written to clarify its role inside the Humanistic Philosophies branch.",
       "tags": [
-        "meaning",
-        "stoicism",
-        "existentialism",
-        "religion",
-        "human-nature"
+        "humanistic-philosophies",
+        "humans",
+        "change"
       ]
     },
     {
@@ -2207,11 +3102,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/humanistic-philosophies/christian-apologetics/",
       "summary": "A page on Christian Apologetics, written to clarify its role inside the Humanistic Philosophies branch.",
       "tags": [
-        "meaning",
-        "stoicism",
-        "existentialism",
-        "religion",
-        "human-nature"
+        "humanistic-philosophies",
+        "christian",
+        "apologetics"
       ]
     },
     {
@@ -2220,11 +3113,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/humanistic-philosophies/deism-theism/",
       "summary": "A page on Deism & Theism, written to clarify its role inside the Humanistic Philosophies branch.",
       "tags": [
-        "meaning",
-        "stoicism",
-        "existentialism",
-        "religion",
-        "human-nature"
+        "humanistic-philosophies",
+        "deism",
+        "theism"
       ]
     },
     {
@@ -2233,11 +3124,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/humanistic-philosophies/do-humans-have-an-essence/",
       "summary": "A page on Do Humans have an Essence, written to clarify its role inside the Humanistic Philosophies branch.",
       "tags": [
-        "meaning",
-        "stoicism",
+        "humanistic-philosophies",
         "existentialism",
-        "religion",
-        "human-nature"
+        "humans",
+        "have",
+        "essence"
       ]
     },
     {
@@ -2246,11 +3137,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/humanistic-philosophies/existentialism-key-concepts/",
       "summary": "A page on Existentialism: Key Concepts, written to clarify its role inside the Humanistic Philosophies branch.",
       "tags": [
-        "meaning",
-        "stoicism",
+        "humanistic-philosophies",
         "existentialism",
         "religion",
-        "human-nature"
+        "concepts"
       ]
     },
     {
@@ -2259,11 +3149,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/humanistic-philosophies/faith-or-evidence/",
       "summary": "A page on Faith or Evidence, written to clarify its role inside the Humanistic Philosophies branch.",
       "tags": [
-        "meaning",
-        "stoicism",
-        "existentialism",
-        "religion",
-        "human-nature"
+        "humanistic-philosophies",
+        "branch-map",
+        "faith",
+        "evidence"
       ]
     },
     {
@@ -2272,11 +3161,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/humanistic-philosophies/dismissing-logical-contradictions/",
       "summary": "A page on Hypostatic Illogic, written to clarify its role inside the Humanistic Philosophies branch.",
       "tags": [
-        "meaning",
-        "stoicism",
-        "existentialism",
-        "religion",
-        "human-nature"
+        "humanistic-philosophies",
+        "hypostatic",
+        "illogic"
       ]
     },
     {
@@ -2285,11 +3172,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/humanistic-philosophies/increasing-religious-humility/",
       "summary": "A page on Increasing Religious Humility, written to clarify its role inside the Humanistic Philosophies branch.",
       "tags": [
-        "meaning",
-        "stoicism",
-        "existentialism",
-        "religion",
-        "human-nature"
+        "humanistic-philosophies",
+        "increasing",
+        "religious",
+        "humility"
       ]
     },
     {
@@ -2298,11 +3184,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/humanistic-philosophies/leaving-christianity/",
       "summary": "A page on Leaving Christianity, written to clarify its role inside the Humanistic Philosophies branch.",
       "tags": [
-        "meaning",
-        "stoicism",
-        "existentialism",
-        "religion",
-        "human-nature"
+        "humanistic-philosophies",
+        "leaving",
+        "christianity"
       ]
     },
     {
@@ -2311,11 +3195,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/humanistic-philosophies/new-manifestations-of-theism/",
       "summary": "A page on New Manifestations of Theism, written to clarify its role inside the Humanistic Philosophies branch.",
       "tags": [
-        "meaning",
-        "stoicism",
-        "existentialism",
+        "humanistic-philosophies",
         "religion",
-        "human-nature"
+        "manifestations",
+        "theism"
       ]
     },
     {
@@ -2324,11 +3207,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/humanistic-philosophies/personal-cosmic-meaning/",
       "summary": "A page on Personal & Cosmic Meaning, written to clarify its role inside the Humanistic Philosophies branch.",
       "tags": [
+        "humanistic-philosophies",
         "meaning",
-        "stoicism",
-        "existentialism",
-        "religion",
-        "human-nature"
+        "personal",
+        "cosmic"
       ]
     },
     {
@@ -2337,11 +3219,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/humanistic-philosophies/religions/",
       "summary": "A page on Religions, written to clarify its role inside the Humanistic Philosophies branch.",
       "tags": [
-        "meaning",
-        "stoicism",
-        "existentialism",
+        "humanistic-philosophies",
         "religion",
-        "human-nature"
+        "religions"
       ]
     },
     {
@@ -2350,11 +3230,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/humanistic-philosophies/russell-on-faith/",
       "summary": "A page on Russell on Faith, written to clarify its role inside the Humanistic Philosophies branch.",
       "tags": [
-        "meaning",
-        "stoicism",
-        "existentialism",
-        "religion",
-        "human-nature"
+        "humanistic-philosophies",
+        "russell",
+        "faith"
       ]
     },
     {
@@ -2363,11 +3241,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/humanistic-philosophies/shoe-tips-hiddenness/",
       "summary": "A page on Shoe-Tips & Hiddenness, written to clarify its role inside the Humanistic Philosophies branch.",
       "tags": [
-        "meaning",
-        "stoicism",
-        "existentialism",
-        "religion",
-        "human-nature"
+        "humanistic-philosophies",
+        "shoe",
+        "tips",
+        "hiddenness"
       ]
     },
     {
@@ -2376,11 +3253,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/humanistic-philosophies/stoicism-key-concepts/",
       "summary": "A page on Stoicism: Key Concepts, written to clarify its role inside the Humanistic Philosophies branch.",
       "tags": [
-        "meaning",
+        "humanistic-philosophies",
         "stoicism",
-        "existentialism",
-        "religion",
-        "human-nature"
+        "concepts"
       ]
     },
     {
@@ -2389,11 +3264,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/humanistic-philosophies/testing-prayer/",
       "summary": "A page on Testing Prayer, written to clarify its role inside the Humanistic Philosophies branch.",
       "tags": [
-        "meaning",
-        "stoicism",
-        "existentialism",
-        "religion",
-        "human-nature"
+        "humanistic-philosophies",
+        "testing",
+        "prayer"
       ]
     },
     {
@@ -2402,11 +3275,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/humanistic-philosophies/the-legitimacy-of-divine-revelation/",
       "summary": "A page on The Legitimacy of Divine Revelation, written to clarify its role inside the Humanistic Philosophies branch.",
       "tags": [
-        "meaning",
-        "stoicism",
-        "existentialism",
-        "religion",
-        "human-nature"
+        "humanistic-philosophies",
+        "legitimacy",
+        "divine",
+        "revelation"
       ]
     },
     {
@@ -2415,11 +3287,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/humanistic-philosophies/what-is-existentialism/",
       "summary": "A page on Existentialism, written to clarify its role inside the Humanistic Philosophies branch.",
       "tags": [
-        "meaning",
-        "stoicism",
-        "existentialism",
-        "religion",
-        "human-nature"
+        "humanistic-philosophies",
+        "primer",
+        "existentialism"
       ]
     },
     {
@@ -2428,11 +3298,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/humanistic-philosophies/what-is-religion/",
       "summary": "A page on Religion, written to clarify its role inside the Humanistic Philosophies branch.",
       "tags": [
-        "meaning",
-        "stoicism",
-        "existentialism",
-        "religion",
-        "human-nature"
+        "humanistic-philosophies",
+        "primer",
+        "religion"
       ]
     },
     {
@@ -2441,11 +3309,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/humanistic-philosophies/what-is-stoicism/",
       "summary": "A page on Stoicism, written to clarify its role inside the Humanistic Philosophies branch.",
       "tags": [
-        "meaning",
-        "stoicism",
-        "existentialism",
-        "religion",
-        "human-nature"
+        "humanistic-philosophies",
+        "primer",
+        "stoicism"
       ]
     },
     {
@@ -2454,11 +3320,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/humanistic-philosophies/unpalatable-religions/",
       "summary": "A page on “Unpalatable” Religions, written to clarify its role inside the Humanistic Philosophies branch.",
       "tags": [
-        "meaning",
-        "stoicism",
-        "existentialism",
+        "humanistic-philosophies",
         "religion",
-        "human-nature"
+        "unpalatable",
+        "religions"
       ]
     },
     {
@@ -2467,10 +3332,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/introduction/analogies-to-a-philosophical-life/",
       "summary": "A page on Analogies to a Philosophical Life, written to clarify its role inside the Introduction branch.",
       "tags": [
-        "orientation",
-        "study-of-philosophy",
-        "introductory-philosophy",
-        "careers"
+        "introduction",
+        "analogies",
+        "philosophical",
+        "life"
       ]
     },
     {
@@ -2479,10 +3344,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/introduction/are-philosophers-argumentative/",
       "summary": "A page on Are Philosophers Argumentative, written to clarify its role inside the Introduction branch.",
       "tags": [
-        "orientation",
-        "study-of-philosophy",
-        "introductory-philosophy",
-        "careers"
+        "introduction",
+        "philosophers",
+        "argumentative"
       ]
     },
     {
@@ -2491,10 +3355,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/introduction/careers-in-philosophy/",
       "summary": "A page on Careers in Philosophy, written to clarify its role inside the Introduction branch.",
       "tags": [
-        "orientation",
-        "study-of-philosophy",
-        "introductory-philosophy",
-        "careers"
+        "introduction",
+        "careers",
+        "philosophy"
       ]
     },
     {
@@ -2503,10 +3366,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/introduction/miscellaneous-philosophers/",
       "summary": "A page on Miscellaneous Philosophers, written to clarify its role inside the Introduction branch.",
       "tags": [
-        "orientation",
-        "study-of-philosophy",
-        "introductory-philosophy",
-        "careers"
+        "introduction",
+        "miscellaneous",
+        "philosophers"
       ]
     },
     {
@@ -2515,10 +3377,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/introduction/philosophical-maturity/",
       "summary": "A page on Philosophical Maturity, written to clarify its role inside the Introduction branch.",
       "tags": [
-        "orientation",
-        "study-of-philosophy",
-        "introductory-philosophy",
-        "careers"
+        "introduction",
+        "philosophical",
+        "maturity"
       ]
     },
     {
@@ -2527,10 +3388,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/introduction/philosophy-higher-education/",
       "summary": "A page on Philosophy: Higher Education, written to clarify its role inside the Introduction branch.",
       "tags": [
-        "orientation",
-        "study-of-philosophy",
-        "introductory-philosophy",
-        "careers"
+        "introduction",
+        "philosophy",
+        "higher",
+        "education"
       ]
     },
     {
@@ -2539,10 +3400,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/introduction/scoring-the-accessibility-of-philosophical-content/",
       "summary": "A page on Scoring the Accessibility of Philosophical Content, written to clarify its role inside the Introduction branch.",
       "tags": [
-        "orientation",
-        "study-of-philosophy",
-        "introductory-philosophy",
-        "careers"
+        "introduction",
+        "scoring",
+        "accessibility",
+        "philosophical",
+        "content"
       ]
     },
     {
@@ -2551,10 +3413,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/introduction/studying-philosophy-resources/",
       "summary": "A page on Studying Philosophy: Resources, written to clarify its role inside the Introduction branch.",
       "tags": [
-        "orientation",
-        "study-of-philosophy",
-        "introductory-philosophy",
-        "careers"
+        "introduction",
+        "branch-map",
+        "studying",
+        "philosophy",
+        "resources"
       ]
     },
     {
@@ -2563,10 +3426,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/introduction/what-is-philosophy/",
       "summary": "A page on Philosophy, written to clarify its role inside the Introduction branch.",
       "tags": [
-        "orientation",
-        "study-of-philosophy",
-        "introductory-philosophy",
-        "careers"
+        "introduction",
+        "primer",
+        "philosophy"
       ]
     },
     {
@@ -2575,10 +3437,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/introduction/what-is-the-value-of-philosophy/",
       "summary": "A page on the Value of Philosophy, written to clarify its role inside the Introduction branch.",
       "tags": [
-        "orientation",
-        "study-of-philosophy",
-        "introductory-philosophy",
-        "careers"
+        "introduction",
+        "primer",
+        "value",
+        "philosophy"
       ]
     },
     {
@@ -2587,11 +3449,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/introduction/womens-interest-in-philosophy/",
       "summary": "A page on Women’s Interest in Philosophy, written to clarify its role inside the Introduction branch.",
       "tags": [
-        "orientation",
-        "study-of-philosophy",
-        "introductory-philosophy",
-        "careers",
-        "women-s"
+        "introduction",
+        "women-s",
+        "interest",
+        "philosophy"
       ]
     },
     {
@@ -2600,11 +3461,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/metaphysics/a-taxonomy-of-impossibilities/",
       "summary": "A page on A Taxonomy of Impossibilities, written to clarify its role inside the Metaphysics branch.",
       "tags": [
-        "reality",
-        "emergence",
-        "materialism",
-        "dualism",
-        "nihilism"
+        "metaphysics",
+        "taxonomy",
+        "impossibilities"
       ]
     },
     {
@@ -2613,11 +3472,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/metaphysics/are-quantum-physics-spiritual/",
       "summary": "A page on Are Quantum Physics “Spiritual”, written to clarify its role inside the Metaphysics branch.",
       "tags": [
-        "reality",
-        "emergence",
-        "materialism",
-        "dualism",
-        "nihilism"
+        "metaphysics",
+        "quantum",
+        "physics",
+        "spiritual"
       ]
     },
     {
@@ -2626,11 +3484,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/metaphysics/categories-of-nihilism/",
       "summary": "A page on Categories of Nihilism, written to clarify its role inside the Metaphysics branch.",
       "tags": [
-        "reality",
-        "emergence",
-        "materialism",
-        "dualism",
-        "nihilism"
+        "metaphysics",
+        "nihilism",
+        "categories"
       ]
     },
     {
@@ -2639,11 +3495,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/metaphysics/could-mind-be-fundamental/",
       "summary": "A page on Could Mind be Fundamental, written to clarify its role inside the Metaphysics branch.",
       "tags": [
-        "reality",
-        "emergence",
-        "materialism",
-        "dualism",
-        "nihilism"
+        "metaphysics",
+        "could",
+        "mind",
+        "fundamental"
       ]
     },
     {
@@ -2652,11 +3507,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/metaphysics/dualismvsmaterialism/",
       "summary": "A page on Dualism vs Materialism, written to clarify its role inside the Metaphysics branch.",
       "tags": [
-        "reality",
-        "emergence",
+        "metaphysics",
         "materialism",
-        "dualism",
-        "nihilism"
+        "dualism"
       ]
     },
     {
@@ -2665,11 +3518,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/metaphysics/emergence/",
       "summary": "A page on Emergence, written to clarify its role inside the Metaphysics branch.",
       "tags": [
-        "reality",
-        "emergence",
-        "materialism",
-        "dualism",
-        "nihilism"
+        "metaphysics",
+        "branch-map",
+        "emergence"
       ]
     },
     {
@@ -2678,11 +3529,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/metaphysics/energy-psychic-phenomena/",
       "summary": "A page on Energy & Psychic Phenomena, written to clarify its role inside the Metaphysics branch.",
       "tags": [
-        "reality",
-        "emergence",
-        "materialism",
-        "dualism",
-        "nihilism"
+        "metaphysics",
+        "energy",
+        "psychic",
+        "phenomena"
       ]
     },
     {
@@ -2691,11 +3541,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/metaphysics/establishing-the-spiritual/",
       "summary": "A page on Establishing the Spiritual, written to clarify its role inside the Metaphysics branch.",
       "tags": [
-        "reality",
+        "metaphysics",
+        "branch-map",
         "emergence",
-        "materialism",
-        "dualism",
-        "nihilism"
+        "establishing",
+        "spiritual"
       ]
     },
     {
@@ -2704,11 +3554,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/metaphysics/explanations/",
       "summary": "A page on Explanations, written to clarify its role inside the Metaphysics branch.",
       "tags": [
-        "reality",
-        "emergence",
-        "materialism",
-        "dualism",
-        "nihilism"
+        "metaphysics",
+        "branch-map",
+        "explanations"
       ]
     },
     {
@@ -2717,11 +3565,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/metaphysics/jeremy-sherman-on-emergence/",
       "summary": "A page on Jeremy Sherman on Emergence, written to clarify its role inside the Metaphysics branch.",
       "tags": [
-        "reality",
+        "metaphysics",
         "emergence",
-        "materialism",
-        "dualism",
-        "nihilism"
+        "jeremy",
+        "sherman"
       ]
     },
     {
@@ -2730,11 +3577,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/metaphysics/matthew-pirkowski-on-emergence/",
       "summary": "A page on Matthew Pirkowski on Emergence, written to clarify its role inside the Metaphysics branch.",
       "tags": [
-        "reality",
+        "metaphysics",
         "emergence",
-        "materialism",
-        "dualism",
-        "nihilism"
+        "matthew",
+        "pirkowski"
       ]
     },
     {
@@ -2743,11 +3589,8 @@ window.BYTESEISMIC_DATA = {
       "path": "/metaphysics/metaphysics-core-concepts/",
       "summary": "A page on Metaphysics – Core Concepts, written to clarify its role inside the Metaphysics branch.",
       "tags": [
-        "reality",
-        "emergence",
-        "materialism",
-        "dualism",
-        "nihilism"
+        "metaphysics",
+        "concepts"
       ]
     },
     {
@@ -2756,11 +3599,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/metaphysics/minimal-entities-to-reach-unfalsifiability/",
       "summary": "A page on Minimal Entities to reach Unfalsifiability, written to clarify its role inside the Metaphysics branch.",
       "tags": [
-        "reality",
-        "emergence",
-        "materialism",
-        "dualism",
-        "nihilism"
+        "metaphysics",
+        "minimal",
+        "entities",
+        "reach",
+        "unfalsifiability"
       ]
     },
     {
@@ -2769,11 +3612,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/metaphysics/objectively-subjectively-real/",
       "summary": "A page on Objectively & Subjectively “Real”, written to clarify its role inside the Metaphysics branch.",
       "tags": [
+        "metaphysics",
         "reality",
-        "emergence",
-        "materialism",
-        "dualism",
-        "nihilism"
+        "objectively",
+        "subjectively",
+        "real"
       ]
     },
     {
@@ -2782,11 +3625,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/metaphysics/ontological-domains/",
       "summary": "A page on Ontological Domains, written to clarify its role inside the Metaphysics branch.",
       "tags": [
-        "reality",
-        "emergence",
-        "materialism",
-        "dualism",
-        "nihilism"
+        "metaphysics",
+        "branch-map",
+        "ontological",
+        "domains"
       ]
     },
     {
@@ -2795,11 +3637,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/metaphysics/stuart-kauffman-on-emergence/",
       "summary": "A page on Stuart Kauffman on Emergence, written to clarify its role inside the Metaphysics branch.",
       "tags": [
-        "reality",
+        "metaphysics",
         "emergence",
-        "materialism",
-        "dualism",
-        "nihilism"
+        "stuart",
+        "kauffman"
       ]
     },
     {
@@ -2808,11 +3649,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/metaphysics/terrence-deacon-on-emergence/",
       "summary": "A page on Terrence Deacon on Emergence, written to clarify its role inside the Metaphysics branch.",
       "tags": [
-        "reality",
+        "metaphysics",
         "emergence",
-        "materialism",
-        "dualism",
-        "nihilism"
+        "terrence",
+        "deacon"
       ]
     },
     {
@@ -2821,11 +3661,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/metaphysics/the-beginning-of-time/",
       "summary": "A page on The Beginning of Time, written to clarify its role inside the Metaphysics branch.",
       "tags": [
-        "reality",
-        "emergence",
-        "materialism",
-        "dualism",
-        "nihilism"
+        "metaphysics",
+        "beginning",
+        "time"
       ]
     },
     {
@@ -2834,11 +3672,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/metaphysics/the-principle-of-sufficient-reason/",
       "summary": "A page on The Principle of Sufficient Reason, written to clarify its role inside the Metaphysics branch.",
       "tags": [
-        "reality",
-        "emergence",
-        "materialism",
-        "dualism",
-        "nihilism"
+        "metaphysics",
+        "principle",
+        "sufficient",
+        "reason"
       ]
     },
     {
@@ -2847,11 +3684,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/metaphysics/the-status-of-evil/",
       "summary": "A page on The Status of Evil, written to clarify its role inside the Metaphysics branch.",
       "tags": [
+        "metaphysics",
         "reality",
-        "emergence",
-        "materialism",
-        "dualism",
-        "nihilism"
+        "status",
+        "evil"
       ]
     },
     {
@@ -2860,11 +3696,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/metaphysics/what-is-metaphysics/",
       "summary": "A page on Metaphysics, written to clarify its role inside the Metaphysics branch.",
       "tags": [
-        "reality",
-        "emergence",
-        "materialism",
-        "dualism",
-        "nihilism"
+        "metaphysics",
+        "primer",
+        "reality"
       ]
     },
     {
@@ -2873,11 +3707,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/metaphysics/whence-logic/",
       "summary": "A page on Whence Logic, written to clarify its role inside the Metaphysics branch.",
       "tags": [
+        "metaphysics",
         "reality",
-        "emergence",
-        "materialism",
-        "dualism",
-        "nihilism"
+        "logic"
       ]
     },
     {
@@ -2886,11 +3718,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/miscellany/assembly-theory/",
       "summary": "A page on Assembly Theory, written to clarify its role inside the Miscellany branch.",
       "tags": [
-        "aesthetics",
-        "history",
+        "miscellany",
         "complexity",
-        "information",
-        "wisdom"
+        "assembly",
+        "theory"
       ]
     },
     {
@@ -2899,11 +3730,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/miscellany/cascading-factor-models/",
       "summary": "A page on Cascading Factor Models, written to clarify its role inside the Miscellany branch.",
       "tags": [
-        "aesthetics",
-        "history",
-        "complexity",
-        "information",
-        "wisdom"
+        "miscellany",
+        "cascading",
+        "factor",
+        "models"
       ]
     },
     {
@@ -2912,11 +3742,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/miscellany/complexity-theory/",
       "summary": "A page on Complexity Theory, written to clarify its role inside the Miscellany branch.",
       "tags": [
-        "aesthetics",
-        "history",
+        "miscellany",
+        "branch-map",
         "complexity",
-        "information",
-        "wisdom"
+        "theory"
       ]
     },
     {
@@ -2925,11 +3754,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/miscellany/covid-19-science/",
       "summary": "A page on COVID19 & Science, written to clarify its role inside the Miscellany branch.",
       "tags": [
-        "aesthetics",
-        "history",
-        "complexity",
-        "information",
-        "wisdom"
+        "miscellany",
+        "covid19",
+        "science"
       ]
     },
     {
@@ -2938,11 +3765,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/miscellany/cross-culture-emotional-dispositions/",
       "summary": "A page on Cross-Culture Emotional Dispositions, written to clarify its role inside the Miscellany branch.",
       "tags": [
-        "aesthetics",
-        "history",
-        "complexity",
-        "information",
-        "wisdom"
+        "miscellany",
+        "cross",
+        "culture",
+        "emotional",
+        "dispositions"
       ]
     },
     {
@@ -2951,11 +3778,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/miscellany/david-krakauer-on-complexity/",
       "summary": "A page on David Krakauer on Complexity, written to clarify its role inside the Miscellany branch.",
       "tags": [
-        "aesthetics",
-        "history",
+        "miscellany",
         "complexity",
-        "information",
-        "wisdom"
+        "david",
+        "krakauer"
       ]
     },
     {
@@ -2964,11 +3790,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/miscellany/domains-of-aesthetics/",
       "summary": "A page on Domains of Aesthetics, written to clarify its role inside the Miscellany branch.",
       "tags": [
+        "miscellany",
         "aesthetics",
-        "history",
-        "complexity",
-        "information",
-        "wisdom"
+        "domains"
       ]
     },
     {
@@ -2977,11 +3801,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/miscellany/dynamical-depth/",
       "summary": "A page on Dynamical Depth, written to clarify its role inside the Miscellany branch.",
       "tags": [
-        "aesthetics",
-        "history",
-        "complexity",
-        "information",
-        "wisdom"
+        "miscellany",
+        "dynamical",
+        "depth"
       ]
     },
     {
@@ -2990,11 +3812,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/miscellany/flack-mitchell-on-complexity/",
       "summary": "A page on Flack & Mitchell on Complexity, written to clarify its role inside the Miscellany branch.",
       "tags": [
-        "aesthetics",
-        "history",
+        "miscellany",
         "complexity",
-        "information",
-        "wisdom"
+        "flack",
+        "mitchell"
       ]
     },
     {
@@ -3003,11 +3824,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/miscellany/information-theory/",
       "summary": "A page on Information Theory, written to clarify its role inside the Miscellany branch.",
       "tags": [
-        "aesthetics",
-        "history",
-        "complexity",
+        "miscellany",
         "information",
-        "wisdom"
+        "theory"
       ]
     },
     {
@@ -3016,11 +3835,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/miscellany/nassim-taleb-on-joe-walker/",
       "summary": "A page on Nassim Taleb on Joe Walker, written to clarify its role inside the Miscellany branch.",
       "tags": [
-        "aesthetics",
-        "history",
-        "complexity",
-        "information",
-        "wisdom"
+        "miscellany",
+        "nassim",
+        "taleb",
+        "walker"
       ]
     },
     {
@@ -3029,11 +3847,8 @@ window.BYTESEISMIC_DATA = {
       "path": "/miscellany/profiling/",
       "summary": "A page on Profiling, written to clarify its role inside the Miscellany branch.",
       "tags": [
-        "aesthetics",
-        "history",
-        "complexity",
-        "information",
-        "wisdom"
+        "miscellany",
+        "profiling"
       ]
     },
     {
@@ -3042,12 +3857,12 @@ window.BYTESEISMIC_DATA = {
       "path": "/miscellany/sara-walker-on-lifes-emergence/",
       "summary": "A page on Sara Walker on Life’s Emergence, written to clarify its role inside the Miscellany branch.",
       "tags": [
-        "aesthetics",
-        "history",
+        "miscellany",
         "complexity",
-        "information",
-        "wisdom",
-        "life-s"
+        "sara",
+        "walker",
+        "life-s",
+        "emergence"
       ]
     },
     {
@@ -3056,11 +3871,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/miscellany/site-structure/",
       "summary": "A page on Site Structure, written to clarify its role inside the Miscellany branch.",
       "tags": [
-        "aesthetics",
-        "history",
-        "complexity",
-        "information",
-        "wisdom"
+        "miscellany",
+        "site",
+        "structure"
       ]
     },
     {
@@ -3069,11 +3882,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/miscellany/the-fantastical-historical-truth/",
       "summary": "A page on The Fantastical & Historical Truth, written to clarify its role inside the Miscellany branch.",
       "tags": [
-        "aesthetics",
+        "miscellany",
         "history",
-        "complexity",
-        "information",
-        "wisdom"
+        "fantastical",
+        "historical",
+        "truth"
       ]
     },
     {
@@ -3082,11 +3895,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/miscellany/the-growing-disinclination-for-war/",
       "summary": "A page on The Growing Disinclination for War, written to clarify its role inside the Miscellany branch.",
       "tags": [
-        "aesthetics",
-        "history",
-        "complexity",
-        "information",
-        "wisdom"
+        "miscellany",
+        "growing",
+        "disinclination"
       ]
     },
     {
@@ -3095,11 +3906,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/miscellany/the-historical-method/",
       "summary": "A page on The Historical Method, written to clarify its role inside the Miscellany branch.",
       "tags": [
-        "aesthetics",
-        "history",
-        "complexity",
-        "information",
-        "wisdom"
+        "miscellany",
+        "branch-map",
+        "historical",
+        "method"
       ]
     },
     {
@@ -3108,11 +3918,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/miscellany/what-is-axiology/",
       "summary": "A page on Axiology, written to clarify its role inside the Miscellany branch.",
       "tags": [
+        "miscellany",
+        "primer",
         "aesthetics",
-        "history",
-        "complexity",
-        "information",
-        "wisdom"
+        "axiology"
       ]
     },
     {
@@ -3121,11 +3930,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/miscellany/wisdom-dynamics/",
       "summary": "A page on Wisdom Dynamics, written to clarify its role inside the Miscellany branch.",
       "tags": [
-        "aesthetics",
-        "history",
-        "complexity",
-        "information",
-        "wisdom"
+        "miscellany",
+        "wisdom",
+        "dynamics"
       ]
     },
     {
@@ -3134,11 +3941,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/miscellany/zak-stein-on-complexity/",
       "summary": "A page on Zak Stein on Complexity, written to clarify its role inside the Miscellany branch.",
       "tags": [
-        "aesthetics",
-        "history",
+        "miscellany",
         "complexity",
-        "information",
-        "wisdom"
+        "stein"
       ]
     },
     {
@@ -3147,11 +3952,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/analytic-philosophers/",
       "summary": "A page on Analytic Philosophers, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "dialogue",
+        "analytic"
       ]
     },
     {
@@ -3160,11 +3964,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/ancient-philosophers/",
       "summary": "A page on Ancient Philosophers, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "dialogue",
+        "ancient"
       ]
     },
     {
@@ -3173,11 +3976,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/anselm-of-canterbury/",
       "summary": "A page on Anselm of Canterbury, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "anselm",
+        "canterbury"
       ]
     },
     {
@@ -3186,11 +3987,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/aquinas-five-ways/",
       "summary": "A page on Aquinas’ Five Ways, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "aquinas",
+        "five",
+        "ways"
       ]
     },
     {
@@ -3199,11 +3999,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/aristotle/",
       "summary": "A page on Aristotle, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "aristotle"
       ]
     },
     {
@@ -3212,11 +4010,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/at-the-edge-of-miracles/",
       "summary": "A page on At the Edge of Miracles, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "edge",
+        "miracles"
       ]
     },
     {
@@ -3225,11 +4021,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/augustine-of-hippo/",
       "summary": "A page on Augustine of Hippo, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "augustine",
+        "hippo"
       ]
     },
     {
@@ -3238,11 +4032,8 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/averroes/",
       "summary": "A page on Averroes, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "averroes"
       ]
     },
     {
@@ -3251,11 +4042,8 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/avicenna/",
       "summary": "A page on Avicenna, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "avicenna"
       ]
     },
     {
@@ -3264,11 +4052,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/baruch-spinoza/",
       "summary": "A page on Baruch Spinoza, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "baruch",
+        "spinoza"
       ]
     },
     {
@@ -3277,11 +4064,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/bertrand-russell/",
       "summary": "A page on Bertrand Russel, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "bertrand",
+        "russel"
       ]
     },
     {
@@ -3290,11 +4076,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charles-sanders-peirce/",
       "summary": "A page on Charles Sanders Peirce, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "charles",
+        "sanders",
+        "peirce"
       ]
     },
     {
@@ -3303,11 +4089,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-adorno/",
       "summary": "A terrain map of Adorno, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "adorno"
       ]
     },
     {
@@ -3316,11 +4100,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-anselm/",
       "summary": "A terrain map of Anselm, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "anselm"
       ]
     },
     {
@@ -3329,11 +4111,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-aquinas/",
       "summary": "A terrain map of Aquinas, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "aquinas"
       ]
     },
     {
@@ -3342,11 +4122,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-aristotle/",
       "summary": "A terrain map of Aristotle, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "aristotle"
       ]
     },
     {
@@ -3355,11 +4133,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-augustine/",
       "summary": "A terrain map of Augustine, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "augustine"
       ]
     },
     {
@@ -3368,11 +4144,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-averroes/",
       "summary": "A terrain map of Averroes, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "averroes"
       ]
     },
     {
@@ -3381,11 +4155,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-avicenna/",
       "summary": "A terrain map of Avicenna, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "avicenna"
       ]
     },
     {
@@ -3394,11 +4166,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-beauvoir/",
       "summary": "A terrain map of Beauvoir, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "beauvoir"
       ]
     },
     {
@@ -3407,11 +4177,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-berkeley/",
       "summary": "A terrain map of Berkeley, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "berkeley"
       ]
     },
     {
@@ -3420,11 +4188,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-charles-sanders-peirce/",
       "summary": "A terrain map of Charles Sanders Peirce, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "charles",
+        "sanders",
+        "peirce"
       ]
     },
     {
@@ -3433,11 +4201,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-confucius/",
       "summary": "A terrain map of Confucius, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "confucius"
       ]
     },
     {
@@ -3446,11 +4212,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-dennett/",
       "summary": "A terrain map of Dennett, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "dennett"
       ]
     },
     {
@@ -3459,11 +4223,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-derrida/",
       "summary": "A terrain map of Derrida, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "derrida"
       ]
     },
     {
@@ -3472,11 +4234,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-descartes/",
       "summary": "A terrain map of Descartes, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "descartes"
       ]
     },
     {
@@ -3485,11 +4245,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-dewey/",
       "summary": "A terrain map of Dewey, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "dewey"
       ]
     },
     {
@@ -3498,11 +4256,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-duns-scotus/",
       "summary": "A terrain map of Duns Scotus, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "duns",
+        "scotus"
       ]
     },
     {
@@ -3511,11 +4268,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-elizabeth-anscombe/",
       "summary": "A terrain map of Elizabeth Anscombe, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "elizabeth",
+        "anscombe"
       ]
     },
     {
@@ -3524,11 +4280,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-epictetus/",
       "summary": "A terrain map of Epictetus, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "epictetus"
       ]
     },
     {
@@ -3537,11 +4291,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-epicurus/",
       "summary": "A terrain map of Epicurus, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "epicurus"
       ]
     },
     {
@@ -3550,11 +4302,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-foucault/",
       "summary": "A terrain map of Foucault, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "foucault"
       ]
     },
     {
@@ -3563,12 +4313,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-g-e-moore/",
       "summary": "A terrain map of G.E. Moore, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche",
-        "g-e"
+        "philosophers",
+        "comparison",
+        "g-e",
+        "moore"
       ]
     },
     {
@@ -3577,11 +4325,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-gottlob-frege/",
       "summary": "A terrain map of Gottlob Frege, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "gottlob",
+        "frege"
       ]
     },
     {
@@ -3590,11 +4337,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-habermas/",
       "summary": "A terrain map of Habermas, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "habermas"
       ]
     },
     {
@@ -3603,11 +4348,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-hannah-arendt/",
       "summary": "A terrain map of Hannah Arendt, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "hannah",
+        "arendt"
       ]
     },
     {
@@ -3616,11 +4360,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-hegel/",
       "summary": "A terrain map of Hegel, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "hegel"
       ]
     },
     {
@@ -3629,11 +4371,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-heidegger/",
       "summary": "A terrain map of Heidegger, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "heidegger"
       ]
     },
     {
@@ -3642,11 +4382,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-heraclitus/",
       "summary": "A terrain map of Heraclitus, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "heraclitus"
       ]
     },
     {
@@ -3655,11 +4393,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-hobbes/",
       "summary": "A terrain map of Hobbes, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "hobbes"
       ]
     },
     {
@@ -3668,11 +4404,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-hume/",
       "summary": "A terrain map of Hume, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "hume"
       ]
     },
     {
@@ -3681,11 +4415,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-husserl/",
       "summary": "A terrain map of Husserl, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "husserl"
       ]
     },
     {
@@ -3694,11 +4426,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-john-rawls/",
       "summary": "A terrain map of John Rawls, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "john",
+        "rawls"
       ]
     },
     {
@@ -3707,11 +4438,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-john-stuart-mill/",
       "summary": "A terrain map of John Stuart Mill, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "john",
+        "stuart",
+        "mill"
       ]
     },
     {
@@ -3720,11 +4451,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-judith-butler/",
       "summary": "A terrain map of Judith Butler, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "judith",
+        "butler"
       ]
     },
     {
@@ -3733,11 +4463,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-kant/",
       "summary": "A terrain map of Kant, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "kant"
       ]
     },
     {
@@ -3746,11 +4474,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-kierkegaard/",
       "summary": "A terrain map of Kierkegaard, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "kierkegaard"
       ]
     },
     {
@@ -3759,11 +4485,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-laozi/",
       "summary": "A terrain map of Laozi, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "laozi"
       ]
     },
     {
@@ -3772,11 +4496,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-leibniz/",
       "summary": "A terrain map of Leibniz, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "leibniz"
       ]
     },
     {
@@ -3785,11 +4507,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-locke/",
       "summary": "A terrain map of Locke, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "locke"
       ]
     },
     {
@@ -3798,11 +4518,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-machiavelli/",
       "summary": "A terrain map of Machiavelli, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "machiavelli"
       ]
     },
     {
@@ -3811,11 +4529,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-maimonides/",
       "summary": "A terrain map of Maimonides, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "maimonides"
       ]
     },
     {
@@ -3824,11 +4540,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-marcus-aurelius/",
       "summary": "A terrain map of Marcus Aurelius, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "marcus",
+        "aurelius"
       ]
     },
     {
@@ -3837,11 +4552,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-marcuse/",
       "summary": "A terrain map of Marcuse, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "marcuse"
       ]
     },
     {
@@ -3850,11 +4563,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-marx/",
       "summary": "A terrain map of Marx, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "marx"
       ]
     },
     {
@@ -3863,11 +4574,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-mary-wollstonecraft/",
       "summary": "A terrain map of Mary Wollstonecraft, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "mary",
+        "wollstonecraft"
       ]
     },
     {
@@ -3876,11 +4586,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-mencius/",
       "summary": "A terrain map of Mencius, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "mencius"
       ]
     },
     {
@@ -3889,11 +4597,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-merleau-ponty/",
       "summary": "A terrain map of Merleau-Ponty, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "merleau",
+        "ponty"
       ]
     },
     {
@@ -3902,11 +4609,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-nagarjuna/",
       "summary": "A terrain map of Nagarjuna, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "nagarjuna"
       ]
     },
     {
@@ -3915,10 +4620,8 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-nietzsche/",
       "summary": "A terrain map of Nietzsche, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
+        "philosophers",
+        "comparison",
         "nietzsche"
       ]
     },
@@ -3928,11 +4631,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-parmenides/",
       "summary": "A terrain map of Parmenides, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "parmenides"
       ]
     },
     {
@@ -3941,11 +4642,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-plato/",
       "summary": "A terrain map of Plato, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "plato"
       ]
     },
     {
@@ -3954,11 +4653,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-plotinus/",
       "summary": "A terrain map of Plotinus, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "plotinus"
       ]
     },
     {
@@ -3967,11 +4664,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-quine/",
       "summary": "A terrain map of Quine, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "quine"
       ]
     },
     {
@@ -3980,11 +4675,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-rousseau/",
       "summary": "A terrain map of Rousseau, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "rousseau"
       ]
     },
     {
@@ -3993,11 +4686,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-russell/",
       "summary": "A terrain map of Russel, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "russel"
       ]
     },
     {
@@ -4006,11 +4697,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-sartre/",
       "summary": "A terrain map of Sartre, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "sartre"
       ]
     },
     {
@@ -4019,11 +4708,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-saul-kripke/",
       "summary": "A terrain map of Saul Kripke, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "saul",
+        "kripke"
       ]
     },
     {
@@ -4032,11 +4720,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-seneca/",
       "summary": "A terrain map of Seneca, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "seneca"
       ]
     },
     {
@@ -4045,11 +4731,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-socrates/",
       "summary": "A terrain map of Socrates, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "socrates"
       ]
     },
     {
@@ -4058,11 +4742,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-spinoza/",
       "summary": "A terrain map of Spinoza, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "spinoza"
       ]
     },
     {
@@ -4071,11 +4753,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-walter-benjamin/",
       "summary": "A terrain map of Walter Benjamin, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "walter",
+        "benjamin"
       ]
     },
     {
@@ -4084,11 +4765,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-william-james/",
       "summary": "A terrain map of William James, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "william",
+        "james"
       ]
     },
     {
@@ -4097,11 +4777,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-william-of-ockham/",
       "summary": "A terrain map of William of Ockham, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "william",
+        "ockham"
       ]
     },
     {
@@ -4110,11 +4789,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-wittgenstein/",
       "summary": "A terrain map of Wittgenstein, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "wittgenstein"
       ]
     },
     {
@@ -4123,11 +4800,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/charting-zhuangzi/",
       "summary": "A terrain map of Zhuangzi, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "zhuangzi"
       ]
     },
     {
@@ -4136,11 +4811,8 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/confucius/",
       "summary": "A page on Confucius, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "confucius"
       ]
     },
     {
@@ -4149,11 +4821,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/continental-philosophers/",
       "summary": "A page on Continental Philosophers, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "dialogue",
+        "continental"
       ]
     },
     {
@@ -4162,11 +4833,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/critical-theorists/",
       "summary": "A page on Critical Theory, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "dialogue",
+        "critical",
+        "theory"
       ]
     },
     {
@@ -4175,11 +4846,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/daniel-dennett/",
       "summary": "A page on Daniel Dennett, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "daniel",
+        "dennett"
       ]
     },
     {
@@ -4188,11 +4858,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/david-hume/",
       "summary": "A page on David Hume, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "david",
+        "hume"
       ]
     },
     {
@@ -4201,11 +4870,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-adorno/",
       "summary": "A guided encounter with Adorno that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "adorno"
       ]
     },
     {
@@ -4214,11 +4881,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-anselm/",
       "summary": "A guided encounter with Anselm that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "anselm"
       ]
     },
     {
@@ -4227,11 +4892,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-aquinas/",
       "summary": "A guided encounter with Aquinas that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "aquinas"
       ]
     },
     {
@@ -4240,11 +4903,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-aristotle/",
       "summary": "A guided encounter with Aristotle that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "aristotle"
       ]
     },
     {
@@ -4253,11 +4914,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-augustine/",
       "summary": "A guided encounter with Augustine that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "augustine"
       ]
     },
     {
@@ -4266,11 +4925,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-averroes/",
       "summary": "A guided encounter with Averroes that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "averroes"
       ]
     },
     {
@@ -4279,11 +4936,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-avicenna/",
       "summary": "A guided encounter with Avicenna that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "avicenna"
       ]
     },
     {
@@ -4292,11 +4947,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-beauvoir/",
       "summary": "A guided encounter with Beauvoir that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "beauvoir"
       ]
     },
     {
@@ -4305,11 +4958,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-berkeley/",
       "summary": "A guided encounter with Berkeley that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "berkeley"
       ]
     },
     {
@@ -4318,11 +4969,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-charles-sanders-peirce/",
       "summary": "A guided encounter with Charles Sanders Peirce that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "charles",
+        "sanders",
+        "peirce"
       ]
     },
     {
@@ -4331,11 +4982,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-confucius/",
       "summary": "A guided encounter with Confucius that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "confucius"
       ]
     },
     {
@@ -4344,11 +4993,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-dennett/",
       "summary": "A guided encounter with Dennett that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "dennett"
       ]
     },
     {
@@ -4357,11 +5004,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-derrida/",
       "summary": "A guided encounter with Derrida that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "derrida"
       ]
     },
     {
@@ -4370,11 +5015,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-descartes/",
       "summary": "A guided encounter with Descartes that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "descartes"
       ]
     },
     {
@@ -4383,11 +5026,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-dewey/",
       "summary": "A guided encounter with Dewey that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "dewey"
       ]
     },
     {
@@ -4396,11 +5037,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-duns-scotus/",
       "summary": "A guided encounter with Duns Scotus that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "duns",
+        "scotus"
       ]
     },
     {
@@ -4409,11 +5049,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-elizabeth-anscombe/",
       "summary": "A guided encounter with Elizabeth Anscombe that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "elizabeth",
+        "anscombe"
       ]
     },
     {
@@ -4422,11 +5061,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-epictetus/",
       "summary": "A guided encounter with Epictetus that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "epictetus"
       ]
     },
     {
@@ -4435,11 +5072,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-epicurus/",
       "summary": "A guided encounter with Epicurus that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "epicurus"
       ]
     },
     {
@@ -4448,11 +5083,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-foucault/",
       "summary": "A guided encounter with Foucault that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "foucault"
       ]
     },
     {
@@ -4461,12 +5094,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-g-e-moore/",
       "summary": "A guided encounter with G.E. Moore that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche",
-        "g-e"
+        "philosophers",
+        "dialogue",
+        "g-e",
+        "moore"
       ]
     },
     {
@@ -4475,11 +5106,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-gottlob-frege/",
       "summary": "A guided encounter with Gottlob Frege that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "gottlob",
+        "frege"
       ]
     },
     {
@@ -4488,11 +5118,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-habermas/",
       "summary": "A guided encounter with Habermas that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "habermas"
       ]
     },
     {
@@ -4501,11 +5129,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-hannah-arendt/",
       "summary": "A guided encounter with Hannah Arendt that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "hannah",
+        "arendt"
       ]
     },
     {
@@ -4514,11 +5141,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-hegel/",
       "summary": "A guided encounter with Hegel that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "hegel"
       ]
     },
     {
@@ -4527,11 +5152,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-heidegger/",
       "summary": "A guided encounter with Heidegger that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "heidegger"
       ]
     },
     {
@@ -4540,11 +5163,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-heraclitus/",
       "summary": "A guided encounter with Heraclitus that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "heraclitus"
       ]
     },
     {
@@ -4553,11 +5174,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-hobbes/",
       "summary": "A guided encounter with Hobbes that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "hobbes"
       ]
     },
     {
@@ -4566,11 +5185,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-hume/",
       "summary": "A guided encounter with Hume that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "hume"
       ]
     },
     {
@@ -4579,11 +5196,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-husserl/",
       "summary": "A guided encounter with Husserl that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "husserl"
       ]
     },
     {
@@ -4592,11 +5207,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-john-rawls/",
       "summary": "A guided encounter with John Rawls that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "john",
+        "rawls"
       ]
     },
     {
@@ -4605,11 +5219,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-john-stuart-mill/",
       "summary": "A guided encounter with John Stuart Mill that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "john",
+        "stuart",
+        "mill"
       ]
     },
     {
@@ -4618,11 +5232,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-judith-butler/",
       "summary": "A guided encounter with Judith Butler that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "judith",
+        "butler"
       ]
     },
     {
@@ -4631,11 +5244,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-kant/",
       "summary": "A guided encounter with Kant that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "kant"
       ]
     },
     {
@@ -4644,11 +5255,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-kierkegaard/",
       "summary": "A guided encounter with Kierkegaard that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "kierkegaard"
       ]
     },
     {
@@ -4657,11 +5266,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-laozi/",
       "summary": "A guided encounter with Laozi that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "laozi"
       ]
     },
     {
@@ -4670,11 +5277,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-leibniz/",
       "summary": "A guided encounter with Leibniz that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "leibniz"
       ]
     },
     {
@@ -4683,11 +5288,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-locke/",
       "summary": "A guided encounter with Locke that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "locke"
       ]
     },
     {
@@ -4696,11 +5299,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-machiavelli/",
       "summary": "A guided encounter with Machiavelli that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "machiavelli"
       ]
     },
     {
@@ -4709,11 +5310,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-maimonides/",
       "summary": "A guided encounter with Maimonides that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "maimonides"
       ]
     },
     {
@@ -4722,11 +5321,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-marcus-aurelius/",
       "summary": "A guided encounter with Marcus Aurelius that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "marcus",
+        "aurelius"
       ]
     },
     {
@@ -4735,11 +5333,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-marcuse/",
       "summary": "A guided encounter with Marcuse that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "marcuse"
       ]
     },
     {
@@ -4748,11 +5344,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-marx/",
       "summary": "A guided encounter with Marx that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "marx"
       ]
     },
     {
@@ -4761,11 +5355,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-mary-wollstonecraft/",
       "summary": "A guided encounter with Mary Wollstonecraft that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "mary",
+        "wollstonecraft"
       ]
     },
     {
@@ -4774,11 +5367,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-mencius/",
       "summary": "A guided encounter with Mencius that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "mencius"
       ]
     },
     {
@@ -4787,11 +5378,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-merleau-ponty/",
       "summary": "A guided encounter with Merleau-Ponty that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "merleau",
+        "ponty"
       ]
     },
     {
@@ -4800,11 +5390,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-nagarjuna/",
       "summary": "A guided encounter with Nagarjuna that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "nagarjuna"
       ]
     },
     {
@@ -4813,10 +5401,8 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-nietzsche/",
       "summary": "A guided encounter with Nietzsche that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
+        "philosophers",
+        "dialogue",
         "nietzsche"
       ]
     },
@@ -4826,11 +5412,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-parmenides/",
       "summary": "A guided encounter with Parmenides that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "parmenides"
       ]
     },
     {
@@ -4839,11 +5423,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-plato/",
       "summary": "A guided encounter with Plato that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "plato"
       ]
     },
     {
@@ -4852,11 +5434,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-plotinus/",
       "summary": "A guided encounter with Plotinus that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "plotinus"
       ]
     },
     {
@@ -4865,11 +5445,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-quine/",
       "summary": "A guided encounter with Quine that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "quine"
       ]
     },
     {
@@ -4878,11 +5456,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-rousseau/",
       "summary": "A guided encounter with Rousseau that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "comparison",
+        "rousseau"
       ]
     },
     {
@@ -4891,11 +5468,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-russell/",
       "summary": "A guided encounter with Russel that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "russel"
       ]
     },
     {
@@ -4904,11 +5479,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-sartre/",
       "summary": "A guided encounter with Sartre that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "sartre"
       ]
     },
     {
@@ -4917,11 +5490,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-saul-kripke/",
       "summary": "A guided encounter with Saul Kripke that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "saul",
+        "kripke"
       ]
     },
     {
@@ -4930,11 +5502,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-seneca/",
       "summary": "A guided encounter with Seneca that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "seneca"
       ]
     },
     {
@@ -4943,11 +5513,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-socrates/",
       "summary": "A guided encounter with Socrates that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "socrates"
       ]
     },
     {
@@ -4956,11 +5524,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-spinoza/",
       "summary": "A guided encounter with Spinoza that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "spinoza"
       ]
     },
     {
@@ -4969,11 +5535,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-walter-benjamin/",
       "summary": "A guided encounter with Walter Benjamin that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "walter",
+        "benjamin"
       ]
     },
     {
@@ -4982,11 +5547,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-william-james/",
       "summary": "A guided encounter with William James that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "william",
+        "james"
       ]
     },
     {
@@ -4995,11 +5559,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-william-of-ockham/",
       "summary": "A guided encounter with William of Ockham that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "william",
+        "ockham"
       ]
     },
     {
@@ -5008,11 +5571,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-wittgenstein/",
       "summary": "A guided encounter with Wittgenstein that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "wittgenstein"
       ]
     },
     {
@@ -5021,11 +5582,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/dialoguing-with-zhuangzi/",
       "summary": "A guided encounter with Zhuangzi that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "zhuangzi"
       ]
     },
     {
@@ -5034,11 +5593,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/duns-scotus/",
       "summary": "A page on Duns Scotus, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "duns",
+        "scotus"
       ]
     },
     {
@@ -5047,11 +5605,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/edmund-husserl/",
       "summary": "A page on Edmund Husserl, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "edmund",
+        "husserl"
       ]
     },
     {
@@ -5060,11 +5617,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/elizabeth-anscombe/",
       "summary": "A page on Elizabeth Anscombe, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "elizabeth",
+        "anscombe"
       ]
     },
     {
@@ -5073,11 +5628,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/empiricists/",
       "summary": "A page on Empiricism, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "dialogue",
+        "empiricism"
       ]
     },
     {
@@ -5086,11 +5640,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/epictetus/",
       "summary": "A page on Epictetus, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "epictetus"
       ]
     },
     {
@@ -5099,11 +5651,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/epicurus/",
       "summary": "A page on Epicurus, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "epicurus"
       ]
     },
     {
@@ -5112,11 +5662,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/existentialists/",
       "summary": "A page on Existentialism, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "dialogue",
+        "existentialism"
       ]
     },
     {
@@ -5125,11 +5674,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/feminist-philosophers/",
       "summary": "A page on Feminist Philosophers, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "feminist"
       ]
     },
     {
@@ -5138,10 +5685,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/friedrich-nietzsche/",
       "summary": "A page on Friedrich Nietzsche, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
+        "philosophers",
+        "branch-map",
+        "friedrich",
         "nietzsche"
       ]
     },
@@ -5151,12 +5697,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/g-e-moore/",
       "summary": "A page on G.E. Moore, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche",
-        "g-e"
+        "philosophers",
+        "g-e",
+        "moore"
       ]
     },
     {
@@ -5165,11 +5708,12 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/georg-wilhelm-friedrich-hegel/",
       "summary": "A page on Georg Wilhelm Friedrich Hegel, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "georg",
+        "wilhelm",
+        "friedrich",
+        "hegel"
       ]
     },
     {
@@ -5178,11 +5722,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/george-berkeley/",
       "summary": "A page on George Berkeley, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "george",
+        "berkeley"
       ]
     },
     {
@@ -5191,11 +5734,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/gottfried-wilhelm-leibniz/",
       "summary": "A page on Gottfried Wilhelm Leibniz, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "gottfried",
+        "wilhelm",
+        "leibniz"
       ]
     },
     {
@@ -5204,11 +5747,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/gottlob-frege/",
       "summary": "A page on Gottlob Frege, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "gottlob",
+        "frege"
       ]
     },
     {
@@ -5217,11 +5758,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/hannah-arendt/",
       "summary": "A page on Hannah Arendt, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "hannah",
+        "arendt"
       ]
     },
     {
@@ -5230,11 +5769,8 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/heraclitus/",
       "summary": "A page on Heraclitus, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "heraclitus"
       ]
     },
     {
@@ -5243,11 +5779,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/herbert-marcuse/",
       "summary": "A page on Herbert Marcuse, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "herbert",
+        "marcuse"
       ]
     },
     {
@@ -5256,11 +5791,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/immanuel-kant/",
       "summary": "A page on Immanuel Kant, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "immanuel",
+        "kant"
       ]
     },
     {
@@ -5269,11 +5803,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/introduction-to-philosophers/",
       "summary": "A page on Introduction to Philosophers, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "introduction"
       ]
     },
     {
@@ -5282,11 +5814,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/islamic-and-jewish-philosophers/",
       "summary": "A page on Islamic and Jewish Philosophers, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "islamic",
+        "jewish"
       ]
     },
     {
@@ -5295,11 +5826,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/jacques-derrida/",
       "summary": "A page on Jacques Derrida, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "jacques",
+        "derrida"
       ]
     },
     {
@@ -5308,11 +5838,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/jean-jacques-rousseau/",
       "summary": "A page on Jean-Jacques Rousseau, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "comparison",
+        "jean",
+        "jacques",
+        "rousseau"
       ]
     },
     {
@@ -5321,11 +5851,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/jean-paul-sartre/",
       "summary": "A page on Jean-Paul Sartre, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "jean",
+        "paul",
+        "sartre"
       ]
     },
     {
@@ -5334,11 +5864,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/john-dewey/",
       "summary": "A page on John Dewey, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "john",
+        "dewey"
       ]
     },
     {
@@ -5347,11 +5876,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/john-locke/",
       "summary": "A page on John Locke, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "john",
+        "locke"
       ]
     },
     {
@@ -5360,11 +5888,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/john-rawls/",
       "summary": "A page on John Rawls, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "john",
+        "rawls"
       ]
     },
     {
@@ -5373,11 +5899,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/john-stuart-mill/",
       "summary": "A page on John Stuart Mill, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "john",
+        "stuart",
+        "mill"
       ]
     },
     {
@@ -5386,11 +5911,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/judith-butler/",
       "summary": "A page on Judith Butler, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "judith",
+        "butler"
       ]
     },
     {
@@ -5399,11 +5922,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/jurgen-habermas/",
       "summary": "A page on Jurgen Habermas, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "jurgen",
+        "habermas"
       ]
     },
     {
@@ -5412,11 +5934,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/karl-marx/",
       "summary": "A page on Karl Marx, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "karl",
+        "marx"
       ]
     },
     {
@@ -5425,11 +5946,8 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/laozi/",
       "summary": "A page on Laozi, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "laozi"
       ]
     },
     {
@@ -5438,11 +5956,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/ludwig-wittgenstein/",
       "summary": "A page on Ludwig Wittgenstein, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "ludwig",
+        "wittgenstein"
       ]
     },
     {
@@ -5451,11 +5968,8 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/maimonides/",
       "summary": "A page on Maimonides, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "maimonides"
       ]
     },
     {
@@ -5464,11 +5978,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/marcus-aurelius/",
       "summary": "A page on Marcus Aurelius, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "marcus",
+        "aurelius"
       ]
     },
     {
@@ -5477,11 +5990,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/martin-heidegger/",
       "summary": "A page on Martin Heidegger, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "martin",
+        "heidegger"
       ]
     },
     {
@@ -5490,11 +6002,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/mary-wollstonecraft/",
       "summary": "A page on Mary Wollstonecraft, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "mary",
+        "wollstonecraft"
       ]
     },
     {
@@ -5503,11 +6013,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/maurice-merleau-ponty/",
       "summary": "A page on Maurice Merleau-Ponty, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "maurice",
+        "merleau",
+        "ponty"
       ]
     },
     {
@@ -5516,11 +6026,8 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/mencius/",
       "summary": "A page on Mencius, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "mencius"
       ]
     },
     {
@@ -5529,11 +6036,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/michel-foucault/",
       "summary": "A page on Michel Foucault, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "michel",
+        "foucault"
       ]
     },
     {
@@ -5542,11 +6048,8 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/nagarjuna/",
       "summary": "A page on Nagarjuna, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "nagarjuna"
       ]
     },
     {
@@ -5555,11 +6058,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/niccolo-machiavelli/",
       "summary": "A page on Niccolo Machiavelli, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "niccolo",
+        "machiavelli"
       ]
     },
     {
@@ -5568,11 +6069,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/non-western-philosophers/",
       "summary": "A page on Non-Western Philosophers, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "western"
       ]
     },
     {
@@ -5581,11 +6080,8 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/parmenides/",
       "summary": "A page on Parmenides, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "parmenides"
       ]
     },
     {
@@ -5594,11 +6090,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/phenomenologists/",
       "summary": "A page on Phenomenology, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "dialogue",
+        "phenomenology"
       ]
     },
     {
@@ -5607,11 +6102,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/philosopher-club-membership/",
       "summary": "A page on Philosopher Club Membership, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "philosopher",
+        "club",
+        "membership"
       ]
     },
     {
@@ -5620,11 +6114,8 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/philosophers-or-philosophy/",
       "summary": "A page on Philosophers or Philosophy, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "philosophy"
       ]
     },
     {
@@ -5633,11 +6124,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/philosophical-gradients/",
       "summary": "A page on Philosophical Gradients, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "philosophical",
+        "gradients"
       ]
     },
     {
@@ -5646,11 +6135,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/plato-2/",
       "summary": "A page on Plato, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "plato"
       ]
     },
     {
@@ -5659,11 +6146,8 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/plotinus/",
       "summary": "A page on Plotinus, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "plotinus"
       ]
     },
     {
@@ -5672,11 +6156,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/political-philosophers/",
       "summary": "A page on Political Philosophers, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "political"
       ]
     },
     {
@@ -5685,11 +6167,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/pragmatists/",
       "summary": "A page on Pragmatism, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "dialogue",
+        "pragmatism"
       ]
     },
     {
@@ -5698,11 +6179,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/rationalists/",
       "summary": "A page on Rationalism, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "dialogue",
+        "rationalism"
       ]
     },
     {
@@ -5711,11 +6191,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/rene-descartes/",
       "summary": "A page on René Descartes, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "ren",
+        "descartes"
       ]
     },
     {
@@ -5724,11 +6203,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/saul-kripke/",
       "summary": "A page on Saul Kripke, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "saul",
+        "kripke"
       ]
     },
     {
@@ -5737,11 +6214,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/scholastics/",
       "summary": "A page on Scholasticism, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "dialogue",
+        "scholasticism"
       ]
     },
     {
@@ -5750,11 +6226,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/seneca/",
       "summary": "A page on Seneca, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "seneca"
       ]
     },
     {
@@ -5763,11 +6237,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/simone-de-beauvoir/",
       "summary": "A page on Simone de Beauvoir, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "simone",
+        "beauvoir"
       ]
     },
     {
@@ -5776,11 +6249,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/socrates/",
       "summary": "A page on Socrates, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "socrates"
       ]
     },
     {
@@ -5789,11 +6260,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/stoics/",
       "summary": "A page on Stoicism, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "dialogue",
+        "stoicism"
       ]
     },
     {
@@ -5802,12 +6272,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/soren-kierkegaard/",
       "summary": "A page on Søren Kierkegaard, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche",
-        "s-ren"
+        "philosophers",
+        "branch-map",
+        "s-ren",
+        "kierkegaard"
       ]
     },
     {
@@ -5816,11 +6284,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/theodor-w-adorno/",
       "summary": "A page on Theodor W. Adorno, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "theodor",
+        "adorno"
       ]
     },
     {
@@ -5829,11 +6296,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/thomas-aquinas/",
       "summary": "A page on Thomas Aquinas, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "thomas",
+        "aquinas"
       ]
     },
     {
@@ -5842,11 +6308,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/thomas-hobbes/",
       "summary": "A page on Thomas Hobbes, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "thomas",
+        "hobbes"
       ]
     },
     {
@@ -5855,11 +6320,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/walter-benjamin/",
       "summary": "A page on Walter Benjamin, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "walter",
+        "benjamin"
       ]
     },
     {
@@ -5868,11 +6331,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/willard-van-orman-quine/",
       "summary": "A page on Willard Van Orman Quine, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "willard",
+        "orman",
+        "quine"
       ]
     },
     {
@@ -5881,11 +6344,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/william-james/",
       "summary": "A page on William James, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "william",
+        "james"
       ]
     },
     {
@@ -5894,11 +6356,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/william-of-ockham/",
       "summary": "A page on William of Ockham, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "branch-map",
+        "william",
+        "ockham"
       ]
     },
     {
@@ -5907,11 +6368,8 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophers/zhuangzi/",
       "summary": "A page on Zhuangzi, written to clarify its role inside the Philosophers branch.",
       "tags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "zhuangzi"
       ]
     },
     {
@@ -5920,10 +6378,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/an-intellectually-enriched-and-diverse-environment/",
       "summary": "A page on An Intellectually-Enriched and Diverse Environment, written to clarify its role inside the Philosophical Inquiry branch.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "intellectually",
+        "enriched",
+        "diverse",
+        "environment"
       ]
     },
     {
@@ -5932,10 +6391,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/appreciating-our-insignificance/",
       "summary": "A page on Appreciating our Insignificance, written to clarify its role inside the Philosophical Inquiry branch.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "appreciating",
+        "insignificance"
       ]
     },
     {
@@ -5944,10 +6402,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/authentic-humans/",
       "summary": "A page on Authentic Humans, written to clarify its role inside the Philosophical Inquiry branch.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "authentic",
+        "humans"
       ]
     },
     {
@@ -5956,10 +6413,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/charitable-engagement/",
       "summary": "A page on Charitable Engagement, written to clarify its role inside the Philosophical Inquiry branch.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "charitable-engagement",
+        "charitable",
+        "engagement"
       ]
     },
     {
@@ -5968,10 +6425,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/common-sense-blunders/",
       "summary": "A page on Common Sense Blunders, written to clarify its role inside the Philosophical Inquiry branch.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "common",
+        "sense",
+        "blunders"
       ]
     },
     {
@@ -5980,11 +6437,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/conspiracies-misunderstanding-human-nature/",
       "summary": "A page on Conspiracies & Misunderstanding Human Nature, written to clarify its role inside the Philosophical Inquiry branch.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement",
-        "human-nature"
+        "philosophical-inquiry",
+        "human-nature",
+        "conspiracies",
+        "misunderstanding"
       ]
     },
     {
@@ -5993,10 +6449,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/dangers-to-honest-inquiry/",
       "summary": "A page on Dangers to Honest Inquiry, written to clarify its role inside the Philosophical Inquiry branch.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "branch-map",
+        "dangers",
+        "honest",
+        "inquiry"
       ]
     },
     {
@@ -6005,10 +6462,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/dangers-anti-intellectualism/",
       "summary": "A cautionary essay on Anti-Intellectualism, treating it as a recurring distortion that can quietly damage serious inquiry.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "anti",
+        "intellectualism"
       ]
     },
     {
@@ -6017,10 +6473,8 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/dangers-awe-as-an-indicator/",
       "summary": "A cautionary essay on Awe as an Indicator, treating it as a recurring distortion that can quietly damage serious inquiry.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "indicator"
       ]
     },
     {
@@ -6029,10 +6483,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/dangers-carrot-stick/",
       "summary": "A cautionary essay on Carrot & Stick, treating it as a recurring distortion that can quietly damage serious inquiry.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "carrot",
+        "stick"
       ]
     },
     {
@@ -6041,10 +6494,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/dangers-co-opted-wonders/",
       "summary": "A cautionary essay on Co-opted Wonders, treating it as a recurring distortion that can quietly damage serious inquiry.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "opted",
+        "wonders"
       ]
     },
     {
@@ -6053,10 +6505,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/dangers-cognitive-biases/",
       "summary": "A cautionary essay on Cognitive Biases, treating it as a recurring distortion that can quietly damage serious inquiry.",
       "tags": [
-        "truth-seeking",
+        "philosophical-inquiry",
         "bias",
-        "worldviews",
-        "charitable-engagement"
+        "cognitive",
+        "biases"
       ]
     },
     {
@@ -6065,10 +6517,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/dangers-dissipating-promises/",
       "summary": "A cautionary essay on Dissipating Promises, treating it as a recurring distortion that can quietly damage serious inquiry.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "dissipating",
+        "promises"
       ]
     },
     {
@@ -6077,10 +6528,8 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/dangers-egocentrism/",
       "summary": "A cautionary essay on Egocentrism, treating it as a recurring distortion that can quietly damage serious inquiry.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "egocentrism"
       ]
     },
     {
@@ -6089,10 +6538,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/dangers-explanatory-depth-illusions/",
       "summary": "A cautionary essay on Explanatory Depth Illusions, treating it as a recurring distortion that can quietly damage serious inquiry.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "explanatory",
+        "depth",
+        "illusions"
       ]
     },
     {
@@ -6101,10 +6550,8 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/dangers-gaslighting/",
       "summary": "A cautionary essay on Gaslighting, treating it as a recurring distortion that can quietly damage serious inquiry.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "gaslighting"
       ]
     },
     {
@@ -6113,10 +6560,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/dangers-half-searches/",
       "summary": "A cautionary essay on Half-Searches, treating it as a recurring distortion that can quietly damage serious inquiry.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "half",
+        "searches"
       ]
     },
     {
@@ -6125,10 +6571,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/dangers-ideologies-of-emotion/",
       "summary": "A cautionary essay on Ideologies of Emotion, treating it as a recurring distortion that can quietly damage serious inquiry.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "ideologies",
+        "emotion"
       ]
     },
     {
@@ -6137,10 +6582,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/dangers-ideologies-of-mystery/",
       "summary": "A cautionary essay on Ideologies of Mystery, treating it as a recurring distortion that can quietly damage serious inquiry.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "ideologies",
+        "mystery"
       ]
     },
     {
@@ -6149,10 +6593,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/dangers-limits-on-doubt/",
       "summary": "A cautionary essay on Limits on Doubt, treating it as a recurring distortion that can quietly damage serious inquiry.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "limits",
+        "doubt"
       ]
     },
     {
@@ -6161,10 +6604,7 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/dangers-logical-fallacies/",
       "summary": "A cautionary essay on Logical Fallacies, treating it as a recurring distortion that can quietly damage serious inquiry.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement",
+        "philosophical-inquiry",
         "logical-fallacies"
       ]
     },
@@ -6174,10 +6614,8 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/dangers-narrative/",
       "summary": "A cautionary essay on Narrative, treating it as a recurring distortion that can quietly damage serious inquiry.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "narrative"
       ]
     },
     {
@@ -6186,10 +6624,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/dangers-ontological-buffet/",
       "summary": "A cautionary essay on Ontological Buffet, treating it as a recurring distortion that can quietly damage serious inquiry.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "ontological",
+        "buffet"
       ]
     },
     {
@@ -6198,10 +6635,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/dangers-promissory-treasures/",
       "summary": "A cautionary essay on Promissory Treasures, treating it as a recurring distortion that can quietly damage serious inquiry.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "promissory",
+        "treasures"
       ]
     },
     {
@@ -6210,10 +6646,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/dangers-removing-the-impossible/",
       "summary": "A cautionary essay on Removing the Impossible, treating it as a recurring distortion that can quietly damage serious inquiry.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "removing",
+        "impossible"
       ]
     },
     {
@@ -6222,10 +6657,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/dangers-siloed-ideologies/",
       "summary": "A cautionary essay on Siloed Ideologies, treating it as a recurring distortion that can quietly damage serious inquiry.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "siloed",
+        "ideologies"
       ]
     },
     {
@@ -6234,10 +6668,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/dangers-strong-leaders/",
       "summary": "A cautionary essay on Strong Leaders, treating it as a recurring distortion that can quietly damage serious inquiry.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "strong",
+        "leaders"
       ]
     },
     {
@@ -6246,10 +6679,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/dangers-the-notion-of-fate/",
       "summary": "A cautionary essay on The Notion of Fate, treating it as a recurring distortion that can quietly damage serious inquiry.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "notion",
+        "fate"
       ]
     },
     {
@@ -6258,10 +6690,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/dangers-unnuanced-conclusions/",
       "summary": "A cautionary essay on Unnuanced Conclusions, treating it as a recurring distortion that can quietly damage serious inquiry.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "unnuanced",
+        "conclusions"
       ]
     },
     {
@@ -6270,10 +6701,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/dangers-untestable-ideologies/",
       "summary": "A cautionary essay on Untestable Ideologies, treating it as a recurring distortion that can quietly damage serious inquiry.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "untestable",
+        "ideologies"
       ]
     },
     {
@@ -6282,10 +6712,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/dangers-vested-interests/",
       "summary": "A cautionary essay on Vested Interests, treating it as a recurring distortion that can quietly damage serious inquiry.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "vested",
+        "interests"
       ]
     },
     {
@@ -6294,10 +6723,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/dangers-transcendent-meaning/",
       "summary": "A cautionary essay on “Transcendent Meaning”, treating it as a recurring distortion that can quietly damage serious inquiry.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "transcendent",
+        "meaning"
       ]
     },
     {
@@ -6306,10 +6734,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/dialoguing-with-william-of-ockham/",
       "summary": "A guided encounter with William of Ockham that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "dialogue",
+        "william",
+        "ockham"
       ]
     },
     {
@@ -6318,10 +6746,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/do-i-need-a-worldview/",
       "summary": "A page on Do I need a “worldview”, written to clarify its role inside the Philosophical Inquiry branch.",
       "tags": [
-        "truth-seeking",
-        "bias",
+        "philosophical-inquiry",
         "worldviews",
-        "charitable-engagement"
+        "need",
+        "worldview"
       ]
     },
     {
@@ -6330,10 +6758,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/how-minds-are-changed/",
       "summary": "A page on How Minds are Changed, written to clarify its role inside the Philosophical Inquiry branch.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "branch-map",
+        "minds",
+        "changed"
       ]
     },
     {
@@ -6342,11 +6770,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/inscrutability-case-studies/",
       "summary": "A page on Inscrutability Case Studies, written to clarify its role inside the Philosophical Inquiry branch.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement",
-        "case-studies"
+        "philosophical-inquiry",
+        "case-studies",
+        "inscrutability"
       ]
     },
     {
@@ -6355,10 +6781,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/logic-wherever-structure/",
       "summary": "A page on Logic wherever Structure, written to clarify its role inside the Philosophical Inquiry branch.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "logic",
+        "wherever",
+        "structure"
       ]
     },
     {
@@ -6367,10 +6793,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/our-view-of-humanity/",
       "summary": "A page on Our View of Humanity, written to clarify its role inside the Philosophical Inquiry branch.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "branch-map",
+        "view",
+        "humanity"
       ]
     },
     {
@@ -6379,10 +6805,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/packaged-vs-eclectic-ideologies/",
       "summary": "A page on Packaged vs Eclectic Ideologies, written to clarify its role inside the Philosophical Inquiry branch.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "packaged",
+        "eclectic",
+        "ideologies"
       ]
     },
     {
@@ -6391,10 +6817,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/personal-truth/",
       "summary": "A page on Personal Truth, written to clarify its role inside the Philosophical Inquiry branch.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "personal",
+        "truth"
       ]
     },
     {
@@ -6403,10 +6828,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/philosophical-growth/",
       "summary": "A page on Philosophical Growth, written to clarify its role inside the Philosophical Inquiry branch.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "philosophical",
+        "growth"
       ]
     },
     {
@@ -6415,10 +6839,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/seeker-scenarios/",
       "summary": "A page on Seeker Scenarios, written to clarify its role inside the Philosophical Inquiry branch.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "seeker",
+        "scenarios"
       ]
     },
     {
@@ -6427,10 +6850,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/selective-pressures-on-ideologies/",
       "summary": "A page on Selective Pressures on Ideologies, written to clarify its role inside the Philosophical Inquiry branch.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "selective",
+        "pressures",
+        "ideologies"
       ]
     },
     {
@@ -6439,10 +6862,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/testing-ideologies/",
       "summary": "A page on Testing Ideologies, written to clarify its role inside the Philosophical Inquiry branch.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "testing",
+        "ideologies"
       ]
     },
     {
@@ -6451,10 +6873,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/the-danger-of-resulting/",
       "summary": "A page on The Danger of “Resulting”, written to clarify its role inside the Philosophical Inquiry branch.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "danger",
+        "resulting"
       ]
     },
     {
@@ -6463,10 +6884,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/the-mindset-of-the-honest-seeker/",
       "summary": "A page on The Mindset of the Honest Seeker, written to clarify its role inside the Philosophical Inquiry branch.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "branch-map",
+        "mindset",
+        "honest",
+        "seeker"
       ]
     },
     {
@@ -6475,10 +6897,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophical-inquiry/what-is-truth/",
       "summary": "A page on Truth, written to clarify its role inside the Philosophical Inquiry branch.",
       "tags": [
-        "truth-seeking",
-        "bias",
-        "worldviews",
-        "charitable-engagement"
+        "philosophical-inquiry",
+        "primer",
+        "truth"
       ]
     },
     {
@@ -6487,11 +6908,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-ai/a-novel-ai-thought-experiment/",
       "summary": "A page on A Novel AI Thought Experiment, written to clarify its role inside the Philosophy of AI branch.",
       "tags": [
+        "philosophy-of-ai",
         "ai",
-        "prompting",
-        "alignment",
-        "bias",
-        "public-discourse"
+        "novel",
+        "thought",
+        "experiment"
       ]
     },
     {
@@ -6500,11 +6921,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-ai/ai-bias/",
       "summary": "A page on AI Bias, written to clarify its role inside the Philosophy of AI branch.",
       "tags": [
+        "philosophy-of-ai",
         "ai",
-        "prompting",
-        "alignment",
-        "bias",
-        "public-discourse"
+        "bias"
       ]
     },
     {
@@ -6513,11 +6932,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-ai/ai-censorship-case/",
       "summary": "A page on AI Censorship Case, written to clarify its role inside the Philosophy of AI branch.",
       "tags": [
+        "philosophy-of-ai",
         "ai",
-        "prompting",
-        "alignment",
-        "bias",
-        "public-discourse"
+        "censorship"
       ]
     },
     {
@@ -6526,11 +6943,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-ai/ai-defends-itself-humor/",
       "summary": "A page on AI Defends Itself – Humor, written to clarify its role inside the Philosophy of AI branch.",
       "tags": [
+        "philosophy-of-ai",
         "ai",
-        "prompting",
-        "alignment",
-        "bias",
-        "public-discourse"
+        "defends",
+        "itself",
+        "humor"
       ]
     },
     {
@@ -6539,11 +6956,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-ai/ai-fact-checking/",
       "summary": "A page on AI Fact-Checking, written to clarify its role inside the Philosophy of AI branch.",
       "tags": [
+        "philosophy-of-ai",
         "ai",
-        "prompting",
-        "alignment",
-        "bias",
-        "public-discourse"
+        "fact",
+        "checking"
       ]
     },
     {
@@ -6552,11 +6968,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-ai/ai-in-public-discourse/",
       "summary": "A page on AI in Public Discourse, written to clarify its role inside the Philosophy of AI branch.",
       "tags": [
+        "philosophy-of-ai",
         "ai",
-        "prompting",
-        "alignment",
-        "bias",
-        "public-discourse"
+        "public-discourse",
+        "public",
+        "discourse"
       ]
     },
     {
@@ -6565,11 +6981,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-ai/ai-in-the-markets/",
       "summary": "A page on AI in the Markets, written to clarify its role inside the Philosophy of AI branch.",
       "tags": [
+        "philosophy-of-ai",
         "ai",
-        "prompting",
-        "alignment",
-        "bias",
-        "public-discourse"
+        "markets"
       ]
     },
     {
@@ -6578,11 +6992,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-ai/ai-knowledge/",
       "summary": "A page on AI Knowledge, written to clarify its role inside the Philosophy of AI branch.",
       "tags": [
+        "philosophy-of-ai",
         "ai",
-        "prompting",
-        "alignment",
-        "bias",
-        "public-discourse"
+        "knowledge"
       ]
     },
     {
@@ -6591,11 +7003,12 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-ai/ai-meta-post-inner-monologues/",
       "summary": "A page on AI Meta-Post — Inner Monologues, written to clarify its role inside the Philosophy of AI branch.",
       "tags": [
+        "philosophy-of-ai",
         "ai",
-        "prompting",
-        "alignment",
-        "bias",
-        "public-discourse"
+        "meta",
+        "post",
+        "inner",
+        "monologues"
       ]
     },
     {
@@ -6604,11 +7017,12 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-ai/openai-introspection/",
       "summary": "A page on AI Meta-Post — OpenAI Introspection, written to clarify its role inside the Philosophy of AI branch.",
       "tags": [
+        "philosophy-of-ai",
         "ai",
-        "prompting",
-        "alignment",
-        "bias",
-        "public-discourse"
+        "meta",
+        "post",
+        "openai",
+        "introspection"
       ]
     },
     {
@@ -6617,11 +7031,12 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-ai/ai-meta-post-overreach/",
       "summary": "A page on AI Meta-Post — Overreach, written to clarify its role inside the Philosophy of AI branch.",
       "tags": [
+        "philosophy-of-ai",
         "ai",
         "prompting",
-        "alignment",
-        "bias",
-        "public-discourse"
+        "meta",
+        "post",
+        "overreach"
       ]
     },
     {
@@ -6630,11 +7045,12 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-ai/ai-meta-post-pushback/",
       "summary": "A page on AI Meta-Post — Pushback, written to clarify its role inside the Philosophy of AI branch.",
       "tags": [
+        "philosophy-of-ai",
+        "branch-map",
         "ai",
-        "prompting",
-        "alignment",
-        "bias",
-        "public-discourse"
+        "meta",
+        "post",
+        "pushback"
       ]
     },
     {
@@ -6643,11 +7059,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-ai/ai-overconfidence/",
       "summary": "A page on AI Overconfidence, written to clarify its role inside the Philosophy of AI branch.",
       "tags": [
+        "philosophy-of-ai",
         "ai",
-        "prompting",
-        "alignment",
-        "bias",
-        "public-discourse"
+        "overconfidence"
       ]
     },
     {
@@ -6656,11 +7070,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-ai/ai-predictions/",
       "summary": "A page on AI Predictions, written to clarify its role inside the Philosophy of AI branch.",
       "tags": [
+        "philosophy-of-ai",
         "ai",
-        "prompting",
-        "alignment",
-        "bias",
-        "public-discourse"
+        "predictions"
       ]
     },
     {
@@ -6669,11 +7081,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-ai/ai-response-to-pushback/",
       "summary": "A page on AI Response to Pushback, written to clarify its role inside the Philosophy of AI branch.",
       "tags": [
+        "philosophy-of-ai",
         "ai",
-        "prompting",
-        "alignment",
-        "bias",
-        "public-discourse"
+        "response",
+        "pushback"
       ]
     },
     {
@@ -6682,11 +7093,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-ai/ai-situational-awareness-paper/",
       "summary": "A page on AI Situational Awareness Paper, written to clarify its role inside the Philosophy of AI branch.",
       "tags": [
+        "philosophy-of-ai",
         "ai",
-        "prompting",
-        "alignment",
-        "bias",
-        "public-discourse"
+        "situational",
+        "awareness",
+        "paper"
       ]
     },
     {
@@ -6695,11 +7106,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-ai/ais-in-politics/",
       "summary": "A page on AIs in Politics, written to clarify its role inside the Philosophy of AI branch.",
       "tags": [
+        "philosophy-of-ai",
         "ai",
-        "prompting",
-        "alignment",
-        "bias",
-        "public-discourse"
+        "politics"
       ]
     },
     {
@@ -6708,11 +7117,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-ai/assessing-ai-alignment-with-truth/",
       "summary": "A page on Assessing AI Alignment with Truth, written to clarify its role inside the Philosophy of AI branch.",
       "tags": [
+        "philosophy-of-ai",
         "ai",
-        "prompting",
         "alignment",
-        "bias",
-        "public-discourse"
+        "assessing",
+        "truth"
       ]
     },
     {
@@ -6721,11 +7130,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-ai/chain-of-thought-prompts/",
       "summary": "A page on Chain-of-Thought Prompts, written to clarify its role inside the Philosophy of AI branch.",
       "tags": [
-        "ai",
+        "philosophy-of-ai",
         "prompting",
-        "alignment",
-        "bias",
-        "public-discourse"
+        "chain",
+        "thought",
+        "prompts"
       ]
     },
     {
@@ -6734,11 +7143,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-ai/confidentiality-of-llm-weights/",
       "summary": "A page on Confidentiality of LLM Weights, written to clarify its role inside the Philosophy of AI branch.",
       "tags": [
-        "ai",
-        "prompting",
-        "alignment",
-        "bias",
-        "public-discourse"
+        "philosophy-of-ai",
+        "confidentiality",
+        "weights"
       ]
     },
     {
@@ -6747,11 +7154,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-ai/feedback-loops/",
       "summary": "A page on Feedback Loops, written to clarify its role inside the Philosophy of AI branch.",
       "tags": [
+        "philosophy-of-ai",
         "ai",
-        "prompting",
-        "alignment",
-        "bias",
-        "public-discourse"
+        "feedback",
+        "loops"
       ]
     },
     {
@@ -6760,11 +7166,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-ai/llms-and-self-reflection/",
       "summary": "A page on Grok Self-Reflection Experiment, written to clarify its role inside the Philosophy of AI branch.",
       "tags": [
-        "ai",
-        "prompting",
-        "alignment",
-        "bias",
-        "public-discourse"
+        "philosophy-of-ai",
+        "grok",
+        "self",
+        "reflection",
+        "experiment"
       ]
     },
     {
@@ -6773,11 +7179,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-ai/human-reaction-to-ai/",
       "summary": "A page on Human Reaction to AI, written to clarify its role inside the Philosophy of AI branch.",
       "tags": [
+        "philosophy-of-ai",
+        "branch-map",
         "ai",
-        "prompting",
-        "alignment",
-        "bias",
-        "public-discourse"
+        "human",
+        "reaction"
       ]
     },
     {
@@ -6786,11 +7192,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-ai/philosophy-of-ai-core-concepts/",
       "summary": "A page on Philosophy of AI – Core Concepts, written to clarify its role inside the Philosophy of AI branch.",
       "tags": [
+        "philosophy-of-ai",
         "ai",
-        "prompting",
-        "alignment",
-        "bias",
-        "public-discourse"
+        "philosophy",
+        "concepts"
       ]
     },
     {
@@ -6799,11 +7204,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-ai/precision-prompting/",
       "summary": "A page on Precision Prompting, written to clarify its role inside the Philosophy of AI branch.",
       "tags": [
+        "philosophy-of-ai",
+        "branch-map",
         "ai",
         "prompting",
-        "alignment",
-        "bias",
-        "public-discourse"
+        "precision"
       ]
     },
     {
@@ -6812,11 +7217,12 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-ai/public-discourse-ai/",
       "summary": "A page on Public Discourse & AI, written to clarify its role inside the Philosophy of AI branch.",
       "tags": [
+        "philosophy-of-ai",
+        "branch-map",
         "ai",
-        "prompting",
-        "alignment",
-        "bias",
-        "public-discourse"
+        "public-discourse",
+        "public",
+        "discourse"
       ]
     },
     {
@@ -6825,12 +7231,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-ai/quality-training-data/",
       "summary": "A page on Quality Training Data, written to clarify its role inside the Philosophy of AI branch.",
       "tags": [
+        "philosophy-of-ai",
         "ai",
-        "prompting",
-        "alignment",
-        "bias",
-        "public-discourse",
-        "training-data"
+        "training-data",
+        "quality"
       ]
     },
     {
@@ -6839,11 +7243,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-ai/self-reported-ai-capabilities-06-24/",
       "summary": "A page on Self-Reported AI Capabilities: 06/24, written to clarify its role inside the Philosophy of AI branch.",
       "tags": [
+        "philosophy-of-ai",
         "ai",
-        "prompting",
-        "alignment",
-        "bias",
-        "public-discourse"
+        "self",
+        "reported",
+        "capabilities"
       ]
     },
     {
@@ -6852,11 +7256,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-ai/synthetic-ai-data/",
       "summary": "A page on Synthetic AI Data, written to clarify its role inside the Philosophy of AI branch.",
       "tags": [
+        "philosophy-of-ai",
         "ai",
-        "prompting",
-        "alignment",
-        "bias",
-        "public-discourse"
+        "synthetic",
+        "data"
       ]
     },
     {
@@ -6865,11 +7268,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-ai/the-credibility-of-ai/",
       "summary": "A page on The Credibility of AI, written to clarify its role inside the Philosophy of AI branch.",
       "tags": [
+        "philosophy-of-ai",
         "ai",
-        "prompting",
-        "alignment",
-        "bias",
-        "public-discourse"
+        "credibility"
       ]
     },
     {
@@ -6878,11 +7279,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-ai/the-double-descent-phenomenon/",
       "summary": "A page on The Double Descent Phenomenon, written to clarify its role inside the Philosophy of AI branch.",
       "tags": [
+        "philosophy-of-ai",
         "ai",
-        "prompting",
-        "alignment",
-        "bias",
-        "public-discourse"
+        "double",
+        "descent",
+        "phenomenon"
       ]
     },
     {
@@ -6891,11 +7292,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-ai/what-is-the-philosophy-of-ai/",
       "summary": "A page on the Philosophy of AI, written to clarify its role inside the Philosophy of AI branch.",
       "tags": [
+        "philosophy-of-ai",
+        "primer",
         "ai",
-        "prompting",
-        "alignment",
-        "bias",
-        "public-discourse"
+        "philosophy"
       ]
     },
     {
@@ -6904,11 +7304,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-language/abandoned-words/",
       "summary": "A page on Abandoned Words, written to clarify its role inside the Philosophy of Language branch.",
       "tags": [
-        "language",
-        "semantics",
-        "metaphor",
-        "grammar",
-        "equivocation"
+        "philosophy-of-language",
+        "abandoned",
+        "words"
       ]
     },
     {
@@ -6917,11 +7315,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-language/binarizing-gradient-concepts/",
       "summary": "A page on Binarizing Gradient Concepts, written to clarify its role inside the Philosophy of Language branch.",
       "tags": [
-        "language",
-        "semantics",
-        "metaphor",
-        "grammar",
-        "equivocation"
+        "philosophy-of-language",
+        "binarizing",
+        "gradient",
+        "concepts"
       ]
     },
     {
@@ -6930,11 +7327,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-language/can-words-constitute-violence/",
       "summary": "A page on Can Words Constitute Violence, written to clarify its role inside the Philosophy of Language branch.",
       "tags": [
+        "philosophy-of-language",
         "language",
-        "semantics",
-        "metaphor",
-        "grammar",
-        "equivocation"
+        "words",
+        "constitute",
+        "violence"
       ]
     },
     {
@@ -6943,11 +7340,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-language/chomsky-ai/",
       "summary": "A page on Chomsky & AI, written to clarify its role inside the Philosophy of Language branch.",
       "tags": [
+        "philosophy-of-language",
         "language",
-        "semantics",
-        "metaphor",
         "grammar",
-        "equivocation"
+        "chomsky"
       ]
     },
     {
@@ -6956,11 +7352,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-language/connotative-equivocation/",
       "summary": "A page on Connotative Equivocation, written to clarify its role inside the Philosophy of Language branch.",
       "tags": [
+        "philosophy-of-language",
         "language",
-        "semantics",
-        "metaphor",
-        "grammar",
-        "equivocation"
+        "equivocation",
+        "connotative"
       ]
     },
     {
@@ -6969,11 +7364,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-language/functional-aesthetic-languages/",
       "summary": "A page on Functional/Aesthetic Languages, written to clarify its role inside the Philosophy of Language branch.",
       "tags": [
+        "philosophy-of-language",
         "language",
-        "semantics",
-        "metaphor",
-        "grammar",
-        "equivocation"
+        "functional",
+        "aesthetic",
+        "languages"
       ]
     },
     {
@@ -6982,11 +7377,13 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-language/gradient-concepts-and-binary-terms/",
       "summary": "A page on Gradient Concepts and Binary Terms, written to clarify its role inside the Philosophy of Language branch.",
       "tags": [
+        "philosophy-of-language",
+        "branch-map",
         "language",
-        "semantics",
-        "metaphor",
-        "grammar",
-        "equivocation"
+        "gradient",
+        "concepts",
+        "binary",
+        "terms"
       ]
     },
     {
@@ -6995,11 +7392,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-language/language-the-brain/",
       "summary": "A page on Language & the Brain, written to clarify its role inside the Philosophy of Language branch.",
       "tags": [
+        "philosophy-of-language",
         "language",
-        "semantics",
-        "metaphor",
-        "grammar",
-        "equivocation"
+        "brain"
       ]
     },
     {
@@ -7008,11 +7403,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-language/linguistic-abstraction/",
       "summary": "A page on Linguistic Abstraction, written to clarify its role inside the Philosophy of Language branch.",
       "tags": [
-        "language",
-        "semantics",
-        "metaphor",
-        "grammar",
-        "equivocation"
+        "philosophy-of-language",
+        "linguistic",
+        "abstraction"
       ]
     },
     {
@@ -7021,11 +7414,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-language/linguistic-scaffolding/",
       "summary": "A page on Linguistic Scaffolding, written to clarify its role inside the Philosophy of Language branch.",
       "tags": [
-        "language",
-        "semantics",
-        "metaphor",
-        "grammar",
-        "equivocation"
+        "philosophy-of-language",
+        "linguistic",
+        "scaffolding"
       ]
     },
     {
@@ -7034,11 +7425,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-language/living-by-metaphor/",
       "summary": "A page on Living By Metaphor, written to clarify its role inside the Philosophy of Language branch.",
       "tags": [
-        "language",
-        "semantics",
+        "philosophy-of-language",
         "metaphor",
-        "grammar",
-        "equivocation"
+        "living"
       ]
     },
     {
@@ -7047,11 +7436,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-language/needless-semantic-complexity/",
       "summary": "A page on Needless Semantic Complexity, written to clarify its role inside the Philosophy of Language branch.",
       "tags": [
-        "language",
-        "semantics",
-        "metaphor",
-        "grammar",
-        "equivocation"
+        "philosophy-of-language",
+        "needless",
+        "semantic",
+        "complexity"
       ]
     },
     {
@@ -7060,11 +7448,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-language/nomological-density-of-grammar/",
       "summary": "A page on Nomological Density of Grammar, written to clarify its role inside the Philosophy of Language branch.",
       "tags": [
-        "language",
-        "semantics",
-        "metaphor",
+        "philosophy-of-language",
         "grammar",
-        "equivocation"
+        "nomological",
+        "density"
       ]
     },
     {
@@ -7073,11 +7460,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-language/core-concepts-philosophy-of-language/",
       "summary": "A page on Philosophy of Language — Core Concepts, written to clarify its role inside the Philosophy of Language branch.",
       "tags": [
+        "philosophy-of-language",
         "language",
-        "semantics",
-        "metaphor",
-        "grammar",
-        "equivocation"
+        "philosophy",
+        "concepts"
       ]
     },
     {
@@ -7086,11 +7472,12 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-language/semantics-convention-vs-stipulation/",
       "summary": "A page on Semantics: Convention vs Stipulation, written to clarify its role inside the Philosophy of Language branch.",
       "tags": [
+        "philosophy-of-language",
+        "branch-map",
         "language",
         "semantics",
-        "metaphor",
-        "grammar",
-        "equivocation"
+        "convention",
+        "stipulation"
       ]
     },
     {
@@ -7099,11 +7486,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-language/the-linearity-of-language/",
       "summary": "A page on The Linearity of Language, written to clarify its role inside the Philosophy of Language branch.",
       "tags": [
+        "philosophy-of-language",
         "language",
-        "semantics",
-        "metaphor",
-        "grammar",
-        "equivocation"
+        "linearity"
       ]
     },
     {
@@ -7112,11 +7497,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-language/the-power-of-analogy/",
       "summary": "A page on The Power of Analogy, written to clarify its role inside the Philosophy of Language branch.",
       "tags": [
-        "language",
-        "semantics",
-        "metaphor",
-        "grammar",
-        "equivocation"
+        "philosophy-of-language",
+        "power",
+        "analogy"
       ]
     },
     {
@@ -7125,11 +7508,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-language/thought-language/",
       "summary": "A page on Thought = Language, written to clarify its role inside the Philosophy of Language branch.",
       "tags": [
+        "philosophy-of-language",
         "language",
-        "semantics",
-        "metaphor",
-        "grammar",
-        "equivocation"
+        "thought"
       ]
     },
     {
@@ -7138,11 +7519,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-language/vague-tags-of-identification/",
       "summary": "A page on Vague Tags of Identification, written to clarify its role inside the Philosophy of Language branch.",
       "tags": [
-        "language",
-        "semantics",
-        "metaphor",
-        "grammar",
-        "equivocation"
+        "philosophy-of-language",
+        "vague",
+        "tags",
+        "identification"
       ]
     },
     {
@@ -7151,11 +7531,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-language/what-is-etymology/",
       "summary": "A page on Etymology, written to clarify its role inside the Philosophy of Language branch.",
       "tags": [
-        "language",
-        "semantics",
-        "metaphor",
-        "grammar",
-        "equivocation"
+        "philosophy-of-language",
+        "primer",
+        "etymology"
       ]
     },
     {
@@ -7164,11 +7542,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-language/what-is-language/",
       "summary": "A page on Language, written to clarify its role inside the Philosophy of Language branch.",
       "tags": [
-        "language",
-        "semantics",
-        "metaphor",
-        "grammar",
-        "equivocation"
+        "philosophy-of-language",
+        "primer",
+        "language"
       ]
     },
     {
@@ -7177,11 +7553,8 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-language/normative/",
       "summary": "A page on “Normative”, written to clarify its role inside the Philosophy of Language branch.",
       "tags": [
-        "language",
-        "semantics",
-        "metaphor",
-        "grammar",
-        "equivocation"
+        "philosophy-of-language",
+        "normative"
       ]
     },
     {
@@ -7190,11 +7563,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-mind/are-there-selfless-acts/",
       "summary": "A page on Are there Selfless Acts, written to clarify its role inside the Philosophy of Mind branch.",
       "tags": [
-        "consciousness",
-        "cognition",
-        "free-will",
-        "neuroscience",
-        "subjectivity"
+        "philosophy-of-mind",
+        "branch-map",
+        "there",
+        "selfless",
+        "acts"
       ]
     },
     {
@@ -7203,11 +7576,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-mind/assessing-mind-with-mind/",
       "summary": "A page on Assessing Mind with Mind, written to clarify its role inside the Philosophy of Mind branch.",
       "tags": [
-        "consciousness",
+        "philosophy-of-mind",
+        "branch-map",
         "cognition",
-        "free-will",
-        "neuroscience",
-        "subjectivity"
+        "assessing",
+        "mind"
       ]
     },
     {
@@ -7216,11 +7589,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-mind/elitzur-on-consciousness/",
       "summary": "A page on Elitzur on Consciousness, written to clarify its role inside the Philosophy of Mind branch.",
       "tags": [
+        "philosophy-of-mind",
         "consciousness",
-        "cognition",
-        "free-will",
-        "neuroscience",
-        "subjectivity"
+        "elitzur"
       ]
     },
     {
@@ -7229,11 +7600,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-mind/free-will-vs-determinism/",
       "summary": "A page on Free Will vs Determinism, written to clarify its role inside the Philosophy of Mind branch.",
       "tags": [
-        "consciousness",
-        "cognition",
+        "philosophy-of-mind",
+        "branch-map",
         "free-will",
-        "neuroscience",
-        "subjectivity"
+        "determinism"
       ]
     },
     {
@@ -7242,11 +7612,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-mind/functionalism-subjectivity/",
       "summary": "A page on Functionalism & Subjectivity, written to clarify its role inside the Philosophy of Mind branch.",
       "tags": [
-        "consciousness",
-        "cognition",
-        "free-will",
-        "neuroscience",
-        "subjectivity"
+        "philosophy-of-mind",
+        "subjectivity",
+        "functionalism"
       ]
     },
     {
@@ -7255,11 +7623,8 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-mind/iq-evolution/",
       "summary": "A page on IQ & Evolution, written to clarify its role inside the Philosophy of Mind branch.",
       "tags": [
-        "consciousness",
-        "cognition",
-        "free-will",
-        "neuroscience",
-        "subjectivity"
+        "philosophy-of-mind",
+        "evolution"
       ]
     },
     {
@@ -7268,11 +7633,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-mind/iq-intelligence-quotient/",
       "summary": "A page on IQ – Intelligence Quotient, written to clarify its role inside the Philosophy of Mind branch.",
       "tags": [
-        "consciousness",
-        "cognition",
-        "free-will",
-        "neuroscience",
-        "subjectivity"
+        "philosophy-of-mind",
+        "branch-map",
+        "intelligence",
+        "quotient"
       ]
     },
     {
@@ -7281,11 +7645,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-mind/knowledge-cognition-asymmetry/",
       "summary": "A page on Knowledge & Cognition Asymmetry, written to clarify its role inside the Philosophy of Mind branch.",
       "tags": [
-        "consciousness",
+        "philosophy-of-mind",
         "cognition",
-        "free-will",
-        "neuroscience",
-        "subjectivity"
+        "knowledge",
+        "asymmetry"
       ]
     },
     {
@@ -7294,11 +7657,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-mind/land-ownership/",
       "summary": "A page on Land Ownership, written to clarify its role inside the Philosophy of Mind branch.",
       "tags": [
-        "consciousness",
-        "cognition",
-        "free-will",
-        "neuroscience",
-        "subjectivity"
+        "philosophy-of-mind",
+        "land",
+        "ownership"
       ]
     },
     {
@@ -7307,11 +7668,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-mind/manufacturer-or-method/",
       "summary": "A page on Manufacturer or Method, written to clarify its role inside the Philosophy of Mind branch.",
       "tags": [
-        "consciousness",
+        "philosophy-of-mind",
         "cognition",
-        "free-will",
-        "neuroscience",
-        "subjectivity"
+        "manufacturer",
+        "method"
       ]
     },
     {
@@ -7320,11 +7680,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-mind/mother-in-my-brain/",
       "summary": "A page on Mother in My Brain, written to clarify its role inside the Philosophy of Mind branch.",
       "tags": [
+        "philosophy-of-mind",
         "consciousness",
-        "cognition",
-        "free-will",
-        "neuroscience",
-        "subjectivity"
+        "mother",
+        "brain"
       ]
     },
     {
@@ -7333,11 +7692,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-mind/neuroscience-and-philosophy/",
       "summary": "A page on Neuroscience and Philosophy, written to clarify its role inside the Philosophy of Mind branch.",
       "tags": [
-        "consciousness",
-        "cognition",
-        "free-will",
+        "philosophy-of-mind",
+        "branch-map",
         "neuroscience",
-        "subjectivity"
+        "philosophy"
       ]
     },
     {
@@ -7346,11 +7704,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-mind/neurotypical-neurodivergent-minds/",
       "summary": "A page on Neurotypical & Neurodivergent Minds, written to clarify its role inside the Philosophy of Mind branch.",
       "tags": [
-        "consciousness",
-        "cognition",
-        "free-will",
-        "neuroscience",
-        "subjectivity"
+        "philosophy-of-mind",
+        "neurotypical",
+        "neurodivergent",
+        "minds"
       ]
     },
     {
@@ -7359,11 +7716,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-mind/philosophy-of-mind-basics/",
       "summary": "A page on Philosophy of Mind Basics, written to clarify its role inside the Philosophy of Mind branch.",
       "tags": [
+        "philosophy-of-mind",
         "consciousness",
-        "cognition",
-        "free-will",
-        "neuroscience",
-        "subjectivity"
+        "philosophy",
+        "mind",
+        "basics"
       ]
     },
     {
@@ -7372,11 +7729,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-mind/philosophy-of-mind-core-concepts/",
       "summary": "A page on Philosophy of Mind — Core Concepts, written to clarify its role inside the Philosophy of Mind branch.",
       "tags": [
-        "consciousness",
-        "cognition",
-        "free-will",
-        "neuroscience",
-        "subjectivity"
+        "philosophy-of-mind",
+        "philosophy",
+        "mind",
+        "concepts"
       ]
     },
     {
@@ -7385,11 +7741,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-mind/preferences-pleasures/",
       "summary": "A page on Preferences = Pleasures, written to clarify its role inside the Philosophy of Mind branch.",
       "tags": [
-        "consciousness",
-        "cognition",
-        "free-will",
-        "neuroscience",
-        "subjectivity"
+        "philosophy-of-mind",
+        "preferences",
+        "pleasures"
       ]
     },
     {
@@ -7398,11 +7752,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-mind/psychology-and-philosophy/",
       "summary": "A page on Psychology and Philosophy, written to clarify its role inside the Philosophy of Mind branch.",
       "tags": [
-        "consciousness",
-        "cognition",
-        "free-will",
-        "neuroscience",
-        "subjectivity"
+        "philosophy-of-mind",
+        "psychology",
+        "philosophy"
       ]
     },
     {
@@ -7411,11 +7763,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-mind/rationality-and-free-will/",
       "summary": "A page on Rationality and Free Will, written to clarify its role inside the Philosophy of Mind branch.",
       "tags": [
-        "consciousness",
-        "cognition",
+        "philosophy-of-mind",
         "free-will",
-        "neuroscience",
-        "subjectivity"
+        "rationality"
       ]
     },
     {
@@ -7424,11 +7774,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-mind/subjective-objective-free-will/",
       "summary": "A page on Subjective/Objective Free Will, written to clarify its role inside the Philosophy of Mind branch.",
       "tags": [
-        "consciousness",
-        "cognition",
+        "philosophy-of-mind",
         "free-will",
-        "neuroscience",
-        "subjectivity"
+        "subjective",
+        "objective"
       ]
     },
     {
@@ -7437,11 +7786,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-mind/subjectivity-constrained-by-the-objective/",
       "summary": "A page on Subjectivity Constrained by the Objective, written to clarify its role inside the Philosophy of Mind branch.",
       "tags": [
-        "consciousness",
-        "cognition",
-        "free-will",
-        "neuroscience",
-        "subjectivity"
+        "philosophy-of-mind",
+        "subjectivity",
+        "constrained",
+        "objective"
       ]
     },
     {
@@ -7450,11 +7798,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-mind/the-chemical-basis-of-happiness/",
       "summary": "A page on The Chemical Basis of Happiness, written to clarify its role inside the Philosophy of Mind branch.",
       "tags": [
-        "consciousness",
-        "cognition",
-        "free-will",
-        "neuroscience",
-        "subjectivity"
+        "philosophy-of-mind",
+        "chemical",
+        "basis",
+        "happiness"
       ]
     },
     {
@@ -7463,11 +7810,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-mind/the-inertia-of-comfort/",
       "summary": "A page on The Inertia of Comfort, written to clarify its role inside the Philosophy of Mind branch.",
       "tags": [
-        "consciousness",
-        "cognition",
-        "free-will",
-        "neuroscience",
-        "subjectivity"
+        "philosophy-of-mind",
+        "inertia",
+        "comfort"
       ]
     },
     {
@@ -7476,11 +7821,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-mind/the-schizophrenic-mind/",
       "summary": "A page on The Schizophrenic Mind, written to clarify its role inside the Philosophy of Mind branch.",
       "tags": [
-        "consciousness",
-        "cognition",
-        "free-will",
-        "neuroscience",
-        "subjectivity"
+        "philosophy-of-mind",
+        "schizophrenic",
+        "mind"
       ]
     },
     {
@@ -7489,11 +7832,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-mind/what-is-consciousness/",
       "summary": "A page on Consciousness, written to clarify its role inside the Philosophy of Mind branch.",
       "tags": [
-        "consciousness",
-        "cognition",
-        "free-will",
-        "neuroscience",
-        "subjectivity"
+        "philosophy-of-mind",
+        "primer",
+        "consciousness"
       ]
     },
     {
@@ -7502,11 +7843,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-mind/where-are-our-thoughts/",
       "summary": "A page on Where are our Thoughts, written to clarify its role inside the Philosophy of Mind branch.",
       "tags": [
-        "consciousness",
-        "cognition",
-        "free-will",
-        "neuroscience",
-        "subjectivity"
+        "philosophy-of-mind",
+        "branch-map",
+        "thoughts"
       ]
     },
     {
@@ -7515,11 +7854,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-mind/where-consciousness-can-must-emerge/",
       "summary": "A page on Where Consciousness Can & Must Emerge, written to clarify its role inside the Philosophy of Mind branch.",
       "tags": [
+        "philosophy-of-mind",
         "consciousness",
-        "cognition",
-        "free-will",
-        "neuroscience",
-        "subjectivity"
+        "must",
+        "emerge"
       ]
     },
     {
@@ -7528,11 +7866,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/asymmetric-counterfactuals/",
       "summary": "A page on Asymmetric Counterfactuals, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
-        "science",
-        "method",
-        "induction",
-        "causation",
-        "falsifiability"
+        "philosophy-of-science",
+        "asymmetric",
+        "counterfactuals"
       ]
     },
     {
@@ -7541,11 +7877,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/bimodal-distributions/",
       "summary": "A page on Bimodal Distributions, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
-        "science",
-        "method",
-        "induction",
-        "causation",
-        "falsifiability"
+        "philosophy-of-science",
+        "bimodal",
+        "distributions"
       ]
     },
     {
@@ -7554,11 +7888,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/case-1-intelligence-political-leanings/",
       "summary": "A page on Intelligence & Political Leanings, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
-        "science",
-        "method",
-        "induction",
-        "causation",
-        "falsifiability"
+        "philosophy-of-science",
+        "intelligence",
+        "political",
+        "leanings"
       ]
     },
     {
@@ -7567,11 +7900,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/causal-chains/",
       "summary": "A page on Causal Chains, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
-        "science",
-        "method",
-        "induction",
-        "causation",
-        "falsifiability"
+        "philosophy-of-science",
+        "causal",
+        "chains"
       ]
     },
     {
@@ -7580,11 +7911,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/confounding-variables/",
       "summary": "A page on Confounding Variables, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
-        "science",
-        "method",
-        "induction",
-        "causation",
-        "falsifiability"
+        "philosophy-of-science",
+        "confounding",
+        "variables"
       ]
     },
     {
@@ -7593,11 +7922,12 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/correlation-and-causation/",
       "summary": "A page on Correlation and Causation, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
+        "philosophy-of-science",
+        "branch-map",
         "science",
         "method",
-        "induction",
         "causation",
-        "falsifiability"
+        "correlation"
       ]
     },
     {
@@ -7606,11 +7936,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/correlation-is-not-causation/",
       "summary": "A page on Correlation Is Not Causation, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
-        "science",
-        "method",
-        "induction",
+        "philosophy-of-science",
+        "branch-map",
         "causation",
-        "falsifiability"
+        "correlation"
       ]
     },
     {
@@ -7619,11 +7948,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/demarcation-for-scientific-laws/",
       "summary": "A page on Demarcation for Scientific Laws, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
-        "science",
-        "method",
-        "induction",
-        "causation",
-        "falsifiability"
+        "philosophy-of-science",
+        "demarcation",
+        "scientific",
+        "laws"
       ]
     },
     {
@@ -7632,11 +7960,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/elements-of-research-design/",
       "summary": "A page on Elements of Research Design, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
-        "science",
-        "method",
-        "induction",
-        "causation",
-        "falsifiability"
+        "philosophy-of-science",
+        "elements",
+        "research",
+        "design"
       ]
     },
     {
@@ -7645,11 +7972,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/emerging-fields-in-science/",
       "summary": "A page on Emerging Fields in Science, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
+        "philosophy-of-science",
         "science",
-        "method",
-        "induction",
-        "causation",
-        "falsifiability"
+        "emerging",
+        "fields"
       ]
     },
     {
@@ -7658,11 +7984,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/hard-vs-soft-sciences/",
       "summary": "A page on Hard vs Soft Sciences, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
-        "science",
-        "method",
-        "induction",
-        "causation",
-        "falsifiability"
+        "philosophy-of-science",
+        "hard",
+        "soft",
+        "sciences"
       ]
     },
     {
@@ -7671,11 +7996,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/history-as-forensic-science/",
       "summary": "A page on History as Forensic Science, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
+        "philosophy-of-science",
         "science",
-        "method",
-        "induction",
-        "causation",
-        "falsifiability"
+        "history",
+        "forensic"
       ]
     },
     {
@@ -7684,11 +8008,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/improving-science/",
       "summary": "A page on Improving Science, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
+        "philosophy-of-science",
+        "branch-map",
         "science",
-        "method",
-        "induction",
-        "causation",
-        "falsifiability"
+        "improving"
       ]
     },
     {
@@ -7697,11 +8020,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/inductive-density/",
       "summary": "A page on Inductive Density, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
-        "science",
-        "method",
+        "philosophy-of-science",
         "induction",
-        "causation",
-        "falsifiability"
+        "inductive",
+        "density"
       ]
     },
     {
@@ -7710,11 +8032,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/is-history-science/",
       "summary": "A page on Is History Science, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
+        "philosophy-of-science",
+        "branch-map",
         "science",
-        "method",
         "induction",
-        "causation",
-        "falsifiability"
+        "history"
       ]
     },
     {
@@ -7723,11 +8045,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/is-logic-acquired-inductively/",
       "summary": "A page on Is Logic Acquired Inductively, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
-        "science",
-        "method",
+        "philosophy-of-science",
         "induction",
-        "causation",
-        "falsifiability"
+        "logic",
+        "acquired",
+        "inductively"
       ]
     },
     {
@@ -7736,11 +8058,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/life-vs-non-life/",
       "summary": "A page on Life vs Non-Life, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
+        "philosophy-of-science",
         "science",
-        "method",
-        "induction",
-        "causation",
-        "falsifiability"
+        "life"
       ]
     },
     {
@@ -7749,11 +8069,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/methodological-naturalism/",
       "summary": "A page on Methodological Naturalism, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
+        "philosophy-of-science",
+        "branch-map",
         "science",
-        "method",
-        "induction",
-        "causation",
-        "falsifiability"
+        "methodological",
+        "naturalism"
       ]
     },
     {
@@ -7762,11 +8082,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/observable-regularity/",
       "summary": "A page on Observable Regularities, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
-        "science",
-        "method",
-        "induction",
-        "causation",
-        "falsifiability"
+        "philosophy-of-science",
+        "observable",
+        "regularities"
       ]
     },
     {
@@ -7775,11 +8093,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/orthogonality/",
       "summary": "A page on Orthogonality, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
+        "philosophy-of-science",
         "science",
-        "method",
-        "induction",
-        "causation",
-        "falsifiability"
+        "orthogonality"
       ]
     },
     {
@@ -7788,11 +8104,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/overfitting-in-scientific-models/",
       "summary": "A page on Overfitting in Scientific Models, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
-        "science",
-        "method",
-        "induction",
-        "causation",
-        "falsifiability"
+        "philosophy-of-science",
+        "overfitting",
+        "scientific",
+        "models"
       ]
     },
     {
@@ -7801,11 +8116,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/p-value-issues/",
       "summary": "A page on P-Value Issues, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
-        "science",
-        "method",
-        "induction",
-        "causation",
-        "falsifiability"
+        "philosophy-of-science",
+        "value",
+        "issues"
       ]
     },
     {
@@ -7814,11 +8127,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/paper-methodological-naturalism/",
       "summary": "A page on Paper: Methodological Naturalism, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
-        "science",
-        "method",
-        "induction",
-        "causation",
-        "falsifiability"
+        "philosophy-of-science",
+        "paper",
+        "methodological",
+        "naturalism"
       ]
     },
     {
@@ -7827,11 +8139,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/philosophy-of-science-core-concepts/",
       "summary": "A page on Philosophy of Science — Core Concepts, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
+        "philosophy-of-science",
         "science",
-        "method",
-        "induction",
-        "causation",
-        "falsifiability"
+        "philosophy",
+        "concepts"
       ]
     },
     {
@@ -7840,11 +8151,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/research-design/",
       "summary": "A page on Research Design, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
-        "science",
-        "method",
-        "induction",
-        "causation",
-        "falsifiability"
+        "philosophy-of-science",
+        "branch-map",
+        "research",
+        "design"
       ]
     },
     {
@@ -7853,11 +8163,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/research-design-scenario-1/",
       "summary": "A page on Research Design Scenario #1, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
-        "science",
-        "method",
-        "induction",
-        "causation",
-        "falsifiability"
+        "philosophy-of-science",
+        "research",
+        "design",
+        "scenario"
       ]
     },
     {
@@ -7866,11 +8175,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/science-and-the-public/",
       "summary": "A page on Science and the Public, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
+        "philosophy-of-science",
         "science",
-        "method",
-        "induction",
-        "causation",
-        "falsifiability"
+        "public"
       ]
     },
     {
@@ -7879,11 +8186,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/science-vs-subjectivity/",
       "summary": "A page on Science vs Subjectivity, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
+        "philosophy-of-science",
         "science",
-        "method",
-        "induction",
-        "causation",
-        "falsifiability"
+        "subjectivity"
       ]
     },
     {
@@ -7892,11 +8197,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/scientific-observations/",
       "summary": "A page on Scientific “Observations”, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
+        "philosophy-of-science",
+        "branch-map",
         "science",
-        "method",
-        "induction",
-        "causation",
-        "falsifiability"
+        "scientific",
+        "observations"
       ]
     },
     {
@@ -7905,11 +8210,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/scientism-faith/",
       "summary": "A page on Scientism & Faith, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
+        "philosophy-of-science",
         "science",
-        "method",
-        "induction",
-        "causation",
-        "falsifiability"
+        "scientism",
+        "faith"
       ]
     },
     {
@@ -7918,11 +8222,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/sorting-out-science-terms/",
       "summary": "A page on Sorting Out Science Terms, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
+        "philosophy-of-science",
         "science",
-        "method",
-        "induction",
-        "causation",
-        "falsifiability"
+        "sorting",
+        "terms"
       ]
     },
     {
@@ -7931,11 +8234,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/technology-outpaces-theory/",
       "summary": "A page on Technology Outpaces Theory, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
-        "science",
-        "method",
-        "induction",
-        "causation",
-        "falsifiability"
+        "philosophy-of-science",
+        "technology",
+        "outpaces",
+        "theory"
       ]
     },
     {
@@ -7944,11 +8246,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/the-notion-of-laws/",
       "summary": "A page on The Notion of Laws, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
-        "science",
-        "method",
-        "induction",
-        "causation",
-        "falsifiability"
+        "philosophy-of-science",
+        "notion",
+        "laws"
       ]
     },
     {
@@ -7957,11 +8257,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/the-power-of-convergence/",
       "summary": "A page on The Power of Convergence, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
-        "science",
-        "method",
-        "induction",
-        "causation",
-        "falsifiability"
+        "philosophy-of-science",
+        "power",
+        "convergence"
       ]
     },
     {
@@ -7970,11 +8268,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/the-power-of-thought-experiments/",
       "summary": "A page on The Power of Thought Experiments, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
-        "science",
-        "method",
-        "induction",
-        "causation",
-        "falsifiability"
+        "philosophy-of-science",
+        "power",
+        "thought",
+        "experiments"
       ]
     },
     {
@@ -7983,11 +8280,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/the-problem-of-induction/",
       "summary": "A page on The Problem of Induction, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
-        "science",
-        "method",
+        "philosophy-of-science",
         "induction",
-        "causation",
-        "falsifiability"
+        "problem"
       ]
     },
     {
@@ -7996,11 +8291,8 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/the-use-of-proxies/",
       "summary": "A page on The Use of Proxies, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
-        "science",
-        "method",
-        "induction",
-        "causation",
-        "falsifiability"
+        "philosophy-of-science",
+        "proxies"
       ]
     },
     {
@@ -8009,11 +8301,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/the-value-of-surveys/",
       "summary": "A page on The Value of Surveys, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
-        "science",
-        "method",
-        "induction",
-        "causation",
-        "falsifiability"
+        "philosophy-of-science",
+        "value",
+        "surveys"
       ]
     },
     {
@@ -8022,11 +8312,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/what-are-pseudosciences/",
       "summary": "A page on Pseudosciences, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
-        "science",
-        "method",
-        "induction",
-        "causation",
-        "falsifiability"
+        "philosophy-of-science",
+        "primer",
+        "pseudosciences"
       ]
     },
     {
@@ -8035,11 +8323,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/what-is-deduction/",
       "summary": "A page on Deduction, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
+        "philosophy-of-science",
+        "primer",
         "science",
-        "method",
-        "induction",
-        "causation",
-        "falsifiability"
+        "deduction"
       ]
     },
     {
@@ -8048,11 +8335,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/what-is-etiology/",
       "summary": "A page on Etiology, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
+        "philosophy-of-science",
+        "primer",
         "science",
-        "method",
-        "induction",
-        "causation",
-        "falsifiability"
+        "etiology"
       ]
     },
     {
@@ -8061,10 +8347,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/what-is-falsifiability/",
       "summary": "A page on Falsifiability, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
+        "philosophy-of-science",
+        "primer",
         "science",
-        "method",
-        "induction",
-        "causation",
         "falsifiability"
       ]
     },
@@ -8074,11 +8359,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/what-is-induction/",
       "summary": "A page on Induction, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
+        "philosophy-of-science",
+        "primer",
         "science",
-        "method",
-        "induction",
-        "causation",
-        "falsifiability"
+        "induction"
       ]
     },
     {
@@ -8087,11 +8371,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/what-is-parsimony/",
       "summary": "A page on Parsimony, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
+        "philosophy-of-science",
+        "primer",
         "science",
-        "method",
-        "induction",
         "causation",
-        "falsifiability"
+        "parsimony"
       ]
     },
     {
@@ -8100,11 +8384,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/what-is-science/",
       "summary": "A page on Science, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
-        "science",
-        "method",
-        "induction",
-        "causation",
-        "falsifiability"
+        "philosophy-of-science",
+        "primer",
+        "science"
       ]
     },
     {
@@ -8113,11 +8395,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/philosophy-of-science/definitions-of-explanation/",
       "summary": "A page on “Explanation”, written to clarify its role inside the Philosophy of Science branch.",
       "tags": [
+        "philosophy-of-science",
+        "primer",
         "science",
-        "method",
-        "induction",
-        "causation",
-        "falsifiability"
+        "explanation"
       ]
     },
     {
@@ -8126,11 +8407,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/political-philosophy/ai-the-us-political-divide/",
       "summary": "A page on AI & the US Political Divide, written to clarify its role inside the Political Philosophy branch.",
       "tags": [
+        "political-philosophy",
         "politics",
-        "social-contract",
-        "identity",
-        "institutions",
-        "public-trust"
+        "political",
+        "divide"
       ]
     },
     {
@@ -8139,11 +8419,8 @@ window.BYTESEISMIC_DATA = {
       "path": "/political-philosophy/critical-race-theory/",
       "summary": "A page on Critical Race Theory, written to clarify its role inside the Political Philosophy branch.",
       "tags": [
+        "political-philosophy",
         "politics",
-        "social-contract",
-        "identity",
-        "institutions",
-        "public-trust",
         "critical-race-theory"
       ]
     },
@@ -8153,11 +8430,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/political-philosophy/electoral-systems/",
       "summary": "A page on Electoral Systems, written to clarify its role inside the Political Philosophy branch.",
       "tags": [
-        "politics",
-        "social-contract",
-        "identity",
-        "institutions",
-        "public-trust"
+        "political-philosophy",
+        "electoral",
+        "systems"
       ]
     },
     {
@@ -8166,11 +8441,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/political-philosophy/elements-of-a-stable-state/",
       "summary": "A page on Elements of a Stable State, written to clarify its role inside the Political Philosophy branch.",
       "tags": [
-        "politics",
-        "social-contract",
-        "identity",
-        "institutions",
-        "public-trust"
+        "political-philosophy",
+        "elements",
+        "stable",
+        "state"
       ]
     },
     {
@@ -8179,11 +8453,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/political-philosophy/identity-politics/",
       "summary": "A page on Identity Politics, written to clarify its role inside the Political Philosophy branch.",
       "tags": [
+        "political-philosophy",
         "politics",
-        "social-contract",
         "identity",
-        "institutions",
-        "public-trust",
         "identity-politics"
       ]
     },
@@ -8193,11 +8465,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/political-philosophy/maintaining-scientific-credibility/",
       "summary": "A page on Maintaining Scientific Credibility, written to clarify its role inside the Political Philosophy branch.",
       "tags": [
-        "politics",
-        "social-contract",
-        "identity",
-        "institutions",
-        "public-trust"
+        "political-philosophy",
+        "maintaining",
+        "scientific",
+        "credibility"
       ]
     },
     {
@@ -8206,11 +8477,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/political-philosophy/metrics-for-cultural-comparisons/",
       "summary": "A page on Metrics for Cultural Comparisons, written to clarify its role inside the Political Philosophy branch.",
       "tags": [
-        "politics",
-        "social-contract",
-        "identity",
-        "institutions",
-        "public-trust"
+        "political-philosophy",
+        "metrics",
+        "cultural",
+        "comparisons"
       ]
     },
     {
@@ -8219,11 +8489,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/political-philosophy/peaceful-revolutions/",
       "summary": "A page on Peaceful Revolutions, written to clarify its role inside the Political Philosophy branch.",
       "tags": [
-        "politics",
-        "social-contract",
-        "identity",
-        "institutions",
-        "public-trust"
+        "political-philosophy",
+        "peaceful",
+        "revolutions"
       ]
     },
     {
@@ -8232,11 +8500,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/political-philosophy/political-philosophy-basics/",
       "summary": "A page on Political Philosophy Basics, written to clarify its role inside the Political Philosophy branch.",
       "tags": [
-        "politics",
-        "social-contract",
-        "identity",
-        "institutions",
-        "public-trust"
+        "political-philosophy",
+        "political",
+        "philosophy",
+        "basics"
       ]
     },
     {
@@ -8245,11 +8512,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/political-philosophy/political-philosophy-core-concepts/",
       "summary": "A page on Political Philosophy – Core Concepts, written to clarify its role inside the Political Philosophy branch.",
       "tags": [
-        "politics",
-        "social-contract",
-        "identity",
-        "institutions",
-        "public-trust"
+        "political-philosophy",
+        "political",
+        "philosophy",
+        "concepts"
       ]
     },
     {
@@ -8258,11 +8524,7 @@ window.BYTESEISMIC_DATA = {
       "path": "/political-philosophy/political-theory-human-nature/",
       "summary": "A page on Political Theory & Human Nature, written to clarify its role inside the Political Philosophy branch.",
       "tags": [
-        "politics",
-        "social-contract",
-        "identity",
-        "institutions",
-        "public-trust",
+        "political-philosophy",
         "political-theory",
         "human-nature"
       ]
@@ -8273,11 +8535,8 @@ window.BYTESEISMIC_DATA = {
       "path": "/political-philosophy/red-blue-grey-tribes/",
       "summary": "A page on Red, Blue, & Grey Tribes, written to clarify its role inside the Political Philosophy branch.",
       "tags": [
-        "politics",
-        "social-contract",
-        "identity",
-        "institutions",
-        "public-trust"
+        "political-philosophy",
+        "tribes"
       ]
     },
     {
@@ -8286,11 +8545,8 @@ window.BYTESEISMIC_DATA = {
       "path": "/political-philosophy/the-social-contract/",
       "summary": "A page on The Social Contract, written to clarify its role inside the Political Philosophy branch.",
       "tags": [
-        "politics",
-        "social-contract",
-        "identity",
-        "institutions",
-        "public-trust"
+        "political-philosophy",
+        "social-contract"
       ]
     },
     {
@@ -8299,11 +8555,7 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/1-at-99-5-or-5-at-95/",
       "summary": "A page on 1 at 99.5% or 5 at 95%, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought"
       ]
     },
     {
@@ -8312,11 +8564,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/a-taxonomy-of-emotions/",
       "summary": "A page on A Taxonomy of Emotions, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "taxonomy",
+        "emotions"
       ]
     },
     {
@@ -8325,11 +8575,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/ai-logic-intelligence/",
       "summary": "A page on AI “Logic” & “Intelligence”, written to clarify its role inside the Rational Thought branch.",
       "tags": [
+        "rational-thought",
         "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "intelligence"
       ]
     },
     {
@@ -8338,11 +8586,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/are-averages-not-always-true/",
       "summary": "A page on Are Averages “Not Always True”, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "averages",
+        "not",
+        "always",
+        "true"
       ]
     },
     {
@@ -8351,11 +8599,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/argument-1-miraculous-event/",
       "summary": "A page on Argument #1: Miraculous Event, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "argument",
+        "miraculous",
+        "event"
       ]
     },
     {
@@ -8364,11 +8611,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/assessing-arguments/",
       "summary": "A page on Assessing Arguments, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "branch-map",
+        "assessing",
+        "arguments"
       ]
     },
     {
@@ -8377,11 +8623,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/attributions-of-causation/",
       "summary": "A page on Attributions of Causation, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "branch-map",
+        "attributions",
+        "causation"
       ]
     },
     {
@@ -8390,12 +8635,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/avoiding-logical-fallacies/",
       "summary": "A page on Avoiding Logical Fallacies, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
+        "rational-thought",
+        "branch-map",
         "fallacies",
-        "decision-making",
-        "statistics",
-        "framing",
-        "logical-fallacies"
+        "logical-fallacies",
+        "avoiding"
       ]
     },
     {
@@ -8404,11 +8648,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/calculating-risks/",
       "summary": "A page on Calculating Risks, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "calculating",
+        "risks"
       ]
     },
     {
@@ -8417,11 +8659,8 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/case-1-seizures/",
       "summary": "A page on Seizures, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "seizures"
       ]
     },
     {
@@ -8430,11 +8669,8 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/case-2-autism/",
       "summary": "A page on Autism, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "autism"
       ]
     },
     {
@@ -8443,11 +8679,8 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/case-3-astrology/",
       "summary": "A page on Astrology, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "astrology"
       ]
     },
     {
@@ -8456,11 +8689,8 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/case-4-obesity/",
       "summary": "A page on Obesity, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "obesity"
       ]
     },
     {
@@ -8469,11 +8699,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/case-5-grade-inflation/",
       "summary": "A page on Grade Inflation, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "grade",
+        "inflation"
       ]
     },
     {
@@ -8482,11 +8710,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/categories-of-questions/",
       "summary": "A page on Categories of Questions, written to clarify its role inside the Rational Thought branch.",
       "tags": [
+        "rational-thought",
         "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "categories",
+        "questions"
       ]
     },
     {
@@ -8495,11 +8722,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/characteristics-of-science-denial/",
       "summary": "A page on Characteristics of Science Denial, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "characteristics",
+        "science",
+        "denial"
       ]
     },
     {
@@ -8508,11 +8734,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/charting-jurgen-habermas/",
       "summary": "A terrain map of Jurgen Habermas, showing which themes, alignments, and tensions define the wider philosophical landscape.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "comparison",
+        "jurgen",
+        "habermas"
       ]
     },
     {
@@ -8521,11 +8746,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/cognitive-threats-to-rationality/",
       "summary": "A page on Cognitive Threats to Rationality, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "branch-map",
+        "cognitive",
+        "threats",
+        "rationality"
       ]
     },
     {
@@ -8534,11 +8759,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/credencing/",
       "summary": "A page on Credencing, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "branch-map",
+        "credencing"
       ]
     },
     {
@@ -8547,11 +8770,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/deflecting-to-experts/",
       "summary": "A page on Deflecting to Experts, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "deflecting",
+        "experts"
       ]
     },
     {
@@ -8560,11 +8781,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/depth-or-width-of-knowledge/",
       "summary": "A page on Depth or Width of Knowledge, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "depth",
+        "width",
+        "knowledge"
       ]
     },
     {
@@ -8573,11 +8793,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/detecting-bad-science/",
       "summary": "A page on Detecting Bad Science, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "detecting",
+        "science"
       ]
     },
     {
@@ -8586,11 +8804,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/dialoguing-with-habermas/",
       "summary": "A guided encounter with Habermas that keeps the philosopher’s voice, major claims, and main points of resistance in view.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "dialogue",
+        "habermas"
       ]
     },
     {
@@ -8599,11 +8815,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/do-rationalists-skew-neurodivergent/",
       "summary": "A page on Do Rationalists Skew Neurodivergent, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "rationalists",
+        "skew",
+        "neurodivergent"
       ]
     },
     {
@@ -8612,11 +8827,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/empathy-overload/",
       "summary": "A page on Empathy Overload, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "empathy",
+        "overload"
       ]
     },
     {
@@ -8625,11 +8838,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/evolution-rationality/",
       "summary": "A page on Evolution & Rationality, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "evolution",
+        "rationality"
       ]
     },
     {
@@ -8638,11 +8849,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/factual-disagreements-vs-semantic-misunderstandings/",
       "summary": "A page on Factual Disagreements vs Semantic Misunderstandings, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "factual",
+        "disagreements",
+        "semantic",
+        "misunderstandings"
       ]
     },
     {
@@ -8651,11 +8862,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/false-equivalencies/",
       "summary": "A page on False Equivalencies, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "false",
+        "equivalencies"
       ]
     },
     {
@@ -8664,11 +8873,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/fine-tuned-rationality/",
       "summary": "A page on Fine-Tuned Rationality, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "branch-map",
+        "fine",
+        "tuned",
+        "rationality"
       ]
     },
     {
@@ -8677,11 +8886,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/integrated-critical-thinking/",
       "summary": "A page on Integrated Critical Thinking, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "integrated",
+        "critical",
+        "thinking"
       ]
     },
     {
@@ -8690,11 +8898,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/leaving-room-for-doubt/",
       "summary": "A page on Leaving Room for Doubt, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "leaving",
+        "room",
+        "doubt"
       ]
     },
     {
@@ -8703,11 +8910,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/life-choices/",
       "summary": "A page on Life Choices, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "branch-map",
+        "life",
+        "choices"
       ]
     },
     {
@@ -8716,11 +8922,8 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/logic/",
       "summary": "A page on Logic, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "logic"
       ]
     },
     {
@@ -8729,11 +8932,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/monetary-goals/",
       "summary": "A page on Monetary Goals, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "monetary",
+        "goals"
       ]
     },
     {
@@ -8742,11 +8943,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/perverse-incentives/",
       "summary": "A page on Perverse Incentives, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "perverse",
+        "incentives"
       ]
     },
     {
@@ -8755,11 +8954,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/rational-romance/",
       "summary": "A page on Rational Romance, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "rational",
+        "romance"
       ]
     },
     {
@@ -8768,11 +8965,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/regret-assessment/",
       "summary": "A page on Regret Assessment, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "regret",
+        "assessment"
       ]
     },
     {
@@ -8781,11 +8976,12 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/sample-size-margin-of-error/",
       "summary": "A page on Sample Size & Margin of Error, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
+        "rational-thought",
         "statistics",
-        "framing"
+        "sample",
+        "size",
+        "margin",
+        "error"
       ]
     },
     {
@@ -8794,11 +8990,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/scope-of-influence/",
       "summary": "A page on Scope of Influence, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "scope",
+        "influence"
       ]
     },
     {
@@ -8807,11 +9001,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/starting-with-strong-basics/",
       "summary": "A page on Starting with Strong Basics, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "starting",
+        "strong",
+        "basics"
       ]
     },
     {
@@ -8820,11 +9013,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/the-illusion-of-knowledge/",
       "summary": "A page on The Illusion of Knowledge, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "illusion",
+        "knowledge"
       ]
     },
     {
@@ -8833,11 +9024,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/the-motive-fallacy/",
       "summary": "A page on The Motive Fallacy, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "motive",
+        "fallacy"
       ]
     },
     {
@@ -8846,11 +9035,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/the-power-of-statistics/",
       "summary": "A page on The Power of Statistics, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
+        "rational-thought",
+        "branch-map",
         "statistics",
-        "framing"
+        "power"
       ]
     },
     {
@@ -8859,11 +9047,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/the-primacy-of-emotions/",
       "summary": "A page on The Primacy of Emotions, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "branch-map",
+        "primacy",
+        "emotions"
       ]
     },
     {
@@ -8872,11 +9059,11 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/the-professional-application-of-rationality/",
       "summary": "A page on The Professional Application of Rationality, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "branch-map",
+        "professional",
+        "application",
+        "rationality"
       ]
     },
     {
@@ -8885,11 +9072,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/the-steppingstone-fallacy/",
       "summary": "A page on The Steppingstone Fallacy, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "framing",
+        "steppingstone",
+        "fallacy"
       ]
     },
     {
@@ -8898,12 +9084,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/training-data-bias/",
       "summary": "A page on Training Data Bias, written to clarify its role inside the Rational Thought branch.",
       "tags": [
+        "rational-thought",
         "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing",
-        "training-data"
+        "training-data",
+        "bias"
       ]
     },
     {
@@ -8912,11 +9096,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/tu-quoque-or-you-too/",
       "summary": "A page on Tu Quoque or “You too!”, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "quoque",
+        "you",
+        "too"
       ]
     },
     {
@@ -8925,11 +9108,9 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/what-is-futurism/",
       "summary": "A page on Futurism, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "primer",
+        "futurism"
       ]
     },
     {
@@ -8938,11 +9119,8 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/what-is-game-theory/",
       "summary": "A page on Game Theory, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing",
+        "rational-thought",
+        "primer",
         "game-theory"
       ]
     },
@@ -8952,11 +9130,10 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/what-is-rational-thought/",
       "summary": "A page on Rational Thought, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing"
+        "rational-thought",
+        "primer",
+        "rational",
+        "thought"
       ]
     },
     {
@@ -8965,11 +9142,8 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/what-is-design-thinking/",
       "summary": "A page on “Design Thinking”, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
-        "statistics",
-        "framing",
+        "rational-thought",
+        "primer",
         "design-thinking"
       ]
     },
@@ -8979,17 +9153,34 @@ window.BYTESEISMIC_DATA = {
       "path": "/rational-thought/where-framing-goes-awry/",
       "summary": "A page on Where Framing Goes Awry, written to clarify its role inside the Rational Thought branch.",
       "tags": [
-        "logic",
-        "fallacies",
-        "decision-making",
+        "rational-thought",
         "statistics",
-        "framing"
+        "framing",
+        "goes",
+        "awry"
       ]
     }
   ],
   "topicPaths": {
     "Site Map": "/menu-structure/",
+    "Guided Reading Paths": "/guided-reading/",
+    "Concept Glossary": "/concept-glossary/",
     "Recent Posts — Expanded Version": "/recent-posts-expanded-version/",
+    "Introduction Branch Guide": "/branches/introduction/",
+    "Philosophical Inquiry Branch Guide": "/branches/philosophical-inquiry/",
+    "Epistemology Branch Guide": "/branches/epistemology/",
+    "Rational Thought Branch Guide": "/branches/rational-thought/",
+    "Philosophy of Science Branch Guide": "/branches/philosophy-of-science/",
+    "Philosophy of Language Branch Guide": "/branches/philosophy-of-language/",
+    "Philosophy of Mind Branch Guide": "/branches/philosophy-of-mind/",
+    "Metaphysics Branch Guide": "/branches/metaphysics/",
+    "Ethics Branch Guide": "/branches/ethics/",
+    "Humanistic Philosophies Branch Guide": "/branches/humanistic-philosophies/",
+    "Economics Branch Guide": "/branches/economics/",
+    "Philosophy of AI Branch Guide": "/branches/philosophy-of-ai/",
+    "Political Philosophy Branch Guide": "/branches/political-philosophy/",
+    "Philosophers Branch Guide": "/branches/philosophers/",
+    "Miscellany Branch Guide": "/branches/miscellany/",
     "What Is Philosophy?": "/introduction/what-is-philosophy/",
     "What Is Truth?": "/philosophical-inquiry/what-is-truth/",
     "The Mindset of the Honest Seeker": "/philosophical-inquiry/the-mindset-of-the-honest-seeker/",
@@ -9642,6 +9833,14 @@ window.BYTESEISMIC_DATA = {
       "id": "introduction",
       "name": "Introduction",
       "summary": "Orientation pages that explain what philosophy is, why it matters, and how newcomers can enter the conversation without losing rigor.",
+      "editorialIntro": "This topic matters because it organizes a cluster of questions that become harder to handle when they are compressed into a slogan.",
+      "route": "A good route is to identify the strongest version of the idea, then test where it needs qualification, evidence, or a neighboring concept.",
+      "coreTensions": [
+        "The central distinction",
+        "The strongest charitable version",
+        "The main pressure point",
+        "The neighboring question"
+      ],
       "seedTopics": [
         "Site Map",
         "What is Philosophy?",
@@ -9660,6 +9859,7 @@ window.BYTESEISMIC_DATA = {
         "careers"
       ],
       "samplePath": "/introduction/what-is-philosophy/",
+      "branchGuidePath": "/branches/introduction/",
       "topicTree": [
         {
           "title": "Site Map",
@@ -9713,6 +9913,14 @@ window.BYTESEISMIC_DATA = {
       "id": "philosophical-inquiry",
       "name": "Philosophical Inquiry",
       "summary": "A branch devoted to the habits, dangers, and social conditions that make honest inquiry possible.",
+      "editorialIntro": "Honest inquiry is fragile because it asks people to expose their favorite beliefs to better evidence, rival interpretations, and the possibility of revision.",
+      "route": "A good route through this branch is to ask what each page is trying to rescue: intellectual humility, evidential patience, conceptual charity, or courage under disagreement.",
+      "coreTensions": [
+        "The belief being protected",
+        "The evidence being avoided",
+        "The social reward for certainty",
+        "The better question that would reopen inquiry"
+      ],
       "seedTopics": [
         "The Mindset of the Honest Seeker",
         "Dangers to Honest Inquiry",
@@ -9731,6 +9939,7 @@ window.BYTESEISMIC_DATA = {
         "charitable-engagement"
       ],
       "samplePath": "/philosophical-inquiry/the-mindset-of-the-honest-seeker/",
+      "branchGuidePath": "/branches/philosophical-inquiry/",
       "topicTree": [
         {
           "title": "The Mindset of the Honest Seeker",
@@ -9916,6 +10125,14 @@ window.BYTESEISMIC_DATA = {
       "id": "epistemology",
       "name": "Epistemology",
       "summary": "Questions about belief, evidence, certainty, updating, and the tools we use to justify claims.",
+      "editorialIntro": "Epistemology matters because it gives the archive a standard for responsible confidence. It asks how perception, testimony, inference, memory, and probability should constrain belief.",
+      "route": "The best route is to track how evidence changes credence, how justification differs from psychological comfort, and how skepticism can discipline thought without paralyzing it.",
+      "coreTensions": [
+        "Belief and knowledge",
+        "Evidence and justification",
+        "Credence and updating",
+        "Skepticism without paralysis"
+      ],
       "seedTopics": [
         "Epistemology — Core Concepts",
         "What is Epistemology?",
@@ -9935,6 +10152,7 @@ window.BYTESEISMIC_DATA = {
         "credence"
       ],
       "samplePath": "/epistemology/what-is-belief/",
+      "branchGuidePath": "/branches/epistemology/",
       "topicTree": [
         {
           "title": "Epistemology — Core Concepts",
@@ -10238,6 +10456,14 @@ window.BYTESEISMIC_DATA = {
       "id": "rational-thought",
       "name": "Rational Thought",
       "summary": "Applied reasoning, fallacy detection, statistics, decision-making, and the emotional pressures that distort judgment.",
+      "editorialIntro": "Rational thought is the applied workshop of the archive. It tests whether philosophical care can survive ordinary argument, public controversy, bad statistics, and misleading frames.",
+      "route": "A useful path through this branch is practical. Ask what mistake the page helps detect, what habit it trains, and what kind of disagreement it makes less confused.",
+      "coreTensions": [
+        "The reasoning error",
+        "The tempting shortcut",
+        "The corrective habit",
+        "The better standard of comparison"
+      ],
       "seedTopics": [
         "What is Rational Thought?",
         "Evolution & Rationality",
@@ -10257,6 +10483,7 @@ window.BYTESEISMIC_DATA = {
         "framing"
       ],
       "samplePath": "/rational-thought/categories-of-questions/",
+      "branchGuidePath": "/branches/rational-thought/",
       "topicTree": [
         {
           "title": "What is Rational Thought?",
@@ -10478,6 +10705,14 @@ window.BYTESEISMIC_DATA = {
       "id": "philosophy-of-science",
       "name": "Philosophy of Science",
       "summary": "Method, explanation, induction, causation, and the standards that separate disciplined inquiry from pseudo-explanation.",
+      "editorialIntro": "This topic matters because it organizes a cluster of questions that become harder to handle when they are compressed into a slogan.",
+      "route": "A good route is to identify the strongest version of the idea, then test where it needs qualification, evidence, or a neighboring concept.",
+      "coreTensions": [
+        "The central distinction",
+        "The strongest charitable version",
+        "The main pressure point",
+        "The neighboring question"
+      ],
       "seedTopics": [
         "Philosophy of Science — Core Concepts",
         "What is Science?",
@@ -10497,6 +10732,7 @@ window.BYTESEISMIC_DATA = {
         "falsifiability"
       ],
       "samplePath": "/philosophy-of-science/what-is-science/",
+      "branchGuidePath": "/branches/philosophy-of-science/",
       "topicTree": [
         {
           "title": "Philosophy of Science — Core Concepts",
@@ -10706,6 +10942,14 @@ window.BYTESEISMIC_DATA = {
       "id": "philosophy-of-language",
       "name": "Philosophy of Language",
       "summary": "How words, conventions, metaphors, and categories shape thought, agreement, and misunderstanding.",
+      "editorialIntro": "This topic matters because it organizes a cluster of questions that become harder to handle when they are compressed into a slogan.",
+      "route": "A good route is to identify the strongest version of the idea, then test where it needs qualification, evidence, or a neighboring concept.",
+      "coreTensions": [
+        "The central distinction",
+        "The strongest charitable version",
+        "The main pressure point",
+        "The neighboring question"
+      ],
       "seedTopics": [
         "Philosophy of Language — Core Concepts",
         "What is Language?",
@@ -10725,6 +10969,7 @@ window.BYTESEISMIC_DATA = {
         "equivocation"
       ],
       "samplePath": "/philosophy-of-language/core-concepts-philosophy-of-language/",
+      "branchGuidePath": "/branches/philosophy-of-language/",
       "topicTree": [
         {
           "title": "Philosophy of Language — Core Concepts",
@@ -10822,6 +11067,14 @@ window.BYTESEISMIC_DATA = {
       "id": "philosophy-of-mind",
       "name": "Philosophy of Mind",
       "summary": "Consciousness, cognition, free will, psychology, and the overlap between first-person experience and third-person analysis.",
+      "editorialIntro": "This topic matters because it organizes a cluster of questions that become harder to handle when they are compressed into a slogan.",
+      "route": "A good route is to identify the strongest version of the idea, then test where it needs qualification, evidence, or a neighboring concept.",
+      "coreTensions": [
+        "The central distinction",
+        "The strongest charitable version",
+        "The main pressure point",
+        "The neighboring question"
+      ],
       "seedTopics": [
         "Philosophy of Mind — Core Concepts",
         "Philosophy of Mind Basics",
@@ -10841,6 +11094,7 @@ window.BYTESEISMIC_DATA = {
         "subjectivity"
       ],
       "samplePath": "/philosophy-of-mind/where-consciousness-can-must-emerge/",
+      "branchGuidePath": "/branches/philosophy-of-mind/",
       "topicTree": [
         {
           "title": "Philosophy of Mind — Core Concepts",
@@ -10958,6 +11212,14 @@ window.BYTESEISMIC_DATA = {
       "id": "metaphysics",
       "name": "Metaphysics",
       "summary": "Reality, causation, emergence, nihilism, dualism, and the limits of what can be said to exist.",
+      "editorialIntro": "This topic matters because it organizes a cluster of questions that become harder to handle when they are compressed into a slogan.",
+      "route": "A good route is to identify the strongest version of the idea, then test where it needs qualification, evidence, or a neighboring concept.",
+      "coreTensions": [
+        "The central distinction",
+        "The strongest charitable version",
+        "The main pressure point",
+        "The neighboring question"
+      ],
       "seedTopics": [
         "Metaphysics – Core Concepts",
         "What is Metaphysics?",
@@ -10977,6 +11239,7 @@ window.BYTESEISMIC_DATA = {
         "nihilism"
       ],
       "samplePath": "/metaphysics/metaphysics-core-concepts/",
+      "branchGuidePath": "/branches/metaphysics/",
       "topicTree": [
         {
           "title": "Metaphysics – Core Concepts",
@@ -11080,6 +11343,14 @@ window.BYTESEISMIC_DATA = {
       "id": "ethics",
       "name": "Ethics",
       "summary": "Moral language, meta-ethics, culpability, applied dilemmas, and the challenge of moving from values to action.",
+      "editorialIntro": "Ethics is high-value because it forces the archive to distinguish moral feeling, social practice, objective obligation, and practical recommendation without pretending those differences are easy.",
+      "route": "The best route is to keep three questions apart: what people value, what a moral sentence means, and what could justify a demand on another person.",
+      "coreTensions": [
+        "Moral realism and anti-realism",
+        "The is/ought gap",
+        "Normativity and motivation",
+        "Rights, duties, and value"
+      ],
       "seedTopics": [
         "Ethics — Core Concepts",
         "What are Ethics?",
@@ -11099,6 +11370,7 @@ window.BYTESEISMIC_DATA = {
         "human-rights"
       ],
       "samplePath": "/ethics/ethics-core-concepts/",
+      "branchGuidePath": "/branches/ethics/",
       "topicTree": [
         {
           "title": "Ethics — Core Concepts",
@@ -11256,6 +11528,14 @@ window.BYTESEISMIC_DATA = {
       "id": "humanistic-philosophies",
       "name": "Humanistic Philosophies",
       "summary": "Meaning, religion, stoicism, existentialism, and the existential project of becoming a more lucid human being.",
+      "editorialIntro": "This topic matters because it organizes a cluster of questions that become harder to handle when they are compressed into a slogan.",
+      "route": "A good route is to identify the strongest version of the idea, then test where it needs qualification, evidence, or a neighboring concept.",
+      "coreTensions": [
+        "The central distinction",
+        "The strongest charitable version",
+        "The main pressure point",
+        "The neighboring question"
+      ],
       "seedTopics": [
         "Personal & Cosmic Meaning",
         "Are Humans More Egoistic or Altruistic?",
@@ -11275,6 +11555,7 @@ window.BYTESEISMIC_DATA = {
         "human-nature"
       ],
       "samplePath": "/humanistic-philosophies/stoicism-key-concepts/",
+      "branchGuidePath": "/branches/humanistic-philosophies/",
       "topicTree": [
         {
           "title": "Personal & Cosmic Meaning",
@@ -11386,6 +11667,14 @@ window.BYTESEISMIC_DATA = {
       "id": "economics",
       "name": "Economics",
       "summary": "Economic concepts, schools of thought, incentives, risk, entitlements, and the effects of AI on work and prosperity.",
+      "editorialIntro": "This topic matters because it organizes a cluster of questions that become harder to handle when they are compressed into a slogan.",
+      "route": "A good route is to identify the strongest version of the idea, then test where it needs qualification, evidence, or a neighboring concept.",
+      "coreTensions": [
+        "The central distinction",
+        "The strongest charitable version",
+        "The main pressure point",
+        "The neighboring question"
+      ],
       "seedTopics": [
         "Economics – Core Concepts",
         "What is Economics?",
@@ -11405,6 +11694,7 @@ window.BYTESEISMIC_DATA = {
         "future-of-work"
       ],
       "samplePath": "/economics/economics-core-concepts/",
+      "branchGuidePath": "/branches/economics/",
       "topicTree": [
         {
           "title": "Economics – Core Concepts",
@@ -11538,6 +11828,14 @@ window.BYTESEISMIC_DATA = {
       "id": "philosophy-of-ai",
       "name": "Philosophy of AI",
       "summary": "Truthfulness, prompting, capabilities, bias, public discourse, and the implications of dialoguing with machine systems.",
+      "editorialIntro": "Philosophy of AI matters here because the archive itself is built through human-machine dialogue. The branch therefore has to examine truthfulness, agency, prompting, bias, and responsibility from the inside.",
+      "route": "A strong route through this branch asks what the model is doing, what the human is doing, and where the final responsibility for judgment belongs.",
+      "coreTensions": [
+        "Truthfulness and hallucination",
+        "Prompting as epistemic design",
+        "Model bias and user bias",
+        "Human responsibility for final judgment"
+      ],
       "seedTopics": [
         "Philosophy of AI – Core Concepts",
         "What is the Philosophy of AI?",
@@ -11557,6 +11855,7 @@ window.BYTESEISMIC_DATA = {
         "public-discourse"
       ],
       "samplePath": "/philosophy-of-ai/assessing-ai-alignment-with-truth/",
+      "branchGuidePath": "/branches/philosophy-of-ai/",
       "topicTree": [
         {
           "title": "Philosophy of AI – Core Concepts",
@@ -11690,6 +11989,14 @@ window.BYTESEISMIC_DATA = {
       "id": "political-philosophy",
       "name": "Political Philosophy",
       "summary": "Collective life, legitimacy, identity, tribal division, electoral systems, and the structures that stabilize or degrade public reason.",
+      "editorialIntro": "This topic matters because it organizes a cluster of questions that become harder to handle when they are compressed into a slogan.",
+      "route": "A good route is to identify the strongest version of the idea, then test where it needs qualification, evidence, or a neighboring concept.",
+      "coreTensions": [
+        "The central distinction",
+        "The strongest charitable version",
+        "The main pressure point",
+        "The neighboring question"
+      ],
       "seedTopics": [
         "Political Philosophy – Core Concepts",
         "Political Philosophy Basics",
@@ -11709,6 +12016,7 @@ window.BYTESEISMIC_DATA = {
         "public-trust"
       ],
       "samplePath": "/political-philosophy/political-philosophy-core-concepts/",
+      "branchGuidePath": "/branches/political-philosophy/",
       "topicTree": [
         {
           "title": "Political Philosophy – Core Concepts",
@@ -11768,6 +12076,14 @@ window.BYTESEISMIC_DATA = {
       "id": "philosophers",
       "name": "Philosophers",
       "summary": "Author-centered pathways through major traditions, often including dialogue pages, charted summaries, and grouped schools.",
+      "editorialIntro": "The philosophers branch is strongest when it preserves voice, context, and method. A thinker should not be flattened into a doctrine if the style of thinking is part of the contribution.",
+      "route": "A good route is to move from school to figure to dialogue to chart, so the reader sees both the tradition and the individual pressure each thinker applies.",
+      "coreTensions": [
+        "The figure's central pressure",
+        "The method or style of argument",
+        "The strongest internal tension",
+        "The modern question the figure still sharpens"
+      ],
       "seedTopics": [
         "Introduction to Philosophers",
         "Philosopher Club Membership",
@@ -11780,13 +12096,14 @@ window.BYTESEISMIC_DATA = {
       ],
       "topicCount": 213,
       "futureTags": [
-        "socrates",
-        "plato",
-        "hume",
-        "kant",
-        "nietzsche"
+        "philosophers",
+        "dialogue",
+        "comparison",
+        "history-of-philosophy",
+        "philosophical-method"
       ],
       "samplePath": "/philosophers/dialoguing-with-epictetus/",
+      "branchGuidePath": "/branches/philosophers/",
       "topicTree": [
         {
           "title": "Introduction to Philosophers",
@@ -12806,6 +13123,14 @@ window.BYTESEISMIC_DATA = {
       "id": "miscellany",
       "name": "Miscellany",
       "summary": "A flexible branch for adjacent domains such as axiology, history, complexity, information theory, and cross-disciplinary side paths.",
+      "editorialIntro": "This topic matters because it organizes a cluster of questions that become harder to handle when they are compressed into a slogan.",
+      "route": "A good route is to identify the strongest version of the idea, then test where it needs qualification, evidence, or a neighboring concept.",
+      "coreTensions": [
+        "The central distinction",
+        "The strongest charitable version",
+        "The main pressure point",
+        "The neighboring question"
+      ],
       "seedTopics": [
         "What is Axiology?",
         "Domains of Aesthetics",
@@ -12825,6 +13150,7 @@ window.BYTESEISMIC_DATA = {
         "wisdom"
       ],
       "samplePath": "/miscellany/what-is-axiology/",
+      "branchGuidePath": "/branches/miscellany/",
       "topicTree": [
         {
           "title": "What is Axiology?",

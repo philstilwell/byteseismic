@@ -7,10 +7,112 @@
   <priority>1.0</priority>
 </url>
 <url>
+  <loc>https://byteseismic.com/guided-reading/</loc>
+  <lastmod>2026-05-21</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/concept-glossary/</loc>
+  <lastmod>2026-05-21</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
   <loc>https://byteseismic.com/menu-structure/</loc>
   <lastmod>2026-05-21</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.6</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/branches/introduction/</loc>
+  <lastmod>2026-05-21</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/branches/philosophical-inquiry/</loc>
+  <lastmod>2026-05-21</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/branches/epistemology/</loc>
+  <lastmod>2026-05-21</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/branches/rational-thought/</loc>
+  <lastmod>2026-05-21</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/branches/philosophy-of-science/</loc>
+  <lastmod>2026-05-21</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/branches/philosophy-of-language/</loc>
+  <lastmod>2026-05-21</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/branches/philosophy-of-mind/</loc>
+  <lastmod>2026-05-21</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/branches/metaphysics/</loc>
+  <lastmod>2026-05-21</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/branches/ethics/</loc>
+  <lastmod>2026-05-21</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/branches/humanistic-philosophies/</loc>
+  <lastmod>2026-05-21</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/branches/economics/</loc>
+  <lastmod>2026-05-21</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/branches/philosophy-of-ai/</loc>
+  <lastmod>2026-05-21</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/branches/political-philosophy/</loc>
+  <lastmod>2026-05-21</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/branches/philosophers/</loc>
+  <lastmod>2026-05-21</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.7</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/branches/miscellany/</loc>
+  <lastmod>2026-05-21</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.7</priority>
 </url>
 <url>
   <loc>https://byteseismic.com/economics/a-living-wage/</loc>

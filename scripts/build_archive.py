@@ -120,7 +120,7 @@ SECTION_META = {
     "philosophers": {
         "name": "Philosophers",
         "summary": "Author-centered pathways through major traditions, often including dialogue pages, charted summaries, and grouped schools.",
-        "futureTags": ["socrates", "plato", "hume", "kant", "nietzsche"],
+        "futureTags": ["philosophers", "dialogue", "comparison", "history-of-philosophy", "philosophical-method"],
         "preferredPath": "/philosophers/dialoguing-with-epictetus/",
     },
     "miscellany": {
@@ -201,6 +201,87 @@ FEATURED_PAGE_SPECS = [
         "section_id": "philosophers",
         "path": "/philosophers/dialoguing-with-merleau-ponty/",
     },
+]
+
+GUIDED_READING_PATHS = [
+    {
+        "id": "start-here",
+        "title": "Start Here: Philosophy Without Losing the Thread",
+        "summary": "A first route for readers who want the archive to feel navigable before it becomes wonderfully unruly.",
+        "audience": "New and returning readers",
+        "steps": [
+            {"title": "What Is Philosophy?", "path": "/introduction/what-is-philosophy/", "reason": "Begin with the activity itself: philosophy as disciplined clarification rather than free-floating opinion."},
+            {"title": "What Is Truth?", "path": "/philosophical-inquiry/what-is-truth/", "reason": "Move next to the archive's central pressure: what it means for inquiry to answer to reality."},
+            {"title": "What Is Belief?", "path": "/epistemology/what-is-belief/", "reason": "Separate assent, confidence, evidence, and action-guiding commitment before the branches multiply."},
+            {"title": "Categories of Questions", "path": "/rational-thought/categories-of-questions/", "reason": "Learn which questions call for empirical testing, conceptual analysis, prudential judgment, or moral argument."},
+        ],
+    },
+    {
+        "id": "epistemic-discipline",
+        "title": "Epistemic Discipline: Belief, Evidence, and Responsible Confidence",
+        "summary": "A route through the archive's standards for holding, revising, suspending, or rejecting claims.",
+        "audience": "Readers interested in knowledge, doubt, and calibration",
+        "steps": [
+            {"title": "What Is Belief?", "path": "/epistemology/what-is-belief/", "reason": "Start with the difference between binary belief-talk and graded confidence."},
+            {"title": "Adequate Evidence", "path": "/epistemology/adequate-evidence/", "reason": "Ask what kind and amount of support a claim needs before belief becomes responsible."},
+            {"title": "Operational Epistemic Rigor", "path": "/epistemology/operational-epistemic-rigor/", "reason": "Turn epistemic virtue into habits that can be used under actual pressure."},
+            {"title": "What Is Science?", "path": "/philosophy-of-science/what-is-science/", "reason": "See how public methods discipline belief without pretending science is the only form of inquiry."},
+        ],
+    },
+    {
+        "id": "metaethics-without-fog",
+        "title": "Metaethics Without the Fog Machine",
+        "summary": "A route for keeping moral realism, moral non-realism, recommendation, obligation, and equivocation distinct.",
+        "audience": "Readers willing to let moral language become difficult before it becomes clearer",
+        "steps": [
+            {"title": "Recommendations vs Moral Claims", "path": "/ethics/recommendations-vs-moral-claims/", "reason": "Separate advice, preference, prudence, and moral demand before arguing over conclusions."},
+            {"title": "Fictional Meta-Ethics Debate", "path": "/ethics/fictional-meta-ethics-debate/", "reason": "Watch positions collide in dialogue rather than pretending a taxonomy has settled the dispute."},
+            {"title": "Equivocation on “Wrong”", "path": "/ethics/equivocation-on-wrong/", "reason": "Track how a single moral word can slide among pragmatic, social, legal, and objective senses."},
+            {"title": "Compassion vs Moral Systems", "path": "/ethics/compassion-vs-moral-systems/", "reason": "Test whether moral warmth can replace moral structure, or whether both need each other."},
+        ],
+    },
+    {
+        "id": "ai-and-truth",
+        "title": "AI and Truth: Prompting as an Epistemic Practice",
+        "summary": "A route through the archive's internal experiment: using AI while refusing to outsource judgment to it.",
+        "audience": "Readers interested in AI, truthfulness, prompting, and human responsibility",
+        "steps": [
+            {"title": "Assessing AI Alignment with Truth", "path": "/philosophy-of-ai/assessing-ai-alignment-with-truth/", "reason": "Start with the question of whether fluent systems are actually answerable to truth."},
+            {"title": "Precision Prompting", "path": "/philosophy-of-ai/precision-prompting/", "reason": "Treat prompting as a discipline of question design rather than a bag of magic words."},
+            {"title": "AI Reasoning Case Study", "path": "/epistemology/ai-reasoning-case-study/", "reason": "Inspect how a model reasons when asked to explain, revise, and justify its answer."},
+            {"title": "Operational Epistemic Rigor", "path": "/epistemology/operational-epistemic-rigor/", "reason": "Return responsibility to the human evaluator: the final judgment still has to be earned."},
+        ],
+    },
+    {
+        "id": "philosophers-as-voices",
+        "title": "Philosophers as Voices, Not Nameplates",
+        "summary": "A route through philosopher pages where method, style, and objection matter as much as doctrine.",
+        "audience": "Readers who want thinkers to feel encounterable rather than embalmed",
+        "steps": [
+            {"title": "Dialoguing with Epictetus", "path": "/philosophers/dialoguing-with-epictetus/", "reason": "Begin with a voice that makes philosophy practical, stern, and strangely relieving."},
+            {"title": "Dialoguing with Aquinas", "path": "/philosophers/dialoguing-with-aquinas/", "reason": "Watch a systematic mind move through objection, answer, and reply."},
+            {"title": "Dialoguing with Nagarjuna", "path": "/philosophers/dialoguing-with-nagarjuna/", "reason": "Use dialogue to feel how anti-essentialist pressure changes the shape of a question."},
+            {"title": "Dialoguing with Marcus Aurelius", "path": "/philosophers/dialoguing-with-marcus-aurelius/", "reason": "End with philosophy as daily discipline rather than merely theoretical allegiance."},
+        ],
+    },
+]
+
+GLOSSARY_TERMS = [
+    {"term": "Abduction", "definition": "Inference to the best explanation: reasoning from observed facts toward the explanation that would make them most intelligible.", "branch": "Epistemology", "paths": ["/epistemology/abduction-utility-and-issues/"], "tags": ["inference", "explanation"]},
+    {"term": "Adequate evidence", "definition": "Support strong enough for the claim being made, given the stakes, alternatives, error costs, and available methods of checking.", "branch": "Epistemology", "paths": ["/epistemology/adequate-evidence/"], "tags": ["evidence", "justification"]},
+    {"term": "Belief", "definition": "An action-guiding commitment or confidence state that may be binary in ordinary speech but often needs to be graded in careful reasoning.", "branch": "Epistemology", "paths": ["/epistemology/what-is-belief/"], "tags": ["belief", "credence"]},
+    {"term": "Credence", "definition": "A degree of confidence rather than a simple yes-or-no belief; useful when evidence supports partial confidence.", "branch": "Epistemology", "paths": ["/epistemology/case-1-credence-complexity/", "/epistemology/what-is-belief/"], "tags": ["belief", "probability"]},
+    {"term": "Correspondence", "definition": "The idea that truth depends on how claims relate to reality, not merely on usefulness, coherence, or social endorsement.", "branch": "Philosophical Inquiry", "paths": ["/philosophical-inquiry/what-is-truth/"], "tags": ["truth", "reality"]},
+    {"term": "Equivocation", "definition": "A reasoning failure in which the same word shifts meaning across an argument while pretending to remain stable.", "branch": "Philosophy of Language", "paths": ["/ethics/equivocation-on-wrong/", "/philosophy-of-language/what-is-etymology/"], "tags": ["language", "fallacies"]},
+    {"term": "Induction", "definition": "Reasoning from observed patterns toward broader expectations, always carrying the question of how far the pattern may responsibly travel.", "branch": "Philosophy of Science", "paths": ["/epistemology/induction-utility-and-issues/", "/philosophy-of-science/is-logic-acquired-inductively/"], "tags": ["induction", "science"]},
+    {"term": "Moral realism", "definition": "The view that at least some moral claims are true independently of individual preference or social approval.", "branch": "Ethics", "paths": ["/ethics/fictional-meta-ethics-debate/", "/ethics/recommendations-vs-moral-claims/"], "tags": ["meta-ethics", "moral-realism"]},
+    {"term": "Moral non-realism", "definition": "A family of views denying that moral claims describe objective moral facts in the realist sense, while still allowing moral language to do important work.", "branch": "Ethics", "paths": ["/ethics/fictional-meta-ethics-debate/", "/ethics/recommendations-vs-moral-claims/"], "tags": ["meta-ethics", "moral-non-realism"]},
+    {"term": "Normativity", "definition": "The force of should, ought, reason, permission, or obligation; the dimension of a claim that purports to guide action or evaluation.", "branch": "Ethics", "paths": ["/ethics/recommendations-vs-moral-claims/", "/ethics/equivocation-on-wrong/"], "tags": ["ethics", "normativity"]},
+    {"term": "Operational rigor", "definition": "The habit of translating high-minded standards into visible practices: checks, thresholds, tests, objections, and revision procedures.", "branch": "Epistemology", "paths": ["/epistemology/operational-epistemic-rigor/"], "tags": ["epistemology", "method"]},
+    {"term": "Prompting", "definition": "Question design for human-machine dialogue; at its best, a way of shaping the epistemic pressure under which an answer is produced.", "branch": "Philosophy of AI", "paths": ["/philosophy-of-ai/precision-prompting/", "/philosophy-of-ai/assessing-ai-alignment-with-truth/"], "tags": ["ai", "prompting"]},
+    {"term": "Scientism", "definition": "The overextension of scientific authority into domains where empirical method may inform inquiry without exhausting it.", "branch": "Philosophy of Science", "paths": ["/philosophy-of-science/scientism-faith/", "/philosophy-of-science/what-is-science/"], "tags": ["science", "method"]},
+    {"term": "Steel-manning", "definition": "Reconstructing an opponent's position in its strongest plausible form before criticizing it.", "branch": "Philosophical Inquiry", "paths": ["/philosophical-inquiry/charitable-engagement/"], "tags": ["charitable-engagement", "argument"]},
+    {"term": "Worldview", "definition": "A broad interpretive frame that organizes what a person treats as real, valuable, knowable, and worth doing.", "branch": "Philosophical Inquiry", "paths": ["/philosophical-inquiry/do-i-need-a-worldview/"], "tags": ["worldviews", "inquiry"]},
 ]
 
 
@@ -661,6 +742,47 @@ PHILOSOPHER_PROFILES = {
         "begin": "Begin with dependence: if everything is what it is through relations, what exactly were we calling its essence?",
     },
 }
+
+PHILOSOPHER_SOURCE_WORKS = {
+    "Anselm of Canterbury": "Proslogion",
+    "Aristotle": "Nicomachean Ethics, Metaphysics, and the logical works",
+    "Augustine of Hippo": "Confessions and On Free Choice of the Will",
+    "Averroes": "Long Commentary on Aristotle and The Decisive Treatise",
+    "Avicenna": "The Book of Healing and The Canon's philosophical psychology",
+    "Confucius": "Analects",
+    "David Hume": "A Treatise of Human Nature and An Enquiry Concerning Human Understanding",
+    "Daniel Dennett": "Consciousness Explained, Darwin's Dangerous Idea, and Elbow Room",
+    "Epictetus": "Discourses and Enchiridion",
+    "G.W.F. Hegel": "Phenomenology of Spirit and Science of Logic",
+    "Georg Wilhelm Friedrich Hegel": "Phenomenology of Spirit and Science of Logic",
+    "Herbert Marcuse": "One-Dimensional Man and Eros and Civilization",
+    "Friedrich Nietzsche": "Beyond Good and Evil, Genealogy of Morals, and Thus Spoke Zarathustra",
+    "Gottlob Frege": "Begriffsschrift and On Sense and Reference",
+    "Heraclitus": "the surviving fragments",
+    "Immanuel Kant": "Critique of Pure Reason and Groundwork of the Metaphysics of Morals",
+    "Jean-Paul Sartre": "Being and Nothingness and Existentialism Is a Humanism",
+    "Jean-Jacques Rousseau": "Discourse on Inequality and The Social Contract",
+    "John Rawls": "A Theory of Justice and Political Liberalism",
+    "John Stuart Mill": "On Liberty and Utilitarianism",
+    "Laozi": "Daodejing",
+    "Ludwig Wittgenstein": "Tractatus Logico-Philosophicus and Philosophical Investigations",
+    "Marcus Aurelius": "Meditations",
+    "Mary Wollstonecraft": "A Vindication of the Rights of Woman",
+    "Nagarjuna": "Mulamadhyamakakarika",
+    "Niccolo Machiavelli": "The Prince and Discourses on Livy",
+    "Parmenides": "the poem On Nature",
+    "Plato": "Apology, Republic, Meno, and later dialogues",
+    "Plotinus": "Enneads",
+    "Rene Descartes": "Meditations on First Philosophy and Discourse on Method",
+    "René Descartes": "Meditations on First Philosophy and Discourse on Method",
+    "Simone de Beauvoir": "The Second Sex and The Ethics of Ambiguity",
+    "Søren Kierkegaard": "Fear and Trembling and Concluding Unscientific Postscript",
+    "Socrates": "Plato's Apology and early dialogues",
+    "Aquinas": "Summa Theologiae and Summa Contra Gentiles",
+    "Thomas Aquinas": "Summa Theologiae and Summa Contra Gentiles",
+    "William of Ockham": "Summa Logicae and Ordinatio",
+    "Zhuangzi": "Zhuangzi",
+}
 FEATURED_PATHS_BY_TITLE = {
     spec["title"].lower(): (spec["section_id"], spec["path"]) for spec in FEATURED_PAGE_SPECS
 }
@@ -952,6 +1074,16 @@ UNAVAILABLE_ASSET_REFERENCE_PATTERNS = (
     r"\bfigure above\b",
 )
 PROMPT_STARTERS = (
+    "analyze",
+    "argue",
+    "assess",
+    "compare",
+    "contrast",
+    "describe",
+    "discuss",
+    "evaluate",
+    "give",
+    "offer",
     "provide",
     "produce",
     "list",
@@ -1803,6 +1935,9 @@ def is_source_artifact_label(text: str) -> bool:
     artifact_patterns = [
         r"\b(chatgpt|claude|sonnet|gpt-?\d?|ai model|language model)\b",
         r"\b(sluggish|stepped in|model response|assistant response)\b",
+        r"\b(the earlier formulation|the prior formulation|the following|for a final confirmation)\b",
+        r"\b(content of this graphic|describe the content|final confirmation)\b",
+        r"^in discussion on\b",
         r"^\*\s*",
     ]
     return any(re.search(pattern, lowered, flags=re.IGNORECASE) for pattern in artifact_patterns)
@@ -1829,7 +1964,7 @@ def source_label_is_heading_worthy(label: str) -> bool:
         return False
     if is_source_artifact_label(cleaned):
         return False
-    if looks_like_prompt(cleaned) or is_low_value_prompt(cleaned):
+    if looks_like_prompt(cleaned) or command_like_key(cleaned) or is_low_value_prompt(cleaned):
         return False
     if re.search(r"\b(you|your)\s+response\b", lowered):
         return False
@@ -1837,7 +1972,7 @@ def source_label_is_heading_worthy(label: str) -> bool:
         return False
     if re.search(r"\b(please|try)\s+again\b", lowered):
         return False
-    if lowered.startswith(("provide ", "create ", "list ", "produce ", "write ", "explain ", "what ", "how ", "why ")):
+    if lowered.startswith(("provide ", "create ", "list ", "produce ", "write ", "explain ", "describe ", "assess ", "evaluate ", "compare ", "what ", "how ", "why ")):
         return False
     if len(cleaned.split()) > 12:
         return False
@@ -2024,6 +2159,17 @@ def article_native_heading(subject: str, prompt: str, topic: str) -> str:
     if len(key) > 70 or key.lower().startswith(("a short dialogue", "a dialogue", "a spirited dialogue", "a clear dialogue")):
         key = topic
     lowered = key.lower()
+
+    if "strongest objection" in lowered or "best objection" in lowered:
+        return "The strongest objection tests the view under pressure."
+    if "entry point" in lowered:
+        return "The entry point should open the argument, not replace it."
+    if lowered == "historical setting":
+        return "Historical setting shows what problem the view inherited."
+    if lowered == "signature contribution":
+        return "The signature contribution is the move later readers must answer."
+    if lowered == "influence trail":
+        return "Influence is where the argument keeps mutating."
 
     if focus == "dialogue":
         return f"Dialogue clarifies {key}."
@@ -2215,13 +2361,12 @@ def philosopher_expansion_paragraph(page: dict, prompt: str) -> str:
     profile = philosopher_profile_for_title(page["title"])
     if profile:
         return (
-            f"The expansion work here is to keep {topic} historically located and philosophically alive at the same time. "
-            f"Read the view against {profile['period']}, then ask how its method still changes the questions later readers inherit. "
-            f"That method is worth naming directly: {philosopher_method_sentence(profile)} "
-            "The page should eventually add more primary-source texture where it can do so responsibly, because a philosopher's phrasing is often part of the argument, not merely antique wallpaper."
+            f"Read {topic} inside {profile['period']}, then ask what the method still forces later readers to notice. "
+            f"{philosopher_method_sentence(profile)} "
+            "The voice matters because the phrasing is often part of the philosophy: the reader should hear a way of thinking, not only collect a list of theses."
         )
     return (
-        f"The expansion work here is to keep {topic} from becoming a nameplate. "
+        f"The task is to keep {topic} from becoming a nameplate. "
         "A strong philosopher page needs historical setting, method, a real objection, influence, and at least one moment where the reader can feel the thinker pushing back."
     )
 
@@ -3067,22 +3212,22 @@ def synthetic_philosopher_prompt_details(title: str) -> list[dict]:
                 "For an intermediate reader, the issue is not whether the system can be made invulnerable. The issue is whether the view still clarifies something important after its vulnerability is honestly named.",
             ],
             "items": [
-                f"Best objection: {profile['pressure']}",
-                f"Charitable reply: The view can still matter if it clarifies a recurring philosophical problem without pretending to settle every later dispute.",
-                f"Contemporary test: Ask whether the central insight survives translation into current debates without losing its original force.",
+                f"Strongest objection: {profile['pressure']}",
+                f"Charitable reply: {profile['signature']} can still sharpen judgment even where the objection remains live.",
+                f"Contemporary test: Ask whether the central method still clarifies {profile['legacy']} without becoming a slogan.",
             ],
             "children": [
-                synthetic_child("Best objection", [profile["pressure"]]),
+                synthetic_child("Strongest objection", [profile["pressure"]]),
                 synthetic_child(
                     "Charitable reply",
                     [
-                        f"The charitable reply is that {base}'s value does not require total victory. It requires a durable insight, method, or distinction that still improves judgment."
+                        f"The charitable reply is not that {base} wins every dispute. It is that {profile['signature']} still gives the reader a better instrument for judgment."
                     ],
                 ),
                 synthetic_child(
                     "Contemporary test",
                     [
-                        "The modern reader should ask whether the view still explains something that rival positions tend to blur."
+                        f"The modern test is whether the view still clarifies {profile['legacy']} without being stretched into a universal answer."
                     ],
                 ),
             ],
@@ -3099,7 +3244,7 @@ def synthetic_philosopher_prompt_details(title: str) -> list[dict]:
                 f"Avoid the shortcut: Do not reduce {base} to one slogan, however conveniently quotable the slogan may be.",
             ],
             "children": [
-                synthetic_child("Best entry point", [profile["begin"]]),
+                synthetic_child("Entry point", [profile["begin"]]),
                 synthetic_child(
                     "What to watch",
                     [
@@ -3107,9 +3252,9 @@ def synthetic_philosopher_prompt_details(title: str) -> list[dict]:
                     ],
                 ),
                 synthetic_child(
-                    "Gap-filling work",
+                    "Primary-source texture",
                     [
-                        "Later hand-curation should add one carefully chosen primary-source fragment, one historically specific pressure, and one modern objection so the page feels like an encounter rather than a dossier."
+                        "The page becomes stronger when at least one primary-source fragment, historical pressure, and modern objection let the reader feel the argument in motion."
                     ],
                 ),
                 synthetic_child(
@@ -3183,14 +3328,60 @@ def tag_candidates(page: dict, section_meta: dict) -> list[str]:
 
 def discovery_tag_candidates(page: dict, section_meta: dict) -> list[str]:
     """A compact, human-curated tag set for landing-page discovery."""
-    tags = list(section_meta["futureTags"])
+    tags: list[str] = [page["section_id"]]
+    if page.get("kind") == "dialogue":
+        tags.append("dialogue")
+    elif page.get("kind") == "chart":
+        tags.append("comparison")
+    elif page.get("kind") == "cluster":
+        tags.append("branch-map")
+    elif clean_text(page.get("title", "")).lower().startswith(("what is ", "what are ")):
+        tags.append("primer")
+
+    topic_blob = normalized_phrase(
+        " ".join(
+            [
+                page.get("title", ""),
+                " ".join(page.get("source_prompts", [])[:4]),
+                " ".join(page.get("thread_like", [])[:6]),
+            ]
+        )
+    )
+    for tag in section_meta["futureTags"]:
+        normalized_tag = normalized_phrase(tag)
+        if normalized_tag and re.search(rf"\b{re.escape(normalized_tag)}\b", topic_blob):
+            tags.append(tag)
+
     page_tags = tag_candidates(page, section_meta)
     for tag in page_tags:
         if tag in section_meta["futureTags"]:
             continue
-        if "-" in tag and not re.match(r"^\d", tag):
+        if not re.match(r"^\d", tag) and is_discovery_safe_tag(tag):
             tags.append(tag)
     return dedupe(tags)[:7]
+
+
+def is_discovery_safe_tag(tag: str) -> bool:
+    normalized = clean_text(tag).lower()
+    if len(normalized) < 3 or re.match(r"^\d", normalized):
+        return False
+    return normalized not in {
+        "what",
+        "when",
+        "where",
+        "whence",
+        "with",
+        "from",
+        "that",
+        "this",
+        "into",
+        "core",
+        "case",
+        "study",
+        "red",
+        "blue",
+        "grey",
+    }
 
 
 def generic_standfirst(page: dict, section_meta: dict) -> str:
@@ -3464,7 +3655,7 @@ def command_like_key(text: str) -> bool:
     lowered = clean_text(text).lower()
     return bool(
         re.match(
-            r"^(clarify|identify|highlight|show|imagine|create|provide|explain|list|produce|write|generate|present|using|line hypothetical)\b",
+            r"^(analyze|argue|assess|clarify|compare|contrast|describe|discuss|evaluate|give|identify|highlight|offer|show|imagine|create|provide|explain|list|produce|write|generate|present|using|line hypothetical)\b",
             lowered,
         )
         or "the central pressure" in lowered
@@ -3524,13 +3715,15 @@ def semantic_hook_items(page: dict, prompt: str = "", detail: dict | None = None
             hook = label if label else compact_text(hook, 70).rstrip(".")
         if hook.endswith(","):
             continue
+        if hook and hook[0].islower():
+            hook = hook[:1].upper() + hook[1:]
         cleaned_hooks.append(hook)
 
     if not cleaned_hooks:
         cleaned_hooks = [
-            f"{topic} as a claim about use",
-            f"{topic} under objection",
-            f"{topic} in a borderline case",
+            f"what {topic} is being used to explain",
+            "the objection that would change the answer",
+            "a borderline case where the idea strains",
         ]
     return dedupe(cleaned_hooks)[:5]
 
@@ -3544,12 +3737,12 @@ def semantic_map_paragraph(page: dict, prompt: str = "", detail: dict | None = N
     hooks = semantic_hook_items(page, prompt, detail)
     if len(hooks) >= 3:
         return (
-            f"The reader needs concrete handles: {serial_join(hooks[:3])}. "
-            f"Those hooks make {topic} teachable because they show what must be separated, compared, or tested before the page can do real work."
+            f"The usable checkpoints are {serial_join(hooks[:3])}. "
+            f"Read them as a sequence: what is being claimed, what would test it, and what changes in judgment if the distinction holds."
         )
     return (
-        f"The reader needs at least one concrete handle on {topic}: {hooks[0]}. "
-        "Without that handle, the prose may sound elevated while leaving the reader with nothing to use."
+        f"The first usable checkpoint is {hooks[0]}. "
+        f"Without that checkpoint, {topic} can sound important while still leaving the reader unsure what to do with it."
     )
 
 
@@ -3713,22 +3906,43 @@ def prompt_response_paragraphs(page: dict, prompt: str, index: int, detail: dict
             if re.match(r"^(are|can|could|did|do|does|how|is|should|what|when|where|why)\b", topic, re.IGNORECASE):
                 return "The opening pressure is to make this question clear enough to survive disagreement."
             return f"The opening pressure is to make {topic} clear enough to survive disagreement."
-        return f"The pressure point is {key_text}: this is where {topic} has to become clear enough to survive disagreement."
+        readable_key = key_text[:1].upper() + key_text[1:] if key_text else "The central issue"
+        return f"The pressure point is {readable_key}: this is where {topic} has to become clear enough to survive disagreement."
 
     if detail and (labels or claim):
         paragraphs = []
         if labels:
             clean_labels = [clean_text(label).strip(" .:") for label in labels[:3]]
             roles = [f"{label} as {label_role(label)}" for label in clean_labels]
-            if all(label_role(label) == "a load-bearing piece" for label in clean_labels):
+            if page["section_id"] == "philosophers":
+                if any("objection" in label.lower() for label in clean_labels):
+                    paragraphs.append(
+                        f"This response stages the view under pressure: {clean_labels[0]} names the cost, "
+                        f"{clean_labels[1] if len(clean_labels) > 1 else 'the reply'} asks what survives, "
+                        f"and {clean_labels[2] if len(clean_labels) > 2 else 'the contemporary test'} brings the issue back into present use."
+                    )
+                elif any("entry point" in label.lower() for label in clean_labels):
+                    paragraphs.append(
+                        f"This response gives the reader a route in: {clean_labels[0]} supplies the first foothold, "
+                        f"{clean_labels[1] if len(clean_labels) > 1 else 'method'} shows what to watch, "
+                        f"and {clean_labels[2] if len(clean_labels) > 2 else 'the next step'} keeps the page from ending as a slogan."
+                    )
+                else:
+                    paragraphs.append(
+                        f"Read the section as a small map: {serial_join(clean_labels)} should show the philosopher as a living argument, "
+                        "not as a nameplate with impressive dust."
+                    )
+            elif all(label_role(label) == "a load-bearing piece" for label in clean_labels):
+                count_word = {1: "one", 2: "two", 3: "three"}.get(len(clean_labels), str(len(clean_labels)))
+                noun = "checkpoint" if len(clean_labels) == 1 else "checkpoints"
                 paragraphs.append(
-                    f"The section separates {len(clean_labels)} load-bearing pieces: {serial_join(clean_labels)}. "
-                    "That order matters because readers learn the topic only when its parts are kept in relation rather than pressed into one slogan."
+                    f"The section gives the reader {count_word} usable {noun}: {serial_join(clean_labels)}. "
+                    "The point is to say what each checkpoint contributes and what would become confused if it were skipped."
                 )
             else:
                 paragraphs.append(
-                    f"The section works by separating {serial_join(roles)}. "
-                    "That order matters because readers learn the topic only when its parts are kept in relation rather than pressed into one slogan."
+                    f"The section sets up a working contrast among {serial_join(roles)}. "
+                    "The reader should be able to say why each part is present and how the argument would weaken if the parts were merged."
                 )
         else:
             key = short_prompt_key(prompt, topic)
@@ -3743,13 +3957,19 @@ def prompt_response_paragraphs(page: dict, prompt: str, index: int, detail: dict
         if len(labels) >= 2:
             first_label = clean_text(labels[0]).strip(" .:")
             second_label = clean_text(labels[1]).strip(" .:")
-            paragraphs.append(
-                f"The important discipline is to keep {first_label} distinct from {second_label}. "
-                f"Each does different work, and merging them would make the page easier to summarize but less useful for judgment."
-            )
+            if page["section_id"] == "philosophers":
+                paragraphs.append(
+                    f"Keep {first_label} distinct from {second_label}: the first and second moves do different philosophical work, "
+                    "and the page becomes thinner when they are flattened into one tidy summary."
+                )
+            else:
+                paragraphs.append(
+                    f"The important discipline is to keep {first_label} distinct from {second_label}. "
+                    f"Each does different work, and merging them would make the page easier to summarize but less useful for judgment."
+                )
         else:
             paragraphs.append(
-                f"{semantic_map_paragraph(page, prompt, detail)} The point is not to close the issue by slogan; it is to give the reader handles that can survive objection."
+                f"{semantic_map_paragraph(page, prompt, detail)} The section succeeds when those checkpoints can survive a serious objection."
             )
         return paragraphs[:3]
 
@@ -3840,6 +4060,27 @@ def usable_thread_items(items: Iterable[str]) -> list[str]:
 def source_detail_list_items(detail: dict | None, page: dict) -> list[str]:
     if not detail:
         return []
+
+    if page["section_id"] == "philosophers" and detail.get("items"):
+        philosopher_items: list[str] = []
+        for raw_item in detail.get("items", []):
+            if looks_like_prompt(raw_item) or is_low_value_prompt(raw_item):
+                continue
+            label, body = split_label(raw_item)
+            label = rewrite_unavailable_asset_references(label)
+            label = display_label(label)
+            if label and is_source_artifact_label(label):
+                continue
+            if label and body:
+                sentence = rewrite_source_sentence(body)
+                if not source_sentence_is_incomplete(sentence):
+                    philosopher_items.append(f"{label}: {sentence}")
+            else:
+                sentence = rewrite_source_sentence(raw_item)
+                if not source_sentence_is_incomplete(sentence):
+                    philosopher_items.append(sentence)
+        if philosopher_items:
+            return dedupe(philosopher_items)[:6]
 
     items: list[str] = []
     children = detail.get("children", [])
@@ -4306,8 +4547,33 @@ def pedagogical_checkpoints(page: dict, prompt: str, detail: dict | None) -> lis
     topic = topic_label(page["title"])
     focus = prompt_focus(prompt)
     hooks = semantic_hook_items(page, prompt, detail)
+    if page["section_id"] == "philosophers":
+        prompt_lower = clean_text(prompt).lower()
+        if "strongest objection" in prompt_lower:
+            return [
+                "Reader check: Name the strongest objection, then say what still survives it.",
+                "Do not let admiration do the work: the philosopher becomes clearer when the objection is allowed to land.",
+                "Carry it forward: Ask where the same pressure reappears in later debates.",
+            ]
+        if "begin" in prompt_lower or "contemporary reader" in prompt_lower:
+            return [
+                "Reader check: Start with the entry point, then trace one method or concept outward.",
+                "Avoid the shortcut: a philosopher is not learned by memorizing the most quotable slogan.",
+                "Carry it forward: Follow the influence trail to the neighboring pages where the question mutates.",
+            ]
+        if "concept" in prompt_lower or "method" in prompt_lower or "question" in prompt_lower:
+            return [
+                f"Reader check: Use one of {topic}'s concepts to sort a real case.",
+                "Look for dependencies: concepts teach only when the reader sees what supports what.",
+                "Test the pressure: Ask which distinction would fail first under criticism.",
+            ]
+        return [
+            f"Reader check: Say what {topic} makes harder to ignore.",
+            "Keep the historical setting nearby; it explains why the question had teeth.",
+            "Test the pressure: Ask what a careful critic would object to before deciding whether the answer has succeeded.",
+        ]
     checks = [
-        f"Track the hooks: Keep {serial_join(hooks[:3])} in view while reading this section.",
+        f"Reader check: By the end, explain how {serial_join(hooks[:3])} changes the question rather than merely naming it.",
         "Test the pressure: Ask what a careful critic would object to before deciding whether the answer has succeeded.",
     ]
     if detail and detail.get("tables"):
@@ -5090,6 +5356,8 @@ def compose_sections(page: dict) -> list[dict]:
         ]
 
     if page["kind"] == "cluster":
+        entry_titles = child_titles[:3]
+        entry_text = serial_join(entry_titles) if entry_titles else "the most concrete child pages first"
         return [
             {
                 "id": "orientation",
@@ -5098,6 +5366,7 @@ def compose_sections(page: dict) -> list[dict]:
                 "paragraphs": [
                     f"This cluster belongs in {section_meta['name']} because it repeatedly returns to {profile['lens']}.",
                     profile["stakes"],
+                    f"The connective question is not merely “what belongs under {topic}?” but “what becomes clearer when these pages are read as a family rather than as isolated posts?”",
                 ],
             },
             {
@@ -5106,7 +5375,7 @@ def compose_sections(page: dict) -> list[dict]:
                 "heading": f"The internal structure of {topic} is part of the argument.",
                 "paragraphs": [
                     f"This page is a hinge rather than a stopping point. Its nested paths let the reader move from the broad concern to the specific cases where the concern becomes visible.",
-                    f"Inside this branch, the most immediate next paths include {child_text or 'several more focused threads that deserve their own pages'}.",
+                    f"Inside this branch, the most immediate next paths include {child_text or 'several more focused threads that deserve their own pages'}. Read the cluster from broad orientation toward pressure points: the child pages should not simply multiply names; they should make the shared problem sharper.",
                 ],
                 "list_items": child_titles[:6] or threads[:6],
             },
@@ -5117,6 +5386,7 @@ def compose_sections(page: dict) -> list[dict]:
                 "paragraphs": [
                     profile["pressure"],
                     f"The point of preserving the cluster is not to make it look settled. It is to keep the reader oriented while the sub-pages do their sharper work.",
+                    f"A strong expansion of this cluster would add short bridge notes between neighboring pages, so a reader can see why {entry_text} belong in the same conversation without needing a secret map and a miner's helmet.",
                 ],
             },
             {
@@ -5125,6 +5395,7 @@ def compose_sections(page: dict) -> list[dict]:
                 "heading": f"{topic} becomes manageable when the reader knows what to test first.",
                 "paragraphs": [
                     profile["route"],
+                    "The best first question is simple: which distinction does this cluster protect from being flattened? Once that is clear, the child pages become variations on a live problem rather than a decorative shelf of related titles.",
                 ],
             },
         ]
@@ -5653,12 +5924,21 @@ def quiz_focus_phrase(term: str) -> str:
         or lowered.startswith(("if ", "when ", "while ", "because ", "whether ", "which ", "what ", "how ", "why "))
         or re.search(r"\b(used the phrase|refers to|means that|is the|are the)\b", lowered)
     ):
-        return "a concrete example"
+        return "the central test case"
     return cleaned
 
 
 def quiz_word_count(text: str) -> int:
-    return len(re.findall(r"\b[\w'-]+\b", clean_text(text)))
+    return len(clean_text(text).split())
+
+
+def extend_quiz_option(text: str, addition: str) -> str:
+    cleaned = clean_text(text).rstrip(" .;:")
+    addition = clean_text(addition).strip()
+    if not addition:
+        return cleaned
+    addition = addition[0].upper() + addition[1:]
+    return clean_text(f"{cleaned}. {addition}")
 
 
 def quiz_decoy_extension(ctx: dict, index: int) -> str:
@@ -5667,12 +5947,26 @@ def quiz_decoy_extension(ctx: dict, index: int) -> str:
     first = terms[0] if terms else topic
     second = terms[1] if len(terms) > 1 else ctx["branch"]
     extensions = [
-        f" while leaving the page's contrast between {first} and {second} too blurry.",
-        f" by treating {topic} mainly as a familiar label rather than a problem to interpret.",
-        f" and it turns the page's pressure point into a simpler issue than the argument allows.",
-        f" while skipping the harder question of how the page's distinctions guide judgment.",
-        f" by making the answer sound tidy before the relevant tension has been faced.",
-        f" and it would fit a quick summary better than a careful reading of the page.",
+        f"It leaves the page's contrast between {first} and {second} too blurry.",
+        f"It treats {topic} mainly as a familiar label rather than a problem to interpret.",
+        "It turns the page's pressure point into a simpler issue than the argument allows.",
+        "It skips the harder question of how the page's distinctions guide judgment.",
+        "It makes the answer sound tidy before the relevant tension has been faced.",
+        "It would fit a quick summary better than a careful reading of the page.",
+    ]
+    return extensions[index % len(extensions)]
+
+
+def quiz_correct_extension(ctx: dict, index: int) -> str:
+    topic = ctx["topic"]
+    terms = [quiz_focus_phrase(term) for term in ctx["terms"] if quiz_focus_phrase(term) != "a concrete example"]
+    first = terms[0] if terms else topic
+    extensions = [
+        "That keeps the page from becoming a slogan.",
+        "That keeps the main objection in view.",
+        "That uses the distinction to guide judgment.",
+        f"That avoids treating {topic} as already obvious.",
+        f"That keeps {first} tied to the larger argument.",
     ]
     return extensions[index % len(extensions)]
 
@@ -5700,31 +5994,57 @@ def balance_quiz_item_options(item: dict, ctx: dict) -> dict:
     correct_index = correct_indexes[0]
     options[correct_index]["text"] = compact_quiz_answer(options[correct_index].get("text", ""))
     correct_words = quiz_word_count(options[correct_index]["text"])
-    target_words = max(12, min(28, correct_words - 1 if correct_words > 13 else correct_words))
+    if correct_words < 10:
+        options[correct_index]["text"] = extend_quiz_option(
+            options[correct_index]["text"],
+            quiz_correct_extension(ctx, correct_index),
+        )
+        correct_words = quiz_word_count(options[correct_index]["text"])
 
     for index, option in enumerate(options):
         if option.get("correct"):
             continue
         text = clean_text(option.get("text", ""))
         attempts = 0
-        while quiz_word_count(text) < target_words and attempts < 3:
-            text = f"{text.rstrip(' .;:')}{quiz_decoy_extension(ctx, index + attempts)}"
+        while quiz_word_count(text) < max(10, correct_words - 2) and attempts < 2:
+            text = extend_quiz_option(text, quiz_decoy_extension(ctx, index + attempts))
             attempts += 1
         option["text"] = clean_text(text)
 
     lengths = [quiz_word_count(option.get("text", "")) for option in options]
     correct_words = lengths[correct_index]
-    if correct_words == max(lengths) and lengths.count(correct_words) == 1:
+    wrong_lengths = [
+        lengths[index] for index, option in enumerate(options)
+        if not option.get("correct")
+    ]
+    if (
+        correct_words == min(lengths)
+        and lengths.count(correct_words) == 1
+        and wrong_lengths
+        and min(wrong_lengths) - correct_words >= 2
+    ):
+        options[correct_index]["text"] = extend_quiz_option(
+            options[correct_index]["text"],
+            quiz_correct_extension(ctx, correct_index + 1),
+        )
+        lengths = [quiz_word_count(option.get("text", "")) for option in options]
+        correct_words = lengths[correct_index]
+
+    attempts = 0
+    while correct_words == max(lengths) and lengths.count(correct_words) == 1 and attempts < 3:
         shortest_wrong = min(
             (index for index, option in enumerate(options) if not option.get("correct")),
-            key=lambda index: lengths[index],
+            key=lambda index: quiz_word_count(options[index].get("text", "")),
             default=None,
         )
-        if shortest_wrong is not None:
-            text = options[shortest_wrong]["text"]
-            options[shortest_wrong]["text"] = clean_text(
-                f"{text.rstrip(' .;:')}{quiz_decoy_extension(ctx, shortest_wrong + 4)}"
-            )
+        if shortest_wrong is None:
+            break
+        options[shortest_wrong]["text"] = extend_quiz_option(
+            options[shortest_wrong]["text"],
+            quiz_decoy_extension(ctx, shortest_wrong + attempts + 4),
+        )
+        lengths = [quiz_word_count(option.get("text", "")) for option in options]
+        attempts += 1
 
     balanced_item["options"] = options
     return balanced_item
@@ -5743,37 +6063,37 @@ def central_quiz_item(ctx: dict) -> dict:
     kind = ctx["kind"]
     if kind == "dialogue":
         correct = (
-            f"It shows how {topic}'s voice and method work, not just what the philosopher believed."
+            f"It shows {topic}'s voice and method in action, not just a list of beliefs."
         )
         question = f"What is this page mainly trying to help you understand?"
     elif kind == "chart":
         correct = (
-            f"It helps you see the main parts of {topic}, where they fit, and where they come under pressure."
+            f"It maps the main parts of {topic} and the pressures between them."
         )
         question = f"What is the main purpose of this chart page?"
     elif kind == "cluster":
         correct = (
-            f"It shows how the subtopics under {topic} fit together and why they belong in the same branch."
+            f"It shows how the subtopics under {topic} belong together."
         )
         question = f"What is the main purpose of this branch page?"
     elif kind == "danger":
         correct = (
-            f"It explains why {topic} can be tempting, what it can distort, and how a careful reader can resist it."
+            f"It shows why {topic} is tempting and where it distorts inquiry."
         )
         question = f"What is this page mainly warning the reader about?"
     else:
         correct = (
-            f"It explains what has to be kept clear about {topic} inside the wider {branch} discussion."
+            f"It clarifies what has to stay distinct about {topic}."
         )
         question = f"What is this page mainly trying to help you understand?"
 
     return {
         "question": question,
         "options": [
-            quiz_option(correct, True, f"Correct. The point is not just to recognize the word {topic}. The page is trying to make the reader more careful about how the idea works and what it is allowed to explain."),
-            quiz_option("It gives a quick definition, and once the term is familiar, the main work is done.", False, "Not quite. A definition can be useful, but this page is asking for more than vocabulary. It wants the reader to see the distinctions and tensions that make the topic philosophically important."),
-            quiz_option("It asks the reader to choose the strongest-sounding side and defend it as quickly as possible.", False, "Not quite. The page is not rewarding speed or confidence. It is training slower judgment: what should be separated, what should be connected, and what still needs evidence."),
-            quiz_option("It gathers interesting related ideas, but does not ask how those ideas fit together.", False, "Not quite. The archive is not just collecting associations. The useful work is seeing which ideas are central, which are secondary, and where confusion usually enters."),
+            quiz_option(correct, True, f"Correct. The page is not asking you merely to recognize {topic}. It is asking what the idea does, what it explains, and where it needs limits."),
+            quiz_option("It gives a quick definition, and once the term is familiar, the main work is done.", False, "Not quite. A definition can be useful, but this page is doing more than vocabulary work. It asks what distinctions make the idea usable."),
+            quiz_option("It asks the reader to choose the strongest-sounding side and defend it as quickly as possible.", False, "Not quite. Speed is not the virtue here. The page trains slower judgment about what should be separated, connected, or held open."),
+            quiz_option("It gathers interesting related ideas, but does not ask how those ideas fit together.", False, "Not quite. A pile of related ideas is not yet understanding. The useful work is seeing which ideas are central and where confusion enters."),
         ],
     }
 
@@ -5785,26 +6105,26 @@ def focus_quiz_item(ctx: dict) -> dict:
     if ctx["kind"] == "dialogue":
         question = f"Why does the philosopher's voice matter here?"
         correct = (
-            f"Because the style of questioning and answering shows how {topic}'s view actually works."
+            f"Because the style of exchange shows how {topic}'s view works."
         )
     elif ctx["kind"] == "chart":
         question = f"Why does the map format matter here?"
         correct = (
-            f"Because the map keeps the parts of {topic} visible together instead of turning the topic into a single label."
+            f"Because the map keeps {topic}'s parts visible together."
         )
     else:
         question = f"Why does the page spend time on {focus}?"
         correct = (
-            f"Because {focus} gives the reader a concrete way to see what is at stake in {topic}."
+            f"Because {focus} makes the stakes of {topic} concrete."
         )
 
     return {
         "question": question,
         "options": [
-            quiz_option(correct, True, "Correct. A good quiz answer should show why that part of the page is doing work. It is not just a heading or example; it helps the reader understand the larger issue."),
-            quiz_option(f"Because it is a side note that can be skipped once the reader knows the basic definition.", False, "Not quite. The page uses its details to teach the main idea. Skipping them would make the argument easier to summarize but harder to understand."),
-            quiz_option(f"Because the page needs a place to mention more terms even if they do not affect the argument.", False, "Not quite. Extra terms are not valuable by themselves. They matter only when they help the reader make a better distinction or avoid a real mistake."),
-            quiz_option(f"Because the page is mainly asking the reader to agree with its conclusion.", False, "Not quite. Agreement is not the main test. The better test is whether the reader can explain why the distinction matters and where it could be misused."),
+            quiz_option(correct, True, "Correct. This part of the page is doing work. It gives the reader something to use, not just a heading to remember."),
+            quiz_option(f"Because it is a side note that can be skipped once the reader knows the basic definition.", False, "Not quite. The details are not garnish. They are how the page teaches the main idea without flattening it."),
+            quiz_option(f"Because the page needs a place to mention more terms even if they do not affect the argument.", False, "Not quite. More terms do not help unless they sharpen a distinction, block a mistake, or clarify the pressure."),
+            quiz_option(f"Because the page is mainly asking the reader to agree with its conclusion.", False, "Not quite. Agreement is too cheap. The better test is whether you can explain why the distinction matters."),
         ],
     }
 
@@ -5812,15 +6132,26 @@ def focus_quiz_item(ctx: dict) -> dict:
 def distinction_quiz_item(ctx: dict) -> dict:
     topic = ctx["topic"]
     terms = ctx["terms"]
-    first = terms[0]
-    second = terms[1]
-    third = terms[2]
-    fourth = terms[3]
+    phrases = []
+    for term in terms:
+        phrase = quiz_focus_phrase(term)
+        if phrase not in phrases:
+            phrases.append(phrase)
+    fallback_phrases = [
+        f"the main claim about {topic}",
+        "the strongest objection",
+        "the practical example",
+        "the larger branch question",
+    ]
+    for phrase in fallback_phrases:
+        if phrase not in phrases:
+            phrases.append(phrase)
+    first, second, third, fourth = phrases[:4]
     return {
         "question": f"Which reading habit would help most with this page?",
         "options": [
-            quiz_option(f"Keep {first} and {second} separate at first, then ask how they relate.", True, "Correct. Many philosophical mistakes start by blending two nearby ideas too early. The safer habit is to separate them, compare them, and only then decide how they connect."),
-            quiz_option(f"Treat {first} as just another wording of {second}.", False, "Not quite. That may be true in some casual contexts, but the page is asking for more care. If two terms are doing different jobs, merging them will weaken the argument."),
+            quiz_option(f"Separate {first} from {second}, then ask how they relate.", True, "Correct. Many philosophical mistakes start by blending nearby ideas too early. Separate them first; then decide whether the connection is real."),
+            quiz_option(f"Treat {first} as just another wording of {second}.", False, "Not quite. That may work casually, but the page is asking for more care. If two terms do different jobs, merging them weakens the argument."),
             quiz_option(f"Replace {third} and {fourth} with a general impression of what sounds reasonable.", False, "Not quite. General impressions can be useful starting points, but they are not enough here. The page asks the reader to track the actual distinctions."),
             quiz_option(f"Assume every idea near {topic} means about the same thing once the topic feels familiar.", False, "Not quite. Familiarity can hide confusion. A reader can feel comfortable with a topic while still missing the structure that makes it important."),
         ],
@@ -5833,7 +6164,7 @@ def pressure_quiz_item(ctx: dict) -> dict:
     return {
         "question": f"What mistake is this page trying to prevent?",
         "options": [
-            quiz_option(f"Using {topic} as a shortcut instead of facing the harder question: {profile['pressure']}", True, "Correct. The page is trying to slow the reader down at the point where a quick answer would be tempting. The warning is that a familiar label can hide the real problem."),
+            quiz_option(f"Using {topic} as a shortcut instead of facing the harder question.", True, f"Correct. The harder question is this: {profile['pressure']} The quiz is testing whether you notice that pressure rather than retreating to the label."),
             quiz_option(f"Thinking the topic is too complex to discuss, so nothing useful can be said.", False, "Not quite. Complexity is not a reason to give up. It is a reason to use clearer distinctions and better examples."),
             quiz_option(f"Thinking the branch name already explains the page.", False, "Not quite. The branch name gives the page a home, but it does not explain the argument. The reader still has to see how the idea works."),
             quiz_option(f"Choosing the most comfortable interpretation and avoiding the parts that create tension.", False, "Not quite. The uncomfortable parts are often where the learning happens. This page is trying to keep those tensions visible."),
@@ -5847,7 +6178,7 @@ def intermediate_reader_quiz_item(ctx: dict) -> dict:
     return {
         "question": f"What would show real understanding of this page?",
         "options": [
-            quiz_option(f"The reader can state the main claim, name a serious difficulty, and explain why the page belongs in {branch}.", True, "Correct. That is a stronger standard than remembering a definition. It shows the reader understands the claim, the objection, and the larger setting."),
+            quiz_option(f"Stating the claim, naming a serious difficulty, and placing it inside {branch}.", True, "Correct. That is stronger than remembering a definition. It shows you understand the claim, the objection, and the larger setting."),
             quiz_option(f"The reader can quote the title and say whether they like the topic.", False, "Not quite. Personal reaction matters, but it is not enough. Understanding requires explaining what the page is doing and why the issue matters."),
             quiz_option("The reader can repeat a definition without explaining what problem the definition solves.", False, "Not quite. Definitions matter when they help us reason better. A repeated definition without a use is mostly verbal memory."),
             quiz_option(f"The reader can decide whether the page is persuasive before giving the argument a fair reconstruction.", False, "Not quite. Evaluation should come after charity. First make the view as clear and strong as the page allows; then judge it."),
@@ -5861,7 +6192,7 @@ def misconception_quiz_item(ctx: dict) -> dict:
     return {
         "question": f"Which response would miss the point of the page?",
         "options": [
-            quiz_option(f"Assuming {topic} is already clear because the familiar meaning of {term} feels obvious.", True, "Correct. This is the common shortcut the page is trying to resist. A familiar word can feel clear while still hiding the real philosophical issue."),
+            quiz_option(f"Assuming {topic} is clear because {term} already feels familiar.", True, "Correct. This is the shortcut the page resists. A familiar word can feel clear while still hiding the real philosophical issue."),
             quiz_option(f"Asking how the page's claim would change under a stronger objection.", False, "Not quite. That is usually a good move. Strong objections help reveal whether the argument has real strength or only surface appeal."),
             quiz_option(f"Connecting the page to nearby topics while still keeping the differences clear.", False, "Not quite. That is part of good reading. The archive depends on connection without careless merging."),
             quiz_option(f"Noticing when an attractive sentence needs a qualification.", False, "Not quite. Qualification is not a failure. It is often what keeps philosophical writing honest."),
@@ -5877,7 +6208,7 @@ def future_branch_quiz_item(ctx: dict) -> dict:
     return {
         "question": f"Why does this page point to other pages?",
         "options": [
-            quiz_option(f"Because {topic} leads naturally to nearby questions such as {neighbor_text}.", True, "Correct. A page is clearer when the reader can see what comes next. The links are not decoration; they show where the same problem continues or becomes more specific."),
+            quiz_option(f"Because nearby pages carry the same problem into related questions.", True, f"Correct. Here, useful next steps include {neighbor_text}. The links are not decoration; they show where the pressure continues."),
             quiz_option(f"Because every page should link elsewhere, even if the links do not add anything.", False, "Not quite. Links matter only when they help the reader think. Empty branching would make the archive busier but not wiser."),
             quiz_option(f"Because the archive structure is more important than the argument on the page.", False, "Not quite. The structure exists to support the argument. It should help the reader see relationships, not replace understanding."),
             quiz_option(f"Because future branches let the reader avoid deciding what this page itself claims.", False, "Not quite. A good branch does not postpone clarity. It gives the reader a way to carry clarity into the next question."),
@@ -5889,16 +6220,16 @@ def synthesis_quiz_item(ctx: dict) -> dict:
     topic = ctx["topic"]
     synthesis = ctx["synthesis_heading"]
     synthesis_paragraph = ctx["synthesis_paragraph"]
-    correct = (
-        f"The main lesson is that {topic} should change how the reader notices distinctions, tests claims, and carries the question into nearby problems."
+    correct = f"It should change how the reader notices distinctions and tests claims about {topic}."
+    feedback = (
+        "Correct. This treats the synthesis as a tool for further thinking, not just a closing paragraph."
     )
     if synthesis_paragraph:
-        correct = f"{correct} In the page's own terms, {synthesis_paragraph}"
-    correct = compact_text(correct, 330)
+        feedback = f"{feedback} In the page's own terms, {synthesis_paragraph}"
     return {
         "question": f"What is the main lesson to carry away?",
         "options": [
-            quiz_option(correct, True, f"Correct. This answer treats the synthesis as a guide for further thinking, not just a closing paragraph."),
+            quiz_option(correct, True, feedback),
             quiz_option(f"The synthesis mainly means the page has reached its ending.", False, "Not quite. A synthesis should gather what has been learned. It is not just a polite way to stop talking."),
             quiz_option(f"The page's main value is that it removes future disagreement about {topic}.", False, "Not quite. Philosophical work often makes disagreement sharper and more responsible. It rarely makes all disagreement disappear."),
             quiz_option(f"The best takeaway is the sentence that can be turned into the neatest slogan.", False, "Not quite. A slogan may be memorable, but understanding requires seeing the moving parts behind it."),
@@ -6098,6 +6429,59 @@ def serial_join_html(items: list[str]) -> str:
     return f"{', '.join(items[:-1])}, and {items[-1]}"
 
 
+def render_philosopher_source_texture_html(page: dict) -> str:
+    if page["section_id"] != "philosophers":
+        return ""
+    profile = philosopher_profile_for_title(page["title"])
+
+    philosopher = topic_label(page["title"])
+    base = philosopher_base_name(page["title"])
+    source_work = PHILOSOPHER_SOURCE_WORKS.get(base) or PHILOSOPHER_SOURCE_WORKS.get(philosopher) or "the primary texts, fragments, or source traditions associated with the thinker"
+    if profile:
+        method_sentence = philosopher_method_sentence(profile)
+        pressure = profile["pressure"]
+        concepts = profile["concepts"][:3]
+    else:
+        method_sentence = "Read for the thinker's distinctive motion: dialogue, system, aphorism, critique, analysis, or spiritual exercise."
+        pressure = "whether the reconstruction preserves the philosopher's own way of questioning rather than turning the figure into a tidy summary."
+        concepts = [
+            f"Historical pressure: What problem made {philosopher}'s work necessary?",
+            f"Method: How does {philosopher} argue, provoke, analyze, console, or unsettle?",
+            f"Influence: What later debates had to inherit, revise, or resist?",
+        ]
+    concept_items = "\n".join(
+        f"                <li>{render_inline_text(item)}</li>"
+        for item in [
+            f"Primary source to keep nearby: {source_work}.",
+            f"Method to listen for: {method_sentence}",
+            f"Pressure to preserve: {pressure}.",
+            *concepts,
+        ]
+    )
+    return textwrap.dedent(
+        f"""\
+            <section class="article-section article-section--source-texture" id="source-texture">
+              <div class="article-section__meta">
+                <p class="eyebrow">Source Texture</p>
+              </div>
+              <h2>{html.escape(philosopher)} should be read with the primary voice nearby.</h2>
+              <p>
+                This page treats the philosopher as a method of inquiry, not merely as a doctrine label.
+                The primary-source texture matters because style carries argument: aphorism, dialogue,
+                proof, confession, critique, and system-building each teach the reader differently.
+              </p>
+              <p>
+                Where exact quotations appear, they should sharpen the encounter rather than decorate it.
+                The guiding question is what a reader should listen for when moving from this page back
+                toward the source tradition.
+              </p>
+              <ol>
+{concept_items}
+              </ol>
+            </section>"""
+    )
+
+
 def render_article_page(page: dict) -> str:
     section_meta = SECTION_META[page["section_id"]]
     prompts = prompt_pack(page, section_meta)
@@ -6201,6 +6585,8 @@ def render_article_page(page: dict) -> str:
     future_paragraph = " ".join(future_parts)
     quiz_html = render_quiz_sections(page, sections, prompts, section_meta)
     quiz_block = f"\n\n{quiz_html}" if quiz_html else ""
+    philosopher_texture = render_philosopher_source_texture_html(page)
+    texture_block = f"\n\n{philosopher_texture}" if philosopher_texture else ""
     page_url = absolute_site_url(page["built_path"])
     article_json = {
         "@context": "https://schema.org",
@@ -6283,6 +6669,8 @@ def render_article_page(page: dict) -> str:
                   </section>
 
                   <div class="article-body">
+        {texture_block}
+
         {'\n\n'.join(body_parts)}{quiz_block}
 
                     <section class="article-section" id="future-branches">
@@ -6357,6 +6745,255 @@ def render_menu_structure_page() -> str:
                   <div class="structure-grid" data-section-grid></div>
                 </section>
               </main>
+            </div>
+          </body>
+        </html>
+        """
+    )
+
+
+def render_guided_route_cards(prefix: str = "") -> str:
+    cards = []
+    for route in GUIDED_READING_PATHS:
+        steps = "\n".join(
+            f"""\
+                <li>
+                  <a href="{html.escape(internal_article_href(prefix, step['path']))}">{html.escape(step['title'])}</a>
+                  <span>{html.escape(step['reason'])}</span>
+                </li>"""
+            for step in route["steps"]
+        )
+        cards.append(
+            textwrap.dedent(
+                f"""\
+                <article class="route-card" id="route-{html.escape(route['id'])}">
+                  <p class="eyebrow">{html.escape(route['audience'])}</p>
+                  <h3>{html.escape(route['title'])}</h3>
+                  <p>{html.escape(route['summary'])}</p>
+                  <ol class="route-steps">
+{steps}
+                  </ol>
+                </article>"""
+            )
+        )
+    return "\n".join(cards)
+
+
+def render_glossary_cards(prefix: str = "") -> str:
+    cards = []
+    for entry in sorted(GLOSSARY_TERMS, key=lambda item: item["term"].lower()):
+        links = "\n".join(
+            f'                    <a class="text-link" href="{html.escape(internal_article_href(prefix, path))}">{html.escape(path.strip("/").split("/")[-1].replace("-", " ").title())}</a>'
+            for path in entry["paths"]
+        )
+        tags = "".join(f'                    <span class="tag-chip">{html.escape(tag)}</span>' for tag in entry["tags"])
+        cards.append(
+            textwrap.dedent(
+                f"""\
+                <article class="glossary-card" id="term-{slugify(entry['term'])}">
+                  <p class="eyebrow">{html.escape(entry['branch'])}</p>
+                  <h3>{html.escape(entry['term'])}</h3>
+                  <p>{html.escape(entry['definition'])}</p>
+                  <div class="glossary-card__links">
+{links}
+                  </div>
+                  <div class="tag-row">
+{tags}
+                  </div>
+                </article>"""
+            )
+        )
+    return "\n".join(cards)
+
+
+def render_guided_reading_page() -> str:
+    guide_head = render_seo_head(
+        title="Guided Reading Paths",
+        description="Curated reading routes through Byteseismic for epistemology, metaethics, AI, philosopher dialogues, and introductory philosophy.",
+        path="/guided-reading/",
+        prefix="../",
+        page_type="website",
+        extra_json_ld=[breadcrumb_json_ld([("Home", "/"), ("Guided Reading Paths", "/guided-reading/")])],
+    )
+    return textwrap.dedent(
+        f"""\
+        {AUTO_MARKER}
+        <!DOCTYPE html>
+        <html lang="en">
+          <head>
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+{guide_head}
+          </head>
+          <body data-page-type="archive">
+            <div class="page-shell">
+              <header class="hero hero--article">
+                <img class="hero__image" src="../assets/images/byteseismic-large-header-x.5-b-8000-x-800-px.png" alt="Byteseismic banner" />
+                <div class="hero__content">
+                  <div class="breadcrumbs">
+                    <a href="../index.html">Home</a>
+                    <span>/</span>
+                    <span>Guided Reading Paths</span>
+                  </div>
+                  <p class="hero__kicker">Reading Routes</p>
+                  <h1>Guided Reading Paths</h1>
+                  <p class="article-standfirst">
+                    These routes turn the archive into a set of deliberate entrances. Each path gives the reader a sequence, a reason for the sequence, and a question to carry forward.
+                  </p>
+                </div>
+              </header>
+
+              <div class="article-layout article-layout--single">
+                <main class="article-stack">
+                  <section class="content-card">
+                    <p class="eyebrow">How to Use These</p>
+                    <h2>Choose a pressure, then follow it until it changes shape.</h2>
+                    <p>
+                      The archive is intentionally branching, but a reader should not have to enter it by guesswork. These paths are editorial routes through the most useful entry points.
+                    </p>
+                  </section>
+                  <section class="route-grid">
+{render_guided_route_cards("../")}
+                  </section>
+                </main>
+              </div>
+            </div>
+          </body>
+        </html>
+        """
+    )
+
+
+def render_glossary_page() -> str:
+    glossary_head = render_seo_head(
+        title="Concept Glossary",
+        description="A concept index for recurring Byteseismic terms including belief, credence, induction, moral realism, normativity, and operational rigor.",
+        path="/concept-glossary/",
+        prefix="../",
+        page_type="website",
+        extra_json_ld=[breadcrumb_json_ld([("Home", "/"), ("Concept Glossary", "/concept-glossary/")])],
+    )
+    return textwrap.dedent(
+        f"""\
+        {AUTO_MARKER}
+        <!DOCTYPE html>
+        <html lang="en">
+          <head>
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+{glossary_head}
+          </head>
+          <body data-page-type="archive">
+            <div class="page-shell">
+              <header class="hero hero--article">
+                <img class="hero__image" src="../assets/images/byteseismic-large-header-x.5-b-8000-x-800-px.png" alt="Byteseismic banner" />
+                <div class="hero__content">
+                  <div class="breadcrumbs">
+                    <a href="../index.html">Home</a>
+                    <span>/</span>
+                    <span>Concept Glossary</span>
+                  </div>
+                  <p class="hero__kicker">Concept Index</p>
+                  <h1>Concept Glossary</h1>
+                  <p class="article-standfirst">
+                    A compact index of recurring concepts, written as entry points rather than final authorities. Each term points back into pages where the concept does argumentative work.
+                  </p>
+                </div>
+              </header>
+
+              <div class="article-layout article-layout--single">
+                <main class="article-stack">
+                  <section class="glossary-grid">
+{render_glossary_cards("../")}
+                  </section>
+                </main>
+              </div>
+            </div>
+          </body>
+        </html>
+        """
+    )
+
+
+def render_branch_guide_page(section_id: str, pages: list[dict]) -> str:
+    meta = SECTION_META[section_id]
+    profile = branch_profile(section_id)
+    prefix = "../../"
+    section_pages = sorted(
+        [page for page in pages if page["section_id"] == section_id and page["built_path"] not in GROUP_PAGE_TITLES.values()],
+        key=lambda item: (item["kind"] != "cluster", item["title"].lower()),
+    )
+    entry_pages = section_pages[:18]
+    page_items = "\n".join(
+        f"""\
+                <li>
+                  <a href="{html.escape(internal_article_href(prefix, page['built_path']))}">{html.escape(page['title'])}</a>
+                  <span>{html.escape(feature_summary(page, meta))}</span>
+                </li>"""
+        for page in entry_pages
+    )
+    tension_items = "\n".join(f"                <li>{html.escape(item)}</li>" for item in profile["items"][:4])
+    branch_head = render_seo_head(
+        title=f"{meta['name']} Branch Guide",
+        description=f"A guided landing page for the {meta['name']} branch of Byteseismic.",
+        path=f"/branches/{section_id}/",
+        prefix=prefix,
+        page_type="website",
+        section=meta["name"],
+        extra_json_ld=[breadcrumb_json_ld([("Home", "/"), (f"{meta['name']} Branch Guide", f"/branches/{section_id}/")])],
+    )
+    return textwrap.dedent(
+        f"""\
+        {AUTO_MARKER}
+        <!DOCTYPE html>
+        <html lang="en">
+          <head>
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+{branch_head}
+          </head>
+          <body data-page-type="archive" data-current-section="{section_id}">
+            <div class="page-shell">
+              <header class="hero hero--article">
+                <img class="hero__image" src="../../assets/images/byteseismic-large-header-x.5-b-8000-x-800-px.png" alt="Byteseismic banner" />
+                <div class="hero__content">
+                  <div class="breadcrumbs">
+                    <a href="../../index.html">Home</a>
+                    <span>/</span>
+                    <span>{html.escape(meta['name'])}</span>
+                  </div>
+                  <p class="hero__kicker">Branch Guide</p>
+                  <h1>{html.escape(meta['name'])}</h1>
+                  <p class="article-standfirst">{html.escape(meta['summary'])}</p>
+                </div>
+              </header>
+
+              <div class="article-layout article-layout--single">
+                <main class="article-stack">
+                  <section class="content-card">
+                    <p class="eyebrow">Why This Branch Matters</p>
+                    <h2>{html.escape(profile['standfirst'])}</h2>
+                    <p>{html.escape(profile['stakes'])}</p>
+                    <p>{html.escape(profile['route'])}</p>
+                  </section>
+
+                  <section class="content-card">
+                    <p class="eyebrow">Core Tensions</p>
+                    <h2>The branch becomes useful when these pressures stay visible.</h2>
+                    <ul>
+{tension_items}
+                    </ul>
+                  </section>
+
+                  <section class="content-card">
+                    <p class="eyebrow">Entry Points</p>
+                    <h2>Representative pages in this branch</h2>
+                    <ul class="archive-year-list branch-entry-list">
+{page_items}
+                    </ul>
+                  </section>
+                </main>
+              </div>
             </div>
           </body>
         </html>
@@ -7080,6 +7717,42 @@ def inject_seo_into_manual_page(target: Path, page: dict) -> bool:
     return True
 
 
+def inject_philosopher_source_texture_into_manual_page(target: Path, page: dict) -> bool:
+    if page["section_id"] != "philosophers" or not target.exists():
+        return False
+    existing = target.read_text()
+    if AUTO_MARKER in existing or 'data-page-type="article"' not in existing:
+        return False
+    if 'id="source-texture"' in existing:
+        return False
+
+    source_texture_html = render_philosopher_source_texture_html(page)
+    if not source_texture_html:
+        return False
+
+    soup = BeautifulSoup(existing, "html.parser")
+    article_body = soup.select_one(".article-body")
+    if not article_body:
+        return False
+
+    fragment = BeautifulSoup(source_texture_html, "html.parser")
+    source_section = fragment.select_one("#source-texture")
+    if source_section is None:
+        return False
+
+    first_section = article_body.find("section", recursive=False)
+    if first_section is not None:
+        first_section.insert_before(source_section)
+    else:
+        article_body.append(source_section)
+
+    updated = str(soup)
+    if updated == existing:
+        return False
+    target.write_text(updated)
+    return True
+
+
 def normalize_manual_prompt_system(target: Path) -> bool:
     if not target.exists():
         return False
@@ -7240,7 +7913,7 @@ def inject_learning_cards_into_manual_page(target: Path, page: dict) -> bool:
         if existing_card is not None:
             existing_card_text = clean_text(existing_card.get_text(" ", strip=True))
             if re.search(
-                r"\b(Name the distinction|central pressure changes|not merely repeat the label|distinctions keep doing work|discipline judgment)\b",
+                r"\b(Name the distinction|Track the hooks|central pressure changes|not merely repeat the label|distinctions keep doing work|discipline judgment)\b",
                 existing_card_text,
                 flags=re.IGNORECASE,
             ):
@@ -7315,7 +7988,13 @@ def sitemap_entry(path: str, lastmod: str, priority: str = "0.7") -> str:
 
 def write_robots_and_sitemap(generated_pages: list[dict]) -> None:
     today = date.today().isoformat()
-    entries = [sitemap_entry("/", today, "1.0"), sitemap_entry("/menu-structure/", today, "0.6")]
+    entries = [
+        sitemap_entry("/", today, "1.0"),
+        sitemap_entry("/guided-reading/", today, "0.8"),
+        sitemap_entry("/concept-glossary/", today, "0.8"),
+        sitemap_entry("/menu-structure/", today, "0.6"),
+        *(sitemap_entry(f"/branches/{section_id}/", today, "0.7") for section_id in SECTION_IDS),
+    ]
     for page in sorted(generated_pages, key=lambda item: item["built_path"]):
         path = normalize_site_path(page["built_path"])
         if not page_is_indexable(path):
@@ -7538,16 +8217,26 @@ def main() -> None:
             inject_dialectical_turn_into_manual_page(target, page)
             inject_quiz_into_manual_page(target, page)
             inject_seo_into_manual_page(target, page)
+            inject_philosopher_source_texture_into_manual_page(target, page)
             normalize_manual_prompt_system(target)
             inject_learning_cards_into_manual_page(target, page)
 
     menu_target = ROOT / "menu-structure" / "index.html"
+    guided_target = ROOT / "guided-reading" / "index.html"
+    glossary_target = ROOT / "concept-glossary" / "index.html"
     podcast_target = ROOT / "byteseismic-podcasts" / "index.html"
     archive_target = ROOT / "recent-posts-expanded-version" / "index.html"
-    valid_targets.update({menu_target, podcast_target, archive_target})
+    valid_targets.update({menu_target, guided_target, glossary_target, podcast_target, archive_target})
 
     write_if_allowed(menu_target, render_menu_structure_page())
+    write_if_allowed(guided_target, render_guided_reading_page())
+    write_if_allowed(glossary_target, render_glossary_page())
     write_if_allowed(podcast_target, render_podcast_page())
+
+    for section_id in SECTION_IDS:
+        branch_target = ROOT / "branches" / section_id / "index.html"
+        valid_targets.add(branch_target)
+        write_if_allowed(branch_target, render_branch_guide_page(section_id, generated_pages))
 
     posts_by_year: dict[int, list[dict]] = defaultdict(list)
     section_counts: dict[str, int] = defaultdict(int)
@@ -7621,7 +8310,6 @@ def main() -> None:
         return chosen
 
     featured_pages = choose_featured_pages()
-    landing_tags = sorted(dedupe(tag for section_id in SECTION_IDS for tag in SECTION_META[section_id]["futureTags"]))
     tagged_pages = []
     for page in generated_pages:
         if page["built_path"] in GROUP_PAGE_TITLES.values():
@@ -7637,11 +8325,39 @@ def main() -> None:
                 "tags": discovery_tags,
             }
         )
+    tag_counts: dict[str, int] = defaultdict(int)
+    for page in tagged_pages:
+        for tag in page["tags"]:
+            tag_counts[tag] += 1
+    always_show_landing_tags = dedupe(["primer", "dialogue", "comparison", "branch-map", *SECTION_IDS])
+    preferred_landing_tags = dedupe(
+        [
+            *always_show_landing_tags,
+            *(tag for section_id in SECTION_IDS for tag in SECTION_META[section_id]["futureTags"]),
+        ]
+    )
+    landing_tags = [
+        tag
+        for tag in preferred_landing_tags
+        if tag_counts.get(tag, 0)
+        and is_discovery_safe_tag(tag)
+        and (tag in always_show_landing_tags or tag_counts.get(tag, 0) >= 2)
+    ]
+    landing_tags.extend(
+        tag
+        for tag, _count in sorted(tag_counts.items(), key=lambda item: (-item[1], item[0]))
+        if tag not in landing_tags and tag_counts.get(tag, 0) >= 2 and is_discovery_safe_tag(tag)
+    )
+    landing_tags = landing_tags[:48]
 
     topic_paths = {
         "Site Map": "/menu-structure/",
+        "Guided Reading Paths": "/guided-reading/",
+        "Concept Glossary": "/concept-glossary/",
         "Recent Posts — Expanded Version": "/recent-posts-expanded-version/",
     }
+    for section_id in SECTION_IDS:
+        topic_paths[f"{SECTION_META[section_id]['name']} Branch Guide"] = f"/branches/{section_id}/"
     for spec in FEATURED_PAGE_SPECS:
         topic_paths[spec["title"]] = spec["path"]
     sections_data = []
@@ -7662,10 +8378,14 @@ def main() -> None:
                 "id": section_id,
                 "name": meta["name"],
                 "summary": meta["summary"],
+                "editorialIntro": branch_profile(section_id)["stakes"],
+                "route": branch_profile(section_id)["route"],
+                "coreTensions": branch_profile(section_id)["items"][:4],
                 "seedTopics": visible_titles[:8],
                 "topicCount": len(visible_titles),
                 "futureTags": meta["futureTags"],
                 "samplePath": sample_path,
+                "branchGuidePath": f"/branches/{section_id}/",
                 "topicTree": topic_tree,
             }
         )
@@ -7674,7 +8394,10 @@ def main() -> None:
         "siteTitle": SITE_TITLE,
         "siteTagline": SITE_TAGLINE,
         "featuredPages": featured_pages,
+        "guidedReadingPaths": GUIDED_READING_PATHS,
+        "glossaryTerms": GLOSSARY_TERMS,
         "landingTags": landing_tags,
+        "tagCounts": dict(sorted(tag_counts.items())),
         "taggedPages": tagged_pages,
         "topicPaths": topic_paths,
         "sections": sections_data,

@@ -2,10 +2,10 @@
 
 Generated: 2026-05-21
 
-Tracked prompt-response sections: 1888
+Tracked prompt-response sections: 1904
 Average score: 99.5
 Needs review: 0 (0.0%)
-Exceptional gap-fill backlog: 441 (23.4%)
+Exceptional gap-fill backlog: 440 (23.1%)
 
 ## Editorial Audit
 
@@ -16,24 +16,24 @@ Pattern issues found: 0
 | Branch | Avg | Needs Review | Gap Fill | Exceptional | Strong | Good | Developing | Thin |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | Philosophers | 99.1 | 0/316 | 316/316 | 294 | 22 | 0 | 0 | 0 |
-| Epistemology | 99.3 | 0/263 | 36/263 | 245 | 18 | 0 | 0 | 0 |
-| Philosophy of Mind | 99.4 | 0/81 | 3/81 | 76 | 5 | 0 | 0 | 0 |
-| Ethics | 99.5 | 0/130 | 8/130 | 125 | 5 | 0 | 0 | 0 |
-| Humanistic Philosophies | 99.6 | 0/79 | 8/79 | 75 | 4 | 0 | 0 | 0 |
-| Philosophical Inquiry | 99.6 | 0/149 | 9/149 | 142 | 7 | 0 | 0 | 0 |
-| Philosophy of Language | 99.6 | 0/85 | 8/85 | 82 | 3 | 0 | 0 | 0 |
-| Philosophy of Science | 99.6 | 0/165 | 16/165 | 160 | 5 | 0 | 0 | 0 |
-| Rational Thought | 99.6 | 0/182 | 6/182 | 175 | 7 | 0 | 0 | 0 |
-| Economics | 99.8 | 0/114 | 9/114 | 113 | 1 | 0 | 0 | 0 |
-| Metaphysics | 99.8 | 0/83 | 8/83 | 82 | 1 | 0 | 0 | 0 |
+| Epistemology | 99.3 | 0/266 | 42/266 | 249 | 17 | 0 | 0 | 0 |
+| Philosophy of Mind | 99.3 | 0/85 | 4/85 | 79 | 6 | 0 | 0 | 0 |
+| Ethics | 99.5 | 0/131 | 14/131 | 126 | 5 | 0 | 0 | 0 |
+| Humanistic Philosophies | 99.6 | 0/80 | 4/80 | 76 | 4 | 0 | 0 | 0 |
+| Philosophical Inquiry | 99.6 | 0/151 | 9/151 | 144 | 7 | 0 | 0 | 0 |
+| Philosophy of Language | 99.6 | 0/87 | 9/87 | 84 | 3 | 0 | 0 | 0 |
+| Philosophy of Science | 99.6 | 0/165 | 11/165 | 160 | 5 | 0 | 0 | 0 |
+| Rational Thought | 99.6 | 0/183 | 8/183 | 176 | 7 | 0 | 0 | 0 |
+| Metaphysics | 99.8 | 0/83 | 2/83 | 82 | 1 | 0 | 0 | 0 |
 | Political Philosophy | 99.8 | 0/51 | 3/51 | 51 | 0 | 0 | 0 | 0 |
+| Economics | 99.9 | 0/115 | 6/115 | 114 | 1 | 0 | 0 | 0 |
 | Introduction | 99.9 | 0/36 | 2/36 | 36 | 0 | 0 | 0 | 0 |
-| Miscellany | 99.9 | 0/67 | 3/67 | 67 | 0 | 0 | 0 | 0 |
-| Philosophy of AI | 99.9 | 0/87 | 6/87 | 87 | 0 | 0 | 0 | 0 |
+| Miscellany | 99.9 | 0/67 | 4/67 | 67 | 0 | 0 | 0 | 0 |
+| Philosophy of AI | 99.9 | 0/88 | 6/88 | 88 | 0 | 0 | 0 | 0 |
 
 ## Exceptional Gap-Fill Backlog
 
-- `strong` 89 [Epistemology / Belief/Evidence Graphic#prompt-3](../epistemology/belief-evidence-graphic/#prompt-3): Source hierarchy is sparse; later hand-curation should add examples, objections, or context.
+- `strong` 89 [Epistemology / Belief/Evidence Graphic#prompt-4](../epistemology/belief-evidence-graphic/#prompt-4): Source hierarchy is sparse; later hand-curation should add examples, objections, or context.
 - `strong` 89 [Ethics / Equivocation on “Wrong”#prompt-1](../ethics/equivocation-on-wrong/#prompt-1): Source hierarchy is sparse; later hand-curation should add examples, objections, or context.
 - `strong` 90 [Philosophers / Aristotle#prompt-1](../philosophers/aristotle/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `strong` 90 [Philosophers / Daniel Dennett#prompt-1](../philosophers/daniel-dennett/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
@@ -49,9 +49,7 @@ Pattern issues found: 0
 - `strong` 90 [Philosophers / Simone de Beauvoir#prompt-1](../philosophers/simone-de-beauvoir/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `strong` 90 [Philosophers / Socrates#prompt-1](../philosophers/socrates/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `strong` 90 [Philosophers / Søren Kierkegaard#prompt-1](../philosophers/soren-kierkegaard/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
-- `strong` 93 [Epistemology / Induction: Forecasting#prompt-4](../epistemology/induction-forecasting/#prompt-4): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `strong` 93 [Philosophy of Science / What are Pseudosciences?#prompt-1](../philosophy-of-science/what-are-pseudosciences/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `strong` 94 [Epistemology / Many Logics?#prompt-3](../epistemology/many-logics/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `strong` 91 [Epistemology / Case #2 – The Telephone Game#prompt-3](../epistemology/case-2-the-telephone-game/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `strong` 94 [Metaphysics / Jeremy Sherman on Emergence#prompt-4](../metaphysics/jeremy-sherman-on-emergence/#prompt-4): needs hand detail
 - `strong` 94 [Philosophers / Baruch Spinoza#prompt-2](../philosophers/baruch-spinoza/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `strong` 94 [Philosophers / David Hume#prompt-2](../philosophers/david-hume/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
@@ -61,12 +59,11 @@ Pattern issues found: 0
 - `strong` 94 [Philosophical Inquiry / Conspiracies & Misunderstanding Human Nature#prompt-4](../philosophical-inquiry/conspiracies-misunderstanding-human-nature/#prompt-4): needs hand detail
 - `strong` 94 [Philosophical Inquiry / Dangers: Unnuanced Conclusions#prompt-3](../philosophical-inquiry/dangers-unnuanced-conclusions/#prompt-3): needs hand detail
 - `strong` 94 [Philosophy of Mind / Functionalism & Subjectivity#prompt-4](../philosophy-of-mind/functionalism-subjectivity/#prompt-4): needs hand detail
+- `strong` 95 [Epistemology / Case #2 – The Telephone Game#prompt-2](../epistemology/case-2-the-telephone-game/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `strong` 95 [Philosophers / Immanuel Kant#prompt-1](../philosophers/immanuel-kant/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `strong` 95 [Philosophers / Martin Heidegger#prompt-1](../philosophers/martin-heidegger/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `strong` 95 [Philosophers / Thomas Hobbes#prompt-1](../philosophers/thomas-hobbes/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
-- `strong` 95 [Philosophy of Language / What is Language?#prompt-1](../philosophy-of-language/what-is-language/#prompt-1): Support items should become more explanatory and less list-like.
-- `exceptional` 96 [Economics / Economics – Core Concepts#prompt-2](../economics/economics-core-concepts/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `exceptional` 96 [Humanistic Philosophies / Leaving Christianity#prompt-2](../humanistic-philosophies/leaving-christianity/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 96 [Epistemology / AI Reasoning Case Study#prompt-4](../epistemology/ai-reasoning-case-study/#prompt-4): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `exceptional` 96 [Philosophers / Analytic Philosophers#prompt-4](../philosophers/analytic-philosophers/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 96 [Philosophers / Critical Theorists#prompt-4](../philosophers/critical-theorists/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 96 [Philosophers / Existentialists#prompt-4](../philosophers/existentialists/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
@@ -74,6 +71,8 @@ Pattern issues found: 0
 - `exceptional` 96 [Philosophers / Rationalists#prompt-4](../philosophers/rationalists/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 96 [Philosophers / René Descartes#prompt-2](../philosophers/rene-descartes/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 96 [Philosophers / Scholastics#prompt-4](../philosophers/scholastics/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 97 [Epistemology / Abduction: Utility and Issues#prompt-2](../epistemology/abduction-utility-and-issues/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 97 [Ethics / Compassion vs Moral Systems#prompt-1](../ethics/compassion-vs-moral-systems/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `exceptional` 97 [Philosophers / Baruch Spinoza#prompt-1](../philosophers/baruch-spinoza/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 97 [Philosophers / Bertrand Russel#prompt-1](../philosophers/bertrand-russell/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 97 [Philosophers / Charles Sanders Peirce#prompt-1](../philosophers/charles-sanders-peirce/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
@@ -87,8 +86,10 @@ Pattern issues found: 0
 - `exceptional` 97 [Philosophers / Rationalists#prompt-1](../philosophers/rationalists/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 97 [Philosophers / Seneca#prompt-1](../philosophers/seneca/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 97 [Philosophers / Thomas Aquinas#prompt-1](../philosophers/thomas-aquinas/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
-- `exceptional` 97 [Philosophy of Science / What is Induction?#prompt-4](../philosophy-of-science/what-is-induction/#prompt-4): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `exceptional` 98 [Humanistic Philosophies / Christian Apologetics#prompt-1](../humanistic-philosophies/christian-apologetics/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 98 [Epistemology / Doxastic Voluntarism#prompt-1](../epistemology/doxastic-voluntarism/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 98 [Epistemology / Pascal’s Wager#prompt-5](../epistemology/pascals-wager/#prompt-5): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 98 [Humanistic Philosophies / What is Existentialism?#prompt-3](../humanistic-philosophies/what-is-existentialism/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 98 [Introduction / Miscellaneous Philosophers#prompt-3](../introduction/miscellaneous-philosophers/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `exceptional` 98 [Philosophers / Ancient Philosophers#prompt-4](../philosophers/ancient-philosophers/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 98 [Philosophers / Continental Philosophers#prompt-4](../philosophers/continental-philosophers/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 98 [Philosophers / Daniel Dennett#prompt-2](../philosophers/daniel-dennett/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
@@ -97,78 +98,73 @@ Pattern issues found: 0
 - `exceptional` 98 [Philosophers / Stoics#prompt-4](../philosophers/stoics/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 98 [Philosophers / Søren Kierkegaard#prompt-2](../philosophers/soren-kierkegaard/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 98 [Rational Thought / Assessing Arguments#prompt-2](../rational-thought/assessing-arguments/#prompt-2): Support items should become more explanatory and less list-like.
+- `exceptional` 99 [Epistemology / Avoiding Single-Cause Dogmatism#prompt-4](../epistemology/avoiding-single-cause-dogmatism/#prompt-4): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 99 [Epistemology / Case #6 – Insatiable Loops#prompt-2](../epistemology/case-6-insatiable-loops/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `exceptional` 99 [Philosophers / Duns Scotus#prompt-1](../philosophers/duns-scotus/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 99 [Philosophers / Empiricists#prompt-1](../philosophers/empiricists/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 99 [Philosophers / Michel Foucault#prompt-1](../philosophers/michel-foucault/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 99 [Philosophers / Willard Van Orman Quine#prompt-1](../philosophers/willard-van-orman-quine/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 99 [Philosophers / William James#prompt-1](../philosophers/william-james/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
-- `exceptional` 99 [Philosophy of Science / The Problem of Induction#prompt-3](../philosophy-of-science/the-problem-of-induction/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `exceptional` 100 [Economics / A Living Wage#prompt-4](../economics/a-living-wage/#prompt-4): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `exceptional` 100 [Economics / Behavioral Economics#prompt-1](../economics/behavioral-economics/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `exceptional` 100 [Economics / Economic Comparisons#prompt-2](../economics/economic-comparisons/#prompt-2): Support items should become more explanatory and less list-like.
-- `exceptional` 100 [Economics / Economic Optimism#prompt-1](../economics/economic-optimism/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Economics / Economic Comparisons#prompt-4](../economics/economic-comparisons/#prompt-4): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `exceptional` 100 [Economics / Economic Stability#prompt-1](../economics/economic-stability/#prompt-1): Support items should become more explanatory and less list-like.
 - `exceptional` 100 [Economics / Economic Stability#prompt-3](../economics/economic-stability/#prompt-3): Support items should become more explanatory and less list-like.
 - `exceptional` 100 [Economics / Schools of Economic Thought#prompt-1](../economics/schools-of-economic-thought/#prompt-1): Support items should become more explanatory and less list-like.
 - `exceptional` 100 [Economics / What is Economics?#prompt-1](../economics/what-is-economics/#prompt-1): Support items should become more explanatory and less list-like.
-- `exceptional` 100 [Epistemology / Black Boxes & Epistemology#prompt-3](../epistemology/black-boxes-epistemology/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Epistemology / Black Boxes & Epistemology#prompt-1](../epistemology/black-boxes-epistemology/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Epistemology / Case #2 – The Telephone Game#prompt-4](../epistemology/case-2-the-telephone-game/#prompt-4): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `exceptional` 100 [Epistemology / Case #3 – Core Rationality#prompt-2](../epistemology/case-3-core-rationality/#prompt-2): Support items should become more explanatory and less list-like.
-- `exceptional` 100 [Epistemology / Case #5 – Vanishing Probabilities#prompt-3](../epistemology/case-5-vanishing-probabilities/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `exceptional` 100 [Epistemology / Case #6 – Insatiable Loops#prompt-1](../epistemology/case-6-insatiable-loops/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `exceptional` 100 [Epistemology / Case #6 – Insatiable Loops#prompt-3](../epistemology/case-6-insatiable-loops/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `exceptional` 100 [Epistemology / Decision-Making#prompt-4](../epistemology/decision-making/#prompt-4): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Epistemology / Case #5 – Vanishing Probabilities#prompt-2](../epistemology/case-5-vanishing-probabilities/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Epistemology / Case #5 – Vanishing Probabilities#prompt-4](../epistemology/case-5-vanishing-probabilities/#prompt-4): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Epistemology / Core & Deep Rationality#prompt-4](../epistemology/core-deep-rationality/#prompt-4): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Epistemology / Core & Deep Rationality#prompt-5](../epistemology/core-deep-rationality/#prompt-5): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Epistemology / Counterfactual Reasoning#prompt-3](../epistemology/counterfactual-reasoning/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Epistemology / Decision-Making#prompt-2](../epistemology/decision-making/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `exceptional` 100 [Epistemology / Deduction: Utility and Issues#prompt-4](../epistemology/deduction-utility-and-issues/#prompt-4): Support items should become more explanatory and less list-like.
-- `exceptional` 100 [Epistemology / Establishing Cognitive Reliability (#1)#prompt-1](../epistemology/establishing-cognitive-reliability-1/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Epistemology / Establishing Cognitive Reliability (#1)#prompt-4](../epistemology/establishing-cognitive-reliability-1/#prompt-4): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `exceptional` 100 [Epistemology / Evidence Workshop#prompt-4](../epistemology/evidence-workshop/#prompt-4): Support items should become more explanatory and less list-like.
+- `exceptional` 100 [Epistemology / Hypostatic Illogic#prompt-2](../epistemology/hypostatic-illogic/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `exceptional` 100 [Epistemology / Hypostatic Illogic#prompt-3](../epistemology/hypostatic-illogic/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `exceptional` 100 [Epistemology / I Don’t Know#prompt-2](../epistemology/i-dont-know/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `exceptional` 100 [Epistemology / I Don’t Know#prompt-3](../epistemology/i-dont-know/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Epistemology / I Don’t Know#prompt-1](../epistemology/i-dont-know/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `exceptional` 100 [Epistemology / Induction: Cold Reading#prompt-4](../epistemology/induction-cold-reading/#prompt-4): Support items should become more explanatory and less list-like.
-- `exceptional` 100 [Epistemology / Induction: Forecasting#prompt-1](../epistemology/induction-forecasting/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `exceptional` 100 [Epistemology / Induction: Forecasting#prompt-3](../epistemology/induction-forecasting/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `exceptional` 100 [Epistemology / Induction: Forecasting#prompt-5](../epistemology/induction-forecasting/#prompt-5): Support items should become more explanatory and less list-like.
-- `exceptional` 100 [Epistemology / Inductive Invariance & Consistency#prompt-2](../epistemology/https-byteseismic-com-2024-04-10-inductive-invariance-conistency/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.; Support items should become more explanatory and less list-like.
-- `exceptional` 100 [Epistemology / Many Logics?#prompt-5](../epistemology/many-logics/#prompt-5): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `exceptional` 100 [Epistemology / Predictive Power#prompt-3](../epistemology/predictive-power/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `exceptional` 100 [Epistemology / Presuppositions?#prompt-5](../epistemology/presuppositions/#prompt-5): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `exceptional` 100 [Epistemology / Rationality Discussion#prompt-1](../epistemology/rationality-discussion/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Epistemology / Induction: Forecasting#prompt-5](../epistemology/induction-forecasting/#prompt-5): Needs a little more argumentative texture before it reaches the exceptional bar.; Support items should become more explanatory and less list-like.
+- `exceptional` 100 [Epistemology / Induction: Utility and Issues#prompt-2](../epistemology/induction-utility-and-issues/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Epistemology / Inductive Invariance & Consistency#prompt-2](../epistemology/https-byteseismic-com-2024-04-10-inductive-invariance-conistency/#prompt-2): Support items should become more explanatory and less list-like.
+- `exceptional` 100 [Epistemology / Logic#prompt-3](../epistemology/logic/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Epistemology / Non-Scientific Ways of Knowing#prompt-3](../epistemology/non-scientific-ways-of-knowing/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Epistemology / Pascal’s Wager#prompt-1](../epistemology/pascals-wager/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Epistemology / Predictive Power#prompt-1](../epistemology/predictive-power/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Epistemology / Rationality Discussion#prompt-2](../epistemology/rationality-discussion/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `exceptional` 100 [Epistemology / Rationality Discussion#prompt-3](../epistemology/rationality-discussion/#prompt-3): Support items should become more explanatory and less list-like.
-- `exceptional` 100 [Epistemology / Reasoned Probabilities and Decisions#prompt-3](../epistemology/reasoned-probabilities-and-decisions/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `exceptional` 100 [Epistemology / Recent Issues in Epistemology#prompt-1](../epistemology/recent-issues-in-epistemology/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.; Support items should become more explanatory and less list-like.
-- `exceptional` 100 [Epistemology / Recent Issues in Epistemology#prompt-3](../epistemology/recent-issues-in-epistemology/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `exceptional` 100 [Epistemology / Syllogistic Complexity#prompt-2](../epistemology/syllogistic-complexity/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `exceptional` 100 [Epistemology / Syllogistic Complexity#prompt-3](../epistemology/syllogistic-complexity/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Epistemology / Rationality Discussion#prompt-4](../epistemology/rationality-discussion/#prompt-4): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Epistemology / Recent Issues in Epistemology#prompt-1](../epistemology/recent-issues-in-epistemology/#prompt-1): Support items should become more explanatory and less list-like.
+- `exceptional` 100 [Epistemology / The Abuse of “Self-Evident”#prompt-5](../epistemology/the-abuse-of-self-evident/#prompt-5): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `exceptional` 100 [Epistemology / The Burden of Proof#prompt-4](../epistemology/the-burden-of-proof/#prompt-4): Support items should become more explanatory and less list-like.
-- `exceptional` 100 [Epistemology / Vicious & Virtuous Circularity#prompt-1](../epistemology/vicious-virtuous-circularity/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `exceptional` 100 [Epistemology / What are Syllogisms?#prompt-3](../epistemology/what-are-syllogisms/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Epistemology / Types of Reasoning#prompt-1](../epistemology/types-of-reasoning/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `exceptional` 100 [Epistemology / What is Evidence?#prompt-1](../epistemology/what-is-evidence/#prompt-1): Support items should become more explanatory and less list-like.
 - `exceptional` 100 [Epistemology / What is Faith?#prompt-2](../epistemology/what-is-faith/#prompt-2): Support items should become more explanatory and less list-like.
 - `exceptional` 100 [Epistemology / What is Faith?#prompt-4](../epistemology/what-is-faith/#prompt-4): Support items should become more explanatory and less list-like.
 - `exceptional` 100 [Ethics / Assisted Suicide#prompt-4](../ethics/assisted-suicide/#prompt-4): Support items should become more explanatory and less list-like.
+- `exceptional` 100 [Ethics / Assuming Objective Evil#prompt-1](../ethics/assuming-objective-evil/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Ethics / Divine Command Theory#prompt-2](../ethics/divine-command-theory/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `exceptional` 100 [Ethics / Essay: Moral Anti-Realism#prompt-1](../ethics/essay-moral-anti-realism/#prompt-1): Support items should become more explanatory and less list-like.
-- `exceptional` 100 [Ethics / Ethics — Core Concepts#prompt-4](../ethics/ethics-core-concepts/#prompt-4): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Ethics / Ethics — Core Concepts#prompt-3](../ethics/ethics-core-concepts/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `exceptional` 100 [Ethics / Ethics — Core Concepts#prompt-5](../ethics/ethics-core-concepts/#prompt-5): Support items should become more explanatory and less list-like.
-- `exceptional` 100 [Ethics / Moral Black Boxes#prompt-1](../ethics/moral-black-boxes/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `exceptional` 100 [Ethics / Morality & Human Rights#prompt-1](../ethics/morality-human-rights/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `exceptional` 100 [Ethics / Self-Evident Morality?#prompt-1](../ethics/self-evident-morality/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `exceptional` 100 [Humanistic Philosophies / Deism & Theism#prompt-1](../humanistic-philosophies/deism-theism/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `exceptional` 100 [Humanistic Philosophies / Existentialism: Key Concepts#prompt-3](../humanistic-philosophies/existentialism-key-concepts/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `exceptional` 100 [Humanistic Philosophies / Increasing Religious Humility#prompt-3](../humanistic-philosophies/increasing-religious-humility/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `exceptional` 100 [Humanistic Philosophies / Russell on Faith#prompt-4](../humanistic-philosophies/russell-on-faith/#prompt-4): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `exceptional` 100 [Humanistic Philosophies / Russell on Faith#prompt-5](../humanistic-philosophies/russell-on-faith/#prompt-5): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `exceptional` 100 [Humanistic Philosophies / What is Existentialism?#prompt-1](../humanistic-philosophies/what-is-existentialism/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Ethics / Intrinsic Human Value#prompt-3](../ethics/intrinsic-human-value/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Ethics / Intrinsic Human Value#prompt-5](../ethics/intrinsic-human-value/#prompt-5): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Ethics / No Morality = Chaos?#prompt-4](../ethics/no-morality-chaos/#prompt-4): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Ethics / Recommendations vs Moral Claims#prompt-5](../ethics/recommendations-vs-moral-claims/#prompt-5): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Ethics / Species-Dependent Mercy#prompt-2](../ethics/species-dependent-mercy/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Ethics / Value & Morality in Diversity?#prompt-4](../ethics/value-morality-in-diversity/#prompt-4): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Humanistic Philosophies / Can Humans Change?#prompt-4](../humanistic-philosophies/can-humans-change/#prompt-4): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Humanistic Philosophies / The Legitimacy of Divine Revelation#prompt-4](../humanistic-philosophies/the-legitimacy-of-divine-revelation/#prompt-4): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Humanistic Philosophies / What is Religion?#prompt-3](../humanistic-philosophies/what-is-religion/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `exceptional` 100 [Introduction / Studying Philosophy: Resources#prompt-1](../introduction/studying-philosophy-resources/#prompt-1): Support items should become more explanatory and less list-like.
-- `exceptional` 100 [Introduction / Studying Philosophy: Resources#prompt-2](../introduction/studying-philosophy-resources/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `exceptional` 100 [Metaphysics / Are Quantum Physics “Spiritual”?#prompt-1](../metaphysics/are-quantum-physics-spiritual/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `exceptional` 100 [Metaphysics / Categories of Nihilism#prompt-1](../metaphysics/categories-of-nihilism/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `exceptional` 100 [Metaphysics / Emergence#prompt-4](../metaphysics/emergence/#prompt-4): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `exceptional` 100 [Metaphysics / Explanations#prompt-3](../metaphysics/explanations/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `exceptional` 100 [Metaphysics / Explanations#prompt-4](../metaphysics/explanations/#prompt-4): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `exceptional` 100 [Metaphysics / Matthew Pirkowski on Emergence#prompt-2](../metaphysics/matthew-pirkowski-on-emergence/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `exceptional` 100 [Metaphysics / Whence Logic?#prompt-2](../metaphysics/whence-logic/#prompt-2): Support items should become more explanatory and less list-like.
-- `exceptional` 100 [Miscellany / Dynamical Depth#prompt-3](../miscellany/dynamical-depth/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `exceptional` 100 [Miscellany / Sara Walker on Life’s Emergence#prompt-2](../miscellany/sara-walker-on-lifes-emergence/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `exceptional` 100 [Miscellany / Sara Walker on Life’s Emergence#prompt-4](../miscellany/sara-walker-on-lifes-emergence/#prompt-4): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Miscellany / COVID19 & Science#prompt-3](../miscellany/covid-19-science/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Miscellany / Cross-Culture Emotional Dispositions#prompt-2](../miscellany/cross-culture-emotional-dispositions/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Miscellany / Flack & Mitchell on Complexity#prompt-1](../miscellany/flack-mitchell-on-complexity/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `exceptional` 100 [Miscellany / The Fantastical & Historical Truth#prompt-3](../miscellany/the-fantastical-historical-truth/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `exceptional` 100 [Philosophers / Analytic Philosophers#prompt-1](../philosophers/analytic-philosophers/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 100 [Philosophers / Analytic Philosophers#prompt-2](../philosophers/analytic-philosophers/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 100 [Philosophers / Analytic Philosophers#prompt-3](../philosophers/analytic-philosophers/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
@@ -183,13 +179,18 @@ Pattern issues found: 0
 - `exceptional` 100 [Philosophers / Aquinas’ Five Ways#prompt-2](../philosophers/aquinas-five-ways/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 100 [Philosophers / Aquinas’ Five Ways#prompt-3](../philosophers/aquinas-five-ways/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 100 [Philosophers / Aristotle#prompt-2](../philosophers/aristotle/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Aristotle#prompt-3](../philosophers/aristotle/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Aristotle#prompt-4](../philosophers/aristotle/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / At the Edge of Miracles#prompt-1](../philosophers/at-the-edge-of-miracles/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / At the Edge of Miracles#prompt-2](../philosophers/at-the-edge-of-miracles/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 
 ## Relative Polish Queue
 
 These are the lowest-scoring sections relative to the rest of the archive. Strong entries are publishable; this list is a polishing queue, not a failure list.
 
-- `strong` 89 [Epistemology / Belief/Evidence Graphic#prompt-3](../epistemology/belief-evidence-graphic/#prompt-3): The source claim was sparse, so this section was expanded with explicit reconstruction supports.; Source hierarchy was sparse, so the reconstruction supplies explicit support structure.
+- `strong` 89 [Epistemology / Belief/Evidence Graphic#prompt-4](../epistemology/belief-evidence-graphic/#prompt-4): The source claim was sparse, so this section was expanded with explicit reconstruction supports.; Source hierarchy was sparse, so the reconstruction supplies explicit support structure.
 - `strong` 89 [Ethics / Equivocation on “Wrong”#prompt-1](../ethics/equivocation-on-wrong/#prompt-1): The source claim was sparse, so this section was expanded with explicit reconstruction supports.; Source hierarchy was sparse, so the reconstruction supplies explicit support structure.
+- `strong` 89 [Philosophy of Mind / Elitzur on Consciousness#prompt-1](../philosophy-of-mind/elitzur-on-consciousness/#prompt-1): Source hierarchy was sparse, so the reconstruction supplies explicit support structure.
 - `strong` 90 [Philosophers / Aristotle#prompt-1](../philosophers/aristotle/#prompt-1): The section has enough source structure and explanatory density for now.
 - `strong` 90 [Philosophers / Daniel Dennett#prompt-1](../philosophers/daniel-dennett/#prompt-1): The section has enough source structure and explanatory density for now.
 - `strong` 90 [Philosophers / David Hume#prompt-1](../philosophers/david-hume/#prompt-1): The section has enough source structure and explanatory density for now.
@@ -209,7 +210,6 @@ These are the lowest-scoring sections relative to the rest of the archive. Stron
 - `strong` 90 [Rational Thought / Are Averages “Not Always True”?#prompt-5](../rational-thought/are-averages-not-always-true/#prompt-5): The section has enough source structure and explanatory density for now.
 - `strong` 90 [Rational Thought / Assessing Arguments#prompt-1](../rational-thought/assessing-arguments/#prompt-1): The section has enough source structure and explanatory density for now.
 - `strong` 90 [Rational Thought / Perverse Incentives#prompt-1](../rational-thought/perverse-incentives/#prompt-1): The section has enough source structure and explanatory density for now.
-- `strong` 91 [Epistemology / Belief/Evidence Graphic#prompt-4](../epistemology/belief-evidence-graphic/#prompt-4): Source hierarchy was sparse, so the reconstruction supplies explicit support structure.
 - `strong` 91 [Epistemology / Case #2 – The Telephone Game#prompt-3](../epistemology/case-2-the-telephone-game/#prompt-3): The section has enough source structure and explanatory density for now.
 - `strong` 91 [Ethics / Fictional Meta-Ethics Debate#prompt-3](../ethics/fictional-meta-ethics-debate/#prompt-3): The source claim was sparse, so this section was expanded with explicit reconstruction supports.
 - `strong` 91 [Ethics / Fictional Meta-Ethics Debate#prompt-4](../ethics/fictional-meta-ethics-debate/#prompt-4): The source claim was sparse, so this section was expanded with explicit reconstruction supports.
@@ -227,9 +227,9 @@ These are the lowest-scoring sections relative to the rest of the archive. Stron
 - `strong` 94 [Economics / Wealth Creation#prompt-1](../economics/wealth-creation/#prompt-1): The section has enough source structure and explanatory density for now.
 - `strong` 94 [Epistemology / AI Reasoning Case Study#prompt-2](../epistemology/ai-reasoning-case-study/#prompt-2): The section has enough source structure and explanatory density for now.
 - `strong` 94 [Epistemology / Avoiding Single-Cause Dogmatism#prompt-1](../epistemology/avoiding-single-cause-dogmatism/#prompt-1): The source claim was sparse, so this section was expanded with explicit reconstruction supports.
-- `strong` 94 [Epistemology / Belief/Evidence Graphic#prompt-1](../epistemology/belief-evidence-graphic/#prompt-1): The section has enough source structure and explanatory density for now.
 - `strong` 94 [Epistemology / Belief/Evidence Graphic#prompt-2](../epistemology/belief-evidence-graphic/#prompt-2): The section has enough source structure and explanatory density for now.
-- `strong` 94 [Epistemology / Collapsing Epistemological Terms#prompt-3](../epistemology/collapsing-epistemological-terms/#prompt-3): The source claim was sparse, so this section was expanded with explicit reconstruction supports.
+- `strong` 94 [Epistemology / Belief/Evidence Graphic#prompt-3](../epistemology/belief-evidence-graphic/#prompt-3): The section has enough source structure and explanatory density for now.
+- `strong` 94 [Epistemology / Collapsing Epistemological Terms#prompt-4](../epistemology/collapsing-epistemological-terms/#prompt-4): The source claim was sparse, so this section was expanded with explicit reconstruction supports.
 - `strong` 94 [Epistemology / Many Logics?#prompt-3](../epistemology/many-logics/#prompt-3): The section has enough source structure and explanatory density for now.
 - `strong` 94 [Epistemology / Preponderance of Evidence?#prompt-1](../epistemology/preponderance-of-evidence/#prompt-1): The section has enough source structure and explanatory density for now.
 - `strong` 94 [Epistemology / The Burden of Proof#prompt-1](../epistemology/the-burden-of-proof/#prompt-1): The section has enough source structure and explanatory density for now.
@@ -290,7 +290,6 @@ These are the lowest-scoring sections relative to the rest of the archive. Stron
 - `exceptional` 96 [Philosophers / Rationalists#prompt-4](../philosophers/rationalists/#prompt-4): The section has enough source structure and explanatory density for now.
 - `exceptional` 96 [Philosophers / René Descartes#prompt-2](../philosophers/rene-descartes/#prompt-2): The section has enough source structure and explanatory density for now.
 - `exceptional` 96 [Philosophers / Scholastics#prompt-4](../philosophers/scholastics/#prompt-4): The section has enough source structure and explanatory density for now.
-- `exceptional` 96 [Philosophical Inquiry / Dangers: Awe as an Indicator#prompt-1](../philosophical-inquiry/dangers-awe-as-an-indicator/#prompt-1): The section has enough source structure and explanatory density for now.
 - `exceptional` 96 [Philosophical Inquiry / Dangers: Removing the Impossible#prompt-3](../philosophical-inquiry/dangers-removing-the-impossible/#prompt-3): The section has enough source structure and explanatory density for now.
 - `exceptional` 96 [Philosophy of Language / Philosophy of Language — Core Concepts#prompt-1](../philosophy-of-language/core-concepts-philosophy-of-language/#prompt-1): The section has enough source structure and explanatory density for now.
 - `exceptional` 96 [Philosophy of Language / What is Etymology?#prompt-2](../philosophy-of-language/what-is-etymology/#prompt-2): The section has enough source structure and explanatory density for now.
@@ -299,9 +298,9 @@ These are the lowest-scoring sections relative to the rest of the archive. Stron
 - `exceptional` 96 [Philosophy of Science / What is Falsifiability?#prompt-2](../philosophy-of-science/what-is-falsifiability/#prompt-2): The section has enough source structure and explanatory density for now.
 - `exceptional` 96 [Philosophy of Science / What is Falsifiability?#prompt-3](../philosophy-of-science/what-is-falsifiability/#prompt-3): The section has enough source structure and explanatory density for now.
 - `exceptional` 96 [Political Philosophy / Political Philosophy – Core Concepts#prompt-1](../political-philosophy/political-philosophy-core-concepts/#prompt-1): The section has enough source structure and explanatory density for now.
+- `exceptional` 96 [Rational Thought / Are Averages “Not Always True”?#prompt-2](../rational-thought/are-averages-not-always-true/#prompt-2): The section has enough source structure and explanatory density for now.
 - `exceptional` 96 [Rational Thought / Regret Assessment#prompt-1](../rational-thought/regret-assessment/#prompt-1): The section has enough source structure and explanatory density for now.
 - `exceptional` 96 [Rational Thought / Sample Size & Margin of Error#prompt-2](../rational-thought/sample-size-margin-of-error/#prompt-2): The section has enough source structure and explanatory density for now.
-- `exceptional` 97 [Economics / Deflationary Spiral for AI Projects#prompt-2](../economics/deflationary-spiral-for-ai-projects/#prompt-2): The section has enough source structure and explanatory density for now.
 - `exceptional` 97 [Epistemology / Abduction: Utility and Issues#prompt-2](../epistemology/abduction-utility-and-issues/#prompt-2): The section has enough source structure and explanatory density for now.
 - `exceptional` 97 [Epistemology / Absolute Certainty#prompt-3](../epistemology/absolute-certainty/#prompt-3): The section has enough source structure and explanatory density for now.
 - `exceptional` 97 [Epistemology / Absolute Certainty#prompt-4](../epistemology/absolute-certainty/#prompt-4): The section has enough source structure and explanatory density for now.
@@ -338,3 +337,4 @@ These are the lowest-scoring sections relative to the rest of the archive. Stron
 - `exceptional` 98 [Ethics / Recommendations vs Moral Claims#prompt-1](../ethics/recommendations-vs-moral-claims/#prompt-1): The section has enough source structure and explanatory density for now.
 - `exceptional` 98 [Humanistic Philosophies / Christian Apologetics#prompt-1](../humanistic-philosophies/christian-apologetics/#prompt-1): The section has enough source structure and explanatory density for now.
 - `exceptional` 98 [Humanistic Philosophies / Existentialism: Key Concepts#prompt-1](../humanistic-philosophies/existentialism-key-concepts/#prompt-1): The section has enough source structure and explanatory density for now.
+- `exceptional` 98 [Humanistic Philosophies / What is Existentialism?#prompt-3](../humanistic-philosophies/what-is-existentialism/#prompt-3): The section has enough source structure and explanatory density for now.

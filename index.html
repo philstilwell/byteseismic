@@ -92,9 +92,31 @@
               </div>
             </details>
 
-            <details class="home-panel">
+            <details id="guided-reading" class="home-panel">
               <summary>
                 <span class="home-panel__number">02</span>
+                <span class="home-panel__title">
+                  <span class="eyebrow">Guided Routes</span>
+                  <h2>Curated ways through the network</h2>
+                </span>
+                <span class="home-panel__cue" aria-hidden="true">+</span>
+              </summary>
+              <div class="home-panel__body">
+                <p class="home-panel__intro">
+                  The archive is intentionally branching, but readers still deserve clear entrances.
+                  These routes collect high-value sequences for epistemology, metaethics, AI, and
+                  philosopher dialogues.
+                </p>
+                <div class="route-grid route-grid--home" data-guided-routes></div>
+                <p>
+                  <a class="button button--ghost" href="guided-reading/">Open the full guided reading page</a>
+                </p>
+              </div>
+            </details>
+
+            <details class="home-panel">
+              <summary>
+                <span class="home-panel__number">03</span>
                 <span class="home-panel__title">
                   <span class="eyebrow">Branch Guide</span>
                   <h2>Open the major paths</h2>
@@ -112,7 +134,7 @@
 
             <details id="structure" class="home-panel">
               <summary>
-                <span class="home-panel__number">03</span>
+                <span class="home-panel__number">04</span>
                 <span class="home-panel__title">
                   <span class="eyebrow">Hierarchy</span>
                   <h2>Faithful structure, future-ready branches</h2>
@@ -145,27 +167,65 @@
               </div>
             </details>
 
-            <details id="tag-discovery" class="home-panel">
+            <details id="concept-glossary" class="home-panel">
               <summary>
-                <span class="home-panel__number">04</span>
-                <span class="home-panel__title">
-                  <span class="eyebrow">Tags</span>
-                  <h2>Follow recurring concepts across branches</h2>
+                  <span class="home-panel__number">05</span>
+                  <span class="home-panel__title">
+                  <span class="eyebrow">Concept Index</span>
+                  <h2>Glossary of recurring terms</h2>
                 </span>
                 <span class="home-panel__cue" aria-hidden="true">+</span>
               </summary>
               <div class="home-panel__body">
                 <p class="home-panel__intro">
-                  Tags are now interactive. Choose a tag to reveal linked pages that share the same
-                  concept, skill, or teaching use.
+                  The glossary gives intermediate readers quick definitions without pretending the
+                  definitions settle the arguments. Each term points back into pages where it does real work.
                 </p>
+                <div class="glossary-grid glossary-grid--home" data-glossary-preview></div>
+                <p>
+                  <a class="button button--ghost" href="concept-glossary/">Open the full concept glossary</a>
+                </p>
+              </div>
+            </details>
+
+            <details id="tag-discovery" class="home-panel">
+              <summary>
+                  <span class="home-panel__number">06</span>
+                  <span class="home-panel__title">
+                  <span class="eyebrow">Discovery</span>
+                  <h2>Find branches, formats, and recurring concepts</h2>
+                </span>
+                <span class="home-panel__cue" aria-hidden="true">+</span>
+              </summary>
+              <div class="home-panel__body">
+                <p class="home-panel__intro">
+                  Tags are now interactive. Choose a branch, format, or concept tag to reveal linked
+                  pages that share the same teaching use.
+                </p>
+                <div class="landing-search" data-page-search>
+                  <label for="landing-search-input">
+                    <span class="mini-label">Find a page</span>
+                    <span>Search titles, branches, summaries, and tags.</span>
+                  </label>
+                  <div class="landing-search__control">
+                    <input
+                      id="landing-search-input"
+                      type="search"
+                      placeholder="Try belief, Aquinas, induction, meta-ethics..."
+                      autocomplete="off"
+                      data-page-search-input
+                    />
+                    <button class="button button--ghost" type="button" data-page-search-clear>Clear</button>
+                  </div>
+                  <div class="landing-search__results" data-page-search-results></div>
+                </div>
                 <div class="taxonomy-grid">
                   <div>
                     <p class="mini-label">Useful tag families</p>
                     <ul>
-                      <li>Core concepts: truth, knowledge, causation, emergence, meaning.</li>
-                      <li>Skills: critical-thinking, evidence-evaluation, dialogue, prompt-design.</li>
-                      <li>Teaching use: primer, case study, discussion prompts, review-ready.</li>
+                      <li>Branches: epistemology, ethics, philosophy-of-science, philosophers.</li>
+                      <li>Formats: primer, dialogue, comparison, branch-map.</li>
+                      <li>Concepts: belief, evidence, induction, emergence, meta-ethics.</li>
                     </ul>
                   </div>
                   <div>
@@ -179,7 +239,7 @@
 
             <details id="featured-pages" class="home-panel">
               <summary>
-                <span class="home-panel__number">05</span>
+                <span class="home-panel__number">07</span>
                 <span class="home-panel__title">
                   <span class="eyebrow">Featured Pages</span>
                   <h2>Representative entries</h2>
@@ -198,7 +258,7 @@
 
             <details class="home-panel">
               <summary>
-                <span class="home-panel__number">06</span>
+                <span class="home-panel__number">08</span>
                 <span class="home-panel__title">
                   <span class="eyebrow">Status</span>
                   <h2>A living reconstruction</h2>
