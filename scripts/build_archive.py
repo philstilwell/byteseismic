@@ -2095,6 +2095,8 @@ def need_verb_for_heading(subject: str) -> str:
         maxsplit=1,
     )[0].strip()
     head = re.sub(r"^(?:the|a|an|each|every|one|\d+|\d+\s+key|\d+\s+notable)\s+", "", head)
+    if re.search(r"\b(?:and|&)\b", head):
+        return "need"
     last_word = re.sub(r"[^a-z]+$", "", head.split()[-1]) if head.split() else ""
     singular_endings = (
         "analysis",
@@ -2190,12 +2192,12 @@ def article_native_heading(subject: str, prompt: str, topic: str) -> str:
     if focus == "mapping":
         return f"{key} {need_verb_for_heading(key)} an order the reader can use."
     if focus == "argument":
-        return f"{key} is where the argument has to earn its keep."
+        return f"{key} is where the argument earns or loses its force."
     if focus == "definition":
         return f"{key} {need_verb_for_heading(key)} a definition that can sort hard cases."
     if any(term in lowered for term in ("list", "table", "scores", "percentages", "estimates")):
         return f"{key} {need_verb_for_heading(key)} visible structure before it can persuade."
-    return f"{key} is the hinge the section has to make usable."
+    return f"{key} {need_verb_for_heading(key)} to become concrete enough to guide the reader."
 
 
 def clean_discussion_key(key: str, topic: str, fallback: str = "the central question") -> str:
@@ -3887,23 +3889,23 @@ def prompt_heading(prompt: str, topic: str) -> str:
     if command_like_key(key):
         key = topic
     if focus == "dialogue":
-        return f"The exchange has to make {topic} answerable to interruption."
+        return f"The exchange should make {topic} answerable to interruption."
     if focus == "description":
         return f"{key} {need_verb_for_heading(key)} criteria the reader can apply."
     if focus == "examples":
-        return f"The examples have to make {topic} visible in practice."
+        return f"The examples make {topic} visible in practice."
     if focus == "mapping":
-        return f"The map of {topic} has to show dependence, contrast, and priority."
+        return f"The map of {topic} should show dependence, contrast, and priority."
     if focus == "argument":
-        return f"The argument about {topic} has to expose the contested premise."
+        return f"The argument about {topic} turns on the contested premise."
     if focus == "definition":
-        return f"A definition of {topic} has to classify hard cases."
+        return f"A definition of {topic} must classify hard cases."
     topic_for_heading = topic
     if re.match(r"^(are|can|could|did|do|does|how|is|should|what|when|where|why)\b", topic, re.IGNORECASE):
-        return "The practical task is making this question usable in judgment."
+        return "This question needs a clear standard of judgment."
     if topic_for_heading.startswith("The "):
         topic_for_heading = "the " + topic_for_heading[4:]
-    return f"The practical task is making {topic_for_heading} usable in judgment."
+    return f"{topic_for_heading} {need_verb_for_heading(topic_for_heading)} a clear standard of judgment."
 
 
 def prompt_response_paragraphs(page: dict, prompt: str, index: int, detail: dict | None = None) -> list[str]:
@@ -6586,7 +6588,7 @@ def render_philosopher_source_texture_html(page: dict) -> str:
         for item in [
             f"Primary source to keep nearby: {source_work}.",
             f"Method to listen for: {method_sentence}",
-            f"Pressure to preserve: {pressure}.",
+            f"Pressure to preserve: {pressure.rstrip('.')}.",
             *concepts,
         ]
     )
