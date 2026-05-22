@@ -6841,6 +6841,10 @@ def internal_article_href(prefix: str, built_path: str) -> str:
     return f"{prefix}{built_path.strip('/')}/"
 
 
+def branch_guide_path(section_id: str) -> str:
+    return f"/branches/{section_id}/"
+
+
 def breadcrumb_anchor(label: str, href: str) -> str:
     return f'<a href="{html.escape(href)}">{html.escape(label)}</a>'
 
@@ -6977,9 +6981,11 @@ def render_article_page(page: dict) -> str:
     page_path = page["built_path"]
     depth = len(Path(page_path.strip("/")).parts)
     prefix = "../" * depth
+    branch_path = branch_guide_path(page["section_id"])
+    branch_href = internal_article_href(prefix, branch_path)
     breadcrumbs = [
         ("Home", f"{prefix}index.html"),
-        (section_meta["name"], f"{prefix}index.html#section-{page['section_id']}"),
+        (section_meta["name"], branch_href),
         (page["title"], internal_article_href(prefix, page["built_path"])),
     ]
     prompt_index_by_anchor = {anchor: index for index, (anchor, _text) in enumerate(prompts, start=1)}
@@ -7067,7 +7073,7 @@ def render_article_page(page: dict) -> str:
         )
     if not future_parts:
         future_parts.append(
-            f"This page belongs inside the wider <a class=\"future-link\" href=\"{prefix}index.html#section-{page['section_id']}\"><strong>{html.escape(section_meta['name'])}</strong></a> branch and is best read in conversation with its neighboring topics. Future expansion should add direct neighboring links as the branch thickens."
+            f"This page belongs inside the wider <a class=\"future-link\" href=\"{html.escape(branch_href)}\"><strong>{html.escape(section_meta['name'])}</strong></a> branch and is best read in conversation with its neighboring topics. Future expansion should add direct neighboring links as the branch thickens."
         )
     future_paragraph = " ".join(future_parts)
     quiz_html = render_quiz_sections(page, sections, prompts, section_meta)
@@ -7104,7 +7110,7 @@ def render_article_page(page: dict) -> str:
             breadcrumb_json_ld(
                 [
                     ("Home", "/"),
-                    (section_meta["name"], f"/#section-{page['section_id']}"),
+                    (section_meta["name"], branch_path),
                     (page["title"], page["built_path"]),
                 ]
             ),
@@ -7447,7 +7453,7 @@ def render_branch_guide_page(section_id: str, pages: list[dict]) -> str:
     breadcrumbs = breadcrumb_trail_html(
         [
             ("Home", "../../index.html"),
-            (meta["name"], f"../../index.html#section-{section_id}"),
+            (meta["name"], internal_article_href(prefix, branch_guide_path(section_id))),
         ]
     )
     return textwrap.dedent(
@@ -8362,7 +8368,7 @@ def inject_seo_into_manual_page(target: Path, page: dict) -> bool:
                 breadcrumb_json_ld(
                     [
                         ("Home", "/"),
-                        (section_meta["name"], f"/#section-{page['section_id']}"),
+                        (section_meta["name"], branch_guide_path(page["section_id"])),
                         (title_text, page["built_path"]),
                     ]
                 ),
