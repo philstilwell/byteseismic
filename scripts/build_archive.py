@@ -891,6 +891,18 @@ TOPIC_ITEMS = {
         "Coherence without self-sealing",
         "Pragmatic usefulness without reducing truth to usefulness",
     ],
+    "Science": [
+        "Demarcation without scientism",
+        "Public methods of error correction",
+        "Prediction, explanation, and testability",
+        "Methodological humility about non-scientific questions",
+    ],
+    "Economics": [
+        "Incentives and tradeoffs",
+        "Scarcity and opportunity cost",
+        "Markets, institutions, and policy feedback",
+        "Human behavior under constraints",
+    ],
     "Philosophy": [
         "Conceptual clarification",
         "Argument under pressure",
@@ -4547,65 +4559,153 @@ def pedagogical_checkpoints(page: dict, prompt: str, detail: dict | None) -> lis
     topic = topic_label(page["title"])
     focus = prompt_focus(prompt)
     hooks = semantic_hook_items(page, prompt, detail)
+    section_id = page["section_id"]
+    profile = branch_profile(section_id)
+    key = clean_discussion_key(short_prompt_key(prompt, topic), topic, "the central issue")
+    if command_like_key(key):
+        key = hooks[0] if hooks else "the central issue"
+    focus_key = topic if key in {"the central issue", "the central question"} else key
+
+    curated_hooks = TOPIC_ITEMS.get(page["title"], []) or TOPIC_ITEMS.get(topic, [])
+    learning_hooks: list[str] = list(curated_hooks[:3])
+    for hook in hooks:
+        if len(learning_hooks) >= 3:
+            break
+        candidate = clean_text(hook).strip(" .:")
+        lowered = candidate.lower()
+        if not candidate:
+            continue
+        if any(fragment in lowered for fragment in ("past, present", "test your", "summary", "table of contents")):
+            continue
+        if lowered.endswith((" vs", " versus")):
+            continue
+        if len(candidate.split()) > 8:
+            label, _body = split_label(candidate)
+            candidate = label or compact_text(candidate, 68).rstrip(".")
+        if candidate and candidate not in learning_hooks:
+            learning_hooks.append(candidate)
+    while len(learning_hooks) < 3:
+        for item in profile["items"]:
+            if item not in learning_hooks:
+                learning_hooks.append(item)
+            if len(learning_hooks) >= 3:
+                break
+        break
+    hook_text = serial_join(learning_hooks[:3])
     if page["section_id"] == "philosophers":
         prompt_lower = clean_text(prompt).lower()
         if "strongest objection" in prompt_lower:
             return [
-                "Reader check: Name the strongest objection, then say what still survives it.",
-                "Do not let admiration do the work: the philosopher becomes clearer when the objection is allowed to land.",
-                "Carry it forward: Ask where the same pressure reappears in later debates.",
+                f"Let the objection bite: say exactly what {topic} loses if the critic is right.",
+                f"Keep the voice audible: ask whether {topic}'s method answers the objection or merely changes the subject.",
+                "Carry it forward: identify the later debate where this same objection returns in modern clothes.",
             ]
         if "begin" in prompt_lower or "contemporary reader" in prompt_lower:
             return [
-                "Reader check: Start with the entry point, then trace one method or concept outward.",
-                "Avoid the shortcut: a philosopher is not learned by memorizing the most quotable slogan.",
-                "Carry it forward: Follow the influence trail to the neighboring pages where the question mutates.",
+                f"Find the doorway: name the one question a beginner must feel before {topic} becomes interesting.",
+                f"Watch the method: notice whether {topic} teaches by dialogue, system, aphorism, critique, or spiritual exercise.",
+                "Avoid the wax-museum version: a philosopher has not been understood until the method can still disturb a live reader.",
             ]
         if "concept" in prompt_lower or "method" in prompt_lower or "question" in prompt_lower:
             return [
-                f"Reader check: Use one of {topic}'s concepts to sort a real case.",
-                "Look for dependencies: concepts teach only when the reader sees what supports what.",
-                "Test the pressure: Ask which distinction would fail first under criticism.",
+                f"Use one concept as a tool: apply a {topic} distinction to a real case and see what it sorts.",
+                "Look for dependencies: ask which concept supports the others and which one would fail first.",
+                "Notice the inheritance trail: later thinkers often keep the tool while rejecting the system that made it.",
             ]
         return [
-            f"Reader check: Say what {topic} makes harder to ignore.",
-            "Keep the historical setting nearby; it explains why the question had teeth.",
-            "Test the pressure: Ask what a careful critic would object to before deciding whether the answer has succeeded.",
+            f"Say what {topic} makes harder to ignore, not merely what doctrine is associated with the name.",
+            "Keep historical setting close: the view had teeth because it answered a pressure its own age could feel.",
+            "Read for temperament: the argument's style is part of the philosophy, not packaging around it.",
         ]
-    checks = [
-        f"Reader check: By the end, explain how {serial_join(hooks[:3])} changes the question rather than merely naming it.",
-        "Test the pressure: Ask what a careful critic would object to before deciding whether the answer has succeeded.",
-    ]
+
+    section_checks = {
+        "introduction": [
+            f"Use {hook_text} as orientation markers: the section should tell a newcomer where philosophical work begins.",
+            "Ask what bad first impression of philosophy this section is quietly trying to correct.",
+            "Carry one question forward into the archive rather than treating this as a preface to skip.",
+        ],
+        "philosophical-inquiry": [
+            f"Separate reality from interpretation: {hook_text} should clarify what inquiry is answerable to.",
+            "Look for the self-protective move: where might identity, tribe, comfort, or rhetoric be masquerading as truth-seeking?",
+            "Ask what would force an honest revision, not just a more elegant defense of the starting view.",
+        ],
+        "epistemology": [
+            f"Track confidence, not just conclusion: {hook_text} should affect what degree of belief is responsible.",
+            "Ask what evidence would raise, lower, or suspend the claim; do not let familiarity count as justification.",
+            "Notice the threshold: some claims need more than plausibility because the cost of error is higher.",
+        ],
+        "rational-thought": [
+            f"Turn {hook_text} into a diagnostic tool: what reasoning mistake would it help catch in the wild?",
+            "Name the tempting shortcut before naming the correction; rationality earns its keep under temptation.",
+            "Check whether the section improves judgment or only adds a label to an error already noticed.",
+        ],
+        "philosophy-of-science": [
+            f"Read {hook_text} methodologically: what would count as evidence, explanation, prediction, or error here?",
+            "Ask where the claim becomes testable, and where it remains a conceptual or interpretive commitment.",
+            "Do not confuse scientific prestige with scientific discipline; the page should show how correction works.",
+        ],
+        "philosophy-of-language": [
+            f"Treat {hook_text} as semantic pressure points: which word shifts meaning if the reader is careless?",
+            "Ask what distinction ordinary speech hides and philosophical speech has to recover.",
+            "Notice whether the argument depends on usage, reference, metaphor, grammar, or social convention.",
+        ],
+        "philosophy-of-mind": [
+            f"Keep first-person and third-person pressures apart: {hook_text} should not collapse experience into mechanism or mystery.",
+            "Ask what the section explains about consciousness, agency, preference, or cognition without explaining it away.",
+            "Look for the bridge claim between lived experience and public explanation; that bridge carries the weight.",
+        ],
+        "metaphysics": [
+            f"Use {hook_text} to sort reality claims: what is being said to exist, depend, emerge, or merely appear?",
+            "Ask whether the page argues for a necessity, a possibility, or a useful way of speaking.",
+            "Watch for imagination masquerading as ontology; conceivability is a clue, not yet a verdict.",
+        ],
+        "ethics": [
+            f"Keep moral force distinct from social force: {hook_text} should clarify what is being demanded and why.",
+            "Ask whether the section is making a moral claim, a recommendation, a prudential warning, or a linguistic distinction.",
+            "Do not sanitize the hard edge: if normativity, obligation, or moral non-realism is under pressure, let the pressure show.",
+        ],
+        "humanistic-philosophies": [
+            f"Read {hook_text} as lived orientation: what would change in attention, desire, courage, or practice?",
+            "Ask whether the view consoles, disciplines, liberates, or evades; humanistic philosophy can do any of those.",
+            "Keep the existential cost visible: the section matters only if it touches how a life is inhabited.",
+        ],
+        "economics": [
+            f"Follow the incentives inside {hook_text}: who gains, who adjusts, and what behavior would the policy or concept reward?",
+            "Ask where moral aspiration collides with scarcity, tradeoffs, feedback loops, or unintended consequences.",
+            "Test the claim at the margin: economics often changes shape when the next unit, worker, dollar, or rule is considered.",
+        ],
+        "philosophy-of-ai": [
+            f"Ask what the machine contributes to this prompt sequence: {hook_text}. Then ask what responsibility still belongs to the human curator.",
+            "Distinguish fluency from warrant: a good answer can be articulate before it is justified.",
+            "Look for the prompt as an epistemic instrument: the question design partly determines the quality of the reasoning.",
+        ],
+        "political-philosophy": [
+            f"Read {hook_text} through legitimacy: who is governed, who benefits, and who must accept the rule?",
+            "Ask where public order, identity, liberty, equality, or trust becomes the real pressure point.",
+            "Do not let institutional language hide persons; political philosophy ultimately lands on lived civic arrangements.",
+        ],
+        "miscellany": [
+            f"Use {hook_text} to locate the transferable insight: why does this adjacent topic belong near philosophy?",
+            "Ask which branch this page secretly wants to feed: aesthetics, history, complexity, information, or practical wisdom.",
+            "Keep the oddness productive; miscellany earns its place when it opens a path the main branches would miss.",
+        ],
+    }
+
+    checks = list(section_checks.get(section_id, [
+        f"Use {hook_text} to name what the page clarifies, what it tests, and what remains unsettled.",
+        f"Ask how this section serves {profile['lens']} rather than simply summarizing the topic.",
+        "Carry forward one sharpened question into a neighboring page.",
+    ]))
     if detail and detail.get("tables"):
-        checks.insert(
-            1,
-            "Read across the table: The important lesson is usually in the contrast among columns, not in any single cell by itself.",
-        )
+        checks[1] = "Read across the table: the important lesson is usually in the contrast among columns, not in any single cell by itself."
     elif detail and len(detail.get("dialogue_turns", [])) >= 4:
-        checks.insert(
-            1,
-            "Follow the exchange: The learning happens when an objection forces the answer to become more precise.",
-        )
+        checks[1] = f"Follow the exchange: notice exactly where the reply about {focus_key} changes because an objection has landed."
     elif focus == "examples":
-        checks.insert(
-            1,
-            "Use the example as a stress test: Decide whether the distinction still works once it leaves the abstract setting.",
-        )
+        checks[1] = f"Use the example as a stress test: decide whether {focus_key} still works once it leaves the abstract setting."
     elif focus == "definition":
-        checks.insert(
-            1,
-            "Try a borderline case: A definition earns its keep when it helps classify the cases that are not obvious.",
-        )
+        checks[1] = f"Try a borderline case: the definition of {focus_key} earns its keep only if it sorts cases that are not obvious."
     elif focus == "mapping":
-        checks.insert(
-            1,
-            "Look for dependencies: A map teaches only when it shows what supports what and what can be separated.",
-        )
-    else:
-        checks.insert(
-            1,
-            "Carry it forward: The section should leave the next question sharper than the one that opened it.",
-        )
+        checks[1] = f"Look for dependencies: the map should show what supports {focus_key}, what competes with it, and what can be separated."
     return dedupe(checks)[:3]
 
 
@@ -7913,7 +8013,7 @@ def inject_learning_cards_into_manual_page(target: Path, page: dict) -> bool:
         if existing_card is not None:
             existing_card_text = clean_text(existing_card.get_text(" ", strip=True))
             if re.search(
-                r"\b(Name the distinction|Track the hooks|central pressure changes|not merely repeat the label|distinctions keep doing work|discipline judgment)\b",
+                r"\b(Name the distinction|Track the hooks|Reader check: By the end|Follow the exchange: The learning happens|Follow the exchange: notice exactly where the reply about the central issue|Test the pressure: Ask what a careful critic|definition of the central issue|The Demarcation Problem: Science vs|Past, Present, and Future|central pressure changes|not merely repeat the label|distinctions keep doing work|discipline judgment)\b",
                 existing_card_text,
                 flags=re.IGNORECASE,
             ):
