@@ -1,0 +1,578 @@
+[
+  {
+    "name": "Absence of evidence fallacy",
+    "url": "https://logfall.com/fallacies/absence-of-evidence-fallacy/"
+  },
+  {
+    "name": "Abstraction denial",
+    "url": "https://logfall.com/fallacies/abstraction-denial/"
+  },
+  {
+    "name": "Abstraction fallacy",
+    "url": "https://logfall.com/fallacies/abstraction-fallacy/"
+  },
+  {
+    "name": "Ad hominem",
+    "url": "https://logfall.com/fallacies/ad-hominem/"
+  },
+  {
+    "name": "Affirmative conclusion from a negative premise",
+    "url": "https://logfall.com/fallacies/affirmative-conclusion-from-a-negative-premise/"
+  },
+  {
+    "name": "Affirming a disjunct",
+    "url": "https://logfall.com/fallacies/affirming-a-disjunct/"
+  },
+  {
+    "name": "Affirming the consequent",
+    "url": "https://logfall.com/fallacies/affirming-the-consequent/"
+  },
+  {
+    "name": "All or nothing fallacy",
+    "url": "https://logfall.com/fallacies/all-or-nothing-fallacy/"
+  },
+  {
+    "name": "Anecdotal fallacy",
+    "url": "https://logfall.com/fallacies/anecdotal-fallacy/"
+  },
+  {
+    "name": "Appeal to accomplishment",
+    "url": "https://logfall.com/fallacies/appeal-to-accomplishment/"
+  },
+  {
+    "name": "Appeal to authority",
+    "url": "https://logfall.com/fallacies/appeal-to-authority/"
+  },
+  {
+    "name": "Appeal to consequences",
+    "url": "https://logfall.com/fallacies/appeal-to-consequences/"
+  },
+  {
+    "name": "Appeal to emotion",
+    "url": "https://logfall.com/fallacies/appeal-to-emotion/"
+  },
+  {
+    "name": "Appeal to fear",
+    "url": "https://logfall.com/fallacies/appeal-to-fear/"
+  },
+  {
+    "name": "Appeal to flattery",
+    "url": "https://logfall.com/fallacies/appeal-to-flattery/"
+  },
+  {
+    "name": "Appeal to motive",
+    "url": "https://logfall.com/fallacies/appeal-to-motive/"
+  },
+  {
+    "name": "Appeal to nature",
+    "url": "https://logfall.com/fallacies/appeal-to-nature/"
+  },
+  {
+    "name": "Appeal to novelty",
+    "url": "https://logfall.com/fallacies/appeal-to-novelty/"
+  },
+  {
+    "name": "Appeal to pity",
+    "url": "https://logfall.com/fallacies/appeal-to-pity/"
+  },
+  {
+    "name": "Appeal to poverty",
+    "url": "https://logfall.com/fallacies/appeal-to-poverty/"
+  },
+  {
+    "name": "Appeal to probability",
+    "url": "https://logfall.com/fallacies/appeal-to-probability/"
+  },
+  {
+    "name": "Appeal to ridicule",
+    "url": "https://logfall.com/fallacies/appeal-to-ridicule/"
+  },
+  {
+    "name": "Appeal to spite",
+    "url": "https://logfall.com/fallacies/appeal-to-spite/"
+  },
+  {
+    "name": "Appeal to tradition",
+    "url": "https://logfall.com/fallacies/appeal-to-tradition/"
+  },
+  {
+    "name": "Appeal to wealth",
+    "url": "https://logfall.com/fallacies/appeal-to-wealth/"
+  },
+  {
+    "name": "Argument from fallacy",
+    "url": "https://logfall.com/fallacies/argument-from-fallacy/"
+  },
+  {
+    "name": "Argument from ignorance",
+    "url": "https://logfall.com/fallacies/argument-from-ignorance/"
+  },
+  {
+    "name": "Argument from incredulity",
+    "url": "https://logfall.com/fallacies/argument-from-incredulity/"
+  },
+  {
+    "name": "Argument from repetition",
+    "url": "https://logfall.com/fallacies/argument-from-repetition/"
+  },
+  {
+    "name": "Argument from silence",
+    "url": "https://logfall.com/fallacies/argument-from-silence/"
+  },
+  {
+    "name": "Argumentum ad baculum",
+    "url": "https://logfall.com/fallacies/argumentum-ad-baculum/"
+  },
+  {
+    "name": "Argumentum ad populum",
+    "url": "https://logfall.com/fallacies/argumentum-ad-populum/"
+  },
+  {
+    "name": "Artificial negation",
+    "url": "https://logfall.com/fallacies/artificial-negation/"
+  },
+  {
+    "name": "Association fallacy",
+    "url": "https://logfall.com/fallacies/association-fallacy/"
+  },
+  {
+    "name": "Bare assertion fallacy",
+    "url": "https://logfall.com/fallacies/bare-assertion-fallacy/"
+  },
+  {
+    "name": "Base rate fallacy",
+    "url": "https://logfall.com/fallacies/base-rate-fallacy/"
+  },
+  {
+    "name": "Begging the question",
+    "url": "https://logfall.com/fallacies/begging-the-question/"
+  },
+  {
+    "name": "Bottom-up condemnation",
+    "url": "https://logfall.com/fallacies/bottom-up-condemnation/"
+  },
+  {
+    "name": "Bottom-up justification",
+    "url": "https://logfall.com/fallacies/bottom-up-justification/"
+  },
+  {
+    "name": "Broken window fallacy",
+    "url": "https://logfall.com/fallacies/broken-window-fallacy/"
+  },
+  {
+    "name": "Cherry picking",
+    "url": "https://logfall.com/fallacies/cherry-picking/"
+  },
+  {
+    "name": "Chronological snobbery",
+    "url": "https://logfall.com/fallacies/chronological-snobbery/"
+  },
+  {
+    "name": "Circular cause and consequence",
+    "url": "https://logfall.com/fallacies/circular-cause-and-consequence/"
+  },
+  {
+    "name": "Composition fallacy",
+    "url": "https://logfall.com/fallacies/composition-fallacy/"
+  },
+  {
+    "name": "Confidence as a validator",
+    "url": "https://logfall.com/fallacies/confidence-as-a-validator/"
+  },
+  {
+    "name": "Conjunction fallacy",
+    "url": "https://logfall.com/fallacies/conjunction-fallacy/"
+  },
+  {
+    "name": "Contextomy",
+    "url": "https://logfall.com/fallacies/contextomy/"
+  },
+  {
+    "name": "Continuum fallacy",
+    "url": "https://logfall.com/fallacies/continuum-fallacy/"
+  },
+  {
+    "name": "Correlation is not causation",
+    "url": "https://logfall.com/fallacies/correlation-is-not-causation/"
+  },
+  {
+    "name": "Definist fallacy",
+    "url": "https://logfall.com/fallacies/definist-fallacy/"
+  },
+  {
+    "name": "Demanding a mechanism",
+    "url": "https://logfall.com/fallacies/demanding-a-mechanism/"
+  },
+  {
+    "name": "Demanding negative proof",
+    "url": "https://logfall.com/fallacies/demanding-negative-proof/"
+  },
+  {
+    "name": "Denial of the epistemic gradient",
+    "url": "https://logfall.com/fallacies/denial-of-the-epistemic-gradient/"
+  },
+  {
+    "name": "Denying a remote hypothetical",
+    "url": "https://logfall.com/fallacies/denying-a-remote-hypothetical/"
+  },
+  {
+    "name": "Denying the antecedent",
+    "url": "https://logfall.com/fallacies/denying-the-antecedent/"
+  },
+  {
+    "name": "Denying the correlative",
+    "url": "https://logfall.com/fallacies/denying-the-correlative/"
+  },
+  {
+    "name": "Division fallacy",
+    "url": "https://logfall.com/fallacies/division-fallacy/"
+  },
+  {
+    "name": "Ecological fallacy",
+    "url": "https://logfall.com/fallacies/ecological-fallacy/"
+  },
+  {
+    "name": "Empty refutation",
+    "url": "https://logfall.com/fallacies/empty-refutation/"
+  },
+  {
+    "name": "Epistemic/ontological conflation",
+    "url": "https://logfall.com/fallacies/epistemic-ontological-conflation/"
+  },
+  {
+    "name": "Equivocation",
+    "url": "https://logfall.com/fallacies/equivocation/"
+  },
+  {
+    "name": "Equivocation fallacy",
+    "url": "https://logfall.com/fallacies/equivocation-fallacy/"
+  },
+  {
+    "name": "Etymological fallacy",
+    "url": "https://logfall.com/fallacies/etymological-fallacy/"
+  },
+  {
+    "name": "Exclusive premises",
+    "url": "https://logfall.com/fallacies/exclusive-premises/"
+  },
+  {
+    "name": "Existential fallacy",
+    "url": "https://logfall.com/fallacies/existential-fallacy/"
+  },
+  {
+    "name": "Fallacy of many questions",
+    "url": "https://logfall.com/fallacies/fallacy-of-many-questions/"
+  },
+  {
+    "name": "Fallacy of necessity",
+    "url": "https://logfall.com/fallacies/fallacy-of-necessity/"
+  },
+  {
+    "name": "False analogy",
+    "url": "https://logfall.com/fallacies/false-analogy/"
+  },
+  {
+    "name": "False attribution",
+    "url": "https://logfall.com/fallacies/false-attribution/"
+  },
+  {
+    "name": "False balance",
+    "url": "https://logfall.com/fallacies/false-balance/"
+  },
+  {
+    "name": "False compromise",
+    "url": "https://logfall.com/fallacies/false-compromise/"
+  },
+  {
+    "name": "False dilemma",
+    "url": "https://logfall.com/fallacies/false-dilemma/"
+  },
+  {
+    "name": "False equivalence",
+    "url": "https://logfall.com/fallacies/false-equivalence/"
+  },
+  {
+    "name": "False surrender",
+    "url": "https://logfall.com/fallacies/false-surrender/"
+  },
+  {
+    "name": "Faulty generalization",
+    "url": "https://logfall.com/fallacies/faulty-generalization/"
+  },
+  {
+    "name": "For the sake of argument denial",
+    "url": "https://logfall.com/fallacies/for-the-sake-of-argument-denial/"
+  },
+  {
+    "name": "Four terms fallacy",
+    "url": "https://logfall.com/fallacies/four-terms-fallacy/"
+  },
+  {
+    "name": "Gambler's fallacy",
+    "url": "https://logfall.com/fallacies/gambler-s-fallacy/"
+  },
+  {
+    "name": "Genetic fallacy",
+    "url": "https://logfall.com/fallacies/genetic-fallacy/"
+  },
+  {
+    "name": "Hasty generalization",
+    "url": "https://logfall.com/fallacies/hasty-generalization/"
+  },
+  {
+    "name": "Historian's fallacy",
+    "url": "https://logfall.com/fallacies/historian-s-fallacy/"
+  },
+  {
+    "name": "Homunculus fallacy",
+    "url": "https://logfall.com/fallacies/homunculus-fallacy/"
+  },
+  {
+    "name": "Human standard fallacy",
+    "url": "https://logfall.com/fallacies/human-standard-fallacy/"
+  },
+  {
+    "name": "If-by-whiskey",
+    "url": "https://logfall.com/fallacies/if-by-whiskey/"
+  },
+  {
+    "name": "Illicit major",
+    "url": "https://logfall.com/fallacies/illicit-major/"
+  },
+  {
+    "name": "Impotent logical space",
+    "url": "https://logfall.com/fallacies/impotent-logical-space/"
+  },
+  {
+    "name": "Incomplete comparison",
+    "url": "https://logfall.com/fallacies/incomplete-comparison/"
+  },
+  {
+    "name": "Inconsistent comparison",
+    "url": "https://logfall.com/fallacies/inconsistent-comparison/"
+  },
+  {
+    "name": "Intentional fallacy",
+    "url": "https://logfall.com/fallacies/intentional-fallacy/"
+  },
+  {
+    "name": "Is-ought problem",
+    "url": "https://logfall.com/fallacies/is-ought-problem/"
+  },
+  {
+    "name": "Judgmental language",
+    "url": "https://logfall.com/fallacies/judgmental-language/"
+  },
+  {
+    "name": "Linearity fallacy",
+    "url": "https://logfall.com/fallacies/linearity-fallacy/"
+  },
+  {
+    "name": "Luddite fallacy",
+    "url": "https://logfall.com/fallacies/luddite-fallacy/"
+  },
+  {
+    "name": "Masked man fallacy",
+    "url": "https://logfall.com/fallacies/masked-man-fallacy/"
+  },
+  {
+    "name": "Misleading vividness",
+    "url": "https://logfall.com/fallacies/misleading-vividness/"
+  },
+  {
+    "name": "Motte and bailey fallacy",
+    "url": "https://logfall.com/fallacies/motte-and-bailey-fallacy/"
+  },
+  {
+    "name": "Moving the goalpost",
+    "url": "https://logfall.com/fallacies/moving-the-goalpost/"
+  },
+  {
+    "name": "Naturalistic fallacy",
+    "url": "https://logfall.com/fallacies/naturalistic-fallacy/"
+  },
+  {
+    "name": "Negative proof fallacy",
+    "url": "https://logfall.com/fallacies/negative-proof-fallacy/"
+  },
+  {
+    "name": "Nirvana fallacy",
+    "url": "https://logfall.com/fallacies/nirvana-fallacy/"
+  },
+  {
+    "name": "No True Scotsman",
+    "url": "https://logfall.com/fallacies/no-true-scotsman/"
+  },
+  {
+    "name": "Overwhelming exception",
+    "url": "https://logfall.com/fallacies/overwhelming-exception/"
+  },
+  {
+    "name": "Package-deal fallacy",
+    "url": "https://logfall.com/fallacies/package-deal-fallacy/"
+  },
+  {
+    "name": "Pathetic fallacy",
+    "url": "https://logfall.com/fallacies/pathetic-fallacy/"
+  },
+  {
+    "name": "Perfect solution fallacy",
+    "url": "https://logfall.com/fallacies/perfect-solution-fallacy/"
+  },
+  {
+    "name": "Perfect standard",
+    "url": "https://logfall.com/fallacies/perfect-standard/"
+  },
+  {
+    "name": "Perverted analogy",
+    "url": "https://logfall.com/fallacies/perverted-analogy/"
+  },
+  {
+    "name": "Piggy-back assumption",
+    "url": "https://logfall.com/fallacies/piggy-back-assumption/"
+  },
+  {
+    "name": "Poisoning the well",
+    "url": "https://logfall.com/fallacies/poisoning-the-well/"
+  },
+  {
+    "name": "Post hoc ergo propter hoc",
+    "url": "https://logfall.com/fallacies/post-hoc-ergo-propter-hoc/"
+  },
+  {
+    "name": "Proof by example",
+    "url": "https://logfall.com/fallacies/proof-by-example/"
+  },
+  {
+    "name": "Proof by verbosity",
+    "url": "https://logfall.com/fallacies/proof-by-verbosity/"
+  },
+  {
+    "name": "Prosecutor's fallacy",
+    "url": "https://logfall.com/fallacies/prosecutor-s-fallacy/"
+  },
+  {
+    "name": "Psychologist's fallacy",
+    "url": "https://logfall.com/fallacies/psychologist-s-fallacy/"
+  },
+  {
+    "name": "Red herring",
+    "url": "https://logfall.com/fallacies/red-herring/"
+  },
+  {
+    "name": "Redeeming illogic with evidence",
+    "url": "https://logfall.com/fallacies/redeeming-illogic-with-evidence/"
+  },
+  {
+    "name": "Regression fallacy",
+    "url": "https://logfall.com/fallacies/regression-fallacy/"
+  },
+  {
+    "name": "Reification",
+    "url": "https://logfall.com/fallacies/reification/"
+  },
+  {
+    "name": "Retrospective determinism",
+    "url": "https://logfall.com/fallacies/retrospective-determinism/"
+  },
+  {
+    "name": "Semantic pixelization",
+    "url": "https://logfall.com/fallacies/semantic-pixelization/"
+  },
+  {
+    "name": "Sentimental fallacy",
+    "url": "https://logfall.com/fallacies/sentimental-fallacy/"
+  },
+  {
+    "name": "Sharpshooter fallacy",
+    "url": "https://logfall.com/fallacies/sharpshooter-fallacy/"
+  },
+  {
+    "name": "Single cause fallacy",
+    "url": "https://logfall.com/fallacies/single-cause-fallacy/"
+  },
+  {
+    "name": "Slippery slope",
+    "url": "https://logfall.com/fallacies/slippery-slope/"
+  },
+  {
+    "name": "Special pleading",
+    "url": "https://logfall.com/fallacies/special-pleading/"
+  },
+  {
+    "name": "Spotlight fallacy",
+    "url": "https://logfall.com/fallacies/spotlight-fallacy/"
+  },
+  {
+    "name": "Square logic",
+    "url": "https://logfall.com/fallacies/square-logic/"
+  },
+  {
+    "name": "Straw man argument",
+    "url": "https://logfall.com/fallacies/straw-man-argument/"
+  },
+  {
+    "name": "Style over substance fallacy",
+    "url": "https://logfall.com/fallacies/style-over-substance-fallacy/"
+  },
+  {
+    "name": "Suppressed correlative",
+    "url": "https://logfall.com/fallacies/suppressed-correlative/"
+  },
+  {
+    "name": "Survivorship bias",
+    "url": "https://logfall.com/fallacies/survivorship-bias/"
+  },
+  {
+    "name": "Teleological fallacy",
+    "url": "https://logfall.com/fallacies/teleological-fallacy/"
+  },
+  {
+    "name": "Thought-terminating clich\u00e9",
+    "url": "https://logfall.com/fallacies/thought-terminating-clich/"
+  },
+  {
+    "name": "Top-down condemnation",
+    "url": "https://logfall.com/fallacies/top-down-condemnation/"
+  },
+  {
+    "name": "Top-down faulty generalization",
+    "url": "https://logfall.com/fallacies/top-down-faulty-generalization/"
+  },
+  {
+    "name": "Top-down justification",
+    "url": "https://logfall.com/fallacies/top-down-justification/"
+  },
+  {
+    "name": "Track-record reset",
+    "url": "https://logfall.com/fallacies/track-record-reset/"
+  },
+  {
+    "name": "Tu quoque",
+    "url": "https://logfall.com/fallacies/tu-quoque/"
+  },
+  {
+    "name": "Two wrongs make a right",
+    "url": "https://logfall.com/fallacies/two-wrongs-make-a-right/"
+  },
+  {
+    "name": "Undistributed middle",
+    "url": "https://logfall.com/fallacies/undistributed-middle/"
+  },
+  {
+    "name": "Vague insulators",
+    "url": "https://logfall.com/fallacies/vague-insulators/"
+  },
+  {
+    "name": "Wishful thinking",
+    "url": "https://logfall.com/fallacies/wishful-thinking/"
+  },
+  {
+    "name": "Witness chain",
+    "url": "https://logfall.com/fallacies/witness-chain/"
+  },
+  {
+    "name": "Wrong causal direction",
+    "url": "https://logfall.com/fallacies/wrong-causal-direction/"
+  }
+]

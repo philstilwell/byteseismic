@@ -30,6 +30,12 @@ SITE_ORIGIN = "https://byteseismic.com"
 SITE_TITLE = "Byteseismic Philosophy"
 SITE_TAGLINE = "A branching inquiry network for concepts, thinkers, arguments, and disciplined philosophy."
 SITE_IMAGE_PATH = "/assets/images/byteseismic-large-header-x.5-b-8000-x-800-px.png"
+LOGFALL_SITE_URL = "https://logfall.com/"
+LOGFALL_ALL_FALLACIES_URL = "https://logfall.com/fallacies/"
+LOGFALL_FALLACIES_PATH = Path(__file__).with_name("logfall_fallacies.json")
+SAFE_SINGLE_WORD_LOGFALL_ALIASES = {"equivocation"}
+BLOCKED_GENERIC_LOGFALL_ALIASES = {"argument from", "appeal to"}
+BLOCKED_GENERIC_LOGFALL_SUFFIX_WORDS = {"from", "to", "of", "for", "with", "and", "or", "s"}
 BUILD_DATE = date.today()
 BUILD_DATE_TEXT = f"{BUILD_DATE.strftime('%B')} {BUILD_DATE.day}, {BUILD_DATE.year}"
 CLOUDFLARE_ANALYTICS_SNIPPET = (
@@ -3651,6 +3657,172 @@ def normalized_phrase(text: str) -> str:
     return re.sub(r"[^a-z0-9]+", " ", clean_text(text).lower()).strip()
 
 
+def load_logfall_fallacies() -> list[dict]:
+    if not LOGFALL_FALLACIES_PATH.exists():
+        return []
+    try:
+        payload = json.loads(LOGFALL_FALLACIES_PATH.read_text())
+    except json.JSONDecodeError:
+        return []
+    if not isinstance(payload, list):
+        return []
+    items = []
+    for item in payload:
+        if not isinstance(item, dict):
+            continue
+        name = clean_text(item.get("name", ""))
+        url = clean_text(item.get("url", ""))
+        if name and url:
+            items.append({"name": name, "url": url})
+    return items
+
+
+def logfall_alias_variants(alias: str) -> list[str]:
+    variants = [alias]
+    if "'" in alias:
+        variants.append(alias.replace("'", "’"))
+    if "’" in alias:
+        variants.append(alias.replace("’", "'"))
+    return dedupe([variant for variant in variants if variant])
+
+
+def allow_generic_logfall_alias(alias: str) -> bool:
+    normalized = normalized_phrase(alias)
+    if not normalized:
+        return False
+    if normalized in BLOCKED_GENERIC_LOGFALL_ALIASES:
+        return False
+    words = normalized.split()
+    if len(words) == 1:
+        return normalized in SAFE_SINGLE_WORD_LOGFALL_ALIASES
+    return words[-1] not in BLOCKED_GENERIC_LOGFALL_SUFFIX_WORDS
+
+
+def build_logfall_link_catalog() -> tuple[dict[str, str], re.Pattern[str] | None]:
+    canonical_entries = {item["name"]: item["url"] for item in load_logfall_fallacies()}
+    aliases: dict[str, str] = {}
+    raw_phrases: set[str] = set()
+
+    def register(alias: str, target: str) -> None:
+        if not alias:
+            return
+        url = canonical_entries.get(target, target)
+        if not url:
+            return
+        for variant in logfall_alias_variants(clean_text(alias)):
+            normalized = normalized_phrase(variant)
+            if not normalized:
+                continue
+            aliases[normalized] = url
+            raw_phrases.add(variant)
+
+    for name, url in canonical_entries.items():
+        register(name, url)
+        lowered = name.lower()
+        if not lowered.endswith(" fallacy"):
+            register(f"{name} fallacy", url)
+        if lowered.endswith(" argument"):
+            stripped = clean_text(name[:-9])
+            if allow_generic_logfall_alias(stripped):
+                register(stripped, url)
+        if lowered.endswith(" fallacy"):
+            stripped = clean_text(name[:-8])
+            if allow_generic_logfall_alias(stripped):
+                register(stripped, url)
+
+    manual_aliases = {
+        "LogFall": LOGFALL_SITE_URL,
+        "logfall.com": LOGFALL_SITE_URL,
+        "logical fallacies": LOGFALL_ALL_FALLACIES_URL,
+        "logical fallacy": LOGFALL_ALL_FALLACIES_URL,
+        "common fallacies": LOGFALL_ALL_FALLACIES_URL,
+        "list of fallacies": LOGFALL_ALL_FALLACIES_URL,
+        "fallacy detection": LOGFALL_ALL_FALLACIES_URL,
+        "false dichotomy": "False dilemma",
+        "false dichotomies": "False dilemma",
+        "strawman": "Straw man argument",
+        "strawman fallacy": "Straw man argument",
+        "straw man": "Straw man argument",
+        "straw man fallacy": "Straw man argument",
+        "straw man arguments": "Straw man argument",
+        "strawman arguments": "Straw man argument",
+        "appeal to popularity": "Argumentum ad populum",
+        "appeal to the crowd": "Argumentum ad populum",
+        "appeal to the people": "Argumentum ad populum",
+        "ad populum": "Argumentum ad populum",
+        "appeals to authority": "Appeal to authority",
+        "appeals to emotion": "Appeal to emotion",
+        "appeals to ignorance": "Appeal to ignorance",
+        "appeals to fear": "Appeal to fear",
+        "appeals to ridicule": "Appeal to ridicule",
+        "burden of proof": "Demanding negative proof",
+        "shifting the burden of proof": "Demanding negative proof",
+        "fallacy of division": "Division fallacy",
+        "post hoc": "Post hoc ergo propter hoc",
+        "post hoc fallacy": "Post hoc ergo propter hoc",
+        "motive fallacy": "Appeal to motive",
+        "deflecting to experts": "Appeal to authority",
+        "false equivalencies": "False equivalence",
+        "tu quoque or you too": "Tu quoque",
+        "you too": "Tu quoque",
+        "steppingstone fallacy": "Slippery slope",
+        "the steppingstone fallacy": "Slippery slope",
+        "gambler's fallacy": "Gambler's fallacy",
+        "gambler’s fallacy": "Gambler's fallacy",
+        "equivocation on wrong": "Equivocation",
+        "correlation and causation": "Correlation is not causation",
+    }
+    for alias, target in manual_aliases.items():
+        register(alias, target)
+
+    if not aliases or not raw_phrases:
+        return aliases, None
+    escaped_phrases = [re.escape(phrase) for phrase in sorted(raw_phrases, key=len, reverse=True)]
+    pattern = re.compile(rf"(?<![\w-])({'|'.join(escaped_phrases)})(?![\w-])", flags=re.IGNORECASE)
+    return aliases, pattern
+
+
+LOGFALL_LINKS_BY_PHRASE, LOGFALL_LINK_PATTERN = build_logfall_link_catalog()
+
+
+def logfall_url_for_phrase(phrase: str) -> str | None:
+    return LOGFALL_LINKS_BY_PHRASE.get(normalized_phrase(phrase))
+
+
+def logfall_anchor_html(label: str, url: str) -> str:
+    return (
+        f'<a class="text-link" href="{html.escape(url)}" rel="noopener noreferrer">'
+        f"{html.escape(label)}</a>"
+    )
+
+
+def inject_logfall_placeholders(text: str) -> tuple[str, dict[str, str]]:
+    if not LOGFALL_LINK_PATTERN:
+        return text, {}
+
+    placeholders: dict[str, str] = {}
+
+    if "https://en.wikipedia.org/wiki/List_of_fallacies" in text:
+        key = f"__LOGFALL_LINK_{len(placeholders)}__"
+        placeholders[key] = logfall_anchor_html("LogFall's fallacy index", LOGFALL_ALL_FALLACIES_URL)
+        text = text.replace("https://en.wikipedia.org/wiki/List_of_fallacies", key)
+
+    if not LOGFALL_LINK_PATTERN.search(text):
+        return text, placeholders
+
+    def replace(match: re.Match[str]) -> str:
+        phrase = match.group(0)
+        url = logfall_url_for_phrase(phrase)
+        if not url:
+            return phrase
+        key = f"__LOGFALL_LINK_{len(placeholders)}__"
+        placeholders[key] = logfall_anchor_html(phrase, url)
+        return key
+
+    replaced = LOGFALL_LINK_PATTERN.sub(replace, text)
+    return replaced, placeholders
+
+
 def default_tag_label(tag: str) -> str:
     if tag in SECTION_META:
         return SECTION_META[tag]["name"]
@@ -4057,6 +4229,7 @@ def emphasize_escaped_phrase(rendered: str, phrase: str, tag: str) -> str:
 
 def render_inline_text(text: str) -> str:
     text = re.sub(r"\bMisalignment Elaboration\b", "misalignment comparisons", text)
+    text, placeholders = inject_logfall_placeholders(text)
     rendered = html.escape(text)
     rendered = re.sub(r"\*\*\s*(.+?)\s*\*\*", r"<strong>\1</strong>", rendered)
     rendered = rendered.replace("**", "")
@@ -4064,6 +4237,8 @@ def render_inline_text(text: str) -> str:
         rendered = emphasize_escaped_phrase(rendered, phrase, "strong")
     for phrase in sorted(INLINE_EMPHASIS_PHRASES, key=len, reverse=True):
         rendered = emphasize_escaped_phrase(rendered, phrase, "em")
+    for placeholder, anchor_html in placeholders.items():
+        rendered = rendered.replace(placeholder, anchor_html)
     return rendered
 
 
@@ -7565,7 +7740,7 @@ def render_reading_path_cards(page: dict, prefix: str) -> str:
                         {html.escape(item['title'])}
                       </a>
                       <p class="reading-path-card__meta">{html.escape(item['meta'])}</p>
-                      <p class="reading-path-card__reason">{html.escape(item['reason'])}</p>
+                      <p class="reading-path-card__reason">{render_inline_text(item['reason'])}</p>
                     </li>"""
             )
             for item in items
@@ -7785,7 +7960,7 @@ def render_article_page(page: dict) -> str:
               <li>
                 <a class="prompt-ledger__link" href="#{anchor}">
                   <span class="prompt-number" aria-hidden="true">{index}</span>
-                  <span class="prompt-ledger__text">{html.escape(text)}</span>
+                  <span class="prompt-ledger__text">{render_inline_text(text)}</span>
                 </a>
               </li>"""
         )
@@ -7809,13 +7984,13 @@ def render_article_page(page: dict) -> str:
         if prompt_number is not None and prompt_text:
             prompt_note = (
                 f'              <p class="article-section__prompt">'
-                f'<span>Prompt {prompt_number}:</span> {html.escape(prompt_text)}</p>'
+                f'<span>Prompt {prompt_number}:</span> {render_inline_text(prompt_text)}</p>'
             )
         block = [
             f'            <section class="{section_class}" id="{section["id"]}"{quality_attrs}>',
             f'              <div class="article-section__meta">\n{prompt_marker}                <p class="eyebrow">{html.escape(section["eyebrow"])}</p>\n              </div>',
             prompt_note,
-            f'              <h2>{html.escape(section["heading"])}</h2>',
+            f'              <h2>{render_inline_text(section["heading"])}</h2>',
             render_paragraphs(section.get("paragraphs", [])),
         ]
         if section.get("dialogue_turns"):
@@ -7937,7 +8112,7 @@ def render_article_page(page: dict) -> str:
                   <p class="hero__kicker">{html.escape(section_meta["name"])}</p>
                   <h1>{html.escape(page["title"])}</h1>
                   <p class="article-standfirst">
-                    {html.escape(standfirst)}
+                    {render_inline_text(standfirst)}
                   </p>
 {page_signals}
                 </div>
@@ -8062,7 +8237,7 @@ def render_guided_route_cards(prefix: str = "") -> str:
             f"""\
                 <li>
                   <a href="{html.escape(internal_article_href(prefix, step['path']))}">{html.escape(step['title'])}</a>
-                  <span>{html.escape(step['reason'])}</span>
+                  <span>{render_inline_text(step['reason'])}</span>
                 </li>"""
             for step in route["steps"]
         )
@@ -8082,19 +8257,19 @@ def render_guided_route_cards(prefix: str = "") -> str:
                     </div>
                   </div>
                   <h3>{html.escape(route['title'])}</h3>
-                  <p>{html.escape(route['summary'])}</p>
+                  <p>{render_inline_text(route['summary'])}</p>
                   <div class="route-card__focus">
                     <div>
                       <p class="mini-label">Best if</p>
-                      <p>{html.escape(route['best_for'])}</p>
+                      <p>{render_inline_text(route['best_for'])}</p>
                     </div>
                     <div>
                       <p class="mini-label">Central question</p>
-                      <p>{html.escape(route['central_question'])}</p>
+                      <p>{render_inline_text(route['central_question'])}</p>
                     </div>
                     <div>
                       <p class="mini-label">By the end</p>
-                      <p>{html.escape(route['outcome'])}</p>
+                      <p>{render_inline_text(route['outcome'])}</p>
                     </div>
                   </div>
                   <ol class="route-steps">
@@ -8118,7 +8293,7 @@ def render_guided_route_picker(prefix: str = "") -> str:
                 <a class="route-picker__item" href="#route-{html.escape(route['id'])}">
                   <span class="route-picker__meta">{html.escape(route.get('difficulty', 'Route'))} / {html.escape(route.get('length', ''))}</span>
                   <strong>{html.escape(route['title'])}</strong>
-                  <span>{html.escape(route['summary'])}</span>
+                  <span>{render_inline_text(route['summary'])}</span>
                 </a>"""
             )
         )
@@ -8128,6 +8303,12 @@ def render_guided_route_picker(prefix: str = "") -> str:
 def render_glossary_cards(prefix: str = "") -> str:
     cards = []
     for entry in sorted(GLOSSARY_TERMS, key=lambda item: item["term"].lower()):
+        fallacy_url = logfall_url_for_phrase(entry["term"])
+        term_html = (
+            logfall_anchor_html(entry["term"], fallacy_url)
+            if fallacy_url
+            else html.escape(entry["term"])
+        )
         links = "\n".join(
             f'                    <a class="text-link" href="{html.escape(internal_article_href(prefix, path))}">{html.escape(path.strip("/").split("/")[-1].replace("-", " ").title())}</a>'
             for path in entry["paths"]
@@ -8138,8 +8319,8 @@ def render_glossary_cards(prefix: str = "") -> str:
                 f"""\
                 <article class="glossary-card" id="term-{slugify(entry['term'])}">
                   <p class="eyebrow">{html.escape(entry['branch'])}</p>
-                  <h3>{html.escape(entry['term'])}</h3>
-                  <p>{html.escape(entry['definition'])}</p>
+                  <h3>{term_html}</h3>
+                  <p>{render_inline_text(entry['definition'])}</p>
                   <div class="glossary-card__links">
 {links}
                   </div>
@@ -8426,11 +8607,11 @@ def render_branch_guide_page(section_id: str, pages: list[dict]) -> str:
         f"""\
                 <li>
                   <a href="{html.escape(internal_article_href(prefix, page['built_path']))}">{html.escape(page['title'])}</a>
-                  <span>{html.escape(feature_summary(page, meta))}</span>
+                  <span>{render_inline_text(feature_summary(page, meta))}</span>
                 </li>"""
         for page in entry_pages
     )
-    tension_items = "\n".join(f"                <li>{html.escape(item)}</li>" for item in profile["items"][:4])
+    tension_items = "\n".join(f"                <li>{render_inline_text(item)}</li>" for item in profile["items"][:4])
     branch_head = render_seo_head(
         title=f"{meta['name']} Branch Guide",
         description=f"A guided landing page for the {meta['name']} branch of Byteseismic.",
@@ -8466,7 +8647,7 @@ def render_branch_guide_page(section_id: str, pages: list[dict]) -> str:
                   </div>
                   <p class="hero__kicker">Branch Guide</p>
                   <h1>{html.escape(meta['name'])}</h1>
-                  <p class="article-standfirst">{html.escape(meta['summary'])}</p>
+                  <p class="article-standfirst">{render_inline_text(meta['summary'])}</p>
 {signals_html}
                 </div>
               </header>
@@ -8476,8 +8657,8 @@ def render_branch_guide_page(section_id: str, pages: list[dict]) -> str:
                   <section class="content-card">
                     <p class="eyebrow">Why This Branch Matters</p>
                     <h2>{html.escape(profile['standfirst'])}</h2>
-                    <p>{html.escape(profile['stakes'])}</p>
-                    <p>{html.escape(profile['route'])}</p>
+                    <p>{render_inline_text(profile['stakes'])}</p>
+                    <p>{render_inline_text(profile['route'])}</p>
                   </section>
 
                   <section class="content-card">
@@ -8535,7 +8716,7 @@ def render_tag_archive_page(tag: str, tagged_pages: list[dict], tag_counts: dict
             f"""\
                     <li>
                       <a href="{html.escape(internal_article_href(prefix, page['path']))}">{html.escape(page['title'])}</a>
-                      <span>{html.escape(page['summary'])}</span>
+                      <span>{render_inline_text(page['summary'])}</span>
                     </li>"""
             for page in section_pages
         )
