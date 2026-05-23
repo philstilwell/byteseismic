@@ -1550,6 +1550,12 @@ body.site-search-open {
   list-style: none;
 }
 
+@media (min-width: 1081px) {
+  .hero .page-signals {
+    max-width: min(760px, calc(100% - 340px));
+  }
+}
+
 .page-signals__item {
   min-width: 0;
   padding: 10px 12px;

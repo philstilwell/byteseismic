@@ -33,6 +33,7 @@ SITE_IMAGE_PATH = "/assets/images/byteseismic-large-header-x.5-b-8000-x-800-px.p
 LOGFALL_SITE_URL = "https://logfall.com/"
 LOGFALL_ALL_FALLACIES_URL = "https://logfall.com/fallacies/"
 LOGFALL_FALLACIES_PATH = Path(__file__).with_name("logfall_fallacies.json")
+CREDENCING_SITE_URL = "https://credencing.com/"
 SAFE_SINGLE_WORD_LOGFALL_ALIASES = {"equivocation"}
 BLOCKED_GENERIC_LOGFALL_ALIASES = {"argument from", "appeal to"}
 BLOCKED_GENERIC_LOGFALL_SUFFIX_WORDS = {"from", "to", "of", "for", "with", "and", "or", "s"}
@@ -4281,6 +4282,11 @@ def render_inline_text(text: str) -> str:
         rendered = emphasize_escaped_phrase(rendered, phrase, "strong")
     for phrase in sorted(INLINE_EMPHASIS_PHRASES, key=len, reverse=True):
         rendered = emphasize_escaped_phrase(rendered, phrase, "em")
+    rendered = re.sub(
+        r"(?<![\w/])(Credencing\.com|credencing\.com)(?![\w/])",
+        f'<a class="text-link" href="{CREDENCING_SITE_URL}" rel="noopener noreferrer">Credencing.com</a>',
+        rendered,
+    )
     for placeholder, anchor_html in placeholders.items():
         rendered = rendered.replace(placeholder, anchor_html)
     return rendered
@@ -4476,6 +4482,33 @@ def command_like_key(text: str) -> bool:
         or "the central distinction" in lowered
         or lowered == "revision request"
         or lowered.startswith("line is ")
+    )
+
+
+def section_needs_credencing_resource(page: dict, section: dict, prompt: str = "") -> bool:
+    combined = " ".join(
+        part
+        for part in (
+            page.get("title", ""),
+            prompt,
+            section.get("heading", ""),
+            " ".join(section.get("paragraphs", [])[:3]),
+            " ".join(section.get("list_items", [])[:2]),
+            " ".join(section.get("learning_items", [])[:2]),
+        )
+        if part
+    )
+    lowered = clean_text(combined).lower()
+    return any(
+        phrase in lowered
+        for phrase in (
+            "rationality",
+            "rational thought",
+            "core rationality",
+            "deep rationality",
+            "credence",
+            "credencing",
+        )
     )
 
 
@@ -4722,7 +4755,7 @@ def prompt_heading(prompt: str, topic: str) -> str:
         return "The question matters only if it becomes precise enough to settle something."
     if topic_for_heading.startswith("The "):
         topic_for_heading = "the " + topic_for_heading[4:]
-    return f"{topic_for_heading} becomes useful only when its standards are clear."
+    return f"Clear standards are what make {topic_for_heading} useful."
 
 
 def prompt_response_paragraphs(page: dict, prompt: str, index: int, detail: dict | None = None) -> list[str]:
@@ -5525,7 +5558,7 @@ def dialogue_learning_terms(detail: dict | None) -> list[str]:
         speaker = speaker_labels[speaker_index] if speaker_index < len(speaker_labels) else clean_text(turn.get("speaker", "")).strip(" :")
         text = clean_text(turn.get("text", ""))
         if speaker and len(speaker.split()) <= 6:
-            terms.append(display_label(speaker))
+            terms.append(display_label(strip_number_prefix(speaker)))
         if text:
             speaker_index += 1
         if text:
@@ -5533,7 +5566,7 @@ def dialogue_learning_terms(detail: dict | None) -> list[str]:
             candidate = label if label and body else ""
             candidate = clean_text(candidate).strip(" .:")
             if candidate and not command_like_key(candidate) and len(candidate.split()) <= 6:
-                terms.append(display_label(candidate))
+                terms.append(display_label(strip_number_prefix(candidate)))
     return dedupe([term for term in terms if term])[:4]
 
 
@@ -5553,8 +5586,8 @@ def detail_specific_learning_item(page: dict, prompt: str, detail: dict | None, 
         turns = dialogue_learning_terms(detail)
         turn_text = serial_join(turns[:3])
         return (
-            f"Track how the exchange moves from {turn_text or 'claim to objection to reply'}. "
-            "Each turn should sharpen the issue rather than merely lengthen the page."
+            f"The exchange works only if its movement through {turn_text or 'claim, objection, and reply'} "
+            "keeps bringing the issue into clearer focus. Each move should add pressure, clarity, or resistance, not just more length."
         )
     if focus == "definition":
         return (
@@ -8048,6 +8081,7 @@ def render_article_page(page: dict) -> str:
     )
 
     body_parts = []
+    credencing_note_added = False
     for section in sections:
         quality_attrs = ""
         prompt_number = prompt_index_by_anchor.get(section["id"])
@@ -8066,12 +8100,18 @@ def render_article_page(page: dict) -> str:
                 f'              <p class="article-section__prompt">'
                 f'<span>Prompt {prompt_number}:</span> {render_inline_text(prompt_text)}</p>'
             )
+        paragraphs = list(section.get("paragraphs", []))
+        if not credencing_note_added and section_needs_credencing_resource(page, section, prompt_text):
+            paragraphs.append(
+                "For a companion resource on calibration, credence, and structured rational judgment, see Credencing.com."
+            )
+            credencing_note_added = True
         block = [
             f'            <section class="{section_class}" id="{section["id"]}"{quality_attrs}>',
             f'              <div class="article-section__meta">\n{prompt_marker}                <p class="eyebrow">{html.escape(section["eyebrow"])}</p>\n              </div>',
             prompt_note,
             f'              <h2>{render_inline_text(section["heading"])}</h2>',
-            render_paragraphs(section.get("paragraphs", [])),
+            render_paragraphs(paragraphs),
         ]
         if section.get("dialogue_turns"):
             block.append(render_dialogue_card(section["dialogue_turns"], topic_label(page["title"])))
