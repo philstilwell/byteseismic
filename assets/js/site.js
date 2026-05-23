@@ -851,7 +851,11 @@
               if (compactMode && shell) {
                 shell.open = false;
               }
-              window.location.hash = rawHref.slice(1);
+              if (decodeURIComponent(window.location.hash || "") !== rawHref) {
+                window.location.hash = rawHref.slice(1);
+              } else {
+                revealHashTarget(rawHref);
+              }
               return;
             }
           }
@@ -878,6 +882,16 @@
       const trigger = event.target.closest("a[href^='#']");
       if (!trigger) {
         return;
+      }
+
+      const rawHref = trigger.getAttribute("href");
+      if (rawHref) {
+        event.preventDefault();
+        if (decodeURIComponent(window.location.hash || "") !== rawHref) {
+          window.location.hash = rawHref.slice(1);
+        } else {
+          revealHashTarget(rawHref);
+        }
       }
 
       if (window.innerWidth <= 760) {
@@ -1945,8 +1959,8 @@
     });
   }
 
-  function revealHashTarget() {
-    const hash = decodeURIComponent(window.location.hash || "");
+  function revealHashTarget(requestedHash) {
+    const hash = decodeURIComponent(requestedHash || window.location.hash || "");
     if (!hash || hash === "#") {
       return;
     }
@@ -1974,10 +1988,10 @@
       containingPanel.setAttribute("open", "");
     }
 
+    const scrollTarget = containingPanel || sectionCard || target;
     window.requestAnimationFrame(() => {
       window.setTimeout(() => {
-        const block = target.classList?.contains("article-section") ? "start" : "center";
-        target.scrollIntoView({ behavior: "smooth", block });
+        scrollTarget.scrollIntoView({ behavior: "smooth", block: "start" });
       }, 60);
     });
   }

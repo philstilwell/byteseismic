@@ -1021,6 +1021,10 @@ img {
   scroll-margin-top: 32px;
 }
 
+.home-panel {
+  scroll-margin-top: 20px;
+}
+
 .structure-card:target,
 .structure-card.is-anchor-target {
   border-color: rgba(164, 75, 31, 0.46);
@@ -1745,10 +1749,9 @@ body.site-search-open {
   border: 1px solid rgba(16, 38, 59, 0.12);
   background: rgba(255, 255, 255, 0.58);
   color: var(--ink-soft);
-  font-size: 0.72rem;
+  font-size: 0.66rem;
   font-weight: 700;
   text-decoration: none;
-  font: inherit;
   cursor: pointer;
 }
 
@@ -1779,7 +1782,7 @@ body.site-search-open {
   align-items: center;
   padding: 9px 10px;
   color: var(--ink);
-  font-size: 0.78rem;
+  font-size: 0.72rem;
   font-weight: 800;
 }
 
