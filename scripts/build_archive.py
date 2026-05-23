@@ -206,35 +206,52 @@ FEATURED_PAGE_SPECS = [
 
 GUIDED_READING_PATHS = [
     {
-        "id": "start-here",
-        "title": "Start Here: Philosophy Without Losing the Thread",
-        "summary": "A first route for readers who want the archive to feel navigable before it becomes wonderfully unruly.",
-        "audience": "New and returning readers",
+        "id": "new-to-philosophy",
+        "title": "New to Philosophy: Getting Your Bearings",
+        "summary": "A first route for readers who want the archive to feel navigable before it starts branching in five directions at once.",
+        "audience": "Foundational route for newcomers",
+        "difficulty": "Foundational",
+        "length": "4 steps",
+        "best_for": "Readers who want the site's aims, vocabulary, and habits of reading in view before they specialize.",
+        "central_question": "What kind of activity is philosophy, and what must a reader keep distinct if inquiry is going to remain disciplined rather than merely opinionated?",
+        "outcome": "By the end, you should be able to distinguish philosophical orientation, truth-talk, belief-management, and question-types well enough to enter later branches without getting lost.",
         "steps": [
             {"title": "What Is Philosophy?", "path": "/introduction/what-is-philosophy/", "reason": "Begin with the activity itself: philosophy as disciplined clarification rather than free-floating opinion."},
-            {"title": "What Is Truth?", "path": "/philosophical-inquiry/what-is-truth/", "reason": "Move next to the archive's central pressure: what it means for inquiry to answer to reality."},
-            {"title": "What Is Belief?", "path": "/epistemology/what-is-belief/", "reason": "Separate assent, confidence, evidence, and action-guiding commitment before the branches multiply."},
+            {"title": "What is Truth?", "path": "/philosophical-inquiry/what-is-truth/", "reason": "Move next to the archive's central pressure: what it means for inquiry to answer to reality."},
+            {"title": "What is Belief?", "path": "/epistemology/what-is-belief/", "reason": "Separate assent, confidence, evidence, and action-guiding commitment before the branches multiply."},
             {"title": "Categories of Questions", "path": "/rational-thought/categories-of-questions/", "reason": "Learn which questions call for empirical testing, conceptual analysis, prudential judgment, or moral argument."},
         ],
     },
     {
-        "id": "epistemic-discipline",
-        "title": "Epistemic Discipline: Belief, Evidence, and Responsible Confidence",
-        "summary": "A route through the archive's standards for holding, revising, suspending, or rejecting claims.",
-        "audience": "Readers interested in knowledge, doubt, and calibration",
+        "id": "truth-and-inquiry",
+        "title": "Truth and Inquiry: How Belief Answers to Reality",
+        "summary": "A route for readers who want to keep truth, evidence, confidence, and error-costs from collapsing into one another.",
+        "audience": "Truth, inquiry, and epistemic standards",
+        "difficulty": "Foundational to intermediate",
+        "length": "5 steps",
+        "best_for": "Readers who keep encountering phrases like 'my truth,' 'good evidence,' or 'I just know' and want a cleaner framework.",
+        "central_question": "How should a claim travel from impression to belief without losing contact with reality?",
+        "outcome": "By the end, you should be able to separate truth from sincerity, confidence from justification, and belief from the processes that revise it.",
         "steps": [
-            {"title": "What Is Belief?", "path": "/epistemology/what-is-belief/", "reason": "Start with the difference between binary belief-talk and graded confidence."},
+            {"title": "What is Truth?", "path": "/philosophical-inquiry/what-is-truth/", "reason": "Start with the difference between truth as correspondence and truth as whatever presently feels usable."},
+            {"title": "What is Belief?", "path": "/epistemology/what-is-belief/", "reason": "Clarify what it means to believe something before trying to regulate belief well."},
             {"title": "Adequate Evidence", "path": "/epistemology/adequate-evidence/", "reason": "Ask what kind and amount of support a claim needs before belief becomes responsible."},
-            {"title": "Operational Epistemic Rigor", "path": "/epistemology/operational-epistemic-rigor/", "reason": "Turn epistemic virtue into habits that can be used under actual pressure."},
-            {"title": "What Is Science?", "path": "/philosophy-of-science/what-is-science/", "reason": "See how public methods discipline belief without pretending science is the only form of inquiry."},
+            {"title": "Dangers: Cognitive Biases", "path": "/philosophical-inquiry/dangers-cognitive-biases/", "reason": "Notice how quickly a mind can counterfeit inquiry while telling itself it is being careful."},
+            {"title": "Operational Epistemic Rigor", "path": "/epistemology/operational-epistemic-rigor/", "reason": "Turn epistemic virtue into habits that can still function once pressure, uncertainty, and ego are all in the room."},
         ],
     },
     {
         "id": "metaethics-without-fog",
         "title": "Metaethics Without the Fog Machine",
         "summary": "A route for keeping moral realism, moral non-realism, recommendation, obligation, and equivocation distinct.",
-        "audience": "Readers willing to let moral language become difficult before it becomes clearer",
+        "audience": "Metaethics and moral language",
+        "difficulty": "Intermediate",
+        "length": "5 steps",
+        "best_for": "Readers who want hard metaethical disagreement without turning every moral claim into mush.",
+        "central_question": "When people call something right, wrong, obligatory, or merely advisable, what kind of claim are they actually making?",
+        "outcome": "By the end, you should be able to keep recommendation, obligation, realism, non-realism, and equivocation distinct enough to argue without smuggling conclusions in by vocabulary.",
         "steps": [
+            {"title": "What are Ethics?", "path": "/ethics/what-are-ethics/", "reason": "Begin by distinguishing ethics as a field of inquiry from the many things people casually stuff into the word."},
             {"title": "Recommendations vs Moral Claims", "path": "/ethics/recommendations-vs-moral-claims/", "reason": "Separate advice, preference, prudence, and moral demand before arguing over conclusions."},
             {"title": "Fictional Meta-Ethics Debate", "path": "/ethics/fictional-meta-ethics-debate/", "reason": "Watch positions collide in dialogue rather than pretending a taxonomy has settled the dispute."},
             {"title": "Equivocation on “Wrong”", "path": "/ethics/equivocation-on-wrong/", "reason": "Track how a single moral word can slide among pragmatic, social, legal, and objective senses."},
@@ -242,27 +259,39 @@ GUIDED_READING_PATHS = [
         ],
     },
     {
-        "id": "ai-and-truth",
-        "title": "AI and Truth: Prompting as an Epistemic Practice",
+        "id": "ai-and-rationality",
+        "title": "AI and Rationality: Using Models Without Abdicating Judgment",
         "summary": "A route through the archive's internal experiment: using AI while refusing to outsource judgment to it.",
-        "audience": "Readers interested in AI, truthfulness, prompting, and human responsibility",
+        "audience": "AI, prompting, and intellectual responsibility",
+        "difficulty": "Intermediate",
+        "length": "5 steps",
+        "best_for": "Readers who want to use AI as a thinking aid without handing over judgment to a very fast autocomplete with opinions.",
+        "central_question": "How can AI sharpen inquiry without quietly becoming the thing that decides what counts as a good answer?",
+        "outcome": "By the end, you should be able to prompt more precisely, inspect model reasoning more critically, and keep responsibility with the human evaluator.",
         "steps": [
             {"title": "Assessing AI Alignment with Truth", "path": "/philosophy-of-ai/assessing-ai-alignment-with-truth/", "reason": "Start with the question of whether fluent systems are actually answerable to truth."},
             {"title": "Precision Prompting", "path": "/philosophy-of-ai/precision-prompting/", "reason": "Treat prompting as a discipline of question design rather than a bag of magic words."},
             {"title": "AI Reasoning Case Study", "path": "/epistemology/ai-reasoning-case-study/", "reason": "Inspect how a model reasons when asked to explain, revise, and justify its answer."},
+            {"title": "AI Fact-Checking", "path": "/philosophy-of-ai/ai-fact-checking/", "reason": "See what happens when verification is treated as a workflow rather than a halo effect around confident prose."},
             {"title": "Operational Epistemic Rigor", "path": "/epistemology/operational-epistemic-rigor/", "reason": "Return responsibility to the human evaluator: the final judgment still has to be earned."},
         ],
     },
     {
-        "id": "philosophers-as-voices",
-        "title": "Philosophers as Voices, Not Nameplates",
+        "id": "major-philosophers",
+        "title": "Major Philosophers: Enter by Voice, Then by Contrast",
         "summary": "A route through philosopher pages where method, style, and objection matter as much as doctrine.",
-        "audience": "Readers who want thinkers to feel encounterable rather than embalmed",
+        "audience": "Readers who want live encounters with major thinkers",
+        "difficulty": "Foundational to intermediate",
+        "length": "5 steps",
+        "best_for": "Readers who learn more from an actual exchange than from a warehouse of doctrines.",
+        "central_question": "What becomes visible when philosophers are encountered through their characteristic moves, pressures, and replies rather than through flat labels?",
+        "outcome": "By the end, you should have a felt sense of how philosophical temperament, method, and objection fit together across very different thinkers.",
         "steps": [
             {"title": "Dialoguing with Epictetus", "path": "/philosophers/dialoguing-with-epictetus/", "reason": "Begin with a voice that makes philosophy practical, stern, and strangely relieving."},
             {"title": "Dialoguing with Aquinas", "path": "/philosophers/dialoguing-with-aquinas/", "reason": "Watch a systematic mind move through objection, answer, and reply."},
+            {"title": "Dialoguing with Hume", "path": "/philosophers/dialoguing-with-hume/", "reason": "Feel how skepticism can be both corrosive and clarifying when it is turned against easy certainty."},
             {"title": "Dialoguing with Nagarjuna", "path": "/philosophers/dialoguing-with-nagarjuna/", "reason": "Use dialogue to feel how anti-essentialist pressure changes the shape of a question."},
-            {"title": "Dialoguing with Marcus Aurelius", "path": "/philosophers/dialoguing-with-marcus-aurelius/", "reason": "End with philosophy as daily discipline rather than merely theoretical allegiance."},
+            {"title": "Charting Hume", "path": "/philosophers/charting-hume/", "reason": "End by converting one philosopher's voice into a comparison map so the route from encounter to orientation becomes explicit."},
         ],
     },
 ]
@@ -6845,6 +6874,10 @@ def branch_guide_path(section_id: str) -> str:
     return f"/branches/{section_id}/"
 
 
+def page_path_for_title(section_id: str, title: str) -> str:
+    return RENDER_PAGE_PATHS_BY_SECTION_TITLE.get((section_id, clean_page_title(title)), "")
+
+
 def breadcrumb_anchor(label: str, href: str) -> str:
     return f'<a href="{html.escape(href)}">{html.escape(label)}</a>'
 
@@ -6859,6 +6892,171 @@ def future_branch_link(title: str, built_path: str, prefix: str) -> str:
     if not built_path:
         return f"<strong>{escaped_title}</strong>"
     return f'<a class="future-link" href="{html.escape(internal_article_href(prefix, built_path))}">{escaped_title}</a>'
+
+
+def page_route_matches(page: dict) -> list[tuple[dict, int]]:
+    current_path = normalize_site_path(page.get("built_path", ""))
+    matches: list[tuple[dict, int]] = []
+    for route in GUIDED_READING_PATHS:
+        for index, step in enumerate(route.get("steps", [])):
+            if normalize_site_path(step.get("path", "")) == current_path:
+                matches.append((route, index))
+    return matches
+
+
+def reading_path_recommendations(page: dict) -> tuple[list[dict], list[dict]]:
+    section_name = SECTION_META[page["section_id"]]["name"]
+    section_id = page["section_id"]
+    current_path = normalize_site_path(page.get("built_path", ""))
+    seen_paths = {current_path}
+    before: list[dict] = []
+    after: list[dict] = []
+
+    def add_item(bucket: list[dict], path: str, title: str, meta: str, reason: str) -> None:
+        normalized = normalize_site_path(path)
+        if not normalized or normalized in seen_paths:
+            return
+        if any(item["path"] == normalized for item in bucket):
+            return
+        bucket.append(
+            {
+                "path": normalized,
+                "title": clean_text(title),
+                "meta": clean_text(meta),
+                "reason": clean_text(reason),
+            }
+        )
+        seen_paths.add(normalized)
+
+    parent_titles = page.get("parent_titles", [])
+    if parent_titles:
+        immediate_parent = parent_titles[-1]
+        parent_path = page_path_for_title(section_id, immediate_parent)
+        if parent_path:
+            add_item(
+                before,
+                parent_path,
+                immediate_parent,
+                "Wider frame",
+                f"{immediate_parent} gives this page its broader frame before the argument narrows into the present pressure.",
+            )
+
+    for route, index in page_route_matches(page):
+        steps = route.get("steps", [])
+        if index > 0 and page["section_id"] != "philosophers":
+            previous = steps[index - 1]
+            add_item(
+                before,
+                previous["path"],
+                previous["title"],
+                route["title"],
+                f"In the route “{route['title']},” this page lands better after {previous['title']}, where the setup has already been clarified.",
+            )
+
+    if len(before) < 2:
+        add_item(
+            before,
+            branch_guide_path(section_id),
+            f"{section_name} Branch Guide",
+            "Section guide",
+            f"If this page feels abrupt, start with the {section_name} branch guide so the wider map is visible before the close reading begins.",
+        )
+
+    for child in page.get("children", [])[:3]:
+        child_path = child.get("built_path") or page_path_for_title(section_id, child.get("title", ""))
+        add_item(
+            after,
+            child_path,
+            child.get("title", ""),
+            "Direct expansion",
+            f"This page opens naturally into {child.get('title', '')}, where one of its subquestions is treated more directly.",
+        )
+
+    def add_route_follow_ups() -> None:
+        for route, index in page_route_matches(page):
+            steps = route.get("steps", [])
+            if index < len(steps) - 1:
+                following = steps[index + 1]
+                add_item(
+                    after,
+                    following["path"],
+                    following["title"],
+                    route["title"],
+                    f"In the route “{route['title']},” {following['title']} is the next useful move because it sharpens what this page leaves open.",
+                )
+
+    def add_sibling_follow_ups() -> None:
+        sibling_titles = [title for title in page.get("sibling_titles", []) if title != page["title"]]
+        for sibling_title in sibling_titles[:4]:
+            sibling_path = page_path_for_title(section_id, sibling_title)
+            add_item(
+                after,
+                sibling_path,
+                sibling_title,
+                "Same branch",
+                f"{sibling_title} keeps the same branch pressure in view but turns it from a different angle.",
+            )
+
+    if page["section_id"] == "philosophers":
+        add_sibling_follow_ups()
+        add_route_follow_ups()
+    else:
+        add_route_follow_ups()
+        add_sibling_follow_ups()
+
+    if not after:
+        add_item(
+            after,
+            branch_guide_path(section_id),
+            f"{section_name} Branch Guide",
+            "Section guide",
+            f"If you want the wider continuation rather than a single next post, return to the {section_name} branch guide and choose the neighboring pressure that now feels most alive.",
+        )
+
+    return before[:2], after[:3]
+
+
+def render_reading_path_cards(page: dict, prefix: str) -> str:
+    before, after = reading_path_recommendations(page)
+    if not before and not after:
+        return ""
+
+    def render_items(items: list[dict]) -> str:
+        return "\n".join(
+            textwrap.dedent(
+                f"""\
+                    <li class="reading-path-card__item">
+                      <a class="reading-path-card__link" href="{html.escape(internal_article_href(prefix, item['path']))}">
+                        {html.escape(item['title'])}
+                      </a>
+                      <p class="reading-path-card__meta">{html.escape(item['meta'])}</p>
+                      <p class="reading-path-card__reason">{html.escape(item['reason'])}</p>
+                    </li>"""
+            )
+            for item in items
+        )
+
+    return textwrap.dedent(
+        f"""\
+                  <section class="reading-path-grid" id="reader-route">
+                    <article class="reading-path-card">
+                      <p class="eyebrow">Read This First</p>
+                      <h2>What gives this page its frame</h2>
+                      <p class="reading-path-card__intro">If the page feels abrupt, these links supply the wider frame or earlier distinction that helps the present argument land.</p>
+                      <ol class="reading-path-card__list">
+        {render_items(before)}
+                      </ol>
+                    </article>
+                    <article class="reading-path-card">
+                      <p class="eyebrow">Read This Next</p>
+                      <h2>Where the pressure naturally continues</h2>
+                      <p class="reading-path-card__intro">Once this page has done its work, these are the strongest continuations rather than mere nearby pages.</p>
+                      <ol class="reading-path-card__list">
+        {render_items(after)}
+                      </ol>
+                    </article>
+                  </section>"""
+    )
 
 
 def tag_page_path(tag: str) -> str:
@@ -7080,6 +7278,8 @@ def render_article_page(page: dict) -> str:
     quiz_block = f"\n\n{quiz_html}" if quiz_html else ""
     philosopher_texture = render_philosopher_source_texture_html(page)
     texture_block = f"\n\n{philosopher_texture}" if philosopher_texture else ""
+    reading_path_block = render_reading_path_cards(page, prefix)
+    reading_path_html = f"\n\n{reading_path_block}" if reading_path_block else ""
     page_url = absolute_site_url(page["built_path"])
     article_json = {
         "@context": "https://schema.org",
@@ -7162,7 +7362,7 @@ def render_article_page(page: dict) -> str:
                   </section>
 
                   <div class="article-body">
-        {texture_block}
+        {texture_block}{reading_path_html}
 
         {'\n\n'.join(body_parts)}{quiz_block}
 
@@ -7255,6 +7455,7 @@ def render_menu_structure_page() -> str:
 def render_guided_route_cards(prefix: str = "") -> str:
     cards = []
     for route in GUIDED_READING_PATHS:
+        start_href = internal_article_href(prefix, route["steps"][0]["path"])
         steps = "\n".join(
             f"""\
                 <li>
@@ -7263,20 +7464,63 @@ def render_guided_route_cards(prefix: str = "") -> str:
                 </li>"""
             for step in route["steps"]
         )
+        stats = "\n".join(
+            f'                  <span class="route-card__stat">{html.escape(value)}</span>'
+            for value in [route.get("difficulty", ""), route.get("length", "")]
+            if value
+        )
         cards.append(
             textwrap.dedent(
                 f"""\
                 <article class="route-card" id="route-{html.escape(route['id'])}">
-                  <p class="eyebrow">{html.escape(route['audience'])}</p>
+                  <div class="route-card__header">
+                    <p class="eyebrow">{html.escape(route['audience'])}</p>
+                    <div class="route-card__stats">
+{stats}
+                    </div>
+                  </div>
                   <h3>{html.escape(route['title'])}</h3>
                   <p>{html.escape(route['summary'])}</p>
+                  <div class="route-card__focus">
+                    <div>
+                      <p class="mini-label">Best if</p>
+                      <p>{html.escape(route['best_for'])}</p>
+                    </div>
+                    <div>
+                      <p class="mini-label">Central question</p>
+                      <p>{html.escape(route['central_question'])}</p>
+                    </div>
+                    <div>
+                      <p class="mini-label">By the end</p>
+                      <p>{html.escape(route['outcome'])}</p>
+                    </div>
+                  </div>
                   <ol class="route-steps">
 {steps}
                   </ol>
+                  <div class="route-card__actions">
+                    <a class="button button--ghost" href="{html.escape(start_href)}">Start route</a>
+                  </div>
                 </article>"""
             )
         )
     return "\n".join(cards)
+
+
+def render_guided_route_picker(prefix: str = "") -> str:
+    items = []
+    for route in GUIDED_READING_PATHS:
+        items.append(
+            textwrap.dedent(
+                f"""\
+                <a class="route-picker__item" href="#route-{html.escape(route['id'])}">
+                  <span class="route-picker__meta">{html.escape(route.get('difficulty', 'Route'))} / {html.escape(route.get('length', ''))}</span>
+                  <strong>{html.escape(route['title'])}</strong>
+                  <span>{html.escape(route['summary'])}</span>
+                </a>"""
+            )
+        )
+    return "\n".join(items)
 
 
 def render_glossary_cards(prefix: str = "") -> str:
@@ -7306,10 +7550,35 @@ def render_glossary_cards(prefix: str = "") -> str:
     return "\n".join(cards)
 
 
+def render_search_interface(input_id: str, *, sync_url: bool = False) -> str:
+    sync_attr = ' data-site-search-sync-url="q"' if sync_url else ""
+    return textwrap.dedent(
+        f"""\
+                <div class="site-search"{sync_attr} data-site-search-root>
+                  <label for="{html.escape(input_id)}">
+                    <span class="mini-label">Search the site</span>
+                    <span>Search pages, branch guides, guided routes, glossary terms, and tags.</span>
+                  </label>
+                  <p class="site-search__hint">Press <kbd>/</kbd> or <kbd>Cmd/Ctrl + K</kbd> anywhere on the site.</p>
+                  <div class="site-search__control">
+                    <input
+                      id="{html.escape(input_id)}"
+                      type="search"
+                      placeholder="Try belief, Aquinas, induction, moral realism..."
+                      autocomplete="off"
+                      data-site-search-input
+                    />
+                    <button class="button button--ghost" type="button" data-site-search-clear>Clear</button>
+                  </div>
+                  <div class="site-search__results" data-site-search-results></div>
+                </div>"""
+    )
+
+
 def render_guided_reading_page() -> str:
     guide_head = render_seo_head(
         title="Guided Reading Paths",
-        description="Curated reading routes through Byteseismic for epistemology, metaethics, AI, philosopher dialogues, and introductory philosophy.",
+        description="Curated reading routes through Byteseismic for newcomers, truth and inquiry, metaethics, AI and rationality, and major philosophers.",
         path="/guided-reading/",
         prefix="../",
         page_type="website",
@@ -7355,6 +7624,16 @@ def render_guided_reading_page() -> str:
                     <p>
                       The archive is intentionally branching, but a reader should not have to enter it by guesswork. These paths are editorial routes through the most useful entry points.
                     </p>
+                  </section>
+                  <section class="content-card">
+                    <p class="eyebrow">Choose an Entrance</p>
+                    <h2>Five strong ways into the archive.</h2>
+                    <p>
+                      Each route is built for a different need: orientation, truth and inquiry, metaethics, AI, or philosopher encounters. Choose the pressure you actually care about, not the one that merely happens to be nearest.
+                    </p>
+                    <div class="route-picker">
+{render_guided_route_picker("../")}
+                    </div>
                   </section>
                   <section class="route-grid">
 {render_guided_route_cards("../")}
@@ -7413,6 +7692,76 @@ def render_glossary_page() -> str:
                 <main class="article-stack">
                   <section class="glossary-grid">
 {render_glossary_cards("../")}
+                  </section>
+                </main>
+              </div>
+            </div>
+          </body>
+        </html>
+        """
+    )
+
+
+def render_search_page() -> str:
+    search_head = render_seo_head(
+        title="Site Search",
+        description="Search pages, branch guides, guided routes, glossary terms, and tags across Byteseismic.",
+        path="/search/",
+        prefix="../",
+        page_type="website",
+        extra_json_ld=[breadcrumb_json_ld([("Home", "/"), ("Site Search", "/search/")])],
+    )
+    breadcrumbs = breadcrumb_trail_html(
+        [
+            ("Home", "../index.html"),
+            ("Site Search", "../search/"),
+        ]
+    )
+    return textwrap.dedent(
+        f"""\
+        {AUTO_MARKER}
+        <!DOCTYPE html>
+        <html lang="en">
+          <head>
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+{search_head}
+          </head>
+          <body data-page-type="archive" data-current-page="/search/">
+            <div class="page-shell">
+              <header class="hero hero--article">
+                <img class="hero__image" src="../assets/images/byteseismic-large-header-x.5-b-8000-x-800-px.png" alt="Byteseismic banner" />
+                <div class="hero__content">
+                  <div class="breadcrumbs">
+                    {breadcrumbs}
+                  </div>
+                  <p class="hero__kicker">Navigation</p>
+                  <h1>Site Search</h1>
+                  <p class="article-standfirst">
+                    Search across pages, branch guides, guided routes, glossary terms, and discovery tags without having to guess which part of the archive already holds the thread.
+                  </p>
+                </div>
+              </header>
+
+              <div class="article-layout article-layout--single">
+                <main class="article-stack">
+                  <section class="content-card">
+                    <p class="eyebrow">Find Your Way</p>
+                    <h2>Search the archive like a map, not a heap.</h2>
+                    <p>
+                      Use this page when you know the concept, philosopher, branch, or pressure you want, but not yet the exact page where the work is being done.
+                    </p>
+{render_search_interface("site-search-page-input", sync_url=True)}
+                  </section>
+                  <section class="content-card">
+                    <p class="eyebrow">What Search Covers</p>
+                    <h2>The results pull from the site's main navigational layers.</h2>
+                    <ul>
+                      <li>Pages and branch guides for direct reading.</li>
+                      <li>Guided routes when you need a sequence rather than a single page.</li>
+                      <li>Glossary terms when the concept needs a stable entry point.</li>
+                      <li>Discovery tags when a theme runs across multiple branches.</li>
+                    </ul>
                   </section>
                 </main>
               </div>
@@ -8556,6 +8905,53 @@ def normalize_manual_prompt_system(target: Path) -> bool:
     return True
 
 
+def normalize_manual_breadcrumbs(target: Path, page: dict) -> bool:
+    if not target.exists():
+        return False
+    existing = target.read_text()
+    if AUTO_MARKER in existing or 'data-page-type="article"' not in existing:
+        return False
+
+    soup = BeautifulSoup(existing, "html.parser")
+    trail = soup.select_one(".hero .breadcrumbs") or soup.select_one(".breadcrumbs")
+    if trail is None:
+        return False
+
+    depth = len(Path(page["built_path"].strip("/")).parts)
+    prefix = "../" * depth
+    section_meta = SECTION_META[page["section_id"]]
+    branch_href = internal_article_href(prefix, branch_guide_path(page["section_id"]))
+    title_text = page.get("title") or clean_text((soup.find("h1") or trail).get_text(" ", strip=True))
+
+    replacement = BeautifulSoup(
+        textwrap.dedent(
+            f"""\
+            <div class="breadcrumbs">
+              <a href="{html.escape(prefix)}index.html">Home</a>
+              <span>/</span>
+              <a href="{html.escape(branch_href)}">{html.escape(section_meta["name"])}</a>
+              <span>/</span>
+              <span>{html.escape(title_text)}</span>
+            </div>"""
+        ),
+        "html.parser",
+    ).div
+    if replacement is None:
+        return False
+
+    current_markup = "".join(str(child) for child in trail.contents).strip()
+    replacement_markup = "".join(str(child) for child in replacement.contents).strip()
+    if current_markup == replacement_markup:
+        return False
+
+    trail.replace_with(replacement)
+    updated = str(soup)
+    if updated == existing:
+        return False
+    target.write_text(updated)
+    return True
+
+
 def manual_section_detail(section: Tag) -> dict:
     detail: dict = {
         "paragraphs": [],
@@ -8671,6 +9067,50 @@ def inject_learning_cards_into_manual_page(target: Path, page: dict) -> bool:
     return True
 
 
+def inject_reading_path_into_manual_page(target: Path, page: dict) -> bool:
+    if not target.exists():
+        return False
+    existing = target.read_text()
+    if AUTO_MARKER in existing or 'data-page-type="article"' not in existing:
+        return False
+
+    depth = len(Path(page["built_path"].strip("/")).parts)
+    prefix = "../" * depth
+    reading_path_html = render_reading_path_cards(page, prefix)
+    if not reading_path_html:
+        return False
+
+    soup = BeautifulSoup(existing, "html.parser")
+    article_body = soup.select_one(".article-body")
+    if not article_body:
+        return False
+
+    existing_block = article_body.select_one("#reader-route")
+    if existing_block is not None:
+        existing_block.decompose()
+
+    fragment = BeautifulSoup(reading_path_html, "html.parser")
+    block = fragment.select_one("#reader-route")
+    if block is None:
+        return False
+
+    source_texture = article_body.select_one("#source-texture")
+    if source_texture is not None:
+        source_texture.insert_after(block)
+    else:
+        first_section = article_body.find("section", recursive=False)
+        if first_section is not None:
+            first_section.insert_before(block)
+        else:
+            article_body.append(block)
+
+    updated = str(soup)
+    if updated == existing:
+        return False
+    target.write_text(updated)
+    return True
+
+
 def inject_context_rail_into_article_page(target: Path) -> bool:
     if not target.exists():
         return False
@@ -8754,6 +9194,7 @@ def write_robots_and_sitemap(generated_pages: list[dict]) -> None:
     today = date.today().isoformat()
     entries = [
         sitemap_entry("/", today, "1.0"),
+        sitemap_entry("/search/", today, "0.8"),
         sitemap_entry("/guided-reading/", today, "0.8"),
         sitemap_entry("/concept-glossary/", today, "0.8"),
         sitemap_entry("/menu-structure/", today, "0.6"),
@@ -8833,6 +9274,7 @@ def main() -> None:
         post: dict | None = None,
         children: list[dict] | None = None,
         sibling_titles: list[str] | None = None,
+        parent_titles: list[str] | None = None,
     ) -> dict:
         title = clean_page_title(title)
         key = (section_id, built_path)
@@ -8842,6 +9284,8 @@ def main() -> None:
                 page["children"] = children
             if sibling_titles is not None:
                 page["sibling_titles"] = sibling_titles
+            if parent_titles is not None:
+                page["parent_titles"] = parent_titles
             return page
 
         page_kind = infer_kind(title, bool(children))
@@ -8903,13 +9347,20 @@ def main() -> None:
             "date": post.get("date", "") if post else "",
             "children": children or [],
             "sibling_titles": sibling_titles or [],
+            "parent_titles": parent_titles or [],
         }
         page_index[key] = page
         generated_pages.append(page)
         return page
 
-    def assign_visible_paths(section_id: str, nodes: list[dict], siblings: list[str] | None = None) -> None:
+    def assign_visible_paths(
+        section_id: str,
+        nodes: list[dict],
+        siblings: list[str] | None = None,
+        parents: list[str] | None = None,
+    ) -> None:
         sibling_titles = siblings or [node["title"] for node in nodes]
+        parent_titles = parents or []
         for node in nodes:
             href = node.get("href", "")
             canonical = canonical_url(href) if href and "byteseismic.com" in href else ""
@@ -8926,6 +9377,7 @@ def main() -> None:
                     post=post,
                     children=node.get("children", []),
                     sibling_titles=sibling_titles,
+                    parent_titles=parent_titles,
                 )
             else:
                 register_page(
@@ -8935,9 +9387,15 @@ def main() -> None:
                     source_url=canonical or href,
                     children=node.get("children", []),
                     sibling_titles=sibling_titles,
+                    parent_titles=parent_titles,
                 )
             if node.get("children"):
-                assign_visible_paths(section_id, node["children"], [child["title"] for child in node["children"]])
+                assign_visible_paths(
+                    section_id,
+                    node["children"],
+                    [child["title"] for child in node["children"]],
+                    parent_titles + [node["title"]],
+                )
 
     for section_id, nodes in section_nodes.items():
         assign_visible_paths(section_id, nodes)
@@ -8982,18 +9440,22 @@ def main() -> None:
             inject_quiz_into_manual_page(target, page)
             inject_seo_into_manual_page(target, page)
             inject_philosopher_source_texture_into_manual_page(target, page)
+            normalize_manual_breadcrumbs(target, page)
             normalize_manual_prompt_system(target)
+            inject_reading_path_into_manual_page(target, page)
             inject_learning_cards_into_manual_page(target, page)
             inject_context_rail_into_article_page(target)
 
     menu_target = ROOT / "menu-structure" / "index.html"
+    search_target = ROOT / "search" / "index.html"
     guided_target = ROOT / "guided-reading" / "index.html"
     glossary_target = ROOT / "concept-glossary" / "index.html"
     podcast_target = ROOT / "byteseismic-podcasts" / "index.html"
     archive_target = ROOT / "recent-posts-expanded-version" / "index.html"
-    valid_targets.update({menu_target, guided_target, glossary_target, podcast_target, archive_target})
+    valid_targets.update({menu_target, search_target, guided_target, glossary_target, podcast_target, archive_target})
 
     write_if_allowed(menu_target, render_menu_structure_page())
+    write_if_allowed(search_target, render_search_page())
     write_if_allowed(guided_target, render_guided_reading_page())
     write_if_allowed(glossary_target, render_glossary_page())
     write_if_allowed(podcast_target, render_podcast_page())
@@ -9151,6 +9613,7 @@ def main() -> None:
 
     topic_paths = {
         "Site Map": "/menu-structure/",
+        "Search": "/search/",
         "Guided Reading Paths": "/guided-reading/",
         "Concept Glossary": "/concept-glossary/",
         "Recent Posts — Expanded Version": "/recent-posts-expanded-version/",

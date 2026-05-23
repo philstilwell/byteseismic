@@ -632,6 +632,7 @@
     const activeSection = sectionLinks[0];
     const homeActions = isHomePage
       ? [
+          { type: "button", action: "search", label: "Search" },
           { href: "#orientation", label: "Orientation" },
           { href: "#branch-guide", label: "Branch guide" },
           { href: "#tag-discovery", label: "Tag discovery" },
@@ -641,6 +642,7 @@
       : [];
     const pageActions = !isHomePage
       ? [
+          { type: "button", action: "search", label: "Search" },
           section?.branchGuidePath && section.branchGuidePath !== currentPath ? { href: href(section.branchGuidePath), label: "Branch guide" } : null,
           section?.samplePath && section.branchGuidePath === currentPath ? { href: href(section.samplePath), label: "Branch entry" } : null,
           currentPath !== "/" ? { href: href("/"), label: "Home" } : null,
@@ -649,8 +651,13 @@
         ].filter(Boolean)
       : [];
     const actionList = (isHomePage ? homeActions : pageActions)
-      .filter((entry) => !entry.href.startsWith("#") || document.querySelector(entry.href))
-      .map((entry) => `<a class="context-rail__action" href="${escapeHtml(entry.href)}">${escapeHtml(entry.label)}</a>`)
+      .filter((entry) => !entry.href || !entry.href.startsWith("#") || document.querySelector(entry.href))
+      .map((entry) => {
+        if (entry.type === "button" && entry.action === "search") {
+          return '<button class="context-rail__action" type="button" data-open-site-search>Search</button>';
+        }
+        return `<a class="context-rail__action" href="${escapeHtml(entry.href)}">${escapeHtml(entry.label)}</a>`;
+      })
       .join("");
 
     const sectionList = sectionLinks
@@ -1140,6 +1147,10 @@
 
     mount.innerHTML = (data.guidedReadingPaths || [])
       .map((route) => {
+        const stats = [route.difficulty, route.length]
+          .filter(Boolean)
+          .map((value) => `<span class="route-card__stat">${escapeHtml(value)}</span>`)
+          .join("");
         const steps = (route.steps || [])
           .map(
             (step) => `
@@ -1153,10 +1164,27 @@
 
         return `
           <article class="route-card">
-            <p class="eyebrow">${escapeHtml(route.audience)}</p>
+            <div class="route-card__header">
+              <p class="eyebrow">${escapeHtml(route.audience)}</p>
+              <div class="route-card__stats">${stats}</div>
+            </div>
             <h3>${escapeHtml(route.title)}</h3>
             <p>${escapeHtml(route.summary)}</p>
+            <div class="route-card__focus">
+              <div>
+                <p class="mini-label">Best if</p>
+                <p>${escapeHtml(route.best_for || "")}</p>
+              </div>
+              <div>
+                <p class="mini-label">Central question</p>
+                <p>${escapeHtml(route.central_question || "")}</p>
+              </div>
+            </div>
             <ol class="route-steps">${steps}</ol>
+            <div class="route-card__actions">
+              <a class="button button--ghost" href="${href(route.steps?.[0]?.path || "/guided-reading/")}">Start route</a>
+              <a class="text-link" href="${href("/guided-reading/")}#route-${escapeHtml(route.id)}">Open full route</a>
+            </div>
           </article>
         `;
       })
@@ -1285,77 +1313,579 @@
     }
   }
 
-  function renderSearchResults(query) {
-    const resultMount = document.querySelector("[data-page-search-results]");
-    if (!resultMount) {
-      return;
+  const SEARCH_SUGGESTIONS = ["belief", "induction", "Aquinas", "moral realism", "consciousness", "game theory"];
+  const SEARCH_TYPE_RANK = { page: 30, branch: 24, glossary: 18, route: 14, tag: 2 };
+  let cachedSearchEntries = null;
+  let searchShell = null;
+  let searchShellApi = null;
+
+  function normalizeSearchText(value) {
+    return String(value || "")
+      .normalize("NFKD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, " ")
+      .trim();
+  }
+
+  function tokenizeSearchText(value) {
+    return normalizeSearchText(value).split(/\s+/).filter(Boolean);
+  }
+
+  function slugifySearchValue(value) {
+    return normalizeSearchText(value).replace(/\s+/g, "-") || "entry";
+  }
+
+  function pageFormatLabel(page) {
+    const title = String(page?.title || "");
+    const tags = page?.tags || [];
+    const path = page?.path || "";
+
+    if (title.startsWith("Dialoguing with") || tags.includes("dialogue")) return "Dialogue";
+    if (title.startsWith("Charting ")) return "Chart";
+    if (/^what (is|are)\b/i.test(title) || tags.includes("primer")) return "Primer";
+    if (title.includes("Case") || /\/case-\d+/.test(path)) return "Case study";
+    if (tags.includes("comparison")) return "Comparison";
+    return "Page";
+  }
+
+  function searchTypeLabel(type) {
+    return {
+      page: "Page",
+      branch: "Branch guide",
+      route: "Guided route",
+      glossary: "Glossary term",
+      tag: "Tag",
+    }[type] || "Result";
+  }
+
+  function searchTypePlural(type) {
+    return {
+      page: "pages",
+      branch: "branch guides",
+      route: "guided routes",
+      glossary: "glossary terms",
+      tag: "tags",
+    }[type] || "results";
+  }
+
+  function buildSearchEntries() {
+    if (cachedSearchEntries) {
+      return cachedSearchEntries;
     }
 
-    const normalized = String(query || "").trim().toLowerCase();
-    if (normalized.length < 2) {
-      resultMount.innerHTML = '<p class="muted-label">Type at least two characters to search the inquiry network.</p>';
-      return;
+    const entries = [];
+
+    (data.sections || []).forEach((section) => {
+      if (!section?.branchGuidePath) {
+        return;
+      }
+
+      entries.push({
+        key: `branch:${section.id}`,
+        type: "branch",
+        title: `${section.name} Branch Guide`,
+        section: section.name,
+        meta: `${section.name} branch overview`,
+        href: href(section.branchGuidePath),
+        path: section.branchGuidePath,
+        summary: section.summary || section.editorialIntro || "",
+        tags: [...new Set([section.id, ...(section.futureTags || [])])].filter(Boolean).slice(0, 6),
+        keywords: [
+          section.name,
+          section.id.replace(/-/g, " "),
+          "branch guide",
+          "branch overview",
+          ...(section.seedTopics || []),
+        ].join(" "),
+      });
+    });
+
+    (data.taggedPages || []).forEach((page) => {
+      entries.push({
+        key: `page:${page.path}`,
+        type: "page",
+        title: page.title,
+        section: page.section,
+        meta: `${page.section} • ${pageFormatLabel(page)}`,
+        href: href(page.path),
+        path: page.path,
+        summary: page.summary || "",
+        tags: (page.tags || []).filter(isUsefulTag).slice(0, 6),
+        keywords: [page.title, page.section, page.path.replaceAll("/", " "), ...(page.tags || [])].join(" "),
+      });
+    });
+
+    (data.guidedReadingPaths || []).forEach((route) => {
+      entries.push({
+        key: `route:${route.id}`,
+        type: "route",
+        title: route.title,
+        section: "Guided Reading",
+        meta: `Guided route • ${route.audience}`,
+        href: `${href("/guided-reading/")}#route-${route.id}`,
+        path: "/guided-reading/",
+        summary: route.summary || "",
+        tags: ["guided-reading"],
+        keywords: [
+          route.title,
+          route.audience,
+          route.summary,
+          ...(route.steps || []).map((step) => step.title),
+        ].join(" "),
+      });
+    });
+
+    (data.glossaryTerms || []).forEach((entry) => {
+      entries.push({
+        key: `glossary:${entry.term}`,
+        type: "glossary",
+        title: entry.term,
+        section: entry.branch,
+        meta: `Glossary term • ${entry.branch}`,
+        href: `${href("/concept-glossary/")}#term-${slugifySearchValue(entry.term)}`,
+        path: "/concept-glossary/",
+        summary: entry.definition || "",
+        tags: (entry.tags || []).filter(isUsefulTag).slice(0, 6),
+        keywords: [entry.term, entry.branch, entry.definition, ...(entry.tags || []), ...(entry.paths || [])].join(" "),
+      });
+    });
+
+    Object.entries(data.tagPages || {}).forEach(([tag, path]) => {
+      entries.push({
+        key: `tag:${tag}`,
+        type: "tag",
+        title: `Tag: ${tag}`,
+        section: "Tag discovery",
+        meta: `Tag • ${tagCount(tag)} linked page${tagCount(tag) === 1 ? "" : "s"}`,
+        href: href(path),
+        path,
+        summary: `Open the discovery page for ${tag} and jump into the linked pages that use the term.`,
+        tags: [tag],
+        keywords: [tag, "tag", "discovery", "concept"].join(" "),
+      });
+    });
+
+    cachedSearchEntries = entries.map((entry) => {
+      const title = normalizeSearchText(entry.title);
+      const section = normalizeSearchText(entry.section);
+      const tags = (entry.tags || []).map(normalizeSearchText).filter(Boolean);
+      const summary = normalizeSearchText(entry.summary);
+      const keywords = normalizeSearchText(entry.keywords);
+      const pathText = normalizeSearchText(String(entry.path || "").replaceAll("/", " "));
+      return {
+        ...entry,
+        _title: title,
+        _section: section,
+        _tags: tags,
+        _summary: summary,
+        _keywords: keywords,
+        _pathText: pathText,
+        _haystack: [title, section, summary, keywords, pathText, ...tags].join(" "),
+      };
+    });
+
+    return cachedSearchEntries;
+  }
+
+  function highlightSearchTerms(text, terms) {
+    const plain = String(text || "");
+    if (!plain || !terms.length) {
+      return escapeHtml(plain);
     }
 
-    const terms = normalized.split(/\s+/).filter(Boolean);
-    const pages = (data.taggedPages || [])
-      .map((page) => {
-        const haystack = [
-          page.title,
-          page.section,
-          page.summary,
-          ...(page.tags || []),
-        ].join(" ").toLowerCase();
-        const score = terms.reduce((total, term) => {
-          if (page.title.toLowerCase().includes(term)) return total + 8;
-          if ((page.tags || []).some((tag) => tag.toLowerCase().includes(term))) return total + 4;
-          if (page.section.toLowerCase().includes(term)) return total + 2;
-          return haystack.includes(term) ? total + 1 : total;
-        }, 0);
-        return { page, score };
+    const escapedTerms = [...new Set(terms)]
+      .filter(Boolean)
+      .sort((a, b) => b.length - a.length)
+      .map((term) => term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+    if (!escapedTerms.length) {
+      return escapeHtml(plain);
+    }
+
+    const matcher = new RegExp(`(${escapedTerms.join("|")})`, "ig");
+    const parts = plain.split(matcher);
+    return parts
+      .map((part) => {
+        if (!part) return "";
+        return escapedTerms.some((term) => new RegExp(`^${term}$`, "i").test(part))
+          ? `<mark>${escapeHtml(part)}</mark>`
+          : escapeHtml(part);
       })
-      .filter((entry) => entry.score > 0)
-      .sort((a, b) => b.score - a.score || a.page.title.localeCompare(b.page.title))
-      .slice(0, 18);
+      .join("");
+  }
 
-    const items = pages
+  function scoreSearchEntry(entry, normalizedQuery, terms) {
+    let score = 0;
+    let matchedTerms = 0;
+
+    if (entry._title === normalizedQuery) score += 160;
+    if (entry._title.startsWith(normalizedQuery)) score += 90;
+    else if (entry._title.includes(normalizedQuery)) score += 56;
+
+    if (entry.type === "page" && entry._title.includes(normalizedQuery)) score += 18;
+    if (entry.type === "branch" && entry._title.includes(normalizedQuery)) score += 12;
+    if (entry.type === "glossary" && entry._title.includes(normalizedQuery)) score += 8;
+
+    if (entry._section === normalizedQuery) score += 40;
+    else if (entry._section.includes(normalizedQuery)) score += 16;
+
+    if (entry._pathText.includes(normalizedQuery)) score += 18;
+    if (entry._summary.includes(normalizedQuery)) score += 14;
+    if (entry._keywords.includes(normalizedQuery)) score += 20;
+    if (entry._tags.some((tag) => tag === normalizedQuery)) score += 12;
+
+    terms.forEach((term) => {
+      let matched = false;
+
+      if (entry._title === term) {
+        score += 42;
+        matched = true;
+      } else if (entry._title.startsWith(term)) {
+        score += 28;
+        matched = true;
+      } else if (entry._title.includes(term)) {
+        score += 20;
+        matched = true;
+      }
+
+      if (entry._tags.some((tag) => tag === term)) {
+        score += 8;
+        matched = true;
+      } else if (entry._tags.some((tag) => tag.includes(term))) {
+        score += 5;
+        matched = true;
+      }
+
+      if (entry._section === term) {
+        score += 14;
+        matched = true;
+      } else if (entry._section.includes(term)) {
+        score += 7;
+        matched = true;
+      }
+
+      if (entry._keywords.includes(term)) {
+        score += 8;
+        matched = true;
+      }
+
+      if (!matched && entry._haystack.includes(term)) {
+        score += 4;
+        matched = true;
+      }
+
+      if (matched) {
+        matchedTerms += 1;
+      }
+    });
+
+    if (terms.length > 1 && matchedTerms === terms.length) {
+      score += 28;
+    }
+
+    score += SEARCH_TYPE_RANK[entry.type] || 0;
+    return score;
+  }
+
+  function findSearchMatches(query) {
+    const normalized = normalizeSearchText(query);
+    const terms = tokenizeSearchText(query);
+    if (normalized.length < 2 || !terms.length) {
+      return { normalized, terms, matches: [] };
+    }
+
+    const matches = buildSearchEntries()
+      .map((entry) => ({ entry, score: scoreSearchEntry(entry, normalized, terms) }))
+      .filter(({ score }) => score > 0)
+      .sort((a, b) => b.score - a.score || a.entry.title.localeCompare(b.entry.title))
+      .slice(0, 20);
+
+    return { normalized, terms, matches };
+  }
+
+  function renderSearchEmptyState() {
+    const suggestions = SEARCH_SUGGESTIONS
       .map(
-        ({ page }) => `
-          <li>
-            <a href="${href(page.path)}">${escapeHtml(page.title)}</a>
-            <span>${escapeHtml(page.section)}</span>
-          </li>
+        (term) => `
+          <button class="tag-chip tag-chip--large" type="button" data-site-search-suggestion="${escapeHtml(term)}">
+            <span>${escapeHtml(term)}</span>
+          </button>
         `,
       )
       .join("");
 
-    resultMount.innerHTML = `
-      <div class="tag-results__header">
-        <p class="mini-label">Search results</p>
-        <h3>${escapeHtml(query)}</h3>
-        <p>${pages.length} close match${pages.length === 1 ? "" : "es"} shown.</p>
+    return `
+      <div class="search-empty">
+        <p class="mini-label">Search the inquiry network</p>
+        <h3>Start with a concept, thinker, branch, or pressure point.</h3>
+        <p>Try a philosophical term like <em>belief</em>, a thinker like <em>Aquinas</em>, or a pressure such as <em>moral realism</em>.</p>
+        <div class="tag-row">${suggestions}</div>
       </div>
-      <ul class="archive-year-list tag-results__list">
-        ${items || "<li><span>No close matches. Try a broader term.</span></li>"}
-      </ul>
     `;
   }
 
-  function initPageSearch() {
-    const input = document.querySelector("[data-page-search-input]");
-    const clear = document.querySelector("[data-page-search-clear]");
-    const resultMount = document.querySelector("[data-page-search-results]");
-    if (!input || !resultMount) {
+  function renderSearchResults(root, query) {
+    const resultMount = root.querySelector("[data-site-search-results], [data-page-search-results]");
+    if (!resultMount) {
       return;
     }
 
-    renderSearchResults("");
-    input.addEventListener("input", () => renderSearchResults(input.value));
+    const normalized = normalizeSearchText(query);
+    if (normalized.length < 2) {
+      resultMount.innerHTML = renderSearchEmptyState();
+      return;
+    }
+
+    const { terms, matches } = findSearchMatches(query);
+    if (!matches.length) {
+      resultMount.innerHTML = `
+        <div class="search-empty">
+          <p class="mini-label">Search results</p>
+          <h3>No close matches for “${escapeHtml(query)}”</h3>
+          <p>Try a broader term, a philosopher’s surname, or a nearby concept.</p>
+        </div>
+      `;
+      return;
+    }
+
+    const counts = matches.reduce((totals, { entry }) => {
+      totals[entry.type] = (totals[entry.type] || 0) + 1;
+      return totals;
+    }, {});
+    const summary = Object.entries(counts)
+      .sort((a, b) => (SEARCH_TYPE_RANK[b[0]] || 0) - (SEARCH_TYPE_RANK[a[0]] || 0))
+      .map(([type, count]) => `<span class="search-summary__pill">${count} ${searchTypePlural(type)}</span>`)
+      .join("");
+
+    const items = matches
+      .map(({ entry }) => {
+        const tagRow = entry.type !== "tag" && entry.tags?.length
+          ? `<div class="search-result__tags">${entry.tags.slice(0, 4).map((tag) => renderTagLink(tag)).join("")}</div>`
+          : "";
+        const summaryText = entry.summary
+          ? `<p class="search-result__summary">${highlightSearchTerms(entry.summary, terms)}</p>`
+          : "";
+
+        return `
+          <li class="search-result">
+            <p class="search-result__meta">
+              <span class="search-result__pill">${escapeHtml(searchTypeLabel(entry.type))}</span>
+              <span>${highlightSearchTerms(entry.meta || entry.section || "", terms)}</span>
+            </p>
+            <a class="search-result__title" href="${escapeHtml(entry.href)}">${highlightSearchTerms(entry.title, terms)}</a>
+            ${summaryText}
+            ${tagRow}
+          </li>
+        `;
+      })
+      .join("");
+
+    resultMount.innerHTML = `
+      <div class="search-results">
+        <div class="search-results__header">
+          <p class="mini-label">Search results</p>
+          <h3>${escapeHtml(query)}</h3>
+          <p>${matches.length} match${matches.length === 1 ? "" : "es"} shown.</p>
+        </div>
+        <div class="search-results__summary">${summary}</div>
+        <ol class="search-results__list">
+          ${items}
+        </ol>
+      </div>
+    `;
+  }
+
+  function bindSearchRoot(root) {
+    if (!root || root.dataset.searchReady === "true") {
+      return root?._siteSearchApi || null;
+    }
+
+    const input = root.querySelector("[data-site-search-input], [data-page-search-input]");
+    const clear = root.querySelector("[data-site-search-clear], [data-page-search-clear]");
+    const syncParam = root.dataset.siteSearchSyncUrl || "";
+    if (!input) {
+      return null;
+    }
+
+    function syncUrl(value) {
+      if (!syncParam) {
+        return;
+      }
+      const url = new URL(window.location.href);
+      const trimmed = String(value || "").trim();
+      if (trimmed) url.searchParams.set(syncParam, trimmed);
+      else url.searchParams.delete(syncParam);
+      window.history.replaceState({}, "", `${url.pathname}${url.search}${url.hash}`);
+    }
+
+    function update(query) {
+      renderSearchResults(root, query);
+      syncUrl(query);
+    }
+
+    const initialQuery = syncParam ? new URLSearchParams(window.location.search).get(syncParam) || "" : input.value || "";
+    if (initialQuery) {
+      input.value = initialQuery;
+    }
+
+    update(input.value);
+    input.addEventListener("input", () => update(input.value));
     clear?.addEventListener("click", () => {
       input.value = "";
+      update("");
       input.focus();
-      renderSearchResults("");
     });
+    root.addEventListener("click", (event) => {
+      const suggestion = event.target.closest("[data-site-search-suggestion]");
+      if (!suggestion) {
+        return;
+      }
+      const query = suggestion.dataset.siteSearchSuggestion || "";
+      input.value = query;
+      update(query);
+      input.focus();
+    });
+
+    const api = {
+      setQuery(value) {
+        input.value = value;
+        update(value);
+      },
+      focus(select = false) {
+        input.focus();
+        if (select) {
+          input.select();
+        }
+      },
+      getQuery() {
+        return input.value;
+      },
+    };
+
+    root.dataset.searchReady = "true";
+    root._siteSearchApi = api;
+    return api;
+  }
+
+  function ensureSearchShell() {
+    if (searchShell) {
+      return { shell: searchShell, api: searchShellApi };
+    }
+
+    searchShell = document.createElement("div");
+    searchShell.className = "site-search-shell";
+    searchShell.hidden = true;
+    searchShell.innerHTML = `
+      <div class="site-search-shell__backdrop" data-close-site-search></div>
+      <div class="site-search-shell__panel" role="dialog" aria-modal="true" aria-labelledby="site-search-title">
+        <button class="site-search-shell__close" type="button" aria-label="Close site search" data-close-site-search>×</button>
+        <div class="site-search site-search--modal" data-site-search-root>
+          <label for="global-site-search-input">
+            <span class="mini-label">Site search</span>
+            <span id="site-search-title">Search the inquiry network</span>
+          </label>
+          <p class="site-search__hint">Search pages, branch guides, guided routes, glossary terms, and tags.</p>
+          <div class="site-search__control">
+            <input
+              id="global-site-search-input"
+              type="search"
+              placeholder="Try belief, Aquinas, induction, moral realism..."
+              autocomplete="off"
+              data-site-search-input
+            />
+            <button class="button button--ghost" type="button" data-site-search-clear>Clear</button>
+          </div>
+          <div class="site-search__results" data-site-search-results></div>
+        </div>
+      </div>
+    `;
+    document.body.appendChild(searchShell);
+    searchShellApi = bindSearchRoot(searchShell.querySelector("[data-site-search-root]"));
+
+    searchShell.addEventListener("click", (event) => {
+      if (event.target.closest("[data-close-site-search]")) {
+        closeSiteSearch();
+        return;
+      }
+      if (event.target.closest("[data-site-search-results] a[href]")) {
+        closeSiteSearch();
+      }
+    });
+
+    return { shell: searchShell, api: searchShellApi };
+  }
+
+  function openSiteSearch(query = "") {
+    const { shell, api } = ensureSearchShell();
+    shell.hidden = false;
+    shell.classList.add("is-open");
+    document.body.classList.add("site-search-open");
+    if (query) {
+      api?.setQuery(query);
+    }
+    window.requestAnimationFrame(() => api?.focus(true));
+  }
+
+  function closeSiteSearch() {
+    if (!searchShell) {
+      return;
+    }
+    searchShell.hidden = true;
+    searchShell.classList.remove("is-open");
+    document.body.classList.remove("site-search-open");
+  }
+
+  function isEditableTarget(target) {
+    const node = target instanceof HTMLElement ? target : null;
+    return Boolean(
+      node && (
+        node.isContentEditable
+        || /^(INPUT|TEXTAREA|SELECT)$/.test(node.tagName)
+        || node.closest("[contenteditable='true']")
+      ),
+    );
+  }
+
+  function initSiteSearch() {
+    document.querySelectorAll("[data-site-search-root], [data-page-search]").forEach((root) => {
+      bindSearchRoot(root);
+    });
+
+    document.addEventListener("click", (event) => {
+      const trigger = event.target.closest("[data-open-site-search]");
+      if (!trigger) {
+        return;
+      }
+      event.preventDefault();
+      openSiteSearch();
+    });
+
+    document.addEventListener("keydown", (event) => {
+      const key = String(event.key || "").toLowerCase();
+
+      if ((event.metaKey || event.ctrlKey) && key === "k") {
+        event.preventDefault();
+        openSiteSearch();
+        return;
+      }
+
+      if (!event.metaKey && !event.ctrlKey && !event.altKey && event.key === "/" && !isEditableTarget(event.target)) {
+        event.preventDefault();
+        openSiteSearch();
+        return;
+      }
+
+      if (event.key === "Escape" && searchShell && !searchShell.hidden) {
+        closeSiteSearch();
+      }
+    });
+
+    if (currentPage() === "/search/") {
+      window.requestAnimationFrame(() => {
+        const root = document.querySelector("[data-site-search-root]");
+        root?._siteSearchApi?.focus();
+      });
+    }
   }
 
   function initTagFilters() {
@@ -1502,7 +2032,7 @@
   renderGuidedRoutes();
   renderGlossaryPreview();
   renderContextRail();
-  initPageSearch();
+  initSiteSearch();
   initTagFilters();
   initExclusiveAccordions();
   revealHashTarget();

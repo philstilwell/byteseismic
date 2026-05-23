@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="assets/css/styles.css" />
     <script defer src="assets/js/site-data.js"></script>
     <script defer src="assets/js/site.js"></script>
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Byteseismic Philosophy","url":"https://byteseismic.com/","description":"A question-led philosophy inquiry network organized by branches, thinkers, concepts, and arguments.","inLanguage":"en"}</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Byteseismic Philosophy","url":"https://byteseismic.com/","description":"A question-led philosophy inquiry network organized by branches, thinkers, concepts, and arguments.","inLanguage":"en","potentialAction":{"@type":"SearchAction","target":"https://byteseismic.com/search/?q={search_term_string}","query-input":"required name=search_term_string"}}</script>
     <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "c8fe5454ba264b46b633b5afa11953d5"}'></script><!-- End Cloudflare Web Analytics -->
   </head>
   <body data-page-type="home" data-current-section="introduction">
@@ -52,6 +52,7 @@
           </p>
           <div class="hero__actions">
             <a class="button button--solid" href="#featured-pages">Open the guide</a>
+            <button class="button button--ghost" type="button" data-open-site-search>Search the site</button>
             <a class="button button--ghost" href="#tag-discovery">Explore by tag</a>
           </div>
         </div>
@@ -108,8 +109,8 @@
               <div class="home-panel__body">
                 <p class="home-panel__intro">
                   The archive is intentionally branching, but readers still deserve clear entrances.
-                  These routes collect high-value sequences for epistemology, metaethics, AI, and
-                  philosopher dialogues.
+                  These routes now give deliberate starting points for newcomers, truth and inquiry,
+                  metaethics, AI and rationality, and major philosopher encounters.
                 </p>
                 <div class="route-grid route-grid--home" data-guided-routes></div>
                 <p>
@@ -206,22 +207,23 @@
                   Tags are now interactive. Choose a branch, format, or concept tag to reveal linked
                   pages that share the same teaching use.
                 </p>
-                <div class="landing-search" data-page-search>
+                <div class="landing-search site-search" data-site-search-root>
                   <label for="landing-search-input">
                     <span class="mini-label">Find a page</span>
-                    <span>Search titles, branches, summaries, and tags.</span>
+                    <span>Search pages, branch guides, guided routes, glossary terms, and tags.</span>
                   </label>
+                  <p class="site-search__hint">Press <kbd>/</kbd> or <kbd>Cmd/Ctrl + K</kbd> from anywhere on the site.</p>
                   <div class="landing-search__control">
                     <input
                       id="landing-search-input"
                       type="search"
-                      placeholder="Try belief, Aquinas, induction, meta-ethics..."
+                      placeholder="Try belief, Aquinas, induction, moral realism..."
                       autocomplete="off"
-                      data-page-search-input
+                      data-site-search-input
                     />
-                    <button class="button button--ghost" type="button" data-page-search-clear>Clear</button>
+                    <button class="button button--ghost" type="button" data-site-search-clear>Clear</button>
                   </div>
-                  <div class="landing-search__results" data-page-search-results></div>
+                  <div class="landing-search__results" data-site-search-results></div>
                 </div>
                 <div class="taxonomy-grid">
                   <div>

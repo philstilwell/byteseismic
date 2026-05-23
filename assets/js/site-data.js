@@ -198,10 +198,15 @@ window.BYTESEISMIC_DATA = {
   ],
   "guidedReadingPaths": [
     {
-      "id": "start-here",
-      "title": "Start Here: Philosophy Without Losing the Thread",
-      "summary": "A first route for readers who want the archive to feel navigable before it becomes wonderfully unruly.",
-      "audience": "New and returning readers",
+      "id": "new-to-philosophy",
+      "title": "New to Philosophy: Getting Your Bearings",
+      "summary": "A first route for readers who want the archive to feel navigable before it starts branching in five directions at once.",
+      "audience": "Foundational route for newcomers",
+      "difficulty": "Foundational",
+      "length": "4 steps",
+      "best_for": "Readers who want the site's aims, vocabulary, and habits of reading in view before they specialize.",
+      "central_question": "What kind of activity is philosophy, and what must a reader keep distinct if inquiry is going to remain disciplined rather than merely opinionated?",
+      "outcome": "By the end, you should be able to distinguish philosophical orientation, truth-talk, belief-management, and question-types well enough to enter later branches without getting lost.",
       "steps": [
         {
           "title": "What Is Philosophy?",
@@ -209,12 +214,12 @@ window.BYTESEISMIC_DATA = {
           "reason": "Begin with the activity itself: philosophy as disciplined clarification rather than free-floating opinion."
         },
         {
-          "title": "What Is Truth?",
+          "title": "What is Truth?",
           "path": "/philosophical-inquiry/what-is-truth/",
           "reason": "Move next to the archive's central pressure: what it means for inquiry to answer to reality."
         },
         {
-          "title": "What Is Belief?",
+          "title": "What is Belief?",
           "path": "/epistemology/what-is-belief/",
           "reason": "Separate assent, confidence, evidence, and action-guiding commitment before the branches multiply."
         },
@@ -226,15 +231,25 @@ window.BYTESEISMIC_DATA = {
       ]
     },
     {
-      "id": "epistemic-discipline",
-      "title": "Epistemic Discipline: Belief, Evidence, and Responsible Confidence",
-      "summary": "A route through the archive's standards for holding, revising, suspending, or rejecting claims.",
-      "audience": "Readers interested in knowledge, doubt, and calibration",
+      "id": "truth-and-inquiry",
+      "title": "Truth and Inquiry: How Belief Answers to Reality",
+      "summary": "A route for readers who want to keep truth, evidence, confidence, and error-costs from collapsing into one another.",
+      "audience": "Truth, inquiry, and epistemic standards",
+      "difficulty": "Foundational to intermediate",
+      "length": "5 steps",
+      "best_for": "Readers who keep encountering phrases like 'my truth,' 'good evidence,' or 'I just know' and want a cleaner framework.",
+      "central_question": "How should a claim travel from impression to belief without losing contact with reality?",
+      "outcome": "By the end, you should be able to separate truth from sincerity, confidence from justification, and belief from the processes that revise it.",
       "steps": [
         {
-          "title": "What Is Belief?",
+          "title": "What is Truth?",
+          "path": "/philosophical-inquiry/what-is-truth/",
+          "reason": "Start with the difference between truth as correspondence and truth as whatever presently feels usable."
+        },
+        {
+          "title": "What is Belief?",
           "path": "/epistemology/what-is-belief/",
-          "reason": "Start with the difference between binary belief-talk and graded confidence."
+          "reason": "Clarify what it means to believe something before trying to regulate belief well."
         },
         {
           "title": "Adequate Evidence",
@@ -242,14 +257,14 @@ window.BYTESEISMIC_DATA = {
           "reason": "Ask what kind and amount of support a claim needs before belief becomes responsible."
         },
         {
-          "title": "Operational Epistemic Rigor",
-          "path": "/epistemology/operational-epistemic-rigor/",
-          "reason": "Turn epistemic virtue into habits that can be used under actual pressure."
+          "title": "Dangers: Cognitive Biases",
+          "path": "/philosophical-inquiry/dangers-cognitive-biases/",
+          "reason": "Notice how quickly a mind can counterfeit inquiry while telling itself it is being careful."
         },
         {
-          "title": "What Is Science?",
-          "path": "/philosophy-of-science/what-is-science/",
-          "reason": "See how public methods discipline belief without pretending science is the only form of inquiry."
+          "title": "Operational Epistemic Rigor",
+          "path": "/epistemology/operational-epistemic-rigor/",
+          "reason": "Turn epistemic virtue into habits that can still function once pressure, uncertainty, and ego are all in the room."
         }
       ]
     },
@@ -257,8 +272,18 @@ window.BYTESEISMIC_DATA = {
       "id": "metaethics-without-fog",
       "title": "Metaethics Without the Fog Machine",
       "summary": "A route for keeping moral realism, moral non-realism, recommendation, obligation, and equivocation distinct.",
-      "audience": "Readers willing to let moral language become difficult before it becomes clearer",
+      "audience": "Metaethics and moral language",
+      "difficulty": "Intermediate",
+      "length": "5 steps",
+      "best_for": "Readers who want hard metaethical disagreement without turning every moral claim into mush.",
+      "central_question": "When people call something right, wrong, obligatory, or merely advisable, what kind of claim are they actually making?",
+      "outcome": "By the end, you should be able to keep recommendation, obligation, realism, non-realism, and equivocation distinct enough to argue without smuggling conclusions in by vocabulary.",
       "steps": [
+        {
+          "title": "What are Ethics?",
+          "path": "/ethics/what-are-ethics/",
+          "reason": "Begin by distinguishing ethics as a field of inquiry from the many things people casually stuff into the word."
+        },
         {
           "title": "Recommendations vs Moral Claims",
           "path": "/ethics/recommendations-vs-moral-claims/",
@@ -282,10 +307,15 @@ window.BYTESEISMIC_DATA = {
       ]
     },
     {
-      "id": "ai-and-truth",
-      "title": "AI and Truth: Prompting as an Epistemic Practice",
+      "id": "ai-and-rationality",
+      "title": "AI and Rationality: Using Models Without Abdicating Judgment",
       "summary": "A route through the archive's internal experiment: using AI while refusing to outsource judgment to it.",
-      "audience": "Readers interested in AI, truthfulness, prompting, and human responsibility",
+      "audience": "AI, prompting, and intellectual responsibility",
+      "difficulty": "Intermediate",
+      "length": "5 steps",
+      "best_for": "Readers who want to use AI as a thinking aid without handing over judgment to a very fast autocomplete with opinions.",
+      "central_question": "How can AI sharpen inquiry without quietly becoming the thing that decides what counts as a good answer?",
+      "outcome": "By the end, you should be able to prompt more precisely, inspect model reasoning more critically, and keep responsibility with the human evaluator.",
       "steps": [
         {
           "title": "Assessing AI Alignment with Truth",
@@ -303,6 +333,11 @@ window.BYTESEISMIC_DATA = {
           "reason": "Inspect how a model reasons when asked to explain, revise, and justify its answer."
         },
         {
+          "title": "AI Fact-Checking",
+          "path": "/philosophy-of-ai/ai-fact-checking/",
+          "reason": "See what happens when verification is treated as a workflow rather than a halo effect around confident prose."
+        },
+        {
           "title": "Operational Epistemic Rigor",
           "path": "/epistemology/operational-epistemic-rigor/",
           "reason": "Return responsibility to the human evaluator: the final judgment still has to be earned."
@@ -310,10 +345,15 @@ window.BYTESEISMIC_DATA = {
       ]
     },
     {
-      "id": "philosophers-as-voices",
-      "title": "Philosophers as Voices, Not Nameplates",
+      "id": "major-philosophers",
+      "title": "Major Philosophers: Enter by Voice, Then by Contrast",
       "summary": "A route through philosopher pages where method, style, and objection matter as much as doctrine.",
-      "audience": "Readers who want thinkers to feel encounterable rather than embalmed",
+      "audience": "Readers who want live encounters with major thinkers",
+      "difficulty": "Foundational to intermediate",
+      "length": "5 steps",
+      "best_for": "Readers who learn more from an actual exchange than from a warehouse of doctrines.",
+      "central_question": "What becomes visible when philosophers are encountered through their characteristic moves, pressures, and replies rather than through flat labels?",
+      "outcome": "By the end, you should have a felt sense of how philosophical temperament, method, and objection fit together across very different thinkers.",
       "steps": [
         {
           "title": "Dialoguing with Epictetus",
@@ -326,14 +366,19 @@ window.BYTESEISMIC_DATA = {
           "reason": "Watch a systematic mind move through objection, answer, and reply."
         },
         {
+          "title": "Dialoguing with Hume",
+          "path": "/philosophers/dialoguing-with-hume/",
+          "reason": "Feel how skepticism can be both corrosive and clarifying when it is turned against easy certainty."
+        },
+        {
           "title": "Dialoguing with Nagarjuna",
           "path": "/philosophers/dialoguing-with-nagarjuna/",
           "reason": "Use dialogue to feel how anti-essentialist pressure changes the shape of a question."
         },
         {
-          "title": "Dialoguing with Marcus Aurelius",
-          "path": "/philosophers/dialoguing-with-marcus-aurelius/",
-          "reason": "End with philosophy as daily discipline rather than merely theoretical allegiance."
+          "title": "Charting Hume",
+          "path": "/philosophers/charting-hume/",
+          "reason": "End by converting one philosopher's voice into a comparison map so the route from encounter to orientation becomes explicit."
         }
       ]
     }
@@ -7378,6 +7423,7 @@ window.BYTESEISMIC_DATA = {
   ],
   "topicPaths": {
     "Site Map": "/menu-structure/",
+    "Search": "/search/",
     "Guided Reading Paths": "/guided-reading/",
     "Concept Glossary": "/concept-glossary/",
     "Recent Posts — Expanded Version": "/recent-posts-expanded-version/",
