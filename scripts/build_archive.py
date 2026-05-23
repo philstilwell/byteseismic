@@ -30,6 +30,8 @@ SITE_ORIGIN = "https://byteseismic.com"
 SITE_TITLE = "Byteseismic Philosophy"
 SITE_TAGLINE = "A branching inquiry network for concepts, thinkers, arguments, and disciplined philosophy."
 SITE_IMAGE_PATH = "/assets/images/byteseismic-large-header-x.5-b-8000-x-800-px.png"
+BUILD_DATE = date.today()
+BUILD_DATE_TEXT = f"{BUILD_DATE.strftime('%B')} {BUILD_DATE.day}, {BUILD_DATE.year}"
 CLOUDFLARE_ANALYTICS_SNIPPET = (
     "<!-- Cloudflare Web Analytics --><script defer "
     "src='https://static.cloudflareinsights.com/beacon.min.js' "
@@ -47,13 +49,13 @@ SECTION_META = {
     "introduction": {
         "name": "Introduction",
         "summary": "Orientation pages that explain what philosophy is, why it matters, and how newcomers can enter the conversation without losing rigor.",
-        "futureTags": ["orientation", "study-of-philosophy", "introductory-philosophy", "careers"],
+        "futureTags": ["primer", "argument", "careers", "wisdom"],
         "preferredPath": "/introduction/what-is-philosophy/",
     },
     "philosophical-inquiry": {
         "name": "Philosophical Inquiry",
         "summary": "A branch devoted to the habits, dangers, and social conditions that make honest inquiry possible.",
-        "futureTags": ["truth-seeking", "bias", "worldviews", "charitable-engagement"],
+        "futureTags": ["truth", "bias", "worldview", "charity", "inquiry"],
         "preferredPath": "/philosophical-inquiry/the-mindset-of-the-honest-seeker/",
     },
     "epistemology": {
@@ -131,7 +133,184 @@ SECTION_META = {
 }
 
 SECTION_IDS = tuple(SECTION_META.keys())
+SECTION_SIGNAL_META = {
+    "introduction": {
+        "difficulty": "Foundational",
+        "best_for": "learning the archive's vocabulary and reading habits",
+    },
+    "philosophical-inquiry": {
+        "difficulty": "Foundational to intermediate",
+        "best_for": "testing whether inquiry remains honest, reality-oriented, and socially resilient",
+    },
+    "epistemology": {
+        "difficulty": "Foundational to intermediate",
+        "best_for": "regulating belief, evidence, confidence, and revision",
+    },
+    "rational-thought": {
+        "difficulty": "Foundational to intermediate",
+        "best_for": "applied reasoning under bias, uncertainty, and decision pressure",
+    },
+    "philosophy-of-science": {
+        "difficulty": "Foundational to intermediate",
+        "best_for": "understanding method, error-correction, and the limits of science",
+    },
+    "philosophy-of-language": {
+        "difficulty": "Intermediate",
+        "best_for": "tracking meaning shifts, grammar traps, and conceptual confusion",
+    },
+    "philosophy-of-mind": {
+        "difficulty": "Intermediate",
+        "best_for": "thinking about consciousness, agency, and first-person experience",
+    },
+    "metaphysics": {
+        "difficulty": "Intermediate",
+        "best_for": "big questions about reality without pretending they are easy",
+    },
+    "ethics": {
+        "difficulty": "Foundational to intermediate",
+        "best_for": "sorting moral language, obligation, and metaethical disagreement",
+    },
+    "humanistic-philosophies": {
+        "difficulty": "Foundational to intermediate",
+        "best_for": "questions of meaning, religion, and existential orientation",
+    },
+    "economics": {
+        "difficulty": "Foundational to intermediate",
+        "best_for": "thinking in incentives, tradeoffs, and institutional effects",
+    },
+    "philosophy-of-ai": {
+        "difficulty": "Foundational to intermediate",
+        "best_for": "using AI critically without outsourcing judgment",
+    },
+    "political-philosophy": {
+        "difficulty": "Intermediate",
+        "best_for": "public reason, legitimacy, identity, and institutions",
+    },
+    "philosophers": {
+        "difficulty": "Foundational to intermediate",
+        "best_for": "meeting major thinkers by voice, method, and objection",
+    },
+    "miscellany": {
+        "difficulty": "Intermediate",
+        "best_for": "cross-disciplinary side paths that still repay careful philosophy",
+    },
+}
 PUBLIC_FORMAT_TAGS = {"primer", "dialogue", "comparison", "branch-map"}
+CONTROLLED_TAG_EXTRA_KEYS = {
+    "alignment",
+    "argument",
+    "bias",
+    "belief",
+    "causation",
+    "careers",
+    "charity",
+    "complexity",
+    "consciousness",
+    "cognition",
+    "credence",
+    "culpability",
+    "decision-making",
+    "dualism",
+    "economics",
+    "emergence",
+    "equivocation",
+    "ethics",
+    "evidence",
+    "existentialism",
+    "explanation",
+    "fallacies",
+    "falsifiability",
+    "framing",
+    "free-will",
+    "future-of-work",
+    "grammar",
+    "history",
+    "history-of-philosophy",
+    "human-nature",
+    "human-rights",
+    "identity",
+    "incentives",
+    "induction",
+    "inference",
+    "information",
+    "inquiry",
+    "institutions",
+    "justification",
+    "knowledge",
+    "language",
+    "logic",
+    "meaning",
+    "materialism",
+    "meta-ethics",
+    "metaphor",
+    "method",
+    "moral-non-realism",
+    "moral-realism",
+    "neuroscience",
+    "nihilism",
+    "normativity",
+    "philosophical-method",
+    "politics",
+    "probability",
+    "prompting",
+    "public-discourse",
+    "public-policy",
+    "public-trust",
+    "reality",
+    "religion",
+    "risk",
+    "science",
+    "semantics",
+    "social-contract",
+    "statistics",
+    "stoicism",
+    "subjectivity",
+    "truth",
+    "wisdom",
+    "worldview",
+}
+CONTROLLED_TAG_LABELS = {
+    "ai": "AI",
+    "bayes": "Bayes",
+    "branch-map": "Branch Map",
+    "careers": "Careers",
+    "charity": "Charity",
+    "credence": "Credence",
+    "decision-making": "Decision-Making",
+    "free-will": "Free Will",
+    "future-of-work": "Future of Work",
+    "history-of-philosophy": "History of Philosophy",
+    "human-nature": "Human Nature",
+    "human-rights": "Human Rights",
+    "meta-ethics": "Metaethics",
+    "moral-non-realism": "Moral Non-Realism",
+    "moral-realism": "Moral Realism",
+    "philosophical-method": "Philosophical Method",
+    "public-discourse": "Public Discourse",
+    "public-policy": "Public Policy",
+    "public-trust": "Public Trust",
+    "social-contract": "Social Contract",
+}
+CONTROLLED_TAG_ALIASES = {
+    "primer": ["orientation", "introductory philosophy", "introductory-philosophy", "study of philosophy", "study-of-philosophy"],
+    "truth": ["truth seeking", "truth-seeking"],
+    "worldview": ["worldviews", "worldview"],
+    "charity": ["charitable engagement", "charitable-engagement", "charitable interpretation", "charitable reading"],
+    "meta-ethics": ["metaethics", "meta ethics"],
+    "moral-non-realism": ["moral non realism", "moral anti-realism", "moral anti realism"],
+    "moral-realism": ["moral realism"],
+    "free-will": ["free will"],
+    "human-rights": ["human rights"],
+    "human-nature": ["human nature"],
+    "decision-making": ["decision making"],
+    "public-policy": ["public policy"],
+    "future-of-work": ["future of work"],
+    "public-discourse": ["public discourse"],
+    "social-contract": ["social contract"],
+    "history-of-philosophy": ["history of philosophy"],
+    "philosophical-method": ["philosophical method"],
+    "branch-map": ["branch map"],
+}
 GROUP_PAGE_TITLES = {
     "Site Map": "/menu-structure/",
     "Recent Posts — Expanded Version": "/recent-posts-expanded-version/",
@@ -400,7 +579,12 @@ PHILOSOPHER_HIERARCHY_ADDITIONS = [
 PHILOSOPHER_NAME_ALIASES = {
     "Augustine": "Augustine of Hippo",
     "Anselm": "Anselm of Canterbury",
+    "Aquinas": "Thomas Aquinas",
+    "Hume": "David Hume",
     "Machiavelli": "Niccolo Machiavelli",
+    "Merleau-Ponty": "Maurice Merleau-Ponty",
+    "Merleau Ponty": "Maurice Merleau-Ponty",
+    "Quine": "Willard Van Orman Quine",
     "Rousseau": "Jean-Jacques Rousseau",
     "Habermas": "Jurgen Habermas",
     "Russel": "Bertrand Russell",
@@ -758,6 +942,76 @@ PHILOSOPHER_PROFILES = {
         "legacy": "Confucian moral psychology, virtue ethics, political legitimacy, and debates over human nature",
         "begin": "Start with the child-at-the-well case: what does spontaneous concern reveal, and what does it not prove?",
     },
+    "Epictetus": {
+        "period": "Roman Stoicism under empire, where philosophy becomes a severe training in freedom under constraint",
+        "signature": "inner freedom through disciplined judgment: what matters most is how we use impressions, desires, and aversions when the world refuses our wishes",
+        "method": "moral drill through pointed dialogue: he cross-examines excuses until the reader sees how often suffering is intensified by false judgments",
+        "concepts": [
+            "Control: distinguish what is up to us from what is not, then stop trying to rule the wrong domain.",
+            "Assent: impressions arrive uninvited, but judgment decides whether to endorse them.",
+            "Role ethics: freedom is not isolation; it is disciplined action within the roles one actually inhabits.",
+            "Discipline of desire: wanting externals as if they were guaranteed is a recipe for slavery disguised as hope.",
+        ],
+        "pressure": "whether Stoic inner freedom becomes wisdom or a polished way of underestimating bodily vulnerability, injustice, and the claims of grief",
+        "legacy": "Stoicism, resilience training, moral psychology, cognitive therapy, and every practical ethics that asks how judgment shapes suffering",
+        "begin": "Begin with the simplest Stoic insult to ordinary ambition: what if peace depends less on securing outcomes than on governing assent?",
+    },
+    "Thomas Aquinas": {
+        "period": "medieval scholastic philosophy, where Aristotelian metaphysics, Christian theology, and legal reasoning are forced into sustained conversation",
+        "signature": "an ordered universe in which reason can track being, goodness, causation, and law without treating revelation as an excuse to stop thinking",
+        "method": "scholastic disputation: he stages objections, counters them, distinguishes the issue, and only then gives the reply meant to hold the parts together",
+        "concepts": [
+            "Act and potency: change becomes intelligible when beings are understood through what they are and what they can become.",
+            "Natural law: practical reason can identify basic goods and the kinds of action that answer to them.",
+            "Analogy: language about God and being cannot be merely identical or merely equivocal without losing its grip.",
+            "Essence and existence: finite things do not explain themselves; what they are and that they are do not simply collapse into one.",
+        ],
+        "pressure": "whether the grand synthesis explains reality or harmonizes too quickly, importing teleology and theology before rival explanations have exhausted their say",
+        "legacy": "natural law theory, metaphysics of being, philosophy of religion, virtue ethics, and later debates over reason, causation, and moral order",
+        "begin": "Begin with first principles: what if practical reason and metaphysical explanation both depend on there being an intelligible order in things themselves?",
+    },
+    "David Hume": {
+        "period": "Scottish Enlightenment philosophy, where empiricism becomes psychologically acute and cheerfully dangerous to easy certainty",
+        "signature": "human understanding as a creature of habit, sentiment, and limited experience rather than a transparent window onto necessity, substance, or self",
+        "method": "mitigated skepticism through naturalistic analysis: he examines how the mind actually forms beliefs, then lets that account unsettle grand rationalist pretensions",
+        "concepts": [
+            "Custom: habit, not pure reason, carries us from past regularities to future expectations.",
+            "Causation: what we call necessary connection may be the mind's projection onto repeated conjunctions.",
+            "The self: introspection finds a bundle of perceptions, not an always-visible metaphysical owner.",
+            "Sentiment: moral judgment may depend more on human feeling and social response than on reason discovering objective value.",
+        ],
+        "pressure": "whether Hume explains belief formation at the cost of normativity, leaving us with a brilliant psychology that cannot fully justify the habits it describes",
+        "legacy": "empiricism, naturalism, the problem of induction, philosophy of mind, metaethics, and later suspicion toward rationalist excess",
+        "begin": "Begin with causation: when one event follows another, what exactly do we perceive besides sequence and expectation?",
+    },
+    "Willard Van Orman Quine": {
+        "period": "twentieth-century analytic naturalism, after logical positivism has begun to doubt its own clean divisions",
+        "signature": "the web of belief: meaning, ontology, and knowledge are revised holistically rather than secured by a few unrevisable conceptual truths",
+        "method": "holistic critique: he attacks comforting distinctions, then asks inquiry to answer to science without pretending it stands outside the world it studies",
+        "concepts": [
+            "Web of belief: claims face revision as parts of a network rather than one by one in splendid isolation.",
+            "Analytic-synthetic critique: meaning alone may not secure a special class of truths immune to revision.",
+            "Ontological commitment: our theories reveal what kinds of entities we are committed to countenance.",
+            "Naturalized epistemology: the study of knowledge returns to empirical inquiry rather than legislating from a transcendental balcony.",
+        ],
+        "pressure": "whether Quine's naturalism explains how inquiry works while giving away too much of the normative standpoint from which inquiry is supposed to be assessed",
+        "legacy": "analytic philosophy, naturalism, epistemology, ontology, philosophy of language, and every debate over whether philosophy can stand outside science",
+        "begin": "Begin with the analytic-synthetic distinction: what if the truths that seem true by meaning alone are not as insulated as philosophers hoped?",
+    },
+    "Maurice Merleau-Ponty": {
+        "period": "twentieth-century phenomenology, where embodiment and perception displace the fantasy of a detached spectator mind",
+        "signature": "the lived body as our primary opening onto the world: perception is not inner picture-viewing but skilled, situated contact with things and others",
+        "method": "descriptive phenomenology: he returns to gesture, perception, ambiguity, and bodily skill to show how experience is already world-involving before theory tidies it",
+        "concepts": [
+            "Embodiment: the body is not merely owned by consciousness; it is the medium of access to the world.",
+            "Perception: experience is meaningful before it becomes a finished judgment or explicit theory.",
+            "Ambiguity: human life resists clean splits between subject and object, freedom and situation, self and world.",
+            "Expression: language, art, and gesture reveal thought as something formed in contact with the visible world.",
+        ],
+        "pressure": "whether the richness of lived description purchases insight at the cost of argumentative sharpness, or whether that sharpness was itself part of the original distortion",
+        "legacy": "phenomenology, embodied cognition, aesthetics, feminist theory, philosophy of perception, and critiques of disembodied rationalism",
+        "begin": "Begin with the body: what changes if perception is not a camera in the head but a lived relation to a world already there?",
+    },
     "Nagarjuna": {
         "period": "Mahayana Buddhist philosophy, especially the Madhyamaka critique of intrinsic essence",
         "signature": "emptiness as the dependent-arising of all things, not nihilism but a cure for reified metaphysical grasping",
@@ -798,6 +1052,7 @@ PHILOSOPHER_SOURCE_WORKS = {
     "Laozi": "Daodejing",
     "Ludwig Wittgenstein": "Tractatus Logico-Philosophicus and Philosophical Investigations",
     "Marcus Aurelius": "Meditations",
+    "Maurice Merleau-Ponty": "Phenomenology of Perception and The Visible and the Invisible",
     "Mary Wollstonecraft": "A Vindication of the Rights of Woman",
     "Nagarjuna": "Mulamadhyamakakarika",
     "Niccolo Machiavelli": "The Prince and Discourses on Livy",
@@ -811,6 +1066,7 @@ PHILOSOPHER_SOURCE_WORKS = {
     "Socrates": "Plato's Apology and early dialogues",
     "Aquinas": "Summa Theologiae and Summa Contra Gentiles",
     "Thomas Aquinas": "Summa Theologiae and Summa Contra Gentiles",
+    "Willard Van Orman Quine": "From a Logical Point of View, Word and Object, and \"Two Dogmas of Empiricism\"",
     "William of Ockham": "Summa Logicae and Ordinatio",
     "Zhuangzi": "Zhuangzi",
 }
@@ -3172,7 +3428,27 @@ def topic_label(title: str) -> str:
 
 def philosopher_base_name(title: str) -> str:
     base = topic_label(title)
-    return PHILOSOPHER_NAME_ALIASES.get(base, base)
+    if base in PHILOSOPHER_NAME_ALIASES:
+        return PHILOSOPHER_NAME_ALIASES[base]
+
+    normalized_base = re.sub(r"[^a-z0-9]+", " ", clean_text(base).lower()).strip()
+    if normalized_base:
+        for alias, canonical in PHILOSOPHER_NAME_ALIASES.items():
+            alias_norm = re.sub(r"[^a-z0-9]+", " ", clean_text(alias).lower()).strip()
+            if alias_norm and (
+                normalized_base == alias_norm
+                or normalized_base.startswith(f"{alias_norm} ")
+            ):
+                return canonical
+        for canonical in PHILOSOPHER_PROFILES:
+            canonical_norm = re.sub(r"[^a-z0-9]+", " ", clean_text(canonical).lower()).strip()
+            if canonical_norm and (
+                normalized_base == canonical_norm
+                or normalized_base.startswith(f"{canonical_norm} ")
+            ):
+                return canonical
+
+    return base
 
 
 def philosopher_profile_for_title(title: str) -> dict | None:
@@ -3375,6 +3651,98 @@ def normalized_phrase(text: str) -> str:
     return re.sub(r"[^a-z0-9]+", " ", clean_text(text).lower()).strip()
 
 
+def default_tag_label(tag: str) -> str:
+    if tag in SECTION_META:
+        return SECTION_META[tag]["name"]
+    if tag in CONTROLLED_TAG_LABELS:
+        return CONTROLLED_TAG_LABELS[tag]
+    return clean_text(tag.replace("-", " ")).title()
+
+
+def controlled_tag_meta() -> dict[str, dict]:
+    meta: dict[str, dict] = {}
+    for section_id, section in SECTION_META.items():
+        meta[section_id] = {
+            "label": section["name"],
+            "kind": "branch",
+            "aliases": [section["name"], section_id.replace("-", " ")],
+        }
+    for tag in sorted(PUBLIC_FORMAT_TAGS | CONTROLLED_TAG_EXTRA_KEYS | {item for section in SECTION_META.values() for item in section["futureTags"]}):
+        aliases = [tag, tag.replace("-", " "), *CONTROLLED_TAG_ALIASES.get(tag, [])]
+        if tag in meta and meta[tag]["kind"] == "branch":
+            meta[tag]["aliases"] = dedupe(meta[tag]["aliases"] + aliases)
+            continue
+        meta[tag] = {
+            "label": default_tag_label(tag),
+            "kind": "format" if tag in PUBLIC_FORMAT_TAGS else "concept",
+            "aliases": aliases,
+        }
+    return meta
+
+
+CONTROLLED_TAG_META = controlled_tag_meta()
+
+
+def curated_tag_vocabulary() -> set[str]:
+    return set(CONTROLLED_TAG_META)
+
+
+def tag_display_label(tag: str) -> str:
+    return CONTROLLED_TAG_META.get(tag, {}).get("label", default_tag_label(tag))
+
+
+def canonical_tag_key(raw_tag: str) -> str:
+    normalized = normalized_phrase(raw_tag)
+    if not normalized:
+        return ""
+    for tag, meta in CONTROLLED_TAG_META.items():
+        aliases = [normalized_phrase(item) for item in meta.get("aliases", [])]
+        if normalized in aliases:
+            return tag
+    return ""
+
+
+def tag_alias_phrases(tag: str) -> list[str]:
+    meta = CONTROLLED_TAG_META.get(tag)
+    if not meta:
+        return []
+    phrases = []
+    for alias in meta.get("aliases", []):
+        normalized = normalized_phrase(alias)
+        if normalized:
+            phrases.append(normalized)
+    return dedupe(phrases)
+
+
+def matched_controlled_tags(text: str, allowed_kinds: set[str] | None = None) -> list[str]:
+    normalized_text = normalized_phrase(text)
+    if not normalized_text:
+        return []
+    matches: list[str] = []
+    for tag, meta in CONTROLLED_TAG_META.items():
+        if allowed_kinds and meta.get("kind") not in allowed_kinds:
+            continue
+        for phrase in tag_alias_phrases(tag):
+            if re.search(rf"\b{re.escape(phrase)}\b", normalized_text):
+                matches.append(tag)
+                break
+    return dedupe(matches)
+
+
+def tag_signal_text(page: dict) -> str:
+    parts = [
+        page.get("title", ""),
+        topic_label(page.get("title", "")),
+        page.get("excerpt", ""),
+        *page.get("source_prompts", [])[:4],
+        *(detail.get("prompt", "") for detail in page.get("source_prompt_details", [])[:4]),
+        *page.get("thread_like", [])[:6],
+        *(child.get("title", "") for child in page.get("children", [])[:4]),
+        *page.get("parent_titles", [])[:2],
+    ]
+    return " ".join(clean_text(part) for part in parts if clean_text(part))
+
+
 def compound_tag_candidates(topic: str) -> tuple[list[str], set[str]]:
     normalized_topic = normalized_phrase(topic)
     phrase_tags: list[str] = []
@@ -3386,7 +3754,9 @@ def compound_tag_candidates(topic: str) -> tuple[list[str], set[str]]:
             continue
         if not re.search(rf"\b{re.escape(normalized)}\b", normalized_topic):
             continue
-        phrase_tags.append(slugify(normalized))
+        canonical = canonical_tag_key(normalized)
+        if canonical:
+            phrase_tags.append(canonical)
         suppressed_components.update(
             slugify(word)
             for word in normalized.split()
@@ -3399,12 +3769,16 @@ def compound_tag_candidates(topic: str) -> tuple[list[str], set[str]]:
 def tag_candidates(page: dict, section_meta: dict) -> list[str]:
     topic = topic_label(page["title"])
     phrase_tags, suppressed_components = compound_tag_candidates(topic)
-    base = [
+    raw_title_terms = [
         slugify(word)
         for word in re.split(r"[\s/&:—–-]+", topic)
         if len(word) > 3 and slugify(word) not in suppressed_components
     ]
-    tags = dedupe(phrase_tags + base + list(section_meta["futureTags"]))
+    title_tags = [canonical_tag_key(term) for term in raw_title_terms]
+    matched_tags = matched_controlled_tags(tag_signal_text(page), {"concept"})
+    seed_tags = [canonical_tag_key(tag) for tag in section_meta["futureTags"]]
+    tags = dedupe(phrase_tags + title_tags + matched_tags + seed_tags)
+    tags = [tag for tag in tags if tag and tag in curated_tag_vocabulary() and tag not in SECTION_IDS and tag not in PUBLIC_FORMAT_TAGS]
     return tags[:5]
 
 
@@ -3420,37 +3794,11 @@ def discovery_tag_candidates(page: dict, section_meta: dict) -> list[str]:
     elif clean_text(page.get("title", "")).lower().startswith(("what is ", "what are ")):
         tags.append("primer")
 
-    topic_blob = normalized_phrase(
-        " ".join(
-            [
-                page.get("title", ""),
-                " ".join(page.get("source_prompts", [])[:4]),
-                " ".join(page.get("thread_like", [])[:6]),
-            ]
-        )
-    )
-    for tag in section_meta["futureTags"]:
-        normalized_tag = normalized_phrase(tag)
-        if normalized_tag and re.search(rf"\b{re.escape(normalized_tag)}\b", topic_blob):
-            tags.append(tag)
-
     page_tags = tag_candidates(page, section_meta)
-    vocabulary = curated_tag_vocabulary()
     for tag in page_tags:
-        if tag in section_meta["futureTags"]:
-            continue
-        if tag in vocabulary and not re.match(r"^\d", tag) and is_discovery_safe_tag(tag):
+        if tag in curated_tag_vocabulary() and not re.match(r"^\d", tag) and is_discovery_safe_tag(tag):
             tags.append(tag)
     return dedupe(tags)[:7]
-
-
-def curated_tag_vocabulary() -> set[str]:
-    vocabulary = set(SECTION_IDS) | set(PUBLIC_FORMAT_TAGS)
-    for meta in SECTION_META.values():
-        vocabulary.update(meta["futureTags"])
-    for entry in GLOSSARY_TERMS:
-        vocabulary.update(entry.get("tags", []))
-    return vocabulary
 
 
 def is_discovery_safe_tag(tag: str) -> bool:
@@ -3476,6 +3824,40 @@ def is_discovery_safe_tag(tag: str) -> bool:
     }
 
 
+def landing_signature_tag(section_id: str) -> str:
+    for raw_tag in SECTION_META[section_id]["futureTags"]:
+        tag = canonical_tag_key(raw_tag)
+        if not tag or not is_discovery_safe_tag(tag):
+            continue
+        kind = CONTROLLED_TAG_META.get(tag, {}).get("kind")
+        if kind == "format" or tag == section_id:
+            continue
+        return tag
+    return ""
+
+
+def build_landing_tags(tag_counts: dict[str, int]) -> list[str]:
+    always_show = dedupe(["primer", "dialogue", "comparison", "branch-map", *SECTION_IDS])
+    signature_tags = [landing_signature_tag(section_id) for section_id in SECTION_IDS]
+    bridge_tags = [
+        "evidence",
+        "knowledge",
+        "bias",
+        "decision-making",
+        "method",
+        "inquiry",
+    ]
+    preferred = dedupe(always_show + signature_tags + bridge_tags)
+    landing_tags = [
+        tag
+        for tag in preferred
+        if tag
+        and tag_counts.get(tag, 0)
+        and is_discovery_safe_tag(tag)
+    ]
+    return landing_tags[:40]
+
+
 def generic_standfirst(page: dict, section_meta: dict) -> str:
     topic = topic_label(page["title"])
     kind = page["kind"]
@@ -3490,6 +3872,122 @@ def generic_standfirst(page: dict, section_meta: dict) -> str:
     if kind == "cluster":
         return f"A branch page on {topic}, placing its nested posts inside {profile['standfirst']}"
     return f"{article} {section_meta['name']} page on {topic}, centered on {profile['standfirst']}"
+
+
+def is_primer_page(page: dict) -> bool:
+    lowered = clean_text(page.get("title", "")).lower()
+    return lowered.startswith(("what is ", "what are "))
+
+
+def page_form_label(page: dict) -> str:
+    title = clean_text(page.get("title", ""))
+    if page["kind"] == "dialogue":
+        return "Dialogue page"
+    if page["kind"] == "chart":
+        return "Comparison chart"
+    if page["kind"] == "danger":
+        return "Caution page"
+    if page["kind"] == "cluster":
+        return "Branch cluster"
+    if is_primer_page(page):
+        return "Concept primer"
+    if re.match(r"^Case\b", title, flags=re.IGNORECASE) or "case study" in title.lower():
+        return "Case study"
+    if "debate" in title.lower():
+        return "Debate page"
+    if page["section_id"] == "philosophers":
+        return "Thinker profile"
+    return "Guided essay"
+
+
+def page_best_for(page: dict) -> str:
+    if page["kind"] == "dialogue":
+        return "hearing a philosopher's method in motion"
+    if page["kind"] == "chart":
+        return "orientation by contrast before deeper reading"
+    if page["kind"] == "danger":
+        return "spotting seductive distortions before they harden"
+    if page["kind"] == "cluster":
+        return "seeing the branch map before choosing a path"
+    if is_primer_page(page):
+        return "first orientation to a major concept"
+    return SECTION_SIGNAL_META.get(page["section_id"], {}).get(
+        "best_for",
+        "entering the topic with disciplined guidance",
+    )
+
+
+def page_difficulty_label(page: dict) -> str:
+    base = SECTION_SIGNAL_META.get(page["section_id"], {}).get("difficulty", "Intermediate")
+    if page["kind"] == "cluster":
+        return "Foundational"
+    if page["kind"] == "dialogue":
+        return "Foundational to intermediate"
+    if page["kind"] == "chart":
+        return "Intermediate"
+    if is_primer_page(page) and base == "Intermediate":
+        return "Foundational to intermediate"
+    return base
+
+
+def render_page_signals(items: list[tuple[str, str, str | None]]) -> str:
+    chips = []
+    for label, value, href in items:
+        clean_label = clean_text(label)
+        clean_value = clean_text(value)
+        if not clean_label or not clean_value:
+            continue
+        value_html = (
+            f'<a href="{html.escape(href)}">{html.escape(clean_value)}</a>'
+            if href
+            else html.escape(clean_value)
+        )
+        chips.append(
+            textwrap.dedent(
+                f"""\
+                    <li class="page-signals__item">
+                      <span class="page-signals__label">{html.escape(clean_label)}</span>
+                      <span class="page-signals__value">{value_html}</span>
+                    </li>"""
+            )
+        )
+    if not chips:
+        return ""
+    return textwrap.dedent(
+        f"""\
+              <ul class="page-signals" aria-label="Page signals">
+        {chr(10).join(chips)}
+              </ul>"""
+    )
+
+
+def article_page_signal_items(page: dict, prefix: str) -> list[tuple[str, str, str | None]]:
+    section_meta = SECTION_META[page["section_id"]]
+    branch_href = internal_article_href(prefix, branch_guide_path(page["section_id"]))
+    return [
+        ("Branch", section_meta["name"], branch_href),
+        ("Page form", page_form_label(page), None),
+        ("Best for", page_best_for(page), None),
+        ("Difficulty", page_difficulty_label(page), None),
+        ("Last revised", BUILD_DATE_TEXT, None),
+    ]
+
+
+def archive_page_signal_items(
+    *,
+    scope: str,
+    page_form: str,
+    best_for: str,
+    difficulty: str = "Foundational",
+    scope_href: str | None = None,
+) -> list[tuple[str, str, str | None]]:
+    return [
+        ("Scope", scope, scope_href),
+        ("Page form", page_form, None),
+        ("Best for", best_for, None),
+        ("Difficulty", difficulty, None),
+        ("Last revised", BUILD_DATE_TEXT, None),
+    ]
 
 
 def feature_summary(page: dict, section_meta: dict) -> str:
@@ -7064,8 +7562,10 @@ def tag_page_path(tag: str) -> str:
 
 
 def tag_archive_link(tag: str, prefix: str) -> str:
-    escaped_tag = html.escape(tag)
-    href = internal_article_href(prefix, tag_page_path(tag))
+    canonical = canonical_tag_key(tag) or tag
+    label = tag_display_label(canonical)
+    escaped_tag = html.escape(label)
+    href = internal_article_href(prefix, tag_page_path(canonical))
     return (
         f'<a class="tag-chip" href="{html.escape(href)}" '
         f'aria-label="Show pages tagged {escaped_tag}">{escaped_tag}</a>'
@@ -7093,7 +7593,8 @@ def link_static_tag_chips(target: Path) -> None:
     updated = re.sub(r'<span class="tag-chip">([^<]+)</span>', replace_chip, content)
 
     def replace_old_tag_href(match: re.Match[str]) -> str:
-        tag = unquote(match.group(1)).strip()
+        raw_tag = unquote(match.group(1)).strip()
+        tag = canonical_tag_key(raw_tag) or raw_tag
         if not tag:
             return match.group(0)
         href = internal_article_href(prefix, tag_page_path(tag))
@@ -7118,6 +7619,75 @@ def serial_join_html(items: list[str]) -> str:
     return f"{', '.join(items[:-1])}, and {items[-1]}"
 
 
+def philosopher_original_framing(page: dict, philosopher: str) -> str:
+    if page["kind"] == "dialogue":
+        return (
+            f"Newly written dialogue. The interlocutors and transitions are editorial, so {philosopher} can answer a live reader's questions without fake line-by-line ventriloquism."
+        )
+    if page["kind"] == "chart":
+        return (
+            "Newly written comparison page. The rows, headings, and contrasts are editorial, designed to turn a thinker into a usable map rather than a shrine with footnotes."
+        )
+    return (
+        f"Newly written orientation page. The framing and prose are editorial, designed to make {philosopher} teachable without flattening the view into a slogan."
+    )
+
+
+def philosopher_preserved_texture(page: dict, philosopher: str, profile: dict | None) -> str:
+    method_sentence = (
+        philosopher_method_sentence(profile)
+        if profile
+        else "The page keeps the philosopher's characteristic motion of questioning, distinguishing, and pressing the issue."
+    )
+    if page["kind"] == "dialogue":
+        return (
+            f"What is being preserved is {philosopher}'s style under questioning. {method_sentence}"
+        )
+    if page["kind"] == "chart":
+        return (
+            f"What is being preserved is the philosopher's central pressure, strongest objection, and later influence in the same frame. {method_sentence}"
+        )
+    return (
+        f"What is being preserved is the philosopher's characteristic way of proceeding, not just a pile of conclusions. {method_sentence}"
+    )
+
+
+def philosopher_ideas_in_view(philosopher: str, profile: dict | None) -> str:
+    if profile and profile.get("concepts"):
+        labels = [concept_label(concept) for concept in profile["concepts"][:4]]
+        return serial_join(labels)
+    return f"the signature problem, the governing method, the strongest objection, and the later influence trail around {philosopher}"
+
+
+def render_philosopher_source_dossier(page: dict, philosopher: str, profile: dict | None, source_work: str) -> str:
+    influence = profile["legacy"] if profile else f"the later debates that had to inherit, revise, or resist {philosopher}"
+    setting = profile["period"] if profile else f"the historical setting that first made {philosopher}'s questions urgent"
+    cards = [
+        ("Original framing", philosopher_original_framing(page, philosopher)),
+        ("Preserved texture", philosopher_preserved_texture(page, philosopher, profile)),
+        ("Historical setting", setting),
+        ("Primary texts nearby", source_work),
+        ("Ideas in view", philosopher_ideas_in_view(philosopher, profile)),
+        ("Influence trail", influence),
+    ]
+    card_html = "\n".join(
+        textwrap.dedent(
+            f"""\
+                    <article class="source-dossier__card">
+                      <p class="mini-label">{html.escape(label)}</p>
+                      <p>{render_inline_text(text)}</p>
+                    </article>"""
+        )
+        for label, text in cards
+    )
+    return textwrap.dedent(
+        f"""\
+              <div class="source-dossier">
+{card_html}
+              </div>"""
+    )
+
+
 def render_philosopher_source_texture_html(page: dict) -> str:
     if page["section_id"] != "philosophers":
         return ""
@@ -7126,47 +7696,30 @@ def render_philosopher_source_texture_html(page: dict) -> str:
     philosopher = topic_label(page["title"])
     base = philosopher_base_name(page["title"])
     source_work = PHILOSOPHER_SOURCE_WORKS.get(base) or PHILOSOPHER_SOURCE_WORKS.get(philosopher) or "the primary texts, fragments, or source traditions associated with the thinker"
+    dossier = render_philosopher_source_dossier(page, philosopher, profile, source_work)
     if profile:
-        method_sentence = philosopher_method_sentence(profile)
-        pressure = profile["pressure"]
-        concepts = profile["concepts"][:3]
+        listening_for = (
+            f"Read with one ear tuned to method and one eye on objection. {philosopher_method_sentence(profile)} "
+            f"Do not merely collect positions; notice which distinction keeps forcing the page back to {profile['signature']}."
+        )
     else:
-        method_sentence = "Read for the thinker's distinctive motion: dialogue, system, aphorism, critique, analysis, or spiritual exercise."
-        pressure = "whether the reconstruction preserves the philosopher's own way of questioning rather than turning the figure into a tidy summary."
-        concepts = [
-            f"Historical pressure: What problem made {philosopher}'s work necessary?",
-            f"Method: How does {philosopher} argue, provoke, analyze, console, or unsettle?",
-            f"Influence: What later debates had to inherit, revise, or resist?",
-        ]
-    concept_items = "\n".join(
-        f"                <li>{render_inline_text(item)}</li>"
-        for item in [
-            f"Primary source to keep nearby: {source_work}.",
-            f"Method to listen for: {method_sentence}",
-            f"Pressure to preserve: {pressure.rstrip('.')}.",
-            *concepts,
-        ]
-    )
+        listening_for = (
+            f"Read with one eye on historical setting and one eye on the point of resistance. The page should keep {philosopher} sounding like a pressure on thought rather than a wax museum label."
+        )
     return textwrap.dedent(
         f"""\
             <section class="article-section article-section--source-texture" id="source-texture">
               <div class="article-section__meta">
-                <p class="eyebrow">Source Texture</p>
+                <p class="eyebrow">Source and Context</p>
               </div>
-              <h2>{html.escape(philosopher)} should be read with the primary voice nearby.</h2>
+              <h2>Read {html.escape(philosopher)} with voice, context, and method in the same frame.</h2>
               <p>
-                This page treats the philosopher as a method of inquiry, not merely as a doctrine label.
-                The primary-source texture matters because style carries argument: aphorism, dialogue,
-                proof, confession, critique, and system-building each teach the reader differently.
+                This dossier is here so the reader knows what has been newly framed on the page, what has been deliberately preserved, and which texts or ideas should stay nearby while the argument unfolds.
               </p>
+{dossier}
               <p>
-                Where exact quotations appear, they should sharpen the encounter rather than decorate it.
-                The guiding question is what a reader should listen for when moving from this page back
-                toward the source tradition.
+                {render_inline_text(listening_for)}
               </p>
-              <ol>
-{concept_items}
-              </ol>
             </section>"""
     )
 
@@ -7181,6 +7734,7 @@ def render_article_page(page: dict) -> str:
     prefix = "../" * depth
     branch_path = branch_guide_path(page["section_id"])
     branch_href = internal_article_href(prefix, branch_path)
+    page_signals = render_page_signals(article_page_signal_items(page, prefix))
     breadcrumbs = [
         ("Home", f"{prefix}index.html"),
         (section_meta["name"], branch_href),
@@ -7297,7 +7851,7 @@ def render_article_page(page: dict) -> str:
     }
     if page.get("date"):
         article_json["datePublished"] = page["date"][:10]
-        article_json["dateModified"] = page["date"][:10]
+    article_json["dateModified"] = BUILD_DATE.isoformat()
     article_head = render_seo_head(
         title=page["title"],
         description=standfirst,
@@ -7348,6 +7902,7 @@ def render_article_page(page: dict) -> str:
                   <p class="article-standfirst">
                     {html.escape(standfirst)}
                   </p>
+{page_signals}
                 </div>
               </header>
 
@@ -7390,6 +7945,15 @@ def render_article_page(page: dict) -> str:
 
 
 def render_menu_structure_page() -> str:
+    signals_html = render_page_signals(
+        archive_page_signal_items(
+            scope="Sitewide",
+            scope_href="../index.html",
+            page_form="Site map",
+            best_for="seeing the hierarchy before choosing a path",
+            difficulty="Foundational",
+        )
+    )
     menu_head = render_seo_head(
         title="Site Map",
         description="A nested map of the Byteseismic archive, preserving the visible branch structure while linking into the pages.",
@@ -7434,6 +7998,7 @@ def render_menu_structure_page() -> str:
                     A nested view of the archive, preserving the visible hierarchy
                     while pointing each branch toward its pages.
                   </p>
+{signals_html}
                 </div>
               </header>
 
@@ -7576,6 +8141,15 @@ def render_search_interface(input_id: str, *, sync_url: bool = False) -> str:
 
 
 def render_guided_reading_page() -> str:
+    signals_html = render_page_signals(
+        archive_page_signal_items(
+            scope="Sitewide",
+            scope_href="../index.html",
+            page_form="Guided routes",
+            best_for="readers who want sequence rather than a single page",
+            difficulty="Foundational to intermediate",
+        )
+    )
     guide_head = render_seo_head(
         title="Guided Reading Paths",
         description="Curated reading routes through Byteseismic for newcomers, truth and inquiry, metaethics, AI and rationality, and major philosophers.",
@@ -7613,6 +8187,7 @@ def render_guided_reading_page() -> str:
                   <p class="article-standfirst">
                     These routes turn the archive into a set of deliberate entrances. Each path gives the reader a sequence, a reason for the sequence, and a question to carry forward.
                   </p>
+{signals_html}
                 </div>
               </header>
 
@@ -7648,6 +8223,15 @@ def render_guided_reading_page() -> str:
 
 
 def render_glossary_page() -> str:
+    signals_html = render_page_signals(
+        archive_page_signal_items(
+            scope="Cross-branch",
+            scope_href="../index.html#concept-glossary",
+            page_form="Concept index",
+            best_for="getting a stable first handle on recurring terms",
+            difficulty="Foundational",
+        )
+    )
     glossary_head = render_seo_head(
         title="Concept Glossary",
         description="A concept index for recurring Byteseismic terms including belief, credence, induction, moral realism, normativity, and operational rigor.",
@@ -7685,6 +8269,7 @@ def render_glossary_page() -> str:
                   <p class="article-standfirst">
                     A compact index of recurring concepts, written as entry points rather than final authorities. Each term points back into pages where the concept does argumentative work.
                   </p>
+{signals_html}
                 </div>
               </header>
 
@@ -7703,6 +8288,15 @@ def render_glossary_page() -> str:
 
 
 def render_search_page() -> str:
+    signals_html = render_page_signals(
+        archive_page_signal_items(
+            scope="Sitewide",
+            scope_href="../index.html",
+            page_form="Search page",
+            best_for="finding a concept or thinker when the exact page is unclear",
+            difficulty="Foundational",
+        )
+    )
     search_head = render_seo_head(
         title="Site Search",
         description="Search pages, branch guides, guided routes, glossary terms, and tags across Byteseismic.",
@@ -7740,6 +8334,7 @@ def render_search_page() -> str:
                   <p class="article-standfirst">
                     Search across pages, branch guides, guided routes, glossary terms, and discovery tags without having to guess which part of the archive already holds the thread.
                   </p>
+{signals_html}
                 </div>
               </header>
 
@@ -7776,6 +8371,15 @@ def render_branch_guide_page(section_id: str, pages: list[dict]) -> str:
     meta = SECTION_META[section_id]
     profile = branch_profile(section_id)
     prefix = "../../"
+    signals_html = render_page_signals(
+        [
+            ("Branch", meta["name"], None),
+            ("Page form", "Branch guide", None),
+            ("Best for", SECTION_SIGNAL_META.get(section_id, {}).get("best_for", meta["summary"]), None),
+            ("Difficulty", SECTION_SIGNAL_META.get(section_id, {}).get("difficulty", "Foundational"), None),
+            ("Last revised", BUILD_DATE_TEXT, None),
+        ]
+    )
     section_pages = sorted(
         [page for page in pages if page["section_id"] == section_id and page["built_path"] not in GROUP_PAGE_TITLES.values()],
         key=lambda item: (item["kind"] != "cluster", item["title"].lower()),
@@ -7826,6 +8430,7 @@ def render_branch_guide_page(section_id: str, pages: list[dict]) -> str:
                   <p class="hero__kicker">Branch Guide</p>
                   <h1>{html.escape(meta['name'])}</h1>
                   <p class="article-standfirst">{html.escape(meta['summary'])}</p>
+{signals_html}
                 </div>
               </header>
 
@@ -7864,14 +8469,17 @@ def render_branch_guide_page(section_id: str, pages: list[dict]) -> str:
 
 def render_tag_archive_page(tag: str, tagged_pages: list[dict], tag_counts: dict[str, int]) -> str:
     prefix = "../../"
-    path = tag_page_path(tag)
+    canonical_tag = canonical_tag_key(tag) or tag
+    tag_label = tag_display_label(canonical_tag)
+    tag_kind = CONTROLLED_TAG_META.get(canonical_tag, {}).get("kind", "concept")
+    path = tag_page_path(canonical_tag)
     matching_pages = sorted(
-        [page for page in tagged_pages if tag in page.get("tags", [])],
+        [page for page in tagged_pages if canonical_tag in page.get("tags", [])],
         key=lambda page: (page["section"], page["title"]),
     )
     related_counter: Counter[str] = Counter()
     for page in matching_pages:
-        related_counter.update(item for item in page.get("tags", []) if item != tag)
+        related_counter.update(item for item in page.get("tags", []) if item != canonical_tag)
     related_tags = [
         item
         for item, _count in related_counter.most_common(8)
@@ -7908,20 +8516,40 @@ def render_tag_archive_page(tag: str, tagged_pages: list[dict], tag_counts: dict
         )
     groups = "\n".join(group_blocks) or '                  <p class="muted-label">No pages use this tag yet.</p>'
     count = len(matching_pages)
+    kicker = {
+        "branch": "Branch Tag",
+        "format": "Page Format",
+        "concept": "Concept Tag",
+    }.get(tag_kind, "Tag Path")
+    tag_scope = "Branchwide" if tag_kind == "branch" else "Cross-branch"
+    tag_best_for = {
+        "branch": "moving through one branch without flattening it into a list",
+        "format": "finding one teaching form across several branches",
+        "concept": "following one recurring concept across distant pages",
+    }.get(tag_kind, "tracking a recurring path through the archive")
+    signals_html = render_page_signals(
+        archive_page_signal_items(
+            scope=tag_scope,
+            scope_href="../../index.html#tag-discovery",
+            page_form=kicker,
+            best_for=tag_best_for,
+            difficulty="Foundational",
+        )
+    )
     tag_head = render_seo_head(
-        title=f"Tag: {tag}",
-        description=f"Pages tagged {tag} in the Byteseismic philosophy site.",
+        title=f"Tag: {tag_label}",
+        description=f"Pages tagged {tag_label} in the Byteseismic philosophy site.",
         path=path,
         prefix=prefix,
         page_type="website",
-        extra_json_ld=[breadcrumb_json_ld([("Home", "/"), ("Tag", "/#tag-discovery"), (f"Tag: {tag}", path)])],
+        extra_json_ld=[breadcrumb_json_ld([("Home", "/"), ("Tag", "/#tag-discovery"), (f"Tag: {tag_label}", path)])],
         force_noindex=True,
     )
     breadcrumbs = breadcrumb_trail_html(
         [
             ("Home", "../../index.html"),
             ("Tag", "../../index.html#tag-discovery"),
-            (tag, internal_article_href(prefix, path)),
+            (tag_label, internal_article_href(prefix, path)),
         ]
     )
     return textwrap.dedent(
@@ -7942,11 +8570,12 @@ def render_tag_archive_page(tag: str, tagged_pages: list[dict], tag_counts: dict
                   <div class="breadcrumbs">
                     {breadcrumbs}
                   </div>
-                  <p class="hero__kicker">Tag Path</p>
-                  <h1>{html.escape(tag)}</h1>
+                  <p class="hero__kicker">{html.escape(kicker)}</p>
+                  <h1>{html.escape(tag_label)}</h1>
                   <p class="article-standfirst">
-                    {count} page{"" if count == 1 else "s"} currently use this tag. Use this path as a cross-branch way to follow recurring concepts, formats, and tensions.
+                    {count} page{"" if count == 1 else "s"} currently use this tag. Use this path as a cross-branch way to follow recurring concepts, formats, and tensions through a stable vocabulary.
                   </p>
+{signals_html}
                 </div>
               </header>
 
@@ -7954,7 +8583,7 @@ def render_tag_archive_page(tag: str, tagged_pages: list[dict], tag_counts: dict
                 <main class="article-stack">
                   <section class="content-card">
                     <p class="eyebrow">Tagged Pages</p>
-                    <h2>Pages connected by {html.escape(tag)}</h2>
+                    <h2>Pages connected by {html.escape(tag_label)}</h2>
                     <div class="tag-results__groups">
 {groups}
                     </div>
@@ -8000,8 +8629,9 @@ def visible_tag_chips_by_path(targets: set[Path]) -> dict[str, list[str]]:
             for count in chip.select(".tag-chip__count"):
                 count.decompose()
             text = clean_text(chip.get_text(" ", strip=True))
-            if text:
-                tags.append(text)
+            canonical = canonical_tag_key(text)
+            if canonical:
+                tags.append(canonical)
         if tags:
             by_path[path] = dedupe(tags)
     return by_path
@@ -8043,6 +8673,15 @@ def render_expanded_archive_page(posts_by_year: dict[int, list[dict]], section_c
             ("Recent Posts — Expanded Version", "../recent-posts-expanded-version/"),
         ]
     )
+    signals_html = render_page_signals(
+        archive_page_signal_items(
+            scope="Sitewide",
+            scope_href="../index.html",
+            page_form="Expanded archive",
+            best_for="scanning the wider post history beyond the curated branch spine",
+            difficulty="Foundational",
+        )
+    )
 
     return textwrap.dedent(
         f"""\
@@ -8072,6 +8711,7 @@ def render_expanded_archive_page(posts_by_year: dict[int, list[dict]], section_c
                     A wide-angle archive page reflecting the broader public post history while the
                     curated branch hierarchy remains the main navigational spine.
                   </p>
+{signals_html}
                 </div>
               </header>
 
@@ -8098,6 +8738,15 @@ def render_expanded_archive_page(posts_by_year: dict[int, list[dict]], section_c
 
 
 def render_podcast_page() -> str:
+    signals_html = render_page_signals(
+        archive_page_signal_items(
+            scope="Audio branch",
+            scope_href="../index.html",
+            page_form="Holding page",
+            best_for="tracking future spoken companions to the written archive",
+            difficulty="Foundational",
+        )
+    )
     podcast_head = render_seo_head(
         title="Byteseismic Podcasts",
         description="A holding page for the audio branch of the Byteseismic archive.",
@@ -8139,6 +8788,7 @@ def render_podcast_page() -> str:
                   <p class="article-standfirst">
                     A branch page reserved for audio adaptations, curated episode groupings, and future spoken companions to the written archive.
                   </p>
+{signals_html}
                 </div>
               </header>
 
@@ -8336,6 +8986,15 @@ def render_quality_review_page(report: dict) -> str:
             ("Quality Review", "../quality-review/"),
         ]
     )
+    signals_html = render_page_signals(
+        archive_page_signal_items(
+            scope="Internal",
+            scope_href="../index.html",
+            page_form="Editorial ledger",
+            best_for="seeing the backlog, weak spots, and gap-fill queue at a glance",
+            difficulty="Intermediate",
+        )
+    )
     issue_counts = editorial_audit.get("issueCounts", {})
     if issue_counts:
         issue_items = "\n".join(
@@ -8413,6 +9072,7 @@ def render_quality_review_page(report: dict) -> str:
                     A working ledger for separating repair-level issues from relative polish targets
                     inside an already mature reconstruction.
                   </p>
+{signals_html}
                 </div>
               </header>
 
@@ -8699,7 +9359,7 @@ def inject_seo_into_manual_page(target: Path, page: dict) -> bool:
     }
     if page.get("date"):
         article_json["datePublished"] = page["date"][:10]
-        article_json["dateModified"] = page["date"][:10]
+    article_json["dateModified"] = BUILD_DATE.isoformat()
     head = textwrap.dedent(
         f"""\
         <head>
@@ -8732,13 +9392,51 @@ def inject_seo_into_manual_page(target: Path, page: dict) -> bool:
     return True
 
 
+def inject_page_signals_into_manual_page(target: Path, page: dict) -> bool:
+    if not target.exists():
+        return False
+    existing = target.read_text()
+    if AUTO_MARKER in existing or 'data-page-type="article"' not in existing:
+        return False
+
+    depth = len(Path(page["built_path"].strip("/")).parts)
+    prefix = "../" * depth
+    signals_html = render_page_signals(article_page_signal_items(page, prefix))
+    if not signals_html:
+        return False
+
+    soup = BeautifulSoup(existing, "html.parser")
+    hero_content = soup.select_one(".hero__content")
+    if hero_content is None:
+        return False
+
+    fragment = BeautifulSoup(signals_html, "html.parser")
+    replacement = fragment.select_one(".page-signals")
+    if replacement is None:
+        return False
+
+    existing_signals = hero_content.select_one(".page-signals")
+    if existing_signals is not None:
+        existing_signals.replace_with(replacement)
+    else:
+        standfirst = hero_content.select_one(".article-standfirst")
+        if standfirst is not None:
+            standfirst.insert_after(replacement)
+        else:
+            hero_content.append(replacement)
+
+    updated = str(soup)
+    if updated == existing:
+        return False
+    target.write_text(updated)
+    return True
+
+
 def inject_philosopher_source_texture_into_manual_page(target: Path, page: dict) -> bool:
     if page["section_id"] != "philosophers" or not target.exists():
         return False
     existing = target.read_text()
     if AUTO_MARKER in existing or 'data-page-type="article"' not in existing:
-        return False
-    if 'id="source-texture"' in existing:
         return False
 
     source_texture_html = render_philosopher_source_texture_html(page)
@@ -8755,11 +9453,15 @@ def inject_philosopher_source_texture_into_manual_page(target: Path, page: dict)
     if source_section is None:
         return False
 
-    first_section = article_body.find("section", recursive=False)
-    if first_section is not None:
-        first_section.insert_before(source_section)
+    existing_source = article_body.select_one("#source-texture")
+    if existing_source is not None:
+        existing_source.replace_with(source_section)
     else:
-        article_body.append(source_section)
+        first_section = article_body.find("section", recursive=False)
+        if first_section is not None:
+            first_section.insert_before(source_section)
+        else:
+            article_body.append(source_section)
 
     updated = str(soup)
     if updated == existing:
@@ -9439,6 +10141,7 @@ def main() -> None:
             inject_dialectical_turn_into_manual_page(target, page)
             inject_quiz_into_manual_page(target, page)
             inject_seo_into_manual_page(target, page)
+            inject_page_signals_into_manual_page(target, page)
             inject_philosopher_source_texture_into_manual_page(target, page)
             normalize_manual_breadcrumbs(target, page)
             normalize_manual_prompt_system(target)
@@ -9541,7 +10244,11 @@ def main() -> None:
     glossary_tags_by_path: dict[str, list[str]] = defaultdict(list)
     for entry in GLOSSARY_TERMS:
         for path in entry.get("paths", []):
-            glossary_tags_by_path[normalize_site_path(path)].extend(entry.get("tags", []))
+            glossary_tags_by_path[normalize_site_path(path)].extend(
+                canonical
+                for canonical in (canonical_tag_key(tag) for tag in entry.get("tags", []))
+                if canonical
+            )
 
     tagged_pages = []
     tag_archive_pages = []
@@ -9580,26 +10287,7 @@ def main() -> None:
     for page in tag_archive_pages:
         for tag in page["tags"]:
             tag_archive_counts[tag] += 1
-    always_show_landing_tags = dedupe(["primer", "dialogue", "comparison", "branch-map", *SECTION_IDS])
-    preferred_landing_tags = dedupe(
-        [
-            *always_show_landing_tags,
-            *(tag for section_id in SECTION_IDS for tag in SECTION_META[section_id]["futureTags"]),
-        ]
-    )
-    landing_tags = [
-        tag
-        for tag in preferred_landing_tags
-        if tag_counts.get(tag, 0)
-        and is_discovery_safe_tag(tag)
-        and (tag in always_show_landing_tags or tag_counts.get(tag, 0) >= 2)
-    ]
-    landing_tags.extend(
-        tag
-        for tag, _count in sorted(tag_counts.items(), key=lambda item: (-item[1], item[0]))
-        if tag not in landing_tags and tag_counts.get(tag, 0) >= 2 and is_discovery_safe_tag(tag)
-    )
-    landing_tags = landing_tags[:48]
+    landing_tags = build_landing_tags(tag_counts)
 
     tag_pages = {
         tag: tag_page_path(tag)
@@ -9659,6 +10347,13 @@ def main() -> None:
         "guidedReadingPaths": GUIDED_READING_PATHS,
         "glossaryTerms": GLOSSARY_TERMS,
         "landingTags": landing_tags,
+        "tagMeta": {
+            tag: {
+                "label": tag_display_label(tag),
+                "kind": CONTROLLED_TAG_META.get(tag, {}).get("kind", "concept"),
+            }
+            for tag in sorted(curated_tag_vocabulary())
+        },
         "tagCounts": dict(sorted(tag_counts.items())),
         "tagPages": tag_pages,
         "taggedPages": tagged_pages,

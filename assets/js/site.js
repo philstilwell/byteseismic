@@ -920,14 +920,27 @@
     return (data.taggedPages || []).filter((page) => (page.tags || []).includes(tag)).length;
   }
 
+  function tagLabel(tag) {
+    return data.tagMeta?.[tag]?.label || String(tag || "")
+      .replace(/-/g, " ")
+      .replace(/\bai\b/gi, "AI")
+      .replace(/\bbayes\b/gi, "Bayes")
+      .replace(/\b\w/g, (match) => match.toUpperCase());
+  }
+
+  function sortTagsByLabel(tags) {
+    return [...tags].sort((left, right) => tagLabel(left).localeCompare(tagLabel(right)));
+  }
+
   function renderTagButton(tag, extraClass = "") {
     const count = tagCount(tag);
-    const label = escapeHtml(tag);
+    const key = escapeHtml(String(tag || ""));
+    const label = escapeHtml(tagLabel(tag));
     const className = `tag-chip${extraClass ? ` ${extraClass}` : ""}`;
     const countLabel = count ? `<span class="tag-chip__count">${count}</span>` : "";
 
     return `
-      <button class="${className}" type="button" data-tag-filter="${label}" aria-label="Show pages tagged ${label}">
+      <button class="${className}" type="button" data-tag-filter="${key}" data-tag-label="${label}" aria-label="Show pages tagged ${label}">
         <span>${label}</span>${countLabel}
       </button>
     `;
@@ -945,7 +958,7 @@
 
   function renderTagLink(tag, extraClass = "") {
     const count = tagCount(tag);
-    const label = escapeHtml(tag);
+    const label = escapeHtml(tagLabel(tag));
     const className = `tag-chip${extraClass ? ` ${extraClass}` : ""}`;
     const countLabel = count ? `<span class="tag-chip__count">${count}</span>` : "";
     const path = data.tagPages?.[tag] || `/tags/${slugifyTag(tag)}/`;
@@ -1104,14 +1117,12 @@
     const tags = (data.landingTags?.length
       ? data.landingTags
       : [...new Set(data.sections.flatMap((section) => section.futureTags || []))]
-    ).filter(isUsefulTag).sort();
-    mount.innerHTML = tags
-      .map(
-        (tag) => `
-          ${renderTagButton(tag, "tag-chip--large")}
-        `,
-      )
-      .join("");
+    ).filter(isUsefulTag);
+    mount.innerHTML = tags.length
+      ? tags
+        .map((tag) => `${renderTagButton(tag, "tag-chip--large")}`)
+        .join("")
+      : "";
   }
 
   function renderFeaturedPages() {
@@ -1271,7 +1282,7 @@
     resultMount.innerHTML = `
       <div class="tag-results__header">
         <p class="mini-label">Selected tag</p>
-        <h3>${escapeHtml(tag)}</h3>
+        <h3>${escapeHtml(tagLabel(tag))}</h3>
         <p>${pages.length} page${pages.length === 1 ? "" : "s"} use this tag.</p>
       </div>
       <div class="tag-results__groups">
@@ -1452,17 +1463,19 @@
     });
 
     Object.entries(data.tagPages || {}).forEach(([tag, path]) => {
+      const kind = data.tagMeta?.[tag]?.kind || "concept";
+      const prefix = kind === "branch" ? "Branch" : kind === "format" ? "Format" : "Tag";
       entries.push({
         key: `tag:${tag}`,
         type: "tag",
-        title: `Tag: ${tag}`,
+        title: `${prefix}: ${tagLabel(tag)}`,
         section: "Tag discovery",
-        meta: `Tag • ${tagCount(tag)} linked page${tagCount(tag) === 1 ? "" : "s"}`,
+        meta: `${prefix} • ${tagCount(tag)} linked page${tagCount(tag) === 1 ? "" : "s"}`,
         href: href(path),
         path,
-        summary: `Open the discovery page for ${tag} and jump into the linked pages that use the term.`,
+        summary: `Open the discovery page for ${tagLabel(tag)} and jump into the linked pages that use the term.`,
         tags: [tag],
-        keywords: [tag, "tag", "discovery", "concept"].join(" "),
+        keywords: [tag, tagLabel(tag), prefix, "discovery", kind].join(" "),
       });
     });
 
