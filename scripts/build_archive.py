@@ -4203,7 +4203,6 @@ def archive_page_signal_items(
         ("Page form", page_form, None),
         ("Best for", best_for, None),
         ("Difficulty", difficulty, None),
-        ("Last revised", BUILD_DATE_TEXT, None),
     ]
 
 
@@ -8676,7 +8675,6 @@ def render_branch_guide_page(section_id: str, pages: list[dict]) -> str:
             ("Page form", "Branch guide", None),
             ("Best for", SECTION_SIGNAL_META.get(section_id, {}).get("best_for", meta["summary"]), None),
             ("Difficulty", SECTION_SIGNAL_META.get(section_id, {}).get("difficulty", "Foundational"), None),
-            ("Last revised", BUILD_DATE_TEXT, None),
         ]
     )
     section_pages = sorted(
