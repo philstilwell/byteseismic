@@ -2536,6 +2536,8 @@ def clean_discussion_key(key: str, topic: str, fallback: str = "the central ques
     lowered = cleaned.lower()
     if not cleaned or lowered == topic_clean.lower():
         return fallback
+    if command_like_key(cleaned):
+        return fallback
     if "instantiate the variables" in lowered:
         return "the examples"
     if "working knowledge" in lowered:
@@ -2544,7 +2546,26 @@ def clean_discussion_key(key: str, topic: str, fallback: str = "the central ques
         return "the model structure"
     if lowered.startswith(("compatible model structure that", "the curator’s request", "the prior response")):
         return fallback
-    if len(cleaned.split()) > 12:
+    if lowered.startswith(
+        (
+            "because ",
+            "since ",
+            "therefore",
+            "if ",
+            "once ",
+            "thanks",
+            "here is",
+            "here's",
+            "you are",
+            "you're",
+            "i am",
+            "i'm",
+            "my ",
+            "your ",
+        )
+    ):
+        return fallback
+    if len(cleaned.split()) > 10:
         return fallback
     return cleaned[0].lower() + cleaned[1:]
 
@@ -3118,27 +3139,18 @@ def is_generic_sequence_key(key_text: str) -> bool:
 def rewrite_source_sentence(text: str) -> str:
     cleaned_full = remove_source_artifact_phrases(text)
     cleaned_full = re.sub(r"^(?:https?:)?//\S+\s*", "", cleaned_full).strip()
-    if cleaned_full.startswith(("“", '"')):
-        sentence = cleaned_full
-    else:
-        sentences = sentence_split(cleaned_full)
-        sentence = sentences[0] if sentences else cleaned_full
-        if (
-            sentence.count("(") > sentence.count(")")
-            or sentence.count("{") > sentence.count("}")
-            or re.search(r"\b(P|Pr)\s*\([^)]*$", sentence)
-        ):
-            sentence = cleaned_full
-    label, body = split_label(sentence)
-    if label and body:
-        sentence = body
     replacements = [
         (r"^Yes,\s*", ""),
         (r"^Certainly,\s*", ""),
+        (r"^Absolutely,\s*", ""),
+        (r"^Of course,\s*", ""),
         (r"^Overall,\s*", ""),
         (r"^In essence,\s*", ""),
+        (r"^Here[’']s\s+", ""),
+        (r"^Here is\s+", ""),
         (r"\bI understand the intuition behind your question,?\s*[A-Z][a-z]+\.?", "the intuition behind the question is understandable."),
         (r"\b[Yy]ou[’']ve captured\b", "the formulation captures"),
+        (r"\b[Yy]ou[’']ve articulated\b", "the formulation states"),
         (r"\b[Yy]our observations about\b", "the observations about"),
         (r"\b[Yy]our question touches\b", "the question touches"),
         (r"\b[Yy]our question delves into\b", "the question enters"),
@@ -3149,6 +3161,10 @@ def rewrite_source_sentence(text: str) -> str:
         (r"\b[Yy]ou should\b", "a reader should"),
         (r"\b[Yy]ou[’']?re absolutely right[—-]?\s*", ""),
         (r"\b[Yy]ou[’']?re right to point out\b", "the objection rightly identifies"),
+        (r"\b[Yy]ou[’']?re right(?:,|\b)\s*", ""),
+        (r"\b[Yy]ou[’']?re correct(?:,|\b)\s*", ""),
+        (r"\b[Yy]ou[’']?re highlighting\b", "the section highlights"),
+        (r"\b[Yy]ou[’']?re sharpening the point beautifully\b", ""),
         (r"\b[Yy]our response appears circular\b", "the previous response appears circular"),
         (r"\b[Yy]our response is again circular\b", "the previous response is again circular"),
         (r"\b[Yy]ou response was circular\b", "the previous response was circular"),
@@ -3188,13 +3204,43 @@ def rewrite_source_sentence(text: str) -> str:
         (r"\b[Tt]he response can reframe\b", "the response reframes"),
         (r"\b[Tt]he response can apply\b", "the response applies"),
     ]
-    for pattern, replacement in replacements:
-        sentence = re.sub(pattern, replacement, sentence)
-    sentence = rewrite_unavailable_asset_references(sentence)
-    sentence = re.sub(r"\s+([.,;:!?])", r"\1", sentence)
-    sentence = re.sub(r"([.!?][”\"])\.", r"\1", sentence)
-    sentence = compact_text(sentence, 280).strip()
-    sentence = sentence.rstrip(" :;")
+
+    def normalize_source_sentence(candidate: str) -> str:
+        sentence = candidate
+        label, body = split_label(sentence)
+        if label and body:
+            sentence = body
+        for pattern, replacement in replacements:
+            sentence = re.sub(pattern, replacement, sentence)
+        sentence = rewrite_unavailable_asset_references(sentence)
+        sentence = re.sub(r"\s+([.,;:!?])", r"\1", sentence)
+        sentence = re.sub(r"([.!?][”\"])\.", r"\1", sentence)
+        sentence = compact_text(sentence, 280).strip()
+        sentence = sentence.lstrip(" ,;:-")
+        sentence = sentence.rstrip(" :;")
+        return sentence
+
+    if cleaned_full.startswith(("“", '"')):
+        sentence_candidates = [cleaned_full]
+    else:
+        sentence_candidates = sentence_split(cleaned_full) or [cleaned_full]
+        first_candidate = sentence_candidates[0]
+        if (
+            first_candidate.count("(") > first_candidate.count(")")
+            or first_candidate.count("{") > first_candidate.count("}")
+            or re.search(r"\b(P|Pr)\s*\([^)]*$", first_candidate)
+        ):
+            sentence_candidates = [cleaned_full]
+
+    sentence = ""
+    for candidate in sentence_candidates:
+        normalized = normalize_source_sentence(candidate)
+        plain = re.sub(r"<[^>]+>", " ", normalized)
+        if len(clean_text(plain).strip(" ,;:-").split()) >= 4:
+            sentence = normalized
+            break
+    if not sentence:
+        sentence = normalize_source_sentence(cleaned_full)
     if sentence:
         sentence = sentence[0].upper() + sentence[1:]
     closed_quote_punctuation = sentence.endswith((".”", "!”", "?”", '."', '!"', '?"'))
@@ -4141,7 +4187,6 @@ def article_page_signal_items(page: dict, prefix: str) -> list[tuple[str, str, s
         ("Page form", page_form_label(page), None),
         ("Best for", page_best_for(page), None),
         ("Difficulty", page_difficulty_label(page), None),
-        ("Last revised", BUILD_DATE_TEXT, None),
     ]
 
 
@@ -4691,10 +4736,10 @@ def prompt_response_paragraphs(page: dict, prompt: str, index: int, detail: dict
     def pressure_sentence(key_text: str) -> str:
         if key_text in {"the central question", "the opening question", "the opening pressure", "this question"}:
             if re.match(r"^(are|can|could|did|do|does|how|is|should|what|when|where|why)\b", topic, re.IGNORECASE):
-                return "The opening pressure is to make this question precise enough that disagreement can be about the issue itself rather than about a blur of half-meanings."
-            return f"The opening pressure is to make {topic} precise enough that disagreement can land on the issue itself rather than on a blur of half-meanings."
+                return "The opening task is to make the question precise enough that disagreement can be about the issue itself rather than a blur of half-meanings."
+            return f"The opening task is to make {topic} precise enough that disagreement can land on the issue itself rather than on a blur of half-meanings."
         readable_key = key_text[:1].upper() + key_text[1:] if key_text else "The central issue"
-        return f"The pressure point is {readable_key}: this is where {topic} stops being merely named and starts guiding judgment."
+        return f"The live issue is {readable_key}. This is where {topic} has to start guiding judgment."
 
     if detail and (labels or claim):
         paragraphs = []
@@ -4737,7 +4782,7 @@ def prompt_response_paragraphs(page: dict, prompt: str, index: int, detail: dict
             paragraphs.append(pressure_sentence(key_text))
 
         if claim:
-            paragraphs.append(f"The central claim is this: {claim}")
+            paragraphs.append(f"In plain terms: {claim}")
 
         if len(labels) >= 2:
             first_label = clean_text(labels[0]).strip(" .:")
@@ -4754,7 +4799,7 @@ def prompt_response_paragraphs(page: dict, prompt: str, index: int, detail: dict
                 )
         else:
             paragraphs.append(
-                f"{semantic_map_paragraph(page, prompt, detail)} If the reader cannot say what confusion would result from merging those anchors, the section still needs more work."
+                f"{semantic_map_paragraph(page, prompt, detail)} The section only works if the reader can say what confusion follows from blurring those anchors together."
             )
         return paragraphs[:3]
 
@@ -4770,7 +4815,7 @@ def prompt_response_paragraphs(page: dict, prompt: str, index: int, detail: dict
     else:
         readable_key = key_text[:1].upper() + key_text[1:] if key_text else topic
         first = (
-            f"{readable_key} is where {topic} stops being merely named and starts doing work. "
+            f"{readable_key} is where {topic} has to start making a difference. "
             f"{semantic_map_paragraph(page, prompt, detail)}"
         )
 
@@ -5194,40 +5239,51 @@ def sequence_context_paragraph(page: dict, prompt: str, prompts: list[str], inde
 
     if index == 1:
         next_key = clean_discussion_key(short_prompt_key(prompts[index], topic), topic, "the next pressure")
+        if command_like_key(key_text):
+            key_text = "the issue"
         if command_like_key(next_key):
+            next_key = "the next pressure"
+        if len(next_key.split()) > 5:
             next_key = "the next pressure"
         if is_generic_sequence_key(next_key):
             return (
-                f"This first move lays down the vocabulary and stakes for {topic}. "
-                "It gives the reader something firm enough to carry into the later prompts, so the page can deepen rather than circle."
+                f"This opening move sets the terms for the rest of the page. "
+                "It gives the reader a stable grip on the issue, so the later prompts can deepen it rather than circle around it."
+            )
+        if next_key == key_text:
+            return (
+                "This opening move sets the terms for the rest of the page. "
+                f"It gives the reader a stable grip on {key_text} so the later prompts can deepen it rather than merely repeat it."
             )
         return (
-            f"This first move lays down the vocabulary and stakes for {topic}. "
-            f"It gives the reader something firm enough about {key_text} that the next prompt can press {next_key} without making the discussion restart."
+            f"This opening move sets the terms for the rest of the page. "
+            f"It gives the reader a stable grip on {key_text} so the next prompt can press {next_key} without making the discussion restart."
         )
 
     if index == total:
         previous_key = clean_discussion_key(short_prompt_key(prompts[index - 2], topic), topic, "the previous step")
         if command_like_key(previous_key):
             previous_key = "the previous step"
+        if command_like_key(key_text):
+            key_text = "the central issue"
         if is_generic_sequence_key(previous_key) and is_generic_sequence_key(key_text):
             return (
-                f"By this point in the page, the earlier responses have already established the relevant distinctions. "
-                f"This final prompt gathers them into a closing judgment rather than ending with a disconnected last answer."
+                "By the time the page reaches this final prompt, the clearing work should already be done. "
+                "This last move should gather the earlier distinctions into a closing judgment rather than ending with a disconnected answer."
             )
         if is_generic_sequence_key(previous_key):
             return (
-                f"By this point in the page, the earlier responses have already established the relevant distinctions. "
-                f"This final prompt gathers them around {key_text}, so the page closes with a more disciplined view rather than a disconnected last answer."
+                "By the time the page reaches this final prompt, the clearing work should already be done. "
+                f"This last move gathers those distinctions around {key_text}, so the page closes with a more disciplined view rather than a disconnected answer."
             )
         if is_generic_sequence_key(key_text):
             return (
-                f"By this point in the page, the earlier responses have already put {previous_key} in motion. "
-                f"This final prompt gathers that pressure into a closing judgment rather than a disconnected last answer."
+                f"The earlier sections should already have put {previous_key} in motion. "
+                "This final prompt gathers that pressure into a closing judgment rather than tagging on a last answer that never quite joins the rest."
             )
         return (
-            f"By this point in the page, the earlier responses have already put {previous_key} in motion. "
-            f"This final prompt gathers that pressure around {key_text}, so the page closes with a more disciplined view rather than a disconnected last answer."
+            f"The earlier sections should already have put {previous_key} in motion. "
+            f"This final prompt gathers that pressure around {key_text}, so the page closes with a more disciplined view rather than a disconnected answer."
         )
 
     previous_key = clean_discussion_key(short_prompt_key(prompts[index - 2], topic), topic, "the previous step")
@@ -5235,6 +5291,10 @@ def sequence_context_paragraph(page: dict, prompt: str, prompts: list[str], inde
     if command_like_key(previous_key):
         previous_key = "the previous step"
     if command_like_key(next_key):
+        next_key = "the next step"
+    if len(previous_key.split()) > 5:
+        previous_key = "the previous step"
+    if len(next_key.split()) > 5:
         next_key = "the next step"
     if is_generic_sequence_key(previous_key) and is_generic_sequence_key(next_key):
         return (
@@ -5302,7 +5362,7 @@ def intermediate_reader_paragraph(page: dict, prompt: str, focus: str) -> str:
     }
 
     return (
-        f"At this stage, the gain is not memorizing the conclusion but learning to think with {serial_join(compact_hooks or [topic])}. "
+        f"The point here is not to memorize a conclusion but to learn to think with {serial_join(compact_hooks or [topic])}. "
         f"{focus_guides.get(focus, focus_guides['inquiry'])} {branch_guides.get(section_id, profile['pressure'])}"
     )
 
@@ -5315,48 +5375,48 @@ def editorial_insight_paragraph(page: dict, prompt: str, focus: str) -> str:
 
     if section_id == "ethics":
         return (
-            f"The added philosophical insight is that {topic} often becomes confused when motivational force is mistaken for justificatory force. "
+            f"What often goes wrong in {topic} is that motivational force gets mistaken for justificatory force. "
             f"A claim can feel urgent, humane, or socially necessary while still needing an account of what makes it binding."
         )
     if section_id == "epistemology":
         return (
-            f"The added epistemic insight is that {topic} is usually less about choosing certainty or skepticism than about learning the right degree of confidence. "
-            f"That makes {key_text} a calibration problem before it is a slogan."
+            f"The deeper issue in {topic} is usually calibration, not a melodrama between certainty and skepticism. "
+            f"That makes {key_text} a question about the right degree of confidence before it becomes a slogan."
         )
     if section_id == "philosophy-of-science":
         return (
-            f"The added methodological insight is that {topic} should be judged by how it handles error. "
+            f"The real methodological question in {topic} is how the view handles error. "
             f"A view becomes more scientific when it can say what would count against it, not merely what makes it attractive."
         )
     if section_id == "philosophy-of-ai":
         return (
-            f"The added AI insight is that the human-machine exchange is strongest when the machine expands the field of considerations and the human remains answerable for selection, emphasis, and judgment."
+            "The human-machine exchange is strongest when the machine expands the field of considerations and the human remains answerable for selection, emphasis, and judgment."
         )
     if section_id == "rational-thought":
         return (
-            f"The added reasoning insight is that {topic} should train a transferable habit. "
+            f"The real test of {topic} is whether it trains a transferable habit. "
             f"If the reader cannot use {key_text} in a neighboring case, the answer has not yet become practical rationality."
         )
     if section_id == "philosophers":
         return (
-            f"The added historical insight is that {topic} is best read as a method of pressure, not only as a set of theses. "
+            f"{topic} is best read as a method of pressure, not only as a set of theses. "
             f"The question is what the thinker makes harder to ignore."
         )
 
     if focus == "definition":
         return (
-            f"The added editorial insight is that a definition becomes philosophical when it disciplines use. "
+            f"A definition becomes philosophical when it disciplines use. "
             f"It should tell the reader what would count as a misuse of {topic}, not merely what the term roughly means."
         )
     if focus == "mapping":
         return (
-            f"The added editorial insight is that a map is an argument about importance. "
+            f"A map is an argument about importance. "
             f"What it puts at the center, what it treats as derivative, and what it leaves unstable all shape how {topic} will be understood."
         )
-        return (
-            f"The added editorial insight is that {topic} should remain connected to a live intellectual practice. "
-            f"The response is strongest when {key_text} changes how the reader would question, compare, or revise a neighboring claim."
-        )
+    return (
+        f"{topic} should remain connected to a live intellectual practice. "
+        f"The response is strongest when {key_text} changes how the reader would question, compare, or revise a neighboring claim."
+    )
 
 
 def reader_test_paragraph(page: dict, prompt: str, focus: str) -> str:
@@ -5615,7 +5675,7 @@ def philosopher_checkpoints(page: dict, prompt: str, detail: dict | None, focus_
         return [
             f"Read this exchange as a test of {label_text}: each turn should change the pressure, not merely alternate speakers.",
             f"Keep the local voices audible{f' ({speaker_text})' if speaker_text else ''}; the reader should feel why {topic}'s reply is needed here.",
-            f"By the end, say what this section makes {topic} help a reader see, endure, doubt, or practice differently.",
+            f"By the end, you should be able to say what this section makes {topic} help a reader see, endure, doubt, or practice differently.",
         ]
 
     if "strongest objection" in prompt_lower:
@@ -5651,7 +5711,7 @@ def branch_checkpoints(page: dict, prompt: str, detail: dict | None, focus: str,
         "dialogue": "Follow the pressure in the exchange: each reply should narrow the issue, sharpen the objection, or expose the cost of the view.",
         "argument": f"Find the load-bearing premise: the section should show which claim about {focus_key} would make the argument succeed or fail.",
         "description": f"Use the description as orientation: by the end, {label_text} should teach the reader what to notice next and what not to collapse together.",
-        "inquiry": f"By the end, {focus_key} should mark a real difference in judgment, not merely a more polished way of posing the issue.",
+        "inquiry": f"By the end, the reader should be able to say what difference {focus_key} makes to judgment, not merely restate the issue in cleaner language.",
     }
 
     third_by_section = {
@@ -5750,26 +5810,46 @@ def exceptional_editorial_paragraph(page: dict, prompt: str, focus: str) -> str:
 
     if section_id == "philosophers":
         return (
-            f"The exceptional version of this section would not merely say that {topic} mattered; it would show the reader the machinery of that influence in motion. "
+            f"At its strongest, this section would not merely say that {topic} mattered; it would show the reader the machinery of that influence in motion. "
             f"A philosopher reduced to a label is a marble bust with the argument turned off, handsome perhaps, but not yet doing philosophy."
         )
     if section_id == "epistemology":
         return (
-            f"The exceptional standard here is not more confidence but better-tuned confidence. "
+            "At its strongest, this section would not ask for more confidence but better-tuned confidence. "
             f"The section should show what would rationally raise, lower, or suspend belief, because epistemic maturity is measured by calibration, not volume."
         )
     if section_id == "ethics":
         return (
-            f"The exceptional standard is to keep the moral nerve exposed without letting rhetoric do the surgery. "
+            "At its strongest, the section keeps the moral nerve exposed without letting rhetoric do the surgery. "
             f"If this pressure is doing real work, it should survive contact with disagreement, not merely glow warmly inside agreement."
         )
     if section_id == "rational-thought":
         return (
-            f"The exceptional test is transfer: the reader should be able to carry {key_text} into a fresh case and notice a mistake sooner than before. "
+            f"At its strongest, the section passes a transfer test: the reader should be able to carry {key_text} into a fresh case and notice a mistake sooner than before. "
             f"Otherwise the page has only named the tool while leaving it politely in the drawer."
         )
+    if focus == "definition":
+        return (
+            f"At its strongest, the answer should leave the reader with a usable test for borderline cases. "
+            f"If {key_text} never changes how cases get sorted, the section still needs sharper edges."
+        )
+    if focus == "mapping":
+        return (
+            "At its strongest, the answer should leave the reader with a clearer sense of dependence, priority, and rivalry. "
+            f"If {key_text} never changes how the map gets read, the section is still describing territory rather than charting it."
+        )
+    if focus == "examples":
+        return (
+            "At its strongest, the answer should show what changes when the idea is forced into a concrete case. "
+            f"If {key_text} survives only in the abstract, the page has not finished the job."
+        )
+    if focus == "dialogue":
+        return (
+            "At its strongest, the exchange should leave the reader with a cleaner sense of what the disagreement is really about. "
+            f"If {key_text} never alters what the next speaker can honestly say, the dialogue is still too decorative."
+        )
     return (
-        f"The exceptional version of this answer should leave the reader with a sharper question than the one they brought in. "
+        "At its strongest, the answer should leave the reader with a sharper next question. "
         f"If {key_text} cannot guide the next inquiry, the section has not yet earned its place."
     )
 
@@ -5808,10 +5888,11 @@ def editorial_polish_content(
 
     polished_paragraphs = list(paragraphs)
     append_unique_paragraph(polished_paragraphs, sequence_context_paragraph(page, prompt, prompts, index))
-    append_unique_paragraph(polished_paragraphs, intermediate_reader_paragraph(page, prompt, focus))
-    if len(polished_paragraphs) < 5 or content_word_count(polished_paragraphs, polished_items) < 320:
+    if len(polished_paragraphs) < 4 or content_word_count(polished_paragraphs, polished_items) < 220:
+        append_unique_paragraph(polished_paragraphs, intermediate_reader_paragraph(page, prompt, focus))
+    if len(polished_paragraphs) < 4 or content_word_count(polished_paragraphs, polished_items) < 255:
         append_unique_paragraph(polished_paragraphs, editorial_insight_paragraph(page, prompt, focus))
-    if content_word_count(polished_paragraphs, polished_items) < 320:
+    if content_word_count(polished_paragraphs, polished_items) < 235:
         append_unique_paragraph(polished_paragraphs, reader_test_paragraph(page, prompt, focus))
     if preserves_metaethical_stance(page, prompt, detail):
         append_unique_paragraph(polished_paragraphs, metaethical_stance_paragraph())
@@ -5820,7 +5901,7 @@ def editorial_polish_content(
         append_unique_paragraph(polished_paragraphs, epistemology_foundation_paragraph(page, prompt))
     if page["section_id"] == "philosophers":
         append_unique_paragraph(polished_paragraphs, philosopher_expansion_paragraph(page, prompt))
-    if page["section_id"] == "philosophers" or content_word_count(polished_paragraphs, polished_items) < 360:
+    if page["section_id"] == "philosophers" or (len(polished_paragraphs) < 5 and content_word_count(polished_paragraphs, polished_items) < 300):
         append_unique_paragraph(polished_paragraphs, exceptional_editorial_paragraph(page, prompt, focus))
 
     return polished_paragraphs[:8], polished_items[:6]
