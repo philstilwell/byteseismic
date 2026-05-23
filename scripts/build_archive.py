@@ -5284,11 +5284,16 @@ def dialogue_learning_terms(detail: dict | None) -> list[str]:
     if not detail:
         return []
     terms: list[str] = []
-    for turn in detail.get("dialogue_turns", [])[:8]:
-        speaker = clean_text(turn.get("speaker", "")).strip(" :")
+    turns = detail.get("dialogue_turns", [])[:8]
+    speaker_labels = dialogue_speaker_labels(turns)
+    speaker_index = 0
+    for turn in turns:
+        speaker = speaker_labels[speaker_index] if speaker_index < len(speaker_labels) else clean_text(turn.get("speaker", "")).strip(" :")
         text = clean_text(turn.get("text", ""))
         if speaker and len(speaker.split()) <= 6:
             terms.append(display_label(speaker))
+        if text:
+            speaker_index += 1
         if text:
             label, body = split_label(text)
             candidate = label if label and body else ""
@@ -5425,8 +5430,8 @@ def philosopher_checkpoints(page: dict, prompt: str, detail: dict | None, focus_
         label_text = labels[0] if labels else concept_text
         speakers = []
         if detail:
-            for turn in detail.get("dialogue_turns", []):
-                speaker = clean_text(turn.get("speaker", "")).strip(" :")
+            normalized_speakers = dialogue_speaker_labels(detail.get("dialogue_turns", []))
+            for speaker in normalized_speakers:
                 if speaker and len(speaker) <= 32 and speaker not in speakers:
                     speakers.append(speaker)
                 if len(speakers) >= 3:
@@ -6529,18 +6534,49 @@ def dialogue_card_kind(turns: list[dict]) -> str:
     return ""
 
 
+def dialogue_speaker_labels(turns: list[dict]) -> list[str]:
+    kind = dialogue_card_kind(turns)
+    normalized_labels = [
+        normalize_dialogue_speaker(clean_text(turn.get("speaker", "Interlocutor")), clean_text(turn.get("text", "")))
+        for turn in turns
+        if clean_text(turn.get("text", ""))
+    ]
+    question_like_count = sum(label.startswith("Question ") for label in normalized_labels)
+    renumber_questions = kind == "questions" or question_like_count >= 2
+    labels: list[str] = []
+    question_index = 1
+    for turn in turns:
+        text = clean_text(turn.get("text", ""))
+        if not text:
+            continue
+        speaker = normalize_dialogue_speaker(clean_text(turn.get("speaker", "Interlocutor")), text)
+        if renumber_questions and speaker.startswith("Question "):
+            speaker = f"Question {question_index}"
+            question_index += 1
+        labels.append(speaker)
+    return labels
+
+
 def render_dialogue_card(turns: list[dict], philosopher: str) -> str:
     if not turns:
         return ""
     rendered_turns = []
     kind = dialogue_card_kind(turns)
-    for index, turn in enumerate(turns):
-        speaker = clean_text(turn.get("speaker", "Interlocutor"))
+    speaker_labels = dialogue_speaker_labels(turns)
+    rendered_index = 0
+    for turn in turns:
         text = clean_text(turn.get("text", ""))
         if not text:
             continue
-        speaker = normalize_dialogue_speaker(speaker, text)
-        counter_class = " dialogue-turn--counter" if is_counter_speaker(speaker, philosopher) or index % 2 == 1 else ""
+        speaker = speaker_labels[rendered_index] if rendered_index < len(speaker_labels) else normalize_dialogue_speaker(
+            clean_text(turn.get("speaker", "Interlocutor")),
+            text,
+        )
+        counter_class = (
+            " dialogue-turn--counter"
+            if is_counter_speaker(speaker, philosopher) or rendered_index % 2 == 1
+            else ""
+        )
         rendered_turns.append(
             textwrap.dedent(
                 f"""\
@@ -6550,6 +6586,7 @@ def render_dialogue_card(turns: list[dict], philosopher: str) -> str:
                 </div>"""
             )
         )
+        rendered_index += 1
     if not rendered_turns:
         return ""
     card_class = "dialogue-card"
