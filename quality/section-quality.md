@@ -1,6 +1,6 @@
 # Byteseismic Quality Ledger
 
-Generated: 2026-05-23
+Generated: 2026-05-26
 
 Tracked prompt-response sections: 1904
 Average score: 93.4

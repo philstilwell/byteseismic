@@ -12,11 +12,11 @@
     <meta property="og:title" content="Byteseismic Philosophy" />
     <meta property="og:description" content="A guided philosophy inquiry network organized by branches, routes, thinkers, concepts, and arguments." />
     <meta property="og:url" content="https://byteseismic.com/" />
-    <meta property="og:image" content="https://byteseismic.com/assets/images/byteseismic-large-header-x.5-b-8000-x-800-px.png" />
+    <meta property="og:image" content="https://byteseismic.com/assets/images/hero-banner-2400.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Byteseismic Philosophy" />
     <meta name="twitter:description" content="A guided philosophy inquiry network organized by branches, routes, thinkers, concepts, and arguments." />
-    <meta name="twitter:image" content="https://byteseismic.com/assets/images/byteseismic-large-header-x.5-b-8000-x-800-px.png" />
+    <meta name="twitter:image" content="https://byteseismic.com/assets/images/hero-banner-2400.jpg" />
     <meta name="theme-color" content="#10263b" />
     <link rel="icon" href="favicon.png?v=20260522c" sizes="512x512" type="image/png" />
     <link rel="icon" href="favicon-32x32.png?v=20260522c" sizes="32x32" type="image/png" />
@@ -27,6 +27,14 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,700&family=Spline+Sans:wght@400;500;600;700&display=swap"
       rel="stylesheet"
+    />
+    <link
+      rel="preload"
+      as="image"
+      href="assets/images/hero-banner-1800.jpg"
+      imagesrcset="assets/images/hero-banner-1200.jpg 1200w, assets/images/hero-banner-1800.jpg 1800w, assets/images/hero-banner-2400.jpg 2400w"
+      imagesizes="(max-width: 1212px) calc(100vw - 32px), 1180px"
+      fetchpriority="high"
     />
     <link rel="stylesheet" href="assets/css/styles.css" />
     <script defer src="assets/js/site-data.js"></script>
@@ -39,8 +47,15 @@
       <header class="hero hero--home">
         <img
           class="hero__image"
-          src="assets/images/byteseismic-large-header-x.5-b-8000-x-800-px.png"
+          src="assets/images/hero-banner-1800.jpg"
+          srcset="assets/images/hero-banner-1200.jpg 1200w, assets/images/hero-banner-1800.jpg 1800w, assets/images/hero-banner-2400.jpg 2400w"
+          sizes="(max-width: 1212px) calc(100vw - 32px), 1180px"
+          width="2400"
+          height="240"
           alt="Byteseismic banner"
+          decoding="async"
+          loading="eager"
+          fetchpriority="high"
         />
         <div class="hero__content">
           <p class="hero__kicker">Philosophy Inquiry Network</p>
