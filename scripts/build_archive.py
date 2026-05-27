@@ -4,6 +4,8 @@ from __future__ import annotations
 import html
 import json
 import re
+import subprocess
+import sys
 import textwrap
 from collections import Counter, defaultdict
 from datetime import date
@@ -1646,12 +1648,9 @@ def fonts_and_assets(prefix: str, include_site_scripts: bool = True) -> str:
             <link rel="icon" href="{prefix}favicon-32x32.png?v={favicon_version}" sizes="32x32" type="image/png" />
             <link rel="shortcut icon" href="{prefix}favicon.ico?v={favicon_version}" />
             <link rel="apple-touch-icon" href="{prefix}apple-touch-icon.png?v={favicon_version}" />
-            <link rel="preconnect" href="https://fonts.googleapis.com" />
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-            <link
-              href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,700&family=Spline+Sans:wght@400;500;600;700&display=swap"
-              rel="stylesheet"
-            />
+            <link rel="preload" href="{prefix}assets/fonts/newsreader-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
+            <link rel="preload" href="{prefix}assets/fonts/spline-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+            <link rel="stylesheet" href="{prefix}assets/css/fonts.css" />
             <link rel="stylesheet" href="{prefix}assets/css/styles.css" />{scripts}"""
 
 
@@ -2767,8 +2766,8 @@ def philosopher_expansion_paragraph(page: dict, prompt: str) -> str:
             "The voice matters because the phrasing is often part of the philosophy: the reader should hear a way of thinking, not only collect a list of theses."
         )
     return (
-        f"The task is to keep {topic} from becoming a nameplate. "
-        "A strong philosopher page needs historical setting, method, a real objection, influence, and at least one moment where the reader can feel the thinker pushing back."
+        f"A strong philosopher page should make {topic} feel inhabited rather than merely labeled. "
+        "That means giving the reader historical setting, method, a real objection, influence, and at least one moment where the thinker pushes back in a recognizable voice."
     )
 
 
@@ -3834,7 +3833,7 @@ def build_logfall_link_catalog() -> tuple[dict[str, str], re.Pattern[str] | None
         "ad populum": "Argumentum ad populum",
         "appeals to authority": "Appeal to authority",
         "appeals to emotion": "Appeal to emotion",
-        "appeals to ignorance": "Appeal to ignorance",
+        "appeals to ignorance": "Argument from ignorance",
         "appeals to fear": "Appeal to fear",
         "appeals to ridicule": "Appeal to ridicule",
         "burden of proof": "Demanding negative proof",
@@ -4622,25 +4621,25 @@ def semantic_map_paragraph(page: dict, prompt: str = "", detail: dict | None = N
         if focus == "mapping":
             return (
                 f"The orienting landmarks here are {serial_join(hooks[:3])}. "
-                "Read them comparatively: what each part contributes, what depends on what, and where the tensions begin."
+                "Read them comparatively: which piece defines the terrain, which one bears the argumentative weight, and where the tensions start to surface."
             )
         if focus == "examples":
             return (
-                f"The anchors here are {serial_join(hooks[:3])}. "
-                "They show what is being tested, where the strain appears, and what changes in judgment once the example is taken seriously."
+                f"The section comes into focus through {serial_join(hooks[:3])}. "
+                "Taken together, they show what is being tested, where the strain appears, and what changes in judgment once the example is taken seriously."
             )
         return (
-            f"The anchors here are {serial_join(hooks[:3])}. "
-            "Together they tell the reader what is being claimed, where it is tested, and what would change if the distinction holds."
+            f"The section turns on {serial_join(hooks[:3])}. "
+            "Those pieces matter because they show what is being claimed, where it is tested, and what would change if the distinction actually holds."
         )
     anchor = hooks[0]
     if focus == "definition":
         return (
-            f"The first anchor is {anchor}. "
-            f"If that anchor stays blurry, {topic} will be defined with familiar words but without a reliable test for hard cases."
+            f"Start with {anchor}. "
+            f"If that stays blurry, {topic} may sound clear while still failing the hard cases."
         )
     return (
-        f"The first anchor is {anchor}. "
+        f"Start with {anchor}. "
         f"Without it, {topic} can sound important while still leaving the reader unsure how to sort the case in front of them."
     )
 
@@ -4829,7 +4828,7 @@ def prompt_response_paragraphs(page: dict, prompt: str, index: int, detail: dict
                 else:
                     paragraphs.append(
                         f"Read the section as a small map: {serial_join(clean_labels)} should show the philosopher as a living argument, "
-                        "not as a nameplate with impressive dust."
+                        "not as a museum label with the dispute carefully drained out of it."
                     )
             elif all(label_role(label) == "a load-bearing piece" for label in clean_labels):
                 paragraphs.append(
@@ -4866,7 +4865,8 @@ def prompt_response_paragraphs(page: dict, prompt: str, index: int, detail: dict
                 )
         else:
             paragraphs.append(
-                f"{semantic_map_paragraph(page, prompt, detail)} The section only works if the reader can say what confusion follows from blurring those anchors together."
+                f"{semantic_map_paragraph(page, prompt, detail)} "
+                "The reader should be able to say what confusion appears when those distinctions are blurred together."
             )
         return paragraphs[:3]
 
@@ -5429,7 +5429,7 @@ def intermediate_reader_paragraph(page: dict, prompt: str, focus: str) -> str:
     }
 
     return (
-        f"The point here is not to memorize a conclusion but to learn to think with {serial_join(compact_hooks or [topic])}. "
+        f"Use {serial_join(compact_hooks or [topic])} as working handles rather than as labels to repeat. "
         f"{focus_guides.get(focus, focus_guides['inquiry'])} {branch_guides.get(section_id, profile['pressure'])}"
     )
 
@@ -5877,46 +5877,46 @@ def exceptional_editorial_paragraph(page: dict, prompt: str, focus: str) -> str:
 
     if section_id == "philosophers":
         return (
-            f"At its strongest, this section would not merely say that {topic} mattered; it would show the reader the machinery of that influence in motion. "
-            f"A philosopher reduced to a label is a marble bust with the argument turned off, handsome perhaps, but not yet doing philosophy."
+            f"This section is strongest when it does more than announce that {topic} mattered; it should show the reader the machinery of that influence in motion. "
+            f"A philosopher reduced to a label becomes a marble bust with the argument switched off, impressive perhaps, but not yet doing philosophy."
         )
     if section_id == "epistemology":
         return (
-            "At its strongest, this section would not ask for more confidence but better-tuned confidence. "
+            "This section is strongest when it asks for better-tuned confidence rather than simply more confidence. "
             f"The section should show what would rationally raise, lower, or suspend belief, because epistemic maturity is measured by calibration, not volume."
         )
     if section_id == "ethics":
         return (
-            "At its strongest, the section keeps the moral nerve exposed without letting rhetoric do the surgery. "
+            "This section is strongest when it keeps the moral nerve exposed without letting rhetoric do the surgery. "
             f"If this pressure is doing real work, it should survive contact with disagreement, not merely glow warmly inside agreement."
         )
     if section_id == "rational-thought":
         return (
-            f"At its strongest, the section passes a transfer test: the reader should be able to carry {key_text} into a fresh case and notice a mistake sooner than before. "
+            f"This section is strongest when it passes a transfer test: the reader should be able to carry {key_text} into a fresh case and notice a mistake sooner than before. "
             f"Otherwise the page has only named the tool while leaving it politely in the drawer."
         )
     if focus == "definition":
         return (
-            f"At its strongest, the answer should leave the reader with a usable test for borderline cases. "
+            f"The answer is strongest when it leaves the reader with a usable test for borderline cases. "
             f"If {key_text} never changes how cases get sorted, the section still needs sharper edges."
         )
     if focus == "mapping":
         return (
-            "At its strongest, the answer should leave the reader with a clearer sense of dependence, priority, and rivalry. "
+            "The answer is strongest when it leaves the reader with a clearer sense of dependence, priority, and rivalry. "
             f"If {key_text} never changes how the map gets read, the section is still describing territory rather than charting it."
         )
     if focus == "examples":
         return (
-            "At its strongest, the answer should show what changes when the idea is forced into a concrete case. "
+            "The answer is strongest when it shows what changes once the idea is forced into a concrete case. "
             f"If {key_text} survives only in the abstract, the page has not finished the job."
         )
     if focus == "dialogue":
         return (
-            "At its strongest, the exchange should leave the reader with a cleaner sense of what the disagreement is really about. "
+            "The exchange is strongest when it leaves the reader with a cleaner sense of what the disagreement is really about. "
             f"If {key_text} never alters what the next speaker can honestly say, the dialogue is still too decorative."
         )
     return (
-        "At its strongest, the answer should leave the reader with a sharper next question. "
+        "The answer is strongest when it leaves the reader with a sharper next question. "
         f"If {key_text} cannot guide the next inquiry, the section has not yet earned its place."
     )
 
@@ -10718,6 +10718,7 @@ def main() -> None:
         link_static_tag_chips(target)
     cleanup_auto_generated(valid_targets)
     write_robots_and_sitemap(generated_pages)
+    subprocess.run([sys.executable, str(ROOT / "scripts" / "site_audit.py")], check=True)
 
     print(f"Generated or updated {len(generated_pages)} content pages.")
     print(f"Visible hierarchy sections: {len(section_nodes)}")

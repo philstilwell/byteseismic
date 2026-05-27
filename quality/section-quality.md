@@ -1,10 +1,10 @@
 # Byteseismic Quality Ledger
 
-Generated: 2026-05-26
+Generated: 2026-05-27
 
 Tracked prompt-response sections: 1904
 Average score: 93.4
-Needs review: 901 (47.3%)
+Needs review: 891 (46.8%)
 Exceptional gap-fill backlog: 1897 (99.6%)
 
 ## Editorial Audit
@@ -17,20 +17,20 @@ Pattern issues found: 2
 
 | Branch | Avg | Needs Review | Gap Fill | Exceptional | Strong | Good | Developing | Thin |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Philosophy of Language | 89.6 | 67/87 | 87/87 | 34 | 22 | 30 | 1 | 0 |
-| Philosophy of Science | 89.8 | 127/165 | 165/165 | 66 | 38 | 59 | 2 | 0 |
-| Economics | 89.1 | 87/115 | 115/115 | 41 | 30 | 44 | 0 | 0 |
-| Philosophy of AI | 91.9 | 61/88 | 88/88 | 43 | 24 | 21 | 0 | 0 |
-| Introduction | 94.1 | 21/36 | 35/36 | 22 | 8 | 6 | 0 | 0 |
-| Metaphysics | 95.0 | 47/83 | 83/83 | 56 | 17 | 10 | 0 | 0 |
+| Philosophy of Language | 89.6 | 67/87 | 87/87 | 34 | 23 | 29 | 1 | 0 |
+| Economics | 89.0 | 88/115 | 115/115 | 40 | 31 | 44 | 0 | 0 |
+| Philosophy of Science | 90.0 | 125/165 | 165/165 | 68 | 38 | 57 | 2 | 0 |
+| Philosophy of AI | 92.0 | 60/88 | 88/88 | 44 | 23 | 21 | 0 | 0 |
+| Metaphysics | 94.9 | 47/83 | 83/83 | 57 | 15 | 11 | 0 | 0 |
+| Introduction | 94.6 | 20/36 | 35/36 | 22 | 9 | 5 | 0 | 0 |
 | Miscellany | 93.8 | 37/67 | 66/67 | 37 | 21 | 9 | 0 | 0 |
 | Political Philosophy | 93.0 | 28/51 | 51/51 | 27 | 14 | 10 | 0 | 0 |
-| Humanistic Philosophies | 93.6 | 43/80 | 80/80 | 46 | 21 | 13 | 0 | 0 |
 | Philosophical Inquiry | 92.8 | 81/151 | 150/151 | 82 | 41 | 24 | 4 | 0 |
-| Rational Thought | 93.0 | 91/183 | 180/183 | 109 | 36 | 35 | 3 | 0 |
+| Humanistic Philosophies | 94.0 | 41/80 | 80/80 | 47 | 21 | 12 | 0 | 0 |
+| Rational Thought | 92.9 | 91/183 | 180/183 | 109 | 34 | 37 | 3 | 0 |
 | Philosophy of Mind | 93.2 | 39/85 | 85/85 | 45 | 27 | 12 | 1 | 0 |
-| Epistemology | 93.1 | 117/266 | 266/266 | 157 | 52 | 53 | 4 | 0 |
-| Ethics | 94.0 | 55/131 | 130/131 | 81 | 23 | 26 | 1 | 0 |
+| Epistemology | 93.3 | 113/266 | 266/266 | 159 | 53 | 50 | 4 | 0 |
+| Ethics | 94.1 | 54/131 | 130/131 | 82 | 23 | 25 | 1 | 0 |
 | Philosophers | 98.2 | 0/316 | 316/316 | 262 | 54 | 0 | 0 | 0 |
 
 ## Exceptional Gap-Fill Backlog
@@ -67,8 +67,6 @@ Pattern issues found: 2
 - `good` 74 [Economics / Economics – Core Concepts#prompt-2](../economics/economics-core-concepts/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `good` 74 [Epistemology / AI Reasoning Case Study#prompt-1](../epistemology/ai-reasoning-case-study/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `good` 74 [Epistemology / AI Reasoning Case Study#prompt-4](../epistemology/ai-reasoning-case-study/#prompt-4): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `good` 74 [Epistemology / Epistemological Case Studies#prompt-1](../epistemology/epistemological-case-studies/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `good` 74 [Humanistic Philosophies / Leaving Christianity#prompt-2](../humanistic-philosophies/leaving-christianity/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `good` 74 [Philosophy of Language / Philosophy of Language — Core Concepts#prompt-1](../philosophy-of-language/core-concepts-philosophy-of-language/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `good` 74 [Philosophy of Language / What is Etymology?#prompt-2](../philosophy-of-language/what-is-etymology/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `good` 74 [Philosophy of Language / What is Etymology?#prompt-3](../philosophy-of-language/what-is-etymology/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
@@ -90,7 +88,6 @@ Pattern issues found: 2
 - `good` 76 [Humanistic Philosophies / Christian Apologetics#prompt-1](../humanistic-philosophies/christian-apologetics/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `good` 76 [Humanistic Philosophies / Existentialism: Key Concepts#prompt-1](../humanistic-philosophies/existentialism-key-concepts/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `good` 76 [Humanistic Philosophies / What is Existentialism?#prompt-3](../humanistic-philosophies/what-is-existentialism/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `good` 76 [Introduction / Miscellaneous Philosophers#prompt-3](../introduction/miscellaneous-philosophers/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `good` 76 [Metaphysics / Metaphysics – Core Concepts#prompt-2](../metaphysics/metaphysics-core-concepts/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `good` 76 [Philosophical Inquiry / Common Sense Blunders#prompt-2](../philosophical-inquiry/common-sense-blunders/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `good` 76 [Philosophical Inquiry / Packaged vs Eclectic Ideologies#prompt-3](../philosophical-inquiry/packaged-vs-eclectic-ideologies/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
@@ -112,6 +109,7 @@ Pattern issues found: 2
 - `good` 77 [Epistemology / Avoiding Single-Cause Dogmatism#prompt-4](../epistemology/avoiding-single-cause-dogmatism/#prompt-4): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `good` 77 [Epistemology / Case #6 – Insatiable Loops#prompt-2](../epistemology/case-6-insatiable-loops/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `good` 77 [Ethics / Moral Black Boxes#prompt-2](../ethics/moral-black-boxes/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `good` 77 [Metaphysics / The Beginning of Time#prompt-1](../metaphysics/the-beginning-of-time/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `good` 77 [Philosophy of Mind / Where are our Thoughts?#prompt-5](../philosophy-of-mind/where-are-our-thoughts/#prompt-5): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `good` 77 [Philosophy of Science / The Problem of Induction#prompt-3](../philosophy-of-science/the-problem-of-induction/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `good` 77 [Rational Thought / Are Averages “Not Always True”?#prompt-1](../rational-thought/are-averages-not-always-true/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
@@ -141,6 +139,7 @@ Pattern issues found: 2
 - `good` 78 [Rational Thought / A Taxonomy of Emotions#prompt-4](../rational-thought/a-taxonomy-of-emotions/#prompt-4): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `good` 78 [Rational Thought / Calculating Risks#prompt-3](../rational-thought/calculating-risks/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `good` 78 [Rational Thought / Perverse Incentives#prompt-2](../rational-thought/perverse-incentives/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `good` 78 [Rational Thought / Starting with Strong Basics#prompt-2](../rational-thought/starting-with-strong-basics/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `good` 79 [Economics / Innovation Attractors#prompt-3](../economics/innovation-attractors/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `good` 79 [Epistemology / Epistemology — Core Concepts#prompt-1](../epistemology/epistemology-core-concepts/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `good` 79 [Epistemology / Induction: Forecasting#prompt-5](../epistemology/induction-forecasting/#prompt-5): Needs a little more argumentative texture before it reaches the exceptional bar.; Support items should become more explanatory and less list-like.
@@ -185,6 +184,7 @@ Pattern issues found: 2
 - `good` 80 [Epistemology / Counterfactual Reasoning#prompt-2](../epistemology/counterfactual-reasoning/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `good` 80 [Epistemology / Decision-Making#prompt-1](../epistemology/decision-making/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `good` 80 [Epistemology / Decision-Making#prompt-3](../epistemology/decision-making/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
+- `good` 80 [Epistemology / Deduction: Utility and Issues#prompt-3](../epistemology/deduction-utility-and-issues/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
 
 ## Relative Polish Queue
 
@@ -222,8 +222,6 @@ These are the lowest-scoring sections relative to the rest of the archive. Stron
 - `good` 74 [Economics / Economics – Core Concepts#prompt-2](../economics/economics-core-concepts/#prompt-2): The section is below the current editorial depth target.
 - `good` 74 [Epistemology / AI Reasoning Case Study#prompt-1](../epistemology/ai-reasoning-case-study/#prompt-1): The section is below the current editorial depth target.
 - `good` 74 [Epistemology / AI Reasoning Case Study#prompt-4](../epistemology/ai-reasoning-case-study/#prompt-4): The section is below the current editorial depth target.
-- `good` 74 [Epistemology / Epistemological Case Studies#prompt-1](../epistemology/epistemological-case-studies/#prompt-1): The section is below the current editorial depth target.
-- `good` 74 [Humanistic Philosophies / Leaving Christianity#prompt-2](../humanistic-philosophies/leaving-christianity/#prompt-2): The section is below the current editorial depth target.
 - `good` 74 [Philosophy of Language / Philosophy of Language — Core Concepts#prompt-1](../philosophy-of-language/core-concepts-philosophy-of-language/#prompt-1): The section is below the current editorial depth target.
 - `good` 74 [Philosophy of Language / What is Etymology?#prompt-2](../philosophy-of-language/what-is-etymology/#prompt-2): The section is below the current editorial depth target.
 - `good` 74 [Philosophy of Language / What is Etymology?#prompt-3](../philosophy-of-language/what-is-etymology/#prompt-3): The section is below the current editorial depth target.
@@ -245,7 +243,6 @@ These are the lowest-scoring sections relative to the rest of the archive. Stron
 - `good` 76 [Humanistic Philosophies / Christian Apologetics#prompt-1](../humanistic-philosophies/christian-apologetics/#prompt-1): The section is below the current editorial depth target.
 - `good` 76 [Humanistic Philosophies / Existentialism: Key Concepts#prompt-1](../humanistic-philosophies/existentialism-key-concepts/#prompt-1): The section is below the current editorial depth target.
 - `good` 76 [Humanistic Philosophies / What is Existentialism?#prompt-3](../humanistic-philosophies/what-is-existentialism/#prompt-3): The section is below the current editorial depth target.
-- `good` 76 [Introduction / Miscellaneous Philosophers#prompt-3](../introduction/miscellaneous-philosophers/#prompt-3): The section is below the current editorial depth target.
 - `good` 76 [Metaphysics / Metaphysics – Core Concepts#prompt-2](../metaphysics/metaphysics-core-concepts/#prompt-2): The section is below the current editorial depth target.
 - `good` 76 [Philosophical Inquiry / Common Sense Blunders#prompt-2](../philosophical-inquiry/common-sense-blunders/#prompt-2): The section is below the current editorial depth target.
 - `good` 76 [Philosophical Inquiry / Packaged vs Eclectic Ideologies#prompt-3](../philosophical-inquiry/packaged-vs-eclectic-ideologies/#prompt-3): The section is below the current editorial depth target.
@@ -267,6 +264,7 @@ These are the lowest-scoring sections relative to the rest of the archive. Stron
 - `good` 77 [Epistemology / Avoiding Single-Cause Dogmatism#prompt-4](../epistemology/avoiding-single-cause-dogmatism/#prompt-4): The section is below the current editorial depth target.
 - `good` 77 [Epistemology / Case #6 – Insatiable Loops#prompt-2](../epistemology/case-6-insatiable-loops/#prompt-2): The section is below the current editorial depth target.
 - `good` 77 [Ethics / Moral Black Boxes#prompt-2](../ethics/moral-black-boxes/#prompt-2): The section is below the current editorial depth target.
+- `good` 77 [Metaphysics / The Beginning of Time#prompt-1](../metaphysics/the-beginning-of-time/#prompt-1): The section is below the current editorial depth target.
 - `good` 77 [Philosophy of Mind / Where are our Thoughts?#prompt-5](../philosophy-of-mind/where-are-our-thoughts/#prompt-5): The section is below the current editorial depth target.
 - `good` 77 [Philosophy of Science / The Problem of Induction#prompt-3](../philosophy-of-science/the-problem-of-induction/#prompt-3): The section is below the current editorial depth target.
 - `good` 77 [Rational Thought / Are Averages “Not Always True”?#prompt-1](../rational-thought/are-averages-not-always-true/#prompt-1): The section is below the current editorial depth target.
@@ -296,6 +294,7 @@ These are the lowest-scoring sections relative to the rest of the archive. Stron
 - `good` 78 [Rational Thought / A Taxonomy of Emotions#prompt-4](../rational-thought/a-taxonomy-of-emotions/#prompt-4): The section is below the current editorial depth target.
 - `good` 78 [Rational Thought / Calculating Risks#prompt-3](../rational-thought/calculating-risks/#prompt-3): The section is below the current editorial depth target.
 - `good` 78 [Rational Thought / Perverse Incentives#prompt-2](../rational-thought/perverse-incentives/#prompt-2): The section is below the current editorial depth target.
+- `good` 78 [Rational Thought / Starting with Strong Basics#prompt-2](../rational-thought/starting-with-strong-basics/#prompt-2): The section is below the current editorial depth target.
 - `good` 79 [Economics / Innovation Attractors#prompt-3](../economics/innovation-attractors/#prompt-3): The section is below the current editorial depth target.
 - `good` 79 [Epistemology / Epistemology — Core Concepts#prompt-1](../epistemology/epistemology-core-concepts/#prompt-1): The section is below the current editorial depth target.
 - `good` 79 [Epistemology / Induction: Forecasting#prompt-5](../epistemology/induction-forecasting/#prompt-5): The section is below the current editorial depth target.
@@ -340,3 +339,4 @@ These are the lowest-scoring sections relative to the rest of the archive. Stron
 - `good` 80 [Epistemology / Counterfactual Reasoning#prompt-2](../epistemology/counterfactual-reasoning/#prompt-2): The section is below the current editorial depth target.
 - `good` 80 [Epistemology / Decision-Making#prompt-1](../epistemology/decision-making/#prompt-1): The section is below the current editorial depth target.
 - `good` 80 [Epistemology / Decision-Making#prompt-3](../epistemology/decision-making/#prompt-3): The section is below the current editorial depth target.
+- `good` 80 [Epistemology / Deduction: Utility and Issues#prompt-3](../epistemology/deduction-utility-and-issues/#prompt-3): The section is below the current editorial depth target.

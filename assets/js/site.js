@@ -1253,6 +1253,47 @@
       .join("");
   }
 
+  const HOME_PANEL_RENDERERS = {
+    "guided-reading": renderGuidedRoutes,
+    "branch-guide": renderNav,
+    structure: renderStructureGrid,
+    "concept-glossary": renderGlossaryPreview,
+    "tag-discovery": () => {
+      renderTagCloud();
+      initTagFilters();
+    },
+    "featured-pages": renderFeaturedPages,
+  };
+
+  function ensureHomePanelRendered(panelOrId) {
+    const panelId = typeof panelOrId === "string" ? panelOrId : panelOrId?.id;
+    if (!panelId || renderedHomePanels.has(panelId)) {
+      return;
+    }
+    const render = HOME_PANEL_RENDERERS[panelId];
+    if (!render) {
+      return;
+    }
+    render();
+    renderedHomePanels.add(panelId);
+  }
+
+  function initHomePanelRendering() {
+    if (document.body.dataset.pageType !== "home") {
+      return;
+    }
+    document.querySelectorAll(".home-panel").forEach((panel) => {
+      if (panel.open) {
+        ensureHomePanelRendered(panel);
+      }
+      panel.addEventListener("toggle", () => {
+        if (panel.open) {
+          ensureHomePanelRendered(panel);
+        }
+      });
+    });
+  }
+
   function renderTagResults(tag) {
     const resultMount = document.querySelector("[data-tag-results]");
     if (!resultMount || !tag) {
@@ -1343,6 +1384,8 @@
   let cachedSearchEntries = null;
   let searchShell = null;
   let searchShellApi = null;
+  let tagFiltersReady = false;
+  const renderedHomePanels = new Set();
 
   function normalizeSearchText(value) {
     return String(value || "")
@@ -1916,6 +1959,15 @@
   }
 
   function initTagFilters() {
+    if (tagFiltersReady) {
+      const requestedTag = new URLSearchParams(window.location.search).get("tag");
+      if (requestedTag) {
+        selectTag(requestedTag, { openPanel: true, scroll: window.location.hash === "#tag-discovery" });
+      }
+      return;
+    }
+    tagFiltersReady = true;
+
     document.addEventListener("click", (event) => {
       const trigger = event.target.closest("[data-tag-filter]");
       if (!trigger) {
@@ -1979,6 +2031,7 @@
 
     const containingPanel = target.closest(".home-panel");
     if (containingPanel) {
+      ensureHomePanelRendered(containingPanel);
       const accordion = containingPanel.closest("[data-exclusive-accordion]");
       accordion?.querySelectorAll(".home-panel[open]").forEach((panel) => {
         if (panel !== containingPanel) {
@@ -2051,16 +2104,20 @@
     });
   }
 
-  renderNav();
   renderArticleOutline();
-  renderStructureGrid();
-  renderTagCloud();
-  renderFeaturedPages();
-  renderGuidedRoutes();
-  renderGlossaryPreview();
   renderContextRail();
   initSiteSearch();
-  initTagFilters();
+  if (document.body.dataset.pageType === "home") {
+    initHomePanelRendering();
+  } else {
+    renderNav();
+    renderStructureGrid();
+    renderTagCloud();
+    renderFeaturedPages();
+    renderGuidedRoutes();
+    renderGlossaryPreview();
+    initTagFilters();
+  }
   initExclusiveAccordions();
   revealHashTarget();
   window.addEventListener("hashchange", revealHashTarget);

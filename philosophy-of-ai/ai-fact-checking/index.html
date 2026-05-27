@@ -25,12 +25,9 @@
             <link rel="icon" href="../../favicon-32x32.png?v=20260522c" sizes="32x32" type="image/png" />
             <link rel="shortcut icon" href="../../favicon.ico?v=20260522c" />
             <link rel="apple-touch-icon" href="../../apple-touch-icon.png?v=20260522c" />
-            <link rel="preconnect" href="https://fonts.googleapis.com" />
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-            <link
-              href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,700&family=Spline+Sans:wght@400;500;600;700&display=swap"
-              rel="stylesheet"
-            />
+            <link rel="preload" href="../../assets/fonts/newsreader-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
+            <link rel="preload" href="../../assets/fonts/spline-sans-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+            <link rel="stylesheet" href="../../assets/css/fonts.css" />
             <link rel="stylesheet" href="../../assets/css/styles.css" />
             <script defer src="../../assets/js/site-data.js"></script>
             <script defer src="../../assets/js/site.js"></script>
@@ -178,9 +175,9 @@
               <h2>Summary is best read as a map of alignments, tensions, and priority.</h2>
               <p>The section turns on Summary. Each piece is doing different work, and the page becomes thinner if the reader cannot say what is being identified, what is being tested, and what would change if one piece were removed.</p>
               <p>In plain terms: For example, there are topics for which a high degree of technical knowledge is required, yet a low degree of technical knowledge exists among the public who still want to express their opinions on the topic on social media due to ideological motivations.</p>
-              <p>The orienting landmarks here are Best usage cases for AI fact, Summary, and Best Usage Cases for AI Fact-Checking. Read them comparatively: what each part contributes, what depends on what, and where the tensions begin. The section only works if the reader can say what confusion follows from blurring those anchors together.</p>
+              <p>The orienting landmarks here are Best usage cases for AI fact, Summary, and Best Usage Cases for AI Fact-Checking. Read them comparatively: which piece defines the terrain, which one bears the argumentative weight, and where the tensions start to surface. The reader should be able to say what confusion appears when those distinctions are blurred together.</p>
               <p>This opening move sets the terms for the rest of the page. It gives the reader a stable grip on the issue, so the later prompts can deepen it <em>rather than</em> circle around it.</p>
-              <p>At its strongest, the answer should leave the reader with a clearer sense of dependence, priority, and rivalry. If best usage cases for AI fact never changes how the map gets read, the section is still describing territory <em>rather than</em> charting it.</p>
+              <p>The answer is strongest when it leaves the reader with a clearer sense of dependence, priority, and rivalry. If best usage cases for AI fact never changes how the map gets read, the section is still describing territory <em>rather than</em> charting it.</p>
 
               <div class="dialogue-card">
 <div class="dialogue-turn">
@@ -283,9 +280,9 @@
               <h2>Summary of Prompts: practical stakes and consequences.</h2>
               <p>The section turns on Summary of Prompts. Each piece is doing different work, and the page becomes thinner if the reader cannot say what is being identified, what is being tested, and what would change if one piece were removed.</p>
               <p>In plain terms: The generic prompt “Assess this content for factual accuracy, logical coherence, and testability” is a good starting point, but a reader can enhance it with more specific prompts depending on the context of the content you’re analyzing.</p>
-              <p>The anchors here are Summary of Prompts, Best Usage Cases for AI Fact-Checking, and Summary. Together they tell the reader what is being claimed, where it is tested, and what would change if the distinction holds. The section only works if the reader can say what confusion follows from blurring those anchors together.</p>
+              <p>The section turns on Summary of Prompts, Best Usage Cases for AI Fact-Checking, and Summary. Those pieces matter because they show what is being claimed, where it is tested, and what would change if the distinction actually holds. The reader should be able to say what confusion appears when those distinctions are blurred together.</p>
               <p>This middle step keeps the sequence honest. It takes the pressure already on the table and turns it toward the next distinction <em>rather than</em> letting the page break into separate mini-essays.</p>
-              <p>At its strongest, the answer should leave the reader with a sharper next question. If the central distinction cannot guide the next inquiry, the section has not yet earned its place.</p>
+              <p>The answer is strongest when it leaves the reader with a sharper next question. If the central distinction cannot guide the next inquiry, the section has not yet earned its place.</p>
 
               <div class="dialogue-card">
 <div class="dialogue-turn">
@@ -388,7 +385,7 @@
               <h2>Summary of Advantages is best read as a map of alignments, tensions, and priority.</h2>
               <p>The section turns on Summary of Advantages. Each piece is doing different work, and the page becomes thinner if the reader cannot say what is being identified, what is being tested, and what would change if one piece were removed.</p>
               <p>In plain terms: Dispassion is a key strength of AI fact-checking.</p>
-              <p>The orienting landmarks here are Checking responses have the advantage of being dispassionate, Summary of Advantages, and Best Usage Cases for AI Fact-Checking. Read them comparatively: what each part contributes, what depends on what, and where the tensions begin. The section only works if the reader can say what confusion follows from blurring those anchors together.</p>
+              <p>The orienting landmarks here are Checking responses have the advantage of being dispassionate, Summary of Advantages, and Best Usage Cases for AI Fact-Checking. Read them comparatively: which piece defines the terrain, which one bears the argumentative weight, and where the tensions start to surface. The reader should be able to say what confusion appears when those distinctions are blurred together.</p>
               <p>By the time the page reaches this final prompt, the clearing work should already be done. This last move gathers those distinctions around checking responses have the advantage of being dispassionate, so the page closes with a more disciplined view <em>rather than</em> a disconnected answer.</p>
               <p>The human-machine exchange is strongest when the machine expands the field of considerations and the human remains answerable for selection, emphasis, and judgment.</p>
 
@@ -491,7 +488,7 @@
               <h2>The through-line is Best Usage Cases for AI Fact-Checking, Summary, I primarily use the generic prompt shown below, and Prompts for Specific Contexts.</h2>
               <p>A strong route through this branch asks what the model is doing, what the human is doing, and where the final responsibility for judgment belongs.</p>
               <p>The danger is misplaced authority: either dismissing AI outputs because they are synthetic, or treating fluent synthesis as if it already carried understanding, evidence, or accountability.</p>
-              <p>The anchors here are Best Usage Cases for AI Fact-Checking, Summary, and I primarily use the generic prompt shown below. Together they tell the reader what is being claimed, where it is tested, and what would change if the distinction holds.</p>
+              <p>The section turns on Best Usage Cases for AI Fact-Checking, Summary, and I primarily use the generic prompt shown below. Those pieces matter because they show what is being claimed, where it is tested, and what would change if the distinction actually holds.</p>
               <p>Read this page as part of the wider Philosophy of AI branch: the prompts point inward to the topic, but they also point outward to neighboring questions that keep the topic honest.</p>
 
               <ol>
