@@ -8498,11 +8498,42 @@ def render_article_page(page: dict) -> str:
             f"This page belongs inside the wider <a class=\"future-link\" href=\"{html.escape(branch_href)}\"><strong>{html.escape(section_meta['name'])}</strong></a> branch and is best read in conversation with its neighboring topics. Future expansion should add direct neighboring links as the branch thickens."
         )
     future_paragraph = " ".join(future_parts)
+    future_visual_html = ""
+    future_panel_class = "future-branches-panel"
     if page["built_path"] == "/philosophical-inquiry/the-value-and-limits-of-debate/":
         future_paragraph += (
             f' For a live laboratory of public argument, visit {slugfester_anchor_html()}: '
             "watch how often logical fallacies and cognitive biases do more work than the stated reasons, "
             "and let the frequency of those patterns teach you something about the limits of debate as a truth engine."
+        )
+        future_panel_class += " future-branches-panel--with-visual"
+        future_visual_html = (
+            f'                      <a class="future-branches-visual future-branches-visual--slugfester" href="{html.escape(SLUGFESTER_SITE_URL)}" rel="noopener noreferrer" aria-label="Visit Slugfester">\n'
+            f'                        <img src="{prefix}assets/images/slugfester-debate-gloves.png" width="444" height="444" alt="Hanging boxing gloves from Slugfester" loading="lazy" decoding="async" />\n'
+            "                      </a>"
+        )
+    if future_visual_html:
+        future_body_html = (
+            f'                      <div class="{future_panel_class}">\n'
+            '                        <div class="future-branches-copy">\n'
+            '                          <div class="tag-row">\n'
+            f'        {tag_html}\n'
+            '                          </div>\n'
+            '                          <p>\n'
+            f'                            {future_paragraph}\n'
+            '                          </p>\n'
+            '                        </div>\n'
+            f"{future_visual_html}\n"
+            "                      </div>"
+        )
+    else:
+        future_body_html = (
+            '                      <div class="tag-row">\n'
+            f'        {tag_html}\n'
+            '                      </div>\n'
+            '                      <p>\n'
+            f'                        {future_paragraph}\n'
+            '                      </p>'
         )
     quiz_html = render_quiz_sections(page, sections, prompts, section_meta)
     quiz_block = f"\n\n{quiz_html}" if quiz_html else ""
@@ -8596,12 +8627,7 @@ def render_article_page(page: dict) -> str:
                     <section class="article-section" id="future-branches">
                       <p class="eyebrow">Future Branches</p>
                       <h2>Where this page naturally expands</h2>
-                      <div class="tag-row">
-        {tag_html}
-                      </div>
-                      <p>
-                        {future_paragraph}
-                      </p>
+{future_body_html}
                     </section>
                   </div>
 
