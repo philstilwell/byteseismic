@@ -4601,9 +4601,11 @@ def emphasize_escaped_phrase(rendered: str, phrase: str, tag: str) -> str:
     return pattern.sub(lambda match: f"<{tag}>{match.group(1)}</{tag}>", rendered, count=1)
 
 
-def render_inline_text(text: str) -> str:
+def render_inline_text(text: str, *, allow_links: bool = True) -> str:
     text = re.sub(r"\bMisalignment Elaboration\b", "misalignment comparisons", text)
-    text, placeholders = inject_logfall_placeholders(text)
+    placeholders: dict[str, str] = {}
+    if allow_links:
+        text, placeholders = inject_logfall_placeholders(text)
     rendered = html.escape(text)
     rendered = re.sub(r"\*\*\s*(.+?)\s*\*\*", r"<strong>\1</strong>", rendered)
     rendered = rendered.replace("**", "")
@@ -4611,18 +4613,19 @@ def render_inline_text(text: str) -> str:
         rendered = emphasize_escaped_phrase(rendered, phrase, "strong")
     for phrase in sorted(INLINE_EMPHASIS_PHRASES, key=len, reverse=True):
         rendered = emphasize_escaped_phrase(rendered, phrase, "em")
-    rendered = re.sub(
-        r"(?<![\w/])(Credencing\.com|credencing\.com)(?![\w/])",
-        f'<a class="text-link" href="{CREDENCING_SITE_URL}" rel="noopener noreferrer">Credencing.com</a>',
-        rendered,
-    )
-    rendered = re.sub(
-        r"(?<![\w/])(?:https?://)?(?:www\.)?(Slugfester\.com|slugfester\.com)(?![\w/])",
-        slugfester_anchor_html(),
-        rendered,
-    )
-    for placeholder, anchor_html in placeholders.items():
-        rendered = rendered.replace(placeholder, anchor_html)
+    if allow_links:
+        rendered = re.sub(
+            r"(?<![\w/])(Credencing\.com|credencing\.com)(?![\w/])",
+            f'<a class="text-link" href="{CREDENCING_SITE_URL}" rel="noopener noreferrer">Credencing.com</a>',
+            rendered,
+        )
+        rendered = re.sub(
+            r"(?<![\w/])(?:https?://)?(?:www\.)?(Slugfester\.com|slugfester\.com)(?![\w/])",
+            slugfester_anchor_html(),
+            rendered,
+        )
+        for placeholder, anchor_html in placeholders.items():
+            rendered = rendered.replace(placeholder, anchor_html)
     return rendered
 
 
@@ -8408,7 +8411,7 @@ def render_article_page(page: dict) -> str:
               <li>
                 <a class="prompt-ledger__link" href="#{anchor}">
                   <span class="prompt-number" aria-hidden="true">{index}</span>
-                  <span class="prompt-ledger__text">{render_inline_text(text)}</span>
+                  <span class="prompt-ledger__text">{render_inline_text(text, allow_links=False)}</span>
                 </a>
               </li>"""
         )
