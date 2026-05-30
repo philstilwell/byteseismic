@@ -2126,6 +2126,7 @@ body.site-search-open {
   justify-self: end;
   align-self: end;
   width: min(100%, 170px);
+  margin: 0;
 }
 
 .future-branches-visual img {
@@ -2133,6 +2134,14 @@ body.site-search-open {
   width: 100%;
   height: auto;
   filter: drop-shadow(0 12px 26px rgba(16, 38, 59, 0.12));
+}
+
+.future-branches-visual figcaption {
+  margin-top: 8px;
+  font-size: 0.8rem;
+  line-height: 1.45;
+  color: rgba(16, 38, 59, 0.74);
+  text-wrap: balance;
 }
 
 .article-section em {

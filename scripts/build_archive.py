@@ -8508,9 +8508,12 @@ def render_article_page(page: dict) -> str:
         )
         future_panel_class += " future-branches-panel--with-visual"
         future_visual_html = (
-            f'                      <a class="future-branches-visual future-branches-visual--slugfester" href="{html.escape(SLUGFESTER_SITE_URL)}" rel="noopener noreferrer" aria-label="Visit Slugfester">\n'
-            f'                        <img src="{prefix}assets/images/slugfester-debate-gloves.png" width="444" height="444" alt="Hanging boxing gloves from Slugfester" loading="lazy" decoding="async" />\n'
-            "                      </a>"
+            '                      <figure class="future-branches-visual future-branches-visual--slugfester">\n'
+            f'                        <a href="{html.escape(SLUGFESTER_SITE_URL)}" rel="noopener noreferrer" aria-label="Visit Slugfester">\n'
+            f'                          <img src="{prefix}assets/images/slugfester-debate-gloves.png" width="444" height="444" alt="Slugfester hanging boxing gloves representing public debate scorecards and argument analysis" loading="lazy" decoding="async" />\n'
+            "                        </a>\n"
+            "                        <figcaption>Slugfester turns public debate into a scored record of claims, fallacies, and bias pressure.</figcaption>\n"
+            "                      </figure>"
         )
     if future_visual_html:
         future_body_html = (
@@ -8556,6 +8559,15 @@ def render_article_page(page: dict) -> str:
         "author": {"@type": "Organization", "name": "Byteseismic"},
         "publisher": {"@type": "Organization", "name": "Byteseismic"},
     }
+    if page["built_path"] == "/philosophical-inquiry/the-value-and-limits-of-debate/":
+        article_json["mentions"] = [
+            {
+                "@type": "WebSite",
+                "name": "Slugfester",
+                "url": SLUGFESTER_SITE_URL,
+                "description": "Debate scorecards that surface argument structure, fallacies, and cognitive biases in public exchanges.",
+            }
+        ]
     if page.get("date"):
         article_json["datePublished"] = page["date"][:10]
     article_json["dateModified"] = BUILD_DATE.isoformat()
