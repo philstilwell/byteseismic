@@ -1,11 +1,11 @@
 # Byteseismic Quality Ledger
 
-Generated: 2026-05-27
+Generated: 2026-05-30
 
-Tracked prompt-response sections: 1904
-Average score: 93.4
-Needs review: 891 (46.8%)
-Exceptional gap-fill backlog: 1897 (99.6%)
+Tracked prompt-response sections: 1908
+Average score: 93.5
+Needs review: 895 (46.9%)
+Exceptional gap-fill backlog: 1901 (99.6%)
 
 ## Editorial Audit
 
@@ -25,7 +25,7 @@ Pattern issues found: 2
 | Introduction | 94.6 | 20/36 | 35/36 | 22 | 9 | 5 | 0 | 0 |
 | Miscellany | 93.8 | 37/67 | 66/67 | 37 | 21 | 9 | 0 | 0 |
 | Political Philosophy | 93.0 | 28/51 | 51/51 | 27 | 14 | 10 | 0 | 0 |
-| Philosophical Inquiry | 92.8 | 81/151 | 150/151 | 82 | 41 | 24 | 4 | 0 |
+| Philosophical Inquiry | 92.9 | 85/155 | 154/155 | 85 | 42 | 24 | 4 | 0 |
 | Humanistic Philosophies | 94.0 | 41/80 | 80/80 | 47 | 21 | 12 | 0 | 0 |
 | Rational Thought | 92.9 | 91/183 | 180/183 | 109 | 34 | 37 | 3 | 0 |
 | Philosophy of Mind | 93.2 | 39/85 | 85/85 | 45 | 27 | 12 | 1 | 0 |

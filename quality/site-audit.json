@@ -1,13 +1,13 @@
 {
   "summary": {
-    "pages_scanned": 782,
+    "pages_scanned": 783,
     "broken_links": 0,
     "duplicate_ids": 0,
     "repeated_headings": 121,
     "prompt_number_issues": 0,
     "orphan_pages": 0,
     "oversized_assets": 1,
-    "style_scars": 395,
+    "style_scars": 396,
     "grammar_scars": 11
   },
   "broken_links": [],
@@ -503,7 +503,7 @@
   "oversized_assets": [
     {
       "path": "/assets/js/site-data.js",
-      "bytes": 488410,
+      "bytes": 513550,
       "limit": 280000
     }
   ],
@@ -1522,6 +1522,10 @@
     },
     {
       "page": "/philosophical-inquiry/the-danger-of-resulting/",
+      "issue": "anchor-scaffold"
+    },
+    {
+      "page": "/philosophical-inquiry/the-value-and-limits-of-debate/",
       "issue": "anchor-scaffold"
     },
     {

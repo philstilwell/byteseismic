@@ -44,6 +44,7 @@ LOGFALL_SITE_URL = "https://logfall.com/"
 LOGFALL_ALL_FALLACIES_URL = "https://logfall.com/fallacies/"
 LOGFALL_FALLACIES_PATH = Path(__file__).with_name("logfall_fallacies.json")
 CREDENCING_SITE_URL = "https://credencing.com/"
+SLUGFESTER_SITE_URL = "https://slugfester.com/"
 SAFE_SINGLE_WORD_LOGFALL_ALIASES = {"equivocation"}
 BLOCKED_GENERIC_LOGFALL_ALIASES = {"argument from", "appeal to"}
 BLOCKED_GENERIC_LOGFALL_SUFFIX_WORDS = {"from", "to", "of", "for", "with", "and", "or", "s"}
@@ -495,19 +496,86 @@ GUIDED_READING_PATHS = [
 GLOSSARY_TERMS = [
     {"term": "Abduction", "definition": "Inference to the best explanation: reasoning from observed facts toward the explanation that would make them most intelligible.", "branch": "Epistemology", "paths": ["/epistemology/abduction-utility-and-issues/"], "tags": ["inference", "explanation"]},
     {"term": "Adequate evidence", "definition": "Support strong enough for the claim being made, given the stakes, alternatives, error costs, and available methods of checking.", "branch": "Epistemology", "paths": ["/epistemology/adequate-evidence/"], "tags": ["evidence", "justification"]},
-    {"term": "Belief", "definition": "An action-guiding commitment or confidence state that may be binary in ordinary speech but often needs to be graded in careful reasoning.", "branch": "Epistemology", "paths": ["/epistemology/what-is-belief/"], "tags": ["belief", "credence"]},
-    {"term": "Credence", "definition": "A degree of confidence rather than a simple yes-or-no belief; useful when evidence supports partial confidence.", "branch": "Epistemology", "paths": ["/epistemology/case-1-credence-complexity/", "/epistemology/what-is-belief/"], "tags": ["belief", "probability"]},
+    {"term": "A priori", "definition": "Knowledge or justification claimed to arise from reason, structure, or necessity rather than from fresh observation alone.", "branch": "Epistemology", "paths": ["/epistemology/a-priori-knowledge-issues/"], "tags": ["knowledge", "epistemology"]},
+    {"term": "Agency", "definition": "The capacity to act for reasons, make choices, and own actions as more than happenings that merely pass through a person.", "branch": "Philosophy of Mind", "paths": ["/philosophy-of-mind/rationality-and-free-will/"], "tags": ["free-will", "identity"]},
+    {"term": "Belief", "definition": "An action-guiding commitment or confidence state that may sound binary in ordinary speech but often needs finer treatment in careful reasoning.", "branch": "Epistemology", "paths": ["/epistemology/what-is-belief/"], "tags": ["belief", "knowledge"]},
+    {"term": "Bias", "definition": "A systematic tilt in attention, inference, or judgment; not just any opinion, but a patterned distortion that can keep error feeling natural.", "branch": "Philosophical Inquiry", "paths": ["/philosophical-inquiry/dangers-cognitive-biases/"], "tags": ["bias", "public-discourse"]},
+    {"term": "Burden of proof", "definition": "The responsibility to supply reasons or evidence proportionate to the strength and stakes of the claim being pressed.", "branch": "Rational Thought", "paths": ["/rational-thought/assessing-arguments/"], "tags": ["argument", "evidence"]},
+    {"term": "Certainty", "definition": "A level of confidence that leaves no live room for doubt; often invoked too quickly when the evidence actually supports only strong probability.", "branch": "Epistemology", "paths": ["/epistemology/shades-of-certainty/"], "tags": ["knowledge", "evidence"]},
+    {"term": "Charity", "definition": "Interpretive generosity: understanding a claim in its strongest plausible form before deciding that it fails.", "branch": "Philosophical Inquiry", "paths": ["/philosophical-inquiry/charitable-engagement/"], "tags": ["charity", "argument"]},
+    {"term": "Coherence", "definition": "Fit among claims within a wider view or system; useful, but not identical to truth just because the pieces hang together neatly.", "branch": "Ethics", "paths": ["/ethics/coherent-moral-systems/"], "tags": ["truth", "knowledge"]},
+    {"term": "Compassion", "definition": "Concern for suffering that can guide moral attention, though it still needs discipline so it does not become partiality dressed as virtue.", "branch": "Ethics", "paths": ["/ethics/compassion-vs-moral-systems/"], "tags": ["ethics", "normativity"]},
+    {"term": "Consequentialism", "definition": "A family of ethical views that judges actions mainly by their outcomes rather than by intention, rule, or character alone.", "branch": "Ethics", "paths": ["/ethics/ethics-core-concepts/"], "tags": ["ethics", "normativity"]},
+    {"term": "Consciousness", "definition": "Subjective awareness or felt experience: what it is like for a being to perceive, think, or undergo something.", "branch": "Philosophy of Mind", "paths": ["/philosophy-of-mind/what-is-consciousness/"], "tags": ["consciousness", "philosophy-of-mind"]},
+    {"term": "Correlation", "definition": "A statistical pattern of co-variation between things; suggestive, often useful, but not on its own a demonstration of causation.", "branch": "Philosophy of Science", "paths": ["/philosophy-of-science/correlation-and-causation/"], "tags": ["causation", "statistics"]},
     {"term": "Correspondence", "definition": "The idea that truth depends on how claims relate to reality, not merely on usefulness, coherence, or social endorsement.", "branch": "Philosophical Inquiry", "paths": ["/philosophical-inquiry/what-is-truth/"], "tags": ["truth", "reality"]},
-    {"term": "Equivocation", "definition": "A reasoning failure in which the same word shifts meaning across an argument while pretending to remain stable.", "branch": "Philosophy of Language", "paths": ["/ethics/equivocation-on-wrong/", "/philosophy-of-language/what-is-etymology/"], "tags": ["language", "fallacies"]},
-    {"term": "Induction", "definition": "Reasoning from observed patterns toward broader expectations, always carrying the question of how far the pattern may responsibly travel.", "branch": "Philosophy of Science", "paths": ["/epistemology/induction-utility-and-issues/", "/philosophy-of-science/is-logic-acquired-inductively/"], "tags": ["induction", "science"]},
-    {"term": "Moral realism", "definition": "The view that at least some moral claims are true independently of individual preference or social approval.", "branch": "Ethics", "paths": ["/ethics/fictional-meta-ethics-debate/", "/ethics/recommendations-vs-moral-claims/"], "tags": ["meta-ethics", "moral-realism"]},
-    {"term": "Moral non-realism", "definition": "A family of views denying that moral claims describe objective moral facts in the realist sense, while still allowing moral language to do important work.", "branch": "Ethics", "paths": ["/ethics/fictional-meta-ethics-debate/", "/ethics/recommendations-vs-moral-claims/"], "tags": ["meta-ethics", "moral-non-realism"]},
-    {"term": "Normativity", "definition": "The force of should, ought, reason, permission, or obligation; the dimension of a claim that purports to guide action or evaluation.", "branch": "Ethics", "paths": ["/ethics/recommendations-vs-moral-claims/", "/ethics/equivocation-on-wrong/"], "tags": ["ethics", "normativity"]},
+    {"term": "Counterfactual", "definition": "A claim about what would happen if things were otherwise; central to explanation, causation, and responsibility.", "branch": "Epistemology", "paths": ["/epistemology/counterfactual-reasoning/"], "tags": ["causation", "inference"]},
+    {"term": "Credence", "definition": "A degree of confidence rather than a simple yes-or-no belief; useful when evidence supports partial confidence.", "branch": "Epistemology", "paths": ["/epistemology/case-1-credence-complexity/"], "tags": ["credence", "probability"]},
+    {"term": "Credencing", "definition": "The practice of assigning and revising graded confidence rather than pretending every judgment arrives as certainty or disbelief.", "branch": "Rational Thought", "paths": ["/rational-thought/credencing/"], "tags": ["credence", "decision-making"]},
+    {"term": "Culpability", "definition": "Moral blameworthiness, which depends not only on harm but also on agency, awareness, alternatives, and control.", "branch": "Ethics", "paths": ["/ethics/conditions-for-culpability/"], "tags": ["culpability", "ethics"]},
+    {"term": "Deduction", "definition": "Reasoning in which the conclusion follows necessarily if the premises are true and the structure is valid.", "branch": "Epistemology", "paths": ["/epistemology/deduction-utility-and-issues/"], "tags": ["logic", "inference"]},
+    {"term": "Deontology", "definition": "A family of ethical views emphasizing duty, rule, principle, or respect for persons rather than consequences alone.", "branch": "Ethics", "paths": ["/ethics/ethics-core-concepts/"], "tags": ["ethics", "normativity"]},
+    {"term": "Determinism", "definition": "The view that every event, including human action, is fixed by prior conditions and laws of nature.", "branch": "Philosophy of Mind", "paths": ["/philosophy-of-mind/free-will-vs-determinism/"], "tags": ["free-will", "philosophy-of-mind"]},
+    {"term": "Divine command theory", "definition": "The view that moral authority depends on God's will or commands rather than on independent moral facts or human constructions alone.", "branch": "Ethics", "paths": ["/ethics/divine-command-theory/"], "tags": ["religion", "normativity"]},
+    {"term": "Dogmatism", "definition": "Confidence insulated from challenge: a posture that treats favored explanations as settled before they have survived real scrutiny.", "branch": "Epistemology", "paths": ["/epistemology/avoiding-single-cause-dogmatism/"], "tags": ["inquiry", "evidence"]},
+    {"term": "Doubt", "definition": "A live sense that a claim may be wrong, incomplete, or under-supported; healthy when disciplined, paralyzing when absolutized.", "branch": "Epistemology", "paths": ["/epistemology/what-is-doubt/"], "tags": ["inquiry", "knowledge"]},
+    {"term": "Doxastic voluntarism", "definition": "The thesis that belief is, in some sense, under voluntary control rather than something that merely happens in response to evidence.", "branch": "Epistemology", "paths": ["/epistemology/doxastic-voluntarism/"], "tags": ["belief", "epistemology"]},
+    {"term": "Dualism", "definition": "The view that mind and matter are fundamentally different kinds of reality rather than two descriptions of the same thing.", "branch": "Metaphysics", "paths": ["/metaphysics/dualismvsmaterialism/"], "tags": ["dualism", "materialism"]},
+    {"term": "Empiricism", "definition": "The broad view that experience and observation are central to knowledge, even if reason still has an organizing role.", "branch": "Epistemology", "paths": ["/epistemology/a-priori-knowledge-issues/"], "tags": ["evidence", "science"]},
+    {"term": "Emergence", "definition": "The idea that higher-level patterns or properties arise from lower-level conditions without being exhausted by simple reduction to them.", "branch": "Metaphysics", "paths": ["/metaphysics/emergence/"], "tags": ["emergence", "metaphysics"]},
+    {"term": "Epistemology", "definition": "The branch of philosophy asking what knowledge is, what justifies belief, and how inquiry can remain responsible under uncertainty.", "branch": "Epistemology", "paths": ["/epistemology/epistemology-core-concepts/"], "tags": ["epistemology", "knowledge"]},
+    {"term": "Equality", "definition": "A claim that people deserve the same standing, rights, or consideration in some relevant respect; not the same as uniformity in every outcome.", "branch": "Ethics", "paths": ["/ethics/morality-human-rights/"], "tags": ["human-rights", "institutions"]},
+    {"term": "Equivocation", "definition": "A reasoning failure in which the same word shifts meaning across an argument while pretending to remain stable.", "branch": "Philosophy of Language", "paths": ["/philosophy-of-language/connotative-equivocation/"], "tags": ["equivocation", "language"]},
+    {"term": "Ethics", "definition": "The branch of philosophy concerned with value, obligation, blame, character, and what human beings ought to do or become.", "branch": "Ethics", "paths": ["/ethics/what-are-ethics/"], "tags": ["ethics", "normativity"]},
+    {"term": "Evidence", "definition": "What genuinely bears on whether a claim is true: not just whatever reassures, flatters, or happens to be available.", "branch": "Epistemology", "paths": ["/epistemology/what-is-evidence/"], "tags": ["evidence", "knowledge"]},
+    {"term": "Existentialism", "definition": "A family of views centered on freedom, responsibility, meaning, anxiety, and the fact that human life must be lived rather than merely classified.", "branch": "Humanistic Philosophies", "paths": ["/humanistic-philosophies/what-is-existentialism/"], "tags": ["existentialism", "meaning"]},
+    {"term": "Explanation", "definition": "An answer that does more than restate a fact: it shows why, how, or in virtue of what something makes sense.", "branch": "Philosophy of Science", "paths": ["/philosophy-of-science/definitions-of-explanation/"], "tags": ["explanation", "science"]},
+    {"term": "Faith", "definition": "Trust, commitment, or confidence that may be religious but need not be blind; the dispute is usually about what entitles it and where its limits lie.", "branch": "Epistemology", "paths": ["/epistemology/what-is-faith/"], "tags": ["religion", "evidence"]},
+    {"term": "Falsifiability", "definition": "A feature of a claim or theory that allows conceivable evidence to count against it instead of protecting it from every possible correction.", "branch": "Philosophy of Science", "paths": ["/philosophy-of-science/what-is-falsifiability/"], "tags": ["falsifiability", "science"]},
+    {"term": "Framing", "definition": "The way a question or issue is set up so that some features become salient while others fade from view, often steering judgment before argument begins.", "branch": "Rational Thought", "paths": ["/rational-thought/where-framing-goes-awry/"], "tags": ["framing", "public-discourse"]},
+    {"term": "Free will", "definition": "The sense in which human beings may be responsible choosers rather than mere conduits of prior causes or external programming.", "branch": "Philosophy of Mind", "paths": ["/philosophy-of-mind/free-will-vs-determinism/"], "tags": ["free-will", "philosophy-of-mind"]},
+    {"term": "Functionalism", "definition": "The view that mental states are identified chiefly by what they do within a system rather than by the material out of which they are built.", "branch": "Philosophy of Mind", "paths": ["/philosophy-of-mind/functionalism-subjectivity/"], "tags": ["consciousness", "philosophy-of-mind"]},
+    {"term": "Human rights", "definition": "Claims about protections or dignities owed to persons as persons, not merely as members of a favored group or successful coalition.", "branch": "Ethics", "paths": ["/ethics/morality-human-rights/"], "tags": ["human-rights", "ethics"]},
+    {"term": "Ideology", "definition": "A package of assumptions, loyalties, and interpretations that organizes perception and judgment; not just an insult for views one dislikes.", "branch": "Philosophical Inquiry", "paths": ["/philosophical-inquiry/testing-ideologies/"], "tags": ["worldview", "public-discourse"]},
+    {"term": "Identity", "definition": "What makes a person or thing the same across change, and what features count as central rather than incidental in that continuity.", "branch": "Political Philosophy", "paths": ["/political-philosophy/identity-politics/"], "tags": ["identity", "politics"]},
+    {"term": "Induction", "definition": "Reasoning from observed patterns toward broader expectations, always carrying the question of how far the pattern may responsibly travel.", "branch": "Philosophy of Science", "paths": ["/philosophy-of-science/what-is-induction/"], "tags": ["induction", "science"]},
+    {"term": "Inference", "definition": "The movement from some claims or observations to another claim that is supposed to follow from them in some disciplined way.", "branch": "Epistemology", "paths": ["/epistemology/types-of-reasoning/"], "tags": ["inference", "logic"]},
+    {"term": "Is/Ought gap", "definition": "The warning that descriptions of what is the case do not automatically generate conclusions about what ought to be done.", "branch": "Ethics", "paths": ["/ethics/is-vs-ought/"], "tags": ["ethics", "normativity"]},
+    {"term": "Justice", "definition": "A standard of right ordering in treatment, institutions, and distribution; broader than punishment and deeper than mere personal preference.", "branch": "Ethics", "paths": ["/ethics/morality-human-rights/"], "tags": ["human-rights", "institutions"]},
+    {"term": "Knowledge", "definition": "More than true belief and more than confidence: a claim to having gotten reality right in a way that is responsibly grounded.", "branch": "Epistemology", "paths": ["/epistemology/what-is-knowledge/"], "tags": ["knowledge", "epistemology"]},
+    {"term": "Logic", "definition": "The study of valid structure in thought and argument, including what follows from what and why some inferences only appear to work.", "branch": "Epistemology", "paths": ["/epistemology/logic/"], "tags": ["logic", "rational-thought"]},
+    {"term": "Materialism", "definition": "The view that reality is fundamentally material or physical, with mind and value ultimately depending on that physical basis.", "branch": "Metaphysics", "paths": ["/metaphysics/dualismvsmaterialism/"], "tags": ["materialism", "metaphysics"]},
+    {"term": "Meaning", "definition": "What makes a life, action, symbol, or statement intelligible or significant rather than empty, random, or merely decorative.", "branch": "Humanistic Philosophies", "paths": ["/humanistic-philosophies/personal-cosmic-meaning/"], "tags": ["meaning", "worldview"]},
+    {"term": "Metaphysics", "definition": "The branch of philosophy asking what reality is like at the deepest level: what exists, what depends on what, and what kinds of things are basic.", "branch": "Metaphysics", "paths": ["/metaphysics/metaphysics-core-concepts/"], "tags": ["metaphysics", "reality"]},
+    {"term": "Methodological naturalism", "definition": "The practice of explaining phenomena by appeal to publicly testable natural causes; a method rule, not automatically a final worldview.", "branch": "Philosophy of Science", "paths": ["/philosophy-of-science/methodological-naturalism/"], "tags": ["method", "science"]},
+    {"term": "Moral non-realism", "definition": "A family of views denying that moral claims describe objective moral facts in the realist sense, while still allowing moral language to do important work.", "branch": "Ethics", "paths": ["/ethics/essay-moral-anti-realism/"], "tags": ["meta-ethics", "moral-non-realism"]},
+    {"term": "Moral realism", "definition": "The view that at least some moral claims are true independently of individual preference, tribal endorsement, or passing consensus.", "branch": "Ethics", "paths": ["/ethics/moral-realism-intuition/"], "tags": ["meta-ethics", "moral-realism"]},
+    {"term": "Narrative", "definition": "A meaning-shaping story frame that can illuminate reality or distort it by making events serve a preselected moral or tribal script.", "branch": "Philosophical Inquiry", "paths": ["/philosophical-inquiry/dangers-narrative/"], "tags": ["public-discourse", "inquiry"]},
+    {"term": "Nihilism", "definition": "A family of views denying objective meaning, value, truth, or purpose in some domain; often invoked loosely when the real issue is disillusionment or skepticism.", "branch": "Metaphysics", "paths": ["/metaphysics/categories-of-nihilism/"], "tags": ["nihilism", "meaning"]},
+    {"term": "Normativity", "definition": "The force of should, ought, reason, permission, or obligation; the dimension of a claim that purports to guide action or evaluation.", "branch": "Ethics", "paths": ["/ethics/recommendations-vs-moral-claims/"], "tags": ["ethics", "normativity"]},
+    {"term": "Objectivity", "definition": "Independence from merely personal preference or point of view; not the elimination of all perspective, but accountable contact with what is really there.", "branch": "Metaphysics", "paths": ["/metaphysics/objectively-subjectively-real/"], "tags": ["reality", "subjectivity"]},
+    {"term": "Ontology", "definition": "The part of metaphysics that asks what kinds of things exist and what categories of being we actually need.", "branch": "Metaphysics", "paths": ["/metaphysics/ontological-domains/"], "tags": ["metaphysics", "reality"]},
     {"term": "Operational rigor", "definition": "The habit of translating high-minded standards into visible practices: checks, thresholds, tests, objections, and revision procedures.", "branch": "Epistemology", "paths": ["/epistemology/operational-epistemic-rigor/"], "tags": ["epistemology", "method"]},
-    {"term": "Prompting", "definition": "Question design for human-machine dialogue; at its best, a way of shaping the epistemic pressure under which an answer is produced.", "branch": "Philosophy of AI", "paths": ["/philosophy-of-ai/precision-prompting/", "/philosophy-of-ai/assessing-ai-alignment-with-truth/"], "tags": ["ai", "prompting"]},
-    {"term": "Scientism", "definition": "The overextension of scientific authority into domains where empirical method may inform inquiry without exhausting it.", "branch": "Philosophy of Science", "paths": ["/philosophy-of-science/scientism-faith/", "/philosophy-of-science/what-is-science/"], "tags": ["science", "method"]},
-    {"term": "Steel-manning", "definition": "Reconstructing an opponent's position in its strongest plausible form before criticizing it.", "branch": "Philosophical Inquiry", "paths": ["/philosophical-inquiry/charitable-engagement/"], "tags": ["charitable-engagement", "argument"]},
-    {"term": "Worldview", "definition": "A broad interpretive frame that organizes what a person treats as real, valuable, knowable, and worth doing.", "branch": "Philosophical Inquiry", "paths": ["/philosophical-inquiry/do-i-need-a-worldview/"], "tags": ["worldviews", "inquiry"]},
+    {"term": "Phenomenology", "definition": "A way of doing philosophy that begins with lived experience and the structures of appearance before reducing everything to outside measurement alone.", "branch": "Philosophers", "paths": ["/philosophers/phenomenologists/"], "tags": ["subjectivity", "history-of-philosophy"]},
+    {"term": "Principle of sufficient reason", "definition": "The claim that things do not simply obtain for no reason at all: there must be some basis, cause, or explanation for why they are so.", "branch": "Metaphysics", "paths": ["/metaphysics/the-principle-of-sufficient-reason/"], "tags": ["metaphysics", "explanation"]},
+    {"term": "Probability", "definition": "A disciplined way of representing uncertainty, not a substitute for reasoning about assumptions, evidence, and stakes.", "branch": "Epistemology", "paths": ["/epistemology/reasoned-probabilities-and-decisions/"], "tags": ["probability", "decision-making"]},
+    {"term": "Rationality", "definition": "The discipline of proportioning belief, inference, and action to reasons, evidence, and coherent standards rather than to impulse alone.", "branch": "Epistemology", "paths": ["/epistemology/core-deep-rationality/"], "tags": ["rational-thought", "epistemology"]},
+    {"term": "Reductionism", "definition": "The attempt to explain higher-level realities entirely in lower-level terms; sometimes illuminating, sometimes flattening what matters.", "branch": "Metaphysics", "paths": ["/metaphysics/emergence/"], "tags": ["emergence", "metaphysics"]},
+    {"term": "Relativism", "definition": "The view that truth, value, or justification is always relative to a scheme, culture, or perspective; often confused with the milder point that context matters.", "branch": "Ethics", "paths": ["/philosophical-inquiry/personal-truth/"], "tags": ["truth", "subjectivity"]},
+    {"term": "Reliability", "definition": "The tendency of a method, source, or cognitive process to produce truth or near-truth often enough to deserve trust.", "branch": "Epistemology", "paths": ["/epistemology/establishing-cognitive-reliability-1/"], "tags": ["evidence", "epistemology"]},
+    {"term": "Science", "definition": "A disciplined, self-correcting form of inquiry that uses observation, modeling, testing, and criticism to learn about the world.", "branch": "Philosophy of Science", "paths": ["/philosophy-of-science/what-is-science/"], "tags": ["science", "method"]},
+    {"term": "Scientism", "definition": "The overextension of scientific authority into domains where empirical method may inform inquiry without exhausting it.", "branch": "Philosophy of Science", "paths": ["/philosophy-of-science/scientism-faith/"], "tags": ["science", "method"]},
+    {"term": "Semantics", "definition": "The study of meaning, reference, and how words or sentences manage to say anything determinate at all.", "branch": "Philosophy of Language", "paths": ["/philosophy-of-language/semantics-convention-vs-stipulation/"], "tags": ["semantics", "language"]},
+    {"term": "Skepticism", "definition": "A demand for stronger justification before assent; healthy when it disciplines inquiry, self-defeating when it refuses any standard short of impossibility.", "branch": "Philosophical Inquiry", "paths": ["/philosophical-inquiry/dangers-limits-on-doubt/"], "tags": ["inquiry", "knowledge"]},
+    {"term": "Social contract", "definition": "A way of grounding political authority by asking what terms of cooperation free and roughly equal persons could reasonably accept.", "branch": "Political Philosophy", "paths": ["/political-philosophy/the-social-contract/"], "tags": ["social-contract", "institutions"]},
+    {"term": "Steel-manning", "definition": "Reconstructing an opponent's position in its strongest plausible form before criticizing it.", "branch": "Philosophical Inquiry", "paths": ["/philosophical-inquiry/charitable-engagement/"], "tags": ["charity", "argument"]},
+    {"term": "Stoicism", "definition": "An ancient philosophy of disciplined judgment, agency, and emotional training; not mere emotional suppression or detached toughness.", "branch": "Humanistic Philosophies", "paths": ["/humanistic-philosophies/what-is-stoicism/"], "tags": ["stoicism", "humanistic-philosophies"]},
+    {"term": "Subjectivity", "definition": "What depends on a perspective, standpoint, or lived experience; not therefore unreal, but not automatically a public measure either.", "branch": "Philosophy of Mind", "paths": ["/philosophy-of-mind/subjectivity-constrained-by-the-objective/"], "tags": ["subjectivity", "reality"]},
+    {"term": "Syllogism", "definition": "A structured form of reasoning in which a conclusion follows from premises through explicit logical form.", "branch": "Epistemology", "paths": ["/epistemology/what-are-syllogisms/"], "tags": ["logic", "argument"]},
+    {"term": "Truth", "definition": "A standard by which claims answer to reality rather than merely to preference, convenience, usefulness, or tribal endorsement.", "branch": "Philosophical Inquiry", "paths": ["/philosophical-inquiry/what-is-truth/"], "tags": ["truth", "reality"]},
+    {"term": "Utilitarianism", "definition": "A consequentialist view that evaluates actions chiefly by how much overall well-being, happiness, or preference satisfaction they produce.", "branch": "Ethics", "paths": ["/ethics/ethics-core-concepts/"], "tags": ["ethics", "normativity"]},
+    {"term": "Virtue ethics", "definition": "An ethical approach centered on character, practical wisdom, and the cultivation of the kinds of people capable of living well.", "branch": "Ethics", "paths": ["/ethics/ethics-core-concepts/"], "tags": ["ethics", "normativity"]},
+    {"term": "Worldview", "definition": "A broad interpretive frame that organizes what a person treats as real, valuable, knowable, and worth doing.", "branch": "Philosophical Inquiry", "paths": ["/philosophical-inquiry/do-i-need-a-worldview/"], "tags": ["worldview", "inquiry"]},
 ]
 
 
@@ -591,6 +659,23 @@ PHILOSOPHER_HIERARCHY_ADDITIONS = [
         ],
     ),
 ]
+
+
+SECTION_HIERARCHY_ADDITIONS = {
+    "philosophical-inquiry": [
+        {
+            "title": "How Minds are Changed",
+            "href": "",
+            "children": [
+                {
+                    "title": "The Value and Limits of Debate",
+                    "href": "",
+                    "children": [],
+                }
+            ],
+        }
+    ],
+}
 
 
 PHILOSOPHER_NAME_ALIASES = {
@@ -1969,6 +2054,19 @@ def augment_philosopher_hierarchy(section_nodes: dict[str, list[dict]]) -> None:
             else:
                 existing_children.append(addition)
                 child_by_title[key] = addition
+
+
+def augment_section_hierarchy(section_nodes: dict[str, list[dict]]) -> None:
+    for section_id, additions in SECTION_HIERARCHY_ADDITIONS.items():
+        top_level = section_nodes.setdefault(section_id, [])
+        top_level_by_title = {normalized_phrase(node["title"]): node for node in top_level}
+        for addition in additions:
+            key = normalized_phrase(addition["title"])
+            if key in top_level_by_title:
+                merge_hierarchy_node(top_level_by_title[key], addition)
+            else:
+                top_level.append(addition)
+                top_level_by_title[key] = addition
 
 
 def flatten_titles(nodes: Iterable[dict]) -> list[str]:
@@ -3564,6 +3662,184 @@ def synthetic_child(title: str, paragraphs: list[str], items: list[str] | None =
     }
 
 
+def special_synthetic_page_data(section_id: str, title: str) -> dict | None:
+    if (
+        section_id == "philosophical-inquiry"
+        and normalized_phrase(title) == "the value and limits of debate"
+    ):
+        return {
+            "excerpt": (
+                "A page on the value and limits of debate, showing when debate clarifies reasons, "
+                "when it rewards theater, and how fallacies and biases quietly shape public disagreement."
+            ),
+            "thread_like": [
+                "Debate makes reasons public and therefore criticizable.",
+                "Debate is useful for exposing assumptions, definitions, and standards of revision.",
+                "Debate is weak at settling questions that depend on patient evidence-gathering, calibration, or domain mastery.",
+                "Logical fallacies often do the visible rhetorical work while cognitive biases do the quieter selection work underneath.",
+                "Public debates reward speed, confidence, frame control, and memorable lines more than careful qualification.",
+                "A good listener uses debate diagnostically: to see what each side can answer, evade, redefine, or ignore.",
+                "The real philosophical task is to distinguish clarification, persuasion, tribal signaling, and truth-tracking.",
+                "Post-debate review should track burden of proof, equivocation, false dilemmas, framing effects, and motivated reasoning.",
+            ],
+            "quiz_discussion_items": [
+                "When does debate genuinely improve understanding rather than merely reward performance?",
+                "Which fallacies and biases most often distort public debate even when the speakers sound articulate?",
+                "What kinds of questions should be debated in public, and what kinds should be investigated more slowly offstage?",
+                "How can a listener use debate as evidence without mistaking confidence or applause for truth?",
+            ],
+            "source_prompt_details": [
+                {
+                    "prompt": "Why does debate still have value when so much public argument is performative?",
+                    "paragraphs": [
+                        "Debate still matters because it forces reasons into public view. Once a claim is spoken under challenge, its premises, definitions, and evasions become more visible than they would be in private certainty or tribal repetition.",
+                        "Its value is therefore not limited to changing the opponent's mind. A debate can clarify the issue for observers, reveal what each side treats as evidence, and expose whether a speaker has any real standards of revision at all.",
+                        "For an intermediate reader, the payoff is not romance about dialogue itself. The payoff is that debate can turn vague disagreement into inspectable structure: what is being claimed, what is being assumed, and where the burden of proof is quietly being pushed onto someone else.",
+                    ],
+                    "items": [
+                        "Public clarification: debate can make hidden premises, undefined terms, and unsupported leaps easier to see.",
+                        "Audience learning: even when neither debater moves, the listeners may come away with a sharper map of the issue.",
+                        "Revision test: a useful debate reveals whether either side can specify what would count as counterevidence.",
+                        "Pressure on rhetoric: once claims are public, they become answerable to objections rather than to private satisfaction alone.",
+                    ],
+                    "children": [
+                        synthetic_child(
+                            "Clarification rather than conversion",
+                            [
+                                "The cleanest standard is not whether one side was defeated, but whether the exchange made the issue more precise for a third party trying to think honestly."
+                            ],
+                            [
+                                "Ask what became newly distinguishable after the exchange: claims, assumptions, or standards.",
+                                "A debate can be valuable even when it produces orientation rather than immediate consensus.",
+                            ],
+                        ),
+                        synthetic_child(
+                            "Debate as a public stress test",
+                            [
+                                "An argument on stage is forced to survive interruption. That makes debate a useful test of whether a position has reasons behind it or only slogans sturdy enough to survive applause."
+                            ],
+                            [
+                                "Watch for whether objections are answered, reframed, or simply routed around.",
+                                "A position that cannot state its own conditions of correction is already telling the audience something important.",
+                            ],
+                        ),
+                    ],
+                },
+                {
+                    "prompt": "What are the limits of debate as a truth-finding instrument?",
+                    "paragraphs": [
+                        "Debate is not the same thing as inquiry. It compresses thinking into a format that rewards speed, confidence, framing, and memorable contrast, which means some questions are placed under exactly the wrong incentives.",
+                        "Many important issues depend on slow evidence-gathering, technical competence, careful definitions, and the willingness to say 'I am not yet sure.' Those virtues are philosophically serious but theatrically weak.",
+                        "For an intermediate reader, the key distinction is this: debate is excellent at revealing pressure points, but poor at replacing the long labor of investigation. It can show where the fight is, without by itself settling who has actually done the homework.",
+                    ],
+                    "items": [
+                        "Format bias: live exchanges often reward speed and compression over caution and nuance.",
+                        "Asymmetry problem: a polished simplification can be delivered in seconds, while a responsible correction may require background, evidence, and caveats.",
+                        "Audience capture: speakers often optimize for their own side's emotional satisfaction rather than for shared standards of truth.",
+                        "Question mismatch: some issues belong in public argument, while others need slower methods than a stage can accommodate.",
+                    ],
+                    "children": [
+                        synthetic_child(
+                            "What debate handles well",
+                            [
+                                "Debate handles definitional conflict, exposed inconsistency, and clashing public justifications quite well because those can be inspected in real time."
+                            ],
+                            [
+                                "Good for: identifying contradictions, forcing explicit claims, surfacing assumptions.",
+                                "Less good for: adjudicating complex empirical questions that depend on accumulated domain evidence.",
+                            ],
+                        ),
+                        synthetic_child(
+                            "What debate handles badly",
+                            [
+                                "Debate handles cumulative technical evidence badly when spectators substitute fluency for expertise or mistake a fast retort for a stronger model of reality."
+                            ],
+                            [
+                                "A crowd can reward certainty long before it has rewarded accuracy.",
+                                "The most important intellectual move in a hard debate may be a pause, a clarification, or a refusal to overclaim; stages are not always kind to those moves.",
+                            ],
+                        ),
+                    ],
+                },
+                {
+                    "prompt": "How do logical fallacies and cognitive biases distort public debate?",
+                    "paragraphs": [
+                        "Fallacies and biases usually work together. A cognitive bias often decides what feels plausible or threatening, while a fallacy gives that feeling a more respectable argumentative costume.",
+                        "That is why post-debate diagnosis should track patterns rather than isolated mistakes. One false dilemma may be accidental; a repeated diet of false dilemmas, ad hominem shortcuts, cherry-picking, and motivated reframing often signals a deeper failure of intellectual discipline.",
+                        "For an intermediate reader, the most useful move is to pair the visible rhetorical error with the likely cognitive pressure underneath it. The debate then stops looking like a list of bad moves and starts looking like a map of how humans protect identity, status, and prior belief.",
+                    ],
+                    "items": [
+                        "Confirmation bias plus cherry-picking: evidence that helps the favored story is elevated, while disconfirming material is treated as marginal or suspicious.",
+                        "In-group bias plus ad hominem or tu quoque: the opposing speaker is morally downgraded so the audience can dismiss the claim without really weighing it.",
+                        "Availability bias plus hasty generalization: one vivid anecdote is made to stand in for the whole reality under dispute.",
+                        "Framing effects plus false dilemma: the issue is set up so that only two emotionally loaded options appear visible.",
+                        "Motivated reasoning plus deflection to experts: appeals to authority are used selectively, not as a stable principle but as a tactical shield.",
+                    ],
+                    "children": [
+                        synthetic_child(
+                            "Visible errors",
+                            [
+                                "Logical fallacies matter because they make weak inference look stronger than it is. In public settings, the visual neatness of the move often does half the persuasive work."
+                            ],
+                            [
+                                "Track equivocation, false dilemma, ad hominem, tu quoque, and selective burden-shifting.",
+                                "Ask not only whether a fallacy occurred, but whether it was central to the persuasive force of the exchange.",
+                            ],
+                        ),
+                        synthetic_child(
+                            "Underlying pressures",
+                            [
+                                "Cognitive biases matter because they decide what the speaker notices, fears, or feels entitled to ignore before the formal argument ever arrives."
+                            ],
+                            [
+                                "Track confirmation bias, status-quo bias, availability bias, in-group bias, and motivated reasoning.",
+                                "The cleaner analysis asks which biases made the fallacy tempting in the first place.",
+                            ],
+                        ),
+                    ],
+                },
+                {
+                    "prompt": "How should a serious reader use public debates without being used by them?",
+                    "paragraphs": [
+                        "Use debate diagnostically, not devotionally. Treat it as a chance to observe who defines terms carefully, who carries the burden of proof, who can state a condition for revision, and who survives only by changing the subject with style.",
+                        "Then leave the stage. The responsible reader returns to slower materials: better pages, source texts, stronger evidence, competing summaries, and the kind of reflection that applause cannot do for you.",
+                        "For an intermediate reader, the discipline is simple but not easy: learn to separate insight from performance. A debate may reveal where the real philosophical work is, but it should not be mistaken for having already done that work.",
+                    ],
+                    "items": [
+                        "Ask what each side would count as a reason to revise its position.",
+                        "Track definition shifts, especially when agreement is claimed after the key term has quietly changed meaning.",
+                        "Notice which claims are empirical, which are moral, which are semantic, and which are tribal signals disguised as arguments.",
+                        "Audit the exchange afterward: list the fallacies, the likely biases, the missing evidence, and the unresolved questions.",
+                        "Prefer debates that send the reader outward toward stronger inquiry rather than inward toward a fan club.",
+                    ],
+                    "children": [
+                        synthetic_child(
+                            "Listening with standards",
+                            [
+                                "The serious listener is not there to donate admiration. The serious listener is there to see whether the exchange makes reality clearer, confusion easier to diagnose, and future inquiry more disciplined."
+                            ],
+                            [
+                                "Debate is a tool for orientation, not a sacrament that turns rhetoric into truth.",
+                                "The best exchanges increase the audience's standards rather than merely rewarding the audience's tribe.",
+                            ],
+                        ),
+                        synthetic_child(
+                            "What to do next",
+                            [
+                                "A good debate should send the reader toward better follow-up habits: checking evidence, comparing pages, looking for fallacy patterns, and noticing whether the strongest objections were answered or only outperformed."
+                            ],
+                            [
+                                "Follow the issue into pages on logical fallacies, cognitive biases, framing, argument assessment, and charitable engagement.",
+                                "Count recurring distortions; frequency often tells you more about a debate culture than any one spectacular mistake.",
+                            ],
+                        ),
+                    ],
+                },
+            ],
+        }
+    return None
+
+
 def sentence_with_period(text: str) -> str:
     cleaned = clean_text(text)
     if not cleaned:
@@ -3904,6 +4180,13 @@ def inject_logfall_placeholders(text: str) -> tuple[str, dict[str, str]]:
     return replaced, placeholders
 
 
+def slugfester_anchor_html(label: str = "Slugfester.com") -> str:
+    return (
+        f'<a class="text-link" href="{html.escape(SLUGFESTER_SITE_URL)}" rel="noopener noreferrer">'
+        f"{html.escape(label)}</a>"
+    )
+
+
 def default_tag_label(tag: str) -> str:
     if tag in SECTION_META:
         return SECTION_META[tag]["name"]
@@ -4116,6 +4399,11 @@ def generic_standfirst(page: dict, section_meta: dict) -> str:
     kind = page["kind"]
     profile = branch_profile(page["section_id"])
     article = "An" if section_meta["name"][:1].lower() in {"a", "e", "i", "o", "u"} else "A"
+    if page["built_path"] == "/philosophical-inquiry/the-value-and-limits-of-debate/":
+        return (
+            "A Philosophical Inquiry page on debate, showing when public disagreement clarifies reasons, "
+            "when it rewards performance, and how fallacies and cognitive biases distort the exchange."
+        )
     if kind == "dialogue":
         return f"A philosopher dialogue page on {topic}, keeping the voice, tensions, and main lines of argument in clear prose."
     if kind == "chart":
@@ -4154,6 +4442,8 @@ def page_form_label(page: dict) -> str:
 
 
 def page_best_for(page: dict) -> str:
+    if page["built_path"] == "/philosophical-inquiry/the-value-and-limits-of-debate/":
+        return "reading public debate without mistaking rhetoric for inquiry"
     if page["kind"] == "dialogue":
         return "hearing a philosopher's method in motion"
     if page["kind"] == "chart":
@@ -4243,6 +4533,11 @@ def archive_page_signal_items(
 
 def feature_summary(page: dict, section_meta: dict) -> str:
     topic = topic_label(page["title"])
+    if page["built_path"] == "/philosophical-inquiry/the-value-and-limits-of-debate/":
+        return (
+            "A guide to when debate clarifies a public question, when it degenerates into performance, "
+            "and how fallacies and biases quietly steer the audience."
+        )
     if page["kind"] == "dialogue":
         return f"A guided encounter with {topic} that keeps the philosopher’s voice, major claims, and main points of resistance in view."
     if page["kind"] == "chart":
@@ -4319,6 +4614,11 @@ def render_inline_text(text: str) -> str:
     rendered = re.sub(
         r"(?<![\w/])(Credencing\.com|credencing\.com)(?![\w/])",
         f'<a class="text-link" href="{CREDENCING_SITE_URL}" rel="noopener noreferrer">Credencing.com</a>',
+        rendered,
+    )
+    rendered = re.sub(
+        r"(?<![\w/])(?:https?://)?(?:www\.)?(Slugfester\.com|slugfester\.com)(?![\w/])",
+        slugfester_anchor_html(),
         rendered,
     )
     for placeholder, anchor_html in placeholders.items():
@@ -8195,6 +8495,12 @@ def render_article_page(page: dict) -> str:
             f"This page belongs inside the wider <a class=\"future-link\" href=\"{html.escape(branch_href)}\"><strong>{html.escape(section_meta['name'])}</strong></a> branch and is best read in conversation with its neighboring topics. Future expansion should add direct neighboring links as the branch thickens."
         )
     future_paragraph = " ".join(future_parts)
+    if page["built_path"] == "/philosophical-inquiry/the-value-and-limits-of-debate/":
+        future_paragraph += (
+            f' For a live laboratory of public argument, visit {slugfester_anchor_html()}: '
+            "watch how often logical fallacies and cognitive biases do more work than the stated reasons, "
+            "and let the frequency of those patterns teach you something about the limits of debate as a truth engine."
+        )
     quiz_html = render_quiz_sections(page, sections, prompts, section_meta)
     quiz_block = f"\n\n{quiz_html}" if quiz_html else ""
     philosopher_texture = render_philosopher_source_texture_html(page)
@@ -8599,7 +8905,7 @@ def render_glossary_page() -> str:
     )
     glossary_head = render_seo_head(
         title="Concept Glossary",
-        description="A concept index for recurring Byteseismic terms including belief, credence, induction, moral realism, normativity, and operational rigor.",
+        description="An expanded concept index for Byteseismic terms including truth, objectivity, ideology, rationality, nihilism, free will, scientism, and moral realism.",
         path="/concept-glossary/",
         prefix="../",
         page_type="website",
@@ -8632,7 +8938,7 @@ def render_glossary_page() -> str:
                   <p class="hero__kicker">Concept Index</p>
                   <h1>Concept Glossary</h1>
                   <p class="article-standfirst">
-                    A compact index of recurring concepts, written as entry points rather than final authorities. Each term points back into pages where the concept does argumentative work.
+                    An expanded index of roughly eighty recurring concepts that have become especially slippery in public discourse. Each term is an entry point rather than a final authority, and each points back into pages where the concept does real argumentative work.
                   </p>
 {signals_html}
                 </div>
@@ -10309,6 +10615,7 @@ def flatten_visible_nodes(nodes: list[dict]) -> list[dict]:
 def main() -> None:
     home_html = fetch_homepage_html()
     section_nodes = section_nodes_from_home(home_html)
+    augment_section_hierarchy(section_nodes)
     augment_philosopher_hierarchy(section_nodes)
     all_posts = fetch_all_posts()
 
@@ -10348,6 +10655,7 @@ def main() -> None:
         dialogue_sections: dict[str, dict] = {}
         chart_tables: list[dict] = []
         quiz_discussion_items: list[str] = []
+        special_payload: dict | None = None
         if post:
             source_prompts, thread_like, _paragraphs = normalize_heading_list(
                 post.get("content", ""),
@@ -10384,6 +10692,14 @@ def main() -> None:
                     source_prompts = [detail["prompt"] for detail in source_prompt_details]
             if page_kind == "cluster" and philosopher_profile_for_title(title):
                 page_kind = "essay"
+        else:
+            special_payload = special_synthetic_page_data(section_id, title)
+            if special_payload:
+                source_prompt_details = special_payload.get("source_prompt_details", [])
+                if source_prompt_details:
+                    source_prompts = [detail["prompt"] for detail in source_prompt_details]
+                thread_like = special_payload.get("thread_like", thread_like)
+                quiz_discussion_items = special_payload.get("quiz_discussion_items", quiz_discussion_items)
         page = {
             "title": clean_text(title),
             "section_id": section_id,
@@ -10403,6 +10719,8 @@ def main() -> None:
             "sibling_titles": sibling_titles or [],
             "parent_titles": parent_titles or [],
         }
+        if not post and special_payload:
+            page["excerpt"] = special_payload.get("excerpt", page["excerpt"])
         page_index[key] = page
         generated_pages.append(page)
         return page

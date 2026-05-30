@@ -483,28 +483,147 @@ window.BYTESEISMIC_DATA = {
       ]
     },
     {
-      "term": "Belief",
-      "definition": "An action-guiding commitment or confidence state that may be binary in ordinary speech but often needs to be graded in careful reasoning.",
+      "term": "A priori",
+      "definition": "Knowledge or justification claimed to arise from reason, structure, or necessity rather than from fresh observation alone.",
       "branch": "Epistemology",
       "paths": [
-        "/epistemology/what-is-belief/"
+        "/epistemology/a-priori-knowledge-issues/"
       ],
       "tags": [
-        "belief",
-        "credence"
+        "knowledge",
+        "epistemology"
       ]
     },
     {
-      "term": "Credence",
-      "definition": "A degree of confidence rather than a simple yes-or-no belief; useful when evidence supports partial confidence.",
+      "term": "Agency",
+      "definition": "The capacity to act for reasons, make choices, and own actions as more than happenings that merely pass through a person.",
+      "branch": "Philosophy of Mind",
+      "paths": [
+        "/philosophy-of-mind/rationality-and-free-will/"
+      ],
+      "tags": [
+        "free-will",
+        "identity"
+      ]
+    },
+    {
+      "term": "Belief",
+      "definition": "An action-guiding commitment or confidence state that may sound binary in ordinary speech but often needs finer treatment in careful reasoning.",
       "branch": "Epistemology",
       "paths": [
-        "/epistemology/case-1-credence-complexity/",
         "/epistemology/what-is-belief/"
       ],
       "tags": [
         "belief",
-        "probability"
+        "knowledge"
+      ]
+    },
+    {
+      "term": "Bias",
+      "definition": "A systematic tilt in attention, inference, or judgment; not just any opinion, but a patterned distortion that can keep error feeling natural.",
+      "branch": "Philosophical Inquiry",
+      "paths": [
+        "/philosophical-inquiry/dangers-cognitive-biases/"
+      ],
+      "tags": [
+        "bias",
+        "public-discourse"
+      ]
+    },
+    {
+      "term": "Burden of proof",
+      "definition": "The responsibility to supply reasons or evidence proportionate to the strength and stakes of the claim being pressed.",
+      "branch": "Rational Thought",
+      "paths": [
+        "/rational-thought/assessing-arguments/"
+      ],
+      "tags": [
+        "argument",
+        "evidence"
+      ]
+    },
+    {
+      "term": "Certainty",
+      "definition": "A level of confidence that leaves no live room for doubt; often invoked too quickly when the evidence actually supports only strong probability.",
+      "branch": "Epistemology",
+      "paths": [
+        "/epistemology/shades-of-certainty/"
+      ],
+      "tags": [
+        "knowledge",
+        "evidence"
+      ]
+    },
+    {
+      "term": "Charity",
+      "definition": "Interpretive generosity: understanding a claim in its strongest plausible form before deciding that it fails.",
+      "branch": "Philosophical Inquiry",
+      "paths": [
+        "/philosophical-inquiry/charitable-engagement/"
+      ],
+      "tags": [
+        "charity",
+        "argument"
+      ]
+    },
+    {
+      "term": "Coherence",
+      "definition": "Fit among claims within a wider view or system; useful, but not identical to truth just because the pieces hang together neatly.",
+      "branch": "Ethics",
+      "paths": [
+        "/ethics/coherent-moral-systems/"
+      ],
+      "tags": [
+        "truth",
+        "knowledge"
+      ]
+    },
+    {
+      "term": "Compassion",
+      "definition": "Concern for suffering that can guide moral attention, though it still needs discipline so it does not become partiality dressed as virtue.",
+      "branch": "Ethics",
+      "paths": [
+        "/ethics/compassion-vs-moral-systems/"
+      ],
+      "tags": [
+        "ethics",
+        "normativity"
+      ]
+    },
+    {
+      "term": "Consequentialism",
+      "definition": "A family of ethical views that judges actions mainly by their outcomes rather than by intention, rule, or character alone.",
+      "branch": "Ethics",
+      "paths": [
+        "/ethics/ethics-core-concepts/"
+      ],
+      "tags": [
+        "ethics",
+        "normativity"
+      ]
+    },
+    {
+      "term": "Consciousness",
+      "definition": "Subjective awareness or felt experience: what it is like for a being to perceive, think, or undergo something.",
+      "branch": "Philosophy of Mind",
+      "paths": [
+        "/philosophy-of-mind/what-is-consciousness/"
+      ],
+      "tags": [
+        "consciousness",
+        "philosophy-of-mind"
+      ]
+    },
+    {
+      "term": "Correlation",
+      "definition": "A statistical pattern of co-variation between things; suggestive, often useful, but not on its own a demonstration of causation.",
+      "branch": "Philosophy of Science",
+      "paths": [
+        "/philosophy-of-science/correlation-and-causation/"
+      ],
+      "tags": [
+        "causation",
+        "statistics"
       ]
     },
     {
@@ -520,16 +639,351 @@ window.BYTESEISMIC_DATA = {
       ]
     },
     {
+      "term": "Counterfactual",
+      "definition": "A claim about what would happen if things were otherwise; central to explanation, causation, and responsibility.",
+      "branch": "Epistemology",
+      "paths": [
+        "/epistemology/counterfactual-reasoning/"
+      ],
+      "tags": [
+        "causation",
+        "inference"
+      ]
+    },
+    {
+      "term": "Credence",
+      "definition": "A degree of confidence rather than a simple yes-or-no belief; useful when evidence supports partial confidence.",
+      "branch": "Epistemology",
+      "paths": [
+        "/epistemology/case-1-credence-complexity/"
+      ],
+      "tags": [
+        "credence",
+        "probability"
+      ]
+    },
+    {
+      "term": "Credencing",
+      "definition": "The practice of assigning and revising graded confidence rather than pretending every judgment arrives as certainty or disbelief.",
+      "branch": "Rational Thought",
+      "paths": [
+        "/rational-thought/credencing/"
+      ],
+      "tags": [
+        "credence",
+        "decision-making"
+      ]
+    },
+    {
+      "term": "Culpability",
+      "definition": "Moral blameworthiness, which depends not only on harm but also on agency, awareness, alternatives, and control.",
+      "branch": "Ethics",
+      "paths": [
+        "/ethics/conditions-for-culpability/"
+      ],
+      "tags": [
+        "culpability",
+        "ethics"
+      ]
+    },
+    {
+      "term": "Deduction",
+      "definition": "Reasoning in which the conclusion follows necessarily if the premises are true and the structure is valid.",
+      "branch": "Epistemology",
+      "paths": [
+        "/epistemology/deduction-utility-and-issues/"
+      ],
+      "tags": [
+        "logic",
+        "inference"
+      ]
+    },
+    {
+      "term": "Deontology",
+      "definition": "A family of ethical views emphasizing duty, rule, principle, or respect for persons rather than consequences alone.",
+      "branch": "Ethics",
+      "paths": [
+        "/ethics/ethics-core-concepts/"
+      ],
+      "tags": [
+        "ethics",
+        "normativity"
+      ]
+    },
+    {
+      "term": "Determinism",
+      "definition": "The view that every event, including human action, is fixed by prior conditions and laws of nature.",
+      "branch": "Philosophy of Mind",
+      "paths": [
+        "/philosophy-of-mind/free-will-vs-determinism/"
+      ],
+      "tags": [
+        "free-will",
+        "philosophy-of-mind"
+      ]
+    },
+    {
+      "term": "Divine command theory",
+      "definition": "The view that moral authority depends on God's will or commands rather than on independent moral facts or human constructions alone.",
+      "branch": "Ethics",
+      "paths": [
+        "/ethics/divine-command-theory/"
+      ],
+      "tags": [
+        "religion",
+        "normativity"
+      ]
+    },
+    {
+      "term": "Dogmatism",
+      "definition": "Confidence insulated from challenge: a posture that treats favored explanations as settled before they have survived real scrutiny.",
+      "branch": "Epistemology",
+      "paths": [
+        "/epistemology/avoiding-single-cause-dogmatism/"
+      ],
+      "tags": [
+        "inquiry",
+        "evidence"
+      ]
+    },
+    {
+      "term": "Doubt",
+      "definition": "A live sense that a claim may be wrong, incomplete, or under-supported; healthy when disciplined, paralyzing when absolutized.",
+      "branch": "Epistemology",
+      "paths": [
+        "/epistemology/what-is-doubt/"
+      ],
+      "tags": [
+        "inquiry",
+        "knowledge"
+      ]
+    },
+    {
+      "term": "Doxastic voluntarism",
+      "definition": "The thesis that belief is, in some sense, under voluntary control rather than something that merely happens in response to evidence.",
+      "branch": "Epistemology",
+      "paths": [
+        "/epistemology/doxastic-voluntarism/"
+      ],
+      "tags": [
+        "belief",
+        "epistemology"
+      ]
+    },
+    {
+      "term": "Dualism",
+      "definition": "The view that mind and matter are fundamentally different kinds of reality rather than two descriptions of the same thing.",
+      "branch": "Metaphysics",
+      "paths": [
+        "/metaphysics/dualismvsmaterialism/"
+      ],
+      "tags": [
+        "dualism",
+        "materialism"
+      ]
+    },
+    {
+      "term": "Empiricism",
+      "definition": "The broad view that experience and observation are central to knowledge, even if reason still has an organizing role.",
+      "branch": "Epistemology",
+      "paths": [
+        "/epistemology/a-priori-knowledge-issues/"
+      ],
+      "tags": [
+        "evidence",
+        "science"
+      ]
+    },
+    {
+      "term": "Emergence",
+      "definition": "The idea that higher-level patterns or properties arise from lower-level conditions without being exhausted by simple reduction to them.",
+      "branch": "Metaphysics",
+      "paths": [
+        "/metaphysics/emergence/"
+      ],
+      "tags": [
+        "emergence",
+        "metaphysics"
+      ]
+    },
+    {
+      "term": "Epistemology",
+      "definition": "The branch of philosophy asking what knowledge is, what justifies belief, and how inquiry can remain responsible under uncertainty.",
+      "branch": "Epistemology",
+      "paths": [
+        "/epistemology/epistemology-core-concepts/"
+      ],
+      "tags": [
+        "epistemology",
+        "knowledge"
+      ]
+    },
+    {
+      "term": "Equality",
+      "definition": "A claim that people deserve the same standing, rights, or consideration in some relevant respect; not the same as uniformity in every outcome.",
+      "branch": "Ethics",
+      "paths": [
+        "/ethics/morality-human-rights/"
+      ],
+      "tags": [
+        "human-rights",
+        "institutions"
+      ]
+    },
+    {
       "term": "Equivocation",
       "definition": "A reasoning failure in which the same word shifts meaning across an argument while pretending to remain stable.",
       "branch": "Philosophy of Language",
       "paths": [
-        "/ethics/equivocation-on-wrong/",
-        "/philosophy-of-language/what-is-etymology/"
+        "/philosophy-of-language/connotative-equivocation/"
       ],
       "tags": [
-        "language",
-        "fallacies"
+        "equivocation",
+        "language"
+      ]
+    },
+    {
+      "term": "Ethics",
+      "definition": "The branch of philosophy concerned with value, obligation, blame, character, and what human beings ought to do or become.",
+      "branch": "Ethics",
+      "paths": [
+        "/ethics/what-are-ethics/"
+      ],
+      "tags": [
+        "ethics",
+        "normativity"
+      ]
+    },
+    {
+      "term": "Evidence",
+      "definition": "What genuinely bears on whether a claim is true: not just whatever reassures, flatters, or happens to be available.",
+      "branch": "Epistemology",
+      "paths": [
+        "/epistemology/what-is-evidence/"
+      ],
+      "tags": [
+        "evidence",
+        "knowledge"
+      ]
+    },
+    {
+      "term": "Existentialism",
+      "definition": "A family of views centered on freedom, responsibility, meaning, anxiety, and the fact that human life must be lived rather than merely classified.",
+      "branch": "Humanistic Philosophies",
+      "paths": [
+        "/humanistic-philosophies/what-is-existentialism/"
+      ],
+      "tags": [
+        "existentialism",
+        "meaning"
+      ]
+    },
+    {
+      "term": "Explanation",
+      "definition": "An answer that does more than restate a fact: it shows why, how, or in virtue of what something makes sense.",
+      "branch": "Philosophy of Science",
+      "paths": [
+        "/philosophy-of-science/definitions-of-explanation/"
+      ],
+      "tags": [
+        "explanation",
+        "science"
+      ]
+    },
+    {
+      "term": "Faith",
+      "definition": "Trust, commitment, or confidence that may be religious but need not be blind; the dispute is usually about what entitles it and where its limits lie.",
+      "branch": "Epistemology",
+      "paths": [
+        "/epistemology/what-is-faith/"
+      ],
+      "tags": [
+        "religion",
+        "evidence"
+      ]
+    },
+    {
+      "term": "Falsifiability",
+      "definition": "A feature of a claim or theory that allows conceivable evidence to count against it instead of protecting it from every possible correction.",
+      "branch": "Philosophy of Science",
+      "paths": [
+        "/philosophy-of-science/what-is-falsifiability/"
+      ],
+      "tags": [
+        "falsifiability",
+        "science"
+      ]
+    },
+    {
+      "term": "Framing",
+      "definition": "The way a question or issue is set up so that some features become salient while others fade from view, often steering judgment before argument begins.",
+      "branch": "Rational Thought",
+      "paths": [
+        "/rational-thought/where-framing-goes-awry/"
+      ],
+      "tags": [
+        "framing",
+        "public-discourse"
+      ]
+    },
+    {
+      "term": "Free will",
+      "definition": "The sense in which human beings may be responsible choosers rather than mere conduits of prior causes or external programming.",
+      "branch": "Philosophy of Mind",
+      "paths": [
+        "/philosophy-of-mind/free-will-vs-determinism/"
+      ],
+      "tags": [
+        "free-will",
+        "philosophy-of-mind"
+      ]
+    },
+    {
+      "term": "Functionalism",
+      "definition": "The view that mental states are identified chiefly by what they do within a system rather than by the material out of which they are built.",
+      "branch": "Philosophy of Mind",
+      "paths": [
+        "/philosophy-of-mind/functionalism-subjectivity/"
+      ],
+      "tags": [
+        "consciousness",
+        "philosophy-of-mind"
+      ]
+    },
+    {
+      "term": "Human rights",
+      "definition": "Claims about protections or dignities owed to persons as persons, not merely as members of a favored group or successful coalition.",
+      "branch": "Ethics",
+      "paths": [
+        "/ethics/morality-human-rights/"
+      ],
+      "tags": [
+        "human-rights",
+        "ethics"
+      ]
+    },
+    {
+      "term": "Ideology",
+      "definition": "A package of assumptions, loyalties, and interpretations that organizes perception and judgment; not just an insult for views one dislikes.",
+      "branch": "Philosophical Inquiry",
+      "paths": [
+        "/philosophical-inquiry/testing-ideologies/"
+      ],
+      "tags": [
+        "worldview",
+        "public-discourse"
+      ]
+    },
+    {
+      "term": "Identity",
+      "definition": "What makes a person or thing the same across change, and what features count as central rather than incidental in that continuity.",
+      "branch": "Political Philosophy",
+      "paths": [
+        "/political-philosophy/identity-politics/"
+      ],
+      "tags": [
+        "identity",
+        "politics"
       ]
     },
     {
@@ -537,8 +991,7 @@ window.BYTESEISMIC_DATA = {
       "definition": "Reasoning from observed patterns toward broader expectations, always carrying the question of how far the pattern may responsibly travel.",
       "branch": "Philosophy of Science",
       "paths": [
-        "/epistemology/induction-utility-and-issues/",
-        "/philosophy-of-science/is-logic-acquired-inductively/"
+        "/philosophy-of-science/what-is-induction/"
       ],
       "tags": [
         "induction",
@@ -546,16 +999,111 @@ window.BYTESEISMIC_DATA = {
       ]
     },
     {
-      "term": "Moral realism",
-      "definition": "The view that at least some moral claims are true independently of individual preference or social approval.",
-      "branch": "Ethics",
+      "term": "Inference",
+      "definition": "The movement from some claims or observations to another claim that is supposed to follow from them in some disciplined way.",
+      "branch": "Epistemology",
       "paths": [
-        "/ethics/fictional-meta-ethics-debate/",
-        "/ethics/recommendations-vs-moral-claims/"
+        "/epistemology/types-of-reasoning/"
       ],
       "tags": [
-        "meta-ethics",
-        "moral-realism"
+        "inference",
+        "logic"
+      ]
+    },
+    {
+      "term": "Is/Ought gap",
+      "definition": "The warning that descriptions of what is the case do not automatically generate conclusions about what ought to be done.",
+      "branch": "Ethics",
+      "paths": [
+        "/ethics/is-vs-ought/"
+      ],
+      "tags": [
+        "ethics",
+        "normativity"
+      ]
+    },
+    {
+      "term": "Justice",
+      "definition": "A standard of right ordering in treatment, institutions, and distribution; broader than punishment and deeper than mere personal preference.",
+      "branch": "Ethics",
+      "paths": [
+        "/ethics/morality-human-rights/"
+      ],
+      "tags": [
+        "human-rights",
+        "institutions"
+      ]
+    },
+    {
+      "term": "Knowledge",
+      "definition": "More than true belief and more than confidence: a claim to having gotten reality right in a way that is responsibly grounded.",
+      "branch": "Epistemology",
+      "paths": [
+        "/epistemology/what-is-knowledge/"
+      ],
+      "tags": [
+        "knowledge",
+        "epistemology"
+      ]
+    },
+    {
+      "term": "Logic",
+      "definition": "The study of valid structure in thought and argument, including what follows from what and why some inferences only appear to work.",
+      "branch": "Epistemology",
+      "paths": [
+        "/epistemology/logic/"
+      ],
+      "tags": [
+        "logic",
+        "rational-thought"
+      ]
+    },
+    {
+      "term": "Materialism",
+      "definition": "The view that reality is fundamentally material or physical, with mind and value ultimately depending on that physical basis.",
+      "branch": "Metaphysics",
+      "paths": [
+        "/metaphysics/dualismvsmaterialism/"
+      ],
+      "tags": [
+        "materialism",
+        "metaphysics"
+      ]
+    },
+    {
+      "term": "Meaning",
+      "definition": "What makes a life, action, symbol, or statement intelligible or significant rather than empty, random, or merely decorative.",
+      "branch": "Humanistic Philosophies",
+      "paths": [
+        "/humanistic-philosophies/personal-cosmic-meaning/"
+      ],
+      "tags": [
+        "meaning",
+        "worldview"
+      ]
+    },
+    {
+      "term": "Metaphysics",
+      "definition": "The branch of philosophy asking what reality is like at the deepest level: what exists, what depends on what, and what kinds of things are basic.",
+      "branch": "Metaphysics",
+      "paths": [
+        "/metaphysics/metaphysics-core-concepts/"
+      ],
+      "tags": [
+        "metaphysics",
+        "reality"
+      ]
+    },
+    {
+      "term": "Methodological naturalism",
+      "definition": "The practice of explaining phenomena by appeal to publicly testable natural causes; a method rule, not automatically a final worldview.",
+      "branch": "Philosophy of Science",
+      "paths": [
+        "/philosophy-of-science/methodological-naturalism/"
+      ],
+      "tags": [
+        "method",
+        "science"
       ]
     },
     {
@@ -563,8 +1111,7 @@ window.BYTESEISMIC_DATA = {
       "definition": "A family of views denying that moral claims describe objective moral facts in the realist sense, while still allowing moral language to do important work.",
       "branch": "Ethics",
       "paths": [
-        "/ethics/fictional-meta-ethics-debate/",
-        "/ethics/recommendations-vs-moral-claims/"
+        "/ethics/essay-moral-anti-realism/"
       ],
       "tags": [
         "meta-ethics",
@@ -572,16 +1119,75 @@ window.BYTESEISMIC_DATA = {
       ]
     },
     {
+      "term": "Moral realism",
+      "definition": "The view that at least some moral claims are true independently of individual preference, tribal endorsement, or passing consensus.",
+      "branch": "Ethics",
+      "paths": [
+        "/ethics/moral-realism-intuition/"
+      ],
+      "tags": [
+        "meta-ethics",
+        "moral-realism"
+      ]
+    },
+    {
+      "term": "Narrative",
+      "definition": "A meaning-shaping story frame that can illuminate reality or distort it by making events serve a preselected moral or tribal script.",
+      "branch": "Philosophical Inquiry",
+      "paths": [
+        "/philosophical-inquiry/dangers-narrative/"
+      ],
+      "tags": [
+        "public-discourse",
+        "inquiry"
+      ]
+    },
+    {
+      "term": "Nihilism",
+      "definition": "A family of views denying objective meaning, value, truth, or purpose in some domain; often invoked loosely when the real issue is disillusionment or skepticism.",
+      "branch": "Metaphysics",
+      "paths": [
+        "/metaphysics/categories-of-nihilism/"
+      ],
+      "tags": [
+        "nihilism",
+        "meaning"
+      ]
+    },
+    {
       "term": "Normativity",
       "definition": "The force of should, ought, reason, permission, or obligation; the dimension of a claim that purports to guide action or evaluation.",
       "branch": "Ethics",
       "paths": [
-        "/ethics/recommendations-vs-moral-claims/",
-        "/ethics/equivocation-on-wrong/"
+        "/ethics/recommendations-vs-moral-claims/"
       ],
       "tags": [
         "ethics",
         "normativity"
+      ]
+    },
+    {
+      "term": "Objectivity",
+      "definition": "Independence from merely personal preference or point of view; not the elimination of all perspective, but accountable contact with what is really there.",
+      "branch": "Metaphysics",
+      "paths": [
+        "/metaphysics/objectively-subjectively-real/"
+      ],
+      "tags": [
+        "reality",
+        "subjectivity"
+      ]
+    },
+    {
+      "term": "Ontology",
+      "definition": "The part of metaphysics that asks what kinds of things exist and what categories of being we actually need.",
+      "branch": "Metaphysics",
+      "paths": [
+        "/metaphysics/ontological-domains/"
+      ],
+      "tags": [
+        "metaphysics",
+        "reality"
       ]
     },
     {
@@ -597,16 +1203,99 @@ window.BYTESEISMIC_DATA = {
       ]
     },
     {
-      "term": "Prompting",
-      "definition": "Question design for human-machine dialogue; at its best, a way of shaping the epistemic pressure under which an answer is produced.",
-      "branch": "Philosophy of AI",
+      "term": "Phenomenology",
+      "definition": "A way of doing philosophy that begins with lived experience and the structures of appearance before reducing everything to outside measurement alone.",
+      "branch": "Philosophers",
       "paths": [
-        "/philosophy-of-ai/precision-prompting/",
-        "/philosophy-of-ai/assessing-ai-alignment-with-truth/"
+        "/philosophers/phenomenologists/"
       ],
       "tags": [
-        "ai",
-        "prompting"
+        "subjectivity",
+        "history-of-philosophy"
+      ]
+    },
+    {
+      "term": "Principle of sufficient reason",
+      "definition": "The claim that things do not simply obtain for no reason at all: there must be some basis, cause, or explanation for why they are so.",
+      "branch": "Metaphysics",
+      "paths": [
+        "/metaphysics/the-principle-of-sufficient-reason/"
+      ],
+      "tags": [
+        "metaphysics",
+        "explanation"
+      ]
+    },
+    {
+      "term": "Probability",
+      "definition": "A disciplined way of representing uncertainty, not a substitute for reasoning about assumptions, evidence, and stakes.",
+      "branch": "Epistemology",
+      "paths": [
+        "/epistemology/reasoned-probabilities-and-decisions/"
+      ],
+      "tags": [
+        "probability",
+        "decision-making"
+      ]
+    },
+    {
+      "term": "Rationality",
+      "definition": "The discipline of proportioning belief, inference, and action to reasons, evidence, and coherent standards rather than to impulse alone.",
+      "branch": "Epistemology",
+      "paths": [
+        "/epistemology/core-deep-rationality/"
+      ],
+      "tags": [
+        "rational-thought",
+        "epistemology"
+      ]
+    },
+    {
+      "term": "Reductionism",
+      "definition": "The attempt to explain higher-level realities entirely in lower-level terms; sometimes illuminating, sometimes flattening what matters.",
+      "branch": "Metaphysics",
+      "paths": [
+        "/metaphysics/emergence/"
+      ],
+      "tags": [
+        "emergence",
+        "metaphysics"
+      ]
+    },
+    {
+      "term": "Relativism",
+      "definition": "The view that truth, value, or justification is always relative to a scheme, culture, or perspective; often confused with the milder point that context matters.",
+      "branch": "Ethics",
+      "paths": [
+        "/philosophical-inquiry/personal-truth/"
+      ],
+      "tags": [
+        "truth",
+        "subjectivity"
+      ]
+    },
+    {
+      "term": "Reliability",
+      "definition": "The tendency of a method, source, or cognitive process to produce truth or near-truth often enough to deserve trust.",
+      "branch": "Epistemology",
+      "paths": [
+        "/epistemology/establishing-cognitive-reliability-1/"
+      ],
+      "tags": [
+        "evidence",
+        "epistemology"
+      ]
+    },
+    {
+      "term": "Science",
+      "definition": "A disciplined, self-correcting form of inquiry that uses observation, modeling, testing, and criticism to learn about the world.",
+      "branch": "Philosophy of Science",
+      "paths": [
+        "/philosophy-of-science/what-is-science/"
+      ],
+      "tags": [
+        "science",
+        "method"
       ]
     },
     {
@@ -614,12 +1303,47 @@ window.BYTESEISMIC_DATA = {
       "definition": "The overextension of scientific authority into domains where empirical method may inform inquiry without exhausting it.",
       "branch": "Philosophy of Science",
       "paths": [
-        "/philosophy-of-science/scientism-faith/",
-        "/philosophy-of-science/what-is-science/"
+        "/philosophy-of-science/scientism-faith/"
       ],
       "tags": [
         "science",
         "method"
+      ]
+    },
+    {
+      "term": "Semantics",
+      "definition": "The study of meaning, reference, and how words or sentences manage to say anything determinate at all.",
+      "branch": "Philosophy of Language",
+      "paths": [
+        "/philosophy-of-language/semantics-convention-vs-stipulation/"
+      ],
+      "tags": [
+        "semantics",
+        "language"
+      ]
+    },
+    {
+      "term": "Skepticism",
+      "definition": "A demand for stronger justification before assent; healthy when it disciplines inquiry, self-defeating when it refuses any standard short of impossibility.",
+      "branch": "Philosophical Inquiry",
+      "paths": [
+        "/philosophical-inquiry/dangers-limits-on-doubt/"
+      ],
+      "tags": [
+        "inquiry",
+        "knowledge"
+      ]
+    },
+    {
+      "term": "Social contract",
+      "definition": "A way of grounding political authority by asking what terms of cooperation free and roughly equal persons could reasonably accept.",
+      "branch": "Political Philosophy",
+      "paths": [
+        "/political-philosophy/the-social-contract/"
+      ],
+      "tags": [
+        "social-contract",
+        "institutions"
       ]
     },
     {
@@ -630,8 +1354,80 @@ window.BYTESEISMIC_DATA = {
         "/philosophical-inquiry/charitable-engagement/"
       ],
       "tags": [
-        "charitable-engagement",
+        "charity",
         "argument"
+      ]
+    },
+    {
+      "term": "Stoicism",
+      "definition": "An ancient philosophy of disciplined judgment, agency, and emotional training; not mere emotional suppression or detached toughness.",
+      "branch": "Humanistic Philosophies",
+      "paths": [
+        "/humanistic-philosophies/what-is-stoicism/"
+      ],
+      "tags": [
+        "stoicism",
+        "humanistic-philosophies"
+      ]
+    },
+    {
+      "term": "Subjectivity",
+      "definition": "What depends on a perspective, standpoint, or lived experience; not therefore unreal, but not automatically a public measure either.",
+      "branch": "Philosophy of Mind",
+      "paths": [
+        "/philosophy-of-mind/subjectivity-constrained-by-the-objective/"
+      ],
+      "tags": [
+        "subjectivity",
+        "reality"
+      ]
+    },
+    {
+      "term": "Syllogism",
+      "definition": "A structured form of reasoning in which a conclusion follows from premises through explicit logical form.",
+      "branch": "Epistemology",
+      "paths": [
+        "/epistemology/what-are-syllogisms/"
+      ],
+      "tags": [
+        "logic",
+        "argument"
+      ]
+    },
+    {
+      "term": "Truth",
+      "definition": "A standard by which claims answer to reality rather than merely to preference, convenience, usefulness, or tribal endorsement.",
+      "branch": "Philosophical Inquiry",
+      "paths": [
+        "/philosophical-inquiry/what-is-truth/"
+      ],
+      "tags": [
+        "truth",
+        "reality"
+      ]
+    },
+    {
+      "term": "Utilitarianism",
+      "definition": "A consequentialist view that evaluates actions chiefly by how much overall well-being, happiness, or preference satisfaction they produce.",
+      "branch": "Ethics",
+      "paths": [
+        "/ethics/ethics-core-concepts/"
+      ],
+      "tags": [
+        "ethics",
+        "normativity"
+      ]
+    },
+    {
+      "term": "Virtue ethics",
+      "definition": "An ethical approach centered on character, practical wisdom, and the cultivation of the kinds of people capable of living well.",
+      "branch": "Ethics",
+      "paths": [
+        "/ethics/ethics-core-concepts/"
+      ],
+      "tags": [
+        "ethics",
+        "normativity"
       ]
     },
     {
@@ -642,7 +1438,7 @@ window.BYTESEISMIC_DATA = {
         "/philosophical-inquiry/do-i-need-a-worldview/"
       ],
       "tags": [
-        "worldviews",
+        "worldview",
         "inquiry"
       ]
     }
@@ -1058,10 +1854,10 @@ window.BYTESEISMIC_DATA = {
   "tagCounts": {
     "aesthetics": 31,
     "alignment": 30,
-    "argument": 75,
+    "argument": 76,
     "bayes": 47,
     "belief": 91,
-    "bias": 73,
+    "bias": 74,
     "branch-map": 114,
     "careers": 13,
     "causation": 35,
@@ -1080,10 +1876,10 @@ window.BYTESEISMIC_DATA = {
     "epistemology": 72,
     "equivocation": 9,
     "ethics": 37,
-    "evidence": 142,
+    "evidence": 143,
     "existentialism": 36,
     "explanation": 31,
-    "fallacies": 53,
+    "fallacies": 54,
     "falsifiability": 11,
     "framing": 13,
     "free-will": 29,
@@ -1119,7 +1915,7 @@ window.BYTESEISMIC_DATA = {
     "nihilism": 12,
     "normativity": 4,
     "philosophers": 213,
-    "philosophical-inquiry": 47,
+    "philosophical-inquiry": 48,
     "philosophical-method": 181,
     "philosophy-of-ai": 32,
     "philosophy-of-language": 22,
@@ -1143,7 +1939,7 @@ window.BYTESEISMIC_DATA = {
     "statistics": 28,
     "stoicism": 28,
     "subjectivity": 17,
-    "truth": 79,
+    "truth": 80,
     "wisdom": 23,
     "worldview": 27
   },
@@ -7800,6 +8596,20 @@ window.BYTESEISMIC_DATA = {
       ]
     },
     {
+      "title": "The Value and Limits of Debate",
+      "section": "Philosophical Inquiry",
+      "path": "/philosophical-inquiry/the-value-and-limits-of-debate/",
+      "summary": "A guide to when debate clarifies a public question, when it degenerates into performance, and how fallacies and biases quietly steer the audience.",
+      "tags": [
+        "philosophical-inquiry",
+        "argument",
+        "evidence",
+        "fallacies",
+        "truth",
+        "bias"
+      ]
+    },
+    {
       "title": "What is Truth?",
       "section": "Philosophical Inquiry",
       "path": "/philosophical-inquiry/what-is-truth/",
@@ -10584,6 +11394,7 @@ window.BYTESEISMIC_DATA = {
     "Appreciating our Insignificance": "/philosophical-inquiry/appreciating-our-insignificance/",
     "How Minds are Changed": "/philosophical-inquiry/how-minds-are-changed/",
     "Charitable Engagement": "/philosophical-inquiry/charitable-engagement/",
+    "The Value and Limits of Debate": "/philosophical-inquiry/the-value-and-limits-of-debate/",
     "An Intellectually-Enriched and Diverse Environment": "/philosophical-inquiry/an-intellectually-enriched-and-diverse-environment/",
     "Our View of Humanity": "/philosophical-inquiry/our-view-of-humanity/",
     "Authentic Humans": "/philosophical-inquiry/authentic-humans/",
@@ -11275,7 +12086,7 @@ window.BYTESEISMIC_DATA = {
         "Dangers: Explanatory Depth Illusions",
         "Dangers: Ideologies of Emotion"
       ],
-      "topicCount": 42,
+      "topicCount": 43,
       "futureTags": [
         "truth",
         "bias",
@@ -11443,6 +12254,10 @@ window.BYTESEISMIC_DATA = {
             {
               "title": "Charitable Engagement",
               "path": "/philosophical-inquiry/charitable-engagement/"
+            },
+            {
+              "title": "The Value and Limits of Debate",
+              "path": "/philosophical-inquiry/the-value-and-limits-of-debate/"
             }
           ]
         },

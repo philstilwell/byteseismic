@@ -1,13 +1,13 @@
 # Site Audit
 
-- Pages scanned: 782
+- Pages scanned: 783
 - Broken internal links: 0
 - Duplicate IDs: 0
 - Repeated headings: 121
 - Prompt numbering issues: 0
 - Orphan pages: 0
 - Oversized assets: 1
-- Style scars: 395
+- Style scars: 396
 - Grammar scars: 11
 
 ## Broken Links
@@ -81,7 +81,7 @@
 
 ## Oversized Assets
 
-- `/assets/js/site-data.js` -> 488410 bytes (limit 280000)
+- `/assets/js/site-data.js` -> 513550 bytes (limit 280000)
 
 ## Style Scars
 
