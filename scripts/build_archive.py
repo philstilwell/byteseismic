@@ -1730,7 +1730,7 @@ def fonts_and_assets(prefix: str, include_site_scripts: bool = True) -> str:
     scripts = ""
     if include_site_scripts:
         scripts = f"""
-            <script defer src="{prefix}assets/js/site-data.js"></script>
+            <script defer src="{prefix}assets/js/site-core.js"></script>
             <script defer src="{prefix}assets/js/site.js"></script>"""
     return f"""
             <link rel="icon" href="{prefix}favicon.png?v={favicon_version}" sizes="512x512" type="image/png" />
@@ -1776,7 +1776,7 @@ def hero_image_srcset(prefix: str, variants: dict[int, str]) -> str:
     )
 
 
-def render_hero_image(prefix: str, *, fetchpriority: str = "auto") -> str:
+def render_hero_image(prefix: str, *, fetchpriority: str = "high") -> str:
     jpg_srcset = hero_image_srcset(prefix, HERO_IMAGE_JPGS)
     fallback_src = f"{prefix}{HERO_IMAGE_JPGS[1800].lstrip('/')}"
     return textwrap.dedent(
@@ -2423,15 +2423,15 @@ def topic_is_question_like(text: str) -> bool:
 
 def generic_heading_for_question_topic(focus: str) -> str:
     headings = {
-        "dialogue": "What the exchange brings out about the question.",
-        "description": "How to get a usable grip on the question.",
-        "examples": "What the question looks like in a real case.",
-        "mapping": "How the question breaks into workable parts.",
-        "argument": "Where the question gets tested.",
-        "definition": "What the question needs to mean once the easy cases are out of the way.",
-        "inquiry": "The question only helps once it gets precise.",
+        "dialogue": "The dialogue matters because it tests the question in public.",
+        "description": "The question becomes usable once the reader knows what to watch for.",
+        "examples": "A concrete case shows what the question explains and where it strains.",
+        "mapping": "The map becomes useful once its parts stop doing different work.",
+        "argument": "The issue matters only if it survives the strongest pressure against it.",
+        "definition": "The question needs sharper edges before it can guide judgment.",
+        "inquiry": "The real issue is what the question changes once it becomes precise.",
     }
-    return headings.get(focus, "The question only helps once it gets precise.")
+    return headings.get(focus, "The real issue is what the question changes once it becomes precise.")
 
 
 def source_label_is_heading_worthy(label: str) -> bool:
@@ -2474,10 +2474,12 @@ def clean_heading_subject(subject: str, topic: str) -> str:
         return topic
 
     replacements = [
+        (r"^the importance of\s+", ""),
         (r"^provide me with a list of\s+", ""),
         (r"^provide a list of\s+", ""),
         (r"^provide an extensive list of\s+", ""),
         (r"^provide a diverse list of\s+", ""),
+        (r"^response to\s+", ""),
         (r"^expound on a few of the key notions within\s+", "key ideas in "),
         (r"^expound on\s+", ""),
         (r"^elaborate on\s+", ""),
@@ -2498,6 +2500,10 @@ def clean_heading_subject(subject: str, topic: str) -> str:
         (r"^create a table of\s+", ""),
         (r"^create a quantitative account that quantitatively shows\s+", "the practical utility of "),
         (r"^what is a salient way to express this argument to those who invoke common, alleged moral facts.*$", "the moral anti-realist challenge"),
+        (r"^quotes on\s+", ""),
+        (r"^dimensions of difference between\s+", "differences between "),
+        (r"^commonalities among\s+", "common threads across "),
+        (r"^strategies to\s+", ""),
     ]
     for pattern, replacement in replacements:
         cleaned = re.sub(pattern, replacement, cleaned, flags=re.IGNORECASE).strip(" .:")
@@ -2514,6 +2520,8 @@ def clean_heading_subject(subject: str, topic: str) -> str:
     cleaned = re.sub(r"\bcurator[’']s Pushback\b", "curator’s pushback", cleaned, flags=re.IGNORECASE)
     cleaned = re.sub(r"\ban a\b", "a", cleaned, flags=re.IGNORECASE)
     cleaned = re.sub(r"\bis it likely that is it\b", "is it", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\bthe moral skeptic[’']s response to the argument for objective evil\b", "the skeptic's answer to objective evil", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\bnewer fields in science and their impact on philosophy of science\b", "new scientific fields reshaping philosophy of science", cleaned, flags=re.IGNORECASE)
     cleaned = collapse_duplicate_function_words(cleaned)
     cleaned = re.sub(r"\s+([.,;:!?])", r"\1", cleaned)
     cleaned = re.sub(r"\s+", " ", cleaned).strip(" .:")
@@ -2644,6 +2652,44 @@ def need_verb_for_heading(subject: str) -> str:
     return "needs"
 
 
+def require_verb_for_heading(subject: str) -> str:
+    return "require" if need_verb_for_heading(subject) == "need" else "requires"
+
+
+def thinker_name_from_contribution_label(subject: str, topic: str) -> str:
+    thinker = clean_text(subject).strip(" .,:;")
+    patterns = [
+        r"^key contributions of\s+",
+        r"^schools of philosophical thought influenced by\s+",
+        r"^the key contributions of\s+",
+        r"^the influence of\s+",
+    ]
+    for pattern in patterns:
+        thinker = re.sub(pattern, "", thinker, flags=re.IGNORECASE)
+    thinker = re.sub(r"[’']s\s+\d+\s+(?:greatest|enduring)\s+contributions?\s+to\s+philosophy(?:\s+thought)?", "", thinker, flags=re.IGNORECASE)
+    thinker = re.sub(r"[’']s\s+(?:greatest|enduring)\s+contributions?\s+to\s+philosophy(?:\s+thought)?", "", thinker, flags=re.IGNORECASE)
+    thinker = re.sub(r"\bcontributions?\s+to\s+philosophy(?:\s+thought)?\b", "", thinker, flags=re.IGNORECASE)
+    thinker = re.sub(r"\binfluence on philosophy\b", "", thinker, flags=re.IGNORECASE)
+    thinker = collapse_duplicate_function_words(thinker).strip(" .,:;")
+    return thinker or topic
+
+
+def is_generic_heading_for_topic(heading: str, topic: str) -> bool:
+    cleaned = clean_text(heading).strip().lower()
+    topic_lower = clean_text(topic).strip().lower()
+    generic_forms = {
+        f"the real issue is what {topic_lower} changes once it becomes precise.",
+        f"the map of {topic_lower} becomes useful once the parts stop doing different work.",
+        f"{topic_lower} becomes usable once the reader knows what to watch for.",
+        f"{topic_lower} matters only if it survives the strongest pressure against it.",
+        f"{topic_lower} {require_verb_for_heading(topic).lower()} sharper edges before the distinction can guide judgment.",
+        "the real issue is what the question changes once it becomes precise.",
+        "the map becomes useful once its parts stop doing different work.",
+        "the page matters only if it survives the strongest pressure against it.",
+    }
+    return cleaned in generic_forms
+
+
 def article_native_heading(subject: str, prompt: str, topic: str) -> str:
     key = clean_heading_subject(subject, topic)
     raw_lowered = key.lower()
@@ -2661,7 +2707,7 @@ def article_native_heading(subject: str, prompt: str, topic: str) -> str:
     if "influence on philosophy" in raw_lowered:
         thinker = re.sub(r"[’']s influence on philosophy", "", key, flags=re.IGNORECASE).strip(" ,")
         thinker = re.sub(r"\binfluence on philosophy\b", "", thinker, flags=re.IGNORECASE).strip(" ,")
-        return f"The influence of {thinker or topic} is clearest in the questions later thinkers still inherit."
+        return f"Where {thinker or topic} still changes the questions later thinkers have to ask."
     if re.search(r"provide a list of the key (contributions )?.+ have made to philosophical thought", prompt_lower):
         key = clean_heading_subject(f"key contributions of {key} to philosophical thought", topic)
     if prompt_lower.startswith("list the most influential"):
@@ -2687,6 +2733,48 @@ def article_native_heading(subject: str, prompt: str, topic: str) -> str:
         return "The signature contribution is the move later readers still have to answer."
     if lowered == "influence trail":
         return "The influence trail shows where the argument keeps doing work."
+    if lowered.startswith("policy influence of "):
+        subject = key[20:].strip()
+        if subject and subject[0].islower():
+            subject = subject[:1].upper() + subject[1:]
+        return f"{subject} matters most when institutions actually change because of it."
+    if lowered.startswith("how ") and " changed " in lowered:
+        return with_heading_suffix(key, "and why that shift matters.")
+    if lowered.startswith("key terms in "):
+        return f"{key[:1].upper() + key[1:]} become useful only when the terms start doing different jobs."
+    if lowered.startswith("key concepts in "):
+        return f"{key[:1].upper() + key[1:]} become useful only when the concepts start explaining one another."
+    if lowered.startswith("a reading route into "):
+        return f"A reading route into {key[21:]} should start where the questions first become usable."
+    if lowered.startswith("resources relevant to "):
+        return f"Resources for {key[22:]} matter only if they help the reader enter the field in the right order."
+    if lowered.startswith("strong programs in "):
+        return f"Strong programs in {key[19:]} show where the field is institutionally alive."
+    if lowered.startswith("perceived value through "):
+        return f"Perceived value changes once {key[23:]} is taken seriously."
+    if lowered.startswith("the main issues in "):
+        subject = key[19:].strip()
+        if subject and subject[0].islower():
+            subject = subject[:1].upper() + subject[1:]
+        return f"{subject} today is organized by a few live pressure points rather than a settled list."
+    if lowered.startswith("a timeline of "):
+        return f"A timeline of {key[14:]} should show how later questions inherit and revise earlier ones."
+    if lowered.startswith("new areas of interest in "):
+        return f"New areas of interest in {key[25:]} show where the old questions are mutating."
+    if lowered == "improper proxies in practice":
+        return "Failed proxies matter because bad measurement can quietly mislead a whole inquiry."
+    if lowered == "reasons an ai may refuse an inquiry":
+        return "An AI refusal becomes interesting only when the governing norm is brought into view."
+    if lowered == "philosophers caught by censorship rules":
+        return "The censorship rule becomes clearer when it is applied to thinkers we can actually name."
+    if lowered == "subjective free will without objective free will":
+        return "Subjective free will may survive the loss of objective free will, but only with a different job description."
+    if lowered == "how deconversion unfolds":
+        return "Deconversion is usually a process before it looks like an event."
+    if lowered == "induction explained to a child":
+        return "A child-level account of induction should keep the pattern clear without making the logic childish."
+    if lowered == "drake-like cascading models across fields":
+        return "Drake-like models matter because they show how one uncertainty can multiply through a whole chain."
     if topic_is_question_like(topic) and key.lower() == topic.lower():
         return generic_heading_for_question_topic(focus)
     if lowered.startswith("whether "):
@@ -2694,23 +2782,21 @@ def article_native_heading(subject: str, prompt: str, topic: str) -> str:
     if lowered.startswith("the real-world value of "):
         return f"The real-world value of {key[24:]} shows up in the decisions it actually changes."
     if lowered.startswith("key contributions of ") and " to philosophical thought" in lowered:
-        thinker = re.sub(r"^key contributions of ", "", key, flags=re.IGNORECASE)
-        thinker = re.sub(r" to philosophical thought$", "", thinker, flags=re.IGNORECASE).strip(" ,")
-        return f"The lasting contribution of {thinker or topic} is easiest to see where later thinkers borrow, resist, or deepen the original move."
+        thinker = thinker_name_from_contribution_label(key, topic)
+        return f"Where {thinker or topic} still shapes later thought."
     if lowered.startswith("key contributions of ") and " to philosophy" in lowered:
-        thinker = re.sub(r"^key contributions of ", "", key, flags=re.IGNORECASE)
-        thinker = re.sub(r" to philosophy(?: thought)?$", "", thinker, flags=re.IGNORECASE).strip(" ,")
-        return f"The lasting contribution of {thinker or topic} is easiest to see where later thinkers borrow, resist, or deepen the original move."
+        thinker = thinker_name_from_contribution_label(key, topic)
+        return f"Where {thinker or topic} still shapes later thought."
     if "greatest contributions to philosophy" in lowered or "contributions to philosophy" in lowered:
-        thinker = re.sub(r"[’']s .*?contributions to philosophy", "", key, flags=re.IGNORECASE).strip(" ,")
-        return f"The lasting contribution of {thinker or topic} is easiest to see where later thinkers still have to borrow, resist, or refine the move."
+        thinker = thinker_name_from_contribution_label(key, topic)
+        return f"Where {thinker or topic} still shapes later thought."
     if "pillars of" in lowered:
         pillar_match = re.search(r"pillars of (.+)$", key, flags=re.IGNORECASE)
         if pillar_match:
             return f"The main pillars of {pillar_match.group(1).strip()} make the most sense when they are read together."
     if "schools of philosophical thought influenced by" in lowered:
-        thinker = re.sub(r"^schools of philosophical thought influenced by\s+", "", key, flags=re.IGNORECASE).strip(" ,")
-        return f"{thinker or topic} matters most where whole schools inherit the method, not just the vocabulary."
+        thinker = thinker_name_from_contribution_label(key, topic)
+        return f"Where {thinker or topic} still shapes whole traditions."
     if lowered.startswith(("likely causes behind ", "most likely causes behind ")) and "becoming a notable philosopher" in lowered:
         thinker = re.sub(r"^(most\s+)?likely causes behind\s+", "", key, flags=re.IGNORECASE)
         thinker = re.sub(r"\s+becoming a notable philosopher$", "", thinker, flags=re.IGNORECASE).strip(" ,")
@@ -2721,20 +2807,20 @@ def article_native_heading(subject: str, prompt: str, topic: str) -> str:
         return f"The key ideas in {key[13:]} matter only if they help the reader think with the view."
 
     if focus == "dialogue":
-        return f"What the dialogue brings out about {key}."
+        return f"The dialogue matters because it tests {key} in public."
     if focus == "examples":
-        return f"What {key} looks like in practice."
+        return f"A concrete case shows what {key} explains and where it strains."
     if focus == "mapping":
         if lowered.endswith(" vs") or lowered.startswith("summary of ") or lowered in {"notes", "characters"}:
-            return f"How the pieces of {topic} fit together."
-        return f"How {key} fits together."
+            return f"The map of {topic} becomes useful once the parts stop doing different work."
+        return f"The map of {key} becomes useful once the parts stop doing different work."
     if focus == "argument":
-        return f"Where {key} stands or falls."
+        return f"{key} matters only if it survives the strongest pressure against it."
     if focus == "definition":
-        return f"What {key} {need_verb_for_heading(key)} to mean to be useful."
+        return f"{key} {require_verb_for_heading(key)} sharper edges before the distinction can guide judgment."
     if any(term in lowered for term in ("list", "table", "scores", "percentages", "estimates")):
-        return f"How {key} breaks down in a more useful way."
-    return f"What matters most in {key}."
+        return f"{key} becomes clearer once the parts stop doing different work."
+    return f"The real issue is what {key} changes once it becomes precise."
 
 
 def clean_discussion_key(key: str, topic: str, fallback: str = "the central question") -> str:
@@ -2775,6 +2861,27 @@ def clean_discussion_key(key: str, topic: str, fallback: str = "the central ques
     if len(cleaned.split()) > 10:
         return fallback
     return cleaned[0].lower() + cleaned[1:]
+
+
+def safe_guiding_phrase(text: str, topic: str, fallback: str = "the central distinction", max_words: int = 8) -> str:
+    cleaned = clean_text(text).strip(" .,:;")
+    if not cleaned or command_like_key(cleaned):
+        return fallback
+    lowered = cleaned.lower()
+    if lowered.startswith(("we ", "this ", "there ", "here ", "it seems ", "the following ")):
+        return fallback
+    if lowered.endswith((" to", " and", " of", " in", " for", " with", " from")):
+        return topic if len(topic.split()) <= max_words else fallback
+    if len(cleaned.split()) > max_words:
+        label, _body = split_label(cleaned)
+        candidate = clean_text(label).strip(" .,:;")
+        if candidate and not command_like_key(candidate) and len(candidate.split()) <= max_words:
+            cleaned = candidate
+        else:
+            return topic if len(topic.split()) <= max_words else fallback
+    cleaned = re.sub(r"\bto to\b", "to", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\band and\b", "and", cleaned, flags=re.IGNORECASE)
+    return cleaned or fallback
 
 
 def label_role(label: str) -> str:
@@ -7242,6 +7349,334 @@ TARGETED_SECTION_EXPANSIONS = {
             "Eclectic danger: Personal curation can quietly turn into spiritual consumerism dressed up as wisdom.",
         ],
     },
+    ("/ethics/recommendations-vs-moral-claims/", "prompt-4"): {
+        "heading": "Altruism explains some moral heat, but not the full authority moral language tries to claim.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The reduction to altruism is tempting because many moral claims do praise sacrifice, generosity, or concern for others. But moral language usually tries to do more than recommend kindness. It often claims permission to blame, forbid, demand, rank duties, or accuse someone of being out of line even when that person does not share the speaker's preferences.",
+            "That extra force is the real issue. A statement can be altruistic without being moral, and it can be moral in tone while actually borrowing its authority from law, custom, religion, status pressure, or plain emotional intimidation. So if someone says morality is just altruism with a sharper accent, the right reply is: sometimes partly, but not nearly always cleanly.",
+            "A street-level example helps. 'You should give your seat to the elderly person' may be altruistic advice. But 'You are morally wrong if you keep sitting' has added a new kind of claim. It now sounds as if the speaker has moved from praising generosity to asserting a standard that allegedly binds you whether or not you signed on to it.",
+            "So the page should keep two questions apart. First: why do human beings often admire altruism? Second: what, if anything, turns admiration into legitimate obligation? The second question is where moral theory, anti-realism, and semantic discipline actually begin.",
+        ],
+        "items": [
+            "Altruism and morality overlap, but overlap is not identity.",
+            "Advice can praise selflessness without claiming binding authority.",
+            "Moralized language often adds blame, entitlement, and prohibition on top of mere concern for others.",
+            "Reduction warning: if morality is reduced too quickly to altruism, legal, prudential, tribal, and rhetorical sources of normativity get blurred together.",
+            "Diagnostic question: is the speaker recommending generosity, reporting a social expectation, or claiming an obligation that is supposed to hold whether you consent or not?",
+        ],
+    },
+    ("/ethics/equivocation-on-wrong/", "prompt-1"): {
+        "heading": "The word wrong is dangerous because arguments borrow force from one sense while defending another.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "This is not a small semantic quibble. In real ethical argument, wrong often begins in one register and ends in another. Someone may mean socially condemned, then slide into morally forbidden. Or they may mean imprudent, then quietly cash it out as objectively evil. Once that slide happens, the emotional force of the stronger sense gets borrowed by the weaker one.",
+            "That is why conversations become muddy so quickly. One person may deny that an act is morally wrong while fully agreeing that it is cruel, ugly, stupid, harmful, or corrosive to trust. Another person hears the denial as if it were a defense of the act itself. The dispute is now partly about behavior, but partly about what work the word wrong is being asked to do.",
+            "A clean discussion therefore has to slow down long enough to separate registers. If a speaker means legally prohibited, say that. If they mean socially condemned, say that. If they mean imprudent, say that. If they mean morally impermissible in a realist sense, then that stronger claim should be defended rather than smuggled in by tone.",
+            "The practical gain is large. Once the senses are separated, readers can disagree with more precision. They can reject moral realism without pretending cruelty is harmless, or criticize a behavior sharply without pretending every criticism has the same metaphysical status.",
+        ],
+        "items": [
+            "Prudential wrong: bad for the agent's goals, interests, or long-term flourishing.",
+            "Social wrong: condemned by a community, role, etiquette, or standing expectation.",
+            "Legal wrong: prohibited by a formal rule backed by institutional penalties.",
+            "Moral wrong: presented as more than convention, often as blameworthy in a deeper or allegedly objective sense.",
+            "Equivocation pattern: the argument leans on the emotional gravity of the moral sense while actually evidencing only one of the other senses.",
+            "Best question to ask: wrong in what sense, and what would count as evidence for that sense rather than another?",
+        ],
+    },
+    ("/ethics/the-value-selection-hypothesis/", "prompt-4"): {
+        "heading": "Emotion is central to moral life, but emotion alone does not explain how moral language gets stabilized and enforced.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "A non-realist view can grant that emotion does much of the motivational work without collapsing morality into raw feeling. Outrage, sympathy, disgust, guilt, admiration, and fear clearly matter. But if we stop there, we miss the machinery that turns fleeting feeling into durable norms, institutions, scripts of praise and blame, and inherited vocabularies of obligation.",
+            "That matters especially if the value-selection hypothesis is doing real explanatory work. The point is not merely that humans feel strongly. The point is that some patterns of feeling get selected, amplified, narrated, codified, and transmitted. Morality becomes socially thick because emotion gets organized, not because feeling alone is self-interpreting.",
+            "A useful comparison is language. Breath and sound are necessary for speech, but speech is not reducible to lung pressure and vibration. In the same way, emotion may be necessary for much moral life without being sufficient to explain the shape moral life takes in public.",
+            "So the stronger anti-realist move is not 'morality is just emotion.' It is 'moral language can be explained through emotional life plus selection, reinforcement, fiction, coordination, and institutional memory, without needing stance-independent moral facts.' That is a much better view, and a much harder one to dismiss.",
+        ],
+        "items": [
+            "Emotional base: feelings supply urgency, salience, and much of the motivational push.",
+            "Selection layer: communities reward some emotional responses and discourage others.",
+            "Institutional layer: law, schooling, ritual, media, and family stabilize the selected pattern.",
+            "Narrative layer: stories explain why one emotional pattern deserves praise while another deserves shame.",
+            "Anti-realist payoff: morality can remain psychologically deep and socially powerful without becoming an objective moral realm.",
+        ],
+    },
+    ("/rational-thought/are-averages-not-always-true/", "prompt-3"): {
+        "heading": "Outliers complicate a statistic, but they do not refute the role a statistic is playing.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "An outlier does not refute an average because the average was never claiming that every case is identical. It was summarizing a distribution. So when someone cites an exception as if the average has been disproved, they are usually attacking a stronger claim than the statistic ever made.",
+            "What the outlier actually tells you depends on context. It may show the distribution is skewed. It may show the mean should be supplemented by the median, range, or standard deviation. It may show that a subgroup matters. But none of those conclusions amount to: 'therefore the average is false.'",
+            "A simple case makes the point. If a town's average income is moderate, the existence of one billionaire does not prove the average is unreal. It proves the average is not the whole story. That is an important correction, but it is a correction of interpretation, not an annihilation of the statistic.",
+            "So the disciplined response to outliers is not to toss the average, but to ask what kind of summary the situation needs. The right move is usually refinement, not theatrical dismissal.",
+        ],
+        "items": [
+            "Averages summarize; they do not promise uniformity.",
+            "Outliers may signal spread, skew, subgroup structure, or measurement problems.",
+            "Interpretive correction is different from factual refutation.",
+            "Good reasoning asks whether the mean, median, mode, or a fuller distributional picture is doing the most honest work.",
+            "Red-flag move: 'not all' is a rebuttal only to a universal claim, not to a statistical summary.",
+        ],
+    },
+    ("/epistemology/charles-darwin/", "prompt-1"): {
+        "heading": "Darwin changed philosophy by forcing human capacities into history rather than leaving them outside it.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Darwin mattered philosophically because he made it much harder to treat mind, morality, teleology, and human distinctiveness as fixed givens. Once living forms are understood as historically shaped, philosophical pictures of reason, purpose, design, and even self-understanding have to answer to development, contingency, and adaptation.",
+            "That does not mean Darwin solved those philosophical problems by himself. It means he changed the background. A philosopher after Darwin cannot ask about human nature quite as innocently as before. The question becomes not only what a trait is, but how it emerged, what it was selected for, and whether its current function matches its historical path.",
+            "A concrete example is morality. If moral sentiments have an evolutionary history, then the philosophical task becomes more complicated. Moral experience may still matter deeply, but it can no longer be treated as obviously detached from natural history. The same pressure reaches debates about religion, purpose, rationality, and the self.",
+            "So Darwin's influence is less like a single doctrine and more like a change in atmospheric pressure. He made historical explanation unavoidable in places where philosophers had often preferred timeless essence.",
+        ],
+        "items": [
+            "Human nature becomes a historical question, not only a definitional one.",
+            "Design arguments lose innocence once apparent fit can emerge without foresight.",
+            "Moral psychology must answer to evolved dispositions as well as lived normativity.",
+            "Reason itself becomes discussable as a natural development rather than a detached faculty dropped in from nowhere.",
+            "Darwin's deepest philosophical effect was to make genesis matter wherever essence had previously dominated.",
+        ],
+    },
+    ("/philosophy-of-science/what-is-falsifiability/", "prompt-1"): {
+        "heading": "A claim becomes scientifically serious only when the world is allowed to say no.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Falsifiability is the idea that a claim counts as scientifically responsible only if some possible observation could show it to be mistaken. The point is not that scientists enjoy being wrong. The point is that inquiry becomes disciplined only when reality can push back against the theory instead of the theory explaining every possible outcome after the fact.",
+            "That makes falsifiability less about aggression than about honesty. A theory that risks failure can learn from failure. A theory that is insulated from failure may still be emotionally satisfying, but it is no longer being tested in the scientific sense. It is being protected.",
+            "A plain example helps. 'All swans are white' is falsifiable because one black swan would matter. By contrast, a claim like 'the hidden force always arranges itself so that appearances will seem mixed' may sound deep, but it has quietly removed the possibility of genuine embarrassment. That is a warning sign.",
+            "So falsifiability should be read as a gatekeeping norm against self-sealing explanation. It is not the whole of science, but it is one of the clearest ways to distinguish inquiry from performance.",
+        ],
+        "items": [
+            "Possible failure: a real test has to expose the claim to a result it would not welcome.",
+            "Informative risk: negative evidence should teach the inquirer something, not be waved away as irrelevant by default.",
+            "Public vulnerability: the theory should be criticizable by others, not only by insiders who already believe it.",
+            "Street-level example: a weather forecast can fail in a way a horoscope is often designed not to fail.",
+            "Core distinction: science is not protected confidence, but confidence willing to be corrected.",
+        ],
+    },
+    ("/epistemology/many-logics/", "prompt-3"): {
+        "heading": "Intuitionism rejects a proof principle, not the very idea that contradictions are contradictions.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The important distinction is between rejecting the law of excluded middle and embracing contradiction. Intuitionist logic does the first, not the second. It says that in some cases you are not entitled to assert 'P or not-P' unless you can constructively establish one side. That is a claim about proof standards, not a cheerful acceptance of logical chaos.",
+            "Classical logic allows many existence or disjunction claims on the basis of indirect argument alone. Intuitionism asks for more. It wants a construction, witness, or procedure rather than only the impossibility of the contrary. So the disagreement is real, but it lives inside what counts as a legitimate proof, not inside the idea that true contradictions are fine.",
+            "A simple analogy helps. Two teachers may agree on the answer key but disagree on what counts as showing your work. One allows a short elegant indirect argument; the other insists on a constructive demonstration. That is a genuine methodological disagreement, but it is not a disagreement about whether arithmetic contradictions are acceptable.",
+            "So the right contrast is not 'classical equals coherent, intuitionist equals contradictory.' The better contrast is 'classical is more permissive about proof here, intuitionist is more demanding.'",
+        ],
+        "items": [
+            "Excluded middle says every proposition is true or false whether or not we can exhibit which one.",
+            "Intuitionism questions the unrestricted right to assert that disjunction without constructive support.",
+            "Contradiction would mean accepting both P and not-P together. That is not the intuitionist move.",
+            "The real difference concerns proof entitlement, not semantic anarchy.",
+            "Useful question: what has to be shown before a mathematician is entitled to say the case is settled?",
+        ],
+    },
+    ("/economics/economics-core-concepts/", "prompt-1"): {
+        "heading": "A list of key economic terms becomes useful only when the terms start explaining one another.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "A term list in economics should not read like a glossary dropped on the floor. The point is to help the reader see the tight little machine underneath ordinary economic talk: scarcity creates tradeoffs, tradeoffs force choice, incentives shape choice, prices carry signals, and institutions decide who gets to respond to those signals and at what cost.",
+            "That is why the basic terms matter so much. If scarcity, opportunity cost, supply, demand, incentives, elasticity, and externalities remain separate definitions, the reader has memorized vocabulary without yet understanding economics. The concepts only come alive once each one starts changing how the others are read.",
+            "A street-level example helps. Rent control is not just a policy slogan. It forces you to think about prices, shortages, incentives, unintended consequences, equity, and political tradeoffs at the same time. The introductory concepts earn their keep when they can be brought together in a case like that.",
+            "So the right goal of a core-concepts page is not coverage for its own sake. It is to give the reader a compact toolkit for seeing how choices under constraint create patterns larger than any single person's intentions.",
+        ],
+        "items": [
+            "Scarcity sets the stage: not everything wanted can be had at once.",
+            "Opportunity cost reminds you that every choice excludes some rival use.",
+            "Incentives explain why people and firms respond differently when rules or prices change.",
+            "Supply and demand track how many buyers and sellers are willing to move under changing conditions.",
+            "Externalities show why private choice and social cost do not always line up neatly.",
+            "Institutions matter because markets do not float above law, trust, enforcement, and policy design.",
+        ],
+    },
+    ("/economics/economics-core-concepts/", "prompt-2"): {
+        "heading": "The clearest economic concepts are the ones that travel from definition to live policy dispute.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The value of explaining economic concepts clearly is that they stop sounding like classroom furniture and start becoming diagnostic tools. A reader should not merely know what elasticity is; the reader should start noticing why some price increases barely change behavior while others change everything. The same goes for marginal analysis, incentives, public goods, and opportunity cost.",
+            "Economics becomes more coherent when the concepts are read as a sequence. Scarcity explains why tradeoffs are unavoidable. Marginal reasoning explains why decisions are made at the edge rather than all at once. Incentives explain how structures steer behavior. Externalities explain why the private result may not be the whole story. Market failure explains why policy arguments keep returning.",
+            "A useful explanation also lowers the register a little. Economics is not mainly a parade of equations. It is a disciplined way of asking who responds, who pays, who adapts, what feedback loop appears next, and which cost has been hidden offstage.",
+            "That is why the best introductory explanations make the concepts portable. The reader should be able to carry them into housing, healthcare, labor, trade, taxation, or AI without needing to start from zero every time.",
+        ],
+        "items": [
+            "Marginal thinking asks what happens with one more unit, one more worker, one more dollar, or one more restriction.",
+            "Elasticity asks how responsive behavior is when price or circumstance changes.",
+            "Public goods raise the problem of shared benefit without easy exclusion.",
+            "Externalities force the question of who bears costs that the chooser does not directly pay.",
+            "Market failure is not a slogan against markets; it is a diagnosis that some mechanism is not aligning outcomes as hoped.",
+        ],
+    },
+    ("/epistemology/case-2-the-telephone-game/", "prompt-2"): {
+        "heading": "A chain can look locally respectable while becoming globally unreliable.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "This case is useful because the per-node numbers sound reassuring. Ninety percent fidelity, seventy-five percent comprehension, and ninety-five percent honesty do not look catastrophic in isolation. But the reader is supposed to notice that chains multiply vulnerabilities. They do not average them away.",
+            "Once the same kinds of loss are repeated twenty-five times, the ending report can be far less trustworthy than the local impressions suggest. That is the epistemic lesson. Human beings are bad at feeling multiplicative decay. We hear 'mostly reliable' and picture a gentle decline, when the real curve can be much harsher.",
+            "That is why long testimonial chains deserve disciplined discounting even when no one in the chain seems malicious. The final report may be a product of sincerity plus compounding drift, which is still drift.",
+            "So the practical takeaway is not panic about all testimony. It is caution about serial dependence. Reliability has to be asked at the level of the whole route, not only at the level of each friendly-looking step.",
+        ],
+        "items": [
+            "Local trust is not the same thing as terminal trust.",
+            "Compounding matters most when each node introduces a small but repeated loss.",
+            "Comprehension is often the weak link because people confidently pass on what they only partly understood.",
+            "Honesty helps, but honesty cannot repair misunderstanding it does not notice.",
+            "The main correction is psychological: stop picturing repeated 'pretty good' relays as if they stayed pretty good all the way down.",
+        ],
+    },
+    ("/epistemology/case-2-the-telephone-game/", "prompt-3"): {
+        "heading": "Even a short chain deserves a confidence discount once the content is important.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "This shorter scenario is pedagogically helpful because the numbers are high enough to tempt complacency. Ninety-eight percent fidelity and ninety-five percent comprehension feel excellent, and seven friends does not sound like a dramatic relay. But the point is that even short chains introduce enough room for drift that a careful reader should stop speaking with full confidence.",
+            "The lesson is especially important when the content is sensitive, technical, or emotionally charged. In those cases, even minor reinterpretations can matter a lot. A short chain can preserve the rough gist while quietly distorting the part that matters most.",
+            "So the right habit is gradient confidence. Do not treat the report as worthless, but do not let the pleasant-looking local numbers trick you into treating it as if it were direct observation either. The honest move is to lower confidence in proportion to route length and route fragility.",
+            "That is what makes the exercise more than arithmetic. It teaches numerical humility about testimony: trust can remain, but it should become more careful as the chain grows.",
+        ],
+        "items": [
+            "Short chains are safer than long ones, but they are not magically transparent.",
+            "High per-node quality can still leave meaningful room for cumulative degradation.",
+            "Important content should be checked at the source whenever the cost of distortion is high.",
+            "A relayed message can preserve gist while losing qualifiers, nuance, or evidential caution.",
+            "Better question: how much confidence is still earned after this many minds touched the report?",
+        ],
+    },
+    ("/philosophy-of-science/what-are-pseudosciences/", "prompt-1"): {
+        "heading": "Pseudoscience is protected error dressed in scientific costume.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "A pseudoscience is not merely a view that turns out to be false. Science has always included false starts, dead ends, and badly mistaken theories. The sharper distinction is that science treats error as something to expose and learn from, while pseudoscience treats error as something to manage, reinterpret, or hide.",
+            "That is why surface appearance is not enough. Charts, jargon, white coats, references to studies, and confident expert posture can all be present while the actual method remains evasive. What matters is whether the field allows precise failure, independent checking, ordinary criticism, and real revision when the results do not cooperate.",
+            "A useful comparison is this: a struggling science can be embarrassed. A pseudoscience is usually structured to avoid embarrassment or to convert embarrassment into proof that outsiders are hostile, blind, or corrupt. That difference in error-handling is often more revealing than the advertised claims themselves.",
+            "So the clean definition is methodological. Pseudoscience imitates scientific authority while resisting the public disciplines that make science self-correcting.",
+        ],
+        "items": [
+            "Falsehood is not enough; the key issue is how the claim behaves under testing pressure.",
+            "Scientific costume can include jargon, numbers, experts, and visual seriousness without real methodological risk.",
+            "Disconfirmation should be allowed to count as information rather than automatically being neutralized.",
+            "Revision should be visible and consequential, not cosmetic.",
+            "Reader test: when the theory fails, does the field learn, narrow, retract, and compare rivals, or does it mostly protect itself?",
+        ],
+    },
+    ("/rational-thought/regret-assessment/", "prompt-1"): {
+        "heading": "End-of-life regret is usually less about isolated blunders than about drift away from a life one could still respect.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The most common reported regrets near the end of life are usually not bizarre one-off mistakes. They are patterns: not living truthfully, overconforming to others' expectations, letting fear dominate major choices, neglecting relationships, or delaying what mattered until the delay hardened into a life-shape.",
+            "That matters because regret is not only about pain in the past. It is diagnostic. It shows where a person repeatedly traded the live demands of meaning, honesty, connection, or courage for comfort, caution, inertia, approval, or routine. The pattern is often clearer in hindsight because the small evasions finally line up.",
+            "A simple example helps. Someone may not regret one extra year in a safe but empty role. What they regret is the long series of years in which the role became their explanation for why no change was attempted. The regret is cumulative and structural, not merely episodic.",
+            "So the value of this page is not sentimental. It trains a forward-looking question: which current habits are most likely to look, later on, like repeated surrender to convenience over life?",
+        ],
+        "items": [
+            "Authenticity regret: living too much by borrowed expectations.",
+            "Relationship regret: assuming love, friendship, or repair could always be postponed.",
+            "Fear regret: letting caution make too many major decisions by default.",
+            "Expression regret: not saying what mattered while there was still a real chance to say it.",
+            "Time-blindness: underestimating how quickly repeated delay becomes a settled life pattern.",
+        ],
+    },
+    ("/metaphysics/what-is-metaphysics/", "prompt-2"): {
+        "heading": "Metaphysics matters because later branches inherit its background assumptions whether they admit it or not.",
+    },
+    ("/philosophical-inquiry/dangers-logical-fallacies/", "prompt-1"): {
+        "heading": "A map of common fallacies becomes useful only when each pattern stops looking like the others.",
+    },
+    ("/philosophy-of-language/connotative-equivocation/", "prompt-1"): {
+        "heading": "Connotative equivocation works by changing the emotional freight while pretending the meaning stayed put.",
+    },
+    ("/philosophy-of-language/connotative-equivocation/", "prompt-2"): {
+        "heading": "“Young man” versus “child” matters because connotation can tilt blame before evidence is even weighed.",
+    },
+    ("/philosophy-of-science/the-value-of-surveys/", "prompt-5"): {
+        "heading": "Phone surveys on romance are hard because privacy, vocabulary, and performance all distort the result.",
+    },
+}
+
+
+MANUAL_SECTION_HEADING_OVERRIDES = {
+    # Philosophical Inquiry
+    ("/philosophical-inquiry/an-intellectually-enriched-and-diverse-environment/", "prompt-1"): "How to build a better environment for truth-seeking",
+    ("/philosophical-inquiry/appreciating-our-insignificance/", "prompt-1"): "Why cosmic insignificance can be liberating",
+    ("/philosophical-inquiry/charitable-engagement/", "prompt-1"): "Understand the view before you attack it",
+    ("/philosophical-inquiry/conspiracies-misunderstanding-human-nature/", "prompt-1"): "Conspiracy thinking often begins with a bad model of human nature",
+    ("/philosophical-inquiry/dangers-anti-intellectualism/", "prompt-1"): "Anti-intellectual ideologies sell easy status",
+    ("/philosophical-inquiry/dangers-awe-as-an-indicator/", "prompt-1"): "Awe can accompany truth without proving anything",
+    ("/philosophical-inquiry/dangers-dissipating-promises/", "prompt-1"): "Promises count until scrutiny makes them evaporate",
+    ("/philosophical-inquiry/dangers-egocentrism/", "prompt-1"): "Cosmic self-importance is fertile ground for self-deception",
+    ("/philosophical-inquiry/dangers-explanatory-depth-illusions/", "prompt-1"): "Ideologies often sound deeper than they are",
+    ("/philosophical-inquiry/dangers-ideologies-of-emotion/", "prompt-1"): "Emotional satisfaction is not evidence",
+    ("/philosophical-inquiry/dangers-limits-on-doubt/", "prompt-1"): "Doubt that may go only one direction is not honest doubt",
+    ("/philosophical-inquiry/dangers-ontological-buffet/", "prompt-1"): "Once evidence is sidelined, ontology becomes easy to improvise",
+    ("/philosophical-inquiry/dangers-promissory-treasures/", "prompt-1"): "Deferred treasure can purchase present obedience",
+    ("/philosophical-inquiry/dangers-the-notion-of-fate/", "prompt-1"): "Fate-talk shrinks judgment and agency",
+    ("/philosophical-inquiry/dangers-transcendent-meaning/", "prompt-1"): "Meaning does not collapse just because it is not eternal",
+    ("/philosophical-inquiry/our-view-of-humanity/", "prompt-1"): "A distorted view of human nature distorts what we believe about humans",
+    ("/philosophical-inquiry/packaged-vs-eclectic-ideologies/", "prompt-1"): "Packaged and eclectic ideologies fail in different ways",
+    ("/philosophical-inquiry/philosophical-growth/", "prompt-1"): "How to tell whether your philosophical judgment is maturing",
+    ("/philosophical-inquiry/seeker-scenarios/", "prompt-1"): "Life decisions for a serious young seeker",
+    ("/philosophical-inquiry/the-danger-of-resulting/", "prompt-1"): "Resulting judges decisions by outcomes instead of process",
+
+    # Epistemology
+    ("/epistemology/belief-evidence-graphic/", "prompt-1"): "What the belief-and-evidence graphic is showing",
+    ("/epistemology/black-boxes-epistemology/", "prompt-1"): "Can predictive success justify trust in a black box?",
+    ("/epistemology/case-3-core-rationality/", "prompt-1"): "Does rationality mean mapping confidence to evidence?",
+    ("/epistemology/case-5-vanishing-probabilities/", "prompt-1"): "Why a ghost is still a bad explanation after the apple goes missing",
+    ("/epistemology/collapsing-epistemological-terms/", "prompt-1"): "Do the key epistemic terms stay distinct here?",
+    ("/epistemology/cromwells-rule/", "prompt-1"): "Cromwell's Rule: why absolute certainty almost never belongs in the model",
+    ("/epistemology/deduction-utility-and-issues/", "prompt-1"): "Deduction moves from general rules to specific conclusions",
+    ("/epistemology/establishing-cognitive-reliability-2/", "prompt-1"): "How Bayes could be used to test your own cognitive reliability",
+    ("/epistemology/faith-vs-science/", "prompt-1"): "Why non-overlapping magisteria does not settle the conflict",
+    ("/epistemology/i-dont-know/", "prompt-1"): "Why 'I don't know' is an underused epistemic virtue",
+    ("/epistemology/induction-cold-reading/", "prompt-1"): "Cold reading runs on rapid inductive guesswork",
+    ("/epistemology/induction-utility-and-issues/", "prompt-1"): "Induction extrapolates from patterns rather than guarantees",
+    ("/epistemology/mapping-belief-to-evidence/", "prompt-1"): "Should rational belief track the perceived strength of the evidence?",
+    ("/epistemology/non-scientific-ways-of-knowing/", "prompt-1"): "Can knowledge be rigorous without being scientific?",
+    ("/epistemology/operational-epistemic-rigor/", "prompt-1"): "Where different domains rank in epistemic rigor",
+    ("/epistemology/preponderance-of-evidence/", "prompt-1"): "Belief should scale with evidence rather than flip like a switch",
+    ("/epistemology/presuppositions/", "prompt-1"): "Inductive density explains why confidence can grow without reaching certainty",
+    ("/epistemology/properly-basic-beliefs/", "prompt-1"): "What properly basic beliefs are supposed to do",
+    ("/epistemology/rationality-discussion/", "prompt-1"): "Where EB and PS actually disagree",
+    ("/epistemology/reasoned-probabilities-and-decisions/", "prompt-1"): "Should practical payoff ever raise your estimate of truth?",
+    ("/epistemology/recent-issues-in-epistemology/", "prompt-1"): "Recent questions epistemologists are still wrestling with",
+    ("/epistemology/shades-of-certainty/", "prompt-1"): "Belief is not the same thing as liking or wanting",
+    ("/epistemology/syllogistic-complexity/", "prompt-1"): "Long syllogisms break down before logic does",
+    ("/epistemology/the-burden-of-proof/", "prompt-1"): "What the burden of proof really asks of a public claim",
+    ("/epistemology/the-web-of-induction/", "prompt-1"): "Epistemology may be a web of interdependent inductions",
+    ("/epistemology/types-of-knowing/", "prompt-1"): "The main kinds of knowledge philosophers distinguish",
+    ("/epistemology/types-of-reasoning/", "prompt-1"): "Deduction, induction, and abduction do different jobs",
+    ("/epistemology/vicious-virtuous-circularity/", "prompt-1"): "When circularity is fatal and when it is merely unavoidable",
+    ("/epistemology/what-is-doubt/", "prompt-1"): "Doubt begins where absolute certainty is unjustified",
+    ("/epistemology/what-is-evidence/", "prompt-1"): "Can 'evidence' be defined clearly enough to be useful?",
+    ("/epistemology/what-is-faith/", "prompt-1"): "When belief outruns evidence, what kind of faith is that?",
+    ("/epistemology/what-is-knowledge/", "prompt-1"): "Can knowledge be more objective than ordinary confidence-talk?",
+
+    # Philosophy of AI
+    ("/philosophy-of-ai/a-novel-ai-thought-experiment/", "prompt-1"): "Can an AI devise a genuinely novel thought experiment?",
+    ("/philosophy-of-ai/ai-censorship-case/", "prompt-1"): "Does Ayn Rand's moral grounding survive the exchange?",
+    ("/philosophy-of-ai/ai-defends-itself-humor/", "prompt-1"): "A humorous self-defense can still make a serious point",
+    ("/philosophy-of-ai/ai-in-the-markets/", "prompt-1"): "What this study suggests about AI in the markets",
+    ("/philosophy-of-ai/ai-knowledge/", "prompt-1"): "Which kinds of knowledge AI can and cannot plausibly have",
+    ("/philosophy-of-ai/ai-meta-post-inner-monologues/", "prompt-1"): "Why inner monologues might improve AI reasoning",
+    ("/philosophy-of-ai/ai-meta-post-overreach/", "prompt-1"): "Why helpful AI often overreaches into balance-for-balance's-sake",
+    ("/philosophy-of-ai/ai-overconfidence/", "prompt-1"): "LLM overconfidence looks confident right up to the correction",
+    ("/philosophy-of-ai/ai-response-to-pushback/", "prompt-1"): "Pushback matters because good AI should revise rather than bluff",
+    ("/philosophy-of-ai/feedback-loops/", "prompt-1"): "Feedback loops are how both minds and models learn",
+    ("/philosophy-of-ai/human-reaction-to-ai/", "prompt-1"): "Why the reaction to AI may not follow the old technology script",
+    ("/philosophy-of-ai/openai-introspection/", "prompt-1"): "When should an AI ask for more information?",
+    ("/philosophy-of-ai/precision-prompting/", "prompt-1"): "Different prompting tactics solve different kinds of tasks",
+    ("/philosophy-of-ai/synthetic-ai-data/", "prompt-1"): "What synthetic training data helps with and where it distorts",
+    ("/philosophy-of-ai/the-credibility-of-ai/", "prompt-1"): "How public trust in AI may rise over time",
+    ("/philosophy-of-ai/the-double-descent-phenomenon/", "prompt-1"): "What double descent shows about overfitting in AI",
 }
 
 
@@ -7250,6 +7685,9 @@ def targeted_section_expansion(page: dict, anchor: str) -> dict | None:
 
 
 def targeted_section_heading(page: dict, anchor: str, default_heading: str) -> str:
+    override = MANUAL_SECTION_HEADING_OVERRIDES.get((page.get("built_path", ""), anchor))
+    if override:
+        return clean_text(override)
     expansion = targeted_section_expansion(page, anchor)
     if expansion and expansion.get("heading"):
         return clean_text(expansion["heading"])
@@ -8774,30 +9212,95 @@ def prompt_key_phrase(prompt: str, fallback: str) -> str:
         r"^create a table that displays\s+(.+?)\.?$",
         r"^create a table that, for each\s+(.+?)\s*,.+$",
         r"^create a table of\s+(.+?)\.?$",
+        r"^how have findings in\s+(.+?)\s+led to\s+(.+?)\??$",
         r"^list the most influential\s+(.+?)\s+in history\.?$",
+        r"^list and define \d+ key terms in\s+(.+?)\.?$",
+        r"^list and provide clear explanations of \d+ key concepts in\s+(.+?)\.?$",
+        r"^list and provide explanations of \d+ key concepts in\s+(.+?)\.?$",
+        r"^list and describe new areas of interest in\s+(.+?)\.?$",
         r"^provide a short paragraph explaining\s+(.+?)\.?$",
         r"^provide a short definition of\s+(.+?)\.?$",
         r"^provide a short but clear definition of\s+(.+?)\.?$",
         r"^provide an annotated list of\s+(.+?)\.?$",
+        r"^provide a comprehensive definition of\s+(.+?)\.?$",
         r"^provide a diverse list of\s+(.+?)\.?$",
         r"^provide a list of the key contributions\s+(.+?)\s+have made to philosophical thought\.?$",
         r"^provide a list of the key\s+(.+?)\s+have made to philosophical thought\.?$",
+        r"^provide a list of resources relevant to\s+(.+?)\.?$",
         r"^provide a list that includes\s+(.+?)\.?$",
+        r"^provide a list of books that someone should read if they want to study\s+(.+?)\.?$",
         r"^provide me with a list of\s+(.+?)\.?$",
         r"^provide the most likely causes behind\s+(.+?)\.?$",
+        r"^provide the countries in\s+(.+?)\s+that are most stable politically today\.?$",
+        r"^provide the universities in\s+(.+?)\s+that currently have the strongest programs in\s+(.+?)\.?$",
+        r"^provide a salient description of the most critical issues within\s+(.+?)\s+today\.?$",
+        r"^provide a salient description of the world of\s+(.+?)\s+today\.?$",
+        r"^provide a timeline of the development of\s+(.+?)\.?$",
+        r"^provide \d+ cases in which insights from\s+(.+?)\s+(?:has|have)\s+positively influenced\s+(.+?)\.?$",
+        r"^provide \d+ actual cases in which a proxy was revealed to be improper\.?$",
+        r"^provide a list of potential reasons .+? declined to answer this inquiry .+$",
+        r"^provide a list of philosophers whose opinions would be off-limits .+$",
+        r"^which universities currently have (?:the )?strong(?:est)? programs in\s+(.+?)\??$",
         r"^provide scores.+?for\s+(.+?)\.?$",
         r"^present a table showing\s+(.+?)\.?$",
         r"^using .+?, provide a table of\s+(.+?)\.?$",
         r"^create a table on\s+(.+?)\s+with columns.+$",
         r"^create a structured comparison showing\s+(.+?)\.?$",
         r"^create a quantitative account that\s+(.+?)\.?$",
+        r"^can someone committed to the absence of objective free will also claim there is subjective free will\??$",
+        r"^are deconversions of christians away from their faith into a commitment to rationality typically gradual or rapid\??.*$",
+        r"^provide an explanation of induction that a \d+[- ]year[- ]old child could understand\.?$",
+        r"^list fields of exploration similar to the drake equation in which there are cascading interdependent factors\.?$",
         r"^elaborate on\s+(.+?)\.?$",
         r"^explain\s+(.+?)\.?$",
     ]
     for pattern in command_patterns:
         match = re.match(pattern, cleaned, flags=re.IGNORECASE)
         if match:
-            candidate = compact_text(match.group(1), 90).rstrip(".")
+            if pattern == r"^how have findings in\s+(.+?)\s+led to\s+(.+?)\??$":
+                subject = match.group(1).strip()
+                obj = match.group(2).strip()
+                if "perceptions of value" in obj.lower():
+                    candidate = f"perceived value through {subject}"
+                else:
+                    candidate = f"how {subject} changed {obj}"
+            elif pattern == r"^provide a list of books that someone should read if they want to study\s+(.+?)\.?$":
+                candidate = f"a reading route into {match.group(1)}"
+            elif pattern == r"^provide a list of resources relevant to\s+(.+?)\.?$":
+                candidate = f"resources relevant to {match.group(1)}"
+            elif pattern == r"^provide the countries in\s+(.+?)\s+that are most stable politically today\.?$":
+                candidate = f"political stability in {match.group(1)} today"
+            elif pattern == r"^provide the universities in\s+(.+?)\s+that currently have the strongest programs in\s+(.+?)\.?$":
+                candidate = f"strong programs in {match.group(2)}"
+            elif pattern == r"^provide a salient description of the most critical issues within\s+(.+?)\s+today\.?$":
+                candidate = f"the main issues in {match.group(1)}"
+            elif pattern == r"^provide a salient description of the world of\s+(.+?)\s+today\.?$":
+                candidate = f"{match.group(1)} today"
+            elif pattern == r"^provide \d+ cases in which insights from\s+(.+?)\s+(?:has|have)\s+positively influenced\s+(.+?)\.?$":
+                subject = match.group(1).strip()
+                obj = match.group(2).strip()
+                candidate = f"policy influence of {subject}"
+                if obj.lower() not in {"policy", "policies"}:
+                    candidate += f" on {obj}"
+            elif pattern == r"^provide \d+ actual cases in which a proxy was revealed to be improper\.?$":
+                candidate = "improper proxies in practice"
+            elif pattern == r"^provide a list of potential reasons .+? declined to answer this inquiry .+$":
+                candidate = "reasons an AI may refuse an inquiry"
+            elif pattern == r"^provide a list of philosophers whose opinions would be off-limits .+$":
+                candidate = "philosophers caught by censorship rules"
+            elif pattern == r"^which universities currently have (?:the )?strong(?:est)? programs in\s+(.+?)\??$":
+                candidate = f"strong programs in {match.group(1)}"
+            elif pattern == r"^can someone committed to the absence of objective free will also claim there is subjective free will\??$":
+                candidate = "subjective free will without objective free will"
+            elif pattern == r"^are deconversions of christians away from their faith into a commitment to rationality typically gradual or rapid\??.*$":
+                candidate = "how deconversion unfolds"
+            elif pattern == r"^provide an explanation of induction that a \d+[- ]year[- ]old child could understand\.?$":
+                candidate = "induction explained to a child"
+            elif pattern == r"^list fields of exploration similar to the drake equation in which there are cascading interdependent factors\.?$":
+                candidate = "drake-like cascading models across fields"
+            else:
+                candidate = match.group(1)
+            candidate = compact_text(candidate, 90).rstrip(".")
             if candidate:
                 return candidate[0].upper() + candidate[1:]
 
@@ -8816,6 +9319,11 @@ def prompt_key_phrase(prompt: str, fallback: str) -> str:
 
 
 def source_prompt_heading(prompt: str, topic: str, detail: dict | None) -> str:
+    key = short_prompt_key(prompt, topic)
+    prompt_specific_heading = ""
+    if key and key.lower() != topic.lower():
+        prompt_specific_heading = article_native_heading(key, prompt, topic)
+
     labels = source_detail_labels(detail)
     if labels:
         center = ""
@@ -8832,12 +9340,426 @@ def source_prompt_heading(prompt: str, topic: str, detail: dict | None) -> str:
             prompt_focus(prompt) == "inquiry"
             and any(term in lowered_center for term in ("example", "methodolog", "consideration", "context", "discussion", "question", "week", "objective", "program", "accessible"))
         ):
-            return article_native_heading(center, prompt, topic)
+            label_heading = article_native_heading(center, prompt, topic)
+            low_value_centers = {
+                "articles",
+                "australia",
+                "books",
+                "courses",
+                "europe",
+                "programs",
+                "resources",
+                "term",
+                "terms",
+                "universities",
+            }
+            if prompt_specific_heading and (
+                label_heading == prompt_heading(prompt, topic)
+                or is_generic_heading_for_topic(label_heading, topic)
+                or clean_text(center).strip().lower() in low_value_centers
+                or len(clean_text(center).split()) <= 2
+            ) and not is_generic_heading_for_topic(prompt_specific_heading, topic):
+                return prompt_specific_heading
+            return label_heading
 
-    key = short_prompt_key(prompt, topic)
-    if key and key.lower() != topic.lower():
-        return article_native_heading(key, prompt, topic)
+    if prompt_specific_heading:
+        return prompt_specific_heading
     return prompt_heading(prompt, topic)
+
+
+def heading_norm(text: str) -> str:
+    return clean_text(text).strip().lower()
+
+
+HEADING_TEMPLATE_SNIPPETS = (
+    "The real issue is what ",
+    " matters only if it survives the strongest pressure against it.",
+    " becomes usable once the reader knows what to watch for.",
+    " requires sharper edges before the distinction can guide judgment.",
+    "A concrete case shows what ",
+    "The map of ",
+)
+
+HEADING_END_STOPWORDS = {
+    "a",
+    "an",
+    "and",
+    "as",
+    "at",
+    "by",
+    "for",
+    "from",
+    "if",
+    "in",
+    "into",
+    "is",
+    "it",
+    "of",
+    "on",
+    "or",
+    "that",
+    "the",
+    "to",
+    "what",
+    "when",
+    "where",
+    "which",
+    "who",
+    "why",
+    "with",
+    "without",
+}
+
+ALLOWED_NONQUESTION_HEADING_PREFIXES = (
+    "A clear definition of ",
+    "A comprehensive assessment of ",
+    "A comprehensive definition of ",
+    "A general description of ",
+    "A rigorous definition of ",
+    "An extensive list of ",
+    "Arguments for and against ",
+    "Best usage cases for ",
+    "Common traits of ",
+    "Domains of ",
+    "Key terms in ",
+    "Philosophers by ",
+    "Rigorous formulations of ",
+    "Rigorous definitions of ",
+    "What the ",
+    "A definition of ",
+    "A list of ",
+    "A taxonomy of ",
+    "A table of ",
+    "A timeline of ",
+    "Analogies for ",
+    "The background of ",
+    "The distinctions between ",
+    "The importance of ",
+    "The major schools of ",
+    "The move away from ",
+    "The tension between ",
+    "The difference between ",
+    "Key terms in ",
+    "Subjective and objective notions of ",
+    "Subjective and objective notions of the ",
+    "How the ",
+    "The case for ",
+    "Why Keynes",
+    "Essential ",
+    "The coherence of ",
+    "Divine hiddenness through ",
+    "Proposed ontological domains",
+    "An introduction to ",
+    "Miraculous or fantastical accounts in ",
+    "Walls of ",
+    "Where languages fall ",
+)
+
+
+def heading_is_template_like(heading: str) -> bool:
+    cleaned = clean_text(heading).strip()
+    if not cleaned:
+        return False
+    return any(snippet in cleaned for snippet in HEADING_TEMPLATE_SNIPPETS)
+
+
+def heading_ends_cleanly(text: str) -> bool:
+    cleaned = clean_text(text).strip()
+    if not cleaned:
+        return False
+    terminal = cleaned.rstrip("?.!")
+    words = terminal.split()
+    if not words:
+        return False
+    return words[-1].lower() not in HEADING_END_STOPWORDS
+
+
+def self_standing_question_heading(text: str) -> bool:
+    cleaned = clean_text(text).strip()
+    lowered = cleaned.lower()
+    if not cleaned.endswith("?"):
+        return False
+    if len(cleaned) < 15 or len(cleaned) > 108:
+        return False
+    blocked_starts = (
+        "is this ",
+        "is that ",
+        "are these ",
+        "are those ",
+        "would that ",
+        "or does ",
+        "or is ",
+        "or are ",
+        "or can ",
+        "how can i ",
+        "based on this ",
+        "what are some criticisms of this view",
+        "what do they mean by this",
+        "which is more correct",
+        "right?",
+        "correct?",
+        "something else?",
+    )
+    if lowered.startswith(blocked_starts):
+        return False
+    if any(fragment in lowered for fragment in (" this view", " this definition", " this claim", " this report", " this prompt", " this position", " this phenomenon", "prompt:", "discussion with ", "the challenge:")):
+        return False
+    return True
+
+
+def question_heading_score(text: str, topic: str, position: int) -> float:
+    cleaned = clean_text(text).strip()
+    lowered = cleaned.lower()
+    topic_tokens = {
+        token
+        for token in re.findall(r"[a-zA-Z]{4,}", topic.lower())
+        if token not in {"page", "core", "concepts", "basic", "basics", "introduction"}
+    }
+    text_tokens = set(re.findall(r"[a-zA-Z]{4,}", lowered))
+    overlap = len(topic_tokens & text_tokens)
+    score = overlap * 10.0
+    score += min(len(cleaned), 96) / 100.0
+    score -= position * 0.15
+    if cleaned.endswith("?"):
+        score += 0.75
+    if lowered.startswith(("what is ", "what are ", "why is ", "why are ", "why do ", "why does ", "how is ", "how are ", "how do ", "how does ", "can ", "could ", "should ", "is ", "are ")):
+        score += 0.5
+    if any(fragment in lowered for fragment in (" according to most ", " in philosophy", " in public discourse", " in knowledge acquisition", " to a functioning state")):
+        score += 0.4
+    return score
+
+
+def prompt_surface_text(prompt: str) -> str:
+    cleaned = display_label(strip_number_prefix(prompt)).strip()
+    cleaned = re.sub(r"^(prompt|question)\s*\d+\s*:\s*", "", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\bsecnarios\b", "scenarios", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\s+", " ", cleaned)
+    return cleaned
+
+
+def distilled_prompt_heading(prompt: str, topic: str) -> str:
+    cleaned = prompt_surface_text(prompt).strip(" .")
+    if not cleaned:
+        return topic
+
+    patterns = [
+        (r"^describe the content of this graphic\.?$", "What the graphic is showing"),
+        (r"^describe the difference between (.+?) were .+$", r"The difference between \1"),
+        (r"^describe the ways (.+?) inform each other\.?$", r"How \1 inform each other"),
+        (r"^describe the major schools of economic thought and highlight their major differences\.?$", "The major schools of economic thought"),
+        (r"^discuss the importance of (.+?)\.?$", r"The importance of \1"),
+        (r"^discuss the recent move away from the assumption of (.+?)\.?$", r"The move away from the assumption of \1"),
+        (r"^discuss the intrinsic tension between (.+?)\.?$", r"The tension between \1"),
+        (r"^list and comment on (.+?)\.?$", r"\1"),
+        (r"^list at least \d+ [“\"]?philosophers[”\"]? in each category\.?$", "Philosophers by category"),
+        (r"^name a few recent issues in (.+?) that philosophers are currently grappling with\.?$", r"Recent issues in \1"),
+        (r"^provide a timeline of (?:the history of )?(.+?)\.?$", r"A timeline of \1"),
+        (r"^provide a general description of (.+?)\.?$", r"A general description of \1"),
+        (r"^provide (?:me with )?rigorous formulations of (.+?)\.?$", r"Rigorous formulations of \1"),
+        (r"^provide a full and rigorous definition of (?:a |an )?(.+?)\.?$", r"A rigorous definition of \1"),
+        (r"^provide a comprehensive definition of (.+?)\.?$", r"A comprehensive definition of \1"),
+        (r"^provide a clear definition of (.+?)\.?$", r"A clear definition of \1"),
+        (r"^provide a clear definition of (.+?) and \d+ examples\.?$", r"A clear definition of \1"),
+        (r"^provide a comprehensive assessment of (.+?)\.?$", r"A comprehensive assessment of \1"),
+        (r"^provide the background of the author of this article\.?$", "The author's background"),
+        (r"^provide the background of (.+?)\.?$", r"The background of \1"),
+        (r"^provide a list of best usage cases for (.+?)\.?$", r"Best usage cases for \1"),
+        (r"^provide an extensive list of (.+?)\.?$", r"An extensive list of \1"),
+        (r"^provide a table showing the poverty lines in .+? below the poverty line\.?$", "A table of poverty lines across countries"),
+        (r"^provide evidence that we are on an upward economic trajectory that will continue to provide ever-better career and lifestyle opportunities to global citizens\.?$", "Evidence for long-run economic optimism"),
+        (r"^provide a list of [“\"]walls of inscrutability[”\"] accompanying particular claims in which all possible outcomes are encompassed by the expansiveness of the claims\.?$", "Walls of inscrutability around major claims"),
+        (r"^provide several analogies or microcosmic scenarios that saliently describe the dynamics of (.+?)\.?$", r"Analogies for \1"),
+        (r"^create a table that displays which countries adhere to which (.+?)\.?$", r"Which countries align with which \1"),
+        (r"^create a table that displays where languages fall along the functional/aesthetic dimension\.?$", "Where languages fall on the functional/aesthetic dimension"),
+        (r"^create a table that rates each factor contributing to (.+?)\.?$", r"How the factors behind \1 compare"),
+        (r"^create a table with the following domains of ai capability and add columns reflecting recently acquired, beta stage, and 1-year away\.?$", "Domains of AI capability"),
+        (r"^give the accounts of \d+ (.+?) in history that could have been easily avoided\.?$", r"Avoidable \1 in history"),
+        (r"^provide \d+ actual accounts of clear (.+?) successes\.?$", r"Clear \1 successes"),
+        (r"^provide \d+ actual accounts of clear (.+?) failures\.?$", r"Clear \1 failures"),
+        (r"^the following traits appear to be common among (.+?)\. comment on each and expand the list if possible\.?$", r"Common traits of \1"),
+        (r"^what evidence is there that (.+?) exists\.?$", r"What evidence is there that \1 exists?"),
+        (r"^what does psychology say about (.+?)\??$", r"What psychology says about \1"),
+        (r"^what accounts for (.+?)\??$", r"What accounts for \1"),
+        (r"^how can rational thinkers ensure (.+?)\??$", r"How rational thinkers can ensure \1"),
+        (r"^which of the business risks introduced below by claude are too often neglected by entrepreneurs in the current climate of commerce\??$", "Which business risks do entrepreneurs neglect most often?"),
+        (r"^which of these schools of economic thought have been most rigorously tested in actual economies, and what have been the apparent results\??$", "Which economic schools have been tested most rigorously in real economies?"),
+        (r"^if we use income per capita within an area employing a particular economic system as our metric, what economic systems have been most successful\??$", "Which economic systems perform best by income per capita?"),
+        (r"^economist john maynard keynes predicted.+?what are the reasons this prediction appears to be failing\??$", "Why does Keynes's 15-hour workweek prediction look wrong?"),
+        (r"^economics has been called the [“\"]dismal science[”\"]\. explain the context in which this was said, and comment on the notion\.?$", "Why was economics called the “dismal science”?"),
+        (r"^have the advantages of fiat money been robust enough to make it the best option for most economies\??$", "Are fiat money's advantages strong enough for most economies?"),
+        (r"^assuming that a good is not existentially necessary, can any price for that good be rationally considered unfair\??$", "Can any non-essential good be priced unfairly?"),
+        (r"^based on this report, provide scores for the effects of the ubi experiment\.?$", "How the UBI experiment scored"),
+        (r"^given the speed of ai technology.+?write an essay on the analogy between deflationary spirals in economics and accelerating ai\.?$", "The deflationary-spiral analogy for AI projects"),
+        (r"^provide arguments for and against allowing ais to participate in public discourse\. score the strength of each argument, and provide the probable counterarguments\.?$", "Arguments for and against AI in public discourse"),
+        (r"^weigh in on the argument related to (.+?) below\.?$", r"The case for \1"),
+        (r"^create a table on \d+ essential (.+?) concepts .+$", r"Essential \1 concepts"),
+        (r"^comment on the coherency of the following quote by (.+?)\.?$", r"The coherence of the quote from \1"),
+        (r"^divine hiddenness has been long debated\. weigh in on the following analogy\.?$", "Divine hiddenness through analogy"),
+        (r"^provide a list of proposed ontological domains\.?$", "Proposed ontological domains"),
+        (r"^elaborate on subjective and objective notions of [“\"]real[”\"]\.?$", "Subjective and objective notions of the real"),
+        (r"^provide an in-depth description of information theory\.?$", "An introduction to information theory"),
+        (r"^what gradients of philosophical thought can we assesses against particular philosophers\??$", "Which philosophical gradients help map particular philosophers?"),
+        (r"^people are beginning to claim that (.+?)\. how would you respond\??$", r"Are claims that \1 justified?"),
+        (r"^how can this interdependent recursive probability problem be resolved.+?does the recursion prevent an answer\??$", "Does recursive dependence prevent a stable credence assignment?"),
+        (r"^rational belief is a degree of belief that maps to the degree of the relevant evidence\. therefore there is no [“\"]adequate[”\"] degree of evidence at which an epistemic switch goes from off to on, right\??$", "Is there any adequate threshold of evidence that flips belief on?"),
+        (r"^what are the ways a believer in christianity might explain or explain away the following apparent logical contradiction\??$", "How might a Christian explain away an apparent contradiction?"),
+        (r"^can you produce a preliminary mathematical model of the dynamics for ethical dispositions of a society based on these .+$", "Can ethical dynamics be modeled mathematically?"),
+        (r"^is there not an intrinsic logical tension or incoherency between .+$", "Is there a tension between miracles and faith as reasons to believe?"),
+        (r"^how does the multi-factorial and interdisciplinary nature of economic analysis affect the types of conclusions economists can draw.+$", "How economic complexity limits the conclusions economists can draw"),
+        (r"^what micro and macro economic factors might a coo of a company of 100 employees pay close attention to\??$", "Which micro and macro factors matter most to a COO?"),
+        (r"^how have religions and notions of god most notably changed since the advent of science and modernity\??$", "How has theism changed since modernity?"),
+        (r"^there has been a long history of religions making claims of supernatural causation.+?has religions[’'] exposure to this track record resulted a more humble disposition toward the unknown\??$", "Has failed supernatural explanation made religion more humble?"),
+        (r"^what, historically, have been the factors that have contributed to stable political states, and how has the concept of a state itself evolved\??$", "What makes a political state stable over time?"),
+        (r"^is every human decision based on a preference, and is that preference always based on a pleasure or the avoidance of a pain\??$", "Are all preferences grounded in pleasure or pain?"),
+        (r"^given (.+?) is unsubstantiated, what are some ways humans can create (.+?)\??$", r"How humans create \2 without \1"),
+        (r"^some people claim that (.+?) is worthless .+? how might i respond\??$", r"How to defend \1 against the charge of worthlessness"),
+        (r"^it appears that the notion of [“\"]purpose[”\"] is also categorized into personal purpose and cosmic purpose\. is cosmic purpose evidenced to any degree\??$", "Is there evidence for cosmic purpose?"),
+        (r"^i['’]m currently skeptical on there being a coherent grounding for (.+?)\. can you elaborate on .+$", r"The skeptical case against grounding \1"),
+        (r"^what advice would you give a young person considering majoring in philosophy\??$", "Advice for a prospective philosophy major"),
+        (r"^what seem to be the major determinants behind the successful migration of (.+?) into conventional acceptance\??$", r"What helps \1 become conventional"),
+        (r"^what can we do to maintain perspective and appreciate our current opportunities rather than focusing on our seemingly boundless desires\.?$", "How to maintain perspective amid expanding desires"),
+        (r"^provide real data on the economic progress of humanity over the past three centuries\.?$", "Data on humanity’s economic progress over three centuries"),
+        (r"^if a priori knowledge is not actually grounded through empirical experience, what else could ground this class of knowledge\??$", "What could ground a priori knowledge besides experience?"),
+        (r"^in which fields are (.+?) increasingly being recruited\.?$", r"Where \1 are increasingly being recruited"),
+        (r"^which fields of philosophy are currently most desired by company recruiters\??$", "What recruiters want from philosophy training"),
+        (r"^in your three scenarios, what would be the actual danger of (.+?)\??$", r"What is the actual danger of \1?"),
+        (r"^what would be the actual danger of (.+?)\??$", r"What is the actual danger of \1?"),
+        (r"^was individual [a-z] rational to wait until .+? threshold .+$", "Was waiting for a threshold rational?"),
+        (r"^can individual [a-z] rationally say .+?i knew it all along.+$", "Could that confidence honestly say, “I knew it all along”?"),
+        (r"^provide three scenarios in which the cost of belief would be high.+$", "When high stakes justify withholding belief"),
+    ]
+    for pattern, replacement in patterns:
+        match = re.match(pattern, cleaned, flags=re.IGNORECASE)
+        if not match:
+            continue
+        if "\\" in replacement:
+            candidate = match.expand(replacement)
+        else:
+            candidate = replacement
+        candidate = clean_text(candidate).strip(" .")
+        if candidate:
+            return candidate
+
+    sentence_candidates = [
+        clean_text(sentence).strip(" .")
+        for sentence in re.split(r"(?<=[.?!])\s+", cleaned)
+        if clean_text(sentence).strip(" .")
+    ]
+    question_like_sentences = [
+        sentence for sentence in sentence_candidates
+        if sentence.endswith("?") or re.match(r"^(what|how|why|which|who|when|where|can|could|should|is|are|do|does|did|would)\b", sentence, flags=re.IGNORECASE)
+    ]
+    if question_like_sentences:
+        candidate = max(
+            enumerate(question_like_sentences),
+            key=lambda pair: (question_heading_score(pair[1], topic, pair[0]), -pair[0]),
+        )[1].rstrip("?.") + "?"
+        if len(candidate) <= 110:
+            return candidate
+
+    key = short_prompt_key(cleaned, topic)
+    cleaned_key = clean_heading_subject(key, topic).strip(" .")
+    if cleaned_key and cleaned_key.lower() != topic.lower() and not command_like_key(cleaned_key):
+        if re.match(r"^(what|how|why|which|who|when|where|can|could|should|is|are|do|does|did|would)\b", cleaned_key, flags=re.IGNORECASE):
+            return cleaned_key.rstrip("?.") + "?"
+        if len(cleaned_key.split()) <= 12:
+            return cleaned_key[:1].upper() + cleaned_key[1:]
+
+    if re.match(r"^(what|how|why|which|who|when|where|can|could|should|is|are|do|does|did|would)\b", cleaned, flags=re.IGNORECASE):
+        if len(cleaned) <= 118:
+            return cleaned.rstrip("?.") + "?"
+        clipped = compact_text(cleaned.rstrip("?"), 108).rstrip(".")
+        if not clipped.endswith("?"):
+            clipped += "?"
+        return clipped
+
+    clipped = compact_text(cleaned, 110).rstrip(".")
+    if clipped:
+        return clipped[:1].upper() + clipped[1:]
+    return topic
+
+
+def distinct_heading_candidates(prompt: str, topic: str, original_heading: str) -> list[str]:
+    key = short_prompt_key(prompt, topic)
+    candidates: list[str] = []
+    if key and key.lower() != topic.lower():
+        candidates.append(article_native_heading(key, prompt, topic))
+    candidates.append(distilled_prompt_heading(prompt, topic))
+    cleaned_key = clean_heading_subject(key, topic).strip(" .")
+    if cleaned_key and cleaned_key.lower() != topic.lower() and not command_like_key(cleaned_key):
+        if re.match(r"^(what|how|why|which|who|when|where|can|could|should|is|are|do|does|did|would)\b", cleaned_key, flags=re.IGNORECASE):
+            candidates.append(cleaned_key.rstrip("?.") + "?")
+        else:
+            candidates.append(cleaned_key[:1].upper() + cleaned_key[1:])
+            candidates.append(f"The live pressure point is {cleaned_key}.")
+    candidates.append(original_heading)
+    unique: list[str] = []
+    seen: set[str] = set()
+    for candidate in candidates:
+        cleaned = clean_text(candidate).strip()
+        normalized = heading_norm(cleaned)
+        if not cleaned or not normalized or normalized in seen:
+            continue
+        seen.add(normalized)
+        unique.append(cleaned)
+    return unique
+
+
+def resolve_duplicate_prompt_headings(page: dict, sections: list[dict]) -> list[dict]:
+    topic = topic_label(page["title"])
+    seen: set[str] = set()
+    for section in sections:
+        heading = clean_text(section.get("heading", "")).strip()
+        normalized = heading_norm(heading)
+        if not normalized:
+            continue
+        if not section.get("prompt") or normalized not in seen:
+            seen.add(normalized)
+            continue
+        for candidate in distinct_heading_candidates(section["prompt"], topic, heading):
+            candidate_norm = heading_norm(candidate)
+            if not candidate_norm or candidate_norm in seen:
+                continue
+            section["heading"] = candidate
+            normalized = candidate_norm
+            break
+        seen.add(normalized)
+    return sections
+
+
+def promote_prompt_faithful_heading(
+    original_heading: str,
+    prompt: str,
+    topic: str,
+    index: int,
+) -> str:
+    heading = clean_text(original_heading).strip()
+    if index != 1 or not heading_is_template_like(heading):
+        return heading
+    candidate = clean_text(distilled_prompt_heading(prompt, topic)).strip()
+    if not candidate or heading_norm(candidate) == heading_norm(heading):
+        return heading
+    if command_like_key(candidate):
+        return heading
+    if heading_norm(candidate) == heading_norm(topic):
+        return heading
+    question_like = bool(
+        candidate.endswith("?")
+        or re.match(r"^(what|how|why|which|who|when|where|can|could|should|is|are|do|does|did|would)\b", candidate, flags=re.IGNORECASE)
+    )
+    if question_like:
+        if not self_standing_question_heading(candidate):
+            return heading
+        return candidate
+    if len(candidate.split()) < 3:
+        return heading
+    if len(candidate) > 80:
+        return heading
+    if not heading_ends_cleanly(candidate):
+        return heading
+    if not candidate.startswith(ALLOWED_NONQUESTION_HEADING_PREFIXES):
+        return heading
+    return candidate
 
 
 def command_like_key(text: str) -> bool:
@@ -9119,26 +10041,27 @@ def prompt_heading(prompt: str, topic: str) -> str:
     key = clean_discussion_key(short_prompt_key(prompt, topic), topic, topic)
     if command_like_key(key):
         key = topic
+    subject = key if key and key.lower() != topic.lower() else topic
     if topic_is_question_like(topic) and key.lower() == topic.lower():
         return generic_heading_for_question_topic(focus)
     if focus == "dialogue":
-        return f"What the exchange brings out about {topic}."
+        return f"The dialogue matters because it tests {subject} in public."
     if focus == "description":
-        return f"How to get a usable grip on {key}."
+        return f"{subject} becomes usable once the reader knows what to watch for."
     if focus == "examples":
-        return f"What {topic} looks like in a real case."
+        return f"A concrete case shows what {subject} explains and where it strains."
     if focus == "mapping":
-        return f"How the pieces of {topic} fit together."
+        return f"The map of {subject} becomes useful once the parts stop doing different work."
     if focus == "argument":
-        return f"Where the argument about {topic} gets tested."
+        return f"{subject} matters only if it survives the strongest pressure against it."
     if focus == "definition":
-        return f"What {topic} needs to mean once the easy cases are out of the way."
+        return f"{subject} {require_verb_for_heading(subject)} sharper edges before the distinction can guide judgment."
     topic_for_heading = topic
     if topic_is_question_like(topic):
-        return "The question only helps once it gets precise."
+        return "The real issue is what the question changes once it becomes precise."
     if topic_for_heading.startswith("The "):
         topic_for_heading = "the " + topic_for_heading[4:]
-    return f"What matters most in {topic_for_heading}."
+    return f"The real issue is what {topic_for_heading} changes once it becomes precise."
 
 
 def prompt_response_paragraphs(page: dict, prompt: str, index: int, detail: dict | None = None) -> list[str]:
@@ -9615,6 +10538,8 @@ def short_prompt_key(prompt: str, topic: str) -> str:
         (r"^is there (?:any |a |an )?(.+?)\??$", r"whether there is \1"),
         (r"^what real[- ]world value do (.+?) have\??$", r"the real-world value of \1"),
         (r"^what value do (.+?) have\??$", r"the value of \1"),
+        (r"^what are the limitations and criticisms of (.+?)\??$", r"the limits of \1"),
+        (r"^what are the [“\"]hooks[”\"] that make (.+?) attractive to humans\.?$", r"why \1 attract belief"),
         (r"^demonstrate how an informally articulated argument can be reformulated as a syllogism\.?$", r"recasting an informal argument as a syllogism"),
         (r"^demonstrate how (.+?) can be reformulated as a syllogism\.?$", r"recasting \1 as a syllogism"),
         (r"^what would be a more coherent way to express (.+?)\??$", r"a clearer way to express \1"),
@@ -9628,9 +10553,16 @@ def short_prompt_key(prompt: str, topic: str) -> str:
         ),
         (r"^provide a diverse list of (.+?), and discuss .+$", r"\1"),
         (r"^provide a list that includes an extensive list of (.+?)\. .+$", r"\1"),
+        (r"^provide an extensive list of (.+?) along with the reasons .+$", r"why \1 count as pseudosciences"),
         (r"^provide a list of the key contributions (.+?) have made to philosophical thought\.?$", r"key contributions of \1 to philosophical thought"),
         (r"^provide a list of the key (.+?) have made to philosophical thought\.?$", r"key contributions of \1 to philosophical thought"),
+        (r"^list and define \d+ key terms in (.+?)\.?$", r"key terms in \1"),
+        (r"^list and provide clear explanations of \d+ key concepts in (.+?)\.?$", r"key concepts in \1"),
         (r"^list the most influential (.+?) in history\.?$", r"influential \1 in history"),
+        (r"^provide the top ten mathematical equations essential to (.+?)\.?$", r"essential equations in \1"),
+        (r"^provide a salient description of the world of (.+?) today\.?$", r"\1 today"),
+        (r"^provide \d+ historical or hypothetical examples in which (.+?) led or could lead to (.+?)\.?$", r"\2 through \1"),
+        (r"^provide \d+ examples in which the falsification of (.+?) resulted in (.+?)\.?$", r"\2 through testing \1"),
         (r"^produce a \d+[- ]line hypothetical dialogue between (.+?)\.?$", r"a short dialogue between \1"),
         (r"^produce a \d+[- ]line dialogue between (.+?)\.?$", r"a short dialogue between \1"),
         (r"^create a table that, for each (.+?), provides .+$", r"\1"),
@@ -9638,6 +10570,7 @@ def short_prompt_key(prompt: str, topic: str) -> str:
         (r"^create a table that displays (.+?)\.?$", r"\1"),
         (r"^using .+?, provide a table of (.+?), their .+$", r"\1"),
         (r"^present a table showing (.+?)\.?$", r"\1"),
+        (r"^provide examples of the logical structures for each of the following logics\.?$", r"logical structures across multiple logics"),
         (r"^provide me with a table with two lists, .+?risks that humans tend to (.+?)\.?$", "risk perception asymmetry"),
         (r"^create an interesting and clear hypothetical dialogue between (.+?) that .+$", r"\1"),
         (r"^which of those guesses is most likely.*$", "the most likely interpretation"),
@@ -9869,6 +10802,7 @@ def reader_test_paragraph(page: dict, prompt: str, focus: str) -> str:
     key_text = clean_discussion_key(key, topic, "the central distinction")
     if command_like_key(key_text):
         key_text = semantic_hook_items(page, prompt, None)[0]
+    key_text = safe_guiding_phrase(key_text, topic, "the central distinction")
     profile = branch_profile(page["section_id"])
     focus_tests = {
         "dialogue": "A good dialogue should let the reader feel the pressure of both sides before the answer settles.",
@@ -10361,8 +11295,10 @@ def worked_example_paragraph(page: dict, prompt: str, detail: dict | None, focus
     key_text = clean_discussion_key(key, topic, "the central distinction")
     if command_like_key(key_text):
         key_text = topic
+    key_text = safe_guiding_phrase(key_text, topic, topic)
     labels = learning_context_labels(page, prompt, detail, 3)
-    label_text = serial_join(labels[:2]) or key_text
+    safe_labels = [safe_guiding_phrase(label, topic, topic) for label in labels[:2]]
+    label_text = serial_join(safe_labels) or key_text
 
     if focus == "definition":
         return (
@@ -10448,9 +11384,13 @@ def editorial_polish_content(
         polished_items = dedupe(polished_items)
 
     polished_paragraphs = list(paragraphs)
+    target_depth = 320 if page["section_id"] != "philosophers" else 300
     if (
         focus in {"definition", "mapping", "argument", "examples", "inquiry", "description"}
-        and not has_concrete_example_support(detail, polished_paragraphs, polished_items)
+        and (
+            not has_concrete_example_support(detail, polished_paragraphs, polished_items)
+            or content_word_count(polished_paragraphs, polished_items) < target_depth
+        )
     ):
         append_unique_paragraph(polished_paragraphs, worked_example_paragraph(page, prompt, detail, focus))
     append_unique_paragraph(polished_paragraphs, sequence_context_paragraph(page, prompt, prompts, index))
@@ -10459,12 +11399,21 @@ def editorial_polish_content(
     if (
         page["section_id"] != "philosophers"
         and focus != "dialogue"
-        and not has_dialectical_support(detail, polished_paragraphs, polished_items)
+        and (
+            not has_dialectical_support(detail, polished_paragraphs, polished_items)
+            or content_word_count(polished_paragraphs, polished_items) < target_depth
+        )
     ):
         append_unique_paragraph(polished_paragraphs, dialogical_pressure_paragraph(page, prompt, focus))
     if len(polished_paragraphs) < 4 or content_word_count(polished_paragraphs, polished_items) < 255:
         append_unique_paragraph(polished_paragraphs, editorial_insight_paragraph(page, prompt, focus))
     if content_word_count(polished_paragraphs, polished_items) < 235:
+        append_unique_paragraph(polished_paragraphs, reader_test_paragraph(page, prompt, focus))
+    if len(polished_paragraphs) < 5 or content_word_count(polished_paragraphs, polished_items) < target_depth:
+        append_unique_paragraph(polished_paragraphs, intermediate_reader_paragraph(page, prompt, focus))
+    if content_word_count(polished_paragraphs, polished_items) < target_depth + 20:
+        append_unique_paragraph(polished_paragraphs, editorial_insight_paragraph(page, prompt, focus))
+    if content_word_count(polished_paragraphs, polished_items) < target_depth + 35:
         append_unique_paragraph(polished_paragraphs, reader_test_paragraph(page, prompt, focus))
     if preserves_metaethical_stance(page, prompt, detail):
         append_unique_paragraph(polished_paragraphs, metaethical_stance_paragraph())
@@ -10668,6 +11617,7 @@ def quality_assessment(
     philosopher_gap = page["section_id"] == "philosophers"
     reasons: list[str] = []
     gap_reasons: list[str] = []
+    polish_reasons: list[str] = []
 
     score = 18
     if detail:
@@ -10754,7 +11704,10 @@ def quality_assessment(
         exceptional_ready = True
         gap_reasons = []
 
-    if not exceptional_ready:
+    repair_needed = score < 85 or level in {"thin", "developing"}
+    polish_opportunity = (not exceptional_ready) and score >= 85 and not philosopher_gap
+
+    if not exceptional_ready and (repair_needed or philosopher_gap):
         if word_count < 360:
             gap_reasons.append("Needs a little more argumentative texture before it reaches the exceptional bar.")
         if avg_item_words < 16:
@@ -10765,14 +11718,25 @@ def quality_assessment(
             gap_reasons.append("A fair objection-and-reply moment would make the section feel more alive and more rigorous.")
         if metrics["labels"] <= 1 and metrics["sourceParagraphs"] <= 1 and metrics["tables"] == 0 and metrics["dialogueTurns"] < 4:
             gap_reasons.append("Source hierarchy is sparse; later hand-curation should add examples, objections, or context.")
+    elif polish_opportunity:
+        if avg_item_words < 15:
+            polish_reasons.append("Support items could become a little more explanatory and a little less label-like.")
+        if not example_support and focus in {"definition", "mapping", "argument", "examples", "inquiry", "description"}:
+            polish_reasons.append("A worked example would likely make the distinction easier to carry into a live case.")
+        if not dialectical_support and focus != "dialogue":
+            polish_reasons.append("A brief objection-and-reply moment would make the section feel more alive and more rigorous.")
+        if word_count < 340:
+            polish_reasons.append("The section could use slightly more argumentative texture to feel fully settled.")
     if philosopher_gap:
         gap_reasons.append("Philosopher page needs eventual primary-source texture, historical setting, and influence trail.")
-    needs_gap_fill = (not exceptional_ready) or philosopher_gap
+    needs_gap_fill = repair_needed or philosopher_gap
 
     return {
         "score": score,
         "level": level,
-        "needsReview": level in {"thin", "developing"} or not editorial_depth,
+        "needsReview": repair_needed,
+        "polishOpportunity": polish_opportunity,
+        "polishReasons": polish_reasons[:3],
         "exceptionalReady": exceptional_ready,
         "needsGapFill": needs_gap_fill,
         "gapReasons": gap_reasons[:3],
@@ -10832,7 +11796,12 @@ def source_prompt_sections(page: dict, prompts: list[str]) -> list[dict]:
                 "heading": targeted_section_heading(
                     page,
                     anchor,
-                    source_prompt_heading(prompt, topic_label(page["title"]), detail),
+                    promote_prompt_faithful_heading(
+                        source_prompt_heading(prompt, topic_label(page["title"]), detail),
+                        prompt,
+                        topic_label(page["title"]),
+                        index,
+                    ),
                 ),
                 "paragraphs": paragraphs,
                 "list_items": list_items,
@@ -10845,6 +11814,8 @@ def source_prompt_sections(page: dict, prompts: list[str]) -> list[dict]:
                 "quality": quality,
             }
         )
+
+    sections = resolve_duplicate_prompt_headings(page, sections)
 
     profile = branch_profile(page["section_id"])
     topic_items = TOPIC_ITEMS.get(page["title"], [])
@@ -13786,6 +14757,8 @@ def build_quality_report(generated_pages: list[dict]) -> dict:
                     "score": quality["score"],
                     "level": quality["level"],
                     "needsReview": quality["needsReview"],
+                    "polishOpportunity": quality.get("polishOpportunity", False),
+                    "polishReasons": quality.get("polishReasons", []),
                     "exceptionalReady": quality["exceptionalReady"],
                     "needsGapFill": quality["needsGapFill"],
                     "gapReasons": quality["gapReasons"],
@@ -13810,6 +14783,7 @@ def build_quality_report(generated_pages: list[dict]) -> dict:
             level_counts[record["level"]] += 1
         total = len(section_records)
         needs_review = sum(1 for record in section_records if record["needsReview"])
+        polish_opportunity = sum(1 for record in section_records if record.get("polishOpportunity"))
         needs_gap_fill = sum(1 for record in section_records if record["needsGapFill"])
         average_score = round(sum(record["score"] for record in section_records) / total, 1)
         summaries.append(
@@ -13820,6 +14794,8 @@ def build_quality_report(generated_pages: list[dict]) -> dict:
                 "averageScore": average_score,
                 "needsReview": needs_review,
                 "needsReviewRate": round(needs_review / total, 3),
+                "polishOpportunity": polish_opportunity,
+                "polishOpportunityRate": round(polish_opportunity / total, 3),
                 "needsGapFill": needs_gap_fill,
                 "needsGapFillRate": round(needs_gap_fill / total, 3),
                 "levels": level_counts,
@@ -13827,14 +14803,19 @@ def build_quality_report(generated_pages: list[dict]) -> dict:
             }
         )
 
-    summaries.sort(key=lambda item: (-item["needsReviewRate"], item["averageScore"], item["sectionName"]))
+    summaries.sort(key=lambda item: (-item["needsReviewRate"], -item["polishOpportunityRate"], item["averageScore"], item["sectionName"]))
     weakest = sorted(records, key=lambda item: (item["score"], item["sectionName"], item["pageTitle"]))[:150]
+    polish_backlog = sorted(
+        [record for record in records if record.get("polishOpportunity")],
+        key=lambda item: (item["score"], item["sectionName"], item["pageTitle"]),
+    )[:200]
     gap_backlog = sorted(
         [record for record in records if record["needsGapFill"]],
         key=lambda item: (item["score"], item["sectionName"], item["pageTitle"]),
     )[:200]
     total_records = len(records)
     total_needs_review = sum(1 for record in records if record["needsReview"])
+    total_polish = sum(1 for record in records if record.get("polishOpportunity"))
     total_gap_fill = sum(1 for record in records if record["needsGapFill"])
 
     return {
@@ -13844,12 +14825,15 @@ def build_quality_report(generated_pages: list[dict]) -> dict:
             "averageScore": round(sum(record["score"] for record in records) / max(total_records, 1), 1),
             "needsReview": total_needs_review,
             "needsReviewRate": round(total_needs_review / max(total_records, 1), 3),
+            "polishOpportunity": total_polish,
+            "polishOpportunityRate": round(total_polish / max(total_records, 1), 3),
             "needsGapFill": total_gap_fill,
             "needsGapFillRate": round(total_gap_fill / max(total_records, 1), 3),
         },
         "editorialAudit": build_editorial_audit(records),
         "sectionSummaries": summaries,
         "weakest": weakest,
+        "polishBacklog": polish_backlog,
         "gapBacklog": gap_backlog,
         "records": records,
     }
@@ -13973,7 +14957,8 @@ def render_quality_review_page(report: dict) -> str:
               <p>
                 Average score: <strong>{branch["averageScore"]}</strong>. Sections needing review:
                 <strong>{branch["needsReview"]}</strong> of <strong>{branch["total"]}</strong>.
-                Exceptional gap-fill backlog: <strong>{branch["needsGapFill"]}</strong>.
+                Polish queue: <strong>{branch["polishOpportunity"]}</strong>.
+                Gap-fill backlog: <strong>{branch["needsGapFill"]}</strong>.
                 Levels: exceptional {branch["levels"]["exceptional"]}, strong {branch["levels"]["strong"]}, good {branch["levels"]["good"]},
                 developing {branch["levels"]["developing"]}, thin {branch["levels"]["thin"]}.
               </p>
@@ -13990,6 +14975,10 @@ def render_quality_review_page(report: dict) -> str:
     gap_items = "\n".join(
         f'                <li><a href="..{html.escape(item["url"])}">{html.escape(item["sectionName"])} / {html.escape(item["pageTitle"])} / {html.escape(item["anchor"])}</a><span>{html.escape("; ".join(item["gapReasons"]) or "needs hand detail")}</span></li>'
         for item in report["gapBacklog"][:35]
+    )
+    polish_items = "\n".join(
+        f'                <li><a href="..{html.escape(item["url"])}">{html.escape(item["sectionName"])} / {html.escape(item["pageTitle"])} / {html.escape(item["anchor"])}</a><span>{html.escape("; ".join(item.get("polishReasons", [])) or "ready for a calmer, more deliberate editorial pass")}</span></li>'
+        for item in report.get("polishBacklog", [])[:35]
     )
 
     return textwrap.dedent(
@@ -14030,7 +15019,9 @@ def render_quality_review_page(report: dict) -> str:
                       prompt-response sections. Average score is <strong>{summary["averageScore"]}</strong>.
                       Sections needing review: <strong>{summary["needsReview"]}</strong>
                       ({round(summary["needsReviewRate"] * 100, 1)}%).
-                      Exceptional gap-fill backlog: <strong>{summary["needsGapFill"]}</strong>
+                      Polish queue: <strong>{summary.get("polishOpportunity", 0)}</strong>
+                      ({round(summary.get("polishOpportunityRate", 0) * 100, 1)}%).
+                      Gap-fill backlog: <strong>{summary["needsGapFill"]}</strong>
                       ({round(summary["needsGapFillRate"] * 100, 1)}%).
                     </p>
                     <p>
@@ -14038,9 +15029,9 @@ def render_quality_review_page(report: dict) -> str:
                       <strong>strong</strong>,
                       <strong>good</strong>, <strong>developing</strong>, and <strong>thin</strong>.
                       “Developing” and “thin” are the repair backlog. “Strong” means publishable.
-                      The gap-fill column is the more interesting backlog: quotations, source texture,
-                      examples, objections, and the kind of detail that keeps philosophy from becoming
-                      a very confident table of contents.
+                      The polish queue is for sections that work but could still become clearer, richer,
+                      or more teachable. The gap-fill column is narrower: it points to real missing
+                      texture such as quotations, examples, objections, or historical pressure.
                     </p>
                     <p>
                       The “weakest” list is relative, not accusatory. It shows where the archive is
@@ -14065,6 +15056,18 @@ def render_quality_review_page(report: dict) -> str:
                       speak with a recognizable philosophical temperature. Otherwise we risk producing
                       a very elegant hall of portraits, which is lovely, but portraits rarely argue back.
                     </p>
+                  </section>
+
+                  <section class="article-section">
+                    <p class="eyebrow">Polish Queue</p>
+                    <h2>Strong pages that can still become cleaner and sharper</h2>
+                    <p>
+                      These sections are not repair work. They already function. They simply still have
+                      room for stronger examples, calmer sequencing, or a better objection-and-reply rhythm.
+                    </p>
+                    <ul class="archive-year-list">
+{polish_items}
+                    </ul>
                   </section>
 
                   <section class="article-section">
@@ -14109,7 +15112,8 @@ def render_quality_markdown(report: dict) -> str:
         f"Tracked prompt-response sections: {report['overall']['totalPromptSections']}",
         f"Average score: {report['overall']['averageScore']}",
         f"Needs review: {report['overall']['needsReview']} ({round(report['overall']['needsReviewRate'] * 100, 1)}%)",
-        f"Exceptional gap-fill backlog: {report['overall']['needsGapFill']} ({round(report['overall']['needsGapFillRate'] * 100, 1)}%)",
+        f"Polish queue: {report['overall'].get('polishOpportunity', 0)} ({round(report['overall'].get('polishOpportunityRate', 0) * 100, 1)}%)",
+        f"Gap-fill backlog: {report['overall']['needsGapFill']} ({round(report['overall']['needsGapFillRate'] * 100, 1)}%)",
         "",
         "## Editorial Audit",
         "",
@@ -14132,6 +15136,13 @@ def render_quality_markdown(report: dict) -> str:
         levels = branch["levels"]
         lines.append(
             f"| {branch['sectionName']} | {branch['averageScore']} | {branch['needsReview']}/{branch['total']} | {branch['needsGapFill']}/{branch['total']} | {levels['exceptional']} | {levels['strong']} | {levels['good']} | {levels['developing']} | {levels['thin']} |"
+        )
+
+    lines.extend(["", "## Polish Queue", ""])
+    for item in report.get("polishBacklog", [])[:150]:
+        reasons = "; ".join(item.get("polishReasons", [])) or "ready for a calmer, sharper editorial pass"
+        lines.append(
+            f"- `{item['level']}` {item['score']} [{item['sectionName']} / {item['pageTitle']}#{item['anchor']}](..{item['url']}): {reasons}"
         )
 
     lines.extend(["", "## Exceptional Gap-Fill Backlog", ""])
@@ -15296,13 +16307,9 @@ def main() -> None:
             }
         )
 
-    data = {
+    core_data = {
         "siteTitle": SITE_TITLE,
         "siteTagline": SITE_TAGLINE,
-        "featuredPages": featured_pages,
-        "guidedReadingPaths": GUIDED_READING_PATHS,
-        "glossaryTerms": GLOSSARY_TERMS,
-        "landingTags": landing_tags,
         "tagMeta": {
             tag: {
                 "label": tag_display_label(tag),
@@ -15312,12 +16319,32 @@ def main() -> None:
         },
         "tagCounts": dict(sorted(tag_counts.items())),
         "tagPages": tag_pages,
-        "taggedPages": tagged_pages,
+        "taggedPages": [
+            {
+                "title": page["title"],
+                "section": page["section"],
+                "path": page["path"],
+                "tags": page["tags"],
+            }
+            for page in tagged_pages
+        ],
         "topicPaths": topic_paths,
         "sections": sections_data,
     }
-    site_data_js = "window.BYTESEISMIC_DATA = " + json.dumps(data, indent=2, ensure_ascii=False) + ";\n"
-    (ROOT / "assets" / "js" / "site-data.js").write_text(site_data_js)
+    search_data = {
+        "featuredPages": featured_pages,
+        "guidedReadingPaths": GUIDED_READING_PATHS,
+        "glossaryTerms": GLOSSARY_TERMS,
+        "landingTags": landing_tags,
+        "taggedPages": tagged_pages,
+    }
+    site_core_js = "window.BYTESEISMIC_DATA=" + json.dumps(core_data, separators=(",", ":"), ensure_ascii=False) + ";\n"
+    site_search_js = "window.BYTESEISMIC_SEARCH_DATA=" + json.dumps(search_data, separators=(",", ":"), ensure_ascii=False) + ";\n"
+    (ROOT / "assets" / "js" / "site-core.js").write_text(site_core_js)
+    (ROOT / "assets" / "js" / "site-search.js").write_text(site_search_js)
+    legacy_site_data = ROOT / "assets" / "js" / "site-data.js"
+    if legacy_site_data.exists():
+        legacy_site_data.unlink()
     for target in valid_targets:
         link_static_tag_chips(target)
     cleanup_auto_generated(valid_targets)

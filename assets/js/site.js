@@ -1,10 +1,15 @@
 (function () {
-  const data = window.BYTESEISMIC_DATA;
-
-  if (!data) {
-    initQuizzes();
-    return;
-  }
+  const data = {
+    sections: [],
+    taggedPages: [],
+    tagMeta: {},
+    tagCounts: {},
+    tagPages: {},
+    topicPaths: {},
+    ...(window.BYTESEISMIC_DATA || {}),
+  };
+  let searchData = window.BYTESEISMIC_SEARCH_DATA || null;
+  let searchDataPromise = null;
 
   const isFile = window.location.protocol === "file:";
   const decodedPath = decodeURIComponent(window.location.pathname);
@@ -33,6 +38,51 @@
     }
 
     return `${githubPrefix}${normalized}`;
+  }
+
+  function assetHref(path) {
+    const normalized = path.startsWith("/") ? path : `/${path}`;
+    if (isFile && fileRoot) {
+      return `file://${fileRoot}${normalized}`;
+    }
+    return `${githubPrefix}${normalized}`;
+  }
+
+  function searchDataset() {
+    return {
+      featuredPages: [],
+      guidedReadingPaths: [],
+      glossaryTerms: [],
+      landingTags: [],
+      taggedPages: [],
+      ...(searchData || {}),
+    };
+  }
+
+  function loadScriptAsset(path, globalKey) {
+    const existingPayload = window[globalKey];
+    if (existingPayload) {
+      return Promise.resolve(existingPayload);
+    }
+
+    const existingScript = document.querySelector(`script[data-asset-script="${path}"]`);
+    if (existingScript) {
+      return new Promise((resolve, reject) => {
+        existingScript.addEventListener("load", () => resolve(window[globalKey] || null), { once: true });
+        existingScript.addEventListener("error", reject, { once: true });
+      });
+    }
+
+    return new Promise((resolve, reject) => {
+      const script = document.createElement("script");
+      script.src = assetHref(path);
+      script.async = true;
+      script.defer = true;
+      script.dataset.assetScript = path;
+      script.addEventListener("load", () => resolve(window[globalKey] || null), { once: true });
+      script.addEventListener("error", reject, { once: true });
+      document.head.appendChild(script);
+    });
   }
 
   function escapeHtml(value) {
@@ -1128,8 +1178,9 @@
       return;
     }
 
-    const tags = (data.landingTags?.length
-      ? data.landingTags
+    const extraData = searchDataset();
+    const tags = (extraData.landingTags?.length
+      ? extraData.landingTags
       : [...new Set(data.sections.flatMap((section) => section.futureTags || []))]
     ).filter(isUsefulTag);
     mount.innerHTML = tags.length
@@ -1145,7 +1196,8 @@
       return;
     }
 
-    mount.innerHTML = data.featuredPages
+    const extraData = searchDataset();
+    mount.innerHTML = (extraData.featuredPages || [])
       .map((page) => {
         const tags = page.tags
           .map((tag) => renderTagLink(tag))
@@ -1170,7 +1222,8 @@
       return;
     }
 
-    mount.innerHTML = (data.guidedReadingPaths || [])
+    const extraData = searchDataset();
+    mount.innerHTML = (extraData.guidedReadingPaths || [])
       .map((route) => {
         const stats = [route.difficulty, route.length]
           .filter(Boolean)
@@ -1222,7 +1275,8 @@
       return;
     }
 
-    mount.innerHTML = (data.glossaryTerms || [])
+    const extraData = searchDataset();
+    mount.innerHTML = (extraData.glossaryTerms || [])
       .slice()
       .sort((a, b) => a.term.localeCompare(b.term))
       .slice(0, 9)
@@ -1254,18 +1308,28 @@
   }
 
   const HOME_PANEL_RENDERERS = {
-    "guided-reading": renderGuidedRoutes,
-    "branch-guide": renderNav,
-    structure: renderStructureGrid,
-    "concept-glossary": renderGlossaryPreview,
+    "guided-reading": async () => {
+      await ensureSearchData();
+      renderGuidedRoutes();
+    },
+    "branch-guide": () => renderNav(),
+    structure: () => renderStructureGrid(),
+    "concept-glossary": async () => {
+      await ensureSearchData();
+      renderGlossaryPreview();
+    },
     "tag-discovery": () => {
       renderTagCloud();
       initTagFilters();
+      maybeWarmSearchData();
     },
-    "featured-pages": renderFeaturedPages,
+    "featured-pages": async () => {
+      await ensureSearchData();
+      renderFeaturedPages();
+    },
   };
 
-  function ensureHomePanelRendered(panelOrId) {
+  async function ensureHomePanelRendered(panelOrId) {
     const panelId = typeof panelOrId === "string" ? panelOrId : panelOrId?.id;
     if (!panelId || renderedHomePanels.has(panelId)) {
       return;
@@ -1274,7 +1338,7 @@
     if (!render) {
       return;
     }
-    render();
+    await render();
     renderedHomePanels.add(panelId);
   }
 
@@ -1284,11 +1348,11 @@
     }
     document.querySelectorAll(".home-panel").forEach((panel) => {
       if (panel.open) {
-        ensureHomePanelRendered(panel);
+        void ensureHomePanelRendered(panel);
       }
       panel.addEventListener("toggle", () => {
         if (panel.open) {
-          ensureHomePanelRendered(panel);
+          void ensureHomePanelRendered(panel);
         }
       });
     });
@@ -1300,7 +1364,8 @@
       return;
     }
 
-    const pages = (data.taggedPages || data.featuredPages || [])
+    const extraData = searchDataset();
+    const pages = (extraData.taggedPages?.length ? extraData.taggedPages : data.taggedPages || [])
       .filter((page) => (page.tags || []).includes(tag))
       .sort((a, b) => a.section.localeCompare(b.section) || a.title.localeCompare(b.title));
 
@@ -1387,6 +1452,54 @@
   let tagFiltersReady = false;
   const renderedHomePanels = new Set();
 
+  function refreshSearchRoots() {
+    document.querySelectorAll("[data-site-search-root], [data-page-search]").forEach((root) => {
+      root?._siteSearchApi?.setQuery(root?._siteSearchApi?.getQuery?.() || "");
+    });
+  }
+
+  function ensureSearchData() {
+    if (searchData) {
+      return Promise.resolve(searchData);
+    }
+
+    if (searchDataPromise) {
+      return searchDataPromise;
+    }
+
+    searchDataPromise = loadScriptAsset("/assets/js/site-search.js", "BYTESEISMIC_SEARCH_DATA")
+      .then((payload) => {
+        searchData = payload || window.BYTESEISMIC_SEARCH_DATA || {};
+        cachedSearchEntries = null;
+        renderTagCloud();
+        renderFeaturedPages();
+        renderGuidedRoutes();
+        renderGlossaryPreview();
+        refreshSearchRoots();
+        return searchData;
+      })
+      .catch((error) => {
+        console.error("Unable to load search dataset.", error);
+        searchDataPromise = null;
+        return null;
+      });
+
+    return searchDataPromise;
+  }
+
+  function maybeWarmSearchData() {
+    const kickoff = () => {
+      void ensureSearchData();
+    };
+
+    if (typeof window.requestIdleCallback === "function") {
+      window.requestIdleCallback(kickoff, { timeout: 1800 });
+      return;
+    }
+
+    window.setTimeout(kickoff, 900);
+  }
+
   function normalizeSearchText(value) {
     return String(value || "")
       .normalize("NFKD")
@@ -1442,6 +1555,7 @@
       return cachedSearchEntries;
     }
 
+    const extraData = searchDataset();
     const entries = [];
 
     (data.sections || []).forEach((section) => {
@@ -1469,7 +1583,7 @@
       });
     });
 
-    (data.taggedPages || []).forEach((page) => {
+    (extraData.taggedPages?.length ? extraData.taggedPages : data.taggedPages || []).forEach((page) => {
       entries.push({
         key: `page:${page.path}`,
         type: "page",
@@ -1484,7 +1598,7 @@
       });
     });
 
-    (data.guidedReadingPaths || []).forEach((route) => {
+    (extraData.guidedReadingPaths || []).forEach((route) => {
       entries.push({
         key: `route:${route.id}`,
         type: "route",
@@ -1504,7 +1618,7 @@
       });
     });
 
-    (data.glossaryTerms || []).forEach((entry) => {
+    (extraData.glossaryTerms || []).forEach((entry) => {
       entries.push({
         key: `glossary:${entry.term}`,
         type: "glossary",
@@ -1694,6 +1808,16 @@
     `;
   }
 
+  function renderSearchLoadingState(query = "") {
+    return `
+      <div class="search-empty">
+        <p class="mini-label">Search results</p>
+        <h3>Loading the wider inquiry index${query ? ` for “${escapeHtml(query)}”` : ""}...</h3>
+        <p>Pulling in guided routes, glossary terms, tag pages, and the fuller page summaries now.</p>
+      </div>
+    `;
+  }
+
   function renderSearchResults(root, query) {
     const resultMount = root.querySelector("[data-site-search-results], [data-page-search-results]");
     if (!resultMount) {
@@ -1788,7 +1912,15 @@
       window.history.replaceState({}, "", `${url.pathname}${url.search}${url.hash}`);
     }
 
-    function update(query) {
+    async function update(query) {
+      const normalized = normalizeSearchText(query);
+      if (normalized.length >= 2 && !searchData) {
+        const resultMount = root.querySelector("[data-site-search-results], [data-page-search-results]");
+        if (resultMount) {
+          resultMount.innerHTML = renderSearchLoadingState(query);
+        }
+        await ensureSearchData();
+      }
       renderSearchResults(root, query);
       syncUrl(query);
     }
@@ -1798,11 +1930,13 @@
       input.value = initialQuery;
     }
 
-    update(input.value);
-    input.addEventListener("input", () => update(input.value));
+    void update(input.value);
+    input.addEventListener("input", () => {
+      void update(input.value);
+    });
     clear?.addEventListener("click", () => {
       input.value = "";
-      update("");
+      void update("");
       input.focus();
     });
     root.addEventListener("click", (event) => {
@@ -1812,14 +1946,14 @@
       }
       const query = suggestion.dataset.siteSearchSuggestion || "";
       input.value = query;
-      update(query);
+      void update(query);
       input.focus();
     });
 
     const api = {
       setQuery(value) {
         input.value = value;
-        update(value);
+        void update(value);
       },
       focus(select = false) {
         input.focus();
@@ -1890,6 +2024,7 @@
     shell.hidden = false;
     shell.classList.add("is-open");
     document.body.classList.add("site-search-open");
+    maybeWarmSearchData();
     if (query) {
       api?.setQuery(query);
     }
@@ -2113,10 +2248,13 @@
     renderNav();
     renderStructureGrid();
     renderTagCloud();
-    renderFeaturedPages();
-    renderGuidedRoutes();
-    renderGlossaryPreview();
     initTagFilters();
+    if (document.querySelector("[data-featured-pages], [data-guided-routes], [data-glossary-preview], [data-site-search-root], [data-page-search]")) {
+      maybeWarmSearchData();
+    }
+  }
+  if (currentPage() === "/search/" || currentPage() === "/guided-reading/" || currentPage() === "/concept-glossary/") {
+    maybeWarmSearchData();
   }
   initExclusiveAccordions();
   revealHashTarget();
