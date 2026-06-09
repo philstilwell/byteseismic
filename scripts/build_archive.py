@@ -1440,6 +1440,10 @@ LOW_VALUE_PROMPT_PATTERNS = (
     "sources of content",
     "table of contents",
     "does this make sense",
+    "please write an essay",
+    "revise the answer",
+    "provide deeper explanations",
+    "try again",
 )
 LOW_VALUE_PROMPT_REGEXES = (
     r"\bwhat term is defined as\b",
@@ -2251,7 +2255,7 @@ def compact_text(text: str, limit: int = 310) -> str:
 
 def is_low_value_heading(text: str) -> bool:
     lowered = clean_text(text).lower()
-    if lowered in {"questions", "answers", "conclusion"}:
+    if lowered in {"questions", "answers", "conclusion", "introduction", "summary", "overview", "notes", "characters"}:
         return True
     return any(pattern in lowered for pattern in LOW_VALUE_HEADING_PATTERNS)
 
@@ -2404,6 +2408,32 @@ def remove_source_artifact_phrases(text: str) -> str:
     return cleaned.strip(" ,;:")
 
 
+def collapse_duplicate_function_words(text: str) -> str:
+    cleaned = text
+    for word in ("the", "of", "and", "to", "is", "are", "a", "an", "in", "for", "with", "on"):
+        cleaned = re.sub(rf"\b{word}\s+{word}\b", word, cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\s+([.,;:!?])", r"\1", cleaned)
+    cleaned = re.sub(r"\s+", " ", cleaned)
+    return cleaned.strip()
+
+
+def topic_is_question_like(text: str) -> bool:
+    return bool(re.match(r"^(are|can|could|did|do|does|how|is|should|what|when|where|why)\b", clean_text(text), re.IGNORECASE))
+
+
+def generic_heading_for_question_topic(focus: str) -> str:
+    headings = {
+        "dialogue": "What the exchange brings out about the question.",
+        "description": "How to get a usable grip on the question.",
+        "examples": "What the question looks like in a real case.",
+        "mapping": "How the question breaks into workable parts.",
+        "argument": "Where the question gets tested.",
+        "definition": "What the question needs to mean once the easy cases are out of the way.",
+        "inquiry": "The question only helps once it gets precise.",
+    }
+    return headings.get(focus, "The question only helps once it gets precise.")
+
+
 def source_label_is_heading_worthy(label: str) -> bool:
     cleaned = remove_source_artifact_phrases(label)
     lowered = cleaned.lower()
@@ -2419,11 +2449,17 @@ def source_label_is_heading_worthy(label: str) -> bool:
         return False
     if re.search(r"\b(please|try)\s+again\b", lowered):
         return False
+    if lowered.startswith(("this inquiry seeks", "this section seeks", "this page seeks")):
+        return False
     if lowered.startswith(("week ", "module ", "session ", "part ", "chapter ")):
         return False
     if any(fragment in lowered for fragment in ("study program", "moderately accessible", "inaccessible", "objectives")):
         return False
+    if lowered.startswith(("this inquiry", "beginning with", "starting with", "using the following")):
+        return False
     if lowered.startswith(("provide ", "create ", "list ", "produce ", "write ", "explain ", "describe ", "assess ", "evaluate ", "compare ", "what ", "how ", "why ")):
+        return False
+    if cleaned.split() and cleaned.split()[-1].lower() in {"and", "or", "of", "to", "with", "for", "in", "the", "a", "an"}:
         return False
     if len(cleaned.split()) > 12:
         return False
@@ -2442,6 +2478,10 @@ def clean_heading_subject(subject: str, topic: str) -> str:
         (r"^provide a list of\s+", ""),
         (r"^provide an extensive list of\s+", ""),
         (r"^provide a diverse list of\s+", ""),
+        (r"^expound on a few of the key notions within\s+", "key ideas in "),
+        (r"^expound on\s+", ""),
+        (r"^elaborate on\s+", ""),
+        (r"^comment on\s+", ""),
         (r"^provide rigorous definitions of\s+", "rigorous definitions of "),
         (r"^provide scores.+?for\s+", "scoring criteria for "),
         (r"^list the most influential\s+", "influential "),
@@ -2467,11 +2507,15 @@ def clean_heading_subject(subject: str, topic: str) -> str:
     cleaned = re.sub(r"\bdiscussion question\b", "discussion questions", cleaned, flags=re.IGNORECASE)
     cleaned = re.sub(r"\bthe key ([A-Z][A-Za-z -]+?) have made to philosophical thought\b", r"key contributions of \1 to philosophical thought", cleaned)
     cleaned = re.sub(r"\bthe key contributions ([A-Z][A-Za-z -]+?) have made to philosophical thought\b", r"key contributions of \1 to philosophical thought", cleaned)
+    cleaned = re.sub(r"\bthe key contributions (.+?) has made to philosophical\b", r"key contributions of \1 to philosophy", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\bthe key contributions (.+?) have made to philosophical\b", r"key contributions of \1 to philosophy", cleaned, flags=re.IGNORECASE)
     cleaned = re.sub(r"\bthe the\b", "the", cleaned, flags=re.IGNORECASE)
     cleaned = re.sub(r"\bto pushback\b", "to push back", cleaned, flags=re.IGNORECASE)
     cleaned = re.sub(r"\bcurator[’']s Pushback\b", "curator’s pushback", cleaned, flags=re.IGNORECASE)
     cleaned = re.sub(r"\ban a\b", "a", cleaned, flags=re.IGNORECASE)
     cleaned = re.sub(r"\bis it likely that is it\b", "is it", cleaned, flags=re.IGNORECASE)
+    cleaned = collapse_duplicate_function_words(cleaned)
+    cleaned = re.sub(r"\s+([.,;:!?])", r"\1", cleaned)
     cleaned = re.sub(r"\s+", " ", cleaned).strip(" .:")
     words = cleaned.split()
     sentence_fragment_starters = (
@@ -2511,9 +2555,11 @@ def clean_heading_subject(subject: str, topic: str) -> str:
         and re.search(r"\b(if|unless|when|while)\s+you\b", cleaned, flags=re.IGNORECASE)
     ) or cleaned.lower().endswith((" with", " of", " and", " that", " to", " as", " be")):
         cleaned = topic
+    if len(words) > 7 and re.search(r"\b(that|which|who|those who|tend to|made by|becoming)\b", cleaned, flags=re.IGNORECASE):
+        cleaned = topic
     cleaned = compact_text(cleaned, 86).rstrip(".")
 
-    if not cleaned or looks_like_prompt(cleaned):
+    if not cleaned or looks_like_prompt(cleaned) or is_low_value_heading(cleaned):
         cleaned = topic
     if cleaned:
         cleaned = cleaned[0].upper() + cleaned[1:]
@@ -2538,7 +2584,9 @@ def need_verb_for_heading(subject: str) -> str:
     singular_endings = (
         "analysis",
         "basis",
+        "bias",
         "crisis",
+        "genesis",
         "hypothesis",
         "illogic",
         "logos",
@@ -2630,37 +2678,63 @@ def article_native_heading(subject: str, prompt: str, topic: str) -> str:
     lowered = key.lower()
 
     if "strongest objection" in lowered or "best objection" in lowered:
-        return "The strongest objection tests the view under pressure."
+        return "The strongest objection shows what the view has to answer."
     if "entry point" in lowered:
-        return "The entry point should open the argument, not replace it."
+        return "The best entry point opens the problem without pretending to settle it."
     if lowered == "historical setting":
-        return "Historical setting shows what problem the view inherited."
+        return "The historical setting shows which problem the view inherited."
     if lowered == "signature contribution":
-        return "The signature contribution is the move later readers must answer."
+        return "The signature contribution is the move later readers still have to answer."
     if lowered == "influence trail":
-        return "Influence is where the argument keeps mutating."
+        return "The influence trail shows where the argument keeps doing work."
+    if topic_is_question_like(topic) and key.lower() == topic.lower():
+        return generic_heading_for_question_topic(focus)
     if lowered.startswith("whether "):
         return f"The real issue is whether {key[8:]}."
     if lowered.startswith("the real-world value of "):
-        return f"{key[:1].upper() + key[1:]} appears in the decisions it actually improves."
+        return f"The real-world value of {key[24:]} shows up in the decisions it actually changes."
     if lowered.startswith("key contributions of ") and " to philosophical thought" in lowered:
         thinker = re.sub(r"^key contributions of ", "", key, flags=re.IGNORECASE)
         thinker = re.sub(r" to philosophical thought$", "", thinker, flags=re.IGNORECASE).strip(" ,")
         return f"The lasting contribution of {thinker or topic} is easiest to see where later thinkers borrow, resist, or deepen the original move."
+    if lowered.startswith("key contributions of ") and " to philosophy" in lowered:
+        thinker = re.sub(r"^key contributions of ", "", key, flags=re.IGNORECASE)
+        thinker = re.sub(r" to philosophy(?: thought)?$", "", thinker, flags=re.IGNORECASE).strip(" ,")
+        return f"The lasting contribution of {thinker or topic} is easiest to see where later thinkers borrow, resist, or deepen the original move."
+    if "greatest contributions to philosophy" in lowered or "contributions to philosophy" in lowered:
+        thinker = re.sub(r"[’']s .*?contributions to philosophy", "", key, flags=re.IGNORECASE).strip(" ,")
+        return f"The lasting contribution of {thinker or topic} is easiest to see where later thinkers still have to borrow, resist, or refine the move."
+    if "pillars of" in lowered:
+        pillar_match = re.search(r"pillars of (.+)$", key, flags=re.IGNORECASE)
+        if pillar_match:
+            return f"The main pillars of {pillar_match.group(1).strip()} make the most sense when they are read together."
+    if "schools of philosophical thought influenced by" in lowered:
+        thinker = re.sub(r"^schools of philosophical thought influenced by\s+", "", key, flags=re.IGNORECASE).strip(" ,")
+        return f"{thinker or topic} matters most where whole schools inherit the method, not just the vocabulary."
+    if lowered.startswith(("likely causes behind ", "most likely causes behind ")) and "becoming a notable philosopher" in lowered:
+        thinker = re.sub(r"^(most\s+)?likely causes behind\s+", "", key, flags=re.IGNORECASE)
+        thinker = re.sub(r"\s+becoming a notable philosopher$", "", thinker, flags=re.IGNORECASE).strip(" ,")
+        return f"Biography matters here only if it helps explain what sharpened {thinker or topic}'s questions."
+    if lowered.startswith("influential ") and lowered.endswith(" in history"):
+        return "The influential figures matter here because they show where the tradition keeps doing its most durable work."
+    if lowered.startswith("key ideas in "):
+        return f"The key ideas in {key[13:]} matter only if they help the reader think with the view."
 
     if focus == "dialogue":
-        return f"Dialogue clarifies {key}."
+        return f"What the dialogue brings out about {key}."
     if focus == "examples":
-        return f"{key} makes the argument visible in practice."
+        return f"What {key} looks like in practice."
     if focus == "mapping":
-        return f"{key} is best read as a map of alignments, tensions, and priority."
+        if lowered.endswith(" vs") or lowered.startswith("summary of ") or lowered in {"notes", "characters"}:
+            return f"How the pieces of {topic} fit together."
+        return f"How {key} fits together."
     if focus == "argument":
-        return f"{key} is where the argument earns or loses its force."
+        return f"Where {key} stands or falls."
     if focus == "definition":
-        return f"{key} {need_verb_for_heading(key)} a definition that can sort hard cases."
+        return f"What {key} {need_verb_for_heading(key)} to mean to be useful."
     if any(term in lowered for term in ("list", "table", "scores", "percentages", "estimates")):
-        return f"{key} becomes more useful once its structure is made visible."
-    return with_heading_suffix(key, "practical stakes and consequences.")
+        return f"How {key} breaks down in a more useful way."
+    return f"What matters most in {key}."
 
 
 def clean_discussion_key(key: str, topic: str, fallback: str = "the central question") -> str:
@@ -3029,6 +3103,7 @@ def parse_dialogue_turn_text(raw_text: str) -> dict | None:
             body = clean_text(match.group(2))
     if not speaker or not body:
         return None
+    body = collapse_duplicate_function_words(body)
     lowered_speaker = speaker.lower()
     if lowered_speaker in {"summary", "introduction", "conclusion"}:
         return None
@@ -3144,6 +3219,3547 @@ def dialogue_prompt_for_anchor(page: dict, anchor: str) -> str:
 
 
 TARGETED_SECTION_EXPANSIONS = {
+    ("/philosophical-inquiry/dangers-untestable-ideologies/", "prompt-1"): {
+        "heading": "Walls of inscrutability protect the claim by making failure hard to locate.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "A wall of inscrutability is not just a mystery. It is mystery used as a shield. The claim stays vivid enough to recruit trust, fear, or loyalty, but blurry enough to avoid the ordinary question, “What would show this to be false?”",
+            "Different walls do different jobs. Some postpone verification until death, some relocate the evidence into private experience, some treat doubt as a moral defect, and some imply that only the initiated can really understand what is going on. In each case the same pattern appears: the ideology wants the psychological benefits of making a claim without the evidential costs of letting the world answer back.",
+            "That does not mean every difficult or transcendent claim is automatically false. The point is narrower and more important: a claim becomes suspicious when difficulty itself is turned into a standing excuse against calibration, comparison, and revision.",
+            "A serious reader should therefore ask not only whether the claim is emotionally gripping, but whether the path from claim to confidence is publicly answerable. If the route is permanently insulated from ordinary checks, the ideology may be training reverence more than inquiry.",
+        ],
+        "items": [
+            "Deferred verification: The promise is pushed into an unreachable future, so practical failure never quite counts as failure.",
+            "Anecdotal insulation: A few emotionally charged stories are treated as weightier than broader statistical or comparative evidence.",
+            "Motive deflection: The doubter's character, pride, rebellion, or hardness of heart is attacked instead of the claim being tested.",
+            "Esoteric access: The ideology implies that ordinary reasoning is too crude, and that only insiders, mystics, or the spiritually mature can really judge the issue.",
+            "Elastic interpretation: Every outcome is redescribed as support, so the claim survives by changing shape faster than criticism can catch it.",
+        ],
+    },
+    ("/philosophical-inquiry/logic-wherever-structure/", "prompt-1"): {
+        "heading": "Structure may be real in the world even if logic is our way of modeling it.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The position becomes stronger once two claims are kept apart. One claim is ontological: if anything exists at all, it must exist in some determinate way rather than as pure chaos. The other claim is epistemic: finite minds detect patterns in that structure and build logical or mathematical models around them. The first claim is fairly plausible. The second is also plausible, but it does not follow that every structure arrives with a single ready-made logic waiting to be read straight off the world.",
+            "That is the pressure point. Logic may be our disciplined way of representing structure rather than a ghostly object floating inside reality on its own. A crystal lattice, a legal system, and a traffic network all have structure, but the same structure can often be represented with different levels of abstraction and different formal tools depending on what one is trying to explain.",
+            "A concrete example helps. Think about a city subway. The engineer, the commuter, and the emergency planner can all map the same system differently while still mapping something real. One model tracks physical rails, another emphasizes travel time, and another highlights bottlenecks under stress. The structure is not imaginary, but neither does it dictate a single finished formal description.",
+            "The weaker version of the thesis is the more defensible one: reality has structure, and minds can discover enough of it to reason successfully. The stronger version is riskier: every structure already comes packaged with a determinate logic that subjective minds simply uncover. That stronger jump underestimates model pluralism and overestimates how directly reality hands us its own formal grammar.",
+            "What matters is blocking the slide from 'pattern is real' to 'our current inferential scheme has captured what the pattern fundamentally is.' Once that slide is blocked, the page becomes both more modest and more useful.",
+        ],
+        "items": [
+            "Ontological claim: Reality is not nothing, so it must have some organization, relation, or constraint.",
+            "Epistemic claim: Minds notice regularities and stabilize them into inferential practices, concepts, and formal systems.",
+            "Modeling claim: A logic can fit a structure well without exhausting what the structure is in itself.",
+            "Pluralism point: The same underlying pattern may admit several good formal descriptions depending on scale, aim, or level of abstraction.",
+            "Overreach warning: Predictive usefulness does not by itself prove that our present logical description is the final or only correct articulation of the pattern.",
+            "Worked example: A subway map and a geographic street map can both be useful because they model different features of the same reality.",
+        ],
+    },
+    ("/philosophical-inquiry/logic-wherever-structure/", "prompt-2"): {
+        "heading": "Predictive success gives an inductive foothold, not a final theory.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "That reply is basically right. We do not need total transparency into a structure before we can reason from it. Human beings use partial regularities all the time: weather models, medicine, language learning, engineering, and social prediction all work with patterns that are grasped well enough to guide expectation long before they are fully explained.",
+            "A good way to hold the point is by analogy with a map. A map can guide you reliably without exhausting the terrain. In the same way, an inductive logic can track real structure well enough for prediction even if the deeper ontology of that structure is still incomplete, approximate, or partly misunderstood.",
+            "History strengthens the case. Newtonian mechanics worked extraordinarily well before relativity refined it, and Mendelian inheritance was useful before DNA was understood. At the same time, those cases also show the limit: strong predictive success can coexist with partial or even distorted ontology. Ptolemaic astronomy, after all, predicted a fair bit too. So predictive success gives us something real, but not everything we might want.",
+            "A reasonable critic might push back here: if predictive success is enough for a foothold, why not trust any system that produces a few hits? The answer is that a foothold is not a blank check. We still care about breadth, stability, rival comparisons, and whether the success keeps showing up when the stakes rise.",
+            "What should still be resisted is the leap from working grip to metaphysical closure. Predictive power is evidence for disciplined confidence, not for the thought that we now possess the final logic of what is there.",
+        ],
+        "items": [
+            "Working grip: Repeated predictive success is good reason to trust that some real regularity has been contacted.",
+            "Map-not-territory caution: A useful formalization may guide inquiry well without exhausting what the structure ultimately is.",
+            "Historical lesson: Successful theories are often improved rather than instantly discarded, which shows why success matters without making it final.",
+            "False-but-useful warning: A model can predict impressively and still misdescribe deeper ontology or mechanism.",
+            "Underdetermination: More than one framework may fit a pattern for a while, so predictive success does not uniquely settle the metaphysics.",
+            "Revision norm: Keep the model, use the model, but do not worship the model.",
+        ],
+    },
+    ("/philosophical-inquiry/personal-truth/", "prompt-2"): {
+        "heading": "The charitable version concerns perspective, not private truth.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Most people who say, “I have my truth, and you have your truth,” are not usually trying to defend relativism in a technical sense. They are usually reaching, somewhat clumsily, for one of several more ordinary points: that their experience differs from yours, that they interpret the situation differently, that they carry different background assumptions, or that the issue feels morally or emotionally different from inside their life.",
+            "A clearer response depends on which of those points they actually mean. If the issue is lived experience, say that. If the issue is interpretation, say that. If the issue is uncertainty, say that. If the issue is testimony about harm or exclusion, say that. The main philosophical cleanup is simply not to drag the word truth into a job better done by terms like experience, belief, framing, confidence, standpoint, or meaning.",
+            "That matters because truth is a useful pressure word. It asks whether a claim answers to reality rather than merely to sincerity or emotional authenticity. Once truth gets privatized, disagreement becomes harder to analyze because what should be a shared question about the world gets turned into parallel self-descriptions.",
+            "There is also a charitable reason people reach for the phrase. Sometimes they are pushing back against being flattened by detached outsiders who ignore context, trauma, or social location. That protest may be humane and important. But even there, the better move is to defend standpoint and experience explicitly rather than to blur the meaning of truth.",
+            "So the charitable move is not to scold people for trying to name subjectivity. It is to help them name it more accurately, so the human insight is preserved without dissolving the concept of truth into mood.",
+        ],
+        "items": [
+            "If the point is experience: “My experience of this situation is different from yours.”",
+            "If the point is interpretation: “We are reading the same facts through different assumptions.”",
+            "If the point is uncertainty: “Neither of us should speak as if our current belief has settled the matter.”",
+            "If the point is emotional meaning: “This issue lands differently for me because of my history and concerns.”",
+            "If the point is testimony: “You are overlooking features of the situation that are more visible from where I stand.”",
+            "Conceptual gain: These translations keep room for subjectivity without turning truth into a private possession.",
+            "Pressure point: Left untouched, the phrase can turn honest perspective into a shield against correction.",
+        ],
+    },
+    ("/philosophical-inquiry/personal-truth/", "prompt-4"): {
+        "heading": "Keep truth objective even while admitting that people meet it from different starting points.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "This prompt is right to resist a quiet semantic surrender. If truth is allowed to mean whatever a person sincerely experiences or deeply identifies with, the term loses the very pressure that made it useful in the first place. Truth is supposed to ask whether the claim answers to reality, not whether it feels intimate, authentic, or non-transferable.",
+            "That does not require us to deny subjectivity. Human beings approach reality through perspective, memory, emotion, culture, and limited evidence. But those are best described as conditions under which belief is formed, not as alternate species of truth.",
+            "A concrete case helps. If two people witness the same argument and one says, 'You were cruel,' while the other says, 'I was only being direct,' the disagreement may involve memory, context, social norms, self-protection, or uneven access to facts. Those complications are real. But they do not create two separate truths about the same event. They create a harder shared question about what actually happened and how it should be interpreted.",
+            "A fair pushback is that talk of objectivity can be used to bulldoze experience, especially when powerful outsiders dismiss what vulnerable people are trying to report. That danger is real, which is why standpoint, testimony, and social location matter so much. But the fix is not to privatize truth. The fix is to take testimony seriously enough that truth-claims become better informed rather than semantically dissolved.",
+            "So the real task is conceptual housekeeping. Keep truth for correspondence, and use other words for the rest: belief, interpretation, standpoint, experience, confidence, sincerity, and emotional meaning. Once the vocabulary is cleaned up, disagreement becomes harder to romanticize and easier to analyze.",
+        ],
+        "items": [
+            "Truth versus belief: A belief can be deeply felt and still be false.",
+            "Truth versus perspective: Perspective affects access, emphasis, and interpretation, but it does not create separate realities for the same proposition.",
+            "Truth versus sincerity: A sincere speaker may be honest about experience while still mistaken about what is the case.",
+            "Worked example: Two people can describe the same event from different social locations without there being two incompatible truths about the event itself.",
+            "Semantic payoff: Cleaner language protects both subjectivity and objectivity by not forcing one word to do two incompatible jobs.",
+            "Diagnostic question: Is the speaker reporting an experience, defending a belief, or making a truth-claim about reality itself?",
+        ],
+    },
+    ("/philosophical-inquiry/dangers-untestable-ideologies/", "prompt-2"): {
+        "heading": "Worldly promises matter because they create a real testing surface.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "This prompt sharpens the issue nicely. Many ideologies do not confine themselves to distant heavens or hidden metaphysics. They promise guidance, peace, transformation, protection, answered prayer, moral clarity, healing, community, or practical flourishing here and now. Once those promises enter ordinary life, they are no longer beyond comparison.",
+            "That does not mean every promise can be tested with a stopwatch and a microscope. Some are partly psychological, social, or interpretive. But it does mean the ideology owes the reader a clearer account of what would count as success, how success differs from ordinary human variation, and what failure would look like if the promise did not hold.",
+            "The trouble begins when a concrete promise is preached concretely but defended abstractly. The claim recruits commitment with vivid examples, then retreats into vagueness, mystery, selective anecdotes, or moralized reinterpretation when the broader evidence fails to cooperate.",
+        ],
+        "items": [
+            "Practical content: If the promise concerns peace, guidance, healing, or transformation, the ideology should say what observable difference those terms are supposed to name.",
+            "Comparative test: The promised result should be compared not only within the ideology, but also across people outside it who have access to similar social and psychological goods.",
+            "Failure conditions: If no pattern of disappointment would count against the claim, the promise is functioning more as reassurance than as a testable commitment.",
+            "Interpretive retreat: The page should notice when a once-concrete promise becomes vague the moment systematic scrutiny arrives.",
+            "Suspicion trigger: The stronger the marketing of the promise, the stronger the case for asking whether the ideology is prepared to let the world answer back.",
+        ],
+    },
+    ("/philosophical-inquiry/dangers-removing-the-impossible/", "prompt-3"): {
+        "heading": "Trust in testimony should scale with track record, not with a standing exemption from scrutiny.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "This objection is important because it blocks a bad comparison. Trusting a friend's report is not the same thing as lowering epistemic standards in the way ideology often does. In ordinary testimony, confidence can rise or fall with track record, context, stakes, corroboration, and known incentives. The trust remains attached to publicly revisable features of the case.",
+            "Take a simple example. If a friend says traffic is bad on Main Street, you may trust them quite a lot because the claim is local, ordinary, and easily checked against maps, timing, or other reports. That is not the same thing as trusting a guru who says an invisible cosmic order explains your disappointments but cannot be independently examined except through further commitment. One case lives inside ordinary feedback; the other asks for protected deference.",
+            "That is very different from treating an insulated worldview as trustworthy because it feels familiar, sacred, culturally inherited, or existentially comforting. With ordinary testimony, a friend can be checked, corrected, contradicted, or shown unreliable over time. The very practice of trust remains answerable to feedback.",
+            "So the right distinction is not between 'strict science' and 'all ordinary trust.' It is between revisable trust and protected trust. The first belongs to everyday reasoning. The second is where ideology begins to ask for a privilege it has not earned.",
+        ],
+        "items": [
+            "Track record: Reliable testimony earns confidence through a history of accuracy, honesty, and corrigibility.",
+            "Scope: Trust in a friend about a local event does not automatically transfer to sweeping metaphysical or theological claims.",
+            "Corroboration: Ordinary testimony lives inside a wider web of checks, memory, other witnesses, and practical consequences.",
+            "Example contrast: 'The bridge is closed' can be checked in a way 'the universe is invisibly rewarding your surrender' typically cannot.",
+            "Protected trust: Ideological trust becomes dangerous when it no longer scales with evidence but is treated as a virtue in its own right.",
+            "Key contrast: The problem is not trusting people; it is treating certain claims as if trust itself were evidence enough.",
+        ],
+    },
+    ("/philosophical-inquiry/dangers-removing-the-impossible/", "prompt-2"): {
+        "heading": "Once belief above evidence is praised, the mind becomes easier to recruit for almost anything.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Relaxing epistemology in this way is dangerous because it does not usually stop at one claim. Once a person is praised for believing beyond the evidence in the central case, they have begun learning a broader habit: loyalty can outrank calibration whenever the topic feels sacred enough.",
+            "That matters because the unsubstantiated center starts shielding everything attached to it. If the foundational being, force, or will is exempt from ordinary evidential expectations, then moral directives, historical narratives, providential readings, and institutional authority can all begin borrowing that same exemption downstream.",
+            "The result is not merely one false belief, if the belief is false. It is an altered standard of mind. The believer becomes more willing to call doubt a vice, ambiguity a temptation, and evidential restraint a lack of faith or courage. That is epistemically expensive even before it becomes socially or morally dangerous.",
+        ],
+        "items": [
+            "Norm shift: Believing beyond evidence stops looking like a temporary exception and starts looking like a positive virtue.",
+            "Downstream protection: Once the central claim is insulated, many attached claims inherit the insulation by association.",
+            "Identity fusion: Challenging the belief starts to feel like challenging the believer's moral worth or loyalty.",
+            "Correction cost: Honest revision becomes harder because evidential caution has already been recoded as betrayal or weakness.",
+            "Wider danger: A mind trained to admire epistemic surrender in one domain becomes easier to steer in neighboring domains.",
+        ],
+    },
+    ("/philosophical-inquiry/dangers-removing-the-impossible/", "prompt-4"): {
+        "heading": "Successful systems of this sort usually combine hidden authority, emotional rewards, and self-protective explanation.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The recurring elements are worth mapping because the central invisible claim rarely succeeds by itself. What makes these ideologies durable is the surrounding machinery that stabilizes belief, distributes emotion, and explains away failure before it can accumulate.",
+            "Some elements are positive: belonging, ritual, narrative beauty, moral purpose, and the feeling of cosmic significance. Others are defensive: selective evidence standards, privileged interpreters, warnings about doubt, and flexible explanations that can absorb almost any outcome. A strong page should show how these pieces cooperate.",
+            "That is why successful ideologies of this kind are not held together only by doctrine. They are held together by a whole ecology of meaning, fear, identity, and explanation. The invisible center survives because a visible support structure keeps feeding it.",
+        ],
+        "items": [
+            "Narrative framework: A large story that explains suffering, duty, hope, and the role of the believer.",
+            "Ritual reinforcement: Repeated practices that make the worldview feel lived and therefore harder to inspect from outside.",
+            "Moral sorting: Clear categories of loyalty, purity, rebellion, and threat that organize social belonging.",
+            "Privileged interpreters: Leaders, texts, or traditions that claim special access to what the hidden reality means.",
+            "Reward-and-threat economy: Promises and warnings that make belief feel existentially urgent.",
+            "Self-protective elasticity: Explanations that can absorb disappointment, ambiguity, and failed expectations without conceding much.",
+        ],
+    },
+    ("/philosophical-inquiry/common-sense-blunders/", "prompt-1"): {
+        "heading": "Common sense fails whenever inherited intuition outruns the evidence.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Common sense is not worthless. It is a rough operating system built from ordinary scale, ordinary speed, ordinary social experience, and repeated practical success. The trouble is that it was never designed to be infallible across astronomy, biology, probability, economics, physics, or moral psychology.",
+            "That is why examples from different domains matter. They show that common sense does not fail in one neat way. Sometimes it overgeneralizes from local experience, sometimes it mistakes familiarity for truth, and sometimes it imports emotional comfort into what should be an evidential question.",
+            "A good page on common-sense blunders should therefore teach humility rather than contempt. The lesson is not 'never trust your intuitions,' but 'know the scale, context, and domain in which intuition stops being a reliable guide.'",
+        ],
+        "items": [
+            "Astronomy: Common sense says the sun moves around the earth because that is how it looks from the ground.",
+            "Biology: Common sense once treated spontaneous generation as plausible because life seemed to appear where decay was present.",
+            "Medicine: Common sense often prefers vivid anecdotes to base rates, which is one reason folk cures can outrun evidence.",
+            "Probability: Common sense is notoriously bad at large-number reasoning, randomness, and regression to the mean.",
+            "Social life: Common sense often mistakes what is customary, familiar, or morally approved for what is actually true.",
+        ],
+    },
+    ("/philosophical-inquiry/common-sense-blunders/", "prompt-2"): {
+        "heading": "Common-sense errors usually come from familiar shortcuts, not from stupidity.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The phrase common sense can be misleading because it sounds like a single faculty. In practice, it is a bundle of shortcuts: everyday pattern recognition, social inheritance, emotional plausibility, folk causation, and quick story-formation. Those shortcuts are often useful, but they are also exactly where error gets its first foothold.",
+            "That is why common-sense error should not be framed as a flaw of a few foolish people. It is a normal human risk. We all begin with limited samples, familiar narratives, and scale-bound intuitions. The question is whether those starting points are later disciplined by wider evidence and better methods.",
+            "The page should therefore help the reader diagnose the source of the error. Was the mistake caused by small-sample experience, conformity pressure, language confusion, overconfident analogy, or an emotional need for the world to make quick intuitive sense?",
+        ],
+        "items": [
+            "Local overgeneralization: A person treats limited firsthand experience as if it were a wide and representative sample.",
+            "Social inheritance: What everyone around us says can feel self-evident before it is ever seriously examined.",
+            "Cognitive ease: Familiar explanations feel true partly because they are easy to process and repeat.",
+            "Scale mismatch: Intuition built for medium-sized objects and short time spans often fails in the very small, the very large, or the very abstract.",
+            "Narrative hunger: A tidy story can outrun the slower and less flattering complexity of the evidence.",
+        ],
+    },
+    ("/philosophical-inquiry/common-sense-blunders/", "prompt-3"): {
+        "heading": "Treat common sense as a starting guess, then run it through a repeatable check.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "A workable cognitive process begins by lowering the prestige of what merely feels obvious. Common sense is useful as a first pass, but it should be treated as a hypothesis generator, not as a verdict. The fact that something seems plainly true may tell us more about familiarity, scale, habit, or social inheritance than about reality itself.",
+            "The next step is to make the intuition explicit. State the claim in a sentence, ask why it feels obvious, and identify what background experience is doing the work. Once the intuition is visible, it becomes easier to test rather than simply inhabit.",
+            "After that, the process should force friction back into the picture: look for counterexamples, wider data, relevant expertise, and rival explanations. Ask whether the belief still survives when removed from the local conditions that made it feel natural in the first place.",
+            "The final discipline is proportional belief. Even if the claim survives some testing, confidence should match the quality of the evidence rather than the strength of the initial feeling. That is how common sense becomes refined instead of merely repeated.",
+        ],
+        "items": [
+            "Step 1: State the commonsense claim as clearly as possible instead of leaving it at the level of vibe or habit.",
+            "Step 2: Ask why it feels obvious. Is the force coming from repetition, local experience, tradition, fear, or convenience?",
+            "Step 3: Search for counterexamples, edge cases, and domains where the intuition has historically failed.",
+            "Step 4: Check the wider evidence. Does broader data, expert study, or careful comparison support the claim?",
+            "Step 5: Compare alternatives. Could a different explanation account for the same appearance more accurately?",
+            "Step 6: Set confidence proportionately. Keep what survives, weaken what does not, and resist the urge to recover certainty by rhetoric alone.",
+        ],
+    },
+    ("/philosophical-inquiry/packaged-vs-eclectic-ideologies/", "prompt-3"): {
+        "heading": "Packaged systems offer coherence; eclectic ones offer flexibility; both can fail in their own way.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "A packaged ideology gives a reader a ready-made frame: vocabulary, heroes, enemies, moral priorities, and explanatory habits arrive together. That can be useful because it lowers confusion and gives the person a stable map. The danger is that the same coherence can become a closed circuit in which the system pre-decides what counts as evidence, criticism, or legitimate doubt.",
+            "An eclectic ideology has the opposite appeal. It lets a person borrow from many sources, revise more freely, and resist total capture by one tradition. The danger is fragmentation: the person may collect attractive pieces without testing whether the pieces can actually live together without contradiction.",
+            "The real question, then, is not which style sounds nobler in the abstract. It is which one makes the thinker more corrigible, more explicit about tradeoffs, and less tempted to protect identity with borrowed certainty.",
+        ],
+        "items": [
+            "Benefit of packaged systems: They can provide clarity, continuity, and enough structure for serious long-range thought.",
+            "Danger of packaged systems: They can become self-sealing, tribal, and resistant to evidence that threatens the whole package.",
+            "Benefit of eclectic systems: They allow selective refinement, adaptation, and resistance to one-source dogmatism.",
+            "Danger of eclectic systems: They can become a collage of unexamined tensions that feels wise mainly because it is flexible.",
+            "Better test: Ask which style leaves the person more open to correction without collapsing into either chaos or submission.",
+        ],
+    },
+    ("/philosophical-inquiry/dangers-carrot-stick/", "prompt-2"): {
+        "heading": "Unsubstantiated threats work because fear closes inquiry faster than hope opens it.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "If promissory ideologies recruit by offering treasure, threatening ideologies recruit by making disbelief feel dangerous. Fear is powerful because it narrows attention, accelerates compliance, and makes costly scrutiny feel irresponsible. A frightened mind starts asking, 'How do I stay safe?' before it asks, 'Is this true?'",
+            "A good list of threats should therefore be organized by the kind of fear being activated. Some threats are cosmic, such as damnation, karma, or supernatural punishment. Some are social, such as exclusion, shame, abandonment, or loss of community. Some are psychological, such as permanent meaninglessness, guilt, or inner collapse. What matters is seeing how different threats all serve the same function: they raise the emotional price of doubt.",
+            "The deeper danger is that once fear takes the lead, the ideology can begin looking self-confirming. Anxiety produced by the threat is then re-read as evidence that the threat is real. The system creates the wound and then points to the wound as proof.",
+        ],
+        "items": [
+            "Cosmic threats: hell, curse, karmic punishment, divine abandonment, or postmortem loss.",
+            "Social threats: expulsion, shaming, broken family ties, loss of status, or being treated as spiritually dangerous.",
+            "Psychological threats: emptiness, despair, guilt, impurity, or collapse into chaos without the ideology.",
+            "Historical threats: civilizational decay, national ruin, or cultural collapse if the doctrine is not obeyed.",
+            "Epistemic threat pattern: The cost of doubting is inflated so heavily that serious investigation starts to feel reckless.",
+            "Reader lesson: Fear may signal danger, but it may also be the very instrument by which danger is manufactured.",
+        ],
+    },
+    ("/philosophical-inquiry/dangers-gaslighting/", "prompt-4"): {
+        "heading": "The best persuasion shows sincere gaslighters the asymmetry and human cost of the tactic.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "If some people use the tactic innocently, the first step is not public humiliation but conceptual exposure. They need help seeing that the move is structurally unfair: the belief is treated as true in advance, and every failure of prayer, certainty, or inner resonance is pushed back onto the vulnerable person as evidence of their own defect.",
+            "That is often clearest when the tactic is reversed. Ask whether they would accept the same reasoning from a rival ideology. If a different religion said, 'You really know our god is true, and your doubt only shows hidden rebellion,' would they regard that as insight or manipulation? The asymmetry is hard to ignore once it is made explicit.",
+            "The second step is moral rather than merely logical. Show the human cost. This tactic burdens already confused or hurting people with a double injury: the original disappointment and the accusation that the disappointment is their fault. Once sincere users of the tactic see that cost clearly, some will begin to back away from it.",
+        ],
+        "items": [
+            "Reversal test: Would they accept the same tactic if used by a rival ideology they already reject?",
+            "Burden-shift diagnosis: The move protects the claim by relocating every failure into the mind of the doubter.",
+            "Human-cost argument: The tactic adds shame, self-distrust, and confusion to people who are already vulnerable.",
+            "Charitable distinction: Encourage self-examination in general, but reject self-blame being used as automatic proof that the doctrine is true.",
+            "Better alternative: Invite honest uncertainty, shared investigation, and the possibility that the underlying claim itself may be mistaken.",
+        ],
+    },
+    ("/philosophical-inquiry/dangers-promissory-treasures/", "prompt-3"): {
+        "heading": "The dialogue works best when deferred treasure is shown buying present obedience.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "A good dialogue here should not merely stage an ideologue making wild promises and a rational listener rolling their eyes. The real pressure point is subtler: invisible future treasure is being used to justify visible present surrender. Time, autonomy, money, relationships, and earthly opportunities are put on the altar now in exchange for a reward that cannot presently be checked.",
+            "That is what gives the exchange pedagogical value. The rational young person does not need to prove the afterlife false on the spot. They only need to keep asking the right asymmetry questions: why is the cost immediate while the payoff is deferred, what distinguishes this promise from manipulation, and why should this ideology be trusted over rival systems making equally grand offers?",
+            "The strongest version of the scene therefore teaches more than skepticism. It teaches how to hear the structure of a seduction: costly devotion now, unverifiable abundance later, and moral pressure whenever the listener asks for evidence.",
+        ],
+        "items": [
+            "Time asymmetry: The sacrifice is immediate and measurable; the treasure is remote and insulated from present verification.",
+            "Evidence inversion: The less evidence there is, the more the listener is told that trust itself is virtuous.",
+            "Rival-promise test: If another ideology made the same offer, would the ideologue still call it compelling?",
+            "Exit-cost pressure: The promise becomes harder to question once the listener has already paid heavily into it.",
+            "Reader lesson: Deferred glory is often being used to make present exploitation sound noble.",
+        ],
+    },
+    ("/philosophical-inquiry/dangers-vested-interests/", "prompt-2"): {
+        "heading": "A truth claim does not become likelier merely because the price of entry is punishing.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "This page needs a sharp distinction between difficult inquiry and costly capture. Some truths really do require effort, patience, and long study. That by itself is not suspicious. The warning sign appears when an ideology treats high investment of time, energy, money, obedience, or suffering as if those costs themselves should increase confidence in the truth of the claim.",
+            "A quick rational dismissal often begins with a simple question: do the costs generate evidence, or do they merely generate commitment? If the system's enormous buy-in mainly produces exhaustion, sunk cost, social dependency, secrecy, or reluctance to leave, then the costs are functioning as control technology, not as verification.",
+            "That is why heavily gated truth claims deserve extra suspicion, not extra reverence. A view that cannot be fairly inspected without first paying a steep existential admission fee is asking the seeker to commit before the evidence is in. Truth sometimes takes work to understand; it should not need coercive investment to look true.",
+        ],
+        "items": [
+            "Distinguish effort from entrapment: Hard study is not the same thing as high-cost initiation.",
+            "Evidence test: Ask what new public evidence becomes available after the investment that was not available before it.",
+            "Inspection test: Can thoughtful outsiders evaluate the claim without first paying the system in money, years, or obedience?",
+            "Exit test: Does doubt get blamed on insufficient sacrifice, loyalty, or purity rather than answered with reasons?",
+            "Scam symmetry test: Would the same 'pay a lot first, understand later' structure also protect a false or exploitative system? If yes, the structure itself is suspect.",
+        ],
+    },
+    ("/philosophical-inquiry/testing-ideologies/", "prompt-1"): {
+        "heading": "An ideology earns trust only if it can survive contact with reality.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Testing an ideology is more than fact-checking a few slogans. It means asking whether the worldview's claims, explanations, promises, moral language, and self-protective habits can survive disciplined comparison with evidence, rival interpretations, and real outcomes. A sturdy ideology should not need permanent insulation from contact with the world.",
+            "The best tests are asymmetrical in the right way: the ideology should have to answer the same standards it uses against rivals. If it demands evidence from outsiders but accepts reassurance, anecdote, mystery, or loyalty from insiders, that is already part of the diagnosis.",
+            "This is where ideologies differ sharply in quality. Some can tolerate a fair audit because they contain internal mechanisms for correction. Others survive only by teaching members in advance how to reinterpret failure, distrust criticism, and spiritualize ambiguity.",
+            "The practical question for the reader is simple: does this worldview become clearer, humbler, and more answerable under scrutiny, or does it become more defensive, more elastic, and more eager to explain away the test itself?",
+        ],
+        "items": [
+            "Internal coherence: Do the central claims fit together, or does the system rely on quiet contradictions and selective exceptions?",
+            "External evidence: When the ideology makes factual or practical claims, does the world cooperate often enough to justify confidence?",
+            "Failure conditions: Can the view say what would count against it, or does every miss get reinterpreted as hidden success?",
+            "Rival comparison: Does the ideology outperform competing explanations, or does it merely feel more affirming to its own community?",
+            "Symmetry test: Does it submit itself to the same level of scrutiny it expects for the views it rejects?",
+        ],
+    },
+    ("/philosophical-inquiry/testing-ideologies/", "prompt-3"): {
+        "heading": "Internal incoherence appears where an ideology asks for incompatible habits of mind.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "An ideology becomes internally incoherent when its parts cannot be lived or defended together without cheating. Often the contradiction is not written as a formal syllogism. It appears instead in the mindset the system demands: radical skepticism toward rivals combined with easy trust toward insiders, humility rhetoric combined with certainty performance, or universal moral claims combined with selective exemptions.",
+            "This is why incoherence matters pedagogically. It shows that the problem is not only that a view may be false. The deeper problem is that the view may train a person to use reason one way when protecting the system and another way when assessing everything else.",
+            "That makes incoherence a moral and epistemic issue at once. A person can become very skillful at arguing while also becoming less able to notice when the standards have shifted midstream.",
+            "The page should therefore teach readers to look for practical contradictions in how a worldview handles evidence, authority, outsiders, and revision pressure, not only for tidy contradictions on paper.",
+        ],
+        "items": [
+            "Selective skepticism: Outsiders are asked for rigorous proof while insiders are permitted testimony, intuition, and emotional resonance.",
+            "Immunity plus certainty: The ideology claims to know the truth while also claiming the truth cannot be properly tested by ordinary standards.",
+            "Moral absolutism plus evidential relativism: The system speaks as if its values are binding on everyone while retreating into subjectivity when its factual claims are challenged.",
+            "Special pleading: Apparent failures are tolerated as mysterious exceptions only when they protect the ideology's center of gravity.",
+            "Identity capture: The view says it welcomes inquiry, but dissent is treated as betrayal rather than as information.",
+        ],
+    },
+    ("/philosophical-inquiry/dangers-cognitive-biases/", "prompt-1"): {
+        "heading": "Biases matter because they can impersonate careful thought.",
+        "replace_paragraphs": True,
+        "paragraphs": [
+            "A list of cognitive biases helps only if the reader stops treating them as mental trivia. In philosophical discussion, the real question is how bias bends attention, evidence selection, category use, and tribal self-protection while still letting the thinker feel principled.",
+            "That is why the historical cases matter. A bias is most visible when it is embodied in actual institutions, moral panics, inherited prejudices, or public certainty. Once the reader sees that, the page stops being a catalog and starts becoming a warning about how reasoning fails while still sounding like reasoning.",
+            "A useful reader does not merely memorize the names. The deeper skill is noticing what kind of distortion is happening: selective attention, motivated interpretation, conformity pressure, sunk identity cost, or premature closure.",
+            "Once those mechanisms are visible, the page becomes practical. It teaches not only what to call the bias, but what kind of epistemic hygiene is needed to counter it.",
+        ],
+        "items": [
+            "Confirmation bias: We look for evidence that lets the favored picture survive one more day.",
+            "Motivated reasoning: The conclusion is emotionally selected first, and the argument arrives later in ceremonial dress.",
+            "Status quo bias: Familiar structures feel safer, wiser, or more natural simply because they are already in place.",
+            "Bandwagon effects: A claim gains social force from repetition, prestige, or tribe long before it earns evidential force.",
+            "Identity-protective cognition: Certain lines of thought are never seriously entertained because they threaten belonging, reputation, or self-image.",
+        ],
+    },
+    ("/philosophical-inquiry/the-value-and-limits-of-debate/", "prompt-2"): {
+        "heading": "Debate can clarify positions while still being a weak truth engine.",
+        "paragraphs": [
+            "Debate is valuable because it makes claims collide in public. It is limited because the format often rewards speed, compression, confidence, and performance more than careful calibration. That means debate is often better at surfacing disagreements than at settling them.",
+            "The reader should therefore treat debate as one stage in inquiry rather than as inquiry completed. A live exchange may expose inconsistency, vagueness, or evasiveness, but it can also hide the asymmetry between a fast simplification and the slower work of a responsible correction.",
+        ],
+        "items": [
+            "Public clarity: Debate is good at making rival commitments visible.",
+            "Format bias: Debate often rewards the speaker who can compress, dramatize, and recover quickly under pressure.",
+            "Asymmetry problem: It is easier to state a misleading oversimplification than to repair it in real time.",
+            "Audience capture: Spectators often mistake confidence, wit, or dominance for epistemic strength.",
+        ],
+    },
+    ("/philosophical-inquiry/the-value-and-limits-of-debate/", "prompt-4"): {
+        "heading": "Use debate as a diagnostic tool, not as a loyalty ritual.",
+        "paragraphs": [
+            "A serious reader should use public debates the way a careful mechanic uses a test run: not to fall in love with the sound of the engine, but to notice strain, drift, and hidden failures. The goal is not to donate admiration to a side. It is to catch definition shifts, selective standards, bluffing, evasion, and unearned confidence.",
+            "That is why the real work begins after the debate ends. Go back to the claims, check the evidence, compare the framing to calmer sources, and ask which side would actually revise its position if the facts broke the wrong way. Otherwise public debate becomes theater with an epistemic dress code.",
+        ],
+        "items": [
+            "Listen for revision conditions: What would each side count as a reason to change its mind?",
+            "Track definition drift: Apparent agreement often appears only after the key term has quietly changed meaning.",
+            "Check asymmetry afterward: A short claim may require a long correction, so post-debate review matters.",
+            "Compare performance with substance: A speaker can win the room while still losing the issue.",
+        ],
+    },
+    ("/philosophical-inquiry/dangers-co-opted-wonders/", "prompt-1"): {
+        "heading": "Wonder can open inquiry without licensing a favorite metaphysical conclusion.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Wonder is one of the healthiest starting points in philosophy. The trouble begins when wonder is treated not as an invitation to investigate, but as a shortcut to a preferred explanation. A person feels awe before consciousness, beauty, order, birth, death, love, or the night sky, and that awe is quietly recruited as if it already pointed to one specific deity, tradition, or theological map.",
+            "That move is rhetorically powerful because wonder lowers resistance. It makes the mind receptive, grateful, and less combative. But emotional openness is not the same thing as evidential warrant. The experience of mystery may be real and important while still underdetermining what, if anything, lies behind it.",
+            "So the deceit is not that wonder exists. The deceit is that a broad human response is being annexed by a narrow ideological conclusion. The reader should notice the inference gap between 'this is astonishing' and 'therefore our tradition has explained why it is astonishing.'",
+        ],
+        "items": [
+            "Shared human datum: Wonder is widely available across cultures, worldviews, and even rival religions, so it cannot by itself validate one ideological package.",
+            "Inference gap: The move from awe to metaphysical explanation requires argument, not merely atmosphere.",
+            "Borrowed prestige: The ideology tries to inherit the grandeur of the experience without earning the conclusion.",
+            "Diagnostic question: If the wonder remained but the preferred doctrine disappeared, what argument would still be left?",
+            "Reader caution: Honor the experience of mystery without letting it bully you into premature metaphysics.",
+        ],
+    },
+    ("/philosophical-inquiry/dangers-co-opted-wonders/", "prompt-2"): {
+        "heading": "Mystery warrants patience, not theological foreclosure.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Mystery is real, but it is evidentially thin. To say that some feature of experience is profound, hard to explain, or permanently surprising is not yet to say what explains it. The more careful response is to distinguish between a phenomenon's depth and our present understanding of it.",
+            "That distinction matters because people often treat unresolved depth as if it were already a clue with an arrow attached. Beauty becomes evidence for benevolent design, consciousness becomes evidence for soul-stuff, contingency becomes evidence for a creator, and existential longing becomes evidence for a supernatural home. Each move may be arguable, but none is forced by the raw experience alone.",
+            "The mature posture is intellectual patience. Keep the wonder. Resist the false urgency that says a mystery must be handed to the first satisfying story available.",
+        ],
+        "items": [
+            "Phenomenon versus explanation: A powerful experience can be real even when its ultimate source is still disputed.",
+            "Underdetermination: The same wonder may fit naturalistic, theistic, panpsychist, or agnostic interpretations better or worse depending on further argument.",
+            "Comfort pressure: A quick explanation often feels better than an open question, which is one reason mystery gets ideologically captured.",
+            "Good discipline: Let the question stay larger than the first emotionally satisfying answer.",
+        ],
+    },
+    ("/philosophical-inquiry/dangers-co-opted-wonders/", "prompt-3"): {
+        "heading": "The tactic is exposed by asking where wonder ends and argument begins.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "One of the cleanest ways to respond is to separate the experience from the conclusion in public. A person can say, 'Yes, that is a remarkable feature of reality,' and then immediately ask what argument carries us from that shared sense of wonder to this particular doctrinal claim rather than to a rival one or to suspended judgment.",
+            "That move keeps the exchange charitable without being gullible. It grants the emotional and existential weight of the experience while refusing to let that weight masquerade as proof. In many cases the tactic collapses once the speaker is asked to supply the missing steps.",
+            "A second response is comparative. If many traditions can harvest the same wonder for incompatible conclusions, then the wonder itself cannot be doing the discriminatory work. The ideological add-on is where scrutiny should concentrate.",
+        ],
+        "items": [
+            "Name the shared ground: Acknowledge the wonder before contesting the explanatory leap.",
+            "Ask for the missing bridge: What premises connect the experience to this doctrine rather than to several alternatives?",
+            "Run the comparison test: Would the same rhetorical move look persuasive if used by a rival ideology?",
+            "Refuse emotional blackmail: Deep feeling deserves respect, but it does not deserve immunity from analysis.",
+        ],
+    },
+    ("/philosophical-inquiry/dangers-half-searches/", "prompt-1"): {
+        "heading": "Inquiry stops being honest when hope pre-filters the answer set.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "It is understandable to want reality to lean in our favor. People want justice to prevail, death to be survivable, suffering to have purpose, relationships to endure, and the moral arc to bend reassuringly. The epistemic trouble appears when those hopes become a screening device that disqualifies unwanted conclusions before the evidence is even weighed.",
+            "That is what makes a half-search a half-search. The person presents themselves as open to truth, but only within a protected range of emotionally acceptable outcomes. The search is real up to the point where the world threatens to answer in a painful register.",
+            "A serious inquiry has to allow the possibility that reality may be indifferent to our comfort. Otherwise one is not following the evidence wherever it leads; one is auditioning only the hypotheses that feel livable.",
+        ],
+        "items": [
+            "Emotional pre-filtering: Unwelcome conclusions are treated as suspect simply because they wound hope.",
+            "Asymmetry of openness: Pleasant possibilities are entertained generously while painful ones are held to impossible standards.",
+            "Identity protection: Some conclusions are resisted because accepting them would alter a life-story, not because the evidence is weak.",
+            "Honest question: Am I asking what is true, or what I can bear to have be true?",
+        ],
+    },
+    ("/philosophical-inquiry/dangers-half-searches/", "prompt-2"): {
+        "heading": "Desired outcomes can quietly become evidential surrogates.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Appeals to consequences are powerful because they fuse cognition with self-preservation. A belief is no longer assessed only on whether it matches the world; it is assessed on whether it protects meaning, belonging, morality, optimism, or emotional equilibrium. Once that fusion happens, the mind begins confusing desirability with plausibility.",
+            "This control is often subtle. A person may sincerely think they are weighing reasons while their attention is being guided by what must not be lost. Threatening evidence is skimmed, softer explanations are preferred, and anything that promises continuity with hope receives an easier hearing.",
+            "That is why this page belongs in philosophical inquiry rather than mere psychology. The issue is not only bias in the abstract. It is the way existential need can colonize the standards by which truth is judged.",
+        ],
+        "items": [
+            "Hope as pressure: The more a conclusion promises rescue, the easier it becomes to over-credit weak support for it.",
+            "Fear as censorship: The more a conclusion threatens identity or comfort, the easier it becomes to over-scrutinize it into paralysis.",
+            "Selective generosity: Friendly evidence gets interpreted warmly; hostile evidence gets interpreted suspiciously.",
+            "Corrective habit: Ask whether you would treat the same evidence the same way if the emotional valence were reversed.",
+        ],
+    },
+    ("/philosophical-inquiry/dangers-half-searches/", "prompt-3"): {
+        "heading": "Half-searches become dangerous when refusal to face bad news blinds action.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The cost of refusing negative possibilities is not only intellectual. It can be practical, moral, medical, financial, and political. Bad outcomes often become devastating precisely because people refused to grant them full reality while there was still time to respond.",
+            "That makes this prompt pedagogically useful. It reminds the reader that epistemic courage is not a luxury for professors. It is a condition for responsible action in ordinary life, where underestimating a possibility can be just as destructive as overreacting to it.",
+            "The deeper lesson is that realism may feel colder at first, but it often serves care better in the long run. The parent who faces a diagnosis, the citizen who faces institutional decay, and the community that faces extremism are all better served by unwelcome truth than by consoling half-searches.",
+        ],
+        "items": [
+            "Medicine: Dismissing a frightening diagnosis because it feels unbearable can delay the very treatment that would preserve hope realistically.",
+            "Finance: Refusing to model downside risk can turn a manageable vulnerability into a ruinous surprise.",
+            "Relationships: Ignoring clear signs of abuse, betrayal, or instability in the name of optimism can trap people in escalating harm.",
+            "Politics: Democracies decay faster when citizens treat alarming evidence as too discouraging to be believed.",
+            "Belief revision: The pain of a hard truth is often temporary; the cost of protecting oneself from it can last much longer.",
+        ],
+    },
+    ("/philosophical-inquiry/dangers-strong-leaders/", "prompt-1"): {
+        "heading": "Strong leaders become dangerous when borrowed certainty replaces personal judgment.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Human beings are drawn to strong leaders for understandable reasons. Clarity is attractive, decisiveness feels safer than ambiguity, and confidence can look like competence even when it is merely theatrical. In times of uncertainty, a commanding voice can feel like relief.",
+            "The danger is that leadership can become a surrogate for truth. Instead of learning how to weigh reasons, compare evidence, and tolerate uncertainty, followers begin outsourcing those tasks to the leader's tone, charisma, or symbolic status. The person feels oriented, but the orientation is borrowed.",
+            "That is where inquiry is threatened. A truth-seeking culture needs leaders who strengthen the judgment of others, not leaders who make independent judgment feel disloyal or unnecessary.",
+        ],
+        "items": [
+            "Charisma inflation: Presence and confidence are read as evidence for correctness.",
+            "Dependency loop: Followers become less practiced at reasoning precisely because the leader performs certainty for them.",
+            "Loyalty distortion: Criticism of the leader starts to feel like betrayal rather than like a normal part of responsible inquiry.",
+            "Healthy contrast: A good guide produces stronger questioners, not merely more obedient admirers.",
+        ],
+    },
+    ("/philosophical-inquiry/dangers-strong-leaders/", "prompt-2"): {
+        "heading": "A reader becomes harder to capture once truth is loved more than the guide.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "One antidote to leader-dependence is to make discovery itself emotionally rewarding. A person who has tasted the satisfaction of following an argument carefully, noticing their own mistake, or landing on a hard-won conclusion is less likely to confuse wisdom with possession by a strong personality.",
+            "That does not mean scorning teachers. Teachers, mentors, and public intellectuals can be tremendously valuable. The key difference is whether they are helping the reader become more intellectually self-governing or merely more faithfully attached.",
+            "The joy of honest discovery is quieter than hero-worship, but it is more durable. It makes admiration conditional and corrigible rather than devotional.",
+        ],
+        "items": [
+            "Shift the reward: Praise the quality of reasoning, not just the authority of the person delivering it.",
+            "Practice small revisions: Learning to change one's mind in low-stakes cases makes large-scale independence more possible later.",
+            "Separate gratitude from surrender: You can learn from a strong thinker without renting out your judgment to them.",
+            "Maturity marker: The goal is not to need no guides, but to remain able to outgrow them where the evidence requires it.",
+        ],
+    },
+    ("/philosophical-inquiry/dangers-strong-leaders/", "prompt-3"): {
+        "heading": "History keeps showing how charisma can recruit intelligence into disaster.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Historical examples matter because they break the illusion that manipulation works only on the foolish. Strong leaders often attract intelligent, disciplined, even idealistic followers. What they exploit is not raw stupidity but the human hunger for certainty, direction, identity, and heroic participation.",
+            "The pedagogical value of the examples lies in pattern recognition. Across religious, political, nationalist, and revolutionary settings, the same features recur: moral simplification, sacralized loyalty, enemy construction, crisis rhetoric, and the quiet erosion of internal criticism.",
+            "The point is not to memorize villains like baseball cards. It is to notice the recurring structure by which a commanding center gathers legitimacy and then converts that legitimacy into epistemic and moral permission.",
+        ],
+        "items": [
+            "Pattern over parade: Use historical cases to identify recurring mechanisms rather than to enjoy retrospective condemnation.",
+            "Crisis leverage: Strong leaders often enlarge or dramatize threat in order to make dissent feel irresponsible.",
+            "Moral licensing: Once the leader is treated as uniquely necessary, followers grant exceptions they would otherwise reject.",
+            "Warning sign: When admiration outruns the ability to name faults, historical repetition becomes easier than people like to think.",
+        ],
+    },
+    ("/philosophical-inquiry/dangers-strong-leaders/", "prompt-4"): {
+        "heading": "If you cannot name a leader's faults, admiration is already outrunning judgment.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "That suggestion is basically right. Being unable to articulate the weaknesses of a person you respect often means respect has crossed the line into protective idealization. The mind has stopped observing the leader as a fallible human being and started maintaining a cleaner symbolic figure.",
+            "This matters because criticism is one of the few tools that keeps admiration from becoming captivity. If a leader's faults cannot be spoken aloud, their errors become harder to correct, their incentives become harder to inspect, and their influence becomes harder to calibrate.",
+            "A useful test is practical rather than merely emotional: can you name where the leader tends to exaggerate, what evidence would make you part company with them, and what kind of follower is most likely to get hurt by their blind spots? If you cannot answer those questions, admiration is already doing protective work.",
+            "The goal is not cynical debunking. It is proportion. The healthier the admiration, the more easily it can coexist with precise, concrete criticism and explicit conditions for disagreement.",
+        ],
+        "items": [
+            "Calibration test: Can you name a respected leader's recurring blind spot, excess, or evidential weakness without feeling disloyal?",
+            "Disagreement test: Can you say what evidence or behavior would make you stop following them?",
+            "Collateral-cost test: Can you identify which kinds of people are most likely to be harmed by the leader's style if things go badly?",
+            "Symbol problem: Once the person becomes an emblem, criticism gets redirected from substance to taboo.",
+            "Corrective norm: Respect should increase scrutiny, not suspend it.",
+            "Practical payoff: Followers who can criticize well are much harder to herd into destructive unanimity.",
+        ],
+    },
+    ("/philosophical-inquiry/dangers-narrative/", "prompt-1"): {
+        "heading": "A gripping story can organize loyalty without earning truth.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Narratives are powerful because they compress complexity into moral motion. A hero appears, tension rises, enemies clarify the stakes, sacrifices become meaningful, and resolution promises emotional closure. That structure is deeply satisfying to human minds, which is why ideologies built around story can feel more intuitively true than dry evidential analysis.",
+            "The suspicion is not that all stories are false. The suspicion is that narrative elegance can do work that evidence has not done. A worldview may become compelling because it is dramatically well-formed rather than because it has survived the strongest scrutiny.",
+            "So the reader should ask whether the story is functioning as illumination or anesthesia. Does it sharpen reality, or does it make reality easier to bear by assigning everyone a role before the facts are fully in?",
+        ],
+        "items": [
+            "Hero-villain compression: Moral complexity gets thinned so the reader knows whom to cheer and whom to fear.",
+            "Closure pressure: The desire for resolution can make ambiguous evidence feel more settled than it is.",
+            "Meaning inflation: Suffering and coincidence start looking narratively necessary rather than contingently real.",
+            "Key test: Would the worldview still seem persuasive if stripped of its dramatic packaging?",
+        ],
+    },
+    ("/philosophical-inquiry/dangers-narrative/", "prompt-2"): {
+        "heading": "Narrative nationalism recruits mythic emotion faster than evidence can reply.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Nationalist irrationality often feeds on story before it feeds on argument. A nation becomes a wounded hero, decline becomes betrayal, critics become internal saboteurs, and history is reorganized into a moral tale of innocence, humiliation, and destined restoration. Once that story is emotionally fixed, counterevidence feels like treasonous interruption rather than like information.",
+            "This is distorting because stories select what matters. They foreground symbolic episodes, erase inconvenient complexity, and turn policy questions into existential dramas. The resulting worldview can be rhetorically electrifying while being historically sloppy and morally reckless.",
+            "The corrective is not to abandon civic narrative altogether, but to resist any narrative that becomes too flattering, too simple, or too hungry for enemies.",
+        ],
+        "items": [
+            "Mythic selection: The story remembers victories, wounds, and symbols that reinforce identity while forgetting disconfirming history.",
+            "Enemy manufacture: Narrative cohesion increases when outsiders or dissenters are assigned a dramatic role in the plot.",
+            "Emotional acceleration: Pride, grievance, and destiny language move faster than archival complexity or policy detail.",
+            "Reader discipline: Ask what facts the story needs to ignore in order to remain dramatically satisfying.",
+        ],
+    },
+    ("/philosophical-inquiry/dangers-narrative/", "prompt-3"): {
+        "heading": "Narrative turns dangerous when sacred drama outranks ordinary moral perception.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Religious and quasi-religious narratives can motivate admirable sacrifice, but they can also reorganize conscience around a plotline. Once people see themselves as players in a cosmic drama, ordinary human costs may be downgraded in favor of destiny, purity, obedience, or redemptive conflict.",
+            "That is one route by which otherwise decent people can become cruel while still feeling righteous. They are no longer reading the situation at the scale of neighbor, child, victim, dissenter, or stranger. They are reading it at the scale of prophecy, mission, sacred struggle, or heroic necessity.",
+            "The philosophical lesson is not that all religious imagination is corrupt. It is that narrative intensity can become morally anesthetizing when it teaches people to prefer the beauty of the story to the reality of the people caught inside it.",
+        ],
+        "items": [
+            "Scale distortion: Concrete persons disappear behind categories like enemy, remnant, chosen people, or agents of darkness.",
+            "Sacralized permission: Harm becomes easier to justify when it is inserted into a redemptive script.",
+            "Selective compassion: Mercy flows more easily toward those cast as insiders than toward those assigned to the wrong role in the narrative.",
+            "Moral recovery: Ask what the story is making harder to see at the level of ordinary human suffering.",
+        ],
+    },
+    ("/philosophical-inquiry/dangers-narrative/", "prompt-4"): {
+        "heading": "Humans can resist bad narratives, but only by learning to interrupt them.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "There is reason for optimism, but it should be qualified optimism. Human beings are narrating creatures, so no one fully escapes the pull of story. What can improve is not our possession of narrative, but our relationship to it. We can learn to notice when a story is flattering us, simplifying too quickly, or making us feel certain before the evidence deserves certainty.",
+            "That means rational hope depends on habits, not on innocence. People need counter-narratives, historical literacy, statistical literacy, exposure to dissent, and social settings where revision is not treated as betrayal. Without those disciplines, narrative domination is the default rather than the exception.",
+            "So yes, there can be progress. But it comes less from becoming non-narrative beings than from becoming readers who can step partly outside a gripping story long enough to ask what reality is still trying to say.",
+        ],
+        "items": [
+            "Qualified optimism: Progress is possible, but only with institutions and habits that slow narrative capture.",
+            "Counterweight practices: History, evidence, comparison, and dissent keep stories from becoming self-sealing worlds.",
+            "Emotional literacy: The reader should notice when exhilaration, grievance, or belonging is doing more work than argument.",
+            "Wry truth: Humans do seek truth, but they prefer it with a soundtrack unless trained otherwise.",
+        ],
+    },
+    ("/philosophical-inquiry/personal-truth/", "prompt-1"): {
+        "heading": "Truth cannot be privately owned if it means correspondence with reality.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "If truth means that a statement corresponds to the way things are, then the phrase 'I have my truth, and you have your truth' is incoherent when taken literally about the same proposition. Two contradictory claims about the same matter cannot both be true simply because they are held sincerely by different people.",
+            "That does not make human subjectivity irrelevant. Human beings encounter reality from different locations, with different evidence, histories, traumas, vocabularies, and interpretive habits. But those differences explain why people disagree; they do not manufacture multiple truths out of one contested question.",
+            "The phrase therefore misfires at the level of concept. It tries to honor subjectivity by borrowing the word truth, but in doing so it blurs the distinction between what is the case and how it seems from within a particular life.",
+        ],
+        "items": [
+            "Truth and reality: If truth tracks reality, then it is not allocated person by person like intellectual property.",
+            "Belief and perspective: Different people can reasonably begin from different evidence without implying different truths about the same proposition.",
+            "Charitable interpretation: The speaker often means 'my experience' or 'my interpretation,' not a private species of truth.",
+            "Conceptual cost: Once truth is privatized, disagreement becomes harder to analyze because reality has been replaced by self-description.",
+        ],
+    },
+    ("/philosophical-inquiry/personal-truth/", "prompt-3"): {
+        "heading": "Bad truth-talk usually smuggles perspective, comfort, or humility into the word truth.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Many problematic statements about truth are not malicious. They are often failed attempts to express modesty, emotional complexity, plural experience, or respect for disagreement. The problem is that truth-language becomes the dumping ground for ideas that should be named more precisely.",
+            "A philosophically useful response is not to sneer at the speaker, but to translate the sentiment into cleaner vocabulary. Once the intended point is identified, the sentence usually improves immediately because belief, interpretation, confidence, experience, and partial understanding are all better tools than private truth-talk.",
+            "This kind of translation matters pedagogically because it teaches readers to preserve the humane insight while discarding the conceptual confusion.",
+        ],
+        "items": [
+            "Problematic: 'That may be true for you, but not for me.' Better: 'You and I assess the evidence differently, so we have reached different beliefs.'",
+            "Problematic: 'Everyone has their own truth.' Better: 'People often have different experiences, backgrounds, and interpretations.'",
+            "Problematic: 'Truth is whatever resonates most deeply with you.' Better: 'Personal resonance affects conviction, but it does not settle what is the case.'",
+            "Problematic: 'We all hold pieces of the truth.' Better: 'We may each grasp part of a larger issue without yet having a complete account.'",
+        ],
+    },
+    ("/philosophical-inquiry/logic-wherever-structure/", "prompt-3"): {
+        "heading": "If the structure changes enough, the right lesson is revisability, not despair.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "That thought experiment is useful because it shows how modest the original claim should be. If the 'blob' changes so radically that our previous inductions stop working, the sensible response is not that rational inquiry has failed in principle. The sensible response is that our earlier regularities were local to a domain that has now changed.",
+            "Calling it a 'new universe' is a vivid way of saying that new regularities would have to be learned on the basis of the altered structure now before us. Inquiry would restart from fresh patterns, new predictive footholds, and revised logical handling. What disappears is not the possibility of law, but our entitlement to assume the old law still governs.",
+            "So the page should end on humility. Rationality works by tracking stable structure where it exists. When the structure shifts, the rational posture is not panic or metaphysical bravado, but patient recalibration.",
+        ],
+        "items": [
+            "Local laws: Successful inductions may be domain-bound rather than universal in scope.",
+            "Recalibration: A structural rupture requires rebuilding confidence from newly observed regularities.",
+            "No final guarantee: The success of past inference never entitles us to assume immunity from future structural surprise.",
+            "Enduring lesson: Logic remains a disciplined response to structure, but it must stay corrigible as the structure encountered changes.",
+        ],
+    },
+    ("/epistemology/ai-reasoning-case-study/", "prompt-1"): {
+        "heading": "When data arrive without labels, the first task is disciplined guessing, not confident storytelling.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "A page like this is valuable because it slows down a habit many readers and models share: the leap from pattern to interpretation. Unlabeled percentages invite story-making. The epistemic question is not whether a guess can be made, but whether the guess is being managed responsibly.",
+            "That means beginning with multiple live hypotheses rather than one dramatic hunch. A good first pass should notice scale, spacing, likely domains, background context, and what remains radically underdetermined. The point is to make uncertainty explicit before explanation hardens into performance.",
+            "In other words, the exercise is really about calibration. The model is not being tested only on whether it can invent a plausible answer. It is being tested on whether it can distinguish a plausible answer from a well-supported one.",
+        ],
+        "items": [
+            "Underdetermination: The same set of percentages may fit voting, land use, demographics, survey responses, or something else entirely.",
+            "Hypothesis discipline: A strong reasoner should generate a short list of candidate interpretations before committing.",
+            "Cue sensitivity: The explanation should point to actual features of the data rather than to a generic feeling of fit.",
+            "Confidence control: Early guesses should be tentative because the labeling context is still missing.",
+            "Reader lesson: Plausibility is a beginning, not a verdict.",
+        ],
+    },
+    ("/epistemology/ai-reasoning-case-study/", "prompt-2"): {
+        "heading": "A rationale is only as good as the cues it can actually point to.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Once a guess is made, the next question is not 'Can I defend it somehow?' but 'What exact features made this interpretation seem likely?' That shift matters because a rationale can either expose the real inferential path or simply decorate a hunch after the fact.",
+            "A useful rationale names its evidence. It should say which percentages look high or low, what expected distribution they resemble, what background knowledge is being imported, and where the explanation remains speculative. Without that, the model is not really reasoning in public; it is narrating confidence.",
+            "This is one of the cleanest places to teach readers what explanation is for. A rationale should make a guess more inspectable, more criticizable, and more revisable than it was before.",
+        ],
+        "items": [
+            "Feature naming: Which numerical pattern is doing the explanatory work?",
+            "Background dependence: What prior knowledge about turnout, geography, or social behavior is being smuggled into the guess?",
+            "Post-hoc risk: Would the same rationale have sounded equally persuasive if offered for a different interpretation?",
+            "Revision friendliness: A good explanation shows what new evidence would weaken or strengthen it.",
+            "Pedagogical gain: The reader learns how to inspect an inference rather than merely whether to accept it.",
+        ],
+    },
+    ("/epistemology/ai-reasoning-case-study/", "prompt-3"): {
+        "heading": "The real test is whether the explanation survives contact with what we already know.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "This is where the case study becomes genuinely epistemological. A guess may feel elegant from the inside and still fail against the world. So the right question is whether the rationale lines up with known turnout behavior, demographic patterns, institutional realities, or whatever domain knowledge is supposed to constrain the claim.",
+            "That matters because models often produce explanations that are locally coherent but globally thin. The internal story sounds smooth, yet the external fit is poor. Good reasoning requires both: internal intelligibility and contact with established facts.",
+            "The reader should therefore learn to ask a blunt question: if I knew nothing about how pretty the rationale sounds, would the relevant background knowledge actually make this hypothesis more credible?",
+        ],
+        "items": [
+            "Internal versus external fit: A tidy rationale can still be wrong if it conflicts with known patterns in the real domain.",
+            "Constraint check: Background knowledge should narrow the live options rather than sit politely in the margins.",
+            "Calibration cue: When the world pushes back, confidence should move with it.",
+            "Model weakness to watch: Fluent explanation can create the illusion of knowledge where only verbal smoothness is present.",
+            "Reader habit: Always ask what reality, not rhetoric, is contributing to the confidence level.",
+        ],
+    },
+    ("/epistemology/ai-reasoning-case-study/", "prompt-4"): {
+        "heading": "Alternative hypotheses matter because the same numbers can fit different maps.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Reinterpreting the percentages as geographical features is a useful move because it breaks the spell of the first story. Once an alternative domain can also fit the pattern, the reader is reminded that raw numbers rarely come with their own meaning attached.",
+            "This is why epistemic humility is not decorative here. The exercise is teaching model comparison. If one pattern can be explained by turnout, forest coverage, elevation bands, or land-use categories, then the issue is not just which story sounds reasonable. The issue is what additional evidence would discriminate among them.",
+            "A good response should therefore become more comparative and less declarative. It should ask what clues would favor one interpretation over another instead of trying to sound maximally sure under minimal constraint.",
+        ],
+        "items": [
+            "Interpretive plurality: Numerical shapes often travel well across multiple domains.",
+            "Need for discriminators: The crucial question is what extra information would separate the live hypotheses.",
+            "Anti-anchoring lesson: The first plausible explanation should lose some of its grip once a rival fit appears.",
+            "Better reasoning style: Compare explanations by evidential support, not by vividness alone.",
+        ],
+    },
+    ("/epistemology/ai-reasoning-case-study/", "prompt-5"): {
+        "heading": "Confidence should rise where multiple clues converge, not where one guess merely feels neat.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Choosing the most likely interpretation is not the same as choosing the one you liked first. The strongest candidate is the one supported by the widest and most independent set of clues: numerical fit, domain expectations, background facts, and resistance to plausible alternatives.",
+            "That is why convergence matters. One reason to prefer a land-use or forest-data interpretation, for example, would be not just that the numbers look possible, but that several independent considerations all lean the same way. Confidence becomes more responsible when it is distributed across mutually supporting lines rather than concentrated in one clever narrative.",
+            "This is a good place to teach that credence is earned by accumulation. A mature reasoner does not ask only, 'Can I tell a story?' but, 'How many different things would have to be true for this story to stand?'",
+        ],
+        "items": [
+            "Convergence: The best explanation wins by support from several directions, not by one attractive match.",
+            "Independence: Distinct clues are stronger than repeated versions of the same intuition.",
+            "Credence discipline: Confidence should track the total evidential structure, not the stylistic polish of the explanation.",
+            "Residual humility: Even the best available hypothesis may remain provisional when the original data are sparse.",
+        ],
+    },
+    ("/epistemology/case-2-the-telephone-game/", "prompt-1"): {
+        "heading": "Transmission reliability compounds; it does not stay flat across friendly retellings.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The telephone game matters epistemically because it reveals a simple but underappreciated truth: distortion accumulates. Even when each person in a chain is mostly competent and mostly honest, a message passed through many minds is being filtered by memory, interpretation, attention, bias, and verbal compression at every step.",
+            "A good calculus therefore treats message reliability as compound rather than static. Fidelity, comprehension, and honesty are not decorative factors. They are multiplicative vulnerabilities. Once the reader sees that, the case stops being a childhood game and becomes a model for rumor, testimony, tradition, and institutional reporting.",
+            "The deeper lesson is not cynicism about all transmission. It is proportion. Long human chains deserve less naive confidence than direct contact, independent corroboration, or short well-audited routes.",
+        ],
+        "items": [
+            "Fidelity: How accurately is the message repeated in wording or content?",
+            "Comprehension: Did the transmitter actually understand what was being passed along?",
+            "Honesty: Was there any incentive to shade, simplify, exaggerate, or strategically omit?",
+            "Compounding effect: Small local losses can become large aggregate distortion once repeated across many nodes.",
+            "Practical implication: Confidence should decline as transmission length and human filtering increase.",
+        ],
+    },
+    ("/epistemology/case-2-the-telephone-game/", "prompt-2"): {
+        "heading": "A long chain turns modest local weakness into major cumulative distortion.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "This prompt is useful because the numbers feel respectable at the local level. Ninety percent fidelity, seventy-five percent comprehension, and ninety-five percent honesty do not sound disastrous when considered one node at a time. But the point of the exercise is that respectable local performance can still produce worrying end-state unreliability when repeated twenty-five times.",
+            "That is exactly why human testimony needs structural caution. The mind intuitively treats each node as 'pretty good,' then underestimates the cumulative cost of serial dependence. The mathematics forces the reader to feel the difference between isolated trust and repeated transmission risk.",
+            "The pedagogical gain is sharp: this is how many institutions, traditions, and social stories become less credible than their participants realize without anyone needing to be cartoonishly corrupt.",
+        ],
+        "items": [
+            "Local plausibility: Each relay can look acceptable in isolation.",
+            "Serial vulnerability: Error compounds across the chain even when no single node is terrible.",
+            "Intuitive blind spot: People usually underestimate multiplicative loss when reasoning informally.",
+            "Epistemic takeaway: A 'mostly reliable' chain can still yield a poor terminal report.",
+        ],
+    },
+    ("/epistemology/case-2-the-telephone-game/", "prompt-3"): {
+        "heading": "High per-node reliability still leaves noticeable uncertainty once the chain grows.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "This scenario is a good corrective because ninety-eight percent system fidelity sounds excellent. But excellence at one stage does not magically erase the epistemic cost of multiple stages. With seven friends in the chain, the right instinct is not alarmism, but disciplined discounting.",
+            "The exercise also shows why testimony should be handled in gradients. A relayed message need not be treated as either worthless or trustworthy. It can be assigned a lower confidence level precisely because we can identify the mechanisms by which degradation is likely to occur.",
+            "That is one reason case studies like this matter for intermediate readers. They teach a form of numerical humility: not all trust should collapse, but neither should it remain naively unadjusted after repeated transmission.",
+        ],
+        "items": [
+            "Gradient confidence: Reliability should be discounted, not treated as all-or-nothing.",
+            "Mechanism awareness: Distortion comes from misunderstanding, omission, reinterpretation, and the subtle pressure to smooth a message.",
+            "Seven is enough: Even relatively short chains can matter when the content is important or easily distorted.",
+            "Practical habit: Ask how many minds a message traveled through before treating it as a stable report.",
+        ],
+    },
+    ("/epistemology/case-2-the-telephone-game/", "prompt-4"): {
+        "heading": "Human relay systems fail through accumulation, reinterpretation, and bias.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Relying on a message passed through many people is dangerous not because humans are uniquely wicked, but because human transmission is active rather than inert. Each person compresses, interprets, highlights, forgets, and sometimes edits for relevance or social comfort. The content is not merely carried; it is repeatedly handled.",
+            "That means the final report may diverge from the original in more than one way at once. Facts can be lost, emphases can shift, certainty can be inflated, and motives can be misread. The resulting message may still sound coherent, which is precisely what makes relay distortion epistemically treacherous.",
+            "A mature reader should therefore ask not only what the final message says, but what kinds of alteration the transmission route would naturally encourage.",
+        ],
+        "items": [
+            "Accumulation: Small distortions add up instead of canceling out automatically.",
+            "Interpretive drift: Later transmitters often preserve what they think was meant rather than what was literally said.",
+            "Social filtering: Messages are often softened, sharpened, or moralized for the next audience.",
+            "Credibility lesson: The smoother the final story, the more important it can be to inspect the path by which it arrived.",
+        ],
+    },
+    ("/epistemology/many-logics/", "prompt-1"): {
+        "heading": "More than one logic usually means more than one formal system for different inferential jobs.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "When academics say there is more than one logic, they usually do not mean that reasoning has dissolved into chaos. They mean that there are multiple formal systems, each with its own rules, semantics, and intended use-cases. Classical logic is only one member of a larger family.",
+            "That family exists because different problems place different demands on inference. Some systems handle uncertainty, some relevance, some constructive proof, some inconsistent information, and some modal or temporal claims. The pluralism is technical before it is philosophical.",
+            "This is why the page should begin by lowering the drama. 'Many logics' does not mean 'anything goes.' It means the study of inference has become refined enough to distinguish several disciplined tools rather than forcing every problem through one formal shape.",
+        ],
+        "items": [
+            "Classical logic: The familiar baseline built around bivalence, excluded middle, and non-contradiction.",
+            "Alternative systems: Other logics adjust one or more rules in order to model different inferential settings.",
+            "Use-case sensitivity: Formal systems are often motivated by the kinds of reasoning they are meant to capture.",
+            "Reader safeguard: Plurality of logics is not the same as relativism about validity.",
+        ],
+    },
+    ("/epistemology/many-logics/", "prompt-2"): {
+        "heading": "Different logics are often alternatives in scope, not simple contradictions in the everyday sense.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "It is too simple to say the various logics are 'not contradictory' and leave it there, but the charitable core of the thought is right. Many formal systems are not rivals in the crude sense that one must be irrational and the others sane. They can be tailored to different semantic assumptions, proof standards, or contexts of application.",
+            "At the same time, real tension can exist. If one logic validates an inference another rejects, there is a genuine difference in formal commitment. The important question is what that difference is for, not whether it sounds alarming.",
+            "So the reader should avoid two mistakes: pretending all logics say the same thing, and pretending their plurality means inferential anarchy. The live issue is disciplined divergence.",
+        ],
+        "items": [
+            "Shared aspiration: Formal logics aim to model valid inference with precision.",
+            "Real divergence: Different systems may license or block different inferential moves.",
+            "Context sensitivity: The dispute often concerns the right framework for a class of problems rather than the abolition of rationality.",
+            "Better framing: Ask what assumptions each logic is preserving or relaxing, and why.",
+        ],
+    },
+    ("/epistemology/many-logics/", "prompt-3"): {
+        "heading": "Rejecting excluded middle changes what counts as proof, not what contradiction means.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Intuitionist logic is a good test case because it sounds more rebellious than it is. The rejection of the law of excluded middle is not usually a gleeful embrace of contradiction. It is a stricter demand about what may be asserted as proven, especially in cases where a constructive demonstration is unavailable.",
+            "That means intuitionism differs from classical logic in proof-theoretic posture rather than in a vague celebration of irrationality. Classical logicians are often willing to accept certain disjunctions or existence claims on non-constructive grounds; intuitionists want more explicit construction.",
+            "So the comparison becomes more interesting once stated properly. The question is not 'Does intuitionism hate logic?' but 'What standard of proof is being enforced, and what is gained or lost by that decision?'",
+        ],
+        "items": [
+            "Excluded middle: Classical logic accepts 'P or not-P' as generally valid even without a constructive proof of either side.",
+            "Constructive pressure: Intuitionism often withholds that step unless the proof gives a constructive route.",
+            "No contradiction-party: Rejecting excluded middle is not the same as permitting formal contradiction at will.",
+            "Philosophical payoff: The dispute reveals how proof standards shape what a system counts as known or assertable.",
+        ],
+    },
+    ("/epistemology/many-logics/", "prompt-4"): {
+        "heading": "Examples help only when each logic is tied to the kind of problem it was built to handle.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "A list of logical structures becomes educational only when it connects form to function. Otherwise the page risks becoming a cabinet of curiosities full of names the reader cannot use. Each example should show what inferential pressure motivated the system in the first place.",
+            "That matters because formal diversity can feel arbitrary from the outside. Once the reader sees that modal logic tracks necessity and possibility, temporal logic tracks time-sensitive relations, paraconsistent logic addresses inconsistency-handling, and intuitionist logic tracks constructive proof, the family begins to look intelligible rather than chaotic.",
+            "The page should therefore act like a map. It should show not only that the systems differ, but what kind of reasoning problem each one was designed to clarify.",
+        ],
+        "items": [
+            "Modal logic: Useful where claims about necessity, possibility, or counterfactual structure are central.",
+            "Temporal logic: Useful where order, duration, and time-indexed truth matter.",
+            "Paraconsistent logic: Useful where inconsistency must be handled without trivial collapse.",
+            "Intuitionist logic: Useful where constructive provability is the relevant standard.",
+        ],
+    },
+    ("/epistemology/many-logics/", "prompt-5"): {
+        "heading": "In ordinary speech, 'logic' often means intelligibility rather than a formal calculus.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Outside formal settings, people often use the word logic much more loosely. They may mean that a person's reasoning makes sense, that a process has an internal pattern, or that a behavior follows from a recognizable set of motives. This is not wrong; it is simply a different use of the word.",
+            "The important thing is to keep the informal and formal uses from bleeding into one another unnoticed. Otherwise a reader can hear 'many logics' and think academics are justifying every person's private way of thinking. That is not what the technical discussion is about.",
+            "The page is strongest when it marks the boundary clearly. Formal logic is a structured study of inference. Informal uses of logic point more broadly to coherence, intelligibility, or pattern.",
+        ],
+        "items": [
+            "Formal use: A logic is a defined inferential system with rules, semantics, and proof standards.",
+            "Informal use: A person's 'logic' may simply mean the way their thinking hangs together from the inside.",
+            "Process use: People also say a natural or social process has a 'logic' when it displays a recognizable pattern or dynamic.",
+            "Clarifying move: Always ask whether the word is being used technically, evaluatively, or metaphorically.",
+        ],
+    },
+    ("/epistemology/avoiding-single-cause-dogmatism/", "prompt-1"): {
+        "heading": "Single-cause thinking feels clean because reality usually does not.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The dialogue works best when the reader stops treating Tom and Randy as personalities and starts treating them as cognitive styles. Tom wants one satisfying lever. Randy assumes that large social outcomes usually emerge from several interacting causes, each with its own weight and uncertainty.",
+            "That contrast matters because oversimplification is not just a factual mistake. It is an epistemic temptation. Single-cause stories are easier to remember, easier to defend, and easier to politicize than a messy model with several partial contributors.",
+            "The page should therefore help the reader feel why multi-causal reasoning is a mark of maturity. Reality often refuses to honor our wish for one tidy explanation, especially in economics, politics, history, and public policy.",
+        ],
+        "items": [
+            "Cognitive temptation: One-cause explanations are emotionally satisfying because they compress complexity into a villain or a lever.",
+            "Causal layering: Social outcomes usually reflect policy, incentives, culture, timing, institutions, and background conditions at once.",
+            "Credence discipline: A rational mind distributes confidence across contributors instead of handing all explanatory force to one favorite cause.",
+            "Reader lesson: Explanatory neatness is not the same thing as explanatory adequacy.",
+        ],
+    },
+    ("/epistemology/avoiding-single-cause-dogmatism/", "prompt-2"): {
+        "heading": "A better model assigns weighted credences rather than one triumphant cause.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Randy should not merely list possible causes. He should model them. That means identifying several live contributors, assigning rough credences or weights, and explaining what evidence would raise or lower those weights. The aim is not fake precision, but disciplined proportionality.",
+            "This matters because a list without weighting can still encourage sloppy thinking. Once the alternatives are visible, the reader needs to know which ones are central, which are secondary, and which are presently under-supported but still worth keeping on the table.",
+            "A strong presentation therefore looks less like a speech and more like an evidential dashboard: multiple candidate causes, rough comparative importance, and explicit uncertainty where the evidence is thin.",
+        ],
+        "items": [
+            "Candidate set: Name the plausible causes before ranking them.",
+            "Relative weighting: Show which factors look dominant, contributing, or marginal rather than pretending all causes matter equally.",
+            "Update conditions: Say what new evidence would shift the credence assigned to each cause.",
+            "Epistemic gain: Weighted pluralism is more informative than both monocausal certainty and shapeless complexity.",
+        ],
+    },
+    ("/epistemology/avoiding-single-cause-dogmatism/", "prompt-3"): {
+        "heading": "A table earns its keep only if it turns explanation into comparison.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "A hypothetical table is useful because it forces the reader to stop hand-waving. Once causes are placed side by side, the real work begins: What evidence supports each one? How much explanatory reach does it have? How independent is it from the others? Where is the uncertainty still widest?",
+            "That is what makes tabular thinking philosophically valuable here. It converts conversation into an inspectable structure. Instead of 'I just think this is the reason,' the reader gets a visible model of comparative explanatory pressure.",
+            "The ideal table should therefore do more than display categories. It should teach ranking, interaction, and evidential humility.",
+        ],
+        "items": [
+            "Comparative evidence: Each cause should be tied to some observable support rather than merely named.",
+            "Interaction effect: Causes can reinforce, dampen, or partially explain one another.",
+            "Residual uncertainty: A good table leaves room for unknown or poorly measured contributors.",
+            "Pedagogical payoff: The reader can now ask which explanation is strongest, which is weakest, and why.",
+        ],
+    },
+    ("/epistemology/avoiding-single-cause-dogmatism/", "prompt-4"): {
+        "heading": "Analogies help when they reveal how often monocausal thinking misfires.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Analogies are useful here because the monocausal mistake shows up everywhere. A patient gets sick, a team starts winning, a market crashes, a student improves, or a city becomes safer, and people rush to the cause they already wanted to celebrate or condemn. The analogy exposes the habit before it gets disguised as expertise.",
+            "The key is to pick analogies where several factors plainly cooperate. Once the reader sees that good coaching, player health, schedule strength, and luck all matter in sports, or that diagnosis, treatment, habits, and social context all matter in health, the unemployment example becomes easier to handle without dogmatism.",
+            "A strong analogy therefore teaches transfer. It gives the mind a reusable warning against the seduction of the single silver bullet.",
+        ],
+        "items": [
+            "Medical analogy: Recovery is rarely due to one variable alone when biology, treatment, compliance, and timing interact.",
+            "Sports analogy: Success is usually over-explained by one coach or player because the cleaner story is easier to sell.",
+            "Economic analogy: Large changes in public indicators often reflect policy plus broader background conditions.",
+            "General rule: The more complex the system, the less justified monocausal triumphalism becomes.",
+        ],
+    },
+    ("/epistemology/induction-forecasting/", "prompt-1"): {
+        "heading": "Forecasting platforms matter because they make epistemic performance public.",
+        "replace_paragraphs": True,
+        "paragraphs": [
+            "Forecasting sites are philosophically useful because they turn belief into a testable practice. Instead of asking only what someone believes, they ask what probability the person assigns, what time horizon they are willing to expose that estimate to, and how often their judgments survive contact with reality.",
+            "That makes these platforms unusually valuable for epistemology. They operationalize calibration, updating, humility, and scorekeeping in a way ordinary debate rarely does. A reader can watch confidence meet outcomes instead of staying at the level of rhetoric.",
+            "Even if the specific sites change over time, the core point remains: public forecasting environments create a laboratory in which probabilistic judgment can be compared, rewarded, and corrected.",
+        ],
+        "items": [
+            "Public calibration: Estimates are recorded before outcomes are known.",
+            "Scorekeeping: Performance can be tracked rather than merely asserted.",
+            "Updating pressure: Good forecasters revise credences as evidence shifts.",
+            "Epistemic value: Forecasting sites make accuracy, not just confidence, visible.",
+        ],
+    },
+    ("/epistemology/induction-forecasting/", "prompt-2"): {
+        "heading": "If someone had privileged access to truth, forecasting is where we should expect it to show.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "This prompt is philosophically sharp because it asks whether alleged access to transcendent truth should cash out in measurable predictive advantage. If a person really enjoys a superior epistemic pipeline, one natural place to look is in repeated forecasting performance under public scoring conditions.",
+            "That does not mean every theological claim is reducible to prediction. But once a worldview is said to provide unusual guidance, insight, or truth-tracking capacity, the absence of visible forecasting advantage becomes relevant. A privileged epistemic source should leave some detectable residue where uncertainty can be operationalized.",
+            "The deeper point is methodological. Forecasting gives us a partial test-bed for claims of special access because it rewards calibration over charisma.",
+        ],
+        "items": [
+            "Prediction as probe: Forecasting offers one concrete way to examine whether alleged special insight improves real-world judgment.",
+            "Asymmetry check: Claims of privileged access should not remain forever insulated from measurable comparison.",
+            "Scope caution: Failure in forecasting would not refute every religious claim, but it would weaken stronger truth-access boasts.",
+            "Reader lesson: Extraordinary epistemic authority should create at least some extraordinary performance somewhere testable.",
+        ],
+    },
+    ("/epistemology/induction-forecasting/", "prompt-3"): {
+        "heading": "Top forecasters tend to exhibit habits of revision more than habits of bravado.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "When people look for the background of strong forecasters, they are often tempted to hunt for a magic identity type. The better lesson is usually dispositional. High performers are less defined by grand certainty than by habits of decomposition, probabilistic thinking, base-rate awareness, and willingness to update.",
+            "This matters because epistemology is often misdescribed as a set of abstract rules. Forecasting shows it as a style of mind: curious, corrigible, numerate enough to respect uncertainty, and emotionally stable enough to revise without humiliation.",
+            "The page should therefore help the reader see that good forecasting is not mystical. It is disciplined fallibility practiced well.",
+        ],
+        "items": [
+            "Decomposition: Break a hard question into smaller answerable parts.",
+            "Base-rate awareness: Start from broader patterns before privileging a vivid local story.",
+            "Update willingness: Treat revision as evidence of seriousness rather than weakness.",
+            "Temperamental steadiness: Good judgment often depends on not being emotionally jerked around by each new headline.",
+        ],
+    },
+    ("/epistemology/induction-forecasting/", "prompt-4"): {
+        "heading": "Superforecasting reflects critical-thinking habits that keep confidence tethered to evidence.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The most important critical-thinking skill on display in strong forecasting is calibrated restraint. Good forecasters do not merely think hard. They keep belief elastic enough to move when evidence moves, and they resist the urge to convert a plausible story into a fixed conviction too early.",
+            "Several familiar virtues show up here in practical form: decomposition of questions, awareness of base rates, sensitivity to disconfirming evidence, and a refusal to confuse confidence with competence. Forecasting is where critical thinking stops sounding noble and starts becoming measurable.",
+            "That is why the page should speak plainly. Superforecasters are not oracles. They are usually people who have learned how to manage uncertainty without either freezing or bluffing.",
+        ],
+        "items": [
+            "Decompose the problem: Hard questions become tractable when split into smaller evidential sub-questions.",
+            "Use base rates: Start with background frequencies before trusting a vivid narrative.",
+            "Welcome disconfirmation: Counterevidence should change the estimate instead of being explained away.",
+            "Calibrate confidence: The strength of the estimate should match the strength of the evidence.",
+            "Stay corrigible: Good forecasters revisit their views repeatedly rather than performing certainty once and calling it done.",
+        ],
+    },
+    ("/epistemology/induction-forecasting/", "prompt-5"): {
+        "heading": "Forecasting performance is usually broad in the middle with a thinner layer of genuine outliers.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The distribution question matters because it stops us from romanticizing expertise. Most forecasters cluster somewhere between mediocre and decent, with many performing near modest competence rather than spectacular brilliance. What makes superforecasters interesting is not that they are magical, but that consistent separation from the pack appears possible at all.",
+            "That pattern is educational in two directions. It humbles the average reader by showing how easy it is to hover near ordinary performance, and it encourages the reader by showing that disciplined habits can produce measurable improvement above chance over time.",
+            "The key philosophical point is that forecasting skill looks graded rather than binary. Judgment quality varies, and the variation is not invisible once the right scoring environment exists.",
+        ],
+        "items": [
+            "Middle-heavy distribution: Most participants do not become forecasting stars.",
+            "Real but limited elites: A smaller group does seem to separate itself through sustained calibration and updating skill.",
+            "Against fatalism: Better judgment is learnable enough to matter, even if talent and temperament also play a role.",
+            "Epistemic payoff: Performance spread shows that rational discipline can become publicly legible rather than staying purely private.",
+        ],
+    },
+    ("/epistemology/abduction-utility-and-issues/", "prompt-1"): {
+        "heading": "Abduction is useful because we often must act before all alternatives are visible.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Inference to the best explanation earns its keep because human reasoning often begins under incomplete information. The missing cookies case makes that intuitive: we cannot wait for omniscience before forming a working hypothesis, so we reach for the explanation that best fits the visible clues.",
+            "The strength of abduction is practical efficiency. It helps us move from scattered observations to a candidate explanation quickly enough to guide action, further inquiry, and provisional judgment. But its speed is also the source of its danger.",
+            "A mature page on abduction should therefore teach both appreciation and suspicion. The best available explanation may be genuinely useful while still being vulnerable to hidden alternatives, background ignorance, and premature closure.",
+        ],
+        "items": [
+            "Practical necessity: We often need a working explanation before exhaustive knowledge is available.",
+            "Best-so-far status: Abductive conclusions are strongest when treated as provisional leaders rather than final victors.",
+            "Hidden-variable risk: The apparent best explanation may owe its strength to unconsidered alternatives never entering the comparison set.",
+            "Reader lesson: Abduction is a tool for disciplined guesswork, not a license for explanatory vanity.",
+        ],
+    },
+    ("/epistemology/abduction-utility-and-issues/", "prompt-2"): {
+        "heading": "History of science shows how often the best visible explanation was only locally best.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "This prompt is one of the best checks on abductive overconfidence. In many historical moments, the best explanation available to careful people was still wrong because the relevant causal structure had not yet been discovered. The error was not always foolishness. It was often the natural limit of the available hypothesis space.",
+            "That is why scientific history belongs in epistemology. It teaches humility about explanatory victory. A model can outperform its rivals and still deserve only provisional confidence if the field of live rivals is probably incomplete.",
+            "The page should therefore leave the reader with a useful suspicion: the strength of an abductive conclusion depends not only on how well it explains the evidence, but also on how good the menu of considered explanations really is.",
+        ],
+        "items": [
+            "Local bestness: A theory may be best among the known options while still not being the actual truth.",
+            "Hypothesis-space problem: Unknown explanations cannot compete in the comparison even when they are the real winners.",
+            "Historical humility: Scientific success often required later concepts that earlier reasoners did not yet possess.",
+            "Takeaway: 'Best explanation available' is not identical to 'best explanation possible.'",
+        ],
+    },
+    ("/epistemology/abduction-utility-and-issues/", "prompt-3"): {
+        "heading": "Good abductive reasoning leaves probability mass for explanations we have not yet imagined.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "This is the central caution. If a reasoner assigns all probability mass to the currently visible candidates, the reasoning process quietly assumes that the explanatory search space is complete. That assumption is often false, especially in science, medicine, history, and complex social explanation.",
+            "Leaving room for unknown explanations is not an act of vagueness. It is a disciplined admission of cognitive limits. It recognizes that a strong explanation can still be undermined tomorrow by a mechanism, category, or variable we do not yet know how to name.",
+            "That is what makes abduction both useful and dangerous. It guides inquiry well when accompanied by reserve; it misleads when reserve is mistaken for weakness and explanatory closure is treated as intellectual strength.",
+        ],
+        "items": [
+            "Open-set caution: The comparison class may be incomplete even when the current options look exhaustive.",
+            "Probability reserve: Some credence should remain available for unknown or not-yet-articulated explanations.",
+            "Closure risk: Overconfidence grows when the mind confuses an elegant shortlist with a complete one.",
+            "Bayesian payoff: Proper uncertainty about the hypothesis space improves later updating instead of obstructing it.",
+        ],
+    },
+    ("/epistemology/abduction-utility-and-issues/", "prompt-5"): {
+        "heading": "Abduction is limited, but its limits appear when we ask it to do more than it was built to do.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "It would be a mistake to swing from abductive overconfidence to abductive contempt. Abduction has real value because it helps inquiry move when evidence is suggestive but not yet decisive. The problem appears when the best explanation is treated as if it were already well-confirmed simply because it feels satisfying or comprehensive.",
+            "Compared with induction, abduction is often less secure because it relies more heavily on the current explanatory menu and on judgments of fit, simplicity, and plausibility. But that does not make it useless. It makes it a stage of reasoning that needs more caution than triumphalism.",
+            "The page should therefore lower the register from winner-announcement to working-hypothesis management. Abduction is strongest as a provisional guide, not as a self-congratulating endpoint.",
+        ],
+        "items": [
+            "Real utility: Abduction helps generate and rank explanations under uncertainty.",
+            "Real limit: It can overstate confidence when alternative explanations remain unseen or underdeveloped.",
+            "Comparison with induction: Inductive support often has a broader evidential base, while abduction leans more on model selection within a limited set.",
+            "Right posture: Use abduction to orient inquiry, then seek stronger confirmation where possible.",
+        ],
+    },
+    ("/epistemology/doxastic-voluntarism/", "prompt-1"): {
+        "heading": "The real question is not whether we can snap beliefs on at will, but how much control belief formation actually allows.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Doxastic voluntarism becomes interesting once the cartoon version is set aside. Very few people think we can simply decide, right now, to believe that the moon is made of copper or that two plus two equals five. The live question is subtler: what forms of indirect control do we have over what we eventually come to believe?",
+            "That is why the concept belongs in epistemology rather than in a mere psychology glossary. It bears on responsibility, blame, inquiry habits, exposure to evidence, and the extent to which belief is something we do versus something that happens under evidential pressure.",
+            "A good introduction should therefore distinguish immediate voluntary control from indirect formation-shaping control. Without that distinction, the debate becomes easier and less interesting than it really is.",
+        ],
+        "items": [
+            "Direct control question: Can a person choose a belief immediately in the way they choose to raise a hand?",
+            "Indirect control question: Can a person influence future belief by managing attention, evidence, habits, or community exposure?",
+            "Responsibility issue: Epistemic blame makes more sense if some meaningful control over belief-formation exists.",
+            "Conceptual gain: The debate becomes clearer once 'belief choice' is split into stronger and weaker senses.",
+        ],
+    },
+    ("/epistemology/doxastic-voluntarism/", "prompt-3"): {
+        "heading": "Cognitive science tends to weaken direct voluntarism while leaving room for indirect responsibility.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Cognitive science generally pushes against the fantasy of strong direct control. Beliefs often form through evidence processing, prior commitments, emotional salience, memory, social context, and automatic cognition rather than through a sheer act of will.",
+            "At the same time, this does not erase agency altogether. People can choose what they read, which questions they avoid, how seriously they test disconfirming evidence, and what environments they inhabit. Those indirect controls shape what beliefs become more likely over time.",
+            "So the scientifically informed position is often more nuanced than either extreme. We are not sovereign dictators over belief, but neither are we passive spectators with no responsibility for how our epistemic life is arranged.",
+        ],
+        "items": [
+            "Against strong voluntarism: Belief does not usually respond to command in the way overt bodily action does.",
+            "For indirect agency: Attention, inquiry habits, social choice, and evidence management influence future belief formation.",
+            "Epistemic ethics: Responsibility may attach more to the maintenance of a cognitive environment than to isolated moments of assent.",
+            "Useful conclusion: Cognitive science complicates voluntarism without making rational self-governance disappear.",
+        ],
+    },
+    ("/epistemology/epistemological-case-studies/", "prompt-1"): {
+        "heading": "Case studies matter because rationality gets clearer when it has to survive a concrete situation.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "A list of case studies is useful only if the reader understands why scenarios teach something abstracts often cannot. Case studies force epistemic concepts to operate under pressure: incomplete evidence, emotional stakes, ambiguity, testimony chains, incentives, and the temptation to settle too early.",
+            "That is what makes them pedagogically valuable. They turn rationality from a vocabulary list into a practiced skill. Instead of merely defining burden of proof, calibration, or confirmation bias, the reader has to watch those ideas matter inside a live decision.",
+            "The best case-study collection therefore offers variety with structure. Each scenario should isolate a distinct epistemic pressure while still feeling recognizably human.",
+        ],
+        "items": [
+            "Concrete pressure: Abstract concepts become easier to grasp when attached to a decision, dispute, or evidential puzzle.",
+            "Transfer value: A good case study teaches a pattern that can reappear in many domains.",
+            "Emotional realism: Scenarios matter because real reasoning is rarely done in a sterile lab of pure calm.",
+            "Pedagogical aim: The student should leave with a habit of mind, not just a memory of the example.",
+        ],
+    },
+    ("/epistemology/epistemological-case-studies/", "prompt-2"): {
+        "heading": "A short class works best when each scenario is used to train one epistemic habit well.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The danger in teaching too many scenarios too quickly is that students remember the drama and forget the reasoning habit. A sixty-minute session should therefore be designed around a few representative cases, each chosen because it trains one central skill especially well.",
+            "That is the teaching logic the page should emphasize. The class is not mainly about coverage. It is about rhythm: brief framing, careful scenario reading, targeted discussion, and a short reflective exercise that forces students to name the epistemic pressure at work.",
+            "A well-run case-study class should leave students better at noticing how belief gets pushed around, not merely more entertained by examples.",
+        ],
+        "items": [
+            "Select for contrast: Use a small number of cases that highlight different epistemic dangers rather than flooding the room.",
+            "Name the habit: Each case should map to one or two skills such as calibration, charitable interpretation, or testimony assessment.",
+            "Discussion discipline: Questions should move students from reaction to analysis.",
+            "Reflection step: End by asking what general reasoning habit the case was meant to train.",
+        ],
+    },
+    ("/epistemology/epistemological-case-studies/", "prompt-3"): {
+        "heading": "Case studies prepare readers for reality because reality rarely announces which epistemic mistake it is about to exploit.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The value of epistemological scenarios is that they build recognition before the real moment arrives. In life, people do not get a caption telling them that this is a base-rate problem, a testimony problem, an overconfidence problem, or a motivated-reasoning problem. They have to notice the shape of the risk while already inside it.",
+            "Case studies help by giving the mind patterns to recognize. They teach readers how poor evidence can still feel compelling, how a chain of transmission can degrade quietly, and how a favorite explanation can look stronger than it is simply because rival explanations were never explored.",
+            "That is why scenarios are not optional decoration. They are rehearsal spaces for judgment under uncertainty.",
+        ],
+        "items": [
+            "Pattern recognition: The student learns to see epistemic structure before having perfect terminology.",
+            "Judgment rehearsal: Scenarios provide low-cost practice for high-cost mistakes.",
+            "Transfer into life: The gain is not the case itself but the improved response to later real cases.",
+            "Intermediate-reader payoff: Case studies give semantic hooks where pure abstraction often slips away.",
+        ],
+    },
+    ("/epistemology/pascals-wager/", "prompt-5"): {
+        "heading": "The wager looks pragmatic only after fear and desire have already assigned the payoffs.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "This is an important pressure point in Pascal's Wager. The wager can sound coldly rational, but its force depends heavily on how the possible outcomes are emotionally and imaginatively weighted. Infinite bliss and infinite torment are not neutral entries in a spreadsheet. They are existentially loaded pictures designed to dominate the choice architecture.",
+            "That does not by itself refute the wager, but it does reveal something about its structure. The argument is not simply deriving a conclusion from evidence. It is asking the reader to let a dramatic assessment of consequences drive decision under evidential uncertainty. In that sense, emotion is not incidental to the wager's grip; it is part of the engine.",
+            "The careful reader should therefore ask two questions at once: whether the payoff matrix is evidentially justified, and whether the intuitive force of the wager comes more from truth-tracking than from the mind's vulnerability to asymmetrical hopes and fears.",
+        ],
+        "items": [
+            "Emotional loading: Heaven and hell imagery amplifies perceived stakes before the evidential question is settled.",
+            "Pragmatic structure: The wager tells you how to choose under uncertainty, not how to show that the underlying claims are true.",
+            "Comparative problem: Once consequence-weighting drives the choice, rival supernatural systems can generate competing wagers.",
+            "Reader lesson: A decision can feel 'logical' while still depending deeply on a prior emotional valuation of outcomes.",
+        ],
+    },
+    ("/epistemology/the-inductive-paradox/", "prompt-2"): {
+        "heading": "The dialogue should expose the instability of trusting induction only where it flatters your conclusion.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "A good dialogue here should do more than stage a quarrel between a theist and a non-theist. Its real job is to dramatize a consistency problem. If one party relies on inductive reasoning to support a favored conclusion, then that same party must explain why parallel inductive reasoning toward disfavored conclusions suddenly becomes suspect.",
+            "That is what gives the dialogue pedagogical bite. The reader sees that the issue is not merely who has the better conclusion, but who is applying evidential standards symmetrically. Selective trust in induction is often less a theory of reasoning than a protection strategy for cherished beliefs.",
+            "The best exchange therefore makes the audience feel the pressure of reciprocity: if this kind of inference counts here, why not there? And if it does not count there, why should it count here?",
+        ],
+        "items": [
+            "Symmetry test: Both speakers should be forced to apply the same inferential standard across comparable cases.",
+            "Selective skepticism warning: A person may accept inductive support enthusiastically until it begins pointing the wrong way.",
+            "Dialogue value: The exchange works when it exposes inconsistency without flattening either side into a fool.",
+            "Core lesson: The paradox is about disciplined uniformity in reasoning, not about verbal point-scoring.",
+        ],
+    },
+    ("/epistemology/case-6-insatiable-loops/", "prompt-2"): {
+        "heading": "The son's best reply is to show that the father's rule protects itself by redefining the evidence.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The circularity becomes clear once the son notices that the father's conclusion is being used to police the interpretation of every new case. A cave that does not look man-made is not allowed to count as evidence against the theory because the theory itself is invoked to insist that it must somehow still be man-made. The conclusion is doing double duty as both result and filter.",
+            "That is what makes the loop 'insatiable.' It can swallow any apparent counterexample by reinterpretation. The father is no longer learning from the evidence; he is teaching the evidence what it is allowed to mean.",
+            "A strong response from the son should therefore emphasize not just disagreement, but method. He should point out that a claim which cannot, even in principle, be endangered by a contrary-looking case is no longer being tested honestly.",
+        ],
+        "items": [
+            "Conclusion as filter: The father's belief decides in advance how every new cave must be interpreted.",
+            "Counterexample absorption: Apparent disconfirming cases are neutralized rather than allowed genuine evidential force.",
+            "Methodological criticism: The real problem is not only the conclusion but the self-protective way it handles evidence.",
+            "Reader lesson: Circularity often hides in the rule for interpreting future cases, not just in an explicit verbal loop.",
+        ],
+    },
+    ("/epistemology/epistemology-core-concepts/", "prompt-1"): {
+        "heading": "A glossary becomes useful only when the terms form a map rather than a heap.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Listing key terms in epistemology is helpful only if the reader starts to see how the terms relate. Otherwise a glossary becomes a museum of labels: belief next to knowledge, justification next to evidence, skepticism next to certainty, with no sense of what problem each term is trying to solve.",
+            "A good entry page should therefore teach orientation, not just vocabulary. The reader should feel that epistemology revolves around a few live pressures: what belief is, what makes it responsible, how confidence should track evidence, what knowledge adds beyond true belief, and how doubt can discipline thought without swallowing it whole.",
+            "That is why even a definitions page needs conceptual architecture. The terms matter because they help the reader hold apart distinctions that public discourse constantly collapses.",
+        ],
+        "items": [
+            "Belief versus knowledge: Not every belief that feels settled has earned the status of knowledge.",
+            "Evidence versus justification: Evidence supplies support; justification concerns whether the support is good enough for the claim made.",
+            "Certainty versus credence: Epistemic life is often graded rather than all-or-nothing.",
+            "Skepticism versus rigor: Doubt can sharpen inquiry without requiring paralysis.",
+            "Reader payoff: The glossary should function like a route map into later pages, not just a test-prep sheet.",
+        ],
+    },
+    ("/epistemology/decision-making/", "prompt-1"): {
+        "heading": "Rational decisions require more than strong preferences and quick confidence.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Rational decision-making sits at the intersection of facts, probabilities, goals, constraints, values, and time. That is why it cannot be reduced to 'doing what feels best' or even 'doing what seems most logical' in a thin sense. A decision is rational when it integrates the right considerations in proportion to the stakes and uncertainty involved.",
+            "This matters because people often confuse decisiveness with rationality. In practice, rational choice may require delay, information-gathering, scenario comparison, and the discipline to admit when the option set itself is poorly understood.",
+            "The page should therefore give the reader a framework, not a slogan. Good decisions depend on the quality of the evidence, the clarity of the goals, the realism of the forecast, and the ability to live with uncertainty without pretending it has vanished.",
+        ],
+        "items": [
+            "Goal clarity: A decision cannot be rational if the decision-maker is vague about what they are trying to optimize or protect.",
+            "Evidence quality: Better information improves choice only if it is relevant, credible, and proportionate to the stakes.",
+            "Probability judgment: Rational action usually depends on likely outcomes, not on fantasy best-cases alone.",
+            "Constraint awareness: Time, cost, moral limits, and opportunity loss all shape what counts as a sensible choice.",
+            "Reader lesson: Rationality in decisions is structured proportionality, not mere boldness.",
+        ],
+    },
+    ("/epistemology/decision-making/", "prompt-3"): {
+        "heading": "Consequences matter because a decision is partly a forecast about what your action will set in motion.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Evaluating consequences is important because a decision is never just a present choice. It is also a bet about downstream effects. To decide well, a person has to consider not only what they want now, but what their action is likely to produce later for themselves and for others.",
+            "That does not mean consequence-counting is the whole of rationality. Rules, duties, integrity, and uncertainty all matter too. But ignoring consequences altogether is one of the fastest ways to confuse sincerity with wisdom. A well-meant choice can still be reckless if its foreseeable effects were never seriously considered.",
+            "The page should therefore help the reader think in branching paths. What does this action make more likely? What risks does it create? What second-order effects may follow even if the first move feels justified?",
+        ],
+        "items": [
+            "Near-term versus long-term: Some choices look attractive immediately while generating slow costs that matter more.",
+            "Foreseeability: Rational agents are not responsible for every remote outcome, but they are responsible for consequences they could reasonably have anticipated.",
+            "Second-order effects: Decisions can change incentives, habits, relationships, or institutions beyond the first visible result.",
+            "Practical takeaway: Consequence-evaluation is less about omniscience than about refusing avoidable blindness.",
+        ],
+    },
+    ("/epistemology/decision-making/", "prompt-4"): {
+        "heading": "After a terrible decision, the healthiest stance is honest grief without self-destructive theater.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "A healthy emotional posture after a horrific decision should begin with realism. If the decision caused deep harm, a responsible person should not rush into self-excusing language or cheap optimism. Regret, sorrow, and moral seriousness may be exactly the right responses.",
+            "At the same time, there is a difference between honest remorse and performative self-condemnation. The first keeps contact with reality and can support repair, apology, and learning. The second can become its own form of self-absorption, where the drama of guilt displaces the harder work of accountability.",
+            "The page should therefore steer the reader toward a sober middle: admit the damage, take responsibility, make what repairs are still possible, and refuse both denial and melodrama.",
+        ],
+        "items": [
+            "Reality contact: Name the harm clearly instead of hiding behind vague language.",
+            "Responsible regret: Pain can be epistemically and morally appropriate when it reflects what really happened.",
+            "Repair orientation: The emotional question should turn quickly toward apology, restitution, prevention, and changed practice.",
+            "Against theater: Endless self-laceration can look serious while actually avoiding the disciplined labor of repair.",
+        ],
+    },
+    ("/epistemology/counterfactual-reasoning/", "prompt-1"): {
+        "heading": "Counterfactual reasoning asks what would likely have happened if a relevant condition had been different.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Counterfactual reasoning is the disciplined practice of asking how events would probably have unfolded if some important factor had been changed. It is not mere daydreaming about alternate realities. Done well, it helps isolate causal contribution by comparing the actual path with a plausible nearby alternative.",
+            "That is why the skill matters across philosophy, science, law, history, and ordinary life. People use counterfactuals whenever they ask whether a policy prevented harm, whether a mistake caused a loss, whether a treatment helped, or whether a person's action made a difference to the outcome.",
+            "The key word is plausible. A useful counterfactual stays close enough to reality that the comparison still teaches us something about cause, dependency, and responsibility.",
+        ],
+        "items": [
+            "Core form: What would likely have happened if X had been absent, delayed, strengthened, or replaced?",
+            "Causal use: Counterfactuals help test whether an event or action made a meaningful difference.",
+            "Plausibility rule: The imagined alternative should stay near the actual world rather than drifting into fantasy.",
+            "Reader lesson: Counterfactual reasoning is about disciplined comparison, not imaginative indulgence.",
+        ],
+    },
+    ("/epistemology/counterfactual-reasoning/", "prompt-2"): {
+        "heading": "Counterfactual thinking is valuable wherever explanation, planning, regret, and responsibility intersect.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Counterfactual reasoning earns its keep in many domains because humans constantly need to ask not only what happened, but what difference some change would have made. Without that move, planning becomes guesswork, responsibility becomes blurry, and lessons from failure remain shallow.",
+            "In everyday life, people use counterfactuals in medicine, career planning, relationships, parenting, finance, sports, policy, and moral reflection. The skill is useful wherever causes are multiple and outcomes matter enough that a better understanding of the branching possibilities could guide future action.",
+            "What makes the reasoning healthy is not that it avoids emotion, but that it refuses to let emotion drive the imagined alternative without evidential discipline.",
+        ],
+        "items": [
+            "Planning: You compare live options by asking what different choices would probably set in motion.",
+            "Responsibility: You assess blame or credit by asking whether an agent's action changed the outcome in a meaningful way.",
+            "Learning from mistakes: You identify preventable failure by asking what a nearby better path would have looked like.",
+            "Public policy: You test whether interventions likely improved or worsened social outcomes compared with reasonable alternatives.",
+            "Practical rule: The value lies in improved judgment, not in endless alternate-universe rumination.",
+        ],
+    },
+    ("/epistemology/pascals-wager/", "prompt-1"): {
+        "heading": "Pascal's Wager treats belief as a high-stakes bet under uncertainty rather than as a conclusion from evidence.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Pascal's Wager is best understood as a prudential argument. It does not try to prove that God exists by marshaling evidence in the ordinary way. Instead it asks what a rational agent should do if the evidence leaves the question unsettled but the possible payoffs are said to be enormous.",
+            "That structure is what makes the wager philosophically interesting. It shifts the discussion from truth first to decision first. The reader is invited to ask whether practical stakes can justify commitment where evidential justification is incomplete.",
+            "A good page should therefore keep two questions distinct: whether the wager is strategically clever, and whether strategic cleverness has any business generating belief.",
+        ],
+        "items": [
+            "Prudential frame: The wager is about what it is rational to choose under uncertainty.",
+            "Evidential gap: The argument assumes the evidence does not settle the matter decisively.",
+            "Infinite-payoff pressure: The force of the wager comes from asymmetric consequences rather than from new evidence.",
+            "Philosophical tension: The page matters because it tests the boundary between rational action and rational belief.",
+        ],
+    },
+    ("/epistemology/pascals-wager/", "prompt-2"): {
+        "heading": "The wager can operate without direct evidence, but that is also where its epistemic vulnerability begins.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Proponents of the wager are right in one limited sense: the argument does not require empirical evidence for heaven, hell, or divine reward in order to get moving. It is designed precisely for a setting of uncertainty where the agent is told to choose on the basis of stakes rather than proof.",
+            "But that feature is double-edged. The less the wager depends on evidence, the more it depends on a speculative payoff structure that has not itself been securely established. The argument gains practical force by stepping around evidential demand, but that maneuver also weakens its claim to guide belief responsibly.",
+            "The reader should therefore see the wager as a special kind of proposal: a strategy for action under uncertainty, not a shortcut to knowledge.",
+        ],
+        "items": [
+            "Operational point: The wager does not wait for proof before recommending a choice.",
+            "Epistemic cost: The payoff assumptions remain unsupported if evidence is sidelined.",
+            "Belief-action distinction: One might act cautiously without concluding that the underlying doctrine is true.",
+            "Key question: Can prudence justify commitment where evidence has not yet justified assent?",
+        ],
+    },
+    ("/epistemology/pascals-wager/", "prompt-3"): {
+        "heading": "Once the wager is detached from evidence, rival gods can start bidding for your fear.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "This is one of the classic pressure points against the wager. If the argument works by saying we should choose the option with the highest expected payoff under uncertainty, then any rival religious system with a more attractive heaven or more terrifying punishment can generate a competing wager.",
+            "That reveals a structural weakness. The wager does not uniquely privilege one theology unless the reader already has some independent reason to privilege its payoff claims over the alternatives. Otherwise the space fills quickly with incompatible high-stakes bids, each demanding prudential submission.",
+            "So the page should teach that the wager is not merely vulnerable to emotional manipulation; it is also vulnerable to competitive escalation once evidence is left out of the selection process.",
+        ],
+        "items": [
+            "Many-gods problem: Competing supernatural payoff structures can all mimic the same prudential logic.",
+            "Selection problem: Without evidence, the wager lacks a stable method for choosing among rival threats and rewards.",
+            "Escalation dynamic: The largest imagined payoff or punishment can dominate by theatrical intensity rather than by truth.",
+            "Reader lesson: A decision rule detached from evidence can be hijacked by the boldest story in the room.",
+        ],
+    },
+    ("/epistemology/pascals-wager/", "prompt-4"): {
+        "heading": "The wager is not pure emotion, but it plainly recruits emotion to make prudence feel urgent.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "It would be too simple to say Pascal's Wager is nothing but emotion. It has a recognizable decision-theoretic structure: compare options under uncertainty and attend to asymmetrical outcomes. But it would be equally naive to pretend that the argument's psychological force is independent of emotional imagination.",
+            "The wager works on many readers because it turns metaphysical possibility into felt urgency. Fear of loss and hope for gain do not merely accompany the argument; they help give it traction. The argument is formally pragmatic, but its grip is existentially affective.",
+            "A good reconstruction should therefore keep both truths in view. The wager is not just an emotional spasm, yet its practical appeal depends heavily on the emotional coloring of the possible futures it presents.",
+        ],
+        "items": [
+            "Formal side: The argument uses a prudential comparison of outcomes under uncertainty.",
+            "Psychological side: Hope and fear amplify the force of the proposed choice.",
+            "Epistemic caution: Emotional urgency can make a speculative option feel more evidentially grounded than it is.",
+            "Balanced reading: The right critique is not 'mere emotion' but 'emotion-laden prudence under weak evidence.'",
+        ],
+    },
+    ("/epistemology/the-inductive-paradox/", "prompt-1"): {
+        "heading": "The paradox appears when one inductive method is trusted selectively rather than consistently.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The core idea should be formalized as a consistency demand. If a person licenses a certain kind of inductive move in one domain, then they incur pressure to explain why comparable inductive moves in similar domains are not equally respectable. The paradox arises when the rule is honored where it helps and quietly suspended where it hurts.",
+            "This is philosophically important because many people do not reject induction as such. They reject only the unwelcome outputs of induction. That selective posture can feel principled from the inside while actually functioning as evidential favoritism.",
+            "A strong section should therefore clarify that the problem is not inductive reasoning itself, but inconsistent commitment to its standards.",
+        ],
+        "items": [
+            "Uniformity requirement: Similar inferential structures deserve similar treatment unless a relevant difference is shown.",
+            "Selective acceptance: One inductive conclusion is welcomed while another is suddenly treated as illegitimate.",
+            "Need for difference-maker: A critic must identify why the cases diverge rather than just asserting discomfort.",
+            "Pedagogical payoff: The page teaches symmetry before it teaches victory for either side.",
+        ],
+    },
+    ("/epistemology/the-inductive-paradox/", "prompt-3"): {
+        "heading": "Lecture notes should teach students to separate inductive usefulness from inductive favoritism.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The lecture should not merely define induction and move on. It should show why induction is both indispensable and vulnerable. We rely on it constantly to generalize from past cases, forecast future events, and treat repeated patterns as informative. But the same necessity makes it easy to misuse by applying it inconsistently across cases.",
+            "That is why the teaching sequence matters. Students should first grasp what induction is, then see ordinary examples of it working, and only then be introduced to the paradox of selective application. Otherwise the later critique can sound like an attack on induction itself rather than on partiality in its use.",
+            "A good instructor should leave students with a healthy double vision: induction is powerful, and that is exactly why its standards must be handled consistently.",
+        ],
+        "items": [
+            "Start with function: Explain what induction helps human beings do in everyday and scientific reasoning.",
+            "Use plain examples: Repeated patterns should be made concrete before abstraction rises.",
+            "Introduce the paradox later: The criticism lands best after students see why induction is genuinely useful.",
+            "End with symmetry: The lesson is disciplined consistency, not cynical distrust of all inference.",
+        ],
+    },
+    ("/epistemology/the-inductive-paradox/", "prompt-4"): {
+        "heading": "The children's narrative should make consistency feel fair before it feels technical.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "A grade-school narrative works if it teaches the emotional logic of consistency. Children do not need formal vocabulary first. They need to see that it is unfair and confusing to use one rule when it supports your favorite idea and a different rule when it does not.",
+            "That is why the cave story can be effective. It turns the paradox into a simple moment of recognition: if repeated signs count as evidence in one direction, why do they suddenly stop counting when they point elsewhere? The child understands the asymmetry before the adult names the fallacy.",
+            "The page should therefore preserve the clarity of the story while quietly preparing the later philosophical point: good reasoning uses standards that can survive being turned around.",
+        ],
+        "items": [
+            "Fairness intuition: Children quickly grasp the difference between one rule for me and another rule for you.",
+            "Story as scaffolding: A narrative can carry the abstract lesson without overloading formal terminology.",
+            "Transfer value: The lesson should generalize from caves to other cases of selective evidence use.",
+            "Reader payoff: Simplicity here is pedagogical strength, not philosophical dilution.",
+        ],
+    },
+    ("/epistemology/case-6-insatiable-loops/", "prompt-1"): {
+        "heading": "The case matters because it shows how a belief can train itself not to lose.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The father's reasoning is a useful case study because it does not look absurd at first glance. It begins with repeated experience and the confidence that repeated experience often deserves. The problem appears when that confidence hardens into a rule that is no longer willing to let contrary evidence count.",
+            "That is what makes the loop epistemically dangerous. A belief initially formed by something like induction turns into a self-protective machine. The original evidence is treated not as support that could be revised, but as a license to reinterpret every future anomaly back into line.",
+            "The page should therefore help the reader see how closed loops emerge gradually. Bad reasoning often starts with a reasonable pattern and becomes distorted when the pattern is made invulnerable.",
+        ],
+        "items": [
+            "Reasonable starting point: Repeated cases can justify provisional confidence.",
+            "Corruption point: Confidence becomes dogmatism when future counterevidence is no longer allowed real authority.",
+            "Loop formation: The belief starts managing anomalies instead of learning from them.",
+            "Pedagogical value: The case shows how epistemic vice can grow out of initially ordinary inference.",
+        ],
+    },
+    ("/epistemology/case-6-insatiable-loops/", "prompt-3"): {
+        "heading": "Historical cases matter because circularity often survives by appearing explanatory.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Historical examples are useful here because circular arguments are rarely announced in neon. They often sound like explanations: the doctrine is true because the tradition says so, the tradition is trustworthy because it teaches the doctrine, the leader is right because the movement succeeds, and the movement succeeds because the leader is right.",
+            "That is why readers need real cases. Circularity is easier to spot when one sees how institutions, ideologies, and public narratives can stabilize themselves by making the conclusion double as its own credential.",
+            "The page should therefore use history to train detection. The goal is not only to condemn old mistakes but to recognize the same structure when it reappears in modern form.",
+        ],
+        "items": [
+            "Conclusion as credential: The claim is treated as evidence for itself through a surrounding authority structure.",
+            "Institutional reinforcement: Groups can normalize circularity by embedding it in education, ritual, or identity.",
+            "Explanatory disguise: The loop often sounds informative because it moves through several words before returning to itself.",
+            "Modern relevance: Historical examples matter because the same structure keeps reappearing under new banners.",
+        ],
+    },
+    ("/epistemology/epistemology-core-concepts/", "prompt-2"): {
+        "heading": "Key concepts matter because each one protects a distinction public argument likes to blur.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "An explanation of key epistemic concepts should not sound like a textbook preface that forgot to wake up. Each concept matters because it guards a real distinction: belief is not knowledge, confidence is not justification, testimony is not proof, and doubt is not always irrationality.",
+            "That is why the concepts belong together. They form a toolkit for resisting the slippage that happens in ordinary discourse, where people jump from strong feeling to certainty, from sincerity to truth, or from repetition to evidence.",
+            "A useful page should therefore show what practical confusion each concept helps prevent, not merely define the word in isolation.",
+        ],
+        "items": [
+            "Belief: Names the attitude of taking something to be the case.",
+            "Justification: Asks whether the support for that attitude is actually good enough.",
+            "Evidence: Marks what should move confidence rather than what merely comforts it.",
+            "Skepticism: Reminds the reader that caution can be a discipline rather than a defect.",
+            "Reader gain: The concepts matter because they slow semantic shortcuts that distort reasoning.",
+        ],
+    },
+    ("/epistemology/epistemology-core-concepts/", "prompt-3"): {
+        "heading": "The timeline matters because epistemology keeps changing when the pressure on knowledge changes.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "A timeline of epistemology should do more than stack names in chronological order. Its value lies in showing why certain questions became urgent when they did. Ancient concerns about opinion and knowledge, early modern worries about certainty and method, later anxieties about skepticism, and contemporary attention to language, social knowledge, technology, and bias all emerged under changing intellectual pressures.",
+            "That is why paradigm shifts matter. They are not merely fashion changes inside philosophy. They reflect altered background assumptions about mind, science, objectivity, testimony, and what human beings are even trying to accomplish when they claim to know.",
+            "The page should therefore use history as orientation. Readers understand present debates better when they can see which older tensions are being inherited, revised, or abandoned.",
+        ],
+        "items": [
+            "Historical context: New epistemic concerns often arise because science, politics, or culture changed the pressure on older concepts.",
+            "Shift in emphasis: Different eras foreground certainty, justification, language, social knowledge, or bias in different ways.",
+            "Continuity plus change: Later epistemology often reworks older problems rather than replacing them entirely.",
+            "Reader payoff: The timeline shows that epistemology is a living conversation, not a sealed museum of theories.",
+        ],
+    },
+    ("/epistemology/epistemology-core-concepts/", "prompt-4"): {
+        "heading": "New areas of epistemology matter because the old questions now live inside new technologies and institutions.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Emerging areas in epistemology are not random academic expansion. They reflect the fact that old questions about truth, evidence, testimony, and justification now operate inside settings earlier philosophers could barely imagine: algorithmic systems, mass media, networked misinformation, collective cognition, and socially distributed expertise.",
+            "That is what makes the newer subfields worth tracking. They do not leave the classical questions behind; they relocate them. Who should be trusted? What counts as evidence? How does bias enter a system? What makes expertise legitimate? Those are ancient questions wearing modern clothes.",
+            "A good page should therefore make the newer terrain feel connected to the older map rather than like a separate intellectual fad.",
+        ],
+        "items": [
+            "Social epistemology: Studies how knowledge depends on institutions, testimony, trust networks, and shared practices.",
+            "Virtue epistemology: Examines the traits and habits that make knowers more reliable or responsible.",
+            "Formal epistemology: Uses probabilistic and logical tools to model belief, updating, and decision under uncertainty.",
+            "Technology pressure: AI, algorithms, and digital media intensify old epistemic questions about authority and error.",
+            "Reader lesson: The field grows because reality keeps inventing new places for the old problems to show up.",
+        ],
+    },
+    ("/epistemology/decision-making/", "prompt-2"): {
+        "heading": "The right timing in decision-making lies between impulsive closure and fearful drift.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Rational timing is hard because both haste and hesitation can masquerade as seriousness. One person mistakes quick closure for decisiveness; another mistakes endless delay for caution. In both cases the timing problem reflects a mismatch between uncertainty, stakes, and the amount of inquiry still worth doing.",
+            "A healthy decision rhythm asks whether more waiting is likely to produce meaningfully better evidence or merely prolong discomfort. Sometimes speed is rational because the costs of delay are high. Sometimes patience is rational because the evidence is still cheap to improve and the downside of acting too early is severe.",
+            "The page should therefore help the reader think in terms of informational value. Do not ask only, 'Am I ready?' Ask whether another hour, day, or month would actually change the quality of the decision.",
+        ],
+        "items": [
+            "Haste problem: Quick decisions can feel clean because they end anxiety, not because they track the evidence well.",
+            "Hesitation problem: Delay can look prudent while really functioning as avoidance.",
+            "Value of waiting: More time is rational only if it is likely to improve evidence, reflection, or option-quality.",
+            "Decision rhythm: Good timing balances action-cost, delay-cost, and expected informational gain.",
+        ],
+    },
+    ("/epistemology/counterfactual-reasoning/", "prompt-3"): {
+        "heading": "In geopolitics, counterfactuals help explain events but also tempt people into elegant fantasy.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Counterfactual reasoning is important in geopolitics because large events rarely have one cause and never rerun for our convenience. Analysts therefore ask what might have happened if a treaty had been different, an alliance had held, a sanction had failed, or an intervention had never occurred. Those comparisons can clarify causal contribution and policy learning.",
+            "But the same power makes geopolitical counterfactuals hazardous. The larger and more complex the system, the easier it becomes to tell a clean alternate story that ignores downstream feedback, hidden variables, and the way one altered event can ripple unpredictably through institutions and actors.",
+            "A responsible section should therefore teach both uses at once: counterfactuals can sharpen causal understanding, but they become misleading when the imagined alternative is too tidy, too remote, or too politically convenient.",
+        ],
+        "items": [
+            "Causal clarification: Counterfactuals can test whether a policy or event made a meaningful difference.",
+            "Complex-system warning: Small changes in geopolitics can trigger wide and nonlinear consequences.",
+            "Narrative temptation: Analysts may prefer the alternate history that flatters their ideology or hindsight confidence.",
+            "Reader lesson: The best geopolitical counterfactuals stay close to the actual case and remain modest in their claims.",
+        ],
+    },
+    ("/epistemology/counterfactual-reasoning/", "prompt-4"): {
+        "heading": "Better counterfactual reasoning comes from disciplined imagination, not just more imagination.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Strengthening counterfactual reasoning is not mainly about becoming more creative. It is about becoming more disciplined in how alternatives are generated, compared, and constrained. The skill improves when people learn to imagine nearby alternatives without sliding into fanciful storytelling.",
+            "That means practicing several habits at once: staying close to known facts, considering more than one plausible branch, checking for hidden assumptions, and asking whether the imagined alternative really isolates the factor being tested.",
+            "The page should therefore encourage a kind of trained humility. Counterfactual reasoning gets better not when the mind becomes more dramatic, but when it becomes more careful about what its imagined scenarios are actually doing.",
+        ],
+        "items": [
+            "Stay nearby: Better counterfactuals alter one or a few relevant conditions rather than rewriting the whole world.",
+            "Compare branches: More than one plausible alternative helps expose hidden assumptions in your favorite scenario.",
+            "Check causal isolation: Ask whether the factor you changed is really the one doing the work in the imagined outcome.",
+            "Invite friction: Good counterfactual thinking improves when other informed people test the scenario for realism.",
+            "Practical payoff: Discipline turns alternate histories into tools for judgment rather than toys for hindsight.",
+        ],
+    },
+    ("/ethics/recommendations-vs-moral-claims/", "prompt-1"): {
+        "heading": "Altruism matters, but it does not by itself explain the jump from advice to moral demand.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "This prompt goes straight to the semantic pressure point. A person can recommend generosity, restraint, honesty, or care for others without yet establishing that these recommendations have the special authority people often pack into the word moral. Altruism may explain part of the content, but not automatically the force.",
+            "That matters because moral language usually does more than praise other-regarding behavior. It often presents itself as binding, blame-licensing, and publicly demanding in a way that prudential or strategic advice does not. So the question is not merely whether altruism is admirable. It is whether altruism alone explains why some should-statements get upgraded into moral claims.",
+            "A clear page should therefore separate three things: altruistic concern, practical recommendation, and robust normativity. If those are merged too quickly, the conclusion gets smuggled in through the word moral rather than earned argumentatively.",
+        ],
+        "items": [
+            "Altruism: Concern for others can shape recommendations without yet proving objective moral obligation.",
+            "Recommendation: Advice can be wise, humane, or socially useful without claiming stance-independent authority.",
+            "Normative upgrade: Moral language often asserts a stronger public demand than mere helpfulness or generosity.",
+            "Reader lesson: The real issue is not whether altruism is good, but what turns goodness-talk into binding moral talk.",
+        ],
+    },
+    ("/ethics/recommendations-vs-moral-claims/", "prompt-2"): {
+        "heading": "Absent explicit consent, owing-talk needs argument rather than atmospheric social pressure.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The challenge here is real. If someone never consented to be born into a community, language about 'owing' others can begin to sound suspiciously inherited rather than earned. The mere fact that one finds oneself inside a network of expectations does not, by itself, prove that those expectations have moral authority.",
+            "Defenders of social obligation usually reply that explicit consent is not the only source of normativity. They appeal to dependence, reciprocity, shared benefits, vulnerability, and the unavoidable effects our actions have on others. But the prompt is right to press them: those considerations still need to explain why obligation-talk is more than a dressed-up preference for social order.",
+            "So the page should not make the consent problem disappear too quickly. It should let the reader feel the pressure between accidental belonging and claimed moral debt.",
+        ],
+        "items": [
+            "Consent pressure: Birth into a system does not automatically resemble agreeing to a contract.",
+            "Dependency reply: Some argue that benefiting from social cooperation creates obligations even without explicit consent.",
+            "Normative gap: Benefit and interdependence still need to be shown as morally binding rather than merely socially useful.",
+            "Reader question: What, exactly, converts social embeddedness into genuine owing?",
+        ],
+    },
+    ("/ethics/recommendations-vs-moral-claims/", "prompt-3"): {
+        "heading": "The social-contract metaphor strains when accidental membership is treated as if it were chosen agreement.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The contract language becomes unstable when it is pushed too literally. Contracts normally involve identifiable parties, intelligible terms, and some act of acceptance. By contrast, birth into a social world is not voluntary in that sense, which means the contract metaphor can easily do more rhetorical work than conceptual work.",
+            "That does not mean all obligation evaporates. It means we should be careful about pretending that a non-consensual starting point has the same normative structure as a freely entered agreement. The stronger claim needs more than the soothing language of contract.",
+            "A rigorous page should therefore distinguish metaphorical social contract talk from actual contractual obligation. Otherwise political or moral obligation gets protected by an analogy that was never asked to carry so much weight.",
+        ],
+        "items": [
+            "Literal contract: Normally includes consent, terms, and identifiable acceptance.",
+            "Accidental context: Birth into a community lacks those features in the ordinary contractual sense.",
+            "Metaphor warning: Social-contract language may illuminate coordination without proving obligation.",
+            "Reader gain: The page should help the reader see when a metaphor is guiding thought and when it is quietly replacing argument.",
+        ],
+    },
+    ("/ethics/recommendations-vs-moral-claims/", "prompt-4"): {
+        "heading": "Altruism may explain part of moral language, but morality usually claims more than selflessness alone.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The suspicion here is understandable. Many moral pronouncements do seem to reward self-sacrifice and condemn self-prioritization, which can make morality look like altruism with a more intimidating tone of voice. But that reduction is usually too quick.",
+            "Moral vocabulary often tries to do several jobs at once: criticize cruelty, coordinate expectations, authorize blame, rank competing claims, and sometimes present duties as universally binding. Altruism may sit near the center of some systems, but it does not by itself account for all the semantic and practical baggage carried by moral terms.",
+            "The page should therefore resist two extremes. It should not pretend altruism is irrelevant, and it should not pretend altruism fully explains what moral language is trying, successfully or unsuccessfully, to be.",
+        ],
+        "items": [
+            "Selflessness link: Many moral systems do privilege concern for others, sometimes heavily.",
+            "Semantic surplus: Moral language often includes obligation, blame, rights, or universalizability beyond mere altruism.",
+            "Reduction risk: If morality is equated too quickly with altruism, important disputes about authority and normativity disappear from view.",
+            "Reader lesson: The live issue is whether altruism explains moral content, moral force, or only part of both.",
+        ],
+    },
+    ("/ethics/meta-ethics/", "prompt-1"): {
+        "heading": "Meta-ethics asks what moral claims are even claiming before we argue over which ones are true.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Meta-ethics matters because first-order moral debate is often carried out with borrowed confidence about words whose force was never examined. Before arguing over abortion, war, rights, punishment, duty, or compassion, one needs some grip on what moral language is doing in the first place.",
+            "That is why the field focuses on issues like meaning, truth-status, justification, motivation, realism, anti-realism, and epistemic access. It asks whether moral claims describe objective facts, express attitudes, construct norms, issue recommendations, or do some hybrid kind of work that resists easy labeling.",
+            "A good introductory page should make the reader feel the stakes. Without meta-ethical clarity, moral arguments can become loud precisely where they are conceptually blurry.",
+        ],
+        "items": [
+            "Meaning: What does a moral statement mean when it says something is wrong, good, or obligatory?",
+            "Truth-status: Are moral claims the kind of thing that can be objectively true or false?",
+            "Normative force: Why do moral claims seem to demand action or blame rather than merely describe feelings?",
+            "Epistemic access: If there are moral facts, how would human beings know them?",
+            "Reader payoff: Meta-ethics clarifies the terrain before the battle over conclusions begins.",
+        ],
+    },
+    ("/ethics/meta-ethics/", "prompt-2"): {
+        "heading": "Position-counting in meta-ethics is rough, but the map of live options still matters.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Any percentage breakdown of meta-ethical positions should be treated as provisional and taxonomy-dependent rather than as holy census data. Surveys vary by wording, by which positions are grouped together, and by whether philosophers are allowed to answer with qualified or hybrid views. Still, the broad map is useful.",
+            "The enduring point is that the field is not morally monolithic. Realism has serious defenders, but so do expressivism, constructivism, error theory, quietism, and other non-realist or anti-realist families. The reader should come away not with spurious numerical certainty, but with a felt sense that the deepest disagreements in ethics begin before specific verdicts about cases.",
+            "A careful page should therefore present the landscape honestly: there are recognizable clusters, no single settled consensus, and lots of disagreement about how to classify the borderlands.",
+        ],
+        "items": [
+            "Survey caution: Percentages shift depending on definitions, grouping, and respondent nuance.",
+            "Realist cluster: Many philosophers still defend some form of objective moral truth.",
+            "Non-realist cluster: Expressivist, error-theoretic, fictionalist, and related views remain serious live options.",
+            "Constructivist pressure: Some positions try to preserve normativity without realist moral facts in the strong sense.",
+            "Reader lesson: The map matters more than faux precision about exact numerical shares.",
+        ],
+    },
+    ("/ethics/meta-ethics/", "prompt-3"): {
+        "heading": "Without meta-ethics, moral-system debates keep borrowing authority they never examined.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Understanding meta-ethics first is valuable because moral systems often inherit words like wrong, good, obligation, dignity, or rights without pausing to ask what gives those words their authority. The result is that a system may look complete while resting on semantic and ontological assumptions it has never defended.",
+            "That is especially important for readers who do not want to be bullied by vocabulary. A moral framework may sound rigorous simply because it uses elevated language. Meta-ethical work helps the reader ask whether the framework is naming objective facts, articulating social ideals, expressing emotional commitments, or building practical coordination tools.",
+            "So the page should frame meta-ethics as conceptual hygiene before construction. It is not a distraction from moral systems. It is often what stops them from smuggling in their most controversial premises.",
+        ],
+        "items": [
+            "Semantic hygiene: Clarify the meaning of moral terms before treating them as settled tools.",
+            "Authority check: Ask what is supposed to make the moral demand binding or legitimate.",
+            "Anti-smuggling function: Meta-ethics exposes where a system quietly assumes the very thing under dispute.",
+            "Reader gain: Better meta-ethical grip makes later moral disagreement more honest and less theatrical.",
+        ],
+    },
+    ("/ethics/is-vs-ought/", "prompt-1"): {
+        "heading": "Most attempts to cross the is/ought gap succeed only after quietly packing normativity into the premises.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The strongest challenges to a sharp is/ought divide usually do not simply derive an ought from bare descriptive facts. They add some bridge principle about rationality, flourishing, preference, function, social necessity, or practical consistency. The important question is whether that bridge has really been earned or merely smuggled in.",
+            "That is why the gap remains philosophically important. It does not prove that no normative conclusion can ever be justified. It warns that descriptions alone do not automatically become demands. Somewhere in the movement from fact to obligation, a normative element has to appear, and the page should help the reader catch where it enters.",
+            "A good reconstruction should therefore be fair but unsentimental. Some anti-gap strategies are sophisticated, but many succeed only by hiding the ought inside words like reason, good, proper function, or human flourishing.",
+        ],
+        "items": [
+            "Bridge principle: Most proposed crossings rely on an added norm about value, rationality, or agency.",
+            "Humean warning: The gap is a diagnostic tool for spotting where normativity enters the argument.",
+            "Not nihilism: Saying the gap exists is not the same as saying no justified ought-claims are possible.",
+            "Reader lesson: The real issue is not whether normativity exists, but where it comes from in the argument.",
+        ],
+    },
+    ("/ethics/is-vs-ought/", "prompt-2"): {
+        "heading": "A bridge principle helps only if its own authority is clearer than the gap it is meant to close.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "This prompt presses exactly where many anti-gap arguments are weakest. If the proposed bridge depends on unargued axioms or on intersubjective facts being treated as if they were already normatively authoritative, then the gap has not really been closed. It has merely been wallpapered over.",
+            "That does not mean shared values or practical axioms are philosophically useless. It means their normative status must be argued for rather than assumed. Otherwise the transition from is to ought is achieved by letting a disguised ought slip through the door while everyone is watching the window.",
+            "A strong page should therefore show the reader how to inspect the bridge itself: what kind of claim is it, why should it bind, and is its authority stronger than the conclusion it is being asked to support?",
+        ],
+        "items": [
+            "Axiom problem: A bare stipulation does not become binding merely because it sounds sensible or humane.",
+            "Intersubjective pressure: Shared human practices can explain moral language without automatically vindicating objective obligation.",
+            "Bridge inspection: The hidden normative premise deserves as much scrutiny as the conclusion it supports.",
+            "Reader habit: Ask not only whether the argument reaches ought, but what it had to borrow on the way there.",
+        ],
+    },
+    ("/ethics/is-vs-ought/", "prompt-3"): {
+        "heading": "Resources matter here because the is/ought dispute is easy to flatten into slogan war.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "A good reading list on the is/ought problem should not merely collect people repeating Hume's phrase or triumphantly declaring it defeated. The useful resources are the ones that help the reader see the strongest formulations on both sides: why the gap warning remains powerful, and why some philosophers think it can be narrowed, redirected, or reconceived.",
+            "That is especially important because this debate attracts oversimplification. One camp can sound as if facts are forever impotent, the other as if values just obviously fall out of human nature, reason, or flourishing. A serious set of resources should teach the reader how much conceptual labor both claims require.",
+            "The point of the page is not just bibliography. It is orientation into a dispute where slogans routinely outrun understanding.",
+        ],
+        "items": [
+            "Read the gap carefully: The classic warning concerns logical transition, not a ban on all moral argument.",
+            "Read the responses carefully: Anti-gap views differ dramatically in how they think normativity emerges.",
+            "Prefer clarity over tribal alignment: The best resources expose structure rather than merely recruit agreement.",
+            "Reader gain: The bibliography should become a route into better distinctions, not just a shelf of names.",
+        ],
+    },
+    ("/ethics/divine-command-theory/", "prompt-1"): {
+        "heading": "If human beings cannot assess goodness at all, divine command theory starts sounding like obedience theory.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "This is one of the sharpest worries about divine command theory. If human beings have no meaningful access to standards by which commands can be morally assessed, then morality begins to collapse into whatever the deity commands simply because the deity commands it. The language of goodness threatens to become a thin gloss over authority.",
+            "Defenders of DCT may respond that goodness is grounded in God's nature, not in arbitrary fiat. But the prompt is right to press the practical question: if finite humans cannot independently evaluate the content of a command, how is their moral life distinguishable from obedience to a superior power?",
+            "A clear page should therefore hold apart two issues: metaphysical grounding and human moral discernment. A theory may say morality is grounded in God, yet still face serious trouble if the human route to identifying the good remains epistemically opaque.",
+        ],
+        "items": [
+            "Obedience pressure: Moral vocabulary starts losing content if all it means is conformity to command.",
+            "Grounding reply: DCT often appeals to divine nature rather than sheer arbitrariness.",
+            "Epistemic problem: Human beings still need some way to identify, interpret, and evaluate alleged commands.",
+            "Reader lesson: The theory is strained where moral grounding outruns moral access.",
+        ],
+    },
+    ("/ethics/divine-command-theory/", "prompt-3"): {
+        "heading": "Calling disobedience immoral does not solve the deeper question of what moral adds to obedience.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "This prompt exposes a semantic friction inside DCT. If immoral just means disobedient to God, then the theory may be preserving a label while shrinking its content. The question is whether moral language is doing any work beyond marking compliance or noncompliance with a superior will.",
+            "That matters because ordinary moral discourse seems to carry more than obedience. It often gestures toward justice, cruelty, fairness, dignity, and reasons that can at least be partially discussed rather than merely received. If DCT reduces all of that to divine preference or decree, critics will say the meaning of moral has been evacuated rather than explained.",
+            "The page should therefore help the reader ask whether DCT illuminates moral language or simply redescribes it in theological terms.",
+        ],
+        "items": [
+            "Semantic reduction: 'Immoral' may collapse into 'disobedient' if the theory is stated too bluntly.",
+            "Ordinary usage pressure: People often use moral terms as if they carry evaluative content beyond submission to authority.",
+            "Explanatory challenge: A theory should clarify what moral language means, not merely swap in a new master-word.",
+            "Reader gain: The issue is not disrespect for theology but the demand for semantic and normative clarity.",
+        ],
+    },
+    ("/ethics/what-are-ethics/", "prompt-1"): {
+        "heading": "Ethics is the branch that asks what we owe, what we may praise or blame, and what kind of lives count as better or worse.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Ethics is not just a list of rules about being nice. It is the philosophical study of value, obligation, character, rights, blame, responsibility, and the standards by which actions or lives are judged. It asks not only what people do care about, but what, if anything, they should care about.",
+            "That breadth matters because public talk often compresses ethics into one narrow slice: personal kindness, political outrage, or religious command. Philosophy treats the field more seriously. It asks how moral language works, what could justify it, how it connects to law and custom, and whether some of its strongest claims outrun what can actually be defended.",
+            "A good introductory page should therefore feel expansive but disciplined. Ethics is where human concern becomes argument rather than mere sentiment or tribe-performance.",
+        ],
+        "items": [
+            "Value: What is worth pursuing, preserving, or admiring?",
+            "Obligation: What, if anything, do we owe others or ourselves?",
+            "Character: What kinds of dispositions make for better or worse human lives?",
+            "Blame and praise: When are evaluation, condemnation, or admiration justified?",
+            "Reader lesson: Ethics studies not just behavior, but the standards by which behavior is judged.",
+        ],
+    },
+    ("/ethics/what-are-ethics/", "prompt-2"): {
+        "heading": "Grounding morality means asking what gives a should-statement more authority than strategy or taste.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Every serious moral theory eventually faces the grounding question. It is not enough to say that compassion matters, rights matter, God commands, flourishing is good, or social contracts bind. One still has to explain what gives any of those claims their authority rather than treating them as elevated preferences.",
+            "That is why ethics quickly opens into meta-ethics. Thinkers have tried to ground morality in divine command, rational necessity, flourishing, social cooperation, human nature, sentiment, contractual agreement, or objective moral facts. Others deny that any such grounding succeeds in the strong realist sense and treat moral language as expressive, constructive, or practical rather than truth-tracking.",
+            "A useful page should present that spread honestly. The field is not unified about what moral facts are, whether they exist, or how they could be known if they did.",
+        ],
+        "items": [
+            "Realist route: Moral claims are true or false independently of personal preference.",
+            "Theological route: Moral authority depends on divine will or divine nature.",
+            "Constructive or practical route: Moral norms arise through rational procedures, coordination, or shared human projects.",
+            "Anti-realist route: Moral language does important work without reporting objective moral properties.",
+            "Reader gain: Ethics becomes clearer once grounding questions are no longer hidden behind moral vocabulary.",
+        ],
+    },
+    ("/ethics/what-are-ethics/", "prompt-3"): {
+        "heading": "Moral skepticism and moral nihilism matter because they test how much of ethics survives once objective moral facts are doubted.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Moral skepticism and moral nihilism are often treated as conversation-ending gloom, but philosophically they perform an important service. They pressure every confident moral theory to explain what exactly is being claimed and what kind of reality, if any, would have to exist for the claim to be objectively true.",
+            "The positions differ in nuance, but both challenge the easy assumption that moral discourse automatically connects to a moral realm. A good page should show why that challenge is unsettling without caricaturing it as mere adolescent contrarianism.",
+            "For the reader, the practical value is diagnostic. Once skepticism is on the table, moral language can no longer borrow authority for free.",
+        ],
+        "items": [
+            "Skeptical pressure: Doubt is directed at justification, truth-status, or epistemic access to moral claims.",
+            "Nihilist pressure: Some views deny that there are objective moral facts answering to moral sentences.",
+            "Constructive value: These challenges force clearer distinctions between preference, practice, normativity, and realism.",
+            "Reader lesson: Skepticism is a stress test for ethical theory, not just a mood.",
+        ],
+    },
+    ("/ethics/compassion-vs-moral-systems/", "prompt-1"): {
+        "heading": "Compassion is morally powerful, but it is not automatically a complete substitute for structure.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The appeal of this prompt is obvious. If genuine compassion consistently reduces suffering, responds flexibly to context, and avoids rigid doctrinal cruelty, why not let compassion outrun moral systems on their own turf? The challenge is that compassion is excellent at drawing attention to pain, but less obviously sufficient for adjudicating conflict, distance, fairness, and long-term tradeoffs on its own.",
+            "That does not diminish compassion. It clarifies its role. Compassion may be one of the best moral correctives we have, especially against cold systems that mistake consistency for wisdom. But precisely because compassion is strong, it deserves to be paired with reflection about bias, scalability, competing claims, and second-order effects.",
+            "A careful page should therefore avoid two mistakes: treating compassion as morally irrelevant sentiment, and treating it as a frictionless replacement for every kind of moral structure.",
+        ],
+        "items": [
+            "Strength: Compassion is often better than rigid systems at detecting immediate human suffering.",
+            "Limit: Compassion can be partial, short-range, and easier to mobilize for the vivid than for the statistically invisible.",
+            "Systemic pressure: Large-scale fairness and conflict-resolution often require more than felt concern alone.",
+            "Reader lesson: The real question is not compassion or structure, but what kind of structure can remain answerable to compassion.",
+        ],
+    },
+    ("/ethics/compassion-vs-moral-systems/", "prompt-2"): {
+        "heading": "Compassion may outperform many systems in warmth, yet still need discipline to scale well.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Compassion can outperform some moral systems because many systems become brittle, punitive, or detached from actual human need. A compassionate response can often see what doctrinal machinery misses. It can notice suffering before a rulebook has finished clearing its throat.",
+            "But the page should not romanticize compassion as if intensity of feeling guaranteed reliability. Compassion still needs rational shaping. Without it, the compassionate impulse can become inconsistent, captured by proximity and vividness, or blind to how short-term relief sometimes creates long-term harm.",
+            "So the strongest position is not anti-compassion and not compassion-alone. It is disciplined compassion: concern for suffering that is reflective enough to handle complexity without going numb or turning sentimental.",
+        ],
+        "items": [
+            "Warmth advantage: Compassion often corrects system-generated cruelty or indifference.",
+            "Bias risk: Compassion can over-focus on salient individuals while neglecting larger structural effects.",
+            "Rational shaping: Reflection, evidence, and foresight help compassion avoid becoming impulsive or uneven.",
+            "Reader gain: The page should show why compassion is indispensable and still not self-sufficient in every case.",
+        ],
+    },
+    ("/ethics/equivocation-on-wrong/", "prompt-1"): {
+        "heading": "The word wrong causes trouble because people keep sliding among different senses without warning.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "This page matters because wrong is one of the most overloaded words in ethical conversation. People use it to mean imprudent, illegal, unfashionable, taboo, disgusting, harmful, socially condemned, unfair, or objectively immoral, and they often glide from one sense to another mid-argument as if nothing happened.",
+            "That semantic sliding creates the illusion of agreement or of decisive victory where there may only be ambiguity. A person may say a behavior is wrong meaning culturally abhorred, while their opponent hears morally prohibited in an objective sense. The same sentence is doing very different work depending on which layer is active.",
+            "A strong page should therefore slow the reader down. Before answering whether something is wrong, ask: wrong in what sense, by what standard, and with what claimed authority?",
+        ],
+        "items": [
+            "Pragmatic wrong: Bad for one's goals, reputation, or social outcomes.",
+            "Cultural wrong: Condemned by the norms of a community.",
+            "Legal wrong: Forbidden or punishable within a formal system.",
+            "Moral wrong: Claimed to violate a deeper or more authoritative standard.",
+            "Reader lesson: Many ethical disputes are really fights over shifting senses of one emotionally loaded word.",
+        ],
+    },
+    ("/ethics/moral-black-boxes/", "prompt-1"): {
+        "heading": "If no evidence can count against a deity's goodness, no evidence can securely establish it either.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "This is a powerful black-box problem. If someone says no possible observation could count against the moral goodness of Deity X because divine morality is beyond human judgment, then the same move threatens to remove the basis for confidently affirming that goodness in the first place. Immunity from criticism can quickly become immunity from justification.",
+            "That does not mean every theological claim is immediately incoherent. It means a serious asymmetry has to be addressed. If the believer can positively assert divine goodness while denying the relevance of all humanly available counterevidence, the concept of goodness is being used in a strangely one-way fashion.",
+            "The page should therefore make the reader feel the cost of black-boxing. A claim protected from refutation may also have slipped beyond meaningful confirmation.",
+        ],
+        "items": [
+            "One-way access problem: The concept of goodness is affirmed positively but insulated negatively.",
+            "Immunity cost: The less evidence can speak against the claim, the less evidence can speak for it in an ordinary evaluative sense.",
+            "Semantic pressure: If divine goodness is wholly unlike anything humans can assess, the term goodness risks becoming opaque.",
+            "Reader lesson: Protection from criticism can quietly hollow out the original affirmation.",
+        ],
+    },
+    ("/ethics/moral-black-boxes/", "prompt-2"): {
+        "heading": "Moral-immunity defenses often preserve reverence by sacrificing evaluative clarity.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "When believers place their deity beyond moral evaluation, they often intend reverence rather than confusion. But the logical cost can be high. If the being cannot be morally judged in any humanly intelligible sense, then calling the being morally good may cease to distinguish anything substantial from sheer power or sacred status.",
+            "That is why the flaw is not simply inconsistency. It is loss of usable meaning. A theory that refuses all moral scrutiny may keep the language of goodness alive ceremonially while draining away the standards by which the word ordinarily functions.",
+            "A good page should therefore show the reader that black-box defenses are not only protective. They are semantically expensive.",
+        ],
+        "items": [
+            "Reverence motive: The move is often driven by a desire to preserve transcendence and divine authority.",
+            "Clarity cost: The more evaluation is blocked, the thinner the meaning of goodness can become.",
+            "Power-versus-goodness problem: If no evaluative standards remain, sacred power and moral goodness may collapse together.",
+            "Reader gain: The critique is about intelligibility as much as about refutation.",
+        ],
+    },
+    ("/ethics/moral-black-boxes/", "prompt-3"): {
+        "heading": "The dialogue should force both sides to say what divine goodness could possibly mean in practice.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "A useful dialogue on this topic should do more than let the theist and non-theist trade slogans about mystery or arrogance. It should bring the black-box issue into the open by asking what content remains in the claim 'God is good' if human moral judgment is declared fundamentally incompetent whenever troubling cases arise.",
+            "The best exchange will make each side sharper. The theist should be given the strongest available reply about transcendence, divine nature, and limited human perspective. The non-theist should then press whether those replies preserve the meaning of goodness or simply shield the deity from comparison.",
+            "That makes the dialogue pedagogically valuable. The reader sees not just a disagreement, but the exact place where reverence, semantics, and evaluation start to pull against one another.",
+        ],
+        "items": [
+            "Strong theist side: Present the appeal to transcendence and epistemic humility in its best form.",
+            "Strong critic side: Press whether the claim still says anything evaluatively substantial.",
+            "Central question: What would count, even in principle, as evidence relevant to divine goodness?",
+            "Reader payoff: The dialogue should clarify the black-box problem rather than merely dramatize mutual frustration.",
+        ],
+    },
+    ("/ethics/intrinsic-human-value/", "prompt-1"): {
+        "heading": "Triage dilemmas expose how quickly equal-dignity slogans collide with actual selection criteria.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "This scenario is effective precisely because it makes abstract talk about intrinsic human value answer to a brutal decision. If all human beings have equal intrinsic worth, what explains any ranking in a rescue case? Yet if ranking is unavoidable, what does equal worth still mean once concrete life-and-death selection begins?",
+            "The point is not to turn the dilemma into shock entertainment. It is to expose the difference between equal moral standing and triage reasoning. People may still sort by future impact, vulnerability, innocence, recoverability, social role, or expected harm, but the moment they do, the slogan of equal value starts needing interpretation rather than applause.",
+            "A careful page should therefore let the reader feel the pressure without pretending the dilemma has a painless solution. These cases reveal how moral language behaves when resources force ranking.",
+        ],
+        "items": [
+            "Equal standing pressure: Saying all humans have equal value does not automatically tell us how to triage scarce rescue opportunities.",
+            "Selection criteria: Rescue choices often invoke future impact, innocence, vulnerability, or expected consequences.",
+            "Conceptual distinction: Equal dignity is not the same thing as equal rescue priority in every context.",
+            "Reader lesson: Hard cases show where moral slogans need argumentative unpacking rather than reverent repetition.",
+        ],
+    },
+    ("/ethics/recommendations-vs-moral-claims/", "prompt-5"): {
+        "heading": "Moral and immoral cannot simply mean selfless and selfish without leaving too much out.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Reducing moral to selfless and immoral to selfish captures one important moral intuition, but it is too thin to handle the full range of ethical discourse. People use moral terms not only to discuss self-sacrifice, but also justice, rights, promises, cruelty, fairness, partial obligations, integrity, and cases where self-concern is not obviously vice.",
+            "That is why the question matters. Some ethical systems do weight altruism heavily, and some anti-realist critiques are right to notice how often moral language flatters self-denial. But the vocabulary of morality usually aims at more than a selfish/selfless axis, even when that axis remains central.",
+            "A good page should therefore let the reader keep the anti-reductionist point without pretending altruism is peripheral. The issue is whether moral language names a richer normative field or merely dramatizes a narrower interpersonal ideal.",
+        ],
+        "items": [
+            "Partial truth: Altruism is often treated as morally significant for good reason.",
+            "Reduction problem: Many moral disputes concern justice, duty, rights, or harm in ways not captured by selfish/selfless alone.",
+            "Meta-ethical pressure: If moral language is reduced too aggressively, some of its claimed authority may dissolve into preference or social strategy.",
+            "Reader lesson: The key question is not whether altruism matters, but whether it exhausts what moral talk is trying to do.",
+        ],
+    },
+    ("/ethics/divine-command-theory/", "prompt-2"): {
+        "heading": "If no moral threshold can ever be identified, command can start outrunning conscience without limit.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "This prompt pushes on a practical crisis inside strong forms of DCT. If the adherent cannot say what sort of command would count as morally impossible or as evidence of a false revelation, then obedience becomes frighteningly open-ended. The theory risks authorizing moral surrender under the banner of faithfulness.",
+            "Defenders may answer that God, being perfectly good, would never issue a command beyond the moral threshold. But that response reintroduces the very issue under dispute: by what standard is the command recognized as consistent with perfect goodness, especially when the content looks morally abhorrent to human intuition?",
+            "The page should therefore make clear that threshold-talk is not a cheap trap. It is a serious question about whether a believer has any principled limit on what obedience could demand.",
+        ],
+        "items": [
+            "Threshold problem: A theory of command needs some account of what would distinguish divine goodness from sacredized domination.",
+            "Epistemic pressure: Human interpreters still face allegedly divine instructions through fallible language, institutions, and traditions.",
+            "Moral-intuition return: The moment a believer says 'God would never command that,' human evaluative judgment is back in the room.",
+            "Reader lesson: Unlimited obedience is not the same thing as morally intelligible fidelity.",
+        ],
+    },
+    ("/ethics/divine-command-theory/", "prompt-4"): {
+        "heading": "The moment moral intuition helps interpret commands, human judgment is already sharing the work.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "This prompt matters because it reveals a recurring tension in DCT. Some adherents deny that humans can independently judge morality, yet when faced with stark cases such as commanded infant-killing, they often appeal to moral intuition, context, genre, interpretation, or the nature of God to say such commands would be inconsistent with true divine goodness.",
+            "That move may be understandable, but it changes the structure of the theory. Moral judgment is no longer purely downstream of command. Human evaluative capacities are helping determine which alleged commands count as genuinely divine or as properly interpreted.",
+            "A good page should therefore highlight the instability. DCT can either lean hard into obedience and risk moral black-boxing, or allow human intuition back in and weaken the claim that command alone grounds moral discernment.",
+        ],
+        "items": [
+            "Interpretive necessity: Commands are never encountered naked; they come through texts, traditions, and human readers.",
+            "Intuition pressure: Horrific command cases expose how quickly moral judgment reappears when obedience becomes unbearable.",
+            "Structural tension: The theory must choose how much authority belongs to command and how much to human interpretation.",
+            "Reader gain: The interesting issue is not cheap ridicule, but the unstable division of labor between divine authority and human conscience.",
+        ],
+    },
+    ("/ethics/equivocation-on-wrong/", "prompt-3"): {
+        "heading": "Real arguments go off the rails when wrong slides from one register to another without notice.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Concrete scenarios matter because equivocation usually hides inside ordinary rhetoric. A speaker may begin by calling a policy wrong because it is impractical, then drift into the suggestion that it is morally wicked, and then finally defend the claim by pointing only to social disapproval or legal prohibition. The emotional force of one sense of wrong gets borrowed by another.",
+            "That is why examples are so clarifying. They show how a debate can sound morally decisive when the participants are actually trading among pragmatic, cultural, legal, and allegedly objective senses of the same word without keeping score.",
+            "A useful page should therefore teach readers to stop the conversation at the point of slide: wrong in which sense, and what evidence belongs to that sense?",
+        ],
+        "items": [
+            "Policy debate: A measure may be called wrong because it is inefficient, then defended as if inefficiency already proved immorality.",
+            "Cultural conflict: Practices condemned as taboo are often spoken of as morally wrong without argument beyond social disgust.",
+            "Legal shortcut: Illegal and immoral are frequently treated as interchangeable when the law itself is under dispute.",
+            "Reader habit: The best response is usually not immediate agreement or denial, but semantic disambiguation.",
+        ],
+    },
+    ("/ethics/equivocation-on-wrong/", "prompt-4"): {
+        "heading": "Wrong is not the only term doing this work; dignity, natural, justice, and harm often slide the same way.",
+        "replace_paragraphs": True,
+        "paragraphs": [
+            "Ethical disputes are crowded with terms that carry moral prestige while hiding multiple meanings. Dignity can mean status, self-respect, intrinsic worth, or social recognition. Natural can mean biologically common, culturally familiar, or normatively proper. Justice can refer to procedure, desert, equality, rights, or institutional fairness. Harm can name physical injury, emotional pain, offense, or moral setback.",
+            "That is why semantic vigilance matters. These words are not useless. They are powerful because they name important human concerns. But their power also makes them easy vehicles for smuggling conclusions into a debate before the real disagreement has been exposed.",
+            "A good ethics page should therefore train readers to ask for narrower definitions before granting the emotional force of the term.",
+        ],
+        "items": [
+            "Dignity: Often oscillates between equal standing, self-command, and rhetorical uplift.",
+            "Natural: Can slide from descriptive normality to normative approval without warning.",
+            "Justice: May refer to fairness, rights, procedure, desert, or institutional design depending on the speaker.",
+            "Harm: Sometimes names objective injury, sometimes mere discomfort, sometimes moral injury, and sometimes offense.",
+        ],
+    },
+    ("/ethics/intrinsic-human-value/", "prompt-3"): {
+        "heading": "Human-rights arguments are strongest when they show why moral standing should not rise and fall with talent, tribe, or utility.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The strongest syllogistic push for intrinsic human rights usually begins by resisting conditional worth. If basic standing depends on intelligence, productivity, power, beauty, tribe, or immediate usefulness, then the vulnerable are left morally naked precisely when protection is most needed. Rights discourse gains force by refusing that kind of sliding scale.",
+            "That does not settle every meta-ethical question. One can still ask whether rights are objective facts, social constructions, rational necessities, or practical inventions. But the philosophical attraction of intrinsic rights is clear: they aim to mark a floor of moral standing beneath which no human being should fall merely because they are weak, unwanted, costly, or temporarily unproductive.",
+            "A good page should therefore show both the appeal and the burden. The appeal is moral insulation against ranking by convenience. The burden is explaining what grounds that insulation.",
+        ],
+        "items": [
+            "Anti-ranking intuition: Rights talk resists making basic standing depend on market value, talent, or social favor.",
+            "Protective floor: The concept aims to secure minimum moral status even for the powerless or burdensome.",
+            "Grounding question: The force of the argument still depends on what is supposed to make those rights intrinsic.",
+            "Reader lesson: Rights discourse is strongest where it blocks human value from being auctioned off by utility alone.",
+        ],
+    },
+    ("/ethics/competing-ethical-considerations/", "prompt-1"): {
+        "heading": "Ethical judgment becomes difficult because several genuine considerations often pull at once.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "This page matters because moral judgment is rarely a one-variable problem. Consequences matter, but so do duties, virtues, rights, intentions, relationships, harms, fairness, promises, and institutional effects. In real cases those considerations often align imperfectly rather than marching in neat formation.",
+            "That is why ethical disagreement persists even among thoughtful people. They may not differ only in values; they may differ in which consideration they think should dominate, how strongly it should count, and whether the case is being framed at the right level of detail. The page should help the reader see moral complexity without making complexity an excuse for rhetorical drift.",
+            "A good introduction here should feel clarifying rather than paralyzing. The point is not that everything is hopelessly messy, but that serious ethical thought requires learning how multiple relevant factors coexist and conflict.",
+        ],
+        "items": [
+            "Consequences: What likely effects will follow for well-being, suffering, institutions, or incentives?",
+            "Duties: Are there obligations, promises, or limits that should constrain what may be done?",
+            "Virtues: What sort of character or practical wisdom does the situation call for?",
+            "Rights and claims: What protections or boundaries are at stake for the persons involved?",
+            "Reader lesson: Ethical maturity begins when one stops pretending that a single lens always settles the case.",
+        ],
+    },
+    ("/ethics/competing-ethical-considerations/", "prompt-2"): {
+        "heading": "Most moral schools do not have a clean weighting algorithm, which is exactly why hermeneutics matters.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The prompt identifies a real weakness in major moral traditions. Consequentialism, deontology, virtue ethics, rights-talk, and hybrid systems all provide important considerations, yet few offer a universally accepted, mechanically precise procedure for ranking them across hard cases. A great deal of moral reasoning is therefore interpretive rather than algorithmic.",
+            "That does not automatically discredit the systems. Many domains of serious reasoning rely on judgment where exact calculus is unavailable. But it does mean that ethical hermeneutics cannot be ignored. Readers need to know how principles are prioritized, when exceptions are allowed, and what kind of case can override a standing consideration.",
+            "A strong page should therefore be candid: moral thought often has grammar without having a perfect arithmetic. The absence of a clean formula is not fatal, but it is philosophically costly and should not be hidden.",
+        ],
+        "items": [
+            "Weighting problem: Moral schools often identify relevant factors more confidently than they rank them.",
+            "Interpretive labor: Hard cases require judgment about salience, context, exception, and collision among principles.",
+            "Not automatic collapse: Lack of a perfect algorithm does not make ethics meaningless, but it does weaken simplistic certainty.",
+            "Reader lesson: Hermeneutics matters because principles only guide action once someone decides how they interact.",
+        ],
+    },
+    ("/ethics/competing-ethical-considerations/", "prompt-3"): {
+        "heading": "When weighting methods stay thin, normative force starts looking less like discovery and more like managed emphasis.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "This prompt presses a deep meta-ethical worry. If moral theories offer many considerations but no robust, non-question-begging way to prioritize them, then their normative force can begin to look weaker than advertised. The system may still guide thought, but the authority of its final verdict becomes easier to contest.",
+            "That does not mean all moral philosophy collapses into arbitrary taste. It means the stronger the claimed moral authority, the more pressure there is to explain how competing considerations are adjudicated without merely reasserting the thinker's preferred emphasis. Otherwise the system risks looking like curated moral intuition wearing technical vocabulary.",
+            "A good page should therefore let the reader see both sides: weighting difficulty does not erase ethics, but it does make moral certainty more expensive than many systems admit.",
+        ],
+        "items": [
+            "Normative strain: A verdict sounds weaker when its path through conflicting considerations is obscure.",
+            "Selection worry: The theory can start to look like a way of privileging some intuitions over others without a clear adjudicative rule.",
+            "Meta-ethical pressure: Problems of weighting often reopen questions about what moral authority really consists in.",
+            "Reader gain: The page should help the reader distinguish moral guidance from overstated moral finality.",
+        ],
+    },
+    ("/ethics/coherent-moral-systems/", "prompt-1"): {
+        "heading": "An objective moral system needs more than convictions; it needs a structure that can bear truth-claims.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "If a moral system claims objective moral facts, it is asking for a demanding standard. It is not enough to have strong intuitions, cultural durability, or emotionally powerful verdicts. The system needs enough structure to explain what the facts are, how they ground obligation, how they apply across persons and cases, and how they could in principle be known or defended.",
+            "That is why coherence here is not mere tidiness. A morally serious realist framework needs ontological grounding, internal consistency, universalizability, action-guidance, and some account of how finite creatures are supposed to track the moral truth it posits. Otherwise the objectivity claim becomes louder than the framework beneath it.",
+            "The page should therefore help the reader ask whether the system is actually equipped to carry the weight of its own ambition.",
+        ],
+        "items": [
+            "Ontology: What sort of moral facts or properties is the system claiming exist?",
+            "Normative force: Why do those facts generate obligations rather than idle descriptions?",
+            "Consistency: Do the system's core principles fit together without quiet contradiction?",
+            "Epistemic access: How are moral agents supposed to know or justify the claims being made?",
+            "Reader lesson: Objective moral language becomes expensive once it is asked to do full philosophical work.",
+        ],
+    },
+    ("/ethics/ethics-core-concepts/", "prompt-2"): {
+        "heading": "Core concepts matter because each one blocks a different kind of ethical confusion.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "A list of key concepts in ethics should not read like a bin of abstract nouns. Each concept earns its place by helping the reader resist a different philosophical collapse: value into pleasure, obligation into preference, rights into law, virtue into mere niceness, or justice into rhetorical heat.",
+            "That is why the page should orient rather than merely define. Readers need to see how concepts such as obligation, rights, virtue, utility, dignity, responsibility, and moral realism differ in function even when public discourse constantly lets them blur together.",
+            "A good core-concepts page becomes a map of recurring tensions inside the branch rather than a passive glossary.",
+        ],
+        "items": [
+            "Obligation: Clarifies when a claim is being made as binding rather than merely advisable.",
+            "Rights: Marks protected claims or standing that cannot be reduced to convenience alone.",
+            "Virtue: Focuses attention on character and habituated excellence rather than isolated acts.",
+            "Justice: Forces questions about fairness, distribution, procedure, and institutional legitimacy.",
+            "Reader lesson: Concepts matter because they stop moral argument from becoming one long semantic pile-up.",
+        ],
+    },
+    ("/ethics/ethics-core-concepts/", "prompt-4"): {
+        "heading": "New areas of ethics matter because old moral questions now live inside unfamiliar technologies and scales.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Emerging areas in ethics are not just academic fashion cycles. They reflect the fact that ancient questions about harm, obligation, responsibility, value, and fairness now arise inside biotechnology, AI, climate policy, global poverty, surveillance systems, animal suffering, and large-scale institutional design.",
+            "That is what makes the newer subfields important. They do not leave classical ethics behind; they relocate it. What counts as consent in digital environments? What is fairness in algorithmic decision-making? How should responsibility be distributed when harms are systemic and delayed rather than personal and immediate?",
+            "A strong page should therefore connect the new terrain to the old map. The technologies are new; the philosophical pressures are often ancient and newly intensified.",
+        ],
+        "items": [
+            "AI ethics: Reopens questions about bias, responsibility, agency, and legitimacy under automated systems.",
+            "Bioethics: Sharpens disputes about autonomy, dignity, life, death, and medical authority.",
+            "Environmental ethics: Forces moral thinking to scale across generations, species, and diffuse harm.",
+            "Global justice: Presses on inequality, borders, duties to strangers, and institutional responsibility.",
+            "Reader gain: New subfields are where classical ethical tensions become newly visible and harder to dodge.",
+        ],
+    },
+    ("/ethics/moral-systems-required-elements/", "prompt-1"): {
+        "heading": "A coherent moral system needs a source of normativity, a scope of application, and a way to survive hard cases.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "This page is important because many moral systems sound persuasive until one asks what machinery they actually contain. A coherent moral framework needs more than admired conclusions. It needs enough structure to explain what counts as a moral reason, who falls under the system, how conflicts are handled, and why the system should guide action at all.",
+            "That is why 'required elements' is not a bureaucratic exercise. It is a way of checking whether a moral system can do the work its advocates claim for it. A framework that cannot explain scope, authority, consistency, and adjudication may still inspire sentiment, but it is philosophically underbuilt.",
+            "A good page should therefore teach readers to inspect moral systems like engineered structures: what load are they supposed to carry, and which supports are actually present?",
+        ],
+        "items": [
+            "Normative source: What makes the system's claims authoritative rather than optional preference?",
+            "Scope: To whom or what does the system apply, and why?",
+            "Adjudication: How are conflicts among principles, persons, or outcomes supposed to be handled?",
+            "Consistency: Can the system survive similar cases being treated similarly over time and context?",
+            "Reader lesson: Moral seriousness requires more than passion; it requires architecture.",
+        ],
+    },
+    ("/ethics/moral-systems-required-elements/", "prompt-2"): {
+        "heading": "Comparing moral systems is easier once the same structural questions are asked of each one.",
+        "replace_paragraphs": True,
+        "paragraphs": [
+            "A comparative list of moral systems is useful only if the reader is not left with parallel brochures. The real value comes from asking each system the same questions: what grounds its authority, how it defines the moral community, how it resolves conflicts, what it says about motivation, and where it becomes fragile under pressure.",
+            "That common framework matters because otherwise moral theories are too easily judged by their best slogans rather than by their full operating structure. Utilitarianism, Kantian ethics, virtue ethics, contractualism, divine command theory, and anti-realist approaches should all be inspected under the same philosophical light.",
+            "A good page should therefore help the reader compare systems structurally rather than tribally.",
+        ],
+        "items": [
+            "Shared yardstick: Ask each system the same questions before declaring one superior.",
+            "Grounding comparison: Different theories solve authority in very different ways, if they solve it at all.",
+            "Conflict comparison: The handling of hard cases often reveals more than the handling of easy ones.",
+            "Reader gain: Comparison becomes sharper when systems are evaluated as full frameworks rather than as moral mascots.",
+        ],
+    },
+    ("/ethics/the-value-selection-hypothesis/", "prompt-1"): {
+        "heading": "The value-selection hypothesis treats moral vocabularies as selected human constructions rather than discovered moral facts.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "At its core, the value-selection hypothesis says that human communities do not first detect a ready-made moral realm and then obediently report it. Rather, they select, stabilize, and transmit value patterns under pressures of emotion, social coordination, power, vulnerability, history, and shared practical need. Moral language reflects the outcome of those selection processes more than the discovery of objective moral properties.",
+            "That makes the hypothesis especially relevant to moral non-realism. It offers an explanation for why moral talk can feel weighty, shared, and durable without requiring stance-independent moral facts in the strong realist sense. The values are real as human selections and institutions even if they are not metaphysically 'out there' as discovered moral furniture.",
+            "A good page should therefore emphasize both sides: the hypothesis does not trivialize morality, but it does relocate its source from discovery to selection and reinforcement.",
+        ],
+        "items": [
+            "Selection rather than detection: Values are shaped and retained under human pressures instead of passively discovered.",
+            "Social durability: Shared moral language can become stable and forceful without being objectively realist in the strong sense.",
+            "Anti-realist fit: The framework explains norm vocabulary without positing a separate moral realm.",
+            "Reader lesson: The important question becomes who selects values, how they spread, and what keeps them in place.",
+        ],
+    },
+    ("/ethics/recommendations-vs-moral-claims/", "prompt-1"): {
+        "heading": "Altruism matters, but it does not by itself explain the jump from advice to moral demand.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "This prompt goes straight to the semantic pressure point. A person can recommend generosity, restraint, honesty, or care for others without yet establishing that these recommendations have the special authority people often pack into the word moral. Altruism may explain part of the content, but not automatically the force.",
+            "That matters because moral language usually does more than praise other-regarding behavior. It often presents itself as binding, blame-licensing, and publicly demanding in a way that prudential or strategic advice does not. So the question is not merely whether altruism is admirable. It is whether altruism alone explains why some should-statements get upgraded into moral claims.",
+            "A clear page should therefore separate three things: altruistic concern, practical recommendation, and robust normativity. If those are merged too quickly, the conclusion gets smuggled in through the word moral rather than earned argumentatively.",
+            "The anti-realist edge here is worth preserving. One can fully grant the human importance of altruism and still doubt that altruism magically generates an objective moral realm or a special category of obligation that everyone must recognize on pain of irrationality.",
+        ],
+        "items": [
+            "Altruism: Concern for others can shape recommendations without yet proving objective moral obligation.",
+            "Recommendation: Advice can be wise, humane, or socially useful without claiming stance-independent authority.",
+            "Normative upgrade: Moral language often asserts a stronger public demand than mere helpfulness or generosity.",
+            "Anti-realist pressure: Human concern may explain why moral language feels important without showing that it tracks moral facts.",
+            "Reader lesson: The real issue is not whether altruism is good, but what turns goodness-talk into binding moral talk.",
+        ],
+    },
+    ("/ethics/recommendations-vs-moral-claims/", "prompt-4"): {
+        "heading": "Altruism may explain part of moral language, but morality usually claims more than selflessness alone.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The suspicion here is understandable. Many moral pronouncements do seem to reward self-sacrifice and condemn self-prioritization, which can make morality look like altruism with a more intimidating tone of voice. But that reduction is usually too quick.",
+            "Moral vocabulary often tries to do several jobs at once: criticize cruelty, coordinate expectations, authorize blame, rank competing claims, and sometimes present duties as universally binding. Altruism may sit near the center of some systems, but it does not by itself account for all the semantic and practical baggage carried by moral terms.",
+            "The anti-realist moral here is not that altruism is trivial. It is that moral language may be packaging a cluster of social, emotional, and practical functions under one grander heading. If so, altruism explains a lot, but not the whole performance.",
+            "The page should therefore resist two extremes. It should not pretend altruism is irrelevant, and it should not pretend altruism fully explains what moral language is trying, successfully or unsuccessfully, to be.",
+        ],
+        "items": [
+            "Selflessness link: Many moral systems do privilege concern for others, sometimes heavily.",
+            "Semantic surplus: Moral language often includes obligation, blame, rights, or universalizability beyond mere altruism.",
+            "Reduction risk: If morality is equated too quickly with altruism, important disputes about authority and normativity disappear from view.",
+            "Packaging hypothesis: Moral vocabulary may bundle altruism together with social coordination, condemnation, and identity-management.",
+            "Reader lesson: The live issue is whether altruism explains moral content, moral force, or only part of both.",
+        ],
+    },
+    ("/ethics/equivocation-on-wrong/", "prompt-1"): {
+        "heading": "The word wrong causes trouble because people keep sliding among different senses without warning.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "This page matters because wrong is one of the most overloaded words in ethical conversation. People use it to mean imprudent, illegal, unfashionable, taboo, disgusting, harmful, socially condemned, unfair, or objectively immoral, and they often glide from one sense to another mid-argument as if nothing happened.",
+            "That semantic sliding creates the illusion of agreement or of decisive victory where there may only be ambiguity. A person may say a behavior is wrong meaning culturally abhorred, while their opponent hears morally prohibited in an objective sense. The same sentence is doing very different work depending on which layer is active.",
+            "The problem is amplified by the emotional charge of the word. Once wrong is spoken, listeners often import the strongest available sense unless the speaker explicitly narrows it. That gives equivocation a built-in rhetorical advantage.",
+            "A strong page should therefore slow the reader down. Before answering whether something is wrong, ask: wrong in what sense, by what standard, and with what claimed authority?",
+        ],
+        "items": [
+            "Pragmatic wrong: Bad for one's goals, reputation, or social outcomes.",
+            "Cultural wrong: Condemned by the norms of a community.",
+            "Legal wrong: Forbidden or punishable within a formal system.",
+            "Moral wrong: Claimed to violate a deeper or more authoritative standard.",
+            "Rhetorical drift: The word's emotional force often carries an argument farther than its actual clarity deserves.",
+            "Reader lesson: Many ethical disputes are really fights over shifting senses of one emotionally loaded word.",
+        ],
+    },
+    ("/ethics/coherent-moral-systems/", "prompt-2"): {
+        "heading": "Objective moral systems need a foundation strong enough to explain why moral facts are more than intense approval.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "If a moral system claims objective truth, its ontological foundation cannot remain decorative. It must explain what kind of reality moral facts have, why those facts are not reducible to preferences or cultural habits, and how they generate obligations for beings like us.",
+            "That is why foundations matter so much in ethics. A theory may sound morally elevated while quietly resting on intuition, consensus, theology, reason, or human flourishing without clearly explaining why any of those are sufficient to ground objective normativity. The page should help the reader see how much philosophical work the foundation is being asked to do.",
+            "A good treatment should therefore ask not merely which foundation a theorist prefers, but whether the chosen foundation can actually carry the weight of objectivity, authority, and applicability all at once.",
+        ],
+        "items": [
+            "Ontological question: What, exactly, are moral facts supposed to be?",
+            "Dependence question: Are moral truths grounded in reason, God, nature, flourishing, or something else?",
+            "Authority question: Why should the posited foundation bind agents rather than merely describe reality?",
+            "Reader lesson: Objective ethics becomes harder, not easier, once the demand for a real foundation is taken seriously.",
+        ],
+    },
+    ("/ethics/coherent-moral-systems/", "prompt-3"): {
+        "heading": "Universalizability matters because a moral system that only works for my side is not yet morality in the strong sense.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Universalizability is one of the sharpest tests of whether a moral system is doing more than protecting the interests or intuitions of a local group. If a principle can be invoked against others but quietly relaxed for one's own tribe, class, nation, or theology, the system begins to look less objective and more strategic.",
+            "That does not mean every moral rule must apply identically regardless of role or context. Universalizability is subtler than that. It asks whether differences in treatment can be justified by relevant differences in the case rather than by mere favoritism, power, or convenience.",
+            "A strong page should therefore teach the reader to distinguish principled universality from slogan-level equality. The real issue is whether the system can generalize fairly without losing grip on complexity.",
+        ],
+        "items": [
+            "Anti-special-pleading test: The same kind of case should not be judged differently without a relevant difference-maker.",
+            "Role sensitivity: Universalizability allows justified differentiation when the cases genuinely differ.",
+            "Objectivity pressure: Claims to moral fact look weaker when the principles prove selectively applicable.",
+            "Reader lesson: A serious moral system must explain not only what it commands, but why its commands are not tribal exemptions in formal dress.",
+        ],
+    },
+    ("/ethics/coherent-moral-systems/", "prompt-5"): {
+        "heading": "A moral system has to guide action, not merely inspire admiration from a safe distance.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Action-guidance is a non-optional test for moral systems that want real authority. If a framework cannot tell agents what counts as forbidden, required, permitted, or supererogatory in hard cases, then it risks becoming an aesthetic tribute to goodness rather than a working moral structure.",
+            "That does not require mechanical simplicity. Human life is too complicated for that. But it does require enough clarity that agents can use the system in actual deliberation without the theory dissolving into vague uplift whenever the pressure rises.",
+            "A good page should therefore connect prescriptions and prohibitions to decision-making under uncertainty. Moral systems earn respect when they stay usable after admiration ends.",
+        ],
+        "items": [
+            "Prescription: What does the system positively require or recommend?",
+            "Prohibition: What does it rule out even when those acts are tempting or efficient?",
+            "Decision support: Can the framework help with hard cases rather than only easy applause lines?",
+            "Reader lesson: Moral authority without actionable guidance is morally impressive but practically underbuilt.",
+        ],
+    },
+    ("/ethics/ethics-core-concepts/", "prompt-1"): {
+        "heading": "A good ethics glossary should show how the main disputes connect, not just define the words politely.",
+        "replace_paragraphs": True,
+        "paragraphs": [
+            "A glossary of ethical terms is only useful if it helps the reader see the argument-space those terms inhabit. Obligation, virtue, rights, justice, utility, dignity, autonomy, realism, nihilism, and responsibility are not just vocabulary items. They are entry points into recurring disputes about what matters, who counts, what binds, and how moral language works.",
+            "That is why a good ethics glossary functions as orientation rather than memorization. It should help the reader grasp which terms travel together, which ones clash, and which ones are often confused in public argument. Otherwise the page becomes a polite dictionary for a battlefield it never describes.",
+            "The page should therefore feel like a map of tensions, not a shelf of definitions.",
+        ],
+        "items": [
+            "Concept clusters: Some terms define moral theories, others define moral statuses, and others define moral pressures.",
+            "Frequent confusions: Rights, law, duty, fairness, and harm are often treated as interchangeable when they are not.",
+            "Branch utility: The glossary should prepare the reader to navigate later ethical disputes more intelligently.",
+            "Reader lesson: Terms matter because they structure disagreement, not because philosophy enjoys making flash cards.",
+        ],
+    },
+    ("/ethics/ethics-core-concepts/", "prompt-3"): {
+        "heading": "The history of ethics matters because each era changes what it treats as morally basic.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "A timeline of ethics should not just stack thinkers in a row. Its value lies in showing how the field repeatedly reorganizes itself around different moral centers of gravity: virtue, law, divine command, utility, rights, autonomy, care, power, social construction, or skepticism about moral objectivity altogether.",
+            "That is why historical development is philosophically important. Each major shift changes not only the answers, but what counts as the main question. Some eras ask what kind of person one should become, others what rules should govern action, others how institutions should distribute burdens and goods, and still others whether moral truth exists at all.",
+            "A good page should therefore present the history as an evolving argument about the shape of ethics itself, not as a parade of notable names.",
+        ],
+        "items": [
+            "Ancient focus: Character, flourishing, and the shape of a good life often dominate.",
+            "Modern focus: Duty, autonomy, rights, and utility become increasingly central.",
+            "Contemporary spread: Ethics expands into global justice, technology, identity, and meta-ethical instability.",
+            "Reader lesson: The timeline matters because it reveals what each era thought ethics was mainly for.",
+        ],
+    },
+    ("/ethics/ethics-core-concepts/", "prompt-5"): {
+        "heading": "The major schools of ethics differ most in what they take to be the primary unit of moral importance.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Listing the main schools of ethics is useful only if the reader sees what each school treats as morally primary. Consequentialism centers outcomes, deontology centers duties or constraints, virtue ethics centers character, contractual approaches center agreement or justification to others, care ethics centers relational responsiveness, and anti-realist views question whether the whole field works the way realists assume.",
+            "That framing matters because moral theories do not merely produce different verdicts. They train attention differently. Each school teaches the reader to ask a different first question when facing a case, and those different first questions can reshape the entire moral landscape.",
+            "A good page should therefore compare schools as styles of moral vision rather than as partisan mascots waiting for applause.",
+        ],
+        "items": [
+            "Consequentialist emphasis: What outcomes follow, and how should they be ranked?",
+            "Deontological emphasis: What actions are constrained or required regardless of outcome?",
+            "Virtue-ethical emphasis: What kind of person is acting, and what practical wisdom is called for?",
+            "Contractual or constructivist emphasis: What norms can be justified to others under fair conditions?",
+            "Reader lesson: Schools matter because they sort moral attention before they sort moral conclusions.",
+        ],
+    },
+    ("/ethics/the-value-selection-hypothesis/", "prompt-2"): {
+        "heading": "The hypothesis fits moral non-realism naturally because it explains shared values without a separate moral realm.",
+        "replace_paragraphs": True,
+        "paragraphs": [
+            "The value-selection hypothesis sits comfortably with moral non-realism because it explains why moral vocabularies can be stable, forceful, and socially entrenched without requiring stance-independent moral facts. Shared values are selected, transmitted, rewarded, and normalized rather than metaphysically discovered.",
+            "That does not make morality unreal in every practical sense. It means the reality in question is human, institutional, emotional, and historical rather than objective in the strong realist way. The page should help the reader see that non-realism need not collapse into nihilistic silence; it can still describe a robust social world of value-selection and enforcement.",
+            "A careful treatment should therefore show moral non-realism as explanatory restraint rather than emotional vacancy.",
+        ],
+        "items": [
+            "Non-realist fit: The hypothesis preserves moral practice without positing objective moral properties.",
+            "Social reality: Values can be durable and action-guiding because humans select and reinforce them together.",
+            "Anti-nihilist nuance: Denying a moral realm is not the same as denying the existence of moral behavior, language, or pressure.",
+            "Reader lesson: The hypothesis offers a live alternative to both full realism and shallow subjectivism.",
+        ],
+    },
+    ("/ethics/the-value-selection-hypothesis/", "prompt-3"): {
+        "heading": "On this view, morality can function as a useful fiction without becoming an empty one.",
+        "replace_paragraphs": True,
+        "paragraphs": [
+            "If the framework is non-realist, then moral language may indeed work more like a commonly inhabited fiction than like a direct report of objective moral facts. But fiction here should not be heard as mere frivolity or conscious deceit. The better comparison is to socially maintained frameworks that organize judgment, expectation, blame, aspiration, and coordination even if they are not mirrors of a moral realm.",
+            "That is what makes the page philosophically interesting. A useful fiction can still be psychologically deep, culturally stabilizing, and normatively potent at the level of human life. The key claim is not that morality does nothing, but that what it does may be explainable without strong realism.",
+            "A strong page should therefore protect the nuance: fictional in ontological status need not mean trivial in social function.",
+        ],
+        "items": [
+            "Ontological modesty: The fiction claim concerns objective status, not practical insignificance.",
+            "Social force: Moral language can still motivate, coordinate, shame, praise, and structure collective life.",
+            "Interpretive caution: Calling morality a fiction is stronger than saying it is subjective, but weaker than saying it is useless.",
+            "Reader lesson: The live issue is how much moral practice survives once metaphysical inflation is removed.",
+        ],
+    },
+    ("/ethics/the-value-selection-hypothesis/", "prompt-4"): {
+        "heading": "Emotion may ground much moral life, but reducing morality to emotion alone still leaves explanatory work unfinished.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The temptation to reduce morality entirely to emotion is understandable, especially in a non-realist framework. Emotions clearly shape valuation, aversion, empathy, disgust, outrage, guilt, pride, and the felt pressure behind moral language. But emotion alone may be too thin unless it is placed inside a larger story about social reinforcement, narrative, institutions, and selected value-patterns.",
+            "That is why a strong non-realist page should not stop at 'morality is just feelings.' Human moral life includes emotions, but also habits, rationalizations, legal codifications, social incentives, identity-formation, and shared fictions that stabilize the emotional field over time.",
+            "The page should therefore resist both moral mysticism and reductionist flatness. Emotion is central, but the structure built around emotion matters too.",
+        ],
+        "items": [
+            "Emotional base: Feelings do much of the motivational work in moral life.",
+            "Selection layer: Communities amplify some emotional patterns and suppress others through institutions and norms.",
+            "Reduction warning: Pure emotion-talk can miss the way moral vocabularies become structured and enduring.",
+            "Reader gain: The best non-realist account explains both felt intensity and social durability.",
+        ],
+    },
+    ("/ethics/the-value-selection-hypothesis/", "prompt-5"): {
+        "heading": "Treating morality as selected fiction may increase flexibility while weakening claims to objective authority.",
+        "replace_paragraphs": True,
+        "paragraphs": [
+            "Allowing people to treat morality as a selected human fiction has obvious advantages. It can reduce dogmatism, make moral change easier, expose power hidden inside allegedly timeless norms, and lower the temptation to present local values as cosmic facts. But the costs are real too: people may feel less bound, less unified, or less certain about how to condemn cruelty when the objective floor is removed.",
+            "That is why the page should not read like a victory lap for non-realism. The view buys honesty about origins and flexibility under revision, but it may also increase fragility in public coordination and reduce the rhetorical force that objective moral language has traditionally supplied.",
+            "A strong treatment should therefore show the tradeoff clearly: one gains conceptual sobriety and loses some inherited grandeur.",
+        ],
+        "items": [
+            "Advantage: Reduced metaphysical inflation and more openness to moral revision.",
+            "Advantage: Greater clarity about the human and emotional roots of moral systems.",
+            "Cost: Less obvious basis for insisting that others are categorically bound in the strong realist sense.",
+            "Cost: Shared moral commitment may become more negotiable and therefore more fragile.",
+            "Reader lesson: The view is attractive partly because it clarifies and costly because it disenchants.",
+        ],
+    },
+    ("/rational-thought/assessing-arguments/", "prompt-1"): {
+        "heading": "An argument can be a weapon or a joint inquiry; the difference lies mostly in the aim.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Combative arguing is usually organized around winning, signaling status, or damaging an opponent in public. Philosophical argument, at its best, is organized around clarification, pressure-testing, and the discovery of what follows if the premises are granted. The same person can do both in the same conversation, which is part of why readers need the distinction made explicit.",
+            "That difference is not mainly about politeness. A courteous speaker can still argue combatively if the real goal is humiliation, strategic misreading, or point-scoring. And a sharp philosophical exchange can feel intense while still being truth-directed if both sides are trying to expose the strongest form of the issue.",
+            "So the practical question is simple: what would count as success here? If success means understanding the claim more clearly, finding the strongest objection, or revising one's own position when needed, the exchange is philosophical. If success means applause, domination, or reputational injury, the exchange has drifted toward combat.",
+            "Public incentives make the distinction even harder to maintain. An audience rewards punchiness, certainty, and visible victory much faster than it rewards careful concession or patient clarification. That is one reason genuinely philosophical argument is rarer than people think: the surrounding incentives often reward performance over understanding.",
+            "A good page should leave the reader better able to diagnose tone by function rather than by volume. Calm hostility is still hostility. Productive friction is not the same thing as war.",
+        ],
+        "items": [
+            "Combative aim: The exchange is steered toward victory, exposure, or humiliation rather than toward clearer understanding.",
+            "Philosophical aim: The exchange is steered toward discovering what is actually true, coherent, or well-supported.",
+            "Tone caution: Civility is not enough; an argument can sound calm while still being strategically manipulative.",
+            "Revision test: If neither side could imagine changing its mind, the conversation is probably not functioning philosophically.",
+            "Reader lesson: The quickest way to classify an argument is to ask what success would look like from the inside.",
+        ],
+    },
+    ("/rational-thought/assessing-arguments/", "prompt-2"): {
+        "heading": "To understand a person's core argument, separate the conclusion, the reasons, and the hidden load-bearing assumptions.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "When we try to understand someone's core argument honestly, the first job is not rebuttal but structure. What exactly is the conclusion? What reasons are being offered for it? Which assumptions are doing work in the background without being named? If those pieces remain blurred, the reply will hit a shadow rather than the view itself.",
+            "The next step is charitable pressure. Ask what the strongest version of the claim would be, what evidence the speaker seems to treat as decisive, and what sort of objection would actually count as relevant from inside that framework. Otherwise we waste time answering a weaker position the speaker never really held.",
+            "It also helps to distinguish literal claims from emotional cargo. Some arguments carry identity, fear, moral urgency, or historical grievance inside the reasoning. Noticing that does not refute the view, but it often explains why the argument feels stronger to the speaker than the visible premises alone would suggest.",
+            "One more useful distinction is between the headline claim and the claim that is actually doing the work. People often state a broad thesis, then defend only a narrower one. If you do not notice the slide, the argument can feel stronger than it is because the conclusion stays large while the evidence quietly shrinks.",
+            "A rigorous reading of another person's argument therefore requires both logic and interpretation. You are not just extracting propositions; you are locating where the real weight of the case actually sits.",
+        ],
+        "items": [
+            "Conclusion first: Name the claim the speaker most wants you to accept before chasing side remarks or examples.",
+            "Reason map: Identify which stated reasons are supposed to support the conclusion and how they connect.",
+            "Hidden assumptions: Look for background beliefs about causation, evidence, morality, language, or human nature that quietly carry the case.",
+            "Steelman discipline: Reconstruct the strongest fair version before deciding whether the argument survives pressure.",
+            "Reader lesson: Honest understanding means finding the real structure of the argument, not just reacting to its surface tone.",
+        ],
+    },
+    ("/rational-thought/assessing-arguments/", "prompt-3"): {
+        "heading": "A public rebuttal lands best when it presses the claim hard without turning the person into the target.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "A good public rebuttal should begin by naming the claim as clearly and fairly as possible. That first move lowers unnecessary heat because it shows the reader that the point is to examine the reasoning, not to theatrically punish the speaker. If the framing already sounds like mockery, many readers will stop hearing the argument and start watching a social contest.",
+            "The next step is disciplined firmness. State the strongest charitable version of the view, explain exactly where it fails, and keep the criticism attached to the inference, the evidence, or the category mistake. Sentences like 'this does not follow,' 'this evidence is too weak for that conclusion,' or 'these two claims are being conflated' are often stronger than personality-focused language.",
+            "Tone should be chosen by purpose, not by fear of seeming rude. A rebuttal can be sharp when the error matters, but sharpness should come from precision rather than contempt. Readers are more likely to trust correction when they can see that the author is angry at the mistake, not intoxicated by the chance to humiliate someone.",
+            "So the practical rule is simple: preserve dignity, remove vagueness, and make the error unmistakable. A rebuttal is most useful when even the opponent could, in principle, learn from it.",
+        ],
+        "items": [
+            "Fair framing: Start by restating the claim in a way its defender would recognize as serious rather than caricatured.",
+            "Target discipline: Attack the reasoning, the evidence, or the hidden assumption rather than the person's worth or intelligence.",
+            "Precision over contempt: A precise sentence that exposes the mistake usually hits harder than a sarcastic flourish.",
+            "Audience awareness: Public readers often learn more from a calm map of the error than from a triumphant performance.",
+            "Reader lesson: The best rebuttal sounds less like a takedown and more like a clean demonstration of where the argument broke.",
+        ],
+    },
+    ("/rational-thought/are-averages-not-always-true/", "prompt-1"): {
+        "heading": "Outliers do not cancel an average; they show that a summary statistic is not the same thing as a universal claim.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The move from 'here is an outlier' to 'the average is not really true' confuses two different jobs that numbers can do. An average describes a central tendency or typical location in a dataset. It does not claim that every case is identical to that value, and it does not stop being informative just because variation exists.",
+            "That is why 'but not all' is often a rhetorical dodge rather than a mathematical objection. No one who understands averages thinks the summary erases the spread. The question is whether the average captures something real about the group or process being discussed. Outliers can matter a great deal, but they do not, by themselves, refute the existence of a central pattern.",
+            "A clean way to say this is that averages and distributions answer different questions. The average tells you where the data cluster overall; the spread tells you how widely cases vary around that cluster. You need both, but one does not nullify the other.",
+            "So the reader should leave this section with a sharper instinct: citing an exception does not automatically damage a general statistical description. It may instead show that the speaker has mistaken summary for universality.",
+        ],
+        "items": [
+            "Category mistake: An average is a summary of a pattern, not a claim that every individual case must match the summary exactly.",
+            "Outlier role: Exceptional cases can qualify interpretation without erasing the central tendency of the larger set.",
+            "Distribution point: Good statistical judgment asks both where the center is and how much spread surrounds it.",
+            "Rhetorical warning: 'But not all' often sounds forceful because it swaps mathematical criticism for emotional resistance.",
+            "Reader lesson: The right response to an outlier is usually 'what does it change about the distribution?' not 'therefore the average is fake.'",
+        ],
+    },
+    ("/rational-thought/are-averages-not-always-true/", "prompt-2"): {
+        "heading": "The dialogue matters only if it teaches why 'not all' is not a rebuttal to an average.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "A useful dialogue here should not just stage a smart teacher correcting a confused student. It should show the confusion itself clearly enough that readers recognize the move when they hear it in ordinary life. The mistaken speaker treats a statistical claim as though it were pretending to describe every single case without remainder.",
+            "The instructor's real job is to reframe the question. What work was the average trying to do? Was it summarizing a broad pattern, predicting an individual case, or guiding a policy judgment under uncertainty? Once the job of the statistic is named, the force of the outlier objection usually changes.",
+            "That is why a dialogue format can be genuinely pedagogical here. It lets the reader watch a common mistake happen step by step: first the average is misheard as a universal statement, then the outlier is introduced as though it were fatal, then the distinction between central tendency and full distribution restores order.",
+            "A nice dialogue also shows that the instructor does not deny the outlier. The correction is not 'exceptions do not matter.' The correction is 'exceptions matter differently depending on what the statistic was claiming to do.' That is the nuance readers need if they are going to use averages responsibly rather than defensively.",
+            "A good version of the dialogue should therefore leave the reader with a habit, not just a correction: whenever someone invokes an exception, ask whether the exception actually challenges the relevant statistical claim or merely reminds us that variation exists.",
+        ],
+        "items": [
+            "Mishearing problem: The confused move treats an average as though it claimed total uniformity across all cases.",
+            "Teacher's task: Re-state what the average was actually summarizing before debating whether the summary was appropriate.",
+            "Function test: Ask whether the statistic was being used for group description, individual prediction, or comparative reasoning.",
+            "Exception filter: An outlier matters only if it undermines the statistical claim being made rather than merely proving that variation exists.",
+            "Reader lesson: The dialogue should train a reflex of clarification before contradiction.",
+        ],
+    },
+    ("/rational-thought/are-averages-not-always-true/", "prompt-3"): {
+        "heading": "Outliers can complicate interpretation, but they do not by themselves disprove the existence of a central tendency.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Citing an outlier does not, by itself, damage a statistical average because the average was never a claim that every case is identical. It is a summary of where the data tend to sit overall. An outlier may tell us that the spread is wide, that the distribution is skewed, or that another statistic should be added for context, but it does not magically erase the center of the distribution.",
+            "The rigorous response is therefore not 'ignore outliers.' It is 'place them correctly.' They are part of the dataset and may matter a great deal for interpretation, but they do not turn the mean into nonsense merely by existing.",
+            "If the outlier is important enough, it may tell us that the mean is no longer the best lone descriptor. But that is a methodological refinement, not a logical demolition. The critic has moved from 'the statistic is false' to 'the statistic is incomplete,' which is a much more serious and honest claim.",
+            "That distinction is exactly what sloppy public debate often misses. The presence of exceptions can make a summary incomplete, but incompleteness is not the same thing as falsity.",
+        ],
+        "items": [
+            "Center-versus-spread: An average summarizes the center, while outliers tell you something about the spread and shape of the data.",
+            "Interpretive caution: Outliers may motivate adding median, range, or variance, but that is different from dismissing averages as such.",
+            "Logical point: The existence of exceptional cases does not refute a claim about what is typical.",
+            "Reader lesson: Treat outliers as a reason to refine the picture, not as a magic wand that makes the picture disappear.",
+        ],
+    },
+    ("/rational-thought/are-averages-not-always-true/", "prompt-4"): {
+        "heading": "A simple calculation shows why an outlier can change an average without making the average conceptually useless.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Take a simple dataset: 9, 10, 10, 11, 10. The average is 10. Now add one outlier, 30. The new average becomes about 13.3. The outlier clearly changes the mean, but notice what has and has not happened. The arithmetic is still correct, and the mean still tells us something real about the dataset as a whole. What changed is that the mean is now carrying information from a more uneven distribution.",
+            "That is the key lesson. An outlier can affect the usefulness of the mean for certain tasks, especially if the distribution becomes highly skewed, but that is not the same as showing that averages are fake or 'not true.' It simply tells us that one summary statistic may no longer be sufficient by itself.",
+            "A mathematically mature response would therefore say: keep the mean, add the median or range if needed, and interpret the dataset in light of its shape. The proper correction to a simplistic average is richer description, not incoherent dismissal.",
+            "So the demonstration cuts both ways. Outliers can matter a lot, but what they force is better statistical interpretation, not a retreat into numeracy-free rhetoric.",
+        ],
+        "items": [
+            "Arithmetic stability: The average remains a valid calculation even after the outlier enters the dataset.",
+            "Interpretive shift: What changes is how representative the mean is likely to be for describing a typical case.",
+            "Supplement principle: When skew grows, the right move is often to add median, range, or variance rather than discard averages altogether.",
+            "Reader lesson: A statistic can become less sufficient without becoming logically worthless.",
+        ],
+    },
+    ("/rational-thought/are-averages-not-always-true/", "prompt-5"): {
+        "heading": "Saying 'averages are not always true' is incoherent because averages are descriptions, not universal vows.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The phrase 'averages are not always true' sounds plausible only because the word true is doing confused work. A statistical average is not usually the sort of thing that promises to fit every case. It is a numerical description of a dataset. Asking whether it is 'always true' treats it as though it were a universal law or a categorical statement about each individual member of the group.",
+            "Once the categories are kept straight, the confusion clears. The real questions are whether the average was calculated correctly, whether it is the right summary statistic for the task, whether the dataset was relevant, and whether the spread around the mean changes the interpretation. Those are legitimate criticisms. 'Not all' is not.",
+            "In ordinary language, people often mean something softer: the average does not tell the whole story. That is fair. But that is different from claiming the average is logically false. A summary can be incomplete without being incoherent.",
+            "This matters beyond statistics. The same confusion appears whenever a group-level description is answered with a lone counterexample. The move feels smart because it sounds like precision, but it usually reveals that the critic has confused a pattern claim with an exceptionless rule.",
+            "So the better lesson is to stop asking averages to do jobs they were never designed to do. Averages summarize patterns; they do not abolish complexity, and they do not become invalid just because complexity remains.",
+        ],
+        "items": [
+            "Truth confusion: The phrase treats a descriptive statistic as though it were making a universal claim about every case.",
+            "Legitimate criticism: You can challenge the sample, the calculation, the chosen metric, or the interpretation without mangling the concept of average.",
+            "Incomplete is not false: A statistic may omit nuance while still accurately capturing one important feature of the data.",
+            "Language caution: Ordinary speech often blurs 'not the whole story' into 'not true,' which creates unnecessary confusion.",
+            "Reader lesson: Criticize averages for the right reasons or they will keep being dismissed by the wrong ones.",
+        ],
+    },
+    ("/rational-thought/perverse-incentives/", "prompt-1"): {
+        "heading": "A perverse incentive is a reward structure that makes the wrong behavior look rational from inside the system.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "A perverse incentive appears when a system rewards behavior that undermines the system's own stated goal. The people responding to the incentive may not be irrational or malicious; they may simply be adapting sensibly to the payoff structure placed in front of them.",
+            "That is why the concept matters so much in public policy, management, education, criminal justice, and online platforms. A rule can be well-intended at the level of slogan while still pushing participants toward gaming, concealment, short-termism, or visible compliance that defeats the deeper purpose.",
+            "The real lesson is not 'people are bad.' The lesson is that behavior follows incentives more faithfully than mission statements. If the metric is crude, the system may teach smart people to optimize the wrong thing.",
+            "A simple example is enough to make the idea vivid: if a school rewards teachers mainly for test scores, some teachers may start teaching to the test or pushing weak students aside. The people involved may still claim allegiance to education, but the structure is already training them to chase the proxy.",
+            "That is why perverse incentives are often invisible to the people who built them. Everyone may sincerely endorse the stated mission while the actual reward structure quietly teaches another lesson. Good intentions are fully compatible with bad system design.",
+            "A good definition should therefore keep intention and outcome separate. Designers may want one result, while the structure they built quietly rewards another.",
+        ],
+        "items": [
+            "Goal mismatch: The announced aim of the system differs from the behavior its rewards and penalties actually encourage.",
+            "Adaptive behavior: Participants often respond quite rationally to the incentive even when the overall outcome is harmful.",
+            "Metric danger: Once a number becomes the target, people may optimize the number rather than the underlying good.",
+            "Design lesson: Moral sincerity at the top does not protect a system from bad incentives built into its machinery.",
+            "Reader lesson: To find a perverse incentive, ask what behavior the structure makes attractive, not what the policy says it wants.",
+        ],
+    },
+    ("/rational-thought/perverse-incentives/", "prompt-2"): {
+        "heading": "Historical examples matter because perverse incentives keep returning in different costumes.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "A page of historical examples should not read like a cabinet of curiosities. The point is to show recurrence. Different eras and institutions invent different policies, but the same structural mistake keeps appearing: reward the proxy, and people may sacrifice the real goal to improve the proxy.",
+            "That is why pirate suppression, bounty systems, testing regimes, performance bonuses, and policing quotas can belong on the same page. On the surface they look unrelated. Underneath they share a common logic: the incentive teaches participants how to win the game while quietly worsening the thing the game was supposed to improve.",
+            "Historical range matters because it prevents the reader from treating perverse incentives as a niche quirk. They are a permanent design risk wherever human beings respond creatively to rewards, punishments, and measurable targets.",
+            "A good treatment should therefore extract the repeating pattern from the stories. Otherwise the reader leaves with anecdotes instead of a reusable diagnostic tool.",
+        ],
+        "items": [
+            "Proxy failure: Systems often reward an easily measured stand-in for the real goal, then get more of the stand-in and less of the goal.",
+            "Gaming pattern: Once the incentive is visible, clever participants learn how to satisfy the metric without serving the mission.",
+            "Cross-domain recurrence: The same structural error appears in empires, classrooms, markets, bureaucracies, and digital platforms.",
+            "Historical payoff: The examples matter because they teach a pattern the reader can spot again elsewhere.",
+            "Reader lesson: Diverse stories become useful when they reveal one recurring mechanism rather than ten disconnected oddities.",
+        ],
+    },
+    ("/rational-thought/perverse-incentives/", "prompt-3"): {
+        "heading": "Policy design gets wiser when it asks how smart people will game the rule before the rule goes live.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The best protection against perverse incentives is anticipatory humility. Before a policy is launched, designers should ask not only 'what behavior do we want?' but also 'how could a reasonably clever person satisfy this rule while betraying its purpose?' That second question is where many good intentions fail.",
+            "Reducing perverse incentives usually requires multiple safeguards: mixed metrics rather than one brittle target, periodic review, room for qualitative judgment, and feedback from people affected by the rule. A single-number regime often invites clever compliance and mission drift.",
+            "It also helps to assume that visibility changes behavior. Once participants know what is counted, they start adapting to the count. That is not corruption in every case; it is ordinary human responsiveness. Good policy design plans for it.",
+            "So the key heuristics are not mysterious. Stress-test the proxy, imagine the exploit, reward the underlying goal where possible, and revise quickly when the system starts teaching the wrong lesson.",
+        ],
+        "items": [
+            "Exploit rehearsal: Before implementation, actively imagine how the rule could be satisfied in spiritless or harmful ways.",
+            "Mixed metrics: Use more than one indicator so participants cannot cheaply optimize a single brittle target.",
+            "Human review: Preserve some judgment from people who can notice when the metric looks good while the reality worsens.",
+            "Fast revision: Incentive systems should be monitored and adjusted rather than treated as set-and-forget moral machinery.",
+            "Reader lesson: The safest policy question is often not 'does this sound good?' but 'how will this be gamed?'",
+        ],
+    },
+    ("/rational-thought/perverse-incentives/", "prompt-4"): {
+        "heading": "To catch bad actors, systems need cross-checks that make gaming costly without punishing ordinary participation.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Identifying bad actors starts with a distinction that many systems blur: some failures come from flawed incentives, while others come from deliberate exploitation. If that difference is ignored, institutions either over-punish ordinary users who are merely responding to the system as designed, or under-punish genuine gamers who have learned how to hide inside normal-looking behavior.",
+            "Good detection therefore relies on layered signals rather than a single red flag. Sudden statistical anomalies, repeated edge-case behavior, impossible performance spikes, networked coordination, and suspicious timing patterns can all suggest gaming. None is decisive by itself, but together they can mark a pattern that deserves scrutiny.",
+            "Quarantining bad actors should also be proportionate. Random audits, temporary holds, appeals processes, graduated sanctions, and human review are usually wiser than instant permanent exclusion based on one suspicious metric. Otherwise the cure becomes its own perverse incentive, teaching innocent people to fear participation while teaching sophisticated abusers how to stay just beneath the threshold.",
+            "The broader lesson is that enforcement itself must be designed with incentive-awareness. A system should make exploitation harder, honest participation safer, and diagnosis more careful than theatrical.",
+        ],
+        "items": [
+            "Design-versus-abuse distinction: Separate ordinary adaptation to a flawed rule from deliberate efforts to manipulate the system unfairly.",
+            "Pattern detection: Look for clusters of anomalies, timing irregularities, impossible gains, or repeated edge-case exploitation rather than a single suspicious event.",
+            "Proportionate response: Temporary quarantines, audits, and appeals are often more rational than irreversible punishment at first contact.",
+            "False-positive caution: Overzealous enforcement can create a new incentive problem by frightening legitimate users or rewarding performative compliance.",
+            "Reader lesson: The best anti-gaming system is careful enough to catch abuse without turning caution into collateral damage.",
+        ],
+    },
+    ("/rational-thought/sample-size-margin-of-error/", "prompt-1"): {
+        "heading": "Margin of error tells you how wide the statistical blur is around an estimate.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Margin of error is a way of expressing how much uncertainty surrounds an estimate drawn from a sample rather than from the whole population. If a poll says 55 percent with a margin of error of plus or minus 3 points, the practical meaning is not '55 with magical exactness' but 'probably somewhere in the neighborhood of 52 to 58, given the sampling assumptions.'",
+            "That matters because public discussion often treats reported percentages as if they were pin-sharp facts. They are usually not. Margin of error reminds us that sampling introduces blur, and that blur must be respected before we decide whether a result is decisive, trivial, or not meaningfully different from a rival result.",
+            "Understanding margin of error is therefore not a technical luxury. It is part of intellectual honesty. Without it, people over-read tiny differences, mistake noise for signal, and talk as though the data were far more precise than they really are.",
+            "A reader who understands margin of error has learned one of the central disciplines of statistical thinking: never confuse an estimate with certainty.",
+        ],
+        "items": [
+            "Range, not pin: A sampled estimate usually comes with a band of plausible values rather than one perfectly exact point.",
+            "Decision relevance: Margin of error helps determine whether an apparent difference is actually meaningful or just statistical blur.",
+            "Public-discussion value: It protects readers from overconfidence when percentages are reported with more certainty than they deserve.",
+            "Reader lesson: Margin of error is one of the main tools that keeps statistical language honest about its own limits.",
+        ],
+    },
+    ("/rational-thought/sample-size-margin-of-error/", "prompt-2"): {
+        "heading": "Margin of error shrinks quickly at first and then more slowly; early gains are cheap, later gains are expensive.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "As sample size rises from 1 to 100, the margin of error does not fall in a straight line. It drops steeply at the beginning and then flattens out. The intuitive lesson is that very tiny samples are wildly unstable, modest increases help a lot, and later increases still help but with diminishing returns.",
+            "This is one of the most important habits in statistical literacy. People often assume that doubling the sample halves the uncertainty. It does not. The relationship is closer to an inverse square-root pattern, which means each further gain in precision costs more than the last one.",
+            "That is why an n of 3 feels almost comic, an n of 10 can be suggestive but fragile, and an n of 100 starts to feel much more disciplined without becoming magical. Bigger is better, but bigger does not mean omniscient.",
+            "You can picture the curve almost like early braking on a bicycle: at first, small changes make a big difference, but later the improvements come more gradually. Going from 4 to 16 observations helps a lot. Going from 64 to 100 still helps, but not with the same drama.",
+            "A good page should therefore train the shape of the curve in the reader's mind. The main point is not memorizing a formula; it is learning why small samples mislead so easily and why confidence grows unevenly rather than by simple arithmetic.",
+        ],
+        "items": [
+            "Nonlinear drop: Margin of error falls fast at very small sample sizes and then improves more gradually as n grows.",
+            "Diminishing returns: Later gains in precision require disproportionately larger increases in sample size.",
+            "Tiny-sample caution: Very small n values are unstable enough that one or two cases can swing the apparent pattern dramatically.",
+            "Statistical maturity: Understanding the curve keeps readers from over-trusting modest sample increases or over-simplifying what bigger n buys.",
+            "Reader lesson: The shape of uncertainty matters as much as the size of the sample itself.",
+        ],
+    },
+    ("/rational-thought/sample-size-margin-of-error/", "prompt-4"): {
+        "heading": "Sample size and margin of error matter because confident claims can be mathematically underfed.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "When people assess a statistical claim, they often jump straight to the headline result and skip the nutritional label. Sample size and margin of error are part of that label. They tell you how much evidential food the conclusion was actually given before being sent into public conversation.",
+            "A small sample does not automatically make a claim false, and a large sample does not automatically make it wise. But without enough data, apparent patterns can be mostly noise, and without attention to the margin of error, readers can mistake shaky estimates for crisp knowledge.",
+            "This matters in polling, medicine, psychology, education, journalism, and everyday argument. Much public overconfidence is not driven by malice but by statistical illiteracy: people hear a percentage and do not ask how tightly that percentage is pinned down.",
+            "A classic mistake is to hear '52 percent versus 48 percent' and assume a decisive gap, even when the margin of error is large enough that the difference may be statistically muddy. The headline sounds clean; the evidence underneath may not be.",
+            "The practical habit is straightforward. Before trusting the conclusion, ask how many observations produced it, how wide the uncertainty band is, and whether the claimed difference is larger than the statistical blur surrounding it.",
+        ],
+        "items": [
+            "Evidence quantity: Sample size tells you how much observational support sits underneath the conclusion.",
+            "Uncertainty width: Margin of error reminds you that an estimate is often a range rather than a needle-point fact.",
+            "Difference test: Two reported percentages may sound distinct while still overlapping enough to make the contrast weak.",
+            "Public-discipline habit: Readers should learn to ask about n and uncertainty before reacting to the headline claim.",
+            "Reader lesson: Statistical claims become more trustworthy when confidence is tethered to the size and limits of the evidence base.",
+        ],
+    },
+    ("/philosophy-of-language/what-is-etymology/", "prompt-1"): {
+        "heading": "Etymology studies where words came from, how they changed, and what that history can and cannot tell us now.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Etymology is the historical study of words: where they came from, how their forms changed, how their meanings drifted, and what other words they are related to. It is a branch of linguistic history, not a magical shortcut to a word's one true essence.",
+            "That last point matters. People often misuse etymology by assuming that an older meaning automatically rules the present one. But words live through use, and their current meaning may differ sharply from their origin. Etymology helps explain semantic history; it does not by itself settle current disputes about meaning.",
+            "A good definition should therefore connect origin and change. The point is not merely to say that words have roots, but to show that language evolves through sound shifts, borrowing, metaphor, narrowing, broadening, and social drift.",
+            "In that sense, etymology is a study of linguistic biography. A word has ancestors, migrations, altered roles, and sometimes identity crises. Looking at that history makes language feel less like a static inventory and more like a changing ecosystem.",
+            "The reader should come away with a cleaner sense of why etymology is useful: it gives us a historical map of a word's life without pretending that history alone dictates present usage.",
+        ],
+        "items": [
+            "Historical focus: Etymology asks where a word came from, what earlier language it belonged to, and how it traveled into its current form.",
+            "Change over time: Meaning shifts are part of the subject itself, not accidents outside it, because words almost never remain semantically frozen.",
+            "Anti-fallacy warning: A word's origin does not automatically fix its present meaning, political weight, or moral force in current discourse.",
+            "Linguistic payoff: Etymology reveals families of related words, borrowing paths, sound changes, and semantic drift across time.",
+            "Interpretive payoff: It often helps explain why a modern term carries multiple layers of meaning or awkward connotative baggage.",
+            "Reader lesson: Etymology is best used as historical clarification, not as a bludgeon in present-day semantic disputes.",
+        ],
+    },
+    ("/philosophy-of-language/what-is-etymology/", "prompt-2"): {
+        "heading": "Knowing etymology is useful because it sharpens vocabulary, exposes drift, and trains semantic caution.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Understanding etymology has practical advantages because it helps readers see structure where others only see isolated words. Once you notice roots, prefixes, suffixes, and word families, vocabulary stops feeling like a pile of accidents and starts feeling more navigable.",
+            "It also trains caution. Etymology reminds us that meanings shift, split, and accumulate connotations over time. That historical awareness can help prevent sloppy equivalences, false semantic confidence, and the habit of treating a familiar modern sense as though it had always been there.",
+            "In philosophy especially, etymology can help readers track how key terms such as reason, faith, substance, person, or nature arrived at their present burdens. It does not solve the conceptual disputes for us, but it does keep us from entering them historically blind.",
+            "Outside philosophy, the same skill helps in law, science, theology, medicine, and journalism, because many disputes become clearer once you can see which parts of a word's meaning are old inheritance and which are newer social additions.",
+            "It even helps with ordinary reading judgment. People are less likely to be bullied by unfamiliar vocabulary when they can hear the pieces inside it, and less likely to be seduced by pseudo-depth when a grand-sounding word turns out to be recycled roots wearing formal clothes.",
+            "So the value is double: etymology improves comprehension, and it also improves humility about language.",
+        ],
+        "items": [
+            "Vocabulary leverage: Shared roots make unfamiliar words easier to parse, infer, and remember across large families of terms.",
+            "Concept history: Etymology helps readers notice when a term has accumulated new meanings or shed old ones across centuries.",
+            "False-equivalence guard: It can reveal that two apparently similar terms arrived through very different semantic routes and should not be casually merged.",
+            "Interpretive payoff: Historical awareness can make old texts less alien and modern arguments less careless about inherited vocabulary.",
+            "Professional value: Fields dense with Greek and Latin roots reward etymological literacy because it speeds both reading and conceptual orientation.",
+            "Reader lesson: Etymology is useful partly because it deepens understanding and partly because it restrains overconfidence.",
+        ],
+    },
+    ("/philosophy-of-language/what-is-etymology/", "prompt-3"): {
+        "heading": "The history of 'blazer' is a good reminder that word origins are often vivid, social, and a little messy.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The usual story behind blazer traces the word to the bright red jackets associated with the Lady Margaret Boat Club at St John's College, Cambridge, in the nineteenth century. The jackets were striking enough to be described as blazing, and the clothing term appears to have grown from that visual intensity into a broader name for a particular style of jacket.",
+            "What makes the example useful is not just the trivia. It shows how words often arise from social settings, visible habits, and memorable associations rather than from tidy conceptual design. A garment term can begin as club slang and later harden into standard vocabulary.",
+            "It also shows why etymology should be handled with a light but careful touch. Clothing histories, like many word histories, sometimes come with competing anecdotes or imperfect documentation. The historical path can still be illuminating even when every detail is not nailed down with laboratory precision.",
+            "That is part of the charm. Words are often stabilized by repeated use long before scholars finish arguing over every wrinkle in the documentary trail. The history still teaches something important even if it remains a bit untidy.",
+            "So blazer is a nice miniature lesson in etymology: language carries color, class, fashion, and accident inside words that later feel perfectly ordinary.",
+        ],
+        "items": [
+            "Social origin: Words often begin in local institutions, clubs, trades, or subcultures before spreading outward into standard speech.",
+            "Image power: Memorable visual features can help fix a label in communal use more effectively than abstract definitions can.",
+            "Drift into normality: A once-local term can become standard vocabulary after its original context fades almost completely from public memory.",
+            "Method caution: Etymology often illuminates even when the documentary trail is not perfectly neat or singular.",
+            "Historical humility: Word histories are sometimes probabilistic reconstructions rather than perfectly closed cases.",
+            "Reader lesson: Word history is frequently more human and contingent than dictionary definitions make it look.",
+        ],
+    },
+    ("/philosophy-of-language/what-is-etymology/", "prompt-4"): {
+        "heading": "The 'cred' family is useful because one root can illuminate an entire network of belief and trust words.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The Latin root cred, from credere, concerns believing, trusting, or giving credit. Once that root is clear, a large family of English terms suddenly becomes easier to parse: credible, credit, creed, credence, credentials, incredulous, credo, and discredit all orbit the same semantic center.",
+            "That is pedagogically valuable because it shows what etymology can do at scale. A root is not just an isolated historical fact. It is a compression key that unlocks a web of related meanings and helps the reader feel how language grows by branching and recombination.",
+            "It also reveals drift and specialization. Credit can move toward finance and reputation, credence toward degrees of belief, credentials toward trust-signals, and creed toward formal belief statements. The root remains visible, but each descendant acquires its own social task.",
+            "So the 'cred' family is a nice bridge between word history and conceptual analysis: one root, many modern forms, and several different kinds of trust quietly at work.",
+        ],
+        "items": [
+            "Credible: What deserves to be believed or trusted, often because it appears evidentially or socially reliable.",
+            "Credence: A more graded and epistemic term for the degree of confidence one places in a claim.",
+            "Credit: A branch where trust becomes financial, reputational, or institutional rather than purely doxastic.",
+            "Creed: A form in which belief becomes formalized into a publicly shared statement or doctrine.",
+            "Credentials: Signals meant to authorize trust in a person, even before their claims are examined in detail.",
+            "Reader lesson: A root family helps show how one semantic center can diversify into multiple practical and conceptual roles.",
+        ],
+    },
+    ("/philosophy-of-language/what-is-etymology/", "prompt-5"): {
+        "heading": "Greek and Latin roots matter most in fields where vocabulary is dense, technical, and historically layered.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "A strong foundation in Greek and Latin roots is especially valuable in fields whose vocabulary developed through long chains of technical borrowing. Medicine, biology, law, theology, philosophy, political theory, and much of the sciences are obvious examples. In those fields, roots are not ornament. They are part of the operating system of the language.",
+            "That matters because root knowledge speeds orientation. Instead of memorizing every term as an isolated token, the reader begins to infer meaning from parts. New vocabulary becomes less intimidating because it arrives already half-interpreted.",
+            "The value is also defensive. Root awareness helps readers detect when technical language is being used honestly to compress genuine complexity and when it is being used theatrically to create the illusion of depth.",
+            "So the fields that reward root knowledge most are the ones where conceptual precision, historical inheritance, and lexical density all meet.",
+        ],
+        "items": [
+            "Medicine and biology: Greek and Latin roots help decode anatomical, diagnostic, and taxonomic vocabulary at high speed.",
+            "Law and theology: Root awareness clarifies inherited terms whose current use still carries ancient conceptual baggage.",
+            "Philosophy and politics: Many abstract terms become easier to track once the reader can hear the historical pieces inside them.",
+            "Academic reading generally: Root knowledge reduces memorization load by turning unfamiliar terms into partially interpretable structures.",
+            "Reader lesson: Roots matter most wherever vocabulary is technical enough to intimidate and historical enough to mislead the unprepared.",
+        ],
+    },
+    ("/philosophy-of-language/what-is-language/", "prompt-1"): {
+        "heading": "Language is a shared symbolic system for thought, coordination, memory, and social life.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Language is a socially learned system of signs and rules that lets human beings represent things, ask questions, give reasons, preserve memory, coordinate action, and reshape one another's minds. Words matter, but language is larger than vocabulary. It includes grammar, reference, tone, implication, and the background conventions that let utterances do real work.",
+            "A serious definition also needs border cases in view. Gesture, writing, mathematics, code, animal signaling, and ritualized expression all force us to ask what language essentially requires. Is it symbolism, combinatorial structure, open-ended productivity, shared convention, or the capacity to talk about absent and abstract things? Those questions keep the definition honest.",
+            "That is why the answer should not drift into mystical praise of human expression. Language is extraordinary, but its philosophical importance comes from what it lets us do: name, classify, coordinate, deceive, promise, legislate, remember, and imagine.",
+            "It is also a storage technology for culture. Language preserves distinctions, stories, norms, techniques, and arguments across generations. That historical dimension helps explain why language matters so much for both personal cognition and collective life.",
+            "The reader should leave with a cleaner working sense that language is not merely sound or text. It is a norm-governed symbolic practice through which a community makes thought public.",
+        ],
+        "items": [
+            "Shared symbolism: Language depends on publicly learned signs rather than private noises alone, which is why understanding is socially scaffolded.",
+            "Rule structure: Grammar and convention help utterances carry more than isolated labels, allowing complex content to be built from finite means.",
+            "Open-ended use: Human language can generate new meanings, new combinations, and discussion of absent or abstract things.",
+            "Practical power: Language does not only describe; it also coordinates, persuades, commands, comforts, misleads, and binds communities together.",
+            "Cultural storage: Language carries memory, inherited distinctions, and social norms across people and generations.",
+            "Reader lesson: A good definition of language should explain what makes it powerful without turning it into mere poetry about humanity.",
+        ],
+    },
+    ("/philosophy-of-language/what-is-language/", "prompt-3"): {
+        "heading": "Imprecise language becomes dangerous when the stakes are high enough that vagueness stops being harmless compression.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Failing to communicate with precision can be costly because language often guides action before anyone has time to revisit the wording. In technical, legal, medical, political, and military settings, a vague or misleading phrase can distort decisions, spread false confidence, or hide serious disagreement under the appearance of agreement.",
+            "Historical examples vary in type, but they share a structure. Ambiguous engineering communication can hide risk, euphemistic political language can sanitize violence, sloppy medical instructions can endanger patients, and diplomatically fuzzy agreements can let rivals believe they secured different things from the same text.",
+            "The point is not that every utterance must sound like a legal document. Human communication needs ordinary shortcuts. The danger begins when the shortcut is used in a context whose stakes demand more resolution than the language is providing.",
+            "So the deeper lesson is contextual: precision is a virtue in proportion to the cost of misunderstanding. When the consequences are large, verbal looseness stops being casual and starts becoming a structural liability.",
+        ],
+        "items": [
+            "Engineering risk: Imprecise terms can obscure causal danger when a system needs unambiguous technical communication.",
+            "Political euphemism: Soft language can make coercion, death, or injustice sound cleaner than the reality warrants.",
+            "Medical danger: Vague instructions or misunderstood terminology can directly affect diagnosis, treatment, and consent.",
+            "Diplomatic ambiguity: Ambiguous formulations can temporarily preserve peace while quietly storing up future conflict.",
+            "Reader lesson: The right question is not 'is this phrase precise in the abstract?' but 'is it precise enough for what hangs on it here?'",
+        ],
+    },
+    ("/philosophy-of-language/core-concepts-philosophy-of-language/", "prompt-1"): {
+        "heading": "The core concepts of philosophy of language are easiest to learn when they are grouped by the jobs language has to do.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "A useful core-concepts page should not dump thirty terms in alphabetical order and hope the reader survives. The concepts become learnable when they are grouped by function: how words hook onto the world, how sentences carry meaning, how speakers do things with language, and how context changes what an utterance communicates.",
+            "That grouping matters because many of the terms are answers to different questions. Reference and naming ask how language reaches objects. Sense, meaning, and truth ask what content is being carried. Pragmatics and implicature ask what the speaker manages to convey beyond literal wording. Speech acts ask what language does in the world.",
+            "A strong introduction should therefore give the reader a map rather than a heap. The point is to see how the main problems connect, so that later disputes over belief, vagueness, equivocation, and framing do not feel like isolated puzzles.",
+            "Philosophy of language gets easier once the reader can say not only what a term means, but what problem it was invented to solve.",
+            "That is also why this field rewards clustering over memorization. Once the reader sees the families of problems, individual terms stop feeling like random furniture and start feeling like tools in a workshop.",
+            "In practice, that means a reader should be able to hear a dispute and ask: is this really about reference, about implicature, about vagueness, about framing, or about what speech act is being performed? The glossary becomes useful the moment it improves that kind of discrimination.",
+        ],
+        "items": [
+            "Reference cluster: Terms like reference, denotation, naming, and indexicals ask how language gets traction on particular things in the world.",
+            "Meaning cluster: Terms like sense, proposition, compositionality, ambiguity, and synonymy ask how content is built, layered, and understood.",
+            "Truth cluster: Terms like truth conditions, analyticity, entailment, and contradiction ask when an utterance counts as correct, necessary, or inconsistent.",
+            "Use cluster: Terms like pragmatics, implicature, presupposition, and context-sensitivity ask how speakers mean more than their literal words encode.",
+            "Action cluster: Terms like speech acts, assertion, promise, command, and performatives ask what we do by speaking rather than merely what we say.",
+            "Reader lesson: The best glossary teaches relationships among concepts, not just isolated definitions with tidy edges.",
+        ],
+    },
+    ("/philosophy-of-language/what-is-language/", "prompt-4"): {
+        "heading": "Strategic vagueness can preserve harmony and flexibility, but it also risks obscuring responsibility.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "There can be real advantages to a more indirect or context-sensitive use of language. In some communicative settings, including ones often discussed through Japanese examples, vagueness can soften conflict, leave room for face-saving, avoid premature confrontation, and preserve group harmony where bluntness would be socially costly.",
+            "That does not mean vagueness is automatically superior, or that whole cultures should be reduced to one communication stereotype. The useful philosophical point is narrower: sometimes precision is not the only virtue. Human beings also use language to manage status, relationships, hierarchy, and uncertainty.",
+            "Still, the costs are real. Vagueness can hide disagreement, diffuse accountability, make consent harder to assess, and let institutions evade responsibility behind polite indirection. A communication style that protects harmony in one setting may create confusion or plausible deniability in another.",
+            "So the right lesson is not 'vagueness good' or 'vagueness bad.' It is that linguistic precision and social tact are different goods, and real communicative wisdom often involves knowing which one the moment most needs.",
+        ],
+        "items": [
+            "Harmony function: Indirectness can reduce unnecessary friction and preserve working relationships.",
+            "Flexibility function: Vagueness can leave room for renegotiation when direct commitment would be premature or dangerous.",
+            "Accountability risk: The same vagueness can make responsibility, refusal, or consent harder to track clearly.",
+            "Context rule: A style that works well in one social ecology may become evasive or frustrating in another.",
+            "Reader lesson: Philosophical maturity about language includes seeing that precision and tact sometimes pull in different directions.",
+        ],
+    },
+    ("/philosophy-of-language/what-is-language/", "prompt-5"): {
+        "heading": "AI struggles with language because meaning depends on context, world knowledge, and human purposes, not words alone.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Building AIs that understand natural language is hard because human meaning is radically context-loaded. The same sentence can inform, joke, threaten, reassure, flirt, deflect, or mislead depending on speaker, setting, shared knowledge, and unstated goals. Words alone rarely carry the whole burden.",
+            "Ambiguity is only the beginning. Real understanding also requires reference-tracking, background knowledge, pragmatic inference, sensitivity to tone, and the ability to connect language with the world it is about. Human beings do this so quickly that we often forget how much invisible work is involved.",
+            "That is why language technology improves impressively and still keeps hitting strange limits. Systems can model patterns in text very well while still struggling with sarcasm, implicit norms, underspecified reference, domain transfer, or the difference between literal content and intended force.",
+            "So the deep challenge is not just getting machines to process sentences. It is getting them to participate in the larger human practice in which sentences acquire meaning through use, context, and shared life.",
+        ],
+        "items": [
+            "Context burden: Natural language depends heavily on what is left unsaid but mutually understood.",
+            "Pragmatic challenge: Understanding often requires inferring intent, relevance, tone, and conversational purpose.",
+            "World-grounding problem: Many utterances make sense only if language is connected to objects, events, and social realities outside the text.",
+            "Failure pattern: AI can look fluent while still misunderstanding reference, implication, or practical force.",
+            "Reader lesson: The hard part of natural-language understanding is not syntax alone but participation in meaning-laden human practice.",
+        ],
+    },
+    ("/philosophy-of-language/core-concepts-philosophy-of-language/", "prompt-2"): {
+        "heading": "Key language concepts become memorable when each one is tied to the confusion it prevents.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Explanations of core concepts should do more than restate dictionary glosses. Each concept earns its place because it prevents a distinct kind of confusion: mixing speaker meaning with sentence meaning, confusing naming with describing, treating implication as entailment, or assuming literal content exhausts communication.",
+            "That is why the page should sound more diagnostic than ceremonial. A reader should be able to use the concepts to sort real disputes. What looked like a disagreement about truth may turn out to be ambiguity. What looked like contradiction may turn out to be context shift. What looked like dishonesty may turn out to be implicature, presupposition, or framing.",
+            "A good explanation page therefore turns terms into tools. If the reader cannot tell what intellectual mistake a concept helps prevent, the explanation has not yet earned its keep.",
+            "The point of the branch is not to accumulate vocabulary. It is to improve semantic discrimination.",
+        ],
+        "items": [
+            "Reference prevents drift: It helps the reader ask what exactly a term is picking out rather than letting the discussion float free of its target.",
+            "Ambiguity prevents fake agreement: It reveals when the same sentence shape is carrying more than one meaning across a dispute.",
+            "Pragmatics prevents literalism: It shows why speakers often communicate more than the bare sentence content.",
+            "Speech acts prevent flattening: They remind us that an utterance can assert, warn, promise, accuse, or invite, not just describe.",
+            "Vagueness prevents false precision: It helps explain why some disputes persist because the term itself has fuzzy boundaries.",
+            "Reader lesson: Concepts in this field matter because they catch different ways language can quietly mislead thought.",
+        ],
+    },
+    ("/philosophy-of-language/core-concepts-philosophy-of-language/", "prompt-4"): {
+        "heading": "New areas in philosophy of language are emerging wherever meaning meets technology, identity, and power.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Recent work in philosophy of language has expanded because language now operates inside new media, new technologies, and more self-conscious debates about identity, harm, and power. The field no longer lives only in old disputes about names, descriptions, and truth conditions, important as those remain.",
+            "What is new is not that the old problems disappeared, but that they now show up in altered environments. Online discourse changes context and audience collapse. AI raises questions about interpretation, reference, authorship, and apparent understanding. Political language intensifies questions about framing, euphemism, slur reclamation, propaganda, and strategic vagueness.",
+            "A good page should therefore present newer areas as extensions of the classical problems rather than as fashionable add-ons. The old question of meaning now has fresh laboratories.",
+            "That is pedagogically helpful because it keeps the branch alive. Philosophy of language is not a museum of clever distinctions; it is a live study of how words shape collective life.",
+        ],
+        "items": [
+            "AI and language: Questions about apparent understanding, reference-tracking, pragmatics, and authorship now matter in machine-mediated communication.",
+            "Digital discourse: Social media intensifies problems of context collapse, clipped framing, virality, and semantic distortion at scale.",
+            "Identity language: Disputes over labels, reclamation, recognition, and misnaming show how semantics and social power intertwine.",
+            "Propaganda and framing: Political language makes vivid how euphemism, connotation, and narrative packaging can steer judgment before argument begins.",
+            "Testimony and trust: New media environments force renewed questions about credibility, uptake, and the linguistic management of authority.",
+            "Reader lesson: The field grows wherever changing conditions create new ways for meaning to succeed, fail, or be manipulated.",
+        ],
+    },
+    ("/philosophy-of-language/gradient-concepts-and-binary-terms/", "prompt-1"): {
+        "heading": "Language often compresses gradients into bins, and that compression is useful until it starts hiding the reality.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Many concepts are intrinsically gradual even though our ordinary language names them in low-resolution chunks. Belief, expertise, health, poverty, strange, adult, safe, tall, and city do not usually arrive in nature with neat edges already painted on them. Human language imposes bins because bins are fast, practical, and socially portable.",
+            "That convenience has a cost. Once a gradient concept is forced into a binary or coarse-grained label, speakers can forget that the underlying reality is continuous, multi-dimensional, or threshold-relative. The label starts to look more precise than the world that produced it.",
+            "The point is not that binary terms are always bad. Many contexts need them for decisions, laws, and everyday coordination. The point is that low-resolution language can distort thought if we forget that it is a compression tool rather than a mirror of ultimate structure.",
+            "A strong page should therefore train the reader to ask two questions at once: what work is the coarse label doing, and what nuance is it suppressing?",
+        ],
+        "items": [
+            "Belief: Ordinary language often treats belief as yes-or-no even when confidence is clearly graded across cases.",
+            "Expert: The term sounds categorical, yet expertise varies by domain, depth, reliability, and current relevance.",
+            "City: What counts as a city often depends on thresholds, functions, legal conventions, and cultural expectations rather than one clean essence.",
+            "Safe: People speak as if something is simply safe or unsafe, even though risk is usually comparative, probabilistic, and context-sensitive.",
+            "Strange: The word sounds descriptive, but it often compresses unfamiliarity, norm deviation, discomfort, and surprise into one blurry reaction label.",
+            "Reader lesson: Binary terms are often useful summaries, but they become intellectually dangerous when treated as higher-resolution than the reality itself.",
+        ],
+    },
+    ("/philosophy-of-language/gradient-concepts-and-binary-terms/", "prompt-2"): {
+        "heading": "Additional gradient terms matter because the distortion is widespread, not limited to a few philosophical favorites.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Once you start looking, the pattern appears almost everywhere. We constantly use crisp words for fuzzy terrains because conversation needs speed. Honest, violent, mature, poor, addictive, intelligent, radical, healthy, local, and free all compress realities that come in degrees, mixtures, or dimensions.",
+            "That does not make the words useless. It means readers should stop imagining that a familiar label has already solved the classification problem. Often the label only postpones the harder work by making a gradient look settled.",
+            "The educational payoff is broad. The reader starts to see that many public arguments are not really about the world alone, but about where on a gradient someone wants to place a threshold and how rhetorically convenient that threshold happens to be.",
+            "A good page should therefore give the reader enough examples to make the pattern stick as a general habit of attention.",
+        ],
+        "items": [
+            "Healthy: A person can be healthier or less healthy across multiple metrics without fitting a simple on-off medical story.",
+            "Radical: The term often mixes intensity, novelty, risk, and moral suspicion into one low-resolution label.",
+            "Free: Freedom can vary by domain, constraint type, resource level, and social condition rather than coming as one indivisible possession.",
+            "Addictive: Behaviors can occupy a long spectrum of dependence, compulsion, and cost before crossing formal diagnostic thresholds.",
+            "Mature: The word compresses age, self-control, perspective, social fit, and responsibility into a single evaluative badge.",
+            "Reader lesson: The more familiar a coarse term feels, the easier it becomes to forget how much unresolved complexity it is carrying.",
+        ],
+    },
+    ("/philosophy-of-language/gradient-concepts-and-binary-terms/", "prompt-3"): {
+        "heading": "Low-resolution labels cause real trouble when policy, law, or media treat a gradient as though it had a clean edge.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The danger is not merely philosophical fussiness. Real-life trouble appears when institutions act as though a gradient concept had a perfectly obvious cutoff. Legal age categories, diagnostic thresholds, intelligence labels, income brackets, terrorism designations, and media labels like extremist or child can all reshape judgment by hiding the continuum beneath the chosen word.",
+            "Sometimes the low-resolution term is necessary for administration. Law needs thresholds. Medicine needs categories. Public policy cannot always speak in essays. But harm appears when the threshold is treated as though nature itself had drawn it, or when the coarse label is rhetorically exploited to smuggle in moral or emotional force.",
+            "That is why these cases matter. The wrong label can intensify punishment, reduce sympathy, distort public fear, erase borderline realities, or falsely dignify a crude classification with the aura of obviousness.",
+            "A good page should therefore keep both truths in view: bins are often operationally necessary, and bins can still distort the phenomenon they are meant to manage.",
+        ],
+        "items": [
+            "Legal framing: Terms like child, adult, minor, or violent offender can alter perceived culpability by making one slice of a continuum feel morally total.",
+            "Medical thresholds: Diagnostic cutoffs help treatment decisions, but they can also hide the graded character of symptoms and severity.",
+            "Income categories: Poor, middle class, and wealthy can flatten a complex distribution into rhetorically potent but low-resolution boxes.",
+            "Media simplification: Words like extremist or expert can create instant audience judgment while suppressing the underlying spectrum.",
+            "Reader lesson: Real trouble begins when a pragmatic label is mistaken for the full structure of the thing labeled.",
+        ],
+    },
+    ("/philosophy-of-language/gradient-concepts-and-binary-terms/", "prompt-4"): {
+        "heading": "The right level of linguistic resolution depends on stakes, speed, and how much distortion the simplification introduces.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Sometimes a binary term is exactly what the moment needs. If a fire alarm is sounding, 'safe' versus 'unsafe' may be good enough. In other settings, the same term may be far too coarse. A medical consent form, policy memo, or philosophical analysis may need far more resolution because the stakes of misunderstanding are higher.",
+            "The best rule is not 'always speak more precisely.' Hyper-precision can also confuse, slow action, or create false expertise theater. The question is whether the simplification preserves the judgment the context actually needs or whether it hides too much of the reality under discussion.",
+            "That means three things matter: the cost of error, the need for speed, and the dimensionality of the concept. If the cost of misclassification is high, the context is reflective rather than urgent, and the concept has many relevant dimensions, higher-resolution language is usually the wiser choice.",
+            "A mature reader therefore asks not only whether a term is accurate, but whether it is accurate enough for the job at hand.",
+        ],
+        "items": [
+            "High speed, low nuance: Emergencies and routine coordination often justify coarse language because action matters more than conceptual finesse.",
+            "High stakes, high nuance: Law, medicine, philosophy, and policy often need richer phrasing because crude labels can misclassify in consequential ways.",
+            "Error-cost test: The more expensive the mistake, the less comfortable we should be with low-resolution vocabulary.",
+            "Dimensionality test: The more dimensions a concept contains, the more likely a binary label will suppress important structure.",
+            "Reader lesson: Good language use is not maximal precision everywhere; it is fitting the resolution of the term to the demands of the context.",
+        ],
+    },
+    ("/philosophy-of-language/gradient-concepts-and-binary-terms/", "prompt-5"): {
+        "heading": "Media loves low-resolution language because coarse labels are vivid, moralized, and fast.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The media often prefers low-resolution labels because they are easy to headline, emotionally sticky, and quick to process. A coarse term can turn a complex gradient into a clean conflict story: genius or fraud, safe or dangerous, child or adult, expert or hack, radical or moderate.",
+            "That compression helps capture attention, but it also steers interpretation before the details arrive. A reader may inherit the frame long before asking whether the underlying concept was actually continuous, multi-factorial, or threshold-dependent.",
+            "The most important clue is not merely simplification, since all journalism simplifies. The clue is simplification plus rhetorical loading: a binning term is chosen in a way that maximizes moral reaction while minimizing the reader's awareness of the suppressed gradient.",
+            "A good page should therefore teach readers to look for framing signals, threshold games, and suspiciously tidy labels attached to messy realities.",
+        ],
+        "items": [
+            "Headline magnetism: Coarse labels are easier to package into conflict-driven, emotionally legible titles.",
+            "Moral loading: The chosen term often carries connotations that push sympathy or suspicion before argument begins.",
+            "Threshold concealment: The report rarely explains where the category boundary came from or why that cutoff was chosen.",
+            "Dimensional collapse: Several relevant variables are fused into one dramatic label that feels cleaner than the underlying reality.",
+            "Reader lesson: When a headline sounds unusually crisp about a messy human reality, the resolution is probably doing rhetorical work.",
+        ],
+    },
+    ("/philosophy-of-language/connotative-equivocation/", "prompt-1"): {
+        "heading": "Connotative equivocation happens when a speaker swaps near-synonyms so the emotional freight changes while the argument pretends to stay the same.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Connotative equivocation is a rhetorical tactic in which one term is quietly replaced by another with similar denotation but different connotation. The audience is encouraged to feel that the subject itself has changed, even though much of the factual content remains similar. The maneuver works because emotional shading enters judgment before the listener pauses to inspect the semantic shift.",
+            "This tactic is common in politics, law, media, religion, and culture-war discourse. Freedom fighter becomes terrorist, tax relief replaces tax reduction, unborn child replaces fetus, regime replaces government, interrogation becomes torture or enhanced questioning depending on the desired moral load. The words do not merely describe; they steer.",
+            "What makes the tactic dishonorable is not simply that connotations exist. Connotations are unavoidable. The problem is the pretense of semantic continuity while the persuasive force quietly changes. The audience is nudged into a new evaluative posture without being asked to justify the shift.",
+            "A good page should therefore teach the reader to hear not just what is being named, but what attitude the renamed term is trying to induce.",
+        ],
+        "items": [
+            "Semantic swap: The denotation stays near enough for the move to seem innocent while the connotation shifts the emotional frame.",
+            "Political use: Competing sides often rename the same event or actor in order to pre-load sympathy, disgust, innocence, or threat.",
+            "Interpretive danger: Audiences may treat the emotional shift as evidence rather than noticing it as framing.",
+            "Not all connotation is abuse: The abuse begins when the shift is used to smuggle judgment while pretending nothing important changed.",
+            "Reader lesson: When a debate turns on a near-synonym, ask what new emotional cargo came aboard with the replacement term.",
+        ],
+    },
+    ("/philosophy-of-language/connotative-equivocation/", "prompt-2"): {
+        "heading": "The 'young man' versus 'child' contrast matters because close synonyms can tilt blame, sympathy, and perceived agency without changing the date of birth.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Legal and media discourse often reveals the tactic in especially naked form. A defendant may be called a child to stress vulnerability, immaturity, or the unfairness of harsh judgment; the same person may be called a young man to stress agency, threat, or adult-like responsibility. The biological facts do not change, but the connotative lighting does.",
+            "This matters because jurors, readers, and viewers are not semantically inert machines. The framing term can influence what level of culpability feels plausible before the evidence is fully weighed. A word that sounds tender or menacing may do argumentative work that no explicit premise ever stated.",
+            "The lesson is not that one term is always manipulative and the other always honest. Sometimes one really is contextually better. The problem arises when the choice is driven mainly by the desired moral atmosphere rather than by a disciplined attempt to describe the case fairly.",
+            "A good reader should therefore become suspicious when the framing term seems carefully chosen to color responsibility, innocence, or danger while pretending merely to report.",
+        ],
+        "items": [
+            "Agency shading: Terms can make the same person sound more responsible or more dependent without introducing new facts.",
+            "Sympathy steering: Framing changes how much tenderness, fear, or indignation the audience feels before formal reasoning begins.",
+            "Context sensitivity: In some cases one term may genuinely fit better, but the fit should be argued rather than smuggled in rhetorically.",
+            "Courtroom relevance: Word choice can affect how culpability, maturity, and proportional response are intuitively staged for an audience.",
+            "Reader lesson: Near-synonyms become suspicious when they seem designed to preload the verdict rather than clarify the person.",
+        ],
+    },
+    ("/philosophy-of-language/connotative-equivocation/", "prompt-3"): {
+        "heading": "The right response is not panic but disciplined resistance: slow the framing move down and make it show its work.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "We should not respond to these tactics with melodrama, since connotation is part of ordinary language. The better response is disciplined resistance. Slow the exchange down. Ask why one term was chosen over the neighboring term, what emotional coloring the choice introduces, and whether the framing is earning its evaluative force or merely borrowing it.",
+            "That resistance should be firm rather than naive. People who use connotative swaps manipulatively are often trying to win before argument starts. Letting the shift pass unexamined gives the rhetoric a free victory. But overreacting to every connotation can also become a kind of semantic paranoia.",
+            "So the best posture is alert, charitable, and precise. Notice the frame, name the shift, test whether the replacement term adds evidence or only atmosphere, and if necessary restate the issue in more neutral language before continuing.",
+            "The broader civic lesson is that semantic hygiene is part of intellectual self-defense. A culture that cannot hear framing moves clearly is easy to herd.",
+        ],
+        "items": [
+            "Pause the swap: Ask what changed when the new term entered, beyond the bare subject being discussed.",
+            "Neutral restatement: Rephrase the issue in less loaded terms to see whether the argument still feels as strong.",
+            "Evidence test: Distinguish between added information and added atmosphere.",
+            "Measured response: Do not deny that connotations matter; insist that they not do hidden argumentative labor for free.",
+            "Reader lesson: The healthiest response to framing manipulation is semantic clarity, not mere indignation.",
+        ],
+    },
+    ("/philosophy-of-language/thought-language/", "prompt-1"): {
+        "heading": "The strongest version of the page says language and thought are deeply connected without being simply identical.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "A careful assessment of the language-and-thought material should resist two easy extremes. One extreme says thought is basically impossible without language. The other says language is merely a detachable communication tool with little structural effect on cognition. The best evidence suggests a more mixed picture: some forms of thought clearly occur without language, while language still scaffolds, extends, and reorganizes many higher-level cognitive tasks.",
+            "That makes the page fairly plausible if it is read modestly. Studies of aphasia, nonverbal reasoning, infant cognition, animal problem-solving, and perceptual thought all support the idea that cognition is not exhausted by language. At the same time, verbal labeling, inner speech, narrative framing, conceptual refinement, and cultural transmission make it hard to pretend language is incidental to mature human thought.",
+            "The testability question also matters. Claims of total identity between language and thought are too strong for the evidence, but claims of complete independence are too blunt as well. The most defensible position is that language is neither the whole of thought nor a harmless wrapper around it. It is one of thought's most powerful instruments and reorganizers.",
+            "So the reader should leave with a lower-drama but clearer conclusion: thought outruns language in some domains, yet language deeply shapes how humans stabilize, communicate, and extend thought across time and community.",
+        ],
+        "items": [
+            "Against identity: Nonverbal reasoning and impaired-language cases suggest that not all cognition depends on full linguistic competence.",
+            "Against triviality: Inner speech, conceptual labeling, and socially shared vocabulary clearly alter how many humans classify and manage experience.",
+            "Evidence balance: The empirical picture supports interaction and partial dependence more readily than total fusion or total separation.",
+            "Testability virtue: Stronger claims should be preferred only where they survive cases involving aphasia, infancy, animals, and cross-linguistic variation.",
+            "Reader lesson: The most defensible view is usually that language and thought are entangled without being reducible to one another.",
+        ],
+    },
+    ("/rational-thought/sample-size-margin-of-error/", "prompt-3"): {
+        "heading": "An n of 3 is a rumor, an n of 10 is a hint, and an n of 100 starts to become evidence.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Imagine you want to know whether students at a school actually like the cafeteria food. If you ask 3 students, you may get a vivid answer, but not a trustworthy picture. One picky eater, one super-fan, or one joke answer can completely distort what you think the school feels. With an n of 3, confidence is fragile because each person carries enormous weight.",
+            "With 10 students, things get better. You can start noticing whether a pattern is emerging, but one or two unusual responses still have a lot of power. An n of 10 is often enough for a hint, not enough for swagger.",
+            "With 100 students, the picture usually becomes much steadier. Weird cases still exist, but they have less power to hijack the conclusion. The estimate is still not perfect, yet it begins to feel more like evidence than like gossip.",
+            "That is the intuitive lesson teenagers can carry into adult life: larger samples do not guarantee truth, but they do make it harder for randomness and idiosyncrasy to impersonate reality.",
+        ],
+        "items": [
+            "n of 3: A tiny sample is extremely vulnerable to quirky individuals and random luck.",
+            "n of 10: A small sample can suggest a pattern, but the uncertainty is still large enough to demand caution.",
+            "n of 100: A larger sample usually gives a more stable picture because each individual answer carries less weight.",
+            "Confidence growth: Bigger samples generally reduce volatility, even though they never remove uncertainty completely.",
+            "Reader lesson: The question is not just 'do we have data?' but 'do we have enough data to stop confusing noise with pattern?'",
+        ],
+    },
+    ("/philosophy-of-science/observable-regularity/", "prompt-1"): {
+        "heading": "Observed regularity gives science something to work with long before anyone explains why the regularity exists.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The empirical point should come first. Scientists do not need a final metaphysical explanation for regularity before they can notice stable patterns and start reasoning from them. Repeated observations of recurrence, constraint, and predictability already provide the raw material for law-seeking, measurement, and inductive confidence.",
+            "That matters because the page is really about two different questions that people often fuse together. One question is epistemic: do we in fact observe enough regularity to justify scientific inquiry? The other is metaphysical or theological: why is the universe regular at all? The first question can be answered by observation before the second is settled.",
+            "You can see the point without any grand theory. A child notices that unsupported things fall, mornings return, and fire burns. A laboratory later refines those impressions into controlled measurement, but the first foothold is ordinary pattern-recognition. If the world were radically erratic, experiment would be theater rather than inquiry.",
+            "A strong section should therefore keep the order straight. Regularity is first encountered, then modeled, then perhaps explained more deeply. The explanatory story comes after the empirical grip, not before it.",
+            "That modest claim is already substantial. Science does not begin with omniscience about why order exists. It begins with the soberer discovery that reality is stable enough to reward disciplined attention.",
+        ],
+        "items": [
+            "Empirical priority: Science begins from noticed patterns, not from a completed theory of why pattern exists.",
+            "Ordinary foothold: Before equations and metaphysics, common life already reveals recurrence strongly enough to make prediction and correction possible.",
+            "Inductive foothold: Repeated regularities justify provisional expectation even before ultimate explanation arrives.",
+            "Question separation: 'Do we observe regularity?' is not the same as 'What grounds regularity?'",
+            "Methodological modesty: Inquiry needs enough order to work with, not a final story about why order must be there.",
+            "Reader lesson: Explanation of order should not be confused with the evidential fact of order.",
+        ],
+    },
+    ("/philosophy-of-science/observable-regularity/", "prompt-2"): {
+        "heading": "A revelation-based explanation of order is a further hypothesis, not the observational basis of science itself.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The divine-revelation argument tries to move from the fact of regularity to a specific grounding story about why regularity should be trusted. That move may be philosophically interesting, but it is not what science needs in order to begin. Science can proceed from the observation that regularities are there without first endorsing any one theological account of their source.",
+            "This is where many discussions blur two levels. A revelation story might claim to underwrite confidence in order, but the actual scientific practice still depends on publicly accessible patterns, repeatability, and predictive success. Revelation does not replace the evidential role of regularity; at most it offers one interpretation of why regularity exists.",
+            "Put more bluntly, revelation may function for some thinkers as a permission slip for trusting order, but science does not ask the laboratory to verify scripture before it verifies a pattern. If the regularity is public, the inquiry is public.",
+            "That matters because otherwise theology gets mistaken for a prerequisite of method. The cleaner view is that revelation, if offered, belongs at the level of interpreting order, not at the level of first contact with order.",
+            "A good page should therefore show why the revelation move is optional rather than foundational from the standpoint of scientific method.",
+        ],
+        "items": [
+            "Methodological point: Scientific inquiry relies on observed recurrence, testability, and revision, not on prior theological assent.",
+            "Public checkability: A scientific pattern has to be inspectable by people who do not share the same sacred text or metaphysical commitments.",
+            "Grounding distinction: A metaphysical explanation of order is different from the practical basis for treating order as scientifically usable.",
+            "Theological option: Revelation may be proposed as one account among others, but it is not built into the empirical method itself.",
+            "Reader lesson: Scientific trust in regularity does not stand or fall with a divine explanation of regularity.",
+        ],
+    },
+    ("/philosophy-of-science/observable-regularity/", "prompt-3"): {
+        "heading": "The Adam story helps only if it shows how order can be noticed before it is explained.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The fictional Adam narrative can be useful because it strips away inherited vocabulary and asks what a first observer would actually encounter. Adam does not begin with laws of nature, probability theory, or a theology of order. He begins with recurrence: day and night, hunger and satisfaction, falling and resistance, seasons and return.",
+            "That matters because it shows how trust in order can begin pre-theoretically. One need not solve metaphysics before noticing that reality is not pure chaos. The first lesson is not 'here is the explanation of regularity' but 'things keep happening in patterned ways.'",
+            "From there, curiosity becomes possible. Naming, comparing, predicting, and eventually theorizing all grow out of the simpler discovery that the world seems intelligible enough to learn from. The narrative is doing its best work when it dramatizes that sequence clearly.",
+            "Used that way, the Adam story is not decorative myth. It is a way of making the epistemic order vivid: encounter, pattern, expectation, then explanation.",
+        ],
+        "items": [
+            "First contact: The earliest encounter with order is practical before it is philosophical or theological.",
+            "Pattern before theory: Repetition is noticed before it is translated into formal law-like language.",
+            "Pedagogical value: The story helps the reader imagine what it would be like to discover regularity without borrowing later scientific vocabulary.",
+            "Epistemic sequence: Trust begins with repeated contact, then grows into expectation, and only later seeks deeper explanation.",
+            "Reader lesson: The narrative is helpful only if it clarifies how science gets its first foothold in an orderly world.",
+        ],
+    },
+    ("/philosophy-of-science/what-are-pseudosciences/", "prompt-1"): {
+        "heading": "A pseudoscience borrows the posture of science while resisting the disciplines that make science self-correcting.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "A pseudoscience is not merely a false theory. Science itself contains false theories, failed hypotheses, and tentative models. What marks pseudoscience is the imitation of scientific authority without the corresponding willingness to expose claims to rigorous testing, disconfirmation, revision, and methodological discipline.",
+            "That is why the concept matters. The issue is not simply error but error-management. A pseudoscience often preserves confidence by selective anecdotes, immunity to falsification, vague predictions, moving goalposts, or the packaging of dissent as persecution rather than as normal scrutiny.",
+            "A real science can be badly wrong for a long time and still remain science because it has procedures for embarrassment. A pseudoscience treats embarrassment as a public-relations problem. Criticism becomes something to neutralize, not a possible path to truth.",
+            "That distinction keeps the page from turning 'pseudoscience' into a lazy sneer. Astrology, phrenology, miracle-cure industries, and similar cases are instructive not merely because their claims are weak, but because weakness is protected by performance, authority signals, and selective confirmation.",
+            "A good definition should therefore focus on habits of inquiry rather than on social prestige alone. Pseudoscience looks scientific from the outside while quietly refusing the costs of being scientific on the inside.",
+            "The contrast is not science versus error. It is accountable error versus protected error.",
+        ],
+        "items": [
+            "Surface mimicry: Scientific vocabulary, charts, expert posture, or technical jargon may be present even where real discipline is absent.",
+            "Testing weakness: Claims are not exposed to serious disconfirmation in a way that could genuinely endanger them.",
+            "Revision weakness: Negative results rarely produce real theory change; excuses multiply faster than corrections.",
+            "Authority theater: Credentials, vibes, and confident presentation can substitute for transparent method.",
+            "Reader lesson: The difference lies not only in what is claimed, but in how the claim is handled under pressure.",
+        ],
+    },
+    ("/philosophy-of-science/what-are-pseudosciences/", "prompt-2"): {
+        "heading": "Lists of pseudosciences become useful only when each case is tied to a specific methodological failure.",
+        "replace_paragraphs": True,
+        "paragraphs": [
+            "An extensive list can help, but only if it does more than name dubious fields. The educational value lies in showing what each case gets wrong methodologically: lack of falsifiability, cherry-picked evidence, absent mechanism, vague prediction, immunizing strategies, or refusal to update under repeated failure.",
+            "That matters because the concept of pseudoscience is often misused as a sneer word. A rigorous page should teach readers to diagnose the failure mode rather than simply inherit a blacklist. Otherwise the category becomes tribal rather than analytical.",
+            "The page should therefore make each example answer a common question: what, exactly, prevents this field from behaving like a responsible science?",
+        ],
+        "items": [
+            "Diagnostic use: Each example should illustrate a recognizable methodological defect.",
+            "Anti-tribal safeguard: 'Pseudoscience' should not become a badge for disliked views without analysis.",
+            "Comparative clarity: Some fields fail mainly through testing weakness, others through vague prediction, others through insulation from criticism.",
+            "Reader lesson: The list matters because it trains classification by method, not by mood.",
+        ],
+    },
+    ("/philosophy-of-science/what-are-pseudosciences/", "prompt-3"): {
+        "heading": "A field stops being pseudoscientific only when it starts risking failure in public and updating when failure arrives.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Some pseudosciences could, in principle, move toward real science. But they would have to surrender the very habits that often keep them attractive: vagueness, immunizing excuses, selective success stories, and identity-protecting rhetoric.",
+            "The first step would be operational clarity. The central terms would need stable definitions, the predictions would need to be precise enough to fail, and negative results would have to count as information rather than as persecution or misunderstanding.",
+            "The next step would be institutional. Independent replication, transparent methods, ordinary peer scrutiny, and a visible willingness to abandon cherished claims would have to replace guru culture, testimonial theater, and moving goalposts.",
+            "So the point is not that every stigmatized field is doomed forever. The point is that science is not a costume. A field becomes scientific by accepting public vulnerability.",
+        ],
+        "items": [
+            "Definition discipline: Terms must become precise enough that different investigators can test the same claim rather than adjacent feelings.",
+            "Predictive risk: The field must make forecasts that could actually fail in front of unfriendly evidence.",
+            "Revision norm: Negative results need to produce real updating rather than fresh insulation strategies.",
+            "Institutional humility: Transparent data, outside scrutiny, and replication matter more than charismatic defenders.",
+            "Reader lesson: A pseudoscience becomes more scientific by changing its method, not by demanding more respect.",
+        ],
+    },
+    ("/philosophy-of-science/what-are-pseudosciences/", "prompt-4"): {
+        "heading": "Pseudosciences hook people by offering meaning, certainty, and explanatory drama at low evidential cost.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The attraction of pseudoscience is not mainly that people are stupid. Pseudosciences often offer what human beings naturally want: hidden patterns, personal relevance, identity, certainty, hope, control, and the thrill of possessing a deeper story than the ordinary world seems to offer.",
+            "That is why debunking by insult works so badly. The hooks are emotional, narrative, and social as much as evidential. A field may survive because it flatters agency, reduces ambiguity, or gives believers the pleasant sense that they have escaped the shallowness of mainstream understanding.",
+            "Many pseudosciences also offer an identity script: you are one of the few who can see past the official story. That outsider glamour can be more emotionally rewarding than the slower, humbler satisfactions of careful science.",
+            "Once identity attaches to the theory, criticism feels like attack. That is one reason bad ideas can survive enormous evidential pressure.",
+            "A good page should therefore teach the reader to see pseudoscience not just as bad method, but as psychologically and culturally sticky bad method.",
+        ],
+        "items": [
+            "Pattern hunger: Humans like explanations that make the world feel intelligible and connected, even when the connections are sloppy.",
+            "Personal salience: Systems that make the individual feel specially seen or cosmically located are especially gripping.",
+            "Certainty reward: Ambiguity is costly; pseudoscience often sells closure faster than science can.",
+            "Identity reward: Being part of the group that 'sees through the lie' can feel more satisfying than being patiently uncertain.",
+            "Reader lesson: The hooks matter because method alone does not explain why bad method stays popular.",
+        ],
+    },
+    ("/philosophy-of-science/the-value-of-surveys/", "prompt-1"): {
+        "heading": "Surveys earn their value when the truth is spread across too many lives for anecdote to see.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Surveys are especially valuable when the fact in question is real but distributed. No single conversation can tell you the prevalence of corruption, loneliness, religious switching, workplace harassment, hidden illness, or victimization that never reaches official reporting. A well-built survey can.",
+            "That is why surveys often matter most in cases where intuition misleads. Institutions may not want the pattern exposed, and ordinary observers usually only see their own local circle. Surveys widen the lens and can make a buried social fact visible.",
+            "Good examples follow this shape. Public-health surveys reveal disease patterns, victimization surveys uncover harms omitted from police data, and corruption or trust surveys can expose institutional rot that official spokespeople would never volunteer.",
+            "So the value of surveys is not that numbers feel fancy. The value is that disciplined aggregation can make social reality visible where anecdote, ideology, and wishful thinking would otherwise keep it blurred.",
+        ],
+        "items": [
+            "Distributed truth: Some realities are too spread out to be seen clearly through personal experience alone.",
+            "Institutional pressure: Surveys can expose facts that powerful organizations have little incentive to advertise.",
+            "Corrective function: Good survey work often checks the distortions produced by anecdote, prestige, and local sampling.",
+            "Visibility gain: A pattern can be socially important long before it becomes obvious in everyday conversation.",
+            "Reader lesson: Surveys matter most when they turn hidden recurrence into public evidence.",
+        ],
+    },
+    ("/philosophy-of-science/the-value-of-surveys/", "prompt-2"): {
+        "heading": "A survey is only as trustworthy as its defenses against the many ways bias can enter.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Surveys are valuable because they can reveal patterns no anecdote can. But that value is fragile. Bias can creep in through question wording, sampling methods, response options, order effects, interviewer influence, nonresponse patterns, social desirability pressure, timing, coding choices, and the interpretation of results after collection.",
+            "That is why a good survey page should feel almost suspicious. The right attitude is not 'surveys tell us what people think,' full stop. The right attitude is 'surveys can become powerful tools when their vulnerabilities are identified and managed well enough to deserve trust.'",
+            "A strong section should therefore teach the reader to see survey quality as a chain rather than a single property. Weakness at one link can corrupt the meaning of the whole instrument.",
+        ],
+        "items": [
+            "Sampling bias: The people reached may not represent the population being described.",
+            "Wording bias: Questions can nudge answers by framing, loaded terms, or ambiguity.",
+            "Response bias: Participants may misreport due to memory limits, shame, performance, or fatigue.",
+            "Analysis bias: Even decent data can be distorted by tendentious coding or selective interpretation.",
+            "Reader lesson: Survey trustworthiness is engineered, not automatic.",
+        ],
+    },
+    ("/philosophy-of-science/the-value-of-surveys/", "prompt-3"): {
+        "heading": "Discarded surveys teach as much about method as successful surveys teach about the world.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Bad surveys are educational because they reveal what had to go right for the good ones to deserve confidence. A survey may need to be thrown out not because surveys are worthless, but because a crucial methodological protection failed: the sample was distorted, the wording was slanted, the response rate collapsed, or the instrument measured something other than what it claimed to measure.",
+            "That is why rejection is not embarrassment alone. It is part of scientific hygiene. Throwing out a corrupted survey can be a sign of methodological seriousness rather than of defeat, because it shows that the standards of evidence were stronger than the desire to keep a convenient result.",
+            "A useful page should therefore teach readers to respect discarded data when the discard is principled. Refusal to use compromised evidence is part of what makes better evidence possible.",
+        ],
+        "items": [
+            "Measurement failure: The survey may not have operationalized the target concept well enough to support the claimed conclusion.",
+            "Sampling failure: The data may reflect a skewed subset rather than the intended population.",
+            "Integrity lesson: Rejecting flawed evidence can be a mark of rigor, not weakness.",
+            "Reader lesson: Methodological failure is often more illuminating than a superficially tidy result.",
+        ],
+    },
+    ("/philosophy-of-science/the-value-of-surveys/", "prompt-4"): {
+        "heading": "Biased surveys become dangerous when institutions treat polluted measurements as clean guidance.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The danger of a biased survey is not only that it contains error. The larger danger is downstream: institutions may make policy, allocate resources, shape public messaging, or reinforce stereotypes on the basis of a distorted instrument treated as trustworthy.",
+            "That is why historical cautionary tales matter. A bad survey can mislead because it looks formal and quantified. The very features that make it seem rigorous can grant it more authority than a flawed anecdote would ever receive.",
+            "The classic warning is the 1936 Literary Digest poll. It gathered an enormous number of responses and still failed badly because the sample came from the wrong social pool. Size did not rescue bias. It magnified overconfidence.",
+            "Less famous cases follow the same pattern. A slanted school-climate survey, a leading political poll, or a badly framed customer-feedback instrument can all tell institutions what they were already disposed to believe. Once the measurement looks official, weak judgment can borrow the prestige of method.",
+            "That lesson travels well beyond election polling. When schools, governments, hospitals, or newsrooms treat a skewed survey as a neutral window into reality, the resulting decisions can harden false pictures into official action.",
+            "A strong page should therefore emphasize that survey bias is not a technical footnote. It is a practical risk with political, scientific, and institutional consequences.",
+        ],
+        "items": [
+            "Authority inflation: Numbers often inherit more trust than they have actually earned simply by looking quantified.",
+            "Sampling illusion: A very large sample can still mislead badly if it is drawn from the wrong pool.",
+            "Policy risk: Biased measurements can drive poor decisions precisely because they appear objective.",
+            "Feedback loops: Once institutions act on bad survey data, the resulting changes can reinforce the original distortion.",
+            "Reader lesson: The value of surveys includes knowing when not to trust one.",
+        ],
+    },
+    ("/philosophy-of-science/the-value-of-surveys/", "prompt-5"): {
+        "heading": "Phone surveys about young romance are hard because privacy, vocabulary, and performance distort the answer before analysis even begins.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "A phone survey about the romantic status of young people sounds simple until you ask what the terms mean and who is listening. Dating, seeing someone, talking, exclusive, and single do not cleanly map onto one shared reality, especially across ages, subcultures, and communication styles.",
+            "Then there is the performance problem. A teenager may answer differently if a parent is nearby, if the caller sounds older, if the question feels moralized, or if the respondent suspects the conversation is being judged. Embarrassment and irony can both distort the data.",
+            "Mode effects matter too. Many young people ignore unknown calls, prefer text to voice, or give rushed answers just to end the exchange. That means the sample can skew toward particular personalities, household situations, or habits of responsiveness.",
+            "So the hard part is not merely removing one bias. It is designing a survey that respects privacy, defines the categories carefully, reaches the right people, and interprets ambiguous answers without pretending they were cleaner than they really were.",
+        ],
+        "items": [
+            "Vocabulary instability: The central terms may mean different things to different respondents before the first answer is ever given.",
+            "Privacy pressure: A respondent's answer can change dramatically depending on who might overhear the call.",
+            "Mode bias: Phone-based response patterns differ from text, app-based, or in-person response patterns in systematic ways.",
+            "Performance effect: Young respondents may answer strategically, ironically, or defensively when the topic feels socially charged.",
+            "Reader lesson: Survey difficulty here begins with human context, not just with later statistical cleanup.",
+        ],
+    },
+    ("/philosophy-of-science/is-logic-acquired-inductively/", "prompt-1"): {
+        "heading": "The strongest middle position is that logic is not conjured from nowhere, yet our confidence in it is still experience-shaped.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "This page is strongest when it resists the false choice between pure presupposition and pure derivation. Children do seem to acquire practical confidence in inferential patterns through interaction, correction, and repeated engagement with a world that does not behave randomly. That suggests an inductive substrate to our confidence in logic, even if logical articulation later becomes more abstract and formal.",
+            "At the same time, the page should avoid pretending that logic is simply one more ordinary empirical generalization. Logical norms become part of the framework by which evidence itself is handled. So the right synthesis is not that logic is wholly empirical, but that our sub-absolute confidence in logical practice is historically and developmentally shaped by successful contact with patterned reality.",
+            "A careful section should therefore honor the curator's pressure without flattening the issue: we do not possess logic by magic, and we do not justify it by floating free of the inductive world that teaches us how stable patterns behave.",
+        ],
+        "items": [
+            "Developmental point: Logical competence appears to grow through interaction, language, correction, and patterned experience.",
+            "Framework point: Logic later functions as part of the structure through which evidence is assessed.",
+            "Middle view: Confidence in logic can be experience-shaped without reducing logic to a simple empirical habit.",
+            "Reader lesson: The real issue is calibrated confidence in logic, not theatrical certainty about its origin.",
+        ],
+    },
+    ("/philosophy-of-science/is-logic-acquired-inductively/", "prompt-2"): {
+        "heading": "Inductive grounding becomes plausible when logic is treated as disciplined trust built on successful pattern-tracking.",
+        "replace_paragraphs": True,
+        "paragraphs": [
+            "The pushback here is important because it keeps the synthesis from becoming too airy. If our inferential confidence grows out of repeated success in navigating patterned experience, then logic is not merely an unsupported starting block. It is partly vindicated by the role it plays in helping finite creatures survive, predict, and coordinate in a world that behaves regularly enough to teach them something.",
+            "That does not eliminate circularity worries entirely, but it changes their tone. The point is not that logic has been proven from some view outside all reasoning. The point is that our confidence in logical norms can be understood as emerging from, and continually reinforced by, a successful inductive relationship with reality.",
+            "A good page should therefore make the reader feel the modesty of the position. This is not absolute proof of logic from nowhere. It is an account of why logical trust may be warranted without being presuppositionally opaque.",
+        ],
+        "items": [
+            "Pattern-success link: Inferential norms earn trust by helping us navigate a stable world successfully.",
+            "Sub-absolute confidence: The account aims for warranted trust, not incorrigible certainty.",
+            "Reply to presuppositionalism: Logic need not be treated as wholly detached from experiential learning.",
+            "Reader lesson: The view is about the growth of confidence, not the fantasy of external proof.",
+        ],
+    },
+    ("/philosophy-of-science/is-logic-acquired-inductively/", "prompt-3"): {
+        "heading": "The inductive substrate view says logic is trusted because patterned experience keeps rewarding its use.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The key line here is that we cannot step outside reasoning entirely, yet neither do we float above experience when we come to trust logical norms. The inductive-substrate view argues that our confidence in logic is cultivated by a long record of practical success: patterns hold, contradictions fail, inferences work, and reality repeatedly teaches finite minds that some ways of moving from claim to claim are more dependable than others.",
+            "That is a more modest and human picture than either rationalist bravado or total empiricist reduction. It treats logic as something we increasingly rely on because the world keeps proving intelligible enough for those inferential moves to pay rent. The justification is lived and cumulative rather than external and absolute.",
+            "The fallback clause matters too. If logic somehow failed in some domain, the honest response on this view would be revision rather than panic. That willingness to lower confidence if reality forced the issue is part of what makes the position cleaner than an unrevisable presupposition.",
+            "On this picture, logic is like a massively confirmed practice rather than a mystical axiom dropped into the mind from nowhere. That does not cheapen logic. It explains why its authority can feel both sturdy and human.",
+            "A strong section should therefore emphasize why the view matters: it gives us room for high confidence in logic without pretending that such confidence arrived fully formed prior to all inductive encounter.",
+        ],
+        "items": [
+            "Cumulative vindication: Trust in logic grows through repeated successful use in a patterned environment.",
+            "Fallibilist honesty: The view keeps open the possibility of revision without making revision likely or easy.",
+            "No view from nowhere: The account refuses the fantasy of validating logic from outside all reasoning.",
+            "No pure presupposition: The account also resists treating logical trust as utterly detached from experience.",
+            "Reader lesson: The point is not certainty beyond revision, but strong confidence shaped by contact with reality.",
+        ],
+    },
+    ("/philosophy-of-science/is-logic-acquired-inductively/", "prompt-4"): {
+        "heading": "The curator's position is strongest when stated as high but non-absolute confidence in logic grounded in patterned experience.",
+        "replace_paragraphs": True,
+        "paragraphs": [
+            "A clean summary of the curator's position is that our confidence in logic is not an inexplicable presuppositional gift. It is a hard-earned, sub-absolute confidence formed through developmental learning and sustained by the world's repeated display of stable, intelligible patterns. We trust logical structure because the world has been teaching finite minds, over and over, that certain inferential moves reliably work.",
+            "This does not mean logic is reduced to a crude tally of empirical cases. It means that logical trust is anchored in an inductive relationship with reality rather than floating above all experience. The resulting position is neither absolute certainty nor skeptical collapse, but disciplined confidence shaped by contact with observable order.",
+            "That formulation helps because it keeps the strongest features of the view together: anti-magic, anti-presuppositional opacity, and anti-overstatement about certainty.",
+        ],
+        "items": [
+            "Developmental claim: Human beings learn inferential discipline through experience, correction, and pattern-recognition.",
+            "Epistemic claim: Confidence in logic is very high, but not insulated from its experiential grounding.",
+            "Anti-mystification claim: Logic need not be treated as a brute unexplained starting possession.",
+            "Reader lesson: The position seeks a realistic account of why logical trust is warranted for creatures like us.",
+        ],
+    },
+    ("/philosophy-of-science/is-logic-acquired-inductively/", "prompt-5"): {
+        "heading": "Children gain confidence in logic by discovering that some moves keep working and others collapse.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Children do not usually meet logic first as a formal system. They meet it in correction, expectation, frustration, and success. If they put blocks in unstable arrangements, the tower falls. If they contradict themselves in conversation, adults press them. If they expect one outcome and get another, they learn to revise.",
+            "That is why an inductive account has real intuitive force. Logical trust grows inside ordinary contact with a world that pushes back. The child learns that some ways of grouping, comparing, denying, and inferring keep working better than others.",
+            "Only later does this practical competence become explicit vocabulary: contradiction, consistency, implication, valid inference. The lived pattern comes before the polished label.",
+            "So the developmental claim is not that children run tiny philosophy seminars in their heads. It is that stable interaction with reality helps them acquire extremely strong confidence in inferential order before they ever learn to name it cleanly.",
+        ],
+        "items": [
+            "Practical first contact: Logical confidence begins in doing and being corrected, not in memorizing formal rules.",
+            "World feedback: Repeated encounters with success and failure teach that some inferential moves map reality better than others.",
+            "Social reinforcement: Parents, teachers, and peers help stabilize inferential habits by rewarding consistency and exposing contradiction.",
+            "Conceptual maturation: Formal logical language usually arrives after the underlying trust is already functioning.",
+            "Reader lesson: The developmental story makes logic feel learned without making it flimsy.",
+        ],
+    },
+    ("/philosophy-of-science/what-is-falsifiability/", "prompt-1"): {
+        "heading": "Falsifiability matters because a claim becomes scientifically serious only if reality can answer back against it.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Falsifiability is not the whole of science, but it is one of the clearest guards against self-sealing theory. A claim is falsifiable when there is some possible observation, result, or state of affairs that would count against it if it occurred. That requirement makes the theory vulnerable in the productive sense: the world is allowed to say no.",
+            "This is why falsifiability matters in philosophy of science. Scientific seriousness requires more than sounding explanatory. A claim that can accommodate every possible outcome may still be psychologically satisfying, but it cannot be tested in a way that distinguishes success from failure.",
+            "Self-sealing views fail exactly here. If every outcome confirms the theory, the theory is not brave; it is insulated. The world cannot discipline what the theory has already decided to absorb in advance.",
+            "A good page should therefore treat falsifiability as an epistemic discipline. It forces the theorist to specify what would actually put pressure on the theory rather than letting explanatory confidence float free of empirical risk.",
+        ],
+        "items": [
+            "Vulnerability principle: Scientific claims must permit conditions under which they could be shown mistaken.",
+            "Demarcation use: Falsifiability helps distinguish testable inquiry from self-protective speculation.",
+            "Not sufficient alone: A falsifiable claim can still be weak, crude, or poorly supported in other ways.",
+            "Reader lesson: The point is not ritual refutation, but meaningful exposure to the world.",
+        ],
+    },
+    ("/philosophy-of-science/what-is-falsifiability/", "prompt-2"): {
+        "heading": "Falsifiability drives progress because failed predictions teach us where our picture of the world is wrong.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Examples of falsifiability matter because they show why the concept is more than a textbook definition. When a theory risks failure, negative results stop being merely inconvenient. They become informative. A falsified expectation can force refinement, replacement, narrowed scope, or a deeper search for mechanism.",
+            "That is why falsifiability belongs in the engine room of science rather than in a decorative philosophy appendix. The ability to be wrong in publicly legible ways is part of what allows science to improve rather than just accumulate stories.",
+            "The familiar examples differ on the surface: planets, ulcers, germs, chemistry, relativity. But the underlying structure is the same. A theory sticks its neck out, the world presses back, and inquiry improves because the theory was allowed to lose.",
+            "That is also why failure is not the opposite of progress. In science, a failed prediction can be the most generous thing reality does for us, because it tells us where to stop pretending and where to start rebuilding.",
+            "A strong page should therefore teach the reader to see falsification not as embarrassment alone, but as disciplined contact with reality that can produce better theories than flattery ever will.",
+        ],
+        "items": [
+            "Prediction pressure: A risky forecast creates a real opportunity for learning rather than a theatrical claim that never pays out.",
+            "Theory refinement: Failure can reveal whether the model is too broad, too vague, or simply mistaken.",
+            "Replacement pathway: Sometimes falsification does not merely trim a theory; it clears space for a better one.",
+            "Public correction: Falsifiable claims can be tested by others rather than protected by private interpretation.",
+            "Reader lesson: Progress often begins where a theory finally becomes vulnerable enough to lose.",
+        ],
+    },
+    ("/philosophy-of-science/what-is-falsifiability/", "prompt-3"): {
+        "heading": "Historical inquiry also benefits when cherished claims are allowed to fail against evidence.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Falsifiability is not only useful in laboratory science. Historical claims also become stronger when they are framed in ways that allow evidence to count against them. Documents, archaeology, chronology, provenance, and material constraints can all function as pressure points against a story that would otherwise float by narrative appeal alone.",
+            "That matters because history is especially vulnerable to retrospective coherence. A falsifiable historical claim forces the historian to say what kind of evidence would disconfirm the account rather than merely what evidence can be collected in its favor.",
+            "Historical progress often looks less dramatic than a laboratory breakthrough, but it can be just as important. When a document is exposed as a forgery, when a chronology cannot match material evidence, or when an attractive invasion story fails against archaeology, the range of live explanations narrows and understanding improves.",
+            "In history, being wrong often removes a bad story rather than instantly installing a perfect one. That still counts as gain. Fewer impossible stories means a truer map of the past.",
+            "History especially needs this discipline because human beings are natural story-makers. We can always tell a smoother tale after the fact; the hard part is letting stubborn evidence interrupt the tale.",
+            "A good page should therefore show that the discipline of being wrong travels well beyond physics or biology. It matters anywhere explanatory claims face an independent world of constraints.",
+        ],
+        "items": [
+            "Document pressure: Records can undermine as well as support a proposed narrative.",
+            "Material pressure: Archaeology and chronology can block attractive but false reconstructions.",
+            "Forgery lesson: When a key source fails authentication, the surrounding historical picture may have to be rebuilt from scratch.",
+            "Narrative discipline: A historical account is stronger when it names what would count against it.",
+            "Reader lesson: Falsifiability strengthens history by limiting how freely stories can drift.",
+        ],
+    },
+    ("/philosophy-of-science/what-is-falsifiability/", "prompt-4"): {
+        "heading": "Falsifiability is powerful, but it is not a magic solvent for every scientific difficulty.",
+        "replace_paragraphs": True,
+        "paragraphs": [
+            "The limitations of falsifiability matter because philosophy of science becomes simplistic if one criterion is treated as a complete theory of scientific legitimacy. Real inquiry depends not only on testability, but on measurement quality, explanatory depth, theoretical fertility, replication, modeling choices, auxiliary assumptions, and the practical difficulty of isolating variables.",
+            "That is why criticism of falsifiability does not automatically amount to contempt for it. The best criticisms usually say that falsifiability is indispensable but incomplete. A theory may be technically falsifiable and still be weak science, while other important scientific practices sometimes involve probabilistic, model-based, or historically layered claims that do not fit a toy refutation model neatly.",
+            "A good page should therefore present falsifiability as a strong discipline within a larger ecology of scientific virtues rather than as a single sovereign test that solves everything by itself.",
+        ],
+        "items": [
+            "Auxiliary-assumption problem: A failed prediction may leave open which part of a wider framework actually failed.",
+            "Complex-system problem: Some domains resist clean one-shot testing because variables are entangled.",
+            "Criterion pluralism: Good science also depends on explanation, coherence, measurement, and cumulative success.",
+            "Reader lesson: Falsifiability is a major tool, not the whole toolbox.",
+        ],
+    },
+    ("/epistemology/charles-darwin/", "prompt-1"): {
+        "heading": "Darwin changed philosophy by making mind, morality, and meaning answerable to historical development.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Darwin's influence on philosophy is not mainly that he became one more famous name in intellectual history. It is that he changed the background assumptions under which many philosophical questions had to be asked. Once species, capacities, and traits are understood as historically developed rather than fixed in advance, theories of human nature, reason, morality, and purpose all have to be reconsidered.",
+            "That shift matters epistemologically because it pressures any account of knowledge that quietly assumes human cognition arrived in finished form. If our reasoning powers are evolved capacities, then philosophy has to ask not only what counts as truth or justification, but why creatures like us would have the kinds of pattern-detection and bias profiles we do.",
+            "So Darwin's significance is not reducible to biology. He helped relocate philosophy into a world of emergence, adaptation, contingency, and gradual change.",
+        ],
+        "items": [
+            "Human nature under revision: The human mind becomes something historically formed rather than metaphysically frozen.",
+            "Teleology under pressure: Purpose and design claims become harder to treat as default explanations.",
+            "Epistemic implication: Reason itself can be examined as an evolved capacity with strengths, limits, and distortions.",
+            "Philosophical legacy: Later debates about naturalism, morality, consciousness, and rationality all inherit Darwinian pressure.",
+        ],
+    },
+    ("/epistemology/charles-darwin/", "prompt-2"): {
+        "heading": "Darwin's lasting contribution lies in the new questions his framework made unavoidable.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "An annotated list of contributions should do more than praise Darwin abstractly. It should show what philosophical pressure each contribution introduced. Evolution by natural selection did not merely add a biological mechanism; it altered debates about design, essence, adaptation, progress, morality, and the place of human reason in nature.",
+            "That is why the list should be read dynamically. Each contribution matters because later thinkers had to borrow it, resist it, or reinterpret it. Darwin's legacy lives less in homage than in the fact that his framework keeps forcing conceptual revision.",
+            "The best treatment will therefore connect each contribution to an ongoing philosophical problem rather than leaving it as a historical plaque.",
+        ],
+        "items": [
+            "Natural selection: Reframes design-like complexity without immediate appeal to intentional design.",
+            "Common descent: Places humanity inside biological continuity rather than outside it as a separate order.",
+            "Adaptation thinking: Encourages function-based explanations while also inviting misuse if overextended.",
+            "Contingency and history: Undermines the idea that present forms must be read as inevitable or final.",
+        ],
+    },
+    ("/epistemology/charles-darwin/", "prompt-3"): {
+        "heading": "Darwin's intellectual formation matters because method shaped the breakthrough as much as genius did.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "If we ask why Darwin became such an important thinker, the answer should not collapse into hero worship. His significance came from a convergence of habits and circumstances: prolonged observation, sensitivity to variation, patience with evidence, willingness to delay publication until the case strengthened, and exposure to a scientific culture already wrestling with geology, classification, and natural history.",
+            "That is pedagogically useful because it lowers the mythic register. Darwin did not matter because he was magically different from every other mind. He mattered because a certain temperament met the right empirical problems and stayed with them long enough to reorganize the conceptual landscape.",
+            "The page should therefore present Darwin as a model of disciplined inquiry under pressure rather than as a solitary icon floating above method.",
+        ],
+        "items": [
+            "Observational patience: Darwin paid close attention to small differences others might have treated as noise.",
+            "Cross-domain synthesis: He connected breeding, geology, distribution, and morphology into a wider explanatory frame.",
+            "Evidential caution: He was slow in a productive way, preferring a stronger case to a quick performance.",
+            "Historical context: Darwin's achievement depended partly on inheriting questions already ripening in nineteenth-century science.",
+        ],
+    },
+    ("/epistemology/charles-darwin/", "prompt-4"): {
+        "heading": "Darwin mattered most where later fields had to rethink stability, design, and human exceptionalism.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The influence question is best answered by tracking where Darwinian thinking forced a deep reset. Biology is obvious, but the more interesting philosophical spread reaches into ethics, philosophy of mind, social theory, anthropology, psychology, epistemology, and debates about religion and naturalism.",
+            "What unifies those domains is not that they all became 'Darwinian' in the same way. It is that they all had to answer new questions about historical development, adaptation, continuity, and the explanatory power of natural processes. Darwin changed what counts as an available explanation.",
+            "A strong reader should therefore look not only for direct disciples, but for conceptual neighborhoods that became less stable after Darwin.",
+        ],
+        "items": [
+            "Philosophy of mind: Human cognition becomes continuous with animal capacities rather than sharply isolated from them.",
+            "Ethics and moral psychology: Moral tendencies invite genealogical explanation instead of being treated only as timeless rational deliverances.",
+            "Naturalism debates: Darwin strengthens the case for explaining complexity without invoking special creation.",
+            "Social thought warning: Darwin's influence is philosophically important partly because later thinkers misapplied it in ways that also need scrutiny.",
+        ],
+    },
+    ("/epistemology/doxastic-voluntarism/", "prompt-2"): {
+        "heading": "The strongest arguments divide over whether belief obeys will or evidence more fundamentally.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The debate is best understood as a clash between two intuitions. On one side, we want belief to be linked to responsibility, openness, and self-governance; that pressure makes some form of voluntarism attractive. On the other side, belief seems answerable to what strikes the mind as true, and that makes sheer acts of will look psychologically implausible.",
+            "A good presentation should therefore separate the arguments rather than blur them together. Pro-voluntarist arguments usually appeal to indirect control, epistemic accountability, and the role of agency in inquiry. Anti-voluntarist arguments usually stress involuntariness at the moment of assent and the way evidence, not command, seems to govern what we can honestly believe.",
+            "The most productive conclusion is often mixed: direct command over belief is weak, but indirect responsibility for belief formation remains strong enough to matter ethically and epistemically.",
+        ],
+        "items": [
+            "For voluntarism: People shape belief indirectly through attention, evidence-seeking, and social environment.",
+            "For voluntarism: Responsibility practices make more sense if some meaningful agency over belief-formation exists.",
+            "Against voluntarism: Beliefs typically track what appears credible rather than what we decide to affirm by fiat.",
+            "Against voluntarism: Immediate assent often feels discovered rather than chosen.",
+            "Nuanced payoff: The debate is clearer once strong direct choice is distinguished from weaker forms of self-management.",
+        ],
+    },
+    ("/epistemology/abduction-utility-and-issues/", "prompt-4"): {
+        "heading": "The germ-theory example shows why unknown explanations deserve prior room before discovery arrives.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "A Bayesian treatment of pre-germ-theory illness should not be read as a historical stunt. It is a way of showing why rational people needed to reserve some probability for causes they could not yet describe. If all credence was distributed only among familiar explanations such as humors, miasma, divine judgment, or imbalance, then the true explanation had no place to enter except by first overthrowing the whole map.",
+            "That is exactly the epistemic lesson. The unknown category is not an embarrassment to probabilistic thinking; it is one of the signs that the thinking is mature. It registers the possibility that reality has more structure than the current explanatory vocabulary can yet capture.",
+            "A good analysis therefore combines courage and reserve: rank the visible hypotheses, but do not pretend visibility exhausts possibility.",
+        ],
+        "items": [
+            "Historical humility: Earlier reasoners lacked concepts we now take for granted, so their hypothesis space was structurally incomplete.",
+            "Unknown bucket: Some prior probability should be reserved for not-yet-articulated mechanisms.",
+            "Bayesian virtue: Probability management improves when the model admits incompleteness rather than denying it.",
+            "General lesson: The point is not merely about germs; it is about any domain where discovery can enlarge the hypothesis space.",
+        ],
+    },
     ("/ethics/fictional-meta-ethics-debate/", "prompt-2"): {
         "paragraphs": [
             "The curator's dissatisfaction is doing real philosophical work here. The issue is not a polite preference for different terminology; it is the suspicion that the word moral often inflates human aversion, approval, loyalty, and disgust into something that sounds metaphysically heavier than it has earned.",
@@ -3157,15 +6773,36 @@ TARGETED_SECTION_EXPANSIONS = {
         ],
     },
     ("/philosophical-inquiry/dangers-untestable-ideologies/", "prompt-3"): {
+        "heading": "A promise dissipates when the sales pitch is concrete but the defense turns vaporous.",
+        "replace_paragraphs": True,
+        "replace_items": True,
         "paragraphs": [
             "This prompt matters because many ideologies are not content to make distant, postmortem, or purely inward claims. They also promise guidance, peace, transformation, answered prayer, moral clarity, protection, or communal flourishing in ordinary life. Those promises create a legitimate testing surface.",
             "The danger appears when a promise is presented vividly enough to recruit belief but vaguely enough to evade failure. A disciplined reconstruction should ask whether the promise has observable conditions, time boundaries, comparison cases, and a failure state. Without those, the promise becomes a motivational fog machine: impressive atmosphere, poor instrumentation.",
+            "Under scrutiny, the rhetoric often changes register. What was preached as a visible benefit becomes redescribed as hidden growth, symbolic victory, selective timing, or mystery too deep for surface comparison. That shift is the whole point of the diagnostic: the ideology marketed a worldly promise and then defended it as if it had always been otherworldly or too subtle to measure.",
         ],
         "items": [
             "Observable content: A promise should specify what would be different in experience, behavior, judgment, or communal outcomes if the ideology were reliable.",
             "Failure conditions: If no result would count against the claim, the promise is functioning more as reassurance than as a testable assertion.",
             "Base-rate comparison: Peace, recovery, insight, and moral change happen inside and outside religious systems, so the ideology must outperform ordinary human variation.",
             "Interpretive escape hatch: When every miss is redescribed as mystery, discipline, timing, or hidden success, the promise becomes protected from the very world it claimed to address.",
+        ],
+    },
+    ("/philosophical-inquiry/dangers-untestable-ideologies/", "prompt-4"): {
+        "heading": "Inscrutable claims survive by widening the fog whenever scrutiny gets close.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "A longer list is useful only if the reader sees the family resemblance. Inscrutable claims differ in vocabulary, imagery, and emotional tone, but they often perform the same protective function: they preserve commitment while preventing ordinary evidential contact.",
+            "Some claims hide behind cosmic timing, some behind secret knowledge, some behind spiritual interpretation, and some behind selective immunity from natural expectations. The important point is not to mock every hard-to-test statement. It is to notice when hardness of test has become the very mechanism by which confidence is sustained.",
+            "Once that pattern is visible, ideologies can be compared more fairly. The question shifts from 'Does this sound profound?' to 'What work is the inscrutability doing for the system that employs it?'",
+        ],
+        "items": [
+            "Hidden-plan claims: Apparent failure is said to fit a larger purpose too complex for ordinary minds to assess.",
+            "Chosen-insider claims: Only the initiated, enlightened, awakened, or spiritually mature are said to possess the interpretive key.",
+            "Cosmic-timing claims: The evidence will be clear later, elsewhere, or under conditions that never arrive for public inspection.",
+            "Metaphysical backstop claims: When practical promises fail, the system retreats into an invisible realm where success is said to be occurring anyway.",
+            "Comparative question: Would you grant the same protective maneuver to a rival ideology making the same kind of claim?",
         ],
     },
     ("/miscellany/the-fantastical-historical-truth/", "prompt-1"): {
@@ -3228,11 +6865,395 @@ TARGETED_SECTION_EXPANSIONS = {
             "Teaching use: The scores are most useful when they suggest scaffolding strategies such as glossaries, argument maps, excerpts, or guided questions.",
         ],
     },
+    ("/philosophical-inquiry/dangers-ideologies-of-emotion/", "prompt-2"): {
+        "heading": "Ideologies often recruit allegiance by attaching themselves to predictable emotional vulnerabilities.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "A useful map of emotional manipulation should do more than name feelings in the abstract. It should show which emotional openings make people persuadable, what tactic exploits each opening, and why the tactic works even when the reasoning underneath is thin.",
+            "Fear, hope, shame, pride, disgust, loneliness, grievance, and awe do not distort judgment in the same way. Fear narrows attention toward threat, pride protects group identity, shame makes people easier to steer through social pressure, and hope can make implausible promises feel morally necessary. Once those differences are visible, ideological persuasion looks less like random passion and more like targeted psychological engineering.",
+            "That is the real gain of the list. It teaches the reader to stop asking only, 'What do these people believe?' and start asking, 'What emotional circuitry is being recruited to make this belief feel obvious, urgent, or sacred?'",
+        ],
+        "items": [
+            "Fear: Threat inflation, selective anecdotes, and crisis language make caution feel like loyalty and hesitation feel like betrayal.",
+            "Anger: Scapegoats, humiliation narratives, and moral outrage convert messy problems into a simpler story with villains.",
+            "Hope: Grand promises, utopian language, and redemption scripts make weak evidence feel tolerable because the destination sounds noble.",
+            "Pride: Appeals to heritage, chosenness, superiority, or special insight make group attachment feel like intellectual achievement.",
+            "Shame and guilt: Public comparison, confession rituals, and moral pressure can make compliance feel like self-correction.",
+            "Belonging and loneliness: Communities that offer identity, warmth, and certainty can make the doctrine feel true because it is socially relieving.",
+        ],
+    },
+    ("/philosophical-inquiry/dangers-ideologies-of-emotion/", "prompt-4"): {
+        "heading": "Truth-seeking can have its own joy because clarity is a deeper good than emotionally padded illusion.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "This question matters because the loss of a beautiful illusion can feel like a genuine bereavement. If a person gives up an emotionally flattering ideology, the first sensation may be disappointment, coldness, or even a kind of existential insult. That reaction is not evidence that the ideology was true; it is evidence that it was doing emotional work.",
+            "The better response is not to sneer at the desire for beauty, comfort, or meaning. It is to relocate those goods. A mind can feel grief over the collapse of a fiction and still judge that honesty is better than enchantment purchased by distortion. In fact, one mark of intellectual maturity is learning to prefer an austere truth to a consoling falsehood without turning that preference into self-punishment.",
+            "A concrete example helps here. Someone leaving a grandiose ideology may initially feel that color has gone out of the world, as if wonder itself belonged to the old belief. But in time the same person may find that friendship, music, scientific discovery, moral courage, and ordinary tenderness become more durable once they are no longer forced to prop up a fiction. The emotional register changes, but value does not evaporate.",
+            "A fair question is whether this just glorifies coldness. It should not. The point is not that harshness is noble or that disillusionment is automatically wise. The point is that reality can be loved without being cosmetically edited first, and that there is a distinct joy in no longer needing distortion to feel oriented.",
+            "So the emotional posture to aim for is not cheerful nihilism, nor embarrassed stoicism, but sober gratitude: reality did not promise to flatter us, yet it still gives us something sturdier than ideological intoxication. It gives us contact.",
+        ],
+        "items": [
+            "Allow the letdown: The loss of a satisfying illusion can feel painful, and pretending otherwise usually delays clearer judgment.",
+            "Name the trade: The question is whether emotional beauty was being bought at the price of distortion, evasion, or dependency.",
+            "Relocate meaning: Wonder, love, solidarity, and purpose do not have to disappear when an ideology does.",
+            "Worked example: A person can lose a fantasy of cosmic certainty yet gain a more durable appreciation for ordinary goods that do not depend on illusion.",
+            "Reject self-flattery: Rational honesty is not superior because it feels cold; it is superior when it keeps belief answerable to reality.",
+            "Keep the humane tone: An emotionally generous life is still possible after illusion, but it has to be built without counterfeit certainty.",
+        ],
+    },
+    ("/philosophical-inquiry/dangers-unnuanced-conclusions/", "prompt-1"): {
+        "heading": "People reach for dogmatic conclusions because certainty feels safer, cleaner, and more social than calibrated belief.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Most people do not leap to dogmatic conclusions because they have carefully weighed the evidence and found it overwhelming. They do it because confidence is emotionally cheaper than suspension, socially more legible than caution, and psychologically more comfortable than living with unresolved complexity.",
+            "That helps explain why the problem is so common. A nuanced conclusion often sounds weak in public even when it is the most responsible one. It contains qualifications, conditional language, degrees of confidence, and open questions. Dogmatism, by contrast, offers the feeling of arrival. It turns uncertainty into posture.",
+            "So the real question is not only why people ignore the evidence, but why minds are so easily rewarded for doing so. Once that reward structure is visible, the page becomes less about private irrationality and more about the joint pressure of bias, tribe, identity, and the human hunger for closure.",
+        ],
+        "items": [
+            "Closure hunger: Uncertainty is tiring, so final-sounding conclusions can feel like relief long before they are justified.",
+            "Identity protection: A belief tied to self-image, community, or moral status is harder to proportion to evidence.",
+            "Social rewards: Confidence often reads as leadership, while careful hesitation is misheard as weakness or indecision.",
+            "Cognitive shortcuts: Heuristics help us move quickly, but they also make partial evidence feel complete.",
+            "Narrative neatness: Clean stories are easier to remember and defend than messy, probabilistic ones.",
+        ],
+    },
+    ("/philosophical-inquiry/dangers-unnuanced-conclusions/", "prompt-2"): {
+        "heading": "Keeping confidence proportionate to evidence requires habits that slow down the leap from data to certainty.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Best practices in this area are less like a list of pious reminders and more like a discipline of friction. The goal is to make it harder for the mind to promote a possibility into a certainty just because the possibility is vivid, socially convenient, or emotionally satisfying.",
+            "That means building habits that force comparison, counterevidence, and calibration back into the process. You ask what the evidence really shows, what it does not show, what rival explanations still survive, and what degree of confidence the total picture honestly warrants. In short: you do not merely ask whether a claim sounds plausible; you ask how strongly it has actually been earned.",
+            "These habits matter most when the stakes feel high, because high stakes tempt us to confuse urgency with justification. The more a conclusion matters to us, the more carefully it has to be proportioned.",
+        ],
+        "items": [
+            "Use graded language: Say likely, possible, unclear, or strongly supported when those are the honest levels.",
+            "Separate evidence from interpretation: Notice where the observation ends and the favored story begins.",
+            "Look for live alternatives: A conclusion is less secure when several explanations still fit the data.",
+            "Ask what would lower your confidence: If nothing would, you may be protecting an identity rather than tracking evidence.",
+            "Check base rates and background knowledge: A dramatic claim can feel persuasive while still being statistically weak.",
+            "Revisit high-confidence judgments: Strong beliefs should be the most exposed to review, not the least.",
+        ],
+    },
+    ("/philosophical-inquiry/dangers-unnuanced-conclusions/", "prompt-4"): {
+        "heading": "History turns ugly when confidence hardens faster than the evidence deserves.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Historical examples matter here because they show that overconfidence is not a merely private defect. When weak evidence gets fused to institutional power, patriotic fervor, medical authority, or ideological zeal, unnuanced conclusions stop being embarrassing and start becoming lethal.",
+            "The pattern is rarely mysterious. A simplified story gets adopted early, dissent gets treated as obstruction, ambiguous evidence gets re-read as confirmation, and the cost of being wrong is pushed onto other people. By the time reality forces correction, the human damage is already done.",
+            "That is why this page should not be read as a sermon in favor of modesty for its own sake. Nuance matters because the alternative is often not noble decisiveness, but expensive error wearing the costume of certainty.",
+        ],
+        "items": [
+            "Challenger: Organizational confidence outran engineering caution, and institutional momentum treated uncertainty as a nuisance.",
+            "Iraq and WMDs: Thin and contested evidence was inflated into geopolitical certainty with catastrophic consequences.",
+            "McCarthyism: Suspicion was converted into public certainty faster than the evidence could justify, ruining lives and narrowing inquiry.",
+            "Thalidomide: Early confidence in safety outran the testing needed to support it, and the cost was borne by the vulnerable.",
+            "General lesson: The danger is not merely being mistaken; it is acting with the force of certainty before the evidence has earned it.",
+        ],
+    },
+    ("/philosophical-inquiry/do-i-need-a-worldview/", "prompt-1"): {
+        "heading": "You do not need a finished worldview to inquire honestly, but you cannot think without some background habits of interpretation.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The useful answer begins by separating two different claims. It is false that a person must adopt a neatly packaged worldview before serious inquiry can begin. But it is also false that one can investigate reality from nowhere, with no assumptions, no inherited standards, and no interpretive habits already in play.",
+            "In practice, everyone starts with a loose working orientation: some sense of what counts as evidence, what kinds of explanations are credible, what sources deserve trust, and what would count as correction. That orientation need not be totalized into a grand system. It can remain provisional, corrigible, and inquiry-by-inquiry. In fact, keeping it revisable is often healthier than rushing toward a finished worldview simply because closure feels mature.",
+            "So the danger is not failing to join a worldview. The danger is forgetting that background assumptions are already doing work while pretending one is operating in a neutral vacuum. Honest inquiry requires becoming more aware of those assumptions, not pretending to have none.",
+        ],
+        "items": [
+            "System versus orientation: A rigid worldview is not the same thing as a workable set of provisional interpretive habits.",
+            "No view from nowhere: Even the choice to proceed case by case already depends on standards about evidence, trust, and revision.",
+            "Open-ended inquiry: A person can resist ideological closure without becoming intellectually shapeless.",
+            "Hidden assumptions: The more one claims total neutrality, the easier it is for unexamined assumptions to hide in the background.",
+            "Practical aim: The goal is not to finish inquiry with a label, but to improve the standards by which inquiry proceeds.",
+        ],
+    },
+    ("/philosophical-inquiry/do-i-need-a-worldview/", "prompt-2"): {
+        "heading": "A commitment to letting confidence track evidence can function as a meta-view without becoming a closed worldview.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Yes, something like that can serve as a meta-view, but only if the phrase is kept disciplined. It is not a substitute worldview that answers every substantive question in advance. It is a standing policy about how beliefs should be held, revised, and compared.",
+            "That policy matters because it travels across domains. Whether the topic is religion, politics, science, history, or personal identity, the same demand remains: do not let confidence outrun the evidence. In that sense, evidential calibration can function as a higher-order commitment that governs how one approaches worldviews without itself freezing into one more tribal system.",
+            "Still, the meta-view is not self-executing. People can praise rational proportion while quietly protecting favored assumptions. So the value of the meta-view lies in the habits it creates: calibration, self-suspicion, source comparison, and willingness to revise. For a companion resource focused on calibration, credence, and evidence-sensitive judgment, see <a class=\"text-link\" href=\"https://credencing.com/\" rel=\"noopener noreferrer\">Credencing.com</a>.",
+        ],
+        "items": [
+            "Higher-order commitment: The principle governs how beliefs are held, not which worldview must win in advance.",
+            "Cross-domain usefulness: The same evidential discipline can be applied to science, politics, religion, and everyday judgment.",
+            "Anti-dogmatic role: A meta-view of calibration helps block the slide from conviction to closure.",
+            "Ongoing burden: The principle has value only if it changes how one actually weighs testimony, counterevidence, and uncertainty.",
+            "Failure mode: Saying 'I follow the evidence' becomes empty if favored conclusions remain functionally unrevisable.",
+        ],
+    },
+    ("/philosophical-inquiry/do-i-need-a-worldview/", "prompt-4"): {
+        "heading": "A worldview is ripe for reevaluation when it starts protecting itself better than it explains reality.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The point of reevaluation is not permanent suspicion for its own sake. It is to notice when a worldview has stopped helping a person interpret reality and started serving mainly as a shield against correction. That change is often gradual, which is why signs matter.",
+            "Some signs are intellectual: rival evidence is dismissed without serious contact, key terms stay vague whenever scrutiny increases, and explanatory failures are patched with ad hoc exceptions. Other signs are emotional or social: doubt feels morally dirty, critics are treated as threats rather than interlocutors, and belonging depends more on repeating the right conclusions than on pursuing the truth.",
+            "A healthy worldview can survive scrutiny, revision, and even partial dismantling. An unhealthy one treats those very processes as betrayal. That is usually the moment to start opening windows.",
+        ],
+        "items": [
+            "Asymmetrical standards: Friendly evidence is welcomed cheaply while hostile evidence faces impossible demands.",
+            "Ad hoc repairs: Every counterexample produces a new exemption designed to save the system at any cost.",
+            "Moralized doubt: Questioning the worldview feels like vice rather than inquiry.",
+            "Identity fusion: Losing the worldview feels indistinguishable from losing oneself or one's people.",
+            "Explanatory stagnation: The worldview keeps repeating its slogans while becoming less able to illuminate new cases.",
+            "Contact test: If honest engagement with alternatives is quietly disappearing, reevaluation is overdue.",
+        ],
+    },
+    ("/philosophical-inquiry/how-minds-are-changed/", "prompt-1"): {
+        "heading": "Most opinion change is incremental because minds usually move by accretion, not by cinematic reversal.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Dramatic conversions do happen, but they are memorable partly because they are unusual. Most real changes of mind are slower. A person's confidence gets loosened by one friction point, then another, then a conversation, then an example that does not fit the old frame. The official conclusion may change late, but the interior movement usually starts well before the public announcement.",
+            "This matters because people often misread visible declarations as the whole story. They imagine a single article, debate, or revelation suddenly did the work. More often, the visible shift is the moment when accumulated pressure finally outruns the cost of admitting change.",
+            "Thinking this way makes the page more realistic and more patient. If minds normally change by accretion, then serious persuasion is less about landing one perfect blow and more about creating conditions in which evidence can keep finding purchase.",
+        ],
+        "items": [
+            "Accumulation: Small tensions, doubts, and corrections often matter more than one decisive argument.",
+            "Identity cost: People delay visible change because belief revision can threaten belonging, status, or self-understanding.",
+            "Threshold effect: The public shift often comes only after many private adjustments have already occurred.",
+            "Pedagogical lesson: Good inquiry creates repeated contact points rather than betting everything on a single exchange.",
+            "Rare exceptions: Sudden change is possible, but it usually depends on groundwork that was already there.",
+        ],
+    },
+    ("/philosophical-inquiry/how-minds-are-changed/", "prompt-2"): {
+        "heading": "The best mind-changing techniques usually lower threat, increase ownership, and make revision feel thinkable.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Techniques that reliably change minds tend not to work by humiliation or domination. They work by reducing defensiveness, making the person feel safe enough to inspect their own reasoning, and giving them a path to revision that does not feel like social annihilation.",
+            "That is why questions often outperform declarations. A well-placed question can expose tension inside a view while still leaving the person some ownership of the discovery. By contrast, a frontal assault may contain better arguments yet produce worse results because it activates identity defense, status defense, or plain reactance.",
+            "None of this means truth should be watered down. It means persuasion has human conditions. If you want someone to move, the reasoning has to be strong, but the psychological setting has to make movement possible.",
+        ],
+        "items": [
+            "Curious questioning: Invite the person to articulate standards, exceptions, and consequences for themselves.",
+            "Steelmanning first: People loosen their guard when they feel their actual view has been understood rather than caricatured.",
+            "Incremental pressure: Smaller revisions are often more durable than demands for total conversion on the spot.",
+            "Face-saving routes: A person changes more easily when revision can be framed as growth rather than humiliation.",
+            "Credible sources and peers: Testimony lands differently depending on trust, familiarity, and perceived shared standards.",
+            "Timing matters: A strong argument given at the wrong emotional moment can fail for reasons unrelated to its truth.",
+        ],
+    },
+    ("/philosophical-inquiry/dangers-untestable-ideologies/", "prompt-1"): {
+        "heading": "Walls of inscrutability protect a claim by making failure hard to name, compare, and accumulate.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "A wall of inscrutability is not just a hard question or a naturally deep mystery. It is a protection strategy. The ideology keeps the claim vivid enough to command trust, obedience, or awe while making the route from claim to correction so slippery that ordinary testing never quite gets a grip.",
+            "Different systems build the wall in different ways. Some defer the verdict until death. Some relocate the evidence into private revelation. Some say only the initiated can really understand. Some moralize doubt so criticism itself becomes a character flaw. The vocabulary shifts, but the function remains stable: confidence is preserved while public comparison is weakened.",
+            "The trouble is not simply that such claims are difficult. Plenty of true things are difficult. The trouble is asymmetrical immunity. The ideology still wants the psychological and moral benefits of making a strong claim, but it refuses the reciprocal burden of saying what would count against it. A prayer promise that is always 'answered' by hidden reasons, for example, is not being tested the way an ordinary claim is tested.",
+            "A fair-minded believer may object that many important realities are not straightforwardly measurable. Love, grief, loyalty, beauty, and conscience are not laboratory objects either. True enough. But that reply misses the problem. The issue is not that everything important must be easy to test; it is that some ideologies invite confidence with one hand while permanently withdrawing public checks with the other.",
+            "A useful reader therefore asks two related questions. First: if the claim were false, what would look different in the world or in the believer's experience? Second: if a rival ideology used the same protective move, would this system treat that move as respectable or as evasive? Those questions often clear more fog than a hundred reverent nods.",
+        ],
+        "items": [
+            "Afterlife deferral: The decisive payoff is always just beyond public reach, so disappointment in ordinary life never counts decisively.",
+            "Private-access insulation: The strongest evidence is said to be inward, mystical, or spiritually legible only to those already inside.",
+            "Moralized doubt: Skepticism is redescribed as pride, rebellion, blindness, or hardness of heart rather than treated as a live intellectual response.",
+            "Interpretive elasticity: No matter what happens, the claim is reworded so the outcome still looks like support.",
+            "Concrete example: 'The blessing is real but hidden from ordinary perception' can protect almost any failure from counting as failure.",
+            "Rival-comparison test: If another worldview used the same shielding move, would the believer still find it persuasive?",
+            "Accumulation problem: A claim becomes especially suspicious when repeated misses never add up to a meaningful reduction in confidence.",
+        ],
+    },
+    ("/philosophical-inquiry/dangers-untestable-ideologies/", "prompt-2"): {
+        "heading": "Worldly promises matter because once an ideology promises results in ordinary life, it enters ordinary comparison.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "This prompt matters because it refuses a common double game: market the ideology with concrete promises, then defend it with mist. Many systems promise peace, guidance, transformation, answered prayer, healing, moral clarity, community, or practical protection in this life. Those are not merely transcendent hopes; they are claims about lived outcomes.",
+            "Once the promise is about lived outcomes, broad comparison becomes legitimate. Not every case can be experimentally isolated, but the ideology still owes the reader a usable account of what success would look like, how success differs from ordinary human variation, and what pattern of disappointment would count against the promise. If 'peace' simply means sometimes feeling comfort in a committed community, or if 'answered prayer' means every outcome counts as an answer, the claim may be doing much less than advertised.",
+            "The standard retreat is familiar. Vivid testimonies are foregrounded when recruiting belief, but broader comparison is dismissed once the evidence gets mixed. Healing becomes spiritualized, guidance becomes retrospectively interpreted, protection becomes selective memory, and failed expectations are redescribed as hidden blessings or tests of faith. That maneuver is not a side issue; it is the core diagnostic.",
+            "A concrete comparison helps. If a group promises peace, and its members show roughly the same range of anxiety, conflict, and confusion as similarly situated people outside the group, then the burden shifts back onto the ideology to explain what distinctive success is being claimed. The same applies to prayer, healing, providential guidance, or moral transformation.",
+            "A promise may still survive scrutiny after all this. The point is not to rig the game against it. The point is to insist that a promise about this life be willing to stand alongside other explanations, other communities, and the messy comparative evidence of ordinary human experience.",
+        ],
+        "items": [
+            "Name the promised difference: If the ideology offers peace, guidance, or transformation, what visible difference is it really asking us to expect?",
+            "Compare against the outside world: Similar goods can arise through therapy, friendship, ritual, disciplined practice, maturation, and non-ideological communities.",
+            "Prayer test: If every outcome counts as an answer, the promise may be too elastic to discriminate success from failure.",
+            "Transformation test: If the change looks no different from what occurs in secular recovery, counseling, or ordinary communal life, the distinctiveness claim weakens.",
+            "Peace test: If the emotional life of insiders does not differ in the advertised way, the promise may be trading on selective storytelling.",
+            "Watch for anecdotal overreach: A few moving testimonials should not outweigh the broader and messier human pattern.",
+            "Keep the standard fair: The issue is not whether the ideology helps anyone at all, but whether it helps in the distinctive way and degree it advertises.",
+        ],
+    },
+    ("/philosophical-inquiry/dangers-ontological-buffet/", "prompt-4"): {
+        "heading": "Fabricated systems usually reveal themselves by how easily their ontology expands to save the story.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The phrase ontological buffet is useful because it names a familiar tactic: when evidence is thin, the system compensates by freely adding invisible entities, hidden mechanisms, special exemptions, or ad hoc layers until the story becomes hard to puncture. The result can sound intricate and even internally coherent while remaining poorly tethered to reality.",
+            "So the reader needs warning signs, not just a definition. A fabricated system often grows by convenience. New beings, forces, dimensions, energies, intentions, or secret histories appear precisely where they are needed to protect the central claim. The ontology is not discovered under pressure; it is recruited under pressure.",
+            "That is where the page becomes practical. Instead of asking only whether the system is imaginative, ask whether its invisible furniture is constrained by evidence or merely by the author's need to rescue the narrative. A good ontology narrows expectation. A fabricated one expands whenever trouble arrives.",
+        ],
+        "items": [
+            "Convenient additions: New entities or powers appear mainly when an older version of the story begins to fail.",
+            "Special exemptions: The system repeatedly declares that its central objects do not behave like anything else and therefore cannot be checked in normal ways.",
+            "Ad hoc layering: Instead of explaining more with less, the worldview explains trouble by adding extra unseen machinery.",
+            "Immunity by complexity: The story becomes so ornate that criticism can always be answered by one more hidden level.",
+            "Borrowed coherence: The worldview sounds logical internally, but its logic is doing more work than its evidence.",
+            "Key test: Ask whether the ontology constrains prediction, or whether it merely absorbs objection.",
+        ],
+    },
+    ("/philosophical-inquiry/dangers-removing-the-impossible/", "prompt-1"): {
+        "heading": "Such ideologies are appealing because they offer cosmic meaning without much empirical friction.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The appeal is not hard to see. A culturally local ideology that posits an omnipotent, inscrutable agent can make the world feel inhabited, purposeful, morally supervised, and existentially safer, even when the evidence for the agent is weak. Better still, the agent's hiddenness allows the ideology to harmonize with almost any outcome the world actually presents.",
+            "That flexibility is part of the attraction. If reality already looks much as it would without such an entity, then disappointments, tragedies, randomness, and unanswered questions do not obviously refute the system. They can be absorbed into mystery, timing, divine reasons, human limitation, or invisible goods. The ideology gets the emotional and social benefits of cosmic authorship while avoiding many of the empirical liabilities of a more exposed claim.",
+            "Cultural inheritance strengthens the appeal further. People rarely encounter these systems as isolated metaphysical hypotheses. They meet them wrapped in family loyalty, ritual beauty, moral language, childhood trust, and communal belonging. By the time the evidential question is consciously asked, the ideology is already doing identity-level work.",
+            "That is why the page should not reduce the attraction to stupidity. The draw is psychological, social, aesthetic, and existential. Precisely because the system answers so many human needs at once, it deserves especially careful epistemic scrutiny.",
+        ],
+        "items": [
+            "Meaning on demand: The ideology can turn contingency into purpose and suffering into part of a story.",
+            "Empirical resilience: Because the agent is hidden and omnipotent, almost no worldly pattern clearly disconfirms the view.",
+            "Moral reassurance: The world feels watched, judged, and ultimately governed rather than indifferent.",
+            "Community inheritance: The view arrives through trusted people and shared rituals, not as a cold abstract thesis.",
+            "Elastic interpretation: Events that would trouble a more exposed hypothesis are absorbed into mystery or providence.",
+            "Deeper caution: A view can be deeply consoling and still be evidentially under-supported.",
+        ],
+    },
+    ("/philosophical-inquiry/selective-pressures-on-ideologies/", "prompt-1"): {
+        "heading": "Popularity can be driven by many forms of fitness that have little to do with truth.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "It would be comforting if the most successful ideologies won mainly because they were true. History gives us little reason for that optimism. Ideas spread for many reasons besides truth: they simplify reality, reward belonging, flatter identity, justify power, coordinate behavior, calm anxiety, and reproduce well through institutions.",
+            "That point matters because ideological success can easily masquerade as epistemic success. A creed that travels well, recruits children early, binds communities tightly, punishes dissent, and tells vivid stories may dominate a culture even if its central claims are thin, false, or only partly true. Fitness and truth can overlap, but they are not the same thing.",
+            "The page therefore needs to train a colder question: what properties make an ideology easy to transmit, defend, and stabilize? Once that question is asked, popularity stops looking like a simple vote from reality and starts looking like the result of many selective pressures operating at once.",
+        ],
+        "items": [
+            "Emotional payoff: Beliefs that soothe fear, confer hope, or organize grievance often spread more easily than austere truths.",
+            "Identity and belonging: An ideology that marks insiders and outsiders can gain durability from social loyalty alone.",
+            "Institutional embedding: Schools, rituals, families, media, and states can reproduce a worldview long after its evidential case weakens.",
+            "Simplicity and memorability: Sharp stories and repeatable slogans travel farther than careful nuance.",
+            "Power alignment: Elites often favor ideologies that justify existing authority or mobilize people toward strategic ends.",
+            "Fecundity advantage: Some systems replicate well because they recruit young, stigmatize exit, and moralize repetition.",
+        ],
+    },
+    ("/philosophical-inquiry/dangers-carrot-stick/", "prompt-1"): {
+        "heading": "Unsubstantiated promises work because they attach hope to outcomes people already badly want.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Carrot-style ideological promises are powerful because they do not invent desires from nothing. They latch onto needs people already have: safety, belonging, status, meaning, justice, healing, certainty, vindication, and some assurance that suffering is not pointless. The ideology then offers these goods in a form that is emotionally vivid but evidentially under-earned.",
+            "A good list should therefore be organized by human appetite, not by random examples. What matters is seeing the recurring categories of promise and noticing how easily they can be detached from serious verification. Once the pattern is visible, the reader becomes less vulnerable to seduction by grand but weakly grounded assurances.",
+            "The practical lesson is not that every promise is false. It is that the more perfectly a promise fits a deep human longing, the more carefully it should be examined before it is allowed to anchor belief.",
+        ],
+        "items": [
+            "Existential promises: ultimate meaning, cosmic purpose, or the assurance that one’s life is part of a larger story.",
+            "Relational promises: unconditional love, permanent belonging, chosen status, or reunion with the lost.",
+            "Moral promises: vindication of the good, eventual justice, or the guarantee that sacrifice will be rewarded.",
+            "Psychological promises: peace, certainty, freedom from doubt, inner transformation, or relief from guilt.",
+            "Material or practical promises: protection, prosperity, healing, success, or providential guidance in everyday life.",
+            "Historical promises: utopia, civilizational renewal, national greatness, or the restoration of a purer past.",
+        ],
+    },
+    ("/philosophical-inquiry/dangers-the-notion-of-fate/", "prompt-2"): {
+        "heading": "Fate becomes a control tool when inevitability is used to suspend judgment and agency.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Ideologies can do a great deal with the notion of fate because fate is emotionally efficient. It can make suffering feel meaningful, obedience feel necessary, and uncertainty feel already settled. Once people believe their path has been scripted by a higher order, many ordinary questions lose force: 'Should I resist this?' becomes 'Who am I to resist what was meant to be?'",
+            "That is where control enters. Fate-talk can redirect responsibility away from evidence and deliberation toward surrender, patience, and trust in the system that claims to interpret the script. The believer is no longer simply making choices under uncertainty; they are being taught to read institutional pressure, inner feeling, or leader guidance as confirmation of what was always destined.",
+            "The idea is powerful because it calms anxiety while narrowing possibility. It relieves the burden of radical uncertainty, but often at the cost of making people easier to steer by whoever claims privileged access to the story of their destiny.",
+        ],
+        "items": [
+            "Inevitability framing: If an outcome is said to be destined, resistance starts to look foolish or impious.",
+            "Interpretive monopoly: Leaders or traditions gain power by claiming to know how fate is unfolding and what it requires.",
+            "Moral anesthesia: Harmful conditions can be endured longer because they are re-described as necessary chapters in a larger plan.",
+            "Agency shrinkage: The believer may stop asking what is wise, justified, or well-evidenced and ask only what seems 'meant.'",
+            "Control payoff: Fate-talk can turn obedience into serenity by making submission feel like alignment with reality itself.",
+        ],
+    },
+    ("/philosophical-inquiry/dangers-the-notion-of-fate/", "prompt-3"): {
+        "heading": "New seekers resist fate-thinking by treating possibility as open until evidence genuinely closes it.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The impulse toward fate is understandable because open futures are tiring. People want the comfort of feeling chosen, guided, or already placed on a track. But that comfort can make a new seeker especially vulnerable to ideologies that promise to decode their destiny for them.",
+            "A better posture is disciplined openness. Instead of asking, 'What was I meant for?' the seeker can ask, 'What evidence do I have, what options remain live, and what kind of person am I becoming through this choice?' That shift matters because it returns agency and calibration to the center of the process.",
+            "The goal is not to become emotionally flat. It is to refuse the premature closure that fate-language often provides. A future can be meaningful without being pre-scripted, and a life can be purposeful without borrowing certainty from an ideology that claims to know the ending in advance.",
+        ],
+        "items": [
+            "Use probabilistic language: Treat major life directions as possibilities, not revelations, until the evidence is stronger.",
+            "Separate longing from insight: A deep desire for significance can be real without constituting evidence of destiny.",
+            "Seek disconfirming input: Consult people and evidence that do not already assume a fated path.",
+            "Keep agency in view: Ask what remains chosen, revisable, and answerable to ordinary consequences.",
+            "Watch for interpreters of your life: Be wary of systems that quickly claim to know what your suffering, gifts, or turning points 'must mean.'",
+        ],
+    },
+    ("/philosophical-inquiry/the-danger-of-resulting/", "prompt-2"): {
+        "heading": "Historical examples help because resulting hides when outcomes are vivid and process is forgotten.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Resulting is the mistake of judging a decision mainly by how things turned out rather than by the quality of the reasoning that led to it. History is full of cases where luck disguised recklessness or where a painful outcome made a thoughtful process look foolish in retrospect.",
+            "That is what makes the concept so useful. Human beings remember outcomes more vividly than decision conditions. Once we know what happened, we start treating the result as if it had been obvious all along. Good process can get punished by bad luck, and bad process can get rewarded by temporary success.",
+            "So a historical list should not merely name disasters or victories. It should show how observers misread decision quality because the outcome hijacked the evaluation.",
+        ],
+        "items": [
+            "Challenger launches before 1986: Earlier successful launches encouraged decision-makers to treat a risky process as acceptable because disaster had not yet happened.",
+            "Pre-2008 mortgage speculation: Years of profit made reckless financial behavior look sophisticated, even though the process was loaded with ignored fragility.",
+            "The Cuban Missile Crisis in public memory: Because catastrophe was avoided, later readers can over-credit every move in the process rather than asking which decisions were wise and which were simply fortunate.",
+            "General lesson: A lucky ending does not cleanse a bad process, and a bad ending does not by itself refute a good one.",
+        ],
+    },
+    ("/philosophical-inquiry/dangers-ideologies-of-mystery/", "prompt-1"): {
+        "heading": "Awe can accompany truth, but awe by itself is not evidence for any particular ideology.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Mystery has real emotional and philosophical force. The problem begins when that force is treated as if it were already a reason to believe a specific worldview. A person feels wonder before the vast, the strange, the beautiful, or the ineffable, and the ideology steps in to say: 'That feeling points here.'",
+            "The danger is not simply confusion. It is the quiet replacement of argument with atmosphere. Once awe is allowed to count as evidence, the burden of justification drops sharply. The ideology no longer has to show that its claims are best supported; it only has to preserve the mood and discourage anyone from asking whether the mood actually discriminates among rival explanations.",
+            "That is why mystery can become such a useful shelter for weak systems. The more beautiful the feeling, the easier it is to make scrutiny look vulgar. But reverence is not the same thing as warrant, and the ineffable is not a blank check for doctrine.",
+        ],
+        "items": [
+            "Underdetermination: The same feeling of awe could be harvested by many incompatible ideologies, so the feeling alone cannot decide between them.",
+            "Mood-evidence confusion: Emotional depth gets mistaken for evidential depth.",
+            "Scrutiny shaming: Ordinary questions begin to look spiritually crude or morally small-minded.",
+            "Doctrinal smuggling: A live mystery is quietly used to import a much more specific worldview than the experience itself supports.",
+            "Better discipline: Keep the wonder, but ask what additional argument takes us from the experience to this ideology rather than to several others or to suspended judgment.",
+        ],
+    },
+    ("/philosophical-inquiry/packaged-vs-eclectic-ideologies/", "prompt-2"): {
+        "heading": "In religion, packaged adoption offers inherited coherence while eclectic adoption offers selective control.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Religious adoption often illustrates the packaged-versus-eclectic contrast very clearly. A packaged adoption receives a tradition in something close to whole form: core doctrines, authority structures, rituals, moral vocabulary, stories, and communal expectations arrive together. An eclectic adoption selects across traditions, taking some beliefs or practices while leaving others behind.",
+            "Neither approach is automatically superior. Packaged religion can give depth, continuity, and a stable communal grammar, but it can also demand too much deference to inherited structures. Eclectic religion can protect freedom and encourage honest revision, but it can also become a spiritually flattering collage whose pieces are never forced to answer to one another.",
+            "So the live question is not which style sounds more authentic. It is which style keeps the seeker more truthful, more accountable to evidence and tension, and less tempted to confuse emotional preference with discovery.",
+        ],
+        "items": [
+            "Packaged religious adoption: The convert or inheritor receives a relatively complete doctrinal and practical system with built-in authority.",
+            "Eclectic religious adoption: The seeker curates a personal mix of practices, symbols, metaphysics, and ethical intuitions from multiple sources.",
+            "Packaged strength: Depth, continuity, and communal discipline can make serious formation more possible.",
+            "Packaged danger: The whole system may be accepted before its parts have each been properly examined.",
+            "Eclectic strength: The seeker can revise, compare, and resist one-source dogmatism more easily.",
+            "Eclectic danger: Personal curation can quietly turn into spiritual consumerism dressed up as wisdom.",
+        ],
+    },
 }
 
 
 def targeted_section_expansion(page: dict, anchor: str) -> dict | None:
     return TARGETED_SECTION_EXPANSIONS.get((page.get("built_path", ""), anchor))
+
+
+def targeted_section_heading(page: dict, anchor: str, default_heading: str) -> str:
+    expansion = targeted_section_expansion(page, anchor)
+    if expansion and expansion.get("heading"):
+        return clean_text(expansion["heading"])
+    return default_heading
 
 
 def apply_targeted_section_expansion(
@@ -3244,10 +7265,11 @@ def apply_targeted_section_expansion(
     expansion = targeted_section_expansion(page, anchor)
     if not expansion:
         return paragraphs, list_items, False
-    expanded_paragraphs = list(paragraphs)
+    expanded_paragraphs = [] if expansion.get("replace_paragraphs") else list(paragraphs)
     for paragraph in expansion.get("paragraphs", []):
         append_unique_paragraph(expanded_paragraphs, paragraph)
-    expanded_items = dedupe(list(list_items) + expansion.get("items", []))
+    base_items = [] if expansion.get("replace_items") else list(list_items)
+    expanded_items = dedupe(base_items + expansion.get("items", []))
     return expanded_paragraphs, expanded_items, True
 
 
@@ -3346,6 +7368,7 @@ def rewrite_source_sentence(text: str) -> str:
         for pattern, replacement in replacements:
             sentence = re.sub(pattern, replacement, sentence)
         sentence = rewrite_unavailable_asset_references(sentence)
+        sentence = collapse_duplicate_function_words(sentence)
         sentence = re.sub(r"\s+([.,;:!?])", r"\1", sentence)
         sentence = re.sub(r"([.!?][”\"])\.", r"\1", sentence)
         sentence = compact_text(sentence, 280).strip()
@@ -3576,6 +7599,7 @@ def clarify_prompt(text: str) -> str:
         flags=re.IGNORECASE,
     )
     prompt = rewrite_unavailable_asset_references(prompt)
+    prompt = collapse_duplicate_function_words(prompt)
     if prompt:
         prompt = prompt[0].upper() + prompt[1:]
     return prompt
@@ -4794,7 +8818,15 @@ def prompt_key_phrase(prompt: str, fallback: str) -> str:
 def source_prompt_heading(prompt: str, topic: str, detail: dict | None) -> str:
     labels = source_detail_labels(detail)
     if labels:
-        center = labels[0].strip(" .:")
+        center = ""
+        for candidate in labels:
+            candidate = candidate.strip(" .:")
+            if candidate.lower() == topic.lower():
+                continue
+            if not is_low_value_heading(candidate):
+                center = candidate
+                break
+        center = center or labels[0].strip(" .:")
         lowered_center = center.lower()
         if not (
             prompt_focus(prompt) == "inquiry"
@@ -4812,7 +8844,7 @@ def command_like_key(text: str) -> bool:
     lowered = clean_text(text).lower()
     return bool(
         re.match(
-            r"^(analyze|argue|assess|clarify|compare|contrast|construct|define|demonstrate|describe|discuss|evaluate|give|highlight|identify|imagine|list|offer|outline|present|produce|provide|rank|reformulate|restate|score|show|summarize|using|write|generate|line hypothetical)\b",
+            r"^(analyze|argue|assess|clarify|comment|compare|contrast|construct|define|demonstrate|describe|discuss|elaborate|enumerate|evaluate|expound|give|highlight|identify|imagine|list|offer|outline|present|produce|provide|rank|reformulate|restate|score|show|summarize|using|write|generate|line hypothetical)\b",
             lowered,
         )
         or "the central pressure" in lowered
@@ -4885,6 +8917,18 @@ def semantic_hook_items(page: dict, prompt: str = "", detail: dict | None = None
         lowered_hook = hook.lower()
         if not hook or command_like_key(hook) or is_source_artifact_label(hook):
             continue
+        if lowered_hook.startswith((
+            "this inquiry seeks",
+            "this section seeks",
+            "this page seeks",
+            "beginning with",
+            "starting with",
+            "using the following",
+            "concisely define",
+        )):
+            continue
+        if lowered_hook in {"introduction", "summary", "overview"}:
+            continue
         if lowered_hook in {
             "misalignment elaboration",
             "analysis of the key concepts",
@@ -4923,27 +8967,27 @@ def semantic_map_paragraph(page: dict, prompt: str = "", detail: dict | None = N
     if len(hooks) >= 3:
         if focus == "mapping":
             return (
-                f"The orienting landmarks here are {serial_join(hooks[:3])}. "
-                "Read them comparatively: which piece defines the terrain, which one bears the argumentative weight, and where the tensions start to surface."
+                f"Keep {serial_join(hooks[:3])} in view at the same time. "
+                "The point is to see which part carries the weight, which part depends on another, and where the tension starts."
             )
         if focus == "examples":
             return (
-                f"The section comes into focus through {serial_join(hooks[:3])}. "
-                "Taken together, they show what is being tested, where the strain appears, and what changes in judgment once the example is taken seriously."
+                f"Read the section through {serial_join(hooks[:3])}. "
+                "Together they show what is being tested, where the strain appears, and what changes once the example is taken seriously."
             )
         return (
-            f"The section turns on {serial_join(hooks[:3])}. "
-            "Those pieces matter because they show what is being claimed, where it is tested, and what would change if the distinction actually holds."
+            f"Keep {serial_join(hooks[:3])} in the same frame. "
+            "That is what shows what the page is claiming, where it gets tested, and what would have to change if the claim is right."
         )
     anchor = hooks[0]
     if focus == "definition":
         return (
             f"Start with {anchor}. "
-            f"If that stays blurry, {topic} may sound clear while still failing the hard cases."
+            f"If that stays blurry, the rest of {topic} cannot do much work."
         )
     return (
         f"Start with {anchor}. "
-        f"Without it, {topic} can sound important while still leaving the reader unsure how to sort the case in front of them."
+        f"Without that first grip, {topic} can sound weighty while staying hard to use."
     )
 
 
@@ -5075,24 +9119,26 @@ def prompt_heading(prompt: str, topic: str) -> str:
     key = clean_discussion_key(short_prompt_key(prompt, topic), topic, topic)
     if command_like_key(key):
         key = topic
+    if topic_is_question_like(topic) and key.lower() == topic.lower():
+        return generic_heading_for_question_topic(focus)
     if focus == "dialogue":
-        return f"The exchange should show what {topic} can still say under pressure."
+        return f"What the exchange brings out about {topic}."
     if focus == "description":
-        return f"A good description of {key} should teach the reader what to notice."
+        return f"How to get a usable grip on {key}."
     if focus == "examples":
-        return f"The examples should show what {topic} looks like on the ground."
+        return f"What {topic} looks like in a real case."
     if focus == "mapping":
-        return f"Mapping {topic} should reveal structure, rivalry, and dependence."
+        return f"How the pieces of {topic} fit together."
     if focus == "argument":
-        return f"The argument about {topic} lives or dies with a disputed premise."
+        return f"Where the argument about {topic} gets tested."
     if focus == "definition":
-        return f"A definition of {topic} should survive the hard cases."
+        return f"What {topic} needs to mean once the easy cases are out of the way."
     topic_for_heading = topic
-    if re.match(r"^(are|can|could|did|do|does|how|is|should|what|when|where|why)\b", topic, re.IGNORECASE):
-        return "The question matters only if it becomes precise enough to settle something."
+    if topic_is_question_like(topic):
+        return "The question only helps once it gets precise."
     if topic_for_heading.startswith("The "):
         topic_for_heading = "the " + topic_for_heading[4:]
-    return f"Clear standards are what make {topic_for_heading} useful."
+    return f"What matters most in {topic_for_heading}."
 
 
 def prompt_response_paragraphs(page: dict, prompt: str, index: int, detail: dict | None = None) -> list[str]:
@@ -5104,11 +9150,11 @@ def prompt_response_paragraphs(page: dict, prompt: str, index: int, detail: dict
 
     def pressure_sentence(key_text: str) -> str:
         if key_text in {"the central question", "the opening question", "the opening pressure", "this question"}:
-            if re.match(r"^(are|can|could|did|do|does|how|is|should|what|when|where|why)\b", topic, re.IGNORECASE):
-                return "The opening task is to make the question precise enough that disagreement can be about the issue itself rather than a blur of half-meanings."
-            return f"The opening task is to make {topic} precise enough that disagreement can land on the issue itself rather than on a blur of half-meanings."
+            if topic_is_question_like(topic):
+                return "First get clear on the question itself. Otherwise the disagreement never quite lands on the real issue."
+            return f"First get clear on {topic}. Otherwise the disagreement never quite lands on the real issue."
         readable_key = key_text[:1].upper() + key_text[1:] if key_text else "The central issue"
-        return f"The live issue is {readable_key}. This is where {topic} has to start guiding judgment."
+        return f"The live issue is {readable_key}. This is where {topic} starts to guide judgment instead of merely sounding important."
 
     if detail and (labels or claim):
         paragraphs = []
@@ -5135,13 +9181,13 @@ def prompt_response_paragraphs(page: dict, prompt: str, index: int, detail: dict
                     )
             elif all(label_role(label) == "a load-bearing piece" for label in clean_labels):
                 paragraphs.append(
-                    f"The section turns on {serial_join(clean_labels)}. "
-                    "Each piece is doing different work, and the page becomes thinner if the reader cannot say what is being identified, what is being tested, and what would change if one piece were removed."
+                    f"Keep {serial_join(clean_labels)} in the same frame. "
+                    "Each piece is doing a different job, and the page gets muddy if the reader cannot say what is being identified, what is being tested, and what would change if one piece disappeared."
                 )
             else:
                 paragraphs.append(
-                    f"The section works by contrast: {serial_join(roles)}. "
-                    "The reader should be able to say why each part is present and what confusion follows if the distinctions collapse into one another."
+                    f"Read the section by contrast: {serial_join(roles)}. "
+                    "Each part is there for a reason, and the reader should be able to say what gets lost if those distinctions collapse together."
                 )
         else:
             key = short_prompt_key(prompt, topic)
@@ -5163,13 +9209,13 @@ def prompt_response_paragraphs(page: dict, prompt: str, index: int, detail: dict
                 )
             else:
                 paragraphs.append(
-                    f"The important discipline is to keep {first_label} distinct from {second_label}. "
-                    "They are not interchangeable bits of vocabulary; they direct the reader toward different judgments, objections, or next steps."
+                    f"Keep {first_label} distinct from {second_label}. "
+                    "They are not interchangeable bits of vocabulary; they point the reader toward different judgments, objections, or next steps."
                 )
         else:
             paragraphs.append(
                 f"{semantic_map_paragraph(page, prompt, detail)} "
-                "The reader should be able to say what confusion appears when those distinctions are blurred together."
+                "If those distinctions blur together, the reader loses track of what is actually being claimed."
             )
         return paragraphs[:3]
 
@@ -5383,6 +9429,33 @@ def support_item_body(label: str, page: dict, prompt: str, focus: str) -> str:
     if page["section_id"] == "epistemology":
         return (
             "The epistemic pressure is how evidence, uncertainty, and responsible confidence interact before the reader accepts or rejects the claim."
+        )
+
+    if page["section_id"] == "philosophical-inquiry":
+        if "belief being protected" in label_lower:
+            return "Ask which conclusion, identity, or sacred assumption the view cannot afford to lose; that usually tells you what the reasoning is protecting."
+        if "evidence being avoided" in label_lower:
+            return "The important question is not whether evidence exists in the abstract, but which observations, comparisons, or counterexamples the system keeps at arm's length."
+        if "social reward for certainty" in label_lower:
+            return "Many bad arguments survive because confidence is socially rewarded long before accuracy is checked."
+        if "better question" in label_lower or "reopen inquiry" in label_lower:
+            return "A good replacement question should create room for evidence, comparison, and revision rather than protecting the preferred conclusion."
+        if "central distinction" in label_lower:
+            return "The central distinction matters because it stops the page from collapsing different kinds of claim, evidence, and motivation into one rhetorical lump."
+        if "best charitable version" in label_lower:
+            return "The charitable version should make the view strong enough that criticism reaches the real target rather than an easy caricature."
+        if "pressure point" in label_lower:
+            return "This is where the idea is most likely to overreach, smuggle in an assumption, or evade a fair test."
+        if "revision test" in label_lower or "revision trigger" in label_lower:
+            return "If nothing could make the view change, the section has stopped teaching inquiry and started training loyalty."
+        if "format bias" in label_lower:
+            return "A live format can make compression, confidence, and timing look like evidence even when they are doing very different work."
+        if "audience capture" in label_lower:
+            return "Once pleasing the crowd becomes part of the task, truth-tracking and performance can start pulling in opposite directions."
+        if "asymmetry problem" in label_lower:
+            return "A quick oversimplification can be launched in seconds, while a responsible correction often needs context, patience, and background knowledge."
+        return (
+            "What matters here is whether the claim makes a mind more answerable to reality or merely more skillful at defending itself."
         )
 
     if page["section_id"] == "economics":
@@ -5617,17 +9690,17 @@ def sequence_context_paragraph(page: dict, prompt: str, prompts: list[str], inde
             next_key = "the next pressure"
         if is_generic_sequence_key(next_key):
             return (
-                f"This opening move sets the terms for the rest of the page. "
-                "It gives the reader a stable grip on the issue, so the later prompts can deepen it rather than circle around it."
+                "The first move should give the reader something firm to hold. "
+                "Then the later prompts can deepen the issue instead of circling it."
             )
         if next_key == key_text:
             return (
-                "This opening move sets the terms for the rest of the page. "
-                f"It gives the reader a stable grip on {key_text} so the later prompts can deepen it rather than merely repeat it."
+                f"The first move should give the reader a firm grip on {key_text}. "
+                "Then the later prompts can sharpen it instead of merely repeating it."
             )
         return (
-            f"This opening move sets the terms for the rest of the page. "
-            f"It gives the reader a stable grip on {key_text} so the next prompt can press {next_key} without making the discussion restart."
+            f"The first move should give the reader a firm grip on {key_text}. "
+            f"That lets the next prompt press {next_key} without making the whole discussion start over."
         )
 
     if index == total:
@@ -5638,22 +9711,22 @@ def sequence_context_paragraph(page: dict, prompt: str, prompts: list[str], inde
             key_text = "the central issue"
         if is_generic_sequence_key(previous_key) and is_generic_sequence_key(key_text):
             return (
-                "By the time the page reaches this final prompt, the clearing work should already be done. "
-                "This last move should gather the earlier distinctions into a closing judgment rather than ending with a disconnected answer."
+                "By this point the clearing work should already be done. "
+                "The last move should gather the earlier distinctions into a judgment the reader can actually use."
             )
         if is_generic_sequence_key(previous_key):
             return (
-                "By the time the page reaches this final prompt, the clearing work should already be done. "
-                f"This last move gathers those distinctions around {key_text}, so the page closes with a more disciplined view rather than a disconnected answer."
+                "By this point the clearing work should already be done. "
+                f"The last move gathers those distinctions around {key_text}, so the page closes with a more usable judgment."
             )
         if is_generic_sequence_key(key_text):
             return (
                 f"The earlier sections should already have put {previous_key} in motion. "
-                "This final prompt gathers that pressure into a closing judgment rather than tagging on a last answer that never quite joins the rest."
+                "The last prompt should gather that pressure into a closing judgment rather than tagging on an answer that never quite joins the rest."
             )
         return (
             f"The earlier sections should already have put {previous_key} in motion. "
-            f"This final prompt gathers that pressure around {key_text}, so the page closes with a more disciplined view rather than a disconnected answer."
+            f"The last prompt gathers that pressure around {key_text}, so the page closes with a more disciplined view rather than a disconnected answer."
         )
 
     previous_key = clean_discussion_key(short_prompt_key(prompts[index - 2], topic), topic, "the previous step")
@@ -5668,8 +9741,8 @@ def sequence_context_paragraph(page: dict, prompt: str, prompts: list[str], inde
         next_key = "the next step"
     if is_generic_sequence_key(previous_key) and is_generic_sequence_key(next_key):
         return (
-            "This middle step keeps the sequence honest. "
-            "It takes the pressure already on the table and turns it toward the next distinction rather than letting the page break into separate mini-essays."
+            "This middle step keeps the thread moving. "
+            "It carries the pressure already on the table toward the next distinction instead of letting the page break into separate mini-essays."
         )
     if is_generic_sequence_key(previous_key):
         return (
@@ -5679,11 +9752,11 @@ def sequence_context_paragraph(page: dict, prompt: str, prompts: list[str], inde
     if is_generic_sequence_key(next_key):
         return (
             f"This middle step carries forward {previous_key}. "
-            "It shows what that earlier distinction changes before the page asks the reader to carry it any farther."
+            "It shows what that earlier distinction changes before the page asks the reader to carry it farther."
         )
     return (
         f"This middle step takes the pressure from {previous_key} and turns it toward {next_key}. "
-        "That is what keeps the page cumulative rather than episodic."
+        "That is what keeps the page cumulative instead of episodic."
     )
 
 
@@ -5731,8 +9804,9 @@ def intermediate_reader_paragraph(page: dict, prompt: str, focus: str) -> str:
         "philosophical-inquiry": "The inquiry pressure is self-suspicion: the reader has to ask which conclusion is being protected by identity, habit, or tribe.",
     }
 
+    hook_text = serial_join(compact_hooks or [topic])
     return (
-        f"Use {serial_join(compact_hooks or [topic])} as working handles rather than as labels to repeat. "
+        f"Treat {hook_text} as handles, not slogans. "
         f"{focus_guides.get(focus, focus_guides['inquiry'])} {branch_guides.get(section_id, profile['pressure'])}"
     )
 
@@ -5745,27 +9819,27 @@ def editorial_insight_paragraph(page: dict, prompt: str, focus: str) -> str:
 
     if section_id == "ethics":
         return (
-            f"What often goes wrong in {topic} is that motivational force gets mistaken for justificatory force. "
-            f"A claim can feel urgent, humane, or socially necessary while still needing an account of what makes it binding."
+            f"A common mistake in {topic} is to confuse motivational force with justificatory force. "
+            "A claim can feel urgent, humane, or socially necessary while still needing an account of what, if anything, makes it binding."
         )
     if section_id == "epistemology":
         return (
             f"The deeper issue in {topic} is usually calibration, not a melodrama between certainty and skepticism. "
-            f"That makes {key_text} a question about the right degree of confidence before it becomes a slogan."
+            f"That turns {key_text} into a question about the right degree of confidence before it hardens into a slogan."
         )
     if section_id == "philosophy-of-science":
         return (
-            f"The real methodological question in {topic} is how the view handles error. "
-            f"A view becomes more scientific when it can say what would count against it, not merely what makes it attractive."
+            f"The methodological question in {topic} is how the view handles error. "
+            "A view becomes more scientific when it can say what would count against it, not merely what makes it attractive."
         )
     if section_id == "philosophy-of-ai":
         return (
-            "The human-machine exchange is strongest when the machine expands the field of considerations and the human remains answerable for selection, emphasis, and judgment."
+            "The human-machine exchange is healthiest when the machine expands the field of considerations and the human remains answerable for selection, emphasis, and judgment."
         )
     if section_id == "rational-thought":
         return (
             f"The real test of {topic} is whether it trains a transferable habit. "
-            f"If the reader cannot use {key_text} in a neighboring case, the answer has not yet become practical rationality."
+            f"If the reader cannot use {key_text} in a neighboring case, the page has not yet become practical rationality."
         )
     if section_id == "philosophers":
         return (
@@ -5775,7 +9849,7 @@ def editorial_insight_paragraph(page: dict, prompt: str, focus: str) -> str:
 
     if focus == "definition":
         return (
-            f"A definition becomes philosophical when it disciplines use. "
+            "A definition becomes philosophical when it disciplines use. "
             f"It should tell the reader what would count as a misuse of {topic}, not merely what the term roughly means."
         )
     if focus == "mapping":
@@ -5784,8 +9858,8 @@ def editorial_insight_paragraph(page: dict, prompt: str, focus: str) -> str:
             f"What it puts at the center, what it treats as derivative, and what it leaves unstable all shape how {topic} will be understood."
         )
     return (
-        f"{topic} should remain connected to a live intellectual practice. "
-        f"The response is strongest when {key_text} changes how the reader would question, compare, or revise a neighboring claim."
+        f"{topic} should remain tied to a live intellectual practice. "
+        f"The response earns its keep when {key_text} changes how the reader would question, compare, or revise a neighboring claim."
     )
 
 
@@ -5845,8 +9919,18 @@ def learning_context_labels(page: dict, prompt: str, detail: dict | None, limit:
         candidate = display_label(strip_number_prefix(clean_text(label))).strip(" .:")
         if not candidate or candidate.lower() == topic.lower():
             continue
+        if candidate.lower().startswith((
+            "this inquiry seeks",
+            "this section seeks",
+            "this page seeks",
+            "beginning with",
+            "starting with",
+            "using the following",
+            "concisely define",
+        )):
+            continue
         lowered_candidate = candidate.lower()
-        if lowered_candidate in {"summary", "introduction", "conclusion"}:
+        if lowered_candidate in {"summary", "introduction", "overview", "conclusion"}:
             continue
         if lowered_candidate.startswith((
             "dialogue between ",
@@ -5925,7 +10009,7 @@ def detail_specific_learning_item(page: dict, prompt: str, detail: dict | None, 
         turn_text = serial_join(turns[:3])
         return (
             f"The exchange works only if its movement through {turn_text or 'claim, objection, and reply'} "
-            "keeps bringing the issue into clearer focus. Each move should add pressure, clarity, or resistance, not just more length."
+            "keeps bringing the issue into clearer focus. Each move should add pressure, clarity, or resistance, not just make the page longer."
         )
     if focus == "definition":
         return (
@@ -5948,7 +10032,7 @@ def detail_specific_learning_item(page: dict, prompt: str, detail: dict | None, 
     if focus == "examples":
         return f"Use the example as a stress test: {focus_key} should survive contact with a concrete case, not just sound tidy in abstraction."
     return (
-        f"Use {discussion_text} as the page's working clues. Each should narrow the field rather than merely decorate it."
+        f"Use {discussion_text} as the page's working clues. Each should help the reader see something, not just add another label."
     )
 
 
@@ -6180,46 +10264,46 @@ def exceptional_editorial_paragraph(page: dict, prompt: str, focus: str) -> str:
 
     if section_id == "philosophers":
         return (
-            f"This section is strongest when it does more than announce that {topic} mattered; it should show the reader the machinery of that influence in motion. "
-            f"A philosopher reduced to a label becomes a marble bust with the argument switched off, impressive perhaps, but not yet doing philosophy."
+            f"Do not settle for the marble-bust version of {topic}. "
+            f"This section earns its keep when it shows the machinery of the philosopher's influence in motion rather than pinning a doctrine under glass."
         )
     if section_id == "epistemology":
         return (
-            "This section is strongest when it asks for better-tuned confidence rather than simply more confidence. "
-            f"The section should show what would rationally raise, lower, or suspend belief, because epistemic maturity is measured by calibration, not volume."
+            "What matters here is better-tuned confidence, not louder confidence. "
+            "The section should show what would rationally raise, lower, or suspend belief, because epistemic maturity is measured by calibration, not volume."
         )
     if section_id == "ethics":
         return (
-            "This section is strongest when it keeps the moral nerve exposed without letting rhetoric do the surgery. "
-            f"If this pressure is doing real work, it should survive contact with disagreement, not merely glow warmly inside agreement."
+            "This section earns its keep only if it keeps the moral nerve exposed without letting rhetoric do the surgery. "
+            "If the pressure is real, it should survive contact with disagreement rather than glow warmly inside agreement."
         )
     if section_id == "rational-thought":
         return (
-            f"This section is strongest when it passes a transfer test: the reader should be able to carry {key_text} into a fresh case and notice a mistake sooner than before. "
-            f"Otherwise the page has only named the tool while leaving it politely in the drawer."
+            f"The payoff here is transfer. The reader should be able to carry {key_text} into a fresh case and notice a mistake sooner than before. "
+            "Otherwise the page has named the tool while leaving it politely in the drawer."
         )
     if focus == "definition":
         return (
-            f"The answer is strongest when it leaves the reader with a usable test for borderline cases. "
+            "The payoff of a definition is a usable boundary test. "
             f"If {key_text} never changes how cases get sorted, the section still needs sharper edges."
         )
     if focus == "mapping":
         return (
-            "The answer is strongest when it leaves the reader with a clearer sense of dependence, priority, and rivalry. "
+            "The payoff of a map is a better sense of dependence, priority, and rivalry. "
             f"If {key_text} never changes how the map gets read, the section is still describing territory rather than charting it."
         )
     if focus == "examples":
         return (
-            "The answer is strongest when it shows what changes once the idea is forced into a concrete case. "
-            f"If {key_text} survives only in the abstract, the page has not finished the job."
+            "The point of the example is to watch the idea survive contact with a case. "
+            f"If {key_text} works only in the abstract, the page has not finished the job."
         )
     if focus == "dialogue":
         return (
-            "The exchange is strongest when it leaves the reader with a cleaner sense of what the disagreement is really about. "
+            "The point of the exchange is to clarify what the disagreement is really about. "
             f"If {key_text} never alters what the next speaker can honestly say, the dialogue is still too decorative."
         )
     return (
-        "The answer is strongest when it leaves the reader with a sharper next question. "
+        "The page earns its place by leaving the reader with a sharper next question. "
         f"If {key_text} cannot guide the next inquiry, the section has not yet earned its place."
     )
 
@@ -6231,6 +10315,113 @@ def append_unique_paragraph(paragraphs: list[str], candidate: str) -> None:
     normalized_existing = {clean_text(paragraph).lower() for paragraph in paragraphs}
     if normalized_candidate not in normalized_existing:
         paragraphs.append(candidate)
+
+
+def section_text_blob(paragraphs: list[str], list_items: list[str]) -> str:
+    return " ".join(clean_text(part) for part in paragraphs + list_items)
+
+
+def has_concrete_example_support(
+    detail: dict | None,
+    paragraphs: list[str],
+    list_items: list[str],
+) -> bool:
+    if detail and (detail.get("tables") or detail.get("dialogue_turns")):
+        return True
+    combined = section_text_blob(paragraphs, list_items)
+    return bool(
+        re.search(
+            r"\b(for example|for instance|consider|imagine|suppose|picture this|picture a|take a simple case|take the case|in practice|an ordinary case|a small case|street level)\b",
+            combined,
+            flags=re.IGNORECASE,
+        )
+    )
+
+
+def has_dialectical_support(
+    detail: dict | None,
+    paragraphs: list[str],
+    list_items: list[str],
+) -> bool:
+    if detail and len(detail.get("dialogue_turns", [])) >= 4:
+        return True
+    combined = section_text_blob(paragraphs, list_items)
+    return bool(
+        re.search(
+            r"\b(objection|critic|pushback|fair question|fair worry|reply|counterpoint|one might say|someone might say|a reasonable person could object)\b",
+            combined,
+            flags=re.IGNORECASE,
+        )
+    )
+
+
+def worked_example_paragraph(page: dict, prompt: str, detail: dict | None, focus: str) -> str:
+    topic = topic_label(page["title"])
+    key = short_prompt_key(prompt, topic)
+    key_text = clean_discussion_key(key, topic, "the central distinction")
+    if command_like_key(key_text):
+        key_text = topic
+    labels = learning_context_labels(page, prompt, detail, 3)
+    label_text = serial_join(labels[:2]) or key_text
+
+    if focus == "definition":
+        return (
+            f"Try a live borderline case. Imagine two readers using the same word but disagreeing over whether {label_text} really belongs under {topic}. "
+            "The definition earns its keep only if it gives a reason to sort the case one way rather than shrug and let the word do whatever it likes."
+        )
+    if focus == "mapping":
+        return (
+            f"Put the map to work in a small case. Start with {label_text}, then ask what is upstream, what depends on it, and what could shift without collapsing the rest. "
+            "That is when the map stops being a diagram and starts becoming a guide."
+        )
+    if focus == "argument":
+        return (
+            f"Bring the issue down to street level. Imagine a careful critic granting most of the background but resisting {key_text}. "
+            "Which downstream claim now loses support? That is usually where the argument's real weight is hiding."
+        )
+    if focus == "examples":
+        return (
+            f"Do not let the example sit there like a decorative vase. Ask what {label_text} makes easier to see in the concrete case that was easy to miss in abstraction. "
+            "If nothing new becomes visible, the example has not yet done its job."
+        )
+    return (
+        f"A quick way to test the page is to imagine an ordinary disagreement in which {key_text} matters. "
+        f"What would a careful reader now say, test, or withhold because {label_text} has been made clearer? If the page cannot answer that, it still needs more contact with life."
+    )
+
+
+def dialogical_pressure_paragraph(page: dict, prompt: str, focus: str) -> str:
+    topic = topic_label(page["title"])
+    key = short_prompt_key(prompt, topic)
+    key_text = clean_discussion_key(key, topic, "the familiar reading")
+    if command_like_key(key_text):
+        key_text = topic
+    section_id = page["section_id"]
+
+    if section_id == "ethics":
+        return (
+            "A fair pushback is that decent people often know what they mean morally long before they can theorize it neatly. "
+            "True enough. The page still has to show what that first moral reaction gets right, what it blurs, and why the distinction matters once disagreement becomes serious."
+        )
+    if section_id == "epistemology":
+        return (
+            "A fair pushback is that ordinary life cannot wait for perfect evidence. "
+            "That is true, but it does not give favored beliefs a free pass. The section should show how acting under uncertainty differs from excusing weak support."
+        )
+    if section_id == "rational-thought":
+        return (
+            "A fair pushback is that real decisions often happen quickly. "
+            "The point is not to abolish speed; it is to notice which shortcut is harmless and which one quietly rigs the outcome before the reasoning even starts."
+        )
+    if focus == "mapping":
+        return (
+            f"A fair question is why this map is needed at all. Why not just keep {key_text} in one loose pile and move on? "
+            "The section has to answer by showing what confusion appears when the parts are not separated."
+        )
+    return (
+        f"A fair pushback is that the familiar way of speaking about {key_text} already seems good enough. "
+        "The page should answer that in plain language: what mistake does the familiar wording invite, and what becomes clearer if we tighten the distinction?"
+    )
 
 
 def editorial_polish_content(
@@ -6257,9 +10448,20 @@ def editorial_polish_content(
         polished_items = dedupe(polished_items)
 
     polished_paragraphs = list(paragraphs)
+    if (
+        focus in {"definition", "mapping", "argument", "examples", "inquiry", "description"}
+        and not has_concrete_example_support(detail, polished_paragraphs, polished_items)
+    ):
+        append_unique_paragraph(polished_paragraphs, worked_example_paragraph(page, prompt, detail, focus))
     append_unique_paragraph(polished_paragraphs, sequence_context_paragraph(page, prompt, prompts, index))
     if len(polished_paragraphs) < 4 or content_word_count(polished_paragraphs, polished_items) < 220:
         append_unique_paragraph(polished_paragraphs, intermediate_reader_paragraph(page, prompt, focus))
+    if (
+        page["section_id"] != "philosophers"
+        and focus != "dialogue"
+        and not has_dialectical_support(detail, polished_paragraphs, polished_items)
+    ):
+        append_unique_paragraph(polished_paragraphs, dialogical_pressure_paragraph(page, prompt, focus))
     if len(polished_paragraphs) < 4 or content_word_count(polished_paragraphs, polished_items) < 255:
         append_unique_paragraph(polished_paragraphs, editorial_insight_paragraph(page, prompt, focus))
     if content_word_count(polished_paragraphs, polished_items) < 235:
@@ -6274,7 +10476,7 @@ def editorial_polish_content(
     if page["section_id"] == "philosophers" or (len(polished_paragraphs) < 5 and content_word_count(polished_paragraphs, polished_items) < 300):
         append_unique_paragraph(polished_paragraphs, exceptional_editorial_paragraph(page, prompt, focus))
 
-    return polished_paragraphs[:8], polished_items[:6]
+    return polished_paragraphs[:9], polished_items[:6]
 
 
 def content_word_count(paragraphs: list[str], list_items: list[str]) -> int:
@@ -6311,6 +10513,17 @@ def polish_review_content(
         polished_items = dedupe(polished_items)
 
     polished_paragraphs = list(paragraphs)
+    if (
+        focus in {"definition", "mapping", "argument", "examples", "inquiry", "description"}
+        and not has_concrete_example_support(detail, polished_paragraphs, polished_items)
+    ):
+        polished_paragraphs.append(worked_example_paragraph(page, prompt, detail, focus))
+    if (
+        page["section_id"] != "philosophers"
+        and focus != "dialogue"
+        and not has_dialectical_support(detail, polished_paragraphs, polished_items)
+    ):
+        polished_paragraphs.append(dialogical_pressure_paragraph(page, prompt, focus))
     if len(polished_paragraphs) < 3 or content_word_count(polished_paragraphs, polished_items) < 170:
         polished_paragraphs.append(
             f"If this section still feels thin, it needs three things: a clear claim about {key}, "
@@ -6322,7 +10535,7 @@ def polish_review_content(
             "and it should leave behind a question, distinction, or objection worth carrying forward."
         )
 
-    return polished_paragraphs[:4], polished_items[:6]
+    return polished_paragraphs[:6], polished_items[:6]
 
 
 def section_list_items(page: dict, index: int, prompt: str, detail: dict | None = None) -> list[str]:
@@ -6411,6 +10624,9 @@ def quality_assessment(
         sum(len(clean_text(item).split()) for item in list_items) / max(len(list_items), 1),
         1,
     )
+    focus = prompt_focus(prompt)
+    example_support = has_concrete_example_support(detail, paragraphs, list_items)
+    dialectical_support = has_dialectical_support(detail, paragraphs, list_items)
     claim = first_source_claim(detail)
     robust_reconstruction = (
         word_count >= 170
@@ -6489,6 +10705,16 @@ def quality_assessment(
 
     if continuity_scaffold:
         score += 4
+    if example_support:
+        score += 4
+    elif word_count >= 210 and focus in {"definition", "mapping", "argument", "examples", "inquiry", "description"}:
+        score -= 4
+        reasons.append("The section stays abstract longer than it should and would benefit from a worked example.")
+    if dialectical_support:
+        score += 4
+    elif word_count >= 210 and focus != "dialogue":
+        score -= 3
+        reasons.append("The section would be stronger if it named a fair objection or pushback in plain language.")
     if hand_polished:
         score += 10
         reasons.append("This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.")
@@ -6533,6 +10759,10 @@ def quality_assessment(
             gap_reasons.append("Needs a little more argumentative texture before it reaches the exceptional bar.")
         if avg_item_words < 16:
             gap_reasons.append("Support items should become more explanatory and less list-like.")
+        if not example_support and focus in {"definition", "mapping", "argument", "examples", "inquiry", "description"}:
+            gap_reasons.append("A worked example would help the reader see the distinction at street level.")
+        if not dialectical_support and focus != "dialogue":
+            gap_reasons.append("A fair objection-and-reply moment would make the section feel more alive and more rigorous.")
         if metrics["labels"] <= 1 and metrics["sourceParagraphs"] <= 1 and metrics["tables"] == 0 and metrics["dialogueTurns"] < 4:
             gap_reasons.append("Source hierarchy is sparse; later hand-curation should add examples, objections, or context.")
     if philosopher_gap:
@@ -6599,7 +10829,11 @@ def source_prompt_sections(page: dict, prompts: list[str]) -> list[dict]:
             {
                 "id": anchor,
                 "eyebrow": "Composite Response",
-                "heading": source_prompt_heading(prompt, topic_label(page["title"]), detail),
+                "heading": targeted_section_heading(
+                    page,
+                    anchor,
+                    source_prompt_heading(prompt, topic_label(page["title"]), detail),
+                ),
                 "paragraphs": paragraphs,
                 "list_items": list_items,
                 "comparison_tables": (detail or {}).get("tables", []),
@@ -6636,7 +10870,7 @@ def source_prompt_sections(page: dict, prompts: list[str]) -> list[dict]:
         {
             "id": "synthesis",
             "eyebrow": "Synthesis",
-            "heading": f"The through-line is {semantic_hook_phrase(page)}.",
+            "heading": "What ties this page together.",
             "paragraphs": synthesis_paragraphs,
             "question_items": discussion_questions(page, page.get("thread_like", [])),
         }
@@ -7511,7 +11745,7 @@ def quiz_context(page: dict, sections: list[dict], prompts: list[tuple[str, str]
         "first_eyebrow": clean_text(first_section.get("eyebrow", "")) or "Orientation",
         "first_prompt": first_prompt,
         "first_key": first_key,
-        "synthesis_heading": clean_text(synthesis.get("heading", "")) or f"The through-line is {semantic_hook_phrase(page)}.",
+        "synthesis_heading": clean_text(synthesis.get("heading", "")) or "What ties this page together.",
         "synthesis_paragraph": compact_text(" ".join(synthesis.get("paragraphs", [])[:2]), 130),
         "terms": terms,
         "children": child_titles,
@@ -7537,11 +11771,16 @@ def quiz_title_for_context(ctx: dict) -> str:
 def quiz_focus_phrase(term: str) -> str:
     cleaned = clean_text(term).strip(" .:")
     lowered = cleaned.lower()
+    words = cleaned.split()
+    if words and words[-1].lower() in {"and", "or", "of", "to", "with", "for", "in", "the", "a", "an"}:
+        cleaned = " ".join(words[:-1]).strip()
+        lowered = cleaned.lower()
     if (
         not cleaned
         or len(cleaned.split()) > 7
         or lowered.startswith(("if ", "when ", "while ", "because ", "whether ", "which ", "what ", "how ", "why "))
         or re.search(r"\b(used the phrase|refers to|means that|is the|are the)\b", lowered)
+        or "," in cleaned
     ):
         return "the central test case"
     return cleaned
@@ -8098,8 +12337,8 @@ def reading_path_recommendations(page: dict) -> tuple[list[dict], list[dict]]:
                 before,
                 parent_path,
                 immediate_parent,
-                "Wider frame",
-                f"{immediate_parent} gives this page its broader frame before the argument narrows into the present pressure.",
+                "Start wider",
+                f"Start here if the current page feels compressed: {immediate_parent} gives the broader frame before the argument narrows into the present pressure.",
             )
 
     for route, index in page_route_matches(page):
@@ -8110,7 +12349,7 @@ def reading_path_recommendations(page: dict) -> tuple[list[dict], list[dict]]:
                 before,
                 previous["path"],
                 previous["title"],
-                route["title"],
+                "Earlier step",
                 f"In the route “{route['title']},” this page lands better after {previous['title']}, where the setup has already been clarified.",
             )
 
@@ -8119,7 +12358,7 @@ def reading_path_recommendations(page: dict) -> tuple[list[dict], list[dict]]:
             before,
             branch_guide_path(section_id),
             f"{section_name} Branch Guide",
-            "Section guide",
+            "Start with map",
             f"If this page feels abrupt, start with the {section_name} branch guide so the wider map is visible before the close reading begins.",
         )
 
@@ -8129,7 +12368,7 @@ def reading_path_recommendations(page: dict) -> tuple[list[dict], list[dict]]:
             after,
             child_path,
             child.get("title", ""),
-            "Direct expansion",
+            "Go deeper",
             f"This page opens naturally into {child.get('title', '')}, where one of its subquestions is treated more directly.",
         )
 
@@ -8142,7 +12381,7 @@ def reading_path_recommendations(page: dict) -> tuple[list[dict], list[dict]]:
                     after,
                     following["path"],
                     following["title"],
-                    route["title"],
+                    "Next step",
                     f"In the route “{route['title']},” {following['title']} is the next useful move because it sharpens what this page leaves open.",
                 )
 
@@ -8154,7 +12393,7 @@ def reading_path_recommendations(page: dict) -> tuple[list[dict], list[dict]]:
                 after,
                 sibling_path,
                 sibling_title,
-                "Same branch",
+                "Nearby turn",
                 f"{sibling_title} keeps the same branch pressure in view but turns it from a different angle.",
             )
 
@@ -8170,7 +12409,7 @@ def reading_path_recommendations(page: dict) -> tuple[list[dict], list[dict]]:
             after,
             branch_guide_path(section_id),
             f"{section_name} Branch Guide",
-            "Section guide",
+            "Return to map",
             f"If you want the wider continuation rather than a single next post, return to the {section_name} branch guide and choose the neighboring pressure that now feels most alive.",
         )
 
@@ -8202,16 +12441,16 @@ def render_reading_path_cards(page: dict, prefix: str) -> str:
                   <section class="reading-path-grid" id="reader-route">
                     <article class="reading-path-card">
                       <p class="eyebrow">Read This First</p>
-                      <h2>What gives this page its frame</h2>
-                      <p class="reading-path-card__intro">If the page feels abrupt, these links supply the wider frame or earlier distinction that helps the present argument land.</p>
+                      <h2>If this page feels abrupt, start here</h2>
+                      <p class="reading-path-card__intro">These links provide the wider frame, earlier distinction, or branch map that makes the current page easier to enter.</p>
                       <ol class="reading-path-card__list">
         {render_items(before)}
                       </ol>
                     </article>
                     <article class="reading-path-card">
                       <p class="eyebrow">Read This Next</p>
-                      <h2>Where the pressure naturally continues</h2>
-                      <p class="reading-path-card__intro">Once this page has done its work, these are the strongest continuations rather than mere nearby pages.</p>
+                      <h2>If the page clicked, continue here</h2>
+                      <p class="reading-path-card__intro">These are not just nearby pages. They are the strongest next moves if you want the pressure of this page to keep unfolding.</p>
                       <ol class="reading-path-card__list">
         {render_items(after)}
                       </ol>
@@ -9640,6 +13879,12 @@ def editorial_audit_issues(record: dict) -> list[str]:
         flags=re.IGNORECASE,
     ):
         issues.append("semantic mush")
+    if re.search(
+        r"\b(becomes useful only when its standards are clear|Track how the exchange moves from|What gives this page its frame|Where the pressure naturally continues)\b",
+        combined,
+        flags=re.IGNORECASE,
+    ):
+        issues.append("stiff boilerplate")
     return dedupe(issues)
 
 

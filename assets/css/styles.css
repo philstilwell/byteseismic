@@ -847,7 +847,7 @@ img {
 
 .route-card__focus {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(168px, 1fr));
   gap: 14px;
   margin-top: 16px;
 }
@@ -1552,7 +1552,7 @@ body.site-search-open {
 
 @media (min-width: 1081px) {
   .hero .page-signals {
-    max-width: min(760px, calc(100% - 340px));
+    max-width: min(720px, calc(100% - 380px));
   }
 }
 
@@ -2830,6 +2830,53 @@ body.site-search-open {
     padding: 22px 18px;
   }
 
+  .reading-path-grid {
+    gap: 14px;
+    margin: 20px 0 24px;
+  }
+
+  .reading-path-card {
+    padding: 20px 16px;
+  }
+
+  .reading-path-card__list,
+  .route-steps {
+    gap: 10px;
+    margin-top: 16px;
+  }
+
+  .reading-path-card__item,
+  .route-steps li {
+    padding: 12px 13px;
+    border-radius: 14px;
+  }
+
+  .reading-path-card__link,
+  .route-steps a {
+    font-size: 0.96rem;
+    letter-spacing: 0.05em;
+  }
+
+  .reading-path-card__reason,
+  .route-steps span {
+    line-height: 1.52;
+  }
+
+  .route-card__focus {
+    gap: 10px;
+    margin-top: 14px;
+  }
+
+  .route-card__focus > div {
+    padding: 12px 13px;
+    border-radius: 14px;
+  }
+
+  .prompt-ledger__link {
+    gap: 10px;
+    padding: 9px 10px;
+  }
+
   .home-panel summary {
     grid-template-columns: auto 1fr;
     padding: 20px 18px;
@@ -3015,6 +3062,33 @@ body.site-search-open {
 
   .page-signals__value {
     font-size: 0.82rem;
+  }
+
+  .reading-path-card {
+    padding: 18px 14px;
+  }
+
+  .reading-path-card__item,
+  .route-steps li {
+    padding: 11px 12px;
+    border-radius: 13px;
+  }
+
+  .reading-path-card__link,
+  .route-steps a {
+    font-size: 0.9rem;
+    letter-spacing: 0.04em;
+  }
+
+  .prompt-ledger__link {
+    gap: 9px;
+    padding: 8px 9px;
+  }
+
+  .prompt-number {
+    width: 1.7rem;
+    height: 1.7rem;
+    font-size: 0.9rem;
   }
 
   .quiz-accordion summary {

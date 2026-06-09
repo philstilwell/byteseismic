@@ -3,12 +3,12 @@
 - Pages scanned: 783
 - Broken internal links: 0
 - Duplicate IDs: 0
-- Repeated headings: 121
+- Repeated headings: 112
 - Prompt numbering issues: 0
 - Orphan pages: 0
 - Oversized assets: 1
-- Style scars: 396
-- Grammar scars: 11
+- Style scars: 0
+- Grammar scars: 0
 
 ## Broken Links
 
@@ -20,56 +20,56 @@
 
 ## Repeated Headings
 
-- `/economics/behavioral-economics/` -> Clear standards are what make Behavioral Economics useful.
-- `/economics/economic-comparisons/` -> Mapping Economic Comparisons should reveal structure, rivalry, and dependence.
-- `/economics/economic-complexity/` -> Clear standards are what make Economic Complexity useful.
-- `/economics/economic-entitlements/` -> Clear standards are what make Economic Entitlements useful.
-- `/economics/economics-core-concepts/` -> Mapping Economics – Core Concepts should reveal structure, rivalry, and dependence.
-- `/economics/innovation-attractors/` -> Innovation Attractors: practical stakes and consequences.
-- `/economics/justified-optimism/` -> Clear standards are what make Justified Optimism useful.
-- `/economics/micro-macro-economics/` -> Clear standards are what make Micro/Macro Economics useful.
-- `/economics/schools-of-economic-thought/` -> Clear standards are what make Schools of Economic Thought useful.
-- `/economics/taxation/` -> Clear standards are what make Taxation useful.
-- `/economics/what-is-economics/` -> Clear standards are what make Economics useful.
-- `/epistemology/a-priori-knowledge-issues/` -> Clear standards are what make ‘A Priori’ Knowledge Issues useful.
-- `/epistemology/abduction-utility-and-issues/` -> Abduction: Utility and Issues: practical stakes and consequences.
-- `/epistemology/belief-evidence-graphic/` -> Clear standards are what make Belief/Evidence Graphic useful.
-- `/epistemology/decision-making/` -> Clear standards are what make Decision-Making useful.
-- `/epistemology/establishing-cognitive-reliability-1/` -> Clear standards are what make Establishing Cognitive Reliability (#1) useful.
-- `/epistemology/evidence-workshop/` -> Clear standards are what make Evidence Workshop useful.
-- `/epistemology/induction-cold-reading/` -> Clear standards are what make Induction: Cold Reading useful.
-- `/epistemology/induction-forecasting/` -> Clear standards are what make Induction: Forecasting useful.
-- `/epistemology/many-logics/` -> Clear standards are what make Many Logics useful.
-- `/epistemology/mapping-belief-to-evidence/` -> Mapping Belief to Evidence: practical stakes and consequences.
-- `/epistemology/pascals-wager/` -> Clear standards are what make Pascal’s Wager useful.
-- `/epistemology/pragmatic-considerations-vs-epistemic-assessments/` -> Clear standards are what make Pragmatic Considerations vs Epistemic Assessments useful.
-- `/epistemology/pragmatic-considerations-vs-epistemic-assessments/` -> Pragmatic Considerations vs Epistemic Assessments: practical stakes and consequences.
-- `/epistemology/recent-issues-in-epistemology/` -> Recent Issues in Epistemology: practical stakes and consequences.
-- `/epistemology/swapping-ideologies/` -> Clear standards are what make Swapping Ideologies useful.
-- `/epistemology/the-burden-of-proof/` -> Burden of proof makes the argument visible in practice.
-- `/epistemology/the-domain-of-proof/` -> Clear standards are what make the Domain of “Proof” useful.
-- `/epistemology/vicious-virtuous-circularity/` -> Introduction: practical stakes and consequences.
-- `/epistemology/what-is-bayes-theorem/` -> Clear standards are what make Bayes Theorem useful.
-- `/epistemology/what-is-doubt/` -> Clear standards are what make Doubt useful.
-- `/epistemology/what-is-evidence/` -> Clear standards are what make Evidence useful.
-- `/ethics/divine-command-theory/` -> Clear standards are what make Divine Command Theory useful.
-- `/ethics/ethics-core-concepts/` -> Mapping Ethics — Core Concepts should reveal structure, rivalry, and dependence.
-- `/ethics/fictional-meta-ethics-debate/` -> Dialogue clarifies Moral intuitions.
-- `/ethics/meta-ethics/` -> Mapping Meta-Ethics should reveal structure, rivalry, and dependence.
-- `/ethics/self-evident-morality/` -> Introduction is where the argument earns or loses its force.
-- `/ethics/value-morality-in-diversity/` -> Value & Morality in Diversity: practical stakes and consequences.
-- `/ethics/what-are-ethics/` -> Clear standards are what make Ethics useful.
-- `/humanistic-philosophies/are-humans-more-egoistic-or-altruistic/` -> The question matters only if it becomes precise enough to settle something.
-- `/humanistic-philosophies/do-humans-have-an-essence/` -> Do Humans have an Essence is best read as a map of alignments, tensions, and priority.
-- `/humanistic-philosophies/new-manifestations-of-theism/` -> Clear standards are what make New Manifestations of Theism useful.
-- `/humanistic-philosophies/personal-cosmic-meaning/` -> Clear standards are what make Personal & Cosmic Meaning useful.
-- `/humanistic-philosophies/russell-on-faith/` -> Clear standards are what make Russell on Faith useful.
-- `/humanistic-philosophies/what-is-existentialism/` -> Mapping Existentialism should reveal structure, rivalry, and dependence.
-- `/introduction/careers-in-philosophy/` -> Clear standards are what make Careers in Philosophy useful.
-- `/introduction/womens-interest-in-philosophy/` -> Clear standards are what make Women’s Interest in Philosophy useful.
-- `/introduction/womens-interest-in-philosophy/` -> Women’s Interest in Philosophy: practical stakes and consequences.
-- `/metaphysics/matthew-pirkowski-on-emergence/` -> Emergence and its Definition: practical stakes and consequences.
-- `/metaphysics/metaphysics-core-concepts/` -> Mapping Metaphysics – Core Concepts should reveal structure, rivalry, and dependence.
+- `/economics/behavioral-economics/` -> What matters most in Behavioral Economics.
+- `/economics/economic-comparisons/` -> How the pieces of Economic Comparisons fit together.
+- `/economics/economic-complexity/` -> What matters most in Economic Complexity.
+- `/economics/economic-entitlements/` -> What matters most in Economic Entitlements.
+- `/economics/economics-core-concepts/` -> How the pieces of Economics – Core Concepts fit together.
+- `/economics/innovation-attractors/` -> What matters most in Innovation Attractors.
+- `/economics/justified-optimism/` -> What matters most in Justified Optimism.
+- `/economics/micro-macro-economics/` -> What matters most in Micro/Macro Economics.
+- `/economics/schools-of-economic-thought/` -> What matters most in Schools of Economic Thought.
+- `/economics/taxation/` -> What matters most in Taxation.
+- `/economics/the-poverty-line/` -> What matters most in The Poverty Line.
+- `/economics/what-is-economics/` -> What matters most in Economics.
+- `/economics/what-makes-economics-dismal/` -> The question only helps once it gets precise.
+- `/epistemology/a-priori-knowledge-issues/` -> What matters most in ‘A Priori’ Knowledge Issues.
+- `/epistemology/belief-evidence-graphic/` -> What matters most in Belief/Evidence Graphic.
+- `/epistemology/black-boxes-epistemology/` -> What matters most in Black Boxes & Epistemology.
+- `/epistemology/case-5-vanishing-probabilities/` -> What matters most in Vanishing Probabilities.
+- `/epistemology/establishing-cognitive-reliability-1/` -> What matters most in Establishing Cognitive Reliability (#1).
+- `/epistemology/evidence-workshop/` -> What matters most in Evidence Workshop.
+- `/epistemology/extraordinary-claims/` -> What matters most in Extraordinary Claims.
+- `/epistemology/induction-cold-reading/` -> What matters most in Induction: Cold Reading.
+- `/epistemology/mapping-belief-to-evidence/` -> What matters most in Mapping Belief to Evidence.
+- `/epistemology/pragmatic-considerations-vs-epistemic-assessments/` -> What matters most in Pragmatic Considerations vs Epistemic Assessments.
+- `/epistemology/preponderance-of-evidence/` -> What matters most in Preponderance of Evidence.
+- `/epistemology/recent-issues-in-epistemology/` -> What matters most in Recent Issues in Epistemology.
+- `/epistemology/swapping-ideologies/` -> What matters most in Swapping Ideologies.
+- `/epistemology/the-burden-of-proof/` -> What Burden of proof looks like in practice.
+- `/epistemology/the-domain-of-proof/` -> What matters most in the Domain of “Proof”.
+- `/epistemology/what-is-bayes-theorem/` -> What matters most in Bayes Theorem.
+- `/epistemology/what-is-doubt/` -> What matters most in Doubt.
+- `/epistemology/what-is-evidence/` -> What matters most in Evidence.
+- `/ethics/fictional-meta-ethics-debate/` -> What the dialogue brings out about Moral intuitions.
+- `/ethics/value-morality-in-diversity/` -> What matters most in Value & Morality in Diversity.
+- `/humanistic-philosophies/are-humans-more-egoistic-or-altruistic/` -> The question only helps once it gets precise.
+- `/humanistic-philosophies/do-humans-have-an-essence/` -> How the question breaks into workable parts.
+- `/humanistic-philosophies/new-manifestations-of-theism/` -> What matters most in New Manifestations of Theism.
+- `/humanistic-philosophies/personal-cosmic-meaning/` -> What matters most in Personal & Cosmic Meaning.
+- `/humanistic-philosophies/russell-on-faith/` -> What matters most in Russell on Faith.
+- `/humanistic-philosophies/what-is-existentialism/` -> How the pieces of Existentialism fit together.
+- `/introduction/are-philosophers-argumentative/` -> What the question looks like in a real case.
+- `/introduction/careers-in-philosophy/` -> What matters most in Careers in Philosophy.
+- `/introduction/womens-interest-in-philosophy/` -> What matters most in Women’s Interest in Philosophy.
+- `/metaphysics/matthew-pirkowski-on-emergence/` -> What matters most in Emergence and its Definition.
+- `/metaphysics/metaphysics-core-concepts/` -> How the pieces of Metaphysics – Core Concepts fit together.
+- `/metaphysics/objectively-subjectively-real/` -> What matters most in Subjective Reality.
+- `/metaphysics/ontological-domains/` -> What matters most in Ontological Domains.
+- `/metaphysics/stuart-kauffman-on-emergence/` -> What matters most in Emergence of Life as a Phase Transition.
+- `/miscellany/david-krakauer-on-complexity/` -> What matters most in Distinction between Theory-Driven and Data-Driven Science.
+- `/miscellany/domains-of-aesthetics/` -> What matters most in Domains of Aesthetics.
+- `/miscellany/the-fantastical-historical-truth/` -> How Testimonies of Opponents fits together.
 
 ## Prompt Numbering Issues
 
@@ -85,67 +85,8 @@
 
 ## Style Scars
 
-- `/economics/a-living-wage/` -> anchor-scaffold
-- `/economics/behavioral-economics/` -> anchor-scaffold
-- `/economics/business-risks/` -> anchor-scaffold
-- `/economics/can-prices-be-unfair/` -> anchor-scaffold
-- `/economics/economic-comparisons/` -> anchor-scaffold
-- `/economics/economic-complexity/` -> anchor-scaffold
-- `/economics/economic-entitlements/` -> anchor-scaffold
-- `/economics/economic-optimism/` -> anchor-scaffold
-- `/economics/economic-stability/` -> anchor-scaffold
-- `/economics/economics-core-concepts/` -> anchor-scaffold
-- `/economics/government-interventions/` -> anchor-scaffold
-- `/economics/homo-economicus/` -> anchor-scaffold
-- `/economics/innovation-attractors/` -> anchor-scaffold
-- `/economics/justified-optimism/` -> anchor-scaffold
-- `/economics/micro-macro-economics/` -> anchor-scaffold
-- `/economics/minimum-wage/` -> anchor-scaffold
-- `/economics/minimum-wage-thresholds/` -> anchor-scaffold
-- `/economics/schools-of-economic-thought/` -> anchor-scaffold
-- `/economics/taxation/` -> anchor-scaffold
-- `/economics/the-15-hour-workweek/` -> anchor-scaffold
-- `/economics/the-poverty-line/` -> anchor-scaffold
-- `/economics/wealth-creation/` -> anchor-scaffold
-- `/economics/what-are-moral-hazards/` -> anchor-scaffold
-- `/economics/what-is-economics/` -> anchor-scaffold
-- `/economics/what-makes-economics-dismal/` -> anchor-scaffold
-- `/epistemology/a-priori-knowledge-issues/` -> anchor-scaffold
-- `/epistemology/abduction-utility-and-issues/` -> anchor-scaffold
-- `/epistemology/absolute-certainty/` -> anchor-scaffold
-- `/epistemology/adequate-evidence/` -> anchor-scaffold
-- `/epistemology/ai-reasoning-case-study/` -> anchor-scaffold
-- `/epistemology/avoiding-single-cause-dogmatism/` -> anchor-scaffold
-- `/epistemology/belief-evidence-graphic/` -> anchor-scaffold
-- `/epistemology/black-boxes-epistemology/` -> anchor-scaffold
-- `/epistemology/case-1-credence-complexity/` -> anchor-scaffold
-- `/epistemology/case-2-the-telephone-game/` -> anchor-scaffold
-- `/epistemology/case-3-core-rationality/` -> anchor-scaffold
-- `/epistemology/case-4-recursive-credences/` -> anchor-scaffold
-- `/epistemology/case-5-vanishing-probabilities/` -> anchor-scaffold
-- `/epistemology/case-6-insatiable-loops/` -> anchor-scaffold
-- `/epistemology/charles-darwin/` -> anchor-scaffold
-- `/epistemology/core-deep-rationality/` -> anchor-scaffold
-- `/epistemology/counterfactual-reasoning/` -> anchor-scaffold
-- `/epistemology/decision-making/` -> anchor-scaffold
-- `/epistemology/deduction-utility-and-issues/` -> anchor-scaffold
-- `/epistemology/doxastic-voluntarism/` -> anchor-scaffold
-- `/epistemology/epistemological-case-studies/` -> anchor-scaffold
-- `/epistemology/epistemology-core-concepts/` -> anchor-scaffold
-- `/epistemology/establishing-cognitive-reliability-1/` -> anchor-scaffold
-- `/epistemology/establishing-cognitive-reliability-2/` -> anchor-scaffold
-- `/epistemology/evidence-workshop/` -> anchor-scaffold
+- none
 
 ## Grammar Scars
 
-- `/epistemology/logic/` -> double-and
-- `/humanistic-philosophies/personal-cosmic-meaning/` -> double-and
-- `/humanistic-philosophies/what-is-existentialism/` -> double-and
-- `/introduction/miscellaneous-philosophers/` -> double-and
-- `/philosophers/charting-sartre/` -> double-and
-- `/philosophers/john-locke/` -> double-the
-- `/philosophical-inquiry/dangers-carrot-stick/` -> double-and
-- `/philosophical-inquiry/dangers-unnuanced-conclusions/` -> double-and
-- `/philosophy-of-mind/knowledge-cognition-asymmetry/` -> double-and
-- `/rational-thought/do-rationalists-skew-neurodivergent/` -> double-and
-- `/rational-thought/logic/` -> double-and
+- none

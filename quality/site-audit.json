@@ -3,499 +3,463 @@
     "pages_scanned": 783,
     "broken_links": 0,
     "duplicate_ids": 0,
-    "repeated_headings": 121,
+    "repeated_headings": 112,
     "prompt_number_issues": 0,
     "orphan_pages": 0,
     "oversized_assets": 1,
-    "style_scars": 396,
-    "grammar_scars": 11
+    "style_scars": 0,
+    "grammar_scars": 0
   },
   "broken_links": [],
   "duplicate_ids": [],
   "repeated_headings": [
     {
       "page": "/economics/behavioral-economics/",
-      "heading": "Clear standards are what make Behavioral Economics useful."
+      "heading": "What matters most in Behavioral Economics."
     },
     {
       "page": "/economics/economic-comparisons/",
-      "heading": "Mapping Economic Comparisons should reveal structure, rivalry, and dependence."
+      "heading": "How the pieces of Economic Comparisons fit together."
     },
     {
       "page": "/economics/economic-complexity/",
-      "heading": "Clear standards are what make Economic Complexity useful."
+      "heading": "What matters most in Economic Complexity."
     },
     {
       "page": "/economics/economic-entitlements/",
-      "heading": "Clear standards are what make Economic Entitlements useful."
+      "heading": "What matters most in Economic Entitlements."
     },
     {
       "page": "/economics/economics-core-concepts/",
-      "heading": "Mapping Economics – Core Concepts should reveal structure, rivalry, and dependence."
+      "heading": "How the pieces of Economics – Core Concepts fit together."
     },
     {
       "page": "/economics/innovation-attractors/",
-      "heading": "Innovation Attractors: practical stakes and consequences."
+      "heading": "What matters most in Innovation Attractors."
     },
     {
       "page": "/economics/justified-optimism/",
-      "heading": "Clear standards are what make Justified Optimism useful."
+      "heading": "What matters most in Justified Optimism."
     },
     {
       "page": "/economics/micro-macro-economics/",
-      "heading": "Clear standards are what make Micro/Macro Economics useful."
+      "heading": "What matters most in Micro/Macro Economics."
     },
     {
       "page": "/economics/schools-of-economic-thought/",
-      "heading": "Clear standards are what make Schools of Economic Thought useful."
+      "heading": "What matters most in Schools of Economic Thought."
     },
     {
       "page": "/economics/taxation/",
-      "heading": "Clear standards are what make Taxation useful."
+      "heading": "What matters most in Taxation."
+    },
+    {
+      "page": "/economics/the-poverty-line/",
+      "heading": "What matters most in The Poverty Line."
     },
     {
       "page": "/economics/what-is-economics/",
-      "heading": "Clear standards are what make Economics useful."
+      "heading": "What matters most in Economics."
+    },
+    {
+      "page": "/economics/what-makes-economics-dismal/",
+      "heading": "The question only helps once it gets precise."
     },
     {
       "page": "/epistemology/a-priori-knowledge-issues/",
-      "heading": "Clear standards are what make ‘A Priori’ Knowledge Issues useful."
-    },
-    {
-      "page": "/epistemology/abduction-utility-and-issues/",
-      "heading": "Abduction: Utility and Issues: practical stakes and consequences."
+      "heading": "What matters most in ‘A Priori’ Knowledge Issues."
     },
     {
       "page": "/epistemology/belief-evidence-graphic/",
-      "heading": "Clear standards are what make Belief/Evidence Graphic useful."
+      "heading": "What matters most in Belief/Evidence Graphic."
     },
     {
-      "page": "/epistemology/decision-making/",
-      "heading": "Clear standards are what make Decision-Making useful."
+      "page": "/epistemology/black-boxes-epistemology/",
+      "heading": "What matters most in Black Boxes & Epistemology."
+    },
+    {
+      "page": "/epistemology/case-5-vanishing-probabilities/",
+      "heading": "What matters most in Vanishing Probabilities."
     },
     {
       "page": "/epistemology/establishing-cognitive-reliability-1/",
-      "heading": "Clear standards are what make Establishing Cognitive Reliability (#1) useful."
+      "heading": "What matters most in Establishing Cognitive Reliability (#1)."
     },
     {
       "page": "/epistemology/evidence-workshop/",
-      "heading": "Clear standards are what make Evidence Workshop useful."
+      "heading": "What matters most in Evidence Workshop."
+    },
+    {
+      "page": "/epistemology/extraordinary-claims/",
+      "heading": "What matters most in Extraordinary Claims."
     },
     {
       "page": "/epistemology/induction-cold-reading/",
-      "heading": "Clear standards are what make Induction: Cold Reading useful."
-    },
-    {
-      "page": "/epistemology/induction-forecasting/",
-      "heading": "Clear standards are what make Induction: Forecasting useful."
-    },
-    {
-      "page": "/epistemology/many-logics/",
-      "heading": "Clear standards are what make Many Logics useful."
+      "heading": "What matters most in Induction: Cold Reading."
     },
     {
       "page": "/epistemology/mapping-belief-to-evidence/",
-      "heading": "Mapping Belief to Evidence: practical stakes and consequences."
-    },
-    {
-      "page": "/epistemology/pascals-wager/",
-      "heading": "Clear standards are what make Pascal’s Wager useful."
+      "heading": "What matters most in Mapping Belief to Evidence."
     },
     {
       "page": "/epistemology/pragmatic-considerations-vs-epistemic-assessments/",
-      "heading": "Clear standards are what make Pragmatic Considerations vs Epistemic Assessments useful."
+      "heading": "What matters most in Pragmatic Considerations vs Epistemic Assessments."
     },
     {
-      "page": "/epistemology/pragmatic-considerations-vs-epistemic-assessments/",
-      "heading": "Pragmatic Considerations vs Epistemic Assessments: practical stakes and consequences."
+      "page": "/epistemology/preponderance-of-evidence/",
+      "heading": "What matters most in Preponderance of Evidence."
     },
     {
       "page": "/epistemology/recent-issues-in-epistemology/",
-      "heading": "Recent Issues in Epistemology: practical stakes and consequences."
+      "heading": "What matters most in Recent Issues in Epistemology."
     },
     {
       "page": "/epistemology/swapping-ideologies/",
-      "heading": "Clear standards are what make Swapping Ideologies useful."
+      "heading": "What matters most in Swapping Ideologies."
     },
     {
       "page": "/epistemology/the-burden-of-proof/",
-      "heading": "Burden of proof makes the argument visible in practice."
+      "heading": "What Burden of proof looks like in practice."
     },
     {
       "page": "/epistemology/the-domain-of-proof/",
-      "heading": "Clear standards are what make the Domain of “Proof” useful."
-    },
-    {
-      "page": "/epistemology/vicious-virtuous-circularity/",
-      "heading": "Introduction: practical stakes and consequences."
+      "heading": "What matters most in the Domain of “Proof”."
     },
     {
       "page": "/epistemology/what-is-bayes-theorem/",
-      "heading": "Clear standards are what make Bayes Theorem useful."
+      "heading": "What matters most in Bayes Theorem."
     },
     {
       "page": "/epistemology/what-is-doubt/",
-      "heading": "Clear standards are what make Doubt useful."
+      "heading": "What matters most in Doubt."
     },
     {
       "page": "/epistemology/what-is-evidence/",
-      "heading": "Clear standards are what make Evidence useful."
-    },
-    {
-      "page": "/ethics/divine-command-theory/",
-      "heading": "Clear standards are what make Divine Command Theory useful."
-    },
-    {
-      "page": "/ethics/ethics-core-concepts/",
-      "heading": "Mapping Ethics — Core Concepts should reveal structure, rivalry, and dependence."
+      "heading": "What matters most in Evidence."
     },
     {
       "page": "/ethics/fictional-meta-ethics-debate/",
-      "heading": "Dialogue clarifies Moral intuitions."
-    },
-    {
-      "page": "/ethics/meta-ethics/",
-      "heading": "Mapping Meta-Ethics should reveal structure, rivalry, and dependence."
-    },
-    {
-      "page": "/ethics/self-evident-morality/",
-      "heading": "Introduction is where the argument earns or loses its force."
+      "heading": "What the dialogue brings out about Moral intuitions."
     },
     {
       "page": "/ethics/value-morality-in-diversity/",
-      "heading": "Value & Morality in Diversity: practical stakes and consequences."
-    },
-    {
-      "page": "/ethics/what-are-ethics/",
-      "heading": "Clear standards are what make Ethics useful."
+      "heading": "What matters most in Value & Morality in Diversity."
     },
     {
       "page": "/humanistic-philosophies/are-humans-more-egoistic-or-altruistic/",
-      "heading": "The question matters only if it becomes precise enough to settle something."
+      "heading": "The question only helps once it gets precise."
     },
     {
       "page": "/humanistic-philosophies/do-humans-have-an-essence/",
-      "heading": "Do Humans have an Essence is best read as a map of alignments, tensions, and priority."
+      "heading": "How the question breaks into workable parts."
     },
     {
       "page": "/humanistic-philosophies/new-manifestations-of-theism/",
-      "heading": "Clear standards are what make New Manifestations of Theism useful."
+      "heading": "What matters most in New Manifestations of Theism."
     },
     {
       "page": "/humanistic-philosophies/personal-cosmic-meaning/",
-      "heading": "Clear standards are what make Personal & Cosmic Meaning useful."
+      "heading": "What matters most in Personal & Cosmic Meaning."
     },
     {
       "page": "/humanistic-philosophies/russell-on-faith/",
-      "heading": "Clear standards are what make Russell on Faith useful."
+      "heading": "What matters most in Russell on Faith."
     },
     {
       "page": "/humanistic-philosophies/what-is-existentialism/",
-      "heading": "Mapping Existentialism should reveal structure, rivalry, and dependence."
+      "heading": "How the pieces of Existentialism fit together."
+    },
+    {
+      "page": "/introduction/are-philosophers-argumentative/",
+      "heading": "What the question looks like in a real case."
     },
     {
       "page": "/introduction/careers-in-philosophy/",
-      "heading": "Clear standards are what make Careers in Philosophy useful."
+      "heading": "What matters most in Careers in Philosophy."
     },
     {
       "page": "/introduction/womens-interest-in-philosophy/",
-      "heading": "Clear standards are what make Women’s Interest in Philosophy useful."
-    },
-    {
-      "page": "/introduction/womens-interest-in-philosophy/",
-      "heading": "Women’s Interest in Philosophy: practical stakes and consequences."
+      "heading": "What matters most in Women’s Interest in Philosophy."
     },
     {
       "page": "/metaphysics/matthew-pirkowski-on-emergence/",
-      "heading": "Emergence and its Definition: practical stakes and consequences."
+      "heading": "What matters most in Emergence and its Definition."
     },
     {
       "page": "/metaphysics/metaphysics-core-concepts/",
-      "heading": "Mapping Metaphysics – Core Concepts should reveal structure, rivalry, and dependence."
+      "heading": "How the pieces of Metaphysics – Core Concepts fit together."
     },
     {
       "page": "/metaphysics/objectively-subjectively-real/",
-      "heading": "Subjective Reality: practical stakes and consequences."
+      "heading": "What matters most in Subjective Reality."
     },
     {
       "page": "/metaphysics/ontological-domains/",
-      "heading": "Clear standards are what make Ontological Domains useful."
+      "heading": "What matters most in Ontological Domains."
     },
     {
       "page": "/metaphysics/stuart-kauffman-on-emergence/",
-      "heading": "Emergence of Life as a Phase Transition: practical stakes and consequences."
-    },
-    {
-      "page": "/metaphysics/the-beginning-of-time/",
-      "heading": "The Beginning of Time: practical stakes and consequences."
+      "heading": "What matters most in Emergence of Life as a Phase Transition."
     },
     {
       "page": "/miscellany/david-krakauer-on-complexity/",
-      "heading": "Distinction between Theory-Driven and Data-Driven Science: practical stakes and consequences."
+      "heading": "What matters most in Distinction between Theory-Driven and Data-Driven Science."
     },
     {
       "page": "/miscellany/domains-of-aesthetics/",
-      "heading": "Clear standards are what make Domains of Aesthetics useful."
+      "heading": "What matters most in Domains of Aesthetics."
     },
     {
       "page": "/miscellany/the-fantastical-historical-truth/",
-      "heading": "Testimonies of Opponents is best read as a map of alignments, tensions, and priority."
+      "heading": "How Testimonies of Opponents fits together."
     },
     {
-      "page": "/philosophical-inquiry/conspiracies-misunderstanding-human-nature/",
-      "heading": "Introduction: practical stakes and consequences."
+      "page": "/miscellany/what-is-axiology/",
+      "heading": "What matters most in Axiology."
     },
     {
-      "page": "/philosophical-inquiry/dangers-carrot-stick/",
-      "heading": "Carrot & Stick is best read as a map of alignments, tensions, and priority."
+      "page": "/philosophers/bertrand-russell/",
+      "heading": "What matters most in Bertrand Russell."
     },
     {
-      "page": "/philosophical-inquiry/dangers-gaslighting/",
-      "heading": "Clear standards are what make Gaslighting useful."
+      "page": "/philosophers/duns-scotus/",
+      "heading": "What matters most in Duns Scotus."
     },
     {
-      "page": "/philosophical-inquiry/dangers-half-searches/",
-      "heading": "Clear standards are what make Half-Searches useful."
+      "page": "/philosophers/edmund-husserl/",
+      "heading": "What matters most in Edmund Husserl."
+    },
+    {
+      "page": "/philosophers/george-berkeley/",
+      "heading": "What matters most in George Berkeley."
+    },
+    {
+      "page": "/philosophers/immanuel-kant/",
+      "heading": "What matters most in Immanuel Kant."
+    },
+    {
+      "page": "/philosophers/john-dewey/",
+      "heading": "What matters most in John Dewey."
+    },
+    {
+      "page": "/philosophers/thomas-hobbes/",
+      "heading": "What matters most in Thomas Hobbes."
+    },
+    {
+      "page": "/philosophers/william-of-ockham/",
+      "heading": "What matters most in William of Ockham."
     },
     {
       "page": "/philosophical-inquiry/dangers-ideologies-of-emotion/",
-      "heading": "Clear standards are what make Ideologies of Emotion useful."
-    },
-    {
-      "page": "/philosophical-inquiry/dangers-narrative/",
-      "heading": "Narrative: practical stakes and consequences."
-    },
-    {
-      "page": "/philosophical-inquiry/dangers-removing-the-impossible/",
-      "heading": "Removing the Impossible: practical stakes and consequences."
-    },
-    {
-      "page": "/philosophical-inquiry/dangers-strong-leaders/",
-      "heading": "Clear standards are what make Strong Leaders useful."
-    },
-    {
-      "page": "/philosophical-inquiry/dangers-unnuanced-conclusions/",
-      "heading": "Clear standards are what make Unnuanced Conclusions useful."
-    },
-    {
-      "page": "/philosophical-inquiry/do-i-need-a-worldview/",
-      "heading": "The question matters only if it becomes precise enough to settle something."
-    },
-    {
-      "page": "/philosophical-inquiry/how-minds-are-changed/",
-      "heading": "The question matters only if it becomes precise enough to settle something."
+      "heading": "What matters most in Ideologies of Emotion."
     },
     {
       "page": "/philosophical-inquiry/inscrutability-case-studies/",
-      "heading": "Unfalsifiability: practical stakes and consequences."
-    },
-    {
-      "page": "/philosophical-inquiry/personal-truth/",
-      "heading": "Personal Truth: practical stakes and consequences."
+      "heading": "What matters most in Unfalsifiability."
     },
     {
       "page": "/philosophical-inquiry/seeker-scenarios/",
-      "heading": "The examples should show what Seeker Scenarios looks like on the ground."
+      "heading": "What Seeker Scenarios looks like in a real case."
+    },
+    {
+      "page": "/philosophy-of-ai/ai-in-the-markets/",
+      "heading": "What matters most in AI in the Markets."
     },
     {
       "page": "/philosophy-of-ai/ai-meta-post-overreach/",
-      "heading": "A definition of AI Meta-Post — Overreach should survive the hard cases."
+      "heading": "What matters most in AI Meta-Post — Overreach."
+    },
+    {
+      "page": "/philosophy-of-ai/ai-meta-post-overreach/",
+      "heading": "What AI Meta-Post — Overreach needs to mean once the easy cases are out of the way."
     },
     {
       "page": "/philosophy-of-ai/philosophy-of-ai-core-concepts/",
-      "heading": "Mapping Philosophy of AI – Core Concepts should reveal structure, rivalry, and dependence."
+      "heading": "How the pieces of Philosophy of AI – Core Concepts fit together."
     },
     {
       "page": "/philosophy-of-ai/public-discourse-ai/",
-      "heading": "Clear standards are what make Public Discourse & AI useful."
+      "heading": "What matters most in Public Discourse & AI."
     },
     {
       "page": "/philosophy-of-ai/quality-training-data/",
-      "heading": "Clear standards are what make Quality Training Data useful."
-    },
-    {
-      "page": "/philosophy-of-language/core-concepts-philosophy-of-language/",
-      "heading": "Mapping Philosophy of Language — Core Concepts should reveal structure, rivalry, and dependence."
+      "heading": "What matters most in Quality Training Data ."
     },
     {
       "page": "/philosophy-of-language/linguistic-abstraction/",
-      "heading": "Clear standards are what make Linguistic Abstraction useful."
+      "heading": "What matters most in Linguistic Abstraction."
     },
     {
       "page": "/philosophy-of-language/needless-semantic-complexity/",
-      "heading": "Mapping Needless Semantic Complexity should reveal structure, rivalry, and dependence."
+      "heading": "How the pieces of Needless Semantic Complexity fit together."
     },
     {
       "page": "/philosophy-of-language/needless-semantic-complexity/",
-      "heading": "Clear standards are what make Needless Semantic Complexity useful."
+      "heading": "What matters most in Needless Semantic Complexity."
+    },
+    {
+      "page": "/philosophy-of-language/semantics-convention-vs-stipulation/",
+      "heading": "What matters most in Semantics: Convention vs Stipulation."
     },
     {
       "page": "/philosophy-of-language/the-linearity-of-language/",
-      "heading": "Clear standards are what make the Linearity of Language useful."
-    },
-    {
-      "page": "/philosophy-of-language/what-is-etymology/",
-      "heading": "Clear standards are what make Etymology useful."
-    },
-    {
-      "page": "/philosophy-of-language/what-is-language/",
-      "heading": "Clear standards are what make Language useful."
+      "heading": "What matters most in the Linearity of Language."
     },
     {
       "page": "/philosophy-of-mind/are-there-selfless-acts/",
-      "heading": "The question matters only if it becomes precise enough to settle something."
+      "heading": "The question only helps once it gets precise."
     },
     {
       "page": "/philosophy-of-mind/manufacturer-or-method/",
-      "heading": "Manufacturer or Method: practical stakes and consequences."
+      "heading": "What matters most in Manufacturer or Method."
     },
     {
       "page": "/philosophy-of-mind/philosophy-of-mind-basics/",
-      "heading": "Clear standards are what make Philosophy of Mind Basics useful."
+      "heading": "What matters most in Philosophy of Mind Basics."
     },
     {
       "page": "/philosophy-of-mind/philosophy-of-mind-core-concepts/",
-      "heading": "Mapping Philosophy of Mind — Core Concepts should reveal structure, rivalry, and dependence."
+      "heading": "How the pieces of Philosophy of Mind — Core Concepts fit together."
     },
     {
       "page": "/philosophy-of-mind/preferences-pleasures/",
-      "heading": "Clear standards are what make Preferences = Pleasures useful."
+      "heading": "What matters most in Preferences = Pleasures."
     },
     {
       "page": "/philosophy-of-mind/psychology-and-philosophy/",
-      "heading": "Clear standards are what make Psychology and Philosophy useful."
+      "heading": "What matters most in Psychology and Philosophy."
     },
     {
       "page": "/philosophy-of-mind/subjective-objective-free-will/",
-      "heading": "Free will : practical stakes and consequences."
+      "heading": "What matters most in Free will ."
+    },
+    {
+      "page": "/philosophy-of-mind/subjectivity-constrained-by-the-objective/",
+      "heading": "What matters most in Subjectivity Constrained by the Objective."
     },
     {
       "page": "/philosophy-of-mind/what-is-consciousness/",
-      "heading": "Clear standards are what make Consciousness useful."
+      "heading": "What matters most in Consciousness."
     },
     {
       "page": "/philosophy-of-mind/where-are-our-thoughts/",
-      "heading": "Holistic is best read as a map of alignments, tensions, and priority."
+      "heading": "How Holistic fits together."
+    },
+    {
+      "page": "/philosophy-of-science/asymmetric-counterfactuals/",
+      "heading": "What Asymmetric Counterfactuals looks like in a real case."
+    },
+    {
+      "page": "/philosophy-of-science/case-1-intelligence-political-leanings/",
+      "heading": "What matters most in Intelligence & Political Leanings."
     },
     {
       "page": "/philosophy-of-science/confounding-variables/",
-      "heading": "A definition of Confounding Variables should survive the hard cases."
+      "heading": "What Confounding Variables needs to mean once the easy cases are out of the way."
     },
     {
       "page": "/philosophy-of-science/improving-science/",
-      "heading": "History: practical stakes and consequences."
+      "heading": "What matters most in History."
     },
     {
       "page": "/philosophy-of-science/inductive-density/",
-      "heading": "Clear standards are what make Inductive Density useful."
+      "heading": "What matters most in Inductive Density."
     },
     {
       "page": "/philosophy-of-science/is-history-science/",
-      "heading": "Is History Science is where the argument earns or loses its force."
+      "heading": "Where the question gets tested."
     },
     {
-      "page": "/philosophy-of-science/observable-regularity/",
-      "heading": "Clear standards are what make Observable Regularities useful."
+      "page": "/philosophy-of-science/methodological-naturalism/",
+      "heading": "What matters most in Methodological Naturalism."
     },
     {
       "page": "/philosophy-of-science/philosophy-of-science-core-concepts/",
-      "heading": "Mapping Philosophy of Science — Core Concepts should reveal structure, rivalry, and dependence."
+      "heading": "How the pieces of Philosophy of Science — Core Concepts fit together."
     },
     {
       "page": "/philosophy-of-science/the-problem-of-induction/",
-      "heading": "The Problem of Induction: practical stakes and consequences."
+      "heading": "What matters most in the Problem of Induction."
     },
     {
       "page": "/philosophy-of-science/the-use-of-proxies/",
-      "heading": "Clear standards are what make the Use of Proxies useful."
-    },
-    {
-      "page": "/philosophy-of-science/the-value-of-surveys/",
-      "heading": "The Value of Surveys: practical stakes and consequences."
+      "heading": "What matters most in the Use of Proxies."
     },
     {
       "page": "/philosophy-of-science/what-is-etiology/",
-      "heading": "Understanding the Philosophical Meaning of Etiology: practical stakes and consequences."
-    },
-    {
-      "page": "/philosophy-of-science/what-is-falsifiability/",
-      "heading": "A definition of Falsifiability should survive the hard cases."
-    },
-    {
-      "page": "/philosophy-of-science/what-is-falsifiability/",
-      "heading": "The examples should show what Falsifiability looks like on the ground."
+      "heading": "What matters most in Understanding the Philosophical Meaning of Etiology."
     },
     {
       "page": "/philosophy-of-science/what-is-parsimony/",
-      "heading": "The examples should show what Parsimony looks like on the ground."
+      "heading": "What Parsimony looks like in a real case."
     },
     {
       "page": "/political-philosophy/elements-of-a-stable-state/",
-      "heading": "Clear standards are what make Elements of a Stable State useful."
+      "heading": "What matters most in Elements of a Stable State."
     },
     {
       "page": "/political-philosophy/identity-politics/",
-      "heading": "Clear standards are what make Identity Politics useful."
+      "heading": "What matters most in Identity Politics."
+    },
+    {
+      "page": "/political-philosophy/peaceful-revolutions/",
+      "heading": "What matters most in Peaceful Revolutions."
     },
     {
       "page": "/political-philosophy/political-philosophy-basics/",
-      "heading": "Clear standards are what make Political Philosophy Basics useful."
+      "heading": "What matters most in Political Philosophy Basics."
     },
     {
       "page": "/political-philosophy/political-philosophy-core-concepts/",
-      "heading": "Mapping Political Philosophy – Core Concepts should reveal structure, rivalry, and dependence."
+      "heading": "How the pieces of Political Philosophy – Core Concepts fit together."
     },
     {
       "page": "/rational-thought/attributions-of-causation/",
-      "heading": "Clear standards are what make Attributions of Causation useful."
+      "heading": "What matters most in Attributions of Causation."
     },
     {
       "page": "/rational-thought/case-3-astrology/",
-      "heading": "Clear standards are what make Astrology useful."
+      "heading": "What matters most in Astrology."
     },
     {
       "page": "/rational-thought/do-rationalists-skew-neurodivergent/",
-      "heading": "Do Rationalists Skew Neurodivergent becomes more useful once its structure is made visible."
+      "heading": "The question only helps once it gets precise."
     },
     {
       "page": "/rational-thought/empathy-overload/",
-      "heading": "Clear standards are what make Empathy Overload useful."
+      "heading": "What matters most in Empathy Overload."
     },
     {
       "page": "/rational-thought/integrated-critical-thinking/",
-      "heading": "Critical thinking : practical stakes and consequences."
+      "heading": "What matters most in Critical thinking ."
     },
     {
       "page": "/rational-thought/life-choices/",
-      "heading": "Clear standards are what make Life Choices useful."
-    },
-    {
-      "page": "/rational-thought/perverse-incentives/",
-      "heading": "Clear standards are what make Perverse Incentives useful."
+      "heading": "What matters most in Life Choices."
     },
     {
       "page": "/rational-thought/rational-romance/",
-      "heading": "Clear standards are what make Rational Romance useful."
+      "heading": "What matters most in Rational Romance."
     },
     {
       "page": "/rational-thought/regret-assessment/",
-      "heading": "Clear standards are what make Regret Assessment useful."
+      "heading": "What matters most in Regret Assessment."
     },
     {
       "page": "/rational-thought/starting-with-strong-basics/",
-      "heading": "Clear standards are what make Starting with Strong Basics useful."
+      "heading": "What matters most in Starting with Strong Basics."
     },
     {
       "page": "/rational-thought/the-primacy-of-emotions/",
-      "heading": "Clear standards are what make the Primacy of Emotions useful."
+      "heading": "What matters most in the Primacy of Emotions."
     },
     {
       "page": "/rational-thought/the-professional-application-of-rationality/",
-      "heading": "Mapping The Professional Application of Rationality should reveal structure, rivalry, and dependence."
+      "heading": "How the pieces of The Professional Application of Rationality fit together."
     },
     {
       "page": "/rational-thought/what-is-futurism/",
-      "heading": "Clear standards are what make Futurism useful."
+      "heading": "What matters most in Futurism."
     }
   ],
   "prompt_number_issues": [],
@@ -507,1636 +471,6 @@
       "limit": 280000
     }
   ],
-  "style_scars": [
-    {
-      "page": "/economics/a-living-wage/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/economics/behavioral-economics/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/economics/business-risks/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/economics/can-prices-be-unfair/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/economics/economic-comparisons/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/economics/economic-complexity/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/economics/economic-entitlements/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/economics/economic-optimism/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/economics/economic-stability/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/economics/economics-core-concepts/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/economics/government-interventions/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/economics/homo-economicus/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/economics/innovation-attractors/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/economics/justified-optimism/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/economics/micro-macro-economics/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/economics/minimum-wage/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/economics/minimum-wage-thresholds/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/economics/schools-of-economic-thought/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/economics/taxation/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/economics/the-15-hour-workweek/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/economics/the-poverty-line/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/economics/wealth-creation/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/economics/what-are-moral-hazards/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/economics/what-is-economics/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/economics/what-makes-economics-dismal/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/a-priori-knowledge-issues/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/abduction-utility-and-issues/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/absolute-certainty/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/adequate-evidence/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/ai-reasoning-case-study/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/avoiding-single-cause-dogmatism/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/belief-evidence-graphic/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/black-boxes-epistemology/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/case-1-credence-complexity/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/case-2-the-telephone-game/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/case-3-core-rationality/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/case-4-recursive-credences/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/case-5-vanishing-probabilities/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/case-6-insatiable-loops/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/charles-darwin/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/core-deep-rationality/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/counterfactual-reasoning/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/decision-making/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/deduction-utility-and-issues/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/doxastic-voluntarism/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/epistemological-case-studies/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/epistemology-core-concepts/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/establishing-cognitive-reliability-1/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/establishing-cognitive-reliability-2/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/evidence-workshop/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/extraordinary-claims/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/faith-vs-science/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/https-byteseismic-com-2024-04-10-inductive-invariance-conistency/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/hypostatic-illogic/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/i-dont-know/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/induction-cold-reading/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/induction-forecasting/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/induction-utility-and-issues/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/logic/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/many-logics/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/mapping-belief-to-evidence/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/operational-epistemic-rigor/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/pascals-wager/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/pragmatic-considerations-vs-epistemic-assessments/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/predictive-power/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/preponderance-of-evidence/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/presuppositions/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/properly-basic-beliefs/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/rationality-discussion/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/reasoned-probabilities-and-decisions/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/recent-issues-in-epistemology/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/shades-of-certainty/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/swapping-ideologies/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/the-abuse-of-self-evident/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/the-burden-of-proof/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/the-domain-of-proof/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/the-inductive-paradox/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/the-web-of-induction/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/types-of-knowing/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/what-is-bayes-theorem/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/what-is-doubt/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/what-is-epistemic-updating/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/what-is-epistemology/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/what-is-evidence/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/epistemology/what-is-faith/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/ethics/a-history-of-golden-rules/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/ethics/circularity-in-moral-realism/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/ethics/coherent-moral-systems/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/ethics/compassion-vs-moral-systems/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/ethics/competing-ethical-considerations/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/ethics/conditions-for-culpability/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/ethics/divine-command-theory/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/ethics/equivocation-on-wrong/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/ethics/essay-moral-anti-realism/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/ethics/ethics-core-concepts/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/ethics/evidences-of-moral-facts/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/ethics/fictional-meta-ethics-debate/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/ethics/intrinsic-human-value/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/ethics/is-vs-ought/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/ethics/meta-ethics/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/ethics/meta-ethics-focus-1/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/ethics/meta-ethics-focus-2/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/ethics/moral-black-boxes/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/ethics/moral-realism-intuition/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/ethics/moral-systems-required-elements/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/ethics/morality-human-rights/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/ethics/recommendations-vs-moral-claims/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/ethics/the-value-selection-hypothesis/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/ethics/value-morality-in-diversity/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/ethics/what-are-ethics/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/humanistic-philosophies/accounting-for-x/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/humanistic-philosophies/are-humans-more-egoistic-or-altruistic/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/humanistic-philosophies/can-humans-change/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/humanistic-philosophies/christian-apologetics/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/humanistic-philosophies/do-humans-have-an-essence/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/humanistic-philosophies/existentialism-key-concepts/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/humanistic-philosophies/increasing-religious-humility/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/humanistic-philosophies/leaving-christianity/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/humanistic-philosophies/new-manifestations-of-theism/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/humanistic-philosophies/personal-cosmic-meaning/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/humanistic-philosophies/religions/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/humanistic-philosophies/russell-on-faith/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/humanistic-philosophies/shoe-tips-hiddenness/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/humanistic-philosophies/the-legitimacy-of-divine-revelation/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/humanistic-philosophies/unpalatable-religions/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/humanistic-philosophies/what-is-existentialism/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/humanistic-philosophies/what-is-religion/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/introduction/analogies-to-a-philosophical-life/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/introduction/are-philosophers-argumentative/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/introduction/careers-in-philosophy/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/introduction/miscellaneous-philosophers/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/introduction/philosophy-higher-education/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/introduction/scoring-the-accessibility-of-philosophical-content/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/introduction/studying-philosophy-resources/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/introduction/what-is-the-value-of-philosophy/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/introduction/womens-interest-in-philosophy/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/metaphysics/categories-of-nihilism/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/metaphysics/could-mind-be-fundamental/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/metaphysics/dualismvsmaterialism/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/metaphysics/emergence/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/metaphysics/jeremy-sherman-on-emergence/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/metaphysics/matthew-pirkowski-on-emergence/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/metaphysics/metaphysics-core-concepts/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/metaphysics/objectively-subjectively-real/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/metaphysics/ontological-domains/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/metaphysics/the-beginning-of-time/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/metaphysics/the-principle-of-sufficient-reason/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/metaphysics/the-status-of-evil/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/metaphysics/what-is-metaphysics/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/miscellany/assembly-theory/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/miscellany/cascading-factor-models/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/miscellany/complexity-theory/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/miscellany/covid-19-science/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/miscellany/cross-culture-emotional-dispositions/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/miscellany/david-krakauer-on-complexity/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/miscellany/domains-of-aesthetics/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/miscellany/flack-mitchell-on-complexity/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/miscellany/information-theory/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/miscellany/sara-walker-on-lifes-emergence/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/miscellany/the-fantastical-historical-truth/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/miscellany/the-growing-disinclination-for-war/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/miscellany/the-historical-method/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/miscellany/what-is-axiology/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/miscellany/zak-stein-on-complexity/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/analytic-philosophers/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/ancient-philosophers/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/aquinas-five-ways/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/aristotle/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/at-the-edge-of-miracles/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/baruch-spinoza/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/bertrand-russell/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/charles-sanders-peirce/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/continental-philosophers/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/critical-theorists/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/daniel-dennett/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/david-hume/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/duns-scotus/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/edmund-husserl/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/empiricists/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/epictetus/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/epicurus/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/existentialists/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/friedrich-nietzsche/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/georg-wilhelm-friedrich-hegel/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/george-berkeley/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/gottfried-wilhelm-leibniz/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/herbert-marcuse/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/immanuel-kant/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/jacques-derrida/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/jean-paul-sartre/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/john-dewey/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/john-locke/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/jurgen-habermas/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/karl-marx/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/ludwig-wittgenstein/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/marcus-aurelius/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/martin-heidegger/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/maurice-merleau-ponty/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/michel-foucault/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/phenomenologists/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/philosopher-club-membership/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/philosophers-or-philosophy/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/philosophical-gradients/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/plato-2/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/pragmatists/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/rationalists/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/rene-descartes/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/scholastics/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/seneca/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/simone-de-beauvoir/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/socrates/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/soren-kierkegaard/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/stoics/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/theodor-w-adorno/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/thomas-aquinas/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/thomas-hobbes/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/willard-van-orman-quine/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/william-james/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophers/william-of-ockham/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophical-inquiry/an-intellectually-enriched-and-diverse-environment/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophical-inquiry/charitable-engagement/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophical-inquiry/common-sense-blunders/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophical-inquiry/dangers-carrot-stick/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophical-inquiry/dangers-co-opted-wonders/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophical-inquiry/dangers-cognitive-biases/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophical-inquiry/dangers-egocentrism/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophical-inquiry/dangers-gaslighting/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophical-inquiry/dangers-half-searches/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophical-inquiry/dangers-ideologies-of-emotion/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophical-inquiry/dangers-ideologies-of-mystery/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophical-inquiry/dangers-limits-on-doubt/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophical-inquiry/dangers-narrative/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophical-inquiry/dangers-ontological-buffet/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophical-inquiry/dangers-promissory-treasures/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophical-inquiry/dangers-removing-the-impossible/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophical-inquiry/dangers-siloed-ideologies/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophical-inquiry/dangers-strong-leaders/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophical-inquiry/dangers-the-notion-of-fate/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophical-inquiry/dangers-transcendent-meaning/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophical-inquiry/dangers-unnuanced-conclusions/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophical-inquiry/dangers-untestable-ideologies/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophical-inquiry/dangers-vested-interests/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophical-inquiry/do-i-need-a-worldview/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophical-inquiry/how-minds-are-changed/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophical-inquiry/inscrutability-case-studies/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophical-inquiry/logic-wherever-structure/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophical-inquiry/our-view-of-humanity/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophical-inquiry/packaged-vs-eclectic-ideologies/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophical-inquiry/personal-truth/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophical-inquiry/philosophical-growth/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophical-inquiry/seeker-scenarios/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophical-inquiry/selective-pressures-on-ideologies/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophical-inquiry/testing-ideologies/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophical-inquiry/the-danger-of-resulting/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophical-inquiry/the-value-and-limits-of-debate/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-ai/a-novel-ai-thought-experiment/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-ai/ai-bias/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-ai/ai-censorship-case/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-ai/ai-fact-checking/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-ai/ai-in-public-discourse/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-ai/ai-knowledge/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-ai/ai-meta-post-inner-monologues/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-ai/ai-meta-post-overreach/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-ai/ai-meta-post-pushback/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-ai/ai-overconfidence/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-ai/ais-in-politics/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-ai/chain-of-thought-prompts/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-ai/feedback-loops/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-ai/human-reaction-to-ai/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-ai/philosophy-of-ai-core-concepts/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-ai/precision-prompting/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-ai/public-discourse-ai/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-ai/quality-training-data/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-ai/self-reported-ai-capabilities-06-24/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-ai/synthetic-ai-data/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-ai/the-credibility-of-ai/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-ai/what-is-the-philosophy-of-ai/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-language/abandoned-words/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-language/chomsky-ai/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-language/connotative-equivocation/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-language/core-concepts-philosophy-of-language/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-language/gradient-concepts-and-binary-terms/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-language/language-the-brain/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-language/linguistic-abstraction/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-language/linguistic-scaffolding/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-language/needless-semantic-complexity/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-language/normative/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-language/semantics-convention-vs-stipulation/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-language/the-linearity-of-language/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-language/thought-language/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-language/what-is-etymology/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-language/what-is-language/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-mind/are-there-selfless-acts/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-mind/assessing-mind-with-mind/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-mind/elitzur-on-consciousness/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-mind/free-will-vs-determinism/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-mind/manufacturer-or-method/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-mind/neuroscience-and-philosophy/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-mind/philosophy-of-mind-basics/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-mind/philosophy-of-mind-core-concepts/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-mind/preferences-pleasures/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-mind/psychology-and-philosophy/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-mind/subjective-objective-free-will/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-mind/the-chemical-basis-of-happiness/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-mind/the-schizophrenic-mind/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-mind/what-is-consciousness/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-mind/where-are-our-thoughts/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-mind/where-consciousness-can-must-emerge/",
-      "issue": "prompt-leak"
-    },
-    {
-      "page": "/philosophy-of-science/asymmetric-counterfactuals/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-science/bimodal-distributions/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-science/case-1-intelligence-political-leanings/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-science/causal-chains/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-science/confounding-variables/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-science/correlation-is-not-causation/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-science/elements-of-research-design/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-science/hard-vs-soft-sciences/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-science/improving-science/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-science/inductive-density/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-science/is-history-science/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-science/is-logic-acquired-inductively/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-science/methodological-naturalism/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-science/orthogonality/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-science/overfitting-in-scientific-models/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-science/p-value-issues/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-science/philosophy-of-science-core-concepts/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-science/research-design/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-science/science-and-the-public/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-science/science-vs-subjectivity/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-science/scientific-observations/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-science/scientism-faith/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-science/sorting-out-science-terms/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-science/technology-outpaces-theory/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-science/the-power-of-convergence/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-science/the-power-of-thought-experiments/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-science/the-problem-of-induction/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-science/the-use-of-proxies/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-science/the-value-of-surveys/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-science/what-are-pseudosciences/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-science/what-is-deduction/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-science/what-is-falsifiability/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-science/what-is-induction/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/philosophy-of-science/what-is-parsimony/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/political-philosophy/ai-the-us-political-divide/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/political-philosophy/critical-race-theory/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/political-philosophy/electoral-systems/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/political-philosophy/elements-of-a-stable-state/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/political-philosophy/identity-politics/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/political-philosophy/metrics-for-cultural-comparisons/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/political-philosophy/peaceful-revolutions/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/political-philosophy/political-philosophy-basics/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/political-philosophy/political-philosophy-core-concepts/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/political-philosophy/political-theory-human-nature/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/political-philosophy/red-blue-grey-tribes/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/political-philosophy/the-social-contract/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/rational-thought/1-at-99-5-or-5-at-95/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/rational-thought/a-taxonomy-of-emotions/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/rational-thought/ai-logic-intelligence/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/rational-thought/are-averages-not-always-true/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/rational-thought/assessing-arguments/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/rational-thought/attributions-of-causation/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/rational-thought/avoiding-logical-fallacies/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/rational-thought/calculating-risks/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/rational-thought/case-1-seizures/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/rational-thought/case-2-autism/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/rational-thought/case-3-astrology/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/rational-thought/case-4-obesity/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/rational-thought/case-5-grade-inflation/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/rational-thought/characteristics-of-science-denial/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/rational-thought/cognitive-threats-to-rationality/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/rational-thought/credencing/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/rational-thought/deflecting-to-experts/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/rational-thought/depth-or-width-of-knowledge/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/rational-thought/do-rationalists-skew-neurodivergent/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/rational-thought/empathy-overload/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/rational-thought/evolution-rationality/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/rational-thought/false-equivalencies/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/rational-thought/fine-tuned-rationality/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/rational-thought/integrated-critical-thinking/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/rational-thought/life-choices/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/rational-thought/logic/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/rational-thought/perverse-incentives/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/rational-thought/rational-romance/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/rational-thought/regret-assessment/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/rational-thought/sample-size-margin-of-error/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/rational-thought/scope-of-influence/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/rational-thought/starting-with-strong-basics/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/rational-thought/the-power-of-statistics/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/rational-thought/the-primacy-of-emotions/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/rational-thought/the-professional-application-of-rationality/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/rational-thought/training-data-bias/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/rational-thought/tu-quoque-or-you-too/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/rational-thought/what-is-design-thinking/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/rational-thought/what-is-futurism/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/rational-thought/what-is-game-theory/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/rational-thought/what-is-rational-thought/",
-      "issue": "anchor-scaffold"
-    },
-    {
-      "page": "/rational-thought/where-framing-goes-awry/",
-      "issue": "anchor-scaffold"
-    }
-  ],
-  "grammar_scars": [
-    {
-      "page": "/epistemology/logic/",
-      "issue": "double-and"
-    },
-    {
-      "page": "/humanistic-philosophies/personal-cosmic-meaning/",
-      "issue": "double-and"
-    },
-    {
-      "page": "/humanistic-philosophies/what-is-existentialism/",
-      "issue": "double-and"
-    },
-    {
-      "page": "/introduction/miscellaneous-philosophers/",
-      "issue": "double-and"
-    },
-    {
-      "page": "/philosophers/charting-sartre/",
-      "issue": "double-and"
-    },
-    {
-      "page": "/philosophers/john-locke/",
-      "issue": "double-the"
-    },
-    {
-      "page": "/philosophical-inquiry/dangers-carrot-stick/",
-      "issue": "double-and"
-    },
-    {
-      "page": "/philosophical-inquiry/dangers-unnuanced-conclusions/",
-      "issue": "double-and"
-    },
-    {
-      "page": "/philosophy-of-mind/knowledge-cognition-asymmetry/",
-      "issue": "double-and"
-    },
-    {
-      "page": "/rational-thought/do-rationalists-skew-neurodivergent/",
-      "issue": "double-and"
-    },
-    {
-      "page": "/rational-thought/logic/",
-      "issue": "double-and"
-    }
-  ]
+  "style_scars": [],
+  "grammar_scars": []
 }
