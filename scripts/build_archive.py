@@ -7623,6 +7623,35 @@ MANUAL_SECTION_HEADING_OVERRIDES = {
     ("/humanistic-philosophies/leaving-christianity/", "prompt-1"): "How to sort Christian audiences by the arguments most likely to move them",
     ("/humanistic-philosophies/testing-prayer/", "prompt-1"): "Would this prayer test actually distinguish a real god from an invented one?",
 
+    # Philosophy of Mind
+    ("/philosophy-of-mind/assessing-mind-with-mind/", "prompt-1"): "Can a mind test itself without begging the whole question?",
+    ("/philosophy-of-mind/elitzur-on-consciousness/", "prompt-1"): "Does this account of consciousness hold up on fact, logic, and testability?",
+    ("/philosophy-of-mind/free-will-vs-determinism/", "prompt-1"): "How the major free-will positions differ in argument and reply",
+    ("/philosophy-of-mind/functionalism-subjectivity/", "prompt-1"): "Why functionalists think subjectivity can arise from material organization",
+    ("/philosophy-of-mind/iq-evolution/", "prompt-1"): "What evolutionary pressures may have favored higher human intelligence",
+    ("/philosophy-of-mind/iq-intelligence-quotient/", "prompt-1"): "What IQ tests capture well and what they miss",
+    ("/philosophy-of-mind/knowledge-cognition-asymmetry/", "prompt-1"): "Can the human mind keep up with its own growing knowledge base?",
+    ("/philosophy-of-mind/land-ownership/", "prompt-1"): "What has to be true before land ownership can emerge",
+    ("/philosophy-of-mind/manufacturer-or-method/", "prompt-1"): "How could we judge the reliability of our mental faculties at all?",
+    ("/philosophy-of-mind/mother-in-my-brain/", "prompt-1"): "Why not finding thoughts in the brain does not make them spiritual",
+    ("/philosophy-of-mind/neurotypical-neurodivergent-minds/", "prompt-1"): "How much weight should we put on the neurotypical-neurodivergent comparison?",
+    ("/philosophy-of-mind/psychology-and-philosophy/", "prompt-1"): "How psychology and philosophy keep informing one another",
+    ("/philosophy-of-mind/rationality-and-free-will/", "prompt-1"): "Can rationality be judged without first settling free will?",
+    ("/philosophy-of-mind/subjectivity-constrained-by-the-objective/", "prompt-1"): "How objective reality constrains subjective experience",
+    ("/philosophy-of-mind/the-chemical-basis-of-happiness/", "prompt-1"): "How much of happiness can be explained chemically?",
+    ("/philosophy-of-mind/the-inertia-of-comfort/", "prompt-1"): "Does comfort really resist personal and social change?",
+    ("/philosophy-of-mind/what-is-consciousness/", "prompt-1"): "What consciousness is supposed to name",
+    ("/philosophy-of-mind/where-are-our-thoughts/", "prompt-1"): "Why thoughts not being visible in the brain proves less than people think",
+
+    # Political Philosophy
+    ("/political-philosophy/ai-the-us-political-divide/", "prompt-1"): "How AI could widen or narrow the US political divide",
+    ("/political-philosophy/electoral-systems/", "prompt-1"): "How the main electoral systems differ in structure and tradeoffs",
+    ("/political-philosophy/identity-politics/", "prompt-1"): "When identity and national belonging pull against each other",
+    ("/political-philosophy/maintaining-scientific-credibility/", "prompt-1"): "When public officials are tempted to bend science for public order",
+    ("/political-philosophy/metrics-for-cultural-comparisons/", "prompt-1"): "How to compare cultures by human well-being without hand-waving",
+    ("/political-philosophy/peaceful-revolutions/", "prompt-1"): "Why political change has become less violent in some contexts",
+    ("/political-philosophy/red-blue-grey-tribes/", "prompt-1"): "What distinguishes red, blue, and grey tribes in US life",
+
     # Philosophy of Science
     ("/philosophy-of-science/asymmetric-counterfactuals/", "prompt-1"): "Why what happened overshadows what could have happened",
     ("/philosophy-of-science/case-1-intelligence-political-leanings/", "prompt-1"): "What else could explain the intelligence-and-leftism correlation?",
