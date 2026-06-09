@@ -10,10 +10,10 @@ Gap-fill backlog: 332 (17.4%)
 
 ## Editorial Audit
 
-Pattern issues found: 20
+Pattern issues found: 18
 
-- overlong heading: 3
-- work-order heading: 17
+- overlong heading: 2
+- work-order heading: 16
 
 ## Branch Summary
 

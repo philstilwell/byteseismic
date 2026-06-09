@@ -7604,6 +7604,54 @@ TARGETED_SECTION_EXPANSIONS = {
 
 
 MANUAL_SECTION_HEADING_OVERRIDES = {
+    # Economics
+    ("/economics/ai-the-future-of-work/", "prompt-1"): "Who Avital Balwit is and why that matters here",
+    ("/economics/deflationary-spiral-for-ai-projects/", "prompt-1"): "Why accelerating AI can freeze worthwhile projects in place",
+    ("/economics/economic-complexity/", "prompt-1"): "Why economics rarely gets the clean certainty of simpler sciences",
+    ("/economics/economic-entitlements/", "prompt-1"): "When rising expectations harden into entitlement",
+    ("/economics/economic-optimism/", "prompt-1"): "The long-run case for economic optimism",
+    ("/economics/government-interventions/", "prompt-1"): "How governments steer, nudge, and distort market economies",
+    ("/economics/justified-optimism/", "prompt-1"): "What Hans Rosling's data-driven optimism gets right",
+    ("/economics/minimum-wage/", "prompt-1"): "Minimum wage laws bring gains and tradeoffs at the same time",
+    ("/economics/universal-basic-income/", "prompt-1"): "How the UBI experiment scored on its main effects",
+
+    # Humanistic Philosophies
+    ("/humanistic-philosophies/accounting-for-x/", "prompt-1"): "What Christian apologists mean by 'accounting for' logic and natural law",
+    ("/humanistic-philosophies/anthropomorphized-gods/", "prompt-1"): "Why humans so often imagine gods in human form",
+    ("/humanistic-philosophies/are-humans-more-egoistic-or-altruistic/", "prompt-1"): "Are humans better described as mixed, egoistic, or altruistic?",
+    ("/humanistic-philosophies/deism-theism/", "prompt-1"): "How deism and theism come apart",
+    ("/humanistic-philosophies/leaving-christianity/", "prompt-1"): "How to sort Christian audiences by the arguments most likely to move them",
+    ("/humanistic-philosophies/testing-prayer/", "prompt-1"): "Would this prayer test actually distinguish a real god from an invented one?",
+
+    # Philosophy of Science
+    ("/philosophy-of-science/asymmetric-counterfactuals/", "prompt-1"): "Why what happened overshadows what could have happened",
+    ("/philosophy-of-science/case-1-intelligence-political-leanings/", "prompt-1"): "What else could explain the intelligence-and-leftism correlation?",
+    ("/philosophy-of-science/correlation-and-causation/", "prompt-1"): "What correlation is, what causation is, and why they differ",
+    ("/philosophy-of-science/correlation-is-not-causation/", "prompt-1"): "Why correlation alone cannot establish causation",
+    ("/philosophy-of-science/definitions-of-explanation/", "prompt-1"): "The main philosophical senses of explanation",
+    ("/philosophy-of-science/elements-of-research-design/", "prompt-1"): "What rigorous research design has to include",
+    ("/philosophy-of-science/emerging-fields-in-science/", "prompt-1"): "Which newer sciences are reshaping philosophy of science",
+    ("/philosophy-of-science/hard-vs-soft-sciences/", "prompt-1"): "Why the hard-to-soft science continuum matters",
+    ("/philosophy-of-science/history-as-forensic-science/", "prompt-1"): "Is history a long-range form of forensic inquiry?",
+    ("/philosophy-of-science/improving-science/", "prompt-1"): "Where science is vulnerable and how it can improve",
+    ("/philosophy-of-science/inductive-density/", "prompt-1"): "Inductive density helps explain why stable objects feel real",
+    ("/philosophy-of-science/is-history-science/", "prompt-1"): "Is history a science or a distinct kind of inquiry?",
+    ("/philosophy-of-science/orthogonality/", "prompt-1"): "What orthogonality means in scientific research",
+    ("/philosophy-of-science/overfitting-in-scientific-models/", "prompt-1"): "What overfitting looks like in scientific models",
+    ("/philosophy-of-science/p-value-issues/", "prompt-1"): "Why the 0.05 threshold is not the whole story",
+    ("/philosophy-of-science/research-design-scenario-1/", "prompt-1"): "How to design a rigorous cross-cultural study of marriage motives",
+    ("/philosophy-of-science/science-and-the-public/", "prompt-1"): "How public trust in science has shifted over time",
+    ("/philosophy-of-science/science-vs-subjectivity/", "prompt-1"): "Science advances by disciplining subjectivity",
+    ("/philosophy-of-science/scientific-observations/", "prompt-1"): "Scientific observation ranges from direct sight to layered inference",
+    ("/philosophy-of-science/sorting-out-science-terms/", "prompt-1"): "How to separate effect, efficacy, effectiveness, prevalence, and incidence",
+    ("/philosophy-of-science/technology-outpaces-theory/", "prompt-1"): "When technology outruns the theory meant to explain it",
+    ("/philosophy-of-science/the-notion-of-laws/", "prompt-1"): "What kinds of laws different domains claim to have",
+    ("/philosophy-of-science/the-power-of-thought-experiments/", "prompt-1"): "Thought experiments that genuinely changed inquiry",
+    ("/philosophy-of-science/the-problem-of-induction/", "prompt-1"): "Is the problem of induction really about the absence of certainty?",
+    ("/philosophy-of-science/the-use-of-proxies/", "prompt-1"): "Why science sometimes has to measure by proxy",
+    ("/philosophy-of-science/what-is-etiology/", "prompt-1"): "What etiology means in philosophical use",
+    ("/philosophy-of-science/what-is-induction/", "prompt-1"): "How induction differs from deduction",
+
     # Philosophical Inquiry
     ("/philosophical-inquiry/an-intellectually-enriched-and-diverse-environment/", "prompt-1"): "How to build a better environment for truth-seeking",
     ("/philosophical-inquiry/appreciating-our-insignificance/", "prompt-1"): "Why cosmic insignificance can be liberating",
