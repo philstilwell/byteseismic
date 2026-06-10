@@ -1,12 +1,12 @@
 # Site Audit
 
-- Pages scanned: 783
+- Pages scanned: 830
 - Broken internal links: 0
 - Duplicate IDs: 0
 - Repeated headings: 5
 - Prompt numbering issues: 0
 - Orphan pages: 0
-- Oversized assets: 0
+- Oversized assets: 1
 - Style scars: 0
 - Grammar scars: 0
 
@@ -36,7 +36,7 @@
 
 ## Oversized Assets
 
-- none
+- `/assets/js/site-core.js` -> 281378 bytes (limit 280000)
 
 ## Style Scars
 

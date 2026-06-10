@@ -1463,6 +1463,67 @@ body.site-search-open {
   margin-top: 16px;
 }
 
+.philosopher-family-groups {
+  margin-top: 18px;
+}
+
+.philosopher-family__body {
+  padding: 0 14px 16px;
+}
+
+.philosopher-family__intro {
+  margin: 2px 0 14px;
+  color: var(--ink-muted);
+}
+
+.philosopher-family__subgroup + .philosopher-family__subgroup {
+  margin-top: 18px;
+  padding-top: 18px;
+  border-top: 1px solid rgba(16, 38, 59, 0.08);
+}
+
+.philosopher-family__subgroup-title {
+  margin: 0 0 10px;
+  color: var(--ink-strong);
+  font-family: "Newsreader", Georgia, serif;
+  font-size: clamp(1.15rem, 1.8vw, 1.45rem);
+}
+
+.philosopher-family__list {
+  margin: 0;
+}
+
+.philosopher-family__entry {
+  display: grid;
+  gap: 12px;
+}
+
+.philosopher-family__heading {
+  display: grid;
+  gap: 4px;
+}
+
+.philosopher-family__name {
+  color: var(--ink-strong);
+  font-weight: 700;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.16em;
+}
+
+.philosopher-family__meta {
+  color: var(--ink-muted);
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.philosopher-family__links {
+  gap: 8px;
+}
+
+.philosopher-branch-launches {
+  margin-top: 24px;
+}
+
 .feature-card h3 {
   margin: 10px 0 12px;
   font-size: 1.65rem;

@@ -493,6 +493,138 @@ GUIDED_READING_PATHS = [
     },
 ]
 
+PHILOSOPHER_BRANCH_ENTRY_ROUTES = [
+    {
+        "id": "practical-voices",
+        "title": "Start with voices that sound like counsel rather than paperwork",
+        "summary": "If you want the philosophers branch to feel alive immediately, begin where philosophy sounds like guidance under pressure rather than a museum placard.",
+        "audience": "Practical philosophy first",
+        "difficulty": "Foundational",
+        "length": "3 pages",
+        "best_for": "Readers who learn better from recognizable human predicaments than from a stack of doctrine labels.",
+        "central_question": "What does philosophy sound like when it is trying to steady judgment, not merely classify positions?",
+        "outcome": "You should leave with a felt sense of why voice matters here, and why the dialogue pages are not decorative extras.",
+        "steps": [
+            {"title": "Dialoguing with Epictetus", "path": "/philosophers/dialoguing-with-epictetus/", "reason": "Begin where discipline, agency, and emotional steadiness are brought right up against ordinary frustration."},
+            {"title": "Marcus Aurelius", "path": "/philosophers/marcus-aurelius/", "reason": "Move from live exchange to reflective self-government and see how Stoic pressure changes tone without changing stakes."},
+            {"title": "Cicero", "path": "/philosophers/cicero/", "reason": "Finish with a civic voice that keeps philosophy tied to rhetoric, duty, friendship, and public life."},
+        ],
+        "browse_label": "Browse ancient families",
+        "browse_path": "/philosophers/ancient-philosophers/",
+    },
+    {
+        "id": "system-builders",
+        "title": "Start with thinkers who try to make the world hang together",
+        "summary": "This route is for readers who want to feel the ambition of system: not just scattered good lines, but an attempt to make ethics, reality, and reasoning answer to one another.",
+        "audience": "Structure and system",
+        "difficulty": "Foundational to intermediate",
+        "length": "3 pages",
+        "best_for": "Readers who want philosophy to feel architectonic rather than episodic.",
+        "central_question": "What has to be true about reality, reason, and human purpose for a philosophical system to feel earned instead of merely imposing itself?",
+        "outcome": "You should come away knowing why system-builders attract admiration, irritation, and endless revision.",
+        "steps": [
+            {"title": "Aristotle", "path": "/philosophers/aristotle/", "reason": "Begin with function, causation, and form so the idea of explanatory structure has real grip."},
+            {"title": "Dialoguing with Aquinas", "path": "/philosophers/dialoguing-with-aquinas/", "reason": "Watch a systematic mind turn objection and reply into a method rather than a debating trick."},
+            {"title": "Charting Kant", "path": "/philosophers/charting-kant/", "reason": "End with a map of a thinker who reorganizes reason itself and forces later philosophy to answer him somehow."},
+        ],
+        "browse_label": "Browse rationalists and scholastics",
+        "browse_path": "/philosophers/rationalists/",
+    },
+    {
+        "id": "skeptics-and-critics",
+        "title": "Start with philosophers who make confidence expensive",
+        "summary": "Some of the best entry points are destructive in the healthy sense: they stop easy certainty from sounding intelligent for very long.",
+        "audience": "Critique and suspicion",
+        "difficulty": "Intermediate",
+        "length": "3 pages",
+        "best_for": "Readers who would rather have an honest objection than a soothing summary.",
+        "central_question": "Which habits of certainty deserve to survive critique, and which only felt secure because nobody pressed them hard enough?",
+        "outcome": "You should gain a sharper ear for skepticism, genealogy, and critique without treating them as the same thing.",
+        "steps": [
+            {"title": "Dialoguing with Hume", "path": "/philosophers/dialoguing-with-hume/", "reason": "Begin with a skeptic who keeps asking whether custom is doing more work than reason."},
+            {"title": "Friedrich Nietzsche", "path": "/philosophers/friedrich-nietzsche/", "reason": "Move into critique that tests morality, truth-talk, and inherited seriousness for hidden motives."},
+            {"title": "Charting Foucault", "path": "/philosophers/charting-foucault/", "reason": "Finish where knowledge, power, and historical arrangement stop feeling like separate conversations."},
+        ],
+        "browse_label": "Browse continental critics",
+        "browse_path": "/philosophers/continental-philosophers/",
+    },
+    {
+        "id": "beyond-the-familiar-canon",
+        "title": "Start where the inherited map of philosophy gets wider",
+        "summary": "If the branch is going to teach orientation rather than provincial confidence, it needs entries that widen what counts as a major philosophical voice.",
+        "audience": "Beyond the familiar canon",
+        "difficulty": "Foundational to intermediate",
+        "length": "3 pages",
+        "best_for": "Readers who want more than a Europe-only itinerary without turning the result into token sampling.",
+        "central_question": "What changes when philosophical method, selfhood, and argument are approached through different civilizational lineages?",
+        "outcome": "You should leave with a broader sense of what counts as rigor, discipline, and transformation across traditions.",
+        "steps": [
+            {"title": "Confucius", "path": "/philosophers/confucius/", "reason": "Begin where ethical cultivation, ritual, and role-formation are treated as the medium of wisdom."},
+            {"title": "Dialoguing with Nagarjuna", "path": "/philosophers/dialoguing-with-nagarjuna/", "reason": "Move into a voice that destabilizes essentialist habits without collapsing into verbal chaos."},
+            {"title": "Dogen", "path": "/philosophers/dogen/", "reason": "End with a thinker who turns practice, realization, and everyday activity into one philosophical field."},
+        ],
+        "browse_label": "Browse non-Western philosophers",
+        "browse_path": "/philosophers/non-western-philosophers/",
+    },
+    {
+        "id": "language-and-mind",
+        "title": "Start with philosophers who sharpen the tools of thought itself",
+        "summary": "This route treats philosophy as a discipline of clarity: what language is doing, what minds are doing, and how both can mislead us while sounding precise.",
+        "audience": "Language, logic, and mind",
+        "difficulty": "Intermediate",
+        "length": "3 pages",
+        "best_for": "Readers who want the branch to connect directly with modern questions about analysis, cognition, and explanation.",
+        "central_question": "How much confusion comes from the world, and how much comes from the way our concepts and vocabularies are set up?",
+        "outcome": "You should see why analytic precision can clarify inquiry without making philosophy feel bloodless.",
+        "steps": [
+            {"title": "Bertrand Russell", "path": "/philosophers/bertrand-russell/", "reason": "Begin with clarity, analysis, and the ambition to clean up thought by cleaning up form."},
+            {"title": "Dialoguing with Wittgenstein", "path": "/philosophers/dialoguing-with-wittgenstein/", "reason": "Then meet a voice that keeps asking whether philosophical knots are often knots in language."},
+            {"title": "Daniel Dennett", "path": "/philosophers/daniel-dennett/", "reason": "Finish where mind, explanation, and cognitive science are forced into the same argumentative frame."},
+        ],
+        "browse_label": "Browse analytic philosophers",
+        "browse_path": "/philosophers/analytic-philosophers/",
+    },
+]
+
+PHILOSOPHER_BRANCH_LAUNCHES = [
+    {
+        "title": "Ancient Philosophers",
+        "path": "/philosophers/ancient-philosophers/",
+        "meta": "School cluster",
+        "summary": "Start here if you want the basic Greek and Hellenistic pressures that later philosophy keeps rewriting.",
+    },
+    {
+        "title": "Scholastics",
+        "path": "/philosophers/scholastics/",
+        "meta": "School cluster",
+        "summary": "Use this path if you want metaphysics, theology, and argument structure to appear in one frame.",
+    },
+    {
+        "title": "Empiricists",
+        "path": "/philosophers/empiricists/",
+        "meta": "School cluster",
+        "summary": "Good for readers who want experience, skepticism, and human psychology to set the terms of inquiry.",
+    },
+    {
+        "title": "Analytic Philosophers",
+        "path": "/philosophers/analytic-philosophers/",
+        "meta": "School cluster",
+        "summary": "Follow this line if you want language, logic, and conceptual clarity to take center stage.",
+    },
+    {
+        "title": "Continental Philosophers",
+        "path": "/philosophers/continental-philosophers/",
+        "meta": "School cluster",
+        "summary": "Start here for history, subjectivity, power, critique, and the larger mood of modernity.",
+    },
+    {
+        "title": "Non-Western Philosophers",
+        "path": "/philosophers/non-western-philosophers/",
+        "meta": "School cluster",
+        "summary": "Use this route to widen the inherited map and see how rigor survives in very different vocabularies.",
+    },
+]
+
 GLOSSARY_TERMS = [
     {"term": "Abduction", "definition": "Inference to the best explanation: reasoning from observed facts toward the explanation that would make them most intelligible.", "branch": "Epistemology", "paths": ["/epistemology/abduction-utility-and-issues/"], "tags": ["inference", "explanation"]},
     {"term": "Adequate evidence", "definition": "Support strong enough for the claim being made, given the stakes, alternatives, error costs, and available methods of checking.", "branch": "Epistemology", "paths": ["/epistemology/adequate-evidence/"], "tags": ["evidence", "justification"]},
@@ -596,47 +728,236 @@ def philosopher_triad(title: str, dialogue_name: str | None = None, chart_name: 
     }
 
 
+def philosopher_triad_alias(title: str, alias: str) -> dict:
+    return philosopher_triad(title, alias, alias)
+
+
+def philosopher_school(title: str, children: list[dict]) -> dict:
+    return {"title": title, "href": "", "children": children}
+
+
+PHILOSOPHER_SUPPORT_ALIASES = {
+    "Anselm of Canterbury": "Anselm",
+    "Augustine of Hippo": "Augustine",
+    "Baruch Spinoza": "Spinoza",
+    "Bertrand Russell": "Russell",
+    "David Hume": "Hume",
+    "Edmund Husserl": "Husserl",
+    "Friedrich Nietzsche": "Nietzsche",
+    "George Berkeley": "Berkeley",
+    "Georg Wilhelm Friedrich Hegel": "Hegel",
+    "Gottfried Wilhelm Leibniz": "Leibniz",
+    "Herbert Marcuse": "Marcuse",
+    "Immanuel Kant": "Kant",
+    "Jacques Derrida": "Derrida",
+    "Jean-Jacques Rousseau": "Rousseau",
+    "Jean-Paul Sartre": "Sartre",
+    "John Locke": "Locke",
+    "Jurgen Habermas": "Habermas",
+    "Karl Marx": "Marx",
+    "Ludwig Wittgenstein": "Wittgenstein",
+    "Marcus Aurelius": "Marcus Aurelius",
+    "Martin Heidegger": "Heidegger",
+    "Maurice Merleau-Ponty": "Merleau-Ponty",
+    "Michel Foucault": "Foucault",
+    "Niccolo Machiavelli": "Machiavelli",
+    "René Descartes": "Descartes",
+    "Simone de Beauvoir": "Beauvoir",
+    "Søren Kierkegaard": "Kierkegaard",
+    "Theodor Adorno": "Adorno",
+    "Thomas Aquinas": "Aquinas",
+    "Thomas Hobbes": "Hobbes",
+    "Willard Van Orman Quine": "Quine",
+}
+
+
 PHILOSOPHER_HIERARCHY_ADDITIONS = [
     (
         "Ancient Philosophers",
         [
-            philosopher_triad("Heraclitus"),
-            philosopher_triad("Parmenides"),
-            philosopher_triad("Plotinus"),
+            philosopher_school(
+                "Presocratics",
+                [
+                    philosopher_triad("Heraclitus"),
+                    philosopher_triad("Parmenides"),
+                ],
+            ),
+            philosopher_school(
+                "Classical Greeks",
+                [
+                    philosopher_triad("Socrates"),
+                    philosopher_triad("Plato"),
+                    philosopher_triad("Aristotle"),
+                ],
+            ),
+            philosopher_school(
+                "Hellenistic and Roman",
+                [
+                    philosopher_school(
+                        "Stoics",
+                        [
+                            philosopher_triad("Epictetus"),
+                            philosopher_triad("Seneca"),
+                            philosopher_triad("Marcus Aurelius"),
+                        ],
+                    ),
+                    philosopher_school(
+                        "Epicureans",
+                        [
+                            philosopher_triad("Epicurus"),
+                        ],
+                    ),
+                    philosopher_school(
+                        "Roman Civic Thought",
+                        [
+                            philosopher_triad("Cicero"),
+                        ],
+                    ),
+                ],
+            ),
+            philosopher_school(
+                "Neoplatonists",
+                [
+                    philosopher_triad("Plotinus"),
+                ],
+            ),
         ],
     ),
     (
         "Scholastics",
         [
-            philosopher_triad("Augustine of Hippo", "Augustine", "Augustine"),
-            philosopher_triad("Anselm of Canterbury", "Anselm", "Anselm"),
-            philosopher_triad("William of Ockham"),
+            philosopher_school(
+                "Patristic and Early Medieval",
+                [
+                    philosopher_triad_alias("Augustine of Hippo", "Augustine"),
+                    philosopher_triad_alias("Anselm of Canterbury", "Anselm"),
+                ],
+            ),
+            philosopher_school(
+                "High and Late Scholastics",
+                [
+                    philosopher_triad_alias("Thomas Aquinas", "Aquinas"),
+                    philosopher_triad("Duns Scotus"),
+                    philosopher_triad("William of Ockham"),
+                ],
+            ),
         ],
     ),
     (
         "Islamic and Jewish Philosophers",
         [
-            philosopher_triad("Avicenna"),
-            philosopher_triad("Averroes"),
-            philosopher_triad("Maimonides"),
+            philosopher_school(
+                "Islamic Philosophers",
+                [
+                    philosopher_triad("Avicenna"),
+                    philosopher_triad("Averroes"),
+                    philosopher_triad("Al-Ghazali"),
+                ],
+            ),
+            philosopher_school(
+                "Jewish Philosophers",
+                [
+                    philosopher_triad("Maimonides"),
+                ],
+            ),
+        ],
+    ),
+    (
+        "Rationalists",
+        [
+            philosopher_triad_alias("René Descartes", "Descartes"),
+            philosopher_triad_alias("Baruch Spinoza", "Spinoza"),
+            philosopher_triad_alias("Gottfried Wilhelm Leibniz", "Leibniz"),
+        ],
+    ),
+    (
+        "Empiricists",
+        [
+            philosopher_triad_alias("Thomas Hobbes", "Hobbes"),
+            philosopher_triad_alias("John Locke", "Locke"),
+            philosopher_triad_alias("George Berkeley", "Berkeley"),
+            philosopher_triad_alias("David Hume", "Hume"),
+        ],
+    ),
+    (
+        "Pragmatists",
+        [
+            philosopher_triad("Charles Sanders Peirce"),
+            philosopher_triad("William James"),
+            philosopher_triad("John Dewey"),
         ],
     ),
     (
         "Analytic Philosophers",
         [
             philosopher_triad("Gottlob Frege"),
+            philosopher_triad("Bertrand Russell", "Russell", "Russell"),
             philosopher_triad("G.E. Moore"),
+            philosopher_triad("Ludwig Wittgenstein", "Wittgenstein", "Wittgenstein"),
+            philosopher_triad("Willard Van Orman Quine", "Quine", "Quine"),
             philosopher_triad("Elizabeth Anscombe"),
             philosopher_triad("Saul Kripke"),
+            philosopher_triad("Daniel Dennett", "Dennett", "Dennett"),
         ],
     ),
-    ("Continental Philosophers", [philosopher_triad("Hannah Arendt")]),
-    ("Critical Theorists", [philosopher_triad("Walter Benjamin"), philosopher_triad("Jurgen Habermas", "Habermas", "Habermas")]),
+    (
+        "Continental Philosophers",
+        [
+            philosopher_school(
+                "German Idealists and Critics",
+                [
+                    philosopher_triad("Immanuel Kant", "Kant", "Kant"),
+                    philosopher_triad("Georg Wilhelm Friedrich Hegel", "Hegel", "Hegel"),
+                    philosopher_triad("Arthur Schopenhauer", "Schopenhauer", "Schopenhauer"),
+                ],
+            ),
+            philosopher_school(
+                "Genealogy, Power, and Deconstruction",
+                [
+                    philosopher_triad("Friedrich Nietzsche", "Nietzsche", "Nietzsche"),
+                    philosopher_triad("Karl Marx", "Marx", "Marx"),
+                    philosopher_triad("Michel Foucault", "Foucault", "Foucault"),
+                    philosopher_triad("Jacques Derrida", "Derrida", "Derrida"),
+                ],
+            ),
+            philosopher_school(
+                "Political and Historical Continental Thought",
+                [
+                    philosopher_triad("Hannah Arendt"),
+                ],
+            ),
+        ],
+    ),
+    (
+        "Phenomenologists",
+        [
+            philosopher_triad("Edmund Husserl", "Husserl", "Husserl"),
+            philosopher_triad("Martin Heidegger", "Heidegger", "Heidegger"),
+            philosopher_triad("Maurice Merleau-Ponty", "Merleau-Ponty", "Merleau-Ponty"),
+        ],
+    ),
+    (
+        "Existentialists",
+        [
+            philosopher_triad("Søren Kierkegaard", "Kierkegaard", "Kierkegaard"),
+            philosopher_triad("Jean-Paul Sartre", "Sartre", "Sartre"),
+            philosopher_triad("Simone de Beauvoir", "Beauvoir", "Beauvoir"),
+        ],
+    ),
+    (
+        "Critical Theorists",
+        [
+            philosopher_triad("Walter Benjamin"),
+            philosopher_triad("Theodor Adorno", "Adorno", "Adorno"),
+            philosopher_triad("Herbert Marcuse", "Marcuse", "Marcuse"),
+            philosopher_triad("Jurgen Habermas", "Habermas", "Habermas"),
+        ],
+    ),
     (
         "Political Philosophers",
         [
-            philosopher_triad("Niccolo Machiavelli", "Machiavelli", "Machiavelli"),
-            philosopher_triad("Jean-Jacques Rousseau", "Rousseau", "Rousseau"),
+            philosopher_triad_alias("Niccolo Machiavelli", "Machiavelli"),
+            philosopher_triad_alias("Jean-Jacques Rousseau", "Rousseau"),
             philosopher_triad("John Stuart Mill"),
             philosopher_triad("John Rawls"),
         ],
@@ -651,11 +972,40 @@ PHILOSOPHER_HIERARCHY_ADDITIONS = [
     (
         "Non-Western Philosophers",
         [
-            philosopher_triad("Confucius"),
-            philosopher_triad("Laozi"),
-            philosopher_triad("Zhuangzi"),
-            philosopher_triad("Mencius"),
-            philosopher_triad("Nagarjuna"),
+            philosopher_school(
+                "Confucian Thinkers",
+                [
+                    philosopher_triad("Confucius"),
+                    philosopher_triad("Mencius"),
+                    philosopher_triad("Xunzi"),
+                ],
+            ),
+            philosopher_school(
+                "Mohists",
+                [
+                    philosopher_triad("Mozi"),
+                ],
+            ),
+            philosopher_school(
+                "Daoists",
+                [
+                    philosopher_triad("Laozi"),
+                    philosopher_triad("Zhuangzi"),
+                ],
+            ),
+            philosopher_school(
+                "Buddhist Philosophers",
+                [
+                    philosopher_triad("Nagarjuna"),
+                    philosopher_triad("Dogen"),
+                ],
+            ),
+            philosopher_school(
+                "Vedanta",
+                [
+                    philosopher_triad("Shankara"),
+                ],
+            ),
         ],
     ),
 ]
@@ -691,6 +1041,44 @@ PHILOSOPHER_NAME_ALIASES = {
     "Habermas": "Jurgen Habermas",
     "Russel": "Bertrand Russell",
 }
+
+PHILOSOPHER_NAME_ALIASES.update(
+    {
+        "Adorno": "Theodor Adorno",
+        "Aurelius": "Marcus Aurelius",
+        "Beauvoir": "Simone de Beauvoir",
+        "Berkeley": "George Berkeley",
+        "Descartes": "René Descartes",
+        "Dennett": "Daniel Dennett",
+        "Derrida": "Jacques Derrida",
+        "Dewey": "John Dewey",
+        "Foucault": "Michel Foucault",
+        "Ghazali": "Al-Ghazali",
+        "Hegel": "Georg Wilhelm Friedrich Hegel",
+        "Heidegger": "Martin Heidegger",
+        "Hobbes": "Thomas Hobbes",
+        "Husserl": "Edmund Husserl",
+        "Kant": "Immanuel Kant",
+        "Kierkegaard": "Søren Kierkegaard",
+        "Leibniz": "Gottfried Wilhelm Leibniz",
+        "Locke": "John Locke",
+        "Marcuse": "Herbert Marcuse",
+        "Marx": "Karl Marx",
+        "Nietzsche": "Friedrich Nietzsche",
+        "Peirce": "Charles Sanders Peirce",
+        "Russell": "Bertrand Russell",
+        "Sartre": "Jean-Paul Sartre",
+        "Schopenhauer": "Arthur Schopenhauer",
+        "Scotus": "Duns Scotus",
+        "Spinoza": "Baruch Spinoza",
+        "William James": "William James",
+        "Wittgenstein": "Ludwig Wittgenstein",
+        "Xunzi": "Xunzi",
+        "Mozi": "Mozi",
+        "Dogen": "Dogen",
+        "Shankara": "Shankara",
+    }
+)
 
 
 PHILOSOPHER_PROFILES = {
@@ -1130,6 +1518,576 @@ PHILOSOPHER_PROFILES = {
     },
 }
 
+PHILOSOPHER_PROFILES.update(
+    {
+        "Aristotle": {
+            "period": "classical Greek philosophy, where logic, ethics, politics, biology, and metaphysics are treated as one long inquiry into explanation and flourishing",
+            "signature": "the world is intelligible through form, function, causation, and the activities by which beings fulfill what they are",
+            "method": "patient explanatory layering: he starts from what appears, distinguishes kinds of causes, and asks what completes the activity of the thing in question",
+            "concepts": [
+                "Substance: some beings are basic subjects of predication rather than mere properties or heaps.",
+                "Four causes: explanation often needs matter, form, source of change, and end rather than one thin cause-word.",
+                "Virtue as habit: character is trained by repeated action until good judgment becomes second nature.",
+                "Teleology: living things and practices are often best understood by what counts as their proper functioning.",
+            ],
+            "pressure": "whether teleology explains the world or projects human-purpose language onto nature more than nature has earned",
+            "legacy": "logic, virtue ethics, political theory, biology, metaphysics, scholasticism, and later debates over explanation itself",
+            "begin": "Begin with function: what makes a knife, a friendship, or a human life good as that kind of thing?",
+        },
+        "Plato": {
+            "period": "classical Greek philosophy, where dialogue, metaphysics, politics, and pedagogy are forced into the same dramatic frame",
+            "signature": "appearances and opinion are not enough; the philosophical life turns on whether reason can rise toward intelligible structure",
+            "method": "dramatic dialectic: he lets competing voices test one another until the reader feels both the attraction and the cost of a cleaner account",
+            "concepts": [
+                "Forms: stable intelligible realities explain how changing particulars can still be knowable and comparable.",
+                "Dialectic: philosophy advances by questioning appearances until the deeper structure of the issue comes into view.",
+                "The soul: justice and knowledge matter because a person can be internally ordered or disordered.",
+                "The cave: political and intellectual life are easily trapped by shadows that feel sufficient until education turns the head.",
+            ],
+            "pressure": "whether the Forms explain knowledge and normativity or simply duplicate the world while making participation mysterious",
+            "legacy": "metaphysics, political philosophy, rationalism, education, theology, and the recurring suspicion that ordinary confidence is not yet knowledge",
+            "begin": "Begin with one of Plato's traps: why do we so easily confuse confidence, reputation, and opinion with actual knowledge?",
+        },
+        "Socrates": {
+            "period": "classical Athens, where philosophical argument becomes a public test of character as much as intelligence",
+            "signature": "an examined life in which definitions, reasons, and self-scrutiny matter more than prestige, rhetoric, or inherited certainty",
+            "method": "elenchus: he asks simple questions until confident speech reveals confusion, then treats discovered ignorance as the start of moral seriousness",
+            "concepts": [
+                "Examination: untested beliefs about justice, courage, or piety are too flimsy to govern a life well.",
+                "Definition: philosophy begins when examples are not enough and the question becomes what the thing itself is.",
+                "Socratic irony: apparent ignorance becomes a way of exposing borrowed confidence in others.",
+                "Care of the soul: what matters most is the condition of one's character and judgment, not merely public success.",
+            ],
+            "pressure": "whether relentless questioning clarifies life or leaves too little positive doctrine for action, education, and politics",
+            "legacy": "ethics, pedagogy, dialectic, civic dissent, and the enduring idea that humility can be intellectually stronger than swagger",
+            "begin": "Begin with the irritating Socratic question: what do you mean by the virtue you keep praising?",
+        },
+        "Epicurus": {
+            "period": "Hellenistic philosophy, where ethics becomes practical therapy for fear, anxiety, and runaway desire",
+            "signature": "a calm life is possible once superstition, social vanity, and unnecessary desire stop commanding the soul",
+            "method": "therapeutic naturalism: he uses atomism and practical counsel to dissolve the fears that keep pleasure from becoming stable",
+            "concepts": [
+                "Ataraxia: peace of mind matters more than thrill-chasing or status competition.",
+                "Pleasure as absence of disturbance: the deepest pleasure can be steady relief rather than spectacular stimulation.",
+                "No fear of death: death is not an experience for us, so fearing it distorts life without helping it.",
+                "Friendship: companionship becomes one of the strongest supports for a secure and pleasant life.",
+            ],
+            "pressure": "whether tranquil pleasure is a wise ethical anchor or too thin an answer to ambition, tragedy, and public responsibility",
+            "legacy": "hedonism, secular therapy, atomism, friendship ethics, and later arguments about desire, mortality, and well-being",
+            "begin": "Begin with fear of death: how much of ordinary striving is really an attempt to bargain with finitude?",
+        },
+        "Seneca": {
+            "period": "Roman Stoicism under empire, where philosophy must survive ambition, grief, wealth, and political danger",
+            "signature": "philosophy as daily moral rehearsal in a world that keeps offering reasons to panic, flatter, or waste oneself",
+            "method": "epistolary self-interrogation: he names the emotional surge, widens the frame, and asks what judgment is actually doing the damage",
+            "concepts": [
+                "Time: life is not short by nature so much as squandered by distraction and vanity.",
+                "Anger: rage feels powerful while making judgment smaller and more dependent on insult.",
+                "Fortune: externals are unstable, so peace cannot sensibly be built on their guarantee.",
+                "Self-examination: moral improvement needs recurring review rather than occasional noble moods.",
+            ],
+            "pressure": "whether Stoic discipline becomes humane steadiness or polished self-insulation dressed in noble prose",
+            "legacy": "Stoicism, moral psychology, letters as philosophical form, resilience discourse, and practical reflections on mortality and time",
+            "begin": "Begin with time: what if the main scandal is not that life is short, but that we keep handing it away?",
+        },
+        "René Descartes": {
+            "period": "early modern rationalism, where certainty is rebuilt by doubting inherited belief more severely than most people enjoy",
+            "signature": "knowledge must be grounded in what survives radical doubt, even if that leaves mind and matter sharply split",
+            "method": "methodic doubt and reconstruction: he strips away vulnerable beliefs, then rebuilds from what seems indubitable and clear",
+            "concepts": [
+                "Cogito: doubting reveals at least one undeniable fact, that the doubting thinker exists.",
+                "Clear and distinct ideas: certainty is tied to intellectual transparency rather than habit or authority.",
+                "Mind-body dualism: thought and extension are treated as fundamentally different kinds of reality.",
+                "Mechanism: the physical world becomes intelligible through mathematically describable motion rather than hidden purposes.",
+            ],
+            "pressure": "whether the quest for certainty secures knowledge or creates skeptical and mind-body problems more stubborn than the ones it set out to solve",
+            "legacy": "rationalism, modern epistemology, philosophy of mind, scientific method debates, and the modern drama of the isolated subject",
+            "begin": "Begin with radical doubt: what, if anything, would remain if every vulnerable belief were pushed as hard as possible?",
+        },
+        "Gottfried Wilhelm Leibniz": {
+            "period": "late seventeenth-century rationalism, where logic, metaphysics, theology, and mathematics are expected to cooperate",
+            "signature": "reality is rationally ordered, and contingency, individuality, and divine wisdom must all fit without contradiction",
+            "method": "principle-driven metaphysics: he pushes reason, identity, possibility, and explanation until they yield a remarkably ambitious architecture",
+            "concepts": [
+                "Principle of sufficient reason: facts and states of affairs should not float free of any adequate why.",
+                "Monads: reality is composed of centers of expression rather than little bits knocking into one another.",
+                "Best possible world: divine wisdom is asked to reconcile contingency, order, and the existence of evil.",
+                "Identity of indiscernibles: if there is no real difference, multiplying entities does no explanatory work.",
+            ],
+            "pressure": "whether the system illuminates order or overintellectualizes evil, embodiment, and the roughness of actual experience",
+            "legacy": "rationalism, modal metaphysics, logic, philosophy of religion, and later dreams of a symbolic calculus of thought",
+            "begin": "Begin with explanation: when we say there must be some sufficient reason, how demanding is that requirement really?",
+        },
+        "Thomas Hobbes": {
+            "period": "early modern political philosophy after civil war, where fear and security become impossible to treat as trivial concerns",
+            "signature": "peace requires a public power strong enough to prevent rivalry, mistrust, and vulnerability from collapsing life into conflict",
+            "method": "geometric political psychology: he starts from desire, fear, equality of vulnerability, and strategic distrust, then builds the commonwealth as an artificial remedy",
+            "concepts": [
+                "State of nature: without common authority, insecurity can make even ordinary coexistence unstable.",
+                "Social contract: political order is authorized because people need a way out of mutual fear.",
+                "Sovereignty: divided ultimate authority is a recipe for recurring conflict rather than peace.",
+                "Representation: the state acts in the name of its members through an authorized artificial person.",
+            ],
+            "pressure": "whether fear can ground durable legitimacy or only secure obedience under threat",
+            "legacy": "contract theory, political realism, sovereignty debates, secular state theory, and modern discussions of order and authority",
+            "begin": "Begin with fear: what kind of politics follows if insecurity is treated as the first practical problem rather than the last?",
+        },
+        "John Locke": {
+            "period": "early liberal modernity, where knowledge, property, toleration, and government are all forced to answer to experience and consent",
+            "signature": "authority in mind and politics must justify itself without leaning too comfortably on innateness or unchecked power",
+            "method": "empiricist restraint with liberal construction: he clears away innate ideas, then rebuilds knowledge, personhood, and government from experience and consent",
+            "concepts": [
+                "Tabula rasa: the mind does not begin stocked with ready-made ideas simply because philosophers want a shortcut.",
+                "Personal identity: continuity of consciousness matters more than continuity of substance when we ask who someone is.",
+                "Property and labor: ownership is tied to appropriation, use, and limits, not mere appetite.",
+                "Consent and toleration: legitimate government needs authorization, and religious coercion is a poor guide to truth.",
+            ],
+            "pressure": "whether liberal rights talk can avoid resting on contested assumptions about property, personhood, and who gets counted as fully included",
+            "legacy": "liberalism, empiricism, theories of identity, constitutional government, toleration, and debates over property and exclusion",
+            "begin": "Begin with personal identity: what makes you the same person across change, memory, and responsibility?",
+        },
+        "Karl Marx": {
+            "period": "nineteenth-century social theory and political economy, where capitalism is treated as a historical structure rather than a natural background fact",
+            "signature": "social life is organized by material production, class conflict, and forms of alienation that can look natural only because history hides its machinery",
+            "method": "historical materialism and immanent critique: he reads institutions from the standpoint of labor, contradiction, and the way systems generate their own tensions",
+            "concepts": [
+                "Alienation: labor can become hostile to the worker when activity, product, and social world are estranged.",
+                "Class struggle: political and legal forms are entangled with conflicts over production and power.",
+                "Commodity fetishism: market relations can disguise human labor as though value simply inhered in things.",
+                "Ideology: ruling interpretations can stabilize a social order by making its arrangements seem inevitable or innocent.",
+            ],
+            "pressure": "whether economic structure explains too much, flattening culture, politics, and moral agency into side effects",
+            "legacy": "socialism, critical theory, labor politics, ideology critique, sociology, and recurring arguments about capital, exploitation, and emancipation",
+            "begin": "Begin with labor: what changes once production is treated not as background economics but as the engine of social life?",
+        },
+        "Michel Foucault": {
+            "period": "late twentieth-century continental thought, where institutions, expertise, and identity are read as historical formations rather than neutral givens",
+            "signature": "power is productive as well as repressive: it forms subjects, normalizes conduct, and hides itself inside routines that look objective",
+            "method": "genealogy and historical excavation: he tracks how categories, institutions, and disciplines arise rather than accepting them as timeless necessities",
+            "concepts": [
+                "Power-knowledge: claims to knowledge can organize bodies, institutions, and legitimacy rather than merely describing them.",
+                "Discipline: modern control often works through surveillance, training, and normalization rather than spectacular force.",
+                "Discourse: what can be said, known, and treated as serious is historically organized, not simply given.",
+                "Subject formation: people are shaped by practices that invite them to understand themselves in certain ways.",
+            ],
+            "pressure": "whether genealogy exposes domination while leaving too little room for normativity, truth, and principled resistance",
+            "legacy": "critical theory, history of institutions, gender studies, medical humanities, prison critique, and analyses of normalization",
+            "begin": "Begin with the prison: what if punishment reveals not just crime policy, but a wider logic of discipline running through modern life?",
+        },
+        "Immanuel Kant": {
+            "period": "Enlightenment philosophy, where reason is given both astonishing authority and sharp limits",
+            "signature": "reason structures experience and obligation, but only when it first learns what it can and cannot legitimately claim",
+            "method": "transcendental critique: he asks what conditions must already hold for knowledge, freedom, and duty to be intelligible",
+            "concepts": [
+                "Synthetic a priori knowledge: some judgments are informative yet necessary because they arise from the structure of cognition.",
+                "Categories and intuition: experience is not raw data alone, but already organized by the mind's forms.",
+                "Autonomy and the categorical imperative: morality turns on whether a maxim can be willed universally by a rational agent.",
+                "Phenomena and noumena: what appears to us and what reality may be in itself are not casually identical.",
+            ],
+            "pressure": "whether formal reason secures universality or becomes too abstract to guide the texture of concrete moral and political life",
+            "legacy": "modern epistemology, deontology, German idealism, political philosophy, aesthetics, and the modern ideal of intellectual maturity",
+            "begin": "Begin with obligation: what kind of moral demand would bind even when desire, interest, and local custom push the other way?",
+        },
+        "Ludwig Wittgenstein": {
+            "period": "twentieth-century analytic philosophy, where language becomes less a mirror of reality and more a field of practices",
+            "signature": "philosophical confusion often comes from language leaving its ordinary home and pretending to do jobs it cannot actually do",
+            "method": "grammatical therapy: he examines use, examples, and family resemblances until a misleading picture loosens its grip",
+            "concepts": [
+                "Language games: meaning depends on use within practices, not on words carrying fixed essence-tags everywhere they go.",
+                "Family resemblance: many concepts hang together by overlapping similarities rather than one hidden core.",
+                "Rule-following: meaning and normativity become unstable if every application must be secured by a further private interpretation.",
+                "Forms of life: understanding is rooted in shared human practices before it becomes abstract theory.",
+            ],
+            "pressure": "whether dissolving problems clarifies thought or retreats too quickly from substantive theory and explanation",
+            "legacy": "ordinary-language philosophy, philosophy of mind, meaning, rule-following debates, and later suspicion toward philosophical pseudo-problems",
+            "begin": "Begin with meaning: what if the urge to define a word once and for all is itself part of the trouble?",
+        },
+        "Bertrand Russell": {
+            "period": "early analytic philosophy, where logical form is recruited to clear away metaphysical clutter and sloppy language",
+            "signature": "clarity about logic and reference can dissolve bad metaphysics while making knowledge more answerable to analysis",
+            "method": "analytic disassembly: he breaks claims into logical structure, separates acquaintance from description, and treats confusion as a solvable design flaw",
+            "concepts": [
+                "Definite descriptions: surface grammar can conceal logical structure, and analysis can expose the real commitments of a sentence.",
+                "Acquaintance and description: some knowledge is direct, while much of what we know arrives through mediated characterization.",
+                "Logical form: philosophy improves when propositions are not trusted merely as they first sound in ordinary speech.",
+                "Logical atomism: complex facts and propositions can be understood through simpler constituents and relations.",
+            ],
+            "pressure": "whether logical clarity captures reality or strips experience and ordinary language too bare to remain adequate",
+            "legacy": "analytic philosophy, logic, philosophy of language, public intellectual life, anti-idealism, and debates over analysis itself",
+            "begin": "Begin with denoting: why does a sentence about 'the present king of France' reveal so much about analysis, reference, and existence?",
+        },
+        "Georg Wilhelm Friedrich Hegel": {
+            "period": "post-Kantian idealism, where history, society, logic, and freedom are treated as interdependent developments",
+            "signature": "reality and thought develop through contradiction, mediation, and historical self-correction rather than static foundations",
+            "method": "dialectical development: he follows a position until its limits force a richer form that preserves and transforms what came before",
+            "concepts": [
+                "Recognition: selfhood and freedom depend on relations in which persons are acknowledged rather than isolated.",
+                "Determinate negation: criticism matters most when it transforms and carries forward what it opposes.",
+                "Spirit: social and historical life are not accidental scenery but part of how reason becomes actual.",
+                "Freedom in institutions: liberty is not merely inner choice, but life inside ethical structures that make agency concrete.",
+            ],
+            "pressure": "whether dialectic illuminates development or excuses obscurity by turning every difficulty into an aura of depth",
+            "legacy": "continental philosophy, Marxism, historical social theory, political philosophy, and large-scale accounts of development and contradiction",
+            "begin": "Begin with contradiction: what if conflict is not just failure in thought, but one of the ways thought moves forward?",
+        },
+        "Martin Heidegger": {
+            "period": "twentieth-century phenomenology and existential ontology, where the question of Being is treated as philosophy's most neglected wound",
+            "signature": "the meaning of Being was covered over when philosophy forgot the lived, finite way the world first shows up for us",
+            "method": "phenomenological destruction: he dismantles inherited concepts to recover the basic structures of existence that theory usually covers over",
+            "concepts": [
+                "Dasein: the being that asks about Being is already involved, situated, and not a detached spectator.",
+                "Being-in-the-world: self and world are not first separate pieces later stitched together.",
+                "Care: human existence is structured by concern, projection, and practical involvement before detached cognition.",
+                "Being-toward-death: finitude is not a side note but one of the pressures that can individualize existence.",
+            ],
+            "pressure": "whether the existential analysis reveals something basic or wraps ordinary insight in unnecessary fog while carrying dangerous political baggage",
+            "legacy": "existentialism, hermeneutics, deconstruction, theology, literary theory, and critiques of technological enframing",
+            "begin": "Begin with everyday involvement: what changes if our first relation to the world is use, concern, and practical immersion rather than detached observation?",
+        },
+        "Edmund Husserl": {
+            "period": "foundational phenomenology, where consciousness, evidence, and description are treated as philosophy's proper starting point",
+            "signature": "consciousness is always consciousness of something, and philosophy should study how things are given before theory buries the scene",
+            "method": "phenomenological reduction: he brackets ordinary assumptions to describe intentional structures, evidence, and constitution as carefully as possible",
+            "concepts": [
+                "Intentionality: experience is directed toward objects, states, meanings, or possibilities rather than sealed inside itself.",
+                "Epoché: suspending natural assumptions can clarify how phenomena are presented without immediately deciding metaphysical questions.",
+                "Eidetic variation: imaginatively varying a case helps reveal what belongs to its essence rather than its accidentals.",
+                "Lifeworld: scientific abstraction rests on a prior lived world it cannot honestly pretend to replace.",
+            ],
+            "pressure": "whether bracketing the world clarifies experience or makes philosophy hover too far above embodiment, history, and ordinary realism",
+            "legacy": "phenomenology, existentialism, philosophy of mind, embodiment studies, continental method, and the critique of scientistic flattening",
+            "begin": "Begin with intentionality: what if consciousness is not a container of images, but a directed openness to things?",
+        },
+        "Søren Kierkegaard": {
+            "period": "nineteenth-century existential Christianity, where inwardness, anxiety, and decision are set against system-building reason",
+            "signature": "truth becomes existential when the self must decide, suffer, and stand exposed rather than merely admire objective systems",
+            "method": "indirect communication: pseudonyms, staged voices, and paradox force the reader to confront their own posture instead of borrowing a conclusion",
+            "concepts": [
+                "Subjectivity: some truths matter in a way that demands existential appropriation, not detached spectatorship alone.",
+                "Despair: the self can fail to become itself through evasion, defiance, or dependence on the crowd.",
+                "Faith: religious commitment is not reducible to safe evidence management or public respectability.",
+                "Stages of life: aesthetic, ethical, and religious modes reveal different ways a self can be organized or disorganized.",
+            ],
+            "pressure": "whether existential inwardness deepens responsibility or licenses anti-rational drama when argument becomes uncomfortable",
+            "legacy": "existentialism, theology, psychology, literary philosophy, and modern reflections on anxiety, authenticity, and commitment",
+            "begin": "Begin with the self: what kind of failure is possible if a person can avoid becoming who they are supposed to become?",
+        },
+        "Simone de Beauvoir": {
+            "period": "twentieth-century existential feminism, where freedom is read through embodiment, dependence, and social hierarchy",
+            "signature": "human freedom is real but never disembodied; it is lived through situation, ambiguity, and structures that differentially block transcendence",
+            "method": "existential social analysis: she joins lived experience to historical and material conditions so freedom is neither romanticized nor erased",
+            "concepts": [
+                "Ambiguity: human life is neither pure fact nor pure freedom, so ethics has to work inside that tension.",
+                "Immanence and transcendence: oppression can trap persons in repetitive roles while others are licensed to project and create.",
+                "Othering: woman can be cast as the secondary or derivative term against which man pretends to be universal.",
+                "Situated freedom: agency remains real, but it is always exercised under conditions not of one's own choosing.",
+            ],
+            "pressure": "whether existential freedom can stay meaningful when social constraints are deep, patterned, and unequally distributed",
+            "legacy": "feminist philosophy, existential ethics, social critique, gender studies, and analyses of embodiment and oppression",
+            "begin": "Begin with situation: what happens to the language of freedom once social structure is allowed fully into the room?",
+        },
+        "Herbert Marcuse": {
+            "period": "twentieth-century critical theory, where domination becomes harder to see precisely because it becomes comfortable and technologically efficient",
+            "signature": "advanced industrial society can absorb dissent by making domination one-dimensional, administratively rational, and psychologically attractive",
+            "method": "dialectical social criticism: he reads technology, desire, labor, and culture as linked forms of management and containment",
+            "concepts": [
+                "One-dimensionality: critique weakens when society trains people to want only what the system can already supply.",
+                "Repressive tolerance: indiscriminate tolerance can protect domination by flattening genuine opposition into mere opinion traffic.",
+                "False needs: consumer desire may be manufactured in ways that stabilize unfreedom while feeling like personal choice.",
+                "Eros and liberation: the organization of desire is political, not a private afterthought.",
+            ],
+            "pressure": "whether the critique identifies a real soft domination or underestimates reform, plurality, and ordinary democratic gains",
+            "legacy": "critical theory, student radicalism, media critique, social philosophy, and arguments about comfort as a vehicle of control",
+            "begin": "Begin with comfort: what if a society can preserve domination not by terror alone, but by making conformity feel efficient and satisfying?",
+        },
+        "William of Ockham": {
+            "period": "late medieval scholasticism, where logical sharpness and metaphysical trimming begin pulling inherited systems apart",
+            "signature": "ontological economy and semantic discipline: do not multiply entities, distinctions, or explanatory machinery beyond what the argument requires",
+            "method": "logical and theological parsimony: he keeps asking whether a claim can be said more cleanly, more economically, and with fewer metaphysical commitments",
+            "concepts": [
+                "Parsimony: explanatory restraint is a discipline, not just a slogan for cutting anything one finds tiresome.",
+                "Nominalism: universals do not need their own freestanding metaphysical furniture in order for discourse to work.",
+                "Intuitive cognition: some cognition puts the mind in direct touch with what is present rather than only with abstractions.",
+                "Divine power: necessity should not be smuggled in where contingency and dependence remain live possibilities.",
+            ],
+            "pressure": "whether cutting metaphysical furniture clarifies the world or leaves universals, causation, and science too thinly grounded",
+            "legacy": "nominalism, logic, late medieval philosophy, parsimony discourse, and later empiricist suspicion toward inflated metaphysics",
+            "begin": "Begin with universals: how much metaphysical machinery do we really need in order to explain shared predicates and scientific talk?",
+        },
+    }
+)
+
+PHILOSOPHER_PROFILES.update(
+    {
+        "Theodor Adorno": {
+            "period": "twentieth-century critical theory after fascism, mass media, and the industrial packaging of culture",
+            "signature": "modern domination often works by making damaged life feel normal, entertaining, and even rational",
+            "method": "negative dialectics and immanent critique: he reads works, concepts, and institutions against the promises they make but fail to keep",
+            "concepts": [
+                "Culture industry: mass entertainment can train passivity while presenting itself as choice and leisure.",
+                "Negative dialectics: thought should keep faith with what resists neat conceptual capture rather than forcing premature closure.",
+                "Instrumental reason: reason becomes dangerous when efficiency outruns reflection on ends.",
+                "Nonidentity: reality never fits our concepts cleanly, and that mismatch matters ethically as well as intellectually.",
+            ],
+            "pressure": "whether the critique illuminates modern life or overstates cultural manipulation while wrapping straightforward insights in forbidding prose",
+            "legacy": "critical theory, aesthetics, media criticism, social philosophy, and suspicion toward administered life",
+            "begin": "Begin with entertainment: what if popular culture does not merely distract, but helps train people into a damaged kind of comfort?",
+        },
+        "George Berkeley": {
+            "period": "early modern immaterialism, where skepticism about matter is used to protect a more immediate picture of experience",
+            "signature": "the world we know is a world of perceived ideas and perceiving spirits, not of hidden material substance sitting behind appearances",
+            "method": "anti-abstraction polemic: he attacks what he sees as empty metaphysical furniture by returning the reader to actual experience",
+            "concepts": [
+                "Esse est percipi: ordinary objects exist as perceived or perceivable rather than as unknowable material substrates.",
+                "Ideas and spirits: passive ideas are perceived, while active spirits perceive and will.",
+                "Critique of abstract ideas: philosophers often manufacture confusion by pretending to grasp abstractions nobody can actually imagine or use.",
+                "Divine perception: the stability of the world depends on more than finite human observers blinking in and out of attention.",
+            ],
+            "pressure": "whether denying matter removes skepticism or simply relocates the mystery into God and perception",
+            "legacy": "idealism, philosophy of perception, empiricism, and recurring arguments over realism and common sense",
+            "begin": "Begin with the table in the room: what exactly are you claiming exists beyond the colors, shapes, resistances, and perceptions you actually encounter?",
+        },
+        "Charles Sanders Peirce": {
+            "period": "American pragmatism and logic, where meaning, inquiry, and scientific method are tied tightly together",
+            "signature": "thought is answerable to inquiry, and inquiry is a communal, revisable attempt to settle doubt through signs, testing, and interpretation",
+            "method": "pragmatic clarification: he asks what a concept would make us expect, do, infer, or revise in actual inquiry",
+            "concepts": [
+                "Pragmatic maxim: the meaning of an idea is tied to its conceivable practical bearings in experience and conduct.",
+                "Fallibilism: even our best beliefs remain revisable, but revisability is a strength of inquiry rather than a defeat.",
+                "Abduction: reasoning often starts by framing the best explanatory guess before deduction and testing take over.",
+                "Community of inquiry: truth is not private certainty, but what disciplined inquiry would keep converging toward under criticism.",
+            ],
+            "pressure": "whether pragmatic clarification sharpens meaning or narrows philosophy to what seems immediately testable or useful",
+            "legacy": "pragmatism, semiotics, philosophy of science, logic, and contemporary discussions of inquiry and meaning",
+            "begin": "Begin with surprise: when something unexpected happens, how do explanation, hypothesis, and testing actually get started?",
+        },
+        "Daniel Dennett": {
+            "period": "late twentieth-century analytic philosophy of mind, cognition, and evolution",
+            "signature": "mind can be understood as an evolved, layered system of competences without treating consciousness as a magical extra ingredient",
+            "method": "explanatory deflation with engineering metaphors: he asks which patterns, stances, and functions do the real work before importing deeper mysteries",
+            "concepts": [
+                "Intentional stance: attributing beliefs and desires can be a powerful predictive strategy even when we are talking about nonhuman systems.",
+                "Heterophenomenology: first-person reports matter, but they should be studied within a third-person explanatory framework.",
+                "Multiple drafts: conscious experience may be less like a central theater and more like distributed processing with no single inner stage manager.",
+                "Freedom worth wanting: responsibility does not require spooky metaphysical exemption from causation.",
+            ],
+            "pressure": "whether the view explains consciousness or explains it away by refusing the stubborn force of first-person experience",
+            "legacy": "philosophy of mind, cognitive science, free will debates, philosophy of biology, and public naturalism",
+            "begin": "Begin with agency: when you explain the behavior of a person, dog, or chess program, what exactly are you doing when you ascribe beliefs and intentions?",
+        },
+        "Jacques Derrida": {
+            "period": "late twentieth-century continental philosophy, where texts, concepts, and institutions are read for the tensions they cannot fully master",
+            "signature": "meaning is never self-sealing; concepts depend on traces, exclusions, and differences that keep unsettling their claim to final presence",
+            "method": "deconstructive reading: he follows binaries, margins, and neglected details until a text's own stability begins to wobble",
+            "concepts": [
+                "Différance: meaning arises through differences and deferrals rather than a single punctual presence that finally stops the chain.",
+                "Trace: what is absent still leaves marks inside what appears present and self-contained.",
+                "Supplement: what seems secondary or added-on often turns out to have been necessary all along.",
+                "Deconstruction: criticism works by showing how a structure depends on tensions it cannot simply erase.",
+            ],
+            "pressure": "whether deconstruction exposes hidden assumptions or licenses a style of endless slippage that avoids saying anything firm",
+            "legacy": "literary theory, continental philosophy, legal theory, theology, political thought, and critiques of metaphysical presence",
+            "begin": "Begin with a binary like speech and writing: why do philosophers so often rank one term as original and the other as derivative?",
+        },
+        "John Dewey": {
+            "period": "American pragmatism, where education, democracy, and inquiry are treated as parts of one living practice",
+            "signature": "thinking matters because it helps organisms and communities solve problems, grow, and reorganize experience more intelligently",
+            "method": "experimental naturalism: he reads knowing as an active, social process of inquiry rather than a spectator relation to finished reality",
+            "concepts": [
+                "Inquiry: thinking starts in problematic situations and aims at warranted resolution, not timeless contemplation alone.",
+                "Experience: human life is transactional, shaped by environment, habit, and experimentation rather than sealed-off inner episodes.",
+                "Growth: the point of education and ethics is not static perfection, but richer capacities for intelligent adjustment and flourishing.",
+                "Democracy as a way of life: public intelligence depends on habits of communication, participation, and shared problem-solving.",
+            ],
+            "pressure": "whether pragmatism is admirably flexible or too reluctant to name fixed truths and stable moral limits",
+            "legacy": "education theory, democratic thought, pragmatism, philosophy of inquiry, and public philosophy",
+            "begin": "Begin with the classroom: what if education is less about depositing truths and more about training people to inquire together?",
+        },
+        "Duns Scotus": {
+            "period": "late medieval scholasticism, where metaphysical precision becomes both finer and more dangerous",
+            "signature": "reality demands sharper distinctions than broad scholastic syntheses often allow, especially around individuality, being, and the will",
+            "method": "fine-grained distinction-making: he keeps splitting issues until rival claims can be compared without blurring into one another",
+            "concepts": [
+                "Univocity of being: being must be sayable in one basic sense across God and creatures if metaphysics is to reason clearly at all.",
+                "Haecceity: what makes this individual this one cannot be reduced to a general nature plus a shrug.",
+                "Formal distinction: some distinctions are real enough to matter without being separations between wholly independent things.",
+                "Primacy of will: willing is not simply a derivative of intellect, and moral life cannot be reduced to cognition alone.",
+            ],
+            "pressure": "whether the gains in precision justify the multiplication of distinctions that can make metaphysics feel over-engineered",
+            "legacy": "scholastic metaphysics, individuation debates, voluntarism, and later arguments about being and universals",
+            "begin": "Begin with individuality: what exactly makes one thing this one rather than just an instance of a kind?",
+        },
+        "Marcus Aurelius": {
+            "period": "Roman Stoicism at the level of daily self-command rather than classroom abstraction",
+            "signature": "inner steadiness is possible when judgment stops treating every irritation, loss, and insult as a metaphysical emergency",
+            "method": "self-address and moral rehearsal: he writes to reframe impressions before they harden into resentment or panic",
+            "concepts": [
+                "Ruling faculty: the center of practical life is how judgment uses impressions, not how carefully the world obeys us.",
+                "Impermanence: everything passes, and remembering that scale can puncture vanity and grievance.",
+                "Common nature: we belong to a wider human and cosmic order, which makes isolation and spite look smaller.",
+                "Inner citadel: peace depends less on outer control than on disciplined assent and proportion.",
+            ],
+            "pressure": "whether Stoic acceptance becomes lucid freedom or too quickly asks suffering people to spiritualize what should also be resisted",
+            "legacy": "Stoicism, self-examination literature, resilience discourse, practical ethics, and reflections on mortality and duty",
+            "begin": "Begin with annoyance: what happens when you treat the first surge of irritation as a judgment to be examined rather than a fact to be obeyed?",
+        },
+        "Friedrich Nietzsche": {
+            "period": "nineteenth-century genealogy, where morality, truthfulness, and culture are all put under suspicion",
+            "signature": "many of our highest values hide histories of resentment, weakness, self-deception, and life-denial beneath their noble costumes",
+            "method": "genealogical provocation: he asks what a value came from, what instincts it serves, and what sort of life it strengthens or sickens",
+            "concepts": [
+                "Will to power: life is not exhausted by passive survival; interpretation, expansion, and ranking are built into how forces express themselves.",
+                "Ressentiment: moral systems can grow out of impotence that learns to call its own reaction virtue.",
+                "Master and slave morality: evaluations are historically formed and tied to different kinds of strength, weakness, and social position.",
+                "Eternal recurrence: a thought-experiment that tests whether one could affirm a life rather than merely endure it.",
+            ],
+            "pressure": "whether the critique of morality liberates thought or glamorizes domination while offering too little by way of humane reconstruction",
+            "legacy": "existentialism, genealogy, psychoanalysis, literary modernism, post-structuralism, and critiques of morality and truth",
+            "begin": "Begin with moral confidence: what if calling something good or evil tells us as much about the evaluator's condition as about the act itself?",
+        },
+        "Jean-Paul Sartre": {
+            "period": "twentieth-century existentialism after war, occupation, and the collapse of easy moral shelter",
+            "signature": "human beings are condemned to freedom in the sense that they must choose, interpret, and own themselves without a ready-made essence doing the work for them",
+            "method": "phenomenological drama: he describes consciousness, relation to others, and self-deception by following what choice feels like from the inside",
+            "concepts": [
+                "Being-for-itself: consciousness is not a fixed thing, but an ongoing surpassing of what it already is.",
+                "Bad faith: people can lie to themselves by pretending they are mere roles, mere facts, or mere victims of necessity.",
+                "Nothingness: negation and absence are not side issues, but built into how consciousness opens possibilities.",
+                "The look: other people do not merely observe us; they can make us appear to ourselves as objectified beings.",
+            ],
+            "pressure": "whether radical freedom is clarifying or too thin in the face of history, embodiment, trauma, and unequal social conditions",
+            "legacy": "existentialism, political engagement, literature, phenomenology, and modern arguments about authenticity and responsibility",
+            "begin": "Begin with excuses: when someone says they had no choice, how often are they naming a real limit and how often are they fleeing ownership?",
+        },
+        "Baruch Spinoza": {
+            "period": "early modern rationalism, where God, nature, mind, body, and ethics are forced into one severe system",
+            "signature": "freedom comes not from escaping necessity, but from understanding the order of nature well enough to stop being dragged around by confused passions",
+            "method": "geometric naturalism: he builds from definitions, propositions, and explanatory dependence toward a vision of reality as one substance",
+            "concepts": [
+                "Substance monism: reality is not a pile of independent beings, but one infinite substance expressed in many modes.",
+                "Conatus: each thing strives to persevere in its being, and much of psychology can be read from that drive.",
+                "Affects: emotions are not alien intrusions, but intelligible states with causes that can be better understood and transformed.",
+                "Intellectual love of God: the highest freedom is a kind of joyful understanding of reality's necessity rather than a fantasy of exception from it.",
+            ],
+            "pressure": "whether the system deepens freedom or redescribes resignation as wisdom by thinning personhood and contingency",
+            "legacy": "rationalism, secular spirituality, political liberalism, affect theory, metaphysics, and critiques of free-will mythology",
+            "begin": "Begin with emotion: what changes when anger, envy, and hope are treated as caused states to understand rather than sins to merely denounce?",
+        },
+        "William James": {
+            "period": "American pragmatism and psychology, where truth, religion, and experience are read through lived stakes rather than only abstract certainty",
+            "signature": "human life is plural, unfinished, and risky enough that belief, action, and experience often outrun what detached proof can settle in advance",
+            "method": "radical empiricism with psychological candor: he starts from lived experience, practical stakes, and the difference beliefs make in a life",
+            "concepts": [
+                "Will to believe: some forced and momentous options may have to be lived before they can be fully evidentially settled.",
+                "Stream of consciousness: mind is not a neat chain of static ideas, but a flowing, selective continuity.",
+                "Radical empiricism: relations, transitions, and felt continuities belong to experience, not just isolated data-points.",
+                "Pluralism: reality may be looser, more many-sided, and less system-complete than monists would like.",
+            ],
+            "pressure": "whether pragmatic openness broadens inquiry or gives too much shelter to belief where evidence remains weak",
+            "legacy": "pragmatism, psychology, philosophy of religion, pluralism, and contemporary arguments over evidence and lived commitment",
+            "begin": "Begin with a live option: what should a person do when a belief matters deeply but the evidence does not come with courtroom neatness?",
+        },
+        "Cicero": {
+            "period": "late Roman republican thought, where Greek philosophy is translated into civic life, rhetoric, and duty",
+            "signature": "philosophy should help citizens judge law, obligation, friendship, and public life rather than retreat into private cleverness",
+            "method": "eclectic civic synthesis: he compares schools, tests them against practical life, and asks what a statesman can responsibly use",
+            "concepts": [
+                "Natural law: justice is not whatever power can enforce, but something reason can in part discover.",
+                "Duties: moral life involves ranked responsibilities that have to be judged in real public situations.",
+                "Republican order: liberty depends on institutions, character, and shared commitment, not on slogans alone.",
+                "Academic skepticism: certainty may fail us, yet public and moral judgment still have to proceed with disciplined probability.",
+            ],
+            "pressure": "whether philosophical eclecticism makes him practically wise or leaves him without a sufficiently sharp systematic core",
+            "legacy": "republicanism, natural law, civic humanism, rhetoric, and the transmission of Greek philosophy into Latin political thought",
+            "begin": "Begin with public life: what is philosophy for if it cannot help someone judge office, loyalty, law, and danger?",
+        },
+        "Al-Ghazali": {
+            "period": "medieval Islamic theology and spirituality, where philosophy is challenged both for overreach and for insufficient self-knowledge",
+            "signature": "reason matters, but it breaks down when it pretends to be self-sufficient in matters of causation, revelation, and spiritual transformation",
+            "method": "epistemic and spiritual crisis-writing: he tests the powers of theology, philosophy, skepticism, and mystical practice by living through their limits",
+            "concepts": [
+                "Occasionalism: what we call natural causation may not be self-sustaining power in things, but regularity under divine willing.",
+                "Critique of the philosophers: system-building can outrun what its arguments have actually earned.",
+                "Limits of reason: skepticism can become a doorway to intellectual humility rather than a final resting place.",
+                "Experiential knowledge: some religious and ethical truths are not fully owned until they are practiced and undergone.",
+            ],
+            "pressure": "whether the critique disciplines philosophical pride or weakens confidence in stable natural explanation more than it should",
+            "legacy": "Islamic theology, philosophy of religion, skepticism, debates over causation, and the relation between intellect and spiritual life",
+            "begin": "Begin with fire and cotton: when one thing seems to cause another, how much of that necessity do we really perceive?",
+        },
+        "Arthur Schopenhauer": {
+            "period": "nineteenth-century post-Kantian philosophy, where metaphysics, pessimism, and compassion are bound tightly together",
+            "signature": "beneath representation lies blind striving, and much of human suffering comes from being driven by desires that can never stay satisfied for long",
+            "method": "metaphysical introspection joined to aesthetic and ethical diagnosis: he reads willing from the inside, then projects it across life",
+            "concepts": [
+                "World as representation: the world as known is always mediated by the forms through which a subject experiences it.",
+                "Will: beneath appearances lies restless striving rather than calm rational order.",
+                "Suffering and desire: satisfaction is unstable because willing rebounds into fresh lack almost immediately.",
+                "Compassion and aesthetic release: ethics and art matter because they briefly loosen the grip of egoistic striving.",
+            ],
+            "pressure": "whether the system reveals a deep truth about desire or universalizes one dark temperament into metaphysics",
+            "legacy": "pessimism, aesthetics, psychoanalytic anticipation, Nietzsche's development, and modern reflections on suffering and desire",
+            "begin": "Begin with wanting: why does so much of life feel like oscillation between lack, brief satisfaction, and renewed restlessness?",
+        },
+        "Xunzi": {
+            "period": "classical Confucian thought, where moral cultivation is treated less as spontaneous flowering and more as hard training",
+            "signature": "human beings do not drift naturally into virtue; ritual, education, and deliberate effort are needed to civilize appetite and stabilize order",
+            "method": "realist Confucian pedagogy: he starts from unruly tendencies, then asks what institutions and practices can shape them well",
+            "concepts": [
+                "Human nature: left alone, human tendencies do not automatically mature into virtue.",
+                "Ritual as training: li matters because conduct, feeling, and hierarchy need shaping, not mere expression.",
+                "Deliberate effort: moral growth is an achievement of practice and correction rather than a spontaneous bloom.",
+                "Order and naming: social clarity depends on disciplined distinctions, education, and stable norms.",
+            ],
+            "pressure": "whether the emphasis on training produces moral seriousness or leans too heavily toward hierarchy and control",
+            "legacy": "Confucian ethics, statecraft, educational philosophy, and debates over moral psychology in East Asian thought",
+            "begin": "Begin with discipline: if people do not simply grow good on their own, what kind of training is justified and what kind becomes domination?",
+        },
+        "Mozi": {
+            "period": "classical Chinese philosophy, where ethics is tested by social utility, impartial concern, and opposition to costly vanity",
+            "signature": "moral life should reduce harm and improve common welfare rather than glorify ritual display, favoritism, and inherited prestige",
+            "method": "argument by social consequences: he asks what policies and norms actually reduce disorder, poverty, aggression, and waste",
+            "concepts": [
+                "Impartial care: concern should not stop at family or faction when broader harms are visible and preventable.",
+                "Merit over pedigree: political authority should answer to competence and benefit, not noble birth alone.",
+                "Condemnation of extravagance: lavish rituals and displays can look civilized while draining resources from urgent needs.",
+                "Anti-fatalism: social misery is not to be shrugged off as destiny when collective action can change it.",
+            ],
+            "pressure": "whether impartial care is a humane correction or asks for a flattening of human attachments that people cannot really live out",
+            "legacy": "Chinese consequentialist thought, political ethics, social reform arguments, and debates over partiality and moral scope",
+            "begin": "Begin with favoritism: what happens when moral concern is allowed to stop at family, clan, or tribe while wider harms remain obvious?",
+        },
+        "Dogen": {
+            "period": "thirteenth-century Japanese Zen, where practice, time, embodiment, and awakening are treated as inseparable",
+            "signature": "awakening is not a prize waiting after practice; practice itself is already the site where realization is enacted",
+            "method": "meditative and paradoxical exposition: he bends language until the reader stops treating enlightenment as an object stored somewhere else",
+            "concepts": [
+                "Practice-realization: genuine practice is not a mere means to awakening, but one of the forms awakening already takes.",
+                "Being-time: existence and temporality are intertwined more intimately than ordinary clock-talk suggests.",
+                "Impermanence: transience is not a gloomy side-note, but a clue to how things actually are.",
+                "Ordinary activity: washing bowls, sitting, and attending to simple acts can be sites of philosophical and spiritual depth.",
+            ],
+            "pressure": "whether the poetic and paradoxical style opens insight or makes it too easy for admirers to nod solemnly without actually understanding",
+            "legacy": "Zen philosophy, Buddhist practice theory, comparative philosophy, embodiment, and reflections on time and attention",
+            "begin": "Begin with sitting: what if practice is not a ladder to somewhere else, but the place where the point of the path already shows itself?",
+        },
+        "Shankara": {
+            "period": "classical Advaita Vedanta, where metaphysics and liberation are tied to the question of ultimate identity",
+            "signature": "the deepest self is not finally separate from Brahman, and ignorance keeps us mistaking the changing world of appearance for what is ultimate",
+            "method": "scriptural reasoning and nondual analysis: he distinguishes levels of reality to show how ordinary experience can be both workable and not final",
+            "concepts": [
+                "Brahman: ultimate reality is unitary, foundational, and not exhausted by ordinary empirical distinctions.",
+                "Atman-Brahman identity: the deepest self is not a merely private ego cut off from the absolute.",
+                "Maya: appearance is not sheer nothingness, but it is not ultimate in the way it first seems.",
+                "Liberating knowledge: bondage is tied to ignorance, so insight is not optional decoration but central to release.",
+            ],
+            "pressure": "whether nondual metaphysics illuminates reality or weakens the standing of ordinary world-involvement and moral distinctions too much",
+            "legacy": "Vedanta, comparative metaphysics, philosophy of religion, nondual spirituality, and debates over appearance and ultimacy",
+            "begin": "Begin with the self: what remains of you once shifting roles, perceptions, and mental states stop being treated as the whole story?",
+        },
+    }
+)
+
 PHILOSOPHER_SOURCE_WORKS = {
     "Anselm of Canterbury": "Proslogion",
     "Aristotle": "Nicomachean Ethics, Metaphysics, and the logical works",
@@ -1172,6 +2130,38 @@ PHILOSOPHER_SOURCE_WORKS = {
     "William of Ockham": "Summa Logicae and Ordinatio",
     "Zhuangzi": "Zhuangzi",
 }
+
+PHILOSOPHER_SOURCE_WORKS.update(
+    {
+        "Al-Ghazali": "The Incoherence of the Philosophers, Deliverance from Error, and The Revival of the Religious Sciences",
+        "Arthur Schopenhauer": "The World as Will and Representation and On the Suffering of the World",
+        "Baruch Spinoza": "Ethics and Theological-Political Treatise",
+        "Bertrand Russell": "The Problems of Philosophy, On Denoting, and Our Knowledge of the External World",
+        "Charles Sanders Peirce": "How to Make Our Ideas Clear, The Fixation of Belief, and selected logical papers",
+        "Cicero": "On Duties, On the Republic, and On the Laws",
+        "Daniel Dennett": "Consciousness Explained, Darwin's Dangerous Idea, and Freedom Evolves",
+        "Dogen": "Shobogenzo and Fukanzazengi",
+        "Edmund Husserl": "Logical Investigations and Ideas I",
+        "Epicurus": "Letter to Menoeceus, Principal Doctrines, and Vatican Sayings",
+        "Gottfried Wilhelm Leibniz": "Monadology, Discourse on Metaphysics, and New Essays on Human Understanding",
+        "George Berkeley": "A Treatise Concerning the Principles of Human Knowledge and Three Dialogues between Hylas and Philonous",
+        "Jacques Derrida": "Of Grammatology, Writing and Difference, and Margins of Philosophy",
+        "John Locke": "An Essay Concerning Human Understanding and Second Treatise of Government",
+        "John Dewey": "Democracy and Education, Experience and Nature, and The Public and Its Problems",
+        "Karl Marx": "Economic and Philosophic Manuscripts, The German Ideology, Capital, and the Communist Manifesto",
+        "Marcus Aurelius": "Meditations",
+        "Martin Heidegger": "Being and Time and The Question Concerning Technology",
+        "Michel Foucault": "Discipline and Punish, The History of Sexuality, and What Is Enlightenment?",
+        "Mozi": "Mozi",
+        "Shankara": "Brahma Sutra Bhashya, Upadesa Sahasri, and commentaries on the Upanishads",
+        "Seneca": "Letters to Lucilius and On the Shortness of Life",
+        "Theodor Adorno": "Minima Moralia, Negative Dialectics, and Dialectic of Enlightenment",
+        "Thomas Hobbes": "Leviathan and De Cive",
+        "William James": "The Will to Believe, Pragmatism, and The Varieties of Religious Experience",
+        "Xunzi": "Xunzi",
+    }
+)
+
 FEATURED_PATHS_BY_TITLE = {
     spec["title"].lower(): (spec["section_id"], spec["path"]) for spec in FEATURED_PAGE_SPECS
 }
@@ -2059,6 +3049,30 @@ def augment_philosopher_hierarchy(section_nodes: dict[str, list[dict]]) -> None:
                 existing_children.append(addition)
                 child_by_title[key] = addition
 
+    def ensure_support_children(node: dict) -> None:
+        title = clean_text(node.get("title", ""))
+        if title and not title.startswith(("Dialoguing with ", "Charting ")):
+            canonical = philosopher_base_name(title)
+            if canonical in PHILOSOPHER_PROFILES:
+                support_title = PHILOSOPHER_SUPPORT_ALIASES.get(canonical, title)
+                desired = [
+                    f"Dialoguing with {support_title}",
+                    f"Charting {support_title}",
+                ]
+                children = node.setdefault("children", [])
+                existing = {normalized_phrase(child.get("title", "")): child for child in children}
+                for child_title in desired:
+                    key = normalized_phrase(child_title)
+                    if key not in existing:
+                        child = philosopher_leaf(child_title)
+                        children.append(child)
+                        existing[key] = child
+        for child in node.get("children", []):
+            ensure_support_children(child)
+
+    for node in philosophers:
+        ensure_support_children(node)
+
 
 def augment_section_hierarchy(section_nodes: dict[str, list[dict]]) -> None:
     for section_id, additions in SECTION_HIERARCHY_ADDITIONS.items():
@@ -2912,7 +3926,16 @@ def source_sentence_is_incomplete(text: str) -> bool:
         return True
     if cleaned.endswith((" and.", " or.", " of.", " with.", " to.", " the.", " a.")):
         return True
+    if re.search(r"\b(including|such as|for example)\.?$", cleaned, flags=re.IGNORECASE):
+        return True
     return False
+
+
+def possessive_form(text: str) -> str:
+    cleaned = clean_text(text).strip()
+    if not cleaned:
+        return ""
+    return f"{cleaned}'" if cleaned.endswith(("s", "S")) else f"{cleaned}'s"
 
 
 def fallback_source_item(label: str, page: dict) -> str:
@@ -3035,18 +4058,171 @@ def epistemology_foundation_items(page: dict, prompt: str) -> list[str]:
     ]
 
 
+def philosopher_prompt_family(page: dict, prompt: str) -> str:
+    lowered = clean_text(prompt).lower()
+    if "influence on philosophy" in lowered or "remains philosophically important" in lowered:
+        return "influence"
+    if "greatest contributions" in lowered or "key contributions" in lowered or "most enduring ideas" in lowered or "contribution" in lowered:
+        return "contributions"
+    if "becoming a notable philosopher" in lowered or ("causes behind" in lowered and "becoming" in lowered):
+        return "becoming"
+    if "schools of philosophical thought" in lowered or "academic domains" in lowered or "most influenced" in lowered:
+        return "inheritance"
+    if "general description of the philosophical school" in lowered or "provide a general description of" in lowered:
+        return "school-overview"
+    if "most influential" in lowered and "history" in lowered:
+        return "figures"
+    if "sub-branches" in lowered or "internal divisions" in lowered or "matter most inside" in lowered:
+        return "branch-overview"
+    if "discussion questions" in lowered or "carry the encounter forward" in lowered:
+        return "discussion"
+    if "strongest objection" in lowered or "best objection" in lowered:
+        return "objection"
+    if "begin with" in lowered or "entry point" in lowered or "contemporary reader begin" in lowered:
+        return "entry"
+    if "dialogue between" in lowered or "first-year philosophy student" in lowered or "bright teenager" in lowered:
+        return "teaching-dialogue"
+    if "concept" in lowered or "method" in lowered or "question" in lowered:
+        return "concepts"
+    return "general"
+
+
+def philosopher_family_intro(page: dict, prompt: str, labels: list[str], profile: dict | None) -> str:
+    topic = topic_label(page["title"])
+    family = philosopher_prompt_family(page, prompt)
+    label_text = serial_join(labels[:3]) if labels else topic
+    signature = clean_text((profile or {}).get("signature", "")).rstrip(".")
+    topic_possessive = possessive_form(topic)
+    if family == "influence":
+        return f"This section is trying to show why {topic} keeps reappearing after the original setting is gone."
+    if family == "contributions":
+        return f"The useful question here is not which item on the list looks grandest, but which move from {topic} still helps later readers think."
+    if family == "becoming":
+        return f"This section is about historical lift-off: how {topic} became visible, memorable, and hard to ignore."
+    if family == "inheritance":
+        return f"This section traces where {topic_possessive} tools migrated after leaving their original home."
+    if family == "school-overview":
+        return f"{topic} should read like a live family resemblance, not a slogan with matching jackets."
+    if family == "figures":
+        return f"The point of naming major figures is to show how {topic} diversified without simply dissolving."
+    if family == "branch-overview":
+        return f"This overview matters when it shows the first real forks inside {topic}, not just the shelf labels."
+    if family == "objection":
+        return f"This section earns its keep only if the resistance lands cleanly enough to show what {topic} would lose under real pressure."
+    if family == "entry":
+        return f"A good entry point to {topic} gives a reader one honest grip without pretending the rest of the climb is flat."
+    if family == "concepts":
+        return f"Read {label_text or topic} as working tools. The page succeeds only if the ideas start doing more than sitting there with polished names."
+    if family == "teaching-dialogue":
+        return f"This section uses dialogue as a teaching device: {topic} should become clearer because the exchange forces a real distinction into view."
+    if signature:
+        return f"{topic} matters here because the page is trying to make one signature pressure usable again: {signature}."
+    return f"Read this section as an attempt to make {topic} sound like a mind at work rather than a name under glass."
+
+
+def philosopher_family_distinction_paragraph(page: dict, prompt: str, labels: list[str], profile: dict | None) -> str:
+    topic = topic_label(page["title"])
+    family = philosopher_prompt_family(page, prompt)
+    first_label = clean_text(labels[0]).strip(" .:") if labels else topic
+    second_label = clean_text(labels[1]).strip(" .:") if len(labels) > 1 else "the next step"
+    if family == "influence":
+        return (
+            f"Keep {first_label} distinct from {second_label}: one names what {topic} contributed, the other names where later thinkers carried it."
+        )
+    if family == "contributions":
+        return (
+            f"Keep {first_label} distinct from {second_label}: one is a philosophical move, the other is part of its downstream use, extension, or correction."
+        )
+    if family == "becoming":
+        return (
+            f"Keep {first_label} distinct from {second_label}: the question is not only what {topic} later believed, but what conditions made the philosophy historically audible."
+        )
+    if family == "inheritance":
+        return (
+            f"Keep {first_label} distinct from {second_label}: influence across schools is not the same thing as agreement inside a school."
+        )
+    if family == "school-overview":
+        return (
+            f"Keep {first_label} distinct from {second_label}: school labels hide internal disagreements unless the page names the first serious fracture line."
+        )
+    if family == "figures":
+        return (
+            f"Keep {first_label} distinct from {second_label}: a tradition stays alive by branching, not by photocopying one master voice."
+        )
+    if family == "branch-overview":
+        return (
+            f"Keep {first_label} distinct from {second_label}: the branch becomes useful only when the reader can tell overview, subdivision, and pressure point apart."
+        )
+    if family == "concepts":
+        return (
+            f"Keep {first_label} distinct from {second_label}: the concepts should divide the work rather than echo one another in slightly different outfits."
+        )
+    if profile:
+        return (
+            f"Keep {first_label} distinct from {second_label}: {topic} becomes thinner when the page blurs the working parts of {profile['signature']} into one reverent summary."
+        )
+    return (
+        f"Keep {first_label} distinct from {second_label}: the page gets thinner when everything collapses into one respectful blur."
+    )
+
+
+def philosopher_family_frame_paragraph(page: dict, prompt: str, labels: list[str], profile: dict | None) -> str:
+    topic = topic_label(page["title"])
+    family = philosopher_prompt_family(page, prompt)
+    label_text = serial_join(labels[:3]) if labels else topic
+    if family == "influence":
+        return f"Keep {label_text} in one frame: the original move, its later inheritance, and one point of resistance."
+    if family == "contributions":
+        return f"Keep {label_text} in one frame: the contribution itself, the later debate it shaped, and the objection it still invites."
+    if family == "becoming":
+        return f"Keep {label_text} in one frame: the setting, the method, and the channel through which {topic} became historically audible."
+    if family == "inheritance":
+        return f"Keep {label_text} in one frame: the borrowed tool, the host tradition, and the cost of the borrowing."
+    if family == "school-overview":
+        return f"Keep the shared family trait, the first internal fracture, and one flagship figure in {topic} in view at the same time."
+    if family == "figures":
+        return "Keep the shared tradition, each figure's variation, and the first real disagreement in view at the same time."
+    if family == "branch-overview":
+        return f"Keep overview, subdivision, and live pressure point inside {topic} in view at the same time."
+    if family == "concepts":
+        return f"Keep {label_text} in view at the same time, but watch which idea is actually carrying the argumentative weight."
+    return semantic_map_paragraph(page, prompt, None)
+
+
 def philosopher_expansion_paragraph(page: dict, prompt: str) -> str:
     topic = topic_label(page["title"])
     profile = philosopher_profile_for_title(page["title"])
+    topic_possessive = possessive_form(topic)
     if profile:
         return (
             f"Read {topic} inside {profile['period']}, then ask what the method still forces later readers to notice. "
             f"{philosopher_method_sentence(profile)} "
             "The voice matters because the phrasing is often part of the philosophy: the reader should hear a way of thinking, not only collect a list of theses."
         )
+    family = philosopher_prompt_family(page, prompt)
+    if family == "influence":
+        return (
+            f"The page should make {topic_possessive} afterlife visible: which questions stayed alive because of it, which tools traveled, and which later thinkers still had to answer it."
+        )
+    if family == "contributions":
+        return (
+            f"The page should show which moves from {topic} still earn a place in present argument, and which survive mostly as historical furniture."
+        )
+    if family == "becoming":
+        return (
+            f"The page should treat {topic_possessive} rise as transmission history, not saint-making: mind, moment, rivals, and medium all matter."
+        )
+    if family == "inheritance":
+        return (
+            f"The page should show how {topic_possessive} tools migrate into later schools, often without dragging the full original worldview along for the ride."
+        )
+    if family == "school-overview":
+        return (
+            f"The page should make {topic} feel like a tradition with internal quarrels, not a banner under which everyone nods in rhythm."
+        )
     return (
-        f"A strong philosopher page should make {topic} feel inhabited rather than merely labeled. "
-        "That means giving the reader historical setting, method, a real objection, influence, and at least one moment where the thinker pushes back in a recognizable voice."
+        f"The page should make {topic} feel inhabited rather than merely labeled. "
+        "That means historical setting, a recognizable method, a real objection, and some sense of what later readers still found worth stealing, resisting, or repairing."
     )
 
 
@@ -3269,44 +4445,46 @@ def synthetic_dialogue_turns(philosopher: str, profile: dict | None, anchor: str
     if not profile:
         return [
             {"speaker": "Beginner", "text": f"If I wanted to understand {philosopher}, where should I begin?"},
-            {"speaker": philosopher, "text": "Begin where the pressure is clearest: ask what the view makes visible that ordinary common sense tends to blur."},
-            {"speaker": "Interlocutor", "text": "So the point is not to memorize a doctrine, but to inhabit a method of questioning?"},
-            {"speaker": philosopher, "text": "Exactly. A philosophy is not alive until it changes what the reader notices, resists, or asks next."},
+            {"speaker": philosopher, "text": f"Begin where the pressure is clearest: ask what {philosopher} makes visible that ordinary common sense tends to blur."},
+            {"speaker": "Interlocutor", "text": f"So the point of reading {philosopher} is not to memorize a doctrine, but to inhabit a method of questioning?"},
+            {"speaker": philosopher, "text": f"Exactly. {philosopher} is not alive on the page until it changes what the reader notices, resists, or asks next."},
         ]
     concept_labels = [split_label(concept)[0] or concept for concept in profile["concepts"][:4]]
     first_concept = concept_labels[0] if concept_labels else "the central idea"
     second_concept = concept_labels[1] if len(concept_labels) > 1 else "the neighboring distinction"
+    signature = clean_text(profile["signature"]).rstrip(".")
+    begin_focus = compact_text(first_concept, 56)
     if anchor == "beginner-dialogue":
         return [
-            {"speaker": "Beginner", "text": f"If I had to begin with your philosophy, what question should I stop avoiding?"},
+            {"speaker": "Beginner", "text": f"If I had to begin with your philosophy, where does {begin_focus} first become unavoidable?"},
             {"speaker": philosopher, "text": profile["begin"]},
-            {"speaker": "Beginner", "text": f"That sounds important, but I still do not see why it changes how I should think."},
-            {"speaker": philosopher, "text": f"It changes the inquiry by treating this as central: {profile['signature']}. Once that is seen, the familiar question is no longer quite the same question."},
-            {"speaker": "Beginner", "text": f"So {first_concept} is not just a term to remember?"},
-            {"speaker": philosopher, "text": f"No. {first_concept} is a pressure point. It tells you where ordinary explanation has become too lazy, too confident, or too small."},
-            {"speaker": "Beginner", "text": "What mistake would a newcomer most likely make?"},
-            {"speaker": philosopher, "text": "The newcomer will try to turn the view into a slogan. Philosophy begins when the slogan starts making demands."},
+            {"speaker": "Beginner", "text": f"I can hear the pressure, but what does {signature} force me to reconsider in ordinary thought?"}, 
+            {"speaker": philosopher, "text": f"It changes the inquiry by treating this as central: {signature}. Once that is seen, the familiar question is no longer quite the same question."},
+            {"speaker": "Beginner", "text": f"So {first_concept} is less a slogan than a test for where ordinary thinking goes wrong?"},
+            {"speaker": philosopher, "text": f"Exactly. {first_concept} is a pressure point. It shows where ordinary explanation has become too lazy, too confident, or too small."},
+            {"speaker": "Beginner", "text": f"What bad habit does your view try to break first around {first_concept}?"},
+            {"speaker": philosopher, "text": f"The first habit to break is repeating {first_concept} as a label instead of letting it reorganize the problem. In this philosophy, the slogan is only the wrapper; the pressure begins when the concept starts making demands."},
         ]
     if anchor == "deeper-dialogue":
         return [
-            {"speaker": "Interlocutor", "text": f"Your view seems to depend on {first_concept} and {second_concept}. How do those ideas hold together?"},
+            {"speaker": "Interlocutor", "text": f"Your view seems to depend on {first_concept} and {second_concept}. Does one discipline the other, or do they rise together?"},
             {"speaker": philosopher, "text": f"They hold together through the method. {philosopher_method_sentence(profile)} The concepts are not separate ornaments; they are parts of one discipline of seeing."},
-            {"speaker": "Interlocutor", "text": "But a method can illuminate one problem while distorting another. Where should I be cautious?"},
-            {"speaker": philosopher, "text": f"Be cautious where the view is asked to explain everything at once. Its strength is that it clarifies {profile['signature']}; its danger is overextension."},
-            {"speaker": "Interlocutor", "text": "Then your philosophy is not a closed system so much as a recurring way of applying pressure?"},
-            {"speaker": philosopher, "text": "That is a fair reading. The system matters, but the live inheritance is the discipline it trains in the reader."},
-            {"speaker": "Interlocutor", "text": "And the reader should test it against rival explanations?"},
-            {"speaker": philosopher, "text": "Yes. A view protected from rivals becomes pious furniture. A view sharpened by rivals may still cut."},
+            {"speaker": "Interlocutor", "text": f"But where does the method risk turning {first_concept} into an answer for questions it cannot really settle?"},
+            {"speaker": philosopher, "text": f"Be cautious where the view is asked to explain everything at once. Its strength is that it clarifies {signature}; its danger is overextension."},
+            {"speaker": "Interlocutor", "text": f"So the view is strongest when it governs inquiry about {first_concept}, not when it tries to annex every problem in sight?"},
+            {"speaker": philosopher, "text": f"That is close. The system matters, but its live inheritance is the discipline it trains in the reader around {first_concept}, not the fantasy that it answers everything."},
+            {"speaker": "Interlocutor", "text": f"Then what would count as a serious rival to the discipline you are recommending around {signature}?"},
+            {"speaker": philosopher, "text": f"A rival that can explain {signature} without losing what made the problem urgent in the first place. When a view is protected from rivals it becomes pious furniture; when it is sharpened by rivals it may still cut."},
         ]
     return [
         {"speaker": "Critic", "text": f"The strongest objection seems clear: {profile['pressure']}"},
-        {"speaker": philosopher, "text": "That objection should be allowed to speak. A philosophy that survives only by silencing its best critic has not survived much."},
-        {"speaker": "Critic", "text": "But perhaps the objection does more than qualify your view. Perhaps it exposes the view as fundamentally unstable."},
-        {"speaker": philosopher, "text": f"Perhaps. Yet even a limited view can remain powerful if it makes {profile['signature']} harder to ignore."},
-        {"speaker": "Critic", "text": "So you concede that later readers may reject parts of the framework?"},
-        {"speaker": philosopher, "text": "Of course. The question is whether rejection leaves the reader with better questions than before."},
-        {"speaker": "Critic", "text": "That is a humbler claim than philosophical victory."},
-        {"speaker": philosopher, "text": "Humility is not defeat. Sometimes it is the condition under which a thought can keep working."},
+        {"speaker": philosopher, "text": f"Good. The objection should be allowed to speak in full, because any philosophy built around {signature} that survives only by muffling its best critic has not survived much."},
+        {"speaker": "Critic", "text": f"But perhaps the objection does more than qualify your view. Perhaps it shows that {signature} works only inside a protected frame."},
+        {"speaker": philosopher, "text": f"Perhaps. Yet even a limited view can remain powerful if it keeps {signature} harder to ignore than it was before."},
+        {"speaker": "Critic", "text": f"So the real test is not total victory, but whether later readers can reject part of the framework without losing the insight inside {first_concept}?"},
+        {"speaker": philosopher, "text": f"Exactly. Rejection matters less than whether it leaves the reader with better questions, sharper distinctions, and a cleaner sense of what {signature} was trying to protect."},
+        {"speaker": "Critic", "text": f"That sounds less like triumph than disciplined salvage of {first_concept}."},
+        {"speaker": philosopher, "text": f"Sometimes disciplined salvage is the honest form of inheritance. A thought can keep working even when later readers refuse to kneel before {signature} as a finished system."},
     ]
 
 
@@ -7615,6 +8793,32 @@ MANUAL_SECTION_HEADING_OVERRIDES = {
     ("/economics/minimum-wage/", "prompt-1"): "Minimum wage laws bring gains and tradeoffs at the same time",
     ("/economics/universal-basic-income/", "prompt-1"): "How the UBI experiment scored on its main effects",
 
+    # Ethics
+    ("/ethics/assisted-suicide/", "prompt-1"): "Assisted suicide forces mercy, autonomy, and harm onto the same moral stage",
+    ("/ethics/assuming-objective-evil/", "prompt-1"): "Calling something objectively evil does not excuse a broken argument",
+    ("/ethics/circularity-in-moral-realism/", "prompt-1"): "The complaint is that moral realism often smuggles morality into its own defense",
+    ("/ethics/conditions-for-culpability/", "prompt-1"): "Culpability requires more than a bad outcome",
+    ("/ethics/essay-moral-anti-realism/", "prompt-1"): "Moral anti-realism has to explain conscience without inventing moral facts",
+    ("/ethics/ethical-edge-case-1/", "prompt-1"): "Edge cases show which moral theories bend, and which just break",
+    ("/ethics/evidences-of-moral-facts/", "prompt-1"): "Emotions plus social training may explain more than moral realists like",
+    ("/ethics/harris-notion-of-morality/", "prompt-1"): "The critique is that Harris turns useful heuristics into inflated moral claims",
+    ("/ethics/meta-ethics-focus-1/", "prompt-1"): "If the agent does not grasp the moral fact, intent alone may not rescue culpability",
+    ("/ethics/meta-ethics-focus-2/", "prompt-1"): "Agreement without shared grounding does not yet give you a moral fact",
+    ("/ethics/moral-realism-intuition/", "prompt-1"): "Moral realism leans on intuition, but intuition is not a neutral witness",
+    ("/ethics/no-morality-chaos/", "prompt-1"): "Compassion does not obviously vanish when moral realism does",
+    ("/ethics/self-evident-morality/", "prompt-1"): "Self-evidence often names confidence, not proof",
+    ("/ethics/species-dependent-mercy/", "prompt-1"): "Our mercy toward animals exposes an uneasy inconsistency about human suffering",
+    ("/ethics/torturing-babies/", "prompt-1"): "Emotional horror and moral objectivity are not the same claim",
+
+    # Introduction
+    ("/introduction/analogies-to-a-philosophical-life/", "prompt-1"): "A philosophical foundation is less ornament than structural support",
+    ("/introduction/are-philosophers-argumentative/", "prompt-1"): "Philosophers can seem combative because clarity often sounds like conflict",
+    ("/introduction/careers-in-philosophy/", "prompt-1"): "Philosophy trains habits of thought that travel well into many careers",
+    ("/introduction/miscellaneous-philosophers/", "prompt-1"): "Philosophy has porous borders, and some non-philosophers cross them fruitfully",
+    ("/introduction/philosophical-maturity/", "prompt-1"): "Philosophical maturity shows up in restraint, precision, and revisability",
+    ("/introduction/scoring-the-accessibility-of-philosophical-content/", "prompt-1"): "Accessibility matters because obscurity too often masquerades as depth",
+    ("/introduction/womens-interest-in-philosophy/", "prompt-1"): "If fewer women enter philosophy, the causes are likely social before biological",
+
     # Humanistic Philosophies
     ("/humanistic-philosophies/accounting-for-x/", "prompt-1"): "What Christian apologists mean by 'accounting for' logic and natural law",
     ("/humanistic-philosophies/anthropomorphized-gods/", "prompt-1"): "Why humans so often imagine gods in human form",
@@ -7622,6 +8826,30 @@ MANUAL_SECTION_HEADING_OVERRIDES = {
     ("/humanistic-philosophies/deism-theism/", "prompt-1"): "How deism and theism come apart",
     ("/humanistic-philosophies/leaving-christianity/", "prompt-1"): "How to sort Christian audiences by the arguments most likely to move them",
     ("/humanistic-philosophies/testing-prayer/", "prompt-1"): "Would this prayer test actually distinguish a real god from an invented one?",
+
+    # Miscellany
+    ("/miscellany/assembly-theory/", "prompt-1"): "Assembly theory asks what it takes for complex objects to become buildable",
+    ("/miscellany/covid-19-science/", "prompt-1"): "COVID exposed both the strengths of science and the weaknesses around it",
+    ("/miscellany/cross-culture-emotional-dispositions/", "prompt-1"): "Different emotional styles need not imply either repression or emptiness",
+    ("/miscellany/david-krakauer-on-complexity/", "prompt-1"): "Krakauer treats complexity as structured interaction, not mere complication",
+    ("/miscellany/flack-mitchell-on-complexity/", "prompt-1"): "Flack and Mitchell ask how complex order stays stable without becoming rigid",
+    ("/miscellany/nassim-taleb-on-joe-walker/", "prompt-1"): "Taleb's contrast between thin tails and fat tails changes how risk should be read",
+    ("/miscellany/profiling/", "prompt-1"): "Profiling sits at the fault line between inductive caution and civic fairness",
+    ("/miscellany/sara-walker-on-lifes-emergence/", "prompt-1"): "Sara Walker treats life as something organized information can build",
+    ("/miscellany/the-historical-method/", "prompt-1"): "Saint Nicholas is useful because the same historical filters travel well",
+    ("/miscellany/wisdom-dynamics/", "prompt-1"): "A wiser society builds habits that improve judgment across generations",
+    ("/miscellany/zak-stein-on-complexity/", "prompt-1"): "Zak Stein links complexity to development, context, and scale",
+
+    # Metaphysics
+    ("/metaphysics/are-quantum-physics-spiritual/", "prompt-1"): "Quantum weirdness is not yet evidence for a spiritual realm",
+    ("/metaphysics/emergence/", "prompt-1"): "Emergence names the appearance of higher-level order from lower-level parts",
+    ("/metaphysics/energy-psychic-phenomena/", "prompt-1"): "The evidence for 'psychic energy' is far thinner than the word energy suggests",
+    ("/metaphysics/jeremy-sherman-on-emergence/", "prompt-1"): "Jeremy Sherman treats emergence as real pattern without magical surplus",
+    ("/metaphysics/matthew-pirkowski-on-emergence/", "prompt-1"): "Pirkowski's account of emergence rises or falls with its explanatory discipline",
+    ("/metaphysics/stuart-kauffman-on-emergence/", "prompt-1"): "Kauffman asks how order can arise without a planner standing behind it",
+    ("/metaphysics/terrence-deacon-on-emergence/", "prompt-1"): "Deacon treats emergence as constraint, absence, and organization doing real work",
+    ("/metaphysics/the-status-of-evil/", "prompt-1"): "Before positing evil as a domain, ask what the evidence actually requires",
+    ("/metaphysics/whence-logic/", "prompt-1"): "The source of logic is not the same question as the source of human reasoning",
 
     # Philosophy of Mind
     ("/philosophy-of-mind/assessing-mind-with-mind/", "prompt-1"): "Can a mind test itself without begging the whole question?",
@@ -7754,6 +8982,59 @@ MANUAL_SECTION_HEADING_OVERRIDES = {
     ("/philosophy-of-ai/synthetic-ai-data/", "prompt-1"): "What synthetic training data helps with and where it distorts",
     ("/philosophy-of-ai/the-credibility-of-ai/", "prompt-1"): "How public trust in AI may rise over time",
     ("/philosophy-of-ai/the-double-descent-phenomenon/", "prompt-1"): "What double descent shows about overfitting in AI",
+
+    # Philosophy of Language
+    ("/philosophy-of-language/abandoned-words/", "prompt-1"): "Words die when the social work they once did no longer needs them",
+    ("/philosophy-of-language/binarizing-gradient-concepts/", "prompt-1"): "Public language keeps forcing gradients into fake yes-or-no boxes",
+    ("/philosophy-of-language/can-words-constitute-violence/", "prompt-1"): "Calling speech 'violence' usually stretches the term past its ordinary shape",
+    ("/philosophy-of-language/functional-aesthetic-languages/", "prompt-1"): "Some languages are built to inform cleanly; others are built to move people",
+    ("/philosophy-of-language/language-the-brain/", "prompt-1"): "Language is distributed across the brain rather than stored in one verbal drawer",
+    ("/philosophy-of-language/linguistic-abstraction/", "prompt-1"): "Language matures by learning to compress many particulars into one workable term",
+    ("/philosophy-of-language/linguistic-scaffolding/", "prompt-1"): "Linguistic scaffolding lets simple verbal tools support more complex thought",
+    ("/philosophy-of-language/living-by-metaphor/", "prompt-1"): "Lakoff's point is that metaphor does not just decorate thought; it organizes it",
+    ("/philosophy-of-language/needless-semantic-complexity/", "prompt-1"): "Sometimes language makes a simple reality look fancier than it is",
+    ("/philosophy-of-language/nomological-density-of-grammar/", "prompt-1"): "Grammar hardens from habit into rule, then loosens again with use",
+    ("/philosophy-of-language/normative/", "prompt-1"): "Normative confuses readers because different fields make it do different jobs",
+    ("/philosophy-of-language/semantics-convention-vs-stipulation/", "prompt-1"): "Meaning changes when private stipulation manages to become public convention",
+    ("/philosophy-of-language/the-linearity-of-language/", "prompt-1"): "Language loses simultaneity but gains sequence, precision, and argument",
+    ("/philosophy-of-language/vague-tags-of-identification/", "prompt-1"): "Identity labels often promise more clarity than they can honestly deliver",
+
+    # Rational Thought
+    ("/rational-thought/a-taxonomy-of-emotions/", "prompt-1"): "A useful taxonomy groups emotions by the work they do",
+    ("/rational-thought/ai-logic-intelligence/", "prompt-1"): "This page separates what people mean by 'logic' from what they mean by 'intelligence'",
+    ("/rational-thought/argument-1-miraculous-event/", "prompt-1"): "Before calling an event miraculous, ask what the argument actually establishes",
+    ("/rational-thought/attributions-of-causation/", "prompt-1"): "Simple causal stories spread because they are easier to carry than real ones",
+    ("/rational-thought/calculating-risks/", "prompt-1"): "We misread risk in both directions, and usually for predictable reasons",
+    ("/rational-thought/case-1-seizures/", "prompt-1"): "Seizures became medically intelligible once people stopped treating them as spirits",
+    ("/rational-thought/case-2-autism/", "prompt-1"): "The history of autism shows how weak theories can survive for decades",
+    ("/rational-thought/case-3-astrology/", "prompt-1"): "Astrology survives because it flatters pattern-seeking minds",
+    ("/rational-thought/case-4-obesity/", "prompt-1"): "Obesity is a causal knot, so the tests have to separate competing strands",
+    ("/rational-thought/case-5-grade-inflation/", "prompt-1"): "Grade inflation has multiple causes, not one villain",
+    ("/rational-thought/cognitive-threats-to-rationality/", "prompt-1"): "Intelligence does not immunize a mind against irrationality",
+    ("/rational-thought/credencing/", "prompt-1"): "Credencing names the practice of grading belief instead of faking certainty",
+    ("/rational-thought/deflecting-to-experts/", "prompt-1"): "Appealing to experts can inform a case or dodge the burden of making one",
+    ("/rational-thought/depth-or-width-of-knowledge/", "prompt-1"): "The better path depends on temperament, aims, and stage of life",
+    ("/rational-thought/detecting-bad-science/", "prompt-1"): "Bad science leaves recurring fingerprints if you know where to look",
+    ("/rational-thought/do-rationalists-skew-neurodivergent/", "prompt-1"): "Why rational and scientific subcultures may attract neurodivergent minds",
+    ("/rational-thought/evolution-rationality/", "prompt-1"): "Evolution need not make rationality impossible",
+    ("/rational-thought/factual-disagreements-vs-semantic-misunderstandings/", "prompt-1"): "Some disputes are about the world, and some are about words doing double duty",
+    ("/rational-thought/integrated-critical-thinking/", "prompt-1"): "Critical thinking gets stronger when it is braided into other disciplines",
+    ("/rational-thought/leaving-room-for-doubt/", "prompt-1"): "Epistemic humility is not weakness; it is how correction stays possible",
+    ("/rational-thought/monetary-goals/", "prompt-1"): "A rational stance toward money treats it as instrument, not identity",
+    ("/rational-thought/the-illusion-of-knowledge/", "prompt-1"): "Feeling informed can be worse than knowing you are ignorant",
+    ("/rational-thought/the-motive-fallacy/", "prompt-1"): "Suspecting a motive is not the same thing as answering an argument",
+    ("/rational-thought/the-power-of-statistics/", "prompt-1"): "Statistics do not replace judgment; they discipline it",
+    ("/rational-thought/the-primacy-of-emotions/", "prompt-1"): "Reason chooses means, but emotion usually supplies the ends",
+    ("/rational-thought/the-steppingstone-fallacy/", "prompt-1"): "The steppingstone fallacy trades one concession for a parade of imagined consequences",
+    ("/rational-thought/training-data-bias/", "prompt-1"): "Bias in the data matters, but logical pushback can still prune and correct it",
+    ("/rational-thought/tu-quoque-or-you-too/", "prompt-1"): "Tu quoque spots hypocrisy faster than it evaluates truth",
+    ("/rational-thought/where-framing-goes-awry/", "prompt-1"): "Framing can move from honest emphasis to outright distortion",
+
+    # Remaining Single-Page Stragglers
+    ("/economics/economics-core-concepts/", "prompt-1"): "A good economics glossary should show how the core terms explain one another",
+    ("/epistemology/epistemology-core-concepts/", "prompt-1"): "A good epistemology glossary should show how belief, evidence, and knowledge connect",
+    ("/philosophers/at-the-edge-of-miracles/", "prompt-1"): "Hume's point is that testimony usually buckles before a miracle does",
+    ("/philosophical-inquiry/dangers-logical-fallacies/", "prompt-1"): "A map of common fallacies helps only if each trap keeps its own shape",
 }
 
 
@@ -8402,6 +9683,93 @@ def philosopher_method_sentence(profile: dict) -> str:
     return capitalize_sentence(sentence_with_period(profile["method"]))
 
 
+def profile_concept_focus_label(profile: dict | None, fallback: str = "the central pressure point") -> str:
+    if not profile:
+        return fallback
+    for concept in profile.get("concepts", []):
+        label, _body = split_label(concept)
+        candidate = clean_text(label or concept).strip(" .:")
+        if candidate:
+            return candidate
+    return fallback
+
+
+def dialogue_residue_items(page: dict, philosopher: str, profile: dict | None, limit: int = 5) -> list[str]:
+    if profile and profile.get("concepts"):
+        return profile["concepts"][:limit]
+
+    strong_candidates: list[str] = []
+    fallback_candidates: list[str] = []
+    philosopher_lower = clean_text(philosopher).lower()
+    philosopher_possessive = possessive_form(philosopher)
+    blocked_starts = (
+        "dialogue between ",
+        "a dialogue between ",
+        "dialogue with ",
+        "conversation between ",
+        "a conversation between ",
+        "summary",
+        "key takeaways",
+        "overall acceptance",
+        "setting the stage",
+    )
+    blocked_fragments = (
+        " dialogue ",
+        " conversation ",
+        " curious teenager",
+        " curious mind",
+        " bright teenager",
+        "fellow philosopher",
+        "another philosopher",
+        "critical philosopher",
+        "meeting of minds",
+        "scholarly spark",
+        "meets ",
+        " wrestle ",
+        " clash ",
+        " debate ",
+        "nuances of",
+        " most influential philosophical notions",
+        " degree of acceptance",
+    )
+
+    for item in usable_thread_items(page.get("thread_like", [])):
+        label, _body = split_label(item)
+        candidate = display_label(strip_number_prefix(clean_text(label or item))).strip(" .:")
+        lowered = candidate.lower()
+        if not candidate:
+            continue
+        if lowered.startswith(blocked_starts):
+            continue
+        if lowered.startswith(("a ", "an ", "the ")) and len(candidate.split()) >= 5:
+            continue
+        if len(candidate.split()) >= 7:
+            continue
+        if len(candidate.split()) >= 6 and re.search(r"\b(and|with|between)\b", lowered):
+            continue
+        if any(fragment in lowered for fragment in blocked_fragments):
+            continue
+        if lowered in {"overview", "introduction", "conclusion"}:
+            continue
+        if philosopher_lower and lowered.startswith(f"{philosopher_lower}'s ") and any(
+            phrase in lowered
+            for phrase in ("central question", "method of inquiry", "strongest objection", "modern pressure")
+        ):
+            fallback_candidates.append(candidate)
+            continue
+        strong_candidates.append(candidate)
+
+    candidates = dedupe(strong_candidates)[:limit] or dedupe(fallback_candidates)[:limit]
+    if candidates:
+        return candidates
+    return [
+        f"{philosopher_possessive} central question",
+        f"{philosopher_possessive} method of inquiry",
+        f"The strongest objection to {philosopher}",
+        f"The modern pressure {philosopher} still creates",
+    ][:limit]
+
+
 def synthetic_philosopher_prompt_details(title: str) -> list[dict]:
     base = philosopher_base_name(title)
     profile = PHILOSOPHER_PROFILES.get(base)
@@ -8422,6 +9790,7 @@ def synthetic_philosopher_prompt_details(title: str) -> list[dict]:
                 [concept],
             )
         )
+    focus_label = profile_concept_focus_label(profile)
 
     return [
         {
@@ -8496,7 +9865,7 @@ def synthetic_philosopher_prompt_details(title: str) -> list[dict]:
             "prompt": f"How should a contemporary reader begin with {base}?",
             "paragraphs": [
                 profile["begin"],
-                f"From there, the reader can track the method. {philosopher_method_sentence(profile)} The trick is to start with a real question, not with reverent name-recitation.",
+                f"From there, track how {focus_label} changes what counts as a good answer. {philosopher_method_sentence(profile)} The trick is to start with a real question, not with reverent name-recitation.",
             ],
             "items": [
                 f"Entry point: {profile['begin']}",
@@ -9072,6 +10441,10 @@ def archive_page_signal_items(
 
 def feature_summary(page: dict, section_meta: dict) -> str:
     topic = topic_label(page["title"])
+    if page["section_id"] == "philosophers":
+        profile = philosopher_profile_for_title(page["title"])
+        if profile and page["kind"] not in {"dialogue", "chart"}:
+            return clean_text(profile.get("begin", "")) or f"An orientation page on {topic} that keeps method, pressure, and voice in view."
     if page["built_path"] == "/philosophical-inquiry/the-value-and-limits-of-debate/":
         return (
             "A guide to when debate clarifies a public question, when it degenerates into performance, "
@@ -10077,7 +11450,7 @@ def first_source_claim(detail: dict | None) -> str:
         if re.match(r"^(?:https?:)?//\S+\s*$", clean_text(candidate)):
             continue
         claim = rewrite_source_sentence(candidate)
-        if claim and not re.match(r"^(?:https?:)?//\S+", claim):
+        if claim and not source_sentence_is_incomplete(claim) and not re.match(r"^(?:https?:)?//\S+", claim):
             return claim
     return ""
 
@@ -10147,6 +11520,7 @@ def prompt_response_paragraphs(page: dict, prompt: str, index: int, detail: dict
     focus = prompt_focus(prompt)
     labels = source_detail_labels(detail)
     claim = first_source_claim(detail)
+    philosopher_profile = philosopher_profile_for_title(page["title"]) if page["section_id"] == "philosophers" else None
 
     def pressure_sentence(key_text: str) -> str:
         if key_text in {"the central question", "the opening question", "the opening pressure", "this question"}:
@@ -10162,18 +11536,31 @@ def prompt_response_paragraphs(page: dict, prompt: str, index: int, detail: dict
             clean_labels = [clean_text(label).strip(" .:") for label in labels[:3]]
             roles = [f"{label} as {label_role(label)}" for label in clean_labels]
             if page["section_id"] == "philosophers":
+                family = philosopher_prompt_family(page, prompt)
                 if any("objection" in label.lower() for label in clean_labels):
                     paragraphs.append(
-                        f"This response stages the view under pressure: {clean_labels[0]} names the cost, "
+                        f"This response stages {topic} under pressure: {clean_labels[0]} names the cost, "
                         f"{clean_labels[1] if len(clean_labels) > 1 else 'the reply'} asks what survives, "
                         f"and {clean_labels[2] if len(clean_labels) > 2 else 'the contemporary test'} brings the issue back into present use."
                     )
                 elif any("entry point" in label.lower() for label in clean_labels):
                     paragraphs.append(
-                        f"This response gives the reader a route in: {clean_labels[0]} supplies the first foothold, "
+                        f"This response gives the reader a route into {topic}: {clean_labels[0]} supplies the first foothold, "
                         f"{clean_labels[1] if len(clean_labels) > 1 else 'method'} shows what to watch, "
                         f"and {clean_labels[2] if len(clean_labels) > 2 else 'the next step'} keeps the page from ending as a slogan."
                     )
+                elif family in {
+                    "influence",
+                    "contributions",
+                    "becoming",
+                    "inheritance",
+                    "school-overview",
+                    "figures",
+                    "branch-overview",
+                    "concepts",
+                    "teaching-dialogue",
+                }:
+                    paragraphs.append(philosopher_family_intro(page, prompt, clean_labels, philosopher_profile))
                 else:
                     paragraphs.append(
                         f"Read the section as a small map: {serial_join(clean_labels)} should show the philosopher as a living argument, "
@@ -10194,7 +11581,11 @@ def prompt_response_paragraphs(page: dict, prompt: str, index: int, detail: dict
             key_text = clean_discussion_key(key, topic)
             if command_like_key(key_text):
                 key_text = semantic_hook_items(page, prompt, detail)[0]
-            paragraphs.append(pressure_sentence(key_text))
+            if page["section_id"] == "philosophers":
+                fallback_labels = learning_context_labels(page, prompt, detail, 3)
+                paragraphs.append(philosopher_family_intro(page, prompt, fallback_labels, philosopher_profile))
+            else:
+                paragraphs.append(pressure_sentence(key_text))
 
         if claim:
             paragraphs.append(f"In plain terms: {claim}")
@@ -10203,20 +11594,24 @@ def prompt_response_paragraphs(page: dict, prompt: str, index: int, detail: dict
             first_label = clean_text(labels[0]).strip(" .:")
             second_label = clean_text(labels[1]).strip(" .:")
             if page["section_id"] == "philosophers":
-                paragraphs.append(
-                    f"Keep {first_label} distinct from {second_label}: the first and second moves do different philosophical work, "
-                    "and the page becomes thinner when they are flattened into one tidy summary."
-                )
+                paragraphs.append(philosopher_family_distinction_paragraph(page, prompt, [first_label, second_label], philosopher_profile))
             else:
                 paragraphs.append(
                     f"Keep {first_label} distinct from {second_label}. "
                     "They are not interchangeable bits of vocabulary; they point the reader toward different judgments, objections, or next steps."
                 )
         else:
-            paragraphs.append(
-                f"{semantic_map_paragraph(page, prompt, detail)} "
-                "If those distinctions blur together, the reader loses track of what is actually being claimed."
-            )
+            if page["section_id"] == "philosophers":
+                fallback_labels = learning_context_labels(page, prompt, detail, 3)
+                paragraphs.append(
+                    f"{philosopher_family_frame_paragraph(page, prompt, fallback_labels, philosopher_profile)} "
+                    "If those distinctions blur together, the reader loses track of what is actually being claimed."
+                )
+            else:
+                paragraphs.append(
+                    f"{semantic_map_paragraph(page, prompt, detail)} "
+                    "If those distinctions blur together, the reader loses track of what is actually being claimed."
+                )
         return paragraphs[:3]
 
     key = short_prompt_key(prompt, topic)
@@ -10386,6 +11781,7 @@ def support_item_body(label: str, page: dict, prompt: str, focus: str) -> str:
 
     if page["section_id"] == "philosophers":
         philosopher_profile = philosopher_profile_for_title(page["title"])
+        topic_possessive = possessive_form(topic)
         if philosopher_profile:
             concept_labels = {
                 split_label(concept)[0].lower()
@@ -10394,11 +11790,11 @@ def support_item_body(label: str, page: dict, prompt: str, focus: str) -> str:
             }
             if label_lower in concept_labels:
                 return (
-                    f"This concept is one of the working parts of {topic}'s philosophy; it names a pressure the reader must track rather than a decorative term to memorize."
+                    f"This concept is one of the working parts of {topic_possessive} philosophy; it names a pressure the reader must track rather than a decorative term to memorize."
                 )
             if any(word in label_lower for word in ("objection", "pressure", "test")):
                 return (
-                    f"This is where {topic}'s view has to earn its keep under criticism rather than merely inherit respect from the canon."
+                    f"This is where {topic_possessive} view has to earn its keep under criticism rather than merely inherit respect from the canon."
                 )
             if any(word in label_lower for word in ("entry", "begin", "watch")):
                 return (
@@ -10406,11 +11802,11 @@ def support_item_body(label: str, page: dict, prompt: str, focus: str) -> str:
                 )
         if "contribution" in label_lower or "influence" in prompt.lower():
             return (
-                f"{topic}'s influence is clearest where later readers inherit new questions, methods, or suspicions, "
+                f"{topic_possessive} influence is clearest where later readers inherit new questions, methods, or suspicions, "
                 f"not merely where {topic} appears as an important name in the canon."
             )
         return (
-            f"{topic}'s method, temperament, and pressure on later philosophy matter more than a biographical label."
+            f"{topic_possessive} method, temperament, and pressure on later philosophy matter more than a biographical label."
         )
 
     if page["section_id"] == "ethics":
@@ -10532,10 +11928,11 @@ def supplemental_support_items(page: dict, prompt: str, detail: dict | None, foc
     key = short_prompt_key(prompt, topic)
 
     if page["section_id"] == "philosophers":
+        topic_possessive = possessive_form(topic)
         return philosopher_expansion_items(page) + [
             f"Historical pressure: {topic} matters because later philosophy inherits problems, terms, or suspicions that become harder to ignore after {topic}.",
             f"Method pressure: The reconstruction identifies whether {topic} works by skepticism, system-building, dialogue, analysis, provocation, or some other recurring method.",
-            f"Limits of the influence: {topic}'s influence can be contestable, partial, or dependent on later interpretation rather than a single settled legacy.",
+            f"Limits of the influence: {topic_possessive} influence can be contestable, partial, or dependent on later interpretation rather than a single settled legacy.",
             f"Present use: {topic} remains valuable where the thinker still sharpens a live question rather than merely belonging to a historical list.",
         ]
 
@@ -10683,6 +12080,73 @@ def sequence_context_paragraph(page: dict, prompt: str, prompts: list[str], inde
     total = len(prompts)
     key = short_prompt_key(prompt, topic)
     key_text = clean_discussion_key(key, topic, "the opening question")
+    if page["section_id"] == "philosophers":
+        family = philosopher_prompt_family(page, prompt)
+        previous_family = philosopher_prompt_family(page, prompts[index - 2]) if index > 1 else ""
+        next_family = philosopher_prompt_family(page, prompts[index]) if index < total else ""
+        if total <= 1:
+            return (
+                f"Because this page turns on a single prompt, it has to make {topic} usable in one motion: enough orientation to enter the issue, enough pressure to keep the page from becoming a polite postcard."
+            )
+        if index == 1:
+            opening_subject = (
+                "this school"
+                if family == "school-overview"
+                else "these philosophers"
+                if family == "figures" and topic.lower().endswith("philosophers")
+                else topic
+            )
+            opening_verb = "matter" if opening_subject == "these philosophers" else "matters"
+            if next_family == "contributions":
+                return (
+                    f"Start by showing why {opening_subject} {opening_verb} at all. Then the next section can ask which moves actually carried that weight."
+                )
+            if next_family == "inheritance":
+                return (
+                    f"Start by making {topic} legible. Then the next section can widen the lens and show where the tools traveled."
+                )
+            return (
+                f"The first section should give the reader one real grip on {topic}. Later prompts can then sharpen, test, or extend that grip instead of starting over."
+            )
+        if index == total:
+            if family == "inheritance":
+                return (
+                    f"The closing move should widen the lens: after motive, contribution, or objection, the reader should see where {possessive_form(topic)} tools migrated next."
+                )
+            if family == "entry":
+                return (
+                    f"A final entry-point section should gather the earlier pressure around {topic} into a route forward, so the reader knows how to begin without pretending the thinker is now simple."
+                )
+            return (
+                f"By this point the page should already have made {topic} more than a name. The last section should gather the earlier pressure into a judgment or route the reader can actually use."
+            )
+        if family == "contributions" and next_family == "becoming":
+            return (
+                f"Once the reader sees which moves from {topic} lasted, the natural next question is how this philosopher or school became historically audible enough for those moves to travel."
+            )
+        if family == "becoming" and next_family == "inheritance":
+            return (
+                f"The biographical step matters because it explains how {topic} got into circulation before the page asks where it later spread."
+            )
+        if family == "school-overview" and next_family == "contributions":
+            return (
+                f"Once the school is sketched in broad strokes, the next section should show which contributions actually define the family resemblance."
+            )
+        if family == "contributions" and next_family == "figures":
+            return (
+                f"After the contributions are on the table, it helps to see which figures carried different parts of {topic} in different directions."
+            )
+        if family == "figures" and next_family == "teaching-dialogue":
+            return (
+                f"After naming the main figures, the page should stop cataloguing and let one live exchange show what the tradition feels like from the inside."
+            )
+        if previous_family == "influence" and family == "contributions":
+            return (
+                f"Once the reader sees why {topic} mattered, the next job is to show which contributions actually did the work."
+            )
+        return (
+            f"The next move should feel earned. Each section ought to make {topic} clearer in use, not just fuller in outline."
+        )
 
     if total <= 1:
         return (
@@ -10778,6 +12242,43 @@ def intermediate_reader_paragraph(page: dict, prompt: str, focus: str) -> str:
     key_text = clean_discussion_key(key, topic, "this question")
     if command_like_key(key_text):
         key_text = semantic_hook_items(page, prompt, None)[0]
+    if section_id == "philosophers":
+        family = philosopher_prompt_family(page, prompt)
+        if family == "influence":
+            return (
+                f"For an intermediate reader, the key question is not merely whether {topic} was important, but what later thinkers still had to deal with because of it."
+            )
+        if family == "contributions":
+            return (
+                f"At this level, separate signature moves from historical prestige. Some contributions from {topic} still cut; others survive mostly as museum labels with excellent lighting."
+            )
+        if family == "becoming":
+            return (
+                f"At this level, read biography as transmission history. Brilliance matters, but so do students, enemies, institutions, timing, and the accidents of preservation around {topic}."
+            )
+        if family == "inheritance":
+            return (
+                f"At this level, look for borrowed tools rather than loyal disciples. Later schools often keep part of {topic} while quietly dropping the rest."
+            )
+        if family == "school-overview":
+            return (
+                f"At this level, treat {topic} as a cluster of recurring methods and disputes rather than as a party banner under which everyone marches in tidy rows."
+            )
+        if family == "figures":
+            return (
+                f"At this level, compare the figures by what each added, corrected, or made harder to ignore. A tradition stays alive by variation, not by cloning."
+            )
+        if family == "concepts":
+            return (
+                f"At this level, ask which concept in {topic} carries the most weight and which one would fail first under a serious objection."
+            )
+        if family == "entry":
+            return (
+                f"At this level, a good entry point should lower confusion without lowering the stakes. The best doorway into {topic} is not always the easiest sentence on the page."
+            )
+        return (
+            f"At this level, stop asking only what {topic} believed and ask how the method changes what later readers can honestly say, question, or refuse."
+        )
     hooks = semantic_hook_items(page, prompt, None)
     compact_hooks: list[str] = []
     for hook in hooks[:3]:
@@ -11053,19 +12554,20 @@ def philosopher_checkpoints(page: dict, prompt: str, detail: dict | None, focus_
     philosopher_profile = philosopher_profile_for_title(page["title"])
     concepts = [concept_label(concept) for concept in (philosopher_profile or {}).get("concepts", [])[:3]]
     concept_text = serial_join(concepts) if concepts else focus_key
-    signature = clean_text((philosopher_profile or {}).get("signature", f"{topic}'s central move")).rstrip(".")
-    method = clean_text((philosopher_profile or {}).get("method", f"{topic}'s way of arguing")).rstrip(".")
+    topic_possessive = possessive_form(topic)
+    signature = clean_text((philosopher_profile or {}).get("signature", f"{topic_possessive} central move")).rstrip(".")
+    method = clean_text((philosopher_profile or {}).get("method", f"{topic_possessive} way of arguing")).rstrip(".")
     pressure = clean_text((philosopher_profile or {}).get("pressure", f"the main pressure on {topic}")).rstrip(".")
     legacy = clean_text((philosopher_profile or {}).get("legacy", "the later debate")).rstrip(".")
     pressure_checkpoint = (
-        f"Keep the historical pressure close: {topic}'s view had teeth because {pressure}."
+        f"Remember why {topic} bit hard in the first place: {pressure}."
         if philosopher_profile
-        else f"Keep the historical pressure close: ask what problem made {topic} feel necessary, not just noteworthy."
+        else f"Ask what live problem made {topic} feel necessary rather than merely notable."
     )
-    temperament_checkpoint = (
-        f"Read for temperament: {method} is part of the philosophy, not packaging around it."
+    style_checkpoint = (
+        f"Read the style as part of the argument: {method}."
         if philosopher_profile
-        else "Read for temperament: notice whether the section works by system, critique, dialogue, analysis, provocation, or spiritual exercise."
+        else "Pay attention to how the page argues, not just to the conclusion it lands on."
     )
 
     if page.get("kind") == "chart":
@@ -11149,6 +12651,90 @@ def philosopher_checkpoints(page: dict, prompt: str, detail: dict | None, focus_
             f"Keep the voice audible: ask whether {topic}'s method answers the objection or merely changes the subject.",
             "Carry it forward: identify the later debate where this same objection returns in modern clothes.",
         ]
+    if "influence on philosophy" in prompt_lower or "remains philosophically important" in prompt_lower:
+        return [
+            f"Do not read influence as fame points; ask which question, distinction, or argumentative habit later thinkers inherited from {topic}.",
+            (
+                f"Keep the signature pressure visible: {signature} is what made the influence durable."
+                if philosopher_profile
+                else f"Look for durable inheritance: the page should show what later thinkers still had to answer, borrow, or resist."
+            ),
+            "Separate real influence from ceremonial citation; a living legacy changes later reasoning rather than merely appearing on syllabi.",
+        ]
+    if (
+        "greatest contributions" in prompt_lower
+        or "key contributions" in prompt_lower
+        or "most enduring ideas" in prompt_lower
+    ):
+        return [
+            f"Do not read the list as a trophy shelf; ask which contribution from {topic} still does live philosophical work.",
+            (
+                f"Look for the hinge between contribution and method: {method} should explain why these ideas hang together."
+                if philosopher_profile
+                else f"Look for the common thread: the contributions should reveal a style of inquiry, not just a pile of isolated insights."
+            ),
+            "Separate what is historically famous from what is still conceptually useful; sometimes only part of a system survives.",
+        ]
+    if "becoming a notable philosopher" in prompt_lower or ("causes behind" in prompt_lower and "becoming" in prompt_lower):
+        return [
+            f"Biography matters here only if it helps explain how {topic} came to see a problem more sharply than rivals.",
+            "Keep contingency in view: institutions, enemies, students, patrons, timing, and crisis often matter as much as brilliance.",
+            (
+                f"Ask how {signature} became legible in that setting rather than imagining genius floating above history."
+                if philosopher_profile
+                else f"Ask what mixture of setting, method, and intellectual courage made {topic} more than a local curiosity."
+            ),
+        ]
+    if "schools of philosophical thought" in prompt_lower or "academic domains" in prompt_lower or "most influenced" in prompt_lower:
+        return [
+            f"Influence across schools is not the same thing as agreement; many heirs borrow a tool from {topic} while rejecting the surrounding worldview.",
+            "Watch for translated inheritance: the vocabulary may change while the pressure, method, or question survives intact.",
+            (
+                f"Follow {concept_text} into later debates and disciplines to see why {topic} keeps resurfacing."
+                if philosopher_profile
+                else f"Trace one concrete line of descent so the influence becomes visible in argument, not just asserted by label."
+            ),
+        ]
+    if "general description of the philosophical school" in prompt_lower or "provide a general description of" in prompt_lower:
+        return [
+            f"Treat {topic} as a family of pressures and methods, not as a slogan with a flag.",
+            "Ask where the internal disagreements begin; a school becomes clearer when its unity and fractures both come into view.",
+            "Keep one exemplary figure nearby so the school stays concrete rather than dissolving into abstraction.",
+        ]
+    if "most influential" in prompt_lower and "history" in prompt_lower:
+        return [
+            f"A list of major figures should reveal why {topic} remained fertile across generations, not merely who gets named most often.",
+            "Ask what each figure added that the others did not, otherwise the tradition collapses into repetition.",
+            "Notice how the school shifts as different thinkers push its method toward new problems and new limits.",
+        ]
+    if "sub-branches" in prompt_lower or "internal divisions" in prompt_lower or "matter most inside" in prompt_lower:
+        return [
+            f"Use the branching map to see where {topic} holds together and where it immediately splits into rival emphases.",
+            "A good overview names the fault lines early, so the reader knows which disagreements are internal and which ones come from outside.",
+            "Keep one route in mind for later reading; the page should not only classify the branch but help the reader enter it intelligently.",
+        ]
+    if "discussion questions" in prompt_lower or "carry the encounter forward" in prompt_lower:
+        return [
+            "Good discussion questions do not merely restate the page; they force comparison, objection, and application.",
+            f"Pick the question that would most expose whether the reader can actually use {topic} rather than just summarize it.",
+            "A useful follow-up question should make disagreement more exact, not merely louder.",
+        ]
+    if "begin with" in prompt_lower or "entry point" in prompt_lower or "contemporary reader begin" in prompt_lower:
+        return [
+            f"The entry point should give a new reader one usable grip on {topic} without pretending the whole view is simple.",
+            (
+                f"Start where {signature} becomes feelable before it becomes fully defendable."
+                if philosopher_profile
+                else f"Choose the first distinction that makes {topic} feel alive rather than merely important."
+            ),
+            "A good beginning invites deeper reading while preserving the friction that makes the thinker worth reading in the first place.",
+        ]
+    if "dialogue between" in prompt_lower or "first-year philosophy student" in prompt_lower or "bright teenager" in prompt_lower:
+        return [
+            "Treat the dialogue as a teaching device: each turn should turn an abstract label into a usable contrast or question.",
+            "Keep the beginner honest; the confusion should be the kind a real reader could share, not a strawman built for easy victory.",
+            f"By the end, the dialogue should leave one distinction in {topic} clearer than it was at the start.",
+        ]
     if "concept" in prompt_lower or "method" in prompt_lower or "question" in prompt_lower:
         return [
             f"Use one concept as a tool: apply {concept_text} to a real case and see what it sorts.",
@@ -11156,9 +12742,9 @@ def philosopher_checkpoints(page: dict, prompt: str, detail: dict | None, focus_
             f"Notice the inheritance trail: later thinkers often keep {topic}'s tool while rejecting the system that made it.",
         ]
     return [
-        f"Say what {topic} makes harder to ignore in this section, especially around {focus_key}.",
+        f"Ask what pressure this section makes hard to dodge: what does {topic} force a reader to confront, separate, or reconsider here?",
         pressure_checkpoint,
-        temperament_checkpoint,
+        style_checkpoint,
     ]
 
 
@@ -11274,9 +12860,38 @@ def exceptional_editorial_paragraph(page: dict, prompt: str, focus: str) -> str:
     section_id = page["section_id"]
 
     if section_id == "philosophers":
+        family = philosopher_prompt_family(page, prompt)
+        if family == "influence":
+            return (
+                f"Influence is easy to overstate. This section earns its keep only if it shows a live inheritance chain in {topic}, not a ceremonial halo hung over the name."
+            )
+        if family == "contributions":
+            return (
+                f"A contributions page should not become a heap of medals. It should show which moves from {topic} still think for us and which ones survive mainly as historical furniture."
+            )
+        if family == "becoming":
+            return (
+                f"The point is not to mythologize genius. The page gets better when it shows how a mind, a moment, and a medium met in the case of {topic}."
+            )
+        if family == "inheritance":
+            return (
+                f"Cross-school influence is where philosophy gets interesting. Tools from {topic} migrate; loyalties usually do not."
+            )
+        if family == "school-overview":
+            return (
+                f"A school page becomes useful when it tells the reader where the family quarrels begin. Traditions, too, need a little honest drama."
+            )
+        if family == "figures":
+            return (
+                f"A list of major figures earns its place when it reveals branching rather than prestige. Otherwise {topic} becomes a hall of portraits with suspiciously little thinking."
+            )
+        if family == "concepts":
+            return (
+                f"A concept page earns its keep when the distinctions in {topic} start behaving like tools rather than chapter ornaments."
+            )
         return (
-            f"Do not settle for the marble-bust version of {topic}. "
-            f"This section earns its keep when it shows the machinery of the philosopher's influence in motion rather than pinning a doctrine under glass."
+            f"The page gets better when {topic} stops looking like a monument and starts looking like a set of moves a reader can still test, borrow, or resist. "
+            "If the claims cannot survive contact with present questions, the page is admiring the thinker more than learning from them."
         )
     if section_id == "epistemology":
         return (
@@ -11376,6 +12991,36 @@ def worked_example_paragraph(page: dict, prompt: str, detail: dict | None, focus
     labels = learning_context_labels(page, prompt, detail, 3)
     safe_labels = [safe_guiding_phrase(label, topic, topic) for label in labels[:2]]
     label_text = serial_join(safe_labels) or key_text
+    if page["section_id"] == "philosophers":
+        family = philosopher_prompt_family(page, prompt)
+        if family == "influence":
+            return (
+                f"Run one inheritance test. Pick a later thinker, school, or field and ask what becomes harder to say once {topic} is removed from the story. That is usually where real influence stops being a compliment and starts becoming a mechanism."
+            )
+        if family == "contributions":
+            return (
+                f"Take one contribution from {topic} and walk it into a later debate. If the move still clarifies something there, it has outlived its home address."
+            )
+        if family == "becoming":
+            return (
+                f"Try the counterfactual in plain clothes: keep the era but remove one enabling factor around {topic} such as students, enemies, institutions, or crisis. Does the philosopher still become visible in the same way?"
+            )
+        if family == "inheritance":
+            return (
+                f"Choose one later school or discipline and ask two questions: what did it borrow from {topic}, and what did it quietly refuse? That contrast usually reveals more than a flat list of descendants."
+            )
+        if family == "school-overview":
+            return (
+                f"Compare two figures inside {topic} and identify the first serious fracture line between them. A school becomes real when internal disagreement shows up before the page is over."
+            )
+        if family == "figures":
+            return (
+                f"Set two major figures side by side and ask what problem each handles differently. If the answer is 'not much,' the tradition is being flattened into a roll call."
+            )
+        if family == "entry":
+            return (
+                f"Try the beginner test. Start with one claim from {topic} and ask what it lets a new reader notice immediately that was previously easy to miss."
+            )
 
     if focus == "definition":
         return (
@@ -11384,8 +13029,8 @@ def worked_example_paragraph(page: dict, prompt: str, detail: dict | None, focus
         )
     if focus == "mapping":
         return (
-            f"Put the map to work in a small case. Start with {label_text}, then ask what is upstream, what depends on it, and what could shift without collapsing the rest. "
-            "That is when the map stops being a diagram and starts becoming a guide."
+            f"Take one concrete case and run it through {label_text}. Ask what depends on it, what it rules out, and what else has to move if you revise it. "
+            "That is usually where the map stops looking decorative and starts earning its keep."
         )
     if focus == "argument":
         return (
@@ -11896,19 +13541,22 @@ def source_prompt_sections(page: dict, prompts: list[str]) -> list[dict]:
 
     profile = branch_profile(page["section_id"])
     topic_items = TOPIC_ITEMS.get(page["title"], [])
-    synthesis_paragraphs = [
-        profile["route"],
-        profile["pressure"],
-    ]
-    if topic_items:
-        synthesis_paragraphs.append(
-            f"For this topic, the durable pressure points include {', '.join(topic_items[:4])}."
-        )
+    if page["section_id"] == "philosophers":
+        synthesis_paragraphs = philosopher_synthesis_paragraphs(page, prompts, topic_items)
     else:
-        synthesis_paragraphs.append(semantic_map_paragraph(page))
-    synthesis_paragraphs.append(
-        f"Read this page as part of the wider {SECTION_META[page['section_id']]['name']} branch: the prompts point inward to the topic, but they also point outward to neighboring questions that keep the topic honest."
-    )
+        synthesis_paragraphs = [
+            profile["route"],
+            profile["pressure"],
+        ]
+        if topic_items:
+            synthesis_paragraphs.append(
+                f"For this topic, the durable pressure points include {', '.join(topic_items[:4])}."
+            )
+        else:
+            synthesis_paragraphs.append(semantic_map_paragraph(page))
+        synthesis_paragraphs.append(
+            f"Read this page as part of the wider {SECTION_META[page['section_id']]['name']} branch: the prompts point inward to the topic, but they also point outward to neighboring questions that keep the topic honest."
+        )
 
     turn_section = stance_change_section(page)
     if turn_section:
@@ -11930,19 +13578,15 @@ def compose_actual_dialogue_sections(page: dict) -> list[dict]:
     philosopher = topic_label(page["title"])
     profile = philosopher_profile_for_title(page["title"])
     source_dialogues = page.get("dialogue_sections", {})
-    concepts = profile["concepts"][:5] if profile else page.get("thread_like", [])[:5]
-    if not concepts:
-        concepts = [
-            f"{philosopher}'s central question",
-            f"{philosopher}'s method of inquiry",
-            f"The strongest objection to {philosopher}",
-            f"The modern pressure {philosopher} still creates",
-        ]
+    concepts = dialogue_residue_items(page, philosopher, profile, limit=5)
+    concept_labels = [split_label(concept)[0] or concept for concept in concepts[:5]]
+    concept_text = serial_join([clean_text(label).strip(" .:") for label in concept_labels[:3]]) if concept_labels else philosopher
+    first_focus = clean_text(concept_labels[0]).strip(" .:") if concept_labels else f"{possessive_form(philosopher)} central question"
 
     source_note = (
-        "The exchanges below keep dialogue at the center: a curious reader asks, a serious interlocutor probes, and a critic presses until the view has to show its working parts."
+        f"The exchanges below keep dialogue at the center: the first conversation opens with {first_focus}, the next asks how the view hangs together, and the final exchange tests the strongest fracture line."
         if source_dialogues
-        else "The exchanges below are staged to make the philosopher's method vivid: a beginner asks for the doorway, an interlocutor tests the structure, and a critic looks for the fracture line."
+        else f"The exchanges below are staged to make {philosopher}'s method vivid: a beginner asks for the doorway through {concept_text}, an interlocutor tests the structure, and a critic looks for the fracture line."
     )
     if profile:
         voice_paragraphs = [
@@ -11997,11 +13641,168 @@ def compose_actual_dialogue_sections(page: dict) -> list[dict]:
             "eyebrow": "Enduring Notions",
             "heading": f"{philosopher}'s positions are clearest when the dialogue leaves residue.",
             "paragraphs": [
-                "After the exchange, the important question is what remains usable: which concepts still organize debate, which require revision, and which survive mainly as provocations."
+                f"After the exchange, the important question is what remains usable in {concept_text}: which ideas still organize debate, which require revision, and which survive mainly as provocations."
             ],
             "list_items": concepts,
         },
     ]
+
+
+def chart_focus_labels(page: dict, limit: int = 4) -> list[str]:
+    topic = topic_label(page["title"])
+    philosopher_profile = philosopher_profile_for_title(page["title"]) if page["section_id"] == "philosophers" else None
+
+    def usable_chart_label(candidate: str) -> bool:
+        cleaned = clean_text(candidate).strip(" .:")
+        lowered = cleaned.lower()
+        if not cleaned:
+            return False
+        if cleaned in {"Key", "Alignment", "Alignments", "Misalignment", "Misalignments"}:
+            return False
+        if lowered.startswith(("contribution ", "contributions of ", "misalignments ", "alignments ", "philosophical terrain", "terrain of ")):
+            return False
+        if lowered.endswith((" elaborated", " explained", " overview")):
+            return False
+        if cleaned == topic:
+            return False
+        return True
+
+    labels: list[str] = []
+    if philosopher_profile:
+        for concept in philosopher_profile.get("concepts", []):
+            label = clean_text(split_label(concept)[0] or concept).strip(" .:")
+            if usable_chart_label(label) and label not in labels:
+                labels.append(label)
+            if len(labels) >= limit:
+                return labels[:limit]
+    for item in usable_thread_items(page.get("thread_like", [])):
+        label, _body = split_label(item)
+        candidate = clean_text(label or item).strip(" .:")
+        if usable_chart_label(candidate) and candidate not in labels:
+            labels.append(candidate)
+        if len(labels) >= limit:
+            return labels[:limit]
+    for table in chart_tables_for_page(page):
+        for row in table.get("rows", []):
+            if not row:
+                continue
+            candidate = clean_text(row[0]).strip(" .:")
+            if usable_chart_label(candidate) and candidate not in labels:
+                labels.append(candidate)
+            if len(labels) >= limit:
+                return labels[:limit]
+        for header in table.get("headers", []):
+            candidate = clean_text(header).strip(" .:")
+            if usable_chart_label(candidate) and candidate not in labels:
+                labels.append(candidate)
+            if len(labels) >= limit:
+                return labels[:limit]
+    return labels[:limit]
+
+
+def chart_focus_phrase(page: dict, fallback_topic: str) -> str:
+    labels = chart_focus_labels(page, 3)
+    return serial_join(labels) if labels else fallback_topic
+
+
+def chart_orientation_tail(page: dict, topic: str, philosopher_profile: dict | None) -> str:
+    focus_text = chart_focus_phrase(page, topic)
+    if philosopher_profile:
+        return (
+            f"Use the table to keep {focus_text} in one field of view. The point is to see which later readers can borrow the philosopher's pressure intact, and which ones quietly rewrite it while pretending to agree."
+        )
+    return (
+        f"Use the table to keep {focus_text} in one field of view. A chart earns its keep when it shows which alignments are real, which are only verbal cousins, and where the first serious fracture begins."
+    )
+
+
+def chart_alignment_tail(page: dict, topic: str, philosopher_profile: dict | None) -> str:
+    focus_text = chart_focus_phrase(page, topic)
+    if philosopher_profile:
+        signature = clean_text(philosopher_profile.get("signature", topic)).rstrip(".")
+        return (
+            f"These alignments matter because they show who can make use of {signature} without swallowing the whole system. The chart is tracking working inheritances, not handing out club membership cards."
+        )
+    return (
+        f"These alignments matter because they show which commitments around {focus_text} actually travel together. If everything gets called an ally, the chart has stopped comparing and started flattering."
+    )
+
+
+def chart_pressure_tail(page: dict, topic: str, philosopher_profile: dict | None) -> list[str]:
+    focus_text = chart_focus_phrase(page, topic)
+    if philosopher_profile:
+        return [
+            f"Watch which rival position thinks {topic} overreaches first, and on what grounds. That usually tells you where the philosopher's deepest wager really sits.",
+            f"A good misalignment row shows more than disagreement about {focus_text}; it shows what each rival thinks this philosopher is missing, exaggerating, or mistaking for necessity.",
+        ]
+    return [
+        f"Ask which row puts the deepest strain on {focus_text}. That is usually where the chart stops sorting labels and starts exposing philosophical cost.",
+        f"A good misalignment row should show not only who resists {topic}, but what they think {topic} gets fundamentally wrong.",
+    ]
+
+
+def chart_discussion_tail(page: dict, topic: str, philosopher_profile: dict | None) -> str:
+    focus_text = chart_focus_phrase(page, topic)
+    if philosopher_profile:
+        legacy = clean_text(philosopher_profile.get("legacy", "later debate")).rstrip(".")
+        return (
+            f"The next useful move is to follow one fault line from this chart into {legacy}. Orientation is only the beginning; the real payoff comes when one comparison changes where the reader probes next."
+        )
+    return (
+        f"The best next move is to carry one contrast about {focus_text} into a dialogue page, a neighboring thinker, or a live objection. The chart matters only if it improves the reader's next question."
+    )
+
+
+def philosopher_synthesis_paragraphs(page: dict, prompts: list[str], topic_items: list[str]) -> list[str]:
+    topic = topic_label(page["title"])
+    philosopher_profile = philosopher_profile_for_title(page["title"])
+    collective = philosopher_page_is_collective(page, topic, philosopher_profile)
+    families = [philosopher_prompt_family(page, prompt) for prompt in prompts]
+
+    if collective:
+        route = (
+            f"A good route is to move from the school sketch to its major figures, then to its internal fractures, and finally to one dialogue or chart where {topic} stops sounding unified and starts sounding alive."
+        )
+        pressure = (
+            f"The pressure is false unity: {topic} becomes useless when a living family of methods and quarrels is recast as one settled doctrine."
+        )
+        branch = (
+            f"Use the nearby dialogue and chart pages to test whether the family resemblance in {topic} survives contact with individual thinkers, rival emphases, and internal disagreement."
+        )
+    elif {"influence", "contributions", "inheritance"} & set(families):
+        route = (
+            f"A good route is to move from why {topic} mattered, to the moves that lasted, to the traditions that borrowed them, and then to the objections that still keep the inheritance honest."
+        )
+        pressure = (
+            f"The pressure is respectful flattening: {topic} becomes unhelpful when method, contribution, objection, and later influence all get bundled into one admiring label."
+        )
+        branch = (
+            f"The nearby dialogue and chart pages are the real test of this summary. They show whether {topic} can turn back into a voice and a set of live comparisons rather than remaining a polished biography."
+        )
+    else:
+        route = (
+            f"A good route is to begin with the question that made {topic} hard to ignore, then follow the concepts, objections, and later echoes that keep the page from becoming biography with better lighting."
+        )
+        pressure = (
+            f"The pressure is not confusion but premature closure: the temptation to treat {topic} as settled before the method, the tension, and the strongest objection have finished speaking."
+        )
+        branch = (
+            f"Read this page as a gateway, not as a shrine. The neighboring philosopher pages should make {topic} feel less isolated and more answerable to rival voices."
+        )
+
+    if topic_items:
+        third = f"For this topic, the durable pressure points include {', '.join(topic_items[:4])}."
+    elif philosopher_profile:
+        labels = [split_label(concept)[0] or concept for concept in philosopher_profile.get("concepts", [])[:4]]
+        third = (
+            f"The most reusable handles on {topic} include {serial_join(labels)}."
+            if labels
+            else semantic_map_paragraph(page)
+        )
+    else:
+        third = semantic_map_paragraph(page)
+
+    return [route, pressure, third, branch]
 
 
 def compose_sections(page: dict) -> list[dict]:
@@ -12144,6 +13945,7 @@ def compose_sections(page: dict) -> list[dict]:
         chart_tables = chart_tables_for_page(page)
         main_tables = chart_tables[:1]
         misalignment_tables = chart_tables[1:]
+        chart_focus = chart_focus_phrase(page, topic)
         if philosopher_profile:
             return [
                 {
@@ -12163,7 +13965,7 @@ def compose_sections(page: dict) -> list[dict]:
                     "heading": f"The main alignments show what {topic} makes newly visible.",
                     "paragraphs": [
                         f"The aligned side of the chart should not be read as a fan club. It names thinkers, traditions, or interpretive habits that can use {topic}'s distinctions without immediately breaking them.",
-                        "The goal is orientation: concepts become more intelligible when the reader sees what they are *for*, what they oppose, and which neighboring positions they can cooperate with.",
+                        chart_alignment_tail(page, topic, philosopher_profile),
                     ],
                     "list_items": philosopher_profile["concepts"][:6],
                 },
@@ -12173,8 +13975,7 @@ def compose_sections(page: dict) -> list[dict]:
                     "heading": f"The misalignments are where the chart stops being polite and starts being useful.",
                     "paragraphs": [
                         f"The strongest pressure is {philosopher_profile['pressure']}. A clean map should include that difficulty rather than airbrushing it out for the sake of canon-polish.",
-                        "The original charting format is valuable because it does not merely say, “here are the doctrines.” It asks where each doctrine collides with other temperaments, methods, and metaphysical instincts.",
-                        "This is where a chart becomes philosophical rather than administrative. It shows where later readers have to think, not merely where they have to admire. The spreadsheet has become a little dangerous, which is usually a good sign.",
+                        *chart_pressure_tail(page, topic, philosopher_profile),
                     ],
                     "comparison_tables": misalignment_tables,
                 },
@@ -12184,19 +13985,30 @@ def compose_sections(page: dict) -> list[dict]:
                     "heading": f"The point of charting {topic} is to improve orientation, not to end debate.",
                     "paragraphs": [
                         f"The influence trail runs through {philosopher_profile['legacy']}. A reader should leave this chart knowing where to go next and what question to carry there.",
-                        "The best chart pages function like trailheads: they do not replace the hike, but they prevent the reader from wandering into the bushes with metaphysical confidence and no snacks.",
+                        chart_discussion_tail(page, topic, philosopher_profile),
                     ],
                 },
             ]
+        generic_chart_orientation = [
+            f"This chart reconstructs {topic} as a map of pressure points rather than a ceremonial summary.",
+            f"The comparison matters because it keeps {chart_focus} side by side long enough for the real alliances and fractures to become visible.",
+            chart_orientation_tail(page, topic, philosopher_profile),
+        ]
+        generic_chart_pressures = [
+            f"The important pressure is not mere disagreement, but whether one fault line shows what {topic} cannot concede without changing shape.",
+            f"A responsible reconstruction keeps {topic} difficult where the difficulty is real, while still separating substantive resistance from prestige, slogan, or verbal fog.",
+            *chart_pressure_tail(page, topic, philosopher_profile),
+        ]
+        generic_chart_discussion = [
+            f"Carry one contrast from {topic} into a dialogue page, a source passage, or a neighboring thinker. The chart earns its keep only if it sharpens the next question.",
+            f"Follow the most interesting fault line around {chart_focus} until one live disagreement becomes clearer. Otherwise the map stays tidy but the philosophy stays untouched.",
+        ]
         return [
             {
                 "id": "orientation",
                 "eyebrow": "Terrain",
                 "heading": f"{topic} is best understood as a landscape of comparisons rather than a slogan.",
-                "paragraphs": [
-                    *orientation,
-                    "This page therefore gives comparison pride of place. The chart form is not decorative; it is a way of keeping allied claims and rival pressures visible at the same time.",
-                ],
+                "paragraphs": generic_chart_orientation,
                 "comparison_tables": main_tables,
             },
             {
@@ -12210,17 +14022,14 @@ def compose_sections(page: dict) -> list[dict]:
                 "id": "pressures",
                 "eyebrow": "Misalignments",
                 "heading": f"A good chart also marks the places where {topic} comes under pressure.",
-                "paragraphs": [
-                    *pressures,
-                    "The misalignment side matters because it keeps the page from becoming a tidy shelf of concepts. A chart should show collisions, not just labels.",
-                ],
+                "paragraphs": generic_chart_pressures,
                 "comparison_tables": misalignment_tables,
             },
             {
                 "id": "discussion",
                 "eyebrow": "Carrying It Forward",
                 "heading": f"The point of charting {topic} is to improve orientation, not to end debate.",
-                "paragraphs": discussion,
+                "paragraphs": generic_chart_discussion,
             },
         ]
 
@@ -13569,36 +15378,82 @@ def serial_join_html(items: list[str]) -> str:
     return f"{', '.join(items[:-1])}, and {items[-1]}"
 
 
+def philosopher_page_is_collective(page: dict, philosopher: str, profile: dict | None) -> bool:
+    if profile:
+        return False
+    lowered = clean_text(philosopher).lower()
+    return lowered.endswith("ism") or lowered.endswith("ists") or lowered.endswith("philosophers")
+
+
+def philosopher_source_work_fallback(page: dict, philosopher: str, profile: dict | None) -> str:
+    collective = philosopher_page_is_collective(page, philosopher, profile)
+    philosopher_possessive = possessive_form(philosopher)
+    if collective:
+        return f"the major texts, manifestos, debates, and source traditions associated with {philosopher}"
+    if page["kind"] == "chart":
+        return f"the major texts, signature arguments, and comparison-worthy disputes most associated with {philosopher}"
+    if page["kind"] == "dialogue":
+        return f"the texts, fragments, and later paraphrases most responsible for {philosopher_possessive} recognizable voice"
+    return f"the major texts, fragments, and recurring debates most associated with {philosopher}"
+
+
+def philosopher_source_intro(page: dict, philosopher: str, profile: dict | None) -> str:
+    collective = philosopher_page_is_collective(page, philosopher, profile)
+    if page["kind"] == "chart":
+        return f"This dossier tells the reader what has been newly framed in the comparison, what parts of {philosopher} have been deliberately preserved, and which texts or ideas should stay nearby while the map unfolds."
+    if page["kind"] == "dialogue":
+        return f"This dossier tells the reader what has been newly framed in the dialogue, what parts of {philosopher}'s voice or method have been deliberately preserved, and which texts or ideas should stay nearby while the exchange unfolds."
+    if collective:
+        return f"This dossier tells the reader what has been newly framed in the tradition sketch, what has been deliberately preserved from {philosopher}, and which texts or debates should stay nearby while the page unfolds."
+    return f"This dossier tells the reader what has been newly framed in the orientation, what has been deliberately preserved from {philosopher}, and which texts or ideas should stay nearby while the page unfolds."
+
+
 def philosopher_original_framing(page: dict, philosopher: str) -> str:
+    collective = philosopher_page_is_collective(page, philosopher, philosopher_profile_for_title(page["title"]))
     if page["kind"] == "dialogue":
         return (
             f"Newly written dialogue. The interlocutors and transitions are editorial, so {philosopher} can answer a live reader's questions without fake line-by-line ventriloquism."
         )
     if page["kind"] == "chart":
+        focus = chart_focus_phrase(page, philosopher)
         return (
-            "Newly written comparison page. The rows, headings, and contrasts are editorial, designed to turn a thinker into a usable map rather than a shrine with footnotes."
+            f"Newly written comparison page. The rows, headings, and contrasts are editorial, designed to keep {focus} and the main fault lines around {philosopher} visible in one frame."
         )
     return (
-        f"Newly written orientation page. The framing and prose are editorial, designed to make {philosopher} teachable without flattening the view into a slogan."
+        (
+            f"Newly written orientation page. The framing and prose are editorial, designed to make {philosopher} teachable without flattening the view into a slogan."
+            if not collective
+            else f"Newly written orientation page. The framing and prose are editorial, designed to make the tradition around {philosopher} teachable without flattening it into a slogan."
+        )
     )
 
 
 def philosopher_preserved_texture(page: dict, philosopher: str, profile: dict | None) -> str:
+    collective = philosopher_page_is_collective(page, philosopher, profile)
     method_sentence = (
         philosopher_method_sentence(profile)
         if profile
-        else "The page keeps the philosopher's characteristic motion of questioning, distinguishing, and pressing the issue."
+        else (
+            "The page keeps the tradition's characteristic motion of questioning, distinguishing, and pressing the issue."
+            if collective
+            else "The page keeps the philosopher's characteristic motion of questioning, distinguishing, and pressing the issue."
+        )
     )
     if page["kind"] == "dialogue":
         return (
             f"What is being preserved is {philosopher}'s style under questioning. {method_sentence}"
         )
     if page["kind"] == "chart":
+        focus = chart_focus_phrase(page, philosopher)
         return (
-            f"What is being preserved is the philosopher's central pressure, strongest objection, and later influence in the same frame. {method_sentence}"
+            f"What is being preserved is {philosopher}'s pressure under comparison: how {focus} align, fracture, and attract resistance in the same frame. {method_sentence}"
         )
     return (
-        f"What is being preserved is the philosopher's characteristic way of proceeding, not just a pile of conclusions. {method_sentence}"
+        (
+            f"What is being preserved is the way {philosopher} proceeds, not just a pile of conclusions. {method_sentence}"
+            if not collective
+            else f"What is being preserved is the way {philosopher} proceeds when it starts distinguishing levels, rivals, and pressure points, not just a pile of conclusions. {method_sentence}"
+        )
     )
 
 
@@ -13611,7 +15466,13 @@ def philosopher_ideas_in_view(philosopher: str, profile: dict | None) -> str:
 
 def render_philosopher_source_dossier(page: dict, philosopher: str, profile: dict | None, source_work: str) -> str:
     influence = profile["legacy"] if profile else f"the later debates that had to inherit, revise, or resist {philosopher}"
-    setting = profile["period"] if profile else f"the historical setting that first made {philosopher}'s questions urgent"
+    setting = (
+        profile["period"]
+        if profile
+        else f"the historical setting that first made questions around {philosopher} urgent"
+        if philosopher_page_is_collective(page, philosopher, profile)
+        else f"the historical setting that first made {possessive_form(philosopher)} questions urgent"
+    )
     cards = [
         ("Original framing", philosopher_original_framing(page, philosopher)),
         ("Preserved texture", philosopher_preserved_texture(page, philosopher, profile)),
@@ -13645,7 +15506,12 @@ def render_philosopher_source_texture_html(page: dict) -> str:
 
     philosopher = topic_label(page["title"])
     base = philosopher_base_name(page["title"])
-    source_work = PHILOSOPHER_SOURCE_WORKS.get(base) or PHILOSOPHER_SOURCE_WORKS.get(philosopher) or "the primary texts, fragments, or source traditions associated with the thinker"
+    collective = philosopher_page_is_collective(page, philosopher, profile)
+    source_work = (
+        PHILOSOPHER_SOURCE_WORKS.get(base)
+        or PHILOSOPHER_SOURCE_WORKS.get(philosopher)
+        or philosopher_source_work_fallback(page, philosopher, profile)
+    )
     dossier = render_philosopher_source_dossier(page, philosopher, profile, source_work)
     if profile:
         listening_for = (
@@ -13654,8 +15520,13 @@ def render_philosopher_source_texture_html(page: dict) -> str:
         )
     else:
         listening_for = (
-            f"Read with one eye on historical setting and one eye on the point of resistance. The page should keep {philosopher} sounding like a pressure on thought rather than a wax museum label."
+            (
+                f"Read with one eye on historical setting and one eye on the point of resistance. The page should keep {philosopher} sounding like a live tradition rather than a wax museum label."
+                if collective
+                else f"Read with one eye on historical setting and one eye on the point of resistance. The page should keep {philosopher} sounding like a pressure on thought rather than a wax museum label."
+            )
         )
+    source_intro = philosopher_source_intro(page, philosopher, profile)
     return textwrap.dedent(
         f"""\
             <section class="article-section article-section--source-texture" id="source-texture">
@@ -13664,7 +15535,7 @@ def render_philosopher_source_texture_html(page: dict) -> str:
               </div>
               <h2>Read {html.escape(philosopher)} with voice, context, and method in the same frame.</h2>
               <p>
-                This dossier is here so the reader knows what has been newly framed on the page, what has been deliberately preserved, and which texts or ideas should stay nearby while the argument unfolds.
+                {render_inline_text(source_intro)}
               </p>
 {dossier}
               <p>
@@ -14010,9 +15881,9 @@ def render_menu_structure_page() -> str:
     )
 
 
-def render_guided_route_cards(prefix: str = "") -> str:
+def render_route_cards(routes: list[dict], prefix: str = "") -> str:
     cards = []
-    for route in GUIDED_READING_PATHS:
+    for route in routes:
         start_href = internal_article_href(prefix, route["steps"][0]["path"])
         steps = "\n".join(
             f"""\
@@ -14058,11 +15929,16 @@ def render_guided_route_cards(prefix: str = "") -> str:
                   </ol>
                   <div class="route-card__actions">
                     <a class="button button--ghost" href="{html.escape(start_href)}">Start route</a>
+                    {f'<a class="button button--ghost" href="{html.escape(internal_article_href(prefix, route["browse_path"]))}">{html.escape(route["browse_label"])}</a>' if route.get("browse_path") and route.get("browse_label") else ''}
                   </div>
                 </article>"""
             )
         )
     return "\n".join(cards)
+
+
+def render_guided_route_cards(prefix: str = "") -> str:
+    return render_route_cards(GUIDED_READING_PATHS, prefix)
 
 
 def render_guided_route_picker(prefix: str = "") -> str:
@@ -14366,7 +16242,39 @@ def render_search_page() -> str:
     )
 
 
-def render_branch_guide_page(section_id: str, pages: list[dict]) -> str:
+def philosopher_hierarchy_profile_node(node: dict) -> bool:
+    title = clean_text(node.get("title", ""))
+    if not title or title.startswith(("Dialoguing with ", "Charting ")):
+        return False
+    canonical = philosopher_base_name(title)
+    return canonical in PHILOSOPHER_PROFILES and normalized_phrase(title) == normalized_phrase(canonical)
+
+
+def philosopher_hierarchy_descendants(node: dict) -> list[dict]:
+    profiles: list[dict] = []
+    if philosopher_hierarchy_profile_node(node):
+        profiles.append(node)
+    for child in node.get("children", []):
+        profiles.extend(philosopher_hierarchy_descendants(child))
+    return profiles
+
+
+def philosopher_hierarchy_subgroups(node: dict) -> list[dict]:
+    child_profiles = [child for child in node.get("children", []) if philosopher_hierarchy_profile_node(child)]
+    child_clusters = [
+        child
+        for child in node.get("children", [])
+        if not philosopher_hierarchy_profile_node(child) and philosopher_hierarchy_descendants(child)
+    ]
+    subgroups: list[dict] = []
+    if child_profiles and not child_clusters:
+        subgroups.append({"title": clean_text(node.get("title", "")), "profiles": child_profiles})
+    for child in child_clusters:
+        subgroups.extend(philosopher_hierarchy_subgroups(child))
+    return subgroups
+
+
+def render_branch_guide_page(section_id: str, pages: list[dict], hierarchy_nodes: list[dict] | None = None) -> str:
     meta = SECTION_META[section_id]
     profile = branch_profile(section_id)
     prefix = "../../"
@@ -14407,6 +16315,144 @@ def render_branch_guide_page(section_id: str, pages: list[dict]) -> str:
             (meta["name"], internal_article_href(prefix, branch_guide_path(section_id))),
         ]
     )
+    philosopher_families_html = ""
+    entry_points_html = textwrap.dedent(
+        f"""\
+                  <section class="content-card">
+                    <p class="eyebrow">Entry Points</p>
+                    <h2>Representative pages in this branch</h2>
+                    <ul class="archive-year-list branch-entry-list">
+{page_items}
+                    </ul>
+                  </section>"""
+    )
+    if section_id == "philosophers" and hierarchy_nodes:
+        page_lookup = {page["built_path"]: page for page in section_pages}
+        school_launches_html = "\n".join(
+            textwrap.dedent(
+                f"""\
+                <a class="route-picker__item" href="{html.escape(internal_article_href(prefix, item['path']))}">
+                  <span class="route-picker__meta">{html.escape(item['meta'])}</span>
+                  <strong>{html.escape(item['title'])}</strong>
+                  <span>{render_inline_text(item['summary'])}</span>
+                </a>"""
+            )
+            for item in PHILOSOPHER_BRANCH_LAUNCHES
+        )
+        entry_points_html = f"""
+
+                  <section class="content-card">
+                    <p class="eyebrow">Entry Points</p>
+                    <h2>Enter through living routes, not a flat shelf of names.</h2>
+                    <p>These routes are arranged to give the reader a coherent first encounter: a voice, a pressure, a contrast, and a reason to keep going. If you already know the sort of philosopher you want, use the school launches just below.</p>
+                    <div class="feature-grid">
+{render_route_cards(PHILOSOPHER_BRANCH_ENTRY_ROUTES, prefix)}
+                    </div>
+                    <div class="route-picker philosopher-branch-launches">
+{school_launches_html}
+                    </div>
+                  </section>"""
+        family_data_rows = []
+        for family_node in hierarchy_nodes:
+            family_name = clean_text(family_node.get("title", ""))
+            subgroups = philosopher_hierarchy_subgroups(family_node)
+            profile_count = sum(len(group["profiles"]) for group in subgroups)
+            if not profile_count:
+                continue
+            subgroup_blocks = []
+            show_subgroup_heading = not (len(subgroups) == 1 and subgroups[0]["title"] == family_name)
+            for subgroup_data in subgroups:
+                subgroup_name = subgroup_data["title"]
+                ordered_profiles = []
+                for profile_node in subgroup_data["profiles"]:
+                    dialogue_path = ""
+                    chart_path = ""
+                    for child in profile_node.get("children", []):
+                        child_title = clean_text(child.get("title", ""))
+                        if child_title.startswith("Dialoguing with "):
+                            dialogue_path = child.get("built_path", "")
+                        elif child_title.startswith("Charting "):
+                            chart_path = child.get("built_path", "")
+                    ordered_profiles.append(
+                        {
+                            "title": clean_text(profile_node.get("title", "")),
+                            "built_path": profile_node.get("built_path", ""),
+                            "dialogue_path": dialogue_path,
+                            "chart_path": chart_path,
+                        }
+                    )
+                entries_html = "\n".join(
+                    f"""\
+                        <li class="philosopher-family__entry">
+                          <div class="philosopher-family__heading">
+                            <a class="philosopher-family__name" href="{html.escape(internal_article_href(prefix, entry['built_path']))}">{html.escape(entry['title'])}</a>
+                            <span class="philosopher-family__meta">{render_inline_text(feature_summary(page_lookup[entry['built_path']], meta))}</span>
+                          </div>
+                          <div class="tag-row philosopher-family__links">
+                            <a class="tag-chip" href="{html.escape(internal_article_href(prefix, entry['built_path']))}">Profile</a>
+                            {f'<a class="tag-chip" href="{html.escape(internal_article_href(prefix, entry["dialogue_path"]))}">Dialogue</a>' if entry.get('dialogue_path') else ''}
+                            {f'<a class="tag-chip" href="{html.escape(internal_article_href(prefix, entry["chart_path"]))}">Chart</a>' if entry.get('chart_path') else ''}
+                          </div>
+                        </li>"""
+                    for entry in ordered_profiles
+                )
+                subgroup_heading_html = (
+                    f'<h3 class="philosopher-family__subgroup-title">{html.escape(subgroup_name)}</h3>'
+                    if show_subgroup_heading
+                    else ""
+                )
+                subgroup_blocks.append(
+                    f"""\
+                      <div class="philosopher-family__subgroup">
+                        {subgroup_heading_html}
+                        <ul class="archive-year-list philosopher-family__list">
+{entries_html}
+                        </ul>
+                      </div>"""
+                )
+            family_titles = {
+                clean_text(profile_node.get("title", ""))
+                for subgroup in subgroups
+                for profile_node in subgroup["profiles"]
+            }
+            family_html = f"""\
+                  <details class="tag-results__group philosopher-family__group">
+                    <summary>
+                      <span>{html.escape(family_name)}</span>
+                      <span>{profile_count} thinker{'' if profile_count == 1 else 's'}</span>
+                    </summary>
+                    <div class="philosopher-family__body">
+                      <p class="philosopher-family__intro">
+                        Use this family view when you want the branch to feel navigable rather than merely large. Each thinker below is surfaced through the same three lanes: profile, dialogue, and chart.
+                      </p>
+{chr(10).join(subgroup_blocks)}
+                    </div>
+                  </details>"""
+            family_data_rows.append(
+                {
+                    "name": family_name,
+                    "titles": family_titles,
+                    "html": family_html,
+                }
+            )
+        filtered_family_blocks = []
+        seen_title_sets: list[set[str]] = []
+        for family_row in family_data_rows:
+            titles = family_row["titles"]
+            if any(titles < prior_titles for prior_titles in seen_title_sets):
+                continue
+            filtered_family_blocks.append(family_row["html"])
+            seen_title_sets.append(titles)
+        philosopher_families_html = f"""
+
+                  <section class="content-card">
+                    <p class="eyebrow">Philosopher Families</p>
+                    <h2>Meet the newer figures through the same profile, dialogue, and chart structure.</h2>
+                    <p>This makes the symmetry visible from navigation itself: readers can move by tradition, then by thinker, then by the exact supporting page form they want.</p>
+                    <div class="tag-results__groups philosopher-family-groups">
+{chr(10).join(filtered_family_blocks)}
+                    </div>
+                  </section>"""
     return textwrap.dedent(
         f"""\
         {AUTO_MARKER}
@@ -14448,14 +16494,8 @@ def render_branch_guide_page(section_id: str, pages: list[dict]) -> str:
 {tension_items}
                     </ul>
                   </section>
-
-                  <section class="content-card">
-                    <p class="eyebrow">Entry Points</p>
-                    <h2>Representative pages in this branch</h2>
-                    <ul class="archive-year-list branch-entry-list">
-{page_items}
-                    </ul>
-                  </section>
+{entry_points_html}
+{philosopher_families_html}
                 </main>
               </div>
             </div>
@@ -16210,7 +18250,7 @@ def main() -> None:
     for section_id in SECTION_IDS:
         branch_target = ROOT / "branches" / section_id / "index.html"
         valid_targets.add(branch_target)
-        write_if_allowed(branch_target, render_branch_guide_page(section_id, generated_pages))
+        write_if_allowed(branch_target, render_branch_guide_page(section_id, generated_pages, section_nodes.get(section_id)))
 
     posts_by_year: dict[int, list[dict]] = defaultdict(list)
     section_counts: dict[str, int] = defaultdict(int)

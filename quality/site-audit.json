@@ -1,12 +1,12 @@
 {
   "summary": {
-    "pages_scanned": 783,
+    "pages_scanned": 830,
     "broken_links": 0,
     "duplicate_ids": 0,
     "repeated_headings": 5,
     "prompt_number_issues": 0,
     "orphan_pages": 0,
-    "oversized_assets": 0,
+    "oversized_assets": 1,
     "style_scars": 0,
     "grammar_scars": 0
   },
@@ -36,7 +36,13 @@
   ],
   "prompt_number_issues": [],
   "orphan_pages": [],
-  "oversized_assets": [],
+  "oversized_assets": [
+    {
+      "path": "/assets/js/site-core.js",
+      "bytes": 281378,
+      "limit": 280000
+    }
+  ],
   "style_scars": [],
   "grammar_scars": []
 }

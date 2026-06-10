@@ -1423,6 +1423,12 @@
   <priority>0.8</priority>
 </url>
 <url>
+  <loc>https://byteseismic.com/philosophers/al-ghazali/</loc>
+  <lastmod>2026-06-09</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
   <loc>https://byteseismic.com/philosophers/analytic-philosophers/</loc>
   <lastmod>2024-05-03</lastmod>
   <changefreq>weekly</changefreq>
@@ -1449,6 +1455,12 @@
 <url>
   <loc>https://byteseismic.com/philosophers/aristotle/</loc>
   <lastmod>2024-04-28</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/philosophers/arthur-schopenhauer/</loc>
+  <lastmod>2026-06-09</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
@@ -1489,6 +1501,12 @@
   <priority>0.8</priority>
 </url>
 <url>
+  <loc>https://byteseismic.com/philosophers/buddhist-philosophers/</loc>
+  <lastmod>2026-06-09</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
   <loc>https://byteseismic.com/philosophers/charles-sanders-peirce/</loc>
   <lastmod>2024-05-10</lastmod>
   <changefreq>weekly</changefreq>
@@ -1497,6 +1515,12 @@
 <url>
   <loc>https://byteseismic.com/philosophers/charting-adorno/</loc>
   <lastmod>2024-09-02</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/philosophers/charting-al-ghazali/</loc>
+  <lastmod>2026-06-09</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
@@ -1515,6 +1539,12 @@
 <url>
   <loc>https://byteseismic.com/philosophers/charting-aristotle/</loc>
   <lastmod>2024-05-16</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/philosophers/charting-arthur-schopenhauer/</loc>
+  <lastmod>2026-06-09</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
@@ -1555,7 +1585,19 @@
   <priority>0.8</priority>
 </url>
 <url>
+  <loc>https://byteseismic.com/philosophers/charting-cicero/</loc>
+  <lastmod>2026-06-09</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
   <loc>https://byteseismic.com/philosophers/charting-confucius/</loc>
+  <lastmod>2026-06-09</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/philosophers/charting-daniel-dennett/</loc>
   <lastmod>2026-06-09</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
@@ -1585,6 +1627,12 @@
   <priority>0.8</priority>
 </url>
 <url>
+  <loc>https://byteseismic.com/philosophers/charting-dogen/</loc>
+  <lastmod>2026-06-09</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
   <loc>https://byteseismic.com/philosophers/charting-duns-scotus/</loc>
   <lastmod>2024-07-07</lastmod>
   <changefreq>weekly</changefreq>
@@ -1598,7 +1646,7 @@
 </url>
 <url>
   <loc>https://byteseismic.com/philosophers/charting-epictetus/</loc>
-  <lastmod>2024-06-11</lastmod>
+  <lastmod>2026-06-09</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
@@ -1675,6 +1723,12 @@
   <priority>0.8</priority>
 </url>
 <url>
+  <loc>https://byteseismic.com/philosophers/charting-john-dewey/</loc>
+  <lastmod>2026-06-09</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
   <loc>https://byteseismic.com/philosophers/charting-john-rawls/</loc>
   <lastmod>2026-06-09</lastmod>
   <changefreq>weekly</changefreq>
@@ -1736,7 +1790,7 @@
 </url>
 <url>
   <loc>https://byteseismic.com/philosophers/charting-marcus-aurelius/</loc>
-  <lastmod>2024-05-22</lastmod>
+  <lastmod>2026-06-09</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
@@ -1771,6 +1825,12 @@
   <priority>0.8</priority>
 </url>
 <url>
+  <loc>https://byteseismic.com/philosophers/charting-mozi/</loc>
+  <lastmod>2026-06-09</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
   <loc>https://byteseismic.com/philosophers/charting-nagarjuna/</loc>
   <lastmod>2026-06-09</lastmod>
   <changefreq>weekly</changefreq>
@@ -1778,7 +1838,7 @@
 </url>
 <url>
   <loc>https://byteseismic.com/philosophers/charting-nietzsche/</loc>
-  <lastmod>2024-05-27</lastmod>
+  <lastmod>2026-06-09</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
@@ -1831,8 +1891,20 @@
   <priority>0.8</priority>
 </url>
 <url>
+  <loc>https://byteseismic.com/philosophers/charting-schopenhauer/</loc>
+  <lastmod>2026-06-09</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
   <loc>https://byteseismic.com/philosophers/charting-seneca/</loc>
-  <lastmod>2024-05-23</lastmod>
+  <lastmod>2026-06-09</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/philosophers/charting-shankara/</loc>
+  <lastmod>2026-06-09</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
@@ -1873,7 +1945,31 @@
   <priority>0.8</priority>
 </url>
 <url>
+  <loc>https://byteseismic.com/philosophers/charting-xunzi/</loc>
+  <lastmod>2026-06-09</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
   <loc>https://byteseismic.com/philosophers/charting-zhuangzi/</loc>
+  <lastmod>2026-06-09</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/philosophers/cicero/</loc>
+  <lastmod>2026-06-09</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/philosophers/classical-greeks/</loc>
+  <lastmod>2026-06-09</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/philosophers/confucian-thinkers/</loc>
   <lastmod>2026-06-09</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
@@ -1903,6 +1999,12 @@
   <priority>0.8</priority>
 </url>
 <url>
+  <loc>https://byteseismic.com/philosophers/daoists/</loc>
+  <lastmod>2026-06-09</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
   <loc>https://byteseismic.com/philosophers/david-hume/</loc>
   <lastmod>2024-04-08</lastmod>
   <changefreq>weekly</changefreq>
@@ -1911,6 +2013,12 @@
 <url>
   <loc>https://byteseismic.com/philosophers/dialoguing-with-adorno/</loc>
   <lastmod>2024-07-30</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/philosophers/dialoguing-with-al-ghazali/</loc>
+  <lastmod>2026-06-09</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
@@ -1929,6 +2037,12 @@
 <url>
   <loc>https://byteseismic.com/philosophers/dialoguing-with-aristotle/</loc>
   <lastmod>2024-05-11</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/philosophers/dialoguing-with-arthur-schopenhauer/</loc>
+  <lastmod>2026-06-09</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
@@ -1969,7 +2083,19 @@
   <priority>0.8</priority>
 </url>
 <url>
+  <loc>https://byteseismic.com/philosophers/dialoguing-with-cicero/</loc>
+  <lastmod>2026-06-09</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
   <loc>https://byteseismic.com/philosophers/dialoguing-with-confucius/</loc>
+  <lastmod>2026-06-09</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/philosophers/dialoguing-with-daniel-dennett/</loc>
   <lastmod>2026-06-09</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
@@ -1999,6 +2125,12 @@
   <priority>0.8</priority>
 </url>
 <url>
+  <loc>https://byteseismic.com/philosophers/dialoguing-with-dogen/</loc>
+  <lastmod>2026-06-09</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
   <loc>https://byteseismic.com/philosophers/dialoguing-with-duns-scotus/</loc>
   <lastmod>2024-07-10</lastmod>
   <changefreq>weekly</changefreq>
@@ -2012,7 +2144,7 @@
 </url>
 <url>
   <loc>https://byteseismic.com/philosophers/dialoguing-with-epictetus/</loc>
-  <lastmod>2024-06-11</lastmod>
+  <lastmod>2026-06-09</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
@@ -2089,6 +2221,12 @@
   <priority>0.8</priority>
 </url>
 <url>
+  <loc>https://byteseismic.com/philosophers/dialoguing-with-john-dewey/</loc>
+  <lastmod>2026-06-09</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
   <loc>https://byteseismic.com/philosophers/dialoguing-with-john-rawls/</loc>
   <lastmod>2026-06-09</lastmod>
   <changefreq>weekly</changefreq>
@@ -2150,7 +2288,7 @@
 </url>
 <url>
   <loc>https://byteseismic.com/philosophers/dialoguing-with-marcus-aurelius/</loc>
-  <lastmod>2024-05-22</lastmod>
+  <lastmod>2026-06-09</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
@@ -2185,6 +2323,12 @@
   <priority>0.8</priority>
 </url>
 <url>
+  <loc>https://byteseismic.com/philosophers/dialoguing-with-mozi/</loc>
+  <lastmod>2026-06-09</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
   <loc>https://byteseismic.com/philosophers/dialoguing-with-nagarjuna/</loc>
   <lastmod>2026-06-09</lastmod>
   <changefreq>weekly</changefreq>
@@ -2192,7 +2336,7 @@
 </url>
 <url>
   <loc>https://byteseismic.com/philosophers/dialoguing-with-nietzsche/</loc>
-  <lastmod>2024-05-27</lastmod>
+  <lastmod>2026-06-09</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
@@ -2245,8 +2389,20 @@
   <priority>0.8</priority>
 </url>
 <url>
+  <loc>https://byteseismic.com/philosophers/dialoguing-with-schopenhauer/</loc>
+  <lastmod>2026-06-09</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
   <loc>https://byteseismic.com/philosophers/dialoguing-with-seneca/</loc>
-  <lastmod>2024-05-23</lastmod>
+  <lastmod>2026-06-09</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/philosophers/dialoguing-with-shankara/</loc>
+  <lastmod>2026-06-09</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
@@ -2287,7 +2443,19 @@
   <priority>0.8</priority>
 </url>
 <url>
+  <loc>https://byteseismic.com/philosophers/dialoguing-with-xunzi/</loc>
+  <lastmod>2026-06-09</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
   <loc>https://byteseismic.com/philosophers/dialoguing-with-zhuangzi/</loc>
+  <lastmod>2026-06-09</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/philosophers/dogen/</loc>
   <lastmod>2026-06-09</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
@@ -2318,7 +2486,13 @@
 </url>
 <url>
   <loc>https://byteseismic.com/philosophers/epictetus/</loc>
-  <lastmod>2024-06-04</lastmod>
+  <lastmod>2026-06-09</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/philosophers/epicureans/</loc>
+  <lastmod>2026-06-09</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
@@ -2342,12 +2516,18 @@
 </url>
 <url>
   <loc>https://byteseismic.com/philosophers/friedrich-nietzsche/</loc>
-  <lastmod>2024-04-19</lastmod>
+  <lastmod>2026-06-09</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
 <url>
   <loc>https://byteseismic.com/philosophers/g-e-moore/</loc>
+  <lastmod>2026-06-09</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/philosophers/genealogy-power-and-deconstruction/</loc>
   <lastmod>2026-06-09</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
@@ -2361,6 +2541,12 @@
 <url>
   <loc>https://byteseismic.com/philosophers/george-berkeley/</loc>
   <lastmod>2024-06-18</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/philosophers/german-idealists-and-critics/</loc>
+  <lastmod>2026-06-09</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
@@ -2383,6 +2569,12 @@
   <priority>0.8</priority>
 </url>
 <url>
+  <loc>https://byteseismic.com/philosophers/hellenistic-and-roman/</loc>
+  <lastmod>2026-06-09</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
   <loc>https://byteseismic.com/philosophers/heraclitus/</loc>
   <lastmod>2026-06-09</lastmod>
   <changefreq>weekly</changefreq>
@@ -2391,6 +2583,12 @@
 <url>
   <loc>https://byteseismic.com/philosophers/herbert-marcuse/</loc>
   <lastmod>2024-04-23</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/philosophers/high-and-late-scholastics/</loc>
+  <lastmod>2026-06-09</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
@@ -2413,6 +2611,12 @@
   <priority>0.8</priority>
 </url>
 <url>
+  <loc>https://byteseismic.com/philosophers/islamic-philosophers/</loc>
+  <lastmod>2026-06-09</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
   <loc>https://byteseismic.com/philosophers/jacques-derrida/</loc>
   <lastmod>2024-06-01</lastmod>
   <changefreq>weekly</changefreq>
@@ -2427,6 +2631,12 @@
 <url>
   <loc>https://byteseismic.com/philosophers/jean-paul-sartre/</loc>
   <lastmod>2024-04-12</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/philosophers/jewish-philosophers/</loc>
+  <lastmod>2026-06-09</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
@@ -2492,7 +2702,7 @@
 </url>
 <url>
   <loc>https://byteseismic.com/philosophers/marcus-aurelius/</loc>
-  <lastmod>2024-04-12</lastmod>
+  <lastmod>2026-06-09</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
@@ -2527,7 +2737,25 @@
   <priority>0.8</priority>
 </url>
 <url>
+  <loc>https://byteseismic.com/philosophers/mohists/</loc>
+  <lastmod>2026-06-09</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/philosophers/mozi/</loc>
+  <lastmod>2026-06-09</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
   <loc>https://byteseismic.com/philosophers/nagarjuna/</loc>
+  <lastmod>2026-06-09</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/philosophers/neoplatonists/</loc>
   <lastmod>2026-06-09</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
@@ -2546,6 +2774,12 @@
 </url>
 <url>
   <loc>https://byteseismic.com/philosophers/parmenides/</loc>
+  <lastmod>2026-06-09</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/philosophers/patristic-and-early-medieval/</loc>
   <lastmod>2026-06-09</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
@@ -2581,7 +2815,19 @@
   <priority>0.8</priority>
 </url>
 <url>
+  <loc>https://byteseismic.com/philosophers/plato/</loc>
+  <lastmod>2026-06-09</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
   <loc>https://byteseismic.com/philosophers/plotinus/</loc>
+  <lastmod>2026-06-09</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/philosophers/political-and-historical-continental-thought/</loc>
   <lastmod>2026-06-09</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
@@ -2599,6 +2845,12 @@
   <priority>0.8</priority>
 </url>
 <url>
+  <loc>https://byteseismic.com/philosophers/presocratics/</loc>
+  <lastmod>2026-06-09</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
   <loc>https://byteseismic.com/philosophers/rationalists/</loc>
   <lastmod>2024-05-01</lastmod>
   <changefreq>weekly</changefreq>
@@ -2607,6 +2859,12 @@
 <url>
   <loc>https://byteseismic.com/philosophers/rene-descartes/</loc>
   <lastmod>2024-04-09</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/philosophers/roman-civic-thought/</loc>
+  <lastmod>2026-06-09</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
@@ -2624,7 +2882,13 @@
 </url>
 <url>
   <loc>https://byteseismic.com/philosophers/seneca/</loc>
-  <lastmod>2024-05-17</lastmod>
+  <lastmod>2026-06-09</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/philosophers/shankara/</loc>
+  <lastmod>2026-06-09</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
@@ -2648,7 +2912,13 @@
 </url>
 <url>
   <loc>https://byteseismic.com/philosophers/stoics/</loc>
-  <lastmod>2024-05-01</lastmod>
+  <lastmod>2026-06-09</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/philosophers/theodor-adorno/</loc>
+  <lastmod>2026-06-09</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
@@ -2667,6 +2937,12 @@
 <url>
   <loc>https://byteseismic.com/philosophers/thomas-hobbes/</loc>
   <lastmod>2024-05-18</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/philosophers/vedanta/</loc>
+  <lastmod>2026-06-09</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
@@ -2691,6 +2967,12 @@
 <url>
   <loc>https://byteseismic.com/philosophers/william-of-ockham/</loc>
   <lastmod>2024-07-12</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.8</priority>
+</url>
+<url>
+  <loc>https://byteseismic.com/philosophers/xunzi/</loc>
+  <lastmod>2026-06-09</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.8</priority>
 </url>
