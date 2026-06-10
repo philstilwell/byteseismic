@@ -6,7 +6,7 @@
 - Repeated headings: 5
 - Prompt numbering issues: 0
 - Orphan pages: 0
-- Oversized assets: 1
+- Oversized assets: 0
 - Style scars: 0
 - Grammar scars: 0
 
@@ -36,7 +36,7 @@
 
 ## Oversized Assets
 
-- `/assets/js/site-core.js` -> 283900 bytes (limit 280000)
+- none
 
 ## Style Scars
 

@@ -20216,15 +20216,6 @@ def main() -> None:
         },
         "tagCounts": dict(sorted(tag_counts.items())),
         "tagPages": tag_pages,
-        "taggedPages": [
-            {
-                "title": page["title"],
-                "section": page["section"],
-                "path": page["path"],
-                "tags": page["tags"],
-            }
-            for page in tagged_pages
-        ],
         "topicPaths": topic_paths,
         "sections": sections_data,
     }

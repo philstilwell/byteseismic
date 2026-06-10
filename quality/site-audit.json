@@ -6,7 +6,7 @@
     "repeated_headings": 5,
     "prompt_number_issues": 0,
     "orphan_pages": 0,
-    "oversized_assets": 1,
+    "oversized_assets": 0,
     "style_scars": 0,
     "grammar_scars": 0
   },
@@ -36,13 +36,7 @@
   ],
   "prompt_number_issues": [],
   "orphan_pages": [],
-  "oversized_assets": [
-    {
-      "path": "/assets/js/site-core.js",
-      "bytes": 283900,
-      "limit": 280000
-    }
-  ],
+  "oversized_assets": [],
   "style_scars": [],
   "grammar_scars": []
 }

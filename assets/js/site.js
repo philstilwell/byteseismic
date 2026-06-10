@@ -325,8 +325,55 @@
       .replace(/^-+|-+$/g, "");
   }
 
+  function flattenTopicTree(nodes, items = []) {
+    (nodes || []).forEach((node) => {
+      if (!node) {
+        return;
+      }
+
+      if (node.title || node.path) {
+        items.push({
+          title: node.title || "",
+          path: node.path || "",
+        });
+      }
+
+      if (node.children?.length) {
+        flattenTopicTree(node.children, items);
+      }
+    });
+
+    return items;
+  }
+
+  function currentPageTags() {
+    return [...new Set(
+      Array.from(document.querySelectorAll("#future-branches .tag-chip"))
+        .map((node) => cleanInlineText(node.textContent || ""))
+        .filter(Boolean),
+    )].slice(0, 6);
+  }
+
   function currentPageEntry() {
-    return (data.taggedPages || []).find((page) => page.path === currentPage()) || null;
+    const extraData = searchDataset();
+    const knownPages = extraData.taggedPages?.length ? extraData.taggedPages : data.taggedPages || [];
+    const match = knownPages.find((page) => page.path === currentPage());
+    if (match) {
+      return match;
+    }
+
+    const title = cleanInlineText(document.querySelector(".hero h1")?.textContent || "");
+    const sectionName = data.sections.find((entry) => entry.id === currentSection())?.name || "";
+    if (!title && !sectionName) {
+      return null;
+    }
+
+    return {
+      title,
+      section: sectionName,
+      path: currentPage(),
+      tags: currentPageTags(),
+    };
   }
 
   function directSectionHeading(section) {
@@ -647,8 +694,8 @@
         });
     }
 
-    (data.taggedPages || [])
-      .filter((page) => page.path !== activePage && page.section === section.name)
+    flattenTopicTree(sectionTree(section))
+      .filter((page) => page.path && page.path !== activePage)
       .slice(0, 10)
       .forEach((page) => {
         items.push({
@@ -981,7 +1028,9 @@
       return data.tagCounts[tag];
     }
 
-    return (data.taggedPages || []).filter((page) => (page.tags || []).includes(tag)).length;
+    const extraData = searchDataset();
+    const taggedPages = extraData.taggedPages?.length ? extraData.taggedPages : data.taggedPages || [];
+    return taggedPages.filter((page) => (page.tags || []).includes(tag)).length;
   }
 
   function tagLabel(tag) {
@@ -1365,7 +1414,20 @@
     }
 
     const extraData = searchDataset();
-    const pages = (extraData.taggedPages?.length ? extraData.taggedPages : data.taggedPages || [])
+    const pageSource = extraData.taggedPages?.length ? extraData.taggedPages : data.taggedPages || [];
+    if (!pageSource.length && !searchData) {
+      resultMount.innerHTML = '<p class="muted-label">Loading pages for this tag…</p>';
+      void ensureSearchData().then((payload) => {
+        if (payload?.taggedPages?.length) {
+          renderTagResults(tag);
+          return;
+        }
+        resultMount.innerHTML = '<p class="muted-label">Tag results are unavailable right now.</p>';
+      });
+      return;
+    }
+
+    const pages = pageSource
       .filter((page) => (page.tags || []).includes(tag))
       .sort((a, b) => a.section.localeCompare(b.section) || a.title.localeCompare(b.title));
 
