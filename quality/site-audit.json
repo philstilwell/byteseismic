@@ -1,6 +1,6 @@
 {
   "summary": {
-    "pages_scanned": 830,
+    "pages_scanned": 836,
     "broken_links": 0,
     "duplicate_ids": 0,
     "repeated_headings": 5,
@@ -39,7 +39,7 @@
   "oversized_assets": [
     {
       "path": "/assets/js/site-core.js",
-      "bytes": 281378,
+      "bytes": 283900,
       "limit": 280000
     }
   ],

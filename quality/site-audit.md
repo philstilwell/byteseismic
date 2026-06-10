@@ -1,6 +1,6 @@
 # Site Audit
 
-- Pages scanned: 830
+- Pages scanned: 836
 - Broken internal links: 0
 - Duplicate IDs: 0
 - Repeated headings: 5
@@ -36,7 +36,7 @@
 
 ## Oversized Assets
 
-- `/assets/js/site-core.js` -> 281378 bytes (limit 280000)
+- `/assets/js/site-core.js` -> 283900 bytes (limit 280000)
 
 ## Style Scars
 

@@ -355,6 +355,11 @@ FEATURED_PAGE_SPECS = [
         "path": "/epistemology/what-is-belief/",
     },
     {
+        "title": "⌁ Scope Leakage of Happiness",
+        "section_id": "ethics",
+        "path": "/ethics/scope-leakage-of-happiness/",
+    },
+    {
         "title": "What Is Science?",
         "section_id": "philosophy-of-science",
         "path": "/philosophy-of-science/what-is-science/",
@@ -453,6 +458,63 @@ GUIDED_READING_PATHS = [
             {"title": "Fictional Meta-Ethics Debate", "path": "/ethics/fictional-meta-ethics-debate/", "reason": "Watch positions collide in dialogue rather than pretending a taxonomy has settled the dispute."},
             {"title": "Equivocation on “Wrong”", "path": "/ethics/equivocation-on-wrong/", "reason": "Track how a single moral word can slide among pragmatic, social, legal, and objective senses."},
             {"title": "Compassion vs Moral Systems", "path": "/ethics/compassion-vs-moral-systems/", "reason": "Test whether moral warmth can replace moral structure, or whether both need each other."},
+        ],
+    },
+    {
+        "id": "care-without-collapse",
+        "title": "Care Without Collapse: Finite Agency Under Moral Pressure",
+        "summary": "A route for readers who want to take suffering seriously without turning exposure, guilt, and self-erasure into signs of moral depth.",
+        "audience": "Finite agency, moral demand, and rational compassion",
+        "difficulty": "Intermediate",
+        "length": "6 steps",
+        "best_for": "Readers who want an ethic of care that remains humane toward finite persons instead of quietly punishing them for being finite.",
+        "central_question": "How can a person remain morally serious while resisting borrowed guilt, unlimited duty, and feed-driven moral melodrama?",
+        "outcome": "By the end, you should be able to separate legitimate culpability from diffuse implication, bounded agency from indifference, and disciplined compassion from self-consuming moral pressure.",
+        "steps": [
+            {"title": "⌁ Finite Agency, Moral Demand, and Happiness", "path": "/ethics/finite-agency-moral-demand-and-happiness/", "reason": "Begin with the cluster page that sets the whole problem: care, guilt, agency, and happiness must not all collapse into one feeling."},
+            {"title": "⌁ Scope Leakage of Happiness", "path": "/ethics/scope-leakage-of-happiness/", "reason": "Name the pattern directly so the misery stops looking like generic burnout or noble depth."},
+            {"title": "⌁ Legitimate Culpability vs Borrowed Guilt", "path": "/ethics/legitimate-culpability-vs-borrowed-guilt/", "reason": "Separate actual blameworthiness from the broader feeling of being morally stained by awareness alone."},
+            {"title": "⌁ Bounded Compassionate Agency", "path": "/ethics/bounded-compassionate-agency/", "reason": "Rebuild care around finite leverage, finite attention, and humane stopping rules."},
+            {"title": "⌁ Finite Agency in an Infinite Feed", "path": "/rational-thought/finite-agency-in-an-infinite-feed/", "reason": "Shift from ethics to attention-management and see how constant exposure distorts judgment before argument even begins."},
+            {"title": "⌁ Perceived Responsibility and Perceived Control", "path": "/epistemology/perceived-responsibility-and-perceived-control/", "reason": "End with the epistemic discipline needed to keep felt duty answerable to evidence, leverage, and uncertainty."},
+        ],
+    },
+    {
+        "id": "compassion-obligation-and-bounded-agency",
+        "title": "Compassion, Obligation, and Bounded Agency",
+        "summary": "A route that starts with metaethical pressure and then asks what happens when compassion, guilt, and obligation meet finite human limits.",
+        "audience": "Compassion, obligation, and bounded moral demand",
+        "difficulty": "Intermediate",
+        "length": "6 steps",
+        "best_for": "Readers who want skeptical pressure on moral systems to stay connected to lived questions about guilt, duty, and humane care.",
+        "central_question": "What happens to compassion once we stop assuming that moral seriousness requires unlimited guilt or unlimited demand?",
+        "outcome": "By the end, you should be able to separate compassion from moral authority, obligation from diffuse pressure, and humane care from systems that quietly feed on self-erasure.",
+        "steps": [
+            {"title": "Recommendations vs Moral Claims", "path": "/ethics/recommendations-vs-moral-claims/", "reason": "Begin by separating advice, value, obligation, and moral authority before compassion is asked to carry too much weight."},
+            {"title": "Compassion vs Moral Systems", "path": "/ethics/compassion-vs-moral-systems/", "reason": "Test whether compassion can guide well on its own or whether it still needs discipline, structure, and argument."},
+            {"title": "⌁ Finite Agency, Moral Demand, and Happiness", "path": "/ethics/finite-agency-moral-demand-and-happiness/", "reason": "Move into the newer cluster where moral seriousness is measured against finite leverage and emotional survivability."},
+            {"title": "⌁ Scope Leakage of Happiness", "path": "/ethics/scope-leakage-of-happiness/", "reason": "Name what happens when awareness of distant suffering starts colonizing ordinary happiness."},
+            {"title": "⌁ Legitimate Culpability vs Borrowed Guilt", "path": "/ethics/legitimate-culpability-vs-borrowed-guilt/", "reason": "Separate real blame from the broader feeling of being morally stained by awareness alone."},
+            {"title": "⌁ Bounded Compassionate Agency", "path": "/ethics/bounded-compassionate-agency/", "reason": "End with a more durable ethic of care: serious concern shaped by limits, role clarity, and humane stopping rules."},
+        ],
+    },
+    {
+        "id": "attention-scope-and-control",
+        "title": "Attention, Scope, and Control",
+        "summary": "A route for readers who suspect the information environment keeps distorting what deserves care, confidence, and action.",
+        "audience": "Attention, scale, and responsibility under modern conditions",
+        "difficulty": "Foundational to intermediate",
+        "length": "6 steps",
+        "best_for": "Readers who want help separating visibility from priority, concern from liability, and felt duty from actual leverage.",
+        "central_question": "How should a finite person decide what deserves attention, response, and emotional weight once the whole world can arrive in the feed every hour?",
+        "outcome": "By the end, you should be able to distinguish broad awareness from real leverage, audience size from meaningful impact, and felt responsibility from justified responsibility.",
+        "steps": [
+            {"title": "Scope of Influence", "path": "/rational-thought/scope-of-influence/", "reason": "Begin with the basic question of where ambition, audience, and actual leverage come apart."},
+            {"title": "Empathy Overload", "path": "/rational-thought/empathy-overload/", "reason": "Move next to the emotional strain produced when visible suffering outruns bounded human attention and agency."},
+            {"title": "⌁ Scope Leakage of Happiness", "path": "/ethics/scope-leakage-of-happiness/", "reason": "Name the mechanism by which remote suffering begins governing ordinary happiness."},
+            {"title": "⌁ Finite Agency in an Infinite Feed", "path": "/rational-thought/finite-agency-in-an-infinite-feed/", "reason": "Shift from emotional overload to the rational problem of feeds, salience, and distorted priority."},
+            {"title": "Operational Epistemic Rigor", "path": "/epistemology/operational-epistemic-rigor/", "reason": "Ask what better evidence habits and confidence discipline look like once the stream has already been arranging your attention."},
+            {"title": "⌁ Perceived Responsibility and Perceived Control", "path": "/epistemology/perceived-responsibility-and-perceived-control/", "reason": "End by separating felt duty from actual control so care becomes answerable to probability, leverage, and evidence."},
         ],
     },
     {
@@ -630,6 +692,8 @@ GLOSSARY_TERMS = [
     {"term": "Adequate evidence", "definition": "Support strong enough for the claim being made, given the stakes, alternatives, error costs, and available methods of checking.", "branch": "Epistemology", "paths": ["/epistemology/adequate-evidence/"], "tags": ["evidence", "justification"]},
     {"term": "A priori", "definition": "Knowledge or justification claimed to arise from reason, structure, or necessity rather than from fresh observation alone.", "branch": "Epistemology", "paths": ["/epistemology/a-priori-knowledge-issues/"], "tags": ["knowledge", "epistemology"]},
     {"term": "Agency", "definition": "The capacity to act for reasons, make choices, and own actions as more than happenings that merely pass through a person.", "branch": "Philosophy of Mind", "paths": ["/philosophy-of-mind/rationality-and-free-will/"], "tags": ["free-will", "identity"]},
+    {"term": "Bounded agency", "definition": "The recognition that human action is real but limited by time, knowledge, leverage, emotional endurance, and role constraints.", "branch": "Ethics", "paths": ["/ethics/finite-agency-moral-demand-and-happiness/", "/rational-thought/finite-agency-in-an-infinite-feed/"], "tags": ["ethics", "decision-making"]},
+    {"term": "Bounded compassionate agency", "definition": "Compassion disciplined by realistic limits, role clarity, and durable forms of response rather than by fantasies of unlimited personal obligation.", "branch": "Ethics", "paths": ["/ethics/bounded-compassionate-agency/"], "tags": ["ethics", "normativity"]},
     {"term": "Belief", "definition": "An action-guiding commitment or confidence state that may sound binary in ordinary speech but often needs finer treatment in careful reasoning.", "branch": "Epistemology", "paths": ["/epistemology/what-is-belief/"], "tags": ["belief", "knowledge"]},
     {"term": "Bias", "definition": "A systematic tilt in attention, inference, or judgment; not just any opinion, but a patterned distortion that can keep error feeling natural.", "branch": "Philosophical Inquiry", "paths": ["/philosophical-inquiry/dangers-cognitive-biases/"], "tags": ["bias", "public-discourse"]},
     {"term": "Burden of proof", "definition": "The responsibility to supply reasons or evidence proportionate to the strength and stakes of the claim being pressed.", "branch": "Rational Thought", "paths": ["/rational-thought/assessing-arguments/"], "tags": ["argument", "evidence"]},
@@ -637,6 +701,7 @@ GLOSSARY_TERMS = [
     {"term": "Charity", "definition": "Interpretive generosity: understanding a claim in its strongest plausible form before deciding that it fails.", "branch": "Philosophical Inquiry", "paths": ["/philosophical-inquiry/charitable-engagement/"], "tags": ["charity", "argument"]},
     {"term": "Coherence", "definition": "Fit among claims within a wider view or system; useful, but not identical to truth just because the pieces hang together neatly.", "branch": "Ethics", "paths": ["/ethics/coherent-moral-systems/"], "tags": ["truth", "knowledge"]},
     {"term": "Compassion", "definition": "Concern for suffering that can guide moral attention, though it still needs discipline so it does not become partiality dressed as virtue.", "branch": "Ethics", "paths": ["/ethics/compassion-vs-moral-systems/"], "tags": ["ethics", "normativity"]},
+    {"term": "Compassion fade", "definition": "The tendency for concern to weaken as suffering becomes more numerous, abstract, or statistically large, even when the stakes are objectively greater.", "branch": "Ethics", "paths": ["/ethics/bounded-compassionate-agency/", "/rational-thought/finite-agency-in-an-infinite-feed/"], "tags": ["ethics", "public-discourse"]},
     {"term": "Consequentialism", "definition": "A family of ethical views that judges actions mainly by their outcomes rather than by intention, rule, or character alone.", "branch": "Ethics", "paths": ["/ethics/ethics-core-concepts/"], "tags": ["ethics", "normativity"]},
     {"term": "Consciousness", "definition": "Subjective awareness or felt experience: what it is like for a being to perceive, think, or undergo something.", "branch": "Philosophy of Mind", "paths": ["/philosophy-of-mind/what-is-consciousness/"], "tags": ["consciousness", "philosophy-of-mind"]},
     {"term": "Correlation", "definition": "A statistical pattern of co-variation between things; suggestive, often useful, but not on its own a demonstration of causation.", "branch": "Philosophy of Science", "paths": ["/philosophy-of-science/correlation-and-causation/"], "tags": ["causation", "statistics"]},
@@ -681,6 +746,8 @@ GLOSSARY_TERMS = [
     {"term": "Metaphysics", "definition": "The branch of philosophy asking what reality is like at the deepest level: what exists, what depends on what, and what kinds of things are basic.", "branch": "Metaphysics", "paths": ["/metaphysics/metaphysics-core-concepts/"], "tags": ["metaphysics", "reality"]},
     {"term": "Methodological naturalism", "definition": "The practice of explaining phenomena by appeal to publicly testable natural causes; a method rule, not automatically a final worldview.", "branch": "Philosophy of Science", "paths": ["/philosophy-of-science/methodological-naturalism/"], "tags": ["method", "science"]},
     {"term": "Moral non-realism", "definition": "A family of views denying that moral claims describe objective moral facts in the realist sense, while still allowing moral language to do important work.", "branch": "Ethics", "paths": ["/ethics/essay-moral-anti-realism/"], "tags": ["meta-ethics", "moral-non-realism"]},
+    {"term": "Moral demandingness", "definition": "The degree to which a moral outlook asks for sacrifice, self-limitation, or costly action before it counts a person as decent or serious.", "branch": "Ethics", "paths": ["/ethics/finite-agency-moral-demand-and-happiness/"], "tags": ["ethics", "normativity"]},
+    {"term": "Moral distress", "definition": "Psychological strain produced by feeling pressed by serious moral concerns while lacking a clear, proportionate, or effective path of response.", "branch": "Ethics", "paths": ["/ethics/scope-leakage-of-happiness/", "/ethics/bounded-compassionate-agency/"], "tags": ["ethics", "decision-making"]},
     {"term": "Moral realism", "definition": "The view that at least some moral claims are true independently of individual preference, tribal endorsement, or passing consensus.", "branch": "Ethics", "paths": ["/ethics/moral-realism-intuition/"], "tags": ["meta-ethics", "moral-realism"]},
     {"term": "Narrative", "definition": "A meaning-shaping story frame that can illuminate reality or distort it by making events serve a preselected moral or tribal script.", "branch": "Philosophical Inquiry", "paths": ["/philosophical-inquiry/dangers-narrative/"], "tags": ["public-discourse", "inquiry"]},
     {"term": "Nihilism", "definition": "A family of views denying objective meaning, value, truth, or purpose in some domain; often invoked loosely when the real issue is disillusionment or skepticism.", "branch": "Metaphysics", "paths": ["/metaphysics/categories-of-nihilism/"], "tags": ["nihilism", "meaning"]},
@@ -688,13 +755,19 @@ GLOSSARY_TERMS = [
     {"term": "Objectivity", "definition": "Independence from merely personal preference or point of view; not the elimination of all perspective, but accountable contact with what is really there.", "branch": "Metaphysics", "paths": ["/metaphysics/objectively-subjectively-real/"], "tags": ["reality", "subjectivity"]},
     {"term": "Ontology", "definition": "The part of metaphysics that asks what kinds of things exist and what categories of being we actually need.", "branch": "Metaphysics", "paths": ["/metaphysics/ontological-domains/"], "tags": ["metaphysics", "reality"]},
     {"term": "Operational rigor", "definition": "The habit of translating high-minded standards into visible practices: checks, thresholds, tests, objections, and revision procedures.", "branch": "Epistemology", "paths": ["/epistemology/operational-epistemic-rigor/"], "tags": ["epistemology", "method"]},
+    {"term": "Pathological altruism", "definition": "A pattern in which caring impulses become self-damaging, manipulative, or counterproductive because compassion is not being guided by proportion or realistic limits.", "branch": "Ethics", "paths": ["/ethics/bounded-compassionate-agency/", "/ethics/compassion-vs-moral-systems/"], "tags": ["ethics", "normativity"]},
+    {"term": "Perceived control", "definition": "What a situation feels actionable enough for a person to influence, which may or may not line up with actual leverage.", "branch": "Epistemology", "paths": ["/epistemology/perceived-responsibility-and-perceived-control/"], "tags": ["epistemology", "decision-making"]},
+    {"term": "Perceived responsibility", "definition": "The felt sense that some harm or outcome belongs on one's moral ledger, whether or not agency, evidence, or leverage actually support that conclusion.", "branch": "Epistemology", "paths": ["/epistemology/perceived-responsibility-and-perceived-control/", "/ethics/legitimate-culpability-vs-borrowed-guilt/"], "tags": ["epistemology", "ethics"]},
     {"term": "Phenomenology", "definition": "A way of doing philosophy that begins with lived experience and the structures of appearance before reducing everything to outside measurement alone.", "branch": "Philosophers", "paths": ["/philosophers/phenomenologists/"], "tags": ["subjectivity", "history-of-philosophy"]},
     {"term": "Principle of sufficient reason", "definition": "The claim that things do not simply obtain for no reason at all: there must be some basis, cause, or explanation for why they are so.", "branch": "Metaphysics", "paths": ["/metaphysics/the-principle-of-sufficient-reason/"], "tags": ["metaphysics", "explanation"]},
+    {"term": "Problematic news consumption", "definition": "A pattern of information intake that inflates alarm, erodes proportion, or manufactures false duty by exposing the mind to more tragedy than it can responsibly process.", "branch": "Rational Thought", "paths": ["/rational-thought/finite-agency-in-an-infinite-feed/"], "tags": ["public-discourse", "decision-making"]},
     {"term": "Probability", "definition": "A disciplined way of representing uncertainty, not a substitute for reasoning about assumptions, evidence, and stakes.", "branch": "Epistemology", "paths": ["/epistemology/reasoned-probabilities-and-decisions/"], "tags": ["probability", "decision-making"]},
+    {"term": "Psychic numbing", "definition": "The weakening of felt response when suffering is experienced at large scale, causing the mind to go flat precisely where the numbers grow more severe.", "branch": "Rational Thought", "paths": ["/rational-thought/finite-agency-in-an-infinite-feed/", "/ethics/bounded-compassionate-agency/"], "tags": ["public-discourse", "ethics"]},
     {"term": "Rationality", "definition": "The discipline of proportioning belief, inference, and action to reasons, evidence, and coherent standards rather than to impulse alone.", "branch": "Epistemology", "paths": ["/epistemology/core-deep-rationality/"], "tags": ["rational-thought", "epistemology"]},
     {"term": "Reductionism", "definition": "The attempt to explain higher-level realities entirely in lower-level terms; sometimes illuminating, sometimes flattening what matters.", "branch": "Metaphysics", "paths": ["/metaphysics/emergence/"], "tags": ["emergence", "metaphysics"]},
     {"term": "Relativism", "definition": "The view that truth, value, or justification is always relative to a scheme, culture, or perspective; often confused with the milder point that context matters.", "branch": "Ethics", "paths": ["/philosophical-inquiry/personal-truth/"], "tags": ["truth", "subjectivity"]},
     {"term": "Reliability", "definition": "The tendency of a method, source, or cognitive process to produce truth or near-truth often enough to deserve trust.", "branch": "Epistemology", "paths": ["/epistemology/establishing-cognitive-reliability-1/"], "tags": ["evidence", "epistemology"]},
+    {"term": "Scope leakage of happiness", "definition": "A pattern in which the emotional burden of remote suffering spills beyond the boundaries of actual agency and begins colonizing ordinary happiness.", "branch": "Ethics", "paths": ["/ethics/scope-leakage-of-happiness/", "/ethics/finite-agency-moral-demand-and-happiness/"], "tags": ["ethics", "decision-making"]},
     {"term": "Science", "definition": "A disciplined, self-correcting form of inquiry that uses observation, modeling, testing, and criticism to learn about the world.", "branch": "Philosophy of Science", "paths": ["/philosophy-of-science/what-is-science/"], "tags": ["science", "method"]},
     {"term": "Scientism", "definition": "The overextension of scientific authority into domains where empirical method may inform inquiry without exhausting it.", "branch": "Philosophy of Science", "paths": ["/philosophy-of-science/scientism-faith/"], "tags": ["science", "method"]},
     {"term": "Semantics", "definition": "The study of meaning, reference, and how words or sentences manage to say anything determinate at all.", "branch": "Philosophy of Language", "paths": ["/philosophy-of-language/semantics-convention-vs-stipulation/"], "tags": ["semantics", "language"]},
@@ -705,6 +778,7 @@ GLOSSARY_TERMS = [
     {"term": "Subjectivity", "definition": "What depends on a perspective, standpoint, or lived experience; not therefore unreal, but not automatically a public measure either.", "branch": "Philosophy of Mind", "paths": ["/philosophy-of-mind/subjectivity-constrained-by-the-objective/"], "tags": ["subjectivity", "reality"]},
     {"term": "Syllogism", "definition": "A structured form of reasoning in which a conclusion follows from premises through explicit logical form.", "branch": "Epistemology", "paths": ["/epistemology/what-are-syllogisms/"], "tags": ["logic", "argument"]},
     {"term": "Truth", "definition": "A standard by which claims answer to reality rather than merely to preference, convenience, usefulness, or tribal endorsement.", "branch": "Philosophical Inquiry", "paths": ["/philosophical-inquiry/what-is-truth/"], "tags": ["truth", "reality"]},
+    {"term": "Unmitigated communion", "definition": "A style of moral or relational orientation in which another's suffering is absorbed too directly into the self, with too little boundary, mediation, or proportion.", "branch": "Ethics", "paths": ["/ethics/bounded-compassionate-agency/", "/ethics/scope-leakage-of-happiness/"], "tags": ["ethics", "identity"]},
     {"term": "Utilitarianism", "definition": "A consequentialist view that evaluates actions chiefly by how much overall well-being, happiness, or preference satisfaction they produce.", "branch": "Ethics", "paths": ["/ethics/ethics-core-concepts/"], "tags": ["ethics", "normativity"]},
     {"term": "Virtue ethics", "definition": "An ethical approach centered on character, practical wisdom, and the cultivation of the kinds of people capable of living well.", "branch": "Ethics", "paths": ["/ethics/ethics-core-concepts/"], "tags": ["ethics", "normativity"]},
     {"term": "Worldview", "definition": "A broad interpretive frame that organizes what a person treats as real, valuable, knowable, and worth doing.", "branch": "Philosophical Inquiry", "paths": ["/philosophical-inquiry/do-i-need-a-worldview/"], "tags": ["worldview", "inquiry"]},
@@ -1012,6 +1086,43 @@ PHILOSOPHER_HIERARCHY_ADDITIONS = [
 
 
 SECTION_HIERARCHY_ADDITIONS = {
+    "ethics": [
+        {
+            "title": "⌁ Finite Agency, Moral Demand, and Happiness",
+            "href": "",
+            "children": [
+                {
+                    "title": "⌁ Scope Leakage of Happiness",
+                    "href": "",
+                    "children": [],
+                },
+                {
+                    "title": "⌁ Legitimate Culpability vs Borrowed Guilt",
+                    "href": "",
+                    "children": [],
+                },
+                {
+                    "title": "⌁ Bounded Compassionate Agency",
+                    "href": "",
+                    "children": [],
+                },
+            ],
+        }
+    ],
+    "rational-thought": [
+        {
+            "title": "⌁ Finite Agency in an Infinite Feed",
+            "href": "",
+            "children": [],
+        }
+    ],
+    "epistemology": [
+        {
+            "title": "⌁ Perceived Responsibility and Perceived Control",
+            "href": "",
+            "children": [],
+        }
+    ],
     "philosophical-inquiry": [
         {
             "title": "How Minds are Changed",
@@ -2306,6 +2417,66 @@ TOPIC_ITEMS = {
         "Circular definitions of moral language",
         "Practical force without stance-independent moral facts",
     ],
+    "Compassion vs Moral Systems": [
+        "Rational compassion",
+        "Moral feeling versus moral authority",
+        "Bias, salience, and scale",
+        "Bounded concern without indifference",
+    ],
+    "Scope of Influence": [
+        "Local leverage",
+        "Cosmic ambition",
+        "Audience size versus actual impact",
+        "Role boundaries and neglected relationships",
+    ],
+    "Empathy Overload": [
+        "Circle of concern versus influence",
+        "Compassion fatigue",
+        "Bounded attention",
+        "Performative guilt versus actionable care",
+    ],
+    "Operational Epistemic Rigor": [
+        "Testability and falsifiability",
+        "Predictive success and corrigibility",
+        "Reproducibility and peer scrutiny",
+        "Confidence calibration",
+    ],
+    "Finite Agency, Moral Demand, and Happiness": [
+        "Awareness is not agency",
+        "Control and leverage",
+        "Scope leakage",
+        "Bounded compassionate agency",
+    ],
+    "Scope Leakage of Happiness": [
+        "Vivid exposure",
+        "Inflated responsibility",
+        "Emotional spillover",
+        "Stopping rules",
+    ],
+    "Legitimate Culpability vs Borrowed Guilt": [
+        "Causal contribution",
+        "Foreseeability",
+        "Role responsibility",
+        "Diffuse implication",
+    ],
+    "Bounded Compassionate Agency": [
+        "Finite leverage",
+        "Role clarity",
+        "Humane stopping rules",
+        "Pathological altruism",
+    ],
+    "Finite Agency in an Infinite Feed": [
+        "Visibility versus priority",
+        "Availability bias",
+        "Opportunity cost",
+        "Credence and leverage",
+    ],
+    "Perceived Responsibility and Perceived Control": [
+        "Felt duty versus actual control",
+        "Leverage",
+        "Probability",
+        "Epistemic calibration",
+    ],
     "Precision Prompting": [
         "Task framing and constraints",
         "Examples, counterexamples, and format discipline",
@@ -3265,6 +3436,27 @@ def compact_text(text: str, limit: int = 310) -> str:
         return cleaned
     clipped = cleaned[:limit].rsplit(" ", 1)[0].rstrip(" ,;:")
     return f"{clipped}."
+
+
+def compact_sentences(text: str, limit: int = 310) -> str:
+    cleaned = clean_text(text)
+    if len(cleaned) <= limit:
+        return cleaned
+    sentences = sentence_split(cleaned)
+    if not sentences:
+        return compact_text(cleaned, limit)
+    chosen: list[str] = []
+    for sentence in sentences:
+        candidate = " ".join(chosen + [sentence]).strip()
+        if len(candidate) <= limit:
+            chosen.append(sentence)
+            continue
+        if chosen:
+            break
+        return compact_text(sentence, limit)
+    if chosen:
+        return " ".join(chosen)
+    return compact_text(cleaned, limit)
 
 
 def is_low_value_heading(text: str) -> bool:
@@ -6351,6 +6543,168 @@ TARGETED_SECTION_EXPANSIONS = {
             "Reader gain: The page should show why compassion is indispensable and still not self-sufficient in every case.",
         ],
     },
+    ("/rational-thought/scope-of-influence/", "prompt-1"): {
+        "heading": "Durable influence usually starts where agency is real enough to survive contact with life.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The attraction of top-down change is easy to understand. Large causes flatter ambition, compress complexity into a single righteous mission, and promise the emotional drama of saving history. The trouble is that the imagined scale of influence often outruns the actual structure of agency, and burnout is one predictable result.",
+            "A bottom-up focus is not small-minded. It is often where feedback, responsibility, and correction become visible enough to matter. Local efforts let a person see what works, what fails, what kinds of help are actually wanted, and what costs the work is imposing on relationships and judgment.",
+            "That does not mean broader systems never matter. It means durable large-scale influence is usually built from repeated contact with tractable problems, real people, and accountable results rather than from the fantasy that passion alone can substitute for leverage.",
+            "The page becomes more useful once it separates moral seriousness from scale hunger. Wanting to matter is human. The question is whether your chosen level of intervention is answerable to evidence, role, and emotional sustainability.",
+        ],
+        "items": [
+            "Local leverage: work begins where action and feedback can still meet each other.",
+            "Scale temptation: top-down missions can look noble while remaining too abstract to correct well.",
+            "Burnout mechanism: ambition outruns leverage, so emotional investment stops receiving proportionate traction.",
+            "Better growth path: durable wider influence is often earned through smaller zones of accountable competence.",
+            "Reader test: ask whether the desire to help is being guided by real traction or by the romance of cosmic importance.",
+        ],
+    },
+    ("/rational-thought/scope-of-influence/", "prompt-2"): {
+        "heading": "Cosmic ambition often borrows energy from needs that would be easier to miss at smaller scale.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "A person can be drawn toward a grand role for good reasons and bad ones at the same time. Idealism may be real, but so can vanity, hunger for recognition, escape from intimate difficulty, fear of ordinariness, or the hope that a large mission will settle private uncertainty.",
+            "That is why diagnosis matters. Seeking a world-historical role can sometimes be less about the world than about the self that wants relief, elevation, or symbolic importance. None of those motives automatically cancel the work, but they do change how carefully the work should be examined.",
+            "The page should therefore help the reader detect mixed motives without falling into cynicism. The goal is not to sneer at aspiration, but to ask whether the aspiration is making local duties, close relationships, and tractable responsibilities look too small to count.",
+            "A grounded life is often a useful counterweight here. If every meaningful action must appear on a global stage, the standards of significance have probably already been distorted.",
+        ],
+        "items": [
+            "Legacy hunger: the wish to matter historically can quietly outrun the wish to help concretely.",
+            "Recognition pressure: status, admiration, and public visibility can hide inside moral ambition.",
+            "Escape function: large causes can become a refuge from harder local responsibilities or relationships.",
+            "Algorithmic prestige: public culture rewards scale-signaling more reliably than quiet competence.",
+            "Diagnostic question: would the project still feel worthwhile if almost nobody saw it and its effects stayed local?",
+        ],
+    },
+    ("/rational-thought/scope-of-influence/", "prompt-3"): {
+        "heading": "A larger audience is not automatically a deeper or wiser form of influence.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Interconnectivity has made audience-growth much easier, but it has also made confusion easier. Reach, reputation, persuasion, education, friendship, and institutional change are different kinds of influence, and the page gets muddy when they are treated as if they were interchangeable.",
+            "Meaning is often found where feedback is thick, not where metrics are biggest. A smaller circle that can answer back, challenge you, and be tangibly helped may matter more than a wide audience that mostly supplies numbers and dopamine.",
+            "That does not make larger reach worthless. It means wider communication should be treated as one tool among others, not as a master measure of significance. A person can expand audience while still protecting deeper local ties, but only if they stop using scale as the main proxy for value.",
+            "A good rule of thumb is to let the smaller sphere test the larger one. If broader influence keeps thinning your attention, flattening relationships, or replacing contribution with performance, the balance has already slipped.",
+        ],
+        "items": [
+            "Audience size is not the same thing as meaningful impact.",
+            "Thick feedback often matters more than thin visibility.",
+            "Local relationships provide ballast against metric-driven self-deception.",
+            "Broader reach is healthiest when it grows out of real competence and living communities.",
+            "Reader test: ask what form of influence would still feel worthwhile if the visible metrics fell sharply tomorrow.",
+        ],
+    },
+    ("/rational-thought/empathy-overload/", "prompt-1"): {
+        "heading": "Once the world becomes constantly visible, compassion needs triage or it becomes self-defeating.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Modern technology can place more suffering before a single mind in one week than older social worlds would have delivered in months. That visibility can deepen awareness, but it can also dissolve proportion if every tragedy is treated as if it made the same immediate claim on action and emotion.",
+            "Wise distribution of compassion therefore begins by separating concern from custodianship. A person may owe attention, selective help, advocacy, donation, or truthful understanding in different degrees, but it does not follow that every vivid event deserves the same emotional residency inside the self.",
+            "The stronger answer is neither numb detachment nor indiscriminate openness. It is disciplined triage: choosing causes, channels, and habits of intake that let care remain intelligent, durable, and answerable to real leverage.",
+            "The page matters because compassion can be morally serious without being constantly ambient. Sometimes the humane move is not to feel everything harder, but to decide where feeling can still become something truthful and useful.",
+        ],
+        "items": [
+            "Circle of concern versus influence: seeing a harm does not settle how directly it belongs to your practical responsibility.",
+            "Selective intake: limits on tragic exposure can preserve rather than weaken durable care.",
+            "Compassion triage: choose recurring channels of action instead of trying to emotionally process every visible crisis.",
+            "Emotional sustainability: a burned-out witness often helps less than a bounded agent with steadier commitments.",
+            "Reader test: ask which visible sufferings you can actually answer and which you are merely being trained to carry.",
+        ],
+    },
+    ("/rational-thought/empathy-overload/", "prompt-2"): {
+        "heading": "Prioritizing family and community is not moral treason if the limits are owned honestly.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "There is nothing obviously insensitive about concentrating much of your care on the people to whom you stand in denser, more practical relation. Family, friendship, neighborhood, and local obligation are not embarrassing leftovers from a less enlightened age; they are places where action, feedback, and accountability remain thick enough to matter.",
+            "The danger lies at the extremes. One extreme romanticizes global compassion while quietly neglecting the people actually dependent on you. The other collapses into tribal closure, treating distant suffering as morally invisible because it is not nearby. The page is healthiest when it resists both temptations.",
+            "A bounded answer therefore sounds like this: local priority is often justified, but it should remain porous enough to admit wider concern, wider knowledge, and selective wider obligation when leverage and circumstances warrant it.",
+            "The important discipline is honesty about limits. If you say 'I cannot do everything,' that can be wisdom. If you say 'therefore nothing beyond my circle matters,' that is something else entirely.",
+        ],
+        "items": [
+            "Density of obligation: some relationships generate thicker and more immediate duties than others.",
+            "Tractable help: local action often produces clearer feedback and less symbolic moral theater.",
+            "Anti-tribal caution: bounded concern should not become an excuse to treat distant people as unreal.",
+            "Expanding circles: a sane ethic can begin locally while still allowing selective wider commitments.",
+            "Reader test: can you explain why local priority differs from parochial indifference?",
+        ],
+    },
+    ("/rational-thought/empathy-overload/", "prompt-3"): {
+        "heading": "Historical cases help only when they teach the mechanism, not just the martyr mythology.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Examples of compassionate self-damage are philosophically useful only if they clarify a pattern. The pattern is not simply 'caring a lot.' It is care that loses boundary, proportion, or institutional mediation and therefore begins consuming the very person through whom the care must act.",
+            "Some historical figures did burn themselves out through relentless service, diffuse identification with suffering, or a refusal to protect ordinary human limits. Others have been retrospectively mythologized in ways that confuse courage with preventable self-destruction. The page should keep those possibilities apart.",
+            "That is why the question should not become a hunt for saints who suffered nobly. It should become a search for mechanisms: boundary collapse, inability to stop, private absorption of structural burdens, and confusion between moral seriousness and emotional self-erasure.",
+            "A sober answer can honor sacrifice while still asking whether some forms of sacrifice teach the wrong lesson for ordinary finite agents.",
+        ],
+        "items": [
+            "Boundary collapse matters more than raw intensity of feeling.",
+            "Hero stories can hide the difference between necessary sacrifice and preventable self-damage.",
+            "Institutional failures are often quietly shifted onto exceptionally compassionate individuals.",
+            "The lesson is diagnostic: look for the structure that converts care into depletion.",
+            "Reader test: can you describe the mechanism without turning suffering itself into a badge of virtue?",
+        ],
+    },
+    ("/rational-thought/empathy-overload/", "prompt-4"): {
+        "heading": "Public charity is best judged by what it trains attention toward.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Publicly announcing charity is not automatically vanity and not automatically virtue. The key question is what the announcement is doing: is it directing attention toward a cause, mobilizing further help, clarifying transparency, or mainly turning the donor into the emotional center of the scene?",
+            "That question becomes sharper in the context of empathy overload. Public displays of care can train others to confuse visible anguish with moral seriousness and visible giving with the best form of responsibility. A culture can start rewarding performative concern more reliably than intelligent, bounded, and often quieter forms of help.",
+            "There are cases where publicity is justified: institutional accountability, matching campaigns, norm-setting, or strategic encouragement. But even then, the page should keep asking whether the announcement enlarges the cause or enlarges the self.",
+            "The healthier norm is not absolute secrecy, but disciplined publicity. If the public signal helps the cause more than the ego, fine. If it turns charity into status theater, the moral atmosphere has already gone a bit stale.",
+        ],
+        "items": [
+            "Cause-first question: does the announcement mainly direct attention toward the need or toward the donor?",
+            "Transparency case: public disclosure can be justified where accountability or trust is part of the work.",
+            "Prestige risk: visible charity can become a social performance that pressures others into symbolic giving.",
+            "Alternative norm: quiet recurring support often does more good than dramatic one-off moral display.",
+            "Reader test: ask what kind of culture this form of publicity trains into existence.",
+        ],
+    },
+    ("/epistemology/operational-epistemic-rigor/", "prompt-1"): {
+        "heading": "Rigor is not a halo; it is a stack of public disciplines that make correction possible.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Operational epistemic rigor is not mainly a compliment for things we already trust. It is a question about what visible practices let a belief-system earn confidence, survive criticism, and revise itself without special pleading.",
+            "That is why ranking domains by rigor can be useful if, and only if, the criteria are kept explicit. Mathematics, physics, history, journalism, ideology, pseudoscience, and theology are not simply ranked by prestige; they are compared by testability, predictive success, reproducibility, correction culture, clarity of terms, and willingness to let error count as error.",
+            "A strong page should therefore stop treating rigor as a mood and start treating it as a workflow. The real issue is not who sounds serious, but who exposes claims to disciplined failure and then changes practice when the results come back ugly.",
+            "Once the criteria are visible, disagreement gets cleaner. A person can argue about where a field belongs without pretending that 'rigor' is just another word for 'the things I already respect.'",
+        ],
+        "items": [
+            "Testability and falsifiability: can the claim genuinely collide with the world and lose?",
+            "Predictive and explanatory power: does the framework do more than rename what it already expects to find?",
+            "Reproducibility and peer scrutiny: can other people check the work without joining the tribe first?",
+            "Correction culture: when the evidence turns sour, does the system update, retreat, or moralize dissent?",
+            "Calibration question: how much confidence has actually been earned, and by what public process?",
+        ],
+    },
+    ("/epistemology/operational-epistemic-rigor/", "prompt-2"): {
+        "heading": "A good rubric measures how a view earns correction, not just how confidently it speaks.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "A serious rubric for epistemic rigor should not merely ask whether a system has arguments. Almost everything has arguments. The deeper questions are whether the claims are clear enough to test, whether rival evidence can genuinely count against them, whether correction mechanisms are public, and whether confidence tracks the quality of support.",
+            "That is why a good rubric mixes evidential and procedural criteria. It asks about testability, predictive success, reproducibility, expert criticism, conceptual clarity, update norms, and the system's willingness to live with suspended judgment where the evidence stays thin.",
+            "The goal is not to manufacture an impossible scorecard that settles every dispute. The goal is to give the reader a disciplined way to compare domains without collapsing into either naive relativism or unearned certainty.",
+            "This page becomes especially useful when paired with the later question of perceived responsibility and perceived control. Both ask, in different ways, whether felt conviction has remained answerable to the actual structure of evidence and leverage.",
+        ],
+        "items": [
+            "Criterion one: can the core claims be stated clearly enough for failure conditions to exist?",
+            "Criterion two: does the framework make risky predictions, or only safe reinterpretations after the fact?",
+            "Criterion three: are dissent, replication, and outside criticism structurally welcomed or quietly punished?",
+            "Criterion four: does confidence scale with evidence, or does identity keep propping it up when support weakens?",
+            "Reader test: a rubric is good when it helps compare domains without smuggling favoritism in through the scoring language.",
+        ],
+    },
     ("/ethics/equivocation-on-wrong/", "prompt-1"): {
         "heading": "The word wrong causes trouble because people keep sliding among different senses without warning.",
         "replace_paragraphs": True,
@@ -9416,6 +9770,7 @@ def curated_source_prompts(page: dict) -> list[str]:
 
 def topic_label(title: str) -> str:
     cleaned = clean_text(title)
+    cleaned = re.sub(r"^⌁\s*", "", cleaned)
     if cleaned in TOPIC_ALIASES:
         return TOPIC_ALIASES[cleaned]
     patterns = [
@@ -9482,7 +9837,1275 @@ def synthetic_child(title: str, paragraphs: list[str], items: list[str] | None =
     }
 
 
+def synthetic_prompt(
+    prompt: str,
+    paragraphs: list[str],
+    items: list[str],
+    children: list[dict] | None = None,
+) -> dict:
+    return {
+        "prompt": prompt,
+        "paragraphs": paragraphs,
+        "items": items,
+        "children": children or [],
+    }
+
+
+ACADEMIC_SYNTHETIC_PAGES = {
+    ("ethics", "finite agency moral demand and happiness"): {
+        "excerpt": (
+            "A cluster page on what happens when moral seriousness outruns finite agency and turns care into "
+            "borrowed guilt, distorted responsibility, and preventable unhappiness."
+        ),
+        "thread_like": [
+            "Scope leakage of happiness",
+            "Bounded compassionate agency",
+            "Legitimate culpability versus borrowed guilt",
+            "Perceived responsibility outrunning control",
+            "Moral distress under global exposure",
+            "Problematic news consumption",
+        ],
+        "quiz_discussion_items": [
+            "Why does the page insist that awareness, agency, and authorship not be collapsed together?",
+            "What makes scope leakage of happiness a sharper diagnosis than generic burnout language?",
+            "How does bounded compassionate agency differ from both apathy and totalized guilt?",
+            "Why can skepticism toward moral systems preserve compassion rather than weaken it?",
+        ],
+        "source_prompt_details": [
+            synthetic_prompt(
+                "Why can moral seriousness become psychologically extractive when responsibility is allowed to expand without limit?",
+                [
+                    "Moral language often slides from notice to duty. Once a person becomes aware of distant suffering, the mind is tempted to hear a second claim: if you now know, you now owe.",
+                    "That move sounds serious, but it hides missing distinctions. Awareness is not authorship. Exposure is not control. Compassion is not an unlimited mortgage on a person's emotional life.",
+                    "This cluster begins from a skeptical stance toward moral systems that quietly turn finite humans into permanent debtors. An ethic that cannot distinguish real obligation from totalized guilt eventually trains exhaustion, not wisdom.",
+                ],
+                [
+                    "Awareness is not agency: seeing harm does not by itself make you its cause or custodian.",
+                    "Control matters: obligation should track leverage, alternatives, and realistic capacity to help.",
+                    "Unlimited demand is unstable: if every visible tragedy makes a direct claim on happiness, ordinary life becomes morally impossible.",
+                    "Seriousness can become extractive: a system may praise compassion while quietly feeding on guilt.",
+                ],
+                [
+                    synthetic_child(
+                        "Awareness is not authorship",
+                        [
+                            "A person can become newly informed about a harm without becoming newly blameworthy for that harm. The jump from witness to culprit is one of the central confusions this cluster is trying to prevent."
+                        ],
+                        [
+                            "Knowledge expands understanding.",
+                            "Agency depends on what one did, can do, or negligently refused to do.",
+                        ],
+                    ),
+                    synthetic_child(
+                        "Concern needs stopping rules",
+                        [
+                            "If a moral outlook cannot say where concern should pause, narrow, or change form, then happiness becomes permanently vulnerable to the next headline."
+                        ],
+                        [
+                            "Finite agents need boundaries.",
+                            "Stopping rules are not the same as indifference.",
+                        ],
+                    ),
+                ],
+            ),
+            synthetic_prompt(
+                "What is scope leakage of happiness, and why is it a better name for a certain modern misery than vague burnout language?",
+                [
+                    "Scope leakage of happiness names a specific pattern: the emotional costs of remote suffering spill across the boundaries of actual agency and begin governing ordinary well-being.",
+                    "Burnout is too generic. It can come from overwork, conflict, or simple depletion. Scope leakage points to a tighter mechanism: the scope of felt responsibility has expanded far beyond the scope of control.",
+                    "The term matters because the cure is different. The problem is not merely fatigue. It is an undisciplined moral map in which the mind keeps importing global tragedies into the private ledger of happiness.",
+                ],
+                [
+                    "Leakage across scale: distant harms are felt as if they were locally actionable.",
+                    "No stopping rule: there is always more to read, witness, regret, and imagine.",
+                    "Happiness annexed by abstraction: ordinary joy starts to feel like negligence.",
+                    "Diagnosis before treatment: naming the pattern helps separate moral clarity from ambient guilt.",
+                ],
+                [
+                    synthetic_child(
+                        "Why burnout is not enough",
+                        [
+                            "The word burnout describes a state; scope leakage describes a mechanism. The mechanism matters because a person can rest more and still keep feeding the same undisciplined sense of obligation."
+                        ],
+                        [
+                            "State versus mechanism",
+                            "Better naming leads to better correction",
+                        ],
+                    ),
+                    synthetic_child(
+                        "Scale is doing real work",
+                        [
+                            "Modern life gives the mind access to suffering at a scale human emotional equipment was never built to manage continuously. The paper's diagnosis keeps that scale problem in view."
+                        ],
+                        [
+                            "Global visibility",
+                            "Finite emotional architecture",
+                        ],
+                    ),
+                ],
+            ),
+            synthetic_prompt(
+                "How should a finite agent think about distant suffering without collapsing into either apathy or performative guilt?",
+                [
+                    "The first step is to admit finitude without treating finitude as a vice. Human beings have bounded time, bounded money, bounded attention, bounded local duties, and bounded emotional endurance.",
+                    "The second step is to rank kinds of response. Some harms call for direct local action, some for institutional support, some for selective donation, some for vote and voice, and some mainly for truthful understanding.",
+                    "This middle path is easy to mock from both sides. The sentimental critic hears indifference; the cynical critic hears theater. But disciplined care is neither. It is care that knows scale, cost, and leverage.",
+                ],
+                [
+                    "Finitude is not moral failure.",
+                    "Different harms invite different forms of response.",
+                    "Local and role-based duties still matter.",
+                    "A person may care deeply without living in constant emotional seizure.",
+                ],
+                [
+                    synthetic_child(
+                        "Role-based responsibility",
+                        [
+                            "Parents, teachers, neighbors, physicians, employers, and citizens do not all stand in the same relation to every harm. Role clarity keeps responsibility from becoming shapeless."
+                        ],
+                        [
+                            "Role is morally relevant.",
+                            "Near duties do not disappear because far duties exist.",
+                        ],
+                    ),
+                    synthetic_child(
+                        "Graded response instead of binary duty",
+                        [
+                            "A mature response structure is not simply do everything or do nothing. It is more often understand, prioritize, contribute, support, revisit, and stop when the next move no longer has proportion."
+                        ],
+                        [
+                            "More than two options",
+                            "Response should track leverage",
+                        ],
+                    ),
+                ],
+            ),
+            synthetic_prompt(
+                "Why might skepticism toward moral systems sometimes protect compassion rather than weaken it?",
+                [
+                    "A skeptical stance toward moral systems can protect compassion when systems begin rewarding self-accusation more than intelligent help.",
+                    "Some systems are good at converting diffuse discomfort into an atmosphere of obligation, even when the demanded emotion outruns evidence, efficacy, or fairness.",
+                    "Compassion becomes more durable when it is released from the fantasy that every visible suffering must be personally metabolized. The goal is not less care, but less moral theater around care.",
+                ],
+                [
+                    "Skepticism can block manipulative guilt.",
+                    "Compassion needs discipline, not inflation.",
+                    "Institutional problems should not automatically become private blame.",
+                    "A humane ethic preserves the agent as well as the aim.",
+                ],
+                [
+                    synthetic_child(
+                        "Protecting compassion from moral extraction",
+                        [
+                            "Once compassion is harnessed to permanent self-reproach, it becomes fragile, resentful, and performative. Skepticism helps stop that conversion."
+                        ],
+                        [
+                            "Durable care",
+                            "Less moral melodrama",
+                        ],
+                    ),
+                    synthetic_child(
+                        "Structure without self-blame",
+                        [
+                            "Systemic harms still matter. The point is not to deny structure, but to refuse the lazy move by which structural problems are translated into private guilt without an argument about control."
+                        ],
+                        [
+                            "Structural analysis",
+                            "No automatic private blame",
+                        ],
+                    ),
+                ],
+            ),
+        ],
+    },
+    ("ethics", "scope leakage of happiness"): {
+        "excerpt": (
+            "A page on the way global visibility, ambient guilt, and unlimited felt duty can leak across the boundaries "
+            "of finite agency and colonize ordinary happiness."
+        ),
+        "thread_like": [
+            "Remote suffering felt as local liability",
+            "No stopping rule for concern",
+            "Problematic news consumption",
+            "Ordinary joy recoded as negligence",
+            "Compassion fade and psychic numbing",
+            "Finite happiness as an ethical good",
+        ],
+        "quiz_discussion_items": [
+            "What exactly leaks in scope leakage of happiness: information, blame, obligation, or emotional cost?",
+            "Why is modern media exposure part of the mechanism rather than a mere background detail?",
+            "How does the page separate healthy concern from the colonization of ordinary happiness?",
+            "Which practical disciplines make the diagnosis livable rather than merely descriptive?",
+        ],
+        "source_prompt_details": [
+            synthetic_prompt(
+                "Define scope leakage of happiness in plain terms and explain the mechanism.",
+                [
+                    "Scope leakage of happiness occurs when the emotional burden of harms far outside a person's control invades the ordinary spaces where happiness, rest, and local responsibility should still be possible.",
+                    "The mechanism is not mysterious. The mind sees suffering, upgrades awareness into felt duty, then allows that felt duty to spread across more and more of life without a stopping rule.",
+                    "Once that happens, enjoyment itself begins to feel morally suspect. The problem is no longer that one cares too little, but that care has lost proportion.",
+                ],
+                [
+                    "Remote suffering becomes vividly present.",
+                    "Presence is mistaken for personal responsibility.",
+                    "Unresolved duty spills into daily emotional life.",
+                    "Happiness starts to feel like evasion.",
+                ],
+                [
+                    synthetic_child(
+                        "What leaks is not just information",
+                        [
+                            "The leak is mainly normative and emotional. Facts travel into the mind, but what colonizes happiness is the inflated sense that these facts are making a direct personal demand."
+                        ],
+                        [
+                            "Information arrives.",
+                            "Felt duty expands beyond control.",
+                        ],
+                    )
+                ],
+            ),
+            synthetic_prompt(
+                "What conditions make scope leakage more likely in contemporary life?",
+                [
+                    "Always-on media makes distant suffering available at a psychologically unnatural frequency. The human mind receives more tragedy in a day than older social worlds might have received in months.",
+                    "Algorithmic feeds intensify the problem because salience is not the same thing as moral priority. What is vivid, recent, image-heavy, or outrage-ready is repeatedly placed in front of attention.",
+                    "A third condition is moral prestige. In some environments, visible anguish over remote suffering is treated as a sign of depth, while bounded happiness is treated as moral shallowness.",
+                ],
+                [
+                    "Permanent exposure raises baseline emotional load.",
+                    "Algorithms reward vividness rather than proportionality.",
+                    "Prestige dynamics can moralize distress itself.",
+                    "Global scale outruns ordinary human processing capacities.",
+                ],
+                [
+                    synthetic_child(
+                        "Visibility is not priority",
+                        [
+                            "A feed is a ranking device, not a moral authority. The page matters because it resists the lazy inference from 'I am seeing this constantly' to 'this must govern my emotional life.'"
+                        ],
+                        [
+                            "Salience can be engineered.",
+                            "Priority needs argument.",
+                        ],
+                    ),
+                    synthetic_child(
+                        "Moral performance worsens the leak",
+                        [
+                            "If a culture rewards dramatic visible guilt more than quiet intelligent response, then scope leakage can begin to look like virtue."
+                        ],
+                        [
+                            "Prestige around anguish",
+                            "Care confused with display",
+                        ],
+                    ),
+                ],
+            ),
+            synthetic_prompt(
+                "How does scope leakage differ from ordinary empathy, burnout, or basic moral concern?",
+                [
+                    "Ordinary empathy is compatible with boundaries. A person can register suffering, care, and even grieve without allowing every instance of suffering to annex ordinary life.",
+                    "Burnout usually names depletion after sustained effort. Scope leakage can occur even when little direct action has occurred, because the core problem is not overexertion alone but inflated felt liability.",
+                    "Basic moral concern remains compatible with finite happiness. Scope leakage begins when happiness itself is put under permanent suspicion.",
+                ],
+                [
+                    "Empathy can be bounded; leakage ignores bounds.",
+                    "Burnout can follow action; leakage can arise from exposure plus guilt alone.",
+                    "Concern guides attention; leakage colonizes happiness.",
+                    "The key issue is proportion, not emotional vacancy.",
+                ],
+                [
+                    synthetic_child(
+                        "Why the distinction matters",
+                        [
+                            "If the diagnosis is wrong, the correction will be wrong. Someone told they are merely burnt out may rest briefly while keeping the same broken map of responsibility."
+                        ],
+                        [
+                            "Naming the mechanism matters",
+                            "Treatment follows diagnosis",
+                        ],
+                    )
+                ],
+            ),
+            synthetic_prompt(
+                "What disciplines can stop concern from annexing the whole emotional life?",
+                [
+                    "The first discipline is boundary-setting around information intake. If a person never stops receiving suffering-signals, the mind never gets the chance to recalibrate scale.",
+                    "The second is role clarity: asking what kinds of response are actually available from where one stands. This brings care back into contact with agency.",
+                    "The third is positive permission: treating ordinary joy, friendship, art, rest, and local projects not as betrayals of conscience but as part of a sane human life worth protecting.",
+                ],
+                [
+                    "Set limits on tragic input.",
+                    "Translate concern into chosen channels of response.",
+                    "Preserve local goods and ordinary happiness on purpose.",
+                    "Revisit duties periodically instead of carrying them as a constant fog.",
+                ],
+                [
+                    synthetic_child(
+                        "Finite happiness is not moral treason",
+                        [
+                            "A person who can still love friends, laugh, rest, and build is not thereby betraying the suffering of strangers. The refusal to say this plainly is part of what keeps scope leakage alive."
+                        ],
+                        [
+                            "Ordinary joy remains legitimate",
+                            "Happiness can be protected without apathy",
+                        ],
+                    )
+                ],
+            ),
+        ],
+    },
+    ("ethics", "legitimate culpability vs borrowed guilt"): {
+        "excerpt": (
+            "A page on the difference between actual blameworthiness and the broader feeling of being morally implicated, "
+            "especially when social systems encourage guilt to spread further than agency."
+        ),
+        "thread_like": [
+            "Legitimate culpability",
+            "Borrowed guilt",
+            "Perceived culpability",
+            "Perceived remedial obligation",
+            "Systemic harm and private blame",
+            "Agency, control, and causal contribution",
+        ],
+        "quiz_discussion_items": [
+            "What makes culpability narrower and more demanding than the everyday feeling of implication?",
+            "How do structural problems invite private guilt that may not be philosophically earned?",
+            "Why does the page keep agency, control, and causal contribution in the same frame?",
+            "How should a careful thinker talk about responsibility when harms are diffuse and inherited?",
+        ],
+        "source_prompt_details": [
+            synthetic_prompt(
+                "What separates legitimate culpability from the mere feeling of being implicated?",
+                [
+                    "Legitimate culpability is blameworthiness that has actually earned its place. It depends on some meaningful relation among agency, awareness, alternatives, and causal contribution.",
+                    "Borrowed guilt is broader and blurrier. It often arises when a person becomes aware of a harm, benefits indirectly from a system, or identifies with a group associated with the problem, then feels morally stained without a clear account of personal fault.",
+                    "The distinction matters because guilt is a powerful moral emotion. If it is not disciplined, it can be redistributed far beyond the boundaries of genuine culpability.",
+                ],
+                [
+                    "Culpability requires more than exposure.",
+                    "Benefit is not identical to blame.",
+                    "Group membership is not a universal solvent that dissolves all individual distinctions.",
+                    "A feeling of implication may be morally informative without being proof of fault.",
+                ],
+                [
+                    synthetic_child(
+                        "Guilt can overstate what the facts warrant",
+                        [
+                            "The emotional force of guilt is not itself evidence that culpability has been established. A person can feel heavily implicated while the agency condition remains thin."
+                        ],
+                        [
+                            "Emotion is not verdict",
+                            "Fault still needs argument",
+                        ],
+                    )
+                ],
+            ),
+            synthetic_prompt(
+                "How can moral systems blur agency, control, and causal contribution?",
+                [
+                    "Moral systems often operate with compressed moral language. They speak in ways that encourage readers to hear a single tone where several different questions should have been kept apart.",
+                    "A person may have some causal connection to a large system, very little control over that system, and yet still be addressed as if full culpability were already on the table.",
+                    "Once those categories blur, pressure becomes easier to apply. The system does not need to prove blame with care if it can create a background atmosphere in which resistance already sounds evasive.",
+                ],
+                [
+                    "Agency asks what the person did.",
+                    "Control asks what the person could realistically alter.",
+                    "Causal contribution asks how the harm was produced.",
+                    "Culpability asks whether blame is actually warranted after those questions are answered.",
+                ],
+                [
+                    synthetic_child(
+                        "Compression favors pressure over clarity",
+                        [
+                            "The blur is often rhetorically useful. Once the categories collapse, a person can be morally pressed before the hard work of attribution has been done."
+                        ],
+                        [
+                            "Blurred categories",
+                            "Premature blame",
+                        ],
+                    ),
+                    synthetic_child(
+                        "Shared systems do not erase distinctions",
+                        [
+                            "Living inside a flawed system may be morally relevant, but it does not by itself settle how much blame belongs to each participant."
+                        ],
+                        [
+                            "Structural relevance",
+                            "No automatic equal blame",
+                        ],
+                    ),
+                ],
+            ),
+            synthetic_prompt(
+                "Where do structural problems create pressure for private guilt that exceeds personal agency?",
+                [
+                    "Large systems create especially strong pressure because they are morally ugly and personally diffuse at the same time. The mind wants a clear place to put blame, and the nearest place is often the self.",
+                    "That does not mean structural critique is empty. It means a second question is always needed: what kind of responsibility follows from my relation to this structure, if any, and in what degree?",
+                    "Without that second question, the rhetoric of justice can quietly become a machinery for manufacturing private guilt that is emotionally intense but strategically vague.",
+                ],
+                [
+                    "Diffuse harms invite over-personalization.",
+                    "Emotional urgency can outrun attribution.",
+                    "Structural analysis should produce differentiated responsibilities, not a fog of universal stain.",
+                    "Private guilt can become a substitute for institutional clarity.",
+                ],
+                [
+                    synthetic_child(
+                        "Systemic concern is not the same as personal blame",
+                        [
+                            "One can acknowledge systemic injustice, support reform, and still resist the claim that one's emotional life must be organized around indefinite self-condemnation."
+                        ],
+                        [
+                            "Reform without melodrama",
+                            "Concern without self-erasure",
+                        ],
+                    )
+                ],
+            ),
+            synthetic_prompt(
+                "How should a careful thinker speak about responsibility when harms are systemic, diffuse, and inherited?",
+                [
+                    "The language should become more graded, not more theatrical. Instead of jumping straight to blame, it helps to distinguish knowledge, benefit, participation, negligence, leverage, and remedial capacity.",
+                    "That richer vocabulary allows moral seriousness without conceptual overreach. Some cases may involve direct culpability. Others may involve remedial duties without blame. Still others may call mainly for institutional judgment rather than private guilt.",
+                    "The practical point is simple: a good moral vocabulary should make responsibility more precise, not merely more expansive.",
+                ],
+                [
+                    "Use graded categories instead of a single moral tone.",
+                    "Separate blame from remedial responsibility.",
+                    "Ask what leverage the person actually has now.",
+                    "Let inherited harms remain hard without letting attribution become lazy.",
+                ],
+                [
+                    synthetic_child(
+                        "Perceived remedial obligation",
+                        [
+                            "A person may feel compelled to repair harms vastly larger than any realistic capacity for repair. That feeling should be examined, not automatically sanctified."
+                        ],
+                        [
+                            "Repair pressure",
+                            "Capacity still matters",
+                        ],
+                    )
+                ],
+            ),
+        ],
+    },
+    ("ethics", "bounded compassionate agency"): {
+        "excerpt": (
+            "A page on how compassion can remain real, serious, and action-guiding while still respecting limits of knowledge, "
+            "energy, leverage, and ordinary happiness."
+        ),
+        "thread_like": [
+            "Bounded compassionate agency",
+            "Role clarity",
+            "Finite leverage",
+            "Compassion without self-erasure",
+            "Protected joy",
+            "Durable care",
+        ],
+        "quiz_discussion_items": [
+            "Why does the page treat limits as part of humane compassion rather than as excuses?",
+            "What makes compassion bounded without making it cold?",
+            "How does the page defend ordinary happiness against moral overreach?",
+            "Which practical habits convert care into something durable rather than theatrical?",
+        ],
+        "source_prompt_details": [
+            synthetic_prompt(
+                "What is bounded compassionate agency, and why is it more humane than unlimited moral demand?",
+                [
+                    "Bounded compassionate agency is the stance that care should remain answerable to the actual limits of a person's knowledge, time, energy, leverage, and role obligations.",
+                    "It is more humane than unlimited moral demand because it treats the moral agent as a real organism rather than as an infinite receptacle for every visible claim of suffering.",
+                    "The view does not shrink compassion. It rescues compassion from a form that would otherwise make it brittle, performative, and hostile to ordinary life.",
+                ],
+                [
+                    "Compassion remains serious.",
+                    "Limits remain morally relevant.",
+                    "Durability matters more than self-consuming intensity.",
+                    "Humane ethics should protect the carer as well as the cared-for.",
+                ],
+                [
+                    synthetic_child(
+                        "Humaneness must include the agent",
+                        [
+                            "An ethic that treats the agent's own psychological stability as morally disposable is not obviously more serious. It may simply be less wise about what kind of being a human person is."
+                        ],
+                        [
+                            "Finite personhood",
+                            "No disposable inner life",
+                        ],
+                    )
+                ],
+            ),
+            synthetic_prompt(
+                "How can compassion remain real when it accepts limits of time, energy, knowledge, and leverage?",
+                [
+                    "Compassion becomes more realistic, not less real, when it accepts limits. A limited response is still a response; it is simply one that has not confused sincerity with omnipotence.",
+                    "The disciplined question is not 'Do I care enough to feel miserable?' but 'Given what I can actually know and do, what would responsible care look like from here?'",
+                    "That question keeps compassion connected to practice. It prevents the moral life from degenerating into symbolic distress untethered from action.",
+                ],
+                [
+                    "Caring and controlling are different things.",
+                    "Knowledge limits should shape confidence and strategy.",
+                    "Leverage should shape duty more than visibility does.",
+                    "Action-guiding care beats ambient anguish.",
+                ],
+                [
+                    synthetic_child(
+                        "From emotion to response",
+                        [
+                            "Bounded compassionate agency does not ask the feeling to disappear. It asks the feeling to become answerable to a workable form of response."
+                        ],
+                        [
+                            "Feeling remains",
+                            "Response becomes disciplined",
+                        ],
+                    ),
+                    synthetic_child(
+                        "Credencing the duty",
+                        [
+                            "Where uncertainty is high, confidence about obligation should usually be lower and more revisable. That is one place where structured rational judgment helps compassion stay honest."
+                        ],
+                        [
+                            "Uncertainty matters",
+                            "Credencing.com is a useful companion here",
+                        ],
+                    ),
+                ],
+            ),
+            synthetic_prompt(
+                "What goes wrong when compassion is confused with the refusal to enjoy finite happiness?",
+                [
+                    "When compassion is tied to the refusal of happiness, moral life becomes quietly parasitic on self-denial. Joy is recoded as betrayal, rest as neglect, and delight as complicity.",
+                    "That posture often looks deep because it is severe. But severity is not the same thing as insight. A person may be punishing the self without helping anyone better.",
+                    "The page therefore treats protected joy as morally relevant. Happiness can be part of what keeps a person able to think, relate, work, and continue caring over time.",
+                ],
+                [
+                    "Severity can masquerade as seriousness.",
+                    "Self-punishment is not automatically moral clarity.",
+                    "Protected joy helps keep care durable.",
+                    "Finite happiness can be defended without trivializing distant suffering.",
+                ],
+                [
+                    synthetic_child(
+                        "Why protected joy matters",
+                        [
+                            "People do not become better carers merely by becoming emotionally less inhabitable. A life stripped of play, affection, art, and rest may become morally noisy while practically sterile."
+                        ],
+                        [
+                            "Durability of care",
+                            "No virtue in becoming unlivable",
+                        ],
+                    )
+                ],
+            ),
+            synthetic_prompt(
+                "What practical habits help a person care responsibly without being devoured by every visible tragedy?",
+                [
+                    "One habit is an attention budget: deciding in advance how much tragic input a person can take without losing proportion. Another is a giving or action budget that converts concern into chosen channels instead of indefinite emotional spillage.",
+                    "A third habit is role review. Duties to family, craft, friends, health, and local community should be named explicitly so they are not silently displaced by the drama of the remote.",
+                    "Finally, a person should protect spaces of recovery on purpose. A humane agent is not one who never rests, but one who can return to care without resentment or collapse.",
+                ],
+                [
+                    "Use attention budgets.",
+                    "Translate concern into chosen commitments.",
+                    "Name local and role-based duties explicitly.",
+                    "Protect recovery, friendship, and ordinary delight on purpose.",
+                ],
+                [
+                    synthetic_child(
+                        "Habits beat atmospheres",
+                        [
+                            "Abstract good intentions are weak against a culture that monetizes alarm. Practical habits make bounded compassion harder to override in moments of emotional pressure."
+                        ],
+                        [
+                            "Routines of proportion",
+                            "Resistance to alarm culture",
+                        ],
+                    )
+                ],
+            ),
+        ],
+    },
+    ("rational-thought", "finite agency in an infinite feed"): {
+        "excerpt": (
+            "A rational-thought page on how constant exposure to remote suffering and outrage distorts judgment, "
+            "manufactures false urgency, and breaks the link between attention and leverage."
+        ),
+        "thread_like": [
+            "Problematic news consumption",
+            "Availability bias under moral pressure",
+            "Always-on salience",
+            "False urgency",
+            "Attention budgets",
+            "Credence, leverage, and scope of influence",
+        ],
+        "quiz_discussion_items": [
+            "Why is constant exposure not the same thing as clearer moral vision?",
+            "How do feeds distort priority before explicit reasoning even begins?",
+            "What does the page mean by false urgency?",
+            "How do credence and scope of influence help restore proportion?",
+        ],
+        "source_prompt_details": [
+            synthetic_prompt(
+                "How does always-on exposure to remote suffering distort practical judgment?",
+                [
+                    "Always-on exposure magnifies what is vivid, recent, and emotionally sticky. That does not merely inform judgment; it often rigs judgment before reflection has started.",
+                    "The mind begins mistaking repeated visibility for moral centrality. A tragedy that appears hourly can feel more action-demanding than a quieter duty that is actually closer, clearer, and more tractable.",
+                    "This is why the page belongs in rational thought. The issue is not only emotional strain. It is a failure of proportion under conditions of engineered salience.",
+                ],
+                [
+                    "Visibility is not the same as priority.",
+                    "Repeated salience can counterfeit importance.",
+                    "Remote harms can crowd out nearer, more actionable duties.",
+                    "Judgment gets distorted before argument begins.",
+                ],
+                [
+                    synthetic_child(
+                        "Availability bias under moral lighting",
+                        [
+                            "The more retrievable an image or crisis becomes, the more it can dominate moral attention. Rationality matters here because felt urgency is not self-validating."
+                        ],
+                        [
+                            "What is easy to recall feels weightier.",
+                            "Recall is not proof of proportion.",
+                        ],
+                    )
+                ],
+            ),
+            synthetic_prompt(
+                "Why do problematic news consumption habits manufacture a false sense of duty?",
+                [
+                    "A news habit becomes problematic when it keeps feeding the mind claims it cannot metabolize into proportionate understanding or proportionate action.",
+                    "False duty arises because constant exposure feels like participation. The person is repeatedly placed in the position of witness and begins to infer a broader custodial role than the facts warrant.",
+                    "The feed is not neutral in this process. Outrage, fear, and grief are sticky forms of engagement, which means the information environment is often selecting for exactly the states most likely to inflate duty-feelings.",
+                ],
+                [
+                    "Exposure can mimic participation.",
+                    "Participation can be confused with responsibility.",
+                    "Feeds monetize attention, not moral clarity.",
+                    "False duty is often a byproduct of badly governed intake.",
+                ],
+                [
+                    synthetic_child(
+                        "The feed is optimizing for return visits",
+                        [
+                            "A person who forgets this will treat the stream as if it were a curriculum designed for wisdom. It is usually nothing of the kind."
+                        ],
+                        [
+                            "Business incentives",
+                            "Not a moral syllabus",
+                        ],
+                    )
+                ],
+            ),
+            synthetic_prompt(
+                "How should a rational agent decide what information deserves ongoing attention?",
+                [
+                    "A rational agent should ask at least four questions: Is the claim well-evidenced? Does it concern a role or duty I actually have? Is there any realistic path from my attention to better action? What is the opportunity cost of carrying this further?",
+                    "These questions do not trivialize suffering. They keep attention from becoming a prestige display or a guilt pipeline.",
+                    "In practice, the result is often selective intake rather than constant intake. The serious reader does not need to know everything all the time in order to remain morally awake.",
+                ],
+                [
+                    "Evidence quality matters.",
+                    "Role relevance matters.",
+                    "Leverage matters.",
+                    "Opportunity cost matters.",
+                ],
+                [
+                    synthetic_child(
+                        "Selective attention is not callousness",
+                        [
+                            "A bounded attention policy can be morally smarter than endless exposure. The alternative is often not richer care, but noisier confusion."
+                        ],
+                        [
+                            "Selectivity can be principled",
+                            "More input is not always more insight",
+                        ],
+                    )
+                ],
+            ),
+            synthetic_prompt(
+                "How do credence, expected impact, and scope of influence help restore proportion?",
+                [
+                    "Credence helps because not every alarming claim deserves the same confidence. Expected impact helps because not every true harm is equally tractable from where one stands. Scope of influence helps because not every morally relevant problem is personally governable.",
+                    "Taken together, those tools return attention to structure. Instead of asking only what feels urgent, the rational agent asks what is likely true, what can actually move, and what price constant attention is exacting from the rest of life.",
+                    "This is one place where Credencing.com is a natural companion. The point is not emotional coldness. It is proportion under uncertainty.",
+                ],
+                [
+                    "Use graded confidence instead of alarm-driven certainty.",
+                    "Estimate tractability, not just vividness.",
+                    "Keep scope of influence narrower than scope of visibility.",
+                    "Let opportunity costs count as morally real.",
+                ],
+                [
+                    synthetic_child(
+                        "Rationality here is not detachment",
+                        [
+                            "The page is not asking the reader to stop caring. It is asking the reader to stop letting the information stream decide what care should feel like."
+                        ],
+                        [
+                            "Care remains",
+                            "The feed loses authority",
+                        ],
+                    )
+                ],
+            ),
+        ],
+    },
+    ("epistemology", "perceived responsibility and perceived control"): {
+        "excerpt": (
+            "An epistemology page on how felt duty drifts away from actual leverage when control, evidence, probability, "
+            "and responsibility are not kept clearly distinct."
+        ),
+        "thread_like": [
+            "Perceived responsibility",
+            "Perceived control",
+            "Actual leverage",
+            "Credence and obligation",
+            "Probability under moral pressure",
+            "Epistemic rigor against melodrama",
+        ],
+        "quiz_discussion_items": [
+            "Why does the mind so easily confuse felt responsibility with actual control?",
+            "What distinctions stop the page from collapsing morality into mood?",
+            "How do probability and evidence constrain intervention claims?",
+            "Why does epistemic rigor matter for compassion itself?",
+        ],
+        "source_prompt_details": [
+            synthetic_prompt(
+                "Why do people often feel responsible in domains where they have little control?",
+                [
+                    "Human beings are not built to experience every feeling of relevance as a clean report about agency. Salience, identification, proximity of image, and repeated exposure can all manufacture felt responsibility where control is thin.",
+                    "The problem grows when moral seriousness is measured by how burdened a person feels. Under those conditions, responsibility becomes a mood before it becomes an argued attribution.",
+                    "Epistemology matters here because felt duty is not self-certifying. The responsible question is whether the feeling tracks the facts well enough to guide judgment.",
+                ],
+                [
+                    "Salience can mimic agency.",
+                    "Identification can inflate duty-feelings.",
+                    "Repeated exposure can intensify perceived responsibility.",
+                    "Felt burden is not yet an epistemic warrant.",
+                ],
+                [
+                    synthetic_child(
+                        "Mood is not a map",
+                        [
+                            "The intensity of moral feeling can contain information, but it cannot replace the work of sorting agency, evidence, and leverage."
+                        ],
+                        [
+                            "Feeling may alert",
+                            "Feeling cannot settle",
+                        ],
+                    )
+                ],
+            ),
+            synthetic_prompt(
+                "How should perceived control, perceived responsibility, and actual leverage be kept distinct?",
+                [
+                    "Perceived control asks what the situation feels actionable enough for me to change. Perceived responsibility asks what feels like it belongs on my moral ledger. Actual leverage asks what difference my intervention could realistically make.",
+                    "Those three can come apart sharply. A person may feel enormous responsibility and almost no leverage. Or feel strong control in a case where the evidence for influence is weak.",
+                    "Good judgment requires keeping all three visible at once. Otherwise people oscillate between inflated duty and cynical withdrawal.",
+                ],
+                [
+                    "Perceived control is psychological.",
+                    "Perceived responsibility is normative but often unstable.",
+                    "Actual leverage is empirical and strategic.",
+                    "The three should be compared before duty-talk is intensified.",
+                ],
+                [
+                    synthetic_child(
+                        "Why actual leverage deserves veto power",
+                        [
+                            "A person may care, identify, and feel morally pressed, yet still lack any real path to improvement. That does not erase concern, but it should change the form concern takes."
+                        ],
+                        [
+                            "Concern can remain",
+                            "Form of response should change",
+                        ],
+                    )
+                ],
+            ),
+            synthetic_prompt(
+                "What role do uncertainty, probability, and evidence play in deciding whether intervention is warranted?",
+                [
+                    "Intervention claims should not be driven only by the intensity of a moral scene. They also depend on what is actually known, how strong the evidence is, how reversible the action is, and what the probable effects look like.",
+                    "This is where graded confidence becomes indispensable. If the evidence is weak or the causal path from action to improvement is unclear, certainty about duty should usually fall rather than rise.",
+                    "A person can still care under uncertainty. The point is that uncertainty should discipline both confidence and scope, not be waved away by a louder emotion.",
+                ],
+                [
+                    "Weak evidence should weaken certainty about duty.",
+                    "Probability constrains urgency.",
+                    "Intervention should be judged partly by expected effect.",
+                    "Revisability matters when the picture is incomplete.",
+                ],
+                [
+                    synthetic_child(
+                        "Credence belongs inside moral seriousness",
+                        [
+                            "If responsibility-talk is allowed to ignore uncertainty, then moral pressure becomes detached from the very facts it claims to answer."
+                        ],
+                        [
+                            "Uncertainty is morally relevant",
+                            "Credencing.com fits here naturally",
+                        ],
+                    )
+                ],
+            ),
+            synthetic_prompt(
+                "How can epistemic rigor block moral melodrama without licensing indifference?",
+                [
+                    "Epistemic rigor blocks melodrama by forcing claims of responsibility to show their evidential basis, their leverage model, and their implied opportunity costs.",
+                    "That does not license indifference. On the contrary, it protects serious care from becoming theatrical, diffuse, and easy to manipulate.",
+                    "The aim is a steadier moral intelligence: one that can say 'this matters,' 'this is uncertain,' 'this exceeds my leverage,' and 'this still deserves some response' without collapsing those judgments into one emotional note.",
+                ],
+                [
+                    "Rigor asks for evidence and scale, not emotional emptiness.",
+                    "Melodrama thrives on collapsed distinctions.",
+                    "Indifference and overreach are both failures of proportion.",
+                    "The best response often has a smaller emotional footprint and a clearer practical shape.",
+                ],
+                [
+                    synthetic_child(
+                        "A steadier moral intelligence",
+                        [
+                            "The page's deeper wager is that disciplined thinking can make compassion more truthful and more durable at the same time."
+                        ],
+                        [
+                            "Truthful care",
+                            "Durable care",
+                        ],
+                    )
+                ],
+            ),
+        ],
+    },
+}
+
+
+ACADEMIC_PAGE_POLISH = {
+    ("ethics", "finite agency moral demand and happiness"): {
+        "sections": [
+            {
+                "heading": "When moral seriousness turns into a standing emotional bill.",
+                "learning_items": [
+                    "Keep awareness, blame, and duty separate; the whole cluster depends on refusing to let those three melt into one feeling.",
+                    "Notice that the critique is aimed at unlimited moral demand, not at compassion itself.",
+                    "Ask what kind of moral system needs permanent guilt in order to look serious.",
+                ],
+            },
+            {
+                "heading": "The problem needs a sharper name because it has a sharper mechanism.",
+                "learning_items": [
+                    "Watch the argument move from vague burnout language to a more exact account of what is leaking and why.",
+                    "Track the role of scale: the modern problem is not just tiredness, but global visibility outrunning finite agency.",
+                    "Ask whether better naming changes what kind of correction becomes possible.",
+                ],
+            },
+            {
+                "heading": "Finitude is not the same thing as indifference.",
+                "learning_items": [
+                    "The page is defending a middle path: neither apathy nor permanent guilt deserves to monopolize moral seriousness.",
+                    "Look for the shift from a binary picture of duty to a graded picture of response.",
+                    "Keep role, leverage, and local obligation in view; distant suffering does not erase nearer responsibilities.",
+                ],
+            },
+            {
+                "heading": "Skepticism can rescue compassion from systems that live off guilt.",
+                "learning_items": [
+                    "Do not confuse skepticism toward moral systems with emotional coldness; here it is being used as a protective discipline.",
+                    "Notice the target: manipulative guilt, not concern for real suffering.",
+                    "Ask what becomes more durable once compassion is no longer forced to prove itself through self-reproach.",
+                ],
+            },
+        ],
+        "synthesis_heading": "What this cluster is trying to protect.",
+        "synthesis_paragraphs": [
+            "This cluster is trying to separate four things that public moral language constantly tries to fuse: awareness, blame, obligation, and the loss of happiness.",
+            "Its deeper claim is not that people should care less. It is that care becomes saner, more honest, and more durable when it stops treating finite human beings as if they were answerable for every visible harm.",
+            "Read the route in sequence: first name the leak, then sort blame from implication, then recover a humane model of compassion, and finally carry the lesson into judgment, attention, and control.",
+        ],
+        "synthesis_learning_items": [
+            "If the cluster is working, the reader should be able to say why finite happiness is morally relevant without sounding callous.",
+            "The central enemy is conceptual collapse: once awareness starts masquerading as culpability, the rest of the moral map distorts quickly.",
+            "Use the linked pages as a route, not a decorative cluster; each one sharpens a distinction the others need.",
+        ],
+    },
+    ("ethics", "scope leakage of happiness"): {
+        "sections": [
+            {
+                "heading": "Awareness becomes corrosive when it starts behaving like liability.",
+                "learning_items": [
+                    "Track the jump from seeing suffering to feeling personally on the hook for it.",
+                    "The page is naming a mechanism, not offering a polite excuse for indifference.",
+                    "Ask when ordinary happiness starts being treated as morally suspect and whether that suspicion has actually earned its place.",
+                ],
+            },
+            {
+                "heading": "The modern information environment keeps widening the felt scope of duty.",
+                "learning_items": [
+                    "Notice that salience and moral priority are being pulled apart on purpose.",
+                    "Keep one eye on prestige dynamics: some cultures reward visible anguish more than intelligent response.",
+                    "Ask how feeds train attention before a person has even started thinking clearly.",
+                ],
+            },
+            {
+                "heading": "The danger is not empathy but empathy without a stopping rule.",
+                "learning_items": [
+                    "The page is not criticizing grief, care, or concern; it is criticizing the loss of proportion.",
+                    "Watch how the diagnosis differs from burnout: exposure plus inflated liability can do damage even before much action occurs.",
+                    "A good test is whether the reader can now separate bounded compassion from annexed happiness.",
+                ],
+            },
+            {
+                "heading": "Concern stays sane only when it accepts boundaries.",
+                "learning_items": [
+                    "Look for the practical disciplines: limits on input, clearer role judgment, and deliberate protection of local goods.",
+                    "The hardest move here is granting explicit moral permission for joy, rest, friendship, and art.",
+                    "Ask whether the proposed boundaries reduce care or simply stop care from becoming atmospheric guilt.",
+                ],
+            },
+        ],
+        "synthesis_heading": "Why this diagnosis matters.",
+        "synthesis_paragraphs": [
+            "Scope leakage of happiness is a model of moral overreach, not a permission slip for complacency.",
+            "The key distinction is between seeing more of the world and being personally on the hook for more of the world. Once that distinction is lost, happiness gets recoded as negligence and attention becomes easy prey for feeds, prestige games, and guilt loops.",
+            "The page matters because a person can be morally serious, globally aware, and still entitled to a finite life that includes delight, recovery, and ordinary peace.",
+        ],
+        "synthesis_learning_items": [
+            "The phrase 'scope leakage' should leave the reader with a mechanism in mind, not just a mood label.",
+            "If the page is clear, the reader can now explain why unlimited felt duty and healthy concern are not the same thing.",
+            "Take the diagnosis forward into the neighboring pages on culpability, bounded compassion, and attention discipline.",
+        ],
+    },
+    ("ethics", "legitimate culpability vs borrowed guilt"): {
+        "sections": [
+            {
+                "heading": "Feeling implicated is not yet blame.",
+                "learning_items": [
+                    "The page keeps guilt on probation until agency, knowledge, alternatives, and causal contribution have actually been sorted.",
+                    "Notice how easily moral feeling tries to smuggle in a verdict before the argument has been made.",
+                    "Ask what would have to be added before implication becomes culpability rather than mood.",
+                ],
+            },
+            {
+                "heading": "Compressed moral language makes blame travel too easily.",
+                "learning_items": [
+                    "Keep agency, control, causal contribution, and culpability distinct; the blur is rhetorically convenient precisely because it pressures people faster.",
+                    "This page is suspicious of moral compression because it often expands blame before evidence warrants it.",
+                    "Ask which distinctions disappear first when a moral system wants urgency more than clarity.",
+                ],
+            },
+            {
+                "heading": "Structural injustice can be real without making everyone equally guilty.",
+                "learning_items": [
+                    "The page is not denying structural harm; it is refusing the lazy move from structural involvement to undifferentiated private guilt.",
+                    "Look for the second question the page keeps demanding: what kind of responsibility follows from this relation, and in what degree?",
+                    "Ask how reform can stay morally serious without demanding indefinite self-condemnation.",
+                ],
+            },
+            {
+                "heading": "Good responsibility-talk gets more graded, not more dramatic.",
+                "learning_items": [
+                    "Notice the richer vocabulary being proposed: knowledge, benefit, participation, negligence, leverage, and remedial capacity.",
+                    "The point is not softer language, but more exact language.",
+                    "A good final test is whether the reader can now talk about systemic harm without reaching automatically for theatrical blame.",
+                ],
+            },
+        ],
+        "synthesis_heading": "What this page is sorting out.",
+        "synthesis_paragraphs": [
+            "This page keeps asking a stubborn question: what exactly has to be true before guilt is philosophically earned?",
+            "If that question is skipped, structural vocabulary becomes a fog in which people feel stained first and reason later. That may produce dramatic moral atmospheres, but it does not produce clear responsibility.",
+            "The point is not to erase duty or complicity. It is to make blame, participation, leverage, and repair stop impersonating one another.",
+        ],
+        "synthesis_learning_items": [
+            "If the page is working, the reader should now resist treating guilt as self-validating evidence.",
+            "Structural analysis survives this page; what fails is the rush from 'we are involved' to 'I am fully to blame.'",
+            "Carry this distinction into other ethical pages wherever diffuse systems start generating oversized private guilt.",
+        ],
+    },
+    ("ethics", "bounded compassionate agency"): {
+        "sections": [
+            {
+                "heading": "Humane compassion has to include the finite person who is caring.",
+                "learning_items": [
+                    "The page treats the moral agent as a real organism with limits, not as an infinite container for every visible claim.",
+                    "Notice that 'humane' is being applied to the agent as well as to the sufferer.",
+                    "Ask what kind of ethic treats the carer's stability as morally disposable.",
+                ],
+            },
+            {
+                "heading": "Limits do not cool compassion; they give it shape.",
+                "learning_items": [
+                    "Watch the page convert feeling into role-sensitive response rather than symbolic misery.",
+                    "The key distinction is between sincerity and omnipotence: a limited response can still be a fully serious one.",
+                    "Ask how uncertainty, leverage, and time constraints should discipline confident duty-talk.",
+                ],
+            },
+            {
+                "heading": "Protected joy is part of durable care.",
+                "learning_items": [
+                    "The page is explicitly resisting the idea that cheerfulness, affection, art, or rest are betrayals.",
+                    "Notice the criticism of severity: harshness can look deep while doing very little real moral work.",
+                    "Ask whether a life stripped of recovery would actually make a person wiser or merely noisier.",
+                ],
+            },
+            {
+                "heading": "Habits of proportion beat atmospheres of alarm.",
+                "learning_items": [
+                    "Look for the practical habits: attention budgets, action budgets, role review, and protected recovery.",
+                    "The point is to build routines that can withstand an attention economy that monetizes alarm.",
+                    "Ask which proposed habits actually convert concern into durable action rather than mood management alone.",
+                ],
+            },
+        ],
+        "synthesis_heading": "The humane wager behind this page.",
+        "synthesis_paragraphs": [
+            "This page is trying to recover a humane picture of moral seriousness: one that can care deeply without demanding psychic self-liquidation.",
+            "Its central move is simple but easy to resist. Compassion should stay tied to role, leverage, knowledge, recovery, and the finite conditions under which actual humans live.",
+            "Once those limits are named, joy, friendship, and rest stop looking like betrayals and start looking like part of what makes care durable enough to survive contact with the world.",
+        ],
+        "synthesis_learning_items": [
+            "If the page is clear, the reader should be able to defend limits without sounding evasive.",
+            "Bounded compassion is not smaller compassion; it is compassion that still knows where action, recovery, and honesty each belong.",
+            "Use the page as a corrective whenever guilt starts pretending to be the only proof of care.",
+        ],
+    },
+    ("rational-thought", "finite agency in an infinite feed"): {
+        "sections": [
+            {
+                "heading": "Visibility can hijack moral priority before argument begins.",
+                "learning_items": [
+                    "The page belongs in rational thought because the failure here is one of calibration, not just mood.",
+                    "Track the difference between what is easy to recall and what is actually most important or tractable.",
+                    "Ask what nearer duty gets quietly crowded out when repeated salience starts impersonating priority.",
+                ],
+            },
+            {
+                "heading": "A feed can assign duties it has not earned the right to assign.",
+                "learning_items": [
+                    "Notice how witness-position gets inflated into custodial responsibility.",
+                    "Keep the economic structure in view: feeds monetize attention, not moral clarity.",
+                    "Ask whether the apparent duty comes from the world itself or from the way the stream keeps arranging the world in front of you.",
+                ],
+            },
+            {
+                "heading": "Serious attention is selective, not constant.",
+                "learning_items": [
+                    "The page is not celebrating ignorance; it is defending governed intake against endless drift.",
+                    "Look for the four filters: evidence, role, leverage, and opportunity cost.",
+                    "Ask what kind of information policy lets a person remain morally awake without becoming cognitively waterlogged.",
+                ],
+            },
+            {
+                "heading": "Credence and leverage pull attention back under discipline.",
+                "learning_items": [
+                    "Watch how the page moves from felt urgency to graded confidence, tractability, and scope of influence.",
+                    "This is one of the places where Credencing.com naturally fits the site's wider emphasis on rationality.",
+                    "Ask what changes once the feed loses authority over what care is supposed to feel like.",
+                ],
+            },
+        ],
+        "synthesis_heading": "Why this page belongs in rational thought.",
+        "synthesis_paragraphs": [
+            "The central problem here is calibration. Modern feeds do not merely inform; they rank attention according to vividness, outrage, and return visits.",
+            "That means the rational failure arrives early: before a person has even started reasoning explicitly, priority has already been nudged toward whatever is stickiest rather than whatever is truest, nearest, or most actionable.",
+            "A serious response therefore needs filters, credences, opportunity-cost awareness, and a narrower sense of scope than the one handed over by the stream.",
+        ],
+        "synthesis_learning_items": [
+            "If the page is working, the reader can explain why constant exposure is not the same thing as moral clarity.",
+            "The live correction is proportion: attention should track evidence and leverage more than sheer repeat exposure.",
+            "Take this lesson outward into the ethics and epistemology pages that sort duty, control, and confidence more directly.",
+        ],
+    },
+    ("epistemology", "perceived responsibility and perceived control"): {
+        "sections": [
+            {
+                "heading": "Feeling responsible is not yet evidence of responsibility.",
+                "learning_items": [
+                    "The first discipline here is epistemic: moral feeling may alert, but it does not settle the case by itself.",
+                    "Notice how salience, identification, and repeated exposure can mimic agency.",
+                    "Ask what kind of evidence would actually confirm that the feeling tracks real responsibility rather than manufactured urgency.",
+                ],
+            },
+            {
+                "heading": "Control, responsibility, and leverage answer different questions.",
+                "learning_items": [
+                    "Keep the three terms apart with some stubbornness; this page becomes mushy the moment they collapse together.",
+                    "Notice why actual leverage gets special weight: care can remain even when intervention is unrealistic.",
+                    "Ask how much moral confusion comes from using a single emotional tone to answer three different questions.",
+                ],
+            },
+            {
+                "heading": "Urgency still has to answer to evidence.",
+                "learning_items": [
+                    "The page is pulling probability, evidential strength, and reversibility back into responsibility-talk.",
+                    "Watch how graded confidence reduces melodrama without abolishing concern.",
+                    "Ask whether the claimed duty would survive if uncertainty were treated as morally relevant rather than rhetorically inconvenient.",
+                ],
+            },
+            {
+                "heading": "Rigor keeps compassion from turning into melodrama.",
+                "learning_items": [
+                    "The point is not emotional thinness; it is a steadier moral intelligence.",
+                    "Notice how the page protects care by making it answerable to evidence, leverage, and opportunity cost.",
+                    "Ask what becomes more durable once compassion no longer has to prove itself through theatrical intensity.",
+                ],
+            },
+        ],
+        "synthesis_heading": "The epistemic heart of the issue.",
+        "synthesis_paragraphs": [
+            "This page lives in epistemology because it is asking how a person knows that a feeling of responsibility corresponds to anything real.",
+            "Its key distinction is between what feels actionable, what feels morally charged, and what can actually be influenced. Once those are separated, duty-talk becomes less moody and more answerable to evidence.",
+            "That is why rigor matters for compassion itself. A truer picture of control, uncertainty, and leverage can make care steadier rather than colder.",
+        ],
+        "synthesis_learning_items": [
+            "If the page is clear, the reader should now resist using felt burden as a shortcut to warranted obligation.",
+            "The live epistemic move is comparison: psychological control, moral pressure, and actual leverage need to be checked against one another.",
+            "Carry this discipline into the broader site wherever urgency starts outrunning evidence.",
+        ],
+    },
+}
+
+MANUAL_PAGE_POLISH = {
+    "/ethics/compassion-vs-moral-systems/": {
+        "synthesis_paragraphs": [
+            "The real issue is not whether compassion matters. It is whether compassion can do enough moral work on its own without quietly borrowing authority, fairness, and scale-management from the very kinds of structure it is tempted to replace.",
+            "This page becomes sharper when read beside ⌁ Finite Agency, Moral Demand, and Happiness, ⌁ Scope Leakage of Happiness, and ⌁ Bounded Compassionate Agency. Those newer pages test what happens when compassion meets guilt, scale, and finite leverage instead of remaining a warm abstraction.",
+            "A good reader should leave able to ask three questions at once: when compassion is correcting a system, when it is being romanticized, and when some disciplined structure is needed to keep compassion humane.",
+        ],
+        "synthesis_questions": [
+            "Why is compassion morally important without being automatically morally sufficient?",
+            "What kinds of problems appear when compassion is asked to scale without discipline?",
+            "How does rational compassion differ from mere intensity of feeling?",
+            "What role does moral non-realism play in the page's background pressure?",
+            "How do the newer finite-agency pages sharpen the limits of compassion-alone thinking?",
+        ],
+        "synthesis_learning_items": [
+            "Keep compassion, authority, and scale separate long enough to see why they do not collapse into one another.",
+            "The page improves when it is read next to the finite-agency cluster, where warmth gets tested against guilt, leverage, and stopping rules.",
+            "Ask whether a proposed moral structure is disciplining compassion or merely insulating itself from compassion's complaints.",
+        ],
+    },
+    "/ethics/recommendations-vs-moral-claims/": {
+        "synthesis_paragraphs": [
+            "The durable pressure here is semantic before it is doctrinal: what makes a sentence a recommendation, a social expectation, a prudential warning, or a genuinely moral demand?",
+            "The page also belongs next to ⌁ Legitimate Culpability vs Borrowed Guilt and ⌁ Finite Agency, Moral Demand, and Happiness. Those newer pages test what happens once moral language starts inflating awareness into liability or turning diffuse implication into blame.",
+            "If the page is doing its job, the reader can now press on obligation-talk without becoming vague about value, concern, or the practical importance of altruism.",
+        ],
+        "synthesis_questions": [
+            "What is the difference between a recommendation and a binding moral demand?",
+            "Why does the page keep pushing on consent, contract language, and universality?",
+            "How can altruism explain part of moral language without explaining all of its authority?",
+            "What kinds of authority can moral language borrow without admitting it is borrowing them?",
+            "How do the newer finite-agency pages expose the costs of sloppy obligation-talk?",
+        ],
+        "synthesis_learning_items": [
+            "Keep advice, obligation, blame, and altruism separate; the page loses its edge when those are blended too early.",
+            "Notice how the newer guilt-and-finite-agency pages sharpen the cost of treating every should as if it were already moral debt.",
+            "Ask what source of authority is being claimed each time the page's moral vocabulary heats up.",
+        ],
+    },
+    "/rational-thought/scope-of-influence/": {
+        "synthesis_paragraphs": [
+            "This page is really about proportion. The question is not how to matter as much as possible, but how to let ambition, reach, and responsibility become answerable to real leverage.",
+            "Read it beside Empathy Overload, ⌁ Finite Agency in an Infinite Feed, and ⌁ Perceived Responsibility and Perceived Control. Together they show how cosmic aspiration, feed-driven salience, and inflated duty can all distort what meaningful influence actually is.",
+            "A good outcome is modest but important: the reader leaves less impressed by scale for its own sake and more interested in accountable impact, thick feedback, and responsibilities that do not require neglecting the people already in view.",
+        ],
+        "synthesis_questions": [
+            "Why can large-scale ambition become less responsible than smaller-scale action?",
+            "What mixed motives often hide inside the desire for a cosmic role?",
+            "How does a wider audience differ from deeper influence?",
+            "What does the page count as a healthier test of significance than public scale alone?",
+            "How do the neighboring finite-agency pages make the pressure in this page more explicit?",
+        ],
+        "synthesis_learning_items": [
+            "Keep leverage, audience, and meaning separate; the page is strongest where it refuses to let metrics define value.",
+            "Notice how the neighboring finite-agency pages sharpen the difference between visible scope and actual responsibility.",
+            "Ask what form of influence would still look worthwhile if prestige and visible scale suddenly disappeared.",
+        ],
+    },
+    "/rational-thought/empathy-overload/": {
+        "synthesis_paragraphs": [
+            "The page matters when empathy stops sounding like a virtue that only needs more volume and starts looking like a human capacity that can be distorted by scale, salience, and moral theater.",
+            "Read it together with ⌁ Scope Leakage of Happiness, ⌁ Bounded Compassionate Agency, and ⌁ Finite Agency in an Infinite Feed. Those pages turn the same pressure into a sharper account of guilt, bounded care, and attention discipline.",
+            "If the page is clear, the reader should leave able to defend bounded compassion without sounding cold, and able to criticize performative anguish without pretending that distant suffering is unreal.",
+        ],
+        "synthesis_questions": [
+            "Why is empathy overload not simply the same thing as ordinary caring?",
+            "How does bounded compassion differ from indifference?",
+            "What happens when visible suffering starts functioning like a demand for permanent emotional residency?",
+            "How should public displays of care be judged in a culture already prone to moral performance?",
+            "How do the newer finite-agency pages turn this topic into a more exact diagnosis?",
+        ],
+        "synthesis_learning_items": [
+            "Keep concern, liability, and performance distinct; the page degrades when those become one mood.",
+            "Notice how the finite-agency cluster gives this older page a sharper vocabulary for guilt, scale, and bounded care.",
+            "Ask what channels of care remain useful once constant visibility stops being mistaken for constant duty.",
+        ],
+    },
+    "/epistemology/operational-epistemic-rigor/": {
+        "synthesis_paragraphs": [
+            "Operational epistemic rigor is about public discipline, not private seriousness. The core question is what visible habits make a claim corrigible, comparable, and proportionately believable.",
+            "This page now sits naturally beside ⌁ Perceived Responsibility and Perceived Control and ⌁ Finite Agency in an Infinite Feed. Those newer pages test what happens when felt urgency, confidence, or duty outrun evidence, leverage, and calibration.",
+            "A good reader should leave with a sharper suspicion of false certainty and a clearer sense that rigor is not an ornament attached to favored beliefs, but a cost those beliefs must keep paying.",
+            "For a companion resource on calibration, credence, and structured rational judgment, see <a class=\"text-link\" href=\"https://credencing.com/\" rel=\"noopener noreferrer\">Credencing.com</a>.",
+        ],
+        "synthesis_questions": [
+            "What makes epistemic rigor operational rather than merely admirable?",
+            "Why is correction culture more important than intellectual prestige?",
+            "How should a good rubric treat testability, prediction, replication, and revision together?",
+            "What kinds of confidence should a rigorous framework resist pretending to have earned?",
+            "How do the neighboring finite-agency pages make calibration and control more concrete?",
+        ],
+        "synthesis_learning_items": [
+            "Treat rigor as a workflow of exposure, criticism, and revision rather than as a ceremonial compliment.",
+            "Notice how the neighboring finite-agency pages convert epistemic calibration into practical questions about control and felt duty.",
+            "Ask what this page would require you to change if your favorite claim turned out to be less supported than it feels.",
+        ],
+    },
+}
+
+CURATED_FUTURE_BRANCH_LINKS = {
+    "/ethics/compassion-vs-moral-systems/": [
+        {"title": "⌁ Finite Agency, Moral Demand, and Happiness", "path": "/ethics/finite-agency-moral-demand-and-happiness/"},
+        {"title": "⌁ Scope Leakage of Happiness", "path": "/ethics/scope-leakage-of-happiness/"},
+        {"title": "⌁ Bounded Compassionate Agency", "path": "/ethics/bounded-compassionate-agency/"},
+    ],
+    "/ethics/recommendations-vs-moral-claims/": [
+        {"title": "⌁ Legitimate Culpability vs Borrowed Guilt", "path": "/ethics/legitimate-culpability-vs-borrowed-guilt/"},
+        {"title": "⌁ Finite Agency, Moral Demand, and Happiness", "path": "/ethics/finite-agency-moral-demand-and-happiness/"},
+        {"title": "Compassion vs Moral Systems", "path": "/ethics/compassion-vs-moral-systems/"},
+    ],
+    "/rational-thought/scope-of-influence/": [
+        {"title": "Empathy Overload", "path": "/rational-thought/empathy-overload/"},
+        {"title": "⌁ Finite Agency in an Infinite Feed", "path": "/rational-thought/finite-agency-in-an-infinite-feed/"},
+        {"title": "⌁ Perceived Responsibility and Perceived Control", "path": "/epistemology/perceived-responsibility-and-perceived-control/"},
+    ],
+    "/rational-thought/empathy-overload/": [
+        {"title": "⌁ Scope Leakage of Happiness", "path": "/ethics/scope-leakage-of-happiness/"},
+        {"title": "⌁ Bounded Compassionate Agency", "path": "/ethics/bounded-compassionate-agency/"},
+        {"title": "⌁ Finite Agency in an Infinite Feed", "path": "/rational-thought/finite-agency-in-an-infinite-feed/"},
+    ],
+    "/epistemology/operational-epistemic-rigor/": [
+        {"title": "⌁ Perceived Responsibility and Perceived Control", "path": "/epistemology/perceived-responsibility-and-perceived-control/"},
+        {"title": "⌁ Finite Agency in an Infinite Feed", "path": "/rational-thought/finite-agency-in-an-infinite-feed/"},
+        {"title": "Adequate Evidence", "path": "/epistemology/adequate-evidence/"},
+    ],
+}
+
+CURATED_FUTURE_BRANCH_NOTES = {
+    "/ethics/compassion-vs-moral-systems/": "That is the line of expansion where compassion gets tested against scale, guilt, and finite leverage rather than left glowing in the abstract.",
+    "/ethics/recommendations-vs-moral-claims/": "That route keeps the semantic issue tied to lived moral pressure, so obligation-talk cannot stay comfortably vague.",
+    "/rational-thought/scope-of-influence/": "Those continuations keep asking whether visible scope, felt duty, and actual leverage have been allowed to drift apart.",
+    "/rational-thought/empathy-overload/": "Those continuations turn overload into a sharper diagnosis of false duty, bounded care, and feed-shaped attention.",
+    "/epistemology/operational-epistemic-rigor/": "Those links carry the page from abstract standards into the harder question of whether felt responsibility and actual control still line up.",
+}
+
+
 def special_synthetic_page_data(section_id: str, title: str) -> dict | None:
+    custom_payload = ACADEMIC_SYNTHETIC_PAGES.get((section_id, normalized_phrase(title)))
+    if custom_payload:
+        return custom_payload
     if (
         section_id == "philosophical-inquiry"
         and normalized_phrase(title) == "the value and limits of debate"
@@ -10307,6 +11930,29 @@ def generic_standfirst(page: dict, section_meta: dict) -> str:
     kind = page["kind"]
     profile = branch_profile(page["section_id"])
     article = "An" if section_meta["name"][:1].lower() in {"a", "e", "i", "o", "u"} else "A"
+    custom_standfirsts = {
+        "/ethics/finite-agency-moral-demand-and-happiness/": (
+            "A route through the moral cost of treating finite human beings as if they were answerable for every visible harm, "
+            "linking scope leakage, borrowed guilt, bounded compassion, and disciplined control."
+        ),
+        "/ethics/scope-leakage-of-happiness/": (
+            "A page on the way remote suffering, ambient guilt, and unlimited felt duty can colonize ordinary happiness once awareness starts behaving like liability."
+        ),
+        "/ethics/legitimate-culpability-vs-borrowed-guilt/": (
+            "A page on the difference between actual blameworthiness and borrowed guilt, especially where structural harms tempt people to feel more guilty than their agency can justify."
+        ),
+        "/ethics/bounded-compassionate-agency/": (
+            "A page on how compassion can stay serious, durable, and humane when it respects limits of leverage, knowledge, recovery, and ordinary joy."
+        ),
+        "/rational-thought/finite-agency-in-an-infinite-feed/": (
+            "A rational-thought page on how feeds distort priority, manufacture false urgency, and pressure finite people to confuse exposure with duty."
+        ),
+        "/epistemology/perceived-responsibility-and-perceived-control/": (
+            "An epistemology page on how felt duty drifts away from actual leverage when control, probability, evidence, and responsibility are not kept clearly distinct."
+        ),
+    }
+    if page.get("built_path") in custom_standfirsts:
+        return custom_standfirsts[page["built_path"]]
     if page["built_path"] == "/philosophical-inquiry/the-value-and-limits-of-debate/":
         return (
             "A Philosophical Inquiry page on debate, showing when public disagreement clarifies reasons, "
@@ -10350,6 +11996,16 @@ def page_form_label(page: dict) -> str:
 
 
 def page_best_for(page: dict) -> str:
+    custom_best_for = {
+        "/ethics/finite-agency-moral-demand-and-happiness/": "readers trying to care seriously without living under permanent guilt",
+        "/ethics/scope-leakage-of-happiness/": "readers whose moral concern keeps overrunning rest and proportion",
+        "/ethics/legitimate-culpability-vs-borrowed-guilt/": "sorting actual blame from diffuse moral implication",
+        "/ethics/bounded-compassionate-agency/": "recovering a humane form of compassion that can last",
+        "/rational-thought/finite-agency-in-an-infinite-feed/": "regaining proportional judgment inside an alarm-heavy information environment",
+        "/epistemology/perceived-responsibility-and-perceived-control/": "keeping felt duty answerable to evidence, leverage, and uncertainty",
+    }
+    if page.get("built_path") in custom_best_for:
+        return custom_best_for[page["built_path"]]
     if page["built_path"] == "/philosophical-inquiry/the-value-and-limits-of-debate/":
         return "reading public debate without mistaking rhetoric for inquiry"
     if page["kind"] == "dialogue":
@@ -10441,6 +12097,16 @@ def archive_page_signal_items(
 
 def feature_summary(page: dict, section_meta: dict) -> str:
     topic = topic_label(page["title"])
+    custom_summaries = {
+        "/ethics/finite-agency-moral-demand-and-happiness/": "A cluster on how moral seriousness can outrun finite agency and quietly turn care into guilt, distortion, and preventable unhappiness.",
+        "/ethics/scope-leakage-of-happiness/": "A sharper diagnosis of what happens when remote suffering and ambient duty begin colonizing ordinary happiness.",
+        "/ethics/legitimate-culpability-vs-borrowed-guilt/": "A distinction-heavy page on real blameworthiness, diffuse implication, and the pressure to feel guilty beyond what agency warrants.",
+        "/ethics/bounded-compassionate-agency/": "A practical ethic of care that keeps compassion serious while refusing fantasies of limitless personal obligation.",
+        "/rational-thought/finite-agency-in-an-infinite-feed/": "A rational-thought page on how feeds distort moral priority, manufacture false urgency, and break the link between attention and leverage.",
+        "/epistemology/perceived-responsibility-and-perceived-control/": "An epistemology page on how felt duty drifts away from actual control when evidence, leverage, and probability are left blurry.",
+    }
+    if page.get("built_path") in custom_summaries:
+        return custom_summaries[page["built_path"]]
     if page["section_id"] == "philosophers":
         profile = philosopher_profile_for_title(page["title"])
         if profile and page["kind"] not in {"dialogue", "chart"}:
@@ -13472,8 +15138,62 @@ def quality_assessment(
 def source_prompt_sections(page: dict, prompts: list[str]) -> list[dict]:
     sections = []
     source_details = page.get("source_prompt_details", [])
+    page_key = (page["section_id"], normalized_phrase(page.get("title", "")))
+    bespoke_marker_page = clean_text(page.get("title", "")).startswith("⌁")
+    bespoke_polish = ACADEMIC_PAGE_POLISH.get(page_key, {}) if bespoke_marker_page else {}
+    section_polish = bespoke_polish.get("sections", [])
     for index, prompt in enumerate(prompts, start=1):
         detail = source_details[index - 1] if index - 1 < len(source_details) else None
+        section_override = section_polish[index - 1] if index - 1 < len(section_polish) else {}
+        if bespoke_marker_page and detail:
+            paragraphs = [clean_text(part) for part in detail.get("paragraphs", []) if clean_text(part)]
+            list_items = [clean_text(item) for item in detail.get("items", []) if clean_text(item)]
+            for child in detail.get("children", []):
+                child_title = clean_text(child.get("title", "")).strip(" .:")
+                child_paragraphs = [clean_text(part) for part in child.get("paragraphs", []) if clean_text(part)]
+                if child_paragraphs:
+                    if child_title:
+                        paragraphs.append(f"{child_title}: {child_paragraphs[0]}")
+                        paragraphs.extend(child_paragraphs[1:])
+                    else:
+                        paragraphs.extend(child_paragraphs)
+                else:
+                    for item in child.get("items", [])[:2]:
+                        cleaned_item = clean_text(item)
+                        if not cleaned_item:
+                            continue
+                        label, body = split_label(cleaned_item)
+                        if label and body:
+                            list_items.append(f"{label}: {body}")
+                        elif child_title:
+                            list_items.append(f"{child_title}: {cleaned_item}")
+                        else:
+                            list_items.append(cleaned_item)
+            paragraphs = dedupe(paragraphs)
+            list_items = dedupe(list_items)
+            anchor = f"prompt-{index}"
+            quality = quality_assessment(page, prompt, detail, paragraphs, list_items, True)
+            sections.append(
+                {
+                    "id": anchor,
+                    "eyebrow": "Composite Response",
+                    "heading": clean_text(section_override.get("heading") or detail.get("heading", "")) or clean_text(prompt),
+                    "paragraphs": paragraphs,
+                    "list_items": list_items,
+                    "comparison_tables": (detail or {}).get("tables", []),
+                    "dialogue_turns": (detail or {}).get("dialogue_turns", [])
+                    if len((detail or {}).get("dialogue_turns", [])) >= 4
+                    else [],
+                    "learning_items": (
+                        section_override.get("learning_items")
+                        or detail.get("learning_items")
+                        or pedagogical_checkpoints(page, prompt, detail)
+                    ),
+                    "prompt": prompt,
+                    "quality": quality,
+                }
+            )
+            continue
         paragraphs = prompt_response_paragraphs(page, prompt, index, detail)
         list_items = section_list_items(page, index, prompt, detail)
         paragraphs, list_items = editorial_polish_content(
@@ -13540,9 +15260,22 @@ def source_prompt_sections(page: dict, prompts: list[str]) -> list[dict]:
     sections = resolve_duplicate_prompt_headings(page, sections)
 
     profile = branch_profile(page["section_id"])
-    topic_items = TOPIC_ITEMS.get(page["title"], [])
+    topic_items = TOPIC_ITEMS.get(page["title"], []) or TOPIC_ITEMS.get(topic_label(page["title"]), [])
+    manual_polish = MANUAL_PAGE_POLISH.get(page.get("built_path", ""), {})
+    synthesis_heading = "What ties this page together."
+    synthesis_questions = discussion_questions(page, page.get("thread_like", []))
+    synthesis_learning_items: list[str] | None = None
     if page["section_id"] == "philosophers":
         synthesis_paragraphs = philosopher_synthesis_paragraphs(page, prompts, topic_items)
+    elif bespoke_marker_page:
+        synthesis_paragraphs = bespoke_polish.get("synthesis_paragraphs") or [
+            f"The page works only if {serial_join(topic_items[:3] or usable_thread_items(page.get('thread_like', []))[:3])} stay distinct long enough for the reader to see how they interact.",
+            clean_text(page.get("excerpt", "")) or semantic_map_paragraph(page),
+            f"Read this page as part of the wider {SECTION_META[page['section_id']]['name']} branch, but let it also push you toward the neighboring pages where duty, leverage, guilt, and finite happiness begin to separate more sharply.",
+        ]
+        synthesis_heading = clean_text(bespoke_polish.get("synthesis_heading", "")) or synthesis_heading
+        synthesis_learning_items = bespoke_polish.get("synthesis_learning_items")
+        synthesis_questions = bespoke_polish.get("synthesis_questions") or synthesis_questions
     else:
         synthesis_paragraphs = [
             profile["route"],
@@ -13557,20 +15290,26 @@ def source_prompt_sections(page: dict, prompts: list[str]) -> list[dict]:
         synthesis_paragraphs.append(
             f"Read this page as part of the wider {SECTION_META[page['section_id']]['name']} branch: the prompts point inward to the topic, but they also point outward to neighboring questions that keep the topic honest."
         )
+    if manual_polish:
+        synthesis_heading = clean_text(manual_polish.get("synthesis_heading", "")) or synthesis_heading
+        synthesis_paragraphs = manual_polish.get("synthesis_paragraphs") or synthesis_paragraphs
+        synthesis_questions = manual_polish.get("synthesis_questions") or synthesis_questions
+        synthesis_learning_items = manual_polish.get("synthesis_learning_items") or synthesis_learning_items
 
     turn_section = stance_change_section(page)
     if turn_section:
         sections.append(turn_section)
 
-    sections.append(
-        {
-            "id": "synthesis",
-            "eyebrow": "Synthesis",
-            "heading": "What ties this page together.",
-            "paragraphs": synthesis_paragraphs,
-            "question_items": discussion_questions(page, page.get("thread_like", [])),
-        }
-    )
+    synthesis_section = {
+        "id": "synthesis",
+        "eyebrow": "Synthesis",
+        "heading": synthesis_heading,
+        "paragraphs": synthesis_paragraphs,
+        "question_items": synthesis_questions,
+    }
+    if synthesis_learning_items:
+        synthesis_section["learning_items"] = synthesis_learning_items
+    sections.append(synthesis_section)
     return sections
 
 
@@ -14548,6 +16287,8 @@ def quiz_section_terms(page: dict, sections: list[dict], section_meta: dict) -> 
         "conclusion",
         "questions",
     }
+    curated_topic_terms = TOPIC_ITEMS.get(page["title"], []) or TOPIC_ITEMS.get(topic_label(page["title"]), [])
+    terms.extend(curated_topic_terms)
     for section in sections:
         for item in section.get("list_items", []) + section.get("question_items", []):
             label, body = split_label(item)
@@ -14560,7 +16301,6 @@ def quiz_section_terms(page: dict, sections: list[dict], section_meta: dict) -> 
                 and not is_low_value_heading(candidate)
             ):
                 terms.append(candidate)
-    terms.extend(TOPIC_ITEMS.get(page["title"], []))
     terms.extend(page.get("thread_like", [])[:6])
     terms.extend(child["title"] for child in page.get("children", [])[:4])
     terms.extend(tag_candidates(page, section_meta)[:4])
@@ -14596,6 +16336,7 @@ def quiz_context(page: dict, sections: list[dict], prompts: list[tuple[str, str]
     return {
         "topic": topic,
         "branch": section_meta["name"],
+        "built_path": page.get("built_path", ""),
         "profile": profile,
         "kind": page["kind"],
         "first_heading": clean_text(first_section.get("heading", "")) or f"{topic} needs disciplined interpretation.",
@@ -14603,7 +16344,7 @@ def quiz_context(page: dict, sections: list[dict], prompts: list[tuple[str, str]
         "first_prompt": first_prompt,
         "first_key": first_key,
         "synthesis_heading": clean_text(synthesis.get("heading", "")) or "What ties this page together.",
-        "synthesis_paragraph": compact_text(" ".join(synthesis.get("paragraphs", [])[:2]), 130),
+        "synthesis_paragraph": compact_sentences(" ".join(synthesis.get("paragraphs", [])[:2]), 130),
         "terms": terms,
         "children": child_titles,
         "siblings": sibling_titles,
@@ -14876,10 +16617,37 @@ def distinction_quiz_item(ctx: dict) -> dict:
 def pressure_quiz_item(ctx: dict) -> dict:
     topic = ctx["topic"]
     profile = ctx["profile"]
+    custom_pressure = {
+        "/ethics/finite-agency-moral-demand-and-happiness/": (
+            "The real pressure is whether moral seriousness can survive without inflating awareness into guilt, "
+            "and without turning finite happiness into evidence of selfishness."
+        ),
+        "/ethics/scope-leakage-of-happiness/": (
+            "The real pressure is whether awareness of remote suffering must govern ordinary happiness, "
+            "or whether concern needs boundaries if it is going to remain sane and useful."
+        ),
+        "/ethics/legitimate-culpability-vs-borrowed-guilt/": (
+            "The real pressure is whether guilt has actually been earned by agency, knowledge, and causal contribution, "
+            "or whether implication is being mistaken for blame."
+        ),
+        "/ethics/bounded-compassionate-agency/": (
+            "The real pressure is whether compassion becomes more humane when it accepts limits, "
+            "or whether a moral system quietly equates seriousness with self-erasure."
+        ),
+        "/rational-thought/finite-agency-in-an-infinite-feed/": (
+            "The real pressure is whether repeated visibility should govern attention, "
+            "or whether evidence, leverage, and opportunity cost must take priority over feed-driven urgency."
+        ),
+        "/epistemology/perceived-responsibility-and-perceived-control/": (
+            "The real pressure is whether a feeling of responsibility tracks actual leverage, "
+            "or whether moral mood is being allowed to outrun evidence, control, and probability."
+        ),
+    }
+    pressure = custom_pressure.get(ctx.get("built_path", ""), profile["pressure"])
     return {
         "question": f"What mistake is this page trying to prevent?",
         "options": [
-            quiz_option(f"Using {topic} as a shortcut instead of facing the harder question.", True, f"Correct. The harder question is this: {profile['pressure']} The quiz is testing whether you notice that pressure rather than retreating to the label."),
+            quiz_option(f"Using {topic} as a shortcut instead of facing the harder question.", True, f"Correct. The harder question is this: {pressure} The quiz is testing whether you notice that pressure rather than retreating to the label."),
             quiz_option(f"Thinking the topic is too complex to discuss, so nothing useful can be said.", False, "Not quite. Complexity is not a reason to give up. It is a reason to use clearer distinctions and better examples."),
             quiz_option(f"Thinking the branch name already explains the page.", False, "Not quite. The branch name gives the page a home, but it does not explain the argument. The reader still has to see how the idea works."),
             quiz_option(f"Choosing the most comfortable interpretation and avoiding the parts that create tension.", False, "Not quite. The uncomfortable parts are often where the learning happens. This page is trying to keep those tensions visible."),
@@ -15642,6 +17410,10 @@ def render_article_page(page: dict) -> str:
         )
         for title in sibling_titles
     ]
+    curated_future_links = [
+        future_branch_link(link["title"], link.get("path", ""), prefix)
+        for link in CURATED_FUTURE_BRANCH_LINKS.get(page.get("built_path", ""), [])
+    ]
     future_parts = []
     if child_links:
         future_parts.append(
@@ -15651,9 +17423,17 @@ def render_article_page(page: dict) -> str:
         future_parts.append(
             f"Nearby pages in the same branch include {serial_join_html(sibling_links)}; those links are not decorative, but suggested continuations where the pressure of this page becomes sharper, stranger, or more usefully contested."
         )
+    if curated_future_links:
+        curated_note = clean_text(CURATED_FUTURE_BRANCH_NOTES.get(page.get("built_path", ""), ""))
+        paragraph = (
+            f"Especially useful continuations here are {serial_join_html(curated_future_links)}."
+        )
+        if curated_note:
+            paragraph += f" {curated_note}"
+        future_parts.append(paragraph)
     if not future_parts:
         future_parts.append(
-            f"This page belongs inside the wider <a class=\"future-link\" href=\"{html.escape(branch_href)}\"><strong>{html.escape(section_meta['name'])}</strong></a> branch and is best read in conversation with its neighboring topics. Future expansion should add direct neighboring links as the branch thickens."
+            f"This page belongs inside the wider <a class=\"future-link\" href=\"{html.escape(branch_href)}\"><strong>{html.escape(section_meta['name'])}</strong></a> branch and is best read in conversation with neighboring topics. Use the branch guide, concept tags, and reading paths to keep the question moving rather than treating the page as a polite dead end."
         )
     future_paragraph = " ".join(future_parts)
     future_visual_html = ""
