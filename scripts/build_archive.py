@@ -463,7 +463,7 @@ GUIDED_READING_PATHS = [
     {
         "id": "care-without-collapse",
         "title": "Care Without Collapse: Finite Agency Under Moral Pressure",
-        "summary": "A route for readers who want to take suffering seriously without turning exposure, guilt, and self-erasure into signs of moral depth.",
+        "summary": "A route for readers who want to take suffering seriously without treating guilt, self-erasure, and emotional collapse as proof of moral seriousness.",
         "audience": "Finite agency, moral demand, and rational compassion",
         "difficulty": "Intermediate",
         "length": "6 steps",
@@ -482,7 +482,7 @@ GUIDED_READING_PATHS = [
     {
         "id": "compassion-obligation-and-bounded-agency",
         "title": "Compassion, Obligation, and Bounded Agency",
-        "summary": "A route that starts with metaethical pressure and then asks what happens when compassion, guilt, and obligation meet finite human limits.",
+        "summary": "A route that starts with hard metaethical pressure and then asks what happens when compassion, guilt, and obligation meet finite human limits.",
         "audience": "Compassion, obligation, and bounded moral demand",
         "difficulty": "Intermediate",
         "length": "6 steps",
@@ -501,7 +501,7 @@ GUIDED_READING_PATHS = [
     {
         "id": "attention-scope-and-control",
         "title": "Attention, Scope, and Control",
-        "summary": "A route for readers who suspect the information environment keeps distorting what deserves care, confidence, and action.",
+        "summary": "A route for readers who suspect the information environment keeps distorting what deserves confidence, care, and action.",
         "audience": "Attention, scale, and responsibility under modern conditions",
         "difficulty": "Foundational to intermediate",
         "length": "6 steps",
@@ -10685,7 +10685,7 @@ ACADEMIC_PAGE_POLISH = {
     ("ethics", "finite agency moral demand and happiness"): {
         "sections": [
             {
-                "heading": "When moral seriousness turns into a standing emotional bill.",
+                "heading": "The trouble starts when seeing a harm is treated like owing for it.",
                 "learning_items": [
                     "Keep awareness, blame, and duty separate; the whole cluster depends on refusing to let those three melt into one feeling.",
                     "Notice that the critique is aimed at unlimited moral demand, not at compassion itself.",
@@ -10693,7 +10693,7 @@ ACADEMIC_PAGE_POLISH = {
                 ],
             },
             {
-                "heading": "The problem needs a sharper name because it has a sharper mechanism.",
+                "heading": "Burnout is too vague for what is happening here.",
                 "learning_items": [
                     "Watch the argument move from vague burnout language to a more exact account of what is leaking and why.",
                     "Track the role of scale: the modern problem is not just tiredness, but global visibility outrunning finite agency.",
@@ -10701,7 +10701,7 @@ ACADEMIC_PAGE_POLISH = {
                 ],
             },
             {
-                "heading": "Finitude is not the same thing as indifference.",
+                "heading": "Finitude is not a confession of selfishness.",
                 "learning_items": [
                     "The page is defending a middle path: neither apathy nor permanent guilt deserves to monopolize moral seriousness.",
                     "Look for the shift from a binary picture of duty to a graded picture of response.",
@@ -10709,7 +10709,7 @@ ACADEMIC_PAGE_POLISH = {
                 ],
             },
             {
-                "heading": "Skepticism can rescue compassion from systems that live off guilt.",
+                "heading": "Some moral systems survive by making guilt look profound.",
                 "learning_items": [
                     "Do not confuse skepticism toward moral systems with emotional coldness; here it is being used as a protective discipline.",
                     "Notice the target: manipulative guilt, not concern for real suffering.",
@@ -10719,9 +10719,9 @@ ACADEMIC_PAGE_POLISH = {
         ],
         "synthesis_heading": "What this cluster is trying to protect.",
         "synthesis_paragraphs": [
-            "This cluster is trying to separate four things that public moral language constantly tries to fuse: awareness, blame, obligation, and the loss of happiness.",
-            "Its deeper claim is not that people should care less. It is that care becomes saner, more honest, and more durable when it stops treating finite human beings as if they were answerable for every visible harm.",
-            "Read the route in sequence: first name the leak, then sort blame from implication, then recover a humane model of compassion, and finally carry the lesson into judgment, attention, and control.",
+            "This cluster starts from a blunt claim: a decent finite person is not morally defective for failing to internalize every visible suffering as a personal debt.",
+            "What must stay separate are awareness, causal contribution, remedial capacity, and guilt. Once those collapse together, moral seriousness becomes almost indistinguishable from a trained inability to rest.",
+            "Read the route in sequence: first name the leak, then sort blame from implication, then recover a humane model of compassion, and finally carry the lesson into attention, judgment, and control.",
         ],
         "synthesis_learning_items": [
             "If the cluster is working, the reader should be able to say why finite happiness is morally relevant without sounding callous.",
@@ -10732,7 +10732,7 @@ ACADEMIC_PAGE_POLISH = {
     ("ethics", "scope leakage of happiness"): {
         "sections": [
             {
-                "heading": "Awareness becomes corrosive when it starts behaving like liability.",
+                "heading": "The leak starts when awareness begins acting like a bill.",
                 "learning_items": [
                     "Track the jump from seeing suffering to feeling personally on the hook for it.",
                     "The page is naming a mechanism, not offering a polite excuse for indifference.",
@@ -10740,7 +10740,7 @@ ACADEMIC_PAGE_POLISH = {
                 ],
             },
             {
-                "heading": "The modern information environment keeps widening the felt scope of duty.",
+                "heading": "Feeds, prestige, and endless witness-position make the leak worse.",
                 "learning_items": [
                     "Notice that salience and moral priority are being pulled apart on purpose.",
                     "Keep one eye on prestige dynamics: some cultures reward visible anguish more than intelligent response.",
@@ -10748,7 +10748,7 @@ ACADEMIC_PAGE_POLISH = {
                 ],
             },
             {
-                "heading": "The danger is not empathy but empathy without a stopping rule.",
+                "heading": "This is not ordinary empathy, and it is not just burnout.",
                 "learning_items": [
                     "The page is not criticizing grief, care, or concern; it is criticizing the loss of proportion.",
                     "Watch how the diagnosis differs from burnout: exposure plus inflated liability can do damage even before much action occurs.",
@@ -10756,7 +10756,7 @@ ACADEMIC_PAGE_POLISH = {
                 ],
             },
             {
-                "heading": "Concern stays sane only when it accepts boundaries.",
+                "heading": "Boundaries are not betrayals.",
                 "learning_items": [
                     "Look for the practical disciplines: limits on input, clearer role judgment, and deliberate protection of local goods.",
                     "The hardest move here is granting explicit moral permission for joy, rest, friendship, and art.",
@@ -10779,7 +10779,7 @@ ACADEMIC_PAGE_POLISH = {
     ("ethics", "legitimate culpability vs borrowed guilt"): {
         "sections": [
             {
-                "heading": "Feeling implicated is not yet blame.",
+                "heading": "Feeling implicated is cheaper than proving blame.",
                 "learning_items": [
                     "The page keeps guilt on probation until agency, knowledge, alternatives, and causal contribution have actually been sorted.",
                     "Notice how easily moral feeling tries to smuggle in a verdict before the argument has been made.",
@@ -10787,7 +10787,7 @@ ACADEMIC_PAGE_POLISH = {
                 ],
             },
             {
-                "heading": "Compressed moral language makes blame travel too easily.",
+                "heading": "Moral language gets dangerous when it moves too fast.",
                 "learning_items": [
                     "Keep agency, control, causal contribution, and culpability distinct; the blur is rhetorically convenient precisely because it pressures people faster.",
                     "This page is suspicious of moral compression because it often expands blame before evidence warrants it.",
@@ -10795,7 +10795,7 @@ ACADEMIC_PAGE_POLISH = {
                 ],
             },
             {
-                "heading": "Structural injustice can be real without making everyone equally guilty.",
+                "heading": "Structural harm is real; equal guilt is not.",
                 "learning_items": [
                     "The page is not denying structural harm; it is refusing the lazy move from structural involvement to undifferentiated private guilt.",
                     "Look for the second question the page keeps demanding: what kind of responsibility follows from this relation, and in what degree?",
@@ -10803,7 +10803,7 @@ ACADEMIC_PAGE_POLISH = {
                 ],
             },
             {
-                "heading": "Good responsibility-talk gets more graded, not more dramatic.",
+                "heading": "Good responsibility-talk uses more than one moral tone.",
                 "learning_items": [
                     "Notice the richer vocabulary being proposed: knowledge, benefit, participation, negligence, leverage, and remedial capacity.",
                     "The point is not softer language, but more exact language.",
@@ -10826,7 +10826,7 @@ ACADEMIC_PAGE_POLISH = {
     ("ethics", "bounded compassionate agency"): {
         "sections": [
             {
-                "heading": "Humane compassion has to include the finite person who is caring.",
+                "heading": "If compassion destroys the agent, it has not become wiser.",
                 "learning_items": [
                     "The page treats the moral agent as a real organism with limits, not as an infinite container for every visible claim.",
                     "Notice that 'humane' is being applied to the agent as well as to the sufferer.",
@@ -10834,7 +10834,7 @@ ACADEMIC_PAGE_POLISH = {
                 ],
             },
             {
-                "heading": "Limits do not cool compassion; they give it shape.",
+                "heading": "Limits are not excuses; they are how care gets shape.",
                 "learning_items": [
                     "Watch the page convert feeling into role-sensitive response rather than symbolic misery.",
                     "The key distinction is between sincerity and omnipotence: a limited response can still be a fully serious one.",
@@ -10842,7 +10842,7 @@ ACADEMIC_PAGE_POLISH = {
                 ],
             },
             {
-                "heading": "Protected joy is part of durable care.",
+                "heading": "Protected joy is part of durable moral seriousness.",
                 "learning_items": [
                     "The page is explicitly resisting the idea that cheerfulness, affection, art, or rest are betrayals.",
                     "Notice the criticism of severity: harshness can look deep while doing very little real moral work.",
@@ -10850,7 +10850,7 @@ ACADEMIC_PAGE_POLISH = {
                 ],
             },
             {
-                "heading": "Habits of proportion beat atmospheres of alarm.",
+                "heading": "Habits beat atmospheres.",
                 "learning_items": [
                     "Look for the practical habits: attention budgets, action budgets, role review, and protected recovery.",
                     "The point is to build routines that can withstand an attention economy that monetizes alarm.",
@@ -10873,7 +10873,7 @@ ACADEMIC_PAGE_POLISH = {
     ("rational-thought", "finite agency in an infinite feed"): {
         "sections": [
             {
-                "heading": "Visibility can hijack moral priority before argument begins.",
+                "heading": "The feed is bad at telling you what matters most.",
                 "learning_items": [
                     "The page belongs in rational thought because the failure here is one of calibration, not just mood.",
                     "Track the difference between what is easy to recall and what is actually most important or tractable.",
@@ -10881,7 +10881,7 @@ ACADEMIC_PAGE_POLISH = {
                 ],
             },
             {
-                "heading": "A feed can assign duties it has not earned the right to assign.",
+                "heading": "Being shown something all day is not the same as being assigned it.",
                 "learning_items": [
                     "Notice how witness-position gets inflated into custodial responsibility.",
                     "Keep the economic structure in view: feeds monetize attention, not moral clarity.",
@@ -10889,7 +10889,7 @@ ACADEMIC_PAGE_POLISH = {
                 ],
             },
             {
-                "heading": "Serious attention is selective, not constant.",
+                "heading": "Serious attention has filters.",
                 "learning_items": [
                     "The page is not celebrating ignorance; it is defending governed intake against endless drift.",
                     "Look for the four filters: evidence, role, leverage, and opportunity cost.",
@@ -10897,7 +10897,7 @@ ACADEMIC_PAGE_POLISH = {
                 ],
             },
             {
-                "heading": "Credence and leverage pull attention back under discipline.",
+                "heading": "Credence and leverage are better guides than outrage.",
                 "learning_items": [
                     "Watch how the page moves from felt urgency to graded confidence, tractability, and scope of influence.",
                     "This is one of the places where Credencing.com naturally fits the site's wider emphasis on rationality.",
@@ -10920,7 +10920,7 @@ ACADEMIC_PAGE_POLISH = {
     ("epistemology", "perceived responsibility and perceived control"): {
         "sections": [
             {
-                "heading": "Feeling responsible is not yet evidence of responsibility.",
+                "heading": "Feeling responsible is a data point, not a verdict.",
                 "learning_items": [
                     "The first discipline here is epistemic: moral feeling may alert, but it does not settle the case by itself.",
                     "Notice how salience, identification, and repeated exposure can mimic agency.",
@@ -10928,7 +10928,7 @@ ACADEMIC_PAGE_POLISH = {
                 ],
             },
             {
-                "heading": "Control, responsibility, and leverage answer different questions.",
+                "heading": "Control, responsibility, and leverage are three different questions.",
                 "learning_items": [
                     "Keep the three terms apart with some stubbornness; this page becomes mushy the moment they collapse together.",
                     "Notice why actual leverage gets special weight: care can remain even when intervention is unrealistic.",
@@ -10936,7 +10936,7 @@ ACADEMIC_PAGE_POLISH = {
                 ],
             },
             {
-                "heading": "Urgency still has to answer to evidence.",
+                "heading": "Uncertainty should shrink duty-confidence, not enlarge it.",
                 "learning_items": [
                     "The page is pulling probability, evidential strength, and reversibility back into responsibility-talk.",
                     "Watch how graded confidence reduces melodrama without abolishing concern.",
@@ -10944,7 +10944,7 @@ ACADEMIC_PAGE_POLISH = {
                 ],
             },
             {
-                "heading": "Rigor keeps compassion from turning into melodrama.",
+                "heading": "Rigor makes care steadier, not colder.",
                 "learning_items": [
                     "The point is not emotional thinness; it is a steadier moral intelligence.",
                     "Notice how the page protects care by making it answerable to evidence, leverage, and opportunity cost.",
@@ -10970,7 +10970,7 @@ MANUAL_PAGE_POLISH = {
     "/ethics/compassion-vs-moral-systems/": {
         "synthesis_paragraphs": [
             "The real issue is not whether compassion matters. It is whether compassion can do enough moral work on its own without quietly borrowing authority, fairness, and scale-management from the very kinds of structure it is tempted to replace.",
-            "This page becomes sharper when read beside ⌁ Finite Agency, Moral Demand, and Happiness, ⌁ Scope Leakage of Happiness, and ⌁ Bounded Compassionate Agency. Those newer pages test what happens when compassion meets guilt, scale, and finite leverage instead of remaining a warm abstraction.",
+            "This page becomes sharper when read beside ⌁ Finite Agency, Moral Demand, and Happiness, ⌁ Scope Leakage of Happiness, and ⌁ Bounded Compassionate Agency. Those newer pages show what happens when compassion meets guilt, scale, and finite leverage instead of remaining a warm abstraction.",
             "A good reader should leave able to ask three questions at once: when compassion is correcting a system, when it is being romanticized, and when some disciplined structure is needed to keep compassion humane.",
         ],
         "synthesis_questions": [
@@ -10989,7 +10989,7 @@ MANUAL_PAGE_POLISH = {
     "/ethics/recommendations-vs-moral-claims/": {
         "synthesis_paragraphs": [
             "The durable pressure here is semantic before it is doctrinal: what makes a sentence a recommendation, a social expectation, a prudential warning, or a genuinely moral demand?",
-            "The page also belongs next to ⌁ Legitimate Culpability vs Borrowed Guilt and ⌁ Finite Agency, Moral Demand, and Happiness. Those newer pages test what happens once moral language starts inflating awareness into liability or turning diffuse implication into blame.",
+            "The page also belongs next to ⌁ Legitimate Culpability vs Borrowed Guilt and ⌁ Finite Agency, Moral Demand, and Happiness. Those newer pages show the cost of sloppy obligation-talk once awareness starts inflating into liability or diffuse implication starts hardening into blame.",
             "If the page is doing its job, the reader can now press on obligation-talk without becoming vague about value, concern, or the practical importance of altruism.",
         ],
         "synthesis_questions": [
@@ -11046,7 +11046,7 @@ MANUAL_PAGE_POLISH = {
     "/epistemology/operational-epistemic-rigor/": {
         "synthesis_paragraphs": [
             "Operational epistemic rigor is about public discipline, not private seriousness. The core question is what visible habits make a claim corrigible, comparable, and proportionately believable.",
-            "This page now sits naturally beside ⌁ Perceived Responsibility and Perceived Control and ⌁ Finite Agency in an Infinite Feed. Those newer pages test what happens when felt urgency, confidence, or duty outrun evidence, leverage, and calibration.",
+            "This page now sits naturally beside ⌁ Perceived Responsibility and Perceived Control and ⌁ Finite Agency in an Infinite Feed. Those newer pages make the calibration problem feel less academic and more lived by showing what happens when felt urgency, confidence, or duty outrun evidence, leverage, and calibration.",
             "A good reader should leave with a sharper suspicion of false certainty and a clearer sense that rigor is not an ornament attached to favored beliefs, but a cost those beliefs must keep paying.",
             "For a companion resource on calibration, credence, and structured rational judgment, see <a class=\"text-link\" href=\"https://credencing.com/\" rel=\"noopener noreferrer\">Credencing.com</a>.",
         ],
@@ -11932,23 +11932,23 @@ def generic_standfirst(page: dict, section_meta: dict) -> str:
     article = "An" if section_meta["name"][:1].lower() in {"a", "e", "i", "o", "u"} else "A"
     custom_standfirsts = {
         "/ethics/finite-agency-moral-demand-and-happiness/": (
-            "A route through the moral cost of treating finite human beings as if they were answerable for every visible harm, "
+            "A route through the moral mistake of treating finite human beings as if every visible harm had already become their personal debt, "
             "linking scope leakage, borrowed guilt, bounded compassion, and disciplined control."
         ),
         "/ethics/scope-leakage-of-happiness/": (
-            "A page on the way remote suffering, ambient guilt, and unlimited felt duty can colonize ordinary happiness once awareness starts behaving like liability."
+            "A page on what happens when remote suffering, doomscrolling, and ambient guilt teach a person to distrust ordinary happiness."
         ),
         "/ethics/legitimate-culpability-vs-borrowed-guilt/": (
-            "A page on the difference between actual blameworthiness and borrowed guilt, especially where structural harms tempt people to feel more guilty than their agency can justify."
+            "A page on the difference between earned blame and the broader atmosphere of guilt that structural talk and moral systems can manufacture."
         ),
         "/ethics/bounded-compassionate-agency/": (
-            "A page on how compassion can stay serious, durable, and humane when it respects limits of leverage, knowledge, recovery, and ordinary joy."
+            "A page on how compassion stays honest when it accepts limits, tracks leverage, and refuses the fantasy that guilt is proof of depth."
         ),
         "/rational-thought/finite-agency-in-an-infinite-feed/": (
-            "A rational-thought page on how feeds distort priority, manufacture false urgency, and pressure finite people to confuse exposure with duty."
+            "A rational-thought page on how feeds inflate salience into priority and pressure finite people to confuse exposure with duty."
         ),
         "/epistemology/perceived-responsibility-and-perceived-control/": (
-            "An epistemology page on how felt duty drifts away from actual leverage when control, probability, evidence, and responsibility are not kept clearly distinct."
+            "An epistemology page on how felt duty, control, probability, and leverage get scrambled, and how to sort them back out."
         ),
     }
     if page.get("built_path") in custom_standfirsts:
