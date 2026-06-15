@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import html
 import json
+import os
 import re
 import subprocess
 import sys
@@ -48,7 +49,19 @@ SLUGFESTER_SITE_URL = "https://slugfester.com/"
 SAFE_SINGLE_WORD_LOGFALL_ALIASES = {"equivocation"}
 BLOCKED_GENERIC_LOGFALL_ALIASES = {"argument from", "appeal to"}
 BLOCKED_GENERIC_LOGFALL_SUFFIX_WORDS = {"from", "to", "of", "for", "with", "and", "or", "s"}
-BUILD_DATE = date.today()
+def resolve_build_date() -> date:
+    override = os.environ.get("BYTESEISMIC_BUILD_DATE", "").strip()
+    if not override:
+        return date.today()
+    try:
+        return date.fromisoformat(override)
+    except ValueError as exc:
+        raise ValueError(
+            "BYTESEISMIC_BUILD_DATE must use YYYY-MM-DD format."
+        ) from exc
+
+
+BUILD_DATE = resolve_build_date()
 BUILD_DATE_TEXT = f"{BUILD_DATE.strftime('%B')} {BUILD_DATE.day}, {BUILD_DATE.year}"
 CLOUDFLARE_ANALYTICS_SNIPPET = (
     "<!-- Cloudflare Web Analytics --><script defer "
@@ -782,6 +795,1560 @@ GLOSSARY_TERMS = [
     {"term": "Utilitarianism", "definition": "A consequentialist view that evaluates actions chiefly by how much overall well-being, happiness, or preference satisfaction they produce.", "branch": "Ethics", "paths": ["/ethics/ethics-core-concepts/"], "tags": ["ethics", "normativity"]},
     {"term": "Virtue ethics", "definition": "An ethical approach centered on character, practical wisdom, and the cultivation of the kinds of people capable of living well.", "branch": "Ethics", "paths": ["/ethics/ethics-core-concepts/"], "tags": ["ethics", "normativity"]},
     {"term": "Worldview", "definition": "A broad interpretive frame that organizes what a person treats as real, valuable, knowable, and worth doing.", "branch": "Philosophical Inquiry", "paths": ["/philosophical-inquiry/do-i-need-a-worldview/"], "tags": ["worldview", "inquiry"]},
+]
+
+CONCEPT_TIMELINE_DATA = {
+    "defaultThread": "truth",
+    "eras": [
+        {
+            "id": "ancient",
+            "label": "Ancient World",
+            "dates": "c. 600 BCE-500 CE",
+            "summary": "Concepts are framed around being, virtue, polis, and the difference between appearance and reality.",
+        },
+        {
+            "id": "medieval",
+            "label": "Medieval Synthesis",
+            "dates": "c. 500-1500",
+            "summary": "Classical distinctions are folded into theology, law, and layered metaphysics.",
+        },
+        {
+            "id": "early-modern",
+            "label": "Early Modern Turn",
+            "dates": "c. 1500-1750",
+            "summary": "Method, representation, subjectivity, and science rearrange the map.",
+        },
+        {
+            "id": "enlightenment",
+            "label": "Enlightenment",
+            "dates": "c. 1750-1850",
+            "summary": "Public reason, criticism, rights, and universality intensify the pressure.",
+        },
+        {
+            "id": "nineteenth",
+            "label": "Nineteenth Century",
+            "dates": "c. 1850-1900",
+            "summary": "History, industrial life, genealogy, and social power destabilize older certainties.",
+        },
+        {
+            "id": "contemporary",
+            "label": "Twentieth and Contemporary",
+            "dates": "c. 1900-today",
+            "summary": "Language, formal models, computation, institutions, and identity reshape the concepts again.",
+        },
+    ],
+    "families": [
+        {
+            "id": "knowledge",
+            "label": "Knowledge",
+            "summary": "Truth, knowledge, evidence, and rational calibration.",
+        },
+        {
+            "id": "science",
+            "label": "Science",
+            "summary": "Method, testing, explanation, and disciplined inquiry.",
+        },
+        {
+            "id": "reality",
+            "label": "Reality",
+            "summary": "Causation, explanation, and what the world is like.",
+        },
+        {
+            "id": "mind",
+            "label": "Mind",
+            "summary": "Consciousness, selfhood, agency, and embodiment.",
+        },
+        {
+            "id": "ethics",
+            "label": "Ethics",
+            "summary": "Normativity, obligation, guilt, and moral skepticism.",
+        },
+        {
+            "id": "politics",
+            "label": "Politics",
+            "summary": "Justice, rights, institutions, and public standing.",
+        },
+        {
+            "id": "language",
+            "label": "Language",
+            "summary": "Meaning, reference, framing, and interpretive drift.",
+        },
+    ],
+    "threads": [
+        {
+            "id": "truth",
+            "label": "Truth",
+            "family": "knowledge",
+            "summary": "Truth keeps moving between correspondence, coherence, public testability, suspicion, and semantic cleanup.",
+            "question": "What keeps a claim answerable to reality rather than merely to usefulness, sincerity, or tribal comfort?",
+            "steps": [
+                {
+                    "era": "ancient",
+                    "label": "Truth as fit between saying and what is",
+                    "mutation": "anchors reality",
+                    "gist": "Greek thought treats truth as a matter of whether logos gets the world right, not whether a speaker feels authentic.",
+                    "pressure": "How can speech answer to being instead of drifting with opinion?",
+                    "payoff": "This gives truth its hard edge before public discourse softens it into mood.",
+                    "links": [
+                        {"title": "What Is Truth?", "path": "/philosophical-inquiry/what-is-truth/"},
+                    ],
+                },
+                {
+                    "era": "medieval",
+                    "label": "Truth inside a created order",
+                    "mutation": "theologizes",
+                    "gist": "Truth is tied to an intelligible cosmos whose order is not self-made but discovered within a larger metaphysical scheme.",
+                    "pressure": "What secures truth when mind, language, and world are all treated as parts of one creation?",
+                    "payoff": "The concept gains depth, but also dependence on a stronger background picture of reality.",
+                    "links": [
+                        {"title": "What Is Truth?", "path": "/philosophical-inquiry/what-is-truth/"},
+                        {"title": "Do I Need a Worldview?", "path": "/philosophical-inquiry/do-i-need-a-worldview/"},
+                    ],
+                },
+                {
+                    "era": "early-modern",
+                    "label": "Truth faces method and skepticism",
+                    "mutation": "internalizes the test",
+                    "gist": "After inherited authority weakens, truth has to be rebuilt through method, clarity, and the reliability of representation.",
+                    "pressure": "How can the subject trust its own access to reality?",
+                    "payoff": "Truth now depends less on inherited order and more on disciplined doubt and reconstruction.",
+                    "links": [
+                        {"title": "What Is Truth?", "path": "/philosophical-inquiry/what-is-truth/"},
+                        {"title": "What Is Belief?", "path": "/epistemology/what-is-belief/"},
+                    ],
+                },
+                {
+                    "era": "enlightenment",
+                    "label": "Truth becomes public and critical",
+                    "mutation": "demands common tests",
+                    "gist": "Truth is increasingly treated as what can survive argument, criticism, and standards that are not privately owned.",
+                    "pressure": "Which claims can endure open scrutiny rather than private confidence alone?",
+                    "payoff": "Public reason becomes one of truth's main guardians.",
+                    "links": [
+                        {"title": "Adequate Evidence", "path": "/epistemology/adequate-evidence/"},
+                        {"title": "The Mindset of the Honest Seeker", "path": "/philosophical-inquiry/the-mindset-of-the-honest-seeker/"},
+                    ],
+                },
+                {
+                    "era": "nineteenth",
+                    "label": "Truth becomes historical and suspicious",
+                    "mutation": "historicizes",
+                    "gist": "Historicist and genealogical pressure raises the question of whether truth claims are neutral discoveries or social achievements with interests behind them.",
+                    "pressure": "Is truth uncovered, produced, or strategically used?",
+                    "payoff": "The concept is no longer simple correspondence; it now has to survive suspicion.",
+                    "links": [
+                        {"title": "Personal Truth", "path": "/philosophical-inquiry/personal-truth/"},
+                        {"title": "Testing Ideologies", "path": "/philosophical-inquiry/testing-ideologies/"},
+                    ],
+                },
+                {
+                    "era": "contemporary",
+                    "label": "Truth is fragmented, then reclaimed",
+                    "mutation": "clarifies and resists dilution",
+                    "gist": "Analytic work sharpens truth-conditions while public culture keeps trying to turn truth into narrative ownership or identity performance.",
+                    "pressure": "How do we keep truth objective without pretending perspective disappears?",
+                    "payoff": "The modern task is not to revive old certainty, but to stop truth from collapsing into preference.",
+                    "links": [
+                        {"title": "What Is Truth?", "path": "/philosophical-inquiry/what-is-truth/"},
+                        {"title": "Personal Truth", "path": "/philosophical-inquiry/personal-truth/"},
+                    ],
+                },
+            ],
+        },
+        {
+            "id": "knowledge",
+            "label": "Knowledge",
+            "family": "knowledge",
+            "summary": "Knowledge moves from stable contrast with opinion to a far more fallibilist, procedural, and socially distributed achievement.",
+            "question": "What turns a true-seeming belief into knowledge rather than lucky confidence or borrowed certainty?",
+            "steps": [
+                {
+                    "era": "ancient",
+                    "label": "Knowledge against mere opinion",
+                    "mutation": "draws the first hard line",
+                    "gist": "Classical thought sharply distinguishes episteme from doxa so that knowing is not confused with simply seeming persuasive.",
+                    "pressure": "What kind of grasp is stronger than opinion yet answerable to reality?",
+                    "payoff": "Knowledge begins as a disciplined contrast term, not a compliment for strong feeling.",
+                    "links": [
+                        {"title": "What Is Knowledge?", "path": "/epistemology/what-is-knowledge/"},
+                        {"title": "What Is Belief?", "path": "/epistemology/what-is-belief/"},
+                    ],
+                },
+                {
+                    "era": "medieval",
+                    "label": "Knowledge inside hierarchy and illumination",
+                    "mutation": "orders the sources",
+                    "gist": "Knowledge is linked to rational powers, testimony, and often to a larger metaphysical confidence about intelligibility.",
+                    "pressure": "How do finite knowers participate in a stable order of truth?",
+                    "payoff": "The concept gains structure, though often at the price of stronger background assumptions.",
+                    "links": [
+                        {"title": "What Is Knowledge?", "path": "/epistemology/what-is-knowledge/"},
+                    ],
+                },
+                {
+                    "era": "early-modern",
+                    "label": "Knowledge rebuilt from method",
+                    "mutation": "restarts from the subject",
+                    "gist": "Certainty is pursued through clear ideas, secure foundations, and a method that can survive skepticism.",
+                    "pressure": "What can the knower justifiably keep after doubting inherited authority?",
+                    "payoff": "Knowledge becomes less inherited and more procedural.",
+                    "links": [
+                        {"title": "What Is Knowledge?", "path": "/epistemology/what-is-knowledge/"},
+                        {"title": "What Is Belief?", "path": "/epistemology/what-is-belief/"},
+                    ],
+                },
+                {
+                    "era": "enlightenment",
+                    "label": "Knowledge learns its own limits",
+                    "mutation": "disciplines scope",
+                    "gist": "Reason and experience are both recruited, but the boundaries of what can be known become an explicit philosophical issue.",
+                    "pressure": "Which claims exceed the range of legitimate justification?",
+                    "payoff": "Knowledge is no longer just accumulation; it is boundary work.",
+                    "links": [
+                        {"title": "Adequate Evidence", "path": "/epistemology/adequate-evidence/"},
+                        {"title": "What Is Evidence?", "path": "/epistemology/what-is-evidence/"},
+                    ],
+                },
+                {
+                    "era": "nineteenth",
+                    "label": "Knowledge becomes historical and social",
+                    "mutation": "situates the knower",
+                    "gist": "Knowledge is increasingly viewed through institutions, history, culture, and the conditions under which inquiry is socially organized.",
+                    "pressure": "Can knowledge remain objective once knowers are recognized as embedded beings?",
+                    "payoff": "Objectivity survives only if it can outgrow naive neutrality.",
+                    "links": [
+                        {"title": "The Mindset of the Honest Seeker", "path": "/philosophical-inquiry/the-mindset-of-the-honest-seeker/"},
+                        {"title": "Testing Ideologies", "path": "/philosophical-inquiry/testing-ideologies/"},
+                    ],
+                },
+                {
+                    "era": "contemporary",
+                    "label": "Knowledge becomes fallibilist and procedural",
+                    "mutation": "tightens the checks",
+                    "gist": "After Gettier-style pressure, probabilistic reasoning, and institutional epistemology, knowledge is treated less as a static jewel and more as a disciplined achievement.",
+                    "pressure": "How do we justify confidence without pretending our methods are flawless?",
+                    "payoff": "Modern knowledge-talk lives or dies by revision standards, not by swagger.",
+                    "links": [
+                        {"title": "Operational Epistemic Rigor", "path": "/epistemology/operational-epistemic-rigor/"},
+                        {"title": "Core & Deep Rationality", "path": "/epistemology/core-deep-rationality/"},
+                    ],
+                },
+            ],
+        },
+        {
+            "id": "evidence-method",
+            "label": "Evidence and Method",
+            "family": "science",
+            "summary": "Evidence evolves from demonstration and observation toward experiment, modeling, falsification, statistics, and explicit error control.",
+            "question": "What should count as evidence, and what kind of method keeps inquiry from becoming selective theater?",
+            "steps": [
+                {
+                    "era": "ancient",
+                    "label": "Observation joins demonstration",
+                    "mutation": "pairs seeing with reasoning",
+                    "gist": "Ancient inquiry already knows that bare observation is not enough; facts need to be interpreted within explanatory structure.",
+                    "pressure": "How do observation and demonstration support each other?",
+                    "payoff": "Evidence begins as shaped seeing, not raw sensation dumped on the page.",
+                    "links": [
+                        {"title": "What Is Evidence?", "path": "/epistemology/what-is-evidence/"},
+                        {"title": "What Is Science?", "path": "/philosophy-of-science/what-is-science/"},
+                    ],
+                },
+                {
+                    "era": "medieval",
+                    "label": "Evidence inherits authorities and commentaries",
+                    "mutation": "leans on ordered testimony",
+                    "gist": "Observation matters, but evidence is still often filtered through authoritative traditions and larger metaphysical confidence.",
+                    "pressure": "How much weight should inherited testimony carry in serious inquiry?",
+                    "payoff": "The concept is rich, but less experimentally ruthless.",
+                    "links": [
+                        {"title": "What Is Evidence?", "path": "/epistemology/what-is-evidence/"},
+                    ],
+                },
+                {
+                    "era": "early-modern",
+                    "label": "Experiment becomes central",
+                    "mutation": "instrumentalizes method",
+                    "gist": "Evidence is increasingly something produced under controlled conditions rather than merely inherited, narrated, or intuited.",
+                    "pressure": "What warrants trust when nature is forced to answer carefully framed questions?",
+                    "payoff": "Method stops being decorative and starts doing the heavy lifting.",
+                    "links": [
+                        {"title": "What Is Science?", "path": "/philosophy-of-science/what-is-science/"},
+                        {"title": "Methodological Naturalism", "path": "/philosophy-of-science/methodological-naturalism/"},
+                    ],
+                },
+                {
+                    "era": "enlightenment",
+                    "label": "Evidence becomes public and replicable",
+                    "mutation": "demands shared checks",
+                    "gist": "Method is expected to be inspectable by others, making evidence less private and more criticizable.",
+                    "pressure": "What makes inquiry self-correcting rather than personality-driven?",
+                    "payoff": "Evidence now has to survive community scrutiny, not just individual confidence.",
+                    "links": [
+                        {"title": "Adequate Evidence", "path": "/epistemology/adequate-evidence/"},
+                        {"title": "What Is Science?", "path": "/philosophy-of-science/what-is-science/"},
+                    ],
+                },
+                {
+                    "era": "nineteenth",
+                    "label": "Historical and laboratory sciences diverge",
+                    "mutation": "pluralizes evidence",
+                    "gist": "Different domains require different evidential styles, from experiments to archives to field observation to evolutionary inference.",
+                    "pressure": "Can one model of method govern every serious inquiry?",
+                    "payoff": "Evidence becomes more plural without becoming arbitrary.",
+                    "links": [
+                        {"title": "What Is Science?", "path": "/philosophy-of-science/what-is-science/"},
+                        {"title": "The Problem of Induction", "path": "/philosophy-of-science/the-problem-of-induction/"},
+                    ],
+                },
+                {
+                    "era": "contemporary",
+                    "label": "Evidence becomes model-aware and error-aware",
+                    "mutation": "formalizes the safeguards",
+                    "gist": "Statistics, falsifiability, peer criticism, and methodological explicitness make evidence as much about error-handling as confirmation.",
+                    "pressure": "How should inquiry behave when data are noisy, theory-laden, and socially interpreted?",
+                    "payoff": "Modern evidence is strongest when its failure modes are visible.",
+                    "links": [
+                        {"title": "What Is Falsifiability?", "path": "/philosophy-of-science/what-is-falsifiability/"},
+                        {"title": "Operational Epistemic Rigor", "path": "/epistemology/operational-epistemic-rigor/"},
+                    ],
+                },
+            ],
+        },
+        {
+            "id": "rationality-credence",
+            "label": "Rationality and Credence",
+            "family": "knowledge",
+            "summary": "Rationality shifts from right reason and intellectual virtue toward graded confidence, bounded cognition, and explicit updating.",
+            "question": "How should a person proportion belief and action once certainty is scarce and the world keeps outrunning intuition?",
+            "steps": [
+                {
+                    "era": "ancient",
+                    "label": "Rationality as ordered judgment",
+                    "mutation": "shapes the soul",
+                    "gist": "Reason is first treated as a governing power that disciplines appetite, impulse, and error-prone appearance.",
+                    "pressure": "What does it mean for a human life to be ruled by judgment rather than by drift?",
+                    "payoff": "Rationality begins as character as much as inference.",
+                    "links": [
+                        {"title": "Core & Deep Rationality", "path": "/epistemology/core-deep-rationality/"},
+                    ],
+                },
+                {
+                    "era": "medieval",
+                    "label": "Rationality inside teleology",
+                    "mutation": "aligns with ends",
+                    "gist": "Reason is tied to natural order, proper function, and often to a broader account of the human good.",
+                    "pressure": "How should judgment track both truth and the right ends of action?",
+                    "payoff": "Rationality is not yet a thin calculator; it is part of an anthropology.",
+                    "links": [
+                        {"title": "Core & Deep Rationality", "path": "/epistemology/core-deep-rationality/"},
+                    ],
+                },
+                {
+                    "era": "early-modern",
+                    "label": "Rationality becomes method",
+                    "mutation": "cleans the procedure",
+                    "gist": "The emphasis shifts toward clarity, rule-following, and reliable procedure as safeguards against confusion.",
+                    "pressure": "What habits of thought can protect inquiry from haste and illusion?",
+                    "payoff": "Reason begins to look more like a disciplined workflow.",
+                    "links": [
+                        {"title": "Operational Epistemic Rigor", "path": "/epistemology/operational-epistemic-rigor/"},
+                    ],
+                },
+                {
+                    "era": "enlightenment",
+                    "label": "Rationality becomes public reason",
+                    "mutation": "universalizes its standards",
+                    "gist": "Rationality is expected to justify itself in terms others could in principle inspect, criticize, and share.",
+                    "pressure": "Can reason guide a common world instead of remaining private cleverness?",
+                    "payoff": "Rationality becomes answerable to open challenge.",
+                    "links": [
+                        {"title": "Categories of Questions", "path": "/rational-thought/categories-of-questions/"},
+                        {"title": "Core & Deep Rationality", "path": "/epistemology/core-deep-rationality/"},
+                    ],
+                },
+                {
+                    "era": "nineteenth",
+                    "label": "Rationality meets history and desire",
+                    "mutation": "loses its innocence",
+                    "gist": "Rationality is challenged by the discovery that motive, class, instinct, and history shape what counts as 'reasonable.'",
+                    "pressure": "How do we keep rational standards without pretending humans are transparent to themselves?",
+                    "payoff": "A thinner, more self-aware rationality becomes necessary.",
+                    "links": [
+                        {"title": "Cognitive Threats to Rationality", "path": "/rational-thought/cognitive-threats-to-rationality/"},
+                    ],
+                },
+                {
+                    "era": "contemporary",
+                    "label": "Rationality becomes probabilistic and bounded",
+                    "mutation": "graduates confidence",
+                    "gist": "Modern rationality must work with uncertainty, partial evidence, updating, and the limits of human attention rather than waiting for all-or-nothing certainty.",
+                    "pressure": "What should judgment look like when the honest answer is often a credence rather than a verdict?",
+                    "payoff": "Credencing becomes a practical repair for false binary thinking.",
+                    "links": [
+                        {"title": "Credencing", "path": "/rational-thought/credencing/"},
+                        {"title": "Core & Deep Rationality", "path": "/epistemology/core-deep-rationality/"},
+                        {"title": "Operational Epistemic Rigor", "path": "/epistemology/operational-epistemic-rigor/"},
+                    ],
+                },
+            ],
+        },
+        {
+            "id": "causation",
+            "label": "Causation",
+            "family": "reality",
+            "summary": "Causation travels from thick explanatory schemes toward skeptical pressure, then toward counterfactual and model-based treatments.",
+            "question": "What does it mean to say one thing makes another happen, rather than merely appearing alongside it?",
+            "steps": [
+                {
+                    "era": "ancient",
+                    "label": "Cause means more than one thing",
+                    "mutation": "thickens explanation",
+                    "gist": "Ancient thought includes material, formal, efficient, and final causes, making explanation richer than mere collision stories.",
+                    "pressure": "What kinds of answers count as real explanations?",
+                    "payoff": "Causation begins as a broad explanatory architecture.",
+                    "links": [
+                        {"title": "Correlation and Causation", "path": "/philosophy-of-science/correlation-and-causation/"},
+                    ],
+                },
+                {
+                    "era": "medieval",
+                    "label": "Secondary causes inside providence",
+                    "mutation": "nests causal layers",
+                    "gist": "Causes are treated as real within nature while still sitting inside a wider metaphysical order.",
+                    "pressure": "How can ordinary causation remain real if reality is layered?",
+                    "payoff": "The concept keeps everyday explanation while deepening the background picture.",
+                    "links": [
+                        {"title": "Correlation and Causation", "path": "/philosophy-of-science/correlation-and-causation/"},
+                    ],
+                },
+                {
+                    "era": "early-modern",
+                    "label": "Mechanism dominates",
+                    "mutation": "narrows the picture",
+                    "gist": "Mechanical philosophy pushes causal explanation toward efficient causes, lawlike processes, and measurable interaction.",
+                    "pressure": "Can the world be explained without final causes or hidden essences?",
+                    "payoff": "Causation becomes sharper, but also thinner.",
+                    "links": [
+                        {"title": "Methodological Naturalism", "path": "/philosophy-of-science/methodological-naturalism/"},
+                        {"title": "What Is Science?", "path": "/philosophy-of-science/what-is-science/"},
+                    ],
+                },
+                {
+                    "era": "enlightenment",
+                    "label": "Necessary connection comes under suspicion",
+                    "mutation": "faces the Humean challenge",
+                    "gist": "Regular succession may be observable, but the necessity people think they perceive becomes far harder to justify.",
+                    "pressure": "Do we ever see causation itself, or only patterns we have learned to expect?",
+                    "payoff": "Causation becomes an epistemic problem, not just an explanatory tool.",
+                    "links": [
+                        {"title": "The Problem of Induction", "path": "/philosophy-of-science/the-problem-of-induction/"},
+                        {"title": "Correlation and Causation", "path": "/philosophy-of-science/correlation-and-causation/"},
+                    ],
+                },
+                {
+                    "era": "nineteenth",
+                    "label": "Systems and histories enter the picture",
+                    "mutation": "complexifies the drivers",
+                    "gist": "Evolution, social theory, and large-scale systems make causation look less like billiard-ball contact and more like layered processes.",
+                    "pressure": "How do we explain slow, structural, or distributed causes?",
+                    "payoff": "Causal thinking becomes less naive about complexity.",
+                    "links": [
+                        {"title": "Correlation and Causation", "path": "/philosophy-of-science/correlation-and-causation/"},
+                    ],
+                },
+                {
+                    "era": "contemporary",
+                    "label": "Causation becomes counterfactual and model-based",
+                    "mutation": "formalizes dependence",
+                    "gist": "Modern accounts often treat causes in terms of counterfactual dependence, intervention, mechanisms, and probabilistic structure.",
+                    "pressure": "What survives once causal talk must compete with statistics, models, and policy claims?",
+                    "payoff": "The concept becomes more precise just when public misuse makes it more urgent.",
+                    "links": [
+                        {"title": "Correlation and Causation", "path": "/philosophy-of-science/correlation-and-causation/"},
+                        {"title": "The Problem of Induction", "path": "/philosophy-of-science/the-problem-of-induction/"},
+                    ],
+                },
+            ],
+        },
+        {
+            "id": "mind-consciousness",
+            "label": "Mind and Consciousness",
+            "family": "mind",
+            "summary": "Mind shifts from soul and form to inner theater, then to embodiment, emergence, computation, and irreducible subjectivity.",
+            "question": "What kind of thing is conscious experience, and how should we relate it to body, brain, world, and agency?",
+            "steps": [
+                {
+                    "era": "ancient",
+                    "label": "Psyche as life and form",
+                    "mutation": "integrates mind with life",
+                    "gist": "Mind is not yet a sealed private chamber; it is tied to animation, perception, form, and the structure of a living being.",
+                    "pressure": "What makes a living being more than matter arranged in a heap?",
+                    "payoff": "Consciousness starts from life, not from a spectator trapped inside the skull.",
+                    "links": [
+                        {"title": "What Is Consciousness?", "path": "/philosophy-of-mind/what-is-consciousness/"},
+                    ],
+                },
+                {
+                    "era": "medieval",
+                    "label": "Soul, intellect, and hierarchy",
+                    "mutation": "spiritualizes the powers",
+                    "gist": "Mind is treated through faculties, soul, intellect, and the layered capacities of creatures within a meaningful order.",
+                    "pressure": "What kind of being can understand universals and deliberate about goods?",
+                    "payoff": "The concept gains richness, though often in explicitly metaphysical language.",
+                    "links": [
+                        {"title": "What Is Consciousness?", "path": "/philosophy-of-mind/what-is-consciousness/"},
+                    ],
+                },
+                {
+                    "era": "early-modern",
+                    "label": "Mind becomes the inner theater",
+                    "mutation": "separates from matter",
+                    "gist": "Consciousness is recast as a first-person domain whose relation to the physical world becomes philosophically explosive.",
+                    "pressure": "How can an inner subject know an outer world, or move a body?",
+                    "payoff": "The mind-body problem becomes unavoidable.",
+                    "links": [
+                        {"title": "What Is Consciousness?", "path": "/philosophy-of-mind/what-is-consciousness/"},
+                        {"title": "Dualism vs Materialism", "path": "/metaphysics/dualismvsmaterialism/"},
+                    ],
+                },
+                {
+                    "era": "enlightenment",
+                    "label": "Experience, association, and self-awareness",
+                    "mutation": "psychologizes",
+                    "gist": "Attention turns toward how conscious contents are linked, remembered, associated, and reflected upon within experience.",
+                    "pressure": "What can introspection and experience reveal about mind without metaphysical excess?",
+                    "payoff": "Mind becomes more empirically minded, but not yet reducible.",
+                    "links": [
+                        {"title": "What Is Consciousness?", "path": "/philosophy-of-mind/what-is-consciousness/"},
+                    ],
+                },
+                {
+                    "era": "nineteenth",
+                    "label": "Embodiment, evolution, and lived experience",
+                    "mutation": "re-situates the subject",
+                    "gist": "Mind is increasingly treated as embodied, historical, and shaped by life-world rather than as a detached interior point.",
+                    "pressure": "Can consciousness be understood apart from the body, history, and environment?",
+                    "payoff": "Subjectivity becomes thicker and less ghostly.",
+                    "links": [
+                        {"title": "Where Consciousness Can & Must Emerge", "path": "/philosophy-of-mind/where-consciousness-can-must-emerge/"},
+                    ],
+                },
+                {
+                    "era": "contemporary",
+                    "label": "Consciousness resists simple reduction",
+                    "mutation": "splits into competing models",
+                    "gist": "Functionalist, computational, emergent, and phenomenological pictures compete, but felt experience keeps refusing easy elimination.",
+                    "pressure": "What would count as an explanation of consciousness rather than a relabeling of its correlates?",
+                    "payoff": "Mind is now the site where explanatory power and explanatory humility have to coexist.",
+                    "links": [
+                        {"title": "What Is Consciousness?", "path": "/philosophy-of-mind/what-is-consciousness/"},
+                        {"title": "Where Consciousness Can & Must Emerge", "path": "/philosophy-of-mind/where-consciousness-can-must-emerge/"},
+                    ],
+                },
+            ],
+        },
+        {
+            "id": "self-personhood",
+            "label": "Self and Personhood",
+            "family": "mind",
+            "summary": "The self moves from role and virtue to soul, inward continuity, autonomy, social construction, and contested identity.",
+            "question": "What makes a person the same person across change, and which features of that person deserve moral and political weight?",
+            "steps": [
+                {
+                    "era": "ancient",
+                    "label": "The self as character and role",
+                    "mutation": "starts from lived form",
+                    "gist": "Ancient thought often treats the self less as private identity and more as a pattern of judgment, role, and cultivated character.",
+                    "pressure": "What kind of person should one become?",
+                    "payoff": "Personhood begins ethically and politically, not just psychologically.",
+                    "links": [
+                        {"title": "Rationality and Free Will", "path": "/philosophy-of-mind/rationality-and-free-will/"},
+                    ],
+                },
+                {
+                    "era": "medieval",
+                    "label": "Personhood as soul-bearing dignity",
+                    "mutation": "grounds standing metaphysically",
+                    "gist": "The person is increasingly treated as a being with intrinsic standing because of rational soul, accountability, and relation to a larger order.",
+                    "pressure": "Why do persons matter in a way tools or animals do not?",
+                    "payoff": "Moral standing and metaphysical status become tightly linked.",
+                    "links": [
+                        {"title": "Morality and Human Rights", "path": "/ethics/morality-human-rights/"},
+                    ],
+                },
+                {
+                    "era": "early-modern",
+                    "label": "The inward, continuous self",
+                    "mutation": "turns inward",
+                    "gist": "Continuity of consciousness, ownership, and inner awareness become central to what counts as the same person over time.",
+                    "pressure": "Is personhood a matter of substance, memory, consciousness, or agency?",
+                    "payoff": "The self becomes more psychological and more portable.",
+                    "links": [
+                        {"title": "Free Will vs Determinism", "path": "/philosophy-of-mind/free-will-vs-determinism/"},
+                    ],
+                },
+                {
+                    "era": "enlightenment",
+                    "label": "The autonomous rights-bearer",
+                    "mutation": "politicizes dignity",
+                    "gist": "Personhood becomes linked to autonomy, responsibility, and equal standing in moral and political life.",
+                    "pressure": "What follows if persons are free and equal in principle?",
+                    "payoff": "The self becomes a political category as well as a metaphysical one.",
+                    "links": [
+                        {"title": "Morality and Human Rights", "path": "/ethics/morality-human-rights/"},
+                        {"title": "Identity Politics", "path": "/political-philosophy/identity-politics/"},
+                    ],
+                },
+                {
+                    "era": "nineteenth",
+                    "label": "The self under pressure from history and desire",
+                    "mutation": "fractures inward unity",
+                    "gist": "Class, repression, history, and social embeddedness undermine the idea of a fully transparent, self-owning subject.",
+                    "pressure": "How much of the self is authored, and how much inherited or produced?",
+                    "payoff": "Selfhood becomes a site of conflict rather than a settled possession.",
+                    "links": [
+                        {"title": "Identity Politics", "path": "/political-philosophy/identity-politics/"},
+                    ],
+                },
+                {
+                    "era": "contemporary",
+                    "label": "Selfhood becomes narrative, embodied, and contested",
+                    "mutation": "multiplies the lenses",
+                    "gist": "Personal identity is now read through embodiment, narrative continuity, social recognition, cognition, and political location all at once.",
+                    "pressure": "Which parts of identity track reality, and which are strategic, social, or aspirational constructions?",
+                    "payoff": "The concept is richer, but also far easier to use sloppily.",
+                    "links": [
+                        {"title": "Identity Politics", "path": "/political-philosophy/identity-politics/"},
+                        {"title": "Rationality and Free Will", "path": "/philosophy-of-mind/rationality-and-free-will/"},
+                    ],
+                },
+            ],
+        },
+        {
+            "id": "morality-normativity",
+            "label": "Morality and Normativity",
+            "family": "ethics",
+            "summary": "Normative thought travels from virtue and flourishing through law, duty, utility, suspicion, and contemporary disputes over realism and moral pressure.",
+            "question": "What kind of thing is an 'ought,' and how much authority should moral language really be allowed to carry?",
+            "steps": [
+                {
+                    "era": "ancient",
+                    "label": "Morality as flourishing and excellence",
+                    "mutation": "centers character",
+                    "gist": "Ancient ethics often begins with the shape of a good life rather than with command, guilt, or universal rule language.",
+                    "pressure": "What traits and habits make a human life go well?",
+                    "payoff": "Normativity begins from formation, not merely prohibition.",
+                    "links": [
+                        {"title": "What Are Ethics?", "path": "/ethics/what-are-ethics/"},
+                    ],
+                },
+                {
+                    "era": "medieval",
+                    "label": "Morality as law and ordered good",
+                    "mutation": "grounds the ought in order",
+                    "gist": "Natural law and divine law pull normativity into a framework where the good is objective, teleological, and morally binding.",
+                    "pressure": "Why should moral claims have authority rather than just advisory force?",
+                    "payoff": "Morality gains seriousness, but also heavy metaphysical baggage.",
+                    "links": [
+                        {"title": "Recommendations vs Moral Claims", "path": "/ethics/recommendations-vs-moral-claims/"},
+                    ],
+                },
+                {
+                    "era": "early-modern",
+                    "label": "Duty, sentiment, and contract compete",
+                    "mutation": "splits the sources",
+                    "gist": "Morality is now argued from reason, sentiment, social contract, divine command, and self-interest in rival ways.",
+                    "pressure": "Where does moral authority actually come from?",
+                    "payoff": "Normativity becomes contested rather than assumed.",
+                    "links": [
+                        {"title": "Recommendations vs Moral Claims", "path": "/ethics/recommendations-vs-moral-claims/"},
+                        {"title": "What Are Ethics?", "path": "/ethics/what-are-ethics/"},
+                    ],
+                },
+                {
+                    "era": "enlightenment",
+                    "label": "Universal duty and utility rise",
+                    "mutation": "scales the ought",
+                    "gist": "Moral thought seeks universal forms, whether through duty, rights, or calculations of overall welfare.",
+                    "pressure": "Can morality be made impartial without becoming bloodless or tyrannical?",
+                    "payoff": "The moral point of view expands, but demandingness and abstraction increase with it.",
+                    "links": [
+                        {"title": "Compassion vs Moral Systems", "path": "/ethics/compassion-vs-moral-systems/"},
+                        {"title": "Morality and Human Rights", "path": "/ethics/morality-human-rights/"},
+                    ],
+                },
+                {
+                    "era": "nineteenth",
+                    "label": "Morality comes under genealogy and critique",
+                    "mutation": "suspects its own nobility",
+                    "gist": "Moral systems are interrogated as historical products, power tools, sublimated drives, or socially useful fictions.",
+                    "pressure": "Is morality discovered, invented, weaponized, or all three at once?",
+                    "payoff": "Moral language loses its right to innocence.",
+                    "links": [
+                        {"title": "Fictional Meta-Ethics Debate", "path": "/ethics/fictional-meta-ethics-debate/"},
+                    ],
+                },
+                {
+                    "era": "contemporary",
+                    "label": "Normativity splits into realism, anti-realism, and humane skepticism",
+                    "mutation": "refuses easy authority",
+                    "gist": "Contemporary debate forces clear separation between recommendation, objective claim, social function, compassion, and bounded agency.",
+                    "pressure": "How do we remain morally serious without letting moral vocabulary counterfeit metaphysical authority?",
+                    "payoff": "This is where the site's skepticism toward moral systems becomes most explicit.",
+                    "links": [
+                        {"title": "Recommendations vs Moral Claims", "path": "/ethics/recommendations-vs-moral-claims/"},
+                        {"title": "Moral Realism and Intuition", "path": "/ethics/moral-realism-intuition/"},
+                        {"title": "Essay: Moral Anti-Realism", "path": "/ethics/essay-moral-anti-realism/"},
+                    ],
+                },
+            ],
+        },
+        {
+            "id": "justice-rights",
+            "label": "Justice and Rights",
+            "family": "politics",
+            "summary": "Justice moves from order and desert toward rights, equality, institutions, identity, and disputes about scale and legitimacy.",
+            "question": "What does a person or institution owe others, and on what basis can those claims be defended?",
+            "steps": [
+                {
+                    "era": "ancient",
+                    "label": "Justice as right order",
+                    "mutation": "begins with harmony",
+                    "gist": "Justice is first framed as a right arrangement of soul, role, and city rather than as a list of portable claims.",
+                    "pressure": "What makes a social order rightly ordered instead of merely strong?",
+                    "payoff": "Justice begins structurally, not just individually.",
+                    "links": [
+                        {"title": "Morality and Human Rights", "path": "/ethics/morality-human-rights/"},
+                    ],
+                },
+                {
+                    "era": "medieval",
+                    "label": "Justice inside hierarchy and law",
+                    "mutation": "moralizes order",
+                    "gist": "Justice is often tied to divine law, ranked social roles, and obligations that presume an already structured world.",
+                    "pressure": "Can hierarchy itself be just, and if so by what measure?",
+                    "payoff": "The concept carries authority, but not yet equality in the modern sense.",
+                    "links": [
+                        {"title": "Morality and Human Rights", "path": "/ethics/morality-human-rights/"},
+                    ],
+                },
+                {
+                    "era": "early-modern",
+                    "label": "Rights and contract emerge",
+                    "mutation": "portable-izes standing",
+                    "gist": "Justice starts to be conceived in terms of individuals with claims, protections, and consensual grounds of political authority.",
+                    "pressure": "What do persons possess prior to local custom or ruler preference?",
+                    "payoff": "Rights become morally and politically explosive.",
+                    "links": [
+                        {"title": "Morality and Human Rights", "path": "/ethics/morality-human-rights/"},
+                        {"title": "The Social Contract", "path": "/political-philosophy/the-social-contract/"},
+                    ],
+                },
+                {
+                    "era": "enlightenment",
+                    "label": "Justice becomes universalizable",
+                    "mutation": "broadens the constituency",
+                    "gist": "Liberty, equality, and rights are pushed beyond local order toward claims that aspire to general legitimacy.",
+                    "pressure": "What would a just order owe persons as persons?",
+                    "payoff": "Justice gains reach, though often unevenly applied.",
+                    "links": [
+                        {"title": "Morality and Human Rights", "path": "/ethics/morality-human-rights/"},
+                    ],
+                },
+                {
+                    "era": "nineteenth",
+                    "label": "Justice meets class, empire, and industry",
+                    "mutation": "expands the complaint list",
+                    "gist": "Industrial labor, nationalism, colonialism, and class conflict reveal that legal equality does not settle material or historical injustice.",
+                    "pressure": "Which injustices survive once formal rights are granted?",
+                    "payoff": "Justice becomes institutional and economic, not only juridical.",
+                    "links": [
+                        {"title": "Identity Politics", "path": "/political-philosophy/identity-politics/"},
+                    ],
+                },
+                {
+                    "era": "contemporary",
+                    "label": "Justice becomes plural, procedural, and contested",
+                    "mutation": "multiplies the standards",
+                    "gist": "Rights, recognition, procedure, distribution, harm, and identity all compete to define what justice requires.",
+                    "pressure": "How do we keep justice serious when every dispute wants its moral vocabulary?",
+                    "payoff": "The modern danger is not too few justice claims, but too many vague ones.",
+                    "links": [
+                        {"title": "Morality and Human Rights", "path": "/ethics/morality-human-rights/"},
+                        {"title": "Identity Politics", "path": "/political-philosophy/identity-politics/"},
+                    ],
+                },
+            ],
+        },
+        {
+            "id": "language-meaning",
+            "label": "Language and Meaning",
+            "family": "language",
+            "summary": "Meaning moves from naming and form toward semantics, convention, use, metaphor, framing, and political contest.",
+            "question": "How do words manage to say anything stable at all, and why do they so often drift precisely where the stakes are highest?",
+            "steps": [
+                {
+                    "era": "ancient",
+                    "label": "Naming, rhetoric, and form",
+                    "mutation": "starts with saying truly",
+                    "gist": "Language is already understood as both a route to truth and a tool of persuasion, which means meaning and misuse arrive together.",
+                    "pressure": "How can speech illuminate reality rather than merely move an audience?",
+                    "payoff": "The old worry about rhetoric never really leaves.",
+                    "links": [
+                        {"title": "What Is Language?", "path": "/philosophy-of-language/what-is-language/"},
+                    ],
+                },
+                {
+                    "era": "medieval",
+                    "label": "Signs, analogy, and interpretation",
+                    "mutation": "deepens the mediations",
+                    "gist": "Language is treated as a layered sign system whose meaning may be literal, analogical, contextual, or doctrinally loaded.",
+                    "pressure": "How can the same words reach finite and ultimate realities without collapsing into nonsense?",
+                    "payoff": "Meaning becomes more sophisticated, but also more dependent on interpretive discipline.",
+                    "links": [
+                        {"title": "Semantics: Convention vs Stipulation", "path": "/philosophy-of-language/semantics-convention-vs-stipulation/"},
+                    ],
+                },
+                {
+                    "era": "early-modern",
+                    "label": "Words and ideas are paired",
+                    "mutation": "represents inwardly",
+                    "gist": "Meaning is increasingly explained through ideas, mental content, and representation, which raises fresh questions about reference and distortion.",
+                    "pressure": "Do words mean by pointing to ideas, to things, to use, or to all three in some order?",
+                    "payoff": "Language becomes a problem of mediation, not just naming.",
+                    "links": [
+                        {"title": "What Is Language?", "path": "/philosophy-of-language/what-is-language/"},
+                        {"title": "Semantics: Convention vs Stipulation", "path": "/philosophy-of-language/semantics-convention-vs-stipulation/"},
+                    ],
+                },
+                {
+                    "era": "enlightenment",
+                    "label": "Clarity and public language matter more",
+                    "mutation": "civilizes discourse",
+                    "gist": "Language is increasingly judged by whether it supports clear public reasoning rather than mystification, obscurity, or priestly fog.",
+                    "pressure": "What kind of language helps a public think instead of merely defer?",
+                    "payoff": "Meaning becomes tied to intellectual hygiene.",
+                    "links": [
+                        {"title": "Connotative Equivocation", "path": "/philosophy-of-language/connotative-equivocation/"},
+                    ],
+                },
+                {
+                    "era": "nineteenth",
+                    "label": "Language becomes historical and metaphorical",
+                    "mutation": "thickens with culture",
+                    "gist": "Meaning is now seen as shaped by history, lived forms, metaphor, and culture rather than by timeless dictionary slots alone.",
+                    "pressure": "How much of meaning is discovered, and how much inherited in forms of life?",
+                    "payoff": "Language becomes less clean and more alive.",
+                    "links": [
+                        {"title": "Living by Metaphor", "path": "/philosophy-of-language/living-by-metaphor/"},
+                    ],
+                },
+                {
+                    "era": "contemporary",
+                    "label": "Meaning is contested through use, framing, and power",
+                    "mutation": "tracks drift aggressively",
+                    "gist": "Analytic semantics sharpens reference while public discourse keeps exploiting connotation, framing, and ambiguity for strategic gain.",
+                    "pressure": "How do we keep terms stable enough to think with when politics rewards semantic drift?",
+                    "payoff": "This is where precise language becomes an ethical as well as an epistemic duty.",
+                    "links": [
+                        {"title": "Semantics: Convention vs Stipulation", "path": "/philosophy-of-language/semantics-convention-vs-stipulation/"},
+                        {"title": "Connotative Equivocation", "path": "/philosophy-of-language/connotative-equivocation/"},
+                        {"title": "Living by Metaphor", "path": "/philosophy-of-language/living-by-metaphor/"},
+                    ],
+                },
+            ],
+        },
+    ],
+}
+
+STATIC_DISCOVERY_PAGES = [
+    {
+        "title": "Concept Timeline",
+        "section": "Sitewide Feature",
+        "path": "/concept-timeline/",
+        "summary": "An interactive history-of-ideas feature tracking how truth, knowledge, evidence, causation, mind, normativity, justice, and meaning change under new pressures.",
+        "tags": ["truth", "knowledge", "causation", "consciousness", "meta-ethics", "language", "logic", "doubt", "agency", "ideology"],
+    },
+]
+
+CONCEPT_TIMELINE_EXTRA_THREADS = [
+    {
+        "id": "skepticism-doubt",
+        "label": "Skepticism and Doubt",
+        "family": "knowledge",
+        "summary": "Doubt travels from caution about appearances to methodic skepticism, then toward bounded, responsible uncertainty.",
+        "question": "When does doubt protect inquiry, and when does it become a pose, a weapon, or a permanent refuge from conclusion?",
+        "steps": [
+            {
+                "era": "ancient",
+                "label": "Doubt begins as caution about appearance",
+                "mutation": "tests appearances",
+                "gist": "Early skepticism warns that things can seem otherwise than they are, so judgment needs restraint before assent.",
+                "pressure": "How much trust should we place in what first appears obvious?",
+                "payoff": "Doubt enters philosophy as discipline, not as theater.",
+                "links": [
+                    {"title": "What Is Doubt?", "path": "/epistemology/what-is-doubt/"},
+                    {"title": "What Is Knowledge?", "path": "/epistemology/what-is-knowledge/"},
+                ],
+            },
+            {
+                "era": "medieval",
+                "label": "Doubt is allowed only inside order",
+                "mutation": "subordinates uncertainty",
+                "gist": "Uncertainty may refine the mind, but it is usually contained inside a larger confidence about truth, authority, and revelation.",
+                "pressure": "Can inquiry question particulars without destabilizing the whole order?",
+                "payoff": "Doubt is tolerated only if it knows its station.",
+                "links": [
+                    {"title": "What Is Doubt?", "path": "/epistemology/what-is-doubt/"},
+                    {"title": "Do I Need a Worldview?", "path": "/philosophical-inquiry/do-i-need-a-worldview/"},
+                ],
+            },
+            {
+                "era": "early-modern",
+                "label": "Methodic doubt becomes a tool",
+                "mutation": "weaponizes uncertainty",
+                "gist": "Doubt is no longer just caution. It becomes a deliberate method for stripping away what cannot survive scrutiny.",
+                "pressure": "What remains once inherited certainty is suspended on purpose?",
+                "payoff": "Skepticism becomes productive because it is procedural.",
+                "links": [
+                    {"title": "What Is Doubt?", "path": "/epistemology/what-is-doubt/"},
+                    {"title": "What Is Belief?", "path": "/epistemology/what-is-belief/"},
+                ],
+            },
+            {
+                "era": "enlightenment",
+                "label": "Doubt becomes public discipline",
+                "mutation": "allocates burden",
+                "gist": "The question is no longer who feels sure, but who has earned the right to confidence in public argument.",
+                "pressure": "What should rational people withhold until evidence is adequate?",
+                "payoff": "Doubt starts doing civic as well as philosophical work.",
+                "links": [
+                    {"title": "The Burden of Proof", "path": "/epistemology/the-burden-of-proof/"},
+                    {"title": "Adequate Evidence", "path": "/epistemology/adequate-evidence/"},
+                ],
+            },
+            {
+                "era": "nineteenth",
+                "label": "Doubt turns suspicious of motives",
+                "mutation": "genealogizes certainty",
+                "gist": "Confidence itself becomes something to interrogate because institutions, classes, and desires can manufacture the look of necessity.",
+                "pressure": "What if certainty is socially produced rather than innocently found?",
+                "payoff": "Doubt widens from propositions to the powers behind them.",
+                "links": [
+                    {"title": "Personal Truth", "path": "/philosophical-inquiry/personal-truth/"},
+                    {"title": "Testing Ideologies", "path": "/philosophical-inquiry/testing-ideologies/"},
+                ],
+            },
+            {
+                "era": "contemporary",
+                "label": "Doubt has to be bounded",
+                "mutation": "disciplines uncertainty",
+                "gist": "Unlimited skepticism can distort thought as badly as dogmatism, so the real question becomes how to remain revisable without becoming inert.",
+                "pressure": "How much uncertainty is intellectually responsible, and how much is evasive?",
+                "payoff": "The mature form of doubt is calibrated, not endless.",
+                "links": [
+                    {"title": "What Is Doubt?", "path": "/epistemology/what-is-doubt/"},
+                    {"title": "Operational Epistemic Rigor", "path": "/epistemology/operational-epistemic-rigor/"},
+                    {"title": "I Don't Know", "path": "/epistemology/i-dont-know/"},
+                ],
+            },
+        ],
+    },
+    {
+        "id": "logic-inference",
+        "label": "Logic and Inference",
+        "family": "knowledge",
+        "summary": "Logic moves from valid forms and disciplined disputation toward symbolic systems, many-logics debates, and public fallacy hygiene.",
+        "question": "What has to remain stable in reasoning if disagreement is to be more than noise or rhetoric?",
+        "steps": [
+            {
+                "era": "ancient",
+                "label": "Logic emerges from form and disputation",
+                "mutation": "formalizes argument",
+                "gist": "Inference is first clarified through syllogism, contradiction, and the demand that conclusions follow rather than merely impress.",
+                "pressure": "What makes one step in thought licensed and another merely rhetorical?",
+                "payoff": "Reasoning becomes inspectable.",
+                "links": [
+                    {"title": "What Are Syllogisms?", "path": "/epistemology/what-are-syllogisms/"},
+                    {"title": "Many Logics", "path": "/epistemology/many-logics/"},
+                ],
+            },
+            {
+                "era": "medieval",
+                "label": "Logic becomes curricular and technical",
+                "mutation": "systematizes the moves",
+                "gist": "Medieval thinkers extend logical distinctions with impressive rigor, treating inference as a trainable discipline rather than casual cleverness.",
+                "pressure": "How fine-grained must logical tools become before they stop illuminating?",
+                "payoff": "Logic gains subtlety, though sometimes at the price of readability.",
+                "links": [
+                    {"title": "Many Logics", "path": "/epistemology/many-logics/"},
+                    {"title": "What Are Syllogisms?", "path": "/epistemology/what-are-syllogisms/"},
+                ],
+            },
+            {
+                "era": "early-modern",
+                "label": "Method competes with form",
+                "mutation": "cleans the inferential path",
+                "gist": "The focus shifts from scholastic proliferation toward rules of clear thought, reliable method, and suspicion of inherited verbal fog.",
+                "pressure": "Is valid form enough if the starting concepts are murky?",
+                "payoff": "Logic begins to share the stage with method.",
+                "links": [
+                    {"title": "Logic Wherever Structure", "path": "/philosophical-inquiry/logic-wherever-structure/"},
+                    {"title": "What Is Belief?", "path": "/epistemology/what-is-belief/"},
+                ],
+            },
+            {
+                "era": "enlightenment",
+                "label": "Public argument needs logical hygiene",
+                "mutation": "polices contradiction",
+                "gist": "Reasoning is expected to survive public criticism, not just private coherence, which makes fallacy-detection socially important.",
+                "pressure": "How do we expose bad arguments before they harden into authority?",
+                "payoff": "Logic becomes part of civic self-defense.",
+                "links": [
+                    {"title": "Dangers: Logical Fallacies", "path": "/philosophical-inquiry/dangers-logical-fallacies/"},
+                    {"title": "Categories of Questions", "path": "/rational-thought/categories-of-questions/"},
+                ],
+            },
+            {
+                "era": "nineteenth",
+                "label": "Logic meets history and language",
+                "mutation": "questions its innocence",
+                "gist": "Inference is still formal, but philosophers increasingly notice that language, psychology, and historical context affect how arguments travel.",
+                "pressure": "Is reasoning a timeless skeleton, or is it partly shaped by human practices?",
+                "payoff": "Logic keeps its edge while losing some innocence.",
+                "links": [
+                    {"title": "Many Logics", "path": "/epistemology/many-logics/"},
+                    {"title": "Living by Metaphor", "path": "/philosophy-of-language/living-by-metaphor/"},
+                ],
+            },
+            {
+                "era": "contemporary",
+                "label": "Logic pluralizes without dissolving",
+                "mutation": "branches and recalibrates",
+                "gist": "Symbolic logic, modal logic, probability, computation, and public fallacy analysis expand the inferential toolkit without canceling the need for basic validity.",
+                "pressure": "How many logics can we tolerate before logic becomes a vague compliment?",
+                "payoff": "The modern task is to preserve inferential discipline while admitting different formal jobs.",
+                "links": [
+                    {"title": "Many Logics", "path": "/epistemology/many-logics/"},
+                    {"title": "Dangers: Logical Fallacies", "path": "/philosophical-inquiry/dangers-logical-fallacies/"},
+                    {"title": "Core & Deep Rationality", "path": "/epistemology/core-deep-rationality/"},
+                ],
+            },
+        ],
+    },
+    {
+        "id": "objectivity-perspective",
+        "label": "Objectivity and Perspective",
+        "family": "reality",
+        "summary": "Objectivity moves from reality-tracking independence toward procedural, perspective-aware discipline rather than view-from-nowhere fantasy.",
+        "question": "How can inquiry remain answerable to reality when every knower approaches it from a standpoint?",
+        "steps": [
+            {
+                "era": "ancient",
+                "label": "Objectivity begins as reality outrunning opinion",
+                "mutation": "opposes mere seeming",
+                "gist": "The world is taken to have a structure that does not wait on human preference, even if access to it is uneven.",
+                "pressure": "How can thought conform to what is rather than to what flatters the speaker?",
+                "payoff": "Objectivity begins as resistance to mere perspective.",
+                "links": [
+                    {"title": "What Is Truth?", "path": "/philosophical-inquiry/what-is-truth/"},
+                    {"title": "What Is Knowledge?", "path": "/epistemology/what-is-knowledge/"},
+                ],
+            },
+            {
+                "era": "medieval",
+                "label": "Objectivity sits inside a larger order",
+                "mutation": "anchors in cosmos",
+                "gist": "Objectivity is strengthened by the belief that reality is intelligible in itself, not fabricated by the knower.",
+                "pressure": "What secures truth when the universe is presumed meaningful from top to bottom?",
+                "payoff": "Objectivity gains backing from metaphysics, not just method.",
+                "links": [
+                    {"title": "What Is Truth?", "path": "/philosophical-inquiry/what-is-truth/"},
+                    {"title": "Do I Need a Worldview?", "path": "/philosophical-inquiry/do-i-need-a-worldview/"},
+                ],
+            },
+            {
+                "era": "early-modern",
+                "label": "Perspective becomes a crisis",
+                "mutation": "discovers the gap",
+                "gist": "Once the subject becomes central, the relation between inner appearance and outer reality becomes newly unstable.",
+                "pressure": "How can a standpoint-limited knower reach a mind-independent world?",
+                "payoff": "Objectivity turns from assumption into problem.",
+                "links": [
+                    {"title": "What Is Belief?", "path": "/epistemology/what-is-belief/"},
+                    {"title": "Dualism vs Materialism", "path": "/metaphysics/dualismvsmaterialism/"},
+                ],
+            },
+            {
+                "era": "enlightenment",
+                "label": "Objectivity becomes public procedure",
+                "mutation": "externalizes the check",
+                "gist": "Objectivity is less a divine guarantee than a set of shared tests, criticisms, and standards that no one person privately owns.",
+                "pressure": "Which methods keep perspective from becoming authority?",
+                "payoff": "Public method becomes objectivity's practical backbone.",
+                "links": [
+                    {"title": "Adequate Evidence", "path": "/epistemology/adequate-evidence/"},
+                    {"title": "What Is Science?", "path": "/philosophy-of-science/what-is-science/"},
+                ],
+            },
+            {
+                "era": "nineteenth",
+                "label": "Objectivity becomes historical",
+                "mutation": "suspects neutrality",
+                "gist": "Philosophers and critics question whether allegedly neutral viewpoints are shaped by class, history, power, or inherited framing.",
+                "pressure": "Is neutrality real, or is it often a mask for local advantage?",
+                "payoff": "Objectivity has to answer suspicion, not merely dismiss it.",
+                "links": [
+                    {"title": "Testing Ideologies", "path": "/philosophical-inquiry/testing-ideologies/"},
+                    {"title": "Personal Truth", "path": "/philosophical-inquiry/personal-truth/"},
+                ],
+            },
+            {
+                "era": "contemporary",
+                "label": "Objectivity becomes disciplined constraint",
+                "mutation": "keeps perspective but checks it",
+                "gist": "The strongest view is neither naive neutrality nor pure subjectivism, but perspective made answerable to evidence, method, and counterargument.",
+                "pressure": "How do we keep standpoint from collapsing into relativism?",
+                "payoff": "Objectivity survives as a practice of constraint rather than a godlike perch.",
+                "links": [
+                    {"title": "Subjectivity Constrained by the Objective", "path": "/philosophy-of-mind/subjectivity-constrained-by-the-objective/"},
+                    {"title": "Science vs Subjectivity", "path": "/philosophy-of-science/science-vs-subjectivity/"},
+                    {"title": "Adequate Evidence", "path": "/epistemology/adequate-evidence/"},
+                ],
+            },
+        ],
+    },
+    {
+        "id": "freedom-agency",
+        "label": "Freedom and Agency",
+        "family": "mind",
+        "summary": "Agency moves from self-rule and character to will, determinism, social conditioning, and bounded responsibility.",
+        "question": "What does it mean to be an agent rather than a passenger of causes, instincts, or structures?",
+        "steps": [
+            {
+                "era": "ancient",
+                "label": "Freedom starts as self-rule",
+                "mutation": "governs the self",
+                "gist": "Agency is first understood through character, self-mastery, and the ability to let judgment rule appetite and impulse.",
+                "pressure": "What makes an action genuinely yours rather than merely impulsive?",
+                "payoff": "Freedom begins ethically before it becomes metaphysical.",
+                "links": [
+                    {"title": "Rationality and Free Will", "path": "/philosophy-of-mind/rationality-and-free-will/"},
+                ],
+            },
+            {
+                "era": "medieval",
+                "label": "Agency becomes a drama of will",
+                "mutation": "moralizes choice",
+                "gist": "Freedom is tied to sin, merit, intention, and accountability within a teleological order.",
+                "pressure": "How can a person be answerable if every action sits inside providence or nature?",
+                "payoff": "Agency becomes morally weighty, not just psychologically interesting.",
+                "links": [
+                    {"title": "Rationality and Free Will", "path": "/philosophy-of-mind/rationality-and-free-will/"},
+                    {"title": "Conditions for Culpability", "path": "/ethics/conditions-for-culpability/"},
+                ],
+            },
+            {
+                "era": "early-modern",
+                "label": "Freedom turns inward",
+                "mutation": "locates the chooser",
+                "gist": "The will is increasingly treated as an inner power that must be reconciled with mechanism, reason, and the emerging sciences.",
+                "pressure": "What sort of inner authorship would make responsibility intelligible?",
+                "payoff": "Free will becomes a proper metaphysical puzzle.",
+                "links": [
+                    {"title": "Free Will vs Determinism", "path": "/philosophy-of-mind/free-will-vs-determinism/"},
+                    {"title": "Rationality and Free Will", "path": "/philosophy-of-mind/rationality-and-free-will/"},
+                ],
+            },
+            {
+                "era": "enlightenment",
+                "label": "Agency becomes autonomy",
+                "mutation": "publicizes responsibility",
+                "gist": "Freedom is linked to rational self-legislation, accountability, and the dignity of persons who can answer for what they do.",
+                "pressure": "What kind of self-governance is required for moral and political standing?",
+                "payoff": "Agency becomes central to modern responsibility.",
+                "links": [
+                    {"title": "Rationality and Free Will", "path": "/philosophy-of-mind/rationality-and-free-will/"},
+                    {"title": "Morality and Human Rights", "path": "/ethics/morality-human-rights/"},
+                ],
+            },
+            {
+                "era": "nineteenth",
+                "label": "Agency meets history and drives",
+                "mutation": "thickens the constraints",
+                "gist": "Desire, class, repression, and social conditioning make the self look less transparent and less sovereign than earlier models assumed.",
+                "pressure": "How much authorship survives once motives and structures are taken seriously?",
+                "payoff": "Freedom can no longer be discussed as if context were scenery.",
+                "links": [
+                    {"title": "Free Will vs Determinism", "path": "/philosophy-of-mind/free-will-vs-determinism/"},
+                    {"title": "Identity Politics", "path": "/political-philosophy/identity-politics/"},
+                ],
+            },
+            {
+                "era": "contemporary",
+                "label": "Agency becomes bounded and contested",
+                "mutation": "recalibrates responsibility",
+                "gist": "Neuroscience, compatibilism, psychology, and social theory all pressure the idea of a cleanly unconstrained chooser.",
+                "pressure": "What remains of responsibility once constraint is everywhere?",
+                "payoff": "The serious view is neither total magic nor total helplessness.",
+                "links": [
+                    {"title": "Free Will vs Determinism", "path": "/philosophy-of-mind/free-will-vs-determinism/"},
+                    {"title": "Rationality and Free Will", "path": "/philosophy-of-mind/rationality-and-free-will/"},
+                    {"title": "Conditions for Culpability", "path": "/ethics/conditions-for-culpability/"},
+                ],
+            },
+        ],
+    },
+    {
+        "id": "power-ideology",
+        "label": "Power and Ideology",
+        "family": "politics",
+        "summary": "Ideology evolves from civic formation and doctrinal order into critique of power, manufactured consensus, and cognitive enclosure.",
+        "question": "When do shared frameworks help thought, and when do they start scripting perception before argument even begins?",
+        "steps": [
+            {
+                "era": "ancient",
+                "label": "Formation begins before argument",
+                "mutation": "educates the citizen",
+                "gist": "Myth, civic ritual, and moral training shape what feels obvious long before explicit reasoning begins.",
+                "pressure": "How much of judgment is already formed by the stories a culture hands you?",
+                "payoff": "Ideology begins as a formation problem, not just a propaganda problem.",
+                "links": [
+                    {"title": "How Minds Are Changed", "path": "/philosophical-inquiry/how-minds-are-changed/"},
+                    {"title": "Testing Ideologies", "path": "/philosophical-inquiry/testing-ideologies/"},
+                ],
+            },
+            {
+                "era": "medieval",
+                "label": "Doctrine orders the frame",
+                "mutation": "stabilizes orthodoxy",
+                "gist": "Shared belief systems do not just answer questions; they define which questions can be asked without penalty.",
+                "pressure": "What happens when worldview and social order are woven together?",
+                "payoff": "Frameworks become self-protective before they become explicit arguments.",
+                "links": [
+                    {"title": "Do I Need a Worldview?", "path": "/philosophical-inquiry/do-i-need-a-worldview/"},
+                    {"title": "Dangers: Siloed Ideologies", "path": "/philosophical-inquiry/dangers-siloed-ideologies/"},
+                ],
+            },
+            {
+                "era": "early-modern",
+                "label": "Power centralizes the frame",
+                "mutation": "engineers legitimacy",
+                "gist": "States, churches, and confessional systems increasingly treat belief-management as part of political order.",
+                "pressure": "Who gets to define the default picture of reality for everyone else?",
+                "payoff": "Ideology becomes visibly political as well as theological.",
+                "links": [
+                    {"title": "The Social Contract", "path": "/political-philosophy/the-social-contract/"},
+                    {"title": "Testing Ideologies", "path": "/philosophical-inquiry/testing-ideologies/"},
+                ],
+            },
+            {
+                "era": "enlightenment",
+                "label": "Critique challenges inherited frames",
+                "mutation": "asks who benefits",
+                "gist": "Authority is no longer presumed innocent, and frameworks begin to face public demands for justification.",
+                "pressure": "How do you expose a system that has made itself look natural?",
+                "payoff": "Ideology becomes criticizable rather than merely inhabitable.",
+                "links": [
+                    {"title": "The Mindset of the Honest Seeker", "path": "/philosophical-inquiry/the-mindset-of-the-honest-seeker/"},
+                    {"title": "Testing Ideologies", "path": "/philosophical-inquiry/testing-ideologies/"},
+                ],
+            },
+            {
+                "era": "nineteenth",
+                "label": "Ideology becomes structural critique",
+                "mutation": "tracks false necessity",
+                "gist": "The concept now names frameworks that disguise historical arrangements as natural, rational, or inevitable.",
+                "pressure": "What if domination works best when it feels like common sense?",
+                "payoff": "Power is no longer only coercive; it is interpretive.",
+                "links": [
+                    {"title": "Dangers: Siloed Ideologies", "path": "/philosophical-inquiry/dangers-siloed-ideologies/"},
+                    {"title": "Testing Ideologies", "path": "/philosophical-inquiry/testing-ideologies/"},
+                ],
+            },
+            {
+                "era": "contemporary",
+                "label": "Ideology becomes networked and recursive",
+                "mutation": "scripts perception",
+                "gist": "Media systems, identity formation, algorithmic feeds, and moralized group narratives can pre-sort reality before debate even begins.",
+                "pressure": "How do you reason with a framework that filters its own refutations out of view?",
+                "payoff": "The modern problem is not just false belief, but sealed interpretive ecosystems.",
+                "links": [
+                    {"title": "Dangers: Siloed Ideologies", "path": "/philosophical-inquiry/dangers-siloed-ideologies/"},
+                    {"title": "Identity Politics", "path": "/political-philosophy/identity-politics/"},
+                    {"title": "AI in Public Discourse", "path": "/philosophy-of-ai/ai-in-public-discourse/"},
+                ],
+            },
+        ],
+    },
+]
+
+CONCEPT_TIMELINE_THREAD_ENHANCEMENTS = {
+    "truth": {
+        "throughline": "Truth keeps asking whether claims answer to reality or merely to a human vantage point.",
+        "modernTrap": "Sincerity, identity, or usefulness often masquerade as truth when public standards get weak.",
+        "readerCue": "Use this track when a dispute keeps sliding from what is true to who gets to own the story.",
+    },
+    "knowledge": {
+        "throughline": "Knowledge keeps demanding more than confident belief, even when the threshold keeps shifting.",
+        "modernTrap": "Borrowed certainty from institutions, vibes, or repeated slogans gets dressed up as knowledge.",
+        "readerCue": "Use this track when someone says 'we know' but the support feels foggy or secondhand.",
+    },
+    "evidence-method": {
+        "throughline": "Evidence never travels alone; methods quietly decide what is allowed to count.",
+        "modernTrap": "Cherry-picked anecdotes or data theater often pretend to be method.",
+        "readerCue": "Use this track when an argument waves at evidence without explaining the discipline behind it.",
+    },
+    "rationality-credence": {
+        "throughline": "Rationality keeps shifting from virtue and self-command toward calibration, updating, and bounded judgment.",
+        "modernTrap": "Binary certainty shows up where a gradient of credence would be the honest answer.",
+        "readerCue": "Use this track when people act as if uncertainty disqualifies judgment rather than refining it.",
+    },
+    "causation": {
+        "throughline": "Causation keeps asking what licenses the move from pattern to power.",
+        "modernTrap": "Correlation, narrative neatness, or moral blame often get smuggled in as causal proof.",
+        "readerCue": "Use this track when a chain of events is being narrated as if it explained itself.",
+    },
+    "mind-consciousness": {
+        "throughline": "Consciousness never stops forcing the question of what experience is made of and where it belongs.",
+        "modernTrap": "Neural correlation is too often mistaken for a finished explanation of experience.",
+        "readerCue": "Use this track when a discussion of mind becomes too breezy about subjectivity.",
+    },
+    "self-personhood": {
+        "throughline": "Personhood keeps oscillating between metaphysical status, psychological continuity, and social recognition.",
+        "modernTrap": "Too many questions about identity get packed into one overloaded word.",
+        "readerCue": "Use this track when debates about the self start mixing memory, agency, dignity, and politics.",
+    },
+    "morality-normativity": {
+        "throughline": "Normativity keeps returning to the question of what gives an ought real authority.",
+        "modernTrap": "Moral language often smuggles in certainty it has not earned.",
+        "readerCue": "Use this track when compassion, blame, duty, and objective truth are being run together.",
+    },
+    "justice-rights": {
+        "throughline": "Justice keeps expanding from order and desert toward claims, institutions, and recognition.",
+        "modernTrap": "Not every grievance becomes self-validating simply because it borrows the language of rights.",
+        "readerCue": "Use this track when a political claim needs to distinguish injury, injustice, and remedy.",
+    },
+    "language-meaning": {
+        "throughline": "Meaning keeps balancing stability against drift, metaphor, and strategic use.",
+        "modernTrap": "A contested word gets treated as clear simply because it feels familiar.",
+        "readerCue": "Use this track when the disagreement may really be a fight over language rather than substance.",
+    },
+    "skepticism-doubt": {
+        "throughline": "Doubt helps only when it remains answerable to inquiry instead of replacing it.",
+        "modernTrap": "Permanent suspension is too easily mistaken for intellectual seriousness.",
+        "readerCue": "Use this track when either certainty or skepticism is being theatrically overplayed.",
+    },
+    "logic-inference": {
+        "throughline": "Logic keeps demanding that reasons actually follow, not merely sound forceful.",
+        "modernTrap": "Rhetorical confidence regularly gets mistaken for inferential discipline.",
+        "readerCue": "Use this track when an argument feels sharp but the steps are missing.",
+    },
+    "objectivity-perspective": {
+        "throughline": "Objectivity survives by constraining perspective, not by denying that perspective exists.",
+        "modernTrap": "Debates swing between fake omniscience and lazy relativism.",
+        "readerCue": "Use this track when a discussion is stuck between 'everything is subjective' and a bogus view from nowhere.",
+    },
+    "freedom-agency": {
+        "throughline": "Agency keeps trying to survive inside causal, social, and psychological pressure.",
+        "modernTrap": "Responsibility is too often treated as either absolute magic or total illusion.",
+        "readerCue": "Use this track when freedom is being discussed with no serious account of constraint.",
+    },
+    "power-ideology": {
+        "throughline": "Ideology matters most before explicit argument, when it organizes what seems natural.",
+        "modernTrap": "A framework scripts the conclusion before evidence is even allowed into the room.",
+        "readerCue": "Use this track when a worldview seems designed to immunize itself from outside correction.",
+    },
+}
+
+
+def concept_timeline_dataset() -> dict:
+    threads = []
+    for thread in [*CONCEPT_TIMELINE_DATA["threads"], *CONCEPT_TIMELINE_EXTRA_THREADS]:
+        merged = {
+            key: ([dict(item) for item in value] if key == "steps" else value)
+            for key, value in thread.items()
+        }
+        merged.update(CONCEPT_TIMELINE_THREAD_ENHANCEMENTS.get(thread["id"], {}))
+        threads.append(merged)
+    return {
+        "defaultThread": CONCEPT_TIMELINE_DATA["defaultThread"],
+        "eras": [dict(era) for era in CONCEPT_TIMELINE_DATA["eras"]],
+        "families": [dict(family) for family in CONCEPT_TIMELINE_DATA["families"]],
+        "threads": threads,
+    }
+
+
+CONCEPT_TIMELINE_READING_ROUTES = [
+    {
+        "id": "truth-under-pressure",
+        "audience": "Public discourse",
+        "difficulty": "Foundational",
+        "length": "3 pages",
+        "title": "When truth gets personalized",
+        "summary": "Use this route when public language about truth starts sounding intimate, therapeutic, or tribal instead of answerable to reality.",
+        "best_for": "readers who want to separate perspective, sincerity, and identity from the harder question of what is actually true",
+        "central_question": "What keeps truth objective once convenience, loyalty, and self-description start tugging on the word?",
+        "outcome": "You should be able to say why personal perspective matters without letting truth collapse into possession.",
+        "steps": [
+            {
+                "title": "What Is Truth?",
+                "path": "/philosophical-inquiry/what-is-truth/",
+                "reason": "Start with the basic demand that a claim answer to reality rather than mood or usefulness.",
+            },
+            {
+                "title": "Personal Truth",
+                "path": "/philosophical-inquiry/personal-truth/",
+                "reason": "Then isolate the modern confusion where perspective and truth start getting blended together.",
+            },
+            {
+                "title": "Dangers: Siloed Ideologies",
+                "path": "/philosophical-inquiry/dangers-siloed-ideologies/",
+                "reason": "Finish by seeing how a framework can filter correction out before the argument has even begun.",
+            },
+        ],
+    },
+    {
+        "id": "evidence-before-certainty",
+        "audience": "Epistemic discipline",
+        "difficulty": "Foundational",
+        "length": "3 pages",
+        "title": "Evidence before certainty",
+        "summary": "This route is for readers who want a cleaner grip on what knowledge requires once confidence starts outrunning support.",
+        "best_for": "sorting out belief, justification, and why the feeling of obviousness does not count as a credential",
+        "central_question": "When does a belief deserve confidence, and when is it mostly social or psychological momentum?",
+        "outcome": "You should come away better able to distinguish knowledge from strong but under-argued conviction.",
+        "steps": [
+            {
+                "title": "What Is Knowledge?",
+                "path": "/epistemology/what-is-knowledge/",
+                "reason": "Begin with the difference between merely thinking something and earning the right to say you know it.",
+            },
+            {
+                "title": "Adequate Evidence",
+                "path": "/epistemology/adequate-evidence/",
+                "reason": "Then ask what level and kind of support the claim actually needs.",
+            },
+            {
+                "title": "The Burden of Proof",
+                "path": "/epistemology/the-burden-of-proof/",
+                "reason": "End with the practical rule that keeps inquiry from rewarding assertion alone.",
+            },
+        ],
+    },
+    {
+        "id": "science-without-theater",
+        "audience": "Method and explanation",
+        "difficulty": "Foundational",
+        "length": "3 pages",
+        "title": "Science without theater",
+        "summary": "Take this route if you want a leaner sense of how science earns trust without being inflated into a total worldview.",
+        "best_for": "readers who want method, evidence, and explanation kept clear of branding, scientism, or data theater",
+        "central_question": "What makes scientific reasoning strong, and where are its limits?",
+        "outcome": "You should be able to say what science is good at, how it fails, and why correlation is not yet causation.",
+        "steps": [
+            {
+                "title": "What Is Science?",
+                "path": "/philosophy-of-science/what-is-science/",
+                "reason": "Start with the public, self-correcting habits that make science more than just impressive technology.",
+            },
+            {
+                "title": "What Is Falsifiability?",
+                "path": "/philosophy-of-science/what-is-falsifiability/",
+                "reason": "Then focus on one of the main ways inquiry keeps itself open to refutation.",
+            },
+            {
+                "title": "Correlation and Causation",
+                "path": "/philosophy-of-science/correlation-and-causation/",
+                "reason": "Finish with the everyday reasoning mistake that most quickly turns data into wishful explanation.",
+            },
+        ],
+    },
+    {
+        "id": "mind-freedom-responsibility",
+        "audience": "Mind and agency",
+        "difficulty": "Intermediate",
+        "length": "3 pages",
+        "title": "Mind, freedom, and responsibility",
+        "summary": "Use this route when questions about consciousness and free will are starting to blur into moral blame or metaphysical fog.",
+        "best_for": "readers who want a more disciplined picture of selfhood, agency, and what responsibility can reasonably ask of a human being",
+        "central_question": "How much authorship is enough for responsibility once biology, psychology, and social constraint are taken seriously?",
+        "outcome": "You should finish with a sharper sense of how agency can be bounded without becoming meaningless.",
+        "steps": [
+            {
+                "title": "What Is Consciousness?",
+                "path": "/philosophy-of-mind/what-is-consciousness/",
+                "reason": "Begin by clarifying the phenomenon before attaching it to moral or metaphysical conclusions.",
+            },
+            {
+                "title": "Free Will vs Determinism",
+                "path": "/philosophy-of-mind/free-will-vs-determinism/",
+                "reason": "Then press the problem of authorship under causal pressure.",
+            },
+            {
+                "title": "Conditions for Culpability",
+                "path": "/ethics/conditions-for-culpability/",
+                "reason": "End where the debate starts affecting how blame and responsibility should actually be handled.",
+            },
+        ],
+    },
+    {
+        "id": "meaning-framing-language",
+        "audience": "Language and framing",
+        "difficulty": "Foundational",
+        "length": "3 pages",
+        "title": "Meaning, framing, and public language",
+        "summary": "Take this route if the same words keep showing up in debates while the underlying meanings quietly drift.",
+        "best_for": "readers who want to understand how ordinary language carries hidden frames, inherited usage, and semantic shortcuts",
+        "central_question": "How do words guide thought without being allowed to smuggle conclusions in for free?",
+        "outcome": "You should be better able to notice when a dispute is genuinely factual and when it is partly semantic or metaphorical.",
+        "steps": [
+            {
+                "title": "What Is Language?",
+                "path": "/philosophy-of-language/what-is-language/",
+                "reason": "Start with language as a tool for coordination, thought, and shared constraint.",
+            },
+            {
+                "title": "Semantics: Convention vs Stipulation",
+                "path": "/philosophy-of-language/semantics-convention-vs-stipulation/",
+                "reason": "Then ask how meanings are inherited, revised, and sometimes hijacked.",
+            },
+            {
+                "title": "Living by Metaphor",
+                "path": "/philosophy-of-language/living-by-metaphor/",
+                "reason": "Finish with the deeper point that people often reason through pictures before they reason through explicit claims.",
+            },
+        ],
+    },
+    {
+        "id": "moral-language-without-magic",
+        "audience": "Ethics and meta-ethics",
+        "difficulty": "Intermediate",
+        "length": "3 pages",
+        "title": "Moral language without magic",
+        "summary": "Use this route when moral talk feels important but the metaphysical force behind it remains unclear or overstated.",
+        "best_for": "readers who want to keep recommendations, values, rights, and objective moral claims from collapsing into each other",
+        "central_question": "What exactly is being claimed when someone says an action is morally wrong?",
+        "outcome": "You should finish with a cleaner distinction between practical moral guidance and stronger moral-realist commitments.",
+        "steps": [
+            {
+                "title": "Recommendations vs Moral Claims",
+                "path": "/ethics/recommendations-vs-moral-claims/",
+                "reason": "Begin with the distinction between advising, preferring, and declaring objective moral facts.",
+            },
+            {
+                "title": "Morality and Human Rights",
+                "path": "/ethics/morality-human-rights/",
+                "reason": "Then test how moral language behaves once it is tied to social and political claims about persons.",
+            },
+            {
+                "title": "Meta-Ethics",
+                "path": "/ethics/meta-ethics/",
+                "reason": "Finish with the broader map of realism, anti-realism, and what moral language is even trying to do.",
+            },
+        ],
+    },
 ]
 
 
@@ -17942,6 +19509,409 @@ def render_glossary_page() -> str:
     )
 
 
+def concept_timeline_thread(thread_id: str | None = None, dataset: dict | None = None) -> dict:
+    dataset = dataset or concept_timeline_dataset()
+    target = thread_id or dataset["defaultThread"]
+    for thread in dataset["threads"]:
+        if thread["id"] == target:
+            return thread
+    return dataset["threads"][0]
+
+
+def concept_timeline_step_id(thread: dict, step: dict) -> str:
+    return f"{thread['id']}:{step['era']}"
+
+
+def concept_timeline_family(dataset: dict, family_id: str) -> dict:
+    return next(
+        (family for family in dataset["families"] if family["id"] == family_id),
+        {"id": family_id, "label": family_id.replace("-", " ").title(), "summary": ""},
+    )
+
+
+def concept_timeline_section_label(path: str) -> str:
+    parts = [part for part in path.strip("/").split("/") if part]
+    if not parts:
+        return "Byteseismic"
+    section_meta = SECTION_META.get(parts[0])
+    return section_meta["name"] if section_meta else "Byteseismic"
+
+
+def concept_timeline_jump_links(thread: dict) -> list[tuple[dict, dict]]:
+    seen: set[str] = set()
+    cards: list[tuple[dict, dict]] = []
+    for step in reversed(thread.get("steps", [])):
+        for link in step.get("links", []):
+            path = link.get("path", "")
+            if not path or path in seen:
+                continue
+            seen.add(path)
+            cards.append((link, step))
+    return cards[:4]
+
+
+def render_concept_timeline_jump_cards(thread: dict, prefix: str) -> str:
+    cards = []
+    for link, step in concept_timeline_jump_links(thread):
+        cards.append(
+            textwrap.dedent(
+                f"""\
+                <a class="route-picker__item" href="{html.escape(internal_article_href(prefix, link['path']))}">
+                  <span class="route-picker__meta">{html.escape(concept_timeline_section_label(link['path']))}</span>
+                  <strong>{html.escape(link['title'])}</strong>
+                  <span>{render_inline_text(step['payoff'])}</span>
+                </a>"""
+            )
+        )
+    return "\n".join(cards)
+
+
+def render_concept_timeline_filter_buttons(active_thread: dict, dataset: dict) -> tuple[str, str]:
+    family_buttons = []
+    thread_buttons = []
+    active_family = concept_timeline_family(dataset, active_thread["family"])
+    for family in dataset["families"]:
+        family_threads = [thread for thread in dataset["threads"] if thread["family"] == family["id"]]
+        active = family["id"] == active_thread["family"]
+        family_buttons.append(
+            textwrap.dedent(
+                f"""\
+                <button
+                  class="concept-filter concept-filter--family{' is-active' if active else ''}"
+                  type="button"
+                  data-timeline-family="{html.escape(family['id'])}"
+                  aria-pressed="{str(active).lower()}"
+                >
+                  <span class="concept-filter__label">{html.escape(family['label'])}</span>
+                  <span class="concept-filter__meta">{len(family_threads)} tracks</span>
+                </button>"""
+            )
+        )
+
+    for thread in dataset["threads"]:
+        if thread["family"] != active_thread["family"]:
+            continue
+        active = thread["id"] == active_thread["id"]
+        thread_buttons.append(
+            textwrap.dedent(
+                f"""\
+                <button
+                  class="concept-filter concept-filter--thread{' is-active' if active else ''}"
+                  type="button"
+                  data-timeline-thread="{html.escape(thread['id'])}"
+                  data-family="{html.escape(thread['family'])}"
+                  aria-pressed="{str(active).lower()}"
+                >
+                  <span class="concept-filter__label">{html.escape(thread['label'])}</span>
+                  <span class="concept-filter__meta">{html.escape(active_family['label'])}</span>
+                </button>"""
+            )
+        )
+
+    return "\n".join(family_buttons), "\n".join(thread_buttons)
+
+
+def render_concept_timeline_lineage(thread: dict, active_step_id: str, dataset: dict) -> str:
+    entries = []
+    for era in dataset["eras"]:
+        step = next((candidate for candidate in thread["steps"] if candidate["era"] == era["id"]), None)
+        if step is None:
+            continue
+        step_id = concept_timeline_step_id(thread, step)
+        active = step_id == active_step_id
+        entries.append(
+            textwrap.dedent(
+                f"""\
+                <button
+                  class="concept-lineage__step{' is-active' if active else ''}"
+                  type="button"
+                  data-timeline-entry="{html.escape(step_id)}"
+                  aria-pressed="{str(active).lower()}"
+                >
+                  <span class="concept-lineage__era">{html.escape(era['label'])}</span>
+                  <strong>{html.escape(step['mutation'])}</strong>
+                  <span>{html.escape(step['label'])}</span>
+                </button>"""
+            )
+        )
+    return "\n".join(entries)
+
+
+def render_concept_timeline_grid(thread: dict, prefix: str, active_step_id: str, dataset: dict) -> str:
+    cards = []
+    for era in dataset["eras"]:
+        step = next((candidate for candidate in thread["steps"] if candidate["era"] == era["id"]), None)
+        if step is None:
+            continue
+        step_id = concept_timeline_step_id(thread, step)
+        active = step_id == active_step_id
+        link_html = "\n".join(
+            f'                      <a class="text-link" href="{html.escape(internal_article_href(prefix, link["path"]))}">{html.escape(link["title"])}</a>'
+            for link in step.get("links", [])[:3]
+        )
+        cards.append(
+            textwrap.dedent(
+                f"""\
+                <article class="concept-era-card">
+                  <p class="eyebrow">{html.escape(era['label'])}</p>
+                  <h3>{html.escape(era['dates'])}</h3>
+                  <button
+                    class="concept-era-entry{' is-active' if active else ''}"
+                    type="button"
+                    data-timeline-entry="{html.escape(step_id)}"
+                    aria-pressed="{str(active).lower()}"
+                  >
+                    <span class="concept-era-entry__verb">{html.escape(step['mutation'])}</span>
+                    <strong>{html.escape(step['label'])}</strong>
+                    <span>{html.escape(step['pressure'])}</span>
+                  </button>
+                  <p>{render_inline_text(step['gist'])}</p>
+                  <div class="concept-era-card__links">
+{link_html}
+                  </div>
+                </article>"""
+            )
+        )
+    return "\n".join(cards)
+
+
+def render_concept_timeline_spotlight(thread: dict, prefix: str, active_step_id: str, dataset: dict) -> str:
+    step = next(
+        (candidate for candidate in thread["steps"] if concept_timeline_step_id(thread, candidate) == active_step_id),
+        thread["steps"][-1],
+    )
+    era = next((candidate for candidate in dataset["eras"] if candidate["id"] == step["era"]), None)
+    links_html = "\n".join(
+        f'              <a class="button button--ghost" href="{html.escape(internal_article_href(prefix, link["path"]))}">{html.escape(link["title"])}</a>'
+        for link in step.get("links", [])[:3]
+    )
+    return textwrap.dedent(
+        f"""\
+        <div class="concept-spotlight__panel">
+          <p class="eyebrow">Selected shift</p>
+          <p class="concept-spotlight__era">{html.escape(era["label"] if era else step["era"].replace("-", " ").title())}{" · " + html.escape(era["dates"]) if era and era.get("dates") else ""}</p>
+          <h3>{html.escape(step['label'])}</h3>
+          <p>{render_inline_text(step['gist'])}</p>
+          <div class="concept-spotlight__grid">
+            <div>
+              <p class="mini-label">Pressure</p>
+              <p>{render_inline_text(step['pressure'])}</p>
+            </div>
+            <div>
+              <p class="mini-label">Why it matters</p>
+              <p>{render_inline_text(step['payoff'])}</p>
+            </div>
+          </div>
+          <div class="concept-spotlight__notes">
+            <div>
+              <p class="mini-label">Throughline</p>
+              <p>{render_inline_text(thread.get('throughline', thread['summary']))}</p>
+            </div>
+            <div>
+              <p class="mini-label">Modern trap</p>
+              <p>{render_inline_text(thread.get('modernTrap', 'A live concept is easiest to misuse when a familiar word is doing three jobs at once.'))}</p>
+            </div>
+            <div>
+              <p class="mini-label">Use it when</p>
+              <p>{render_inline_text(thread.get('readerCue', 'Use the timeline when a present-day dispute sounds familiar but still feels semantically slippery.'))}</p>
+            </div>
+          </div>
+          <div class="concept-spotlight__links">
+{links_html}
+          </div>
+        </div>"""
+    )
+
+
+def render_concept_timeline_page() -> str:
+    prefix = "../"
+    dataset = concept_timeline_dataset()
+    active_thread = concept_timeline_thread(dataset=dataset)
+    active_family = concept_timeline_family(dataset, active_thread["family"])
+    active_step_id = concept_timeline_step_id(active_thread, active_thread["steps"][-1])
+    signals_html = render_page_signals(
+        archive_page_signal_items(
+            scope="Sitewide",
+            scope_href="../index.html",
+            page_form="Interactive concept timeline",
+            best_for="tracking how major concepts mutate under new pressures across centuries",
+            difficulty="Foundational to intermediate",
+        )
+    )
+    timeline_head = render_seo_head(
+        title="Concept Timeline",
+        description="An interactive Byteseismic timeline showing how philosophical concepts such as truth, knowledge, doubt, logic, causation, agency, ideology, consciousness, justice, and normativity evolve across centuries.",
+        path="/concept-timeline/",
+        prefix=prefix,
+        page_type="website",
+        extra_json_ld=[breadcrumb_json_ld([("Home", "/"), ("Concept Timeline", "/concept-timeline/")])],
+    )
+    breadcrumbs = breadcrumb_trail_html(
+        [
+            ("Home", "../index.html"),
+            ("Concept Timeline", "../concept-timeline/"),
+        ]
+    )
+    family_buttons, thread_buttons = render_concept_timeline_filter_buttons(active_thread, dataset)
+    future_tags = "\n".join(
+        f"                    {tag_archive_link(tag, prefix)}" for tag in STATIC_DISCOVERY_PAGES[0]["tags"]
+    )
+    timeline_json = json.dumps(dataset, separators=(",", ":"), ensure_ascii=False)
+    return textwrap.dedent(
+        f"""\
+        {AUTO_MARKER}
+        <!DOCTYPE html>
+        <html lang="en">
+          <head>
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+{timeline_head}
+          </head>
+          <body data-page-type="archive" data-current-page="/concept-timeline/">
+            <script>window.BYTESEISMIC_CONCEPT_TIMELINE={timeline_json};</script>
+            <div class="page-shell">
+              <header class="hero hero--article">
+{render_hero_image(prefix)}
+                <div class="hero__content">
+                  <div class="breadcrumbs">
+                    {breadcrumbs}
+                  </div>
+                  <p class="hero__kicker">History of Ideas</p>
+                  <h1>Concept Timeline</h1>
+                  <p class="article-standfirst">
+                    This page follows big concepts through the centuries. Pick truth, knowledge, doubt, logic, causation, agency, ideology, mind, morality, justice, or meaning, then watch the problem change as the historical pressure changes.
+                  </p>
+{signals_html}
+                </div>
+              </header>
+
+              <div class="article-layout article-layout--single">
+                <main class="article-stack">
+                  <section id="orientation" class="content-card">
+                    <p class="eyebrow">How to Read It</p>
+                    <h2>Watch for mutation, not just succession.</h2>
+                    <p>
+                      A concept usually does not disappear and then get replaced by a tidy successor. It gets stretched, theologized, mechanized, democratized, psychologized, historicized, or formalized. This page is built to make that drift visible.
+                    </p>
+                    <p>
+                      Do not read this as a filing cabinet. Read it as a map of inherited layers: why the concept means what it means now, which older meanings still cling to it, and where public debates go crooked when those layers get mixed together.
+                    </p>
+                  </section>
+
+                  <section id="timeline-explorer" class="content-card concept-timeline-shell" data-concept-timeline data-active-family="{html.escape(active_thread['family'])}" data-default-thread="{html.escape(active_thread['id'])}">
+                    <div class="section-heading concept-timeline-shell__heading">
+                      <div>
+                        <p class="eyebrow">Interactive Explorer</p>
+                        <h2>Follow a concept as the problem keeps changing.</h2>
+                      </div>
+                      <p data-timeline-summary>{render_inline_text(active_thread['summary'])}</p>
+                    </div>
+                    <p class="concept-timeline-family-summary" data-timeline-family-summary>{render_inline_text(active_family.get('summary', ''))}</p>
+
+                    <div class="concept-timeline-toolbar">
+                      <div>
+                        <p class="mini-label">Families</p>
+                        <div class="concept-family-row" data-timeline-family-list>
+{family_buttons}
+                        </div>
+                      </div>
+                      <div>
+                        <p class="mini-label">Concepts</p>
+                        <div class="concept-thread-row" data-timeline-thread-list>
+{thread_buttons}
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="concept-timeline-question">
+                      <p class="mini-label">Central pressure</p>
+                      <p data-timeline-question>{render_inline_text(active_thread['question'])}</p>
+                    </div>
+
+                    <div class="concept-lineage" data-timeline-lineage>
+{render_concept_timeline_lineage(active_thread, active_step_id, dataset)}
+                    </div>
+
+                    <div class="concept-timeline-layout">
+                      <div class="concept-timeline-grid" data-timeline-grid>
+{render_concept_timeline_grid(active_thread, prefix, active_step_id, dataset)}
+                      </div>
+                      <aside class="concept-spotlight" data-timeline-spotlight>
+{render_concept_timeline_spotlight(active_thread, prefix, active_step_id, dataset)}
+                      </aside>
+                    </div>
+
+                    <div class="concept-thread-jumps">
+                      <div class="concept-thread-jumps__heading">
+                        <p class="mini-label">Strong next pages</p>
+                        <p>Leave the timeline where the concept stops being historical background and starts doing real argumentative work.</p>
+                      </div>
+                      <div class="route-picker concept-thread-jumps__grid" data-timeline-jumps>
+{render_concept_timeline_jump_cards(active_thread, prefix)}
+                      </div>
+                    </div>
+                  </section>
+
+                  <section id="mutation-key" class="content-card">
+                    <p class="eyebrow">What to Notice</p>
+                    <h2>The word stays. The job changes.</h2>
+                    <div class="taxonomy-grid concept-note-grid">
+                      <div>
+                        <p class="mini-label">What usually happens</p>
+                        <ul>
+                          <li>A term that starts in metaphysics often ends up doing work in method, politics, psychology, or semantics.</li>
+                          <li>Newer meanings rarely erase older ones; they pile on top, and then people forget the pile is there.</li>
+                          <li>Once a concept enters public life, convenience, identity, and rhetoric start pulling on it as hard as truth does.</li>
+                        </ul>
+                      </div>
+                      <div>
+                        <p class="mini-label">Where readers go wrong</p>
+                        <ul>
+                          <li>They read the current meaning of a word back into earlier centuries as if nothing important had changed.</li>
+                          <li>They assume a disagreement is only about evidence when it is often also about which layer of the concept is being used.</li>
+                          <li>They mistake newer usage for clearer usage when it is often just thinner and easier to weaponize.</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </section>
+
+                  <section id="reader-routes" class="content-card concept-route-section">
+                    <p class="eyebrow">Starting Routes</p>
+                    <h2>Start where the pressure already feels familiar.</h2>
+                    <p>
+                      The timeline is for orientation. The real payoff comes when you leave it through a problem you already care about and let the concept do work in a fuller page sequence.
+                    </p>
+                    <div class="reading-path-grid">
+{render_route_cards(CONCEPT_TIMELINE_READING_ROUTES, prefix)}
+                    </div>
+                  </section>
+
+                  <section id="future-branches" class="content-card">
+                    <p class="eyebrow">Future Branches</p>
+                    <h2>Where this timeline naturally expands</h2>
+                    <div class="tag-row">
+{future_tags}
+                    </div>
+                    <p>
+                      The tags below gather the places where these concepts already do real work. If you want a cleaner path, start with one of the routes above. If you want to browse, open a tag and follow the concept where it keeps resurfacing. Strong exits include
+                      <a class="text-link" href="{html.escape(internal_article_href(prefix, '/philosophical-inquiry/what-is-truth/'))}">What Is Truth?</a>,
+                      <a class="text-link" href="{html.escape(internal_article_href(prefix, '/epistemology/what-is-knowledge/'))}">What Is Knowledge?</a>,
+                      <a class="text-link" href="{html.escape(internal_article_href(prefix, '/philosophy-of-science/correlation-and-causation/'))}">Correlation and Causation</a>,
+                      <a class="text-link" href="{html.escape(internal_article_href(prefix, '/philosophy-of-mind/what-is-consciousness/'))}">What Is Consciousness?</a>,
+                      <a class="text-link" href="{html.escape(internal_article_href(prefix, '/ethics/recommendations-vs-moral-claims/'))}">Recommendations vs Moral Claims</a>,
+                      and
+                      <a class="text-link" href="{html.escape(internal_article_href(prefix, '/philosophy-of-language/semantics-convention-vs-stipulation/'))}">Semantics: Convention vs Stipulation</a>.
+                    </p>
+                  </section>
+                </main>
+              </div>
+            </div>
+          </body>
+        </html>
+        """
+    )
+
+
 def render_search_page() -> str:
     signals_html = render_page_signals(
         archive_page_signal_items(
@@ -19750,6 +21720,7 @@ def write_robots_and_sitemap(generated_pages: list[dict]) -> None:
         sitemap_entry("/", today, "1.0"),
         sitemap_entry("/search/", today, "0.8"),
         sitemap_entry("/guided-reading/", today, "0.8"),
+        sitemap_entry("/concept-timeline/", today, "0.8"),
         sitemap_entry("/concept-glossary/", today, "0.8"),
         sitemap_entry("/menu-structure/", today, "0.6"),
         *(sitemap_entry(f"/branches/{section_id}/", today, "0.7") for section_id in SECTION_IDS),
@@ -20016,14 +21987,16 @@ def main() -> None:
     menu_target = ROOT / "menu-structure" / "index.html"
     search_target = ROOT / "search" / "index.html"
     guided_target = ROOT / "guided-reading" / "index.html"
+    timeline_target = ROOT / "concept-timeline" / "index.html"
     glossary_target = ROOT / "concept-glossary" / "index.html"
     podcast_target = ROOT / "byteseismic-podcasts" / "index.html"
     archive_target = ROOT / "recent-posts-expanded-version" / "index.html"
-    valid_targets.update({menu_target, search_target, guided_target, glossary_target, podcast_target, archive_target})
+    valid_targets.update({menu_target, search_target, guided_target, timeline_target, glossary_target, podcast_target, archive_target})
 
     write_if_allowed(menu_target, render_menu_structure_page())
     write_if_allowed(search_target, render_search_page())
     write_if_allowed(guided_target, render_guided_reading_page())
+    write_if_allowed(timeline_target, render_concept_timeline_page())
     write_if_allowed(glossary_target, render_glossary_page())
     write_if_allowed(podcast_target, render_podcast_page())
 
@@ -20143,6 +22116,25 @@ def main() -> None:
                 ),
             }
         )
+    for page in STATIC_DISCOVERY_PAGES:
+        tagged_pages.append(
+            {
+                "title": page["title"],
+                "section": page["section"],
+                "path": page["path"],
+                "summary": page["summary"],
+                "tags": dedupe([canonical_tag_key(tag) or tag for tag in page.get("tags", [])]),
+            }
+        )
+        tag_archive_pages.append(
+            {
+                "title": page["title"],
+                "section": page["section"],
+                "path": page["path"],
+                "summary": page["summary"],
+                "tags": dedupe([canonical_tag_key(tag) or tag for tag in page.get("tags", [])]),
+            }
+        )
     tag_counts: dict[str, int] = defaultdict(int)
     for page in tagged_pages:
         for tag in page["tags"]:
@@ -20167,6 +22159,7 @@ def main() -> None:
         "Site Map": "/menu-structure/",
         "Search": "/search/",
         "Guided Reading Paths": "/guided-reading/",
+        "Concept Timeline": "/concept-timeline/",
         "Concept Glossary": "/concept-glossary/",
         "Recent Posts — Expanded Version": "/recent-posts-expanded-version/",
     }

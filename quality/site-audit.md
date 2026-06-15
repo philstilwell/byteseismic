@@ -1,6 +1,6 @@
 # Site Audit
 
-- Pages scanned: 836
+- Pages scanned: 840
 - Broken internal links: 0
 - Duplicate IDs: 0
 - Repeated headings: 5

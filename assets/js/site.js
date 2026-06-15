@@ -720,7 +720,8 @@
     const page = currentPageEntry();
     const pageTitle = cleanInlineText(document.querySelector(".hero h1")?.textContent || page?.title || "");
     const sectionLinks = pageSectionLinks();
-    const relatedLinks = section && page
+    const branchAwarePage = Boolean(section && page);
+    const relatedLinks = branchAwarePage
       ? relatedBranchLinks(section, currentPage())
       : contentLinksFallback();
     const tags = (page?.tags || []).filter(isUsefulTag).slice(0, 6);
@@ -731,6 +732,7 @@
       ? [
           { type: "button", action: "search", label: "Search" },
           { href: "#orientation", label: "Orientation" },
+          { href: "#concept-timeline", label: "Timeline" },
           { href: "#branch-guide", label: "Branch guide" },
           { href: "#tag-discovery", label: "Tag discovery" },
           { href: "#featured-pages", label: "Featured pages" },
@@ -740,6 +742,7 @@
     const pageActions = !isHomePage
       ? [
           { type: "button", action: "search", label: "Search" },
+          currentPath !== "/concept-timeline/" ? { href: href("/concept-timeline/"), label: "Timeline" } : null,
           section?.branchGuidePath && section.branchGuidePath !== currentPath ? { href: href(section.branchGuidePath), label: "Branch guide" } : null,
           section?.samplePath && section.branchGuidePath === currentPath ? { href: href(section.samplePath), label: "Branch entry" } : null,
           currentPath !== "/" ? { href: href("/"), label: "Home" } : null,
@@ -830,7 +833,7 @@
               </details>
               <details class="context-rail__group">
                 <summary>
-                  <span>${page ? "Nearby in branch" : "Related links"}</span>
+                  <span>${branchAwarePage ? "Nearby in branch" : "Related links"}</span>
                   <span class="context-rail__count">${relatedLinks.length}</span>
                 </summary>
                 <ul class="context-rail__list">${relatedList}</ul>
@@ -1584,6 +1587,7 @@
     const tags = page?.tags || [];
     const path = page?.path || "";
 
+    if (path === "/concept-timeline/") return "Timeline";
     if (title.startsWith("Dialoguing with") || tags.includes("dialogue")) return "Dialogue";
     if (title.startsWith("Charting ")) return "Chart";
     if (/^what (is|are)\b/i.test(title) || tags.includes("primer")) return "Primer";
@@ -1732,6 +1736,374 @@
     });
 
     return cachedSearchEntries;
+  }
+
+  function conceptTimelineData() {
+    return window.BYTESEISMIC_CONCEPT_TIMELINE || null;
+  }
+
+  function conceptTimelineThread(dataset, threadId) {
+    if (!dataset?.threads?.length) {
+      return null;
+    }
+    return dataset.threads.find((thread) => thread.id === threadId) || dataset.threads[0];
+  }
+
+  function conceptTimelineFamily(dataset, familyId) {
+    return dataset?.families?.find((family) => family.id === familyId) || null;
+  }
+
+  function conceptTimelineStepId(thread, step) {
+    return `${thread.id}:${step.era}`;
+  }
+
+  function conceptTimelineStep(thread, stepId) {
+    if (!thread?.steps?.length) {
+      return null;
+    }
+    return thread.steps.find((step) => conceptTimelineStepId(thread, step) === stepId) || thread.steps.at(-1) || thread.steps[0];
+  }
+
+  function conceptTimelineSectionLabel(path) {
+    const parts = String(path || "")
+      .split("/")
+      .filter(Boolean);
+    const sectionLabels = {
+      introduction: "Introduction",
+      "philosophical-inquiry": "Philosophical Inquiry",
+      epistemology: "Epistemology",
+      "rational-thought": "Rational Thought",
+      "philosophy-of-science": "Philosophy of Science",
+      "philosophy-of-language": "Philosophy of Language",
+      "philosophy-of-mind": "Philosophy of Mind",
+      metaphysics: "Metaphysics",
+      ethics: "Ethics",
+      "humanistic-philosophies": "Humanistic Philosophies",
+      economics: "Economics",
+      "philosophy-of-ai": "Philosophy of AI",
+      "political-philosophy": "Political Philosophy",
+      philosophers: "Philosophers",
+      miscellany: "Miscellany",
+    };
+    return sectionLabels[parts[0]] || "Byteseismic";
+  }
+
+  function conceptTimelineJumpLinks(thread) {
+    const seen = new Set();
+    const cards = [];
+    [...(thread.steps || [])]
+      .reverse()
+      .forEach((step) => {
+        (step.links || []).forEach((link) => {
+          const path = link?.path;
+          if (!path || seen.has(path)) {
+            return;
+          }
+          seen.add(path);
+          cards.push({ link, step });
+        });
+      });
+    return cards.slice(0, 4);
+  }
+
+  function readConceptTimelineHash(dataset) {
+    const raw = decodeURIComponent((window.location.hash || "").replace(/^#/, "").trim());
+    if (!raw) {
+      return null;
+    }
+    const token = raw.startsWith("timeline=") ? raw.slice("timeline=".length) : raw;
+    const exactThread = (dataset.threads || []).find((thread) => thread.id === token);
+    if (exactThread) {
+      return {
+        family: exactThread.family,
+        thread: exactThread.id,
+        step: conceptTimelineStepId(exactThread, exactThread.steps.at(-1) || exactThread.steps[0]),
+      };
+    }
+    const [threadId, eraId] = token.split(":");
+    if (!threadId || !eraId) {
+      return null;
+    }
+    const thread = (dataset.threads || []).find((candidate) => candidate.id === threadId);
+    const step = thread?.steps?.find((candidate) => candidate.era === eraId);
+    if (!thread || !step) {
+      return null;
+    }
+    return { family: thread.family, thread: thread.id, step: conceptTimelineStepId(thread, step) };
+  }
+
+  function writeConceptTimelineHash(stepId) {
+    if (!stepId || !window.history?.replaceState) {
+      return;
+    }
+    const url = new URL(window.location.href);
+    url.hash = `timeline=${stepId}`;
+    window.history.replaceState(null, "", url.toString());
+  }
+
+  function renderConceptTimelineFamilies(dataset, activeFamilyId) {
+    return (dataset.families || [])
+      .map((family) => {
+        const count = (dataset.threads || []).filter((thread) => thread.family === family.id).length;
+        const active = family.id === activeFamilyId;
+        return `
+          <button
+            class="concept-filter concept-filter--family${active ? " is-active" : ""}"
+            type="button"
+            data-timeline-family="${escapeHtml(family.id)}"
+            aria-pressed="${active ? "true" : "false"}"
+          >
+            <span class="concept-filter__label">${escapeHtml(family.label)}</span>
+            <span class="concept-filter__meta">${count} tracks</span>
+          </button>
+        `;
+      })
+      .join("");
+  }
+
+  function renderConceptTimelineThreads(dataset, activeFamilyId, activeThreadId) {
+    const activeFamily = conceptTimelineFamily(dataset, activeFamilyId);
+    return (dataset.threads || [])
+      .filter((thread) => thread.family === activeFamilyId)
+      .map((thread) => {
+        const active = thread.id === activeThreadId;
+        return `
+          <button
+            class="concept-filter concept-filter--thread${active ? " is-active" : ""}"
+            type="button"
+            data-timeline-thread="${escapeHtml(thread.id)}"
+            aria-pressed="${active ? "true" : "false"}"
+          >
+            <span class="concept-filter__label">${escapeHtml(thread.label)}</span>
+            <span class="concept-filter__meta">${escapeHtml(activeFamily?.label || thread.family)}</span>
+          </button>
+        `;
+      })
+      .join("");
+  }
+
+  function renderConceptTimelineLineage(dataset, thread, activeStepId) {
+    return (dataset.eras || [])
+      .map((era) => {
+        const step = (thread.steps || []).find((candidate) => candidate.era === era.id);
+        if (!step) {
+          return "";
+        }
+        const stepId = conceptTimelineStepId(thread, step);
+        const active = stepId === activeStepId;
+        return `
+          <button
+            class="concept-lineage__step${active ? " is-active" : ""}"
+            type="button"
+            data-timeline-entry="${escapeHtml(stepId)}"
+            aria-pressed="${active ? "true" : "false"}"
+          >
+            <span class="concept-lineage__era">${escapeHtml(era.label)}</span>
+            <strong>${escapeHtml(step.mutation)}</strong>
+            <span>${escapeHtml(step.label)}</span>
+          </button>
+        `;
+      })
+      .join("");
+  }
+
+  function renderConceptTimelineGrid(dataset, thread, activeStepId) {
+    return (dataset.eras || [])
+      .map((era) => {
+        const step = (thread.steps || []).find((candidate) => candidate.era === era.id);
+        if (!step) {
+          return "";
+        }
+        const stepId = conceptTimelineStepId(thread, step);
+        const active = stepId === activeStepId;
+        const linkList = (step.links || [])
+          .slice(0, 3)
+          .map((link) => `<a class="text-link" href="${href(link.path)}">${escapeHtml(link.title)}</a>`)
+          .join("");
+        return `
+          <article class="concept-era-card">
+            <p class="eyebrow">${escapeHtml(era.label)}</p>
+            <h3>${escapeHtml(era.dates)}</h3>
+            <button
+              class="concept-era-entry${active ? " is-active" : ""}"
+              type="button"
+              data-timeline-entry="${escapeHtml(stepId)}"
+              aria-pressed="${active ? "true" : "false"}"
+            >
+              <span class="concept-era-entry__verb">${escapeHtml(step.mutation)}</span>
+              <strong>${escapeHtml(step.label)}</strong>
+              <span>${escapeHtml(step.pressure)}</span>
+            </button>
+            <p>${escapeHtml(step.gist)}</p>
+            <div class="concept-era-card__links">${linkList}</div>
+          </article>
+        `;
+      })
+      .join("");
+  }
+
+  function renderConceptTimelineSpotlight(dataset, thread, step) {
+    const era = (dataset.eras || []).find((candidate) => candidate.id === step.era);
+    const linkList = (step.links || [])
+      .slice(0, 3)
+      .map((link) => `<a class="button button--ghost" href="${href(link.path)}">${escapeHtml(link.title)}</a>`)
+      .join("");
+    return `
+      <div class="concept-spotlight__panel">
+        <p class="eyebrow">Selected shift</p>
+        <p class="concept-spotlight__era">${escapeHtml(era?.label || step.era)}${era?.dates ? ` · ${escapeHtml(era.dates)}` : ""}</p>
+        <h3>${escapeHtml(step.label)}</h3>
+        <p>${escapeHtml(step.gist)}</p>
+        <div class="concept-spotlight__grid">
+          <div>
+            <p class="mini-label">Pressure</p>
+            <p>${escapeHtml(step.pressure)}</p>
+          </div>
+          <div>
+            <p class="mini-label">Why it matters</p>
+            <p>${escapeHtml(step.payoff)}</p>
+          </div>
+        </div>
+        <div class="concept-spotlight__notes">
+          <div>
+            <p class="mini-label">Throughline</p>
+            <p>${escapeHtml(thread.throughline || thread.summary || "")}</p>
+          </div>
+          <div>
+            <p class="mini-label">Modern trap</p>
+            <p>${escapeHtml(
+              thread.modernTrap ||
+                "A live concept becomes easiest to misuse when one familiar word is quietly doing three jobs at once."
+            )}</p>
+          </div>
+          <div>
+            <p class="mini-label">Use it when</p>
+            <p>${escapeHtml(
+              thread.readerCue || "Use this track when a current dispute sounds familiar but still feels semantically slippery."
+            )}</p>
+          </div>
+        </div>
+        <div class="concept-spotlight__links">${linkList}</div>
+      </div>
+    `;
+  }
+
+  function renderConceptTimelineJumps(thread) {
+    return conceptTimelineJumpLinks(thread)
+      .map(({ link, step }) => {
+        return `
+          <a class="route-picker__item" href="${href(link.path)}">
+            <span class="route-picker__meta">${escapeHtml(conceptTimelineSectionLabel(link.path))}</span>
+            <strong>${escapeHtml(link.title)}</strong>
+            <span>${escapeHtml(step.payoff)}</span>
+          </a>
+        `;
+      })
+      .join("");
+  }
+
+  function initConceptTimeline() {
+    const root = document.querySelector("[data-concept-timeline]");
+    const dataset = conceptTimelineData();
+    if (!root || !dataset?.threads?.length) {
+      return;
+    }
+
+    const summaryMount = root.querySelector("[data-timeline-summary]");
+    const familySummaryMount = root.querySelector("[data-timeline-family-summary]");
+    const questionMount = root.querySelector("[data-timeline-question]");
+    const familyMount = root.querySelector("[data-timeline-family-list]");
+    const threadMount = root.querySelector("[data-timeline-thread-list]");
+    const lineageMount = root.querySelector("[data-timeline-lineage]");
+    const gridMount = root.querySelector("[data-timeline-grid]");
+    const spotlightMount = root.querySelector("[data-timeline-spotlight]");
+    const jumpsMount = root.querySelector("[data-timeline-jumps]");
+    const initialThread = conceptTimelineThread(dataset, root.dataset.defaultThread || dataset.defaultThread);
+    if (!initialThread) {
+      return;
+    }
+
+    const state = {
+      family: initialThread.family,
+      thread: initialThread.id,
+      step: conceptTimelineStepId(initialThread, initialThread.steps.at(-1) || initialThread.steps[0]),
+    };
+    Object.assign(state, readConceptTimelineHash(dataset) || {});
+
+    const render = () => {
+      const availableThreads = (dataset.threads || []).filter((thread) => thread.family === state.family);
+      if (!availableThreads.some((thread) => thread.id === state.thread)) {
+        state.thread = availableThreads[0]?.id || dataset.threads[0].id;
+      }
+
+      const thread = conceptTimelineThread(dataset, state.thread);
+      if (!thread) {
+        return;
+      }
+
+      const step = conceptTimelineStep(thread, state.step);
+      if (!step || !thread.steps.some((candidate) => conceptTimelineStepId(thread, candidate) === state.step)) {
+        state.step = conceptTimelineStepId(thread, thread.steps.at(-1) || thread.steps[0]);
+      }
+
+      const activeStep = conceptTimelineStep(thread, state.step);
+      if (!activeStep) {
+        return;
+      }
+
+      root.dataset.activeFamily = state.family;
+      summaryMount.innerHTML = escapeHtml(thread.summary || "");
+      familySummaryMount.innerHTML = escapeHtml(conceptTimelineFamily(dataset, state.family)?.summary || "");
+      questionMount.innerHTML = escapeHtml(thread.question || "");
+      familyMount.innerHTML = renderConceptTimelineFamilies(dataset, state.family);
+      threadMount.innerHTML = renderConceptTimelineThreads(dataset, state.family, thread.id);
+      lineageMount.innerHTML = renderConceptTimelineLineage(dataset, thread, state.step);
+      gridMount.innerHTML = renderConceptTimelineGrid(dataset, thread, state.step);
+      spotlightMount.innerHTML = renderConceptTimelineSpotlight(dataset, thread, activeStep);
+      jumpsMount.innerHTML = renderConceptTimelineJumps(thread);
+      writeConceptTimelineHash(state.step);
+
+      const activeLineage = Array.from(lineageMount.querySelectorAll("[data-timeline-entry]")).find(
+        (button) => button.dataset.timelineEntry === state.step
+      );
+      if (activeLineage && lineageMount.scrollWidth > lineageMount.clientWidth) {
+        activeLineage.scrollIntoView({ block: "nearest", inline: "center", behavior: "auto" });
+      }
+    };
+
+    root.addEventListener("click", (event) => {
+      const familyButton = event.target.closest("[data-timeline-family]");
+      if (familyButton) {
+        state.family = familyButton.dataset.timelineFamily || state.family;
+        const nextThread = (dataset.threads || []).find((thread) => thread.family === state.family);
+        if (nextThread) {
+          state.thread = nextThread.id;
+          state.step = conceptTimelineStepId(nextThread, nextThread.steps.at(-1) || nextThread.steps[0]);
+        }
+        render();
+        return;
+      }
+
+      const threadButton = event.target.closest("[data-timeline-thread]");
+      if (threadButton) {
+        const nextThread = conceptTimelineThread(dataset, threadButton.dataset.timelineThread || state.thread);
+        if (nextThread) {
+          state.family = nextThread.family;
+          state.thread = nextThread.id;
+          state.step = conceptTimelineStepId(nextThread, nextThread.steps.at(-1) || nextThread.steps[0]);
+        }
+        render();
+        return;
+      }
+
+      const entryButton = event.target.closest("[data-timeline-entry]");
+      if (entryButton) {
+        state.step = entryButton.dataset.timelineEntry || state.step;
+        render();
+      }
+    });
+
+    render();
   }
 
   function highlightSearchTerms(text, terms) {
@@ -2315,9 +2687,15 @@
       maybeWarmSearchData();
     }
   }
-  if (currentPage() === "/search/" || currentPage() === "/guided-reading/" || currentPage() === "/concept-glossary/") {
+  if (
+    currentPage() === "/search/" ||
+    currentPage() === "/guided-reading/" ||
+    currentPage() === "/concept-glossary/" ||
+    currentPage() === "/concept-timeline/"
+  ) {
     maybeWarmSearchData();
   }
+  initConceptTimeline();
   initExclusiveAccordions();
   revealHashTarget();
   window.addEventListener("hashchange", revealHashTarget);
