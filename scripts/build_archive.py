@@ -19986,7 +19986,7 @@ def render_concept_timeline_page() -> str:
                         <div class="concept-spotlight__frame">
                           <p class="mini-label">Deep panel</p>
                           <p class="concept-spotlight__instruction">
-                            Hover a <span aria-hidden="true">◉</span>, focus it, tap it, or simply scroll down the thread. The panel keeps pace with the moment the concept is inhabiting.
+                            Hover or focus a <span aria-hidden="true">◉</span> to preview a moment. Click or tap one to lock it in while you scroll. If nothing is locked, the panel follows the thread.
                           </p>
                           <div data-timeline-spotlight>
 {render_concept_timeline_spotlight(active_thread, prefix, active_step_id, dataset)}
