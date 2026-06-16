@@ -7146,6 +7146,35 @@ TARGETED_SECTION_EXPANSIONS = {
             "Residual humility: Even the best available hypothesis may remain provisional when the original data are sparse.",
         ],
     },
+    ("/epistemology/core-deep-rationality/", "prompt-5"): {
+        "dialogue_turns": [
+            {"speaker": "Rationality Expert (RE)", "text": "So, let’s start with the basics. Do you understand the concept of core rationality?"},
+            {"speaker": "Novice (N)", "text": "Kind of. It’s just using evidence to form beliefs, right?"},
+            {"speaker": "RE", "text": "Exactly, it’s about aligning your beliefs with the evidence you have. That’s the foundation of rational thinking."},
+            {"speaker": "N", "text": "And deep rationality? That’s just more of the same?"},
+            {"speaker": "RE", "text": "Not quite. Deep rationality builds on that foundation. It involves more advanced skills like understanding complex logic, probabilities, and being aware of biases."},
+            {"speaker": "N", "text": "Oh, so it’s like core rationality but just deeper knowledge?"},
+            {"speaker": "RE", "text": "In a way, yes. But it’s not just more knowledge. It’s about how you use that knowledge to refine your thinking."},
+            {"speaker": "N", "text": "Can you be core rational without being deeply rational?"},
+            {"speaker": "RE", "text": "Absolutely. Many people are good at aligning their beliefs with clear evidence but may not have advanced skills to analyze more complex situations."},
+            {"speaker": "N", "text": "So, core rationality is necessary but not sufficient for deep rationality?"},
+            {"speaker": "RE", "text": "Precisely. You need the foundation of core rationality to develop deeper rational skills. Think of it as needing to know basic math before you can do calculus."},
+            {"speaker": "N", "text": "Makes sense. But why bother with deep rationality then?"},
+            {"speaker": "RE", "text": "Because complex problems require complex tools. Deep rationality allows you to navigate more nuanced and challenging scenarios effectively."},
+            {"speaker": "N", "text": "Like what?"},
+            {"speaker": "RE", "text": "For instance, in science or policy-making, you often deal with data that’s incomplete or ambiguous. Deep rationality helps you make the best decisions in those contexts."},
+            {"speaker": "N", "text": "Got it. But isn’t it hard to develop deep rationality?"},
+            {"speaker": "RE", "text": "It can be. It requires education, practice, and a willingness to continually learn and challenge your own thinking."},
+            {"speaker": "N", "text": "Sounds demanding."},
+            {"speaker": "RE", "text": "It is, but it’s also very rewarding. It allows you to engage with the world in a more informed and effective way."},
+            {"speaker": "N", "text": "I guess that’s important for making good decisions?"},
+            {"speaker": "RE", "text": "Exactly. Both types of rationality enhance your decision-making, but deep rationality gives you a broader set of tools to work with."},
+            {"speaker": "N", "text": "So, starting with core rationality is the first step?"},
+            {"speaker": "RE", "text": "Yes, master that, and then you can start building your deeper rational skills on that solid foundation."},
+            {"speaker": "N", "text": "Thanks, I think I’m starting to see the bigger picture now!"},
+            {"speaker": "RE", "text": "Great! It’s all about building up your toolkit, one skill at a time."},
+        ],
+    },
     ("/epistemology/case-2-the-telephone-game/", "prompt-1"): {
         "heading": "Transmission reliability compounds; it does not stay flat across friendly retellings.",
         "replace_paragraphs": True,
@@ -16866,6 +16895,11 @@ def source_prompt_sections(page: dict, prompts: list[str]) -> list[dict]:
     for index, prompt in enumerate(prompts, start=1):
         detail = source_details[index - 1] if index - 1 < len(source_details) else None
         section_override = section_polish[index - 1] if index - 1 < len(section_polish) else {}
+        anchor = f"prompt-{index}"
+        targeted_override = targeted_section_expansion(page, anchor) or {}
+        detail_for_section = dict(detail or {})
+        if targeted_override.get("dialogue_turns"):
+            detail_for_section["dialogue_turns"] = targeted_override["dialogue_turns"]
         if bespoke_marker_page and detail:
             paragraphs = [clean_text(part) for part in detail.get("paragraphs", []) if clean_text(part)]
             list_items = [clean_text(item) for item in detail.get("items", []) if clean_text(item)]
@@ -16892,8 +16926,7 @@ def source_prompt_sections(page: dict, prompts: list[str]) -> list[dict]:
                             list_items.append(cleaned_item)
             paragraphs = dedupe(paragraphs)
             list_items = dedupe(list_items)
-            anchor = f"prompt-{index}"
-            quality = quality_assessment(page, prompt, detail, paragraphs, list_items, True)
+            quality = quality_assessment(page, prompt, detail_for_section, paragraphs, list_items, True)
             sections.append(
                 {
                     "id": anchor,
@@ -16901,14 +16934,14 @@ def source_prompt_sections(page: dict, prompts: list[str]) -> list[dict]:
                     "heading": clean_text(section_override.get("heading") or detail.get("heading", "")) or clean_text(prompt),
                     "paragraphs": paragraphs,
                     "list_items": list_items,
-                    "comparison_tables": (detail or {}).get("tables", []),
-                    "dialogue_turns": (detail or {}).get("dialogue_turns", [])
-                    if len((detail or {}).get("dialogue_turns", [])) >= 4
+                    "comparison_tables": detail_for_section.get("tables", []),
+                    "dialogue_turns": detail_for_section.get("dialogue_turns", [])
+                    if len(detail_for_section.get("dialogue_turns", [])) >= 4
                     else [],
                     "learning_items": (
                         section_override.get("learning_items")
                         or detail.get("learning_items")
-                        or pedagogical_checkpoints(page, prompt, detail)
+                        or pedagogical_checkpoints(page, prompt, detail_for_section)
                     ),
                     "prompt": prompt,
                     "quality": quality,
@@ -16926,14 +16959,13 @@ def source_prompt_sections(page: dict, prompts: list[str]) -> list[dict]:
             paragraphs,
             list_items,
         )
-        anchor = f"prompt-{index}"
         paragraphs, list_items, hand_polished = apply_targeted_section_expansion(
             page,
             anchor,
             paragraphs,
             list_items,
         )
-        quality = quality_assessment(page, prompt, detail, paragraphs, list_items, hand_polished)
+        quality = quality_assessment(page, prompt, detail_for_section, paragraphs, list_items, hand_polished)
         if quality["needsReview"] or quality["score"] < 85:
             paragraphs, list_items = polish_review_content(page, prompt, detail, paragraphs, list_items)
             paragraphs, list_items = editorial_polish_content(
@@ -16951,7 +16983,7 @@ def source_prompt_sections(page: dict, prompts: list[str]) -> list[dict]:
                 paragraphs,
                 list_items,
             )
-            quality = quality_assessment(page, prompt, detail, paragraphs, list_items, hand_polished)
+            quality = quality_assessment(page, prompt, detail_for_section, paragraphs, list_items, hand_polished)
         sections.append(
             {
                 "id": anchor,
@@ -16968,11 +17000,11 @@ def source_prompt_sections(page: dict, prompts: list[str]) -> list[dict]:
                 ),
                 "paragraphs": paragraphs,
                 "list_items": list_items,
-                "comparison_tables": (detail or {}).get("tables", []),
-                "dialogue_turns": (detail or {}).get("dialogue_turns", [])
-                if len((detail or {}).get("dialogue_turns", [])) >= 4
+                "comparison_tables": detail_for_section.get("tables", []),
+                "dialogue_turns": detail_for_section.get("dialogue_turns", [])
+                if len(detail_for_section.get("dialogue_turns", [])) >= 4
                 else [],
-                "learning_items": pedagogical_checkpoints(page, prompt, detail),
+                "learning_items": pedagogical_checkpoints(page, prompt, detail_for_section),
                 "prompt": prompt,
                 "quality": quality,
             }
@@ -19152,7 +19184,8 @@ def render_article_page(page: dict) -> str:
             render_paragraphs(paragraphs),
         ]
         if section.get("dialogue_turns"):
-            block.append(render_dialogue_card(section["dialogue_turns"], topic_label(page["title"])))
+            speaker_reference = topic_label(page["title"]) if philosopher_profile_for_title(page["title"]) else ""
+            block.append(render_dialogue_card(section["dialogue_turns"], speaker_reference))
         if section.get("comparison_tables"):
             block.append(render_comparison_tables(section["comparison_tables"]))
         if section.get("list_items"):
