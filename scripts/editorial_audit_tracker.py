@@ -1,0 +1,466 @@
+#!/usr/bin/env python3
+from __future__ import annotations
+
+import json
+from collections import Counter, defaultdict
+from datetime import date
+from pathlib import Path
+from typing import Any
+
+
+DEFAULT_BATCH_SIZE = 50
+HISTORY_LIMIT = 120
+TRACKER_JSON_NAME = "editorial-audit-tracker.json"
+TRACKER_MD_NAME = "editorial-audit-tracker.md"
+
+
+def _safe_int(value: Any, default: int) -> int:
+    try:
+        return int(value)
+    except (TypeError, ValueError):
+        return default
+
+
+def _dedupe(values: list[str]) -> list[str]:
+    seen: set[str] = set()
+    ordered: list[str] = []
+    for value in values:
+        if not value or value in seen:
+            continue
+        seen.add(value)
+        ordered.append(value)
+    return ordered
+
+
+def _priority_band(page: dict) -> str:
+    if page["needsReviewCount"] or page["editorialIssues"]:
+        return "review"
+    if page["needsGapFillCount"]:
+        return "gap-fill"
+    if page["polishOpportunityCount"]:
+        return "polish"
+    return "maintenance"
+
+
+def _priority_rank(page: dict) -> tuple:
+    band_rank = {
+        "review": 0,
+        "gap-fill": 1,
+        "polish": 2,
+        "maintenance": 3,
+    }
+    return (
+        band_rank[page["priorityBand"]],
+        0 if page["editorialIssues"] else 1,
+        page["worstScore"],
+        -page["needsReviewCount"],
+        -page["needsGapFillCount"],
+        -page["polishOpportunityCount"],
+        page["sectionName"].lower(),
+        page["pageTitle"].lower(),
+        page["pagePath"],
+    )
+
+
+def _compact_focus_section(section: dict) -> dict:
+    return {
+        "anchor": section["anchor"],
+        "url": section["url"],
+        "heading": section["heading"],
+        "score": section["score"],
+        "level": section["level"],
+        "needsReview": section["needsReview"],
+        "needsGapFill": section["needsGapFill"],
+        "polishOpportunity": section["polishOpportunity"],
+        "editorialIssues": list(section["editorialIssues"]),
+    }
+
+
+def _compact_page(page: dict) -> dict:
+    return {
+        "queueIndex": page["queueIndex"],
+        "sectionName": page["sectionName"],
+        "pageTitle": page["pageTitle"],
+        "pagePath": page["pagePath"],
+        "priorityBand": page["priorityBand"],
+        "worstScore": page["worstScore"],
+        "averageScore": page["averageScore"],
+        "totalPromptSections": page["totalPromptSections"],
+        "needsReviewCount": page["needsReviewCount"],
+        "needsGapFillCount": page["needsGapFillCount"],
+        "polishOpportunityCount": page["polishOpportunityCount"],
+        "editorialIssues": list(page["editorialIssues"]),
+        "attentionSummary": list(page["attentionSummary"]),
+        "focusAnchors": list(page["focusAnchors"]),
+        "focusSections": [_compact_focus_section(section) for section in page["focusSections"][:6]],
+    }
+
+
+def _aggregate_page_records(report: dict) -> list[dict]:
+    by_page: dict[str, list[dict]] = defaultdict(list)
+    for record in report.get("records", []):
+        by_page[record["pagePath"]].append(record)
+
+    pages: list[dict] = []
+    for page_path, records in by_page.items():
+        ordered_records = sorted(records, key=lambda item: (item["score"], item["anchor"]))
+        page_title = ordered_records[0]["pageTitle"]
+        section_name = ordered_records[0]["sectionName"]
+        needs_review_count = sum(1 for record in ordered_records if record["needsReview"])
+        gap_fill_count = sum(1 for record in ordered_records if record["needsGapFill"])
+        polish_count = sum(1 for record in ordered_records if record.get("polishOpportunity"))
+        editorial_issues = _dedupe(
+            [issue for record in ordered_records for issue in record.get("editorialIssues", [])]
+        )
+        focus_sections = [
+            {
+                "anchor": record["anchor"],
+                "url": record["url"],
+                "heading": record["heading"],
+                "score": record["score"],
+                "level": record["level"],
+                "needsReview": record["needsReview"],
+                "needsGapFill": record["needsGapFill"],
+                "polishOpportunity": record.get("polishOpportunity", False),
+                "editorialIssues": list(record.get("editorialIssues", [])),
+            }
+            for record in ordered_records
+            if (
+                record["needsReview"]
+                or record["needsGapFill"]
+                or record.get("polishOpportunity")
+                or record.get("editorialIssues")
+            )
+        ]
+        attention_summary: list[str] = []
+        if needs_review_count:
+            attention_summary.append(f"{needs_review_count} prompt sections need review")
+        if gap_fill_count:
+            attention_summary.append(f"{gap_fill_count} prompt sections need gap fill")
+        if polish_count:
+            attention_summary.append(f"{polish_count} prompt sections are polish opportunities")
+        if editorial_issues:
+            attention_summary.append("editorial issues: " + ", ".join(editorial_issues[:4]))
+
+        page = {
+            "sectionName": section_name,
+            "pageTitle": page_title,
+            "pagePath": page_path,
+            "totalPromptSections": len(ordered_records),
+            "worstScore": min(record["score"] for record in ordered_records),
+            "averageScore": round(
+                sum(record["score"] for record in ordered_records) / max(len(ordered_records), 1), 1
+            ),
+            "needsReviewCount": needs_review_count,
+            "needsGapFillCount": gap_fill_count,
+            "polishOpportunityCount": polish_count,
+            "editorialIssues": editorial_issues,
+            "focusAnchors": [section["anchor"] for section in focus_sections],
+            "focusSections": focus_sections,
+            "attentionSummary": attention_summary or ["maintenance pass"],
+        }
+        page["priorityBand"] = _priority_band(page)
+        pages.append(page)
+
+    pages.sort(key=_priority_rank)
+    for index, page in enumerate(pages, start=1):
+        page["queueIndex"] = index
+    return pages
+
+
+def _resolve_cursor(existing_tracker: dict | None, pages: list[dict]) -> dict:
+    total_pages = len(pages)
+    if total_pages == 0:
+        return {
+            "cycle": 1,
+            "currentPageIndex": 0,
+            "nextPagePath": "",
+            "nextPageTitle": "",
+            "lastAdvancedAt": "",
+            "lastCompletedBatch": {},
+        }
+
+    existing_tracker = existing_tracker or {}
+    existing_cursor = existing_tracker.get("cursor", {}) if isinstance(existing_tracker, dict) else {}
+    page_paths = [page["pagePath"] for page in pages]
+    stored_path = existing_cursor.get("nextPagePath", "")
+    stored_index = _safe_int(existing_cursor.get("currentPageIndex", 0), 0)
+
+    if stored_path in page_paths:
+        current_index = page_paths.index(stored_path)
+    else:
+        current_index = min(max(stored_index, 0), total_pages - 1)
+
+    cycle = max(_safe_int(existing_cursor.get("cycle", 1), 1), 1)
+    current_page = pages[current_index]
+    return {
+        "cycle": cycle,
+        "currentPageIndex": current_index,
+        "nextPagePath": current_page["pagePath"],
+        "nextPageTitle": current_page["pageTitle"],
+        "lastAdvancedAt": existing_cursor.get("lastAdvancedAt", ""),
+        "lastCompletedBatch": existing_cursor.get("lastCompletedBatch", {}),
+    }
+
+
+def _batch_slice(pages: list[dict], start_index: int, batch_size: int, cycle: int) -> dict:
+    total_pages = len(pages)
+    if total_pages == 0:
+        return {
+            "cycle": cycle,
+            "startIndex": 0,
+            "endIndexExclusive": 0,
+            "pageCount": 0,
+            "wrapsToNextCycle": False,
+            "priorityCounts": {},
+            "pages": [],
+        }
+
+    start_index = min(max(start_index, 0), total_pages - 1)
+    batch_pages = pages[start_index : start_index + batch_size]
+    end_index = start_index + len(batch_pages)
+    return {
+        "cycle": cycle,
+        "startIndex": start_index,
+        "endIndexExclusive": end_index,
+        "pageCount": len(batch_pages),
+        "wrapsToNextCycle": end_index >= total_pages,
+        "priorityCounts": dict(Counter(page["priorityBand"] for page in batch_pages)),
+        "pages": [_compact_page(page) for page in batch_pages],
+    }
+
+
+def _upcoming_batches(pages: list[dict], start_index: int, batch_size: int, cycle: int, count: int = 2) -> list[dict]:
+    total_pages = len(pages)
+    previews: list[dict] = []
+    if total_pages == 0:
+        return previews
+
+    preview_start = start_index
+    preview_cycle = cycle
+    current_batch = _batch_slice(pages, preview_start, batch_size, preview_cycle)
+    preview_start = current_batch["endIndexExclusive"]
+    if current_batch["wrapsToNextCycle"]:
+        preview_start = 0
+        preview_cycle += 1
+
+    for _ in range(count):
+        if preview_start >= total_pages:
+            preview_start = 0
+            preview_cycle += 1
+        batch = _batch_slice(pages, preview_start, batch_size, preview_cycle)
+        previews.append(
+            {
+                "cycle": batch["cycle"],
+                "startIndex": batch["startIndex"],
+                "endIndexExclusive": batch["endIndexExclusive"],
+                "pageCount": batch["pageCount"],
+                "priorityCounts": batch["priorityCounts"],
+                "pages": batch["pages"][:10],
+            }
+        )
+        preview_start = batch["endIndexExclusive"]
+        if batch["wrapsToNextCycle"]:
+            preview_start = 0
+            preview_cycle += 1
+    return previews
+
+
+def build_editorial_audit_tracker(
+    report: dict,
+    *,
+    existing_tracker: dict | None = None,
+    batch_size: int = DEFAULT_BATCH_SIZE,
+) -> dict:
+    pages = _aggregate_page_records(report)
+    cursor = _resolve_cursor(existing_tracker, pages)
+    current_batch = _batch_slice(pages, cursor["currentPageIndex"], batch_size, cursor["cycle"])
+    page_count = len(pages)
+    band_counts = Counter(page["priorityBand"] for page in pages)
+    history = existing_tracker.get("history", []) if isinstance(existing_tracker, dict) else []
+    if not isinstance(history, list):
+        history = []
+
+    return {
+        "version": 1,
+        "generatedAt": date.today().isoformat(),
+        "batchSize": batch_size,
+        "protocol": {
+            "readFirst": "quality/editorial-audit-tracker.json",
+            "workCurrentBatchOnly": True,
+            "advanceCommand": "python3 scripts/advance_editorial_audit_tracker.py --complete-current",
+            "advanceCondition": "Advance the tracker only after the current batch has been meaningfully audited, rebuilt, and prepared for commit.",
+        },
+        "ordering": {
+            "description": "Pages are queued deterministically by priority band, then by weakest score, then by severity counts, then alphabetically.",
+            "bands": [
+                "review: pages with prompt sections needing review or explicit editorial issues",
+                "gap-fill: pages needing stronger examples, texture, or argumentative development",
+                "polish: pages ready for calmer stylistic and pedagogical tightening",
+                "maintenance: remaining pages that still deserve periodic re-reading",
+            ],
+        },
+        "summary": {
+            "trackedPages": page_count,
+            "pagesByPriorityBand": dict(sorted(band_counts.items())),
+            "pagesRemainingInCurrentCycle": max(page_count - cursor["currentPageIndex"], 0),
+            "batchSize": batch_size,
+            "estimatedBatchesPerCycle": (page_count + batch_size - 1) // batch_size if page_count else 0,
+        },
+        "cursor": cursor,
+        "currentBatch": current_batch,
+        "upcomingBatches": _upcoming_batches(
+            pages,
+            cursor["currentPageIndex"],
+            batch_size,
+            cursor["cycle"],
+            count=2,
+        ),
+        "history": history[-HISTORY_LIMIT:],
+        "pages": [_compact_page(page) for page in pages],
+    }
+
+
+def advance_editorial_audit_tracker(tracker: dict, completed_at: str | None = None) -> dict:
+    pages = list(tracker.get("pages", []))
+    batch_size = _safe_int(tracker.get("batchSize", DEFAULT_BATCH_SIZE), DEFAULT_BATCH_SIZE)
+    cursor = dict(tracker.get("cursor", {}))
+    history = list(tracker.get("history", [])) if isinstance(tracker.get("history", []), list) else []
+
+    total_pages = len(pages)
+    if total_pages == 0:
+        return tracker
+
+    current_index = min(max(_safe_int(cursor.get("currentPageIndex", 0), 0), 0), total_pages - 1)
+    cycle = max(_safe_int(cursor.get("cycle", 1), 1), 1)
+    current_pages = pages[current_index : current_index + batch_size]
+    if not current_pages:
+        current_pages = pages[:batch_size]
+        current_index = 0
+
+    next_index = current_index + len(current_pages)
+    wrapped = next_index >= total_pages
+    next_cycle = cycle + 1 if wrapped else cycle
+    if wrapped:
+        next_index = 0
+
+    completed_at = completed_at or date.today().isoformat()
+    history.append(
+        {
+            "completedAt": completed_at,
+            "cycle": cycle,
+            "startIndex": current_index,
+            "endIndexExclusive": current_index + len(current_pages),
+            "pageCount": len(current_pages),
+            "wrappedToNextCycle": wrapped,
+            "firstPagePath": current_pages[0]["pagePath"],
+            "lastPagePath": current_pages[-1]["pagePath"],
+        }
+    )
+    history = history[-HISTORY_LIMIT:]
+
+    next_page = pages[next_index]
+    tracker["generatedAt"] = date.today().isoformat()
+    tracker["history"] = history
+    tracker["cursor"] = {
+        "cycle": next_cycle,
+        "currentPageIndex": next_index,
+        "nextPagePath": next_page["pagePath"],
+        "nextPageTitle": next_page["pageTitle"],
+        "lastAdvancedAt": completed_at,
+        "lastCompletedBatch": history[-1],
+    }
+    tracker["summary"]["pagesRemainingInCurrentCycle"] = max(total_pages - next_index, 0)
+    tracker["currentBatch"] = _batch_slice(pages, next_index, batch_size, next_cycle)
+    tracker["upcomingBatches"] = _upcoming_batches(pages, next_index, batch_size, next_cycle, count=2)
+    return tracker
+
+
+def render_editorial_audit_tracker_markdown(tracker: dict) -> str:
+    lines = [
+        "# Byteseismic Editorial Audit Tracker",
+        "",
+        f"Generated: {tracker.get('generatedAt', date.today().isoformat())}",
+        f"Batch size: {tracker.get('batchSize', DEFAULT_BATCH_SIZE)} pages",
+        f"Current cycle: {tracker.get('cursor', {}).get('cycle', 1)}",
+        f"Current queue start: {tracker.get('cursor', {}).get('currentPageIndex', 0) + 1} of {tracker.get('summary', {}).get('trackedPages', 0)}",
+        "",
+        "## Protocol",
+        "",
+        f"- Read first: `{tracker.get('protocol', {}).get('readFirst', TRACKER_JSON_NAME)}`",
+        f"- Advance command: `{tracker.get('protocol', {}).get('advanceCommand', '')}`",
+        f"- Advance only when: {tracker.get('protocol', {}).get('advanceCondition', '')}",
+        "",
+        "## Ordering",
+        "",
+        tracker.get("ordering", {}).get("description", ""),
+        "",
+    ]
+    for band in tracker.get("ordering", {}).get("bands", []):
+        lines.append(f"- {band}")
+
+    lines.extend([
+        "",
+        "## Current Batch",
+        "",
+        "| # | Branch | Page | Priority | Worst | Focus |",
+        "| ---: | --- | --- | --- | ---: | --- |",
+    ])
+    for page in tracker.get("currentBatch", {}).get("pages", []):
+        focus = "; ".join(page.get("attentionSummary", [])[:2])
+        lines.append(
+            f"| {page['queueIndex']} | {page['sectionName']} | [{page['pageTitle']}](..{page['pagePath']}) | {page['priorityBand']} | {page['worstScore']} | {focus} |"
+        )
+
+    lines.extend(["", "## Upcoming Batch Preview", ""])
+    for index, batch in enumerate(tracker.get("upcomingBatches", []), start=1):
+        lines.append(
+            f"### Next +{index}: cycle {batch['cycle']}, queue positions {batch['startIndex'] + 1}-{batch['endIndexExclusive']}"
+        )
+        lines.append("")
+        for page in batch.get("pages", []):
+            lines.append(
+                f"- `{page['priorityBand']}` {page['worstScore']} [{page['sectionName']} / {page['pageTitle']}](..{page['pagePath']})"
+            )
+        lines.append("")
+
+    lines.extend([
+        "## Summary",
+        "",
+        f"- Tracked pages: {tracker.get('summary', {}).get('trackedPages', 0)}",
+        f"- Pages remaining in current cycle: {tracker.get('summary', {}).get('pagesRemainingInCurrentCycle', 0)}",
+        f"- Estimated batches per cycle: {tracker.get('summary', {}).get('estimatedBatchesPerCycle', 0)}",
+        "",
+    ])
+    for band, count in tracker.get("summary", {}).get("pagesByPriorityBand", {}).items():
+        lines.append(f"- {band}: {count}")
+    lines.append("")
+    return "\n".join(lines)
+
+
+def write_editorial_audit_tracker_files(
+    root: Path,
+    report: dict,
+    *,
+    batch_size: int = DEFAULT_BATCH_SIZE,
+) -> dict:
+    quality_dir = root / "quality"
+    quality_dir.mkdir(exist_ok=True)
+    tracker_json = quality_dir / TRACKER_JSON_NAME
+    tracker_md = quality_dir / TRACKER_MD_NAME
+
+    existing_tracker: dict | None = None
+    if tracker_json.exists():
+        try:
+            existing_tracker = json.loads(tracker_json.read_text())
+        except json.JSONDecodeError:
+            existing_tracker = None
+
+    tracker = build_editorial_audit_tracker(
+        report,
+        existing_tracker=existing_tracker,
+        batch_size=batch_size,
+    )
+    tracker_json.write_text(json.dumps(tracker, indent=2, ensure_ascii=False))
+    tracker_md.write_text(render_editorial_audit_tracker_markdown(tracker))
+    return tracker

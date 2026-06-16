@@ -17,6 +17,8 @@ from urllib.parse import unquote, urlparse
 import requests
 from bs4 import BeautifulSoup, Tag
 
+from editorial_audit_tracker import write_editorial_audit_tracker_files
+
 
 ROOT = Path(__file__).resolve().parents[1]
 CACHE_DIR = ROOT / ".cache"
@@ -21188,8 +21190,10 @@ def build_quality_report(generated_pages: list[dict]) -> dict:
                     "avgItemWords": quality["avgItemWords"],
                     "metrics": quality["metrics"],
                     "reasons": quality["reasons"],
+                    "editorialIssues": [],
                 }
             )
+            records[-1]["editorialIssues"] = editorial_audit_issues(records[-1])
 
     by_section: dict[str, list[dict]] = defaultdict(list)
     for record in records:
@@ -21298,7 +21302,7 @@ def build_editorial_audit(records: list[dict]) -> dict:
     issue_counts: dict[str, int] = defaultdict(int)
     samples: list[dict] = []
     for record in records:
-        issues = editorial_audit_issues(record)
+        issues = record.get("editorialIssues") or editorial_audit_issues(record)
         if not issues:
             continue
         for issue in issues:
@@ -22575,6 +22579,7 @@ def main() -> None:
     quality_target = ROOT / "quality-review" / "index.html"
     valid_targets.add(quality_target)
     write_quality_files(quality_report)
+    write_editorial_audit_tracker_files(ROOT, quality_report)
     write_if_allowed(quality_target, render_quality_review_page(quality_report))
     visible_tags_by_path = visible_tag_chips_by_path(valid_targets)
 
