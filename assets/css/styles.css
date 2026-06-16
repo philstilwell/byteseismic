@@ -2825,6 +2825,43 @@ body.site-search-open {
   min-width: 6.8rem;
 }
 
+.detail-card--couplets {
+  gap: 14px;
+}
+
+.detail-card--couplets .dialogue-couplet {
+  display: grid;
+  gap: 10px;
+  padding: 14px 16px;
+  border-radius: 18px;
+  border: 1px solid rgba(16, 38, 59, 0.1);
+  background: rgba(255, 255, 255, 0.68);
+  box-shadow: 0 12px 26px rgba(16, 38, 59, 0.06);
+}
+
+.detail-card--couplets .dialogue-couplet__line {
+  margin: 0;
+  line-height: 1.62;
+}
+
+.detail-card--couplets .dialogue-couplet__label {
+  font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--signal);
+  white-space: nowrap;
+}
+
+.detail-card--couplets .dialogue-couplet__line--counter .dialogue-couplet__label {
+  color: var(--accent);
+}
+
+.detail-card--couplets .dialogue-couplet__text {
+  color: var(--ink-soft);
+}
+
 .detail-card--questions .dialogue-turn p,
 .detail-card--examples .dialogue-turn p,
 .detail-card--scores .dialogue-turn p,

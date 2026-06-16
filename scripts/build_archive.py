@@ -17687,6 +17687,16 @@ def normalize_dialogue_speaker(speaker: str, text: str) -> str:
     return f"Example {speaker_number}"
 
 
+def is_description_impact_sequence(labels: list[str]) -> bool:
+    normalized = [normalized_phrase(label) for label in labels if clean_text(label)]
+    if len(normalized) < 2 or len(normalized) % 2 != 0:
+        return False
+    if any(label not in {"description", "impact"} for label in normalized):
+        return False
+    expected = ["description" if index % 2 == 0 else "impact" for index in range(len(normalized))]
+    return normalized == expected
+
+
 def dialogue_card_kind(turns: list[dict]) -> str:
     labels = [
         normalize_dialogue_speaker(clean_text(turn.get("speaker", "")), clean_text(turn.get("text", "")))
@@ -17695,6 +17705,8 @@ def dialogue_card_kind(turns: list[dict]) -> str:
     ]
     if not labels:
         return ""
+    if is_description_impact_sequence(labels):
+        return "couplets"
     if sum(label.startswith("Question ") for label in labels) >= max(2, len(labels) // 2):
         return "questions"
     if sum(label.startswith("Score ") for label in labels) >= max(2, len(labels) // 2):
@@ -17734,11 +17746,52 @@ def dialogue_speaker_labels(turns: list[dict]) -> list[str]:
     return labels
 
 
+def render_couplet_dialogue_card(turns: list[dict]) -> str:
+    entries = [
+        (
+            normalize_dialogue_speaker(clean_text(turn.get("speaker", "Interlocutor")), clean_text(turn.get("text", ""))),
+            clean_text(turn.get("text", "")),
+        )
+        for turn in turns
+        if clean_text(turn.get("text", ""))
+    ]
+    if not entries:
+        return ""
+
+    rendered_pairs = []
+    for index in range(0, len(entries), 2):
+        pair_entries = entries[index:index + 2]
+        rendered_lines = []
+        for speaker, text in pair_entries:
+            line_kind = normalized_phrase(speaker)
+            line_class = " dialogue-couplet__line--counter" if line_kind == "impact" else ""
+            rendered_lines.append(
+                f'                <p class="dialogue-couplet__line{line_class}">'
+                f'<span class="dialogue-couplet__label">{html.escape(speaker)}:</span> '
+                f'<span class="dialogue-couplet__text">{render_inline_text(text)}</span>'
+                f"</p>"
+            )
+        rendered_pairs.append(
+            "                <div class=\"dialogue-couplet\">\n"
+            + "\n".join(rendered_lines)
+            + "\n                </div>"
+        )
+
+    return (
+        "\n              <div class=\"dialogue-card detail-card detail-card--couplets\">\n"
+        + "\n".join(rendered_pairs)
+        + "\n              </div>"
+    )
+
+
 def render_dialogue_card(turns: list[dict], philosopher: str) -> str:
     if not turns:
         return ""
-    rendered_turns = []
     kind = dialogue_card_kind(turns)
+    if kind == "couplets":
+        return render_couplet_dialogue_card(turns)
+
+    rendered_turns = []
     speaker_labels = dialogue_speaker_labels(turns)
     rendered_index = 0
     for turn in turns:
