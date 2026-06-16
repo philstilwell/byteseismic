@@ -1070,7 +1070,41 @@ img {
 }
 
 .concept-spine__stop.is-selected .concept-spine__content {
-  border-color: rgba(176, 109, 63, 0.22);
+  transform: translateY(-1px);
+  border-color: rgba(212, 144, 95, 0.42);
+  background:
+    linear-gradient(160deg, rgba(9, 29, 45, 0.96), rgba(18, 45, 67, 0.94)),
+    #122d43;
+  box-shadow:
+    0 24px 44px rgba(16, 38, 59, 0.18),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.03);
+  color: rgba(248, 244, 236, 0.94);
+}
+
+.concept-spine__stop.is-selected .concept-spine__content strong,
+.concept-spine__stop.is-selected .concept-spine__preview {
+  color: #fcfbf8;
+}
+
+.concept-spine__stop.is-selected .concept-spine__meta,
+.concept-spine__stop.is-selected .concept-spine__mutation {
+  color: #efb183;
+}
+
+.concept-spine__stop.is-selected .concept-figures {
+  color: rgba(252, 251, 248, 0.74);
+}
+
+.concept-spine__stop.is-selected .concept-spine__dot {
+  transform: scale(1.04);
+  border-color: rgba(212, 144, 95, 0.52);
+  background:
+    radial-gradient(circle at 30% 24%, rgba(33, 69, 98, 0.98), rgba(13, 33, 50, 0.96)),
+    linear-gradient(180deg, rgba(20, 48, 71, 0.96), rgba(10, 28, 42, 0.94));
+  box-shadow:
+    0 0 0 6px rgba(227, 190, 157, 0.16),
+    0 16px 30px rgba(16, 38, 59, 0.18);
+  color: #fcfbf8;
 }
 
 .concept-spotlight {

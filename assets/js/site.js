@@ -2103,7 +2103,7 @@
 
     const previewStep = (stepId) => {
       const thread = currentThread();
-      if (!thread || !conceptTimelineStep(thread, stepId)) {
+      if (!thread || !conceptTimelineStep(thread, stepId) || state.lockedStep) {
         return;
       }
       state.preview = stepId;
@@ -2253,16 +2253,6 @@
         }
       });
     });
-
-    window.addEventListener(
-      "scroll",
-      () => {
-        if (state.lockedStep) {
-          state.lockedStep = false;
-        }
-      },
-      { passive: true }
-    );
 
     render();
   }
