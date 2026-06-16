@@ -2973,6 +2973,34 @@ body.site-search-open {
   margin: 0;
 }
 
+.dialogue-card--inline-labels {
+  gap: 12px;
+}
+
+.dialogue-card--inline-labels .dialogue-turn {
+  padding: 12px 14px;
+  border-radius: 16px;
+  border: 1px solid rgba(16, 38, 59, 0.08);
+  background: rgba(255, 255, 255, 0.58);
+}
+
+.dialogue-card--inline-labels .dialogue-turn p {
+  display: inline;
+  margin: 0;
+  line-height: 1.72;
+}
+
+.dialogue-card--inline-labels .dialogue-turn__speaker {
+  display: inline;
+  margin: 0;
+  font-weight: 700;
+}
+
+.dialogue-card--inline-labels .dialogue-turn__speaker::after {
+  content: ":";
+  margin-right: 0.45rem;
+}
+
 .dialogue-turn__speaker {
   display: inline-block;
   margin-bottom: 6px;

@@ -180,78 +180,60 @@
               <p>The human-machine exchange is healthiest when the machine expands the field of considerations and the human remains answerable for selection, emphasis, and judgment.</p>
               <p>One honest test after reading is whether the reader can use double descent to sort a live borderline case or answer a serious objection about The Double Descent Phenomenon. The answer should leave the reader with a concrete test, contrast, or objection to carry into the next case. That keeps the page tied to what changes when a machine system becomes a partner in reasoning <em>rather than</em> a passive tool rather than leaving it as a detached summary.</p>
 
-              <div class="dialogue-card">
+              <div class="dialogue-card dialogue-card--inline-labels">
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Underfitting</span>
-  <p>When the model is too simple, it cannot capture the underlying patterns in the data, leading to high bias and high training and validation errors.</p>
+  <p><span class="dialogue-turn__speaker">Underfitting</span> When the model is too simple, it cannot capture the underlying patterns in the data, leading to high bias and high training and validation errors.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">Optimal Point</span>
-  <p>As the model complexity increases, it starts capturing the patterns, and the error decreases. There is an optimal point where the model achieves the best generalization with low validation error.</p>
+  <p><span class="dialogue-turn__speaker">Optimal Point</span> As the model complexity increases, it starts capturing the patterns, and the error decreases. There is an optimal point where the model achieves the best generalization with low validation error.</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Overfitting</span>
-  <p>Beyond this optimal point, further increasing model complexity causes the model to fit the <strong>training data</strong> too closely, capturing noise along with the underlying patterns. This results in high variance and an increase in validation error, even if the training error continues to decrease.</p>
+  <p><span class="dialogue-turn__speaker">Overfitting</span> Beyond this optimal point, further increasing model complexity causes the model to fit the <strong>training data</strong> too closely, capturing noise along with the underlying patterns. This results in high variance and an increase in validation error, even if the training error continues to decrease.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">First Descent (Classical Regime)</span>
-  <p>Similar to the traditional view, increasing model complexity initially reduces both training and validation errors until an optimal point is reached.</p>
+  <p><span class="dialogue-turn__speaker">First Descent (Classical Regime)</span> Similar to the traditional view, increasing model complexity initially reduces both training and validation errors until an optimal point is reached.</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Intermediate Overfitting Region</span>
-  <p>As the complexity continues to increase past this point, the model starts overfitting, and the validation error increases, aligning with traditional overfitting.</p>
+  <p><span class="dialogue-turn__speaker">Intermediate Overfitting Region</span> As the complexity continues to increase past this point, the model starts overfitting, and the validation error increases, aligning with traditional overfitting.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">Overparameterization</span>
-  <p>In modern AI, particularly deep learning, models are often overparameterized, meaning they have more parameters than necessary to fit the <strong>training data</strong> perfectly. Surprisingly, these overparameterized models can generalize well on new data.</p>
+  <p><span class="dialogue-turn__speaker">Overparameterization</span> In modern AI, particularly deep learning, models are often overparameterized, meaning they have more parameters than necessary to fit the <strong>training data</strong> perfectly. Surprisingly, these overparameterized models can generalize well on new data.</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Interpolation Threshold</span>
-  <p>The double descent phenomenon becomes evident around the interpolation threshold, where the model’s complexity is just sufficient to perfectly fit the <strong>training data</strong>.</p>
+  <p><span class="dialogue-turn__speaker">Interpolation Threshold</span> The double descent phenomenon becomes evident around the interpolation threshold, where the model’s complexity is just sufficient to perfectly fit the <strong>training data</strong>.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">Implicit Regularization</span>
-  <p>Overparameterized models often benefit from implicit regularization effects due to their training dynamics (e.g., stochastic gradient descent), which help them generalize better even with high complexity.</p>
+  <p><span class="dialogue-turn__speaker">Implicit Regularization</span> Overparameterized models often benefit from implicit regularization effects due to their training dynamics (e.g., stochastic gradient descent), which help them generalize better even with high complexity.</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Model Selection</span>
-  <p>It highlights the potential benefits of using highly complex models and avoiding premature stopping at intermediate levels of complexity.</p>
+  <p><span class="dialogue-turn__speaker">Model Selection</span> It highlights the potential benefits of using highly complex models and avoiding premature stopping at intermediate levels of complexity.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">Training Strategies</span>
-  <p>Insights into double descent can inform better training strategies, such as selecting appropriate regularization techniques and optimizing training dynamics.</p>
+  <p><span class="dialogue-turn__speaker">Training Strategies</span> Insights into double descent can inform better training strategies, such as selecting appropriate regularization techniques and optimizing training dynamics.</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Theoretical Foundations</span>
-  <p>The phenomenon prompts a reevaluation of theoretical foundations in machine learning, encouraging further research into the behavior of overparameterized models.</p>
+  <p><span class="dialogue-turn__speaker">Theoretical Foundations</span> The phenomenon prompts a reevaluation of theoretical foundations in machine learning, encouraging further research into the behavior of overparameterized models.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">Here’s the gist</span>
-  <p>double descent describes the surprising behavior where a model’s performance follows a U-shaped curve as the number of parameters (model complexity) increases. Let’s break it down:</p>
+  <p><span class="dialogue-turn__speaker">Here’s the gist</span> double descent describes the surprising behavior where a model’s performance follows a U-shaped curve as the number of parameters (model complexity) increases. Let’s break it down:</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Small Models, High Error</span>
-  <p>When you start with a simple model with a relatively low number of parameters, it often struggles to capture the underlying patterns in the data. This results in high error on both the <strong>training data</strong> (how well it fits the data it’s trained on) and the test data (how well it performs on unseen data).</p>
+  <p><span class="dialogue-turn__speaker">Small Models, High Error</span> When you start with a simple model with a relatively low number of parameters, it often struggles to capture the underlying patterns in the data. This results in high error on both the <strong>training data</strong> (how well it fits the data it’s trained on) and the test data (how well it performs on unseen data).</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">The Pitfall: Overfitting Takes Hold</span>
-  <p>As you increase the model complexity by adding more parameters, its ability to fit the <strong>training data</strong> improves dramatically. Initially, this seems like a win. However, there’s a tipping point. If the model has too many parameters relative to the amount of data available, it starts memorizing the training data’s idiosyncrasies instead of learning the generalizable patterns. This dreaded overfitting kicks in, leading to a sharp rise in error on the test data.</p>
+  <p><span class="dialogue-turn__speaker">The Pitfall: Overfitting Takes Hold</span> As you increase the model complexity by adding more parameters, its ability to fit the <strong>training data</strong> improves dramatically. Initially, this seems like a win. However, there’s a tipping point. If the model has too many parameters relative to the amount of data available, it starts memorizing the training data’s idiosyncrasies instead of learning the generalizable patterns. This dreaded overfitting kicks in, leading to a sharp rise in error on the test data.</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">The Unexpected Turn: Double Descent to the Rescue (Maybe)</span>
-  <p>Here’s where things get interesting. If you keep pushing the number of parameters even further, beyond this overfitting peak, something unexpected happens. The test error often starts to decrease again! This is the crux of the double descent phenomenon. Even though the model is technically overfitting by memorizing every detail of the <strong>training data</strong>, its complex structure seems to be able to learn smoother, more generalizable representations in a way that simpler models cannot.</p>
+  <p><span class="dialogue-turn__speaker">The Unexpected Turn: Double Descent to the Rescue (Maybe)</span> Here’s where things get interesting. If you keep pushing the number of parameters even further, beyond this overfitting peak, something unexpected happens. The test error often starts to decrease again! This is the crux of the double descent phenomenon. Even though the model is technically overfitting by memorizing every detail of the <strong>training data</strong>, its complex structure seems to be able to learn smoother, more generalizable representations in a way that simpler models cannot.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">The Bias-Variance Tradeoff Revisited</span>
-  <p>Traditionally, the bias-variance tradeoff has been a cornerstone principle. It suggests that simpler models (low bias) are less prone to overfitting but might underfit (fail to capture the complexity of the data), while more complex models (low variance) can overfit. Double descent challenges this notion a bit, showing that very complex models can achieve good generalization under certain conditions.</p>
+  <p><span class="dialogue-turn__speaker">The Bias-Variance Tradeoff Revisited</span> Traditionally, the bias-variance tradeoff has been a cornerstone principle. It suggests that simpler models (low bias) are less prone to overfitting but might underfit (fail to capture the complexity of the data), while more complex models (low variance) can overfit. Double descent challenges this notion a bit, showing that very complex models can achieve good generalization under certain conditions.</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Data Matters</span>
-  <p>The success of double descent seems to be highly dependent on having a large amount of data. With limited data, even very complex models might fall prey to overfitting without ever reaching the regime where double descent kicks in.</p>
+  <p><span class="dialogue-turn__speaker">Data Matters</span> The success of double descent seems to be highly dependent on having a large amount of data. With limited data, even very complex models might fall prey to overfitting without ever reaching the regime where double descent kicks in.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">Fine-Tuning is Crucial</span>
-  <p>Even if you manage to train a model that exhibits double descent, it might not be immediately usable. These models often require careful fine-tuning to optimize their performance for the specific task at hand.</p>
+  <p><span class="dialogue-turn__speaker">Fine-Tuning is Crucial</span> Even if you manage to train a model that exhibits double descent, it might not be immediately usable. These models often require careful fine-tuning to optimize their performance for the specific task at hand.</p>
 </div>
               </div>
 
@@ -288,78 +270,60 @@
               <p>The human-machine exchange is healthiest when the machine expands the field of considerations and the human remains answerable for selection, emphasis, and judgment.</p>
               <p>One honest test after reading is whether the reader can use Double Descent Phenomenon in AI Models to sort a live borderline case or answer a serious objection about The Double Descent Phenomenon. The answer should leave the reader with a concrete test, contrast, or objection to carry into the next case. That keeps the page tied to what changes when a machine system becomes a partner in reasoning <em>rather than</em> a passive tool rather than leaving it as a detached summary.</p>
 
-              <div class="dialogue-card">
+              <div class="dialogue-card dialogue-card--inline-labels">
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Classical Underparameterized Regime</span>
-  <p>When the model complexity is low (few parameters), the model cannot capture all the relevant patterns in the data, leading to high training and validation errors. This is known as underfitting. As you increase the number of parameters, the model becomes more capable of fitting the data, and both training and validation errors decrease.</p>
+  <p><span class="dialogue-turn__speaker">Classical Underparameterized Regime</span> When the model complexity is low (few parameters), the model cannot capture all the relevant patterns in the data, leading to high training and validation errors. This is known as underfitting. As you increase the number of parameters, the model becomes more capable of fitting the data, and both training and validation errors decrease.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">Intermediate Overfitting Regime</span>
-  <p>As model complexity increases further, the model reaches a point where it can fit the <strong>training data</strong> almost perfectly. At this stage, if the complexity is increased slightly more, the model starts to overfit the training data, capturing not only the underlying patterns but also the noise. This results in a spike in validation error, even though the training error remains low.</p>
+  <p><span class="dialogue-turn__speaker">Intermediate Overfitting Regime</span> As model complexity increases further, the model reaches a point where it can fit the <strong>training data</strong> almost perfectly. At this stage, if the complexity is increased slightly more, the model starts to overfit the training data, capturing not only the underlying patterns but also the noise. This results in a spike in validation error, even though the training error remains low.</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Modern Overparameterized Regime</span>
-  <p>Surprisingly, if you continue to increase the model complexity beyond the overfitting region, the validation error begins to decrease again. This is the onset of the second descent. In this highly overparameterized regime, the model has so many parameters that it can fit the <strong>training data</strong> perfectly while still generalizing well to unseen data. This counterintuitive behavior is facilitated by the training algorithms (like stochastic gradient descent) that implicitly regularize the model.</p>
+  <p><span class="dialogue-turn__speaker">Modern Overparameterized Regime</span> Surprisingly, if you continue to increase the model complexity beyond the overfitting region, the validation error begins to decrease again. This is the onset of the second descent. In this highly overparameterized regime, the model has so many parameters that it can fit the <strong>training data</strong> perfectly while still generalizing well to unseen data. This counterintuitive behavior is facilitated by the training algorithms (like stochastic gradient descent) that implicitly regularize the model.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">Interpolation Threshold</span>
-  <p>The double descent phenomenon is closely tied to the interpolation threshold, where the model complexity is just enough to perfectly fit (interpolate) the <strong>training data</strong>. Beyond this threshold, increasing the number of parameters typically leads to better generalization, contrary to traditional beliefs.</p>
+  <p><span class="dialogue-turn__speaker">Interpolation Threshold</span> The double descent phenomenon is closely tied to the interpolation threshold, where the model complexity is just enough to perfectly fit (interpolate) the <strong>training data</strong>. Beyond this threshold, increasing the number of parameters typically leads to better generalization, contrary to traditional beliefs.</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Implicit Regularization</span>
-  <p>In the overparameterized regime, the training process often incorporates implicit regularization. This means that despite having many parameters, the optimization methods used (e.g., gradient descent) guide the model to solutions that generalize well.</p>
+  <p><span class="dialogue-turn__speaker">Implicit Regularization</span> In the overparameterized regime, the training process often incorporates implicit regularization. This means that despite having many parameters, the optimization methods used (e.g., gradient descent) guide the model to solutions that generalize well.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">Robustness to Noise</span>
-  <p>Highly overparameterized models can sometimes become more robust to noise in the data. They learn a smoother decision boundary that better captures the true underlying patterns <em>rather than</em> fitting to random noise.</p>
+  <p><span class="dialogue-turn__speaker">Robustness to Noise</span> Highly overparameterized models can sometimes become more robust to noise in the data. They learn a smoother decision boundary that better captures the true underlying patterns <em>rather than</em> fitting to random noise.</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Model Selection and Training</span>
-  <p>Recognizing the double descent phenomenon encourages the use of larger, more complex models, as they might ultimately provide better performance despite initial overfitting concerns. It also informs training strategies, suggesting that allowing models to grow in complexity and training them adequately can lead to superior generalization.</p>
+  <p><span class="dialogue-turn__speaker">Model Selection and Training</span> Recognizing the double descent phenomenon encourages the use of larger, more complex models, as they might ultimately provide better performance despite initial overfitting concerns. It also informs training strategies, suggesting that allowing models to grow in complexity and training them adequately can lead to superior generalization.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">Theoretical Insights</span>
-  <p>The phenomenon prompts a rethinking of classical learning theory, which traditionally discouraged overparameterization due to fears of overfitting. It underscores the importance of the interplay between model architecture, parameter count, and training dynamics.</p>
+  <p><span class="dialogue-turn__speaker">Theoretical Insights</span> The phenomenon prompts a rethinking of classical learning theory, which traditionally discouraged overparameterization due to fears of overfitting. It underscores the importance of the interplay between model architecture, parameter count, and training dynamics.</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Limited Parameters</span>
-  <p>If you have a simple model with just a few parameters, it’s like having a screwdriver as your only tool. You can adjust some basic things, but it’s difficult to capture intricate details. This can lead to underfitting, where the model fails to learn the underlying patterns in the data.</p>
+  <p><span class="dialogue-turn__speaker">Limited Parameters</span> If you have a simple model with just a few parameters, it’s like having a screwdriver as your only tool. You can adjust some basic things, but it’s difficult to capture intricate details. This can lead to underfitting, where the model fails to learn the underlying patterns in the data.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">Overparameterization</span>
-  <p>Now, imagine giving your model a huge toolbox filled with wrenches, hammers, saws, and all sorts of specialized tools. This represents a highly overparameterized model. It can potentially fit any data perfectly, like a craftsman meticulously crafting a piece to perfectly match a single, specific object. But therein lies the problem.</p>
+  <p><span class="dialogue-turn__speaker">Overparameterization</span> Now, imagine giving your model a huge toolbox filled with wrenches, hammers, saws, and all sorts of specialized tools. This represents a highly overparameterized model. It can potentially fit any data perfectly, like a craftsman meticulously crafting a piece to perfectly match a single, specific object. But therein lies the problem.</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Low Model Complexity, High Error</span>
-  <p>Initially, as you start with a simple model (low parameter count), its performance suffers due to underfitting. The model just can’t grasp the complexities of the data, leading to high error on both the training and test data.</p>
+  <p><span class="dialogue-turn__speaker">Low Model Complexity, High Error</span> Initially, as you start with a simple model (low parameter count), its performance suffers due to underfitting. The model just can’t grasp the complexities of the data, leading to high error on both the training and test data.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">Overfitting Takes Over</span>
-  <p>As you increase the number of parameters, the model’s ability to fit the <strong>training data</strong> soars. It can bend and twist its internal structure to perfectly match the training examples. This seems like a win, but it’s a trap. The model starts memorizing the training data’s quirks instead of learning generalizable patterns. This overfitting leads to a sharp rise in error on unseen data (test data).</p>
+  <p><span class="dialogue-turn__speaker">Overfitting Takes Over</span> As you increase the number of parameters, the model’s ability to fit the <strong>training data</strong> soars. It can bend and twist its internal structure to perfectly match the training examples. This seems like a win, but it’s a trap. The model starts memorizing the training data’s quirks instead of learning generalizable patterns. This overfitting leads to a sharp rise in error on unseen data (test data).</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Averaging Over Simpler Models</span>
-  <p>One theory suggests that these very complex models with extremely high parameter counts might be acting like an ensemble. Imagine having many simpler models working together, each with a slightly different structure. The highly overparameterized model, in a sense, could be averaging the predictions of these simpler models, leading to a more robust and generalizable outcome.</p>
+  <p><span class="dialogue-turn__speaker">Averaging Over Simpler Models</span> One theory suggests that these very complex models with extremely high parameter counts might be acting like an ensemble. Imagine having many simpler models working together, each with a slightly different structure. The highly overparameterized model, in a sense, could be averaging the predictions of these simpler models, leading to a more robust and generalizable outcome.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">High-Dimensional Space Advantage</span>
-  <p>Another theory proposes that the high dimensionality enabled by a massive number of parameters allows the model to find smoother, more generalizable representations in a way that simpler models cannot. Imagine fitting a complex curve in a high-dimensional space – with more parameters, the model has more “wiggle room” to find a smoother fit that captures the essence of the data without getting stuck on specific details.</p>
+  <p><span class="dialogue-turn__speaker">High-Dimensional Space Advantage</span> Another theory proposes that the high dimensionality enabled by a massive number of parameters allows the model to find smoother, more generalizable representations in a way that simpler models cannot. Imagine fitting a complex curve in a high-dimensional space – with more parameters, the model has more “wiggle room” to find a smoother fit that captures the essence of the data without getting stuck on specific details.</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">The Nature of the Data</span>
-  <p>Double descent seems to work better with a large amount of data. With limited data, even highly complex models might fall prey to overfitting before reaching the double descent regime.</p>
+  <p><span class="dialogue-turn__speaker">The Nature of the Data</span> Double descent seems to work better with a large amount of data. With limited data, even highly complex models might fall prey to overfitting before reaching the double descent regime.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">The Training Process</span>
-  <p>The specific training procedure and optimization algorithms used can influence whether double descent occurs.</p>
+  <p><span class="dialogue-turn__speaker">The Training Process</span> The specific training procedure and optimization algorithms used can influence whether double descent occurs.</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Overfitting Isn’t Always a Dead End</span>
-  <p>Double descent suggests that even highly overparameterized models can achieve good generalization under certain conditions.</p>
+  <p><span class="dialogue-turn__speaker">Overfitting Isn’t Always a Dead End</span> Double descent suggests that even highly overparameterized models can achieve good generalization under certain conditions.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">Data is King</span>
-  <p>The success of double descent hinges on having a substantial amount of data to train the model effectively.</p>
+  <p><span class="dialogue-turn__speaker">Data is King</span> The success of double descent hinges on having a substantial amount of data to train the model effectively.</p>
 </div>
               </div>
 
@@ -395,70 +359,54 @@
               <p>A fair pushback is that the familiar way of speaking about the familiar reading already seems good enough. The page should answer that in plain language: what mistake does the familiar wording invite, and what becomes clearer if we tighten the distinction?</p>
               <p>Treat Double Descent Phenomenon in AI Models, A Curveball in Overfitting, and Key Takeaways from Double Descent as handles, not slogans. Examples should be read as stress tests: they show whether a distinction keeps working when it leaves the abstract setting. The AI pressure is responsibility: fluent assistance can sharpen thought, but it cannot inherit the reader&#x27;s duty to judge.</p>
 
-              <div class="dialogue-card">
+              <div class="dialogue-card dialogue-card--inline-labels">
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">This scenario can help explain some important concepts in AI</span>
-  <p>overparameterization and double descent.</p>
+  <p><span class="dialogue-turn__speaker">This scenario can help explain some important concepts in AI</span> overparameterization and double descent.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">First Descent (Getting Better with Tools)</span>
-  <p>Imagine you start with just a pencil and paper (a simple model). Your circles aren’t great. Then, you get a compass (increasing complexity), and your circles improve (errors decrease). If you keep adding more tools, at some point, the extra tools don’t help anymore. Maybe your circles start looking worse because you’re trying too hard to use all the tools (overfitting).</p>
+  <p><span class="dialogue-turn__speaker">First Descent (Getting Better with Tools)</span> Imagine you start with just a pencil and paper (a simple model). Your circles aren’t great. Then, you get a compass (increasing complexity), and your circles improve (errors decrease). If you keep adding more tools, at some point, the extra tools don’t help anymore. Maybe your circles start looking worse because you’re trying too hard to use all the tools (overfitting).</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Intermediate Overfitting (Too Many Tools)</span>
-  <p>At this point, your extra tools are making your circles messy. This is like when an AI model gets too complex and starts overfitting the <strong>training data</strong>.</p>
+  <p><span class="dialogue-turn__speaker">Intermediate Overfitting (Too Many Tools)</span> At this point, your extra tools are making your circles messy. This is like when an AI model gets too complex and starts overfitting the <strong>training data</strong>.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">Second Descent (Mastering the High-Tech Robot)</span>
-  <p>Surprisingly, if you keep adding even more tools and really master using them (moving to a very high-tech robot), your circles can start getting better again. You learn to use the advanced tools so well that they help you make perfect circles without the messiness. In AI, this means that very complex models (with a lot of parameters) can actually start performing better on new, unseen data, despite having more complexity than initially needed.</p>
+  <p><span class="dialogue-turn__speaker">Second Descent (Mastering the High-Tech Robot)</span> Surprisingly, if you keep adding even more tools and really master using them (moving to a very high-tech robot), your circles can start getting better again. You learn to use the advanced tools so well that they help you make perfect circles without the messiness. In AI, this means that very complex models (with a lot of parameters) can actually start performing better on new, unseen data, despite having more complexity than initially needed.</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Beginners (Underfitting)</span>
-  <p>At first, you struggle to play even simple songs. Your performance isn’t great because you haven’t learned enough yet.</p>
+  <p><span class="dialogue-turn__speaker">Beginners (Underfitting)</span> At first, you struggle to play even simple songs. Your performance isn’t great because you haven’t learned enough yet.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">Intermediate (Optimal Point)</span>
-  <p>As you practice, you get better. You play songs correctly and sound good.</p>
+  <p><span class="dialogue-turn__speaker">Intermediate (Optimal Point)</span> As you practice, you get better. You play songs correctly and sound good.</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Overdoing It (Overfitting)</span>
-  <p>If you focus too much on one song, you might play it perfectly but struggle with new songs because you haven’t learned the underlying skills, just memorized the notes.</p>
+  <p><span class="dialogue-turn__speaker">Overdoing It (Overfitting)</span> If you focus too much on one song, you might play it perfectly but struggle with new songs because you haven’t learned the underlying skills, just memorized the notes.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">Advanced Mastery (Second Descent)</span>
-  <p>If you continue practicing and learning more complex techniques, you eventually become so skilled that you can play new songs beautifully, even if they’re much harder. You’ve moved beyond just memorizing to truly understanding the music.</p>
+  <p><span class="dialogue-turn__speaker">Advanced Mastery (Second Descent)</span> If you continue practicing and learning more complex techniques, you eventually become so skilled that you can play new songs beautifully, even if they’re much harder. You’ve moved beyond just memorizing to truly understanding the music.</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Simple Toolbox</span>
-  <p>Think of giving your robot a basic toolkit – just a wrench and a screwdriver. It can handle basic shapes like circles (pizzas) but struggles with details like pepperoni or thin crust (underfitting).</p>
+  <p><span class="dialogue-turn__speaker">Simple Toolbox</span> Think of giving your robot a basic toolkit – just a wrench and a screwdriver. It can handle basic shapes like circles (pizzas) but struggles with details like pepperoni or thin crust (underfitting).</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">Overstocked Toolbox</span>
-  <p>Now, imagine giving it a giant toolbox with every tool imaginable – saws, hammers, even a tiny paintbrush! This is like an overparameterized model. It can perfectly recreate any pizza it sees in the <strong>training data</strong> (overfitting). But here’s the problem: if you show it a pizza with pineapple (never seen before!), it might get confused and classify it wrong because it’s focused on memorizing every detail from the training data instead of learning the general idea of “pizza.”</p>
+  <p><span class="dialogue-turn__speaker">Overstocked Toolbox</span> Now, imagine giving it a giant toolbox with every tool imaginable – saws, hammers, even a tiny paintbrush! This is like an overparameterized model. It can perfectly recreate any pizza it sees in the <strong>training data</strong> (overfitting). But here’s the problem: if you show it a pizza with pineapple (never seen before!), it might get confused and classify it wrong because it’s focused on memorizing every detail from the training data instead of learning the general idea of “pizza.”</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Basic Tools, Not Enough Learning</span>
-  <p>With the simple toolbox, your robot struggles to identify different pizzas (high error).</p>
+  <p><span class="dialogue-turn__speaker">Basic Tools, Not Enough Learning</span> With the simple toolbox, your robot struggles to identify different pizzas (high error).</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">The Super-Sized Toolbox Surprise</span>
-  <p>Here’s the twist! If you give your robot an even BIGGER toolbox, with even more tools (way more parameters than data!), something unexpected happens. It often starts to correctly identify new pizzas it’s never seen before (error goes down)!</p>
+  <p><span class="dialogue-turn__speaker">The Super-Sized Toolbox Surprise</span> Here’s the twist! If you give your robot an even BIGGER toolbox, with even more tools (way more parameters than data!), something unexpected happens. It often starts to correctly identify new pizzas it’s never seen before (error goes down)!</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Like Having Many Simple Robots</span>
-  <p>Maybe the super-sized toolbox acts like having many simpler robots working together. Each robot might have a slightly different way of looking at pizzas, and together they come up with a better overall idea.</p>
+  <p><span class="dialogue-turn__speaker">Like Having Many Simple Robots</span> Maybe the super-sized toolbox acts like having many simpler robots working together. Each robot might have a slightly different way of looking at pizzas, and together they come up with a better overall idea.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">Finding the Perfect Shape</span>
-  <p>Imagine the toolbox has tools to bend and shape metal. With so many tools, the robot can create smoother shapes that better represent the general idea of “pizza” (generalizable patterns) instead of getting stuck on tiny details like pepperoni placement.</p>
+  <p><span class="dialogue-turn__speaker">Finding the Perfect Shape</span> Imagine the toolbox has tools to bend and shape metal. With so many tools, the robot can create smoother shapes that better represent the general idea of “pizza” (generalizable patterns) instead of getting stuck on tiny details like pepperoni placement.</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">This Doesn’t Always Work</span>
-  <p>The super-sized toolbox trick (double descent) doesn’t work all the time. It depends on having a ton of pizza pictures (data) to train the robot effectively.</p>
+  <p><span class="dialogue-turn__speaker">This Doesn’t Always Work</span> The super-sized toolbox trick (double descent) doesn’t work all the time. It depends on having a ton of pizza pictures (data) to train the robot effectively.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">Fine-Tuning is Key</span>
-  <p>Even if the super-sized toolbox works, the robot might still need some adjustments to become a pizza master (fine-tuning the model).</p>
+  <p><span class="dialogue-turn__speaker">Fine-Tuning is Key</span> Even if the super-sized toolbox works, the robot might still need some adjustments to become a pizza master (fine-tuning the model).</p>
 </div>
               </div>
 
@@ -494,78 +442,60 @@
               <p>The human-machine exchange is healthiest when the machine expands the field of considerations and the human remains answerable for selection, emphasis, and judgment.</p>
               <p>One honest test after reading is whether the reader can use Double Descent Phenomenon in AI Models to sort a live borderline case or answer a serious objection about The Double Descent Phenomenon. The answer should leave the reader with a concrete test, contrast, or objection to carry into the next case. That keeps the page tied to what changes when a machine system becomes a partner in reasoning <em>rather than</em> a passive tool rather than leaving it as a detached summary.</p>
 
-              <div class="dialogue-card">
+              <div class="dialogue-card dialogue-card--inline-labels">
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Simple Puzzle Solver (Basic AI Models)</span>
-  <p>You start with a basic puzzle solver. It can only handle small puzzles with simple pieces. It struggles with larger puzzles because it doesn’t have enough strategies or tools (parameters).</p>
+  <p><span class="dialogue-turn__speaker">Simple Puzzle Solver (Basic AI Models)</span> You start with a basic puzzle solver. It can only handle small puzzles with simple pieces. It struggles with larger puzzles because it doesn’t have enough strategies or tools (parameters).</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">Neural Complexity</span>
-  <p>The human brain consists of approximately 86 billion neurons, each connected to thousands of other neurons, creating an incredibly complex network. This complexity is akin to an overparameterized AI model with a vast number of parameters.</p>
+  <p><span class="dialogue-turn__speaker">Neural Complexity</span> The human brain consists of approximately 86 billion neurons, each connected to thousands of other neurons, creating an incredibly complex network. This complexity is akin to an overparameterized AI model with a vast number of parameters.</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Learning and Adaptation</span>
-  <p>The brain doesn’t just store information but learns patterns and adapts to new experiences. Just like advanced AI models, the brain undergoes a process of training through experiences, gradually refining its neural connections to become more efficient at recognizing patterns, making decisions, and solving problems.</p>
+  <p><span class="dialogue-turn__speaker">Learning and Adaptation</span> The brain doesn’t just store information but learns patterns and adapts to new experiences. Just like advanced AI models, the brain undergoes a process of training through experiences, gradually refining its neural connections to become more efficient at recognizing patterns, making decisions, and solving problems.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">Implicit Regularization in the Brain</span>
-  <p>The brain’s training process, involving reinforcement learning, neural plasticity, and synaptic pruning, acts as a form of implicit regularization. These processes ensure that, despite its complexity, the brain maintains efficiency and adaptability, avoiding the pitfalls of overfitting. It fine-tunes itself to generalize well across various tasks, much like how advanced AI models achieve good generalization despite their high complexity.</p>
+  <p><span class="dialogue-turn__speaker">Implicit Regularization in the Brain</span> The brain’s training process, involving reinforcement learning, neural plasticity, and synaptic pruning, acts as a form of implicit regularization. These processes ensure that, despite its complexity, the brain maintains efficiency and adaptability, avoiding the pitfalls of overfitting. It fine-tunes itself to generalize well across various tasks, much like how advanced AI models achieve good generalization despite their high complexity.</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">AI Models</span>
-  <p>Initially, increasing complexity leads to overfitting, but further increasing it (with proper training) results in better generalization and efficiency.</p>
+  <p><span class="dialogue-turn__speaker">AI Models</span> Initially, increasing complexity leads to overfitting, but further increasing it (with proper training) results in better generalization and efficiency.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">Human Brain</span>
-  <p>The brain’s immense complexity is managed through lifelong learning and adaptation, leading to remarkable cognitive abilities and efficient problem-solving.</p>
+  <p><span class="dialogue-turn__speaker">Human Brain</span> The brain’s immense complexity is managed through lifelong learning and adaptation, leading to remarkable cognitive abilities and efficient problem-solving.</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Initial Learning (Underfitting Phase)</span>
-  <p>At first, you struggle. Your brain is like a simple puzzle solver, trying to piece together the basic elements.</p>
+  <p><span class="dialogue-turn__speaker">Initial Learning (Underfitting Phase)</span> At first, you struggle. Your brain is like a simple puzzle solver, trying to piece together the basic elements.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">Intermediate Mastery (Overfitting Phase)</span>
-  <p>As you practice, you get better. However, if you only practice specific pieces or phrases, you might perform those well but struggle with new, different ones, analogous to overfitting.</p>
+  <p><span class="dialogue-turn__speaker">Intermediate Mastery (Overfitting Phase)</span> As you practice, you get better. However, if you only practice specific pieces or phrases, you might perform those well but struggle with new, different ones, analogous to overfitting.</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Advanced Proficiency (Second Descent)</span>
-  <p>With continued practice and exposure to varied scenarios, your brain refines its connections, becoming more adept at handling new and complex situations. This is like the second descent in AI, where increased complexity, combined with proper learning, leads to superior performance.</p>
+  <p><span class="dialogue-turn__speaker">Advanced Proficiency (Second Descent)</span> With continued practice and exposure to varied scenarios, your brain refines its connections, becoming more adept at handling new and complex situations. This is like the second descent in AI, where increased complexity, combined with proper learning, leads to superior performance.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">AI Analogy</span>
-  <p>Deep learning models with billions of parameters exhibit unexpected capabilities despite our limited understanding of the exact internal workings. We can think of them as complex systems where individual components (neurons and connections) interact in ways that lead to emergent properties – the ability to recognize patterns, translate languages, or even generate creative text formats – that weren’t explicitly programmed.</p>
+  <p><span class="dialogue-turn__speaker">AI Analogy</span> Deep learning models with billions of parameters exhibit unexpected capabilities despite our limited understanding of the exact internal workings. We can think of them as complex systems where individual components (neurons and connections) interact in ways that lead to emergent properties – the ability to recognize patterns, translate languages, or even generate creative text formats – that weren’t explicitly programmed.</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Brain Analogy</span>
-  <p>The human brain also has a mind-boggling number of connections (estimated at 100 trillion synapses) between its neurons. These connections create a complex network that gives rise to consciousness, thought, and other higher-order functions that we still don’t fully understand. Just like with deep learning models, the emergent properties of the brain might be more than the sum of its individual parts.</p>
+  <p><span class="dialogue-turn__speaker">Brain Analogy</span> The human brain also has a mind-boggling number of connections (estimated at 100 trillion synapses) between its neurons. These connections create a complex network that gives rise to consciousness, thought, and other higher-order functions that we still don’t fully understand. Just like with deep learning models, the emergent properties of the brain might be more than the sum of its individual parts.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">AI Analogy</span>
-  <p>Training a deep learning model can be visualized as navigating a complex landscape with many hills and valleys. The goal is to find the lowest valley (optimal solution) that represents the best fit for the data. However, the landscape can be riddled with hidden pathways and local minima (false bottoms) that can trap the model in suboptimal solutions. Double descent, where increasing complexity helps escape local minima, highlights the challenges of navigating this complex landscape.</p>
+  <p><span class="dialogue-turn__speaker">AI Analogy</span> Training a deep learning model can be visualized as navigating a complex landscape with many hills and valleys. The goal is to find the lowest valley (optimal solution) that represents the best fit for the data. However, the landscape can be riddled with hidden pathways and local minima (false bottoms) that can trap the model in suboptimal solutions. Double descent, where increasing complexity helps escape local minima, highlights the challenges of navigating this complex landscape.</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Brain Analogy</span>
-  <p>Some neuroscientists theorize that the brain might use a similar “landscape” approach for learning and decision-making. Our experiences shape the connections between our neurons, creating a sort of internal landscape that guides our thoughts and actions. Like the AI model, the brain might navigate this landscape to find optimal solutions, with the potential for getting stuck in unhelpful patterns or biases.</p>
+  <p><span class="dialogue-turn__speaker">Brain Analogy</span> Some neuroscientists theorize that the brain might use a similar “landscape” approach for learning and decision-making. Our experiences shape the connections between our neurons, creating a sort of internal landscape that guides our thoughts and actions. Like the AI model, the brain might navigate this landscape to find optimal solutions, with the potential for getting stuck in unhelpful patterns or biases.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">AI vs. Biology</span>
-  <p>While these analogies offer intriguing parallels, it’s crucial to remember that AI models are artificial constructs fundamentally different from biological brains. Brains are constantly adapting and changing through processes like neurogenesis (creation of new neurons) and synaptic plasticity (modification of connections), while AI models are static once trained.</p>
+  <p><span class="dialogue-turn__speaker">AI vs. Biology</span> While these analogies offer intriguing parallels, it’s crucial to remember that AI models are artificial constructs fundamentally different from biological brains. Brains are constantly adapting and changing through processes like neurogenesis (creation of new neurons) and synaptic plasticity (modification of connections), while AI models are static once trained.</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Limited Understanding</span>
-  <p>Our understanding of both AI and the brain is far from complete. These analogies are just starting points for further exploration, not definitive explanations.</p>
+  <p><span class="dialogue-turn__speaker">Limited Understanding</span> Our understanding of both AI and the brain is far from complete. These analogies are just starting points for further exploration, not definitive explanations.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">But here’s where it gets interesting</span>
-  <p>if we continue to add more cars and roads (overparameterize the model), the model somehow starts to find new routes and the traffic starts flowing smoothly again. This is the “double descent” phenomenon in AI.</p>
+  <p><span class="dialogue-turn__speaker">But here’s where it gets interesting</span> if we continue to add more cars and roads (overparameterize the model), the model somehow starts to find new routes and the traffic starts flowing smoothly again. This is the “double descent” phenomenon in AI.</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Answer</span>
-  <p>Overparameterization refers to using models with significantly more parameters than the number of data points in the training set, allowing the model to fit the <strong>training data</strong> perfectly and potentially generalize well.</p>
+  <p><span class="dialogue-turn__speaker">Answer</span> Overparameterization refers to using models with significantly more parameters than the number of data points in the training set, allowing the model to fit the <strong>training data</strong> perfectly and potentially generalize well.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">Answer</span>
-  <p>The double descent phenomenon describes a pattern where increasing model complexity initially decreases error (first descent), then increases error due to overfitting (intermediate overfitting), and finally decreases error again as the model becomes highly overparameterized (second descent).</p>
+  <p><span class="dialogue-turn__speaker">Answer</span> The double descent phenomenon describes a pattern where increasing model complexity initially decreases error (first descent), then increases error due to overfitting (intermediate overfitting), and finally decreases error again as the model becomes highly overparameterized (second descent).</p>
 </div>
               </div>
 

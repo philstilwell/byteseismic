@@ -17826,6 +17826,7 @@ def render_dialogue_card(turns: list[dict], philosopher: str) -> str:
     rendered_turns = []
     speaker_labels = dialogue_speaker_labels(turns)
     rendered_index = 0
+    inline_labels = not kind and not clean_text(philosopher)
     for turn in turns:
         text = clean_text(turn.get("text", ""))
         if not text:
@@ -17839,19 +17840,31 @@ def render_dialogue_card(turns: list[dict], philosopher: str) -> str:
             if is_counter_speaker(speaker, philosopher) or rendered_index % 2 == 1
             else ""
         )
-        rendered_turns.append(
-            textwrap.dedent(
-                f"""\
-                <div class="dialogue-turn{counter_class}">
-                  <span class="dialogue-turn__speaker">{html.escape(speaker)}</span>
-                  <p>{render_inline_text(text)}</p>
-                </div>"""
+        if inline_labels:
+            rendered_turns.append(
+                textwrap.dedent(
+                    f"""\
+                    <div class="dialogue-turn{counter_class}">
+                      <p><span class="dialogue-turn__speaker">{html.escape(speaker)}</span> {render_inline_text(text)}</p>
+                    </div>"""
+                )
             )
-        )
+        else:
+            rendered_turns.append(
+                textwrap.dedent(
+                    f"""\
+                    <div class="dialogue-turn{counter_class}">
+                      <span class="dialogue-turn__speaker">{html.escape(speaker)}</span>
+                      <p>{render_inline_text(text)}</p>
+                    </div>"""
+                )
+            )
         rendered_index += 1
     if not rendered_turns:
         return ""
     card_class = "dialogue-card"
+    if inline_labels:
+        card_class += " dialogue-card--inline-labels"
     if kind:
         card_class += f" detail-card detail-card--{kind}"
     return f"\n              <div class=\"{card_class}\">\n" + "\n".join(rendered_turns) + "\n              </div>"

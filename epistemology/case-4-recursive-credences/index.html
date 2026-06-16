@@ -183,46 +183,36 @@
               <p>This section should give the reader a usable epistemic lever: what would support the central claim, what would count against it, and what would make suspension of judgment more rational than either assent or denial. The point is not to make Recursive Credences tidy; it is to help the reader notice the difference between having a belief, having a reason, and having enough reason.</p>
               <p>For a companion resource on calibration, credence, and structured rational judgment, see <a class="text-link" href="https://credencing.com/" rel="noopener noreferrer">Credencing.com</a>.</p>
 
-              <div class="dialogue-card">
+              <div class="dialogue-card dialogue-card--inline-labels">
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Assign Initial Priors</span>
-  <p>Assign the initial confidence in the claim as a probability (e.g., Alex’s prior is 75% confidence in the claim).</p>
+  <p><span class="dialogue-turn__speaker">Assign Initial Priors</span> Assign the initial confidence in the claim as a probability (e.g., Alex’s prior is 75% confidence in the claim).</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">Establish Relationships</span>
-  <p>Write out the relationships, such as “Alex believes 40% of what Ben says” and “Ben believes 70% of what Carl says”.</p>
+  <p><span class="dialogue-turn__speaker">Establish Relationships</span> Write out the relationships, such as “Alex believes 40% of what Ben says” and “Ben believes 70% of what Carl says”.</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Create Equations</span>
-  <p>Create equations that represent each person’s adjusted belief in the claim after considering the others’ beliefs.</p>
+  <p><span class="dialogue-turn__speaker">Create Equations</span> Create equations that represent each person’s adjusted belief in the claim after considering the others’ beliefs.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">Iterate</span>
-  <p>Adjust each person’s belief in the claim based on the other two people’s beliefs, iterate this process until the values stabilize. This may require a system of equations or a computational approach if the relationships are highly interdependent.</p>
+  <p><span class="dialogue-turn__speaker">Iterate</span> Adjust each person’s belief in the claim based on the other two people’s beliefs, iterate this process until the values stabilize. This may require a system of equations or a computational approach if the relationships are highly interdependent.</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Check for Convergence</span>
-  <p>If the values converge to a stable set of probabilities, then these can be considered the group’s adjusted belief in the claim. If they do not converge, it might indicate that the recursion is too complex to resolve with the given information.</p>
+  <p><span class="dialogue-turn__speaker">Check for Convergence</span> If the values converge to a stable set of probabilities, then these can be considered the group’s adjusted belief in the claim. If they do not converge, it might indicate that the recursion is too complex to resolve with the given information.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">1) a = 0.2 (Given</span>
-  <p>Carl believes only 20% of what Alex says) 2) b = 0.4 (Given: Ben is believed 40% by Alex) 3) c = 0.7 (Given: Carl is believed 70% by Ben) 4) p = 0.75a + 0.5(1-a) (Alex’s prior belief about the claim, based on his stated reliability a and the assumption of honesty for the remaining 1-a) 5) p = 0.3b + 0.5(1-b) (Ben’s prior belief, similarly derived) 6) p = 0.5c + 0.5(1-c) (Carl’s prior belief, similarly derived)</p>
+  <p><span class="dialogue-turn__speaker">1) a = 0.2 (Given</span> Carl believes only 20% of what Alex says) 2) b = 0.4 (Given: Ben is believed 40% by Alex) 3) c = 0.7 (Given: Carl is believed 70% by Ben) 4) p = 0.75a + 0.5(1-a) (Alex’s prior belief about the claim, based on his stated reliability a and the assumption of honesty for the remaining 1-a) 5) p = 0.3b + 0.5(1-b) (Ben’s prior belief, similarly derived) 6) p = 0.5c + 0.5(1-c) (Carl’s prior belief, similarly derived)</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Let’s start with initial guesses</span>
-  <p>p = 0.5, a = 0.5, b = 0.5, c = 0.5</p>
+  <p><span class="dialogue-turn__speaker">Let’s start with initial guesses</span> p = 0.5, a = 0.5, b = 0.5, c = 0.5</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">Iteration 1</span>
-  <p>a = 0.2 (given) b = 0.4 (given) c = 0.7 (given) p = 0.75(0.5) + 0.5(0.5) = 0.625 p = 0.3(0.5) + 0.5(0.5) = 0.4 p = 0.5(0.7) + 0.5(0.3) = 0.5</p>
+  <p><span class="dialogue-turn__speaker">Iteration 1</span> a = 0.2 (given) b = 0.4 (given) c = 0.7 (given) p = 0.75(0.5) + 0.5(0.5) = 0.625 p = 0.3(0.5) + 0.5(0.5) = 0.4 p = 0.5(0.7) + 0.5(0.3) = 0.5</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Iteration 2</span>
-  <p>a = 0.2 (given) b = 0.4 (given) c = 0.7 (given) p = 0.625 (from previous iteration) p = 0.3(0.4) + 0.5(0.6) = 0.47 p = 0.5(0.7) + 0.5(0.3) = 0.5</p>
+  <p><span class="dialogue-turn__speaker">Iteration 2</span> a = 0.2 (given) b = 0.4 (given) c = 0.7 (given) p = 0.625 (from previous iteration) p = 0.3(0.4) + 0.5(0.6) = 0.47 p = 0.5(0.7) + 0.5(0.3) = 0.5</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">Iteration 3</span>
-  <p>a = 0.2 (given) b = 0.4 (given) c = 0.7 (given) p = 0.47 (from previous iteration) p = 0.3(0.4) + 0.5(0.6) = 0.47 p = 0.5(0.7) + 0.5(0.3) = 0.5</p>
+  <p><span class="dialogue-turn__speaker">Iteration 3</span> a = 0.2 (given) b = 0.4 (given) c = 0.7 (given) p = 0.47 (from previous iteration) p = 0.3(0.4) + 0.5(0.6) = 0.47 p = 0.5(0.7) + 0.5(0.3) = 0.5</p>
 </div>
               </div>
 
@@ -260,78 +250,60 @@
               <p>One honest test after reading is whether the reader can use Please attempt to calculate a solution to sort a live borderline case or answer a serious objection about Recursive Credences. A good argument should separate the premise under dispute from the conclusion that depends on it. That keeps the page tied to what would make a belief worth holding, revising, or abandoning <em>rather than</em> leaving it as a detached summary.</p>
               <p>This section should give the reader a usable epistemic lever: what would support the central claim, what would count against it, and what would make suspension of judgment more rational than either assent or denial. The point is not to make Recursive Credences tidy; it is to help the reader notice the difference between having a belief, having a reason, and having enough reason.</p>
 
-              <div class="dialogue-card">
+              <div class="dialogue-card dialogue-card--inline-labels">
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Nonlinear Relationships</span>
-  <p>The beliefs of each individual affect and are affected by the beliefs of others in a nonlinear fashion, creating a looped dependency that doesn’t lend itself to simple, sequential reasoning.</p>
+  <p><span class="dialogue-turn__speaker">Nonlinear Relationships</span> The beliefs of each individual affect and are affected by the beliefs of others in a nonlinear fashion, creating a looped dependency that doesn’t lend itself to simple, sequential reasoning.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">Iterative Nature</span>
-  <p>The adjustment of one belief potentially alters the basis on which another belief was adjusted, requiring multiple iterations to find a stable state—if one exists.</p>
+  <p><span class="dialogue-turn__speaker">Iterative Nature</span> The adjustment of one belief potentially alters the basis on which another belief was adjusted, requiring multiple iterations to find a stable state—if one exists.</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Cognitive Load</span>
-  <p>Humans have limited working memory and can struggle to hold multiple, interconnected pieces of information in mind simultaneously, especially when the relationships between them are complex.</p>
+  <p><span class="dialogue-turn__speaker">Cognitive Load</span> Humans have limited working memory and can struggle to hold multiple, interconnected pieces of information in mind simultaneously, especially when the relationships between them are complex.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">Convergence Difficulty</span>
-  <p>Determining whether the adjustments will converge on a stable set of beliefs, oscillate indefinitely, or diverge requires computational approaches beyond intuitive human capabilities.</p>
+  <p><span class="dialogue-turn__speaker">Convergence Difficulty</span> Determining whether the adjustments will converge on a stable set of beliefs, oscillate indefinitely, or diverge requires computational approaches beyond intuitive human capabilities.</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Probability Calibration</span>
-  <p>Humans are not inherently good at calibrating probabilities, especially in the context of recursive relationships. Our intuitive estimates can be significantly off from calculated probabilities.</p>
+  <p><span class="dialogue-turn__speaker">Probability Calibration</span> Humans are not inherently good at calibrating probabilities, especially in the context of recursive relationships. Our intuitive estimates can be significantly off from calculated probabilities.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">Simplification</span>
-  <p>Break down the problem into simpler parts that can be understood individually before attempting to see how they interact as a whole.</p>
+  <p><span class="dialogue-turn__speaker">Simplification</span> Break down the problem into simpler parts that can be understood individually before attempting to see how they interact as a whole.</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Visualization</span>
-  <p>Create diagrams or visual representations to map out the dependencies and relationships, which can make the structure of the problem clearer.</p>
+  <p><span class="dialogue-turn__speaker">Visualization</span> Create diagrams or visual representations to map out the dependencies and relationships, which can make the structure of the problem clearer.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">Anchoring</span>
-  <p>Start with what is known and gradually adjust beliefs from these anchors, which can help manage the complexity step by step.</p>
+  <p><span class="dialogue-turn__speaker">Anchoring</span> Start with what is known and gradually adjust beliefs from these anchors, which can help manage the complexity step by step.</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Computational Tools</span>
-  <p>Utilize computational methods and algorithms, which can handle iterative processes and complex calculations more effectively than the human brain.</p>
+  <p><span class="dialogue-turn__speaker">Computational Tools</span> Utilize computational methods and algorithms, which can handle iterative processes and complex calculations more effectively than the human brain.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">Algorithmic Heuristics</span>
-  <p>Employ algorithmic thinking by creating rules or procedures that guide the adjustment of beliefs, much like a computer program.</p>
+  <p><span class="dialogue-turn__speaker">Algorithmic Heuristics</span> Employ algorithmic thinking by creating rules or procedures that guide the adjustment of beliefs, much like a computer program.</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Educational Training</span>
-  <p>Develop better intuitions for complex probability through targeted education and practice with similar problems.</p>
+  <p><span class="dialogue-turn__speaker">Educational Training</span> Develop better intuitions for complex probability through targeted education and practice with similar problems.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">Collaboration</span>
-  <p>Work with others to distribute cognitive load and benefit from multiple perspectives, which can help prevent individual biases and oversights.</p>
+  <p><span class="dialogue-turn__speaker">Collaboration</span> Work with others to distribute cognitive load and benefit from multiple perspectives, which can help prevent individual biases and oversights.</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Monte Carlo Simulations</span>
-  <p>Use random sampling methods to simulate the problem many times over, which can give an empirical estimate of where the beliefs might converge.</p>
+  <p><span class="dialogue-turn__speaker">Monte Carlo Simulations</span> Use random sampling methods to simulate the problem many times over, which can give an empirical estimate of where the beliefs might converge.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">Cognitive limitations</span>
-  <p>Our ability to perform intricate probabilistic calculations, especially those involving recursive dependencies, is limited by the constraints of human cognitive architecture and working memory capacity.</p>
+  <p><span class="dialogue-turn__speaker">Cognitive limitations</span> Our ability to perform intricate probabilistic calculations, especially those involving recursive dependencies, is limited by the constraints of human cognitive architecture and working memory capacity.</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Combinatorial explosion</span>
-  <p>As the number of interdependent variables and relationships increases, the complexity of the problem grows exponentially, making it increasingly difficult to track and integrate all the relevant information.</p>
+  <p><span class="dialogue-turn__speaker">Combinatorial explosion</span> As the number of interdependent variables and relationships increases, the complexity of the problem grows exponentially, making it increasingly difficult to track and integrate all the relevant information.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">Opacity of inductive dependencies</span>
-  <p>In real-world situations, the inductive dependencies between beliefs and reliabilities are often opaque or implicit, making it challenging to explicitly represent them in a formal probabilistic framework.</p>
+  <p><span class="dialogue-turn__speaker">Opacity of inductive dependencies</span> In real-world situations, the inductive dependencies between beliefs and reliabilities are often opaque or implicit, making it challenging to explicitly represent them in a formal probabilistic framework.</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">Uncertainty and incomplete information</span>
-  <p>The problem assumes precise numerical values for beliefs and reliabilities, but in practice, these may be uncertain or unknown, further complicating the calculations.</p>
+  <p><span class="dialogue-turn__speaker">Uncertainty and incomplete information</span> The problem assumes precise numerical values for beliefs and reliabilities, but in practice, these may be uncertain or unknown, further complicating the calculations.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">Decomposition and simplification</span>
-  <p>Break down the problem into more manageable sub-components, make simplifying assumptions, or identify and focus on the most critical dependencies.</p>
+  <p><span class="dialogue-turn__speaker">Decomposition and simplification</span> Break down the problem into more manageable sub-components, make simplifying assumptions, or identify and focus on the most critical dependencies.</p>
 </div>
               </div>
 
@@ -367,26 +339,21 @@
               <p>The deeper issue in Recursive Credences is usually calibration, not a melodrama between certainty and skepticism. That turns the central distinction into a question about the right degree of confidence before it hardens into a slogan.</p>
               <p>This section should give the reader a usable epistemic lever: what would support the central claim, what would count against it, and what would make suspension of judgment more rational than either assent or denial. The point is not to make Recursive Credences tidy; it is to help the reader notice the difference between having a belief, having a reason, and having enough reason.</p>
 
-              <div class="dialogue-card">
+              <div class="dialogue-card dialogue-card--inline-labels">
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">YouTube Video on Recursive Probability</span>
-  <p>This video provides explanations of recursive probability problems, which could be useful for visual learners.</p>
+  <p><span class="dialogue-turn__speaker">YouTube Video on Recursive Probability</span> This video provides explanations of recursive probability problems, which could be useful for visual learners.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">Blog on Recursive Methods in Probability</span>
-  <p>This blog entry discusses recursive reasoning in probability, including examples and explanations of how recursion applies to probability problems.</p>
+  <p><span class="dialogue-turn__speaker">Blog on Recursive Methods in Probability</span> This blog entry discusses recursive reasoning in probability, including examples and explanations of how recursion applies to probability problems.</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">FreeCodeCamp – How Recursion Works</span>
-  <p>While not specific to probability, this article breaks down the concept of recursion with flowcharts and videos. Understanding recursion in programming can translate to a better grasp of recursive processes in probability.</p>
+  <p><span class="dialogue-turn__speaker">FreeCodeCamp – How Recursion Works</span> While not specific to probability, this article breaks down the concept of recursion with flowcharts and videos. Understanding recursion in programming can translate to a better grasp of recursive processes in probability.</p>
 </div>
 <div class="dialogue-turn dialogue-turn--counter">
-  <span class="dialogue-turn__speaker">“Judgment Under Uncertainty</span>
-  <p>Heuristics and Biases” by Daniel Kahneman, Paul Slovic, and Amos Tversky (a classic work on heuristics and biases in probabilistic reasoning).</p>
+  <p><span class="dialogue-turn__speaker">“Judgment Under Uncertainty</span> Heuristics and Biases” by Daniel Kahneman, Paul Slovic, and Amos Tversky (a classic work on heuristics and biases in probabilistic reasoning).</p>
 </div>
 <div class="dialogue-turn">
-  <span class="dialogue-turn__speaker">“Bayesian Statistics</span>
-  <p>From Concept to Data Analysis” by Herbert Lee (Coursera course on Bayesian methods and probabilistic modeling).</p>
+  <p><span class="dialogue-turn__speaker">“Bayesian Statistics</span> From Concept to Data Analysis” by Herbert Lee (Coursera course on Bayesian methods and probabilistic modeling).</p>
 </div>
               </div>
 
