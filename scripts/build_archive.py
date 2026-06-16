@@ -10320,7 +10320,7 @@ TARGETED_SECTION_EXPANSIONS = {
         "paragraphs": [
             "Yes, something like that can serve as a meta-view, but only if the phrase is kept disciplined. It is not a substitute worldview that answers every substantive question in advance. It is a standing policy about how beliefs should be held, revised, and compared.",
             "That policy matters because it travels across domains. Whether the topic is religion, politics, science, history, or personal identity, the same demand remains: do not let confidence outrun the evidence. In that sense, evidential calibration can function as a higher-order commitment that governs how one approaches worldviews without itself freezing into one more tribal system.",
-            "Still, the meta-view is not self-executing. People can praise rational proportion while quietly protecting favored assumptions. So the value of the meta-view lies in the habits it creates: calibration, self-suspicion, source comparison, and willingness to revise. For a companion resource focused on calibration, credence, and evidence-sensitive judgment, see <a class=\"text-link\" href=\"https://credencing.com/\" rel=\"noopener noreferrer\">Credencing.com</a>.",
+            "Still, the meta-view is not self-executing. People can praise rational proportion while quietly protecting favored assumptions. So the value of the meta-view lies in the habits it creates: calibration, self-suspicion, source comparison, and willingness to revise. For a companion resource focused on calibration, credence, and evidence-sensitive judgment, see Credencing.com.",
         ],
         "items": [
             "Higher-order commitment: The principle governs how beliefs are held, not which worldview must win in advance.",
@@ -12750,7 +12750,7 @@ MANUAL_PAGE_POLISH = {
             "Operational epistemic rigor is about public discipline, not private seriousness. The core question is what visible habits make a claim corrigible, comparable, and proportionately believable.",
             "This page now sits naturally beside ⌁ Perceived Responsibility and Perceived Control and ⌁ Finite Agency in an Infinite Feed. Those newer pages make the calibration problem feel less academic and more lived by showing what happens when felt urgency, confidence, or duty outrun evidence, leverage, and calibration.",
             "A good reader should leave with a sharper suspicion of false certainty and a clearer sense that rigor is not an ornament attached to favored beliefs, but a cost those beliefs must keep paying.",
-            "For a companion resource on calibration, credence, and structured rational judgment, see <a class=\"text-link\" href=\"https://credencing.com/\" rel=\"noopener noreferrer\">Credencing.com</a>.",
+            "For a companion resource on calibration, credence, and structured rational judgment, see Credencing.com.",
         ],
         "synthesis_questions": [
             "What makes epistemic rigor operational rather than merely admirable?",
@@ -13413,6 +13413,24 @@ def inject_logfall_placeholders(text: str) -> tuple[str, dict[str, str]]:
     return replaced, placeholders
 
 
+INLINE_TEXT_LINK_PATTERN = re.compile(
+    r'<a\b(?=[^>]*\bclass="text-link")(?=[^>]*\bhref="https?://[^"]+")[^>]*>.*?</a>',
+    flags=re.IGNORECASE,
+)
+
+
+def inject_inline_anchor_placeholders(text: str, placeholders: dict[str, str]) -> tuple[str, dict[str, str]]:
+    if "<a" not in text.lower():
+        return text, placeholders
+
+    def replace(match: re.Match[str]) -> str:
+        key = f"__INLINE_LINK_{len(placeholders)}__"
+        placeholders[key] = match.group(0)
+        return key
+
+    return INLINE_TEXT_LINK_PATTERN.sub(replace, text), placeholders
+
+
 def slugfester_anchor_html(label: str = "Slugfester.com") -> str:
     return (
         f'<a class="text-link" href="{html.escape(SLUGFESTER_SITE_URL)}" rel="noopener noreferrer">'
@@ -13886,6 +13904,7 @@ def render_inline_text(text: str, *, allow_links: bool = True) -> str:
     placeholders: dict[str, str] = {}
     if allow_links:
         text, placeholders = inject_logfall_placeholders(text)
+        text, placeholders = inject_inline_anchor_placeholders(text, placeholders)
     rendered = html.escape(text)
     rendered = re.sub(r"\*\*\s*(.+?)\s*\*\*", r"<strong>\1</strong>", rendered)
     rendered = rendered.replace("**", "")
