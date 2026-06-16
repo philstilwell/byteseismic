@@ -2658,7 +2658,7 @@ body.site-search-open {
 
 .future-branches-panel {
   display: grid;
-  gap: 16px;
+  gap: 20px;
 }
 
 .future-branches-panel--with-visual {
@@ -2669,6 +2669,8 @@ body.site-search-open {
 
 .future-branches-copy {
   min-width: 0;
+  display: grid;
+  gap: 24px;
 }
 
 .future-branches-visual {
