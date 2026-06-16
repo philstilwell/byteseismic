@@ -2162,6 +2162,129 @@ CONCEPT_TIMELINE_THREAD_ENHANCEMENTS = {
     },
 }
 
+CONCEPT_TIMELINE_FIGURES = {
+    "truth": {
+        "ancient": ["Parmenides", "Plato", "Aristotle"],
+        "medieval": ["Augustine", "Anselm", "Thomas Aquinas"],
+        "early-modern": ["Descartes", "Spinoza", "Locke"],
+        "enlightenment": ["Hume", "Kant", "Thomas Reid"],
+        "nineteenth": ["Hegel", "Nietzsche", "Marx"],
+        "contemporary": ["Frege", "Tarski", "Donald Davidson"],
+    },
+    "knowledge": {
+        "ancient": ["Plato", "Aristotle", "Sextus Empiricus"],
+        "medieval": ["Augustine", "Avicenna", "Thomas Aquinas"],
+        "early-modern": ["Descartes", "Locke", "Leibniz"],
+        "enlightenment": ["Hume", "Kant", "Thomas Reid"],
+        "nineteenth": ["Hegel", "J. S. Mill", "Peirce"],
+        "contemporary": ["Gettier", "Alvin Goldman", "Timothy Williamson"],
+    },
+    "evidence-method": {
+        "ancient": ["Aristotle", "Euclid", "Archimedes"],
+        "medieval": ["Ibn al-Haytham", "Roger Bacon", "Albertus Magnus"],
+        "early-modern": ["Francis Bacon", "Galileo", "Newton"],
+        "enlightenment": ["Hume", "Lavoisier", "Condorcet"],
+        "nineteenth": ["Darwin", "Claude Bernard", "Lyell"],
+        "contemporary": ["Karl Popper", "Thomas Kuhn", "Imre Lakatos"],
+    },
+    "rationality-credence": {
+        "ancient": ["Socrates", "Aristotle", "Epictetus"],
+        "medieval": ["Augustine", "Maimonides", "Thomas Aquinas"],
+        "early-modern": ["Descartes", "Pascal", "Leibniz"],
+        "enlightenment": ["Hume", "Kant", "Bayes"],
+        "nineteenth": ["Peirce", "William James", "J. S. Mill"],
+        "contemporary": ["Frank Ramsey", "Bruno de Finetti", "Richard Jeffrey"],
+    },
+    "causation": {
+        "ancient": ["Aristotle", "Epicurus", "Lucretius"],
+        "medieval": ["Avicenna", "al-Ghazali", "Thomas Aquinas"],
+        "early-modern": ["Descartes", "Malebranche", "Leibniz"],
+        "enlightenment": ["Hume", "Kant", "Thomas Reid"],
+        "nineteenth": ["J. S. Mill", "Helmholtz", "Peirce"],
+        "contemporary": ["Bertrand Russell", "David Lewis", "Judea Pearl"],
+    },
+    "mind-consciousness": {
+        "ancient": ["Plato", "Aristotle", "Plotinus"],
+        "medieval": ["Augustine", "Avicenna", "Thomas Aquinas"],
+        "early-modern": ["Descartes", "Spinoza", "Locke"],
+        "enlightenment": ["Hume", "Kant", "La Mettrie"],
+        "nineteenth": ["Schopenhauer", "Nietzsche", "William James"],
+        "contemporary": ["Gilbert Ryle", "Thomas Nagel", "David Chalmers"],
+    },
+    "self-personhood": {
+        "ancient": ["Socrates", "Aristotle", "Epictetus"],
+        "medieval": ["Augustine", "Boethius", "Thomas Aquinas"],
+        "early-modern": ["Descartes", "Locke", "Hume"],
+        "enlightenment": ["Kant", "Rousseau", "Mary Wollstonecraft"],
+        "nineteenth": ["Kierkegaard", "Nietzsche", "Marx"],
+        "contemporary": ["Simone de Beauvoir", "Derek Parfit", "Judith Butler"],
+    },
+    "morality-normativity": {
+        "ancient": ["Aristotle", "Epicurus", "Epictetus"],
+        "medieval": ["Augustine", "Thomas Aquinas", "Maimonides"],
+        "early-modern": ["Hobbes", "Spinoza", "Shaftesbury"],
+        "enlightenment": ["Kant", "Bentham", "Adam Smith"],
+        "nineteenth": ["Nietzsche", "Marx", "J. S. Mill"],
+        "contemporary": ["G. E. Moore", "J. L. Mackie", "Bernard Williams"],
+    },
+    "justice-rights": {
+        "ancient": ["Plato", "Aristotle", "Cicero"],
+        "medieval": ["Augustine", "Thomas Aquinas", "Marsilius of Padua"],
+        "early-modern": ["Hobbes", "Locke", "Grotius"],
+        "enlightenment": ["Rousseau", "Kant", "Mary Wollstonecraft"],
+        "nineteenth": ["Marx", "J. S. Mill", "Tocqueville"],
+        "contemporary": ["John Rawls", "Robert Nozick", "Amartya Sen"],
+    },
+    "language-meaning": {
+        "ancient": ["Plato", "Aristotle", "Gorgias"],
+        "medieval": ["Augustine", "Peter Abelard", "William of Ockham"],
+        "early-modern": ["Locke", "Leibniz", "Berkeley"],
+        "enlightenment": ["Diderot", "Condillac", "Thomas Reid"],
+        "nineteenth": ["Wilhelm von Humboldt", "Nietzsche", "Frege"],
+        "contemporary": ["Wittgenstein", "Quine", "J. L. Austin"],
+    },
+    "skepticism-doubt": {
+        "ancient": ["Pyrrho", "Sextus Empiricus", "Carneades"],
+        "medieval": ["Augustine", "al-Ghazali", "William of Ockham"],
+        "early-modern": ["Descartes", "Bayle", "Pascal"],
+        "enlightenment": ["Hume", "Kant", "Thomas Reid"],
+        "nineteenth": ["Kierkegaard", "Nietzsche", "Peirce"],
+        "contemporary": ["G. E. Moore", "Karl Popper", "Susan Haack"],
+    },
+    "logic-inference": {
+        "ancient": ["Aristotle", "Chrysippus", "Euclid"],
+        "medieval": ["Peter Abelard", "William of Ockham", "Jean Buridan"],
+        "early-modern": ["Francis Bacon", "Descartes", "Leibniz"],
+        "enlightenment": ["Hume", "Kant", "Condorcet"],
+        "nineteenth": ["Frege", "Boole", "Peirce"],
+        "contemporary": ["Russell", "Godel", "Tarski"],
+    },
+    "objectivity-perspective": {
+        "ancient": ["Plato", "Aristotle", "Sextus Empiricus"],
+        "medieval": ["Augustine", "Thomas Aquinas", "Averroes"],
+        "early-modern": ["Descartes", "Locke", "Spinoza"],
+        "enlightenment": ["Hume", "Kant", "Adam Smith"],
+        "nineteenth": ["Hegel", "Marx", "Nietzsche"],
+        "contemporary": ["Max Weber", "Thomas Nagel", "Donna Haraway"],
+    },
+    "freedom-agency": {
+        "ancient": ["Aristotle", "Epictetus", "Marcus Aurelius"],
+        "medieval": ["Augustine", "Thomas Aquinas", "Duns Scotus"],
+        "early-modern": ["Descartes", "Spinoza", "Leibniz"],
+        "enlightenment": ["Kant", "Rousseau", "Hume"],
+        "nineteenth": ["Kierkegaard", "Nietzsche", "Marx"],
+        "contemporary": ["Sartre", "Harry Frankfurt", "Daniel Dennett"],
+    },
+    "power-ideology": {
+        "ancient": ["Plato", "Aristotle", "Isocrates"],
+        "medieval": ["Augustine", "Thomas Aquinas", "Ibn Khaldun"],
+        "early-modern": ["Machiavelli", "Hobbes", "Spinoza"],
+        "enlightenment": ["Rousseau", "Voltaire", "Diderot"],
+        "nineteenth": ["Marx", "Nietzsche", "Tocqueville"],
+        "contemporary": ["Gramsci", "Foucault", "Hannah Arendt"],
+    },
+}
+
 
 def concept_timeline_dataset() -> dict:
     threads = []
@@ -2171,6 +2294,10 @@ def concept_timeline_dataset() -> dict:
             for key, value in thread.items()
         }
         merged.update(CONCEPT_TIMELINE_THREAD_ENHANCEMENTS.get(thread["id"], {}))
+        for step in merged.get("steps", []):
+            figures = CONCEPT_TIMELINE_FIGURES.get(thread["id"], {}).get(step["era"])
+            if figures:
+                step["figures"] = list(figures)
         threads.append(merged)
     return {
         "defaultThread": CONCEPT_TIMELINE_DATA["defaultThread"],
@@ -2178,6 +2305,14 @@ def concept_timeline_dataset() -> dict:
         "families": [dict(family) for family in CONCEPT_TIMELINE_DATA["families"]],
         "threads": threads,
     }
+
+
+def render_concept_timeline_figures(step: dict, class_name: str) -> str:
+    figures = step.get("figures", [])
+    if not figures:
+        return ""
+    names = " | ".join(html.escape(name) for name in figures)
+    return f'<span class="{html.escape(class_name)}">{names}</span>'
 
 
 CONCEPT_TIMELINE_READING_ROUTES = [
@@ -19611,27 +19746,44 @@ def render_concept_timeline_filter_buttons(active_thread: dict, dataset: dict) -
     return "\n".join(family_buttons), "\n".join(thread_buttons)
 
 
-def render_concept_timeline_lineage(thread: dict, active_step_id: str, dataset: dict) -> str:
+def render_concept_timeline_spine(thread: dict, active_step_id: str, dataset: dict) -> str:
     entries = []
-    for era in dataset["eras"]:
-        step = next((candidate for candidate in thread["steps"] if candidate["era"] == era["id"]), None)
-        if step is None:
-            continue
+    visible_steps = [
+        (era, candidate)
+        for era in dataset["eras"]
+        for candidate in thread["steps"]
+        if candidate["era"] == era["id"]
+    ]
+    for index, (era, step) in enumerate(visible_steps, start=1):
         step_id = concept_timeline_step_id(thread, step)
         active = step_id == active_step_id
+        final_stop = index == len(visible_steps)
         entries.append(
             textwrap.dedent(
                 f"""\
-                <button
-                  class="concept-lineage__step{' is-active' if active else ''}"
-                  type="button"
-                  data-timeline-entry="{html.escape(step_id)}"
-                  aria-pressed="{str(active).lower()}"
+                <article
+                  class="concept-spine__stop{' is-active' if active else ''}"
+                  data-timeline-stop="{html.escape(step_id)}"
                 >
-                  <span class="concept-lineage__era">{html.escape(era['label'])}</span>
-                  <strong>{html.escape(step['mutation'])}</strong>
-                  <span>{html.escape(step['label'])}</span>
-                </button>"""
+                  <button
+                    class="concept-spine__trigger{' is-active' if active else ''}"
+                    type="button"
+                    data-timeline-entry="{html.escape(step_id)}"
+                    aria-pressed="{str(active).lower()}"
+                  >
+                    <span class="concept-spine__rail" aria-hidden="true">
+                      <span class="concept-spine__dot">◉</span>
+                      {'<span class="concept-spine__line"></span>' if not final_stop else ''}
+                    </span>
+                    <span class="concept-spine__content">
+                      <span class="concept-spine__meta">{html.escape(era['label'])} · {html.escape(era['dates'])}</span>
+                      <strong>{html.escape(step['label'])}</strong>
+                      {render_concept_timeline_figures(step, 'concept-figures concept-spine__figures')}
+                      <span class="concept-spine__mutation">{html.escape(step['mutation'])}</span>
+                      <span class="concept-spine__preview">{render_inline_text(step['gist'])}</span>
+                    </span>
+                  </button>
+                </article>"""
             )
         )
     return "\n".join(entries)
@@ -19688,9 +19840,10 @@ def render_concept_timeline_spotlight(thread: dict, prefix: str, active_step_id:
     return textwrap.dedent(
         f"""\
         <div class="concept-spotlight__panel">
-          <p class="eyebrow">Selected shift</p>
+          <p class="eyebrow">Current moment</p>
           <p class="concept-spotlight__era">{html.escape(era["label"] if era else step["era"].replace("-", " ").title())}{" · " + html.escape(era["dates"]) if era and era.get("dates") else ""}</p>
           <h3>{html.escape(step['label'])}</h3>
+          {render_concept_timeline_figures(step, 'concept-figures concept-spotlight__figures')}
           <p>{render_inline_text(step['gist'])}</p>
           <div class="concept-spotlight__grid">
             <div>
@@ -19728,7 +19881,7 @@ def render_concept_timeline_page() -> str:
     dataset = concept_timeline_dataset()
     active_thread = concept_timeline_thread(dataset=dataset)
     active_family = concept_timeline_family(dataset, active_thread["family"])
-    active_step_id = concept_timeline_step_id(active_thread, active_thread["steps"][-1])
+    active_step_id = concept_timeline_step_id(active_thread, active_thread["steps"][0])
     signals_html = render_page_signals(
         archive_page_signal_items(
             scope="Sitewide",
@@ -19828,17 +19981,27 @@ def render_concept_timeline_page() -> str:
                       <p data-timeline-question>{render_inline_text(active_thread['question'])}</p>
                     </div>
 
-                    <div class="concept-lineage" data-timeline-lineage>
-{render_concept_timeline_lineage(active_thread, active_step_id, dataset)}
-                    </div>
-
-                    <div class="concept-timeline-layout">
-                      <div class="concept-timeline-grid" data-timeline-grid>
-{render_concept_timeline_grid(active_thread, prefix, active_step_id, dataset)}
-                      </div>
-                      <aside class="concept-spotlight" data-timeline-spotlight>
+                    <div class="concept-spine-layout">
+                      <aside class="concept-spotlight">
+                        <div class="concept-spotlight__frame">
+                          <p class="mini-label">Deep panel</p>
+                          <p class="concept-spotlight__instruction">
+                            Hover a <span aria-hidden="true">◉</span>, focus it, tap it, or simply scroll down the thread. The panel keeps pace with the moment the concept is inhabiting.
+                          </p>
+                          <div data-timeline-spotlight>
 {render_concept_timeline_spotlight(active_thread, prefix, active_step_id, dataset)}
+                          </div>
+                        </div>
                       </aside>
+                      <div class="concept-spine-shell">
+                        <div class="concept-spine-shell__intro">
+                          <p class="mini-label">Vertical timeline</p>
+                          <p>Move down the centuries and watch the same word inherit new burdens, new habits, and sometimes a completely different public job.</p>
+                        </div>
+                        <div class="concept-spine" data-timeline-spine>
+{render_concept_timeline_spine(active_thread, active_step_id, dataset)}
+                        </div>
+                      </div>
                     </div>
 
                     <div class="concept-thread-jumps">

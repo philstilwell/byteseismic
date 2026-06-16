@@ -1817,7 +1817,7 @@
       return {
         family: exactThread.family,
         thread: exactThread.id,
-        step: conceptTimelineStepId(exactThread, exactThread.steps.at(-1) || exactThread.steps[0]),
+        step: conceptTimelineStepId(exactThread, exactThread.steps[0]),
       };
     }
     const [threadId, eraId] = token.split(":");
@@ -1882,29 +1882,54 @@
       .join("");
   }
 
-  function renderConceptTimelineLineage(dataset, thread, activeStepId) {
-    return (dataset.eras || [])
+  function renderConceptTimelineSpine(dataset, thread, activeStepId) {
+    const visibleSteps = (dataset.eras || [])
       .map((era) => {
         const step = (thread.steps || []).find((candidate) => candidate.era === era.id);
-        if (!step) {
-          return "";
-        }
+        return step ? { era, step } : null;
+      })
+      .filter(Boolean);
+
+    return visibleSteps
+      .map(({ era, step }, index) => {
         const stepId = conceptTimelineStepId(thread, step);
         const active = stepId === activeStepId;
+        const finalStop = index === visibleSteps.length - 1;
         return `
-          <button
-            class="concept-lineage__step${active ? " is-active" : ""}"
-            type="button"
-            data-timeline-entry="${escapeHtml(stepId)}"
-            aria-pressed="${active ? "true" : "false"}"
+          <article
+            class="concept-spine__stop${active ? " is-active" : ""}"
+            data-timeline-stop="${escapeHtml(stepId)}"
           >
-            <span class="concept-lineage__era">${escapeHtml(era.label)}</span>
-            <strong>${escapeHtml(step.mutation)}</strong>
-            <span>${escapeHtml(step.label)}</span>
-          </button>
+            <button
+              class="concept-spine__trigger${active ? " is-active" : ""}"
+              type="button"
+              data-timeline-entry="${escapeHtml(stepId)}"
+              aria-pressed="${active ? "true" : "false"}"
+            >
+              <span class="concept-spine__rail" aria-hidden="true">
+                <span class="concept-spine__dot">◉</span>
+                ${finalStop ? "" : '<span class="concept-spine__line"></span>'}
+              </span>
+              <span class="concept-spine__content">
+                <span class="concept-spine__meta">${escapeHtml(era.label)} · ${escapeHtml(era.dates)}</span>
+                <strong>${escapeHtml(step.label)}</strong>
+                ${renderConceptTimelineFigures(step, "concept-figures concept-spine__figures")}
+                <span class="concept-spine__mutation">${escapeHtml(step.mutation)}</span>
+                <span class="concept-spine__preview">${escapeHtml(step.gist)}</span>
+              </span>
+            </button>
+          </article>
         `;
       })
       .join("");
+  }
+
+  function renderConceptTimelineFigures(step, className = "concept-figures") {
+    if (!Array.isArray(step?.figures) || !step.figures.length) {
+      return "";
+    }
+    const names = step.figures.map((name) => escapeHtml(name)).join(" | ");
+    return `<span class="${escapeHtml(className)}">${names}</span>`;
   }
 
   function renderConceptTimelineGrid(dataset, thread, activeStepId) {
@@ -1950,9 +1975,10 @@
       .join("");
     return `
       <div class="concept-spotlight__panel">
-        <p class="eyebrow">Selected shift</p>
+        <p class="eyebrow">Current moment</p>
         <p class="concept-spotlight__era">${escapeHtml(era?.label || step.era)}${era?.dates ? ` · ${escapeHtml(era.dates)}` : ""}</p>
         <h3>${escapeHtml(step.label)}</h3>
+        ${renderConceptTimelineFigures(step, "concept-figures concept-spotlight__figures")}
         <p>${escapeHtml(step.gist)}</p>
         <div class="concept-spotlight__grid">
           <div>
@@ -2014,21 +2040,122 @@
     const questionMount = root.querySelector("[data-timeline-question]");
     const familyMount = root.querySelector("[data-timeline-family-list]");
     const threadMount = root.querySelector("[data-timeline-thread-list]");
-    const lineageMount = root.querySelector("[data-timeline-lineage]");
-    const gridMount = root.querySelector("[data-timeline-grid]");
+    const spineMount = root.querySelector("[data-timeline-spine]");
     const spotlightMount = root.querySelector("[data-timeline-spotlight]");
     const jumpsMount = root.querySelector("[data-timeline-jumps]");
     const initialThread = conceptTimelineThread(dataset, root.dataset.defaultThread || dataset.defaultThread);
-    if (!initialThread) {
+    if (!initialThread || !spineMount) {
       return;
     }
 
     const state = {
       family: initialThread.family,
       thread: initialThread.id,
-      step: conceptTimelineStepId(initialThread, initialThread.steps.at(-1) || initialThread.steps[0]),
+      step: conceptTimelineStepId(initialThread, initialThread.steps[0]),
+      preview: null,
+      lockedStep: false,
     };
-    Object.assign(state, readConceptTimelineHash(dataset) || {});
+    const hashSelection = readConceptTimelineHash(dataset);
+    Object.assign(state, hashSelection || {});
+    state.lockedStep = Boolean(hashSelection?.step);
+    let spineObserver = null;
+
+    const currentThread = () => conceptTimelineThread(dataset, state.thread);
+
+    const currentStepId = () => state.preview || state.step;
+
+    const syncTimelineVisuals = () => {
+      const thread = currentThread();
+      if (!thread) {
+        return;
+      }
+      const displayedStep =
+        conceptTimelineStep(thread, currentStepId()) ||
+        conceptTimelineStep(thread, state.step) ||
+        thread.steps[0];
+      if (!displayedStep) {
+        return;
+      }
+      const displayedStepId = conceptTimelineStepId(thread, displayedStep);
+      Array.from(spineMount.querySelectorAll("[data-timeline-entry]")).forEach((button) => {
+        const active = button.dataset.timelineEntry === displayedStepId;
+        const selected = button.dataset.timelineEntry === state.step;
+        button.classList.toggle("is-active", active);
+        button.classList.toggle("is-selected", selected);
+        button.setAttribute("aria-pressed", selected ? "true" : "false");
+      });
+      Array.from(spineMount.querySelectorAll("[data-timeline-stop]")).forEach((stop) => {
+        const active = stop.dataset.timelineStop === displayedStepId;
+        const selected = stop.dataset.timelineStop === state.step;
+        stop.classList.toggle("is-active", active);
+        stop.classList.toggle("is-selected", selected);
+      });
+      spotlightMount.innerHTML = renderConceptTimelineSpotlight(dataset, thread, displayedStep);
+    };
+
+    const clearPreview = () => {
+      if (!state.preview) {
+        return;
+      }
+      state.preview = null;
+      syncTimelineVisuals();
+    };
+
+    const previewStep = (stepId) => {
+      const thread = currentThread();
+      if (!thread || !conceptTimelineStep(thread, stepId)) {
+        return;
+      }
+      state.preview = stepId;
+      syncTimelineVisuals();
+    };
+
+    const selectStep = (stepId) => {
+      const thread = currentThread();
+      if (!thread || !conceptTimelineStep(thread, stepId)) {
+        return;
+      }
+      state.step = stepId;
+      state.preview = null;
+      state.lockedStep = true;
+      writeConceptTimelineHash(state.step);
+      syncTimelineVisuals();
+    };
+
+    const bindSpineObserver = () => {
+      if (spineObserver) {
+        spineObserver.disconnect();
+      }
+      if (typeof window.IntersectionObserver !== "function") {
+        return;
+      }
+      const stops = Array.from(spineMount.querySelectorAll("[data-timeline-stop]"));
+      if (!stops.length) {
+        return;
+      }
+      spineObserver = new window.IntersectionObserver(
+        (entries) => {
+          if (state.preview || state.lockedStep) {
+            return;
+          }
+          const visible = entries
+            .filter((entry) => entry.isIntersecting)
+            .sort((left, right) => right.intersectionRatio - left.intersectionRatio)[0];
+          const nextStepId = visible?.target?.dataset?.timelineStop;
+          if (!nextStepId || nextStepId === state.step) {
+            return;
+          }
+          state.step = nextStepId;
+          writeConceptTimelineHash(state.step);
+          syncTimelineVisuals();
+        },
+        {
+          threshold: [0.4, 0.6, 0.85],
+          rootMargin: "-12% 0px -46% 0px",
+        }
+      );
+      stops.forEach((stop) => spineObserver.observe(stop));
+    };
 
     const render = () => {
       const availableThreads = (dataset.threads || []).filter((thread) => thread.family === state.family);
@@ -2043,7 +2170,7 @@
 
       const step = conceptTimelineStep(thread, state.step);
       if (!step || !thread.steps.some((candidate) => conceptTimelineStepId(thread, candidate) === state.step)) {
-        state.step = conceptTimelineStepId(thread, thread.steps.at(-1) || thread.steps[0]);
+        state.step = conceptTimelineStepId(thread, thread.steps[0]);
       }
 
       const activeStep = conceptTimelineStep(thread, state.step);
@@ -2051,34 +2178,30 @@
         return;
       }
 
+      state.preview = null;
       root.dataset.activeFamily = state.family;
       summaryMount.innerHTML = escapeHtml(thread.summary || "");
       familySummaryMount.innerHTML = escapeHtml(conceptTimelineFamily(dataset, state.family)?.summary || "");
       questionMount.innerHTML = escapeHtml(thread.question || "");
       familyMount.innerHTML = renderConceptTimelineFamilies(dataset, state.family);
       threadMount.innerHTML = renderConceptTimelineThreads(dataset, state.family, thread.id);
-      lineageMount.innerHTML = renderConceptTimelineLineage(dataset, thread, state.step);
-      gridMount.innerHTML = renderConceptTimelineGrid(dataset, thread, state.step);
+      spineMount.innerHTML = renderConceptTimelineSpine(dataset, thread, state.step);
       spotlightMount.innerHTML = renderConceptTimelineSpotlight(dataset, thread, activeStep);
       jumpsMount.innerHTML = renderConceptTimelineJumps(thread);
       writeConceptTimelineHash(state.step);
-
-      const activeLineage = Array.from(lineageMount.querySelectorAll("[data-timeline-entry]")).find(
-        (button) => button.dataset.timelineEntry === state.step
-      );
-      if (activeLineage && lineageMount.scrollWidth > lineageMount.clientWidth) {
-        activeLineage.scrollIntoView({ block: "nearest", inline: "center", behavior: "auto" });
-      }
+      syncTimelineVisuals();
+      bindSpineObserver();
     };
 
     root.addEventListener("click", (event) => {
       const familyButton = event.target.closest("[data-timeline-family]");
       if (familyButton) {
         state.family = familyButton.dataset.timelineFamily || state.family;
+        state.lockedStep = false;
         const nextThread = (dataset.threads || []).find((thread) => thread.family === state.family);
         if (nextThread) {
           state.thread = nextThread.id;
-          state.step = conceptTimelineStepId(nextThread, nextThread.steps.at(-1) || nextThread.steps[0]);
+          state.step = conceptTimelineStepId(nextThread, nextThread.steps[0]);
         }
         render();
         return;
@@ -2090,18 +2213,56 @@
         if (nextThread) {
           state.family = nextThread.family;
           state.thread = nextThread.id;
-          state.step = conceptTimelineStepId(nextThread, nextThread.steps.at(-1) || nextThread.steps[0]);
+          state.step = conceptTimelineStepId(nextThread, nextThread.steps[0]);
+          state.lockedStep = false;
         }
         render();
         return;
       }
 
       const entryButton = event.target.closest("[data-timeline-entry]");
-      if (entryButton) {
-        state.step = entryButton.dataset.timelineEntry || state.step;
-        render();
+      if (entryButton && spineMount.contains(entryButton)) {
+        selectStep(entryButton.dataset.timelineEntry || state.step);
       }
     });
+
+    root.addEventListener("pointerover", (event) => {
+      const entryButton = event.target.closest("[data-timeline-entry]");
+      if (!entryButton || !spineMount.contains(entryButton)) {
+        return;
+      }
+      previewStep(entryButton.dataset.timelineEntry || state.step);
+    });
+
+    root.addEventListener("focusin", (event) => {
+      const entryButton = event.target.closest("[data-timeline-entry]");
+      if (!entryButton || !spineMount.contains(entryButton)) {
+        return;
+      }
+      previewStep(entryButton.dataset.timelineEntry || state.step);
+    });
+
+    spineMount.addEventListener("pointerleave", () => {
+      clearPreview();
+    });
+
+    spineMount.addEventListener("focusout", () => {
+      window.requestAnimationFrame(() => {
+        if (!spineMount.contains(document.activeElement)) {
+          clearPreview();
+        }
+      });
+    });
+
+    window.addEventListener(
+      "scroll",
+      () => {
+        if (state.lockedStep) {
+          state.lockedStep = false;
+        }
+      },
+      { passive: true }
+    );
 
     render();
   }
