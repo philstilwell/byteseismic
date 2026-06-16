@@ -20,7 +20,7 @@ Pattern issues found: 15
 | Branch | Avg | Needs Review | Gap Fill | Exceptional | Strong | Good | Developing | Thin |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | Ethics | 97.1 | 12/147 | 12/147 | 119 | 16 | 12 | 0 | 0 |
-| Epistemology | 98.4 | 9/270 | 9/270 | 239 | 22 | 9 | 0 | 0 |
+| Epistemology | 98.3 | 9/270 | 9/270 | 239 | 22 | 9 | 0 | 0 |
 | Rational Thought | 99.1 | 6/187 | 6/187 | 178 | 3 | 5 | 1 | 0 |
 | Philosophy of Science | 99.2 | 3/165 | 3/165 | 155 | 7 | 3 | 0 | 0 |
 | Philosophers | 99.3 | 2/348 | 348/348 | 327 | 19 | 2 | 0 | 0 |
@@ -159,6 +159,8 @@ Pattern issues found: 15
 - `exceptional` 98 [Epistemology / Abduction: Utility and Issues#prompt-5](../epistemology/abduction-utility-and-issues/#prompt-5): Support items could become a little more explanatory and a little less label-like.; The section could use slightly more argumentative texture to feel fully settled.
 - `exceptional` 98 [Epistemology / Belief/Evidence Graphic#prompt-2](../epistemology/belief-evidence-graphic/#prompt-2): ready for a calmer, sharper editorial pass
 - `exceptional` 98 [Epistemology / Belief/Evidence Graphic#prompt-3](../epistemology/belief-evidence-graphic/#prompt-3): ready for a calmer, sharper editorial pass
+- `exceptional` 98 [Epistemology / Case #1 – Credence Complexity#prompt-3](../epistemology/case-1-credence-complexity/#prompt-3): Support items could become a little more explanatory and a little less label-like.; The section could use slightly more argumentative texture to feel fully settled.
+- `exceptional` 98 [Epistemology / Case #4 – Recursive Credences#prompt-2](../epistemology/case-4-recursive-credences/#prompt-2): Support items could become a little more explanatory and a little less label-like.; The section could use slightly more argumentative texture to feel fully settled.
 - `exceptional` 98 [Epistemology / Collapsing Epistemological Terms#prompt-4](../epistemology/collapsing-epistemological-terms/#prompt-4): ready for a calmer, sharper editorial pass
 - `exceptional` 98 [Epistemology / Epistemology — Core Concepts#prompt-2](../epistemology/epistemology-core-concepts/#prompt-2): Support items could become a little more explanatory and a little less label-like.; The section could use slightly more argumentative texture to feel fully settled.
 - `exceptional` 98 [Epistemology / Preponderance of Evidence?#prompt-1](../epistemology/preponderance-of-evidence/#prompt-1): ready for a calmer, sharper editorial pass
@@ -185,8 +187,6 @@ Pattern issues found: 15
 - `exceptional` 98 [Philosophy of Language / What is Language?#prompt-5](../philosophy-of-language/what-is-language/#prompt-5): The section could use slightly more argumentative texture to feel fully settled.
 - `exceptional` 98 [Philosophy of Mind / Functionalism & Subjectivity#prompt-4](../philosophy-of-mind/functionalism-subjectivity/#prompt-4): ready for a calmer, sharper editorial pass
 - `exceptional` 98 [Philosophy of Mind / Subjective/Objective Free Will#prompt-2](../philosophy-of-mind/subjective-objective-free-will/#prompt-2): ready for a calmer, sharper editorial pass
-- `exceptional` 98 [Philosophy of Mind / Subjective/Objective Free Will#prompt-4](../philosophy-of-mind/subjective-objective-free-will/#prompt-4): ready for a calmer, sharper editorial pass
-- `exceptional` 98 [Philosophy of Science / Is Logic Acquired Inductively?#prompt-1](../philosophy-of-science/is-logic-acquired-inductively/#prompt-1): The section could use slightly more argumentative texture to feel fully settled.
 
 ## Exceptional Gap-Fill Backlog
 
