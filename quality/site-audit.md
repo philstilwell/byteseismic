@@ -3,12 +3,18 @@
 - Pages scanned: 840
 - Broken internal links: 0
 - Duplicate IDs: 0
-- Repeated headings: 5
+- Repeated headings: 0
 - Prompt numbering issues: 0
 - Orphan pages: 0
 - Oversized assets: 0
 - Style scars: 0
 - Grammar scars: 0
+- SEO issues: 0
+- Duplicate titles: 0
+- Duplicate descriptions: 0
+- JSON-LD issues: 0
+- Sitemap issues: 0
+- Robots/noindex issues: 0
 
 ## Broken Links
 
@@ -20,11 +26,7 @@
 
 ## Repeated Headings
 
-- `/epistemology/what-is-bayes-theorem/` -> What is Bayes Theorem?
-- `/epistemology/what-is-epistemology/` -> What is Epistemology?
-- `/humanistic-philosophies/what-is-existentialism/` -> What is Existentialism?
-- `/humanistic-philosophies/what-is-stoicism/` -> What is Stoicism?
-- `/rational-thought/what-is-game-theory/` -> What is Game Theory?
+- none
 
 ## Prompt Numbering Issues
 
@@ -43,5 +45,29 @@
 - none
 
 ## Grammar Scars
+
+- none
+
+## SEO Issues
+
+- none
+
+## Duplicate Titles
+
+- none
+
+## Duplicate Descriptions
+
+- none
+
+## JSON-LD Issues
+
+- none
+
+## Sitemap Issues
+
+- none
+
+## Robots/Noindex Issues
 
 - none

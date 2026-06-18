@@ -1,38 +1,37 @@
 # Byteseismic Quality Ledger
 
-Generated: 2026-06-16
+Generated: 2026-06-18
 
 Tracked prompt-response sections: 1962
-Average score: 99.2
+Average score: 99.1
 Needs review: 32 (1.6%)
 Polish queue: 1575 (80.3%)
 Gap-fill backlog: 378 (19.3%)
 
 ## Editorial Audit
 
-Pattern issues found: 15
+Pattern issues found: 1
 
-- overlong heading: 2
-- work-order heading: 13
+- work-order heading: 1
 
 ## Branch Summary
 
 | Branch | Avg | Needs Review | Gap Fill | Exceptional | Strong | Good | Developing | Thin |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | Ethics | 97.1 | 12/147 | 12/147 | 119 | 16 | 12 | 0 | 0 |
-| Epistemology | 98.3 | 9/270 | 9/270 | 239 | 22 | 9 | 0 | 0 |
+| Epistemology | 98.3 | 9/270 | 9/270 | 237 | 24 | 9 | 0 | 0 |
 | Rational Thought | 99.1 | 6/187 | 6/187 | 178 | 3 | 5 | 1 | 0 |
-| Philosophy of Science | 99.2 | 3/165 | 3/165 | 155 | 7 | 3 | 0 | 0 |
+| Philosophy of Science | 99.0 | 3/165 | 3/165 | 152 | 10 | 3 | 0 | 0 |
 | Philosophers | 99.3 | 2/348 | 348/348 | 327 | 19 | 2 | 0 | 0 |
-| Philosophy of Language | 99.5 | 0/87 | 0/87 | 85 | 2 | 0 | 0 | 0 |
+| Philosophy of Language | 99.0 | 0/87 | 0/87 | 81 | 6 | 0 | 0 | 0 |
+| Philosophy of Mind | 99.4 | 0/85 | 0/85 | 81 | 4 | 0 | 0 | 0 |
+| Economics | 99.5 | 0/115 | 0/115 | 110 | 5 | 0 | 0 | 0 |
 | Humanistic Philosophies | 99.6 | 0/80 | 0/80 | 77 | 3 | 0 | 0 | 0 |
-| Economics | 99.8 | 0/115 | 0/115 | 113 | 2 | 0 | 0 | 0 |
-| Philosophy of Mind | 99.8 | 0/85 | 0/85 | 84 | 1 | 0 | 0 | 0 |
+| Philosophy of AI | 99.9 | 0/88 | 0/88 | 87 | 1 | 0 | 0 | 0 |
 | Metaphysics | 100.0 | 0/83 | 0/83 | 83 | 0 | 0 | 0 | 0 |
-| Philosophy of AI | 100.0 | 0/88 | 0/88 | 88 | 0 | 0 | 0 | 0 |
 | Political Philosophy | 100.0 | 0/51 | 0/51 | 51 | 0 | 0 | 0 | 0 |
 | Miscellany | 100.0 | 0/67 | 0/67 | 67 | 0 | 0 | 0 | 0 |
-| Philosophical Inquiry | 99.2 | 0/153 | 0/153 | 145 | 8 | 0 | 0 | 0 |
+| Philosophical Inquiry | 99.1 | 0/153 | 0/153 | 142 | 11 | 0 | 0 | 0 |
 | Introduction | 99.8 | 0/36 | 0/36 | 35 | 1 | 0 | 0 | 0 |
 
 ## Polish Queue
@@ -40,10 +39,20 @@ Pattern issues found: 15
 - `strong` 85 [Epistemology / ⌁ Perceived Responsibility and Perceived Control#prompt-4](../epistemology/perceived-responsibility-and-perceived-control/#prompt-4): Support items could become a little more explanatory and a little less label-like.; A worked example would likely make the distinction easier to carry into a live case.; A brief objection-and-reply moment would make the section feel more alive and more rigorous.
 - `strong` 85 [Ethics / ⌁ Legitimate Culpability vs Borrowed Guilt#prompt-1](../ethics/legitimate-culpability-vs-borrowed-guilt/#prompt-1): Support items could become a little more explanatory and a little less label-like.; A worked example would likely make the distinction easier to carry into a live case.; A brief objection-and-reply moment would make the section feel more alive and more rigorous.
 - `strong` 85 [Ethics / ⌁ Legitimate Culpability vs Borrowed Guilt#prompt-4](../ethics/legitimate-culpability-vs-borrowed-guilt/#prompt-4): Support items could become a little more explanatory and a little less label-like.; A worked example would likely make the distinction easier to carry into a live case.; A brief objection-and-reply moment would make the section feel more alive and more rigorous.
+- `strong` 86 [Economics / Taxation#prompt-2](../economics/taxation/#prompt-2): The section could use slightly more argumentative texture to feel fully settled.
 - `strong` 86 [Ethics / The Value Selection Hypothesis#prompt-3](../ethics/the-value-selection-hypothesis/#prompt-3): A worked example would likely make the distinction easier to carry into a live case.; The section could use slightly more argumentative texture to feel fully settled.
+- `strong` 86 [Philosophy of Mind / Manufacturer or Method?#prompt-1](../philosophy-of-mind/manufacturer-or-method/#prompt-1): The section could use slightly more argumentative texture to feel fully settled.
 - `strong` 86 [Philosophy of Science / Observable Regularities#prompt-3](../philosophy-of-science/observable-regularity/#prompt-3): A brief objection-and-reply moment would make the section feel more alive and more rigorous.; The section could use slightly more argumentative texture to feel fully settled.
 - `strong` 87 [Epistemology / Induction: Forecasting#prompt-3](../epistemology/induction-forecasting/#prompt-3): Support items could become a little more explanatory and a little less label-like.; The section could use slightly more argumentative texture to feel fully settled.
+- `strong` 88 [Economics / Taxation#prompt-1](../economics/taxation/#prompt-1): The section could use slightly more argumentative texture to feel fully settled.
 - `strong` 88 [Epistemology / Abduction: Utility and Issues#prompt-2](../epistemology/abduction-utility-and-issues/#prompt-2): A brief objection-and-reply moment would make the section feel more alive and more rigorous.; The section could use slightly more argumentative texture to feel fully settled.
+- `strong` 88 [Philosophy of Language / Linguistic Abstraction#prompt-3](../philosophy-of-language/linguistic-abstraction/#prompt-3): The section could use slightly more argumentative texture to feel fully settled.
+- `strong` 88 [Philosophy of Language / Linguistic Abstraction#prompt-4](../philosophy-of-language/linguistic-abstraction/#prompt-4): The section could use slightly more argumentative texture to feel fully settled.
+- `strong` 88 [Philosophy of Language / Linguistic Abstraction#prompt-5](../philosophy-of-language/linguistic-abstraction/#prompt-5): The section could use slightly more argumentative texture to feel fully settled.
+- `strong` 88 [Philosophy of Mind / Where are our Thoughts?#prompt-4](../philosophy-of-mind/where-are-our-thoughts/#prompt-4): The section could use slightly more argumentative texture to feel fully settled.
+- `strong` 88 [Philosophy of Science / Asymmetric Counterfactuals#prompt-1](../philosophy-of-science/asymmetric-counterfactuals/#prompt-1): The section could use slightly more argumentative texture to feel fully settled.
+- `strong` 88 [Philosophy of Science / Asymmetric Counterfactuals#prompt-4](../philosophy-of-science/asymmetric-counterfactuals/#prompt-4): The section could use slightly more argumentative texture to feel fully settled.
+- `strong` 88 [Philosophy of Science / Is History Science?#prompt-5](../philosophy-of-science/is-history-science/#prompt-5): The section could use slightly more argumentative texture to feel fully settled.
 - `strong` 89 [Epistemology / AI Reasoning Case Study#prompt-2](../epistemology/ai-reasoning-case-study/#prompt-2): Support items could become a little more explanatory and a little less label-like.; The section could use slightly more argumentative texture to feel fully settled.
 - `strong` 89 [Epistemology / Avoiding Single-Cause Dogmatism#prompt-1](../epistemology/avoiding-single-cause-dogmatism/#prompt-1): The section could use slightly more argumentative texture to feel fully settled.
 - `strong` 89 [Epistemology / Avoiding Single-Cause Dogmatism#prompt-2](../epistemology/avoiding-single-cause-dogmatism/#prompt-2): Support items could become a little more explanatory and a little less label-like.; The section could use slightly more argumentative texture to feel fully settled.
@@ -62,10 +71,13 @@ Pattern issues found: 15
 - `strong` 90 [Philosophy of Science / Observable Regularities#prompt-2](../philosophy-of-science/observable-regularity/#prompt-2): A worked example would likely make the distinction easier to carry into a live case.; A brief objection-and-reply moment would make the section feel more alive and more rigorous.; The section could use slightly more argumentative texture to feel fully settled.
 - `strong` 91 [Epistemology / AI Reasoning Case Study#prompt-1](../epistemology/ai-reasoning-case-study/#prompt-1): The section could use slightly more argumentative texture to feel fully settled.
 - `strong` 91 [Epistemology / AI Reasoning Case Study#prompt-4](../epistemology/ai-reasoning-case-study/#prompt-4): Support items could become a little more explanatory and a little less label-like.; The section could use slightly more argumentative texture to feel fully settled.
+- `strong` 91 [Epistemology / Deduction: Utility and Issues#prompt-2](../epistemology/deduction-utility-and-issues/#prompt-2): The section could use slightly more argumentative texture to feel fully settled.
 - `strong` 91 [Epistemology / Epistemological Case Studies#prompt-1](../epistemology/epistemological-case-studies/#prompt-1): The section could use slightly more argumentative texture to feel fully settled.
 - `strong` 91 [Ethics / Moral Black Boxes#prompt-1](../ethics/moral-black-boxes/#prompt-1): A brief objection-and-reply moment would make the section feel more alive and more rigorous.; The section could use slightly more argumentative texture to feel fully settled.
+- `strong` 91 [Philosophy of Language / Linguistic Abstraction#prompt-1](../philosophy-of-language/linguistic-abstraction/#prompt-1): The section could use slightly more argumentative texture to feel fully settled.
 - `strong` 92 [Economics / Economics – Core Concepts#prompt-1](../economics/economics-core-concepts/#prompt-1): Support items could become a little more explanatory and a little less label-like.; The section could use slightly more argumentative texture to feel fully settled.
 - `strong` 92 [Economics / Economics – Core Concepts#prompt-2](../economics/economics-core-concepts/#prompt-2): The section could use slightly more argumentative texture to feel fully settled.
+- `strong` 92 [Economics / What are Moral Hazards?#prompt-2](../economics/what-are-moral-hazards/#prompt-2): The section could use slightly more argumentative texture to feel fully settled.
 - `strong` 92 [Epistemology / Charles Darwin#prompt-2](../epistemology/charles-darwin/#prompt-2): Support items could become a little more explanatory and a little less label-like.; The section could use slightly more argumentative texture to feel fully settled.
 - `strong` 92 [Philosophical Inquiry / Personal Truth?#prompt-2](../philosophical-inquiry/personal-truth/#prompt-2): A worked example would likely make the distinction easier to carry into a live case.; A brief objection-and-reply moment would make the section feel more alive and more rigorous.
 - `strong` 92 [Philosophy of Science / What is Falsifiability?#prompt-2](../philosophy-of-science/what-is-falsifiability/#prompt-2): The section could use slightly more argumentative texture to feel fully settled.
@@ -78,15 +90,18 @@ Pattern issues found: 15
 - `strong` 93 [Philosophical Inquiry / Common Sense Blunders#prompt-1](../philosophical-inquiry/common-sense-blunders/#prompt-1): The section could use slightly more argumentative texture to feel fully settled.
 - `strong` 93 [Philosophical Inquiry / Common Sense Blunders#prompt-2](../philosophical-inquiry/common-sense-blunders/#prompt-2): The section could use slightly more argumentative texture to feel fully settled.
 - `strong` 93 [Philosophical Inquiry / Packaged vs Eclectic Ideologies#prompt-3](../philosophical-inquiry/packaged-vs-eclectic-ideologies/#prompt-3): The section could use slightly more argumentative texture to feel fully settled.
+- `strong` 93 [Philosophical Inquiry / Seeker Scenarios#prompt-1](../philosophical-inquiry/seeker-scenarios/#prompt-1): The section could use slightly more argumentative texture to feel fully settled.
 - `strong` 93 [Philosophy of Mind / Elitzur on Consciousness#prompt-1](../philosophy-of-mind/elitzur-on-consciousness/#prompt-1): ready for a calmer, sharper editorial pass
 - `strong` 94 [Epistemology / Avoiding Single-Cause Dogmatism#prompt-4](../epistemology/avoiding-single-cause-dogmatism/#prompt-4): The section could use slightly more argumentative texture to feel fully settled.
 - `strong` 94 [Epistemology / Case #6 – Insatiable Loops#prompt-2](../epistemology/case-6-insatiable-loops/#prompt-2): The section could use slightly more argumentative texture to feel fully settled.
+- `strong` 94 [Epistemology / Induction: Utility and Issues#prompt-5](../epistemology/induction-utility-and-issues/#prompt-5): The section could use slightly more argumentative texture to feel fully settled.
 - `strong` 94 [Epistemology / Pascal’s Wager#prompt-4](../epistemology/pascals-wager/#prompt-4): Support items could become a little more explanatory and a little less label-like.; The section could use slightly more argumentative texture to feel fully settled.
 - `strong` 94 [Ethics / Competing Ethical Considerations#prompt-3](../ethics/competing-ethical-considerations/#prompt-3): The section could use slightly more argumentative texture to feel fully settled.
 - `strong` 94 [Ethics / Moral Black Boxes#prompt-2](../ethics/moral-black-boxes/#prompt-2): Support items could become a little more explanatory and a little less label-like.; The section could use slightly more argumentative texture to feel fully settled.
 - `strong` 94 [Ethics / The Value Selection Hypothesis#prompt-2](../ethics/the-value-selection-hypothesis/#prompt-2): The section could use slightly more argumentative texture to feel fully settled.
 - `strong` 94 [Humanistic Philosophies / What is Existentialism?#prompt-3](../humanistic-philosophies/what-is-existentialism/#prompt-3): A worked example would likely make the distinction easier to carry into a live case.
 - `strong` 94 [Introduction / Miscellaneous Philosophers#prompt-3](../introduction/miscellaneous-philosophers/#prompt-3): A worked example would likely make the distinction easier to carry into a live case.
+- `strong` 94 [Philosophy of Mind / Where are our Thoughts?#prompt-1](../philosophy-of-mind/where-are-our-thoughts/#prompt-1): The section could use slightly more argumentative texture to feel fully settled.
 - `strong` 94 [Philosophy of Science / Is Logic Acquired Inductively?#prompt-3](../philosophy-of-science/is-logic-acquired-inductively/#prompt-3): A worked example would likely make the distinction easier to carry into a live case.; A brief objection-and-reply moment would make the section feel more alive and more rigorous.; The section could use slightly more argumentative texture to feel fully settled.
 - `strong` 95 [Epistemology / Abduction: Utility and Issues#prompt-1](../epistemology/abduction-utility-and-issues/#prompt-1): The section could use slightly more argumentative texture to feel fully settled.
 - `strong` 95 [Epistemology / Decision-Making#prompt-4](../epistemology/decision-making/#prompt-4): Support items could become a little more explanatory and a little less label-like.; The section could use slightly more argumentative texture to feel fully settled.
@@ -98,7 +113,10 @@ Pattern issues found: 15
 - `strong` 95 [Ethics / The Value Selection Hypothesis#prompt-1](../ethics/the-value-selection-hypothesis/#prompt-1): The section could use slightly more argumentative texture to feel fully settled.
 - `strong` 95 [Philosophical Inquiry / Dangers: Co-opted Wonders#prompt-1](../philosophical-inquiry/dangers-co-opted-wonders/#prompt-1): The section could use slightly more argumentative texture to feel fully settled.
 - `strong` 95 [Philosophical Inquiry / Dangers: Half-Searches#prompt-3](../philosophical-inquiry/dangers-half-searches/#prompt-3): The section could use slightly more argumentative texture to feel fully settled.
+- `strong` 95 [Philosophical Inquiry / Dangers: Ideologies of Emotion#prompt-1](../philosophical-inquiry/dangers-ideologies-of-emotion/#prompt-1): The section could use slightly more argumentative texture to feel fully settled.
 - `strong` 95 [Philosophical Inquiry / Dangers: Strong Leaders#prompt-3](../philosophical-inquiry/dangers-strong-leaders/#prompt-3): The section could use slightly more argumentative texture to feel fully settled.
+- `strong` 95 [Philosophical Inquiry / Seeker Scenarios#prompt-2](../philosophical-inquiry/seeker-scenarios/#prompt-2): Support items could become a little more explanatory and a little less label-like.; The section could use slightly more argumentative texture to feel fully settled.
+- `strong` 95 [Philosophy of AI / Human Reaction to AI#prompt-2](../philosophy-of-ai/human-reaction-to-ai/#prompt-2): The section could use slightly more argumentative texture to feel fully settled.
 - `strong` 95 [Philosophy of Science / Is Logic Acquired Inductively?#prompt-4](../philosophy-of-science/is-logic-acquired-inductively/#prompt-4): A brief objection-and-reply moment would make the section feel more alive and more rigorous.; The section could use slightly more argumentative texture to feel fully settled.
 - `strong` 95 [Rational Thought / Are Averages “Not Always True”?#prompt-1](../rational-thought/are-averages-not-always-true/#prompt-1): The section could use slightly more argumentative texture to feel fully settled.
 - `exceptional` 96 [Epistemology / Epistemological Case Studies#prompt-3](../epistemology/epistemological-case-studies/#prompt-3): Support items could become a little more explanatory and a little less label-like.; The section could use slightly more argumentative texture to feel fully settled.
@@ -168,25 +186,6 @@ Pattern issues found: 15
 - `exceptional` 98 [Epistemology / “Adequate” Evidence#prompt-1](../epistemology/adequate-evidence/#prompt-1): ready for a calmer, sharper editorial pass
 - `exceptional` 98 [Epistemology / “Adequate” Evidence#prompt-2](../epistemology/adequate-evidence/#prompt-2): ready for a calmer, sharper editorial pass
 - `exceptional` 98 [Ethics / Meta-Ethics#prompt-1](../ethics/meta-ethics/#prompt-1): Support items could become a little more explanatory and a little less label-like.; The section could use slightly more argumentative texture to feel fully settled.
-- `exceptional` 98 [Ethics / Moral Systems: Required Elements#prompt-2](../ethics/moral-systems-required-elements/#prompt-2): The section could use slightly more argumentative texture to feel fully settled.
-- `exceptional` 98 [Humanistic Philosophies / Accounting for X#prompt-3](../humanistic-philosophies/accounting-for-x/#prompt-3): ready for a calmer, sharper editorial pass
-- `exceptional` 98 [Metaphysics / Jeremy Sherman on Emergence#prompt-4](../metaphysics/jeremy-sherman-on-emergence/#prompt-4): ready for a calmer, sharper editorial pass
-- `exceptional` 98 [Philosophical Inquiry / Conspiracies & Misunderstanding Human Nature#prompt-4](../philosophical-inquiry/conspiracies-misunderstanding-human-nature/#prompt-4): ready for a calmer, sharper editorial pass
-- `exceptional` 98 [Philosophical Inquiry / Dangers: Carrot & Stick#prompt-1](../philosophical-inquiry/dangers-carrot-stick/#prompt-1): Support items could become a little more explanatory and a little less label-like.; The section could use slightly more argumentative texture to feel fully settled.
-- `exceptional` 98 [Philosophical Inquiry / Dangers: Strong Leaders#prompt-4](../philosophical-inquiry/dangers-strong-leaders/#prompt-4): The section could use slightly more argumentative texture to feel fully settled.
-- `exceptional` 98 [Philosophical Inquiry / Dangers: The Notion of Fate#prompt-2](../philosophical-inquiry/dangers-the-notion-of-fate/#prompt-2): The section could use slightly more argumentative texture to feel fully settled.
-- `exceptional` 98 [Philosophical Inquiry / Dangers: The Notion of Fate#prompt-3](../philosophical-inquiry/dangers-the-notion-of-fate/#prompt-3): The section could use slightly more argumentative texture to feel fully settled.
-- `exceptional` 98 [Philosophical Inquiry / Dangers: Unnuanced Conclusions#prompt-3](../philosophical-inquiry/dangers-unnuanced-conclusions/#prompt-3): ready for a calmer, sharper editorial pass
-- `exceptional` 98 [Philosophical Inquiry / Do I need a “worldview”?#prompt-1](../philosophical-inquiry/do-i-need-a-worldview/#prompt-1): The section could use slightly more argumentative texture to feel fully settled.
-- `exceptional` 98 [Philosophical Inquiry / Testing Ideologies#prompt-1](../philosophical-inquiry/testing-ideologies/#prompt-1): The section could use slightly more argumentative texture to feel fully settled.
-- `exceptional` 98 [Philosophical Inquiry / Testing Ideologies#prompt-3](../philosophical-inquiry/testing-ideologies/#prompt-3): The section could use slightly more argumentative texture to feel fully settled.
-- `exceptional` 98 [Philosophical Inquiry / The Danger of “Resulting”#prompt-2](../philosophical-inquiry/the-danger-of-resulting/#prompt-2): The section could use slightly more argumentative texture to feel fully settled.
-- `exceptional` 98 [Philosophy of Language / Gradient Concepts and Binary Terms#prompt-1](../philosophy-of-language/gradient-concepts-and-binary-terms/#prompt-1): The section could use slightly more argumentative texture to feel fully settled.
-- `exceptional` 98 [Philosophy of Language / Philosophy of Language — Core Concepts#prompt-4](../philosophy-of-language/core-concepts-philosophy-of-language/#prompt-4): The section could use slightly more argumentative texture to feel fully settled.
-- `exceptional` 98 [Philosophy of Language / What is Language?#prompt-2](../philosophy-of-language/what-is-language/#prompt-2): ready for a calmer, sharper editorial pass
-- `exceptional` 98 [Philosophy of Language / What is Language?#prompt-5](../philosophy-of-language/what-is-language/#prompt-5): The section could use slightly more argumentative texture to feel fully settled.
-- `exceptional` 98 [Philosophy of Mind / Functionalism & Subjectivity#prompt-4](../philosophy-of-mind/functionalism-subjectivity/#prompt-4): ready for a calmer, sharper editorial pass
-- `exceptional` 98 [Philosophy of Mind / Subjective/Objective Free Will#prompt-2](../philosophy-of-mind/subjective-objective-free-will/#prompt-2): ready for a calmer, sharper editorial pass
 
 ## Exceptional Gap-Fill Backlog
 
@@ -380,14 +379,24 @@ These are the lowest-scoring sections relative to the rest of the archive. Stron
 - `strong` 85 [Epistemology / ⌁ Perceived Responsibility and Perceived Control#prompt-4](../epistemology/perceived-responsibility-and-perceived-control/#prompt-4): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
 - `strong` 85 [Ethics / ⌁ Legitimate Culpability vs Borrowed Guilt#prompt-1](../ethics/legitimate-culpability-vs-borrowed-guilt/#prompt-1): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
 - `strong` 85 [Ethics / ⌁ Legitimate Culpability vs Borrowed Guilt#prompt-4](../ethics/legitimate-culpability-vs-borrowed-guilt/#prompt-4): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
+- `strong` 86 [Economics / Taxation#prompt-2](../economics/taxation/#prompt-2): The section is below the current editorial depth target.
 - `strong` 86 [Ethics / The Value Selection Hypothesis#prompt-3](../ethics/the-value-selection-hypothesis/#prompt-3): The section is below the current editorial depth target.; The section stays abstract longer than it should and would benefit from a worked example.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
 - `strong` 86 [Philosophers / Herbert Marcuse#prompt-1](../philosophers/herbert-marcuse/#prompt-1): The section stays abstract longer than it should and would benefit from a worked example.
 - `strong` 86 [Philosophers / Ludwig Wittgenstein#prompt-1](../philosophers/ludwig-wittgenstein/#prompt-1): The section stays abstract longer than it should and would benefit from a worked example.
 - `strong` 86 [Philosophers / Simone de Beauvoir#prompt-1](../philosophers/simone-de-beauvoir/#prompt-1): The section stays abstract longer than it should and would benefit from a worked example.
 - `strong` 86 [Philosophical Inquiry / Dangers: Untestable Ideologies#prompt-2](../philosophical-inquiry/dangers-untestable-ideologies/#prompt-2): The section stays abstract longer than it should and would benefit from a worked example.; The section would be stronger if it named a fair objection or pushback in plain language.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
+- `strong` 86 [Philosophy of Mind / Manufacturer or Method?#prompt-1](../philosophy-of-mind/manufacturer-or-method/#prompt-1): The section is below the current editorial depth target.
 - `strong` 86 [Philosophy of Science / Observable Regularities#prompt-3](../philosophy-of-science/observable-regularity/#prompt-3): The source claim was sparse, so this section was expanded with explicit reconstruction supports.; The section is below the current editorial depth target.; The section would be stronger if it named a fair objection or pushback in plain language.
 - `strong` 87 [Epistemology / Induction: Forecasting#prompt-3](../epistemology/induction-forecasting/#prompt-3): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
+- `strong` 88 [Economics / Taxation#prompt-1](../economics/taxation/#prompt-1): The section is below the current editorial depth target.
 - `strong` 88 [Epistemology / Abduction: Utility and Issues#prompt-2](../epistemology/abduction-utility-and-issues/#prompt-2): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
+- `strong` 88 [Philosophy of Language / Linguistic Abstraction#prompt-3](../philosophy-of-language/linguistic-abstraction/#prompt-3): The section is below the current editorial depth target.
+- `strong` 88 [Philosophy of Language / Linguistic Abstraction#prompt-4](../philosophy-of-language/linguistic-abstraction/#prompt-4): The section is below the current editorial depth target.
+- `strong` 88 [Philosophy of Language / Linguistic Abstraction#prompt-5](../philosophy-of-language/linguistic-abstraction/#prompt-5): The section is below the current editorial depth target.
+- `strong` 88 [Philosophy of Mind / Where are our Thoughts?#prompt-4](../philosophy-of-mind/where-are-our-thoughts/#prompt-4): The section is below the current editorial depth target.
+- `strong` 88 [Philosophy of Science / Asymmetric Counterfactuals#prompt-1](../philosophy-of-science/asymmetric-counterfactuals/#prompt-1): The section is below the current editorial depth target.
+- `strong` 88 [Philosophy of Science / Asymmetric Counterfactuals#prompt-4](../philosophy-of-science/asymmetric-counterfactuals/#prompt-4): The section is below the current editorial depth target.
+- `strong` 88 [Philosophy of Science / Is History Science?#prompt-5](../philosophy-of-science/is-history-science/#prompt-5): The section is below the current editorial depth target.
 - `strong` 89 [Epistemology / AI Reasoning Case Study#prompt-2](../epistemology/ai-reasoning-case-study/#prompt-2): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
 - `strong` 89 [Epistemology / Avoiding Single-Cause Dogmatism#prompt-1](../epistemology/avoiding-single-cause-dogmatism/#prompt-1): The source claim was sparse, so this section was expanded with explicit reconstruction supports.; The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
 - `strong` 89 [Epistemology / Avoiding Single-Cause Dogmatism#prompt-2](../epistemology/avoiding-single-cause-dogmatism/#prompt-2): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
@@ -413,10 +422,13 @@ These are the lowest-scoring sections relative to the rest of the archive. Stron
 - `strong` 90 [Philosophy of Science / Observable Regularities#prompt-2](../philosophy-of-science/observable-regularity/#prompt-2): The source claim was sparse, so this section was expanded with explicit reconstruction supports.; The section stays abstract longer than it should and would benefit from a worked example.; The section would be stronger if it named a fair objection or pushback in plain language.
 - `strong` 91 [Epistemology / AI Reasoning Case Study#prompt-1](../epistemology/ai-reasoning-case-study/#prompt-1): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
 - `strong` 91 [Epistemology / AI Reasoning Case Study#prompt-4](../epistemology/ai-reasoning-case-study/#prompt-4): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
+- `strong` 91 [Epistemology / Deduction: Utility and Issues#prompt-2](../epistemology/deduction-utility-and-issues/#prompt-2): The section is below the current editorial depth target.
 - `strong` 91 [Epistemology / Epistemological Case Studies#prompt-1](../epistemology/epistemological-case-studies/#prompt-1): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
 - `strong` 91 [Ethics / Moral Black Boxes#prompt-1](../ethics/moral-black-boxes/#prompt-1): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
+- `strong` 91 [Philosophy of Language / Linguistic Abstraction#prompt-1](../philosophy-of-language/linguistic-abstraction/#prompt-1): The section is below the current editorial depth target.
 - `strong` 92 [Economics / Economics – Core Concepts#prompt-1](../economics/economics-core-concepts/#prompt-1): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
 - `strong` 92 [Economics / Economics – Core Concepts#prompt-2](../economics/economics-core-concepts/#prompt-2): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
+- `strong` 92 [Economics / What are Moral Hazards?#prompt-2](../economics/what-are-moral-hazards/#prompt-2): The section is below the current editorial depth target.
 - `strong` 92 [Epistemology / Charles Darwin#prompt-2](../epistemology/charles-darwin/#prompt-2): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
 - `strong` 92 [Philosophical Inquiry / Personal Truth?#prompt-2](../philosophical-inquiry/personal-truth/#prompt-2): The section stays abstract longer than it should and would benefit from a worked example.; The section would be stronger if it named a fair objection or pushback in plain language.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
 - `strong` 92 [Philosophy of Science / What is Falsifiability?#prompt-2](../philosophy-of-science/what-is-falsifiability/#prompt-2): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
@@ -434,15 +446,18 @@ These are the lowest-scoring sections relative to the rest of the archive. Stron
 - `strong` 93 [Philosophical Inquiry / Common Sense Blunders#prompt-1](../philosophical-inquiry/common-sense-blunders/#prompt-1): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
 - `strong` 93 [Philosophical Inquiry / Common Sense Blunders#prompt-2](../philosophical-inquiry/common-sense-blunders/#prompt-2): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
 - `strong` 93 [Philosophical Inquiry / Packaged vs Eclectic Ideologies#prompt-3](../philosophical-inquiry/packaged-vs-eclectic-ideologies/#prompt-3): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
+- `strong` 93 [Philosophical Inquiry / Seeker Scenarios#prompt-1](../philosophical-inquiry/seeker-scenarios/#prompt-1): The section is below the current editorial depth target.
 - `strong` 93 [Philosophy of Mind / Elitzur on Consciousness#prompt-1](../philosophy-of-mind/elitzur-on-consciousness/#prompt-1): Source hierarchy was sparse, so the reconstruction supplies explicit support structure.
 - `strong` 94 [Epistemology / Avoiding Single-Cause Dogmatism#prompt-4](../epistemology/avoiding-single-cause-dogmatism/#prompt-4): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
 - `strong` 94 [Epistemology / Case #6 – Insatiable Loops#prompt-2](../epistemology/case-6-insatiable-loops/#prompt-2): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
+- `strong` 94 [Epistemology / Induction: Utility and Issues#prompt-5](../epistemology/induction-utility-and-issues/#prompt-5): The section is below the current editorial depth target.
 - `strong` 94 [Epistemology / Pascal’s Wager#prompt-4](../epistemology/pascals-wager/#prompt-4): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
 - `strong` 94 [Ethics / Competing Ethical Considerations#prompt-3](../ethics/competing-ethical-considerations/#prompt-3): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
 - `strong` 94 [Ethics / Moral Black Boxes#prompt-2](../ethics/moral-black-boxes/#prompt-2): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
 - `strong` 94 [Ethics / The Value Selection Hypothesis#prompt-2](../ethics/the-value-selection-hypothesis/#prompt-2): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
 - `strong` 94 [Humanistic Philosophies / What is Existentialism?#prompt-3](../humanistic-philosophies/what-is-existentialism/#prompt-3): The section stays abstract longer than it should and would benefit from a worked example.
 - `strong` 94 [Introduction / Miscellaneous Philosophers#prompt-3](../introduction/miscellaneous-philosophers/#prompt-3): The section stays abstract longer than it should and would benefit from a worked example.
+- `strong` 94 [Philosophy of Mind / Where are our Thoughts?#prompt-1](../philosophy-of-mind/where-are-our-thoughts/#prompt-1): The section is below the current editorial depth target.
 - `strong` 94 [Philosophy of Science / Is Logic Acquired Inductively?#prompt-3](../philosophy-of-science/is-logic-acquired-inductively/#prompt-3): The section stays abstract longer than it should and would benefit from a worked example.; The section would be stronger if it named a fair objection or pushback in plain language.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
 - `strong` 95 [Epistemology / Abduction: Utility and Issues#prompt-1](../epistemology/abduction-utility-and-issues/#prompt-1): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
 - `strong` 95 [Epistemology / Decision-Making#prompt-4](../epistemology/decision-making/#prompt-4): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
@@ -458,7 +473,10 @@ These are the lowest-scoring sections relative to the rest of the archive. Stron
 - `strong` 95 [Philosophers / Willard Van Orman Quine#prompt-1](../philosophers/willard-van-orman-quine/#prompt-1): The section stays abstract longer than it should and would benefit from a worked example.
 - `strong` 95 [Philosophical Inquiry / Dangers: Co-opted Wonders#prompt-1](../philosophical-inquiry/dangers-co-opted-wonders/#prompt-1): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
 - `strong` 95 [Philosophical Inquiry / Dangers: Half-Searches#prompt-3](../philosophical-inquiry/dangers-half-searches/#prompt-3): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
+- `strong` 95 [Philosophical Inquiry / Dangers: Ideologies of Emotion#prompt-1](../philosophical-inquiry/dangers-ideologies-of-emotion/#prompt-1): The section is below the current editorial depth target.
 - `strong` 95 [Philosophical Inquiry / Dangers: Strong Leaders#prompt-3](../philosophical-inquiry/dangers-strong-leaders/#prompt-3): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
+- `strong` 95 [Philosophical Inquiry / Seeker Scenarios#prompt-2](../philosophical-inquiry/seeker-scenarios/#prompt-2): The section is below the current editorial depth target.
+- `strong` 95 [Philosophy of AI / Human Reaction to AI#prompt-2](../philosophy-of-ai/human-reaction-to-ai/#prompt-2): The section is below the current editorial depth target.
 - `strong` 95 [Philosophy of Science / Is Logic Acquired Inductively?#prompt-4](../philosophy-of-science/is-logic-acquired-inductively/#prompt-4): The section is below the current editorial depth target.; The section would be stronger if it named a fair objection or pushback in plain language.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
 - `strong` 95 [Rational Thought / Are Averages “Not Always True”?#prompt-1](../rational-thought/are-averages-not-always-true/#prompt-1): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
 - `exceptional` 96 [Epistemology / Epistemological Case Studies#prompt-3](../epistemology/epistemological-case-studies/#prompt-3): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
@@ -476,22 +494,3 @@ These are the lowest-scoring sections relative to the rest of the archive. Stron
 - `exceptional` 96 [Rational Thought / Perverse Incentives#prompt-2](../rational-thought/perverse-incentives/#prompt-2): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
 - `exceptional` 96 [Rational Thought / Perverse Incentives#prompt-3](../rational-thought/perverse-incentives/#prompt-3): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
 - `exceptional` 97 [Epistemology / Abduction: Utility and Issues#prompt-3](../epistemology/abduction-utility-and-issues/#prompt-3): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
-- `exceptional` 97 [Epistemology / Case #6 – Insatiable Loops#prompt-3](../epistemology/case-6-insatiable-loops/#prompt-3): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
-- `exceptional` 97 [Epistemology / Counterfactual Reasoning#prompt-1](../epistemology/counterfactual-reasoning/#prompt-1): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
-- `exceptional` 97 [Epistemology / Counterfactual Reasoning#prompt-2](../epistemology/counterfactual-reasoning/#prompt-2): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
-- `exceptional` 97 [Epistemology / Decision-Making#prompt-1](../epistemology/decision-making/#prompt-1): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
-- `exceptional` 97 [Epistemology / Decision-Making#prompt-3](../epistemology/decision-making/#prompt-3): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
-- `exceptional` 97 [Epistemology / Doxastic Voluntarism#prompt-3](../epistemology/doxastic-voluntarism/#prompt-3): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
-- `exceptional` 97 [Epistemology / Induction: Forecasting#prompt-2](../epistemology/induction-forecasting/#prompt-2): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
-- `exceptional` 97 [Epistemology / Many Logics?#prompt-1](../epistemology/many-logics/#prompt-1): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
-- `exceptional` 97 [Epistemology / Many Logics?#prompt-2](../epistemology/many-logics/#prompt-2): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
-- `exceptional` 97 [Epistemology / Many Logics?#prompt-5](../epistemology/many-logics/#prompt-5): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
-- `exceptional` 97 [Ethics / Coherent Moral Systems#prompt-1](../ethics/coherent-moral-systems/#prompt-1): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
-- `exceptional` 97 [Ethics / Equivocation on “Wrong”#prompt-4](../ethics/equivocation-on-wrong/#prompt-4): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
-- `exceptional` 97 [Ethics / Ethics — Core Concepts#prompt-2](../ethics/ethics-core-concepts/#prompt-2): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
-- `exceptional` 97 [Ethics / Ethics — Core Concepts#prompt-4](../ethics/ethics-core-concepts/#prompt-4): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
-- `exceptional` 97 [Ethics / Meta-Ethics#prompt-3](../ethics/meta-ethics/#prompt-3): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
-- `exceptional` 97 [Ethics / Moral Systems: Required Elements#prompt-1](../ethics/moral-systems-required-elements/#prompt-1): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
-- `exceptional` 97 [Ethics / Recommendations vs Moral Claims#prompt-3](../ethics/recommendations-vs-moral-claims/#prompt-3): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
-- `exceptional` 97 [Ethics / What are Ethics?#prompt-1](../ethics/what-are-ethics/#prompt-1): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
-- `exceptional` 97 [Ethics / What are Ethics?#prompt-2](../ethics/what-are-ethics/#prompt-2): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.

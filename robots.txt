@@ -1,8 +1,5 @@
 User-agent: *
 Allow: /
 Disallow: /quality/
-Disallow: /quality-review/
-Disallow: /recent-posts-expanded-version/
-Disallow: /byteseismic-podcasts/
 
 Sitemap: https://byteseismic.com/sitemap.xml
