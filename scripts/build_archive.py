@@ -14614,6 +14614,45 @@ def source_detail_labels(detail: dict | None) -> list[str]:
     return usable_thread_items(dedupe(labels))[:5]
 
 
+def current_batch_learning_labels(page: dict, prompt: str, detail: dict | None, limit: int = 3) -> list[str]:
+    topic = topic_label(page["title"])
+    noisy_exact = {
+        "http",
+        "https",
+        "notes",
+        "note",
+        "country",
+        "countries",
+        "year",
+        "years",
+        "date",
+        "dates",
+        "source",
+        "sources",
+        "link",
+        "links",
+        "table",
+        "tables",
+    }
+    labels: list[str] = []
+    for label in learning_context_labels(page, prompt, detail, max(limit + 3, 5)):
+        candidate = clean_text(label).strip(" .:")
+        lowered = candidate.lower()
+        if not candidate or lowered == topic.lower():
+            continue
+        if lowered in noisy_exact:
+            continue
+        if re.fullmatch(r"(?:https?:)?//\S+", candidate, flags=re.IGNORECASE):
+            continue
+        if len(candidate) <= 3 and candidate.isupper():
+            continue
+        if candidate not in labels:
+            labels.append(candidate)
+        if len(labels) >= limit:
+            break
+    return labels
+
+
 def prompt_key_phrase(prompt: str, fallback: str) -> str:
     cleaned = clean_text(prompt)
     lowered = cleaned.lower()
@@ -15545,6 +15584,44 @@ def prompt_response_paragraphs(page: dict, prompt: str, index: int, detail: dict
     claim = first_source_claim(detail)
     philosopher_profile = philosopher_profile_for_title(page["title"]) if page["section_id"] == "philosophers" else None
 
+    if is_current_editorial_batch_page(page) and page["section_id"] != "philosophers":
+        current_labels = current_batch_learning_labels(page, prompt, detail, 3)
+        label_text = serial_join(current_labels[:3]) or topic
+        key = short_prompt_key(prompt, topic)
+        key_text = clean_discussion_key(key, topic, topic)
+        if command_like_key(key_text):
+            key_text = topic
+        focus_openers = {
+            "definition": f"The section should clarify how {key_text} is being used, where it differs from nearby ideas, and why that difference changes judgment.",
+            "mapping": f"The section works only if the reader can see how {label_text} connect, compete, or depend on one another rather than collapsing into one blurred summary.",
+            "examples": f"The payoff here is practical. A concrete case should make {key_text} easier to test, not merely easier to paraphrase.",
+            "argument": f"The pressure point is whether {key_text} survives the strongest reasonable objection rather than only sounding plausible in isolation.",
+            "description": f"The description earns its keep only if it teaches the reader what to notice first about {key_text} and what confusion to avoid.",
+            "inquiry": f"The question matters because it changes what the reader would now compare, doubt, or investigate about {key_text}.",
+        }
+        paragraphs = [focus_openers.get(focus, focus_openers["inquiry"])]
+        if claim and not source_sentence_is_incomplete(claim):
+            paragraphs.append(f"The source claim is basically this: {claim}")
+        elif current_labels:
+            paragraphs.append(
+                f"The useful distinctions here run through {label_text}. Those parts matter because they do different explanatory work inside {topic}."
+            )
+        if current_labels:
+            if len(current_labels) >= 2:
+                paragraphs.append(
+                    f"Keep {current_labels[0]} and {current_labels[1]} separate long enough for the reader to see what each contributes. "
+                    "Once those roles blur together, the page starts sounding smoother while becoming less usable."
+                )
+            else:
+                paragraphs.append(
+                    f"{current_labels[0]} should act as a real lever in the discussion, not as a heading that merely makes the page look organized."
+                )
+        else:
+            paragraphs.append(
+                f"The section should leave {topic} more operational than it found it: clearer about what is being claimed, what would test it, and what would force revision."
+            )
+        return paragraphs[:3]
+
     def pressure_sentence(key_text: str) -> str:
         if key_text in {"the central question", "the opening question", "the opening pressure", "this question"}:
             if topic_is_question_like(topic):
@@ -16265,6 +16342,20 @@ def intermediate_reader_paragraph(page: dict, prompt: str, focus: str) -> str:
     key_text = clean_discussion_key(key, topic, "this question")
     if command_like_key(key_text):
         key_text = semantic_hook_items(page, prompt, None)[0]
+    if is_current_editorial_batch_page(page) and page["section_id"] != "philosophers":
+        current_labels = current_batch_learning_labels(page, prompt, None, 3)
+        label_text = serial_join(current_labels) or topic
+        branch_guides = {
+            "economics": "Watch what happens at the margin: who changes behavior, who carries the cost, and which feedback loop becomes more likely next.",
+            "epistemology": "Keep confidence proportional to support. The practical gain is better calibration, not theatrical skepticism.",
+            "rational-thought": "Treat the distinction as a diagnostic tool. If it cannot catch a live reasoning error, it is still too inert.",
+            "ethics": "Keep moral language, motivation, and authority distinct even when they arrive together in ordinary speech.",
+            "metaphysics": "Ask whether the page is claiming existence, dependence, possibility, or just a tempting way of talking.",
+        }
+        return (
+            f"Treat {label_text} as working parts rather than polished terminology. "
+            f"{branch_guides.get(section_id, profile['pressure'])}"
+        )
     if section_id == "philosophers":
         family = philosopher_prompt_family(page, prompt)
         if family == "influence":
@@ -16351,6 +16442,33 @@ def editorial_insight_paragraph(page: dict, prompt: str, focus: str) -> str:
     key_text = clean_discussion_key(key, topic, "the central distinction")
     section_id = page["section_id"]
 
+    if is_current_editorial_batch_page(page) and page["section_id"] != "philosophers":
+        if section_id == "economics":
+            return (
+                f"The hidden difficulty in {topic} is that descriptive facts and normative hopes keep leaning on each other. "
+                "The section gets stronger when it says plainly which part is empirical, which part is evaluative, and where incentives complicate the aspiration."
+            )
+        if section_id == "epistemology":
+            return (
+                f"The deeper issue in {topic} is usually not whether certainty is possible, but how much confidence the evidence has actually earned. "
+                f"That is what turns {key_text} from vocabulary into epistemic discipline."
+            )
+        if section_id == "rational-thought":
+            return (
+                f"The payoff of {topic} is transfer. "
+                f"The section should make {key_text} usable in the next case, not just respectable on this page."
+            )
+        if section_id == "metaphysics":
+            return (
+                f"The metaphysical temptation is to let evocative language do the ontological work. "
+                f"The section improves when it separates what {key_text} would require reality to be from what merely sounds suggestive."
+            )
+        if section_id == "ethics":
+            return (
+                f"The ethical pressure here is not only emotional intensity but justificatory discipline. "
+                "A position may feel compassionate, scandalous, or obvious and still need a clearer account of what gives it authority."
+            )
+
     if section_id == "ethics":
         return (
             f"A common mistake in {topic} is to confuse motivational force with justificatory force. "
@@ -16405,6 +16523,18 @@ def reader_test_paragraph(page: dict, prompt: str, focus: str) -> str:
         key_text = semantic_hook_items(page, prompt, None)[0]
     key_text = safe_guiding_phrase(key_text, topic, "the central distinction")
     profile = branch_profile(page["section_id"])
+    if is_current_editorial_batch_page(page) and page["section_id"] != "philosophers":
+        focus_tests = {
+            "mapping": "The reader should come away able to say which part carries the weight and what shifts if that part is revised.",
+            "argument": "The answer should leave behind a premise worth testing and an objection worth remembering.",
+            "definition": "The answer should make at least one borderline case easier to classify for principled reasons.",
+            "examples": "The example should make the abstraction easier to use and harder to misuse.",
+        }
+        return (
+            f"A useful exit test is whether the reader can take {key_text} into a neighboring case without needing the whole page repeated. "
+            f"{focus_tests.get(focus, 'The section should leave behind a practical contrast, question, or warning sign that still works outside this one discussion.')} "
+            f"That is what keeps the page connected to {profile['lens']} rather than turning it into polished recap."
+        )
     focus_tests = {
         "dialogue": "A good dialogue should let the reader feel the pressure of both sides before the answer settles.",
         "mapping": "A good map should show which distinctions carry the argument and which ones merely name nearby territory.",
@@ -17014,6 +17144,26 @@ def worked_example_paragraph(page: dict, prompt: str, detail: dict | None, focus
     labels = learning_context_labels(page, prompt, detail, 3)
     safe_labels = [safe_guiding_phrase(label, topic, topic) for label in labels[:2]]
     label_text = serial_join(safe_labels) or key_text
+    if is_current_editorial_batch_page(page) and page["section_id"] != "philosophers":
+        current_labels = current_batch_learning_labels(page, prompt, detail, 2)
+        current_label_text = serial_join(current_labels) or label_text
+        if focus == "definition":
+            return (
+                f"Put the distinction under pressure. Imagine two careful readers agreeing on the broad topic but disagreeing over whether {current_label_text} belong inside {key_text}. "
+                "The section succeeds only if it gives the reader a principled way to sort the case."
+            )
+        if focus == "mapping":
+            return (
+                f"Run one live case through the structure. Ask how changing {current_label_text} would alter the rest of the picture rather than merely relabel one box on the page."
+            )
+        if focus == "argument":
+            return (
+                f"Picture a serious critic who grants the background but resists the move toward {key_text}. "
+                "That is where the reasoning either earns its conclusion or reveals the missing step."
+            )
+        return (
+            f"Bring the issue into an ordinary decision. What would someone notice sooner, question more carefully, or stop assuming once {current_label_text} are handled with more precision?"
+        )
     if page["section_id"] == "philosophers":
         family = philosopher_prompt_family(page, prompt)
         if family == "influence":
@@ -17078,6 +17228,32 @@ def dialogical_pressure_paragraph(page: dict, prompt: str, focus: str) -> str:
     if command_like_key(key_text):
         key_text = topic
     section_id = page["section_id"]
+
+    if is_current_editorial_batch_page(page) and page["section_id"] != "philosophers":
+        if section_id == "economics":
+            return (
+                "A reasonable objection is that economic life is too messy for neat answers here. "
+                "That is fair, but it raises the standard rather than erasing it: the section should still show which incentives, tradeoffs, or distributional effects matter most."
+            )
+        if section_id == "epistemology":
+            return (
+                "The natural pushback is that ordinary life runs on incomplete evidence. "
+                "True, but that does not erase the difference between responsible updating and simply protecting a favored belief."
+            )
+        if section_id == "rational-thought":
+            return (
+                "The obvious resistance is that real judgment is often fast, social, and pressured. "
+                "The point is not to fantasize about perfect calm, but to show which shortcuts are survivable and which ones quietly corrupt the conclusion."
+            )
+        if section_id == "ethics":
+            return (
+                "A likely objection is that people often feel the moral pull of a case before they can analyze it cleanly. "
+                "The section should grant that first intuition while still asking what justifies it and where it may mislead."
+            )
+        return (
+            f"A likely objection is that the ordinary way of talking about {key_text} is already good enough. "
+            "The answer should show what confusion, overreach, or missed distinction follows if that looser wording is left uncorrected."
+        )
 
     if section_id == "ethics":
         return (
