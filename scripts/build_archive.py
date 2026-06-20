@@ -11291,6 +11291,159 @@ TARGETED_SECTION_EXPANSIONS = {
     ("/philosophy-of-language/connotative-equivocation/", "prompt-2"): {
         "heading": "“Young man” versus “child” matters because connotation can tilt blame before evidence is even weighed.",
     },
+    ("/miscellany/flack-mitchell-on-complexity/", "prompt-3"): {
+        "heading": "The transcript's main arguments, made explicit",
+    },
+    ("/miscellany/information-theory/", "prompt-2"): {
+        "heading": "Where information theory is indispensable",
+    },
+    ("/miscellany/sara-walker-on-lifes-emergence/", "prompt-3"): {
+        "heading": "The transcript's main arguments, made explicit",
+    },
+    ("/miscellany/the-fantastical-historical-truth/", "prompt-4"): {
+        "heading": "Secular critiques of fantastical testimony",
+    },
+    ("/miscellany/the-fantastical-historical-truth/", "prompt-5"): {
+        "heading": "Why miracle claims gather where scrutiny is weakest",
+    },
+    ("/miscellany/zak-stein-on-complexity/", "prompt-3"): {
+        "heading": "The transcript's main arguments, made explicit",
+    },
+    ("/philosophical-inquiry/dangers-gaslighting/", "prompt-2"): {
+        "heading": "Why failed prayer gets blamed on hidden doubt",
+    },
+    ("/philosophy-of-ai/ai-meta-post-inner-monologues/", "prompt-3"): {
+        "heading": "Where human-AI collaborations may split the lead",
+    },
+    ("/philosophy-of-ai/the-double-descent-phenomenon/", "prompt-2"): {
+        "heading": "Overparameterization and the double descent curve",
+    },
+    ("/philosophy-of-ai/the-double-descent-phenomenon/", "prompt-3"): {
+        "heading": "Double descent explained for teenagers",
+    },
+    ("/philosophy-of-language/language-the-brain/", "prompt-4"): {
+        "heading": "How psychiatry and neurology name the same language functions",
+    },
+    ("/philosophy-of-language/language-the-brain/", "prompt-3"): {
+        "heading": "Which language functions still resist clean localization in the brain?",
+    },
+    ("/philosophy-of-language/needless-semantic-complexity/", "prompt-4"): {
+        "heading": "Which realities are buried under inflated language?",
+    },
+    ("/philosophy-of-language/needless-semantic-complexity/", "prompt-2"): {
+        "heading": "Why simple realities attract inflated terminology",
+    },
+    ("/philosophy-of-language/nomological-density-of-grammar/", "prompt-3"): {
+        "heading": "The split infinitive as a case study in grammatical change",
+    },
+    ("/philosophy-of-language/nomological-density-of-grammar/", "prompt-4"): {
+        "heading": "When usage becomes canonical grammar",
+    },
+    ("/philosophy-of-language/thought-language/", "prompt-3"): {
+        "heading": "The strongest arguments about language and thought",
+    },
+    ("/philosophy-of-mind/are-there-selfless-acts/", "prompt-2"): {
+        "heading": "Does private satisfaction explain every 'selfless' act?",
+    },
+    ("/philosophy-of-mind/land-ownership/", "prompt-3"): {
+        "heading": "When societies lost or abandoned land rights",
+    },
+    ("/philosophy-of-mind/preferences-pleasures/", "prompt-3"): {
+        "heading": "Can every motive still be reduced to pleasure and pain?",
+    },
+    ("/philosophy-of-mind/preferences-pleasures/", "prompt-4"): {
+        "heading": "Can this framework survive its strongest objection?",
+    },
+    ("/philosophy-of-mind/preferences-pleasures/", "prompt-1"): {
+        "heading": "Are all human decisions ultimately driven by pleasure and pain?",
+    },
+    ("/philosophy-of-mind/preferences-pleasures/", "prompt-2"): {
+        "heading": "Can duty, social pressure, and rational goals be reduced to hedonic motives?",
+    },
+    ("/philosophy-of-science/history-as-forensic-science/", "prompt-2"): {
+        "heading": "Are historians committed to the same core norms as scientists?",
+    },
+    ("/philosophy-of-science/history-as-forensic-science/", "prompt-4"): {
+        "heading": "Why embellished supernatural sources lose credibility",
+    },
+    ("/philosophy-of-science/improving-science/", "prompt-3"): {
+        "heading": "Publication bias: history, causes, and effects",
+    },
+    ("/philosophy-of-science/inductive-density/", "prompt-3"): {
+        "heading": "When better evidence overturns a strong intuition",
+    },
+    ("/philosophy-of-science/methodological-naturalism/", "prompt-3"): {
+        "heading": "What would make supernatural explanation scientifically credible?",
+    },
+    ("/philosophy-of-science/p-value-issues/", "prompt-3"): {
+        "heading": "Why confidence intervals beat binary p-value thinking",
+    },
+    ("/philosophy-of-science/the-notion-of-laws/", "prompt-2"): {
+        "heading": "Are scientific laws just stable inductive regularities?",
+    },
+    ("/philosophy-of-science/the-notion-of-laws/", "prompt-4"): {
+        "heading": "Why people overstate regularities as 'laws'",
+    },
+    ("/philosophy-of-science/the-power-of-convergence/", "prompt-2"): {
+        "heading": "Evolution as a convergence case",
+    },
+    ("/philosophy-of-science/the-power-of-convergence/", "prompt-3"): {
+        "heading": "Three non-biological convergence cases",
+    },
+    ("/political-philosophy/critical-race-theory/", "prompt-2"): {
+        "heading": "Can CRT define progress without clear metrics?",
+    },
+    ("/political-philosophy/critical-race-theory/", "prompt-4"): {
+        "heading": "A critique of Coleman Hughes's colorblind proposals",
+    },
+    ("/political-philosophy/elements-of-a-stable-state/", "prompt-2"): {
+        "heading": "How the main stabilizing factors compare",
+    },
+    ("/political-philosophy/elements-of-a-stable-state/", "prompt-3"): {
+        "heading": "Why multiethnic states like Singapore and Brazil can still stabilize",
+    },
+    ("/political-philosophy/elements-of-a-stable-state/", "prompt-1"): {
+        "heading": "What has historically made political states stable?",
+    },
+    ("/political-philosophy/identity-politics/", "prompt-2"): {
+        "heading": "How states can strengthen national identity without crushing subgroup identity",
+    },
+    ("/political-philosophy/identity-politics/", "prompt-3"): {
+        "heading": "Do conflict theorists overemphasize group difference?",
+    },
+    ("/political-philosophy/identity-politics/", "prompt-4"): {
+        "heading": "When separation may be more honest than forced unity",
+    },
+    ("/political-philosophy/metrics-for-cultural-comparisons/", "prompt-3"): {
+        "heading": "How much social success is luck versus policy and virtue?",
+    },
+    ("/political-philosophy/metrics-for-cultural-comparisons/", "prompt-4"): {
+        "heading": "Which civic virtues most often accompany successful cultures?",
+    },
+    ("/political-philosophy/the-social-contract/", "prompt-2"): {
+        "heading": "Can tacit consent bind those born into a system?",
+    },
+    ("/political-philosophy/the-social-contract/", "prompt-4"): {
+        "heading": "Hard cases for social-contract obligation",
+    },
+    ("/rational-thought/avoiding-logical-fallacies/", "prompt-2"): {
+        "heading": "When to name a fallacy and when to explain the blunder",
+    },
+    ("/rational-thought/avoiding-logical-fallacies/", "prompt-3"): {
+        "heading": "How analogies expose bad reasoning",
+    },
+    ("/rational-thought/avoiding-logical-fallacies/", "prompt-4"): {
+        "heading": "Cleaner ways to introduce an analogy",
+    },
+    ("/rational-thought/calculating-risks/", "prompt-2"): {
+        "heading": "How emotion and bias distort risk assessment",
+    },
+    ("/rational-thought/depth-or-width-of-knowledge/", "prompt-3"): {
+        "heading": "Which disciplines reward breadth and which reward depth",
+    },
+    ("/philosophy-of-science/methodological-naturalism/", "prompt-4"): {
+        "heading": "Historical cases where supernatural explanations lost explanatory ground",
+    },
     ("/philosophy-of-science/the-value-of-surveys/", "prompt-5"): {
         "heading": "Phone surveys on romance are hard because privacy, vocabulary, and performance all distort the result.",
     },
@@ -15040,6 +15193,56 @@ def prompt_surface_text(prompt: str) -> str:
     return cleaned
 
 
+def command_prompt_heading_phrase(prompt: str, topic: str) -> str:
+    cleaned = prompt_surface_text(prompt).strip(" .?")
+    if not cleaned:
+        return topic
+
+    replacements = [
+        (r"^provide a profile of (.+?) and .+$", r"Profile of \1"),
+        (r"^provide a short paragraph explaining (.+)$", r"\1"),
+        (r"^provide an extensive list of (.+?) along with .+$", r"\1"),
+        (r"^provide (?:\d+|one|two|three|four|five|six|seven|eight|nine|ten|several|many|a few) hypothetical scientific studies and the confounding factors.+$", "Hypothetical studies and their confounding factors"),
+        (r"^provide (?:your )?own assessment of (.+?), then assess .+$", r"Assessing \1"),
+        (r"^provide (?:the )?background of (.+)$", r"Background of \1"),
+        (r"^do a deep dive into (.+?), augmented by other relevant sources.+$", r"The primary arguments about \1"),
+        (r"^document and report (.+)$", r"\1"),
+        (r"^discuss the plausibility of (.+)$", r"The plausibility of \1"),
+        (r"^discuss the rise and current status of (.+)$", r"The rise and current status of \1"),
+        (r"^discuss the (.+)$", r"\1"),
+        (r"^comment on (.+)$", r"\1"),
+        (r"^elaborate on (.+)$", r"\1"),
+        (r"^list the possible causes behind (.+)$", r"The causes behind \1"),
+        (r"^list the key terms in (.+)$", r"Key terms in \1"),
+        (r"^list (.+)$", r"\1"),
+        (r"^create a table that (.+)$", r"\1"),
+        (r"^create a table of (.+)$", r"\1"),
+        (r"^present a table showing (.+)$", r"\1"),
+    ]
+    for pattern, replacement in replacements:
+        match = re.match(pattern, cleaned, flags=re.IGNORECASE)
+        if not match:
+            continue
+        candidate = match.expand(replacement) if "\\" in replacement else replacement
+        candidate = clean_text(candidate).strip(" .")
+        if candidate:
+            return compact_text(candidate, 88).rstrip(".")
+
+    fallback = re.sub(
+        r"^(provide|discuss|document|report|comment on|elaborate on|explain|create|present|list|outline|summarize|analyze|assess|evaluate)\s+",
+        "",
+        cleaned,
+        flags=re.IGNORECASE,
+    )
+    fallback = re.sub(r"^(and|the)\s+", "", fallback, flags=re.IGNORECASE)
+    fallback = clean_text(fallback).strip(" .")
+    if not fallback:
+        return topic
+    if fallback[0].islower():
+        fallback = fallback[:1].upper() + fallback[1:]
+    return compact_text(fallback, 88).rstrip(".")
+
+
 def distilled_prompt_heading(prompt: str, topic: str) -> str:
     cleaned = prompt_surface_text(prompt).strip(" .")
     if not cleaned:
@@ -15244,7 +15447,12 @@ def promote_prompt_faithful_heading(
     if not candidate or heading_norm(candidate) == heading_norm(heading):
         return heading
     if command_like_key(candidate):
-        return heading
+        if not current_batch_page:
+            return heading
+        command_candidate = clean_text(command_prompt_heading_phrase(prompt, topic)).strip()
+        if not command_candidate or command_like_key(command_candidate):
+            return heading
+        candidate = command_candidate
     if heading_norm(candidate) == heading_norm(topic):
         return heading
     question_like = bool(
@@ -15278,7 +15486,7 @@ def command_like_key(text: str) -> bool:
     lowered = clean_text(text).lower()
     return bool(
         re.match(
-            r"^(analyze|argue|assess|clarify|comment|compare|contrast|construct|define|demonstrate|describe|discuss|elaborate|enumerate|evaluate|expound|give|highlight|identify|imagine|list|offer|outline|present|produce|provide|rank|reformulate|restate|score|show|summarize|using|write|generate|line hypothetical)\b",
+            r"^(analyze|argue|assess|clarify|comment|compare|contrast|construct|define|demonstrate|describe|discuss|document|elaborate|enumerate|evaluate|expound|give|highlight|identify|imagine|list|offer|outline|present|produce|provide|rank|reformulate|restate|report|score|show|summarize|using|write|generate|line hypothetical)\b",
             lowered,
         )
         or "the central pressure" in lowered
@@ -15601,7 +15809,7 @@ def prompt_response_paragraphs(page: dict, prompt: str, index: int, detail: dict
         }
         paragraphs = [focus_openers.get(focus, focus_openers["inquiry"])]
         if claim and not source_sentence_is_incomplete(claim):
-            paragraphs.append(f"The source claim is basically this: {claim}")
+            paragraphs.append(f"At the center is a simpler claim: {claim}")
         elif current_labels:
             paragraphs.append(
                 f"The useful distinctions here run through {label_text}. Those parts matter because they do different explanatory work inside {topic}."
@@ -15609,8 +15817,7 @@ def prompt_response_paragraphs(page: dict, prompt: str, index: int, detail: dict
         if current_labels:
             if len(current_labels) >= 2:
                 paragraphs.append(
-                    f"Keep {current_labels[0]} and {current_labels[1]} separate long enough for the reader to see what each contributes. "
-                    "Once those roles blur together, the page starts sounding smoother while becoming less usable."
+                    f"{current_labels[0]} and {current_labels[1]} need to stay distinct here, because they answer different questions and carry different explanatory weight."
                 )
             else:
                 paragraphs.append(
@@ -16353,7 +16560,7 @@ def intermediate_reader_paragraph(page: dict, prompt: str, focus: str) -> str:
             "metaphysics": "Ask whether the page is claiming existence, dependence, possibility, or just a tempting way of talking.",
         }
         return (
-            f"Treat {label_text} as working parts rather than polished terminology. "
+            f"Read {label_text} as separate levers in the argument rather than as polished terminology. "
             f"{branch_guides.get(section_id, profile['pressure'])}"
         )
     if section_id == "philosophers":
@@ -16531,7 +16738,7 @@ def reader_test_paragraph(page: dict, prompt: str, focus: str) -> str:
             "examples": "The example should make the abstraction easier to use and harder to misuse.",
         }
         return (
-            f"A useful exit test is whether the reader can take {key_text} into a neighboring case without needing the whole page repeated. "
+            f"A stronger reader should be able to carry {key_text} into a neighboring case without needing the whole page repeated. "
             f"{focus_tests.get(focus, 'The section should leave behind a practical contrast, question, or warning sign that still works outside this one discussion.')} "
             f"That is what keeps the page connected to {profile['lens']} rather than turning it into polished recap."
         )
@@ -16665,6 +16872,10 @@ def detail_specific_learning_item(page: dict, prompt: str, detail: dict | None, 
     if discussion_text and discussion_text[0].isupper():
         discussion_text = discussion_text[:1].lower() + discussion_text[1:]
     if detail and detail.get("tables"):
+        if is_current_editorial_batch_page(page) and page["section_id"] != "philosophers":
+            return (
+                f"Use the table to see which comparisons genuinely matter for {focus_key}; the contrast should teach more than any isolated cell."
+            )
         return (
             f"Read the table as an argument about {focus_key}: the contrast among {label_text or 'the columns'} "
             "should teach more than any single cell."
@@ -16672,6 +16883,10 @@ def detail_specific_learning_item(page: dict, prompt: str, detail: dict | None, 
     if detail and len(detail.get("dialogue_turns", [])) >= 4:
         turns = dialogue_learning_terms(detail)
         turn_text = serial_join(turns[:3])
+        if is_current_editorial_batch_page(page) and page["section_id"] != "philosophers":
+            return (
+                f"Use the exchange to track where the claim sharpens, overreaches, or has to retreat; {turn_text or 'the turns'} should move the reasoning forward."
+            )
         return (
             f"The exchange works only if its movement through {turn_text or 'claim, objection, and reply'} "
             "keeps bringing the issue into clearer focus. Each move should add pressure, clarity, or resistance, not just make the page longer."
@@ -16952,6 +17167,42 @@ def branch_checkpoints(page: dict, prompt: str, detail: dict | None, focus: str,
     return checks
 
 
+def current_batch_checkpoints(page: dict, prompt: str, detail: dict | None, focus: str, focus_key: str) -> list[str]:
+    section_id = page["section_id"]
+    labels = current_batch_learning_labels(page, prompt, detail, 3)
+    label_text = serial_join(labels) or focus_key
+    first_by_focus = {
+        "definition": f"Make the boundary usable: {focus_key} should help the reader sort a live borderline case.",
+        "mapping": f"Follow the structure: {label_text} should reveal which part does the main explanatory work.",
+        "examples": f"Let the example carry weight: it should show where {focus_key} becomes clearer or harder to defend in practice.",
+        "argument": f"Find the load-bearing move: the section should make clear which premise about {focus_key} matters most.",
+        "description": f"Use the description to orient attention: {label_text} should teach the reader what to notice first.",
+        "inquiry": f"Leave the reader with a sharper question about {focus_key}, not just a cleaner paraphrase.",
+    }
+    if detail and detail.get("tables"):
+        second = f"Let the table do comparative work: the important contrast around {focus_key} should become easier to see at a glance."
+    elif detail and len(detail.get("dialogue_turns", [])) >= 4:
+        second = f"Track the movement in the exchange: {label_text} should show where the reasoning gains support and where it still strains."
+    else:
+        second = f"Notice what changes if {label_text} are rearranged, weakened, or removed; that is usually where the real structure becomes visible."
+    third_by_section = {
+        "philosophical-inquiry": "Keep the revision test alive; a truth-seeking page should still show what would force a change of mind.",
+        "epistemology": "Watch how the section calibrates confidence rather than merely defending a conclusion.",
+        "rational-thought": "Look for a habit you could carry into the next real disagreement or decision.",
+        "philosophy-of-science": "Pay attention to where error-correction enters the picture: method, evidence, replication, or restraint.",
+        "philosophy-of-language": "Watch how wording changes the thought-space; the linguistic move is usually doing more than it first appears.",
+        "philosophy-of-mind": "Keep first-person experience and public explanation in view without letting either do all the work.",
+        "philosophy-of-ai": "Separate fluent framing from earned warrant; polished language can still outrun justification.",
+        "political-philosophy": "Keep the institutional claim tied to actual people living under the arrangement being defended.",
+        "miscellany": "Use the side path to sharpen the main question rather than letting the page drift into mere curiosity.",
+    }
+    return [
+        first_by_focus.get(focus, first_by_focus["inquiry"]),
+        second,
+        third_by_section.get(section_id, "Keep the page tied to a judgment a reader could actually use outside this one discussion."),
+    ]
+
+
 def pedagogical_checkpoints(page: dict, prompt: str, detail: dict | None) -> list[str]:
     topic = topic_label(page["title"])
     focus = prompt_focus(prompt)
@@ -16962,6 +17213,8 @@ def pedagogical_checkpoints(page: dict, prompt: str, detail: dict | None) -> lis
     if command_like_key(key):
         key = hooks[0] if hooks else "the central issue"
     focus_key = topic if key in {"the central issue", "the central question"} else key
+    if is_current_editorial_batch_page(page) and page["section_id"] != "philosophers":
+        return current_batch_checkpoints(page, prompt, detail, focus, focus_key)
 
     curated_hooks = TOPIC_ITEMS.get(page["title"], []) or TOPIC_ITEMS.get(topic, [])
     learning_hooks: list[str] = list(curated_hooks[:3])
@@ -17162,7 +17415,7 @@ def worked_example_paragraph(page: dict, prompt: str, detail: dict | None, focus
                 "That is where the reasoning either earns its conclusion or reveals the missing step."
             )
         return (
-            f"Bring the issue into an ordinary decision. What would someone notice sooner, question more carefully, or stop assuming once {current_label_text} are handled with more precision?"
+            f"Put the issue into a live setting. What would someone notice sooner, question more carefully, or stop assuming once {current_label_text} are handled with more precision?"
         )
     if page["section_id"] == "philosophers":
         family = philosopher_prompt_family(page, prompt)
@@ -17286,6 +17539,8 @@ def trim_current_batch_editorial_boilerplate(paragraphs: list[str]) -> list[str]
         return paragraphs
 
     removable_prefixes = (
+        "Read the section by contrast:",
+        "Keep ",
         "The first move should give the reader",
         "This middle step ",
         "The earlier sections should already",
@@ -17293,15 +17548,70 @@ def trim_current_batch_editorial_boilerplate(paragraphs: list[str]) -> list[str]
         "The next move should feel earned.",
         "For an intermediate reader, ",
         "At this level, ",
+        "A fair pushback is",
+        "A fair question is why this map is needed",
+        "Treat ",
+        "One honest test after reading is whether",
+        "A useful exit test is whether",
     )
     filtered: list[str] = []
     for paragraph in paragraphs:
-        if len(paragraphs) - len(filtered) > 4 and paragraph.startswith(removable_prefixes):
+        stripped = paragraph.strip()
+        if (
+            len(paragraphs) - len(filtered) > 4
+            and (
+                stripped.startswith(removable_prefixes)
+                or stripped.endswith("as the page's working clues. Each should help the reader see something, not just add another label.")
+            )
+        ):
             continue
         filtered.append(paragraph)
     if len(filtered) >= 4:
         return filtered[:6]
     return paragraphs[:6]
+
+
+def trim_current_batch_support_items(list_items: list[str]) -> list[str]:
+    def normalized_support_text(item: str) -> str:
+        return clean_text(strip_html(item))
+
+    def strip_tail(item: str) -> str:
+        cleaned = normalized_support_text(item)
+        for marker in (
+            ". This matters only if",
+            ". This is not just a label",
+            ". The point is not",
+            ". This matters because",
+        ):
+            if marker in cleaned:
+                return cleaned.split(marker, 1)[0] + "."
+        return cleaned
+
+    removable_prefixes = (
+        "Central distinction:",
+        "Best charitable version:",
+        "Pressure point:",
+        "Future branch:",
+        "The central distinction:",
+        "The strongest charitable version:",
+        "The main pressure point:",
+        "The neighboring question:",
+        "Reasoning structure:",
+        "Failure mode:",
+        "Correction method:",
+        "Transfer test:",
+        "Reader lesson:",
+    )
+    normalized_items = dedupe([strip_tail(item) for item in list_items if strip_tail(item)])
+    filtered = [item for item in normalized_items if not normalized_support_text(item).startswith(removable_prefixes)]
+    if filtered:
+        return filtered[:6]
+    if normalized_items and all(
+        normalized_support_text(item).startswith(removable_prefixes)
+        for item in normalized_items
+    ):
+        return []
+    return normalized_items[:6]
 
 
 def editorial_polish_content(
@@ -17327,6 +17637,8 @@ def editorial_polish_content(
             break
         polished_items.append(enrich_support_item(item, page, prompt, focus) or item)
         polished_items = dedupe(polished_items)
+    if current_batch_page:
+        polished_items = trim_current_batch_support_items(polished_items)
 
     polished_paragraphs = list(paragraphs)
     if page["section_id"] == "philosophers":
@@ -17437,6 +17749,9 @@ def polish_review_content(
             f"That added pressure keeps the section from becoming a slogan. It should show how {topic} changes the reader's grip on {profile['lens']}, "
             "and it should leave behind a question, distinction, or objection worth carrying forward."
         )
+
+    if is_current_editorial_batch_page(page):
+        polished_items = trim_current_batch_support_items(polished_items)
 
     return polished_paragraphs[:6], polished_items[:6]
 
@@ -17781,6 +18096,8 @@ def source_prompt_sections(page: dict, prompts: list[str]) -> list[dict]:
             paragraphs,
             list_items,
         )
+        if is_current_editorial_batch_page(page):
+            list_items = trim_current_batch_support_items(list_items)
         quality = quality_assessment(page, prompt, detail_for_section, paragraphs, list_items, hand_polished)
         if quality["needsReview"] or quality["score"] < 85:
             paragraphs, list_items = polish_review_content(page, prompt, detail, paragraphs, list_items)
@@ -17799,6 +18116,8 @@ def source_prompt_sections(page: dict, prompts: list[str]) -> list[dict]:
                 paragraphs,
                 list_items,
             )
+            if is_current_editorial_batch_page(page):
+                list_items = trim_current_batch_support_items(list_items)
             quality = quality_assessment(page, prompt, detail_for_section, paragraphs, list_items, hand_polished)
         sections.append(
             {
@@ -20021,8 +20340,11 @@ def render_article_page(page: dict) -> str:
             block.append(render_dialogue_card(section["dialogue_turns"], speaker_reference))
         if section.get("comparison_tables"):
             block.append(render_comparison_tables(section["comparison_tables"]))
-        if section.get("list_items"):
-            block.append(render_list_section(section["list_items"]))
+        list_items = list(section.get("list_items", []))
+        if is_current_editorial_batch_page(page):
+            list_items = trim_current_batch_support_items(list_items)
+        if list_items:
+            block.append(render_list_section(list_items))
         if section.get("question_items"):
             block.append(render_list_section(section["question_items"]))
         learning_items = section.get("learning_items") or pedagogical_checkpoints(
