@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-06-22",
+  "generatedAt": "2026-06-23",
   "batchSize": 50,
   "protocol": {
     "readFirst": "quality/editorial-audit-tracker.json",
@@ -24,63 +24,62 @@
       "polish": 396,
       "review": 46
     },
-    "pagesRemainingInCurrentCycle": 82,
+    "pagesRemainingInCurrentCycle": 32,
     "batchSize": 50,
     "estimatedBatchesPerCycle": 11
   },
   "cursor": {
     "cycle": 1,
-    "currentPageIndex": 446,
-    "nextPagePath": "/philosophy-of-mind/iq-intelligence-quotient/",
-    "nextPageTitle": "IQ – Intelligence Quotient",
-    "lastAdvancedAt": "2026-06-22",
+    "currentPageIndex": 496,
+    "nextPagePath": "/epistemology/types-of-knowing/",
+    "nextPageTitle": "Types of Knowing",
+    "lastAdvancedAt": "2026-06-23",
     "lastCompletedBatch": {
-      "completedAt": "2026-06-22",
+      "completedAt": "2026-06-23",
       "cycle": 1,
-      "startIndex": 396,
-      "endIndexExclusive": 446,
+      "startIndex": 446,
+      "endIndexExclusive": 496,
       "pageCount": 50,
       "wrappedToNextCycle": false,
-      "firstPagePath": "/metaphysics/objectively-subjectively-real/",
-      "lastPagePath": "/philosophy-of-mind/iq-evolution/"
+      "firstPagePath": "/philosophy-of-mind/iq-intelligence-quotient/",
+      "lastPagePath": "/epistemology/the-web-of-induction/"
     }
   },
   "currentBatch": {
     "cycle": 1,
-    "startIndex": 446,
-    "endIndexExclusive": 496,
-    "pageCount": 50,
-    "wrapsToNextCycle": false,
+    "startIndex": 496,
+    "endIndexExclusive": 528,
+    "pageCount": 32,
+    "wrapsToNextCycle": true,
     "priorityCounts": {
-      "polish": 50
+      "polish": 32
     },
     "pages": [
       {
-        "queueIndex": 447,
-        "sectionName": "Philosophy of Mind",
-        "pageTitle": "IQ – Intelligence Quotient",
-        "pagePath": "/philosophy-of-mind/iq-intelligence-quotient/",
+        "queueIndex": 497,
+        "sectionName": "Epistemology",
+        "pageTitle": "Types of Knowing",
+        "pagePath": "/epistemology/types-of-knowing/",
         "priorityBand": "polish",
         "worstScore": 100,
         "averageScore": 100.0,
-        "totalPromptSections": 3,
+        "totalPromptSections": 2,
         "needsReviewCount": 0,
         "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
+        "polishOpportunityCount": 2,
         "editorialIssues": [],
         "attentionSummary": [
-          "3 prompt sections are polish opportunities"
+          "2 prompt sections are polish opportunities"
         ],
         "focusAnchors": [
           "prompt-1",
-          "prompt-2",
-          "prompt-3"
+          "prompt-2"
         ],
         "focusSections": [
           {
             "anchor": "prompt-1",
-            "url": "/philosophy-of-mind/iq-intelligence-quotient/#prompt-1",
-            "heading": "What IQ tests capture well and what they miss",
+            "url": "/epistemology/types-of-knowing/#prompt-1",
+            "heading": "The main kinds of knowledge philosophers distinguish",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
@@ -90,19 +89,8 @@
           },
           {
             "anchor": "prompt-2",
-            "url": "/philosophy-of-mind/iq-intelligence-quotient/#prompt-2",
-            "heading": "The real issue is what Improper Uses of IQ changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/philosophy-of-mind/iq-intelligence-quotient/#prompt-3",
-            "heading": "The map of Impact of IQ on Aspects of Adult Life becomes useful once the parts stop doing different work.",
+            "url": "/epistemology/types-of-knowing/#prompt-2",
+            "heading": "The real issue is what GEMINI Structured Comparison changes once it becomes precise.",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
@@ -113,31 +101,30 @@
         ]
       },
       {
-        "queueIndex": 448,
-        "sectionName": "Philosophy of Mind",
-        "pageTitle": "Knowledge & Cognition Asymmetry",
-        "pagePath": "/philosophy-of-mind/knowledge-cognition-asymmetry/",
+        "queueIndex": 498,
+        "sectionName": "Epistemology",
+        "pageTitle": "Types of Reasoning",
+        "pagePath": "/epistemology/types-of-reasoning/",
         "priorityBand": "polish",
         "worstScore": 100,
         "averageScore": 100.0,
-        "totalPromptSections": 3,
+        "totalPromptSections": 2,
         "needsReviewCount": 0,
         "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
+        "polishOpportunityCount": 2,
         "editorialIssues": [],
         "attentionSummary": [
-          "3 prompt sections are polish opportunities"
+          "2 prompt sections are polish opportunities"
         ],
         "focusAnchors": [
           "prompt-1",
-          "prompt-2",
-          "prompt-3"
+          "prompt-2"
         ],
         "focusSections": [
           {
             "anchor": "prompt-1",
-            "url": "/philosophy-of-mind/knowledge-cognition-asymmetry/#prompt-1",
-            "heading": "Can the human mind keep up with its own growing knowledge base?",
+            "url": "/epistemology/types-of-reasoning/#prompt-1",
+            "heading": "Deduction, induction, and abduction do different jobs",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
@@ -147,19 +134,8 @@
           },
           {
             "anchor": "prompt-2",
-            "url": "/philosophy-of-mind/knowledge-cognition-asymmetry/#prompt-2",
-            "heading": "The real issue is what Knowledge & Cognition Asymmetry changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/philosophy-of-mind/knowledge-cognition-asymmetry/#prompt-3",
-            "heading": "The real issue is what Neuronal/Silicon Interface Solutions to Cognitive Asymmetry changes once it becomes precise.",
+            "url": "/epistemology/types-of-reasoning/#prompt-2",
+            "heading": "The real issue is what Case Studies Utilizing Deductive, Inductive, and Abductive Reasoning changes once it becomes precise.",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
@@ -170,31 +146,30 @@
         ]
       },
       {
-        "queueIndex": 449,
-        "sectionName": "Philosophy of Mind",
-        "pageTitle": "Mother in My Brain",
-        "pagePath": "/philosophy-of-mind/mother-in-my-brain/",
+        "queueIndex": 499,
+        "sectionName": "Epistemology",
+        "pageTitle": "What is Epistemic Updating?",
+        "pagePath": "/epistemology/what-is-epistemic-updating/",
         "priorityBand": "polish",
         "worstScore": 100,
         "averageScore": 100.0,
-        "totalPromptSections": 3,
+        "totalPromptSections": 2,
         "needsReviewCount": 0,
         "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
+        "polishOpportunityCount": 2,
         "editorialIssues": [],
         "attentionSummary": [
-          "3 prompt sections are polish opportunities"
+          "2 prompt sections are polish opportunities"
         ],
         "focusAnchors": [
           "prompt-1",
-          "prompt-2",
-          "prompt-3"
+          "prompt-2"
         ],
         "focusSections": [
           {
             "anchor": "prompt-1",
-            "url": "/philosophy-of-mind/mother-in-my-brain/#prompt-1",
-            "heading": "Why not finding thoughts in the brain does not make them spiritual",
+            "url": "/epistemology/what-is-epistemic-updating/#prompt-1",
+            "heading": "What is epistemic updating?",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
@@ -204,19 +179,8 @@
           },
           {
             "anchor": "prompt-2",
-            "url": "/philosophy-of-mind/mother-in-my-brain/#prompt-2",
-            "heading": "The real issue is what Neurons and Basic Neural Activity changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/philosophy-of-mind/mother-in-my-brain/#prompt-3",
-            "heading": "The real issue is what Natural Explanations for Mysterious Phenomena changes once it becomes precise.",
+            "url": "/epistemology/what-is-epistemic-updating/#prompt-2",
+            "heading": "The real issue is what Medical Diagnosis and Treatment changes once it becomes precise.",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
@@ -227,31 +191,30 @@
         ]
       },
       {
-        "queueIndex": 450,
-        "sectionName": "Philosophy of Mind",
-        "pageTitle": "Neurotypical & Neurodivergent Minds",
-        "pagePath": "/philosophy-of-mind/neurotypical-neurodivergent-minds/",
+        "queueIndex": 500,
+        "sectionName": "Ethics",
+        "pageTitle": "A History of Golden Rules",
+        "pagePath": "/ethics/a-history-of-golden-rules/",
         "priorityBand": "polish",
         "worstScore": 100,
         "averageScore": 100.0,
-        "totalPromptSections": 3,
+        "totalPromptSections": 2,
         "needsReviewCount": 0,
         "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
+        "polishOpportunityCount": 2,
         "editorialIssues": [],
         "attentionSummary": [
-          "3 prompt sections are polish opportunities"
+          "2 prompt sections are polish opportunities"
         ],
         "focusAnchors": [
           "prompt-1",
-          "prompt-2",
-          "prompt-3"
+          "prompt-2"
         ],
         "focusSections": [
           {
             "anchor": "prompt-1",
-            "url": "/philosophy-of-mind/neurotypical-neurodivergent-minds/#prompt-1",
-            "heading": "How much weight should we put on the neurotypical-neurodivergent comparison?",
+            "url": "/ethics/a-history-of-golden-rules/#prompt-1",
+            "heading": "What are the factors that make the emergence of a Golden Rule very likely in any civilization?",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
@@ -261,19 +224,8 @@
           },
           {
             "anchor": "prompt-2",
-            "url": "/philosophy-of-mind/neurotypical-neurodivergent-minds/#prompt-2",
-            "heading": "The real issue is what Neurotypical & Neurodivergent Minds changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/philosophy-of-mind/neurotypical-neurodivergent-minds/#prompt-3",
-            "heading": "Differences between Neurotypical and Neurodivergent Minds matters only if it survives the strongest pressure against it.",
+            "url": "/ethics/a-history-of-golden-rules/#prompt-2",
+            "heading": "The real issue is what The Need for Balance changes once it becomes precise.",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
@@ -284,31 +236,30 @@
         ]
       },
       {
-        "queueIndex": 451,
-        "sectionName": "Philosophy of Mind",
-        "pageTitle": "Subjectivity Constrained by the Objective",
-        "pagePath": "/philosophy-of-mind/subjectivity-constrained-by-the-objective/",
+        "queueIndex": 501,
+        "sectionName": "Ethics",
+        "pageTitle": "Essay: Moral Anti-Realism",
+        "pagePath": "/ethics/essay-moral-anti-realism/",
         "priorityBand": "polish",
         "worstScore": 100,
         "averageScore": 100.0,
-        "totalPromptSections": 3,
+        "totalPromptSections": 2,
         "needsReviewCount": 0,
         "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
+        "polishOpportunityCount": 2,
         "editorialIssues": [],
         "attentionSummary": [
-          "3 prompt sections are polish opportunities"
+          "2 prompt sections are polish opportunities"
         ],
         "focusAnchors": [
           "prompt-1",
-          "prompt-2",
-          "prompt-3"
+          "prompt-2"
         ],
         "focusSections": [
           {
             "anchor": "prompt-1",
-            "url": "/philosophy-of-mind/subjectivity-constrained-by-the-objective/#prompt-1",
-            "heading": "How objective reality constrains subjective experience",
+            "url": "/ethics/essay-moral-anti-realism/#prompt-1",
+            "heading": "Moral anti-realism has to explain conscience without inventing moral facts",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
@@ -318,19 +269,8 @@
           },
           {
             "anchor": "prompt-2",
-            "url": "/philosophy-of-mind/subjectivity-constrained-by-the-objective/#prompt-2",
-            "heading": "The real issue is what Flexibility and Exploratory Nature of Subjectivity changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/philosophy-of-mind/subjectivity-constrained-by-the-objective/#prompt-3",
-            "heading": "The real issue is what Subjectivity Constrained by the Objective changes once it becomes precise.",
+            "url": "/ethics/essay-moral-anti-realism/#prompt-2",
+            "heading": "The dialogue matters because it tests Moral realism in public.",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
@@ -341,31 +281,30 @@
         ]
       },
       {
-        "queueIndex": 452,
-        "sectionName": "Philosophy of Mind",
-        "pageTitle": "The Chemical Basis of Happiness",
-        "pagePath": "/philosophy-of-mind/the-chemical-basis-of-happiness/",
+        "queueIndex": 502,
+        "sectionName": "Ethics",
+        "pageTitle": "Meta-Ethics Focus #1",
+        "pagePath": "/ethics/meta-ethics-focus-1/",
         "priorityBand": "polish",
         "worstScore": 100,
         "averageScore": 100.0,
-        "totalPromptSections": 3,
+        "totalPromptSections": 2,
         "needsReviewCount": 0,
         "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
+        "polishOpportunityCount": 2,
         "editorialIssues": [],
         "attentionSummary": [
-          "3 prompt sections are polish opportunities"
+          "2 prompt sections are polish opportunities"
         ],
         "focusAnchors": [
           "prompt-1",
-          "prompt-2",
-          "prompt-3"
+          "prompt-2"
         ],
         "focusSections": [
           {
             "anchor": "prompt-1",
-            "url": "/philosophy-of-mind/the-chemical-basis-of-happiness/#prompt-1",
-            "heading": "How much of happiness can be explained chemically?",
+            "url": "/ethics/meta-ethics-focus-1/#prompt-1",
+            "heading": "If the agent does not grasp the moral fact, intent alone may not rescue culpability",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
@@ -375,19 +314,8 @@
           },
           {
             "anchor": "prompt-2",
-            "url": "/philosophy-of-mind/the-chemical-basis-of-happiness/#prompt-2",
-            "heading": "The real issue is what Gratitude and Appreciation changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/philosophy-of-mind/the-chemical-basis-of-happiness/#prompt-3",
-            "heading": "The real issue is what Effects of the Six Neurotransmitters changes once it becomes precise.",
+            "url": "/ethics/meta-ethics-focus-1/#prompt-2",
+            "heading": "The real issue is what Implications for Moral Culpability changes once it becomes precise.",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
@@ -398,31 +326,30 @@
         ]
       },
       {
-        "queueIndex": 453,
-        "sectionName": "Philosophy of Mind",
-        "pageTitle": "The Inertia of Comfort",
-        "pagePath": "/philosophy-of-mind/the-inertia-of-comfort/",
+        "queueIndex": 503,
+        "sectionName": "Ethics",
+        "pageTitle": "Meta-Ethics Focus #2",
+        "pagePath": "/ethics/meta-ethics-focus-2/",
         "priorityBand": "polish",
         "worstScore": 100,
         "averageScore": 100.0,
-        "totalPromptSections": 3,
+        "totalPromptSections": 2,
         "needsReviewCount": 0,
         "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
+        "polishOpportunityCount": 2,
         "editorialIssues": [],
         "attentionSummary": [
-          "3 prompt sections are polish opportunities"
+          "2 prompt sections are polish opportunities"
         ],
         "focusAnchors": [
           "prompt-1",
-          "prompt-2",
-          "prompt-3"
+          "prompt-2"
         ],
         "focusSections": [
           {
             "anchor": "prompt-1",
-            "url": "/philosophy-of-mind/the-inertia-of-comfort/#prompt-1",
-            "heading": "Does comfort really resist personal and social change?",
+            "url": "/ethics/meta-ethics-focus-2/#prompt-1",
+            "heading": "Agreement without shared grounding does not yet give you a moral fact",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
@@ -432,19 +359,8 @@
           },
           {
             "anchor": "prompt-2",
-            "url": "/philosophy-of-mind/the-inertia-of-comfort/#prompt-2",
-            "heading": "The Inertia of Comfort matters only if it survives the strongest pressure against it.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/philosophy-of-mind/the-inertia-of-comfort/#prompt-3",
-            "heading": "The real issue is what Voluntary Pursuits of Challenge changes once it becomes precise.",
+            "url": "/ethics/meta-ethics-focus-2/#prompt-2",
+            "heading": "Meta-Ethics Focus #2 requires sharper edges before the distinction can guide judgment.",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
@@ -455,31 +371,30 @@
         ]
       },
       {
-        "queueIndex": 454,
-        "sectionName": "Philosophy of Mind",
-        "pageTitle": "The Schizophrenic Mind",
-        "pagePath": "/philosophy-of-mind/the-schizophrenic-mind/",
+        "queueIndex": 504,
+        "sectionName": "Ethics",
+        "pageTitle": "Torturing Babies",
+        "pagePath": "/ethics/torturing-babies/",
         "priorityBand": "polish",
         "worstScore": 100,
         "averageScore": 100.0,
-        "totalPromptSections": 3,
+        "totalPromptSections": 2,
         "needsReviewCount": 0,
         "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
+        "polishOpportunityCount": 2,
         "editorialIssues": [],
         "attentionSummary": [
-          "3 prompt sections are polish opportunities"
+          "2 prompt sections are polish opportunities"
         ],
         "focusAnchors": [
           "prompt-1",
-          "prompt-2",
-          "prompt-3"
+          "prompt-2"
         ],
         "focusSections": [
           {
             "anchor": "prompt-1",
-            "url": "/philosophy-of-mind/the-schizophrenic-mind/#prompt-1",
-            "heading": "What tactics do schizophrenics use to assess whether what they see is real or hallucinatory?",
+            "url": "/ethics/torturing-babies/#prompt-1",
+            "heading": "Emotional horror and moral objectivity are not the same claim",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
@@ -489,19 +404,8 @@
           },
           {
             "anchor": "prompt-2",
-            "url": "/philosophy-of-mind/the-schizophrenic-mind/#prompt-2",
-            "heading": "The real issue is what The Schizophrenic Mind changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/philosophy-of-mind/the-schizophrenic-mind/#prompt-3",
-            "heading": "The real issue is what Continuous Learning and Adaptation changes once it becomes precise.",
+            "url": "/ethics/torturing-babies/#prompt-2",
+            "heading": "The real issue is what Addressing Counters to AI Responses on Tom’s Position changes once it becomes precise.",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
@@ -512,31 +416,30 @@
         ]
       },
       {
-        "queueIndex": 455,
-        "sectionName": "Philosophy of Science",
-        "pageTitle": "Bimodal Distributions",
-        "pagePath": "/philosophy-of-science/bimodal-distributions/",
+        "queueIndex": 505,
+        "sectionName": "Humanistic Philosophies",
+        "pageTitle": "Testing Prayer",
+        "pagePath": "/humanistic-philosophies/testing-prayer/",
         "priorityBand": "polish",
         "worstScore": 100,
         "averageScore": 100.0,
-        "totalPromptSections": 3,
+        "totalPromptSections": 2,
         "needsReviewCount": 0,
         "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
+        "polishOpportunityCount": 2,
         "editorialIssues": [],
         "attentionSummary": [
-          "3 prompt sections are polish opportunities"
+          "2 prompt sections are polish opportunities"
         ],
         "focusAnchors": [
           "prompt-1",
-          "prompt-2",
-          "prompt-3"
+          "prompt-2"
         ],
         "focusSections": [
           {
             "anchor": "prompt-1",
-            "url": "/philosophy-of-science/bimodal-distributions/#prompt-1",
-            "heading": "Bimodal Distributions require sharper edges before the distinction can guide judgment.",
+            "url": "/humanistic-philosophies/testing-prayer/#prompt-1",
+            "heading": "Would this prayer test actually distinguish a real god from an invented one?",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
@@ -546,19 +449,8 @@
           },
           {
             "anchor": "prompt-2",
-            "url": "/philosophy-of-science/bimodal-distributions/#prompt-2",
-            "heading": "The real issue is what Academic Performance Across Three Different Teaching Methods changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/philosophy-of-science/bimodal-distributions/#prompt-3",
-            "heading": "The real issue is what Bimodal Distributions changes once it becomes precise.",
+            "url": "/humanistic-philosophies/testing-prayer/#prompt-2",
+            "heading": "The real issue is what Analyzing Divine Concealment and the Role of Faith changes once it becomes precise.",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
@@ -569,31 +461,30 @@
         ]
       },
       {
-        "queueIndex": 456,
-        "sectionName": "Philosophy of Science",
-        "pageTitle": "Case #1 – Intelligence & Political Leanings",
-        "pagePath": "/philosophy-of-science/case-1-intelligence-political-leanings/",
+        "queueIndex": 506,
+        "sectionName": "Introduction",
+        "pageTitle": "Analogies to a Philosophical Life",
+        "pagePath": "/introduction/analogies-to-a-philosophical-life/",
         "priorityBand": "polish",
         "worstScore": 100,
         "averageScore": 100.0,
-        "totalPromptSections": 3,
+        "totalPromptSections": 2,
         "needsReviewCount": 0,
         "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
+        "polishOpportunityCount": 2,
         "editorialIssues": [],
         "attentionSummary": [
-          "3 prompt sections are polish opportunities"
+          "2 prompt sections are polish opportunities"
         ],
         "focusAnchors": [
           "prompt-1",
-          "prompt-2",
-          "prompt-3"
+          "prompt-2"
         ],
         "focusSections": [
           {
             "anchor": "prompt-1",
-            "url": "/philosophy-of-science/case-1-intelligence-political-leanings/#prompt-1",
-            "heading": "What else could explain the intelligence-and-leftism correlation?",
+            "url": "/introduction/analogies-to-a-philosophical-life/#prompt-1",
+            "heading": "A philosophical foundation is less ornament than structural support",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
@@ -603,19 +494,8 @@
           },
           {
             "anchor": "prompt-2",
-            "url": "/philosophy-of-science/case-1-intelligence-political-leanings/#prompt-2",
-            "heading": "The real issue is what Intelligence & Political Leanings changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/philosophy-of-science/case-1-intelligence-political-leanings/#prompt-3",
-            "heading": "The real issue is what Exploring Underlying Factors changes once it becomes precise.",
+            "url": "/introduction/analogies-to-a-philosophical-life/#prompt-2",
+            "heading": "The map of Books becomes useful once the parts stop doing different work.",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
@@ -626,42 +506,30 @@
         ]
       },
       {
-        "queueIndex": 457,
-        "sectionName": "Philosophy of Science",
-        "pageTitle": "Causal Chains",
-        "pagePath": "/philosophy-of-science/causal-chains/",
+        "queueIndex": 507,
+        "sectionName": "Introduction",
+        "pageTitle": "Scoring the Accessibility of Philosophical Content",
+        "pagePath": "/introduction/scoring-the-accessibility-of-philosophical-content/",
         "priorityBand": "polish",
         "worstScore": 100,
         "averageScore": 100.0,
         "totalPromptSections": 3,
         "needsReviewCount": 0,
         "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
+        "polishOpportunityCount": 2,
         "editorialIssues": [],
         "attentionSummary": [
-          "3 prompt sections are polish opportunities"
+          "2 prompt sections are polish opportunities"
         ],
         "focusAnchors": [
           "prompt-1",
-          "prompt-2",
           "prompt-3"
         ],
         "focusSections": [
           {
             "anchor": "prompt-1",
-            "url": "/philosophy-of-science/causal-chains/#prompt-1",
-            "heading": "Causal Chains require sharper edges before the distinction can guide judgment.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-2",
-            "url": "/philosophy-of-science/causal-chains/#prompt-2",
-            "heading": "A concrete case shows what Examples of Causal Chains in Scientific Experiments explains and where it strains.",
+            "url": "/introduction/scoring-the-accessibility-of-philosophical-content/#prompt-1",
+            "heading": "Accessibility matters because obscurity too often masquerades as depth",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
@@ -671,8 +539,8 @@
           },
           {
             "anchor": "prompt-3",
-            "url": "/philosophy-of-science/causal-chains/#prompt-3",
-            "heading": "The map of 12 Phenomena with Challenging Causal Chains becomes useful once the parts stop doing different work.",
+            "url": "/introduction/scoring-the-accessibility-of-philosophical-content/#prompt-3",
+            "heading": "The real issue is what Scoring the Accessibility of Philosophical Content changes once it becomes precise.",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
@@ -683,31 +551,30 @@
         ]
       },
       {
-        "queueIndex": 458,
-        "sectionName": "Philosophy of Science",
-        "pageTitle": "Correlation Is Not Causation",
-        "pagePath": "/philosophy-of-science/correlation-is-not-causation/",
+        "queueIndex": 508,
+        "sectionName": "Metaphysics",
+        "pageTitle": "Whence Logic?",
+        "pagePath": "/metaphysics/whence-logic/",
         "priorityBand": "polish",
         "worstScore": 100,
         "averageScore": 100.0,
-        "totalPromptSections": 3,
+        "totalPromptSections": 2,
         "needsReviewCount": 0,
         "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
+        "polishOpportunityCount": 2,
         "editorialIssues": [],
         "attentionSummary": [
-          "3 prompt sections are polish opportunities"
+          "2 prompt sections are polish opportunities"
         ],
         "focusAnchors": [
           "prompt-1",
-          "prompt-2",
-          "prompt-3"
+          "prompt-2"
         ],
         "focusSections": [
           {
             "anchor": "prompt-1",
-            "url": "/philosophy-of-science/correlation-is-not-causation/#prompt-1",
-            "heading": "Why correlation alone cannot establish causation",
+            "url": "/metaphysics/whence-logic/#prompt-1",
+            "heading": "The source of logic is not the same question as the source of human reasoning",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
@@ -717,19 +584,8 @@
           },
           {
             "anchor": "prompt-2",
-            "url": "/philosophy-of-science/correlation-is-not-causation/#prompt-2",
-            "heading": "The real issue is what Demonstrating Correlation changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/philosophy-of-science/correlation-is-not-causation/#prompt-3",
-            "heading": "The real issue is what Establishing Temporal Precedence changes once it becomes precise.",
+            "url": "/metaphysics/whence-logic/#prompt-2",
+            "heading": "The real issue is what An Explanation — How Logic Might Emerge from Subjective Minds changes once it becomes precise.",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
@@ -740,31 +596,30 @@
         ]
       },
       {
-        "queueIndex": 459,
-        "sectionName": "Philosophy of Science",
-        "pageTitle": "Demarcation for Scientific Laws",
-        "pagePath": "/philosophy-of-science/demarcation-for-scientific-laws/",
+        "queueIndex": 509,
+        "sectionName": "Philosophical Inquiry",
+        "pageTitle": "An Intellectually-Enriched and Diverse Environment",
+        "pagePath": "/philosophical-inquiry/an-intellectually-enriched-and-diverse-environment/",
         "priorityBand": "polish",
         "worstScore": 100,
         "averageScore": 100.0,
-        "totalPromptSections": 3,
+        "totalPromptSections": 2,
         "needsReviewCount": 0,
         "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
+        "polishOpportunityCount": 2,
         "editorialIssues": [],
         "attentionSummary": [
-          "3 prompt sections are polish opportunities"
+          "2 prompt sections are polish opportunities"
         ],
         "focusAnchors": [
           "prompt-1",
-          "prompt-2",
-          "prompt-3"
+          "prompt-2"
         ],
         "focusSections": [
           {
             "anchor": "prompt-1",
-            "url": "/philosophy-of-science/demarcation-for-scientific-laws/#prompt-1",
-            "heading": "At what threshold of inductive density do scientific regularities become scientific laws?",
+            "url": "/philosophical-inquiry/an-intellectually-enriched-and-diverse-environment/#prompt-1",
+            "heading": "How to build a better environment for truth-seeking",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
@@ -774,19 +629,8 @@
           },
           {
             "anchor": "prompt-2",
-            "url": "/philosophy-of-science/demarcation-for-scientific-laws/#prompt-2",
-            "heading": "The real issue is what Conventional Acceptance in Scientific Laws changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/philosophy-of-science/demarcation-for-scientific-laws/#prompt-3",
-            "heading": "The real issue is what Overturning Scientific Laws According to Thomas Kuhn changes once it becomes precise.",
+            "url": "/philosophical-inquiry/an-intellectually-enriched-and-diverse-environment/#prompt-2",
+            "heading": "The map of Online Communities for Philosophical Thought becomes useful once the parts stop doing different work.",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
@@ -797,31 +641,30 @@
         ]
       },
       {
-        "queueIndex": 460,
-        "sectionName": "Philosophy of Science",
-        "pageTitle": "Life vs Non-Life",
-        "pagePath": "/philosophy-of-science/life-vs-non-life/",
+        "queueIndex": 510,
+        "sectionName": "Philosophical Inquiry",
+        "pageTitle": "Dangers: Cognitive Biases",
+        "pagePath": "/philosophical-inquiry/dangers-cognitive-biases/",
         "priorityBand": "polish",
         "worstScore": 100,
         "averageScore": 100.0,
-        "totalPromptSections": 3,
+        "totalPromptSections": 2,
         "needsReviewCount": 0,
         "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
+        "polishOpportunityCount": 2,
         "editorialIssues": [],
         "attentionSummary": [
-          "3 prompt sections are polish opportunities"
+          "2 prompt sections are polish opportunities"
         ],
         "focusAnchors": [
           "prompt-1",
-          "prompt-2",
-          "prompt-3"
+          "prompt-2"
         ],
         "focusSections": [
           {
             "anchor": "prompt-1",
-            "url": "/philosophy-of-science/life-vs-non-life/#prompt-1",
-            "heading": "How definitive is the demarcation between biological life and non-life?",
+            "url": "/philosophical-inquiry/dangers-cognitive-biases/#prompt-1",
+            "heading": "Biases matter because they can impersonate careful thought.",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
@@ -831,19 +674,8 @@
           },
           {
             "anchor": "prompt-2",
-            "url": "/philosophy-of-science/life-vs-non-life/#prompt-2",
-            "heading": "The real issue is what Entities on the Border Between Life and Non-Life changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/philosophy-of-science/life-vs-non-life/#prompt-3",
-            "heading": "The Value of a Clear Distinction Between Life and Non-Life matters only if it survives the strongest pressure against it.",
+            "url": "/philosophical-inquiry/dangers-cognitive-biases/#prompt-2",
+            "heading": "A concrete case shows what Confirmation Bias in the Salem Witch Trials (1692) explains and where it strains.",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
@@ -854,31 +686,30 @@
         ]
       },
       {
-        "queueIndex": 461,
-        "sectionName": "Philosophy of Science",
-        "pageTitle": "Overfitting in Scientific Models",
-        "pagePath": "/philosophy-of-science/overfitting-in-scientific-models/",
+        "queueIndex": 511,
+        "sectionName": "Philosophical Inquiry",
+        "pageTitle": "Dangers: Logical Fallacies",
+        "pagePath": "/philosophical-inquiry/dangers-logical-fallacies/",
         "priorityBand": "polish",
         "worstScore": 100,
         "averageScore": 100.0,
-        "totalPromptSections": 3,
+        "totalPromptSections": 2,
         "needsReviewCount": 0,
         "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
+        "polishOpportunityCount": 2,
         "editorialIssues": [],
         "attentionSummary": [
-          "3 prompt sections are polish opportunities"
+          "2 prompt sections are polish opportunities"
         ],
         "focusAnchors": [
           "prompt-1",
-          "prompt-2",
-          "prompt-3"
+          "prompt-2"
         ],
         "focusSections": [
           {
             "anchor": "prompt-1",
-            "url": "/philosophy-of-science/overfitting-in-scientific-models/#prompt-1",
-            "heading": "What overfitting looks like in scientific models",
+            "url": "/philosophical-inquiry/dangers-logical-fallacies/#prompt-1",
+            "heading": "A map of common fallacies helps only if each trap keeps its own shape",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
@@ -888,19 +719,8 @@
           },
           {
             "anchor": "prompt-2",
-            "url": "/philosophy-of-science/overfitting-in-scientific-models/#prompt-2",
-            "heading": "A concrete case shows what Point-by-point one salient example of overfitting explains and where it strains.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/philosophy-of-science/overfitting-in-scientific-models/#prompt-3",
-            "heading": "A concrete case shows what Understanding Overfitting: A Simple Example explains and where it strains.",
+            "url": "/philosophical-inquiry/dangers-logical-fallacies/#prompt-2",
+            "heading": "A concrete case shows what False Dilemma in the Debate Over the League of Nations (1919-1920) explains and where it strains.",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
@@ -911,1228 +731,75 @@
         ]
       },
       {
-        "queueIndex": 462,
-        "sectionName": "Philosophy of Science",
-        "pageTitle": "Research Design Scenario #1",
-        "pagePath": "/philosophy-of-science/research-design-scenario-1/",
-        "priorityBand": "polish",
-        "worstScore": 100,
-        "averageScore": 100.0,
-        "totalPromptSections": 3,
-        "needsReviewCount": 0,
-        "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
-        "editorialIssues": [],
-        "attentionSummary": [
-          "3 prompt sections are polish opportunities"
-        ],
-        "focusAnchors": [
-          "prompt-1",
-          "prompt-2",
-          "prompt-3"
-        ],
-        "focusSections": [
-          {
-            "anchor": "prompt-1",
-            "url": "/philosophy-of-science/research-design-scenario-1/#prompt-1",
-            "heading": "How to design a rigorous cross-cultural study of marriage motives",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-2",
-            "url": "/philosophy-of-science/research-design-scenario-1/#prompt-2",
-            "heading": "A concrete case shows what Confirmation Bias in Analysis explains and where it strains.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/philosophy-of-science/research-design-scenario-1/#prompt-3",
-            "heading": "The real issue is what Engage Bilingual Experts with Cultural Knowledge changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          }
-        ]
-      },
-      {
-        "queueIndex": 463,
-        "sectionName": "Philosophy of Science",
-        "pageTitle": "Science and the Public",
-        "pagePath": "/philosophy-of-science/science-and-the-public/",
-        "priorityBand": "polish",
-        "worstScore": 100,
-        "averageScore": 100.0,
-        "totalPromptSections": 3,
-        "needsReviewCount": 0,
-        "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
-        "editorialIssues": [],
-        "attentionSummary": [
-          "3 prompt sections are polish opportunities"
-        ],
-        "focusAnchors": [
-          "prompt-1",
-          "prompt-2",
-          "prompt-3"
-        ],
-        "focusSections": [
-          {
-            "anchor": "prompt-1",
-            "url": "/philosophy-of-science/science-and-the-public/#prompt-1",
-            "heading": "How public trust in science has shifted over time",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-2",
-            "url": "/philosophy-of-science/science-and-the-public/#prompt-2",
-            "heading": "The real issue is what Manage Asymmetry changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/philosophy-of-science/science-and-the-public/#prompt-3",
-            "heading": "The real issue is what Ethical and Responsible Science changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          }
-        ]
-      },
-      {
-        "queueIndex": 464,
-        "sectionName": "Philosophy of Science",
-        "pageTitle": "Science vs Subjectivity",
-        "pagePath": "/philosophy-of-science/science-vs-subjectivity/",
-        "priorityBand": "polish",
-        "worstScore": 100,
-        "averageScore": 100.0,
-        "totalPromptSections": 3,
-        "needsReviewCount": 0,
-        "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
-        "editorialIssues": [],
-        "attentionSummary": [
-          "3 prompt sections are polish opportunities"
-        ],
-        "focusAnchors": [
-          "prompt-1",
-          "prompt-2",
-          "prompt-3"
-        ],
-        "focusSections": [
-          {
-            "anchor": "prompt-1",
-            "url": "/philosophy-of-science/science-vs-subjectivity/#prompt-1",
-            "heading": "Science advances by disciplining subjectivity",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-2",
-            "url": "/philosophy-of-science/science-vs-subjectivity/#prompt-2",
-            "heading": "Innovations in Blinding Techniques require sharper edges before the distinction can guide judgment.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/philosophy-of-science/science-vs-subjectivity/#prompt-3",
-            "heading": "A concrete case shows what The Reproducibility Project explains and where it strains.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          }
-        ]
-      },
-      {
-        "queueIndex": 465,
-        "sectionName": "Philosophy of Science",
-        "pageTitle": "Scientific “Observations”",
-        "pagePath": "/philosophy-of-science/scientific-observations/",
-        "priorityBand": "polish",
-        "worstScore": 100,
-        "averageScore": 100.0,
-        "totalPromptSections": 3,
-        "needsReviewCount": 0,
-        "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
-        "editorialIssues": [],
-        "attentionSummary": [
-          "3 prompt sections are polish opportunities"
-        ],
-        "focusAnchors": [
-          "prompt-1",
-          "prompt-2",
-          "prompt-3"
-        ],
-        "focusSections": [
-          {
-            "anchor": "prompt-1",
-            "url": "/philosophy-of-science/scientific-observations/#prompt-1",
-            "heading": "Scientific observation ranges from direct sight to layered inference",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-2",
-            "url": "/philosophy-of-science/scientific-observations/#prompt-2",
-            "heading": "The real issue is what Scientific “Observations” changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/philosophy-of-science/scientific-observations/#prompt-3",
-            "heading": "The Nature of Observation in Science matters only if it survives the strongest pressure against it.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          }
-        ]
-      },
-      {
-        "queueIndex": 466,
-        "sectionName": "Philosophy of Science",
-        "pageTitle": "Technology Outpaces Theory",
-        "pagePath": "/philosophy-of-science/technology-outpaces-theory/",
-        "priorityBand": "polish",
-        "worstScore": 100,
-        "averageScore": 100.0,
-        "totalPromptSections": 3,
-        "needsReviewCount": 0,
-        "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
-        "editorialIssues": [],
-        "attentionSummary": [
-          "3 prompt sections are polish opportunities"
-        ],
-        "focusAnchors": [
-          "prompt-1",
-          "prompt-2",
-          "prompt-3"
-        ],
-        "focusSections": [
-          {
-            "anchor": "prompt-1",
-            "url": "/philosophy-of-science/technology-outpaces-theory/#prompt-1",
-            "heading": "When technology outruns the theory meant to explain it",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-2",
-            "url": "/philosophy-of-science/technology-outpaces-theory/#prompt-2",
-            "heading": "The map of Emerging Infectious Diseases becomes useful once the parts stop doing different work.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/philosophy-of-science/technology-outpaces-theory/#prompt-3",
-            "heading": "Technology Outpaces Theory matters only if it survives the strongest pressure against it.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          }
-        ]
-      },
-      {
-        "queueIndex": 467,
-        "sectionName": "Philosophy of Science",
-        "pageTitle": "The Problem of Induction",
-        "pagePath": "/philosophy-of-science/the-problem-of-induction/",
-        "priorityBand": "polish",
-        "worstScore": 100,
-        "averageScore": 100.0,
-        "totalPromptSections": 3,
-        "needsReviewCount": 0,
-        "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
-        "editorialIssues": [],
-        "attentionSummary": [
-          "3 prompt sections are polish opportunities"
-        ],
-        "focusAnchors": [
-          "prompt-1",
-          "prompt-2",
-          "prompt-3"
-        ],
-        "focusSections": [
-          {
-            "anchor": "prompt-1",
-            "url": "/philosophy-of-science/the-problem-of-induction/#prompt-1",
-            "heading": "Is the problem of induction really about the absence of certainty?",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-2",
-            "url": "/philosophy-of-science/the-problem-of-induction/#prompt-2",
-            "heading": "The real issue is what the Problem of Induction changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/philosophy-of-science/the-problem-of-induction/#prompt-3",
-            "heading": "So, the only real “problem” of induction is the unreasonable and needless expectation it should have the",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          }
-        ]
-      },
-      {
-        "queueIndex": 468,
-        "sectionName": "Philosophy of Science",
-        "pageTitle": "What is Deduction?",
-        "pagePath": "/philosophy-of-science/what-is-deduction/",
-        "priorityBand": "polish",
-        "worstScore": 100,
-        "averageScore": 100.0,
-        "totalPromptSections": 3,
-        "needsReviewCount": 0,
-        "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
-        "editorialIssues": [],
-        "attentionSummary": [
-          "3 prompt sections are polish opportunities"
-        ],
-        "focusAnchors": [
-          "prompt-1",
-          "prompt-2",
-          "prompt-3"
-        ],
-        "focusSections": [
-          {
-            "anchor": "prompt-1",
-            "url": "/philosophy-of-science/what-is-deduction/#prompt-1",
-            "heading": "What is deduction in the context of reasoning?",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-2",
-            "url": "/philosophy-of-science/what-is-deduction/#prompt-2",
-            "heading": "A concrete case shows what Example of Logical Validity explains and where it strains.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/philosophy-of-science/what-is-deduction/#prompt-3",
-            "heading": "A concrete case shows what Deductive Reasoning in Science explains and where it strains.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          }
-        ]
-      },
-      {
-        "queueIndex": 469,
-        "sectionName": "Philosophy of Science",
-        "pageTitle": "What is Etiology?",
-        "pagePath": "/philosophy-of-science/what-is-etiology/",
-        "priorityBand": "polish",
-        "worstScore": 100,
-        "averageScore": 100.0,
-        "totalPromptSections": 3,
-        "needsReviewCount": 0,
-        "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
-        "editorialIssues": [],
-        "attentionSummary": [
-          "3 prompt sections are polish opportunities"
-        ],
-        "focusAnchors": [
-          "prompt-1",
-          "prompt-2",
-          "prompt-3"
-        ],
-        "focusSections": [
-          {
-            "anchor": "prompt-1",
-            "url": "/philosophy-of-science/what-is-etiology/#prompt-1",
-            "heading": "What etiology means in philosophical use",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-2",
-            "url": "/philosophy-of-science/what-is-etiology/#prompt-2",
-            "heading": "The real issue is what Understanding the Philosophical Meaning of Etiology changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/philosophy-of-science/what-is-etiology/#prompt-3",
-            "heading": "The real issue is what Etiology in the Philosophy of Science changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          }
-        ]
-      },
-      {
-        "queueIndex": 470,
-        "sectionName": "Political Philosophy",
-        "pageTitle": "AI & the US Political Divide",
-        "pagePath": "/political-philosophy/ai-the-us-political-divide/",
-        "priorityBand": "polish",
-        "worstScore": 100,
-        "averageScore": 100.0,
-        "totalPromptSections": 3,
-        "needsReviewCount": 0,
-        "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
-        "editorialIssues": [],
-        "attentionSummary": [
-          "3 prompt sections are polish opportunities"
-        ],
-        "focusAnchors": [
-          "prompt-1",
-          "prompt-2",
-          "prompt-3"
-        ],
-        "focusSections": [
-          {
-            "anchor": "prompt-1",
-            "url": "/political-philosophy/ai-the-us-political-divide/#prompt-1",
-            "heading": "How AI could widen or narrow the US political divide",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-2",
-            "url": "/political-philosophy/ai-the-us-political-divide/#prompt-2",
-            "heading": "The real issue is what Categories of AI Success Most Salient to the Public changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/political-philosophy/ai-the-us-political-divide/#prompt-3",
-            "heading": "Accurate Predictions on Policy Changes require sharper edges before the distinction can guide judgment.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          }
-        ]
-      },
-      {
-        "queueIndex": 471,
-        "sectionName": "Political Philosophy",
-        "pageTitle": "Electoral Systems",
-        "pagePath": "/political-philosophy/electoral-systems/",
-        "priorityBand": "polish",
-        "worstScore": 100,
-        "averageScore": 100.0,
-        "totalPromptSections": 3,
-        "needsReviewCount": 0,
-        "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
-        "editorialIssues": [],
-        "attentionSummary": [
-          "3 prompt sections are polish opportunities"
-        ],
-        "focusAnchors": [
-          "prompt-1",
-          "prompt-2",
-          "prompt-3"
-        ],
-        "focusSections": [
-          {
-            "anchor": "prompt-1",
-            "url": "/political-philosophy/electoral-systems/#prompt-1",
-            "heading": "How the main electoral systems differ in structure and tradeoffs",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-2",
-            "url": "/political-philosophy/electoral-systems/#prompt-2",
-            "heading": "The real issue is what Electoral Systems Around the World changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/political-philosophy/electoral-systems/#prompt-3",
-            "heading": "Insights from Experts matters only if it survives the strongest pressure against it.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          }
-        ]
-      },
-      {
-        "queueIndex": 472,
-        "sectionName": "Political Philosophy",
-        "pageTitle": "Political Theory & Human Nature",
-        "pagePath": "/political-philosophy/political-theory-human-nature/",
-        "priorityBand": "polish",
-        "worstScore": 100,
-        "averageScore": 100.0,
-        "totalPromptSections": 3,
-        "needsReviewCount": 0,
-        "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
-        "editorialIssues": [],
-        "attentionSummary": [
-          "3 prompt sections are polish opportunities"
-        ],
-        "focusAnchors": [
-          "prompt-1",
-          "prompt-2",
-          "prompt-3"
-        ],
-        "focusSections": [
-          {
-            "anchor": "prompt-1",
-            "url": "/political-philosophy/political-theory-human-nature/#prompt-1",
-            "heading": "How critical is it to a political ideology that it gets human nature correct?",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-2",
-            "url": "/political-philosophy/political-theory-human-nature/#prompt-2",
-            "heading": "A concrete case shows what Soviet Collectivization (1928-1940) explains and where it strains.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/political-philosophy/political-theory-human-nature/#prompt-3",
-            "heading": "The dialogue matters because it tests Setting in public.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          }
-        ]
-      },
-      {
-        "queueIndex": 473,
-        "sectionName": "Political Philosophy",
-        "pageTitle": "Red, Blue, & Grey Tribes",
-        "pagePath": "/political-philosophy/red-blue-grey-tribes/",
-        "priorityBand": "polish",
-        "worstScore": 100,
-        "averageScore": 100.0,
-        "totalPromptSections": 3,
-        "needsReviewCount": 0,
-        "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
-        "editorialIssues": [],
-        "attentionSummary": [
-          "3 prompt sections are polish opportunities"
-        ],
-        "focusAnchors": [
-          "prompt-1",
-          "prompt-2",
-          "prompt-3"
-        ],
-        "focusSections": [
-          {
-            "anchor": "prompt-1",
-            "url": "/political-philosophy/red-blue-grey-tribes/#prompt-1",
-            "heading": "What distinguishes red, blue, and grey tribes in US life",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-2",
-            "url": "/political-philosophy/red-blue-grey-tribes/#prompt-2",
-            "heading": "The real issue is what Emergence and Evolution of the Red, Blue, and Grey Tribes changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/political-philosophy/red-blue-grey-tribes/#prompt-3",
-            "heading": "The real issue is what Grey Tribe changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          }
-        ]
-      },
-      {
-        "queueIndex": 474,
-        "sectionName": "Rational Thought",
-        "pageTitle": "Attributions of Causation",
-        "pagePath": "/rational-thought/attributions-of-causation/",
-        "priorityBand": "polish",
-        "worstScore": 100,
-        "averageScore": 100.0,
-        "totalPromptSections": 3,
-        "needsReviewCount": 0,
-        "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
-        "editorialIssues": [],
-        "attentionSummary": [
-          "3 prompt sections are polish opportunities"
-        ],
-        "focusAnchors": [
-          "prompt-1",
-          "prompt-2",
-          "prompt-3"
-        ],
-        "focusSections": [
-          {
-            "anchor": "prompt-1",
-            "url": "/rational-thought/attributions-of-causation/#prompt-1",
-            "heading": "Simple causal stories spread because they are easier to carry than real ones",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-2",
-            "url": "/rational-thought/attributions-of-causation/#prompt-2",
-            "heading": "The real issue is what Attributions of Causation changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/rational-thought/attributions-of-causation/#prompt-3",
-            "heading": "How can we wean minds away from these unnunaced causal attributions and encourage a more comprehensive?",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          }
-        ]
-      },
-      {
-        "queueIndex": 475,
-        "sectionName": "Rational Thought",
-        "pageTitle": "Case #1 – Seizures",
-        "pagePath": "/rational-thought/case-1-seizures/",
-        "priorityBand": "polish",
-        "worstScore": 100,
-        "averageScore": 100.0,
-        "totalPromptSections": 3,
-        "needsReviewCount": 0,
-        "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
-        "editorialIssues": [],
-        "attentionSummary": [
-          "3 prompt sections are polish opportunities"
-        ],
-        "focusAnchors": [
-          "prompt-1",
-          "prompt-2",
-          "prompt-3"
-        ],
-        "focusSections": [
-          {
-            "anchor": "prompt-1",
-            "url": "/rational-thought/case-1-seizures/#prompt-1",
-            "heading": "Seizures became medically intelligible once people stopped treating them as spirits",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-2",
-            "url": "/rational-thought/case-1-seizures/#prompt-2",
-            "heading": "The real issue is what Seizures changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/rational-thought/case-1-seizures/#prompt-3",
-            "heading": "The real issue is what I don’t know changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          }
-        ]
-      },
-      {
-        "queueIndex": 476,
-        "sectionName": "Rational Thought",
-        "pageTitle": "Case #3 – Astrology",
-        "pagePath": "/rational-thought/case-3-astrology/",
-        "priorityBand": "polish",
-        "worstScore": 100,
-        "averageScore": 100.0,
-        "totalPromptSections": 3,
-        "needsReviewCount": 0,
-        "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
-        "editorialIssues": [],
-        "attentionSummary": [
-          "3 prompt sections are polish opportunities"
-        ],
-        "focusAnchors": [
-          "prompt-1",
-          "prompt-2",
-          "prompt-3"
-        ],
-        "focusSections": [
-          {
-            "anchor": "prompt-1",
-            "url": "/rational-thought/case-3-astrology/#prompt-1",
-            "heading": "Astrology survives because it flatters pattern-seeking minds",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-2",
-            "url": "/rational-thought/case-3-astrology/#prompt-2",
-            "heading": "The real issue is what Astrology changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/rational-thought/case-3-astrology/#prompt-3",
-            "heading": "The understanding and practice of what concepts would best provide the average mind protection from the",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          }
-        ]
-      },
-      {
-        "queueIndex": 477,
-        "sectionName": "Rational Thought",
-        "pageTitle": "Case #5 – Grade Inflation",
-        "pagePath": "/rational-thought/case-5-grade-inflation/",
-        "priorityBand": "polish",
-        "worstScore": 100,
-        "averageScore": 100.0,
-        "totalPromptSections": 3,
-        "needsReviewCount": 0,
-        "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
-        "editorialIssues": [],
-        "attentionSummary": [
-          "3 prompt sections are polish opportunities"
-        ],
-        "focusAnchors": [
-          "prompt-1",
-          "prompt-2",
-          "prompt-3"
-        ],
-        "focusSections": [
-          {
-            "anchor": "prompt-1",
-            "url": "/rational-thought/case-5-grade-inflation/#prompt-1",
-            "heading": "Grade inflation has multiple causes, not one villain",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-2",
-            "url": "/rational-thought/case-5-grade-inflation/#prompt-2",
-            "heading": "The map of Pilot Programs and Faculty Development becomes useful once the parts stop doing different work.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/rational-thought/case-5-grade-inflation/#prompt-3",
-            "heading": "The map of Evaluation and Adjustment becomes useful once the parts stop doing different work.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          }
-        ]
-      },
-      {
-        "queueIndex": 478,
-        "sectionName": "Rational Thought",
-        "pageTitle": "Characteristics of Science Denial",
-        "pagePath": "/rational-thought/characteristics-of-science-denial/",
-        "priorityBand": "polish",
-        "worstScore": 100,
-        "averageScore": 100.0,
-        "totalPromptSections": 3,
-        "needsReviewCount": 0,
-        "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
-        "editorialIssues": [],
-        "attentionSummary": [
-          "3 prompt sections are polish opportunities"
-        ],
-        "focusAnchors": [
-          "prompt-1",
-          "prompt-2",
-          "prompt-3"
-        ],
-        "focusSections": [
-          {
-            "anchor": "prompt-1",
-            "url": "/rational-thought/characteristics-of-science-denial/#prompt-1",
-            "heading": "Characteristics of Science Denial require sharper edges before the distinction can guide judgment.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-2",
-            "url": "/rational-thought/characteristics-of-science-denial/#prompt-2",
-            "heading": "The real issue is what Characteristics of Science Denial changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/rational-thought/characteristics-of-science-denial/#prompt-3",
-            "heading": "Pros of Ridiculing Radical Deniers matters only if it survives the strongest pressure against it.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          }
-        ]
-      },
-      {
-        "queueIndex": 479,
-        "sectionName": "Rational Thought",
-        "pageTitle": "Cognitive Threats to Rationality",
-        "pagePath": "/rational-thought/cognitive-threats-to-rationality/",
-        "priorityBand": "polish",
-        "worstScore": 100,
-        "averageScore": 100.0,
-        "totalPromptSections": 3,
-        "needsReviewCount": 0,
-        "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
-        "editorialIssues": [],
-        "attentionSummary": [
-          "3 prompt sections are polish opportunities"
-        ],
-        "focusAnchors": [
-          "prompt-1",
-          "prompt-2",
-          "prompt-3"
-        ],
-        "focusSections": [
-          {
-            "anchor": "prompt-1",
-            "url": "/rational-thought/cognitive-threats-to-rationality/#prompt-1",
-            "heading": "Intelligence does not immunize a mind against irrationality",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-2",
-            "url": "/rational-thought/cognitive-threats-to-rationality/#prompt-2",
-            "heading": "The real issue is what Use Empathetic Communication Non-Confrontational Approach changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/rational-thought/cognitive-threats-to-rationality/#prompt-3",
-            "heading": "The real issue is what Cognitive Threats to Rationality changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          }
-        ]
-      },
-      {
-        "queueIndex": 480,
-        "sectionName": "Rational Thought",
-        "pageTitle": "Credencing",
-        "pagePath": "/rational-thought/credencing/",
-        "priorityBand": "polish",
-        "worstScore": 100,
-        "averageScore": 100.0,
-        "totalPromptSections": 3,
-        "needsReviewCount": 0,
-        "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
-        "editorialIssues": [],
-        "attentionSummary": [
-          "3 prompt sections are polish opportunities"
-        ],
-        "focusAnchors": [
-          "prompt-1",
-          "prompt-2",
-          "prompt-3"
-        ],
-        "focusSections": [
-          {
-            "anchor": "prompt-1",
-            "url": "/rational-thought/credencing/#prompt-1",
-            "heading": "Credencing names the practice of grading belief instead of faking certainty",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-2",
-            "url": "/rational-thought/credencing/#prompt-2",
-            "heading": "The real issue is what Critical thinking changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/rational-thought/credencing/#prompt-3",
-            "heading": "The real issue is what Credencing changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          }
-        ]
-      },
-      {
-        "queueIndex": 481,
-        "sectionName": "Rational Thought",
-        "pageTitle": "Detecting Bad Science",
-        "pagePath": "/rational-thought/detecting-bad-science/",
-        "priorityBand": "polish",
-        "worstScore": 100,
-        "averageScore": 100.0,
-        "totalPromptSections": 3,
-        "needsReviewCount": 0,
-        "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
-        "editorialIssues": [],
-        "attentionSummary": [
-          "3 prompt sections are polish opportunities"
-        ],
-        "focusAnchors": [
-          "prompt-1",
-          "prompt-2",
-          "prompt-3"
-        ],
-        "focusSections": [
-          {
-            "anchor": "prompt-1",
-            "url": "/rational-thought/detecting-bad-science/#prompt-1",
-            "heading": "Bad science leaves recurring fingerprints if you know where to look",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-2",
-            "url": "/rational-thought/detecting-bad-science/#prompt-2",
-            "heading": "The real issue is what Domains of Science Susceptible to Abandoning Proper Science changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/rational-thought/detecting-bad-science/#prompt-3",
-            "heading": "The map of Source and Credibility becomes useful once the parts stop doing different work.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          }
-        ]
-      },
-      {
-        "queueIndex": 482,
-        "sectionName": "Rational Thought",
-        "pageTitle": "False Equivalencies",
-        "pagePath": "/rational-thought/false-equivalencies/",
-        "priorityBand": "polish",
-        "worstScore": 100,
-        "averageScore": 100.0,
-        "totalPromptSections": 3,
-        "needsReviewCount": 0,
-        "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
-        "editorialIssues": [],
-        "attentionSummary": [
-          "3 prompt sections are polish opportunities"
-        ],
-        "focusAnchors": [
-          "prompt-1",
-          "prompt-2",
-          "prompt-3"
-        ],
-        "focusSections": [
-          {
-            "anchor": "prompt-1",
-            "url": "/rational-thought/false-equivalencies/#prompt-1",
-            "heading": "What are false equivalencies?",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-2",
-            "url": "/rational-thought/false-equivalencies/#prompt-2",
-            "heading": "The real issue is what Evaluating Statements for False Equivalency changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/rational-thought/false-equivalencies/#prompt-3",
-            "heading": "The real issue is what Consider the Platform changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          }
-        ]
-      },
-      {
-        "queueIndex": 483,
-        "sectionName": "Rational Thought",
-        "pageTitle": "Integrated Critical Thinking",
-        "pagePath": "/rational-thought/integrated-critical-thinking/",
+        "queueIndex": 512,
+        "sectionName": "Philosophical Inquiry",
+        "pageTitle": "The Value and Limits of Debate",
+        "pagePath": "/philosophical-inquiry/the-value-and-limits-of-debate/",
         "priorityBand": "polish",
         "worstScore": 100,
         "averageScore": 100.0,
         "totalPromptSections": 4,
         "needsReviewCount": 0,
         "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
+        "polishOpportunityCount": 2,
         "editorialIssues": [],
         "attentionSummary": [
-          "3 prompt sections are polish opportunities"
+          "2 prompt sections are polish opportunities"
         ],
         "focusAnchors": [
           "prompt-1",
-          "prompt-2",
-          "prompt-4"
+          "prompt-3"
         ],
         "focusSections": [
           {
             "anchor": "prompt-1",
-            "url": "/rational-thought/integrated-critical-thinking/#prompt-1",
-            "heading": "Critical thinking gets stronger when it is braided into other disciplines",
+            "url": "/philosophical-inquiry/the-value-and-limits-of-debate/#prompt-1",
+            "heading": "Why does debate still have value when so much public argument is performative?",
+            "score": 100,
+            "level": "exceptional",
+            "needsReview": false,
+            "needsGapFill": false,
+            "polishOpportunity": true,
+            "editorialIssues": []
+          },
+          {
+            "anchor": "prompt-3",
+            "url": "/philosophical-inquiry/the-value-and-limits-of-debate/#prompt-3",
+            "heading": "The real issue is what Logical fallacies changes once it becomes precise.",
+            "score": 100,
+            "level": "exceptional",
+            "needsReview": false,
+            "needsGapFill": false,
+            "polishOpportunity": true,
+            "editorialIssues": []
+          }
+        ]
+      },
+      {
+        "queueIndex": 513,
+        "sectionName": "Philosophy of AI",
+        "pageTitle": "A Novel AI Thought Experiment",
+        "pagePath": "/philosophy-of-ai/a-novel-ai-thought-experiment/",
+        "priorityBand": "polish",
+        "worstScore": 100,
+        "averageScore": 100.0,
+        "totalPromptSections": 2,
+        "needsReviewCount": 0,
+        "needsGapFillCount": 0,
+        "polishOpportunityCount": 2,
+        "editorialIssues": [],
+        "attentionSummary": [
+          "2 prompt sections are polish opportunities"
+        ],
+        "focusAnchors": [
+          "prompt-1",
+          "prompt-2"
+        ],
+        "focusSections": [
+          {
+            "anchor": "prompt-1",
+            "url": "/philosophy-of-ai/a-novel-ai-thought-experiment/#prompt-1",
+            "heading": "Can an AI devise a genuinely novel thought experiment?",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
@@ -2142,8 +809,312 @@
           },
           {
             "anchor": "prompt-2",
-            "url": "/rational-thought/integrated-critical-thinking/#prompt-2",
-            "heading": "The real issue is what Critical thinking changes once it becomes precise.",
+            "url": "/philosophy-of-ai/a-novel-ai-thought-experiment/#prompt-2",
+            "heading": "The real issue is what A Novel AI Thought Experiment changes once it becomes precise.",
+            "score": 100,
+            "level": "exceptional",
+            "needsReview": false,
+            "needsGapFill": false,
+            "polishOpportunity": true,
+            "editorialIssues": []
+          }
+        ]
+      },
+      {
+        "queueIndex": 514,
+        "sectionName": "Philosophy of AI",
+        "pageTitle": "AI Meta-Post — OpenAI Introspection",
+        "pagePath": "/philosophy-of-ai/openai-introspection/",
+        "priorityBand": "polish",
+        "worstScore": 100,
+        "averageScore": 100.0,
+        "totalPromptSections": 2,
+        "needsReviewCount": 0,
+        "needsGapFillCount": 0,
+        "polishOpportunityCount": 2,
+        "editorialIssues": [],
+        "attentionSummary": [
+          "2 prompt sections are polish opportunities"
+        ],
+        "focusAnchors": [
+          "prompt-1",
+          "prompt-2"
+        ],
+        "focusSections": [
+          {
+            "anchor": "prompt-1",
+            "url": "/philosophy-of-ai/openai-introspection/#prompt-1",
+            "heading": "When should an AI ask for more information?",
+            "score": 100,
+            "level": "exceptional",
+            "needsReview": false,
+            "needsGapFill": false,
+            "polishOpportunity": true,
+            "editorialIssues": []
+          },
+          {
+            "anchor": "prompt-2",
+            "url": "/philosophy-of-ai/openai-introspection/#prompt-2",
+            "heading": "The real issue is what The Problem changes once it becomes precise.",
+            "score": 100,
+            "level": "exceptional",
+            "needsReview": false,
+            "needsGapFill": false,
+            "polishOpportunity": true,
+            "editorialIssues": []
+          }
+        ]
+      },
+      {
+        "queueIndex": 515,
+        "sectionName": "Philosophy of Mind",
+        "pageTitle": "Free Will vs Determinism",
+        "pagePath": "/philosophy-of-mind/free-will-vs-determinism/",
+        "priorityBand": "polish",
+        "worstScore": 100,
+        "averageScore": 100.0,
+        "totalPromptSections": 2,
+        "needsReviewCount": 0,
+        "needsGapFillCount": 0,
+        "polishOpportunityCount": 2,
+        "editorialIssues": [],
+        "attentionSummary": [
+          "2 prompt sections are polish opportunities"
+        ],
+        "focusAnchors": [
+          "prompt-1",
+          "prompt-2"
+        ],
+        "focusSections": [
+          {
+            "anchor": "prompt-1",
+            "url": "/philosophy-of-mind/free-will-vs-determinism/#prompt-1",
+            "heading": "How the major free-will positions differ in argument and reply",
+            "score": 100,
+            "level": "exceptional",
+            "needsReview": false,
+            "needsGapFill": false,
+            "polishOpportunity": true,
+            "editorialIssues": []
+          },
+          {
+            "anchor": "prompt-2",
+            "url": "/philosophy-of-mind/free-will-vs-determinism/#prompt-2",
+            "heading": "The real issue is what Free will changes once it becomes precise.",
+            "score": 100,
+            "level": "exceptional",
+            "needsReview": false,
+            "needsGapFill": false,
+            "polishOpportunity": true,
+            "editorialIssues": []
+          }
+        ]
+      },
+      {
+        "queueIndex": 516,
+        "sectionName": "Philosophy of Mind",
+        "pageTitle": "Neuroscience and Philosophy",
+        "pagePath": "/philosophy-of-mind/neuroscience-and-philosophy/",
+        "priorityBand": "polish",
+        "worstScore": 100,
+        "averageScore": 100.0,
+        "totalPromptSections": 2,
+        "needsReviewCount": 0,
+        "needsGapFillCount": 0,
+        "polishOpportunityCount": 2,
+        "editorialIssues": [],
+        "attentionSummary": [
+          "2 prompt sections are polish opportunities"
+        ],
+        "focusAnchors": [
+          "prompt-1",
+          "prompt-2"
+        ],
+        "focusSections": [
+          {
+            "anchor": "prompt-1",
+            "url": "/philosophy-of-mind/neuroscience-and-philosophy/#prompt-1",
+            "heading": "On what notions do neuroscientists and philosophers of mind largely agree or disagree?",
+            "score": 100,
+            "level": "exceptional",
+            "needsReview": false,
+            "needsGapFill": false,
+            "polishOpportunity": true,
+            "editorialIssues": []
+          },
+          {
+            "anchor": "prompt-2",
+            "url": "/philosophy-of-mind/neuroscience-and-philosophy/#prompt-2",
+            "heading": "The real issue is what Artificial Intelligence (AI) and Machine Learning changes once it becomes precise.",
+            "score": 100,
+            "level": "exceptional",
+            "needsReview": false,
+            "needsGapFill": false,
+            "polishOpportunity": true,
+            "editorialIssues": []
+          }
+        ]
+      },
+      {
+        "queueIndex": 517,
+        "sectionName": "Philosophy of Mind",
+        "pageTitle": "Psychology and Philosophy",
+        "pagePath": "/philosophy-of-mind/psychology-and-philosophy/",
+        "priorityBand": "polish",
+        "worstScore": 100,
+        "averageScore": 100.0,
+        "totalPromptSections": 2,
+        "needsReviewCount": 0,
+        "needsGapFillCount": 0,
+        "polishOpportunityCount": 2,
+        "editorialIssues": [],
+        "attentionSummary": [
+          "2 prompt sections are polish opportunities"
+        ],
+        "focusAnchors": [
+          "prompt-1",
+          "prompt-2"
+        ],
+        "focusSections": [
+          {
+            "anchor": "prompt-1",
+            "url": "/philosophy-of-mind/psychology-and-philosophy/#prompt-1",
+            "heading": "How psychology and philosophy keep informing one another",
+            "score": 100,
+            "level": "exceptional",
+            "needsReview": false,
+            "needsGapFill": false,
+            "polishOpportunity": true,
+            "editorialIssues": []
+          },
+          {
+            "anchor": "prompt-2",
+            "url": "/philosophy-of-mind/psychology-and-philosophy/#prompt-2",
+            "heading": "The real issue is what Psychology and Philosophy changes once it becomes precise.",
+            "score": 100,
+            "level": "exceptional",
+            "needsReview": false,
+            "needsGapFill": false,
+            "polishOpportunity": true,
+            "editorialIssues": []
+          }
+        ]
+      },
+      {
+        "queueIndex": 518,
+        "sectionName": "Philosophy of Science",
+        "pageTitle": "Emerging Fields in Science",
+        "pagePath": "/philosophy-of-science/emerging-fields-in-science/",
+        "priorityBand": "polish",
+        "worstScore": 100,
+        "averageScore": 100.0,
+        "totalPromptSections": 2,
+        "needsReviewCount": 0,
+        "needsGapFillCount": 0,
+        "polishOpportunityCount": 2,
+        "editorialIssues": [],
+        "attentionSummary": [
+          "2 prompt sections are polish opportunities"
+        ],
+        "focusAnchors": [
+          "prompt-1",
+          "prompt-2"
+        ],
+        "focusSections": [
+          {
+            "anchor": "prompt-1",
+            "url": "/philosophy-of-science/emerging-fields-in-science/#prompt-1",
+            "heading": "Which newer sciences are reshaping philosophy of science",
+            "score": 100,
+            "level": "exceptional",
+            "needsReview": false,
+            "needsGapFill": false,
+            "polishOpportunity": true,
+            "editorialIssues": []
+          },
+          {
+            "anchor": "prompt-2",
+            "url": "/philosophy-of-science/emerging-fields-in-science/#prompt-2",
+            "heading": "The real issue is what Artificial Intelligence (AI) and Machine Learning changes once it becomes precise.",
+            "score": 100,
+            "level": "exceptional",
+            "needsReview": false,
+            "needsGapFill": false,
+            "polishOpportunity": true,
+            "editorialIssues": []
+          }
+        ]
+      },
+      {
+        "queueIndex": 519,
+        "sectionName": "Philosophy of Science",
+        "pageTitle": "What is “Explanation”?",
+        "pagePath": "/philosophy-of-science/definitions-of-explanation/",
+        "priorityBand": "polish",
+        "worstScore": 100,
+        "averageScore": 100.0,
+        "totalPromptSections": 2,
+        "needsReviewCount": 0,
+        "needsGapFillCount": 0,
+        "polishOpportunityCount": 2,
+        "editorialIssues": [],
+        "attentionSummary": [
+          "2 prompt sections are polish opportunities"
+        ],
+        "focusAnchors": [
+          "prompt-1",
+          "prompt-2"
+        ],
+        "focusSections": [
+          {
+            "anchor": "prompt-1",
+            "url": "/philosophy-of-science/definitions-of-explanation/#prompt-1",
+            "heading": "The main philosophical senses of explanation",
+            "score": 100,
+            "level": "exceptional",
+            "needsReview": false,
+            "needsGapFill": false,
+            "polishOpportunity": true,
+            "editorialIssues": []
+          },
+          {
+            "anchor": "prompt-2",
+            "url": "/philosophy-of-science/definitions-of-explanation/#prompt-2",
+            "heading": "The real issue is what “Explanation” changes once it becomes precise.",
+            "score": 100,
+            "level": "exceptional",
+            "needsReview": false,
+            "needsGapFill": false,
+            "polishOpportunity": true,
+            "editorialIssues": []
+          }
+        ]
+      },
+      {
+        "queueIndex": 520,
+        "sectionName": "Rational Thought",
+        "pageTitle": "A Taxonomy of Emotions",
+        "pagePath": "/rational-thought/a-taxonomy-of-emotions/",
+        "priorityBand": "polish",
+        "worstScore": 100,
+        "averageScore": 100.0,
+        "totalPromptSections": 4,
+        "needsReviewCount": 0,
+        "needsGapFillCount": 0,
+        "polishOpportunityCount": 2,
+        "editorialIssues": [],
+        "attentionSummary": [
+          "2 prompt sections are polish opportunities"
+        ],
+        "focusAnchors": [
+          "prompt-3",
+          "prompt-4"
+        ],
+        "focusSections": [
+          {
+            "anchor": "prompt-3",
+            "url": "/rational-thought/a-taxonomy-of-emotions/#prompt-3",
+            "heading": "Empathy matters only if it survives the strongest pressure against it.",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
@@ -2153,8 +1124,8 @@
           },
           {
             "anchor": "prompt-4",
-            "url": "/rational-thought/integrated-critical-thinking/#prompt-4",
-            "heading": "The real issue is what Framework for a Regular Diet of Critical Thinking Content changes once it becomes precise.",
+            "url": "/rational-thought/a-taxonomy-of-emotions/#prompt-4",
+            "heading": "The real issue is what Categories of the emotions into three categories changes once it becomes precise.",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
@@ -2165,466 +1136,10 @@
         ]
       },
       {
-        "queueIndex": 484,
+        "queueIndex": 521,
         "sectionName": "Rational Thought",
-        "pageTitle": "Leaving Room for Doubt",
-        "pagePath": "/rational-thought/leaving-room-for-doubt/",
-        "priorityBand": "polish",
-        "worstScore": 100,
-        "averageScore": 100.0,
-        "totalPromptSections": 3,
-        "needsReviewCount": 0,
-        "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
-        "editorialIssues": [],
-        "attentionSummary": [
-          "3 prompt sections are polish opportunities"
-        ],
-        "focusAnchors": [
-          "prompt-1",
-          "prompt-2",
-          "prompt-3"
-        ],
-        "focusSections": [
-          {
-            "anchor": "prompt-1",
-            "url": "/rational-thought/leaving-room-for-doubt/#prompt-1",
-            "heading": "Epistemic humility is not weakness; it is how correction stays possible",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-2",
-            "url": "/rational-thought/leaving-room-for-doubt/#prompt-2",
-            "heading": "The real issue is what Importance of Non-Dogmatic Openness in Honest Inquiry changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/rational-thought/leaving-room-for-doubt/#prompt-3",
-            "heading": "The Danger of Ideologies Exploiting Human Drive for Certainty matters only if it survives the strongest pressure against it.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          }
-        ]
-      },
-      {
-        "queueIndex": 485,
-        "sectionName": "Rational Thought",
-        "pageTitle": "Life Choices",
-        "pagePath": "/rational-thought/life-choices/",
-        "priorityBand": "polish",
-        "worstScore": 100,
-        "averageScore": 100.0,
-        "totalPromptSections": 3,
-        "needsReviewCount": 0,
-        "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
-        "editorialIssues": [],
-        "attentionSummary": [
-          "3 prompt sections are polish opportunities"
-        ],
-        "focusAnchors": [
-          "prompt-1",
-          "prompt-2",
-          "prompt-3"
-        ],
-        "focusSections": [
-          {
-            "anchor": "prompt-1",
-            "url": "/rational-thought/life-choices/#prompt-1",
-            "heading": "Which decisions in life demand the most careful rational assessments?",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-2",
-            "url": "/rational-thought/life-choices/#prompt-2",
-            "heading": "Life Choices require sharper edges before the distinction can guide judgment.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/rational-thought/life-choices/#prompt-3",
-            "heading": "The real issue is what Life Choices changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          }
-        ]
-      },
-      {
-        "queueIndex": 486,
-        "sectionName": "Rational Thought",
-        "pageTitle": "Logic",
-        "pagePath": "/rational-thought/logic/",
-        "priorityBand": "polish",
-        "worstScore": 100,
-        "averageScore": 100.0,
-        "totalPromptSections": 3,
-        "needsReviewCount": 0,
-        "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
-        "editorialIssues": [],
-        "attentionSummary": [
-          "3 prompt sections are polish opportunities"
-        ],
-        "focusAnchors": [
-          "prompt-1",
-          "prompt-2",
-          "prompt-3"
-        ],
-        "focusSections": [
-          {
-            "anchor": "prompt-1",
-            "url": "/rational-thought/logic/#prompt-1",
-            "heading": "How are logic and symbolic logic normally categorized within philosophy?",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-2",
-            "url": "/rational-thought/logic/#prompt-2",
-            "heading": "Logic assessments and syllogistic formulations in matters only if it survives the strongest pressure against it.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/rational-thought/logic/#prompt-3",
-            "heading": "The real issue is what The Malthusian Catastrophe changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          }
-        ]
-      },
-      {
-        "queueIndex": 487,
-        "sectionName": "Rational Thought",
-        "pageTitle": "Rational Romance",
-        "pagePath": "/rational-thought/rational-romance/",
-        "priorityBand": "polish",
-        "worstScore": 100,
-        "averageScore": 100.0,
-        "totalPromptSections": 3,
-        "needsReviewCount": 0,
-        "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
-        "editorialIssues": [],
-        "attentionSummary": [
-          "3 prompt sections are polish opportunities"
-        ],
-        "focusAnchors": [
-          "prompt-1",
-          "prompt-2",
-          "prompt-3"
-        ],
-        "focusSections": [
-          {
-            "anchor": "prompt-1",
-            "url": "/rational-thought/rational-romance/#prompt-1",
-            "heading": "Is being rational about romance oxymoronic?",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-2",
-            "url": "/rational-thought/rational-romance/#prompt-2",
-            "heading": "The real issue is what Rational Romance changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/rational-thought/rational-romance/#prompt-3",
-            "heading": "The real issue is what Maintaining Romance changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          }
-        ]
-      },
-      {
-        "queueIndex": 488,
-        "sectionName": "Rational Thought",
-        "pageTitle": "Starting with Strong Basics",
-        "pagePath": "/rational-thought/starting-with-strong-basics/",
-        "priorityBand": "polish",
-        "worstScore": 100,
-        "averageScore": 100.0,
-        "totalPromptSections": 3,
-        "needsReviewCount": 0,
-        "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
-        "editorialIssues": [],
-        "attentionSummary": [
-          "3 prompt sections are polish opportunities"
-        ],
-        "focusAnchors": [
-          "prompt-1",
-          "prompt-2",
-          "prompt-3"
-        ],
-        "focusSections": [
-          {
-            "anchor": "prompt-1",
-            "url": "/rational-thought/starting-with-strong-basics/#prompt-1",
-            "heading": "Why is it so important to develop a proper epistemology early in life?",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-2",
-            "url": "/rational-thought/starting-with-strong-basics/#prompt-2",
-            "heading": "The real issue is what Starting with Strong Basics changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/rational-thought/starting-with-strong-basics/#prompt-3",
-            "heading": "Introduce 5 scenarios demonstrating how an early flaw in epistemology could lead to slowed knowledge",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          }
-        ]
-      },
-      {
-        "queueIndex": 489,
-        "sectionName": "Rational Thought",
-        "pageTitle": "The Illusion of Knowledge",
-        "pagePath": "/rational-thought/the-illusion-of-knowledge/",
-        "priorityBand": "polish",
-        "worstScore": 100,
-        "averageScore": 100.0,
-        "totalPromptSections": 3,
-        "needsReviewCount": 0,
-        "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
-        "editorialIssues": [],
-        "attentionSummary": [
-          "3 prompt sections are polish opportunities"
-        ],
-        "focusAnchors": [
-          "prompt-1",
-          "prompt-2",
-          "prompt-3"
-        ],
-        "focusSections": [
-          {
-            "anchor": "prompt-1",
-            "url": "/rational-thought/the-illusion-of-knowledge/#prompt-1",
-            "heading": "Feeling informed can be worse than knowing you are ignorant",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-2",
-            "url": "/rational-thought/the-illusion-of-knowledge/#prompt-2",
-            "heading": "The real issue is what The Challenger Space Shuttle Disaster (1986) changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/rational-thought/the-illusion-of-knowledge/#prompt-3",
-            "heading": "Hallmarks of Someone at Risk of the False Knowledge Mentality require sharper edges before the distinction can guide judgment.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          }
-        ]
-      },
-      {
-        "queueIndex": 490,
-        "sectionName": "Rational Thought",
-        "pageTitle": "The Motive Fallacy",
-        "pagePath": "/rational-thought/the-motive-fallacy/",
-        "priorityBand": "polish",
-        "worstScore": 100,
-        "averageScore": 100.0,
-        "totalPromptSections": 3,
-        "needsReviewCount": 0,
-        "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
-        "editorialIssues": [],
-        "attentionSummary": [
-          "3 prompt sections are polish opportunities"
-        ],
-        "focusAnchors": [
-          "prompt-1",
-          "prompt-2",
-          "prompt-3"
-        ],
-        "focusSections": [
-          {
-            "anchor": "prompt-1",
-            "url": "/rational-thought/the-motive-fallacy/#prompt-1",
-            "heading": "Suspecting a motive is not the same thing as answering an argument",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-2",
-            "url": "/rational-thought/the-motive-fallacy/#prompt-2",
-            "heading": "The real issue is what Historical Cases of the Motive Fallacy changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/rational-thought/the-motive-fallacy/#prompt-3",
-            "heading": "The real issue is what The Motive Fallacy changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          }
-        ]
-      },
-      {
-        "queueIndex": 491,
-        "sectionName": "Rational Thought",
-        "pageTitle": "The Steppingstone Fallacy",
-        "pagePath": "/rational-thought/the-steppingstone-fallacy/",
-        "priorityBand": "polish",
-        "worstScore": 100,
-        "averageScore": 100.0,
-        "totalPromptSections": 3,
-        "needsReviewCount": 0,
-        "needsGapFillCount": 0,
-        "polishOpportunityCount": 3,
-        "editorialIssues": [],
-        "attentionSummary": [
-          "3 prompt sections are polish opportunities"
-        ],
-        "focusAnchors": [
-          "prompt-1",
-          "prompt-2",
-          "prompt-3"
-        ],
-        "focusSections": [
-          {
-            "anchor": "prompt-1",
-            "url": "/rational-thought/the-steppingstone-fallacy/#prompt-1",
-            "heading": "The steppingstone fallacy trades one concession for a parade of imagined consequences",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-2",
-            "url": "/rational-thought/the-steppingstone-fallacy/#prompt-2",
-            "heading": "A concrete case shows what Example of The Steppingstone Fallacy in Theistic Arguments explains and where it strains.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/rational-thought/the-steppingstone-fallacy/#prompt-3",
-            "heading": "The real issue is what Exposing and Dismissing the Steppingstone Fallacy changes once it becomes precise.",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          }
-        ]
-      },
-      {
-        "queueIndex": 492,
-        "sectionName": "Economics",
-        "pageTitle": "Fiat Money",
-        "pagePath": "/economics/fiat-money/",
+        "pageTitle": "Case #4 – Obesity",
+        "pagePath": "/rational-thought/case-4-obesity/",
         "priorityBand": "polish",
         "worstScore": 100,
         "averageScore": 100.0,
@@ -2643,8 +1158,8 @@
         "focusSections": [
           {
             "anchor": "prompt-1",
-            "url": "/economics/fiat-money/#prompt-1",
-            "heading": "Are fiat money's advantages strong enough for most economies?",
+            "url": "/rational-thought/case-4-obesity/#prompt-1",
+            "heading": "Obesity is a causal knot, so the tests have to separate competing strands",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
@@ -2654,8 +1169,8 @@
           },
           {
             "anchor": "prompt-2",
-            "url": "/economics/fiat-money/#prompt-2",
-            "heading": "The real issue is what Fiat Money changes once it becomes precise.",
+            "url": "/rational-thought/case-4-obesity/#prompt-2",
+            "heading": "The real issue is what Obesity changes once it becomes precise.",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
@@ -2666,10 +1181,10 @@
         ]
       },
       {
-        "queueIndex": 493,
-        "sectionName": "Epistemology",
-        "pageTitle": "Case #3 – Core Rationality",
-        "pagePath": "/epistemology/case-3-core-rationality/",
+        "queueIndex": 522,
+        "sectionName": "Rational Thought",
+        "pageTitle": "Deflecting to Experts",
+        "pagePath": "/rational-thought/deflecting-to-experts/",
         "priorityBand": "polish",
         "worstScore": 100,
         "averageScore": 100.0,
@@ -2688,8 +1203,8 @@
         "focusSections": [
           {
             "anchor": "prompt-1",
-            "url": "/epistemology/case-3-core-rationality/#prompt-1",
-            "heading": "Does rationality mean mapping confidence to evidence?",
+            "url": "/rational-thought/deflecting-to-experts/#prompt-1",
+            "heading": "Appealing to experts can inform a case or dodge the burden of making one",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
@@ -2699,8 +1214,8 @@
           },
           {
             "anchor": "prompt-2",
-            "url": "/epistemology/case-3-core-rationality/#prompt-2",
-            "heading": "The core-versus-deep distinction helps only if it changes how we read real reasoning.",
+            "url": "/rational-thought/deflecting-to-experts/#prompt-2",
+            "heading": "The dialogue matters because it tests Analysis in public.",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
@@ -2711,10 +1226,10 @@
         ]
       },
       {
-        "queueIndex": 494,
-        "sectionName": "Epistemology",
-        "pageTitle": "Operational Epistemic Rigor",
-        "pagePath": "/epistemology/operational-epistemic-rigor/",
+        "queueIndex": 523,
+        "sectionName": "Rational Thought",
+        "pageTitle": "Evolution & Rationality",
+        "pagePath": "/rational-thought/evolution-rationality/",
         "priorityBand": "polish",
         "worstScore": 100,
         "averageScore": 100.0,
@@ -2733,8 +1248,8 @@
         "focusSections": [
           {
             "anchor": "prompt-1",
-            "url": "/epistemology/operational-epistemic-rigor/#prompt-1",
-            "heading": "Where different domains rank in epistemic rigor",
+            "url": "/rational-thought/evolution-rationality/#prompt-1",
+            "heading": "Evolution need not make rationality impossible",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
@@ -2744,8 +1259,8 @@
           },
           {
             "anchor": "prompt-2",
-            "url": "/epistemology/operational-epistemic-rigor/#prompt-2",
-            "heading": "A good rubric measures how a view earns correction, not just how confidently it speaks.",
+            "url": "/rational-thought/evolution-rationality/#prompt-2",
+            "heading": "The real issue is what Orthogonal relationship between survival and rationality changes once it becomes precise.",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
@@ -2756,41 +1271,29 @@
         ]
       },
       {
-        "queueIndex": 495,
-        "sectionName": "Epistemology",
-        "pageTitle": "The Domain of “Proof”",
-        "pagePath": "/epistemology/the-domain-of-proof/",
+        "queueIndex": 524,
+        "sectionName": "Miscellany",
+        "pageTitle": "Nassim Taleb on Joe Walker",
+        "pagePath": "/miscellany/nassim-taleb-on-joe-walker/",
         "priorityBand": "polish",
         "worstScore": 100,
         "averageScore": 100.0,
-        "totalPromptSections": 2,
+        "totalPromptSections": 1,
         "needsReviewCount": 0,
         "needsGapFillCount": 0,
-        "polishOpportunityCount": 2,
+        "polishOpportunityCount": 1,
         "editorialIssues": [],
         "attentionSummary": [
-          "2 prompt sections are polish opportunities"
+          "1 prompt sections are polish opportunities"
         ],
         "focusAnchors": [
-          "prompt-1",
-          "prompt-2"
+          "prompt-1"
         ],
         "focusSections": [
           {
             "anchor": "prompt-1",
-            "url": "/epistemology/the-domain-of-proof/#prompt-1",
-            "heading": "Isn’t the term “proof” best confined to the domains of logic and mathematics?",
-            "score": 100,
-            "level": "exceptional",
-            "needsReview": false,
-            "needsGapFill": false,
-            "polishOpportunity": true,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-2",
-            "url": "/epistemology/the-domain-of-proof/#prompt-2",
-            "heading": "The real issue is what the Domain of “Proof” changes once it becomes precise.",
+            "url": "/miscellany/nassim-taleb-on-joe-walker/#prompt-1",
+            "heading": "Taleb's contrast between thin tails and fat tails changes how risk should be read",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
@@ -2801,41 +1304,128 @@
         ]
       },
       {
-        "queueIndex": 496,
-        "sectionName": "Epistemology",
-        "pageTitle": "The Web of Induction",
-        "pagePath": "/epistemology/the-web-of-induction/",
+        "queueIndex": 525,
+        "sectionName": "Philosophy of AI",
+        "pageTitle": "AI Defends Itself – Humor",
+        "pagePath": "/philosophy-of-ai/ai-defends-itself-humor/",
         "priorityBand": "polish",
         "worstScore": 100,
         "averageScore": 100.0,
-        "totalPromptSections": 2,
+        "totalPromptSections": 1,
         "needsReviewCount": 0,
         "needsGapFillCount": 0,
-        "polishOpportunityCount": 2,
+        "polishOpportunityCount": 1,
         "editorialIssues": [],
         "attentionSummary": [
-          "2 prompt sections are polish opportunities"
+          "1 prompt sections are polish opportunities"
         ],
         "focusAnchors": [
-          "prompt-1",
-          "prompt-2"
+          "prompt-1"
         ],
         "focusSections": [
           {
             "anchor": "prompt-1",
-            "url": "/epistemology/the-web-of-induction/#prompt-1",
-            "heading": "Epistemology may be a web of interdependent inductions",
+            "url": "/philosophy-of-ai/ai-defends-itself-humor/#prompt-1",
+            "heading": "A humorous self-defense can still make a serious point",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
             "needsGapFill": false,
             "polishOpportunity": true,
             "editorialIssues": []
-          },
+          }
+        ]
+      },
+      {
+        "queueIndex": 526,
+        "sectionName": "Philosophy of AI",
+        "pageTitle": "Self-Reported AI Capabilities: 06/24",
+        "pagePath": "/philosophy-of-ai/self-reported-ai-capabilities-06-24/",
+        "priorityBand": "polish",
+        "worstScore": 100,
+        "averageScore": 100.0,
+        "totalPromptSections": 1,
+        "needsReviewCount": 0,
+        "needsGapFillCount": 0,
+        "polishOpportunityCount": 1,
+        "editorialIssues": [],
+        "attentionSummary": [
+          "1 prompt sections are polish opportunities"
+        ],
+        "focusAnchors": [
+          "prompt-1"
+        ],
+        "focusSections": [
           {
-            "anchor": "prompt-2",
-            "url": "/epistemology/the-web-of-induction/#prompt-2",
-            "heading": "The real issue is what Human Nature and Its Degree of Honesty, Benevolence, and Intelligence changes once it becomes precise.",
+            "anchor": "prompt-1",
+            "url": "/philosophy-of-ai/self-reported-ai-capabilities-06-24/#prompt-1",
+            "heading": "Domains of AI capability",
+            "score": 100,
+            "level": "exceptional",
+            "needsReview": false,
+            "needsGapFill": false,
+            "polishOpportunity": true,
+            "editorialIssues": []
+          }
+        ]
+      },
+      {
+        "queueIndex": 527,
+        "sectionName": "Philosophy of Mind",
+        "pageTitle": "Rationality and Free Will",
+        "pagePath": "/philosophy-of-mind/rationality-and-free-will/",
+        "priorityBand": "polish",
+        "worstScore": 100,
+        "averageScore": 100.0,
+        "totalPromptSections": 1,
+        "needsReviewCount": 0,
+        "needsGapFillCount": 0,
+        "polishOpportunityCount": 1,
+        "editorialIssues": [],
+        "attentionSummary": [
+          "1 prompt sections are polish opportunities"
+        ],
+        "focusAnchors": [
+          "prompt-1"
+        ],
+        "focusSections": [
+          {
+            "anchor": "prompt-1",
+            "url": "/philosophy-of-mind/rationality-and-free-will/#prompt-1",
+            "heading": "Can rationality be judged without first settling free will?",
+            "score": 100,
+            "level": "exceptional",
+            "needsReview": false,
+            "needsGapFill": false,
+            "polishOpportunity": true,
+            "editorialIssues": []
+          }
+        ]
+      },
+      {
+        "queueIndex": 528,
+        "sectionName": "Philosophy of Science",
+        "pageTitle": "Sorting Out Science Terms",
+        "pagePath": "/philosophy-of-science/sorting-out-science-terms/",
+        "priorityBand": "polish",
+        "worstScore": 100,
+        "averageScore": 100.0,
+        "totalPromptSections": 1,
+        "needsReviewCount": 0,
+        "needsGapFillCount": 0,
+        "polishOpportunityCount": 1,
+        "editorialIssues": [],
+        "attentionSummary": [
+          "1 prompt sections are polish opportunities"
+        ],
+        "focusAnchors": [
+          "prompt-1"
+        ],
+        "focusSections": [
+          {
+            "anchor": "prompt-1",
+            "url": "/philosophy-of-science/sorting-out-science-terms/#prompt-1",
+            "heading": "How to separate effect, efficacy, effectiveness, prevalence, and incidence",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
@@ -2848,467 +1438,6 @@
     ]
   },
   "upcomingBatches": [
-    {
-      "cycle": 1,
-      "startIndex": 496,
-      "endIndexExclusive": 528,
-      "pageCount": 32,
-      "priorityCounts": {
-        "polish": 32
-      },
-      "pages": [
-        {
-          "queueIndex": 497,
-          "sectionName": "Epistemology",
-          "pageTitle": "Types of Knowing",
-          "pagePath": "/epistemology/types-of-knowing/",
-          "priorityBand": "polish",
-          "worstScore": 100,
-          "averageScore": 100.0,
-          "totalPromptSections": 2,
-          "needsReviewCount": 0,
-          "needsGapFillCount": 0,
-          "polishOpportunityCount": 2,
-          "editorialIssues": [],
-          "attentionSummary": [
-            "2 prompt sections are polish opportunities"
-          ],
-          "focusAnchors": [
-            "prompt-1",
-            "prompt-2"
-          ],
-          "focusSections": [
-            {
-              "anchor": "prompt-1",
-              "url": "/epistemology/types-of-knowing/#prompt-1",
-              "heading": "The main kinds of knowledge philosophers distinguish",
-              "score": 100,
-              "level": "exceptional",
-              "needsReview": false,
-              "needsGapFill": false,
-              "polishOpportunity": true,
-              "editorialIssues": []
-            },
-            {
-              "anchor": "prompt-2",
-              "url": "/epistemology/types-of-knowing/#prompt-2",
-              "heading": "The real issue is what GEMINI Structured Comparison changes once it becomes precise.",
-              "score": 100,
-              "level": "exceptional",
-              "needsReview": false,
-              "needsGapFill": false,
-              "polishOpportunity": true,
-              "editorialIssues": []
-            }
-          ]
-        },
-        {
-          "queueIndex": 498,
-          "sectionName": "Epistemology",
-          "pageTitle": "Types of Reasoning",
-          "pagePath": "/epistemology/types-of-reasoning/",
-          "priorityBand": "polish",
-          "worstScore": 100,
-          "averageScore": 100.0,
-          "totalPromptSections": 2,
-          "needsReviewCount": 0,
-          "needsGapFillCount": 0,
-          "polishOpportunityCount": 2,
-          "editorialIssues": [],
-          "attentionSummary": [
-            "2 prompt sections are polish opportunities"
-          ],
-          "focusAnchors": [
-            "prompt-1",
-            "prompt-2"
-          ],
-          "focusSections": [
-            {
-              "anchor": "prompt-1",
-              "url": "/epistemology/types-of-reasoning/#prompt-1",
-              "heading": "Deduction, induction, and abduction do different jobs",
-              "score": 100,
-              "level": "exceptional",
-              "needsReview": false,
-              "needsGapFill": false,
-              "polishOpportunity": true,
-              "editorialIssues": []
-            },
-            {
-              "anchor": "prompt-2",
-              "url": "/epistemology/types-of-reasoning/#prompt-2",
-              "heading": "The real issue is what Case Studies Utilizing Deductive, Inductive, and Abductive Reasoning changes once it becomes precise.",
-              "score": 100,
-              "level": "exceptional",
-              "needsReview": false,
-              "needsGapFill": false,
-              "polishOpportunity": true,
-              "editorialIssues": []
-            }
-          ]
-        },
-        {
-          "queueIndex": 499,
-          "sectionName": "Epistemology",
-          "pageTitle": "What is Epistemic Updating?",
-          "pagePath": "/epistemology/what-is-epistemic-updating/",
-          "priorityBand": "polish",
-          "worstScore": 100,
-          "averageScore": 100.0,
-          "totalPromptSections": 2,
-          "needsReviewCount": 0,
-          "needsGapFillCount": 0,
-          "polishOpportunityCount": 2,
-          "editorialIssues": [],
-          "attentionSummary": [
-            "2 prompt sections are polish opportunities"
-          ],
-          "focusAnchors": [
-            "prompt-1",
-            "prompt-2"
-          ],
-          "focusSections": [
-            {
-              "anchor": "prompt-1",
-              "url": "/epistemology/what-is-epistemic-updating/#prompt-1",
-              "heading": "What is epistemic updating?",
-              "score": 100,
-              "level": "exceptional",
-              "needsReview": false,
-              "needsGapFill": false,
-              "polishOpportunity": true,
-              "editorialIssues": []
-            },
-            {
-              "anchor": "prompt-2",
-              "url": "/epistemology/what-is-epistemic-updating/#prompt-2",
-              "heading": "The real issue is what Medical Diagnosis and Treatment changes once it becomes precise.",
-              "score": 100,
-              "level": "exceptional",
-              "needsReview": false,
-              "needsGapFill": false,
-              "polishOpportunity": true,
-              "editorialIssues": []
-            }
-          ]
-        },
-        {
-          "queueIndex": 500,
-          "sectionName": "Ethics",
-          "pageTitle": "A History of Golden Rules",
-          "pagePath": "/ethics/a-history-of-golden-rules/",
-          "priorityBand": "polish",
-          "worstScore": 100,
-          "averageScore": 100.0,
-          "totalPromptSections": 2,
-          "needsReviewCount": 0,
-          "needsGapFillCount": 0,
-          "polishOpportunityCount": 2,
-          "editorialIssues": [],
-          "attentionSummary": [
-            "2 prompt sections are polish opportunities"
-          ],
-          "focusAnchors": [
-            "prompt-1",
-            "prompt-2"
-          ],
-          "focusSections": [
-            {
-              "anchor": "prompt-1",
-              "url": "/ethics/a-history-of-golden-rules/#prompt-1",
-              "heading": "What are the factors that make the emergence of a Golden Rule very likely in any civilization?",
-              "score": 100,
-              "level": "exceptional",
-              "needsReview": false,
-              "needsGapFill": false,
-              "polishOpportunity": true,
-              "editorialIssues": []
-            },
-            {
-              "anchor": "prompt-2",
-              "url": "/ethics/a-history-of-golden-rules/#prompt-2",
-              "heading": "The real issue is what The Need for Balance changes once it becomes precise.",
-              "score": 100,
-              "level": "exceptional",
-              "needsReview": false,
-              "needsGapFill": false,
-              "polishOpportunity": true,
-              "editorialIssues": []
-            }
-          ]
-        },
-        {
-          "queueIndex": 501,
-          "sectionName": "Ethics",
-          "pageTitle": "Essay: Moral Anti-Realism",
-          "pagePath": "/ethics/essay-moral-anti-realism/",
-          "priorityBand": "polish",
-          "worstScore": 100,
-          "averageScore": 100.0,
-          "totalPromptSections": 2,
-          "needsReviewCount": 0,
-          "needsGapFillCount": 0,
-          "polishOpportunityCount": 2,
-          "editorialIssues": [],
-          "attentionSummary": [
-            "2 prompt sections are polish opportunities"
-          ],
-          "focusAnchors": [
-            "prompt-1",
-            "prompt-2"
-          ],
-          "focusSections": [
-            {
-              "anchor": "prompt-1",
-              "url": "/ethics/essay-moral-anti-realism/#prompt-1",
-              "heading": "Moral anti-realism has to explain conscience without inventing moral facts",
-              "score": 100,
-              "level": "exceptional",
-              "needsReview": false,
-              "needsGapFill": false,
-              "polishOpportunity": true,
-              "editorialIssues": []
-            },
-            {
-              "anchor": "prompt-2",
-              "url": "/ethics/essay-moral-anti-realism/#prompt-2",
-              "heading": "The dialogue matters because it tests Moral realism in public.",
-              "score": 100,
-              "level": "exceptional",
-              "needsReview": false,
-              "needsGapFill": false,
-              "polishOpportunity": true,
-              "editorialIssues": []
-            }
-          ]
-        },
-        {
-          "queueIndex": 502,
-          "sectionName": "Ethics",
-          "pageTitle": "Meta-Ethics Focus #1",
-          "pagePath": "/ethics/meta-ethics-focus-1/",
-          "priorityBand": "polish",
-          "worstScore": 100,
-          "averageScore": 100.0,
-          "totalPromptSections": 2,
-          "needsReviewCount": 0,
-          "needsGapFillCount": 0,
-          "polishOpportunityCount": 2,
-          "editorialIssues": [],
-          "attentionSummary": [
-            "2 prompt sections are polish opportunities"
-          ],
-          "focusAnchors": [
-            "prompt-1",
-            "prompt-2"
-          ],
-          "focusSections": [
-            {
-              "anchor": "prompt-1",
-              "url": "/ethics/meta-ethics-focus-1/#prompt-1",
-              "heading": "If the agent does not grasp the moral fact, intent alone may not rescue culpability",
-              "score": 100,
-              "level": "exceptional",
-              "needsReview": false,
-              "needsGapFill": false,
-              "polishOpportunity": true,
-              "editorialIssues": []
-            },
-            {
-              "anchor": "prompt-2",
-              "url": "/ethics/meta-ethics-focus-1/#prompt-2",
-              "heading": "The real issue is what Implications for Moral Culpability changes once it becomes precise.",
-              "score": 100,
-              "level": "exceptional",
-              "needsReview": false,
-              "needsGapFill": false,
-              "polishOpportunity": true,
-              "editorialIssues": []
-            }
-          ]
-        },
-        {
-          "queueIndex": 503,
-          "sectionName": "Ethics",
-          "pageTitle": "Meta-Ethics Focus #2",
-          "pagePath": "/ethics/meta-ethics-focus-2/",
-          "priorityBand": "polish",
-          "worstScore": 100,
-          "averageScore": 100.0,
-          "totalPromptSections": 2,
-          "needsReviewCount": 0,
-          "needsGapFillCount": 0,
-          "polishOpportunityCount": 2,
-          "editorialIssues": [],
-          "attentionSummary": [
-            "2 prompt sections are polish opportunities"
-          ],
-          "focusAnchors": [
-            "prompt-1",
-            "prompt-2"
-          ],
-          "focusSections": [
-            {
-              "anchor": "prompt-1",
-              "url": "/ethics/meta-ethics-focus-2/#prompt-1",
-              "heading": "Agreement without shared grounding does not yet give you a moral fact",
-              "score": 100,
-              "level": "exceptional",
-              "needsReview": false,
-              "needsGapFill": false,
-              "polishOpportunity": true,
-              "editorialIssues": []
-            },
-            {
-              "anchor": "prompt-2",
-              "url": "/ethics/meta-ethics-focus-2/#prompt-2",
-              "heading": "Meta-Ethics Focus #2 requires sharper edges before the distinction can guide judgment.",
-              "score": 100,
-              "level": "exceptional",
-              "needsReview": false,
-              "needsGapFill": false,
-              "polishOpportunity": true,
-              "editorialIssues": []
-            }
-          ]
-        },
-        {
-          "queueIndex": 504,
-          "sectionName": "Ethics",
-          "pageTitle": "Torturing Babies",
-          "pagePath": "/ethics/torturing-babies/",
-          "priorityBand": "polish",
-          "worstScore": 100,
-          "averageScore": 100.0,
-          "totalPromptSections": 2,
-          "needsReviewCount": 0,
-          "needsGapFillCount": 0,
-          "polishOpportunityCount": 2,
-          "editorialIssues": [],
-          "attentionSummary": [
-            "2 prompt sections are polish opportunities"
-          ],
-          "focusAnchors": [
-            "prompt-1",
-            "prompt-2"
-          ],
-          "focusSections": [
-            {
-              "anchor": "prompt-1",
-              "url": "/ethics/torturing-babies/#prompt-1",
-              "heading": "Emotional horror and moral objectivity are not the same claim",
-              "score": 100,
-              "level": "exceptional",
-              "needsReview": false,
-              "needsGapFill": false,
-              "polishOpportunity": true,
-              "editorialIssues": []
-            },
-            {
-              "anchor": "prompt-2",
-              "url": "/ethics/torturing-babies/#prompt-2",
-              "heading": "The real issue is what Addressing Counters to AI Responses on Tom’s Position changes once it becomes precise.",
-              "score": 100,
-              "level": "exceptional",
-              "needsReview": false,
-              "needsGapFill": false,
-              "polishOpportunity": true,
-              "editorialIssues": []
-            }
-          ]
-        },
-        {
-          "queueIndex": 505,
-          "sectionName": "Humanistic Philosophies",
-          "pageTitle": "Testing Prayer",
-          "pagePath": "/humanistic-philosophies/testing-prayer/",
-          "priorityBand": "polish",
-          "worstScore": 100,
-          "averageScore": 100.0,
-          "totalPromptSections": 2,
-          "needsReviewCount": 0,
-          "needsGapFillCount": 0,
-          "polishOpportunityCount": 2,
-          "editorialIssues": [],
-          "attentionSummary": [
-            "2 prompt sections are polish opportunities"
-          ],
-          "focusAnchors": [
-            "prompt-1",
-            "prompt-2"
-          ],
-          "focusSections": [
-            {
-              "anchor": "prompt-1",
-              "url": "/humanistic-philosophies/testing-prayer/#prompt-1",
-              "heading": "Would this prayer test actually distinguish a real god from an invented one?",
-              "score": 100,
-              "level": "exceptional",
-              "needsReview": false,
-              "needsGapFill": false,
-              "polishOpportunity": true,
-              "editorialIssues": []
-            },
-            {
-              "anchor": "prompt-2",
-              "url": "/humanistic-philosophies/testing-prayer/#prompt-2",
-              "heading": "The real issue is what Analyzing Divine Concealment and the Role of Faith changes once it becomes precise.",
-              "score": 100,
-              "level": "exceptional",
-              "needsReview": false,
-              "needsGapFill": false,
-              "polishOpportunity": true,
-              "editorialIssues": []
-            }
-          ]
-        },
-        {
-          "queueIndex": 506,
-          "sectionName": "Introduction",
-          "pageTitle": "Analogies to a Philosophical Life",
-          "pagePath": "/introduction/analogies-to-a-philosophical-life/",
-          "priorityBand": "polish",
-          "worstScore": 100,
-          "averageScore": 100.0,
-          "totalPromptSections": 2,
-          "needsReviewCount": 0,
-          "needsGapFillCount": 0,
-          "polishOpportunityCount": 2,
-          "editorialIssues": [],
-          "attentionSummary": [
-            "2 prompt sections are polish opportunities"
-          ],
-          "focusAnchors": [
-            "prompt-1",
-            "prompt-2"
-          ],
-          "focusSections": [
-            {
-              "anchor": "prompt-1",
-              "url": "/introduction/analogies-to-a-philosophical-life/#prompt-1",
-              "heading": "A philosophical foundation is less ornament than structural support",
-              "score": 100,
-              "level": "exceptional",
-              "needsReview": false,
-              "needsGapFill": false,
-              "polishOpportunity": true,
-              "editorialIssues": []
-            },
-            {
-              "anchor": "prompt-2",
-              "url": "/introduction/analogies-to-a-philosophical-life/#prompt-2",
-              "heading": "The map of Books becomes useful once the parts stop doing different work.",
-              "score": 100,
-              "level": "exceptional",
-              "needsReview": false,
-              "needsGapFill": false,
-              "polishOpportunity": true,
-              "editorialIssues": []
-            }
-          ]
-        }
-      ]
-    },
     {
       "cycle": 2,
       "startIndex": 0,
@@ -3960,6 +2089,707 @@
           ]
         }
       ]
+    },
+    {
+      "cycle": 2,
+      "startIndex": 50,
+      "endIndexExclusive": 100,
+      "pageCount": 50,
+      "priorityCounts": {
+        "gap-fill": 50
+      },
+      "pages": [
+        {
+          "queueIndex": 51,
+          "sectionName": "Philosophers",
+          "pageTitle": "Daniel Dennett",
+          "pagePath": "/philosophers/daniel-dennett/",
+          "priorityBand": "gap-fill",
+          "worstScore": 90,
+          "averageScore": 97.5,
+          "totalPromptSections": 4,
+          "needsReviewCount": 0,
+          "needsGapFillCount": 4,
+          "polishOpportunityCount": 0,
+          "editorialIssues": [],
+          "attentionSummary": [
+            "4 prompt sections need gap fill"
+          ],
+          "focusAnchors": [
+            "prompt-1",
+            "prompt-2",
+            "prompt-3",
+            "prompt-4"
+          ],
+          "focusSections": [
+            {
+              "anchor": "prompt-1",
+              "url": "/philosophers/daniel-dennett/#prompt-1",
+              "heading": "Where Daniel Dennett still changes the questions later thinkers have to ask.",
+              "score": 90,
+              "level": "strong",
+              "needsReview": false,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-2",
+              "url": "/philosophers/daniel-dennett/#prompt-2",
+              "heading": "Where Daniel Dennett still shapes later thought.",
+              "score": 100,
+              "level": "exceptional",
+              "needsReview": false,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-3",
+              "url": "/philosophers/daniel-dennett/#prompt-3",
+              "heading": "Daniel Dennett becoming a notable philosopher becomes clearer once the parts stop doing different work.",
+              "score": 100,
+              "level": "exceptional",
+              "needsReview": false,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-4",
+              "url": "/philosophers/daniel-dennett/#prompt-4",
+              "heading": "The real issue is what Schools of Philosophical Thought changes once it becomes precise.",
+              "score": 100,
+              "level": "exceptional",
+              "needsReview": false,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            }
+          ]
+        },
+        {
+          "queueIndex": 52,
+          "sectionName": "Philosophers",
+          "pageTitle": "David Hume",
+          "pagePath": "/philosophers/david-hume/",
+          "priorityBand": "gap-fill",
+          "worstScore": 90,
+          "averageScore": 97.0,
+          "totalPromptSections": 4,
+          "needsReviewCount": 0,
+          "needsGapFillCount": 4,
+          "polishOpportunityCount": 0,
+          "editorialIssues": [],
+          "attentionSummary": [
+            "4 prompt sections need gap fill"
+          ],
+          "focusAnchors": [
+            "prompt-1",
+            "prompt-2",
+            "prompt-3",
+            "prompt-4"
+          ],
+          "focusSections": [
+            {
+              "anchor": "prompt-1",
+              "url": "/philosophers/david-hume/#prompt-1",
+              "heading": "Where David Hume still changes the questions later thinkers have to ask.",
+              "score": 90,
+              "level": "strong",
+              "needsReview": false,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-2",
+              "url": "/philosophers/david-hume/#prompt-2",
+              "heading": "Where David Hume still shapes later thought.",
+              "score": 98,
+              "level": "exceptional",
+              "needsReview": false,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-3",
+              "url": "/philosophers/david-hume/#prompt-3",
+              "heading": "David Hume becoming a notable philosopher becomes clearer once the parts stop doing different work.",
+              "score": 100,
+              "level": "exceptional",
+              "needsReview": false,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-4",
+              "url": "/philosophers/david-hume/#prompt-4",
+              "heading": "The real issue is what David Hume changes once it becomes precise.",
+              "score": 100,
+              "level": "exceptional",
+              "needsReview": false,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            }
+          ]
+        },
+        {
+          "queueIndex": 53,
+          "sectionName": "Philosophers",
+          "pageTitle": "Plato",
+          "pagePath": "/philosophers/plato-2/",
+          "priorityBand": "gap-fill",
+          "worstScore": 90,
+          "averageScore": 97.5,
+          "totalPromptSections": 4,
+          "needsReviewCount": 0,
+          "needsGapFillCount": 4,
+          "polishOpportunityCount": 0,
+          "editorialIssues": [],
+          "attentionSummary": [
+            "4 prompt sections need gap fill"
+          ],
+          "focusAnchors": [
+            "prompt-1",
+            "prompt-2",
+            "prompt-3",
+            "prompt-4"
+          ],
+          "focusSections": [
+            {
+              "anchor": "prompt-1",
+              "url": "/philosophers/plato-2/#prompt-1",
+              "heading": "Where Plato still changes the questions later thinkers have to ask.",
+              "score": 90,
+              "level": "strong",
+              "needsReview": false,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-2",
+              "url": "/philosophers/plato-2/#prompt-2",
+              "heading": "Where Plato still shapes later thought.",
+              "score": 100,
+              "level": "exceptional",
+              "needsReview": false,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-3",
+              "url": "/philosophers/plato-2/#prompt-3",
+              "heading": "Plato becoming a notable philosopher becomes clearer once the parts stop doing different work.",
+              "score": 100,
+              "level": "exceptional",
+              "needsReview": false,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-4",
+              "url": "/philosophers/plato-2/#prompt-4",
+              "heading": "The real issue is what Academic Domains changes once it becomes precise.",
+              "score": 100,
+              "level": "exceptional",
+              "needsReview": false,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            }
+          ]
+        },
+        {
+          "queueIndex": 54,
+          "sectionName": "Philosophers",
+          "pageTitle": "René Descartes",
+          "pagePath": "/philosophers/rene-descartes/",
+          "priorityBand": "gap-fill",
+          "worstScore": 90,
+          "averageScore": 97.5,
+          "totalPromptSections": 4,
+          "needsReviewCount": 0,
+          "needsGapFillCount": 4,
+          "polishOpportunityCount": 0,
+          "editorialIssues": [],
+          "attentionSummary": [
+            "4 prompt sections need gap fill"
+          ],
+          "focusAnchors": [
+            "prompt-1",
+            "prompt-2",
+            "prompt-3",
+            "prompt-4"
+          ],
+          "focusSections": [
+            {
+              "anchor": "prompt-1",
+              "url": "/philosophers/rene-descartes/#prompt-1",
+              "heading": "Where Rene Descartes’ still changes the questions later thinkers have to ask.",
+              "score": 90,
+              "level": "strong",
+              "needsReview": false,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-2",
+              "url": "/philosophers/rene-descartes/#prompt-2",
+              "heading": "Where Rene Descartes’ 7 greatest still shapes later thought.",
+              "score": 100,
+              "level": "exceptional",
+              "needsReview": false,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-3",
+              "url": "/philosophers/rene-descartes/#prompt-3",
+              "heading": "The real issue is what Intellectual Environment of the Renaissance and Early Modern Period changes once it becomes precise.",
+              "score": 100,
+              "level": "exceptional",
+              "needsReview": false,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-4",
+              "url": "/philosophers/rene-descartes/#prompt-4",
+              "heading": "The real issue is what René Descartes changes once it becomes precise.",
+              "score": 100,
+              "level": "exceptional",
+              "needsReview": false,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            }
+          ]
+        },
+        {
+          "queueIndex": 55,
+          "sectionName": "Philosophers",
+          "pageTitle": "Socrates",
+          "pagePath": "/philosophers/socrates/",
+          "priorityBand": "gap-fill",
+          "worstScore": 90,
+          "averageScore": 97.5,
+          "totalPromptSections": 4,
+          "needsReviewCount": 0,
+          "needsGapFillCount": 4,
+          "polishOpportunityCount": 0,
+          "editorialIssues": [],
+          "attentionSummary": [
+            "4 prompt sections need gap fill"
+          ],
+          "focusAnchors": [
+            "prompt-1",
+            "prompt-2",
+            "prompt-3",
+            "prompt-4"
+          ],
+          "focusSections": [
+            {
+              "anchor": "prompt-1",
+              "url": "/philosophers/socrates/#prompt-1",
+              "heading": "Where Socrates’ still changes the questions later thinkers have to ask.",
+              "score": 90,
+              "level": "strong",
+              "needsReview": false,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-2",
+              "url": "/philosophers/socrates/#prompt-2",
+              "heading": "Where Socrates’ 7 greatest still shapes later thought.",
+              "score": 100,
+              "level": "exceptional",
+              "needsReview": false,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-3",
+              "url": "/philosophers/socrates/#prompt-3",
+              "heading": "Socrates becoming a notable philosopher becomes clearer once the parts stop doing different work.",
+              "score": 100,
+              "level": "exceptional",
+              "needsReview": false,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-4",
+              "url": "/philosophers/socrates/#prompt-4",
+              "heading": "The real issue is what Academic Domains changes once it becomes precise.",
+              "score": 100,
+              "level": "exceptional",
+              "needsReview": false,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            }
+          ]
+        },
+        {
+          "queueIndex": 56,
+          "sectionName": "Philosophers",
+          "pageTitle": "Søren Kierkegaard",
+          "pagePath": "/philosophers/soren-kierkegaard/",
+          "priorityBand": "gap-fill",
+          "worstScore": 90,
+          "averageScore": 97.5,
+          "totalPromptSections": 4,
+          "needsReviewCount": 0,
+          "needsGapFillCount": 4,
+          "polishOpportunityCount": 0,
+          "editorialIssues": [],
+          "attentionSummary": [
+            "4 prompt sections need gap fill"
+          ],
+          "focusAnchors": [
+            "prompt-1",
+            "prompt-2",
+            "prompt-3",
+            "prompt-4"
+          ],
+          "focusSections": [
+            {
+              "anchor": "prompt-1",
+              "url": "/philosophers/soren-kierkegaard/#prompt-1",
+              "heading": "Where Soren Kierkegaard still changes the questions later thinkers have to ask.",
+              "score": 90,
+              "level": "strong",
+              "needsReview": false,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-2",
+              "url": "/philosophers/soren-kierkegaard/#prompt-2",
+              "heading": "Where Soren Kierkegaard still shapes later thought.",
+              "score": 100,
+              "level": "exceptional",
+              "needsReview": false,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-3",
+              "url": "/philosophers/soren-kierkegaard/#prompt-3",
+              "heading": "Soren Kierkegaard becoming a notable philosopher becomes clearer once the parts stop doing different work.",
+              "score": 100,
+              "level": "exceptional",
+              "needsReview": false,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-4",
+              "url": "/philosophers/soren-kierkegaard/#prompt-4",
+              "heading": "The real issue is what Academic Domains changes once it becomes precise.",
+              "score": 100,
+              "level": "exceptional",
+              "needsReview": false,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            }
+          ]
+        },
+        {
+          "queueIndex": 57,
+          "sectionName": "Philosophers",
+          "pageTitle": "Bertrand Russell",
+          "pagePath": "/philosophers/bertrand-russell/",
+          "priorityBand": "gap-fill",
+          "worstScore": 93,
+          "averageScore": 98.2,
+          "totalPromptSections": 4,
+          "needsReviewCount": 0,
+          "needsGapFillCount": 4,
+          "polishOpportunityCount": 0,
+          "editorialIssues": [],
+          "attentionSummary": [
+            "4 prompt sections need gap fill"
+          ],
+          "focusAnchors": [
+            "prompt-1",
+            "prompt-2",
+            "prompt-3",
+            "prompt-4"
+          ],
+          "focusSections": [
+            {
+              "anchor": "prompt-1",
+              "url": "/philosophers/bertrand-russell/#prompt-1",
+              "heading": "Where Bertrand Russell still changes the questions later thinkers have to ask.",
+              "score": 93,
+              "level": "strong",
+              "needsReview": false,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-2",
+              "url": "/philosophers/bertrand-russell/#prompt-2",
+              "heading": "Where Bertrand Russell still shapes later thought.",
+              "score": 100,
+              "level": "exceptional",
+              "needsReview": false,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-3",
+              "url": "/philosophers/bertrand-russell/#prompt-3",
+              "heading": "Russell becoming a notable philosopher becomes clearer once the parts stop doing different work.",
+              "score": 100,
+              "level": "exceptional",
+              "needsReview": false,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-4",
+              "url": "/philosophers/bertrand-russell/#prompt-4",
+              "heading": "The real issue is what Bertrand Russell changes once it becomes precise.",
+              "score": 100,
+              "level": "exceptional",
+              "needsReview": false,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            }
+          ]
+        },
+        {
+          "queueIndex": 58,
+          "sectionName": "Philosophers",
+          "pageTitle": "Charles Sanders Peirce",
+          "pagePath": "/philosophers/charles-sanders-peirce/",
+          "priorityBand": "gap-fill",
+          "worstScore": 93,
+          "averageScore": 98.2,
+          "totalPromptSections": 4,
+          "needsReviewCount": 0,
+          "needsGapFillCount": 4,
+          "polishOpportunityCount": 0,
+          "editorialIssues": [],
+          "attentionSummary": [
+            "4 prompt sections need gap fill"
+          ],
+          "focusAnchors": [
+            "prompt-1",
+            "prompt-2",
+            "prompt-3",
+            "prompt-4"
+          ],
+          "focusSections": [
+            {
+              "anchor": "prompt-1",
+              "url": "/philosophers/charles-sanders-peirce/#prompt-1",
+              "heading": "Where Charles Sanders Peirce still changes the questions later thinkers have to ask.",
+              "score": 93,
+              "level": "strong",
+              "needsReview": false,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-2",
+              "url": "/philosophers/charles-sanders-peirce/#prompt-2",
+              "heading": "Where Peirce’s Top still shapes later thought.",
+              "score": 100,
+              "level": "exceptional",
+              "needsReview": false,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-3",
+              "url": "/philosophers/charles-sanders-peirce/#prompt-3",
+              "heading": "The real issue is what Causes Behind Peirce’s Prominence as a Philosopher changes once it becomes precise.",
+              "score": 100,
+              "level": "exceptional",
+              "needsReview": false,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-4",
+              "url": "/philosophers/charles-sanders-peirce/#prompt-4",
+              "heading": "The real issue is what Influence of Peirce’s Philosophy on Various Domains changes once it becomes precise.",
+              "score": 100,
+              "level": "exceptional",
+              "needsReview": false,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            }
+          ]
+        },
+        {
+          "queueIndex": 59,
+          "sectionName": "Philosophers",
+          "pageTitle": "Jacques Derrida",
+          "pagePath": "/philosophers/jacques-derrida/",
+          "priorityBand": "gap-fill",
+          "worstScore": 93,
+          "averageScore": 98.2,
+          "totalPromptSections": 4,
+          "needsReviewCount": 0,
+          "needsGapFillCount": 4,
+          "polishOpportunityCount": 0,
+          "editorialIssues": [],
+          "attentionSummary": [
+            "4 prompt sections need gap fill"
+          ],
+          "focusAnchors": [
+            "prompt-1",
+            "prompt-2",
+            "prompt-3",
+            "prompt-4"
+          ],
+          "focusSections": [
+            {
+              "anchor": "prompt-1",
+              "url": "/philosophers/jacques-derrida/#prompt-1",
+              "heading": "Where Jacques Derrida still changes the questions later thinkers have to ask.",
+              "score": 93,
+              "level": "strong",
+              "needsReview": false,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-2",
+              "url": "/philosophers/jacques-derrida/#prompt-2",
+              "heading": "Where Jacques Derrida still shapes later thought.",
+              "score": 100,
+              "level": "exceptional",
+              "needsReview": false,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-3",
+              "url": "/philosophers/jacques-derrida/#prompt-3",
+              "heading": "Causes Behind Derrida Becoming a Notable Philosopher becomes clearer once the parts stop doing different work.",
+              "score": 100,
+              "level": "exceptional",
+              "needsReview": false,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-4",
+              "url": "/philosophers/jacques-derrida/#prompt-4",
+              "heading": "The real issue is what Academic Domains Influenced by Derrida changes once it becomes precise.",
+              "score": 100,
+              "level": "exceptional",
+              "needsReview": false,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            }
+          ]
+        },
+        {
+          "queueIndex": 60,
+          "sectionName": "Philosophers",
+          "pageTitle": "John Locke",
+          "pagePath": "/philosophers/john-locke/",
+          "priorityBand": "gap-fill",
+          "worstScore": 93,
+          "averageScore": 98.2,
+          "totalPromptSections": 4,
+          "needsReviewCount": 0,
+          "needsGapFillCount": 4,
+          "polishOpportunityCount": 0,
+          "editorialIssues": [],
+          "attentionSummary": [
+            "4 prompt sections need gap fill"
+          ],
+          "focusAnchors": [
+            "prompt-1",
+            "prompt-2",
+            "prompt-3",
+            "prompt-4"
+          ],
+          "focusSections": [
+            {
+              "anchor": "prompt-1",
+              "url": "/philosophers/john-locke/#prompt-1",
+              "heading": "Where John Locke still changes the questions later thinkers have to ask.",
+              "score": 93,
+              "level": "strong",
+              "needsReview": false,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-2",
+              "url": "/philosophers/john-locke/#prompt-2",
+              "heading": "Where John Locke still shapes later thought.",
+              "score": 100,
+              "level": "exceptional",
+              "needsReview": false,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-3",
+              "url": "/philosophers/john-locke/#prompt-3",
+              "heading": "Locke becoming a notable philosopher becomes clearer once the parts stop doing different work.",
+              "score": 100,
+              "level": "exceptional",
+              "needsReview": false,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-4",
+              "url": "/philosophers/john-locke/#prompt-4",
+              "heading": "Where Locke still shapes whole traditions.",
+              "score": 100,
+              "level": "exceptional",
+              "needsReview": false,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            }
+          ]
+        }
+      ]
     }
   ],
   "history": [
@@ -4022,6 +2852,16 @@
       "wrappedToNextCycle": false,
       "firstPagePath": "/metaphysics/objectively-subjectively-real/",
       "lastPagePath": "/philosophy-of-mind/iq-evolution/"
+    },
+    {
+      "completedAt": "2026-06-23",
+      "cycle": 1,
+      "startIndex": 446,
+      "endIndexExclusive": 496,
+      "pageCount": 50,
+      "wrappedToNextCycle": false,
+      "firstPagePath": "/philosophy-of-mind/iq-intelligence-quotient/",
+      "lastPagePath": "/epistemology/the-web-of-induction/"
     }
   ],
   "pages": [
