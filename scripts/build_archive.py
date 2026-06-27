@@ -6295,6 +6295,167 @@ def philosopher_expansion_items(page: dict) -> list[str]:
     ]
 
 
+def current_batch_generic_paragraphs(page: dict, prompt: str, detail: dict | None = None) -> list[str]:
+    topic = topic_label(page["title"])
+    focus = prompt_focus(prompt)
+    current_labels = current_batch_learning_labels(page, prompt, detail, 3)
+    label_text = serial_join(current_labels[:3]) or topic
+    key = short_prompt_key(prompt, topic)
+    key_text = clean_discussion_key(key, topic, topic)
+    if command_like_key(key_text):
+        key_text = topic
+    focus_openers = {
+        "definition": f"The section should clarify how {key_text} is being used, where it differs from nearby ideas, and why that difference changes judgment.",
+        "mapping": f"The section works only if the reader can see how {label_text} connect, compete, or depend on one another rather than collapsing into one blurred summary.",
+        "examples": f"The payoff here is practical. A concrete case should make {key_text} easier to test, not merely easier to paraphrase.",
+        "argument": f"The pressure point is whether {key_text} survives the strongest reasonable objection rather than only sounding plausible in isolation.",
+        "description": f"The description earns its keep only if it teaches the reader what to notice first about {key_text} and what confusion to avoid.",
+        "inquiry": f"The question matters because it changes what the reader would now compare, doubt, or investigate about {key_text}.",
+    }
+    paragraphs = [focus_openers.get(focus, focus_openers["inquiry"])]
+    claim = first_source_claim(detail)
+    if claim and not source_sentence_is_incomplete(claim):
+        paragraphs.append(f"At the center is a simpler claim: {claim}")
+    elif current_labels:
+        paragraphs.append(
+            f"The useful distinctions here run through {label_text}. Those parts matter because they do different explanatory work inside {topic}."
+        )
+    if current_labels:
+        if len(current_labels) >= 2:
+            paragraphs.append(
+                f"{current_labels[0]} and {current_labels[1]} need to stay distinct here, because they answer different questions and carry different explanatory weight."
+            )
+        else:
+            paragraphs.append(
+                f"{current_labels[0]} should act as a real lever in the discussion, not as a heading that merely makes the page look organized."
+            )
+    else:
+        paragraphs.append(
+            f"The section should leave {topic} more operational than it found it: clearer about what is being claimed, what would test it, and what would force revision."
+        )
+    return paragraphs[:3]
+
+
+def current_batch_philosopher_paragraphs(page: dict, prompt: str, detail: dict | None = None) -> list[str] | None:
+    topic = topic_label(page["title"])
+    profile = philosopher_profile_for_title(page["title"])
+    collective = philosopher_page_is_collective(page, topic, profile)
+    family = philosopher_prompt_family(page, prompt)
+
+    if not profile and not collective:
+        return None
+
+    if collective and not profile:
+        frame = philosopher_family_frame_paragraph(page, prompt, [], profile)
+        intro = philosopher_family_intro(page, prompt, [], profile)
+        distinction = philosopher_family_distinction_paragraph(page, prompt, ["the shared method", "the first internal fracture"], profile)
+        return [
+            intro,
+            frame,
+            distinction,
+            philosopher_expansion_paragraph(page, prompt),
+        ]
+
+    assert profile is not None
+    concept_labels = [split_label(concept)[0] or clean_text(concept) for concept in profile["concepts"][:4]]
+    concept_text = serial_join(concept_labels[:3])
+    method_sentence = philosopher_method_sentence(profile)
+
+    if family in {"influence", "becoming", "inheritance"}:
+        return [
+            f"{topic} matters because {profile['signature']}. The page should make that pressure visible before it starts naming later admirers or descendants.",
+            f"Read the view against its original scene: {profile['period']}. That setting shows which inherited problem {topic} is trying to rework rather than merely which century to memorize.",
+            f"{method_sentence} That method is part of the importance, because it changes how later readers sort liberty, agency, truth, duty, or social life once the page's central distinction becomes clear.",
+            f"The inheritance test is concrete: remove {topic} from the story and ask which later debates in {profile['legacy']} become harder to state, defend, or criticize with the same precision.",
+        ]
+
+    if family in {"contributions", "concepts"}:
+        return [
+            f"The page should map {topic} through usable moving parts, not through a respectful cloud of themes. {concept_text} matter because they divide the philosophical labor instead of repeating one another.",
+            f"Treat {profile['signature']} as the governing pressure, then ask how {concept_text} each carry a different part of that burden.",
+            f"{method_sentence} The method matters because it shows why these concepts work together as a style of inquiry rather than as isolated glossary entries.",
+            f"A good reading leaves the reader able to apply at least one of these distinctions to a live case and to say where the framework starts to strain under objection.",
+        ]
+
+    if family == "objection":
+        return [
+            f"The objection matters because it targets the cost of {profile['signature']}, not just a decorative detail around it.",
+            f"The pressure point is {profile['pressure']}. A good section should let that challenge land in plain language before it tries to rescue the view.",
+            f"{method_sentence} That matters even in defense, because the strongest reply should sound like {topic} thinking through the problem rather than like a generic fan summary.",
+            f"The reader should finish with a fair test: what would count as a genuine failure of the view, and what would count as a merely impatient reading of it?",
+        ]
+
+    if family == "entry":
+        return [
+            f"A strong entry into {topic} gives the reader one honest foothold: {profile['begin']}",
+            f"Start there, but keep the surrounding pressure in view. {profile['signature']} is the payoff, while {profile['pressure']} is the reason the page cannot stop at admiration.",
+            f"{method_sentence} That is why the best first reading is usually slower and more contrastive than a quick survey of conclusions.",
+            f"A contemporary reader is ready to move on once the page yields one reusable distinction, one likely misunderstanding, and one neighboring debate in {profile['legacy']} worth following next.",
+        ]
+
+    return [
+        philosopher_family_intro(page, prompt, concept_labels[:3], profile),
+        philosopher_family_frame_paragraph(page, prompt, concept_labels[:3], profile),
+        philosopher_family_distinction_paragraph(page, prompt, concept_labels[:2], profile),
+        philosopher_expansion_paragraph(page, prompt),
+    ]
+
+
+def current_batch_philosopher_items(page: dict, prompt: str) -> list[str] | None:
+    topic = topic_label(page["title"])
+    profile = philosopher_profile_for_title(page["title"])
+    collective = philosopher_page_is_collective(page, topic, profile)
+    family = philosopher_prompt_family(page, prompt)
+
+    if collective and not profile:
+        return [
+            f"Shared trait: Identify the family resemblance that makes {topic} more than a filing cabinet of names.",
+            "First fracture: Name the earliest serious disagreement inside the school so unity does not become flattening.",
+            "Representative figures: Use at least two thinkers to show how the same tradition branches under pressure.",
+            "Present value: Explain what question this school still helps later readers ask more sharply.",
+        ]
+
+    if not profile:
+        return None
+
+    concept_items = [
+        f"{split_label(concept)[0] or clean_text(concept)}: {split_label(concept)[1] or clean_text(concept)}"
+        for concept in profile["concepts"][:4]
+    ]
+
+    if family in {"influence", "becoming", "inheritance"}:
+        return [
+            f"Signature contribution: {profile['signature'][:1].upper() + profile['signature'][1:]}.",
+            f"Historical setting: {profile['period'][:1].upper() + profile['period'][1:]}.",
+            f"Influence trail: {profile['legacy'][:1].upper() + profile['legacy'][1:]}.",
+            f"Pressure point: {profile['pressure'][:1].upper() + profile['pressure'][1:]}.",
+            f"Method: {profile['method'][:1].upper() + profile['method'][1:]}.",
+        ]
+
+    if family in {"contributions", "concepts"}:
+        return concept_items + [
+            f"Method under the concepts: {profile['method'][:1].upper() + profile['method'][1:]}.",
+        ]
+
+    if family == "objection":
+        return [
+            f"Target of the objection: {profile['signature'][:1].upper() + profile['signature'][1:]}.",
+            f"Why the objection bites: {profile['pressure'][:1].upper() + profile['pressure'][1:]}.",
+            f"Likely defense: {profile['method'][:1].upper() + profile['method'][1:]} keeps the reply tied to how {topic} actually reasons.",
+            f"Live test: Ask whether one of {serial_join([split_label(concept)[0] or clean_text(concept) for concept in profile['concepts'][:3]])} helps answer the challenge or merely restates the view.",
+        ]
+
+    if family == "entry":
+        return [
+            f"First foothold: {profile['begin'][:1].upper() + profile['begin'][1:]}",
+            f"Primary texts nearby: {philosopher_primary_texts(page, topic, profile)}.",
+            f"Concepts to watch for: {serial_join([split_label(concept)[0] or clean_text(concept) for concept in profile['concepts'][:4]])}.",
+            f"Misreading to avoid: Do not reduce {topic} to a slogan once {profile['signature']} has become memorable.",
+        ]
+
+    return philosopher_expansion_items(page)
+
+
 def compact_table_cell(text: str, limit: int = 360) -> str:
     cleaned = clean_text(text)
     cleaned = re.sub(r"\s+", " ", cleaned).strip()
@@ -15945,42 +16106,14 @@ def prompt_response_paragraphs(page: dict, prompt: str, index: int, detail: dict
     claim = first_source_claim(detail)
     philosopher_profile = philosopher_profile_for_title(page["title"]) if page["section_id"] == "philosophers" else None
 
+    if is_current_editorial_batch_page(page) and page["section_id"] == "philosophers":
+        philosopher_paragraphs = current_batch_philosopher_paragraphs(page, prompt, detail)
+        if philosopher_paragraphs:
+            return philosopher_paragraphs
+        return current_batch_generic_paragraphs(page, prompt, detail)
+
     if is_current_editorial_batch_page(page) and page["section_id"] != "philosophers":
-        current_labels = current_batch_learning_labels(page, prompt, detail, 3)
-        label_text = serial_join(current_labels[:3]) or topic
-        key = short_prompt_key(prompt, topic)
-        key_text = clean_discussion_key(key, topic, topic)
-        if command_like_key(key_text):
-            key_text = topic
-        focus_openers = {
-            "definition": f"The section should clarify how {key_text} is being used, where it differs from nearby ideas, and why that difference changes judgment.",
-            "mapping": f"The section works only if the reader can see how {label_text} connect, compete, or depend on one another rather than collapsing into one blurred summary.",
-            "examples": f"The payoff here is practical. A concrete case should make {key_text} easier to test, not merely easier to paraphrase.",
-            "argument": f"The pressure point is whether {key_text} survives the strongest reasonable objection rather than only sounding plausible in isolation.",
-            "description": f"The description earns its keep only if it teaches the reader what to notice first about {key_text} and what confusion to avoid.",
-            "inquiry": f"The question matters because it changes what the reader would now compare, doubt, or investigate about {key_text}.",
-        }
-        paragraphs = [focus_openers.get(focus, focus_openers["inquiry"])]
-        if claim and not source_sentence_is_incomplete(claim):
-            paragraphs.append(f"At the center is a simpler claim: {claim}")
-        elif current_labels:
-            paragraphs.append(
-                f"The useful distinctions here run through {label_text}. Those parts matter because they do different explanatory work inside {topic}."
-            )
-        if current_labels:
-            if len(current_labels) >= 2:
-                paragraphs.append(
-                    f"{current_labels[0]} and {current_labels[1]} need to stay distinct here, because they answer different questions and carry different explanatory weight."
-                )
-            else:
-                paragraphs.append(
-                    f"{current_labels[0]} should act as a real lever in the discussion, not as a heading that merely makes the page look organized."
-                )
-        else:
-            paragraphs.append(
-                f"The section should leave {topic} more operational than it found it: clearer about what is being claimed, what would test it, and what would force revision."
-            )
-        return paragraphs[:3]
+        return current_batch_generic_paragraphs(page, prompt, detail)
 
     def pressure_sentence(key_text: str) -> str:
         if key_text in {"the central question", "the opening question", "the opening pressure", "this question"}:
@@ -17913,6 +18046,10 @@ def section_list_items(page: dict, index: int, prompt: str, detail: dict | None 
     sourced_items = source_detail_list_items(detail, page)
     if sourced_items:
         return sourced_items
+    if is_current_editorial_batch_page(page) and page["section_id"] == "philosophers":
+        philosopher_items = current_batch_philosopher_items(page, prompt)
+        if philosopher_items:
+            return philosopher_items
 
     threads = usable_thread_items(page.get("thread_like", []))
     focus = prompt_focus(prompt)
