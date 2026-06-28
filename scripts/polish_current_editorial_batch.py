@@ -6,6 +6,22 @@ import json
 import re
 from pathlib import Path
 
+from bs4 import BeautifulSoup
+
+from build_archive import (
+    PHILOSOPHER_SOURCE_WORKS,
+    current_batch_philosopher_example_paragraph,
+    current_batch_philosopher_items,
+    current_batch_philosopher_paragraphs,
+    philosopher_base_name,
+    philosopher_page_is_collective,
+    philosopher_profile_for_title,
+    philosopher_source_work_fallback,
+    render_inline_text,
+    render_list_section,
+    render_paragraphs,
+)
+
 
 ROOT = Path(__file__).resolve().parents[1]
 TRACKER_PATH = ROOT / "quality" / "editorial-audit-tracker.json"
@@ -235,6 +251,82 @@ def rewrite_paragraph(match: re.Match[str]) -> str:
     return match.group(0)
 
 
+def page_dict_for_path(path: Path, page_title: str) -> dict:
+    built_path = "/" + path.parent.relative_to(ROOT).as_posix().strip("/") + "/"
+    return {
+        "title": page_title,
+        "section_id": path.parts[-3] if len(path.parts) >= 3 else path.parent.name,
+        "built_path": built_path,
+        "kind": "article",
+    }
+
+
+def replace_with_fragment(node, html_fragment: str) -> None:
+    fragment = BeautifulSoup(html_fragment, "html.parser")
+    replacement = fragment.find()
+    if replacement is not None:
+        node.replace_with(replacement)
+
+
+def polish_current_batch_philosopher_page(path: Path, original: str, page_title: str) -> str:
+    page = page_dict_for_path(path, page_title)
+    if page["section_id"] != "philosophers":
+        return original
+
+    profile = philosopher_profile_for_title(page_title)
+    if not profile and not philosopher_page_is_collective(page, page_title, profile):
+        return original
+
+    soup = BeautifulSoup(original, "html.parser")
+
+    base = philosopher_base_name(page_title)
+    source_work = (
+        PHILOSOPHER_SOURCE_WORKS.get(base)
+        or PHILOSOPHER_SOURCE_WORKS.get(page_title)
+        or philosopher_source_work_fallback(page, page_title, profile)
+    )
+    for card in soup.select("#source-texture .source-dossier__card"):
+        label = card.select_one(".mini-label")
+        body = card.find_all("p")
+        if not label or len(body) < 2:
+            continue
+        if "Primary texts nearby" != " ".join(label.get_text(" ", strip=True).split()):
+            continue
+        body[-1].clear()
+        fragment = BeautifulSoup(render_inline_text(source_work), "html.parser")
+        for child in list(fragment.contents):
+            body[-1].append(child)
+        break
+
+    for section in soup.select("section.article-section--prompt[id^='prompt-']"):
+        prompt_note = section.find("p", class_="article-section__prompt", recursive=False)
+        heading = section.find("h2", recursive=False)
+        meta = section.find("div", class_="article-section__meta", recursive=False)
+        learning_card = section.find("aside", class_="learning-card")
+        if not prompt_note or not heading or not meta:
+            continue
+        prompt_text = strip_tags(prompt_note.get_text(" ", strip=True))
+        prompt_text = re.sub(r"^Prompt\s+\d+\s*:\s*", "", prompt_text, flags=re.IGNORECASE)
+        paragraphs = current_batch_philosopher_paragraphs(page, prompt_text, None) or []
+        example = current_batch_philosopher_example_paragraph(page, prompt_text)
+        if example and example not in paragraphs:
+            paragraphs.append(example)
+        list_items = current_batch_philosopher_items(page, prompt_text) or []
+        new_section_html = (
+            f'<section class="{" ".join(section.get("class", []))}" id="{section.get("id", "")}">'
+            f"{str(meta)}"
+            f"{str(prompt_note)}"
+            f"{str(heading)}"
+            f"{render_paragraphs(paragraphs)}"
+            f"{render_list_section(list_items)}"
+            f"{str(learning_card) if learning_card else ''}"
+            "</section>"
+        )
+        replace_with_fragment(section, new_section_html)
+
+    return str(soup)
+
+
 def clean_html(original: str, page_title: str) -> str:
     updated = original
     for old, new in TEXT_REPLACEMENTS.items():
@@ -256,6 +348,7 @@ def clean_page(path: Path) -> bool:
     page_title_match = re.search(r"<h1>(?P<title>.*?)</h1>", original, re.DOTALL)
     page_title = strip_tags(page_title_match.group("title")) if page_title_match else path.parent.name
     updated = clean_html(original, page_title)
+    updated = polish_current_batch_philosopher_page(path, updated, page_title)
     if updated == original:
         return False
     path.write_text(updated)

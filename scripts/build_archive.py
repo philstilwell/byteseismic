@@ -2907,6 +2907,7 @@ PHILOSOPHER_NAME_ALIASES = {
 PHILOSOPHER_NAME_ALIASES.update(
     {
         "Adorno": "Theodor Adorno",
+        "Theodor W. Adorno": "Theodor Adorno",
         "Aurelius": "Marcus Aurelius",
         "Beauvoir": "Simone de Beauvoir",
         "Berkeley": "George Berkeley",
@@ -3971,18 +3972,26 @@ PHILOSOPHER_SOURCE_WORKS = {
     "Jean-Jacques Rousseau": "Discourse on Inequality and The Social Contract",
     "John Rawls": "A Theory of Justice and Political Liberalism",
     "John Stuart Mill": "On Liberty and Utilitarianism",
+    "Judith Butler": "Gender Trouble, Bodies That Matter, and Undoing Gender",
+    "Jurgen Habermas": "The Structural Transformation of the Public Sphere, The Theory of Communicative Action, and Between Facts and Norms",
     "Laozi": "Daodejing",
     "Ludwig Wittgenstein": "Tractatus Logico-Philosophicus and Philosophical Investigations",
+    "Maimonides": "Guide for the Perplexed and Mishneh Torah",
     "Marcus Aurelius": "Meditations",
     "Maurice Merleau-Ponty": "Phenomenology of Perception and The Visible and the Invisible",
     "Mary Wollstonecraft": "A Vindication of the Rights of Woman",
+    "Mencius": "Mencius",
     "Nagarjuna": "Mulamadhyamakakarika",
     "Niccolo Machiavelli": "The Prince and Discourses on Livy",
     "Parmenides": "the poem On Nature",
+    "Philosopher Club Membership": "the classificatory criteria, counterexamples, and branch debates used to test who counts as a philosopher",
+    "Philosophers or Philosophy?": "the branch debates comparing thinker-centered and concept-centered entry points into philosophy",
+    "Philosophical Gradients": "the examples, continua, and branch debates that show why philosophical categories often blur at the edges",
     "Plato": "Apology, Republic, Meno, and later dialogues",
     "Plotinus": "Enneads",
     "Rene Descartes": "Meditations on First Philosophy and Discourse on Method",
     "René Descartes": "Meditations on First Philosophy and Discourse on Method",
+    "Saul Kripke": "Naming and Necessity, Wittgenstein on Rules and Private Language, and selected modal essays",
     "Simone de Beauvoir": "The Second Sex and The Ethics of Ambiguity",
     "Søren Kierkegaard": "Fear and Trembling and Concluding Unscientific Postscript",
     "Socrates": "Plato's Apology and early dialogues",
@@ -4018,11 +4027,21 @@ PHILOSOPHER_SOURCE_WORKS.update(
         "Shankara": "Brahma Sutra Bhashya, Upadesa Sahasri, and commentaries on the Upanishads",
         "Seneca": "Letters to Lucilius and On the Shortness of Life",
         "Theodor Adorno": "Minima Moralia, Negative Dialectics, and Dialectic of Enlightenment",
+        "Walter Benjamin": "The Work of Art in the Age of Mechanical Reproduction, Theses on the Philosophy of History, and The Arcades Project",
         "Thomas Hobbes": "Leviathan and De Cive",
         "William James": "The Will to Believe, Pragmatism, and The Varieties of Religious Experience",
         "Xunzi": "Xunzi",
     }
 )
+
+
+def philosopher_primary_texts(page: dict, philosopher: str, profile: dict | None) -> str:
+    base = philosopher_base_name(page.get("title", philosopher))
+    return (
+        PHILOSOPHER_SOURCE_WORKS.get(base)
+        or PHILOSOPHER_SOURCE_WORKS.get(philosopher)
+        or philosopher_source_work_fallback(page, philosopher, profile)
+    )
 
 FEATURED_PATHS_BY_TITLE = {
     spec["title"].lower(): (spec["section_id"], spec["path"]) for spec in FEATURED_PAGE_SPECS
@@ -6361,12 +6380,20 @@ def current_batch_philosopher_paragraphs(page: dict, prompt: str, detail: dict |
     concept_text = serial_join(concept_labels[:3])
     method_sentence = philosopher_method_sentence(profile)
 
-    if family in {"influence", "becoming", "inheritance"}:
+    if family in {"influence", "inheritance"}:
         return [
             f"{topic} matters because {profile['signature']}. The page should make that pressure visible before it starts naming later admirers or descendants.",
             f"Read the view against its original scene: {profile['period']}. That setting shows which inherited problem {topic} is trying to rework rather than merely which century to memorize.",
             f"{method_sentence} That method is part of the importance, because it changes how later readers sort liberty, agency, truth, duty, or social life once the page's central distinction becomes clear.",
             f"The inheritance test is concrete: remove {topic} from the story and ask which later debates in {profile['legacy']} become harder to state, defend, or criticize with the same precision.",
+        ]
+
+    if family == "becoming":
+        return [
+            f"{topic} became notable because {profile['signature']} arrived as an unusually sharp answer to a problem already building pressure in {profile['period']}.",
+            f"The setting matters because it supplied the audience, antagonists, and institutions that made {topic}'s questions legible rather than private brilliance left in a notebook.",
+            f"{method_sentence} That method did not merely state conclusions; it gave later readers a recognizable way of arguing, teaching, and pushing back.",
+            f"A better biography here asks what made the philosophy historically audible: which crisis, conversation, or inherited tension let {topic} stop being one voice among many and become a reference point others had to answer.",
         ]
 
     if family in {"contributions", "concepts"}:
@@ -6454,6 +6481,45 @@ def current_batch_philosopher_items(page: dict, prompt: str) -> list[str] | None
         ]
 
     return philosopher_expansion_items(page)
+
+
+def current_batch_philosopher_example_paragraph(page: dict, prompt: str) -> str | None:
+    topic = topic_label(page["title"])
+    profile = philosopher_profile_for_title(page["title"])
+    if not profile:
+        return None
+
+    family = philosopher_prompt_family(page, prompt)
+    concept_labels = [split_label(concept)[0] or clean_text(concept) for concept in profile["concepts"][:3]]
+    first = concept_labels[0]
+    second = concept_labels[1] if len(concept_labels) > 1 else first
+
+    if family in {"influence", "inheritance"}:
+        return (
+            f"Use one downstream case as a check on the page. Ask what happens in a later debate inside {profile['legacy']} if {topic}'s distinction around {first} is removed. "
+            "If the later argument immediately loses precision, the influence is doing real work rather than merely adding historical prestige."
+        )
+    if family == "becoming":
+        return (
+            f"Run the counterfactual in plain clothes. Keep the era but remove one enabling condition around {topic} such as a crisis, a rival school, a receptive audience, or a publishing venue. "
+            "If the thinker no longer becomes visible in the same way, the page has identified a real cause of historical lift-off rather than retelling a success story as destiny."
+        )
+    if family in {"contributions", "concepts"}:
+        return (
+            f"Take one live case and force the concepts to earn their keep. Put {first} and {second} on the same controversy, then ask which term is sorting the issue, which one is widening the frame, and where the framework begins to overreach."
+        )
+    if family == "objection":
+        return (
+            f"Make the objection concrete. Put {topic}'s central move under pressure from its strongest rival interpretation, then ask whether the reply actually protects {first} or only restates it in friendlier language. "
+            "A good defense should concede what the objection genuinely sees before naming what it still misses."
+        )
+    if family == "entry":
+        return (
+            f"Do not begin with total immersion. Start with one workable contrast, let {first} become the first stable handle, and then use {second} to show why {topic} cannot be reduced to a single memorable slogan."
+        )
+    return (
+        f"The most useful test is practical: bring {first} into contact with a neighboring debate and ask whether {topic} clarifies the disagreement or merely redescribes it in more elevated language."
+    )
 
 
 def compact_table_cell(text: str, limit: int = 360) -> str:
@@ -18319,6 +18385,48 @@ def source_prompt_sections(page: dict, prompts: list[str]) -> list[dict]:
         anchor = f"prompt-{index}"
         targeted_override = targeted_section_expansion(page, anchor) or {}
         detail_for_section = dict(detail or {})
+        current_batch_philosopher_profile = (
+            philosopher_profile_for_title(page["title"])
+            if is_current_editorial_batch_page(page) and page["section_id"] == "philosophers"
+            else None
+        )
+        current_batch_collective = (
+            philosopher_page_is_collective(page, topic_label(page["title"]), current_batch_philosopher_profile)
+            if is_current_editorial_batch_page(page) and page["section_id"] == "philosophers"
+            else False
+        )
+        if current_batch_philosopher_profile or current_batch_collective:
+            paragraphs = current_batch_philosopher_paragraphs(page, prompt, detail_for_section) or []
+            example_paragraph = current_batch_philosopher_example_paragraph(page, prompt)
+            if example_paragraph:
+                append_unique_paragraph(paragraphs, example_paragraph)
+            list_items = current_batch_philosopher_items(page, prompt) or []
+            quality = quality_assessment(page, prompt, detail_for_section, paragraphs, list_items, True)
+            sections.append(
+                {
+                    "id": anchor,
+                    "eyebrow": "Composite Response",
+                    "heading": targeted_section_heading(
+                        page,
+                        anchor,
+                        promote_prompt_faithful_heading(
+                            source_prompt_heading(prompt, topic_label(page["title"]), detail),
+                            prompt,
+                            topic_label(page["title"]),
+                            index,
+                            True,
+                        ),
+                    ),
+                    "paragraphs": paragraphs,
+                    "list_items": list_items,
+                    "comparison_tables": [],
+                    "dialogue_turns": [],
+                    "learning_items": pedagogical_checkpoints(page, prompt, detail_for_section),
+                    "prompt": prompt,
+                    "quality": quality,
+                }
+            )
+            continue
         if targeted_override.get("dialogue_turns"):
             detail_for_section["dialogue_turns"] = targeted_override["dialogue_turns"]
         if bespoke_marker_page and detail:
