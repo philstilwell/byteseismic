@@ -8,7 +8,7 @@
     "orphan_pages": 0,
     "oversized_assets": 0,
     "style_scars": 0,
-    "grammar_scars": 0,
+    "grammar_scars": 1,
     "seo_issues": 0,
     "duplicate_titles": 0,
     "duplicate_descriptions": 0,
@@ -23,7 +23,12 @@
   "orphan_pages": [],
   "oversized_assets": [],
   "style_scars": [],
-  "grammar_scars": [],
+  "grammar_scars": [
+    {
+      "page": "/philosophy-of-science/what-is-deduction/",
+      "issue": "double-and"
+    }
+  ],
   "seo_issues": [],
   "duplicate_titles": [],
   "duplicate_descriptions": [],

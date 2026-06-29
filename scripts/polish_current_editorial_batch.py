@@ -10,6 +10,7 @@ from bs4 import BeautifulSoup
 
 from build_archive import (
     PHILOSOPHER_SOURCE_WORKS,
+    clean_discussion_key,
     current_batch_philosopher_example_paragraph,
     current_batch_philosopher_items,
     current_batch_philosopher_paragraphs,
@@ -17,9 +18,12 @@ from build_archive import (
     philosopher_page_is_collective,
     philosopher_profile_for_title,
     philosopher_source_work_fallback,
+    prompt_focus,
     render_inline_text,
     render_list_section,
     render_paragraphs,
+    short_prompt_key,
+    topic_label,
 )
 
 
@@ -37,6 +41,14 @@ PROMPT_RE = re.compile(
 H2_RE = re.compile(r"(<h2>)(?P<heading>.*?)(</h2>)", re.DOTALL)
 PARAGRAPH_RE = re.compile(r"(?P<indent>\s*)<p(?P<attrs>\b[^>]*)?>(?P<body>.*?)</p>", re.DOTALL)
 TAG_RE = re.compile(r"<[^>]+>")
+PROMPT_NUMBER_RE = re.compile(r"^Prompt\s+\d+\s*:\s*", re.IGNORECASE)
+GENERIC_SECTION_RE = re.compile(
+    r"\b("
+    r"The section should|The answer should|The live issue is|This middle step|"
+    r"At this level|The payoff here is|A fair pushback is|A fair question is|"
+    r"The deeper issue in .+ is usually not whether certainty is possible"
+    r")\b"
+)
 
 TEXT_REPLACEMENTS = {
     "Has religions’ exposure to this track record resulted a more humble disposition toward the unknown?": "Has religion's exposure to this track record resulted in a more humble disposition toward the unknown?",
@@ -60,6 +72,8 @@ HEADING_REPLACEMENTS = {
     "10 macroeconomic concepts that are essential knowledge for those in commerce today": "Ten macroeconomic ideas people in commerce should know",
     "Has there ever been a functioning economy that was largely self-regulated and without any government": "Whether any economy has ever functioned without government intervention",
     "What government interventions are considered intrusive and oppressive in most democracies?": "Which interventions democracies often judge intrusive or oppressive",
+    "3 cases in which a logical assessment revealed fatal flaws in arguments that had been": "Three cases where logical analysis exposed fatal flaws",
+    "Accounts from history in which the pressure to take a dogmatic position led to negative": "Historical cases where pressure for dogmatism caused damage",
 }
 
 REMOVE_PARAGRAPH_PATTERNS = [
@@ -136,6 +150,10 @@ def strip_tags(value: str) -> str:
 
 def html_text(value: str) -> str:
     return html.escape(value, quote=False)
+
+
+def normalized_prompt_text(text: str) -> str:
+    return PROMPT_NUMBER_RE.sub("", " ".join(text.split())).strip()
 
 
 def normalize_heading_text(text: str) -> str:
@@ -251,6 +269,145 @@ def rewrite_paragraph(match: re.Match[str]) -> str:
     return match.group(0)
 
 
+def page_frame(page: dict) -> tuple[str, str]:
+    section_id = page["section_id"]
+    if section_id == "epistemology":
+        return (
+            "what would count as evidence, what confidence is actually earned, and where a reader should stay provisional",
+            "A useful test case is an everyday disagreement where both sides have some evidence but not enough to claim certainty. The distinction only matters if it changes what each side should now infer, demand, or withhold.",
+        )
+    if section_id == "ethics":
+        return (
+            "what norm is being defended, what justifies it, and which tradeoffs appear once the principle has to guide real cases",
+            "A strong ethical explanation should be able to survive one concrete case in which empathy, fairness, harm, and institutional consequences do not all point in the same direction.",
+        )
+    if section_id == "economics":
+        return (
+            "which incentives, tradeoffs, and feedback loops the reader should notice first",
+            "The easiest way to test the concept is to run it through a familiar case such as prices, wages, housing, or regulation and ask what pattern becomes more intelligible once the idea is applied.",
+        )
+    if section_id == "philosophy-of-language":
+        return (
+            "how words, categories, and context are doing different jobs that should not be collapsed into one blurry notion of meaning",
+            "A good language example shows how a phrase can sound harmless in ordinary conversation but become costly once law, medicine, politics, or technical coordination demand more precision.",
+        )
+    if section_id == "philosophy-of-mind":
+        return (
+            "which part of mind is being explained, what gets left out by a simple model, and where subjective experience resists compression",
+            "A concrete case helps here because consciousness talk becomes vague very quickly unless the page forces the reader to distinguish reportability, function, attention, feeling, and self-modeling.",
+        )
+    if section_id == "humanistic-philosophies":
+        return (
+            "what picture of the human condition is being offered and what kind of freedom, responsibility, or meaning it is trying to secure",
+            "The page becomes clearer once the idea is tied to a recognizable life problem such as alienation, choice, mortality, conformity, or the temptation to hide behind inherited scripts.",
+        )
+    if section_id == "rational-thought":
+        return (
+            "which habit improves judgment and which shortcut quietly distorts it",
+            "A useful example is a decision made under time pressure, where the reader can see the difference between a harmless heuristic and a reasoning habit that rigs the conclusion before the evidence is weighed.",
+        )
+    if section_id == "metaphysics":
+        return (
+            "what kind of structure reality is supposed to have and what explanatory work that structure is meant to do",
+            "A metaphysical claim earns trust when it clarifies one stubborn puzzle, such as identity, causation, emergence, or persistence, without pretending to solve every other puzzle at the same time.",
+        )
+    if section_id == "introduction":
+        return (
+            "what orientation the newcomer needs first and which distinctions will stop later pages from blurring together",
+            "An introductory page works best when it gives the reader a map for comparison rather than a pile of names or slogans to admire from a distance.",
+        )
+    return (
+        "what claim is being made, what distinction carries the argument, and what would test it under pressure",
+        "A useful example should move the discussion from labels to judgment by showing what changes once the distinction is applied to a live case.",
+    )
+
+
+def section_needs_rewrite(page: dict, heading_text: str, paragraphs: list[str]) -> bool:
+    content = " ".join(paragraphs).strip()
+    if not content:
+        return True
+    if len(content.split()) < 95:
+        return True
+    if len(paragraphs) < 2:
+        return True
+    if "in from vocabulary" in content or "disappeared ." in content:
+        return True
+    if heading_text and heading_text.endswith("had been"):
+        return True
+    return bool(GENERIC_SECTION_RE.search(content))
+
+
+def synthesize_section_paragraphs(page: dict, page_title: str, prompt_text: str, heading_text: str) -> list[str]:
+    topic = topic_label(page_title)
+    focus = prompt_focus(prompt_text)
+    key = clean_discussion_key(short_prompt_key(prompt_text, topic), topic, topic)
+    frame, example = page_frame(page)
+
+    openers = {
+        "definition": (
+            f"{heading_text} matters because it clarifies {frame}. The goal is not a prettier definition of {key}, but a sharper standard for what the reader should now notice and refuse to blur."
+        ),
+        "mapping": (
+            f"{heading_text} should function like a map rather than a slogan. The reader needs to see how the main parts of {topic} connect without pretending they all do the same work."
+        ),
+        "examples": (
+            f"{heading_text} becomes useful only when it can survive contact with a concrete case. The page should move from abstract description to an example that forces the distinction to make a difference."
+        ),
+        "argument": (
+            f"{heading_text} is not just a claim to repeat; it has to earn confidence under pressure. What matters is what actually supports it, what would weaken it, and which shortcuts only create the appearance of a stronger conclusion."
+        ),
+        "description": (
+            f"{heading_text} should teach the reader what to watch for first. A good explanation of {topic} does not merely restate familiar language; it shows what that language usually hides."
+        ),
+        "inquiry": (
+            f"{heading_text} is worth asking because it changes what the reader should compare next. The point is to make {topic} more investigable, not merely more impressive-sounding."
+        ),
+        "dialogue": (
+            f"{heading_text} works only if the exchange exposes the real pressure point instead of letting the speakers trade rehearsed slogans. Each side should sharpen the other by forcing the key assumptions into plain view."
+        ),
+    }
+    first = openers.get(focus, openers["inquiry"])
+    second = example
+    third = (
+        f"The pedagogical payoff is practical. After this section, the reader should be better able to explain {key} in plain language, identify a likely misuse of it, and say what further evidence or argument would actually move the view."
+    )
+    return [first, second, third]
+
+
+def strengthen_section_html(section_html: str, page: dict, page_title: str) -> str:
+    soup = BeautifulSoup(section_html, "html.parser")
+    section = soup.find("section")
+    if section is None:
+        return section_html
+
+    prompt_note = section.find("p", class_="article-section__prompt", recursive=False)
+    heading = section.find("h2", recursive=False)
+    if prompt_note is None or heading is None:
+        return section_html
+
+    prompt_text = normalized_prompt_text(prompt_note.get_text(" ", strip=True))
+    heading_text = strip_tags(str(heading))
+    paragraphs = [
+        p for p in section.find_all("p", recursive=False)
+        if "article-section__prompt" not in (p.get("class") or [])
+    ]
+    paragraph_texts = [strip_tags(str(p)) for p in paragraphs]
+    if not section_needs_rewrite(page, heading_text, paragraph_texts):
+        return str(section)
+
+    for paragraph in paragraphs:
+        paragraph.decompose()
+
+    anchor = heading
+    for text in synthesize_section_paragraphs(page, page_title, prompt_text, heading_text):
+        new_p = soup.new_tag("p")
+        new_p.string = text
+        anchor.insert_after(new_p)
+        anchor = new_p
+
+    return str(section)
+
+
 def page_dict_for_path(path: Path, page_title: str) -> dict:
     built_path = "/" + path.parent.relative_to(ROOT).as_posix().strip("/") + "/"
     return {
@@ -327,7 +484,7 @@ def polish_current_batch_philosopher_page(path: Path, original: str, page_title:
     return str(soup)
 
 
-def clean_html(original: str, page_title: str) -> str:
+def clean_html(original: str, page: dict, page_title: str) -> str:
     updated = original
     for old, new in TEXT_REPLACEMENTS.items():
         updated = updated.replace(old, new)
@@ -337,6 +494,7 @@ def clean_html(original: str, page_title: str) -> str:
         section_id = match.group("section_id")
         section_html, _ = replace_heading(section_html, page_title, section_id)
         section_html = PARAGRAPH_RE.sub(rewrite_paragraph, section_html)
+        section_html = strengthen_section_html(section_html, page, page_title)
         return section_html
 
     updated = SECTION_RE.sub(rewrite_section, updated)
@@ -347,7 +505,8 @@ def clean_page(path: Path) -> bool:
     original = path.read_text()
     page_title_match = re.search(r"<h1>(?P<title>.*?)</h1>", original, re.DOTALL)
     page_title = strip_tags(page_title_match.group("title")) if page_title_match else path.parent.name
-    updated = clean_html(original, page_title)
+    page = page_dict_for_path(path, page_title)
+    updated = clean_html(original, page, page_title)
     updated = polish_current_batch_philosopher_page(path, updated, page_title)
     if updated == original:
         return False
