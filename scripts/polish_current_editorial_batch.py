@@ -104,7 +104,15 @@ REMOVE_PARAGRAPH_PATTERNS = [
     re.compile(r"^The section should clarify how .+", re.IGNORECASE),
     re.compile(r"^Put the distinction under pressure\..+", re.IGNORECASE),
     re.compile(r"^Keep .+ in the same frame\.", re.IGNORECASE),
+    re.compile(
+        r"^Keep .+ in the same frame\. That is what shows what the page is claiming, where it gets tested, and what would have to change if the claim is right\.$",
+        re.IGNORECASE,
+    ),
     re.compile(r"^Keep .+ distinct from .+\.", re.IGNORECASE),
+    re.compile(
+        r"^Keep .+ distinct from .+\. They are not interchangeable bits of vocabulary; they point the reader toward different judgments, objections, or next steps\.$",
+        re.IGNORECASE,
+    ),
     re.compile(r"^Keep .+ in view at the same time\.", re.IGNORECASE),
     re.compile(r"^Read the section by contrast:", re.IGNORECASE),
     re.compile(r"^Read the section through ", re.IGNORECASE),
@@ -231,6 +239,12 @@ def heading_from_prompt(prompt_text: str, page_title: str, heading_text: str, se
 
 def should_remove_paragraph(text: str) -> bool:
     cleaned = " ".join(text.split())
+    if cleaned.startswith("Keep ") and (
+        " in the same frame. That is what shows what the page is claiming, where it gets tested, and what would have to change if the claim is right." in cleaned
+        or " distinct from " in cleaned
+        and "They are not interchangeable bits of vocabulary; they point the reader toward different judgments, objections, or next steps." in cleaned
+    ):
+        return True
     return any(pattern.match(cleaned) for pattern in REMOVE_PARAGRAPH_PATTERNS)
 
 
