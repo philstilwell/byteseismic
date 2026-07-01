@@ -346,6 +346,10 @@ def section_needs_rewrite(page: dict, heading_text: str, paragraphs: list[str]) 
         return True
     if "in from vocabulary" in content or "disappeared ." in content:
         return True
+    if "The pedagogical payoff is practical." in content:
+        return True
+    if "matters because it clarifies" in content:
+        return True
     if heading_text and heading_text.endswith("had been"):
         return True
     return bool(GENERIC_SECTION_RE.search(content))
@@ -356,28 +360,29 @@ def synthesize_section_paragraphs(page: dict, page_title: str, prompt_text: str,
     focus = prompt_focus(prompt_text)
     key = clean_discussion_key(short_prompt_key(prompt_text, topic), topic, topic)
     frame, example = page_frame(page)
+    subject = key or topic or page_title
 
     openers = {
         "definition": (
-            f"{heading_text} matters because it clarifies {frame}. The goal is not a prettier definition of {key}, but a sharper standard for what the reader should now notice and refuse to blur."
+            f"This section clarifies {subject} by showing {frame}. The point is not to supply a prettier definition, but to make the distinction sharp enough to guide real judgment."
         ),
         "mapping": (
-            f"{heading_text} should function like a map rather than a slogan. The reader needs to see how the main parts of {topic} connect without pretending they all do the same work."
+            f"This section should function like a map rather than a slogan. The reader needs to see how the main parts of {subject} connect without pretending they all do the same work."
         ),
         "examples": (
-            f"{heading_text} becomes useful only when it can survive contact with a concrete case. The page should move from abstract description to an example that forces the distinction to make a difference."
+            f"This section becomes useful only when {subject} survives contact with a concrete case. The page should move from abstract description to an example that forces the distinction to make a difference."
         ),
         "argument": (
-            f"{heading_text} is not just a claim to repeat; it has to earn confidence under pressure. What matters is what actually supports it, what would weaken it, and which shortcuts only create the appearance of a stronger conclusion."
+            f"This section is not just a claim to repeat; it has to earn confidence under pressure. What matters is what actually supports {subject}, what would weaken it, and which shortcuts only create the appearance of a stronger conclusion."
         ),
         "description": (
-            f"{heading_text} should teach the reader what to watch for first. A good explanation of {topic} does not merely restate familiar language; it shows what that language usually hides."
+            f"This section should teach the reader what to watch for first. A good explanation of {subject} does not merely restate familiar language; it shows what that language usually hides."
         ),
         "inquiry": (
-            f"{heading_text} is worth asking because it changes what the reader should compare next. The point is to make {topic} more investigable, not merely more impressive-sounding."
+            f"This section is worth asking because it changes what the reader should compare next. The point is to make {subject} more investigable, not merely more impressive-sounding."
         ),
         "dialogue": (
-            f"{heading_text} works only if the exchange exposes the real pressure point instead of letting the speakers trade rehearsed slogans. Each side should sharpen the other by forcing the key assumptions into plain view."
+            f"This section works only if the exchange exposes the real pressure point instead of letting the speakers trade rehearsed slogans. Each side should sharpen the other by forcing the key assumptions behind {subject} into plain view."
         ),
     }
     first = openers.get(focus, openers["inquiry"])
