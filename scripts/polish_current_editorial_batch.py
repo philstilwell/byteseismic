@@ -239,9 +239,12 @@ def heading_from_prompt(prompt_text: str, page_title: str, heading_text: str, se
 
 def should_remove_paragraph(text: str) -> bool:
     cleaned = " ".join(text.split())
+    if "Gemini failed" in cleaned or "GEMINI:" in cleaned:
+        return True
+    if cleaned.startswith("Keep ") and " in the same frame." in cleaned:
+        return True
     if cleaned.startswith("Keep ") and (
-        " in the same frame. That is what shows what the page is claiming, where it gets tested, and what would have to change if the claim is right." in cleaned
-        or " distinct from " in cleaned
+        " distinct from " in cleaned
         and "They are not interchangeable bits of vocabulary; they point the reader toward different judgments, objections, or next steps." in cleaned
     ):
         return True
@@ -503,6 +506,27 @@ def polish_current_batch_philosopher_page(path: Path, original: str, page_title:
     return str(soup)
 
 
+def clean_learning_cards(updated: str) -> str:
+    soup = BeautifulSoup(updated, "html.parser")
+    generic_prefixes = (
+        "By the end, the reader should be able to say what difference ",
+        "The exchange works only if its movement through ",
+        "Track confidence calibration:",
+        "Use (Gemini failed",
+    )
+
+    for learning_card in soup.select("aside.learning-card"):
+        items = learning_card.select("li")
+        for item in items:
+            text = strip_tags(str(item))
+            if any(text.startswith(prefix) for prefix in generic_prefixes):
+                item.decompose()
+        if not learning_card.select("li"):
+            learning_card.decompose()
+
+    return str(soup)
+
+
 def clean_html(original: str, page: dict, page_title: str) -> str:
     updated = original
     for old, new in TEXT_REPLACEMENTS.items():
@@ -517,6 +541,7 @@ def clean_html(original: str, page: dict, page_title: str) -> str:
         return section_html
 
     updated = SECTION_RE.sub(rewrite_section, updated)
+    updated = clean_learning_cards(updated)
     return updated
 
 
