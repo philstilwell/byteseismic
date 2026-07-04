@@ -6898,6 +6898,90 @@ TARGETED_SECTION_EXPANSIONS = {
             "Suspicion trigger: The stronger the marketing of the promise, the stronger the case for asking whether the ideology is prepared to let the world answer back.",
         ],
     },
+    ("/metaphysics/minimal-entities-to-reach-unfalsifiability/", "prompt-1"): {
+        "heading": "Unfalsifiability becomes cheap once a system can add one more invisible helper.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The useful question is not how many supernatural entities someone can imagine, but how few are needed before a worldview becomes almost impossible to corner. A system reaches practical unfalsifiability the moment it can explain apparent failure by adding an unseen intention, force, realm, or exception that no public test can independently discipline.",
+            "In a world like the one humans experience, one transcendent agent is often not enough. A creator may explain existence, but once pain, moral disorder, hiddenness, unanswered prayer, and conflicting revelation appear, pressure builds for auxiliary entities or mechanisms: a tempter, an afterlife ledger, a hidden plan, a soul, karma, fate, or a realm of spiritual intermediaries. The pattern matters more than the exact roster. Each addition protects the system from a different kind of disconfirmation.",
+            "That is why 'minimal entities' should be read diagnostically rather than devotionally. The issue is not whether such entities are impossible. The issue is that a theory becomes harder to test as soon as explanatory work is repeatedly handed to items that have no independent evidential track record. A single invisible cause can already weaken falsifiability; a coordinated constellation can make almost any outcome narratable.",
+            "A concrete borderline case helps. Positing electrons in physics does not damage inquiry because the posit is tied to predictions, instruments, and downstream constraints. Positing a hidden spiritual influence to explain any unwelcome outcome behaves differently: the entity does work only when the theory is threatened. That is the ad hoc slide the page needs to keep visible.",
+        ],
+        "items": [
+            "Core distinction: A theoretical posit is less worrying when it generates risky predictions; it is more worrying when it appears mainly to rescue the view from failure.",
+            "Minimal starter set: A creator, hidden intentions, and a post-mortem or non-public realm are often enough to keep many failures from counting straightforwardly against the system.",
+            "Expansion pressure: Evil, silence, contradictory revelations, and prophetic misses usually invite extra helpers such as tempters, symbolic reinterpretations, or deferred justice.",
+            "Why parsimony matters: The fewer insulated entities a system needs, the easier it is to compare with rivals and ask what evidence would really count.",
+            "Borderline test: Ask whether the entity was introduced before the problem arose, or whether it appeared mainly to protect the worldview once pressure arrived.",
+            "Practical lesson: A worldview becomes harder to evaluate when every mismatch can be absorbed by one more unseen layer.",
+        ],
+    },
+    ("/metaphysics/minimal-entities-to-reach-unfalsifiability/", "prompt-2"): {
+        "heading": "Edge cases show how an insulated worldview survives by reinterpretation.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The five scenarios matter because they expose the repair grammar of an unfalsifiable system. The issue is not whether the replies are emotionally available; of course they are. The issue is what kind of reply keeps recurring when disconfirming pressure arrives.",
+            "In the suffering-child case, the system invokes hidden purpose, soul-making, or a demonic counterforce. In the morally decent atheist case, it shifts the standard from conduct to right allegiance, or postpones verdict until an afterlife. In the miracle-conflict case, it widens the divine net, reclassifies rival miracles as deception, or treats contradiction itself as a test. In the alien-silence case, hiddenness becomes policy rather than problem. In the failed-prophecy case, literal language becomes metaphor, timing becomes symbolic, or fulfillment is relocated to an unseen dimension.",
+            "Seen one by one, each reply can sound clever or compassionate. Seen together, they reveal a more important pattern: every apparent falsifier is redescribed so it no longer counts as a falsifier. The system remains standing not because the pressure disappeared, but because the standards for what would count against it have been made elastic.",
+            "That is the pedagogical gain of edge cases. They let the reader stop arguing only about slogans like 'faith,' 'mystery,' or 'meaning' and instead ask a sharper question: which moves preserve coherence, and which merely preserve immunity? Once that distinction is visible, the page becomes much more usable outside theology too.",
+        ],
+        "items": [
+            "Repair move 1, hidden reasons: A failure is said to fit a larger plan that finite minds cannot inspect.",
+            "Repair move 2, shifted standards: The apparent counterexample is reclassified so the original criterion no longer applies in the expected way.",
+            "Repair move 3, rival absorption: Conflicting evidence is granted some reality, then redescribed as partial truth, deception, or a test.",
+            "Repair move 4, deferred verdict: What looks like failure now is moved into an afterlife, symbolic timeline, or inaccessible future accounting.",
+            "Repair move 5, semantic retreat: A prophecy or promise stops being literal precisely when literal reading becomes costly.",
+            "Reader test: Ask whether any imaginable result would still count against the worldview after these repair moves have been used.",
+        ],
+    },
+    ("/metaphysics/minimal-entities-to-reach-unfalsifiability/", "prompt-3"): {
+        "heading": "Religions and minimalist unfalsifiable systems overlap in structure more than in social form.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "There is a real correspondence here, but it is structural before it is cultural. Many religions and many unfalsifiable ontic constructions both rely on unseen entities that explain origins, meaning, morality, suffering, destiny, and hidden order without submitting those entities to ordinary public tests. At that level, the family resemblance is strong.",
+            "The overlap becomes even clearer when pressure appears. Both kinds of systems can absorb disappointment through mystery, reinterpretation, deferred justice, appeals to unseen realms, or the thought that finite minds are badly placed to judge cosmic matters. Those strategies do not automatically make the systems false, but they do make them unusually resilient against defeat.",
+            "The differences still matter. Historical religions are not merely ontological schemes. They are lived traditions with rituals, institutions, authority structures, conversion stories, identity markers, and moral communities. A stripped-down philosophical exercise in minimal unfalsifiable entities may resemble religion in logical architecture while lacking its liturgical, communal, and historical density.",
+            "There is also an epistemic difference worth preserving. A self-aware philosophical construction can admit, 'I am showing how a system may become unfalsifiable.' A religion often asks for something thicker: trust, loyalty, worship, obedience, or existential commitment. So the comparison should not flatten religion into pure argument, but it should still notice when both enterprises survive by similar protective mechanisms.",
+            "The best conclusion is therefore neither 'religion and unfalsifiable ontology are the same' nor 'they have nothing to do with each other.' The stronger claim is narrower: when a worldview depends heavily on indispensable but untestable entities, it begins to resemble religion in one of religion's most philosophically important respects.",
+        ],
+        "items": [
+            "Shared architecture: Both can organize experience around indispensable unseen entities that explain more than the evidence directly warrants.",
+            "Shared defense pattern: Mystery, reinterpretation, hiddenness, and deferred confirmation can keep both systems from collapsing under pressure.",
+            "Important difference: Religions are historically embodied communities, not just abstract ontological blueprints.",
+            "Important difference: A philosophical thought experiment may be content with coherence, whereas religion often seeks allegiance, practice, and identity.",
+            "Credibility question: Structural similarity does not show falsity, but it does raise the same demand for public standards of comparison and revision.",
+            "Takeaway: The deepest correspondence lies in how both types of system protect explanatory reach when direct substantiation is missing.",
+        ],
+        "dialogue_turns": [
+            {
+                "speaker": "Structural overlap",
+                "text": "Both religion and minimalist unfalsifiable ontology can explain broad stretches of life by appealing to unseen entities that are treated as indispensable.",
+            },
+            {
+                "speaker": "Where the overlap deepens",
+                "text": "The resemblance becomes clearest when counterevidence appears. Both can preserve themselves through mystery, reinterpretation, deferred confirmation, and hiddenness.",
+            },
+            {
+                "speaker": "Important difference",
+                "text": "A religion is usually more than an ontology. It carries ritual, authority, community, memory, and identity in ways a stripped philosophical construction may not.",
+            },
+            {
+                "speaker": "Epistemic difference",
+                "text": "A philosophical exercise may openly admit that it is demonstrating how unfalsifiability works. A religion often asks for existential trust, obedience, or worship in addition to coherence.",
+            },
+            {
+                "speaker": "Reader caution",
+                "text": "So the comparison should not flatten religion into a mere puzzle. The more careful claim is that some worldviews begin to function religiously once indispensable unseen entities carry too much explanatory weight.",
+            },
+            {
+                "speaker": "Diagnostic payoff",
+                "text": "The useful question is not whether the system feels profound, but whether it names any public condition under which its unseen architecture would have to give way.",
+            },
+        ],
+    },
     ("/philosophical-inquiry/dangers-removing-the-impossible/", "prompt-3"): {
         "heading": "Trust in testimony should scale with track record, not with a standing exemption from scrutiny.",
         "replace_paragraphs": True,
@@ -13923,6 +14007,26 @@ MANUAL_PAGE_POLISH = {
             "Keep pattern-recognition, evidential support, and rhetorical performance separate.",
             "Use the case studies to ask which cues are informative and which only feel informative after the fact.",
             "Treat the page as a lesson in both the utility and the ethical risk of quick inductive judgment.",
+        ],
+    },
+    "/metaphysics/minimal-entities-to-reach-unfalsifiability/": {
+        "synthesis_heading": "What this page is trying to expose.",
+        "synthesis_paragraphs": [
+            "The page is not mainly cataloging supernatural possibilities. It is showing how a worldview can become difficult to falsify once explanatory failure is repeatedly absorbed by unseen entities, hidden intentions, or deferred verdicts.",
+            "Its core distinction is between a posit that earns its place through independent constraint and a posit that appears mainly when the theory is under threat. That is the line separating explanatory discipline from ad hoc rescue.",
+            "The edge cases and religion comparison matter because they reveal the same deeper pattern from different angles: once every apparent counterexample can be redescribed, the system may preserve coherence while losing testability.",
+        ],
+        "synthesis_questions": [
+            "What separates a disciplined explanatory posit from an ad hoc rescue device?",
+            "Which edge-case reply protects coherence, and which mainly protects immunity from refutation?",
+            "Why can a worldview feel parsimonious in spirit while still multiplying hidden mechanisms under pressure?",
+            "In what sense do religions and minimalist unfalsifiable ontologies overlap structurally without being identical projects?",
+            "What would a genuinely risky test of this kind of worldview even look like?",
+        ],
+        "synthesis_learning_items": [
+            "Keep coherence and testability separate; a view can achieve the first by sacrificing the second.",
+            "Use the five scenarios as a diagnostic tool for spotting reinterpretation, hiddenness, and deferred verification elsewhere.",
+            "The page has done its job if the reader now asks not only what a worldview explains, but what it would allow to count against itself.",
         ],
     },
 }
