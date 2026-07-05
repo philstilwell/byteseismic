@@ -5791,7 +5791,7 @@ def article_native_heading(subject: str, prompt: str, topic: str) -> str:
     if "influence on philosophy" in raw_lowered:
         thinker = re.sub(r"[’']s influence on philosophy", "", key, flags=re.IGNORECASE).strip(" ,")
         thinker = re.sub(r"\binfluence on philosophy\b", "", thinker, flags=re.IGNORECASE).strip(" ,")
-        return f"Where {thinker or topic} still changes the questions later thinkers have to ask."
+        return f"Why {thinker or topic} still matters to later philosophy"
     if re.search(r"provide a list of the key (contributions )?.+ have made to philosophical thought", prompt_lower):
         key = clean_heading_subject(f"key contributions of {key} to philosophical thought", topic)
     if prompt_lower.startswith("list the most influential"):
@@ -5867,13 +5867,13 @@ def article_native_heading(subject: str, prompt: str, topic: str) -> str:
         return f"The real-world value of {key[24:]} shows up in the decisions it actually changes."
     if lowered.startswith("key contributions of ") and " to philosophical thought" in lowered:
         thinker = thinker_name_from_contribution_label(key, topic)
-        return f"Where {thinker or topic} still shapes later thought."
+        return f"How {thinker or topic} still shapes later thought"
     if lowered.startswith("key contributions of ") and " to philosophy" in lowered:
         thinker = thinker_name_from_contribution_label(key, topic)
-        return f"Where {thinker or topic} still shapes later thought."
+        return f"How {thinker or topic} still shapes later thought"
     if "greatest contributions to philosophy" in lowered or "contributions to philosophy" in lowered:
         thinker = thinker_name_from_contribution_label(key, topic)
-        return f"Where {thinker or topic} still shapes later thought."
+        return f"How {thinker or topic} still shapes later thought"
     if "pillars of" in lowered:
         pillar_match = re.search(r"pillars of (.+)$", key, flags=re.IGNORECASE)
         if pillar_match:
@@ -5884,7 +5884,7 @@ def article_native_heading(subject: str, prompt: str, topic: str) -> str:
     if lowered.startswith(("likely causes behind ", "most likely causes behind ")) and "becoming a notable philosopher" in lowered:
         thinker = re.sub(r"^(most\s+)?likely causes behind\s+", "", key, flags=re.IGNORECASE)
         thinker = re.sub(r"\s+becoming a notable philosopher$", "", thinker, flags=re.IGNORECASE).strip(" ,")
-        return f"Biography matters here only if it helps explain what sharpened {thinker or topic}'s questions."
+        return f"Why {thinker or topic} became so influential"
     if lowered.startswith("influential ") and lowered.endswith(" in history"):
         return "The influential figures matter here because they show where the tradition keeps doing its most durable work."
     if lowered.startswith("key ideas in "):
@@ -6382,26 +6382,27 @@ def current_batch_philosopher_paragraphs(page: dict, prompt: str, detail: dict |
 
     if family in {"influence", "inheritance"}:
         return [
-            f"{topic} matters because {profile['signature']}. The page should make that pressure visible before it starts naming later admirers or descendants.",
-            f"Read the view against its original scene: {profile['period']}. That setting shows which inherited problem {topic} is trying to rework rather than merely which century to memorize.",
-            f"{method_sentence} That method is part of the importance, because it changes how later readers sort liberty, agency, truth, duty, or social life once the page's central distinction becomes clear.",
+            f"{topic} matters because {profile['signature']}. The point is not just to praise the thinker, but to show which later questions become clearer once that move is on the table.",
+            f"Read the view against its original scene: {profile['period']}. That setting shows which inherited problem {topic} was trying to rework, rather than merely which century the reader is supposed to remember.",
+            f"{method_sentence} That method matters because it gives later readers a way to sort liberty, agency, truth, duty, or social life without collapsing those questions into one blur.",
             f"The inheritance test is concrete: remove {topic} from the story and ask which later debates in {profile['legacy']} become harder to state, defend, or criticize with the same precision.",
         ]
 
     if family == "becoming":
         return [
-            f"{topic} became notable because {profile['signature']} arrived as an unusually sharp answer to a problem already building pressure in {profile['period']}.",
-            f"The setting matters because it supplied the audience, antagonists, and institutions that made {topic}'s questions legible rather than private brilliance left in a notebook.",
+            f"{topic} became notable because the view offered a sharp answer to a problem that was already building pressure in {profile['period']}.",
+            f"At the center of that answer was a durable claim: {profile['signature'].rstrip('.')}.",
+            f"The setting matters because it supplied the audience, antagonists, and institutions that made {topic}'s questions publicly legible rather than leaving them as private brilliance in a notebook.",
             f"{method_sentence} That method did not merely state conclusions; it gave later readers a recognizable way of arguing, teaching, and pushing back.",
-            f"A better biography here asks what made the philosophy historically audible: which crisis, conversation, or inherited tension let {topic} stop being one voice among many and become a reference point others had to answer.",
+            f"A stronger biography asks what made the philosophy historically audible: which crisis, conversation, or inherited tension let {topic} stop being one voice among many and become a reference point others had to answer.",
         ]
 
     if family in {"contributions", "concepts"}:
         return [
-            f"The page should map {topic} through usable moving parts, not through a respectful cloud of themes. {concept_text} matter because they divide the philosophical labor instead of repeating one another.",
-            f"Treat {profile['signature']} as the governing pressure, then ask how {concept_text} each carry a different part of that burden.",
-            f"{method_sentence} The method matters because it shows why these concepts work together as a style of inquiry rather than as isolated glossary entries.",
-            f"A good reading leaves the reader able to apply at least one of these distinctions to a live case and to say where the framework starts to strain under objection.",
+            f"The page should organize {topic} around working concepts, not around a respectful cloud of themes. {concept_text} matter because each one carries a different part of the philosophical load.",
+            f"Start from a central claim: {profile['signature'].rstrip('.')}. Then ask how {concept_text} each clarify a different piece of that burden.",
+            f"{method_sentence} The method matters because it shows why these concepts belong together as a style of inquiry rather than as isolated glossary entries.",
+            f"A good reading leaves the reader able to use at least one of these distinctions in a live case and to say where the framework starts to strain under objection.",
         ]
 
     if family == "objection":
@@ -6452,7 +6453,7 @@ def current_batch_philosopher_items(page: dict, prompt: str) -> list[str] | None
 
     if family in {"influence", "becoming", "inheritance"}:
         return [
-            f"Signature contribution: {profile['signature'][:1].upper() + profile['signature'][1:]}.",
+            f"Enduring insight: {profile['signature'][:1].upper() + profile['signature'][1:]}.",
             f"Historical setting: {profile['period'][:1].upper() + profile['period'][1:]}.",
             f"Influence trail: {profile['legacy'][:1].upper() + profile['legacy'][1:]}.",
             f"Pressure point: {profile['pressure'][:1].upper() + profile['pressure'][1:]}.",
@@ -20607,7 +20608,18 @@ def philosopher_page_is_collective(page: dict, philosopher: str, profile: dict |
     if profile:
         return False
     lowered = clean_text(philosopher).lower()
-    return lowered.endswith("ism") or lowered.endswith("ists") or lowered.endswith("philosophers")
+    built_path = clean_text(str(page.get("built_path", ""))).lower()
+    known_collectives = {
+        "critical theory",
+        "critical theorists",
+    }
+    return (
+        lowered in known_collectives
+        or built_path.endswith("/critical-theorists/")
+        or lowered.endswith("ism")
+        or lowered.endswith("ists")
+        or lowered.endswith("philosophers")
+    )
 
 
 def philosopher_source_work_fallback(page: dict, philosopher: str, profile: dict | None) -> str:

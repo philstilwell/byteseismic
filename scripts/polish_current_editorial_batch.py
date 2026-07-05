@@ -201,9 +201,9 @@ def heading_from_prompt(prompt_text: str, page_title: str, heading_text: str, se
 
     if section_id == "prompt-2":
         if "7 greatest contributions" in prompt_text.lower():
-            return f"Seven ways {page_title} still shapes later thought"
+            return f"How {page_title} still shapes later thought"
         if "annotated list" in prompt_text.lower() and "contributions" in prompt_text.lower():
-            return f"Seven ways {page_title} still shapes later thought"
+            return f"How {page_title} still shapes later thought"
         match = re.match(r"Provide a list of the key contributions (.+?) ha(?:s|ve) made to philosophical thought\.$", prompt_text, re.IGNORECASE)
         if match:
             return f"How {match.group(1)} reshaped later philosophy"
@@ -212,7 +212,7 @@ def heading_from_prompt(prompt_text: str, page_title: str, heading_text: str, se
 
     if section_id == "prompt-3":
         if "most likely causes behind" in prompt_text.lower() and "becoming a notable philosopher" in prompt_text.lower():
-            return f"Why {page_title} became impossible to ignore"
+            return f"Why {page_title} became so influential"
         match = re.match(r"List the most influential (.+?) in history\.$", prompt_text, re.IGNORECASE)
         if match:
             subject = match.group(1).strip()
