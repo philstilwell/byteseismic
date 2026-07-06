@@ -243,6 +243,8 @@ def should_remove_paragraph(text: str) -> bool:
         return True
     if cleaned.startswith("Keep ") and " in the same frame." in cleaned:
         return True
+    if cleaned.startswith("Keep ") and "That is what shows what the page is claiming" in cleaned:
+        return True
     if cleaned.startswith("Keep ") and (
         " distinct from " in cleaned
         and "They are not interchangeable bits of vocabulary; they point the reader toward different judgments, objections, or next steps." in cleaned
@@ -527,6 +529,18 @@ def clean_learning_cards(updated: str) -> str:
     return str(soup)
 
 
+def clean_generic_paragraphs_globally(updated: str) -> str:
+    soup = BeautifulSoup(updated, "html.parser")
+    for paragraph in soup.find_all("p"):
+        classes = paragraph.get("class") or []
+        if "article-section__prompt" in classes:
+            continue
+        text = strip_tags(str(paragraph))
+        if should_remove_paragraph(text):
+            paragraph.decompose()
+    return str(soup)
+
+
 def clean_html(original: str, page: dict, page_title: str) -> str:
     updated = original
     for old, new in TEXT_REPLACEMENTS.items():
@@ -542,6 +556,7 @@ def clean_html(original: str, page: dict, page_title: str) -> str:
 
     updated = SECTION_RE.sub(rewrite_section, updated)
     updated = clean_learning_cards(updated)
+    updated = clean_generic_paragraphs_globally(updated)
     return updated
 
 
