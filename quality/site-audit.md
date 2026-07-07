@@ -8,7 +8,7 @@
 - Orphan pages: 0
 - Oversized assets: 0
 - Style scars: 0
-- Grammar scars: 1
+- Grammar scars: 0
 - SEO issues: 0
 - Duplicate titles: 0
 - Duplicate descriptions: 0
@@ -46,7 +46,7 @@
 
 ## Grammar Scars
 
-- `/philosophy-of-science/what-is-deduction/` -> double-and
+- none
 
 ## SEO Issues
 

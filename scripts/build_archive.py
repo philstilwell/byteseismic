@@ -8368,6 +8368,137 @@ TARGETED_SECTION_EXPANSIONS = {
             "Modern relevance: Historical examples matter because the same structure keeps reappearing under new banners.",
         ],
     },
+    ("/introduction/miscellaneous-philosophers/", "prompt-3"): {
+        "replace_paragraphs": True,
+        "paragraphs": [
+            "This final section works only if it keeps a difficult distinction in view. There really are public intellectuals, novelists, gurus, psychologists, political figures, and spiritual teachers who touch live philosophical questions. But touching a question is not the same thing as handling it with the discipline philosophy usually demands.",
+            "That is why the list should not read like a sneer at outsiders. The more useful contrast is between philosophical influence and philosophical rigor. Ayn Rand, Jordan Peterson, Deepak Chopra, L. Ron Hubbard, and others matter culturally because they shape how large audiences think about meaning, morality, truth, freedom, suffering, or reality. The criticism is not that they entered forbidden territory. It is that they often move too quickly, overstate their warrants, blur categories, or package emotionally potent conclusions as if the harder argumentative work had already been done.",
+            "A careful reader should therefore come away with a cleaner taxonomy. Some non-philosophers enrich philosophy by raising serious pressures from neighboring fields. Others mainly dramatize what philosophy looks like when rhetorical force outruns conceptual rigor. Both groups belong on the page, but for very different reasons.",
+            "That distinction matters beyond this list. It helps explain why a person can be philosophically influential without being philosophically careful, and why academic resistance is sometimes gatekeeping but sometimes a legitimate response to looseness, overreach, or borrowed authority.",
+        ],
+        "learning_items": [
+            "Keep philosophical influence and philosophical rigor separate; the page is weaker if cultural importance is treated as the same thing as argumentative quality.",
+            "Ask of each example whether the person contributes a serious pressure, a vivid simplification, or a rhetorically potent confusion.",
+            "Use the list to sharpen judgment about borderline intellectual figures rather than to defend a closed guild model of philosophy.",
+        ],
+    },
+    ("/humanistic-philosophies/what-is-existentialism/", "prompt-3"): {
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "A quote page on existentialism is useful only if the lines do more than radiate intensity. Each one should expose a recurring pressure inside the tradition: that life must be lived before it can be systematized, that freedom is inseparable from responsibility, that anxiety is often the cost of lucidity, and that inherited scripts cannot spare a person the burden of choosing.",
+            "The best existentialist quotations also show how wide the family is. Kierkegaard sounds religious and inward, Nietzsche genealogical and incendiary, Sartre political and responsibility-heavy, Beauvoir social and embodied, Camus defiant without metaphysical comfort. Grouping them together is justified only if the reader can still feel the differences in what each thinker treats as the deepest threat to an honest life.",
+            "So the page should be read like a set of pressure points rather than a wall of aphorisms. The goal is not to admire dark-sounding sentences, but to notice how each line pushes against passivity, self-deception, conformity, or the fantasy that meaning arrives ready-made.",
+        ],
+        "items": [
+            "Soren Kierkegaard: \"Life can only be understood backwards; but it must be lived forwards.\"",
+            "Friedrich Nietzsche: \"He who has a why to live can bear almost any how.\"",
+            "Friedrich Nietzsche: \"God is dead. God remains dead. And we have killed him.\"",
+            "Jean-Paul Sartre: \"Man is condemned to be free.\"",
+            "Jean-Paul Sartre: \"Existence precedes essence.\"",
+            "Simone de Beauvoir: \"One is not born, but rather becomes, a woman.\"",
+            "Albert Camus: \"The struggle itself toward the heights is enough to fill a man's heart.\"",
+            "Albert Camus: \"There is but one truly serious philosophical problem, and that is suicide.\"",
+            "Martin Heidegger: \"Anxiety is the dizziness of freedom.\"",
+            "Karl Jaspers: \"What man is, he ultimately becomes through the cause which he has made his own.\"",
+            "Miguel de Unamuno: \"To fall into a habit is to begin to cease to be.\"",
+            "Fyodor Dostoevsky: \"The mystery of human existence lies not in just staying alive, but in finding something to live for.\"",
+        ],
+        "learning_items": [
+            "Read the quotations as different responses to freedom, anxiety, absurdity, and self-deception rather than as one interchangeable mood board.",
+            "Notice how the thinkers diverge: Kierkegaard religiously, Nietzsche genealogically, Sartre politically, Beauvoir socially, and Camus defiant without transcendence.",
+            "Ask what kind of evasion each line is pushing against when life is handed over to role, habit, herd, or inherited script.",
+        ],
+    },
+    ("/philosophy-of-science/what-is-deduction/", "prompt-1"): {
+        "heading": "What is deduction in the context of reasoning?",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Deduction is reasoning in which the conclusion is meant to follow necessarily from the premises. If the form is valid and the premises are true, the conclusion cannot fail to be true as well. That is what gives deduction its distinctive force compared with looser pattern-based reasoning.",
+            "The cleanest examples move from a general rule to a particular case. If all mammals are warm-blooded and whales are mammals, then whales are warm-blooded. The interest of deduction is not that it manufactures new evidence. It shows what is already committed once certain premises are granted.",
+            "That is also why validity and truth must stay separate. A deductive argument can be valid even when one or more premises are false. Validity concerns the structure of the inference; truth concerns whether the premises actually match reality.",
+            "A good introductory page should therefore teach two checks at once: does the conclusion really follow, and are the starting claims any good? Confusing those two questions is one of the fastest ways to misunderstand what deduction can and cannot do.",
+        ],
+        "items": [
+            "Core idea: Deduction preserves truth from premises to conclusion when the inferential form is valid.",
+            "Canonical example: All humans are mortal; Socrates is human; therefore Socrates is mortal.",
+            "Validity point: An argument may be structurally valid even if its premises are false.",
+            "Practical lesson: Deduction is strongest when paired with careful scrutiny of the premises it starts from.",
+        ],
+        "learning_items": [
+            "Keep validity and truth separate; deduction guarantees the former link in structure, not the latter in factual starting points.",
+            "Ask whether the conclusion was genuinely contained in the premises or whether an extra assumption was smuggled in.",
+            "Use examples to see why deduction clarifies commitment rather than producing fresh evidence on its own.",
+        ],
+    },
+    ("/philosophy-of-mind/elitzur-on-consciousness/", "prompt-1"): {
+        "heading": "Does this account of consciousness hold up on fact, logic, and testability?",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Elitzur's value here is not that it solves consciousness, but that it sharpens the pressure. The page is strongest when it helps the reader separate three questions that people constantly run together: whether a claim about consciousness is factually responsible, whether the argument actually follows, and whether anything in the view is exposed to empirical or conceptual risk.",
+            "On factual accuracy, the broad framing is serviceable. Consciousness does remain one of the hardest meeting points between neuroscience, philosophy, and first-person life, and qualia-style arguments really do press on the gap between mechanism and felt experience. But factual accuracy also requires restraint. A page like this should avoid pretending that naming the mystery is the same thing as narrowing the explanation.",
+            "On logical coherence, the central burden is to show exactly where the explanatory gap is supposed to open. If the argument slides from 'brain processes can be described third-personally' to 'therefore subjective life cannot be materially explained,' it has moved too fast. The reader should be shown which premises are doing the heavy lifting and where a physicalist, functionalist, or illusionist would press back.",
+            "Testability is the hardest part and therefore the most important. A good consciousness page may not generate a neat laboratory test tomorrow, but it should still clarify what would count as progress, pressure, or revision. Does the view predict that no structural account of cognition could ever explain felt experience? Does it merely claim that present explanations are incomplete? Those are very different commitments.",
+            "So the page earns its keep when it turns awe into a cleaner diagnostic. The real improvement is not a dramatic conclusion about qualia. It is a more disciplined sense of what the argument establishes, what it does not establish, and where the next honest disagreement should occur.",
+        ],
+        "items": [
+            "Factual accuracy: The page is on stronger ground when it distinguishes the reality of subjective experience from any premature claim about what science can never explain.",
+            "Logical coherence: The key question is which premise blocks reduction, not whether consciousness feels puzzling.",
+            "Testability: The reader should be able to name what would count as explanatory progress, not just repeat that consciousness is mysterious.",
+            "Reader lesson: A serious consciousness argument clarifies the gap it is pointing to before it tries to widen it.",
+        ],
+        "learning_items": [
+            "Separate the three tests: whether the description is factually responsible, whether the inference actually follows, and whether the claim exposes itself to any pressure beyond awe.",
+            "Ask exactly where the anti-reductionist step occurs; if that step is blurry, the page is leaning on atmosphere more than argument.",
+            "Treat qualia here as an explanatory challenge, not as an automatic proof that material accounts must fail.",
+        ],
+    },
+    ("/philosophy-of-mind/elitzur-on-consciousness/", "prompt-2"): {
+        "heading": "The real issue is what testability changes once the consciousness claim becomes precise.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "The later assessment should not merely reassure the reader that the discussion is 'largely accurate.' It should show where the argument becomes more or less vulnerable depending on how sharply the claims are stated. In consciousness debates, vague mystery-talk often survives because it never says enough to be cornered.",
+            "That is where the contrast among testability, formal argument, and the asymmetry proof matters. Formalization can reveal whether the reasoning is valid, but validity alone does not tell us whether the premises track the world. Testability asks a different question: if this account is right, what would become easier or harder to explain, and what kind of evidence could count against rival interpretations?",
+            "The asymmetry pressure is philosophically interesting because first-person experience and third-person description do appear to play by different rules. But the page needs to stop short of treating that asymmetry as a final verdict. The important move is to show whether the asymmetry is epistemic, explanatory, ontological, or merely linguistic. Different answers generate very different consequences.",
+            "A careful conclusion therefore keeps the mystery alive without letting it become self-protective. If the argument helps the reader sort kinds of pressure more cleanly, the page succeeds. If it leaves every theory equally untouched while simply sounding profound, it has not yet become intellectually useful.",
+        ],
+        "items": [
+            "Testability: Precision matters because the more exact the claim, the clearer it becomes what evidence or argument could actually pressure it.",
+            "Formal argument: Logical structure can expose hidden leaps, but it cannot by itself prove that the premises capture reality.",
+            "Asymmetry proof: The useful question is what kind of asymmetry is being claimed and whether that claim outruns the evidence.",
+            "Reader lesson: The page improves when consciousness stops being a mood word and becomes a set of contestable commitments.",
+        ],
+        "learning_items": [
+            "Keep logical validity and empirical vulnerability separate; a formally tidy argument can still rest on unsupported premises.",
+            "Ask whether the asymmetry under discussion is epistemic, explanatory, ontological, or linguistic before drawing larger conclusions from it.",
+            "The section is working if the reader leaves with clearer contestable commitments, not just with a stronger sense that consciousness is mysterious.",
+        ],
+    },
+    ("/philosophy-of-mind/what-is-consciousness/", "prompt-1"): {
+        "heading": "What consciousness is supposed to name",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "A good opening definition of consciousness should resist two opposite mistakes. One mistake is making consciousness so thin that it means little more than wakefulness or information-processing. The other is making it so mystical that the word becomes a placeholder for whatever still feels uncanny about minds.",
+            "The most useful starting point is that consciousness names subjective awareness: there is something it is like to see red, feel pain, hear music, remember an embarrassment, or notice a thought passing through the mind. That first-person character is why the topic remains philosophically loaded even when neuroscience keeps getting better at describing the mechanisms that accompany it.",
+            "From there, the page should widen carefully. Consciousness is not just a light switch that is either fully on or fully off. Attention shifts, lucidity fluctuates, sleep and anesthesia interrupt experience, and different creatures may possess very different ranges or textures of awareness. But those later complications should grow out of the first definition rather than replacing it with a pile of metaphors.",
+            "So the right opening move is modest but exact: consciousness is the lived presence of experience. The hard questions come afterward about its degrees, contents, boundaries, and relation to brain activity, but the page should not lose the core phenomenon before those debates even begin.",
+        ],
+        "items": [
+            "Core definition: Consciousness is subjective awareness, the felt side of being a minded creature.",
+            "Why it is hard: Third-person description of brains does not automatically capture what experience feels like from within.",
+            "Why degrees matter later: Once the core phenomenon is clear, it becomes easier to ask how it varies across states and species.",
+            "Reader lesson: Start with lived experience, then ask how far explanation can reach without pretending the starting point was vague.",
+        ],
+        "learning_items": [
+            "Start from felt experience itself; if the definition begins with metaphor or mystique, the page is already drifting.",
+            "Keep wakefulness, cognition, information-processing, and subjective awareness distinct long enough to see why consciousness remains philosophically difficult.",
+            "Treat later questions about degrees, species, and altered states as extensions of the core phenomenon rather than as replacements for it.",
+        ],
+    },
     ("/epistemology/epistemology-core-concepts/", "prompt-2"): {
         "heading": "Key concepts matter because each one protects a distinction public argument likes to blur.",
         "replace_paragraphs": True,
@@ -15166,6 +15297,7 @@ def emphasize_escaped_phrase(rendered: str, phrase: str, tag: str) -> str:
 
 def render_inline_text(text: str, *, allow_links: bool = True) -> str:
     text = re.sub(r"\bMisalignment Elaboration\b", "misalignment comparisons", text)
+    text = re.sub(r"\band and\b", "and", text, flags=re.IGNORECASE)
     placeholders: dict[str, str] = {}
     if allow_links:
         text, placeholders = inject_logfall_placeholders(text)
