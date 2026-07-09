@@ -1,9 +1,9 @@
 # Byteseismic Editorial Audit Tracker
 
-Generated: 2026-07-08
+Generated: 2026-07-09
 Batch size: 50 pages
 Current cycle: 3
-Current queue start: 51 of 346
+Current queue start: 101 of 346
 
 ## Protocol
 
@@ -24,73 +24,60 @@ Pages are queued deterministically by priority band, then by weakest score, then
 
 | # | Branch | Page | Priority | Worst | Focus |
 | ---: | --- | --- | --- | ---: | --- |
-| 51 | Philosophers | [Confucius](../philosophers/confucius/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 52 | Philosophers | [Continental Philosophers](../philosophers/continental-philosophers/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 53 | Philosophers | [Critical Theorists](../philosophers/critical-theorists/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 54 | Philosophers | [Dogen](../philosophers/dogen/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 55 | Philosophers | [Elizabeth Anscombe](../philosophers/elizabeth-anscombe/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 56 | Philosophers | [Epictetus](../philosophers/epictetus/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 57 | Philosophers | [Existentialists](../philosophers/existentialists/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 58 | Philosophers | [Friedrich Nietzsche](../philosophers/friedrich-nietzsche/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 59 | Philosophers | [G.E. Moore](../philosophers/g-e-moore/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 60 | Philosophers | [George Berkeley](../philosophers/george-berkeley/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 61 | Philosophers | [Gottlob Frege](../philosophers/gottlob-frege/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 62 | Philosophers | [Hannah Arendt](../philosophers/hannah-arendt/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 63 | Philosophers | [Heraclitus](../philosophers/heraclitus/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 64 | Philosophers | [Jean-Jacques Rousseau](../philosophers/jean-jacques-rousseau/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 65 | Philosophers | [John Dewey](../philosophers/john-dewey/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 66 | Philosophers | [John Rawls](../philosophers/john-rawls/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 67 | Philosophers | [John Stuart Mill](../philosophers/john-stuart-mill/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 68 | Philosophers | [Judith Butler](../philosophers/judith-butler/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 69 | Philosophers | [Jurgen Habermas](../philosophers/jurgen-habermas/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 70 | Philosophers | [Karl Marx](../philosophers/karl-marx/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 71 | Philosophers | [Laozi](../philosophers/laozi/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 72 | Philosophers | [Maimonides](../philosophers/maimonides/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 73 | Philosophers | [Marcus Aurelius](../philosophers/marcus-aurelius/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 74 | Philosophers | [Mary Wollstonecraft](../philosophers/mary-wollstonecraft/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 75 | Philosophers | [Maurice Merleau-Ponty](../philosophers/maurice-merleau-ponty/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 76 | Philosophers | [Mencius](../philosophers/mencius/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 77 | Philosophers | [Mozi](../philosophers/mozi/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 78 | Philosophers | [Nagarjuna](../philosophers/nagarjuna/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 79 | Philosophers | [Niccolo Machiavelli](../philosophers/niccolo-machiavelli/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 80 | Philosophers | [Parmenides](../philosophers/parmenides/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 81 | Philosophers | [Plato](../philosophers/plato/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 82 | Philosophers | [Plotinus](../philosophers/plotinus/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 83 | Philosophers | [Pragmatists](../philosophers/pragmatists/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 84 | Philosophers | [Rationalists](../philosophers/rationalists/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 85 | Philosophers | [Saul Kripke](../philosophers/saul-kripke/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 86 | Philosophers | [Scholastics](../philosophers/scholastics/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 87 | Philosophers | [Seneca](../philosophers/seneca/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 88 | Philosophers | [Shankara](../philosophers/shankara/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 89 | Philosophers | [Theodor Adorno](../philosophers/theodor-adorno/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 90 | Philosophers | [Theodor W. Adorno](../philosophers/theodor-w-adorno/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 91 | Philosophers | [Walter Benjamin](../philosophers/walter-benjamin/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 92 | Philosophers | [William of Ockham](../philosophers/william-of-ockham/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 93 | Philosophers | [Xunzi](../philosophers/xunzi/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 94 | Philosophers | [Zhuangzi](../philosophers/zhuangzi/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 95 | Philosophers | [Aquinas’ Five Ways](../philosophers/aquinas-five-ways/) | gap-fill | 100 | 3 prompt sections need gap fill |
-| 96 | Philosophers | [Philosopher Club Membership](../philosophers/philosopher-club-membership/) | gap-fill | 100 | 3 prompt sections need gap fill |
-| 97 | Philosophers | [Philosophers or Philosophy?](../philosophers/philosophers-or-philosophy/) | gap-fill | 100 | 3 prompt sections need gap fill |
-| 98 | Philosophers | [Philosophical Gradients](../philosophers/philosophical-gradients/) | gap-fill | 100 | 3 prompt sections need gap fill |
-| 99 | Philosophical Inquiry | [Dangers: Untestable Ideologies](../philosophical-inquiry/dangers-untestable-ideologies/) | polish | 86 | 3 prompt sections are polish opportunities |
-| 100 | Philosophy of Science | [Observable Regularities](../philosophy-of-science/observable-regularity/) | polish | 86 | 3 prompt sections are polish opportunities |
+| 101 | Epistemology | [Abduction: Utility and Issues](../epistemology/abduction-utility-and-issues/) | polish | 88 | 5 prompt sections are polish opportunities |
+| 102 | Ethics | [Intrinsic Human Value](../ethics/intrinsic-human-value/) | polish | 89 | 5 prompt sections are polish opportunities |
+| 103 | Philosophy of Language | [What is Etymology?](../philosophy-of-language/what-is-etymology/) | polish | 89 | 5 prompt sections are polish opportunities |
+| 104 | Epistemology | [Avoiding Single-Cause Dogmatism](../epistemology/avoiding-single-cause-dogmatism/) | polish | 89 | 4 prompt sections are polish opportunities |
+| 105 | Ethics | [⌁ Finite Agency, Moral Demand, and Happiness](../ethics/finite-agency-moral-demand-and-happiness/) | polish | 89 | 4 prompt sections are polish opportunities |
+| 106 | Rational Thought | [Perverse Incentives](../rational-thought/perverse-incentives/) | polish | 89 | 4 prompt sections are polish opportunities |
+| 107 | Epistemology | [Doxastic Voluntarism](../epistemology/doxastic-voluntarism/) | polish | 89 | 3 prompt sections are polish opportunities |
+| 108 | Humanistic Philosophies | [Can Humans Change?](../humanistic-philosophies/can-humans-change/) | polish | 90 | 5 prompt sections are polish opportunities |
+| 109 | Humanistic Philosophies | [Do Humans have an Essence?](../humanistic-philosophies/do-humans-have-an-essence/) | polish | 90 | 4 prompt sections are polish opportunities |
+| 110 | Epistemology | [Epistemological Case Studies](../epistemology/epistemological-case-studies/) | polish | 91 | 3 prompt sections are polish opportunities |
+| 111 | Ethics | [Moral Black Boxes](../ethics/moral-black-boxes/) | polish | 91 | 3 prompt sections are polish opportunities |
+| 112 | Economics | [Economics – Core Concepts](../economics/economics-core-concepts/) | polish | 92 | 5 prompt sections are polish opportunities |
+| 113 | Philosophical Inquiry | [Personal Truth?](../philosophical-inquiry/personal-truth/) | polish | 92 | 4 prompt sections are polish opportunities |
+| 114 | Rational Thought | [Regret Assessment](../rational-thought/regret-assessment/) | polish | 92 | 3 prompt sections are polish opportunities |
+| 115 | Epistemology | [Belief/Evidence Graphic](../epistemology/belief-evidence-graphic/) | polish | 93 | 5 prompt sections are polish opportunities |
+| 116 | Epistemology | [Pascal’s Wager](../epistemology/pascals-wager/) | polish | 93 | 5 prompt sections are polish opportunities |
+| 117 | Epistemology | [The Inductive Paradox](../epistemology/the-inductive-paradox/) | polish | 93 | 4 prompt sections are polish opportunities |
+| 118 | Philosophical Inquiry | [Common Sense Blunders](../philosophical-inquiry/common-sense-blunders/) | polish | 93 | 3 prompt sections are polish opportunities |
+| 119 | Philosophical Inquiry | [Packaged vs Eclectic Ideologies](../philosophical-inquiry/packaged-vs-eclectic-ideologies/) | polish | 93 | 3 prompt sections are polish opportunities |
+| 120 | Epistemology | [Case #6 – Insatiable Loops](../epistemology/case-6-insatiable-loops/) | polish | 94 | 3 prompt sections are polish opportunities |
+| 121 | Epistemology | [Decision-Making](../epistemology/decision-making/) | polish | 95 | 4 prompt sections are polish opportunities |
+| 122 | Ethics | [Fictional Meta-Ethics Debate](../ethics/fictional-meta-ethics-debate/) | polish | 95 | 4 prompt sections are polish opportunities |
+| 123 | Philosophical Inquiry | [Dangers: Strong Leaders](../philosophical-inquiry/dangers-strong-leaders/) | polish | 95 | 4 prompt sections are polish opportunities |
+| 124 | Philosophical Inquiry | [Dangers: Co-opted Wonders](../philosophical-inquiry/dangers-co-opted-wonders/) | polish | 95 | 3 prompt sections are polish opportunities |
+| 125 | Philosophical Inquiry | [Dangers: Half-Searches](../philosophical-inquiry/dangers-half-searches/) | polish | 95 | 3 prompt sections are polish opportunities |
+| 126 | Ethics | [Ethics — Core Concepts](../ethics/ethics-core-concepts/) | polish | 96 | 5 prompt sections are polish opportunities |
+| 127 | Philosophy of Language | [Gradient Concepts and Binary Terms](../philosophy-of-language/gradient-concepts-and-binary-terms/) | polish | 96 | 5 prompt sections are polish opportunities |
+| 128 | Epistemology | [Epistemology — Core Concepts](../epistemology/epistemology-core-concepts/) | polish | 96 | 4 prompt sections are polish opportunities |
+| 129 | Philosophy of Language | [Philosophy of Language — Core Concepts](../philosophy-of-language/core-concepts-philosophy-of-language/) | polish | 96 | 4 prompt sections are polish opportunities |
+| 130 | Ethics | [Coherent Moral Systems](../ethics/coherent-moral-systems/) | polish | 97 | 5 prompt sections are polish opportunities |
+| 131 | Epistemology | [Counterfactual Reasoning](../epistemology/counterfactual-reasoning/) | polish | 97 | 4 prompt sections are polish opportunities |
+| 132 | Philosophical Inquiry | [Dangers: Narrative](../philosophical-inquiry/dangers-narrative/) | polish | 97 | 4 prompt sections are polish opportunities |
+| 133 | Philosophical Inquiry | [Dangers: Unnuanced Conclusions](../philosophical-inquiry/dangers-unnuanced-conclusions/) | polish | 97 | 4 prompt sections are polish opportunities |
+| 134 | Ethics | [Meta-Ethics](../ethics/meta-ethics/) | polish | 97 | 3 prompt sections are polish opportunities |
+| 135 | Ethics | [Moral Systems: Required Elements](../ethics/moral-systems-required-elements/) | polish | 97 | 3 prompt sections are polish opportunities |
+| 136 | Ethics | [What are Ethics?](../ethics/what-are-ethics/) | polish | 97 | 3 prompt sections are polish opportunities |
+| 137 | Ethics | [“Is” vs “Ought”](../ethics/is-vs-ought/) | polish | 97 | 3 prompt sections are polish opportunities |
+| 138 | Philosophical Inquiry | [How Minds are Changed](../philosophical-inquiry/how-minds-are-changed/) | polish | 97 | 3 prompt sections are polish opportunities |
+| 139 | Epistemology | [Preponderance of Evidence?](../epistemology/preponderance-of-evidence/) | polish | 98 | 5 prompt sections are polish opportunities |
+| 140 | Philosophy of Language | [What is Language?](../philosophy-of-language/what-is-language/) | polish | 98 | 5 prompt sections are polish opportunities |
+| 141 | Epistemology | [Collapsing Epistemological Terms](../epistemology/collapsing-epistemological-terms/) | polish | 98 | 4 prompt sections are polish opportunities |
+| 142 | Philosophical Inquiry | [Conspiracies & Misunderstanding Human Nature](../philosophical-inquiry/conspiracies-misunderstanding-human-nature/) | polish | 98 | 4 prompt sections are polish opportunities |
+| 143 | Philosophy of Mind | [Functionalism & Subjectivity](../philosophy-of-mind/functionalism-subjectivity/) | polish | 98 | 4 prompt sections are polish opportunities |
+| 144 | Philosophy of Mind | [Subjective/Objective Free Will](../philosophy-of-mind/subjective-objective-free-will/) | polish | 98 | 4 prompt sections are polish opportunities |
+| 145 | Economics | [Wealth Creation](../economics/wealth-creation/) | polish | 98 | 3 prompt sections are polish opportunities |
+| 146 | Epistemology | [Case #1 – Credence Complexity](../epistemology/case-1-credence-complexity/) | polish | 98 | 3 prompt sections are polish opportunities |
+| 147 | Epistemology | [Case #4 – Recursive Credences](../epistemology/case-4-recursive-credences/) | polish | 98 | 3 prompt sections are polish opportunities |
+| 148 | Humanistic Philosophies | [Accounting for X](../humanistic-philosophies/accounting-for-x/) | polish | 98 | 3 prompt sections are polish opportunities |
+| 149 | Philosophical Inquiry | [Dangers: Carrot & Stick](../philosophical-inquiry/dangers-carrot-stick/) | polish | 98 | 3 prompt sections are polish opportunities |
+| 150 | Philosophical Inquiry | [Testing Ideologies](../philosophical-inquiry/testing-ideologies/) | polish | 98 | 3 prompt sections are polish opportunities |
 
 ## Upcoming Batch Preview
 
-### Next +1: cycle 3, queue positions 101-150
-
-- `polish` 88 [Epistemology / Abduction: Utility and Issues](../epistemology/abduction-utility-and-issues/)
-- `polish` 89 [Ethics / Intrinsic Human Value](../ethics/intrinsic-human-value/)
-- `polish` 89 [Philosophy of Language / What is Etymology?](../philosophy-of-language/what-is-etymology/)
-- `polish` 89 [Epistemology / Avoiding Single-Cause Dogmatism](../epistemology/avoiding-single-cause-dogmatism/)
-- `polish` 89 [Ethics / ⌁ Finite Agency, Moral Demand, and Happiness](../ethics/finite-agency-moral-demand-and-happiness/)
-- `polish` 89 [Rational Thought / Perverse Incentives](../rational-thought/perverse-incentives/)
-- `polish` 89 [Epistemology / Doxastic Voluntarism](../epistemology/doxastic-voluntarism/)
-- `polish` 90 [Humanistic Philosophies / Can Humans Change?](../humanistic-philosophies/can-humans-change/)
-- `polish` 90 [Humanistic Philosophies / Do Humans have an Essence?](../humanistic-philosophies/do-humans-have-an-essence/)
-- `polish` 91 [Epistemology / Epistemological Case Studies](../epistemology/epistemological-case-studies/)
-
-### Next +2: cycle 3, queue positions 151-200
+### Next +1: cycle 3, queue positions 151-200
 
 - `polish` 98 [Rational Thought / Scope of Influence](../rational-thought/scope-of-influence/)
 - `polish` 99 [Rational Thought / 1 at 99.5% or 5 at 95%?](../rational-thought/1-at-99-5-or-5-at-95/)
@@ -103,10 +90,23 @@ Pages are queued deterministically by priority band, then by weakest score, then
 - `polish` 100 [Economics / What are Moral Hazards?](../economics/what-are-moral-hazards/)
 - `polish` 100 [Economics / What is Economics?](../economics/what-is-economics/)
 
+### Next +2: cycle 3, queue positions 201-250
+
+- `polish` 100 [Philosophy of Mind / Philosophy of Mind Basics](../philosophy-of-mind/philosophy-of-mind-basics/)
+- `polish` 100 [Philosophy of Mind / Where are our Thoughts?](../philosophy-of-mind/where-are-our-thoughts/)
+- `polish` 100 [Philosophy of Science / Asymmetric Counterfactuals](../philosophy-of-science/asymmetric-counterfactuals/)
+- `polish` 100 [Philosophy of Science / Correlation and Causation](../philosophy-of-science/correlation-and-causation/)
+- `polish` 100 [Philosophy of Science / Elements of Research Design](../philosophy-of-science/elements-of-research-design/)
+- `polish` 100 [Philosophy of Science / Is History Science?](../philosophy-of-science/is-history-science/)
+- `polish` 100 [Philosophy of Science / Research Design](../philosophy-of-science/research-design/)
+- `polish` 100 [Philosophy of Science / Scientism & Faith](../philosophy-of-science/scientism-faith/)
+- `polish` 100 [Philosophy of Science / The Power of Thought Experiments](../philosophy-of-science/the-power-of-thought-experiments/)
+- `polish` 100 [Philosophy of Science / What is Induction?](../philosophy-of-science/what-is-induction/)
+
 ## Summary
 
 - Tracked pages: 346
-- Pages remaining in current cycle: 296
+- Pages remaining in current cycle: 246
 - Estimated batches per cycle: 7
 
 - gap-fill: 82
