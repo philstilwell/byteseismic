@@ -6645,6 +6645,200 @@ def dialogue_anchor_for_prompt(prompt: str) -> str:
     return ""
 
 
+SCHOOL_TEACHING_DIALOGUE_PROFILES = {
+    "analytic philosophers": {
+        "teacher": "Analytic Philosopher",
+        "central": "clarity, argument structure, and the patient testing of claims",
+        "contrast": "a slogan that sounds profound but cannot survive careful formulation",
+        "case": "whether a machine can understand a sentence or only manipulate symbols",
+        "risk": "turning precision into narrowness and missing why the question mattered",
+        "method": "define the claim, separate the possible meanings, and test the argument that links them",
+        "objection": "that analytic philosophy can mistake tidiness for depth",
+        "payoff": "the reader leaves knowing exactly what would have to be true for the argument to work",
+    },
+    "ancient philosophers": {
+        "teacher": "Ancient Philosopher",
+        "central": "wisdom as a discipline of life, not merely a set of clever propositions",
+        "contrast": "knowing the right words while failing to cultivate judgment",
+        "case": "whether loyalty to family should override a ruler's unjust demand",
+        "risk": "treating ancient thought as inspirational decoration rather than serious practical reasoning",
+        "method": "begin with a concrete conflict, ask what kind of person the answer forms, and then test the principle",
+        "objection": "that role, ritual, or virtue talk can excuse hierarchy",
+        "payoff": "the reader sees why ethics, politics, and self-cultivation were not separate hobbies",
+    },
+    "continental philosophers": {
+        "teacher": "Continental Philosopher",
+        "central": "the fact that human reason is embodied, historical, linguistic, and socially situated",
+        "contrast": "a clean abstraction that gets its cleanliness by erasing the conditions that produced it",
+        "case": "a law that claims to be neutral while sorting people through inherited categories",
+        "risk": "letting suspicion become theatrical vagueness",
+        "method": "ask what history, language, power, and lived experience the neutral description has left out",
+        "objection": "that the method can look like overcomplication or relativism",
+        "payoff": "the student learns to ask what had to disappear before the official description sounded obvious",
+    },
+    "critical theorists": {
+        "teacher": "Critical Theorist",
+        "central": "how domination can hide inside habits, institutions, culture, and apparently rational systems",
+        "contrast": "calling a social arrangement natural when it has been produced and protected",
+        "case": "a platform that says it merely gives users what they want while training those wants for profit",
+        "risk": "collapsing critique into cynicism",
+        "method": "trace the institution, expose the ideology, ask who benefits, and look for less distorted forms of life",
+        "objection": "that critique can make agency disappear by explaining everything through structures",
+        "payoff": "the student sees how critique differs from denunciation",
+    },
+    "empiricists": {
+        "teacher": "Empiricist",
+        "central": "the demand that ideas answer to experience, observation, and correction",
+        "contrast": "a theory that explains everything in advance and learns nothing from the world",
+        "case": "whether a causal claim about medicine should be believed before the evidence comes in",
+        "risk": "making experience so authoritative that structure, mathematics, or background concepts disappear",
+        "method": "ask what has been observed, what would change the conclusion, and what habit of inference is being smuggled in",
+        "objection": "that experience alone cannot explain necessity or conceptual order",
+        "payoff": "the student learns to respect experience without mistaking first impressions for evidence",
+    },
+    "existentialists": {
+        "teacher": "Existentialist",
+        "central": "freedom, responsibility, finitude, and the temptation to hide inside roles",
+        "contrast": "saying 'I had no choice' when a choice is being made through evasion",
+        "case": "staying silent at work because everyone else does",
+        "risk": "turning responsibility into blame while ignoring real constraint",
+        "method": "separate limitation from excuse, then ask what the person is still choosing in the way the situation is inhabited",
+        "objection": "that existentialism can overstate freedom and understate social pressure",
+        "payoff": "the student sees why anxiety can reveal responsibility rather than merely express discomfort",
+    },
+    "phenomenologists": {
+        "teacher": "Phenomenologist",
+        "central": "the structures of lived experience before they are translated into detached theory",
+        "contrast": "explaining perception from the outside while skipping what the world is like as encountered",
+        "case": "reaching for a familiar tool and noticing how it normally disappears into use",
+        "risk": "describing experience so carefully that the account forgets its own limits",
+        "method": "slow down the experience, bracket the usual assumptions, and describe how meaning shows up",
+        "objection": "that first-person description may not be enough for public knowledge",
+        "payoff": "the student learns why experience has structure before theory arrives",
+    },
+    "pragmatists": {
+        "teacher": "Pragmatist",
+        "central": "what a belief or distinction changes in inquiry, expectation, conduct, and correction",
+        "contrast": "a verbal disagreement that produces no difference in what anyone would test or do",
+        "case": "whether a school policy should be kept because it sounds principled or because it improves learning",
+        "risk": "confusing pragmatic method with short-term convenience",
+        "method": "ask what difference the claim makes, what would count against it, and how practice should revise itself",
+        "objection": "that pragmatism can sound shallow or anti-metaphysical",
+        "payoff": "the student sees usefulness disciplined by inquiry rather than opportunism",
+    },
+    "rationalists": {
+        "teacher": "Rationalist",
+        "central": "the power of reason to grasp necessity, structure, and truths experience alone cannot supply",
+        "contrast": "collecting observations without explaining why a conclusion must hold",
+        "case": "whether mathematical certainty could ever be built from repeated sensory impressions",
+        "risk": "letting reason outrun what has actually been justified",
+        "method": "identify the necessary relation, test whether experience can account for it, and then ask what reason contributes",
+        "objection": "that rationalism may project the mind's order onto the world",
+        "payoff": "the student sees why necessity became the rationalist's central clue",
+    },
+    "scholastics": {
+        "teacher": "Scholastic",
+        "central": "disciplined distinction-making through objection, reply, and ordered conclusion",
+        "contrast": "answering too quickly because the terms have not yet been separated",
+        "case": "whether natural law means identical customs or shared practical reason beneath variation",
+        "risk": "multiplying distinctions until precision becomes display",
+        "method": "state the objection fairly, divide the question, answer the strongest form, and return to the difficulty",
+        "objection": "that scholastic argument can become verbal machinery detached from life",
+        "payoff": "the student sees why careful form can clarify instead of merely decorate",
+    },
+}
+
+
+def prompt_requests_dialogue(prompt: str) -> bool:
+    lowered = clean_text(prompt).lower()
+    return "dialogue" in lowered and any(
+        term in lowered
+        for term in ("create", "produce", "provide", "imagine", "write", "continue")
+    )
+
+
+def normalized_school_dialogue_key(title: str, prompt: str) -> str:
+    title_key = clean_text(title).strip(" ?!.").lower()
+    prompt_key = clean_text(prompt).lower()
+    aliases = {
+        "critical theory": "critical theorists",
+        "critical theorists": "critical theorists",
+        "continental philosophy": "continental philosophers",
+        "continental philosophers": "continental philosophers",
+        "empiricism": "empiricists",
+        "empiricists": "empiricists",
+        "existentialism": "existentialists",
+        "existentialists": "existentialists",
+        "phenomenology": "phenomenologists",
+        "phenomenologists": "phenomenologists",
+        "pragmatism": "pragmatists",
+        "pragmatists": "pragmatists",
+        "rationalism": "rationalists",
+        "rationalists": "rationalists",
+        "scholasticism": "scholastics",
+        "scholastics": "scholastics",
+    }
+    if title_key == "ancient philosophers" and "asian ancient philosopher" in prompt_key:
+        return "ancient philosophers"
+    if "analytic philosopher" in prompt_key:
+        return "analytic philosophers"
+    return aliases.get(title_key, title_key)
+
+
+def synthetic_teaching_dialogue_turns(page: dict, prompt: str) -> list[dict]:
+    if not prompt_requests_dialogue(prompt):
+        return []
+    key = normalized_school_dialogue_key(page.get("title", ""), prompt)
+    profile = SCHOOL_TEACHING_DIALOGUE_PROFILES.get(key)
+    if not profile:
+        title = topic_label(page.get("title", "the view"))
+        profile = {
+            "teacher": title,
+            "central": f"the central pressure inside {title}",
+            "contrast": "a label that sounds clear until a concrete case tests it",
+            "case": "a live disagreement where the first formulation is too simple",
+            "risk": "turning the topic into a summary rather than a practice of inquiry",
+            "method": "state the claim, test the distinction, and let the objection clarify what is at stake",
+            "objection": "that the view may clarify one pressure while hiding another",
+            "payoff": "the student leaves with a question that can guide further reading",
+        }
+    teacher = profile["teacher"]
+    return [
+        {"speaker": "Student", "text": "I keep hearing this tradition named, but I only have a slogan. Where should I begin?"},
+        {"speaker": teacher, "text": f"Begin with this pressure: {profile['central']}. If that pressure is invisible, the rest becomes a vocabulary lesson."},
+        {"speaker": "Student", "text": "So the first task is not memorizing names, but seeing what problem makes the tradition necessary?"},
+        {"speaker": teacher, "text": f"Exactly. The tradition starts to matter when it exposes {profile['contrast']}."},
+        {"speaker": "Student", "text": "Can you give me a case where that difference is not just academic?"},
+        {"speaker": teacher, "text": f"Take this case: {profile['case']}. The question is what becomes easier to see once the tradition is allowed to do its work."},
+        {"speaker": "Student", "text": "What would an impatient reader miss in that case?"},
+        {"speaker": teacher, "text": f"They would miss the method: {profile['method']}."},
+        {"speaker": "Student", "text": "But couldn't that method become its own bad habit?"},
+        {"speaker": teacher, "text": f"Yes. Its main danger is {profile['risk']}."},
+        {"speaker": "Student", "text": "Then the tradition is not automatically right just because it notices something others miss."},
+        {"speaker": teacher, "text": "Right. A serious tradition earns trust by naming both its insight and its temptation."},
+        {"speaker": "Student", "text": "What is the strongest objection a beginner should keep in view?"},
+        {"speaker": teacher, "text": f"The strongest objection is {profile['objection']}."},
+        {"speaker": "Student", "text": "How should the tradition answer without merely repeating itself?"},
+        {"speaker": teacher, "text": "It has to return to the case and show what actually changes in judgment, not just defend its favorite vocabulary."},
+        {"speaker": "Student", "text": "So I should ask what the view helps me notice, what it distorts, and what would force revision?"},
+        {"speaker": teacher, "text": "That is the right discipline. A useful tradition sharpens attention while remaining answerable to its own failures."},
+        {"speaker": "Student", "text": "What should I leave this dialogue carrying into the next page?"},
+        {"speaker": teacher, "text": f"Carry this: {profile['payoff']}."},
+    ]
+
+
+def synthetic_prompt_dialogue_turns(page: dict, prompt: str) -> list[dict]:
+    if not prompt_requests_dialogue(prompt):
+        return []
+    if page.get("section_id") == "philosophers":
+        philosopher = topic_label(page.get("title", ""))
+        profile = philosopher_profile_for_title(page.get("title", ""))
+        if profile:
+            anchor = dialogue_anchor_for_prompt(prompt) or "beginner-dialogue"
+            return synthetic_dialogue_turns(philosopher, profile, anchor)
+    return synthetic_teaching_dialogue_turns(page, prompt)
+
+
 def parse_dialogue_turn_text(raw_text: str) -> dict | None:
     lines = [
         clean_text(line)
@@ -18638,6 +18832,13 @@ def source_prompt_sections(page: dict, prompts: list[str]) -> list[dict]:
             if example_paragraph:
                 append_unique_paragraph(paragraphs, example_paragraph)
             list_items = current_batch_philosopher_items(page, prompt) or []
+            dialogue_turns = (
+                detail_for_section.get("dialogue_turns", [])
+                if len(detail_for_section.get("dialogue_turns", [])) >= 4
+                else synthetic_prompt_dialogue_turns(page, prompt)
+            )
+            if dialogue_turns:
+                list_items = []
             quality = quality_assessment(page, prompt, detail_for_section, paragraphs, list_items, True)
             sections.append(
                 {
@@ -18657,7 +18858,7 @@ def source_prompt_sections(page: dict, prompts: list[str]) -> list[dict]:
                     "paragraphs": paragraphs,
                     "list_items": list_items,
                     "comparison_tables": [],
-                    "dialogue_turns": [],
+                    "dialogue_turns": dialogue_turns,
                     "learning_items": pedagogical_checkpoints(page, prompt, detail_for_section),
                     "prompt": prompt,
                     "quality": quality,
@@ -18692,6 +18893,13 @@ def source_prompt_sections(page: dict, prompts: list[str]) -> list[dict]:
                             list_items.append(cleaned_item)
             paragraphs = dedupe(paragraphs)
             list_items = dedupe(list_items)
+            dialogue_turns = (
+                detail_for_section.get("dialogue_turns", [])
+                if len(detail_for_section.get("dialogue_turns", [])) >= 4
+                else synthetic_prompt_dialogue_turns(page, prompt)
+            )
+            if dialogue_turns and not detail_for_section.get("dialogue_turns"):
+                list_items = []
             quality = quality_assessment(page, prompt, detail_for_section, paragraphs, list_items, True)
             sections.append(
                 {
@@ -18701,9 +18909,7 @@ def source_prompt_sections(page: dict, prompts: list[str]) -> list[dict]:
                     "paragraphs": paragraphs,
                     "list_items": list_items,
                     "comparison_tables": detail_for_section.get("tables", []),
-                    "dialogue_turns": detail_for_section.get("dialogue_turns", [])
-                    if len(detail_for_section.get("dialogue_turns", [])) >= 4
-                    else [],
+                    "dialogue_turns": dialogue_turns,
                     "learning_items": (
                         section_override.get("learning_items")
                         or detail.get("learning_items")
@@ -18754,6 +18960,13 @@ def source_prompt_sections(page: dict, prompts: list[str]) -> list[dict]:
             if is_current_editorial_batch_page(page):
                 list_items = trim_current_batch_support_items(list_items)
             quality = quality_assessment(page, prompt, detail_for_section, paragraphs, list_items, hand_polished)
+        dialogue_turns = (
+            detail_for_section.get("dialogue_turns", [])
+            if len(detail_for_section.get("dialogue_turns", [])) >= 4
+            else synthetic_prompt_dialogue_turns(page, prompt)
+        )
+        if dialogue_turns and not detail_for_section.get("dialogue_turns"):
+            list_items = []
         sections.append(
             {
                 "id": anchor,
@@ -18772,9 +18985,7 @@ def source_prompt_sections(page: dict, prompts: list[str]) -> list[dict]:
                 "paragraphs": paragraphs,
                 "list_items": list_items,
                 "comparison_tables": detail_for_section.get("tables", []),
-                "dialogue_turns": detail_for_section.get("dialogue_turns", [])
-                if len(detail_for_section.get("dialogue_turns", [])) >= 4
-                else [],
+                "dialogue_turns": dialogue_turns,
                 "learning_items": pedagogical_checkpoints(page, prompt, detail_for_section),
                 "prompt": prompt,
                 "quality": quality,

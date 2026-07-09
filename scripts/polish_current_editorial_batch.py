@@ -20,9 +20,11 @@ from build_archive import (
     philosopher_source_work_fallback,
     prompt_focus,
     render_inline_text,
+    render_dialogue_card,
     render_list_section,
     render_paragraphs,
     short_prompt_key,
+    synthetic_prompt_dialogue_turns,
     topic_label,
 )
 
@@ -1273,6 +1275,7 @@ def polish_special_batch_page(path: Path, original: str, page_title: str) -> str
         return original
 
     soup = BeautifulSoup(original, "html.parser")
+    page = page_dict_for_path(path, page_title)
 
     source_section = soup.select_one("#source-texture")
     if source_section is not None:
@@ -1312,13 +1315,18 @@ def polish_special_batch_page(path: Path, original: str, page_title: str) -> str
         if meta is None or prompt_note is None or heading is None:
             continue
         heading.string = section_profile["heading"]
+        prompt_text = strip_tags(prompt_note.get_text(" ", strip=True))
+        dialogue_turns = section_profile.get("dialogue_turns") or synthetic_prompt_dialogue_turns(page, prompt_text)
+        dialogue_html = render_dialogue_card(dialogue_turns, "") if dialogue_turns else ""
+        list_html = "" if dialogue_turns else render_list_section(section_profile["items"])
         new_section_html = (
             f'<section class="{" ".join(section.get("class", []))}" id="{section.get("id", "")}">'
             f"{str(meta)}"
             f"{str(prompt_note)}"
             f"{str(heading)}"
             f"{render_paragraphs(section_profile['paragraphs'])}"
-            f"{render_list_section(section_profile['items'])}"
+            f"{dialogue_html}"
+            f"{list_html}"
             f"{str(learning_card) if learning_card else ''}"
             "</section>"
         )
