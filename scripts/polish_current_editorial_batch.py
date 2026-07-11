@@ -1387,6 +1387,32 @@ def clean_generic_paragraphs_globally(updated: str) -> str:
     return str(soup)
 
 
+def final_batch_cleanup(updated: str) -> str:
+    soup = BeautifulSoup(updated, "html.parser")
+
+    for tag in soup.find_all(["p", "li"]):
+        text = strip_tags(str(tag))
+        if not text:
+            continue
+        if text.startswith("Keep ") and "That is what shows what the page is claiming" in text:
+            tag.decompose()
+            continue
+        if "GEMINI:" in text or "Pushback for GEMINI:" in text:
+            tag.decompose()
+            continue
+        if text.startswith("Track the movement in the exchange:") and "GEMINI" in text:
+            tag.decompose()
+            continue
+        if text.startswith("Notice what changes if ") and "GEMINI" in text:
+            tag.decompose()
+
+    for learning_card in soup.select("aside.learning-card"):
+        if not learning_card.select("li"):
+            learning_card.decompose()
+
+    return str(soup)
+
+
 def clean_html(original: str, page: dict, page_title: str) -> str:
     updated = original
     for old, new in TEXT_REPLACEMENTS.items():
@@ -1403,6 +1429,7 @@ def clean_html(original: str, page: dict, page_title: str) -> str:
     updated = SECTION_RE.sub(rewrite_section, updated)
     updated = clean_learning_cards(updated)
     updated = clean_generic_paragraphs_globally(updated)
+    updated = final_batch_cleanup(updated)
     return updated
 
 
