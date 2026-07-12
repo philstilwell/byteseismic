@@ -933,7 +933,13 @@ def normalize_heading_text(text: str) -> str:
 
     match = re.fullmatch(r"The real issue is what (.+) changes once it becomes precise\.", text)
     if match:
-        return f"What changes once we define {match.group(1)} more carefully"
+        subject = match.group(1).strip().rstrip(".")
+        return f"Clarifying {subject}"
+
+    match = re.fullmatch(r"What changes once we define (.+) more carefully", text)
+    if match:
+        subject = match.group(1).strip().rstrip(".")
+        return f"Clarifying {subject}"
 
     match = re.fullmatch(r"A concrete case shows what (.+) explains and where it strains\.", text)
     if match:
@@ -943,57 +949,96 @@ def normalize_heading_text(text: str) -> str:
     if match:
         return f"Why {match.group(1)} matters in practice"
 
+    match = re.fullmatch(r"(.+) matters only if it survives the strongest pressure against it\.", text)
+    if match:
+        return f"Testing {match.group(1)} under pressure"
+
+    match = re.fullmatch(r"Vanishing-probability mistakes recur whenever .+", text)
+    if match:
+        return "How vanishing-probability mistakes take hold"
+
     return text
 
 
 def heading_from_prompt(prompt_text: str, page_title: str, heading_text: str, section_id: str) -> str:
     prompt_text = " ".join(prompt_text.split())
     heading_text = " ".join(heading_text.split())
+    prompt_lower = prompt_text.lower()
 
     match = re.match(r"Provide a general description of (?:the philosophical school of )?(.+?)\.$", prompt_text, re.IGNORECASE)
     if match and section_id == "prompt-1":
         return f"What {match.group(1)} is really trying to do"
 
     if section_id == "prompt-1":
-        if "influence on philosophy" in prompt_text.lower():
+        if "influence on philosophy" in prompt_lower:
             return f"Why {page_title} still matters to later philosophy"
-        if "remains philosophically important" in prompt_text.lower():
+        if "remains philosophically important" in prompt_lower:
             return f"Why {page_title} remains philosophically important"
+        if prompt_lower.startswith("what are the major schools of thought"):
+            return "What are the major schools of thought in philosophy of mind?"
+        if "background of the author of this article" in prompt_lower:
+            return "Who the author is, and why that matters here"
 
     if section_id == "prompt-2":
-        if "7 greatest contributions" in prompt_text.lower():
+        if "7 greatest contributions" in prompt_lower:
             return f"How {page_title} still shapes later thought"
-        if "annotated list" in prompt_text.lower() and "contributions" in prompt_text.lower():
+        if "annotated list" in prompt_lower and "contributions" in prompt_lower:
             return f"How {page_title} still shapes later thought"
         match = re.match(r"Provide a list of the key contributions (.+?) ha(?:s|ve) made to philosophical thought\.$", prompt_text, re.IGNORECASE)
         if match:
             return f"How {match.group(1)} reshaped later philosophy"
-        if "key concepts" in prompt_text.lower() or "major concepts" in prompt_text.lower():
+        if "key concepts" in prompt_lower or "major concepts" in prompt_lower:
             return f"The ideas that make {page_title} more than a label"
+        if "6-month self-study program" in prompt_lower:
+            return f"A six-month path into {page_title}"
+        if "well-structured assessment" in prompt_lower or "assessment of" in prompt_lower:
+            return f"The strongest parts of the argument, and where they strain"
+        if "actual historical examples" in prompt_lower and "trauma of what happened" in prompt_lower:
+            return "Five traumas that look different once counterfactuals enter"
+        if "nicholas cage" in prompt_lower and "swimming pool drownings" in prompt_lower:
+            return "A famous spurious correlation, and what it actually teaches"
 
     if section_id == "prompt-3":
-        if "most likely causes behind" in prompt_text.lower() and "becoming a notable philosopher" in prompt_text.lower():
+        if "most likely causes behind" in prompt_lower and "becoming a notable philosopher" in prompt_lower:
             return f"Why {page_title} became so influential"
         match = re.match(r"List the most influential (.+?) in history\.$", prompt_text, re.IGNORECASE)
         if match:
             subject = match.group(1).strip()
             subject = SCHOOL_NAME_BY_FIGURE_LABEL.get(subject.lower(), subject)
             return f"The figures who gave {subject} its durable shape"
-        if "strongest objection" in prompt_text.lower():
+        if "strongest objection" in prompt_lower:
             return f"The hardest objection {page_title} still has to answer"
+        if "25 of the most relevant questions" in prompt_lower:
+            return "Questions that still organize philosophy of mind"
+        if "actual historical examples" in prompt_lower and "greater success" in prompt_lower:
+            return "Five successes that may have hidden even better possibilities"
+        if "new industries and career opportunities" in prompt_lower:
+            return "What new work AI may create as old roles disappear"
 
     if section_id == "prompt-4":
-        if "which schools of philosophical thought" in prompt_text.lower() or "which academic domains" in prompt_text.lower():
+        if "which schools of philosophical thought" in prompt_lower or "which academic domains" in prompt_lower:
             return f"Where {page_title} left the deepest mark"
         match = re.match(r"Produce a 20-line hypothetical dialogue between (?P<subject>(?:an?|the) .+?) and .+\.$", prompt_text, re.IGNORECASE)
         if match:
             return f"A dialogue that shows how {match.group('subject')} thinks in practice"
-        if "dialogue" in prompt_text.lower():
+        if "dialogue" in prompt_lower:
             return f"A dialogue that tests what {page_title} can explain"
-        if "how should a contemporary reader begin with" in prompt_text.lower():
+        if "how should a contemporary reader begin with" in prompt_lower:
             return f"How to begin reading {page_title} today"
-        if "entry point" in prompt_text.lower() or "best entry point" in prompt_text.lower():
+        if "entry point" in prompt_lower or "best entry point" in prompt_lower:
             return f"The best way into {page_title} for a new reader"
+        if "20 questions/answer pairs" in prompt_lower:
+            return "A classroom dialogue that surfaces the live disputes"
+        if "negatively affect rationality" in prompt_lower:
+            return "How this asymmetry distorts rational judgment"
+        if "human psyche and social interactions" in prompt_lower:
+            return "How optional work could reshape identity and social life"
+
+    if section_id == "prompt-5":
+        if "what other disciplines are a good foundation" in prompt_lower:
+            return "Which disciplines best prepare you for advanced work in philosophy of mind"
+        if "how might we inoculate ourselves" in prompt_lower:
+            return "How to keep the actual from burying the plausible"
 
     return normalize_heading_text(heading_text)
 
@@ -1001,6 +1046,12 @@ def heading_from_prompt(prompt_text: str, page_title: str, heading_text: str, se
 def should_remove_paragraph(text: str) -> bool:
     cleaned = " ".join(text.split())
     if "Gemini failed" in cleaned or "GEMINI:" in cleaned:
+        return True
+    if cleaned.startswith("First get clear on "):
+        return True
+    if cleaned.startswith("Try a live borderline case."):
+        return True
+    if cleaned.startswith("Start with ") and "Without that first grip" in cleaned:
         return True
     if cleaned.startswith("Keep ") and " in the same frame." in cleaned:
         return True
@@ -1106,6 +1157,10 @@ def section_needs_rewrite(page: dict, heading_text: str, paragraphs: list[str]) 
     content = " ".join(paragraphs).strip()
     if not content:
         return True
+    if heading_text.startswith("What changes once we define "):
+        return True
+    if heading_text.startswith("Now provide "):
+        return True
     if len(content.split()) < 95:
         return True
     if len(paragraphs) < 2:
@@ -1128,35 +1183,75 @@ def synthesize_section_paragraphs(page: dict, page_title: str, prompt_text: str,
     frame, example = page_frame(page)
     subject = key or topic or page_title
 
-    openers = {
-        "definition": (
-            f"This section clarifies {subject} by showing {frame}. The point is not to supply a prettier definition, but to make the distinction sharp enough to guide real judgment."
-        ),
-        "mapping": (
-            f"This section should function like a map rather than a slogan. The reader needs to see how the main parts of {subject} connect without pretending they all do the same work."
-        ),
-        "examples": (
-            f"This section becomes useful only when {subject} survives contact with a concrete case. The page should move from abstract description to an example that forces the distinction to make a difference."
-        ),
-        "argument": (
-            f"This section is not just a claim to repeat; it has to earn confidence under pressure. What matters is what actually supports {subject}, what would weaken it, and which shortcuts only create the appearance of a stronger conclusion."
-        ),
-        "description": (
-            f"This section should teach the reader what to watch for first. A good explanation of {subject} does not merely restate familiar language; it shows what that language usually hides."
-        ),
-        "inquiry": (
-            f"This section is worth asking because it changes what the reader should compare next. The point is to make {subject} more investigable, not merely more impressive-sounding."
-        ),
-        "dialogue": (
-            f"This section works only if the exchange exposes the real pressure point instead of letting the speakers trade rehearsed slogans. Each side should sharpen the other by forcing the key assumptions behind {subject} into plain view."
-        ),
+    first_by_focus = {
+        "definition": f"The prompt is valuable only if it makes {subject} clearer in use, not just cleaner in wording. The reader should come away seeing {frame}.",
+        "mapping": f"This section should orient the reader to the structure of {subject}. The point is to show how the main parts connect without pretending they are interchangeable.",
+        "examples": f"The point of this prompt is to make {subject} answer to concrete cases. Once examples enter, the reader can see which distinctions are doing real explanatory work and which are ornamental.",
+        "argument": f"This section should test how much argumentative weight {subject} can actually carry. The important question is what supports it, what weakens it, and where rhetoric is standing in for inference.",
+        "description": f"A useful explanation of {subject} shows what ordinary language tends to hide. It should make the reader notice {frame}.",
+        "inquiry": f"The prompt matters because it changes what the reader should investigate next about {subject}. The section should turn a broad topic into a sharper line of inquiry.",
+        "dialogue": f"The exchange should surface the real dispute behind {subject}, not just stage a polite recital of positions. Each speaker should force one assumption into the open.",
     }
-    first = openers.get(focus, openers["inquiry"])
+    first = first_by_focus.get(focus, first_by_focus["inquiry"])
     second = example
-    third = (
-        f"The pedagogical payoff is practical. After this section, the reader should be better able to explain {key} in plain language, identify a likely misuse of it, and say what further evidence or argument would actually move the view."
-    )
+    third = f"After this section, the reader should be able to restate {subject} in plain language, identify an easy misuse of it, and say what would count as a better reason for or against the view."
     return [first, second, third]
+
+
+def synthesized_section_items(page: dict, page_title: str, prompt_text: str) -> list[str]:
+    topic = topic_label(page_title)
+    key = clean_discussion_key(short_prompt_key(prompt_text, topic), topic, topic)
+    focus = prompt_focus(prompt_text)
+    subject = key or topic or page_title
+
+    if focus == "examples":
+        return [
+            f"Ask what the example clarifies about {subject}, not just whether it sounds vivid.",
+            "Notice which background assumptions the example quietly relies on.",
+            "Check whether the case supports the conclusion or merely illustrates it.",
+            "Ask what a nearby counterexample would have to look like."
+        ]
+    if focus == "dialogue":
+        return [
+            "The exchange should reveal a real disagreement, not just alternate monologues.",
+            f"Watch for the point where one speaker forces a clearer definition of {subject}.",
+            "A good dialogue earns one concession without pretending the dispute is finished.",
+            "The best closing move sharpens the question rather than dissolving it."
+        ]
+    if focus == "mapping":
+        return [
+            f"Keep the parts of {subject} distinct enough that each one does identifiable work.",
+            "Look for the boundary between neighboring positions, not just the names of the positions.",
+            "Ask which distinction would matter most in a real disagreement.",
+            "A useful map should help the reader classify a borderline case."
+        ]
+    return [
+        f"State the clearest version of {subject} before testing it.",
+        "Ask what evidence, example, or argument would genuinely change the reader's judgment.",
+        "Notice where a familiar phrase is doing more work than the reasoning beneath it.",
+        "Keep the neighboring concepts visible so the page does not collapse different questions together."
+    ]
+
+
+def list_needs_rewrite(section) -> bool:
+    list_tag = section.find(["ol", "ul"], recursive=False)
+    if list_tag is None:
+        return False
+    items = [" ".join(item.get_text(" ", strip=True).split()) for item in list_tag.find_all("li", recursive=False)]
+    if not items:
+        return False
+    generic_prefixes = (
+        "The central distinction",
+        "Central distinction:",
+        "The strongest charitable version:",
+        "The main pressure point:",
+        "The neighboring question:",
+        "Best charitable version:",
+        "Pressure point:",
+    )
+    if any(item.startswith(generic_prefixes) for item in items):
+        return True
+    return len(set(items)) <= max(1, len(items) // 2)
 
 
 def strengthen_section_html(section_html: str, page: dict, page_title: str) -> str:
@@ -1178,17 +1273,32 @@ def strengthen_section_html(section_html: str, page: dict, page_title: str) -> s
     ]
     paragraph_texts = [strip_tags(str(p)) for p in paragraphs]
     if not section_needs_rewrite(page, heading_text, paragraph_texts):
-        return str(section)
+        if not list_needs_rewrite(section):
+            return str(section)
 
-    for paragraph in paragraphs:
-        paragraph.decompose()
+    rewrite_paragraphs = section_needs_rewrite(page, heading_text, paragraph_texts)
+    if rewrite_paragraphs:
+        for paragraph in paragraphs:
+            paragraph.decompose()
 
     anchor = heading
-    for text in synthesize_section_paragraphs(page, page_title, prompt_text, heading_text):
-        new_p = soup.new_tag("p")
-        new_p.string = text
-        anchor.insert_after(new_p)
-        anchor = new_p
+    if rewrite_paragraphs:
+        for text in synthesize_section_paragraphs(page, page_title, prompt_text, heading_text):
+            new_p = soup.new_tag("p")
+            new_p.string = text
+            anchor.insert_after(new_p)
+            anchor = new_p
+
+    if list_needs_rewrite(section):
+        list_tag = section.find(["ol", "ul"], recursive=False)
+        if list_tag is not None:
+            list_tag.decompose()
+        new_list = soup.new_tag("ol")
+        for item_text in synthesized_section_items(page, page_title, prompt_text):
+            li = soup.new_tag("li")
+            li.string = item_text
+            new_list.append(li)
+        anchor.insert_after(new_list)
 
     return str(section)
 
