@@ -1047,6 +1047,24 @@ def should_remove_paragraph(text: str) -> bool:
     cleaned = " ".join(text.split())
     if "Gemini failed" in cleaned or "GEMINI:" in cleaned:
         return True
+    if cleaned.startswith((
+        "The prompt matters because it changes what the reader should investigate next about ",
+        "The prompt is valuable only if it makes ",
+        "This section should orient the reader to the structure of ",
+        "The point of this prompt is to make ",
+        "This section should test how much argumentative weight ",
+        "A useful explanation of ",
+        "The exchange should surface the real dispute behind ",
+        "After this section, the reader should be able to restate ",
+        "A strong ethical explanation should be able to survive one concrete case ",
+        "The page becomes clearer once the idea is tied to a recognizable life problem ",
+        "An introductory page works best when it gives the reader a map for comparison ",
+        "A metaphysical claim earns trust when it clarifies one stubborn puzzle, ",
+        "A good language example shows how a phrase can sound harmless in ordinary conversation ",
+        "A concrete case helps here because consciousness talk becomes vague very quickly ",
+        "A useful example should move the discussion from labels to judgment ",
+    )):
+        return True
     if cleaned.startswith("First get clear on "):
         return True
     if cleaned.startswith("Try a live borderline case."):
