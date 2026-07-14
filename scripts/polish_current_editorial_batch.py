@@ -1202,17 +1202,17 @@ def synthesize_section_paragraphs(page: dict, page_title: str, prompt_text: str,
     subject = key or topic or page_title
 
     first_by_focus = {
-        "definition": f"The prompt is valuable only if it makes {subject} clearer in use, not just cleaner in wording. The reader should come away seeing {frame}.",
-        "mapping": f"This section should orient the reader to the structure of {subject}. The point is to show how the main parts connect without pretending they are interchangeable.",
-        "examples": f"The point of this prompt is to make {subject} answer to concrete cases. Once examples enter, the reader can see which distinctions are doing real explanatory work and which are ornamental.",
-        "argument": f"This section should test how much argumentative weight {subject} can actually carry. The important question is what supports it, what weakens it, and where rhetoric is standing in for inference.",
-        "description": f"A useful explanation of {subject} shows what ordinary language tends to hide. It should make the reader notice {frame}.",
-        "inquiry": f"The prompt matters because it changes what the reader should investigate next about {subject}. The section should turn a broad topic into a sharper line of inquiry.",
-        "dialogue": f"The exchange should surface the real dispute behind {subject}, not just stage a polite recital of positions. Each speaker should force one assumption into the open.",
+        "definition": f"At stake in {subject} is not merely a definition but a boundary. The reader needs to see {frame} before the term can do useful work.",
+        "mapping": f"{subject} becomes clearer once the page stops treating it as a loose pile of nearby ideas. The important move is to show how the main parts connect without pretending they are interchangeable.",
+        "examples": f"{subject} is easiest to understand once it is forced into concrete cases. That is where the reader can tell which distinctions explain anything and which ones are only decorative.",
+        "argument": f"The live issue is whether {subject} can carry the argumentative weight being placed on it. That means separating the strongest support from the rhetorical packaging around it.",
+        "description": f"An honest description of {subject} should surface what ordinary language tends to hide. The real payoff is helping the reader notice {frame}.",
+        "inquiry": f"{subject} matters here as a line of inquiry, not just a topic label. The section should narrow the reader's attention toward the tension that actually needs investigation.",
+        "dialogue": f"The exchange around {subject} only becomes useful once each side presses a real disagreement into view. Otherwise the page stages voices without producing judgment.",
     }
     first = first_by_focus.get(focus, first_by_focus["inquiry"])
     second = example
-    third = f"After this section, the reader should be able to restate {subject} in plain language, identify an easy misuse of it, and say what would count as a better reason for or against the view."
+    third = f"By the end of the section, the reader should be able to restate {subject} in plain language, identify an easy misuse of it, and say what would count as a stronger reason for or against the view."
     return [first, second, third]
 
 
@@ -1280,6 +1280,7 @@ def strengthen_section_html(section_html: str, page: dict, page_title: str) -> s
 
     prompt_note = section.find("p", class_="article-section__prompt", recursive=False)
     heading = section.find("h2", recursive=False)
+    dialogue_card = section.find("div", class_="dialogue-card", recursive=False)
     if prompt_note is None or heading is None:
         return section_html
 
@@ -1311,12 +1312,29 @@ def strengthen_section_html(section_html: str, page: dict, page_title: str) -> s
         list_tag = section.find(["ol", "ul"], recursive=False)
         if list_tag is not None:
             list_tag.decompose()
-        new_list = soup.new_tag("ol")
-        for item_text in synthesized_section_items(page, page_title, prompt_text):
-            li = soup.new_tag("li")
-            li.string = item_text
-            new_list.append(li)
-        anchor.insert_after(new_list)
+        if dialogue_card is None:
+            new_list = soup.new_tag("ol")
+            for item_text in synthesized_section_items(page, page_title, prompt_text):
+                li = soup.new_tag("li")
+                li.string = item_text
+                new_list.append(li)
+            anchor.insert_after(new_list)
+
+    top_level_paragraphs = [
+        p for p in section.find_all("p", recursive=False)
+        if "article-section__prompt" not in (p.get("class") or [])
+    ]
+    if len(top_level_paragraphs) < 2:
+        needed = 2 - len(top_level_paragraphs)
+        intro_paragraphs = synthesize_section_paragraphs(page, page_title, prompt_text, heading_text)[:needed]
+        insertion_anchor = heading
+        for paragraph in top_level_paragraphs:
+            insertion_anchor = paragraph
+        for text in intro_paragraphs:
+            new_p = soup.new_tag("p")
+            new_p.string = text
+            insertion_anchor.insert_after(new_p)
+            insertion_anchor = new_p
 
     return str(section)
 
