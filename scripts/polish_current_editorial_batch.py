@@ -147,6 +147,53 @@ SCHOOL_NAME_BY_FIGURE_LABEL = {
     "phenomenologists": "Phenomenology",
 }
 
+COLLECTIVE_SOURCE_DOSSIERS = {
+    "Empiricists": {
+        "source_intro": "This dossier keeps Empiricism tied to the early modern fight over where knowledge begins, how far experience can carry explanation, and why later thinkers keep returning to that pressure.",
+        "source_cards": {
+            "Original framing": "An editorial orientation page designed to make Empiricism teachable as a living method rather than a parade of names.",
+            "Preserved texture": "The page preserves empiricism as a habit of testing claims against experience, then asking how much structure the mind contributes in the process.",
+            "Historical setting": "Early modern philosophy, especially the British empiricist struggle over sensation, reflection, causation, and the limits of innate ideas.",
+            "Primary texts nearby": "Locke's An Essay Concerning Human Understanding, Berkeley's Three Dialogues, and Hume's Treatise and Enquiry.",
+            "Ideas in view": "Experience, ideas, causation, induction, the self, and the challenge to rationalist confidence.",
+            "Influence trail": "Modern epistemology, philosophy of science, psychology of belief, pragmatism, and later naturalist critiques of a priori certainty.",
+        },
+    },
+    "Phenomenologists": {
+        "source_intro": "This dossier keeps Phenomenology anchored in the attempt to describe experience before theory, reduction, or scientific abstraction flatten what first appears.",
+        "source_cards": {
+            "Original framing": "An editorial orientation page designed to make Phenomenology teachable as a disciplined method of description rather than a vague mood.",
+            "Preserved texture": "The page preserves phenomenology as a return to lived experience, intentionality, embodiment, and the structures that make a world show up for consciousness at all.",
+            "Historical setting": "Late nineteenth- and twentieth-century European philosophy, where experience, intentionality, and embodiment become central after the limits of psychologism and abstract system-building.",
+            "Primary texts nearby": "Husserl's Ideas, Heidegger's Being and Time, Merleau-Ponty's Phenomenology of Perception, and Beauvoir's phenomenological ethics.",
+            "Ideas in view": "Intentionality, lived experience, epoché, embodiment, worldhood, and the difference between description and explanation.",
+            "Influence trail": "Existentialism, hermeneutics, cognitive science, psychiatry, theology, literary theory, and debates about first-person method.",
+        },
+    },
+    "Analytic Philosophers": {
+        "source_intro": "This dossier keeps Analytic philosophy tied to its strongest aspiration: clearer arguments, sharper distinctions, and fewer conceptual fog machines masquerading as depth.",
+        "source_cards": {
+            "Original framing": "An editorial orientation page designed to make Analytic philosophy teachable as a style of inquiry rather than a geography label.",
+            "Preserved texture": "The page preserves analytic philosophy as a commitment to argumentative clarity, explicit premises, and patient conceptual repair under objection.",
+            "Historical setting": "Twentieth-century philosophy shaped by logic, language, science, and the wish to replace grand system-building with tighter analysis.",
+            "Primary texts nearby": "Frege's essays, Russell's classic papers, Wittgenstein's Tractatus and Investigations, and later work by Quine, Kripke, Lewis, and Parfit.",
+            "Ideas in view": "Logical analysis, language, reference, mind, knowledge, modality, and the standards arguments must meet to count as clear.",
+            "Influence trail": "Philosophy of language, mind, logic, epistemology, decision theory, ethics, formal semantics, and ties to cognitive science.",
+        },
+    },
+    "Ancient Philosophers": {
+        "source_intro": "This dossier keeps ancient philosophy visible as more than origin story: it is where ethics, metaphysics, rhetoric, politics, and inquiry were first forced into durable argumentative form.",
+        "source_cards": {
+            "Original framing": "An editorial orientation page designed to make ancient philosophy teachable as a field of live disputes rather than a marble hall of founders.",
+            "Preserved texture": "The page preserves ancient philosophy as argument joined to character, civic life, cosmology, and the question of how one ought to live.",
+            "Historical setting": "Greek and Hellenistic philosophy, where public argument, metaphysical speculation, and ethical practice develop together.",
+            "Primary texts nearby": "Plato's dialogues, Aristotle's major works, Epicurean letters, Stoic fragments, and later Roman mediations such as Cicero and Marcus Aurelius.",
+            "Ideas in view": "Virtue, the good life, form and substance, causation, skepticism, rhetoric, and philosophy as a way of living.",
+            "Influence trail": "Virtue ethics, logic, metaphysics, political theory, natural law, religious thought, and later revivals of practical philosophy.",
+        },
+    },
+}
+
 SPECIAL_PAGE_PROFILES = {
     "Continental Philosophers": {
         "source_heading": "Read Continental philosophy as a family of disputes, not a creed.",
@@ -1386,6 +1433,82 @@ def polish_current_batch_philosopher_page(path: Path, original: str, page_title:
             body[-1].append(child)
         break
 
+    source_section = soup.select_one("#source-texture")
+    if source_section is not None:
+        heading = source_section.find("h2", recursive=False)
+        paragraphs = source_section.find_all("p", recursive=False)
+        intro_paragraph = paragraphs[0] if paragraphs else None
+        closing_paragraph = paragraphs[-1] if len(paragraphs) >= 2 else None
+        if heading is not None:
+            heading.string = f"Read {page_title} as a live method, not just a label."
+        if intro_paragraph is not None:
+            intro_paragraph.clear()
+            intro_paragraph.append(
+                f"This dossier keeps the page oriented around the problem, method, and nearby texts "
+                f"that make {page_title} worth revisiting."
+            )
+
+        cards_by_label = {}
+        for card in source_section.select(".source-dossier__card"):
+            label = card.select_one(".mini-label")
+            bodies = card.find_all("p")
+            if not label or len(bodies) < 2:
+                continue
+            cards_by_label[" ".join(label.get_text(" ", strip=True).split())] = bodies[-1]
+
+        original_framing = cards_by_label.get("Original framing")
+        if original_framing is not None:
+            original_framing.string = (
+                f"An editorial orientation page designed to make {page_title} teachable without "
+                f"reducing the figure or school to a slogan."
+            )
+
+        preserved_texture = cards_by_label.get("Preserved texture")
+        if preserved_texture is not None:
+            preserved_text = " ".join(preserved_texture.get_text(" ", strip=True).split())
+            preserved_text = re.sub(r"^(?:The page preserves\s+)+", "", preserved_text)
+            preserved_text = re.sub(
+                rf"^What is being preserved is the way {re.escape(page_title)} proceeds, not just a pile of conclusions\.\s*",
+                "",
+                preserved_text,
+            )
+            preserved_text = re.sub(
+                r"^What is being preserved is the way .*? proceeds, not just a pile of conclusions\.\s*",
+                "",
+                preserved_text,
+            )
+            if preserved_text:
+                preserved_texture.string = f"The page preserves {preserved_text[:1].lower()}{preserved_text[1:]}".rstrip()
+
+        if closing_paragraph is not None:
+            ideas = cards_by_label.get("Ideas in view")
+            ideas_text = ""
+            if ideas is not None:
+                ideas_text = " ".join(ideas.get_text(" ", strip=True).split())
+            focus_sentence = (
+                f"Keep asking which distinction does the real explanatory work in {page_title}."
+            )
+            if ideas_text:
+                focus_sentence = (
+                    f"Keep asking which distinction among {ideas_text} does the real explanatory work."
+                )
+            closing_paragraph.string = (
+                f"Read with one eye on method and one eye on resistance. The page should leave the "
+                f"reader able to name the core move, the pressure it creates, and the later debates it still shapes. "
+                f"{focus_sentence}"
+            )
+
+        collective_profile = COLLECTIVE_SOURCE_DOSSIERS.get(page_title)
+        if collective_profile is not None:
+            if intro_paragraph is not None:
+                intro_paragraph.clear()
+                intro_paragraph.append(collective_profile["source_intro"])
+            for label_text, replacement in collective_profile["source_cards"].items():
+                body = cards_by_label.get(label_text)
+                if body is not None:
+                    body.clear()
+                    body.append(replacement)
+
     for section in soup.select("section.article-section--prompt[id^='prompt-']"):
         prompt_note = section.find("p", class_="article-section__prompt", recursive=False)
         heading = section.find("h2", recursive=False)
@@ -1528,6 +1651,9 @@ def clean_generic_paragraphs_globally(updated: str) -> str:
         if "article-section__prompt" in classes:
             continue
         text = strip_tags(str(paragraph))
+        if "The section should narrow the reader's attention toward the tension that actually needs investigation." in text:
+            paragraph.decompose()
+            continue
         if should_remove_paragraph(text):
             paragraph.decompose()
     return str(soup)
