@@ -1630,6 +1630,9 @@ def clean_learning_cards(updated: str) -> str:
         "The exchange works only if its movement through ",
         "Track confidence calibration:",
         "Use (Gemini failed",
+        "Ask what pressure this section makes hard to dodge:",
+        "Use one concept as a tool: apply Philosophers or Philosophy",
+        "Use some suggest that the notion",
     )
 
     for learning_card in soup.select("aside.learning-card"):
@@ -1676,6 +1679,9 @@ def final_batch_cleanup(updated: str) -> str:
             tag.decompose()
             continue
         if text.startswith("Notice what changes if ") and "GEMINI" in text:
+            tag.decompose()
+            continue
+        if text.startswith("Which of these threads matters most right now:"):
             tag.decompose()
 
     for learning_card in soup.select("aside.learning-card"):
