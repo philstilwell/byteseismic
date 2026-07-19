@@ -1249,17 +1249,23 @@ def synthesize_section_paragraphs(page: dict, page_title: str, prompt_text: str,
     subject = key or topic or page_title
 
     first_by_focus = {
-        "definition": f"At stake in {subject} is not merely a definition but a boundary. The reader needs to see {frame} before the term can do useful work.",
-        "mapping": f"{subject} becomes clearer once the page stops treating it as a loose pile of nearby ideas. The important move is to show how the main parts connect without pretending they are interchangeable.",
-        "examples": f"{subject} is easiest to understand once it is forced into concrete cases. That is where the reader can tell which distinctions explain anything and which ones are only decorative.",
-        "argument": f"The live issue is whether {subject} can carry the argumentative weight being placed on it. That means separating the strongest support from the rhetorical packaging around it.",
-        "description": f"An honest description of {subject} should surface what ordinary language tends to hide. The real payoff is helping the reader notice {frame}.",
-        "inquiry": f"{subject} matters here as a line of inquiry, not just a topic label. The section should narrow the reader's attention toward the tension that actually needs investigation.",
-        "dialogue": f"The exchange around {subject} only becomes useful once each side presses a real disagreement into view. Otherwise the page stages voices without producing judgment.",
+        "definition": f"{subject} matters because people often use one label for several different claims at once. A solid definition separates those claims so the reader can see {frame}.",
+        "mapping": f"{subject} looks simpler than it is when the page treats every nearby idea as interchangeable. The job here is to show which parts belong together, which do not, and where the boundaries actually matter.",
+        "examples": f"{subject} becomes more intelligible when it is forced into a concrete case instead of left at the level of slogan. Examples expose whether the distinction guides judgment or merely decorates it.",
+        "argument": f"The central question is whether {subject} can bear the conclusion being attached to it. That requires isolating the strongest support, the hidden assumptions, and the point where the argument is most likely to overreach.",
+        "description": f"A worthwhile description of {subject} should do more than rename the topic. It should show what ordinary talk blurs together and why the distinction earns a place in careful thinking.",
+        "inquiry": f"{subject} is best approached as a live problem with pressure points rather than as a settled slogan. The reader should come away clearer on what supports the view, what weakens it, and what confusion it is trying to prevent.",
+        "dialogue": f"A dialogue about {subject} earns its place only when the speakers force each other to say something answerable to reasons. The exchange should clarify assumptions, expose tensions, and leave the disagreement sharper than it began.",
     }
     first = first_by_focus.get(focus, first_by_focus["inquiry"])
-    second = example
-    third = f"By the end of the section, the reader should be able to restate {subject} in plain language, identify an easy misuse of it, and say what would count as a stronger reason for or against the view."
+    second = (
+        f"One practical test is to place the idea next to a familiar case and ask what changes in the analysis once the distinction is taken seriously. "
+        f"In this part of the site, that usually means tracking {frame}."
+    )
+    third = (
+        f"The section is doing its job when the reader can explain {subject} without jargon, spot the most tempting misuse, "
+        f"and identify what further evidence, argument, or comparison would most improve the view."
+    )
     return [first, second, third]
 
 
