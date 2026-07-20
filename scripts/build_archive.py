@@ -6316,6 +6316,7 @@ def philosopher_expansion_items(page: dict) -> list[str]:
 
 def current_batch_generic_paragraphs(page: dict, prompt: str, detail: dict | None = None) -> list[str]:
     topic = topic_label(page["title"])
+    section_id = page["section_id"]
     focus = prompt_focus(prompt)
     current_labels = current_batch_learning_labels(page, prompt, detail, 3)
     label_text = serial_join(current_labels[:3]) or topic
@@ -6323,15 +6324,32 @@ def current_batch_generic_paragraphs(page: dict, prompt: str, detail: dict | Non
     key_text = clean_discussion_key(key, topic, topic)
     if command_like_key(key_text):
         key_text = topic
+    section_angles = {
+        "economics": "The payoff is not verbal elegance but a clearer grip on incentives, tradeoffs, and where the costs actually land.",
+        "epistemology": "The payoff is calibrated confidence: what the evidence earns, what it does not earn, and what would justify revision.",
+        "rational-thought": "The payoff is operational reasoning: the reader should leave with a habit that survives contact with an actual decision.",
+        "ethics": "The payoff is sharper moral bookkeeping: which claim is descriptive, which is normative, and which source of authority is doing the work.",
+        "philosophical-inquiry": "The payoff is intellectual honesty: the reader should see which part of the claim invites scrutiny and which part is trying to dodge it.",
+        "philosophy-of-ai": "The payoff is not tech awe but cleaner distinctions about prediction, fluency, responsibility, and earned trust.",
+        "philosophy-of-language": "The payoff is linguistic discipline: the wording should change what the reader can separate, not just what the reader can repeat.",
+        "philosophy-of-mind": "The payoff is a cleaner split between experience, mechanism, and what can actually count as explanation.",
+        "metaphysics": "The payoff is ontological discipline: the section should separate what must be posited from what is merely being suggested.",
+        "introduction": "The payoff is orientation: the reader should know where the question belongs and how to keep it connected to a philosophical life.",
+        "humanistic-philosophies": "The payoff is existential clarity: the section should sharpen how a reader weighs meaning, purpose, and lived pressure.",
+        "miscellany": "The payoff is transfer: the side path should still illuminate a stable philosophical pressure rather than drift into novelty.",
+    }
     focus_openers = {
-        "definition": f"The section should clarify how {key_text} is being used, where it differs from nearby ideas, and why that difference changes judgment.",
-        "mapping": f"The section works only if the reader can see how {label_text} connect, compete, or depend on one another rather than collapsing into one blurred summary.",
+        "definition": f"The section should clarify how {key_text} is being used, where it separates from nearby ideas, and why the sharper boundary matters in practice.",
+        "mapping": f"The section works only if the reader can see how {label_text} connect, compete, or depend on one another rather than collapsing into one blurred inventory.",
         "examples": f"The payoff here is practical. A concrete case should make {key_text} easier to test, not merely easier to paraphrase.",
         "argument": f"The pressure point is whether {key_text} survives the strongest reasonable objection rather than only sounding plausible in isolation.",
         "description": f"The description earns its keep only if it teaches the reader what to notice first about {key_text} and what confusion to avoid.",
         "inquiry": f"The question matters because it changes what the reader would now compare, doubt, or investigate about {key_text}.",
     }
-    paragraphs = [focus_openers.get(focus, focus_openers["inquiry"])]
+    paragraphs = [
+        focus_openers.get(focus, focus_openers["inquiry"]),
+        section_angles.get(section_id, "The payoff should be a judgment the reader can actually use outside this single page."),
+    ]
     claim = first_source_claim(detail)
     if claim and not source_sentence_is_incomplete(claim):
         paragraphs.append(f"At the center is a simpler claim: {claim}")
@@ -6352,7 +6370,10 @@ def current_batch_generic_paragraphs(page: dict, prompt: str, detail: dict | Non
         paragraphs.append(
             f"The section should leave {topic} more operational than it found it: clearer about what is being claimed, what would test it, and what would force revision."
         )
-    return paragraphs[:3]
+    paragraphs.append(
+        f"A good reading test is whether the section makes {topic} easier to carry into a neighboring case without smuggling in vagueness, prestige, or canned agreement."
+    )
+    return paragraphs[:4]
 
 
 def current_batch_philosopher_paragraphs(page: dict, prompt: str, detail: dict | None = None) -> list[str] | None:
@@ -12583,6 +12604,167 @@ TARGETED_SECTION_EXPANSIONS = {
             "Reader lesson: Distinguish disciplined emergence from mystery with better branding.",
         ],
     },
+    ("/rational-thought/1-at-99-5-or-5-at-95/", "prompt-1"): {
+        "heading": "Percentile equivalence is only a toy model until the real goals are made explicit.",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "A numerical comparison can be illuminating, but only if the reader remembers what it is actually measuring. Saying one person is in the top 0.5 percent in one skill while another is in the top 5 percent across five skills can produce a crisp-looking equivalence on paper. Yet the paper result is still downstream from hidden assumptions about independence, transfer, complementarity, and what kind of success is being pursued.",
+            "That is why the first task is conceptual cleanup. Are we comparing labor-market resilience, creative output, prestige, team usefulness, entrepreneurial upside, or the chance of becoming genuinely world-class at something that compounds over time? Different aims make the same percentile profile mean very different things.",
+            "A simple analogy helps. Owning one very powerful tool and owning five solid tools are not equivalent in every workshop. If the job is highly specialized, the exceptional tool may dominate. If the work keeps changing, the versatile toolkit can outperform it because the value lies in fit across many tasks rather than in supremacy within one narrow task.",
+            "So the mathematical framing is useful as a scaffold, not as a verdict. It gives the reader a cleaner way to ask which background assumptions make specialization look superior, which assumptions favor diversification, and which real-world goals should decide the comparison in the first place.",
+        ],
+        "items": [
+            "Metric problem: Percentiles compare rank, but life outcomes depend on demand, transferability, and compounding opportunities as well as rank.",
+            "Independence issue: Five skills rarely contribute additively; some overlap heavily while others create real synergy.",
+            "Context sensitivity: A narrow elite market can reward one extraordinary skill more than five strong ones, but volatile environments often reward adaptable bundles.",
+            "Hidden goal test: Ask whether the aim is mastery, resilience, prestige, earnings, creativity, or strategic optionality before calling the profiles equivalent.",
+            "Use the model modestly: The math clarifies the question, but it does not settle what sort of life or work the reader should optimize for.",
+        ],
+    },
+    ("/rational-thought/1-at-99-5-or-5-at-95/", "prompt-2"): {
+        "heading": "When depth beats breadth, and when breadth quietly wins",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Specialization and diversification solve different problems. Deep specialization is strongest when a domain rewards hard-to-replace expertise, long apprenticeships, and rare insight that compounds over years. Diversification is strongest when the environment changes quickly, when one skill amplifies another, or when the person needs optionality rather than a single narrow lane.",
+            "The mistake is to treat the two paths as a moral contrast between seriousness and superficiality. A diversified path can be rigorous if the skills genuinely interact, as when writing, statistics, programming, and domain knowledge reinforce one another. Likewise, a specialist can become brittle if prestige, identity, or sunk costs make adaptation psychologically expensive.",
+            "A good life strategy often stages the two rather than choosing only one. A person may build one anchor skill deep enough to matter, then surround it with secondary skills that widen judgment, communication, and resilience. That hybrid route explains why many durable careers look like a T-shape: one zone of unusual depth resting on a broader platform of supporting competence.",
+            "So the practical question is not 'expert or generalist?' in the abstract. It is which arrangement best fits the opportunities, risks, and forms of contribution the person is actually facing.",
+        ],
+        "items": [
+            "When depth wins: High barriers to entry, steep compounding returns, and tasks where minor differences in mastery produce major differences in outcome.",
+            "When breadth wins: Fast-changing environments, cross-disciplinary problems, and careers where translation across domains creates value.",
+            "Hybrid advantage: One deep anchor plus several supporting skills often gives both credibility and adaptability.",
+            "Failure mode of depth: Identity fuses with one lane, making obsolescence or pivoting harder than it should be.",
+            "Failure mode of breadth: The portfolio looks impressive until a hard problem demands depth that was never actually built.",
+        ],
+    },
+    ("/rational-thought/1-at-99-5-or-5-at-95/", "prompt-3"): {
+        "heading": "Analogies that clarify specialization versus diversification",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Analogies help here because raw percentages can feel bloodless. The point of the analogy is not decoration; it is to show what each path is buying and what each path is gambling away.",
+            "Think of specialization as building a cathedral organ. It takes years, space, and devotion, but when the setting is right it can produce something few others can match. Diversification is more like carrying a well-chosen field kit. It may never dominate one room the way the organ does, but it keeps proving useful whenever the terrain changes.",
+            "A second analogy comes from athletics. A world-class sprinter and an elite decathlete are not solving the same problem. The sprinter embodies maximum output within one channel; the decathlete embodies broad excellence plus integration across many demands. Calling one obviously better than the other misses that the forms of value differ.",
+            "The best analogies therefore keep the goal visible. They help the reader ask, 'What kind of arena am I in, and what kind of performance does that arena reward?'",
+        ],
+        "items": [
+            "Workshop analogy: One extraordinary tool can dominate a narrow task, while a versatile toolkit keeps solving different problems across the day.",
+            "Athletics analogy: A sprinter and a decathlete display different excellences rather than one simple ranking of human athletic worth.",
+            "Music analogy: A virtuoso soloist and a strong multi-instrument arranger create value in different ways and for different settings.",
+            "Company analogy: A firm with one flagship product can dominate a niche, while a diversified firm may survive shocks better and spot more adjacencies.",
+            "Reader test: Any good analogy should make the goal variable impossible to ignore.",
+        ],
+    },
+    ("/rational-thought/1-at-99-5-or-5-at-95/", "prompt-4"): {
+        "heading": "Examples show that the better strategy depends on arena, timing, and risk",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Real people make the abstract contrast less romantic. Some figures become extraordinary because one skill was driven so far beyond the ordinary that the whole career could be organized around it. Others become unusually effective because several merely strong abilities interacted and created a profile that no single skill alone would have produced.",
+            "The crucial point is that success stories are easy to cherry-pick. Elite specialists are highly visible because the upside is dramatic, while diversified performers can be harder to classify even when they are more robust or quietly more influential over time.",
+            "That means examples should be used diagnostically rather than devotionally. They help the reader see what environments reward depth, what environments reward combinations, and how survivorship bias can distort the lesson if only the most glamorous winners are remembered.",
+            "A mature takeaway is conditional: imitate the structure of the success, not just the surface style. Ask what market, institutional, or technological conditions made the strategy work.",
+        ],
+        "items": [
+            "Specialist pattern: The person thrives because one capability became rare enough to command attention, trust, or outsized leverage.",
+            "Diversifier pattern: The person thrives because communication, technical, strategic, and social competencies reinforce one another.",
+            "Survivorship warning: For every celebrated specialist, many others overcommitted to a lane that never generated durable demand.",
+            "Classification problem: Famous people often look like pure specialists only after their supporting skills have been made invisible by the biography.",
+            "Practical lesson: Copy the underlying fit between skills and environment, not the mythology built afterward.",
+        ],
+    },
+    ("/economics/economic-stability/", "prompt-4"): {
+        "heading": "How AI-driven predictability could reshape volatility-dependent fields",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Some markets and professions quietly feed on uneven information, delayed adjustment, and hard-to-model behavior. If AI systems compress those uncertainties by improving forecasting, pricing, logistics, or fraud detection, the effect would not simply be 'more efficiency.' It would also change which roles remain profitable and which strategies lose their edge.",
+            "That shift cuts both ways. Lower unpredictability can reduce waste, panic, and avoidable misallocation. But it can also narrow the room for arbitrage, speculative intuition, and business models built on being quicker at noticing noise than everyone else.",
+            "A useful example is retail inventory. If AI sharply improves demand forecasting, fewer firms will overstock or understock, and some of the old entrepreneurial advantage of simply anticipating local swings may disappear. Yet new opportunities may emerge one level up: designing better systems, managing rare shocks, or serving niches where uncertainty remains stubbornly human.",
+            "So the real issue is redistribution of opportunity, not the magical elimination of uncertainty. AI may flatten some volatility while pushing entrepreneurial value toward different layers of coordination, exception-handling, and system design.",
+        ],
+        "items": [
+            "Likely winners: Consumers, planners, and firms harmed by costly uncertainty or chronic mispricing.",
+            "Likely losers: Actors whose edge depends mainly on exploiting forecasting gaps rather than creating new value.",
+            "Persistent uncertainty: Politics, culture, regulation, black swans, and strategic adversaries keep reintroducing unpredictability.",
+            "Occupational shift: Some intuition-heavy roles shrink, while roles that supervise models, handle anomalies, or redesign systems expand.",
+            "Policy relevance: A smoother market can still produce concentrated disruption if the gains and losses arrive in different places and at different speeds.",
+        ],
+    },
+    ("/epistemology/black-boxes-epistemology/", "prompt-5"): {
+        "heading": "When a massive track record outweighs the transparent base rate",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Once the black box has compiled a vast, stable, and repeatedly confirmed predictive record, refusing to update at all begins to look less like principled caution and more like rigidity. The transparent base rate of one-sixth still describes fair dice in ordinary conditions, but the whole point of the scenario is that the observed evidence now suggests this is not an ordinary evidential situation anymore.",
+            "That does not mean mystery becomes irrelevant. We still care about hidden tampering, selection bias, context-shifting, or the possibility that the box has been tested in one regime but not another. Yet those are reasons to ask sharper questions about the evidence, not reasons to pretend the long track record has no rational force.",
+            "Bayesian discipline is useful precisely because it lets evidence move confidence without demanding perfect transparency first. If a system has been right ninety percent of the time across an enormous evidential base in conditions genuinely relevant to the next case, then clinging to the naked one-sixth rate as if nothing had happened is not an expression of rational purity. It is a failure to let observed reliability update belief.",
+            "The healthier conclusion is conditional confidence. Trust the box more than the untouched base rate, but keep watching for the scope conditions under which the record was earned and the kinds of failure that would justify pulling confidence back down.",
+        ],
+        "items": [
+            "Base-rate role: The original one-sixth probability is the starting point, not an untouchable endpoint.",
+            "Track-record role: A massive history of relevant predictive success is evidence that should move credence upward.",
+            "Remaining caution: Unknown mechanism still matters because reliability may fail outside the tested conditions.",
+            "Bayesian lesson: Rationality is not loyalty to the prior; it is disciplined updating in light of cumulative evidence.",
+            "Street-level test: If nothing could make the reader revise away from the base rate, then 'respect for theory' has hardened into evidential stubbornness.",
+        ],
+    },
+    ("/epistemology/core-deep-rationality/", "prompt-4"): {
+        "heading": "How core and deep rationality improve real-world judgment",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "Core rationality and deep rationality are easiest to confuse when both are described as 'thinking well.' The cleaner distinction is that core rationality keeps belief and action answerable to evidence at a basic level, while deep rationality expands the reader's toolkit for handling complexity, uncertainty, recursion, and hidden structure.",
+            "In practice that means core rationality may stop a person from believing the first vivid rumor, while deep rationality helps the same person compare base rates, model second-order effects, and notice how incentives distort the information stream. One protects against simple error; the other improves performance in environments where the error is nested inside a larger system.",
+            "Consider a policy dispute about a new environmental intervention. Core rationality asks whether the claims are supported, whether the studies are credible, and whether counterevidence is being ignored. Deep rationality then asks what tradeoffs, feedback loops, confidence intervals, strategic incentives, and long-run unintended consequences need to be built into the model before action is taken.",
+            "That is why the two forms should not be played against one another. Core rationality without depth can become sincere but shallow. Deep rationality without core discipline can become technically elaborate self-deception. The stronger judgment comes from stacking them in the right order.",
+        ],
+        "items": [
+            "Core rationality guards the basics: evidence, consistency, and resistance to obvious bias.",
+            "Deep rationality adds higher-order tools: probability, systems thinking, recursive uncertainty, and incentive analysis.",
+            "Applied payoff: Better decisions emerge when simple evidential discipline is joined to more sophisticated modeling.",
+            "Failure mode of core alone: The person avoids crude mistakes but still misses structural complexity.",
+            "Failure mode of depth alone: The person performs intelligence theatrically while the evidential foundation quietly rots.",
+        ],
+    },
+    ("/epistemology/core-deep-rationality/", "prompt-5"): {
+        "heading": "The dialogue matters because it tests core and deep rationality in public.",
+        "dialogue_turns": [
+            {"speaker": "Novice", "text": "I think I understand core rationality. It means believing what the evidence supports."},
+            {"speaker": "Rationality Expert", "text": "That is the right starting point. Core rationality is basic evidential discipline: proportion belief to evidence, notice contradictions, and resist obvious bias."},
+            {"speaker": "Novice", "text": "Then deep rationality is just having more information?"},
+            {"speaker": "Rationality Expert", "text": "Not merely more information. Deep rationality means having better tools for complexity: probability, systems thinking, incentive analysis, and the patience to model what is not immediately visible."},
+            {"speaker": "Novice", "text": "So someone could have core rationality without deep rationality?"},
+            {"speaker": "Rationality Expert", "text": "Yes. They may be honest, careful, and evidence-responsive, yet still struggle once the issue involves feedback loops, hidden variables, or second-order effects."},
+            {"speaker": "Novice", "text": "Could the reverse happen too? Someone looks sophisticated but is not core-rational?"},
+            {"speaker": "Rationality Expert", "text": "Constantly. A person can speak in probabilities and systems diagrams while quietly protecting a preferred conclusion from ordinary evidential correction."},
+            {"speaker": "Novice", "text": "Then deep rationality depends on core rationality."},
+            {"speaker": "Rationality Expert", "text": "Exactly. Depth without core discipline becomes elaborate rationalization. Core rationality is the floor; deep rationality is the upper architecture."},
+            {"speaker": "Novice", "text": "What would be a concrete example of the difference?"},
+            {"speaker": "Rationality Expert", "text": "Take a public-health decision. Core rationality asks whether the studies are sound and whether rival evidence is being ignored. Deep rationality asks what happens after policy rollout: behavioral responses, incentives, delayed harms, and feedback effects."},
+        ],
+    },
+    ("/metaphysics/establishing-the-spiritual/", "prompt-3"): {
+        "heading": "Why spiritual language is often confused with emotional intensity",
+        "replace_paragraphs": True,
+        "replace_items": True,
+        "paragraphs": [
+            "This is an important cleanup question because human beings often reach for spiritual language at the exact moment ordinary emotional language starts to feel too small, too flat, or too socially ordinary. A profound experience can feel as if it is pointing beyond the self even when what is actually being described is intensity, reverence, vulnerability, grief, beauty, or moral elevation.",
+            "That does not prove the experience is only emotional. It does mean the first explanatory burden is lower than many spiritual interpretations assume. Before positing contact with a distinct spiritual domain, the reader should ask whether the phenomenon can already be understood as an unusually powerful configuration of memory, emotion, symbolism, attention, and embodied response.",
+            "A concert, a funeral, a mountain vista, or a moment of reconciliation can all feel transcendent. The feeling is real. But the metaphysical question is still open. The experience may reveal something about human consciousness before it reveals anything about a separate spiritual reality.",
+            "So the distinction matters because otherwise spiritual vocabulary begins doing double duty: it names the felt depth of the event and quietly smuggles in an ontological conclusion about what must exist. Those are different claims and should be judged separately.",
+        ],
+        "items": [
+            "Emotional depth is about felt intensity, significance, or affective layering inside experience.",
+            "Spiritual interpretation adds a further claim that the experience discloses or contacts a distinct kind of reality.",
+            "Phenomenology first: Describe the experience carefully before deciding what ontology, if any, it licenses.",
+            "Common conflation: People move from 'this felt profound' to 'this therefore came from the spiritual realm' without noticing the extra step.",
+            "Cleaner method: Preserve the depth of the experience while keeping the ontological conclusion answerable to additional evidence.",
+        ],
+    },
     ("/philosophical-inquiry/do-i-need-a-worldview/", "prompt-3"): {
         "heading": "Balance means keeping a revisable orientation without hardening it into ideology.",
         "replace_paragraphs": True,
@@ -12893,6 +13075,15 @@ MANUAL_SECTION_HEADING_OVERRIDES = {
     ("/epistemology/epistemology-core-concepts/", "prompt-1"): "A good epistemology glossary should show how belief, evidence, and knowledge connect",
     ("/philosophers/at-the-edge-of-miracles/", "prompt-1"): "Hume's point is that testimony usually buckles before a miracle does",
     ("/philosophical-inquiry/dangers-logical-fallacies/", "prompt-1"): "A map of common fallacies helps only if each trap keeps its own shape",
+    ("/rational-thought/1-at-99-5-or-5-at-95/", "prompt-2"): "When depth beats breadth, and when breadth quietly wins",
+    ("/rational-thought/1-at-99-5-or-5-at-95/", "prompt-3"): "Analogies that clarify specialization versus diversification",
+    ("/economics/economic-stability/", "prompt-4"): "How AI-driven predictability could reshape volatility-dependent fields",
+    ("/epistemology/black-boxes-epistemology/", "prompt-5"): "When a massive track record outweighs the transparent base rate",
+    ("/epistemology/core-deep-rationality/", "prompt-4"): "How core and deep rationality improve real-world judgment",
+    ("/metaphysics/establishing-the-spiritual/", "prompt-3"): "Why spiritual language is often confused with emotional intensity",
+    ("/metaphysics/establishing-the-spiritual/", "prompt-4"): "A profound feeling is not yet evidence of the spiritual",
+    ("/introduction/philosophy-higher-education/", "prompt-2"): "How philosophy departments differ by style, strength, and focus",
+    ("/introduction/philosophy-higher-education/", "prompt-3"): "Where philosophy offers the best quality-to-cost tradeoff",
 }
 
 
@@ -18356,11 +18547,13 @@ def current_batch_checkpoints(page: dict, prompt: str, detail: dict | None, focu
         "philosophical-inquiry": "Keep the revision test alive; a truth-seeking page should still show what would force a change of mind.",
         "epistemology": "Watch how the section calibrates confidence rather than merely defending a conclusion.",
         "rational-thought": "Look for a habit you could carry into the next real disagreement or decision.",
+        "economics": "Ask which incentive changes, who pays, and what tradeoff becomes easier to ignore when the framing gets too abstract.",
         "philosophy-of-science": "Pay attention to where error-correction enters the picture: method, evidence, replication, or restraint.",
         "philosophy-of-language": "Watch how wording changes the thought-space; the linguistic move is usually doing more than it first appears.",
         "philosophy-of-mind": "Keep first-person experience and public explanation in view without letting either do all the work.",
         "philosophy-of-ai": "Separate fluent framing from earned warrant; polished language can still outrun justification.",
         "political-philosophy": "Keep the institutional claim tied to actual people living under the arrangement being defended.",
+        "metaphysics": "Ask what the section is entitled to posit, and what it is merely tempted to imply because the vocabulary sounds elevated.",
         "miscellany": "Use the side path to sharpen the main question rather than letting the page drift into mere curiosity.",
     }
     return [
