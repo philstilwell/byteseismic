@@ -981,16 +981,16 @@ def normalize_heading_text(text: str) -> str:
     match = re.fullmatch(r"The real issue is what (.+) changes once it becomes precise\.", text)
     if match:
         subject = match.group(1).strip().rstrip(".")
-        return f"Clarifying {subject}"
+        return f"What {subject} actually clarifies"
 
     match = re.fullmatch(r"What changes once we define (.+) more carefully", text)
     if match:
         subject = match.group(1).strip().rstrip(".")
-        return f"Clarifying {subject}"
+        return f"What becomes clearer once {subject} is defined carefully"
 
     match = re.fullmatch(r"A concrete case shows what (.+) explains and where it strains\.", text)
     if match:
-        return f"What {match.group(1)} explains, and where it starts to strain"
+        return f"What {match.group(1)} clarifies, and where its limits show"
 
     match = re.fullmatch(r"The map of (.+) becomes useful once the parts stop doing different work\.", text)
     if match:
@@ -1003,6 +1003,18 @@ def normalize_heading_text(text: str) -> str:
     match = re.fullmatch(r"Vanishing-probability mistakes recur whenever .+", text)
     if match:
         return "How vanishing-probability mistakes take hold"
+
+    if text.startswith("Clarifying "):
+        subject = text[len("Clarifying ") :].strip().rstrip(".")
+        return f"What {subject} helps clarify"
+
+    if text.startswith("Testing ") and text.endswith(" under pressure"):
+        subject = text[len("Testing ") : -len(" under pressure")].strip().rstrip(".")
+        return f"Putting {subject} under pressure"
+
+    match = re.fullmatch(r"What (.+) explains, and where it starts to strain", text)
+    if match:
+        return f"What {match.group(1)} clarifies, and where its limits show"
 
     return text
 
@@ -1222,6 +1234,16 @@ def section_needs_rewrite(page: dict, heading_text: str, paragraphs: list[str]) 
     content = " ".join(paragraphs).strip()
     if not content:
         return True
+    stock_phrases = (
+        "One practical test is to place the idea next to a familiar case and ask what changes in the analysis once the distinction is taken seriously.",
+        "The section is doing its job when the reader can explain",
+        "is best approached as a live problem with pressure points rather than as a settled slogan.",
+        "becomes more intelligible when it is forced into a concrete case instead of left at the level of slogan.",
+        "looks simpler than it is when the page treats every nearby idea as interchangeable.",
+        "The central question is whether ",
+    )
+    if any(phrase in content for phrase in stock_phrases):
+        return True
     if heading_text.startswith("What changes once we define "):
         return True
     if heading_text.startswith("Now provide "):
@@ -1258,14 +1280,26 @@ def synthesize_section_paragraphs(page: dict, page_title: str, prompt_text: str,
         "dialogue": f"A dialogue about {subject} earns its place only when the speakers force each other to say something answerable to reasons. The exchange should clarify assumptions, expose tensions, and leave the disagreement sharper than it began.",
     }
     first = first_by_focus.get(focus, first_by_focus["inquiry"])
-    second = (
-        f"One practical test is to place the idea next to a familiar case and ask what changes in the analysis once the distinction is taken seriously. "
-        f"In this part of the site, that usually means tracking {frame}."
-    )
-    third = (
-        f"The section is doing its job when the reader can explain {subject} without jargon, spot the most tempting misuse, "
-        f"and identify what further evidence, argument, or comparison would most improve the view."
-    )
+    second_by_focus = {
+        "definition": f"Start by separating the nearby questions the label tends to hide. Once those are visible, the reader can tell whether the page is defining a mechanism, a norm, a historical pattern, or only a loose family resemblance.",
+        "mapping": f"A useful map should help with borderline cases, not just obvious ones. The important step is to show where a neighboring position starts to do different explanatory work and why that difference matters.",
+        "examples": example,
+        "argument": f"The charitable version should be stated before the criticism lands. Only then can the page test whether the conclusion outruns the premises, whether a missing distinction is doing damage, or whether an overlooked rival explanation does the real work.",
+        "description": f"Description becomes useful only when it reorganizes attention. The reader should be able to point to one feature that was previously blurred and explain why the cleaner description changes later judgment.",
+        "inquiry": example,
+        "dialogue": f"The exchange should move through one recognizable case so that each speaker has to commit to something testable. Without that pressure, dialogue turns into alternating slogans instead of a lesson in disciplined disagreement.",
+    }
+    second = second_by_focus.get(focus, second_by_focus["inquiry"])
+    third_by_focus = {
+        "definition": f"By the end, the reader should be able to use {subject} more carefully, reject the most common misclassification, and say what evidence or argument would force a revision.",
+        "mapping": f"The section succeeds when the reader can place a new example on the map, defend that placement, and explain which neighboring label would mislead them.",
+        "examples": f"The example earns its place only if it sharpens judgment. A good reader should finish the section able to say what the case reveals, what it leaves unresolved, and how a different case might push the conclusion the other way.",
+        "argument": f"The section is doing its job when the reader can state the strongest version of the claim, name the pressure point that still threatens it, and see what kind of evidence would actually settle more of the dispute.",
+        "description": f"The section earns its keep when the reader can restate {subject} in plain language, connect it to one live case, and avoid the shortcut that originally made the topic look simpler than it is.",
+        "inquiry": f"The section is doing its job when the reader can explain {subject} without jargon, spot the most tempting misuse, and identify what further evidence, argument, or comparison would most improve the view.",
+        "dialogue": f"A strong closing move leaves the disagreement narrower and more honest. The reader should see what each side now owes in reasons, where the real disagreement remains, and why the issue is not settled by verbal confidence alone.",
+    }
+    third = third_by_focus.get(focus, third_by_focus["inquiry"])
     return [first, second, third]
 
 
