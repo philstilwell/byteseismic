@@ -20323,6 +20323,7 @@ def dialogue_speaker_labels(turns: list[dict]) -> list[str]:
     ]
     question_like_count = sum(label.startswith("Question ") for label in normalized_labels)
     renumber_questions = kind == "questions" or question_like_count >= 2
+    renumbered_role_indices: dict[str, int] = {}
     labels: list[str] = []
     question_index = 1
     for turn in turns:
@@ -20333,6 +20334,11 @@ def dialogue_speaker_labels(turns: list[dict]) -> list[str]:
         if renumber_questions and speaker.startswith("Question "):
             speaker = f"Question {question_index}"
             question_index += 1
+        role_match = re.fullmatch(r"(Student|Interlocutor|Critic)\s+\d+", speaker)
+        if role_match:
+            role = role_match.group(1)
+            renumbered_role_indices[role] = renumbered_role_indices.get(role, 0) + 1
+            speaker = f"{role} {renumbered_role_indices[role]}"
         labels.append(speaker)
     return labels
 
