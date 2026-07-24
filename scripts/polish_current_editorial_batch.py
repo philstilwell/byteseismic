@@ -102,6 +102,7 @@ REMOVE_PARAGRAPH_PATTERNS = [
     re.compile(r"^The obvious resistance is that real judgment is often fast, social, and pressured\..+", re.IGNORECASE),
     re.compile(r"^A likely objection is that the ordinary way of talking about .+", re.IGNORECASE),
     re.compile(r"^The natural pushback is that ordinary life runs on incomplete evidence\..+", re.IGNORECASE),
+    re.compile(r"^A reasonable objection is that economic life is too messy for neat answers here\..+", re.IGNORECASE),
     re.compile(r"^The payoff (?:here|of .+) is .+", re.IGNORECASE),
     re.compile(r"^The section should clarify how .+", re.IGNORECASE),
     re.compile(r"^Put the distinction under pressure\..+", re.IGNORECASE),
@@ -135,6 +136,14 @@ REMOVE_PARAGRAPH_PATTERNS = [
     re.compile(r"^The human-machine exchange is healthiest ", re.IGNORECASE),
     re.compile(r"^The real test of .+ is whether ", re.IGNORECASE),
     re.compile(r"^.+ should remain tied to a live intellectual practice\.", re.IGNORECASE),
+]
+
+REMOVE_LIST_ITEM_PATTERNS = [
+    re.compile(r"^Leave the reader with a sharper question about .+\.$", re.IGNORECASE),
+    re.compile(r"^Notice what changes if .+$", re.IGNORECASE),
+    re.compile(r"^Ask which incentive changes, who pays, and what tradeoff becomes easier to ignore when the framing gets too abstract\.$", re.IGNORECASE),
+    re.compile(r"^Track the movement in the exchange: .+$", re.IGNORECASE),
+    re.compile(r"^Watch how the section calibrates confidence .+$", re.IGNORECASE),
 ]
 
 SCHOOL_NAME_BY_FIGURE_LABEL = {
@@ -1142,6 +1151,11 @@ def should_remove_paragraph(text: str) -> bool:
     return any(pattern.match(cleaned) for pattern in REMOVE_PARAGRAPH_PATTERNS)
 
 
+def should_remove_list_item(text: str) -> bool:
+    cleaned = " ".join(text.split())
+    return any(pattern.match(cleaned) for pattern in REMOVE_LIST_ITEM_PATTERNS)
+
+
 def replace_heading(section_html: str, page_title: str, section_id: str) -> tuple[str, bool]:
     prompt_match = PROMPT_RE.search(section_html)
     heading_match = H2_RE.search(section_html)
@@ -1699,6 +1713,13 @@ def clean_generic_paragraphs_globally(updated: str) -> str:
             continue
         if should_remove_paragraph(text):
             paragraph.decompose()
+    for item in soup.find_all("li"):
+        text = strip_tags(str(item))
+        if should_remove_list_item(text):
+            item.decompose()
+    for learning_card in soup.select("aside.learning-card"):
+        if not learning_card.select("li"):
+            learning_card.decompose()
     return str(soup)
 
 
