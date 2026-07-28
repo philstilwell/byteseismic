@@ -1,9 +1,9 @@
 # Byteseismic Editorial Audit Tracker
 
-Generated: 2026-07-26
+Generated: 2026-07-28
 Batch size: 50 pages
 Current cycle: 4
-Current queue start: 234 of 346
+Current queue start: 284 of 346
 
 ## Protocol
 
@@ -24,73 +24,60 @@ Pages are queued deterministically by priority band, then by weakest score, then
 
 | # | Branch | Page | Priority | Worst | Focus |
 | ---: | --- | --- | --- | ---: | --- |
-| 234 | Philosophical Inquiry | [Seeker Scenarios](../philosophical-inquiry/seeker-scenarios/) | polish | 100 | 5 prompt sections are polish opportunities |
-| 235 | Philosophy of AI | [Feedback Loops](../philosophy-of-ai/feedback-loops/) | polish | 100 | 5 prompt sections are polish opportunities |
-| 236 | Philosophy of AI | [Human Reaction to AI](../philosophy-of-ai/human-reaction-to-ai/) | polish | 100 | 5 prompt sections are polish opportunities |
-| 237 | Philosophy of AI | [Philosophy of AI – Core Concepts](../philosophy-of-ai/philosophy-of-ai-core-concepts/) | polish | 100 | 5 prompt sections are polish opportunities |
-| 238 | Philosophy of Language | [Linguistic Abstraction](../philosophy-of-language/linguistic-abstraction/) | polish | 100 | 5 prompt sections are polish opportunities |
-| 239 | Philosophy of Language | [Semantics: Convention vs Stipulation](../philosophy-of-language/semantics-convention-vs-stipulation/) | polish | 100 | 5 prompt sections are polish opportunities |
-| 240 | Philosophy of Language | [The Linearity of Language](../philosophy-of-language/the-linearity-of-language/) | polish | 100 | 5 prompt sections are polish opportunities |
-| 241 | Philosophy of Mind | [Assessing Mind with Mind](../philosophy-of-mind/assessing-mind-with-mind/) | polish | 100 | 5 prompt sections are polish opportunities |
-| 242 | Philosophy of Mind | [Manufacturer or Method?](../philosophy-of-mind/manufacturer-or-method/) | polish | 100 | 5 prompt sections are polish opportunities |
-| 243 | Philosophy of Mind | [Philosophy of Mind Basics](../philosophy-of-mind/philosophy-of-mind-basics/) | polish | 100 | 5 prompt sections are polish opportunities |
-| 244 | Philosophy of Mind | [Where are our Thoughts?](../philosophy-of-mind/where-are-our-thoughts/) | polish | 100 | 5 prompt sections are polish opportunities |
-| 245 | Philosophy of Science | [Asymmetric Counterfactuals](../philosophy-of-science/asymmetric-counterfactuals/) | polish | 100 | 5 prompt sections are polish opportunities |
-| 246 | Philosophy of Science | [Correlation and Causation](../philosophy-of-science/correlation-and-causation/) | polish | 100 | 5 prompt sections are polish opportunities |
-| 247 | Philosophy of Science | [Elements of Research Design](../philosophy-of-science/elements-of-research-design/) | polish | 100 | 5 prompt sections are polish opportunities |
-| 248 | Philosophy of Science | [Is History Science?](../philosophy-of-science/is-history-science/) | polish | 100 | 5 prompt sections are polish opportunities |
-| 249 | Philosophy of Science | [Research Design](../philosophy-of-science/research-design/) | polish | 100 | 5 prompt sections are polish opportunities |
-| 250 | Philosophy of Science | [Scientism & Faith](../philosophy-of-science/scientism-faith/) | polish | 100 | 5 prompt sections are polish opportunities |
-| 251 | Philosophy of Science | [The Power of Thought Experiments](../philosophy-of-science/the-power-of-thought-experiments/) | polish | 100 | 5 prompt sections are polish opportunities |
-| 252 | Philosophy of Science | [What is Induction?](../philosophy-of-science/what-is-induction/) | polish | 100 | 5 prompt sections are polish opportunities |
-| 253 | Philosophy of Science | [What is Parsimony?](../philosophy-of-science/what-is-parsimony/) | polish | 100 | 5 prompt sections are polish opportunities |
-| 254 | Political Philosophy | [Peaceful Revolutions](../political-philosophy/peaceful-revolutions/) | polish | 100 | 5 prompt sections are polish opportunities |
-| 255 | Political Philosophy | [Political Philosophy Basics](../political-philosophy/political-philosophy-basics/) | polish | 100 | 5 prompt sections are polish opportunities |
-| 256 | Political Philosophy | [Political Philosophy – Core Concepts](../political-philosophy/political-philosophy-core-concepts/) | polish | 100 | 5 prompt sections are polish opportunities |
-| 257 | Rational Thought | [AI “Logic” & “Intelligence”](../rational-thought/ai-logic-intelligence/) | polish | 100 | 5 prompt sections are polish opportunities |
-| 258 | Rational Thought | [Case #2 – Autism](../rational-thought/case-2-autism/) | polish | 100 | 5 prompt sections are polish opportunities |
-| 259 | Rational Thought | [Do Rationalists Skew Neurodivergent?](../rational-thought/do-rationalists-skew-neurodivergent/) | polish | 100 | 5 prompt sections are polish opportunities |
-| 260 | Rational Thought | [The Professional Application of Rationality](../rational-thought/the-professional-application-of-rationality/) | polish | 100 | 5 prompt sections are polish opportunities |
-| 261 | Rational Thought | [What is Futurism?](../rational-thought/what-is-futurism/) | polish | 100 | 5 prompt sections are polish opportunities |
-| 262 | Rational Thought | [What is Game Theory?](../rational-thought/what-is-game-theory/) | polish | 100 | 5 prompt sections are polish opportunities |
-| 263 | Rational Thought | [What is Rational Thought?](../rational-thought/what-is-rational-thought/) | polish | 100 | 5 prompt sections are polish opportunities |
-| 264 | Economics | [A Living Wage](../economics/a-living-wage/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 265 | Economics | [AI & the Future of Work](../economics/ai-the-future-of-work/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 266 | Economics | [Business Risks](../economics/business-risks/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 267 | Economics | [Economic Complexity](../economics/economic-complexity/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 268 | Economics | [Economic Entitlements](../economics/economic-entitlements/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 269 | Economics | [Economic Optimism](../economics/economic-optimism/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 270 | Economics | [Innovation Attractors](../economics/innovation-attractors/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 271 | Economics | [Justified Optimism](../economics/justified-optimism/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 272 | Economics | [The Poverty Line](../economics/the-poverty-line/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 273 | Economics | [What Makes Economics “Dismal”?](../economics/what-makes-economics-dismal/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 274 | Epistemology | [Absolute Certainty](../epistemology/absolute-certainty/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 275 | Epistemology | [Case #5 – Vanishing Probabilities](../epistemology/case-5-vanishing-probabilities/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 276 | Epistemology | [Cromwell’s Rule](../epistemology/cromwells-rule/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 277 | Epistemology | [Establishing Cognitive Reliability (#1)](../epistemology/establishing-cognitive-reliability-1/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 278 | Epistemology | [Evidence Workshop](../epistemology/evidence-workshop/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 279 | Epistemology | [Hypostatic Illogic](../epistemology/hypostatic-illogic/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 280 | Epistemology | [Induction: Cold Reading](../epistemology/induction-cold-reading/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 281 | Epistemology | [Mapping Belief to Evidence](../epistemology/mapping-belief-to-evidence/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 282 | Epistemology | [Non-Scientific Ways of Knowing](../epistemology/non-scientific-ways-of-knowing/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 283 | Epistemology | [The Primacy of Induction](../epistemology/the-primacy-of-induction/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 284 | Epistemology | [Vicious & Virtuous Circularity](../epistemology/vicious-virtuous-circularity/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 285 | Epistemology | [What are Syllogisms?](../epistemology/what-are-syllogisms/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 286 | Epistemology | [What is Bayes Theorem?](../epistemology/what-is-bayes-theorem/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 287 | Epistemology | [What is Faith?](../epistemology/what-is-faith/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 288 | Ethics | [Assuming Objective Evil](../ethics/assuming-objective-evil/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 289 | Ethics | [Divine Command Theory](../ethics/divine-command-theory/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 290 | Ethics | [Ethical Edge Case #1](../ethics/ethical-edge-case-1/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 291 | Ethics | [No Morality = Chaos?](../ethics/no-morality-chaos/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 292 | Ethics | [Trolley Problems](../ethics/trolley-problems/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 293 | Humanistic Philosophies | [Are Humans More Egoistic or Altruistic?](../humanistic-philosophies/are-humans-more-egoistic-or-altruistic/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 294 | Metaphysics | [Energy & Psychic Phenomena](../metaphysics/energy-psychic-phenomena/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 295 | Philosophical Inquiry | [Appreciating our Insignificance](../philosophical-inquiry/appreciating-our-insignificance/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 296 | Philosophical Inquiry | [Dangers: Anti-Intellectualism](../philosophical-inquiry/dangers-anti-intellectualism/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 297 | Philosophical Inquiry | [Dangers: Removing the Impossible](../philosophical-inquiry/dangers-removing-the-impossible/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 298 | Philosophy of AI | [The Double Descent Phenomenon](../philosophy-of-ai/the-double-descent-phenomenon/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 299 | Philosophy of Language | [Nomological Density of Grammar](../philosophy-of-language/nomological-density-of-grammar/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 300 | Philosophy of Science | [History as Forensic Science](../philosophy-of-science/history-as-forensic-science/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 301 | Philosophy of Science | [Improving Science](../philosophy-of-science/improving-science/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 302 | Philosophy of Science | [Inductive Density](../philosophy-of-science/inductive-density/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 303 | Philosophy of Science | [Methodological Naturalism](../philosophy-of-science/methodological-naturalism/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 304 | Philosophy of Science | [Orthogonality](../philosophy-of-science/orthogonality/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 305 | Philosophy of Science | [P-Value Issues](../philosophy-of-science/p-value-issues/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 306 | Philosophy of Science | [Philosophy of Science — Core Concepts](../philosophy-of-science/philosophy-of-science-core-concepts/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 307 | Philosophy of Science | [The Notion of Laws](../philosophy-of-science/the-notion-of-laws/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 308 | Philosophy of Science | [The Power of Convergence](../philosophy-of-science/the-power-of-convergence/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 309 | Philosophy of Science | [The Use of Proxies](../philosophy-of-science/the-use-of-proxies/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 310 | Political Philosophy | [Critical Race Theory](../political-philosophy/critical-race-theory/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 311 | Political Philosophy | [Elements of a Stable State](../political-philosophy/elements-of-a-stable-state/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 312 | Political Philosophy | [Identity Politics](../political-philosophy/identity-politics/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 313 | Political Philosophy | [Maintaining Scientific Credibility](../political-philosophy/maintaining-scientific-credibility/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 314 | Political Philosophy | [Metrics for Cultural Comparisons](../political-philosophy/metrics-for-cultural-comparisons/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 315 | Political Philosophy | [The Social Contract](../political-philosophy/the-social-contract/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 316 | Rational Thought | [Argument #1: Miraculous Event](../rational-thought/argument-1-miraculous-event/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 317 | Rational Thought | [Assessing Arguments](../rational-thought/assessing-arguments/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 318 | Rational Thought | [Avoiding Logical Fallacies](../rational-thought/avoiding-logical-fallacies/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 319 | Rational Thought | [Calculating Risks](../rational-thought/calculating-risks/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 320 | Rational Thought | [Depth or Width of Knowledge?](../rational-thought/depth-or-width-of-knowledge/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 321 | Rational Thought | [Empathy Overload](../rational-thought/empathy-overload/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 322 | Rational Thought | [Factual Disagreements vs Semantic Misunderstandings](../rational-thought/factual-disagreements-vs-semantic-misunderstandings/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 323 | Economics | [Can Prices be “Unfair”?](../economics/can-prices-be-unfair/) | polish | 100 | 3 prompt sections are polish opportunities |
+| 324 | Economics | [Deflationary Spiral for AI Projects](../economics/deflationary-spiral-for-ai-projects/) | polish | 100 | 3 prompt sections are polish opportunities |
+| 325 | Economics | [Salaries and Public Judgment](../economics/salaries-and-public-judgment/) | polish | 100 | 3 prompt sections are polish opportunities |
+| 326 | Economics | [Universal Basic Income](../economics/universal-basic-income/) | polish | 100 | 3 prompt sections are polish opportunities |
+| 327 | Epistemology | [Establishing Cognitive Reliability (#2)](../epistemology/establishing-cognitive-reliability-2/) | polish | 100 | 3 prompt sections are polish opportunities |
+| 328 | Epistemology | [Faith vs Science](../epistemology/faith-vs-science/) | polish | 100 | 3 prompt sections are polish opportunities |
+| 329 | Epistemology | [I Don’t Know](../epistemology/i-dont-know/) | polish | 100 | 3 prompt sections are polish opportunities |
+| 330 | Epistemology | [Logic](../epistemology/logic/) | polish | 100 | 3 prompt sections are polish opportunities |
+| 331 | Epistemology | [Recent Issues in Epistemology](../epistemology/recent-issues-in-epistemology/) | polish | 100 | 3 prompt sections are polish opportunities |
+| 332 | Epistemology | [Shades of Certainty](../epistemology/shades-of-certainty/) | polish | 100 | 3 prompt sections are polish opportunities |
+| 333 | Epistemology | [Swapping Ideologies](../epistemology/swapping-ideologies/) | polish | 100 | 3 prompt sections are polish opportunities |
 
 ## Upcoming Batch Preview
 
-### Next +1: cycle 4, queue positions 284-333
-
-- `polish` 100 [Epistemology / Vicious & Virtuous Circularity](../epistemology/vicious-virtuous-circularity/)
-- `polish` 100 [Epistemology / What are Syllogisms?](../epistemology/what-are-syllogisms/)
-- `polish` 100 [Epistemology / What is Bayes Theorem?](../epistemology/what-is-bayes-theorem/)
-- `polish` 100 [Epistemology / What is Faith?](../epistemology/what-is-faith/)
-- `polish` 100 [Ethics / Assuming Objective Evil](../ethics/assuming-objective-evil/)
-- `polish` 100 [Ethics / Divine Command Theory](../ethics/divine-command-theory/)
-- `polish` 100 [Ethics / Ethical Edge Case #1](../ethics/ethical-edge-case-1/)
-- `polish` 100 [Ethics / No Morality = Chaos?](../ethics/no-morality-chaos/)
-- `polish` 100 [Ethics / Trolley Problems](../ethics/trolley-problems/)
-- `polish` 100 [Humanistic Philosophies / Are Humans More Egoistic or Altruistic?](../humanistic-philosophies/are-humans-more-egoistic-or-altruistic/)
-
-### Next +2: cycle 4, queue positions 334-346
+### Next +1: cycle 4, queue positions 334-346
 
 - `polish` 100 [Epistemology / Syllogistic Complexity](../epistemology/syllogistic-complexity/)
 - `polish` 100 [Epistemology / What is Epistemology?](../epistemology/what-is-epistemology/)
@@ -103,10 +90,23 @@ Pages are queued deterministically by priority band, then by weakest score, then
 - `polish` 100 [Humanistic Philosophies / Religions](../humanistic-philosophies/religions/)
 - `polish` 100 [Humanistic Philosophies / Shoe-Tips & Hiddenness](../humanistic-philosophies/shoe-tips-hiddenness/)
 
+### Next +2: cycle 5, queue positions 1-50
+
+- `review` 76 [Metaphysics / Emergence](../metaphysics/emergence/)
+- `review` 84 [Philosophy of AI / AI Censorship Case](../philosophy-of-ai/ai-censorship-case/)
+- `review` 60 [Miscellany / Domains of Aesthetics](../miscellany/domains-of-aesthetics/)
+- `review` 62 [Miscellany / Complexity Theory](../miscellany/complexity-theory/)
+- `review` 63 [Humanistic Philosophies / Existentialism: Key Concepts](../humanistic-philosophies/existentialism-key-concepts/)
+- `review` 68 [Humanistic Philosophies / New Manifestations of Theism](../humanistic-philosophies/new-manifestations-of-theism/)
+- `review` 68 [Metaphysics / Ontological Domains](../metaphysics/ontological-domains/)
+- `review` 68 [Philosophy of Language / Needless Semantic Complexity](../philosophy-of-language/needless-semantic-complexity/)
+- `review` 68 [Philosophy of Science / Confounding Variables](../philosophy-of-science/confounding-variables/)
+- `review` 68 [Philosophy of Language / Abandoned Words](../philosophy-of-language/abandoned-words/)
+
 ## Summary
 
 - Tracked pages: 346
-- Pages remaining in current cycle: 113
+- Pages remaining in current cycle: 63
 - Estimated batches per cycle: 7
 
 - gap-fill: 82

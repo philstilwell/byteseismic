@@ -1137,6 +1137,12 @@ def should_remove_paragraph(text: str) -> bool:
         return True
     if cleaned.startswith("Try a live borderline case."):
         return True
+    if cleaned.startswith("A fair pushback is that ordinary life cannot wait for perfect evidence."):
+        return True
+    if cleaned.startswith("The deeper issue in "):
+        return True
+    if cleaned.startswith("This section should give the reader a usable epistemic lever:"):
+        return True
     if cleaned.startswith("Start with ") and "Without that first grip" in cleaned:
         return True
     if cleaned.startswith("Keep ") and " in the same frame." in cleaned:
@@ -1396,19 +1402,6 @@ def strengthen_section_html(section_html: str, page: dict, page_title: str) -> s
         if not list_needs_rewrite(section):
             return str(section)
 
-    rewrite_paragraphs = section_needs_rewrite(page, heading_text, paragraph_texts)
-    if rewrite_paragraphs:
-        for paragraph in paragraphs:
-            paragraph.decompose()
-
-    anchor = heading
-    if rewrite_paragraphs:
-        for text in synthesize_section_paragraphs(page, page_title, prompt_text, heading_text):
-            new_p = soup.new_tag("p")
-            new_p.string = text
-            anchor.insert_after(new_p)
-            anchor = new_p
-
     if list_needs_rewrite(section):
         list_tag = section.find(["ol", "ul"], recursive=False)
         if list_tag is not None:
@@ -1419,23 +1412,7 @@ def strengthen_section_html(section_html: str, page: dict, page_title: str) -> s
                 li = soup.new_tag("li")
                 li.string = item_text
                 new_list.append(li)
-            anchor.insert_after(new_list)
-
-    top_level_paragraphs = [
-        p for p in section.find_all("p", recursive=False)
-        if "article-section__prompt" not in (p.get("class") or [])
-    ]
-    if len(top_level_paragraphs) < 2:
-        needed = 2 - len(top_level_paragraphs)
-        intro_paragraphs = synthesize_section_paragraphs(page, page_title, prompt_text, heading_text)[:needed]
-        insertion_anchor = heading
-        for paragraph in top_level_paragraphs:
-            insertion_anchor = paragraph
-        for text in intro_paragraphs:
-            new_p = soup.new_tag("p")
-            new_p.string = text
-            insertion_anchor.insert_after(new_p)
-            insertion_anchor = new_p
+            heading.insert_after(new_list)
 
     return str(section)
 
