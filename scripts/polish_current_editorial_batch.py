@@ -8,6 +8,8 @@ from pathlib import Path
 
 from bs4 import BeautifulSoup
 
+from current_batch_editorial_profiles import CURRENT_BATCH_SPECIAL_PAGE_PROFILES
+
 from build_archive import (
     PHILOSOPHER_SOURCE_WORKS,
     clean_discussion_key,
@@ -962,6 +964,8 @@ SPECIAL_PAGE_PROFILES = {
     },
 }
 
+SPECIAL_PAGE_PROFILES.update(CURRENT_BATCH_SPECIAL_PAGE_PROFILES)
+
 
 def load_batch_paths() -> list[Path]:
     tracker = json.loads(TRACKER_PATH.read_text())
@@ -1580,27 +1584,31 @@ def polish_special_batch_page(path: Path, original: str, page_title: str) -> str
     source_section = soup.select_one("#source-texture")
     if source_section is not None:
         heading = source_section.find("h2", recursive=False)
-        if heading is not None:
-            heading.string = profile["source_heading"]
+        source_heading = profile.get("source_heading")
+        if heading is not None and source_heading:
+            heading.string = source_heading
         paragraphs = source_section.find_all("p", recursive=False)
-        if len(paragraphs) >= 2:
-            paragraphs[1].string = profile["source_intro"]
+        source_intro = profile.get("source_intro")
+        if len(paragraphs) >= 2 and source_intro:
+            paragraphs[1].string = source_intro
+        source_cards = profile.get("source_cards", {})
         for card in source_section.select(".source-dossier__card"):
             label = card.select_one(".mini-label")
             bodies = card.find_all("p")
             if not label or len(bodies) < 2:
                 continue
             key = " ".join(label.get_text(" ", strip=True).split())
-            replacement = profile["source_cards"].get(key)
+            replacement = source_cards.get(key)
             if replacement:
                 bodies[-1].clear()
                 fragment = BeautifulSoup(render_inline_text(replacement), "html.parser")
                 for child in list(fragment.contents):
                     bodies[-1].append(child)
+        source_read = profile.get("source_read")
         paragraphs = source_section.find_all("p", recursive=False)
-        if paragraphs:
+        if paragraphs and source_read:
             paragraphs[-1].clear()
-            fragment = BeautifulSoup(render_inline_text(profile["source_read"]), "html.parser")
+            fragment = BeautifulSoup(render_inline_text(source_read), "html.parser")
             for child in list(fragment.contents):
                 paragraphs[-1].append(child)
 
@@ -1664,6 +1672,8 @@ def clean_learning_cards(updated: str) -> str:
         "Ask what pressure this section makes hard to dodge:",
         "Use one concept as a tool: apply Philosophers or Philosophy",
         "Use some suggest that the notion",
+        "Keep the page tied to a judgment a reader could actually use outside this one discussion.",
+        "Keep the lived cost visible: the view matters only if it changes attention, practice, courage, or consolation.",
     )
 
     for learning_card in soup.select("aside.learning-card"):
