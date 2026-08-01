@@ -58,6 +58,9 @@ TEXT_REPLACEMENTS = {
     "Has religions’ exposure to this track record resulted a more humble disposition toward the unknown?": "Has religion's exposure to this track record resulted in a more humble disposition toward the unknown?",
     "How might we respond to somone who invokes inductive invariance when claiming effects can be traced back to a first cause in defense of their God, yet also rejects the inductive invarience seen in the other four observations that run counter to the conception of their God?": "How might we respond to someone who invokes inductive invariance when claiming effects can be traced back to a first cause in defense of their God, yet also rejects the inductive invariance seen in the other four observations that run counter to the conception of their God?",
     "Create syllogistic formulations of the strongest arguments for 1) euthenasia for animals and 2) prologing life for humans.": "Create syllogistic formulations of the strongest arguments for 1) euthanasia for animals and 2) prolonging life for humans.",
+    "Create a hypothetical debate between two expert on emergence who have contrasting opinions on the concept.": "Create a hypothetical debate between two experts on emergence who have contrasting opinions on the concept.",
+    "central test case and the central test case": "central test case and the neighboring case",
+    "In the page's own terms, A good route is": "In the page's own terms, a good route is",
 }
 
 HEADING_REPLACEMENTS = {
@@ -1135,6 +1138,10 @@ def should_remove_paragraph(text: str) -> bool:
         "A good language example shows how a phrase can sound harmless in ordinary conversation ",
         "A concrete case helps here because consciousness talk becomes vague very quickly ",
         "A useful example should move the discussion from labels to judgment ",
+        "A map is an argument about importance. ",
+        "The payoff is not tech awe but cleaner distinctions ",
+        "The payoff should be a judgment the reader can actually use outside this single page.",
+        "The earlier sections should already have put ",
     )):
         return True
     if cleaned.startswith("First get clear on "):
@@ -1730,6 +1737,15 @@ def final_batch_cleanup(updated: str) -> str:
             tag.decompose()
             continue
         if text.startswith("Which of these threads matters most right now:"):
+            tag.decompose()
+            continue
+        if "The archive depends on connection without careless merging." in text:
+            tag.decompose()
+            continue
+        if "It is not just a polite way to stop talking." in text:
+            tag.decompose()
+            continue
+        if "The links are not decoration; they show where the pressure continues." in text:
             tag.decompose()
 
     for learning_card in soup.select("aside.learning-card"):
