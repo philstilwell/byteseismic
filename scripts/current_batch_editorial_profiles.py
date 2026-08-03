@@ -707,4 +707,254 @@ CURRENT_BATCH_SPECIAL_PAGE_PROFILES = {
             ],
         },
     },
+    "Ancient Philosophers": {
+        "source_heading": "Read ancient philosophy as a field of live disputes, not a marble hall of founders.",
+        "source_intro": "This dossier keeps ancient philosophy visible as more than an origin story. It is where ethics, metaphysics, politics, rhetoric, and disciplined argument first became tightly interwoven forms of public inquiry.",
+        "source_cards": {
+            "Original framing": "An editorial orientation page designed to make ancient philosophy teachable as a field of recurrent questions rather than as a reverential list of names.",
+            "Preserved texture": "The page preserves ancient philosophy as argument joined to character, civic life, cosmology, and the question of how one ought to live.",
+            "Historical setting": "Greek, Hellenistic, and adjacent ancient traditions in which philosophy was still visibly tied to schools, civic conflict, education, and practical formation.",
+            "Primary texts nearby": "Plato's dialogues, Aristotle's major works, Epicurean letters, Stoic fragments, and classical Asian texts such as the Analects and Mencius.",
+            "Ideas in view": "Virtue, the good life, causation, form, skepticism, political order, self-cultivation, and philosophy as a way of living.",
+            "Influence trail": "Virtue ethics, logic, metaphysics, political theory, theology, rhetoric, and later revivals of practical philosophy.",
+        },
+        "source_read": "Read the page asking which ancient moves still organize later thought: the shift from mythic explanation to argument, the link between inquiry and life-practice, and the discovery that philosophy quickly branches once reason is taken seriously in public.",
+        "sections": {
+            "prompt-1": {
+                "heading": "Ancient philosophy begins when explanation, character, and public argument are forced into one frame",
+                "paragraphs": [
+                    "Ancient philosophy is not best understood as a single doctrine or a museum period. It is the long early struggle to ask what reality is like, how a human being should live, and what counts as a good reason for believing either answer. What makes it distinctive is that those questions were still tightly connected. Metaphysics, ethics, politics, and self-formation were not yet cleanly separated departments.",
+                    "That is why the ancient material keeps feeling alive. Plato can move from justice in the city to justice in the soul. Aristotle can ask about causes, virtue, friendship, rhetoric, and political order without treating those as unrelated hobbies. Stoics and Epicureans can disagree sharply about pleasure, fate, and virtue while still agreeing that philosophy should change how one actually lives.",
+                    "A good first description therefore treats ancient philosophy as both argumentative and formative. It is a tradition of asking for reasons, but also a tradition that assumes ideas are supposed to reshape judgment, conduct, and civic life. That double demand is one reason the tradition still feels sturdier than purely academic summary."
+                ],
+                "items": [
+                    "Core trait: ancient philosophy joins explanation of the world to formation of the person.",
+                    "Main domains: reality, virtue, politics, self-governance, and standards of argument all develop together.",
+                    "Internal diversity: Platonists, Aristotelians, Stoics, Epicureans, skeptics, and Asian traditions do not speak with one voice.",
+                    "Reader takeaway: the period matters because it makes philosophy answer simultaneously to truth, life, and public reasoning."
+                ],
+            },
+            "prompt-2": {
+                "heading": "Its deepest contributions are not only doctrines but durable philosophical habits",
+                "paragraphs": [
+                    "Ancient philosophy contributed more than a stockpile of famous positions. It helped establish the very idea that beliefs should be tested by argument, objection, and disciplined clarification instead of resting only on authority, custom, or inherited story. That shift does not eliminate myth or tradition, but it changes what later thinkers are expected to do when challenged.",
+                    "It also created enduring vocabularies for ethics and metaphysics. Questions about virtue, flourishing, justice, causation, substance, form, and the structure of good reasoning become sharper because ancient thinkers start distinguishing them carefully and then fighting over how they fit together. Even later philosophers who reject ancient answers often keep the ancient question-structure.",
+                    "A third contribution is pedagogical and existential. Ancient schools treat philosophy as training, not merely information. The Stoic discipline of assent, the Epicurean management of fear, the Platonic demand to examine appearances, and Confucian attention to role and ritual all model the idea that thought should reorder life. That practical expectation continues to shape the archive's own sense of what philosophy is for."
+                ],
+                "items": [
+                    "Argument culture: claims are expected to survive questioning rather than lean entirely on authority.",
+                    "Conceptual architecture: ethics, politics, metaphysics, and logic gain durable categories and distinctions.",
+                    "Life-practice: philosophy becomes something to train in, not merely something to memorize.",
+                    "Legacy test: many later debates still use ancient questions even when they abandon ancient answers."
+                ],
+            },
+            "prompt-3": {
+                "heading": "The most influential ancient philosophers matter because each bends the tradition in a different direction",
+                "paragraphs": [
+                    "Socrates belongs near the center because he models philosophy as relentless examination. He leaves almost no doctrine of his own, yet he changes the tradition by making unexamined confidence look intellectually embarrassing. Plato then expands that pressure into large questions about justice, knowledge, rhetoric, and reality, while Aristotle rebuilds the field with a more systematic concern for causation, classification, virtue, and political order.",
+                    "The Hellenistic schools matter because they prove philosophy does not end with system-building. Epicurus turns philosophy toward fear, mortality, and tranquil living. The Stoics turn it toward disciplined judgment, fate, and moral resilience. Skeptical traditions matter because they keep asking whether dogmatic confidence has outrun its warrant. Each school reveals a different answer to what philosophy is for.",
+                    "A broader ancient map should also resist treating Greece as the whole story. Confucius, Mencius, Laozi, Zhuangzi, Buddhist and Hindu philosophers, and other classical traditions pose equally serious questions about self-cultivation, order, suffering, and reality. The point of the page is not token expansion, but recognition that ancient philosophy already had multiple civilizational styles of rigor."
+                ],
+                "items": [
+                    "Socrates for examination and the discipline of questioning.",
+                    "Plato and Aristotle for large-scale architecture in ethics, politics, metaphysics, and logic.",
+                    "Epicurus, the Stoics, and the skeptics for rival models of how philosophy should guide life.",
+                    "Confucian, Daoist, and other classical traditions for widening what counts as ancient philosophical seriousness."
+                ],
+            },
+            "prompt-4": {
+                "heading": "A student learns ancient philosophy best when the exchange turns a life-question into disciplined reflection",
+                "paragraphs": [
+                    "A good beginner's dialogue should not sound like a respectful costume drama. It should reveal how an ancient thinker redirects a modern student's first impulse. Instead of offering a slogan, the philosopher should ask what kind of life the student is trying to build, what habits are currently governing that life, and what standard should be used to judge whether those habits are good.",
+                    "Using an Asian ancient philosopher helps widen the frame. A Confucian teacher, for example, can show that philosophy is not only about abstract propositions, but also about role, ritual, character, and how a society trains people to become trustworthy. That gives the student a live contrast with the modern tendency to treat authenticity as purely private self-expression.",
+                    "The dialogue works when the student leaves with a sharper method: inspect the ordinary habit, ask what kind of person it forms, and test whether the practice makes life more coherent, humane, and socially reliable."
+                ],
+                "dialogue_turns": [
+                    {"speaker": "Student", "text": "I thought ancient philosophy was mostly old theories about the cosmos. Why should it matter to how I live now?"},
+                    {"speaker": "Confucian Teacher", "text": "Because you are already living by habits, roles, and judgments whether you inspect them or not. Philosophy begins when you stop treating those habits as innocent."},
+                    {"speaker": "Student", "text": "That sounds moralistic. What if I just want to be myself instead of performing some inherited role?"},
+                    {"speaker": "Confucian Teacher", "text": "The question is not whether you perform roles. You already do: friend, child, classmate, citizen. The question is whether you perform them badly, mechanically, or with cultivated care."},
+                    {"speaker": "Student", "text": "So ancient philosophy is less about abstract theory and more about training?"},
+                    {"speaker": "Confucian Teacher", "text": "About both. A good theory of human life should clarify what kind of conduct, attention, and self-command make that life honorable and stable."},
+                    {"speaker": "Student", "text": "Then the practical test is what kind of person a belief helps produce?"},
+                    {"speaker": "Confucian Teacher", "text": "Exactly. Ancient philosophy stays alive when ideas are judged not only by elegance, but by the form of life they sustain."}
+                ],
+                "items": [
+                    "Use dialogue to show philosophy redirecting conduct, not merely defining terms.",
+                    "Let the student voice the modern resistance to role, discipline, or tradition.",
+                    "Show that ancient thought links self-cultivation to social reliability, not only private feeling.",
+                    "End with a method the reader could actually test in ordinary life."
+                ],
+            },
+        },
+        "synthesis": {
+            "paragraphs": [
+                "Ancient philosophy matters because it makes truth-seeking, character formation, and public reasoning answer to one another rather than letting them split into isolated enterprises.",
+                "Its lasting power comes from the diversity of its answers: some schools prioritize virtue, some pleasure, some skepticism, some ritual, some metaphysical architecture, yet all force the question of how thought should govern life.",
+                "The page succeeds when the reader can explain not only what ancient philosophers said, but why later philosophy keeps returning to the ancient discovery that ideas are supposed to shape both judgment and living."
+            ],
+            "items": [
+                "Which ancient question still feels most alive: reality, virtue, politics, or self-cultivation?",
+                "Where does the tradition treat philosophy as training rather than mere information?",
+                "Which school offers the strongest answer to how one ought to live?",
+                "How does widening beyond Greece change the map of ancient rigor?"
+            ],
+        },
+    },
+    "Jeremy Sherman on Emergence": {
+        "sections": {
+            "prompt-1": {
+                "heading": "Sherman's emergence talk is strongest when it distinguishes real explanatory levels from decorative mystery",
+                "paragraphs": [
+                    "Jeremy Sherman presents emergence as a way to talk about organized higher-level patterns without either collapsing them into particle talk or inflating them into spooky additions to nature. That is the charitable core of the project. Selves, organisms, and adaptive systems may be fully natural while still requiring descriptions at the level of constraint, coordination, and function rather than only at the level of chemical parts.",
+                    "As a summary, the material works best when it keeps three layers distinct. First, there is the descriptive claim that some systems exhibit stable, higher-order organization. Second, there is the explanatory claim that those patterns can do real causal or constraint-like work in understanding what the parts are doing. Third, there is the philosophical claim that this helps us talk about life and selves without dualism. Confusing those layers makes emergence sound deeper than it is.",
+                    "On factual accuracy, this general framing is plausible. Contemporary biology, complexity science, and systems theory often do rely on multi-level explanation. On logical coherence, the burden is to show why the higher level is not merely a convenient shorthand. On testability, the key question is whether the emergent description improves prediction, intervention, or comparative understanding beyond what lower-level description alone would have delivered."
+                ],
+                "items": [
+                    "Strongest insight: higher-level organization can be real without being supernatural.",
+                    "Main distinction: descriptive pattern, explanatory force, and metaphysical conclusion must not be conflated.",
+                    "Accuracy check: multi-level explanation is common in serious science, but not every complexity claim earns emergent status.",
+                    "Testability check: the emergent model should improve explanation or intervention, not just provide a richer vocabulary."
+                ],
+            },
+            "prompt-2": {
+                "heading": "Sherman is best read as a systems-minded naturalist trying to save agency without ghosts",
+                "paragraphs": [
+                    "Jeremy Sherman works in the overlap among biology, systems thinking, philosophy of mind, and evolutionary reflection. That matters because his emergence claims are not primarily theological or anti-scientific. They are attempts to describe how organized systems such as living organisms and selves can be treated as genuine explanatory units inside a naturalistic worldview.",
+                    "A reader benefits from that profile because the same word, emergence, travels badly across disciplines. In some settings it names a formal relation between levels of organization. In others it becomes a prestige word for 'complicated.' Sherman's background suggests he is aiming at the former, even if the rhetoric can sometimes drift toward the latter.",
+                    "So the point of a profile is not credential display. It is orientation: Sherman should be encountered as someone trying to preserve explanatory richness without abandoning scientific seriousness, while remaining vulnerable to the classic criticism that emergence language can outpace its operational clarity."
+                ],
+                "items": [
+                    "Disciplinary home: biology, systems thought, and philosophy of organized complexity.",
+                    "Philosophical aim: preserve talk of selves and agency without invoking non-natural substances.",
+                    "Main risk: the rhetoric of emergence can outrun clearly specified mechanisms.",
+                    "Reader benefit: knowing the background helps separate serious systems claims from atmospheric complexity talk."
+                ],
+            },
+            "prompt-3": {
+                "heading": "The core argument is that life and selfhood require organization-level explanation, not just parts-level inventory",
+                "paragraphs": [
+                    "The transcript's main line of argument begins with dissatisfaction toward one-factor origin stories. If chemistry-first, genes-first, or membrane-first pictures each explain only part of the transition to life, then a better account may need to describe how multiple processes become mutually supporting constraints. That is where Sherman places autogenesis: a system maintains itself not by possessing one magical ingredient, but by stabilizing a pattern of interdependence.",
+                    "In syllogistic form, the argument can be rendered carefully. Premise one: if an account of life ignores the organizational relations that keep components mutually sustaining, it misses what makes the system alive rather than merely chemically busy. Premise two: purely parts-level accounts risk ignoring those relations. Conclusion: a satisfactory account of life must include higher-level organizational description. That conclusion is significant, but narrower than the grander claim that emergence has solved the origin of life.",
+                    "The causal-chain lesson is therefore modest and important. Chemical reactions create recurring patterns; some patterns begin stabilizing the conditions of their own continuation; that stabilization makes self-maintaining organization possible; and only then do richer discussions of agency, function, or selfhood become plausible. The page improves when it makes that chain explicit instead of letting 'emergence' carry the whole explanatory burden by itself."
+                ],
+                "items": [
+                    "Argument core: organization matters because life depends on mutually sustaining relations, not only ingredients.",
+                    "Syllogistic caution: the case supports multi-level explanation more clearly than it supports any final metaphysics of self.",
+                    "Causal chain: recurring chemistry, stabilizing constraint, self-maintenance, then richer biological agency.",
+                    "Editorial test: if the word emergence vanished, the explanatory sequence should still remain intelligible."
+                ],
+            },
+            "prompt-4": {
+                "heading": "The view is plausible when it earns explanatory leverage, and weak when it merely renames complexity",
+                "paragraphs": [
+                    "Sherman's position is most plausible where higher-level organization genuinely changes what researchers can explain. Biology often does require talking about feedback loops, self-maintenance, function, and system-level constraint. In that context, emergence can mark a real gain in intelligibility rather than a refusal to analyze.",
+                    "Its main weakness appears when emergence is used as if naming a level were already an explanation. Complex systems can be surprising without that surprise proving anything philosophically deep. A critic is right to ask what precise prediction, intervention, or comparative advantage the emergent account supplies that a well-constructed lower-level account could not match.",
+                    "The balanced assessment is therefore neither dismissal nor reverence. Sherman's framework is a useful corrective against reductive impatience, but it remains answerable to a hard standard: show exactly what the higher-level description clarifies, constrains, or predicts. Without that payoff, emergence becomes an elegant way of postponing the real work."
+                ],
+                "items": [
+                    "Best case for plausibility: system-level description often captures real explanatory structure in living processes.",
+                    "Best objection: calling something emergent can become a label for ignorance rather than an explanation.",
+                    "Decisive test: what novel leverage does the higher-level model provide?",
+                    "Practical verdict: emergence is respectable as disciplined explanatory layering, not as a halo around complexity."
+                ],
+            },
+        },
+        "synthesis": {
+            "paragraphs": [
+                "The Sherman page works when emergence is treated as a disciplined claim about explanatory levels rather than as a poetic synonym for wonder.",
+                "Its lasting value is to remind the reader that reduction can be intellectually powerful without always being the most illuminating level of description for life, function, or selves.",
+                "The strongest takeaway is methodological: whenever emergence is invoked, ask what specific causal, predictive, or organizational work the higher-level account is doing."
+            ],
+            "items": [
+                "What exactly is being explained better at the higher level?",
+                "Where does the argument move from pattern-description to stronger metaphysical claim?",
+                "Could a lower-level account recover the same leverage?",
+                "What would count as evidence that the emergence language is doing real work?"
+            ],
+        },
+    },
+    "“Adequate” Evidence": {
+        "sections": {
+            "prompt-1": {
+                "heading": "Adequate evidence is always relative to stakes, domains, and decision rules",
+                "paragraphs": [
+                    "The temptation behind this question is understandable: readers want a clean threshold at which evidence becomes adequate and belief becomes rational. But there is no single universal bar because adequacy depends on what kind of claim is being made, what action depends on it, how reversible the decision is, and how costly different errors would be.",
+                    "A civil engineer deciding whether a bridge design is safe, a juror weighing testimony, a doctor choosing a treatment, and a friend judging a rumor all work under different standards because the evidential environment and practical stakes differ. The rationality of belief is therefore graded, while the adequacy of evidence is contextual rather than arbitrary.",
+                    "That is the pedagogical point worth preserving. The page should train calibration, not promise a magical epistemic switch. Good inquiry names the threshold appropriate to the problem and then shows why that threshold, rather than some easier or harder one, is intellectually responsible."
+                ],
+                "items": [
+                    "No universal bar: evidence adequacy varies by domain, stakes, and purpose.",
+                    "Graded belief: confidence can rise or fall without waiting for perfect certainty.",
+                    "Context is not relativism: thresholds still need explicit justification.",
+                    "Reader lesson: ask what this decision requires, not what a mythical one-size-fits-all standard would demand."
+                ],
+            },
+            "prompt-2": {
+                "heading": "The dialogue works when the student learns that belief thresholds are tools, not metaphysical switches",
+                "paragraphs": [
+                    "A useful dialogue should let the student's intuition sound initially reasonable. In ordinary life people often talk as if belief turns on only after enough evidence has piled up. That way of speaking is understandable because action often does require crossing some practical threshold.",
+                    "The professor's job is to separate two things the student is blending together: the degree of confidence a claim has earned and the policy by which a person decides to act. Once those come apart, the 'epistemic switch' starts looking less like a deep truth about belief and more like a simplified model of decision-making under pressure.",
+                    "The exchange becomes pedagogically valuable when it ends with calibration rather than victory. The student should leave seeing why humans often need thresholds for action while still acknowledging that confidence itself usually comes in degrees."
+                ],
+                "dialogue_turns": [
+                    {"speaker": "Student", "text": "I think belief needs a threshold. Before that point I suspend judgment, and after it I should fully believe."},
+                    {"speaker": "Professor", "text": "That sounds plausible until we ask what exactly crosses the threshold. Is it your confidence, or your willingness to act as if the claim is true for present purposes?"},
+                    {"speaker": "Student", "text": "I assumed those were the same thing. If I act, doesn't that mean I now believe?"},
+                    {"speaker": "Professor", "text": "Not always. A surgeon may operate with only moderate confidence because delay carries greater risk. Action can become binary even when confidence remains graded."},
+                    {"speaker": "Student", "text": "So the threshold belongs more to the decision rule than to belief itself?"},
+                    {"speaker": "Professor", "text": "Exactly. Belief tracks the evidence in degrees; decision policy tells you when those degrees are enough for this purpose under these stakes."},
+                    {"speaker": "Student", "text": "Then my switch model was really smuggling in a practical standard without admitting it."},
+                    {"speaker": "Professor", "text": "And once you admit that, the discussion becomes more honest. You can argue about the appropriate threshold instead of pretending belief has only two clean states."}
+                ],
+                "items": [
+                    "Charitable opening: threshold-talk feels natural because action often needs commitment.",
+                    "Key correction: distinguish confidence level from action policy.",
+                    "Main gain: practical thresholds can be defended without turning belief into an on-off mechanism.",
+                    "Desired result: the reader leaves with a cleaner model of graded belief and context-sensitive decision."
+                ],
+            },
+            "prompt-3": {
+                "heading": "Low confidence can still justify action when the alternatives are worse",
+                "paragraphs": [
+                    "People often confuse the rationality of a belief with the rationality of an action taken under uncertainty. The two are related, but not identical. You may only be 20 percent confident that a house fire alarm signals a real fire, yet evacuating is still rational because the cost of leaving briefly is tiny compared with the cost of ignoring a genuine emergency.",
+                    "The same structure appears in medicine and public safety. A doctor may have only modest confidence that a rare complication is present, but if the intervention is low-cost and the untreated downside is severe, acting on low probability can be rational. Likewise, investigators may inspect a possible contamination event on weak evidence because the decision to check is far cheaper than the damage of waiting for certainty.",
+                    "The point is not that low probabilities automatically justify action. It is that rational action depends on expected cost, asymmetry of outcomes, reversibility, and time pressure. Once those are visible, sub-absolute confidence stops looking like intellectual failure and starts looking like the normal condition of decision."
+                ],
+                "items": [
+                    "Fire alarm case: low confidence can still justify evacuation when downside risk is catastrophic.",
+                    "Medical screening case: modest probability can justify low-cost intervention or further testing.",
+                    "Public safety case: weak evidence may still warrant inspection when the cost of inaction is much higher.",
+                    "Reader lesson: rational action depends on stakes and asymmetry, not only raw confidence percentage."
+                ],
+            },
+            "prompt-4": {
+                "heading": "Updating belief means revising confidence as evidence changes, not pretending each new fact resets the whole case",
+                "paragraphs": [
+                    "A good updating page should show movement, not just announce that belief can go up or down. The real lesson is cumulative calibration: each new piece of evidence changes the case in proportion to its reliability, independence, and fit with what was already known. Strong updating is therefore disciplined, not dramatic.",
+                    "The cleanest examples are comparative. A drug trial begins with moderate confidence, then gains strength after a well-designed study and loses some after replication problems appear. A climate claim may start with broad background support, rise with convergent measurements, and shift again when a purported data source is discredited. A missing-person search, a product launch forecast, or a legal theory can be mapped the same way.",
+                    "The page works when the reader learns to ask three questions at each step: how trustworthy is this new evidence, how independent is it from what I already counted, and how much should it move confidence rather than merely decorate the story? That discipline keeps updating from collapsing into mood swings."
+                ],
+                "items": [
+                    "Drug trial example: positive results raise confidence, but replication failures should pull it back down.",
+                    "Climate or policy example: convergent evidence matters more than one vivid anecdote or single dataset.",
+                    "Search or investigation example: each clue should be weighted for reliability and independence.",
+                    "Core method: ask how much the new evidence should move confidence, not whether it merely feels persuasive."
+                ],
+            },
+        },
+        "synthesis": {
+            "paragraphs": [
+                "The page succeeds when adequate evidence stops sounding like a mystical threshold and starts looking like context-sensitive calibration under visible standards.",
+                "Its central discipline is to keep belief, action, stakes, and updating related without collapsing them into one vague idea of certainty.",
+                "The durable takeaway is practical: ask what degree of support this claim has earned, what action that degree justifies, and what future evidence should make you revise it."
+            ],
+            "items": [
+                "What exactly is the decision the evidence is supposed to guide?",
+                "How costly are the main error types in this case?",
+                "Is the threshold epistemic, practical, legal, or moral?",
+                "What new evidence would rationally move confidence up or down?"
+            ],
+        },
+    },
 }
