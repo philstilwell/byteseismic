@@ -6401,12 +6401,20 @@ def current_batch_philosopher_paragraphs(page: dict, prompt: str, detail: dict |
     concept_text = serial_join(concept_labels[:3])
     method_sentence = philosopher_method_sentence(profile)
 
-    if family in {"influence", "inheritance"}:
+    if family == "influence":
         return [
             f"{topic} matters because {profile['signature']}. The point is not just to praise the thinker, but to show which later questions become clearer once that move is on the table.",
             f"Read the view against its original scene: {profile['period']}. That setting shows which inherited problem {topic} was trying to rework, rather than merely which century the reader is supposed to remember.",
             f"{method_sentence} That method matters because it gives later readers a way to sort liberty, agency, truth, duty, or social life without collapsing those questions into one blur.",
             f"The inheritance test is concrete: remove {topic} from the story and ask which later debates in {profile['legacy']} become harder to state, defend, or criticize with the same precision.",
+        ]
+
+    if family == "inheritance":
+        return [
+            f"{topic} left its deepest mark when later traditions borrowed its tools without needing to copy the whole worldview that first housed them.",
+            f"Start from the transferable move: {profile['signature'].rstrip('.')}. Then ask which parts migrated into {profile['legacy']} and which parts mostly stayed tied to the original system.",
+            f"{method_sentence} That matters here because schools and disciplines rarely inherit a philosopher whole; they usually keep a distinction, a method, or a pressure point and repurpose it under new assumptions.",
+            f"A strong map of influence should therefore separate direct disciples, neighboring traditions, and distant academic domains that still use the framework to sort problems they otherwise could not state as sharply.",
         ]
 
     if family == "becoming":
@@ -6420,10 +6428,10 @@ def current_batch_philosopher_paragraphs(page: dict, prompt: str, detail: dict |
 
     if family in {"contributions", "concepts"}:
         return [
-            f"The page should organize {topic} around working concepts, not around a respectful cloud of themes. {concept_text} matter because each one carries a different part of the philosophical load.",
-            f"Start from a central claim: {profile['signature'].rstrip('.')}. Then ask how {concept_text} each clarify a different piece of that burden.",
-            f"{method_sentence} The method matters because it shows why these concepts belong together as a style of inquiry rather than as isolated glossary entries.",
-            f"A good reading leaves the reader able to use at least one of these distinctions in a live case and to say where the framework starts to strain under objection.",
+            f"{topic} is best taught through its strongest working concepts, because the legacy lives in the distinctions readers still reuse rather than in a ceremonial list of doctrines.",
+            f"Start from the central pressure: {profile['signature'].rstrip('.')}. Then show how {concept_text} each carry a different part of that burden instead of repeating the same idea in grander language.",
+            f"{method_sentence} That method is part of the contribution, because it reveals why these concepts belong together as a style of inquiry rather than as isolated glossary entries.",
+            f"The test of the list is practical: can a reader take at least one of these tools into a live dispute, explain what it clarifies, and name the point where the framework begins to overreach?",
         ]
 
     if family == "objection":

@@ -209,6 +209,94 @@ COLLECTIVE_SOURCE_DOSSIERS = {
 }
 
 SPECIAL_PAGE_PROFILES = {
+    "Phenomenologists": {
+        "source_heading": "Read Phenomenology as a discipline of description, not a misty atmosphere.",
+        "source_intro": "This dossier keeps Phenomenology tied to the stubborn idea that experience has a structure worth describing before theory, reduction, or explanation flatten it into something easier but less faithful.",
+        "source_cards": {
+            "Original framing": "A branch page that introduces Phenomenology as a method for describing lived experience rather than as a badge for vaguely introspective writing.",
+            "Preserved texture": "The page preserves phenomenology as a return to intentionality, embodiment, worldhood, and the first-person structures that make things show up meaningfully at all.",
+            "Historical setting": "Late nineteenth- and twentieth-century European philosophy, where psychologism, scientific reduction, and inherited metaphysics all pressed thinkers to ask what experience is like before it is translated into theory.",
+            "Primary texts nearby": "Husserl's Ideas, Heidegger's Being and Time, Merleau-Ponty's Phenomenology of Perception, and Beauvoir's phenomenological ethics.",
+            "Ideas in view": "Intentionality, epoché, embodiment, lived experience, worldhood, and the difference between description and explanation.",
+            "Influence trail": "Existentialism, hermeneutics, psychiatry, theology, literary theory, cognitive science, and later debates about consciousness and first-person method.",
+        },
+        "source_read": "Read the page with one discipline in mind: phenomenology earns its keep only when it helps the reader notice structures of experience that outside-looking descriptions tend to miss or erase.",
+        "sections": {
+            "prompt-1": {
+                "heading": "What Phenomenology is really trying to do",
+                "paragraphs": [
+                    "Phenomenology begins from a simple but demanding thought: before we explain experience, measure it, or translate it into theory, we should first describe how the world actually appears in lived consciousness. That means asking how objects show up as meaningful, how attention is directed, and how the subject is always already involved in a world rather than floating outside it.",
+                    "Its signature claim is intentionality. Consciousness is not a sealed box full of private pictures; it is always consciousness of something. Perceiving a tree, fearing an exam, remembering a friend, or handling a tool all reveal a mind directed outward, bound up with situations, purposes, expectations, and bodily orientation.",
+                    "That is why phenomenology resists premature reduction. A neuroscientific explanation, causal story, or behavioral summary may be useful, but it does not automatically capture what the experience is like as lived. Phenomenology does not deny explanation; it insists that description has its own philosophical work to do before explanation starts claiming completeness.",
+                    "The tradition is strongest when it stays disciplined. Husserl emphasizes rigorous description, Heidegger turns toward worldhood and Being, Merleau-Ponty restores embodiment, and Beauvoir shows how lived situation is gendered and social. The unity lies in the method's pressure, not in a single doctrinal formula."
+                ],
+                "items": [
+                    "Core move: describe experience as lived before reducing it to an outside theory.",
+                    "Central clue: consciousness is intentional, meaning it is directed toward a world.",
+                    "Main resistance: explanation can be powerful without exhausting what experience is like from the inside.",
+                    "Best first test: can the page show why embodiment and worldhood matter without sliding into mystification?"
+                ],
+            },
+            "prompt-2": {
+                "heading": "How Phenomenology reshaped later philosophy",
+                "paragraphs": [
+                    "Its first lasting contribution was to make lived experience a serious philosophical starting point rather than a dispensable preface to theory. That move influenced existentialism, hermeneutics, psychiatry, theology, literary studies, and later philosophy of mind.",
+                    "Phenomenology also sharpened the distinction between description and explanation. A person using a hammer, grieving a death, or navigating a room is not first encountering neutral data and then adding meaning afterward. Meaning is already there in the experience, and that insight changed how later thinkers approached perception, embodiment, and practical action.",
+                    "A further contribution was methodological. The reduction or epoché, whatever one finally thinks of it, trained philosophers to suspend habitual assumptions long enough to ask what structures must be present for a world to appear as familiar, threatening, usable, sacred, or strange.",
+                    "Its downstream influence remains strong because many later fields discovered that third-person accounts alone were missing something essential. Phenomenology gave them a way to talk about first-person structure without collapsing into mere autobiography."
+                ],
+                "items": [
+                    "Lived experience: experience becomes a legitimate starting point for rigorous inquiry.",
+                    "Embodiment and worldhood: perception and action are situated, not detached data-processing events.",
+                    "Methodological suspension: bracketing assumptions can reveal what ordinary explanation overlooks.",
+                    "Influence trail: existentialism, hermeneutics, psychiatry, theology, and philosophy of mind all inherit parts of the method."
+                ],
+            },
+            "prompt-3": {
+                "heading": "The figures who gave Phenomenology its durable shape",
+                "paragraphs": [
+                    "Husserl belongs at the center because he made phenomenology a rigorous program. He argued that philosophy should return to the things themselves by examining how objects are given in consciousness rather than treating them only as results of scientific theory or psychological process.",
+                    "Heidegger then transformed the project by insisting that human existence is not best understood as a spectator's consciousness, but as being-in-the-world. That shift made practical involvement, mood, finitude, and worldhood central rather than peripheral.",
+                    "Merleau-Ponty deepened the embodied side of the tradition. Perception is not a ghost inspecting a machine; it is a body already navigating space, habit, ambiguity, and motor possibility. Beauvoir extended phenomenology into ethics and social existence by showing how lived experience is structured by gender, dependence, and asymmetrical power.",
+                    "Those figures matter together because they show how the method branches. Husserl gives rigor, Heidegger reorients ontology, Merleau-Ponty restores the body, and Beauvoir proves that phenomenology can illuminate oppression and situated freedom rather than only abstract consciousness."
+                ],
+                "items": [
+                    "Husserl for intentionality, description, and phenomenological rigor.",
+                    "Heidegger for being-in-the-world, finitude, and the structure of practical existence.",
+                    "Merleau-Ponty for embodiment, perception, and the lived body.",
+                    "Beauvoir for social situation, ambiguity, and phenomenology's ethical reach."
+                ],
+            },
+            "prompt-4": {
+                "heading": "A dialogue that shows how a phenomenologist thinks in practice",
+                "paragraphs": [
+                    "A good beginner's dialogue should start with an everyday act, not a grand abstraction. Let the student reach for a mug, walk through a doorway, or recognize a friend's face in a crowd. The phenomenologist's first move is to slow the event down and ask how the meaning of the situation is already present before a theory about it is supplied.",
+                    "The student should voice the natural objection: 'Isn't this just introspection?' That matters because phenomenology is not trying to record random private feelings. It is looking for stable structures in how the world becomes available to experience in the first place.",
+                    "The exchange becomes useful when embodiment enters the picture. The student notices that the hand already knows how to grip the mug, that the room is navigated through habit, and that attention shifts according to relevance rather than by scanning neutral pixels. Suddenly the world looks less like raw data and more like a field of meaningful affordances.",
+                    "End with a concession and a gain. Phenomenology can become obscure when it forgets public discipline, but it becomes illuminating when it teaches the reader to notice what detached explanations presuppose. The student should leave able to say why lived experience deserves description before reduction."
+                ],
+                "items": [
+                    "Begin with an ordinary act so the method looks disciplined rather than theatrical.",
+                    "Let the student raise the introspection worry and answer it directly.",
+                    "Use embodiment to show that the body is an active orientation to the world, not a passive container.",
+                    "Close by naming both the insight and the risk: richer description on one side, obscurity on the other."
+                ],
+            },
+        },
+        "synthesis": {
+            "paragraphs": [
+                "Phenomenology matters because it insists that experience has describable structure before outside explanation claims the whole field.",
+                "Its major figures keep revising that insight, but they agree that worldhood, embodiment, and intentionality cannot be treated as decorative extras.",
+                "The page succeeds when the reader can explain why first-person description is not a retreat from rigor, but one of the conditions for getting the phenomenon into view at all."
+            ],
+            "items": [
+                "What part of the lived experience would a purely third-person account miss?",
+                "How does intentionality change the picture of mind as a private inner theater?",
+                "Where does embodiment become philosophically unavoidable?",
+                "What keeps phenomenological description from collapsing into impressionism?"
+            ],
+        },
+    },
     "Continental Philosophers": {
         "source_heading": "Read Continental philosophy as a family of disputes, not a creed.",
         "source_intro": "This dossier keeps the page from collapsing a sprawling tradition into one slogan. The point is to track the recurring pressures that make continental philosophy recognizable even when its major figures disagree sharply.",
