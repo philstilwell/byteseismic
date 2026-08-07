@@ -41,6 +41,14 @@ SCAFFOLD_PARAGRAPH_PATTERNS = [
     re.compile(r"^This middle step .+$", re.I),
     re.compile(r"^The dialogue form earns its place only if .+$", re.I),
     re.compile(r"^The answer should discipline the question without pretending .+$", re.I),
+    re.compile(
+        r"^A fair pushback is that real decisions often happen quickly\. The point is not to abolish speed; it is to notice which shortcut is harmless and which one quietly rigs the outcome before the reasoning even starts\.$",
+        re.I,
+    ),
+    re.compile(
+        r"^A fair pushback is that decent people often know what they mean morally long before they can theorize it neatly\. True enough\. The page still has to show what that first moral reaction gets right, what it blurs, and why the distinction matters once disagreement becomes serious\.$",
+        re.I,
+    ),
 ]
 
 SCAFFOLD_LIST_PATTERNS = [
