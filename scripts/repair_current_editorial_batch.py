@@ -19,6 +19,7 @@ PLACEHOLDER_PATTERNS = [
     re.compile(r"The charitable version should be stated before the criticism lands", re.I),
     re.compile(r"A good reader should finish the section able to say", re.I),
     re.compile(r"becomes more intelligible when it is forced into a concrete case", re.I),
+    re.compile(r"^A strong example does more than decorate .+\.$", re.I),
 ]
 
 PLACEHOLDER_LIST_PATTERNS = [
@@ -215,6 +216,14 @@ CUSTOM_SECTION_HEADINGS = {
         "Minimum Wage",
         "Can you actually call a verbal contract in which both the employee and the employer agree and follow through on their commitments “exploitation”? Once you stop this “grey” economic practice, you only end up with the poor would-be migrants becoming poorer in their impoverished native countries, right?",
     ): "Consent alone does not settle whether grey-market labor is exploitative",
+    (
+        "Coherent Moral Systems",
+        "Elaborate on the logical consistency required of such a moral system. Give real or imaginary examples if possible.",
+    ): "Why coherent moral systems need logical consistency",
+    (
+        "Moral Hazards",
+        "Provide an example of a moral hazard that is based only on information asymetry.",
+    ): "A moral hazard driven only by information asymmetry",
 }
 
 
