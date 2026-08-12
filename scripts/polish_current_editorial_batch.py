@@ -81,6 +81,18 @@ HEADING_REPLACEMENTS = {
     "What government interventions are considered intrusive and oppressive in most democracies?": "Which interventions democracies often judge intrusive or oppressive",
     "3 cases in which a logical assessment revealed fatal flaws in arguments that had been": "Three cases where logical analysis exposed fatal flaws",
     "Accounts from history in which the pressure to take a dogmatic position led to negative": "Historical cases where pressure for dogmatism caused damage",
+    "Game Theory names the central pressure.": "What Game Theory studies, and why strategy matters",
+    "Bayes Theorem names the central pressure.": "What Bayes Theorem clarifies about updating belief",
+    "Putting The issue under pressure": "Where the real issue has to be tested",
+    "Putting Reason for Initial Omission under pressure": "Why the initial omission matters",
+    "Putting Differentiating Actual Evil from Mere Emotional Responses under pressure": "Why actual evil must be separated from emotional reaction",
+    "What Instantiate the variables with clear terms in each example clarifies, and where its limits show": "What Bayes Theorem looks like in worked examples",
+    "What Facilitates Dialogue Between Different Worldviews clarifies, and where its limits show": "How faith can shape dialogue across worldviews",
+    "What Generated educational graphics simply based on text or audio content really means in practice": "What text-to-graphic tools change for teaching",
+    "What Step method of teasing out actual causation from a correlation really means in practice": "A step-by-step way to test whether correlation is causal",
+    "What Research questions and hypotheses and provide helpful examples clarifies, and where its limits show": "How research questions and hypotheses guide a study",
+    "What Critique of the Author’s Thesis in the “Deeper Thinking Podcast” really means in practice": "How the main critique of the podcast thesis should be tested",
+    "What Correlation Between Childhood Trauma/Deprivation and Neurodiversity really means in practice": "How trauma correlations can be confused with neurodiversity itself",
 }
 
 REMOVE_PARAGRAPH_PATTERNS = [
@@ -1116,9 +1128,19 @@ def normalize_heading_text(text: str) -> str:
         subject = text[len("Testing ") : -len(" under pressure")].strip().rstrip(".")
         return f"Putting {subject} under pressure"
 
+    match = re.fullmatch(r"Putting (.+) under pressure", text)
+    if match:
+        subject = match.group(1).strip().rstrip(".")
+        return f"Testing {subject} more closely"
+
     match = re.fullmatch(r"What (.+) explains, and where it starts to strain", text)
     if match:
         return f"What {match.group(1)} clarifies, and where its limits show"
+
+    match = re.fullmatch(r"What (.+) actually clarifies", text)
+    if match:
+        subject = match.group(1).strip().rstrip(".")
+        return f"What {subject} really means in practice"
 
     return text
 
@@ -1127,6 +1149,7 @@ def heading_from_prompt(prompt_text: str, page_title: str, heading_text: str, se
     prompt_text = " ".join(prompt_text.split())
     heading_text = " ".join(heading_text.split())
     prompt_lower = prompt_text.lower()
+    title_subject = page_title.split(" on ", 1)[0].strip()
 
     match = re.match(r"Provide a general description of (?:the philosophical school of )?(.+?)\.$", prompt_text, re.IGNORECASE)
     if match and section_id == "prompt-1":
@@ -1143,6 +1166,8 @@ def heading_from_prompt(prompt_text: str, page_title: str, heading_text: str, se
             return "Who the author is, and why that matters here"
 
     if section_id == "prompt-2":
+        if prompt_lower.startswith("using the 7 schools of thought"):
+            return "How the main schools divide over whether mind is fundamental"
         if "7 greatest contributions" in prompt_lower:
             return f"How {page_title} still shapes later thought"
         if "annotated list" in prompt_lower and "contributions" in prompt_lower:
@@ -1156,6 +1181,11 @@ def heading_from_prompt(prompt_text: str, page_title: str, heading_text: str, se
             return f"A six-month path into {page_title}"
         if "well-structured assessment" in prompt_lower or "assessment of" in prompt_lower:
             return f"The strongest parts of the argument, and where they strain"
+        if "provide a profile of the podcast guest" in prompt_lower or (
+            prompt_lower.startswith("provide a profile of")
+            and "links to media" in prompt_lower
+        ):
+            return f"Who {title_subject} is and where to explore more of the work"
         if "actual historical examples" in prompt_lower and "trauma of what happened" in prompt_lower:
             return "Five traumas that look different once counterfactuals enter"
         if "nicholas cage" in prompt_lower and "swimming pool drownings" in prompt_lower:
@@ -1203,6 +1233,51 @@ def heading_from_prompt(prompt_text: str, page_title: str, heading_text: str, se
         if "how might we inoculate ourselves" in prompt_lower:
             return "How to keep the actual from burying the plausible"
 
+    if prompt_lower.startswith("provide a list of proposed ontological domains"):
+        return "The main ontological domains philosophers tend to propose"
+    if prompt_lower.startswith("what is economics"):
+        return "What economics studies, and why scarcity is only the beginning"
+    if prompt_lower.startswith("what are the minimal conditions for a stable economy"):
+        return "What most economists mean by a stable economy"
+    if prompt_lower.startswith("describe the major schools of economic thought"):
+        return "The major schools of economic thought, and what divides them"
+    if prompt_lower.startswith("provide a clear definition of moral hazards and 7 examples"):
+        return "What moral hazard means in economics, with seven examples"
+    if prompt_lower.startswith("how essential is taxation to a functioning state"):
+        return "Why taxation matters to a functioning state"
+    if prompt_lower.startswith("what common categories and definitions of “explanation”"):
+        return "The main kinds of explanation philosophers use"
+    if prompt_lower.startswith("what common categories and definitions of \"explanation\""):
+        return "The main kinds of explanation philosophers use"
+    if prompt_lower.startswith("what are the components and qualities of a powerful analogy"):
+        return "What makes an analogy clarifying rather than misleading"
+    if prompt_lower.startswith("assess the following statement against the notion that rational belief"):
+        return "Why evidence usually supports degrees of belief, not a binary leap"
+    if prompt_lower.startswith("what are other terms similar to “preponderance”"):
+        return "Threshold language that can distort graded belief"
+    if prompt_lower.startswith("what are other terms similar to \"preponderance\""):
+        return "Threshold language that can distort graded belief"
+    if prompt_lower.startswith("provide the necessary and sufficient conditions for land ownership"):
+        return "What a society needs before land ownership can emerge"
+    if prompt_lower.startswith("many religious ideologies insist that humans know"):
+        return "Why 'you already know it is true' works as a gaslighting tactic"
+    if prompt_lower.startswith("one rather dishonorable tactic in public discourse is moving"):
+        return "How connotative equivocation manipulates audiences"
+    if prompt_lower.startswith("elaborate on any dependencies among these ontological domains"):
+        return "How the proposed ontological domains depend on one another"
+    if prompt_lower.startswith("for each of the following types of explanation"):
+        return "How different kinds of explanation work in practice"
+    if prompt_lower.startswith("for the following types of emergence"):
+        return "Examples that show where kinds of emergence differ"
+    if prompt_lower.startswith("list and define 30 key terms in metaphysics"):
+        return "Thirty anchor terms in metaphysics"
+    if prompt_lower.startswith("list and provide explanations of 15 key concepts in metaphysics"):
+        return "Fifteen concepts that organize metaphysical debate"
+    if prompt_lower.startswith("list and define 30 key terms fundamental to understanding the philosophy of science"):
+        return "Thirty anchor terms in philosophy of science"
+    if prompt_lower.startswith("list and provide explanations of 15 key concepts in philosophy of science"):
+        return "Fifteen concepts that organize philosophy of science"
+
     return normalize_heading_text(heading_text)
 
 
@@ -1238,7 +1313,31 @@ def should_remove_paragraph(text: str) -> bool:
         return True
     if cleaned.startswith("A fair pushback is that ordinary life cannot wait for perfect evidence."):
         return True
+    if cleaned.startswith("A fair pushback is that real decisions often happen quickly."):
+        return True
     if cleaned.startswith("The deeper issue in "):
+        return True
+    if cleaned.startswith("The payoff is "):
+        return True
+    if cleaned.startswith("A strong example does more than decorate "):
+        return True
+    if cleaned.startswith("A clear page should therefore hold apart two issues:"):
+        return True
+    if cleaned.startswith("What makes ") and " worth slowing down over is that the topic changes how the reader organizes " in cleaned:
+        return True
+    if cleaned.startswith("The page becomes more useful once that organizational work is explicit"):
+        return True
+    if cleaned.startswith("The topic becomes more useful once the reader can state plainly what claim is being made"):
+        return True
+    if cleaned.startswith("That clarity matters because the page should help the reader sort core claims"):
+        return True
+    if cleaned.startswith("A workable definition of ") and "has to do more than offer a tidy phrase." in cleaned:
+        return True
+    if cleaned.startswith("That boundary matters because people often move from one familiar example"):
+        return True
+    if cleaned.startswith("A useful dialogue about ") and "claim precise enough to be tested" in cleaned:
+        return True
+    if "remains epistemically opaque" in cleaned:
         return True
     if cleaned.startswith("This section should give the reader a usable epistemic lever:"):
         return True
@@ -1457,6 +1556,66 @@ def synthesized_section_items(page: dict, page_title: str, prompt_text: str) -> 
     ]
 
 
+def paragraph_is_generic_scaffold(text: str) -> bool:
+    cleaned = " ".join(text.split())
+    generic_markers = (
+        "is best approached as a live problem with pressure points rather than as a settled slogan.",
+        "looks simpler than it is when the page treats every nearby idea as interchangeable.",
+        "The section is doing its job when the reader can explain",
+        "A useful map should help with borderline cases, not just obvious ones.",
+        "The section succeeds when the reader can place a new example on the map,",
+        "The example earns its place only if it sharpens judgment.",
+        "Start by separating the nearby questions the label tends to hide.",
+        "By the end, the reader should be able to use ",
+        "The payoff is ",
+        "What makes ",
+        "The page becomes more useful once ",
+        "The key distinction is not verbal ornament.",
+        "That matters because readers otherwise slide too quickly ",
+        "A useful dialogue about ",
+        "The reader should come away with a narrower disagreement ",
+        "The pressure point is whether ",
+    )
+    return any(marker in cleaned for marker in generic_markers)
+
+
+def support_paragraphs_for_section(page: dict, page_title: str, prompt_text: str) -> list[str]:
+    topic = topic_label(page_title)
+    focus = prompt_focus(prompt_text)
+    subject = clean_discussion_key(short_prompt_key(prompt_text, topic), topic, topic) or topic or page_title
+    frame, example = page_frame(page)
+
+    if focus == "definition":
+        return [
+            f"A workable definition of {subject} has to do more than offer a tidy phrase. It should identify which features are central, which are optional, and which nearby cases only look similar from a distance.",
+            f"That boundary matters because people often move from one familiar example to a much larger conclusion about {frame}. A good definition slows that move down and makes the inference answerable to clearer standards.",
+        ]
+    if focus == "mapping":
+        return [
+            f"The point of mapping {subject} is comparative rather than decorative. The reader needs to see which neighboring positions overlap, where they diverge, and why those differences affect later judgment.",
+            "Once the boundaries are visible, later disagreements become easier to diagnose because a dispute that looked like one disagreement often turns out to involve several distinct questions moving together.",
+        ]
+    if focus == "examples":
+        return [
+            f"A strong example does more than decorate {subject}. It shows which part of the view survives contact with a concrete case and which part starts to wobble once consequences, constraints, or counterexamples become visible.",
+            example,
+        ]
+    if focus == "argument":
+        return [
+            f"The real test is whether {subject} can support the conclusion being asked of it once the strongest objections are stated clearly and without caricature.",
+            "That requires separating what the argument has actually established from what is only being suggested by tone, framing, or a leap that still needs support.",
+        ]
+    if focus == "dialogue":
+        return [
+            f"A useful dialogue about {subject} should force each side to make at least one claim precise enough to be tested rather than merely restated more confidently.",
+            "The reader should leave with a narrower disagreement, a clearer picture of the main pressure point, and a better sense of what evidence or distinction would matter next.",
+        ]
+    return [
+        f"The topic becomes more useful once the reader can state plainly what claim is being made and how it changes judgment about {frame}.",
+        "That clarity matters because the page should help the reader sort core claims from supporting claims, and genuine explanation from rhetorical atmosphere.",
+    ]
+
+
 def list_needs_rewrite(section) -> bool:
     list_tag = section.find(["ol", "ul"], recursive=False)
     if list_tag is None:
@@ -1497,11 +1656,29 @@ def strengthen_section_html(section_html: str, page: dict, page_title: str) -> s
         if "article-section__prompt" not in (p.get("class") or [])
     ]
     paragraph_texts = [strip_tags(str(p)) for p in paragraphs]
-    if not section_needs_rewrite(page, heading_text, paragraph_texts):
-        if not list_needs_rewrite(section):
-            return str(section)
+    needs_paragraph_rewrite = section_needs_rewrite(page, heading_text, paragraph_texts)
+    needs_list_rewrite = list_needs_rewrite(section)
+    if not needs_paragraph_rewrite and not needs_list_rewrite:
+        return str(section)
 
-    if list_needs_rewrite(section):
+    if needs_paragraph_rewrite:
+        preserved_paragraphs = [
+            text for text in paragraph_texts
+            if text and not paragraph_is_generic_scaffold(text)
+        ]
+        for paragraph in paragraphs:
+            paragraph.decompose()
+        rewritten_paragraphs = preserved_paragraphs[:2] + support_paragraphs_for_section(page, page_title, prompt_text)
+        new_paragraphs = BeautifulSoup(
+            render_paragraphs(rewritten_paragraphs),
+            "html.parser",
+        )
+        insertion_point = heading
+        for new_paragraph in list(new_paragraphs.find_all("p", recursive=False)):
+            insertion_point.insert_after(new_paragraph)
+            insertion_point = new_paragraph
+
+    if needs_list_rewrite:
         list_tag = section.find(["ol", "ul"], recursive=False)
         if list_tag is not None:
             list_tag.decompose()
@@ -1840,6 +2017,21 @@ def final_batch_cleanup(updated: str) -> str:
         if not learning_card.select("li"):
             learning_card.decompose()
 
+    for reading_list in soup.select("ol.reading-path-card__list, ul.reading-path-card__list"):
+        if not reading_list.find_all("li", recursive=False):
+            reading_list.decompose()
+
+    for section in soup.select("section.article-section--prompt, section#synthesis"):
+        previous_text = None
+        for paragraph in list(section.find_all("p", recursive=False)):
+            text = strip_tags(str(paragraph))
+            if not text:
+                continue
+            if text == previous_text:
+                paragraph.decompose()
+                continue
+            previous_text = text
+
     return str(soup)
 
 
@@ -1856,6 +2048,10 @@ def clean_html(original: str, page: dict, page_title: str) -> str:
         section_html = strengthen_section_html(section_html, page, page_title)
         return section_html
 
+    updated = SECTION_RE.sub(rewrite_section, updated)
+    updated = clean_learning_cards(updated)
+    updated = clean_generic_paragraphs_globally(updated)
+    updated = final_batch_cleanup(updated)
     updated = SECTION_RE.sub(rewrite_section, updated)
     updated = clean_learning_cards(updated)
     updated = clean_generic_paragraphs_globally(updated)
