@@ -27,6 +27,20 @@ PLACEHOLDER_LIST_PATTERNS = [
     re.compile(r"The epistemic pressure is how evidence, uncertainty, and responsible confidence interact", re.I),
 ]
 
+GENERIC_HEADING_PATTERNS = [
+    re.compile(r"\breally means in practice\b", re.I),
+    re.compile(r"\bclarifies, and where its limits show\b", re.I),
+    re.compile(r"\bmatters in practice\b", re.I),
+    re.compile(r"^Putting .+ under pressure\.?$", re.I),
+    re.compile(r"require sharper edges before the distinction can guide judgment\.?$", re.I),
+    re.compile(r"^A concrete case shows what .+ explains and where it strains\.?$", re.I),
+    re.compile(r"^The real issue is what .+ changes once it becomes precise\.?$", re.I),
+    re.compile(r"^The map of .+ becomes useful once the parts stop doing different work\.?$", re.I),
+    re.compile(r"^.+ matters only if it survives the strongest pressure against it\.?$", re.I),
+    re.compile(r"^Key terms in .+ become useful only when .+\.?$", re.I),
+    re.compile(r"^The strongest version of the page says .+\.?$", re.I),
+]
+
 GENERATED_GENERIC_PATTERNS = [
     re.compile(r"^The answer should clarify the central claim, show what gives it force, and identify the comparison, objection, or example that keeps the discussion honest\.$", re.I),
     re.compile(r"^This section works best when .+ is treated as a concrete intellectual problem rather than as a settled label\.$", re.I),
@@ -248,7 +262,185 @@ def normalize_heading(text: str, page_title: str, prompt: str) -> str:
     custom = CUSTOM_SECTION_HEADINGS.get((page_title, prompt))
     if custom:
         return custom
+    if heading_needs_rewrite(text, prompt):
+        return derive_heading_from_prompt(prompt, page_title)
     return text
+
+
+def heading_needs_rewrite(text: str, prompt: str) -> bool:
+    if any(pattern.search(text) for pattern in GENERIC_HEADING_PATTERNS):
+        return True
+    if text and text[0].islower():
+        return True
+    cleaned_prompt = " ".join(prompt.split()).strip().rstrip(".")
+    if cleaned_prompt:
+        prompt_base = cleaned_prompt.rstrip("?")
+        heading_base = text.strip().rstrip("?")
+        if heading_base == prompt_base and len(text) > 72:
+            return True
+        if prompt_base.startswith(heading_base) and len(prompt_base) - len(heading_base) >= 12:
+            return True
+    return False
+
+
+def trim_heading_length(text: str, limit: int = 96) -> str:
+    if len(text) <= limit:
+        return text
+    clipped = text[:limit].rsplit(" ", 1)[0].strip()
+    return clipped.rstrip(" ,;:") or text[:limit].strip()
+
+
+def sentence_case(text: str) -> str:
+    if not text:
+        return text
+    return text[0].upper() + text[1:]
+
+
+def derive_heading_from_prompt(prompt: str, page_title: str) -> str:
+    cleaned = " ".join(prompt.split()).strip().rstrip(".")
+    if not cleaned:
+        return page_title
+
+    prompt_lower = cleaned.lower()
+    exact_overrides = {
+        "would an insufficient food supply justify the killing of the shipwrecked 100 by the 300 natives under any political or ethical theory?": "When scarcity is invoked to justify killing",
+        "make the insufficient food supply an objective fact. is there any ethical culpability incurred by anyone who would not cull the population through killing, leading to the agonizing starvation of everyone?": "If everyone starves otherwise, what becomes culpable?",
+        "provide your own assessment of the plausibility of these arguments, then assess their potential weaknesses": "An assessment of the view's plausibility and weaknesses",
+        "write an essay on this scenario from the perspective of a compassionate moral non-realist": "A compassionate moral non-realist on survival and shared loss",
+        "do we have examples of cohesive societies in which there is no single moral system but in which there is a deeply cultivated respect and compassion for humanity?": "Pluralistic societies can sustain compassion without one moral system",
+        "japan is one country in which there is no strong religious foundation, but there is a strong notion of respect and community. comment on the social cohesion found in japan.": "Japan as a case of social cohesion without strong religious foundations",
+        "can it be coherently argued that the person treating others well in the absence of a moral system has a character superior to the moralist even by the moralist’s own standard?": "Can kindness without a moral system outrank moralism itself?",
+        "does the complexity of the trolley problem strongly suggest there is no objective moral standard readily accessible to humans and that “ moral intuitions ” are actually emotional dispositions?": "Do trolley problems expose moral intuition as emotional disposition?",
+        "can ai agents now or in the future contribute to meaningful insights into trolley problem “ solutions “? why or why not?": "Can AI clarify trolley-problem decisions?",
+        "can you produce an example of a computational ethics calculus related to the trolley problem?": "A computational ethics calculus for the trolley problem",
+        "discuss the following scenario based on major political and ethical theories.": "How major moral and political theories sort the same survival crisis",
+        "how would one argue that maintaining a diversity of competing species is morally right while maintaining only a few thriving species would be morally wrong? present the arguments in syllogistic form.": "The case for preserving biodiversity as a moral good",
+        "how might one argue that maintaining a diversity of competing species is immoral while maintaining only a few thriving species would be morally right? present the arguments in syllogistic form.": "The case against treating biodiversity as a moral good",
+        "is there an argument to be made that what humans deem moral arguments distill to merely emotional preferences once scrutinized?": "Do moral arguments collapse into emotional preference?",
+        "what are the best online sources of philosophical training for those new to philosophy?": "The best online starting points for learning philosophy",
+        "provide a 6-month schedule for well-rounded self-study training in philosophy": "A 6-month plan for well-rounded self-study in philosophy",
+        "why might some people become bored or frustrated with philosophy, and how might i keep my philosophy studies exciting?": "How to keep philosophy engaging when boredom sets in",
+        "describe the emotional disposition that is most healthy and productive when discussing philosophy with others": "The best emotional stance for discussing philosophy with others",
+        "i am asking specifically about the shape of the statistical curve of human egoism/altruism as determined by common markers such as crime rates and charity giving.": "What the data might show about egoism and altruism",
+        "what would be an optimal way to assess whether humans fall into polarized categories of “good” and “bad” or whether they generally tend to possess a balance of both egoism and altruism? what metrics and proxies might we use?": "How to measure whether people cluster as good, bad, or mixed",
+        "would the many anecdotes (and presumably statistics) of people making dramatic changes to their lives from bad to good and vice-versa speak to this in any way?": "Do dramatic moral reversals weaken fixed human-type theories?",
+        "for each of the 16 concepts above, create 3 scenarios depicting the concept in action.": "Existentialist concepts shown in lived scenarios",
+        "many of the concepts above appear diametrically opposed to the many more hopeful (if unsubstantiated) promises found in religion. comment on why existentialism remains popular nonetheless.": "Why existentialism still attracts readers despite its harder outlook",
+        "write an essay on the relevance of existentialism in today’s technology-laden world.": "The relevance of existentialism in a technology-laden world",
+        "what effects has the decrease in participation in regular religious meetings had on notions of god and spirituality?": "How declining religious attendance reshapes ideas of God",
+        "create a hypothetical debate between two experts on emergence who have contrasting opinions on the concept": "A debate between rival views of emergence",
+        "provide a list of the most respected names in the field of emergence.": "Major figures in emergence research",
+        "what are causes for the proliferation of the unsubstantiated notion that there is a psychic energy humans can access?": "Why the idea of psychic energy keeps spreading",
+        "it appears that the principle of sufficient reason is intrinsically susceptible to irreconcilable subjective assessments on what reasons are sufficient. or can an objective foundation be found?": "Can the Principle of Sufficient Reason escape subjective standards?",
+        "discuss the ontological implications of positing a realm in which psychic energy operates": "The ontological cost of positing a realm of psychic energy",
+        "what relationships exist among the different notions of impossibility?": "How the different kinds of impossibility relate to one another",
+        "how can different notions of impossibility become entangled and lead to confusion? give examples.": "How different kinds of impossibility get tangled together",
+        "what is emergence?": "What emergence claims and why people argue about it",
+        "list key domains in metaphysics and their defining questions.": "Key domains in metaphysics and the questions that define them",
+        "a timeline of the development of metaphysics. include both the relevant thinkers and the concepts introduced.": "A timeline of metaphysics through its major thinkers and concepts",
+        "create a hypothetical debate between two expert on emergence who have contrasting opinions on the concept": "A debate between rival views of emergence",
+        "do a deep dive into the primary arguments made in the transcript, augmented by other relevant sources. create syllogisms of the arguments if possible, clearly restate any analogies, and make any causal chains explicit": "The transcript's main arguments, clarified and tested",
+        "do a deep dive into the primary arguments made in the transcript, augmented by other relevant sources. create syllogisms of the arguments if possible, restate clearly any analogies, and make any causal chains explicit": "The transcript's main arguments, clarified and tested",
+        "introduce 2 instances in which this principle is invoked, and discuss the strengths and weaknesses of the arguments.": "Two uses of the Principle of Sufficient Reason under scrutiny",
+        "provide a list of key research questions relevant to resolving issues surrounding the principle of sufficient reason.": "Key research questions about the Principle of Sufficient Reason",
+        "provide a list of promising research projects in information theory.": "Promising directions in information theory research",
+        "provide the rigorous rationale behind giving the resurrection of jesus a “low to moderate” credence, but the flying dutchman a “very low” credence": "Why some fantastical historical claims outrank others in credibility",
+        "list and elaborate on the hypothetical missing elements that would make the flying dutchman as plausible as the resurrection of jesus.": "What would make the Flying Dutchman as plausible as the resurrection?",
+        "are there studies that suggest the control or suppression of emotions in early childhood results in 1) less access to intense emotions or 2) more control over intense emotions in adulthood?": "What childhood emotion-suppression studies actually suggest",
+        "there seems to be some disagreement among the ai contributors on the last question. try to resolve the apparent disputes.": "How to sort out the dispute over emotional suppression",
+        "how do japanese parents help their children regulate their emotions in a way that become beneficial in adulthood?": "How Japanese parenting trains emotional regulation",
+        "introduce some key concepts relevant to the core concerns of complexity theory.": "Core concepts that anchor complexity theory",
+        "what are the main domains of aesthetics?": "The main domains of aesthetics",
+        "let’s focus on how information theory is used in exploring social networks. write a short, informative essay on this.": "How information theory helps explain social networks",
+        "what are the benefits of charitable engagement with antagonistic individuals?": "Why charitable engagement helps with antagonistic people",
+        "many ideologies recruit through promises of cosmic significance. how can we stay grounded and content in the reality of our relative unimportance?": "How to stay grounded without fantasies of cosmic importance",
+        "while schooling is no guarantee one will find truth, there is a clear correlation between gaining knowledge and proximity to truth. please comment on this.": "Why schooling and truth-tracking correlate without guaranteeing truth",
+        "if one does not have access to a formal education, what foundation and balance of self-education will most likely lead to truth acquisition?": "What self-education best substitutes for formal schooling",
+        "is doubt intrinsically unstable and temporary, or is it instead a normal epistemic disposition taken in response to the current degree of the relevant evidence?": "Doubt as a normal response to incomplete evidence",
+        "how might the inner monologue of humans and ais be intrinsically and irreconcilably different, and why might this be a good thing or bad thing for the advancement of ai?": "How human and AI inner monologues may differ in kind",
+        "chatgpt suggests that humans “should” be in the driver’s seat when moral assessments are required. however, given the moral disagreements among humans, wouldn’t an impassive mind be better suited for the application of moral calculus?": "Should humans stay in charge of moral judgment?",
+        "to what degree are your instructions to provide comprehensive and balanced responses explicitly coded, and to what degree are more implicit, higher-abstraction filters used?": "How much of AI balance is explicit instruction versus higher-level filtering?",
+        "what are your general limits when discussing topics such as the tiananmen square protests or the armenian genocide?": "How AI limits appear in politically and historically sensitive topics",
+        "is there a legitimate analogy that could be made between the poorly understood mathematical dynamics that have led to unexpected power in artificial intelligence and similar mathematical dynamics that may undergird the efficiency of the human brain?": "Can AI double descent illuminate the efficiency of the brain?",
+        "to what degree do contradictory meanings contribute to the disuse of a word such as we see with the word sanction?": "How contradictory meanings can push a word toward disuse",
+        "when a generational divide develops within a culture, is there a noticeable introduction of replacement terms by the younger generation?": "How generational turnover replaces aging words",
+        "which areas of the brain are causally responsible for the various aspects of language acquisition, comprehension, and production?": "Which brain systems support language acquisition, comprehension, and speech",
+        "to what degree is scaffolding central to all forms of human learning? give examples.": "How central scaffolding is to human learning",
+        "how can scientists and educators encourage a reduction in the linguistic complexity behind simple realities?": "How to reduce needless complexity in scientific language",
+        "list the advantages of a charitable disposition when engaging antagonistic individuals.": "How charity strengthens difficult relationships",
+        "what are the best evidences for this correlation between education level and proximity to truth?": "Why education and truth-tracking still correlate imperfectly",
+        "what are the best evidences for the correlation between education and proximity to truth?": "What best supports the education and truth-tracking link",
+        "respond to gemini’s response shown below, addressing the issues raise": "A direct reply to the strongest egoist pushback",
+        "create an essay on the risks of banning ai feedback that includes the works of these philosophers": "The risks of banning AI engagement with named philosophers",
+        "assess the content on language and thought for factual accuracy, logical coherence, and testability.": "How strong is the case that language and thought are deeply linked?",
+        "list and describe new areas of interest in the philosophy of mind.": "New areas of interest in philosophy of mind",
+        "list and provide explanations of key concepts in the philosophy of mind.": "Key concepts in philosophy of mind, clearly explained",
+        "a timeline of the philosophy of mind. include both the relevant thinkers and the concepts introduced.": "A timeline of philosophy of mind through its major thinkers and concepts",
+        "what are ways to identify hidden confounding factors that may jeopardize a study?": "How to identify hidden confounding factors",
+        "what are confounding variables in the context of a scientific experiment? (the terms “confounding variables” and “confounding factors” are essentially synonymous.)": "What confounding variables are and why they distort experiments",
+        "elaborate on the way these categories build up from hard sciences to soft sciences.": "How the sciences scale from hard to soft",
+        "comment on the degrees of freedom in each category that changes the degree of complexity and move away from quantitative certainty to more statistical modeling.": "Degrees of freedom and why softer sciences rely more on statistics",
+        "introduce 12 essential terms scientists employ related to the notions of multi-variable, degrees of freedom, and boundedness. provide clear definitions and examples.": "Twelve core terms for multivariable science, degrees of freedom, and boundedness",
+        "elaborate on the history of the reproducibility crisis, and provide an extensive explanation of its causes and effects.": "The reproducibility crisis: history, causes, and effects",
+        "why is anti-intellectualism dangerous?": "Why anti-intellectualism damages truth-seeking cultures",
+        "what risks arise when people treat doubt as a defect rather than a normal response to evidence?": "What goes wrong when doubt is treated as a flaw",
+        "what are the main risks of removing impossible explanations too early?": "Why removing the impossible too early can mislead inquiry",
+        "comment on the degrees of freedom in each category that changes the degree of complexity and move away from quantitative certainty to more statistical modeling.": "Why more degrees of freedom push science toward statistics",
+        "elaborate on the history of the reproducibility crisis, and provide an extensive explanation of its causes and effects.": "The reproducibility crisis: how it grew and why it matters",
+        "elaborate on the history of poor access to scientific research, and provide an extensive explanation of its causes and effects.": "Poor access to research: history, causes, and effects",
+        "explain how the ability of an agent to interact with a perceived object would strengthen the ontological status of the object in the agent’s mind beyond what mere observation would.": "Why interaction can strengthen an object's felt reality",
+        "explain how the ability of an agent to interact with a perceived object would strengthen the ontological status of the object in the agent’s mind beyond what mere observation would.": "Why interaction makes an object feel more real than observation alone",
+        "provide two pedagogical narratives. the first will explain how an actual experiment would overturn the false intuition that heavier objects fall faster than light objects. the second will explain how a deductive analysis would overturn the false intuition.": "Two narratives that overturn a false intuition",
+    }
+    normalized_exact_overrides = {key.rstrip("?."): value for key, value in exact_overrides.items()}
+    prompt_key = prompt_lower.rstrip("?.")
+    if prompt_key in normalized_exact_overrides:
+        return normalized_exact_overrides[prompt_key]
+
+    if re.match(r"^(what|why|how|can|could|should|would|is|are|does|do|will|to what degree)\b", prompt_lower):
+        return trim_heading_length(sentence_case(cleaned) + "?") if not cleaned.endswith("?") else trim_heading_length(sentence_case(cleaned))
+    if re.match(r"^(list|introduce)\b", prompt_lower):
+        rewritten = re.sub(r"^(list|introduce)\s+", "", cleaned, flags=re.I).rstrip(".")
+        return trim_heading_length(sentence_case(rewritten))
+    if prompt_lower.startswith("assess "):
+        rewritten = re.sub(r"^assess\s+", "", cleaned, flags=re.I).rstrip(".")
+        return trim_heading_length(sentence_case(rewritten))
+    if prompt_lower.startswith("create a hypothetical debate"):
+        rewritten = re.sub(r"^create\s+", "", cleaned, flags=re.I).rstrip(".")
+        return trim_heading_length(sentence_case(rewritten))
+
+    substitutions = [
+        (r"^provide (?:an|a|the)\s+", ""),
+        (r"^provide\s+", ""),
+        (r"^create (?:an|a|the)\s+", ""),
+        (r"^create\s+", ""),
+        (r"^write an essay on\s+", ""),
+        (r"^write\s+", ""),
+        (r"^discuss\s+", ""),
+        (r"^comment on and give examples of\s+", ""),
+        (r"^comment on\s+", ""),
+        (r"^explain how\s+", ""),
+        (r"^expand on\s+", ""),
+        (r"^elaborate on\s+", ""),
+        (r"^introduce\s+", ""),
+        (r"^present\s+", ""),
+        (r"^make\s+", ""),
+        (r"^respond to\s+", "A response to "),
+        (r"^let’s focus on\s+", ""),
+        (r"^let's focus on\s+", ""),
+    ]
+    rewritten = cleaned
+    for pattern, replacement in substitutions:
+        newer = re.sub(pattern, replacement, rewritten, flags=re.I)
+        if newer != rewritten:
+            rewritten = newer
+            break
+
+    rewritten = rewritten.strip().rstrip(".")
+    if rewritten:
+        rewritten = sentence_case(rewritten)
+
+    return trim_heading_length(rewritten or page_title)
 
 
 def is_placeholder_paragraph(text: str) -> bool:
