@@ -1286,6 +1286,7 @@ def should_remove_paragraph(text: str) -> bool:
     if "Gemini failed" in cleaned or "GEMINI:" in cleaned:
         return True
     if cleaned.startswith((
+        "A stronger reader should be able to carry ",
         "The prompt matters because it changes what the reader should investigate next about ",
         "The prompt is valuable only if it makes ",
         "This section should orient the reader to the structure of ",
@@ -1318,6 +1319,8 @@ def should_remove_paragraph(text: str) -> bool:
     if cleaned.startswith("The deeper issue in "):
         return True
     if cleaned.startswith("The payoff is "):
+        return True
+    if cleaned.startswith("The section should leave behind a practical contrast, question, or warning sign that still works outside this one discussion."):
         return True
     if cleaned.startswith("A strong example does more than decorate "):
         return True
