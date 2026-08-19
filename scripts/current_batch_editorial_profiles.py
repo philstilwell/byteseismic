@@ -957,4 +957,579 @@ CURRENT_BATCH_SPECIAL_PAGE_PROFILES = {
             ],
         },
     },
+    "What is Economics?": {
+        "sections": {
+            "prompt-1": {
+                "heading": "Economics studies choice under scarcity, but it also studies coordination, incentives, and unintended effects",
+                "paragraphs": [
+                    "Economics begins with scarcity because human wants outrun the time, labor, capital, land, and information available to satisfy them. But scarcity is only the doorway. The discipline becomes interesting when it asks how millions of people, each with partial knowledge and private aims, still manage to coordinate production, exchange, pricing, investment, and consumption.",
+                    "That is why economics is not just about money. It is about tradeoffs, incentives, institutions, and feedback loops. A price is not merely a number on a label; it is compressed information about relative demand, relative scarcity, and the opportunity cost of using resources one way rather than another.",
+                    "Microeconomics studies the choices of households, firms, workers, lenders, and consumers. Macroeconomics zooms out to inflation, unemployment, growth, recessions, public debt, and monetary conditions. The same society needs both scales because a policy can look sensible in one household or one firm while still producing large-scale side effects once repeated across an entire economy.",
+                    "A good introductory page should therefore leave the reader with a practical habit: whenever an economic claim sounds obvious, ask what is scarce, who faces which incentive, what tradeoff is being hidden, and what secondary effects might appear after people adapt."
+                ],
+                "items": [
+                    "Core question: how do finite resources get allocated among competing ends?",
+                    "Micro level: households and firms choose under prices, incentives, and constraints.",
+                    "Macro level: whole economies face inflation, unemployment, growth, and instability.",
+                    "Reader takeaway: look for tradeoffs and adaptation, not just first-order intentions."
+                ],
+            },
+            "prompt-2": {
+                "heading": "Today's dominant schools shape debate unevenly rather than ruling alone",
+                "paragraphs": [
+                    "No single school of economic thought simply governs modern economics. What dominates instead is an uneasy mixture. Mainstream policy institutions usually rely on neoclassical tools for incentives and pricing, Keynesian tools for recessions and aggregate demand, and newer empirical approaches that borrow selectively from behavioral economics, public choice, institutional economics, and development economics.",
+                    "That mixed dominance matters because schools differ less by tribal label than by what they foreground. Neoclassical work often highlights equilibrium, incentives, and efficiency. Keynesian work highlights demand shortfalls, sticky prices, and recession management. Behavioral economics highlights bounded rationality, bias, framing, and the limits of idealized agents.",
+                    "Austrian, Marxian, post-Keynesian, and other heterodox schools still matter, especially as critics. They often keep attention on entrepreneurship, class structure, financial fragility, knowledge problems, or institutional path dependence. Their influence may be narrower inside mainstream departments, but their questions can still expose blind spots in consensus models.",
+                    "So the most honest answer is pluralist. Modern economics is not one clean doctrine. It is a contested toolkit whose balance shifts with the problem being studied and with the failures each crisis exposes."
+                ],
+                "items": [
+                    "Mainstream mix: neoclassical, Keynesian, and evidence-heavy empirical economics dominate most institutions.",
+                    "Behavioral correction: real people often deviate from idealized rational-agent models.",
+                    "Heterodox value: outsider schools often preserve neglected pressures or failure modes.",
+                    "Best habit: ask which school's assumptions are carrying the present argument."
+                ],
+            },
+            "prompt-3": {
+                "heading": "A timeline of economic thought is really a timeline of changing pressure points",
+                "paragraphs": [
+                    "Mercantilist thinking in early modern Europe treated national wealth as tied closely to state power, trade surpluses, and bullion. Classical economists such as Smith and Ricardo then shifted attention toward markets, specialization, productivity, and the gains from trade, challenging the idea that national prosperity depends mainly on hoarding.",
+                    "The marginal revolution in the late nineteenth century reoriented value theory toward marginal utility and subjective valuation. Marxist analysis, developing in parallel, kept attention on labor, class conflict, crisis, and the structural tensions of capitalism rather than on equilibrium alone.",
+                    "The twentieth century added sharp new turns. Keynesian economics emerged from the pressure of depression and mass unemployment, arguing that aggregate demand failure can trap economies below full employment. Later monetarist and new classical reactions emphasized inflation control, expectations, and the limits of discretionary policy.",
+                    "Recent decades broadened the field further through game theory, information economics, behavioral economics, institutional analysis, development work, and randomized empirical methods. The timeline matters because each turn answered a visible failure in the previous frame."
+                ],
+                "items": [
+                    "Classical turn: production, trade, and specialization replace mercantilist hoarding.",
+                    "Marginalist turn: value becomes tied to subjective utility and marginal choice.",
+                    "Keynesian turn: depression reveals that whole economies can stall even when individuals behave sensibly.",
+                    "Recent turn: information, institutions, psychology, and causal testing reshape the field."
+                ],
+            },
+            "prompt-4": {
+                "heading": "Countries rarely embody one pure philosophy, but their policy mix still reveals priorities",
+                "paragraphs": [
+                    "It is misleading to sort countries into single philosophical boxes, because real economies are hybrids. The United States mixes markets, regulation, public insurance, and central banking. The Nordic countries mix robust markets with unusually large welfare states and labor protections. Singapore mixes heavy state coordination with strong market incentives in trade and investment.",
+                    "China is another useful case because it resists easy categories. It combines private enterprise, export orientation, industrial policy, and powerful state direction. Calling it simply capitalist or socialist misses the institutional blend that actually drives outcomes.",
+                    "The better use of comparison tables is not ideological labeling but institutional diagnosis. Readers should ask which sectors are market-driven, where the state coordinates, what the tax-and-transfer system does, how labor markets are structured, and how property rights and competition are handled.",
+                    "That shift makes the page more educational. Instead of pretending nations faithfully enact textbook systems, it shows how economic philosophies survive as recurring emphases inside mixed arrangements."
+                ],
+                "items": [
+                    "Mixed systems are the rule, not the exception.",
+                    "Comparison works best when it tracks institutions rather than slogans.",
+                    "China, the Nordics, and the US each show different blends of market and state.",
+                    "Reader test: ask what combination is actually operating in production, welfare, labor, and finance."
+                ],
+            },
+            "prompt-5": {
+                "heading": "Economic systems are tested by outcomes, incentives, resilience, and side effects together",
+                "paragraphs": [
+                    "Economists do not test an economic system the way a chemist tests one isolated substance. Whole systems are entangled with history, culture, geography, institutions, demographics, and external shocks. That is why serious comparison relies on converging evidence: natural experiments, cross-country comparisons, historical episodes, sector studies, and careful statistical controls.",
+                    "The strongest evaluations look beyond headline growth. A system can raise output while hiding corruption, fragility, environmental damage, stagnant mobility, or severe inequality. Another system can look fairer in one dimension while producing weak innovation or chronic fiscal strain in another. Testing has to follow multiple margins at once.",
+                    "That makes economics uncomfortable but useful. It forces readers away from miracle stories. A defensible assessment asks which outcome matters, over what time horizon, for which population, under which institutional safeguards, and with what tradeoffs.",
+                    "The page should therefore cultivate comparative sobriety. Economic systems are judged not by one grand metric but by a pattern of strengths, failures, incentives, and long-run sustainability."
+                ],
+                "items": [
+                    "Use many kinds of evidence, because whole systems are hard to isolate cleanly.",
+                    "Track multiple outcomes: growth, poverty, innovation, stability, mobility, and fiscal health.",
+                    "Time horizon matters: short-run gains can hide long-run fragility.",
+                    "Best discipline: ask which tradeoff the preferred system is quietly asking you to accept."
+                ],
+            },
+        },
+    },
+    "Schools of Economic Thought": {
+        "sections": {
+            "prompt-1": {
+                "heading": "Economic schools differ most in what they treat as the main engine of social order or breakdown",
+                "paragraphs": [
+                    "Classical and neoclassical traditions tend to foreground markets, prices, and incentives. They ask how decentralized exchange coordinates behavior and how distortions appear when incentives are badly designed. Keynesian approaches foreground demand management, recession dynamics, and the possibility that economies can remain stuck below their productive capacity.",
+                    "Marxian thought foregrounds class relations, exploitation, capital accumulation, and systemic crisis. Austrian thought highlights dispersed knowledge, entrepreneurial discovery, and the danger of central planners pretending to know more than they do. Behavioral economics pushes back against the image of the fully rational chooser, emphasizing framing, bias, and bounded attention.",
+                    "These are not just academic flavors. Each school trains readers to notice a different kind of failure. One sees distorted incentives first. Another sees weak demand. Another sees concentration of power. Another sees epistemic limits in planning. Another sees psychological departures from ideal models.",
+                    "So the real educational value of the page is comparative vision. The schools matter because each tells you where to look for the hidden pressure."
+                ],
+                "items": [
+                    "Markets and incentives dominate some schools; demand failure and instability dominate others.",
+                    "Knowledge limits, class conflict, and bias each anchor distinct traditions.",
+                    "Schools disagree partly because they rank problems differently.",
+                    "Reader lesson: ask what failure mode each school makes easiest to see."
+                ],
+            },
+            "prompt-2": {
+                "heading": "No school has been tested in pure form, so history mostly tests blends and policy tendencies",
+                "paragraphs": [
+                    "Actual economies rarely instantiate one school cleanly. That means history mostly tests policy packages influenced by schools rather than schools in laboratory purity. Keynesian demand management has been tested repeatedly in recessions. Market-oriented liberalization has been tested across trade, privatization, and deregulation episodes. Social democratic arrangements have been tested in welfare-heavy mixed economies.",
+                    "The results are correspondingly mixed. Market liberalization often improves flexibility and allocative efficiency, but it can also widen inequality or expose financial fragility if institutions are weak. Keynesian stimulus can help arrest collapses in demand, yet poorly timed or poorly targeted intervention can create inflationary or fiscal trouble later.",
+                    "That is why strong conclusions should stay modest. History is useful not because it yields one victorious school, but because it reveals where each school works best, what assumptions it needs, and which pathologies it tends to underrate."
+                ],
+                "items": [
+                    "Historical testing usually concerns policy influence, not pure doctrine.",
+                    "Markets often improve flexibility but do not automatically secure fairness or stability.",
+                    "Intervention can reduce collapse risk without guaranteeing efficient long-run structure.",
+                    "Best takeaway: ask what institutional conditions each approach quietly presupposes."
+                ],
+            },
+            "prompt-3": {
+                "heading": "Income per capita is informative, but it cannot bear the whole judgment about a system",
+                "paragraphs": [
+                    "Using income per capita as a metric does reveal something important: some mixed-market systems have generated extraordinary wealth compared with command economies and persistently closed systems. That matters because output supports nutrition, medicine, infrastructure, and technological capacity.",
+                    "But income per capita can also flatter a system by hiding distribution, affordability, life expectancy, debt dependence, or environmental costs. A society can be rich on average while exposing large parts of the population to insecurity or weak mobility. Another can be somewhat less rich while delivering broader health, literacy, and social protection.",
+                    "The right use of the metric is therefore limited but real. Income per capita is a powerful first screen for productive capacity, not a final verdict on justice or human flourishing."
+                ],
+                "items": [
+                    "Strong output matters because prosperity expands real options.",
+                    "Average income can hide inequality, insecurity, and hidden costs.",
+                    "The metric is useful as a first pass, not as a moral summary.",
+                    "Reader discipline: pair wealth metrics with distribution and resilience measures."
+                ],
+            },
+            "prompt-4": {
+                "heading": "Economic systems clearly fail when they suppress feedback, choke production, or reward extraction over value creation",
+                "paragraphs": [
+                    "Rigid command systems have repeatedly failed when planners lacked accurate information, prices ceased to transmit scarcity, and political fear blocked correction. Shortages, quality collapse, and black markets are not accidental side effects in those cases; they are signals that feedback was crippled.",
+                    "But failure is not unique to central planning. Crony capitalism fails when political connections matter more than competition, when gains are privatized while losses are socialized, and when legal institutions protect insiders from discipline. Hyperinflationary regimes fail when fiscal and monetary disorder destroy the unit of account itself.",
+                    "The lesson is broader than ideology. Systems fail when they hide error, dull incentives for production, or let power insulate bad decisions from correction for too long."
+                ],
+                "items": [
+                    "Command failure often follows broken information and broken feedback.",
+                    "Crony failure follows protected insiders and distorted competition.",
+                    "Inflationary collapse shows what happens when money stops coordinating expectations.",
+                    "Core pattern: failure grows when bad decisions stop being correctable."
+                ],
+            },
+            "prompt-5": {
+                "heading": "A comparison table is useful only if it names both the promise and the recurring weakness of each system",
+                "paragraphs": [
+                    "Tables of economic systems often become propaganda if they list only ideals. A useful table should name what each system is trying to optimize, which coordinating mechanism it trusts most, what kind of human behavior it assumes, and where its real-world implementations most often strain.",
+                    "For example, market-heavy systems excel at dispersed adaptation and innovation but can generate inequality and cyclical instability. Welfare-heavy mixed systems often improve security and social cohesion but may face high tax burdens and slower adjustment in some sectors. Command-heavy systems can mobilize resources quickly in narrow domains but tend to suffer badly from information and incentive problems.",
+                    "That kind of table respects complexity without drowning the reader. It keeps the systems comparable while refusing to confuse aspirational definitions with historical performance."
+                ],
+                "items": [
+                    "Name the coordinating mechanism each system relies on.",
+                    "Include one recurring strength and one recurring weakness for each model.",
+                    "Distinguish textbook ideals from historical implementations.",
+                    "Reader lesson: comparison becomes honest when tradeoffs are visible side by side."
+                ],
+            },
+        },
+    },
+    "Wealth Creation": {
+        "sections": {
+            "prompt-1": {
+                "heading": "Wealth creation is easier to see when value, productivity, and coordination are separated",
+                "paragraphs": [
+                    "One helpful analogy is a village well. Digging the first shallow hole gives some water, but a well-lined, properly placed, and collectively maintained well gives more reliable water for everyone. Wealth creation often works like that: it is not just producing something once, but building arrangements that let useful output become more reliable, scalable, and shareable over time.",
+                    "A second analogy is toolmaking. A person with bare hands can gather food, but a person with nets, baskets, knives, and storage can do more with the same effort. Wealth grows when knowledge, capital, trust, and organization multiply what labor can accomplish.",
+                    "A third analogy is a well-run kitchen. Ingredients alone are not wealth in the full economic sense. Wealth emerges when timing, skill, equipment, recipes, and coordination turn raw inputs into meals people actually want. That is why value creation depends on both production and fit with human demand."
+                ],
+                "items": [
+                    "Well analogy: durable systems matter more than one-off output.",
+                    "Tool analogy: capital and know-how amplify labor.",
+                    "Kitchen analogy: value requires coordination and actual demand, not just raw ingredients.",
+                    "Reader habit: ask what raises productivity, reliability, and usefulness together."
+                ],
+            },
+            "prompt-2": {
+                "heading": "A simple story makes wealth creation concrete when it follows compounding improvements",
+                "paragraphs": [
+                    "Imagine two neighboring towns with equally hardworking bakers. In the first town the baker sells bread day by day and spends almost everything replacing today's flour. In the second town the baker experiments: better ovens, sturdier shelves, cleaner storage, bookkeeping, apprentices, and a delivery route that reduces waste. Neither baker works less seriously, but one is turning effort into a compounding system.",
+                    "Over time the second bakery can sell more bread at lower cost, survive shocks better, train others, and free labor for new tasks. A miller, a cart-maker, and a café soon benefit from that same improvement. Wealth creation here is not a moral halo around business. It is the gradual conversion of effort into tools, trust, and organizational capacity that widen future options.",
+                    "The story matters because it corrects a common confusion. Wealth is not mainly a pile of money sitting still. It is the expanded ability of a society to produce valuable goods and services with greater reliability and less waste than before."
+                ],
+                "items": [
+                    "Compounding matters more than one day's revenue.",
+                    "Tools, habits, and coordination turn output into a durable advantage.",
+                    "Local spillovers show how one gain can widen opportunity for others.",
+                    "Best takeaway: money often tracks wealth creation, but productive capacity is the deeper story."
+                ],
+            },
+            "prompt-3": {
+                "heading": "Wealth creation needs productive conditions, but not every condition is sufficient by itself",
+                "paragraphs": [
+                    "Useful wealth creation usually requires secure enough property or usage rights, enough trust to support exchange, enough knowledge to improve production, and enough institutional stability that long-term investments are not constantly destroyed. Without these, effort stays short-term and defensive.",
+                    "It also requires genuine value creation rather than mere extraction. A business that profits by manipulating rules, exploiting political privilege, or passing costs invisibly to others can enrich insiders without adding much real wealth. That distinction matters because not all profit is evidence of productive contribution.",
+                    "No single condition is sufficient on its own. Capital without trust can flee. Innovation without institutions can be copied by force or smothered by corruption. Labor without tools can remain trapped in low productivity. The page should leave the reader seeing wealth creation as an ecosystem rather than a single heroic act."
+                ],
+                "items": [
+                    "Needed inputs: trust, knowledge, stable institutions, and investable surplus.",
+                    "Productive profit and extractive gain should not be confused.",
+                    "Conditions work together; none guarantees success in isolation.",
+                    "Reader lesson: ask what allows effort to compound instead of merely survive."
+                ],
+            },
+        },
+    },
+    "Taxation": {
+        "sections": {
+            "prompt-1": {
+                "heading": "Taxation is essential whenever a state must supply goods the market will undersupply on its own",
+                "paragraphs": [
+                    "A functioning state needs revenue because courts, public health systems, roads, policing, defense, basic administration, and many forms of infrastructure do not arise reliably through voluntary payment alone. Taxation is the recurring mechanism by which a society turns shared dependence into a stable budget.",
+                    "The deeper point is not merely that governments like money. It is that collective goods have free-rider problems. Many people benefit even if they contribute nothing, which means a purely voluntary funding model often collapses once the service is large, continuous, and non-excludable.",
+                    "That does not prove every tax level or every use of revenue is justified. It only shows why some tax base is practically necessary in any state doing more than guarding a flag."
+                ],
+                "items": [
+                    "Public goods explain why voluntary funding often fails at scale.",
+                    "Taxation converts diffuse dependence into reliable revenue.",
+                    "Necessity of taxation does not settle the right level or structure.",
+                    "Reader lesson: separate the need for revenue from the debate over policy design."
+                ],
+            },
+            "prompt-2": {
+                "heading": "Taxation succeeds when revenue funds capabilities that raise social coordination or productive capacity",
+                "paragraphs": [
+                    "A clear tax success is broad-based revenue used to build infrastructure that private actors then use more productively: roads, ports, sanitation, electrification, and communications. Those gains do not show up as moral symbolism. They show up as reduced transaction cost and expanded capacity.",
+                    "Another success pattern is public health and education. Vaccination systems, clean water, basic schooling, and disease control have repeatedly generated returns far larger than their cost by preserving labor, reducing preventable harm, and widening competence.",
+                    "A third success pattern is predictable legal order. Tax-funded courts, records, and contract enforcement are less glamorous than bridges, but without them exchange becomes riskier and investment more defensive."
+                ],
+                "items": [
+                    "Infrastructure spending can lower cost across the whole economy.",
+                    "Public health and education often create large long-run returns.",
+                    "Legal order is an economic asset even when it is less visible than construction.",
+                    "Best question: did taxation buy a capacity the society could not otherwise maintain reliably?"
+                ],
+            },
+            "prompt-3": {
+                "heading": "Taxation fails when extraction outruns legitimacy, competence, or productive tolerance",
+                "paragraphs": [
+                    "Clear tax failure appears when states extract heavily while delivering little public value. In those settings taxation becomes closer to predation than to coordination. People evade, capital flees, corruption spreads, and the tax base itself erodes.",
+                    "Failure also appears when taxes become so opaque or distorted that they reward lobbying, gaming, and avoidance more than production. Complexity can become its own rent-seeking industry, shifting effort away from useful work toward political maneuvering and compliance theater.",
+                    "A further failure mode is political fragility. Even a technically defensible tax can fail if citizens see it as arbitrary, unfairly targeted, or disconnected from visible benefits. Legitimacy is not decoration; it affects compliance and durability."
+                ],
+                "items": [
+                    "Extraction without visible return undermines compliance.",
+                    "Distorted systems redirect effort into avoidance and rent-seeking.",
+                    "Legitimacy matters because people compare burden with benefit and fairness.",
+                    "Reader habit: ask whether the tax system is financing capacity or financing distrust."
+                ],
+            },
+            "prompt-4": {
+                "heading": "The tax sweet spot is found by watching behavior, not by pretending one rate fits all contexts",
+                "paragraphs": [
+                    "Policy-makers usually search for a workable range rather than a perfect number. Rates that are too low can starve essential functions. Rates that are too high, badly targeted, or badly designed can discourage investment, shift activity underground, or push talent and capital elsewhere.",
+                    "That is why the real assessment is behavioral. How sensitive are workers, consumers, firms, and investors to the tax in question? How easy is avoidance? Does the tax fall on immobile resources, on narrow margins of entrepreneurial risk, or on broad consumption? Different bases respond differently.",
+                    "A serious page should also mention administrative capacity. A theoretically elegant tax can still fail if it is impossible to measure, easy to evade, or too expensive to enforce."
+                ],
+                "items": [
+                    "Sweet-spot thinking is about ranges and responses, not one magic rate.",
+                    "Different tax bases trigger different behavioral adjustments.",
+                    "Administrative simplicity and enforceability matter as much as rate design.",
+                    "Best question: what behavior will this tax encourage, suppress, or reroute?"
+                ],
+            },
+            "prompt-5": {
+                "heading": "Tax competition forces states to choose between attraction, retention, and credibility",
+                "paragraphs": [
+                    "Low-tax jurisdictions often attract capital, headquarters, or high earners by offering lower rates, narrower regulation, or targeted incentives. The attraction is straightforward: if mobile firms and individuals can keep more of each marginal gain, some will relocate.",
+                    "Higher-tax jurisdictions retain activity in different ways. They may offer legal stability, infrastructure, educated labor, deep capital markets, strong universities, or quality-of-life advantages that partly offset tax burden. In other words, retention often depends on making the total package worth the higher price.",
+                    "The danger on both sides is simplification. Low taxes can attract paper profits without building much local value. High taxes can become self-defeating if the public goods they fund stop justifying the burden. The honest comparison asks what each place is really selling."
+                ],
+                "items": [
+                    "Attraction strategies usually lower fiscal burden or increase regulatory flexibility.",
+                    "Retention strategies usually rely on public goods, stability, and talent ecosystems.",
+                    "Headline rates can mislead if they hide weak substance or weak delivery.",
+                    "Reader lesson: compare the full package, not just the tax number."
+                ],
+            },
+        },
+    },
+    "What Are Moral Hazards?": {
+        "sections": {
+            "prompt-2": {
+                "heading": "The term widened when economists stopped treating bad faith as the only relevant mechanism",
+                "paragraphs": [
+                    "Early uses of 'moral hazard' often leaned more heavily on the suspicion that protection can tempt people into carelessness or opportunism. Over time the term broadened because economists realized the central issue was not always moral badness. The deeper pattern was changed behavior under altered risk exposure.",
+                    "Once that shift is clear, many examples make better sense. An insured driver may not become wicked, but may become less careful at the margin. A bank expecting rescue may take risks its managers would otherwise avoid. A borrower shielded from full downside may act differently even without explicit deceit.",
+                    "The history matters because the broader usage is more analytically useful. It tracks incentives and information, not just vice."
+                ],
+                "items": [
+                    "Original flavor: protection seemed to invite irresponsibility or bad faith.",
+                    "Broader meaning: altered incentives can change behavior without requiring moral corruption.",
+                    "Modern value: the term helps explain risk transfer and behavioral response.",
+                    "Reader lesson: focus on incentive structure before judging character."
+                ],
+            },
+            "prompt-3": {
+                "heading": "Moral hazard and perverse incentives overlap because both describe reward structures that invite the wrong behavior",
+                "paragraphs": [
+                    "A moral hazard is one important species of perverse incentive. In both cases the reward structure nudges people toward behavior that imposes hidden costs on others or undermines the stated goal of the system. The difference is that moral hazard specifically involves some shield from the full consequences of risk-taking.",
+                    "Insurance, bailouts, and agency relationships often make the pattern easy to see. If an actor keeps much of the upside while someone else absorbs much of the downside, risk appetites can drift upward. That is not a guaranteed outcome, but it is a predictable pressure.",
+                    "The conceptual link matters because it prevents the term from floating free. Moral hazard is not just a dramatic phrase. It identifies a recurring incentive problem inside broader systems of misaligned reward."
+                ],
+                "items": [
+                    "Shared structure: the system rewards behavior that is misaligned with its own stated purpose.",
+                    "Distinctive feature: moral hazard includes protection from some downside consequences.",
+                    "Common sites: insurance, finance, contracting, and delegated decision-making.",
+                    "Best question: who gains the upside and who quietly carries the downside?"
+                ],
+            },
+            "prompt-5": {
+                "heading": "Policy works best when it preserves protection while restoring discipline",
+                "paragraphs": [
+                    "Eliminating every moral hazard entirely is usually impossible because many institutions exist precisely to insure, stabilize, or protect. The real policy task is to reduce the worst distortions without destroying the safety function people need.",
+                    "That often means deductibles, copays, co-insurance, capital requirements, clawbacks, stricter disclosure, better monitoring, and rules that force decision-makers to keep some skin in the game. The point is to reconnect choices with consequences at the margin.",
+                    "A mature page should resist the fantasy of total cure. Good institutions accept that protection creates tension, then design around it instead of pretending the tension is absent."
+                ],
+                "items": [
+                    "Keep the insurance or stabilizing function where it is genuinely valuable.",
+                    "Reintroduce consequence-sharing so actors cannot dump all downside elsewhere.",
+                    "Use monitoring and transparency where hidden behavior is the main problem.",
+                    "Reader lesson: the goal is disciplined protection, not protection-free purity."
+                ],
+            },
+        },
+    },
+    "Economic Stability": {
+        "sections": {
+            "prompt-1": {
+                "heading": "A stable economy is one where coordination can continue without chronic fear of breakdown",
+                "paragraphs": [
+                    "Most economists do not mean perfection when they talk about stability. They mean an economy in which households, firms, lenders, and governments can plan with reasonable confidence because inflation is not spiraling, contracts are credible, financial institutions are not constantly near collapse, and ordinary production can continue without repeated shock.",
+                    "The minimal conditions are therefore practical: a usable currency, enough rule-of-law to make agreements meaningful, enough political and regulatory predictability for investment to look worthwhile, and enough financial resilience that one failure does not instantly trigger a chain reaction.",
+                    "Stability does not mean zero change. It means change happens inside a framework that remains legible and correctable."
+                ],
+                "items": [
+                    "Usable money, credible contracts, and basic financial resilience are core conditions.",
+                    "Stability supports planning because actors can estimate risk instead of drowning in noise.",
+                    "An economy can still be dynamic while remaining stable.",
+                    "Reader lesson: stability is about dependable coordination, not frozen conditions."
+                ],
+            },
+            "prompt-2": {
+                "heading": "Predictability matters because investment is mostly a wager on future conditions",
+                "paragraphs": [
+                    "Entrepreneurs and investors commit resources now for returns that arrive later. They must estimate taxes, regulation, borrowing cost, consumer demand, labor availability, and legal treatment months or years ahead. When those conditions become wildly unstable, many productive projects stop looking calculable enough to attempt.",
+                    "That does not mean every profitable venture requires calm. It means the baseline framework has to be legible enough that risk reflects the project more than policy chaos or institutional unreliability. Otherwise investment shifts toward very short horizons, defensive hoarding, or speculative escape rather than productive expansion.",
+                    "Predictability therefore acts like an invisible public good. It does not guarantee wise entrepreneurship, but it makes long-run planning more rational."
+                ],
+                "items": [
+                    "Investment looks forward, so institutional legibility matters.",
+                    "High unpredictability pushes activity toward short-termism and defensive behavior.",
+                    "Productive risk and chaotic uncertainty are not the same thing.",
+                    "Best takeaway: stable rules lengthen planning horizons."
+                ],
+            },
+            "prompt-5": {
+                "heading": "Corruption is destabilizing because it makes the real rules hidden, selective, and for sale",
+                "paragraphs": [
+                    "Corruption undermines economic stability by replacing public rules with private toll gates. Firms can no longer predict outcomes from law alone because permission, enforcement, or procurement may depend on informal payments, connections, or political favoritism.",
+                    "That hidden layer creates several kinds of instability at once. Costs become harder to forecast, contracts become less credible, honest competitors are punished, and investment choices start following political access rather than productive value. Even when corruption does not immediately crash growth, it degrades the quality of coordination.",
+                    "The educational point is sharp: unpredictability is not only about random markets or natural shocks. It can be built directly into the institutional environment by selective enforcement and hidden rents."
+                ],
+                "items": [
+                    "Corruption makes rules opaque and unevenly applied.",
+                    "It redirects effort from production to access-seeking and protection-seeking.",
+                    "Forecasting becomes harder because legal outcomes are no longer enough.",
+                    "Reader lesson: corruption is economic instability disguised as informal order."
+                ],
+            },
+        },
+    },
+    "Minimum Wage": {
+        "sections": {
+            "prompt-1": {
+                "heading": "Minimum wages can protect workers, but they also change how low-skill labor is priced and used",
+                "paragraphs": [
+                    "The strongest case for minimum wage laws is straightforward: labor markets are not always meetings between equal bargainers. Workers may have weak fallback options, limited information, urgent needs, or local monopsony conditions. In those settings a wage floor can prevent some of the worst forms of underpricing.",
+                    "But the law also changes the margin at which firms hire, automate, train, or restructure tasks. If the wage floor rises above the productive value some employers believe they can recover from a role, fewer positions may be offered, hours may shrink, or entry-level opportunities may narrow. Those effects vary by sector, region, and business model.",
+                    "A good page should preserve both truths. Minimum wage laws can reduce exploitation or extreme precarity in some contexts while still imposing real tradeoffs in others."
+                ],
+                "items": [
+                    "Main benefit: a wage floor can strengthen weakly positioned workers.",
+                    "Main cost: some jobs become harder to justify at the new price.",
+                    "Effects differ by local market structure and productivity level.",
+                    "Reader lesson: do not confuse a moral aim with cost-free implementation."
+                ],
+            },
+            "prompt-3": {
+                "heading": "Arguments for a minimum wage can smuggle necessity claims if they stop defending the threshold itself",
+                "paragraphs": [
+                    "The curator's pushback is useful because some defenses of minimum wage laws quietly shift from 'this threshold may be justified under these conditions' to 'some threshold simply must exist.' That stronger claim needs separate argument.",
+                    "A minimum wage might be defended on grounds of bargaining asymmetry, anti-poverty policy, social dignity, or prevention of labor-market races to the bottom. But none of those reasons automatically proves that every economy needs the same legal instrument in the same form. Alternatives such as wage subsidies, stronger mobility, income supports, or union power may address similar concerns differently.",
+                    "So the intellectually honest move is to force defenders to state what problem the minimum wage is solving better than the alternatives. Otherwise the policy can start looking conceptually necessary when it is only one option among several."
+                ],
+                "items": [
+                    "Need separate argument for why a wage floor is necessary rather than merely available.",
+                    "Different policy tools can target poverty, bargaining weakness, or dignity in different ways.",
+                    "The right comparison is not minimum wage versus nothing, but versus realistic alternatives.",
+                    "Reader lesson: ask what exact problem requires this specific instrument."
+                ],
+            },
+            "prompt-4": {
+                "heading": "Under-the-table migrant labor shows a demand for low-cost work, not a clean refutation of wage floors",
+                "paragraphs": [
+                    "Grey-market migrant labor can look like evidence that legal wage floors are too high, because both employers and workers are voluntarily entering arrangements beneath the official threshold. But that observation alone does not tell you whether the regulation is unjustified, badly calibrated, weakly enforced, or being bypassed because the workers are especially vulnerable.",
+                    "Informal labor markets are often shaped by legal precarity, fear of deportation, limited bargaining power, and weak recourse against abuse. Those conditions can generate apparent consent without producing the kind of bargaining environment defenders of free contracting usually imagine.",
+                    "So the better inference is narrower. Informal sub-minimum labor is evidence of a gap between law and on-the-ground incentives. It is not by itself proof that the law is over-regulation."
+                ],
+                "items": [
+                    "Observed evasion does not automatically show the rule is bad.",
+                    "Informal markets often involve asymmetries that distort the meaning of consent.",
+                    "The case may reveal enforcement or calibration problems rather than pure policy failure.",
+                    "Reader lesson: separate market demand from normative justification."
+                ],
+            },
+            "prompt-5": {
+                "heading": "Voluntary agreement does not settle exploitation when desperation and asymmetric power shape the bargain",
+                "paragraphs": [
+                    "A verbal agreement can be genuine in the thin sense that both parties consent and perform. But exploitation is not exhausted by breach or fraud. A deal can still be exploitative if one side leverages the other's desperation, legal vulnerability, or lack of alternatives to capture gains in a way that would collapse under more balanced conditions.",
+                    "That does not mean every low-wage informal arrangement is exploitative. Some may indeed leave both parties better off than the immediately available alternatives. The harder point is that 'both agreed' is not a full moral analysis because the quality of available options matters.",
+                    "A rigorous page should therefore keep two truths together: stopping grey-market work can harm vulnerable migrants if no better channels exist, and permitting such work without scrutiny can normalize arrangements that depend on structural weakness. Serious judgment begins when both costs stay visible."
+                ],
+                "items": [
+                    "Consent matters, but it does not cancel the relevance of background coercion or desperation.",
+                    "Some informal arrangements may be mutually beneficial relative to bad alternatives.",
+                    "That benefit does not erase concerns about normalized structural exploitation.",
+                    "Best takeaway: ask what options each side really had, not only what words they exchanged."
+                ],
+            },
+        },
+    },
+    "What is Consciousness?": {
+        "sections": {
+            "prompt-3": {
+                "heading": "Full human consciousness includes awareness, integration, memory, self-reference, and flexible control",
+                "paragraphs": [
+                    "Full human consciousness is richer than bare sentience. It includes present-moment awareness of perceptions and feelings, but also the ability to integrate them across time, place them in memory, compare them with plans, and treat them as belonging to a continuing self.",
+                    "Language deepens that richness because humans can describe their own experience, narrate motives, imagine alternatives, and reflect on reflection itself. Metacognition matters here: a conscious human can often notice not only fear, desire, or confusion, but also the fact that they are afraid, desiring, or confused.",
+                    "Executive flexibility also belongs in the picture. Full human consciousness typically involves attention control, inhibition, social awareness, abstraction, and the capacity to shift between immediate sensation and long-range planning. None of these is always maximally online, but together they mark the broad profile of mature human consciousness."
+                ],
+                "items": [
+                    "Immediate awareness is only the starting layer.",
+                    "Memory and temporal integration allow experience to cohere as a life rather than isolated flashes.",
+                    "Metacognition lets humans notice and evaluate their own mental states.",
+                    "Flexible attention and planning deepen conscious agency."
+                ],
+            },
+            "prompt-4": {
+                "heading": "Future human consciousness would likely differ through expanded integration, wider empathy, and altered self-boundaries",
+                "paragraphs": [
+                    "If human consciousness continues to evolve, the biggest changes may involve integration rather than some magical new substance. Future minds might hold more simultaneous variables in awareness, coordinate emotion with analysis more smoothly, and maintain longer planning horizons without the same friction or fragmentation common today.",
+                    "Social and moral consciousness could also widen. A more evolved mind might model other minds more accurately, resist tribal compression more easily, and feel long-term collective consequences with greater salience than present humans usually do. That would not make conflict disappear, but it could change its texture.",
+                    "Another plausible change concerns the self. Future humans might experience identity less as a brittle ego-center and more as a flexible, layered process shaped by memory, networks, technology, and distributed collaboration. The important point is that any such evolution would likely intensify already visible capacities rather than abolish the structure of consciousness altogether."
+                ],
+                "items": [
+                    "Greater integration could reduce present-day fragmentation between impulse and reflection.",
+                    "Expanded social modeling could deepen empathy and long-range coordination.",
+                    "Selfhood might become more flexible without ceasing to be organized.",
+                    "Reader lesson: imagine enhancement of existing capacities, not mystical replacement."
+                ],
+            },
+            "prompt-5": {
+                "heading": "Future humor might become more layered, more reflexive, and less dependent on crude surprise alone",
+                "paragraphs": [
+                    "Humor reveals what a mind can juggle at once. If future humans become more cognitively integrated, their humor might rely less on simple shock or stereotype and more on multilevel pattern recognition, self-aware perspective shifting, and rapid movement between frames without confusion.",
+                    "That does not mean humor would become sterile or overly intellectual. It may instead become more precise. Jokes could play across emotional nuance, social context, irony, and shared knowledge with less need for blunt exaggeration. What counts as funny would still depend on vulnerability, relief, incongruity, and status play, but the balance could shift.",
+                    "The aside matters because it brings consciousness down to lived culture. Humor is a small window into how minds process surprise, selfhood, and social signaling."
+                ],
+                "items": [
+                    "Humor tracks cognitive flexibility because it depends on frame-shifting.",
+                    "More integrated minds may prefer layered irony over blunt punchlines.",
+                    "Social awareness would likely shape what becomes funny or crude.",
+                    "Reader lesson: culture can reveal changes in consciousness before theory names them."
+                ],
+            },
+        },
+    },
+    "What is Existentialism?": {
+        "sections": {
+            "prompt-2": {
+                "heading": "The major existentialists share pressure points more than a single tidy creed",
+                "paragraphs": [
+                    "Kierkegaard foregrounds inwardness, anxiety, faith, and the burden of becoming a self rather than drifting into social imitation. Nietzsche foregrounds value-creation, self-overcoming, the critique of herd morality, and the danger of nihilism after inherited certainties weaken.",
+                    "Heidegger shifts the focus toward Being, thrownness, authenticity, mortality, and the way everyday conformity can bury more basic questions about existence. Sartre radicalizes freedom and responsibility, arguing that people are condemned to choose and then tempted to hide behind bad faith when that freedom becomes unbearable.",
+                    "Camus is often grouped nearby because he keeps attention on absurdity, revolt, and the refusal either to lie about meaninglessness or to surrender to it. Beauvoir extends the existential field by tying freedom to embodied, social, gendered life and by showing how liberation becomes entangled with the freedom of others.",
+                    "The map becomes useful once the reader stops asking for one doctrine and starts asking how each figure handles freedom, anxiety, meaning, responsibility, and social entanglement."
+                ],
+                "items": [
+                    "Kierkegaard: inwardness, anxiety, and becoming a self.",
+                    "Nietzsche: value-creation and resistance to nihilistic collapse.",
+                    "Heidegger and Sartre: authenticity, freedom, and bad faith under mortality.",
+                    "Camus and Beauvoir: absurdity, revolt, embodiment, and shared liberation."
+                ],
+            },
+        },
+    },
+    "Preponderance of Evidence?": {
+        "sections": {
+            "prompt-1": {
+                "heading": "More evidence for one side does not automatically require a clean leap into full belief",
+                "paragraphs": [
+                    "The statement sounds reasonable because people often want inquiry to end in a settled attitude: if one option is more likely, believe it. But that skips an important distinction between preferring a hypothesis and assigning it an all-things-considered level of confidence. Evidence can favor one side while still leaving that side far from certainty.",
+                    "Suppose one medical diagnosis is better supported than its rivals, but the evidence remains thin overall. It would be irrational to treat all options as equal, yet it would also be irrational to speak as if the leading diagnosis were now solidly established. Rationality often requires asymmetric confidence without requiring categorical commitment.",
+                    "That is the core correction. 'Most reasonable' should usually mean 'currently best supported relative to competitors,' not 'now promoted into an unqualified belief state.' The page should train proportional confidence rather than binary closure."
+                ],
+                "items": [
+                    "Comparative support is not the same as high support.",
+                    "A leading hypothesis can deserve preference without deserving confident assertion.",
+                    "Belief language often inflates what the evidence has actually earned.",
+                    "Reader lesson: ask how much support exists, not only which side is ahead."
+                ],
+            },
+            "prompt-2": {
+                "heading": "Epistemic gradients do not contain a magical point where disbelief must suddenly become belief",
+                "paragraphs": [
+                    "Evidence usually moves confidence gradually. A new witness, a cleaner dataset, or a stronger explanatory fit can make a claim more plausible than it was yesterday without creating a sharp metaphysical boundary the mind must cross. The pressure to locate such a boundary often comes from legal or conversational habits rather than from epistemology itself.",
+                    "People do use thresholds, but usually for action, policy, or verdict. A jury may need a decision rule. A doctor may need to treat or wait. An investor may need to buy, hold, or decline. Those thresholds can be rational and necessary, yet they belong to the practical problem, not to the underlying structure of confidence.",
+                    "Once that distinction is visible, the binary model starts to loosen. Belief becomes something that can be weak, moderate, strong, or provisional, while action can still require temporary yes-or-no commitment."
+                ],
+                "items": [
+                    "Confidence changes by degree even when action sometimes cannot.",
+                    "Thresholds usually belong to decision rules, not to evidence itself.",
+                    "Binary language is often inherited from institutions, not from the structure of rational belief.",
+                    "Best takeaway: let confidence stay graded even when practice forces a choice."
+                ],
+            },
+            "prompt-3": {
+                "heading": "A dialogue helps only if it separates evidential ranking from practical commitment",
+                "paragraphs": [
+                    "The strongest version of this dialogue does not make the binary believer foolish. Their intuition comes from real life, where people often do have to commit. The productive correction is to show that commitment can be rationally binary while the underlying confidence remains scalar.",
+                    "That distinction matters because it preserves intellectual honesty. A pilot can choose one route, a judge can issue one ruling, and a scientist can provisionally endorse one theory while still admitting that support comes in degrees and may later be revised.",
+                    "The page works when the reader leaves understanding why practical decisions often sharpen into yes-or-no form without turning belief itself into an on-off switch."
+                ],
+                "dialogue_turns": [
+                    {"speaker": "Binary believer", "text": "If one side has more evidence, I should believe it and disbelieve the other. Otherwise I am dodging the issue."},
+                    {"speaker": "Gradient believer", "text": "You may need to rank them, but ranking is not the same as granting one side full-dress belief. Evidence often leaves a leader without producing certainty."},
+                    {"speaker": "Binary believer", "text": "But action cannot live in suspense forever. At some point I have to choose."},
+                    {"speaker": "Gradient believer", "text": "Yes, but that point usually belongs to the decision rule. A surgeon may operate, a voter may choose, and a judge may rule while still admitting the confidence level is not absolute."},
+                    {"speaker": "Binary believer", "text": "So you are saying belief can remain graded even when action becomes binary?"},
+                    {"speaker": "Gradient believer", "text": "Exactly. Acting under uncertainty is not the same as pretending the uncertainty disappeared."},
+                    {"speaker": "Binary believer", "text": "Then words like 'I believe' may hide how much confidence the evidence actually earned."},
+                    {"speaker": "Gradient believer", "text": "And that is the real danger. The language of commitment can overstate the state of the evidence unless we keep the gradient visible."}
+                ],
+                "items": [
+                    "Charitable opening: decisions often do require commitment.",
+                    "Key correction: commitment policy and confidence level are different things.",
+                    "Main gain: action can be decisive without language becoming epistemically inflated.",
+                    "Reader lesson: preserve the gradient even when practice demands a verdict."
+                ],
+            },
+            "prompt-4": {
+                "heading": "Threshold words distort inquiry when they make support sound more absolute than it is",
+                "paragraphs": [
+                    "Terms such as 'preponderance,' 'sufficiently established,' 'proven enough,' or even casual uses of 'I know' can suggest that once a claim edges ahead of competitors it has crossed into a different epistemic category. Sometimes such language is legally or conversationally convenient. But it can also compress nuance out of the case.",
+                    "The trouble is not that these terms are always wrong. The trouble is that they easily hide how tentative the underlying support still is. A claim can be the current frontrunner while remaining highly defeasible, sensitive to missing evidence, or only modestly better than alternatives.",
+                    "The page should therefore cultivate translation. When threshold language appears, the reader should learn to ask what degree of confidence is really being claimed underneath it."
+                ],
+                "items": [
+                    "Threshold words are often shorthand, not transparent descriptions of confidence.",
+                    "A lead over rivals can be real without being robust.",
+                    "The stronger the stakes, the more carefully such language should be unpacked.",
+                    "Reader lesson: translate prestige words back into explicit confidence claims."
+                ],
+            },
+            "prompt-5": {
+                "heading": "High-confidence language is earned only when the evidence is both strong and resilient",
+                "paragraphs": [
+                    "There is nothing wrong with stronger language when the case genuinely supports it. The mistake is using strong language merely because one is tired of uncertainty. Terms like 'very likely,' 'well supported,' or 'almost certain' should be reserved for cases where the evidence is not only favorable but also broad, independently reinforced, and difficult to overturn by one missing piece.",
+                    "Nuanced language becomes especially important when the audience may mistake confidence for certainty. In frontier science, contested history, interpersonal conflict, or speculative policy forecasting, modest wording protects inquiry from premature closure and protects the reader from false precision.",
+                    "A useful guideline is simple: strengthen language as evidence strengthens across quality, quantity, coherence, and resilience. Weaken language when one or more of those dimensions is still thin."
+                ],
+                "items": [
+                    "Use stronger terms when support is convergent, durable, and not easily overturned.",
+                    "Use cautious terms when evidence is partial, disputed, or highly model-dependent.",
+                    "Language should track both quantity and robustness of support.",
+                    "Best takeaway: confidence words should mirror the actual evidential architecture."
+                ],
+            },
+        },
+    },
 }
