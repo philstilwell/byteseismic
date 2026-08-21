@@ -272,14 +272,23 @@ def heading_needs_rewrite(text: str, prompt: str) -> bool:
         return True
     if text and text[0].islower():
         return True
+    if text.startswith(("And ", "Me ", "Up ")):
+        return True
     cleaned_prompt = " ".join(prompt.split()).strip().rstrip(".")
     if cleaned_prompt:
         prompt_base = cleaned_prompt.rstrip("?")
         heading_base = text.strip().rstrip("?")
         if heading_base == prompt_base and len(text) > 72:
             return True
-        if prompt_base.startswith(heading_base) and len(prompt_base) - len(heading_base) >= 12:
+        if prompt_base.startswith(heading_base) and len(prompt_base) - len(heading_base) >= 6:
             return True
+        prompt_words = re.findall(r"[A-Za-z0-9][A-Za-z0-9'’-]*", prompt_base.lower())
+        heading_words = re.findall(r"[A-Za-z0-9][A-Za-z0-9'’-]*", heading_base.lower())
+        if len(heading_words) >= 4:
+            for start in (1, 2, 3):
+                candidate = prompt_words[start : start + len(heading_words)]
+                if heading_words == candidate:
+                    return True
     return False
 
 
@@ -391,6 +400,77 @@ def derive_heading_from_prompt(prompt: str, page_title: str) -> str:
         "explain how the ability of an agent to interact with a perceived object would strengthen the ontological status of the object in the agent’s mind beyond what mere observation would.": "Why interaction can strengthen an object's felt reality",
         "explain how the ability of an agent to interact with a perceived object would strengthen the ontological status of the object in the agent’s mind beyond what mere observation would.": "Why interaction makes an object feel more real than observation alone",
         "provide two pedagogical narratives. the first will explain how an actual experiment would overturn the false intuition that heavier objects fall faster than light objects. the second will explain how a deductive analysis would overturn the false intuition.": "Two narratives that overturn a false intuition",
+        "provide an example of an experimental design in which orthogonality (causal independence) can be robustly established.": "A clean experimental case of orthogonality",
+        "present 3 actual scientific experiments in which two variables were considered orthogonal, but later shown to be causally dependent.": "When orthogonality later turned out to be false",
+        "explain how “confidence intervals” work.": "How confidence intervals work",
+        "list and define 30 key terms in the philosophy of science.": "Thirty key terms in philosophy of science",
+        "list and provide explanations of key concepts in the philosophy of science.": "Core concepts in philosophy of science, explained",
+        "provide a timeline of the philosophy of science. include deeper explanations for any paradigm shifts.": "A timeline of philosophy of science and its main turns",
+        "list and describe new areas of interest in the philosophy of science.": "New areas of interest in philosophy of science",
+        "provide historical cases in which laws that were once thought to be constant turned out to be wrong or riddled with exceptions.": "When supposed laws failed under closer scrutiny",
+        "provide me with 3 examples outside of biology in which line of evidence converge to support a theory.": "Three non-biological cases of evidential convergence",
+        "provide the mathematics behind the notion that converging independent lines of evidence strengthen a theory.": "Why independent evidence compounds mathematically",
+        "provide 5 actual cases in which a proxy was revealed to be improper.": "Five cases where a proxy misled inquiry",
+        "provide me with 5 examples of counter-intuitive or surprising legitimate proxies.": "Five surprising proxies that genuinely work",
+        "comment on the intrinsic dangers contained in a position based on subjective perceptions rather than objective statistics.": "What goes wrong when subjective perception outruns public evidence",
+        "provide three accounts from history in which the fudging of truth by policy-makers may have prevented a tragedy.": "Cases where strategic distortion may have prevented harm",
+        "provide robust guidelines that would wisely direct policy-makers in similar situations.": "Guidelines for officials tempted to bend the truth",
+        "provide an analogy on an interpersonal level that might make this dilemma more salient.": "An everyday analogy for truth versus panic management",
+        "consider the following list of metrics of well-being. survey the list of societies that are failing on those metrics, and explain the institutional or cultural sources of those failures.": "Where societies fail the well-being metrics and why",
+        "so, the degree of the legitimacy of tacit consent is based on the degree of freedom to emigrate, right?": "How far freedom to emigrate strengthens tacit consent",
+        "if the notion of the social contract is to have any real ethical obligation, it will need to be able to coherently distinguish which systems they are ethically obligated to in the following scenarios, right?": "Hard cases for social-contract obligation",
+        "could this argument be revised in any way to reach the valid conclusion “miraculous event x happened”?": "Can the miracle argument be repaired at all?",
+        "in your revised argument, you introduce inductively acquired evidence. therefore, the conclusion cannot be certain but merely assigned a sub-absolute degree of confidence, right?": "Why any serious miracle argument ends in probability, not certainty",
+        "are there times in which a less accommodating and a more stern public rebuttal would be more productive in terms of the number of minds changed?": "When a sterner rebuttal can be more effective",
+        "what are logical fallacies , and why should we train ourselves to identify them?": "What logical fallacies are and why they matter",
+        "provide 5 examples from history in which a faulty risk assessment lead to injury or loss, including lost opportunities.": "Five historical cases of badly misread risk",
+        "what different daily habits do those successfully acquring deep knowledge and those pursuing a breadth of knowledge have?": "Daily habits that favor depth versus breadth",
+        "write up a consultation report for a company with an ai project proposal to disrupt the esl market by providing effective ai tools directly to students.": "A consultation brief for an AI-first ESL venture",
+        "based on this report, provide scores for the effects of the ubi experiment.": "Scoring the UBI experiment's main effects",
+        "provide a description of the study’s method, scope, and limitations.": "The UBI study's method, scope, and limits",
+        "provide recommendations for methods, scope, and variables in future ubi studies.": "How future UBI studies should improve",
+        "a fundamental notion in bayes theorem is the notion that even widely disparate priors of two epistemic agents will eventually converge if identical evidence is encountered. elaborate on this notion.": "Why shared evidence can slowly pull priors together",
+        "in conclusion, for the scenario introduced, we have no justification for taking on full ontological certainty on notions such as the external world or even logic, but can simply provisionally test each notion with deep uncertainty. the iterative testing of the notions will allow up to continuously update the priors we had placed provisionally on those notions, with greater approximation to the likely reality with each iteration. right?": "Why provisional testing beats premature ontological certainty",
+        "if there is a god, what are some ways we might expect spiritual effects to be evident and measurable in our material world?": "What measurable traces a real god might leave",
+        "imagine a statistical analysis of potentially disparate crime rates between a population of individuals devoted to a particular god and a population of secular-minded individuals. what might be the legitimate and illegitimate responses among those defending the god in question if the secular-minded group is shown to have lower crime rates?": "How believers might answer a bad moral-performance comparison",
+        "provide accounts from history in which the pressure to take a dogmatic position led to negative consequences.": "Historical damage caused by pressure for dogmatic certainty",
+        "has there been an uptick in public or academic interest in epistemology since the advent of the information age?": "Has the information age renewed interest in epistemology?",
+        "create a lengthy dialogue between the author of the essay and someone who holds that one must either believe or disbelieve a given proposition.": "A dialogue between binary belief and graded belief",
+        "wouldn’t the proper epistemic response be to increase or decrease our degree of certainty to map to the level of confirming or disconfirming evidence we encounter?": "Why certainty should move with the evidence",
+        "what might cause individuals to irrationally conclude they cannot relinquish their current ideology unless they replace it with a new ideology?": "Why people fear abandoning an ideology without a replacement",
+        "what major disagreements exist among philosophers on the proposed types of knowledge?": "Where philosophers disagree about a priori knowledge",
+        "if a priori knowledge is not actually grounded through empirical experience, what else could ground this class of knowledge?": "What could ground a priori knowledge besides experience?",
+        "it appears that many of those most dogmatic on particular human rights cannot articulate the logical grounding of those rights. how might we encourage a deeper contemplation of the foundation of morality and human rights?": "How to push human-rights talk toward deeper grounding",
+        "survey some of the more common gods proposed throughout history, and highlight some of the more interesting ways they reflect human dispositions and behaviors.": "How gods mirror the people who imagine them",
+        "comment on how the complexion and body type in depictions of jesus reflect the culture in which he is venerated.": "Why Jesus is repeatedly redrawn in the worshiper's image",
+        "some would argue that the greatest harm of religion is its conscious promotion of a degree of belief that exceeds the degree of the relevant evidence which has led to a regrettable delay in humanity’s maturity. weigh in on this.": "Does religion normalize confidence beyond the evidence?",
+        "members of religions often tell the unbelieving that their disbelief or doubt is a reflection of their wickedness or rebellion against the god in question. comment on the power of this tactic.": "Why moralizing disbelief is such a potent religious tactic",
+        "what is stoicism?": "What Stoicism is really training",
+        "give a brief introduction to the most influential stoic philosophers.": "The most influential Stoic philosophers at a glance",
+        "provide 20 notable quotes from stoic philosophers.": "Twenty notable Stoic quotations worth revisiting",
+        "list markers of philosophical maturity as they are manifested in domains such as the following.": "Markers of philosophical maturity across domains",
+        "provide a list of quantifiable measures of philosophical maturity.": "What, if anything, can quantify philosophical maturity",
+        "create a table that rates each factor contributing to a stable state and its degree of importance.": "How the main stabilizing factors compare",
+        "what is the ontological status of the social contract and, given that status, what grounds it? does it entail any actual obligation or is our commitment to the social contract wholly voluntary?": "What kind of thing the social contract is, and why it binds",
+        "assess the following argument for coherence": "What the miracle argument does and does not establish",
+        "how might you respond to someone making this argument to make them aware of its circularity?": "How to expose the miracle argument's circularity",
+        "provide me with a table with two lists, the first a list of risks that humans tend to overestimate, and the second a list of risks that humans tend to underestimate.": "Risks people overestimate versus underestimate",
+        "there are times when what seems to factual disagreements turn out to be only semantic misunderstandings. elaborate on this and give examples.": "When a factual dispute is really a semantic one",
+        "some semantic misunderstandings seem to be very common in public discourse. provide an annotated list of 10 of these.": "Ten semantic confusions that repeatedly derail public debate",
+        "provide an pedagogical dialogue which begins with semantic confusion but ends in an clear understanding of the terms.": "A dialogue that turns semantic confusion into clarity",
+        "provide a short essay on the importance of stipulating denotations for terms relevant to a subsequent discussion.": "Why early term-definition prevents wasted argument",
+        "despite the aforementioned concerns, are there times in which top-down pricing might be the best course of action?": "When price controls may still be justified",
+        "can the public legitimately limit the salaries of individuals who receive their wealth through non-government contracts or negotiations?": "Can the public cap privately negotiated salaries?",
+        "provide, if possible, a robust coherent philosophical grounding for public salary caps for private employment contracts.": "What could philosophically justify salary caps",
+        "there is often detrimental social pressure to choose a dogmatic pole on issues. comment on the social dangers this engenders, and suggest strategies to make it disreputable to pressure others into dogmatic positions.": "How social pressure pushes people into fake certainty",
+        "present 3 cases in which a logical assessment revealed fatal flaws in arguments that had been largely accepted by the public.": "Three public arguments undone by logical scrutiny",
+        "name a few recent issues in epistemology that philosophers are currently grappling with.": "Recent questions epistemologists are actively debating",
+        "present a few recent trends or new concepts in decision theory or game theory.": "Recent moves in decision theory and game theory",
+        "we have already discussed the notion that “knowledge” is simply a degree of confidence that is subjectively determined. one person might consider a 95% level of confidence to be the threshold above which they consider something “knowledge,” and another person may consider an 80% level of confidence a sufficient threshold at which the credence is considered “knowledge.” yet, some epistemologists treat knowledge as something that can be more objective, such as in the notion that “knowledge” is “justified, true belief.” is this attempt to elevate the notion of “knowledge” to a more objective status justified when considering the conventional usage of “knowledge” that has much subjective variance in its definition and application? it appears some epistemologists are attempting to wrest the term “knowledge” away from its conventional usage and coerce the term into a stipulated definition. is this correct?": "Can philosophers legitimately tighten the meaning of knowledge?",
+        "let’s take a closer look at the notion that “knowledge” is “justified, true belief”. this definition appears circular. based on this definition, in order for someone to say they “know” something, the person must have assessed the knowledge as objectively true. however, this ability to objectively perceive something as true is not available to the subjectivity-bound person hoping to claim to “know” something. once we take away the ability to use the term “know” in its most useful context in which we can subjectively claim we “know” it will rain tomorrow without needing access to the objective truth of the claim, then we have, indeed, wrest away the term from its conventional usage, and are providing a stipulation that has no relevance in daily life, right?": "Why justified true belief feels too strict for ordinary knowing",
+        "i suggest we abandon the highly problematic and tired project of finding a rigorous and coherent non-conventional definition of “knowledge”, and to instead focus on defining rational belief? do you not think this would be a more successful focus, especially since the “epistemic turn” away from binary notions of belief and knowledge and towards more nuanced expressions of belief, such as credences and degrees of confidence?": "Why rational belief may be a better target than knowledge",
+        "provide a full and rigorous definition of a religion.": "What a rigorous definition of religion must include",
+        "provide a comprehensive list of religions’ goods and ills.": "Religion's recurring goods and recurring harms",
     }
     normalized_exact_overrides = {key.rstrip("?."): value for key, value in exact_overrides.items()}
     prompt_key = prompt_lower.rstrip("?.")

@@ -183,23 +183,103 @@ def _resolve_cursor(existing_tracker: dict | None, pages: list[dict]) -> dict:
     existing_tracker = existing_tracker or {}
     existing_cursor = existing_tracker.get("cursor", {}) if isinstance(existing_tracker, dict) else {}
     page_paths = [page["pagePath"] for page in pages]
+    completed_paths = _dedupe(
+        [
+            path
+            for path in existing_cursor.get("completedPagePathsInCurrentCycle", [])
+            if path in page_paths
+        ]
+    )
     stored_path = existing_cursor.get("nextPagePath", "")
-    stored_index = _safe_int(existing_cursor.get("currentPageIndex", 0), 0)
 
-    if stored_path in page_paths:
-        current_index = page_paths.index(stored_path)
-    else:
-        current_index = min(max(stored_index, 0), total_pages - 1)
+    current_batch_pages = (
+        existing_tracker.get("currentBatch", {}).get("pages", [])
+        if isinstance(existing_tracker, dict)
+        else []
+    )
+    current_batch_paths = [page.get("pagePath", "") for page in current_batch_pages]
+    remaining_paths = [path for path in page_paths if path not in set(completed_paths)]
+    next_path = next(
+        (
+            path
+            for path in current_batch_paths
+            if path in remaining_paths
+        ),
+        stored_path if stored_path in remaining_paths else remaining_paths[0],
+    )
 
     cycle = max(_safe_int(existing_cursor.get("cycle", 1), 1), 1)
-    current_page = pages[current_index]
+    current_page = pages[page_paths.index(next_path)]
     return {
         "cycle": cycle,
-        "currentPageIndex": current_index,
+        "currentPageIndex": len(completed_paths),
         "nextPagePath": current_page["pagePath"],
         "nextPageTitle": current_page["pageTitle"],
         "lastAdvancedAt": existing_cursor.get("lastAdvancedAt", ""),
         "lastCompletedBatch": existing_cursor.get("lastCompletedBatch", {}),
+        "completedPagePathsInCurrentCycle": completed_paths,
+    }
+
+
+def _preserve_existing_current_batch(existing_tracker: dict | None, pages: list[dict], cursor: dict, batch_size: int) -> dict:
+    completed_paths = set(cursor.get("completedPagePathsInCurrentCycle", []))
+    if not isinstance(existing_tracker, dict):
+        return _batch_from_remaining(pages, completed_paths, batch_size, cursor["cycle"])
+
+    existing_batch = existing_tracker.get("currentBatch", {})
+    existing_pages = existing_batch.get("pages", []) if isinstance(existing_batch, dict) else []
+    if not existing_pages:
+        return _batch_from_remaining(pages, completed_paths, batch_size, cursor["cycle"])
+
+    page_lookup = {page["pagePath"]: page for page in pages}
+    preserved = [
+        page_lookup[path]
+        for path in [page.get("pagePath", "") for page in existing_pages]
+        if path in page_lookup and path not in completed_paths
+    ]
+    if not preserved:
+        return _batch_from_remaining(pages, completed_paths, batch_size, cursor["cycle"])
+
+    preserved_paths = {page["pagePath"] for page in preserved}
+    for page in pages:
+        if len(preserved) >= batch_size:
+            break
+        if page["pagePath"] in completed_paths or page["pagePath"] in preserved_paths:
+            continue
+        preserved.append(page)
+        preserved_paths.add(page["pagePath"])
+
+    start_index = len(completed_paths)
+
+    return {
+        "cycle": _safe_int(existing_batch.get("cycle", cursor["cycle"]), cursor["cycle"]),
+        "startIndex": start_index,
+        "endIndexExclusive": start_index + len(preserved),
+        "pageCount": len(preserved),
+        "wrapsToNextCycle": start_index + len(preserved) >= len(pages),
+        "priorityCounts": dict(Counter(page["priorityBand"] for page in preserved)),
+        "pages": [_compact_page(page) for page in preserved],
+    }
+
+
+def _batch_from_remaining(
+    pages: list[dict],
+    completed_paths: set[str],
+    batch_size: int,
+    cycle: int,
+) -> dict:
+    remaining = [page for page in pages if page["pagePath"] not in completed_paths]
+    batch_pages = remaining[:batch_size]
+    start_index = len(pages) - len(remaining)
+    end_index = start_index + len(batch_pages)
+    return {
+        "cycle": cycle,
+        "startIndex": start_index,
+        "endIndexExclusive": end_index,
+        "pageCount": len(batch_pages),
+        "wrapsToNextCycle": bool(batch_pages) and len(batch_pages) >= len(remaining),
+        "priorityCounts": dict(Counter(page["priorityBand"] for page in batch_pages)),
+        "pages": [_compact_page(page) for page in batch_pages],
     }
 
 
@@ -266,6 +346,48 @@ def _upcoming_batches(pages: list[dict], start_index: int, batch_size: int, cycl
     return previews
 
 
+def _upcoming_batches_from_remaining(
+    pages: list[dict],
+    completed_paths: set[str],
+    current_batch_paths: set[str],
+    batch_size: int,
+    cycle: int,
+    count: int = 2,
+) -> list[dict]:
+    available = [
+        page
+        for page in pages
+        if page["pagePath"] not in completed_paths and page["pagePath"] not in current_batch_paths
+    ]
+    previews: list[dict] = []
+    preview_cycle = cycle
+    offset = 0
+    completed_count = len(completed_paths) + len(current_batch_paths)
+
+    for _ in range(count):
+        if offset >= len(available):
+            available = list(pages)
+            offset = 0
+            completed_count = 0
+            preview_cycle += 1
+        batch_pages = available[offset : offset + batch_size]
+        if not batch_pages:
+            break
+        start_index = completed_count + offset
+        previews.append(
+            {
+                "cycle": preview_cycle,
+                "startIndex": start_index,
+                "endIndexExclusive": start_index + len(batch_pages),
+                "pageCount": len(batch_pages),
+                "priorityCounts": dict(Counter(page["priorityBand"] for page in batch_pages)),
+                "pages": [_compact_page(page) for page in batch_pages[:10]],
+            }
+        )
+        offset += len(batch_pages)
+    return previews
+
+
 def build_editorial_audit_tracker(
     report: dict,
     *,
@@ -274,7 +396,9 @@ def build_editorial_audit_tracker(
 ) -> dict:
     pages = _aggregate_page_records(report)
     cursor = _resolve_cursor(existing_tracker, pages)
-    current_batch = _batch_slice(pages, cursor["currentPageIndex"], batch_size, cursor["cycle"])
+    current_batch = _preserve_existing_current_batch(existing_tracker, pages, cursor, batch_size)
+    completed_paths = set(cursor.get("completedPagePathsInCurrentCycle", []))
+    current_batch_paths = {page["pagePath"] for page in current_batch.get("pages", [])}
     page_count = len(pages)
     band_counts = Counter(page["priorityBand"] for page in pages)
     history = existing_tracker.get("history", []) if isinstance(existing_tracker, dict) else []
@@ -303,15 +427,16 @@ def build_editorial_audit_tracker(
         "summary": {
             "trackedPages": page_count,
             "pagesByPriorityBand": dict(sorted(band_counts.items())),
-            "pagesRemainingInCurrentCycle": max(page_count - cursor["currentPageIndex"], 0),
+            "pagesRemainingInCurrentCycle": max(page_count - len(completed_paths), 0),
             "batchSize": batch_size,
             "estimatedBatchesPerCycle": (page_count + batch_size - 1) // batch_size if page_count else 0,
         },
         "cursor": cursor,
         "currentBatch": current_batch,
-        "upcomingBatches": _upcoming_batches(
+        "upcomingBatches": _upcoming_batches_from_remaining(
             pages,
-            cursor["currentPageIndex"],
+            completed_paths,
+            current_batch_paths,
             batch_size,
             cursor["cycle"],
             count=2,
@@ -331,48 +456,72 @@ def advance_editorial_audit_tracker(tracker: dict, completed_at: str | None = No
     if total_pages == 0:
         return tracker
 
-    current_index = min(max(_safe_int(cursor.get("currentPageIndex", 0), 0), 0), total_pages - 1)
     cycle = max(_safe_int(cursor.get("cycle", 1), 1), 1)
-    current_pages = pages[current_index : current_index + batch_size]
+    page_lookup = {page["pagePath"]: page for page in pages}
+    completed_before = _dedupe(
+        [
+            path
+            for path in cursor.get("completedPagePathsInCurrentCycle", [])
+            if path in page_lookup
+        ]
+    )
+    completed_before_set = set(completed_before)
+    tracked_current_pages = tracker.get("currentBatch", {}).get("pages", [])
+    current_pages = [
+        page_lookup[path]
+        for path in [page.get("pagePath", "") for page in tracked_current_pages]
+        if path in page_lookup and path not in completed_before_set
+    ]
     if not current_pages:
-        current_pages = pages[:batch_size]
-        current_index = 0
+        current_pages = [page for page in pages if page["pagePath"] not in completed_before_set][:batch_size]
 
-    next_index = current_index + len(current_pages)
-    wrapped = next_index >= total_pages
+    current_paths = [page["pagePath"] for page in current_pages]
+    completed_after = _dedupe(completed_before + current_paths)
+    wrapped = len(completed_after) >= total_pages
     next_cycle = cycle + 1 if wrapped else cycle
-    if wrapped:
-        next_index = 0
+    completed_for_next = [] if wrapped else completed_after
+    completed_for_next_set = set(completed_for_next)
+    next_batch = _batch_from_remaining(pages, completed_for_next_set, batch_size, next_cycle)
 
     completed_at = completed_at or date.today().isoformat()
+    start_index = len(completed_before)
     history.append(
         {
             "completedAt": completed_at,
             "cycle": cycle,
-            "startIndex": current_index,
-            "endIndexExclusive": current_index + len(current_pages),
+            "startIndex": start_index,
+            "endIndexExclusive": start_index + len(current_pages),
             "pageCount": len(current_pages),
             "wrappedToNextCycle": wrapped,
             "firstPagePath": current_pages[0]["pagePath"],
             "lastPagePath": current_pages[-1]["pagePath"],
+            "pagePaths": current_paths,
         }
     )
     history = history[-HISTORY_LIMIT:]
 
-    next_page = pages[next_index]
+    next_page = next_batch["pages"][0]
     tracker["generatedAt"] = date.today().isoformat()
     tracker["history"] = history
     tracker["cursor"] = {
         "cycle": next_cycle,
-        "currentPageIndex": next_index,
+        "currentPageIndex": len(completed_for_next),
         "nextPagePath": next_page["pagePath"],
         "nextPageTitle": next_page["pageTitle"],
         "lastAdvancedAt": completed_at,
         "lastCompletedBatch": history[-1],
+        "completedPagePathsInCurrentCycle": completed_for_next,
     }
-    tracker["summary"]["pagesRemainingInCurrentCycle"] = max(total_pages - next_index, 0)
-    tracker["currentBatch"] = _batch_slice(pages, next_index, batch_size, next_cycle)
-    tracker["upcomingBatches"] = _upcoming_batches(pages, next_index, batch_size, next_cycle, count=2)
+    tracker["summary"]["pagesRemainingInCurrentCycle"] = max(total_pages - len(completed_for_next), 0)
+    tracker["currentBatch"] = next_batch
+    tracker["upcomingBatches"] = _upcoming_batches_from_remaining(
+        pages,
+        completed_for_next_set,
+        {page["pagePath"] for page in next_batch.get("pages", [])},
+        batch_size,
+        next_cycle,
+        count=2,
+    )
     return tracker
 
 
