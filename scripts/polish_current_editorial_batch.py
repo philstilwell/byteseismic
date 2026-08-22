@@ -2059,6 +2059,8 @@ def clean_html(original: str, page: dict, page_title: str) -> str:
     updated = clean_learning_cards(updated)
     updated = clean_generic_paragraphs_globally(updated)
     updated = final_batch_cleanup(updated)
+    for old, new in TEXT_REPLACEMENTS.items():
+        updated = updated.replace(old, new)
     return updated
 
 

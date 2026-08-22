@@ -6411,7 +6411,7 @@ def current_batch_philosopher_paragraphs(page: dict, prompt: str, detail: dict |
 
     if family == "inheritance":
         return [
-            f"{topic} left its deepest mark when later traditions borrowed its tools without needing to copy the whole worldview that first housed them.",
+            f"{topic}'s deepest mark appears when later traditions borrow its tools without needing to copy the whole worldview that first housed them.",
             f"Start from the transferable move: {profile['signature'].rstrip('.')}. Then ask which parts migrated into {profile['legacy']} and which parts mostly stayed tied to the original system.",
             f"{method_sentence} That matters here because schools and disciplines rarely inherit a philosopher whole; they usually keep a distinction, a method, or a pressure point and repurpose it under new assumptions.",
             f"A strong map of influence should therefore separate direct disciples, neighboring traditions, and distant academic domains that still use the framework to sort problems they otherwise could not state as sharply.",
@@ -6419,7 +6419,7 @@ def current_batch_philosopher_paragraphs(page: dict, prompt: str, detail: dict |
 
     if family == "becoming":
         return [
-            f"{topic} became notable because the view offered a sharp answer to a problem that was already building pressure in {profile['period']}.",
+            f"{topic} became influential because the view offered a sharp answer to a problem that was already building pressure in {profile['period']}.",
             f"At the center of that answer was a durable claim: {profile['signature'].rstrip('.')}.",
             f"The setting matters because it supplied the audience, antagonists, and institutions that made {topic}'s questions publicly legible rather than leaving them as private brilliance in a notebook.",
             f"{method_sentence} That method did not merely state conclusions; it gave later readers a recognizable way of arguing, teaching, and pushing back.",
@@ -6436,7 +6436,7 @@ def current_batch_philosopher_paragraphs(page: dict, prompt: str, detail: dict |
 
     if family == "objection":
         return [
-            f"The objection matters because it targets the cost of {profile['signature']}, not just a decorative detail around it.",
+            f"The strongest objection matters because it targets the central move in {topic}, not just a decorative detail around it.",
             f"The pressure point is {profile['pressure']}. A good section should let that challenge land in plain language before it tries to rescue the view.",
             f"{method_sentence} That matters even in defense, because the strongest reply should sound like {topic} thinking through the problem rather than like a generic fan summary.",
             f"The reader should finish with a fair test: what would count as a genuine failure of the view, and what would count as a merely impatient reading of it?",
@@ -6445,7 +6445,7 @@ def current_batch_philosopher_paragraphs(page: dict, prompt: str, detail: dict |
     if family == "entry":
         return [
             f"A strong entry into {topic} gives the reader one honest foothold: {profile['begin']}",
-            f"Start there, but keep the surrounding pressure in view. {profile['signature']} is the payoff, while {profile['pressure']} is the reason the page cannot stop at admiration.",
+            f"Keep the surrounding pressure in view: {profile['signature']} is the payoff, but {profile['pressure']} is the reason the page cannot stop at admiration.",
             f"{method_sentence} That is why the best first reading is usually slower and more contrastive than a quick survey of conclusions.",
             f"A contemporary reader is ready to move on once the page yields one reusable distinction, one likely misunderstanding, and one neighboring debate in {profile['legacy']} worth following next.",
         ]
