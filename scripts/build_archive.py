@@ -47,6 +47,11 @@ HERO_IMAGE_JPGS = {
     2400: "/assets/images/hero-banner-2400.jpg",
 }
 SITE_IMAGE_PATH = HERO_IMAGE_JPGS[2400]
+SOCIAL_IMAGE_PATH = "/assets/images/byteseismic-social-square-1200.jpg"
+SOCIAL_IMAGE_WIDTH = 1200
+SOCIAL_IMAGE_HEIGHT = 1200
+SOCIAL_IMAGE_TYPE = "image/jpeg"
+SOCIAL_IMAGE_ALT = "Orange Byteseismic phi mark on a dark background with subtle seismic rings"
 LOGFALL_SITE_URL = "https://logfall.com/"
 LOGFALL_ALL_FALLACIES_URL = "https://logfall.com/fallacies/"
 LOGFALL_FALLACIES_PATH = Path(__file__).with_name("logfall_fallacies.json")
@@ -4861,14 +4866,16 @@ def render_seo_head(
             <meta property="og:title" content="{html.escape(full_title)}" />
             <meta property="og:description" content="{html.escape(desc)}" />
             <meta property="og:url" content="{html.escape(canonical)}" />
-            <meta property="og:image" content="{html.escape(absolute_site_url(SITE_IMAGE_PATH))}" />
-            <meta property="og:image:width" content="{HERO_IMAGE_WIDTH}" />
-            <meta property="og:image:height" content="{HERO_IMAGE_HEIGHT}" />
-            <meta name="twitter:card" content="summary_large_image" />
+            <meta property="og:image" content="{html.escape(absolute_site_url(SOCIAL_IMAGE_PATH))}" />
+            <meta property="og:image:type" content="{SOCIAL_IMAGE_TYPE}" />
+            <meta property="og:image:width" content="{SOCIAL_IMAGE_WIDTH}" />
+            <meta property="og:image:height" content="{SOCIAL_IMAGE_HEIGHT}" />
+            <meta property="og:image:alt" content="{html.escape(SOCIAL_IMAGE_ALT)}" />
+            <meta name="twitter:card" content="summary" />
             <meta name="twitter:title" content="{html.escape(full_title)}" />
             <meta name="twitter:description" content="{html.escape(desc)}" />
-            <meta name="twitter:image" content="{html.escape(absolute_site_url(SITE_IMAGE_PATH))}" />
-            <meta name="twitter:image:alt" content="Byteseismic Philosophy banner" />
+            <meta name="twitter:image" content="{html.escape(absolute_site_url(SOCIAL_IMAGE_PATH))}" />
+            <meta name="twitter:image:alt" content="{html.escape(SOCIAL_IMAGE_ALT)}" />
             <meta name="theme-color" content="#10263b" />
             {article_meta.lstrip()}
 {fonts_and_assets(prefix, include_site_scripts=include_site_scripts)}{json_ld}{analytics}"""
