@@ -47,11 +47,11 @@ HERO_IMAGE_JPGS = {
     2400: "/assets/images/hero-banner-2400.jpg",
 }
 SITE_IMAGE_PATH = HERO_IMAGE_JPGS[2400]
-SOCIAL_IMAGE_PATH = "/assets/images/byteseismic-social-square-1200.jpg"
-SOCIAL_IMAGE_WIDTH = 1200
-SOCIAL_IMAGE_HEIGHT = 1200
+SOCIAL_IMAGE_PATH = "/assets/images/byteseismic-social-stone-1024.jpg"
+SOCIAL_IMAGE_WIDTH = 1024
+SOCIAL_IMAGE_HEIGHT = 1024
 SOCIAL_IMAGE_TYPE = "image/jpeg"
-SOCIAL_IMAGE_ALT = "Orange Byteseismic phi mark on a dark background with subtle seismic rings"
+SOCIAL_IMAGE_ALT = "Orange Greek phi symbol carved into a warm, weathered stone tile"
 LOGFALL_SITE_URL = "https://logfall.com/"
 LOGFALL_ALL_FALLACIES_URL = "https://logfall.com/fallacies/"
 LOGFALL_FALLACIES_PATH = Path(__file__).with_name("logfall_fallacies.json")
