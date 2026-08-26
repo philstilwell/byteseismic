@@ -32,7 +32,8 @@ GENERIC_HEADING_PATTERNS = [
     re.compile(r"\bclarifies, and where its limits show\b", re.I),
     re.compile(r"\bmatters in practice\b", re.I),
     re.compile(r"^Putting .+ under pressure\.?$", re.I),
-    re.compile(r"require sharper edges before the distinction can guide judgment\.?$", re.I),
+    re.compile(r"requires? sharper edges before the distinction can guide judgment\.?$", re.I),
+    re.compile(r"^The question needs sharper edges before it can guide judgment\.?$", re.I),
     re.compile(r"^A concrete case shows what .+ explains and where it strains\.?$", re.I),
     re.compile(r"^The real issue is what .+ changes once it becomes precise\.?$", re.I),
     re.compile(r"^The map of .+ becomes useful once the parts stop doing different work\.?$", re.I),
@@ -49,6 +50,15 @@ GENERATED_GENERIC_PATTERNS = [
     re.compile(r"^The real work in this section is to make .+ intelligible without pretending the answer is simpler than it is\.$", re.I),
     re.compile(r"^The section is doing its job when the reader can .+$", re.I),
     re.compile(r"^The example earns its place only if it sharpens judgment\..+$", re.I),
+    re.compile(r"^First get clear on .+ Otherwise the disagreement never quite lands on the real issue\.$", re.I),
+    re.compile(r"^Keep .+ in the same frame\..+$", re.I),
+    re.compile(r"^Keep .+ distinct from .+\.$", re.I),
+    re.compile(r"^Read the section by contrast: .+$", re.I),
+    re.compile(r"^Read the section through .+$", re.I),
+    re.compile(r"^A quick way to test the page is to imagine .+$", re.I),
+    re.compile(r"^Treat .+ as handles, not slogans\..+$", re.I),
+    re.compile(r"^One honest test after reading is whether the reader can .+$", re.I),
+    re.compile(r"^.+ should remain tied to a live intellectual practice\..+$", re.I),
 ]
 
 SCAFFOLD_PARAGRAPH_PATTERNS = [
@@ -59,7 +69,7 @@ SCAFFOLD_PARAGRAPH_PATTERNS = [
     re.compile(r"^Do not let the example sit there like a decorative vase\..+$", re.I),
     re.compile(r"^By this point the clearing work should already be done\..+$", re.I),
     re.compile(r"^The earlier sections should already have put .+$", re.I),
-    re.compile(r"^The first move should give the reader something firm to hold\..+$", re.I),
+    re.compile(r"^The first move should give the reader .+$", re.I),
     re.compile(r"^A fair pushback is .+$", re.I),
     re.compile(r"^A fair question is why this map is needed at all\..+$", re.I),
     re.compile(
@@ -77,7 +87,10 @@ SCAFFOLD_LIST_PATTERNS = [
     re.compile(r"^Ask what evidence, example, or argument would genuinely change the reader's judgment\.$", re.I),
     re.compile(r"^Notice where a familiar phrase is doing more work than the reasoning beneath it\.$", re.I),
     re.compile(r"^Keep the neighboring concepts visible so the page does not collapse different questions together\.$", re.I),
-    re.compile(r"^The exchange works only if its movement through .+$", re.I),
+    re.compile(r"The exchange works only if its movement through .+$", re.I),
+    re.compile(r"Central distinction: .+$", re.I),
+    re.compile(r"By the end, the reader should be able to say what difference .+$", re.I),
+    re.compile(r"Read the map as dependencies, not inventory: .+$", re.I),
 ]
 
 CUSTOM_SECTION_HEADINGS = {
@@ -281,6 +294,10 @@ def heading_needs_rewrite(text: str, prompt: str) -> bool:
         return True
     if text.startswith(("And ", "Me ", "Up ")):
         return True
+    if len(text) >= 72 and not text.endswith((".", "?")):
+        return True
+    if len(text) > 56 and re.search(r"\b(that|which|because|when|where|why|how|whether|if|from|into|to)$", text.strip(), re.I):
+        return True
     cleaned_prompt = " ".join(prompt.split()).strip().rstrip(".")
     if cleaned_prompt:
         prompt_base = cleaned_prompt.rstrip("?")
@@ -288,6 +305,8 @@ def heading_needs_rewrite(text: str, prompt: str) -> bool:
         if heading_base == prompt_base and len(text) > 72:
             return True
         if prompt_base.startswith(heading_base) and len(prompt_base) - len(heading_base) >= 6:
+            return True
+        if heading_base.lower() in prompt_base.lower() and len(heading_base) >= 48:
             return True
         prompt_words = re.findall(r"[A-Za-z0-9][A-Za-z0-9'’-]*", prompt_base.lower())
         heading_words = re.findall(r"[A-Za-z0-9][A-Za-z0-9'’-]*", heading_base.lower())
@@ -548,7 +567,13 @@ def derive_heading_from_prompt(prompt: str, page_title: str) -> str:
 
 
 def is_placeholder_paragraph(text: str) -> bool:
-    return any(pattern.search(text) for pattern in PLACEHOLDER_PATTERNS)
+    normalized = normalize_match_text(text)
+    return any(pattern.search(normalized) for pattern in PLACEHOLDER_PATTERNS)
+
+
+def normalize_match_text(text: str) -> str:
+    text = " ".join(text.split())
+    return re.sub(r"\s+([,.;:?])", r"\1", text)
 
 
 def topic_from_heading(heading: str, page_title: str) -> str:
@@ -668,8 +693,13 @@ def replace_placeholder_intro(soup: BeautifulSoup, section: Tag, page_title: str
 def remove_placeholder_list_items(section: Tag) -> bool:
     changed = False
     for item in section.find_all("li"):
-        text = " ".join(item.get_text(" ", strip=True).split())
-        if any(pattern.search(text) for pattern in PLACEHOLDER_LIST_PATTERNS + SCAFFOLD_LIST_PATTERNS):
+        text = normalize_match_text(item.get_text(" ", strip=True))
+        if (
+            any(pattern.search(text) for pattern in PLACEHOLDER_LIST_PATTERNS + SCAFFOLD_LIST_PATTERNS)
+            or "By the end, the reader should be able to say what difference" in text
+            or "Read the map as dependencies, not inventory:" in text
+            or text.startswith("Central distinction:")
+        ):
             item.decompose()
             changed = True
 
@@ -691,7 +721,7 @@ def remove_generated_generic_paragraphs(section: Tag) -> bool:
             continue
         if sibling.name != "p":
             break
-        text = " ".join(sibling.get_text(" ", strip=True).split())
+        text = normalize_match_text(sibling.get_text(" ", strip=True))
         if any(pattern.search(text) for pattern in GENERATED_GENERIC_PATTERNS + SCAFFOLD_PARAGRAPH_PATTERNS):
             sibling.decompose()
             changed = True
