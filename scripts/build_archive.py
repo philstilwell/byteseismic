@@ -4467,6 +4467,27 @@ DIALECTICAL_SECTION_RE = re.compile(
     re.DOTALL,
 )
 
+DIALECTICAL_MARKER_RE = re.compile(
+    r"^(?:phil[’']s\s+)?push\s*back(?:\s+(?:on|for)\b[^:?]*)?\s*:?[.!]?$",
+    re.IGNORECASE,
+)
+DIALECTICAL_ACKNOWLEDGMENT_RE = re.compile(
+    r"\b(?:"
+    r"you(?:[’']re| are) (?:absolutely )?(?:right|correct)|"
+    r"you (?:raise|make|bring up) (?:a )?(?:valid|good|excellent|important|compelling) (?:point|observation|challenge|argument)|"
+    r"your pushback (?:raises|introduces|identifies)|"
+    r"your (?:clarification|elaboration)\b.{0,80}\b(?:brings|adds|makes|provides)|"
+    r"i (?:agree|accept|apologize|concede|stand corrected)|"
+    r"that(?:[’']s| is) (?:correct|a valid point)|"
+    r"the (?:objection|pushback) (?:rightly|correctly)|"
+    r"my (?:earlier|initial|previous) (?:answer|response|reasoning)|"
+    r"reconsider(?:ing|ed)|realign(?:ment|ed)|revised|"
+    r"overly rigid|primary error|failed to (?:distinguish|recognize)|"
+    r"acknowledge(?:s|d)? your"
+    r")\b",
+    re.IGNORECASE,
+)
+
 
 def clean_text(value: str | None) -> str:
     if not value:
@@ -17319,74 +17340,392 @@ def semantic_map_paragraph(page: dict, prompt: str = "", detail: dict | None = N
     )
 
 
-def stance_change_evidence(text: str) -> list[str]:
-    cleaned = clean_text(text)
+def is_dialectical_marker_heading(text: str) -> bool:
+    cleaned = strip_number_prefix(text).strip()
     lowered = cleaned.lower()
-    evidence: list[str] = []
-    if re.search(r"\bai(?:s)? can be convinced to revise\b|\brevise their responses\b", lowered):
-        evidence.append(
-            "The exchange explicitly shows that sustained logical pushback can make an AI revise a prior answer rather than merely decorate it."
+    if DIALECTICAL_MARKER_RE.fullmatch(cleaned):
+        return True
+    return len(cleaned) <= 140 and bool(
+        re.match(
+            r"^(?:again,?\s+)?(?:i (?:(?:want|need|am going) to|must) (?:continue to )?|let me )push\s*back\b",
+            lowered,
         )
-    if re.search(r"\bconced(?:e|ed|ing)\b|\bfinal concession\b|\bconcession came\b", lowered):
-        evidence.append(
-            "A concession matters here because the later answer gives ground that the earlier answer had resisted or failed to see."
+        and (cleaned.endswith(":") or "as follows" in lowered)
+    )
+
+
+def is_dialectical_prompt_heading(text: str) -> bool:
+    cleaned = strip_number_prefix(text).strip()
+    lowered = cleaned.lower()
+    if not cleaned or is_low_value_heading(cleaned):
+        return False
+    if is_dialectical_marker_heading(cleaned):
+        return True
+    if re.search(r"\bphil[’']s push\s*back\b|^push\s*back\s*:|\(\s*push\s*back\s*\)", lowered):
+        return True
+    if re.search(
+        r"\b(?:i (?:(?:want|need|am going) to|must) (?:continue to )?|let me )push\s*back\b",
+        lowered,
+    ):
+        return True
+    if re.search(r"\bi want to (?:take issue|challenge|object)\b|\bi (?:actually )?disagree\b", lowered):
+        return True
+    if re.search(
+        r"\b(?:your|the) (?:previous |prior |last )?(?:response|answer)\s+"
+        r"(?:appears?|seems?|is|was)\s+(?:flawed|incorrect|circular|equivalent|trivially true)",
+        lowered,
+    ):
+        return True
+    if re.search(r"\b(?:in|based on) your (?:previous |prior |last )?(?:response|answer)\b", lowered):
+        return True
+    if re.search(r"\byou (?:said|stated|claimed|suggested|invoke|refer to|appeal to)\b", lowered):
+        return True
+    if re.search(r"\bplease try again\b|\bwithout (?:this )?circularity\b", lowered):
+        return True
+    if re.search(r"\b(?:appreciate|accept) (?:that|the) realignment\b|\bbased on your reconsideration\b", lowered):
+        return True
+    if re.search(r"\bstill (?:assumes?|invokes?|depends?|rests?|uses?)\b", lowered) and "?" in cleaned:
+        return True
+    if re.match(r"^(?:but|however|yet|then|so|to confirm|just to confirm|let me restate)\b", lowered):
+        return "?" in cleaned or lowered.endswith(("right", "right?", "correct", "correct?", "agreed", "agreed?"))
+    if is_low_value_prompt(cleaned):
+        return False
+    return False
+
+
+def source_heading_boundary(heading: Tag, dialectical_headings: list[Tag]) -> Tag | None:
+    for candidate in heading.find_all_next(re.compile(r"^h[1-6]$")):
+        if candidate is heading:
+            continue
+        if candidate.name == "h2" or candidate in dialectical_headings:
+            return candidate
+    return None
+
+
+def source_tags_between(start: Tag, stop: Tag | None) -> list[Tag]:
+    tags: list[Tag] = []
+    for element in start.next_elements:
+        if element is stop:
+            break
+        if isinstance(element, Tag):
+            tags.append(element)
+    return tags
+
+
+def compact_source_exchange_text(text: str, limit: int = 560) -> str:
+    cleaned = rewrite_curator_references(clean_text(text))
+    cleaned = re.sub(
+        r"^(?:the curator[’']s|phil[’']s)\s+push\s*back\s*:\s*",
+        "",
+        cleaned,
+        flags=re.IGNORECASE,
+    )
+    cleaned = re.sub(r"\b(?:ChatGPT|Gemini|Claude)\s*:\s*", "", cleaned, count=1, flags=re.IGNORECASE)
+    return compact_text(cleaned, limit)
+
+
+def source_column_texts_between(start: Tag, stop: Tag | None) -> list[str]:
+    if start.find_parent("div", class_="wp-block-column") is not None:
+        return []
+    texts: list[str] = []
+    seen_columns: set[int] = set()
+    for element in source_tags_between(start, stop):
+        if element.name != "div" or "wp-block-column" not in (element.get("class") or []):
+            continue
+        element_id = id(element)
+        if element_id in seen_columns:
+            continue
+        seen_columns.add(element_id)
+        text = clean_text(element.get_text(" ", strip=True))
+        if len(text.split()) >= 8:
+            texts.append(text)
+    return dedupe(texts)
+
+
+def source_paragraph_texts_between(start: Tag, stop: Tag | None) -> list[str]:
+    texts: list[str] = []
+    for element in source_tags_between(start, stop):
+        if element.name not in {"p", "li"}:
+            continue
+        if element.find_parent(["nav", "footer"]):
+            continue
+        text = clean_text(element.get_text(" ", strip=True))
+        if len(text.split()) < 4 or "table of contents" in text.lower():
+            continue
+        texts.append(text)
+    return dedupe(texts)
+
+
+def response_excerpt_from_parts(parts: list[str]) -> tuple[str, bool]:
+    if not parts:
+        return "", False
+    acknowledgment_index = next(
+        (index for index, part in enumerate(parts) if DIALECTICAL_ACKNOWLEDGMENT_RE.search(part)),
+        None,
+    )
+    start_index = acknowledgment_index if acknowledgment_index is not None else 0
+    combined = " ".join(parts[start_index:start_index + 3])
+    excerpt = compact_source_exchange_text(combined)
+    revised = bool(DIALECTICAL_ACKNOWLEDGMENT_RE.search(combined))
+    return excerpt, revised
+
+
+def direct_dialectical_exchange(
+    heading: Tag,
+    dialectical_headings: list[Tag],
+    prompt_override: str = "",
+) -> dict | None:
+    boundary = source_heading_boundary(heading, dialectical_headings)
+    prompt = compact_source_exchange_text(prompt_override or heading.get_text(" ", strip=True))
+    if not prompt:
+        return None
+
+    paragraph_texts = source_paragraph_texts_between(heading, boundary)
+    acknowledged_paragraphs = any(
+        DIALECTICAL_ACKNOWLEDGMENT_RE.search(paragraph)
+        for paragraph in paragraph_texts
+    )
+    column_texts = source_column_texts_between(heading, boundary)
+    responses: list[dict] = []
+    if acknowledged_paragraphs:
+        excerpt, revised = response_excerpt_from_parts(paragraph_texts)
+        if excerpt:
+            responses.append({"text": excerpt, "revised": revised})
+    elif column_texts:
+        for column_text in column_texts[:3]:
+            excerpt, revised = response_excerpt_from_parts([column_text])
+            if excerpt:
+                responses.append({"text": excerpt, "revised": revised})
+    else:
+        excerpt, revised = response_excerpt_from_parts(paragraph_texts)
+        if excerpt:
+            responses.append({"text": excerpt, "revised": revised})
+
+    if not responses:
+        return None
+    return {"prompt": prompt, "responses": responses}
+
+
+def marker_dialectical_exchanges(marker: Tag, next_h2: Tag | None) -> list[dict]:
+    sibling_blocks: list[Tag] = []
+    for sibling in marker.next_siblings:
+        if sibling is next_h2:
+            break
+        if isinstance(sibling, Tag):
+            sibling_blocks.append(sibling)
+
+    column_groups: list[list[str]] = []
+    outside_texts: list[str] = []
+    for block in sibling_blocks:
+        if block.name == "div" and "wp-block-columns" in (block.get("class") or []):
+            columns = [
+                clean_text(column.get_text(" ", strip=True))
+                for column in block.find_all("div", recursive=False)
+                if "wp-block-column" in (column.get("class") or [])
+                and len(clean_text(column.get_text(" ", strip=True)).split()) >= 8
+            ]
+            if columns:
+                column_groups.append(columns)
+            continue
+        if block.name in {"h3", "h4", "h5", "p", "ol", "ul"}:
+            text = clean_text(block.get_text(" ", strip=True))
+            if len(text.split()) >= 4:
+                outside_texts.append(text)
+
+    exchanges: list[dict] = []
+    if outside_texts and column_groups:
+        marker_text = clean_text(marker.get_text(" ", strip=True))
+        prompt_parts = list(outside_texts)
+        if not DIALECTICAL_MARKER_RE.fullmatch(marker_text):
+            prompt_parts.insert(0, marker_text)
+        prompt = compact_source_exchange_text(" ".join(dedupe(prompt_parts)))
+        responses = []
+        for group in column_groups:
+            for column_text in group:
+                excerpt, revised = response_excerpt_from_parts([column_text])
+                if excerpt:
+                    responses.append({"text": excerpt, "revised": revised})
+                if len(responses) >= 3:
+                    break
+            if len(responses) >= 3:
+                break
+        if prompt and responses:
+            exchanges.append({"prompt": prompt, "responses": responses})
+        return exchanges
+
+    if len(column_groups) >= 2:
+        prompt_columns = column_groups[0]
+        response_columns = column_groups[1]
+        for index, prompt_column in enumerate(prompt_columns[:3]):
+            response_column = response_columns[index] if index < len(response_columns) else response_columns[0]
+            prompt = compact_source_exchange_text(prompt_column)
+            excerpt, revised = response_excerpt_from_parts([response_column])
+            if prompt and excerpt:
+                exchanges.append(
+                    {"prompt": prompt, "responses": [{"text": excerpt, "revised": revised}]}
+                )
+        return exchanges
+
+    if outside_texts:
+        acknowledgment_index = next(
+            (index for index, part in enumerate(outside_texts) if DIALECTICAL_ACKNOWLEDGMENT_RE.search(part)),
+            None,
         )
-    if re.search(r"\breconsider(?:ed|ing)?\b|\brealignment\b|\breflection on the flaw\b|\brevised breakdown\b", lowered):
-        evidence.append(
-            "The prompt sequence includes reconsideration: the response is revised after the weakness in the first framing becomes visible."
+        if acknowledgment_index not in {None, 0}:
+            prompt = compact_source_exchange_text(" ".join(outside_texts[:acknowledgment_index]))
+            excerpt, revised = response_excerpt_from_parts(outside_texts[acknowledgment_index:])
+            if prompt and excerpt:
+                exchanges.append(
+                    {"prompt": prompt, "responses": [{"text": excerpt, "revised": revised}]}
+                )
+    return exchanges
+
+
+def extract_dialectical_exchanges(content_html: str, title: str) -> list[dict]:
+    root = source_root(content_html)
+    headings = root.find_all(re.compile(r"^h[2-5]$"))
+    dialectical_headings = [
+        heading
+        for heading in headings
+        if is_dialectical_prompt_heading(heading.get_text(" ", strip=True))
+        and (
+            heading.name == "h2"
+            or "has-text-align-center" in (heading.get("class") or [])
+            or "pushback" in clean_text(heading.get_text(" ", strip=True)).lower()
         )
-    if re.search(r"\bpush\s*back\b|\bpushback\b|\bfirm reiteration\b", lowered):
-        evidence.append(
-            "The curator's pushback is part of the argument, not a side note; it supplies the pressure that forces the response to become more exact."
-        )
-    if re.search(r"\bshift my view\b|\bdissenting assessments\b|\breasoning adjustments\b", lowered):
-        evidence.append(
-            "The exchange tests whether outside dissent changes the model's assessment, making self-correction one of the page's central lessons."
-        )
-    if re.search(r"\bwas wrong\b|\byou(?:'re| are| were) right\b|\bright to point out\b", lowered):
-        evidence.append(
-            "The response includes an acknowledgment of error or correction, which should be preserved as a genuine epistemic turn."
-        )
-    return dedupe(evidence)
+    ]
+    if not dialectical_headings:
+        return []
+
+    exchanges: list[dict] = []
+    consumed: set[int] = set()
+    for heading in dialectical_headings:
+        if id(heading) in consumed:
+            continue
+        heading_text = clean_text(heading.get_text(" ", strip=True))
+        if is_dialectical_marker_heading(heading_text):
+            next_h2 = heading.find_next("h2")
+            marker_section_tags = source_tags_between(heading, next_h2)
+            marker_section_tag_ids = {id(tag) for tag in marker_section_tags}
+            nested_prompts: list[Tag] = []
+            for candidate in marker_section_tags:
+                if candidate.name in {"p", "li"} and len(clean_text(candidate.get_text(" ", strip=True)).split()) >= 4:
+                    break
+                if candidate.name == "div" and "wp-block-columns" in (candidate.get("class") or []):
+                    break
+                if (
+                    candidate.name in {"h3", "h4", "h5"}
+                    and id(candidate) in marker_section_tag_ids
+                    and "has-text-align-center" in (candidate.get("class") or [])
+                    and (
+                        looks_like_prompt(candidate.get_text(" ", strip=True))
+                        or is_dialectical_prompt_heading(candidate.get_text(" ", strip=True))
+                    )
+                ):
+                    nested_prompts.append(candidate)
+            if nested_prompts:
+                prompt_override = " ".join(
+                    clean_text(candidate.get_text(" ", strip=True))
+                    for candidate in nested_prompts
+                )
+                exchange = direct_dialectical_exchange(
+                    nested_prompts[-1],
+                    dialectical_headings,
+                    prompt_override=prompt_override,
+                )
+                consumed.update(id(candidate) for candidate in nested_prompts)
+                if exchange:
+                    exchanges.append(exchange)
+                continue
+
+            marker_exchanges = marker_dialectical_exchanges(heading, next_h2)
+            if marker_exchanges:
+                exchanges.extend(marker_exchanges)
+                continue
+
+            if next_h2 is not None and looks_like_prompt(next_h2.get_text(" ", strip=True)):
+                exchange = direct_dialectical_exchange(next_h2, dialectical_headings)
+                consumed.add(id(next_h2))
+                if exchange:
+                    exchanges.append(exchange)
+            continue
+
+        exchange = direct_dialectical_exchange(heading, dialectical_headings)
+        if exchange:
+            exchanges.append(exchange)
+
+    deduped: list[dict] = []
+    seen_prompts: set[str] = set()
+    for exchange in exchanges:
+        normalized = normalized_phrase(exchange.get("prompt", ""))
+        if not normalized or normalized in seen_prompts:
+            continue
+        seen_prompts.add(normalized)
+        deduped.append(exchange)
+    return deduped[:8]
 
 
 def page_stance_change_evidence(page: dict) -> list[str]:
-    combined_parts = [page.get("source_text", "")]
-    for detail in page.get("source_prompt_details", []):
-        combined_parts.extend(detail.get("paragraphs", []))
-        combined_parts.extend(detail.get("items", []))
-        combined_parts.extend(turn.get("text", "") for turn in detail.get("dialogue_turns", []))
-        for child in detail.get("children", []):
-            combined_parts.append(child.get("title", ""))
-            combined_parts.extend(child.get("paragraphs", []))
-            combined_parts.extend(child.get("items", []))
-    return stance_change_evidence(" ".join(combined_parts))
+    exchanges = page.get("dialectical_exchanges", [])
+    if exchanges:
+        revised_count = sum(
+            1
+            for exchange in exchanges
+            for response in exchange.get("responses", [])
+            if response.get("revised")
+        )
+        evidence = [
+            f"The source preserves {len(exchanges)} distinct challenge-and-response turn{'s' if len(exchanges) != 1 else ''}."
+        ]
+        if revised_count:
+            evidence.append(
+                f"In {revised_count} follow-up response{'s' if revised_count != 1 else ''}, the AI explicitly acknowledges the objection, corrects itself, or gives ground."
+            )
+        return evidence
+    return []
 
 
 def stance_change_section(page: dict) -> dict | None:
+    exchanges = page.get("dialectical_exchanges", [])
     evidence = page_stance_change_evidence(page)
     if not evidence:
         return None
     topic = topic_label(page["title"])
+    dialogue_turns: list[dict] = []
+    for exchange in exchanges:
+        prompt = clean_text(exchange.get("prompt", ""))
+        if not prompt:
+            continue
+        dialogue_turns.append({"speaker": "Curator’s challenge", "text": prompt})
+        responses = exchange.get("responses", [])
+        for response_index, response in enumerate(responses, start=1):
+            response_text = clean_text(response.get("text", ""))
+            if not response_text:
+                continue
+            response_label = "AI revision" if response.get("revised") else "AI follow-up"
+            if len(responses) > 1:
+                response_label = f"{response_label} {response_index}"
+            dialogue_turns.append({"speaker": response_label, "text": response_text})
     return {
         "id": "dialectical-turn",
-        "eyebrow": "Dialectical Turn",
-        "heading": f"The exchange around {topic} includes a real movement of judgment.",
+        "eyebrow": "Recovered Exchange",
+        "heading": f"The pushback and follow-up around {topic} belong to the argument.",
         "paragraphs": [
             (
-                "One pedagogical value of this page is that the prompts do not merely ask for more content. "
-                "They sometimes force a model to retreat, concede, revise a category, or reframe the answer after the curator's pressure exposes a weakness."
+                "The original page did not stop with the AI's first answer. The curator challenged that answer, "
+                "and the AI then had to respond to the objection. Those turns are restored below in source order."
             ),
             (
-                "That movement should be read as part of the argument. The important lesson is not simply that an AI changed its wording, "
-                "but that a better prompt can make a prior stance answerable to logic, counterexample, or conceptual pressure."
+                "The excerpts are lightly shortened for readability, but they preserve the particular objection and the substance of the follow-up. "
+                "A response is labeled as a revision only when it explicitly acknowledges the correction or retreats from the earlier framing."
             ),
         ],
-        "list_items": evidence[:5],
+        "dialogue_turns": dialogue_turns,
+        "list_items": evidence,
         "learning_items": [
-            f"Track the turn in {topic}: identify what the first answer missed and what pressure forced the later answer to change.",
-            f"Do not treat concession as decoration; on this page, the revision is part of the argument about {topic}.",
-            "Ask whether the later stance is genuinely stronger, or merely more cautious in tone.",
+            f"Compare the first answer on {topic} with the follow-up rather than reading either in isolation.",
+            "Identify exactly what the pushback challenged: an assumption, a definition, a missing distinction, or an unsupported inference.",
+            "Ask whether the follow-up genuinely changes the reasoning or only softens the wording.",
         ],
     }
 
@@ -24317,6 +24656,7 @@ def render_dialectical_turn_html(page: dict) -> str:
     section = stance_change_section(page)
     if not section:
         return ""
+    dialogue_html = render_dialogue_card(section.get("dialogue_turns", []), "")
     return textwrap.dedent(
         f"""\
           <section class="article-section" id="dialectical-turn">
@@ -24325,6 +24665,7 @@ def render_dialectical_turn_html(page: dict) -> str:
             </div>
             <h2>{html.escape(section["heading"])}</h2>
             {render_paragraphs(section.get("paragraphs", []))}
+            {dialogue_html}
             {render_list_section(section.get("list_items", []))}
             {render_learning_card(section.get("learning_items", []))}
           </section>"""
@@ -24339,10 +24680,13 @@ def inject_dialectical_turn_into_manual_page(target: Path, page: dict) -> bool:
         return False
 
     turn_html = render_dialectical_turn_html(page)
-    if not turn_html:
-        return False
-
     cleaned = DIALECTICAL_SECTION_RE.sub("\n", existing)
+    if not turn_html:
+        if cleaned == existing:
+            return False
+        target.write_text(cleaned)
+        return True
+
     markers = [
         r"\n\s*<section\b(?=[^>]*\bclass=\"article-section quiz-section\")(?=[^>]*\bdata-quiz\b)",
         r"\n\s*<section class=\"article-section\" id=\"synthesis\">",
@@ -25077,6 +25421,7 @@ def main() -> None:
         source_prompts, thread_like, _paragraphs = ([], [], [])
         source_prompt_details: list[dict] = []
         dialogue_sections: dict[str, dict] = {}
+        dialectical_exchanges: list[dict] = []
         chart_tables: list[dict] = []
         quiz_discussion_items: list[str] = []
         special_payload: dict | None = None
@@ -25090,6 +25435,10 @@ def main() -> None:
                 clean_text(title),
             )
             source_prompt_details = extract_source_prompt_details(
+                post.get("content", ""),
+                clean_text(title),
+            )
+            dialectical_exchanges = extract_dialectical_exchanges(
                 post.get("content", ""),
                 clean_text(title),
             )
@@ -25133,6 +25482,7 @@ def main() -> None:
             "source_prompts": source_prompts,
             "source_prompt_details": source_prompt_details,
             "dialogue_sections": dialogue_sections,
+            "dialectical_exchanges": dialectical_exchanges,
             "chart_tables": chart_tables,
             "quiz_discussion_items": quiz_discussion_items,
             "thread_like": thread_like,
@@ -25490,6 +25840,10 @@ def main() -> None:
         link_static_tag_chips(target)
     cleanup_auto_generated(valid_targets)
     write_robots_and_sitemap(generated_pages)
+    subprocess.run(
+        [sys.executable, str(ROOT / "scripts" / "check_dialectical_preservation.py")],
+        check=True,
+    )
     subprocess.run([sys.executable, str(ROOT / "scripts" / "site_audit.py")], check=True)
 
     print(f"Generated or updated {len(generated_pages)} content pages.")
