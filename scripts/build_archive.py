@@ -6353,54 +6353,49 @@ def current_batch_generic_paragraphs(page: dict, prompt: str, detail: dict | Non
     if command_like_key(key_text):
         key_text = topic
     section_angles = {
-        "economics": "The payoff is not verbal elegance but a clearer grip on incentives, tradeoffs, and where the costs actually land.",
-        "epistemology": "The payoff is calibrated confidence: what the evidence earns, what it does not earn, and what would justify revision.",
-        "rational-thought": "The payoff is operational reasoning: the reader should leave with a habit that survives contact with an actual decision.",
-        "ethics": "The payoff is sharper moral bookkeeping: which claim is descriptive, which is normative, and which source of authority is doing the work.",
-        "philosophical-inquiry": "The payoff is intellectual honesty: the reader should see which part of the claim invites scrutiny and which part is trying to dodge it.",
-        "philosophy-of-ai": "The payoff is not tech awe but cleaner distinctions about prediction, fluency, responsibility, and earned trust.",
-        "philosophy-of-language": "The payoff is linguistic discipline: the wording should change what the reader can separate, not just what the reader can repeat.",
-        "philosophy-of-mind": "The payoff is a cleaner split between experience, mechanism, and what can actually count as explanation.",
-        "metaphysics": "The payoff is ontological discipline: the section should separate what must be posited from what is merely being suggested.",
-        "introduction": "The payoff is orientation: the reader should know where the question belongs and how to keep it connected to a philosophical life.",
-        "humanistic-philosophies": "The payoff is existential clarity: the section should sharpen how a reader weighs meaning, purpose, and lived pressure.",
-        "miscellany": "The payoff is transfer: the side path should still illuminate a stable philosophical pressure rather than drift into novelty.",
+        "economics": "Keep the mechanism visible: who changes behavior, who pays the cost, and which tradeoff is easiest to hide.",
+        "epistemology": "Keep confidence tied to evidence rather than to social comfort, inherited vocabulary, or rhetorical force.",
+        "rational-thought": "The page improves when the distinction can be carried into a fresh decision instead of staying trapped in this example.",
+        "ethics": "The pressure is to separate moral feeling, moral language, and moral authority before they get treated as the same thing.",
+        "philosophical-inquiry": "A useful section here should make self-correction feel necessary rather than ceremonial.",
+        "philosophy-of-ai": "The important split is between fluent output and earned trust, especially when a system starts sounding wiser than its reasons.",
+        "philosophy-of-language": "The wording matters because small verbal shifts can quietly change what the reader thinks follows.",
+        "philosophy-of-mind": "Hold together lived experience, explanatory mechanism, and the limits of what current models can really justify.",
+        "metaphysics": "Keep asking what reality would have to be like for the claim to be true, rather than what the language merely invites us to imagine.",
+        "introduction": "Good orientation here should make the next step in a philosophical life clearer, not just make philosophy sound inviting.",
+        "humanistic-philosophies": "The section should show how a worldview changes actual posture toward meaning, finitude, agency, or consolation.",
+        "miscellany": "The side path earns its place when it sharpens a durable philosophical question rather than drifting into novelty for its own sake.",
     }
     focus_openers = {
-        "definition": f"The section should clarify how {key_text} is being used, where it separates from nearby ideas, and why the sharper boundary matters in practice.",
-        "mapping": f"The section works only if the reader can see how {label_text} connect, compete, or depend on one another rather than collapsing into one blurred inventory.",
-        "examples": f"The payoff here is practical. A concrete case should make {key_text} easier to test, not merely easier to paraphrase.",
-        "argument": f"The pressure point is whether {key_text} survives the strongest reasonable objection rather than only sounding plausible in isolation.",
-        "description": f"The description earns its keep only if it teaches the reader what to notice first about {key_text} and what confusion to avoid.",
-        "inquiry": f"The question matters because it changes what the reader would now compare, doubt, or investigate about {key_text}.",
+        "definition": f"The first job is to make {key_text} usable in borderline cases, not just easier to repeat.",
+        "mapping": f"The useful map here is the relation among {label_text}, because those pieces do different work.",
+        "examples": f"The value of this section lies in seeing what {key_text} looks like once it is placed inside an actual case.",
+        "argument": f"The argument becomes clearer once the load-bearing claim behind {key_text} is stated without ornament.",
+        "description": f"A good description of {key_text} should tell the reader what to notice first and what to stop blurring together.",
+        "inquiry": f"This question is worth keeping because it changes how {key_text} should be judged, not merely how it is phrased.",
     }
-    paragraphs = [
-        focus_openers.get(focus, focus_openers["inquiry"]),
-        section_angles.get(section_id, "The payoff should be a judgment the reader can actually use outside this single page."),
-    ]
+    paragraphs = [focus_openers.get(focus, focus_openers["inquiry"])]
     claim = first_source_claim(detail)
     if claim and not source_sentence_is_incomplete(claim):
-        paragraphs.append(f"At the center is a simpler claim: {claim}")
+        paragraphs.append(claim)
     elif current_labels:
         paragraphs.append(
-            f"The useful distinctions here run through {label_text}. Those parts matter because they do different explanatory work inside {topic}."
+            f"The useful distinctions here run through {label_text}. Those parts matter because they answer different questions inside {topic}."
         )
     if current_labels:
         if len(current_labels) >= 2:
             paragraphs.append(
-                f"{current_labels[0]} and {current_labels[1]} need to stay distinct here, because they answer different questions and carry different explanatory weight."
+                f"{current_labels[0]} should not be collapsed into {current_labels[1]}, because each changes the reader's judgment in a different way."
             )
         else:
             paragraphs.append(
-                f"{current_labels[0]} should act as a real lever in the discussion, not as a heading that merely makes the page look organized."
+                f"{current_labels[0]} should behave like a working distinction here, not like a decorative heading."
             )
     else:
         paragraphs.append(
-            f"The section should leave {topic} more operational than it found it: clearer about what is being claimed, what would test it, and what would force revision."
+            section_angles.get(section_id, f"The section should leave {topic} clearer about what is being claimed, what would test it, and what would require revision.")
         )
-    paragraphs.append(
-        f"A good reading test is whether the section makes {topic} easier to carry into a neighboring case without smuggling in vagueness, prestige, or canned agreement."
-    )
+    paragraphs.append(section_angles.get(section_id, "The section should leave behind a judgment a reader could reuse outside this one page."))
     return paragraphs[:4]
 
 
@@ -18556,10 +18551,7 @@ def intermediate_reader_paragraph(page: dict, prompt: str, focus: str) -> str:
             "ethics": "Keep moral language, motivation, and authority distinct even when they arrive together in ordinary speech.",
             "metaphysics": "Ask whether the page is claiming existence, dependence, possibility, or just a tempting way of talking.",
         }
-        return (
-            f"Read {label_text} as separate levers in the argument rather than as polished terminology. "
-            f"{branch_guides.get(section_id, profile['pressure'])}"
-        )
+        return f"Keep {label_text} distinct while reading. {branch_guides.get(section_id, profile['pressure'])}"
     if section_id == "philosophers":
         family = philosopher_prompt_family(page, prompt)
         if family == "influence":
@@ -18735,9 +18727,9 @@ def reader_test_paragraph(page: dict, prompt: str, focus: str) -> str:
             "examples": "The example should make the abstraction easier to use and harder to misuse.",
         }
         return (
-            f"A stronger reader should be able to carry {key_text} into a neighboring case without needing the whole page repeated. "
+            f"A reader should be able to carry {key_text} into a neighboring case without needing the whole page repeated. "
             f"{focus_tests.get(focus, 'The section should leave behind a practical contrast, question, or warning sign that still works outside this one discussion.')} "
-            f"That is what keeps the page connected to {profile['lens']} rather than turning it into polished recap."
+            f"That is what keeps the page connected to {profile['lens']}."
         )
     focus_tests = {
         "dialogue": "A good dialogue should let the reader feel the pressure of both sides before the answer settles.",
@@ -19401,20 +19393,18 @@ def worked_example_paragraph(page: dict, prompt: str, detail: dict | None, focus
         current_label_text = serial_join(current_labels) or label_text
         if focus == "definition":
             return (
-                f"Put the distinction under pressure. Imagine two careful readers agreeing on the broad topic but disagreeing over whether {current_label_text} belong inside {key_text}. "
-                "The section succeeds only if it gives the reader a principled way to sort the case."
+                f"Use one borderline case to test the definition: would both {current_label_text} still count under {key_text}, or does one belong elsewhere?"
             )
         if focus == "mapping":
             return (
-                f"Run one live case through the structure. Ask how changing {current_label_text} would alter the rest of the picture rather than merely relabel one box on the page."
+                f"Run one live case through the structure and ask how altering {current_label_text} changes the rest of the picture."
             )
         if focus == "argument":
             return (
-                f"Picture a serious critic who grants the background but resists the move toward {key_text}. "
-                "That is where the reasoning either earns its conclusion or reveals the missing step."
+                f"Bring in a serious critic who grants the background but rejects the move toward {key_text}; that is where the missing step, if any, will show."
             )
         return (
-            f"Put the issue into a live setting. What would someone notice sooner, question more carefully, or stop assuming once {current_label_text} are handled with more precision?"
+            f"A live example helps here: once {current_label_text} are handled more carefully, what should a reader notice or stop assuming?"
         )
     if page["section_id"] == "philosophers":
         family = philosopher_prompt_family(page, prompt)

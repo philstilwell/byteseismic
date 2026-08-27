@@ -1,6 +1,6 @@
 # Byteseismic Editorial Audit Tracker
 
-Generated: 2026-08-25
+Generated: 2026-08-27
 Batch size: 50 pages
 Current cycle: 6
 Current queue start: 251 of 346
@@ -24,55 +24,55 @@ Pages are queued deterministically by priority band, then by weakest score, then
 
 | # | Branch | Page | Priority | Worst | Focus |
 | ---: | --- | --- | --- | ---: | --- |
-| 251 | Ethics | [Value & Morality in Diversity?](../ethics/value-morality-in-diversity/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 252 | Humanistic Philosophies | [Are Humans More Egoistic or Altruistic?](../humanistic-philosophies/are-humans-more-egoistic-or-altruistic/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 253 | Humanistic Philosophies | [Existentialism: Key Concepts](../humanistic-philosophies/existentialism-key-concepts/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 254 | Humanistic Philosophies | [New Manifestations of Theism](../humanistic-philosophies/new-manifestations-of-theism/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 255 | Introduction | [Studying Philosophy: Resources](../introduction/studying-philosophy-resources/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 256 | Metaphysics | [A Taxonomy of Impossibilities](../metaphysics/a-taxonomy-of-impossibilities/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 257 | Metaphysics | [Are Quantum Physics “Spiritual”?](../metaphysics/are-quantum-physics-spiritual/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 258 | Metaphysics | [Could Mind be Fundamental?](../metaphysics/could-mind-be-fundamental/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 259 | Metaphysics | [Emergence](../metaphysics/emergence/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 260 | Metaphysics | [Energy & Psychic Phenomena](../metaphysics/energy-psychic-phenomena/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 261 | Metaphysics | [Explanations](../metaphysics/explanations/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 262 | Metaphysics | [Matthew Pirkowski on Emergence](../metaphysics/matthew-pirkowski-on-emergence/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 263 | Metaphysics | [Metaphysics – Core Concepts](../metaphysics/metaphysics-core-concepts/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 264 | Metaphysics | [Ontological Domains](../metaphysics/ontological-domains/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 265 | Metaphysics | [Stuart Kauffman on Emergence](../metaphysics/stuart-kauffman-on-emergence/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 266 | Metaphysics | [The Principle of Sufficient Reason](../metaphysics/the-principle-of-sufficient-reason/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 267 | Miscellany | [Complexity Theory](../miscellany/complexity-theory/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 268 | Miscellany | [Cross-Culture Emotional Dispositions](../miscellany/cross-culture-emotional-dispositions/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 269 | Miscellany | [David Krakauer on Complexity](../miscellany/david-krakauer-on-complexity/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 270 | Miscellany | [Domains of Aesthetics](../miscellany/domains-of-aesthetics/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 271 | Miscellany | [Flack & Mitchell on Complexity](../miscellany/flack-mitchell-on-complexity/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 272 | Miscellany | [Information Theory](../miscellany/information-theory/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 273 | Miscellany | [Sara Walker on Life’s Emergence](../miscellany/sara-walker-on-lifes-emergence/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 274 | Miscellany | [The Fantastical & Historical Truth](../miscellany/the-fantastical-historical-truth/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 275 | Miscellany | [Zak Stein on Complexity](../miscellany/zak-stein-on-complexity/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 276 | Philosophical Inquiry | [Appreciating our Insignificance](../philosophical-inquiry/appreciating-our-insignificance/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 277 | Philosophical Inquiry | [Charitable Engagement](../philosophical-inquiry/charitable-engagement/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 278 | Philosophical Inquiry | [Dangers: Anti-Intellectualism](../philosophical-inquiry/dangers-anti-intellectualism/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 279 | Philosophical Inquiry | [Dangers: Gaslighting](../philosophical-inquiry/dangers-gaslighting/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 280 | Philosophical Inquiry | [Dangers: Limits on Doubt](../philosophical-inquiry/dangers-limits-on-doubt/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 281 | Philosophical Inquiry | [Dangers: Removing the Impossible](../philosophical-inquiry/dangers-removing-the-impossible/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 282 | Philosophy of AI | [AI Censorship Case](../philosophy-of-ai/ai-censorship-case/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 283 | Philosophy of AI | [AI Meta-Post — Inner Monologues](../philosophy-of-ai/ai-meta-post-inner-monologues/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 284 | Philosophy of AI | [AI Meta-Post — Overreach](../philosophy-of-ai/ai-meta-post-overreach/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 285 | Philosophy of AI | [The Double Descent Phenomenon](../philosophy-of-ai/the-double-descent-phenomenon/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 286 | Philosophy of Language | [Abandoned Words](../philosophy-of-language/abandoned-words/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 287 | Philosophy of Language | [Connotative Equivocation](../philosophy-of-language/connotative-equivocation/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 288 | Philosophy of Language | [Language & the Brain](../philosophy-of-language/language-the-brain/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 289 | Philosophy of Language | [Linguistic Scaffolding](../philosophy-of-language/linguistic-scaffolding/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 290 | Philosophy of Language | [Needless Semantic Complexity](../philosophy-of-language/needless-semantic-complexity/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 291 | Philosophy of Language | [Nomological Density of Grammar](../philosophy-of-language/nomological-density-of-grammar/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 292 | Philosophy of Language | [The Power of Analogy](../philosophy-of-language/the-power-of-analogy/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 293 | Philosophy of Language | [Thought = Language?](../philosophy-of-language/thought-language/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 294 | Philosophy of Mind | [Are there Selfless Acts?](../philosophy-of-mind/are-there-selfless-acts/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 295 | Philosophy of Mind | [Land Ownership](../philosophy-of-mind/land-ownership/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 296 | Philosophy of Mind | [Philosophy of Mind — Core Concepts](../philosophy-of-mind/philosophy-of-mind-core-concepts/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 297 | Philosophy of Mind | [Preferences = Pleasures?](../philosophy-of-mind/preferences-pleasures/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 298 | Philosophy of Science | [Confounding Variables](../philosophy-of-science/confounding-variables/) | polish | 100 | 4 prompt sections are polish opportunities |
-| 299 | Philosophy of Science | [Hard vs Soft Sciences](../philosophy-of-science/hard-vs-soft-sciences/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 135 | Ethics | [Value & Morality in Diversity?](../ethics/value-morality-in-diversity/) | polish | 90 | 4 prompt sections are polish opportunities |
+| 294 | Humanistic Philosophies | [Are Humans More Egoistic or Altruistic?](../humanistic-philosophies/are-humans-more-egoistic-or-altruistic/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 3 | Humanistic Philosophies | [Existentialism: Key Concepts](../humanistic-philosophies/existentialism-key-concepts/) | review | 55 | 2 prompt sections need review; 2 prompt sections need gap fill |
+| 9 | Humanistic Philosophies | [New Manifestations of Theism](../humanistic-philosophies/new-manifestations-of-theism/) | review | 68 | 4 prompt sections need review; 4 prompt sections need gap fill |
+| 19 | Introduction | [Studying Philosophy: Resources](../introduction/studying-philosophy-resources/) | review | 73 | 2 prompt sections need review; 2 prompt sections need gap fill |
+| 142 | Metaphysics | [A Taxonomy of Impossibilities](../metaphysics/a-taxonomy-of-impossibilities/) | polish | 92 | 4 prompt sections are polish opportunities |
+| 155 | Metaphysics | [Are Quantum Physics “Spiritual”?](../metaphysics/are-quantum-physics-spiritual/) | polish | 94 | 4 prompt sections are polish opportunities |
+| 25 | Metaphysics | [Could Mind be Fundamental?](../metaphysics/could-mind-be-fundamental/) | review | 76 | 2 prompt sections need review; 2 prompt sections need gap fill |
+| 1 | Metaphysics | [Emergence](../metaphysics/emergence/) | review | 76 | 3 prompt sections need review; 3 prompt sections need gap fill |
+| 295 | Metaphysics | [Energy & Psychic Phenomena](../metaphysics/energy-psychic-phenomena/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 156 | Metaphysics | [Explanations](../metaphysics/explanations/) | polish | 94 | 4 prompt sections are polish opportunities |
+| 23 | Metaphysics | [Matthew Pirkowski on Emergence](../metaphysics/matthew-pirkowski-on-emergence/) | review | 75 | 2 prompt sections need review; 2 prompt sections need gap fill |
+| 17 | Metaphysics | [Metaphysics – Core Concepts](../metaphysics/metaphysics-core-concepts/) | review | 72 | 3 prompt sections need review; 3 prompt sections need gap fill |
+| 10 | Metaphysics | [Ontological Domains](../metaphysics/ontological-domains/) | review | 68 | 3 prompt sections need review; 3 prompt sections need gap fill |
+| 137 | Metaphysics | [Stuart Kauffman on Emergence](../metaphysics/stuart-kauffman-on-emergence/) | polish | 91 | 4 prompt sections are polish opportunities |
+| 28 | Metaphysics | [The Principle of Sufficient Reason](../metaphysics/the-principle-of-sufficient-reason/) | review | 76 | 1 prompt sections need review; 1 prompt sections need gap fill |
+| 7 | Miscellany | [Complexity Theory](../miscellany/complexity-theory/) | review | 62 | 4 prompt sections need review; 4 prompt sections need gap fill |
+| 26 | Miscellany | [Cross-Culture Emotional Dispositions](../miscellany/cross-culture-emotional-dispositions/) | review | 76 | 2 prompt sections need review; 2 prompt sections need gap fill |
+| 30 | Miscellany | [David Krakauer on Complexity](../miscellany/david-krakauer-on-complexity/) | review | 78 | 2 prompt sections need review; 2 prompt sections need gap fill |
+| 4 | Miscellany | [Domains of Aesthetics](../miscellany/domains-of-aesthetics/) | review | 60 | 3 prompt sections need review; 3 prompt sections need gap fill |
+| 8 | Miscellany | [Flack & Mitchell on Complexity](../miscellany/flack-mitchell-on-complexity/) | review | 62 | 2 prompt sections need review; 2 prompt sections need gap fill |
+| 36 | Miscellany | [Information Theory](../miscellany/information-theory/) | review | 80 | 1 prompt sections need review; 1 prompt sections need gap fill |
+| 14 | Miscellany | [Sara Walker on Life’s Emergence](../miscellany/sara-walker-on-lifes-emergence/) | review | 70 | 3 prompt sections need review; 3 prompt sections need gap fill |
+| 16 | Miscellany | [The Fantastical & Historical Truth](../miscellany/the-fantastical-historical-truth/) | review | 72 | 3 prompt sections need review; 3 prompt sections need gap fill |
+| 15 | Miscellany | [Zak Stein on Complexity](../miscellany/zak-stein-on-complexity/) | review | 70 | 2 prompt sections need review; 2 prompt sections need gap fill |
+| 296 | Philosophical Inquiry | [Appreciating our Insignificance](../philosophical-inquiry/appreciating-our-insignificance/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 27 | Philosophical Inquiry | [Charitable Engagement](../philosophical-inquiry/charitable-engagement/) | review | 76 | 2 prompt sections need review; 2 prompt sections need gap fill |
+| 138 | Philosophical Inquiry | [Dangers: Anti-Intellectualism](../philosophical-inquiry/dangers-anti-intellectualism/) | polish | 91 | 4 prompt sections are polish opportunities |
+| 157 | Philosophical Inquiry | [Dangers: Gaslighting](../philosophical-inquiry/dangers-gaslighting/) | polish | 94 | 4 prompt sections are polish opportunities |
+| 38 | Philosophical Inquiry | [Dangers: Limits on Doubt](../philosophical-inquiry/dangers-limits-on-doubt/) | review | 84 | 1 prompt sections need review; 1 prompt sections need gap fill |
+| 297 | Philosophical Inquiry | [Dangers: Removing the Impossible](../philosophical-inquiry/dangers-removing-the-impossible/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 2 | Philosophy of AI | [AI Censorship Case](../philosophy-of-ai/ai-censorship-case/) | review | 76 | 3 prompt sections need review; 3 prompt sections need gap fill |
+| 31 | Philosophy of AI | [AI Meta-Post — Inner Monologues](../philosophy-of-ai/ai-meta-post-inner-monologues/) | review | 78 | 2 prompt sections need review; 2 prompt sections need gap fill |
+| 144 | Philosophy of AI | [AI Meta-Post — Overreach](../philosophy-of-ai/ai-meta-post-overreach/) | polish | 92 | 4 prompt sections are polish opportunities |
+| 298 | Philosophy of AI | [The Double Descent Phenomenon](../philosophy-of-ai/the-double-descent-phenomenon/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 6 | Philosophy of Language | [Abandoned Words](../philosophy-of-language/abandoned-words/) | review | 60 | 1 prompt sections need review; 1 prompt sections need gap fill |
+| 186 | Philosophy of Language | [Connotative Equivocation](../philosophy-of-language/connotative-equivocation/) | polish | 98 | 4 prompt sections are polish opportunities |
+| 24 | Philosophy of Language | [Language & the Brain](../philosophy-of-language/language-the-brain/) | review | 76 | 3 prompt sections need review; 3 prompt sections need gap fill |
+| 12 | Philosophy of Language | [Linguistic Scaffolding](../philosophy-of-language/linguistic-scaffolding/) | review | 68 | 1 prompt sections need review; 1 prompt sections need gap fill |
+| 11 | Philosophy of Language | [Needless Semantic Complexity](../philosophy-of-language/needless-semantic-complexity/) | review | 68 | 3 prompt sections need review; 3 prompt sections need gap fill |
+| 299 | Philosophy of Language | [Nomological Density of Grammar](../philosophy-of-language/nomological-density-of-grammar/) | polish | 100 | 4 prompt sections are polish opportunities |
+| 158 | Philosophy of Language | [The Power of Analogy](../philosophy-of-language/the-power-of-analogy/) | polish | 94 | 4 prompt sections are polish opportunities |
+| 130 | Philosophy of Language | [Thought = Language?](../philosophy-of-language/thought-language/) | polish | 89 | 4 prompt sections are polish opportunities |
+| 18 | Philosophy of Mind | [Are there Selfless Acts?](../philosophy-of-mind/are-there-selfless-acts/) | review | 73 | 3 prompt sections need review; 3 prompt sections need gap fill |
+| 176 | Philosophy of Mind | [Land Ownership](../philosophy-of-mind/land-ownership/) | polish | 97 | 4 prompt sections are polish opportunities |
+| 29 | Philosophy of Mind | [Philosophy of Mind — Core Concepts](../philosophy-of-mind/philosophy-of-mind-core-concepts/) | review | 77 | 2 prompt sections need review; 2 prompt sections need gap fill |
+| 13 | Philosophy of Mind | [Preferences = Pleasures?](../philosophy-of-mind/preferences-pleasures/) | review | 70 | 4 prompt sections need review; 4 prompt sections need gap fill |
+| 5 | Philosophy of Science | [Confounding Variables](../philosophy-of-science/confounding-variables/) | review | 60 | 2 prompt sections need review; 2 prompt sections need gap fill |
+| 22 | Philosophy of Science | [Hard vs Soft Sciences](../philosophy-of-science/hard-vs-soft-sciences/) | review | 74 | 3 prompt sections need review; 3 prompt sections need gap fill |
 | 300 | Philosophy of Science | [History as Forensic Science](../philosophy-of-science/history-as-forensic-science/) | polish | 100 | 4 prompt sections are polish opportunities |
 
 ## Upcoming Batch Preview
@@ -92,16 +92,16 @@ Pages are queued deterministically by priority band, then by weakest score, then
 
 ### Next +2: cycle 7, queue positions 1-50
 
-- `review` 100 [Ethics / Assisted Suicide](../ethics/assisted-suicide/)
-- `review` 58 [Metaphysics / Dualism vs Materialism](../metaphysics/dualismvsmaterialism/)
-- `review` 64 [Philosophy of Mind / Manufacturer or Method?](../philosophy-of-mind/manufacturer-or-method/)
-- `review` 68 [Philosophy of Language / Semantics: Convention vs Stipulation](../philosophy-of-language/semantics-convention-vs-stipulation/)
-- `review` 68 [Humanistic Philosophies / Personal & Cosmic Meaning](../humanistic-philosophies/personal-cosmic-meaning/)
-- `review` 68 [Philosophy of Language / Linguistic Abstraction](../philosophy-of-language/linguistic-abstraction/)
-- `review` 68 [Philosophy of Language / The Linearity of Language](../philosophy-of-language/the-linearity-of-language/)
-- `review` 68 [Introduction / Careers in Philosophy](../introduction/careers-in-philosophy/)
-- `review` 71 [Philosophy of Mind / Assessing Mind with Mind](../philosophy-of-mind/assessing-mind-with-mind/)
-- `review` 72 [Humanistic Philosophies / The Legitimacy of Divine Revelation](../humanistic-philosophies/the-legitimacy-of-divine-revelation/)
+- `review` 76 [Metaphysics / Emergence](../metaphysics/emergence/)
+- `review` 76 [Philosophy of AI / AI Censorship Case](../philosophy-of-ai/ai-censorship-case/)
+- `review` 55 [Humanistic Philosophies / Existentialism: Key Concepts](../humanistic-philosophies/existentialism-key-concepts/)
+- `review` 60 [Miscellany / Domains of Aesthetics](../miscellany/domains-of-aesthetics/)
+- `review` 60 [Philosophy of Science / Confounding Variables](../philosophy-of-science/confounding-variables/)
+- `review` 60 [Philosophy of Language / Abandoned Words](../philosophy-of-language/abandoned-words/)
+- `review` 62 [Miscellany / Complexity Theory](../miscellany/complexity-theory/)
+- `review` 62 [Miscellany / Flack & Mitchell on Complexity](../miscellany/flack-mitchell-on-complexity/)
+- `review` 68 [Humanistic Philosophies / New Manifestations of Theism](../humanistic-philosophies/new-manifestations-of-theism/)
+- `review` 68 [Metaphysics / Ontological Domains](../metaphysics/ontological-domains/)
 
 ## Summary
 
@@ -110,5 +110,5 @@ Pages are queued deterministically by priority band, then by weakest score, then
 - Estimated batches per cycle: 7
 
 - gap-fill: 82
-- polish: 231
-- review: 33
+- polish: 225
+- review: 39
