@@ -20,6 +20,8 @@ PLACEHOLDER_PATTERNS = [
     re.compile(r"A good reader should finish the section able to say", re.I),
     re.compile(r"becomes more intelligible when it is forced into a concrete case", re.I),
     re.compile(r"^A strong example does more than decorate .+\.$", re.I),
+    re.compile(r"^This question is worth keeping because it changes how .+ should be judged, not merely how it is phrased\.$", re.I),
+    re.compile(r"^I hope this table effectively captures .+\.$", re.I),
 ]
 
 PLACEHOLDER_LIST_PATTERNS = [
@@ -70,6 +72,22 @@ GENERATED_GENERIC_PATTERNS = [
     re.compile(r"^A stronger reader should be able to carry .+ into a neighboring case without needing the whole page repeated\..+$", re.I),
     re.compile(r"^The payoff is existential clarity: the section should sharpen how a reader weighs meaning, purpose, and lived pressure\.$", re.I),
     re.compile(r"^The payoff is ontological discipline: the section should separate what must be posited from what is merely being suggested\.$", re.I),
+    re.compile(r"^.+ should not be collapsed into .+, because each changes the reader's judgment in a different way\.$", re.I),
+    re.compile(r"^A live example helps here: once .+ are handled more carefully, what should a reader notice or stop assuming\?$", re.I),
+    re.compile(r"^A live example helps here: once .+ and .+ are handled more carefully, what should a reader notice or stop assuming\?$", re.I),
+    re.compile(r"^Keep .+ distinct while reading\. The main pressure comes from treating a useful distinction as final, or treating a local insight as if it solved more than it actually solves\.$", re.I),
+    re.compile(r"^Keep .+ in the same frame\. That is what shows what the page is claiming, where it gets tested, and what would have to change if the claim is right\.$", re.I),
+    re.compile(r"^The section should show how a worldview changes actual posture toward meaning, finitude, agency, or consolation\.$", re.I),
+    re.compile(r"^The side path earns its place when it sharpens a durable philosophical question rather than drifting into novelty for its own sake\.$", re.I),
+    re.compile(r"^.+ should behave like a working distinction here, not like a decorative heading\.$", re.I),
+    re.compile(r"^The useful map here is the relation among .+, because those pieces do different work\.$", re.I),
+    re.compile(r"^Run one live case through the structure and ask how altering .+ changes the rest of the picture\.$", re.I),
+    re.compile(r"^The argument becomes clearer once the load-bearing claim behind .+ is stated without ornament\.$", re.I),
+    re.compile(r"^Bring in a serious critic who grants the background but rejects the move toward .+; that is where the missing step, if any, will show\.$", re.I),
+    re.compile(r"^Use one borderline case to test the definition: would both .+ still count under .+, or does one belong elsewhere\?$", re.I),
+    re.compile(r"^The first job is to make .+ usable in borderline cases, not just easier to repeat\.$", re.I),
+    re.compile(r"^Hold together lived experience, explanatory mechanism, and the limits of what current models can really justify\.$", re.I),
+    re.compile(r"^These scenarios aim to provide a deeper understanding of how existentialist concepts manifest in everyday life\.$", re.I),
 ]
 
 SCAFFOLD_PARAGRAPH_PATTERNS = [
@@ -102,7 +120,23 @@ SCAFFOLD_LIST_PATTERNS = [
     re.compile(r"Central distinction: .+$", re.I),
     re.compile(r"By the end, the reader should be able to say what difference .+$", re.I),
     re.compile(r"Read the map as dependencies, not inventory: .+$", re.I),
-]
+    re.compile(r"Leave the reader with a sharper question about .+, not just a cleaner paraphrase\.$", re.I),
+    re.compile(r"Track the movement in the exchange: .+ should show where the reasoning gains support and where it still strains\.$", re.I),
+    re.compile(r"Keep the page tied to a judgment a reader could actually use outside this one discussion\.$", re.I),
+    re.compile(r"Use the side path to sharpen the main question rather than letting the page drift into mere curiosity\.$", re.I),
+    re.compile(r"Make the boundary usable: .+ should help the reader sort a live borderline case\.$", re.I),
+    re.compile(r"Find the load-bearing move: the section should make clear which premise about .+ matters most\.$", re.I),
+    re.compile(r"Notice what changes if .+ are rearranged, weakened, or removed; that is usually where the real structure becomes visible\.$", re.I),
+    re.compile(r"Follow the structure: .+ should reveal which part does the main explanatory work\.$", re.I),
+    re.compile(r"Let the example carry weight: it should show where .+ becomes clearer or harder to defend in practice\.$", re.I),
+    re.compile(r"Let the table do comparative work: the important contrast around .+ should become easier to see at a glance\.$", re.I),
+    re.compile(r"Keep first-person experience and public explanation in view without letting either do all the work\.$", re.I),
+    re.compile(r"^I hope this table effectively captures .+\.$", re.I),
+    re.compile(r"^These scenarios aim to provide a deeper understanding of how existentialist concepts manifest in everyday life\.$", re.I),
+    re.compile(r"^This is not just a label to file away; it changes how .+ should be judged inside what the topic clarifies and what it asks the reader to hold apart\.$", re.I),
+    re.compile(r"^By structuring time effectively and engaging thoughtfully with various forms of art, .+\.$", re.I),
+    re.compile(r"^This initiative explores the theoretical foundations of AI and its implications for society\.$", re.I),
+    ]
 
 CUSTOM_SECTION_HEADINGS = {
     (
@@ -397,6 +431,10 @@ def derive_heading_from_prompt(prompt: str, page_title: str) -> str:
         "how do japanese parents help their children regulate their emotions in a way that become beneficial in adulthood?": "How Japanese parenting trains emotional regulation",
         "introduce some key concepts relevant to the core concerns of complexity theory.": "Core concepts that anchor complexity theory",
         "what are the main domains of aesthetics?": "The main domains of aesthetics",
+        "what domains are found within the discipline of aesthetics?": "The main domains of aesthetics",
+        "provide arguments that aesthetics contributes to society in non-trivial way.": "Why aesthetics matters beyond private taste",
+        "is aesthetics an intrinsically evolving discipline, and if so, what are the factors that drive its evolution?": "Why aesthetics keeps evolving",
+        "provide recommendations on a healthy amount of time a well-rounded mind might spend on various aesthetic pursuits.": "How much time a well-rounded life should give to the arts",
         "let’s focus on how information theory is used in exploring social networks. write a short, informative essay on this.": "How information theory helps explain social networks",
         "what are the benefits of charitable engagement with antagonistic individuals?": "Why charitable engagement helps with antagonistic people",
         "many ideologies recruit through promises of cosmic significance. how can we stay grounded and content in the reality of our relative unimportance?": "How to stay grounded without fantasies of cosmic importance",
@@ -703,8 +741,6 @@ def replace_placeholder_intro(soup: BeautifulSoup, section: Tag, page_title: str
         text = " ".join(node.get_text(" ", strip=True).split())
         if is_placeholder_paragraph(text):
             placeholder_nodes.append(node)
-        else:
-            break
 
     if not placeholder_nodes:
         return False
@@ -730,6 +766,10 @@ def remove_placeholder_list_items(section: Tag) -> bool:
             or "By the end, the reader should be able to say what difference" in text
             or "Read the map as dependencies, not inventory:" in text
             or text.startswith("Central distinction:")
+            or "I hope this table effectively captures" in text
+            or "These scenarios aim to provide a deeper understanding of how existentialist concepts manifest in everyday life." in text
+            or "General Tips for Integrating Aesthetic Pursuits:" in text
+            or "Artificial Intelligence – Foundations to Frontiers:" in text
         ):
             item.decompose()
             changed = True
@@ -812,6 +852,11 @@ def repair_page(path: Path) -> bool:
     for list_tag in soup.find_all(["ol", "ul"]):
         if not list_tag.find_all("li"):
             list_tag.decompose()
+            changed = True
+
+    for aside in list(soup.select("aside.learning-card")):
+        if not aside.find_all("li"):
+            aside.decompose()
             changed = True
 
     if not changed:
