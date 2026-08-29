@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-27",
+  "generatedAt": "2026-08-29",
   "batchSize": 50,
   "protocol": {
     "readFirst": "quality/editorial-audit-tracker.json",
@@ -21,8 +21,8 @@
     "trackedPages": 346,
     "pagesByPriorityBand": {
       "gap-fill": 82,
-      "polish": 225,
-      "review": 39
+      "polish": 230,
+      "review": 34
     },
     "pagesRemainingInCurrentCycle": 96,
     "batchSize": 50,
@@ -356,12 +356,12 @@
     "pageCount": 50,
     "wrapsToNextCycle": false,
     "priorityCounts": {
-      "polish": 19,
-      "review": 31
+      "polish": 24,
+      "review": 26
     },
     "pages": [
       {
-        "queueIndex": 135,
+        "queueIndex": 131,
         "sectionName": "Ethics",
         "pageTitle": "Value & Morality in Diversity?",
         "pagePath": "/ethics/value-morality-in-diversity/",
@@ -430,7 +430,7 @@
         ]
       },
       {
-        "queueIndex": 294,
+        "queueIndex": 293,
         "sectionName": "Humanistic Philosophies",
         "pageTitle": "Are Humans More Egoistic or Altruistic?",
         "pagePath": "/humanistic-philosophies/are-humans-more-egoistic-or-altruistic/",
@@ -499,52 +499,28 @@
         ]
       },
       {
-        "queueIndex": 3,
+        "queueIndex": 183,
         "sectionName": "Humanistic Philosophies",
         "pageTitle": "Existentialism: Key Concepts",
         "pagePath": "/humanistic-philosophies/existentialism-key-concepts/",
-        "priorityBand": "review",
-        "worstScore": 55,
-        "averageScore": 78.2,
+        "priorityBand": "polish",
+        "worstScore": 98,
+        "averageScore": 99.0,
         "totalPromptSections": 4,
-        "needsReviewCount": 2,
-        "needsGapFillCount": 2,
-        "polishOpportunityCount": 2,
+        "needsReviewCount": 0,
+        "needsGapFillCount": 0,
+        "polishOpportunityCount": 4,
         "editorialIssues": [],
         "attentionSummary": [
-          "2 prompt sections need review",
-          "2 prompt sections need gap fill",
-          "2 prompt sections are polish opportunities"
+          "4 prompt sections are polish opportunities"
         ],
         "focusAnchors": [
-          "prompt-1",
-          "prompt-2",
           "prompt-3",
-          "prompt-4"
+          "prompt-4",
+          "prompt-1",
+          "prompt-2"
         ],
         "focusSections": [
-          {
-            "anchor": "prompt-1",
-            "url": "/humanistic-philosophies/existentialism-key-concepts/#prompt-1",
-            "heading": "Essential Existentialist concepts",
-            "score": 55,
-            "level": "thin",
-            "needsReview": true,
-            "needsGapFill": true,
-            "polishOpportunity": false,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-2",
-            "url": "/humanistic-philosophies/existentialism-key-concepts/#prompt-2",
-            "heading": "For each of the 16 concepts above, create 3 scenarios depicting the concept in action",
-            "score": 62,
-            "level": "developing",
-            "needsReview": true,
-            "needsGapFill": true,
-            "polishOpportunity": false,
-            "editorialIssues": []
-          },
           {
             "anchor": "prompt-3",
             "url": "/humanistic-philosophies/existentialism-key-concepts/#prompt-3",
@@ -566,25 +542,46 @@
             "needsGapFill": false,
             "polishOpportunity": true,
             "editorialIssues": []
+          },
+          {
+            "anchor": "prompt-1",
+            "url": "/humanistic-philosophies/existentialism-key-concepts/#prompt-1",
+            "heading": "Sixteen existentialist concepts that matter because they change how a life is read",
+            "score": 100,
+            "level": "exceptional",
+            "needsReview": false,
+            "needsGapFill": false,
+            "polishOpportunity": true,
+            "editorialIssues": []
+          },
+          {
+            "anchor": "prompt-2",
+            "url": "/humanistic-philosophies/existentialism-key-concepts/#prompt-2",
+            "heading": "Concrete scenarios show why existentialist ideas are about lived pressure, not slogan-collecting",
+            "score": 100,
+            "level": "exceptional",
+            "needsReview": false,
+            "needsGapFill": false,
+            "polishOpportunity": true,
+            "editorialIssues": []
           }
         ]
       },
       {
-        "queueIndex": 9,
+        "queueIndex": 294,
         "sectionName": "Humanistic Philosophies",
         "pageTitle": "New Manifestations of Theism",
         "pagePath": "/humanistic-philosophies/new-manifestations-of-theism/",
-        "priorityBand": "review",
-        "worstScore": 68,
-        "averageScore": 72.0,
+        "priorityBand": "polish",
+        "worstScore": 100,
+        "averageScore": 100.0,
         "totalPromptSections": 4,
-        "needsReviewCount": 4,
-        "needsGapFillCount": 4,
-        "polishOpportunityCount": 0,
+        "needsReviewCount": 0,
+        "needsGapFillCount": 0,
+        "polishOpportunityCount": 4,
         "editorialIssues": [],
         "attentionSummary": [
-          "4 prompt sections need review",
-          "4 prompt sections need gap fill"
+          "4 prompt sections are polish opportunities"
         ],
         "focusAnchors": [
           "prompt-1",
@@ -596,51 +593,51 @@
           {
             "anchor": "prompt-1",
             "url": "/humanistic-philosophies/new-manifestations-of-theism/#prompt-1",
-            "heading": "How has theism changed since modernity?",
-            "score": 68,
-            "level": "developing",
-            "needsReview": true,
-            "needsGapFill": true,
-            "polishOpportunity": false,
+            "heading": "Modern theism survives partly by retreating from explanation toward meaning, identity, and personal spirituality",
+            "score": 100,
+            "level": "exceptional",
+            "needsReview": false,
+            "needsGapFill": false,
+            "polishOpportunity": true,
             "editorialIssues": []
           },
           {
             "anchor": "prompt-2",
             "url": "/humanistic-philosophies/new-manifestations-of-theism/#prompt-2",
-            "heading": "What have been the historical markers of a religion headed for extinction?",
-            "score": 68,
-            "level": "developing",
-            "needsReview": true,
-            "needsGapFill": true,
-            "polishOpportunity": false,
+            "heading": "Religions tend to fade when they stop reproducing confidence, relevance, and institutional continuity",
+            "score": 100,
+            "level": "exceptional",
+            "needsReview": false,
+            "needsGapFill": false,
+            "polishOpportunity": true,
             "editorialIssues": []
           },
           {
             "anchor": "prompt-3",
             "url": "/humanistic-philosophies/new-manifestations-of-theism/#prompt-3",
-            "heading": "What cultural and societal traits correlate with high degrees of religiosity today?",
-            "score": 68,
-            "level": "developing",
-            "needsReview": true,
-            "needsGapFill": true,
-            "polishOpportunity": false,
+            "heading": "High religiosity still correlates with insecurity, tight community needs, and inherited sacred identity",
+            "score": 100,
+            "level": "exceptional",
+            "needsReview": false,
+            "needsGapFill": false,
+            "polishOpportunity": true,
             "editorialIssues": []
           },
           {
             "anchor": "prompt-4",
             "url": "/humanistic-philosophies/new-manifestations-of-theism/#prompt-4",
-            "heading": "The real issue is what New Manifestations of Theism changes once it becomes precise.",
-            "score": 84,
-            "level": "good",
-            "needsReview": true,
-            "needsGapFill": true,
-            "polishOpportunity": false,
+            "heading": "When weekly worship declines, God often becomes vaguer, more private, and less doctrinally demanding",
+            "score": 100,
+            "level": "exceptional",
+            "needsReview": false,
+            "needsGapFill": false,
+            "polishOpportunity": true,
             "editorialIssues": []
           }
         ]
       },
       {
-        "queueIndex": 19,
+        "queueIndex": 14,
         "sectionName": "Introduction",
         "pageTitle": "Studying Philosophy: Resources",
         "pagePath": "/introduction/studying-philosophy-resources/",
@@ -711,7 +708,7 @@
         ]
       },
       {
-        "queueIndex": 142,
+        "queueIndex": 138,
         "sectionName": "Metaphysics",
         "pageTitle": "A Taxonomy of Impossibilities",
         "pagePath": "/metaphysics/a-taxonomy-of-impossibilities/",
@@ -780,7 +777,7 @@
         ]
       },
       {
-        "queueIndex": 155,
+        "queueIndex": 153,
         "sectionName": "Metaphysics",
         "pageTitle": "Are Quantum Physics “Spiritual”?",
         "pagePath": "/metaphysics/are-quantum-physics-spiritual/",
@@ -849,7 +846,7 @@
         ]
       },
       {
-        "queueIndex": 25,
+        "queueIndex": 20,
         "sectionName": "Metaphysics",
         "pageTitle": "Could Mind be Fundamental?",
         "pagePath": "/metaphysics/could-mind-be-fundamental/",
@@ -1065,7 +1062,7 @@
         ]
       },
       {
-        "queueIndex": 156,
+        "queueIndex": 154,
         "sectionName": "Metaphysics",
         "pageTitle": "Explanations",
         "pagePath": "/metaphysics/explanations/",
@@ -1134,7 +1131,7 @@
         ]
       },
       {
-        "queueIndex": 23,
+        "queueIndex": 18,
         "sectionName": "Metaphysics",
         "pageTitle": "Matthew Pirkowski on Emergence",
         "pagePath": "/metaphysics/matthew-pirkowski-on-emergence/",
@@ -1205,7 +1202,7 @@
         ]
       },
       {
-        "queueIndex": 17,
+        "queueIndex": 12,
         "sectionName": "Metaphysics",
         "pageTitle": "Metaphysics – Core Concepts",
         "pagePath": "/metaphysics/metaphysics-core-concepts/",
@@ -1276,7 +1273,7 @@
         ]
       },
       {
-        "queueIndex": 10,
+        "queueIndex": 5,
         "sectionName": "Metaphysics",
         "pageTitle": "Ontological Domains",
         "pagePath": "/metaphysics/ontological-domains/",
@@ -1347,7 +1344,7 @@
         ]
       },
       {
-        "queueIndex": 137,
+        "queueIndex": 133,
         "sectionName": "Metaphysics",
         "pageTitle": "Stuart Kauffman on Emergence",
         "pagePath": "/metaphysics/stuart-kauffman-on-emergence/",
@@ -1416,7 +1413,7 @@
         ]
       },
       {
-        "queueIndex": 28,
+        "queueIndex": 23,
         "sectionName": "Metaphysics",
         "pageTitle": "The Principle of Sufficient Reason",
         "pagePath": "/metaphysics/the-principle-of-sufficient-reason/",
@@ -1487,77 +1484,76 @@
         ]
       },
       {
-        "queueIndex": 7,
+        "queueIndex": 139,
         "sectionName": "Miscellany",
         "pageTitle": "Complexity Theory",
         "pagePath": "/miscellany/complexity-theory/",
-        "priorityBand": "review",
-        "worstScore": 62,
-        "averageScore": 68.5,
+        "priorityBand": "polish",
+        "worstScore": 92,
+        "averageScore": 97.5,
         "totalPromptSections": 4,
-        "needsReviewCount": 4,
-        "needsGapFillCount": 4,
-        "polishOpportunityCount": 0,
+        "needsReviewCount": 0,
+        "needsGapFillCount": 0,
+        "polishOpportunityCount": 4,
         "editorialIssues": [],
         "attentionSummary": [
-          "4 prompt sections need review",
-          "4 prompt sections need gap fill"
+          "4 prompt sections are polish opportunities"
         ],
         "focusAnchors": [
           "prompt-4",
-          "prompt-1",
           "prompt-2",
+          "prompt-1",
           "prompt-3"
         ],
         "focusSections": [
           {
             "anchor": "prompt-4",
             "url": "/miscellany/complexity-theory/#prompt-4",
-            "heading": "The dialogue matters because it tests Complexity Theory in public.",
-            "score": 62,
-            "level": "developing",
-            "needsReview": true,
-            "needsGapFill": true,
-            "polishOpportunity": false,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-1",
-            "url": "/miscellany/complexity-theory/#prompt-1",
-            "heading": "What is complexity theory?",
-            "score": 67,
-            "level": "developing",
-            "needsReview": true,
-            "needsGapFill": true,
-            "polishOpportunity": false,
+            "heading": "A novice begins to understand complexity once prediction and explanation are separated",
+            "score": 92,
+            "level": "strong",
+            "needsReview": false,
+            "needsGapFill": false,
+            "polishOpportunity": true,
             "editorialIssues": []
           },
           {
             "anchor": "prompt-2",
             "url": "/miscellany/complexity-theory/#prompt-2",
-            "heading": "What have been the most powerful concepts that have emerged from complexity theory research?",
-            "score": 68,
-            "level": "developing",
-            "needsReview": true,
-            "needsGapFill": true,
-            "polishOpportunity": false,
+            "heading": "The field's strongest concepts reveal why order can arise without a central planner",
+            "score": 98,
+            "level": "exceptional",
+            "needsReview": false,
+            "needsGapFill": false,
+            "polishOpportunity": true,
+            "editorialIssues": []
+          },
+          {
+            "anchor": "prompt-1",
+            "url": "/miscellany/complexity-theory/#prompt-1",
+            "heading": "Complexity theory studies how interaction, feedback, and scale create behavior that simple part-by-part analysis misses",
+            "score": 100,
+            "level": "exceptional",
+            "needsReview": false,
+            "needsGapFill": false,
+            "polishOpportunity": true,
             "editorialIssues": []
           },
           {
             "anchor": "prompt-3",
             "url": "/miscellany/complexity-theory/#prompt-3",
-            "heading": "What recent complexity theory research projects have shown promise?",
-            "score": 77,
-            "level": "good",
-            "needsReview": true,
-            "needsGapFill": true,
-            "polishOpportunity": false,
+            "heading": "Promising complexity research asks how life, mind, and coordinated systems generate stable novelty",
+            "score": 100,
+            "level": "exceptional",
+            "needsReview": false,
+            "needsGapFill": false,
+            "polishOpportunity": true,
             "editorialIssues": []
           }
         ]
       },
       {
-        "queueIndex": 26,
+        "queueIndex": 21,
         "sectionName": "Miscellany",
         "pageTitle": "Cross-Culture Emotional Dispositions",
         "pagePath": "/miscellany/cross-culture-emotional-dispositions/",
@@ -1628,7 +1624,7 @@
         ]
       },
       {
-        "queueIndex": 30,
+        "queueIndex": 25,
         "sectionName": "Miscellany",
         "pageTitle": "David Krakauer on Complexity",
         "pagePath": "/miscellany/david-krakauer-on-complexity/",
@@ -1699,63 +1695,28 @@
         ]
       },
       {
-        "queueIndex": 4,
+        "queueIndex": 147,
         "sectionName": "Miscellany",
         "pageTitle": "Domains of Aesthetics",
         "pagePath": "/miscellany/domains-of-aesthetics/",
-        "priorityBand": "review",
-        "worstScore": 60,
-        "averageScore": 71.0,
+        "priorityBand": "polish",
+        "worstScore": 93,
+        "averageScore": 97.2,
         "totalPromptSections": 4,
-        "needsReviewCount": 3,
-        "needsGapFillCount": 3,
-        "polishOpportunityCount": 1,
+        "needsReviewCount": 0,
+        "needsGapFillCount": 0,
+        "polishOpportunityCount": 4,
         "editorialIssues": [],
         "attentionSummary": [
-          "3 prompt sections need review",
-          "3 prompt sections need gap fill",
-          "1 prompt sections are polish opportunities"
+          "4 prompt sections are polish opportunities"
         ],
         "focusAnchors": [
-          "prompt-2",
-          "prompt-3",
+          "prompt-4",
           "prompt-1",
-          "prompt-4"
+          "prompt-3",
+          "prompt-2"
         ],
         "focusSections": [
-          {
-            "anchor": "prompt-2",
-            "url": "/miscellany/domains-of-aesthetics/#prompt-2",
-            "heading": "Arguments that aesthetics contributes to society in non-trivial way",
-            "score": 60,
-            "level": "developing",
-            "needsReview": true,
-            "needsGapFill": true,
-            "polishOpportunity": false,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-3",
-            "url": "/miscellany/domains-of-aesthetics/#prompt-3",
-            "heading": "The real issue is what Domains of Aesthetics changes once it becomes precise.",
-            "score": 60,
-            "level": "developing",
-            "needsReview": true,
-            "needsGapFill": true,
-            "polishOpportunity": false,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-1",
-            "url": "/miscellany/domains-of-aesthetics/#prompt-1",
-            "heading": "What domains are found within the discipline of aesthetics?",
-            "score": 71,
-            "level": "developing",
-            "needsReview": true,
-            "needsGapFill": true,
-            "polishOpportunity": false,
-            "editorialIssues": []
-          },
           {
             "anchor": "prompt-4",
             "url": "/miscellany/domains-of-aesthetics/#prompt-4",
@@ -1766,11 +1727,44 @@
             "needsGapFill": false,
             "polishOpportunity": true,
             "editorialIssues": []
+          },
+          {
+            "anchor": "prompt-1",
+            "url": "/miscellany/domains-of-aesthetics/#prompt-1",
+            "heading": "Aesthetics spans more than art criticism because it studies beauty, form, taste, experience, and judgment",
+            "score": 98,
+            "level": "exceptional",
+            "needsReview": false,
+            "needsGapFill": false,
+            "polishOpportunity": true,
+            "editorialIssues": []
+          },
+          {
+            "anchor": "prompt-3",
+            "url": "/miscellany/domains-of-aesthetics/#prompt-3",
+            "heading": "Aesthetics evolves because media, technologies, institutions, and moral sensibilities keep changing what form can do",
+            "score": 98,
+            "level": "exceptional",
+            "needsReview": false,
+            "needsGapFill": false,
+            "polishOpportunity": true,
+            "editorialIssues": []
+          },
+          {
+            "anchor": "prompt-2",
+            "url": "/miscellany/domains-of-aesthetics/#prompt-2",
+            "heading": "Aesthetics contributes to society because form shapes attention, memory, empathy, and shared life",
+            "score": 100,
+            "level": "exceptional",
+            "needsReview": false,
+            "needsGapFill": false,
+            "polishOpportunity": true,
+            "editorialIssues": []
           }
         ]
       },
       {
-        "queueIndex": 8,
+        "queueIndex": 4,
         "sectionName": "Miscellany",
         "pageTitle": "Flack & Mitchell on Complexity",
         "pagePath": "/miscellany/flack-mitchell-on-complexity/",
@@ -1841,7 +1835,7 @@
         ]
       },
       {
-        "queueIndex": 36,
+        "queueIndex": 31,
         "sectionName": "Miscellany",
         "pageTitle": "Information Theory",
         "pagePath": "/miscellany/information-theory/",
@@ -1912,7 +1906,7 @@
         ]
       },
       {
-        "queueIndex": 14,
+        "queueIndex": 9,
         "sectionName": "Miscellany",
         "pageTitle": "Sara Walker on Life’s Emergence",
         "pagePath": "/miscellany/sara-walker-on-lifes-emergence/",
@@ -1983,7 +1977,7 @@
         ]
       },
       {
-        "queueIndex": 16,
+        "queueIndex": 11,
         "sectionName": "Miscellany",
         "pageTitle": "The Fantastical & Historical Truth",
         "pagePath": "/miscellany/the-fantastical-historical-truth/",
@@ -2066,7 +2060,7 @@
         ]
       },
       {
-        "queueIndex": 15,
+        "queueIndex": 10,
         "sectionName": "Miscellany",
         "pageTitle": "Zak Stein on Complexity",
         "pagePath": "/miscellany/zak-stein-on-complexity/",
@@ -2206,7 +2200,7 @@
         ]
       },
       {
-        "queueIndex": 27,
+        "queueIndex": 22,
         "sectionName": "Philosophical Inquiry",
         "pageTitle": "Charitable Engagement",
         "pagePath": "/philosophical-inquiry/charitable-engagement/",
@@ -2277,7 +2271,7 @@
         ]
       },
       {
-        "queueIndex": 138,
+        "queueIndex": 134,
         "sectionName": "Philosophical Inquiry",
         "pageTitle": "Dangers: Anti-Intellectualism",
         "pagePath": "/philosophical-inquiry/dangers-anti-intellectualism/",
@@ -2346,7 +2340,7 @@
         ]
       },
       {
-        "queueIndex": 157,
+        "queueIndex": 155,
         "sectionName": "Philosophical Inquiry",
         "pageTitle": "Dangers: Gaslighting",
         "pagePath": "/philosophical-inquiry/dangers-gaslighting/",
@@ -2415,7 +2409,7 @@
         ]
       },
       {
-        "queueIndex": 38,
+        "queueIndex": 33,
         "sectionName": "Philosophical Inquiry",
         "pageTitle": "Dangers: Limits on Doubt",
         "pagePath": "/philosophical-inquiry/dangers-limits-on-doubt/",
@@ -2631,7 +2625,7 @@
         ]
       },
       {
-        "queueIndex": 31,
+        "queueIndex": 26,
         "sectionName": "Philosophy of AI",
         "pageTitle": "AI Meta-Post — Inner Monologues",
         "pagePath": "/philosophy-of-ai/ai-meta-post-inner-monologues/",
@@ -2702,7 +2696,7 @@
         ]
       },
       {
-        "queueIndex": 144,
+        "queueIndex": 141,
         "sectionName": "Philosophy of AI",
         "pageTitle": "AI Meta-Post — Overreach",
         "pagePath": "/philosophy-of-ai/ai-meta-post-overreach/",
@@ -2840,7 +2834,7 @@
         ]
       },
       {
-        "queueIndex": 6,
+        "queueIndex": 3,
         "sectionName": "Philosophy of Language",
         "pageTitle": "Abandoned Words",
         "pagePath": "/philosophy-of-language/abandoned-words/",
@@ -2911,7 +2905,7 @@
         ]
       },
       {
-        "queueIndex": 186,
+        "queueIndex": 185,
         "sectionName": "Philosophy of Language",
         "pageTitle": "Connotative Equivocation",
         "pagePath": "/philosophy-of-language/connotative-equivocation/",
@@ -2980,7 +2974,7 @@
         ]
       },
       {
-        "queueIndex": 24,
+        "queueIndex": 19,
         "sectionName": "Philosophy of Language",
         "pageTitle": "Language & the Brain",
         "pagePath": "/philosophy-of-language/language-the-brain/",
@@ -3051,7 +3045,7 @@
         ]
       },
       {
-        "queueIndex": 12,
+        "queueIndex": 7,
         "sectionName": "Philosophy of Language",
         "pageTitle": "Linguistic Scaffolding",
         "pagePath": "/philosophy-of-language/linguistic-scaffolding/",
@@ -3122,7 +3116,7 @@
         ]
       },
       {
-        "queueIndex": 11,
+        "queueIndex": 6,
         "sectionName": "Philosophy of Language",
         "pageTitle": "Needless Semantic Complexity",
         "pagePath": "/philosophy-of-language/needless-semantic-complexity/",
@@ -3262,7 +3256,7 @@
         ]
       },
       {
-        "queueIndex": 158,
+        "queueIndex": 156,
         "sectionName": "Philosophy of Language",
         "pageTitle": "The Power of Analogy",
         "pagePath": "/philosophy-of-language/the-power-of-analogy/",
@@ -3331,7 +3325,7 @@
         ]
       },
       {
-        "queueIndex": 130,
+        "queueIndex": 126,
         "sectionName": "Philosophy of Language",
         "pageTitle": "Thought = Language?",
         "pagePath": "/philosophy-of-language/thought-language/",
@@ -3400,7 +3394,7 @@
         ]
       },
       {
-        "queueIndex": 18,
+        "queueIndex": 13,
         "sectionName": "Philosophy of Mind",
         "pageTitle": "Are there Selfless Acts?",
         "pagePath": "/philosophy-of-mind/are-there-selfless-acts/",
@@ -3471,7 +3465,7 @@
         ]
       },
       {
-        "queueIndex": 176,
+        "queueIndex": 174,
         "sectionName": "Philosophy of Mind",
         "pageTitle": "Land Ownership",
         "pagePath": "/philosophy-of-mind/land-ownership/",
@@ -3540,7 +3534,7 @@
         ]
       },
       {
-        "queueIndex": 29,
+        "queueIndex": 24,
         "sectionName": "Philosophy of Mind",
         "pageTitle": "Philosophy of Mind — Core Concepts",
         "pagePath": "/philosophy-of-mind/philosophy-of-mind-core-concepts/",
@@ -3611,7 +3605,7 @@
         ]
       },
       {
-        "queueIndex": 13,
+        "queueIndex": 8,
         "sectionName": "Philosophy of Mind",
         "pageTitle": "Preferences = Pleasures?",
         "pagePath": "/philosophy-of-mind/preferences-pleasures/",
@@ -3681,52 +3675,28 @@
         ]
       },
       {
-        "queueIndex": 5,
+        "queueIndex": 120,
         "sectionName": "Philosophy of Science",
         "pageTitle": "Confounding Variables",
         "pagePath": "/philosophy-of-science/confounding-variables/",
-        "priorityBand": "review",
-        "worstScore": 60,
-        "averageScore": 83.0,
+        "priorityBand": "polish",
+        "worstScore": 88,
+        "averageScore": 97.0,
         "totalPromptSections": 4,
-        "needsReviewCount": 2,
-        "needsGapFillCount": 2,
-        "polishOpportunityCount": 2,
+        "needsReviewCount": 0,
+        "needsGapFillCount": 0,
+        "polishOpportunityCount": 4,
         "editorialIssues": [],
         "attentionSummary": [
-          "2 prompt sections need review",
-          "2 prompt sections need gap fill",
-          "2 prompt sections are polish opportunities"
+          "4 prompt sections are polish opportunities"
         ],
         "focusAnchors": [
-          "prompt-4",
-          "prompt-1",
           "prompt-3",
-          "prompt-2"
+          "prompt-1",
+          "prompt-2",
+          "prompt-4"
         ],
         "focusSections": [
-          {
-            "anchor": "prompt-4",
-            "url": "/philosophy-of-science/confounding-variables/#prompt-4",
-            "heading": "What are standard techniques to mitigate known confounding factors?",
-            "score": 60,
-            "level": "developing",
-            "needsReview": true,
-            "needsGapFill": true,
-            "polishOpportunity": false,
-            "editorialIssues": []
-          },
-          {
-            "anchor": "prompt-1",
-            "url": "/philosophy-of-science/confounding-variables/#prompt-1",
-            "heading": "Confounding Variables require sharper edges before the distinction can guide judgment.",
-            "score": 84,
-            "level": "good",
-            "needsReview": true,
-            "needsGapFill": true,
-            "polishOpportunity": false,
-            "editorialIssues": []
-          },
           {
             "anchor": "prompt-3",
             "url": "/philosophy-of-science/confounding-variables/#prompt-3",
@@ -3739,9 +3709,31 @@
             "editorialIssues": []
           },
           {
+            "anchor": "prompt-1",
+            "url": "/philosophy-of-science/confounding-variables/#prompt-1",
+            "heading": "A confound is a hidden rival explanation that travels with the variable you thought you were testing",
+            "score": 100,
+            "level": "exceptional",
+            "needsReview": false,
+            "needsGapFill": false,
+            "polishOpportunity": true,
+            "editorialIssues": []
+          },
+          {
             "anchor": "prompt-2",
             "url": "/philosophy-of-science/confounding-variables/#prompt-2",
-            "heading": "Hypothetical studies and their confounding factors",
+            "heading": "Seven study sketches reveal how quickly a plausible result can be stolen by a third factor",
+            "score": 100,
+            "level": "exceptional",
+            "needsReview": false,
+            "needsGapFill": false,
+            "polishOpportunity": true,
+            "editorialIssues": []
+          },
+          {
+            "anchor": "prompt-4",
+            "url": "/philosophy-of-science/confounding-variables/#prompt-4",
+            "heading": "Known confounds are mitigated by design choices that prevent rivals from clustering with one group",
             "score": 100,
             "level": "exceptional",
             "needsReview": false,
@@ -3752,7 +3744,7 @@
         ]
       },
       {
-        "queueIndex": 22,
+        "queueIndex": 17,
         "sectionName": "Philosophy of Science",
         "pageTitle": "Hard vs Soft Sciences",
         "pagePath": "/philosophy-of-science/hard-vs-soft-sciences/",
@@ -4601,8 +4593,8 @@
       "endIndexExclusive": 50,
       "pageCount": 50,
       "priorityCounts": {
-        "review": 39,
-        "gap-fill": 11
+        "review": 34,
+        "gap-fill": 16
       },
       "pages": [
         {
@@ -4759,219 +4751,6 @@
         },
         {
           "queueIndex": 3,
-          "sectionName": "Humanistic Philosophies",
-          "pageTitle": "Existentialism: Key Concepts",
-          "pagePath": "/humanistic-philosophies/existentialism-key-concepts/",
-          "priorityBand": "review",
-          "worstScore": 55,
-          "averageScore": 78.2,
-          "totalPromptSections": 4,
-          "needsReviewCount": 2,
-          "needsGapFillCount": 2,
-          "polishOpportunityCount": 2,
-          "editorialIssues": [],
-          "attentionSummary": [
-            "2 prompt sections need review",
-            "2 prompt sections need gap fill",
-            "2 prompt sections are polish opportunities"
-          ],
-          "focusAnchors": [
-            "prompt-1",
-            "prompt-2",
-            "prompt-3",
-            "prompt-4"
-          ],
-          "focusSections": [
-            {
-              "anchor": "prompt-1",
-              "url": "/humanistic-philosophies/existentialism-key-concepts/#prompt-1",
-              "heading": "Essential Existentialist concepts",
-              "score": 55,
-              "level": "thin",
-              "needsReview": true,
-              "needsGapFill": true,
-              "polishOpportunity": false,
-              "editorialIssues": []
-            },
-            {
-              "anchor": "prompt-2",
-              "url": "/humanistic-philosophies/existentialism-key-concepts/#prompt-2",
-              "heading": "For each of the 16 concepts above, create 3 scenarios depicting the concept in action",
-              "score": 62,
-              "level": "developing",
-              "needsReview": true,
-              "needsGapFill": true,
-              "polishOpportunity": false,
-              "editorialIssues": []
-            },
-            {
-              "anchor": "prompt-3",
-              "url": "/humanistic-philosophies/existentialism-key-concepts/#prompt-3",
-              "heading": "Many of the concepts above appear diametrically opposed to the many more hopeful (if unsubstantiated)",
-              "score": 98,
-              "level": "exceptional",
-              "needsReview": false,
-              "needsGapFill": false,
-              "polishOpportunity": true,
-              "editorialIssues": []
-            },
-            {
-              "anchor": "prompt-4",
-              "url": "/humanistic-philosophies/existentialism-key-concepts/#prompt-4",
-              "heading": "The Relevance of Existentialism in Today’s Technology-Laden World matters only if it survives the strongest pressure against it.",
-              "score": 98,
-              "level": "exceptional",
-              "needsReview": false,
-              "needsGapFill": false,
-              "polishOpportunity": true,
-              "editorialIssues": []
-            }
-          ]
-        },
-        {
-          "queueIndex": 4,
-          "sectionName": "Miscellany",
-          "pageTitle": "Domains of Aesthetics",
-          "pagePath": "/miscellany/domains-of-aesthetics/",
-          "priorityBand": "review",
-          "worstScore": 60,
-          "averageScore": 71.0,
-          "totalPromptSections": 4,
-          "needsReviewCount": 3,
-          "needsGapFillCount": 3,
-          "polishOpportunityCount": 1,
-          "editorialIssues": [],
-          "attentionSummary": [
-            "3 prompt sections need review",
-            "3 prompt sections need gap fill",
-            "1 prompt sections are polish opportunities"
-          ],
-          "focusAnchors": [
-            "prompt-2",
-            "prompt-3",
-            "prompt-1",
-            "prompt-4"
-          ],
-          "focusSections": [
-            {
-              "anchor": "prompt-2",
-              "url": "/miscellany/domains-of-aesthetics/#prompt-2",
-              "heading": "Arguments that aesthetics contributes to society in non-trivial way",
-              "score": 60,
-              "level": "developing",
-              "needsReview": true,
-              "needsGapFill": true,
-              "polishOpportunity": false,
-              "editorialIssues": []
-            },
-            {
-              "anchor": "prompt-3",
-              "url": "/miscellany/domains-of-aesthetics/#prompt-3",
-              "heading": "The real issue is what Domains of Aesthetics changes once it becomes precise.",
-              "score": 60,
-              "level": "developing",
-              "needsReview": true,
-              "needsGapFill": true,
-              "polishOpportunity": false,
-              "editorialIssues": []
-            },
-            {
-              "anchor": "prompt-1",
-              "url": "/miscellany/domains-of-aesthetics/#prompt-1",
-              "heading": "What domains are found within the discipline of aesthetics?",
-              "score": 71,
-              "level": "developing",
-              "needsReview": true,
-              "needsGapFill": true,
-              "polishOpportunity": false,
-              "editorialIssues": []
-            },
-            {
-              "anchor": "prompt-4",
-              "url": "/miscellany/domains-of-aesthetics/#prompt-4",
-              "heading": "Recommendations on a healthy amount of time a well-rounded mind might spend on various",
-              "score": 93,
-              "level": "strong",
-              "needsReview": false,
-              "needsGapFill": false,
-              "polishOpportunity": true,
-              "editorialIssues": []
-            }
-          ]
-        },
-        {
-          "queueIndex": 5,
-          "sectionName": "Philosophy of Science",
-          "pageTitle": "Confounding Variables",
-          "pagePath": "/philosophy-of-science/confounding-variables/",
-          "priorityBand": "review",
-          "worstScore": 60,
-          "averageScore": 83.0,
-          "totalPromptSections": 4,
-          "needsReviewCount": 2,
-          "needsGapFillCount": 2,
-          "polishOpportunityCount": 2,
-          "editorialIssues": [],
-          "attentionSummary": [
-            "2 prompt sections need review",
-            "2 prompt sections need gap fill",
-            "2 prompt sections are polish opportunities"
-          ],
-          "focusAnchors": [
-            "prompt-4",
-            "prompt-1",
-            "prompt-3",
-            "prompt-2"
-          ],
-          "focusSections": [
-            {
-              "anchor": "prompt-4",
-              "url": "/philosophy-of-science/confounding-variables/#prompt-4",
-              "heading": "What are standard techniques to mitigate known confounding factors?",
-              "score": 60,
-              "level": "developing",
-              "needsReview": true,
-              "needsGapFill": true,
-              "polishOpportunity": false,
-              "editorialIssues": []
-            },
-            {
-              "anchor": "prompt-1",
-              "url": "/philosophy-of-science/confounding-variables/#prompt-1",
-              "heading": "Confounding Variables require sharper edges before the distinction can guide judgment.",
-              "score": 84,
-              "level": "good",
-              "needsReview": true,
-              "needsGapFill": true,
-              "polishOpportunity": false,
-              "editorialIssues": []
-            },
-            {
-              "anchor": "prompt-3",
-              "url": "/philosophy-of-science/confounding-variables/#prompt-3",
-              "heading": "What are ways to identify hidden confounding factors that may jeopardize a study?",
-              "score": 88,
-              "level": "strong",
-              "needsReview": false,
-              "needsGapFill": false,
-              "polishOpportunity": true,
-              "editorialIssues": []
-            },
-            {
-              "anchor": "prompt-2",
-              "url": "/philosophy-of-science/confounding-variables/#prompt-2",
-              "heading": "Hypothetical studies and their confounding factors",
-              "score": 100,
-              "level": "exceptional",
-              "needsReview": false,
-              "needsGapFill": false,
-              "polishOpportunity": true,
-              "editorialIssues": []
-            }
-          ]
-        },
-        {
-          "queueIndex": 6,
           "sectionName": "Philosophy of Language",
           "pageTitle": "Abandoned Words",
           "pagePath": "/philosophy-of-language/abandoned-words/",
@@ -5042,77 +4821,7 @@
           ]
         },
         {
-          "queueIndex": 7,
-          "sectionName": "Miscellany",
-          "pageTitle": "Complexity Theory",
-          "pagePath": "/miscellany/complexity-theory/",
-          "priorityBand": "review",
-          "worstScore": 62,
-          "averageScore": 68.5,
-          "totalPromptSections": 4,
-          "needsReviewCount": 4,
-          "needsGapFillCount": 4,
-          "polishOpportunityCount": 0,
-          "editorialIssues": [],
-          "attentionSummary": [
-            "4 prompt sections need review",
-            "4 prompt sections need gap fill"
-          ],
-          "focusAnchors": [
-            "prompt-4",
-            "prompt-1",
-            "prompt-2",
-            "prompt-3"
-          ],
-          "focusSections": [
-            {
-              "anchor": "prompt-4",
-              "url": "/miscellany/complexity-theory/#prompt-4",
-              "heading": "The dialogue matters because it tests Complexity Theory in public.",
-              "score": 62,
-              "level": "developing",
-              "needsReview": true,
-              "needsGapFill": true,
-              "polishOpportunity": false,
-              "editorialIssues": []
-            },
-            {
-              "anchor": "prompt-1",
-              "url": "/miscellany/complexity-theory/#prompt-1",
-              "heading": "What is complexity theory?",
-              "score": 67,
-              "level": "developing",
-              "needsReview": true,
-              "needsGapFill": true,
-              "polishOpportunity": false,
-              "editorialIssues": []
-            },
-            {
-              "anchor": "prompt-2",
-              "url": "/miscellany/complexity-theory/#prompt-2",
-              "heading": "What have been the most powerful concepts that have emerged from complexity theory research?",
-              "score": 68,
-              "level": "developing",
-              "needsReview": true,
-              "needsGapFill": true,
-              "polishOpportunity": false,
-              "editorialIssues": []
-            },
-            {
-              "anchor": "prompt-3",
-              "url": "/miscellany/complexity-theory/#prompt-3",
-              "heading": "What recent complexity theory research projects have shown promise?",
-              "score": 77,
-              "level": "good",
-              "needsReview": true,
-              "needsGapFill": true,
-              "polishOpportunity": false,
-              "editorialIssues": []
-            }
-          ]
-        },
-        {
-          "queueIndex": 8,
+          "queueIndex": 4,
           "sectionName": "Miscellany",
           "pageTitle": "Flack & Mitchell on Complexity",
           "pagePath": "/miscellany/flack-mitchell-on-complexity/",
@@ -5183,77 +4892,7 @@
           ]
         },
         {
-          "queueIndex": 9,
-          "sectionName": "Humanistic Philosophies",
-          "pageTitle": "New Manifestations of Theism",
-          "pagePath": "/humanistic-philosophies/new-manifestations-of-theism/",
-          "priorityBand": "review",
-          "worstScore": 68,
-          "averageScore": 72.0,
-          "totalPromptSections": 4,
-          "needsReviewCount": 4,
-          "needsGapFillCount": 4,
-          "polishOpportunityCount": 0,
-          "editorialIssues": [],
-          "attentionSummary": [
-            "4 prompt sections need review",
-            "4 prompt sections need gap fill"
-          ],
-          "focusAnchors": [
-            "prompt-1",
-            "prompt-2",
-            "prompt-3",
-            "prompt-4"
-          ],
-          "focusSections": [
-            {
-              "anchor": "prompt-1",
-              "url": "/humanistic-philosophies/new-manifestations-of-theism/#prompt-1",
-              "heading": "How has theism changed since modernity?",
-              "score": 68,
-              "level": "developing",
-              "needsReview": true,
-              "needsGapFill": true,
-              "polishOpportunity": false,
-              "editorialIssues": []
-            },
-            {
-              "anchor": "prompt-2",
-              "url": "/humanistic-philosophies/new-manifestations-of-theism/#prompt-2",
-              "heading": "What have been the historical markers of a religion headed for extinction?",
-              "score": 68,
-              "level": "developing",
-              "needsReview": true,
-              "needsGapFill": true,
-              "polishOpportunity": false,
-              "editorialIssues": []
-            },
-            {
-              "anchor": "prompt-3",
-              "url": "/humanistic-philosophies/new-manifestations-of-theism/#prompt-3",
-              "heading": "What cultural and societal traits correlate with high degrees of religiosity today?",
-              "score": 68,
-              "level": "developing",
-              "needsReview": true,
-              "needsGapFill": true,
-              "polishOpportunity": false,
-              "editorialIssues": []
-            },
-            {
-              "anchor": "prompt-4",
-              "url": "/humanistic-philosophies/new-manifestations-of-theism/#prompt-4",
-              "heading": "The real issue is what New Manifestations of Theism changes once it becomes precise.",
-              "score": 84,
-              "level": "good",
-              "needsReview": true,
-              "needsGapFill": true,
-              "polishOpportunity": false,
-              "editorialIssues": []
-            }
-          ]
-        },
-        {
-          "queueIndex": 10,
+          "queueIndex": 5,
           "sectionName": "Metaphysics",
           "pageTitle": "Ontological Domains",
           "pagePath": "/metaphysics/ontological-domains/",
@@ -5315,6 +4954,360 @@
               "url": "/metaphysics/ontological-domains/#prompt-1",
               "heading": "Proposed ontological domains",
               "score": 96,
+              "level": "exceptional",
+              "needsReview": false,
+              "needsGapFill": false,
+              "polishOpportunity": true,
+              "editorialIssues": []
+            }
+          ]
+        },
+        {
+          "queueIndex": 6,
+          "sectionName": "Philosophy of Language",
+          "pageTitle": "Needless Semantic Complexity",
+          "pagePath": "/philosophy-of-language/needless-semantic-complexity/",
+          "priorityBand": "review",
+          "worstScore": 68,
+          "averageScore": 80.0,
+          "totalPromptSections": 4,
+          "needsReviewCount": 3,
+          "needsGapFillCount": 3,
+          "polishOpportunityCount": 1,
+          "editorialIssues": [],
+          "attentionSummary": [
+            "3 prompt sections need review",
+            "3 prompt sections need gap fill",
+            "1 prompt sections are polish opportunities"
+          ],
+          "focusAnchors": [
+            "prompt-1",
+            "prompt-2",
+            "prompt-4",
+            "prompt-3"
+          ],
+          "focusSections": [
+            {
+              "anchor": "prompt-1",
+              "url": "/philosophy-of-language/needless-semantic-complexity/#prompt-1",
+              "heading": "Sometimes language makes a simple reality look fancier than it is",
+              "score": 68,
+              "level": "developing",
+              "needsReview": true,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-2",
+              "url": "/philosophy-of-language/needless-semantic-complexity/#prompt-2",
+              "heading": "Why simple realities attract inflated terminology",
+              "score": 78,
+              "level": "good",
+              "needsReview": true,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-4",
+              "url": "/philosophy-of-language/needless-semantic-complexity/#prompt-4",
+              "heading": "Which realities are buried under inflated language?",
+              "score": 78,
+              "level": "good",
+              "needsReview": true,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-3",
+              "url": "/philosophy-of-language/needless-semantic-complexity/#prompt-3",
+              "heading": "How can scientists and educators encourage a reduction in the linguistic complexity behind simple realities?",
+              "score": 96,
+              "level": "exceptional",
+              "needsReview": false,
+              "needsGapFill": false,
+              "polishOpportunity": true,
+              "editorialIssues": []
+            }
+          ]
+        },
+        {
+          "queueIndex": 7,
+          "sectionName": "Philosophy of Language",
+          "pageTitle": "Linguistic Scaffolding",
+          "pagePath": "/philosophy-of-language/linguistic-scaffolding/",
+          "priorityBand": "review",
+          "worstScore": 68,
+          "averageScore": 90.8,
+          "totalPromptSections": 4,
+          "needsReviewCount": 1,
+          "needsGapFillCount": 1,
+          "polishOpportunityCount": 3,
+          "editorialIssues": [],
+          "attentionSummary": [
+            "1 prompt sections need review",
+            "1 prompt sections need gap fill",
+            "3 prompt sections are polish opportunities"
+          ],
+          "focusAnchors": [
+            "prompt-2",
+            "prompt-1",
+            "prompt-3",
+            "prompt-4"
+          ],
+          "focusSections": [
+            {
+              "anchor": "prompt-2",
+              "url": "/philosophy-of-language/linguistic-scaffolding/#prompt-2",
+              "heading": "To what degree is scaffolding central to all forms of human learning?",
+              "score": 68,
+              "level": "developing",
+              "needsReview": true,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-1",
+              "url": "/philosophy-of-language/linguistic-scaffolding/#prompt-1",
+              "heading": "Linguistic scaffolding lets simple verbal tools support more complex thought",
+              "score": 95,
+              "level": "strong",
+              "needsReview": false,
+              "needsGapFill": false,
+              "polishOpportunity": true,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-3",
+              "url": "/philosophy-of-language/linguistic-scaffolding/#prompt-3",
+              "heading": "What might be the effects of damaged or incomplete scaffolding for learners?",
+              "score": 100,
+              "level": "exceptional",
+              "needsReview": false,
+              "needsGapFill": false,
+              "polishOpportunity": true,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-4",
+              "url": "/philosophy-of-language/linguistic-scaffolding/#prompt-4",
+              "heading": "How can learners self-assess whether they have gaps in their scaffolding?",
+              "score": 100,
+              "level": "exceptional",
+              "needsReview": false,
+              "needsGapFill": false,
+              "polishOpportunity": true,
+              "editorialIssues": []
+            }
+          ]
+        },
+        {
+          "queueIndex": 8,
+          "sectionName": "Philosophy of Mind",
+          "pageTitle": "Preferences = Pleasures?",
+          "pagePath": "/philosophy-of-mind/preferences-pleasures/",
+          "priorityBand": "review",
+          "worstScore": 70,
+          "averageScore": 75.5,
+          "totalPromptSections": 4,
+          "needsReviewCount": 4,
+          "needsGapFillCount": 4,
+          "polishOpportunityCount": 0,
+          "editorialIssues": [],
+          "attentionSummary": [
+            "4 prompt sections need review",
+            "4 prompt sections need gap fill"
+          ],
+          "focusAnchors": [
+            "prompt-1",
+            "prompt-2",
+            "prompt-3",
+            "prompt-4"
+          ],
+          "focusSections": [
+            {
+              "anchor": "prompt-1",
+              "url": "/philosophy-of-mind/preferences-pleasures/#prompt-1",
+              "heading": "Are all human decisions ultimately driven by pleasure and pain?",
+              "score": 70,
+              "level": "developing",
+              "needsReview": true,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-2",
+              "url": "/philosophy-of-mind/preferences-pleasures/#prompt-2",
+              "heading": "Can duty, social pressure, and rational goals be reduced to hedonic motives?",
+              "score": 76,
+              "level": "good",
+              "needsReview": true,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-3",
+              "url": "/philosophy-of-mind/preferences-pleasures/#prompt-3",
+              "heading": "Can every motive still be reduced to pleasure and pain?",
+              "score": 78,
+              "level": "good",
+              "needsReview": true,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-4",
+              "url": "/philosophy-of-mind/preferences-pleasures/#prompt-4",
+              "heading": "Can this framework survive its strongest objection?",
+              "score": 78,
+              "level": "good",
+              "needsReview": true,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            }
+          ]
+        },
+        {
+          "queueIndex": 9,
+          "sectionName": "Miscellany",
+          "pageTitle": "Sara Walker on Life’s Emergence",
+          "pagePath": "/miscellany/sara-walker-on-lifes-emergence/",
+          "priorityBand": "review",
+          "worstScore": 70,
+          "averageScore": 82.0,
+          "totalPromptSections": 4,
+          "needsReviewCount": 3,
+          "needsGapFillCount": 3,
+          "polishOpportunityCount": 1,
+          "editorialIssues": [],
+          "attentionSummary": [
+            "3 prompt sections need review",
+            "3 prompt sections need gap fill",
+            "1 prompt sections are polish opportunities"
+          ],
+          "focusAnchors": [
+            "prompt-4",
+            "prompt-2",
+            "prompt-1",
+            "prompt-3"
+          ],
+          "focusSections": [
+            {
+              "anchor": "prompt-4",
+              "url": "/miscellany/sara-walker-on-lifes-emergence/#prompt-4",
+              "heading": "Assessing the plausibility of these arguments",
+              "score": 70,
+              "level": "developing",
+              "needsReview": true,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-2",
+              "url": "/miscellany/sara-walker-on-lifes-emergence/#prompt-2",
+              "heading": "Profile of the podcast guest",
+              "score": 76,
+              "level": "good",
+              "needsReview": true,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-1",
+              "url": "/miscellany/sara-walker-on-lifes-emergence/#prompt-1",
+              "heading": "Sara Walker treats life as something organized information can build",
+              "score": 82,
+              "level": "good",
+              "needsReview": true,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-3",
+              "url": "/miscellany/sara-walker-on-lifes-emergence/#prompt-3",
+              "heading": "The transcript's main arguments, made explicit",
+              "score": 100,
+              "level": "exceptional",
+              "needsReview": false,
+              "needsGapFill": false,
+              "polishOpportunity": true,
+              "editorialIssues": []
+            }
+          ]
+        },
+        {
+          "queueIndex": 10,
+          "sectionName": "Miscellany",
+          "pageTitle": "Zak Stein on Complexity",
+          "pagePath": "/miscellany/zak-stein-on-complexity/",
+          "priorityBand": "review",
+          "worstScore": 70,
+          "averageScore": 86.2,
+          "totalPromptSections": 4,
+          "needsReviewCount": 2,
+          "needsGapFillCount": 2,
+          "polishOpportunityCount": 2,
+          "editorialIssues": [],
+          "attentionSummary": [
+            "2 prompt sections need review",
+            "2 prompt sections need gap fill",
+            "2 prompt sections are polish opportunities"
+          ],
+          "focusAnchors": [
+            "prompt-4",
+            "prompt-1",
+            "prompt-2",
+            "prompt-3"
+          ],
+          "focusSections": [
+            {
+              "anchor": "prompt-4",
+              "url": "/miscellany/zak-stein-on-complexity/#prompt-4",
+              "heading": "Assessing the plausibility of these arguments",
+              "score": 70,
+              "level": "developing",
+              "needsReview": true,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-1",
+              "url": "/miscellany/zak-stein-on-complexity/#prompt-1",
+              "heading": "Zak Stein links complexity to development, context, and scale",
+              "score": 82,
+              "level": "good",
+              "needsReview": true,
+              "needsGapFill": true,
+              "polishOpportunity": false,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-2",
+              "url": "/miscellany/zak-stein-on-complexity/#prompt-2",
+              "heading": "Profile of the podcast guest",
+              "score": 93,
+              "level": "strong",
+              "needsReview": false,
+              "needsGapFill": false,
+              "polishOpportunity": true,
+              "editorialIssues": []
+            },
+            {
+              "anchor": "prompt-3",
+              "url": "/miscellany/zak-stein-on-complexity/#prompt-3",
+              "heading": "The transcript's main arguments, made explicit",
+              "score": 100,
               "level": "exceptional",
               "needsReview": false,
               "needsGapFill": false,
@@ -6253,219 +6246,6 @@
     },
     {
       "queueIndex": 3,
-      "sectionName": "Humanistic Philosophies",
-      "pageTitle": "Existentialism: Key Concepts",
-      "pagePath": "/humanistic-philosophies/existentialism-key-concepts/",
-      "priorityBand": "review",
-      "worstScore": 55,
-      "averageScore": 78.2,
-      "totalPromptSections": 4,
-      "needsReviewCount": 2,
-      "needsGapFillCount": 2,
-      "polishOpportunityCount": 2,
-      "editorialIssues": [],
-      "attentionSummary": [
-        "2 prompt sections need review",
-        "2 prompt sections need gap fill",
-        "2 prompt sections are polish opportunities"
-      ],
-      "focusAnchors": [
-        "prompt-1",
-        "prompt-2",
-        "prompt-3",
-        "prompt-4"
-      ],
-      "focusSections": [
-        {
-          "anchor": "prompt-1",
-          "url": "/humanistic-philosophies/existentialism-key-concepts/#prompt-1",
-          "heading": "Essential Existentialist concepts",
-          "score": 55,
-          "level": "thin",
-          "needsReview": true,
-          "needsGapFill": true,
-          "polishOpportunity": false,
-          "editorialIssues": []
-        },
-        {
-          "anchor": "prompt-2",
-          "url": "/humanistic-philosophies/existentialism-key-concepts/#prompt-2",
-          "heading": "For each of the 16 concepts above, create 3 scenarios depicting the concept in action",
-          "score": 62,
-          "level": "developing",
-          "needsReview": true,
-          "needsGapFill": true,
-          "polishOpportunity": false,
-          "editorialIssues": []
-        },
-        {
-          "anchor": "prompt-3",
-          "url": "/humanistic-philosophies/existentialism-key-concepts/#prompt-3",
-          "heading": "Many of the concepts above appear diametrically opposed to the many more hopeful (if unsubstantiated)",
-          "score": 98,
-          "level": "exceptional",
-          "needsReview": false,
-          "needsGapFill": false,
-          "polishOpportunity": true,
-          "editorialIssues": []
-        },
-        {
-          "anchor": "prompt-4",
-          "url": "/humanistic-philosophies/existentialism-key-concepts/#prompt-4",
-          "heading": "The Relevance of Existentialism in Today’s Technology-Laden World matters only if it survives the strongest pressure against it.",
-          "score": 98,
-          "level": "exceptional",
-          "needsReview": false,
-          "needsGapFill": false,
-          "polishOpportunity": true,
-          "editorialIssues": []
-        }
-      ]
-    },
-    {
-      "queueIndex": 4,
-      "sectionName": "Miscellany",
-      "pageTitle": "Domains of Aesthetics",
-      "pagePath": "/miscellany/domains-of-aesthetics/",
-      "priorityBand": "review",
-      "worstScore": 60,
-      "averageScore": 71.0,
-      "totalPromptSections": 4,
-      "needsReviewCount": 3,
-      "needsGapFillCount": 3,
-      "polishOpportunityCount": 1,
-      "editorialIssues": [],
-      "attentionSummary": [
-        "3 prompt sections need review",
-        "3 prompt sections need gap fill",
-        "1 prompt sections are polish opportunities"
-      ],
-      "focusAnchors": [
-        "prompt-2",
-        "prompt-3",
-        "prompt-1",
-        "prompt-4"
-      ],
-      "focusSections": [
-        {
-          "anchor": "prompt-2",
-          "url": "/miscellany/domains-of-aesthetics/#prompt-2",
-          "heading": "Arguments that aesthetics contributes to society in non-trivial way",
-          "score": 60,
-          "level": "developing",
-          "needsReview": true,
-          "needsGapFill": true,
-          "polishOpportunity": false,
-          "editorialIssues": []
-        },
-        {
-          "anchor": "prompt-3",
-          "url": "/miscellany/domains-of-aesthetics/#prompt-3",
-          "heading": "The real issue is what Domains of Aesthetics changes once it becomes precise.",
-          "score": 60,
-          "level": "developing",
-          "needsReview": true,
-          "needsGapFill": true,
-          "polishOpportunity": false,
-          "editorialIssues": []
-        },
-        {
-          "anchor": "prompt-1",
-          "url": "/miscellany/domains-of-aesthetics/#prompt-1",
-          "heading": "What domains are found within the discipline of aesthetics?",
-          "score": 71,
-          "level": "developing",
-          "needsReview": true,
-          "needsGapFill": true,
-          "polishOpportunity": false,
-          "editorialIssues": []
-        },
-        {
-          "anchor": "prompt-4",
-          "url": "/miscellany/domains-of-aesthetics/#prompt-4",
-          "heading": "Recommendations on a healthy amount of time a well-rounded mind might spend on various",
-          "score": 93,
-          "level": "strong",
-          "needsReview": false,
-          "needsGapFill": false,
-          "polishOpportunity": true,
-          "editorialIssues": []
-        }
-      ]
-    },
-    {
-      "queueIndex": 5,
-      "sectionName": "Philosophy of Science",
-      "pageTitle": "Confounding Variables",
-      "pagePath": "/philosophy-of-science/confounding-variables/",
-      "priorityBand": "review",
-      "worstScore": 60,
-      "averageScore": 83.0,
-      "totalPromptSections": 4,
-      "needsReviewCount": 2,
-      "needsGapFillCount": 2,
-      "polishOpportunityCount": 2,
-      "editorialIssues": [],
-      "attentionSummary": [
-        "2 prompt sections need review",
-        "2 prompt sections need gap fill",
-        "2 prompt sections are polish opportunities"
-      ],
-      "focusAnchors": [
-        "prompt-4",
-        "prompt-1",
-        "prompt-3",
-        "prompt-2"
-      ],
-      "focusSections": [
-        {
-          "anchor": "prompt-4",
-          "url": "/philosophy-of-science/confounding-variables/#prompt-4",
-          "heading": "What are standard techniques to mitigate known confounding factors?",
-          "score": 60,
-          "level": "developing",
-          "needsReview": true,
-          "needsGapFill": true,
-          "polishOpportunity": false,
-          "editorialIssues": []
-        },
-        {
-          "anchor": "prompt-1",
-          "url": "/philosophy-of-science/confounding-variables/#prompt-1",
-          "heading": "Confounding Variables require sharper edges before the distinction can guide judgment.",
-          "score": 84,
-          "level": "good",
-          "needsReview": true,
-          "needsGapFill": true,
-          "polishOpportunity": false,
-          "editorialIssues": []
-        },
-        {
-          "anchor": "prompt-3",
-          "url": "/philosophy-of-science/confounding-variables/#prompt-3",
-          "heading": "What are ways to identify hidden confounding factors that may jeopardize a study?",
-          "score": 88,
-          "level": "strong",
-          "needsReview": false,
-          "needsGapFill": false,
-          "polishOpportunity": true,
-          "editorialIssues": []
-        },
-        {
-          "anchor": "prompt-2",
-          "url": "/philosophy-of-science/confounding-variables/#prompt-2",
-          "heading": "Hypothetical studies and their confounding factors",
-          "score": 100,
-          "level": "exceptional",
-          "needsReview": false,
-          "needsGapFill": false,
-          "polishOpportunity": true,
-          "editorialIssues": []
-        }
-      ]
-    },
-    {
-      "queueIndex": 6,
       "sectionName": "Philosophy of Language",
       "pageTitle": "Abandoned Words",
       "pagePath": "/philosophy-of-language/abandoned-words/",
@@ -6536,77 +6316,7 @@
       ]
     },
     {
-      "queueIndex": 7,
-      "sectionName": "Miscellany",
-      "pageTitle": "Complexity Theory",
-      "pagePath": "/miscellany/complexity-theory/",
-      "priorityBand": "review",
-      "worstScore": 62,
-      "averageScore": 68.5,
-      "totalPromptSections": 4,
-      "needsReviewCount": 4,
-      "needsGapFillCount": 4,
-      "polishOpportunityCount": 0,
-      "editorialIssues": [],
-      "attentionSummary": [
-        "4 prompt sections need review",
-        "4 prompt sections need gap fill"
-      ],
-      "focusAnchors": [
-        "prompt-4",
-        "prompt-1",
-        "prompt-2",
-        "prompt-3"
-      ],
-      "focusSections": [
-        {
-          "anchor": "prompt-4",
-          "url": "/miscellany/complexity-theory/#prompt-4",
-          "heading": "The dialogue matters because it tests Complexity Theory in public.",
-          "score": 62,
-          "level": "developing",
-          "needsReview": true,
-          "needsGapFill": true,
-          "polishOpportunity": false,
-          "editorialIssues": []
-        },
-        {
-          "anchor": "prompt-1",
-          "url": "/miscellany/complexity-theory/#prompt-1",
-          "heading": "What is complexity theory?",
-          "score": 67,
-          "level": "developing",
-          "needsReview": true,
-          "needsGapFill": true,
-          "polishOpportunity": false,
-          "editorialIssues": []
-        },
-        {
-          "anchor": "prompt-2",
-          "url": "/miscellany/complexity-theory/#prompt-2",
-          "heading": "What have been the most powerful concepts that have emerged from complexity theory research?",
-          "score": 68,
-          "level": "developing",
-          "needsReview": true,
-          "needsGapFill": true,
-          "polishOpportunity": false,
-          "editorialIssues": []
-        },
-        {
-          "anchor": "prompt-3",
-          "url": "/miscellany/complexity-theory/#prompt-3",
-          "heading": "What recent complexity theory research projects have shown promise?",
-          "score": 77,
-          "level": "good",
-          "needsReview": true,
-          "needsGapFill": true,
-          "polishOpportunity": false,
-          "editorialIssues": []
-        }
-      ]
-    },
-    {
-      "queueIndex": 8,
+      "queueIndex": 4,
       "sectionName": "Miscellany",
       "pageTitle": "Flack & Mitchell on Complexity",
       "pagePath": "/miscellany/flack-mitchell-on-complexity/",
@@ -6677,77 +6387,7 @@
       ]
     },
     {
-      "queueIndex": 9,
-      "sectionName": "Humanistic Philosophies",
-      "pageTitle": "New Manifestations of Theism",
-      "pagePath": "/humanistic-philosophies/new-manifestations-of-theism/",
-      "priorityBand": "review",
-      "worstScore": 68,
-      "averageScore": 72.0,
-      "totalPromptSections": 4,
-      "needsReviewCount": 4,
-      "needsGapFillCount": 4,
-      "polishOpportunityCount": 0,
-      "editorialIssues": [],
-      "attentionSummary": [
-        "4 prompt sections need review",
-        "4 prompt sections need gap fill"
-      ],
-      "focusAnchors": [
-        "prompt-1",
-        "prompt-2",
-        "prompt-3",
-        "prompt-4"
-      ],
-      "focusSections": [
-        {
-          "anchor": "prompt-1",
-          "url": "/humanistic-philosophies/new-manifestations-of-theism/#prompt-1",
-          "heading": "How has theism changed since modernity?",
-          "score": 68,
-          "level": "developing",
-          "needsReview": true,
-          "needsGapFill": true,
-          "polishOpportunity": false,
-          "editorialIssues": []
-        },
-        {
-          "anchor": "prompt-2",
-          "url": "/humanistic-philosophies/new-manifestations-of-theism/#prompt-2",
-          "heading": "What have been the historical markers of a religion headed for extinction?",
-          "score": 68,
-          "level": "developing",
-          "needsReview": true,
-          "needsGapFill": true,
-          "polishOpportunity": false,
-          "editorialIssues": []
-        },
-        {
-          "anchor": "prompt-3",
-          "url": "/humanistic-philosophies/new-manifestations-of-theism/#prompt-3",
-          "heading": "What cultural and societal traits correlate with high degrees of religiosity today?",
-          "score": 68,
-          "level": "developing",
-          "needsReview": true,
-          "needsGapFill": true,
-          "polishOpportunity": false,
-          "editorialIssues": []
-        },
-        {
-          "anchor": "prompt-4",
-          "url": "/humanistic-philosophies/new-manifestations-of-theism/#prompt-4",
-          "heading": "The real issue is what New Manifestations of Theism changes once it becomes precise.",
-          "score": 84,
-          "level": "good",
-          "needsReview": true,
-          "needsGapFill": true,
-          "polishOpportunity": false,
-          "editorialIssues": []
-        }
-      ]
-    },
-    {
-      "queueIndex": 10,
+      "queueIndex": 5,
       "sectionName": "Metaphysics",
       "pageTitle": "Ontological Domains",
       "pagePath": "/metaphysics/ontological-domains/",
@@ -6818,7 +6458,7 @@
       ]
     },
     {
-      "queueIndex": 11,
+      "queueIndex": 6,
       "sectionName": "Philosophy of Language",
       "pageTitle": "Needless Semantic Complexity",
       "pagePath": "/philosophy-of-language/needless-semantic-complexity/",
@@ -6889,7 +6529,7 @@
       ]
     },
     {
-      "queueIndex": 12,
+      "queueIndex": 7,
       "sectionName": "Philosophy of Language",
       "pageTitle": "Linguistic Scaffolding",
       "pagePath": "/philosophy-of-language/linguistic-scaffolding/",
@@ -6960,7 +6600,7 @@
       ]
     },
     {
-      "queueIndex": 13,
+      "queueIndex": 8,
       "sectionName": "Philosophy of Mind",
       "pageTitle": "Preferences = Pleasures?",
       "pagePath": "/philosophy-of-mind/preferences-pleasures/",
@@ -7030,7 +6670,7 @@
       ]
     },
     {
-      "queueIndex": 14,
+      "queueIndex": 9,
       "sectionName": "Miscellany",
       "pageTitle": "Sara Walker on Life’s Emergence",
       "pagePath": "/miscellany/sara-walker-on-lifes-emergence/",
@@ -7101,7 +6741,7 @@
       ]
     },
     {
-      "queueIndex": 15,
+      "queueIndex": 10,
       "sectionName": "Miscellany",
       "pageTitle": "Zak Stein on Complexity",
       "pagePath": "/miscellany/zak-stein-on-complexity/",
@@ -7172,7 +6812,7 @@
       ]
     },
     {
-      "queueIndex": 16,
+      "queueIndex": 11,
       "sectionName": "Miscellany",
       "pageTitle": "The Fantastical & Historical Truth",
       "pagePath": "/miscellany/the-fantastical-historical-truth/",
@@ -7255,7 +6895,7 @@
       ]
     },
     {
-      "queueIndex": 17,
+      "queueIndex": 12,
       "sectionName": "Metaphysics",
       "pageTitle": "Metaphysics – Core Concepts",
       "pagePath": "/metaphysics/metaphysics-core-concepts/",
@@ -7326,7 +6966,7 @@
       ]
     },
     {
-      "queueIndex": 18,
+      "queueIndex": 13,
       "sectionName": "Philosophy of Mind",
       "pageTitle": "Are there Selfless Acts?",
       "pagePath": "/philosophy-of-mind/are-there-selfless-acts/",
@@ -7397,7 +7037,7 @@
       ]
     },
     {
-      "queueIndex": 19,
+      "queueIndex": 14,
       "sectionName": "Introduction",
       "pageTitle": "Studying Philosophy: Resources",
       "pagePath": "/introduction/studying-philosophy-resources/",
@@ -7468,7 +7108,7 @@
       ]
     },
     {
-      "queueIndex": 20,
+      "queueIndex": 15,
       "sectionName": "Philosophy of Mind",
       "pageTitle": "What is Consciousness?",
       "pagePath": "/philosophy-of-mind/what-is-consciousness/",
@@ -7551,7 +7191,7 @@
       ]
     },
     {
-      "queueIndex": 21,
+      "queueIndex": 16,
       "sectionName": "Metaphysics",
       "pageTitle": "Jeremy Sherman on Emergence",
       "pagePath": "/metaphysics/jeremy-sherman-on-emergence/",
@@ -7622,7 +7262,7 @@
       ]
     },
     {
-      "queueIndex": 22,
+      "queueIndex": 17,
       "sectionName": "Philosophy of Science",
       "pageTitle": "Hard vs Soft Sciences",
       "pagePath": "/philosophy-of-science/hard-vs-soft-sciences/",
@@ -7693,7 +7333,7 @@
       ]
     },
     {
-      "queueIndex": 23,
+      "queueIndex": 18,
       "sectionName": "Metaphysics",
       "pageTitle": "Matthew Pirkowski on Emergence",
       "pagePath": "/metaphysics/matthew-pirkowski-on-emergence/",
@@ -7764,7 +7404,7 @@
       ]
     },
     {
-      "queueIndex": 24,
+      "queueIndex": 19,
       "sectionName": "Philosophy of Language",
       "pageTitle": "Language & the Brain",
       "pagePath": "/philosophy-of-language/language-the-brain/",
@@ -7835,7 +7475,7 @@
       ]
     },
     {
-      "queueIndex": 25,
+      "queueIndex": 20,
       "sectionName": "Metaphysics",
       "pageTitle": "Could Mind be Fundamental?",
       "pagePath": "/metaphysics/could-mind-be-fundamental/",
@@ -7906,7 +7546,7 @@
       ]
     },
     {
-      "queueIndex": 26,
+      "queueIndex": 21,
       "sectionName": "Miscellany",
       "pageTitle": "Cross-Culture Emotional Dispositions",
       "pagePath": "/miscellany/cross-culture-emotional-dispositions/",
@@ -7977,7 +7617,7 @@
       ]
     },
     {
-      "queueIndex": 27,
+      "queueIndex": 22,
       "sectionName": "Philosophical Inquiry",
       "pageTitle": "Charitable Engagement",
       "pagePath": "/philosophical-inquiry/charitable-engagement/",
@@ -8048,7 +7688,7 @@
       ]
     },
     {
-      "queueIndex": 28,
+      "queueIndex": 23,
       "sectionName": "Metaphysics",
       "pageTitle": "The Principle of Sufficient Reason",
       "pagePath": "/metaphysics/the-principle-of-sufficient-reason/",
@@ -8119,7 +7759,7 @@
       ]
     },
     {
-      "queueIndex": 29,
+      "queueIndex": 24,
       "sectionName": "Philosophy of Mind",
       "pageTitle": "Philosophy of Mind — Core Concepts",
       "pagePath": "/philosophy-of-mind/philosophy-of-mind-core-concepts/",
@@ -8190,7 +7830,7 @@
       ]
     },
     {
-      "queueIndex": 30,
+      "queueIndex": 25,
       "sectionName": "Miscellany",
       "pageTitle": "David Krakauer on Complexity",
       "pagePath": "/miscellany/david-krakauer-on-complexity/",
@@ -8261,7 +7901,7 @@
       ]
     },
     {
-      "queueIndex": 31,
+      "queueIndex": 26,
       "sectionName": "Philosophy of AI",
       "pageTitle": "AI Meta-Post — Inner Monologues",
       "pagePath": "/philosophy-of-ai/ai-meta-post-inner-monologues/",
@@ -8332,7 +7972,7 @@
       ]
     },
     {
-      "queueIndex": 32,
+      "queueIndex": 27,
       "sectionName": "Humanistic Philosophies",
       "pageTitle": "What is Existentialism?",
       "pagePath": "/humanistic-philosophies/what-is-existentialism/",
@@ -8391,7 +8031,7 @@
       ]
     },
     {
-      "queueIndex": 33,
+      "queueIndex": 28,
       "sectionName": "Philosophy of Mind",
       "pageTitle": "Elitzur on Consciousness",
       "pagePath": "/philosophy-of-mind/elitzur-on-consciousness/",
@@ -8438,7 +8078,7 @@
       ]
     },
     {
-      "queueIndex": 34,
+      "queueIndex": 29,
       "sectionName": "Epistemology",
       "pageTitle": "Rationality Discussion",
       "pagePath": "/epistemology/rationality-discussion/",
@@ -8509,7 +8149,7 @@
       ]
     },
     {
-      "queueIndex": 35,
+      "queueIndex": 30,
       "sectionName": "Introduction",
       "pageTitle": "Miscellaneous Philosophers",
       "pagePath": "/introduction/miscellaneous-philosophers/",
@@ -8568,7 +8208,7 @@
       ]
     },
     {
-      "queueIndex": 36,
+      "queueIndex": 31,
       "sectionName": "Miscellany",
       "pageTitle": "Information Theory",
       "pagePath": "/miscellany/information-theory/",
@@ -8639,7 +8279,7 @@
       ]
     },
     {
-      "queueIndex": 37,
+      "queueIndex": 32,
       "sectionName": "Epistemology",
       "pageTitle": "“Adequate” Evidence",
       "pagePath": "/epistemology/adequate-evidence/",
@@ -8710,7 +8350,7 @@
       ]
     },
     {
-      "queueIndex": 38,
+      "queueIndex": 33,
       "sectionName": "Philosophical Inquiry",
       "pageTitle": "Dangers: Limits on Doubt",
       "pagePath": "/philosophical-inquiry/dangers-limits-on-doubt/",
@@ -8781,7 +8421,7 @@
       ]
     },
     {
-      "queueIndex": 39,
+      "queueIndex": 34,
       "sectionName": "Rational Thought",
       "pageTitle": "1 at 99.5% or 5 at 95%?",
       "pagePath": "/rational-thought/1-at-99-5-or-5-at-95/",
@@ -8852,7 +8492,7 @@
       ]
     },
     {
-      "queueIndex": 40,
+      "queueIndex": 35,
       "sectionName": "Philosophers",
       "pageTitle": "Daniel Dennett",
       "pagePath": "/philosophers/daniel-dennett/",
@@ -8921,7 +8561,7 @@
       ]
     },
     {
-      "queueIndex": 41,
+      "queueIndex": 36,
       "sectionName": "Philosophers",
       "pageTitle": "David Hume",
       "pagePath": "/philosophers/david-hume/",
@@ -8990,7 +8630,7 @@
       ]
     },
     {
-      "queueIndex": 42,
+      "queueIndex": 37,
       "sectionName": "Philosophers",
       "pageTitle": "Plato",
       "pagePath": "/philosophers/plato-2/",
@@ -9059,7 +8699,7 @@
       ]
     },
     {
-      "queueIndex": 43,
+      "queueIndex": 38,
       "sectionName": "Philosophers",
       "pageTitle": "René Descartes",
       "pagePath": "/philosophers/rene-descartes/",
@@ -9128,7 +8768,7 @@
       ]
     },
     {
-      "queueIndex": 44,
+      "queueIndex": 39,
       "sectionName": "Philosophers",
       "pageTitle": "Socrates",
       "pagePath": "/philosophers/socrates/",
@@ -9197,7 +8837,7 @@
       ]
     },
     {
-      "queueIndex": 45,
+      "queueIndex": 40,
       "sectionName": "Philosophers",
       "pageTitle": "Søren Kierkegaard",
       "pagePath": "/philosophers/soren-kierkegaard/",
@@ -9266,7 +8906,7 @@
       ]
     },
     {
-      "queueIndex": 46,
+      "queueIndex": 41,
       "sectionName": "Philosophers",
       "pageTitle": "Bertrand Russell",
       "pagePath": "/philosophers/bertrand-russell/",
@@ -9335,7 +8975,7 @@
       ]
     },
     {
-      "queueIndex": 47,
+      "queueIndex": 42,
       "sectionName": "Philosophers",
       "pageTitle": "Charles Sanders Peirce",
       "pagePath": "/philosophers/charles-sanders-peirce/",
@@ -9404,7 +9044,7 @@
       ]
     },
     {
-      "queueIndex": 48,
+      "queueIndex": 43,
       "sectionName": "Philosophers",
       "pageTitle": "Jacques Derrida",
       "pagePath": "/philosophers/jacques-derrida/",
@@ -9473,7 +9113,7 @@
       ]
     },
     {
-      "queueIndex": 49,
+      "queueIndex": 44,
       "sectionName": "Philosophers",
       "pageTitle": "John Locke",
       "pagePath": "/philosophers/john-locke/",
@@ -9542,7 +9182,7 @@
       ]
     },
     {
-      "queueIndex": 50,
+      "queueIndex": 45,
       "sectionName": "Philosophers",
       "pageTitle": "Thomas Aquinas",
       "pagePath": "/philosophers/thomas-aquinas/",
@@ -9611,7 +9251,7 @@
       ]
     },
     {
-      "queueIndex": 51,
+      "queueIndex": 46,
       "sectionName": "Philosophers",
       "pageTitle": "Immanuel Kant",
       "pagePath": "/philosophers/immanuel-kant/",
@@ -9680,7 +9320,7 @@
       ]
     },
     {
-      "queueIndex": 52,
+      "queueIndex": 47,
       "sectionName": "Philosophers",
       "pageTitle": "Martin Heidegger",
       "pagePath": "/philosophers/martin-heidegger/",
@@ -9749,7 +9389,7 @@
       ]
     },
     {
-      "queueIndex": 53,
+      "queueIndex": 48,
       "sectionName": "Philosophers",
       "pageTitle": "Thomas Hobbes",
       "pagePath": "/philosophers/thomas-hobbes/",
@@ -9818,7 +9458,7 @@
       ]
     },
     {
-      "queueIndex": 54,
+      "queueIndex": 49,
       "sectionName": "Philosophers",
       "pageTitle": "Willard Van Orman Quine",
       "pagePath": "/philosophers/willard-van-orman-quine/",
@@ -9887,7 +9527,7 @@
       ]
     },
     {
-      "queueIndex": 55,
+      "queueIndex": 50,
       "sectionName": "Philosophers",
       "pageTitle": "Baruch Spinoza",
       "pagePath": "/philosophers/baruch-spinoza/",
@@ -9956,7 +9596,7 @@
       ]
     },
     {
-      "queueIndex": 56,
+      "queueIndex": 51,
       "sectionName": "Philosophers",
       "pageTitle": "Edmund Husserl",
       "pagePath": "/philosophers/edmund-husserl/",
@@ -10025,7 +9665,7 @@
       ]
     },
     {
-      "queueIndex": 57,
+      "queueIndex": 52,
       "sectionName": "Philosophers",
       "pageTitle": "Epicurus",
       "pagePath": "/philosophers/epicurus/",
@@ -10094,7 +9734,7 @@
       ]
     },
     {
-      "queueIndex": 58,
+      "queueIndex": 53,
       "sectionName": "Philosophers",
       "pageTitle": "Gottfried Wilhelm Leibniz",
       "pagePath": "/philosophers/gottfried-wilhelm-leibniz/",
@@ -10163,7 +9803,7 @@
       ]
     },
     {
-      "queueIndex": 59,
+      "queueIndex": 54,
       "sectionName": "Philosophers",
       "pageTitle": "Empiricists",
       "pagePath": "/philosophers/empiricists/",
@@ -10232,7 +9872,7 @@
       ]
     },
     {
-      "queueIndex": 60,
+      "queueIndex": 55,
       "sectionName": "Philosophers",
       "pageTitle": "Phenomenologists",
       "pagePath": "/philosophers/phenomenologists/",
@@ -10301,7 +9941,7 @@
       ]
     },
     {
-      "queueIndex": 61,
+      "queueIndex": 56,
       "sectionName": "Philosophers",
       "pageTitle": "Duns Scotus",
       "pagePath": "/philosophers/duns-scotus/",
@@ -10370,7 +10010,7 @@
       ]
     },
     {
-      "queueIndex": 62,
+      "queueIndex": 57,
       "sectionName": "Philosophers",
       "pageTitle": "Michel Foucault",
       "pagePath": "/philosophers/michel-foucault/",
@@ -10439,7 +10079,7 @@
       ]
     },
     {
-      "queueIndex": 63,
+      "queueIndex": 58,
       "sectionName": "Philosophers",
       "pageTitle": "William James",
       "pagePath": "/philosophers/william-james/",
@@ -10508,7 +10148,7 @@
       ]
     },
     {
-      "queueIndex": 64,
+      "queueIndex": 59,
       "sectionName": "Philosophers",
       "pageTitle": "Al-Ghazali",
       "pagePath": "/philosophers/al-ghazali/",
@@ -10577,7 +10217,7 @@
       ]
     },
     {
-      "queueIndex": 65,
+      "queueIndex": 60,
       "sectionName": "Philosophers",
       "pageTitle": "Analytic Philosophers",
       "pagePath": "/philosophers/analytic-philosophers/",
@@ -10646,7 +10286,7 @@
       ]
     },
     {
-      "queueIndex": 66,
+      "queueIndex": 61,
       "sectionName": "Philosophers",
       "pageTitle": "Ancient Philosophers",
       "pagePath": "/philosophers/ancient-philosophers/",
@@ -10715,7 +10355,7 @@
       ]
     },
     {
-      "queueIndex": 67,
+      "queueIndex": 62,
       "sectionName": "Philosophers",
       "pageTitle": "Anselm of Canterbury",
       "pagePath": "/philosophers/anselm-of-canterbury/",
@@ -10784,7 +10424,7 @@
       ]
     },
     {
-      "queueIndex": 68,
+      "queueIndex": 63,
       "sectionName": "Philosophers",
       "pageTitle": "Arthur Schopenhauer",
       "pagePath": "/philosophers/arthur-schopenhauer/",
@@ -10853,7 +10493,7 @@
       ]
     },
     {
-      "queueIndex": 69,
+      "queueIndex": 64,
       "sectionName": "Philosophers",
       "pageTitle": "At the Edge of Miracles",
       "pagePath": "/philosophers/at-the-edge-of-miracles/",
@@ -10922,7 +10562,7 @@
       ]
     },
     {
-      "queueIndex": 70,
+      "queueIndex": 65,
       "sectionName": "Philosophers",
       "pageTitle": "Augustine of Hippo",
       "pagePath": "/philosophers/augustine-of-hippo/",
@@ -10991,7 +10631,7 @@
       ]
     },
     {
-      "queueIndex": 71,
+      "queueIndex": 66,
       "sectionName": "Philosophers",
       "pageTitle": "Averroes",
       "pagePath": "/philosophers/averroes/",
@@ -11060,7 +10700,7 @@
       ]
     },
     {
-      "queueIndex": 72,
+      "queueIndex": 67,
       "sectionName": "Philosophers",
       "pageTitle": "Avicenna",
       "pagePath": "/philosophers/avicenna/",
@@ -11129,7 +10769,7 @@
       ]
     },
     {
-      "queueIndex": 73,
+      "queueIndex": 68,
       "sectionName": "Philosophers",
       "pageTitle": "Cicero",
       "pagePath": "/philosophers/cicero/",
@@ -11198,7 +10838,7 @@
       ]
     },
     {
-      "queueIndex": 74,
+      "queueIndex": 69,
       "sectionName": "Philosophers",
       "pageTitle": "Confucius",
       "pagePath": "/philosophers/confucius/",
@@ -11267,7 +10907,7 @@
       ]
     },
     {
-      "queueIndex": 75,
+      "queueIndex": 70,
       "sectionName": "Philosophers",
       "pageTitle": "Continental Philosophers",
       "pagePath": "/philosophers/continental-philosophers/",
@@ -11336,7 +10976,7 @@
       ]
     },
     {
-      "queueIndex": 76,
+      "queueIndex": 71,
       "sectionName": "Philosophers",
       "pageTitle": "Critical Theorists",
       "pagePath": "/philosophers/critical-theorists/",
@@ -11405,7 +11045,7 @@
       ]
     },
     {
-      "queueIndex": 77,
+      "queueIndex": 72,
       "sectionName": "Philosophers",
       "pageTitle": "Dogen",
       "pagePath": "/philosophers/dogen/",
@@ -11474,7 +11114,7 @@
       ]
     },
     {
-      "queueIndex": 78,
+      "queueIndex": 73,
       "sectionName": "Philosophers",
       "pageTitle": "Elizabeth Anscombe",
       "pagePath": "/philosophers/elizabeth-anscombe/",
@@ -11543,7 +11183,7 @@
       ]
     },
     {
-      "queueIndex": 79,
+      "queueIndex": 74,
       "sectionName": "Philosophers",
       "pageTitle": "Epictetus",
       "pagePath": "/philosophers/epictetus/",
@@ -11612,7 +11252,7 @@
       ]
     },
     {
-      "queueIndex": 80,
+      "queueIndex": 75,
       "sectionName": "Philosophers",
       "pageTitle": "Existentialists",
       "pagePath": "/philosophers/existentialists/",
@@ -11681,7 +11321,7 @@
       ]
     },
     {
-      "queueIndex": 81,
+      "queueIndex": 76,
       "sectionName": "Philosophers",
       "pageTitle": "Friedrich Nietzsche",
       "pagePath": "/philosophers/friedrich-nietzsche/",
@@ -11750,7 +11390,7 @@
       ]
     },
     {
-      "queueIndex": 82,
+      "queueIndex": 77,
       "sectionName": "Philosophers",
       "pageTitle": "G.E. Moore",
       "pagePath": "/philosophers/g-e-moore/",
@@ -11819,7 +11459,7 @@
       ]
     },
     {
-      "queueIndex": 83,
+      "queueIndex": 78,
       "sectionName": "Philosophers",
       "pageTitle": "George Berkeley",
       "pagePath": "/philosophers/george-berkeley/",
@@ -11888,7 +11528,7 @@
       ]
     },
     {
-      "queueIndex": 84,
+      "queueIndex": 79,
       "sectionName": "Philosophers",
       "pageTitle": "Gottlob Frege",
       "pagePath": "/philosophers/gottlob-frege/",
@@ -11957,7 +11597,7 @@
       ]
     },
     {
-      "queueIndex": 85,
+      "queueIndex": 80,
       "sectionName": "Philosophers",
       "pageTitle": "Hannah Arendt",
       "pagePath": "/philosophers/hannah-arendt/",
@@ -12026,7 +11666,7 @@
       ]
     },
     {
-      "queueIndex": 86,
+      "queueIndex": 81,
       "sectionName": "Philosophers",
       "pageTitle": "Heraclitus",
       "pagePath": "/philosophers/heraclitus/",
@@ -12095,7 +11735,7 @@
       ]
     },
     {
-      "queueIndex": 87,
+      "queueIndex": 82,
       "sectionName": "Philosophers",
       "pageTitle": "Jean-Jacques Rousseau",
       "pagePath": "/philosophers/jean-jacques-rousseau/",
@@ -12164,7 +11804,7 @@
       ]
     },
     {
-      "queueIndex": 88,
+      "queueIndex": 83,
       "sectionName": "Philosophers",
       "pageTitle": "John Dewey",
       "pagePath": "/philosophers/john-dewey/",
@@ -12233,7 +11873,7 @@
       ]
     },
     {
-      "queueIndex": 89,
+      "queueIndex": 84,
       "sectionName": "Philosophers",
       "pageTitle": "John Rawls",
       "pagePath": "/philosophers/john-rawls/",
@@ -12302,7 +11942,7 @@
       ]
     },
     {
-      "queueIndex": 90,
+      "queueIndex": 85,
       "sectionName": "Philosophers",
       "pageTitle": "John Stuart Mill",
       "pagePath": "/philosophers/john-stuart-mill/",
@@ -12371,7 +12011,7 @@
       ]
     },
     {
-      "queueIndex": 91,
+      "queueIndex": 86,
       "sectionName": "Philosophers",
       "pageTitle": "Judith Butler",
       "pagePath": "/philosophers/judith-butler/",
@@ -12440,7 +12080,7 @@
       ]
     },
     {
-      "queueIndex": 92,
+      "queueIndex": 87,
       "sectionName": "Philosophers",
       "pageTitle": "Jurgen Habermas",
       "pagePath": "/philosophers/jurgen-habermas/",
@@ -12509,7 +12149,7 @@
       ]
     },
     {
-      "queueIndex": 93,
+      "queueIndex": 88,
       "sectionName": "Philosophers",
       "pageTitle": "Karl Marx",
       "pagePath": "/philosophers/karl-marx/",
@@ -12578,7 +12218,7 @@
       ]
     },
     {
-      "queueIndex": 94,
+      "queueIndex": 89,
       "sectionName": "Philosophers",
       "pageTitle": "Laozi",
       "pagePath": "/philosophers/laozi/",
@@ -12647,7 +12287,7 @@
       ]
     },
     {
-      "queueIndex": 95,
+      "queueIndex": 90,
       "sectionName": "Philosophers",
       "pageTitle": "Maimonides",
       "pagePath": "/philosophers/maimonides/",
@@ -12716,7 +12356,7 @@
       ]
     },
     {
-      "queueIndex": 96,
+      "queueIndex": 91,
       "sectionName": "Philosophers",
       "pageTitle": "Marcus Aurelius",
       "pagePath": "/philosophers/marcus-aurelius/",
@@ -12785,7 +12425,7 @@
       ]
     },
     {
-      "queueIndex": 97,
+      "queueIndex": 92,
       "sectionName": "Philosophers",
       "pageTitle": "Mary Wollstonecraft",
       "pagePath": "/philosophers/mary-wollstonecraft/",
@@ -12854,7 +12494,7 @@
       ]
     },
     {
-      "queueIndex": 98,
+      "queueIndex": 93,
       "sectionName": "Philosophers",
       "pageTitle": "Maurice Merleau-Ponty",
       "pagePath": "/philosophers/maurice-merleau-ponty/",
@@ -12923,7 +12563,7 @@
       ]
     },
     {
-      "queueIndex": 99,
+      "queueIndex": 94,
       "sectionName": "Philosophers",
       "pageTitle": "Mencius",
       "pagePath": "/philosophers/mencius/",
@@ -12992,7 +12632,7 @@
       ]
     },
     {
-      "queueIndex": 100,
+      "queueIndex": 95,
       "sectionName": "Philosophers",
       "pageTitle": "Mozi",
       "pagePath": "/philosophers/mozi/",
@@ -13061,7 +12701,7 @@
       ]
     },
     {
-      "queueIndex": 101,
+      "queueIndex": 96,
       "sectionName": "Philosophers",
       "pageTitle": "Nagarjuna",
       "pagePath": "/philosophers/nagarjuna/",
@@ -13130,7 +12770,7 @@
       ]
     },
     {
-      "queueIndex": 102,
+      "queueIndex": 97,
       "sectionName": "Philosophers",
       "pageTitle": "Niccolo Machiavelli",
       "pagePath": "/philosophers/niccolo-machiavelli/",
@@ -13199,7 +12839,7 @@
       ]
     },
     {
-      "queueIndex": 103,
+      "queueIndex": 98,
       "sectionName": "Philosophers",
       "pageTitle": "Parmenides",
       "pagePath": "/philosophers/parmenides/",
@@ -13268,7 +12908,7 @@
       ]
     },
     {
-      "queueIndex": 104,
+      "queueIndex": 99,
       "sectionName": "Philosophers",
       "pageTitle": "Plato",
       "pagePath": "/philosophers/plato/",
@@ -13337,7 +12977,7 @@
       ]
     },
     {
-      "queueIndex": 105,
+      "queueIndex": 100,
       "sectionName": "Philosophers",
       "pageTitle": "Plotinus",
       "pagePath": "/philosophers/plotinus/",
@@ -13406,7 +13046,7 @@
       ]
     },
     {
-      "queueIndex": 106,
+      "queueIndex": 101,
       "sectionName": "Philosophers",
       "pageTitle": "Pragmatists",
       "pagePath": "/philosophers/pragmatists/",
@@ -13475,7 +13115,7 @@
       ]
     },
     {
-      "queueIndex": 107,
+      "queueIndex": 102,
       "sectionName": "Philosophers",
       "pageTitle": "Rationalists",
       "pagePath": "/philosophers/rationalists/",
@@ -13544,7 +13184,7 @@
       ]
     },
     {
-      "queueIndex": 108,
+      "queueIndex": 103,
       "sectionName": "Philosophers",
       "pageTitle": "Saul Kripke",
       "pagePath": "/philosophers/saul-kripke/",
@@ -13613,7 +13253,7 @@
       ]
     },
     {
-      "queueIndex": 109,
+      "queueIndex": 104,
       "sectionName": "Philosophers",
       "pageTitle": "Scholastics",
       "pagePath": "/philosophers/scholastics/",
@@ -13682,7 +13322,7 @@
       ]
     },
     {
-      "queueIndex": 110,
+      "queueIndex": 105,
       "sectionName": "Philosophers",
       "pageTitle": "Seneca",
       "pagePath": "/philosophers/seneca/",
@@ -13751,7 +13391,7 @@
       ]
     },
     {
-      "queueIndex": 111,
+      "queueIndex": 106,
       "sectionName": "Philosophers",
       "pageTitle": "Shankara",
       "pagePath": "/philosophers/shankara/",
@@ -13820,7 +13460,7 @@
       ]
     },
     {
-      "queueIndex": 112,
+      "queueIndex": 107,
       "sectionName": "Philosophers",
       "pageTitle": "Theodor Adorno",
       "pagePath": "/philosophers/theodor-adorno/",
@@ -13889,7 +13529,7 @@
       ]
     },
     {
-      "queueIndex": 113,
+      "queueIndex": 108,
       "sectionName": "Philosophers",
       "pageTitle": "Theodor W. Adorno",
       "pagePath": "/philosophers/theodor-w-adorno/",
@@ -13958,7 +13598,7 @@
       ]
     },
     {
-      "queueIndex": 114,
+      "queueIndex": 109,
       "sectionName": "Philosophers",
       "pageTitle": "Walter Benjamin",
       "pagePath": "/philosophers/walter-benjamin/",
@@ -14027,7 +13667,7 @@
       ]
     },
     {
-      "queueIndex": 115,
+      "queueIndex": 110,
       "sectionName": "Philosophers",
       "pageTitle": "William of Ockham",
       "pagePath": "/philosophers/william-of-ockham/",
@@ -14096,7 +13736,7 @@
       ]
     },
     {
-      "queueIndex": 116,
+      "queueIndex": 111,
       "sectionName": "Philosophers",
       "pageTitle": "Xunzi",
       "pagePath": "/philosophers/xunzi/",
@@ -14165,7 +13805,7 @@
       ]
     },
     {
-      "queueIndex": 117,
+      "queueIndex": 112,
       "sectionName": "Philosophers",
       "pageTitle": "Zhuangzi",
       "pagePath": "/philosophers/zhuangzi/",
@@ -14234,7 +13874,7 @@
       ]
     },
     {
-      "queueIndex": 118,
+      "queueIndex": 113,
       "sectionName": "Philosophers",
       "pageTitle": "Aquinas’ Five Ways",
       "pagePath": "/philosophers/aquinas-five-ways/",
@@ -14291,7 +13931,7 @@
       ]
     },
     {
-      "queueIndex": 119,
+      "queueIndex": 114,
       "sectionName": "Philosophers",
       "pageTitle": "Philosopher Club Membership",
       "pagePath": "/philosophers/philosopher-club-membership/",
@@ -14348,7 +13988,7 @@
       ]
     },
     {
-      "queueIndex": 120,
+      "queueIndex": 115,
       "sectionName": "Philosophers",
       "pageTitle": "Philosophers or Philosophy?",
       "pagePath": "/philosophers/philosophers-or-philosophy/",
@@ -14405,7 +14045,7 @@
       ]
     },
     {
-      "queueIndex": 121,
+      "queueIndex": 116,
       "sectionName": "Philosophers",
       "pageTitle": "Philosophical Gradients",
       "pagePath": "/philosophers/philosophical-gradients/",
@@ -14462,7 +14102,7 @@
       ]
     },
     {
-      "queueIndex": 122,
+      "queueIndex": 117,
       "sectionName": "Philosophical Inquiry",
       "pageTitle": "Dangers: Untestable Ideologies",
       "pagePath": "/philosophical-inquiry/dangers-untestable-ideologies/",
@@ -14519,7 +14159,7 @@
       ]
     },
     {
-      "queueIndex": 123,
+      "queueIndex": 118,
       "sectionName": "Philosophy of Science",
       "pageTitle": "Observable Regularities",
       "pagePath": "/philosophy-of-science/observable-regularity/",
@@ -14576,7 +14216,7 @@
       ]
     },
     {
-      "queueIndex": 124,
+      "queueIndex": 119,
       "sectionName": "Epistemology",
       "pageTitle": "Abduction: Utility and Issues",
       "pagePath": "/epistemology/abduction-utility-and-issues/",
@@ -14657,7 +14297,76 @@
       ]
     },
     {
-      "queueIndex": 125,
+      "queueIndex": 120,
+      "sectionName": "Philosophy of Science",
+      "pageTitle": "Confounding Variables",
+      "pagePath": "/philosophy-of-science/confounding-variables/",
+      "priorityBand": "polish",
+      "worstScore": 88,
+      "averageScore": 97.0,
+      "totalPromptSections": 4,
+      "needsReviewCount": 0,
+      "needsGapFillCount": 0,
+      "polishOpportunityCount": 4,
+      "editorialIssues": [],
+      "attentionSummary": [
+        "4 prompt sections are polish opportunities"
+      ],
+      "focusAnchors": [
+        "prompt-3",
+        "prompt-1",
+        "prompt-2",
+        "prompt-4"
+      ],
+      "focusSections": [
+        {
+          "anchor": "prompt-3",
+          "url": "/philosophy-of-science/confounding-variables/#prompt-3",
+          "heading": "What are ways to identify hidden confounding factors that may jeopardize a study?",
+          "score": 88,
+          "level": "strong",
+          "needsReview": false,
+          "needsGapFill": false,
+          "polishOpportunity": true,
+          "editorialIssues": []
+        },
+        {
+          "anchor": "prompt-1",
+          "url": "/philosophy-of-science/confounding-variables/#prompt-1",
+          "heading": "A confound is a hidden rival explanation that travels with the variable you thought you were testing",
+          "score": 100,
+          "level": "exceptional",
+          "needsReview": false,
+          "needsGapFill": false,
+          "polishOpportunity": true,
+          "editorialIssues": []
+        },
+        {
+          "anchor": "prompt-2",
+          "url": "/philosophy-of-science/confounding-variables/#prompt-2",
+          "heading": "Seven study sketches reveal how quickly a plausible result can be stolen by a third factor",
+          "score": 100,
+          "level": "exceptional",
+          "needsReview": false,
+          "needsGapFill": false,
+          "polishOpportunity": true,
+          "editorialIssues": []
+        },
+        {
+          "anchor": "prompt-4",
+          "url": "/philosophy-of-science/confounding-variables/#prompt-4",
+          "heading": "Known confounds are mitigated by design choices that prevent rivals from clustering with one group",
+          "score": 100,
+          "level": "exceptional",
+          "needsReview": false,
+          "needsGapFill": false,
+          "polishOpportunity": true,
+          "editorialIssues": []
+        }
+      ]
+    },
+    {
+      "queueIndex": 121,
       "sectionName": "Ethics",
       "pageTitle": "Intrinsic Human Value",
       "pagePath": "/ethics/intrinsic-human-value/",
@@ -14738,7 +14447,7 @@
       ]
     },
     {
-      "queueIndex": 126,
+      "queueIndex": 122,
       "sectionName": "Philosophy of Language",
       "pageTitle": "What is Etymology?",
       "pagePath": "/philosophy-of-language/what-is-etymology/",
@@ -14819,7 +14528,7 @@
       ]
     },
     {
-      "queueIndex": 127,
+      "queueIndex": 123,
       "sectionName": "Epistemology",
       "pageTitle": "Avoiding Single-Cause Dogmatism",
       "pagePath": "/epistemology/avoiding-single-cause-dogmatism/",
@@ -14888,7 +14597,7 @@
       ]
     },
     {
-      "queueIndex": 128,
+      "queueIndex": 124,
       "sectionName": "Epistemology",
       "pageTitle": "Collapsing Epistemological Terms",
       "pagePath": "/epistemology/collapsing-epistemological-terms/",
@@ -14957,7 +14666,7 @@
       ]
     },
     {
-      "queueIndex": 129,
+      "queueIndex": 125,
       "sectionName": "Ethics",
       "pageTitle": "⌁ Finite Agency, Moral Demand, and Happiness",
       "pagePath": "/ethics/finite-agency-moral-demand-and-happiness/",
@@ -15026,7 +14735,7 @@
       ]
     },
     {
-      "queueIndex": 130,
+      "queueIndex": 126,
       "sectionName": "Philosophy of Language",
       "pageTitle": "Thought = Language?",
       "pagePath": "/philosophy-of-language/thought-language/",
@@ -15095,7 +14804,7 @@
       ]
     },
     {
-      "queueIndex": 131,
+      "queueIndex": 127,
       "sectionName": "Rational Thought",
       "pageTitle": "Perverse Incentives",
       "pagePath": "/rational-thought/perverse-incentives/",
@@ -15164,7 +14873,7 @@
       ]
     },
     {
-      "queueIndex": 132,
+      "queueIndex": 128,
       "sectionName": "Epistemology",
       "pageTitle": "Doxastic Voluntarism",
       "pagePath": "/epistemology/doxastic-voluntarism/",
@@ -15221,7 +14930,7 @@
       ]
     },
     {
-      "queueIndex": 133,
+      "queueIndex": 129,
       "sectionName": "Epistemology",
       "pageTitle": "The Burden of Proof",
       "pagePath": "/epistemology/the-burden-of-proof/",
@@ -15302,7 +15011,7 @@
       ]
     },
     {
-      "queueIndex": 134,
+      "queueIndex": 130,
       "sectionName": "Humanistic Philosophies",
       "pageTitle": "Can Humans Change?",
       "pagePath": "/humanistic-philosophies/can-humans-change/",
@@ -15383,7 +15092,7 @@
       ]
     },
     {
-      "queueIndex": 135,
+      "queueIndex": 131,
       "sectionName": "Ethics",
       "pageTitle": "Value & Morality in Diversity?",
       "pagePath": "/ethics/value-morality-in-diversity/",
@@ -15452,7 +15161,7 @@
       ]
     },
     {
-      "queueIndex": 136,
+      "queueIndex": 132,
       "sectionName": "Humanistic Philosophies",
       "pageTitle": "Do Humans have an Essence?",
       "pagePath": "/humanistic-philosophies/do-humans-have-an-essence/",
@@ -15521,7 +15230,7 @@
       ]
     },
     {
-      "queueIndex": 137,
+      "queueIndex": 133,
       "sectionName": "Metaphysics",
       "pageTitle": "Stuart Kauffman on Emergence",
       "pagePath": "/metaphysics/stuart-kauffman-on-emergence/",
@@ -15590,7 +15299,7 @@
       ]
     },
     {
-      "queueIndex": 138,
+      "queueIndex": 134,
       "sectionName": "Philosophical Inquiry",
       "pageTitle": "Dangers: Anti-Intellectualism",
       "pagePath": "/philosophical-inquiry/dangers-anti-intellectualism/",
@@ -15659,7 +15368,7 @@
       ]
     },
     {
-      "queueIndex": 139,
+      "queueIndex": 135,
       "sectionName": "Epistemology",
       "pageTitle": "Epistemological Case Studies",
       "pagePath": "/epistemology/epistemological-case-studies/",
@@ -15716,7 +15425,7 @@
       ]
     },
     {
-      "queueIndex": 140,
+      "queueIndex": 136,
       "sectionName": "Ethics",
       "pageTitle": "Moral Black Boxes",
       "pagePath": "/ethics/moral-black-boxes/",
@@ -15773,7 +15482,7 @@
       ]
     },
     {
-      "queueIndex": 141,
+      "queueIndex": 137,
       "sectionName": "Economics",
       "pageTitle": "Economics – Core Concepts",
       "pagePath": "/economics/economics-core-concepts/",
@@ -15854,7 +15563,7 @@
       ]
     },
     {
-      "queueIndex": 142,
+      "queueIndex": 138,
       "sectionName": "Metaphysics",
       "pageTitle": "A Taxonomy of Impossibilities",
       "pagePath": "/metaphysics/a-taxonomy-of-impossibilities/",
@@ -15923,7 +15632,76 @@
       ]
     },
     {
-      "queueIndex": 143,
+      "queueIndex": 139,
+      "sectionName": "Miscellany",
+      "pageTitle": "Complexity Theory",
+      "pagePath": "/miscellany/complexity-theory/",
+      "priorityBand": "polish",
+      "worstScore": 92,
+      "averageScore": 97.5,
+      "totalPromptSections": 4,
+      "needsReviewCount": 0,
+      "needsGapFillCount": 0,
+      "polishOpportunityCount": 4,
+      "editorialIssues": [],
+      "attentionSummary": [
+        "4 prompt sections are polish opportunities"
+      ],
+      "focusAnchors": [
+        "prompt-4",
+        "prompt-2",
+        "prompt-1",
+        "prompt-3"
+      ],
+      "focusSections": [
+        {
+          "anchor": "prompt-4",
+          "url": "/miscellany/complexity-theory/#prompt-4",
+          "heading": "A novice begins to understand complexity once prediction and explanation are separated",
+          "score": 92,
+          "level": "strong",
+          "needsReview": false,
+          "needsGapFill": false,
+          "polishOpportunity": true,
+          "editorialIssues": []
+        },
+        {
+          "anchor": "prompt-2",
+          "url": "/miscellany/complexity-theory/#prompt-2",
+          "heading": "The field's strongest concepts reveal why order can arise without a central planner",
+          "score": 98,
+          "level": "exceptional",
+          "needsReview": false,
+          "needsGapFill": false,
+          "polishOpportunity": true,
+          "editorialIssues": []
+        },
+        {
+          "anchor": "prompt-1",
+          "url": "/miscellany/complexity-theory/#prompt-1",
+          "heading": "Complexity theory studies how interaction, feedback, and scale create behavior that simple part-by-part analysis misses",
+          "score": 100,
+          "level": "exceptional",
+          "needsReview": false,
+          "needsGapFill": false,
+          "polishOpportunity": true,
+          "editorialIssues": []
+        },
+        {
+          "anchor": "prompt-3",
+          "url": "/miscellany/complexity-theory/#prompt-3",
+          "heading": "Promising complexity research asks how life, mind, and coordinated systems generate stable novelty",
+          "score": 100,
+          "level": "exceptional",
+          "needsReview": false,
+          "needsGapFill": false,
+          "polishOpportunity": true,
+          "editorialIssues": []
+        }
+      ]
+    },
+    {
+      "queueIndex": 140,
       "sectionName": "Philosophical Inquiry",
       "pageTitle": "Personal Truth?",
       "pagePath": "/philosophical-inquiry/personal-truth/",
@@ -15992,7 +15770,7 @@
       ]
     },
     {
-      "queueIndex": 144,
+      "queueIndex": 141,
       "sectionName": "Philosophy of AI",
       "pageTitle": "AI Meta-Post — Overreach",
       "pagePath": "/philosophy-of-ai/ai-meta-post-overreach/",
@@ -16061,7 +15839,7 @@
       ]
     },
     {
-      "queueIndex": 145,
+      "queueIndex": 142,
       "sectionName": "Rational Thought",
       "pageTitle": "Regret Assessment",
       "pagePath": "/rational-thought/regret-assessment/",
@@ -16118,7 +15896,7 @@
       ]
     },
     {
-      "queueIndex": 146,
+      "queueIndex": 143,
       "sectionName": "Epistemology",
       "pageTitle": "Belief/Evidence Graphic",
       "pagePath": "/epistemology/belief-evidence-graphic/",
@@ -16199,7 +15977,7 @@
       ]
     },
     {
-      "queueIndex": 147,
+      "queueIndex": 144,
       "sectionName": "Epistemology",
       "pageTitle": "Pascal’s Wager",
       "pagePath": "/epistemology/pascals-wager/",
@@ -16280,7 +16058,7 @@
       ]
     },
     {
-      "queueIndex": 148,
+      "queueIndex": 145,
       "sectionName": "Epistemology",
       "pageTitle": "The Inductive Paradox",
       "pagePath": "/epistemology/the-inductive-paradox/",
@@ -16349,7 +16127,7 @@
       ]
     },
     {
-      "queueIndex": 149,
+      "queueIndex": 146,
       "sectionName": "Humanistic Philosophies",
       "pageTitle": "Christian Apologetics",
       "pagePath": "/humanistic-philosophies/christian-apologetics/",
@@ -16418,7 +16196,76 @@
       ]
     },
     {
-      "queueIndex": 150,
+      "queueIndex": 147,
+      "sectionName": "Miscellany",
+      "pageTitle": "Domains of Aesthetics",
+      "pagePath": "/miscellany/domains-of-aesthetics/",
+      "priorityBand": "polish",
+      "worstScore": 93,
+      "averageScore": 97.2,
+      "totalPromptSections": 4,
+      "needsReviewCount": 0,
+      "needsGapFillCount": 0,
+      "polishOpportunityCount": 4,
+      "editorialIssues": [],
+      "attentionSummary": [
+        "4 prompt sections are polish opportunities"
+      ],
+      "focusAnchors": [
+        "prompt-4",
+        "prompt-1",
+        "prompt-3",
+        "prompt-2"
+      ],
+      "focusSections": [
+        {
+          "anchor": "prompt-4",
+          "url": "/miscellany/domains-of-aesthetics/#prompt-4",
+          "heading": "Recommendations on a healthy amount of time a well-rounded mind might spend on various",
+          "score": 93,
+          "level": "strong",
+          "needsReview": false,
+          "needsGapFill": false,
+          "polishOpportunity": true,
+          "editorialIssues": []
+        },
+        {
+          "anchor": "prompt-1",
+          "url": "/miscellany/domains-of-aesthetics/#prompt-1",
+          "heading": "Aesthetics spans more than art criticism because it studies beauty, form, taste, experience, and judgment",
+          "score": 98,
+          "level": "exceptional",
+          "needsReview": false,
+          "needsGapFill": false,
+          "polishOpportunity": true,
+          "editorialIssues": []
+        },
+        {
+          "anchor": "prompt-3",
+          "url": "/miscellany/domains-of-aesthetics/#prompt-3",
+          "heading": "Aesthetics evolves because media, technologies, institutions, and moral sensibilities keep changing what form can do",
+          "score": 98,
+          "level": "exceptional",
+          "needsReview": false,
+          "needsGapFill": false,
+          "polishOpportunity": true,
+          "editorialIssues": []
+        },
+        {
+          "anchor": "prompt-2",
+          "url": "/miscellany/domains-of-aesthetics/#prompt-2",
+          "heading": "Aesthetics contributes to society because form shapes attention, memory, empathy, and shared life",
+          "score": 100,
+          "level": "exceptional",
+          "needsReview": false,
+          "needsGapFill": false,
+          "polishOpportunity": true,
+          "editorialIssues": []
+        }
+      ]
+    },
+    {
+      "queueIndex": 148,
       "sectionName": "Philosophical Inquiry",
       "pageTitle": "Common Sense Blunders",
       "pagePath": "/philosophical-inquiry/common-sense-blunders/",
@@ -16475,7 +16322,7 @@
       ]
     },
     {
-      "queueIndex": 151,
+      "queueIndex": 149,
       "sectionName": "Philosophical Inquiry",
       "pageTitle": "Packaged vs Eclectic Ideologies",
       "pagePath": "/philosophical-inquiry/packaged-vs-eclectic-ideologies/",
@@ -16532,7 +16379,7 @@
       ]
     },
     {
-      "queueIndex": 152,
+      "queueIndex": 150,
       "sectionName": "Philosophical Inquiry",
       "pageTitle": "Selective Pressures on Ideologies",
       "pagePath": "/philosophical-inquiry/selective-pressures-on-ideologies/",
@@ -16613,7 +16460,7 @@
       ]
     },
     {
-      "queueIndex": 153,
+      "queueIndex": 151,
       "sectionName": "Philosophical Inquiry",
       "pageTitle": "The Danger of “Resulting”",
       "pagePath": "/philosophical-inquiry/the-danger-of-resulting/",
@@ -16694,7 +16541,7 @@
       ]
     },
     {
-      "queueIndex": 154,
+      "queueIndex": 152,
       "sectionName": "Philosophy of Science",
       "pageTitle": "Is Logic Acquired Inductively?",
       "pagePath": "/philosophy-of-science/is-logic-acquired-inductively/",
@@ -16775,7 +16622,7 @@
       ]
     },
     {
-      "queueIndex": 155,
+      "queueIndex": 153,
       "sectionName": "Metaphysics",
       "pageTitle": "Are Quantum Physics “Spiritual”?",
       "pagePath": "/metaphysics/are-quantum-physics-spiritual/",
@@ -16844,7 +16691,7 @@
       ]
     },
     {
-      "queueIndex": 156,
+      "queueIndex": 154,
       "sectionName": "Metaphysics",
       "pageTitle": "Explanations",
       "pagePath": "/metaphysics/explanations/",
@@ -16913,7 +16760,7 @@
       ]
     },
     {
-      "queueIndex": 157,
+      "queueIndex": 155,
       "sectionName": "Philosophical Inquiry",
       "pageTitle": "Dangers: Gaslighting",
       "pagePath": "/philosophical-inquiry/dangers-gaslighting/",
@@ -16982,7 +16829,7 @@
       ]
     },
     {
-      "queueIndex": 158,
+      "queueIndex": 156,
       "sectionName": "Philosophy of Language",
       "pageTitle": "The Power of Analogy",
       "pagePath": "/philosophy-of-language/the-power-of-analogy/",
@@ -17051,7 +16898,7 @@
       ]
     },
     {
-      "queueIndex": 159,
+      "queueIndex": 157,
       "sectionName": "Epistemology",
       "pageTitle": "Case #6 – Insatiable Loops",
       "pagePath": "/epistemology/case-6-insatiable-loops/",
@@ -17108,7 +16955,7 @@
       ]
     },
     {
-      "queueIndex": 160,
+      "queueIndex": 158,
       "sectionName": "Ethics",
       "pageTitle": "Fictional Meta-Ethics Debate",
       "pagePath": "/ethics/fictional-meta-ethics-debate/",
@@ -17189,7 +17036,7 @@
       ]
     },
     {
-      "queueIndex": 161,
+      "queueIndex": 159,
       "sectionName": "Epistemology",
       "pageTitle": "Decision-Making",
       "pagePath": "/epistemology/decision-making/",
@@ -17258,7 +17105,7 @@
       ]
     },
     {
-      "queueIndex": 162,
+      "queueIndex": 160,
       "sectionName": "Philosophical Inquiry",
       "pageTitle": "Dangers: Strong Leaders",
       "pagePath": "/philosophical-inquiry/dangers-strong-leaders/",
@@ -17327,7 +17174,7 @@
       ]
     },
     {
-      "queueIndex": 163,
+      "queueIndex": 161,
       "sectionName": "Philosophical Inquiry",
       "pageTitle": "Dangers: Co-opted Wonders",
       "pagePath": "/philosophical-inquiry/dangers-co-opted-wonders/",
@@ -17384,7 +17231,7 @@
       ]
     },
     {
-      "queueIndex": 164,
+      "queueIndex": 162,
       "sectionName": "Philosophical Inquiry",
       "pageTitle": "Dangers: Half-Searches",
       "pagePath": "/philosophical-inquiry/dangers-half-searches/",
@@ -17441,7 +17288,7 @@
       ]
     },
     {
-      "queueIndex": 165,
+      "queueIndex": 163,
       "sectionName": "Ethics",
       "pageTitle": "Ethics — Core Concepts",
       "pagePath": "/ethics/ethics-core-concepts/",
@@ -17522,7 +17369,7 @@
       ]
     },
     {
-      "queueIndex": 166,
+      "queueIndex": 164,
       "sectionName": "Philosophy of Language",
       "pageTitle": "Gradient Concepts and Binary Terms",
       "pagePath": "/philosophy-of-language/gradient-concepts-and-binary-terms/",
@@ -17603,7 +17450,7 @@
       ]
     },
     {
-      "queueIndex": 167,
+      "queueIndex": 165,
       "sectionName": "Epistemology",
       "pageTitle": "Epistemology — Core Concepts",
       "pagePath": "/epistemology/epistemology-core-concepts/",
@@ -17672,7 +17519,7 @@
       ]
     },
     {
-      "queueIndex": 168,
+      "queueIndex": 166,
       "sectionName": "Philosophical Inquiry",
       "pageTitle": "Do I need a “worldview”?",
       "pagePath": "/philosophical-inquiry/do-i-need-a-worldview/",
@@ -17741,7 +17588,7 @@
       ]
     },
     {
-      "queueIndex": 169,
+      "queueIndex": 167,
       "sectionName": "Philosophy of Language",
       "pageTitle": "Philosophy of Language — Core Concepts",
       "pagePath": "/philosophy-of-language/core-concepts-philosophy-of-language/",
@@ -17810,7 +17657,7 @@
       ]
     },
     {
-      "queueIndex": 170,
+      "queueIndex": 168,
       "sectionName": "Rational Thought",
       "pageTitle": "Training Data Bias",
       "pagePath": "/rational-thought/training-data-bias/",
@@ -17879,7 +17726,7 @@
       ]
     },
     {
-      "queueIndex": 171,
+      "queueIndex": 169,
       "sectionName": "Ethics",
       "pageTitle": "Coherent Moral Systems",
       "pagePath": "/ethics/coherent-moral-systems/",
@@ -17960,7 +17807,7 @@
       ]
     },
     {
-      "queueIndex": 172,
+      "queueIndex": 170,
       "sectionName": "Epistemology",
       "pageTitle": "Counterfactual Reasoning",
       "pagePath": "/epistemology/counterfactual-reasoning/",
@@ -18029,7 +17876,7 @@
       ]
     },
     {
-      "queueIndex": 173,
+      "queueIndex": 171,
       "sectionName": "Philosophical Inquiry",
       "pageTitle": "Dangers: Narrative",
       "pagePath": "/philosophical-inquiry/dangers-narrative/",
@@ -18098,7 +17945,7 @@
       ]
     },
     {
-      "queueIndex": 174,
+      "queueIndex": 172,
       "sectionName": "Philosophical Inquiry",
       "pageTitle": "Dangers: Ontological Buffet",
       "pagePath": "/philosophical-inquiry/dangers-ontological-buffet/",
@@ -18167,7 +18014,7 @@
       ]
     },
     {
-      "queueIndex": 175,
+      "queueIndex": 173,
       "sectionName": "Philosophical Inquiry",
       "pageTitle": "Dangers: Unnuanced Conclusions",
       "pagePath": "/philosophical-inquiry/dangers-unnuanced-conclusions/",
@@ -18236,7 +18083,7 @@
       ]
     },
     {
-      "queueIndex": 176,
+      "queueIndex": 174,
       "sectionName": "Philosophy of Mind",
       "pageTitle": "Land Ownership",
       "pagePath": "/philosophy-of-mind/land-ownership/",
@@ -18305,7 +18152,7 @@
       ]
     },
     {
-      "queueIndex": 177,
+      "queueIndex": 175,
       "sectionName": "Ethics",
       "pageTitle": "Meta-Ethics",
       "pagePath": "/ethics/meta-ethics/",
@@ -18362,7 +18209,7 @@
       ]
     },
     {
-      "queueIndex": 178,
+      "queueIndex": 176,
       "sectionName": "Ethics",
       "pageTitle": "Moral Systems: Required Elements",
       "pagePath": "/ethics/moral-systems-required-elements/",
@@ -18419,7 +18266,7 @@
       ]
     },
     {
-      "queueIndex": 179,
+      "queueIndex": 177,
       "sectionName": "Ethics",
       "pageTitle": "What are Ethics?",
       "pagePath": "/ethics/what-are-ethics/",
@@ -18476,7 +18323,7 @@
       ]
     },
     {
-      "queueIndex": 180,
+      "queueIndex": 178,
       "sectionName": "Ethics",
       "pageTitle": "“Is” vs “Ought”",
       "pagePath": "/ethics/is-vs-ought/",
@@ -18533,7 +18380,7 @@
       ]
     },
     {
-      "queueIndex": 181,
+      "queueIndex": 179,
       "sectionName": "Philosophical Inquiry",
       "pageTitle": "How Minds are Changed",
       "pagePath": "/philosophical-inquiry/how-minds-are-changed/",
@@ -18590,7 +18437,7 @@
       ]
     },
     {
-      "queueIndex": 182,
+      "queueIndex": 180,
       "sectionName": "Economics",
       "pageTitle": "Economic Comparisons",
       "pagePath": "/economics/economic-comparisons/",
@@ -18671,7 +18518,7 @@
       ]
     },
     {
-      "queueIndex": 183,
+      "queueIndex": 181,
       "sectionName": "Epistemology",
       "pageTitle": "Preponderance of Evidence?",
       "pagePath": "/epistemology/preponderance-of-evidence/",
@@ -18752,7 +18599,7 @@
       ]
     },
     {
-      "queueIndex": 184,
+      "queueIndex": 182,
       "sectionName": "Philosophy of Language",
       "pageTitle": "What is Language?",
       "pagePath": "/philosophy-of-language/what-is-language/",
@@ -18833,7 +18680,76 @@
       ]
     },
     {
-      "queueIndex": 185,
+      "queueIndex": 183,
+      "sectionName": "Humanistic Philosophies",
+      "pageTitle": "Existentialism: Key Concepts",
+      "pagePath": "/humanistic-philosophies/existentialism-key-concepts/",
+      "priorityBand": "polish",
+      "worstScore": 98,
+      "averageScore": 99.0,
+      "totalPromptSections": 4,
+      "needsReviewCount": 0,
+      "needsGapFillCount": 0,
+      "polishOpportunityCount": 4,
+      "editorialIssues": [],
+      "attentionSummary": [
+        "4 prompt sections are polish opportunities"
+      ],
+      "focusAnchors": [
+        "prompt-3",
+        "prompt-4",
+        "prompt-1",
+        "prompt-2"
+      ],
+      "focusSections": [
+        {
+          "anchor": "prompt-3",
+          "url": "/humanistic-philosophies/existentialism-key-concepts/#prompt-3",
+          "heading": "Many of the concepts above appear diametrically opposed to the many more hopeful (if unsubstantiated)",
+          "score": 98,
+          "level": "exceptional",
+          "needsReview": false,
+          "needsGapFill": false,
+          "polishOpportunity": true,
+          "editorialIssues": []
+        },
+        {
+          "anchor": "prompt-4",
+          "url": "/humanistic-philosophies/existentialism-key-concepts/#prompt-4",
+          "heading": "The Relevance of Existentialism in Today’s Technology-Laden World matters only if it survives the strongest pressure against it.",
+          "score": 98,
+          "level": "exceptional",
+          "needsReview": false,
+          "needsGapFill": false,
+          "polishOpportunity": true,
+          "editorialIssues": []
+        },
+        {
+          "anchor": "prompt-1",
+          "url": "/humanistic-philosophies/existentialism-key-concepts/#prompt-1",
+          "heading": "Sixteen existentialist concepts that matter because they change how a life is read",
+          "score": 100,
+          "level": "exceptional",
+          "needsReview": false,
+          "needsGapFill": false,
+          "polishOpportunity": true,
+          "editorialIssues": []
+        },
+        {
+          "anchor": "prompt-2",
+          "url": "/humanistic-philosophies/existentialism-key-concepts/#prompt-2",
+          "heading": "Concrete scenarios show why existentialist ideas are about lived pressure, not slogan-collecting",
+          "score": 100,
+          "level": "exceptional",
+          "needsReview": false,
+          "needsGapFill": false,
+          "polishOpportunity": true,
+          "editorialIssues": []
+        }
+      ]
+    },
+    {
+      "queueIndex": 184,
       "sectionName": "Philosophical Inquiry",
       "pageTitle": "Conspiracies & Misunderstanding Human Nature",
       "pagePath": "/philosophical-inquiry/conspiracies-misunderstanding-human-nature/",
@@ -18902,7 +18818,7 @@
       ]
     },
     {
-      "queueIndex": 186,
+      "queueIndex": 185,
       "sectionName": "Philosophy of Language",
       "pageTitle": "Connotative Equivocation",
       "pagePath": "/philosophy-of-language/connotative-equivocation/",
@@ -18971,7 +18887,7 @@
       ]
     },
     {
-      "queueIndex": 187,
+      "queueIndex": 186,
       "sectionName": "Philosophy of Mind",
       "pageTitle": "Functionalism & Subjectivity",
       "pagePath": "/philosophy-of-mind/functionalism-subjectivity/",
@@ -19040,7 +18956,7 @@
       ]
     },
     {
-      "queueIndex": 188,
+      "queueIndex": 187,
       "sectionName": "Philosophy of Mind",
       "pageTitle": "Subjective/Objective Free Will",
       "pagePath": "/philosophy-of-mind/subjective-objective-free-will/",
@@ -19109,7 +19025,7 @@
       ]
     },
     {
-      "queueIndex": 189,
+      "queueIndex": 188,
       "sectionName": "Economics",
       "pageTitle": "Wealth Creation",
       "pagePath": "/economics/wealth-creation/",
@@ -19166,7 +19082,7 @@
       ]
     },
     {
-      "queueIndex": 190,
+      "queueIndex": 189,
       "sectionName": "Epistemology",
       "pageTitle": "Case #1 – Credence Complexity",
       "pagePath": "/epistemology/case-1-credence-complexity/",
@@ -19223,7 +19139,7 @@
       ]
     },
     {
-      "queueIndex": 191,
+      "queueIndex": 190,
       "sectionName": "Epistemology",
       "pageTitle": "Case #4 – Recursive Credences",
       "pagePath": "/epistemology/case-4-recursive-credences/",
@@ -19280,7 +19196,7 @@
       ]
     },
     {
-      "queueIndex": 192,
+      "queueIndex": 191,
       "sectionName": "Humanistic Philosophies",
       "pageTitle": "Accounting for X",
       "pagePath": "/humanistic-philosophies/accounting-for-x/",
@@ -19337,7 +19253,7 @@
       ]
     },
     {
-      "queueIndex": 193,
+      "queueIndex": 192,
       "sectionName": "Philosophical Inquiry",
       "pageTitle": "Dangers: Carrot & Stick",
       "pagePath": "/philosophical-inquiry/dangers-carrot-stick/",
@@ -19394,7 +19310,7 @@
       ]
     },
     {
-      "queueIndex": 194,
+      "queueIndex": 193,
       "sectionName": "Philosophical Inquiry",
       "pageTitle": "Dangers: The Notion of Fate",
       "pagePath": "/philosophical-inquiry/dangers-the-notion-of-fate/",
@@ -19451,7 +19367,7 @@
       ]
     },
     {
-      "queueIndex": 195,
+      "queueIndex": 194,
       "sectionName": "Philosophical Inquiry",
       "pageTitle": "Testing Ideologies",
       "pagePath": "/philosophical-inquiry/testing-ideologies/",
@@ -19508,7 +19424,7 @@
       ]
     },
     {
-      "queueIndex": 196,
+      "queueIndex": 195,
       "sectionName": "Rational Thought",
       "pageTitle": "Scope of Influence",
       "pagePath": "/rational-thought/scope-of-influence/",
@@ -19565,7 +19481,7 @@
       ]
     },
     {
-      "queueIndex": 197,
+      "queueIndex": 196,
       "sectionName": "Philosophical Inquiry",
       "pageTitle": "Dangers: Ideologies of Mystery",
       "pagePath": "/philosophical-inquiry/dangers-ideologies-of-mystery/",
@@ -19610,7 +19526,7 @@
       ]
     },
     {
-      "queueIndex": 198,
+      "queueIndex": 197,
       "sectionName": "Economics",
       "pageTitle": "Economic Stability",
       "pagePath": "/economics/economic-stability/",
@@ -19691,7 +19607,7 @@
       ]
     },
     {
-      "queueIndex": 199,
+      "queueIndex": 198,
       "sectionName": "Economics",
       "pageTitle": "Minimum Wage",
       "pagePath": "/economics/minimum-wage/",
@@ -19772,7 +19688,7 @@
       ]
     },
     {
-      "queueIndex": 200,
+      "queueIndex": 199,
       "sectionName": "Economics",
       "pageTitle": "Schools of Economic Thought",
       "pagePath": "/economics/schools-of-economic-thought/",
@@ -19853,7 +19769,7 @@
       ]
     },
     {
-      "queueIndex": 201,
+      "queueIndex": 200,
       "sectionName": "Economics",
       "pageTitle": "Taxation",
       "pagePath": "/economics/taxation/",
@@ -19934,7 +19850,7 @@
       ]
     },
     {
-      "queueIndex": 202,
+      "queueIndex": 201,
       "sectionName": "Economics",
       "pageTitle": "What are Moral Hazards?",
       "pagePath": "/economics/what-are-moral-hazards/",
@@ -20015,7 +19931,7 @@
       ]
     },
     {
-      "queueIndex": 203,
+      "queueIndex": 202,
       "sectionName": "Economics",
       "pageTitle": "What is Economics?",
       "pagePath": "/economics/what-is-economics/",
@@ -20096,7 +20012,7 @@
       ]
     },
     {
-      "queueIndex": 204,
+      "queueIndex": 203,
       "sectionName": "Epistemology",
       "pageTitle": "Black Boxes & Epistemology",
       "pagePath": "/epistemology/black-boxes-epistemology/",
@@ -20177,7 +20093,7 @@
       ]
     },
     {
-      "queueIndex": 205,
+      "queueIndex": 204,
       "sectionName": "Epistemology",
       "pageTitle": "Core & Deep Rationality",
       "pagePath": "/epistemology/core-deep-rationality/",
@@ -20258,7 +20174,7 @@
       ]
     },
     {
-      "queueIndex": 206,
+      "queueIndex": 205,
       "sectionName": "Epistemology",
       "pageTitle": "Deduction: Utility and Issues",
       "pagePath": "/epistemology/deduction-utility-and-issues/",
@@ -20339,7 +20255,7 @@
       ]
     },
     {
-      "queueIndex": 207,
+      "queueIndex": 206,
       "sectionName": "Epistemology",
       "pageTitle": "Extraordinary Claims",
       "pagePath": "/epistemology/extraordinary-claims/",
@@ -20420,7 +20336,7 @@
       ]
     },
     {
-      "queueIndex": 208,
+      "queueIndex": 207,
       "sectionName": "Epistemology",
       "pageTitle": "Induction: Utility and Issues",
       "pagePath": "/epistemology/induction-utility-and-issues/",
@@ -20501,7 +20417,7 @@
       ]
     },
     {
-      "queueIndex": 209,
+      "queueIndex": 208,
       "sectionName": "Epistemology",
       "pageTitle": "Pragmatic Considerations vs Epistemic Assessments",
       "pagePath": "/epistemology/pragmatic-considerations-vs-epistemic-assessments/",
@@ -20582,7 +20498,7 @@
       ]
     },
     {
-      "queueIndex": 210,
+      "queueIndex": 209,
       "sectionName": "Epistemology",
       "pageTitle": "Predictive Power",
       "pagePath": "/epistemology/predictive-power/",
@@ -20663,7 +20579,7 @@
       ]
     },
     {
-      "queueIndex": 211,
+      "queueIndex": 210,
       "sectionName": "Epistemology",
       "pageTitle": "Presuppositions?",
       "pagePath": "/epistemology/presuppositions/",
@@ -20744,7 +20660,7 @@
       ]
     },
     {
-      "queueIndex": 212,
+      "queueIndex": 211,
       "sectionName": "Epistemology",
       "pageTitle": "Properly Basic Beliefs",
       "pagePath": "/epistemology/properly-basic-beliefs/",
@@ -20825,7 +20741,7 @@
       ]
     },
     {
-      "queueIndex": 213,
+      "queueIndex": 212,
       "sectionName": "Epistemology",
       "pageTitle": "Reasoned Probabilities and Decisions",
       "pagePath": "/epistemology/reasoned-probabilities-and-decisions/",
@@ -20906,7 +20822,7 @@
       ]
     },
     {
-      "queueIndex": 214,
+      "queueIndex": 213,
       "sectionName": "Epistemology",
       "pageTitle": "The Abuse of “Self-Evident”",
       "pagePath": "/epistemology/the-abuse-of-self-evident/",
@@ -20987,7 +20903,7 @@
       ]
     },
     {
-      "queueIndex": 215,
+      "queueIndex": 214,
       "sectionName": "Epistemology",
       "pageTitle": "What is Doubt?",
       "pagePath": "/epistemology/what-is-doubt/",
@@ -21068,7 +20984,7 @@
       ]
     },
     {
-      "queueIndex": 216,
+      "queueIndex": 215,
       "sectionName": "Epistemology",
       "pageTitle": "What is Evidence?",
       "pagePath": "/epistemology/what-is-evidence/",
@@ -21149,7 +21065,7 @@
       ]
     },
     {
-      "queueIndex": 217,
+      "queueIndex": 216,
       "sectionName": "Ethics",
       "pageTitle": "Assisted Suicide",
       "pagePath": "/ethics/assisted-suicide/",
@@ -21230,7 +21146,7 @@
       ]
     },
     {
-      "queueIndex": 218,
+      "queueIndex": 217,
       "sectionName": "Ethics",
       "pageTitle": "Conditions for Culpability",
       "pagePath": "/ethics/conditions-for-culpability/",
@@ -21311,7 +21227,7 @@
       ]
     },
     {
-      "queueIndex": 219,
+      "queueIndex": 218,
       "sectionName": "Ethics",
       "pageTitle": "Evidences of Moral Facts",
       "pagePath": "/ethics/evidences-of-moral-facts/",
@@ -21392,7 +21308,7 @@
       ]
     },
     {
-      "queueIndex": 220,
+      "queueIndex": 219,
       "sectionName": "Ethics",
       "pageTitle": "Model of Ethical Dynamics",
       "pagePath": "/ethics/model-of-ethical-dynamics/",
@@ -21473,7 +21389,7 @@
       ]
     },
     {
-      "queueIndex": 221,
+      "queueIndex": 220,
       "sectionName": "Ethics",
       "pageTitle": "Self-Evident Morality?",
       "pagePath": "/ethics/self-evident-morality/",
@@ -21554,7 +21470,7 @@
       ]
     },
     {
-      "queueIndex": 222,
+      "queueIndex": 221,
       "sectionName": "Humanistic Philosophies",
       "pageTitle": "Personal & Cosmic Meaning",
       "pagePath": "/humanistic-philosophies/personal-cosmic-meaning/",
@@ -21635,7 +21551,7 @@
       ]
     },
     {
-      "queueIndex": 223,
+      "queueIndex": 222,
       "sectionName": "Humanistic Philosophies",
       "pageTitle": "Russell on Faith",
       "pagePath": "/humanistic-philosophies/russell-on-faith/",
@@ -21716,7 +21632,7 @@
       ]
     },
     {
-      "queueIndex": 224,
+      "queueIndex": 223,
       "sectionName": "Humanistic Philosophies",
       "pageTitle": "The Legitimacy of Divine Revelation",
       "pagePath": "/humanistic-philosophies/the-legitimacy-of-divine-revelation/",
@@ -21797,7 +21713,7 @@
       ]
     },
     {
-      "queueIndex": 225,
+      "queueIndex": 224,
       "sectionName": "Humanistic Philosophies",
       "pageTitle": "“Unpalatable” Religions",
       "pagePath": "/humanistic-philosophies/unpalatable-religions/",
@@ -21878,7 +21794,7 @@
       ]
     },
     {
-      "queueIndex": 226,
+      "queueIndex": 225,
       "sectionName": "Introduction",
       "pageTitle": "Careers in Philosophy",
       "pagePath": "/introduction/careers-in-philosophy/",
@@ -21959,7 +21875,7 @@
       ]
     },
     {
-      "queueIndex": 227,
+      "queueIndex": 226,
       "sectionName": "Introduction",
       "pageTitle": "Philosophy: Higher Education",
       "pagePath": "/introduction/philosophy-higher-education/",
@@ -22040,7 +21956,7 @@
       ]
     },
     {
-      "queueIndex": 228,
+      "queueIndex": 227,
       "sectionName": "Introduction",
       "pageTitle": "Women’s Interest in Philosophy",
       "pagePath": "/introduction/womens-interest-in-philosophy/",
@@ -22121,7 +22037,7 @@
       ]
     },
     {
-      "queueIndex": 229,
+      "queueIndex": 228,
       "sectionName": "Metaphysics",
       "pageTitle": "Categories of Nihilism",
       "pagePath": "/metaphysics/categories-of-nihilism/",
@@ -22202,7 +22118,7 @@
       ]
     },
     {
-      "queueIndex": 230,
+      "queueIndex": 229,
       "sectionName": "Metaphysics",
       "pageTitle": "Dualism vs Materialism",
       "pagePath": "/metaphysics/dualismvsmaterialism/",
@@ -22283,7 +22199,7 @@
       ]
     },
     {
-      "queueIndex": 231,
+      "queueIndex": 230,
       "sectionName": "Metaphysics",
       "pageTitle": "Establishing the Spiritual",
       "pagePath": "/metaphysics/establishing-the-spiritual/",
@@ -22364,7 +22280,7 @@
       ]
     },
     {
-      "queueIndex": 232,
+      "queueIndex": 231,
       "sectionName": "Miscellany",
       "pageTitle": "COVID19 & Science",
       "pagePath": "/miscellany/covid-19-science/",
@@ -22445,7 +22361,7 @@
       ]
     },
     {
-      "queueIndex": 233,
+      "queueIndex": 232,
       "sectionName": "Philosophical Inquiry",
       "pageTitle": "Dangers: Ideologies of Emotion",
       "pagePath": "/philosophical-inquiry/dangers-ideologies-of-emotion/",
@@ -22526,7 +22442,7 @@
       ]
     },
     {
-      "queueIndex": 234,
+      "queueIndex": 233,
       "sectionName": "Philosophical Inquiry",
       "pageTitle": "Inscrutability Case Studies",
       "pagePath": "/philosophical-inquiry/inscrutability-case-studies/",
@@ -22607,7 +22523,7 @@
       ]
     },
     {
-      "queueIndex": 235,
+      "queueIndex": 234,
       "sectionName": "Philosophical Inquiry",
       "pageTitle": "Seeker Scenarios",
       "pagePath": "/philosophical-inquiry/seeker-scenarios/",
@@ -22688,7 +22604,7 @@
       ]
     },
     {
-      "queueIndex": 236,
+      "queueIndex": 235,
       "sectionName": "Philosophy of AI",
       "pageTitle": "Feedback Loops",
       "pagePath": "/philosophy-of-ai/feedback-loops/",
@@ -22769,7 +22685,7 @@
       ]
     },
     {
-      "queueIndex": 237,
+      "queueIndex": 236,
       "sectionName": "Philosophy of AI",
       "pageTitle": "Human Reaction to AI",
       "pagePath": "/philosophy-of-ai/human-reaction-to-ai/",
@@ -22850,7 +22766,7 @@
       ]
     },
     {
-      "queueIndex": 238,
+      "queueIndex": 237,
       "sectionName": "Philosophy of AI",
       "pageTitle": "Philosophy of AI – Core Concepts",
       "pagePath": "/philosophy-of-ai/philosophy-of-ai-core-concepts/",
@@ -22931,7 +22847,7 @@
       ]
     },
     {
-      "queueIndex": 239,
+      "queueIndex": 238,
       "sectionName": "Philosophy of Language",
       "pageTitle": "Linguistic Abstraction",
       "pagePath": "/philosophy-of-language/linguistic-abstraction/",
@@ -23012,7 +22928,7 @@
       ]
     },
     {
-      "queueIndex": 240,
+      "queueIndex": 239,
       "sectionName": "Philosophy of Language",
       "pageTitle": "Semantics: Convention vs Stipulation",
       "pagePath": "/philosophy-of-language/semantics-convention-vs-stipulation/",
@@ -23093,7 +23009,7 @@
       ]
     },
     {
-      "queueIndex": 241,
+      "queueIndex": 240,
       "sectionName": "Philosophy of Language",
       "pageTitle": "The Linearity of Language",
       "pagePath": "/philosophy-of-language/the-linearity-of-language/",
@@ -23174,7 +23090,7 @@
       ]
     },
     {
-      "queueIndex": 242,
+      "queueIndex": 241,
       "sectionName": "Philosophy of Mind",
       "pageTitle": "Assessing Mind with Mind",
       "pagePath": "/philosophy-of-mind/assessing-mind-with-mind/",
@@ -23255,7 +23171,7 @@
       ]
     },
     {
-      "queueIndex": 243,
+      "queueIndex": 242,
       "sectionName": "Philosophy of Mind",
       "pageTitle": "Manufacturer or Method?",
       "pagePath": "/philosophy-of-mind/manufacturer-or-method/",
@@ -23336,7 +23252,7 @@
       ]
     },
     {
-      "queueIndex": 244,
+      "queueIndex": 243,
       "sectionName": "Philosophy of Mind",
       "pageTitle": "Philosophy of Mind Basics",
       "pagePath": "/philosophy-of-mind/philosophy-of-mind-basics/",
@@ -23417,7 +23333,7 @@
       ]
     },
     {
-      "queueIndex": 245,
+      "queueIndex": 244,
       "sectionName": "Philosophy of Mind",
       "pageTitle": "Where are our Thoughts?",
       "pagePath": "/philosophy-of-mind/where-are-our-thoughts/",
@@ -23498,7 +23414,7 @@
       ]
     },
     {
-      "queueIndex": 246,
+      "queueIndex": 245,
       "sectionName": "Philosophy of Science",
       "pageTitle": "Asymmetric Counterfactuals",
       "pagePath": "/philosophy-of-science/asymmetric-counterfactuals/",
@@ -23579,7 +23495,7 @@
       ]
     },
     {
-      "queueIndex": 247,
+      "queueIndex": 246,
       "sectionName": "Philosophy of Science",
       "pageTitle": "Correlation and Causation",
       "pagePath": "/philosophy-of-science/correlation-and-causation/",
@@ -23660,7 +23576,7 @@
       ]
     },
     {
-      "queueIndex": 248,
+      "queueIndex": 247,
       "sectionName": "Philosophy of Science",
       "pageTitle": "Elements of Research Design",
       "pagePath": "/philosophy-of-science/elements-of-research-design/",
@@ -23741,7 +23657,7 @@
       ]
     },
     {
-      "queueIndex": 249,
+      "queueIndex": 248,
       "sectionName": "Philosophy of Science",
       "pageTitle": "Is History Science?",
       "pagePath": "/philosophy-of-science/is-history-science/",
@@ -23822,7 +23738,7 @@
       ]
     },
     {
-      "queueIndex": 250,
+      "queueIndex": 249,
       "sectionName": "Philosophy of Science",
       "pageTitle": "Research Design",
       "pagePath": "/philosophy-of-science/research-design/",
@@ -23903,7 +23819,7 @@
       ]
     },
     {
-      "queueIndex": 251,
+      "queueIndex": 250,
       "sectionName": "Philosophy of Science",
       "pageTitle": "Scientism & Faith",
       "pagePath": "/philosophy-of-science/scientism-faith/",
@@ -23984,7 +23900,7 @@
       ]
     },
     {
-      "queueIndex": 252,
+      "queueIndex": 251,
       "sectionName": "Philosophy of Science",
       "pageTitle": "The Power of Thought Experiments",
       "pagePath": "/philosophy-of-science/the-power-of-thought-experiments/",
@@ -24065,7 +23981,7 @@
       ]
     },
     {
-      "queueIndex": 253,
+      "queueIndex": 252,
       "sectionName": "Philosophy of Science",
       "pageTitle": "What is Induction?",
       "pagePath": "/philosophy-of-science/what-is-induction/",
@@ -24146,7 +24062,7 @@
       ]
     },
     {
-      "queueIndex": 254,
+      "queueIndex": 253,
       "sectionName": "Philosophy of Science",
       "pageTitle": "What is Parsimony?",
       "pagePath": "/philosophy-of-science/what-is-parsimony/",
@@ -24227,7 +24143,7 @@
       ]
     },
     {
-      "queueIndex": 255,
+      "queueIndex": 254,
       "sectionName": "Political Philosophy",
       "pageTitle": "Peaceful Revolutions",
       "pagePath": "/political-philosophy/peaceful-revolutions/",
@@ -24308,7 +24224,7 @@
       ]
     },
     {
-      "queueIndex": 256,
+      "queueIndex": 255,
       "sectionName": "Political Philosophy",
       "pageTitle": "Political Philosophy Basics",
       "pagePath": "/political-philosophy/political-philosophy-basics/",
@@ -24389,7 +24305,7 @@
       ]
     },
     {
-      "queueIndex": 257,
+      "queueIndex": 256,
       "sectionName": "Political Philosophy",
       "pageTitle": "Political Philosophy – Core Concepts",
       "pagePath": "/political-philosophy/political-philosophy-core-concepts/",
@@ -24470,7 +24386,7 @@
       ]
     },
     {
-      "queueIndex": 258,
+      "queueIndex": 257,
       "sectionName": "Rational Thought",
       "pageTitle": "AI “Logic” & “Intelligence”",
       "pagePath": "/rational-thought/ai-logic-intelligence/",
@@ -24551,7 +24467,7 @@
       ]
     },
     {
-      "queueIndex": 259,
+      "queueIndex": 258,
       "sectionName": "Rational Thought",
       "pageTitle": "Case #2 – Autism",
       "pagePath": "/rational-thought/case-2-autism/",
@@ -24632,7 +24548,7 @@
       ]
     },
     {
-      "queueIndex": 260,
+      "queueIndex": 259,
       "sectionName": "Rational Thought",
       "pageTitle": "Do Rationalists Skew Neurodivergent?",
       "pagePath": "/rational-thought/do-rationalists-skew-neurodivergent/",
@@ -24713,7 +24629,7 @@
       ]
     },
     {
-      "queueIndex": 261,
+      "queueIndex": 260,
       "sectionName": "Rational Thought",
       "pageTitle": "The Professional Application of Rationality",
       "pagePath": "/rational-thought/the-professional-application-of-rationality/",
@@ -24794,7 +24710,7 @@
       ]
     },
     {
-      "queueIndex": 262,
+      "queueIndex": 261,
       "sectionName": "Rational Thought",
       "pageTitle": "What is Futurism?",
       "pagePath": "/rational-thought/what-is-futurism/",
@@ -24875,7 +24791,7 @@
       ]
     },
     {
-      "queueIndex": 263,
+      "queueIndex": 262,
       "sectionName": "Rational Thought",
       "pageTitle": "What is Game Theory?",
       "pagePath": "/rational-thought/what-is-game-theory/",
@@ -24956,7 +24872,7 @@
       ]
     },
     {
-      "queueIndex": 264,
+      "queueIndex": 263,
       "sectionName": "Rational Thought",
       "pageTitle": "What is Rational Thought?",
       "pagePath": "/rational-thought/what-is-rational-thought/",
@@ -25037,7 +24953,7 @@
       ]
     },
     {
-      "queueIndex": 265,
+      "queueIndex": 264,
       "sectionName": "Economics",
       "pageTitle": "A Living Wage",
       "pagePath": "/economics/a-living-wage/",
@@ -25106,7 +25022,7 @@
       ]
     },
     {
-      "queueIndex": 266,
+      "queueIndex": 265,
       "sectionName": "Economics",
       "pageTitle": "AI & the Future of Work",
       "pagePath": "/economics/ai-the-future-of-work/",
@@ -25175,7 +25091,7 @@
       ]
     },
     {
-      "queueIndex": 267,
+      "queueIndex": 266,
       "sectionName": "Economics",
       "pageTitle": "Business Risks",
       "pagePath": "/economics/business-risks/",
@@ -25244,7 +25160,7 @@
       ]
     },
     {
-      "queueIndex": 268,
+      "queueIndex": 267,
       "sectionName": "Economics",
       "pageTitle": "Economic Complexity",
       "pagePath": "/economics/economic-complexity/",
@@ -25313,7 +25229,7 @@
       ]
     },
     {
-      "queueIndex": 269,
+      "queueIndex": 268,
       "sectionName": "Economics",
       "pageTitle": "Economic Entitlements",
       "pagePath": "/economics/economic-entitlements/",
@@ -25382,7 +25298,7 @@
       ]
     },
     {
-      "queueIndex": 270,
+      "queueIndex": 269,
       "sectionName": "Economics",
       "pageTitle": "Economic Optimism",
       "pagePath": "/economics/economic-optimism/",
@@ -25451,7 +25367,7 @@
       ]
     },
     {
-      "queueIndex": 271,
+      "queueIndex": 270,
       "sectionName": "Economics",
       "pageTitle": "Innovation Attractors",
       "pagePath": "/economics/innovation-attractors/",
@@ -25520,7 +25436,7 @@
       ]
     },
     {
-      "queueIndex": 272,
+      "queueIndex": 271,
       "sectionName": "Economics",
       "pageTitle": "Justified Optimism",
       "pagePath": "/economics/justified-optimism/",
@@ -25589,7 +25505,7 @@
       ]
     },
     {
-      "queueIndex": 273,
+      "queueIndex": 272,
       "sectionName": "Economics",
       "pageTitle": "The Poverty Line",
       "pagePath": "/economics/the-poverty-line/",
@@ -25658,7 +25574,7 @@
       ]
     },
     {
-      "queueIndex": 274,
+      "queueIndex": 273,
       "sectionName": "Economics",
       "pageTitle": "What Makes Economics “Dismal”?",
       "pagePath": "/economics/what-makes-economics-dismal/",
@@ -25727,7 +25643,7 @@
       ]
     },
     {
-      "queueIndex": 275,
+      "queueIndex": 274,
       "sectionName": "Epistemology",
       "pageTitle": "Absolute Certainty",
       "pagePath": "/epistemology/absolute-certainty/",
@@ -25796,7 +25712,7 @@
       ]
     },
     {
-      "queueIndex": 276,
+      "queueIndex": 275,
       "sectionName": "Epistemology",
       "pageTitle": "Case #5 – Vanishing Probabilities",
       "pagePath": "/epistemology/case-5-vanishing-probabilities/",
@@ -25865,7 +25781,7 @@
       ]
     },
     {
-      "queueIndex": 277,
+      "queueIndex": 276,
       "sectionName": "Epistemology",
       "pageTitle": "Cromwell’s Rule",
       "pagePath": "/epistemology/cromwells-rule/",
@@ -25934,7 +25850,7 @@
       ]
     },
     {
-      "queueIndex": 278,
+      "queueIndex": 277,
       "sectionName": "Epistemology",
       "pageTitle": "Establishing Cognitive Reliability (#1)",
       "pagePath": "/epistemology/establishing-cognitive-reliability-1/",
@@ -26003,7 +25919,7 @@
       ]
     },
     {
-      "queueIndex": 279,
+      "queueIndex": 278,
       "sectionName": "Epistemology",
       "pageTitle": "Evidence Workshop",
       "pagePath": "/epistemology/evidence-workshop/",
@@ -26072,7 +25988,7 @@
       ]
     },
     {
-      "queueIndex": 280,
+      "queueIndex": 279,
       "sectionName": "Epistemology",
       "pageTitle": "Hypostatic Illogic",
       "pagePath": "/epistemology/hypostatic-illogic/",
@@ -26141,7 +26057,7 @@
       ]
     },
     {
-      "queueIndex": 281,
+      "queueIndex": 280,
       "sectionName": "Epistemology",
       "pageTitle": "Induction: Cold Reading",
       "pagePath": "/epistemology/induction-cold-reading/",
@@ -26210,7 +26126,7 @@
       ]
     },
     {
-      "queueIndex": 282,
+      "queueIndex": 281,
       "sectionName": "Epistemology",
       "pageTitle": "Mapping Belief to Evidence",
       "pagePath": "/epistemology/mapping-belief-to-evidence/",
@@ -26279,7 +26195,7 @@
       ]
     },
     {
-      "queueIndex": 283,
+      "queueIndex": 282,
       "sectionName": "Epistemology",
       "pageTitle": "Non-Scientific Ways of Knowing",
       "pagePath": "/epistemology/non-scientific-ways-of-knowing/",
@@ -26348,7 +26264,7 @@
       ]
     },
     {
-      "queueIndex": 284,
+      "queueIndex": 283,
       "sectionName": "Epistemology",
       "pageTitle": "The Primacy of Induction",
       "pagePath": "/epistemology/the-primacy-of-induction/",
@@ -26417,7 +26333,7 @@
       ]
     },
     {
-      "queueIndex": 285,
+      "queueIndex": 284,
       "sectionName": "Epistemology",
       "pageTitle": "Vicious & Virtuous Circularity",
       "pagePath": "/epistemology/vicious-virtuous-circularity/",
@@ -26486,7 +26402,7 @@
       ]
     },
     {
-      "queueIndex": 286,
+      "queueIndex": 285,
       "sectionName": "Epistemology",
       "pageTitle": "What are Syllogisms?",
       "pagePath": "/epistemology/what-are-syllogisms/",
@@ -26555,7 +26471,7 @@
       ]
     },
     {
-      "queueIndex": 287,
+      "queueIndex": 286,
       "sectionName": "Epistemology",
       "pageTitle": "What is Bayes Theorem?",
       "pagePath": "/epistemology/what-is-bayes-theorem/",
@@ -26624,7 +26540,7 @@
       ]
     },
     {
-      "queueIndex": 288,
+      "queueIndex": 287,
       "sectionName": "Epistemology",
       "pageTitle": "What is Faith?",
       "pagePath": "/epistemology/what-is-faith/",
@@ -26693,7 +26609,7 @@
       ]
     },
     {
-      "queueIndex": 289,
+      "queueIndex": 288,
       "sectionName": "Ethics",
       "pageTitle": "Assuming Objective Evil",
       "pagePath": "/ethics/assuming-objective-evil/",
@@ -26762,7 +26678,7 @@
       ]
     },
     {
-      "queueIndex": 290,
+      "queueIndex": 289,
       "sectionName": "Ethics",
       "pageTitle": "Divine Command Theory",
       "pagePath": "/ethics/divine-command-theory/",
@@ -26831,7 +26747,7 @@
       ]
     },
     {
-      "queueIndex": 291,
+      "queueIndex": 290,
       "sectionName": "Ethics",
       "pageTitle": "Ethical Edge Case #1",
       "pagePath": "/ethics/ethical-edge-case-1/",
@@ -26900,7 +26816,7 @@
       ]
     },
     {
-      "queueIndex": 292,
+      "queueIndex": 291,
       "sectionName": "Ethics",
       "pageTitle": "No Morality = Chaos?",
       "pagePath": "/ethics/no-morality-chaos/",
@@ -26969,7 +26885,7 @@
       ]
     },
     {
-      "queueIndex": 293,
+      "queueIndex": 292,
       "sectionName": "Ethics",
       "pageTitle": "Trolley Problems",
       "pagePath": "/ethics/trolley-problems/",
@@ -27038,7 +26954,7 @@
       ]
     },
     {
-      "queueIndex": 294,
+      "queueIndex": 293,
       "sectionName": "Humanistic Philosophies",
       "pageTitle": "Are Humans More Egoistic or Altruistic?",
       "pagePath": "/humanistic-philosophies/are-humans-more-egoistic-or-altruistic/",
@@ -27097,6 +27013,75 @@
           "anchor": "prompt-4",
           "url": "/humanistic-philosophies/are-humans-more-egoistic-or-altruistic/#prompt-4",
           "heading": "Would the many anecdotes (and presumably statistics) of people making dramatic changes to their lives from?",
+          "score": 100,
+          "level": "exceptional",
+          "needsReview": false,
+          "needsGapFill": false,
+          "polishOpportunity": true,
+          "editorialIssues": []
+        }
+      ]
+    },
+    {
+      "queueIndex": 294,
+      "sectionName": "Humanistic Philosophies",
+      "pageTitle": "New Manifestations of Theism",
+      "pagePath": "/humanistic-philosophies/new-manifestations-of-theism/",
+      "priorityBand": "polish",
+      "worstScore": 100,
+      "averageScore": 100.0,
+      "totalPromptSections": 4,
+      "needsReviewCount": 0,
+      "needsGapFillCount": 0,
+      "polishOpportunityCount": 4,
+      "editorialIssues": [],
+      "attentionSummary": [
+        "4 prompt sections are polish opportunities"
+      ],
+      "focusAnchors": [
+        "prompt-1",
+        "prompt-2",
+        "prompt-3",
+        "prompt-4"
+      ],
+      "focusSections": [
+        {
+          "anchor": "prompt-1",
+          "url": "/humanistic-philosophies/new-manifestations-of-theism/#prompt-1",
+          "heading": "Modern theism survives partly by retreating from explanation toward meaning, identity, and personal spirituality",
+          "score": 100,
+          "level": "exceptional",
+          "needsReview": false,
+          "needsGapFill": false,
+          "polishOpportunity": true,
+          "editorialIssues": []
+        },
+        {
+          "anchor": "prompt-2",
+          "url": "/humanistic-philosophies/new-manifestations-of-theism/#prompt-2",
+          "heading": "Religions tend to fade when they stop reproducing confidence, relevance, and institutional continuity",
+          "score": 100,
+          "level": "exceptional",
+          "needsReview": false,
+          "needsGapFill": false,
+          "polishOpportunity": true,
+          "editorialIssues": []
+        },
+        {
+          "anchor": "prompt-3",
+          "url": "/humanistic-philosophies/new-manifestations-of-theism/#prompt-3",
+          "heading": "High religiosity still correlates with insecurity, tight community needs, and inherited sacred identity",
+          "score": 100,
+          "level": "exceptional",
+          "needsReview": false,
+          "needsGapFill": false,
+          "polishOpportunity": true,
+          "editorialIssues": []
+        },
+        {
+          "anchor": "prompt-4",
+          "url": "/humanistic-philosophies/new-manifestations-of-theism/#prompt-4",
+          "heading": "When weekly worship declines, God often becomes vaguer, more private, and less doctrinally demanding",
           "score": 100,
           "level": "exceptional",
           "needsReview": false,

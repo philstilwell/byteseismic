@@ -1,12 +1,12 @@
 # Byteseismic Quality Ledger
 
-Generated: 2026-08-27
+Generated: 2026-08-29
 
 Tracked prompt-response sections: 1414
-Average score: 97.8
-Needs review: 83 (5.9%)
-Polish queue: 1006 (71.1%)
-Gap-fill backlog: 407 (28.8%)
+Average score: 98.1
+Needs review: 68 (4.8%)
+Polish queue: 1021 (72.2%)
+Gap-fill backlog: 392 (27.7%)
 
 ## Editorial Audit
 
@@ -18,15 +18,15 @@ Pattern issues found: 2
 
 | Branch | Avg | Needs Review | Gap Fill | Exceptional | Strong | Good | Developing | Thin |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Miscellany | 85.4 | 22/42 | 22/42 | 16 | 4 | 13 | 9 | 0 |
+| Miscellany | 90.7 | 15/42 | 15/42 | 22 | 5 | 12 | 3 | 0 |
 | Metaphysics | 93.5 | 15/66 | 15/66 | 44 | 7 | 14 | 1 | 0 |
 | Philosophy of Mind | 94.3 | 11/51 | 11/51 | 37 | 3 | 10 | 1 | 0 |
 | Philosophy of AI | 95.6 | 5/31 | 5/31 | 23 | 3 | 5 | 0 | 0 |
 | Philosophy of Language | 95.3 | 8/66 | 8/66 | 52 | 6 | 5 | 3 | 0 |
 | Introduction | 96.7 | 3/25 | 3/25 | 21 | 1 | 3 | 0 | 0 |
-| Humanistic Philosophies | 95.8 | 7/63 | 7/63 | 52 | 4 | 2 | 4 | 1 |
-| Philosophy of Science | 98.1 | 5/101 | 5/101 | 90 | 6 | 4 | 1 | 0 |
+| Philosophy of Science | 98.7 | 3/101 | 3/101 | 92 | 6 | 3 | 0 | 0 |
 | Philosophical Inquiry | 97.7 | 3/107 | 3/107 | 90 | 14 | 3 | 0 | 0 |
+| Humanistic Philosophies | 98.9 | 1/63 | 1/63 | 58 | 4 | 1 | 0 | 0 |
 | Epistemology | 98.8 | 3/226 | 3/226 | 204 | 19 | 3 | 0 | 0 |
 | Rational Thought | 99.3 | 1/81 | 1/81 | 78 | 2 | 1 | 0 | 0 |
 | Ethics | 98.9 | 0/97 | 0/97 | 87 | 10 | 0 | 0 | 0 |
@@ -71,6 +71,7 @@ Pattern issues found: 2
 - `strong` 92 [Humanistic Philosophies / What is Existentialism?#prompt-2](../humanistic-philosophies/what-is-existentialism/#prompt-2): Support items could become a little more explanatory and a little less label-like.; The section could use slightly more argumentative texture to feel fully settled.
 - `strong` 92 [Introduction / Studying Philosophy: Resources#prompt-1](../introduction/studying-philosophy-resources/#prompt-1): Support items could become a little more explanatory and a little less label-like.; The section could use slightly more argumentative texture to feel fully settled.
 - `strong` 92 [Metaphysics / A Taxonomy of Impossibilities#prompt-3](../metaphysics/a-taxonomy-of-impossibilities/#prompt-3): The section could use slightly more argumentative texture to feel fully settled.
+- `strong` 92 [Miscellany / Complexity Theory#prompt-4](../miscellany/complexity-theory/#prompt-4): Support items could become a little more explanatory and a little less label-like.; The section could use slightly more argumentative texture to feel fully settled.
 - `strong` 92 [Philosophical Inquiry / Personal Truth?#prompt-2](../philosophical-inquiry/personal-truth/#prompt-2): A worked example would likely make the distinction easier to carry into a live case.; A brief objection-and-reply moment would make the section feel more alive and more rigorous.
 - `strong` 92 [Philosophy of AI / AI Meta-Post — Overreach#prompt-1](../philosophy-of-ai/ai-meta-post-overreach/#prompt-1): Support items could become a little more explanatory and a little less label-like.; The section could use slightly more argumentative texture to feel fully settled.
 - `strong` 92 [Philosophy of Mind / Philosophy of Mind — Core Concepts#prompt-3](../philosophy-of-mind/philosophy-of-mind-core-concepts/#prompt-3): The section could use slightly more argumentative texture to feel fully settled.
@@ -185,30 +186,17 @@ Pattern issues found: 2
 - `exceptional` 98 [Epistemology / “Adequate” Evidence#prompt-2](../epistemology/adequate-evidence/#prompt-2): ready for a calmer, sharper editorial pass
 - `exceptional` 98 [Ethics / Meta-Ethics#prompt-1](../ethics/meta-ethics/#prompt-1): Support items could become a little more explanatory and a little less label-like.; The section could use slightly more argumentative texture to feel fully settled.
 - `exceptional` 98 [Ethics / Moral Systems: Required Elements#prompt-2](../ethics/moral-systems-required-elements/#prompt-2): The section could use slightly more argumentative texture to feel fully settled.
-- `exceptional` 98 [Humanistic Philosophies / Accounting for X#prompt-3](../humanistic-philosophies/accounting-for-x/#prompt-3): ready for a calmer, sharper editorial pass
 
 ## Exceptional Gap-Fill Backlog
 
-- `thin` 55 [Humanistic Philosophies / Existentialism: Key Concepts#prompt-1](../humanistic-philosophies/existentialism-key-concepts/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.; A fair objection-and-reply moment would make the section feel more alive and more rigorous.
-- `developing` 60 [Miscellany / Domains of Aesthetics#prompt-2](../miscellany/domains-of-aesthetics/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.; Support items should become more explanatory and less list-like.
-- `developing` 60 [Miscellany / Domains of Aesthetics#prompt-3](../miscellany/domains-of-aesthetics/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.; Support items should become more explanatory and less list-like.
 - `developing` 60 [Philosophy of Language / Abandoned Words#prompt-1](../philosophy-of-language/abandoned-words/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.; Support items should become more explanatory and less list-like.
-- `developing` 60 [Philosophy of Science / Confounding Variables#prompt-4](../philosophy-of-science/confounding-variables/#prompt-4): Needs a little more argumentative texture before it reaches the exceptional bar.; Support items should become more explanatory and less list-like.
-- `developing` 62 [Humanistic Philosophies / Existentialism: Key Concepts#prompt-2](../humanistic-philosophies/existentialism-key-concepts/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `developing` 62 [Miscellany / Complexity Theory#prompt-4](../miscellany/complexity-theory/#prompt-4): Needs a little more argumentative texture before it reaches the exceptional bar.; Support items should become more explanatory and less list-like.
 - `developing` 62 [Miscellany / Flack & Mitchell on Complexity#prompt-4](../miscellany/flack-mitchell-on-complexity/#prompt-4): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `developing` 67 [Miscellany / Complexity Theory#prompt-1](../miscellany/complexity-theory/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.; Support items should become more explanatory and less list-like.
-- `developing` 68 [Humanistic Philosophies / New Manifestations of Theism#prompt-1](../humanistic-philosophies/new-manifestations-of-theism/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.; Support items should become more explanatory and less list-like.
-- `developing` 68 [Humanistic Philosophies / New Manifestations of Theism#prompt-2](../humanistic-philosophies/new-manifestations-of-theism/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.; Support items should become more explanatory and less list-like.
-- `developing` 68 [Humanistic Philosophies / New Manifestations of Theism#prompt-3](../humanistic-philosophies/new-manifestations-of-theism/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.; Support items should become more explanatory and less list-like.
 - `developing` 68 [Metaphysics / Ontological Domains#prompt-3](../metaphysics/ontological-domains/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.; Support items should become more explanatory and less list-like.
-- `developing` 68 [Miscellany / Complexity Theory#prompt-2](../miscellany/complexity-theory/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.; Support items should become more explanatory and less list-like.
 - `developing` 68 [Philosophy of Language / Linguistic Scaffolding#prompt-2](../philosophy-of-language/linguistic-scaffolding/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `developing` 68 [Philosophy of Language / Needless Semantic Complexity#prompt-1](../philosophy-of-language/needless-semantic-complexity/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.; Support items should become more explanatory and less list-like.
 - `developing` 70 [Miscellany / Sara Walker on Life’s Emergence#prompt-4](../miscellany/sara-walker-on-lifes-emergence/#prompt-4): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `developing` 70 [Miscellany / Zak Stein on Complexity#prompt-4](../miscellany/zak-stein-on-complexity/#prompt-4): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `developing` 70 [Philosophy of Mind / Preferences = Pleasures?#prompt-1](../philosophy-of-mind/preferences-pleasures/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.; Support items should become more explanatory and less list-like.
-- `developing` 71 [Miscellany / Domains of Aesthetics#prompt-1](../miscellany/domains-of-aesthetics/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `good` 72 [Metaphysics / Metaphysics – Core Concepts#prompt-3](../metaphysics/metaphysics-core-concepts/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `good` 72 [Metaphysics / Ontological Domains#prompt-2](../metaphysics/ontological-domains/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `good` 72 [Miscellany / The Fantastical & Historical Truth#prompt-3](../miscellany/the-fantastical-historical-truth/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
@@ -233,7 +221,6 @@ Pattern issues found: 2
 - `good` 76 [Philosophy of Language / Language & the Brain#prompt-1](../philosophy-of-language/language-the-brain/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `good` 76 [Philosophy of Language / Language & the Brain#prompt-2](../philosophy-of-language/language-the-brain/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `good` 76 [Philosophy of Mind / Preferences = Pleasures?#prompt-2](../philosophy-of-mind/preferences-pleasures/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.; Support items should become more explanatory and less list-like.
-- `good` 77 [Miscellany / Complexity Theory#prompt-3](../miscellany/complexity-theory/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `good` 77 [Philosophy of Mind / Are there Selfless Acts?#prompt-4](../philosophy-of-mind/are-there-selfless-acts/#prompt-4): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `good` 77 [Philosophy of Mind / Philosophy of Mind — Core Concepts#prompt-4](../philosophy-of-mind/philosophy-of-mind-core-concepts/#prompt-4): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `good` 78 [Humanistic Philosophies / What is Existentialism?#prompt-3](../humanistic-philosophies/what-is-existentialism/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.; Support items should become more explanatory and less list-like.; A worked example would help the reader see the distinction at street level.
@@ -263,14 +250,12 @@ Pattern issues found: 2
 - `good` 82 [Miscellany / The Fantastical & Historical Truth#prompt-4](../miscellany/the-fantastical-historical-truth/#prompt-4): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `good` 82 [Miscellany / Zak Stein on Complexity#prompt-1](../miscellany/zak-stein-on-complexity/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `good` 83 [Epistemology / “Adequate” Evidence#prompt-3](../epistemology/adequate-evidence/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.; Support items should become more explanatory and less list-like.; A fair objection-and-reply moment would make the section feel more alive and more rigorous.
-- `good` 84 [Humanistic Philosophies / New Manifestations of Theism#prompt-4](../humanistic-philosophies/new-manifestations-of-theism/#prompt-4): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `good` 84 [Metaphysics / Metaphysics – Core Concepts#prompt-2](../metaphysics/metaphysics-core-concepts/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `good` 84 [Miscellany / David Krakauer on Complexity#prompt-2](../miscellany/david-krakauer-on-complexity/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `good` 84 [Philosophical Inquiry / Dangers: Limits on Doubt#prompt-4](../philosophical-inquiry/dangers-limits-on-doubt/#prompt-4): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `good` 84 [Philosophy of AI / AI Censorship Case#prompt-2](../philosophy-of-ai/ai-censorship-case/#prompt-2): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `good` 84 [Philosophy of AI / AI Censorship Case#prompt-3](../philosophy-of-ai/ai-censorship-case/#prompt-3): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `good` 84 [Philosophy of Mind / Philosophy of Mind — Core Concepts#prompt-1](../philosophy-of-mind/philosophy-of-mind-core-concepts/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
-- `good` 84 [Philosophy of Science / Confounding Variables#prompt-1](../philosophy-of-science/confounding-variables/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.
 - `good` 84 [Rational Thought / 1 at 99.5% or 5 at 95%?#prompt-1](../rational-thought/1-at-99-5-or-5-at-95/#prompt-1): Needs a little more argumentative texture before it reaches the exceptional bar.; A fair objection-and-reply moment would make the section feel more alive and more rigorous.
 - `strong` 90 [Philosophers / Daniel Dennett#prompt-1](../philosophers/daniel-dennett/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `strong` 90 [Philosophers / David Hume#prompt-1](../philosophers/david-hume/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
@@ -339,31 +324,34 @@ Pattern issues found: 2
 - `exceptional` 100 [Philosophers / Avicenna#prompt-3](../philosophers/avicenna/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 100 [Philosophers / Avicenna#prompt-4](../philosophers/avicenna/#prompt-4): A worked example would help the reader see the distinction at street level.; Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 - `exceptional` 100 [Philosophers / Baruch Spinoza#prompt-3](../philosophers/baruch-spinoza/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Baruch Spinoza#prompt-4](../philosophers/baruch-spinoza/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Bertrand Russell#prompt-2](../philosophers/bertrand-russell/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Bertrand Russell#prompt-3](../philosophers/bertrand-russell/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Bertrand Russell#prompt-4](../philosophers/bertrand-russell/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Charles Sanders Peirce#prompt-2](../philosophers/charles-sanders-peirce/#prompt-2): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Charles Sanders Peirce#prompt-3](../philosophers/charles-sanders-peirce/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Charles Sanders Peirce#prompt-4](../philosophers/charles-sanders-peirce/#prompt-4): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Cicero#prompt-1](../philosophers/cicero/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Cicero#prompt-2](../philosophers/cicero/#prompt-2): A worked example would help the reader see the distinction at street level.; Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Cicero#prompt-3](../philosophers/cicero/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Cicero#prompt-4](../philosophers/cicero/#prompt-4): A worked example would help the reader see the distinction at street level.; Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Confucius#prompt-1](../philosophers/confucius/#prompt-1): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Confucius#prompt-2](../philosophers/confucius/#prompt-2): A worked example would help the reader see the distinction at street level.; Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Confucius#prompt-3](../philosophers/confucius/#prompt-3): Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
+- `exceptional` 100 [Philosophers / Confucius#prompt-4](../philosophers/confucius/#prompt-4): A worked example would help the reader see the distinction at street level.; Philosopher page needs eventual primary-source texture, historical setting, and influence trail.
 
 ## Relative Polish Queue
 
 These are the lowest-scoring sections relative to the rest of the archive. Strong entries are publishable; this list is a polishing queue, not a failure list.
 
-- `thin` 55 [Humanistic Philosophies / Existentialism: Key Concepts#prompt-1](../humanistic-philosophies/existentialism-key-concepts/#prompt-1): The section is below the current editorial depth target.; The section has one or fewer concrete support items.
-- `developing` 60 [Miscellany / Domains of Aesthetics#prompt-2](../miscellany/domains-of-aesthetics/#prompt-2): The section is below the current editorial depth target.; The section has one or fewer concrete support items.
-- `developing` 60 [Miscellany / Domains of Aesthetics#prompt-3](../miscellany/domains-of-aesthetics/#prompt-3): The section is below the current editorial depth target.; The section has one or fewer concrete support items.
 - `developing` 60 [Philosophy of Language / Abandoned Words#prompt-1](../philosophy-of-language/abandoned-words/#prompt-1): The section is below the current editorial depth target.; The section has one or fewer concrete support items.; Support items are mostly labels rather than explanatory claims.
-- `developing` 60 [Philosophy of Science / Confounding Variables#prompt-4](../philosophy-of-science/confounding-variables/#prompt-4): The section is below the current editorial depth target.; The section has one or fewer concrete support items.
-- `developing` 62 [Humanistic Philosophies / Existentialism: Key Concepts#prompt-2](../humanistic-philosophies/existentialism-key-concepts/#prompt-2): The section is below the current editorial depth target.; The section has one or fewer concrete support items.
-- `developing` 62 [Miscellany / Complexity Theory#prompt-4](../miscellany/complexity-theory/#prompt-4): The section is below the current editorial depth target.; The section has one or fewer concrete support items.
 - `developing` 62 [Miscellany / Flack & Mitchell on Complexity#prompt-4](../miscellany/flack-mitchell-on-complexity/#prompt-4): The section is below the current editorial depth target.; The section has one or fewer concrete support items.
-- `developing` 67 [Miscellany / Complexity Theory#prompt-1](../miscellany/complexity-theory/#prompt-1): The section is below the current editorial depth target.; The section has one or fewer concrete support items.
-- `developing` 68 [Humanistic Philosophies / New Manifestations of Theism#prompt-1](../humanistic-philosophies/new-manifestations-of-theism/#prompt-1): The section is below the current editorial depth target.; The section has one or fewer concrete support items.
-- `developing` 68 [Humanistic Philosophies / New Manifestations of Theism#prompt-2](../humanistic-philosophies/new-manifestations-of-theism/#prompt-2): The section is below the current editorial depth target.; The section has one or fewer concrete support items.
-- `developing` 68 [Humanistic Philosophies / New Manifestations of Theism#prompt-3](../humanistic-philosophies/new-manifestations-of-theism/#prompt-3): The section is below the current editorial depth target.; The section has one or fewer concrete support items.
 - `developing` 68 [Metaphysics / Ontological Domains#prompt-3](../metaphysics/ontological-domains/#prompt-3): The section is below the current editorial depth target.; The section has one or fewer concrete support items.
-- `developing` 68 [Miscellany / Complexity Theory#prompt-2](../miscellany/complexity-theory/#prompt-2): The section is below the current editorial depth target.; The section has one or fewer concrete support items.
 - `developing` 68 [Philosophy of Language / Linguistic Scaffolding#prompt-2](../philosophy-of-language/linguistic-scaffolding/#prompt-2): The section is below the current editorial depth target.; The section has one or fewer concrete support items.
 - `developing` 68 [Philosophy of Language / Needless Semantic Complexity#prompt-1](../philosophy-of-language/needless-semantic-complexity/#prompt-1): The section is below the current editorial depth target.; The section has one or fewer concrete support items.
 - `developing` 70 [Miscellany / Sara Walker on Life’s Emergence#prompt-4](../miscellany/sara-walker-on-lifes-emergence/#prompt-4): The section is below the current editorial depth target.; The section has one or fewer concrete support items.
 - `developing` 70 [Miscellany / Zak Stein on Complexity#prompt-4](../miscellany/zak-stein-on-complexity/#prompt-4): The section is below the current editorial depth target.; The section has one or fewer concrete support items.
 - `developing` 70 [Philosophy of Mind / Preferences = Pleasures?#prompt-1](../philosophy-of-mind/preferences-pleasures/#prompt-1): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.; The section has one or fewer concrete support items.
-- `developing` 71 [Miscellany / Domains of Aesthetics#prompt-1](../miscellany/domains-of-aesthetics/#prompt-1): The section is below the current editorial depth target.; The section has one or fewer concrete support items.
 - `good` 72 [Metaphysics / Metaphysics – Core Concepts#prompt-3](../metaphysics/metaphysics-core-concepts/#prompt-3): The section is below the current editorial depth target.; The section has one or fewer concrete support items.
 - `good` 72 [Metaphysics / Ontological Domains#prompt-2](../metaphysics/ontological-domains/#prompt-2): The section is below the current editorial depth target.; The section has one or fewer concrete support items.
 - `good` 72 [Miscellany / The Fantastical & Historical Truth#prompt-3](../miscellany/the-fantastical-historical-truth/#prompt-3): The section is below the current editorial depth target.; The section has one or fewer concrete support items.
@@ -388,7 +376,6 @@ These are the lowest-scoring sections relative to the rest of the archive. Stron
 - `good` 76 [Philosophy of Language / Language & the Brain#prompt-1](../philosophy-of-language/language-the-brain/#prompt-1): The section is below the current editorial depth target.; The section has one or fewer concrete support items.
 - `good` 76 [Philosophy of Language / Language & the Brain#prompt-2](../philosophy-of-language/language-the-brain/#prompt-2): The section is below the current editorial depth target.; The section has one or fewer concrete support items.
 - `good` 76 [Philosophy of Mind / Preferences = Pleasures?#prompt-2](../philosophy-of-mind/preferences-pleasures/#prompt-2): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.; The section has one or fewer concrete support items.
-- `good` 77 [Miscellany / Complexity Theory#prompt-3](../miscellany/complexity-theory/#prompt-3): The section is below the current editorial depth target.; The section has one or fewer concrete support items.
 - `good` 77 [Philosophy of Mind / Are there Selfless Acts?#prompt-4](../philosophy-of-mind/are-there-selfless-acts/#prompt-4): The section is below the current editorial depth target.; The section has one or fewer concrete support items.
 - `good` 77 [Philosophy of Mind / Philosophy of Mind — Core Concepts#prompt-4](../philosophy-of-mind/philosophy-of-mind-core-concepts/#prompt-4): The section is below the current editorial depth target.; The section has one or fewer concrete support items.
 - `good` 78 [Humanistic Philosophies / What is Existentialism?#prompt-3](../humanistic-philosophies/what-is-existentialism/#prompt-3): The section is below the current editorial depth target.; The section stays abstract longer than it should and would benefit from a worked example.; The section would be stronger if it named a fair objection or pushback in plain language.
@@ -418,14 +405,12 @@ These are the lowest-scoring sections relative to the rest of the archive. Stron
 - `good` 82 [Miscellany / The Fantastical & Historical Truth#prompt-4](../miscellany/the-fantastical-historical-truth/#prompt-4): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.; The section has one or fewer concrete support items.
 - `good` 82 [Miscellany / Zak Stein on Complexity#prompt-1](../miscellany/zak-stein-on-complexity/#prompt-1): The section is below the current editorial depth target.; The section has one or fewer concrete support items.
 - `good` 83 [Epistemology / “Adequate” Evidence#prompt-3](../epistemology/adequate-evidence/#prompt-3): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
-- `good` 84 [Humanistic Philosophies / New Manifestations of Theism#prompt-4](../humanistic-philosophies/new-manifestations-of-theism/#prompt-4): The section is below the current editorial depth target.
 - `good` 84 [Metaphysics / Metaphysics – Core Concepts#prompt-2](../metaphysics/metaphysics-core-concepts/#prompt-2): The section is below the current editorial depth target.
 - `good` 84 [Miscellany / David Krakauer on Complexity#prompt-2](../miscellany/david-krakauer-on-complexity/#prompt-2): The section is below the current editorial depth target.
 - `good` 84 [Philosophical Inquiry / Dangers: Limits on Doubt#prompt-4](../philosophical-inquiry/dangers-limits-on-doubt/#prompt-4): The section is below the current editorial depth target.; The section has one or fewer concrete support items.
 - `good` 84 [Philosophy of AI / AI Censorship Case#prompt-2](../philosophy-of-ai/ai-censorship-case/#prompt-2): The section is below the current editorial depth target.
 - `good` 84 [Philosophy of AI / AI Censorship Case#prompt-3](../philosophy-of-ai/ai-censorship-case/#prompt-3): The section is below the current editorial depth target.
 - `good` 84 [Philosophy of Mind / Philosophy of Mind — Core Concepts#prompt-1](../philosophy-of-mind/philosophy-of-mind-core-concepts/#prompt-1): The section is below the current editorial depth target.
-- `good` 84 [Philosophy of Science / Confounding Variables#prompt-1](../philosophy-of-science/confounding-variables/#prompt-1): The section is below the current editorial depth target.
 - `good` 84 [Rational Thought / 1 at 99.5% or 5 at 95%?#prompt-1](../rational-thought/1-at-99-5-or-5-at-95/#prompt-1): The section is below the current editorial depth target.; The section would be stronger if it named a fair objection or pushback in plain language.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
 - `strong` 86 [Metaphysics / Metaphysics – Core Concepts#prompt-4](../metaphysics/metaphysics-core-concepts/#prompt-4): The section is below the current editorial depth target.
 - `strong` 86 [Philosophical Inquiry / Dangers: Untestable Ideologies#prompt-2](../philosophical-inquiry/dangers-untestable-ideologies/#prompt-2): The section stays abstract longer than it should and would benefit from a worked example.; The section would be stronger if it named a fair objection or pushback in plain language.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
@@ -469,6 +454,7 @@ These are the lowest-scoring sections relative to the rest of the archive. Stron
 - `strong` 92 [Humanistic Philosophies / What is Existentialism?#prompt-2](../humanistic-philosophies/what-is-existentialism/#prompt-2): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
 - `strong` 92 [Introduction / Studying Philosophy: Resources#prompt-1](../introduction/studying-philosophy-resources/#prompt-1): The section is below the current editorial depth target.
 - `strong` 92 [Metaphysics / A Taxonomy of Impossibilities#prompt-3](../metaphysics/a-taxonomy-of-impossibilities/#prompt-3): The section is below the current editorial depth target.
+- `strong` 92 [Miscellany / Complexity Theory#prompt-4](../miscellany/complexity-theory/#prompt-4): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
 - `strong` 92 [Philosophical Inquiry / Personal Truth?#prompt-2](../philosophical-inquiry/personal-truth/#prompt-2): The section stays abstract longer than it should and would benefit from a worked example.; The section would be stronger if it named a fair objection or pushback in plain language.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
 - `strong` 92 [Philosophy of AI / AI Meta-Post — Overreach#prompt-1](../philosophy-of-ai/ai-meta-post-overreach/#prompt-1): The section is below the current editorial depth target.
 - `strong` 92 [Philosophy of Mind / Philosophy of Mind — Core Concepts#prompt-3](../philosophy-of-mind/philosophy-of-mind-core-concepts/#prompt-3): The section is below the current editorial depth target.
@@ -494,3 +480,17 @@ These are the lowest-scoring sections relative to the rest of the archive. Stron
 - `strong` 94 [Epistemology / Avoiding Single-Cause Dogmatism#prompt-4](../epistemology/avoiding-single-cause-dogmatism/#prompt-4): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
 - `strong` 94 [Epistemology / Case #6 – Insatiable Loops#prompt-2](../epistemology/case-6-insatiable-loops/#prompt-2): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
 - `strong` 94 [Epistemology / Pascal’s Wager#prompt-4](../epistemology/pascals-wager/#prompt-4): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
+- `strong` 94 [Ethics / Moral Black Boxes#prompt-2](../ethics/moral-black-boxes/#prompt-2): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
+- `strong` 94 [Metaphysics / Are Quantum Physics “Spiritual”?#prompt-2](../metaphysics/are-quantum-physics-spiritual/#prompt-2): The section is below the current editorial depth target.
+- `strong` 94 [Metaphysics / Explanations#prompt-1](../metaphysics/explanations/#prompt-1): The section is below the current editorial depth target.
+- `strong` 94 [Philosophical Inquiry / Dangers: Gaslighting#prompt-1](../philosophical-inquiry/dangers-gaslighting/#prompt-1): The section is below the current editorial depth target.
+- `strong` 94 [Philosophical Inquiry / Dangers: Limits on Doubt#prompt-2](../philosophical-inquiry/dangers-limits-on-doubt/#prompt-2): The section is below the current editorial depth target.
+- `strong` 94 [Philosophical Inquiry / Selective Pressures on Ideologies#prompt-4](../philosophical-inquiry/selective-pressures-on-ideologies/#prompt-4): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
+- `strong` 94 [Philosophical Inquiry / The Danger of “Resulting”#prompt-3](../philosophical-inquiry/the-danger-of-resulting/#prompt-3): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
+- `strong` 94 [Philosophical Inquiry / The Danger of “Resulting”#prompt-4](../philosophical-inquiry/the-danger-of-resulting/#prompt-4): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
+- `strong` 94 [Philosophy of Language / The Power of Analogy#prompt-2](../philosophy-of-language/the-power-of-analogy/#prompt-2): The section is below the current editorial depth target.
+- `strong` 94 [Philosophy of Language / The Power of Analogy#prompt-3](../philosophy-of-language/the-power-of-analogy/#prompt-3): The section is below the current editorial depth target.
+- `strong` 94 [Philosophy of Science / Is Logic Acquired Inductively?#prompt-3](../philosophy-of-science/is-logic-acquired-inductively/#prompt-3): The section stays abstract longer than it should and would benefit from a worked example.; The section would be stronger if it named a fair objection or pushback in plain language.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
+- `strong` 95 [Epistemology / Abduction: Utility and Issues#prompt-1](../epistemology/abduction-utility-and-issues/#prompt-1): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
+- `strong` 95 [Epistemology / Decision-Making#prompt-4](../epistemology/decision-making/#prompt-4): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.
+- `strong` 95 [Epistemology / Pascal’s Wager#prompt-3](../epistemology/pascals-wager/#prompt-3): The section is below the current editorial depth target.; This section received a targeted editorial expansion with concrete examples, objections, or diagnostic distinctions.

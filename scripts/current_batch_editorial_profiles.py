@@ -1,4 +1,76 @@
 CURRENT_BATCH_SPECIAL_PAGE_PROFILES = {
+    "Preferences = Pleasures?": {
+        "sections": {
+            "prompt-1": {
+                "heading": "Pleasure and pain explain much of decision-making, but the reduction becomes unstable when terms are stretched too far",
+                "paragraphs": [
+                    "There is real force behind the hedonistic intuition. Human beings are reward-sensitive organisms. Hunger, fear, relief, attachment, shame, pride, curiosity, and anticipation all connect in some way to attraction and aversion. It is therefore tempting to say every decision expresses a preference, and every preference is finally grounded in pleasure-seeking or pain-avoidance.",
+                    "The trouble begins when the thesis is made unfalsifiable by widening the meanings of pleasure and pain until they include every motive whatever. If intellectual integrity, duty, aesthetic fascination, loyalty, or truth-seeking are all simply renamed hidden pleasures, then the theory starts winning by definition rather than by explanation. It may still be broadly right that affective valence matters, but the explanatory gain becomes thin.",
+                    "A stronger version of the view keeps the reduction modest. It says pleasure and pain are basic motivators that deeply shape preference formation, reinforcement, and action selection, even when a person experiences the motive under richer descriptions like obligation, identity, or principle. That claim is plausible and empirically suggestive. The stronger claim that every motive is nothing but hedonic calculus needs much more defense.",
+                    "So the key issue is not whether pleasure and pain matter. They obviously do. The issue is whether reducing every motive to that pair clarifies the structure of agency or merely flattens important distinctions among values, norms, commitments, and self-conceptions that operate at higher levels of description."
+                ],
+                "items": [
+                    "Strong insight: reward and aversion systems are deeply involved in how preferences are learned and reinforced.",
+                    "Reduction risk: a theory that explains everything by redefining every motive as pleasure explains very little.",
+                    "Modest thesis: many motives are affectively grounded without being usefully exhausted by hedonic language.",
+                    "Practical example: a person may endure pain for truth, loyalty, or dignity without experiencing the act as pleasure-seeking.",
+                    "Key distinction: causal contribution from pleasure is not the same as full conceptual reduction to pleasure.",
+                    "Best test: does the reduction predict something new, or only rename the motive after the fact?"
+                ],
+            },
+            "prompt-2": {
+                "heading": "Many rival motives can be traced back to hedonic roots, but that does not settle the best level of explanation",
+                "paragraphs": [
+                    "The curator's pushback is stronger than many anti-hedonist replies admit. Social pressure works partly because exclusion hurts. Ethical commitment often comes with guilt, pride, shame, relief, admiration, or inner peace. Long-term planning usually relies on valuing future satisfaction over present impulse. In that broad sense, hedonic currency seems to be everywhere.",
+                    "Still, tracing a motive back to a hedonic root does not show that hedonic language is always the most illuminating way to describe it. We can say that scientific curiosity ultimately depends on reward circuitry, but that does not make 'reward-seeking' the most informative explanation of why a physicist keeps testing a difficult theory. At some point richer concepts such as truth, vocation, identity, or commitment explain more than the basal vocabulary does.",
+                    "This is a standard issue in explanation. Lower-level causes can be real without making higher-level descriptions dispensable. A melody depends on air vibrations, but it is not helpfully analyzed only as vibrating air. Likewise, agency may depend on pleasure and pain systems while still requiring concepts like norm, goal, role, and principle if we want to understand human decisions clearly.",
+                    "The most careful conclusion is therefore layered. Hedonic attraction and aversion are probably part of the causal infrastructure of nearly all motivated behavior. But infrastructure is not the same as the whole story. The right explanatory vocabulary depends on what question is being asked and what level of understanding is sought."
+                ],
+                "items": [
+                    "Concession: many social, moral, and rational motives carry affective rewards and punishments.",
+                    "Level-of-description point: deeper causal roots do not automatically make higher-level explanations useless.",
+                    "Analogy: air vibrations are necessary for melody, but they are not an adequate substitute for musical explanation.",
+                    "Agency payoff: terms like commitment, role, duty, and identity still explain patterns that hedonic talk alone blurs.",
+                    "Best reply to reductionism: ask which vocabulary predicts and organizes the case more fruitfully.",
+                    "Middle position: pleasure matters almost everywhere, but not always in the way the agent most needs to understand."
+                ],
+            },
+            "prompt-3": {
+                "heading": "The universal reduction remains possible in principle, but it starts losing contrastive power",
+                "paragraphs": [
+                    "A determined hedonist can keep extending the framework. Curiosity becomes the pleasure of resolution. Duty becomes the pleasure of integrity or the avoidance of guilt. Sacrifice becomes the preference for a larger later satisfaction over a smaller immediate one. Even martyrdom can be translated into devotion to a value whose betrayal would feel worse than death.",
+                    "The philosophical problem is not that these translations are always impossible. The problem is that once every motive can be redescribed in hedonic terms, the view risks becoming non-discriminating. It no longer helps us tell apart fundamentally different forms of agency because it treats them all as surface variations on one deep grammar regardless of whether that grammar improves prediction or understanding.",
+                    "There is a respectable scientific ambition behind the reduction. Minds are embodied systems, and unified models of motivation are appealing. But conceptual economy has a cost if it erases distinctions that matter to moral psychology, pedagogy, and self-understanding. Sometimes the broader theory is true but too coarse for the question at hand.",
+                    "So the right challenge to the universal reduction is not simply to deny it. It is to ask what explanatory work it performs that cannot already be done better by a layered account of valuation, reinforcement, identity, norm internalization, and goal-directed cognition."
+                ],
+                "items": [
+                    "Possible translation: almost any motive can be rewritten in terms of reward, relief, or aversion.",
+                    "Main worry: a translation is not automatically an explanatory improvement.",
+                    "Conceptual cost: universal reduction can erase differences among curiosity, integrity, loyalty, and coercion.",
+                    "Scientific attraction: unified motivational models are elegant and often biologically plausible.",
+                    "Pedagogical limit: people need vocabularies that help them understand and govern their motives, not just flatten them.",
+                    "Best pressure test: what unique predictions follow from the hedonic reduction that richer models miss?"
+                ],
+            },
+            "prompt-4": {
+                "heading": "Desires may emerge from reward architecture, yet still become cognitively shaped in ways hedonism alone underspecifies",
+                "paragraphs": [
+                    "It is reasonable to suspect that no desire could emerge in a mind entirely cut off from attraction and aversion. Evolution had to build action-guidance somehow, and pleasure-pain architecture is an obvious candidate. A creature with no felt valence at all would seem to lack the machinery by which anything could matter to it.",
+                    "But even if that deep architecture is necessary, it may not be sufficient as a full calculus of desire. Human beings do not merely chase isolated sensations. They build projects, symbols, habits, narratives, loyalties, and self-images that reorganize what counts as gratifying or painful. A person can learn to enjoy discipline, feel shame at comfort, or suffer more from betrayal of principle than from bodily hardship.",
+                    "In that sense, culture and cognition do not float free of hedonics, but they do reshape the terrain. Pleasure itself becomes educated, and pain itself becomes interpreted. What one generation experiences as noble austerity another may experience as pointless deprivation. Desire is therefore not just wired; it is trained.",
+                    "The best answer is a layered one. Hedonic valence may be the primitive soil out of which desire grows, but higher-order cognition determines what the organism will find rewarding, intolerable, meaningful, or worth enduring. Once that is granted, the philosophical task becomes explaining the interaction between basal reward systems and learned normative worlds."
+                ],
+                "items": [
+                    "Necessary-base claim: some form of attraction and aversion likely underlies any workable motivational system.",
+                    "Insufficiency claim: human desire is reorganized by concepts, symbols, habits, and social training.",
+                    "Key example: people often endure pain for honor, truth, love, or vocation because meaning reweights discomfort.",
+                    "Interpretation effect: pleasure and pain are not raw constants; they are shaped by narrative and culture.",
+                    "Developmental point: what a person finds rewarding at forty may differ radically from what rewarded them at fourteen.",
+                    "Research payoff: the live question is how reward architecture and reflective self-formation continually reshape one another."
+                ],
+            },
+        },
+    },
     "Syllogistic Complexity": {
         "sections": {
             "prompt-1": {
