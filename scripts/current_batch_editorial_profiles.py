@@ -1604,4 +1604,375 @@ CURRENT_BATCH_SPECIAL_PAGE_PROFILES = {
             },
         },
     },
+    "Studying Philosophy: Resources": {
+        "sections": {
+            "prompt-1": {
+                "heading": "Good philosophy resources teach habits of inquiry, not just names and doctrines",
+                "paragraphs": [
+                    "A strong introduction to philosophy does more than hand the reader a list of famous thinkers. It should train a few durable habits at the same time: slowing down an argument, spotting hidden assumptions, distinguishing description from evaluation, and noticing when two sides are using the same word in different senses. Resources are good to the degree that they build those habits rather than merely decorating the beginner with vocabulary.",
+                    "That is why different kinds of resources do different jobs. Short introductory videos can spark orientation and curiosity. Encyclopedias and lecture series can provide breadth and historical placement. Primary texts, even in small doses, teach what philosophical writing feels like before it is paraphrased by someone else. Discussion groups, annotations, and writing exercises matter because philosophy is not fully learned by passive exposure.",
+                    "A practical beginner's stack therefore has layers. Start with one or two accessible overviews for each branch, then pair them with a short primary-source reading and a written summary in your own words. If the resource never forces the learner to restate an argument fairly, compare rival positions, or explain why a distinction matters, it is probably feeding recognition more than understanding."
+                ],
+                "items": [
+                    "Best test: does the resource help the learner explain an argument, not just remember a label?",
+                    "Breadth tools orient the map; primary texts reveal how philosophical pressure actually feels on the page.",
+                    "Active use matters: notes, objections, comparisons, and short written reflections turn exposure into understanding.",
+                    "A weak resource flatters the learner with summaries; a strong one trains the learner to think with the material."
+                ],
+            },
+            "prompt-2": {
+                "heading": "A self-study plan works when it alternates orientation, close reading, and argument practice",
+                "paragraphs": [
+                    "A six-month philosophy plan should not be organized as a frantic museum tour through every major thinker. It works better as a rhythm. One part of the week gives orientation to a branch such as ethics, epistemology, metaphysics, philosophy of mind, political philosophy, or philosophy of science. Another part slows down one short primary text or excerpt. A third part asks the learner to write, diagram, or discuss what was just read.",
+                    "This matters because beginners often mistake familiarity for comprehension. Hearing about utilitarianism, skepticism, or free will is easy. Reconstructing an argument for or against one of those positions, naming its strongest objection, and explaining what would change your own confidence is much harder. That harder work is the point. Philosophy becomes intellectually useful when the learner starts doing the comparisons rather than merely reading them.",
+                    "A practical plan also needs revisitation. Return every few weeks to earlier notes and ask which distinctions still feel alive and which were only momentarily memorable. That kind of spiral review turns isolated exposure into a usable framework. Without it, the learner accumulates interesting fragments without a growing structure."
+                ],
+                "items": [
+                    "Weekly rhythm: overview, close reading, then argument practice.",
+                    "Short primary texts are better than heroic unread stacks.",
+                    "Reconstruction matters more than recognition: write the argument back in plain language.",
+                    "Revisit earlier branches so the learner builds a connected map instead of a pile of disconnected summaries."
+                ],
+            },
+            "prompt-3": {
+                "heading": "Philosophy stays exciting when questions are kept tied to life, conflict, and real stakes",
+                "paragraphs": [
+                    "People usually lose energy in philosophy when it turns into name-memorization or technical language with no visible consequence. Interest returns when the learner keeps asking what difference a distinction would make in an actual disagreement: how should I weigh evidence, what do I owe other people, when is a definition hiding a substantive dispute, or what counts as a good explanation?",
+                    "One useful discipline is to read each topic with a live case nearby. If you study skepticism, bring in journalism, memory, or conspiracy thinking. If you study free will, bring in blame, punishment, or addiction. If you study political theory, bring in censorship, power, protest, or institutional trust. Concrete cases keep the material from floating away into verbal mist.",
+                    "Variety also helps. Alternate essays, dialogues, debates, podcasts, primary texts, and your own written objections. But variety alone is not enough. The material becomes exciting when the learner can feel a question tightening: two plausible pressures are pulling in different directions, and sharper thought might genuinely change judgment."
+                ],
+                "items": [
+                    "Boredom usually signals abstraction without stakes, not a lack of intelligence.",
+                    "Live cases keep concepts answerable to something outside the page.",
+                    "Changing formats helps, but the real fuel is a question that still bites.",
+                    "Ask after each session: what would I now judge differently because of this distinction?"
+                ],
+            },
+            "prompt-4": {
+                "heading": "Constructive engagement in philosophy requires courage, accuracy, and restraint at the same time",
+                "paragraphs": [
+                    "The healthiest philosophical posture is not bland agreement. It is a mix of intellectual charity and intellectual firmness. Charity means stating the other view in a way its defender would recognize as fair. Firmness means not pretending an argument works when it does not. Restraint means resisting the urge to score points by attacking the weakest version of the opposing view.",
+                    "This matters because philosophy easily degrades into two bad habits. One habit is combat for its own sake, where winning the exchange matters more than understanding the issue. The other is politeness without pressure, where disagreement is softened so much that nothing important gets clarified. Constructive engagement keeps the pressure while removing the cheap distortions.",
+                    "A practical rule is simple: before offering an objection, state the argument, the claim doing the real work, and the strongest reason someone might believe it. Only then criticize it. That sequence improves both pedagogy and honesty. It forces the learner to understand before refuting, and it makes real dialogue possible even when disagreement remains sharp."
+                ],
+                "items": [
+                    "Charity is not agreement; it is accurate representation before criticism.",
+                    "Firm disagreement is compatible with respect when the issue, not the ego, stays central.",
+                    "The strongest objections land after the other side has been stated fairly.",
+                    "A good discussion leaves both sides clearer about the real disagreement, even if neither side yields."
+                ],
+            },
+        },
+        "synthesis": {
+            "paragraphs": [
+                "The page becomes useful when resources are treated as tools for training philosophical habits rather than as a shopping list of content.",
+                "A serious study plan needs orientation, close reading, comparison, and repeated attempts to restate arguments in plain language.",
+                "The practical lesson is simple: keep philosophy tied to live questions and engage other views in a way that is both fair and unsentimental."
+            ],
+            "items": [
+                "Which resource trains an actual skill rather than only delivering information?",
+                "Where in the study plan does the learner have to reconstruct an argument?",
+                "What concrete case keeps the topic alive?",
+                "Did the discussion clarify the strongest opposing view before criticizing it?"
+            ],
+        },
+    },
+    "Ontological Domains": {
+        "sections": {
+            "prompt-2": {
+                "heading": "Different ontological domains should be admitted only when they explain something the others cannot",
+                "paragraphs": [
+                    "Once philosophers start listing domains such as the physical, biological, mental, mathematical, moral, social, or divine, the next question is not simply whether the list is interesting. It is whether any of those domains are genuinely irreducible. A separate domain earns its place only if treating it as distinct explains patterns, constraints, or kinds of existence that cannot be handled adequately by a leaner ontology.",
+                    "That means dependencies matter. Biological life may depend on physical conditions without being usefully exhausted by particle talk. Social institutions may depend on minds and bodies while still involving rule-governed realities such as money, law, offices, and obligations. Mathematical entities may be treated as discoveries, inventions, or abstractions depending on the broader metaphysical picture. The page works when it keeps dependence separate from identity.",
+                    "A bloated ontology usually arises when every useful way of talking is mistaken for a new kind of being. The safer method is comparative: ask whether the proposed domain introduces explanatory gain, whether it makes novel predictions or constraints visible, and whether the same work can already be done by a tighter account."
+                ],
+                "items": [
+                    "Separate domain does not automatically mean separate substance.",
+                    "Dependence and irreducibility answer different questions and should not be collapsed.",
+                    "Useful language about a thing is not by itself proof of a new ontological category.",
+                    "A lean ontology should be preferred until explanatory loss becomes clear."
+                ],
+            },
+            "prompt-3": {
+                "heading": "Parsimony protects ontology from becoming a warehouse for every favored intuition",
+                "paragraphs": [
+                    "Parsimony matters because ontology is especially vulnerable to overreach. Once a thinker becomes comfortable positing essences, souls, abstract realms, moral facts, possible worlds, divine agencies, or hidden energetic layers, the burden of proof can quietly disappear. A cleaner ontology forces each addition to earn its keep instead of entering the picture because it feels meaningful, familiar, or emotionally satisfying.",
+                    "The principle does not say reality must be simple. It says we should not multiply basic kinds of being beyond necessity. If mental life can be explained as an emergent but physically dependent process, that route should be preferred over positing a wholly separate mental substance unless the evidence clearly demands the stronger move. The same discipline applies across morality, mathematics, theology, and social reality.",
+                    "Parsimony is therefore less a denial than a filter. It asks what explanatory failure would remain if the extra domain were removed. If very little changes, the domain may be ornamental. If major patterns become unintelligible, the proposal starts looking more serious. That is the real work of the principle."
+                ],
+                "items": [
+                    "Parsimony blocks metaphysical inflation, not complexity in reality itself.",
+                    "A new domain should answer a real explanatory need, not merely preserve a favored intuition.",
+                    "Removing the proposed domain is a good test: what becomes unintelligible without it?",
+                    "The leaner model wins until the richer model explains more in a way the leaner one cannot."
+                ],
+            },
+            "prompt-4": {
+                "heading": "Before admitting a new domain, ask what exists there, how it is known, and what work it does",
+                "paragraphs": [
+                    "A disciplined ontology needs gatekeeping questions. What exactly is being posited: entities, properties, relations, norms, structures, or merely useful descriptions? How is the proposed domain supposed to be known: perception, inference, mathematical necessity, moral intuition, revelation, pragmatic indispensability, or explanatory success? And what difference would its existence make to the rest of the map?",
+                    "These questions matter because ontological disputes often move too quickly from vocabulary to reality. Saying that numbers, moral duties, social roles, or possible worlds are indispensable in discourse does not yet establish what sort of being they possess. The task is to separate semantic convenience, conceptual indispensability, and literal ontological commitment.",
+                    "A further question is integration. If a new domain is admitted, how does it relate to the others? Does it causally interact with the physical world, supervene on it, constrain it, emerge from it, or remain wholly independent? A proposal that cannot answer those bridge questions is often not deep but unfinished."
+                ],
+                "items": [
+                    "Ask first what kind of thing is being posited, not just what name is being used.",
+                    "Routes of access matter: intuition, inference, revelation, and experiment do not carry equal weight.",
+                    "Indispensable talk is not automatically proof of independent existence.",
+                    "Any serious new domain should explain how it connects, or fails to connect, with the rest of reality."
+                ],
+            },
+        },
+        "synthesis": {
+            "paragraphs": [
+                "The page is strongest when it treats ontology as disciplined admission control rather than as a buffet of possible realms.",
+                "Parsimony matters because every extra domain increases explanatory burden, especially when dependence and identity are left blurry.",
+                "The durable habit is to ask what a proposed domain explains, how it is known, and what becomes confused if it is removed."
+            ],
+            "items": [
+                "What explanatory job requires the extra domain?",
+                "Is the proposal about existence, description, or convenience in language?",
+                "How does the domain connect to the others?",
+                "What is lost if the ontology is kept leaner?"
+            ],
+        },
+    },
+    "Flack & Mitchell on Complexity": {
+        "sections": {
+            "prompt-2": {
+                "heading": "Why Flack and Mitchell matter in complexity research",
+                "paragraphs": [
+                    "Jessica Flack and Melanie Mitchell matter because they approach complexity from slightly different but complementary angles. Flack is especially interested in how higher-level order becomes stable, legible, and governable in systems made of many local interactions. Mitchell has spent years clarifying how adaptation, computation, emergence, and collective behavior can produce organized intelligence without a central planner.",
+                    "That pairing is useful pedagogically. Flack helps readers ask how macroscopic structure becomes real enough to guide prediction and intervention. Mitchell helps readers see why complexity is not just a synonym for chaos or complication, but a study of patterned interaction, adaptive response, and multi-level organization.",
+                    "A profile page should therefore do more than list biographies. It should show what each thinker adds to the conceptual toolkit and why their work matters for biology, social systems, machine learning, and institutional design."
+                ],
+                "items": [
+                    "Flack emphasizes the emergence of stable higher-level order from distributed interaction.",
+                    "Mitchell emphasizes adaptation, computation, and non-trivial organization across many domains.",
+                    "Together they make complexity more precise than the everyday word 'complicated.'",
+                    "The profile becomes useful when the reader can name each thinker's distinct contribution."
+                ],
+            },
+            "prompt-4": {
+                "heading": "The strongest parts of their argument survive, but only with modest claims about prediction and control",
+                "paragraphs": [
+                    "Their core claims are plausible because they fit a wide range of cases: ecosystems, markets, immune systems, social norms, and machine-learning systems all display patterned behavior that cannot be understood well by isolating one part at a time. Complexity thinking earns its keep when it reveals feedback loops, scale effects, coordination problems, and emergent constraints that simpler models miss.",
+                    "The caution is that complexity language can become flattering if it is allowed to explain everything after the fact. Saying a system is adaptive, emergent, or multi-level is not yet a deep explanation. The harder question is what concrete mechanisms, information bottlenecks, timescales, or interaction rules produce the observed pattern. Without that step, complexity talk risks becoming prestigious description rather than explanation.",
+                    "So the fair verdict is mixed in a productive way. Flack and Mitchell are right to resist naive reductionism and right to treat higher-level organization as philosophically and scientifically serious. But the value of that resistance depends on keeping the models operational: what can be measured, predicted, manipulated, or falsified once the complexity framing is adopted?"
+                ],
+                "items": [
+                    "Main strength: complexity captures feedback, emergence, and multi-level structure that part-by-part models can miss.",
+                    "Main risk: complexity vocabulary can sound explanatory before mechanisms are specified.",
+                    "Best standard: ask what the framework predicts, measures, or helps control.",
+                    "The strongest version resists reduction without turning complexity into a vague honorific."
+                ],
+            },
+        },
+        "synthesis": {
+            "paragraphs": [
+                "The page matters when the reader can separate helpful complexity thinking from empty complexity rhetoric.",
+                "Flack and Mitchell are most persuasive when they connect higher-level order to specific mechanisms, feedback structures, and limits on reduction.",
+                "The practical question to carry forward is what their framework makes newly visible, measurable, or governable."
+            ],
+            "items": [
+                "What pattern is invisible to a simpler model?",
+                "Which mechanism actually produces the emergent order?",
+                "What does the complexity framing predict or constrain?",
+                "Where does the language become grander than the evidence?"
+            ],
+        },
+    },
+    "Abandoned Words": {
+        "sections": {
+            "prompt-1": {
+                "heading": "Words usually disappear when the social need behind them fades or gets replaced",
+                "paragraphs": [
+                    "Words rarely die for purely linguistic reasons. They usually disappear because the social work they once performed has changed. Some belonged to obsolete technologies, vanished occupations, or outdated institutions. Others carried class markers, moral attitudes, or political assumptions that later speakers no longer wanted to reproduce. Language keeps what still earns its place in living use.",
+                    "That is why lexical death often tells a cultural story. A word can fade because its object disappeared, because a new term became shorter or less stigmatized, because a prestige group shifted away from it, or because younger speakers replaced it with language that better fits their own identity and media environment. The loss is not always decay; it is often reorganization.",
+                    "A good page should also note that not all abandonment is total. Some words retreat into niche communities, historical writing, irony, or revivalist subcultures. So the better question is often not 'Why did the word die?' but 'Where did its practical function go, and who still has use for it?'"
+                ],
+                "items": [
+                    "Words fade when the world or social role they served changes.",
+                    "Replacement can come from efficiency, prestige shifts, stigma, or generational identity.",
+                    "Lexical death is often a clue about cultural change, not just dictionary change.",
+                    "Some 'dead' words survive in niches, archives, jokes, or deliberate revival."
+                ],
+            },
+            "prompt-2": {
+                "heading": "Contradictory meanings can weaken a word, but only when context stops rescuing it",
+                "paragraphs": [
+                    "Contradictory meanings do not automatically kill a word. Natural languages tolerate ambiguity surprisingly well when context does enough sorting. The problem arises when the same word repeatedly produces avoidable friction, social embarrassment, or interpretive noise, especially when a cleaner alternative is available.",
+                    "In that sense, contronyms and unstable terms contribute to disuse by increasing the cost of use. If a word makes a speaker pause to ask whether it will sound archaic, offensive, unclear, or self-undermining, that friction can gradually push speakers toward replacements. The shift is usually indirect: ambiguity raises the cost, and social competition supplies the substitute.",
+                    "The better lesson is therefore conditional. Contradictory meaning matters when it interacts with stigma, loss of prestige, domain change, or generational drift. It is one pressure among others, not the sole engine of lexical abandonment."
+                ],
+                "items": [
+                    "Ambiguity alone is often manageable; ambiguity plus social friction is more damaging.",
+                    "A word declines faster when a cleaner replacement is easy to adopt.",
+                    "Meaning instability usually works together with prestige and identity shifts.",
+                    "Ask not only whether a word is ambiguous, but whether speakers still find it worth the trouble."
+                ],
+            },
+        },
+        "synthesis": {
+            "paragraphs": [
+                "The page works when abandoned words are treated as signs of cultural reorganization rather than as random losses from a verbal museum.",
+                "Words survive when they still do useful social work at an acceptable interpretive cost.",
+                "The practical habit is to ask what changed in the world, the status hierarchy, or the communicative need once a word started fading."
+            ],
+            "items": [
+                "What job did the word used to perform?",
+                "What replaced that job or made it less acceptable?",
+                "Did ambiguity increase the cost of using the word?",
+                "Where, if anywhere, does the word still survive?"
+            ],
+        },
+    },
+    "Needless Semantic Complexity": {
+        "sections": {
+            "prompt-1": {
+                "heading": "Needless semantic complexity turns clear differences into impressive-sounding fog",
+                "paragraphs": [
+                    "Sometimes a topic really is difficult. But sometimes the difficulty is partly manufactured by language that multiplies distinctions faster than understanding improves. A simple behavioral pattern becomes a layered taxonomy. An everyday social habit becomes a grand theoretical construction. A modest causal claim gets wrapped in vocabulary that makes disagreement feel like incompetence rather than ordinary scrutiny.",
+                    "The problem is not technical language as such. Specialized language is often necessary when real precision is being gained. The problem is when the extra terminology stops doing explanatory work and starts functioning as prestige armor. At that point the language no longer clarifies the world; it protects the speaker from being asked to state the point simply.",
+                    "A good test is translational. If the central claim cannot be re-expressed in plain language without losing almost everything important, the complexity may be earned. If it can be translated cleanly and nothing important is lost, the semantic inflation was probably doing more social work than intellectual work."
+                ],
+                "items": [
+                    "Not all complexity is fake, but some complexity is mostly status display.",
+                    "Technical vocabulary is justified only when it buys real precision or explanatory reach.",
+                    "Plain-language translation is one of the best pressure tests for inflated terminology.",
+                    "The goal is not anti-intellectual simplicity, but language that earns its burden."
+                ],
+            },
+            "prompt-2": {
+                "heading": "Simple realities attract inflated language because institutions reward display as well as clarity",
+                "paragraphs": [
+                    "There are predictable reasons simple realities get wrapped in swollen terminology. Academic fields reward novelty, distinction-making, and the appearance of depth. Bureaucracies reward official phrasing. Professional communities build identity through insider language. And once a term becomes established, later writers often inherit it because translating it back into ordinary language feels risky or disrespectful.",
+                    "None of that means the actors are being dishonest. It means there are incentives that pull language away from everyday clarity even when the underlying point remains modest. A two-step social pattern can become a theory of layered mediation. A familiar emotional tendency can become a heavily branded construct. The inflation is often gradual and institutionally reinforced.",
+                    "That is why simplification must be careful rather than dismissive. The question is not whether a term sounds fancy. It is whether the term marks a real distinction, compresses a useful body of findings, or protects confusion from ordinary questions."
+                ],
+                "items": [
+                    "Incentives for prestige, identity, and publication often increase terminological inflation.",
+                    "Inflated language is frequently inherited, not deliberately invented from scratch.",
+                    "The right response is not mockery but translation and testing.",
+                    "Ask whether the term adds precision, compresses evidence, or merely raises social cost for critics."
+                ],
+            },
+            "prompt-4": {
+                "heading": "Many public debates are obscured by language that sounds deeper than the underlying issue",
+                "paragraphs": [
+                    "Public discourse is full of cases where ordinary realities get buried under elaborate wording. Workplace incentives are discussed as if they were mysterious systems of invisible force. Group loyalty gets redescribed in abstractions that conceal familiar tribal behavior. Personal preference, aversion, status signaling, or coordination failure is sometimes dressed in a vocabulary so ornate that readers lose sight of the basic human pattern.",
+                    "This matters because obscuring the reality changes who feels entitled to question it. Once the language becomes intimidating enough, readers may assume the issue is too advanced for plain scrutiny, even when the underlying claim is simple enough to test with ordinary examples. Semantic inflation can therefore function as a quiet barrier to democratic understanding.",
+                    "The cure is not flattening every topic into casual speech. It is building a two-level habit: state the point plainly first, then add technical refinement only where it genuinely changes the analysis. If the refined layer cannot show what extra work it is doing, it should lose the privilege of obscurity."
+                ],
+                "items": [
+                    "Inflated language can hide familiar patterns behind a curtain of prestige.",
+                    "Obscurity changes who feels licensed to question a claim.",
+                    "Plain-first, technical-second is a good editorial rule for many contested topics.",
+                    "The burden belongs to the jargon: it should show what extra understanding it creates."
+                ],
+            },
+        },
+        "synthesis": {
+            "paragraphs": [
+                "The page matters when it teaches the reader to distinguish earned precision from inflated obscurity.",
+                "Needless semantic complexity is not just a style problem; it changes who can question a claim and how easily weak ideas can hide.",
+                "The durable practice is to translate, compare, and ask what explanatory gain survives once the prestige language is stripped away."
+            ],
+            "items": [
+                "What does the claim say in plain language?",
+                "What is lost, if anything, when the jargon is translated?",
+                "Is the vocabulary increasing precision or social deference?",
+                "Would an ordinary example expose the point more clearly?"
+            ],
+        },
+    },
+    "Hard vs Soft Sciences": {
+        "sections": {
+            "prompt-1": {
+                "heading": "The hard-soft continuum matters because kinds of complexity change what scientific confidence can look like",
+                "paragraphs": [
+                    "The distinction between harder and softer sciences is often mishandled as if it were a ranking of intelligence or legitimacy. A better way to read it is methodological. Some domains study systems with fewer moving parts, tighter measurement control, stronger repeatability, and cleaner isolation of variables. Other domains study systems loaded with feedback, history, meaning, adaptation, and context-sensitive behavior. The difference changes what certainty, prediction, and experimental control can reasonably look like.",
+                    "Physics and chemistry often sit toward the harder end because the objects of study are comparatively tractable under controlled conditions. Sociology, political science, education, and much of psychology often sit toward the softer end because their objects of study are reflexive, socially embedded, and full of interacting variables that resist clean isolation. That does not make the softer fields unserious. It means their evidential burdens and forms of justification have to be read differently.",
+                    "The practical payoff is epistemic humility. Harder sciences can often promise narrower error bars and more stable replication. Softer sciences often have to rely more on probabilistic patterns, converging methods, and careful handling of confounders. The continuum matters because it keeps people from demanding the wrong kind of evidence from the wrong kind of subject matter."
+                ],
+                "items": [
+                    "Hard-soft is about tractability and control, not prestige or intelligence.",
+                    "Different subject matters generate different ceilings on prediction and precision.",
+                    "Softer fields can still be rigorous, but rigor there often looks more probabilistic and plural-method.",
+                    "A category mistake occurs when one field is judged by standards fitted to a very different object of study."
+                ],
+            },
+            "prompt-3": {
+                "heading": "Degrees of freedom increase as systems become more adaptive, historical, and socially entangled",
+                "paragraphs": [
+                    "One reason the continuum matters is that the number of relevant variables and their possible interactions expands dramatically as we move from simpler physical systems toward living, social, and symbolic systems. Degrees of freedom here refers to the number of ways a system can vary while still producing outcomes that matter to explanation. More degrees of freedom usually mean more room for hidden interactions, local contingencies, and path dependence.",
+                    "That is why explanation shifts as the subject matter changes. In a tightly controlled physical system, a small change in one variable may be traced fairly cleanly. In an educational or political system, the same intervention can behave differently across cultures, incentives, histories, institutions, and feedback loops. The increase in freedom is not just numerical; it is also interpretive and historical.",
+                    "This does not force skepticism about the softer sciences. It forces methodological adjustment. As the freedom of the system rises, good inquiry depends more on triangulation, statistics, causal inference tools, natural experiments, mixed methods, and unusually careful attention to context."
+                ],
+                "items": [
+                    "More degrees of freedom usually mean more interaction terms, confounders, and path dependence.",
+                    "Adaptive and social systems change partly in response to being studied or governed.",
+                    "The right response is not despair but stronger causal and statistical discipline.",
+                    "Complex systems usually require converging evidence rather than one decisive experiment."
+                ],
+            },
+            "prompt-4": {
+                "heading": "A few core terms help explain why softer domains are harder to study cleanly",
+                "paragraphs": [
+                    "Terms such as multicausality, confounding variable, noise, effect size, interaction effect, external validity, path dependence, measurement error, selection bias, feedback loop, heterogeneity, and model sensitivity all belong here because they name recurring obstacles to clean inference. The issue is not memorizing jargon. It is learning what kind of trouble each term points to when a system has many moving parts.",
+                    "For example, multicausality reminds us that one outcome may have several contributing causes. Confounding variables warn that a correlation may be driven by a hidden factor. External validity asks whether a result travels beyond the study context. Path dependence marks how early conditions can channel later outcomes. Feedback loops show how effects can circle back and alter their own causes.",
+                    "A page on hard versus soft sciences should use these terms to sharpen judgment, not to pad the list. The reader should come away seeing why softer domains demand more caution, more methodological pluralism, and more modest claims about prediction than cleaner laboratory systems usually do."
+                ],
+                "items": [
+                    "These terms matter because each names a way inference can go wrong in complex systems.",
+                    "Knowing the term is less important than seeing the practical problem it identifies.",
+                    "The softer the domain, the more often several of these problems appear together.",
+                    "Methodological humility is not weakness; it is what serious science looks like under harder conditions."
+                ],
+            },
+        },
+        "synthesis": {
+            "paragraphs": [
+                "The page succeeds when the continuum is treated as a map of methodological difficulty rather than as a status hierarchy.",
+                "What changes from hard to soft is not whether evidence matters, but how much control, repeatability, and causal isolation the subject matter permits.",
+                "The lasting lesson is to match evidential expectations to the kind of system being studied."
+            ],
+            "items": [
+                "What makes this domain hard to control experimentally?",
+                "Which forms of uncertainty are structural rather than temporary?",
+                "What methods compensate for higher degrees of freedom?",
+                "Are the expectations being imported from the wrong kind of science?"
+            ],
+        },
+    },
+    "AI Censorship Case": {
+        "sections": {
+            "prompt-4": {
+                "heading": "Banning philosophical feedback from AI can protect against harm while still producing new forms of distortion",
+                "paragraphs": [
+                    "The strongest case for restricting certain AI outputs is straightforward. Some kinds of guidance can normalize cruelty, amplify manipulation, intensify delusion, or package dangerous ideology in persuasive language. Refusal policies are therefore not irrational intrusions from outside inquiry; they are attempts to manage real risk in a system that can scale influence cheaply.",
+                    "But a blanket ban on philosophical engagement has its own dangers. If an AI is not allowed to analyze the structure of a bad argument, compare rival moral frameworks, or expose the premises behind a harmful view, the system can quietly become worse at diagnosis while claiming to be safer. That tradeoff matters because censorship can remove not only endorsement but also critical scrutiny.",
+                    "The practical question is therefore one of granularity. A better policy distinguishes between promoting a view, neutrally reconstructing it, critically evaluating it, and discussing its historical role. The more those categories are collapsed, the more likely the model is to become intellectually evasive, politically one-sided, or pedagogically weak under exactly the conditions where disciplined analysis is most needed."
+                ],
+                "items": [
+                    "Real safety risks justify some refusal boundaries.",
+                    "The main policy danger is collapsing analysis, criticism, and endorsement into one category.",
+                    "Overbroad censorship can weaken diagnosis while claiming to reduce harm.",
+                    "A better rule asks what the model is doing with the material, not just which topic appears."
+                ],
+            },
+        },
+        "synthesis": {
+            "paragraphs": [
+                "The page matters when it forces a sharper distinction between harmful promotion and disciplined philosophical analysis.",
+                "Safety policy is strongest when it reduces concrete risk without crippling the model's ability to reconstruct and criticize dangerous ideas.",
+                "The key habit is to ask whether a refusal protects users from harm or merely protects the system from having to think carefully."
+            ],
+            "items": [
+                "What exact risk is the refusal meant to reduce?",
+                "Is the blocked output promotional, neutral, historical, or critical?",
+                "What analytical ability is lost if the policy is too broad?",
+                "How could the boundary be made more precise?"
+            ],
+        },
+    },
 }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-08-29",
+  "generatedAt": "2026-08-30",
   "batchSize": 50,
   "protocol": {
     "readFirst": "quality/editorial-audit-tracker.json",
