@@ -101,6 +101,19 @@ SCAFFOLD_PARAGRAPH_PATTERNS = [
     re.compile(r"^The first move should give the reader .+$", re.I),
     re.compile(r"^A fair pushback is .+$", re.I),
     re.compile(r"^A fair question is why this map is needed at all\..+$", re.I),
+    re.compile(r"^A useful section here should make self-correction feel necessary rather than ceremonial\.$", re.I),
+    re.compile(r"^The wording matters because small verbal shifts can quietly change what the reader thinks follows\.$", re.I),
+    re.compile(r"^The important split is between fluent output and earned trust, especially when a system starts sounding wiser than its reasons\.$", re.I),
+    re.compile(r"^The metaphysical temptation is to let evocative language do the ontological work\. The section improves when it separates what the central distinction would require reality to be from what merely sounds suggestive\.$", re.I),
+    re.compile(r"^The metaphysical temptation is to let evocative language do the ontological work\..+$", re.I),
+    re.compile(r"^The point of mapping .+ is comparative rather than decorative\..+$", re.I),
+    re.compile(r"^The value of this section lies in seeing what .+ looks like once it is placed inside an actual case\.$", re.I),
+    re.compile(r"^The page needs to do more than name .+; it needs to make the view's logic and limits visible\.$", re.I),
+    re.compile(r"^Once the boundaries are visible, later disagreements become easier to diagnose because a dispute that looked like one disagreement often turns out to involve several distinct questions moving together\.$", re.I),
+    re.compile(r"^Keep asking what reality would have to be like for the claim to be true, rather than what the language merely invites us to imagine\.$", re.I),
+    re.compile(r"^That requires separating what the argument has actually established from what is only being suggested by tone, framing, or a leap that still needs support\.$", re.I),
+    re.compile(r"^A strong explanation should say what the position claims, what pressure gave rise to it, and where its strongest objection or internal instability is likely to appear\.$", re.I),
+    re.compile(r"^Keep Stanford researches have developed a way to train AI models that, Differences Between Human and AI Inner Monologues, and Implications for AI Advancement distinct while reading\..+$", re.I),
     re.compile(
         r"^A fair pushback is that real decisions often happen quickly\. The point is not to abolish speed; it is to notice which shortcut is harmless and which one quietly rigs the outcome before the reasoning even starts\.$",
         re.I,
@@ -136,9 +149,43 @@ SCAFFOLD_LIST_PATTERNS = [
     re.compile(r"^This is not just a label to file away; it changes how .+ should be judged inside what the topic clarifies and what it asks the reader to hold apart\.$", re.I),
     re.compile(r"^By structuring time effectively and engaging thoughtfully with various forms of art, .+\.$", re.I),
     re.compile(r"^This initiative explores the theoretical foundations of AI and its implications for society\.$", re.I),
+    re.compile(r"^Ask what the section is entitled to posit, and what it is merely tempted to imply because the vocabulary sounds elevated\.$", re.I),
+    re.compile(r"^Watch how wording changes the thought-space; the linguistic move is usually doing more than it first appears\.$", re.I),
+    re.compile(r"^Keep the revision test alive; a truth-seeking page should still show what would force a change of mind\.$", re.I),
+    re.compile(r"^Separate fluent framing from earned warrant; polished language can still outrun justification\.$", re.I),
+    re.compile(r"^Pay attention to where error-correction enters the picture: method, evidence, replication, or restraint\.$", re.I),
+    re.compile(r"^Source of authority: The pressure is what could make the claim binding beyond emotion, convention, threat, or usefulness\.$", re.I),
     ]
 
 CUSTOM_SECTION_HEADINGS = {
+    (
+        "Metaphysics – Core Concepts",
+        "Provide a timeline of the development of metaphysics. Include both the relevant thinkers and the concepts introduced.",
+    ): "How metaphysics changed from ancient first principles to possible worlds",
+    (
+        "Metaphysics – Core Concepts",
+        "List and describe new areas of interest in metaphysics.",
+    ): "New frontiers in metaphysics",
+    (
+        "The Fantastical & Historical Truth",
+        "Provide the rigorous rationale behind giving the resurrection of Jesus a “low to moderate” credence, but the Flying Dutchman a “very low” credence.",
+    ): "Why the resurrection receives more credence than the Flying Dutchman",
+    (
+        "Preferences = Pleasures?",
+        "Is every human decision based on a preference, and is that preference always based on a pleasure or the minimization of pain?",
+    ): "Does every preference reduce to pleasure or pain?",
+    (
+        "Preferences = Pleasures?",
+        "The curator’s pushback: Are not the factors in the following list also based on pleasure seeking or pain avoidance?",
+    ): "The curator’s pushback: hedonic motives may be everywhere",
+    (
+        "Preferences = Pleasures?",
+        "The additional factors you mention in your last response can also be traced back to pleasure seeking and pain avoidance. Right?",
+    ): "When a universal hedonic explanation stops discriminating",
+    (
+        "Preferences = Pleasures?",
+        "I cannot imagine a legitimate calculus behind the emergence of desires that do not incorporate pleasure seeking and pain avoidance. Can you?",
+    ): "Hedonic roots do not exhaust the structure of desire",
     (
         "Regret Assessment",
         "What can I do to ensure I make decisions that minimize regrets later in life?",
