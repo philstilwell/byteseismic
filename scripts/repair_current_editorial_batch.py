@@ -88,6 +88,15 @@ GENERATED_GENERIC_PATTERNS = [
     re.compile(r"^The first job is to make .+ usable in borderline cases, not just easier to repeat\.$", re.I),
     re.compile(r"^Hold together lived experience, explanatory mechanism, and the limits of what current models can really justify\.$", re.I),
     re.compile(r"^These scenarios aim to provide a deeper understanding of how existentialist concepts manifest in everyday life\.$", re.I),
+    re.compile(r"^The methodological question in .+ is how the view handles error\. A view becomes more scientific when it can say what would count against it, not merely what makes it attractive\.$", re.I),
+    re.compile(r"^A useful example is a decision made under time pressure, where the reader can see the difference between a harmless heuristic and a reasoning habit that rigs the conclusion before the evidence is weighed\.$", re.I),
+    re.compile(r"^The reader should leave with a narrower disagreement, a clearer picture of the main pressure point,? and a better sense of what evidence or distinction would matter next\.$", re.I),
+    re.compile(r"^The real test is whether .+ can support the conclusion being asked of it once the strongest objections are stated clearly and without caricature\.$", re.I),
+    re.compile(r"^Sure, here are five examples of exposing logical fallacies using the analogy approach\.$", re.I),
+    re.compile(r"^The best answer should show what to notice, what to resist, and what a disciplined response looks like once the pressure moves from theory into an actual conversation or decision\.$", re.I),
+    re.compile(r"^The page improves when the distinction can be carried into a fresh decision instead of staying trapped in this example\.$", re.I),
+    re.compile(r"^Keep the mechanism visible: who changes behavior, who pays the cost, and which tradeoff is easiest to hide\.$", re.I),
+    re.compile(r"^Keep confidence tied to evidence rather than to social comfort, inherited vocabulary, or rhetorical force\.$", re.I),
 ]
 
 SCAFFOLD_PARAGRAPH_PATTERNS = [
@@ -155,6 +164,32 @@ SCAFFOLD_LIST_PATTERNS = [
     re.compile(r"^Separate fluent framing from earned warrant; polished language can still outrun justification\.$", re.I),
     re.compile(r"^Pay attention to where error-correction enters the picture: method, evidence, replication, or restraint\.$", re.I),
     re.compile(r"^Source of authority: The pressure is what could make the claim binding beyond emotion, convention, threat, or usefulness\.$", re.I),
+    re.compile(r"^Ask where correction enters: evidence, prediction, explanation, replication, or conceptual restraint\.$", re.I),
+    re.compile(r"^Name the tempting shortcut before naming the correction; rationality earns its keep under temptation\.$", re.I),
+    re.compile(r"^Keep institutions connected to persons; legitimacy finally lands on lived civic arrangements\.$", re.I),
+    re.compile(r"^Failure mode: The shortcut, bias, incentive, or fallacy explains why weak reasoning can look stronger than it is\.$", re.I),
+    re.compile(r"^Borderline case: The reader should be able to say what would make the claim merely plausible rather than justified\.$", re.I),
+    re.compile(r"^Correction method: The reader needs a repair procedure in practice, not only a label for the mistake\.$", re.I),
+    re.compile(r"^Follow incentives at the margin: who adjusts, who pays, who benefits, and what feedback loop appears next\?$", re.I),
+    re.compile(r"^Objection test: A strong section names the best reason a careful critic would withhold assent\.$", re.I),
+    re.compile(r"^Calibration test: The answer should distinguish certainty, high confidence, tentative belief, and responsible agnosticism\.$", re.I),
+    re.compile(r"^Transfer test: The same reasoning discipline should still work in a neighboring case\.$", re.I),
+    re.compile(r"^Let the metaethical pressure remain sharp; do not translate a disputed moral claim into a harmless preference report\.$", re.I),
+    re.compile(r"^Do not sand off the normative edge; obligation, recommendation, and moral non-realism should remain distinguishable\.$", re.I),
+    re.compile(r"^Error pressure: Overconfidence, underconfidence, and ambiguous testimony each distort the conclusion in different ways\.$", re.I),
+    re.compile(r"^Evidence standard: Support, counterevidence, and merely persuasive appearances have to be kept distinct\.$", re.I),
+    re.compile(r"^Ask what bad first impression of philosophy this section is quietly trying to correct\.$", re.I),
+    re.compile(r"^Ask whether the page argues for existence, dependence, possibility, necessity, or only a useful way of speaking\.$", re.I),
+    re.compile(r"^Find the load-bearing premise: the section should show which claim about .+ would make the argument succeed or fail\.$", re.I),
+    re.compile(r"^Reasoning structure: The inferential move inside .+ has to be explicit rather than carried by intuitive agreement\.$", re.I),
+    re.compile(r"^Revision (?:path|trigger): .+$", re.I),
+    re.compile(r"^Let the example do real work: it should show where .+ becomes clearer, costlier, or more questionable in practice\.$", re.I),
+    re.compile(r"^Monitor and Review: This matters only if it helps the reader catch or repair a real reasoning mistake rather than merely name a concept\.$", re.I),
+    re.compile(r"^Follow the pressure in the exchange: each reply should narrow the issue, sharpen the objection, or expose the cost of the view\.$", re.I),
+    re.compile(r"^Sure, here are five examples of exposing logical fallacies using the analogy approach\.$", re.I),
+    re.compile(r"^These analogies help illustrate the flawed reasoning in each fallacy, making it easier to understand and identify them in real-world discussions\.$", re.I),
+    re.compile(r"^Keep the institutional claim tied to actual people living under the arrangement being defended\.$", re.I),
+    re.compile(r"^Look for a habit you could carry into the next real disagreement or decision\.$", re.I),
     ]
 
 CUSTOM_SECTION_HEADINGS = {
@@ -350,6 +385,82 @@ CUSTOM_SECTION_HEADINGS = {
         "Moral Hazards",
         "Provide an example of a moral hazard that is based only on information asymetry.",
     ): "A moral hazard driven only by information asymmetry",
+    (
+        "Methodological Naturalism",
+        "Provide a comprehensive list of cases in the history of science in which both a naturalistic and a supernaturalistic explanation were proposed in response to an inexplicable phenomenon, and the naturalistic explanation was eventually established as true, and vice-versa.",
+    ): "Historical contests between natural and supernatural explanations",
+    (
+        "The Use of Proxies",
+        "Provide 5 actual cases in which a proxy was revealed to be improper.",
+    ): "Five failed proxies and the damage they caused",
+    (
+        "The Use of Proxies",
+        "How might we assess when we can legitimately make a causal inference from a proxy to the target phenomenon?",
+    ): "When a proxy can support causal inference",
+    (
+        "Identity Politics",
+        "How can political states ensure the national identity remains sufficiently strong to stave off disruptive tensions related to group identity?",
+    ): "How states can strengthen national identity without suppressing group identity",
+    (
+        "Avoiding Logical Fallacies",
+        "What are logical fallacies, and why should we train ourselves to identify them?",
+    ): "What logical fallacies are and why they matter",
+    (
+        "Calculating Risks",
+        "Provide a step-by-step process one can follow to ensure a highly accurate assessment of risks.",
+    ): "A disciplined process for assessing risk",
+    (
+        "Shades of Certainty",
+        "Extract the primary conclusions of the essay and write up rigorous paragraph-length reformulations of those conclusions that address all possible refutations.",
+    ): "The essay's main conclusions, strengthened against objections",
+    (
+        "Swapping Ideologies",
+        "In the context of dealing with doubt about an ideology, someone offered the statement below. Is there any logical reason we must find another ideology before we dismiss our current ideology?",
+    ): "Why abandoning one ideology does not require adopting another",
+    (
+        "Syllogistic Complexity",
+        "Comment on the theoretical and practical limits on the length of syllogisms for human and digital minds.",
+    ): "The limits of long syllogisms for human and digital minds",
+    (
+        "Syllogistic Complexity",
+        "Provide an example of a highly complex but useful syllogism.",
+    ): "A complex syllogism that earns its complexity",
+    (
+        "What is Epistemology?",
+        "Give real-life examples of the power of a rigorous epistemology.",
+    ): "How rigorous epistemology improves real decisions",
+    (
+        "What is Epistemology?",
+        "Provide 3 anecdotes of famous individuals with fine-tuned epistemologies.",
+    ): "Three thinkers who modeled disciplined belief revision",
+    (
+        "‘A Priori’ Knowledge Issues",
+        "I’m currently skeptical on there being a coherent grounding for A Priori knowledge. Can you elaborate on the more sophisticated arguments from those taking this position?",
+    ): "The skeptical case against grounding a priori knowledge",
+    (
+        "Circularity in Moral Realism",
+        "It seems that many moral realists simply assume morality or define morality circularly in their defenses of their moral systems. Please provide a list of quote among moral philosophers that highlight this problem, along with commentary.",
+    ): "Where moral realism risks assuming what it claims to prove",
+    (
+        "Circularity in Moral Realism",
+        "For each of those 7 quotes, provide a reductio syllogism highlighting their circularity.",
+    ): "Reductio arguments that expose circular moral reasoning",
+    (
+        "Circularity in Moral Realism",
+        "Write a short essay for each of those quotes that highlights the logical flaws in the quote.",
+    ): "What each circular argument gets wrong",
+    (
+        "Anthropomorphized Gods",
+        "There seems to be an relationship between 1) the human drive to make humanity the center of cosmic drama and 2) the anthropomorphized psychological profiles and physical depictions of various proposed Gods. Elaborate on this.",
+    ): "Why humans place themselves at the center of divine drama",
+    (
+        "Shoe-Tips & Hiddenness",
+        "Divine hiddenness has been long debated. Weigh in on the following analogy",
+    ): "What the shoe-tips analogy reveals about divine hiddenness",
+    (
+        "Shoe-Tips & Hiddenness",
+        "Based on the analogy, write an essay on divine hiddenness.",
+    ): "Divine hiddenness as a problem of proportionate evidence",
 }
 
 
@@ -808,6 +919,24 @@ def remove_placeholder_list_items(section: Tag) -> bool:
     changed = False
     for item in section.find_all("li"):
         text = normalize_match_text(item.get_text(" ", strip=True))
+        embedded_scaffold = " This matters only if it helps the reader catch or repair a real reasoning mistake rather than merely name a concept."
+        if embedded_scaffold in text:
+            contents = item.decode_contents()
+            marker = " This matters only if it helps the reader catch or repair a real reasoning mistake"
+            prefix = contents.split(marker, 1)[0].rstrip()
+            prefix_soup = BeautifulSoup(prefix, "html.parser")
+            prefix_text = normalize_match_text(prefix_soup.get_text(" ", strip=True))
+            label = prefix_soup.find("strong")
+            label_text = normalize_match_text(label.get_text(" ", strip=True)) if label else ""
+            remainder = prefix_text[len(label_text) :].strip(" :;—–-") if label_text and prefix_text.startswith(label_text) else prefix_text
+            if not remainder:
+                item.decompose()
+            else:
+                item.clear()
+                for child in list(prefix_soup.contents):
+                    item.append(child)
+            changed = True
+            continue
         if (
             any(pattern.search(text) for pattern in PLACEHOLDER_LIST_PATTERNS + SCAFFOLD_LIST_PATTERNS)
             or "By the end, the reader should be able to say what difference" in text
@@ -829,16 +958,10 @@ def remove_placeholder_list_items(section: Tag) -> bool:
 
 
 def remove_generated_generic_paragraphs(section: Tag) -> bool:
-    heading = section.find("h2", recursive=False)
-    if heading is None:
-        return False
-
     changed = False
-    for sibling in list(heading.find_next_siblings()):
-        if not isinstance(sibling, Tag):
+    for sibling in list(section.find_all("p")):
+        if "article-section__prompt" in (sibling.get("class") or []):
             continue
-        if sibling.name != "p":
-            break
         text = normalize_match_text(sibling.get_text(" ", strip=True))
         if any(pattern.search(text) for pattern in GENERATED_GENERIC_PATTERNS + SCAFFOLD_PARAGRAPH_PATTERNS):
             sibling.decompose()
@@ -874,12 +997,30 @@ def fix_dialogue_speaker_quotes(soup: BeautifulSoup) -> bool:
     return changed
 
 
+def remove_duplicate_dialogue_turns(section: Tag) -> bool:
+    changed = False
+    seen: set[str] = set()
+    for turn in list(section.select(".dialogue-turn")):
+        text = normalize_match_text(turn.get_text(" ", strip=True))
+        if text and text in seen:
+            turn.decompose()
+            changed = True
+            continue
+        if text:
+            seen.add(text)
+    return changed
+
+
 def repair_page(path: Path) -> bool:
     original = path.read_text()
-    soup = BeautifulSoup(original, "html.parser")
+    updated = original.replace(
+        "include additional premises that involve independent.",
+        "include additional premises grounded in independent evidence.",
+    )
+    soup = BeautifulSoup(updated, "html.parser")
     page_title = soup.find("h1").get_text(" ", strip=True) if soup.find("h1") else path.parent.name
 
-    changed = fix_dialogue_speaker_quotes(soup)
+    changed = updated != original or fix_dialogue_speaker_quotes(soup)
 
     for section in soup.select("section.article-section--prompt"):
         heading = section.find("h2", recursive=False)
@@ -891,6 +1032,14 @@ def repair_page(path: Path) -> bool:
                 changed = True
         if replace_placeholder_intro(soup, section, page_title):
             changed = True
+        if remove_generated_generic_paragraphs(section):
+            changed = True
+        if remove_placeholder_list_items(section):
+            changed = True
+        if remove_duplicate_dialogue_turns(section):
+            changed = True
+
+    for section in soup.select("section#synthesis"):
         if remove_generated_generic_paragraphs(section):
             changed = True
         if remove_placeholder_list_items(section):
