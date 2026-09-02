@@ -221,6 +221,159 @@ COLLECTIVE_SOURCE_DOSSIERS = {
 }
 
 SPECIAL_PAGE_PROFILES = {
+    "Empiricists": {
+        "sections": {
+            "prompt-1": {
+                "heading": "Empiricism begins with experience, then argues about what experience can actually supply",
+                "paragraphs": [
+                    "Empiricism is the family of views that gives experience a governing role in the formation and testing of knowledge. Its most familiar claim is that the mind does not arrive stocked with a complete inventory of substantive truths. Observation, sensation, memory, experiment, and correction by the world must do much of the work.",
+                    "That family resemblance should not be mistaken for unanimity. Locke distinguishes sensation from reflection and still grants the mind considerable organizing activity. Berkeley argues that talk of matter outrunning all possible experience is unintelligible. Hume pushes the program toward skepticism about necessary causation, a substantial self, and any inference that exceeds the habits experience has actually produced.",
+                    "The tradition is therefore more interesting than the slogan 'all knowledge comes from the senses.' Empiricists disagree about whether experience supplies raw materials, criteria of meaning, habits of expectation, or the only defensible boundary on metaphysical speculation. What unites them is pressure on claims that cannot show how they connect to possible experience.",
+                    "A good first test is practical: when someone asserts an innate idea, a necessary connection, or an invisible substance, ask what experience would distinguish that claim from its rivals. Empiricism earns its force by making inquiry answerable to that question, even when the answer reveals limits rather than certainty."
+                ],
+                "items": [
+                    "Shared commitment: experience constrains responsible belief.",
+                    "First fracture: experience may provide materials for thought without fully explaining the mind's organizing structure.",
+                    "Locke, Berkeley, and Hume represent increasingly demanding versions of the empiricist challenge.",
+                    "Main risk: reducing knowledge to passive sensation can obscure inference, concepts, and background assumptions."
+                ],
+            },
+            "prompt-2": {
+                "heading": "Empiricism made observation, fallibility, and public correction central to modern inquiry",
+                "paragraphs": [
+                    "Empiricism's greatest contribution is not one doctrine but a discipline of accountability. Claims about the world should face observation, comparison, and the possibility of correction. That posture helped shape experimental science, modern psychology, evidence-centered medicine, and political arguments grounded in how institutions actually affect people rather than how ideal systems are supposed to behave.",
+                    "The tradition also sharpened the problem of induction. Hume showed that repeated past regularity does not logically guarantee the future. Fire has burned before, but deduction alone cannot prove it must burn next time. This is not a cheap attack on science; it is an explanation of why scientific confidence is powerful yet revisable rather than absolute.",
+                    "Empiricism further disciplined metaphysics and language. When a concept cannot be connected to observation, experience, or a clear inferential role, the empiricist asks whether it names anything or merely creates an atmosphere of profundity. Later positivists sometimes pushed that suspicion too far, but the demand for operational clarity remains valuable.",
+                    "Its lasting practical lesson is calibrated trust. Evidence can warrant strong belief without turning finite inquirers into infallible spectators. A good empiricist asks what was observed, how it was measured, which expectations shaped the observation, and what result would require revision."
+                ],
+                "items": [
+                    "Experimental accountability: public evidence can correct private conviction.",
+                    "Inductive humility: reliable patterns support expectation without deductive certainty.",
+                    "Conceptual discipline: claims should disclose their relation to possible experience.",
+                    "Modern inheritance: science, psychology, pragmatism, and naturalized epistemology retain these habits."
+                ],
+            },
+            "prompt-3": {
+                "heading": "Locke, Berkeley, and Hume gave classical Empiricism its decisive internal argument",
+                "paragraphs": [
+                    "John Locke supplies the constructive opening. He rejects innate ideas and explains the mind's materials through sensation and reflection, while preserving a world of substances that causes experience. His project is modest but ambitious: map the origin, extent, and limits of human understanding before metaphysics runs ahead of its evidence.",
+                    "George Berkeley turns Locke's representational picture against itself. If we encounter only ideas and never a mind-independent material substrate, he asks what meaningful work 'matter' is doing. His idealism is not a rejection of ordinary tables and trees; it is a rejection of an unknowable material support supposedly hiding behind everything experienced.",
+                    "David Hume radicalizes the pressure. He distinguishes impressions from ideas, treats causal necessity as learned expectation rather than something directly perceived, and questions whether the self appears as anything more than a changing bundle of experiences. His skepticism exposes how much ordinary reasoning depends on habits that reason cannot non-circularly certify.",
+                    "Francis Bacon matters as an earlier advocate of disciplined observation, and John Stuart Mill carries empiricist methods into logic, ethics, and social inquiry. The figures belong together because each asks how far experience can take us, then draws the boundary in a different place."
+                ],
+                "items": [
+                    "Locke: experience supplies ideas while reflection organizes mental activity.",
+                    "Berkeley: an unknowable material substrate may add words without adding explanatory content.",
+                    "Hume: causation, induction, and selfhood reveal the limits of what experience strictly warrants.",
+                    "Bacon and Mill: empiricist discipline expands into experimental and social inquiry."
+                ],
+            },
+            "prompt-4": {
+                "heading": "A student discovers that experience is evidence, not a theory-free photograph",
+                "paragraphs": [
+                    "The clearest teaching exchange begins with an apparently simple observation: a stick looks bent in water. The student expects the empiricist to say 'trust your senses,' but the better lesson is subtler. Experience includes conflicting appearances, repeated tests, changed viewing angles, touch, measurement, and explanations that organize the whole pattern.",
+                    "This shows both the strength and the limit of empiricism. Inquiry must answer to experience, yet no observation arrives with its interpretation already attached. The mind compares, infers, remembers, and brings concepts to the scene. The empiricist need not deny those operations; the question is whether they remain corrigible by what happens next.",
+                    "The dialogue should therefore end with disciplined fallibility. We do not escape error by abandoning experience, and we do not escape interpretation by appealing to raw data. We improve by widening the evidence, exposing assumptions, and letting stubborn results overrule a favored story."
+                ],
+                "items": [
+                    "Begin with a perceptual conflict rather than the slogan 'trust your senses.'",
+                    "Distinguish an experience from the interpretation placed upon it.",
+                    "Show how multiple observations can correct a misleading first appearance.",
+                    "End with the empiricist norm: beliefs remain answerable to further experience."
+                ],
+            },
+        },
+        "synthesis": {
+            "paragraphs": [
+                "Empiricism is best understood as a continuing argument about how experience constrains thought, not as a claim that minds merely photocopy sensations.",
+                "Its major figures matter because they reveal progressively harder questions about matter, causation, induction, and the self.",
+                "The durable habit is simple: ask what experience supports the claim, what interpretation has been added, and what future result could force revision."
+            ],
+            "items": [
+                "What is directly experienced in this case?",
+                "Which inference or concept organizes that experience?",
+                "What rival explanation fits the same observations?",
+                "What new experience would rationally change the conclusion?"
+            ],
+        },
+    },
+    "Analytic Philosophers": {
+        "sections": {
+            "prompt-1": {
+                "heading": "Analytic philosophy is a tradition of making arguments inspectable",
+                "paragraphs": [
+                    "Analytic philosophy is not one doctrine and no longer belongs to one country. It is a broad tradition that prizes clear questions, explicit arguments, careful distinctions, and conclusions proportioned to their premises. Its characteristic hope is that many philosophical puzzles become more manageable once the language, logic, and hidden assumptions are laid out where others can inspect them.",
+                    "The tradition emerged from several pressures at once. Frege rebuilt logic to analyze mathematical reasoning. Russell used logical analysis against inherited metaphysical systems. Moore defended ordinary judgments against conclusions that seemed to overturn them too cheaply. Early Wittgenstein pursued the limits of meaningful representation, while later Wittgenstein questioned the fantasy that every word works by naming an object.",
+                    "Those origins contain a real internal fracture. Some analytic philosophers seek formal precision through logic, semantics, or probability. Others work through ordinary language, examples, thought experiments, and conceptual engineering. The family resemblance lies less in a single technique than in the demand that a reader should be able to locate the claim, the reason for it, and the place where resistance enters.",
+                    "Its best work is exact without being sterile. Clarity matters because obscurity can hide invalid steps, but technical notation is not automatically clarity. A page about analytic philosophy should therefore judge the method by what it reveals, not by how much specialist vocabulary it can display."
+                ],
+                "items": [
+                    "Shared norm: make claims and supporting reasons open to inspection.",
+                    "Formal branch: logic, semantics, probability, and precise models.",
+                    "Ordinary-language branch: examine how concepts function in actual use.",
+                    "Main risk: local precision can become narrowness if history, embodiment, or power disappear from view."
+                ],
+            },
+            "prompt-2": {
+                "heading": "Its key contributions changed logic, language, mind, science, and ethical argument",
+                "paragraphs": [
+                    "Modern formal logic is one of the tradition's clearest achievements. Frege and Russell supplied tools for representing quantification, inference, identity, and mathematical structure with far greater precision than traditional syllogistic logic allowed. Those tools now matter far beyond philosophy, including mathematics, computer science, linguistics, and artificial intelligence.",
+                    "Analytic philosophy also transformed the study of language. Theories of reference, meaning, speech acts, implicature, and possible worlds made it harder to treat words as simple labels attached to things. Frege, Russell, Wittgenstein, Austin, Grice, Quine, and Kripke disagree sharply, but together they show how language can mislead, coordinate, imply, and structure what a problem even looks like.",
+                    "In mind and science, analytic philosophers clarified relations among consciousness, behavior, computation, explanation, causation, and evidence. In ethics and politics, they made arguments about welfare, rights, justice, identity, and obligation more explicit without pretending that formal neatness settles questions of value by itself.",
+                    "The practical contribution is an argumentative culture. Definitions can be challenged, counterexamples can expose an overbroad rule, and premises can be revised without treating every correction as total defeat. The method's deepest value is not certainty but traceable disagreement."
+                ],
+                "items": [
+                    "Logic: richer tools for displaying valid and invalid inference.",
+                    "Language: precise accounts of meaning, reference, implication, and use.",
+                    "Mind and science: clearer models of explanation, cognition, and evidence.",
+                    "Ethics and politics: arguments whose assumptions and tradeoffs can be directly contested."
+                ],
+            },
+            "prompt-3": {
+                "heading": "Its major figures matter because they repeatedly changed what counted as a clear problem",
+                "paragraphs": [
+                    "Frege belongs near the beginning because his logic and account of sense and reference transformed both mathematics and philosophy of language. Russell extended that revolution through logical analysis and descriptions, while Moore helped establish the practice of testing grand conclusions against stubborn ordinary judgments.",
+                    "Wittgenstein matters twice. The early work presents language as a logical picture bounded by what can meaningfully be said; the later work turns toward language-games, rule-following, and the many jobs words perform in forms of life. The reversal is itself a lesson in analytic self-correction.",
+                    "Quine challenged the boundary between analytic truth and empirical knowledge, linking philosophy more tightly to science. Austin and Grice showed that utterances do things and communicate more than their literal sentences state. Kripke reshaped theories of naming, necessity, and possibility, while later figures carried analytic methods into mind, ethics, metaphysics, epistemology, and political philosophy.",
+                    "No list should imply a single line of succession. The useful map shows recurring disagreements: formal construction versus ordinary use, foundational analysis versus naturalism, and conceptual precision versus concern that philosophy has become too insulated from history and lived experience."
+                ],
+                "items": [
+                    "Frege and Russell: logic, analysis, and the structure of reference.",
+                    "Moore and Wittgenstein: ordinary judgment, language, and philosophy's tendency to manufacture confusion.",
+                    "Quine, Austin, and Grice: naturalism, speech acts, and communicated meaning.",
+                    "Kripke and later analysts: modality, naming, mind, ethics, and renewed metaphysics."
+                ],
+            },
+            "prompt-4": {
+                "heading": "A student learns that clarity begins by finding the exact disagreement",
+                "paragraphs": [
+                    "A useful beginner's dialogue starts with a familiar sentence: 'Everyone deserves freedom.' The analytic philosopher does not reject it or bury it in symbols. The first move is to ask which freedoms, from whose interference, under what conditions, and whether equal freedom can require restrictions on particular choices.",
+                    "The student may hear this as evasive hair-splitting. The reply is that ambiguity becomes dangerous when a stirring sentence supports incompatible policies. Clarification does not replace moral judgment; it reveals which judgment is actually being defended and which consequences come with it.",
+                    "The exchange should also show the method's limit. A perfectly clarified concept cannot decide by itself how much inequality, coercion, or risk a society should accept. Analysis clears the table and marks the choices, but evidence and values still have to do their own work.",
+                    "The student should leave with a reusable practice: restate the claim, identify the ambiguous term, produce a borderline case, and ask which evidence or value would settle the remaining dispute. That is analytic philosophy functioning as intellectual maintenance rather than verbal display."
+                ],
+                "items": [
+                    "State the claim in a form both sides recognize.",
+                    "Find the word carrying more than one possible meaning.",
+                    "Use a borderline case to test whether the proposed rule is too broad or too narrow.",
+                    "Name what clarification cannot settle without evidence or value judgment."
+                ],
+            },
+        },
+        "synthesis": {
+            "paragraphs": [
+                "Analytic philosophy matters when it turns disagreement into something people can inspect, test, and revise.",
+                "Its history is a sequence of internal corrections, not the execution of one permanent method.",
+                "The page succeeds if clarity appears as a public discipline of reasoning rather than as a taste for technical vocabulary."
+            ],
+            "items": [
+                "What exactly is the claim?",
+                "Which premise carries the most weight?",
+                "What counterexample would expose a bad definition?",
+                "Which part of the disagreement remains empirical or evaluative?"
+            ],
+        },
+    },
     "Phenomenologists": {
         "source_heading": "Read Phenomenology as a discipline of description, not a misty atmosphere.",
         "source_intro": "This dossier keeps Phenomenology tied to the stubborn idea that experience has a structure worth describing before theory, reduction, or explanation flatten it into something easier but less faithful.",
