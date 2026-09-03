@@ -1976,3 +1976,140 @@ CURRENT_BATCH_SPECIAL_PAGE_PROFILES = {
         },
     },
 }
+
+
+CURRENT_BATCH_SPECIAL_PAGE_PROFILES.update({
+    "At the Edge of Miracles": {
+        "source_heading": "Read At the Edge of Miracles as a stress test for extraordinary claims.",
+        "source_intro": "This dossier keeps the page centered on Hume's challenge: what kind of evidence would ever be strong enough to overcome our background confidence in the regularity of nature?",
+        "source_cards": {
+            "Original framing": "An editorial orientation page built to make Hume's miracle argument teachable as a live evidential problem rather than a slogan about skepticism.",
+            "Preserved texture": "The page preserves Hume's core motion: compare the credibility of the testimony with the credibility of a law-of-nature violation, and refuse to let wonder outrun evidence.",
+            "Historical setting": "The eighteenth-century world of religious testimony, limited forensic tools, slow communication, and growing confidence in regular natural explanation.",
+            "Primary texts nearby": "Hume's 'Of Miracles' in the Enquiry Concerning Human Understanding, together with later debates on testimony, Bayesian updating, and the evidential burden on miracle claims.",
+            "Ideas in view": "Prior probability, reliability of testimony, cumulative evidence, graded belief, and the difference between 'hard to explain' and 'genuinely miraculous.'",
+            "Influence trail": "Modern evidentialism, philosophy of religion, skepticism about testimony, and contemporary attempts to recast Hume's challenge in probabilistic terms.",
+        },
+        "source_read": "Read with one eye on Hume's caution and one eye on what later technology changes. The page works when the reader can say exactly what kind of evidence would move the needle, and why most reported miracles still do not.",
+        "sections": {
+            "prompt-1": {
+                "heading": "Hume's test compares a miracle with the fallibility of its witnesses",
+                "paragraphs": [
+                    "Hume's argument does not begin by declaring every miracle logically impossible. It begins with a comparison. On one side is an event that would violate or radically unsettle an exceptionally well-supported regularity of nature. On the other is the familiar possibility that testimony has been distorted by error, exaggeration, deception, social pressure, or misunderstanding.",
+                    "Ordinary experience gives us abundant evidence that witnesses can be mistaken and that stories become more dramatic as they travel. That background does not prove a particular report false, but it gives false testimony a substantial prior probability: a starting level of plausibility before the details of this case are considered. A miracle claim therefore carries an unusually heavy evidential burden.",
+                    "The decisive question is comparative: would it be more astonishing for the reported event not to have occurred, given the total quality and independence of the evidence, than for the event itself to have occurred? Hume expects the answer almost always to favor human fallibility. The word 'almost' matters, because the method is an evidential test rather than a verbal prohibition.",
+                    "A useful analogy is a scale with a very heavy weight already on the side of natural regularity. One witness does not move it much. Many genuinely independent measurements, risky predictions, and repeatable observations might. The issue is not how vividly the story is told, but how much independent evidential weight it can bear."
+                ],
+                "items": [
+                    "Prior probability: departures from stable natural regularities begin as extremely unlikely.",
+                    "Witness fallibility: error, embellishment, fraud, and social contagion are already well-attested phenomena.",
+                    "Independence: ten reports copied from one source do not count as ten separate lines of evidence.",
+                    "Comparative test: ask which would be more surprising—the event or the total failure of the evidence supporting it.",
+                    "Burden of proof: the more a claim conflicts with established regularity, the stronger and more varied its evidence must be."
+                ],
+            },
+            "prompt-2": {
+                "heading": "Evidence should move confidence by degrees, not flip belief like a switch",
+                "paragraphs": [
+                    "Even unusually strong evidence need not force a binary move from rejection to acceptance. Rational belief is better pictured as a graduated confidence level. New evidence can make a miracle claim less implausible without yet making 'a supernatural violation occurred' the best available explanation.",
+                    "Suppose several calibrated instruments record an apparently impossible event while independent observers document it from different locations. Confidence should move. But several live alternatives remain: unknown natural processes, a shared technical failure, coordinated manipulation, or a mistaken description of what the instruments measured. Each alternative must be compared rather than hidden inside a simple yes-or-no choice.",
+                    "This is where the curator's epistemic-gradient framing improves the discussion. Acceptance is not a magic threshold at which doubt becomes irrational. The responsible position may be: the report is now highly credible, the event is genuinely anomalous, and the supernatural interpretation is still only one candidate explanation.",
+                    "The practical lesson is calibration. A good inquirer can say exactly what the evidence changed—confidence in the report, confidence that current science lacks an explanation, or confidence in a supernatural cause—without pretending those are the same proposition."
+                ],
+                "items": [
+                    "Separate the occurrence of an anomaly from the explanation offered for it.",
+                    "Update confidence proportionally instead of demanding instant certainty or permanent disbelief.",
+                    "Keep unknown natural causes live when current theory is incomplete.",
+                    "Ask which competing explanation the evidence actually weakens.",
+                    "State the remaining uncertainty rather than burying it beneath the word 'acceptance.'"
+                ],
+            },
+            "prompt-3": {
+                "heading": "Three kinds of evidence that could genuinely move the epistemic needle",
+                "paragraphs": [
+                    "A global astronomical anomaly would matter if observatories, satellites, and ordinary observers recorded the same precisely timed event, especially if the event had been predicted beforehand in public and in enough detail to prevent later reinterpretation. The prediction would need to specify when, where, and what—not merely offer poetic language flexible enough to fit many outcomes.",
+                    "A cluster of medical recoveries would matter if diagnoses were independently confirmed, patients were monitored under controlled conditions, recoveries greatly exceeded known spontaneous-remission rates, and the result could be reproduced when clearly stated conditions were met. A moving story is not yet a controlled comparison; the evidential force comes from records, baselines, blinding where possible, and replication.",
+                    "A series of technologically verified predictions would matter if sealed or cryptographically timestamped claims repeatedly anticipated highly specific, improbable events without access to the relevant information. One spectacular success could be luck or fraud. A long sequence of risky successes, audited by hostile as well as friendly investigators, would make those replies increasingly strained.",
+                    "None of these scenarios mechanically proves a supernatural agent. They do something more disciplined: they raise the cost of ordinary error explanations through specificity, independence, repeatability, and public audit. That is what it means to move the epistemic needle rather than merely intensify wonder."
+                ],
+                "items": [
+                    "Global anomaly: simultaneous, instrumented observation across independent systems.",
+                    "Medical pattern: verified diagnoses, controlled baselines, and repeatable recoveries.",
+                    "Risky prediction: precise advance claims whose failure would be unmistakable.",
+                    "Hostile audit: investigators with different commitments should be able to inspect the same evidence.",
+                    "Explanatory restraint: stronger evidence for an event is not automatically stronger evidence for one theology."
+                ],
+            },
+            "prompt-4": {
+                "heading": "Hume's caution was reasonable, but modern tools change what can be tested",
+                "paragraphs": [
+                    "Hume wrote in a world without photography, electronic timestamps, global communications, modern clinical records, or instruments capable of coordinating observations across continents. Reports of marvels usually reached him through memory, reputation, print, and chains of testimony. Given those conditions, deep caution was not an eccentric pose; it was a rational response to weak verification and a culture rich in superstition and sectarian incentive.",
+                    "Modern tools do not make people honest, but they can make some errors easier to expose. Multiple sensors can preserve an event from different angles. Medical histories can establish what was known before a recovery. Public predictions can be registered before the outcome. Statistical methods can compare an apparent wonder with an expected baseline. These tools strengthen scrutiny precisely by reducing dependence on memory and prestige.",
+                    "Yet technology also manufactures new failure modes: synthetic video, coordinated misinformation, opaque software, contaminated data, and the illusion that a digital record is self-authenticating. Hume's central insight therefore survives. The relevant question is still whether the total evidence makes error, deception, or an unknown ordinary cause less credible than the extraordinary conclusion.",
+                    "The fairest verdict is historical and forward-looking. Hume's skepticism was justified by the evidence environment available to him, but it should not harden into a timeless refusal to update. Better tools can move confidence when they produce independent, transparent, and replicable evidence."
+                ],
+                "items": [
+                    "Then: reports depended heavily on testimony, reputation, and slow chains of transmission.",
+                    "Now: instruments and records can make observations more independent and auditable.",
+                    "New danger: digital evidence can be fabricated or generated at scale.",
+                    "Continuing standard: extraordinary claims still require evidence strong enough to defeat ordinary failure explanations.",
+                    "Open posture: skepticism should demand better evidence, not promise never to be persuaded."
+                ],
+            },
+        },
+    },
+    "Aquinas’ Five Ways": {
+        "sections": {
+            "prompt-1": {
+                "heading": "Aquinas' Five Ways are arguments from dependence, not five versions of one slogan",
+                "paragraphs": [
+                    "The First Way begins from change: whatever moves from potential to actual is actualized by something already actual, and Aquinas argues that an essentially ordered series of actualizers cannot explain itself. The Second begins from efficient causation: a thing cannot be the sustaining cause of its own existence in the relevant respect, so a hierarchical causal order requires a first cause that is not derivative in the same way.",
+                    "The Third Way begins from contingency. Things in ordinary experience can fail to exist. Aquinas argues that if everything were contingent in the same unrestricted way, there would be no sufficient source for why anything exists now; he therefore infers a necessary being. The Fourth moves from gradations such as better, truer, or nobler to a maximum and source, an argument that depends on a medieval metaphysics of participation and is especially difficult to translate into modern assumptions.",
+                    "The Fifth begins from purposive regularity in non-rational nature. Processes reliably reach characteristic ends without conscious deliberation, and Aquinas infers an ordering intelligence behind that directedness. This is not simply Paley's later watchmaker argument from biological complexity. It rests on a broader Aristotelian picture in which natural powers are genuinely directed toward outcomes.",
+                    "For rigor, each Way must be evaluated inside that metaphysical framework. Terms such as motion, cause, necessity, perfection, and end do not carry only their modern everyday meanings. The conclusion of each argument is also initially modest: some first actualizer, cause, necessary being, maximal source, or ordering intelligence. Further argument is needed to show that these converge and possess the attributes Aquinas assigns to God."
+                ],
+                "items": [
+                    "First Way: change points to a non-derivative actualizer.",
+                    "Second Way: essentially ordered efficient causes point to a first sustaining cause.",
+                    "Third Way: contingent beings point to a necessary source of existence.",
+                    "Fourth Way: degrees of perfection point to a maximum and cause within a participation metaphysics.",
+                    "Fifth Way: goal-directed natural regularities point to ordering intelligence.",
+                    "Shared limit: none of the five, by itself, establishes the full Christian doctrine of God."
+                ],
+            },
+            "prompt-2": {
+                "heading": "The strongest counterarguments challenge the premises and the inferred conclusion",
+                "paragraphs": [
+                    "Against the First and Second Ways, a critic can deny that every hierarchical explanatory series must terminate in a first member, or argue that the causal principles drawn from ordinary objects cannot simply be applied to reality as a whole. Even if a first actualizer or sustaining cause is required, the argument still must show why it is one, personal, intelligent, or divine rather than an impersonal feature of reality.",
+                    "Against the Third Way, critics often note that a collection of contingent things need not have a time at which nothing exists; contingent beings might overlap without a universal empty moment. A defender can reformulate the argument in terms of present dependence rather than an ancient temporal beginning, but then the dispute turns on whether contingent existence requires a necessary ground at all.",
+                    "The Fourth Way faces a severe bridge problem. Comparatives such as hotter and colder may imply a scale without implying a perfect maximum, and evaluative gradations do not obviously require a single being that causes every excellence. The inference becomes plausible only if Aquinas' doctrine of participation is already doing substantial work.",
+                    "Against the Fifth Way, evolutionary theory and the sciences explain much apparent purposiveness through selection, self-organization, and law-governed processes without assigning conscious aims to nature. Aquinas' defender may reply that these accounts still presuppose stable powers and directed regularities. That reply keeps the metaphysical question alive, but it also shows why empirical order alone does not straightforwardly identify an intelligent designer."
+                ],
+                "items": [
+                    "Regress objection: not every explanatory order is obviously the kind that requires a first member.",
+                    "Composition objection: a feature of each ordinary cause may not transfer to reality as a whole.",
+                    "Identification gap: a first cause is not yet the personal God of a religion.",
+                    "Contingency objection: endlessly overlapping contingent beings need not produce a moment of nothingness.",
+                    "Gradation objection: scales do not always entail a perfect maximum or a source of all value.",
+                    "Naturalistic objection: regularity and apparent purpose can have non-intentional explanations."
+                ],
+            },
+            "prompt-3": {
+                "heading": "A first cause is conceptually far from the specific God of the Bible",
+                "paragraphs": [
+                    "Suppose one or more of the Five Ways succeeds. The immediate result would be a metaphysical terminus: a first actualizer, sustaining cause, necessary being, maximal source, or ordering intelligence. That conclusion is closer to philosophical theism or deism than to the richly described God of scripture. It does not yet establish creation at a particular time, providential action, moral commands, revelation, miracles, incarnation, Trinity, judgment, or any covenantal history.",
+                    "Aquinas knows this and does not treat the Five Ways as the whole case. Later parts of the Summa argue from divine simplicity, actuality, causation, intellect, and goodness toward further attributes. Christian doctrines then require additional philosophical and revelatory premises. The chain matters because each new attribute introduces a new burden of argument; it cannot be smuggled backward into the phrase 'first cause.'",
+                    "The gulf can be seen through an analogy. Showing that a book must have some cause does not identify its author, disclose the author's character, or prove that every sentence is autobiographical. Likewise, inferring a necessary ground of being does not identify that ground with the biblical narrator or validate a particular religious institution's account of it.",
+                    "The curator's central caution is therefore sound: cosmological success, if granted, would move the epistemic needle toward some foundational reality, not deliver Christianity as a package. Bridging the gap requires independent arguments whose premises are exposed to the same scrutiny as the original Ways."
+                ],
+                "items": [
+                    "Metaphysical conclusion: some non-derivative ground or source exists.",
+                    "Attributes still needed: unity, intellect, goodness, agency, personality, and concern for human life.",
+                    "Religious claims still needed: revelation, miracles, scripture, incarnation, and doctrinal authority.",
+                    "No borrowed certainty: later premises cannot inherit more confidence than their own evidence earns.",
+                    "Best conclusion: the Five Ways begin a cumulative case; they do not finish one."
+                ],
+            },
+        },
+    },
+})

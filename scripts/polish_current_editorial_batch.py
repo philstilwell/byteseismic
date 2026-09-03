@@ -18,6 +18,7 @@ from build_archive import (
     current_batch_philosopher_paragraphs,
     philosopher_base_name,
     philosopher_page_is_collective,
+    philosopher_prompt_family,
     philosopher_profile_for_title,
     philosopher_source_work_fallback,
     prompt_focus,
@@ -61,6 +62,7 @@ TEXT_REPLACEMENTS = {
     "Create a hypothetical debate between two expert on emergence who have contrasting opinions on the concept.": "Create a hypothetical debate between two experts on emergence who have contrasting opinions on the concept.",
     "central test case and the central test case": "central test case and the neighboring case",
     "In the page's own terms, A good route is": "In the page's own terms, a good route is",
+    "Aquinas’ Five Ways's": "Aquinas’ Five Ways’",
 }
 
 HEADING_REPLACEMENTS = {
@@ -1981,6 +1983,18 @@ def polish_current_batch_philosopher_page(path: Path, original: str, page_title:
             continue
         prompt_text = strip_tags(prompt_note.get_text(" ", strip=True))
         prompt_text = re.sub(r"^Prompt\s+\d+\s*:\s*", "", prompt_text, flags=re.IGNORECASE)
+        family = philosopher_prompt_family(page, prompt_text)
+        clearer_heading = {
+            "influence": f"Why {page_title} still matters",
+            "contributions": f"The contributions that keep {page_title} in view",
+            "concepts": f"The ideas that make {page_title} more than a label",
+            "becoming": f"Why {page_title} became influential",
+            "inheritance": f"Where {page_title} left the deepest mark",
+            "objection": f"The hardest objection {page_title} still has to answer",
+            "entry": f"How to begin reading {page_title} today",
+        }.get(family)
+        if clearer_heading:
+            heading.string = clearer_heading
         paragraphs = current_batch_philosopher_paragraphs(page, prompt_text, None) or []
         example = current_batch_philosopher_example_paragraph(page, prompt_text)
         if example and example not in paragraphs:

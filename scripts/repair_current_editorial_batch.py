@@ -7,6 +7,8 @@ from pathlib import Path
 
 from bs4 import BeautifulSoup, NavigableString, Tag
 
+from current_batch_editorial_profiles import CURRENT_BATCH_SPECIAL_PAGE_PROFILES
+
 
 ROOT = Path(__file__).resolve().parents[1]
 TRACKER_PATH = ROOT / "quality" / "editorial-audit-tracker.json"
@@ -482,6 +484,12 @@ def section_prompt(section: Tag) -> str:
 
 def normalize_heading(text: str, page_title: str, prompt: str) -> str:
     text = " ".join(text.split())
+    special_headings = {
+        section.get("heading", "")
+        for section in CURRENT_BATCH_SPECIAL_PAGE_PROFILES.get(page_title, {}).get("sections", {}).values()
+    }
+    if text in special_headings:
+        return text
     custom = CUSTOM_SECTION_HEADINGS.get((page_title, prompt))
     if custom:
         return custom
