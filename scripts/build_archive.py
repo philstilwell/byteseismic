@@ -25952,7 +25952,14 @@ def main() -> None:
         target = ROOT / page["built_path"].strip("/") / "index.html"
         valid_targets.add(target)
         page["quality_tracked"] = write_if_allowed(target, render_article_page(page))
-        if not page["quality_tracked"]:
+        # This reviewed batch owns its questions, context, and teaching notes.
+        # Manual-page injectors otherwise replace that prose with generated
+        # scaffolding even though write_if_allowed correctly declines a rewrite.
+        preserve_editorial_batch = (
+            target.exists()
+            and "EDITORIALLY MAINTAINED: cycle 7 batch 100;" in target.read_text()
+        )
+        if not page["quality_tracked"] and not preserve_editorial_batch:
             inject_dialectical_turn_into_manual_page(target, page)
             inject_quiz_into_manual_page(target, page)
             inject_seo_into_manual_page(target, page)
