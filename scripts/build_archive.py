@@ -25957,7 +25957,7 @@ def main() -> None:
         # scaffolding even though write_if_allowed correctly declines a rewrite.
         preserve_editorial_batch = (
             target.exists()
-            and "EDITORIALLY MAINTAINED: cycle 7 batch 100;" in target.read_text()
+            and "EDITORIALLY MAINTAINED:" in target.read_text()
         )
         if not page["quality_tracked"] and not preserve_editorial_batch:
             inject_dialectical_turn_into_manual_page(target, page)
