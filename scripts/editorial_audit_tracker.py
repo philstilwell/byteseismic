@@ -446,6 +446,41 @@ def build_editorial_audit_tracker(
     }
 
 
+def restart_editorial_audit_tracker(tracker: dict) -> dict:
+    """Preserve prior history while starting a new editorial pass at queue zero."""
+    pages = list(tracker.get("pages", []))
+    if not pages:
+        raise ValueError("Cannot restart an empty editorial queue")
+    previous = dict(tracker.get("cursor", {}))
+    cycle = max(_safe_int(previous.get("cycle", 1), 1), 1) + 1
+    batch_size = _safe_int(tracker.get("batchSize", DEFAULT_BATCH_SIZE), DEFAULT_BATCH_SIZE)
+    today = date.today().isoformat()
+    tracker.setdefault("restarts", []).append({
+        "restartedAt": today,
+        "previousCycle": previous.get("cycle", 1),
+        "previousCompletedPageCount": previous.get("currentPageIndex", 0),
+        "newCycle": cycle,
+        "reason": "User requested a fresh original-structure-preserving revision pass with page-specific responses aligned to original prompts.",
+    })
+    batch = _batch_from_remaining(pages, set(), batch_size, cycle)
+    tracker["generatedAt"] = today
+    tracker["cursor"] = {
+        "cycle": cycle,
+        "currentPageIndex": 0,
+        "nextPagePath": pages[0]["pagePath"],
+        "nextPageTitle": pages[0]["pageTitle"],
+        "lastAdvancedAt": previous.get("lastAdvancedAt", ""),
+        "lastCompletedBatch": previous.get("lastCompletedBatch", {}),
+        "completedPagePathsInCurrentCycle": [],
+    }
+    tracker["summary"]["pagesRemainingInCurrentCycle"] = len(pages)
+    tracker["currentBatch"] = batch
+    tracker["upcomingBatches"] = _upcoming_batches_from_remaining(
+        pages, set(), {page["pagePath"] for page in batch["pages"]}, batch_size, cycle,
+    )
+    return tracker
+
+
 def advance_editorial_audit_tracker(tracker: dict, completed_at: str | None = None) -> dict:
     pages = list(tracker.get("pages", []))
     batch_size = _safe_int(tracker.get("batchSize", DEFAULT_BATCH_SIZE), DEFAULT_BATCH_SIZE)

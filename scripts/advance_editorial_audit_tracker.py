@@ -9,6 +9,7 @@ from editorial_audit_tracker import (
     TRACKER_JSON_NAME,
     TRACKER_MD_NAME,
     advance_editorial_audit_tracker,
+    restart_editorial_audit_tracker,
     render_editorial_audit_tracker_markdown,
 )
 
@@ -55,11 +56,21 @@ def main() -> None:
         action="store_true",
         help="Print the current tracker status without advancing.",
     )
+    parser.add_argument(
+        "--restart",
+        action="store_true",
+        help="Begin a fresh cycle from the first queued page without marking unfinished work complete.",
+    )
     args = parser.parse_args()
+    if args.restart and args.complete_current:
+        parser.error("--restart and --complete-current are mutually exclusive")
 
     tracker = load_tracker()
 
-    if args.complete_current:
+    if args.restart:
+        tracker = restart_editorial_audit_tracker(tracker)
+        write_tracker(tracker)
+    elif args.complete_current:
         tracker = advance_editorial_audit_tracker(tracker)
         write_tracker(tracker)
 
