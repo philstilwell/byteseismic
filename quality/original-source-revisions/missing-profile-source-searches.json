@@ -1,0 +1,176 @@
+[
+  {
+    "query": "Al-Ghazali",
+    "type": "any",
+    "statusCode": 200,
+    "found": 1,
+    "posts": [
+      {
+        "ID": 5584,
+        "title": "What is Religion?",
+        "URL": "http://byteseismic.com/2024/04/07/what-is-religion/",
+        "slug": "what-is-religion"
+      }
+    ]
+  },
+  {
+    "query": "Anselm",
+    "type": "any",
+    "statusCode": 200,
+    "found": 6,
+    "posts": [
+      {
+        "ID": 12900,
+        "title": "Dialoguing with Duns Scotus",
+        "URL": "http://byteseismic.com/2024/07/10/dialoguing-with-duns-scotus/",
+        "slug": "dialoguing-with-duns-scotus"
+      },
+      {
+        "ID": 12806,
+        "title": "Charting Duns Scotus",
+        "URL": "http://byteseismic.com/2024/07/07/charting-duns-scotus/",
+        "slug": "charting-duns-scotus"
+      },
+      {
+        "ID": 11149,
+        "title": "Charting Aquinas",
+        "URL": "http://byteseismic.com/2024/06/02/charting-aquinas/",
+        "slug": "charting-aquinas"
+      },
+      {
+        "ID": 9222,
+        "title": "Charting Descartes",
+        "URL": "http://byteseismic.com/2024/05/17/charting-descartes/",
+        "slug": "charting-descartes"
+      },
+      {
+        "ID": 9093,
+        "title": "Charting Plato",
+        "URL": "http://byteseismic.com/2024/05/16/charting-plato/",
+        "slug": "charting-plato"
+      },
+      {
+        "ID": 7977,
+        "title": "Scholastics",
+        "URL": "http://byteseismic.com/2024/05/04/scholastics/",
+        "slug": "scholastics"
+      }
+    ]
+  },
+  {
+    "query": "Schopenhauer",
+    "type": "any",
+    "statusCode": 200,
+    "found": 18,
+    "posts": [
+      {
+        "ID": 14749,
+        "title": "Charting William of Ockham",
+        "URL": "http://byteseismic.com/2024/11/01/charting-william-of-ockham/",
+        "slug": "charting-william-of-ockham"
+      },
+      {
+        "ID": 12664,
+        "title": "Charting William James",
+        "URL": "http://byteseismic.com/2024/07/04/charting-william-james/",
+        "slug": "charting-william-james"
+      },
+      {
+        "ID": 11583,
+        "title": "Charting Epictetus",
+        "URL": "http://byteseismic.com/2024/06/11/charting-epictetus/",
+        "slug": "charting-epictetus"
+      },
+      {
+        "ID": 10529,
+        "title": "The Principle of Sufficient Reason",
+        "URL": "http://byteseismic.com/2024/05/28/the-principle-of-sufficient-reason/",
+        "slug": "the-principle-of-sufficient-reason"
+      },
+      {
+        "ID": 10499,
+        "title": "Philosopher Club Membership",
+        "URL": "http://byteseismic.com/2024/05/28/philosopher-club-membership/",
+        "slug": "philosopher-club-membership"
+      },
+      {
+        "ID": 10475,
+        "title": "Charting Nietzsche",
+        "URL": "http://byteseismic.com/2024/05/27/charting-nietzsche/",
+        "slug": "charting-nietzsche"
+      },
+      {
+        "ID": 10203,
+        "title": "Charting Hegel",
+        "URL": "http://byteseismic.com/2024/05/26/charting-hegel/",
+        "slug": "charting-hegel"
+      },
+      {
+        "ID": 9847,
+        "title": "Charting Seneca",
+        "URL": "http://byteseismic.com/2024/05/23/charting-seneca/",
+        "slug": "charting-seneca"
+      },
+      {
+        "ID": 9732,
+        "title": "Charting Marcus Aurelius",
+        "URL": "http://byteseismic.com/2024/05/22/charting-marcus-aurelius/",
+        "slug": "charting-marcus-aurelius"
+      },
+      {
+        "ID": 9697,
+        "title": "Charting Hobbes",
+        "URL": "http://byteseismic.com/2024/05/22/charting-hobbes/",
+        "slug": "charting-hobbes"
+      },
+      {
+        "ID": 9497,
+        "title": "Charting Kant",
+        "URL": "http://byteseismic.com/2024/05/21/charting-kant/",
+        "slug": "charting-kant"
+      },
+      {
+        "ID": 9441,
+        "title": "Dialoguing with Kant",
+        "URL": "http://byteseismic.com/2024/05/20/dialoguing-with-kant/",
+        "slug": "dialoguing-with-kant"
+      },
+      {
+        "ID": 9401,
+        "title": "Charting Leibniz",
+        "URL": "http://byteseismic.com/2024/05/20/charting-leibniz/",
+        "slug": "charting-leibniz"
+      },
+      {
+        "ID": 9341,
+        "title": "Charting Spinoza",
+        "URL": "http://byteseismic.com/2024/05/19/charting-spinoza/",
+        "slug": "charting-spinoza"
+      },
+      {
+        "ID": 9188,
+        "title": "Charting Epicurus",
+        "URL": "http://byteseismic.com/2024/05/16/charting-epicurus/",
+        "slug": "charting-epicurus"
+      },
+      {
+        "ID": 9110,
+        "title": "Charting Aristotle",
+        "URL": "http://byteseismic.com/2024/05/16/charting-aristotle/",
+        "slug": "charting-aristotle"
+      },
+      {
+        "ID": 6646,
+        "title": "Friedrich Nietzsche",
+        "URL": "http://byteseismic.com/2024/04/19/friedrich-nietzsche/",
+        "slug": "friedrich-nietzsche"
+      },
+      {
+        "ID": 202,
+        "title": "Studying Philosophy: Resources",
+        "URL": "http://byteseismic.com/2024/02/09/studying-philosophy-resources/",
+        "slug": "studying-philosophy-resources"
+      }
+    ]
+  }
+]

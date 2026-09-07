@@ -1,0 +1,39 @@
+{
+  "pagesReviewed": 1,
+  "originalPrompts": 6,
+  "modelResponses": 12,
+  "originalNodesRetainedVerbatim": 98,
+  "originalNodesRevised": 31,
+  "dialogueNumberedLines": [
+    20,
+    20
+  ],
+  "originalDialogueTurnsPreserved": [
+    21,
+    13
+  ],
+  "addedGeminiTurns": 7,
+  "quizQuestionCounts": [
+    7,
+    7
+  ],
+  "quizAnswerCounts": [
+    7,
+    7
+  ],
+  "discussionQuestionCounts": [
+    12,
+    12
+  ],
+  "sha256": "304cfb69874c270844c162ab1db83d589577460a50fc5557c11927d5e1388a25",
+  "fullBuild": {
+    "exitCode": 0,
+    "contentPagesGenerated": 723,
+    "pagesAudited": 840,
+    "allReportedIssueCounts": 0,
+    "dialecticalPagesPassed": 39,
+    "highRiskCasesPassed": 17,
+    "reviewedPagePreservedByteForByte": true
+  },
+  "visualReview": "Desktop browser inspection passed: restored prompts, readable dialogue, visible model labels and numbering."
+}
