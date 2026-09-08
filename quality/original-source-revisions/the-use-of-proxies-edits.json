@@ -1,0 +1,152 @@
+{
+  "wordpressId": 4627,
+  "pageFile": "philosophy-of-science/the-use-of-proxies/index.html",
+  "snapshot": "the-use-of-proxies-wordpress-4627.html",
+  "sourceSha256": "1b84122203164d849a17d9ccc240a25f847b781a9bc065f6deeb7ac902f777d2",
+  "sourceUrl": "http://byteseismic.com/2024/03/27/the-use-of-proxies/",
+  "sourceLabel": "Original WordPress conversation, March 27, 2024",
+  "shellRevision": "f9136c4ff9d022c4ab1380a83c413381955de4d3",
+  "date": "2026-09-08",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "introHeading": "What a proxy measures—and what it does not establish",
+  "intro": "The questions move from indirect measurements to failed proxies, causal inference, and surprising legitimate examples. The six original prompts and separate responses are preserved below. Unsupported examples have been replaced with documented cases, and each inference is tied to the particular target and purpose.",
+  "description": "Examine seven uses of proxies, documented failures, causal inference, surprising valid examples, quizzes, and discussion questions.",
+  "headings": [
+    "Seven cases across different disciplines",
+    "Five documented failures or misuses in each response",
+    "When an inference is causal",
+    "Five surprising legitimate proxies in each response",
+    "Two ten-item quizzes and answers",
+    "Two sets of fifteen discussion questions"
+  ],
+  "replacements": {
+    "1.1.0": "<strong>Climate Over Geological Time Scales:</strong> There are no instrument records for much of Earth’s past. Dated ice, tree rings, and sediments preserve evidence from which particular climatic conditions can be inferred. Each archive covers a different timescale and responds to different influences: a tree ring may reflect moisture as well as temperature. Calibration connects the measured feature with the climatic quantity of interest.",
+    "1.1.2": "<strong>Dark Matter and Dark Energy:</strong> These names address different cosmological inferences. Motions and gravitational lensing help constrain unseen gravitating matter; observations of cosmic distances and expansion help constrain dark energy or alternatives to it. The inference depends on a model linking observations to the proposed phenomenon, not merely on something being invisible. <a href=\"https://science.nasa.gov/astrophysics/programs/physics-of-the-cosmos/expand-our-knowledge-of-dark-energy/\">NASA describes the competing interpretations of dark energy</a>.",
+    "1.1.6": "<strong>Human Cognition and Emotions:</strong> Researchers combine reports, behavior, and physiological signals to study mental processes. Functional magnetic resonance imaging (fMRI), for example, measures blood-oxygen-related changes rather than thoughts themselves. Heart rate and skin conductance can indicate arousal but do not uniquely identify a particular emotion. Multiple measures help distinguish an interpretation from its alternatives.",
+    "1.2.6": "<strong>Dark matter:</strong> Astronomers infer unseen gravitating matter from effects on visible objects and light. Such observations constrain the amount and distribution of mass under a gravitational model; they do not by themselves identify the underlying particle or establish that direct detection is impossible in principle.",
+    "2.1.0": "<strong>Tree-ring temperature divergence:</strong> <a href=\"https://www.nature.com/articles/35596\">Briffa and colleagues (1998)</a> reported reduced sensitivity of recent high-latitude tree growth to temperature. A relationship calibrated in an earlier interval could therefore misrepresent temperatures in the affected later interval. This is a specific calibration failure in some tree-ring records, not a finding that all tree-ring reconstructions or evidence for modern warming are invalid.",
+    "2.1.1": "<strong>Suppressed arrhythmias as a substitute for survival:</strong> The <a href=\"https://biolincc.nhlbi.nih.gov/studies/cast/\">Cardiac Arrhythmia Suppression Trial</a> tested drugs that reduced certain abnormal heartbeats after heart attacks. The encainide and flecainide arms were stopped in 1989 because mortality and nonfatal cardiac arrests increased. Improving the intermediate measurement did not deliver the hoped-for clinical benefit; other treatment effects mattered.",
+    "2.1.2": "<strong>Body mass index as a complete measure of excess body fat:</strong> <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC2877506/\">Romero-Corral and colleagues (2008)</a> compared body mass index (BMI) with estimated body-fat percentage in a large adult sample. The standard obesity cutoff missed many people classified as having excess fat by that comparison. BMI remains a useful screening measure in appropriate settings, but cannot alone specify body composition or an individual’s overall health.",
+    "2.1.3": "<strong>Raising HDL cholesterol as a guarantee of fewer vascular events:</strong> In <a href=\"https://www.nejm.org/doi/full/10.1056/NEJMoa1300955\">HPS2-THRIVE (2014)</a>, adding niacin–laropiprant to statin-based treatment changed lipid measurements, including raising high-density lipoprotein (HDL) cholesterol, but did not significantly reduce major vascular events and increased serious adverse events. The failed inference concerned benefit from this intervention, not whether every cholesterol measurement is informative.",
+    "2.1.4": "<strong>Irish GDP growth as a measure of residents’ improving circumstances:</strong> Ireland’s initially reported 2015 gross domestic product (GDP) growth of 26.3% was heavily affected by multinational balance-sheet relocations. The <a href=\"https://www.cso.ie/en/media/csoie/newsevents/documents/reportoftheeconomicstatisticsreviewgroup/Globalisation_at_work_in_statistics.pdf\">official statistical review</a> explains why this could not be read as an equivalent rise in domestic living standards. The limitation concerns the intended interpretation, even when national-accounting rules are correctly applied.",
+    "2.2.0": "<strong>Cardiac Arrhythmia Suppression Trial, 1989:</strong> Reduced abnormal heartbeats proved an inadequate substitute for improved survival under the tested drug treatments. Mortality increased despite suppression of the measured arrhythmias. This is a measurement-proxy failure; “proxy” in shareholder voting instead means an authorized representative and is a different use of the word. The <a href=\"https://biolincc.nhlbi.nih.gov/studies/cast/\">trial record</a> documents the outcome.",
+    "2.2.1": "<strong>Palm Beach butterfly ballot, 2000:</strong> Treating recorded candidate selections as a flawless indicator of intended choices failed where ballot design induced mistakes. <a href=\"https://www.jsekhon.com/papers/butterfly.pdf\">Wand and colleagues (2001)</a> used several comparisons to attribute an unusual Buchanan vote to the butterfly design. The issue was the link between intended choice and recorded mark, rather than a generic claim that all Florida voting machines malfunctioned.",
+    "2.2.2": "<strong>HPS2-THRIVE, 2014:</strong> A favorable change in a risk marker need not show that a treatment improves the outcome that matters. Niacin–laropiprant raised HDL cholesterol without significantly reducing major vascular events in the trial population and increased serious adverse events. The <a href=\"https://www.nejm.org/doi/full/10.1056/NEJMoa1300955\">randomized trial</a> tested the inference directly.",
+    "2.2.3": "<strong>Ireland’s 2015 GDP figures:</strong> Multinational activity produced a large rise in measured output that could mislead when used as a stand-in for residents’ income or wellbeing. Ireland developed supplementary measures, including modified gross national income, to address disproportionate globalization effects. The <a href=\"https://www-cloud.cso.ie/en/releasesandpublications/ep/p-mip/mip2016/app/\">Central Statistics Office explains the adjustment</a>.",
+    "2.2.4": "<strong>TGN1412 trial, 2006:</strong> Preclinical testing failed to predict the severe inflammatory response experienced by six volunteers who received the antibody in its first human trial. The <a href=\"https://www.nejm.org/doi/full/10.1056/NEJMoa063842\">clinical report</a> documents the reaction. This illustrates failure to transfer a safety inference across biological and testing conditions; it does not imply that all animal evidence is useless.",
+    "2.2.5": "These cases identify a target, the substitute used, and evidence that a particular inference failed. A measure may be valid for one purpose and improper for another; calling it a proxy is the beginning of that assessment, not the conclusion.",
+    "3.1.0": "First distinguish three questions: Does the proxy help estimate the target? Does it predict the target? Would intervening on the proxy change the target? The third needs a causal argument that the first two do not supply. Often the target causes the proxy: smoke can be evidence of fire even though producing smoke will not necessarily start a fire. The following checks keep the direction of inference clear.",
+    "3.1.1": "<strong>Specify the causal account:</strong> State why the proxy should carry information about the target. The target might cause the signal, the signal might help cause the target, or a third factor might influence both. Each arrangement supports different inferences.",
+    "3.1.2": "<strong>Check consistency and transport:</strong> Compare the relationship across independent datasets and the populations where it will be used. Repeated results help, but shared instruments or shared biases can reproduce the same mistake. A calibration in one setting need not transfer to another.",
+    "3.1.3": "<strong>Put events in the right temporal order:</strong> A cause must precede its effect, but a measurement proxy need not precede what it measures. An ancient climate affected a tree before a researcher measured its rings. The original causal process and today’s inference run in opposite directions.",
+    "3.1.4": "<strong>Investigate alternative explanations:</strong> Ask whether another factor produces both the proxy and the target, or changes the proxy alone. Adjustments require a defensible causal account; indiscriminately controlling every available variable can introduce bias instead of removing it.",
+    "3.1.5": "<strong>Interpret Granger tests as predictive tests:</strong> These ask whether earlier values of one series improve prediction of another beyond the history already included in the model. The result depends on the variables, timing, and model. It does not by itself exclude common causes or identify an intervention’s effect.",
+    "3.1.6": "<strong>Use instrumental variables only with their assumptions:</strong> An instrument must affect the exposure being studied, have no relevant common causes with the outcome, and influence the outcome only through that exposure. Correlation with a convenient proxy is not enough. <a href=\"https://miguelhernan.org/whatifbook\">Hernán and Robins’ causal-inference text</a> explains this design and its limits.",
+    "3.1.7": "<strong>Define the counterfactual comparison:</strong> Specify the intervention and the outcome it would change. Changing a thermometer’s display differs from changing the room’s temperature. Difference-in-differences or synthetic controls can help construct comparisons, but only under assumptions about how the comparison and treated settings would otherwise behave.",
+    "3.1.8": "<strong>Separate a mediator from a marker:</strong> A mediator lies on a causal pathway; a marker may merely accompany it. Even a mediator can fail as a substitute for the final outcome if treatment also operates through other pathways. The arrhythmia trial shows why the final outcome needs attention.",
+    "3.1.9": "<strong>Test the relevant intervention:</strong> A well-designed experiment can assess whether a treatment changes the target. If it measures only a proxy, an improvement in that measure still needs validation against the target. Otherwise an intervention can improve the score while worsening what the score was meant to represent.",
+    "3.1.10": "<strong>Expose the inference to scrutiny:</strong> Publish the calibration, assumptions, uncertainty, and checks against alternative explanations. Peer review can identify weaknesses, but approval or consensus does not substitute for a sound design and evidence.",
+    "3.1.11": "A legitimate inference therefore depends on its purpose. Reliable measurement may use an effect to infer its cause; predicting a future outcome may use a correlated signal. Claiming that an intervention will improve the target requires evidence about that intervention and the relevant causal pathways.",
+    "3.2.0": "Begin by asking whether “from proxy to target” means inferring an unobserved condition or claiming that changing the proxy will cause a change. A smoke alarm helps infer a fire; pressing its test button does not create one. The following factors should be evaluated for the particular inference intended.",
+    "3.2.1": "<strong>Strength and stability of association:</strong> Assess predictive accuracy, uncertainty, and performance in new data. A strong association is useful evidence for prediction, but can still arise from a common cause or a measurement artifact.",
+    "3.2.2": "<strong>Temporal relationship:</strong> Identify which event is proposed as cause and which as effect. A useful proxy can be observed after its target. A leading indicator, meanwhile, can predict an outcome without causing it.",
+    "3.2.5": "<strong>Mechanistic understanding:</strong> Explain why the proxy carries information, including whether it is an effect, a cause, or a correlated marker. Ask what could change that relationship when the population, instrument, or intervention changes.",
+    "3.2.6": "Consider SAT scores and later college performance. The example is useful precisely because predicting performance is different from causing it:",
+    "3.2.7": "<strong>Association:</strong> Evaluate how well scores predict a defined outcome, such as first-year grades, including what they add beyond other available information. Prediction should be checked on students outside the data used to fit the model.",
+    "3.2.8": "<strong>Timing:</strong> A test score recorded before college can serve as a predictor. Its earlier date does not show that raising the recorded number would improve learning.",
+    "3.2.10": "<strong>Validity:</strong> “College success” might mean grades, completion, learning, or wellbeing. Performance against one target does not establish validity for all of them. Fairness and predictive accuracy also require distinct evaluations.",
+    "3.2.11": "<strong>Mechanism:</strong> Learning material, coaching test technique, and altering a recorded score could raise the same metric through different routes. They need not have the same effects on later study. A score can influence an admissions decision without being the cause of the underlying ability it is used to estimate.",
+    "3.2.12": "The responsible conclusion is conditional: evidence may justify using a score as one predictor in a specified population, without establishing that changing the score changes ability or that it should determine admissions alone. Decisions need explicit aims as well as an assessment of the evidence.",
+    "4.1.0": "<strong>Satellite gravity changes for groundwater storage:</strong> The Gravity Recovery and Climate Experiment (GRACE) measures variations in Earth’s gravity field caused by changes in mass. Researchers estimate groundwater changes after accounting for other water stores. NASA’s <a href=\"https://www.jpl.nasa.gov/news/satellites-unlock-secret-to-northern-indias-vanishing-water/\">northwestern India study</a> illustrates the method. The satellites do not see through rock; the inference uses gravity, water accounting, and regional-scale data.",
+    "4.1.1": "<strong>Nighttime lights for economic activity:</strong> <a href=\"https://pubs.aeaweb.org/doi/10.1257/aer.102.2.994\">Henderson, Storeygard, and Weil (2012)</a> used satellite observations to supplement income-growth measures. The useful connection is between activity, electrification, and illumination. Lighting practices, outages, and sensor limits can alter it, so brightness is not a direct reading of prosperity.",
+    "4.1.2": "<strong>Wastewater residues for community drug consumption:</strong> Metabolites and drug residues in sewage can inform estimates of aggregate use after adjustments for flow, population, and excretion. This avoids some self-report problems but introduces sampling and chemical uncertainties. It does not identify individual users. The <a href=\"https://www.euda.europa.eu/topics/wastewater_en\">European Union Drugs Agency documents the method</a>.",
+    "4.1.3": "<strong>Tree rings for historical earthquakes:</strong> Abrupt growth changes or synchronized deaths can help date earthquakes when combined with geological evidence of shaking or coastal subsidence. Rings alone cannot distinguish an earthquake from every other cause of tree stress. The <a href=\"https://pubs.usgs.gov/fs/2003/fs017-03/eqdetect.html\">US Geological Survey’s Cascadia account</a> shows how tree and geological evidence work together.",
+    "4.1.4": "<strong>Ambulance calls for unusual illness activity:</strong> The <a href=\"https://www.gov.uk/government/collections/syndromic-surveillance-systems-and-analyses\">UK Health Security Agency monitors ambulance-call patterns</a> as part of syndromic surveillance. An unusual rise in respiratory calls can prompt investigation, but cannot by itself identify influenza: other illnesses, weather, and access to care may affect calls. The proxy supports detection of an unusual pattern, followed by more specific evidence.",
+    "4.2.0": "<strong>Changes in satellite spacing for hidden water:</strong> Tiny changes in the distance between GRACE satellites reveal gravity variations, which can be used to estimate changes in regional water mass. Isolating groundwater requires accounting for surface water, snow, and soil moisture. <a href=\"https://science.nasa.gov/earth/earth-observatory/the-gravity-of-water/\">NASA explains the measurement chain</a>. This is an indirect physical measurement, not an unexplained correlation.",
+    "4.2.1": "<strong>Light seen from orbit for economic growth:</strong> Satellite night lights can supplement incomplete economic statistics. The <a href=\"https://pubs.aeaweb.org/doi/10.1257/aer.102.2.994\">2012 study by Henderson and colleagues</a> estimates the relationship instead of assuming a universal brightness-to-income conversion. Changes in electricity supply and lighting efficiency are reasons to recalibrate.",
+    "4.2.2": "<strong>Sewage chemistry for population-level drug trends:</strong> Measuring residues from excretion can track aggregate changes that surveys miss. The inference requires chemical stability, flow estimates, and a defensible estimate of the contributing population. The <a href=\"https://www.gov.uk/government/publications/wastewater-analysis-estimating-drug-consumption/wastewater-analysis-estimating-drug-consumption\">UK government’s methodological account</a> describes why the measure belongs alongside other evidence.",
+    "4.2.3": "<strong>Dead coastal trees for an old earthquake:</strong> Dating the final growth of trees, then combining it with evidence of sudden subsidence and tsunami deposits, can constrain when a major earthquake occurred. The <a href=\"https://pubs.usgs.gov/fs/2003/fs017-03/eqdetect.html\">Cascadia investigation</a> demonstrates the method. The causal sequence from ground movement to inundation to tree death supplies more than a coincidental pairing of dates.",
+    "4.2.4": "<strong>Fossil pollen for past vegetation and climate:</strong> Pollen preserved in dated sediments identifies plants that once grew nearby. Their environmental requirements help constrain past conditions. Transport, differential preservation, and land-use changes complicate the inference; <a href=\"https://www.ncei.noaa.gov/products/paleoclimatology/pollen\">NOAA’s pollen archive</a> explains the underlying evidence. It is a legitimate proxy with stated limits, not a guaranteed climate reading from one grain.",
+    "5.1.3": "What did the Cardiac Arrhythmia Suppression Trial reveal about reducing abnormal heartbeats as a substitute for improved survival?",
+    "5.1.4": "Why can BMI fail as a complete measure of body composition while remaining useful for screening?",
+    "5.1.5": "Why did the HPS2-THRIVE result challenge the use of a favorable HDL change as sufficient evidence of treatment benefit?",
+    "5.1.9": "What can an unusual rise in respiratory ambulance calls indicate, and what can it not establish alone?",
+    "5.1.10": "What is the tree-ring divergence problem, and why does it require care when transferring a calibration?",
+    "5.1.14": "The tested drugs suppressed arrhythmias but increased mortality and nonfatal cardiac arrests, so improvement in the intermediate measure did not establish clinical benefit.",
+    "5.1.15": "BMI does not directly separate fat from lean tissue and can miss excess body fat; its validity depends on the purpose and population.",
+    "5.1.16": "The intervention improved some lipid measures, including raising HDL cholesterol, without significantly reducing major vascular events and with increased serious adverse events.",
+    "5.1.20": "It can indicate unusual respiratory illness activity requiring investigation; it cannot alone identify influenza as the cause.",
+    "5.1.21": "Some high-latitude tree-growth records became less sensitive to recent temperature changes. A relationship fitted to one period may therefore fail in another.",
+    "5.2.3": "Which inference exceeds the evidence supplied by the proxy alone? a) Calibrated tree-ring data can inform a past-climate estimate b) Physiological signals can contribute to a study of cognition c) A rise in GDP proves every resident is better off d) Orbital motions can provide evidence of unseen mass",
+    "5.2.4": "What did the arrhythmia trial reveal? a) All drugs have identical effects b) Heartbeat records contain no information c) Improving an intermediate marker can accompany worse survival d) Clinical outcomes never need measurement",
+    "5.2.5": "Which is NOT a general requirement for a valid measurement proxy? a) Evidence linking it to the target b) The proxy must cause the target c) Examination of alternative explanations d) Calibration for the intended use",
+    "5.2.6": "Ice cream sales and shark attacks rise during beach season in a hypothetical dataset. What should a researcher investigate before claiming causation? a) Whether eating ice cream is popular b) Whether warm weather and more swimmers explain both changes c) Whether the correlation sounds surprising d) Whether either variable has a memorable name",
+    "5.2.8": "Why can wastewater measurements help estimate community drug consumption? a) They identify each user b) Sewage flow never changes c) Every residue has the same excretion rate d) Excreted residues provide an aggregate signal that can be adjusted and checked",
+    "5.2.9": "What connects GRACE satellite measurements to groundwater estimates? a) Photographs reveal individual underground wells b) Water-mass changes affect gravity, with other water stores accounted for c) Groundwater emits visible light d) Satellite speed measures drinking-water quality",
+    "5.2.10": "What makes fossil pollen a useful but limited climate proxy? a) Every plant grows in the same climate b) One grain identifies an exact temperature c) Plant types constrain past environments, but transport and preservation matter d) Pollen records replace the need for dating",
+    "5.2.11": "Why can a proxy work for prediction without supporting a causal intervention? a) Prediction requires no evidence b) The signal may be an effect or correlated marker rather than a cause of the target c) Any correlation proves causation d) Earlier events cannot be causes",
+    "5.2.14": "(c)",
+    "5.2.16": "(b)",
+    "5.2.17": "(b)",
+    "5.2.21": "(c)",
+    "6.1.2": "In the arrhythmia trial, why was reducing abnormal heartbeats insufficient evidence of improved survival? What additional causal pathways should researchers consider?",
+    "6.1.4": "How does the HDL trial distinguish a risk marker from a validated substitute for a treatment’s effect on clinical outcomes?",
+    "6.1.8": "How could unusual ambulance-call patterns help public health teams investigate an outbreak? What additional evidence would be needed to identify its cause?",
+    "6.1.9": "How does reduced temperature sensitivity in some tree-ring records affect calibration? Why does that limitation not automatically invalidate all other climate evidence?",
+    "6.2.5": "How could incentives encourage people to improve a measured indicator without improving its intended target? What checks could reveal this kind of manipulation?",
+    "6.2.8": "Why do the documented satellite, wastewater, and tree-ring examples provide stronger grounds for inference than an entertaining correlation alone? What evidence could still undermine each?",
+    "5.2.2": "Which reason for using proxies motivates the opening question? a) Proxies are always more accurate than direct measurements b) Some target phenomena cannot be directly observed or measured c) Indirect measurements never require equipment d) Proxies eliminate the need for interpretation"
+  },
+  "countChecks": [
+    {
+      "name": "crossDisciplineExamples",
+      "selector": "#prompt-1 ol",
+      "child": "li",
+      "expected": [
+        7,
+        7
+      ]
+    },
+    {
+      "name": "failureCases",
+      "selector": "#prompt-2 ol",
+      "child": "li",
+      "expected": [
+        5,
+        5
+      ]
+    },
+    {
+      "name": "legitimateExamples",
+      "selector": "#prompt-4 ol",
+      "child": "li",
+      "expected": [
+        5,
+        5
+      ]
+    },
+    {
+      "name": "quizQuestionAndAnswerCounts",
+      "selector": "#prompt-5 ol",
+      "child": "li",
+      "expected": [
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "discussionQuestionCounts",
+      "selector": "#prompt-6 ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "pagePath": "/philosophy-of-science/the-use-of-proxies/",
+  "sourceSha256": "1b84122203164d849a17d9ccc240a25f847b781a9bc065f6deeb7ac902f777d2",
+  "originalPrompts": 6,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 61,
+  "blocksExplicitlyRevised": 76,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "formatChecks": {
+    "crossDisciplineExamples": [
+      7,
+      7
+    ],
+    "failureCases": [
+      5,
+      5
+    ],
+    "legitimateExamples": [
+      5,
+      5
+    ],
+    "quizQuestionAndAnswerCounts": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "discussionQuestionCounts": [
+      15,
+      15
+    ]
+  },
+  "sha256": "abfcf343db8d8d4395fd78a9a544175ce6bea70b326640ada299804309cdcf4f"
+}

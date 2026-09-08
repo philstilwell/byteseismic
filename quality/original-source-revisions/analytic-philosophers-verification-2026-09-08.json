@@ -1,0 +1,32 @@
+{
+  "pagePath": "/philosophers/analytic-philosophers/",
+  "sourceSha256": "8a98d4490811f3756ea798672e53a2c1fac23d9dc8af334c2bb3ff1cece2beea",
+  "originalPrompts": 6,
+  "modelResponses": 18,
+  "blocksRetainedVerbatim": 167,
+  "blocksExplicitlyRevised": 78,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "formatChecks": {
+    "dialogueTurnCounts": [
+      20,
+      20,
+      20
+    ],
+    "quizQuestionAndAnswerCounts": [
+      7,
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "discussionQuestionCounts": [
+      12,
+      12,
+      12
+    ]
+  },
+  "sha256": "914016b7bc0cf54bd44b93e05ad8aafb1978aec185f01bd3e216278736ce211b"
+}

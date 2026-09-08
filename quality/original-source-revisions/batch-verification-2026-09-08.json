@@ -1,0 +1,107 @@
+{
+  "verifiedAt": "2026-09-08T09:33:42.296779-04:00",
+  "isolatedFullBuilderPassed": true,
+  "generatedContentPages": 723,
+  "siteAuditSummary": {
+    "pages_scanned": 840,
+    "broken_links": 0,
+    "duplicate_ids": 0,
+    "repeated_headings": 9,
+    "prompt_number_issues": 0,
+    "orphan_pages": 0,
+    "oversized_assets": 0,
+    "style_scars": 0,
+    "grammar_scars": 0,
+    "seo_issues": 0,
+    "duplicate_titles": 0,
+    "duplicate_descriptions": 0,
+    "json_ld_issues": 0,
+    "sitemap_issues": 0,
+    "robots_issues": 0
+  },
+  "expectedRepeatedHeadingNotices": [
+    {
+      "page": "/philosophers/analytic-philosophers/",
+      "heading": "ChatGPT response · editorial edition"
+    },
+    {
+      "page": "/philosophers/analytic-philosophers/",
+      "heading": "Gemini response · editorial edition"
+    },
+    {
+      "page": "/philosophers/analytic-philosophers/",
+      "heading": "Claude response · editorial edition"
+    },
+    {
+      "page": "/philosophers/empiricists/",
+      "heading": "ChatGPT response · revised"
+    },
+    {
+      "page": "/philosophers/empiricists/",
+      "heading": "Gemini response · revised"
+    },
+    {
+      "page": "/philosophy-of-mind/what-is-consciousness/",
+      "heading": "ChatGPT response · editorial edition"
+    },
+    {
+      "page": "/philosophy-of-mind/what-is-consciousness/",
+      "heading": "Gemini response · editorial edition"
+    },
+    {
+      "page": "/philosophy-of-science/the-use-of-proxies/",
+      "heading": "ChatGPT response · editorial edition"
+    },
+    {
+      "page": "/philosophy-of-science/the-use-of-proxies/",
+      "heading": "Gemini response · editorial edition"
+    }
+  ],
+  "dialecticalPreservation": {
+    "recoveredPages": 39,
+    "highRiskCases": 17,
+    "passed": true
+  },
+  "allReviewedPagesPreservedByteForByte": true,
+  "reviewedPageSha256": {
+    "philosophers/empiricists/index.html": "304cfb69874c270844c162ab1db83d589577460a50fc5557c11927d5e1388a25",
+    "philosophy-of-mind/what-is-consciousness/index.html": "82cca6b9dd3b871625aea753b73a7012b173185097a5a5f95a8726de50ac49be",
+    "philosophers/analytic-philosophers/index.html": "914016b7bc0cf54bd44b93e05ad8aafb1978aec185f01bd3e216278736ce211b",
+    "philosophy-of-science/the-use-of-proxies/index.html": "abfcf343db8d8d4395fd78a9a544175ce6bea70b326640ada299804309cdcf4f"
+  },
+  "trackerFilesUnchanged": true,
+  "trackerSha256": {
+    "quality/editorial-audit-tracker.json": "23fd14c04a2361a3ce0c8ef6d85ddeb01a447186cb090c80f0c1df2fc06a163e",
+    "quality/editorial-audit-tracker.md": "8003448d63c7491b9037f1193aece80174533832f31ff59f090baaeecb42fcbf"
+  },
+  "unrelatedInheritedFilesUnchanged": 490,
+  "authorizedInheritedPageSuperseded": {
+    "page": "philosophers/analytic-philosophers/index.html",
+    "runStartSha256": "6625c050ed3a63a06ca11ee54e5de418b7f5d94045f770aad3d603a122f58c40",
+    "exactRunStartBackupArchive": "/Users/philstilwell/Documents/byteseismic-audit-backup-20260904-XnZFhk/changed-files.tar.gz"
+  },
+  "dialoguePreservation": {
+    "originalStudentTurnsVerbatim": 24,
+    "originalDialogueTurnCounts": [
+      20,
+      14,
+      14
+    ],
+    "finalDialogueTurnCounts": [
+      20,
+      20,
+      20
+    ]
+  },
+  "browserReview": {
+    "pages": [
+      "what-is-consciousness",
+      "analytic-philosophers",
+      "the-use-of-proxies"
+    ],
+    "result": "Desktop inspection passed for restored content, readable labels, dialogue numbering and citations; consciousness group numbering corrected and visually rechecked.",
+    "temporaryTabClosed": true,
+    "temporaryServerStopped": true
+  },
+  "buildLog": "Dialectical preservation check passed for all 39 recovered pages, including 17 high-risk regression cases.\nSite audit: pages=840 broken_links=0 duplicate_ids=0 prompt_number_issues=0 orphans=0 oversized_assets=0 style_scars=0 grammar_scars=0 seo_issues=0 json_ld_issues=0 sitemap_issues=0 robots_issues=0\nGenerated or updated 723 content pages.\nVisible hierarchy sections: 15\nExpanded archive years: 2\n"
+}

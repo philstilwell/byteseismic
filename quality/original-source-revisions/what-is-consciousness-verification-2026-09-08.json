@@ -1,0 +1,24 @@
+{
+  "pagePath": "/philosophy-of-mind/what-is-consciousness/",
+  "sourceSha256": "de62b4644be3bc9e4f80aaf68ed53e247f859cf7a616089740d569ad04479aa2",
+  "originalPrompts": 8,
+  "modelResponses": 16,
+  "blocksRetainedVerbatim": 124,
+  "blocksExplicitlyRevised": 100,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "formatChecks": {
+    "quizQuestionAndAnswerCounts": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "discussionQuestionCounts": [
+      15,
+      15
+    ]
+  },
+  "sha256": "82cca6b9dd3b871625aea753b73a7012b173185097a5a5f95a8726de50ac49be"
+}
