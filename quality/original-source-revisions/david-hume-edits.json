@@ -1,0 +1,145 @@
+{
+  "wordpressId": 5756,
+  "pageFile": "philosophers/david-hume/index.html",
+  "snapshot": "david-hume-wordpress-5756.html",
+  "sourceSha256": "024ee864ea8369075744368ee192866792efa27581d89298eeed8335b80bb11b",
+  "sourceUrl": "http://byteseismic.com/2024/04/08/david-hume/",
+  "sourceLabel": "Original WordPress conversation, 2024-04-08",
+  "shellRevision": "13edb924868bb7fe2df200e9aef2aaae5848c0a1",
+  "date": "2026-09-09",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "replacements": {
+    "1.1.0": "David Hume, an eighteenth-century Scottish philosopher, reshaped debates about experience, belief, and the limits of reason. He traced ideas to impressions, including feelings as well as sensations, while distinguishing truths about relations of ideas from claims about matters of fact. His analysis of causation asked what justifies moving from observed regularities to unobserved cases; habit explains our expectations without supplying a demonstrative guarantee. His work on personal identity, moral sentiment, religion, and political convention challenged later thinkers, notably Kant, and remains central to discussions of how human beings can reason responsibly without claiming certainty beyond their evidence.",
+    "1.2.0": "Hume made empiricism more searching by asking how experience can support beliefs that extend beyond what we have observed. His challenge to induction, his account of the self as a succession of perceptions, and his emphasis on moral sentiment changed the questions later philosophers had to answer. He did not dismiss reasoning or mathematics: his distinction between relations of ideas and matters of fact explains why their kinds of justification differ. Kant’s response and continuing debates about causation, ethics, and religion show how productive that challenge became.",
+    "2.1.0": "<strong>Empiricism:</strong> Hume examines the experiential origins of ideas, including impressions of sensation and reflection. This is not the claim that every truth must be observed: <a href=\"https://davidhume.org/texts/e/4\">Enquiry IV</a> distinguishes relations of ideas, such as arithmetic, from matters of fact. The distinction prevents experience-based inquiry from being confused with rejection of reason.",
+    "2.1.1": "<strong>Theory of causation:</strong> Observing one billiard ball strike another does not reveal a necessary connection that guarantees every future outcome. Hume explains causal expectation through experienced regularity and habit. His challenge concerns the justification of the inference, not a recommendation to abandon causal investigation; <a href=\"https://davidhume.org/texts/e/5\">Enquiry V</a> explains custom’s practical role.",
+    "2.1.2": "<strong>Personal identity:</strong> Looking inward, Hume finds particular perceptions rather than an additional unchanging self. His <a href=\"https://davidhume.org/texts/t/1/4/6\">account of personal identity</a> asks how memory and associations generate experienced continuity. The challenge does not amount to denying that people have biographies or practical identities, and Hume later acknowledged difficulties in his account of mental unity.",
+    "2.1.3": "<strong>Naturalistic moral psychology:</strong> Hume explains moral approval and disapproval through human sentiments, including sympathy. Reason informs us about actions and consequences, but does not by itself supply every motive or evaluative response. This influenced later sentimentalism and emotivism without making Hume’s own position identical to either modern moral realism or a simple “anything I feel is right” view.",
+    "2.1.4": "<strong>Religious skepticism:</strong> Hume asks how testimony for miracles should be weighed against experience and how far an analogy from human artifacts can support conclusions about a cosmic designer. <a href=\"https://davidhume.org/texts/e/10\">Enquiry X</a> concerns the credibility of miracle reports, not simply a definition that rules every extraordinary event impossible. His arguments remain contested and influential.",
+    "2.1.5": "<strong>Political philosophy:</strong> Hume investigates how conventions and common interests sustain justice and government. In <a href=\"https://davidhume.org/texts/empl2/oc\">Of the Original Contract</a>, he challenges the idea that actual political allegiance generally arises from genuine consent. A convention can emerge through coordinated expectations without a founding promise; this is a distinctive alternative to contract-based explanations.",
+    "2.1.6": "<strong>Influence on Kant and later philosophy:</strong> Hume’s challenge to necessary causal knowledge helped prompt Kant’s critical inquiry into the conditions of experience. The influence is an argument that another thinker had to answer, rather than simple agreement or a single explanation of every later movement. It illustrates how a philosophical problem can be a lasting contribution even when proposed solutions differ.",
+    "2.2.1": "<strong>Empiricism and Hume’s fork:</strong> Hume traces ideas to impressions, including inward feeling, and distinguishes relations of ideas from matters of fact. Arithmetic can be demonstrated without checking each case in the world; a claim that a particular object exists cannot be established in the same way. The distinction matters more than the misleading slogan that all knowledge comes only from the senses.",
+    "2.2.2": "<strong>The problem of induction:</strong> Past regularity does not logically entail future regularity. Appealing to induction’s past success already uses the kind of inference whose justification is at issue. That circularity, not merely the admission that certainty is unavailable, gives the problem its force. It remains compatible with studying why some empirical inferences are better than others.",
+    "2.2.3": "<strong>Skepticism about mental substance:</strong> Hume questions what experience could establish about an underlying mental substance. The absence of an impression of such a substance challenges confident accounts of both material and immaterial minds. This is an inquiry into what can be justified, not an experimental demonstration of a particular mind–body theory.",
+    "2.2.4": "<strong>The bundle account of the self:</strong> Hume finds a changing collection of perceptions rather than a separately perceived, unchanging owner. Memory and relations among perceptions help explain why we attribute identity across time. The account leaves a serious question about what unifies the collection, a difficulty Hume himself recognized.",
+    "2.2.6": "<strong>The is–ought problem:</strong> In <a href=\"https://davidhume.org/texts/t/3/1/1\">Treatise III.1.1</a>, Hume challenges an unexplained shift from descriptive premises to an “ought.” For example, that a practice is customary does not alone show that it should continue; an evaluative premise needs to be supplied. The point demands an account of that transition rather than a ban on facts informing practical judgment.",
+    "3.1.0": "Several factors plausibly contributed to Hume’s reputation. These are historical explanations to assess, not measured causal shares or proof that intellectual talent guarantees recognition.",
+    "3.1.2": "<strong>Empirical approach:</strong> Hume developed questions already raised by Locke and Berkeley rather than introducing experience-based philosophy into an entirely rationalist world. His distinctive contribution was to press that approach into problems about causation, selfhood, and moral judgment that its earlier formulations had not settled.",
+    "3.1.3": "<strong>Writing and readership:</strong> Hume’s essays and later enquiries offered more accessible presentations than the Treatise, whose initial reception disappointed him. His <a href=\"https://davidhume.org/texts/mol/\">autobiographical account</a> also records the importance of his historical writing. Reputation came through changing audiences and forms, not immediate acclaim for every philosophical work.",
+    "3.1.6": "<strong>Intellectual networks:</strong> Scottish and continental contacts helped Hume encounter criticism and reach readers. His Paris diplomatic employment placed him within influential literary society. These relationships help explain circulation and reception; they do not establish that his arguments were sound.",
+    "3.1.7": "<strong>Revision and persistence:</strong> Hume recast material from the Treatise in the enquiries and continued publishing after disappointing receptions. This is firmer evidence than a blanket claim that he routinely changed his doctrines to match critics. His self-description is itself a source to read critically.",
+    "3.1.8": "Hume’s durable standing plausibly reflects the combination of difficult, reusable arguments, persistence in reaching readers, and later thinkers’ sustained responses. His lifetime literary reputation and his later status as a canonical philosopher should be distinguished.",
+    "3.2.1": "<strong>Empirical questions pressed further:</strong> Hume developed the experience-based tradition by examining how ideas arise and how belief extends beyond observation. The challenge was sharper than simple opposition to innate knowledge; it put pressure on empiricism’s own resources.",
+    "3.2.3": "<strong>Writing and readership:</strong> Essays, enquiries, and history reached different audiences, while the Treatise was initially disappointing to its author. His reputation developed over time; accessibility is a plausible contributor, not a sufficient cause by itself.",
+    "3.2.4": "<strong>Kant’s response:</strong> Kant’s later engagement helped secure Hume’s place in the philosophical curriculum. This explains part of Hume’s continuing reputation rather than the cause of his earliest recognition.",
+    "3.2.5": "<strong>Continuing use:</strong> Later debates repeatedly return to induction, sentiment, and identity because the problems remain difficult. This helps explain the durability of Hume’s reputation; it should not be read backward as something that caused his eighteenth-century publications.",
+    "4.1.1": "<strong>Empiricism:</strong> Hume made the tradition confront the difference between an idea’s experiential origin and the justification of a claim. His problem of induction prevents an account of his influence from simply celebrating induction as an unquestioned foundation.",
+    "4.1.3": "<strong>Ethics and moral philosophy:</strong> Hume’s sentimentalism shaped inquiry into moral approval, motivation, sympathy, and the relation between reason and feeling. Later emotivists drew on some of these themes, but historical influence does not make Hume’s theory equivalent to the view that moral statements merely express emotion.",
+    "4.1.6": "<strong>Epistemology and philosophy of science:</strong> The problem of induction and analysis of causation frame debates about evidence and generalization. Scientists can continue testing causal hypotheses while philosophers ask what justifies projection beyond observed cases; the two activities should not be collapsed into a claim that Hume invented modern scientific method.",
+    "4.1.7": "<strong>Phenomenology and existentialism:</strong> Hume’s analysis of experience and identity offers points of comparison with these later traditions. This is a weaker claim than a direct line of major influence on both movements; the strongest connections in this list concern empiricism, ethics, causation, and analytic debates.",
+    "4.1.8": "<strong>Analytic philosophy:</strong> Questions about causation, induction, meaning, and ethical judgment remain prominent in the analytic tradition. Hume supplies arguments and distinctions that later thinkers develop or reject; he should not be recast as a twentieth-century linguistic analyst.",
+    "4.2.2": "<strong>Metaphysics:</strong> Hume’s challenges to accounts of mental substance and personal identity remain central reference points. Skepticism about what introspection establishes should be distinguished from a settled doctrine that mind and body are identical.",
+    "4.2.7": "<strong>Economics:</strong> Hume’s essays on money, trade, and interest make him part of the history of economic thought. His accounts of utility and convention also connect with later debates about institutions. Calling this influence simply “utilitarianism” obscures those distinct contributions.",
+    "4.2.9": "Hume’s broader relevance to psychology and cognitive science lies in questions about association, expectation, and feeling. Such relevance can be a productive modern comparison without proving that every current field descends directly from his work.",
+    "5.1.0": "1: What distinction does Hume draw between mathematical reasoning and claims about events in the world?",
+    "5.1.1": "<details><summary>Answer:</summary>Relations of ideas can be demonstrated; matters of fact require evidence and their negations do not imply a contradiction in the same way.</details>",
+    "5.1.2": "2: Why does induction’s past success not by itself resolve Hume’s challenge?",
+    "5.1.3": "<details><summary>Answer:</summary>Expecting that success to continue already relies on an inductive inference from past to unobserved cases.</details>",
+    "5.1.4": "3: What does Hume encounter when he searches inwardly for an unchanging self?",
+    "5.1.5": "<details><summary>Answer:</summary>Particular changing perceptions rather than a separately perceived, permanent owner.</details>",
+    "5.1.10": "6: What role do sentiments play in Hume’s account of moral judgment?",
+    "5.1.11": "<details><summary>Answer:</summary>Sentiments supply approval, disapproval, and motivation, while reasoning informs judgments about facts and consequences.</details>",
+    "5.1.12": "7: Why does Hume challenge original-contract accounts of government?",
+    "5.1.13": "<details><summary>Answer:</summary>Actual political allegiance often lacks genuine original or tacit consent; convention, common interest, and historical circumstances also need explanation.</details>",
+    "5.2.0": "1: How does Hume distinguish the experiential origin of ideas from the justification of relations of ideas and matters of fact?",
+    "5.3.1": "<details><summary>Answer:</summary>He traces ideas to impressions, including sensations and feelings, while distinguishing demonstrable relations of ideas from evidence-based matters of fact.</details>",
+    "5.3.3": "<details><summary>Answer:</summary>Experience supplies regularities, and habit generates expectations; neither yields a demonstrative guarantee of an unobserved outcome. The challenge concerns justification, not a demand to stop investigating causes.</details>",
+    "5.3.5": "<details><summary>Answer:</summary>Hume’s challenge to necessary causal knowledge helped prompt Kant’s inquiry into the conditions that make experience possible. It was a major stimulus, not the sole source of Kant’s philosophy or every later movement.</details>",
+    "5.3.7": "<details><summary>Answer:</summary>Moral approval and disapproval depend on sentiments; reason alone does not supply their entire motivational and evaluative force. Reason still matters in establishing facts and consequences.</details>",
+    "5.3.9": "<details><summary>Answer:</summary>A move from descriptive premises to an “ought” requires explanation and an appropriate evaluative premise. Describing a practice as common does not alone justify continuing it.</details>",
+    "5.3.11": "<details><summary>Answer:</summary>Distinctive arguments, accessible later works, literary networks, persistence after early disappointments, and later philosophical engagement plausibly contributed. These are historical explanations, not measured causal shares.</details>",
+    "6.1.1": "How does Hume’s distinction between relations of ideas and matters of fact complicate the slogan that all knowledge comes from sensory experience?",
+    "6.1.2": "Why does an appeal to induction’s past success risk circularity when used to justify induction itself?",
+    "6.1.3": "How do impressions of reflection, such as emotions, broaden Hume’s account beyond external sensory observation?",
+    "6.1.11": "How can Hume’s challenge to empirical inference sharpen scientific inquiry without being mistaken for the invention of the scientific method?",
+    "6.1.12": "How do conventions arise without a founding promise, and why does that matter to Hume’s criticism of original-contract theories?",
+    "6.2.14": "<strong>Can We Defend Causality?:</strong> How can we respond to Hume’s critique of causality? Is there a way to justify our belief in cause and effect?",
+    "6.3.8": "Hume’s problem of induction remains influential in the philosophy of science. How might it shape the way we evaluate generalizations without supplying a scientific method of its own?"
+  },
+  "countChecks": [
+    {
+      "name": "contributionLists",
+      "selector": "#prompt-2 ol",
+      "child": "li",
+      "expected": [
+        7,
+        7
+      ]
+    },
+    {
+      "name": "quizColumnsParagraphs",
+      "selector": "#prompt-5 .original-response > div",
+      "child": "p",
+      "expected": [
+        14,
+        7,
+        14
+      ]
+    },
+    {
+      "name": "addedGeminiAnswerGuide",
+      "selector": "#prompt-5 .editorial-answer-guide",
+      "child": "li",
+      "expected": [
+        7
+      ]
+    },
+    {
+      "name": "discussionGroups",
+      "selector": "#prompt-6 ol",
+      "child": "li",
+      "expected": [
+        12,
+        3,
+        3,
+        3,
+        3,
+        12
+      ]
+    }
+  ],
+  "introHeading": "Experience, inference, and Hume’s continuing challenge",
+  "intro": "The original conversation introduces Hume, compares two seven-part accounts of his contributions, considers his reputation and influence, and ends with quizzes and discussion questions. The final two sections contain a third source column without an identifying logo; it is retained and labeled as unattributed. Unrelated quiz material is corrected within its original position.",
+  "description": "Read Hume on experience, causal inference, personal identity, moral sentiment, religion, and political convention, with quizzes and discussion questions.",
+  "headings": [
+    "Hume’s influence in a short paragraph",
+    "Two annotated lists of seven contributions",
+    "How Hume became influential",
+    "Schools and disciplines shaped by Hume",
+    "Three seven-item quizzes",
+    "Three sets of twelve discussion questions"
+  ],
+  "sectionModelLabels": {
+    "5": [
+      "ChatGPT",
+      "Gemini",
+      "Unattributed third source column"
+    ],
+    "6": [
+      "ChatGPT",
+      "Gemini",
+      "Unattributed third source column"
+    ]
+  },
+  "listItemContinuations": {
+    "6.2.14": "<strong>Strengths and Weaknesses of Empiricism:</strong> What are the strengths and weaknesses of Hume’s emphasis on sensory experience? Are there other sources of knowledge beyond our senses?"
+  },
+  "responseAppendices": {
+    "5.2": [
+      "<h4>Answer guide</h4><ol class=\"editorial-answer-guide\"><li>Ideas arise from impressions; relations of ideas are demonstrable, while matters of fact depend on evidence.</li><li>His questions about induction, identity, sentiment, and religious argument shaped later debates, including Kant’s response.</li><li>Any three of the seven entries above, accurately explained: empiricism and the fork, induction, mental substance, bundle account, sentimentalism, is–ought, and religious arguments.</li><li>Regular succession does not reveal a necessary tie or demonstrate what must happen in an unobserved case; habit explains the expectation.</li><li>Examples include the difficulty of justifying induction without circularity or finding an impression of an unchanging self.</li><li>A descriptive claim alone does not establish an ought; the transition needs an evaluative premise or explanation.</li><li>Distinctive arguments, accessible later writing, intellectual contacts, persistence, and later reception plausibly contributed.</li></ol>"
+    ]
+  }
+}

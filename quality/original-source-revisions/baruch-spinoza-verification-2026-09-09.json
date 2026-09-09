@@ -1,0 +1,37 @@
+{
+  "pagePath": "/philosophers/baruch-spinoza/",
+  "sourceSha256": "0c07fc661f55d6ab67483ceb303a01f6d54f44b1811243ef2d3f2479872ef2dc",
+  "originalPrompts": 6,
+  "modelResponses": 18,
+  "blocksRetainedVerbatim": 127,
+  "blocksExplicitlyRevised": 60,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "ChatGPTSevenContributions": [
+      7
+    ],
+    "GeminiSevenContributions": [
+      7
+    ],
+    "ClaudeSevenFormattedContributions": [
+      7
+    ],
+    "quizQuestionAndSeparateAnswerLists": [
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "discussionQuestions": [
+      12,
+      12,
+      12
+    ]
+  },
+  "sha256": "934ac15bf60e33c45c6ca25c26825295b555c88057b4ff1e7deab75aa063d86d"
+}

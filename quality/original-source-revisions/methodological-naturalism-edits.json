@@ -1,0 +1,168 @@
+{
+  "wordpressId": 773,
+  "pageFile": "philosophy-of-science/methodological-naturalism/index.html",
+  "snapshot": "methodological-naturalism-wordpress-773.html",
+  "sourceSha256": "88dd2ee411843a787096e9ad42fe32b68844693a53216d58b3f4fa754ed9e773",
+  "sourceUrl": "http://byteseismic.com/2024/02/19/methodological-naturalism/",
+  "sourceLabel": "Original WordPress conversation, 2024-02-19",
+  "shellRevision": "13edb924868bb7fe2df200e9aef2aaae5848c0a1",
+  "date": "2026-09-09",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "replacements": {
+    "1.1.2": "<strong>Definition:</strong> Methodological naturalism directs scientific inquiry toward natural causes investigated through publicly assessable evidence. Appeals to an unrestricted supernatural will do not supply a testable explanation: any result could be accommodated. A specific claim associated with the supernatural can nevertheless have observable consequences that scientists can test. Whether such results establish its proposed cause is a further question.",
+    "1.1.5": "<strong>Definition:</strong> Philosophical or ontological naturalism holds that reality contains no supernatural realm or beings. It is a claim about what exists, not a promise that present science can already explain everything. Naturalists can disagree about minds, abstract objects, and which explanations are adequate.",
+    "1.2.2": "<strong>Focus:</strong> This is the “how” of science: seek natural causes and processes whose consequences can be checked. Do not equate natural with material in the everyday sense of solid stuff; fields and spacetime also belong to scientific explanations.",
+    "1.2.3": "<strong>Purpose:</strong> The method makes explanations answerable to evidence. It supports objectivity and testability, but cannot guarantee them: naturalistic claims can also be vague, biased, or poorly tested.",
+    "1.2.6": "<strong>Focus:</strong> This is the broader “what exists” question. Philosophical naturalism denies supernatural additions to reality; it does not entail that every phenomenon is understood or reducible to one simple physical description.",
+    "1.2.11": "<strong>Kind of commitment:</strong> Methodological naturalism is a guideline for inquiry; philosophical naturalism is a position about reality. The difference concerns their claims, not how dogmatically someone holds them: either can be defended fallibly.",
+    "1.2.12": "<strong>Implications:</strong> Following the method alone does not logically establish that nothing supernatural exists. Its results can still bear on particular supernatural claims and can contribute to a broader argument for philosophical naturalism.",
+    "1.2.15": "A researcher can therefore investigate a disease through biological mechanisms while holding religious beliefs. What determines the scientific value of the investigation is the evidence for the mechanism, not the researcher’s private worldview.",
+    "2.1.0": "Yes. Its explanatory record provides a strong practical justification for continuing to use it. That is an evidence-based reason to expect further success, rather than a deduction that every future explanation must be naturalistic.",
+    "2.1.1": "<strong>Empirical success:</strong> The method has repeatedly replaced an unexplained occurrence with an account of how it happens. Explaining an eclipse through celestial alignment, for example, connects the event to other observations instead of merely naming an agent said to have produced it.",
+    "2.1.2": "<strong>Predictive power:</strong> An explanation gains support when it correctly anticipates evidence beyond the observations used to devise it. Predicting an eclipse’s timing and path is a stronger test than fitting a story to one already witnessed.",
+    "2.1.5": "<strong>Falsifiability and self-correction:</strong> Claims should face possible adverse evidence. Replication, criticism, and comparison of alternatives can expose mistakes; merely calling a theory naturalistic does not make it reliable. The record includes failures and corrections as well as successes.",
+    "2.1.6": "These successes justify confidence in the method because it has repeatedly delivered explanations, predictions, and effective interventions. This remains an inductive justification—an inference from past performance—not an infallible guarantee. That distinction leaves the curator’s next question open to evidence.",
+    "2.2.2": "<strong>Success of science:</strong> Naturalistic approaches have repeatedly explained phenomena that previously invited supernatural attribution. That supports their fruitfulness in those domains and gives a reason to try them elsewhere. It does not establish universal sufficiency by definition.",
+    "2.2.3": "<strong>Independent checking:</strong> Researchers should be able to inspect the evidence and test the relevant inference. A past eclipse need not happen again for its timing to be checked against records and orbital calculations; reproducibility does not require rerunning history.",
+    "2.2.7": "<strong>Alternative explanations:</strong> An unrestricted supernatural claim may escape a decisive test, but it gains no explanatory advantage from doing so. A claim with specific consequences can be compared with alternatives. The absence of a natural explanation is not itself evidence identifying a supernatural cause.",
+    "2.2.10": "The record strongly supports methodological naturalism without making it immune to challenge. A fair assessment asks what each proposed method actually explains, predicts, and exposes to correction. The possibility of alternatives matters only when those alternatives do some evidential work.",
+    "3.1.0": "Correct in the evidential sense of “start to take root.” If proposed supernatural explanations repeatedly achieved independently verified success, with evidence favoring their distinctive causal claims over competitors, scientists would have reason to investigate and use them. The label alone should not defeat that record. The important qualifications concern what counts as success:",
+    "3.1.1": "<strong>Nature of scientific explanation:</strong> A successful explanation must discriminate among possible outcomes. “An agent can produce anything for unknown reasons” does not tell us why this outcome occurred rather than another. A more specific proposal could make predictions that succeed or fail.",
+    "3.1.2": "<strong>Definitional boundaries:</strong> Researchers might call a reliably investigable new cause part of nature; others might retain the term supernatural. That vocabulary dispute should not conceal the substantive issue: whether the cause is supported. Neither changing its label nor insisting on the old label supplies evidence.",
+    "3.1.3": "<strong>Evidence and testability:</strong> Imagine a claimed agent that supplies independently verifiable information under conditions excluding ordinary access. Repeated accurate information would be evidence of an anomaly. Establishing the proposed agent would additionally require distinguishing it from leakage, fraud, chance, and other possible mechanisms. This is a hypothetical test, not a report of such a result.",
+    "3.1.4": "<strong>Predictive power:</strong> Specify the conditions and expected results before observing them. A proposal that anticipates new evidence earns more support than one adjusted after each outcome. Predictions can concern newly discovered traces of past events as well as future events.",
+    "3.1.5": "<strong>Scrutiny and peer review:</strong> Independent checking protects against mistakes and wishful interpretation. Peer review and eventual agreement can reflect that work, but consensus is not what makes a claim true, and immediate unanimity is not required for a research program to begin.",
+    "3.1.6": "<strong>Philosophical implications:</strong> Strong evidence for an unfamiliar cause could challenge prevailing views of reality without removing the need for careful inquiry. One verified kind of agency would not automatically validate unrelated theological claims about its character, powers, or purposes.",
+    "3.1.7": "The curator’s conditional therefore stands: genuine explanatory success would warrant a foothold. Mere unexplained events or retrospectively fitted stories would not satisfy its premise. How much of scientific practice changed would depend on the scope and strength of the evidence.",
+    "3.2.0": "Yes, if “successful” means evidentially successful and “take root” means begin to earn a place in inquiry. The prompt does not require immediate universal adoption. The useful task is to spell out the standards such a research program would have to meet.",
+    "3.2.2": "<strong>Verifiability:</strong> Give investigators a specific claim with observable consequences and conditions under which it would lose support. The word supernatural does not by itself show that every associated claim is untestable; unrestricted explanations that accommodate every outcome are the particular problem.",
+    "3.2.3": "<strong>Parsimony:</strong> Extra assumptions need explanatory benefit. This applies to proposed natural and supernatural causes alike. Simplicity is a guide for comparing explanations with the evidence held in view, not a rule that a familiar explanation must win despite worse predictions.",
+    "3.2.4": "<strong>Framework:</strong> Established theories constrain what a new proposal must explain, including why those theories worked where they did. A well-supported anomaly might demand a local extension rather than replacement of every scientific discipline.",
+    "3.2.6": "A credible result can justify further investigation before a consensus forms. Broader acceptance would depend on:",
+    "3.2.7": "<strong>Rigorous evaluation:</strong> Test the distinctive claim and the quality of the observations. Search for overlooked alternatives without treating every imaginable alternative as equally plausible or demanding impossible certainty from just one side.",
+    "3.2.8": "<strong>Independent confirmation:</strong> Repeated, independently checked successes would strengthen the case. A single exceptional result might already justify attention; no universal numerical threshold separates legitimate investigation from illegitimate investigation.",
+    "3.2.9": "<strong>Explanatory gain:</strong> The proposed cause should account for the evidence better than relevant competitors. Accurate outcomes alone may not identify the cause: an apparent success must support what is distinctive about the explanation.",
+    "3.2.10": "A series of successes meeting these conditions would be a reason for scientific uptake. Treating methodological naturalism as justified by its record commits us to examining a rival record seriously, even while scrutinizing what it establishes.",
+    "3.2.12": "Consciousness research is not inherently a study of the supernatural. Questions about subjective experience occur within ordinary neuroscience and philosophy as well as in supernatural proposals. Assess each claim and method separately rather than classifying a whole subject by its most speculative interpretations.",
+    "3.2.14": "The decisive issue is whether the evidence supports the proposed explanation and survives serious checking. Compatibility with every existing theory cannot be a precondition for all progress; accounting for the evidence behind successful existing theories remains a reasonable demand.",
+    "4.1.0": "An exhaustive list of every historical case cannot be supplied responsibly here. The following representative comparisons preserve the original four-part list and distinguish well-supported mechanisms from older attributions. For the reverse direction, no established scientific case is identified here in which evidence has vindicated a specifically supernatural cause over an established natural mechanism. That is a statement about the evidential record, not a proof by definition.",
+    "4.1.3": "<strong>Supernatural attribution:</strong> Some traditions interpreted eclipses as divine acts or a creature consuming the Sun or Moon. Such attributions could coexist with practical prediction; history is not a single transition from universal superstition to science.",
+    "4.1.4": "<strong>Natural mechanism and evidence:</strong> Solar eclipses occur when the Moon passes between Earth and the Sun; lunar eclipses occur when the Moon enters Earth’s shadow. Geometry and orbital models predict timing and visibility. <a href=\"https://eclipse.gsfc.nasa.gov/SEcirc/SEpredictions.html\">NASA’s prediction methods</a> show the quantitative account.",
+    "4.1.7": "<strong>Natural mechanisms:</strong> Different diseases have different causes. Infectious diseases involve pathogens; other conditions involve genetic, environmental, and additional factors. This broad category illustrates a shift in explanation but is not one dated experiment that settled every disease. The next entry provides a more specific historical dispute.",
+    "4.1.9": "<strong>Supernatural attribution:</strong> Seizures were sometimes treated as possession or a specially divine affliction. The Hippocratic <a href=\"https://classics.mit.edu/Hippocrates/sacred.html\">On the Sacred Disease</a> already disputes that exceptional status and seeks natural causes. Its proposed physiology is not modern neurology; natural and religious accounts existed alongside one another.",
+    "4.1.10": "<strong>Natural account and limits:</strong> Epilepsy is now understood as a neurological disorder involving abnormal brain activity, investigated through clinical observations and electrical recordings. <a href=\"https://www.ninds.nih.gov/node/647\">NINDS describes that evidence</a>. Epilepsy should not be classified simply as mental illness, and this example does not establish that every psychiatric condition has one fully understood cause.",
+    "4.1.13": "<strong>Natural mechanism and evidence:</strong> Lightning is an electrical discharge; thunder comes from the rapid heating and expansion of air along its path. Eighteenth-century experiments helped establish lightning’s electrical character. The <a href=\"https://fi.edu/en/science-and-education/benjamin-franklin/kite-key-experiment\">Franklin Institute account</a> also distinguishes Franklin’s contribution from the false claim that he discovered electricity.",
+    "4.1.16": "<strong>Empirical testability:</strong> A claim that can accommodate any possible result does not discriminate between explanations. A more specific claim must face observable evidence and possible failure, whatever name is given to its cause.",
+    "4.1.18": "<strong>Comparison of methods:</strong> The success of naturalistic explanations supports continued use of the method. It cannot be used to dismiss the hypothetical rival successes in the preceding prompt without evaluating them.",
+    "4.1.20": "The comparisons support a historical asymmetry: natural mechanisms have repeatedly replaced supernatural attributions as working explanations. A lack of established reverse cases does not establish the logical impossibility of one. Nor is a still-unexplained phenomenon a reverse case: an explanation must earn its support.",
+    "4.2.0": "The request has two directions: cases favoring natural mechanisms and cases favoring supernatural ones. A comprehensive historical catalogue would exceed this response, but a representative list can answer both directions without pretending that all claims have equal support.",
+    "4.2.3": "<strong>Interpretation:</strong> Someone can retain a religious interpretation of an event after its physical mechanism is established. That additional interpretation is not automatically a competing causal explanation with comparable evidence.",
+    "4.2.4": "Here are four comparisons, followed by two kinds of alleged reverse case that do not establish supernatural causation:",
+    "4.2.6": "<strong>Earth’s movement:</strong> Geocentric and heliocentric models are both natural models, so their replacement is not itself a supernatural-to-natural victory. Earth’s rotation accounts for the daily apparent motion of the sky; its revolution around the Sun accounts for the annual orbit. This original example is retained to expose the classification error rather than counted as evidence for the requested contrast.",
+    "4.2.7": "<strong>Diseases:</strong> Curses and evil spirits have been invoked alongside natural explanations. Germ theory supplies mechanisms for infectious diseases, but a humoral “imbalance” theory is itself a natural proposal, even when mistaken. Naturalistic success must be distinguished from merely replacing one natural theory with another.",
+    "4.2.8": "<strong>Seizures and possession:</strong> The Hippocratic <a href=\"https://classics.mit.edu/Hippocrates/sacred.html\">On the Sacred Disease</a> opposes a special supernatural status for epilepsy. Modern evidence connects seizures to brain activity; the ancient text documents the dispute, not the truth of its own humoral mechanism. Psychiatric conditions should not all be reduced to a simple chemical imbalance.",
+    "4.2.9": "<strong>Comets:</strong> Omens of disaster competed with investigation of celestial objects. Halley’s prediction of the comet’s return in 1758 supplied a checkable success for orbital explanation. The <a href=\"https://www.esa.int/Science_Exploration/Space_Science/Comet_Interceptor/Comets_from_suspicion_to_science\">ESA historical account</a> describes its confirmation. An omen’s alleged meaning is distinct from the comet’s physical cause and path.",
+    "4.2.10": "These cases are not all equally good matches to the prompt: the Earth-motion example fails the supernatural criterion, while the comet and seizure cases make the evidential contrast clearer. Continuing supernatural belief does not reduce established physical mechanisms to mere opinion.",
+    "4.2.11": "Alleged reverse cases: persistence is not confirmation",
+    "4.2.12": "No established reverse case is supplied by either of these categories:",
+    "4.2.13": "<strong>Near-death experiences:</strong> Reports of unusual experiences call for investigation. An incomplete account does not by itself identify a disembodied mind or another supernatural cause. A proposed explanation would need distinctive evidence beyond the fact that someone had a striking experience.",
+    "4.2.14": "<strong>Miracle claims:</strong> An unexpected recovery or disputed historical report does not establish a violation of natural law merely because its cause is unknown. Both the event and its proposed explanation require support. “Unexplained” describes a limit of knowledge, not the cause of the event.",
+    "4.2.19": "The record supports expecting further natural explanations while remaining answerable to counterevidence. It does not justify treating supernatural claims as established because they persist, or as impossible solely because of a definition of science.",
+    "5.1.1": "Question 1: What does methodological naturalism guide?<br>A) Which private beliefs every scientist must hold<br>B) The search for natural explanations tested against evidence<br>C) The rejection of all new observations<br>D) The proof that current science explains everything",
+    "5.1.3": "Question 3: Which is a natural explanation for infectious diseases?<br>A) Divine punishment<br>B) Evil spirits<br>C) Pathogens such as bacteria, viruses, and fungi<br>D) Spells cast by enemies",
+    "5.1.4": "Question 4: Why is an unexplained event insufficient to establish a supernatural cause?<br>A) A gap in an explanation does not identify the cause<br>B) Every reported event is false<br>C) Science already knows all causes<br>D) Supernatural claims are true by definition",
+    "5.1.5": "Question 5: Under the curator’s hypothetical, what would support scientific investigation of a proposed supernatural cause?<br>A) Popular endorsement alone<br>B) Independently checked successes that support its distinctive claims<br>C) A label that prevents testing<br>D) Compatibility with every outcome",
+    "5.1.7": "Answer 1: B) The search for natural explanations tested against evidence.",
+    "5.1.9": "Answer 3: C) Pathogens such as bacteria, viruses, and fungi.",
+    "5.1.10": "Answer 4: A) A gap in an explanation does not identify the cause.",
+    "5.1.11": "Answer 5: B) Independently checked successes that support its distinctive claims.",
+    "5.2.3": "(a) One guides scientific practice; the other makes a claim about what exists.",
+    "5.2.4": "(b) One requires certainty; the other forbids it.",
+    "5.2.5": "(c) Both assert that every phenomenon is already explained.",
+    "5.2.6": "(d) Both require scientists to hold the same religious beliefs.",
+    "5.2.13": "(a) Independently checked evidence favoring its specific causal claims.",
+    "5.2.14": "(b) An unexplained event without further evidence.",
+    "5.2.15": "(c) A claim adjusted to fit every possible outcome.",
+    "5.2.16": "(d) The popularity of the word supernatural.",
+    "5.2.18": "(a) Geocentrism versus heliocentrism.",
+    "5.2.19": "(b) Possession accounts versus neurological accounts of seizures.",
+    "5.2.20": "(c) Supernatural omens versus physical accounts of comets.",
+    "5.2.21": "(d) Divine-agent accounts versus electrical accounts of lightning.",
+    "5.2.25": "(c) An incomplete account does not by itself establish a supernatural cause.",
+    "5.2.28": "(a) One guides scientific practice; the other makes a claim about what exists.",
+    "5.2.30": "(a) Independently checked evidence favoring its specific causal claims.",
+    "5.2.31": "(a) Geocentrism versus heliocentrism: both are natural models.",
+    "5.2.32": "(c) An incomplete account does not by itself establish a supernatural cause.",
+    "6.1.4": "How can falsifiability and empirical testability improve reliability without guaranteeing that a scientific claim is true?",
+    "6.2.9": "What evidence would distinguish a supernatural account of a near-death experience from both an incomplete natural account and a merely unexplained report?",
+    "6.2.13": "How would discovering extraterrestrial life differ from establishing a supernatural cause? Which features of the evidence would matter to that distinction?",
+    "4.1.8": "<strong>Mental illness and seizures: distinguish the categories</strong>"
+  },
+  "countChecks": [
+    {
+      "name": "ChatGPTQuizQuestionsAndAnswers",
+      "selector": "#prompt-5 .original-response[data-source-column=\"1\"]",
+      "child": "p",
+      "expected": [
+        10
+      ]
+    },
+    {
+      "name": "GeminiQuizAndAnswerLists",
+      "selector": "#prompt-5 .original-response[data-source-column=\"2\"] > ol",
+      "child": "li",
+      "expected": [
+        5,
+        5
+      ]
+    },
+    {
+      "name": "discussionLists",
+      "selector": "#prompt-6 ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    }
+  ],
+  "introHeading": "A method justified by what it explains",
+  "intro": "The curator moves from a distinction between method and worldview to a sharper test: if explanatory success justifies naturalistic inquiry, what would successful supernatural explanations change? The original six prompts, two response tracks, historical comparison, quizzes, discussion questions, and closing graphic retain that progression.",
+  "description": "Distinguish methodological from philosophical naturalism, test the role of explanatory success, and compare historical cases and possible counterevidence.",
+  "headings": [
+    "Method and worldview",
+    "What the explanatory record supports",
+    "What successful supernatural explanations would change",
+    "Historical comparisons and the reverse-case request",
+    "Two five-item quizzes with answers",
+    "Two sets of fifteen discussion questions"
+  ],
+  "sourceAppendices": [
+    {
+      "headingIndex": 6,
+      "heading": "Methodological Naturalism Graphic",
+      "id": "original-naturalism-graphic",
+      "alt": "Original schematic: advancing scientific explanations narrow a region labeled mysteries explained by invoking God, with examples from epilepsy to consciousness and a question about expectations for future mysteries.",
+      "caption": "Original curator graphic, retained unchanged. Its dates and boundaries are schematic, not measured quantities or a claim that every listed problem is fully solved. The closing question asks which kind of explanation the historical record gives us reason to expect."
+    }
+  ],
+  "leadingTextReplacements": {
+    "5.2.12": "Which finding would give a proposed supernatural explanation a reason to enter scientific inquiry?",
+    "5.2.17": "Which comparison does NOT pit a natural explanation against a supernatural attribution?"
+  },
+  "orderedListStarts": {
+    "1.1": [
+      1,
+      2
+    ],
+    "4.1": [
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

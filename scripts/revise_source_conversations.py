@@ -33,7 +33,12 @@ def own_text(node):
 
 def sections(source):
     return [(h, h.find_next_sibling().select(':scope > .wp-block-column'))
-            for h in source.select('h2')]
+            for h in source.select('h2')
+            if h.find_next_sibling().select(':scope > .wp-block-column')]
+
+
+def labels_for(config, n):
+    return config.get('sectionModelLabels', {}).get(str(n), config['modelLabels'])
 
 
 def tag(soup, name, value=None, **attrs):
@@ -55,11 +60,34 @@ def edited_column(original, n, c, config):
         node['data-source-node'] = f'{n}.{c}.{k}'
     for k, node in enumerate(nodes):
         key = f'{n}.{c}.{k}'
+        if key in config.get('leadingTextReplacements', {}):
+            # A question can contain a nested list of options. Edit only its
+            # leading text, preserving every original option and its address.
+            children = list(node.contents)
+            boundary = next(i for i, child in enumerate(children)
+                            if getattr(child, 'name', None) in ('ul', 'ol'))
+            assert all(not getattr(child, 'find_all', lambda *a: [])(TAGS)
+                       for child in children[:boundary])
+            for child in children[:boundary]:
+                child.extract()
+            node.insert(0, config['leadingTextReplacements'][key] + '\n')
         if key in config['replacements']:
             assert not node.find_all(TAGS), ('Replacement would remove source descendants', key)
             node.clear()
             for child in list(BeautifulSoup(config['replacements'][key], 'html.parser').contents):
                 node.append(child)
+    for key, value in config.get('listItemContinuations', {}).items():
+        if key.startswith(f'{n}.{c}.'):
+            node = col.select_one(f'[data-source-node="{key}"]')
+            assert node is not None and node.name == 'li'
+            addition = BeautifulSoup('<li></li>', 'html.parser').li
+            addition['data-source-addition'] = key
+            for child in list(BeautifulSoup(value, 'html.parser').contents):
+                addition.append(child)
+            node.insert_after(addition)
+    for value in config.get('responseAppendices', {}).get(f'{n}.{c}', []):
+        for child in list(BeautifulSoup(value, 'html.parser').contents):
+            col.append(child)
     for h in col.find_all('h4'):
         h.name = 'h5'
     for h in col.find_all('h3'):
@@ -77,7 +105,13 @@ def render(config):
     source = BeautifulSoup((DATA / config['snapshot']).read_text(), 'html.parser')
     original = sections(source)
     assert len(original) == len(config['headings'])
-    assert all(len(cols) == len(config['modelLabels']) for _, cols in original)
+    assert all(len(cols) == len(labels_for(config, n))
+               for n, (_, cols) in enumerate(original, 1))
+    appendices = config.get('sourceAppendices', [])
+    all_headings = source.select('h2')
+    assert len(original) + len(appendices) == len(all_headings)
+    for appendix in appendices:
+        assert all_headings[appendix['headingIndex']].get_text() == appendix['heading']
     shell = subprocess.check_output(['git', 'show', f"{config['shellRevision']}:{config['pageFile']}"], cwd=ROOT, text=True)
     soup = BeautifulSoup(shell, 'html.parser')
     for node in soup.find_all(string=lambda n: isinstance(n, Comment)):
@@ -133,9 +167,22 @@ def render(config):
                     li.append(tag(soup, 'p', value))
                     lines.append(li)
                 edited.append(lines)
-            label = config['modelLabels'][c-1]
+            label = labels_for(config, n)[c-1]
             edited.insert(0, tag(soup, 'h3', label + ' response · editorial edition'))
             section.append(edited)
+        body.append(section)
+    for appendix in appendices:
+        section = tag(soup, 'section', **{'class': 'article-section', 'id': appendix['id']})
+        section.append(tag(soup, 'h2', appendix['heading']))
+        figure = copy.deepcopy(all_headings[appendix['headingIndex']].find_next_sibling())
+        assert figure.name == 'figure'
+        for el in [figure, *figure.find_all(True)]:
+            el.attrs = {k: v for k, v in el.attrs.items()
+                        if k in ('src', 'srcset', 'sizes', 'width', 'height', 'alt', 'loading')}
+        figure.img['alt'] = appendix['alt']
+        figure.img['style'] = 'max-width:100%;height:auto'
+        figure.append(tag(soup, 'figcaption', appendix['caption']))
+        section.append(figure)
         body.append(section)
     body.append(future)
     description = config['description']
@@ -174,13 +221,13 @@ def verify(config, rendered):
             for old, want, got in zip(col.find_all(TAGS), expected_nodes, actual_nodes):
                 key = got['data-source-node']
                 assert str(got) == str(want), key
-                if key in config['replacements']:
+                if key in config['replacements'] or key in config.get('leadingTextReplacements', {}):
                     used.add(key)
                     changed += 1
                 else:
                     assert own_text(old) == own_text(got), key
                     retained += 1
-            assert [(x.name, len(x.find_all('li', recursive=False))) for x in col.find_all(['ol', 'ul'])] == [(x.name, len(x.find_all('li', recursive=False))) for x in actual.find_all(['ol', 'ul']) if 'source-dialogue' not in x.get('class', [])]
+            assert [(x.name, len(x.find_all('li', recursive=False))) for x in expected.find_all(['ol', 'ul'])] == [(x.name, len(x.find_all('li', recursive=False))) for x in actual.find_all(['ol', 'ul']) if 'source-dialogue' not in x.get('class', [])]
             assert len(col.find_all('table')) == len(actual.find_all('table'))
             assert [ol.get('start', '1') for ol in expected.find_all('ol')] == [
                 ol.get('start', '1') for ol in actual.find_all('ol')
@@ -193,7 +240,19 @@ def verify(config, rendered):
                         for line in lines[:source_count]] == [
                             f'{n}.{c}.{k}' for k in dialogue['sourceTurnNodes']]
                 assert [text(line) for line in lines[source_count:]] == dialogue.get('continuation', [])
-    assert used == set(config['replacements']), ('Unused edits', set(config['replacements']) - used)
+            else:
+                # Also check explicitly added material, such as a missing key
+                # or a split list item; source-node checks alone cannot do so.
+                clone = copy.deepcopy(actual)
+                clone.find('h3', recursive=False).decompose()
+                assert str(clone) == str(expected), (n, c, 'complete response mismatch')
+    edits = set(config['replacements']) | set(config.get('leadingTextReplacements', {}))
+    assert used == edits, ('Unused edits', edits - used)
+    for appendix in config.get('sourceAppendices', []):
+        old = BeautifulSoup(raw, 'html.parser').select('h2')[appendix['headingIndex']].find_next_sibling()
+        new = soup.select_one('#' + appendix['id'])
+        assert new.h2.get_text() == appendix['heading']
+        assert new.img['src'] == old.img['src']
     checks = {}
     for check in config['countChecks']:
         observed = [len(node.find_all(check['child'], recursive=False)) for node in soup.select(check['selector'])]
@@ -209,7 +268,10 @@ def verify(config, rendered):
             'sourceSha256': config['sourceSha256'], 'originalPrompts': len(prompts),
             'modelResponses': sum(len(cols) for _, cols in original), 'blocksRetainedVerbatim': retained,
             'blocksExplicitlyRevised': changed, 'promptOrderExact': True,
-            'sourceBlockOrderExact': True, 'listAndTableStructuresPreserved': True,
+            'sourceBlockOrderExact': True,
+            'listAndTableStructuresPreserved': not bool(config.get('listItemContinuations') or config.get('responseAppendices')),
+            'explicitListItemSplits': list(config.get('listItemContinuations', {})),
+            'explicitResponseAppendices': list(config.get('responseAppendices', {})),
             'formatChecks': checks, 'sha256': hashlib.sha256(rendered.encode()).hexdigest()}
 
 

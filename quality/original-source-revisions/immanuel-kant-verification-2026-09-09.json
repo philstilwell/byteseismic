@@ -1,0 +1,30 @@
+{
+  "pagePath": "/philosophers/immanuel-kant/",
+  "sourceSha256": "f633344cf3585d06df562bd4577ced02b2749b141f43d948c6abc5c88fcd0496",
+  "originalPrompts": 6,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 99,
+  "blocksExplicitlyRevised": 42,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "sevenContributions": [
+      7,
+      7
+    ],
+    "quizQuestionsAndAnswers": [
+      7,
+      7,
+      7,
+      7
+    ],
+    "discussionQuestions": [
+      12,
+      12
+    ]
+  },
+  "sha256": "5004589a31c29149a1155b76997fb334a4cf7b22cdf0399818206c05b10d369d"
+}

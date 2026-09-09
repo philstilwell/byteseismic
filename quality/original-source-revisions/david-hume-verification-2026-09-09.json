@@ -1,0 +1,40 @@
+{
+  "pagePath": "/philosophers/david-hume/",
+  "sourceSha256": "024ee864ea8369075744368ee192866792efa27581d89298eeed8335b80bb11b",
+  "originalPrompts": 6,
+  "modelResponses": 14,
+  "blocksRetainedVerbatim": 74,
+  "blocksExplicitlyRevised": 56,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": false,
+  "explicitListItemSplits": [
+    "6.2.14"
+  ],
+  "explicitResponseAppendices": [
+    "5.2"
+  ],
+  "formatChecks": {
+    "contributionLists": [
+      7,
+      7
+    ],
+    "quizColumnsParagraphs": [
+      14,
+      7,
+      14
+    ],
+    "addedGeminiAnswerGuide": [
+      7
+    ],
+    "discussionGroups": [
+      12,
+      3,
+      3,
+      3,
+      3,
+      12
+    ]
+  },
+  "sha256": "f032caa34a5e3058688f0cbd41d5d4883f5473c7f44b5c6c86f75d703a4aca81"
+}

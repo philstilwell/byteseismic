@@ -1,0 +1,100 @@
+{
+  "wordpressId": 9153,
+  "pageFile": "philosophers/immanuel-kant/index.html",
+  "snapshot": "immanuel-kant-wordpress-9153.html",
+  "sourceSha256": "f633344cf3585d06df562bd4577ced02b2749b141f43d948c6abc5c88fcd0496",
+  "sourceUrl": "http://byteseismic.com/2024/05/16/immanuel-kant/",
+  "sourceLabel": "Original WordPress conversation, 2024-05-16",
+  "shellRevision": "13edb924868bb7fe2df200e9aef2aaae5848c0a1",
+  "date": "2026-09-09",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "replacements": {
+    "1.1.1": "Immanuel Kant’s critical philosophy changed how later thinkers approached knowledge, morality, and judgment. In the Critique of Pure Reason, he argues that experience depends on forms of sensibility and concepts of understanding, while limiting what theoretical reason can claim about things apart from those conditions. His ethics connects duty with universal principles and respect for rational agents; his aesthetics examines judgments of beauty and the sublime. German Idealists developed and challenged this framework, and later debates about autonomy, objectivity, and the limits of knowledge continue to return to it.",
+    "1.2.0": "Kant reshaped philosophy by asking what makes experience and rational judgment possible. His response to rationalism and empiricism was not a simple compromise: experience supplies knowledge of objects, but the mind contributes conditions under which objects can be experienced. His categorical imperative and account of autonomy gave moral philosophy an influential alternative to evaluating action solely by its outcomes. His work on beauty, the sublime, and international peace extends this inquiry into judgment, freedom, and human coexistence.",
+    "2.1.2": "<strong>Annotation:</strong> The <a href=\"https://www.gutenberg.org/cache/epub/4280/pg4280-images.html\">Critique of Pure Reason</a> asks how knowledge is possible and where its limits lie. Sensibility supplies appearances under space and time; the understanding brings concepts such as causality to bear. “A priori” concerns justification independent of particular experience, not simply information present in an infant’s mind.",
+    "2.1.4": "<strong>Annotation:</strong> The categorical imperative directs us to act on principles we can rationally will as universal laws. Kant distinguishes an action’s conformity with duty from its moral worth when done from duty. Returning correct change solely to protect a shop’s reputation can conform to duty without the same motive as acting from respect for the moral law.",
+    "2.1.6": "<strong>Annotation:</strong> Transcendental idealism limits human theoretical knowledge to objects under the conditions of possible experience. Appearances can be empirically real and objectively known; they are not merely private illusions. Things considered independently of those conditions are not thereby available to the same kind of knowledge.",
+    "2.1.10": "<strong>Annotation:</strong> The <a href=\"https://www.gutenberg.org/files/48433/48433-h/48433-h.htm\">Critique of Judgment</a> investigates beauty, the sublime, and judgments of purposiveness in nature. Kant develops rather than invents the concept of the sublime. Treating an organism as purposively organized guides a kind of judgment without proving a divine designer.",
+    "2.1.12": "<strong>Annotation:</strong> This entry overlaps with transcendental idealism above but isolates its limiting distinction: an object as it appears under our cognitive conditions is not simply the object considered apart from them. “Noumenon” can function as a limiting concept; it should not be presented as a separately observed world behind appearances.",
+    "2.1.14": "<strong>Annotation:</strong> Moral autonomy means rational self-legislation under principles one can will universally. It does not mean inventing a private morality or doing whatever one prefers. This distinction matters when relating Kant’s account to contemporary uses of autonomy as personal choice.",
+    "2.2.1": "<strong>The Copernican turn:</strong> Kant asks whether objects of possible experience must conform to our forms of cognition, rather than assuming cognition simply copies objects as they are in themselves. The claim concerns conditions of experience, not a power to create reality by wishing or choosing a perspective.",
+    "2.2.2": "<strong>Transcendental idealism:</strong> Human knowledge concerns appearances under space, time, and the understanding’s categories. Kant combines that limitation with empirical realism: objects in experience are not reduced to arbitrary personal images. Things in themselves mark what cannot be known through those conditions as though they were absent.",
+    "2.2.3": "<strong>Analytic and synthetic judgments:</strong> Analytic judgments unpack what a concept contains; synthetic judgments add something. The further distinction between a priori and a posteriori concerns justification. “The grass is green” can be synthetic a posteriori—informative and dependent on observation. Kant also defends synthetic a priori judgments, such as his examples in mathematics. He does not say that all informative knowledge is a priori.",
+    "2.2.4": "<strong>The categorical imperative:</strong> Act on a maxim, or principle of action, that you can will as universal law. Another formulation requires treating humanity in oneself and others always also as an end, never merely as a means. Buying something uses another person’s services; deception that bypasses their rational choice raises a different issue. See the <a href=\"https://www.gutenberg.org/cache/epub/5682/pg5682-images.html\">Groundwork</a>.",
+    "2.2.5": "<strong>The good will:</strong> Kant calls a good will good without qualification. This does not say that happiness or talents have no value; their goodness can depend on how they are used. A will’s moral worth does not depend solely on achieving its intended outcome, but good willing is more than idle wishing: it includes serious use of the means available.",
+    "2.2.6": "<strong>The sublime:</strong> In the Critique of Judgment, overwhelming magnitude or power exposes limits of imagination while bringing reason’s demands or our moral vocation into view. The experience includes tension and a kind of pleasure, so “beauty is pleasure, sublimity is awe” is too simple. The distinction concerns the subject’s judgment, not merely a list of large objects.",
+    "2.2.7": "<strong>Perpetual peace:</strong> Kant proposes republican constitutions, a federation of free states, and a limited cosmopolitan right of hospitality. His <a href=\"https://www.gutenberg.org/cache/epub/50922/pg50922-images.html\">essay</a> does not simply recommend modern electoral democracy or a single world state. Its institutional proposals and their limits remain useful subjects for political argument.",
+    "3.1.2": "Kant’s account of the conditions of experience and his universal moral principles supplied problems and arguments that readers could develop or contest. Originality plausibly contributed to recognition, but it should not replace an account of how the work reached its audience.",
+    "3.1.8": "Kant’s engagement with Hume, Leibniz, and other predecessors connected his work to existing disputes. His response transforms their questions about reason and experience rather than merely joining their preferred answers into one system.",
+    "3.1.10": "The major critiques and related shorter works gave readers a sustained program to interpret and debate. Publication is a means of circulation, not automatic evidence of immediate acceptance or proof that the resulting system is correct.",
+    "3.1.12": "Enlightenment debates about reason, science, religion, and public judgment supplied an audience and points of resistance. A favorable intellectual climate is a plausible contextual factor, not a claim that contemporaries readily accepted everything Kant argued.",
+    "3.1.14": "Later engagement by German Idealists and other philosophers helped make Kant central to the curriculum. This explains the durability of his reputation, while the preceding factors concern his original development and reception.",
+    "3.2.0": "Several factors plausibly explain Kant’s prominence. Their relative importance is a matter of historical interpretation, rather than something this list measures:",
+    "3.2.1": "<strong>A new response to inherited problems:</strong> Kant reworked disputes between rationalist and empiricist approaches by asking about conditions of possible experience. His contribution was an argumentative transformation, not simply a midpoint between two schools.",
+    "3.2.3": "<strong>A reusable ethical challenge:</strong> The categorical imperative asks whether a principle can be willed universally and whether it respects rational agency. Its lasting role reflects sustained use and criticism, not universal agreement that applying it is easy.",
+    "3.2.4": "<strong>A memorable change of perspective:</strong> The Copernican analogy states a difficult question compactly: what must cognition contribute for objective experience to be possible? It should not turn the account into a claim that each individual constructs whatever reality they prefer.",
+    "3.2.6": "These factors connect the content of Kant’s arguments with their circulation and later use. Reputation includes critical reception: a philosopher can become indispensable because opponents must answer the questions he poses.",
+    "4.1.4": "<strong>Annotation:</strong> Later work on freedom and finitude engages Kant in different ways; Heidegger’s sustained interpretation of Kant is a clear example. Grouping Heidegger and Sartre together should not imply a uniform existentialist doctrine inherited from Kant.",
+    "4.1.6": "<strong>Annotation:</strong> Phenomenological inquiry into the structures of experience has points of engagement with Kant’s transcendental project. Husserl’s use of “phenomenon” should not be equated with simple acceptance of Kant’s appearance–thing-in-itself distinction.",
+    "4.1.8": "<strong>Annotation:</strong> Analytic debates engage Kant’s accounts of judgment, concepts, objectivity, and a priori knowledge. The relationship includes rejection and reconstruction; a general preference for rigorous argument alone does not establish a distinctive Kantian influence.",
+    "4.1.12": "<strong>Annotation:</strong> Kant’s accounts of right, external freedom, and republican institutions remain reference points for liberal political theory. Modern rights and democratic practices should not be treated as straightforward copies of his historical positions.",
+    "4.2.3": "<strong>Phenomenology:</strong> Husserl’s study of how objects are given in experience can be compared with Kant’s inquiry into conditions of knowledge. The later project transforms the questions and vocabulary rather than simply adopting a division between phenomena and noumena.",
+    "4.2.5": "<strong>Utilitarianism:</strong> Kantian ethics is an important interlocutor and rival for utilitarianism. Both can demand impartial reasoning, but that resemblance does not establish that utilitarianism arose from Kant. Their different accounts of duty and consequences are the relevant point of comparison here.",
+    "4.2.6": "<strong>Analytic philosophy:</strong> Later analytic thinkers examine and challenge Kantian claims about logic, mathematics, experience, and metaphysics. Continuing argument over those claims is a more precise connection than treating shared admiration for clarity as proof of direct influence.",
+    "5.1.10": "The categorical imperative tests maxims as possible universal laws and requires respect for rational agency. Kant distinguishes acting in accordance with duty from acting from duty, which concerns moral worth.",
+    "5.1.11": "Human theoretical knowledge concerns objects under the conditions of possible experience. Kant combines these conditions with the need for experience and denies that we can simply extend such knowledge to things considered apart from them.",
+    "5.1.13": "Autonomy means rational self-legislation under universal principles, not arbitrary personal preference. It remains influential in debates about agency, dignity, and justified constraints on action.",
+    "5.1.14": "Philosophy of science and mathematics; epistemology is also a correct answer to this broadly worded question.",
+    "5.1.15": "It investigates aesthetic and teleological judgment, including beauty, sublimity, and purposiveness. Kant develops a distinctive account of the sublime rather than introducing the concept for the first time.",
+    "5.2.2": "What does Kant call good without qualification, rather than merely useful or valuable under favorable conditions?",
+    "5.2.6": "Which aesthetic experience involves the limits of imagination in the face of magnitude or power, together with a relation to reason?",
+    "5.2.7": "Which branch of philosophy studies the nature and limits of knowledge?",
+    "6.1.10": "How does Husserl’s inquiry into the structures of experience resemble and depart from Kant’s project? Why should shared use of “phenomenon” not settle the comparison?",
+    "6.1.12": "How do judgments of beauty, sublimity, and purposiveness differ in Kant’s third Critique? What would be lost by treating them all as feelings of awe?"
+  },
+  "countChecks": [
+    {
+      "name": "sevenContributions",
+      "selector": "#prompt-2 .original-response > ol",
+      "child": "li",
+      "expected": [
+        7,
+        7
+      ]
+    },
+    {
+      "name": "quizQuestionsAndAnswers",
+      "selector": "#prompt-5 ol",
+      "child": "li",
+      "expected": [
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "discussionQuestions",
+      "selector": "#prompt-6 ol",
+      "child": "li",
+      "expected": [
+        12,
+        12
+      ]
+    }
+  ],
+  "introHeading": "What experience requires—and what duty asks",
+  "intro": "The two original accounts introduce Kant, list seven contributions each, discuss the growth and reach of his reputation, and end with quizzes and discussion questions. The distinctions between experience and a priori justification, moral rightness and moral worth, and appearances and things in themselves organize the revisions within that sequence.",
+  "description": "Explore Kant’s account of experience, synthetic a priori judgments, duty, autonomy, aesthetics, and peace through two original response tracks and their quizzes.",
+  "headings": [
+    "Kant’s influence in two short paragraphs",
+    "Two annotated lists of seven contributions",
+    "How Kant’s work gained a hearing",
+    "Direct influence and critical engagement",
+    "Two seven-item quizzes with answers",
+    "Two sets of twelve discussion questions"
+  ]
+}

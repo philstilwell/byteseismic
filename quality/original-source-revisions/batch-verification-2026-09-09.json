@@ -1,0 +1,479 @@
+{
+  "runTime": "2026-09-09T09:26:00.340083-04:00",
+  "fullBuild": {
+    "isolatedDirectory": "/tmp/byteseismic-20260909/build",
+    "generatedContentPages": 723,
+    "summary": {
+      "pages_scanned": 840,
+      "broken_links": 0,
+      "duplicate_ids": 0,
+      "repeated_headings": 19,
+      "prompt_number_issues": 0,
+      "orphan_pages": 0,
+      "oversized_assets": 0,
+      "style_scars": 0,
+      "grammar_scars": 0,
+      "seo_issues": 0,
+      "duplicate_titles": 0,
+      "duplicate_descriptions": 0,
+      "json_ld_issues": 0,
+      "sitemap_issues": 0,
+      "robots_issues": 0
+    },
+    "repeatedHeadingNotices": [
+      {
+        "page": "/philosophers/analytic-philosophers/",
+        "heading": "ChatGPT response · editorial edition"
+      },
+      {
+        "page": "/philosophers/analytic-philosophers/",
+        "heading": "Gemini response · editorial edition"
+      },
+      {
+        "page": "/philosophers/analytic-philosophers/",
+        "heading": "Claude response · editorial edition"
+      },
+      {
+        "page": "/philosophers/baruch-spinoza/",
+        "heading": "ChatGPT response · editorial edition"
+      },
+      {
+        "page": "/philosophers/baruch-spinoza/",
+        "heading": "Gemini response · editorial edition"
+      },
+      {
+        "page": "/philosophers/baruch-spinoza/",
+        "heading": "Claude response · editorial edition"
+      },
+      {
+        "page": "/philosophers/david-hume/",
+        "heading": "ChatGPT response · editorial edition"
+      },
+      {
+        "page": "/philosophers/david-hume/",
+        "heading": "Gemini response · editorial edition"
+      },
+      {
+        "page": "/philosophers/david-hume/",
+        "heading": "Unattributed third source column response · editorial edition"
+      },
+      {
+        "page": "/philosophers/empiricists/",
+        "heading": "ChatGPT response · revised"
+      },
+      {
+        "page": "/philosophers/empiricists/",
+        "heading": "Gemini response · revised"
+      },
+      {
+        "page": "/philosophers/immanuel-kant/",
+        "heading": "ChatGPT response · editorial edition"
+      },
+      {
+        "page": "/philosophers/immanuel-kant/",
+        "heading": "Gemini response · editorial edition"
+      },
+      {
+        "page": "/philosophy-of-mind/what-is-consciousness/",
+        "heading": "ChatGPT response · editorial edition"
+      },
+      {
+        "page": "/philosophy-of-mind/what-is-consciousness/",
+        "heading": "Gemini response · editorial edition"
+      },
+      {
+        "page": "/philosophy-of-science/methodological-naturalism/",
+        "heading": "ChatGPT response · editorial edition"
+      },
+      {
+        "page": "/philosophy-of-science/methodological-naturalism/",
+        "heading": "Gemini response · editorial edition"
+      },
+      {
+        "page": "/philosophy-of-science/the-use-of-proxies/",
+        "heading": "ChatGPT response · editorial edition"
+      },
+      {
+        "page": "/philosophy-of-science/the-use-of-proxies/",
+        "heading": "Gemini response · editorial edition"
+      }
+    ],
+    "dialecticalPreservation": {
+      "recoveredPages": 39,
+      "highRiskCases": 17,
+      "passed": true
+    },
+    "log": "Dialectical preservation check passed for all 39 recovered pages, including 17 high-risk regression cases.\nSite audit: pages=840 broken_links=0 duplicate_ids=0 prompt_number_issues=0 orphans=0 oversized_assets=0 style_scars=0 grammar_scars=0 seo_issues=0 json_ld_issues=0 sitemap_issues=0 robots_issues=0\nGenerated or updated 723 content pages.\nVisible hierarchy sections: 15\nExpanded archive years: 2\n"
+  },
+  "reviewedPageHashes": {
+    "philosophers/immanuel-kant/index.html": {
+      "sha256": "5004589a31c29149a1155b76997fb334a4cf7b22cdf0399818206c05b10d369d",
+      "isolatedBuildPreservedExactly": true
+    },
+    "philosophy-of-science/the-use-of-proxies/index.html": {
+      "sha256": "abfcf343db8d8d4395fd78a9a544175ce6bea70b326640ada299804309cdcf4f",
+      "isolatedBuildPreservedExactly": true
+    },
+    "philosophers/baruch-spinoza/index.html": {
+      "sha256": "934ac15bf60e33c45c6ca25c26825295b555c88057b4ff1e7deab75aa063d86d",
+      "isolatedBuildPreservedExactly": true
+    },
+    "philosophers/analytic-philosophers/index.html": {
+      "sha256": "914016b7bc0cf54bd44b93e05ad8aafb1978aec185f01bd3e216278736ce211b",
+      "isolatedBuildPreservedExactly": true
+    },
+    "philosophy-of-science/methodological-naturalism/index.html": {
+      "sha256": "480b9ad4e212bd999ff4dfdf28ce9bc463c308af2d47ab30f7b6af92a008c18c",
+      "isolatedBuildPreservedExactly": true
+    },
+    "philosophy-of-mind/what-is-consciousness/index.html": {
+      "sha256": "82cca6b9dd3b871625aea753b73a7012b173185097a5a5f95a8726de50ac49be",
+      "isolatedBuildPreservedExactly": true
+    },
+    "philosophers/david-hume/index.html": {
+      "sha256": "f032caa34a5e3058688f0cbd41d5d4883f5473c7f44b5c6c86f75d703a4aca81",
+      "isolatedBuildPreservedExactly": true
+    },
+    "philosophers/empiricists/index.html": {
+      "sha256": "304cfb69874c270844c162ab1db83d589577460a50fc5557c11927d5e1388a25",
+      "isolatedBuildPreservedExactly": true
+    }
+  },
+  "sourceVerifications": [
+    {
+      "slug": "immanuel-kant",
+      "passed": true,
+      "result": {
+        "pagePath": "/philosophers/immanuel-kant/",
+        "sourceSha256": "f633344cf3585d06df562bd4577ced02b2749b141f43d948c6abc5c88fcd0496",
+        "originalPrompts": 6,
+        "modelResponses": 12,
+        "blocksRetainedVerbatim": 99,
+        "blocksExplicitlyRevised": 42,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "sevenContributions": [
+            7,
+            7
+          ],
+          "quizQuestionsAndAnswers": [
+            7,
+            7,
+            7,
+            7
+          ],
+          "discussionQuestions": [
+            12,
+            12
+          ]
+        },
+        "sha256": "5004589a31c29149a1155b76997fb334a4cf7b22cdf0399818206c05b10d369d"
+      }
+    },
+    {
+      "slug": "the-use-of-proxies",
+      "passed": true,
+      "result": {
+        "pagePath": "/philosophy-of-science/the-use-of-proxies/",
+        "sourceSha256": "1b84122203164d849a17d9ccc240a25f847b781a9bc065f6deeb7ac902f777d2",
+        "originalPrompts": 6,
+        "modelResponses": 12,
+        "blocksRetainedVerbatim": 61,
+        "blocksExplicitlyRevised": 76,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "crossDisciplineExamples": [
+            7,
+            7
+          ],
+          "failureCases": [
+            5,
+            5
+          ],
+          "legitimateExamples": [
+            5,
+            5
+          ],
+          "quizQuestionAndAnswerCounts": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "discussionQuestionCounts": [
+            15,
+            15
+          ]
+        },
+        "sha256": "abfcf343db8d8d4395fd78a9a544175ce6bea70b326640ada299804309cdcf4f"
+      }
+    },
+    {
+      "slug": "baruch-spinoza",
+      "passed": true,
+      "result": {
+        "pagePath": "/philosophers/baruch-spinoza/",
+        "sourceSha256": "0c07fc661f55d6ab67483ceb303a01f6d54f44b1811243ef2d3f2479872ef2dc",
+        "originalPrompts": 6,
+        "modelResponses": 18,
+        "blocksRetainedVerbatim": 127,
+        "blocksExplicitlyRevised": 60,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "ChatGPTSevenContributions": [
+            7
+          ],
+          "GeminiSevenContributions": [
+            7
+          ],
+          "ClaudeSevenFormattedContributions": [
+            7
+          ],
+          "quizQuestionAndSeparateAnswerLists": [
+            7,
+            7,
+            7,
+            7,
+            7
+          ],
+          "discussionQuestions": [
+            12,
+            12,
+            12
+          ]
+        },
+        "sha256": "934ac15bf60e33c45c6ca25c26825295b555c88057b4ff1e7deab75aa063d86d"
+      }
+    },
+    {
+      "slug": "analytic-philosophers",
+      "passed": true,
+      "result": {
+        "pagePath": "/philosophers/analytic-philosophers/",
+        "sourceSha256": "8a98d4490811f3756ea798672e53a2c1fac23d9dc8af334c2bb3ff1cece2beea",
+        "originalPrompts": 6,
+        "modelResponses": 18,
+        "blocksRetainedVerbatim": 167,
+        "blocksExplicitlyRevised": 78,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "dialogueTurnCounts": [
+            20,
+            20,
+            20
+          ],
+          "quizQuestionAndAnswerCounts": [
+            7,
+            7,
+            7,
+            7,
+            7,
+            7
+          ],
+          "discussionQuestionCounts": [
+            12,
+            12,
+            12
+          ]
+        },
+        "sha256": "914016b7bc0cf54bd44b93e05ad8aafb1978aec185f01bd3e216278736ce211b"
+      }
+    },
+    {
+      "slug": "methodological-naturalism",
+      "passed": true,
+      "result": {
+        "pagePath": "/philosophy-of-science/methodological-naturalism/",
+        "sourceSha256": "88dd2ee411843a787096e9ad42fe32b68844693a53216d58b3f4fa754ed9e773",
+        "originalPrompts": 6,
+        "modelResponses": 12,
+        "blocksRetainedVerbatim": 97,
+        "blocksExplicitlyRevised": 90,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "ChatGPTQuizQuestionsAndAnswers": [
+            10
+          ],
+          "GeminiQuizAndAnswerLists": [
+            5,
+            5
+          ],
+          "discussionLists": [
+            15,
+            15
+          ]
+        },
+        "sha256": "480b9ad4e212bd999ff4dfdf28ce9bc463c308af2d47ab30f7b6af92a008c18c"
+      }
+    },
+    {
+      "slug": "what-is-consciousness",
+      "passed": true,
+      "result": {
+        "pagePath": "/philosophy-of-mind/what-is-consciousness/",
+        "sourceSha256": "de62b4644be3bc9e4f80aaf68ed53e247f859cf7a616089740d569ad04479aa2",
+        "originalPrompts": 8,
+        "modelResponses": 16,
+        "blocksRetainedVerbatim": 124,
+        "blocksExplicitlyRevised": 100,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "quizQuestionAndAnswerCounts": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "discussionQuestionCounts": [
+            15,
+            15
+          ]
+        },
+        "sha256": "82cca6b9dd3b871625aea753b73a7012b173185097a5a5f95a8726de50ac49be"
+      }
+    },
+    {
+      "slug": "david-hume",
+      "passed": true,
+      "result": {
+        "pagePath": "/philosophers/david-hume/",
+        "sourceSha256": "024ee864ea8369075744368ee192866792efa27581d89298eeed8335b80bb11b",
+        "originalPrompts": 6,
+        "modelResponses": 14,
+        "blocksRetainedVerbatim": 74,
+        "blocksExplicitlyRevised": 56,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": false,
+        "explicitListItemSplits": [
+          "6.2.14"
+        ],
+        "explicitResponseAppendices": [
+          "5.2"
+        ],
+        "formatChecks": {
+          "contributionLists": [
+            7,
+            7
+          ],
+          "quizColumnsParagraphs": [
+            14,
+            7,
+            14
+          ],
+          "addedGeminiAnswerGuide": [
+            7
+          ],
+          "discussionGroups": [
+            12,
+            3,
+            3,
+            3,
+            3,
+            12
+          ]
+        },
+        "sha256": "f032caa34a5e3058688f0cbd41d5d4883f5473c7f44b5c6c86f75d703a4aca81"
+      }
+    },
+    {
+      "slug": "empiricists",
+      "passed": true,
+      "result": {
+        "pagesReviewed": 1,
+        "originalPrompts": 6,
+        "modelResponses": 12,
+        "originalNodesRetainedVerbatim": 98,
+        "originalNodesRevised": 31,
+        "dialogueNumberedLines": [
+          20,
+          20
+        ],
+        "originalDialogueTurnsPreserved": [
+          21,
+          13
+        ],
+        "addedGeminiTurns": 7,
+        "quizQuestionCounts": [
+          7,
+          7
+        ],
+        "quizAnswerCounts": [
+          7,
+          7
+        ],
+        "discussionQuestionCounts": [
+          12,
+          12
+        ],
+        "sha256": "304cfb69874c270844c162ab1db83d589577460a50fc5557c11927d5e1388a25"
+      }
+    }
+  ],
+  "trackerUnchanged": {
+    "quality/editorial-audit-tracker.json": "23fd14c04a2361a3ce0c8ef6d85ddeb01a447186cb090c80f0c1df2fc06a163e",
+    "quality/editorial-audit-tracker.md": "8003448d63c7491b9037f1193aece80174533832f31ff59f090baaeecb42fcbf"
+  },
+  "scope": {
+    "inheritedModifiedFiles": 490,
+    "unchangedInheritedFiles": 488,
+    "authorizedSupersededFiles": [
+      "philosophers/baruch-spinoza/index.html",
+      "philosophers/david-hume/index.html"
+    ],
+    "priorBackup": "/Users/philstilwell/Documents/byteseismic-audit-backup-20260904-XnZFhk/changed-files.tar.gz",
+    "priorBackupBytesMatch": true
+  },
+  "visualReview": {
+    "pages": [
+      "Methodological Naturalism",
+      "David Hume",
+      "Baruch Spinoza",
+      "Immanuel Kant"
+    ],
+    "checked": [
+      "prompt-to-response placement",
+      "separate model labels",
+      "nested annotated lists",
+      "expandable Hume quiz answer text",
+      "original Naturalism graphic"
+    ],
+    "passed": true,
+    "temporaryBrowserClosed": true
+  },
+  "completion": {
+    "batchComplete": false,
+    "trackerAdvanced": false,
+    "batchReviewed": 8,
+    "batchPending": 39,
+    "batchSourceBlocked": 3,
+    "trackerCompleted": 0,
+    "trackerRemaining": 346,
+    "restartVerified": 8,
+    "restartNotYetFullyReviewed": 338
+  }
+}

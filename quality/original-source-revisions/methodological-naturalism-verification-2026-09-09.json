@@ -1,0 +1,27 @@
+{
+  "pagePath": "/philosophy-of-science/methodological-naturalism/",
+  "sourceSha256": "88dd2ee411843a787096e9ad42fe32b68844693a53216d58b3f4fa754ed9e773",
+  "originalPrompts": 6,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 97,
+  "blocksExplicitlyRevised": 90,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "ChatGPTQuizQuestionsAndAnswers": [
+      10
+    ],
+    "GeminiQuizAndAnswerLists": [
+      5,
+      5
+    ],
+    "discussionLists": [
+      15,
+      15
+    ]
+  },
+  "sha256": "480b9ad4e212bd999ff4dfdf28ce9bc463c308af2d47ab30f7b6af92a008c18c"
+}

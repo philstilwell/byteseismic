@@ -1,0 +1,2843 @@
+{
+  "runDate": "2026-09-09",
+  "cycle": 8,
+  "batchStartIndex": 0,
+  "batchEndIndexExclusive": 50,
+  "batchComplete": false,
+  "trackerAdvanced": false,
+  "counts": {
+    "batchPages": 50,
+    "sourcesLocated": 47,
+    "pagesFullyReviewed": 8,
+    "pagesPendingFullReview": 39,
+    "pagesBlockedOnOriginal": 3,
+    "completedPagesRecordedByTracker": 0,
+    "pagesRemainingRecordedByTracker": 346,
+    "verifiedPagesAwaitingBatchCompletion": 8,
+    "notYetFullyReviewedInRestartedPass": 338,
+    "pagesNewlyReviewedThisRun": 4,
+    "previouslyReviewedPagesReverifiedThisRun": 4
+  },
+  "pages": [
+    {
+      "pagePath": "/philosophers/empiricists/",
+      "pageTitle": "Empiricists",
+      "status": "reviewed-revised-verified",
+      "fullOriginalRead": true,
+      "changes": [
+        "Restored all six original prompts, including omitted quiz and discussion-question requests.",
+        "Restored separate ChatGPT/Gemini responses, original list structures and conversational progression.",
+        "Revised 31 response blocks for specific conceptual errors and explanatory gaps; retained 98 original blocks verbatim.",
+        "Clarified sensation/reflection, innate ideas/mental capacities, a priori/innate, mathematical learning/justification, ethics/evidence, and indirect observation.",
+        "Preserved 21 ChatGPT turns in 20 numbered entries with closing exchange together; expanded Gemini from 13 to 20 turns with a continuation about induction and independent checks.",
+        "Retained both sets of 12 discussion questions and both seven-item quizzes/answer keys; corrected analogy attribution."
+      ],
+      "verification": {
+        "urlSlugMatch": true,
+        "titleMatchIgnoringAccentsAndCase": true,
+        "currentLedgerPrompts": [
+          "Provide a general description of the philosophical school of Empiricism.",
+          "Provide a list of the key contributions Empiricism has made to philosophical thought.",
+          "List the most influential Empiricists in history.",
+          "Produce a 20-line hypothetical dialogue between an Empiricist and a first-year philosophy student."
+        ],
+        "exactCurrentPromptMatchesToSourceHeadings": 3,
+        "warning": "Machine source inventory only; heading extraction is not a complete prompt or semantic review.",
+        "humanReview": "Full source read; every response read against its prompt; all original response blocks accounted for in source order. No curator correction exchange is present in this original.",
+        "preservedByFullBuilderByteForByte": true
+      },
+      "remainingConcerns": [
+        "The 20-entry ChatGPT dialogue retains 21 speaker turns; the final entry contains both farewell turns, explicitly disclosed.",
+        "This is one completed page in an incomplete 50-page batch."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 7744,
+        "title": "Empiricists",
+        "url": "http://byteseismic.com/2024/05/02/empiricists/",
+        "contentSha256": "ed08ff3e1a23563bebf578e0c239b8a0b32b71865af43241ad91c0766a95c66b",
+        "wordCount": 2976,
+        "sourceH2Headings": [
+          "Provide a general description of the philosophical school of Empiricism.",
+          "Provide a list of the key contributions Empiricism has made to philosophical thought.",
+          "List the most influential Empiricists in history.",
+          "Produce a 20-line hypothetical dialogue between an Empiricist and a 1st-year philosophy student.",
+          "Create a 7-item quiz on the entire thread above.",
+          "Provide 12 discussion questions relevant to the content above. "
+        ],
+        "committedSnapshot": "quality/original-source-revisions/empiricists-wordpress-7744.html"
+      },
+      "reverifiedOn": "2026-09-08",
+      "workThisRun": "Source-specific verifier rerun; retained previous reviewed content byte-for-byte."
+    },
+    {
+      "pagePath": "/philosophy-of-mind/what-is-consciousness/",
+      "pageTitle": "What is Consciousness?",
+      "status": "reviewed-revised-verified",
+      "fullOriginalRead": true,
+      "changes": [
+        "Restored all eight curator prompts verbatim and in order, including the omitted human/chimp comparison, quizzes, and discussion lists; restored both model tracks.",
+        "Corrected consciousness/wakefulness/responsiveness/self-awareness conflations, non-REM dreaming, alcohol blackouts, and unwarranted rankings of animal experience.",
+        "Preserved feature and comparison groupings; repaired repeated numbering of the five groups without altering their list hierarchy.",
+        "Kept future possibilities and humor progression while distinguishing evidence from speculation; added specific humor examples and repaired quiz coverage and answer alignment."
+      ],
+      "verification": {
+        "pagePath": "/philosophy-of-mind/what-is-consciousness/",
+        "sourceSha256": "de62b4644be3bc9e4f80aaf68ed53e247f859cf7a616089740d569ad04479aa2",
+        "originalPrompts": 8,
+        "modelResponses": 16,
+        "blocksRetainedVerbatim": 124,
+        "blocksExplicitlyRevised": 100,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "formatChecks": {
+          "quizQuestionAndAnswerCounts": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "discussionQuestionCounts": [
+            15,
+            15
+          ]
+        },
+        "sha256": "82cca6b9dd3b871625aea753b73a7012b173185097a5a5f95a8726de50ac49be",
+        "urlSlugMatch": true,
+        "titleMatch": true,
+        "fullSourceReadAndPromptResponsePairsReviewed": true,
+        "curatorCorrectionsPresentInOriginal": false,
+        "allCuratorPromptsVerbatim": true,
+        "preservedByFullBuilderByteForByte": true
+      },
+      "remainingConcerns": [
+        "Future-consciousness scenarios remain hypothetical; comparative animal experience is not directly measurable on one established scale."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 4655,
+        "title": "What is Consciousness?",
+        "url": "http://byteseismic.com/2024/03/27/what-is-consciousness/",
+        "contentSha256": "de62b4644be3bc9e4f80aaf68ed53e247f859cf7a616089740d569ad04479aa2",
+        "wordCount": 6579,
+        "sourceH2Headings": [
+          "Provide a concise but comprehensive definition of consciousness.",
+          "Are there degrees of consciousness? 1) Are there degrees of consciousness among sentient species? 2) Do humans experience consciousness as something that ebbs and flows as suggested by sleep and intoxication?",
+          "What features does full human consciousness entail?",
+          "Highlight the disparities in consciousness between humans and chimps.",
+          "If humans continue to evolve, might be the most salient differences in consciousness between future humans and humans today?",
+          "As an aside, how might humor manifest differently in more evolved future humans than does the humor of humans today?",
+          "Create a 10-item quiz on the discussion above.  ",
+          "Provide 15 discussion questions relevant to the content above. "
+        ],
+        "snapshot": "quality/original-source-revisions/what-is-consciousness-wordpress-4655.html",
+        "modelLabels": [
+          "ChatGPT",
+          "Gemini"
+        ],
+        "modelLabelEvidence": "Original WordPress logo image order and response-column colors."
+      },
+      "reviewedOn": "2026-09-08",
+      "responseReviews": [
+        {
+          "promptNumber": 1,
+          "model": "ChatGPT",
+          "decision": "Separate experience from wakefulness, responsiveness, reflective selfhood, and a soul assumption; keep definition concise.",
+          "explicitlyRevisedBlocks": 1
+        },
+        {
+          "promptNumber": 1,
+          "model": "Gemini",
+          "decision": "Define subjective experience without equating it with a behavioral response; retain the useful felt-experience paraphrase.",
+          "explicitlyRevisedBlocks": 1
+        },
+        {
+          "promptNumber": 2,
+          "model": "ChatGPT",
+          "decision": "Retain the two-part species/human structure; correct reflex, sleep-stage, and diagnostic overclaims.",
+          "explicitlyRevisedBlocks": 4
+        },
+        {
+          "promptNumber": 2,
+          "model": "Gemini",
+          "decision": "Keep spectrum/binary discussion and river analogy, while separating presence from dimensions, experience from memory, and analogy from evidence.",
+          "explicitlyRevisedBlocks": 13
+        },
+        {
+          "promptNumber": 3,
+          "model": "ChatGPT",
+          "decision": "Retain all five feature groups and subordinate lists; identify them as common adult capacities rather than necessary conditions; add a song example.",
+          "explicitlyRevisedBlocks": 5
+        },
+        {
+          "promptNumber": 3,
+          "model": "Gemini",
+          "decision": "Retain the ten-feature progression; correct qualia and sentience definitions and distinguish language from the capacity for experience.",
+          "explicitlyRevisedBlocks": 5
+        },
+        {
+          "promptNumber": 4,
+          "model": "ChatGPT",
+          "decision": "Restore the omitted human/chimp comparison; preserve its five comparison groups and shared evolutionary context; qualify inference about felt richness.",
+          "explicitlyRevisedBlocks": 7
+        },
+        {
+          "promptNumber": 4,
+          "model": "Gemini",
+          "decision": "Restore all comparison pairs; correct mirror-test, theory-of-mind, communication, planning, and brain-size overclaims, with primary research support.",
+          "explicitlyRevisedBlocks": 9
+        },
+        {
+          "promptNumber": 5,
+          "model": "ChatGPT",
+          "decision": "Keep the eight future possibilities; separate evolution, culture, and technology; distinguish information sharing from a single subject and uploading from identity continuity.",
+          "explicitlyRevisedBlocks": 7
+        },
+        {
+          "promptNumber": 5,
+          "model": "Gemini",
+          "decision": "Keep five Future/Disparity pairs; explain sensory overload, emotional-control tradeoffs, and time horizons without unsupported nonlinear-time predictions.",
+          "explicitlyRevisedBlocks": 7
+        },
+        {
+          "promptNumber": 6,
+          "model": "ChatGPT",
+          "decision": "Keep eight humor possibilities; replace vague predictions with specific virtual-office and memory-upgrade jokes, and qualify universal humor.",
+          "explicitlyRevisedBlocks": 5
+        },
+        {
+          "promptNumber": 6,
+          "model": "Gemini",
+          "decision": "Keep five scenario/example pairs; add actual jokes and a hypothetical voluntary thought-sharing case without asserting telepathy.",
+          "explicitlyRevisedBlocks": 8
+        },
+        {
+          "promptNumber": 7,
+          "model": "ChatGPT",
+          "decision": "Retain ten questions followed by ten answers; expand the source quiz beyond humor to cover the full discussion and align every answer.",
+          "explicitlyRevisedBlocks": 15
+        },
+        {
+          "promptNumber": 7,
+          "model": "Gemini",
+          "decision": "Retain ten multiple-choice questions and ten answers; repair unsupported uploading and telepathy assumptions and the ambiguous emotional-control item.",
+          "explicitlyRevisedBlocks": 10
+        },
+        {
+          "promptNumber": 8,
+          "model": "ChatGPT",
+          "decision": "Retain all fifteen original generated discussion questions: each opens a relevant implication of the future-consciousness and humor discussion.",
+          "explicitlyRevisedBlocks": 0
+        },
+        {
+          "promptNumber": 8,
+          "model": "Gemini",
+          "decision": "Retain fifteen questions and their order; revise three that presumed telepathy, nonlinear time, or an absent discussion of emotional-control risks.",
+          "explicitlyRevisedBlocks": 3
+        }
+      ],
+      "originalPresentationHandling": "Duplicate WordPress contents menus and decorative/logo images replaced by site navigation and text model labels; source highlights updated through the introduction and revised responses. Full source snapshot retained. No original curator corrections or extra dialogue exchanges outside the recorded sections were found."
+    },
+    {
+      "pagePath": "/philosophers/analytic-philosophers/",
+      "pageTitle": "Analytic Philosophers",
+      "status": "reviewed-revised-verified",
+      "fullOriginalRead": true,
+      "changes": [
+        "Restored all six curator prompts verbatim and in order and all three model tracks, including omitted quizzes and discussion lists.",
+        "Corrected historical generalizations, contribution attribution, malformed Gettier prose, philosophical oversimplifications, and biographical errors.",
+        "Preserved all 48 original dialogue turns in order and every original student turn verbatim; revised selected instructor turns and added six turns to each short dialogue, producing three twenty-turn dialogues.",
+        "Repaired quiz questions/keys, restored three seven-item quiz/answer sets and three twelve-question discussion lists, and replaced duplicate Quine with Anscombe while retaining every distinct original listed philosopher."
+      ],
+      "verification": {
+        "pagePath": "/philosophers/analytic-philosophers/",
+        "sourceSha256": "8a98d4490811f3756ea798672e53a2c1fac23d9dc8af334c2bb3ff1cece2beea",
+        "originalPrompts": 6,
+        "modelResponses": 18,
+        "blocksRetainedVerbatim": 167,
+        "blocksExplicitlyRevised": 78,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "formatChecks": {
+          "dialogueTurnCounts": [
+            20,
+            20,
+            20
+          ],
+          "quizQuestionAndAnswerCounts": [
+            7,
+            7,
+            7,
+            7,
+            7,
+            7
+          ],
+          "discussionQuestionCounts": [
+            12,
+            12,
+            12
+          ]
+        },
+        "sha256": "914016b7bc0cf54bd44b93e05ad8aafb1978aec185f01bd3e216278736ce211b",
+        "urlSlugMatch": true,
+        "titleMatch": true,
+        "fullSourceReadAndPromptResponsePairsReviewed": true,
+        "curatorCorrectionsPresentInOriginal": false,
+        "allCuratorPromptsVerbatim": true,
+        "preservedByFullBuilderByteForByte": true
+      },
+      "remainingConcerns": [
+        "Influential-thinker selections are illustrative, not exhaustive or definitive rankings."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 7851,
+        "title": "Analytic Philosophers",
+        "url": "http://byteseismic.com/2024/05/03/analytic-philosophers/",
+        "contentSha256": "8a98d4490811f3756ea798672e53a2c1fac23d9dc8af334c2bb3ff1cece2beea",
+        "wordCount": 5552,
+        "sourceH2Headings": [
+          "Provide a general description of Analytic Philosophy.",
+          "Provide a list of the key Analytic Philosophers have made to philosophical thought.",
+          "List the most influential Analytic philosophers in history.",
+          "Produce a 20-line hypothetical dialogue between an Analytic philosopher and a 1st-year philosophy student.",
+          "Create a 7-item quiz on the entire thread above.  ",
+          "Provide 12 discussion questions relevant to the content above. "
+        ],
+        "snapshot": "quality/original-source-revisions/analytic-philosophers-wordpress-7851.html",
+        "modelLabels": [
+          "ChatGPT",
+          "Gemini",
+          "Claude"
+        ],
+        "modelLabelEvidence": "Original WordPress logo image order and response-column colors."
+      },
+      "reviewedOn": "2026-09-08",
+      "responseReviews": [
+        {
+          "promptNumber": 1,
+          "model": "ChatGPT",
+          "decision": "Clarify late-nineteenth-century roots and diverse projects; distinguish clear argument from guaranteed truth.",
+          "explicitlyRevisedBlocks": 2
+        },
+        {
+          "promptNumber": 1,
+          "model": "Gemini",
+          "decision": "Keep method bullets and detective analogy; add quantifier contrast and explain the analogy’s limits.",
+          "explicitlyRevisedBlocks": 4
+        },
+        {
+          "promptNumber": 1,
+          "model": "Claude",
+          "decision": "Keep seven historical ideas as distinct strands; repair positivism chronology and wholesale rejection-of-metaphysics claims.",
+          "explicitlyRevisedBlocks": 5
+        },
+        {
+          "promptNumber": 2,
+          "model": "ChatGPT",
+          "decision": "Keep ten contribution entries; name representative thinkers and explain what each contribution establishes or leaves contested.",
+          "explicitlyRevisedBlocks": 11
+        },
+        {
+          "promptNumber": 2,
+          "model": "Gemini",
+          "decision": "Keep eight numbered contributions; repair the malformed Gettier sentence and distinguish Putnam’s and Chalmers’s projects.",
+          "explicitlyRevisedBlocks": 3
+        },
+        {
+          "promptNumber": 2,
+          "model": "Claude",
+          "decision": "Keep fourteen entries; clarify set-theory attribution, rigid designation, translation indeterminacy, analysis, and Twin Earth without presenting caricatured relativism.",
+          "explicitlyRevisedBlocks": 6
+        },
+        {
+          "promptNumber": 3,
+          "model": "ChatGPT",
+          "decision": "Retain ten names and descriptions: the selection supports the preceding contributions and makes no claim to a definitive ranking.",
+          "explicitlyRevisedBlocks": 0
+        },
+        {
+          "promptNumber": 3,
+          "model": "Gemini",
+          "decision": "Retain ten names; repair Ryle’s death year and description, Chalmers’s truncated entry, and Kripke’s dates; clarify Putnam.",
+          "explicitlyRevisedBlocks": 4
+        },
+        {
+          "promptNumber": 3,
+          "model": "Claude",
+          "decision": "Keep twenty positions and every distinct original thinker; replace the duplicate Quine with Anscombe, correct Kripke, remove unsupported Kaplan death date, and update Searle.",
+          "explicitlyRevisedBlocks": 4
+        },
+        {
+          "promptNumber": 4,
+          "model": "ChatGPT",
+          "decision": "Keep all twenty original turns and every student utterance; correct the continental contrast, semantics example, challenge, and Russell reading advice.",
+          "explicitlyRevisedBlocks": 4
+        },
+        {
+          "promptNumber": 4,
+          "model": "Gemini",
+          "decision": "Keep fourteen source turns and the student’s questions; qualify justified true belief and add six turns testing it against a stopped-clock case.",
+          "explicitlyRevisedBlocks": 5
+        },
+        {
+          "promptNumber": 4,
+          "model": "Claude",
+          "decision": "Keep fourteen source dialogue turns and all student questions; correct the king-of-France analysis, qualify metaphysical generalizations, and add six turns on negation and existence.",
+          "explicitlyRevisedBlocks": 4
+        },
+        {
+          "promptNumber": 5,
+          "model": "ChatGPT",
+          "decision": "Keep seven questions and seven answers; align the analytic/continental comparison and the Russell reading answer with the revised dialogue.",
+          "explicitlyRevisedBlocks": 3
+        },
+        {
+          "promptNumber": 5,
+          "model": "Gemini",
+          "decision": "Keep seven multiple-choice questions and answers; repair the dual-correct source question and wrong analysis answer, then test the added luck example and relation to logic.",
+          "explicitlyRevisedBlocks": 11
+        },
+        {
+          "promptNumber": 5,
+          "model": "Claude",
+          "decision": "Keep seven questions and answers; update the Russell example and metaphysics answers without changing their placement.",
+          "explicitlyRevisedBlocks": 5
+        },
+        {
+          "promptNumber": 6,
+          "model": "ChatGPT",
+          "decision": "Keep twelve questions; acknowledge Whitehead’s coauthorship and make the Moore/Searle comparison answerable from the actual contributions.",
+          "explicitlyRevisedBlocks": 2
+        },
+        {
+          "promptNumber": 6,
+          "model": "Gemini",
+          "decision": "Keep twelve questions; distinguish false justified belief from lucky true belief and repair the internal/external justification question.",
+          "explicitlyRevisedBlocks": 3
+        },
+        {
+          "promptNumber": 6,
+          "model": "Claude",
+          "decision": "Keep twelve questions; correct the history of the analytic/synthetic distinction and remove the assumption that criticism of metaphysical realism denies external reality.",
+          "explicitlyRevisedBlocks": 2
+        }
+      ],
+      "originalPresentationHandling": "Duplicate WordPress contents menus and decorative/logo images replaced by site navigation and text model labels; source highlights updated through the introduction and revised responses. Full source snapshot retained. No original curator corrections or extra dialogue exchanges outside the recorded sections were found."
+    },
+    {
+      "pagePath": "/philosophy-of-science/the-use-of-proxies/",
+      "pageTitle": "The Use of Proxies",
+      "status": "reviewed-revised-verified",
+      "fullOriginalRead": true,
+      "changes": [
+        "Restored all six curator prompts verbatim and in order, both model tracks, both quizzes, and discussion lists.",
+        "Replaced unsupported failed-proxy stories with documented cases and specified exactly which inference failed; rejected shareholder-voting equivocation.",
+        "Corrected the central confusion between measurement, prediction, and intervention, including the reversed temporal requirement and misdescribed instrumental variables.",
+        "Replaced all five unsupported Gemini surprising-proxy examples with documented cases; retained valid original examples with limits and updated dependent quiz answers/discussion questions."
+      ],
+      "verification": {
+        "pagePath": "/philosophy-of-science/the-use-of-proxies/",
+        "sourceSha256": "1b84122203164d849a17d9ccc240a25f847b781a9bc065f6deeb7ac902f777d2",
+        "originalPrompts": 6,
+        "modelResponses": 12,
+        "blocksRetainedVerbatim": 61,
+        "blocksExplicitlyRevised": 76,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "formatChecks": {
+          "crossDisciplineExamples": [
+            7,
+            7
+          ],
+          "failureCases": [
+            5,
+            5
+          ],
+          "legitimateExamples": [
+            5,
+            5
+          ],
+          "quizQuestionAndAnswerCounts": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "discussionQuestionCounts": [
+            15,
+            15
+          ]
+        },
+        "sha256": "abfcf343db8d8d4395fd78a9a544175ce6bea70b326640ada299804309cdcf4f",
+        "urlSlugMatch": true,
+        "titleMatch": true,
+        "fullSourceReadAndPromptResponsePairsReviewed": true,
+        "curatorCorrectionsPresentInOriginal": false,
+        "allCuratorPromptsVerbatim": true,
+        "preservedByFullBuilderByteForByte": true
+      },
+      "remainingConcerns": [
+        "Proxy validity is purpose- and context-dependent; the cited historical cases do not invalidate every use of the corresponding measure."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 4627,
+        "title": "The Use of Proxies",
+        "url": "http://byteseismic.com/2024/03/27/the-use-of-proxies/",
+        "contentSha256": "1b84122203164d849a17d9ccc240a25f847b781a9bc065f6deeb7ac902f777d2",
+        "wordCount": 5113,
+        "sourceH2Headings": [
+          "Some phenomena cannot be scientifically evaluated directly and require that we use proxies to measure them. Give a list of 7 such cases across a wide variety of disciplines.",
+          "Provide 5 actual cases in which a proxy was revealed to be improper.",
+          "How might we assess when we can legitimately make a causal inference from a proxy to the target phenomenon?",
+          "Provide me with 5 examples of counter-intuitive or surprising legitimate proxies.",
+          "Create a 10-item quiz on the discussion above.",
+          "Provide 15 discussion questions relevant to the content above. "
+        ],
+        "snapshot": "quality/original-source-revisions/the-use-of-proxies-wordpress-4627.html",
+        "modelLabels": [
+          "ChatGPT",
+          "Gemini"
+        ],
+        "modelLabelEvidence": "Original WordPress logo image order and response-column colors."
+      },
+      "reviewedOn": "2026-09-08",
+      "responseReviews": [
+        {
+          "promptNumber": 1,
+          "model": "ChatGPT",
+          "decision": "Keep seven disciplines/examples; distinguish climate archives, dark matter/dark energy evidence, and physiological signals from the mental states inferred.",
+          "explicitlyRevisedBlocks": 3
+        },
+        {
+          "promptNumber": 1,
+          "model": "Gemini",
+          "decision": "Keep seven examples and introductory paragraph; correct the claim that direct dark-matter detection is impossible in principle.",
+          "explicitlyRevisedBlocks": 1
+        },
+        {
+          "promptNumber": 2,
+          "model": "ChatGPT",
+          "decision": "Keep five case positions; use documented tree-ring divergence, arrhythmia-survival failure, BMI misclassification, HDL intervention failure, and Irish GDP interpretation.",
+          "explicitlyRevisedBlocks": 5
+        },
+        {
+          "promptNumber": 2,
+          "model": "Gemini",
+          "decision": "Keep five case positions; replace voting-proxy equivocation and unsupported SAT claims; retain specific ballot-design, national-accounts, and cross-species-translation contexts with evidence.",
+          "explicitlyRevisedBlocks": 6
+        },
+        {
+          "promptNumber": 3,
+          "model": "ChatGPT",
+          "decision": "Keep ten methodological checks; repair the direction of causation throughout, distinguish prediction from intervention, and state conditions for instruments, counterfactuals, and mediators.",
+          "explicitlyRevisedBlocks": 12
+        },
+        {
+          "promptNumber": 3,
+          "model": "Gemini",
+          "decision": "Keep five checks followed by five SAT applications; preserve the concrete educational example while separating predictive validity, fairness, and causal effects.",
+          "explicitlyRevisedBlocks": 10
+        },
+        {
+          "promptNumber": 4,
+          "model": "ChatGPT",
+          "decision": "Keep five legitimate examples; replace unsupported piracy example with GRACE groundwater inference; retain nightlights, sewage, tree rings, and ambulance calls with calibrated scope.",
+          "explicitlyRevisedBlocks": 5
+        },
+        {
+          "promptNumber": 4,
+          "model": "Gemini",
+          "decision": "Replace all five unsupported or joke correlations with documented satellite gravity, nightlights, wastewater, earthquake-tree-ring, and pollen examples; keep five-item list format.",
+          "explicitlyRevisedBlocks": 5
+        },
+        {
+          "promptNumber": 5,
+          "model": "ChatGPT",
+          "decision": "Keep ten questions and ten answers; align them with corrected cases and distinguish surveillance signals from confirmed influenza.",
+          "explicitlyRevisedBlocks": 10
+        },
+        {
+          "promptNumber": 5,
+          "model": "Gemini",
+          "decision": "Keep ten multiple-choice questions and answer key; replace false or unanswerable items about Enron, hemlines, spelling bees, and pirates and repair wrong keys.",
+          "explicitlyRevisedBlocks": 13
+        },
+        {
+          "promptNumber": 6,
+          "model": "ChatGPT",
+          "decision": "Keep fifteen questions; update five that depended on removed or overstated examples while retaining the sequence of measurement, application, and critique.",
+          "explicitlyRevisedBlocks": 4
+        },
+        {
+          "promptNumber": 6,
+          "model": "Gemini",
+          "decision": "Keep fifteen questions; replace voting-proxy equivocation and unsupported economic correlations with manipulation-of-indicators and documented-proxy comparisons.",
+          "explicitlyRevisedBlocks": 2
+        }
+      ],
+      "originalPresentationHandling": "Duplicate WordPress contents menus and decorative/logo images replaced by site navigation and text model labels; source highlights updated through the introduction and revised responses. Full source snapshot retained. No original curator corrections or extra dialogue exchanges outside the recorded sections were found."
+    },
+    {
+      "pagePath": "/philosophy-of-science/methodological-naturalism/",
+      "pageTitle": "Methodological Naturalism",
+      "status": "reviewed-revised-verified",
+      "fullOriginalRead": true,
+      "changes": [
+        "Retained the method/worldview comparison and its nested definitions. Repaired the blanket untestability claim and distinguished naturalism from a promise of complete explanation.",
+        "Retained the focus/purpose/scope comparison. Distinguished natural from ordinary material stuff, guidance from a guarantee, and metaphysical commitment from confidence; added a concrete researcher example.",
+        "Retained the five kinds of support. Developed eclipse prediction as a test beyond fitting a story, kept technology and cross-field coherence, and made inductive support explicitly fallible.",
+        "Retained the evidence/qualifications progression. Explained independent checking of historical events and why an untestable rival gains no support from a gap.",
+        "Revised all eight blocks to answer the curator’s conditional directly. Kept all six original criteria in order; distinguished explanatory success, anomaly, cause attribution, peer review, and naming disputes.",
+        "Repaired the substitution of immediate universal acceptance for taking root. Kept the challenges/acceptance/additional-points structure and developed evidence thresholds, parsimony, and fair comparison without classifying consciousness research as supernatural.",
+        "Kept the four historical categories and reverse-case discussion. Added source-backed mechanisms, distinguished seizures from mental illness, identified representative rather than exhaustive coverage, and removed circular dismissal by definition.",
+        "Kept four comparisons and two alleged reverse categories. Explicitly identified geocentrism as an invalid natural/supernatural comparison; distinguished persistence and unexplained reports from evidence of supernatural causation.",
+        "Retained five questions followed by five answers. Revised questions 1, 3, 4, and 5 and their keys to match the repaired argument; restored line breaks between options.",
+        "Retained five nested multiple-choice questions followed by five keys. Repaired multiple defensible choices, the universal-acceptance distraction, geocentrism classification, and the interpretation of unknown causes.",
+        "Retained fourteen questions verbatim; changed the reliability question to avoid assuming that testability guarantees truth. Fifteen questions remain.",
+        "Retained thirteen of fifteen questions. Made near-death evidence discriminating and replaced the off-focus extraterrestrial question with one about what would establish a supernatural cause."
+      ],
+      "verification": {
+        "pagePath": "/philosophy-of-science/methodological-naturalism/",
+        "sourceSha256": "88dd2ee411843a787096e9ad42fe32b68844693a53216d58b3f4fa754ed9e773",
+        "originalPrompts": 6,
+        "modelResponses": 12,
+        "blocksRetainedVerbatim": 97,
+        "blocksExplicitlyRevised": 90,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "ChatGPTQuizQuestionsAndAnswers": [
+            10
+          ],
+          "GeminiQuizAndAnswerLists": [
+            5,
+            5
+          ],
+          "discussionLists": [
+            15,
+            15
+          ]
+        },
+        "sha256": "480b9ad4e212bd999ff4dfdf28ce9bc463c308af2d47ab30f7b6af92a008c18c",
+        "urlMatch": true,
+        "titleMatch": true,
+        "completeSourceRead": true,
+        "promptsVerbatimInOrder": true,
+        "responsesInOriginalColumnsAndOrder": true,
+        "curatorExchangeReview": "No separate corrective dialogue omitted. Naturalism’s third prompt is retained in its original argumentative position.",
+        "wholeOriginalPreservation": "Repeated contents menu and decorative logos replaced by site navigation and model labels. Opening highlight excerpts are represented by the retained topics and corrected responses; complete original HTML preserved in snapshot."
+      },
+      "remainingConcerns": [
+        "Historical list is representative, not exhaustive; limitation stated in both responses. Original graphic is illustrative rather than quantitative and remains hosted at its original WordPress URL."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 773,
+        "title": "Methodological Naturalism",
+        "url": "http://byteseismic.com/2024/02/19/methodological-naturalism/",
+        "contentSha256": "88dd2ee411843a787096e9ad42fe32b68844693a53216d58b3f4fa754ed9e773",
+        "wordCount": 4982,
+        "sourceH2Headings": [
+          "What is methodological naturalism, and how does it differ from philosophical naturalism?",
+          "Can we say that methodological naturalism is grounded by its explanatory track record?",
+          "If methodological naturalism is grounded by its explanatory track record, for methodological supernaturalism to start to take root in science, it would only take a series of successful supernatural explanations. Correct?",
+          "Provide a comprehensive list of cases in the history of science in which both a naturalistic and a supernaturalistic explanation were proposed in response to an inexplicable phenomenon, and the naturalistic explanation was eventually established as true, and vice-versa.",
+          "Create a 5-item quiz on the discussion above with answers at the end.",
+          "Provide 15 discussion questions based on our discussion of methodological naturalism above.",
+          "Methodological Naturalism Graphic"
+        ]
+      },
+      "reviewedOn": "2026-09-09",
+      "sourceUsed": {
+        "cache": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 773,
+        "title": "Methodological Naturalism",
+        "url": "http://byteseismic.com/2024/02/19/methodological-naturalism/",
+        "date": "2024-02-19T22:39:44+00:00",
+        "snapshot": "quality/original-source-revisions/methodological-naturalism-wordpress-773.html",
+        "sourceSha256": "88dd2ee411843a787096e9ad42fe32b68844693a53216d58b3f4fa754ed9e773"
+      },
+      "responseDecisions": [
+        {
+          "prompt": 1,
+          "sourceColumn": 1,
+          "sourceLabel": "ChatGPT",
+          "decision": "Retained the method/worldview comparison and its nested definitions. Repaired the blanket untestability claim and distinguished naturalism from a promise of complete explanation."
+        },
+        {
+          "prompt": 1,
+          "sourceColumn": 2,
+          "sourceLabel": "Gemini",
+          "decision": "Retained the focus/purpose/scope comparison. Distinguished natural from ordinary material stuff, guidance from a guarantee, and metaphysical commitment from confidence; added a concrete researcher example."
+        },
+        {
+          "prompt": 2,
+          "sourceColumn": 1,
+          "sourceLabel": "ChatGPT",
+          "decision": "Retained the five kinds of support. Developed eclipse prediction as a test beyond fitting a story, kept technology and cross-field coherence, and made inductive support explicitly fallible."
+        },
+        {
+          "prompt": 2,
+          "sourceColumn": 2,
+          "sourceLabel": "Gemini",
+          "decision": "Retained the evidence/qualifications progression. Explained independent checking of historical events and why an untestable rival gains no support from a gap."
+        },
+        {
+          "prompt": 3,
+          "sourceColumn": 1,
+          "sourceLabel": "ChatGPT",
+          "decision": "Revised all eight blocks to answer the curator’s conditional directly. Kept all six original criteria in order; distinguished explanatory success, anomaly, cause attribution, peer review, and naming disputes."
+        },
+        {
+          "prompt": 3,
+          "sourceColumn": 2,
+          "sourceLabel": "Gemini",
+          "decision": "Repaired the substitution of immediate universal acceptance for taking root. Kept the challenges/acceptance/additional-points structure and developed evidence thresholds, parsimony, and fair comparison without classifying consciousness research as supernatural."
+        },
+        {
+          "prompt": 4,
+          "sourceColumn": 1,
+          "sourceLabel": "ChatGPT",
+          "decision": "Kept the four historical categories and reverse-case discussion. Added source-backed mechanisms, distinguished seizures from mental illness, identified representative rather than exhaustive coverage, and removed circular dismissal by definition."
+        },
+        {
+          "prompt": 4,
+          "sourceColumn": 2,
+          "sourceLabel": "Gemini",
+          "decision": "Kept four comparisons and two alleged reverse categories. Explicitly identified geocentrism as an invalid natural/supernatural comparison; distinguished persistence and unexplained reports from evidence of supernatural causation."
+        },
+        {
+          "prompt": 5,
+          "sourceColumn": 1,
+          "sourceLabel": "ChatGPT",
+          "decision": "Retained five questions followed by five answers. Revised questions 1, 3, 4, and 5 and their keys to match the repaired argument; restored line breaks between options."
+        },
+        {
+          "prompt": 5,
+          "sourceColumn": 2,
+          "sourceLabel": "Gemini",
+          "decision": "Retained five nested multiple-choice questions followed by five keys. Repaired multiple defensible choices, the universal-acceptance distraction, geocentrism classification, and the interpretation of unknown causes."
+        },
+        {
+          "prompt": 6,
+          "sourceColumn": 1,
+          "sourceLabel": "ChatGPT",
+          "decision": "Retained fourteen questions verbatim; changed the reliability question to avoid assuming that testability guarantees truth. Fifteen questions remain."
+        },
+        {
+          "prompt": 6,
+          "sourceColumn": 2,
+          "sourceLabel": "Gemini",
+          "decision": "Retained thirteen of fifteen questions. Made near-death evidence discriminating and replaced the off-focus extraterrestrial question with one about what would establish a supernatural cause."
+        }
+      ]
+    },
+    {
+      "pagePath": "/philosophers/david-hume/",
+      "pageTitle": "David Hume",
+      "status": "reviewed-revised-verified",
+      "fullOriginalRead": true,
+      "changes": [
+        "Kept one short paragraph. Replaced the all-sensory-knowledge slogan with the ideas/impressions and relations-of-ideas/matters-of-fact distinctions; connected skepticism to responsible inference.",
+        "Kept one short paragraph. Made Hume’s challenge precise while retaining his influence on Kant, selfhood, sentiment, and religion.",
+        "Retained all seven topics in order. Explained induction with a billiard example, qualified self-unity, retained reason’s role in ethics, framed miracles as evidence assessment, and repaired the account of original contracts.",
+        "Retained seven entries. Removed the contradiction between all knowledge coming from experience and the fork; developed circularity, mental substance, bundle unity, and the is–ought transition.",
+        "Retained seven factors. Replaced the revolutionary-in-an-entirely-rationalist-age story; distinguished early reception, literary readership, networks, persistence, and later canon formation.",
+        "Retained five factors. Separated original recognition from later influence on Kant and continuing use; treated explanatory claims as plausible historical interpretation.",
+        "Retained nine domains. Qualified broad causal-influence claims about science, existentialism, and analytic philosophy while making the strongest links specific.",
+        "Retained eight domains. Clarified mental-substance skepticism and economics; distinguished present relevance from a direct historical lineage.",
+        "Kept seven question/answer pairs and their expandable answers. Replaced five questions contaminated by unrelated conversations; retained the Hume and Kant identification items.",
+        "Retained all seven questions in order except clarification of the first. Added an explicit seven-item answer guide because none existed in this column.",
+        "Kept seven question/answer pairs and expandable placement. Repaired six answers on knowledge, causation, Kant, sentiment, is–ought, and reputation; retained the domain answer.",
+        "Kept twelve questions in order. Replaced four irrelevant questions about other conversations and narrowed the scientific-method influence question; all remaining questions stay.",
+        "Retained all twelve original questions. Split the accidentally merged tenth/eleventh questions into separate list items; maintained four groups numbered 1–3, 4–6, 7–9, and 10–12.",
+        "Retained eleven questions verbatim and narrowed one unsupported claim of direct influence on scientific methodology. Twelve remain."
+      ],
+      "verification": {
+        "pagePath": "/philosophers/david-hume/",
+        "sourceSha256": "024ee864ea8369075744368ee192866792efa27581d89298eeed8335b80bb11b",
+        "originalPrompts": 6,
+        "modelResponses": 14,
+        "blocksRetainedVerbatim": 74,
+        "blocksExplicitlyRevised": 56,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": false,
+        "explicitListItemSplits": [
+          "6.2.14"
+        ],
+        "explicitResponseAppendices": [
+          "5.2"
+        ],
+        "formatChecks": {
+          "contributionLists": [
+            7,
+            7
+          ],
+          "quizColumnsParagraphs": [
+            14,
+            7,
+            14
+          ],
+          "addedGeminiAnswerGuide": [
+            7
+          ],
+          "discussionGroups": [
+            12,
+            3,
+            3,
+            3,
+            3,
+            12
+          ]
+        },
+        "sha256": "f032caa34a5e3058688f0cbd41d5d4883f5473c7f44b5c6c86f75d703a4aca81",
+        "urlMatch": true,
+        "titleMatch": true,
+        "completeSourceRead": true,
+        "promptsVerbatimInOrder": true,
+        "responsesInOriginalColumnsAndOrder": true,
+        "curatorExchangeReview": "No curator correction or dialogue turn occurs in this source; all original requests/headings are present.",
+        "wholeOriginalPreservation": "Repeated contents menu and decorative logos replaced by site navigation and model labels. Opening highlight excerpts are represented by the retained topics and corrected responses; complete original HTML preserved in snapshot."
+      },
+      "remainingConcerns": [
+        "Third source column is unlabeled in this original; deliberately left unattributed. The original heading Quizzes is retained verbatim without inventing a missing curator instruction."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 5756,
+        "title": "David Hume",
+        "url": "http://byteseismic.com/2024/04/08/david-hume/",
+        "contentSha256": "024ee864ea8369075744368ee192866792efa27581d89298eeed8335b80bb11b",
+        "wordCount": 4372,
+        "sourceH2Headings": [
+          "Provide a short paragraph explaining David Hume’s influence on philosophy.",
+          "Provide an annotated list of David Hume’s 7 greatest contributions to philosophy.",
+          "Provide the most likely causes behind David Hume becoming a notable philosopher.",
+          "Which schools of philosophical thought and academic domains has the philosophy of David Hume most influenced?",
+          "Quizzes",
+          "Provide 12 discussion questions relevant to the content above. "
+        ]
+      },
+      "reviewedOn": "2026-09-09",
+      "sourceUsed": {
+        "cache": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 5756,
+        "title": "David Hume",
+        "url": "http://byteseismic.com/2024/04/08/david-hume/",
+        "date": "2024-04-08T22:51:02+00:00",
+        "snapshot": "quality/original-source-revisions/david-hume-wordpress-5756.html",
+        "sourceSha256": "024ee864ea8369075744368ee192866792efa27581d89298eeed8335b80bb11b"
+      },
+      "responseDecisions": [
+        {
+          "prompt": 1,
+          "sourceColumn": 1,
+          "sourceLabel": "ChatGPT",
+          "decision": "Kept one short paragraph. Replaced the all-sensory-knowledge slogan with the ideas/impressions and relations-of-ideas/matters-of-fact distinctions; connected skepticism to responsible inference."
+        },
+        {
+          "prompt": 1,
+          "sourceColumn": 2,
+          "sourceLabel": "Gemini",
+          "decision": "Kept one short paragraph. Made Hume’s challenge precise while retaining his influence on Kant, selfhood, sentiment, and religion."
+        },
+        {
+          "prompt": 2,
+          "sourceColumn": 1,
+          "sourceLabel": "ChatGPT",
+          "decision": "Retained all seven topics in order. Explained induction with a billiard example, qualified self-unity, retained reason’s role in ethics, framed miracles as evidence assessment, and repaired the account of original contracts."
+        },
+        {
+          "prompt": 2,
+          "sourceColumn": 2,
+          "sourceLabel": "Gemini",
+          "decision": "Retained seven entries. Removed the contradiction between all knowledge coming from experience and the fork; developed circularity, mental substance, bundle unity, and the is–ought transition."
+        },
+        {
+          "prompt": 3,
+          "sourceColumn": 1,
+          "sourceLabel": "ChatGPT",
+          "decision": "Retained seven factors. Replaced the revolutionary-in-an-entirely-rationalist-age story; distinguished early reception, literary readership, networks, persistence, and later canon formation."
+        },
+        {
+          "prompt": 3,
+          "sourceColumn": 2,
+          "sourceLabel": "Gemini",
+          "decision": "Retained five factors. Separated original recognition from later influence on Kant and continuing use; treated explanatory claims as plausible historical interpretation."
+        },
+        {
+          "prompt": 4,
+          "sourceColumn": 1,
+          "sourceLabel": "ChatGPT",
+          "decision": "Retained nine domains. Qualified broad causal-influence claims about science, existentialism, and analytic philosophy while making the strongest links specific."
+        },
+        {
+          "prompt": 4,
+          "sourceColumn": 2,
+          "sourceLabel": "Gemini",
+          "decision": "Retained eight domains. Clarified mental-substance skepticism and economics; distinguished present relevance from a direct historical lineage."
+        },
+        {
+          "prompt": 5,
+          "sourceColumn": 1,
+          "sourceLabel": "ChatGPT",
+          "decision": "Kept seven question/answer pairs and their expandable answers. Replaced five questions contaminated by unrelated conversations; retained the Hume and Kant identification items."
+        },
+        {
+          "prompt": 5,
+          "sourceColumn": 2,
+          "sourceLabel": "Gemini",
+          "decision": "Retained all seven questions in order except clarification of the first. Added an explicit seven-item answer guide because none existed in this column."
+        },
+        {
+          "prompt": 5,
+          "sourceColumn": 3,
+          "sourceLabel": "Unattributed third source column",
+          "decision": "Kept seven question/answer pairs and expandable placement. Repaired six answers on knowledge, causation, Kant, sentiment, is–ought, and reputation; retained the domain answer."
+        },
+        {
+          "prompt": 6,
+          "sourceColumn": 1,
+          "sourceLabel": "ChatGPT",
+          "decision": "Kept twelve questions in order. Replaced four irrelevant questions about other conversations and narrowed the scientific-method influence question; all remaining questions stay."
+        },
+        {
+          "prompt": 6,
+          "sourceColumn": 2,
+          "sourceLabel": "Gemini",
+          "decision": "Retained all twelve original questions. Split the accidentally merged tenth/eleventh questions into separate list items; maintained four groups numbered 1–3, 4–6, 7–9, and 10–12."
+        },
+        {
+          "prompt": 6,
+          "sourceColumn": 3,
+          "sourceLabel": "Unattributed third source column",
+          "decision": "Retained eleven questions verbatim and narrowed one unsupported claim of direct influence on scientific methodology. Twelve remain."
+        }
+      ]
+    },
+    {
+      "pagePath": "/philosophers/baruch-spinoza/",
+      "pageTitle": "Baruch Spinoza",
+      "status": "reviewed-revised-verified",
+      "fullOriginalRead": true,
+      "changes": [
+        "Reviewed and retained: its one-paragraph account of monism, necessity, reason, and ethical self-improvement is coherent and directly answers the requested overview.",
+        "Kept one short paragraph while separating biblical criticism and political freedom from deductions supposedly following automatically from monism.",
+        "Reviewed and retained: its compact overview accurately links monism, determinism, affect, intellectual love, and controversy; later responses supply the necessary distinctions.",
+        "Preserved all seven nested annotations and their order. Repaired invented priority for pantheism, explained freedom within necessity, and developed affect transformation and political limits.",
+        "Retained seven entries. Distinguished substance/attributes/modes, nature as cause/effect, self-cause/finite causation, intuitive knowledge/reason, and metaphysical necessity/empirical laws.",
+        "Retained all seven original topics within the source paragraph. Formatted seven visible numbered entries and developed conatus, cooperation, affect, and the teleology distinction.",
+        "Retained seven factors. Qualified Amsterdam’s openness, the liberation-by-exclusion story, geometric certainty, and the direction of later influence.",
+        "Retained five factors and the useful unified-system account. Repaired the disappearance-of-religious-authority story and separated later reception from initial causes.",
+        "Retained seven factors. Marked lens-work influence as plausible, avoided a precise philosophical origin at exclusion, and distinguished proof form from sound premises.",
+        "Retained six schools and six domains, with their nested annotations. Removed unsupported named chains and sweeping claims about existentialism, analytic method, modern church/state separation, psychology, and scientific laws.",
+        "Retained four schools and five domains. Distinguished comparison from historical influence in existentialism and neuroscience; clarified scriptural interpretation and differences from process thought.",
+        "Retained eight domains. Qualified the broad Enlightenment lineage, repaired opposition to all virtue ethics, and narrowed anticipatory psychology and first-Jewish-critic claims.",
+        "Kept seven questions and seven answers. Aligned questions with qualified reception and exclusion claims and repaired the request for non-philosophical domains.",
+        "Kept seven questions and answers. Fixed a question asking for a non-philosophical field whose answer was philosophy of mind; replaced vague reason question with attributes/modes.",
+        "Kept seven questions and the compact seven-answer line. Removed ambiguity about which list is assessed, corrected the exclusion premise, distinguished comparisons, and removed optician/lens-grinder overlap.",
+        "Retained ten questions verbatim; revised two that assumed geometric form guarantees rigor or metaphysics establishes scientific laws. Twelve remain.",
+        "Retained ten questions. Replaced reason-only framing with Spinoza’s knowledge distinctions and the philosopher-Einstein classification with later readers Hegel/Goethe.",
+        "Retained eleven questions verbatim. One now asks what evidence would convert modern resemblance into historical influence. Twelve remain."
+      ],
+      "verification": {
+        "pagePath": "/philosophers/baruch-spinoza/",
+        "sourceSha256": "0c07fc661f55d6ab67483ceb303a01f6d54f44b1811243ef2d3f2479872ef2dc",
+        "originalPrompts": 6,
+        "modelResponses": 18,
+        "blocksRetainedVerbatim": 127,
+        "blocksExplicitlyRevised": 60,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "ChatGPTSevenContributions": [
+            7
+          ],
+          "GeminiSevenContributions": [
+            7
+          ],
+          "ClaudeSevenFormattedContributions": [
+            7
+          ],
+          "quizQuestionAndSeparateAnswerLists": [
+            7,
+            7,
+            7,
+            7,
+            7
+          ],
+          "discussionQuestions": [
+            12,
+            12,
+            12
+          ]
+        },
+        "sha256": "934ac15bf60e33c45c6ca25c26825295b555c88057b4ff1e7deab75aa063d86d",
+        "urlMatch": true,
+        "titleMatch": true,
+        "completeSourceRead": true,
+        "promptsVerbatimInOrder": true,
+        "responsesInOriginalColumnsAndOrder": true,
+        "curatorExchangeReview": "No curator correction or dialogue turn occurs in this source; all original requests/headings are present.",
+        "wholeOriginalPreservation": "Repeated contents menu and decorative logos replaced by site navigation and model labels. Opening highlight excerpts are represented by the retained topics and corrected responses; complete original HTML preserved in snapshot."
+      },
+      "remainingConcerns": [
+        "Broad historical-influence claims are now narrowed; precise causal contribution of each biographical factor is not quantified."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 8737,
+        "title": "Baruch Spinoza",
+        "url": "http://byteseismic.com/2024/05/13/baruch-spinoza/",
+        "contentSha256": "0c07fc661f55d6ab67483ceb303a01f6d54f44b1811243ef2d3f2479872ef2dc",
+        "wordCount": 4472,
+        "sourceH2Headings": [
+          "Provide a short paragraph explaining Baruch Spinoza’s influence on philosophy.",
+          "Provide an annotated list of Spinoza’s 7 greatest contributions to philosophy.",
+          "Provide the most likely causes behind Spinoza becoming a notable philosopher.",
+          "Which schools of philosophical thought and academic domains has the philosophy of Spinoza most influenced?",
+          "Create a 7-item quiz on the entire thread above. ",
+          "Provide 12 discussion questions relevant to the content above. "
+        ]
+      },
+      "reviewedOn": "2026-09-09",
+      "sourceUsed": {
+        "cache": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 8737,
+        "title": "Baruch Spinoza",
+        "url": "http://byteseismic.com/2024/05/13/baruch-spinoza/",
+        "date": "2024-05-13T21:37:26+00:00",
+        "snapshot": "quality/original-source-revisions/baruch-spinoza-wordpress-8737.html",
+        "sourceSha256": "0c07fc661f55d6ab67483ceb303a01f6d54f44b1811243ef2d3f2479872ef2dc"
+      },
+      "responseDecisions": [
+        {
+          "prompt": 1,
+          "sourceColumn": 1,
+          "sourceLabel": "ChatGPT",
+          "decision": "Reviewed and retained: its one-paragraph account of monism, necessity, reason, and ethical self-improvement is coherent and directly answers the requested overview."
+        },
+        {
+          "prompt": 1,
+          "sourceColumn": 2,
+          "sourceLabel": "Gemini",
+          "decision": "Kept one short paragraph while separating biblical criticism and political freedom from deductions supposedly following automatically from monism."
+        },
+        {
+          "prompt": 1,
+          "sourceColumn": 3,
+          "sourceLabel": "Claude",
+          "decision": "Reviewed and retained: its compact overview accurately links monism, determinism, affect, intellectual love, and controversy; later responses supply the necessary distinctions."
+        },
+        {
+          "prompt": 2,
+          "sourceColumn": 1,
+          "sourceLabel": "ChatGPT",
+          "decision": "Preserved all seven nested annotations and their order. Repaired invented priority for pantheism, explained freedom within necessity, and developed affect transformation and political limits."
+        },
+        {
+          "prompt": 2,
+          "sourceColumn": 2,
+          "sourceLabel": "Gemini",
+          "decision": "Retained seven entries. Distinguished substance/attributes/modes, nature as cause/effect, self-cause/finite causation, intuitive knowledge/reason, and metaphysical necessity/empirical laws."
+        },
+        {
+          "prompt": 2,
+          "sourceColumn": 3,
+          "sourceLabel": "Claude",
+          "decision": "Retained all seven original topics within the source paragraph. Formatted seven visible numbered entries and developed conatus, cooperation, affect, and the teleology distinction."
+        },
+        {
+          "prompt": 3,
+          "sourceColumn": 1,
+          "sourceLabel": "ChatGPT",
+          "decision": "Retained seven factors. Qualified Amsterdam’s openness, the liberation-by-exclusion story, geometric certainty, and the direction of later influence."
+        },
+        {
+          "prompt": 3,
+          "sourceColumn": 2,
+          "sourceLabel": "Gemini",
+          "decision": "Retained five factors and the useful unified-system account. Repaired the disappearance-of-religious-authority story and separated later reception from initial causes."
+        },
+        {
+          "prompt": 3,
+          "sourceColumn": 3,
+          "sourceLabel": "Claude",
+          "decision": "Retained seven factors. Marked lens-work influence as plausible, avoided a precise philosophical origin at exclusion, and distinguished proof form from sound premises."
+        },
+        {
+          "prompt": 4,
+          "sourceColumn": 1,
+          "sourceLabel": "ChatGPT",
+          "decision": "Retained six schools and six domains, with their nested annotations. Removed unsupported named chains and sweeping claims about existentialism, analytic method, modern church/state separation, psychology, and scientific laws."
+        },
+        {
+          "prompt": 4,
+          "sourceColumn": 2,
+          "sourceLabel": "Gemini",
+          "decision": "Retained four schools and five domains. Distinguished comparison from historical influence in existentialism and neuroscience; clarified scriptural interpretation and differences from process thought."
+        },
+        {
+          "prompt": 4,
+          "sourceColumn": 3,
+          "sourceLabel": "Claude",
+          "decision": "Retained eight domains. Qualified the broad Enlightenment lineage, repaired opposition to all virtue ethics, and narrowed anticipatory psychology and first-Jewish-critic claims."
+        },
+        {
+          "prompt": 5,
+          "sourceColumn": 1,
+          "sourceLabel": "ChatGPT",
+          "decision": "Kept seven questions and seven answers. Aligned questions with qualified reception and exclusion claims and repaired the request for non-philosophical domains."
+        },
+        {
+          "prompt": 5,
+          "sourceColumn": 2,
+          "sourceLabel": "Gemini",
+          "decision": "Kept seven questions and answers. Fixed a question asking for a non-philosophical field whose answer was philosophy of mind; replaced vague reason question with attributes/modes."
+        },
+        {
+          "prompt": 5,
+          "sourceColumn": 3,
+          "sourceLabel": "Claude",
+          "decision": "Kept seven questions and the compact seven-answer line. Removed ambiguity about which list is assessed, corrected the exclusion premise, distinguished comparisons, and removed optician/lens-grinder overlap."
+        },
+        {
+          "prompt": 6,
+          "sourceColumn": 1,
+          "sourceLabel": "ChatGPT",
+          "decision": "Retained ten questions verbatim; revised two that assumed geometric form guarantees rigor or metaphysics establishes scientific laws. Twelve remain."
+        },
+        {
+          "prompt": 6,
+          "sourceColumn": 2,
+          "sourceLabel": "Gemini",
+          "decision": "Retained ten questions. Replaced reason-only framing with Spinoza’s knowledge distinctions and the philosopher-Einstein classification with later readers Hegel/Goethe."
+        },
+        {
+          "prompt": 6,
+          "sourceColumn": 3,
+          "sourceLabel": "Claude",
+          "decision": "Retained eleven questions verbatim. One now asks what evidence would convert modern resemblance into historical influence. Twelve remain."
+        }
+      ]
+    },
+    {
+      "pagePath": "/philosophers/immanuel-kant/",
+      "pageTitle": "Immanuel Kant",
+      "status": "reviewed-revised-verified",
+      "fullOriginalRead": true,
+      "changes": [
+        "Kept one short paragraph; clarified conditions/limits of experience and the distinct influence of ethics and aesthetics.",
+        "Kept one short paragraph; explained that the response to empiricism/rationalism is an argumentative transformation rather than a simple compromise.",
+        "Retained the original seven nested entries, including overlapping idealism and phenomena/noumena topics. Distinguished conformity/moral worth, empirical reality/illusion, autonomy/preference, and development/invention of the sublime.",
+        "Retained seven entries. Corrected synthetic a posteriori knowledge, the good without qualification formulation, merely-as-means, the sublime, and republican federation; supplied concrete knowledge and exchange examples.",
+        "Retained seven factors. Connected arguments to readership without assuming immediate acceptance; separated later reputation from initial conditions.",
+        "Retained five factors. Replaced genius and passive/active slogans with the actual question about objective experience; distinguished influence from agreement.",
+        "Retained ten schools/domains. Qualified generalizations about existentialism, Husserl, analytic rigor, and modern rights as copies of Kant.",
+        "Retained five schools and five domains. Treated utilitarianism as a rival/interlocutor, avoided equating Husserl’s phenomena with Kant’s distinction, and specified analytic engagement.",
+        "Kept seven questions and seven answers. Corrected duty/moral worth, knowledge limits, autonomy, accepted multiple valid domain answers, and the claimed invention of the sublime.",
+        "Kept seven questions and seven answers. Corrected good-will wording, removed a self-answering sublime question, and repaired a question that referred to absent options.",
+        "Retained ten questions verbatim. Repaired two misleading presuppositions about Husserl and the collapse of beauty, sublimity, and purposiveness.",
+        "Reviewed and retained all twelve: they invite application, comparison, criticism, and the reader’s own response without requiring the errors removed from the answers."
+      ],
+      "verification": {
+        "pagePath": "/philosophers/immanuel-kant/",
+        "sourceSha256": "f633344cf3585d06df562bd4577ced02b2749b141f43d948c6abc5c88fcd0496",
+        "originalPrompts": 6,
+        "modelResponses": 12,
+        "blocksRetainedVerbatim": 99,
+        "blocksExplicitlyRevised": 42,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "sevenContributions": [
+            7,
+            7
+          ],
+          "quizQuestionsAndAnswers": [
+            7,
+            7,
+            7,
+            7
+          ],
+          "discussionQuestions": [
+            12,
+            12
+          ]
+        },
+        "sha256": "5004589a31c29149a1155b76997fb334a4cf7b22cdf0399818206c05b10d369d",
+        "urlMatch": true,
+        "titleMatch": true,
+        "completeSourceRead": true,
+        "promptsVerbatimInOrder": true,
+        "responsesInOriginalColumnsAndOrder": true,
+        "curatorExchangeReview": "No curator correction or dialogue turn occurs in this source; all original requests/headings are present.",
+        "wholeOriginalPreservation": "Repeated contents menu and decorative logos replaced by site navigation and model labels. Opening highlight excerpts are represented by the retained topics and corrected responses; complete original HTML preserved in snapshot."
+      },
+      "remainingConcerns": [
+        "The original overlapping idealism and phenomena/noumena entries are retained and distinguished; the overview does not settle competing scholarly interpretations of transcendental idealism."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 9153,
+        "title": "Immanuel Kant",
+        "url": "http://byteseismic.com/2024/05/16/immanuel-kant/",
+        "contentSha256": "f633344cf3585d06df562bd4577ced02b2749b141f43d948c6abc5c88fcd0496",
+        "wordCount": 3291,
+        "sourceH2Headings": [
+          "Provide a short paragraph explaining Immanuel Kant’s influence on philosophy.",
+          "Provide an annotated list of Kant’s 7 greatest contributions to philosophy.",
+          "Provide the most likely causes behind Kant becoming a notable philosopher.",
+          "Which schools of philosophical thought and academic domains has the philosophy of Kant most influenced?",
+          "Create a 7-item quiz on the entire thread above.",
+          "Provide 12 discussion questions relevant to the content above. "
+        ]
+      },
+      "reviewedOn": "2026-09-09",
+      "sourceUsed": {
+        "cache": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 9153,
+        "title": "Immanuel Kant",
+        "url": "http://byteseismic.com/2024/05/16/immanuel-kant/",
+        "date": "2024-05-16T22:20:18+00:00",
+        "snapshot": "quality/original-source-revisions/immanuel-kant-wordpress-9153.html",
+        "sourceSha256": "f633344cf3585d06df562bd4577ced02b2749b141f43d948c6abc5c88fcd0496"
+      },
+      "responseDecisions": [
+        {
+          "prompt": 1,
+          "sourceColumn": 1,
+          "sourceLabel": "ChatGPT",
+          "decision": "Kept one short paragraph; clarified conditions/limits of experience and the distinct influence of ethics and aesthetics."
+        },
+        {
+          "prompt": 1,
+          "sourceColumn": 2,
+          "sourceLabel": "Gemini",
+          "decision": "Kept one short paragraph; explained that the response to empiricism/rationalism is an argumentative transformation rather than a simple compromise."
+        },
+        {
+          "prompt": 2,
+          "sourceColumn": 1,
+          "sourceLabel": "ChatGPT",
+          "decision": "Retained the original seven nested entries, including overlapping idealism and phenomena/noumena topics. Distinguished conformity/moral worth, empirical reality/illusion, autonomy/preference, and development/invention of the sublime."
+        },
+        {
+          "prompt": 2,
+          "sourceColumn": 2,
+          "sourceLabel": "Gemini",
+          "decision": "Retained seven entries. Corrected synthetic a posteriori knowledge, the good without qualification formulation, merely-as-means, the sublime, and republican federation; supplied concrete knowledge and exchange examples."
+        },
+        {
+          "prompt": 3,
+          "sourceColumn": 1,
+          "sourceLabel": "ChatGPT",
+          "decision": "Retained seven factors. Connected arguments to readership without assuming immediate acceptance; separated later reputation from initial conditions."
+        },
+        {
+          "prompt": 3,
+          "sourceColumn": 2,
+          "sourceLabel": "Gemini",
+          "decision": "Retained five factors. Replaced genius and passive/active slogans with the actual question about objective experience; distinguished influence from agreement."
+        },
+        {
+          "prompt": 4,
+          "sourceColumn": 1,
+          "sourceLabel": "ChatGPT",
+          "decision": "Retained ten schools/domains. Qualified generalizations about existentialism, Husserl, analytic rigor, and modern rights as copies of Kant."
+        },
+        {
+          "prompt": 4,
+          "sourceColumn": 2,
+          "sourceLabel": "Gemini",
+          "decision": "Retained five schools and five domains. Treated utilitarianism as a rival/interlocutor, avoided equating Husserl’s phenomena with Kant’s distinction, and specified analytic engagement."
+        },
+        {
+          "prompt": 5,
+          "sourceColumn": 1,
+          "sourceLabel": "ChatGPT",
+          "decision": "Kept seven questions and seven answers. Corrected duty/moral worth, knowledge limits, autonomy, accepted multiple valid domain answers, and the claimed invention of the sublime."
+        },
+        {
+          "prompt": 5,
+          "sourceColumn": 2,
+          "sourceLabel": "Gemini",
+          "decision": "Kept seven questions and seven answers. Corrected good-will wording, removed a self-answering sublime question, and repaired a question that referred to absent options."
+        },
+        {
+          "prompt": 6,
+          "sourceColumn": 1,
+          "sourceLabel": "ChatGPT",
+          "decision": "Retained ten questions verbatim. Repaired two misleading presuppositions about Husserl and the collapse of beauty, sublimity, and purposiveness."
+        },
+        {
+          "prompt": 6,
+          "sourceColumn": 2,
+          "sourceLabel": "Gemini",
+          "decision": "Reviewed and retained all twelve: they invite application, comparison, criticism, and the reader’s own response without requiring the errors removed from the answers."
+        }
+      ]
+    },
+    {
+      "pagePath": "/political-philosophy/critical-race-theory/",
+      "pageTitle": "Critical Race Theory",
+      "status": "source-located-review-pending",
+      "fullOriginalRead": false,
+      "changes": [],
+      "verification": {
+        "urlSlugMatch": true,
+        "titleMatchIgnoringAccentsAndCase": true,
+        "currentLedgerPrompts": [
+          "What are the most controversial documented stances within Critical Race Theory?",
+          "One criticism of CRT has been that there appears to be no metric to measure progress or success. Address this.",
+          "Comment on the intrinsic dangers contained in a position based on subjective perceptions rather than objective statistics.",
+          "Coleman Hughes argues for a more “color-blind” America in his book “The End of Race Politics: Arguments for a Colorblind America.” Critique the solutions he suggests in that book."
+        ],
+        "exactCurrentPromptMatchesToSourceHeadings": 4,
+        "warning": "Machine source inventory only; heading extraction is not a complete prompt or semantic review."
+      },
+      "remainingConcerns": [
+        "Full original reading, contextual response editing, and fidelity review remain pending."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 13449,
+        "title": "Critical Race Theory",
+        "url": "http://byteseismic.com/2024/09/17/critical-race-theory/",
+        "contentSha256": "ec775528f4023a57e00b53cdeda02d8bb998ff16a2590e3b263b087909d7dffd",
+        "wordCount": 3019,
+        "sourceH2Headings": [
+          "What are the most controversial documented stances within Critical Race Theory?",
+          "One criticism of CRT has been that there appears to be no metric to measure progress or success. Address this.",
+          "Comment on the intrinsic dangers contained in a position based on subjective perceptions rather than objective statistics.",
+          "Coleman Hughes argues for a more “color-blind” America in his book “The End of Race Politics: Arguments for a Colorblind America.” Critique the solutions he suggests in that book.",
+          "A Deep Dive into Coleman Hughes’ “The End of Race Politics”"
+        ]
+      }
+    },
+    {
+      "pagePath": "/philosophers/ancient-philosophers/",
+      "pageTitle": "Ancient Philosophers",
+      "status": "source-located-review-pending",
+      "fullOriginalRead": false,
+      "changes": [],
+      "verification": {
+        "urlSlugMatch": true,
+        "titleMatchIgnoringAccentsAndCase": true,
+        "currentLedgerPrompts": [
+          "Provide a general description of ancient philosophy.",
+          "Provide a list of the key contributions ancient philosophy has made to philosophical thought.",
+          "List the most influential ancient philosophers in history.",
+          "Produce a 20-line hypothetical dialogue between an Asian ancient philosopher and a first-year philosophy student."
+        ],
+        "exactCurrentPromptMatchesToSourceHeadings": 3,
+        "warning": "Machine source inventory only; heading extraction is not a complete prompt or semantic review."
+      },
+      "remainingConcerns": [
+        "Full original reading, contextual response editing, and fidelity review remain pending."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 7710,
+        "title": "Ancient Philosophers",
+        "url": "http://byteseismic.com/2024/05/02/ancient-philosophers/",
+        "contentSha256": "3b14c3f87549dc0f50f0bdc4d7f20dfe2c6c3494270575d8d970e6eb054daa16",
+        "wordCount": 5804,
+        "sourceH2Headings": [
+          "Provide a general description of ancient philosophy.",
+          "Provide a list of the key contributions ancient philosophy has made to philosophical thought.",
+          "List the most influential ancient philosophers in history.",
+          "Produce a 20-line hypothetical dialogue between an Asian ancient philosopher and a 1st-year philosophy student.",
+          "Create a 7-item quiz on the entire thread above.",
+          "Provide 15 discussion questions relevant to the content above. "
+        ]
+      }
+    },
+    {
+      "pagePath": "/rational-thought/calculating-risks/",
+      "pageTitle": "Calculating Risks",
+      "status": "source-located-review-pending",
+      "fullOriginalRead": false,
+      "changes": [],
+      "verification": {
+        "urlSlugMatch": true,
+        "titleMatchIgnoringAccentsAndCase": true,
+        "currentLedgerPrompts": [
+          "Provide me with a table with two lists, the first a list of risks that humans tend to overestimate, and the second a list of risks that humans tend to underestimate.",
+          "Describe the interplay between human emotions and faulty cognitive skills that prevents humans from accurately assessing risks.",
+          "Provide 5 examples from history in which a faulty risk assessment lead to injury or loss, including lost opportunities.",
+          "Provide a step-by-step process one can follow to ensure a highly accurate assessment of risks."
+        ],
+        "exactCurrentPromptMatchesToSourceHeadings": 4,
+        "warning": "Machine source inventory only; heading extraction is not a complete prompt or semantic review."
+      },
+      "remainingConcerns": [
+        "Full original reading, contextual response editing, and fidelity review remain pending."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 4569,
+        "title": "Calculating Risks",
+        "url": "http://byteseismic.com/2024/03/26/calculating-risks/",
+        "contentSha256": "4e19fd6c291ea9de20761b9d703bfbb5745c0065da975a4c55110933011904b7",
+        "wordCount": 4592,
+        "sourceH2Headings": [
+          "Provide me with a table with two lists, the first a list of risks that humans tend to overestimate, and the second a list of risks that humans tend to underestimate.",
+          "Describe the interplay between human emotions and faulty cognitive skills that prevents humans from accurately assessing risks.",
+          "Provide 5 examples from history in which a faulty risk assessment lead to injury or loss, including lost opportunities.",
+          "Provide a step-by-step process one can follow to ensure a highly accurate assessment of risks.",
+          "Create a 10-item quiz on the discussion above.",
+          "Provide 15 discussion questions relevant to the content above. "
+        ]
+      }
+    },
+    {
+      "pagePath": "/philosophy-of-mind/elitzur-on-consciousness/",
+      "pageTitle": "Elitzur on Consciousness",
+      "status": "source-located-review-pending",
+      "fullOriginalRead": false,
+      "changes": [],
+      "verification": {
+        "urlSlugMatch": true,
+        "titleMatchIgnoringAccentsAndCase": true,
+        "currentLedgerPrompts": [
+          "Assess this content * for factual accuracy, logical coherence, and testability.",
+          "Assessment of Content"
+        ],
+        "exactCurrentPromptMatchesToSourceHeadings": 0,
+        "warning": "Machine source inventory only; heading extraction is not a complete prompt or semantic review."
+      },
+      "remainingConcerns": [
+        "Full original reading, contextual response editing, and fidelity review remain pending."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 11618,
+        "title": "Elitzur on Consciousness",
+        "url": "http://byteseismic.com/2024/06/11/elitzur-on-consciousness/",
+        "contentSha256": "6d5d0ee88c5c273d8a1d3aeded8e6716ef369692c418ac6b887427afa3cdcced",
+        "wordCount": 3401,
+        "sourceH2Headings": [
+          "Assess this content* for factual accuracy, logical coherence, and testability.",
+          "Extracted Formal Arguments",
+          "Potential Weaknesses",
+          "Concluding Essay",
+          "Quiz",
+          "Provide 15 discussion questions relevant to the content above. "
+        ]
+      }
+    },
+    {
+      "pagePath": "/rational-thought/depth-or-width-of-knowledge/",
+      "pageTitle": "Depth or Width of Knowledge?",
+      "status": "source-located-review-pending",
+      "fullOriginalRead": false,
+      "changes": [],
+      "verification": {
+        "urlSlugMatch": true,
+        "titleMatchIgnoringAccentsAndCase": true,
+        "currentLedgerPrompts": [
+          "For which personalities and goals is it best to 1) gain broad knowledge in many fields or 2) gain deep knowledge in just a few fields?",
+          "Why is it so difficult to be a “polymath” or “renaissance” man or woman today?",
+          "Present a table showing which academic disciplines and careers best match those with broad knowledge and those with deep knowledge.",
+          "What different daily habits do those successfully acquring deep knowledge and those pursuing a breadth of knowledge have?"
+        ],
+        "exactCurrentPromptMatchesToSourceHeadings": 4,
+        "warning": "Machine source inventory only; heading extraction is not a complete prompt or semantic review."
+      },
+      "remainingConcerns": [
+        "Full original reading, contextual response editing, and fidelity review remain pending."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 3971,
+        "title": "Depth or Width of Knowledge?",
+        "url": "http://byteseismic.com/2024/03/19/depth-or-width-of-knowledge/",
+        "contentSha256": "8cbb0d0936d083d275510a49f9100e4f1fc55a3aa5a08828557d73239ff67a34",
+        "wordCount": 3859,
+        "sourceH2Headings": [
+          "For which personalities and goals is it best to 1) gain broad knowledge in many fields or 2) gain deep knowledge in just a few fields?",
+          "Why is it so difficult to be a “polymath” or “renaissance” man or woman today?",
+          "Present a table showing which academic disciplines and careers best match those with broad knowledge and those with deep knowledge.",
+          "What different daily habits do those successfully acquring deep knowledge and those pursuing a breadth of knowledge have? ",
+          "Create a 10-item quiz on the discussion above. ",
+          "Provide 15 discussion questions relevant to the content above. "
+        ]
+      }
+    },
+    {
+      "pagePath": "/epistemology/adequate-evidence/",
+      "pageTitle": "“Adequate” Evidence",
+      "status": "source-located-review-pending",
+      "fullOriginalRead": false,
+      "changes": [],
+      "verification": {
+        "urlSlugMatch": true,
+        "titleMatchIgnoringAccentsAndCase": true,
+        "currentLedgerPrompts": [
+          "Rational belief is a degree of belief that maps to the degree of the relevant evidence. Therefore there is no “adequate” degree of evidence at which an epistemic switch goes from off to on, right?",
+          "Create a hypothetical dialogue between an epistemology professor and a student who holds to the “epistemic switch” notion in which evidence must reach a certain level before belief and triggers full belief rather than mapping to the degree of the evidence.",
+          "I have also seen confusion about making binary decisions when certainty is sub-absolute. Provide 3 scenarios in which one’s confidence in the outcome of a particular choice can be at 20%, yet that choice remains rational.",
+          "Provide 4 scenarios that model how one can update their degree of belief up or down as new confirming or disconfirming evidence arrives."
+        ],
+        "exactCurrentPromptMatchesToSourceHeadings": 4,
+        "warning": "Machine source inventory only; heading extraction is not a complete prompt or semantic review."
+      },
+      "remainingConcerns": [
+        "Full original reading, contextual response editing, and fidelity review remain pending."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 7801,
+        "title": "“Adequate” Evidence",
+        "url": "http://byteseismic.com/2024/05/02/adequate-evidence/",
+        "contentSha256": "c75b579735715806bbf058a7f29d1119ad9b3ed8d8f2c1445bfbfa0d637c5dd6",
+        "wordCount": 4131,
+        "sourceH2Headings": [
+          "Rational belief is a degree of belief that maps to the degree of the relevant evidence. Therefore there is no “adequate” degree of evidence at which an epistemic switch goes from off to on, right?",
+          "Create a hypothetical dialogue between an epistemology professor and a student who holds to the “epistemic switch” notion in which evidence must reach a certain level before belief and triggers full belief rather than mapping to the degree of the evidence.",
+          "I have also seen confusion about making binary decisions when certainty is sub-absolute. Provide 3 scenarios in which one’s confidence in the outcome of a particular choice can be at 20%, yet that choice remains rational.",
+          "Provide 4 scenarios that model how one can update their degree of belief up or down as new confirming or disconfirming evidence arrives.",
+          "Create a 10-item quiz on the entire thread above. ",
+          "Provide 15 discussion questions relevant to the content above. "
+        ]
+      }
+    },
+    {
+      "pagePath": "/metaphysics/jeremy-sherman-on-emergence/",
+      "pageTitle": "Jeremy Sherman on Emergence",
+      "status": "source-located-review-pending",
+      "fullOriginalRead": false,
+      "changes": [],
+      "verification": {
+        "urlSlugMatch": true,
+        "titleMatchIgnoringAccentsAndCase": true,
+        "currentLedgerPrompts": [
+          "Create a list of key terms in this content. Include their definitions. Provide a summary of the content, then assess it for factual accuracy, logical coherence, and testability.",
+          "Provide a profile of the podcast guest and links to media featuring his work.",
+          "Do a deep dive into the primary arguments made in the transcript, augmented by other relevant sources. Create syllogisms of the arguments if possible, and make any causal chains explicit.",
+          "Provide your own assessment of the plausibility of these arguments, then assess the potential weaknesses."
+        ],
+        "exactCurrentPromptMatchesToSourceHeadings": 4,
+        "warning": "Machine source inventory only; heading extraction is not a complete prompt or semantic review."
+      },
+      "remainingConcerns": [
+        "Full original reading, contextual response editing, and fidelity review remain pending."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 9786,
+        "title": "Jeremy Sherman on Emergence",
+        "url": "http://byteseismic.com/2024/05/23/jeremy-sherman-on-emergence/",
+        "contentSha256": "5f7919509afdfdb53dd43f927a59e3dfc402ca073022a2b3aa4cac179af6fa2a",
+        "wordCount": 3440,
+        "sourceH2Headings": [
+          "Create a list of key terms in this content. Include their definitions. Provide a summary of the content, then assess it for factual accuracy, logical coherence, and testability.",
+          "Provide a profile of the podcast guest and links to media featuring his work.",
+          "Do a deep dive into the primary arguments made in the transcript, augmented by other relevant sources. Create syllogisms of the arguments if possible, and make any causal chains explicit.",
+          "Provide your own assessment of the plausibility of these arguments, then assess the potential weaknesses.",
+          "Create a 10-item quiz on the entire thread above.",
+          "Provide 20 discussion questions relevant to the content above. "
+        ]
+      }
+    },
+    {
+      "pagePath": "/political-philosophy/identity-politics/",
+      "pageTitle": "Identity Politics",
+      "status": "source-located-review-pending",
+      "fullOriginalRead": false,
+      "changes": [],
+      "verification": {
+        "urlSlugMatch": true,
+        "titleMatchIgnoringAccentsAndCase": true,
+        "currentLedgerPrompts": [
+          "Civil unrest often correlates to an imbalance between racial/religious/cultural/linguistic identity and national identity. Comment on the history of such imbalances leading to political strife.",
+          "How can political states ensure the national identity remains sufficiently strong to stave off disruptive tensions related to group identity?",
+          "Conflict theorists seem to have a vested interest in emphasizing differences rather than promoting commonality. Comment on this.",
+          "Divorces can be amicable if the couple can civilly recognize when differences have reached an irreconcilable point. How might two groups cultivate a disposition of civil discourse that would allow them to recognize when there needs to be a political “divorce”?"
+        ],
+        "exactCurrentPromptMatchesToSourceHeadings": 4,
+        "warning": "Machine source inventory only; heading extraction is not a complete prompt or semantic review."
+      },
+      "remainingConcerns": [
+        "Full original reading, contextual response editing, and fidelity review remain pending."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 7612,
+        "title": "Identity Politics",
+        "url": "http://byteseismic.com/2024/04/30/identity-politics/",
+        "contentSha256": "3846b417d9d5eeeb11743dcf4927849728ad9c6a415f63bbbe3d8c0ee84c4729",
+        "wordCount": 4403,
+        "sourceH2Headings": [
+          "Civil unrest often correlates to an imbalance between racial/religious/cultural/linguistic identity and national identity. Comment on the history of such imbalances leading to political strife.",
+          "How can political states ensure the national identity remains sufficiently strong to stave off disruptive tensions related to group identity?",
+          "Conflict theorists seem to have a vested interest in emphasizing differences rather than promoting commonality. Comment on this.",
+          "Divorces can be amicable if the couple can civilly recognize when differences have reached an irreconcilable point. How might two groups cultivate a disposition of civil discourse that would allow them to recognize when there needs to be a political “divorce”?",
+          "Create a 7-item quiz on the entire thread above. Manually number each quiz item. Add the list of answers after the list of questions. Do not indicate the correct answers in the items, but only include the correct answers in the final answer section.  ",
+          "Provide 15 discussion questions relevant to the content above. "
+        ]
+      }
+    },
+    {
+      "pagePath": "/philosophy-of-science/orthogonality/",
+      "pageTitle": "Orthogonality",
+      "status": "source-located-review-pending",
+      "fullOriginalRead": false,
+      "changes": [],
+      "verification": {
+        "urlSlugMatch": true,
+        "titleMatchIgnoringAccentsAndCase": true,
+        "currentLedgerPrompts": [
+          "What is orthogonality (causal independence) in the context of scientific research, and how is it commonly established?",
+          "Provide an example of an experimental design in which orthogonality (causal independence) can be robustly established.",
+          "Present 3 actual scientific experiments in which two variables were considered orthogonal, but later shown to be causally dependent.",
+          "Provide a list of current open questions of orthogonality in science."
+        ],
+        "exactCurrentPromptMatchesToSourceHeadings": 4,
+        "warning": "Machine source inventory only; heading extraction is not a complete prompt or semantic review."
+      },
+      "remainingConcerns": [
+        "Full original reading, contextual response editing, and fidelity review remain pending."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 4585,
+        "title": "Orthogonality",
+        "url": "http://byteseismic.com/2024/03/27/orthogonality/",
+        "contentSha256": "bcea4cdb594a379138562a12372e3c5a63c3e12942fe2eaf62f7cb6a75e1e918",
+        "wordCount": 4746,
+        "sourceH2Headings": [
+          "What is orthogonality (causal independence) in the context of scientific research, and how is it commonly established?",
+          "Provide an example of an experimental design in which orthogonality (causal independence) can be robustly established.",
+          "Present 3 actual scientific experiments in which two variables were considered orthogonal, but later shown to be causally dependent.",
+          "Provide a list of current open questions of orthogonality in science. ",
+          "Create a 10-item quiz on the discussion above.",
+          "Provide 15 discussion questions relevant to the content above. "
+        ]
+      }
+    },
+    {
+      "pagePath": "/philosophers/rene-descartes/",
+      "pageTitle": "René Descartes",
+      "status": "source-located-review-pending",
+      "fullOriginalRead": false,
+      "changes": [],
+      "verification": {
+        "urlSlugMatch": true,
+        "titleMatchIgnoringAccentsAndCase": true,
+        "currentLedgerPrompts": [
+          "Provide a short paragraph explaining Rene Descartes’ influence on philosophy.",
+          "Provide an annotated list of Rene Descartes’ 7 greatest contributions to philosophy.",
+          "Provide the most likely causes behind Rene Descartes becoming a notable philosopher.",
+          "Which schools of philosophical thought and academic domains has the philosophy of Rene Descartes most influenced?"
+        ],
+        "exactCurrentPromptMatchesToSourceHeadings": 4,
+        "warning": "Machine source inventory only; heading extraction is not a complete prompt or semantic review."
+      },
+      "remainingConcerns": [
+        "Full original reading, contextual response editing, and fidelity review remain pending."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 5796,
+        "title": "Rene Descartes",
+        "url": "http://byteseismic.com/2024/04/09/rene-descartes/",
+        "contentSha256": "859f769ba7af47c8266e534fdfed3c1ee4191c3a02afd8148a8b4fc6efe6ba06",
+        "wordCount": 2534,
+        "sourceH2Headings": [
+          "Provide a short paragraph explaining Rene Descartes’ influence on philosophy.",
+          "Provide an annotated list of Rene Descartes’ 7 greatest contributions to philosophy.",
+          "Provide the most likely causes behind Rene Descartes becoming a notable philosopher.",
+          "Which schools of philosophical thought and academic domains has the philosophy of Rene Descartes most influenced?"
+        ]
+      }
+    },
+    {
+      "pagePath": "/philosophers/daniel-dennett/",
+      "pageTitle": "Daniel Dennett",
+      "status": "source-located-review-pending",
+      "fullOriginalRead": false,
+      "changes": [],
+      "verification": {
+        "urlSlugMatch": true,
+        "titleMatchIgnoringAccentsAndCase": true,
+        "currentLedgerPrompts": [
+          "Provide a short paragraph explaining Daniel Dennett’s influence on philosophy.",
+          "Provide an annotated list of Daniel Dennett’s 7 greatest contributions to philosophy.",
+          "Provide the most likely causes behind Daniel Dennett becoming a notable philosopher.",
+          "Which schools of philosophical thought and academic domains has the philosophy of Daniel Dennett most influenced?"
+        ],
+        "exactCurrentPromptMatchesToSourceHeadings": 4,
+        "warning": "Machine source inventory only; heading extraction is not a complete prompt or semantic review."
+      },
+      "remainingConcerns": [
+        "Full original reading, contextual response editing, and fidelity review remain pending."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 6962,
+        "title": "Daniel Dennett",
+        "url": "http://byteseismic.com/2024/04/23/daniel-dennett/",
+        "contentSha256": "2bb4e7e80e57e16764d2f6590294b345f1401c54d54d72a42da77ae7480a7fff",
+        "wordCount": 2609,
+        "sourceH2Headings": [
+          "Provide a short paragraph explaining Daniel Dennett’s influence on philosophy.",
+          "Provide an annotated list of Daniel Dennett’s 7 greatest contributions to philosophy.",
+          "Provide the most likely causes behind Daniel Dennett becoming a notable philosopher.",
+          "Which schools of philosophical thought and academic domains has the philosophy of Daniel Dennett most influenced?"
+        ]
+      }
+    },
+    {
+      "pagePath": "/philosophers/soren-kierkegaard/",
+      "pageTitle": "Søren Kierkegaard",
+      "status": "source-located-review-pending",
+      "fullOriginalRead": false,
+      "changes": [],
+      "verification": {
+        "urlSlugMatch": true,
+        "titleMatchIgnoringAccentsAndCase": false,
+        "currentLedgerPrompts": [
+          "Provide a short paragraph explaining Soren Kierkegaard’s influence on philosophy.",
+          "Provide an annotated list of Soren Kierkegaard’s 7 greatest contributions to philosophy.",
+          "Provide the most likely causes behind Soren Kierkegaard becoming a notable philosopher.",
+          "Which schools of philosophical thought and academic domains has the philosophy of Soren Kierkegaard most influenced?"
+        ],
+        "exactCurrentPromptMatchesToSourceHeadings": 4,
+        "warning": "Machine source inventory only; heading extraction is not a complete prompt or semantic review."
+      },
+      "remainingConcerns": [
+        "Full original reading, contextual response editing, and fidelity review remain pending."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 5771,
+        "title": "Soren Kierkegaard",
+        "url": "http://byteseismic.com/2024/04/08/soren-kierkegaard/",
+        "contentSha256": "e7047fe43e5f25295530e0059891cbd9a1b2c298bdf51b95e26fc65c02631f99",
+        "wordCount": 2458,
+        "sourceH2Headings": [
+          "Provide a short paragraph explaining Soren Kierkegaard’s influence on philosophy.",
+          "Provide an annotated list of Soren Kierkegaard’s 7 greatest contributions to philosophy.",
+          "Provide the most likely causes behind Soren Kierkegaard becoming a notable philosopher.",
+          "Which schools of philosophical thought and academic domains has the philosophy of Soren Kierkegaard most influenced?"
+        ]
+      }
+    },
+    {
+      "pagePath": "/philosophy-of-science/the-power-of-convergence/",
+      "pageTitle": "The Power of Convergence",
+      "status": "source-located-review-pending",
+      "fullOriginalRead": false,
+      "changes": [],
+      "verification": {
+        "urlSlugMatch": true,
+        "titleMatchIgnoringAccentsAndCase": true,
+        "currentLedgerPrompts": [
+          "Why is the convergence of many lines of evidence in support of a theory so powerful?",
+          "One commonly cited theory in which the convergence of many lines of evidence lend powerful support is the theory of biological evolution. Elaborate on its many converging lines of evidence, and explain how they lend weight to each other.",
+          "Provide me with 3 examples outside of biology in which line of evidence converge to support a theory.",
+          "Provide the mathematics behind the notion that converging independent lines of evidence strengthen a theory."
+        ],
+        "exactCurrentPromptMatchesToSourceHeadings": 4,
+        "warning": "Machine source inventory only; heading extraction is not a complete prompt or semantic review."
+      },
+      "remainingConcerns": [
+        "Full original reading, contextual response editing, and fidelity review remain pending."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 4866,
+        "title": "The Power of Convergence",
+        "url": "http://byteseismic.com/2024/03/29/the-power-of-convergence/",
+        "contentSha256": "7b0d5aaa5582ce5ec5006cd27a411ecefb3b5a88771e0497161ddd0f5bd7071d",
+        "wordCount": 4943,
+        "sourceH2Headings": [
+          "Why is the convergence of many lines of evidence in support of a theory so powerful?",
+          "One commonly cited theory in which the convergence of many lines of evidence lend powerful support is the theory of biological evolution. Elaborate on its many converging lines of evidence, and explain how they lend weight to each other.",
+          "Provide me with 3 examples outside of biology in which line of evidence converge to support a theory.",
+          "Provide the mathematics behind the notion that converging independent lines of evidence strengthen a theory.",
+          "Create a 10-item quiz on the discussion above.",
+          "Provide 15 discussion questions relevant to the content above. "
+        ]
+      }
+    },
+    {
+      "pagePath": "/philosophy-of-science/improving-science/",
+      "pageTitle": "Improving Science",
+      "status": "source-located-review-pending",
+      "fullOriginalRead": false,
+      "changes": [],
+      "verification": {
+        "urlSlugMatch": true,
+        "titleMatchIgnoringAccentsAndCase": true,
+        "currentLedgerPrompts": [
+          "Provide a list of current issues/weaknesses within science and possible solutions.",
+          "Elaborate on the history of the Reproducibility Crisis, and provide an extensive explanation of its causes and effects.",
+          "Elaborate on the history of Publication Bias, and provide an extensive explanation of its causes and effects.",
+          "Elaborate on the history of Poor Access to Scientific Research, and provide an extensive explanation of its causes and effects."
+        ],
+        "exactCurrentPromptMatchesToSourceHeadings": 4,
+        "warning": "Machine source inventory only; heading extraction is not a complete prompt or semantic review."
+      },
+      "remainingConcerns": [
+        "Full original reading, contextual response editing, and fidelity review remain pending."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 995,
+        "title": "Improving Science",
+        "url": "http://byteseismic.com/2024/02/23/improving-science/",
+        "contentSha256": "b7bf52d4ea76e549bcc4b3fd31f7a47cf920a6fcb91b6cf147f7df3d13d88f64",
+        "wordCount": 6318,
+        "sourceH2Headings": [
+          "Provide a list of current issues/weaknesses within science and possible solutions.",
+          "Elaborate on the history of the Reproducibility Crisis, and provide an extensive explanation of its causes and effects. ",
+          "Elaborate on the history of Publication Bias, and provide an extensive explanation of its causes and effects. ",
+          "Elaborate on the history of Poor Access to Scientific Research, and provide an extensive explanation of its causes and effects. ",
+          "Create a 7-item quiz on the content above and add answers at the end.",
+          "Provide 15 discussion questions relevant to the content above."
+        ]
+      }
+    },
+    {
+      "pagePath": "/philosophers/plato-2/",
+      "pageTitle": "Plato",
+      "status": "source-located-review-pending",
+      "fullOriginalRead": false,
+      "changes": [],
+      "verification": {
+        "urlSlugMatch": true,
+        "titleMatchIgnoringAccentsAndCase": true,
+        "currentLedgerPrompts": [
+          "Provide a short paragraph explaining Plato’s influence on philosophy.",
+          "Provide an annotated list of Plato’s 7 greatest contributions to philosophy.",
+          "Provide the most likely causes behind Plato becoming a notable philosopher.",
+          "Which schools of philosophical thought and academic domains has the philosophy of Plato most influenced?"
+        ],
+        "exactCurrentPromptMatchesToSourceHeadings": 4,
+        "warning": "Machine source inventory only; heading extraction is not a complete prompt or semantic review."
+      },
+      "remainingConcerns": [
+        "Full original reading, contextual response editing, and fidelity review remain pending."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 6678,
+        "title": "Plato",
+        "url": "http://byteseismic.com/2024/04/19/plato-2/",
+        "contentSha256": "5169bca235e61b61a56074003802d3f9429d9d0f6f52aae606fd2788ed15cf60",
+        "wordCount": 3657,
+        "sourceH2Headings": [
+          "Provide a short paragraph explaining Plato’s influence on philosophy.",
+          "Provide an annotated list of Plato’s 7 greatest contributions to philosophy.",
+          "Provide the most likely causes behind Plato becoming a notable philosopher.",
+          "Which schools of philosophical thought and academic domains has the philosophy of Plato most influenced?",
+          "Create a 7-item quiz on the entire thread above.",
+          "Provide 12 discussion questions relevant to the content above. "
+        ]
+      }
+    },
+    {
+      "pagePath": "/philosophers/socrates/",
+      "pageTitle": "Socrates",
+      "status": "source-located-review-pending",
+      "fullOriginalRead": false,
+      "changes": [],
+      "verification": {
+        "urlSlugMatch": true,
+        "titleMatchIgnoringAccentsAndCase": true,
+        "currentLedgerPrompts": [
+          "Provide a short paragraph explaining Socrates’ influence on philosophy.",
+          "Provide an annotated list of Socrates’ 7 greatest contributions to philosophy.",
+          "Provide the most likely causes behind Socrates becoming a notable philosopher.",
+          "Which schools of philosophical thought and academic domains has the philosophy of Socrates most influenced?"
+        ],
+        "exactCurrentPromptMatchesToSourceHeadings": 4,
+        "warning": "Machine source inventory only; heading extraction is not a complete prompt or semantic review."
+      },
+      "remainingConcerns": [
+        "Full original reading, contextual response editing, and fidelity review remain pending."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 5783,
+        "title": "Socrates",
+        "url": "http://byteseismic.com/2024/04/08/socrates/",
+        "contentSha256": "bfd165866741a6b1992094ac775088acabd47403d6af4220ae91931388101039",
+        "wordCount": 2650,
+        "sourceH2Headings": [
+          "Provide a short paragraph explaining Socrates’ influence on philosophy.",
+          "Provide an annotated list of Socrates’ 7 greatest contributions to philosophy.",
+          "Provide the most likely causes behind Socrates becoming a notable philosopher.",
+          "Which schools of philosophical thought and academic domains has the philosophy of Socrates most influenced?"
+        ]
+      }
+    },
+    {
+      "pagePath": "/philosophers/thomas-hobbes/",
+      "pageTitle": "Thomas Hobbes",
+      "status": "source-located-review-pending",
+      "fullOriginalRead": false,
+      "changes": [],
+      "verification": {
+        "urlSlugMatch": true,
+        "titleMatchIgnoringAccentsAndCase": true,
+        "currentLedgerPrompts": [
+          "Provide a short paragraph explaining Thomas Hobbes’ influence on philosophy.",
+          "Provide an annotated list of Hobbes’ 7 greatest contributions to philosophy.",
+          "Provide the most likely causes behind Hobbes becoming a notable philosopher.",
+          "Which schools of philosophical thought and academic domains has the philosophy of Hobbes most influenced?"
+        ],
+        "exactCurrentPromptMatchesToSourceHeadings": 4,
+        "warning": "Machine source inventory only; heading extraction is not a complete prompt or semantic review."
+      },
+      "remainingConcerns": [
+        "Full original reading, contextual response editing, and fidelity review remain pending."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 9283,
+        "title": "Thomas Hobbes",
+        "url": "http://byteseismic.com/2024/05/18/thomas-hobbes/",
+        "contentSha256": "1fa4613e6d89b54925766813864776d7b584d5a6288e219fb8dbe9095619b1ff",
+        "wordCount": 3276,
+        "sourceH2Headings": [
+          "Provide a short paragraph explaining Thomas Hobbes’ influence on philosophy.",
+          "Provide an annotated list of Hobbes’ 7 greatest contributions to philosophy.",
+          "Provide the most likely causes behind Hobbes becoming a notable philosopher.",
+          "Which schools of philosophical thought and academic domains has the philosophy of Hobbes most influenced?",
+          "Create a 7-item quiz on the entire thread above.",
+          "Provide 12 discussion questions relevant to the content above. "
+        ]
+      }
+    },
+    {
+      "pagePath": "/political-philosophy/the-social-contract/",
+      "pageTitle": "The Social Contract",
+      "status": "source-located-review-pending",
+      "fullOriginalRead": false,
+      "changes": [],
+      "verification": {
+        "urlSlugMatch": true,
+        "titleMatchIgnoringAccentsAndCase": true,
+        "currentLedgerPrompts": [
+          "What is the ontological status of the social contract and, given that status, what grounds it? Does it entail any actual obligation or is our commitment to the social contract wholly voluntary?",
+          "Provide the arguments for the legitimacy of the social contract that deal with the fact that an implicit contract that subsumes parties to the contract through the accident of their births is not binding.",
+          "So, the degree of the legitimacy of tacit consent is based on the degree of freedom to emigrate, right?",
+          "If the notion of the social contract is to have any real ethical obligation, it will need to be able to coherently distinguish which systems they are ethically obligated to in the following scenarios, right?"
+        ],
+        "exactCurrentPromptMatchesToSourceHeadings": 4,
+        "warning": "Machine source inventory only; heading extraction is not a complete prompt or semantic review."
+      },
+      "remainingConcerns": [
+        "Full original reading, contextual response editing, and fidelity review remain pending."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 7960,
+        "title": "The Social Contract",
+        "url": "http://byteseismic.com/2024/05/04/the-social-contract/",
+        "contentSha256": "3c22693ef6862aa5093ecb850ef19ee85617e72847d10d27387cd57cc824ccf5",
+        "wordCount": 5457,
+        "sourceH2Headings": [
+          "What is the ontological status of the social contract and, given that status, what grounds it? Does it entail any actual obligation or is our commitment to the social contract wholly voluntary?",
+          "Provide the arguments for the legitimacy of the social contract that deal with the fact that an implicit contract that subsumes parties to the contract through the accident of their births is not binding.",
+          "So, the degree of the legitimacy of tacit consent is based on the degree of freedom to emigrate, right?",
+          "If the notion of the social contract is to have any real ethical obligation, it will need to be able to coherently distinguish which systems they are ethically obligated to in the following scenarios, right?",
+          "Create a 10-item quiz on the entire thread above. ",
+          "Provide 15 discussion questions relevant to the content above. "
+        ]
+      }
+    },
+    {
+      "pagePath": "/humanistic-philosophies/what-is-existentialism/",
+      "pageTitle": "What is Existentialism?",
+      "status": "source-located-review-pending",
+      "fullOriginalRead": false,
+      "changes": [],
+      "verification": {
+        "urlSlugMatch": true,
+        "titleMatchIgnoringAccentsAndCase": true,
+        "currentLedgerPrompts": [
+          "What is Existentialism?",
+          "Give a brief introduction to the most influential Existentialist philosophers.",
+          "Provide 12 notable quotes from Existentialist philosophers."
+        ],
+        "exactCurrentPromptMatchesToSourceHeadings": 3,
+        "warning": "Machine source inventory only; heading extraction is not a complete prompt or semantic review."
+      },
+      "remainingConcerns": [
+        "Full original reading, contextual response editing, and fidelity review remain pending."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 3071,
+        "title": "What is Existentialism?",
+        "url": "http://byteseismic.com/2024/03/11/what-is-existentialism/",
+        "contentSha256": "0fed37d2dc3637a99622543ac2bdf1d8c39c484fd0b84c37a36504c6d2a3d095",
+        "wordCount": 3391,
+        "sourceH2Headings": [
+          "What is Existentialism?",
+          "Expound on a few of the key notions within Existentialism.",
+          "Give a brief introduction to the most influential Existentialist philosophers.",
+          "Provide 12 notable quotes from Existentialist philosophers.",
+          "Create a 5-item quiz on the discussion above with answers at the end.",
+          "Provide 12 discussion questions relevant to the content above. "
+        ]
+      }
+    },
+    {
+      "pagePath": "/philosophers/gottfried-wilhelm-leibniz/",
+      "pageTitle": "Gottfried Wilhelm Leibniz",
+      "status": "source-located-review-pending",
+      "fullOriginalRead": false,
+      "changes": [],
+      "verification": {
+        "urlSlugMatch": true,
+        "titleMatchIgnoringAccentsAndCase": true,
+        "currentLedgerPrompts": [
+          "Provide a short paragraph explaining Gottfried Wilhelm Leibniz’ influence on philosophy.",
+          "Provide an annotated list of Leibniz’ 7 greatest contributions to philosophy.",
+          "Provide the most likely causes behind Leibniz becoming a notable philosopher.",
+          "Which schools of philosophical thought and academic domains has the philosophy of Leibniz most influenced?"
+        ],
+        "exactCurrentPromptMatchesToSourceHeadings": 4,
+        "warning": "Machine source inventory only; heading extraction is not a complete prompt or semantic review."
+      },
+      "remainingConcerns": [
+        "Full original reading, contextual response editing, and fidelity review remain pending."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 8896,
+        "title": "Gottfried Wilhelm Leibniz",
+        "url": "http://byteseismic.com/2024/05/15/gottfried-wilhelm-leibniz/",
+        "contentSha256": "dce80b6797ad91b302458df8e482cc3c073997cd78127bbebf5b49e536df37af",
+        "wordCount": 4676,
+        "sourceH2Headings": [
+          "Provide a short paragraph explaining Gottfried Wilhelm Leibniz’ influence on philosophy.",
+          "Provide an annotated list of Leibniz’ 7 greatest contributions to philosophy.",
+          "Provide the most likely causes behind Leibniz becoming a notable philosopher.",
+          "Which schools of philosophical thought and academic domains has the philosophy of Leibniz most influenced?",
+          "Create a 7-item quiz on the entire thread above.",
+          "Provide 12 discussion questions relevant to the content above. "
+        ]
+      }
+    },
+    {
+      "pagePath": "/philosophers/thomas-aquinas/",
+      "pageTitle": "Thomas Aquinas",
+      "status": "source-located-review-pending",
+      "fullOriginalRead": false,
+      "changes": [],
+      "verification": {
+        "urlSlugMatch": true,
+        "titleMatchIgnoringAccentsAndCase": true,
+        "currentLedgerPrompts": [
+          "Provide a short paragraph explaining Thomas Aquinas’ influence on philosophy.",
+          "Provide an annotated list of Aquinas’ 7 greatest contributions to philosophy.",
+          "Provide the most likely causes behind Aquinas becoming a notable philosopher.",
+          "Which schools of philosophical thought and academic domains has the philosophy of Aquinas most influenced?"
+        ],
+        "exactCurrentPromptMatchesToSourceHeadings": 4,
+        "warning": "Machine source inventory only; heading extraction is not a complete prompt or semantic review."
+      },
+      "remainingConcerns": [
+        "Full original reading, contextual response editing, and fidelity review remain pending."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 8557,
+        "title": "Thomas Aquinas",
+        "url": "http://byteseismic.com/2024/05/12/thomas-aquinas/",
+        "contentSha256": "01cb01b026abcf4f75964c064a926615749511824604152c03f5eafd3a43ac5a",
+        "wordCount": 4638,
+        "sourceH2Headings": [
+          "Provide a short paragraph explaining Thomas Aquinas’ influence on philosophy.",
+          "Provide an annotated list of Aquinas’ 7 greatest contributions to philosophy.",
+          "Provide the most likely causes behind Aquinas becoming a notable philosopher.",
+          "Which schools of philosophical thought and academic domains has the philosophy of Aquinas most influenced?",
+          "Create a 7-item quiz on the entire thread above.",
+          "Provide 12 discussion questions relevant to the content above. "
+        ]
+      }
+    },
+    {
+      "pagePath": "/epistemology/rationality-discussion/",
+      "pageTitle": "Rationality Discussion",
+      "status": "source-located-review-pending",
+      "fullOriginalRead": false,
+      "changes": [],
+      "verification": {
+        "urlSlugMatch": true,
+        "titleMatchIgnoringAccentsAndCase": true,
+        "currentLedgerPrompts": [
+          "Provide comprehensive formulations of the positions of EB and PS in the following discussion",
+          "Weigh in on this discussion. Who has the position more aligned with rationality and reality?",
+          "List the potential weaknesses in the arguments of each side.",
+          "Based on the discussion thus far, suggest 15 questions for each side that might advance understanding."
+        ],
+        "exactCurrentPromptMatchesToSourceHeadings": 3,
+        "warning": "Machine source inventory only; heading extraction is not a complete prompt or semantic review."
+      },
+      "remainingConcerns": [
+        "Full original reading, contextual response editing, and fidelity review remain pending."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 3881,
+        "title": "Rationality Discussion",
+        "url": "http://byteseismic.com/2024/03/17/rationality-discussion/",
+        "contentSha256": "236bf43374b745c0d0ff0791fefba3443dbc5ec2a23c7f9e558f31369da46179",
+        "wordCount": 2893,
+        "sourceH2Headings": [
+          "Provide comprehensive formulations of the positions of EB and PS in the following discussion:",
+          "ChatGPT Response: ",
+          "Weigh in on this discussion. Who has the position more aligned with rationality and reality?",
+          "ChatGPT Response:",
+          "List the potential weaknesses in the arguments of each side.",
+          "ChatGPT Response:",
+          "Based on the discussion thus far, suggest 15 questions for each side that might advance understanding.",
+          "ChatGPT Response:"
+        ]
+      }
+    },
+    {
+      "pagePath": "/introduction/miscellaneous-philosophers/",
+      "pageTitle": "Miscellaneous Philosophers",
+      "status": "source-located-review-pending",
+      "fullOriginalRead": false,
+      "changes": [],
+      "verification": {
+        "urlSlugMatch": true,
+        "titleMatchIgnoringAccentsAndCase": true,
+        "currentLedgerPrompts": [
+          "Write a short essay on the vague demarcation between philosophers and non-philosopher thinkers, and explore the ways non-philosophers have contributed to philosophical thought.",
+          "Provide 20 short synopses of non-philosophers who have contributed significantly to philosophical thought.",
+          "Identify 20 well-known individuals who aspired to be recognized as philosophers, but whose ideas are widely regarded by the philosophical community as lacking in rigor or substantial contribution."
+        ],
+        "exactCurrentPromptMatchesToSourceHeadings": 3,
+        "warning": "Machine source inventory only; heading extraction is not a complete prompt or semantic review."
+      },
+      "remainingConcerns": [
+        "Full original reading, contextual response editing, and fidelity review remain pending."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 14857,
+        "title": "Miscellaneous Philosophers",
+        "url": "http://byteseismic.com/2024/11/04/miscellaneous-philosophers/",
+        "contentSha256": "b4779950161606fcfa875c26e9ca6c5098a46a82ffa197bb4200e88e23c9d9e6",
+        "wordCount": 2568,
+        "sourceH2Headings": [
+          "Write a short essay on the vague demarcation between philosophers and non-philosopher thinkers, and explore the ways non-philosophers have contributed to philosophical thought.",
+          "Provide 20 short synopses of non-philosophers who have contributed significantly to philosophical thought.",
+          "Identify 20 well-known individuals who aspired to be recognized as philosophers, but whose ideas are widely regarded by the philosophical community as lacking in rigor or substantial contribution.",
+          "Provide 15 discussion questions relevant to the content above. "
+        ]
+      }
+    },
+    {
+      "pagePath": "/philosophers/martin-heidegger/",
+      "pageTitle": "Martin Heidegger",
+      "status": "source-located-review-pending",
+      "fullOriginalRead": false,
+      "changes": [],
+      "verification": {
+        "urlSlugMatch": true,
+        "titleMatchIgnoringAccentsAndCase": true,
+        "currentLedgerPrompts": [
+          "Provide a short paragraph explaining Martin Heidegger’s influence on philosophy.",
+          "Provide an annotated list of Heidegger’s 7 greatest contributions to philosophy.",
+          "Provide the most likely causes behind Heidegger becoming a notable philosopher.",
+          "Which schools of philosophical thought and academic domains has the philosophy of Heidegger most influenced?"
+        ],
+        "exactCurrentPromptMatchesToSourceHeadings": 4,
+        "warning": "Machine source inventory only; heading extraction is not a complete prompt or semantic review."
+      },
+      "remainingConcerns": [
+        "Full original reading, contextual response editing, and fidelity review remain pending."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 9048,
+        "title": "Martin Heidegger",
+        "url": "http://byteseismic.com/2024/05/16/martin-heidegger/",
+        "contentSha256": "faa51c6c9bc4dd28ef7d4c912fdacd5700bd2d39560ea11cc79f3bbcbf9b6757",
+        "wordCount": 3265,
+        "sourceH2Headings": [
+          "Provide a short paragraph explaining Martin Heidegger’s influence on philosophy.",
+          "Provide an annotated list of Heidegger’s 7 greatest contributions to philosophy.",
+          "Provide the most likely causes behind Heidegger becoming a notable philosopher.",
+          "Which schools of philosophical thought and academic domains has the philosophy of Heidegger most influenced?",
+          "Create a 7-item quiz on the entire thread above.",
+          "Provide 12 discussion questions relevant to the content above. "
+        ]
+      }
+    },
+    {
+      "pagePath": "/philosophers/phenomenologists/",
+      "pageTitle": "Phenomenologists",
+      "status": "source-located-review-pending",
+      "fullOriginalRead": false,
+      "changes": [],
+      "verification": {
+        "urlSlugMatch": true,
+        "titleMatchIgnoringAccentsAndCase": true,
+        "currentLedgerPrompts": [
+          "Provide a general description of the philosophical school of Phenomenology.",
+          "Provide a list of the key contributions Phenomenologists have made to philosophical thought.",
+          "List the most influential Phenomenologists in history.",
+          "Produce a 20-line hypothetical dialogue between a phenomenologist and a first-year philosophy student."
+        ],
+        "exactCurrentPromptMatchesToSourceHeadings": 3,
+        "warning": "Machine source inventory only; heading extraction is not a complete prompt or semantic review."
+      },
+      "remainingConcerns": [
+        "Full original reading, contextual response editing, and fidelity review remain pending."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 7819,
+        "title": "Phenomenologists",
+        "url": "http://byteseismic.com/2024/05/02/phenomenologists/",
+        "contentSha256": "f9d0d47a6c8038740bca26417ec67236e81c42d1fc1ab5675104b9487ebe31d8",
+        "wordCount": 3124,
+        "sourceH2Headings": [
+          "Provide a general description of the philosophical school of Phenomenology.",
+          "Provide a list of the key contributions Phenomenologists have made to philosophical thought.",
+          "List the most influential Phenomenologists in history.",
+          "Produce a 20-line hypothetical dialogue between a Phenomenologists and a 1st-year philosophy student.",
+          "Create a 7-item quiz on the entire thread above.",
+          "Provide 12 discussion questions relevant to the content above. "
+        ]
+      }
+    },
+    {
+      "pagePath": "/philosophy-of-science/p-value-issues/",
+      "pageTitle": "P-Value Issues",
+      "status": "source-located-review-pending",
+      "fullOriginalRead": false,
+      "changes": [],
+      "verification": {
+        "urlSlugMatch": true,
+        "titleMatchIgnoringAccentsAndCase": true,
+        "currentLedgerPrompts": [
+          "Is the arbitrary threshold for statistical significance usually set at a 0.05 p-value the optimal way to indicate a significant relationship between two variables? Have other metrics for significance been proposed?",
+          "Explain how “confidence intervals” work.",
+          "Comment on how reliance on a confidence interval rather than a binary p-value would reduce the distortive effects of the pressure to find a p-value significance.",
+          "Why is the replacement of p-values with confidence intervals so difficult?"
+        ],
+        "exactCurrentPromptMatchesToSourceHeadings": 4,
+        "warning": "Machine source inventory only; heading extraction is not a complete prompt or semantic review."
+      },
+      "remainingConcerns": [
+        "Full original reading, contextual response editing, and fidelity review remain pending."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 719,
+        "title": "P-Value Issues",
+        "url": "http://byteseismic.com/2024/02/15/p-value-issues/",
+        "contentSha256": "9999125fee4619f510856e605e84a62f9749654e9876ea80feb17fcdbcbe8956",
+        "wordCount": 5273,
+        "sourceH2Headings": [
+          "Is the arbitrary threshold for statistical significance usually set at a 0.05 p-value the optimal way to indicate a significant relationship between two variables? Have other metrics for significance been proposed?",
+          "Explain how “confidence intervals” work.",
+          "Comment on how reliance on a confidence interval rather than a binary p-value would reduce the distortive effects of the pressure to find a p-value significance.",
+          "Why is the replacement of p-values with confidence intervals so difficult?",
+          "Create a 5-item quiz on our discussion above with answers at the end.",
+          "Provide 15 discussion questions related to the exchange above."
+        ]
+      }
+    },
+    {
+      "pagePath": "/philosophers/epicurus/",
+      "pageTitle": "Epicurus",
+      "status": "source-located-review-pending",
+      "fullOriginalRead": false,
+      "changes": [],
+      "verification": {
+        "urlSlugMatch": true,
+        "titleMatchIgnoringAccentsAndCase": true,
+        "currentLedgerPrompts": [
+          "Provide a short paragraph explaining Epicurus’ influence on philosophy.",
+          "Provide an annotated list of Epicurus’ 7 greatest contributions to philosophy.",
+          "Provide the most likely causes behind Epicurus becoming a notable philosopher.",
+          "Which schools of philosophical thought and academic domains has the philosophy of Epicurus most influenced?"
+        ],
+        "exactCurrentPromptMatchesToSourceHeadings": 4,
+        "warning": "Machine source inventory only; heading extraction is not a complete prompt or semantic review."
+      },
+      "remainingConcerns": [
+        "Full original reading, contextual response editing, and fidelity review remain pending."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 8288,
+        "title": "Epicurus",
+        "url": "http://byteseismic.com/2024/05/08/epicurus/",
+        "contentSha256": "8cee28dbd829112184dfd0e0921867e99e4e062896b3552df7a9965c6fc74488",
+        "wordCount": 4388,
+        "sourceH2Headings": [
+          "Provide a short paragraph explaining Epicurus’ influence on philosophy.",
+          "Provide an annotated list of Epicurus’ 7 greatest contributions to philosophy.",
+          "Provide the most likely causes behind Epicurus becoming a notable philosopher.",
+          "Which schools of philosophical thought and academic domains has the philosophy of Epicurus most influenced?",
+          "Create a 7-item quiz on the entire thread above.",
+          "Provide 12 discussion questions relevant to the content above. "
+        ]
+      }
+    },
+    {
+      "pagePath": "/political-philosophy/elements-of-a-stable-state/",
+      "pageTitle": "Elements of a Stable State",
+      "status": "source-located-review-pending",
+      "fullOriginalRead": false,
+      "changes": [],
+      "verification": {
+        "urlSlugMatch": true,
+        "titleMatchIgnoringAccentsAndCase": true,
+        "currentLedgerPrompts": [
+          "What, historically, have been the factors that have contributed to stable political states, and how has the configuration of those factors recently changed.",
+          "Create a table that rates each factor contributing to a stable state and its degree of importance.",
+          "What accounts for stable states such as Brazil and Singapore that have a multi-national or multi-ethnic populous?",
+          "How important is assimilation for states with a high infusion of immigrants."
+        ],
+        "exactCurrentPromptMatchesToSourceHeadings": 4,
+        "warning": "Machine source inventory only; heading extraction is not a complete prompt or semantic review."
+      },
+      "remainingConcerns": [
+        "Full original reading, contextual response editing, and fidelity review remain pending."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 7371,
+        "title": "Elements of a Stable State",
+        "url": "http://byteseismic.com/2024/04/27/elements-of-a-stable-state/",
+        "contentSha256": "37104f144d5b87d25a21e7ccdb53abad34d5996203d85b5c99b8de2365fdab48",
+        "wordCount": 5204,
+        "sourceH2Headings": [
+          "What, historically, have been the factors that have contributed to stable political states, and how has the configuration of those factors recently changed.",
+          "Create a table that rates each factor contributing to a stable state and its degree of importance.",
+          "What accounts for stable states such as Brazil and Singapore that have a multi-national or multi-ethnic populous?",
+          "How important is assimilation for states with a high infusion of immigrants.",
+          "Create a 7-item quiz on the entire thread above.",
+          "Provide 15 discussion questions relevant to the content above. "
+        ]
+      }
+    },
+    {
+      "pagePath": "/philosophers/duns-scotus/",
+      "pageTitle": "Duns Scotus",
+      "status": "source-located-review-pending",
+      "fullOriginalRead": false,
+      "changes": [],
+      "verification": {
+        "urlSlugMatch": true,
+        "titleMatchIgnoringAccentsAndCase": true,
+        "currentLedgerPrompts": [
+          "Provide a short paragraph explaining Duns Scotus’ influence on philosophy.",
+          "Provide an annotated list of Scotus’ 7 greatest contributions to philosophy.",
+          "Provide the most likely causes behind Scotus becoming a notable philosopher.",
+          "Which schools of philosophical thought and academic domains has the philosophy of Scotus most influenced?"
+        ],
+        "exactCurrentPromptMatchesToSourceHeadings": 4,
+        "warning": "Machine source inventory only; heading extraction is not a complete prompt or semantic review."
+      },
+      "remainingConcerns": [
+        "Full original reading, contextual response editing, and fidelity review remain pending."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 12719,
+        "title": "Duns Scotus",
+        "url": "http://byteseismic.com/2024/07/06/duns-scotus/",
+        "contentSha256": "84785896162cc4c5cdf0ed22187bd5c7b2ecfc0786a5d9c2507c27663b6f5e70",
+        "wordCount": 4870,
+        "sourceH2Headings": [
+          "Provide a short paragraph explaining Duns Scotus’ influence on philosophy.",
+          "Provide an annotated list of Scotus’ 7 greatest contributions to philosophy.",
+          "Provide the most likely causes behind Scotus becoming a notable philosopher.",
+          "Which schools of philosophical thought and academic domains has the philosophy of Scotus most influenced?",
+          "Quizzes",
+          "Provide 12 discussion questions relevant to the content above."
+        ]
+      }
+    },
+    {
+      "pagePath": "/philosophers/william-james/",
+      "pageTitle": "William James",
+      "status": "source-located-review-pending",
+      "fullOriginalRead": false,
+      "changes": [],
+      "verification": {
+        "urlSlugMatch": true,
+        "titleMatchIgnoringAccentsAndCase": true,
+        "currentLedgerPrompts": [
+          "Provide a short paragraph explaining William James’ influence on philosophy.",
+          "Provide an annotated list of James’ 7 greatest contributions to philosophy.",
+          "Provide the most likely causes behind James becoming a notable philosopher.",
+          "Which schools of philosophical thought and academic domains has the philosophy of James most influenced?"
+        ],
+        "exactCurrentPromptMatchesToSourceHeadings": 4,
+        "warning": "Machine source inventory only; heading extraction is not a complete prompt or semantic review."
+      },
+      "remainingConcerns": [
+        "Full original reading, contextual response editing, and fidelity review remain pending."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 12486,
+        "title": "William James",
+        "url": "http://byteseismic.com/2024/06/30/william-james/",
+        "contentSha256": "b5d703f89f12f43c69d3b697decc78a1ff5fef48bf706a84450d0e12246eab9a",
+        "wordCount": 5359,
+        "sourceH2Headings": [
+          "Provide a short paragraph explaining William James’ influence on philosophy.",
+          "Provide an annotated list of James’ 7 greatest contributions to philosophy.",
+          "Provide the most likely causes behind James becoming a notable philosopher.",
+          "Which schools of philosophical thought and academic domains has the philosophy of James most influenced?",
+          "Quizzes",
+          "Provide 12 discussion questions relevant to the content above."
+        ]
+      }
+    },
+    {
+      "pagePath": "/rational-thought/1-at-99-5-or-5-at-95/",
+      "pageTitle": "1 at 99.5% or 5 at 95%?",
+      "status": "source-located-review-pending",
+      "fullOriginalRead": false,
+      "changes": [],
+      "verification": {
+        "urlSlugMatch": true,
+        "titleMatchIgnoringAccentsAndCase": true,
+        "currentLedgerPrompts": [
+          "Can you mathematically create an equivalency between being 99.5% in one skill and being in the top x % in y number skills?",
+          "Given the mathematical assessment by Claude above, how might humans allot their time to learning skills? Should they become an expert at one thing or merely highly competent in many things? Remark on the strengths and weaknesses of both approaches.",
+          "Provide analogies that reflect these strengths and weaknesses.",
+          "Provide three examples of successful humans on each side of these two approaches."
+        ],
+        "exactCurrentPromptMatchesToSourceHeadings": 3,
+        "warning": "Machine source inventory only; heading extraction is not a complete prompt or semantic review."
+      },
+      "remainingConcerns": [
+        "Full original reading, contextual response editing, and fidelity review remain pending."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 4547,
+        "title": "1 at 99.5% or 5 at 95%?",
+        "url": "http://byteseismic.com/2024/03/26/1-at-99-5-or-5-at-95/",
+        "contentSha256": "81e77f7e100b3c72a341f8d8b6cfdb0efc78e67b2cf017ec5bb82797de0f22f7",
+        "wordCount": 4765,
+        "sourceH2Headings": [
+          "Can you mathematically create an equivalency between being 99.5% in one skill and being in the top x% in y number skills?",
+          "Given the mathematical assessment by Claude above, how might humans allot their time to learning skills? Should they become an expert at one thing or merely highly competent in many things? Remark on the strengths and weaknesses of both approaches. ",
+          "Provide analogies that reflect these strengths and weaknesses.",
+          "Provide three examples of successful humans on each side of these two approaches.",
+          "Create a 10-item quiz on the discussion above.",
+          "Provide 15 discussion questions relevant to the content above. "
+        ]
+      }
+    },
+    {
+      "pagePath": "/rational-thought/avoiding-logical-fallacies/",
+      "pageTitle": "Avoiding Logical Fallacies",
+      "status": "source-located-review-pending",
+      "fullOriginalRead": false,
+      "changes": [],
+      "verification": {
+        "urlSlugMatch": true,
+        "titleMatchIgnoringAccentsAndCase": true,
+        "currentLedgerPrompts": [
+          "What are logical fallacies , and why should we train ourselves to identify them?",
+          "There has been a debate among rhetoricians and critical thinking coaches about whether we should 1) call out fallacies by name or 2) instead simply clearly explain the blunder in reasoning with analogies. Weigh in on this.",
+          "Provide 5 examples of exposing a logical fallacy through the analogy approach of “That is like saying…”.",
+          "What are alternative lead-in phrases to analogies that are more gracious and accommodating?"
+        ],
+        "exactCurrentPromptMatchesToSourceHeadings": 3,
+        "warning": "Machine source inventory only; heading extraction is not a complete prompt or semantic review."
+      },
+      "remainingConcerns": [
+        "Full original reading, contextual response editing, and fidelity review remain pending."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 9627,
+        "title": "Avoiding Logical Fallacies",
+        "url": "http://byteseismic.com/2024/05/22/avoiding-logical-fallacies/",
+        "contentSha256": "c48b62dbc920e4efbc3aae5799c8a8ca8fbeb549c37695f67c93b06c0c35eeb2",
+        "wordCount": 6308,
+        "sourceH2Headings": [
+          "What are logical fallacies, and why should we train ourselves to identify them?",
+          "There has been a debate among rhetoricians and critical thinking coaches about whether we should 1) call out fallacies by name or 2) instead simply clearly explain the blunder in reasoning with analogies. Weigh in on this.",
+          "Provide 5 examples of exposing a logical fallacy through the analogy approach of “That is like saying…”.",
+          "What are alternative lead-in phrases to analogies that are more gracious and accommodating?",
+          "Create a 10-item quiz on the entire thread above.",
+          "Provide 15 discussion questions relevant to the content above. "
+        ]
+      }
+    },
+    {
+      "pagePath": "/philosophers/bertrand-russell/",
+      "pageTitle": "Bertrand Russell",
+      "status": "source-located-review-pending",
+      "fullOriginalRead": false,
+      "changes": [],
+      "verification": {
+        "urlSlugMatch": true,
+        "titleMatchIgnoringAccentsAndCase": true,
+        "currentLedgerPrompts": [
+          "Provide a short paragraph explaining Bertrand Russell’s influence on philosophy.",
+          "Provide an annotated list of Russell’s 7 greatest contributions to philosophy.",
+          "Provide the most likely causes behind Russell becoming a notable philosopher.",
+          "Which schools of philosophical thought and academic domains has the philosophy of Russell most influenced?"
+        ],
+        "exactCurrentPromptMatchesToSourceHeadings": 4,
+        "warning": "Machine source inventory only; heading extraction is not a complete prompt or semantic review."
+      },
+      "remainingConcerns": [
+        "Full original reading, contextual response editing, and fidelity review remain pending."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 9830,
+        "title": "Bertrand Russell",
+        "url": "http://byteseismic.com/2024/05/23/bertrand-russell/",
+        "contentSha256": "385c24cbffe013bb50a5fa37762c354f10e0ec5379fe266ab0e6d07cced68c7f",
+        "wordCount": 4866,
+        "sourceH2Headings": [
+          "Provide a short paragraph explaining Bertrand Russell’s influence on philosophy.",
+          "Provide an annotated list of Russell’s 7 greatest contributions to philosophy.",
+          "Provide the most likely causes behind Russell becoming a notable philosopher.",
+          "Which schools of philosophical thought and academic domains has the philosophy of Russell most influenced?",
+          "Create a 7-item quiz on the entire thread above.",
+          "Provide 12 discussion questions relevant to the content above. "
+        ]
+      }
+    },
+    {
+      "pagePath": "/philosophers/jacques-derrida/",
+      "pageTitle": "Jacques Derrida",
+      "status": "source-located-review-pending",
+      "fullOriginalRead": false,
+      "changes": [],
+      "verification": {
+        "urlSlugMatch": true,
+        "titleMatchIgnoringAccentsAndCase": true,
+        "currentLedgerPrompts": [
+          "Provide a short paragraph explaining Jacques Derrida’s influence on philosophy.",
+          "Provide an annotated list of Jacques Derrida’s 7 greatest contributions to philosophy.",
+          "Provide the most likely causes behind Derrida becoming a notable philosopher.",
+          "Which schools of philosophical thought and academic domains has the philosophy of Derrida most influenced?"
+        ],
+        "exactCurrentPromptMatchesToSourceHeadings": 4,
+        "warning": "Machine source inventory only; heading extraction is not a complete prompt or semantic review."
+      },
+      "remainingConcerns": [
+        "Full original reading, contextual response editing, and fidelity review remain pending."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 11058,
+        "title": "Jacques Derrida",
+        "url": "http://byteseismic.com/2024/06/01/jacques-derrida/",
+        "contentSha256": "3856534f5cfa0feabe610b66eee6770749fc31970cc49bcfd6d0e93966e96ed3",
+        "wordCount": 5103,
+        "sourceH2Headings": [
+          "Provide a short paragraph explaining Jacques Derrida’s influence on philosophy.",
+          "Provide an annotated list of Jacques Derrida’s 7 greatest contributions to philosophy.",
+          "Provide the most likely causes behind Derrida becoming a notable philosopher.",
+          "Which schools of philosophical thought and academic domains has the philosophy of Derrida most influenced?",
+          "Quizzes"
+        ]
+      }
+    },
+    {
+      "pagePath": "/philosophers/john-locke/",
+      "pageTitle": "John Locke",
+      "status": "source-located-review-pending",
+      "fullOriginalRead": false,
+      "changes": [],
+      "verification": {
+        "urlSlugMatch": true,
+        "titleMatchIgnoringAccentsAndCase": true,
+        "currentLedgerPrompts": [
+          "Provide a short paragraph explaining John Locke’s influence on philosophy.",
+          "Provide an annotated list of Locke’s 7 greatest contributions to philosophy.",
+          "Provide the most likely causes behind Locke becoming a notable philosopher.",
+          "Which schools of philosophical thought and academic domains has the philosophy of Locke most influenced?"
+        ],
+        "exactCurrentPromptMatchesToSourceHeadings": 4,
+        "warning": "Machine source inventory only; heading extraction is not a complete prompt or semantic review."
+      },
+      "remainingConcerns": [
+        "Full original reading, contextual response editing, and fidelity review remain pending."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 8826,
+        "title": "John Locke",
+        "url": "http://byteseismic.com/2024/05/14/john-locke/",
+        "contentSha256": "d28d0ebda673ce1dc0dba2bb51f946bf2993d9a2bc0b6073c9345fcecd5397e2",
+        "wordCount": 4900,
+        "sourceH2Headings": [
+          "Provide a short paragraph explaining John Locke’s influence on philosophy.",
+          "Provide an annotated list of Locke’s 7 greatest contributions to philosophy.",
+          "Provide the most likely causes behind Locke becoming a notable philosopher.",
+          "Which schools of philosophical thought and academic domains has the philosophy of Locke most influenced?",
+          "Create a 7-item quiz on the entire thread above.",
+          "Provide 12 discussion questions relevant to the content above. "
+        ]
+      }
+    },
+    {
+      "pagePath": "/philosophers/edmund-husserl/",
+      "pageTitle": "Edmund Husserl",
+      "status": "source-located-review-pending",
+      "fullOriginalRead": false,
+      "changes": [],
+      "verification": {
+        "urlSlugMatch": true,
+        "titleMatchIgnoringAccentsAndCase": true,
+        "currentLedgerPrompts": [
+          "Provide a short paragraph explaining Edmund Husserl’s influence on philosophy.",
+          "Provide an annotated list of Husserl’s 7 greatest contributions to philosophy.",
+          "Provide the most likely causes behind Husserl becoming a notable philosopher.",
+          "Which schools of philosophical thought and academic domains has the philosophy of Husserl most influenced?"
+        ],
+        "exactCurrentPromptMatchesToSourceHeadings": 4,
+        "warning": "Machine source inventory only; heading extraction is not a complete prompt or semantic review."
+      },
+      "remainingConcerns": [
+        "Full original reading, contextual response editing, and fidelity review remain pending."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 8351,
+        "title": "Edmund Husserl",
+        "url": "http://byteseismic.com/2024/05/09/edmund-husserl/",
+        "contentSha256": "b25ef527c88cbb094210c8522301778dc233084ff5edd9b0959fe302bb0c8e72",
+        "wordCount": 4757,
+        "sourceH2Headings": [
+          "Provide a short paragraph explaining Edmund Husserl’s influence on philosophy.",
+          "Provide an annotated list of Husserl’s 7 greatest contributions to philosophy.",
+          "Provide the most likely causes behind Husserl becoming a notable philosopher.",
+          "Which schools of philosophical thought and academic domains has the philosophy of Husserl most influenced?",
+          "Create a 7-item quiz on the entire thread above. ",
+          "Provide 12 discussion questions relevant to the content above. "
+        ]
+      }
+    },
+    {
+      "pagePath": "/philosophers/willard-van-orman-quine/",
+      "pageTitle": "Willard Van Orman Quine",
+      "status": "source-located-review-pending",
+      "fullOriginalRead": false,
+      "changes": [],
+      "verification": {
+        "urlSlugMatch": true,
+        "titleMatchIgnoringAccentsAndCase": true,
+        "currentLedgerPrompts": [
+          "Provide a short paragraph explaining Willard Van Orman Quine’s influence on philosophy.",
+          "Provide an annotated list of Quine’s 7 greatest contributions to philosophy.",
+          "Provide the most likely causes behind Quine becoming a notable philosopher.",
+          "Which schools of philosophical thought and academic domains has the philosophy of Quine most influenced?"
+        ],
+        "exactCurrentPromptMatchesToSourceHeadings": 4,
+        "warning": "Machine source inventory only; heading extraction is not a complete prompt or semantic review."
+      },
+      "remainingConcerns": [
+        "Full original reading, contextual response editing, and fidelity review remain pending."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 12083,
+        "title": "Willard Van Orman Quine",
+        "url": "http://byteseismic.com/2024/06/22/willard-van-orman-quine/",
+        "contentSha256": "a73976fc1d811d4aec64e5def8b4150e8b15926d74d1bbed19836b271c25fcbf",
+        "wordCount": 4936,
+        "sourceH2Headings": [
+          "Provide a short paragraph explaining Willard Van Orman Quine’s influence on philosophy.",
+          "Provide an annotated list of Quine’s 7 greatest contributions to philosophy.",
+          "Provide the most likely causes behind Quine becoming a notable philosopher.",
+          "Which schools of philosophical thought and academic domains has the philosophy of Quine most influenced?",
+          "Quizzes",
+          "Provide 12 discussion questions relevant to the content above. "
+        ]
+      }
+    },
+    {
+      "pagePath": "/philosophers/charles-sanders-peirce/",
+      "pageTitle": "Charles Sanders Peirce",
+      "status": "source-located-review-pending",
+      "fullOriginalRead": false,
+      "changes": [],
+      "verification": {
+        "urlSlugMatch": true,
+        "titleMatchIgnoringAccentsAndCase": true,
+        "currentLedgerPrompts": [
+          "Provide a short paragraph explaining Charles Sanders Peirce’s influence on philosophy.",
+          "Provide an annotated list of Peirce’s 7 greatest contributions to philosophy.",
+          "Provide the most likely causes behind Peirce becoming a notable philosopher.",
+          "Which schools of philosophical thought and academic domains has the philosophy of Peirce most influenced?"
+        ],
+        "exactCurrentPromptMatchesToSourceHeadings": 4,
+        "warning": "Machine source inventory only; heading extraction is not a complete prompt or semantic review."
+      },
+      "remainingConcerns": [
+        "Full original reading, contextual response editing, and fidelity review remain pending."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 8396,
+        "title": "Charles Sanders Peirce",
+        "url": "http://byteseismic.com/2024/05/10/charles-sanders-peirce/",
+        "contentSha256": "cf3f47c0df3943d97707b835324587087c2588bb1573736f7e5857e33abd453e",
+        "wordCount": 4974,
+        "sourceH2Headings": [
+          "Provide a short paragraph explaining Charles Sanders Peirce’s influence on philosophy.",
+          "Provide an annotated list of Peirce’s 7 greatest contributions to philosophy.",
+          "Provide the most likely causes behind Peirce becoming a notable philosopher.",
+          "Which schools of philosophical thought and academic domains has the philosophy of Peirce most influenced?",
+          "Create a 7-item quiz on the entire thread above.",
+          "Provide 12 discussion questions relevant to the content above. "
+        ]
+      }
+    },
+    {
+      "pagePath": "/philosophers/michel-foucault/",
+      "pageTitle": "Michel Foucault",
+      "status": "source-located-review-pending",
+      "fullOriginalRead": false,
+      "changes": [],
+      "verification": {
+        "urlSlugMatch": true,
+        "titleMatchIgnoringAccentsAndCase": true,
+        "currentLedgerPrompts": [
+          "Provide a short paragraph explaining Michel Foucault’s influence on philosophy.",
+          "Provide an annotated list of Foucault’s 7 greatest contributions to philosophy.",
+          "Provide the most likely causes behind Foucault becoming a notable philosopher.",
+          "Which schools of philosophical thought and academic domains has the philosophy of Foucault most influenced?"
+        ],
+        "exactCurrentPromptMatchesToSourceHeadings": 4,
+        "warning": "Machine source inventory only; heading extraction is not a complete prompt or semantic review."
+      },
+      "remainingConcerns": [
+        "Full original reading, contextual response editing, and fidelity review remain pending."
+      ],
+      "source": {
+        "file": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 12353,
+        "title": "Michel Foucault",
+        "url": "http://byteseismic.com/2024/06/27/michel-foucault/",
+        "contentSha256": "16073eb9e6cac8ad556b33f8b9ffe1dcfd67071fa9f6bf08021fb74c4df0099d",
+        "wordCount": 4951,
+        "sourceH2Headings": [
+          "Provide a short paragraph explaining Michel Foucault’s influence on philosophy.",
+          "Provide an annotated list of Foucault’s 7 greatest contributions to philosophy.",
+          "Provide the most likely causes behind Foucault becoming a notable philosopher.",
+          "Which schools of philosophical thought and academic domains has the philosophy of Foucault most influenced?",
+          "Quizzes",
+          "Provide 12 discussion questions relevant to the content above. "
+        ]
+      }
+    },
+    {
+      "pagePath": "/philosophers/al-ghazali/",
+      "pageTitle": "Al-Ghazali",
+      "status": "blocked-no-reliable-original",
+      "fullOriginalRead": false,
+      "changes": [],
+      "verification": {
+        "cacheSearch": "No matching URL slug or title among 580 cached posts.",
+        "liveWordPressSearch": "HTTP 200; searches returned references in other posts, no matching profile.",
+        "earliestRepositoryCommit": "c848a72c8e71d73379aa3edf5e75d01c40dd1f1e",
+        "earliestRepositoryClassification": "Newly written orientation page",
+        "webSearch": "Current generated pages and references to the philosopher; no original profile established."
+      },
+      "remainingConcerns": [
+        "No original WordPress profile found. Earliest repository page is generated editorial/reconstructed prose and is not an admissible original under the revision protocol. Need an original source or curator direction for a site-native page."
+      ],
+      "source": null
+    },
+    {
+      "pagePath": "/philosophers/anselm-of-canterbury/",
+      "pageTitle": "Anselm of Canterbury",
+      "status": "blocked-no-reliable-original",
+      "fullOriginalRead": false,
+      "changes": [],
+      "verification": {
+        "cacheSearch": "No matching URL slug or title among 580 cached posts.",
+        "liveWordPressSearch": "HTTP 200; searches returned references in other posts, no matching profile.",
+        "earliestRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
+        "earliestRepositoryClassification": "Reconstructed page",
+        "webSearch": "Current generated pages and references to the philosopher; no original profile established."
+      },
+      "remainingConcerns": [
+        "No original WordPress profile found. Earliest repository page is generated editorial/reconstructed prose and is not an admissible original under the revision protocol. Need an original source or curator direction for a site-native page."
+      ],
+      "source": null
+    },
+    {
+      "pagePath": "/philosophers/arthur-schopenhauer/",
+      "pageTitle": "Arthur Schopenhauer",
+      "status": "blocked-no-reliable-original",
+      "fullOriginalRead": false,
+      "changes": [],
+      "verification": {
+        "cacheSearch": "No matching URL slug or title among 580 cached posts.",
+        "liveWordPressSearch": "HTTP 200; searches returned references in other posts, no matching profile.",
+        "earliestRepositoryCommit": "c848a72c8e71d73379aa3edf5e75d01c40dd1f1e",
+        "earliestRepositoryClassification": "Newly written orientation page",
+        "webSearch": "Current generated pages and references to the philosopher; no original profile established."
+      },
+      "remainingConcerns": [
+        "No original WordPress profile found. Earliest repository page is generated editorial/reconstructed prose and is not an admissible original under the revision protocol. Need an original source or curator direction for a site-native page."
+      ],
+      "source": null
+    }
+  ],
+  "runTime": "2026-09-09T09:26:00.340083-04:00",
+  "nextAction": "Retain eight verified pages and continue with Critical Race Theory; obtain reliable originals or curator direction for the three site-native profile blockers.",
+  "sourceBlockersReinvestigatedThisRun": false,
+  "delivery": {
+    "status": "verified-ready-to-commit",
+    "target": "origin/main",
+    "trackerChanged": false,
+    "authorizedInheritedPagesSuperseded": [
+      "philosophers/baruch-spinoza/index.html",
+      "philosophers/david-hume/index.html"
+    ],
+    "unchangedUnrelatedModifiedFiles": 488
+  },
+  "newReviewTotals": {
+    "originalPromptOrSectionHeadings": 24,
+    "modelResponseColumns": 56,
+    "blocksExplicitlyRevised": 248,
+    "blocksRetainedVerbatim": 397
+  },
+  "presentationCorrections": [
+    "Naturalism definition lists numbered 1 and 2; historical categories numbered 1 through 4.",
+    "Naturalism ChatGPT quiz options separated by line breaks."
+  ],
+  "finalBuildVerification": "quality/original-source-revisions/batch-verification-2026-09-09.json"
+}
