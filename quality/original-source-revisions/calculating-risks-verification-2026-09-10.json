@@ -1,0 +1,53 @@
+{
+  "pagePath": "/rational-thought/calculating-risks/",
+  "sourceSha256": "4e19fd6c291ea9de20761b9d703bfbb5745c0065da975a4c55110933011904b7",
+  "originalPrompts": 6,
+  "originalHeadings": 6,
+  "sourceColumns": 11,
+  "modelResponses": 11,
+  "blocksRetainedVerbatim": 113,
+  "tableCellsExplicitlyRevised": 44,
+  "blocksExplicitlyRevised": 55,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "riskTableRows": [
+      10
+    ],
+    "riskTableColumns": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "historyExamples": [
+      5,
+      5
+    ],
+    "quizQuestionsAndKeys": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "discussionLists": [
+      15,
+      15
+    ]
+  },
+  "sha256": "ad96d75257185ad71c55b9792e5a3dde780c6323a13731c46bf20f46ea6e1a85",
+  "urlSlugMatch": true,
+  "titleMatch": true,
+  "fullSourceReadAndPromptResponsePairsReviewed": true,
+  "allCuratorPromptsVerbatim": true,
+  "preservedByFullBuilderByteForByte": true
+}

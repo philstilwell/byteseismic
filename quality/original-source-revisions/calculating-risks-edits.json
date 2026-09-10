@@ -1,0 +1,189 @@
+{
+  "wordpressId": 4569,
+  "pageFile": "rational-thought/calculating-risks/index.html",
+  "snapshot": "calculating-risks-wordpress-4569.html",
+  "sourceSha256": "4e19fd6c291ea9de20761b9d703bfbb5745c0065da975a4c55110933011904b7",
+  "sourceUrl": "http://byteseismic.com/2024/03/26/calculating-risks/",
+  "sourceLabel": "Original WordPress conversation, 2024-03-26",
+  "shellRevision": "6a5af48f3c9a8bad88ee70134f50139d7ccb3397",
+  "date": "2026-09-10",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "sectionModelLabels": {
+    "1": [
+      "ChatGPT"
+    ]
+  },
+  "introHeading": "Comparing risks without false precision",
+  "intro": "The original table leads into emotion and probability, historical failures, two assessment procedures, quizzes, and discussion questions. Revisions retain that progression while making the comparisons, causal claims, and limits of prediction explicit.",
+  "description": "Compare perceived risks, examine historical failures, and practice two transparent risk-assessment processes with quizzes and discussion questions.",
+  "headings": [
+    "Two risk lists with comparable-context cautions",
+    "How emotion and judgment interact",
+    "Five historical cases from each response",
+    "Two step-by-step assessment processes",
+    "Two ten-item quizzes and answer keys",
+    "Two sets of fifteen discussion questions"
+  ],
+  "replacements": {
+    "1.1.0": "The table retains the original two lists and their explanatory columns. They illustrate ways vivid threats can be exaggerated and familiar or delayed harms neglected; they are not universal rankings of what everyone misjudges. A rare event can warrant strong precautions when its consequences are severe. The original “one in N” estimates mixed unspecified time periods, populations, and exposures, so the revised comparison states what must be measured rather than pretending those figures are comparable.",
+    "1.1.1": "For a numerical comparison, specify the event, population, period, exposure, and source. “Deaths per passenger-mile” answers a different question from “chance of death over a lifetime.” Several categories on the right overlap, so their burdens must not be added. The lottery entry concerns overestimating a favorable chance, which can expose someone to financial loss; winning itself is not a hazard.",
+    "2.1.0": "Emotion directs attention and signals what matters; probability judgment asks how likely an outcome is. Errors arise when the strength of the feeling becomes a substitute for that judgment, especially when memory, comparison groups, or numerical interpretation are unreliable. The following mechanisms can interact, but none predicts that every person will err in the same direction. <a href=\"https://pubmed.ncbi.nlm.nih.gov/3563507/\">Paul Slovic’s research on risk perception</a> examines how people’s judgments of hazards differ from technical assessments.",
+    "2.1.2": "<strong>Negativity Bias:</strong> Threatening information can command disproportionate attention. This may distort a probability estimate, but giving a severe loss substantial weight is not automatically irrational. Concern about consequences must be distinguished from a claim about frequency.",
+    "2.1.6": "<strong>Misunderstanding of Probability and Statistics:</strong> An increase from 1 in 1,000 to 2 in 1,000 is a 100% relative increase but an absolute increase of 1 in 1,000, or 0.1 percentage point. Either description can be correct; an assessment needs the baseline and the severity of the outcome, not only the more alarming number.",
+    "2.1.9": "For example, a frightening crash report becomes easy to recall; fear then makes similar reports more noticeable; selective attention can make each new report feel like confirmation. Break that loop by stating an estimate before reviewing representative data, then updating it using a consistent denominator. Emotions can still influence how much protection you value without determining the probability.",
+    "2.2.2": "<strong>Fear and Anxiety:</strong> A vivid possibility can feel imminent even when the relevant base rate is low. Fear can also be an appropriate warning. The error is inferring probability from intensity of feeling without examining the situation.",
+    "2.2.5": "<strong>Availability Bias:</strong> Memorable events can seem frequent because they are easy to recall. Comparing plane and car travel requires a common unit of exposure and a specified type of travel; media attention alone cannot provide that comparison.",
+    "2.2.6": "<strong>Neglect of Delayed or Accumulating Harms:</strong> Threats with gradual effects may receive little attention because each small exposure feels inconsequential. This is a description of a pattern, not a single standardized bias called “neglect bias.”",
+    "2.2.9": "The interaction can also work in the opposite direction. Familiarity produces a feeling of control, that feeling encourages a low estimate of personal risk, and repeated uneventful experiences seem to confirm it. But avoiding a rare bad outcome a few times is weak evidence that the underlying process is safe.",
+    "2.2.12": "<strong>Seek information from reliable sources:</strong> Check how the source defines the event, who was counted, and the period covered. Use a relevant comparison group, seek contrary evidence, and distinguish a measured frequency from a model’s projection.",
+    "2.2.15": "Awareness helps most when it changes the procedure: write down the initial estimate, compare it with suitable data, and record why it changes. Simply naming biases after a bad outcome can become another way to explain everything without testing anything.",
+    "3.1.1": "<strong>The Titanic Disaster (1912):</strong> Continuing at high speed despite ice reports and carrying too few lifeboat places exposed passengers to hazards the existing arrangements did not adequately address. The disaster killed more than 1,500 people. The lesson concerns warning response and capacity for evacuation; the popular “unsinkable” story alone does not establish why each decision was made. See the <a href=\"https://www.senate.gov/about/powers-procedures/investigations/titanic.htm\">U.S. Senate inquiry record</a>.",
+    "3.1.2": "<strong>The Challenger Space Shuttle Disaster (1986):</strong> Cold-temperature concerns about the solid-rocket booster joints and O-ring seals were not adequately incorporated into the launch decision. The <a href=\"https://www.nasa.gov/history/rogersrep/v1ch5.htm\">Rogers Commission</a> identified failures in communication and decision-making as well as the technical fault. Seven crew members died. The warning is against interpreting unresolved safety concerns as acceptable simply because previous flights succeeded.",
+    "3.1.3": "<strong>The Mortgage and Financial Crisis (2007–2008):</strong> Weak lending, leverage, and exposure to related housing risks left institutions vulnerable when defaults rose and markets deteriorated. Treating many securities as diversified can understate risk when the same housing shock affects them together. The crisis had multiple institutional causes; the lesson is to test dependence and loss scenarios rather than blame one mistaken forecast. See the <a href=\"https://www.govinfo.gov/features/financial-crisis-inquiry-report\">Financial Crisis Inquiry Report</a>.",
+    "3.1.4": "<strong>The Chernobyl Nuclear Disaster (1986):</strong> Reactor design characteristics, inadequate information and procedures, and wider safety failures combined during a test. The <a href=\"https://www-pub.iaea.org/MTCD/Publications/PDF/Pub913e_web.pdf\">IAEA’s INSAG-7 reassessment</a> corrects an account centered too narrowly on operators. Risks cannot be managed properly when dangerous system behavior is poorly understood or concealed by assumptions about available safeguards.",
+    "3.1.5": "<strong>The Mars Climate Orbiter Loss (1999):</strong> Ground software supplied impulse data in pound-force seconds where the navigation interface required newton-seconds. <a href=\"https://www.jpl.nasa.gov/news/mars-climate-orbiter-team-finds-likely-cause-of-loss/\">NASA’s investigation announcement</a> describes the failure to detect and correct this mismatch. The spacecraft and its planned observations were lost. This illustrates both asset loss and a lost scientific opportunity: interface checks must test actual values and units, not merely assume that teams interpret a specification identically.",
+    "3.1.6": "These cases show different failures: inadequate protective capacity, suppressed or poorly transmitted warnings, dependent financial exposures, misunderstood system behavior, and an unchecked interface. A bad outcome alone does not prove a decision was irrational. The relevant question is what information and reasonable safeguards were available before the event.",
+    "3.2.0": "<strong>Charge of the Light Brigade (1854):</strong> A misunderstood order sent cavalry toward the wrong guns under heavy fire. The <a href=\"https://collection.nam.ac.uk/detail.php?acc=1962-11-4-3\">surviving order and National Army Museum account</a> support a communication failure, rather than a confident diagnosis of every commander’s optimism. Clarifying the target and reconciling different views of the battlefield were crucial missing checks.",
+    "3.2.1": "<strong>Bay of Pigs Invasion (1961):</strong> The invasion plan relied on assumptions about Cuban opposition, operational conditions, and the viability of the exile force that did not hold. The <a href=\"https://www.jfklibrary.org/learn/about-jfk/jfk-in-history/the-bay-of-pigs\">JFK Library account</a> describes the failed operation. Testing those assumptions against adverse scenarios mattered more than confidence in the desired political outcome.",
+    "3.2.2": "<strong>Northridge Earthquake (1994):</strong> The defensible lesson concerns underestimated structural vulnerability, not ignored precise warnings that a quake was imminent. <a href=\"https://www.usgs.gov/news/state-news-release/20-years-after-northridge-quake-buildings-remain-vulnerable\">USGS reports</a> describe unexpected fractures in steel-frame connections. Previously trusted construction methods needed reassessment. Earthquake preparedness must account for uncertainty in both local shaking and how buildings will respond.",
+    "3.2.3": "<strong>The Dot-Com Bubble (late 1990s–2000):</strong> Enthusiasm for internet growth supported valuations that many firms’ later earnings could not justify. Losses illustrate the difference between correctly anticipating an important technology and correctly valuing a particular business. A risk assessment must test financing needs, competition, and adverse revenue assumptions, not merely the appeal of a sector. The <a href=\"https://www.federalreserve.gov/newsevents/speech/kohn20060316a.htm\">Federal Reserve’s retrospective discussion</a> describes the collapse and its wider effects.",
+    "3.2.4": "<strong>The Challenger Space Shuttle Disaster (1986):</strong> The <a href=\"https://www.nasa.gov/history/rogersrep/v1ch5.htm\">Rogers Commission</a> documented a decision made with incomplete and sometimes misleading information about a known joint problem and cold-weather concerns. This duplicates a case in the other response but emphasizes organizational handling of uncertainty: a warning must reach the people authorized to stop the activity, with its strength and limitations intact.",
+    "3.2.5": "Both losses and missed opportunities matter. Challenger cost lives and prevented the planned mission; the failed invasion lost an attempted political outcome as well as lives and resources. These are consequences, not claims that the hoped-for outcomes were otherwise guaranteed. Assess the decision process using what was knowable at the time.",
+    "4.1.0": "No procedure can ensure highly accurate estimates when evidence is sparse or conditions change. A structured process can make assumptions visible, improve estimates, and reveal when a decision is sensitive to uncertainty. The eight steps below preserve the original sequence and separate estimating risk from choosing what to do about it.",
+    "4.1.3": "<strong>Scope Identification:</strong> State the population or system, the outcome, and the time horizon. “Chance of equipment failure during one year of specified use” is testable in a way that “this equipment is risky” is not.",
+    "4.1.7": "<strong>Review Historical Data:</strong> Start with comparable cases, including uneventful exposures and near misses. Record why the comparison may fail—for example, different operating conditions or missing reports.",
+    "4.1.9": "<strong>Qualitative Analysis:</strong> Use likelihood-and-impact categories to organize incomplete information, with written definitions. A red box on a risk matrix is a screening signal, not a measured probability; do not treat multiplication of arbitrary category numbers as precise arithmetic.",
+    "4.1.10": "<strong>Quantitative Analysis:</strong> Estimate probabilities and consequences with ranges where warranted, and model shared causes. For illustration, a 2% annual chance of a $10,000 loss gives a $200 expected annual loss, but the possible $10,000 loss still matters if it would be unaffordable. The average is not a promised outcome.",
+    "4.1.12": "<strong>Compare Against Risk Criteria:</strong> State the acceptable losses and constraints before selecting a favored option. Tolerance expresses a decision preference; it must not be used to alter the probability estimate until a preferred action appears safe.",
+    "4.1.13": "<strong>Prioritize Risks:</strong> Consider severity, probability, reversibility, and who bears the harm. Test whether plausible changes in uncertain estimates alter the priority. A rare catastrophic loss may warrant protection even when its expected monetary loss is modest.",
+    "4.1.15": "<strong>Identify Control Measures:</strong> Compare avoidance, reduction, insurance or contractual transfer, and acceptance with the consequences of doing nothing. Financial transfer does not remove the physical hazard, and a safeguard can introduce a new failure mode.",
+    "4.1.21": "<strong>Continuous Monitoring:</strong> Assign responsibility, track whether controls actually operate, and look for changes in exposure. A period without incidents does not by itself validate an estimate of a rare event.",
+    "4.1.22": "<strong>Review and Update:</strong> Set review dates and triggers, such as a near miss, changed operating conditions, or new evidence. For repeated predictions, compare forecasts with outcomes across enough cases to assess calibration—whether events assigned similar probabilities occur at roughly those frequencies.",
+    "4.1.24": "<strong>Documentation:</strong> Record sources, denominators, assumptions, uncertainty ranges, competing explanations, and the reasons for choosing a control. This allows a later reviewer to distinguish a poor decision from an unlucky outcome.",
+    "4.1.26": "Repeat the cycle when new information changes either the hazard or the confidence in its estimate. The aim is an assessment that can be inspected and corrected. When precise estimates remain unavailable, examine whether an affordable, reversible precaution works across several plausible scenarios rather than manufacturing certainty.",
+    "4.2.3": "Identify adverse outcomes, including losses caused by delay or inaction. Separate plausible scenarios from an unlimited list of imaginable events, and state the period and activity being assessed.",
+    "4.2.5": "Gather data with matching definitions, time periods, and exposure units. Include a range when the evidence does not support one precise estimate; record important gaps.",
+    "4.2.8": "<strong>Likelihood:</strong> Begin with the frequency in genuinely comparable cases, then adjust for differences you can explain. Distinguish the uncertainty in your estimate from the probability of the event itself.",
+    "4.2.9": "<strong>Impact:</strong> Describe the size, duration, and reversibility of the consequences and who bears them. Include a severe plausible scenario; an average loss can conceal a rare unaffordable outcome.",
+    "4.2.12": "Seek a credible opposing interpretation and ask what evidence would change your estimate. This is stronger than simply asserting that you have “allowed for bias.”",
+    "4.2.17": "Compare controls with the original risk, residual risk, cost, and new risks introduced. Check whether a plausible change in an uncertain assumption reverses the preferred decision.",
+    "4.2.20": "Set dates or evidence thresholds for review. Compare repeated forecasts with outcomes, allowing for sample size and changes in conditions rather than treating one success as proof.",
+    "4.2.22": "These steps improve transparency and correctability; they cannot guarantee accuracy. If an important estimate remains uncertain, say so and examine decisions that remain acceptable across that uncertainty.",
+    "5.1.2": "What should be defined first when beginning a structured risk assessment?",
+    "5.1.3": "Which risk-identification activity gathers possible hazards from a group of stakeholders?",
+    "5.1.11": "Why record sources, assumptions, estimates, and decisions before the outcome is known?",
+    "5.1.22": "To permit review, updating, and a distinction between decision quality and luck; it reduces the temptation to rewrite the reasons after the outcome.",
+    "5.2.5": "Which practice helps check a probability estimate rather than describing a source of distortion?<br>a) Judging frequency by memorable reports<br>b) Assuming personal immunity to a common hazard<br>c) Comparing with a relevant base rate<br>d) Ignoring slowly accumulating consequences",
+    "5.2.6": "Which combination contributed to the Challenger launch failure?<br>a) Inadequate handling of O-ring concerns and cold-weather evidence<br>b) A demonstrated absence of any prior joint problems<br>c) A meteor strike during launch<br>d) A correctly verified safety margin that guaranteed launch success",
+    "5.2.10": "Which assumption needed stronger testing in the Bay of Pigs plan?<br>a) That the exile operation and expected Cuban opposition could achieve the intended overthrow<br>b) That online social media would coordinate the invasion<br>c) That Cuba had no coastline<br>d) That political preferences could not affect planning",
+    "6.1.0": "How does specifying the outcome, population, exposure, and time period make a risk estimate easier to assess?",
+    "6.1.5": "When can transferring a financial loss through insurance help, and which physical or ethical risks remain?",
+    "6.2.3": "How should risk tolerance affect the decision without distorting the estimate of how likely a loss is?",
+    "6.2.15": "If you created a risk assessment tool, how would it display uncertainty, expose assumptions, and indicate when it should not be trusted?"
+  },
+  "tableCellReplacements": {
+    "1.1.table0.0.0": "Risks that can be overestimated",
+    "1.1.table0.0.1": "Context needed for a sound estimate",
+    "1.1.table0.0.2": "Risks that can be underestimated",
+    "1.1.table0.0.3": "Context needed for a sound estimate",
+    "1.1.table0.1.0": "Terrorism",
+    "1.1.table0.1.1": "A vivid attack can distort judgments about unrelated places. Estimate risk for the specific location, activity, and period; a population-wide average is unsuitable for a conflict zone.",
+    "1.1.table0.1.2": "Climate change",
+    "1.1.table0.1.3": "Risks differ by hazard, location, exposure, vulnerability, and future scenario. Heat, flooding, and long-term ecological change cannot be reduced to one individual annual probability.",
+    "1.1.table0.2.0": "Plane crashes",
+    "1.1.table0.2.1": "Specify scheduled commercial aviation versus private flying, and compare by a common exposure unit. A bare “one in eleven million” without a denominator or time period is not informative. <a href=\"https://www.faa.gov/data_research\">FAA data</a>.",
+    "1.1.table0.2.2": "Chronic diseases influenced by behavior and environment",
+    "1.1.table0.2.3": "These conditions have multiple causes, including social and biological factors. A share of all deaths is not a person’s probability of disease. <a href=\"https://www.who.int/news-room/fact-sheets/detail/noncommunicable-diseases\">WHO overview</a>.",
+    "1.1.table0.3.0": "Shark attacks",
+    "1.1.table0.3.1": "Population totals obscure water exposure, activity, and location. A frequent surfer’s circumstances differ from those of someone who never enters the ocean. <a href=\"https://www.floridamuseum.ufl.edu/discover-fish/sharks/shark-attack-faq/\">International Shark Attack File context</a>.",
+    "1.1.table0.3.2": "Road crashes",
+    "1.1.table0.3.3": "Familiarity can conceal recurring exposure. Compare the same outcome per trip, distance, or year, with attention to road conditions and behavior. <a href=\"https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars\">NHTSA fatal-crash records</a>.",
+    "1.1.table0.4.0": "Violent crime",
+    "1.1.table0.4.1": "Risk varies greatly by place, relationship, and circumstances. National rates cannot establish a particular person’s exposure, and news salience does not establish a rising local trend.",
+    "1.1.table0.4.2": "Air pollution",
+    "1.1.table0.4.3": "Harm depends on the pollutant, concentration, duration, and susceptibility. Invisible or chronic exposure can attract less attention than an acute event. <a href=\"https://www.who.int/news-room/fact-sheets/detail/noncommunicable-diseases\">WHO health context</a>.",
+    "1.1.table0.5.0": "Natural disasters such as earthquakes",
+    "1.1.table0.5.1": "Fear can overstate immediate likelihood, but long quiet periods can also lead to underestimation. Use local hazard and building vulnerability; low annual probability does not imply negligible lifetime risk.",
+    "1.1.table0.5.2": "Physical inactivity and prolonged sedentary time",
+    "1.1.table0.5.3": "Low activity and extended sedentary behavior can affect health over time. Their effects depend on the person and overall activity; they are not interchangeable categories. <a href=\"https://www.who.int/en/news-room/fact-sheets/detail/physical-activity\">WHO evidence summary</a>.",
+    "1.1.table0.6.0": "Nuclear power accidents",
+    "1.1.table0.6.1": "Dread of a severe release can distort probability judgments, but a single universal death probability cannot represent different reactors, safeguards, locations, and exposures. Compare systems with consistent boundaries and consequences.",
+    "1.1.table0.6.2": "Obesity-related health risks",
+    "1.1.table0.6.3": "Risk assessment depends on the condition and person; body size alone does not specify an individual outcome. This category overlaps with chronic disease, diet, and activity rather than supplying an independent total.",
+    "1.1.table0.7.0": "Stranger kidnapping",
+    "1.1.table0.7.1": "Distinguish stranger abduction from family abduction, missing-person reports, and other events. Their definitions and affected populations differ; combining them produces misleading odds.",
+    "1.1.table0.7.2": "Antimicrobial resistance",
+    "1.1.table0.7.3": "Resistance can make infections harder to treat. Distinguish deaths attributable to resistance from deaths associated with resistant infections and state the year of any estimate. <a href=\"https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance\">WHO explanation</a>.",
+    "1.1.table0.8.0": "An unfamiliar infectious disease, such as Ebola",
+    "1.1.table0.8.1": "Risk depends on outbreak location and actual exposure. An outbreak’s death toll is not the probability that someone far from it will become infected. People with relevant exposure require a different assessment.",
+    "1.1.table0.8.2": "Mental health conditions",
+    "1.1.table0.8.3": "Frequency, severity, duration, and treatment access are distinct measures. A broad prevalence figure cannot predict an individual course or establish the danger posed by someone with a diagnosis.",
+    "1.1.table0.9.0": "Chance of winning a lottery jackpot",
+    "1.1.table0.9.1": "This is an overestimated benefit rather than an overestimated hazard. Use the particular game’s rules and ticket count; assess ticket costs as well as possible winnings.",
+    "1.1.table0.9.2": "Indoor air quality",
+    "1.1.table0.9.3": "Identify specific sources such as combustion products, radon, or moisture-related pollutants. A broad ranking such as “top five” conceals different exposures and remedies. <a href=\"https://www.epa.gov/indoor-air-quality-iaq/inside-story-guide-indoor-air-quality\">EPA guide</a>.",
+    "1.1.table0.10.0": "A particular rare medical condition",
+    "1.1.table0.10.1": "A condition’s base rate is one input; symptoms, exposures, and test performance also matter. Many individually rare conditions together can affect many people, so a collective prevalence is not the probability of one specific disease.",
+    "1.1.table0.10.2": "Unhealthy dietary patterns",
+    "1.1.table0.10.3": "Diet can contribute to chronic disease alongside other influences. Population estimates do not translate directly into a personal probability, and their overlap with obesity and chronic disease must be acknowledged. <a href=\"https://www.who.int/news-room/fact-sheets/detail/noncommunicable-diseases\">WHO context</a>."
+  },
+  "countChecks": [
+    {
+      "name": "riskTableRows",
+      "selector": "#prompt-1 table tbody",
+      "child": "tr",
+      "expected": [
+        10
+      ]
+    },
+    {
+      "name": "riskTableColumns",
+      "selector": "#prompt-1 table tbody tr",
+      "child": "td",
+      "expected": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "historyExamples",
+      "selector": "#prompt-3 ol",
+      "child": "li",
+      "expected": [
+        5,
+        5
+      ]
+    },
+    {
+      "name": "quizQuestionsAndKeys",
+      "selector": "#prompt-5 ol",
+      "child": "li",
+      "expected": [
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "discussionLists",
+      "selector": "#prompt-6 ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    }
+  ]
+}

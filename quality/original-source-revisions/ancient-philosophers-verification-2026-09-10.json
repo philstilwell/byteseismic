@@ -1,0 +1,50 @@
+{
+  "pagePath": "/philosophers/ancient-philosophers/",
+  "sourceSha256": "3b14c3f87549dc0f50f0bdc4d7f20dfe2c6c3494270575d8d970e6eb054daa16",
+  "originalPrompts": 6,
+  "originalHeadings": 6,
+  "sourceColumns": 18,
+  "modelResponses": 18,
+  "blocksRetainedVerbatim": 213,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 72,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": false,
+  "explicitListItemSplits": [
+    "6.2.3"
+  ],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "dialogueTurns": [
+      20,
+      20,
+      20
+    ],
+    "quizQuestionsAndKeys": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "discussionLists": [
+      15,
+      15,
+      15
+    ]
+  },
+  "sha256": "8390ea2898cacbdc78aecafef134244fabf4a2febf6abc7891ebb7589cde0716",
+  "urlSlugMatch": true,
+  "titleMatch": true,
+  "fullSourceReadAndPromptResponsePairsReviewed": true,
+  "allCuratorPromptsVerbatim": true,
+  "preservedByFullBuilderByteForByte": true
+}

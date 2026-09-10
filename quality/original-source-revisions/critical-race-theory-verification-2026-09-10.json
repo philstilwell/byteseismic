@@ -1,0 +1,43 @@
+{
+  "pagePath": "/political-philosophy/critical-race-theory/",
+  "sourceSha256": "ec775528f4023a57e00b53cdeda02d8bb998ff16a2590e3b263b087909d7dffd",
+  "originalPrompts": 4,
+  "originalHeadings": 5,
+  "sourceColumns": 6,
+  "modelResponses": 4,
+  "blocksRetainedVerbatim": 24,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 55,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "tenCRTThemes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "tenPerceptionRisks": [
+      10
+    ],
+    "essayStrengthsAndCriticisms": [
+      4,
+      4
+    ]
+  },
+  "sha256": "899f878839c637765c782c2831e5137e20fc4db864450e92ae46c3549fa8d15b",
+  "urlSlugMatch": true,
+  "titleMatch": true,
+  "fullSourceReadAndPromptResponsePairsReviewed": true,
+  "allCuratorPromptsVerbatim": true,
+  "preservedByFullBuilderByteForByte": true
+}

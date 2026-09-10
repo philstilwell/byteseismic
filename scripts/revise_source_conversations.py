@@ -31,10 +31,49 @@ def own_text(node):
     return text(clone)
 
 
-def sections(source):
-    return [(h, h.find_next_sibling().select(':scope > .wp-block-column'))
-            for h in source.select('h2')
-            if h.find_next_sibling().select(':scope > .wp-block-column')]
+def sections(source, config=None):
+    result = []
+    prose = (config or {}).get('proseSectionHeadingIndexes', [])
+    for index, h in enumerate(source.select('h2')):
+        cols = h.find_next_sibling().select(':scope > .wp-block-column')
+        if index in (config or {}).get('preambleHeadingIndexes', []):
+            for sibling in h.find_next_siblings():
+                if sibling.name == 'h2':
+                    break
+                cols = sibling.select(':scope > .wp-block-column')
+                if cols:
+                    break
+        if index in prose:
+            assert not cols
+            col = source.new_tag('div')
+            for sibling in h.find_next_siblings():
+                if sibling.name == 'h2':
+                    break
+                col.append(copy.deepcopy(sibling))
+            cols = [col]
+        if cols:
+            result.append((h, cols))
+    return result
+
+
+def preamble_nodes(heading, config, n):
+    if n - 1 not in config.get('preambleHeadingIndexes', []):
+        return []
+    result = []
+    for sibling in heading.find_next_siblings():
+        if sibling.name == 'h2' or sibling.select(':scope > .wp-block-column'):
+            break
+        result.append(sibling)
+    return result
+
+
+def original_prompt(heading, config, n):
+    if str(n) in config.get('promptPreambleIndexes', {}):
+        p = preamble_nodes(heading, config, n)[config['promptPreambleIndexes'][str(n)]]
+        value = p.get_text()
+        assert value.startswith('Prompt: ')
+        return value[len('Prompt: '):]
+    return heading.get_text()
 
 
 def labels_for(config, n):
@@ -50,6 +89,12 @@ def tag(soup, name, value=None, **attrs):
 
 def edited_column(original, n, c, config):
     col = copy.deepcopy(original)
+    if config.get('removeDecorativeImages'):
+        for figure in col.select('figure:has(img)'):
+            assert not figure.get_text(strip=True)
+            figure.decompose()
+        for blank in col.find_all(string=lambda value: not value.strip()):
+            blank.extract()
     for el in [col, *col.find_all(True)]:
         el.attrs = {k: v for k, v in el.attrs.items()
                     if k in ('href', 'colspan', 'rowspan', 'start')}
@@ -76,6 +121,16 @@ def edited_column(original, n, c, config):
             node.clear()
             for child in list(BeautifulSoup(config['replacements'][key], 'html.parser').contents):
                 node.append(child)
+    cell_edits = config.get('tableCellReplacements', {})
+    for t, table in enumerate(col.find_all('table')):
+        for r, row in enumerate(table.find_all('tr')):
+            for cell_index, cell in enumerate(row.find_all(['th', 'td'], recursive=False)):
+                key = f'{n}.{c}.table{t}.{r}.{cell_index}'
+                if key in cell_edits:
+                    assert not cell.find_all(TAGS)
+                    cell.clear()
+                    for child in list(BeautifulSoup(cell_edits[key], 'html.parser').contents):
+                        cell.append(child)
     for key, value in config.get('listItemContinuations', {}).items():
         if key.startswith(f'{n}.{c}.'):
             node = col.select_one(f'[data-source-node="{key}"]')
@@ -88,6 +143,9 @@ def edited_column(original, n, c, config):
     for value in config.get('responseAppendices', {}).get(f'{n}.{c}', []):
         for child in list(BeautifulSoup(value, 'html.parser').contents):
             col.append(child)
+    if config.get('disclosureParagraphsAsDiv'):
+        for p in col.select('p:has(> details)'):
+            p.name = 'div'
     for h in col.find_all('h4'):
         h.name = 'h5'
     for h in col.find_all('h3'):
@@ -103,7 +161,7 @@ def edited_column(original, n, c, config):
 
 def render(config):
     source = BeautifulSoup((DATA / config['snapshot']).read_text(), 'html.parser')
-    original = sections(source)
+    original = sections(source, config)
     assert len(original) == len(config['headings'])
     assert all(len(cols) == len(labels_for(config, n))
                for n, (_, cols) in enumerate(original, 1))
@@ -133,7 +191,7 @@ def render(config):
     ledger = soup.select_one('.prompt-ledger ol')
     ledger.clear()
     for n, (heading, cols) in enumerate(original, 1):
-        prompt = heading.get_text()
+        prompt = original_prompt(heading, config, n)
         li = tag(soup, 'li')
         a = tag(soup, 'a', **{'class': 'prompt-ledger__link', 'href': f'#prompt-{n}'})
         a.append(tag(soup, 'span', str(n), **{'class': 'prompt-number', 'aria-hidden': 'true'}))
@@ -143,14 +201,21 @@ def render(config):
         section = tag(soup, 'section', **{'class': 'article-section article-section--prompt', 'id': f'prompt-{n}'})
         meta = tag(soup, 'div', **{'class': 'article-section__meta'})
         meta.append(tag(soup, 'span', str(n), **{'class': 'prompt-number article-section__number', 'aria-hidden': 'true'}))
-        meta.append(tag(soup, 'span', 'Original prompt · edited responses'))
+        is_heading = n in config.get('nonPromptSections', [])
+        meta.append(tag(soup, 'span', 'Original response heading' if is_heading else 'Original prompt · edited responses'))
         section.append(meta)
         p = tag(soup, 'p', **{'class': 'article-section__prompt'})
-        p.append(tag(soup, 'span', f'Prompt {n}:'))
+        p.append(tag(soup, 'span', 'Response heading:' if is_heading else f'Prompt {n}:'))
         p.append(' ')
         p.append(tag(soup, 'span', prompt, **{'class': 'original-prompt-text'}))
         section.append(p)
         section.append(tag(soup, 'h2', config['headings'][n-1]))
+        for k, original_preamble in enumerate(preamble_nodes(heading, config, n)):
+            preamble = copy.deepcopy(original_preamble)
+            for el in [preamble, *preamble.find_all(True)]:
+                el.attrs = {key: value for key, value in el.attrs.items() if key == 'href'}
+            preamble['data-source-preamble'] = f'{n}.{k}'
+            section.append(preamble)
         for c, col in enumerate(cols, 1):
             edited = edited_column(col, n, c, config)
             dialogue = config.get('dialogues', {}).get(f'{n}.{c}')
@@ -168,7 +233,8 @@ def render(config):
                     lines.append(li)
                 edited.append(lines)
             label = labels_for(config, n)[c-1]
-            edited.insert(0, tag(soup, 'h3', label + ' response · editorial edition'))
+            display = config.get('sectionResponseLabels', {}).get(f'{n}.{c}', label + ' response · editorial edition')
+            edited.insert(0, tag(soup, 'h3', display))
             section.append(edited)
         body.append(section)
     for appendix in appendices:
@@ -204,9 +270,14 @@ def render(config):
 def verify(config, rendered):
     raw = (DATA / config['snapshot']).read_bytes()
     assert hashlib.sha256(raw).hexdigest() == config['sourceSha256']
-    original = sections(BeautifulSoup(raw, 'html.parser'))
+    original = sections(BeautifulSoup(raw, 'html.parser'), config)
     soup = BeautifulSoup(rendered, 'html.parser')
-    prompts = [h.get_text() for h, _ in original]
+    prompts = [original_prompt(h, config, n) for n, (h, _) in enumerate(original, 1)]
+    for n, (h, _) in enumerate(original, 1):
+        old_preambles = preamble_nodes(h, config, n)
+        new_preambles = soup.select(f'#prompt-{n} [data-source-preamble]')
+        assert [x.get_text() for x in old_preambles] == [x.get_text() for x in new_preambles]
+        assert [a.get('href') for p in old_preambles for a in p.find_all('a')] == [a.get('href') for p in new_preambles for a in p.find_all('a')]
     assert prompts == [n.get_text() for n in soup.select('.original-prompt-text')]
     assert prompts == [n.get_text() for n in soup.select('.prompt-ledger__text')]
     used = set()
@@ -229,6 +300,18 @@ def verify(config, rendered):
                     retained += 1
             assert [(x.name, len(x.find_all('li', recursive=False))) for x in expected.find_all(['ol', 'ul'])] == [(x.name, len(x.find_all('li', recursive=False))) for x in actual.find_all(['ol', 'ul']) if 'source-dialogue' not in x.get('class', [])]
             assert len(col.find_all('table')) == len(actual.find_all('table'))
+            for t, (old_table, new_table) in enumerate(zip(col.find_all('table'), actual.find_all('table'))):
+                assert len(old_table.find_all('tr')) == len(new_table.find_all('tr'))
+                for r, (old_row, new_row) in enumerate(zip(old_table.find_all('tr'), new_table.find_all('tr'))):
+                    old_cells = old_row.find_all(['th', 'td'], recursive=False)
+                    new_cells = new_row.find_all(['th', 'td'], recursive=False)
+                    assert len(old_cells) == len(new_cells)
+                    for i, (old_cell, new_cell) in enumerate(zip(old_cells, new_cells)):
+                        key = f'{n}.{c}.table{t}.{r}.{i}'
+                        if key in config.get('tableCellReplacements', {}):
+                            used.add(key)
+                        else:
+                            assert text(old_cell) == text(new_cell), key
             assert [ol.get('start', '1') for ol in expected.find_all('ol')] == [
                 ol.get('start', '1') for ol in actual.find_all('ol')
                 if 'source-dialogue' not in ol.get('class', [])]
@@ -246,7 +329,7 @@ def verify(config, rendered):
                 clone = copy.deepcopy(actual)
                 clone.find('h3', recursive=False).decompose()
                 assert str(clone) == str(expected), (n, c, 'complete response mismatch')
-    edits = set(config['replacements']) | set(config.get('leadingTextReplacements', {}))
+    edits = set(config['replacements']) | set(config.get('leadingTextReplacements', {})) | set(config.get('tableCellReplacements', {}))
     assert used == edits, ('Unused edits', edits - used)
     for appendix in config.get('sourceAppendices', []):
         old = BeautifulSoup(raw, 'html.parser').select('h2')[appendix['headingIndex']].find_next_sibling()
@@ -265,8 +348,11 @@ def verify(config, rendered):
     assert 'EDITORIALLY MAINTAINED:' in rendered
     assert 'AUTO-GENERATED BY scripts/build_archive.py' not in rendered
     return {'pagePath': '/' + config['pageFile'].removesuffix('index.html'),
-            'sourceSha256': config['sourceSha256'], 'originalPrompts': len(prompts),
-            'modelResponses': sum(len(cols) for _, cols in original), 'blocksRetainedVerbatim': retained,
+            'sourceSha256': config['sourceSha256'], 'originalPrompts': len(prompts) - len(config.get('nonPromptSections', [])),
+            'originalHeadings': len(prompts),
+            'sourceColumns': sum(len(cols) for _, cols in original),
+            'modelResponses': sum(len(cols) for _, cols in original) - len(config.get('nonResponseColumns', [])), 'blocksRetainedVerbatim': retained,
+            'tableCellsExplicitlyRevised': len(config.get('tableCellReplacements', {})),
             'blocksExplicitlyRevised': changed, 'promptOrderExact': True,
             'sourceBlockOrderExact': True,
             'listAndTableStructuresPreserved': not bool(config.get('listItemContinuations') or config.get('responseAppendices')),
