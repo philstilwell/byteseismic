@@ -1,0 +1,43 @@
+{
+  "pagePath": "/philosophy-of-science/orthogonality/",
+  "sourceSha256": "bcea4cdb594a379138562a12372e3c5a63c3e12942fe2eaf62f7cb6a75e1e918",
+  "originalPrompts": 6,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 57,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 110,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "clinicalDesignGroups": [
+      2,
+      4
+    ],
+    "geminiActualStudyExamples": [
+      3
+    ],
+    "quizQuestionsAndAnswers": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "discussionQuestions": [
+      15,
+      15
+    ]
+  },
+  "sha256": "38f2bcfcf6afdc67497746000bbf82c9b6d66ad319690d69876d7d1a277d4d76",
+  "sourceIdentity": {
+    "wordpressId": 4585,
+    "title": "Orthogonality",
+    "url": "http://byteseismic.com/2024/03/27/orthogonality/",
+    "exactCacheSnapshot": true,
+    "allOriginalPromptsReadAndMatched": true
+  }
+}

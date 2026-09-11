@@ -156,6 +156,11 @@ def edited_column(original, n, c, config):
         assert len(lists) == len(starts)
         for ol, start in zip(lists, starts):
             ol['start'] = str(start)
+    for index in config.get('manuallyNumberedLists', {}).get(f'{n}.{c}', []):
+        ol = col.find_all('ol')[index]
+        for number, li in enumerate(ol.find_all('li', recursive=False), 1):
+            assert text(li).startswith(f'{number}. ')
+        ol['style'] = 'list-style:none;padding-left:0'
     return col
 
 

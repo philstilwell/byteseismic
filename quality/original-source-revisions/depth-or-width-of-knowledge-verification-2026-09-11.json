@@ -1,0 +1,43 @@
+{
+  "pagePath": "/rational-thought/depth-or-width-of-knowledge/",
+  "sourceSha256": "8cbb0d0936d083d275510a49f9100e4f1fc55a3aa5a08828557d73239ff67a34",
+  "originalPrompts": 6,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 104,
+  "tableCellsExplicitlyRevised": 35,
+  "blocksExplicitlyRevised": 62,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "originalTableRows": [
+      8,
+      5
+    ],
+    "habitTableRows": [
+      7
+    ],
+    "quizQuestionsAndAnswers": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "discussionQuestions": [
+      15,
+      15
+    ]
+  },
+  "sha256": "f1d239c13bf434e11f7416abb5ec7a9f5bedb5b6fffa530d1be79cf37980ddc1",
+  "sourceIdentity": {
+    "wordpressId": 3971,
+    "title": "Depth or Width of Knowledge?",
+    "url": "http://byteseismic.com/2024/03/19/depth-or-width-of-knowledge/",
+    "exactCacheSnapshot": true,
+    "allOriginalPromptsReadAndMatched": true
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "pagePath": "/political-philosophy/identity-politics/",
+  "sourceSha256": "3846b417d9d5eeeb11743dcf4927849728ad9c6a415f63bbbe3d8c0ee84c4729",
+  "originalPrompts": 6,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 74,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 86,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "historicalExamples": [
+      5
+    ],
+    "governanceStrategies": [
+      7
+    ],
+    "separationStrategies": [
+      10
+    ],
+    "quizQuestionsAndEndKeys": [
+      7,
+      7,
+      7,
+      7
+    ],
+    "discussionQuestions": [
+      15,
+      15
+    ]
+  },
+  "sha256": "605e68d873e97f206601dc06a85ce54394692895ad61cfb786e09eea82351fb2",
+  "sourceIdentity": {
+    "wordpressId": 7612,
+    "title": "Identity Politics",
+    "url": "http://byteseismic.com/2024/04/30/identity-politics/",
+    "exactCacheSnapshot": true,
+    "allOriginalPromptsReadAndMatched": true
+  }
+}

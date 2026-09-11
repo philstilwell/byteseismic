@@ -1,0 +1,237 @@
+{
+  "wordpressId": 7801,
+  "pageFile": "epistemology/adequate-evidence/index.html",
+  "snapshot": "adequate-evidence-wordpress-7801.html",
+  "sourceSha256": "c75b579735715806bbf058a7f29d1119ad9b3ed8d8f2c1445bfbfa0d637c5dd6",
+  "sourceUrl": "http://byteseismic.com/2024/05/02/adequate-evidence/",
+  "sourceLabel": "Original WordPress conversation, May 2, 2024",
+  "shellRevision": "194c0f551fc31c35dd31fc5685679d7a123b836c",
+  "date": "2026-09-11",
+  "modelLabels": [
+    "ChatGPT",
+    "Claude"
+  ],
+  "introHeading": "Confidence can be graded while a decision is binary",
+  "intro": "The curator challenges the idea that enough evidence suddenly licenses complete belief, then asks how uncertain beliefs can guide definite choices. The two original dialogues and both sets of scenarios remain in place, with revisions distinguishing evidential confidence, practical acceptance, and the consequences of acting.",
+  "description": "Examine graded belief, two professor–student dialogues, rational choices at 20% confidence, and evidence-based updating through scenarios and quizzes.",
+  "headings": [
+    "What adequate evidence can and cannot mean",
+    "Two dialogues about the epistemic switch",
+    "Three choices at 20% confidence in each response",
+    "Four updating scenarios in each response",
+    "Two ten-item quizzes and answer keys",
+    "Two sets of fifteen discussion questions"
+  ],
+  "replacements": {
+    "1.1.0": "Yes—if “belief” means degree of confidence, evidence does not cross a universal threshold that turns uncertainty into complete certainty. Confidence should respond to the total relevant evidence and background information. But “adequate” can still mean adequate for a specified purpose, such as acting or provisionally accepting a claim; that need not mean assigning it probability 1. Bayesian reasoning makes graded updating explicit: the effect of new evidence depends on how expected it was under competing possibilities, not on a simple linear quantity called the amount of evidence. One decisive observation can produce a large update. The curator’s central distinction is between an evidentially warranted degree of confidence and an unwarranted jump to full belief.",
+    "1.2.0": "Your objection identifies the mistake in treating a threshold as a license for certainty. A person can be more or less confident in a proposition, and that confidence should track evidential support. Ordinary yes/no acceptance and a yes/no decision can coexist with uncertainty; neither has to erase the underlying degree of belief.",
+    "1.2.2": "1) Requiring certainty before assigning any confidence confuses “not certain” with “impossible.” Giving an uncertain proposition probability zero is itself an extreme judgment. Even with a mathematical proof, confidence that one has understood and checked it is distinct from the validity of the deduction.",
+    "1.2.3": "2) Degrees of confidence run between certainty that a proposition is false and certainty that it is true. An intermediate judgment is not a failure to believe rationally; it can be the most accurate expression of what the evidence supports.",
+    "1.2.4": "3) Confirming evidence raises confidence when it favors the proposition over relevant alternatives; disconfirming evidence lowers it. Repetition of the same report is not automatically new independent support.",
+    "1.2.5": "4) Different background information or defensible modeling assumptions can produce different assessments. That does not make every disagreement equally rational: people should examine the source of their difference, and cannot justify arbitrary numbers merely by calling them personal standards.",
+    "1.2.6": "5) No universal “adequate evidence” threshold converts a fallible claim into certainty. A threshold for action or practical acceptance answers a different question and should be explained in relation to its purpose.",
+    "1.2.7": "The central discipline is responsiveness to evidence, not endlessly changing one’s mind or pretending to know an exact percentage. Sometimes a range or a carefully qualified comparison expresses warranted confidence better. Keep the strength of the claim separate from the stakes of the decision.",
+    "2.1.2": "Professor: Does “full belief” mean treating the claim as certain, or accepting it for a purpose while still admitting a chance of error?",
+    "2.1.4": "Professor: Being convinced enough to proceed can make sense. But why should crossing that point erase the remaining uncertainty?",
+    "2.1.6": "Professor: Suppose your confidence falls from 80% to 65%, while your practical threshold is 60%. You may still act, but would you really describe the evidence as equally convincing?",
+    "2.1.8": "Professor: Your decision could remain unchanged while your confidence decreases. Scientific inquiry also distinguishes provisionally using a conclusion from regarding it as infallible.",
+    "2.1.10": "Professor: It requires care, but not a fresh calculation every minute. Update when information changes the case; a repeated rumor or irrelevant detail need not move your confidence.",
+    "2.1.12": "Professor: Yes. A dimmer captures degrees better than an on-off switch, though the evidence can justify a large change as well as a small one. The analogy does not supply the correct setting.",
+    "2.1.14": "Professor: Compare the consequences of the available actions at your present confidence. If a precaution costs one unit and would prevent a loss of ten with probability 20%, its expected benefit is two units. Under those simplified assumptions it is worth taking, without believing that the loss will certainly occur.",
+    "2.1.16": "Professor: Exactly. In that example the precaution is rational while the event remains unlikely. Changing the costs could change the decision without changing the probability.",
+    "2.2.2": "Professor: When you say “fully,” do you mean certainty, or enough confidence to accept the claim for a particular purpose?",
+    "2.2.4": "Professor: “No reasonable doubt” need not mean no possibility of error. More fundamentally, why should falling short of certainty prevent you from assigning any confidence at all?",
+    "2.2.6": "Professor: Wanting to avoid error is sensible. But treating every uncertain claim as impossible would also create errors. We need degrees of confidence that acknowledge both possibilities.",
+    "2.2.8": "Professor: You might regard one explanation as plausible and another as very unlikely without treating either as certainly true or false. Evidence can change those judgments by different amounts.",
+    "2.2.10": "Professor: There is no universal point at which evidence creates certainty. You may use a threshold for practical acceptance, but keep track of the uncertainty that remains after crossing it.",
+    "2.2.12": "Professor: Compare how well the evidence fits the claim and its alternatives, taking account of source reliability and background information. A weak clue may warrant only a small change—or none if it was equally expected either way.",
+    "2.2.14": "Professor: Exactly. The problem is the leap from sufficient-for-a-purpose to certain. You can give a definite answer or choose an action while acknowledging a fallible, graded judgment.",
+    "2.2.16": "Professor: Keep asking two questions: how strongly does the evidence support the claim, and what should I do given that support? The second also depends on consequences and alternatives.",
+    "3.1.0": "Here are three hypothetical choices with a stipulated 20% probability of a specified favorable outcome. The probability is an assumption for the examples, not a reported medical or financial estimate. To show that an action can be rational, we must also specify its costs and alternatives.",
+    "3.1.1": "<strong>High Reward with Low Risk:</strong> A researcher can run a preliminary laboratory study with a 20% chance of identifying a useful drug candidate. Suppose success has value 20 on the project’s evaluation scale, the study costs 1 regardless of outcome, failure has no further cost, and the next-best use has net value 0. The expected net value is 0.2 × 20 − 1 = 3. Pursuing the study is rational under these assumptions, while confidence in success remains 20%. This is a research-allocation example, not permission to expose patients to an untested treatment.",
+    "3.1.2": "<strong>Lack of Better Alternatives:</strong> A rescue team can attempt one of two searches before an opportunity closes. One has a 20% chance of finding survivors; the other has 10%. Assume equal resource costs, equal risks to rescuers, the same number of people helped if successful, and no useful third option. The 20% search is rationally preferable under those assumptions. Highest success probability alone would not settle the choice if danger or consequences differed.",
+    "3.1.3": "<strong>Strategic Diversification in Investment:</strong> In a hypothetical small investment, success has probability 20% and returns 10 units including the original stake; failure returns zero, and the stake costs 1. Expected net gain is 0.2 × 10 − 1 = 1. Someone who can bear the loss and has no better use for that small allocation may reasonably choose it. Diversification can limit exposure to a particular failure, but does not by itself make an unattractive bet rational; correlated losses and the person’s attitude toward risk still matter.",
+    "3.1.4": "Each example supplies a reason for acting despite likely failure: favorable consequences relative to cost, or a better prospect than the available alternatives. A positive expected value is an average across possible outcomes, not a guarantee about the one outcome that will occur.",
+    "3.2.0": "These are three hypothetical decision models with an assumed 20% chance of the stated outcome. They illustrate how an action can be rational under uncertainty; the numbers do not report actual treatment, business, or climate-policy performance.",
+    "3.2.1": "<strong>Medical Decision:</strong> Suppose a patient faces a choice between a treatment with a 20% chance of survival to a specified time and an alternative with a much lower chance. If the burdens, possible harms, and likely quality of life are acceptable to that patient, and no better option exists, choosing treatment can be rational. The outcome must be defined and the comparison based on the patient’s circumstances; 20% alone does not decide the matter.",
+    "3.2.2": "<strong>Business Investment:</strong> Suppose a small pilot project costs 2 units and has a 20% chance of producing a benefit worth 20 units, with no further loss on failure. Its expected net value is 0.2 × 20 − 2 = 2. A decision maker able to bear the loss could rationally proceed if competing uses are less valuable. Calling a startup “high reward” without estimating the payoff and downside would not establish that conclusion.",
+    "3.2.3": "<strong>Environmental Policy:</strong> Suppose a proposed pilot intervention has a 20% chance of preventing damage valued at 100 units, costs 5 units, and has negligible additional harm. Its expected net benefit is 0.2 × 100 − 5 = 15. Implementation can be rational if feasible alternatives offer less benefit. These are stipulated values for the example, not a climate-science forecast; side effects, distribution of costs, and opportunity costs must be included in a real comparison.",
+    "3.2.4": "A binary choice need not reflect binary confidence. The action can change when the consequences or available alternatives change, even if the evidence-based probability stays at 20%. The expected-value calculations make the assumptions visible; where outcomes are not well represented by one numerical scale, the comparison also needs an explicit account of the decision maker’s priorities.",
+    "4.1.0": "The following four scenarios are numerical illustrations, not estimates from real studies. Let H be the stated claim and E the new evidence. Posterior odds equal prior odds multiplied by P(E given H) / P(E given not-H), the likelihood ratio. Convert a probability p to odds p/(1−p), then convert odds o back to probability o/(1+o). The stipulated likelihoods below make the updates checkable. In real work, justifying those likelihoods is part of the task. See <a href=\"https://sites.stat.columbia.edu/gelman/research/published/43586_2020_1_Author.pdf\">Gelman and colleagues on Bayesian statistics and modelling</a>.",
+    "4.1.2": "<strong>Initial Belief:</strong> H is that a new drug provides a specified benefit over a comparator in a defined population. For illustration, the prior probability is 50%.",
+    "4.1.3": "<strong>New Evidence:</strong> A controlled efficacy study produces a prespecified favorable result. Assume its probability is 70% if H is true and 30% if H is false. This is not merely a reassuring phase-one safety result; <a href=\"https://www.fda.gov/patients/drug-development-process/step-3-clinical-research\">the FDA distinguishes the purposes of clinical research phases</a>.",
+    "4.1.4": "<strong>Updated Belief:</strong> Prior odds 1 multiplied by 0.7/0.3 give odds 7/3, hence probability 70%. The favorable result raises confidence without establishing certainty or deciding treatment suitability.",
+    "4.1.6": "<strong>Initial Belief:</strong> H is that a smartphone will reach a defined market-share target by a specified date. The illustrative prior is 60%, or odds 3/2.",
+    "4.1.7": "<strong>New Evidence:</strong> Early sales are weak. Suppose such results have probability 20% if the target will be reached and 45% if it will not.",
+    "4.1.8": "<strong>Updated Belief:</strong> Multiply 3/2 by 0.2/0.45 to obtain odds 2/3, or probability 40%. Weak sales favor missing the target; a supply interruption might require a different model and likelihood.",
+    "4.1.10": "<strong>Initial Belief:</strong> H is that this site was the location of a particular battle. The illustrative prior is 30%, or odds 3/7.",
+    "4.1.11": "<strong>New Evidence:</strong> Excavators find a specified combination of dated weapons and their spatial arrangement. Suppose that pattern has probability 70% at the battle site and 20% at a non-battle site. Merely finding compatible weapons would not justify these numbers.",
+    "4.1.12": "<strong>Updated Belief:</strong> The likelihood ratio is 3.5. Multiplying prior odds 3/7 by 3.5 gives odds 3/2, or probability 60%. The alternative explanation matters: artifacts equally common at ordinary settlements would produce little or no update.",
+    "4.1.14": "<strong>Initial Belief:</strong> H is that a specified temperature measure will exceed a defined baseline by at least 2°C within fifty years. In this purely hypothetical model the prior probability is 80%, or odds 4; this is not a real climate projection.",
+    "4.1.15": "<strong>New Evidence:</strong> A specified emissions pattern is observed. Assume the model gives it probability 45% conditional on H and 20% conditional on not-H. The future policy assumptions and the temperature baseline must remain explicit.",
+    "4.1.16": "<strong>Updated Belief:</strong> The likelihood ratio is 2.25; prior odds 4 become 9, or probability 90%. An observed emissions increase alone does not dictate this exact update—the stipulated model does.",
+    "4.1.17": "These examples hold each proposition fixed and explain why the new evidence changes its probability. The numbers are not interchangeable measures of enthusiasm. A real update must also check data quality, competing explanations, and whether the same evidence has already been counted.",
+    "4.2.0": "Here are four further scenarios with an initial judgment, an upward update, and a later reassessment. The original response assigned exact percentages without a model to support them. Qualitative changes are more honest here; the preceding response shows how exact numbers can be justified when likelihoods are supplied.",
+    "4.2.1": "<strong>Belief in Psychic Abilities</strong><br><strong>Initial belief:</strong> A particular claimant’s ability to predict hidden targets remains unestablished.<br><strong>New evidence:</strong> A friend reports accurate predictions. If reliable and genuinely unexpected under ordinary explanations, that report could slightly increase confidence; selective recollection may instead explain it.<br><strong>Later evidence:</strong> Adequately powered, well-controlled tests of the same claim show chance-level results. Confidence falls to the extent that those results would be unlikely if the claimed ability existed. A vague anecdote and a controlled test need not carry equal weight.",
+    "4.2.2": "<strong>Belief in the Net Benefit of a New Drug</strong><br><strong>Initial belief:</strong> Early trials make a particular treatment’s overall benefit plausible for a specified population.<br><strong>New evidence:</strong> Larger controlled trials report the prespecified benefits and measured harms, strengthening that judgment.<br><strong>Later evidence:</strong> Credible reports suggest a serious adverse effect. They warrant investigation and may lower confidence in net benefit, depending on frequency, severity, and causation. They do not, merely by being side effects, disprove efficacy; benefit and harm are different propositions.",
+    "4.2.3": "<strong>Belief in a Paranormal Interpretation of a Video</strong><br><strong>Initial belief:</strong> The claim that this video records a paranormal event has low support.<br><strong>New evidence:</strong> An apparently anomalous image may initially raise interest and slightly increase confidence if ordinary explanations seem less likely.<br><strong>Later evidence:</strong> Verified editing records show that the apparent event was inserted. The video no longer supports that interpretation. This directly undermines the claim about this recording, not by itself every possible paranormal claim.",
+    "4.2.4": "<strong>Belief in Human-Caused Climate Change</strong><br><strong>Initial belief:</strong> A reader has high confidence that human activities are the main cause of recent global warming, based on the converging physical evidence.<br><strong>New evidence:</strong> An independent analysis strengthens the attribution if its result is more expected under human forcing than relevant alternatives.<br><strong>Later challenge:</strong> A few dissenting claims about natural cycles do not automatically reduce confidence. A downward update would require evidence that actually weakens the attribution or exposes a flaw in supporting analysis. Count evidential content and independence, not dissenting voices. <a href=\"https://report.ipcc.ch/ar6syr/headline.html\">IPCC synthesis and assessment of the evidence</a>.",
+    "4.2.5": "An update can be upward, downward, or effectively zero. First specify the proposition, then ask whether the new information favors it over alternatives. Avoid changing from “effective” to “safe,” or from “this video is genuine” to “all paranormal phenomena exist,” halfway through an example.",
+    "5.1.8": "Why does diversification alone fail to justify the hypothetical investment with a 20% chance of success?",
+    "5.1.10": "Why does a favorable controlled efficacy result support a different claim from a reassuring early safety result?",
+    "5.1.12": "Rational confidence should respond to the total relevant evidence and background information, without an unsupported jump to certainty.",
+    "5.1.14": "The professor separates practical acceptance or action from certainty and uses a dimmer to illustrate degrees of confidence.",
+    "5.1.15": "The preliminary laboratory study: expected benefit is 0.2 × 20 = 4 units and cost is 1, giving expected net value 3 under the stated assumptions.",
+    "5.1.16": "Evidence-responsive, graded confidence; updates may be large or small, and the dimmer analogy alone does not determine their size.",
+    "5.1.17": "The assumed evidence likelihoods are 70% under the battle-site claim and 20% under its alternative. Their ratio 3.5 turns prior odds 3/7 into 3/2, raising probability from 30% to 60%.",
+    "5.1.18": "Weak sales have assumed probabilities 20% under success and 45% under failure; multiplying prior odds 3/2 by 0.2/0.45 gives posterior odds 2/3, or 40%.",
+    "5.1.19": "Diversification does not repair an unfavorable payoff. The example also specifies a 10-unit success return, 1-unit stake, affordable loss, and no better alternative; these make the expected net gain 1 unit.",
+    "5.1.20": "In the hypothetical model, the emissions evidence has a likelihood ratio of 2.25, turning odds 4 into 9 and probability 80% into 90%. Those are stipulated model values, not an actual climate estimate.",
+    "5.1.21": "An efficacy study tests a defined benefit against a comparator. Evidence about tolerability or early safety does not by itself establish that benefit, and benefit does not by itself establish acceptable overall harm.",
+    "5.2.3": "Can choosing an action be rational when confidence in its success is only 20%, and does that make success more likely?",
+    "5.2.4": "Give one example in which a 20% chance of a desired outcome supports acting once consequences and alternatives are specified.",
+    "5.2.7": "Can different background information or defensible model assumptions explain different confidence judgments without making arbitrary disagreement rational?",
+    "5.2.8": "If genuinely new evidence favors a claim over its alternatives, how should confidence change?",
+    "5.2.9": "If genuinely new evidence favors the alternatives, how should confidence change?",
+    "5.2.10": "Should the goal be certainty in every claim, or confidence warranted by the evidence?",
+    "5.2.13": "Update according to what the new evidence supports relative to alternatives, including little or no change when it adds no relevant information.",
+    "5.2.14": "Yes, acting can be rational; no, the favorable consequences do not increase the evidence-based probability of success.",
+    "5.2.15": "For example, the hypothetical pilot costs 2 units with a 20% chance of a 20-unit benefit, giving expected net value 2 if the loss is affordable and alternatives are worse.",
+    "5.2.17": "The total relevant evidence, its quality and independence, and justified background assumptions.",
+    "5.2.18": "Yes. The source of the difference still needs examination; a personal standard is not a license for any chosen probability.",
+    "5.2.21": "Confidence warranted by the evidence, expressed with no more precision than the assessment supports.",
+    "6.1.0": "How does graded confidence differ from practical acceptance of a claim, and can both play a legitimate role in inquiry?",
+    "6.1.7": "In the archaeological example, why does the frequency of similar artifacts at other kinds of site matter? How could counting dependent findings as independent distort the update?",
+    "6.1.12": "How should demanding standards for consequential decisions be distinguished from a claim to certainty?",
+    "6.1.13": "What assumptions would be needed to justify the hypothetical climate-projection update, and how should its uncertainty enter a policy decision?",
+    "6.2.6": "How should the costs of a false positive or false negative affect action thresholds without simply changing confidence to suit the stakes?",
+    "6.2.7": "How do differences in available evidence across subjects affect warranted confidence, and how is this distinct from setting a threshold for practical acceptance?"
+  },
+  "dialogues": {
+    "2.1": {
+      "sourceTurnNodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "continuation": []
+    },
+    "2.2": {
+      "sourceTurnNodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "continuation": []
+    }
+  },
+  "countChecks": [
+    {
+      "name": "originalDialogueTurns",
+      "selector": "#prompt-2 .source-dialogue",
+      "child": "li",
+      "expected": [
+        19,
+        17
+      ]
+    },
+    {
+      "name": "twentyPercentScenarios",
+      "selector": "#prompt-3 ol",
+      "child": "li",
+      "expected": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "updatingScenarios",
+      "selector": "#prompt-4 .original-response > ol",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1,
+        1,
+        4
+      ]
+    },
+    {
+      "name": "quizQuestionsAndAnswers",
+      "selector": "#prompt-5 ol",
+      "child": "li",
+      "expected": [
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "discussionQuestions",
+      "selector": "#prompt-6 ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    }
+  ],
+  "responseReviews": {
+    "1.1": "Revised the full compact response to preserve curator’s graded-confidence argument while distinguishing practical acceptance, probability one, and non-linear updating.",
+    "1.2": "Preserved five numbered points; clarified zero versus uncertainty, evidence independence, rational disagreement, context-specific adequacy and warranted numerical precision.",
+    "2.1": "All nineteen original dialogue turns remain in order; all nine student turns verbatim. Professor directly addresses decision simplicity, evidential weakening above an action threshold, update size and action at low probability.",
+    "2.2": "All seventeen original dialogue turns remain in order; all eight Alex turns verbatim. Professor distinguishes no reasonable doubt from certainty, addresses flimsy evidence and separates confidence from action.",
+    "3.1": "Three original scenario topics retained with explicit 20% assumptions, consequences and alternatives. Lab study is not clinical deployment; rescue compares equal burdens; investment is not justified by diversification alone.",
+    "3.2": "Three original scenario topics retained; hypothetical medical choice includes patient-valued burdens, while business/environmental expected net benefits are explicit and no fabricated climate-science forecast remains.",
+    "4.1": "Four original scenario topics and initial/evidence/update structure retained. Preserved the 50-to-70, 60-to-40, 30-to-60 and 80-to-90 sequences with stipulated checkable likelihoods, fixed propositions and clear hypothetical status; repaired phase-one efficacy inference.",
+    "4.2": "Four original topics with successive evidence preserved; removed invented exact probabilities, separated net benefit from efficacy and one recording from all paranormal claims, and corrected automatic deference to mere dissent.",
+    "5.1": "All ten question/answer pairs reviewed; repaired answers dependent on decision and update corrections, and the original question conflating research allocation with a trial update.",
+    "5.2": "All ten question/answer pairs reviewed; corrected confidence/action ambiguity, precision, independent evidence and arbitrary disagreement.",
+    "6.1": "Eleven effective questions retained; four repaired for acceptance/confidence, dependent artifacts, high-stakes action and hypothetical climate modeling.",
+    "6.2": "Thirteen effective questions retained; two revised to distinguish decision costs and acceptance standards from evidential confidence."
+  },
+  "remainingConcerns": [
+    "All numerical scenarios use explicitly stipulated probabilities and payoffs; they are not reported medical, investment, or climate estimates.",
+    "Graded confidence is the curator’s framework; the revision distinguishes rather than dismisses other uses of categorical belief and acceptance.",
+    "Original decorative highlights and duplicate WordPress navigation are replaced by current site introduction/navigation; all substantive prompts and response turns are retained."
+  ],
+  "orderedListStarts": {
+    "4.1": [
+      1,
+      2,
+      3,
+      4
+    ]
+  }
+}

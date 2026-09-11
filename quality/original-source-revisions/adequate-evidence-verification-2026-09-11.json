@@ -1,0 +1,52 @@
+{
+  "pagePath": "/epistemology/adequate-evidence/",
+  "sourceSha256": "c75b579735715806bbf058a7f29d1119ad9b3ed8d8f2c1445bfbfa0d637c5dd6",
+  "originalPrompts": 6,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 71,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 83,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "originalDialogueTurns": [
+      19,
+      17
+    ],
+    "twentyPercentScenarios": [
+      3,
+      3
+    ],
+    "updatingScenarios": [
+      1,
+      1,
+      1,
+      1,
+      4
+    ],
+    "quizQuestionsAndAnswers": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "discussionQuestions": [
+      15,
+      15
+    ]
+  },
+  "sha256": "4db2354ebb73123f53d416a5cd9f640858033a0dffab3ef70db4e1aa28cfdf83",
+  "sourceIdentity": {
+    "wordpressId": 7801,
+    "title": "“Adequate” Evidence",
+    "url": "http://byteseismic.com/2024/05/02/adequate-evidence/",
+    "exactCacheSnapshot": true,
+    "allOriginalPromptsReadAndMatched": true
+  },
+  "verbatimStudentTurns": 17
+}
