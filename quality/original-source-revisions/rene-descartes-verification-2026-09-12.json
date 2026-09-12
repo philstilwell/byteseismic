@@ -1,0 +1,23 @@
+{
+  "pagePath": "/philosophers/rene-descartes/",
+  "sourceSha256": "859f769ba7af47c8266e534fdfed3c1ee4191c3a02afd8148a8b4fc6efe6ba06",
+  "originalPrompts": 4,
+  "originalHeadings": 4,
+  "sourceColumns": 8,
+  "modelResponses": 8,
+  "blocksRetainedVerbatim": 20,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 31,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "sevenContributionsPerModel": [
+      7,
+      7
+    ]
+  },
+  "sha256": "d74b2fb865522e738a6aaf0293236d0e4000314d630c65b9ea99e1927f46d156"
+}

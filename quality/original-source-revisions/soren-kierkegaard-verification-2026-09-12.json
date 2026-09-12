@@ -1,0 +1,23 @@
+{
+  "pagePath": "/philosophers/soren-kierkegaard/",
+  "sourceSha256": "e7047fe43e5f25295530e0059891cbd9a1b2c298bdf51b95e26fc65c02631f99",
+  "originalPrompts": 4,
+  "originalHeadings": 4,
+  "sourceColumns": 8,
+  "modelResponses": 8,
+  "blocksRetainedVerbatim": 15,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 36,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "sevenContributionsPerModel": [
+      7,
+      7
+    ]
+  },
+  "sha256": "38e0410f24ab961f61a49513048e7204a6599b3fc8aa9bc3b8ee812359e12390"
+}

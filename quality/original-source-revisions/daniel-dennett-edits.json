@@ -1,0 +1,75 @@
+{
+  "wordpressId": 6962,
+  "pageFile": "philosophers/daniel-dennett/index.html",
+  "snapshot": "daniel-dennett-wordpress-6962.html",
+  "sourceSha256": "2bb4e7e80e57e16764d2f6590294b345f1401c54d54d72a42da77ae7480a7fff",
+  "sourceUrl": "http://byteseismic.com/2024/04/23/daniel-dennett/",
+  "sourceLabel": "Original WordPress conversation, 2024-04-23",
+  "shellRevision": "9a02411c4d90b30e1d302661766933daa5e374e7",
+  "date": "2026-09-12",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "replacements": {
+    "1.1.0": "Daniel Dennett brought philosophy of mind into sustained conversation with cognitive science, artificial intelligence, and evolutionary biology. His intentional stance explains how interpreting a system through beliefs and goals can reveal useful patterns in its behavior. Consciousness Explained challenges the idea of a single inner location where experience is presented to an observer, while his work on free will asks which capacities for control and responsibility matter. These proposals became influential subjects of disagreement, rather than settled scientific explanations of every aspect of mind.",
+    "2.1.0": "<strong>Intentional systems:</strong> The intentional stance predicts a system’s behavior by attributing beliefs and goals suited to its situation. Saying that a chess program “wants” to protect its king may compress an otherwise complicated prediction. Success of that strategy does not by itself show that the program feels anything, and not every object becomes usefully predictable this way.",
+    "2.1.1": "<strong>Consciousness Explained:</strong> The multiple drafts model replaces a single inner viewing place with distributed processes that influence reports, memory, and action. Different contents can be revised at different times; there need be no final, authoritative draft presented to a second observer inside the brain. This challenges an account of how consciousness works, not the ordinary fact that people have experiences.",
+    "2.1.2": "<strong>Qualia and the self:</strong> Dennett challenges qualia conceived as intrinsic, ineffable properties known infallibly from within. He asks what discriminations, judgments, memories, and dispositions actually explain our experience and our sense of self. His functional emphasis is more specific than saying that each familiar mental state is simply identical to one brain state.",
+    "2.1.3": "<strong>Evolutionary naturalism:</strong> Darwin’s Dangerous Idea treats natural selection as a process capable of producing organized competence without a designer who understands the result. “Substrate-neutral” means that the abstract pattern of selection can be realized in different materials, provided the relevant conditions hold. It does not mean every complex phenomenon is an adaptation or that a cultural explanation needs no evidence of its own.",
+    "2.1.4": "<strong>Compatibilism:</strong> Dennett defends forms of free will compatible with deterministic laws. The important capacities include anticipating consequences, learning, responding to reasons, and regulating action. Mere unpredictability or random choice would not supply those capacities; acting on a desire alone does not settle whether coercion or impaired control undermines responsibility.",
+    "2.1.5": "<strong>Religion as a natural phenomenon:</strong> Breaking the Spell asks how religious practices and beliefs arise, persist, and change through cognitive and cultural processes. This makes them subjects for investigation. An explanation of a belief’s origin is distinct from assessing whether its content is true, and the benefits or harms of a practice remain empirical and ethical questions.",
+    "2.1.6": "<strong>Philosophical tools:</strong> Dennett uses thought experiments, or “intuition pumps,” to expose assumptions and test ways of framing a problem. Changing details can reveal whether an intuition depends on a hidden premise. A vivid story can also mislead, so the argumentative work must be checked rather than delegated to the image.",
+    "2.2.1": "<strong>The frame problem:</strong> In <a href=\"https://dl.tufts.edu/concern/pdfs/7d279568g\">Cognitive Wheels: The Frame Problem of AI</a> (1984), Dennett explores how an agent can use relevant knowledge without examining indefinitely many irrelevant consequences. The challenge is not solved by naming a central decider, since that decider would face the same problem. The original attribution to Brainstorms (1981) was inaccurate; Brainstorms first appeared in 1978.",
+    "2.2.2": "<strong>Multiple drafts:</strong> Consciousness Explained (1991) proposes that perception and interpretation proceed through distributed revisions, with different consequences for speech, memory, and behavior. There is no necessary point at which all processing becomes a finished presentation to an inner spectator. This does not entail several little conscious spectators in different brain regions.",
+    "2.2.3": "<strong>Critique of the hard problem:</strong> <a href=\"https://consc.net/consciousness/\">David Chalmers introduced the hard/easy-problem distinction</a>; it was not Dennett’s invention. Dennett challenged the assumption that explaining the relevant cognitive functions must leave an additional, separately constituted property unexplained. His contribution is this disputed challenge to the framing, not agreement that science handles only an easy part while an untouched hard part necessarily remains.",
+    "2.2.4": "<strong>Computational and functional explanations:</strong> Dennett asks how capacities attributed to a whole person can arise from interacting processes that need not themselves understand anything. The original reference to “Churchland’s hypothesis” does not identify a specific contribution of Dennett’s, and it conflates different materialist positions. His intentional stance concerns explanatory patterns, not a simple one-to-one identity between ordinary mental vocabulary and brain states.",
+    "2.2.5": "<strong>Free will and compatibilism:</strong> In Elbow Room and later work, Dennett asks what kind of control makes deliberation and responsibility worthwhile. Learning, foresight, and responsiveness to reasons matter even if events have causes. Doing whatever one happens to desire is insufficient: manipulation, compulsion, and an inability to assess consequences can change the responsibility question.",
+    "2.2.6": "<strong>The intentional stance:</strong> Collected in The Intentional Stance (1987), this approach had appeared in Dennett’s earlier work. Attributing beliefs and goals can identify stable, predictively useful patterns in humans, animals, and artificial systems. Whether such attribution succeeds, and what it warrants about consciousness, are separate questions.",
+    "2.2.7": "<strong>Darwin’s Dangerous Idea:</strong> Dennett explores how cumulative selection can produce complex design without foresight. Evolution can supply inherited capacities as well as capacities for learning; it is not an alternative to all innate organization. The book’s wider claims about mind and culture invite investigation rather than automatically following from biological evolution.",
+    "3.1.0": "Dennett’s prominence plausibly reflects both the content of his arguments and the audiences able to use or contest them. The following factors distinguish intellectual formation, circulation, and later recognition:",
+    "3.1.1": "<strong>Education:</strong> Dennett studied philosophy at Harvard and completed his doctorate at Oxford under Gilbert Ryle. Ryle’s challenge to Cartesian ways of thinking helped frame problems Dennett later pursued through cognitive science. The original’s additional Rhodes Scholar designation is omitted because it has not been established by the institutional account used here. See <a href=\"https://as.tufts.edu/dennettconsortium/news-events/news/remembering-daniel-c-dennett-university-and-fletcher-professor-philosophy-emeritus\">Tufts’ remembrance</a>.",
+    "3.1.3": "<strong>Distinctive proposals:</strong> The intentional stance and multiple drafts model offered reusable ways to frame problems about prediction and consciousness. Their explanatory promise and controversial implications encouraged both adoption and criticism; influence does not establish their correctness.",
+    "3.1.5": "<strong>Research exchange:</strong> Engagement with cognitive scientists, artificial-intelligence researchers, and biologists connected his arguments to models and experiments. This made philosophical assumptions available for reciprocal criticism instead of treating science as a collection of illustrations for a finished doctrine.",
+    "3.1.7": "<strong>Institutional reach:</strong> Teaching, the cognitive-studies center at Tufts, public appearances, and academic recognition expanded the reach of his work. Recognition is partly an outcome of prominence, so it should not be treated as a wholly independent cause of it.",
+    "3.1.8": "Together, these factors explain how difficult and controversial proposals could circulate widely. The account identifies plausible mechanisms of influence rather than assigning a measurable share to talent, institutions, or public debate.",
+    "3.2.3": "<strong>Challenging familiar pictures:</strong> His critique of an inner spectator, account of intentional explanation, and defense of compatibilism made ordinary assumptions about mind available for scrutiny. The frame problem concerns selecting and using relevant information; it should not be reduced to the rejection of a central conscious decider.",
+    "3.2.5": "<strong>Public discussion of religion:</strong> Dennett’s advocacy of scientific study of religion and his public atheism extended his audience. This later visibility amplified a philosophical reputation already established through work on mind and cognition; it did not originate that reputation.",
+    "4.1.0": "Dennett’s clearest areas of influence concern mind, cognition, evolution, and agency. The original grouping mixes philosophical fields with research disciplines; the entries below retain that order while identifying the relevant connections.",
+    "4.1.3": "The multiple drafts model challenges a single inner presentation of experience. His functional and naturalistic approach asks how reports, discriminations, attention, and memory fit into an explanation of consciousness. Critics argue over whether that account captures what experience is like; disagreement is part of the influence.",
+    "4.1.7": "Darwin’s Dangerous Idea extends questions about selection, design, and competence into discussions of culture and technology. These extensions require accounts of variation, transmission, and selective effects in the relevant domain; a suggestive analogy alone is insufficient.",
+    "4.1.9": "His analysis of selection as an algorithmic process and his defense of adaptation-oriented explanation shaped debates about how to explain biological design. The contribution lies partly in clarifying and defending an explanatory approach, not in replacing empirical evolutionary biology.",
+    "4.1.14": "The intentional stance gives researchers a way to discuss goal-directed behavior without assuming a conscious inner agent. It can help interpret or predict a system, but it is not by itself an engineering recipe or a test establishing machine consciousness.",
+    "4.1.16": "His work encourages researchers to relate reports of experience to the processes producing perception, memory, attention, and action. This is a methodological and conceptual influence; it should not be presented as a verified map from each mental state to a particular brain location.",
+    "4.1.18": "Treating religion and other cultural practices as natural phenomena creates questions about transmission, incentives, and cognitive dispositions. The usefulness of those questions does not show that one evolutionary explanation accounts for every social institution.",
+    "4.1.20": "His analysis of representation and intentional interpretation is relevant to philosophical questions about information processing. The original does not identify a particular communication technology developed from his work, so this is best treated as conceptual relevance rather than an established technological impact.",
+    "4.1.23": "These connections are strongest where researchers directly use or challenge a specific proposal. Wider applications remain possibilities to investigate, and the significance of his work does not require claiming equal influence in every listed field.",
+    "4.2.2": "<strong>Philosophy of language:</strong> The intentional stance bears on how we interpret speakers’ beliefs and intentions and how meaning can be attributed to behavior. It belongs within wider debates about interpretation; attributing a goal to a simple device does not establish that the device understands language.",
+    "4.2.3": "<strong>Artificial intelligence:</strong> Questions about relevant information, intentional interpretation, and distributed competence connect his philosophy to artificial-agent research. These frameworks help formulate problems about machine agency and consciousness without providing a conclusive test of either.",
+    "4.2.4": "<strong>Epistemology:</strong> An evolutionary account asks how cognitive capacities could develop and when they are reliable. Survival value and truth are related questions, not equivalent properties. Dennett’s account allows inherited organization and cultural learning, rather than opposing evolution to everything innate."
+  },
+  "countChecks": [
+    {
+      "name": "sevenContributionsPerModel",
+      "selector": "#prompt-2 .original-response > ol",
+      "child": "li",
+      "expected": [
+        7,
+        7
+      ]
+    }
+  ],
+  "introHeading": "Explaining competence without an inner spectator",
+  "intro": "The original four-prompt conversation connects Dennett’s views of mind, evolution, and free will with his intellectual reception. Both response tracks remain separate. The contribution lists distinguish his own proposals from positions he criticized, and the discussion of influence separates concrete engagement from speculative applications.",
+  "description": "Explore Dennett’s intentional stance, multiple drafts, evolutionary naturalism, and compatibilism through the original four prompts.",
+  "headings": [
+    "Dennett’s naturalistic account of mind",
+    "Two lists of seven contributions, with corrected attributions",
+    "How Dennett’s work became influential",
+    "The fields that use and challenge his ideas"
+  ],
+  "pageSignals": {
+    "Page form": "Philosopher profile",
+    "Best for": "understanding mind, agency, and intentional explanation"
+  }
+}

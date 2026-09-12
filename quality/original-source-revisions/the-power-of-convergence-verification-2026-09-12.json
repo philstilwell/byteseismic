@@ -1,0 +1,39 @@
+{
+  "pagePath": "/philosophy-of-science/the-power-of-convergence/",
+  "sourceSha256": "7b0d5aaa5582ce5ec5006cd27a411ecefb3b5a88771e0497161ddd0f5bd7071d",
+  "originalPrompts": 6,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 79,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 88,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": false,
+  "explicitListItemSplits": [
+    "5.2.10"
+  ],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "quizQuestionsAndAnswers": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "discussionQuestions": [
+      15,
+      15
+    ],
+    "threeExamplesChatGPT": [
+      3,
+      3,
+      3
+    ],
+    "threeExamplesGemini": [
+      3
+    ]
+  },
+  "sha256": "dec7336049fb5ff028452d30740eb092ece49432597c5c82bc20cd933c01dee1"
+}

@@ -1,0 +1,23 @@
+{
+  "pagePath": "/philosophers/daniel-dennett/",
+  "sourceSha256": "2bb4e7e80e57e16764d2f6590294b345f1401c54d54d72a42da77ae7480a7fff",
+  "originalPrompts": 4,
+  "originalHeadings": 4,
+  "sourceColumns": 8,
+  "modelResponses": 8,
+  "blocksRetainedVerbatim": 30,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 35,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "sevenContributionsPerModel": [
+      7,
+      7
+    ]
+  },
+  "sha256": "ef4613dbae4d5b7807a43ebb3dae14b027f2179515a4e06f7cd5edea18e8aa0a"
+}

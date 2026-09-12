@@ -1,0 +1,71 @@
+{
+  "wordpressId": 5796,
+  "pageFile": "philosophers/rene-descartes/index.html",
+  "snapshot": "rene-descartes-wordpress-5796.html",
+  "sourceSha256": "859f769ba7af47c8266e534fdfed3c1ee4191c3a02afd8148a8b4fc6efe6ba06",
+  "sourceUrl": "http://byteseismic.com/2024/04/09/rene-descartes/",
+  "sourceLabel": "Original WordPress conversation, 2024-04-09",
+  "shellRevision": "9a02411c4d90b30e1d302661766933daa5e374e7",
+  "date": "2026-09-12",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "replacements": {
+    "1.1.0": "René Descartes made the search for secure foundations a central problem of early modern philosophy. His method of doubt tests even familiar beliefs; the cogito identifies the thinker’s existence as something that cannot be denied while thinking. His further arguments about God, knowledge, and the distinction between mind and body became enduring points of dispute. Later philosophers inherited these questions without necessarily accepting his answers, which helps explain his influence on epistemology, metaphysics, and philosophy of mind.",
+    "1.2.0": "Descartes reshaped debates about what we can know by using skepticism as a method for seeking certainty. The cogito—“I think, therefore I am”—is the starting point, rather than a proof of everything his philosophy later claims. His account of mind and body, mathematical treatment of nature, and demand for ordered reasoning gave later thinkers both tools and targets for criticism. The familiar title “father of modern philosophy” marks his prominence but can obscure earlier thinkers and his contemporaries.",
+    "2.1.0": "<strong>Cogito, ergo sum:</strong> If I am doubting, there must be a thinker engaged in that doubt. Even a deceiver could not make me nonexistent while I am being deceived. This secures existence in the act of thinking; by itself it does not establish that the mind can exist apart from the body. Descartes develops that stronger claim through further arguments.",
+    "2.1.1": "<strong>Methodological skepticism:</strong> Descartes systematically suspends beliefs vulnerable to doubt in order to seek a secure foundation. Doubting whether a perception is trustworthy differs from declaring it false. His method aims to overcome skepticism, and its unusually demanding standard of certainty is itself open to challenge.",
+    "2.1.3": "<strong>Analytic geometry:</strong> Descartes connected geometrical problems with algebraic equations, helping establish the methods now associated with Cartesian coordinates. This mathematical achievement supports his wider ambition to make inquiry orderly and demonstrative. It developed alongside other mathematicians’ work and should not be equated with single-handed invention of every feature of modern coordinate notation.",
+    "2.1.4": "<strong>Arguments for God’s existence:</strong> Descartes argues from the idea of an infinite, perfect being to an adequate cause of that idea, and elsewhere treats necessary existence as belonging to supreme perfection. God’s nondeceptiveness has a central role in his account of knowledge. These are contested arguments with premises to assess, not an inference that imagining any perfect thing makes it exist.",
+    "2.1.5": "<strong>Innate ideas:</strong> Descartes treats some ideas as grounded in the mind’s nature rather than copied from sensation. Innateness need not mean an infant consciously entertains a complete theorem. It also differs from a priori justification, which concerns whether a claim’s warrant depends on particular experience.",
+    "2.1.6": "<strong>Mechanistic natural philosophy:</strong> Descartes sought explanations of bodily processes and physical events through matter, motion, and contact rather than purposes assigned to nature. That explanatory program was influential even where particular theories proved wrong. His rational reconstruction of nature also used observations and experiments; it was not the sole beginning of the scientific revolution.",
+    "2.2.1": "<strong>Method of doubt:</strong> Descartes tests beliefs by considering possible deception, including dreams and a radically deceptive power. The cogito survives because doubting is itself thinking. Its role is to identify an indubitable starting point; further reasoning must carry the inquiry beyond the thinker’s present existence.",
+    "2.2.3": "<strong>Analytic geometry:</strong> The connection between algebraic equations and geometrical curves made new classes of problems tractable and helped prepare later developments in calculus. This is principally a mathematical contribution, included here because it illustrates the ordered problem-solving method Descartes brought to philosophy.",
+    "2.2.4": "<strong>A new agenda for modern philosophy:</strong> The traditional “father of modern philosophy” label describes a historical role rather than an additional discovery. Descartes made the relation between first-person certainty, objective knowledge, and metaphysical explanation a lasting agenda. Later rationalists and empiricists developed different responses to it; modern philosophy did not begin without predecessors.",
+    "2.2.5": "<strong>Rules for inquiry:</strong> In the <a href=\"https://www.gutenberg.org/files/59/59-h/59-h.htm\">Discourse on Method</a>, Descartes recommends dividing difficulties, proceeding in order, and reviewing the steps for omissions. His scientific work also recognizes the need for experiments to distinguish possible explanations. These contributions belong to a varied history of scientific methods, rather than a single invention of “the scientific method.”",
+    "2.2.6": "<strong>Reason and the sources of knowledge:</strong> Descartes distinguishes ideas’ sources and seeks intellectual warrant that can withstand doubt. Calling this “dualistic epistemology” misleadingly imports the mind–body distinction into a different issue. Innate origin and a priori justification are not synonymous, and the distinction between a priori and a posteriori knowledge was not simply his invention.",
+    "2.2.7": "<strong>Ethics and the passions:</strong> Descartes’ provisional morality addresses how to act while inquiry remains unsettled; his later work considers judgment, will, generosity, and the passions. These subjects connect reasoning with the conduct of an embodied life. His ethics cannot be reduced to a clear-and-distinct-idea rule supposedly transmitted unchanged to Spinoza or Kant.",
+    "3.1.0": "Several factors plausibly explain Descartes’ prominence. They concern the formation, circulation, and reception of his work; they are not measured causes with known relative weights:",
+    "3.1.3": "<strong>Intellectual setting:</strong> Disputes about inherited philosophy and new mathematical accounts of nature created openings for Descartes’ proposals, as well as resistance. Europe was not uniformly ready to embrace them. The controversy surrounding new science helps explain both the urgency and the caution of his publication choices.",
+    "3.1.4": "<strong>Quest for certainty:</strong> Descartes presents his dissatisfaction with uncertain learning as a reason to seek a new method. This stated project helps explain his philosophical direction. It is not independent proof that a private psychological motive alone caused his later reputation.",
+    "3.1.6": "<strong>Intellectual exchange and publication:</strong> Correspondence and published objections made his arguments available for criticism and reply. The Discourse appeared in French, widening its potential readership, while the Meditations first appeared in Latin. Describing all his works as French would miss the different audiences he addressed.",
+    "3.1.7": "These factors connect distinctive arguments with the means by which readers encountered them. Continued disagreement over knowledge and mind–body interaction helped sustain his reputation as much as acceptance of his conclusions.",
+    "3.2.1": "<strong>Reassessment of Scholastic learning:</strong> Descartes’ education gave him both a foundation and an object of criticism. Scholastic philosophy included rigorous argument, not merely appeals to religious authority. His dissatisfaction concerned whether its disputed conclusions could provide the certainty he sought.",
+    "3.2.2": "<strong>New approaches to nature:</strong> Early modern mathematical science supplied problems and methods that Descartes pursued in his own way. His response to controversies around Galileo illustrates an intellectual environment that stimulated inquiry while constraining publication.",
+    "3.2.3": "<strong>Mathematical work:</strong> Success in connecting algebra and geometry made ordered reasoning both a model for inquiry and a source of intellectual standing. This is a plausible link between his technical achievements and philosophical ambition, rather than a complete explanation of either.",
+    "3.2.6": "The first three factors help explain his intellectual formation; the method of doubt and dualism help explain why readers continued to engage with the work. Publication, correspondence, and controversy carried those ideas beyond the circumstances in which they arose.",
+    "4.1.4": "<strong>Mathematics and natural science:</strong> Analytic geometry supplied durable tools, while mechanical explanations of nature became an influential program of inquiry. The continuing usefulness of those tools should be distinguished from acceptance of Descartes’ particular physical theories.",
+    "4.1.5": "<strong>Phenomenology and existential thought:</strong> Husserl’s Cartesian Meditations explicitly revisits the first-person starting point, while Sartre also engages the cogito. Such engagement can transform or reject Cartesian commitments; it is not simply agreement that consciousness is an immaterial substance.",
+    "4.1.6": "<strong>Analytic philosophy:</strong> Dreams, deception, external-world knowledge, and mind–body relations remain recognizable Cartesian problems in analytic debates. These specific continuities show influence more clearly than a general preference for clarity or for dividing difficult questions into smaller parts.",
+    "4.1.7": "<strong>The Enlightenment:</strong> Descartes’ demand for reasoned foundations helped shape later disputes over knowledge and authority. The Enlightenment had many sources, and his own religious commitments and cautious practical maxims should not be mistaken for a general program of political rebellion.",
+    "4.2.3": "<strong>Empiricism:</strong> Locke’s rejection of innate principles and later debates about experience engage problems also central to Descartes. Locke includes reflection on mental operations among the sources of ideas, so “all knowledge comes from sensation” is too crude. Intellectual influence includes criticism, and empiricism has sources beyond opposition to Descartes.",
+    "4.2.5": "<strong>Epistemology:</strong> His method of doubt made the justification of belief, the possibility of deception, and knowledge of the external world central subjects of later inquiry. These questions persist even among philosophers who reject certainty as a requirement for knowledge.",
+    "4.2.7": "<strong>Ethics:</strong> His discussions of the will, passions, and practical judgment bear on how agents govern their lives. Later thinkers engage these themes selectively. The claim that a clear-and-distinct-idea criterion directly founded both Spinoza’s and Kant’s ethics would require a much more specific argument.",
+    "4.2.8": "<strong>Mathematics:</strong> Descartes’ algebraic treatment of geometry helped develop methods later used in calculus and many sciences. Modern Cartesian coordinates commemorate this contribution without implying that all associated techniques or notation originated with him."
+  },
+  "countChecks": [
+    {
+      "name": "sevenContributionsPerModel",
+      "selector": "#prompt-2 .original-response > ol",
+      "child": "li",
+      "expected": [
+        7,
+        7
+      ]
+    }
+  ],
+  "introHeading": "Doubt, knowledge, and an embodied life",
+  "intro": "The original conversation moves from a short account of Descartes’ influence to seven contributions, explanations of his prominence, and the fields that engaged his work. The two responses to each prompt distinguish his search for certainty from the further arguments needed to establish a physical world or a separation of mind and body.",
+  "description": "Explore Descartes’ doubt, cogito, dualism, mathematics, and ethics through the original four prompts and two response tracks.",
+  "headings": [
+    "Descartes and the search for a secure starting point",
+    "Two lists of seven contributions",
+    "Why Descartes gained an audience",
+    "Inheritance, criticism, and later domains"
+  ],
+  "pageSignals": {
+    "Page form": "Philosopher profile",
+    "Best for": "distinguishing doubt, the cogito, and dualism"
+  }
+}
