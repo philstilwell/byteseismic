@@ -1,0 +1,170 @@
+{
+  "wordpressId": 995,
+  "pageFile": "philosophy-of-science/improving-science/index.html",
+  "snapshot": "improving-science-wordpress-995.html",
+  "sourceSha256": "b7bf52d4ea76e549bcc4b3fd31f7a47cf920a6fcb91b6cf147f7df3d13d88f64",
+  "sourceUrl": "http://byteseismic.com/2024/02/23/improving-science/",
+  "sourceLabel": "Original WordPress conversation, 2024-02-23",
+  "shellRevision": "74244242a15d5b575e1e0ee83ded45aa6ab8a5d9",
+  "date": "2026-09-13",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "replacements": {
+    "1.1.0": "Scientific reliability depends on methods and on institutions that let other people check them. The following seven issues connect a weakness with a practical remedy. Their prevalence differs across fields; these are recurring problems, not a measured ranking of science as a whole.",
+    "1.1.2": "<strong>Issue:</strong> Replication projects in parts of psychology and biomedicine have found substantial difficulty reproducing reported effects with new data. A failed attempt can reflect an overstated original effect, a flawed replication, or relevant differences in conditions; it does not by itself prove fabrication or impossibility.",
+    "1.1.3": "<strong>Solution:</strong> Plan sample sizes around effects worth detecting, preregister confirmatory analyses, and share sufficiently detailed protocols, code, and permitted data. Preregistration makes later choices visible; it cannot rescue a weak design. Label useful unplanned analyses as exploratory so that a subsequent study can test them.",
+    "1.1.5": "<strong>Issue:</strong> Authors, reviewers, editors, and sponsors can all help determine which results become visible. Favoring statistically significant or otherwise desirable findings can exaggerate apparent effects; missing whole studies and selecting outcomes within a study are related but distinct problems.",
+    "1.1.6": "<strong>Solution:</strong> Support reporting of sound studies regardless of outcome. In <a href=\"https://www.cos.io/initiatives/registered-reports\">Registered Reports</a>, a journal evaluates the question and plan before results and offers acceptance in principle, conditional on carrying out and reporting the approved work adequately. This directly reduces the role of an exciting result in publication decisions.",
+    "1.1.9": "<strong>Solution:</strong> Support repositories and open journals, including publishing arrangements that charge neither readers nor authors. Paying author fees is only one route and can move the barrier from reading to publishing. Fund durable hosting, accessible formats, and useful metadata as well as article production.",
+    "1.1.11": "<strong>Issue:</strong> Prestige, fashionable topics, short funding cycles, and reviewers’ preferences can disadvantage valuable projects. Establishing a particular imbalance requires comparing funding decisions with explicit goals and the available proposals; an unpopular topic is not automatically underfunded.",
+    "1.1.15": "<strong>Solution:</strong> Address documented barriers to entry and retention through accessible recruitment, mentoring, fair assessment, and workable career conditions. Evaluate whether these measures improve participation and research coverage. Different backgrounds can reveal neglected questions, while every answer still needs evidence.",
+    "1.1.18": "<strong>Solution:</strong> Combine ethics education with independent investigation, protection for people raising concerns, correction of the record, and proportionate consequences. Separate honest error from misconduct so that fear of punishment does not discourage prompt correction.",
+    "1.1.21": "<strong>Solution:</strong> Budget for documented data, code, version histories, and maintained repositories. Where privacy or consent prevents open release, provide a justified access process, suitable summaries, or synthetic examples. A downloadable file without usable documentation may still be impossible to check.",
+    "1.1.22": "These remedies need evaluation too: do independent analysts obtain the reported result, do registered studies report their outcomes, and can intended users obtain and understand the evidence? Such checks make improvement assessable instead of treating a policy announcement as success.",
+    "1.2.1": "<strong>1. Reproducibility Crisis:</strong> Some bodies of research have proved less reliable under independent checking than their published claims suggested. Distinguish rerunning an analysis on the same data from testing an effect with new data; the two checks can reveal different failures.",
+    "1.2.4": "<strong>Statistical rigor:</strong> Use designs with adequate precision, report effect sizes and uncertainty, and account for multiple analyses. A p-value below 0.05 is neither the probability that the hypothesis is true nor a guarantee that an effect matters.",
+    "1.2.10": "<strong>Bias awareness and assessment:</strong> Training can introduce possible biases, but it should be paired with explicit review criteria and checks of actual decisions. Do not assume that completing a workshop establishes improved hiring, peer review, or research quality.",
+    "1.2.13": "<strong>Diversifying funding sources:</strong> Public, philanthropic, and commercial funding can support different questions. Diversification also brings different conflicts of interest; disclose those interests and protect the ability to report unwelcome results.",
+    "1.2.15": "<strong>Open access publishing:</strong> Making work readable can broaden scrutiny and reuse. Author fees and prestige incentives still need attention: free access alone does not make publication decisions independent of the result.",
+    "1.2.18": "<strong>Effective science communication:</strong> Explain what was measured, how uncertain the finding is, and which choices also depend on values. Listen to the audience’s questions; disagreement may concern costs or priorities rather than failure to understand a fact.",
+    "1.2.26": "The five groups overlap: a reward system can affect design, reporting, and public communication at once. Pilot changes, measure their effects, and revise them when they impose burdens without improving research. Scientific self-correction also requires time and credit for the people doing the checking.",
+    "2.1.0": "The reproducibility crisis names concerns about the reliability of published findings, especially highlighted by replication projects in psychology and preclinical biomedicine. Terminology varies: here, computational reproducibility means obtaining the reported result from the same data and analysis, while replication means collecting new data to test the finding. Failure of one does not automatically imply failure of the other.",
+    "2.1.2": "Independent checking long predates the present debate. The 2000s and 2010s brought influential analyses of research incentives and coordinated attempts to measure replication outcomes. Three landmarks illustrate that development; none estimates the reliability of every scientific field:",
+    "2.1.3": "In 2005, <a href=\"https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.0020124\">John Ioannidis</a> modeled how low prior plausibility, limited statistical power, and bias can make a published positive result unreliable. His provocative title summarizes a conditional argument, not a census proving that most individual scientific papers are false.",
+    "2.1.4": "In 2011, <a href=\"https://www.nature.com/articles/nrd3439-c1\">Prinz, Schlange, and Asadullah</a> reported difficulties validating published findings across 67 Bayer target-validation projects. This was an industrial experience report involving selected drug targets, not a random survey of all preclinical studies; its conclusions should retain that scope.",
+    "2.1.5": "The <a href=\"https://doi.org/10.1126/science.aac4716\">Open Science Collaboration’s 2015 project</a> replicated 100 studies from three psychology journals. Statistical significance was obtained in 36% of replications, compared with 97% of the originals, and average effects were smaller. “Produced the same result” is too vague: significance, effect size, and confidence-interval overlap are different criteria.",
+    "2.1.9": "<strong>Publication bias:</strong> Selective visibility favors apparent successes. If only striking estimates are published, follow-up studies will often look weaker even without fraud. An unreported null study is missing evidence, not necessarily a failed experiment.",
+    "2.1.10": "<strong>P-hacking:</strong> Trying many outcome definitions, exclusions, or analyses and reporting only the significant choice conceals the opportunities for a chance finding. For illustration, 20 independent true-null tests at a 5% threshold have a probability 1 − 0.95<sup>20</sup>, about 64%, of at least one false positive. Actual analyses are often dependent, so that number is an example rather than a universal rate.",
+    "2.1.11": "<strong>Small samples:</strong> Limited precision makes estimates unstable and often leaves low power to detect realistic effects. Selecting only significant results from such studies favors exaggerated estimates. Larger samples improve precision but do not repair confounding, bad measurement, or an unrepresentative sample.",
+    "2.1.12": "<strong>Insufficient sharing:</strong> Missing data, code, or protocol detail obstructs error detection and faithful replication. Privacy can legitimately limit release; controlled access and good documentation can still permit meaningful scrutiny.",
+    "2.1.16": "<strong>Public trust:</strong> Highly publicized reversals can encourage distrust, while visible, competent correction can demonstrate why evidence deserves provisional confidence. The direction and size of a trust effect require evidence about particular audiences, rather than an assumed universal decline.",
+    "2.1.17": "<strong>Resources:</strong> Following an exaggerated effect can consume time and money. A careful unsuccessful replication, however, can be valuable because it redirects inquiry or identifies the conditions under which an effect changes.",
+    "2.1.20": "<strong>Standards:</strong> The debate has encouraged reporting guidelines, preregistration, and data/code availability requirements in some settings. Adoption and enforcement vary; these tools are proposals and practices to evaluate, not evidence that the problem is already solved.",
+    "2.1.21": "The useful outcome is better calibrated confidence: claims should be as strong as repeated, well-designed tests justify. A result that changes across settings calls for an explanation of the difference; neither automatic dismissal nor automatic defense of the original moves the inquiry forward.",
+    "2.2.1": "Replication concerns ask how well published claims withstand independent tests. They do not imply that every established finding is equally doubtful. Reanalysis checks the original computation; new observations test whether the finding extends beyond the original sample and setting.",
+    "2.2.4": "<strong>Coordinated replication:</strong> The Open Science Collaboration’s 2015 investigation of 100 psychology studies made discrepancies visible through a common project. Different success criteria gave different answers, so a single headline percentage cannot summarize the truth of every tested claim.",
+    "2.2.5": "<strong>Methodological criticism:</strong> Analyses of low power, multiple testing, selective reporting, and exaggerated effect sizes explained how unreliable findings could arise without a single dramatic act of misconduct. Many underlying statistical principles were already known; the change was also collective attention and measurement.",
+    "2.2.10": "<strong>Questionable research practices:</strong> P-hacking hides the range of analyses tried. HARKing means presenting a hypothesis formed after seeing the results as though it had been specified beforehand. Generating hypotheses from data is legitimate exploration; misleading readers about when they were formed is the problem.",
+    "2.2.11": "<strong>Small samples:</strong> Small studies often estimate effects imprecisely. When only their strongest results survive publication, later estimates tend to shrink. Generalizability also depends on sampling and setting, not sample size alone.",
+    "2.2.22": "<strong>Open science:</strong> Preregister confirmatory plans, share appropriate materials, and enable independent reanalysis. Keep exploratory work possible and label it honestly. These practices expose decisions for checking; they do not substitute for a sound question and design.",
+    "2.2.26": "For a disputed finding, first check that the replication tested the relevant claim with adequate precision. Then compare protocols, populations, and estimates rather than merely counting significant p-values. This turns “failed replication” into an investigation with possible explanations and next tests.",
+    "3.1.0": "Publication bias occurs when a study’s results affect whether it becomes publicly available. The file-drawer problem is one version: completed studies remain unseen. Selective outcome reporting is different—a published paper omits or emphasizes particular outcomes—and both can distort a review of the evidence.",
+    "3.1.2": "Concern predates the 1980s. <a href=\"https://doi.org/10.1080/01621459.1959.10501497\">Theodore Sterling’s 1959 paper</a> examined the predominance of statistically significant results and its implications for inference. Robert Rosenthal’s 1979 file-drawer analysis later highlighted how unseen null results could change a literature’s apparent conclusion.",
+    "3.1.3": "In the following decades, systematic reviews made the completeness of the evidence base an increasingly practical concern. A meta-analysis combines available studies; if availability depends on the result, greater mathematical precision can merely make a biased conclusion look more secure.",
+    "3.1.13": "<strong>Distorted record:</strong> In <a href=\"https://doi.org/10.1056/NEJMsa065779\">Turner and colleagues’ 2008 comparison</a> of antidepressant trials, published reports made 94% of visible trials appear positive, whereas the full regulatory dataset classified 51% as positive. Both nonpublication and favorable presentation contributed. This is evidence about that dataset, not a statement that those percentages describe all medicines.",
+    "3.1.18": "Register studies before results, track whether registered studies report, and support publication decisions based on methods rather than favorable findings. Open access removes a reading barrier but does not itself prevent selective acceptance. Reviewers can seek registry records and unpublished results; statistical sensitivity analyses help assess uncertainty but cannot reliably reconstruct every missing study.",
+    "3.2.2": "Publication bias was explicitly analyzed by the mid-twentieth century. Later work developed the file-drawer problem and methods for studying missing evidence. Two established milestones show that the concern predates the 1980s:",
+    "3.2.3": "<strong>1959:</strong> Theodore Sterling examined how preferential publication of statistically significant results could distort the inferences drawn from the published literature.",
+    "3.2.4": "<strong>1979:</strong> Robert Rosenthal analyzed the file-drawer problem: apparently strong published evidence may coexist with unseen studies that found little or no effect.",
+    "3.2.5": "Later systematic reviews and comparisons with study registries made it possible to investigate missing studies directly. Statistical patterns in published studies can suggest a problem, but absence from a database is not automatically proof that a result was deliberately suppressed.",
+    "3.2.11": "<strong>Sponsor incentives:</strong> A sponsor may benefit from favorable findings and influence which analyses or reports appear. The relevant mechanism is selective design, analysis, or disclosure, not a rule that funded research is inherently unreliable. Independent reporting rights and comparisons with registered plans can reveal discrepancies.",
+    "3.2.14": "<strong>Distorted effect estimates:</strong> Imagine ten equally informative studies, two with unusually large positive estimates and eight near zero. Reading only the two positive studies would give a different impression from considering all ten. This hypothetical example illustrates the selection mechanism without claiming that every missing study is null.",
+    "3.2.20": "<strong>Open science:</strong> Register plans and report all prespecified outcomes, with privacy-respecting access to supporting data. Check for studies that disappear after registration. Data disclosure alone cannot identify studies no one knows were conducted.",
+    "3.2.21": "<strong>Journal reforms:</strong> Registered Reports make acceptance depend principally on the question and method before results are known. Journals and repositories can also welcome well-conducted null studies; a dedicated outlet is useful only if researchers actually submit and readers can find the work.",
+    "3.2.22": "<strong>Statistical checks:</strong> A funnel plot compares effect estimates with their precision. <a href=\"https://www.bmj.com/content/343/bmj.d4002\">Asymmetry has several possible causes</a>, including differences between small and large studies, and a symmetric plot does not establish absence of publication bias. Selection models and other sensitivity analyses require assumptions; they are not automatic repairs.",
+    "4.1.2": "Print-era journals widened communication beyond private correspondence but still depended on physical distribution, money, and institutional access. Digital publication reduced distribution barriers without automatically removing subscription restrictions. Access therefore has both a technical history and an institutional history.",
+    "4.1.3": "Library concern about rising journal costs preceded the widespread internet and continued through the digital transition. The “serials crisis” names pressure from journal costs outgrowing available budgets. The <a href=\"https://www.budapestopenaccessinitiative.org/read/\">2002 Budapest Open Access Initiative</a> articulated two complementary responses: self-archiving and open-access journals.",
+    "4.1.15": "<strong>Unnecessary duplication:</strong> If earlier methods and results cannot be consulted, researchers may repeat work without learning from it. Deliberate replication is different: it can be valuable precisely because the earlier study is available and can be tested carefully.",
+    "4.1.18": "<strong>Open access:</strong> Repositories and journals can make articles free to read. Permission for reuse, affordable participation by authors, and access to underlying data are separate questions. An openly readable paper is not automatically openly licensed or reproducible.",
+    "4.1.21": "<strong>Policies:</strong> Funders and institutions can require deposit or open publication and fund the infrastructure needed to comply. Requirements differ and change; this discussion explains the mechanism rather than serving as a current guide to any funder’s rules.",
+    "4.1.22": "The central tradeoff is how to pay for publishing and preservation without excluding readers or authors. An effective policy checks both sides: can a reader obtain the work, and can a capable researcher publish it without an unaffordable fee? Access also needs usable language, formats, and documentation.",
+    "4.2.11": "<strong>Open access:</strong> Digital sharing initiatives developed before a common movement label. The 2002 Budapest declaration helped define a program of self-archiving and open journals. These routes reduce reading barriers through different funding and distribution arrangements.",
+    "4.2.16": "<strong>Language:</strong> Any unfamiliar language can exclude readers. The predominance of English in many international research settings also creates barriers for non-English-speaking authors and audiences. Translation and clear summaries can broaden access while retaining the technical original.",
+    "4.2.24": "<strong>Open publishing:</strong> Support repositories and journals with sustainable funding. Some open journals charge authors, others do not; waivers and shared funding can matter as much as removing the reader’s paywall.",
+    "4.2.28": "Removing a paywall is a concrete gain, but assess whether people can also locate, read, interpret, and reuse the work. Internet provision, accessible formats, translation, and maintained archives address different parts of that task; no single publishing model guarantees them all.",
+    "5.1.2": "<strong>1. What broad term describes concerns about published findings that do not hold up under independent checks?</strong><br>A) Data Drought<br>B) Reproducibility Crisis<br>C) Methodology Gap<br>D) Experimental Void",
+    "5.1.5": "<strong>4. Which project replicated 100 psychology studies and reported statistical significance in 36% of the replications?</strong><br>A) The Peer Review Project<br>B) The Transparency Initiative<br>C) The Reproducibility Project: Psychology<br>D) The Drug Target Validation Project",
+    "5.1.6": "<strong>5. Which change directly removes a reading barrier but does not by itself prevent publication bias?</strong><br>A) Sponsor control of reporting<br>B) Open Access Publishing<br>C) Preference for significant results<br>D) Authors withholding null studies",
+    "5.1.14": "B) Open Access Publishing. Free reading does not guarantee that unfavorable studies or outcomes become visible.",
+    "6.1.0": "How might publicized replication failures and visible correction affect public trust differently? What evidence would show their effects on funding or policy?",
+    "6.1.12": "When is limiting data access justified by privacy or consent, and what alternative arrangements would still permit meaningful scrutiny?",
+    "6.2.4": "How can researchers communicate replication failures and subsequent corrections without either overstating certainty or implying that all findings are equally doubtful?",
+    "5.1.3": "2. Who published the paper “Why Most Published Research Findings Are False,” highlighting issues with research findings?<br>A) Robert Rosenthal<br>B) John Ioannidis<br>C) Bayer HealthCare<br>D) Open Science Collaboration",
+    "5.1.4": "<strong>3. Which term specifically names bias arising when a whole study’s results affect whether it is published?</strong><br>A) Positive Outcome Bias<br>B) Publication Bias<br>C) Within-study Outcome Selection<br>D) Experimental Measurement Bias",
+    "5.1.7": "6. The term “serials crisis” relates to which issue?<br>A) The crisis in peer review integrity<br>B) The unsustainable increases in subscription prices for academic journals<br>C) The lack of serial publications in scientific research<br>D) The crisis in serial experiment reproducibility",
+    "5.1.8": "7. Which initiative advocates for free, unrestricted access to scientific research?<br>A) Copyright Liberation Movement<br>B) Open Data Consortium<br>C) Open Access Movement<br>D) Free Science Foundation",
+    "1.2.8": "<strong>Participation in science, technology, engineering, and mathematics:</strong> Improve access through outreach, mentorship, and removal of documented barriers. Track whether these measures change who can enter and remain in scientific work."
+  },
+  "countChecks": [
+    {
+      "name": "sevenInitialIssues",
+      "selector": "#prompt-1 .original-response[data-source-column=\"1\"] > ol",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "quizAnswerAndGeminiQuestionLists",
+      "selector": "#prompt-5 .original-response > ol",
+      "child": "li",
+      "expected": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "ChatGPTDiscussionQuestions",
+      "selector": "#prompt-6 .original-response[data-source-column=\"1\"] > ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    },
+    {
+      "name": "GeminiDiscussionGroups",
+      "selector": "#prompt-6 .original-response[data-source-column=\"2\"] > ol",
+      "child": "li",
+      "expected": [
+        3,
+        3,
+        3,
+        6
+      ]
+    }
+  ],
+  "headings": [
+    "Weaknesses and remedies across scientific practice",
+    "Replication: history, causes, and consequences",
+    "Publication bias and the missing part of the record",
+    "Access: from print distribution to digital barriers",
+    "Two seven-question quizzes and answer keys",
+    "Fifteen discussion questions from each response track"
+  ],
+  "introHeading": "Making scientific correction easier",
+  "intro": "The original conversation starts with weaknesses and possible remedies, then examines replication, publication bias, and access in turn. The two response tracks retain those histories, causes, effects, quizzes, and discussion questions. The central concern is how institutions can make reliable checking and correction easier without confusing an imperfect study with a failure of scientific inquiry itself.",
+  "description": "Examine replication, publication bias, and access through six original prompts, paired responses, seven-question quizzes, and discussion lists.",
+  "pageSignals": {
+    "Page form": "Guided discussion",
+    "Best for": "connecting scientific weaknesses with testable reforms"
+  },
+  "orderedListStarts": {
+    "1.1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "6.2": [
+      1,
+      4,
+      7,
+      10
+    ]
+  },
+  "leadingTextReplacements": {
+    "5.2.17": "Before electronic distribution, which listed barrier specifically concerned the physical circulation of research texts?"
+  }
+}

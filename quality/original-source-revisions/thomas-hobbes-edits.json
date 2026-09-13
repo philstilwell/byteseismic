@@ -1,0 +1,113 @@
+{
+  "wordpressId": 9283,
+  "pageFile": "philosophers/thomas-hobbes/index.html",
+  "snapshot": "thomas-hobbes-wordpress-9283.html",
+  "sourceSha256": "1fa4613e6d89b54925766813864776d7b584d5a6288e219fb8dbe9095619b1ff",
+  "sourceUrl": "http://byteseismic.com/2024/05/18/thomas-hobbes/",
+  "sourceLabel": "Original WordPress conversation, 2024-05-18",
+  "shellRevision": "74244242a15d5b575e1e0ee83ded45aa6ab8a5d9",
+  "date": "2026-09-13",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "replacements": {
+    "1.1.1": "Thomas Hobbes made the justification of political authority depend on how people could escape insecurity and establish a common power. In Leviathan, individuals authorize a sovereign through agreements with one another; peace and protection explain the need for far-reaching authority. Later contract theorists and critics disputed his account while inheriting questions about obligation, rights, and the dangers of political collapse. His theories of matter, language, and reasoning also connect political philosophy with a broader account of human beings.",
+    "1.2.0": "Hobbes reshaped political philosophy by asking why people who seek security should accept a power capable of enforcing peace. His social contract connects individual authorization with extensive sovereignty, but his account also retains a liberty to resist threats to life. Locke, Rousseau, and later thinkers developed competing answers rather than simply repeating his system. Beyond politics, his materialism and account of sense, language, and reasoning made him an important interlocutor for early modern philosophy.",
+    "2.1.2": "<strong>Annotation:</strong> In Leviathan’s account of a commonwealth by institution, individuals covenant with one another to authorize a person or assembly to act for them. The sovereign is not a contracting partner promising each subject a limited set of services. Protection supplies the point of the arrangement, but Hobbes draws much stronger conclusions about authority than a modern agreement to obey only policies one approves.",
+    "2.1.4": "<strong>Annotation:</strong> The state of nature is a condition without a common power able to provide security. Hobbes’s “war” includes a known disposition to conflict, not constant fighting at every moment. Competition, distrust, and concern for reputation can undermine cooperation even when people would prefer peace. This is an explanatory model, not a demonstrated universal prehistoric stage.",
+    "2.1.6": "<strong>Annotation:</strong> <a href=\"https://www.gutenberg.org/files/3207/3207-h/3207-h.htm\">Leviathan (1651)</a> connects an account of perception, language, and motivation with political authorization and the control of religious authority. Listed here as a synthesis rather than a separate doctrine, it shows how the security argument fits a broader system of philosophy.",
+    "2.1.8": "<strong>Annotation:</strong> Hobbes sought explanations of sensation, thought, and action in terms of bodies and motion. His materialism challenges accounts of an immaterial mind, while his treatment of religion makes the full metaphysical picture controversial. Its historical importance does not imply that his particular mechanical explanations are established modern neuroscience.",
+    "2.1.10": "<strong>Annotation:</strong> Hobbes analyzes security under conditions in which no common authority can enforce agreements. Later political realists found this useful for relations between states. It is a later appropriation, not evidence that he founded modern international relations or believed every action is driven only by aggression.",
+    "2.1.12": "<strong>Annotation:</strong> Desire, aversion, vulnerability, and anticipation of danger help explain conflict. If each neighbor fears being attacked, both may arm themselves even if neither initially wants war. The argument therefore need not reduce everyone to pure selfishness or inherent evil; insecurity and expectations about others matter.",
+    "2.1.14": "<strong>Annotation:</strong> Hobbes connects civil law with sovereign authority and the public settlement of disputes. This is not the modern constitutional idea that courts can routinely invalidate sovereign acts: for Hobbes the sovereign is not subject to civil law in the same way as subjects. Laws of nature and the task of protection still matter to his account of rule.",
+    "2.2.1": "<strong>The state of nature:</strong> Without a common power, people lack dependable assurance that others will keep agreements or refrain from attack. The resulting condition of war includes readiness and distrust even between battles. Hobbes uses it to explain the need for order rather than prove that all human communities historically began in universal combat.",
+    "2.2.2": "<strong>The social contract:</strong> In a commonwealth by institution, people agree with one another to authorize a sovereign person or assembly. The sovereign’s enforcing power makes mutual restraint credible. This authorization is not simply a bargain between a ruler and subjects, nor does continuing consent to each decision define obligation.",
+    "2.2.3": "<strong>Social order and the Leviathan:</strong> Hobbes argues for an undivided sovereign capable of settling disputes and defending the commonwealth. Although he favors monarchy, sovereignty can also belong to an assembly. Peace requires more than suppressing desire: people need assurance that cooperation will not leave them defenseless.",
+    "2.2.5": "<strong>Sense and knowledge:</strong> Hobbes traces the materials of thought to sensation, but distinguishes experience from scientific knowledge of consequences obtained through reasoning with definitions and names. Describing all knowledge as sensory experience alone misses his demonstrative ambitions and the central role of language.",
+    "2.2.6": "<strong>Retained liberties:</strong> A person cannot validly surrender every means of resisting death or serious bodily harm. This liberty does not mean that the sovereign must refrain from punishing them, and it is not a modern enforceable rights charter. It marks a limit on what a subject can be obligated to do.",
+    "2.2.7": "<strong>Church and civil authority:</strong> Hobbes opposes an independent ecclesiastical power capable of dividing political obedience. He places public religious governance under the sovereign, while distinguishing inward belief from outward profession. This is civil supremacy over church authority, not modern separation of church and state or a ban on sovereign control of public religion.",
+    "3.1.2": "<strong>Annotation:</strong> Political conflict in England sharpened Hobbes’s concern with divided authority and civil war. His political writing was already developing by 1640, before the war began, and he spent much of the conflict in Parisian exile. The war reinforced a project with earlier roots rather than creating it from nothing.",
+    "3.1.6": "<strong>Annotation:</strong> Mathematical demonstration and the new study of motion gave Hobbes resources for a systematic philosophy of body, mind, and politics. This ambition helped distinguish his work, but resemblance to mechanics does not by itself validate the conclusions of his political argument.",
+    "3.1.10": "<strong>Annotation:</strong> Patronage, travel, and intellectual correspondence brought Hobbes into major debates. His published objections to Descartes’ Meditations made disagreement part of his public philosophical identity. Such exchanges helped circulate his work as well as refine or expose differences between positions.",
+    "3.2.0": "These factors plausibly contributed to Hobbes’s prominence. They distinguish the development of his work from its later reputation; they are not measured causes or certain descriptions of his private motives:",
+    "3.2.1": "<strong>English conflict and exile:</strong> Hobbes left England in late 1640 and remained in Paris until 1651. His experience of the political crisis was therefore not simply firsthand observation of English battlefields. The Elements of Law already circulated in 1640, showing that his political account preceded the outbreak of civil war.",
+    "3.2.3": "<strong>Systematic ambition:</strong> Hobbes linked accounts of body, perception, language, and civil order. That breadth and his willingness to dispute respected authorities gave readers a distinctive system to engage. Calling him unquestionably brilliant adds less explanation than identifying the work that attracted attention.",
+    "4.1.4": "<strong>Annotation:</strong> Hobbes’s account of civil law as authoritative public command is a precursor for later debates associated with legal positivism. It should not be equated with every modern rule-of-law ideal: independent judicial limits on a sovereign are not the organizing principle of his theory.",
+    "4.1.6": "<strong>Annotation:</strong> Hobbes connects desires and aversions with reasoning about the conditions of peace. His laws of nature include seeking peace and keeping covenants when security makes compliance possible. Later contractualist arguments draw on this problem of cooperation; his ethics is more than advice to be expediently selfish.",
+    "4.1.8": "<strong>Annotation:</strong> Explaining political order through individuals’ motives and relations supplied a model for later social inquiry. Hobbes combines observation with deductive reconstruction rather than founding contemporary empirical social science. The influence is a set of questions and explanatory strategies, not proof that all later methods descend from him.",
+    "4.1.10": "<strong>Annotation:</strong> Hobbes’s comparison of sovereign states with actors lacking a common superior became a reference for realist international theory. It highlights insecurity without implying nonstop war or ruling out treaties and cooperation. Modern states also differ from isolated individuals in important respects.",
+    "4.1.14": "<strong>Annotation:</strong> The image of the Leviathan and the contrast between fragile order and violence offer resources for political drama and dystopian interpretation. A thematic resemblance is not enough to establish direct influence on an unnamed author or work.",
+    "4.2.2": "<strong>Legal philosophy:</strong> Civil law, public authority, and the relation between obligation and coercion made Hobbes a reference for later legal theory. His retained liberty of self-defense is different from modern constitutional rights that bind government institutions.",
+    "4.2.3": "<strong>Epistemology:</strong> Hobbes’s account of sense as the origin of thought belongs in histories of empiricism, but his account of science also depends on reasoning about consequences. His emphasis on names and definitions complicates any simple line from sensation to all knowledge.",
+    "4.2.4": "<strong>Moral philosophy:</strong> The reasons to seek peace, make agreements, and keep them are central to Hobbes’s political project. Later moral theorists use and criticize his attempts to connect individual motivation with stable cooperation; ethics is not a minor accidental consequence of his materialism.",
+    "5.1.23": "b) Observations about people combined with reasoned deduction",
+    "5.2.1": "What does Hobbes call a condition in which people lack a common power able to provide security?",
+    "5.2.5": "How does Hobbes connect sensation with the reasoning involved in scientific knowledge?",
+    "5.2.7": "How does Hobbes relate public church authority to civil sovereignty?",
+    "5.2.10": "People covenant with one another to authorize a sovereign person or assembly; its common power makes agreements and security possible.",
+    "5.2.11": "An effective, undivided sovereign, which may be a person or an assembly.",
+    "5.2.13": "Sensation supplies the materials of thought, while science also involves reasoning from definitions to consequences.",
+    "5.2.14": "A liberty to resist death or grave bodily harm; this is a limit on obligation, not a modern constitutional guarantee against punishment.",
+    "5.2.15": "Public ecclesiastical authority is subordinated to the civil sovereign; this is not modern church–state separation.",
+    "6.1.1": "How did English political conflict and exile sharpen Hobbes’s account, given that his political writing had begun before the civil war?",
+    "6.1.6": "How does Hobbes’s account of sovereign law differ from a constitutional system that permits courts to limit government? Compare a contrasting theory.",
+    "6.1.11": "Which features of Hobbes’s explanation of cooperation can later social sciences use, and which would need independent empirical testing?",
+    "6.2.7": "<strong>Church and civil authority:</strong> Does subordinating public religious authority to a sovereign reduce conflict or create new dangers? How does Hobbes’s proposal differ from modern institutional separation?",
+    "6.2.12": "<strong>Legacy:</strong> Which Hobbesian arguments remain useful, and which are vulnerable to criticism? Distinguish their historical influence from whether their conclusions should be accepted."
+  },
+  "countChecks": [
+    {
+      "name": "sevenContributionsPerModel",
+      "selector": "#prompt-2 .original-response > ol",
+      "child": "li",
+      "expected": [
+        7,
+        7
+      ]
+    },
+    {
+      "name": "quizQuestionsAndAnswers",
+      "selector": "#prompt-5 .original-response > ol, #prompt-5 .original-response > ul",
+      "child": "li",
+      "expected": [
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "discussionQuestions",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        12,
+        12
+      ]
+    }
+  ],
+  "headings": [
+    "Hobbes’s influence in a paragraph",
+    "Two annotated selections of seven contributions",
+    "Historical setting and philosophical prominence",
+    "Later schools and academic domains",
+    "Two seven-question quizzes and answer guides",
+    "Two sets of twelve discussion questions"
+  ],
+  "introHeading": "Security, authority, and the limits of obedience",
+  "intro": "The original conversation follows Hobbes from a short account of influence through seven contributions, historical explanations, later domains, and review questions. The paired responses keep that sequence while examining what people authorize a sovereign to do, why insecurity can generate conflict, and why a liberty to resist death is not the same as a modern constitutional guarantee.",
+  "description": "Explore Hobbes’s state of nature, authorization, materialism, religion, and self-preservation through six original prompts and paired responses.",
+  "pageSignals": {
+    "Page form": "Philosopher profile",
+    "Best for": "examining sovereignty, protection, and retained liberties"
+  },
+  "leadingTextReplacements": {
+    "5.1.21": "What best describes Hobbes’s approach to explaining human behavior and political order?"
+  },
+  "responseAppendices": {
+    "5.1": [
+      "<h4>Answer guide</h4><ol><li>b) Leviathan.</li><li>b) State of nature.</li><li>c) Transcendental idealism.</li><li>b) The English Civil War, while his political writing also had earlier roots.</li><li>b) Observation combined with reasoned deduction; this is not identical to contemporary empirical social science.</li><li>b) International relations.</li><li>c) Materialism.</li></ol>"
+    ]
+  }
+}

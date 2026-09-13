@@ -1,0 +1,24 @@
+{
+  "pagePath": "/philosophers/socrates/",
+  "sourceSha256": "bfd165866741a6b1992094ac775088acabd47403d6af4220ae91931388101039",
+  "originalPrompts": 4,
+  "originalHeadings": 4,
+  "sourceColumns": 8,
+  "modelResponses": 8,
+  "blocksRetainedVerbatim": 31,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 37,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "sevenContributionsPerModel": [
+      7,
+      7
+    ]
+  },
+  "sha256": "9433330c87a0a25d98ff3922eb7ceb5cbdfada66c4ec391257d1ca2e239b7df9",
+  "snapshotMatchesCacheBytes": true
+}

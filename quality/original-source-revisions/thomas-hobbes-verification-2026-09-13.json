@@ -1,0 +1,36 @@
+{
+  "pagePath": "/philosophers/thomas-hobbes/",
+  "sourceSha256": "1fa4613e6d89b54925766813864776d7b584d5a6288e219fb8dbe9095619b1ff",
+  "originalPrompts": 6,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 103,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 44,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": false,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [
+    "5.1"
+  ],
+  "formatChecks": {
+    "sevenContributionsPerModel": [
+      7,
+      7
+    ],
+    "quizQuestionsAndAnswers": [
+      7,
+      7,
+      7,
+      7
+    ],
+    "discussionQuestions": [
+      12,
+      12
+    ]
+  },
+  "sha256": "84c527f790032cc3398726c5ba3c0b9ac2f45020dfe7855d2894c10a08e5256e",
+  "snapshotMatchesCacheBytes": true
+}

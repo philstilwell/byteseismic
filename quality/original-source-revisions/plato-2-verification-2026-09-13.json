@@ -1,0 +1,34 @@
+{
+  "pagePath": "/philosophers/plato-2/",
+  "sourceSha256": "5169bca235e61b61a56074003802d3f9429d9d0f6f52aae606fd2788ed15cf60",
+  "originalPrompts": 6,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 79,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 43,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "sevenContributionsPerModel": [
+      7,
+      7
+    ],
+    "quizQuestionsAndAnswers": [
+      7,
+      7,
+      7,
+      7
+    ],
+    "discussionQuestions": [
+      12,
+      12
+    ]
+  },
+  "sha256": "2b9ecde1724f0c905b3c1938551fd9370105f240f69cf2bbeac311873998ff78",
+  "snapshotMatchesCacheBytes": true
+}

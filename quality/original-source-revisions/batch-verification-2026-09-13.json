@@ -1,0 +1,1129 @@
+{
+  "runTime": "2026-09-13T09:23:04.570331-04:00",
+  "fullBuild": {
+    "isolated": true,
+    "baseRevision": "74244242a15d5b575e1e0ee83ded45aa6ab8a5d9",
+    "generatedContentPages": 723,
+    "siteAudit": {
+      "pages_scanned": 840,
+      "broken_links": 0,
+      "duplicate_ids": 0,
+      "repeated_headings": 50,
+      "prompt_number_issues": 0,
+      "orphan_pages": 0,
+      "oversized_assets": 0,
+      "style_scars": 0,
+      "grammar_scars": 0,
+      "seo_issues": 0,
+      "duplicate_titles": 0,
+      "duplicate_descriptions": 0,
+      "json_ld_issues": 0,
+      "sitemap_issues": 0,
+      "robots_issues": 0
+    },
+    "dialecticalPreservation": "All 39 recovered pages, including 17 high-risk cases passed.",
+    "buildLog": "Dialectical preservation check passed for all 39 recovered pages, including 17 high-risk regression cases.\nSite audit: pages=840 broken_links=0 duplicate_ids=0 prompt_number_issues=0 orphans=0 oversized_assets=0 style_scars=0 grammar_scars=0 seo_issues=0 json_ld_issues=0 sitemap_issues=0 robots_issues=0\nGenerated or updated 723 content pages.\nVisible hierarchy sections: 15\nExpanded archive years: 2\n",
+    "initialBuildAlsoPassed": true
+  },
+  "sourceChecks": {
+    "adequate-evidence": {
+      "pagePath": "/epistemology/adequate-evidence/",
+      "sourceSha256": "c75b579735715806bbf058a7f29d1119ad9b3ed8d8f2c1445bfbfa0d637c5dd6",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 12,
+      "modelResponses": 12,
+      "blocksRetainedVerbatim": 71,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 83,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "originalDialogueTurns": [
+          19,
+          17
+        ],
+        "twentyPercentScenarios": [
+          3,
+          3
+        ],
+        "updatingScenarios": [
+          1,
+          1,
+          1,
+          1,
+          4
+        ],
+        "quizQuestionsAndAnswers": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "discussionQuestions": [
+          15,
+          15
+        ]
+      },
+      "sha256": "4db2354ebb73123f53d416a5cd9f640858033a0dffab3ef70db4e1aa28cfdf83",
+      "snapshotMatchesCacheBytes": true
+    },
+    "analytic-philosophers": {
+      "pagePath": "/philosophers/analytic-philosophers/",
+      "sourceSha256": "8a98d4490811f3756ea798672e53a2c1fac23d9dc8af334c2bb3ff1cece2beea",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 18,
+      "modelResponses": 18,
+      "blocksRetainedVerbatim": 167,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 78,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "dialogueTurnCounts": [
+          20,
+          20,
+          20
+        ],
+        "quizQuestionAndAnswerCounts": [
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "discussionQuestionCounts": [
+          12,
+          12,
+          12
+        ]
+      },
+      "sha256": "914016b7bc0cf54bd44b93e05ad8aafb1978aec185f01bd3e216278736ce211b",
+      "snapshotMatchesCacheBytes": true
+    },
+    "ancient-philosophers": {
+      "pagePath": "/philosophers/ancient-philosophers/",
+      "sourceSha256": "3b14c3f87549dc0f50f0bdc4d7f20dfe2c6c3494270575d8d970e6eb054daa16",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 18,
+      "modelResponses": 18,
+      "blocksRetainedVerbatim": 213,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 72,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": false,
+      "explicitListItemSplits": [
+        "6.2.3"
+      ],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "dialogueTurns": [
+          20,
+          20,
+          20
+        ],
+        "quizQuestionsAndKeys": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "discussionLists": [
+          15,
+          15,
+          15
+        ]
+      },
+      "sha256": "8390ea2898cacbdc78aecafef134244fabf4a2febf6abc7891ebb7589cde0716",
+      "snapshotMatchesCacheBytes": true
+    },
+    "baruch-spinoza": {
+      "pagePath": "/philosophers/baruch-spinoza/",
+      "sourceSha256": "0c07fc661f55d6ab67483ceb303a01f6d54f44b1811243ef2d3f2479872ef2dc",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 18,
+      "modelResponses": 18,
+      "blocksRetainedVerbatim": 127,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 60,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "ChatGPTSevenContributions": [
+          7
+        ],
+        "GeminiSevenContributions": [
+          7
+        ],
+        "ClaudeSevenFormattedContributions": [
+          7
+        ],
+        "quizQuestionAndSeparateAnswerLists": [
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "discussionQuestions": [
+          12,
+          12,
+          12
+        ]
+      },
+      "sha256": "934ac15bf60e33c45c6ca25c26825295b555c88057b4ff1e7deab75aa063d86d",
+      "snapshotMatchesCacheBytes": true
+    },
+    "calculating-risks": {
+      "pagePath": "/rational-thought/calculating-risks/",
+      "sourceSha256": "4e19fd6c291ea9de20761b9d703bfbb5745c0065da975a4c55110933011904b7",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 11,
+      "modelResponses": 11,
+      "blocksRetainedVerbatim": 113,
+      "tableCellsExplicitlyRevised": 44,
+      "blocksExplicitlyRevised": 55,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "riskTableRows": [
+          10
+        ],
+        "riskTableColumns": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "historyExamples": [
+          5,
+          5
+        ],
+        "quizQuestionsAndKeys": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "discussionLists": [
+          15,
+          15
+        ]
+      },
+      "sha256": "ad96d75257185ad71c55b9792e5a3dde780c6323a13731c46bf20f46ea6e1a85",
+      "snapshotMatchesCacheBytes": true
+    },
+    "critical-race-theory": {
+      "pagePath": "/political-philosophy/critical-race-theory/",
+      "sourceSha256": "ec775528f4023a57e00b53cdeda02d8bb998ff16a2590e3b263b087909d7dffd",
+      "originalPrompts": 4,
+      "originalHeadings": 5,
+      "sourceColumns": 6,
+      "modelResponses": 4,
+      "blocksRetainedVerbatim": 24,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 55,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "tenCRTThemes": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "tenPerceptionRisks": [
+          10
+        ],
+        "essayStrengthsAndCriticisms": [
+          4,
+          4
+        ]
+      },
+      "sha256": "899f878839c637765c782c2831e5137e20fc4db864450e92ae46c3549fa8d15b",
+      "snapshotMatchesCacheBytes": true
+    },
+    "daniel-dennett": {
+      "pagePath": "/philosophers/daniel-dennett/",
+      "sourceSha256": "2bb4e7e80e57e16764d2f6590294b345f1401c54d54d72a42da77ae7480a7fff",
+      "originalPrompts": 4,
+      "originalHeadings": 4,
+      "sourceColumns": 8,
+      "modelResponses": 8,
+      "blocksRetainedVerbatim": 30,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 35,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "sevenContributionsPerModel": [
+          7,
+          7
+        ]
+      },
+      "sha256": "ef4613dbae4d5b7807a43ebb3dae14b027f2179515a4e06f7cd5edea18e8aa0a",
+      "snapshotMatchesCacheBytes": true
+    },
+    "david-hume": {
+      "pagePath": "/philosophers/david-hume/",
+      "sourceSha256": "024ee864ea8369075744368ee192866792efa27581d89298eeed8335b80bb11b",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 14,
+      "modelResponses": 14,
+      "blocksRetainedVerbatim": 74,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 56,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": false,
+      "explicitListItemSplits": [
+        "6.2.14"
+      ],
+      "explicitResponseAppendices": [
+        "5.2"
+      ],
+      "formatChecks": {
+        "contributionLists": [
+          7,
+          7
+        ],
+        "quizColumnsParagraphs": [
+          14,
+          7,
+          14
+        ],
+        "addedGeminiAnswerGuide": [
+          7
+        ],
+        "discussionGroups": [
+          12,
+          3,
+          3,
+          3,
+          3,
+          12
+        ]
+      },
+      "sha256": "f032caa34a5e3058688f0cbd41d5d4883f5473c7f44b5c6c86f75d703a4aca81",
+      "snapshotMatchesCacheBytes": true
+    },
+    "depth-or-width-of-knowledge": {
+      "pagePath": "/rational-thought/depth-or-width-of-knowledge/",
+      "sourceSha256": "8cbb0d0936d083d275510a49f9100e4f1fc55a3aa5a08828557d73239ff67a34",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 12,
+      "modelResponses": 12,
+      "blocksRetainedVerbatim": 104,
+      "tableCellsExplicitlyRevised": 35,
+      "blocksExplicitlyRevised": 62,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "originalTableRows": [
+          8,
+          5
+        ],
+        "habitTableRows": [
+          7
+        ],
+        "quizQuestionsAndAnswers": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "discussionQuestions": [
+          15,
+          15
+        ]
+      },
+      "sha256": "f1d239c13bf434e11f7416abb5ec7a9f5bedb5b6fffa530d1be79cf37980ddc1",
+      "snapshotMatchesCacheBytes": true
+    },
+    "elitzur-on-consciousness": {
+      "pagePath": "/philosophy-of-mind/elitzur-on-consciousness/",
+      "sourceSha256": "6d5d0ee88c5c273d8a1d3aeded8e6716ef369692c418ac6b887427afa3cdcced",
+      "originalPrompts": 5,
+      "originalHeadings": 6,
+      "sourceColumns": 6,
+      "modelResponses": 6,
+      "blocksRetainedVerbatim": 60,
+      "tableCellsExplicitlyRevised": 45,
+      "blocksExplicitlyRevised": 47,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "five three-column argument tables": [
+          0,
+          3,
+          3,
+          3,
+          0,
+          3,
+          3,
+          3,
+          0,
+          3,
+          3,
+          3,
+          0,
+          3,
+          3,
+          3,
+          0,
+          3,
+          3,
+          3
+        ],
+        "five two-column weakness tables": [
+          0,
+          2,
+          2,
+          2,
+          0,
+          2,
+          2,
+          2,
+          0,
+          2,
+          2,
+          2,
+          0,
+          2,
+          2,
+          2,
+          0,
+          2,
+          2,
+          2
+        ],
+        "sixteen quiz questions": [
+          16
+        ],
+        "fifteen discussion questions": [
+          15
+        ],
+        "sixteen expandable answers": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "sha256": "1259de5f9f2a6c764314649682f171d8492329bca19ee431d97c35d54a83a69b",
+      "snapshotMatchesCacheBytes": true
+    },
+    "empiricists": {
+      "pagesReviewed": 1,
+      "originalPrompts": 6,
+      "modelResponses": 12,
+      "originalNodesRetainedVerbatim": 98,
+      "originalNodesRevised": 31,
+      "dialogueNumberedLines": [
+        20,
+        20
+      ],
+      "originalDialogueTurnsPreserved": [
+        21,
+        13
+      ],
+      "addedGeminiTurns": 7,
+      "quizQuestionCounts": [
+        7,
+        7
+      ],
+      "quizAnswerCounts": [
+        7,
+        7
+      ],
+      "discussionQuestionCounts": [
+        12,
+        12
+      ],
+      "sha256": "304cfb69874c270844c162ab1db83d589577460a50fc5557c11927d5e1388a25",
+      "snapshotMatchesCacheBytes": true
+    },
+    "identity-politics": {
+      "pagePath": "/political-philosophy/identity-politics/",
+      "sourceSha256": "3846b417d9d5eeeb11743dcf4927849728ad9c6a415f63bbbe3d8c0ee84c4729",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 12,
+      "modelResponses": 12,
+      "blocksRetainedVerbatim": 74,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 86,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "historicalExamples": [
+          5
+        ],
+        "governanceStrategies": [
+          7
+        ],
+        "separationStrategies": [
+          10
+        ],
+        "quizQuestionsAndEndKeys": [
+          7,
+          7,
+          7,
+          7
+        ],
+        "discussionQuestions": [
+          15,
+          15
+        ]
+      },
+      "sha256": "605e68d873e97f206601dc06a85ce54394692895ad61cfb786e09eea82351fb2",
+      "snapshotMatchesCacheBytes": true
+    },
+    "immanuel-kant": {
+      "pagePath": "/philosophers/immanuel-kant/",
+      "sourceSha256": "f633344cf3585d06df562bd4577ced02b2749b141f43d948c6abc5c88fcd0496",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 12,
+      "modelResponses": 12,
+      "blocksRetainedVerbatim": 99,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 42,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "sevenContributions": [
+          7,
+          7
+        ],
+        "quizQuestionsAndAnswers": [
+          7,
+          7,
+          7,
+          7
+        ],
+        "discussionQuestions": [
+          12,
+          12
+        ]
+      },
+      "sha256": "5004589a31c29149a1155b76997fb334a4cf7b22cdf0399818206c05b10d369d",
+      "snapshotMatchesCacheBytes": true
+    },
+    "improving-science": {
+      "pagePath": "/philosophy-of-science/improving-science/",
+      "sourceSha256": "b7bf52d4ea76e549bcc4b3fd31f7a47cf920a6fcb91b6cf147f7df3d13d88f64",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 12,
+      "modelResponses": 12,
+      "blocksRetainedVerbatim": 218,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 75,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "sevenInitialIssues": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "quizAnswerAndGeminiQuestionLists": [
+          7,
+          7,
+          7
+        ],
+        "ChatGPTDiscussionQuestions": [
+          15
+        ],
+        "GeminiDiscussionGroups": [
+          3,
+          3,
+          3,
+          6
+        ]
+      },
+      "sha256": "973cc3388a5ed278884654c74a0ee0defe266ce3d7c6ab31afb261dbb0bdba67",
+      "snapshotMatchesCacheBytes": true
+    },
+    "methodological-naturalism": {
+      "pagePath": "/philosophy-of-science/methodological-naturalism/",
+      "sourceSha256": "88dd2ee411843a787096e9ad42fe32b68844693a53216d58b3f4fa754ed9e773",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 12,
+      "modelResponses": 12,
+      "blocksRetainedVerbatim": 97,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 90,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "ChatGPTQuizQuestionsAndAnswers": [
+          10
+        ],
+        "GeminiQuizAndAnswerLists": [
+          5,
+          5
+        ],
+        "discussionLists": [
+          15,
+          15
+        ]
+      },
+      "sha256": "480b9ad4e212bd999ff4dfdf28ce9bc463c308af2d47ab30f7b6af92a008c18c",
+      "snapshotMatchesCacheBytes": true
+    },
+    "orthogonality": {
+      "pagePath": "/philosophy-of-science/orthogonality/",
+      "sourceSha256": "bcea4cdb594a379138562a12372e3c5a63c3e12942fe2eaf62f7cb6a75e1e918",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 12,
+      "modelResponses": 12,
+      "blocksRetainedVerbatim": 57,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 110,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "clinicalDesignGroups": [
+          2,
+          4
+        ],
+        "geminiActualStudyExamples": [
+          3
+        ],
+        "quizQuestionsAndAnswers": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "discussionQuestions": [
+          15,
+          15
+        ]
+      },
+      "sha256": "38f2bcfcf6afdc67497746000bbf82c9b6d66ad319690d69876d7d1a277d4d76",
+      "snapshotMatchesCacheBytes": true
+    },
+    "plato-2": {
+      "pagePath": "/philosophers/plato-2/",
+      "sourceSha256": "5169bca235e61b61a56074003802d3f9429d9d0f6f52aae606fd2788ed15cf60",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 12,
+      "modelResponses": 12,
+      "blocksRetainedVerbatim": 79,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 43,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "sevenContributionsPerModel": [
+          7,
+          7
+        ],
+        "quizQuestionsAndAnswers": [
+          7,
+          7,
+          7,
+          7
+        ],
+        "discussionQuestions": [
+          12,
+          12
+        ]
+      },
+      "sha256": "2b9ecde1724f0c905b3c1938551fd9370105f240f69cf2bbeac311873998ff78",
+      "snapshotMatchesCacheBytes": true
+    },
+    "rene-descartes": {
+      "pagePath": "/philosophers/rene-descartes/",
+      "sourceSha256": "859f769ba7af47c8266e534fdfed3c1ee4191c3a02afd8148a8b4fc6efe6ba06",
+      "originalPrompts": 4,
+      "originalHeadings": 4,
+      "sourceColumns": 8,
+      "modelResponses": 8,
+      "blocksRetainedVerbatim": 20,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 31,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "sevenContributionsPerModel": [
+          7,
+          7
+        ]
+      },
+      "sha256": "d74b2fb865522e738a6aaf0293236d0e4000314d630c65b9ea99e1927f46d156",
+      "snapshotMatchesCacheBytes": true
+    },
+    "socrates": {
+      "pagePath": "/philosophers/socrates/",
+      "sourceSha256": "bfd165866741a6b1992094ac775088acabd47403d6af4220ae91931388101039",
+      "originalPrompts": 4,
+      "originalHeadings": 4,
+      "sourceColumns": 8,
+      "modelResponses": 8,
+      "blocksRetainedVerbatim": 31,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 37,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "sevenContributionsPerModel": [
+          7,
+          7
+        ]
+      },
+      "sha256": "9433330c87a0a25d98ff3922eb7ceb5cbdfada66c4ec391257d1ca2e239b7df9",
+      "snapshotMatchesCacheBytes": true
+    },
+    "soren-kierkegaard": {
+      "pagePath": "/philosophers/soren-kierkegaard/",
+      "sourceSha256": "e7047fe43e5f25295530e0059891cbd9a1b2c298bdf51b95e26fc65c02631f99",
+      "originalPrompts": 4,
+      "originalHeadings": 4,
+      "sourceColumns": 8,
+      "modelResponses": 8,
+      "blocksRetainedVerbatim": 15,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 36,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "sevenContributionsPerModel": [
+          7,
+          7
+        ]
+      },
+      "sha256": "38e0410f24ab961f61a49513048e7204a6599b3fc8aa9bc3b8ee812359e12390",
+      "snapshotMatchesCacheBytes": true
+    },
+    "the-power-of-convergence": {
+      "pagePath": "/philosophy-of-science/the-power-of-convergence/",
+      "sourceSha256": "7b0d5aaa5582ce5ec5006cd27a411ecefb3b5a88771e0497161ddd0f5bd7071d",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 12,
+      "modelResponses": 12,
+      "blocksRetainedVerbatim": 79,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 88,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": false,
+      "explicitListItemSplits": [
+        "5.2.10"
+      ],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "quizQuestionsAndAnswers": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "discussionQuestions": [
+          15,
+          15
+        ],
+        "threeExamplesChatGPT": [
+          3,
+          3,
+          3
+        ],
+        "threeExamplesGemini": [
+          3
+        ]
+      },
+      "sha256": "dec7336049fb5ff028452d30740eb092ece49432597c5c82bc20cd933c01dee1",
+      "snapshotMatchesCacheBytes": true
+    },
+    "the-use-of-proxies": {
+      "pagePath": "/philosophy-of-science/the-use-of-proxies/",
+      "sourceSha256": "1b84122203164d849a17d9ccc240a25f847b781a9bc065f6deeb7ac902f777d2",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 12,
+      "modelResponses": 12,
+      "blocksRetainedVerbatim": 61,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 76,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "crossDisciplineExamples": [
+          7,
+          7
+        ],
+        "failureCases": [
+          5,
+          5
+        ],
+        "legitimateExamples": [
+          5,
+          5
+        ],
+        "quizQuestionAndAnswerCounts": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "discussionQuestionCounts": [
+          15,
+          15
+        ]
+      },
+      "sha256": "abfcf343db8d8d4395fd78a9a544175ce6bea70b326640ada299804309cdcf4f",
+      "snapshotMatchesCacheBytes": true
+    },
+    "thomas-hobbes": {
+      "pagePath": "/philosophers/thomas-hobbes/",
+      "sourceSha256": "1fa4613e6d89b54925766813864776d7b584d5a6288e219fb8dbe9095619b1ff",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 12,
+      "modelResponses": 12,
+      "blocksRetainedVerbatim": 103,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 44,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": false,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [
+        "5.1"
+      ],
+      "formatChecks": {
+        "sevenContributionsPerModel": [
+          7,
+          7
+        ],
+        "quizQuestionsAndAnswers": [
+          7,
+          7,
+          7,
+          7
+        ],
+        "discussionQuestions": [
+          12,
+          12
+        ]
+      },
+      "sha256": "84c527f790032cc3398726c5ba3c0b9ac2f45020dfe7855d2894c10a08e5256e",
+      "snapshotMatchesCacheBytes": true
+    },
+    "what-is-consciousness": {
+      "pagePath": "/philosophy-of-mind/what-is-consciousness/",
+      "sourceSha256": "de62b4644be3bc9e4f80aaf68ed53e247f859cf7a616089740d569ad04479aa2",
+      "originalPrompts": 8,
+      "originalHeadings": 8,
+      "sourceColumns": 16,
+      "modelResponses": 16,
+      "blocksRetainedVerbatim": 124,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 100,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "quizQuestionAndAnswerCounts": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "discussionQuestionCounts": [
+          15,
+          15
+        ]
+      },
+      "sha256": "82cca6b9dd3b871625aea753b73a7012b173185097a5a5f95a8726de50ac49be",
+      "snapshotMatchesCacheBytes": true
+    }
+  },
+  "builtPages": [
+    {
+      "pagePath": "/epistemology/adequate-evidence/",
+      "sha256": "4db2354ebb73123f53d416a5cd9f640858033a0dffab3ef70db4e1aa28cfdf83",
+      "matchesFullBuild": true,
+      "unchangedFromPriorCommit": true
+    },
+    {
+      "pagePath": "/philosophers/analytic-philosophers/",
+      "sha256": "914016b7bc0cf54bd44b93e05ad8aafb1978aec185f01bd3e216278736ce211b",
+      "matchesFullBuild": true,
+      "unchangedFromPriorCommit": true
+    },
+    {
+      "pagePath": "/philosophers/ancient-philosophers/",
+      "sha256": "8390ea2898cacbdc78aecafef134244fabf4a2febf6abc7891ebb7589cde0716",
+      "matchesFullBuild": true,
+      "unchangedFromPriorCommit": true
+    },
+    {
+      "pagePath": "/philosophers/baruch-spinoza/",
+      "sha256": "934ac15bf60e33c45c6ca25c26825295b555c88057b4ff1e7deab75aa063d86d",
+      "matchesFullBuild": true,
+      "unchangedFromPriorCommit": true
+    },
+    {
+      "pagePath": "/rational-thought/calculating-risks/",
+      "sha256": "ad96d75257185ad71c55b9792e5a3dde780c6323a13731c46bf20f46ea6e1a85",
+      "matchesFullBuild": true,
+      "unchangedFromPriorCommit": true
+    },
+    {
+      "pagePath": "/political-philosophy/critical-race-theory/",
+      "sha256": "899f878839c637765c782c2831e5137e20fc4db864450e92ae46c3549fa8d15b",
+      "matchesFullBuild": true,
+      "unchangedFromPriorCommit": true
+    },
+    {
+      "pagePath": "/philosophers/daniel-dennett/",
+      "sha256": "ef4613dbae4d5b7807a43ebb3dae14b027f2179515a4e06f7cd5edea18e8aa0a",
+      "matchesFullBuild": true,
+      "unchangedFromPriorCommit": true
+    },
+    {
+      "pagePath": "/philosophers/david-hume/",
+      "sha256": "f032caa34a5e3058688f0cbd41d5d4883f5473c7f44b5c6c86f75d703a4aca81",
+      "matchesFullBuild": true,
+      "unchangedFromPriorCommit": true
+    },
+    {
+      "pagePath": "/rational-thought/depth-or-width-of-knowledge/",
+      "sha256": "f1d239c13bf434e11f7416abb5ec7a9f5bedb5b6fffa530d1be79cf37980ddc1",
+      "matchesFullBuild": true,
+      "unchangedFromPriorCommit": true
+    },
+    {
+      "pagePath": "/philosophy-of-mind/elitzur-on-consciousness/",
+      "sha256": "1259de5f9f2a6c764314649682f171d8492329bca19ee431d97c35d54a83a69b",
+      "matchesFullBuild": true,
+      "unchangedFromPriorCommit": true
+    },
+    {
+      "pagePath": "/philosophers/empiricists/",
+      "sha256": "304cfb69874c270844c162ab1db83d589577460a50fc5557c11927d5e1388a25",
+      "matchesFullBuild": true,
+      "unchangedFromPriorCommit": true
+    },
+    {
+      "pagePath": "/political-philosophy/identity-politics/",
+      "sha256": "605e68d873e97f206601dc06a85ce54394692895ad61cfb786e09eea82351fb2",
+      "matchesFullBuild": true,
+      "unchangedFromPriorCommit": true
+    },
+    {
+      "pagePath": "/philosophers/immanuel-kant/",
+      "sha256": "5004589a31c29149a1155b76997fb334a4cf7b22cdf0399818206c05b10d369d",
+      "matchesFullBuild": true,
+      "unchangedFromPriorCommit": true
+    },
+    {
+      "pagePath": "/philosophy-of-science/improving-science/",
+      "sha256": "973cc3388a5ed278884654c74a0ee0defe266ce3d7c6ab31afb261dbb0bdba67",
+      "matchesFullBuild": true,
+      "unchangedFromPriorCommit": false
+    },
+    {
+      "pagePath": "/philosophy-of-science/methodological-naturalism/",
+      "sha256": "480b9ad4e212bd999ff4dfdf28ce9bc463c308af2d47ab30f7b6af92a008c18c",
+      "matchesFullBuild": true,
+      "unchangedFromPriorCommit": true
+    },
+    {
+      "pagePath": "/philosophy-of-science/orthogonality/",
+      "sha256": "38f2bcfcf6afdc67497746000bbf82c9b6d66ad319690d69876d7d1a277d4d76",
+      "matchesFullBuild": true,
+      "unchangedFromPriorCommit": true
+    },
+    {
+      "pagePath": "/philosophers/plato-2/",
+      "sha256": "2b9ecde1724f0c905b3c1938551fd9370105f240f69cf2bbeac311873998ff78",
+      "matchesFullBuild": true,
+      "unchangedFromPriorCommit": false
+    },
+    {
+      "pagePath": "/philosophers/rene-descartes/",
+      "sha256": "d74b2fb865522e738a6aaf0293236d0e4000314d630c65b9ea99e1927f46d156",
+      "matchesFullBuild": true,
+      "unchangedFromPriorCommit": true
+    },
+    {
+      "pagePath": "/philosophers/socrates/",
+      "sha256": "9433330c87a0a25d98ff3922eb7ceb5cbdfada66c4ec391257d1ca2e239b7df9",
+      "matchesFullBuild": true,
+      "unchangedFromPriorCommit": false
+    },
+    {
+      "pagePath": "/philosophers/soren-kierkegaard/",
+      "sha256": "38e0410f24ab961f61a49513048e7204a6599b3fc8aa9bc3b8ee812359e12390",
+      "matchesFullBuild": true,
+      "unchangedFromPriorCommit": true
+    },
+    {
+      "pagePath": "/philosophy-of-science/the-power-of-convergence/",
+      "sha256": "dec7336049fb5ff028452d30740eb092ece49432597c5c82bc20cd933c01dee1",
+      "matchesFullBuild": true,
+      "unchangedFromPriorCommit": true
+    },
+    {
+      "pagePath": "/philosophy-of-science/the-use-of-proxies/",
+      "sha256": "abfcf343db8d8d4395fd78a9a544175ce6bea70b326640ada299804309cdcf4f",
+      "matchesFullBuild": true,
+      "unchangedFromPriorCommit": true
+    },
+    {
+      "pagePath": "/philosophers/thomas-hobbes/",
+      "sha256": "84c527f790032cc3398726c5ba3c0b9ac2f45020dfe7855d2894c10a08e5256e",
+      "matchesFullBuild": true,
+      "unchangedFromPriorCommit": false
+    },
+    {
+      "pagePath": "/philosophy-of-mind/what-is-consciousness/",
+      "sha256": "82cca6b9dd3b871625aea753b73a7012b173185097a5a5f95a8726de50ac49be",
+      "matchesFullBuild": true,
+      "unchangedFromPriorCommit": true
+    }
+  ],
+  "visualChecks": {
+    "browser": "Codex in-app browser, 1280 × 720",
+    "pages": [
+      "improving-science",
+      "plato-2",
+      "socrates",
+      "thomas-hobbes"
+    ],
+    "results": [
+      "Prompt link navigated to Improving Science quiz; quiz options display on separate lines.",
+      "All four desktop pages have no horizontal overflow.",
+      "Plato and Socrates show seven contribution entries per response and readable source-aligned annotations.",
+      "Hobbes shows two seven-question quizzes and two seven-answer guides; missing guide restored.",
+      "Improving Science final quiz questions distinguish whole-study publication and physical distribution; original grouped discussions number continuously 1–15."
+    ],
+    "mobileValidationClaimed": false,
+    "temporaryTabClosed": true
+  },
+  "scopeProtection": {
+    "unrelatedInheritedFilesUnchanged": 485,
+    "authorizedInheritedPageSuperseded": [],
+    "trackerUnchanged": true,
+    "previousTwentyReviewedPagesUnchanged": true
+  },
+  "numericChecks": {
+    "independentTests": {
+      "formula": "1 - 0.95**20",
+      "value": 0.6415140775914581,
+      "roundedPercent": 64,
+      "assumptions": "20 independent tests, each true null, with 5% false-positive rate."
+    }
+  },
+  "batchComplete": false,
+  "trackerAdvanced": false
+}

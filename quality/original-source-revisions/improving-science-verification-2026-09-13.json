@@ -1,0 +1,43 @@
+{
+  "pagePath": "/philosophy-of-science/improving-science/",
+  "sourceSha256": "b7bf52d4ea76e549bcc4b3fd31f7a47cf920a6fcb91b6cf147f7df3d13d88f64",
+  "originalPrompts": 6,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 218,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 75,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "sevenInitialIssues": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "quizAnswerAndGeminiQuestionLists": [
+      7,
+      7,
+      7
+    ],
+    "ChatGPTDiscussionQuestions": [
+      15
+    ],
+    "GeminiDiscussionGroups": [
+      3,
+      3,
+      3,
+      6
+    ]
+  },
+  "sha256": "973cc3388a5ed278884654c74a0ee0defe266ce3d7c6ab31afb261dbb0bdba67",
+  "snapshotMatchesCacheBytes": true
+}

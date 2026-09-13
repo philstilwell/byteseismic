@@ -1,0 +1,77 @@
+{
+  "wordpressId": 5783,
+  "pageFile": "philosophers/socrates/index.html",
+  "snapshot": "socrates-wordpress-5783.html",
+  "sourceSha256": "bfd165866741a6b1992094ac775088acabd47403d6af4220ae91931388101039",
+  "sourceUrl": "http://byteseismic.com/2024/04/08/socrates/",
+  "sourceLabel": "Original WordPress conversation, 2024-04-08",
+  "shellRevision": "74244242a15d5b575e1e0ee83ded45aa6ab8a5d9",
+  "date": "2026-09-13",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "replacements": {
+    "1.1.0": "Socrates made the examination of how to live a central philosophical activity, especially through questions that tested claims about virtue and knowledge. He left no philosophical writings, so his influence reaches us through differing portrayals, above all those of Plato and Xenophon. These works made his questioning, concern for the soul, and refusal to abandon inquiry enduring resources for ethics and education. His historical views must be distinguished from doctrines later authors place in his mouth.",
+    "1.2.0": "Socrates’ legacy joins an approach to argument with a model of an examined life. Questioning a confident definition can expose an inconsistency without yet yielding the right answer; recognizing that limit is itself philosophically useful. Plato’s dialogues made this practice influential for later ethics and theories of knowledge, but they are crafted works rather than verbatim records. Socrates became a figure both admired and criticized for making people answer for their beliefs.",
+    "2.1.0": "<strong>The Socratic method:</strong> In many Platonic dialogues, Socrates asks for a definition, elicits further commitments, and tests whether they agree. If courage is endurance, would stubbornly persisting in a foolish action count? A counterexample can defeat that answer without proving a replacement. Modern classroom questioning adapts this practice; asking leading questions alone is not the whole method.",
+    "2.1.1": "<strong>Knowledge and virtue:</strong> Socrates is associated with the demanding proposal that genuinely understanding the good changes how one acts. This is stronger than knowing a moral slogan: a person who chooses badly may have mistaken what would benefit them. The proposal raises a lasting objection—whether someone can judge correctly yet act against that judgment.",
+    "2.1.2": "<strong>Socratic irony:</strong> Socrates’ professions of ignorance can place an interlocutor’s confidence under examination. Whether a particular profession is strategic, sincere, or both depends on the dialogue and its interpretation. Calling every instance a pretense hides his serious concern with the limits of his own understanding.",
+    "2.1.3": "<strong>Care for the soul:</strong> Plato’s <a href=\"https://www.gutenberg.org/files/1656/1656-h/1656-h.htm\">Apology</a> portrays Socrates urging people to care for wisdom and character above wealth and reputation. He did not invent the concept of soul. Plato’s Phaedo gives the character Socrates arguments for immortality, but those arguments cannot simply be assigned to the historical man.",
+    "2.1.4": "<strong>Socratic paradoxes:</strong> Claims associated with Socrates, including that no one willingly does wrong and that committing injustice harms the agent more deeply than suffering it, challenge ordinary measures of success. They make moral character central to well-being. These are controversial arguments to examine, not established facts about every person’s psychology.",
+    "2.1.5": "<strong>Recognizing ignorance:</strong> “I know that I know nothing” is a familiar summary, not a secure verbatim quotation from Socrates. In the Apology, Plato portrays him as wiser in not supposing that he knows what he does not know. That distinction permits specific knowledge and reasoned commitments while rejecting unwarranted confidence.",
+    "2.1.6": "<strong>The examined life:</strong> In Plato’s Apology, Socrates argues that continued examination of himself and others is central to a worthwhile life. The point is not endless indecision: questioning should bear on what one values and how one acts. His willingness to continue despite the trial gave the claim unusual dramatic force.",
+    "2.2.0": "Seven influential themes follow. They concern the Socrates known through ancient portrayals; the surviving sources do not let us identify every doctrine as a securely recorded historical teaching. The ranking is an editorial selection.",
+    "2.2.2": "<strong>Ethical inquiry:</strong> Socrates gave sustained attention to courage, justice, virtue, and living well. Earlier thinkers also considered human conduct, so he did not turn an exclusively physical philosophy into ethics by himself. His distinctive inheritance is the persistent testing of people’s claims to understand these matters.",
+    "2.2.3": "<strong>The search for definitions:</strong> Socratic questioning asks what makes different courageous or just actions instances of the same virtue. This helped set the problem to which Plato’s Forms offer one response. Separate, eternal Forms should not be listed as a securely established invention of the historical Socrates; the contribution here is the demand for a defensible general account.",
+    "2.2.4": "<strong>Knowledge and virtue:</strong> The proposal that understanding the good is sufficient for virtuous action connects ethics with inquiry. It remains a challenge rather than a settled psychological law: apparent cases of people knowingly acting badly require explanation.",
+    "2.2.5": "<strong>Reasoned examination:</strong> Socrates presses for reasons rather than treating prestige or tradition as decisive. Yet the ancient portraits also give him religious commitments and a divine sign. His use of argument should not be turned into a modern claim that he rejected every religious or nonargumentative element of life.",
+    "2.2.6": "<strong>Self-knowledge:</strong> Recognizing the limits of one’s understanding can prevent confidence from outrunning reasons. The popular saying that the only wisdom is knowing one knows nothing is a paraphrase, not a reliably recorded proclamation. The more useful principle is to examine what one actually has grounds to claim.",
+    "2.2.7": "<strong>Dialogue:</strong> An interlocutor’s answers make their commitments available for testing. Such exchanges can teach both participants, but the dialogues also show frustration and hostility; describing them all as comfortably respectful would miss why Socrates was controversial.",
+    "3.1.0": "Socrates’ prominence has two parts: attention during his lifetime and a reputation sustained by later writers and schools. The following factors offer plausible explanations, with limits imposed by our indirect and sometimes conflicting sources:",
+    "3.1.1": "<strong>Athenian public life:</strong> Fifth-century Athens offered settings for argument in politics, law, drama, and teaching. War, exclusion, regime changes, and factional conflict also shaped that setting. It created opportunities and dangers for Socrates rather than an uncomplicated ideal environment.",
+    "3.1.2": "<strong>A distinctive practice of inquiry:</strong> Repeatedly asking people to define and defend virtue brought philosophy into ordinary judgments about how to live. Earlier thinkers and Sophists also discussed conduct; Socrates’ importance does not depend on erasing those antecedents.",
+    "3.1.3": "<strong>A remembered model of integrity:</strong> Plato’s Apology and Crito present Socrates as refusing to abandon inquiry or escape punishment on terms he judged unjust. That portrayal became influential regardless of how completely it captures the historical person. Its power lies in connecting argument with choices made under pressure.",
+    "3.1.4": "<strong>Plato and other witnesses:</strong> Plato’s dialogues made Socrates a central figure for later philosophy. Xenophon offers another sympathetic portrait, while Aristophanes’ comedy gives a very different one. Reading these as authored portrayals explains both the richness of the legacy and the difficulty of reconstructing the man.",
+    "3.1.5": "<strong>Engagement with the Sophists:</strong> Plato often contrasts Socratic examination with prestigious teaching and persuasive success. The Sophists were diverse, and their positions cannot all be reduced to proving anything for a fee. The contrast itself helped shape Socrates’ reputation and should also be critically assessed.",
+    "3.2.0": "These factors help explain why Socrates attracted attention and why his reputation survived. They do not establish the exact relative causes of his prominence:",
+    "3.2.2": "<strong>Questions about living:</strong> Virtue, education, and civic responsibility were already active concerns in Athens. Socrates’ probing exchanges made familiar answers difficult to take for granted, giving those concerns a memorable philosophical form.",
+    "3.2.4": "<strong>Followers’ writings:</strong> Plato’s dialogues and Xenophon’s works preserved influential versions of Socrates. They interpret and construct his example rather than meticulously recording every exchange. Their circulation and use in teaching help explain his later prominence.",
+    "3.2.5": "<strong>Trial and execution:</strong> Convicted in 399 BCE on charges including impiety and corrupting the young, Socrates became a lasting example in debates about conscience, education, and civic authority. The sympathetic picture of a martyr for inquiry is powerful, but it is also a reception of contested events.",
+    "4.1.3": "<strong>Cynicism:</strong> Antisthenes’ association with Socrates provides a traditional connection to the later Cynic emphasis on virtue and independence from wealth and convention. The familiar founder-and-pupil genealogy is less secure than a simple family tree suggests; the ethical appropriation is the central point.",
+    "4.1.5": "<strong>Academic skepticism:</strong> Later members of Plato’s Academy drew on Socratic questioning and professions of ignorance when challenging claims to knowledge. This is a specific strand of reception, not evidence that all skepticism descends from Socrates or that his method was Cartesian systematic doubt.",
+    "4.1.10": "<strong>Political philosophy:</strong> The trial, the refusal to escape in the Crito, and disputes about expertise raise questions about obedience and dissent. The ideal city spoken for by the character Socrates in the Republic should not automatically be treated as a proposal of the historical Socrates.",
+    "4.1.12": "<strong>Self-knowledge and psychology:</strong> Socratic examination gives later readers a way to question self-justification and confidence. “Know thyself” was a Delphic maxim, not a phrase Socrates invented. Connections with modern psychology need to distinguish an illuminating resemblance from a documented line of influence.",
+    "4.2.4": "<strong>Academic skeptics:</strong> Some later Academics appealed to Socratic inquiry and ignorance in their challenges to secure knowledge; this identifies a particular reception rather than a doctrine shared by every skeptic.",
+    "4.2.5": "<strong>Epicureans:</strong> Their concern with how to live belongs to the wider ancient ethical debate, but their account of pleasure and tranquility is not straightforwardly a Socratic inheritance. They belong here principally as a contrast to virtue-centered receptions of Socrates.",
+    "4.2.7": "<strong>Hegel:</strong> Interpreted Socrates as a pivotal figure in the emergence of reflective judgment and in conflict between individual conscience and established civic life.",
+    "4.2.8": "<strong>Kierkegaard:</strong> Examined Socratic irony and the way questioning changes a person’s relation to inherited claims and to their own life.",
+    "4.2.9": "<strong>Nietzsche:</strong> Criticized Socratic rationalism and its relation to Greek culture and instinct. Hostile engagement is a form of influence, not agreement.",
+    "4.2.10": "<strong>Heidegger:</strong> Engaged the Greek inheritance of questioning, within which Socrates is one reference. This is a less direct connection than the documented engagements with Socrates by Kierkegaard or Nietzsche and should not be ranked equally without further evidence.",
+    "4.2.11": "<strong>Gadamer:</strong> Drew on Platonic dialogue and Socratic questioning to explain understanding as a process in which our assumptions can be challenged by another viewpoint."
+  },
+  "countChecks": [
+    {
+      "name": "sevenContributionsPerModel",
+      "selector": "#prompt-2 .original-response > ol",
+      "child": "li",
+      "expected": [
+        7,
+        7
+      ]
+    }
+  ],
+  "headings": [
+    "Socrates’ influence in a paragraph",
+    "Two selections of seven contributions",
+    "Why Socrates became a lasting philosophical figure",
+    "Later schools and disciplines"
+  ],
+  "introHeading": "Socrates, questioning, and the evidence about his life",
+  "intro": "The four original prompts ask about influence, seven contributions, prominence, and later schools and disciplines. Both response tracks retain that progression. A recurring distinction matters throughout: the historical Socrates left no philosophical writings, while Plato, Xenophon, and other authors present differing portraits that later thinkers interpreted in turn.",
+  "description": "Examine Socratic questioning, virtue, intellectual humility, and later influence through four original prompts and paired responses.",
+  "pageSignals": {
+    "Page form": "Philosopher profile",
+    "Best for": "separating Socratic inquiry from later attributions"
+  }
+}
