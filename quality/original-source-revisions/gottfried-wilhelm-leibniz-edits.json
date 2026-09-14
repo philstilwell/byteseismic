@@ -1,0 +1,142 @@
+{
+  "wordpressId": 8896,
+  "pageFile": "philosophers/gottfried-wilhelm-leibniz/index.html",
+  "snapshot": "gottfried-wilhelm-leibniz-wordpress-8896.html",
+  "sourceSha256": "dce80b6797ad91b302458df8e482cc3c073997cd78127bbebf5b49e536df37af",
+  "sourceUrl": "http://byteseismic.com/2024/05/15/gottfried-wilhelm-leibniz/",
+  "sourceLabel": "Original WordPress conversation, 2024-05-15",
+  "shellRevision": "836542a2614a4e65c1096e80027fba465f9fd904",
+  "date": "2026-09-14",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini",
+    "Claude"
+  ],
+  "replacements": {
+    "1.1.1": "Leibniz made questions about substance, explanation, and possibility central to early modern philosophy. His monads are simple, unextended substances whose changing perceptions correspond without causal exchange; pre-established harmony explains that coordination within his system. The principle of sufficient reason and his defense of divine choice of the best possible world remain contested points of reference. His projects for symbolic reasoning and his mathematical achievements also made him an important predecessor and critical interlocutor for later logic and philosophy.",
+    "1.2.0": "Leibniz’s influence centers on a demanding picture of an intelligible world: each monad develops from its own internal principle, while God’s ordering makes their states correspond. Pre-established harmony explains apparent interaction rather than a transfer of influence between monads. His defense of the best possible world, distinction between necessary and contingent truths, and projects for symbolic reasoning gave later philosophers arguments to develop or reject, especially about mind, explanation, and freedom.",
+    "1.3.0": "Gottfried Wilhelm Leibniz (1646–1716) combined philosophy with mathematics, law, history, and other inquiries. His principle of sufficient reason asks for an explanation of why things are so rather than otherwise; his monads are simple, unextended substances, not tiny physical particles. Works such as the Monadology and Discourse on Metaphysics connect these ideas with freedom, divine choice, and mind. His work on calculative reasoning and binary arithmetic also makes him a significant precursor in histories of logic and computation, without making him the sole founder of their modern forms.",
+    "2.1.1": "<strong>Monadology:</strong> Monads are simple substances with no parts or spatial extension, each representing the universe from its own perspective. They cannot naturally arise by assembly or perish by disintegration; Leibniz nevertheless allows divine creation or annihilation. Perception here is broader than conscious awareness. See <a href=\"https://www.earlymoderntexts.com/assets/pdfs/leibniz1714b.pdf\">Monadology, §§1–19</a>.",
+    "2.1.3": "<strong>Principle of sufficient reason:</strong> There must be a sufficient explanation of why a fact is so rather than otherwise, even when we cannot discover it. An explanation need not be an earlier physical cause. The principle drives metaphysical inquiry but its scope and justification are disputed.",
+    "2.1.4": "<strong>The best of all possible worlds:</strong> Leibniz argues that divine wisdom selects the best complete system of mutually compatible possibilities. He is not claiming every event is individually good or that every imagined improvement fits with everything else. Critics challenge both the ranking of whole worlds and whether it explains suffering.",
+    "2.1.6": "<strong>Identity of indiscernibles:</strong> Two genuinely distinct things cannot be alike in every relevant qualitative respect. This is stronger than saying identical things share their properties. The philosophical dispute concerns which properties count and whether distinct but qualitatively matching objects are possible.",
+    "2.1.7": "<strong>Symbolic logic:</strong> Leibniz sought a language of concepts and a calculus for checking reasoning. These projects anticipate ambitions of later formal logic, although much remained unpublished and he did not produce a complete modern logical system. Historical resemblance should be distinguished from a documented direct influence on each later logician.",
+    "2.2.0": "<strong>Monadology:</strong> Reality ultimately depends on simple, unextended substances with perception and internal activity. Calling monads spiritual must not suggest that every monad is a reflective human mind. Their lack of causal exchange leads to the problem of how their states correspond, answered within the system by pre-established harmony.",
+    "2.2.1": "<strong>Principle of sufficient reason:</strong> Leibniz demands a reason why a truth holds or a thing exists as it does rather than otherwise. The reason may be logical or metaphysical rather than a preceding event. This is a substantive explanatory principle, not a guarantee that human investigators can find every reason.",
+    "2.2.2": "<strong>Possible worlds and optimism:</strong> God’s choice is between whole systems of mutually compatible possibilities. Leibniz argues that the actual one is best overall despite evils within it. The claim is a contested theological defense, not an observation that every situation is as good as it could be considered separately.",
+    "2.2.3": "<strong>Symbolic logic:</strong> A formal language and calculus might make parts of reasoning explicit and checkable. Leibniz pursued that program, but modern logical notation and proof systems required later developments. His importance lies partly in the ambition, not in having already completed the modern discipline.",
+    "2.2.4": "<strong>Innate ideas and empiricism:</strong> Leibniz treats innate knowledge as dispositions and capacities that experience can bring into awareness, not a stock of consciously memorized facts present at birth. His marble-with-veins analogy contrasts structured potential with a blank surface. Repeated observations alone, he argues, cannot supply the necessity of mathematical truths.",
+    "2.2.6": "<strong>Truths of reason and fact:</strong> Truths of reason are necessary: denying them entails contradiction. Truths of fact are contingent: their alternatives are possible, although they have sufficient reasons. This is not merely a division between what we happen to learn by reasoning and what we happen to learn by observation.",
+    "2.3.1": "<strong>Principle of sufficient reason:</strong> Leibniz asks why a truth holds or a thing exists as it does rather than otherwise. This goes beyond a search for physical causes, and it does not imply that every explanation is accessible to us. Later metaphysics debates both its explanatory power and its limits.",
+    "2.3.5": "<strong>Concepts and universals:</strong> Leibniz connects general concepts with abstraction, classification, and his project of analyzing reasoning into simpler terms. Universals are not separate physical objects. The label conceptualism is only a rough guide: his account of possible essences and the divine intellect makes the status of concepts more complex than saying they exist only in individual human minds.",
+    "2.3.6": "<strong>Binary arithmetic:</strong> Leibniz developed and published an account of arithmetic using 0 and 1. This is an important predecessor of digital representation, but binary notation alone is not a theory of computation, electrical switching, or information. Those required distinct later achievements; the original list appropriately reaches beyond philosophy narrowly construed.",
+    "2.3.7": "<strong>Law of continuity:</strong> Leibniz uses continuity to connect limiting cases and to oppose unexplained jumps in natural processes. It informs his mathematics and philosophy of nature, but should not be treated as an established rule covering every modern physical theory. Its role in his system is the relevant contribution.",
+    "3.1.2": "<strong>Intellectual curiosity:</strong> The range of problems Leibniz actually pursued supports an inference to sustained curiosity. Moving between mathematics, law, and metaphysics gave him resources for comparing forms of explanation. It does not let us measure his private motivation or identify a single cause of prominence.",
+    "3.1.3": "<strong>Intellectual formation:</strong> Study at Leipzig, especially with Jakob Thomasius, connected Leibniz with earlier philosophy; later mathematical exchanges with Christiaan Huygens in Paris expanded his technical resources. These are more informative influences than a general claim that distinguished mentors necessarily produce distinguished students.",
+    "3.1.4": "<strong>Mathematics and philosophical method:</strong> Work on calculus and formal reasoning gave Leibniz methods for studying change, continuity, and the analysis of complex claims. These connections help explain the character of his philosophy; mathematical achievement does not by itself establish that his metaphysical arguments are sound.",
+    "3.1.8": "<strong>Writing and later publication:</strong> Publications, correspondence, and manuscripts carried Leibniz’s ideas to different audiences. Many major philosophical texts appeared only after his death. His later reputation therefore cannot be explained as the immediate effect of extensive lifetime publication alone.",
+    "3.2.0": "These are plausible contributors to Leibniz’s prominence, rather than measured causes. They distinguish the production of his work from the channels through which others encountered it:",
+    "3.2.1": "<strong>Breadth of competence:</strong> Leibniz’s work across mathematics, logic, law, and history gave him unusually varied problems and methods. Pointing to those achievements explains more than simply calling him a genius; neither amounts to proof of every philosophical conclusion.",
+    "3.2.4": "<strong>Writing and communication:</strong> Correspondence circulated arguments and exposed them to objections, while later editors brought unpublished material to new readers. These different routes of transmission help explain both contemporary recognition and posthumous influence.",
+    "3.3.0": "The following factors plausibly contributed to Leibniz’s development and reception. Historical evidence supports their presence more securely than any precise ranking of their causal importance:",
+    "3.3.3": "<strong>Court employment and patronage:</strong> Service in Mainz and Hanover supplied income, libraries, and contacts. It also imposed diplomatic, legal, historical, and practical duties. Leibniz was not simply freed from earning a living; intellectual work developed alongside substantial employment obligations.",
+    "3.3.5": "<strong>Engagement with other thinkers:</strong> Leibniz criticized Descartes’s writings, met Spinoza, and exchanged ideas with figures such as Arnauld, Huygens, and Newton. Descartes died in 1650, when Leibniz was a child; they did not correspond. Distinguishing reading from personal exchange prevents an impossible intellectual network.",
+    "3.3.6": "<strong>Writing and transmission:</strong> Letters and published articles brought some ideas into contemporary debate. Other influential works, including the Monadology and New Essays, became available posthumously. The scale of the surviving corpus and the scale of lifetime publication are different facts.",
+    "4.1.2": "<strong>Idealism:</strong> Leibniz’s account of unextended substances and perception became a major reference for later idealist debates. Kant’s relation to it includes criticism of the Leibnizian tradition, not simple adoption. Broad claims about German Idealism should therefore distinguish influence through opposition from agreement.",
+    "4.1.3": "<strong>Analytic philosophy:</strong> Later philosophers revisited Leibniz’s logic and metaphysics; Russell’s study of Leibniz is one explicit instance. His calculative ideal also anticipates aspects of formal logic. Anticipation does not establish a direct line of transmission to every modern logician.",
+    "4.1.7": "<strong>Computer science:</strong> Binary arithmetic, mechanical calculation, and the proposal to formalize reasoning give Leibniz a place in the prehistory of computing. Modern algorithms, hardware, and programming languages required many further developments; none follows directly from monadology.",
+    "4.1.9": "<strong>Philosophy of physics:</strong> The Leibniz–Clarke correspondence debates space, time, motion, and divine action, with Clarke defending a Newtonian position. Leibniz’s relational account of space and time remains philosophically significant. Describing this simply as a direct debate with Newton obscures the actual correspondence.",
+    "4.1.10": "<strong>Language:</strong> Leibniz investigated languages and proposed a symbolic representation of concepts for disciplined reasoning. These are distinct projects, relevant to histories of language study and philosophy of language. Their interest does not establish that a modern linguistic theory is his direct descendant.",
+    "4.2.5": "<strong>Logic:</strong> Leibniz’s projects for symbolic analysis and calculative reasoning anticipate central ambitions of formal logic. Later systems extend well beyond what he completed, and much of his logical work circulated only posthumously.",
+    "4.2.7": "<strong>Mathematics:</strong> Leibniz independently developed calculus and influential notation for differentiation and integration. This is a direct mathematical achievement, not merely an indirect effect of his symbolic-logic program.",
+    "4.3.3": "<strong>Logic and language:</strong> Leibniz’s analysis of concepts and plans for a formal language make him relevant to philosophy of language and histories of logic. Binary arithmetic belongs to the prehistory of digital representation. Neither establishes that he founded modern information theory.",
+    "4.3.7": "<strong>Idealism:</strong> Monads and perception place Leibniz within debates about idealist interpretations of reality, though scholars disagree about how bodies fit his mature metaphysics. Later thinkers, including Kant, engaged critically with the Leibnizian tradition. Calling him simply outside idealism or a direct founder of every later form is too blunt.",
+    "5.1.5": "How did mathematical work inform Leibniz’s philosophical interests without proving his metaphysical conclusions?",
+    "5.1.12": "Jakob Thomasius; Christiaan Huygens also importantly shaped his later mathematical development.",
+    "5.1.13": "It supplied methods and problems concerning continuity, change, and analysis. Success in calculus does not automatically validate claims about monads or divine choice.",
+    "5.2.10": "A sufficient reason why it is so rather than otherwise; this need not be an earlier physical cause.",
+    "5.2.13": "He defended innate dispositions and necessary truths while recognizing experience’s role in awakening and applying knowledge.",
+    "5.3.1": "A. Facts require a sufficient reason why they are so rather than otherwise.<br/>B. Every explanation is an earlier physical event.<br/>C. Experience has no role in knowledge.<br/>D. All knowledge is already consciously present at birth.",
+    "5.3.10": "In which modern field is Leibniz’s binary arithmetic an important historical precursor?",
+    "5.3.11": "A. Evolutionary biology<br/>B. Digital computation<br/>C. Psychoanalysis<br/>D. Thermodynamics",
+    "6.1.5": "How do continuity and infinitesimal reasoning connect Leibniz’s mathematics with his philosophy? Where would inferring metaphysical truth from mathematical success go too far?",
+    "6.1.7": "Which aims of Leibniz’s symbolic-language project anticipate modern logic, and what evidence would distinguish anticipation from direct historical influence?",
+    "6.1.11": "How does Leibniz’s relational view of space and time differ from the Newtonian view defended by Clarke in their correspondence?",
+    "6.3.5": "How do Leibniz’s accounts of concepts, universals, and symbolic reasoning connect? What might the broad label conceptualism fail to explain?",
+    "6.3.6": "Binary arithmetic is a precursor of digital representation. What further developments are needed before it becomes a working computing system?",
+    "6.3.11": "How did later idealists or other philosophical movements engage with Leibniz? Distinguish a documented influence from a similarity of themes.",
+    "5.3.3": "A. Atoms<br/>B. Monads<br/>C. Energy waves<br/>D. Platonic forms",
+    "5.3.5": "A. Monadology<br/>B. Discourse on Metaphysics<br/>C. Theodicy<br/>D. Principles of Nature and Grace",
+    "5.3.7": "A. Developing the theory of relativity<br/>B. Formulating the laws of thermodynamics<br/>C. Independently developing calculus<br/>D. Proposing the heliocentric model of the solar system",
+    "5.3.9": "A. Law of Continuity<br/>B. Principle of Non-Contradiction<br/>C. Categorical Imperative<br/>D. Cogito, ergo sum",
+    "5.3.13": "A. Intellectual curiosity and polymathy<br/>B. Privileged upbringing and education<br/>C. Engaging in physical labor from a young age<br/>D. Patronage and support from noble families"
+  },
+  "countChecks": [
+    {
+      "name": "sevenContributionsPerModel",
+      "selector": "#prompt-2 .original-response > ol",
+      "child": "li",
+      "expected": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "quizQuestionsAndKeys",
+      "selector": "#prompt-5 .original-response > ol",
+      "child": "li",
+      "expected": [
+        7,
+        7,
+        7,
+        7,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        7
+      ]
+    },
+    {
+      "name": "discussionQuestions",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        12,
+        12,
+        12
+      ]
+    }
+  ],
+  "headings": [
+    "Leibniz’s influence in three short accounts",
+    "Three annotated selections of seven contributions",
+    "Education, correspondence, and court employment",
+    "Philosophical reception and neighboring disciplines",
+    "Three seven-question quizzes and answer keys",
+    "Three sets of twelve discussion questions"
+  ],
+  "introHeading": "Substance, explanation, and a world of coordinated perspectives",
+  "intro": "The three original response tracks approach Leibniz through metaphysics, mathematical reasoning, and his intellectual career. Their differing seven-entry selections are preserved, including the broader mathematical and linguistic contributions, while distinguishing his proposals from established results and later appropriations.",
+  "description": "Explore Leibniz’s monads, sufficient reason, innate ideas, possible worlds, and intellectual legacy through six original prompts and three response tracks.",
+  "pageSignals": {
+    "Page form": "Philosopher profile",
+    "Best for": "examining substance, explanation, and necessary truth"
+  },
+  "orderedListStarts": {
+    "5.3": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      1
+    ]
+  }
+}

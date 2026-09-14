@@ -1,0 +1,117 @@
+{
+  "wordpressId": 8557,
+  "pageFile": "philosophers/thomas-aquinas/index.html",
+  "snapshot": "thomas-aquinas-wordpress-8557.html",
+  "sourceSha256": "01cb01b026abcf4f75964c064a926615749511824604152c03f5eafd3a43ac5a",
+  "sourceUrl": "http://byteseismic.com/2024/05/12/thomas-aquinas/",
+  "sourceLabel": "Original WordPress conversation, 2024-05-12",
+  "shellRevision": "836542a2614a4e65c1096e80027fba465f9fd904",
+  "date": "2026-09-14",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini",
+    "Claude"
+  ],
+  "replacements": {
+    "1.1.1": "Thomas Aquinas, a thirteenth-century Dominican friar and theologian, reshaped medieval debates by developing Aristotelian resources within Christian theology. His Summa theologiae connects questions about God, knowledge, action, law, and virtue through a method of objections, a considered answer, and replies. Scholastic inquiry predated him, but his use of it became highly influential. His arguments remain central to Thomist and Catholic thought and are also assessed by philosophers who reject their theological premises.",
+    "1.2.0": "Aquinas developed an influential account of how reason and revelation relate without making them interchangeable. Some truths about God, he argued, are accessible to philosophical argument, while others require revelation. Natural law connects practical reason with human goods, and his metaphysics and Five Ways continue to generate debate. His importance lies in this connected body of arguments and its later reception, not in having conclusively settled the relation between faith and reason.",
+    "1.3.0": "Thomas Aquinas, a thirteenth-century Dominican friar, developed a distinctive synthesis of Christian theology and philosophical arguments drawn from Aristotle and other traditions. He worked within an already established scholastic culture rather than founding it, and used inherited logical principles such as noncontradiction rather than inventing them. His accounts of being, knowledge, virtue, and natural law became major resources for later Catholic and other philosophical inquiries, where both their reasoning and their premises remain open to criticism.",
+    "2.1.1": "<strong>Five Ways:</strong> Aquinas offers arguments from change, efficient causation, contingency, degrees of perfection, and the goal-directed activity of natural things. These are arguments he takes to demonstrate God’s existence, not five uncontested results. The fifth concerns regular direction toward ends rather than simply biological complexity. See <a href=\"https://www.newadvent.org/summa/1002.htm#article3\">Summa theologiae I, q.2, a.3</a>.",
+    "2.1.2": "<strong>Natural law:</strong> Practical reason identifies basic goods and principles for action within Aquinas’s account of human nature. This does not license whatever happens in nature: inclination must be considered through reason. Basic principles and their detailed applications differ in how readily people know them; error and variation are possible.",
+    "2.1.3": "<strong>Aristotelian integration:</strong> Aquinas adapts accounts of change, substance, form, and purpose to theological and philosophical problems. He also draws on other ancient, Islamic, Jewish, and Christian thinkers. Integration includes disagreement and revision; it does not mean Aristotle and Christian doctrine simply say the same thing.",
+    "2.1.4": "<strong>Double effect:</strong> Aquinas’s discussion of self-defense distinguishes an intended act of preservation from a foreseen death and requires moderation in the force used. Later thinkers develop this into the familiar doctrine: the act must be permissible in itself, harm must not be intended as an end or means, and allowing it requires proportionate reason. The later checklist should not be passed off as his exact formulation. See <a href=\"https://www.newadvent.org/summa/3064.htm#article7\">II–II, q.64, a.7</a>.",
+    "2.1.5": "<strong>Being and essence:</strong> Understanding what a creature is does not by itself establish that it exists. Aquinas distinguishes its essence from its act of existing, while holding that God is not composed in this way. This is central to Thomist metaphysics; it should not be confused with Sartre’s later claim that existence precedes essence.",
+    "2.1.6": "<strong>Just war:</strong> Aquinas explicitly identifies proper authority, just cause, and right intention in <a href=\"https://www.newadvent.org/summa/3040.htm#article1\">II–II, q.40, a.1</a>, drawing prominently on Augustine. Later just-war theory develops additional systematic criteria, including proportionality and last resort. His discussion is an influential stage in that tradition, not its sole beginning or the complete modern framework.",
+    "2.1.7": "<strong>Virtue ethics:</strong> Virtues dispose people to act well, integrating practical judgment, desires, and stable character. Aquinas develops the cardinal virtues of prudence, justice, courage, and temperance alongside faith, hope, and charity. Acquired habits and virtues infused by God are distinct within his Christian account of human fulfillment.",
+    "2.2.1": "<strong>Faith and reason:</strong> Aquinas holds that truths properly understood cannot conflict because their ultimate source is the same. This leaves a distinction between what natural reason can demonstrate and what revelation discloses, such as the Trinity. The proposed compatibility is a defended theological position, not a proof that every religious assertion agrees with evidence.",
+    "2.2.2": "<strong>Five Ways:</strong> These arguments proceed from features of the experienced world to a first explanatory source: change, efficient causes, contingent beings, degrees of perfection, and natural ends. Their metaphysical premises and conclusions remain disputed. The brief arguments do not by themselves spell out every attribute of the Christian God.",
+    "2.2.3": "<strong>Natural law:</strong> Aquinas locates basic practical principles in rational participation in eternal law. Some moral knowledge is accessible without revelation, although the theory itself has a theological setting. Reason must work out what goods require in particular circumstances; describing a behavior as natural is not enough to justify it.",
+    "2.2.4": "<strong>Virtue ethics:</strong> Habit and practical reason cultivate acquired virtues, but Aquinas also recognizes divinely infused virtues directed toward a supernatural end. His account therefore extends Aristotle’s ethical framework rather than reducing every virtue to practice or every kind of happiness to worldly success.",
+    "2.2.6": "<strong>Philosophy of mind:</strong> The rational soul is the substantial form of the body: the principle through which the living human being is an organized whole with characteristic powers. This differs from picturing a person as a spirit operating a separate machine. Aquinas also argues that the intellectual soul can subsist after bodily death; its relation to embodied personhood is a further part of the theory.",
+    "2.2.7": "<strong>Knowledge:</strong> Human intellectual knowledge ordinarily begins with sensation, and the intellect abstracts intelligible content from sensory representations. An observed individual tree can thus contribute to understanding what a tree is without that general understanding being a miniature image. This account concerns ordinary embodied knowing and does not exhaust his claims about divine or revealed knowledge.",
+    "2.3.1": "<strong>Faith and reason:</strong> Aquinas argues that natural reason can establish some truths about God while revelation communicates truths beyond its demonstrative reach. His synthesis uses Aristotle critically within a wider intellectual inheritance. It claims compatibility without collapsing theology into philosophy.",
+    "2.3.2": "<strong>Natural law:</strong> Aquinas connects basic practical principles with human goods and rational judgment. He distinguishes general principles from conclusions whose application can be difficult or mistaken. His influence on later natural-law traditions is substantial; a direct causal line to Locke or the United States Constitution requires evidence beyond a resemblance in rights language.",
+    "2.3.3": "<strong>Five arguments for God:</strong> The Summa’s Five Ways reason from change, efficient causes, contingency, degrees, and natural goal-directedness. The fifth is not simply a modern argument from complex biological design. Their influence is compatible with serious disagreement about their premises and what their conclusions establish.",
+    "2.3.4": "<strong>Analogy:</strong> Terms such as good or wise are not applied to God in exactly the same way as to creatures, yet Aquinas rejects treating the meanings as wholly unrelated. Analogy seeks meaningful predication while preserving the difference between creature and creator. The challenge is to explain how much informative content this preserves.",
+    "2.3.5": "<strong>Just war:</strong> Drawing especially on Augustine, Aquinas names authority, just cause, and right intention as conditions for a just war. His discussion contributes to a longer tradition whose later versions distinguish reasons to fight from constraints on fighting more systematically. It should not be credited with every modern requirement.",
+    "2.3.6": "<strong>Human nature as matter and form:</strong> Aquinas adapts Aristotle’s hylomorphism, the account of natural substances through matter and form. For humans, the soul is the body’s substantial form, not merely a separately housed driver. His additional argument for the intellectual soul’s subsistence complicates any equation with modern materialism.",
+    "3.1.1": "<strong>Intellectual setting:</strong> The twelfth- and thirteenth-century expansion of Greek and Arabic learning in Latin provided a setting for Aquinas’s education and arguments. Study in Naples exposed him to Aristotelian thought. Access to texts supplied opportunities; his particular interpretations were not an inevitable consequence of their recovery.",
+    "3.1.4": "<strong>Scholastic method:</strong> Aquinas works within an established culture of commentary and disputation. Presenting objections, giving a considered answer, and replying to difficulties makes disagreements inspectable. His skill in this inherited method helped his arguments travel through teaching and subsequent debate.",
+    "3.1.5": "<strong>Institutional reception:</strong> Dominican education and teaching supported Aquinas’s work, while Aristotelian approaches also faced opposition. Strong later ecclesiastical endorsement helped establish his lasting authority. That later reception should not be projected backward as uniform Church approval throughout his life.",
+    "3.1.7": "<strong>Later recognition:</strong> Canonization and designation as a Doctor of the Church belong to Aquinas’s posthumous reception. They encouraged institutional study and authority; they cannot explain his original intellectual development as events he personally experienced.",
+    "3.2.0": "These factors plausibly explain aspects of Aquinas’s development and later prominence. They do not establish a single historical cause or a ranking of his private motivations:",
+    "3.2.1": "<strong>A distinctive synthesis:</strong> Aquinas offered closely argued ways to use Aristotelian concepts within Christian inquiry. This gave contemporaries and successors a substantial position to teach, criticize, and develop. Its philosophical importance does not depend on assuming the synthesis succeeded on every issue.",
+    "3.2.2": "<strong>Systematic presentation:</strong> The Summa organizes large questions into smaller disputes with objections and replies. This structure aids comparison and teaching, even though the arguments require considerable background knowledge. Systematic form is not the same as easy reading or conclusive proof.",
+    "3.2.4": "<strong>Religious commitment and contested reception:</strong> Aquinas aimed to articulate Christian truth while adopting arguments that were not always welcomed. Later Catholic endorsement greatly strengthened his standing, but acceptance was neither immediate nor uniform.",
+    "3.2.5": "<strong>Transmission and continued study:</strong> Teaching, commentary, and institutional curricula kept the works available for new disputes. These mechanisms help explain lasting prominence more concretely than saying he became influential because his ideas were influential.",
+    "3.3.4": "<strong>Extensive writing:</strong> The Summa, commentaries, and disputed questions gave later readers many points of entry. Their organized treatment of objections made them useful in education and debate. Breadth and continuing use help explain reputation without merely restating praise.",
+    "3.3.6": "<strong>Institutions and reception:</strong> Dominican networks and teaching posts supplied opportunities and routes of circulation. Later ecclesiastical endorsement strengthened his legacy, while opposition to parts of the Aristotelian synthesis complicates any picture of uninterrupted institutional approval.",
+    "4.1.1": "<strong>Scholasticism and Thomism:</strong> Aquinas became a central figure within an existing scholastic tradition. His work generated a distinctive Thomist lineage and disagreements with other scholastic positions. Scholastic philosophy was broader than his system.",
+    "4.1.5": "<strong>Metaphysics:</strong> Essence, existence, act, and potency became central to later Thomist inquiry and remain disputed in metaphysics. Connections to existentialism or phenomenology must be demonstrated thinker by thinker; using the word existence does not establish a direct line of influence.",
+    "4.1.7": "<strong>Just-war ethics:</strong> Later debates about legitimate force repeatedly return to Aquinas’s criteria and their Augustinian background. Modern military ethics elaborates and challenges this inheritance; current rules should not simply be read back into his short treatment.",
+    "4.2.2": "<strong>Medieval philosophy:</strong> Aquinas worked within and reshaped scholastic debate, especially through his use of Aristotle and his systematic responses to objections. Other medieval thinkers opposed important parts of his system; influence does not imply a single shared medieval position.",
+    "4.3.1": "<strong>Scholasticism:</strong> Aquinas is a major participant in the wider medieval culture of philosophical and theological disputation. His distinctive system anchors Thomism, while other scholastics develop rival accounts. His work did not originate scholastic method or exhaust its scope.",
+    "4.3.7": "<strong>Medieval and Renaissance thought:</strong> Subsequent teaching and commentary transmitted Aquinas’s arguments, while later scholastic and humanist writers also contested them. His reception forms part of this history rather than a single route by which all Renaissance philosophy emerged.",
+    "5.1.6": "How does the later doctrine of double effect, developed from discussions including Aquinas’s self-defense case, distinguish intended harm from a foreseen side effect?",
+    "5.1.14": "The action must be permissible in itself; the harm must not be intended as an end or a means; and allowing it requires proportionate reason. Foreseeing harm does not by itself make the action permissible.",
+    "5.2.2": "Which of the Five Ways reasons from an order of efficient causes to a first efficient cause?",
+    "5.2.10": "The second way, from efficient causation.",
+    "5.3.2": "Which theory connects basic practical principles, human goods, and rational judgment?",
+    "5.3.7": "Within which existing philosophical tradition did Aquinas develop the distinctive approach later called Thomism?",
+    "5.3.11": "For example, the argument from change or the argument from goal-directedness in nature.",
+    "6.1.5": "How does the distinction between intending harm and foreseeing it operate in later double-effect reasoning? What additional conditions prevent good intentions from excusing every harmful act?",
+    "6.1.6": "Which elements of modern just-war reasoning appear explicitly in Aquinas’s three conditions, and which require later development?",
+    "6.3.4": "How have later natural-law theorists used or revised Aquinas’s ideas? What evidence is needed to establish influence on a particular account of human rights?",
+    "6.3.10": "How did teaching, commentary, and criticism carry Aquinas’s arguments into later periods? Examine a specific route of reception rather than treating the Renaissance as a single consequence."
+  },
+  "countChecks": [
+    {
+      "name": "sevenContributionsPerModel",
+      "selector": "#prompt-2 .original-response > ol",
+      "child": "li",
+      "expected": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "quizQuestionsAndKeys",
+      "selector": "#prompt-5 .original-response > ol",
+      "child": "li",
+      "expected": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "discussionQuestions",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        12,
+        12,
+        12
+      ]
+    }
+  ],
+  "headings": [
+    "Aquinas’s influence in three short accounts",
+    "Three annotated selections of seven contributions",
+    "Formation, teaching, and later institutional reception",
+    "Schools and disciplines shaped by Aquinas",
+    "Three seven-question quizzes and answer keys",
+    "Three sets of twelve discussion questions"
+  ],
+  "introHeading": "Reason, revelation, and practical judgment",
+  "intro": "The three original tracks move from Aquinas’s influence to distinct selections of contributions, explanations of his prominence, later reception, and review questions. They preserve his Christian commitments while making the arguments open to assessment and distinguishing his own formulations from later developments in his tradition.",
+  "description": "Explore Aquinas’s arguments about God, natural law, virtue, mind, and political ethics through six original prompts and three response tracks.",
+  "pageSignals": {
+    "Page form": "Philosopher profile",
+    "Best for": "examining reason, revelation, and ethical judgment"
+  }
+}

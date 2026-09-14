@@ -1,0 +1,37 @@
+{
+  "pagePath": "/philosophers/thomas-aquinas/",
+  "sourceSha256": "01cb01b026abcf4f75964c064a926615749511824604152c03f5eafd3a43ac5a",
+  "originalPrompts": 6,
+  "originalHeadings": 6,
+  "sourceColumns": 18,
+  "modelResponses": 18,
+  "blocksRetainedVerbatim": 115,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 50,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "sevenContributionsPerModel": [
+      7,
+      7,
+      7
+    ],
+    "quizQuestionsAndKeys": [
+      7,
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "discussionQuestions": [
+      12,
+      12,
+      12
+    ]
+  },
+  "sha256": "99de93ae404f7f1bf772ac03b6ad8db197e9cf5c8e7b8e9d002c614913d2d7f3"
+}

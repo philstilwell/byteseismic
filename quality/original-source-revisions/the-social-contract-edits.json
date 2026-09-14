@@ -1,0 +1,142 @@
+{
+  "wordpressId": 7960,
+  "pageFile": "political-philosophy/the-social-contract/index.html",
+  "snapshot": "the-social-contract-wordpress-7960.html",
+  "sourceSha256": "3c22693ef6862aa5093ecb850ef19ee85617e72847d10d27387cd57cc824ccf5",
+  "sourceUrl": "http://byteseismic.com/2024/05/04/the-social-contract/",
+  "sourceLabel": "Original WordPress conversation, 2024-05-04",
+  "shellRevision": "836542a2614a4e65c1096e80027fba465f9fd904",
+  "date": "2026-09-14",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "replacements": {
+    "1.1.0": "The social contract is usually an explanatory or justificatory model of political association, not a document every resident has signed. Some versions appeal to actual agreements; others ask what terms free and equal people could reasonably accept. Its abstract status does not itself settle whether obligations follow: a principle can bind without being a physical object, but calling a relationship a contract cannot supply missing consent.",
+    "1.1.2": "The classical theories give different accounts of what makes authority defensible. Their differences matter when asking whether a particular person owes obedience to a particular government:",
+    "1.1.3": "<strong>Hobbes:</strong> In a commonwealth by institution, individuals covenant with one another to authorize a sovereign person or assembly capable of securing peace. Protection explains the arrangement; insecurity includes distrust and readiness for conflict, not continuous fighting. This argument favors extensive authority, but does not establish that everyone has actually made such a covenant.",
+    "1.1.4": "<strong>Locke:</strong> Political society provides common laws, impartial judgment, and enforcement to protect natural rights. Consent limits legitimate authority, and government can betray its trust. His account of tacit consent is controversial; importantly, he denies that a father’s agreement simply binds his adult descendants (Second Treatise, §§116–122).",
+    "1.1.5": "<strong>Rousseau:</strong> A legitimate association must reconcile common authority with members’ freedom and equality. The general will concerns the common interest, not whatever a ruler or numerical majority happens to want. Whether actual institutions meet that standard remains a further question.",
+    "1.1.7": "Separate the existence of enforceable rules, a government’s moral right to rule, and a person’s moral duty to obey. These may come apart:",
+    "1.1.8": "<strong>Obligations:</strong> A valid voluntary agreement may generate duties; fairness or justice might also supply duties without consent. Receiving unavoidable benefits is not automatically agreement. A duty to contribute fairly to a useful scheme would also need further argument before becoming a duty to obey every law of its administrator.",
+    "1.1.9": "<strong>Voluntariness:</strong> The absence of consent defeats a simple promise-based justification. It does not show that every ethical duty is optional: duties not to harm others may remain. Equally, punishment for disobedience proves enforceability rather than moral obligation; the ability to break a rule does not determine whether one ought to follow it.",
+    "1.1.10": "The answer therefore depends on a defended account of obligation, not on personal preference alone. The contract model can identify fair terms or explain reasons for cooperation, but a state still has to show why those reasons authorize its particular demands on someone who never agreed.",
+    "1.2.1": "<strong>Hypothetical contract:</strong> A thought experiment asks what people would have reason to accept under specified conditions. Hobbes’s state-of-nature argument helps illustrate this reasoning, although his account also addresses actual authorization. A conclusion about what would be rational is not evidence that an agreement occurred.",
+    "1.2.2": "<strong>Ideal contract:</strong> The contract can function as a standard for judging institutions. Rousseau connects legitimate association with freedom and equality; Kant treats the original contract as an idea of reason. Neither approach is adequately described as simply surrendering autonomy to whatever serves a ruler’s idea of the common good.",
+    "1.2.3": "<strong>Actual contract:</strong> An agreement may help establish a political association. Locke appeals to consent, while distinguishing express membership from obligations he associates with enjoying territory or protection. A founding agreement does not by itself establish the consent of later generations.",
+    "1.2.6": "<strong>Hypothetical contract:</strong> Reasoning about security or mutual advantage may justify cooperation. To derive obligation, one still needs to explain why hypothetical agreement has moral force and why the offered institutions meet its terms.",
+    "1.2.7": "<strong>Ideal contract:</strong> Fairness and equal standing may ground duties to support just institutions. Such duties rely on moral principles, not on pretending that people have historically signed a contract.",
+    "1.2.8": "<strong>Actual contract:</strong> A valid agreement can bind its participants within its scope. An ancestor’s consent does not automatically bind descendants; their obligations require an additional justification.",
+    "1.2.10": "There is no ladder on which hypothetical contracts are weakly binding and ancestral contracts most binding. Each proposed ground must be examined:",
+    "1.2.11": "<strong>Hypothetical contract:</strong> What a person would agree to under imagined conditions is distinct from a promise they made. The argument must explain what follows morally, independently of threatened punishment.",
+    "1.2.12": "<strong>Ideal contract:</strong> If justice generates duties without consent, these may be real duties. Their scope and the justice of the actual institution remain open to challenge.",
+    "1.2.13": "<strong>Actual contract:</strong> A voluntary agreement may create obligations for its parties. Birth supplies neither an act of agreement nor a ranking of one’s obligations as especially strong.",
+    "1.2.15": "The model’s usefulness and its ability to establish a duty are separate questions. It can clarify desirable terms of association while leaving unsettled whether a nonconsenting resident owes a general duty of obedience to this state.",
+    "2.1.2": "The tacit-consent defense interprets certain voluntary actions as agreement. Locke extends this to enjoyment of territory and protection in the Second Treatise, §§119–122. The challenge is whether residence really communicates acceptance when leaving is costly or impossible. Even on Locke’s account, temporary obedience associated with enjoyment is not identical to express political membership. <a href=\"https://www.gutenberg.org/files/7370/7370-h/7370-h.htm\">Read the original discussion, including his rejection of inherited consent in §116.</a>",
+    "2.1.4": "Fair-play arguments, associated with Hart and Rawls, ask why some people should bear the burdens of a cooperative scheme while others take its benefits. Their force depends on conditions such as fair terms and the relationship between accepting benefits and merely receiving unavoidable ones. A neighbor who paints your fence without asking cannot simply announce a debt; defenders must explain how public cooperation differs. This is an independent fairness argument, not proof of implicit agreement.",
+    "2.1.6": "A natural duty of justice may require people to support just institutions without first promising to do so. This avoids the birth-as-consent problem by changing the proposed ground of obligation. It must still explain why a particular state qualifies, which duties follow, and how injustice limits them. Order alone cannot supply those answers.",
+    "2.1.8": "Rawls’s original position asks which principles people would choose under fair conditions that exclude knowledge of their own social advantages. The argument uses a hypothetical agreement to justify principles, not to discover an actual promise made by every citizen. Connecting those principles to obligations under existing institutions requires further steps.",
+    "2.1.10": "Democratic participation may support a justification based on equal voice, fair procedures, and opportunities to contest decisions. Voting, however, need not constitute explicit agreement to every result or to the entire regime; a dissenter may vote defensively. The defender must explain the authority of the procedure, including protections for those who lose or cannot participate.",
+    "2.1.12": "Only the tacit-consent defense tries to identify agreement in actual conduct. Fair play, justice, hypothetical agreement, and democratic procedure offer other possible grounds. They may answer the objection to obligation without consent, but they do not make birth itself an act of consent or establish unlimited obedience.",
+    "2.2.0": "The objection is stronger than a feeling of unfairness: being born is not an agreement. Defenders therefore need either credible evidence of later consent or a different moral ground. Here are five candidate arguments and the work each still has to do:",
+    "2.2.1": "<strong>Hypothetical consent:</strong> People might rationally prefer cooperative institutions to insecurity. That comparison can support principles of cooperation; it cannot convert enjoying benefits into tacit consent. The defender must explain why the hypothetical choice binds someone in the actual system.",
+    "2.2.2": "<strong>Fairness and reciprocity:</strong> A fair scheme may generate duties to share burdens when one accepts its benefits. Duties toward future people may also matter. Neither claim means that earlier generations could sign away descendants’ independence; unavoidable benefits and unfair burdens remain objections.",
+    "2.2.3": "<strong>Benefits outweigh costs:</strong> A government may make people safer or better off. This supplies a possible justification from welfare, not a contract established by birth. The comparison must include feasible alternatives, distribution of harms, and limits on authority rather than assuming the only alternative is chaos.",
+    "2.2.4": "<strong>Procedural justice:</strong> Fair participation can give people reasons to respect common decisions despite disagreement. Those reasons depend on the quality and scope of the procedure. A vote under coercion or permanent exclusion of a minority cannot do the same justificatory work.",
+    "2.2.5": "<strong>Collective good:</strong> Coordinated action can protect goods that isolated individuals cannot secure. The argument must identify the good, fair contributions, and why this institution may demand them. Collective usefulness is not a blank permission to subordinate dissenters.",
+    "2.2.6": "Critics can accept the value of cooperation while rejecting a general duty to obey the state. They may demand actual consent, defend more limited duties of fairness, or argue that particular laws should be followed for independent moral reasons.",
+    "2.2.7": "These defenses answer different questions. Their success must be assessed separately; calling them all a social contract should not hide the shift from consent to fairness, welfare, or justice.",
+    "3.1.0": "For the residence-as-consent argument, genuine freedom to leave is an important condition: staying cannot plausibly express free acceptance if departure is effectively closed. But easier emigration does not by itself establish consent. Remaining must also reasonably communicate agreement to identifiable terms, rather than attachment to family, home, or a right to remain while dissenting.",
+    "3.1.3": "<strong>Availability of alternatives:</strong> Permission to depart is insufficient if no other country will admit the person on viable terms. Accessible alternatives matter more than the bare number of governments. Even with several options, a person may have a legitimate claim to remain at home without endorsing the regime.",
+    "3.1.9": "The curator’s test exposes a weakness in residence-based consent: barriers to exit undermine the inference. Removing those barriers addresses that weakness but does not prove the inference. Arguments from justice or fair play, if offered instead, should be identified as distinct grounds.",
+    "3.2.2": "<strong>Voluntary choice:</strong> A feasible exit removes one reason for treating residence as coerced. It does not establish that residence expresses political agreement. One must still show that staying has the meaning of acceptance and that the person can reject the claimed terms.",
+    "3.2.3": "<strong>Alternatives available:</strong> Exit requires somewhere one can actually enter and live. The choice is also not exhausted by endorse-and-stay or reject-and-leave: a person may reasonably dissent while remaining in their home community.",
+    "3.2.9": "<strong>Reasonable emigration process:</strong> Accessible departure and admission elsewhere make exit more real. They strengthen one premise of a tacit-consent argument, not every aspect of a government’s legitimacy.",
+    "3.2.10": "<strong>Reasons for leaving:</strong> Departure can signal oppression or exclusion, but may also reflect work or family circumstances. Numbers alone establish neither consent nor rejection. A government should investigate reasons and protect people’s ability to contest its authority at home.",
+    "3.2.12": "Freedom to emigrate matters to the consent inference, but it is not a scale that automatically measures moral obligation. The remaining questions are what staying signifies, which terms are accepted, and whether another ground of duty is being substituted for consent.",
+    "4.1.0": "Yes. A theory claiming to impose obligations must distinguish who may demand what from whom. It must also allow the possibility that none of the rival rulers has established a general right to obedience. The three cases test that requirement rather than merely asking whether each ruler can offer benefits:",
+    "4.1.2": "A settled state annexes a region inhabited by nomadic peoples. Their mobility does not imply an absence of institutions, political understanding, or capacity to consent. The central issue is whether the annexing state has authority over them, given their existing arrangements and lack of agreement.",
+    "4.1.3": "<strong>Ethical considerations:</strong> Annexation and useful services do not establish the inhabitants’ consent. A consent-based defense would need a freely authorized arrangement that can accommodate their institutions and mobility. If instead the state invokes welfare or justice, it must explain why those grounds authorize its rule rather than cooperation with the existing communities.",
+    "4.1.6": "<strong>Ethical considerations:</strong> Military control establishes power, not by itself moral authority. Surrender may express an effort to survive rather than free agreement, and conflicting loyalties do not determine which claimant is right. Hobbes gives fear-motivated covenants a stronger role than many later consent theories allow; the answer must state which theory it uses. Independent duties not to harm civilians can remain even if neither claimant has shown a general right to obedience.",
+    "4.1.9": "<strong>Ethical considerations:</strong> A declaration of monarchy is not the population’s agreement. Restoring security can supply a reason to cooperate on particular measures, but does not establish unlimited authority. Hobbesian authorization and protection arguments may defend stronger rule; more demanding consent or justice theories require additional conditions. The relevant question is which duties, if any, the actual arrangement justifies.",
+    "4.1.11": "Apply the same standards to all three cases, rather than lowering the standard whenever a claimant promises order:",
+    "4.1.12": "<strong>Consent and legitimacy:</strong> Identify whose agreement occurred, to which terms, and under what freedom to refuse. Continued residence, conquest, and inherited citizenship cannot simply be renamed consent. A vote can supply evidence only within a defensible process and scope.",
+    "4.1.13": "<strong>Justice and equity:</strong> Assess the distribution of protections and burdens, including the standing of dissenters. Perceived fairness matters, but approval alone cannot establish justice or justify every demand.",
+    "4.1.15": "The scenarios may remain underdetermined without facts about authorization and institutions. A coherent theory should say so. It can reject birth or force as sufficient grounds, identify possible limited duties, and explain what evidence would distinguish the competing systems; it need not invent an obligation to one of them.",
+    "4.2.0": "Yes: if the theory claims real obligations, it needs consistent criteria for assigning them. The available facts may warrant rejecting all three asserted titles rather than choosing a ruler by default. Here is how the same distinction between consent and independent justification applies:",
+    "4.2.2": "<strong>Social contract view:</strong> Nomadic communities can have their own institutions and agreements. Annexation does not transfer their consent to an outside state. The difficulty is imposed authority, not an alleged inability of mobile peoples to understand social cooperation.",
+    "4.2.3": "<strong>Ethical considerations:</strong> Protection or representation may be relevant to a proposed arrangement, but offering something valuable does not make its recipient a willing party. Consent would require a defensible process of authorization; an alternative argument from justice must explain why it overrides existing arrangements.",
+    "4.2.5": "<strong>Social contract view:</strong> A territorial claim or victory does not demonstrate agreement. Even surrender must be interpreted carefully: Hobbes allows a role for covenants made from fear, whereas many other accounts reject coerced submission as a basis for consent. That difference must not be concealed by saying all contract theories give the same answer.",
+    "4.2.6": "<strong>Ethical considerations:</strong> Respecting residents’ institutions and loyalties may improve governance without establishing a right to govern. A settlement would need appropriate authorization and defensible terms. Duties to avoid harm or maintain essential cooperation can exist separately from allegiance to the conqueror.",
+    "4.2.8": "<strong>Social contract view:</strong> Severe insecurity may make cooperation with a new authority rational. Imagining that people would welcome order is hypothetical agreement, not evidence of tacit consent. A monarch’s unilateral announcement supplies neither.",
+    "4.2.9": "<strong>Ethical considerations:</strong> Evaluate protection, justice, authorization, and the scope of demanded obedience. Different theories give these different weights. Specific justified rules may deserve compliance even when a general duty of allegiance has not been shown.",
+    "4.2.11": "All three cases require more than a claim of power or a promise of benefits. Determine whether consent occurred; if it did not, identify and defend any independent grounds of obligation. This prevents the reasoning from treating every successful takeover as a new binding contract.",
+    "4.2.12": "The examples do not contain enough facts to allocate every obligation. That is a substantive result: the theory owes criteria and evidence, not automatic endorsement of whichever system now controls the territory.",
+    "5.1.5": "Which principle appeals to fair sharing of the burdens of cooperative schemes, subject to conditions on benefits and fairness?",
+    "5.1.13": "Usually a justificatory model or moral abstraction; some versions also appeal to actual agreements. Its abstract status alone settles no obligation.",
+    "5.1.17": "It tests principles by what parties would select under fair conditions, without knowledge of their own social position; it does not establish an actual promise by every citizen.",
+    "5.1.18": "The argument interprets voluntary conduct such as residence as acceptance; whether residence really communicates agreement is the central objection.",
+    "5.1.19": "Feasible departure and admission elsewhere, informed choice, and freedom from coercion; these remove obstacles but still do not prove that staying communicates agreement.",
+    "5.1.20": "Annexation is not consent. Existing communities and their institutions must be considered; benefits alone do not authorize the annexing state.",
+    "5.1.21": "Military control and survival-motivated surrender do not automatically establish rightful authority. Theories differ on fear-motivated covenants, and neither rival claimant may have established a general right to obedience.",
+    "5.1.22": "A declaration is not authorization. Restored security may justify particular cooperation, while general allegiance requires a further argument.",
+    "5.2.4": "True or False: A founding agreement automatically binds the founders’ adult descendants.",
+    "5.2.13": "Reasoning about which arrangements people would accept under specified conditions; its connection to actual moral duty requires a further argument.",
+    "5.2.15": "False. Birth is not consent, and an ancestor’s agreement does not automatically bind descendants.",
+    "5.2.16": "It offers a test for defensible terms of cooperation rather than pretending that birth is agreement. Whether those terms generate a duty under actual institutions remains a further question.",
+    "5.2.18": "Without viable exit, staying is weak evidence of free agreement; viable exit alone still does not prove acceptance.",
+    "5.2.19": "The annexing state must justify its authority over existing communities; mobility does not imply lack of institutions or capacity to consent.",
+    "5.2.20": "A defensible process of authorization and justifiable terms could support the claim. Benefits, military control, or bare surrender do not automatically establish consent.",
+    "5.2.21": "It demands reasons connecting a particular authority to particular obligations and can reveal when no claimant has supplied them.",
+    "6.1.12": "Can democratic participation justify common decisions without counting every vote as consent to the regime? What protects dissenters?",
+    "6.2.2": "How should a contract argument assess inherited traditions of obedience without assuming that conformity establishes consent or that cultural difference defeats reason?"
+  },
+  "countChecks": [
+    {
+      "name": "threeOriginalCuratorScenarios",
+      "selector": "#prompt-4 [data-source-preamble=\"4.0\"]",
+      "child": "li",
+      "expected": [
+        3
+      ]
+    },
+    {
+      "name": "quizQuestionsAndKeys",
+      "selector": "#prompt-5 .original-response > ol",
+      "child": "li",
+      "expected": [
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "discussionQuestions",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    }
+  ],
+  "headings": [
+    "What kind of agreement could create an obligation?",
+    "Five defenses facing the birth objection",
+    "Does a genuine option to leave establish consent?",
+    "Three tests of competing claims to authority",
+    "Two ten-question quizzes and answer keys",
+    "Two sets of fifteen discussion questions"
+  ],
+  "introHeading": "Consent, exit, and claims on obedience",
+  "intro": "The curator presses a sequence of objections: birth is not agreement, remaining may reflect an inability to leave, and rival rulers cannot all acquire moral authority merely by claiming it. The paired responses retain those challenges and the three original scenarios while separating consent from alternative arguments about fair cooperation and justice.",
+  "description": "Examine social contract theory through the curator’s challenges about birth, emigration, annexation, conquest, and imposed monarchy.",
+  "preambleHeadingIndexes": [
+    3
+  ],
+  "pageSignals": {
+    "Page form": "Guided discussion",
+    "Best for": "testing consent and competing claims to authority"
+  }
+}

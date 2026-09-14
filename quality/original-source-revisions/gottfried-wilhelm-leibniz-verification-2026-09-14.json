@@ -1,0 +1,43 @@
+{
+  "pagePath": "/philosophers/gottfried-wilhelm-leibniz/",
+  "sourceSha256": "dce80b6797ad91b302458df8e482cc3c073997cd78127bbebf5b49e536df37af",
+  "originalPrompts": 6,
+  "originalHeadings": 6,
+  "sourceColumns": 18,
+  "modelResponses": 18,
+  "blocksRetainedVerbatim": 119,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 57,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "sevenContributionsPerModel": [
+      7,
+      7,
+      7
+    ],
+    "quizQuestionsAndKeys": [
+      7,
+      7,
+      7,
+      7,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      7
+    ],
+    "discussionQuestions": [
+      12,
+      12,
+      12
+    ]
+  },
+  "sha256": "03b0e193fb0232dcf22ec7c7d842524009fb0483d70dd3a167df918df4543c19"
+}

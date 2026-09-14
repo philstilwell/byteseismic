@@ -1,0 +1,32 @@
+{
+  "pagePath": "/political-philosophy/the-social-contract/",
+  "sourceSha256": "3c22693ef6862aa5093ecb850ef19ee85617e72847d10d27387cd57cc824ccf5",
+  "originalPrompts": 6,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 100,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 78,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "threeOriginalCuratorScenarios": [
+      3
+    ],
+    "quizQuestionsAndKeys": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "discussionQuestions": [
+      15,
+      15
+    ]
+  },
+  "sha256": "a614b05a9c685c5a4620b92f5618420577e8617862abe8fee99ef59a5508e805"
+}
