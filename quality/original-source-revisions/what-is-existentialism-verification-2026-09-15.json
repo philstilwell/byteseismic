@@ -1,0 +1,58 @@
+{
+  "pagePath": "/humanistic-philosophies/what-is-existentialism/",
+  "sourceSha256": "0fed37d2dc3637a99622543ac2bdf1d8c39c484fd0b84c37a36504c6d2a3d095",
+  "originalPrompts": 6,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 58,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 73,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "authorGroups": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "quizQuestionsAndKeys": [
+      5,
+      5,
+      5,
+      5
+    ],
+    "discussionQuestions": [
+      12,
+      12
+    ],
+    "twelveQuotesPerResponse": [
+      12,
+      12
+    ]
+  },
+  "sha256": "b3b6f15e2f2d345b269fe14294fb8b548130b85a6f6591570e6d3805c2f95f52",
+  "snapshotMatchesCacheBytes": true,
+  "originalSourceH2Count": 6,
+  "quotationCounts": [
+    12,
+    12
+  ],
+  "originalQuotationCounts": [
+    14,
+    12
+  ],
+  "originalAuthorGroupOrderPreserved": true,
+  "extraQuotationEntriesConvertedToContextNotes": [
+    "4.1.16",
+    "4.1.20"
+  ]
+}

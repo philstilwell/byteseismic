@@ -34,9 +34,24 @@ def own_text(node):
 def sections(source, config=None):
     result = []
     prose = (config or {}).get('proseSectionHeadingIndexes', [])
+    pairs = (config or {}).get('pairedResponseHeadingIndexes', {})
+    headings = source.select('h2')
     for index, h in enumerate(source.select('h2')):
+        if index in pairs.values():
+            continue
         cols = h.find_next_sibling().select(':scope > .wp-block-column')
-        if index in (config or {}).get('preambleHeadingIndexes', []):
+        if str(index) in pairs:
+            response_index = pairs[str(index)]
+            assert response_index == index + 1
+            response_heading = headings[response_index]
+            assert response_heading.get_text().strip() == 'ChatGPT Response:'
+            col = source.new_tag('div')
+            for sibling in response_heading.find_next_siblings():
+                if sibling.name == 'h2':
+                    break
+                col.append(copy.deepcopy(sibling))
+            cols = [col]
+        if index in (config or {}).get('preambleHeadingIndexes', []) and str(index) not in pairs:
             for sibling in h.find_next_siblings():
                 if sibling.name == 'h2':
                     break
@@ -178,7 +193,7 @@ def render(config):
                for n, (_, cols) in enumerate(original, 1))
     appendices = config.get('sourceAppendices', [])
     all_headings = source.select('h2')
-    assert len(original) + len(appendices) == len(all_headings)
+    assert len(original) + len(appendices) + len(config.get('pairedResponseHeadingIndexes', {})) == len(all_headings)
     for appendix in appendices:
         assert all_headings[appendix['headingIndex']].get_text() == appendix['heading']
     shell = subprocess.check_output(['git', 'show', f"{config['shellRevision']}:{config['pageFile']}"], cwd=ROOT, text=True)
@@ -366,7 +381,7 @@ def verify(config, rendered):
         assert new.img['src'] == old.img['src']
     checks = {}
     for check in config['countChecks']:
-        observed = [len(node.find_all(check['child'], recursive=False)) for node in soup.select(check['selector'])]
+        observed = [len(node.find_all(check['child'], recursive=check.get('recursive', False))) for node in soup.select(check['selector'])]
         assert observed == check['expected'], (check, observed)
         checks[check['name']] = observed
     ids = [x['id'] for x in soup.select('[id]')]

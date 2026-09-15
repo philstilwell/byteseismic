@@ -1,0 +1,166 @@
+{
+  "wordpressId": 3071,
+  "pageFile": "humanistic-philosophies/what-is-existentialism/index.html",
+  "snapshot": "what-is-existentialism-wordpress-3071.html",
+  "sourceSha256": "0fed37d2dc3637a99622543ac2bdf1d8c39c484fd0b84c37a36504c6d2a3d095",
+  "sourceUrl": "http://byteseismic.com/2024/03/11/what-is-existentialism/",
+  "sourceLabel": "Original WordPress conversation",
+  "shellRevision": "3bb8916bf71563261b8ada8edae23fa59754827c",
+  "date": "2026-09-15",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "replacements": {
+    "1.1.0": "Existentialism is a family of approaches to lived existence, freedom, choice, and responsibility. Its nineteenth-century precursors include Kierkegaard and Nietzsche; it became a prominent twentieth-century movement through thinkers such as Sartre and Beauvoir. Atheistic versions question a divinely assigned human purpose, while Christian versions understand personal commitment in relation to God. The tradition therefore cannot be defined simply as the belief that life has no meaning.",
+    "1.1.1": "Recurring themes include anxiety about possibilities and commitments; the absurd, especially in Camus’s account of the conflict between our demand for intelligibility and the world’s silence; and authenticity, or taking responsibility for how one lives. These themes overlap without forming a doctrine accepted identically by every thinker.",
+    "1.1.2": "Kierkegaard and Nietzsche are precursors rather than members of an organized existentialist movement. Sartre and Beauvoir explicitly developed existentialist philosophies. Camus is often taught alongside them, although he rejected the label. Their disagreements about faith, ethics, and meaning are part of the subject, not exceptions to be removed from it.",
+    "1.2.1": "<strong>Individual existence:</strong> General descriptions of human beings do not settle how this particular person should live. For Sartre, a person’s identity develops through projects and actions rather than a predetermined human purpose; Kierkegaard instead explores becoming a self before God.",
+    "1.2.2": "<strong>Freedom and responsibility:</strong> We must respond to possibilities within circumstances we did not choose. Freedom here is not unlimited power: poverty, coercion, history, and the actions of others can severely restrict what is possible. Responsibility requires attending to those circumstances as well as to choices.",
+    "1.2.3": "<strong>Authenticity:</strong> Living authentically involves acknowledging one’s situation and commitments instead of hiding behind a role or pretending that every decision has already been made. Unconventional behavior alone is no guarantee of authenticity.",
+    "1.2.4": "<strong>Absurdity:</strong> Camus explores the unresolved encounter between our desire for ultimate explanation and a world that does not supply it. He asks how to live lucidly with that tension; ordinary relationships and projects need not become worthless.",
+    "1.2.5": "Important figures include Kierkegaard, Nietzsche, Heidegger, Sartre, Beauvoir, and Camus, with differences in both their positions and their willingness to accept the existentialist label.",
+    "2.1.0": "Five connected notions help explain why existentialist writing moves between abstract argument and descriptions of ordinary life:",
+    "2.1.1": "<strong>Existential anxiety:</strong> Anxiety can arise when familiar routines no longer settle what to do and one confronts the possibility of choosing differently. Kierkegaard connects it with freedom, possibility, and sin within a Christian framework. Heidegger distinguishes anxiety, which unsettles our ordinary engagement with the world, from fear of a particular threat. Neither account amounts simply to discovering that morality is unreal. Leaving a secure career can illustrate anxiety about possibilities, without exhausting either philosopher’s analysis.",
+    "2.1.2": "<strong>The absurd:</strong> For Camus, absurdity arises in the confrontation between a human demand for meaning or intelligibility and the world’s failure to answer it on our terms. It is not just a property of the universe considered alone. His response is to sustain lucid engagement without pretending the tension has disappeared through a final explanation. Creating projects can make life worth living without supplying the cosmic guarantee one originally sought.",
+    "2.1.3": "<strong>Authenticity:</strong> Authenticity involves owning one’s possibilities and commitments rather than treating social expectations as an automatic excuse. In Sartre’s account, it is not the discovery of a finished inner essence: actions help constitute the person one becomes. In Heidegger, it concerns taking over one’s finite possibilities within an already shared world. A conventional occupation can be thoughtfully chosen, while a rebellious pose can be another way of conforming. Authenticity alone also does not settle whether an action is just.",
+    "2.1.4": "<strong>Freedom and responsibility:</strong> Sartre treats human beings as responsible for the projects through which they give their lives direction, without a divine blueprint settling those projects in advance. This is not a claim that we choose our birthplace, can do anything we wish, or deserve every misfortune. Beauvoir makes the ethical importance of others’ freedom and material conditions especially clear: a genuine opportunity to act differs from freedom asserted only in words. Religious existentialists give responsibility a different grounding, so rejection of universal moral truth is not a shared premise.",
+    "2.1.5": "<strong>Nothingness and mortality:</strong> Sartre’s nothingness concerns the ways consciousness can negate, question, and take distance from what is given. Heidegger’s being-toward-death concerns owning the finitude of one’s possibilities rather than treating death solely as something that happens to other people. These are distinct analyses, neither reducible to the slogan that life is ultimately meaningless. Awareness that time is limited can change which commitments deserve attention now.",
+    "2.1.6": "These notions connect because choices take place in a world already underway, with other people and a limited future. Their philosophical value lies in examining those connections while keeping the thinkers’ disagreements visible.",
+    "2.2.2": "Kierkegaard connects this dizziness with awareness of possibility: one can act, and the very openness of action can unsettle one. His account concerns sin and the formation of a self before God, not simply inventing personal values in a godless universe. The precipice image is useful because the disturbing possibility belongs partly to the person looking, not only to the external danger.",
+    "2.2.3": "This philosophical account does not make distress automatically beneficial. It suggests that confronting possibilities can change one’s understanding of responsibility, rather than merely removing an unpleasant feeling.",
+    "2.2.4": "<strong>Absurdity and meaning:</strong> Imagine looking for a final instruction manual that would justify every important decision, then finding that the world supplies no such answer. The analogy captures part of Camus’s concern: the absurd belongs to the collision between our demand and the world’s silence. It does not prove that every kind of meaning is absent.",
+    "2.2.5": "Camus’s proposed revolt keeps this tension in view instead of resolving it by wishful certainty. Work, friendship, art, and resistance to injustice can matter without becoming a complete cosmic explanation. His later account of rebellion also turns toward shared human limits and solidarity, which complicates the picture of an isolated individual inventing values at will.",
+    "2.2.6": "The two notions therefore pose different challenges: Kierkegaard asks how possibility, anxiety, and faith enter the task of becoming a self; Camus asks how to live without escaping the absurd through an unjustified final answer. Their contrast is more illuminating than treating authenticity as a single formula that both accept.",
+    "3.1.2": "A major precursor to existentialism, Kierkegaard examined subjectivity, anxiety, despair, and becoming a self within an explicitly Christian project. His pseudonymous works present perspectives that should not all be identified directly with his own voice. The familiar phrase leap of faith summarizes themes of commitment beyond objective guarantees, but it can obscure the specifically religious difficulties his works explore.",
+    "3.1.4": "Nietzsche’s critiques of inherited morality, religion, and assumptions about truth helped shape later existentialist debates. His death-of-God diagnosis concerns the erosion of a framework that had organized European values; it is not a report of a literal divine death. His accounts of life affirmation, self-overcoming, and the Übermensch challenge readers to reconsider values rather than treating every private preference as equally justified.",
+    "3.1.8": "Beauvoir developed an existentialist ethics of situated freedom and a major analysis of women’s oppression in The Second Sex. Her account of woman as Other examines how social institutions and everyday relationships make the male standpoint appear universal. Her philosophical contribution extends beyond applying Sartre: freedom must be considered with embodiment, dependence, and the concrete possibilities available to others.",
+    "3.1.10": "Camus explored the absurd in The Myth of Sisyphus and fiction such as The Stranger, while The Plague and The Rebel develop problems of solidarity and resistance. He rejected the existentialist label but remains central to discussions of related themes. His question is how to live lucidly without a final guarantee of meaning, not how to prove that nothing in life can matter.",
+    "3.2.1": "<strong>Søren Kierkegaard (1813–1855):</strong> A Christian precursor who investigates anxiety, despair, commitment, and becoming a self before God. His treatments of faith cannot be reduced to choosing whichever personal meaning feels attractive.",
+    "3.2.2": "<strong>Friedrich Nietzsche (1844–1900):</strong> A precursor whose criticism of inherited values and accounts of self-overcoming influenced later existentialists. The Übermensch, often translated as overman, is an ideal associated with overcoming existing forms of life and valuation, not simply any person who follows personal desires.",
+    "3.2.5": "<strong>Albert Camus (1913–1960):</strong> Often discussed with existentialists despite rejecting the label, Camus examines the absurd as a relation between our demands and the world. He argues for lucid living and revolt, later emphasizing solidarity and limits on rebellion rather than arbitrary meaning creation.",
+    "3.2.6": "<strong>Simone de Beauvoir (1908–1986):</strong> An existentialist philosopher whose work on ethics and The Second Sex analyzes situated freedom and oppression. Her account of woman as Other concerns social organization, embodiment, and recognition, not merely how women are visually represented.",
+    "4.1.0": "Twelve short quotations follow in the original eight-author order. Wording follows the linked translation unless marked otherwise; two additional source entries now serve as context notes. These writers do not all accept the existentialist label, and the excerpts express different positions.",
+    "4.1.2": "<q>life must be understood backwards</q> — <a href=\"https://homepage.math.uiowa.edu/~jorgen/kierkegaardquotesource.html\">Kierkegaard, journal JJ:167 (1843), excerpt</a>. The same entry insists on living forward; the familiar one-line maxim compresses a longer reflection.",
+    "4.1.4": "<q>the manner of it can take care of itself</q> — <a href=\"https://www.gutenberg.org/files/52263/52263-h/52263-h.htm\">Nietzsche, Twilight of the Idols, Maxims and Missiles §12, excerpt</a>. The preceding condition concerns knowing the reason for one’s existence; this is an aphorism about purpose, not a guarantee that suffering becomes harmless.",
+    "4.1.5": "<q>God is dead! God remains dead! And we have killed him!</q> — <a href=\"https://www.gutenberg.org/files/52881/52881-h/52881-h.htm\">Nietzsche, The Gay Science (The Joyful Wisdom), §125</a>.",
+    "4.1.7": "<q>man is condemned to be free</q> — <a href=\"https://www.marxists.org/reference/archive/sartre/works/exist/sartre.htm\">Sartre, Existentialism Is a Humanism, excerpt</a>. He means that refusing to choose does not remove responsibility, not that circumstances place no limits on action.",
+    "4.1.8": "<q>existence precedes essence</q> — <a href=\"https://www.marxists.org/reference/archive/sartre/works/exist/sartre.htm\">Sartre, Existentialism Is a Humanism, excerpt</a>.",
+    "4.1.10": "<q>One is not born, but rather becomes, woman</q> — <a href=\"https://www.penguin.co.uk/books/360348/the-second-sex-by-simone-de-beauvoir/9781446442715\">Beauvoir, The Second Sex, opening of volume II</a>. This is the wording reproduced by the linked publisher; English translations differ over the article before woman.",
+    "4.1.11": "<q>To will oneself free is also to will others free.</q> — <a href=\"https://www.marxists.org/reference/subject/ethics/de-beauvoir/ambiguity/ch02.htm\">Beauvoir, The Ethics of Ambiguity, part II</a>. Her account connects personal freedom with the concrete freedom of others.",
+    "4.1.13": "<q>One must imagine Sisyphus happy.</q> — <a href=\"https://thephilosopher.net/camus/wp-content/uploads/sites/94/2024/11/The-Myth-Of-Sisyphus-And-Other-Essays-Albert-Camus.pdf\">Camus, The Myth of Sisyphus, closing sentence</a>. This replaces an unverified attribution about becoming absolutely free in an unfree world.",
+    "4.1.14": "<q>In the midst of winter, I finally learned that there was within me an invincible summer.</q> — <a href=\"https://edder.org/literatura/tipasa2.pdf\">Camus, Return to Tipasa, translation here from the linked French</a>. The image concerns recovered joy alongside a continuing commitment to justice.",
+    "4.1.16": "<em>Context note:</em> Heidegger’s analysis of being-in-the-world is not a claim that an isolated mind first exists and later encounters external objects. The source’s unsourced sentence about openness is treated here as a topic for explanation, not as an authenticated quotation.",
+    "4.1.17": "<q>reason, glorified for centuries, is the most stiffnecked adversary of thought</q> — <a href=\"https://www.thetedkarchive.com/library/martin-heidegger-the-question-concerning-technology-and-other-essays\">Heidegger, The Word of Nietzsche: God Is Dead, closing sentence, excerpt</a>. The provocation challenges a particular understanding of thought; it is not a general argument for believing contradictions.",
+    "4.1.19": "<q>In the struggle between yourself and the world, side with the world.</q> — <a href=\"https://tinycamels.wordpress.com/2013/04/11/found-in-translation-in-the-struggle-between-you-and-the-world/\">Kafka, Zürau aphorism 52, wording reproduced in Jonathan Gibbs’s translation comparison</a>. Kafka is a literary writer associated with existential themes; the instruction is deliberately puzzling rather than a summary of the movement.",
+    "4.1.20": "<em>Context note:</em> Kafka’s aphorisms resist conversion into a consistent set of life instructions. The room-and-waiting passage occupied a second quotation slot in the source; this note keeps its place while bringing the selection to the requested twelve quotations.",
+    "4.1.22": "<q>I am my body</q> — <a href=\"https://giffordarchives.org/books/mystery-being-reflection-and-mystery/chapter-v-primary-and-secondary-reflection%E2%80%94-existential\">Marcel, The Mystery of Being, volume I, lecture V, excerpt</a>. He is describing lived embodiment, while resisting both the body-as-tool picture and a simple reduction of the person to an external object.",
+    "4.1.23": "Read each excerpt with its source. Anxiety, self-overcoming, embodied life, and solidarity are connected concerns, but these quotations are starting points for comparison rather than evidence of a single shared doctrine.",
+    "4.2.0": "<q>life must be understood backwards</q> — <a href=\"https://homepage.math.uiowa.edu/~jorgen/kierkegaardquotesource.html\">Kierkegaard, journal JJ:167 (1843), excerpt</a>. This replaces an unverified problem-versus-reality aphorism.",
+    "4.2.1": "<q>it must be lived forwards</q> — <a href=\"https://homepage.math.uiowa.edu/~jorgen/kierkegaardquotesource.html\">Kierkegaard, journal JJ:167 (1843), excerpt</a>. Paired with the preceding excerpt, this expresses the tension between retrospective understanding and action. It replaces an unverified attribution about what people call you.",
+    "4.2.2": "<q>That which does not kill me, makes me stronger.</q> — <a href=\"https://www.gutenberg.org/files/52263/52263-h/52263-h.htm\">Nietzsche, Twilight of the Idols, Maxims and Missiles §8</a>. A provocative aphorism, not a universal empirical claim about trauma.",
+    "4.2.3": "<q>Thou shalt become what thou art.</q> — <a href=\"https://www.gutenberg.org/files/52881/52881-h/52881-h.htm\">Nietzsche, The Gay Science (The Joyful Wisdom), §270</a>.",
+    "4.2.4": "<q>Hence anxiety is the dizziness of freedom</q> — <a href=\"https://cdnc.heyzine.com/files/uploaded/38ef4f3c7ba45e7a39046134f6db09dee16ea22b.pdf\">Kierkegaard, The Concept of Anxiety, excerpt</a>. The linked reader reproduces the passage about possibility, freedom, and guilt.",
+    "4.2.5": "<q>man is condemned to be free</q> — <a href=\"https://www.marxists.org/reference/archive/sartre/works/exist/sartre.htm\">Sartre, Existentialism Is a Humanism, excerpt</a>.",
+    "4.2.6": "<q>existence precedes essence</q> — <a href=\"https://www.marxists.org/reference/archive/sartre/works/exist/sartre.htm\">Sartre, Existentialism Is a Humanism, excerpt</a>.",
+    "4.2.7": "<q>One must imagine Sisyphus happy.</q> — <a href=\"https://thephilosopher.net/camus/wp-content/uploads/sites/94/2024/11/The-Myth-Of-Sisyphus-And-Other-Essays-Albert-Camus.pdf\">Camus, The Myth of Sisyphus, closing sentence</a>. Replaces the source’s unspecific formula about the absurd with an identifiable passage.",
+    "4.2.8": "<q>I rebel therefore we exist.</q> — <a href=\"https://thephilosopher.net/camus/wp-content/uploads/sites/94/2024/11/The-Rebel-Albert-Camus-1.pdf\">Camus, The Rebel, part I, closing sentence</a>. The plural matters: rebellion can disclose a shared claim, rather than merely establish the individual’s existence.",
+    "4.2.9": "<q>One is not born, but rather becomes, woman</q> — <a href=\"https://www.penguin.co.uk/books/360348/the-second-sex-by-simone-de-beauvoir/9781446442715\">Beauvoir, The Second Sex, opening of volume II</a>.",
+    "4.2.10": "<q>To will oneself free is also to will others free.</q> — <a href=\"https://www.marxists.org/reference/subject/ethics/de-beauvoir/ambiguity/ch02.htm\">Beauvoir, The Ethics of Ambiguity, part II</a>. Replaces an unverified being-versus-becoming attribution.",
+    "4.2.11": "<q>language is the house of being</q> — <a href=\"https://www.timothydavidson.com/Library/Articles/CurriculumArticles-coursework/Heidegger-1949-LetterOnHumanismTranslated.pdf\">Heidegger, Letter on Humanism, excerpt</a>. Replaces the unsourced same-dust aphorism; the image concerns how being becomes intelligible, not biological similarity.",
+    "5.1.4": "Which writer explored the absurd as the confrontation between our demand for meaning and the world’s silence?<br>a) Martin Heidegger<br>b) Simone de Beauvoir<br>c) Albert Camus<br>d) Franz Kafka",
+    "5.2.2": "In Sartre’s atheistic existentialism, who must take responsibility for the projects through which a person gives life direction?",
+    "5.2.3": "Which writer associated with existentialist debates is especially known for his account of the absurd?",
+    "5.2.8": "The individual, acting within a situation that also involves other people and constraints.",
+    "5.2.9": "Albert Camus.",
+    "6.1.5": "How do Kierkegaard, Sartre, and Camus differ on meaning in life? Distinguish religious commitment, chosen projects, and living with the absurd.",
+    "6.1.6": "How do existentialist accounts connect choice with ethical responsibility? Compare Beauvoir’s concern for others’ freedom with the idea that any personally chosen value is acceptable.",
+    "6.2.3": "Camus locates the absurd in the clash between our demand for meaning and the world’s silence. How does that differ from saying that every human activity is pointless?",
+    "6.2.6": "How does Kierkegaard’s account of religious commitment differ from an ordinary decision under uncertainty? Where might the familiar leap-of-faith analogy illuminate or obscure that distinction?",
+    "6.2.8": "Camus links rebellion with a shared human claim. How might solidarity and limits on harming others complicate the idea that revolt means doing whatever one chooses?",
+    "5.1.1": "Who is often regarded as the father of existentialism?<br>a) Friedrich Nietzsche<br>b) Jean-Paul Sartre<br>c) Søren Kierkegaard<br>d) Albert Camus",
+    "5.1.2": "Which existentialist philosopher famously declared the “death of God”?<br>a) Simone de Beauvoir<br>b) Martin Heidegger<br>c) Friedrich Nietzsche<br>d) Gabriel Marcel",
+    "5.1.3": "According to Jean-Paul Sartre, what precedes essence?<br>a) Freedom<br>b) Responsibility<br>c) Existence<br>d) Consciousness",
+    "5.1.5": "Who wrote the influential work “The Second Sex,” which examines the experiences of women from an existentialist perspective?<br>a) Simone de Beauvoir<br>b) Jean-Paul Sartre<br>c) Friedrich Nietzsche<br>d) Albert Camus",
+    "5.2.4": "The idea that “existence precedes essence” means:<br>a) We are born with a predetermined purpose.<br>b) We define ourselves through our choices and actions.<br>c) There is no inherent meaning in the universe.",
+    "5.2.5": "Existentialism is characterized by a focus on:<br>a) Finding comfort in tradition.<br>b) Individual freedom and responsibility.<br>c) Obeying a set of universal moral codes.",
+    "5.2.6": "What is a common theme in existentialist writings?<br>a) Living a carefree and impulsive life.<br>b) Anxiety arising from freedom and meaning-making.<br>c) Accepting fate and predetermined destiny."
+  },
+  "headings": [
+    "Existence, choice, and different approaches to meaning",
+    "Anxiety, absurdity, authenticity, and situated freedom",
+    "Thinkers and their disagreements",
+    "Twelve sourced quotations in each response",
+    "Two five-question quizzes and answer keys",
+    "Two sets of twelve discussion questions"
+  ],
+  "introHeading": "How to live when no formula settles the choice",
+  "intro": "The conversation moves from a general introduction through key notions and thinkers to quotations, quizzes, and discussion. The two response tracks distinguish religious and atheistic approaches, explain freedom within circumstances, and give sources for the quotation selections.",
+  "description": "Explore existentialism through its central questions, differing thinkers, sourced quotations, quizzes, and discussion of freedom and responsibility.",
+  "orderedListStarts": {
+    "3.1": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "4.1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "countChecks": [
+    {
+      "name": "authorGroups",
+      "selector": "#prompt-4 .original-response[data-source-column=\"1\"] > ol",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "quizQuestionsAndKeys",
+      "selector": "#prompt-5 .original-response > ol",
+      "child": "li",
+      "expected": [
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "discussionQuestions",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        12,
+        12
+      ]
+    },
+    {
+      "name": "twelveQuotesPerResponse",
+      "selector": "#prompt-4 .original-response",
+      "child": "q",
+      "recursive": true,
+      "expected": [
+        12,
+        12
+      ]
+    }
+  ]
+}

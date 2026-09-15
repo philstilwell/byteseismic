@@ -1,0 +1,35 @@
+{
+  "pagePath": "/epistemology/rationality-discussion/",
+  "sourceSha256": "236bf43374b745c0d0ff0791fefba3443dbc5ec2a23c7f9e558f31369da46179",
+  "originalPrompts": 4,
+  "originalHeadings": 4,
+  "sourceColumns": 4,
+  "modelResponses": 4,
+  "blocksRetainedVerbatim": 29,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 45,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "positionSummaries": [
+      7,
+      7
+    ],
+    "weaknessesPerSide": [
+      3,
+      3
+    ],
+    "questionsPerSide": [
+      15,
+      15
+    ]
+  },
+  "sha256": "a49f522e8fecec4a8868f4d608bf4801348822070b7d0e99283de20d0f4dd7e4",
+  "snapshotMatchesCacheBytes": true,
+  "originalSourceH2Count": 8,
+  "originalDialogueTurnsPreservedVerbatim": 16,
+  "responseHeadingsMappedToModelLabels": 4
+}
