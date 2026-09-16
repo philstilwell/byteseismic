@@ -1,0 +1,48 @@
+{
+  "pagePath": "/philosophers/phenomenologists/",
+  "sourceSha256": "f9d0d47a6c8038740bca26417ec67236e81c42d1fc1ab5675104b9487ebe31d8",
+  "originalPrompts": 6,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 84,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 45,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "contributionLists": [
+      8,
+      6
+    ],
+    "thinkerLists": [
+      10,
+      4
+    ],
+    "dialogueTurns": [
+      20,
+      20
+    ],
+    "quizQuestionsAndKeys": [
+      7,
+      7,
+      7,
+      7
+    ],
+    "discussionQuestions": [
+      12,
+      12
+    ]
+  },
+  "sha256": "77d73c916896fdba5e6ea7263820a70162e880efff16ee28a27d56464a3106fb",
+  "snapshotMatchesCacheBytes": true,
+  "originalDialogueTurnsInOrder": [
+    20,
+    9
+  ],
+  "studentTurnsPreservedVerbatim": 14,
+  "addedGeminiTurns": 11
+}

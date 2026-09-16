@@ -1,0 +1,153 @@
+{
+  "wordpressId": 719,
+  "pageFile": "philosophy-of-science/p-value-issues/index.html",
+  "snapshot": "p-value-issues-wordpress-719.html",
+  "sourceSha256": "9999125fee4619f510856e605e84a62f9749654e9876ea80feb17fcdbcbe8956",
+  "sourceUrl": "http://byteseismic.com/2024/02/15/p-value-issues/",
+  "sourceLabel": "Original WordPress conversation, 2024-02-15",
+  "shellRevision": "6a9934fa203bb7f5a6ea6baf8473a48bdd50034d",
+  "date": "2026-09-16",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "replacements": {
+    "1.1.0": "No single cutoff is optimal for every research question. The conventional 0.05 level supplies a decision rule, not a boundary at which a relationship suddenly becomes real or important. A p-value is the probability, under the specified null model and analysis assumptions, of a test statistic at least as extreme as the one observed. It is not the probability that the null hypothesis is true. A suitable threshold, if a decision rule is needed, depends on the planned procedure and the consequences of errors.",
+    "1.1.3": "Threshold pressure can encourage selective analysis and reporting: trying outcomes, subgroups, exclusions, or stopping points and presenting only a favorable result. This can occur without falsifying data. Publication bias is a related but distinct problem: the available literature can overrepresent results that pass the threshold.",
+    "1.1.5": "<strong>Different thresholds:</strong> A smaller prespecified threshold can reduce false rejections under the null when the procedure is valid, but with the same sample it also reduces power to detect a specified real effect. Multiple testing and repeated looks at the data require appropriate control; changing 0.05 to 0.01 alone does not repair selective analysis.",
+    "1.1.7": "<strong>Bayesian methods:</strong> A prior distribution and a likelihood yield a posterior distribution for specified parameters or models. Credible intervals, posterior model probabilities, or Bayes factors answer different questions; none is obtained simply by reversing a p-value. Results depend on the model and prior assumptions, whose sensitivity should be examined.",
+    "1.1.8": "<strong>Effect size and power:</strong> Report the estimated magnitude on an interpretable scale and compare it with a meaningful benchmark. Before collecting data, power analysis asks how often the planned test would detect specified effects under its assumptions; precision planning asks how narrow an interval the design is likely to yield. Neither replaces assessment of bias or practical importance.",
+    "1.1.11": "The <a href=\"https://www.amstat.org/asa/files/pdfs/p-valuestatement.pdf\">American Statistical Association’s 2016 statement</a> cautions against treating a threshold as a sufficient scientific conclusion and emphasizes transparency, context, and effect magnitude. Alternatives include estimation, likelihood-based evidence, Bayesian methods, and decision analysis. They serve different purposes rather than providing interchangeable significance scores.",
+    "1.1.12": "Choose the analysis around the claim and the decision it must inform. An estimate with uncertainty, a defensible design, full reporting, and relevant prior evidence usually says more than a threshold label alone. A statistically detectable association may be small, biased, or noncausal; no choice of significance metric settles all three issues.",
+    "1.2.2": "<strong>Conventional threshold:</strong> The value 0.05 is not universally privileged. Under a valid prespecified test, the significance level limits the long-run chance of rejecting a true null; that is a statistical justification for a decision rule, not a reason why this particular level suits every setting.",
+    "1.2.3": "<strong>Binary interpretation:</strong> Values such as 0.049 and 0.051 should not normally produce sharply opposed scientific stories. Crossing a cutoff changes a classification, while the underlying information changes gradually. Comparing p-values across different designs does not, by itself, compare effect sizes or study quality.",
+    "1.2.8": "<strong>Bayesian analysis:</strong> Combine the likelihood with stated priors to obtain posterior uncertainty. Model comparison also requires specifying alternatives and their prior weights. This can answer questions about hypotheses or effect ranges, but it is not an assumption-free calculation of the chance that an effect is real.",
+    "1.2.12": "<strong>Sample size and power:</strong> A small study can yield a valid p-value yet have little ability to detect an important effect. A very large study can detect a negligible one. Plan for effects that matter and report uncertainty; sample size alone does not determine whether an analysis is misleading.",
+    "1.2.15": "Use the question to choose the method: estimation for magnitude and precision, a planned test for a specified error-controlled decision, or a model-based comparison for relative support. These approaches can complement one another. Better inference also requires appropriate sampling, design, and reporting; replacing the displayed statistic does not supply those conditions.",
+    "2.1.0": "A confidence interval is a range computed by a procedure designed to cover a fixed population parameter at a stated long-run rate, under specified assumptions. It expresses uncertainty about a mean, difference, or other quantity. The range shows which effect magnitudes remain compatible with the data and method, rather than only classifying a test result.",
+    "2.1.2": "The interval’s endpoints change from sample to sample while the population parameter is treated as fixed. An interval need not be symmetric or centered on the estimate; the construction depends on the parameter, design, and statistical model.",
+    "2.1.5": "For independent observations from a normal population with known standard deviation σ, a two-sided 95% interval for the mean is x̄ ± 1.96 × σ/√n. It can also be a useful large-sample approximation when the sampling distribution of the mean is approximately normal. The original formula image follows; <a href=\"https://www.itl.nist.gov/div898/handbook/prc/section1/prc14.htm\">the NIST handbook</a> gives its assumptions and interpretation.",
+    "2.1.10": "When σ is unknown, the familiar interval for an independent normal sample is x̄ ± t<sub>0.975,n−1</sub> × s/√n for 95% confidence. The t critical value accounts for estimating variability; using t is not a remedy for every small sample. Skew, outliers, clustering, or complex sampling may require another method. See <a href=\"https://itl.nist.gov/div898/handbook/eda/section3/eda352.htm\">NIST’s mean-interval formula</a>.",
+    "2.1.12": "For a mean difference, an interval [1.2, 3.5] excludes zero but still leaves uncertainty about magnitude. Excluding zero corresponds to rejection at the 5% level only for the matching two-sided test and 95% interval using the same model and adjustments. For a ratio, the no-effect value is usually 1, not 0. Statistical exclusion does not establish causation or practical importance.",
+    "2.1.13": "A narrower interval indicates greater precision within the model and at a comparable confidence level. It does not establish accuracy: a biased sample can produce a narrow interval around a misleading estimate. Wider intervals can reflect less information, greater variability, or a higher chosen confidence level.",
+    "2.1.17": "An interval is most useful when the parameter, units, method, assumptions, and practically important values are explicit. It describes uncertainty accounted for by the procedure, not a guarantee that the design measured the right thing or avoided bias.",
+    "2.2.3": "<strong>Choose a confidence level:</strong> Select the intended long-run coverage of the procedure, commonly 90%, 95%, or 99%. The stated rate depends on using a suitable method under its assumptions; choosing a number does not guarantee that rate for a biased or selectively reported analysis.",
+    "2.2.4": "<strong>Calculate uncertainty:</strong> For a simple mean interval, a critical value multiplies the standard error, which describes sampling variation in the estimate. Sample size, variability, confidence level, and sampling design all matter. Clustered observations, for example, do not generally provide as much independent information as the same number of independent observations.",
+    "2.2.5": "<strong>Construct the interval:</strong> In the simple symmetric case, subtract and add the margin of error to the estimate. Other valid constructions can be asymmetric or use a transformed scale, so this recipe should not be assumed for every statistic.",
+    "2.2.10": "Suppose a suitable random sample of 100 students has a mean height of 170 cm, and the chosen procedure gives a 95% margin of error of 2 cm. The interval is 168–172 cm. The mean and sample size alone do not establish that margin; information about variability and design is also required. The 95% refers to the method’s repeated-sampling coverage, not to 95% of students falling in that range or a new probability assigned to this fixed population mean.",
+    "2.2.13": "A conventional interval usually describes sampling uncertainty under a model. It does not automatically account for a miscalibrated ruler, a sample that omits a group of students, or a decision to report only a favorable analysis. Those need design corrections or explicitly broader models.",
+    "2.2.15": "For the school example, report 170 cm, the 168–172 cm interval, the sampling method, and the assumptions behind its margin. That combination lets a reader assess both the numerical precision and the reasons it may overstate what the study establishes.",
+    "3.1.0": "Confidence intervals can reduce the pressure to produce a significance label if readers and publishers evaluate the whole range and the size of the effect. The benefit is conditional: judging an interval only by whether it excludes zero recreates the matching two-sided test’s cutoff. Selective analysis can distort both the interval and the p-value. The curator’s proposed shift is therefore useful as a change in interpretation and incentives, not just in notation.",
+    "3.1.2": "An interval displays effect magnitude and precision together. Compare a precisely estimated improvement of 0.1–0.2 units with an uncertain improvement of −1 to 8 units when 5 units would matter. The first may exclude zero yet be unimportant; the second cannot establish a benefit but still leaves an important one unresolved. Those conclusions are more informative than opposite significance labels.",
+    "3.1.4": "A p-value is numerical, not intrinsically binary; a reporting rule makes it pass or fail. An interval also becomes binary if the reader asks only whether zero is inside it. The gain comes from considering the entire range against meaningful values and explaining what remains uncertain.",
+    "3.1.6": "The same search across outcomes, exclusions, and models can produce an interval that conveniently excludes zero. Prespecifying the primary analysis, reporting other analyses, and accounting for multiple comparisons or sequential sampling are still necessary. Interval-focused reporting helps only if favorable endpoints cease to be the admission ticket to publication.",
+    "3.1.8": "An informative study can deserve publication even when its interval includes the no-effect value. A narrow interval near zero and a very wide interval have different implications: one may constrain the size of an effect, while the other leaves much unresolved. Review criteria that value the question and design before results are known can support this distinction.",
+    "3.1.10": "Specify the target quantity, meaningful effect sizes, primary analysis, and precision goals in advance. Registration and transparent reporting support the interpretation of either intervals or tests. Merely selecting a confidence level before analysis does not prevent later choices among favorable outcomes.",
+    "3.1.12": "Intervals help compare estimated effects and their precision, but overlap alone is not a test that findings agree or have replicated. Broad intervals can overlap because both studies are uninformative; overlapping 95% intervals can also accompany a statistically detectable difference between estimates. Examine the estimated difference or an appropriate combined model, while checking whether the studies estimate the same quantity.",
+    "3.1.13": "The proposed shift can improve scientific communication when it rewards informative estimates and candid uncertainty. It cannot remove selection pressure by itself. A journal that accepts only intervals excluding zero has largely recreated the problem under a different display.",
+    "3.2.0": "The likely benefit is a change in what counts as an informative result. Instead of rewarding only a test that crosses 0.05, readers can ask whether the estimated relationship is large enough to matter and how much uncertainty remains. That requires evaluating the range, not simply checking whether its endpoint crosses zero.",
+    "3.2.1": "Four changes in practice make that shift meaningful:",
+    "3.2.2": "<strong>State the estimate:</strong> Report the size and direction of the relationship on a meaningful scale, rather than opening with whether the test passed.",
+    "3.2.3": "<strong>Prespecify the analysis:</strong> Set the confidence level and primary method before viewing the result, and disclose deviations. Choosing whichever interval excludes zero is another form of selective analysis.",
+    "3.2.4": "<strong>Explain the width:</strong> Show whether the data distinguish effects that would matter from effects too small to matter. Imprecision is a finding about the information available, not a failure that should be hidden.",
+    "3.2.5": "<strong>Report the whole range:</strong> Include estimates whose intervals cross zero and explain their implications. Do not replace a p-value filter with an endpoint filter.",
+    "3.2.6": "What changes in interpretation:",
+    "3.2.7": "The matching two-sided 95% interval excludes a null value exactly when its corresponding 5% test rejects it. This <a href=\"https://www.itl.nist.gov/div898/handbook/prc/section1/prc15.htm\">test–interval relationship</a> explains why changing the display alone may preserve the original incentive.",
+    "3.2.8": "The full interval can separate evidence of a negligible effect from a study that cannot resolve whether an important effect exists. Neither should be described merely as a failed search for significance.",
+    "3.2.10": "Return to the school-height example, now comparing a sample mean of 170 cm with a specified benchmark of 169 cm. If the matching 95% interval is 168–172 cm, it includes the benchmark, so the corresponding two-sided 5% test does not reject it. Relative to 169 cm, the interval runs from −1 to 3 cm. That does not show equality: it tells readers which differences remain unresolved and lets them compare those differences with a practically important margin.",
+    "3.2.11": "What still needs protection:",
+    "3.2.12": "Outcome switching, subgroup searching, and selective stopping can distort the reported interval just as they distort a p-value. The full analysis history matters.",
+    "3.2.13": "Sampling bias and measurement error remain possible even when the interval looks precise. Estimation does not compensate for a weak design.",
+    "3.2.14": "Editors and reviewers need to reward an informative question, appropriate methods, and complete reporting regardless of whether the interval excludes a preferred value.",
+    "3.2.15": "Confidence intervals can therefore support the curator’s aim, but only when interpretation and incentives change with them. Their advantage is the visible range of effect sizes and uncertainty, not immunity to manipulation.",
+    "4.1.0": "The difficulty is partly institutional, but also conceptual: a confidence interval is not simply a superior replacement for every p-value. Matching tests and intervals are closely linked, and testing, estimation, and decision-making answer different questions. The practical challenge is to stop treating a threshold crossing as a complete account of evidence while retaining methods suited to the actual research task.",
+    "4.1.6": "Publication and review practices can favor statistically significant results, creating incentives to prioritize threshold crossing. That is different from claiming every journal formally requires a significant p-value. Change depends on how reviewers assess informative negative or inconclusive results as well as on written reporting guidelines.",
+    "4.1.8": "A cutoff rule offers a convenient decision label. The p-value itself is continuous, and a test can have a legitimate role in a prespecified procedure. Intervals demand further judgments about effect magnitude, precision, and consequences; institutions may find those judgments harder to standardize.",
+    "4.1.10": "Estimation, planned error-controlled tests, Bayesian comparison, and decision analysis have different aims. There need not be one replacement for all of them. Agreement about transparent reporting and avoiding threshold-only conclusions is more useful than requiring every question to use a single statistic.",
+    "4.1.12": "Training, established templates, and the cost of changing a workflow can sustain old habits. Claims that researchers resist because they fear invalidating their careers are hypotheses about motives, not facts established by this discussion. Supporting better examples and review criteria addresses the observable problem more directly.",
+    "4.1.14": "Ordinary statistical tools can already calculate many intervals. A practical reporting improvement is to display the estimate, interval, units, and assumptions together. Complex designs may require specialized methods, but the general difficulty cannot be attributed to an absence of interval-capable software.",
+    "4.1.15": "Progress requires teaching what each method answers, planning studies around meaningful effects, and publishing informative results without a favorable cutoff. Confidence intervals are useful within that change. They cannot accomplish it if reviewers continue to treat the exclusion of zero as the sole mark of success.",
+    "4.2.2": "In settings where significant results aid publication or professional recognition, changing a reporting convention also means changing how success is evaluated. The extent varies by field; it should not be presumed identical across funding agencies and journals.",
+    "4.2.8": "Some questions concern a joint hypothesis or a complex model for which no single interval summarizes everything of interest. Rare events, boundary parameters, and clustered designs require appropriate interval methods as well as appropriate tests. This is a reason to match methods to questions, not to assume a p-value is automatically reliable where an interval is difficult.",
+    "4.2.9": "Reporting templates can foreground a threshold even when the software already supports intervals. Improving the display of effect sizes and uncertainty may be straightforward; choosing the right method for the design can require more work.",
+    "4.2.11": "Changing familiar routines takes time and training. Rather than attributing hidden anxieties to researchers, show concrete examples where an interval changes the interpretation and provide criteria that reviewers can apply consistently.",
+    "4.2.13": "The difficult transition is from threshold-driven conclusions to a fuller account of what the study establishes. Intervals help, while tests can still answer planned questions. Neither removes the need to address selection, measurement, design, and the consequences of decisions.",
+    "5.1.7": "Question 4: How should confidence intervals be used when assessing a replication?",
+    "5.1.8": "A) Overlap proves that the effect replicated.<br/>B) Compare effect sizes and uncertainty in comparable studies; overlap alone is insufficient.<br/>C) Intervals guarantee identical future estimates.<br/>D) Nonoverlap always proves that one study is fraudulent.",
+    "5.1.15": "Question 4: B) Compare effect sizes and uncertainty in comparable studies; overlap alone is insufficient.",
+    "5.2.6": "(d) It makes the estimated effect size identical in every study.",
+    "5.2.13": "(a) Confidence intervals cannot be calculated for an ordinary population mean.",
+    "5.2.18": "(a) They remove the need to explain assumptions.",
+    "6.1.4": "Under what publication rules could confidence-interval reporting reduce selection bias, and under what rules would it simply recreate the demand for p < 0.05?",
+    "6.1.13": "When does exclusion of the null value by a 95% interval correspond to a two-sided 5% test? Why do the model, adjustments, and parameter scale matter?",
+    "6.2.3": "What are the biggest challenges to making effect magnitude and uncertainty central to reporting, rather than treating a confidence interval as another significance label?",
+    "6.2.8": "Which changes to training, templates, and review criteria would make estimation-focused reporting easier to adopt? How would you measure whether they actually reduce selective reporting?",
+    "6.2.10": "How could accessible data and analysis plans help reveal selective reporting, and what problems would remain even if every article were freely available?",
+    "6.2.16": "The questions return to the curator’s central concern: how scientific reporting can reward reliable information rather than a favorable classification.",
+    "5.1.2": "A) It is too difficult to achieve in most studies.<br/>B) It overemphasizes the importance of achieving a specific cutoff, leading to potential misinterpretation of data.<br/>C) It underestimates the effect size in large samples.<br/>D) It is too lenient, allowing too many false positives.",
+    "5.1.4": "A) They provide a range of plausible values for the estimated parameter.<br/>B) They completely eliminate the need for hypothesis testing.<br/>C) They offer information about the precision of the estimate.<br/>D) They can indicate the practical significance of findings.",
+    "5.1.6": "A) Researchers fully understand confidence intervals but prefer p-values.<br/>B) Tradition and inertia within the scientific community.<br/>C) Confidence intervals are more difficult to calculate.<br/>D) P-values offer less information and therefore are less useful.",
+    "5.1.10": "A) The universal agreement on the best alternative to p-values.<br/>B) The lack of software tools for calculating confidence intervals.<br/>C) The simplicity and convenience of p-values for making quick decisions.<br/>D) The overemphasis on Bayesian statistics as the only alternative."
+  },
+  "countChecks": [
+    {
+      "name": "chatgptQuizQuestionAndOptionParagraphs",
+      "selector": "#prompt-5 .original-response[data-source-column=\"1\"]",
+      "child": "p",
+      "expected": [
+        15
+      ]
+    },
+    {
+      "name": "geminiQuizQuestionsAndKeys",
+      "selector": "#prompt-5 .original-response[data-source-column=\"2\"] > ol",
+      "child": "li",
+      "expected": [
+        5,
+        5
+      ]
+    },
+    {
+      "name": "discussionQuestions",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    }
+  ],
+  "headings": [
+    "What the 0.05 threshold can and cannot tell us",
+    "How confidence intervals work",
+    "Can intervals reduce pressure for significant results?",
+    "Why changing reporting practices is difficult",
+    "Two five-question quizzes with final answer keys",
+    "Two sets of fifteen discussion questions"
+  ],
+  "introHeading": "Estimation, uncertainty, and research incentives",
+  "intro": "The curator challenges binary significance and asks whether confidence intervals could improve research. The two response tracks preserve that progression while distinguishing a better presentation of uncertainty from the study design and publication changes needed to reduce selective reporting.",
+  "description": "Understand p-values, confidence intervals, effect sizes, and publication incentives through six original prompts, worked examples, quizzes, and discussion.",
+  "sourceImageDescriptions": {
+    "2.1.img0": "Confidence interval for a mean: sample mean plus or minus Z times the population standard deviation divided by the square root of the sample size."
+  },
+  "orderedListStarts": {
+    "3.1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "4.1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ]
+  }
+}

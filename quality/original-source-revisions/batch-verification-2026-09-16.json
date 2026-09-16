@@ -1,0 +1,1958 @@
+{
+  "runTime": "2026-09-16T09:21:05.354835-04:00",
+  "fullBuild": {
+    "isolated": true,
+    "baseRevision": "6a9934fa203bb7f5a6ea6baf8473a48bdd50034d",
+    "generatedContentPages": 723,
+    "siteAudit": {
+      "pages_scanned": 840,
+      "broken_links": 0,
+      "duplicate_ids": 0,
+      "repeated_headings": 68,
+      "prompt_number_issues": 0,
+      "orphan_pages": 0,
+      "oversized_assets": 0,
+      "style_scars": 0,
+      "grammar_scars": 0,
+      "seo_issues": 0,
+      "duplicate_titles": 0,
+      "duplicate_descriptions": 0,
+      "json_ld_issues": 0,
+      "sitemap_issues": 0,
+      "robots_issues": 0
+    },
+    "dialecticalPreservation": "All 39 recovered pages, including 17 high-risk cases passed.",
+    "buildLog": "Dialectical preservation check passed for all 39 recovered pages, including 17 high-risk regression cases.\nSite audit: pages=840 broken_links=0 duplicate_ids=0 prompt_number_issues=0 orphans=0 oversized_assets=0 style_scars=0 grammar_scars=0 seo_issues=0 json_ld_issues=0 sitemap_issues=0 robots_issues=0\nGenerated or updated 723 content pages.\nVisible hierarchy sections: 15\nExpanded archive years: 2\n",
+    "buildPassed": true
+  },
+  "sourceChecks": {
+    "adequate-evidence": {
+      "pagePath": "/epistemology/adequate-evidence/",
+      "sourceSha256": "c75b579735715806bbf058a7f29d1119ad9b3ed8d8f2c1445bfbfa0d637c5dd6",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 12,
+      "modelResponses": 12,
+      "blocksRetainedVerbatim": 71,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 83,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "originalDialogueTurns": [
+          19,
+          17
+        ],
+        "twentyPercentScenarios": [
+          3,
+          3
+        ],
+        "updatingScenarios": [
+          1,
+          1,
+          1,
+          1,
+          4
+        ],
+        "quizQuestionsAndAnswers": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "discussionQuestions": [
+          15,
+          15
+        ]
+      },
+      "sha256": "4db2354ebb73123f53d416a5cd9f640858033a0dffab3ef70db4e1aa28cfdf83",
+      "snapshotMatchesCacheBytes": true
+    },
+    "analytic-philosophers": {
+      "pagePath": "/philosophers/analytic-philosophers/",
+      "sourceSha256": "8a98d4490811f3756ea798672e53a2c1fac23d9dc8af334c2bb3ff1cece2beea",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 18,
+      "modelResponses": 18,
+      "blocksRetainedVerbatim": 167,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 78,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "dialogueTurnCounts": [
+          20,
+          20,
+          20
+        ],
+        "quizQuestionAndAnswerCounts": [
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "discussionQuestionCounts": [
+          12,
+          12,
+          12
+        ]
+      },
+      "sha256": "914016b7bc0cf54bd44b93e05ad8aafb1978aec185f01bd3e216278736ce211b",
+      "snapshotMatchesCacheBytes": true
+    },
+    "ancient-philosophers": {
+      "pagePath": "/philosophers/ancient-philosophers/",
+      "sourceSha256": "3b14c3f87549dc0f50f0bdc4d7f20dfe2c6c3494270575d8d970e6eb054daa16",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 18,
+      "modelResponses": 18,
+      "blocksRetainedVerbatim": 213,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 72,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": false,
+      "explicitListItemSplits": [
+        "6.2.3"
+      ],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "dialogueTurns": [
+          20,
+          20,
+          20
+        ],
+        "quizQuestionsAndKeys": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "discussionLists": [
+          15,
+          15,
+          15
+        ]
+      },
+      "sha256": "8390ea2898cacbdc78aecafef134244fabf4a2febf6abc7891ebb7589cde0716",
+      "snapshotMatchesCacheBytes": true
+    },
+    "baruch-spinoza": {
+      "pagePath": "/philosophers/baruch-spinoza/",
+      "sourceSha256": "0c07fc661f55d6ab67483ceb303a01f6d54f44b1811243ef2d3f2479872ef2dc",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 18,
+      "modelResponses": 18,
+      "blocksRetainedVerbatim": 127,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 60,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "ChatGPTSevenContributions": [
+          7
+        ],
+        "GeminiSevenContributions": [
+          7
+        ],
+        "ClaudeSevenFormattedContributions": [
+          7
+        ],
+        "quizQuestionAndSeparateAnswerLists": [
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "discussionQuestions": [
+          12,
+          12,
+          12
+        ]
+      },
+      "sha256": "934ac15bf60e33c45c6ca25c26825295b555c88057b4ff1e7deab75aa063d86d",
+      "snapshotMatchesCacheBytes": true
+    },
+    "calculating-risks": {
+      "pagePath": "/rational-thought/calculating-risks/",
+      "sourceSha256": "4e19fd6c291ea9de20761b9d703bfbb5745c0065da975a4c55110933011904b7",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 11,
+      "modelResponses": 11,
+      "blocksRetainedVerbatim": 113,
+      "tableCellsExplicitlyRevised": 44,
+      "blocksExplicitlyRevised": 55,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "riskTableRows": [
+          10
+        ],
+        "riskTableColumns": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "historyExamples": [
+          5,
+          5
+        ],
+        "quizQuestionsAndKeys": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "discussionLists": [
+          15,
+          15
+        ]
+      },
+      "sha256": "ad96d75257185ad71c55b9792e5a3dde780c6323a13731c46bf20f46ea6e1a85",
+      "snapshotMatchesCacheBytes": true
+    },
+    "critical-race-theory": {
+      "pagePath": "/political-philosophy/critical-race-theory/",
+      "sourceSha256": "ec775528f4023a57e00b53cdeda02d8bb998ff16a2590e3b263b087909d7dffd",
+      "originalPrompts": 4,
+      "originalHeadings": 5,
+      "sourceColumns": 6,
+      "modelResponses": 4,
+      "blocksRetainedVerbatim": 24,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 55,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "tenCRTThemes": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "tenPerceptionRisks": [
+          10
+        ],
+        "essayStrengthsAndCriticisms": [
+          4,
+          4
+        ]
+      },
+      "sha256": "899f878839c637765c782c2831e5137e20fc4db864450e92ae46c3549fa8d15b",
+      "snapshotMatchesCacheBytes": true
+    },
+    "daniel-dennett": {
+      "pagePath": "/philosophers/daniel-dennett/",
+      "sourceSha256": "2bb4e7e80e57e16764d2f6590294b345f1401c54d54d72a42da77ae7480a7fff",
+      "originalPrompts": 4,
+      "originalHeadings": 4,
+      "sourceColumns": 8,
+      "modelResponses": 8,
+      "blocksRetainedVerbatim": 30,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 35,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "sevenContributionsPerModel": [
+          7,
+          7
+        ]
+      },
+      "sha256": "ef4613dbae4d5b7807a43ebb3dae14b027f2179515a4e06f7cd5edea18e8aa0a",
+      "snapshotMatchesCacheBytes": true
+    },
+    "david-hume": {
+      "pagePath": "/philosophers/david-hume/",
+      "sourceSha256": "024ee864ea8369075744368ee192866792efa27581d89298eeed8335b80bb11b",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 14,
+      "modelResponses": 14,
+      "blocksRetainedVerbatim": 74,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 56,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": false,
+      "explicitListItemSplits": [
+        "6.2.14"
+      ],
+      "explicitResponseAppendices": [
+        "5.2"
+      ],
+      "formatChecks": {
+        "contributionLists": [
+          7,
+          7
+        ],
+        "quizColumnsParagraphs": [
+          14,
+          7,
+          14
+        ],
+        "addedGeminiAnswerGuide": [
+          7
+        ],
+        "discussionGroups": [
+          12,
+          3,
+          3,
+          3,
+          3,
+          12
+        ]
+      },
+      "sha256": "f032caa34a5e3058688f0cbd41d5d4883f5473c7f44b5c6c86f75d703a4aca81",
+      "snapshotMatchesCacheBytes": true
+    },
+    "depth-or-width-of-knowledge": {
+      "pagePath": "/rational-thought/depth-or-width-of-knowledge/",
+      "sourceSha256": "8cbb0d0936d083d275510a49f9100e4f1fc55a3aa5a08828557d73239ff67a34",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 12,
+      "modelResponses": 12,
+      "blocksRetainedVerbatim": 104,
+      "tableCellsExplicitlyRevised": 35,
+      "blocksExplicitlyRevised": 62,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "originalTableRows": [
+          8,
+          5
+        ],
+        "habitTableRows": [
+          7
+        ],
+        "quizQuestionsAndAnswers": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "discussionQuestions": [
+          15,
+          15
+        ]
+      },
+      "sha256": "f1d239c13bf434e11f7416abb5ec7a9f5bedb5b6fffa530d1be79cf37980ddc1",
+      "snapshotMatchesCacheBytes": true
+    },
+    "elitzur-on-consciousness": {
+      "pagePath": "/philosophy-of-mind/elitzur-on-consciousness/",
+      "sourceSha256": "6d5d0ee88c5c273d8a1d3aeded8e6716ef369692c418ac6b887427afa3cdcced",
+      "originalPrompts": 5,
+      "originalHeadings": 6,
+      "sourceColumns": 6,
+      "modelResponses": 6,
+      "blocksRetainedVerbatim": 60,
+      "tableCellsExplicitlyRevised": 45,
+      "blocksExplicitlyRevised": 47,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "five three-column argument tables": [
+          0,
+          3,
+          3,
+          3,
+          0,
+          3,
+          3,
+          3,
+          0,
+          3,
+          3,
+          3,
+          0,
+          3,
+          3,
+          3,
+          0,
+          3,
+          3,
+          3
+        ],
+        "five two-column weakness tables": [
+          0,
+          2,
+          2,
+          2,
+          0,
+          2,
+          2,
+          2,
+          0,
+          2,
+          2,
+          2,
+          0,
+          2,
+          2,
+          2,
+          0,
+          2,
+          2,
+          2
+        ],
+        "sixteen quiz questions": [
+          16
+        ],
+        "fifteen discussion questions": [
+          15
+        ],
+        "sixteen expandable answers": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "sha256": "1259de5f9f2a6c764314649682f171d8492329bca19ee431d97c35d54a83a69b",
+      "snapshotMatchesCacheBytes": true
+    },
+    "gottfried-wilhelm-leibniz": {
+      "pagePath": "/philosophers/gottfried-wilhelm-leibniz/",
+      "sourceSha256": "dce80b6797ad91b302458df8e482cc3c073997cd78127bbebf5b49e536df37af",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 18,
+      "modelResponses": 18,
+      "blocksRetainedVerbatim": 119,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 57,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "sevenContributionsPerModel": [
+          7,
+          7,
+          7
+        ],
+        "quizQuestionsAndKeys": [
+          7,
+          7,
+          7,
+          7,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          7
+        ],
+        "discussionQuestions": [
+          12,
+          12,
+          12
+        ]
+      },
+      "sha256": "03b0e193fb0232dcf22ec7c7d842524009fb0483d70dd3a167df918df4543c19",
+      "snapshotMatchesCacheBytes": true
+    },
+    "identity-politics": {
+      "pagePath": "/political-philosophy/identity-politics/",
+      "sourceSha256": "3846b417d9d5eeeb11743dcf4927849728ad9c6a415f63bbbe3d8c0ee84c4729",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 12,
+      "modelResponses": 12,
+      "blocksRetainedVerbatim": 74,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 86,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "historicalExamples": [
+          5
+        ],
+        "governanceStrategies": [
+          7
+        ],
+        "separationStrategies": [
+          10
+        ],
+        "quizQuestionsAndEndKeys": [
+          7,
+          7,
+          7,
+          7
+        ],
+        "discussionQuestions": [
+          15,
+          15
+        ]
+      },
+      "sha256": "605e68d873e97f206601dc06a85ce54394692895ad61cfb786e09eea82351fb2",
+      "snapshotMatchesCacheBytes": true
+    },
+    "immanuel-kant": {
+      "pagePath": "/philosophers/immanuel-kant/",
+      "sourceSha256": "f633344cf3585d06df562bd4577ced02b2749b141f43d948c6abc5c88fcd0496",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 12,
+      "modelResponses": 12,
+      "blocksRetainedVerbatim": 99,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 42,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "sevenContributions": [
+          7,
+          7
+        ],
+        "quizQuestionsAndAnswers": [
+          7,
+          7,
+          7,
+          7
+        ],
+        "discussionQuestions": [
+          12,
+          12
+        ]
+      },
+      "sha256": "5004589a31c29149a1155b76997fb334a4cf7b22cdf0399818206c05b10d369d",
+      "snapshotMatchesCacheBytes": true
+    },
+    "improving-science": {
+      "pagePath": "/philosophy-of-science/improving-science/",
+      "sourceSha256": "b7bf52d4ea76e549bcc4b3fd31f7a47cf920a6fcb91b6cf147f7df3d13d88f64",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 12,
+      "modelResponses": 12,
+      "blocksRetainedVerbatim": 218,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 75,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "sevenInitialIssues": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "quizAnswerAndGeminiQuestionLists": [
+          7,
+          7,
+          7
+        ],
+        "ChatGPTDiscussionQuestions": [
+          15
+        ],
+        "GeminiDiscussionGroups": [
+          3,
+          3,
+          3,
+          6
+        ]
+      },
+      "sha256": "973cc3388a5ed278884654c74a0ee0defe266ce3d7c6ab31afb261dbb0bdba67",
+      "snapshotMatchesCacheBytes": true
+    },
+    "martin-heidegger": {
+      "pagePath": "/philosophers/martin-heidegger/",
+      "sourceSha256": "faa51c6c9bc4dd28ef7d4c912fdacd5700bd2d39560ea11cc79f3bbcbf9b6757",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 12,
+      "modelResponses": 12,
+      "blocksRetainedVerbatim": 118,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 48,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "sevenContributions": [
+          7,
+          7
+        ],
+        "quizQuestionsAndKeys": [
+          7,
+          7,
+          7,
+          7
+        ],
+        "discussionQuestions": [
+          12,
+          12
+        ]
+      },
+      "sha256": "4ba141b8d620b6121681bd590768fdfea973fba1f5ab842c375636584152a537",
+      "snapshotMatchesCacheBytes": true
+    },
+    "methodological-naturalism": {
+      "pagePath": "/philosophy-of-science/methodological-naturalism/",
+      "sourceSha256": "88dd2ee411843a787096e9ad42fe32b68844693a53216d58b3f4fa754ed9e773",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 12,
+      "modelResponses": 12,
+      "blocksRetainedVerbatim": 97,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 90,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "ChatGPTQuizQuestionsAndAnswers": [
+          10
+        ],
+        "GeminiQuizAndAnswerLists": [
+          5,
+          5
+        ],
+        "discussionLists": [
+          15,
+          15
+        ]
+      },
+      "sha256": "480b9ad4e212bd999ff4dfdf28ce9bc463c308af2d47ab30f7b6af92a008c18c",
+      "snapshotMatchesCacheBytes": true
+    },
+    "miscellaneous-philosophers": {
+      "pagePath": "/introduction/miscellaneous-philosophers/",
+      "sourceSha256": "b4779950161606fcfa875c26e9ca6c5098a46a82ffa197bb4200e88e23c9d9e6",
+      "originalPrompts": 4,
+      "originalHeadings": 4,
+      "sourceColumns": 4,
+      "modelResponses": 4,
+      "blocksRetainedVerbatim": 44,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 44,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "twentyProfiles": [
+          20
+        ],
+        "twentyCandidateAssessments": [
+          20
+        ],
+        "discussionQuestions": [
+          15
+        ]
+      },
+      "sha256": "1f9cc2ce99d4950cdefde7da1237bc4ab1c13eb792440dd2a0e6f88528a88b32",
+      "snapshotMatchesCacheBytes": true
+    },
+    "orthogonality": {
+      "pagePath": "/philosophy-of-science/orthogonality/",
+      "sourceSha256": "bcea4cdb594a379138562a12372e3c5a63c3e12942fe2eaf62f7cb6a75e1e918",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 12,
+      "modelResponses": 12,
+      "blocksRetainedVerbatim": 57,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 110,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "clinicalDesignGroups": [
+          2,
+          4
+        ],
+        "geminiActualStudyExamples": [
+          3
+        ],
+        "quizQuestionsAndAnswers": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "discussionQuestions": [
+          15,
+          15
+        ]
+      },
+      "sha256": "38f2bcfcf6afdc67497746000bbf82c9b6d66ad319690d69876d7d1a277d4d76",
+      "snapshotMatchesCacheBytes": true
+    },
+    "p-value-issues": {
+      "pagePath": "/philosophy-of-science/p-value-issues/",
+      "sourceSha256": "9999125fee4619f510856e605e84a62f9749654e9876ea80feb17fcdbcbe8956",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 12,
+      "modelResponses": 12,
+      "blocksRetainedVerbatim": 129,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 76,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "chatgptQuizQuestionAndOptionParagraphs": [
+          15
+        ],
+        "geminiQuizQuestionsAndKeys": [
+          5,
+          5
+        ],
+        "discussionQuestions": [
+          15,
+          15
+        ]
+      },
+      "sha256": "02f85581c46683324316e50727c71a179793de54f5da97c2dca835a7febdf717",
+      "snapshotMatchesCacheBytes": true
+    },
+    "phenomenologists": {
+      "pagePath": "/philosophers/phenomenologists/",
+      "sourceSha256": "f9d0d47a6c8038740bca26417ec67236e81c42d1fc1ab5675104b9487ebe31d8",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 12,
+      "modelResponses": 12,
+      "blocksRetainedVerbatim": 84,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 45,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "contributionLists": [
+          8,
+          6
+        ],
+        "thinkerLists": [
+          10,
+          4
+        ],
+        "dialogueTurns": [
+          20,
+          20
+        ],
+        "quizQuestionsAndKeys": [
+          7,
+          7,
+          7,
+          7
+        ],
+        "discussionQuestions": [
+          12,
+          12
+        ]
+      },
+      "sha256": "77d73c916896fdba5e6ea7263820a70162e880efff16ee28a27d56464a3106fb",
+      "snapshotMatchesCacheBytes": true
+    },
+    "plato-2": {
+      "pagePath": "/philosophers/plato-2/",
+      "sourceSha256": "5169bca235e61b61a56074003802d3f9429d9d0f6f52aae606fd2788ed15cf60",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 12,
+      "modelResponses": 12,
+      "blocksRetainedVerbatim": 79,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 43,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "sevenContributionsPerModel": [
+          7,
+          7
+        ],
+        "quizQuestionsAndAnswers": [
+          7,
+          7,
+          7,
+          7
+        ],
+        "discussionQuestions": [
+          12,
+          12
+        ]
+      },
+      "sha256": "2b9ecde1724f0c905b3c1938551fd9370105f240f69cf2bbeac311873998ff78",
+      "snapshotMatchesCacheBytes": true
+    },
+    "rationality-discussion": {
+      "pagePath": "/epistemology/rationality-discussion/",
+      "sourceSha256": "236bf43374b745c0d0ff0791fefba3443dbc5ec2a23c7f9e558f31369da46179",
+      "originalPrompts": 4,
+      "originalHeadings": 4,
+      "sourceColumns": 4,
+      "modelResponses": 4,
+      "blocksRetainedVerbatim": 29,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 45,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "positionSummaries": [
+          7,
+          7
+        ],
+        "weaknessesPerSide": [
+          3,
+          3
+        ],
+        "questionsPerSide": [
+          15,
+          15
+        ]
+      },
+      "sha256": "a49f522e8fecec4a8868f4d608bf4801348822070b7d0e99283de20d0f4dd7e4",
+      "snapshotMatchesCacheBytes": true
+    },
+    "rene-descartes": {
+      "pagePath": "/philosophers/rene-descartes/",
+      "sourceSha256": "859f769ba7af47c8266e534fdfed3c1ee4191c3a02afd8148a8b4fc6efe6ba06",
+      "originalPrompts": 4,
+      "originalHeadings": 4,
+      "sourceColumns": 8,
+      "modelResponses": 8,
+      "blocksRetainedVerbatim": 20,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 31,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "sevenContributionsPerModel": [
+          7,
+          7
+        ]
+      },
+      "sha256": "d74b2fb865522e738a6aaf0293236d0e4000314d630c65b9ea99e1927f46d156",
+      "snapshotMatchesCacheBytes": true
+    },
+    "socrates": {
+      "pagePath": "/philosophers/socrates/",
+      "sourceSha256": "bfd165866741a6b1992094ac775088acabd47403d6af4220ae91931388101039",
+      "originalPrompts": 4,
+      "originalHeadings": 4,
+      "sourceColumns": 8,
+      "modelResponses": 8,
+      "blocksRetainedVerbatim": 31,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 37,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "sevenContributionsPerModel": [
+          7,
+          7
+        ]
+      },
+      "sha256": "9433330c87a0a25d98ff3922eb7ceb5cbdfada66c4ec391257d1ca2e239b7df9",
+      "snapshotMatchesCacheBytes": true
+    },
+    "soren-kierkegaard": {
+      "pagePath": "/philosophers/soren-kierkegaard/",
+      "sourceSha256": "e7047fe43e5f25295530e0059891cbd9a1b2c298bdf51b95e26fc65c02631f99",
+      "originalPrompts": 4,
+      "originalHeadings": 4,
+      "sourceColumns": 8,
+      "modelResponses": 8,
+      "blocksRetainedVerbatim": 15,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 36,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "sevenContributionsPerModel": [
+          7,
+          7
+        ]
+      },
+      "sha256": "38e0410f24ab961f61a49513048e7204a6599b3fc8aa9bc3b8ee812359e12390",
+      "snapshotMatchesCacheBytes": true
+    },
+    "the-power-of-convergence": {
+      "pagePath": "/philosophy-of-science/the-power-of-convergence/",
+      "sourceSha256": "7b0d5aaa5582ce5ec5006cd27a411ecefb3b5a88771e0497161ddd0f5bd7071d",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 12,
+      "modelResponses": 12,
+      "blocksRetainedVerbatim": 79,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 88,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": false,
+      "explicitListItemSplits": [
+        "5.2.10"
+      ],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "quizQuestionsAndAnswers": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "discussionQuestions": [
+          15,
+          15
+        ],
+        "threeExamplesChatGPT": [
+          3,
+          3,
+          3
+        ],
+        "threeExamplesGemini": [
+          3
+        ]
+      },
+      "sha256": "dec7336049fb5ff028452d30740eb092ece49432597c5c82bc20cd933c01dee1",
+      "snapshotMatchesCacheBytes": true
+    },
+    "the-social-contract": {
+      "pagePath": "/political-philosophy/the-social-contract/",
+      "sourceSha256": "3c22693ef6862aa5093ecb850ef19ee85617e72847d10d27387cd57cc824ccf5",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 12,
+      "modelResponses": 12,
+      "blocksRetainedVerbatim": 100,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 78,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "threeOriginalCuratorScenarios": [
+          3
+        ],
+        "quizQuestionsAndKeys": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "discussionQuestions": [
+          15,
+          15
+        ]
+      },
+      "sha256": "a614b05a9c685c5a4620b92f5618420577e8617862abe8fee99ef59a5508e805",
+      "snapshotMatchesCacheBytes": true
+    },
+    "the-use-of-proxies": {
+      "pagePath": "/philosophy-of-science/the-use-of-proxies/",
+      "sourceSha256": "1b84122203164d849a17d9ccc240a25f847b781a9bc065f6deeb7ac902f777d2",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 12,
+      "modelResponses": 12,
+      "blocksRetainedVerbatim": 61,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 76,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "crossDisciplineExamples": [
+          7,
+          7
+        ],
+        "failureCases": [
+          5,
+          5
+        ],
+        "legitimateExamples": [
+          5,
+          5
+        ],
+        "quizQuestionAndAnswerCounts": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "discussionQuestionCounts": [
+          15,
+          15
+        ]
+      },
+      "sha256": "abfcf343db8d8d4395fd78a9a544175ce6bea70b326640ada299804309cdcf4f",
+      "snapshotMatchesCacheBytes": true
+    },
+    "thomas-aquinas": {
+      "pagePath": "/philosophers/thomas-aquinas/",
+      "sourceSha256": "01cb01b026abcf4f75964c064a926615749511824604152c03f5eafd3a43ac5a",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 18,
+      "modelResponses": 18,
+      "blocksRetainedVerbatim": 115,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 50,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "sevenContributionsPerModel": [
+          7,
+          7,
+          7
+        ],
+        "quizQuestionsAndKeys": [
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "discussionQuestions": [
+          12,
+          12,
+          12
+        ]
+      },
+      "sha256": "99de93ae404f7f1bf772ac03b6ad8db197e9cf5c8e7b8e9d002c614913d2d7f3",
+      "snapshotMatchesCacheBytes": true
+    },
+    "thomas-hobbes": {
+      "pagePath": "/philosophers/thomas-hobbes/",
+      "sourceSha256": "1fa4613e6d89b54925766813864776d7b584d5a6288e219fb8dbe9095619b1ff",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 12,
+      "modelResponses": 12,
+      "blocksRetainedVerbatim": 103,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 44,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": false,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [
+        "5.1"
+      ],
+      "formatChecks": {
+        "sevenContributionsPerModel": [
+          7,
+          7
+        ],
+        "quizQuestionsAndAnswers": [
+          7,
+          7,
+          7,
+          7
+        ],
+        "discussionQuestions": [
+          12,
+          12
+        ]
+      },
+      "sha256": "84c527f790032cc3398726c5ba3c0b9ac2f45020dfe7855d2894c10a08e5256e",
+      "snapshotMatchesCacheBytes": true
+    },
+    "what-is-consciousness": {
+      "pagePath": "/philosophy-of-mind/what-is-consciousness/",
+      "sourceSha256": "de62b4644be3bc9e4f80aaf68ed53e247f859cf7a616089740d569ad04479aa2",
+      "originalPrompts": 8,
+      "originalHeadings": 8,
+      "sourceColumns": 16,
+      "modelResponses": 16,
+      "blocksRetainedVerbatim": 124,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 100,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "quizQuestionAndAnswerCounts": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "discussionQuestionCounts": [
+          15,
+          15
+        ]
+      },
+      "sha256": "82cca6b9dd3b871625aea753b73a7012b173185097a5a5f95a8726de50ac49be",
+      "snapshotMatchesCacheBytes": true
+    },
+    "what-is-existentialism": {
+      "pagePath": "/humanistic-philosophies/what-is-existentialism/",
+      "sourceSha256": "0fed37d2dc3637a99622543ac2bdf1d8c39c484fd0b84c37a36504c6d2a3d095",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 12,
+      "modelResponses": 12,
+      "blocksRetainedVerbatim": 58,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 73,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "authorGroups": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "quizQuestionsAndKeys": [
+          5,
+          5,
+          5,
+          5
+        ],
+        "discussionQuestions": [
+          12,
+          12
+        ],
+        "twelveQuotesPerResponse": [
+          12,
+          12
+        ]
+      },
+      "sha256": "b3b6f15e2f2d345b269fe14294fb8b548130b85a6f6591570e6d3805c2f95f52",
+      "snapshotMatchesCacheBytes": true
+    }
+  },
+  "negativePreservationChecks": {
+    "miscellaneous-philosophers:changedPrompt": "rejected",
+    "miscellaneous-philosophers:missingResponse": "rejected",
+    "martin-heidegger:changedPrompt": "rejected",
+    "martin-heidegger:missingResponse": "rejected",
+    "phenomenologists:changedPrompt": "rejected",
+    "phenomenologists:missingResponse": "rejected",
+    "p-value-issues:changedPrompt": "rejected",
+    "p-value-issues:missingResponse": "rejected",
+    "missingOriginalStudentTurn": "rejected"
+  },
+  "reviewedPages": [
+    {
+      "path": "epistemology/adequate-evidence/index.html",
+      "sha256": "4db2354ebb73123f53d416a5cd9f640858033a0dffab3ef70db4e1aa28cfdf83",
+      "fullBuildPreservedBytes": true
+    },
+    {
+      "path": "philosophers/analytic-philosophers/index.html",
+      "sha256": "914016b7bc0cf54bd44b93e05ad8aafb1978aec185f01bd3e216278736ce211b",
+      "fullBuildPreservedBytes": true
+    },
+    {
+      "path": "philosophers/ancient-philosophers/index.html",
+      "sha256": "8390ea2898cacbdc78aecafef134244fabf4a2febf6abc7891ebb7589cde0716",
+      "fullBuildPreservedBytes": true
+    },
+    {
+      "path": "philosophers/baruch-spinoza/index.html",
+      "sha256": "934ac15bf60e33c45c6ca25c26825295b555c88057b4ff1e7deab75aa063d86d",
+      "fullBuildPreservedBytes": true
+    },
+    {
+      "path": "rational-thought/calculating-risks/index.html",
+      "sha256": "ad96d75257185ad71c55b9792e5a3dde780c6323a13731c46bf20f46ea6e1a85",
+      "fullBuildPreservedBytes": true
+    },
+    {
+      "path": "political-philosophy/critical-race-theory/index.html",
+      "sha256": "899f878839c637765c782c2831e5137e20fc4db864450e92ae46c3549fa8d15b",
+      "fullBuildPreservedBytes": true
+    },
+    {
+      "path": "philosophers/daniel-dennett/index.html",
+      "sha256": "ef4613dbae4d5b7807a43ebb3dae14b027f2179515a4e06f7cd5edea18e8aa0a",
+      "fullBuildPreservedBytes": true
+    },
+    {
+      "path": "philosophers/david-hume/index.html",
+      "sha256": "f032caa34a5e3058688f0cbd41d5d4883f5473c7f44b5c6c86f75d703a4aca81",
+      "fullBuildPreservedBytes": true
+    },
+    {
+      "path": "rational-thought/depth-or-width-of-knowledge/index.html",
+      "sha256": "f1d239c13bf434e11f7416abb5ec7a9f5bedb5b6fffa530d1be79cf37980ddc1",
+      "fullBuildPreservedBytes": true
+    },
+    {
+      "path": "philosophy-of-mind/elitzur-on-consciousness/index.html",
+      "sha256": "1259de5f9f2a6c764314649682f171d8492329bca19ee431d97c35d54a83a69b",
+      "fullBuildPreservedBytes": true
+    },
+    {
+      "path": "philosophers/gottfried-wilhelm-leibniz/index.html",
+      "sha256": "03b0e193fb0232dcf22ec7c7d842524009fb0483d70dd3a167df918df4543c19",
+      "fullBuildPreservedBytes": true
+    },
+    {
+      "path": "political-philosophy/identity-politics/index.html",
+      "sha256": "605e68d873e97f206601dc06a85ce54394692895ad61cfb786e09eea82351fb2",
+      "fullBuildPreservedBytes": true
+    },
+    {
+      "path": "philosophers/immanuel-kant/index.html",
+      "sha256": "5004589a31c29149a1155b76997fb334a4cf7b22cdf0399818206c05b10d369d",
+      "fullBuildPreservedBytes": true
+    },
+    {
+      "path": "philosophy-of-science/improving-science/index.html",
+      "sha256": "973cc3388a5ed278884654c74a0ee0defe266ce3d7c6ab31afb261dbb0bdba67",
+      "fullBuildPreservedBytes": true
+    },
+    {
+      "path": "philosophers/martin-heidegger/index.html",
+      "sha256": "4ba141b8d620b6121681bd590768fdfea973fba1f5ab842c375636584152a537",
+      "fullBuildPreservedBytes": true
+    },
+    {
+      "path": "philosophy-of-science/methodological-naturalism/index.html",
+      "sha256": "480b9ad4e212bd999ff4dfdf28ce9bc463c308af2d47ab30f7b6af92a008c18c",
+      "fullBuildPreservedBytes": true
+    },
+    {
+      "path": "introduction/miscellaneous-philosophers/index.html",
+      "sha256": "1f9cc2ce99d4950cdefde7da1237bc4ab1c13eb792440dd2a0e6f88528a88b32",
+      "fullBuildPreservedBytes": true
+    },
+    {
+      "path": "philosophy-of-science/orthogonality/index.html",
+      "sha256": "38f2bcfcf6afdc67497746000bbf82c9b6d66ad319690d69876d7d1a277d4d76",
+      "fullBuildPreservedBytes": true
+    },
+    {
+      "path": "philosophy-of-science/p-value-issues/index.html",
+      "sha256": "02f85581c46683324316e50727c71a179793de54f5da97c2dca835a7febdf717",
+      "fullBuildPreservedBytes": true
+    },
+    {
+      "path": "philosophers/phenomenologists/index.html",
+      "sha256": "77d73c916896fdba5e6ea7263820a70162e880efff16ee28a27d56464a3106fb",
+      "fullBuildPreservedBytes": true
+    },
+    {
+      "path": "philosophers/plato-2/index.html",
+      "sha256": "2b9ecde1724f0c905b3c1938551fd9370105f240f69cf2bbeac311873998ff78",
+      "fullBuildPreservedBytes": true
+    },
+    {
+      "path": "epistemology/rationality-discussion/index.html",
+      "sha256": "a49f522e8fecec4a8868f4d608bf4801348822070b7d0e99283de20d0f4dd7e4",
+      "fullBuildPreservedBytes": true
+    },
+    {
+      "path": "philosophers/rene-descartes/index.html",
+      "sha256": "d74b2fb865522e738a6aaf0293236d0e4000314d630c65b9ea99e1927f46d156",
+      "fullBuildPreservedBytes": true
+    },
+    {
+      "path": "philosophers/socrates/index.html",
+      "sha256": "9433330c87a0a25d98ff3922eb7ceb5cbdfada66c4ec391257d1ca2e239b7df9",
+      "fullBuildPreservedBytes": true
+    },
+    {
+      "path": "philosophers/soren-kierkegaard/index.html",
+      "sha256": "38e0410f24ab961f61a49513048e7204a6599b3fc8aa9bc3b8ee812359e12390",
+      "fullBuildPreservedBytes": true
+    },
+    {
+      "path": "philosophy-of-science/the-power-of-convergence/index.html",
+      "sha256": "dec7336049fb5ff028452d30740eb092ece49432597c5c82bc20cd933c01dee1",
+      "fullBuildPreservedBytes": true
+    },
+    {
+      "path": "political-philosophy/the-social-contract/index.html",
+      "sha256": "a614b05a9c685c5a4620b92f5618420577e8617862abe8fee99ef59a5508e805",
+      "fullBuildPreservedBytes": true
+    },
+    {
+      "path": "philosophy-of-science/the-use-of-proxies/index.html",
+      "sha256": "abfcf343db8d8d4395fd78a9a544175ce6bea70b326640ada299804309cdcf4f",
+      "fullBuildPreservedBytes": true
+    },
+    {
+      "path": "philosophers/thomas-aquinas/index.html",
+      "sha256": "99de93ae404f7f1bf772ac03b6ad8db197e9cf5c8e7b8e9d002c614913d2d7f3",
+      "fullBuildPreservedBytes": true
+    },
+    {
+      "path": "philosophers/thomas-hobbes/index.html",
+      "sha256": "84c527f790032cc3398726c5ba3c0b9ac2f45020dfe7855d2894c10a08e5256e",
+      "fullBuildPreservedBytes": true
+    },
+    {
+      "path": "philosophy-of-mind/what-is-consciousness/index.html",
+      "sha256": "82cca6b9dd3b871625aea753b73a7012b173185097a5a5f95a8726de50ac49be",
+      "fullBuildPreservedBytes": true
+    },
+    {
+      "path": "humanistic-philosophies/what-is-existentialism/index.html",
+      "sha256": "b3b6f15e2f2d345b269fe14294fb8b548130b85a6f6591570e6d3805c2f95f52",
+      "fullBuildPreservedBytes": true
+    },
+    {
+      "path": "philosophers/empiricists/index.html",
+      "sha256": "304cfb69874c270844c162ab1db83d589577460a50fc5557c11927d5e1388a25",
+      "fullBuildPreservedBytes": true
+    }
+  ],
+  "workspaceProtection": {
+    "unrelatedModifiedFilesUnchanged": 482,
+    "unrelatedFileHashes": {
+      "economics/behavioral-economics/index.html": "42744e5174949503b8226bfe980306e0550508eaae496bd4b04fd91b85b2af86",
+      "economics/can-prices-be-unfair/index.html": "67c3e7077afae27c1c96c37ac999b0fe3e82da3be1bd84887b1b668d2fed18aa",
+      "economics/deflationary-spiral-for-ai-projects/index.html": "9c014eff9ab8198992193b8a708824689acba2ab80fa57d29a9a1312ee0173f0",
+      "economics/fiat-money/index.html": "67d18a3f63e20c1a5e206eb3fdbdbcdc11b2ddade3ef23849e79860e9d800fa9",
+      "economics/government-interventions/index.html": "f4aa90abbbacb30e642d7233ac36ff0465f4ec2ce6e314e9826c6b1fdc3fb0d3",
+      "economics/homo-economicus/index.html": "d6826c3857c9058e0454ecfbb4d0bbb1bf447f7167380a3f82a0746f45bad454",
+      "economics/micro-macro-economics/index.html": "703aa68c16479380e5a816c36ab8c0a257279b67077f06c8c64532f4a671da20",
+      "economics/minimum-wage-thresholds/index.html": "562484f6e959903e05f4b8d877545500cc974ae82b7243a235f6d43e9c658a78",
+      "economics/salaries-and-public-judgment/index.html": "b7644b9c4347fbd8f33a6b14286796a027c6b683e83577241f95cefad7aa1a1d",
+      "economics/the-15-hour-workweek/index.html": "fbabc7f6756a7394ff5583bd5c0474477216e1a981c2dc5195e6b3bff279756c",
+      "economics/universal-basic-income/index.html": "add1c33f1d35b3fbd5a2d9c77d1d1f8cee14c07ee10ccc7d27fa845037e29bd6",
+      "epistemology/a-priori-knowledge-issues/index.html": "de720906422515515519e80fb5b7f50497b658b98ea3f21bee521fe803e2ec80",
+      "epistemology/ai-reasoning-case-study/index.html": "4654d0535bef617b5860c63aba03b0f9c198c375d2a383b4b3745c6492862f3f",
+      "epistemology/case-2-the-telephone-game/index.html": "2ac63a469ba273d8b32fedc52b9842bf337bd47aa1b8187bf7d02e08aa622ac9",
+      "epistemology/case-3-core-rationality/index.html": "ba2ab66b7be6aad57dd64c858a70e65d8a4b12958b57b99f73b4853229d7e417",
+      "epistemology/charles-darwin/index.html": "6ff277400f09caa39790448d6e75302780afea807395c24441343721044f4928",
+      "epistemology/establishing-cognitive-reliability-2/index.html": "dff33bc71b519c2d3642b18fc947c52f99f6a26250e3f78d27f541548388ddc5",
+      "epistemology/evidence-workshop/index.html": "abdd7f840102213369f33794bd0c97ecc83132f9fbe8c152139231abdfdb4ab5",
+      "epistemology/faith-rationality/index.html": "16b78ab37204637dd950700d2677390791f61b6eae1634f27601628b8b1b993d",
+      "epistemology/faith-vs-science/index.html": "19dd02f79d6ddf66135505b9e93c827cc86938c640804441db7c0f69eda697db",
+      "epistemology/https-byteseismic-com-2024-04-10-inductive-invariance-conistency/index.html": "e50dbef36b57618494877cfa357e02013ea526413f636575a2f0a12c57a8f7f2",
+      "epistemology/hypostatic-illogic/index.html": "0742d4d30699760e455e22f761036d015776c7da4af07f69911493f520c55152",
+      "epistemology/i-dont-know/index.html": "cbd79dde20790c4c6bac9760ee746ac8dc75eb88a246c058fb949c39365f9e7c",
+      "epistemology/induction-cold-reading/index.html": "84032b94ba34ca155ea0a66302a3e7d2af13be5584449d998cf3be0be736b70e",
+      "epistemology/induction-forecasting/index.html": "8623fff19d6cee0e460d607155b7f4dd4ef03a38c27ae654b23734f00b172f2e",
+      "epistemology/logic/index.html": "93de9cead21b5a92b808f201e942dcb83ed6b6e3bb1890169f3a2b9fac030d89",
+      "epistemology/many-logics/index.html": "623195b39c0317b20770c554d000c6f48fdd130c90163119aea5111d035f878c",
+      "epistemology/mapping-belief-to-evidence/index.html": "707968b11aebae30e8cb216361195178a934a90d52e3dbe33ea6829e7d5f34fe",
+      "epistemology/non-scientific-ways-of-knowing/index.html": "96e960fe4f61918856b865061f8e2c822e18b7f43785ed39446bcc5654cd0ae4",
+      "epistemology/operational-epistemic-rigor/index.html": "5bfc85557410c8c336025587fc28043f9b9dcf532422b24c03ddc5a002fe4240",
+      "epistemology/perceived-responsibility-and-perceived-control/index.html": "e18456deeefa8f72132d2b25dd7c3179ba90db30d9a9000fa501d7f306c915bb",
+      "epistemology/recent-issues-in-epistemology/index.html": "d3cd6dc778b7edbebeb25754fe183cf3a4ce77031110aafd58b4ad3abefc479a",
+      "epistemology/shades-of-certainty/index.html": "409202dc8cc8f10548098e87ab5de40c7129d3c91c83048d937167e4f7bc2706",
+      "epistemology/swapping-ideologies/index.html": "f7c762a8185c06bec00739b159f5ca5c27d20aa4e06980c6bda12897e8368a5c",
+      "epistemology/syllogistic-complexity/index.html": "bc1de5ba19f3938fbbf8efcd82f191cd560ddf095aded502cf857324f673b5df",
+      "epistemology/the-domain-of-proof/index.html": "533024ec0d4a70f612ad2fb6277ab9a33e7046ac3efa91ccc66abb8ec34eb278",
+      "epistemology/the-elevation-of-self-evident/index.html": "c849baae27db0298959b32eeaf2f4c28988a598ae6d0d7c45bff1a42b73c7369",
+      "epistemology/the-primacy-of-induction/index.html": "acc8f19b483567eaf6b2332b471498553f9afbeb80136b5d6e41f9d725421cba",
+      "epistemology/the-web-of-induction/index.html": "12955734b8b667be7d732403d55da9900a159f413252c1d0edf02cae56b20f88",
+      "epistemology/types-of-knowing/index.html": "a2fb4ef550d47b356e616a6b66a5afbe1f027c3dfca95e022428cd7db9bbf40a",
+      "epistemology/types-of-reasoning/index.html": "d70deb1944541020b4e80249f2f33647769db006a319ee83cc59e6c940749903",
+      "epistemology/vicious-virtuous-circularity/index.html": "030467b52fb6c17cf62da5d8eea1ddc91402f8b92bc91fac7fe6b89926feafe8",
+      "epistemology/what-are-syllogisms/index.html": "2c64913d9251d756bd59ef3a6cc92d8b159da05980b5c030f150ff34d8dec000",
+      "epistemology/what-is-bayes-theorem/index.html": "d091240158d61e8d9ed324a6e9a7053e42023edc79f0f541fa9ccfffed2e0294",
+      "epistemology/what-is-belief/index.html": "d8566e6730fa12babf0704565bee852e5fc6ce10c04731b73ef408fa31bfe34c",
+      "epistemology/what-is-epistemic-updating/index.html": "1cbe7d6abdd6354b3d0a40335cf8ef10bfd7c9cd5b45e1f6450c9acf7180c451",
+      "epistemology/what-is-epistemology/index.html": "48d3a88b08172de1fbdb3fdd8a1b647418514c3bcd6b5a39f78009e11c547232",
+      "epistemology/what-is-faith/index.html": "3ec1edb943dbe273410110e5c3b0c5d9581ad1c8464c3bc4e67fd3d214f2f30b",
+      "epistemology/what-is-knowledge/index.html": "d749cb7d011888bc833a7ea0436b608a788fb8763f837c3ad3685d0f53b41714",
+      "ethics/a-history-of-golden-rules/index.html": "d4d2d405ab4d8457b673a9f20aa942ea1e436f9fe1228a93bae5eee10ed89331",
+      "ethics/are-both-chivalry-morality-human-constructs/index.html": "177e8c97d18ca7d24c2535f2d6cd3b07b9e6222036e1200a30476eef02e447ae",
+      "ethics/assuming-objective-evil/index.html": "f9be41a8fc94a89997ed1de63367aefe7ff0a1c5773322af851ca12684d1d065",
+      "ethics/bounded-compassionate-agency/index.html": "a7f6a57fc05cf0baf78af95867a84a0ef032938932acb81a3ca533ec50c85dd9",
+      "ethics/circularity-in-moral-realism/index.html": "4366e0917deb0fd45b260fb5aedc39cb5dabd5dc22c0410bd5060683685b7e80",
+      "ethics/compassion-vs-moral-systems/index.html": "daeed89e057c358ac38290fa7bf3749c8e4567d6317650fda6473e3a5e2917d7",
+      "ethics/competing-ethical-considerations/index.html": "e3a5d20f2c8e5d0518b7538576b4eba3b53224bc3f11292ce1c2f00e23f9a082",
+      "ethics/divine-command-theory/index.html": "feba0f2489b0e64ceafa9a05727cdda3c59a0d51c30dba206df76ab6d5ec9b81",
+      "ethics/equivocation-on-wrong/index.html": "8081cd9350218a9837b1dfd1b74b8cdd2f3e91b59dc03959f28dfee728da9a52",
+      "ethics/essay-moral-anti-realism/index.html": "9c42685ceafa1fc91a164b29f8b16c0fda3028726d9b1e277063cb4757287d0d",
+      "ethics/ethical-edge-case-1/index.html": "a0c781531afd3fa1dc4f736bed1787970dc692d74946aedca65a9a5411107792",
+      "ethics/harris-notion-of-morality/index.html": "928e247008702fe67645ec33626b4e4905f299842a64bc1334ad87b85abcd6e3",
+      "ethics/legitimate-culpability-vs-borrowed-guilt/index.html": "5c5114857134f6bc43c6348e4ec339d62bc506eb6b861d30027c8d147013a6f4",
+      "ethics/meta-ethics-focus-1/index.html": "c0ca17df4eccc636c8fd49c17d360f61d82d1b7acfed3ea460598e0e0b4db566",
+      "ethics/meta-ethics-focus-2/index.html": "a11728c09af0a9b8307740770e3874a822a34f8b589023744cb73c182ab91b7b",
+      "ethics/moral-realism-intuition/index.html": "bdba1c14ae4b8fca2fc4411e2659bff61e1fbbd115aef5dd3294d8844863a851",
+      "ethics/morality-human-rights/index.html": "f78551e7e1858aa03d610efe59b6a5b77e2073e56ad3f67c045e61725a73648e",
+      "ethics/no-morality-chaos/index.html": "307378684427a4767b48f0a815f66b9c4d61de5c2018b0b581dde6cda238fb9c",
+      "ethics/recommendations-vs-moral-claims/index.html": "b4a5006ae85cd13d82530a523f9c503ef4df9e40e0e762592ffc8eb3f06eb9a7",
+      "ethics/scope-leakage-of-happiness/index.html": "e0a8493a42fe42b7050b9ab360b7b40c434e6baf1cdc616d30276c8e9cc167fa",
+      "ethics/species-dependent-mercy/index.html": "30e5549fe5ce54c7bbf8c72a449f591d1516bf4a09a2683025f0f53b2d6fc8cc",
+      "ethics/the-value-selection-hypothesis/index.html": "fee2b7f85bf880bc91270b69484a7c8dd9ae551f15f916d4e543535051fb9d2f",
+      "ethics/torturing-babies/index.html": "0521763ac89113fc89e0268d6cf42786d50acc65343ad7af4b0cc28cb9e0d5e9",
+      "ethics/trolley-problems/index.html": "e310a7ed9e6a0932ceb48464fc92f846f8d9b0fce9ec2c9956ff97a97553da3f",
+      "ethics/utility-functions/index.html": "4b0ebeea78c08c99b8fe4de36a37616bd162c97eaafd7029f79e408f7f25dc88",
+      "ethics/value-morality-in-diversity/index.html": "2acf1a04cd626c4c8149f55dda6c1ce330bf073198b3c6b5495a287b7eefb3ab",
+      "humanistic-philosophies/anthropomorphized-gods/index.html": "23d2d28851ec28262ef8624b176a03fd08382dfee10eead1c518fcf5e9d58318",
+      "humanistic-philosophies/are-humans-more-egoistic-or-altruistic/index.html": "e56bbffa03f51899fb5e86384724e04fbced39f4bdfa75941801bfffc0a8aa10",
+      "humanistic-philosophies/deism-theism/index.html": "4c9015e662b660c2fea8be17df164c29676089aa6878a7f0ea32837cfd727430",
+      "humanistic-philosophies/dismissing-logical-contradictions/index.html": "697228ebd57b2c4fe94fd9597cd5a3629142afdcdb5952a42a46927dee323663",
+      "humanistic-philosophies/existentialism-key-concepts/index.html": "56a2f6bfb24169520e67729246a870b19311e90885de08cfc25e9cb29eb505a8",
+      "humanistic-philosophies/faith-or-evidence/index.html": "0bcfd6aaffb84243a7c8ada06da64a6653917163111844dd4499008148e408ac",
+      "humanistic-philosophies/increasing-religious-humility/index.html": "ec188ca64f857c21c1235917fcbe5ebb25634c7b4595b62bde9d5aed9842814b",
+      "humanistic-philosophies/leaving-christianity/index.html": "506ef831f7bc804394d56c9b46d8e815aebef0846016da986571795cde9f1e7b",
+      "humanistic-philosophies/new-manifestations-of-theism/index.html": "ec87e8ee70de0d1e48ca67c2a602522c0e2579e5aa8b5b4d50c09b53884fd2af",
+      "humanistic-philosophies/religions/index.html": "b9e720279d891d928d3b8bba0657d9c690bed7d413a607381a8d32afdae03840",
+      "humanistic-philosophies/shoe-tips-hiddenness/index.html": "55e80ea235546d0a55e70ce0c99d91f6592fedb1964c4d4ec3aa70c5220b8dbc",
+      "humanistic-philosophies/stoicism-key-concepts/index.html": "d1e92af9246de72965d0e6121a1603c62074bc829a187b106952281aac5e3e22",
+      "humanistic-philosophies/testing-prayer/index.html": "936b04cc7332e17970d8f8e931eb21ac2772c1c2422778d403f4d18cf98d088b",
+      "humanistic-philosophies/what-is-religion/index.html": "77c3f138f6f80486500f7b11ff65505f46404c917358927e1e8aa3f249b0d2bf",
+      "humanistic-philosophies/what-is-stoicism/index.html": "bfc6cf9d70a3cd634b69a82b09642e3ef76117dc44b045bb8bbbcc0b7b4445c7",
+      "introduction/analogies-to-a-philosophical-life/index.html": "28092c723508329ff414ea9f3aa887cf8f7cb9b2473c28a60acb200e059623f8",
+      "introduction/are-philosophers-argumentative/index.html": "ecbb31df2db17f75c1919fd6c1e05e96fa05118bc8208b708bde614c65653795",
+      "introduction/philosophical-maturity/index.html": "a6eaa7ff24275dcabebcf0d21ad907df90f858e7a27e066fa8d8cbc28b0d92f1",
+      "introduction/scoring-the-accessibility-of-philosophical-content/index.html": "86351faceb90f3426704db6361f0ea7caf5c3d5a804ee17d2413aab6cad3fff2",
+      "introduction/studying-philosophy-resources/index.html": "4882bd8f0a4a5a071f344a51532ea35d7a8f18895f29ecae4749223dd6ca86ef",
+      "introduction/what-is-philosophy/index.html": "c0ba116f10651deea8cfa2e61c3299e8bfb2b8bb7f676655c1ce9087a56e71ee",
+      "introduction/what-is-the-value-of-philosophy/index.html": "e3770c58ed24f43e3731b9d0ef26892d5977f118546d562a2f63605d357dbe96",
+      "metaphysics/a-taxonomy-of-impossibilities/index.html": "b3a077ed5de697fa79c2c3f8c5e04812a4120da276bd5f9e970c9299edba9c82",
+      "metaphysics/are-quantum-physics-spiritual/index.html": "408e4fbe6474a8df0197e60c9b5bc01f7f7ef9c3eb30fc96999d3617a1601c5f",
+      "metaphysics/could-mind-be-fundamental/index.html": "f6b71f52b41c419440a423beae49d7136feaa2a55fd589ffddacb931a787dfb0",
+      "metaphysics/emergence/index.html": "26c6f5878049b38fb549e3e299615e515b88fdc7c5408a6b952a848d287ea0a8",
+      "metaphysics/energy-psychic-phenomena/index.html": "380a11bdafe2b5392f8a860628acb0ef3102d4b22b60052a16527fbf70182a50",
+      "metaphysics/explanations/index.html": "bfbe216ac3394e1c99d2331a13e12513efdc6b006b1f1cb23faab0b0cddad97c",
+      "metaphysics/jeremy-sherman-on-emergence/index.html": "4cfb7e88259f387622e91da40ecb0c3c6a3aa53c5b150c3f9722b7d5a5db31ab",
+      "metaphysics/matthew-pirkowski-on-emergence/index.html": "4dc2cfbe9ec0b42909a1617d7f5ea7d0ea44d2ba9600bf91b516c63d5a8a3cf9",
+      "metaphysics/metaphysics-core-concepts/index.html": "dcdd32f911fc54bf08ca8f03cfcef095dc71ff0becb5253b2a05f909e7879aa8",
+      "metaphysics/minimal-entities-to-reach-unfalsifiability/index.html": "1617bcfb197ccb7d2fdd979831ef11d4eb3f47446ff0f93c339136705593ffc4",
+      "metaphysics/objectively-subjectively-real/index.html": "f175f000c4f021d398b05bf625832820b8bf367d58899f6091ea4ee9c91c2432",
+      "metaphysics/ontological-domains/index.html": "bf2c81d54c53b271fc7910a2a18650ae5ed52f632049c66b07fa4da13f188738",
+      "metaphysics/stuart-kauffman-on-emergence/index.html": "c547d834df17ed4ba50e387f53ee480691a37f106c29936415743d9500b61e66",
+      "metaphysics/terrence-deacon-on-emergence/index.html": "1a14557d9191063346f60fef9387dff1ec78590411ce1be760a48cfe686edc8f",
+      "metaphysics/the-beginning-of-time/index.html": "ffe9d1428b6f7417211862725aaefe5675873c61ce864c53c1f60e63aff959a1",
+      "metaphysics/the-principle-of-sufficient-reason/index.html": "cd55b7f7bea51369742bd989b4cd6ebc5ed7f804446d23ec6632fa76aa6deda1",
+      "metaphysics/the-status-of-evil/index.html": "26cd824b7634b3c9b4d40f2f64e9871cba08def212da8e1ca47fda66c0e6b28e",
+      "metaphysics/what-is-metaphysics/index.html": "e865dc6c668e89536ed8db33e0d163658ba405c85e670176bc0c7398d10cc970",
+      "metaphysics/whence-logic/index.html": "88077f043bfba85d9752c2e890590bd90c419fb272f85a29c6874edd6425d58c",
+      "miscellany/assembly-theory/index.html": "243c11dc95b9ca11f8296970e89c008acdb939bab58878cb1d0d158e5709a287",
+      "miscellany/cascading-factor-models/index.html": "fe09fb09b633ad8575f11cbc392c3e6fcc9ead182867acfb1137c8a622c0b187",
+      "miscellany/cross-culture-emotional-dispositions/index.html": "e26d7d15aeebe90e7896246d55855e155bac3bf0327b7eace5ff86b32c8b66d1",
+      "miscellany/david-krakauer-on-complexity/index.html": "1bf6785e9d54f88bf203c1b545048d3a3502a9f5455b9d8bb83a368305cf1d28",
+      "miscellany/dynamical-depth/index.html": "3da9cea21d5a3fea67b6dd5ad13cb1c5a3f3bbd25b9a99ba356245a7a399c037",
+      "miscellany/flack-mitchell-on-complexity/index.html": "27ffb128cbbd5793fb3f558d386ef5eeaab422b1a16cfa9d3e6dedb3d0f0f6c7",
+      "miscellany/information-theory/index.html": "95fe0312df955cfde3667684d60b2a13c4df674cd1d2373f51de9ff25e7adc4d",
+      "miscellany/nassim-taleb-on-joe-walker/index.html": "2b16d4b610c24c8bf0879b99a0dd397f54819bbcb5702b4bb1333ff485668531",
+      "miscellany/profiling/index.html": "5a5bdb1fc7def737b83b8b115b6818305f5079d869f867333682f5933d72d2ad",
+      "miscellany/sara-walker-on-lifes-emergence/index.html": "e5e4750e2b3d78b247fcee3adc7fdb2c350faf97f6016a9b98db98a043872633",
+      "miscellany/site-structure/index.html": "88a9d626c3350eabe5caf1eccc1663e219e96b64af16a440cc95919785f93e19",
+      "miscellany/the-fantastical-historical-truth/index.html": "3879b9fa2f4a083a76c6234898f37aa8bbdb49731e7c1ad4e18ec3b423e23b79",
+      "miscellany/the-growing-disinclination-for-war/index.html": "0219c528b860d95f1f545db672cbe49be45db2eae2d7c1780ab139e77905cef8",
+      "miscellany/the-historical-method/index.html": "623dad841e08ccbd211af5479433cbbd05888f10332ef4b3a8f25427fc45124c",
+      "miscellany/what-is-axiology/index.html": "910cb2f85a0ad25734047d5d3216fe5147afe33a90778d2b310d32edb225bc9b",
+      "miscellany/wisdom-dynamics/index.html": "701d170ac3332afd1bb9bb530766fefd94ee9fef6528514fdc47271bac8cf1ac",
+      "miscellany/zak-stein-on-complexity/index.html": "be59eff848a063d3fa13cbcc50bb30dba99339f13f054c2f3e74bf172ec686df",
+      "philosophers/al-ghazali/index.html": "6ecb5826b0f918b8c93bbd50fc07116e903486eccb76af2346560a38542a22bf",
+      "philosophers/anselm-of-canterbury/index.html": "94d8659dc6582a4b09090142aa8dc11fd25ff0d5ce9c97bccaeeea58c037185d",
+      "philosophers/aristotle/index.html": "0c461d2abe0d6e5dd36d2e0e38f66952a9f20e9936c20701ce7015adc9b6c11d",
+      "philosophers/arthur-schopenhauer/index.html": "426c56cbd8491ddc42114544dd96243611ce3571c745ab89cfa7030f3d57f45c",
+      "philosophers/bertrand-russell/index.html": "1df6d64543084d9a4ef0cdd7639a319cdb086545db92e412cf5f7550c33b393a",
+      "philosophers/buddhist-philosophers/index.html": "3a63579bd4d909b2f43c05540cfb6e2ed23e5bb09c1cf1e53e901421604d10e6",
+      "philosophers/charles-sanders-peirce/index.html": "6aa5243acb2a419a1a7efb356a70b5e44018a233a652a64e13e1a87a1bf378ab",
+      "philosophers/charting-adorno/index.html": "9e2c5a1622ddf44e13d494dc6915604758d2fb4cee85dfaa4d7fbcbf0692ae85",
+      "philosophers/charting-al-ghazali/index.html": "be74162c3c92871830fc82d7e2f65bf86bcf78c5358ca9578973a43050748e8b",
+      "philosophers/charting-anselm/index.html": "866961e78b6921c4d8c52618261a4d93da4fb6731797466c78df8fb37cef98f0",
+      "philosophers/charting-aquinas/index.html": "227148af52c8c787f80f7791685e5f355c302e76fc308e4530d1c6e9c3f38e95",
+      "philosophers/charting-aristotle/index.html": "bb98224b8909de0595e28caa46e295b85e2985035a966f69cd1c112306369d6f",
+      "philosophers/charting-arthur-schopenhauer/index.html": "ac10d25a2283277bfc030202da00c85592713f7b3369ec9c8e58b0975a974057",
+      "philosophers/charting-augustine/index.html": "ea1a9d3fbcdf5c9cdbe6ab938c946cf15aa721937e65684debfcedd9cf73a2d7",
+      "philosophers/charting-averroes/index.html": "8200664dcbdf763f56418bced807ceaebfe7e88c82adc15bf724829d3ac8c877",
+      "philosophers/charting-avicenna/index.html": "fc76e7ac2bb73f146cb38319d790c28e140f3529b53b1a150aad5657813456fe",
+      "philosophers/charting-beauvoir/index.html": "e4b1deef71f34d787d803e061bcb927bd9a8f911363235b645ab63e1b19bbc90",
+      "philosophers/charting-berkeley/index.html": "16f9871cf952682828a1d94990e3a00b0f11ec80e5dd165413749cdb9c717bd8",
+      "philosophers/charting-charles-sanders-peirce/index.html": "94506b5205ee3cb5a44a27503c0ce619ebb99d7672da61ebc742d8b918d06099",
+      "philosophers/charting-cicero/index.html": "91ea62cc4c3f39f37909e026afe8c820ef0583c7f83ad2c4b457182f8b4046d1",
+      "philosophers/charting-confucius/index.html": "81e03c4be6e0994600b471607e7118c75edf6ad4a1380ba96bbf07bd75b450f7",
+      "philosophers/charting-daniel-dennett/index.html": "c21c6680cc8c7c1a413fa07f5244281c534d463fa811dbd0e14b593ecb02de55",
+      "philosophers/charting-dennett/index.html": "0f27c29cb0488d62fb746062c7b72375108baa30010d8834be2194b48d71930a",
+      "philosophers/charting-derrida/index.html": "226dbd7fe744590d3270d41f468b04f7dc32a8e86f07f0b369c7e98c45e9b0e4",
+      "philosophers/charting-descartes/index.html": "72377df7eb587cf7ed2b5acee49541f2af65b46fd98807bbe9e06e5b6cae001b",
+      "philosophers/charting-dewey/index.html": "23d8c8585e0c3864deae197c5f11983d55b5b1b6312423b236f0ea00eaa2fcea",
+      "philosophers/charting-dogen/index.html": "c7abc91f36eaa75e0d796fb61e154c0928c16c74ded005e53251f2086bb271f1",
+      "philosophers/charting-duns-scotus/index.html": "f74bea9e438ea5cfc08d6326c392d6b694f6b9016b1607932836ebe82c99f712",
+      "philosophers/charting-elizabeth-anscombe/index.html": "82fed17ef71ea0cf987b28e37a9a59858770e23d73f905b8ade6a2111f1e1804",
+      "philosophers/charting-epictetus/index.html": "64cc96e4e86b5acc99c3b9d54cc460b8610ace08b7b10b1b02a844e9463dec00",
+      "philosophers/charting-epicurus/index.html": "07b6aa9a93f164a1d9a2fbab231f367aba0953eadca5207ac66fb8243ae19b46",
+      "philosophers/charting-foucault/index.html": "339fd36f4569cd4462ec257d7875a1fd982998773b266289574ef0af21f746ed",
+      "philosophers/charting-g-e-moore/index.html": "537552543f500a04b83708cb11d00c5183b0bdf0430ad9773290dc071eca42d7",
+      "philosophers/charting-gottlob-frege/index.html": "12d26127ed000262f948dbe59a2481bd94dba0cd80a27aecd609b4ff26d8897f",
+      "philosophers/charting-habermas/index.html": "0cd6dd938d6089439b1cff0e48ac086152b806ccbb9ddd044bf60d8e6cfe366e",
+      "philosophers/charting-hannah-arendt/index.html": "206fd4c93879148cdbadd1eeaae51483ccdb93bc7ec4073e2f05b0b7574b8f18",
+      "philosophers/charting-hegel/index.html": "b4f30a080351a50b9259335db5ec260946c16e414be998e377453888b7f55f5a",
+      "philosophers/charting-heidegger/index.html": "9195c92331775effe53069d06900e6f7647bd1bcf45541db256308e68a4c67d9",
+      "philosophers/charting-heraclitus/index.html": "b783dcc32c614c3e84d537a10ad465497dcb3d5e600ea72ac39da87fb5f3fa40",
+      "philosophers/charting-hobbes/index.html": "bb9f2ee6636ab6fb79cb90f0779f2a7b302d18b398dc2e71cdd2f73f64b51b27",
+      "philosophers/charting-hume/index.html": "3d9f5aa0d70f6170e4209bc4a38186077c95647d8b09469455cd324781172c28",
+      "philosophers/charting-husserl/index.html": "f87b4f4c30935a5f17f83c167b68fad264f25a958b6b68ae90cdccc5a25f1c73",
+      "philosophers/charting-john-dewey/index.html": "39353da97834b212ea2b550fdba40c0cb1d41500d984032fe3a5a801dd9c133e",
+      "philosophers/charting-john-rawls/index.html": "dd74795da13c651064089361df950b0dd1937fe374c86c828cc5d16b4daccb47",
+      "philosophers/charting-john-stuart-mill/index.html": "906053d41e576b7964239d3e794928d089ae690fe8ba657b0e4090a1f4d61630",
+      "philosophers/charting-judith-butler/index.html": "99fcb5110dfc5a61d405a2a1e10e94cb0f0c74ba02e85e6f9d5e41d1f2f6a54f",
+      "philosophers/charting-kant/index.html": "4a75f83c6336c513aa34ed4cf0291d31849f726fa5eaec4e6f24660e22da0ff4",
+      "philosophers/charting-kierkegaard/index.html": "1ae1d67539f344f47ccd41964d312eae6e69dab42d2c35171cc8c2c67ef93cf5",
+      "philosophers/charting-laozi/index.html": "46239fc760e9faa4c49925a76fd77badec6c2fc0d0fb10271fe2a67d82a9f874",
+      "philosophers/charting-leibniz/index.html": "f82fbe5e9bd6118ad4a3f6f13548f3447e3f9d32a68a52f32c631d1faf9423c4",
+      "philosophers/charting-locke/index.html": "1d0c25835156b3da77c72704d29fa31580b10bba66280982f9cb711310da51f9",
+      "philosophers/charting-machiavelli/index.html": "9fbc8d496a3d7845ab909038b3db6e576e5be201fb21efbed714bc8434bd02df",
+      "philosophers/charting-maimonides/index.html": "c4b9400cca82fa50827fe59df395e724e3d025031043a22e5defeffa27c6e7ad",
+      "philosophers/charting-marcus-aurelius/index.html": "b87338ad5c32effdcbd65b889a1a72aab367717359629ca71d55c00b467e7613",
+      "philosophers/charting-marcuse/index.html": "658e12f646021fd01a422005c6f823e01a6a1a9a7324a6ccb12e938838671721",
+      "philosophers/charting-marx/index.html": "d7839b766e908fd8d83e15e0472d481ad6671887c2f87bcd8aa0c0cebf9b8685",
+      "philosophers/charting-mary-wollstonecraft/index.html": "28b7a32799ddd7e6445ead6d3486b1bb704f44908acd70db78551d1da0ac1161",
+      "philosophers/charting-mencius/index.html": "46864a9fdc73073197488445f4afc5a4742549927609e95a8dae4224cdd87f49",
+      "philosophers/charting-merleau-ponty/index.html": "5b3b67c4a948fb68807609e42267453315eb9d376eac83db2220515fb5065fe2",
+      "philosophers/charting-mozi/index.html": "0e4e2aabaec2008b57f392deba026b64fb16309dac26f9a29df3b68aa613d783",
+      "philosophers/charting-nagarjuna/index.html": "eeda127ccbffbf83ac93b5697fb39cb1ec9c0618a99ec14a037d7ff9d8cfb67e",
+      "philosophers/charting-nietzsche/index.html": "28856161c504c69bab2bc8015e5472f7df5f30c5214a0ce1eb37d9249fedd9db",
+      "philosophers/charting-parmenides/index.html": "ea78e5f3299a56aac25becbfdbb0beac6f9568a1f0b44f5df44c2b891ea51daf",
+      "philosophers/charting-plato/index.html": "4103fc8caa9334a4001e4129791a8d74ba94e4e572762f71c40571c94648face",
+      "philosophers/charting-plotinus/index.html": "aa7343b7106573d165589bd39537b9382605f67cd9c0a8949bfe85514ee2ba75",
+      "philosophers/charting-quine/index.html": "64d711fd10a1f8f843d157252e3fe744641de82dfe73ee3c7c6211d0e87a47b4",
+      "philosophers/charting-rousseau/index.html": "3af25e9f16051482635b63a1d9a59949cf774acb8c6687f1ca1d40074d056518",
+      "philosophers/charting-russell/index.html": "4a1efbbb27d085de21bdaf8f9b1bfb893ab39d90de4ba07259ae20abe0defd8b",
+      "philosophers/charting-sartre/index.html": "0e04fcbeb703b525a62016f4b1c57ba7f550fa6b00782a6e553ebc22cdf7cdbc",
+      "philosophers/charting-saul-kripke/index.html": "df6754fa490e6daad3396b3cddd398bce0b817c413bd692bdb8f9aced624a0ac",
+      "philosophers/charting-schopenhauer/index.html": "22221977761cf7685c9d174b5398429d5c57bc5187f53cef8cd77666ad920970",
+      "philosophers/charting-seneca/index.html": "695dca6826558829a9730874c24bf40009d7cb6b1a733a5cb874a402c6cc002b",
+      "philosophers/charting-shankara/index.html": "75b2bb541946396fffe5a8fc98abb5a127a18d0f0098a2da35bebafde3cc70fb",
+      "philosophers/charting-socrates/index.html": "eebb7a95d803d1441b1b293c8ff7882e427e2802931147c37f5ede4c5fbcf1a6",
+      "philosophers/charting-spinoza/index.html": "a557f03848979c9766c243ff2ec3db39a0e02b49d78254e3e224df2cfe425dc3",
+      "philosophers/charting-walter-benjamin/index.html": "8865ac95db665418b58f83172aa85ea0e19661add0b632927a2e3c07e5f86c1d",
+      "philosophers/charting-william-james/index.html": "84dbd1b01b130906ae7ab6a3a7f94641b929c53dfbfa8af15bd7b7f896a0ac36",
+      "philosophers/charting-william-of-ockham/index.html": "1502b19c6a8d32fdb23b387a85528f5a26ab385677d002f44810f9a9a665b151",
+      "philosophers/charting-wittgenstein/index.html": "abec1969095b71fbf27b07531327d049d30dd3a1ef2f1b7aff87cf1dd645f3b2",
+      "philosophers/charting-xunzi/index.html": "d09c8d81900b80cfe7425e03da1628acb8f681b770e084445338de5ae4d73cca",
+      "philosophers/charting-zhuangzi/index.html": "501e332fd2fa066b13241c2308a376f1498ee0adac9bfa181c3c5e3905f14ecd",
+      "philosophers/classical-greeks/index.html": "b08d4aed9483142e2a2d901bf4d3c2824ac1612872e0b61abf569e864844b3ca",
+      "philosophers/confucian-thinkers/index.html": "946104db19cf06c60ab6cfa65a77a427dc09e25126a553a9d73463bad10f6e6f",
+      "philosophers/daoists/index.html": "bd380f9ce49ffa85dfe145b46a8526cd7b816594d23ad1f6eac36e2d5bda9795",
+      "philosophers/dialoguing-with-adorno/index.html": "36e814c90ffdd8e111841bbb7c0703de42ceda47cefd0ed8a73a4bc13480793d",
+      "philosophers/dialoguing-with-al-ghazali/index.html": "9c3a4917440ffe4770a9993347f811f200baa68a814023c5d136b102829b8d05",
+      "philosophers/dialoguing-with-anselm/index.html": "9f6a00ff0b66963ca6a3bbb63da0c7728803903b952f7700082bbed5734cc24a",
+      "philosophers/dialoguing-with-aquinas/index.html": "b87cc87b6fd4e1254842422af3912e8923d38cb696d98fc8759ba414f4004217",
+      "philosophers/dialoguing-with-aristotle/index.html": "dce9d40a4fa67fa3dbfcceb2a8ac92f7c3eb20cc60a0d9d3c68ef6e74a8d5134",
+      "philosophers/dialoguing-with-arthur-schopenhauer/index.html": "56ec700945a0f7a7a87d66cd3aafb49fe9ce5bee91cc5f544d30169b94eb285b",
+      "philosophers/dialoguing-with-augustine/index.html": "8e86318847ea8412d23eee50f04d06f423f8a26ddc4e103763faabd4e7bb27b6",
+      "philosophers/dialoguing-with-averroes/index.html": "b2c7f556cd625d8b46700bf33dbeb89c2345e7d1d12ae619b79e6747c51216ad",
+      "philosophers/dialoguing-with-avicenna/index.html": "42e9405c53cd236ac26df5606c4cffb713cd6716bd008b08c45c5cd9e9c139f2",
+      "philosophers/dialoguing-with-beauvoir/index.html": "dec94153c491fc6eefe2439d903f180a2045fbb0feb25712d2312f53123ac63c",
+      "philosophers/dialoguing-with-berkeley/index.html": "ee196e92975cf893d4d0dfbd0ea6fe4f58b32ee2e3fb37e5e3133e43bd4fa274",
+      "philosophers/dialoguing-with-charles-sanders-peirce/index.html": "c339efc494ee5f0596bb77fe514954daf4ecdf85f53fdc85db990b6485f3a191",
+      "philosophers/dialoguing-with-cicero/index.html": "dfd2b1ac15be6ec140bde0b432860953e0feface3ad19e2e7a6e9ae9c6591386",
+      "philosophers/dialoguing-with-confucius/index.html": "83965b9d05e42ee058ded8caddefd2b3b7579e5a9638413d33ba17c5c0bfa662",
+      "philosophers/dialoguing-with-daniel-dennett/index.html": "bc693f9f735766296e0798b1558f8c7316bf6b9f2473af248ccde9c0b7adf66a",
+      "philosophers/dialoguing-with-dennett/index.html": "de76a560a072b81374ecd4875d0cd85d4db2bf4f22ca9e457f4e24afe452f4c8",
+      "philosophers/dialoguing-with-derrida/index.html": "ab83dc3b4f73a6d022e245598ddf492174d6f574b3ef6faea625761d94eb0daa",
+      "philosophers/dialoguing-with-descartes/index.html": "242f4da4af1acbf2ba1beb7760da8dba45b3eb773e6d07021c96ca3e9059bccc",
+      "philosophers/dialoguing-with-dewey/index.html": "7ca4acbe89a335a666cdcbfbbc5a89023bd730c614abd6bab498e244a4109ac3",
+      "philosophers/dialoguing-with-dogen/index.html": "6ff4c269b2ac791abfd6382bf653f54309656473aff35d314f7aa8f6dbba7a60",
+      "philosophers/dialoguing-with-duns-scotus/index.html": "b9e58d7b77a3e22dc5601d2563af0ca1d9f400a9b8a594a2c661818dfb10c44e",
+      "philosophers/dialoguing-with-elizabeth-anscombe/index.html": "85689a8e8e98472ffe0e28603a04aae0c5d779429edeee3f4e5593d5fe9e7de1",
+      "philosophers/dialoguing-with-epictetus/index.html": "c832f94940d790c6151d1ade430460f892f9045024519847616bce8e09d44547",
+      "philosophers/dialoguing-with-epicurus/index.html": "f6e9172ebb6ce496328495c9e5c8399f6d9af68c885f909b6bc79facac4e32a5",
+      "philosophers/dialoguing-with-foucault/index.html": "1325a2bb5994d5d39d38abf9887c654ac1b10463127b56cb93d210b69b7f2fc8",
+      "philosophers/dialoguing-with-g-e-moore/index.html": "49c71d447ff559f0fa8a3bd50d5454095b7840b3a664cea16ef61a708a85bec0",
+      "philosophers/dialoguing-with-gottlob-frege/index.html": "c2300d37a868c8c39108a8fadeebf713adfb80f898f40bc484e3aad1e7f447b9",
+      "philosophers/dialoguing-with-habermas/index.html": "7a93d59aac07386d8dabf6e13d43c9232541e659db577a94e3d09eeccde39978",
+      "philosophers/dialoguing-with-hannah-arendt/index.html": "1e8455692ae6a573605650506054c2bde2fffc6dd0d6f98c0bec1035984386d1",
+      "philosophers/dialoguing-with-hegel/index.html": "239f9a4156b5701063157444d799ca425cd10ab6f4338425a4bb54aaa8752884",
+      "philosophers/dialoguing-with-heidegger/index.html": "e2661076b9c4ec54ed2e4c2fddfef45ceec14842c0ffc068b6fa46c9e14402d9",
+      "philosophers/dialoguing-with-heraclitus/index.html": "9cb96890b7456857106899ee1780661f9c17327c1b2ac5a3cf3b5926ae4e67bf",
+      "philosophers/dialoguing-with-hobbes/index.html": "70aea36c6d14f5215df5dc51517c536b9252c687d5766090b6fbe96864e434e5",
+      "philosophers/dialoguing-with-hume/index.html": "6b3ffceb4dc6c05a53ce3b35a871176a8371ecdbfad8e1ab06ce5032af9b3c1b",
+      "philosophers/dialoguing-with-husserl/index.html": "9e2a498cff116755df81c46ec48c8d3998c072447f7c788a5be9d9556af3fe0e",
+      "philosophers/dialoguing-with-john-dewey/index.html": "0c507b2ce2bb2637204bcb4768211d8d42569d1bd6d3b6f91883ce8a3ba68dd3",
+      "philosophers/dialoguing-with-john-rawls/index.html": "65b89a44ad8716262bb7f1af051dc08107aa317049f83966f93a2a6e2b19b1db",
+      "philosophers/dialoguing-with-john-stuart-mill/index.html": "832a11de2f0d473a3fea28a4cdb0746215403837f42fd047f738423c2338524c",
+      "philosophers/dialoguing-with-judith-butler/index.html": "5dc66b919c153cab5c40e0aae629d6afa3186500516eac6ff2947dec1fc16f55",
+      "philosophers/dialoguing-with-kant/index.html": "859536d15718832685f887a69d539a0878530fd2a0845fc01ca2d10174964b5e",
+      "philosophers/dialoguing-with-kierkegaard/index.html": "0e3ca7d80de250be47ca84344739f6c5726a6be59ae209b6e57b2fc63160eadc",
+      "philosophers/dialoguing-with-laozi/index.html": "6b5333743137ae6a261b73533d458f29a6393a7b1e30a0c71fc389935d3b3170",
+      "philosophers/dialoguing-with-leibniz/index.html": "a94039f16c15a62cb50afa238e07e1e84bd5749414d52968b1bd3b9514edd34f",
+      "philosophers/dialoguing-with-locke/index.html": "ae1b7a5637896024c4339bdc780cbae82a28de6fa9ce0334be4d23725f9efd9c",
+      "philosophers/dialoguing-with-machiavelli/index.html": "416ed8d7f5ed981b38e9394706c7fcdd6a426205954a6b304278adc44f634db3",
+      "philosophers/dialoguing-with-maimonides/index.html": "d68682cddf214d1a052c7fd5e838aa7d37c948514d9ca98ba0e947de5e997c03",
+      "philosophers/dialoguing-with-marcus-aurelius/index.html": "2120417e45a7dc2e6a31f13cef25d841e23068a34f7c8bb7d8c0743442f2b5d8",
+      "philosophers/dialoguing-with-marcuse/index.html": "dc532c4ad90e94bb30c91b2e36070b67d7165b2383cd177f9c5394d33009ff26",
+      "philosophers/dialoguing-with-marx/index.html": "7393b997f8cdbeb1e5da114916eb637570ae6e040fa3de0dd9ce588589b0372a",
+      "philosophers/dialoguing-with-mary-wollstonecraft/index.html": "22fe75904925230a58fa25af63f60eb63187d358ad50c65316474be42d7fa65c",
+      "philosophers/dialoguing-with-mencius/index.html": "68648835ea21536ca0facdf2719b08749de79a11d5fc8f37c138b2768842a2d7",
+      "philosophers/dialoguing-with-merleau-ponty/index.html": "ff3662c72af51e8e1766b793b62d35fcabb60d52494265ee124b2c7290081a2c",
+      "philosophers/dialoguing-with-mozi/index.html": "459a21dde58c1822191f8d9453784a70c0b05d9c5d709bef27798da75d8e1796",
+      "philosophers/dialoguing-with-nagarjuna/index.html": "64ca6462e3b098a0e0018a15270545810dc7b717e248fa4927a1baeff75b1fab",
+      "philosophers/dialoguing-with-nietzsche/index.html": "b2442b850fc84de4ebd5bc758d37c5d150de1ef68627ebfeb4fdb58d3cc52006",
+      "philosophers/dialoguing-with-parmenides/index.html": "4e42f6fd28d43e5d54f8ccd46b52ece640413dd8f9730b07b2f81f8b75cb7b8c",
+      "philosophers/dialoguing-with-plato/index.html": "db6ed9a84e891a00e33560785a75ef2cd7cf88cce0020aa695dafaedb6802536",
+      "philosophers/dialoguing-with-plotinus/index.html": "c4981a09be8fa52e0785666cc5e4d4c1d948448fb1c36b87060aca346e446d33",
+      "philosophers/dialoguing-with-quine/index.html": "65515eaac9fecc4ec22391ebca8e7a2c74b1dfe6cd902d7444d8b90876897892",
+      "philosophers/dialoguing-with-rousseau/index.html": "6aeafaf852b5d08c2e24807df4decd0819dff7f1eca6ed58ee1176098dccc40a",
+      "philosophers/dialoguing-with-russell/index.html": "48f6afa0b7c42f0aad769677eabf63b70aae618947f601f3f3c3b9f54fa1bcee",
+      "philosophers/dialoguing-with-sartre/index.html": "e7dad4199c42b4524028900461d766e593971c95e27c3fc03e20d4bbcd9f71e7",
+      "philosophers/dialoguing-with-saul-kripke/index.html": "0e0381529055e6c9418ecafd07626cea4fe415a91c2640f45bc4a6a6dc7f3036",
+      "philosophers/dialoguing-with-schopenhauer/index.html": "ad6f622054475f4071479dd67cf876d0570ab7588cd22b1b09015754f3b6a688",
+      "philosophers/dialoguing-with-seneca/index.html": "0cbf38a25c1cf2e6941758b0edbc63655fcc0e5d99ed50c0be07b01f99e26ba4",
+      "philosophers/dialoguing-with-shankara/index.html": "ecb302b1fc435658b32bbf09c6842873da7462759928c9474143023e4d8919a1",
+      "philosophers/dialoguing-with-socrates/index.html": "e689aabfb7f947d2a3f7624e1f6c1f053ee2584698b50a4dc8805dbb329ef792",
+      "philosophers/dialoguing-with-spinoza/index.html": "0ee8c657001bd0c6ee496ea2db095728090849b47c07c72a8a4b730cf84c50f1",
+      "philosophers/dialoguing-with-walter-benjamin/index.html": "ad902f4a67a671ee32925ee2dc4ed0a1b46d751d0884e6b78fe81ee8a6c404cd",
+      "philosophers/dialoguing-with-william-james/index.html": "de8a38c9502ec7a8fc98a3cd3e700c90091c1e3605586205cbd5e5a25928a3d0",
+      "philosophers/dialoguing-with-william-of-ockham/index.html": "b7fea6e1531b61cb0797ecc7cddeb8e2394f5e544fc8c50ec4b95f62678b4c62",
+      "philosophers/dialoguing-with-wittgenstein/index.html": "e4d97bd0553b2231e66ff57dbf9462466c3bfa05142718e1e3820591330fa745",
+      "philosophers/dialoguing-with-xunzi/index.html": "e9691e56a880189e62b467e5434eeb13838b8d73aee20c7f00da74a1a033a86a",
+      "philosophers/dialoguing-with-zhuangzi/index.html": "acd79d29191f1e02509999b59c78ba29d47db83d5d0a24f6365aaefd1df46a7a",
+      "philosophers/epicureans/index.html": "9a822e35c649f72e7d297e205c16423bcc0af615dafd7ab070c013e5bd8899dc",
+      "philosophers/feminist-philosophers/index.html": "c29c98b19ee27d1f2d2bdaa9aa51fd9ce7c93fb9adcdd7cd48264ff3fb3bace8",
+      "philosophers/genealogy-power-and-deconstruction/index.html": "327fe5702be80460434a60437d8b9d2bbca5ce6d51e106a3e3a531c1325a61ae",
+      "philosophers/georg-wilhelm-friedrich-hegel/index.html": "6283e62595d7521ef1ec6f9bc96d77c48900a4f9b29eb2af29e179dd29fdbe8d",
+      "philosophers/german-idealists-and-critics/index.html": "4dde6965b040809559a50f221341757ab9ccfe3c80551d5f23bd94a4799e9422",
+      "philosophers/hellenistic-and-roman/index.html": "510b279954e1c28e040b6abf403af1b3096a19baaa63f54b2778d424722c6c4d",
+      "philosophers/herbert-marcuse/index.html": "7002c142497b42b2e2626b52d6b634bb12c393baa05ff5a0e124354abf6b315e",
+      "philosophers/high-and-late-scholastics/index.html": "3ff679843b4b93e1175d7db1918c7f3bcc2b4466db6ff24f99957cdb395aca07",
+      "philosophers/introduction-to-philosophers/index.html": "076dcc0e2fa7db1b6a7b62610b37b4fc7cafbb7d76a7615ab5cc2cf4f5886bc8",
+      "philosophers/islamic-and-jewish-philosophers/index.html": "5590da03d90da44977498d9207dde3c34f4bacfe31e00959e61efbe5c62b8412",
+      "philosophers/islamic-philosophers/index.html": "54228216e6292d9abe437be34c6c3345b0c40e47cd3bb7eb02e795f53630358f",
+      "philosophers/jean-paul-sartre/index.html": "1c0f6588a83d4481aff6afc28335772909f0959d1b95fed2231a16a2dfc9b4af",
+      "philosophers/jewish-philosophers/index.html": "17175242e08ecaf57e506780d30df8c58c1e4eab4b6de5e2b31791562105b59d",
+      "philosophers/ludwig-wittgenstein/index.html": "5eea974f6e8797a9dc3571368934e294272b0cfb8944a70f69a4f440d82b5d0b",
+      "philosophers/mohists/index.html": "be694a513bdd08c40e5a5edca6d3312a5ab39057139a6057c642d754a7810d8e",
+      "philosophers/neoplatonists/index.html": "5e4e4658a19e368bf98223a2bcd76822d39c264b35949acca99fbf57d33e9d1c",
+      "philosophers/non-western-philosophers/index.html": "9539e831f9a1155ac339c13a25c0fac4f572631feb789123e8408ee5675dbd6c",
+      "philosophers/patristic-and-early-medieval/index.html": "de47c4e23f86fe6ae4e024402591e7a7523edb9e77b3b3e50b7909da79089419",
+      "philosophers/political-and-historical-continental-thought/index.html": "b8b985a289c3f4811a5d04065a6254388988ecef5abec2260b5d693c907c74fc",
+      "philosophers/political-philosophers/index.html": "392a9ebb5274813be56a01a9c4b564248f5996c8276bfa30229105ea0af54e91",
+      "philosophers/presocratics/index.html": "fbfd99ad19134365dc445d0ed6643a988ebfa7b0a450f373b4397328d31bbaf6",
+      "philosophers/roman-civic-thought/index.html": "42e2d8ce6b125d7afeb59e8130d85f10bff0815c756fe807d2d719330c45cf83",
+      "philosophers/simone-de-beauvoir/index.html": "82ac7f3a604658c9f6d706f413ef456ca690e49690d01edd2b70ab7564b66cbc",
+      "philosophers/stoics/index.html": "42b14fd9131b72e56931668be31bd1c9f90b11390630eff9449f4318ca2ada2c",
+      "philosophers/vedanta/index.html": "a6e5765968fe765afc9e31857e7ea61f774329f2c0b7944e5cb4be2246034b37",
+      "philosophical-inquiry/an-intellectually-enriched-and-diverse-environment/index.html": "c771d19a8acb52a7d11c78b48c3c91107e9c8d972c1004c7f831ca71037b2eda",
+      "philosophical-inquiry/appreciating-our-insignificance/index.html": "67c836d1116d55a107e017aa0f0c4691aa938a182eddc03b91ebe60b47e233b8",
+      "philosophical-inquiry/authentic-humans/index.html": "b8bfce920cb187847f4843410ee7c08af27111990e40e065ab5d76d0be411238",
+      "philosophical-inquiry/charitable-engagement/index.html": "f56a884ebc0dfc5a23299143fa2c6ea73d59605a6c78b0d29400e2c302a8544b",
+      "philosophical-inquiry/dangers-anti-intellectualism/index.html": "38540e0271d7cb453a2c07a53ee1ae174a55f22afa97396563429f2a405b9e6b",
+      "philosophical-inquiry/dangers-awe-as-an-indicator/index.html": "f532e9d90b6b0add37dc1dac850278bdf619a452b1c34176d3163bdab3268277",
+      "philosophical-inquiry/dangers-cognitive-biases/index.html": "67f74077f5c6102a23acdbb8111bb3c0903e6be4e0b2e815dfeb1b6ba1975098",
+      "philosophical-inquiry/dangers-dissipating-promises/index.html": "900395f886b9dd6f7dfb2f7fb3cb09544f3ee6e116d54c2d8fafd7da576e842f",
+      "philosophical-inquiry/dangers-egocentrism/index.html": "7bd2434a1bf55e4fd7408f161a9ec64ddace23cc773946300e085821935d1d93",
+      "philosophical-inquiry/dangers-explanatory-depth-illusions/index.html": "df84b42d79bed0810768103a46667a76ef32029e79485185c1a331e5df2dfae3",
+      "philosophical-inquiry/dangers-gaslighting/index.html": "7a783f904873a26b2d560bdc119e8973b7122378eca8a33ae279bf693e3c0b1d",
+      "philosophical-inquiry/dangers-limits-on-doubt/index.html": "1853b45cfe43f664cc69d84137ca128ac227d86a00858cff621014d1aefe8d66",
+      "philosophical-inquiry/dangers-logical-fallacies/index.html": "e15f79d537c6f3d925cdda871a5b068a7e3d996bd3bd64d6548561624ceab091",
+      "philosophical-inquiry/dangers-promissory-treasures/index.html": "ab878e99e2dc424ac5110f58f8ed1e6ddb852dadc8698e66c2d8e0c6e09b1693",
+      "philosophical-inquiry/dangers-removing-the-impossible/index.html": "b254a57268b625dfda356ad27300a677722149e08640aa9373925b0e3942e5bb",
+      "philosophical-inquiry/dangers-siloed-ideologies/index.html": "e72dc8d799e1b9269025a2d6a788fda8719725672be66003810f5c2fceae2bf3",
+      "philosophical-inquiry/dangers-to-honest-inquiry/index.html": "6ca68eef7a34070f0323b9334ecc5b35b584de4f9dfb4a79fc0db7178930f872",
+      "philosophical-inquiry/dangers-transcendent-meaning/index.html": "f438c5ff2a7a0d3a71692042f8c00fdfd3480b1ded78efee5d2fd242cd9ce6b3",
+      "philosophical-inquiry/dangers-vested-interests/index.html": "198136e17434f72db42c67787d98fcc2af8932b337a0b9d81252193556b03271",
+      "philosophical-inquiry/dialoguing-with-william-of-ockham/index.html": "2a3b9dff4cb2480a4dc39f7ec77785cb8c20a1bdc778bc7e43d6317cb9f270e0",
+      "philosophical-inquiry/logic-wherever-structure/index.html": "63b95a002a0f60674f61064a9d252ea7d225a81f49166a915397f52fb0aaa50b",
+      "philosophical-inquiry/our-view-of-humanity/index.html": "6ea9c0a458e88a5aa600fc3c0f85baed59389bacab31c00bc5d107f9861671d4",
+      "philosophical-inquiry/philosophical-growth/index.html": "5f6a7f139da3205d6649084175ee27c80316dfb4987f483f42ca882759ac21ba",
+      "philosophical-inquiry/the-mindset-of-the-honest-seeker/index.html": "b9386e06e28dc1bdc6f028a457404303f05ac81d752a86c877e5e6a84f4befea",
+      "philosophical-inquiry/the-value-and-limits-of-debate/index.html": "cfca977eaf923a1753cbec9279ef930175f202a5333add1875d93fb5b912ed6f",
+      "philosophical-inquiry/what-is-truth/index.html": "fcbe668390e7af9566c88289021304340006b5e448cdecc815bd90c7cba1fb2b",
+      "philosophy-of-ai/a-novel-ai-thought-experiment/index.html": "f9e52c78ab2f4f9ba828ddc5d0e2c8a58395a30f4c4f0386469151c7983ed113",
+      "philosophy-of-ai/ai-bias/index.html": "96ccc6bb33107e14577bb6567f360e2711bff3bfb8c9ac6f5e1ec5cdad479b58",
+      "philosophy-of-ai/ai-censorship-case/index.html": "d6286a8785f90194fdeacc862e397ea91c37f972c6fbe1d973d5f76797e2ea4a",
+      "philosophy-of-ai/ai-defends-itself-humor/index.html": "4b8096da50c15b36d2f10cb498b1bf45da0cb65ed4aef4ea474a01c4d1eac0c3",
+      "philosophy-of-ai/ai-fact-checking/index.html": "6082ef738e81050654be44971c48de0d3eced5a0ab71703b5ce45118bbf1dc46",
+      "philosophy-of-ai/ai-in-public-discourse/index.html": "a8ee685b722f81b81f6266cdfe1572acf665a6034bce3e2a62cec8fef18be134",
+      "philosophy-of-ai/ai-in-the-markets/index.html": "7505bb70e3a8a12c78619f1085c3bf3d333cd6afde31d754ef6aa610ce24f52d",
+      "philosophy-of-ai/ai-knowledge/index.html": "31fa2f991c008928fc17cc6910c51a1e29b7549e86d9039f83cbe213d74cb05b",
+      "philosophy-of-ai/ai-meta-post-inner-monologues/index.html": "53b9cd129f3b546331ae26579390409c5d23657b1c4519278298e033ad1fe125",
+      "philosophy-of-ai/ai-meta-post-overreach/index.html": "2e8cd45c994d3d293f2f03afaa092bb8e806d3f2ceea3e0aca0de961b385b6fb",
+      "philosophy-of-ai/ai-meta-post-pushback/index.html": "ed3a0ca9da727c4d5954d75979f73c59db9b1fff5a6cff2251d9f55cddc9a2a3",
+      "philosophy-of-ai/ai-overconfidence/index.html": "1a305bdefcf4e0e1183822a8acbc7a802fc803248b824b075f4d1269e8b24369",
+      "philosophy-of-ai/ai-predictions/index.html": "d7579453dd8bfb05d3461d2d76f3242feb39f2496ac6175a8f9fe1d348efcd2d",
+      "philosophy-of-ai/ai-response-to-pushback/index.html": "fa9d01ddc59bca93583ba4834acaf34126cb35f1e982e3411b9f389fbac1e9c0",
+      "philosophy-of-ai/ai-situational-awareness-paper/index.html": "deea2c4f33132411ee4a470b14cd2f72a831ae69d406e9fcdf535a7308105450",
+      "philosophy-of-ai/ais-in-politics/index.html": "e45eea50991894f39d7a69f7e53fc53513c3ffb4857d29af6117f3ab49ce93e3",
+      "philosophy-of-ai/assessing-ai-alignment-with-truth/index.html": "504d1db951f7d95cce5c760a31bf16b544fc420a04c05e77532f116485444c65",
+      "philosophy-of-ai/chain-of-thought-prompts/index.html": "d00950124dccbe696ae92a5dc21b95f9ef8400bf125cb06ae2de68cc8ba8a81c",
+      "philosophy-of-ai/confidentiality-of-llm-weights/index.html": "02fb3be98fcfe0481770225b29d9896a0d28e1d686f9beb39121f6268cc23293",
+      "philosophy-of-ai/llms-and-self-reflection/index.html": "f3d5c76e1f9f34e3fa6459bb70428a2bf62f6f5bdc07bcc501047091eb3268cc",
+      "philosophy-of-ai/openai-introspection/index.html": "1b9af85858ff1f95b7741dd112ce309085fbb877c85ee436d73947ac15e300b7",
+      "philosophy-of-ai/precision-prompting/index.html": "c8e4a165700fba769c4a1875c422a14804185db422d60c200d4a167bba21b252",
+      "philosophy-of-ai/public-discourse-ai/index.html": "d2c00fd2e5476489083de1091fab87d88047330c967fbd9ec655c89d5e3aed63",
+      "philosophy-of-ai/quality-training-data/index.html": "c976fcd8a1ce3a4b04b2bde1cfc885dd4aa0ec22071469b0c0ed931f829a2311",
+      "philosophy-of-ai/self-reported-ai-capabilities-06-24/index.html": "a84baceed6ee6a84af113318f78d74f7709f4aeba4e6478e73d5fa1e4e97f75b",
+      "philosophy-of-ai/synthetic-ai-data/index.html": "992d180aa4c8533619225b2c135eb17d82d5ca3eb227724a77e68f71cabd75ef",
+      "philosophy-of-ai/the-credibility-of-ai/index.html": "8799ffae622773c7d360c94b08637254c3eddb30785a6985540a06368d5453a3",
+      "philosophy-of-ai/the-double-descent-phenomenon/index.html": "645b50548e62d85dd3576acde4a8a0715631da4b563477ee0c90a0145216d6ad",
+      "philosophy-of-ai/what-is-the-philosophy-of-ai/index.html": "ddccde240c14ef96a2335a9461344ef4ce0acc465af024fe9cf69dc5ecb46b91",
+      "philosophy-of-language/abandoned-words/index.html": "cd4f8f0eb142485576764d5d94c289867b20a65b7f9362bf142def3ddc01c0b3",
+      "philosophy-of-language/binarizing-gradient-concepts/index.html": "30a6d84f50506dc5ba704b723fe29d4a01146dc95c3be1d52df6797d553ee79a",
+      "philosophy-of-language/can-words-constitute-violence/index.html": "02ce2c0ba017d8cd44bc919b430275c4e2203848b9e6a89469f0ca6baade652b",
+      "philosophy-of-language/chomsky-ai/index.html": "f9300e04baadcbc112508b5b1e466522b424c81f4e233376dd86724abc32edd0",
+      "philosophy-of-language/connotative-equivocation/index.html": "436508334d64d7afb4341bbe907ed15e8100f6ffcc089ded300850657b14d566",
+      "philosophy-of-language/functional-aesthetic-languages/index.html": "dfffeed091064443913e91130099ecebab278ba8a4a10bf8f769c1a91e1dc592",
+      "philosophy-of-language/language-the-brain/index.html": "a1cdedc9eaa074b0956bed8a27b37c284c9779ca22b55afe70bff72be7212055",
+      "philosophy-of-language/linguistic-scaffolding/index.html": "8a942f48105024d4d63e526e4b8dffa731efc43bba850a52cf6ab6a16e3510db",
+      "philosophy-of-language/living-by-metaphor/index.html": "af9c78fc1db1b3288541b5b6b9007ed984edac49e12e3bb9dae6a16518917659",
+      "philosophy-of-language/needless-semantic-complexity/index.html": "e6410541ff24de1a51981f893dcf9e9cf6485eec44248cc5f19409c54b53132d",
+      "philosophy-of-language/nomological-density-of-grammar/index.html": "a98d97f30e6add251cb18f7345973520b3a33e61d4181674c2827bfbd554b573",
+      "philosophy-of-language/normative/index.html": "60648ce7e6a5fa4a895437610990510dfd20e7f4a997b847dcb97f8f09101347",
+      "philosophy-of-language/the-power-of-analogy/index.html": "6d5bced34350e2e0e7448bd90970384f39a742da5a966be428b339b11674381d",
+      "philosophy-of-language/thought-language/index.html": "31bee1d50dd283bb2d864652d01b6bfd02cf48bfb2d4e064b29e4044cc7d6968",
+      "philosophy-of-language/vague-tags-of-identification/index.html": "0de0ec57c991f4cbdc1027b99e6f56af3ae8a35eef96a205c0152d2a85480db3",
+      "philosophy-of-mind/are-there-selfless-acts/index.html": "c30327878f2ed5f71e5d2c14880bc5e58202eb4dca7dd0041b1b59957ebfbb40",
+      "philosophy-of-mind/free-will-vs-determinism/index.html": "3f5edfdd3bbabedefe1f20ee9b460b0b219b33b735fc8234b0fc7c0a43426896",
+      "philosophy-of-mind/iq-evolution/index.html": "a8c157c2664ee28e29383e9554ac47d8db8a2b24aec1c83083d29675df9e7d8a",
+      "philosophy-of-mind/iq-intelligence-quotient/index.html": "74fec87148d9a4e7239468be901dce33ddeac9d95c75d24d76f1c15863c9842e",
+      "philosophy-of-mind/knowledge-cognition-asymmetry/index.html": "617f6d143c469273b0f5525e50da0267bf313e91f264e9dc287cb4db59f54002",
+      "philosophy-of-mind/land-ownership/index.html": "60895c277c4563bcce356792c2a2209afad3be18f52366a3915a6c861d66a967",
+      "philosophy-of-mind/mother-in-my-brain/index.html": "ad7a443fdfa4e68ceb9861bb7a8ec767cc7c35e82d006ef289f2fe93b0cfd15f",
+      "philosophy-of-mind/neuroscience-and-philosophy/index.html": "dcda21a36b914762aca16cb3df8b5d127365f4ffbb45d44544b7733fe653fc7e",
+      "philosophy-of-mind/neurotypical-neurodivergent-minds/index.html": "6b7e3d04b044dba787e8d408f381f758415a427a073ec7c8b4d8271306ea8124",
+      "philosophy-of-mind/philosophy-of-mind-core-concepts/index.html": "a54e055d7dffdf9c10e68e4cad30aa3d7aa446c2817ebc6ad88517532b8686f1",
+      "philosophy-of-mind/preferences-pleasures/index.html": "3c48233eead5072bcf39e4901cd8fb950cae50aae4cbf2c136b1a8354119ea2b",
+      "philosophy-of-mind/psychology-and-philosophy/index.html": "d85f043c3ae906a4798083b4c5022d8e4cef089bcea043f677f9ef93ff9f3388",
+      "philosophy-of-mind/rationality-and-free-will/index.html": "7aad54f3b50cca815c2d8a8dc70c888cff8519b8a1c4ec234e6a200b9c2f7d78",
+      "philosophy-of-mind/subjectivity-constrained-by-the-objective/index.html": "19a5bf034006a535936e40cf4d4dbc86c55acdf9e5a3054389cbbea27bb7ae96",
+      "philosophy-of-mind/the-chemical-basis-of-happiness/index.html": "b5f9c1fffe3cd22b465905752b1c00a40e3254d1596607a461394a1c615a7fd5",
+      "philosophy-of-mind/the-inertia-of-comfort/index.html": "c45c70de38298d0b668571bf6693d46cc3d2e6ff6b0b3569da6eb121d88b6d22",
+      "philosophy-of-mind/the-schizophrenic-mind/index.html": "f1f7163c4639f79216c0d21405792d2071c7137887e0fb193ec5697dc1ce2c61",
+      "philosophy-of-mind/where-consciousness-can-must-emerge/index.html": "194717b32da329bb162d319544fd2495264ce5f1d58f058ee452076310a0aebd",
+      "philosophy-of-science/bimodal-distributions/index.html": "f5426df847a24d79f541bf7f20718f07745347e3912f4ea84c90e2ed4297b093",
+      "philosophy-of-science/case-1-intelligence-political-leanings/index.html": "241e3143b68ed4abed4439a349a8e69bcc481b7b783a407f9acefa436ba3c888",
+      "philosophy-of-science/causal-chains/index.html": "f94e1ebce4a6b2929da60c8dab10b76dac9fd1e6a40bababd3556e7af7f5471f",
+      "philosophy-of-science/confounding-variables/index.html": "a0133973401c40ef91722fc3dabe1a1f4d2c3b31d67bbf82d73ac857e1195ed1",
+      "philosophy-of-science/correlation-is-not-causation/index.html": "65e0ecb4d1fe3de82373b447d7849a8283ca9e26a7fa4bb201d89e99e50720ec",
+      "philosophy-of-science/definitions-of-explanation/index.html": "0b872ead1eb4489b01cc12bfc690fb82a25b30e1890b92ac894e4dd9c50bf0b5",
+      "philosophy-of-science/demarcation-for-scientific-laws/index.html": "3b07455857f2671f74ad692d4be3fd5f880f971692eb92082ce4584cc7b83d70",
+      "philosophy-of-science/emerging-fields-in-science/index.html": "087239aad5075993e9537a4de00173823b106c5f0136c26ac79a9ea40e82c04c",
+      "philosophy-of-science/hard-vs-soft-sciences/index.html": "6f2a3b7f2f2d52b2585cdafbd34de6503b3ab68b6114ac3e2024b14b61555db0",
+      "philosophy-of-science/history-as-forensic-science/index.html": "cbb269147e02b8db69cf499830b83bafb26a5d0eae536c6865c8907aac2b2827",
+      "philosophy-of-science/inductive-density/index.html": "ec8db99c53cffb6c0804c0ea19416fdc6e515e68d6b503280e270186cb8bcdc3",
+      "philosophy-of-science/life-vs-non-life/index.html": "9c770f7b77b4248921a3ff3b25219294557a66f1e5323aba55fc88daab307a3e",
+      "philosophy-of-science/overfitting-in-scientific-models/index.html": "8ef01b81b5d631b0f35f1a8f59596992e6c5460dc1454503c495f2a935e29ed4",
+      "philosophy-of-science/paper-methodological-naturalism/index.html": "74a24f81e7a2c00c1f2844fd3466e61d2f31b80ccb4f9a851ed147048f9ebc3d",
+      "philosophy-of-science/philosophy-of-science-core-concepts/index.html": "c6fd6eb0b7b74b84ffa143e03e74ee188da3f0fa03697d574f66563158ec8efd",
+      "philosophy-of-science/research-design-scenario-1/index.html": "b8d59690374865e1697ecdd7adca5bdfa9bf66123007976a2f4d2d9bcfeb6323",
+      "philosophy-of-science/science-and-the-public/index.html": "ac660e99f52153ea173cee300a4813399013796042605116c6208fc2813a8b7e",
+      "philosophy-of-science/science-vs-subjectivity/index.html": "826f0df7cece58bc8a182f69d6aa95dc8a8981581554f8d4d762aad9aded095f",
+      "philosophy-of-science/scientific-observations/index.html": "dd6e20d9af31908df8b3281c8d8a2249a78515a669aad8baf809173121753372",
+      "philosophy-of-science/sorting-out-science-terms/index.html": "a7afbfcca837f54136157b696d8e43eec630d0b4287cf7970f90ce3b07dece61",
+      "philosophy-of-science/technology-outpaces-theory/index.html": "8f46379bec9b12fddeff657b5bbbd665b45cb31ed1dbf133c9f9d49cd8c303fc",
+      "philosophy-of-science/the-notion-of-laws/index.html": "a00947b1b440eb1a529cffe07c665f7761ee2c066837d483b2edfaa709a2e77a",
+      "philosophy-of-science/the-problem-of-induction/index.html": "db5177340b29db2c21503feb4876c3cd4768e0d43c806ea23a81d8adfcc27ced",
+      "philosophy-of-science/the-value-of-surveys/index.html": "e6bf43474d94b810331384d04098737dcb87f1fafbc9ee5d2a940a57266f8f52",
+      "philosophy-of-science/what-are-pseudosciences/index.html": "a3a216aeee3fad100cfee8f9912deb36476a49eb546c9376139cfc5f65648c23",
+      "philosophy-of-science/what-is-deduction/index.html": "6c9290f3e53520f3dcb3ca9a07600b3f939ffd497488d2c8ef0624cfe8a20e52",
+      "philosophy-of-science/what-is-etiology/index.html": "f468890edfa32f881b1d6aa56bdce30bc3484ca29c1924774b8c673ca31ca978",
+      "philosophy-of-science/what-is-falsifiability/index.html": "8727e37793edb37e9f0b49bd6e89248f16008a7e601b6574f09e525b9a8921c9",
+      "philosophy-of-science/what-is-science/index.html": "166c7f3b2cd7b15386381db65d8a3252cbce75a9e11eef64a0daaaf1730281e9",
+      "political-philosophy/ai-the-us-political-divide/index.html": "bffef5119c2eac6e98488c60550fe9a47285e7e4993d96c86087555b40efc547",
+      "political-philosophy/electoral-systems/index.html": "3226337161267f75056a5281be5083b8e27a074f3b0072ec9c2718d4a4ad0d23",
+      "political-philosophy/maintaining-scientific-credibility/index.html": "a5ad1838e7ae6da40a121dcf76096d96cfc3e83486096e47a661f8e2d63937b4",
+      "political-philosophy/metrics-for-cultural-comparisons/index.html": "55211a09eee4cdc8e052b41ae9f508359872b0e2d686d8727c7ea471b0a0fc9a",
+      "political-philosophy/political-theory-human-nature/index.html": "279eeb3041f8d70f54c7a3cf49300e0a31313c368df92939df4e0e3fa61f82e5",
+      "political-philosophy/red-blue-grey-tribes/index.html": "aaea416f051b4dedf60281f9d3cab7fd784ed913bbe8ecc345efe64a7d3eec77",
+      "quality-review/index.html": "5fc52afd9c7993f89361aa21719bae1b2af5acf8f88047fe7bafe51494c61f3f",
+      "quality/section-quality.json": "74ecd0c0372c3e1cc29bcd255c1ed0a03ffef81d8246e891bf5f88c4a964af36",
+      "quality/section-quality.md": "c5a7154d0eb53984259bf97d0f51db9eb038137267339490b9a2c4513d2d9b02",
+      "rational-thought/a-taxonomy-of-emotions/index.html": "91953e266a1cc3c830fa79a7abbd0924b841c68f31e3bb3cf7cfb7ef404d67e7",
+      "rational-thought/are-averages-not-always-true/index.html": "dabba92a33bcff1230b3f76d9f84e66125979e6d3e1438a2fb232aa560e48b91",
+      "rational-thought/argument-1-miraculous-event/index.html": "63d24937af0c45be22cb160d1cf21805e9a8979d90b6fca0b11b7218ee1fea41",
+      "rational-thought/assessing-arguments/index.html": "a67676b6f7c921c862ee5495bf1dd69d09cebac3e5d36334b3e368834eb007a9",
+      "rational-thought/attributions-of-causation/index.html": "76831f60ba33d375c0ec6eafa60dd61287700c537881c0b243d2954594c64326",
+      "rational-thought/case-1-seizures/index.html": "3ccf5cf5d666c882b310c47b0cc8d08732ff28852f10e8e8e6bba8a331ae0db9",
+      "rational-thought/case-3-astrology/index.html": "35c9c707c6fffac4286c82fbe43f14800cb37a3d1f897fe62a7ec7a127743183",
+      "rational-thought/case-4-obesity/index.html": "505e01e7a505c62ef58a1f79180358f91f2468e26862a245d6623ccd4bd9f68c",
+      "rational-thought/case-5-grade-inflation/index.html": "975ba949e1d5c03acfd380dfd16297f4bdf7c57e5572b27da66e84889d85117c",
+      "rational-thought/categories-of-questions/index.html": "1189c394bdd221944eeed66b8888f4ab4070f2273737efd22d0a23f99ecdd5de",
+      "rational-thought/characteristics-of-science-denial/index.html": "1a94cc936ca071f80f123a130358e82da65598d394efa874a314e8ca8a9a7674",
+      "rational-thought/charting-jurgen-habermas/index.html": "19118e383c432b5054cafa677c11cb5180ff511be68f8ff54b165b7b02f4e9dc",
+      "rational-thought/cognitive-threats-to-rationality/index.html": "49300ed6827cfedee731493619b239d15d5660599912aff401f43142f3d05411",
+      "rational-thought/credencing/index.html": "bb4296635d94aaee6e62f8aa1b4bb04e8e2f0eccffa69b757b8e33fe9c940ac4",
+      "rational-thought/deflecting-to-experts/index.html": "687595d17212fc9090d07ea533688fb2053d3b87f159d684a18d9ed8be2c52e4",
+      "rational-thought/detecting-bad-science/index.html": "e86b8aeb020a04d24f2abc66319b8461bf651ff89a75aafb287c379bf112dafd",
+      "rational-thought/dialoguing-with-habermas/index.html": "adb67ac2cf4642e49386b2213211b0af063c91ca8afb721dec0d1ffb240c14dc",
+      "rational-thought/empathy-overload/index.html": "b61b28d345033c1bf26594bd93068c67cd163ce6dde410dd82cb053eba9220a4",
+      "rational-thought/evolution-rationality/index.html": "fb1f2466a00f908a20390803dc8d6d9f458939de3481ce824007718f958b627e",
+      "rational-thought/factual-disagreements-vs-semantic-misunderstandings/index.html": "28af74b26525902eaa9896b38f47894db369094f0c2232ada77cab236b5d5e04",
+      "rational-thought/false-equivalencies/index.html": "b3b75cea19886991645ade12a9ae340e0977fd4a36c9301f0ed344d4fb2190cd",
+      "rational-thought/fine-tuned-rationality/index.html": "efb28aeed931c835c78ec407d665a56bbe6622390155d9486daead3b718f0b14",
+      "rational-thought/finite-agency-in-an-infinite-feed/index.html": "9105899d32057611cbd7fe42dff9f1063241d6c377eb27f0e7685eba3e7ad6fc",
+      "rational-thought/integrated-critical-thinking/index.html": "08315fb67af412075a75411adf84eacf6c6696b8e588b479fff7812a4e9df870",
+      "rational-thought/leaving-room-for-doubt/index.html": "e66aa77c38f3ecb698eea5a0ebf0d30785b3db636a45729365496bcbe09c33d9",
+      "rational-thought/life-choices/index.html": "ded6c68575096ab345ebb16dcae072d4440af3ddc0636dec74fc1c7b85de3471",
+      "rational-thought/logic/index.html": "59b7b62c84c256c585dc4c145b4d1305f0183402ba29a2128195b0382ba1778d",
+      "rational-thought/monetary-goals/index.html": "2fc5abd96c3d27d7125fd6f46d71104c199847344f2e179eb44d32be31813c56",
+      "rational-thought/rational-romance/index.html": "f5f208129d7febe7d43ee74f451e05361014804facc3b6f63c756293ef755359",
+      "rational-thought/sample-size-margin-of-error/index.html": "f253e2912b39046d2829938ecf0756889823d1595bf3fc5fa2ee1cf8f545c85a",
+      "rational-thought/starting-with-strong-basics/index.html": "a43177f247ae36cd2e7dc1ad75fe2e5a581255994863eba2981a442564522e9f",
+      "rational-thought/the-illusion-of-knowledge/index.html": "49798d1d22f1b3fbc53106635552157744793e022e0fa32c6ed1e0b1a0e43d22",
+      "rational-thought/the-motive-fallacy/index.html": "2982b1169251683d0a259f2f4e52a45295d4b2ec067a51580afe4859efefd2a6",
+      "rational-thought/the-power-of-statistics/index.html": "170b03bd6975313a7e06d1929dd0dbda6b5f6a3d465f82876abfe16f2e34632f",
+      "rational-thought/the-primacy-of-emotions/index.html": "7d371169cd6049a67284ee91ef5761ceb1304d32b0ab2f9026ce3448fcb402cf",
+      "rational-thought/the-steppingstone-fallacy/index.html": "ecbb19341dd01e26065d5fceaa77ec53cffab082e60c1b21696ada2aa34ae46c",
+      "rational-thought/tu-quoque-or-you-too/index.html": "315e16ba91fd75f6ff69abcd495f9690c150e42c81ea8a9808fc8f5011370431",
+      "rational-thought/what-is-design-thinking/index.html": "0ca5a685c31eb88b2fdd566845eb7927c2ab7d4ed4ebf2a610b6c757595a1081",
+      "rational-thought/where-framing-goes-awry/index.html": "4b8e4dc6c034918519afcc5df31d673e66bf0851b9e4a938137c7be7e4cf2e17",
+      "sitemap.xml": "c29cc3304127d6b2f55162bb26e014f85b5d3b172cc79d51cc57d53d24bf409a"
+    },
+    "inheritedPageBackups": {
+      "introduction/miscellaneous-philosophers/index.html": {
+        "runStartSha256": "1f1178e29fa833ffcfa7904e9602ae49a7842f452a487efc870c713eacbc9071",
+        "backupArchive": "/Users/philstilwell/Documents/byteseismic-audit-backup-20260904-XnZFhk/changed-files.tar.gz",
+        "matches": true
+      }
+    },
+    "trackerFilesUnchanged": {
+      "quality/editorial-audit-tracker.json": "23fd14c04a2361a3ce0c8ef6d85ddeb01a447186cb090c80f0c1df2fc06a163e",
+      "quality/editorial-audit-tracker.md": "8003448d63c7491b9037f1193aece80174533832f31ff59f090baaeecb42fcbf"
+    }
+  },
+  "browserReview": {
+    "viewport": [
+      1280,
+      720
+    ],
+    "pages": [
+      "miscellaneous-philosophers",
+      "martin-heidegger",
+      "phenomenologists",
+      "p-value-issues"
+    ],
+    "horizontalOverflow": false,
+    "checks": [
+      "Visible limitation and twenty candidate assessments",
+      "Heidegger nested multiple-choice options and final keys",
+      "Both phenomenology dialogues have twenty numbered turns",
+      "Original formula image loaded at natural width 652 and visually matches text",
+      "P-value paragraph quiz options separated by line breaks"
+    ],
+    "mobileReviewClaimed": false,
+    "temporaryTabClosed": true
+  },
+  "counts": {
+    "batchPages": 50,
+    "sourcesLocated": 47,
+    "pagesFullyReviewed": 33,
+    "pagesPendingFullReview": 14,
+    "pagesBlockedOnOriginal": 3,
+    "completedPagesRecordedByTracker": 0,
+    "pagesRemainingRecordedByTracker": 346,
+    "verifiedPagesAwaitingBatchCompletion": 33,
+    "notYetFullyReviewedInRestartedPass": 313,
+    "pagesNewlyReviewedThisRun": 4,
+    "previouslyReviewedPagesReverifiedThisRun": 29,
+    "pagesWithOriginalReadButExternalDependencyPending": 1
+  }
+}

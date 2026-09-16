@@ -1,0 +1,108 @@
+{
+  "wordpressId": 9048,
+  "pageFile": "philosophers/martin-heidegger/index.html",
+  "snapshot": "martin-heidegger-wordpress-9048.html",
+  "sourceSha256": "faa51c6c9bc4dd28ef7d4c912fdacd5700bd2d39560ea11cc79f3bbcbf9b6757",
+  "sourceUrl": "http://byteseismic.com/2024/05/16/martin-heidegger/",
+  "sourceLabel": "Original WordPress conversation, 2024-05-16",
+  "shellRevision": "6a9934fa203bb7f5a6ea6baf8473a48bdd50034d",
+  "date": "2026-09-16",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "replacements": {
+    "1.1.1": "Martin Heidegger redirected twentieth-century philosophy toward the question of what it means for something to be. In <em>Being and Time</em> (1927), he approaches this through Dasein, the being whose own existence matters to it, and through our practical, social involvement in a world. His analyses of interpretation and time influenced phenomenology, existentialism, and hermeneutics; later work on technology and the history of metaphysics also became important to deconstruction. These influences often involve disagreement rather than adoption of a single doctrine.",
+    "1.2.0": "Heidegger’s <em>Being and Time</em> challenges the picture of an isolated mind first observing an external world. It begins with people already acting among tools, other people, inherited practices, and future possibilities. That approach reshaped phenomenology, existentialism, and interpretation, while his later critique of technology examined how things come to appear primarily as resources. His Nazi Party membership and antisemitism are serious features of his legacy; the philosophical reach of his work does not excuse them.",
+    "2.1.2": "<strong>Annotation:</strong> Dasein names the being for whom its own being is at issue. It is not simply a synonym for reflective self-awareness: someone absorbed in everyday work still has this way of existing. Heidegger analyzes how we take up possibilities within a life already under way.",
+    "2.1.4": "<strong>Annotation:</strong> Being-in-the-world is a unified structure of existence, not a mind placed inside a physical container. A hammer is ordinarily encountered through building, repair, and the work to be done, rather than first as an isolated object with properties. This practical setting helps explain how things become intelligible.",
+    "2.1.6": "<strong>Annotation:</strong> Heidegger distinguishes beings—the entities we encounter—from their being, or the ways they are. Being is not an additional supreme entity or merely the fact that something exists. The distinction lets him ask what is already understood when an entity counts as a tool, a person, or a measurable object.",
+    "2.1.8": "<strong>Annotation:</strong> Heidegger renews the question of the meaning of being rather than merely compiling an inventory of entities. The question overlaps with the preceding distinction but is not identical to it: the distinction sets the problem, while the inquiry seeks the conditions under which being is understood. <em>Being and Time</em> remained unfinished.",
+    "2.1.10": "<strong>Annotation:</strong> Facticity concerns the concrete, historically situated life we already find ourselves living. Its hermeneutics examines how that life understands and interprets itself. Interpretation is therefore more than a technique for decoding texts; it belongs to ordinary existence and can reveal assumptions hidden in it.",
+    "2.1.12": "<strong>Annotation:</strong> Heidegger examines how future possibilities, an inherited past, and present involvement belong together in a life. Preparing for a task, for example, lets anticipated possibilities organize what matters now. This account of temporality does not show that clocks or chronological sequences are unreal; it asks what makes them significant within human existence.",
+    "2.1.14": "<strong>Annotation:</strong> Modern technology, on Heidegger’s account, is also a way of revealing things as resources available for ordering and use, which he calls enframing. A river encountered primarily as an energy supply illustrates the concern. The issue is the dominance of that outlook, not a claim that every tool is bad or that abandoning devices would by itself resolve it.",
+    "2.2.1": "<strong>Dasein (being-there):</strong> Heidegger gives this existing German word a distinctive role for the being that relates to its own existence. We are already involved in activities and possibilities before describing ourselves as observers. The contribution is this analysis, not invention of the word.",
+    "2.2.3": "<strong>Temporality:</strong> Past, present, and future are connected in the way we live: what we have inherited shapes which possibilities we pursue and how we act now. Heidegger’s inquiry concerns this structure of existence, not an alternative measurement of physical time.",
+    "2.2.5": "<strong>Hermeneutics:</strong> Understanding already draws on a background of practices and expectations. Interpretation develops that understanding and can also expose it to correction. A prior viewpoint need not make inquiry arbitrary; recognizing it can help us test whether it fits what is being interpreted.",
+    "2.2.6": "<strong>Critique of metaphysics:</strong> Heidegger argues that much of the tradition explains beings while leaving the meaning of being insufficiently examined, often privileging enduring presence. This is more specific than rejecting belief in mind-independent reality. His own interpretation of the tradition remains a philosophical claim that can be challenged.",
+    "2.2.8": "These seven entries overlap because they trace a connected inquiry: everyday involvement, interpretation, and time supply a route into the question of being. They are a defensible introductory selection, not an objective ranking or seven conclusions whose truth follows from their influence.",
+    "3.1.2": "<strong>Annotation:</strong> His analyses of practical involvement, anxiety, time, and interpretation offered philosophers a distinctive program of inquiry. Novelty alone would not establish its value, but it helps explain why students and critics found problems worth pursuing in it.",
+    "3.1.4": "<strong>Annotation:</strong> Working with Husserl gave Heidegger direct access to a major phenomenological program and an intellectual network. He adapted and contested that program rather than simply adding examples to it. This is a documented context of his development, not a complete explanation of his motivations.",
+    "3.1.8": "<strong>Annotation:</strong> Heidegger taught at Marburg from 1923 to 1928 and then took Husserl’s chair at Freiburg in 1928. His lectures and contact with students such as Hannah Arendt and Hans-Georg Gadamer helped his arguments circulate beyond the book itself. See the <a href=\"https://plato.stanford.edu/entries/heidegger/\">biographical chronology</a>.",
+    "3.1.10": "<strong>Annotation:</strong> Later uptake in theology, literature, psychology, and other fields extended his influence. This helps explain the persistence and breadth of his reputation, while the earlier teaching and publication explain more of its initial formation. Reception is also selective: later thinkers often revise his claims.",
+    "3.1.12": "<strong>Annotation:</strong> Heidegger joined the Nazi Party in 1933, served as Freiburg’s rector in 1933–34, and retained party membership until 1945. His Nazi commitments and antisemitism require critical examination, including their relations to his philosophy. They are not achievements to credit as causes of philosophical distinction; they explain an important part of the controversy surrounding an already prominent thinker.",
+    "3.1.14": "<strong>Annotation:</strong> Later publication of lectures and manuscripts supplies material for reassessing his arguments and political commitments. This helps account for continuing scholarship, not for his original rise to prominence. These proposed causes should therefore be read as a chronology of formation and reception, not a proven ranking of psychological motives.",
+    "3.2.0": "The most plausible explanation combines a distinctive philosophical project, influential teaching, and the publication and reception of <em>Being and Time</em>. The following factors help explain attention and uptake; they do not prove that every claim in the work is sound.",
+    "3.2.2": "<strong>Influence on diverse movements:</strong> Existentialists, phenomenologists, and theorists of interpretation found resources in Heidegger even when they rejected parts of his project. Their teaching and writing carried his questions into new contexts. This later reception amplified a reputation already established through his lectures and 1927 book.",
+    "3.2.3": "<strong>Language and interpretation:</strong> By treating understanding as situated, Heidegger gave readers a way to question assumptions that seem neutral or inevitable. The attraction lies in specific analyses of how meaning works, not in a general rejection of objectivity or a claim that every interpretation is equally good.",
+    "3.2.4": "<strong>Unconventional style:</strong> Unfamiliar terms and close attention to word histories make familiar experience appear newly questionable. They also impose real costs: a reader must decide whether a distinction clarifies a problem or merely makes it harder to discuss. Difficulty can explain both fascination and resistance without being evidence of depth by itself.",
+    "3.2.5": "His Nazi commitment belongs inside an account of the reception of his work, not in a closing qualification that influence cancels out. Assessing the philosophy requires both close reading and examination of its political uses and commitments. Neither acclaim nor moral condemnation substitutes for that analysis.",
+    "4.1.4": "<strong>Annotation:</strong> Heidegger shifts phenomenological attention toward being-in-the-world and the conditions of understanding. Merleau-Ponty’s later work develops embodiment through its own engagement with Husserl and Heidegger; it is not simply an application of Heidegger’s concepts.",
+    "4.1.8": "<strong>Annotation:</strong> Heidegger’s critical retrieval of inherited metaphysical concepts supplies an important point of departure for Derrida. Heidegger’s dismantling of the tradition and Derrida’s deconstruction are related projects, not identical methods or the same concept passed unchanged from one author to another.",
+    "4.1.10": "<strong>Annotation:</strong> Marcuse’s engagement with Heidegger is one route into critical theory, but the Frankfurt School cannot be treated as uniformly Heideggerian. Critical responses are also forms of intellectual reception: a thinker may shape an inquiry by giving it an important target.",
+    "4.1.13": "<strong>Annotation:</strong> Theologians such as Rudolf Bultmann and Karl Rahner drew selectively on existential analysis. Their theological uses do not make Heidegger’s account itself a Christian doctrine or show that its conclusions entail their religious claims.",
+    "4.1.17": "<strong>Annotation:</strong> Existential approaches to psychology draw attention to how a person’s world, relationships, and possibilities are experienced. Such a framework can shape interpretation in therapy, but its philosophical influence should not be mistaken for evidence that a treatment is effective.",
+    "4.1.23": "<strong>Annotation:</strong> The critique of reducing nature to available resources gives environmental thinkers a question about how nature appears within modern practices. It does not by itself supply a complete environmental ethic or decide conflicts over land, energy, and human needs.",
+    "4.2.1": "<strong>Phenomenology:</strong> Heidegger recasts the inquiry into experience through practical existence and the question of being. This is a change of direction within a contested tradition, not an uncontested improvement on Husserl.",
+    "4.2.3": "<strong>Hermeneutics:</strong> His analysis of prior understanding helps explain why interpretation always begins somewhere. It also raises the question of how an interpreter can uncover and revise mistaken assumptions. Gadamer develops this issue in his own account of understanding.",
+    "4.2.4": "<strong>Continental philosophy:</strong> Heidegger is a major reference point in several European traditions, but this broad label does not name a single doctrine opposed to analysis or reason. Comparisons with analytic philosophy are clearer when they identify particular methods, arguments, and disagreements.",
+    "4.2.7": "Influence here includes adaptation, resistance, and criticism. A claim about a particular discipline is strongest when it identifies a thinker or text and shows what was taken up. Heidegger’s political commitments remain part of assessing that inheritance rather than a separate biographical detail to set aside.",
+    "5.2.2": "What does Heidegger argue that much traditional metaphysics leaves insufficiently examined?",
+    "5.2.5": "What term names the prior understanding that we bring to a text or experience and may revise through interpretation?",
+    "5.2.10": "The meaning of being, as distinct from explanations of particular beings.",
+    "5.2.15": "His Nazi Party membership, political commitments, and antisemitism, including questions about their relation to his philosophy.",
+    "6.1.6": "How does being-in-the-world challenge the picture of an isolated subject confronting external objects? What does the example of using a tool clarify?",
+    "6.1.11": "How does taking responsibility for one’s own possibilities differ from simply ignoring social expectations? Does Heideggerian authenticity guarantee moral goodness?",
+    "6.2.1": "<strong>Dasein and freedom:</strong> How do inherited circumstances both enable and constrain the possibilities we take up? Would describing this situated freedom settle a scientific or metaphysical debate about determinism?",
+    "6.2.6": "<strong>Technology:</strong> In what sense can treating a river chiefly as an energy resource both reveal something real and conceal other ways of encountering it? What would test the reach of this example?",
+    "6.2.8": "<strong>Comparing methods:</strong> Compare one Heideggerian analysis with one argument from an analytic philosopher on a shared problem. What counts as clarification, evidence, and a successful objection in each?",
+    "6.2.9": "<strong>Political commitments:</strong> Which texts and actions connect Heidegger’s philosophy with National Socialism and antisemitism? How should evidence of those connections change the interpretation of a particular concept?",
+    "6.2.12": "<strong>Further exploration:</strong> Choose a passage on tools, interpretation, or temporality in <em>Being and Time</em>. How would an annotated guide help you distinguish the passage’s argument from your own initial reading?"
+  },
+  "countChecks": [
+    {
+      "name": "sevenContributions",
+      "selector": "#prompt-2 .original-response > ol",
+      "child": "li",
+      "expected": [
+        7,
+        7
+      ]
+    },
+    {
+      "name": "quizQuestionsAndKeys",
+      "selector": "#prompt-5 .original-response > ol",
+      "child": "li",
+      "expected": [
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "discussionQuestions",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        12,
+        12
+      ]
+    }
+  ],
+  "headings": [
+    "Heidegger’s influence in two short accounts",
+    "Two selections of seven contributions",
+    "How Heidegger became influential",
+    "Schools and disciplines shaped by his work",
+    "Two seven-question quizzes and answer keys",
+    "Two sets of twelve discussion questions"
+  ],
+  "introHeading": "Being, practical involvement, and time",
+  "intro": "The two original responses follow Heidegger from his account of everyday existence to interpretation, technology, and later influence. They distinguish philosophical importance from endorsement and treat his Nazi commitment as a substantive part of assessing his legacy.",
+  "description": "Explore Heidegger’s being-in-the-world, temporality, interpretation, and technology through six original prompts, two response tracks, quizzes, and discussion.",
+  "leadingTextReplacements": {
+    "5.1.1": "Which term names the being whose own existence is at issue for it, including in everyday practical life?",
+    "5.1.11": "Which concept describes our already meaningful practical and social involvement in a world?"
+  }
+}

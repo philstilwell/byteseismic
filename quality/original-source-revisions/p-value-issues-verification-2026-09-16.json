@@ -1,0 +1,62 @@
+{
+  "pagePath": "/philosophy-of-science/p-value-issues/",
+  "sourceSha256": "9999125fee4619f510856e605e84a62f9749654e9876ea80feb17fcdbcbe8956",
+  "originalPrompts": 6,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 129,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 76,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "chatgptQuizQuestionAndOptionParagraphs": [
+      15
+    ],
+    "geminiQuizQuestionsAndKeys": [
+      5,
+      5
+    ],
+    "discussionQuestions": [
+      15,
+      15
+    ]
+  },
+  "sha256": "02f85581c46683324316e50727c71a179793de54f5da97c2dca835a7febdf717",
+  "snapshotMatchesCacheBytes": true,
+  "numericalChecks": {
+    "heightDifferenceInterval": [
+      -1,
+      3
+    ],
+    "overlapping95PercentIntervalsExample": {
+      "means": [
+        0,
+        3
+      ],
+      "standardErrors": [
+        1,
+        1
+      ],
+      "intervals": [
+        [
+          -1.96,
+          1.96
+        ],
+        [
+          1.04,
+          4.96
+        ]
+      ],
+      "differenceTwoSidedNormalP": 0.03389485352468924
+    },
+    "chatgptQuestionsAndFinalAnswers": [
+      5,
+      5
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "pagePath": "/introduction/miscellaneous-philosophers/",
+  "sourceSha256": "b4779950161606fcfa875c26e9ca6c5098a46a82ffa197bb4200e88e23c9d9e6",
+  "originalPrompts": 4,
+  "originalHeadings": 4,
+  "sourceColumns": 4,
+  "modelResponses": 4,
+  "blocksRetainedVerbatim": 44,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 44,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "twentyProfiles": [
+      20
+    ],
+    "twentyCandidateAssessments": [
+      20
+    ],
+    "discussionQuestions": [
+      15
+    ]
+  },
+  "sha256": "1f9cc2ce99d4950cdefde7da1237bc4ab1c13eb792440dd2a0e6f88528a88b32",
+  "snapshotMatchesCacheBytes": true
+}

@@ -1,0 +1,34 @@
+{
+  "pagePath": "/philosophers/martin-heidegger/",
+  "sourceSha256": "faa51c6c9bc4dd28ef7d4c912fdacd5700bd2d39560ea11cc79f3bbcbf9b6757",
+  "originalPrompts": 6,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 118,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 48,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "sevenContributions": [
+      7,
+      7
+    ],
+    "quizQuestionsAndKeys": [
+      7,
+      7,
+      7,
+      7
+    ],
+    "discussionQuestions": [
+      12,
+      12
+    ]
+  },
+  "sha256": "4ba141b8d620b6121681bd590768fdfea973fba1f5ab842c375636584152a537",
+  "snapshotMatchesCacheBytes": true
+}
