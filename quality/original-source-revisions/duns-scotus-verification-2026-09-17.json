@@ -1,0 +1,41 @@
+{
+  "pagePath": "/philosophers/duns-scotus/",
+  "sourceSha256": "84785896162cc4c5cdf0ed22187bd5c7b2ecfc0786a5d9c2507c27663b6f5e70",
+  "originalPrompts": 5,
+  "originalHeadings": 6,
+  "sourceColumns": 18,
+  "modelResponses": 18,
+  "blocksRetainedVerbatim": 132,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 57,
+  "bareAnswersExplicitlyRevised": 8,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "sevenContributions": [
+      7,
+      7,
+      7
+    ],
+    "sevenExpandableAnswers": [
+      7,
+      7,
+      7
+    ],
+    "sevenQuizQuestions": [
+      7,
+      7,
+      7
+    ],
+    "discussionQuestions": [
+      12,
+      12,
+      12
+    ]
+  },
+  "sha256": "cb08245839a6e4eb8d999a21a848faa3e28d32b04e5c92201ccda7f051cef20a",
+  "snapshotMatchesCacheBytes": true
+}

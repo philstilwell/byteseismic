@@ -1,0 +1,146 @@
+{
+  "wordpressId": 12719,
+  "pageFile": "philosophers/duns-scotus/index.html",
+  "snapshot": "duns-scotus-wordpress-12719.html",
+  "sourceSha256": "84785896162cc4c5cdf0ed22187bd5c7b2ecfc0786a5d9c2507c27663b6f5e70",
+  "sourceUrl": "http://byteseismic.com/2024/07/06/duns-scotus/",
+  "sourceLabel": "Original WordPress conversation, 2024-07-06",
+  "shellRevision": "71054d2c40877e8884d857f3253d03826eb9254f",
+  "date": "2026-09-17",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini",
+    "Claude"
+  ],
+  "replacements": {
+    "1.1.1": "Duns Scotus reshaped medieval debates about being, individuality, knowledge, and free choice. His account of <em>haecceity</em>, or thisness, asks what makes a being this individual rather than merely an instance of a kind. His univocity thesis requires a common concept of being in reasoning about God and creatures without making them beings of the same kind or perfection. These arguments became central to Scotism and to later scholastic disputes. His influence is clearest there; a direct path from every Scotist doctrine to Descartes or Kant needs separate historical evidence.",
+    "1.2.0": "Scotus, known as the Subtle Doctor, gave later philosophers precise ways to ask how beings are individual, how we can reason about God, and how choice can remain free. A common concept of being does not erase the distinction between an infinite God and finite creatures. His distinction between intuitive and abstractive cognition concerns whether something is known as presently existing, not simply whether a thought is concrete or general. These questions sustained a distinct Scotist tradition and disputes with rival scholastics.",
+    "1.3.1": "John Duns Scotus was a medieval philosopher and Franciscan theologian whose arguments became central to Scotism. His work treats individuation through <em>haecceity</em>, a common concept of being applicable to God and creatures, distinctions within a single reality, and the freedom of the will. His arguments about contingency and a first cause also remain objects of philosophical study. Their later relevance should be distinguished from the stronger historical claim that he directly originated modern theories of logic or mind.",
+    "2.1.2": "<strong>Description:</strong> Haecceity is the principle that makes a nature this individual. Two people share humanity but are not one person; listing shared features does not yet explain their numerical distinctness.",
+    "2.1.3": "<strong>Impact:</strong> This supplied a distinctive answer to the medieval problem of individuation. It is not a theory that everyone has a unique personality or that earlier philosophers ignored individuals. See <a href=\"https://www.logicmuseum.com/wiki/Authors/Duns_Scotus/Ordinatio/Ordinatio_II/D3/P1Q6\">Ordinatio II, distinction 3, part 1, question 6</a>.",
+    "2.1.5": "<strong>Description:</strong> A single concept of being must retain its meaning in reasoning about God and creatures. Scotus can affirm that common concept while distinguishing infinite and finite being; he does not make God one member of a creaturely species.",
+    "2.1.6": "<strong>Impact:</strong> Univocity supplies a way to avoid changing the meaning of a central term midway through an argument about God. Opponents can still challenge whether this common concept is adequate.",
+    "2.1.8": "<strong>Description:</strong> A formal distinction is grounded in the thing rather than merely invented by thought, yet does not divide it into separate things. Scotus uses such distinctions to analyze, for example, attributes within a single divine reality.",
+    "2.1.14": "<strong>Description:</strong> Intuitive cognition apprehends something as presently existing; abstractive cognition considers it without depending on that present existence. The latter can concern a particular thing as well as a universal. “Intuitive” here does not mean an unsupported hunch.",
+    "2.1.15": "<strong>Impact:</strong> The distinction makes present existence an explicit issue in knowing, rather than merely contrasting individuals with universals. Scotus develops it in theological contexts as well as accounts of cognition; see <a href=\"https://www.logicmuseum.com/wiki/Authors/Duns_Scotus/Ordinatio/Ordinatio_II/D3/P2Q2\">Ordinatio II, distinction 3, part 2, question 2, §§318–324</a>.",
+    "2.1.17": "<strong>Description:</strong> Scotus gives the will a capacity for free self-determination that is not exhausted by the intellect’s presentation of an attractive object. This does not make reasoning irrelevant or every arbitrary choice morally good.",
+    "2.2.1": "<strong>Univocity of being:</strong> Scotus requires a stable common concept when being is predicated of God and creatures. Infinite and finite are different modes of being, not merely higher and lower positions on one scale. Aquinas’s analogical account is also intended to preserve meaningful theological language; it is not simple equivocation.",
+    "2.2.2": "<strong>Intuitive and abstractive cognition:</strong> The key contrast is apprehension of something as presently existing versus consideration apart from that presence. Thinking of a particular absent person can be abstractive; the contrast is not just individual perception versus general concepts.",
+    "2.2.3": "<strong>Voluntarism in ethics:</strong> The will can determine itself among alternatives rather than being necessitated by whatever appears most advantageous. This gives freedom a central role while leaving room for intellectual guidance and moral standards.",
+    "2.2.4": "<strong>Formal distinction:</strong> Different formal aspects can be grounded within one thing without being independently existing components. A distinction between a common nature and what individuates it illustrates the problem: sharing humanity does not make two humans numerically one.",
+    "2.2.6": "<strong>Arguments for a first principle:</strong> Scotus reasons from causal dependence toward a first efficient cause, then develops arguments about primacy, unity, and infinity. This is a sequence of contested metaphysical inferences, not a deduction of God merely from an idea of perfect goodness.",
+    "2.3.1": "<strong>Haecceity:</strong> Thisness explains why something is this particular being rather than merely an instance of a common nature. The issue is individuation, which should not be conflated with the modern problem of personal identity over time.",
+    "2.3.2": "<strong>Univocity of being:</strong> God and creatures can fall under one concept of being without sharing the same finite nature. The proposal became a central point of contention in later scholastic metaphysics.",
+    "2.3.4": "<strong>Freedom of the will:</strong> Scotus gives the will a distinctive capacity for self-determination. Contrasting this with intellectualist accounts does not mean that Aquinas denied free choice or that Scotus endorsed irrational action.",
+    "2.3.5": "<strong>Contingency:</strong> Scotus explores how an alternative can remain possible at the very time an act occurs. That is stronger than saying the agent can change course later. Modern comparisons with possible-world reasoning are illuminating, but do not establish that Scotus invented modern modal semantics.",
+    "2.3.6": "<strong>Immaculate Conception:</strong> He defended the possibility that Mary’s preservation from original sin could itself be the effect of Christ’s redemptive work. This addresses an internal theological objection; it should be assessed within, and distinguished from, the premises of that theology.",
+    "2.3.7": "<strong>Argument for a first principle:</strong> Starting from what can be produced, Scotus argues through ordered causal dependence toward a first cause and then its attributes. Each transition requires argument; calling it a proof reports his ambition rather than universal philosophical acceptance.",
+    "3.1.8": "<strong>Description:</strong> Franciscan education and engagement with Aristotle, Avicenna, Henry of Ghent, and Aquinas placed Scotus within specific debates. Intellectual influence does not imply personal teaching or direct conversation with those predecessors.",
+    "3.1.9": "<strong>Impact:</strong> Addressing recognized problems gave scholars a reason to read his alternatives. The surviving arguments establish engagement more clearly than an unspecified story about mentors or collaboration.",
+    "3.1.14": "<strong>Description:</strong> Scotus developed unusually intricate distinctions and answers to objections within the shared scholastic practice of disputation. Precision was not his exclusive possession among medieval thinkers.",
+    "3.1.18": "<strong>Impact:</strong> Theological controversy helped sustain study of his positions. Their later ecclesiastical reception should not be projected backward as proof that they were uncontested in his lifetime.",
+    "3.2.4": "<strong>Franciscan institutions and followers:</strong> His order and university settings provided an institutional route for teaching and transmission. Later Scotists developed and defended his positions. Specific unnamed wealthy patrons need not be invented to explain that support.",
+    "3.2.5": "<strong>University debate:</strong> Oxford and Paris already sustained organized teaching and disputation. That setting supplied audiences, opponents, and textual practices through which difficult arguments could become influential.",
+    "3.3.4": "<strong>Engagement with predecessors and contemporaries:</strong> Scotus addressed arguments by Aquinas and Henry of Ghent. Aquinas died before Scotus’s mature career; this is textual engagement, not a report of personal debate between them.",
+    "4.1.3": "<strong>Impact:</strong> Scotist teaching and criticism by later scholastics, including Ockham, show that influence can take the form of disagreement rather than adoption.",
+    "4.1.8": "<strong>Description:</strong> Intuitive and abstractive cognition distinguish knowing a thing as present from considering it apart from present existence. The freedom of the will is a connected but distinct issue.",
+    "4.1.9": "<strong>Impact:</strong> Later scholastic debates developed the distinction. Direct influence on a particular early modern philosopher requires more evidence than similarity in vocabulary.",
+    "4.1.11": "<strong>Description:</strong> Scotus gives free self-determination a central role in action. Voluntarism names a family of positions about the will, not a doctrine he simply invented from nothing.",
+    "4.1.18": "<strong>Impact:</strong> Contemporary readers can compare his precise distinctions with analytic methods. This methodological resemblance alone does not establish a continuous line of influence to analytic philosophy.",
+    "4.1.21": "<strong>Impact:</strong> His account of univocal concepts gives a specific problem for philosophy of language: how can an argument keep a term’s meaning stable while its subjects differ radically?",
+    "4.2.3": "<strong>3. Philosophy of religion and theology:</strong> Arguments for a first cause belong to natural theology; the defense of Mary’s Immaculate Conception also relies on specifically Christian commitments. Keeping these settings distinct clarifies what each argument asks its reader to grant.",
+    "4.2.7": "<strong>Later scholasticism:</strong> The best-supported general claim concerns reception and dispute within scholastic traditions. The original’s specific claim about John Dury and Luis de Molina is not established here and should not stand as a demonstrated genealogy.",
+    "4.2.8": "<strong>Existentialist comparison:</strong> Kierkegaard’s attention to choice invites comparison, but a shared concern with freedom does not demonstrate direct borrowing from Scotus.",
+    "4.2.9": "<strong>Continental reception:</strong> Heidegger’s early work engaged material then attributed to Scotus, including a grammar now attributed to Thomas of Erfurt. This <a href=\"https://plato.stanford.edu/entries/erfurt/\">attribution history</a> complicates a simple claim of direct Scotist influence; it does not erase every connection to medieval thought.",
+    "4.3.3": "<strong>Modality:</strong> Scotus’s account of contingency remains relevant to discussion of possibility and freedom. That relevance is different from having founded modern possible-world semantics.",
+    "4.3.8": "<strong>Later scholastic and early modern debate:</strong> Thinkers could receive Scotist problems through criticism as well as agreement. Ockham is a medieval successor, not a modern philosopher; claims about Suárez or Descartes require attention to particular texts.",
+    "4.3.9": "<strong>Phenomenological reception:</strong> Heidegger’s early engagement with material attributed to Scotus provides a point of contact. The more sweeping claim that haecceity directly produced phenomenology is not established by that fact.",
+    "4.3.11": "<strong>Contemporary study of cognition:</strong> Scotus’s distinctions can be compared with present questions about perception and representation. This is a possible research comparison; no direct influence on cognitive science is demonstrated here.",
+    "5.1.1": "#2: What distinguishes intuitive from abstractive cognition for Scotus?",
+    "5.1.3": "#4: Which family of views gives the will a central role in free self-determination?",
+    "5.1.5": "#6: Why is similarity between Scotus’s method and analytic philosophy not sufficient to prove historical influence?",
+    "5.2.4": "5: Which distinction recognizes different formal aspects grounded in one reality without treating them as separate things?",
+    "5.3.6": "#7: Why should a modern comparison with possible worlds not be treated as proof that Scotus founded modern modal semantics?",
+    "6.1.1": "How does haecceity explain what shared features leave unexplained about two individuals of the same kind?",
+    "6.1.2": "What evidence would establish a historical connection between Scotist univocity and a particular claim by Descartes or Kant?",
+    "6.1.7": "What does Scotus gain by making fine distinctions, and when might those distinctions become difficult to justify?",
+    "6.1.9": "How did engagement with predecessors and contemporary debates shape Scotus’s problems, even without personal contact?",
+    "6.1.12": "Which later uses or criticisms of intuitive cognition would demonstrate reception, rather than merely similar concerns?",
+    "6.2.6": "Scotus’s argument for a first principle: Which premises connect causal dependence with a first cause, and what further arguments are needed for infinity and unity?",
+    "6.3.5": "How does Scotus’s account of a simultaneously possible alternative compare with modern possible-world reasoning? What would a historical influence claim require?",
+    "6.3.8": "How should we distinguish Heidegger’s engagement with material attributed to Scotus from a claim that Scotist thisness directly shaped phenomenology?",
+    "6.3.9": "How does Scotus’s understanding of faith and reason compare with that of his predecessor Thomas Aquinas?"
+  },
+  "countChecks": [
+    {
+      "name": "sevenContributions",
+      "selector": "#prompt-2 .original-response > ol",
+      "child": "li",
+      "expected": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "sevenExpandableAnswers",
+      "selector": "#prompt-5 .original-response",
+      "child": "details",
+      "recursive": true,
+      "expected": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "sevenQuizQuestions",
+      "selector": "#prompt-5 .original-response",
+      "child": "p",
+      "recursive": true,
+      "expected": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "discussionQuestions",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        12,
+        12,
+        12
+      ]
+    }
+  ],
+  "headings": [
+    "Scotus on being, individuality, and freedom",
+    "Three selections of seven contributions",
+    "Education, argument, and transmission",
+    "Scotist reception and later comparisons",
+    "Three seven-question quizzes with expandable answers",
+    "Three sets of twelve discussion questions"
+  ],
+  "introHeading": "Scotus on being, individuality, and freedom",
+  "intro": "The three original tracks move from Scotus’s influence to his contributions, intellectual setting, and reception. The revisions preserve his theological commitments while making the distinctions assessable: a shared concept of being is not a shared degree of existence, and knowing something as present differs from considering it without that commitment. The source labels its fifth section “Quizzes”; no missing curator prompt has been invented.",
+  "description": "Read Scotus on individuality, being, knowledge, and free choice through five original prompts, a quiz section, and three response tracks.",
+  "nonPromptSections": [
+    5
+  ],
+  "bareAnswerReplacements": {
+    "5.1.answer0": "Haecceity is the individuating principle by which a common nature is this individual, not merely a collection of distinctive personality traits.",
+    "5.1.answer1": "Intuitive cognition concerns a thing as presently existing; abstractive cognition considers it apart from that presence and can also concern a particular thing.",
+    "5.1.answer2": "It requires a common concept of being in reasoning about God and creatures, while allowing the distinction between infinite and finite being.",
+    "5.1.answer3": "Voluntarism. Scotus develops a distinctive account of the will within a longer history of debate, rather than introducing all concern with the will.",
+    "5.1.answer5": "A shared emphasis on precision shows a useful comparison. A claim of historical influence also needs a route of reception or textual engagement.",
+    "5.2.answer1": "He requires a common concept of being applicable to God and creatures; this does not identify their natures or reduce infinite and finite being to degrees on one scale.",
+    "5.2.answer6": "University teaching, Franciscan institutions, distinctive arguments, and later textual transmission are plausible factors. Unnamed patrons are not established by the account.",
+    "5.3.answer6": "A similar philosophical problem does not establish historical transmission. Scotus’s account of contingency predates, but is not identical to, modern possible-world semantics."
+  },
+  "pageSignals": {
+    "Page form": "Philosopher profile",
+    "Best for": "distinguishing being, individuality, and free choice"
+  }
+}

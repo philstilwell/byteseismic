@@ -1,0 +1,41 @@
+{
+  "pagePath": "/political-philosophy/elements-of-a-stable-state/",
+  "sourceSha256": "37104f144d5b87d25a21e7ccdb53abad34d5996203d85b5c99b8de2365fdab48",
+  "originalPrompts": 6,
+  "originalHeadings": 6,
+  "sourceColumns": 18,
+  "modelResponses": 18,
+  "blocksRetainedVerbatim": 135,
+  "tableCellsExplicitlyRevised": 3,
+  "blocksExplicitlyRevised": 86,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "threeFiveFactorTables": [
+      6,
+      6,
+      6
+    ],
+    "quizQuestionsAndListKeys": [
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "discussionQuestionsGrouped": [
+      15,
+      3,
+      3,
+      4,
+      5,
+      15
+    ]
+  },
+  "sha256": "771323fea54b3998dcd5a59999e4859a73cb90e2dfbcbe8b9165b8f778def55d",
+  "snapshotMatchesCacheBytes": true
+}

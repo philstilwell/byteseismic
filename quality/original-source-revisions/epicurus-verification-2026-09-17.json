@@ -1,0 +1,39 @@
+{
+  "pagePath": "/philosophers/epicurus/",
+  "sourceSha256": "8cee28dbd829112184dfd0e0921867e99e4e062896b3552df7a9965c6fc74488",
+  "originalPrompts": 6,
+  "originalHeadings": 6,
+  "sourceColumns": 18,
+  "modelResponses": 18,
+  "blocksRetainedVerbatim": 110,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 63,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "sevenContributions": [
+      7,
+      7,
+      7
+    ],
+    "quizQuestionsAndKeys": [
+      7,
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "discussionQuestions": [
+      12,
+      12,
+      12
+    ]
+  },
+  "sha256": "7764d58f2bc9c252c8a4ae1d865971f228a5d753fac8c3f0fb7a1698bad028eb",
+  "snapshotMatchesCacheBytes": true
+}

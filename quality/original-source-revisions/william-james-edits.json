@@ -1,0 +1,150 @@
+{
+  "wordpressId": 12486,
+  "pageFile": "philosophers/william-james/index.html",
+  "snapshot": "william-james-wordpress-12486.html",
+  "sourceSha256": "b5d703f89f12f43c69d3b697decc78a1ff5fef48bf706a84450d0e12246eab9a",
+  "sourceUrl": "http://byteseismic.com/2024/06/30/william-james/",
+  "sourceLabel": "Original WordPress conversation, 2024-06-30",
+  "shellRevision": "71054d2c40877e8884d857f3253d03826eb9254f",
+  "date": "2026-09-17",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini",
+    "Claude"
+  ],
+  "replacements": {
+    "1.1.1": "William James helped develop pragmatism by asking what practical difference an idea makes and how beliefs are tested in experience. His account of truth is not simply permission to call comforting ideas true: it includes verification, consistency with other experience, and engagement with a reality that can resist our wishes. His radical empiricism also treats experienced relations as part of what a philosophy of experience must explain. Together with his work on consciousness and religion, these arguments brought psychology and philosophy into sustained conversation.",
+    "1.2.0": "William James made pragmatism influential by connecting philosophical disputes to their consequences for experience and action. He did not replace reasoning with whatever happens to please us; his controversial theory asks how ideas guide us successfully through a world that can frustrate them. His stream-of-consciousness account and attention to habit, emotion, and belief also gave philosophy of mind a rich psychological vocabulary. His significance lies in these arguments and their reception, not in the claim that usefulness alone settles truth.",
+    "2.1.2": "<strong>Annotation:</strong> The pragmatic method asks what difference competing ideas would make in experience. James’s theory of truth then examines how ideas are verified and fit a wider body of experience. A comforting forecast that repeatedly fails is not rescued merely by making someone feel better; see <a href=\"https://www.gutenberg.org/cache/epub/5117/pg5117.html\">The Meaning of Truth</a>.",
+    "2.1.4": "<strong>Annotation:</strong> Radical empiricism includes experienced connections as well as the things connected. Hearing a melody involves transitions between notes, not just isolated sounds. James explores how knowing subject and known object can be roles within experience rather than two substances assumed in advance; see <a href=\"https://www.gutenberg.org/files/32547/32547-h/32547-h.htm\">Essays in Radical Empiricism</a>.",
+    "2.1.6": "<strong>Annotation:</strong> In <a href=\"https://www.gutenberg.org/files/26659/26659-h/26659-h.htm\">The Will to Believe</a>, James permits commitment on passional grounds when an option is live, forced, momentous, and not decidable on intellectual grounds. “Live” means a real possibility for the person; “forced” means withholding commitment also risks losing the opportunity; “momentous” marks a substantial stake. This disputed permission is narrower than believing whatever is useful or unproved.",
+    "2.1.8": "<strong>Annotation:</strong> James gave the stream of thought a systematic psychological treatment. Its felt continuity includes distinguishable resting points and transitions; it is not a featureless flow. The term later became important in literary criticism, but a shared label does not prove that every novelist borrowed a technique directly from him.",
+    "2.1.14": "<strong>Annotation:</strong> In the Varieties, healthy-mindedness emphasizes life’s positive possibilities, whereas the sick soul confronts suffering or evil as a deeper problem that optimism cannot simply remove. These are religious and existential temperaments in his analysis, not clinical diagnoses or a division of people into healthy optimists and ill pessimists.",
+    "2.2.1": "<strong>Pragmatism:</strong> James asks how an idea’s implications work out in experience. He connects truth with verification and wider consistency, so usefulness cannot mean any isolated benefit. Critics can still ask whether successful verification explains truth itself or only our grounds for believing; that is a stronger objection than attributing sheer wishful thinking to him.",
+    "2.2.2": "<strong>The Will to Believe:</strong> James defends commitment where a live, forced, momentous option cannot be settled intellectually. He argues that suspending commitment can itself lose an opportunity. The claim does not authorize ignoring available contrary evidence, and opponents can question whether the conditions are genuinely satisfied in a religious case.",
+    "2.2.3": "<strong>The stream of consciousness:</strong> Experience often feels continuous even as its focus changes. James distinguishes stable topics from the transitions that connect them, challenging a picture of thought as merely separate mental pieces. This is a descriptive proposal to assess, not the claim that thought has no distinguishable contents.",
+    "2.2.4": "<strong>Religious experience:</strong> The <a href=\"https://www.gutenberg.org/files/621/621-h/621-h.html\">Varieties</a> examines personal religious lives and evaluates their consequences while exploring possible wider interpretations. It does not establish a supernatural reality simply by recording powerful experiences. Its selected testimonies, many from Christian settings, are not a representative survey of all religions.",
+    "2.2.5": "<strong>Radical empiricism:</strong> Experienced relations, including continuity and separation, belong in the account alongside experienced things. This is more specific than the commonplace that perception is selective. James asks whether the world can be understood through these connections without importing an all-unifying substance or absolute mind.",
+    "2.2.6": "<strong>Pluralism:</strong> James resists the idea that every difference is already reconciled within one absolute whole. In <a href=\"https://www.gutenberg.org/cache/epub/11984/pg11984-images.html\">A Pluralistic Universe</a>, a pluralistic account allows relations to be partial and the future to involve real possibilities. This gives his defense of commitment a wider setting without claiming that a person’s wishes create arbitrary facts. This entry replaces the original list’s duplicate “Right to Believe” with a distinct contribution.",
+    "2.2.7": "<strong>Psychology:</strong> James’s work on habit, emotion, attention, and the self supplied important problems and descriptions for psychology. His role in American pragmatism should be placed alongside Peirce and Dewey; neither the movement nor American psychology was a two-person invention.",
+    "2.3.1": "<strong>Pragmatism:</strong> James developed the practical-consequences method and a theory connecting truth with verification in experience. Distinguishing a concept’s meaning from the truth of a belief prevents “practical” from doing unexplained work.",
+    "2.3.2": "<strong>Radical empiricism:</strong> James proposes that experienced things and relations can be described without first dividing reality into mental and material substances. Subject and object may be roles in different contexts of the same experience; this does not simply assert that the world is whatever one privately imagines.",
+    "2.3.3": "<strong>The Will to Believe:</strong> In some interpersonal cases, trust can help bring about the relationship it anticipates. James places his broader permission for commitment under the conditions of a live, forced, momentous option not intellectually decidable. Such cases do not establish a general power of belief to make facts true.",
+    "3.1.2": "<strong>Annotation:</strong> Medical and physiological study gave James resources for examining perception, habit, and mind. It supplied methods and problems, rather than guaranteeing scientific rigor in every later philosophical conclusion.",
+    "3.1.10": "<strong>Annotation:</strong> James developed a distinctive pragmatism and radical empiricism while acknowledging Peirce’s role in the pragmatic method. His accessible examples helped make difficult disputes available to wider audiences.",
+    "3.1.14": "<strong>Annotation:</strong> His documented personal difficulties provide context for his interest in agency, belief, and suffering. They do not allow a precise causal ranking or establish the validity of his arguments. Intellectual achievement should not be explained merely as an effect of illness.",
+    "3.2.1": "James’s prominence can be approached through his education, institutions, publications, and characteristic questions. Claims about exactly what motivated him are less secure than the record of what he taught and wrote.",
+    "3.2.3": "<strong>Intellectual upbringing:</strong> His father’s religious and philosophical interests and a broad education exposed James to competing ideas. This is a plausible formative influence, not a sufficient explanation of why this member of the family became a philosopher.",
+    "3.2.7": "<strong>Practical stakes:</strong> James asked how beliefs affect action and experience. His interest in those stakes helped communicate philosophical questions without making immediate convenience their sole standard.",
+    "3.2.9": "<strong>Teaching:</strong> Harvard gave James a sustained audience and an institutional platform. Teaching plausibly encouraged clarification, though that causal suggestion should not be confused with a measured account of his intellectual development.",
+    "3.2.12": "<strong>Pragmatist exchange:</strong> Peirce’s earlier articulation of the pragmatic method, James’s public development of it, and Dewey’s related but distinctive work created an argumentative network. Calling their moment simply favorable would omit those actual intellectual relationships.",
+    "3.2.13": "<strong>Nineteenth-century science:</strong> Evolutionary theory and physiological psychology provided questions about mind and adaptation. Calling this the “Scientific Revolution” can confuse it with the earlier historical period usually given that name.",
+    "3.3.3": "<strong>3. Personal difficulties:</strong> Health struggles form part of James’s biography and help contextualize his interest in agency and suffering. Their precise role in causing particular doctrines remains interpretive; illness is not a substitute for examining an argument.",
+    "4.1.2": "<strong>Annotation:</strong> James was a leading developer and public advocate of pragmatism alongside Peirce and Dewey. His version generated debate about truth and verification; it should not be treated as the sole founding formulation.",
+    "4.1.6": "<strong>Annotation:</strong> Descriptions of the stream of thought and experienced relations invite comparison with phenomenology. Establishing influence on a particular phenomenologist requires textual evidence beyond their common interest in experience.",
+    "4.1.8": "<strong>Annotation:</strong> Choice, commitment, and personal stakes create substantive comparisons with existentialist themes. They do not make James an existentialist or establish a direct lineage to the whole movement.",
+    "4.1.17": "<strong>Annotation:</strong> <a href=\"https://www.gutenberg.org/files/16287/16287-h/16287-h.htm\">Talks to Teachers</a> applies discussions of habit, attention, and interest to education, while warning that psychology cannot mechanically dictate teaching. This is more specific than attributing every form of learning by doing to James.",
+    "4.1.21": "<strong>Annotation:</strong> James’s account of truth links successful verification with experience and reality. Its continuing philosophical interest includes the objection that a theory of verification may not yet explain what makes a belief true.",
+    "4.1.23": "<strong>Annotation:</strong> His descriptions of attention, habit, and consciousness remain historically relevant to studying mind. Particular claims of influence on later cognitive science require identification of the theories and researchers concerned.",
+    "4.1.25": "<strong>Annotation:</strong> “Stream of consciousness” became a label for literary portrayals of mental life, including work by Woolf and Joyce. The history of that critical term and a novelist’s direct debt to James are separate questions.",
+    "4.2.2": "<strong>Pragmatism:</strong> James helped develop a movement that also includes Peirce and Dewey. Its versions differ. His emphasis on experience and consequences does not imply that any immediately useful belief is true or that reality places no constraints on inquiry.",
+    "4.2.4": "<strong>Existentialist comparisons:</strong> His attention to choice and commitment provides points of comparison. An “absurd world” is not a premise required by James’s philosophy, and a shared theme does not prove historical dependence.",
+    "4.2.5": "<strong>Analytic philosophy:</strong> There is no necessary opposition between pragmatism and analytic argument. James’s work on truth and experience supplies claims that later philosophers can adopt, refine, or criticize; the relevant connection must be shown in particular texts.",
+    "4.2.8": "<strong>Religious studies:</strong> The Varieties made personal testimony and the consequences of religious life prominent subjects of inquiry. Its selected examples and James’s own philosophical interpretations should be distinguished from either a cross-cultural census or a proof of religious doctrines.",
+    "4.2.9": "<strong>Education:</strong> James directly addressed teachers about habit, attention, and motivation. Applying these discussions is more specific than attributing all progressive education to his pragmatism.",
+    "4.2.10": "<strong>Legal thought:</strong> Attention to practical consequences can illuminate institutional choices. The wider history of legal pragmatism, however, cannot be inferred merely from James’s use of the word pragmatic; particular borrowings need evidence.",
+    "4.3.4": "<strong>4. Existentialist comparison:</strong> James’s questions about choice and commitment overlap with later existential themes, without establishing influence on every thinker placed in that tradition.",
+    "4.3.7": "<strong>7. Cognitive science:</strong> His work remains a historical resource on attention, habit, selfhood, and consciousness. Relevance to a modern problem should be distinguished from having anticipated its current theory.",
+    "4.3.8": "<strong>8. Literature:</strong> The stream-of-consciousness label links psychology and literary criticism. A direct causal claim about a particular writer requires evidence beyond the resemblance of the technique to mental flow.",
+    "4.3.10": "<strong>10. Neurophilosophy:</strong> James’s treatment of mind and bodily conditions provides a historical point of comparison. It does not establish the truth of a present neurological theory or show direct influence on the field as a whole.",
+    "5.1.1": "<details><summary>Answer:</summary>James connects an idea’s meaning to its practical implications and truth to verification in experience, constrained by reality and other established beliefs. Immediate comfort alone is insufficient.</details>",
+    "5.1.5": "<details><summary>Answer:</summary>The phrase became a label for literary portrayals of mental life. That terminological connection does not establish that every modernist writer directly borrowed a technique from James.</details>",
+    "5.1.9": "<details><summary>Answer:</summary>His broad interests and engaging communication plausibly helped his reception; education, Harvard teaching, and major publications provide firmer institutional evidence. Private motivations cannot be ranked with precision.</details>",
+    "5.1.13": "<details><summary>Answer:</summary>It defends passional commitment for a live, forced, momentous option not decidable on intellectual grounds. Those conditions, and whether religious examples meet them, are central to the debate.</details>",
+    "5.2.5": "6: How did nineteenth-century developments in evolution and physiological psychology shape the questions James examined?",
+    "5.3.8": "#5: What approach includes experienced relations as well as experienced things without first dividing them into mental and material substances?",
+    "5.3.10": "#6: Which literary movement is associated with techniques later described as “stream of consciousness,” without that label alone proving direct borrowing from James?",
+    "6.1.5": "When do James’s conditions for a live, forced, momentous option permit commitment, and when would withholding belief remain appropriate?",
+    "6.1.7": "What can biography tell us about James’s philosophical interests, and where would explaining a doctrine through personal illness exceed the evidence?",
+    "6.2.2": "<strong>Continuity and distinct contents:</strong> How does James’s account of resting points and transitions fit your experience of thought? Does identifying a particular thought require treating the surrounding stream as disconnected?",
+    "6.2.9": "<strong>James and philosophical method:</strong> How does asking about practical consequences change a dispute without dispensing with logic or evidence?",
+    "6.3.0": "Here are twelve discussion questions, matching the original curator prompt:",
+    "6.3.5": "5. What evidence would connect James’s personal struggles with a particular philosophical claim, and what would remain speculative?",
+    "6.3.12": "12. Which comparisons between James and existentialism are substantive, and what evidence would establish direct historical influence?"
+  },
+  "countChecks": [
+    {
+      "name": "sevenContributions",
+      "selector": "#prompt-2 .original-response > ol",
+      "child": "li",
+      "expected": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "originalQuizAnswerCounts",
+      "selector": "#prompt-5 .original-response",
+      "child": "details",
+      "recursive": true,
+      "expected": [
+        7,
+        6,
+        7
+      ]
+    },
+    {
+      "name": "originalQuizQuestionCounts",
+      "selector": "#prompt-5 .original-response",
+      "child": "p",
+      "recursive": true,
+      "expected": [
+        7,
+        6,
+        7
+      ]
+    },
+    {
+      "name": "discussionListCounts",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        12,
+        12
+      ]
+    },
+    {
+      "name": "claudeTwelveDiscussionParagraphsPlusIntroduction",
+      "selector": "#prompt-6 .original-response[data-source-column=\"3\"]",
+      "child": "p",
+      "expected": [
+        13
+      ]
+    }
+  ],
+  "headings": [
+    "James on truth, experience, and belief",
+    "Three annotated selections of seven contributions",
+    "Formation, public teaching, and philosophical reputation",
+    "Schools, disciplines, and degrees of influence",
+    "The original quizzes with expandable answers",
+    "Three sets of twelve discussion questions"
+  ],
+  "introHeading": "James on truth, experience, and belief",
+  "intro": "The original conversation moves through James’s influence, seven contributions, reasons for his prominence, later reception, quizzes, and discussion questions. The three response tracks are retained. The quiz section has no separate curator prompt and contains seven, six, and seven questions respectively; those source counts are preserved. The final prompt asks for twelve questions, despite a conflicting fifteen-question label in the original navigation and one response introduction.",
+  "description": "Explore William James on pragmatism, radical empiricism, belief, and consciousness through five original prompts, the original quizzes, and three response tracks.",
+  "nonPromptSections": [
+    5
+  ],
+  "disclosureParagraphsAsDiv": true,
+  "bareAnswerReplacements": {
+    "5.2.answer1": "Thought has distinguishable contents and transitions within a felt continuity; the stream metaphor does not deny every difference between thoughts.",
+    "5.2.answer2": "James permits commitment for a live, forced, momentous option that cannot be decided intellectually. The absence of proof alone is not sufficient.",
+    "5.2.answer5": "They supplied problems about adaptation, habit, bodily processes, and consciousness. James examined these connections while also asking how scientific description relates to belief and value."
+  },
+  "pageSignals": {
+    "Page form": "Philosopher profile",
+    "Best for": "testing truth, experience, and warranted belief"
+  }
+}

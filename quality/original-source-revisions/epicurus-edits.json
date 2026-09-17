@@ -1,0 +1,130 @@
+{
+  "wordpressId": 8288,
+  "pageFile": "philosophers/epicurus/index.html",
+  "snapshot": "epicurus-wordpress-8288.html",
+  "sourceSha256": "8cee28dbd829112184dfd0e0921867e99e4e062896b3552df7a9965c6fc74488",
+  "sourceUrl": "http://byteseismic.com/2024/05/08/epicurus/",
+  "sourceLabel": "Original WordPress conversation, 2024-05-08",
+  "shellRevision": "71054d2c40877e8884d857f3253d03826eb9254f",
+  "date": "2026-09-17",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini",
+    "Claude"
+  ],
+  "replacements": {
+    "1.1.1": "Epicurus made pleasure central to ethics while asking which choices actually sustain a pleasant life. His Epicurean school connected modest desires, friendship, freedom from mental disturbance (<em>ataraxia</em>), and freedom from bodily pain (<em>aponia</em>) with a natural account of the world in terms of atoms and void. He accepted gods but rejected their management of human affairs. The resulting challenge to providence and anxious ambition shaped his followers, notably Lucretius, and supplied later readers with a durable alternative to ethics grounded in divine command.",
+    "1.2.0": "Epicurus’s influence extends beyond the ancient Garden through his insistence that philosophy should help people live well. He joined atomistic explanations of nature to an ethics of pleasure, moderation, and friendship: understanding nature could weaken fear of divine punishment, while limiting desires could reduce dependence on fortune. Later readers inherited both an account of material nature and a practical challenge to status-seeking. His physics belongs to ancient natural philosophy; its historical importance does not make it modern experimental science.",
+    "1.3.0": "Epicurus (341–270 BCE) founded Epicureanism, a school that treated pleasure as the good and prudent choice as the way to a secure, enjoyable life. Simple living, friendship, and freedom from fear mattered because some immediate pleasures bring greater later distress, while some pains are worth accepting. His ethical arguments and material account of nature became especially influential through Roman Epicureanism and Lucretius. He challenged religious fear without simply denying gods, and made virtue part of living pleasantly rather than dismissing it as social convention.",
+    "2.1.1": "<strong>Atomism:</strong> Epicurus adapted Democritus’s account of atoms and void to explain nature without divine management. This was an important naturalistic alternative, not a discovery of the atoms studied by modern chemistry.",
+    "2.1.4": "<strong>Well-being and friendship:</strong> Epicurus linked a fulfilled life to manageable desires and dependable friends. Friendship is a source of security and shared enjoyment, which complicates any picture of his ethics as solitary gratification.",
+    "2.1.5": "<strong>Criteria of knowledge:</strong> Sensations, preconceptions, and feelings of pleasure and pain provide starting points for judgment. Mistakes arise in what we infer or add to experience; this is not a claim that every everyday belief about what we see is correct.",
+    "2.1.6": "<strong>Desire and prudent choice:</strong> Epicurus distinguished natural and necessary desires, natural but unnecessary desires, and groundless desires. Water can answer thirst; an endless demand for prestige has no comparable stopping point. The distinction helps explain why more acquisition need not mean a better life.",
+    "2.2.2": "<strong>The four-part remedy:</strong> The later Epicurean summary called the <em>tetrapharmakos</em> joins four claims: divine beings need not frighten us; death involves no experience for the dead; basic goods are attainable; and pains can be borne. It condenses themes of the <a href=\"https://classics.mit.edu/Epicurus/princdoc.html\">Principal Doctrines, 1–4</a>. Its confidence about pain is a philosophical claim to assess, not a guarantee that suffering is slight.",
+    "2.2.3": "<strong>Materialism:</strong> An account of atoms and void offers natural explanations of bodies and change. Epicurus rejected providential control, but did not infer that gods do not exist. His ancient theory lacks the experimental basis and particle structure of modern physics.",
+    "2.2.4": "<strong>The atomic swerve:</strong> Epicurean physics includes an undetermined deviation in atomic motion, called <em>clinamen</em> in Lucretius’s Latin account. <a href=\"https://classics.mit.edu/Carus/nature_things.2.ii.html\">Lucretius, Book II</a>, connects it with encounters between atoms and resistance to universal necessity. It is not an anticipation of quantum mechanics, and randomness by itself does not explain responsible choice.",
+    "2.2.5": "<strong>Epistemology:</strong> Sensory experience constrains explanations, including inferences about things too small to see. Distinguish an appearance from the judgment added to it: seeing a distant shape and concluding that it is a particular person are different steps.",
+    "2.3.3": "<strong>The four-part remedy:</strong> A later Epicurean digest summarizes freedom from fear of gods and death, the attainability of basic goods, and the bearability of pain. These claims explain the school’s therapeutic ambition. Their limits, particularly concerning severe suffering and deprivation, remain open to criticism.",
+    "2.3.5": "<strong>Empiricism and naturalism:</strong> Epicurus used experience to constrain explanations of nature. Sensation does not dispense with reasoning: invisible atoms must be inferred. His approach should therefore be distinguished both from uncritical trust in appearances and from modern experimental method.",
+    "2.3.7": "<strong>Self-interest, virtue, and friendship:</strong> The individual’s pleasant life supplies the ethical starting point, but prudence, justice, and friendship are integral to that life. The <a href=\"https://classics.mit.edu/Epicurus/menoec.html\">Letter to Menoeceus</a> explicitly connects pleasure with virtuous living. Whether friendship is valued only instrumentally is a further interpretive question, not settled by calling the view egoistic.",
+    "3.1.1": "<strong>Philosophical innovation:</strong> Epicurus did not invent atomism or pleasure-based ethics. His distinctive achievement was to combine and revise inherited ideas into a system connecting explanations of nature, standards of knowledge, and the removal of fear.",
+    "3.1.6": "<strong>Transmission and later reception:</strong> Lucretius’s poem and the preservation of letters and doctrines gave later readers access to the school. These help explain Epicurus’s enduring prominence; they are not causes of his initial success in Athens.",
+    "3.1.7": "<strong>Continuing practical appeal:</strong> Questions about enough wealth, dependable friends, and fear of death allow later readers to engage the philosophy in new circumstances. This is a plausible explanation of recurring interest, not evidence that the teachings appeal universally or guarantee happiness.",
+    "3.2.0": "Several features plausibly explain Epicurus’s prominence. The school and surviving texts are evidence; the relative causal weight of each feature cannot be measured from this outline.",
+    "3.2.1": "<strong>Challenge to prevailing views:</strong> A natural account of the cosmos and a rejection of divine intervention gave the Garden a distinctive position among rival schools. Controversy could attract both adherents and opponents.",
+    "3.2.2": "<strong>A practical account of happiness:</strong> Happiness was also central to other Greek schools. Epicurus stood out through his particular account of pleasure, manageable desires, and freedom from fear, not by being the first to care about living well.",
+    "3.2.3": "<strong>Connections within the system:</strong> Physics, knowledge, and ethics reinforced one another: an explanation of thunder without an angry god could also reduce anxiety. This link made the system more than a collection of comforting maxims.",
+    "3.2.5": "<strong>Different forms of teaching:</strong> Letters and concise doctrines made central ideas portable, alongside demanding technical work. Accessibility helps explain transmission without implying that all Epicurean writing was elementary or all rival schools obscure.",
+    "3.2.6": "The Garden supplied a community, while teachings and later texts carried its arguments beyond that community. These mechanisms explain possible routes to prominence without treating fame as proof that the philosophy is correct.",
+    "3.3.2": "<strong>Disagreement with rival schools:</strong> Challenges to providence, Platonic metaphysics, and rival accounts of pleasure helped define Epicurus’s position. This concerns identifiable disagreements; his private motivations should not be reconstructed simply as dislike of complexity.",
+    "3.3.3": "<strong>A connected philosophical system:</strong> Epicurus linked physics, knowledge, and ethics. Other major philosophers also built comprehensive systems; the distinctive feature was how his explanations of nature served the reduction of fear and the pursuit of pleasure.",
+    "3.3.4": "<strong>The Garden:</strong> A durable teaching community gave adherents a place to study and practice friendship. Calling it a monastery imports later religious institutions into an ancient philosophical setting.",
+    "3.3.6": "<strong>Memorable teaching:</strong> Short letters and doctrines could preserve core arguments for pupils and later readers, even though much Epicurean writing was technical.",
+    "4.1.4": "Utilitarianism shares the importance of pleasure and suffering, but its impartial concern with everyone’s welfare differs from Epicurus’s starting point in an individual’s pleasant life. Comparison is useful; a shared vocabulary alone does not establish a direct line of influence.",
+    "4.1.8": "Questions about mortality and living without providential guarantees invite comparison with existentialism. This is a thematic connection, not evidence that Epicurus founded or directly shaped the movement as a whole.",
+    "4.1.10": "Examining fears and desires invites comparison with psychological approaches that scrutinize beliefs. Such resemblance does not establish that modern cognitive behavioral therapy derives from Epicurus or that his philosophy is a treatment of demonstrated clinical effectiveness.",
+    "4.1.12": "Epicurean atomism mattered to the history of natural philosophy, especially through Lucretius and its later revival. Its importance lies in a natural explanatory tradition; present scientific methods and atomic theories require evidence and concepts absent from the ancient system.",
+    "4.1.17": "The strongest direct case here is Roman Epicureanism and its literary transmission. Ethics and natural philosophy also provide substantive histories of reception; the existential and therapeutic comparisons should be read as parallels rather than demonstrated genealogies.",
+    "4.2.1": "<strong>Ethics:</strong> Epicureanism became a major ancient account of the good life. Stoicism was a rival with a different account of virtue and pleasure, while utilitarianism later made happiness central in a distinct, impartial framework. Neither should be described simply as Epicureanism under another name.",
+    "4.2.2": "<strong>Epistemology:</strong> Its reliance on experience belongs to the history of empiricist approaches. A resemblance to later empiricism does not by itself prove that a particular later thinker borrowed the doctrine.",
+    "4.2.3": "<strong>Natural philosophy:</strong> Epicurean atomism supplied a historically important material explanation of nature. Modern atomic science does not validate all its claims: the ancient indivisible particles are not identical to modern chemical atoms.",
+    "4.2.5": "<strong>Modern comparisons:</strong> Friendship, manageable desires, and enjoyment give contemporary readers questions to compare with research on well-being. This is a reason for continuing interest, not a demonstrated origin story for positive psychology.",
+    "4.3.2": "<strong>Utilitarianism:</strong> Pleasure and suffering connect the views, but Epicurus’s concern with the agent’s life differs from an impartial calculation of overall welfare. Treat this as a philosophical comparison unless a specific historical route is supplied.",
+    "4.3.3": "<strong>Empiricism:</strong> Epicurus belongs to the history of experience-based accounts of knowledge. This broad placement is firmer than the claim that he directly laid the foundations for every doctrine of Locke or Hume.",
+    "4.3.5": "<strong>Ethics:</strong> His relation between pleasure and virtue remains a substantive issue: can justice and concern for friends be justified through the agent’s well-being without reducing them to opportunism?",
+    "4.3.8": "<strong>Psychology and philosophical therapy:</strong> His attempts to reduce fear are relevant to reflection on well-being. Applying those arguments today requires distinguishing philosophical exercises from evidence-based clinical care.",
+    "5.1.4": "Which surviving letter presents Epicurus’s ethical advice about pleasure and choice?",
+    "5.1.5": "Why is a resemblance between Epicurean exercises and a modern therapy insufficient to establish historical influence?",
+    "5.1.12": "The Letter to Menoeceus.",
+    "5.1.13": "Shared concerns do not show transmission or borrowing; a historical claim needs evidence of that connection.",
+    "5.2.2": "What is the name of the later Epicurean four-part summary of remedies for anxiety?",
+    "5.2.3": "Why should Epicurus’s atoms not be identified with the atoms of modern chemistry?",
+    "5.2.7": "Which Roman poet directly expounded Epicurean physics and ethics?",
+    "5.2.11": "Ancient atomism was a philosophical account of indivisible bodies, not a modern experimentally established theory of chemical atoms and their structure.",
+    "5.2.15": "Lucretius.",
+    "5.3.4": "Which later ethical theory shares a focus on happiness but differs in its impartial concern for everyone’s welfare?<br>a) Kantianism<br>b) Divine command theory<br>c) Utilitarianism<br>d) Ascetic rejection of pleasure",
+    "5.3.7": "Which work directly expounds Epicurean physics in verse?<br>a) Lucretius’s On the Nature of Things<br>b) Plato’s Republic<br>c) Aristotle’s Poetics<br>d) Kant’s Critique of Pure Reason",
+    "6.1.2": "How might Epicurus’s atomism have challenged rival accounts of nature in antiquity? What evidence would those rivals require?",
+    "6.1.6": "Compare Epicurean tranquility with the Stoic aim of freedom from disordered passions. Why should neither be equated with complete emotional numbness?",
+    "6.1.8": "How does Epicurus’s reliance on experience compare with modern scientific methods, and where do the methods differ?",
+    "6.1.11": "Which comparisons with existentialism and utilitarianism are substantive, and what additional evidence would establish historical influence?",
+    "6.2.5": "What problem is the atomic swerve meant to solve? Why would randomness alone be insufficient to explain responsible choice?",
+    "6.2.8": "How should philosophical proposals about nature be constrained by observation, and when can competing explanations remain unresolved?",
+    "6.3.7": "How convincing is the four-part remedy’s claim that basic goods are attainable in conditions of poverty or deprivation?",
+    "5.3.1": "Which of the following did Epicurus NOT advocate as part of his “Four-Part Cure” for achieving peace of mind and happiness?<br>a) Don’t fear the gods<br>b) Don’t fear death<br>c) Pursue wealth and power<br>d) What is good is easy to obtain<br>e) What is terrible is easy to endure",
+    "5.3.2": "Epicurus founded a philosophical community known as:<br>a) The Academy<br>b) The Lyceum<br>c) The Garden<br>d) The Stoa",
+    "5.3.3": "According to Epicurus, the human mind (psyche) is composed of:<br>a) A divine essence<br>b) Extremely fine atoms dispersed throughout the body<br>c) A non-physical, eternal soul<br>d) A complex system of nerves and humors",
+    "5.3.5": "Epicurus drew inspiration from which earlier philosopher’s atomic theory?<br>a) Socrates<br>b) Plato<br>c) Aristotle<br>d) Democritus",
+    "5.3.6": "Which of the following is NOT one of the reasons cited for Epicurus becoming a notable philosopher?<br>a) Influence of Democritus<br>b) Rejection of contemporary philosophy<br>c) Development of a comprehensive system<br>d) Patronage from wealthy benefactors"
+  },
+  "countChecks": [
+    {
+      "name": "sevenContributions",
+      "selector": "#prompt-2 .original-response > ol",
+      "child": "li",
+      "expected": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "quizQuestionsAndKeys",
+      "selector": "#prompt-5 .original-response > ol",
+      "child": "li",
+      "expected": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "discussionQuestions",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        12,
+        12,
+        12
+      ]
+    }
+  ],
+  "headings": [
+    "Pleasure, fear, and Epicurus’s influence",
+    "Three selections of seven contributions",
+    "Why the Garden and its teachings endured",
+    "Reception, shared questions, and limits of influence",
+    "Three seven-question quizzes with answer keys",
+    "Three sets of twelve discussion questions"
+  ],
+  "introHeading": "Pleasure, fear, and Epicurus’s influence",
+  "intro": "The original three responses trace Epicurus’s influence, seven contributions, reasons for his prominence, and later reception before the quizzes and discussion questions. The editorial revisions distinguish his account of a pleasant life from indulgence, his ancient atomism from modern physics, and documented reception from thematic resemblance.",
+  "description": "Explore Epicurus on pleasure, friendship, nature, and fear through six original prompts and three distinct response tracks.",
+  "pageSignals": {
+    "Page form": "Philosopher profile",
+    "Best for": "examining pleasure, friendship, and fear"
+  }
+}

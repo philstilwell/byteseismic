@@ -40,6 +40,12 @@ def sections(source, config=None):
         if index in pairs.values():
             continue
         cols = h.find_next_sibling().select(':scope > .wp-block-column')
+        if index in (config or {}).get('siblingColumnHeadingIndexes', []):
+            cols = []
+            for sibling in h.find_next_siblings():
+                if sibling.name == 'h2':
+                    break
+                cols.extend(sibling.select(':scope > .wp-block-column'))
         if str(index) in pairs:
             response_index = pairs[str(index)]
             assert response_index == index + 1
@@ -142,6 +148,15 @@ def edited_column(original, n, c, config):
             node.clear()
             for child in list(BeautifulSoup(config['replacements'][key], 'html.parser').contents):
                 node.append(child)
+    for i, answer in enumerate(col.find_all('details')):
+        key = f'{n}.{c}.answer{i}'
+        if key in config.get('bareAnswerReplacements', {}):
+            assert not answer.find_all(TAGS)
+            assert not any(parent.name in TAGS for parent in answer.parents)
+            summary = answer.summary.extract()
+            answer.clear()
+            answer.append(summary)
+            answer.append(config['bareAnswerReplacements'][key])
     cell_edits = config.get('tableCellReplacements', {})
     for t, table in enumerate(col.find_all('table')):
         for r, row in enumerate(table.find_all('tr')):
@@ -346,6 +361,12 @@ def verify(config, rendered):
             assert [ol.get('start', '1') for ol in expected.find_all('ol')] == [
                 ol.get('start', '1') for ol in actual.find_all('ol')
                 if 'source-dialogue' not in ol.get('class', [])]
+            for i, (old_answer, new_answer) in enumerate(zip(col.find_all('details'), actual.find_all('details'))):
+                key = f'{n}.{c}.answer{i}'
+                if key in config.get('bareAnswerReplacements', {}):
+                    assert new_answer.summary.get_text() == old_answer.summary.get_text()
+                    assert new_answer.get_text() == old_answer.summary.get_text() + config['bareAnswerReplacements'][key]
+                    used.add(key)
             dialogue = config.get('dialogues', {}).get(f'{n}.{c}')
             if dialogue:
                 lines = actual.select_one('.source-dialogue').find_all('li', recursive=False)
@@ -360,7 +381,7 @@ def verify(config, rendered):
                 clone = copy.deepcopy(actual)
                 clone.find('h3', recursive=False).decompose()
                 assert str(clone) == str(expected), (n, c, 'complete response mismatch')
-    edits = set(config['replacements']) | set(config.get('leadingTextReplacements', {})) | set(config.get('tableCellReplacements', {}))
+    edits = set(config['replacements']) | set(config.get('leadingTextReplacements', {})) | set(config.get('tableCellReplacements', {})) | set(config.get('bareAnswerReplacements', {}))
     assert used == edits, ('Unused edits', edits - used)
     image_keys = set()
     for n, (_, cols) in enumerate(original, 1):
@@ -400,7 +421,7 @@ def verify(config, rendered):
             'sourceColumns': sum(len(cols) for _, cols in original),
             'modelResponses': sum(len(cols) for _, cols in original) - len(config.get('nonResponseColumns', [])), 'blocksRetainedVerbatim': retained,
             'tableCellsExplicitlyRevised': len(config.get('tableCellReplacements', {})),
-            'blocksExplicitlyRevised': changed, 'promptOrderExact': True,
+            'blocksExplicitlyRevised': changed, 'bareAnswersExplicitlyRevised': len(config.get('bareAnswerReplacements', {})), 'promptOrderExact': True,
             'sourceBlockOrderExact': True,
             'listAndTableStructuresPreserved': not bool(config.get('listItemContinuations') or config.get('responseAppendices')),
             'explicitListItemSplits': list(config.get('listItemContinuations', {})),

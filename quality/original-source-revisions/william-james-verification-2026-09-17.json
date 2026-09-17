@@ -1,0 +1,43 @@
+{
+  "pagePath": "/philosophers/william-james/",
+  "sourceSha256": "b5d703f89f12f43c69d3b697decc78a1ff5fef48bf706a84450d0e12246eab9a",
+  "originalPrompts": 5,
+  "originalHeadings": 6,
+  "sourceColumns": 18,
+  "modelResponses": 18,
+  "blocksRetainedVerbatim": 142,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 58,
+  "bareAnswersExplicitlyRevised": 3,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "sevenContributions": [
+      7,
+      7,
+      7
+    ],
+    "originalQuizAnswerCounts": [
+      7,
+      6,
+      7
+    ],
+    "originalQuizQuestionCounts": [
+      7,
+      6,
+      7
+    ],
+    "discussionListCounts": [
+      12,
+      12
+    ],
+    "claudeTwelveDiscussionParagraphsPlusIntroduction": [
+      13
+    ]
+  },
+  "sha256": "44e8bedfe704c1d4527326bc26c8bf47ff047318dd00c36d8f166d59b71b8661",
+  "snapshotMatchesCacheBytes": true
+}
