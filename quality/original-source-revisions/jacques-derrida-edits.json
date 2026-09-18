@@ -1,0 +1,153 @@
+{
+  "wordpressId": 11058,
+  "pageFile": "philosophers/jacques-derrida/index.html",
+  "snapshot": "jacques-derrida-wordpress-11058.html",
+  "sourceSha256": "3856534f5cfa0feabe610b66eee6770749fc31970cc49bcfd6d0e93966e96ed3",
+  "sourceUrl": "http://byteseismic.com/2024/06/01/jacques-derrida/",
+  "sourceLabel": "Original WordPress conversation, 2024-06-01",
+  "shellRevision": "e409f91da6b9510d27e00c370f40619f5bb1542c",
+  "date": "2026-09-18",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini",
+    "Claude"
+  ],
+  "headings": [
+    "Derrida and the conditions of meaning",
+    "Three annotated selections of seven contributions",
+    "Ideas, institutions, and the growth of a reputation",
+    "Different forms of intellectual influence",
+    "The original ten-question quizzes"
+  ],
+  "introHeading": "Derrida and the conditions of meaning",
+  "intro": "The original page contains four curator prompts followed by a section headed “Quizzes.” Its three responses to each prompt and three ten-question quizzes are preserved. There is no separate original quiz prompt or discussion-question section to reconstruct. The explanations distinguish Derrida’s criticism of self-sufficient meaning from the claim that words mean nothing or that every interpretation is equally defensible.",
+  "description": "Read Derrida’s deconstruction, différance, and critique of presence through four original prompts, three response tracks, and the original quizzes.",
+  "replacements": {
+    "1.1.1": "Jacques Derrida reshaped debates about language, interpretation, and metaphysics through readings that examine how a text depends on distinctions it cannot keep entirely secure. His work on speech and writing, difference, and presence influenced philosophy and literary criticism, and later discussions of law, ethics, and politics. Deconstruction asks how a privileged term depends on what it excludes; it is not simply destruction of an argument or permission to read anything into a text. His influence includes sustained disagreement over whether particular readings and wider claims are justified.",
+    "1.2.0": "Jacques Derrida made the assumptions supporting philosophical concepts themselves a subject of close reading. A text may privilege speech as the immediate expression of thought, for example, while depending on repeatable signs—the very feature it treats as secondary in writing. Such inquiries influenced literary criticism, philosophy, and legal and political theory. Calling deconstruction a general method for finding hidden bias is too simple: the work depends on the specific tensions and language of each case.",
+    "1.3.0": "Jacques Derrida’s deconstructive readings examined how apparently self-contained meanings depend on differences, repetition, and context. His critique of logocentrism concerns the demand for an ultimate grounding presence; phonocentrism names the associated privileging of voice. Différance brings together differing and deferring rather than merely declaring that understanding never arrives. These questions influenced philosophy, literary theory, and other disciplines without establishing that every interpretation is equally good or that reality disappears into language.",
+    "2.1.2": "<strong>Annotation:</strong> Deconstructive readings examine how a text’s organizing distinctions depend on what they subordinate or exclude. The aim is not a recipe for finding contradictions everywhere. A convincing reading must show the tension in the particular text and explain why it matters.",
+    "2.1.4": "<strong>Annotation:</strong> Différance draws on the French verb <em>différer</em>, which can mean both to differ and to defer. It concerns the differences and temporal relations through which meaning becomes possible. The written “a” is not audible in French: that small example itself complicates the assumption that speech transparently contains every meaningful distinction.",
+    "2.1.8": "<strong>Annotation:</strong> Derrida critically develops logocentrism as the demand for an ultimate source or presence securing meaning. Phonocentrism is the more specific privileging of speech as close to thought. The contribution is the critique and its detailed readings, not an established claim here that he coined the term “logocentrism.”",
+    "2.1.10": "<strong>Annotation:</strong> A trace names the dependence of what appears present on differences from what is not present. A sign has its identity through a network of contrasts and repeatable uses; the trace is not merely a quotation from another book or a literal residue left by a missing object.",
+    "2.1.12": "<strong>Annotation:</strong> In <em>Of Grammatology</em> and later essays, Derrida questions speech’s supposed freedom from mediation. Repeatability and spacing, often assigned to writing, also matter for speech. His enlarged use of “writing” therefore does more than promote written words above spoken words; it challenges the assumptions supporting the hierarchy.",
+    "2.2.1": "<strong>Deconstruction:</strong> A close reading can show that a distinction organizing an argument is less self-sufficient than the argument assumes. For example, speech must use recognizable, repeatable signs, even when it is privileged over writing as uniquely immediate. This does not make all distinctions useless or all texts contradictory in the same way.",
+    "2.2.2": "<strong>Différance:</strong> Derrida’s spelling joins the senses of differing and deferring in <em>différer</em>. Meaning depends on contrasts and temporal relations rather than a unit containing its meaning entirely within itself. This is not simply the claim that dictionary definitions keep sending a reader to other words forever.",
+    "2.2.3": "<strong>Logocentrism and Phonocentrism:</strong> Logocentrism concerns a final ground securing meaning; phonocentrism more specifically privileges voice and its apparent closeness to thought. Derrida examines their connection. His argument concerns dependencies within both speech and writing, not the superior communicative power of written language.",
+    "2.2.4": "<strong>Metaphysics of Presence:</strong> The target is the privilege given to immediate presence as a ground of identity, truth, or meaning—for example, the idea that a speaker’s intention is fully present to itself. It is not simply belief in an external world. Derrida asks how what counts as present already involves absence, difference, or repetition.",
+    "2.2.5": "<strong>Otherness and the Trace:</strong> These terms challenge the idea of a wholly self-contained identity. A trace concerns dependence on what is not simply present; otherness also becomes central to questions of responsibility to someone who cannot be reduced to our categories. They are related themes, not interchangeable names for an unknowable thing outside experience.",
+    "2.2.6": "<strong>Critique of Binary Oppositions:</strong> Derrida asks how oppositions such as speech/writing or nature/culture are organized hierarchically, and how the privileged side depends on the subordinated side. The point is more specific than noticing overlap. Simply reversing the ranking can leave the same underlying framework intact.",
+    "2.2.7": "<strong>Textuality:</strong> Derrida extends attention to traces and interpretation beyond bound books to practices, institutions, and material relations. This does not mean that the world is made only of words. A central question is how a context enables interpretation without being exhaustively fixed once and for all.",
+    "2.2.8": "These themes overlap, so the seven entries are a guide to connected problems rather than seven isolated discoveries. Their usefulness must be tested in particular readings and arguments, including objections to Derrida’s accounts of language and context.",
+    "2.3.2": "Derrida’s deconstructive work examines the assumptions and dependencies within particular texts and conceptual distinctions. It is not a mechanical instruction to discover the same hidden contradiction wherever one looks.",
+    "2.3.3": "A text may permit further readings without permitting arbitrary ones. Words, argument, history, and context constrain interpretation. The absence of an absolutely final context does not erase the difference between a supported reading and a careless one.",
+    "2.3.6": "Derrida examines the connection between logocentrism—the appeal to an ultimate ground of meaning—and phonocentrism, which privileges voice as apparently close to thought. Equating the two terms loses the distinction between the broader claim and this particular form of it.",
+    "2.3.7": "The speech/writing hierarchy is unsettled when speech itself depends on repeatability and differences. Derrida’s broader sense of writing names such conditions; it does not merely insist that marks on a page are more important than voices.",
+    "2.3.10": "Différance uses the two senses of the French verb <em>différer</em>: differing and deferring. Its deliberately altered spelling adds a visible distinction not heard in French pronunciation, an example developed in the <a href=\"https://vu.centrumethos.nl/wp-content/uploads/2017/05/Derrida-J.-1972.-Diffe%CC%81rance..pdf\">opening of the essay</a>.",
+    "2.3.11": "A sign is recognizable through contrasts and repeatable relations rather than through an isolated, self-present essence. Deferral concerns these conditions of signification, not merely a frustrating delay before a reader finally consults the right dictionary.",
+    "2.3.12": "The question is how identity and presence become possible through difference and temporal relations. This is more demanding than asserting that every statement is vague or that no truth can be established.",
+    "2.3.18": "A metaphysics of presence gives explanatory priority to what is immediately given or fully self-identical. Derrida questions whether such presence can be independent of what is absent, remembered, anticipated, or repeatable.",
+    "2.3.19": "For example, hearing a spoken sentence depends on retaining what has already been said and anticipating what follows. This accessible illustration shows why an allegedly simple present may have temporal dependencies; it is not by itself a proof of every claim Derrida makes about metaphysics.",
+    "2.3.22": "In <em>Specters of Marx</em>, hauntology explores how the present is affected by inheritances and claims that do not fit a simple present/absent division. It concerns debts to the dead and responsibilities reaching toward the future, not just the influence of past events.",
+    "2.3.23": "A society cannot settle what it owes others by counting only the interests of people now present. Spectral language makes this dislocation vivid without requiring a literal belief in ghosts. The question is how to inherit critically and act responsibly when history is not closed.",
+    "2.3.27": "Literary readers used these questions to examine how a text’s figures, exclusions, and distinctions complicate its apparent claims. Reader involvement does not make textual evidence optional or reduce meaning to whatever the reader chooses.",
+    "3.1.2": "<strong>Cause:</strong> Deconstruction and différance gave readers new ways to frame problems of language and metaphysics. Their significance was developed in particular books and readings; calling them innovative is a description to substantiate, not a complete causal explanation of his reputation.",
+    "3.1.10": "<strong>Cause:</strong> Teaching, conferences, translations, and academic appointments helped circulate his work. His association with the École Normale Supérieure belongs to his earlier career; the later Irvine appointment helped sustain an already international reputation. These stages should not be compressed into one cause of initial prominence.",
+    "3.1.12": "<strong>Cause:</strong> His engagement with structuralism adopted its attention to relational differences while questioning assumptions about centers and closure. “Post-structuralism” is a useful reception label, but should not imply that he founded a unified school or merely replaced structuralism with its opposite.",
+    "3.1.14": "<strong>Cause:</strong> Lectures, interviews, and exchanges brought his work to audiences beyond his books. Some found these encounters compelling; others found the work difficult or unpersuasive. Charisma and accessibility should not be treated as established, uniform reactions or as substitutes for explaining the arguments.",
+    "3.2.0": "These are plausible contributors to Derrida’s prominence, not measured causal weights. Intellectual novelty, readership, institutions, and controversy explain different aspects of a reputation:",
+    "3.2.1": "<strong>Deconstructive readings:</strong> His readings of established philosophical texts posed problems that other scholars took up, challenged, and taught. The innovation was not a universal bias-detection tool, but distinctive arguments about dependence, exclusion, and the conditions of meaning.",
+    "3.2.4": "<strong>Style and public presence:</strong> His attention to wording and literary form attracted some readers and frustrated others. Lectures and intellectual exchanges increased visibility, but the claim that charisma caused his prominence would require more specific evidence.",
+    "3.3.2": "Derrida’s work emerged amid debates about phenomenology, structuralism, language, and literature. Later accounts often group it under postmodernism, but that broad label can obscure the particular interlocutors and problems through which his reputation developed.",
+    "3.3.3": "Calling the surrounding climate “relativist” does not establish that Derrida accepted the equal validity of every interpretation. Reception under a broad cultural label must be distinguished from what his particular arguments maintain.",
+    "3.3.5": "Derrida engaged structuralism, including Saussure’s account of linguistic differences, from within its problems rather than simply rejecting attention to systems.",
+    "3.3.6": "His challenge concerned, among other things, the privileging of speech and the possibility of a closed system secured by a stable center. Structuralism already analyzed relational meaning; presenting it as a doctrine that words have isolated, permanently fixed meanings misstates the debate.",
+    "3.3.9": "Husserl’s phenomenology and Heidegger’s questions about metaphysics supplied major problems for Derrida’s work. Referring to Heidegger only as an existentialist obscures the specific issues of being, presence, and inherited concepts at stake.",
+    "3.3.11": "Derrida also engaged questions of interpretation, sometimes critically. His relation to hermeneutics is not simply the application of an already shared interpretive method.",
+    "3.3.24": "His reputation developed through arguments, books, teaching, translation, and dispute. These factors can interact, but the list should not be mistaken for evidence that one intellectual climate or personality trait explains the whole career.",
+    "4.1.2": "<strong>Influence:</strong> Derrida is often grouped with post-structuralist thought because his work questions closure, foundations, and fixed hierarchies. The label describes a field of reception, not a single doctrine shared by everyone included in it.",
+    "4.1.4": "<strong>Influence:</strong> His readings renewed debates about phenomenology, metaphysics, and interpretation. Husserl and Heidegger were major predecessors he engaged; their role as sources should not be reversed into a claim that their original projects arose from his work.",
+    "4.1.6": "<strong>Influence:</strong> Derrida is often discussed under this broad heading, particularly in debates about foundations and interpretation. That association does not establish that he denied reality or every claim to truth. “Postmodernism” covers diverse positions and is not an adequate summary of his arguments.",
+    "4.1.13": "<strong>Influence:</strong> Derrida’s engagement with Saussure and theories of signs influenced philosophical and humanities debates about language. That is more defensible than an unspecified claim that he produced major empirical developments throughout linguistics.",
+    "4.1.15": "<strong>Influence:</strong> His readings of Freud and other psychoanalytic texts examined memory, traces, and interpretation. They supplied questions for psychoanalytic theory and its critics; they did not experimentally establish a new account of the unconscious.",
+    "4.1.19": "<strong>Influence:</strong> Exchanges with architects, including Peter Eisenman, connect Derrida directly with architectural theory. The <a href=\"https://www.lib.uci.edu/library/publications/hri/index.php?page=postmodern-derrida\">Irvine bibliography</a> records this reception. Fragmented forms are not by themselves proof that a building follows his philosophy, and deconstructivist architecture cannot simply be derived from his terminology.",
+    "4.2.2": "<strong>Continental Philosophy:</strong> His engagements with phenomenology, metaphysics, and interpretation became important within several European and international traditions. “Continental philosophy” is a broad grouping, not one movement defined by subjectivity or one doctrine he transformed uniformly.",
+    "4.2.3": "<strong>Epistemology:</strong> His critique of self-sufficient presence raised questions about the conditions of knowledge and interpretation. It should not be reduced to a denial of objective knowledge merely because understanding involves language or context.",
+    "4.2.4": "<strong>Ethics:</strong> Questions about responsibility, hospitality, and justice examine the tension between general rules and the demands of singular cases. They do not simply recommend abandoning principles whenever a case is difficult.",
+    "4.3.6": "His work is often placed under postmodern philosophy, but this broad classification should not replace the particular arguments about signs, difference, and presence. Suspicion of a final ground is not the same claim as indifference to truth.",
+    "4.3.10": "Heidegger is principally a predecessor critically read by Derrida. Levinas was an important interlocutor, and Nancy a later contemporary with whom he engaged. These relationships should be distinguished rather than listed as equivalent examples of one-way influence.",
+    "4.3.16": "Some architects engaged Derrida directly, while the broader architectural label developed through multiple influences. An irregular shape is not a philosophical argument, and visual fragmentation is not sufficient evidence of deconstruction in Derrida’s sense.",
+    "4.3.19": "Some legal theorists drew on Derrida to examine legal concepts, authority, and interpretation. This does not make all critical legal studies an application of his work or establish a uniform dependence across the field.",
+    "4.3.21": "Ethical and political questions are substantial parts of Derrida’s work, especially his later writing. They should not appear here merely as incidental consequences of a theory of language.",
+    "4.3.23": "His influence has different forms: close philosophical debate, adaptation in literary reading, direct exchanges with architects, and selective use in legal or political argument. Claims about each field are strongest when tied to a particular work, reader, or dispute; resemblance in vocabulary alone is insufficient.",
+    "5.1.6": "#4: What is the more specific name for privileging speech as closer to thought than writing?",
+    "5.1.7": "<details><summary>Answer:</summary>Phonocentrism. Derrida relates it to the broader issue of logocentrism, the appeal to a grounding presence securing meaning.</details>",
+    "5.1.8": "#5: What does the “trace” suggest about a sign’s apparent self-contained identity?",
+    "5.1.9": "<details><summary>Answer:</summary>A sign depends on differences and relations to what is not simply present. The trace is not merely a reference to another book or a physical mark left by an absent thing.</details>",
+    "5.1.14": "#8: Under which broad reception label is Derrida often grouped because of his questions about closure and conceptual hierarchies?",
+    "5.1.15": "<details><summary>Answer:</summary>Post-structuralism. The label does not imply that he founded or represented one unified school.</details>",
+    "5.2.0": "1: What name is associated with Derrida’s readings of the dependencies and tensions within texts and concepts?",
+    "5.2.6": "7: Why does Derrida’s expanded notion of textuality not mean that only written words exist?",
+    "5.2.7": "8: Why is the development of deconstructive readings one plausible contributor to Derrida’s prominence without being an established single cause?",
+    "5.3.1": "<details><summary>Answer:</summary>Deconstruction: inquiries into the dependencies and tensions within particular texts and distinctions. It is not a universal recipe for declaring every meaning unstable.</details>",
+    "5.3.3": "<details><summary>Answer:</summary>He questions the appeal to a grounding presence securing meaning. Phonocentrism is the associated, more specific privileging of voice as close to thought; the two terms are related but not identical.</details>",
+    "5.3.5": "<details><summary>Answer:</summary>Différance draws on the two senses of différer, differing and deferring. It concerns relational and temporal conditions of meaning, not simply a claim that nobody ever understands anything.</details>",
+    "5.3.9": "<details><summary>Answer:</summary>He questions the privilege accorded to immediate, self-sufficient presence as a ground of meaning or identity, examining its dependence on difference and absence. This is not simply a denial of a world outside our thought.</details>",
+    "5.3.11": "<details><summary>Answer:</summary>In Specters of Marx, hauntology concerns inheritances and demands that disturb a self-contained present, including debts to the dead and responsibilities toward the future. It is more than the ordinary observation that past events have effects.</details>",
+    "5.3.15": "<details><summary>Answer:</summary>Debates over phenomenology, structuralism, language, and literature helped shape his reception. The later umbrella label “postmodernism” neither fully explains his prominence nor proves that his position was relativism.</details>",
+    "5.3.17": "<details><summary>Answer:</summary>He critically engaged Husserl’s phenomenology and Heidegger’s questions about metaphysics and being, among other sources. This describes an important direction of influence into Derrida’s work, not an interchangeable list of thinkers influenced by him.</details>"
+  },
+  "countChecks": [
+    {
+      "name": "sevenContributionsPerResponse",
+      "selector": "#prompt-2 .original-response > ol",
+      "child": "li",
+      "expected": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "tenQuizAnswersPerResponse",
+      "selector": "#prompt-5 .original-response",
+      "child": "details",
+      "recursive": true,
+      "expected": [
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "tenQuizQuestionsPerResponse",
+      "selector": "#prompt-5 .original-response",
+      "child": "p",
+      "recursive": true,
+      "expected": [
+        10,
+        10,
+        10
+      ]
+    }
+  ],
+  "nonPromptSections": [
+    5
+  ],
+  "disclosureParagraphsAsDiv": true,
+  "pageSignals": {
+    "Page form": "Philosopher profile",
+    "Best for": "distinguishing deconstruction from arbitrary interpretation"
+  },
+  "bareAnswerReplacements": {
+    "5.2.answer2": "Logocentrism concerns an ultimate grounding presence securing meaning; phonocentrism concerns the specific privileging of voice as close to thought. Derrida examines how they are connected.",
+    "5.2.answer3": "The explanatory privilege accorded to immediate, fully self-identical presence. It is not simply the proposition that a world exists independently of thought and language.",
+    "5.2.answer4": "They challenge wholly self-contained identity. The trace concerns dependence on differences and what is not simply present; otherness also matters to responsibility toward others. The terms are related, not interchangeable.",
+    "5.2.answer5": "The hierarchical organization of opposed terms and the privileged term’s dependence on what it excludes, rather than merely the existence of distinctions.",
+    "5.2.answer6": "Textuality includes relations, practices, and contexts beyond books. Attention to mediation and interpretation does not entail that material reality consists only of words.",
+    "5.2.answer7": "The readings supplied arguments others adopted, criticized, and taught. Their reception also depended on institutions, translation, audiences, and debate, so a single causal ranking is not established."
+  },
+  "leadingTextReplacements": {
+    "2.1.5": "Critique of Binary Oppositions"
+  }
+}

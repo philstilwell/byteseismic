@@ -1,0 +1,168 @@
+{
+  "wordpressId": 9627,
+  "pageFile": "rational-thought/avoiding-logical-fallacies/index.html",
+  "snapshot": "avoiding-logical-fallacies-wordpress-9627.html",
+  "sourceSha256": "c48b62dbc920e4efbc3aae5799c8a8ca8fbeb549c37695f67c93b06c0c35eeb2",
+  "sourceUrl": "http://byteseismic.com/2024/05/22/avoiding-logical-fallacies/",
+  "sourceLabel": "Original WordPress conversation, 2024-05-22",
+  "shellRevision": "e409f91da6b9510d27e00c370f40619f5bb1542c",
+  "date": "2026-09-18",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini",
+    "Copilot"
+  ],
+  "headings": [
+    "Recognizing a reasoning error",
+    "Names, explanations, and analogies",
+    "Five worked analogies in each response",
+    "Gracious ways to offer a comparison",
+    "Three ten-question quizzes",
+    "Three sets of fifteen discussion questions"
+  ],
+  "introHeading": "Recognizing a reasoning error",
+  "intro": "This conversation asks how to identify reasoning errors and explain them without replacing discussion with labels. The six original prompts, the curator’s notes on memorable names and parallel statements, and all three response tracks remain in sequence. The worked examples distinguish a defective inference from a false conclusion, and invite testing the analogy itself.",
+  "description": "Examine fallacy names, clear explanations, and gracious analogies through six original prompts, three response tracks, worked examples, and quizzes.",
+  "replacements": {
+    "1.1.1": "Logical fallacies are recurring defects in the way an argument supports its conclusion. Some concern deductive form; others concern relevance, insufficient evidence, or unsupported assumptions in context. They can be persuasive without being deliberate deception. Finding a defective argument does not by itself show that its conclusion is false.",
+    "1.1.2": "<strong>Ad Hominem:</strong> Treating an irrelevant personal attack as a reason to reject an argument. A source’s relevant expertise or reliability can matter when assessing testimony; an insult does not answer independently checkable evidence.",
+    "1.1.4": "<strong>Appeal to Ignorance:</strong> Treating lack of disproof as sufficient proof, or lack of proof as sufficient disproof. Absence of expected evidence can count against a claim when a suitably sensitive search would probably have found it.",
+    "1.1.6": "<strong>Slippery Slope:</strong> Treating a first step as leading to an alarming chain of consequences without adequate support for the links or for the inability to stop the progression. An evidence-based warning about downstream effects need not be fallacious.",
+    "1.1.14": "Recognizing fallacies can improve debate when we explain which premise fails to support which conclusion. Merely announcing a name may instead sidetrack the discussion. The aim is to make the disputed step inspectable by both participants.",
+    "1.1.15": "Avoiding familiar fallacies helps us construct stronger arguments, but does not guarantee truth or deductive soundness. We must also check the premises, relevant alternatives, and whether the strength of the conclusion matches the evidence.",
+    "1.1.18": "Use fallacy labels as reminders of questions to ask: Is that personal fact relevant? Are those really the only options? What supports the predicted chain? Apply the same questions to your own preferred arguments. This turns a vocabulary lesson into a method of checking support rather than a way to dismiss opponents.",
+    "1.2.0": "Logical fallacies are recurring errors in how reasons are used to support a conclusion. They can be persuasive and may be accidental or deliberate. An argument can contain true facts and still draw an unsupported conclusion; conversely, a true conclusion can be defended badly. Learning to notice the gap helps in several ways:",
+    "1.2.5": "<strong>Ad hominem:</strong> Substituting an irrelevant attack on a person for an answer to their reasoning. Relevant questions about a witness’s access to the facts or credibility are a different matter.",
+    "1.2.8": "To use the vocabulary well, first state the argument fairly and identify its unsupported step. Then ask what additional evidence or qualification would repair it. A fallacy name is a compact description of that diagnosis, not independent proof of it.",
+    "1.3.0": "Logical fallacies are recurring ways in which reasons fail to provide the support claimed for a conclusion. Some arguments fail in deductive form; others use irrelevant considerations or inadequate evidence. A fallacy may be accidental or deliberate, and its presence does not settle whether the conclusion is independently true.",
+    "1.3.1": "A useful first distinction separates problems with premises from problems with the inference drawn from them:",
+    "1.3.2": "<strong>Premise problem:</strong> A statement relied on may be false, ambiguous, or inadequately supported. Evaluating it may require evidence, clarification, or examination of a value judgment; premises are not all simple factual claims that can readily be proved or disproved.",
+    "1.3.3": "<strong>Inference problem:</strong> Even if we grant the stated premises, they may not justify the conclusion—or may support only a weaker conclusion. Informal fallacies can involve hidden assumptions and relevance as well as formal validity. These categories are a useful starting point, not an exhaustive taxonomy.",
+    "1.3.5": "It helps us inspect the connection between evidence and conclusion instead of judging an argument only by how familiar or appealing it sounds.",
+    "1.3.6": "In communication, explaining the missing connection makes a criticism answerable: the other person can supply evidence, narrow the conclusion, or identify a misunderstanding.",
+    "1.3.7": "It helps us assess marketing, advocacy, and research claims, while distinguishing the credibility of a source from the strength of the particular argument offered.",
+    "1.3.8": "It can reveal weaknesses in our own reasoning as well as in persuasive claims made by others. Persuasion alone is not the measure of a good argument.",
+    "1.3.9": "The practical skill is to explain why a conclusion does not follow as strongly as claimed, and what would improve the argument. Memorizing a list of names is useful only if it supports that examination.",
+    "2.1.1": "I would normally explain the actual error first, using an analogy when it makes that error easier to see, and add the name when it helps the audience. The curator’s contrast between memorable and unwieldy labels matters: a name that communicates nothing to the listener cannot do the explanatory work. Both approaches nevertheless have uses and limitations.",
+    "2.1.3": "<strong>Clarity and Precision:</strong> A shared label can identify a familiar error efficiently after its fit has been established. The label alone does not show that an argument is an instance of the fallacy, and classifications sometimes overlap.",
+    "2.1.5": "<strong>Consistency:</strong> Shared terms make related arguments easier to compare. Definitions still vary, so explain the reasoning pattern when a label is disputed.",
+    "2.1.12": "<strong>Memorability:</strong> A vivid, familiar parallel can make an error easier to recall for a particular audience. That is a reason to consider an analogy, not a universal claim that analogies are remembered better than names.",
+    "2.1.15": "<strong>Potential for Misinterpretation:</strong> Match the inferential structure, not just an amusing surface resemblance. If the original argument uses a representative sample, comparing it with a one-person anecdote misrepresents rather than exposes it.",
+    "2.1.19": "A useful sequence is to state the contested inference, offer a parallel if needed, and name the pattern only when the name adds something. Ask whether a relevant difference defeats the comparison.",
+    "2.1.22": "<strong>Critical Thinking Training:</strong> Let learners compare the original claim with an analogy, identify the shared unsupported step, and try a case where that step would be justified. Then introduce the label. This checks understanding rather than assuming the label or analogy has produced it.",
+    "2.1.24": "For example, “One disappointing lesson does not establish that every teacher is poor” already explains a hasty generalization. “That would be like judging every restaurant from one meal” may make the sampling problem clearer. Naming the fallacy can then help someone recognize it again. If the analogy is less clear than the direct explanation, leave it out.",
+    "2.2.0": "I favor an explanation that the listener can check, with an analogy or a label serving that explanation. The curator’s point about memorable versus unwieldy names is one reason to adapt the wording to the audience. Here are the trade-offs:",
+    "2.2.3": "<strong>Precision:</strong> A term such as “slippery slope” is useful shorthand for someone who knows it. It does not instantly establish which predicted link lacks support, or whether the warning is actually unreasonable.",
+    "2.2.14": "<strong>Understanding:</strong> An analogy can make the underlying inference visible when the two cases have the same relevant structure. Ask the listener to identify that structure; vividness alone is not evidence of learning.",
+    "2.2.21": "<strong>Start with the reasoning:</strong> Explain what is being inferred from what. If that remains abstract, offer a familiar analogy and show exactly which step is shared.",
+    "2.2.24": "The aim is agreement about what the argument establishes, not simply a change of mind. A listener may accept that one argument fails while retaining the conclusion for other reasons. Invite those reasons instead of treating the fallacy label as the end of the conversation.",
+    "2.3.0": "The most useful default is a plain explanation of the reasoning error. Use an analogy to make that explanation concrete and a name to make the pattern easy to refer to later. This addresses the curator’s concern that some names help memory while others mainly add terminology.",
+    "2.3.15": "Use the name when it is shared vocabulary; otherwise start with the error itself. An analogy succeeds only if the listener can see the same inferential gap and no relevant difference defeats the comparison. For example, objecting to a conclusion from one anecdote does not object to every generalization from evidence. That qualification keeps an accessible explanation accurate.",
+    "3.1.7": "<strong>Fallacious extension:</strong> “One permitted redo will inevitably lead to unlimited retries and then lifelong inability to meet deadlines.” No evidence is offered for those links or for why limits could not work.",
+    "3.1.8": "<strong>Analogy:</strong> “That is like saying that permitting a calculator for one exercise must lead to abandoning all arithmetic practice.” Both arguments assume that a limited permission inevitably abolishes every safeguard. Whether either policy causes a problem requires evidence.",
+    "3.1.11": "<strong>Fallacy Response:</strong> “Your evidence can be ignored because you are personally unpleasant.” This dismisses the person without addressing the evidence; a relevant question about expertise would require a different assessment.",
+    "3.1.12": "<strong>Analogy:</strong> “That is like saying a recipe cannot work because its author is rude.” The personal trait does not establish a defect in the evidence or the recipe.",
+    "3.1.15": "<strong>Fallacy Response:</strong> “Either we fund the entire expensive proposal, or we abandon every improvement to public transportation.” This excludes smaller or staged improvements without examining them.",
+    "3.1.16": "<strong>Analogy:</strong> “That is like saying, ‘Either you buy the most expensive car, or you must walk everywhere,’ while ignoring affordable cars and other transport.” In both cases the omitted possibilities are relevant alternatives, not a demand to compromise between genuinely exhaustive choices.",
+    "3.2.2": "<strong>Analogy Response:</strong> “That is like rejecting a road-safety calculation solely because the person presenting it has an untidy desk.” The personal criticism does not settle the policy question. A relevant allegation affecting testimony would need separate assessment; it is not a substitute for examining the policy evidence.",
+    "3.2.4": "<strong>Scenario:</strong> Someone proposes a particular background-check requirement. An opponent replies, “You just want to confiscate every firearm and leave everyone defenseless!”",
+    "3.2.5": "<strong>Analogy Response:</strong> “That is like answering a proposal for driving tests by claiming the speaker wants to ban every car.” A limited proposal has been replaced by a much stronger one. The diagnosis depends on what was actually proposed, not on assuming that every gun-control policy is the same.",
+    "3.2.8": "<strong>Analogy Response:</strong> “That is like saying anyone who declines to join a choir must want it to fail.” Declining involvement and active opposition are distinct possibilities. Some choices really are binary; here the speaker has excluded a relevant third attitude.",
+    "3.2.11": "<strong>Analogy Response:</strong> “That is like saying a school must keep its old timetable solely because it has always used it.” Longevity may provide experience worth examining, but does not by itself establish that the practice still works best.",
+    "3.2.14": "<strong>Analogy Response:</strong> “That is like saying that admitting another qualified adult to a club forces it to admit a pet, as though extending eligibility erased every other condition.” The predicted progression ignores a relevant boundary: adult consent. A claimed chain needs support for its links, not merely an alarming endpoint.",
+    "3.3.1": "<strong>Ad Hominem:</strong> “Your climate argument must be wrong because you are rude.” That is like saying, “Your recipe cannot work because you are rude.” The shared error is substituting an irrelevant personal judgment for examination of the argument. Expertise can be relevant when deciding how much weight to give unsupported testimony.",
+    "3.3.3": "<strong>Slippery Slope:</strong> “Permitting calculators on one exercise will inevitably end all arithmetic practice and all critical thinking.” That is like saying, “If you eat one piece of cake today, you must soon eat only cake.” Both assert an unavoidable escalation without supporting the intermediate steps or addressing limits.",
+    "3.3.4": "<strong>False Cause:</strong> “It rained on the two occasions when I forgot my umbrella, so forgetting the umbrella caused the rain.” That is like saying, “My team won when I wore these socks, so the socks caused the victory.” The observed coincidence alone does not establish causation; no claim to have excluded every alternative is warranted.",
+    "3.3.6": "Each comparison tests an inferential step, not the truth of the conclusion independently of that argument. Ask which features must match and whether the original case contains evidence absent from the analogy. A vivid but structurally different parallel would create a new error.",
+    "4.1.1": "These lead-ins can introduce a comparison without turning it into a verdict on the person. Their effect still depends on tone and whether you invite correction. A polite phrase attached to a mocking or inaccurate analogy will not make it constructive.",
+    "4.1.3": "<strong>Example:</strong> “Consider this example: allowing a calculator for one exercise need not mean abandoning all arithmetic practice. Could limits on assignment redos similarly preserve deadlines?”",
+    "4.1.5": "<strong>Example:</strong> “To put it in perspective, does a limited permission necessarily remove every later limit? A calculator allowed for one exercise need not be allowed on every exercise.”",
+    "4.1.7": "<strong>Example:</strong> “Imagine if we dismissed a working recipe because its author was rude. Would that personal trait affect the recipe? I think the criticism here may have the same gap.”",
+    "4.1.9": "<strong>Example:</strong> “Think about it this way: buying the most expensive car and walking everywhere are not the only options. Might there also be transport improvements between funding the entire proposal and doing nothing?”",
+    "4.1.13": "<strong>Example:</strong> “Here’s an analogy that might help clarify: one permitted calculator exercise need not abolish all arithmetic practice. Does the redo policy have comparable limits, or is there a relevant difference?”",
+    "4.1.15": "<strong>Example:</strong> “Let’s look at it from another angle: a rude person can still offer a working recipe. Could we assess this argument separately from our view of its author?”",
+    "4.1.17": "<strong>Example:</strong> “One way to understand this might be to ask whether a limited permission must become unlimited. What evidence would show that the proposed safeguards on redos are likely to fail?”",
+    "4.1.18": "Use these openings to invite examination: “Does that comparison fit?” or “What difference am I missing?” A listener’s objection to the analogy may reveal a real distinction and improve the critique.",
+    "4.2.1": "“Would it help to try a comparison?” (Asks permission to offer another explanation without implying the listener needs something simpler)",
+    "4.2.3": "“Could we compare this with…” (Offers a possible parallel rather than declaring it obvious)",
+    "4.2.7": "These phrases can make room for discussion, but none guarantees a gracious exchange. Choose a familiar example, state the relevant similarity, and be willing to withdraw it if the listener identifies a difference that matters.",
+    "4.2.10": "<strong>Revised Response:</strong> “Would it help to try a comparison? We would not reject a road-safety calculation solely because its presenter has an untidy desk. Is the personal criticism here evidence against the policy, or should we assess the policy’s effects separately?”",
+    "4.2.11": "The question leaves room for the other person to explain why a personal fact might be relevant. Graciousness means taking that explanation seriously, not merely softening a predetermined dismissal.",
+    "4.3.11": "These phrases offer a comparison for consideration rather than treating it as an automatic refutation. To make that invitation real, identify the shared reasoning and ask whether a relevant difference breaks the parallel. A modest phrase helps only when accompanied by that willingness to listen.",
+    "5.1.44": "b) They provide shared shorthand for reasoning patterns once the fit is explained",
+    "5.1.59": "c) Ad Hominem: an irrelevant personal attack does not refute an argument.",
+    "5.1.61": "b) They provide shared shorthand for reasoning patterns once the fit is explained.",
+    "5.2.7": "Besides “That is like saying…”, which two openings most clearly offer a comparison for discussion?<br>A. Obviously anyone can see…<br>B. Here’s a relatable example…<br>C. To shut down your argument, consider this…<br>D. Would it help to try a comparison?",
+    "5.2.10": "If someone insists that a school must retain its old timetable solely because it has always used it, which fallacy is being challenged?",
+    "5.2.18": "B and D: “Here’s a relatable example…” and “Would it help to try a comparison?” Their effectiveness still depends on the comparison and tone.",
+    "5.2.22": "An unsupported slippery slope: the predicted escalation ignores a relevant boundary and supplies no adequate chain of support.",
+    "5.3.13": "Recurring defects in how reasons are used to support a conclusion. They may concern deductive form, relevance, or adequacy of evidence; identifying one does not establish that the conclusion is false.",
+    "5.3.15": "A problem with a premise, such as falsity or lack of support, differs from an inference that does not adequately follow from the premises. This is a useful initial distinction, not an exhaustive classification of every argument defect.",
+    "5.3.18": "An ad hominem substitutes an irrelevant personal attack for a response to the argument. “Your climate argument is wrong because you are rude” is like rejecting a working recipe because its author is rude. This differs from examining relevant expertise or credibility when assessing testimony.",
+    "5.3.19": "A fallacious slippery slope treats an escalation as established without sufficient support for its links or attention to safeguards. The calculator and cake analogies expose an assumed progression from one limited permission to an unlimited outcome; a well-supported prediction of consequences is not automatically fallacious.",
+    "5.3.20": "A false-cause inference attributes causation without adequate support. Forgetting an umbrella alongside rain and wearing certain socks alongside a team’s victory show coincidence, not by themselves a causal connection. The criticism concerns the evidence offered, not proof that every proposed causal relation is impossible.",
+    "6.1.1": "Why is it useful to distinguish a defective argument from a conclusion that happens to be false?",
+    "6.1.13": "When might an analogy persuade without accurately representing an argument, and how could you test the difference?",
+    "6.2.11": "Choose a documented historical argument. Which exact inferential step might be fallacious, and what would justify attributing any historical outcome to it?",
+    "6.3.5": "When is a source’s expertise or reliability relevant, and when does criticism of the source become a distraction from independently checkable evidence?"
+  },
+  "countChecks": [
+    {
+      "name": "fiveAnalogyExamplesPerResponse",
+      "selector": "#prompt-3 .original-response > ol",
+      "child": "li",
+      "expected": [
+        5,
+        1,
+        1,
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    {
+      "name": "tenQuestionQuizzesAndKeys",
+      "selector": "#prompt-5 .original-response > ol",
+      "child": "li",
+      "expected": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "fifteenDiscussionQuestions",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        15,
+        15,
+        15
+      ]
+    }
+  ],
+  "preambleHeadingIndexes": [
+    1
+  ],
+  "pageSignals": {
+    "Page form": "Guided discussion",
+    "Best for": "explaining an error without relying on its label"
+  },
+  "leadingTextReplacements": {
+    "5.1.7": "Which fallacy substitutes an irrelevant personal attack for an answer to the reasoning?",
+    "5.1.32": "Which fallacy is illustrated by rejecting a working recipe solely because its author is rude?"
+  },
+  "orderedListStarts": {
+    "3.2": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}

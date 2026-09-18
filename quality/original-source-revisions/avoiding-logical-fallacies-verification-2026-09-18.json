@@ -1,0 +1,42 @@
+{
+  "pagePath": "/rational-thought/avoiding-logical-fallacies/",
+  "sourceSha256": "c48b62dbc920e4efbc3aae5799c8a8ca8fbeb549c37695f67c93b06c0c35eeb2",
+  "originalPrompts": 6,
+  "originalHeadings": 6,
+  "sourceColumns": 18,
+  "modelResponses": 18,
+  "blocksRetainedVerbatim": 265,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 83,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "fiveAnalogyExamplesPerResponse": [
+      5,
+      1,
+      1,
+      1,
+      1,
+      1,
+      5
+    ],
+    "tenQuestionQuizzesAndKeys": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "fifteenDiscussionQuestions": [
+      15,
+      15,
+      15
+    ]
+  },
+  "sha256": "f511c3be5242e6d63e75e90075c0b4d1926738204b2a57469dace457306e6822"
+}

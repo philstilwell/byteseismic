@@ -1,0 +1,35 @@
+{
+  "pagePath": "/philosophers/jacques-derrida/",
+  "sourceSha256": "3856534f5cfa0feabe610b66eee6770749fc31970cc49bcfd6d0e93966e96ed3",
+  "originalPrompts": 4,
+  "originalHeadings": 5,
+  "sourceColumns": 15,
+  "modelResponses": 15,
+  "blocksRetainedVerbatim": 138,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 74,
+  "bareAnswersExplicitlyRevised": 6,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "sevenContributionsPerResponse": [
+      7,
+      7,
+      7
+    ],
+    "tenQuizAnswersPerResponse": [
+      10,
+      10,
+      10
+    ],
+    "tenQuizQuestionsPerResponse": [
+      10,
+      10,
+      10
+    ]
+  },
+  "sha256": "de32e48e45e1932924d91baf08bcb8830f96902bad29d6145f0cde09e82f15d1"
+}

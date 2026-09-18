@@ -1,0 +1,37 @@
+{
+  "pagePath": "/philosophers/bertrand-russell/",
+  "sourceSha256": "385c24cbffe013bb50a5fa37762c354f10e0ec5379fe266ab0e6d07cced68c7f",
+  "originalPrompts": 6,
+  "originalHeadings": 6,
+  "sourceColumns": 18,
+  "modelResponses": 18,
+  "blocksRetainedVerbatim": 145,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 63,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "sevenContributionsPerResponse": [
+      7,
+      7,
+      7
+    ],
+    "quizQuestionAndSeparateKeyCounts": [
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "twelveDiscussionQuestions": [
+      12,
+      12,
+      12
+    ]
+  },
+  "sha256": "a7167607f28600bb7b5f02209f386e601151ad8ae76975034ffacb4ec06f052d"
+}

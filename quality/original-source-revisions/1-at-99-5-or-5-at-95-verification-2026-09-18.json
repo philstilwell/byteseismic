@@ -1,0 +1,36 @@
+{
+  "pagePath": "/rational-thought/1-at-99-5-or-5-at-95/",
+  "sourceSha256": "81e77f7e100b3c72a341f8d8b6cfdb0efc78e67b2cf017ec5bb82797de0f22f7",
+  "originalPrompts": 6,
+  "originalHeadings": 6,
+  "sourceColumns": 11,
+  "modelResponses": 11,
+  "blocksRetainedVerbatim": 110,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 77,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "threeExamplesOnEachSide": [
+      3,
+      3,
+      3,
+      3
+    ],
+    "tenQuestionQuizzesAndKeys": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "fifteenDiscussionQuestions": [
+      15,
+      15
+    ]
+  },
+  "sha256": "6913b5f0623ce838c745335b78c5620fade8dc5d17ff2e0f20f2fe314961afaa"
+}

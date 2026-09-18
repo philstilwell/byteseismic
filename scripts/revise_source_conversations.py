@@ -67,9 +67,12 @@ def sections(source, config=None):
         if index in prose:
             assert not cols
             col = source.new_tag('div')
-            for sibling in h.find_next_siblings():
+            skip = (config or {}).get('prosePreambleCounts', {}).get(str(index + 1), 0)
+            for position, sibling in enumerate(h.find_next_siblings()):
                 if sibling.name == 'h2':
                     break
+                if position < skip:
+                    continue
                 col.append(copy.deepcopy(sibling))
             cols = [col]
         if cols:
@@ -78,6 +81,10 @@ def sections(source, config=None):
 
 
 def preamble_nodes(heading, config, n):
+    if str(n) in config.get('prosePreambleCounts', {}):
+        nodes = list(heading.find_next_siblings())[:config['prosePreambleCounts'][str(n)]]
+        assert all(node.name != 'h2' for node in nodes)
+        return nodes
     if n - 1 not in config.get('preambleHeadingIndexes', []):
         return []
     result = []
