@@ -1,0 +1,38 @@
+{
+  "pagePath": "/philosophers/john-locke/",
+  "sourceSha256": "d28d0ebda673ce1dc0dba2bb51f946bf2993d9a2bc0b6073c9345fcecd5397e2",
+  "originalPrompts": 6,
+  "originalHeadings": 6,
+  "sourceColumns": 18,
+  "modelResponses": 18,
+  "blocksRetainedVerbatim": 139,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 68,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "sevenContributions": [
+      7,
+      7,
+      7
+    ],
+    "quizQuestionsAndFinalKeys": [
+      7,
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "twelveDiscussionQuestions": [
+      12,
+      12,
+      12
+    ]
+  },
+  "sha256": "f929c4b7bb87ceb73a7e4ca5f3f3adc55aa00b925c4c03a0f380fc6d3da5cc9b"
+}

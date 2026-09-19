@@ -1,0 +1,38 @@
+{
+  "pagePath": "/philosophers/edmund-husserl/",
+  "sourceSha256": "b25ef527c88cbb094210c8522301778dc233084ff5edd9b0959fe302bb0c8e72",
+  "originalPrompts": 6,
+  "originalHeadings": 6,
+  "sourceColumns": 18,
+  "modelResponses": 18,
+  "blocksRetainedVerbatim": 125,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 47,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "sevenContributions": [
+      7,
+      7,
+      7
+    ],
+    "quizQuestionsAndFinalKeys": [
+      7,
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "twelveDiscussionQuestions": [
+      12,
+      12,
+      12
+    ]
+  },
+  "sha256": "260b752d76e7dd7986f9c425f8ac24d521761ccd9c68e8323c7a88f32827fccc"
+}

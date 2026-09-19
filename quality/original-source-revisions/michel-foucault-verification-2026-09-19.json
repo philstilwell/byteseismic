@@ -1,0 +1,40 @@
+{
+  "pagePath": "/philosophers/michel-foucault/",
+  "sourceSha256": "16073eb9e6cac8ad556b33f8b9ffe1dcfd67071fa9f6bf08021fb74c4df0099d",
+  "originalPrompts": 5,
+  "originalHeadings": 6,
+  "sourceColumns": 18,
+  "modelResponses": 18,
+  "blocksRetainedVerbatim": 151,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 48,
+  "bareAnswersExplicitlyRevised": 2,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "sevenContributionsPerResponse": [
+      7,
+      7,
+      7
+    ],
+    "sevenExpandableAnswersPerResponse": [
+      7,
+      7,
+      7
+    ],
+    "twelveDiscussionQuestions": [
+      12,
+      12,
+      12
+    ],
+    "oneParagraphOverviewPerResponse": [
+      1,
+      1,
+      1
+    ]
+  },
+  "sha256": "cb37f35fd19c578213dcb74f3cf60d4fecd09389fa5389bdffd6b86db60ac690"
+}

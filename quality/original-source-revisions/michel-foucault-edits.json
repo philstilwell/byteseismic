@@ -1,0 +1,139 @@
+{
+  "wordpressId": 12353,
+  "pageFile": "philosophers/michel-foucault/index.html",
+  "snapshot": "michel-foucault-wordpress-12353.html",
+  "sourceSha256": "16073eb9e6cac8ad556b33f8b9ffe1dcfd67071fa9f6bf08021fb74c4df0099d",
+  "sourceUrl": "http://byteseismic.com/2024/06/27/michel-foucault/",
+  "sourceLabel": "Original WordPress conversation, 2024-06-27",
+  "shellRevision": "23431a7fe7d2822d5500e01be96eb88080009172",
+  "date": "2026-09-19",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini",
+    "Claude"
+  ],
+  "headings": [
+    "Power, knowledge, and historical inquiry",
+    "Three selections of seven contributions",
+    "Formation, publication, and public engagement",
+    "Reception across traditions and disciplines",
+    "Three original seven-question quizzes",
+    "Three sets of twelve discussion questions"
+  ],
+  "introHeading": "Power, knowledge, and historical inquiry",
+  "intro": "Foucault’s original conversation moves from influence and contributions to the circumstances of his prominence, later reception, quizzes, and discussion. Five curator prompts, the separate Quizzes heading, and all three response tracks remain. The revised responses distinguish examining the authority of knowledge from declaring every claim false, and distinguish historical sexual classifications from a denial of bodies or biological processes.",
+  "description": "Explore Foucault’s power and knowledge, genealogy, discipline, sexuality, and governmentality through the original profile and quizzes.",
+  "replacements": {
+    "1.1.1": "Michel Foucault changed philosophical inquiry by examining how historically specific practices make people objects of knowledge and subjects of regulation. His studies of madness, medicine, prisons, and sexuality connect expertise with institutional power, while archaeology and genealogy investigate how categories and practices become established. The point is not simply that every accepted claim is false or that rulers invent reality at will. His work supplies questions about authority, evidence, normalization, and resistance that later scholars have adopted and contested across the humanities and social sciences.",
+    "1.2.0": "Foucault made historical inquiry central to questions about knowledge, power, and the formation of subjects. His studies ask how institutions classify people, authorize expertise, and shape conduct, while his accounts of discipline, sexuality, and governmentality challenge simple stories of steady liberation or progress. This does not by itself refute objective knowledge: it asks how claims acquire authority and what they do in specific practices. His influence lies both in these methods and in the arguments they prompted about evidence, freedom, and standards of criticism.",
+    "1.3.0": "Michel Foucault’s studies of power, knowledge, and discourse reshaped how philosophers investigate institutions and historically formed identities.",
+    "1.3.1": "Genealogy examines contingent histories of practices, while discipline, biopower, and governmentality distinguish ways conduct and life are organized. His influence extends to sociology, history, and cultural theory, where these concepts remain resources for inquiry and subjects of criticism rather than substitutes for evidence.",
+    "2.1.2": "<strong>Annotation:</strong> Power relations and the production of knowledge can support one another. An examination, for example, can both record a person’s performance and place that person within a ranking that affects opportunities. This is a claim about practices and authority, not a deduction that every finding produced within an institution is false.",
+    "2.1.4": "<strong>Annotation:</strong> Archaeology studies the historical rules under which statements, objects of inquiry, and expert roles become possible within a discourse. It does not merely search for an author’s hidden intention or one timeless structure behind all thought. Discontinuities and changes in these rules are central questions.",
+    "2.1.6": "<strong>Annotation:</strong> <em>Discipline and Punish</em> examines a reorganization of punishment around surveillance, training, examination, and normalization. The narrative is not that bodily violence disappears or that every society passes through an identical sequence. The important contrast concerns techniques that produce disciplined capacities as well as restrict action.",
+    "2.1.8": "<strong>Annotation:</strong> The first volume challenges the idea that modern power mainly silenced a preexisting sexuality: confession, medicine, and other practices also multiplied talk, classifications, and interventions. This does not deny repression or biology. Later volumes turn toward ethical practices and how people form relations to themselves, so the series should not be reduced to one unchanging control thesis.",
+    "2.1.10": "<strong>Annotation:</strong> Governmentality concerns rationalities and practices for directing conduct, especially the historical formation of population-centered government. It includes institutions, expertise, and people’s ways of governing themselves; it is broader than commands issued by the state. It asks how conduct is shaped, not only who formally holds office.",
+    "2.1.12": "<strong>Annotation:</strong> Biopolitics concerns interventions into population processes such as birth, illness, and mortality. It is related to, but analytically distinguishable from, discipline directed at individual bodies. Such an analysis asks how life becomes a political object; it does not establish that every health measure is illegitimate.",
+    "2.1.14": "<strong>Annotation:</strong> Genealogy traces contingent struggles, practices, and transformations behind what can appear necessary or natural. Contingent does not mean causeless or simply arbitrary. A historical origin alone also does not prove a belief false or an institution unjust; those conclusions require further argument.",
+    "2.2.1": "<strong>Power–Knowledge:</strong> Foucault investigates how practices that generate knowledge also classify, authorize, and regulate. Showing that a claim is institutionally situated does not settle its truth. The approach directs attention to who can speak authoritatively, what evidence counts, and what consequences classification has.",
+    "2.2.2": "<strong>Discourse Analysis:</strong> The inquiry concerns organized practices that delimit objects, acceptable statements, and expert positions, not just a vocabulary or an individual’s opinion. Medical classifications, for example, can be examined together with examinations, records, and institutional roles.",
+    "2.2.3": "<strong>Critique of Institutions:</strong> Surveillance, routines, and examinations can develop capacities while making conduct easier to compare and control. An institution-specific inquiry must show which mechanisms operate and with what effects; labeling an institution disciplinary is only a starting point.",
+    "2.2.5": "<strong>Subject Formation:</strong> People become subjects through practices of classification, regulation, and self-understanding. Foucault’s later work also investigates how people work on themselves. Formation within power relations need not mean that individuals are passive objects with no possibilities of resistance.",
+    "2.2.6": "<strong>Sexuality:</strong> Foucault historicizes the categories, identities, and practices through which sexuality becomes an object of knowledge. He does not thereby deny bodily processes or the existence of desire. His challenge to a solely repressive story includes the production of discourse and identities as well as prohibition.",
+    "2.3.1": "<strong>Power–Knowledge Relation:</strong> Knowledge practices and power relations can be mutually enabling: gathering information can support intervention, and institutions can organize what becomes knowable. The relationship is not an identity between truth and domination or a license to disregard evidence.",
+    "2.3.2": "<strong>Discourse Analysis:</strong> Foucault examines historically organized practices governing statements, objects of inquiry, and authoritative speakers. Discourse operates with institutions and material arrangements; saying that discourse shapes an object of knowledge does not mean words physically create everything.",
+    "2.3.4": "<strong>Biopower:</strong> Foucault’s account of power over life includes discipline of individual bodies and regulation of populations. These are distinct, interacting poles, not a simple progression in which biopower comes after and replaces discipline. Power can foster life and capacities while exposing some groups to injury or death.",
+    "2.3.5": "<strong>Panopticism:</strong> Bentham’s design supplies a model of visibility in which people may regulate themselves because they cannot know when observation occurs. The mechanism depends on that possibility, not continuous actual watching. It is a model for analysis, not a claim that every modern institution is literally a panopticon.",
+    "2.3.6": "<strong>Governmentality:</strong> This concerns ways of reasoning about and organizing the direction of conduct, including population management and self-government. State institutions matter, but governing is not confined to state commands. See also Foucault’s discussion of acting on possible actions in <a href=\"https://monoskop.org/images/2/2a/Foucault_Michel_1982_The_Subject_and_Power.pdf\">“The Subject and Power.”</a>",
+    "3.1.6": "<strong>Explanation:</strong> Work on prisons and sexuality became resources for later movements and critical scholarship, sometimes through strong disagreement. His participation in the Prison Information Group provides a concrete connection between inquiry and activism. This is more specific than assuming that all civil-rights or feminist movements shared his views.",
+    "3.1.10": "<strong>Explanation:</strong> Public lectures and controversy increased visibility, particularly through his Collège de France position. Charisma is an interpretive judgment and cannot be treated as a measured cause of philosophical achievement. Arguments, books, institutions, and audiences offer firmer evidence for explaining recognition.",
+    "3.1.14": "<strong>Explanation:</strong> Foucault’s work developed amid debates with existentialism, structuralism, and histories of science. Canguilhem and Nietzsche are important intellectual reference points. Sartre, Lévi-Strauss, and Derrida should not be listed as interchangeable mentors: they occupied different positions, including those of contemporaries and critics.",
+    "3.1.15": "These factors plausibly contributed in different ways. Training and intellectual encounters concern formation, whereas publications, lectures, and public controversy concern recognition. The list does not establish an exact causal ranking.",
+    "3.2.1": "<strong>Novelty and Critique:</strong> His histories made familiar classifications and institutional practices objects of investigation. Power–knowledge names a relation to analyze; reducing it to the assertion that objective truth is impossible hides the specific historical questions that attracted attention.",
+    "3.2.5": "<strong>Writing and Circulation:</strong> Vivid historical contrasts and ambitious claims drew readers, while translations, lectures, and criticism extended their reach. His prose can also be demanding. Visibility and accessibility varied across works and audiences, rather than following automatically from an engaging style.",
+    "3.3.1": "<strong>Intellectual Environment:</strong> Postwar French debates supplied resources and opponents, including existentialism, structuralism, and histories of science. Influence should be traced through particular arguments and encounters, not inferred merely from living in the same intellectual climate.",
+    "3.3.6": "<strong>Personal Experiences:</strong> His experience of sexuality and social norms may illuminate the questions he pursued, but it does not establish the cause or validity of a philosophical argument. A responsible biographical explanation needs evidence connecting particular experiences and inquiries, rather than deducing a theory from an identity.",
+    "4.1.2": "<strong>Explanation:</strong> Foucault is commonly grouped with poststructuralism, although the label does not define a uniform school or all phases of his work. His histories challenge the necessity of specific categories and practices; that need not mean a denial of every stable meaning or universal truth.",
+    "4.1.4": "<strong>Explanation:</strong> His work became a major interlocutor for later critical theory. The Frankfurt School predates his mature writings, and later exchanges include sharp disagreements over reason and the standards needed to criticize domination. Influence here should not be confused with founding the school or universal acceptance.",
+    "4.1.6": "<strong>Explanation:</strong> Feminist writers use and criticize his accounts of bodies, discipline, and subject formation. Their reception includes questions about gendered power and political agency that his own studies do not fully address. It is an active reconstruction, not simple endorsement.",
+    "4.1.19": "<strong>Explanation:</strong> Governmentality and biopolitics help political researchers examine expertise, population categories, institutions, and self-regulation. These approaches extend analysis beyond state commands while leaving concrete claims about policy effects open to empirical testing.",
+    "4.1.21": "<strong>Explanation:</strong> <em>Discipline and Punish</em> gave criminology an influential account of surveillance, normalization, and prison formation. Historians and criminologists can question its evidence or generality; disciplinary techniques also coexist with bodily violence rather than completely replacing it.",
+    "4.2.3": "<strong>Epistemology:</strong> Foucault asks how knowledge claims acquire authority within practices and institutions. This raises problems about objectivity and justification, but social origin alone is not a refutation. The challenge is to relate historical explanation to the assessment of particular claims.",
+    "4.2.9": "<strong>Gender and Sexuality Studies:</strong> His histories made classifications, norms, and forms of self-understanding objects of critical inquiry. The historical formation of sexual identities does not entail that bodies or all desires are unreal or freely chosen.",
+    "4.3.1": "<strong>Poststructuralism:</strong> Foucault is commonly associated with this broad label. His contribution includes historical analysis of categories and practices rather than a single doctrine that all meaning is unstable or language creates physical reality.",
+    "4.3.7": "<strong>Political Philosophy:</strong> Governmentality and biopower encourage inquiry into expertise, population management, and self-regulation alongside formal state authority. These concepts identify questions and mechanisms; they do not settle the legitimacy of every exercise of governance.",
+    "5.1.6": "<b>#4:</b> Which concept concerns rationalities and practices of directing conduct, including but extending beyond state commands?",
+    "5.3.0": "<b>#1:</b> Which concept describes power over life through discipline of bodies and regulation of populations?",
+    "5.3.2": "<b>#2:</b> With which broad philosophical label is Foucault commonly associated, despite the differences among thinkers grouped under it?",
+    "5.3.4": "<b>#3:</b> Which concept investigates ways of governing conduct through institutions, expertise, and self-regulation?",
+    "6.1.6": "How does biopolitics differ from discipline directed at individual bodies, and how can these forms coexist with sovereign power?",
+    "6.2.0": "Does showing how an institution produces and authorizes knowledge establish that its claims are false? What further argument or evidence would be required?",
+    "6.2.5": "How does the historical formation of sexual identities differ from denying biology or treating desire as a freely chosen belief?",
+    "6.3.2": "<strong>How could biopower illuminate a public-health policy, and what further evidence would be needed to assess the policy’s effects and legitimacy?</strong>",
+    "6.3.7": "<strong>Which features of an online setting resemble panoptic visibility, and which features make the analogy misleading?</strong>",
+    "6.3.12": "<strong>What evidence would justify connecting Foucault’s personal experiences with a particular philosophical argument, and where would that become biographical speculation?</strong>"
+  },
+  "countChecks": [
+    {
+      "name": "sevenContributionsPerResponse",
+      "selector": "#prompt-2 .original-response > ol",
+      "child": "li",
+      "expected": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "sevenExpandableAnswersPerResponse",
+      "selector": "#prompt-5 .original-response",
+      "child": "details",
+      "recursive": true,
+      "expected": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "twelveDiscussionQuestions",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        12,
+        12,
+        12
+      ]
+    },
+    {
+      "name": "oneParagraphOverviewPerResponse",
+      "selector": "#prompt-1 .original-response",
+      "child": "p",
+      "expected": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "pageSignals": {
+    "Page form": "Philosopher profile",
+    "Best for": "examining institutions, historical categories, and power"
+  },
+  "nonPromptSections": [
+    5
+  ],
+  "disclosureParagraphsAsDiv": true,
+  "joinedParagraphs": {
+    "1.3": [
+      [
+        0,
+        1
+      ]
+    ]
+  },
+  "bareAnswerReplacements": {
+    "5.2.answer1": "Foucault investigates how knowledge practices and power relations support one another. Institutional authority and social origin do not alone determine whether a particular claim is true.",
+    "5.2.answer5": "He investigates how sexual categories and identities are historically formed, and how power also produces discourse about sex. This does not deny bodies, desire, or biological processes."
+  }
+}

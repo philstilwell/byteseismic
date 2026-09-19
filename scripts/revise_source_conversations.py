@@ -204,6 +204,19 @@ def edited_column(original, n, c, config):
         for number, li in enumerate(ol.find_all('li', recursive=False), 1):
             assert text(li).startswith(f'{number}. ')
         ol['style'] = 'list-style:none;padding-left:0'
+    for group in config.get('joinedParagraphs', {}).get(f'{n}.{c}', []):
+        # Keep each source address while honoring a prompt for one paragraph.
+        paragraphs = [col.select_one(f'[data-source-node="{n}.{c}.{k}"]') for k in group]
+        assert len(paragraphs) > 1 and all(p is not None and p.name == 'p' for p in paragraphs)
+        assert all(p.parent is col and not p.find_all(TAGS) for p in paragraphs)
+        assert list(paragraphs[0].find_next_siblings('p', limit=len(group)-1)) == paragraphs[1:]
+        for paragraph in paragraphs[1:]:
+            gap = paragraph.previous_sibling
+            if isinstance(gap, str) and not gap.strip():
+                gap.extract()
+            paragraph.name = 'span'
+            paragraphs[0].append(' ')
+            paragraphs[0].append(paragraph.extract())
     return col
 
 

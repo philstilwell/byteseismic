@@ -1,0 +1,38 @@
+{
+  "pagePath": "/philosophers/charles-sanders-peirce/",
+  "sourceSha256": "cf3f47c0df3943d97707b835324587087c2588bb1573736f7e5857e33abd453e",
+  "originalPrompts": 6,
+  "originalHeadings": 6,
+  "sourceColumns": 18,
+  "modelResponses": 18,
+  "blocksRetainedVerbatim": 112,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 54,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "sevenContributions": [
+      7,
+      7,
+      7
+    ],
+    "quizQuestionsAndFinalKeys": [
+      7,
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "twelveDiscussionQuestions": [
+      12,
+      12,
+      12
+    ]
+  },
+  "sha256": "86ed145d421f1589035c5bd7708e41e446d6d5623ed4fd0d7b95a446391d4ac7"
+}

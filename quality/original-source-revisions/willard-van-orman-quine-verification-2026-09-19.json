@@ -1,0 +1,45 @@
+{
+  "pagePath": "/philosophers/willard-van-orman-quine/",
+  "sourceSha256": "a73976fc1d811d4aec64e5def8b4150e8b15926d74d1bbed19836b271c25fcbf",
+  "originalPrompts": 5,
+  "originalHeadings": 6,
+  "sourceColumns": 18,
+  "modelResponses": 18,
+  "blocksRetainedVerbatim": 144,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 76,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "ChatGPTClaudeSevenContributions": [
+      7,
+      7
+    ],
+    "GeminiSevenContributionHeadings": [
+      7
+    ],
+    "originalExpandableQuizCounts": [
+      10,
+      7,
+      10
+    ],
+    "GeminiSevenQuestionAnswerPairs": [
+      14
+    ],
+    "twelveDiscussionQuestions": [
+      12,
+      12,
+      12
+    ],
+    "oneParagraphOverviewPerResponse": [
+      1,
+      1,
+      1
+    ]
+  },
+  "sha256": "fba4bff48dc6c329768894ba5c1b0d76fd900a72c8740044329df4645a356434"
+}
