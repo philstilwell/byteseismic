@@ -1,0 +1,105 @@
+{
+  "status": "source-read-review-pending",
+  "pagePath": "/metaphysics/jeremy-sherman-on-emergence/",
+  "source": {
+    "wordpressId": 9786,
+    "title": "Jeremy Sherman on Emergence",
+    "url": "http://byteseismic.com/2024/05/23/jeremy-sherman-on-emergence/",
+    "cache": ".cache/byteseismic-posts-with-content.json",
+    "snapshot": "quality/original-source-revisions/jeremy-sherman-on-emergence-wordpress-9786.html",
+    "sha256": "5f7919509afdfdb53dd43f927a59e3dfc402ca073022a2b3aa4cac179af6fa2a"
+  },
+  "fullOriginalReadOn": "2026-09-20",
+  "sourceIdentityVerified": {
+    "url": true,
+    "title": true,
+    "sixMainPromptSequence": true
+  },
+  "mainSections": [
+    {
+      "section": 1,
+      "prompt": "Create a list of key terms in this content. Include their definitions. Provide a summary of the content, then assess it for factual accuracy, logical coherence, and testability.",
+      "responseColumns": 1,
+      "orderedListCounts": [
+        12
+      ]
+    },
+    {
+      "section": 2,
+      "prompt": "Provide a profile of the podcast guest and links to media featuring his work.",
+      "responseColumns": 1,
+      "orderedListCounts": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "section": 3,
+      "prompt": "Do a deep dive into the primary arguments made in the transcript, augmented by other relevant sources. Create syllogisms of the arguments if possible, and make any causal chains explicit.",
+      "responseColumns": 1,
+      "orderedListCounts": [
+        3,
+        3,
+        3,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "section": 4,
+      "prompt": "Provide your own assessment of the plausibility of these arguments, then assess the potential weaknesses.",
+      "responseColumns": 1,
+      "orderedListCounts": [
+        4,
+        4
+      ]
+    },
+    {
+      "section": 5,
+      "prompt": "Create a 10-item quiz on the entire thread above.",
+      "responseColumns": 1,
+      "orderedListCounts": [
+        10,
+        10
+      ]
+    },
+    {
+      "section": 6,
+      "prompt": "Provide 20 discussion questions relevant to the content above. ",
+      "responseColumns": 1,
+      "orderedListCounts": [
+        20
+      ]
+    }
+  ],
+  "additionalOriginalExchange": {
+    "headingTag": "h4",
+    "prompt": "Bonus: Create an image that captures the essence of the content of this thread.",
+    "imageResponse": {
+      "src": "https://byteseismic.com/wp-content/uploads/2024/05/image-10.png?w=1024",
+      "originalFile": "https://byteseismic.wordpress.com/wp-content/uploads/2024/05/image-10.png",
+      "attachmentId": "9799"
+    },
+    "curatorComment": "Interesting, but it needs work. We’ll check back in a year to see how ChatGPTo image generation has progressed.",
+    "position": "After main discussion response and duplicate contents menu; before decorative closing separators",
+    "preservationRequirement": "Preserve bonus prompt verbatim, original image response, and curator assessment together after discussion questions. Existing original image, not a request to generate a new image."
+  },
+  "totalOriginalPromptsIncludingBonus": 7,
+  "noPageRevisionWritten": true,
+  "remainingWork": [
+    "Read complete cited transcript and verify all technical and social attributions.",
+    "Revise all six responses in place, including dependent ten-item quiz and twenty discussion questions.",
+    "Restore bonus prompt, original image response and curator comment; explicitly verify this exchange beyond h2 extraction.",
+    "Check claims of validation, thermodynamics, origin-of-life alternatives, attribution of psychoproctology, and deductive validity of proposed syllogisms."
+  ],
+  "limitations": [
+    "Source inventory and reading are not editorial completion.",
+    "Search-index excerpts do not establish full transcript coverage."
+  ]
+}
