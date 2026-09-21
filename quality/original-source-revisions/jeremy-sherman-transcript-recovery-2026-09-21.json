@@ -1,0 +1,50 @@
+{
+  "recoveredAt": "2026-09-21T09:59:55.238941-04:00",
+  "pagePath": "/metaphysics/jeremy-sherman-on-emergence/",
+  "wordpressId": 9786,
+  "publisherURL": "https://www.jimruttshow.com/the-jim-rutt-show-transcripts/transcript-of-ep-228-jeremy-sherman-on-the-emergence-and-nature-of-selves/",
+  "status": "external-transcript-recovered-editorial-review-still-required",
+  "sourceType": "Archived publisher transcript, explicitly labeled rough/unrevised by publisher.",
+  "snapshots": [
+    {
+      "archiveTimestamp": "20240422084717",
+      "url": "https://web.archive.org/web/20240422084717id_/https://www.jimruttshow.com/the-jim-rutt-show-transcripts/transcript-of-ep-228-jeremy-sherman-on-the-emergence-and-nature-of-selves/",
+      "httpStatus": 200,
+      "localCache": ".cache/editorial-sources/sherman-transcript-20240422.html",
+      "bytes": 119288,
+      "htmlSha256": "2a0175c23d9d5ab52c59b71c643d8719f14e244523a087a1e6d43dab421cdf0f",
+      "title": "Transcript of EP 228 – Jeremy Sherman on the Emergence and Nature of Selves - The Jim Rutt Show",
+      "transcriptParagraphs": 165,
+      "transcriptWordCount": 13279,
+      "normalizedParagraphsSha256": "477fee6c4738624977c12d4885fddaa0ffd3b7a57be78cb2a071c1d98451ae3f"
+    },
+    {
+      "archiveTimestamp": "20250622141102",
+      "url": "https://web.archive.org/web/20250622141102id_/https://www.jimruttshow.com/the-jim-rutt-show-transcripts/transcript-of-ep-228-jeremy-sherman-on-the-emergence-and-nature-of-selves/",
+      "httpStatus": 200,
+      "localCache": ".cache/editorial-sources/sherman-transcript-20250622.html",
+      "bytes": 120755,
+      "htmlSha256": "57659ed60bc7da7bedddddfeb29b194177e6681fb88ec1329acec319986d1062",
+      "title": "Transcript of EP 228 – Jeremy Sherman on the Emergence and Nature of Selves - The Jim Rutt Show",
+      "transcriptParagraphs": 165,
+      "transcriptWordCount": 13279,
+      "normalizedParagraphsSha256": "477fee6c4738624977c12d4885fddaa0ffd3b7a57be78cb2a071c1d98451ae3f"
+    }
+  ],
+  "independentCaptureTextIdentical": true,
+  "textCache": ".cache/editorial-sources/sherman-transcript-20240422.txt",
+  "normalizedParagraphsCache": ".cache/editorial-sources/sherman-transcript-20240422-paragraphs.txt",
+  "readStatus": "Opening, closing, structural completeness and identical transcript text verified. No claim of full substantive editorial reading or revision on this reconciliation turn.",
+  "limitations": [
+    "Publisher labels the transcript rough and unrevised. Check uncertain claims against audio or primary research during revision.",
+    "Recovery resolves source availability; it does not complete the page review.",
+    "Original WordPress prompt/response sequence remains authoritative for page structure; transcript is an external supporting source."
+  ],
+  "nextReview": [
+    "Read complete WordPress post 9786 and complete recovered transcript.",
+    "Preserve all seven original prompts including bonus image prompt, existing image and exact curator note.",
+    "Revise six response placements and dependent ten-question quiz and twenty discussion questions.",
+    "Distinguish theoretical proposals and simulations from empirical validation; inspect syllogism validity and causal chains."
+  ],
+  "cachePolicy": "Third-party transcript copies are local research cache only and are not committed or republished. Archive URLs and checksums allow recovery if local cache is lost."
+}

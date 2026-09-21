@@ -1,0 +1,139 @@
+{
+  "recordedAt": "2026-09-21T10:02:15.307764-04:00",
+  "status": "curator-approved-site-native-baselines-editorial-review-pending",
+  "userQuestionPending": false,
+  "pages": [
+    {
+      "pagePath": "/philosophers/al-ghazali/",
+      "title": "Al-Ghazali",
+      "firstAddedCommit": "c848a72c8e71d73379aa3edf5e75d01c40dd1f1e",
+      "commitSubject": "Expand philosopher coverage and refresh site output",
+      "commitDate": "2026-06-09T23:55:22-04:00",
+      "repositoryFile": "philosophers/al-ghazali/index.html",
+      "sourceURL": "https://github.com/philstilwell/byteseismic/blob/c848a72c8e71d73379aa3edf5e75d01c40dd1f1e/philosophers/al-ghazali/index.html",
+      "sha256": "650aa32491eec828196fd380c89d107ef2d0fbe4b0070beb3c330e6601f25691",
+      "localCandidateCache": ".cache/editorial-sources/al-ghazali-first-repository-c848a72c8e71.html",
+      "sourceKind": "site-native editorial orientation",
+      "sourceIsOriginalWordPress": false,
+      "promptSectionCount": 4,
+      "status": "approved-site-native-baseline-editorial-review-pending",
+      "editoriallyComplete": false,
+      "responseHeadings": [
+        "The historical setting shows which problem the view inherited.",
+        "The map of Ghazali's major concepts, methods, or questions becomes useful once the parts stop doing different work.",
+        "The strongest objection shows what the view has to answer.",
+        "The best entry point opens the problem without pretending to settle it."
+      ],
+      "prompts": [
+        "Explain why Al-Ghazali remains philosophically important.",
+        "Identify Al-Ghazali's major concepts, methods, or questions.",
+        "Where does Al-Ghazali's view face its strongest objection?",
+        "How should a contemporary reader begin with Al-Ghazali?"
+      ],
+      "committedBaselineSnapshot": "quality/original-source-revisions/al-ghazali-first-repository-c848a72c8e71.html",
+      "currentPagePromptsMatchBaseline": true,
+      "currentPageSha256AtReconciliation": "6ecb5826b0f918b8c93bbd50fc07116e903486eccb76af2346560a38542a22bf"
+    },
+    {
+      "pagePath": "/philosophers/anselm-of-canterbury/",
+      "title": "Anselm of Canterbury",
+      "firstAddedCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
+      "commitSubject": "Add missing philosopher posts",
+      "commitDate": "2026-05-20T23:32:42-04:00",
+      "repositoryFile": "philosophers/anselm-of-canterbury/index.html",
+      "sourceURL": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/anselm-of-canterbury/index.html",
+      "sha256": "e241e06c37b07fbffd628e048ebb4641c1389e4e2770e7b9cefa35dedc030776",
+      "localCandidateCache": ".cache/editorial-sources/anselm-of-canterbury-first-repository-345af16a41ec.html",
+      "sourceKind": "site-native reconstructed composite profile",
+      "sourceIsOriginalWordPress": false,
+      "promptSectionCount": 4,
+      "status": "approved-site-native-baseline-editorial-review-pending",
+      "editoriallyComplete": false,
+      "responseHeadings": [
+        "Historical setting is the hinge of the response.",
+        "Faith seeking understanding needs a map, not a heap of labels.",
+        "Best objection is the hinge of the response.",
+        "Best entry point is the hinge of the response."
+      ],
+      "prompts": [
+        "Explain why Anselm of Canterbury remains philosophically important.",
+        "Identify Anselm of Canterbury's major concepts, methods, or questions.",
+        "Where does Anselm of Canterbury's view face its strongest objection?",
+        "How should a contemporary reader begin with Anselm of Canterbury?"
+      ],
+      "committedBaselineSnapshot": "quality/original-source-revisions/anselm-of-canterbury-first-repository-345af16a41ec.html",
+      "currentPagePromptsMatchBaseline": true,
+      "currentPageSha256AtReconciliation": "94d8659dc6582a4b09090142aa8dc11fd25ff0d5ce9c97bccaeeea58c037185d"
+    },
+    {
+      "pagePath": "/philosophers/arthur-schopenhauer/",
+      "title": "Arthur Schopenhauer",
+      "firstAddedCommit": "c848a72c8e71d73379aa3edf5e75d01c40dd1f1e",
+      "commitSubject": "Expand philosopher coverage and refresh site output",
+      "commitDate": "2026-06-09T23:55:22-04:00",
+      "repositoryFile": "philosophers/arthur-schopenhauer/index.html",
+      "sourceURL": "https://github.com/philstilwell/byteseismic/blob/c848a72c8e71d73379aa3edf5e75d01c40dd1f1e/philosophers/arthur-schopenhauer/index.html",
+      "sha256": "a410cfee76f580608c9f0180cfbb867eae1ba0b9764b66d7c1f7efbb5335c8cc",
+      "localCandidateCache": ".cache/editorial-sources/arthur-schopenhauer-first-repository-c848a72c8e71.html",
+      "sourceKind": "site-native editorial orientation",
+      "sourceIsOriginalWordPress": false,
+      "promptSectionCount": 4,
+      "status": "approved-site-native-baseline-editorial-review-pending",
+      "editoriallyComplete": false,
+      "responseHeadings": [
+        "The historical setting shows which problem the view inherited.",
+        "The map of World as representation becomes useful once the parts stop doing different work.",
+        "The strongest objection shows what the view has to answer.",
+        "The best entry point opens the problem without pretending to settle it."
+      ],
+      "prompts": [
+        "Explain why Arthur Schopenhauer remains philosophically important.",
+        "Identify Arthur Schopenhauer's major concepts, methods, or questions.",
+        "Where does Arthur Schopenhauer's view face its strongest objection?",
+        "How should a contemporary reader begin with Arthur Schopenhauer?"
+      ],
+      "committedBaselineSnapshot": "quality/original-source-revisions/arthur-schopenhauer-first-repository-c848a72c8e71.html",
+      "currentPagePromptsMatchBaseline": true,
+      "currentPageSha256AtReconciliation": "426c56cbd8491ddc42114544dd96243611ce3571c745ab89cfa7030f3d57f45c"
+    }
+  ],
+  "additionalOriginalSearch": {
+    "localWordPressExports": [
+      {
+        "date": "2024-02-08",
+        "items": 54,
+        "matchingProfileTitles": 0
+      },
+      {
+        "date": "2024-03-01",
+        "items": 280,
+        "matchingProfileTitles": 0
+      },
+      {
+        "date": "2024-03-26",
+        "items": 255,
+        "matchingProfileTitles": 0
+      }
+    ],
+    "limits": "These exports predate later content. Absence alone is not proof that a profile never existed. First-addition repository provenance and prior cache/live searches are the positive basis for proposing site-native treatment.",
+    "priorSearchEvidence": "quality/original-source-revisions/missing-profile-source-searches.json"
+  },
+  "approvedAt": "2026-09-21T10:04:05.851554-04:00",
+  "approvalEvidence": {
+    "question": "Use earliest repository editions as explicitly labeled site-native baselines for Al-Ghazali, Anselm of Canterbury and Arthur Schopenhauer, preserving each page’s four prompts?",
+    "userAnswer": "Use labeled site-native baselines (Recommended)",
+    "scope": "Exactly these three profiles; no general exemption for reconstructed WordPress pages."
+  },
+  "approvedException": {
+    "scope": [
+      "/philosophers/al-ghazali/",
+      "/philosophers/anselm-of-canterbury/",
+      "/philosophers/arthur-schopenhauer/"
+    ],
+    "baseline": "Exact first-added repository edition; explicitly describe it as site-native editorial/reconstructed content, never as a WordPress original.",
+    "preservation": "Preserve the four baseline prompts verbatim and in order, each response placement and existing substantive lists/tables. Improve responses to actual prompts.",
+    "review": "Read full earliest edition and current page; verify factual claims using primary texts and keep source provenance visible.",
+    "completion": "Candidate recovery or exception approval alone does not mark these pages reviewed. Complete individual revisions and verification before batch advancement.",
+    "authority": "Explicit curator choice on September 21, 2026: Use labeled site-native baselines (Recommended)."
+  }
+}
