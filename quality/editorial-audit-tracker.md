@@ -1,9 +1,9 @@
 # Byteseismic Editorial Audit Tracker
 
-Generated: 2026-09-06
+Generated: 2026-09-22
 Batch size: 50 pages
 Current cycle: 8
-Current queue start: 1 of 346
+Current queue start: 51 of 346
 
 ## Protocol
 
@@ -24,73 +24,60 @@ Pages are queued deterministically by priority band, then by weakest score, then
 
 | # | Branch | Page | Priority | Worst | Focus |
 | ---: | --- | --- | --- | ---: | --- |
-| 1 | Philosophers | [Empiricists](../philosophers/empiricists/) | review | 54 | 3 prompt sections need review; 4 prompt sections need gap fill |
-| 2 | Philosophy of Mind | [What is Consciousness?](../philosophy-of-mind/what-is-consciousness/) | review | 60 | 4 prompt sections need review; 4 prompt sections need gap fill |
-| 3 | Philosophers | [Analytic Philosophers](../philosophers/analytic-philosophers/) | review | 60 | 4 prompt sections need review; 4 prompt sections need gap fill |
-| 4 | Philosophy of Science | [The Use of Proxies](../philosophy-of-science/the-use-of-proxies/) | review | 60 | 2 prompt sections need review; 2 prompt sections need gap fill |
-| 5 | Philosophy of Science | [Methodological Naturalism](../philosophy-of-science/methodological-naturalism/) | review | 60 | 1 prompt sections need review; 1 prompt sections need gap fill |
-| 6 | Philosophers | [David Hume](../philosophers/david-hume/) | review | 62 | 3 prompt sections need review; 4 prompt sections need gap fill |
-| 7 | Philosophers | [Baruch Spinoza](../philosophers/baruch-spinoza/) | review | 62 | 2 prompt sections need review; 4 prompt sections need gap fill |
-| 8 | Philosophers | [Immanuel Kant](../philosophers/immanuel-kant/) | review | 62 | 2 prompt sections need review; 4 prompt sections need gap fill |
-| 9 | Political Philosophy | [Critical Race Theory](../political-philosophy/critical-race-theory/) | review | 64 | 1 prompt sections need review; 1 prompt sections need gap fill |
-| 10 | Philosophers | [Ancient Philosophers](../philosophers/ancient-philosophers/) | review | 65 | 4 prompt sections need review; 4 prompt sections need gap fill |
-| 11 | Rational Thought | [Calculating Risks](../rational-thought/calculating-risks/) | review | 69 | 2 prompt sections need review; 2 prompt sections need gap fill |
-| 12 | Philosophy of Mind | [Elitzur on Consciousness](../philosophy-of-mind/elitzur-on-consciousness/) | review | 69 | 1 prompt sections need review; 1 prompt sections need gap fill |
-| 13 | Rational Thought | [Depth or Width of Knowledge?](../rational-thought/depth-or-width-of-knowledge/) | review | 70 | 3 prompt sections need review; 3 prompt sections need gap fill |
-| 14 | Epistemology | [“Adequate” Evidence](../epistemology/adequate-evidence/) | review | 70 | 2 prompt sections need review; 2 prompt sections need gap fill |
-| 15 | Metaphysics | [Jeremy Sherman on Emergence](../metaphysics/jeremy-sherman-on-emergence/) | review | 70 | 2 prompt sections need review; 2 prompt sections need gap fill |
-| 16 | Political Philosophy | [Identity Politics](../political-philosophy/identity-politics/) | review | 70 | 2 prompt sections need review; 2 prompt sections need gap fill |
-| 17 | Philosophy of Science | [Orthogonality](../philosophy-of-science/orthogonality/) | review | 71 | 3 prompt sections need review; 3 prompt sections need gap fill |
-| 18 | Philosophers | [René Descartes](../philosophers/rene-descartes/) | review | 72 | 3 prompt sections need review; 4 prompt sections need gap fill |
-| 19 | Philosophers | [Daniel Dennett](../philosophers/daniel-dennett/) | review | 74 | 2 prompt sections need review; 4 prompt sections need gap fill |
-| 20 | Philosophers | [Søren Kierkegaard](../philosophers/soren-kierkegaard/) | review | 74 | 2 prompt sections need review; 4 prompt sections need gap fill |
-| 21 | Philosophy of Science | [The Power of Convergence](../philosophy-of-science/the-power-of-convergence/) | review | 74 | 2 prompt sections need review; 2 prompt sections need gap fill |
-| 22 | Philosophy of Science | [Improving Science](../philosophy-of-science/improving-science/) | review | 74 | 1 prompt sections need review; 1 prompt sections need gap fill |
-| 23 | Philosophers | [Plato](../philosophers/plato-2/) | review | 76 | 3 prompt sections need review; 4 prompt sections need gap fill |
-| 24 | Philosophers | [Socrates](../philosophers/socrates/) | review | 76 | 2 prompt sections need review; 4 prompt sections need gap fill |
-| 25 | Philosophers | [Thomas Hobbes](../philosophers/thomas-hobbes/) | review | 77 | 3 prompt sections need review; 4 prompt sections need gap fill |
-| 26 | Political Philosophy | [The Social Contract](../political-philosophy/the-social-contract/) | review | 78 | 1 prompt sections need review; 1 prompt sections need gap fill |
-| 27 | Humanistic Philosophies | [What is Existentialism?](../humanistic-philosophies/what-is-existentialism/) | review | 78 | 1 prompt sections need review; 1 prompt sections need gap fill |
-| 28 | Philosophers | [Gottfried Wilhelm Leibniz](../philosophers/gottfried-wilhelm-leibniz/) | review | 79 | 3 prompt sections need review; 4 prompt sections need gap fill |
-| 29 | Philosophers | [Thomas Aquinas](../philosophers/thomas-aquinas/) | review | 79 | 3 prompt sections need review; 4 prompt sections need gap fill |
-| 30 | Epistemology | [Rationality Discussion](../epistemology/rationality-discussion/) | review | 79 | 1 prompt sections need review; 1 prompt sections need gap fill |
-| 31 | Introduction | [Miscellaneous Philosophers](../introduction/miscellaneous-philosophers/) | review | 79 | 1 prompt sections need review; 1 prompt sections need gap fill |
-| 32 | Philosophers | [Martin Heidegger](../philosophers/martin-heidegger/) | review | 80 | 2 prompt sections need review; 4 prompt sections need gap fill |
-| 33 | Philosophers | [Phenomenologists](../philosophers/phenomenologists/) | review | 80 | 2 prompt sections need review; 4 prompt sections need gap fill |
-| 34 | Philosophy of Science | [P-Value Issues](../philosophy-of-science/p-value-issues/) | review | 80 | 1 prompt sections need review; 1 prompt sections need gap fill |
-| 35 | Philosophers | [Epicurus](../philosophers/epicurus/) | review | 81 | 2 prompt sections need review; 4 prompt sections need gap fill |
-| 36 | Political Philosophy | [Elements of a Stable State](../political-philosophy/elements-of-a-stable-state/) | review | 81 | 1 prompt sections need review; 1 prompt sections need gap fill |
-| 37 | Philosophers | [Duns Scotus](../philosophers/duns-scotus/) | review | 83 | 2 prompt sections need review; 4 prompt sections need gap fill |
-| 38 | Philosophers | [William James](../philosophers/william-james/) | review | 83 | 2 prompt sections need review; 4 prompt sections need gap fill |
-| 39 | Rational Thought | [1 at 99.5% or 5 at 95%?](../rational-thought/1-at-99-5-or-5-at-95/) | review | 84 | 1 prompt sections need review; 1 prompt sections need gap fill |
-| 40 | Rational Thought | [Avoiding Logical Fallacies](../rational-thought/avoiding-logical-fallacies/) | review | 84 | 1 prompt sections need review; 1 prompt sections need gap fill |
-| 41 | Philosophers | [Bertrand Russell](../philosophers/bertrand-russell/) | gap-fill | 85 | 4 prompt sections need gap fill |
-| 42 | Philosophers | [Jacques Derrida](../philosophers/jacques-derrida/) | gap-fill | 85 | 4 prompt sections need gap fill |
-| 43 | Philosophers | [John Locke](../philosophers/john-locke/) | gap-fill | 85 | 4 prompt sections need gap fill |
-| 44 | Philosophers | [Edmund Husserl](../philosophers/edmund-husserl/) | gap-fill | 86 | 4 prompt sections need gap fill |
-| 45 | Philosophers | [Willard Van Orman Quine](../philosophers/willard-van-orman-quine/) | gap-fill | 86 | 4 prompt sections need gap fill |
-| 46 | Philosophers | [Charles Sanders Peirce](../philosophers/charles-sanders-peirce/) | gap-fill | 88 | 4 prompt sections need gap fill |
-| 47 | Philosophers | [Michel Foucault](../philosophers/michel-foucault/) | gap-fill | 89 | 4 prompt sections need gap fill |
-| 48 | Philosophers | [Al-Ghazali](../philosophers/al-ghazali/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 49 | Philosophers | [Anselm of Canterbury](../philosophers/anselm-of-canterbury/) | gap-fill | 100 | 4 prompt sections need gap fill |
-| 50 | Philosophers | [Arthur Schopenhauer](../philosophers/arthur-schopenhauer/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 51 | Philosophers | [At the Edge of Miracles](../philosophers/at-the-edge-of-miracles/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 52 | Philosophers | [Augustine of Hippo](../philosophers/augustine-of-hippo/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 53 | Philosophers | [Averroes](../philosophers/averroes/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 54 | Philosophers | [Avicenna](../philosophers/avicenna/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 55 | Philosophers | [Cicero](../philosophers/cicero/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 56 | Philosophers | [Confucius](../philosophers/confucius/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 57 | Philosophers | [Continental Philosophers](../philosophers/continental-philosophers/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 58 | Philosophers | [Critical Theorists](../philosophers/critical-theorists/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 59 | Philosophers | [Dogen](../philosophers/dogen/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 60 | Philosophers | [Elizabeth Anscombe](../philosophers/elizabeth-anscombe/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 61 | Philosophers | [Epictetus](../philosophers/epictetus/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 62 | Philosophers | [Existentialists](../philosophers/existentialists/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 63 | Philosophers | [Friedrich Nietzsche](../philosophers/friedrich-nietzsche/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 64 | Philosophers | [G.E. Moore](../philosophers/g-e-moore/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 65 | Philosophers | [George Berkeley](../philosophers/george-berkeley/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 66 | Philosophers | [Gottlob Frege](../philosophers/gottlob-frege/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 67 | Philosophers | [Hannah Arendt](../philosophers/hannah-arendt/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 68 | Philosophers | [Heraclitus](../philosophers/heraclitus/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 69 | Philosophers | [Jean-Jacques Rousseau](../philosophers/jean-jacques-rousseau/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 70 | Philosophers | [John Dewey](../philosophers/john-dewey/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 71 | Philosophers | [John Rawls](../philosophers/john-rawls/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 72 | Philosophers | [John Stuart Mill](../philosophers/john-stuart-mill/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 73 | Philosophers | [Judith Butler](../philosophers/judith-butler/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 74 | Philosophers | [Jurgen Habermas](../philosophers/jurgen-habermas/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 75 | Philosophers | [Karl Marx](../philosophers/karl-marx/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 76 | Philosophers | [Laozi](../philosophers/laozi/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 77 | Philosophers | [Maimonides](../philosophers/maimonides/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 78 | Philosophers | [Marcus Aurelius](../philosophers/marcus-aurelius/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 79 | Philosophers | [Mary Wollstonecraft](../philosophers/mary-wollstonecraft/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 80 | Philosophers | [Maurice Merleau-Ponty](../philosophers/maurice-merleau-ponty/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 81 | Philosophers | [Mencius](../philosophers/mencius/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 82 | Philosophers | [Mozi](../philosophers/mozi/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 83 | Philosophers | [Nagarjuna](../philosophers/nagarjuna/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 84 | Philosophers | [Niccolo Machiavelli](../philosophers/niccolo-machiavelli/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 85 | Philosophers | [Parmenides](../philosophers/parmenides/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 86 | Philosophers | [Plato](../philosophers/plato/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 87 | Philosophers | [Plotinus](../philosophers/plotinus/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 88 | Philosophers | [Pragmatists](../philosophers/pragmatists/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 89 | Philosophers | [Rationalists](../philosophers/rationalists/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 90 | Philosophers | [Saul Kripke](../philosophers/saul-kripke/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 91 | Philosophers | [Scholastics](../philosophers/scholastics/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 92 | Philosophers | [Seneca](../philosophers/seneca/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 93 | Philosophers | [Shankara](../philosophers/shankara/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 94 | Philosophers | [Theodor Adorno](../philosophers/theodor-adorno/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 95 | Philosophers | [Theodor W. Adorno](../philosophers/theodor-w-adorno/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 96 | Philosophers | [Walter Benjamin](../philosophers/walter-benjamin/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 97 | Philosophers | [William of Ockham](../philosophers/william-of-ockham/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 98 | Philosophers | [Xunzi](../philosophers/xunzi/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 99 | Philosophers | [Zhuangzi](../philosophers/zhuangzi/) | gap-fill | 100 | 4 prompt sections need gap fill |
+| 100 | Philosophers | [Aquinas’ Five Ways](../philosophers/aquinas-five-ways/) | gap-fill | 100 | 3 prompt sections need gap fill |
 
 ## Upcoming Batch Preview
 
-### Next +1: cycle 8, queue positions 51-100
-
-- `gap-fill` 100 [Philosophers / At the Edge of Miracles](../philosophers/at-the-edge-of-miracles/)
-- `gap-fill` 100 [Philosophers / Augustine of Hippo](../philosophers/augustine-of-hippo/)
-- `gap-fill` 100 [Philosophers / Averroes](../philosophers/averroes/)
-- `gap-fill` 100 [Philosophers / Avicenna](../philosophers/avicenna/)
-- `gap-fill` 100 [Philosophers / Cicero](../philosophers/cicero/)
-- `gap-fill` 100 [Philosophers / Confucius](../philosophers/confucius/)
-- `gap-fill` 100 [Philosophers / Continental Philosophers](../philosophers/continental-philosophers/)
-- `gap-fill` 100 [Philosophers / Critical Theorists](../philosophers/critical-theorists/)
-- `gap-fill` 100 [Philosophers / Dogen](../philosophers/dogen/)
-- `gap-fill` 100 [Philosophers / Elizabeth Anscombe](../philosophers/elizabeth-anscombe/)
-
-### Next +2: cycle 8, queue positions 101-150
+### Next +1: cycle 8, queue positions 101-150
 
 - `gap-fill` 100 [Philosophers / Philosopher Club Membership](../philosophers/philosopher-club-membership/)
 - `gap-fill` 100 [Philosophers / Philosophers or Philosophy?](../philosophers/philosophers-or-philosophy/)
@@ -103,10 +90,23 @@ Pages are queued deterministically by priority band, then by weakest score, then
 - `polish` 89 [Epistemology / Avoiding Single-Cause Dogmatism](../epistemology/avoiding-single-cause-dogmatism/)
 - `polish` 89 [Epistemology / Collapsing Epistemological Terms](../epistemology/collapsing-epistemological-terms/)
 
+### Next +2: cycle 8, queue positions 151-200
+
+- `polish` 97 [Ethics / What are Ethics?](../ethics/what-are-ethics/)
+- `polish` 97 [Ethics / “Is” vs “Ought”](../ethics/is-vs-ought/)
+- `polish` 97 [Philosophical Inquiry / How Minds are Changed](../philosophical-inquiry/how-minds-are-changed/)
+- `polish` 98 [Economics / Economic Comparisons](../economics/economic-comparisons/)
+- `polish` 98 [Epistemology / Preponderance of Evidence?](../epistemology/preponderance-of-evidence/)
+- `polish` 98 [Philosophy of Language / What is Language?](../philosophy-of-language/what-is-language/)
+- `polish` 98 [Miscellany / Domains of Aesthetics](../miscellany/domains-of-aesthetics/)
+- `polish` 98 [Philosophical Inquiry / Conspiracies & Misunderstanding Human Nature](../philosophical-inquiry/conspiracies-misunderstanding-human-nature/)
+- `polish` 98 [Philosophy of Mind / Functionalism & Subjectivity](../philosophy-of-mind/functionalism-subjectivity/)
+- `polish` 98 [Philosophy of Mind / Subjective/Objective Free Will](../philosophy-of-mind/subjective-objective-free-will/)
+
 ## Summary
 
 - Tracked pages: 346
-- Pages remaining in current cycle: 346
+- Pages remaining in current cycle: 296
 - Estimated batches per cycle: 7
 
 - gap-fill: 63

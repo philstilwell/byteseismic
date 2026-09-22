@@ -1,0 +1,20 @@
+{
+  "pagePath": "/philosophers/arthur-schopenhauer/",
+  "sourceKind": "site-native editorial orientation",
+  "sourceIsOriginalWordPress": false,
+  "baselineSnapshot": "quality/original-source-revisions/arthur-schopenhauer-first-repository-c848a72c8e71.html",
+  "baselineSha256": "a410cfee76f580608c9f0180cfbb867eae1ba0b9764b66d7c1f7efbb5335c8cc",
+  "originalPrompts": 4,
+  "responseSections": 4,
+  "promptOrderExact": true,
+  "originalResponseListCounts": [
+    5,
+    5,
+    5,
+    5
+  ],
+  "originalSynthesisQuestionsPreserved": 5,
+  "quizQuestions": 8,
+  "genericParagraphsConsolidated": 23,
+  "sha256": "3a5fc239169a38b09f537ae928809f8dbe11f81ec797d745386968f25dbfbf1f"
+}

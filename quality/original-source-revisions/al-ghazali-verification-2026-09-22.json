@@ -1,0 +1,20 @@
+{
+  "pagePath": "/philosophers/al-ghazali/",
+  "sourceKind": "site-native editorial orientation",
+  "sourceIsOriginalWordPress": false,
+  "baselineSnapshot": "quality/original-source-revisions/al-ghazali-first-repository-c848a72c8e71.html",
+  "baselineSha256": "650aa32491eec828196fd380c89d107ef2d0fbe4b0070beb3c330e6601f25691",
+  "originalPrompts": 4,
+  "responseSections": 4,
+  "promptOrderExact": true,
+  "originalResponseListCounts": [
+    5,
+    5,
+    5,
+    5
+  ],
+  "originalSynthesisQuestionsPreserved": 5,
+  "quizQuestions": 8,
+  "genericParagraphsConsolidated": 23,
+  "sha256": "ad41d27850d30efe6259708b5362cbc7cb7397e92a2d95d786b47a45bbd3d47c"
+}

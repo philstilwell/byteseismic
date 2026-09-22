@@ -1,0 +1,215 @@
+{
+  "intro": "Anselm’s profile moves from the importance of faith seeking understanding to the structure of his arguments, the strongest objection, and a reading route. The central test is whether reasoning about unsurpassable greatness can establish something about reality, and what assumptions that reasoning requires.",
+  "description": "Examine Anselm’s faith seeking understanding, ontological argument, divine attributes, and Gaunilo’s objection through four preserved prompts.",
+  "sections": [
+    {
+      "heading": "The philosophical ambition of faith seeking understanding",
+      "baselineParagraphCount": 6,
+      "paragraphs": [
+        "Anselm matters because he tries to make religious commitment answerable to explicit reasoning. His starting point is Christian faith, but his aim is understanding: he asks why a claim should follow, which alternatives are coherent, and how divine attributes can fit together. The devotional setting explains his motivation without deciding whether an argument succeeds for a reader who does not share it.",
+        "The best-known example is the argument in the <em>Proslogion</em>. Anselm considers that than which nothing greater can be conceived and asks whether it could exist only in thought. His attempted proof is a test of the relation between a concept and the existence of what it describes. One can reject the inference and still recognize why it exposes a lasting philosophical problem.",
+        "His importance extends beyond a single proof. Reasoning about power, goodness, justice, and redemption forces a reader to examine what those terms commit a theologian to. The most useful inheritance is a demand for articulated premises; calling a conclusion sacred does not show how it follows."
+      ],
+      "listItems": [
+        "<strong>Historical setting:</strong> The <em>Proslogion</em> is a work of prayerful reflection, not a modern laboratory report or a detached survey of religions. Anselm argues within a Christian understanding of God.",
+        "<strong>Signature contribution:</strong> He seeks a compact argument that can support belief in God’s existence and illuminate divine attributes. The attempt makes the relation between understanding a description and establishing a reality unusually explicit.",
+        "<strong>Influence trail:</strong> Later ontological arguments return to this question using different accounts of possibility, necessity, and perfection. Their additional premises should not be read back into his wording.",
+        "<strong>Signature contribution in use:</strong> Reconstruct a conclusion as a sequence of claims and ask where a nonbeliever would first withhold assent. That is more informative than treating the proof as either self-evident or obviously silly.",
+        "<strong>Historical setting in use:</strong> Faith supplies the question and the object of inquiry. It does not remove the separate task of evaluating the offered reasons.",
+        "<strong>Influence trail in use:</strong> Read the contemporary objection by Gaunilo with Anselm’s reply. The exchange shows that the scope and legitimacy of the inference were contested from the start."
+      ],
+      "notices": []
+    },
+    {
+      "heading": "From a governing commitment to particular arguments",
+      "baselineParagraphCount": 6,
+      "paragraphs": [
+        "Faith seeking understanding describes an intellectual orientation. The ontological argument is one particular argument pursued within it. Conflating them would imply that failure of that proof ends all religious inquiry, or that commitment to inquiry already establishes the proof. Neither implication follows.",
+        "In chapter 2 of the <em>Proslogion</em>, the argument turns on a comparison: if unsurpassable greatness existed only in the understanding, Anselm thinks something greater could be conceived—its existence in reality. Chapter 3 adds the claim that existence which cannot be thought away is greater than existence which can. The proposed contradiction depends on the coherence of the description and the legitimacy of these comparisons.",
+        "The same project continues when Anselm examines attributes. If an inability to lie counted simply as a lack of power, perfect truthfulness would conflict with omnipotence. He replies that a capacity for such failure is a defect, not a perfection. The argument therefore requires judgments about what counts as greatness, not just repetition of a definition."
+      ],
+      "listItems": [
+        "<strong>Faith seeking understanding:</strong> Belief is treated as a starting point for inquiry, not a substitute for it. The reader should still distinguish an explanation meaningful within faith from a proof meant to bind someone outside it.",
+        "<strong>Ontological argument:</strong> The concept of unsurpassable greatness is asked to disclose existence. Its controversial step is the move from the status of the object as understood to its reality.",
+        "<strong>Divine attributes:</strong> Terms such as power and goodness require interpretation when applied together. The <em>Proslogion</em> asks, for example, how a being can be omnipotent yet unable to lie.",
+        "<strong>Atonement reasoning:</strong> In <em>Cur Deus Homo</em>, Anselm argues that humanity owes satisfaction for sin but that only God can provide what is required; hence his account of the God-man. The conclusion depends on the premises about obligation, satisfaction, and divine justice.",
+        "<strong>Historical pressure:</strong> Ask which assumption does the work in each argument. The account of redemption requires more than the concept of unsurpassable greatness, even though both belong to the same theological project."
+      ],
+      "notices": []
+    },
+    {
+      "heading": "Can a concept establish its own instance?",
+      "baselineParagraphCount": 7,
+      "paragraphs": [
+        "The strongest objection is that understanding a description is not yet knowing that anything satisfies it. A plan for a building can be coherent and detailed without there being such a building. Anselm knows this ordinary distinction; the issue is whether unsurpassable greatness is a justified exception. A criticism that says only “imagining does not create things” identifies the danger but still has to address his particular reasoning.",
+        "Gaunilo presses the danger with the imagined excellence of a lost island: if conceptual superiority licenses existence, a parallel argument seems able to prove an island into reality. Anselm replies that his argument concerns the uniquely unsurpassable being, whose nonexistence cannot be conceived, rather than an arbitrarily excellent object. The reply targets the scope of the analogy; it is not itself independent evidence that the special description is coherent or instantiated.",
+        "A charitable contemporary defense can emphasize necessary existence: a contingently existing island is not the intended kind of being. The critic can grant that distinction and still ask why there could be such a necessary being. Adding necessity to a description does not by itself establish a possible instance. The disagreement turns on what the concept warrants, not on which side can attach the stronger adjective."
+      ],
+      "listItems": [
+        "<strong>Best objection:</strong> The inference risks moving from a concept in thought to an object in reality without an independently justified bridge.",
+        "<strong>Charitable reply:</strong> Anselm argues that the special content of this concept excludes merely contingent or thought-only existence. His claim is not that every vividly imagined thing exists.",
+        "<strong>Contemporary test:</strong> Try the island comparison, then identify the exact premise a defender rejects. A parody helps only if it preserves the inferential feature under dispute.",
+        "<strong>Charitable reply under scrutiny:</strong> Necessary existence may distinguish the intended being from an island. It still leaves questions about whether all the proposed perfections are jointly coherent and whether the description has an instance.",
+        "<strong>Contemporary test under scrutiny:</strong> Separate three claims: I understand the words; the description is genuinely possible; something answering to it exists. Ask what warrants each transition."
+      ],
+      "notices": []
+    },
+    {
+      "heading": "Read the argument with its objection beside it",
+      "baselineParagraphCount": 6,
+      "paragraphs": [
+        "Start with the preface and chapters 1–4 of the <em>Proslogion</em>. The prayerful opening makes the project intelligible; chapters 2 and 3 contain distinct moves that should not be blended into a single slogan. Rewrite each step without assuming the conclusion, then mark the first premise you would dispute.",
+        "Read Gaunilo’s objection next, followed by Anselm’s reply. Give each side a fair statement: Gaunilo questions whether the concept can yield reality, while Anselm insists on the difference between unsurpassable being and a merely excellent object. Decide whether that difference repairs the inference rather than assuming that mentioning it wins the exchange.",
+        "Continue into the chapters on divine attributes and then sample <em>Cur Deus Homo</em>. This exposes both the reach and the cost of the method: carefully connected reasoning can still rest on a contested account of perfection or obligation. Modern modal versions—arguments formulated in terms of possibility and necessity—are useful later comparisons, not substitutes for reading Anselm first."
+      ],
+      "listItems": [
+        "<strong>Best entry point:</strong> Read the ontological argument as a test of what concepts can and cannot establish, with its devotional purpose in view.",
+        "<strong>What to watch:</strong> Identify the comparison between existence in understanding and existence in reality, then the separate claim about necessary existence.",
+        "<strong>Where to go next:</strong> Follow the dispute into arguments about possibility and necessity, tracking any premises added by later authors.",
+        "<strong>Entry point exercise:</strong> Write the argument beside Gaunilo’s island objection. Underline the shared inference and the difference Anselm considers decisive.",
+        "<strong>Reading discipline:</strong> Context helps identify what Anselm means; it does not exempt a premise from criticism.",
+        "<strong>Avoid the shortcut:</strong> Neither “faith replaces reason” nor “a definition proves God” gives a sufficient reconstruction of the text."
+      ],
+      "notices": []
+    }
+  ],
+  "synthesisHeading": "The bridge between a description and reality",
+  "synthesisParagraphs": [
+    "Anselm’s lasting question is what a concept can establish about the world. His argument puts pressure on the distinction between understanding a description, accepting its possibility, and accepting its real instance.",
+    "The religious setting and the validity of an inference are separate matters. A reader can understand the former, reconstruct the latter charitably, and still reject a crucial premise.",
+    "The five original follow-up questions remain below. Apply them to a specific step in Anselm’s reasoning and to the corresponding objection by Gaunilo."
+  ],
+  "quiz": [
+    {
+      "question": "What does faith seeking understanding describe?",
+      "options": [
+        "Inquiry pursued from a religious commitment.",
+        "A ban on giving reasons.",
+        "A conclusion derived from laboratory measurement.",
+        "The claim that every theological argument succeeds."
+      ],
+      "answer": 0,
+      "explanations": [
+        "It describes the orientation of inquiry, not a guarantee that any particular inference works.",
+        "It describes the orientation of inquiry, not a guarantee that any particular inference works.",
+        "It describes the orientation of inquiry, not a guarantee that any particular inference works.",
+        "It describes the orientation of inquiry, not a guarantee that any particular inference works."
+      ]
+    },
+    {
+      "question": "What does the devotional setting help explain?",
+      "options": [
+        "Why the conclusion needs no argument.",
+        "Why only believers may examine the logic.",
+        "Why Gaunilo’s objection is irrelevant.",
+        "Anselm’s purpose and starting commitments."
+      ],
+      "answer": 3,
+      "explanations": [
+        "Context makes the project intelligible while leaving the reasons open to assessment.",
+        "Context makes the project intelligible while leaving the reasons open to assessment.",
+        "Context makes the project intelligible while leaving the reasons open to assessment.",
+        "Context makes the project intelligible while leaving the reasons open to assessment."
+      ]
+    },
+    {
+      "question": "Which distinction is central to the ontological argument?",
+      "options": [
+        "Prayer versus all forms of language.",
+        "A strong emotion versus a weak emotion.",
+        "An object understood in thought versus an object existing in reality.",
+        "A medieval person versus a modern person."
+      ],
+      "answer": 2,
+      "explanations": [
+        "The disputed inference moves from the understood description toward real existence.",
+        "The disputed inference moves from the understood description toward real existence.",
+        "The disputed inference moves from the understood description toward real existence.",
+        "The disputed inference moves from the understood description toward real existence."
+      ]
+    },
+    {
+      "question": "What does Gaunilo’s island example challenge?",
+      "options": [
+        "Whether any islands exist.",
+        "Whether conceptual excellence can license an inference to existence.",
+        "Whether Anselm can use words.",
+        "Whether islands are religious."
+      ],
+      "answer": 1,
+      "explanations": [
+        "The parody tests an inferential pattern, rather than offering geographical evidence.",
+        "The parody tests an inferential pattern, rather than offering geographical evidence.",
+        "The parody tests an inferential pattern, rather than offering geographical evidence.",
+        "The parody tests an inferential pattern, rather than offering geographical evidence."
+      ]
+    },
+    {
+      "question": "What is Anselm’s main kind of reply to the island comparison?",
+      "options": [
+        "The intended unsurpassable being differs from a contingent excellent object.",
+        "Every imagined island really exists.",
+        "Gaunilo has supplied an experimental disproof.",
+        "Descriptions cannot be understood."
+      ],
+      "answer": 0,
+      "explanations": [
+        "Anselm argues that the special description matters; whether this secures existence remains disputed.",
+        "Anselm argues that the special description matters; whether this secures existence remains disputed.",
+        "Anselm argues that the special description matters; whether this secures existence remains disputed.",
+        "Anselm argues that the special description matters; whether this secures existence remains disputed."
+      ]
+    },
+    {
+      "question": "Which move would leave a crucial question unanswered?",
+      "options": [
+        "Distinguishing ordinary existence from necessary existence.",
+        "Asking whether proposed attributes are compatible.",
+        "Locating the disputed premise.",
+        "Assuming that adding necessary existence to a description establishes an instance."
+      ],
+      "answer": 3,
+      "explanations": [
+        "A necessity claim still requires a justified account of the description and its possibility.",
+        "A necessity claim still requires a justified account of the description and its possibility.",
+        "A necessity claim still requires a justified account of the description and its possibility.",
+        "A necessity claim still requires a justified account of the description and its possibility."
+      ]
+    },
+    {
+      "question": "Why continue beyond the famous proof?",
+      "options": [
+        "The other writings remove every objection.",
+        "The rest contains no arguments.",
+        "The divine-attribute and atonement discussions reveal further uses and assumptions of his method.",
+        "Later passages make chapter 2 an empirical experiment."
+      ],
+      "answer": 2,
+      "explanations": [
+        "They show how conceptual reasoning works across distinct theological questions.",
+        "They show how conceptual reasoning works across distinct theological questions.",
+        "They show how conceptual reasoning works across distinct theological questions.",
+        "They show how conceptual reasoning works across distinct theological questions."
+      ]
+    },
+    {
+      "question": "What is a careful reading outcome?",
+      "options": [
+        "Accepting whichever side sounds more confident.",
+        "Reconstructing the steps and identifying where assent is warranted or withheld.",
+        "Memorizing the conclusion alone.",
+        "Treating historical influence as proof."
+      ],
+      "answer": 1,
+      "explanations": [
+        "Understanding requires a fair reconstruction and a reasoned assessment of its premises.",
+        "Understanding requires a fair reconstruction and a reasoned assessment of its premises.",
+        "Understanding requires a fair reconstruction and a reasoned assessment of its premises.",
+        "Understanding requires a fair reconstruction and a reasoned assessment of its premises."
+      ]
+    }
+  ],
+  "references": "<h2>Texts for close reading</h2><p>Read the <a href=\"https://sourcebooks.web.fordham.edu/basis/anselm-proslogium.asp\">Proslogion</a>, especially the preface and chapters 1–7, together with <a href=\"https://sourcebooks.web.fordham.edu/basis/anselm-gaunilo.asp\">Gaunilo’s objection and Anselm’s reply</a>. For the separate satisfaction argument, see <a href=\"https://sourcebooks.web.fordham.edu/basis/anselm-curdeus.asp\">Cur Deus Homo</a>, book 2, chapter 6. These links present older English translations; the profile offers a reconstruction and assessment, not a quotation of Anselm’s own words.</p>",
+  "pagePath": "/philosophers/anselm-of-canterbury/",
+  "shellRevision": "b253590a79321cffc5d929d6c7b4d4be23d5b974"
+}

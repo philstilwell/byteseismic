@@ -1,0 +1,38 @@
+{
+  "pagePath": "/metaphysics/jeremy-sherman-on-emergence/",
+  "sourceSha256": "5f7919509afdfdb53dd43f927a59e3dfc402ca073022a2b3aa4cac179af6fa2a",
+  "originalPrompts": 7,
+  "originalHeadings": 7,
+  "sourceColumns": 6,
+  "modelResponses": 6,
+  "blocksRetainedVerbatim": 61,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 101,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "keyTerms": [
+      12
+    ],
+    "quizAndKey": [
+      10,
+      10
+    ],
+    "discussionQuestions": [
+      20
+    ]
+  },
+  "sha256": "4ca8d1034ca7e09dffa62d5b449e25aa14417621bf636d86be2a734f220f79bf",
+  "wordpressSourceIdentity": {
+    "id": 9786,
+    "url": "http://byteseismic.com/2024/05/23/jeremy-sherman-on-emergence/",
+    "title": "Jeremy Sherman on Emergence",
+    "pageTitle": "Jeremy Sherman on Emergence",
+    "titleMatch": "exact after decoding/diacritic normalization",
+    "cacheContentExact": true
+  }
+}

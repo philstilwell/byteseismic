@@ -247,6 +247,12 @@ def render(config):
     p = tag(soup, 'p')
     p.append(tag(soup, 'a', config['sourceLabel'], href=config['sourceUrl']))
     intro.append(p)
+    if config.get('highlights'):
+        intro.append(tag(soup, 'h3', 'Highlights · edited summary'))
+        highlights = tag(soup, 'ul', **{'class': 'source-highlights'})
+        for value in config['highlights']:
+            highlights.append(tag(soup, 'li', value))
+        intro.append(highlights)
     body.append(intro)
     body.append(route)
     ledger = soup.select_one('.prompt-ledger ol')
@@ -298,6 +304,42 @@ def render(config):
             edited.insert(0, tag(soup, 'h3', display))
             section.append(edited)
         body.append(section)
+    bonus = config.get('sourceBonusExchange')
+    if bonus:
+        heading = source.find(id=bonus['sourceHeadingId'])
+        assert heading is not None and heading.name == 'h4'
+        assert heading.get_text() == bonus['prompt']
+        figure = heading.find_next_sibling()
+        comment = figure.find_next_sibling()
+        assert figure.name == 'figure' and comment.name == 'p'
+        assert comment.get_text() == bonus['curatorComment']
+        n = len(original) + 1
+        li = tag(soup, 'li')
+        a = tag(soup, 'a', **{'class': 'prompt-ledger__link', 'href': f'#prompt-{n}'})
+        a.append(tag(soup, 'span', str(n), **{'class': 'prompt-number', 'aria-hidden': 'true'}))
+        a.append(tag(soup, 'span', heading.get_text(), **{'class': 'prompt-ledger__text'}))
+        li.append(a)
+        ledger.append(li)
+        section = tag(soup, 'section', **{'class': 'article-section article-section--prompt', 'id': f'prompt-{n}'})
+        p = tag(soup, 'p', **{'class': 'article-section__prompt'})
+        p.append(tag(soup, 'span', f'Prompt {n}:'))
+        p.append(' ')
+        p.append(tag(soup, 'span', heading.get_text(), **{'class': 'original-prompt-text'}))
+        section.append(p)
+        section.append(tag(soup, 'h2', 'Original image response and curator comment'))
+        image = copy.deepcopy(figure)
+        for el in [image, *image.find_all(True)]:
+            el.attrs = {k: v for k, v in el.attrs.items() if k in ('src', 'srcset', 'sizes', 'width', 'height', 'alt', 'loading')}
+        image.img['alt'] = bonus['alt']
+        if bonus.get('useSourceImageOrigin'):
+            # WordPress records its working media origin beside the expired custom-domain URL.
+            image.img['src'] = figure.img['data-large-file']
+            image.img.attrs.pop('srcset', None)
+        image.img['style'] = 'max-width:100%;height:auto'
+        image.append(tag(soup, 'figcaption', 'Original 2024 image response; retained as part of the conversation.'))
+        section.append(image)
+        section.append(tag(soup, 'p', comment.get_text(), **{'class': 'curator-comment'}))
+        body.append(section)
     for appendix in appendices:
         section = tag(soup, 'section', **{'class': 'article-section', 'id': appendix['id']})
         section.append(tag(soup, 'h2', appendix['heading']))
@@ -338,7 +380,23 @@ def verify(config, rendered):
     assert hashlib.sha256(raw).hexdigest() == config['sourceSha256']
     original = sections(BeautifulSoup(raw, 'html.parser'), config)
     soup = BeautifulSoup(rendered, 'html.parser')
+    if config.get('highlights'):
+        assert [x.get_text() for x in soup.select('.source-highlights > li')] == config['highlights']
     prompts = [original_prompt(h, config, n) for n, (h, _) in enumerate(original, 1)]
+    bonus = config.get('sourceBonusExchange')
+    if bonus:
+        source = BeautifulSoup(raw, 'html.parser')
+        heading = source.find(id=bonus['sourceHeadingId'])
+        assert heading.get_text() == bonus['prompt']
+        prompts.append(heading.get_text())
+        actual = soup.select_one(f'#prompt-{len(prompts)}')
+        figure = heading.find_next_sibling()
+        expected_src = figure.img['data-large-file'] if bonus.get('useSourceImageOrigin') else figure.img['src']
+        assert actual.img['src'] == expected_src
+        if bonus.get('useSourceImageOrigin'):
+            assert not actual.img.has_attr('srcset')
+        assert actual.select_one('.curator-comment').get_text() == figure.find_next_sibling().get_text() == bonus['curatorComment']
+        assert [s['id'] for s in soup.select('.article-section--prompt')] == [f'prompt-{n}' for n in range(1, len(prompts) + 1)]
     for n, (h, _) in enumerate(original, 1):
         old_preambles = preamble_nodes(h, config, n)
         new_preambles = soup.select(f'#prompt-{n} [data-source-preamble]')

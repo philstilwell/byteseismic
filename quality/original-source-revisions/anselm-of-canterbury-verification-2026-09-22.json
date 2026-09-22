@@ -1,0 +1,20 @@
+{
+  "pagePath": "/philosophers/anselm-of-canterbury/",
+  "sourceKind": "site-native reconstructed composite profile",
+  "sourceIsOriginalWordPress": false,
+  "baselineSnapshot": "quality/original-source-revisions/anselm-of-canterbury-first-repository-345af16a41ec.html",
+  "baselineSha256": "e241e06c37b07fbffd628e048ebb4641c1389e4e2770e7b9cefa35dedc030776",
+  "originalPrompts": 4,
+  "responseSections": 4,
+  "promptOrderExact": true,
+  "originalResponseListCounts": [
+    6,
+    5,
+    5,
+    6
+  ],
+  "originalSynthesisQuestionsPreserved": 5,
+  "quizQuestions": 8,
+  "genericParagraphsConsolidated": 13,
+  "sha256": "3a2b4fb4ddb2f461a5499c869d194df4b78dcf95a5605adeff9dfb64caa7e825"
+}
