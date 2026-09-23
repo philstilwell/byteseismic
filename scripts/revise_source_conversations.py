@@ -96,6 +96,10 @@ def preamble_nodes(heading, config, n):
 
 
 def original_prompt(heading, config, n):
+    if str(n) in config.get('promptContinuationPreambleIndexes', {}):
+        continuation = preamble_nodes(heading, config, n)[config['promptContinuationPreambleIndexes'][str(n)]]
+        assert continuation.name == 'p'
+        return heading.get_text() + '\n' + continuation.get_text()
     if str(n) in config.get('promptPreambleIndexes', {}):
         p = preamble_nodes(heading, config, n)[config['promptPreambleIndexes'][str(n)]]
         value = p.get_text()
@@ -115,8 +119,22 @@ def tag(soup, name, value=None, **attrs):
     return node
 
 
-def edited_column(original, n, c, config):
+def readable_math(original, config):
+    """Explicitly transcribe legacy equation images without changing block order."""
     col = copy.deepcopy(original)
+    mapping = config.get('mathImageText', {})
+    if mapping:
+        for image in col.select('img.latex'):
+            alt = image.get('alt', '')
+            assert alt in mapping, ('Unreviewed formula', alt)
+            span = BeautifulSoup('<span class="source-math"></span>', 'html.parser').span
+            span.string = mapping[alt]
+            image.replace_with(span)
+    return col
+
+
+def edited_column(original, n, c, config):
+    col = readable_math(original, config)
     if config.get('removeDecorativeImages'):
         for figure in col.select('figure:has(img)'):
             assert not figure.get_text(strip=True)
@@ -278,9 +296,18 @@ def render(config):
         section.append(p)
         section.append(tag(soup, 'h2', config['headings'][n-1]))
         for k, original_preamble in enumerate(preamble_nodes(heading, config, n)):
+            if k == config.get('promptContinuationPreambleIndexes', {}).get(str(n)):
+                continue
             preamble = copy.deepcopy(original_preamble)
+            image_origin = config.get('preambleImageOrigins', {}).get(f'{n}.{k}')
+            kept_attributes = ('href', 'src', 'alt', 'width', 'height') if image_origin else ('href',)
             for el in [preamble, *preamble.find_all(True)]:
-                el.attrs = {key: value for key, value in el.attrs.items() if key == 'href'}
+                el.attrs = {key: value for key, value in el.attrs.items() if key in kept_attributes}
+            if image_origin:
+                assert original_preamble.img[image_origin['sourceAttribute']] == image_origin['url']
+                preamble.img['src'] = image_origin['url']
+                preamble.img['alt'] = image_origin['alt']
+                preamble.img['style'] = 'max-width:189px;height:auto'
             preamble['data-source-preamble'] = f'{n}.{k}'
             section.append(preamble)
         for c, col in enumerate(cols, 1):
@@ -398,10 +425,16 @@ def verify(config, rendered):
         assert actual.select_one('.curator-comment').get_text() == figure.find_next_sibling().get_text() == bonus['curatorComment']
         assert [s['id'] for s in soup.select('.article-section--prompt')] == [f'prompt-{n}' for n in range(1, len(prompts) + 1)]
     for n, (h, _) in enumerate(original, 1):
-        old_preambles = preamble_nodes(h, config, n)
+        old_preambles = [p for k, p in enumerate(preamble_nodes(h, config, n))
+                         if k != config.get('promptContinuationPreambleIndexes', {}).get(str(n))]
         new_preambles = soup.select(f'#prompt-{n} [data-source-preamble]')
         assert [x.get_text() for x in old_preambles] == [x.get_text() for x in new_preambles]
         assert [a.get('href') for p in old_preambles for a in p.find_all('a')] == [a.get('href') for p in new_preambles for a in p.find_all('a')]
+        for p in new_preambles:
+            image_origin = config.get('preambleImageOrigins', {}).get(p['data-source-preamble'])
+            if image_origin:
+                assert p.img is not None, 'Original preamble illustration missing'
+                assert p.img['src'] == image_origin['url'] and p.img['alt'] == image_origin['alt']
     assert prompts == [n.get_text() for n in soup.select('.original-prompt-text')]
     assert prompts == [n.get_text() for n in soup.select('.prompt-ledger__text')]
     used = set()
@@ -413,7 +446,7 @@ def verify(config, rendered):
             actual_nodes = actual.select('[data-source-node]')
             expected_nodes = expected.select('[data-source-node]')
             assert [x['data-source-node'] for x in actual_nodes] == [x['data-source-node'] for x in expected_nodes]
-            for old, want, got in zip(col.find_all(TAGS), expected_nodes, actual_nodes):
+            for old, want, got in zip(readable_math(col, config).find_all(TAGS), expected_nodes, actual_nodes):
                 key = got['data-source-node']
                 assert str(got) == str(want), key
                 if key in config['replacements'] or key in config.get('leadingTextReplacements', {}):
@@ -461,6 +494,8 @@ def verify(config, rendered):
                 assert str(clone) == str(expected), (n, c, 'complete response mismatch')
     edits = set(config['replacements']) | set(config.get('leadingTextReplacements', {})) | set(config.get('tableCellReplacements', {})) | set(config.get('bareAnswerReplacements', {}))
     assert used == edits, ('Unused edits', edits - used)
+    if config.get('mathImageText'):
+        assert {im.get('alt', '') for _, cols in original for col in cols for im in col.select('img.latex')} == set(config['mathImageText'])
     image_keys = set()
     for n, (_, cols) in enumerate(original, 1):
         for c, col in enumerate(cols, 1):

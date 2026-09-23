@@ -1,0 +1,198 @@
+{
+  "wordpressId": 13920,
+  "pageFile": "philosophers/at-the-edge-of-miracles/index.html",
+  "snapshot": "at-the-edge-of-miracles-wordpress-13920.html",
+  "sourceSha256": "f9c44c615989808d0e86f4cbd632f667a68fb2889ab65d4ff220b5480af78862",
+  "sourceUrl": "http://byteseismic.com/2024/10/19/at-the-edge-of-miracles/",
+  "sourceLabel": "Original WordPress conversation, October 19, 2024",
+  "shellRevision": "20efd3aaba424b65935b7fb9e7841cc5f6ad8ff2",
+  "date": "2026-09-23",
+  "modelLabels": [
+    "Original AI"
+  ],
+  "preambleHeadingIndexes": [
+    0,
+    1
+  ],
+  "promptContinuationPreambleIndexes": {
+    "1": 0,
+    "2": 1
+  },
+  "preambleImageOrigins": {
+    "2.0": {
+      "sourceAttribute": "data-large-file",
+      "url": "https://byteseismic.wordpress.com/wp-content/uploads/2024/10/instrument-gauge.png?w=888",
+      "alt": "Original instrument-gauge illustration accompanying the curator’s correction about degrees of belief."
+    }
+  },
+  "mathImageText": {
+    "P(M)": "P(M)",
+    "P(T_f)": "P(T_f)",
+    "P(T_f) > P(M)": "P(T_f) > P(M)",
+    "P(M|E) = \\frac{P(E|M) \\cdot P(M)}{P(E|M) \\cdot P(M) + P(E|\\neg M) \\cdot P(\\neg M)}": "P(M|E) = P(E|M)P(M) / [P(E|M)P(M) + P(E|¬M)P(¬M)]",
+    "P(M|E)": "P(M|E)",
+    "P(E|M)": "P(E|M)",
+    "P(E|\\neg M)": "P(E|¬M)",
+    "P(\\neg M)": "P(¬M)",
+    "E_1, E_2, \\ldots, E_n": "E₁, E₂, …, Eₙ",
+    "E_i": "Eᵢ",
+    "M": "M",
+    "P(M|E_1, E_2, \\ldots, E_n) = \\frac{P(E_n|M) \\cdot P(M|E_1, E_2, \\ldots, E_{n-1})}{P(E_n)}": "P(M|E₁,…,Eₙ) = P(Eₙ|M,E₁,…,Eₙ₋₁)P(M|E₁,…,Eₙ₋₁) / P(Eₙ|E₁,…,Eₙ₋₁)",
+    "P(M|E_1, E_2, \\ldots, E_n)": "P(M|E₁, E₂, …, Eₙ)",
+    "E_n": "Eₙ",
+    "P(M|E_1, E_2, \\ldots, E_{n-1})": "P(M|E₁, E₂, …, Eₙ₋₁)",
+    "P(E_n|M)": "P(Eₙ|M)",
+    "P(E_n)": "P(Eₙ)"
+  },
+  "nonPromptSections": [
+    5
+  ],
+  "headings": [
+    "Can accumulated evidence change the balance?",
+    "The curator’s correction: confidence is a matter of degree",
+    "Three hypothetical investigations",
+    "What Hume’s historical situation does and does not explain",
+    "Fifteen questions with expandable answers",
+    "Twenty questions for discussion"
+  ],
+  "introHeading": "Miracle claims and the movement of confidence",
+  "intro": "This conversation tests whether sufficiently strong evidence could move confidence toward a miracle claim. The curator then challenges the first reply’s language of acceptance, insisting on degrees of belief. The complete prompts, that correction, three hypothetical scenarios, historical discussion, fifteen-item quiz, and twenty discussion questions are restored in their original order. Responses are edited for accuracy; the cached source does not identify the model. Mathematical images are transcribed as readable text, with the sequential updating formula corrected.",
+  "description": "A source-preserving discussion of miracle claims, graded belief, three hypothetical investigations, and the evidence needed to change confidence.",
+  "highlights": [
+    "Evidence can move confidence without establishing a supernatural explanation.",
+    "Independent measurements matter when they add information beyond shared errors and earlier observations.",
+    "The curator’s correction separates degrees of belief from decisions to accept or act."
+  ],
+  "replacements": {
+    "1.1.0": "Yes: a series of well-investigated claims could rationally change confidence. But the opening characterization of Hume needs qualification. In <a href=\"https://davidhume.org/texts/e/10\">“Of Miracles,” especially paragraphs 12–14</a>, he sets an exceptionally demanding comparison between testimony and established regularity, then argues that reported miracles have not met it. His conditional test should not be silently converted into a mathematical rule assigning every miracle zero probability.",
+    "1.1.1": "The curator’s proposal is therefore worth taking seriously: better observations can weaken particular error explanations. To say how far confidence should move, however, we must specify the claim, the evidence, and the alternatives. Reliable evidence that an unusual event occurred is not automatically equally strong evidence that a supernatural agent caused it.",
+    "1.1.3": "Hume’s comparison can be approached through two questions. These are not two unconditioned probabilities whose numerical comparison alone settles the case:",
+    "1.1.4": "<strong>The reported event:</strong> How strongly does established experience count against this particular event? A rare natural event, an apparent failure of a current model, and a supernatural intervention are different hypotheses and need different assessments.",
+    "1.1.5": "<strong>The report’s reliability:</strong> How likely would these particular records be if the claimed event had not occurred? Misperception, deception, copied reports, instrument faults, and unnoticed natural causes must be considered in light of the actual investigation.",
+    "1.1.6": "The relevant comparison concerns explanations of the same evidence. Merely writing P(false testimony) &gt; P(miracle) obscures what has been observed and what each hypothesis predicts. Hume’s challenge can instead motivate a careful comparison of background support and the reliability of the new reports.",
+    "1.1.8": "Let M be a specified miracle hypothesis and E the collected evidence. For P(E) &gt; 0, Bayes’ theorem gives the following identity. It is a modern reconstruction of the evidential problem, not a formula supplied by Hume:",
+    "1.1.16": "For evidence E₁,…,Eₙ, posterior odds equal prior odds multiplied by the joint likelihood ratio P(E₁,…,Eₙ|M)/P(E₁,…,Eₙ|¬M). This ratio factors into separate ratios only when the observations are mutually independent conditional on M and also conditional on ¬M. Ten witnesses using one video, or ten instruments sharing compromised software, may supply far less than ten independent tests. The probability that all reports are mistaken does not automatically shrink exponentially.",
+    "1.1.18": "Recordings, forensic checks, and independently calibrated instruments can make particular error explanations less likely. The evidential gain depends on how much more expected the records are under M than under alternatives. A perfectly authentic video might establish an unusual event while leaving its natural or supernatural cause unresolved. Technology changes the available tests; it does not supply favorable likelihoods by itself.",
+    "1.1.20": "A high posterior probability may justify acting as though a claim is true in a particular context, but there is no universal numerical boundary for rational belief or action. Comparing P(M|E) with an unspecified P(false testimony) mixes different questions. The first reply’s language of “acceptance,” retained below because the curator challenges it, needs the graded treatment developed in the next response.",
+    "1.1.22": "<strong>Testing alternatives:</strong> Good controls can reduce P(E|¬M) for specific error models. Yet ¬M includes more than fraud: it may include an unknown natural process. The combined alternative requires defensible assumptions about these possibilities.",
+    "1.1.23": "<strong>Making predictions:</strong> P(E|M) must be justified too. “A supernatural agent could do anything” does not tell us how likely this particular observation would be. A claim that specifies an event in advance is more assessable than one adapted freely afterward.",
+    "1.1.24": "<strong>Updating confidence:</strong> For 0 &lt; P(M) &lt; 1, evidence raises the odds of M when its likelihood ratio exceeds 1, lowers them when it is below 1, and leaves them unchanged when it equals 1. Assigning exactly zero prior probability prevents ordinary Bayesian evidence from raising it.",
+    "1.1.25": "<strong>Cumulative effect:</strong> With stipulated prior odds of 1:999, two genuinely conditionally independent pieces of evidence each having a likelihood ratio of 10 produce odds of 100:999, or probability 100/1099 ≈ 9.1%. This substantial rise from 0.1% still falls well short of certainty. These are illustrative assumptions, not estimates for actual miracle reports.",
+    "1.1.27": "The original reply put its conclusion this way: “However, if the cumulative evidence reduces the improbability of the testimony being false below that of the miracle occurring, the rational position would be to accept the miracle.” That wording is retained as the object of the curator’s next objection. Its comparison is underspecified, and its appeal to acceptance risks hiding the degree of confidence that has actually changed.",
+    "1.1.29": "A series of carefully investigated claims can therefore warrant movement toward a miracle hypothesis if the joint evidence favors it over credible alternatives. Neither a low prior nor skepticism about testimony licenses refusing all updates. Conversely, an impressive volume of records supplies no guaranteed update without attention to what they establish and which sources of error they share.",
+    "2.1.0": "Your correction is right: the earlier language of acceptance compressed a graded change in confidence into an apparent switch. We should state how much confidence changes and in which proposition. One qualification matters: a graded scale permits large as well as small updates. Rational movement need not always be slow.",
+    "2.1.2": "Bayesian degrees of belief take values between 0 and 1. After evidence is observed, the posterior becomes the starting point for a further update. The possible values form a continuum, but a particular update can produce a substantial jump; continuity of the scale is not continuity of change over time.",
+    "2.1.4": "The more precise statement is: evidence that is more expected under a miracle hypothesis than under its alternatives raises its odds, taking earlier evidence into account. That increase matters even when the claim remains unlikely. Reliable contrary evidence should move confidence back down. Neither 50% nor any other general threshold separates “no epistemic change” from “acceptance.”",
+    "2.1.6": "Write E₁,…,Eₙ₋₁ for the evidence already considered. The source’s sequential formula omitted conditioning on that earlier evidence. The corrected equation below includes it both in the new likelihood and in the denominator:",
+    "2.1.10": "P(Eₙ|M,E₁,…,Eₙ₋₁) is the probability of the new evidence if M is true, given the earlier evidence. Removing that earlier information requires an additional conditional-independence assumption.",
+    "2.1.11": "P(Eₙ|E₁,…,Eₙ₋₁) is the probability of the new evidence given what is already known, averaging across M and ¬M with their current probabilities. It must be positive for this update.",
+    "2.1.12": "The distinction prevents double counting. Receiving a second copy of a previously examined recording normally adds no new evidence about the event. An independent observation that was very unlikely under existing alternatives can add a great deal. The size of the update depends on this informational difference, not on the number of reports.",
+    "2.1.14": "<strong>Updates of different sizes:</strong> A new observation can raise, lower, or leave confidence unchanged. Accuracy of measurement does not guarantee that it favors the miracle hypothesis.",
+    "2.1.15": "<strong>No compulsory belief switch:</strong> An increase from 0.1% to 9.1% is already a major change in confidence even though the claim remains unlikely. The evidential movement should be reported rather than hidden behind “I still do not accept it.”",
+    "2.1.16": "<strong>Decision thresholds:</strong> Whether to fund another investigation, warn the public, or announce a finding depends on costs and consequences as well as probability. Different actions can warrant different thresholds without changing the underlying degree of belief.",
+    "2.1.18": "<strong>Evidence quality:</strong> Strong authentication helps establish what happened. Support for a particular cause additionally depends on whether the evidence distinguishes that cause from rivals. A clearer picture can resolve one question while leaving another open.",
+    "2.1.19": "<strong>Cumulative effect:</strong> Several tests with different vulnerabilities can make formerly plausible error explanations increasingly strained. A series can also reveal a common source of error and reverse an earlier increase in confidence.",
+    "2.1.21": "The curator’s epistemic gradient is the appropriate focus: report confidence and its change, not merely a yes-or-no verdict. Keep separate confidence that an event occurred, confidence that current theory cannot explain it, and confidence in a supernatural explanation. This allows openness to strong evidence without treating every anomaly as a completed demonstration.",
+    "3.1.0": "The following are three hypothetical investigations, not reports of actual miracles. Each preserves the source’s scenario while spelling out what would make it more discriminating. They could strongly shift confidence away from familiar error explanations; how far they favor a supernatural cause depends on what that specific hypothesis predicts.",
+    "3.1.7": "<strong>Satellite data:</strong> Independently operated sensors record the light’s timing, direction, spectrum, and intensity. These observations are compared with the signatures of candidate astronomical and atmospheric processes. Excluding a named explanation does not exclude all natural explanations.",
+    "3.1.9": "<strong>Spectral analysis:</strong> Laboratories compare raw spectra, calibration records, and known emission patterns. An unexplained spectrum is a reason to investigate instruments and physical mechanisms, not a measurement of supernatural origin.",
+    "3.1.10": "<strong>Radiation measurements:</strong> If the claim also predicts ionizing radiation, suitable detectors test it with recorded background levels and controls. Visible light alone does not imply a Geiger-counter signal; any additional prediction must be specified before the event.",
+    "3.1.13": "<strong>Time-stamped data logs:</strong> Each observatory preserves raw files, clock calibration, and a documented chain of custody. Independent archives make later alteration harder. A timestamp establishes a record’s timing only as reliably as the system and custody supporting it.",
+    "3.1.15": "<strong>Reduces dependence on testimony:</strong> Agreement across independently operated systems with different vulnerabilities would make a single mistaken witness a poor explanation. Investigators still test whether shared software, communications, or coordinated manipulation could produce the pattern.",
+    "3.1.16": "<strong>Challenges specified natural explanations:</strong> In the stipulated scenario, visibility through clouds and from opposite sides of Earth needs explicit investigation; an ordinary distant light does not have those properties. If independently confirmed, these features would challenge particular models. Failure of a current model alone does not identify a supernatural cause.",
+    "3.1.17": "<strong>Moves confidence:</strong> A detailed advance claim about the timing and unusual visibility would make the observation more discriminating than a surprise light alone. Repeated success under registered conditions would strengthen that comparison, while still leaving the proposed cause open to competing explanations.",
+    "3.1.23": "<strong>Baseline records:</strong> Before the event, independent clinicians confirm diagnoses and record disease severity using appropriate tests. “Incurable” describes the limits of treatment knowledge; it is not a guarantee that every recovery is physically impossible.",
+    "3.1.24": "<strong>Post-recovery tests:</strong> Independent follow-up establishes the extent and duration of recovery, using the same diagnostic criteria and checks for sample or record mix-ups. An initially surprising result should not be called a complete cure solely on one test.",
+    "3.1.26": "<strong>Double-blind study conditions:</strong> Blinding reduces some expectation and assessment biases; it does not eliminate placebo effects, spontaneous remission, or error. A study unrelated to the alleged miracle may lack the comparison groups and timing needed to evaluate it. A stronger follow-up prospectively defines outcomes, controls, and the alleged triggering conditions without withholding needed care.",
+    "3.1.27": "<strong>Independent oversight:</strong> Investigators audit consent, care, treatment records, and adherence to protocols. Oversight improves accountability; institutional prestige does not guarantee that every error has been excluded.",
+    "3.1.29": "<strong>Multiple cases:</strong> Track all eligible patients, including nonrecoveries, across facilities. Selecting only striking successes would hide the rate that needs explaining. Compare outcomes with appropriate clinical baselines rather than multiplying the apparent rarity of selected cases.",
+    "3.1.30": "<strong>Temporal synchronization:</strong> Define the time window before examining outcomes and record how each recovery time is determined. A pattern repeatedly tied to a specified advance prediction would be stronger evidence than dates grouped together retrospectively.",
+    "3.1.32": "<strong>Tests alternative explanations:</strong> Independent diagnoses, blinded assessment, complete records, and replication can substantially reduce misdiagnosis, selective reporting, and fraud as explanations. These safeguards reduce uncertainty; none abolishes it by definition.",
+    "3.1.33": "<strong>Demands reassessment:</strong> A robust recovery pattern could justify major changes in medical expectations. It supports a particular supernatural claim more strongly if that claim predicted the pattern and plausible medical or statistical alternatives did not.",
+    "3.1.34": "<strong>Strengthens credibility:</strong> Transparent methods, appropriate comparison groups, and access to independently auditable records supply the evidential weight. Reputable investigators help when their work can be checked.",
+    "3.1.40": "<strong>Dating:</strong> Suitable radiocarbon measurements can date an organic writing material within uncertainty. The date of the material alone does not establish when the words were written or when their proposed interpretation arose.",
+    "3.1.41": "<strong>Material analysis:</strong> Examine the writing surface, ink where testable, textual history, and custody together. Investigate the possibility of later additions to older material rather than treating an old substrate as authentication of every prediction.",
+    "3.1.43": "<strong>AI-assisted decoding:</strong> Models can propose candidate readings, but neither their outputs nor agreement among them is automatically independent or unbiased. Freeze the decoding rule before outcomes occur, disclose alternative readings, and test it on text or predictions not used to develop it.",
+    "3.1.44": "<strong>Independent review:</strong> Linguists and cryptographers examine whether the proposed reading follows reproducible rules and how many other readings are plausible. Agreement after sharing one interpretation is weaker than genuinely independent work that converges on it.",
+    "3.1.47": "<strong>Advance records:</strong> Publish the exact interpreted predictions, deadlines, locations, and success criteria in independently preserved records before the predicted events. Record failures as well as successes and prevent ordinary access to information or intervention from explaining the results.",
+    "3.1.49": "<strong>Bridges ancient text and later events:</strong> Repeated successful advance predictions would strain chance and retrospective fitting explanations if authentication and decoding survived scrutiny. Establishing that the information could not have been obtained naturally is a further inference, not something supplied by the manuscript’s age alone.",
+    "3.1.50": "<strong>Makes interpretation testable:</strong> AI may help enumerate or compare readings. The evidential gain comes from stable rules, independent checks, and predictions exposed to failure, not from treating the software as an impartial witness.",
+    "3.1.51": "<strong>Assesses improbability:</strong> Evaluate the full set of predictions and attempted decoding rules, including failures. A flexible search across many possible meanings can produce impressive matches by chance. A fixed rule succeeding on later, unrehearsed cases would be far harder to explain that way.",
+    "3.1.54": "<strong>Independent verification:</strong> Separate observations add the most when they do not depend on one data feed, interpretation, or opportunity for manipulation. Independence must be investigated, not inferred from different institutional names.",
+    "3.1.55": "<strong>Technological support:</strong> Instruments preserve measurements for scrutiny. Calibration, provenance, and access to raw records determine how much trust they deserve.",
+    "3.1.56": "<strong>Scientific anomalies:</strong> Repeated failures of specified explanations warrant revising those explanations. To favor a miracle hypothesis, the evidence must also be more expected under that hypothesis than under viable alternatives.",
+    "3.1.57": "<strong>Reproducibility and consistency:</strong> Repeatable tests or independently consistent records make some errors harder to sustain. A one-off event can still be investigated, but it offers fewer opportunities to vary conditions and distinguish causes.",
+    "3.1.59": "All three scenarios could move the epistemic needle substantially if their strongest stipulated safeguards were realized. The warranted movement may initially concern the reality of an anomaly, then the inadequacy of particular explanations, and only later a proposed cause. The curator’s openness to evidence is preserved by permitting all of those changes without pretending that a spectacular observation automatically settles them together.",
+    "4.1.0": "The limitations of Hume’s period help explain caution about miracle reports, but they do not by themselves establish that every degree of skepticism was justified. That requires examining the evidence and his argument. His essay already attends to differences in evidential strength, including the credibility, circumstances, and independence of testimony.",
+    "4.1.2": "<strong>Limited investigative tools:</strong> Hume lacked modern recording, imaging, and forensic methods. Nevertheless, eighteenth-century inquiry had established instruments, experiments, and mathematical science. The relevant limitation is what could be checked in a particular report, not the absence of serious investigation altogether.",
+    "4.1.3": "<strong>Reliance on testimony:</strong> Without audiovisual records, later investigators often depended more heavily on witnesses and documents. They could still compare accounts, examine physical traces, inspect settings, and seek independent corroboration. The absence of cameras did not make cross-checking impossible.",
+    "4.1.4": "<strong>Social incentives and credulity:</strong> Hume worried about the attraction of wonder, religious commitment, and incentives to exaggerate. Those concerns can identify failure mechanisms without endorsing his sweeping judgments about entire peoples or treating modern audiences as immune to similar pressures.",
+    "4.1.5": "<strong>Communication and verification:</strong> Slow transmission could hinder independent investigation and make shared sources difficult to trace. Faster communication now helps investigators but can also spread one unverified claim into thousands of apparently separate reports.",
+    "4.1.7": "Modern tools expand the questions an investigation can answer. Their usefulness depends on the claim and on procedures for detecting error:",
+    "4.1.8": "<strong>Scientific instrumentation:</strong> Calibrated sensors and diagnostic methods can preserve quantitative observations that unaided witnesses could not make. Different instruments can test different possible causes of the same anomaly.",
+    "4.1.9": "<strong>Digital recording:</strong> Recordings permit repeated inspection and comparison, but files can be edited or fabricated. Original records, independent capture, and documented custody are part of the evidence, not optional accessories.",
+    "4.1.10": "<strong>Data analysis:</strong> Computation can compare observations with explicit models and reveal patterns. Flexible analyses, selective outcomes, and shared software faults can also generate misleading agreement; preregistered tests and independent reanalysis help expose these risks.",
+    "4.1.11": "<strong>Global communication:</strong> Rapid sharing supports collaboration and criticism when methods and records are accessible. Repetition through a network is not itself independent confirmation.",
+    "4.1.13": "The historical context supports demanding scrutiny of reports whose evidential basis was weak. It does not warrant converting a judgment about those reports into a permanent prohibition on confidence changing. Conversely, better instruments alone do not show that any actual modern miracle claim meets Hume’s challenge.",
+    "4.1.15": "<strong>Proportioning confidence to evidence:</strong> A claim that conflicts with strongly supported regularities must overcome that background evidence. “Extraordinary claims require extraordinary evidence” is a later slogan, not an exact quotation from Hume’s essay.",
+    "4.1.16": "<strong>Fallibility beyond perception:</strong> Instruments reduce some observer errors while adding calibration, software, and interpretation problems. The task is to test these possible failures in the particular investigation.",
+    "4.1.17": "<strong>Independent scrutiny:</strong> Replication and critical review can strengthen a case but are not guarantees. For an unrepeatable event, preserved records and tests of rival explanations remain possible.",
+    "4.1.19": "Hume’s circumstances explain why testimony deserved careful scrutiny; they do not settle what evidence should convince an investigator under every future condition. Modern tools can make previously unavailable tests possible. The curator’s central demand survives the historical comparison: let well-checked evidence change confidence by the amount it warrants, while keeping the occurrence of an event distinct from its proposed explanation.",
+    "5.1.0": "<strong>#1:</strong> Why does Hume place an unusually demanding evidential burden on testimony about miracles?",
+    "5.1.1": "<strong>#2:</strong> Does Hume’s conditional test amount to assigning every miracle exactly zero probability?",
+    "5.1.3": "<strong>#4:</strong> What two explanations of the same records need comparison in a modern probabilistic treatment?",
+    "5.1.5": "<strong>#6:</strong> Under what conditions can several accounts multiply their evidential support?",
+    "5.1.7": "<strong>#8:</strong> Does representing confidence on a graded scale mean that every update must be small?",
+    "5.1.12": "<strong>#13:</strong> Does accurate objective evidence always increase the probability of a miracle?",
+    "6.1.0": "How does Hume’s demand to proportion belief to evidence apply to modern instruments and digital records?",
+    "6.1.11": "Which human errors can modern tools reduce, and which new sources of error or dependence can they introduce?",
+    "6.1.13": "What would distinguish a successful advance decoding in Scenario 3 from retrospective pattern fitting, and how could AI assist or obscure that distinction?"
+  },
+  "bareAnswerReplacements": {
+    "5.1.answer0": "Established experience strongly supports regularities of nature, while testimony is vulnerable to error and deception. Hume demands evidence strong enough to outweigh that background; a bare comparison of two unspecified probabilities is insufficient.",
+    "5.1.answer1": "No. His conditional test asks whether the testimony could be less credible as false than the reported event is as true. His assessment of actual reports is strongly skeptical, but it should not be silently rewritten as a zero-prior Bayesian rule.",
+    "5.1.answer2": "Bayes’ theorem.",
+    "5.1.answer3": "The claim that the specified event or miracle produced the records, and alternatives under which those records arise without that claim being true. These include errors, deception, and possible natural causes.",
+    "5.1.answer4": "They can preserve measurements and test particular error explanations. Their value depends on calibration, authenticity, independence, and whether they distinguish competing hypotheses.",
+    "5.1.answer5": "The likelihood ratios multiply without earlier-evidence conditioning only if the observations are mutually conditionally independent under both the miracle hypothesis and its alternative. Repeated copies of one report do not meet that condition.",
+    "5.1.answer6": "Changing the degree of confidence in a specified claim in response to evidence, even when that claim remains unlikely.",
+    "5.1.answer7": "No. A graded scale allows large and small changes. The strength of the new evidence relative to alternatives determines the size and direction of the update.",
+    "5.1.answer8": "Independent verification and preserved instrumental records, provided independence and authenticity are actually checked.",
+    "5.1.answer9": "A hypothetical one-hour light is reported worldwide, including unusual visibility through clouds and across opposite sides of Earth. Those features require investigation; they are stipulations, not observations of an actual event.",
+    "5.1.answer10": "Independent diagnoses, consistent follow-up, complete patient records, appropriate comparisons, and checks on timing and alternative explanations. Blinding alone does not eliminate placebo effects or error.",
+    "5.1.answer11": "AI can propose and compare readings. Stable rules, independent review, and precisely recorded advance predictions are needed; AI output alone is neither unbiased nor verification.",
+    "5.1.answer12": "No. It raises the odds only when the observed evidence is more expected under that hypothesis than under alternatives, accounting for what is already known. It can also lower confidence or leave it unchanged.",
+    "5.1.answer13": "It can make observations available for independent inspection. Provenance, calibration, and checks for manipulation and shared failures determine the evidential value.",
+    "5.1.answer14": "Sufficiently discriminating evidence can justify an increase in confidence. Establishing an unusual event, a failure of current explanations, and a supernatural cause remain distinct tasks."
+  },
+  "countChecks": [
+    {
+      "name": "quizQuestions",
+      "selector": "#prompt-5 .original-response > div",
+      "child": "p",
+      "expected": [
+        15
+      ]
+    },
+    {
+      "name": "quizAnswers",
+      "selector": "#prompt-5 .original-response > div",
+      "child": "details",
+      "expected": [
+        15
+      ]
+    },
+    {
+      "name": "discussionQuestions",
+      "selector": "#prompt-6 ol",
+      "child": "li",
+      "expected": [
+        20
+      ]
+    }
+  ],
+  "pageSignals": {
+    "Page form": "Guided discussion",
+    "Best for": "weighing extraordinary claims with graded confidence"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "pagePath": "/philosophers/critical-theorists/",
+  "sourceSha256": "84623d098684b6c1c91a8248b0ae24469c5b88a7e5c83890c36aa4511b10c488",
+  "originalPrompts": 6,
+  "originalHeadings": 6,
+  "sourceColumns": 18,
+  "modelResponses": 18,
+  "blocksRetainedVerbatim": 113,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 93,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "dialogueTurns": [
+      20,
+      20,
+      20
+    ],
+    "quizzesAndKeys": [
+      7,
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "discussionQuestions": [
+      12,
+      12,
+      12
+    ]
+  },
+  "sha256": "e1b78a513207e3e79b87297620a07a0c1f3df794954c93f106751373957f5e73",
+  "sourceUrl": "http://byteseismic.com/2024/05/04/critical-theorists/",
+  "sourceTitle": "Critical Theorists",
+  "wordpressId": 7994,
+  "snapshot": "critical-theorists-wordpress-7994.html",
+  "cachedOriginalExact": true,
+  "originalPromptTexts": [
+    "Provide a general description of Critical Theory.",
+    "Provide a list of the key contributions Critical Theorists have made to philosophical thought.",
+    "List the most influential Critical Theorists in history.",
+    "Produce a 20-line hypothetical dialogue between a Critical Theory professor and a 1st-year philosophy student.",
+    "Create a 7-item quiz on the entire thread above.",
+    "Provide 12 discussion questions relevant to the content above. "
+  ],
+  "dialogues": [
+    {
+      "response": "4.1",
+      "sourceTurns": 19,
+      "editorialContinuationTurns": 1,
+      "studentTurnsVerbatim": [
+        "Student : Isn’t it about criticizing society and various forms of authority?",
+        "Student : So, how does Critical Theory propose we identify these hidden structures?",
+        "Student : That sounds quite comprehensive. Does this mean everything in society is seen as oppressive?",
+        "Student : And how do we apply this theory? Can you give an example?",
+        "Student : So, it’s about looking at who benefits from these narratives?",
+        "Student : That’s quite eye-opening. How does Critical Theory suggest we change these conditions?",
+        "Student : This sounds like it involves a lot of ongoing critique and action.",
+        "Student : It seems very relevant to today’s issues like social inequality and environmental crises.",
+        "Student : I’m looking forward to learning more about this and seeing what I can do with it."
+      ]
+    },
+    {
+      "response": "4.2",
+      "sourceTurns": 12,
+      "editorialContinuationTurns": 8,
+      "studentTurnsVerbatim": [
+        "Sarah: In Intro to Philosophy, everything felt kind of abstract. Critical Theory seems more… real-world.",
+        "Sarah: Like, how media portrays women? Or how textbooks talk about colonialism?",
+        "Sarah: It’s like questioning the status quo, right?",
+        "Sarah: But isn’t questioning everything kind of… destabilizing?",
+        "Sarah: Hmm, I get it. Critical Theory digs deeper than just “what is truth?”",
+        "Sarah: This is fascinating. Can’t wait to learn more!"
+      ]
+    },
+    {
+      "response": "4.3",
+      "sourceTurns": 14,
+      "editorialContinuationTurns": 6,
+      "studentTurnsVerbatim": [
+        "Student: Professor, I’m having trouble understanding the core ideas of Critical Theory. Can you explain it in simpler terms?",
+        "Student: But why is that important? Aren’t ideologies and power structures just a natural part of any society?",
+        "Student: I see. Can you give me an example?",
+        "Student: That makes sense. So Critical Theory tries to expose these hidden power dynamics?",
+        "Student: But how can we really know what’s oppressive and what’s not? Isn’t that subjective?",
+        "Student: I’m starting to understand. It’s about questioning the status quo and challenging what’s presented as natural or inevitable.",
+        "Student: That’s fascinating. I can see how this perspective could shed light on so many aspects of our society and culture."
+      ]
+    }
+  ]
+}

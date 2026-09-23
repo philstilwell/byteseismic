@@ -1,0 +1,42 @@
+{
+  "pagePath": "/philosophers/at-the-edge-of-miracles/",
+  "sourceSha256": "f9c44c615989808d0e86f4cbd632f667a68fb2889ab65d4ff220b5480af78862",
+  "originalPrompts": 5,
+  "originalHeadings": 6,
+  "sourceColumns": 6,
+  "modelResponses": 6,
+  "blocksRetainedVerbatim": 84,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 83,
+  "bareAnswersExplicitlyRevised": 15,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "quizQuestions": [
+      15
+    ],
+    "quizAnswers": [
+      15
+    ],
+    "discussionQuestions": [
+      20
+    ]
+  },
+  "sha256": "81044b95dda86269c2d7aac0244db5f44047f23a50411f31730857b0f05b7c8e",
+  "sourceUrl": "http://byteseismic.com/2024/10/19/at-the-edge-of-miracles/",
+  "sourceTitle": "At the Edge of Miracles",
+  "wordpressId": 13920,
+  "snapshot": "at-the-edge-of-miracles-wordpress-13920.html",
+  "cachedOriginalExact": true,
+  "originalPromptTexts": [
+    "Hume suggests that the probability that human frailty, such as misremembering or mendacity, will always be greater than the probability of a single supernatural miracle claim being true…\n… However, there could be a series of investigable miracle accounts that could legitimately alter the balance of these probabilities, right? Given the current objective tools of investigation and reduced dependence on subjective accounts, at some density of evidence for miracle accounts, we would be justified in moving the needle on the epistemic gradient toward the reality of miracles. Right? Rigorously elaborate on these dynamics and this possibility. ",
+    "You said, “…if the cumulative evidence reduces the improbability of the testimony being false below that of the miracle occurring, the rational position would be to accept the miracle.” However,…\n…this treats the scenario as if it entailed a binary epistemic switch from off to on at the point of “acceptance” instead of a rational needle movement along the epistemic gradient. Rigorously address this.",
+    "Provide three scenarios of less subjective and more objective evidence for a series of miracle claims that would significantly “move the epistemic needle.”",
+    "Was Hume’s depth of skepticism perhaps justified given the unavailability of the objective tools of scrutiny at his time?",
+    "Quiz",
+    "Provide 20 discussion questions relevant to the content above. "
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "pagePath": "/philosophers/continental-philosophers/",
+  "sourceSha256": "d26a377a9908e599eb649cb2c71c7929c6084e3ee43723a4208d614af79b73a7",
+  "originalPrompts": 6,
+  "originalHeadings": 6,
+  "sourceColumns": 18,
+  "modelResponses": 18,
+  "blocksRetainedVerbatim": 123,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 97,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "dialogueTurns": [
+      20,
+      20,
+      20
+    ],
+    "quizzesAndKeys": [
+      7,
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "discussionQuestions": [
+      15,
+      15,
+      15
+    ]
+  },
+  "sha256": "96db798388bb7c44f4d386f14ed5a6921d669c6cebc0175fe2d63ef6f3cc9860",
+  "sourceUrl": "http://byteseismic.com/2024/05/03/continental-philosophers/",
+  "sourceTitle": "Continental Philosophers",
+  "wordpressId": 7906,
+  "snapshot": "continental-philosophers-wordpress-7906.html",
+  "cachedOriginalExact": true,
+  "originalPromptTexts": [
+    "Provide a general description of Continental Philosophy.",
+    "Provide a list of the key contributions Continental Philosophers have made to philosophical thought.",
+    "List the most influential Continental philosophers in history.",
+    "Produce a 20-line hypothetical dialogue between a Continental Philosopher and a 1st-year philosophy student.",
+    "Create a 7-item quiz on the entire thread above.",
+    "Provide 15 discussion questions relevant to the content above. "
+  ],
+  "dialogues": [
+    {
+      "response": "4.1",
+      "sourceTurns": 19,
+      "editorialContinuationTurns": 1,
+      "studentTurnsVerbatim": [
+        "Student : I’m intrigued by the concept of freedom. What does freedom really mean in philosophical terms?",
+        "Student : A bit, yes. I know existentialists talk about freedom a lot.",
+        "Student : Condemned to be free? That sounds quite pessimistic.",
+        "Student : So, our choices define us?",
+        "Student : That’s a lot of pressure, isn’t it? To think every choice I make is crafting who I am?",
+        "Student : How do other Continental philosophers view freedom?",
+        "Student : So, freedom isn’t just about personal choices but also about understanding and challenging the constraints around us?",
+        "Student : That makes philosophy seem essential to living authentically.",
+        "Student : I have a lot to think about now. Thank you!"
+      ]
+    },
+    {
+      "response": "4.2",
+      "sourceTurns": 9,
+      "editorialContinuationTurns": 11,
+      "studentTurnsVerbatim": [
+        "Student (Sarah): The idea of “being-in-the-world” – that we’re constantly creating ourselves through choices. Isn’t that a bit scary?",
+        "Student: Well, if I’m always choosing, there’s no core “me”? Isn’t that depressing?",
+        "Student: But what about societal pressures? How can I be truly free when there are expectations?",
+        "Student: So, there’s no escaping responsibility for who we are?"
+      ]
+    },
+    {
+      "response": "4.3",
+      "sourceTurns": 16,
+      "editorialContinuationTurns": 4,
+      "studentTurnsVerbatim": [
+        "Student: Excuse me, Professor, I have a question about your lecture on phenomenology.",
+        "Student: Well, you said that we should suspend our preconceptions and examine phenomena as they appear to our consciousness. But how can we truly set aside our biases and assumptions?",
+        "Student: But isn’t our experience always shaped by our context and background? How can we separate ourselves from that?",
+        "Student: I see. So it’s about trying to see things as they truly present themselves, without imposing our own interpretations too hastily.",
+        "Student: And what about the role of language in shaping our understanding of phenomena?",
+        "Student: So how do we navigate that tension between language and direct experience?",
+        "Student: This is all very thought-provoking. I can see why phenomenology is such an important philosophical approach.",
+        "Student: Thank you, Professor. I have a newfound appreciation for the depth and complexity of this philosophical tradition."
+      ]
+    }
+  ]
+}
