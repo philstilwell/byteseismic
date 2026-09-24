@@ -1,0 +1,69 @@
+{
+  "pagePath": "/philosophers/epictetus/",
+  "sourceSha256": "8c3098bc9b89d47640e8b766c32749c448b032d88ec00a1b023ab870b30d440f",
+  "originalPrompts": 5,
+  "originalHeadings": 6,
+  "sourceColumns": 18,
+  "modelResponses": 18,
+  "blocksRetainedVerbatim": 123,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 85,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "firstPromptShortParagraphs": [
+      1,
+      1,
+      1
+    ],
+    "ChatGPTSevenContributions": [
+      7
+    ],
+    "GeminiSevenContributions": [
+      7
+    ],
+    "ClaudeIntroPlusSevenContributions": [
+      8
+    ],
+    "quizzesAndAnswers": [
+      7,
+      14,
+      7
+    ],
+    "discussionQuestions": [
+      12,
+      12,
+      12
+    ],
+    "expandableAnswers": [
+      7,
+      7,
+      7
+    ]
+  },
+  "sha256": "44857f7372235cab813616e662c12e843265c9460b00780ff8ac87bdba43fe5a",
+  "sourceTitle": "Epictetus",
+  "sourceUrl": "http://byteseismic.com/2024/06/04/epictetus/",
+  "wordpressId": 11220,
+  "snapshot": "epictetus-wordpress-11220.html",
+  "cachedOriginalExact": true,
+  "originalPromptTexts": [
+    "Provide a short paragraph explaining Epictetus’ influence on philosophy.",
+    "Provide an annotated list of Epictetus’ 7 greatest contributions to philosophy.",
+    "Provide the most likely causes behind Epictetus becoming a notable philosopher.",
+    "Which schools of philosophical thought and academic domains has the philosophy of Epictetus most influenced?",
+    "Quizzes",
+    "Provide 12 discussion questions relevant to the content above. "
+  ],
+  "deliberateOmissionsRejected": [
+    ".original-prompt-text",
+    "[data-source-node]",
+    "#prompt-5 details p",
+    "#prompt-6 ol > li"
+  ],
+  "disclosureRemovalRejected": true
+}

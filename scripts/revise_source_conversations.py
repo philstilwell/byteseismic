@@ -317,9 +317,13 @@ def render(config):
                 turns = [edited.select_one(f'[data-source-node="{n}.{c}.{k}"]')
                          for k in dialogue['sourceTurnNodes']]
                 lines = tag(soup, 'ol', **{'class': 'source-dialogue'})
-                for turn in turns:
+                groups = dialogue.get('sourceTurnGroups', [[k] for k in dialogue['sourceTurnNodes']])
+                assert [k for group in groups for k in group] == dialogue['sourceTurnNodes']
+                turn_map = dict(zip(dialogue['sourceTurnNodes'], turns))
+                for group in groups:
                     li = tag(soup, 'li')
-                    li.append(turn.extract())
+                    for k in group:
+                        li.append(turn_map[k].extract())
                     lines.append(li)
                 for value in dialogue.get('continuation', []):
                     li = tag(soup, 'li')
@@ -481,10 +485,11 @@ def verify(config, rendered):
             dialogue = config.get('dialogues', {}).get(f'{n}.{c}')
             if dialogue:
                 lines = actual.select_one('.source-dialogue').find_all('li', recursive=False)
-                source_count = len(dialogue['sourceTurnNodes'])
-                assert [line.select_one('[data-source-node]')['data-source-node']
+                groups = dialogue.get('sourceTurnGroups', [[k] for k in dialogue['sourceTurnNodes']])
+                source_count = len(groups)
+                assert [[node['data-source-node'] for node in line.select('[data-source-node]')]
                         for line in lines[:source_count]] == [
-                            f'{n}.{c}.{k}' for k in dialogue['sourceTurnNodes']]
+                            [f'{n}.{c}.{k}' for k in group] for group in groups]
                 assert [text(line) for line in lines[source_count:]] == dialogue.get('continuation', [])
             else:
                 # Also check explicitly added material, such as a missing key

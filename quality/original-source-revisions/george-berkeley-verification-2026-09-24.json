@@ -1,0 +1,66 @@
+{
+  "pagePath": "/philosophers/george-berkeley/",
+  "sourceSha256": "02715bf124bf51d337e4bc7fe47611e7a19ec4882bc19734df2c40a3b015d1c3",
+  "originalPrompts": 5,
+  "originalHeadings": 6,
+  "sourceColumns": 18,
+  "modelResponses": 18,
+  "blocksRetainedVerbatim": 129,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 80,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "shortParagraphs": [
+      1,
+      1,
+      1
+    ],
+    "sevenContributions": [
+      7,
+      7,
+      7
+    ],
+    "quizzesAndAnswers": [
+      7,
+      14,
+      7
+    ],
+    "expandableAnswers": [
+      7,
+      7,
+      7
+    ],
+    "discussionLists": [
+      12,
+      12,
+      12
+    ]
+  },
+  "sha256": "539336a0c32ee7c2938e93489069a2d63291bcf5be886d6a0205ff9959e58fd6",
+  "sourceTitle": "George Berkeley",
+  "sourceUrl": "http://byteseismic.com/2024/06/18/george-berkeley/",
+  "wordpressId": 11890,
+  "snapshot": "george-berkeley-wordpress-11890.html",
+  "cachedOriginalExact": true,
+  "originalPromptTexts": [
+    "Provide a short paragraph explaining George Berkeley’s influence on philosophy.",
+    "Provide an annotated list of Berkeley’s 7 greatest contributions to philosophy.",
+    "Provide the most likely causes behind Berkeley becoming a notable philosopher.",
+    "Which schools of philosophical thought and academic domains has the philosophy of Berkeley most influenced?",
+    "Quizzes",
+    "Provide 12 discussion questions relevant to the content above."
+  ],
+  "deliberateOmissionsRejected": [
+    ".original-prompt-text",
+    "[data-source-node]",
+    "[data-source-node=\"1.2.2\"]",
+    "#prompt-5 details p",
+    "#prompt-6 ol > li"
+  ],
+  "disclosureRemovalRejected": true
+}

@@ -1,0 +1,52 @@
+{
+  "pagePath": "/philosophers/friedrich-nietzsche/",
+  "sourceSha256": "ff02f348bc4e2583eec673e977c9e2d24e59f082c3e647cc9d1db4413aac03de",
+  "originalPrompts": 4,
+  "originalHeadings": 4,
+  "sourceColumns": 8,
+  "modelResponses": 8,
+  "blocksRetainedVerbatim": 37,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 44,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "shortParagraphResponses": [
+      1,
+      1
+    ],
+    "sevenContributions": [
+      7,
+      7
+    ],
+    "formationLists": [
+      7,
+      5
+    ],
+    "tenInfluenceDomains": [
+      10
+    ]
+  },
+  "sha256": "11984b03a0049fb51ce6fa7c951ff753ac4c6838d30016436985fe3790b584ba",
+  "sourceTitle": "Friedrich Nietzsche",
+  "sourceUrl": "http://byteseismic.com/2024/04/19/friedrich-nietzsche/",
+  "wordpressId": 6646,
+  "snapshot": "friedrich-nietzsche-wordpress-6646.html",
+  "cachedOriginalExact": true,
+  "originalPromptTexts": [
+    "Provide a short paragraph explaining Friedrich Nietzsche’s influence on philosophy.",
+    "Provide an annotated list of Friedrich Nietzsche’s 7 greatest contributions to philosophy.",
+    "Provide the most likely causes behind Friedrich Nietzsche becoming a notable philosopher.",
+    "Which schools of philosophical thought and academic domains has the philosophy of Friedrich Nietzsche most influenced?"
+  ],
+  "deliberateOmissionsRejected": [
+    ".original-prompt-text",
+    "[data-source-node]",
+    "#prompt-2 ol > li",
+    "#prompt-4 ol > li"
+  ]
+}

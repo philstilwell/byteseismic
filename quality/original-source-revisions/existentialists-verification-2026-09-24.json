@@ -1,0 +1,75 @@
+{
+  "pagePath": "/philosophers/existentialists/",
+  "sourceSha256": "bd2784d5f3b186a65da52a8cfffa0c98fc95cef9beeee839a0447da57a6b7007",
+  "originalPrompts": 6,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 81,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 64,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "contributionLists": [
+      10,
+      5
+    ],
+    "thinkerLists": [
+      8,
+      6
+    ],
+    "dialogueEntries": [
+      20,
+      20
+    ],
+    "dialogueSpeakerTurns": [
+      21,
+      20
+    ],
+    "quizAndKeyItems": [
+      7,
+      7,
+      7,
+      7
+    ],
+    "discussionItems": [
+      15,
+      15
+    ]
+  },
+  "sha256": "489912bf15a50846df4e34ae05831815068352d64535b97d4d641d67f9449a28",
+  "sourceTitle": "Existentialists",
+  "sourceUrl": "http://byteseismic.com/2024/05/02/existentialists/",
+  "wordpressId": 7786,
+  "snapshot": "existentialists-wordpress-7786.html",
+  "cachedOriginalExact": true,
+  "originalPromptTexts": [
+    "Provide a general description of the philosophical school of Existentialism.",
+    "Provide a list of the key contributions Existentialism has made to philosophical thought.",
+    "List the most influential Existentialists in history.",
+    "Produce a 20-line hypothetical dialogue between an Existentialist and a 1st-year philosophy student.",
+    "Create a 7-item quiz on the entire thread above.",
+    "Provide 15 discussion questions relevant to the content above. "
+  ],
+  "originalStudentTurnsVerbatim": [
+    11,
+    6
+  ],
+  "originalDialogueTurnsPreserved": [
+    21,
+    13
+  ],
+  "editorialContinuationTurns": 7,
+  "deliberateOmissionsRejected": [
+    ".original-prompt-text",
+    "[data-source-node]",
+    "[data-source-node=\"4.1.21\"]",
+    "#prompt-4 .original-response[data-source-column=\"2\"] .source-dialogue li:last-child",
+    "#prompt-5 ol > li"
+  ]
+}
