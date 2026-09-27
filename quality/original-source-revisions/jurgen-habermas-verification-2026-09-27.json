@@ -1,0 +1,69 @@
+{
+  "pagePath": "/philosophers/jurgen-habermas/",
+  "sourceSha256": "6913b4555d2dd086287cae3dad7c3117a3c929a95b8ec89b640dc9169f0cdafd",
+  "originalPrompts": 5,
+  "originalHeadings": 6,
+  "sourceColumns": 18,
+  "modelResponses": 18,
+  "blocksRetainedVerbatim": 205,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 47,
+  "bareAnswersExplicitlyRevised": 6,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "shortParagraphs": [
+      1,
+      1,
+      1
+    ],
+    "sevenContributions": [
+      7,
+      7
+    ],
+    "quizQuestions": [
+      7,
+      7,
+      7
+    ],
+    "expandableAnswers": [
+      7,
+      7,
+      7
+    ],
+    "discussionLists": [
+      12,
+      12,
+      12
+    ],
+    "geminiSevenContributions": [
+      7
+    ]
+  },
+  "sha256": "0edc9df47c5276814cc38df9230f49a7e420e8f5fb75cf438963c3f82c71a46c",
+  "sourceTitle": "Jurgen Habermas",
+  "sourceUrl": "http://byteseismic.com/2024/07/28/jurgen-habermas/",
+  "wordpressId": 13061,
+  "snapshot": "jurgen-habermas-wordpress-13061.html",
+  "cachedOriginalExact": true,
+  "originalPromptTexts": [
+    "Provide a short paragraph explaining Jurgen Habermas’ influence on philosophy.",
+    "Provide an annotated list of Habermas’ 7 greatest contributions to philosophy.",
+    "Provide the most likely causes behind Habermas becoming a notable philosopher.",
+    "Which schools of philosophical thought and academic domains has the philosophy of Habermas most influenced?",
+    "Quizzes",
+    "Provide 12 discussion questions relevant to the content above. "
+  ],
+  "sourceRecoveryNote": "Current four substantive prompts matched original first four; original Quizzes heading and final discussion prompt restored.",
+  "deliberateOmissionsRejected": [
+    ".original-prompt-text",
+    "[data-source-node]",
+    "#prompt-2 .original-response > ol > li",
+    "#prompt-5 details",
+    "#prompt-6 ol > li"
+  ],
+  "originalCuratorExchanges": "No separate curator correction or dialogue appears in this source; all original prompt turns retained."
+}

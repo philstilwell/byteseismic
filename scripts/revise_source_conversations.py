@@ -235,6 +235,23 @@ def edited_column(original, n, c, config):
             paragraph.name = 'span'
             paragraphs[0].append(' ')
             paragraphs[0].append(paragraph.extract())
+    if f'{n}.{c}' in config.get('compactResponseParagraphs', {}):
+        # Explicit exception for an original answer that ignored a short-paragraph prompt.
+        # Preserve every source address and its order while changing only the wrappers.
+        indexes = config['compactResponseParagraphs'][f'{n}.{c}']
+        blocks = col.select('[data-source-node]')
+        assert [x['data-source-node'] for x in blocks] == [f'{n}.{c}.{k}' for k in indexes]
+        assert all(not x.select('[data-source-node]') for x in blocks)
+        assert all(x.name in ('p', 'li') for x in blocks)
+        paragraph = BeautifulSoup('<p></p>', 'html.parser').p
+        for i, block in enumerate(blocks):
+            if i:
+                paragraph.append(' ')
+            block.name = 'span'
+            paragraph.append(block.extract())
+        assert not col.get_text(strip=True), 'Compaction would discard untracked source text'
+        col.clear()
+        col.append(paragraph)
     return col
 
 
@@ -541,7 +558,7 @@ def verify(config, rendered):
             'tableCellsExplicitlyRevised': len(config.get('tableCellReplacements', {})),
             'blocksExplicitlyRevised': changed, 'bareAnswersExplicitlyRevised': len(config.get('bareAnswerReplacements', {})), 'promptOrderExact': True,
             'sourceBlockOrderExact': True,
-            'listAndTableStructuresPreserved': not bool(config.get('listItemContinuations') or config.get('responseAppendices')),
+            'listAndTableStructuresPreserved': not bool(config.get('listItemContinuations') or config.get('responseAppendices') or config.get('compactResponseParagraphs')),
             'explicitListItemSplits': list(config.get('listItemContinuations', {})),
             'explicitResponseAppendices': list(config.get('responseAppendices', {})),
             'formatChecks': checks, 'sha256': hashlib.sha256(rendered.encode()).hexdigest()}

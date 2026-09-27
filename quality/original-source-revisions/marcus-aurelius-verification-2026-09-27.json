@@ -1,0 +1,62 @@
+{
+  "pagePath": "/philosophers/marcus-aurelius/",
+  "sourceSha256": "bcc608eca0dc4fe1ad0ff95b8f664a63218ec669943efc3236cd5d804a073fe4",
+  "originalPrompts": 4,
+  "originalHeadings": 4,
+  "sourceColumns": 8,
+  "modelResponses": 8,
+  "blocksRetainedVerbatim": 52,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 42,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "shortParagraphs": [
+      1,
+      1
+    ],
+    "sevenContributions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      7
+    ]
+  },
+  "sha256": "e06b49c2ad4e7da3077e4b749f982186af570a84e449034083b3f7e57acabf88",
+  "sourceTitle": "Marcus Aurelius",
+  "sourceUrl": "http://byteseismic.com/2024/04/12/marcus-aurelius/",
+  "wordpressId": 6157,
+  "snapshot": "marcus-aurelius-wordpress-6157.html",
+  "cachedOriginalExact": true,
+  "originalPromptTexts": [
+    "Provide a short paragraph explaining Marcus Aurelius’ influence on philosophy.",
+    "Provide an annotated list of Marcus Aurelius’ 7 greatest contributions to philosophy.",
+    "Provide the most likely causes behind Marcus Aurelius becoming a notable philosopher.",
+    "Which schools of philosophical thought and academic domains has the philosophy of Marcus Aurelius most influenced?"
+  ],
+  "sourceRecoveryNote": "Original WordPress prompts restored. Marcus current generic prompts did not match; cached homepage explicitly maps the same title to WP6157 URL.",
+  "deliberateOmissionsRejected": [
+    ".original-prompt-text",
+    "[data-source-node]",
+    "#prompt-2 .original-response > ol > li"
+  ],
+  "continuousContributionNumbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "laterGenericQuizRemoved": true,
+  "originalCuratorExchanges": "No separate curator correction or dialogue appears in this source; all original prompt turns retained."
+}

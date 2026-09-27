@@ -1,0 +1,67 @@
+{
+  "pagePath": "/philosophers/karl-marx/",
+  "sourceSha256": "23658445da4d2934b49311f78b2136b9caaa6a0198836ca8a7b55abac30042f4",
+  "originalPrompts": 5,
+  "originalHeadings": 6,
+  "sourceColumns": 18,
+  "modelResponses": 18,
+  "blocksRetainedVerbatim": 147,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 54,
+  "bareAnswersExplicitlyRevised": 2,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": false,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "shortParagraphs": [
+      1,
+      1,
+      1
+    ],
+    "sevenContributions": [
+      7,
+      7,
+      7
+    ],
+    "expandableAnswers": [
+      7,
+      7,
+      7
+    ],
+    "discussionLists": [
+      12,
+      12,
+      12
+    ]
+  },
+  "sha256": "3c3ae1ebea6573e0c610c62bb86dd2389913b06f28e9a4c03eba0950590ae4e9",
+  "sourceTitle": "Karl Marx",
+  "sourceUrl": "http://byteseismic.com/2024/06/25/karl-marx/",
+  "wordpressId": 12232,
+  "snapshot": "karl-marx-wordpress-12232.html",
+  "cachedOriginalExact": true,
+  "originalPromptTexts": [
+    "Provide a short paragraph explaining Karl Marx’s influence on philosophy.",
+    "Provide an annotated list of Marx’s 7 greatest contributions to philosophy.",
+    "Provide the most likely causes behind Marx becoming a notable philosopher.",
+    "Which schools of philosophical thought and academic domains has the philosophy of Marx most influenced?",
+    "Quizzes",
+    "Provide 12 discussion questions relevant to the content above."
+  ],
+  "sourceRecoveryNote": "Current four substantive prompts matched original first four; original Quizzes heading and final discussion prompt restored.",
+  "deliberateOmissionsRejected": [
+    ".original-prompt-text",
+    "[data-source-node]",
+    "#prompt-2 .original-response > ol > li",
+    "#prompt-5 details",
+    "#prompt-6 ol > li",
+    "[data-source-node=\"1.2.2\"]"
+  ],
+  "explicitFormatException": {
+    "sourceResponse": "1.2",
+    "reason": "Original list did not honor short-paragraph prompt; five source blocks retained in order as spans in one paragraph."
+  },
+  "originalCuratorExchanges": "No separate curator correction or dialogue appears in this source; all original prompt turns retained."
+}

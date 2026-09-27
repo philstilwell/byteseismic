@@ -1,0 +1,183 @@
+{
+  "wordpressId": 12678,
+  "pageFile": "philosophers/john-dewey/index.html",
+  "snapshot": "john-dewey-wordpress-12678.html",
+  "sourceSha256": "59627667d61e664d1951ba3aa3942147f658955065ddc744b75f8d1f9f5c869d",
+  "sourceUrl": "http://byteseismic.com/2024/07/04/john-dewey/",
+  "sourceLabel": "Original WordPress conversation, July 4, 2024",
+  "shellRevision": "6171de078d2ea83b734c92a8bf2d381a66d9f793",
+  "date": "2026-09-27",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini",
+    "Claude"
+  ],
+  "nonPromptSections": [
+    5
+  ],
+  "introHeading": "Inquiry, Learning, and Democratic Life",
+  "intro": "This editorial edition preserves the original five prompts, the Quizzes heading, and all three response tracks. It follows their sequence from influence and seven contributions to historical conditions, fields of reception, quizzes, and discussion. Misplaced questions about an absent Marx–Nietzsche dialogue have been replaced with relevant Dewey questions in the same positions.",
+  "description": "Explore Dewey’s inquiry, education, democracy, and reception through three original response tracks, seven-item quizzes, and twelve-question discussions.",
+  "headings": [
+    "Dewey’s Philosophical Influence",
+    "Seven Contributions in Each Response",
+    "Conditions behind His Prominence",
+    "Fields of Reception and Application",
+    "Three Seven-Question Quizzes",
+    "Twelve Discussion Questions from Each Response"
+  ],
+  "replacements": {
+    "1.1.1": "John Dewey helped develop pragmatism by treating knowledge as the outcome of inquiry within experience. His instrumentalism examines how ideas guide investigation and withstand testing, rather than declaring a belief true whenever it is convenient. He connected this account of knowing with education through reflective activity, democratic participation, and the revision of habits. His work also reshaped discussions in psychology, ethics, and aesthetics, making the relations between thought, action, and social life central philosophical problems.",
+    "1.2.0": "John Dewey: Inquiry, Education, and Democracy",
+    "1.2.1": "Dewey made inquiry central to philosophy: people encounter difficulties, frame possible explanations, and test them through observation and action. This approach helped challenge the picture of a detached mind inspecting a finished world. In education, he connected activity with reflection and organized subject matter; in politics, he emphasized communication and participation. His influence comes from connecting these fields, not from having replaced all traditional schooling or reduced knowledge to whatever produces an immediate benefit.",
+    "1.3.0": "John Dewey’s philosophical influence:",
+    "1.3.1": "John Dewey brought experience, inquiry, and democracy into a connected account of human life. He influenced educational theory by asking how present activities build capacities for further learning, psychology by examining coordinated organism–environment activity, and aesthetics by connecting art with the organization of experience. His democratic philosophy treats communication and shared inquiry as habits to cultivate, not merely procedures for counting votes. These contributions remain useful without assuming that every later practical or participatory approach descends directly from him.",
+    "2.1.2": "<strong>Annotation:</strong> Dewey develops pragmatism as an account of ideas used and tested in inquiry. Consequences help clarify and assess a proposal, but a pleasant consequence alone does not make a factual claim warranted. A reassuring explanation that repeatedly fails observation is a poor instrument of inquiry.",
+    "2.1.4": "<strong>Annotation:</strong> Concepts and theories function as tools for transforming an unsettled situation into one we can understand and handle. Calling them tools does not mean reality is irrelevant: investigation must answer to conditions it cannot simply wish away. Dewey challenges a detached spectator account of knowing, rather than licensing useful falsehoods.",
+    "2.1.6": "<strong>Annotation:</strong> Learning connects activity, its consequences, and reflection. Handling materials without noticing what changes is not enough. A teacher helps pupils connect an experiment with concepts and prior knowledge so that this experience supports later inquiry.",
+    "2.1.10": "<strong>Annotation:</strong> Inquiry develops a problem, gathers relevant observations, proposes possible solutions, reasons through their implications, and tests them. These activities inform one another; they are not an inflexible checklist. An unsuccessful test may show that the problem itself was badly framed.",
+    "2.1.12": "<strong>Annotation:</strong> Moral inquiry examines habits, competing claims, and foreseeable consequences in concrete situations. Ends as well as means can be reconsidered. This is broader than maximizing a single quantity of benefit: asking whose interests count and what kind of character an action forms is part of the inquiry.",
+    "2.1.14": "<strong>Annotation:</strong> In <em>Art as Experience</em>, Dewey connects artistic making and perception with the rhythms and tensions of ordinary experience. The artwork matters through an organized encounter between material, maker, and perceiver; he does not claim that the object itself is dispensable or that every casual experience is art.",
+    "2.2.2": "<strong>The Experience–Knowledge Connection:</strong> Knowing grows within an organism’s active dealings with its environment, not from passively receiving isolated sensations. Experience includes doing and undergoing consequences. Dewey’s approach is therefore more specific than the claim that all knowledge comes from experience, and it leaves reasoning an essential role in inquiry.",
+    "2.2.3": "<strong>Pragmatism and the Value of Ideas:</strong> An idea earns support by guiding inquiry successfully under relevant tests. “It works” must specify the problem, evidence, and consequences. A convenient belief that hides a failure would obstruct inquiry rather than satisfy Dewey’s account.",
+    "2.2.4": "<strong>Education through Activity and Reflection:</strong> A practical project becomes educational when learners connect what they do with what happens and can use that connection again. Measuring why a model bridge bends, for example, joins activity to mathematics and explanation. Teacher guidance and organized knowledge remain essential.",
+    "2.2.7": "<strong>Instrumentalism and Inquiry:</strong> Ideas organize possible observations and actions. A proposed cause of a failed crop can guide comparisons of soil, water, and seed; the results may require revising it. Scientific findings can be well established while remaining open to correction, so fallibility is not the absence of reliable knowledge.",
+    "2.2.8": "<strong>Open-Mindedness and Growth:</strong> Dewey stresses readiness to reconsider assumptions and the development of capacities for further learning. Growth here is an educational and ethical idea. It should not be identified without qualification with the later psychological construct called a “growth mindset.”",
+    "2.3.1": "<strong>Pragmatism:</strong> Dewey develops an account of thought within activity: ideas clarify possibilities and are tested through their consequences. Practical relevance includes sustained investigation, not merely immediate usefulness.",
+    "2.3.2": "<strong>Instrumentalism:</strong> Ideas function as instruments of inquiry whose adequacy depends on disciplined testing. A belief does not become true simply because someone finds it comforting or profitable.",
+    "2.3.3": "<strong>Experiential Learning:</strong> Education connects activity with reflection and future learning. Experience can also entrench bad habits, which makes the teacher’s selection and organization of activities crucial.",
+    "2.3.5": "<strong>Inquiry-Based Philosophy:</strong> Dewey connects observation, problem formation, reasoning, and testing. Philosophical inquiry can learn from experimental methods without reducing every question to a laboratory procedure.",
+    "2.3.6": "<strong>Art as Experience:</strong> Art involves a developed relation among making, the work, and perception. Dewey challenges the separation of art from everyday life without denying differences between a coherent aesthetic experience and scattered impressions.",
+    "2.3.7": "<strong>Social Psychology:</strong> Habits develop through social and environmental conditions, helping explain how individual action and institutions shape one another. This complements his analysis of coordinated perception and action; it does not make individuals passive products of society.",
+    "3.1.2": "<strong>Annotation:</strong> Dewey developed pragmatism alongside an already emerging tradition associated with Peirce and James. His distinctive integration of inquiry, education, and democracy gave readers several connected reasons to engage his work; he did not originate the whole movement.",
+    "3.1.4": "<strong>Annotation:</strong> Educational debates and the Chicago Laboratory School provided settings in which his proposals could be tried, contested, and communicated. Their visibility helped establish his reputation. Influence on reform is better supported than a claim that his methods were universally adopted or consistently implemented.",
+    "3.2.0": "Conditions behind Dewey’s Philosophical Prominence",
+    "3.2.2": "<strong>Reworking Inherited Philosophy:</strong> Dewey moved from an early engagement with Hegelian idealism toward an experimental naturalism informed by psychology and evolution. His importance grew partly from reworking problems about mind, nature, and society. A simple story about practical Americans abandoning abstract European thought misses this intellectual development.",
+    "3.2.4": "<strong>Educational Reform:</strong> His work connected philosophical arguments to disputes about curricula, teachers, and children’s experience. The Laboratory School supplied a concrete institutional setting. He also criticized forms of progressive education that neglected guidance and continuity, so his relationship to the movement was not an uncomplicated endorsement.",
+    "3.2.5": "<strong>Public Problems:</strong> Industrialization and conflicts over democratic participation supplied urgent questions and audiences. Dewey’s writing offered ways to connect inquiry with reform. This explains an opportunity for reception without implying that America followed a single path of progress or that his program was accepted by everyone.",
+    "3.2.6": "<strong>Publication and Public Engagement:</strong> Books, teaching, essays, and participation in public controversies brought his arguments to different audiences. This is a clearer mechanism of influence than the claim that all his prose was exceptionally accessible; much of his technical writing remains demanding.",
+    "3.3.7": "<strong>Long Career and Intellectual Development:</strong> Decades of teaching and publication allowed Dewey to revisit problems across fields and reach successive audiences. His philosophy also changed substantially, especially after his early idealist period. Duration and revision help explain the range of his influence without treating his system as fixed from the beginning.",
+    "4.1.6": "<strong>Annotation:</strong> Dewey’s 1896 <a href=\"https://brocku.ca/MeadProject/Dewey/Dewey_1896.html\">“The Reflex Arc Concept in Psychology”</a> argues that sensation and movement belong within coordinated activity. This became important to functional psychology. Later educational and developmental uses should be traced through specific authors and methods rather than assumed from a shared interest in adaptation.",
+    "4.1.8": "<strong>Annotation:</strong> His ethics connects habits, deliberation, and social conditions. Consequences matter alongside the examination of ends, character, and competing demands. This contributes to pragmatic moral inquiry without making him simply a proponent of maximizing beneficial outcomes.",
+    "4.2.3": "<strong>Epistemology:</strong> Dewey challenges the spectator picture of knowing and asks how inquiry produces warranted judgments. The alternative is not that each learner invents facts, but that claims are assessed through investigation in a shared world.",
+    "4.2.7": "<strong>Teaching Methods:</strong> Dewey provides a philosophical basis for connecting activity, reflection, and subject knowledge. His influence is substantial, but the existence of a collaborative project does not by itself establish that its teacher adopted Dewey’s methods.",
+    "4.2.8": "<strong>Educational Psychology:</strong> His account of active learning has affinities with later constructivist approaches. Those theories differ, and a family resemblance should not be presented as proof that each derives from him.",
+    "4.2.13": "<strong>Library and Information Education:</strong> Inquiry-based information literacy can use Deweyan ideas about posing questions and evaluating evidence. That is a potential application, not proof that Dewey founded the field. John Dewey should not be confused with Melvil Dewey, associated with the Dewey Decimal Classification.",
+    "4.2.14": "<strong>Museum Education:</strong> His work offers resources for thinking about visitors’ active encounters with objects and their meaning. A hands-on exhibit alone is not evidence of direct influence, nor does physical interaction guarantee reflective learning.",
+    "4.2.15": "A serious objection asks whether Dewey provides sufficient standards for choosing among conflicting ends, rather than merely efficient ways to achieve them. Another asks how teachers can organize inquiry while ensuring access to difficult subject matter. These questions test his account more fairly than assuming that he rejects theory. <a href=\"https://www.gutenberg.org/files/852/852-h/852-h.htm\">Democracy and Education</a>, especially chapters 7, 11, and 12, connects social participation, experience, and thinking.",
+    "4.3.19": "Character and habit in pragmatic ethics; connections with virtue ethics require comparison rather than identification.",
+    "4.3.21": "Environmental ethics through later applications of organism–environment relations; no claim that he founded the contemporary field.",
+    "4.3.23": "Philosophical accounts of scientific inquiry; the experimental sciences did not acquire their methods from Dewey alone.",
+    "4.3.27": "Reasoning in problematic situations; a resource for informal logic rather than a substitute for formal validity.",
+    "4.3.33": "Embodied cognition: later readers draw on his treatment of perception and action as coordinated activity.",
+    "4.3.34": "Situated learning: comparable emphasis on activity and context, with particular lines of influence needing separate evidence.",
+    "5.1.3": "<details><summary>Answer:</summary> Experience joined to reflection and organized guidance, so that the activity builds capacities for further learning.</details>",
+    "5.1.11": "<details><summary>Answer:</summary> Developing and resolving a problematic situation through observation, proposed explanations, reasoning, and tests. These activities can lead us to revise the problem as well as its proposed solution.</details>",
+    "5.2.0": "1: How does Dewey’s account of inquiry differ from simply accepting whatever belief is convenient?",
+    "5.2.1": "2: Why is activity alone insufficient for educational learning?",
+    "5.2.2": "3: What does Dewey mean by democracy beyond a form of government?",
+    "5.2.3": "4: What is the importance of his reflex-arc criticism?",
+    "5.2.4": "5: How did John Dewey’s philosophy influence the field of education?",
+    "5.2.5": "6: What is the name of the philosophical school of thought that Dewey is most associated with?",
+    "5.2.6": "7: What serious question can be raised about Dewey’s approach to conflicting ends?",
+    "6.1.2": "<strong>Educational Reforms:</strong> Which classroom practices show influence from Dewey, and what evidence would distinguish adoption of his ideas from a merely similar activity?",
+    "6.1.5": "<strong>Ethical Principles:</strong> How can inquiry evaluate ends as well as means? In a school policy dispute, whose experiences and competing claims must be heard?",
+    "6.2.0": "Discussion Questions on Dewey’s Inquiry, Education, and Democracy",
+    "6.2.1": "When a belief is reassuring but repeatedly fails observation, how should Dewey’s account of inquiry evaluate it?",
+    "6.2.2": "Can an activity produce efficient performance while narrowing a pupil’s capacity for future learning? Give an example.",
+    "6.2.3": "How do social conditions shape individual habits without completely determining a person’s choices?",
+    "6.2.4": "What distinguishes growth in understanding from simply acquiring a stronger or more efficient habit?",
+    "6.2.5": "How could a classroom project connect practical activity with mathematical or historical knowledge rather than replace that knowledge?",
+    "6.2.6": "How should teachers balance pupils’ present interests with subject matter they do not yet know enough to value?",
+    "6.2.7": "Which features of progressive education would Dewey have reason to criticize, and why?",
+    "6.2.8": "How might a community inquiry revise its proposed goal after hearing from people affected by it?",
+    "6.2.9": "What observations would make investigators reconsider the way they originally framed a problem?",
+    "6.2.10": "How does democracy as associated life differ from rule by an uninformed or exclusionary majority?",
+    "6.2.11": "How could a Deweyan inquiry into workplace automation examine both productive gains and changes to workers’ opportunities and agency?",
+    "6.2.12": "What makes disagreement productive within shared inquiry, and what conditions can prevent some participants from being heard?",
+    "6.3.10": "How does Dewey’s philosophical account illuminate scientific inquiry without implying that scientists derived their methods directly from him?"
+  },
+  "bareAnswerReplacements": {
+    "5.2.answer0": "Inquiry requires evidence, reasoning, and tests whose results can overturn a convenient belief.",
+    "5.2.answer1": "Learners must connect actions with consequences and carry that understanding into later experience; guidance and subject knowledge help.",
+    "5.2.answer2": "A mode of associated life involving communication, shared interests, and participation.",
+    "5.2.answer3": "He treats sensation and movement within coordinated organism–environment activity instead of isolated stages.",
+    "5.2.answer4": "It gave reformers a way to connect experience, reflection, subject matter, and participation; influence does not imply universal implementation.",
+    "5.2.answer5": "Pragmatism.",
+    "5.2.answer6": "How can inquiry justify choices among competing ends and protect people whose interests carry little public power?",
+    "5.3.answer2": "Experience organized through reflection and guidance so that it supports further learning; mere activity is insufficient.",
+    "5.3.answer6": "His account of coordinated perception, action, and environment supplies a resource for later embodied approaches. Similarity alone does not establish a direct lineage."
+  },
+  "disclosureParagraphsAsDiv": true,
+  "highlights": [
+    "Inquiry tests ideas against consequences; convenience alone does not establish truth.",
+    "Educational activity requires reflection and guidance.",
+    "Democratic life depends on habits of communication and participation."
+  ],
+  "countChecks": [
+    {
+      "name": "shortParagraphs",
+      "selector": "#prompt-1 .original-response",
+      "child": "p",
+      "expected": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "sevenContributions",
+      "selector": "#prompt-2 .original-response > ol",
+      "child": "li",
+      "expected": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "quizQuestions",
+      "selector": "#prompt-5 .original-response",
+      "child": "p",
+      "recursive": true,
+      "expected": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "expandableAnswers",
+      "selector": "#prompt-5 .original-response",
+      "child": "details",
+      "recursive": true,
+      "expected": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "discussionLists",
+      "selector": "#prompt-6 ol",
+      "child": "li",
+      "expected": [
+        12,
+        12,
+        12
+      ]
+    }
+  ],
+  "joinedParagraphs": {
+    "1.3": [
+      [
+        0,
+        1
+      ]
+    ]
+  },
+  "pageSignals": {
+    "Page form": "Original conversation · edited responses",
+    "Best for": "inquiry, education, and democratic life"
+  }
+}

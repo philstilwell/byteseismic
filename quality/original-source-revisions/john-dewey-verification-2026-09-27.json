@@ -1,0 +1,68 @@
+{
+  "pagePath": "/philosophers/john-dewey/",
+  "sourceSha256": "59627667d61e664d1951ba3aa3942147f658955065ddc744b75f8d1f9f5c869d",
+  "originalPrompts": 5,
+  "originalHeadings": 6,
+  "sourceColumns": 18,
+  "modelResponses": 18,
+  "blocksRetainedVerbatim": 141,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 69,
+  "bareAnswersExplicitlyRevised": 9,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "shortParagraphs": [
+      1,
+      1,
+      1
+    ],
+    "sevenContributions": [
+      7,
+      7,
+      7
+    ],
+    "quizQuestions": [
+      7,
+      7,
+      7
+    ],
+    "expandableAnswers": [
+      7,
+      7,
+      7
+    ],
+    "discussionLists": [
+      12,
+      12,
+      12
+    ]
+  },
+  "sha256": "9f0e64be3fd39c689c4236f5c0cf4c1ba13fc41c74b21a55617adfc5e278bfef",
+  "sourceTitle": "John Dewey",
+  "sourceUrl": "http://byteseismic.com/2024/07/04/john-dewey/",
+  "wordpressId": 12678,
+  "snapshot": "john-dewey-wordpress-12678.html",
+  "cachedOriginalExact": true,
+  "originalPromptTexts": [
+    "Provide a short paragraph explaining John Dewey’s influence on philosophy.",
+    "Provide an annotated list of Dewey’s 7 greatest contributions to philosophy.",
+    "Provide the most likely causes behind Dewey becoming a notable philosopher.",
+    "Which schools of philosophical thought and academic domains has the philosophy of Dewey most influenced?",
+    "Quizzes",
+    "Provide 12 discussion questions relevant to the content above. "
+  ],
+  "sourceRecoveryNote": "Current four substantive prompts matched original first four; original Quizzes heading and final discussion prompt restored.",
+  "deliberateOmissionsRejected": [
+    ".original-prompt-text",
+    "[data-source-node]",
+    "#prompt-2 .original-response > ol > li",
+    "#prompt-5 details",
+    "#prompt-6 ol > li",
+    "[data-source-node=\"1.3.1\"]"
+  ],
+  "originalCuratorExchanges": "No separate curator correction or dialogue appears in this source; all original prompt turns retained."
+}
