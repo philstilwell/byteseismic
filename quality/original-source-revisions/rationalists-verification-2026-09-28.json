@@ -1,0 +1,191 @@
+{
+  "pagePath": "/philosophers/rationalists/",
+  "sourceSha256": "1086f9ab2f1546cae5dd4ff9c8fac8c9cb0a68f0a55427a19a644f90769e1202",
+  "originalPrompts": 6,
+  "originalHeadings": 6,
+  "sourceColumns": 18,
+  "modelResponses": 18,
+  "blocksRetainedVerbatim": 144,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 57,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "dialogueTurns": [
+      20,
+      20,
+      20
+    ],
+    "quizzesAndKeys": [
+      7,
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "discussionQuestions": [
+      12,
+      12,
+      12
+    ]
+  },
+  "sha256": "1b739db04d2e5e257355429d633645e15b972f60dad0037c50d7bd995885ee9b",
+  "sourceTitle": "Rationalists",
+  "sourceUrl": "http://byteseismic.com/2024/05/01/rationalists/",
+  "wordpressId": 7666,
+  "snapshot": "rationalists-wordpress-7666.html",
+  "cachedOriginalExact": true,
+  "originalPromptTexts": [
+    "Provide a general description of the philosophical school of Rationalism.",
+    "Provide a list of the key contributions Rationalism has made to philosophical thought.",
+    "List the most influential Rationalists in history.",
+    "Produce a 20-line hypothetical dialogue between a Rationalist and a 1st-year philosophy student.",
+    "Create a 7-item quiz on the entire thread above.  ",
+    "Provide 12 discussion questions relevant to the content above. "
+  ],
+  "currentFirstFourPromptMatch": [
+    true,
+    true,
+    true,
+    true
+  ],
+  "matchingQualification": "Current school pages normalized 1st-year to first-year; restored exact source wording. All original headings, whitespace and prompt order now exact.",
+  "dialogues": [
+    {
+      "column": 1,
+      "sourceTurns": 20,
+      "continuationTurns": 0,
+      "total": 20
+    },
+    {
+      "column": 2,
+      "sourceTurns": 14,
+      "continuationTurns": 6,
+      "total": 20
+    },
+    {
+      "column": 3,
+      "sourceTurns": 13,
+      "continuationTurns": 7,
+      "total": 20
+    }
+  ],
+  "originalStudentTurnsVerbatim": 24,
+  "deliberateOmissionsRejected": [
+    ".original-prompt-text",
+    "[data-source-node]",
+    "#prompt-2 .original-response li",
+    "#prompt-6 .original-response li",
+    "#prompt-4 .source-dialogue > li:last-child"
+  ],
+  "highlights": "Source highlights replaced by same-count edited summaries; duplicate source tables of contents consolidated into prompt ledger; original model logos replaced by model labels.",
+  "fullOriginalRead": true,
+  "fullCurrentEditionRead": true,
+  "responseReviews": [
+    {
+      "promptSection": 1,
+      "sourceColumn": 1,
+      "decision": "Clarify epistemic claim and innate/a-priori distinction."
+    },
+    {
+      "promptSection": 1,
+      "sourceColumn": 2,
+      "decision": "Correct cogito as birth knowledge and reason infallibility."
+    },
+    {
+      "promptSection": 1,
+      "sourceColumn": 3,
+      "decision": "Qualify historical school grouping; distinguish reasoning from rationalism."
+    },
+    {
+      "promptSection": 2,
+      "sourceColumn": 1,
+      "decision": "Retain seven contributions; correct deduction, Kant and science."
+    },
+    {
+      "promptSection": 2,
+      "sourceColumn": 2,
+      "decision": "Retain five contributions; qualify critical-thinking monopoly and nativism inference."
+    },
+    {
+      "promptSection": 2,
+      "sourceColumn": 3,
+      "decision": "Retain ten entries; remove invented origin of a-priori knowledge/metaphysics."
+    },
+    {
+      "promptSection": 3,
+      "sourceColumn": 1,
+      "decision": "Retain four entries; label Kant critical heir."
+    },
+    {
+      "promptSection": 3,
+      "sourceColumn": 2,
+      "decision": "Retain five entries; correct vision-in-God simplification."
+    },
+    {
+      "promptSection": 3,
+      "sourceColumn": 3,
+      "decision": "Replace duplicate Spinoza/Leibniz with source-listed Wolff/Kant; retain Gassendi explicitly as critic, not member."
+    },
+    {
+      "promptSection": 4,
+      "sourceColumn": 1,
+      "decision": "Keep all20 turns/10 student turns; correct science and daily-reasoning examples."
+    },
+    {
+      "promptSection": 4,
+      "sourceColumn": 2,
+      "decision": "Keep14 turns/7 student turns; directly answer filter objection; add6."
+    },
+    {
+      "promptSection": 4,
+      "sourceColumn": 3,
+      "decision": "Keep13 turns/7 student turns; distinguish valid reasoning from true premises; add7."
+    },
+    {
+      "promptSection": 5,
+      "sourceColumn": 1,
+      "decision": "Keep seven questions/keys; align proof/science/innate answers."
+    },
+    {
+      "promptSection": 5,
+      "sourceColumn": 2,
+      "decision": "Keep seven questions/keys; remove nonexistent dialogue-name and innateness claims."
+    },
+    {
+      "promptSection": 5,
+      "sourceColumn": 3,
+      "decision": "Keep seven items/keys; remove ambiguous reason-versus-experience and overlapping criticism options."
+    },
+    {
+      "promptSection": 6,
+      "sourceColumn": 1,
+      "decision": "Keep twelve questions; distinguish cognitive development from justification."
+    },
+    {
+      "promptSection": 6,
+      "sourceColumn": 2,
+      "decision": "Keep twelve questions; avoid unsupported scientific counterfactual."
+    },
+    {
+      "promptSection": 6,
+      "sourceColumn": 3,
+      "decision": "Keep twelve questions; add domain-specific rationalist/empiricist comparison."
+    }
+  ],
+  "remainingConcerns": [
+    "Original figure lists vary in scope. Gassendi retained as explicitly identified opponent; Kant as critical heir. Duplicate replacements disclosed in place.",
+    "Original dialogues20/14/13; additions0/6/7;24 original student turns retained verbatim.",
+    "Original prompt spelling 1st-year and trailing whitespace preserved."
+  ],
+  "supplementalReferences": [
+    "https://www.earlymoderntexts.com/assets/pdfs/leibniz1705book1.pdf",
+    "https://barryfvaughan.org/text/philtext/descartes/meditations/2.html",
+    "https://plato.stanford.edu/entries/malebranche-ideas/"
+  ]
+}

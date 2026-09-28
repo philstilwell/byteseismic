@@ -1,0 +1,190 @@
+{
+  "pagePath": "/philosophers/pragmatists/",
+  "sourceSha256": "33505eb7c068f026bd30f0c5806a3479a0d735cd05c5f32e5d838d5b1cfb51c7",
+  "originalPrompts": 6,
+  "originalHeadings": 6,
+  "sourceColumns": 18,
+  "modelResponses": 18,
+  "blocksRetainedVerbatim": 158,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 77,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "dialogueTurns": [
+      20,
+      20,
+      20
+    ],
+    "quizzesAndKeys": [
+      7,
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "discussionQuestions": [
+      12,
+      12,
+      12
+    ]
+  },
+  "sha256": "af1693ade374b98a07af3743416724b47f7853643b8d1968340512ce96cc027c",
+  "sourceTitle": "Pragmatists",
+  "sourceUrl": "http://byteseismic.com/2024/05/03/pragmatists/",
+  "wordpressId": 7946,
+  "snapshot": "pragmatists-wordpress-7946.html",
+  "cachedOriginalExact": true,
+  "originalPromptTexts": [
+    "Provide a general description of Pragmatism.",
+    "Provide a list of the key contributions Pragmatists have made to philosophical thought.",
+    "List the most influential Pragmatists in history.",
+    "Produce a 20-line hypothetical dialogue between a Pragmatist and a 1st-year philosophy student.",
+    "Create a 7-item quiz on the entire thread above.",
+    "Provide 12 discussion questions relevant to the content above. "
+  ],
+  "currentFirstFourPromptMatch": [
+    true,
+    true,
+    true,
+    true
+  ],
+  "matchingQualification": "Current school pages normalized 1st-year to first-year; restored exact source wording. All original headings, whitespace and prompt order now exact.",
+  "dialogues": [
+    {
+      "column": 1,
+      "sourceTurns": 18,
+      "continuationTurns": 2,
+      "total": 20
+    },
+    {
+      "column": 2,
+      "sourceTurns": 11,
+      "continuationTurns": 9,
+      "total": 20
+    },
+    {
+      "column": 3,
+      "sourceTurns": 13,
+      "continuationTurns": 7,
+      "total": 20
+    }
+  ],
+  "originalStudentTurnsVerbatim": 21,
+  "deliberateOmissionsRejected": [
+    ".original-prompt-text",
+    "[data-source-node]",
+    "#prompt-2 .original-response li",
+    "#prompt-6 .original-response li",
+    "#prompt-4 .source-dialogue > li:last-child"
+  ],
+  "highlights": "Source highlights replaced by same-count edited summaries; duplicate source tables of contents consolidated into prompt ledger; original model logos replaced by model labels.",
+  "fullOriginalRead": true,
+  "fullCurrentEditionRead": true,
+  "responseReviews": [
+    {
+      "promptSection": 1,
+      "sourceColumn": 1,
+      "decision": "Distinguish meaning, truth and justification across Peirce/James/Dewey."
+    },
+    {
+      "promptSection": 1,
+      "sourceColumn": 2,
+      "decision": "Replace relativist thesis and action-only picture."
+    },
+    {
+      "promptSection": 1,
+      "sourceColumn": 3,
+      "decision": "Remove uniform anti-representationalism and anti-scientific-law claims."
+    },
+    {
+      "promptSection": 2,
+      "sourceColumn": 1,
+      "decision": "Correct consensus and fallibilism; retain nine contributions."
+    },
+    {
+      "promptSection": 2,
+      "sourceColumn": 2,
+      "decision": "Explain conceivable effects, truth and scientific testing; retain six contributions."
+    },
+    {
+      "promptSection": 2,
+      "sourceColumn": 3,
+      "decision": "Retain ten entries; qualify pluralism, instrumentalism and learning."
+    },
+    {
+      "promptSection": 3,
+      "sourceColumn": 1,
+      "decision": "Retain nine names; restore Addams as philosopher and co-founder."
+    },
+    {
+      "promptSection": 3,
+      "sourceColumn": 2,
+      "decision": "Retain three founders and dates; clarify Peirce/Dewey."
+    },
+    {
+      "promptSection": 3,
+      "sourceColumn": 3,
+      "decision": "Retain ten names; correct Mead from student to colleague."
+    },
+    {
+      "promptSection": 4,
+      "sourceColumn": 1,
+      "decision": "Retain all nine student turns; answer truth/relativism/utilitarianism objections; add two turns."
+    },
+    {
+      "promptSection": 4,
+      "sourceColumn": 2,
+      "decision": "Retain all five student turns and chair sequence; qualify Plato illustration; add nine turns."
+    },
+    {
+      "promptSection": 4,
+      "sourceColumn": 3,
+      "decision": "Retain all seven student turns; respond to representation and revision objections; add seven turns."
+    },
+    {
+      "promptSection": 5,
+      "sourceColumn": 1,
+      "decision": "Retain seven questions/key; correct truth, community and ethics answers."
+    },
+    {
+      "promptSection": 5,
+      "sourceColumn": 2,
+      "decision": "Keep seven multiple-choice items/keys; broaden beyond dialogue and correct false utility criterion."
+    },
+    {
+      "promptSection": 5,
+      "sourceColumn": 3,
+      "decision": "Keep seven items/keys; remove ambiguous or false presuppositions."
+    },
+    {
+      "promptSection": 6,
+      "sourceColumn": 1,
+      "decision": "Retain twelve questions with consensus correction."
+    },
+    {
+      "promptSection": 6,
+      "sourceColumn": 2,
+      "decision": "Retain twelve; repair truth-change presupposition."
+    },
+    {
+      "promptSection": 6,
+      "sourceColumn": 3,
+      "decision": "Retain twelve; distinguish internal disagreement and pluralism."
+    }
+  ],
+  "remainingConcerns": [
+    "Original three dialogues contain 18,11,13 turns, extended to20 with disclosed additions; all21 original student turns verbatim.",
+    "The chair discussion is a teaching illustration, not a historical claim about a separate Platonic Form for every artifact.",
+    "Lists are selective; the three-model format preserves differences in coverage."
+  ],
+  "supplementalReferences": [
+    "https://peirce.org/writings/p119.html",
+    "https://www.gutenberg.org/files/5116/5116-h/5116-h.htm"
+  ]
+}

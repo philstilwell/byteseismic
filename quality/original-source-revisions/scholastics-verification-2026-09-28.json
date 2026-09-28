@@ -1,0 +1,192 @@
+{
+  "pagePath": "/philosophers/scholastics/",
+  "sourceSha256": "83ae1902ce3dfbd13a68f2be1e38fbc4aa02724f4d36a89fa8172422f6c1bced",
+  "originalPrompts": 6,
+  "originalHeadings": 6,
+  "sourceColumns": 18,
+  "modelResponses": 18,
+  "blocksRetainedVerbatim": 195,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 52,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "dialogueTurns": [
+      20,
+      20,
+      20
+    ],
+    "quizzesAndKeys": [
+      7,
+      7,
+      7,
+      7,
+      7,
+      7
+    ],
+    "discussionQuestions": [
+      15,
+      15,
+      15
+    ]
+  },
+  "sha256": "7f59e00667e426795c5fbc4272f9fa6416bb76330932a6f0a5feb20f5e219d86",
+  "sourceTitle": "Scholastics",
+  "sourceUrl": "http://byteseismic.com/2024/05/04/scholastics/",
+  "wordpressId": 7977,
+  "snapshot": "scholastics-wordpress-7977.html",
+  "cachedOriginalExact": true,
+  "originalPromptTexts": [
+    "Provide a general description of Scholasticism.",
+    "Provide a list of the key contributions Scholastics have made to philosophical thought.",
+    "List the most influential Scholastics in history.",
+    "Produce a 20-line hypothetical dialogue between a Scholastic and a 1st-year philosophy student.",
+    "Create a 7-item quiz on the entire thread above.",
+    "Provide 15 discussion questions relevant to the content above. "
+  ],
+  "currentFirstFourPromptMatch": [
+    true,
+    true,
+    true,
+    true
+  ],
+  "matchingQualification": "Current school pages normalized 1st-year to first-year; restored exact source wording. All original headings, whitespace and prompt order now exact.",
+  "dialogues": [
+    {
+      "column": 1,
+      "sourceTurns": 16,
+      "continuationTurns": 4,
+      "total": 20
+    },
+    {
+      "column": 2,
+      "sourceTurns": 11,
+      "continuationTurns": 9,
+      "total": 20
+    },
+    {
+      "column": 3,
+      "sourceTurns": 12,
+      "continuationTurns": 8,
+      "total": 20
+    }
+  ],
+  "originalStudentTurnsVerbatim": 19,
+  "deliberateOmissionsRejected": [
+    ".original-prompt-text",
+    "[data-source-node]",
+    "#prompt-2 .original-response li",
+    "#prompt-6 .original-response li",
+    "#prompt-4 .source-dialogue > li:last-child"
+  ],
+  "highlights": "Source highlights replaced by same-count edited summaries; duplicate source tables of contents consolidated into prompt ledger; original model logos replaced by model labels.",
+  "fullOriginalRead": true,
+  "fullCurrentEditionRead": true,
+  "responseReviews": [
+    {
+      "promptSection": 1,
+      "sourceColumn": 1,
+      "decision": "Distinguish tradition/method from unified doctrine; clarify institutions and limits."
+    },
+    {
+      "promptSection": 1,
+      "sourceColumn": 2,
+      "decision": "Replace false opposition and idealized debate claim; retain question lists."
+    },
+    {
+      "promptSection": 1,
+      "sourceColumn": 3,
+      "decision": "Clarify chronology and limits of demonstration."
+    },
+    {
+      "promptSection": 2,
+      "sourceColumn": 1,
+      "decision": "Retain eight contributions; correct universals and progress narrative."
+    },
+    {
+      "promptSection": 2,
+      "sourceColumn": 2,
+      "decision": "Retain seven contributions; explain natural law and universals precisely."
+    },
+    {
+      "promptSection": 2,
+      "sourceColumn": 3,
+      "decision": "Retain eight contributions; separate individual ontology from political individualism."
+    },
+    {
+      "promptSection": 3,
+      "sourceColumn": 1,
+      "decision": "Retain eight figures; qualify nominalism, parsimony and Grosseteste science."
+    },
+    {
+      "promptSection": 3,
+      "sourceColumn": 2,
+      "decision": "Retain eight; correct Albert birth certainty, Summa scope and razor simplification."
+    },
+    {
+      "promptSection": 3,
+      "sourceColumn": 3,
+      "decision": "Retain nine entries; replace duplicate misdated Scotus with Lombard; qualify Bacon modernization."
+    },
+    {
+      "promptSection": 4,
+      "sourceColumn": 1,
+      "decision": "Keep16 original turns/all8 student turns; answer doctrinal circularity directly; add4."
+    },
+    {
+      "promptSection": 4,
+      "sourceColumn": 2,
+      "decision": "Keep11 turns/all5 student turns; make the certainty question precise; add9."
+    },
+    {
+      "promptSection": 4,
+      "sourceColumn": 3,
+      "decision": "Keep12 turns/all6 student turns; answer soul objection and failed-reconciliation challenge; add8."
+    },
+    {
+      "promptSection": 5,
+      "sourceColumn": 1,
+      "decision": "Retain seven questions/options/keys; correct razor and unresolved conflict."
+    },
+    {
+      "promptSection": 5,
+      "sourceColumn": 2,
+      "decision": "Retain seven relevant factual questions and answers."
+    },
+    {
+      "promptSection": 5,
+      "sourceColumn": 3,
+      "decision": "Retain seven questions/keys; align final two with revised substantive dialogue."
+    },
+    {
+      "promptSection": 6,
+      "sourceColumn": 1,
+      "decision": "Keep15 questions; qualify science analogy and decline story."
+    },
+    {
+      "promptSection": 6,
+      "sourceColumn": 2,
+      "decision": "Keep15 questions; repair universals and razor premises."
+    },
+    {
+      "promptSection": 6,
+      "sourceColumn": 3,
+      "decision": "Keep15 questions; replace inevitable influence narrative."
+    }
+  ],
+  "remainingConcerns": [
+    "Nineteen original student turns are unchanged; source dialogues16/11/12 extended4/9/8 to20 each.",
+    "The first hypothetical dialogue explicitly uses a modern technology case; it is not a purported medieval quotation.",
+    "Faith–reason compatibility is presented as a scholastic position, not assumed as established or accepted by the curator."
+  ],
+  "supplementalReferences": [
+    "https://www.newadvent.org/summa/1001.htm",
+    "https://www.newadvent.org/summa/2094.htm",
+    "https://www.newadvent.org/summa/1076.htm",
+    "https://www.newadvent.org/summa/1046.htm"
+  ]
+}

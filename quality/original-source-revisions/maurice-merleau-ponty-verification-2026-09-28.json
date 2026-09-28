@@ -1,0 +1,174 @@
+{
+  "pagePath": "/philosophers/maurice-merleau-ponty/",
+  "sourceSha256": "665ee2572bee2066bff0419e0422a39bf6f7b097a9a9ea6a6c9940a689217c03",
+  "originalPrompts": 5,
+  "originalHeadings": 6,
+  "sourceColumns": 18,
+  "modelResponses": 18,
+  "blocksRetainedVerbatim": 120,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 49,
+  "bareAnswersExplicitlyRevised": 4,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "shortParagraphs": [
+      1,
+      1,
+      1
+    ],
+    "sevenContributions": [
+      7,
+      7,
+      7
+    ],
+    "expandableAnswers": [
+      7,
+      7,
+      7
+    ],
+    "discussionLists": [
+      12,
+      12,
+      12
+    ]
+  },
+  "sha256": "94d91b77f7a76ea74edb36ec93e528528e881cbaccc578280dc7f7ab8ee942c8",
+  "sourceTitle": "Maurice Merleau-Ponty",
+  "sourceUrl": "http://byteseismic.com/2024/06/19/maurice-merleau-ponty/",
+  "wordpressId": 11935,
+  "snapshot": "maurice-merleau-ponty-wordpress-11935.html",
+  "cachedOriginalExact": true,
+  "originalPromptTexts": [
+    "Provide a short paragraph explaining Maurice Merleau-Ponty’s influence on philosophy.",
+    "Provide an annotated list of Merleau-Ponty’s 7 greatest contributions to philosophy.",
+    "Provide the most likely causes behind Merleau-Ponty becoming a notable philosopher.",
+    "Which schools of philosophical thought and academic domains has the philosophy of Merleau-Ponty most influenced?",
+    "Quizzes",
+    "Provide 12 discussion questions relevant to the content above. "
+  ],
+  "currentFirstFourPromptMatch": [
+    true,
+    true,
+    true,
+    true
+  ],
+  "matchingQualification": "Current school pages normalized 1st-year to first-year; restored exact source wording. All original headings, whitespace and prompt order now exact.",
+  "dialogues": [],
+  "originalStudentTurnsVerbatim": 0,
+  "deliberateOmissionsRejected": [
+    ".original-prompt-text",
+    "[data-source-node]",
+    "#prompt-2 .original-response li",
+    "#prompt-6 .original-response li",
+    "#prompt-5 details"
+  ],
+  "highlights": "Source highlights replaced by same-count edited summaries; duplicate source tables of contents consolidated into prompt ledger; original model logos replaced by model labels.",
+  "fullOriginalRead": true,
+  "fullCurrentEditionRead": true,
+  "responseReviews": [
+    {
+      "promptSection": 1,
+      "sourceColumn": 1,
+      "decision": "Replace ceremonial praise with perceptual problem and later use."
+    },
+    {
+      "promptSection": 1,
+      "sourceColumn": 2,
+      "decision": "Join two paragraphs to satisfy short-paragraph request; clarify selective reception."
+    },
+    {
+      "promptSection": 1,
+      "sourceColumn": 3,
+      "decision": "Join lead-in and paragraph; remove anachronistic quotation label."
+    },
+    {
+      "promptSection": 2,
+      "sourceColumn": 1,
+      "decision": "Retain seven source entries; correct flesh/chiasm and scientific influence."
+    },
+    {
+      "promptSection": 2,
+      "sourceColumn": 2,
+      "decision": "Retain seven entries; explain schema, speech and motor directedness; correct politics."
+    },
+    {
+      "promptSection": 2,
+      "sourceColumn": 3,
+      "decision": "Retain seven entries; clarify incomplete reversibility and ambiguity without relativism."
+    },
+    {
+      "promptSection": 3,
+      "sourceColumn": 1,
+      "decision": "Separate formation from posthumous reception; retain seven factors."
+    },
+    {
+      "promptSection": 3,
+      "sourceColumn": 2,
+      "decision": "Retain five factors; correct passive-perception history and easy-prose claim."
+    },
+    {
+      "promptSection": 3,
+      "sourceColumn": 3,
+      "decision": "Retain seven factors; replace novelty and circular prominence claims."
+    },
+    {
+      "promptSection": 4,
+      "sourceColumn": 1,
+      "decision": "Retain schools/domain structure; qualify unsupported neuroscience and education impact."
+    },
+    {
+      "promptSection": 4,
+      "sourceColumn": 2,
+      "decision": "Retain domain list; replace simplified poststructuralist genealogy."
+    },
+    {
+      "promptSection": 4,
+      "sourceColumn": 3,
+      "decision": "Retain seven domains; distinguish embodied science from rejecting brains."
+    },
+    {
+      "promptSection": 5,
+      "sourceColumn": 1,
+      "decision": "Preserve seven questions/disclosures; align chiasm and invisible answers."
+    },
+    {
+      "promptSection": 5,
+      "sourceColumn": 2,
+      "decision": "Preserve seven questions/disclosures; correct intentionality, speech and flesh."
+    },
+    {
+      "promptSection": 5,
+      "sourceColumn": 3,
+      "decision": "Preserve seven questions/disclosures; replace misleading Cartesianism item."
+    },
+    {
+      "promptSection": 6,
+      "sourceColumn": 1,
+      "decision": "Retain twelve questions; sharpen invisible question."
+    },
+    {
+      "promptSection": 6,
+      "sourceColumn": 2,
+      "decision": "Retain twelve questions; distinguish evidence from standpoint and AI conclusions."
+    },
+    {
+      "promptSection": 6,
+      "sourceColumn": 3,
+      "decision": "Retain twelve questions; qualify relativist implication."
+    }
+  ],
+  "remainingConcerns": [
+    "Seven contributions overlap, as in the original; retained rather than inventing seven independent discoveries.",
+    "Later ontology is unfinished and contested. Domain influence is qualified where no direct lineage is established.",
+    "The source has no separate curator correction or extended dialogue."
+  ],
+  "supplementalReferences": [
+    "https://classiques.uqam.ca/classiques/merleau_ponty_maurice/phonomenologie_de_la_perception/phonomenologie_de_la_perception_intro.html",
+    "https://nupress.northwestern.edu/9780810105966/adventures-of-the-dialectic/",
+    "https://plato.stanford.edu/entries/merleau-ponty/"
+  ]
+}

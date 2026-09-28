@@ -1,0 +1,340 @@
+{
+  "wordpressId": 7946,
+  "pageFile": "philosophers/pragmatists/index.html",
+  "snapshot": "pragmatists-wordpress-7946.html",
+  "sourceSha256": "33505eb7c068f026bd30f0c5806a3479a0d735cd05c5f32e5d838d5b1cfb51c7",
+  "sourceUrl": "http://byteseismic.com/2024/05/03/pragmatists/",
+  "sourceLabel": "Original WordPress conversation, 2024-05-03",
+  "shellRevision": "2bc57c68c3882f542fed45b73960979bcc7111ab",
+  "date": "2026-09-28",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini",
+    "Claude"
+  ],
+  "introHeading": "Pragmatism: Meaning, Inquiry, and Consequences",
+  "intro": "The original six prompts and three model tracks are restored here. Revisions distinguish practical tests from convenient beliefs and preserve the original student objections. The three dialogues retain all original turns, with labeled continuations to reach the requested twenty turns each.",
+  "description": "Pragmatism through Peirce, James, and Dewey: original prompts, revised explanations, twenty-turn dialogues, quizzes, and discussion questions.",
+  "headings": [
+    "What Pragmatism Claims",
+    "Contributions to Philosophy",
+    "Influential Pragmatists",
+    "Three Dialogues on Truth and Use",
+    "Seven-Item Quizzes and Answer Keys",
+    "Twelve Discussion Questions"
+  ],
+  "replacements": {
+    "1.1.0": "Pragmatism emerged in the United States in the late nineteenth century as a family of approaches connecting ideas with inquiry and conduct. Its pragmatic maxim asks what conceivable difference a concept makes to experience and action. This method of clarifying meaning must be distinguished from a theory of what makes a claim true: a comforting belief can be useful to someone while remaining false.",
+    "1.1.1": "Charles Sanders Peirce formulated the pragmatic maxim; William James brought pragmatism to a wider audience and developed a distinctive account of truth and verification. John Dewey examined how inquiry transforms problematic situations, including in education and public life. Their disagreements matter: Peirce’s conception of sustained inquiry, James’s account of verification, and Dewey’s account of warranted assertion are not a single slogan that truth is whatever works.",
+    "1.2.1": "<strong>Ideas as tools:</strong> Concepts guide expectations, reasoning, and action. Calling them tools invites questions about what they enable us to discover; it does not make accuracy irrelevant or exclude abstract inquiry.",
+    "1.2.3": "<strong>Truth and inquiry:</strong> Pragmatists connect truth with practices of inquiry in different ways. They do not generally hold that any belief producing a desirable result becomes true. A reassuring forecast and an accurate forecast can have very different consequences when tested.",
+    "1.2.4": "<strong>Active inquiry:</strong> Experimentation can expose the consequences of a claim, while observation, reasoning, and reflection guide what to test. Constant intervention is neither always possible nor always the best way to learn.",
+    "1.3.0": "Pragmatism is a philosophical tradition that developed in the United States in the late nineteenth century. It asks how meanings, beliefs, and methods bear on experience and action. Its accounts of truth differ, and the clarification of a concept through conceivable effects should not be confused with making a proposition true by finding it useful.",
+    "1.3.2": "Pragmatists question the idea that thinking is only passive representation. Many nevertheless accept that beliefs describe a world independent of individual wishes. The stronger rejection of representationalism associated with later thinkers such as Rorty should not be attributed uniformly to the tradition.",
+    "1.3.3": "They emphasize experience and experimental inquiry while also using logic, mathematics, and conceptual analysis. The issue is how reasoning connects with questions and tests, not whether all reasoning must be replaced by immediate sensory observation.",
+    "1.3.4": "Several pragmatists emphasize change and pluralism, especially James. This does not require every pragmatist to deny stable facts, general laws, or a reality shared by different inquirers.",
+    "1.3.6": "Scientific inquiry supplies an important model of correction. Human inquiry also involves interpretation and judgments about ends; continuity between fields need not imply that all use identical methods.",
+    "2.1.1": "<strong>Truth and Inquiry:</strong> Peirce relates truth to what sufficiently extended investigation would settle, rather than what a present majority happens to accept. James emphasizes processes of verification, and Dewey examines warranted assertion. These approaches connect truth and inquiry in different ways; none is adequately summarized as personal advantage.",
+    "2.1.2": "<strong>Fallibilism:</strong> Peirce argues that a belief can be well supported without being infallible. Revision remains possible, but doubt needs a reason; inquiry need not begin by pretending to doubt everything. Fallibility is therefore compatible with responsible confidence.",
+    "2.1.6": "<strong>Practical Ethics:</strong> Moral inquiry examines consequences, habits, institutions, and competing ends. It can question what counts as a desirable outcome and whose interests have been excluded. This differs from merely maximizing a preselected sum of benefits.",
+    "2.2.1": "<strong>Clarifying Philosophical Disputes:</strong> Pragmatic methods ask how rival claims would change expectations or inquiry. Abstract reasoning remains useful when its distinctions make a difference; pragmatism is not simply hostility to theory.",
+    "2.2.2": "<strong>Meaning and Inquiry:</strong> In <a href=\"https://peirce.org/writings/p119.html\">How to Make Our Ideas Clear</a>, Peirce connects conceptual clarity with conceivable practical effects. A claim about hardness, for example, concerns how something would respond to relevant tests, not merely how often we use the word.",
+    "2.2.3": "<strong>Accounts of Truth:</strong> Pragmatists disagree over the relation between truth, verification, and justification. James’s <a href=\"https://www.gutenberg.org/files/5116/5116-h/5116-h.htm\">Pragmatism</a> treats successful verification as constrained by experience and other established beliefs. Reducing this to short-term usefulness removes the difficult part of his proposal.",
+    "2.2.4": "<strong>Science and Knowledge:</strong> Predictive and experimental success can support a theory, while failures expose limits. Success on one task does not automatically establish literal truth in every respect; competing explanations and broader evidence still matter.",
+    "2.2.5": "<strong>Justification of Beliefs:</strong> A claim earns support through inquiry appropriate to it, including evidence and valid reasoning. A belief’s beneficial psychological effects alone do not establish the facts it asserts.",
+    "2.2.6": "<strong>Action and Reflection:</strong> Deliberate experiments allow consequences to inform judgment. Reflection is part of this process: without a question, comparison, or interpretation, activity may teach very little.",
+    "2.3.2": "<strong>Criticism of Infallible Foundations:</strong> Pragmatists often reject the demand for an unquestionable starting point. Inquiry instead begins from beliefs and practices that can be corrected. This does not require suspending every belief at once.",
+    "2.3.3": "<strong>Instrumentalism:</strong> Especially in Dewey, concepts function as means for investigating and resolving problems. This account of their use does not by itself entail that theories never describe reality.",
+    "2.3.5": "<strong>Pluralism and Anti-Absolutism:</strong> James gives particular weight to diverse experiences and an unfinished world. Pluralism need not mean that incompatible factual assertions are all true or that pragmatists reject any common reality.",
+    "2.3.6": "<strong>Experiential Learning:</strong> Dewey links experience with reflection and organized inquiry. Mere activity is insufficient: learners need to examine relations between what they do, what follows, and how the result bears on their question.",
+    "3.1.2": "<strong>William James:</strong> James popularized pragmatism and examined the relation between truth and verification. His emphasis on human purposes remains constrained by experience; it should not be reduced to believing whatever one prefers.",
+    "3.1.8": "<strong>Jane Addams:</strong> A philosopher and social reformer, Addams developed accounts of democratic ethics through settlement work and public engagement. She co-founded Hull House with Ellen Gates Starr. Treating her only as someone who applied other philosophers’ ideas understates her own contribution.",
+    "3.2.2": "Peirce formulated the pragmatic maxim and connected inquiry with fallibilism and communal correction. His account of truth differs from James’s later formulations.",
+    "3.2.6": "Dewey developed influential accounts of inquiry, education, and democracy. His educational work combines active experience with guidance and reflection; “student-centered” should not imply that unstructured activity is sufficient.",
+    "3.3.4": "<strong>George Herbert Mead (1863–1931):</strong> A philosopher and social psychologist, Mead was Dewey’s colleague rather than his student. His work on social interaction and the development of the self helped shape the later tradition called symbolic interactionism.",
+    "3.3.5": "<strong>Jane Addams (1860–1935):</strong> Addams contributed to democratic ethics and social philosophy through her writing and settlement work. Her importance includes philosophical argument, not only implementing reform.",
+    "4.1.1": "Pragmatist: A pragmatist connects truth with an ongoing process of inquiry: we test ideas in experience and revise what we take to be true. Different pragmatists explain that connection differently.",
+    "4.1.3": "Pragmatist: Our warranted beliefs can change. If a forecast fails, revising it improves our account of the weather; the revision does not alter the weather that already occurred. Useful reassurance alone would not make the forecast accurate.",
+    "4.1.5": "Pragmatist: Public testing and criticism help correct individual error. Consensus is not enough: a whole community can share a mistake. Peirce distinguishes present agreement from the result of investigation pursued far enough.",
+    "4.1.7": "Pragmatist: Consequences matter, but we also investigate our ends, habits, and institutions. We must ask whose experience counts and what makes an outcome worth seeking.",
+    "4.1.9": "Pragmatist: There is overlap, but pragmatic ethics need not start from a fixed quantity to maximize. A school policy can prompt inquiry into fairness and participation as well as test scores.",
+    "4.1.11": "Pragmatist: Practical consequences include possible observations and experiments, not just immediate commercial uses. A theory can guide inquiry long before it produces a device, and success on one test does not settle every claim it makes.",
+    "4.1.13": "Pragmatist: Many pragmatists affirm a reality that resists our wishes. They ask how inquiry gives us a better account of it. Others criticize particular notions of representation; those disagreements should stay visible.",
+    "4.1.15": "Pragmatist: Practical testing can help establish theoretical correctness, so the two are not simple alternatives. A bridge model must make accurate predictions, not merely help its designer feel confident.",
+    "4.1.17": "Pragmatist: Yes, provided improvement remains open to criticism. A policy useful to its designers may harm others, and a helpful belief still needs evidence for its factual claims.",
+    "4.2.2": "Pragmatist: What difference would knowing these Forms make to an explanation or a judgment? Practical bearings can include intellectual consequences, not only everyday convenience.",
+    "4.2.4": "Pragmatist: Let us use a chair as a deliberately simple illustration, without assuming Plato’s theory requires a separate Form for every manufactured object. What would a perfect standard add to evaluating a chair?",
+    "4.2.6": "Pragmatist: Comfort and function provide tests, but we must specify for whom and for what purpose. A chair for a toddler and one for a concert pianist need not satisfy identical requirements.",
+    "4.2.8": "Pragmatist: A proposed standard might help. We can ask how it guides design and what experience would count against it. Trial and error becomes inquiry when a reasoned question directs the trial.",
+    "4.2.10": "Pragmatist: That works as a design judgment. But a good chair and a true proposition about a chair are different things: comfort cannot make a false claim about its load capacity true.",
+    "4.3.2": "Pragmatist: Some pragmatists challenge accounts of thought as simply mirroring reality, especially Rorty. Others, including Peirce, insist on a reality independent of present opinion. The tradition shares questions and methods more than one doctrine.",
+    "4.3.4": "Pragmatist: Inquiry examines what a claim leads us to expect and whether those expectations survive testing. A convenient belief is not thereby accurate; usefulness in coping cannot alone decide every truth claim.",
+    "4.3.6": "Pragmatist: That risk makes the standards of inquiry crucial. Fallible knowledge can be well supported, and being open to correction does not mean that the facts themselves last only until our next revision.",
+    "4.3.8": "Pragmatist: Revision can be progress when it answers evidence or resolves a genuine difficulty. Changing a view to shield it from criticism is different. The challenge is to explain the difference rather than celebrate change itself.",
+    "4.3.10": "Pragmatist: We examine what ideas do, including how they describe things and guide expectations. Rejecting empty verbal disputes does not require rejecting every question about what exists.",
+    "4.3.12": "Pragmatist: Yes. It connects inquiry with action while leaving the goals of action open to criticism. That is more demanding than asking whether an idea offers an immediate advantage.",
+    "5.1.10": "Pragmatists connect truth and inquiry in different ways; a useful or reassuring belief is not automatically true.",
+    "5.1.11": "Fallibilism allows responsible confidence while acknowledging that beliefs can need correction; it does not require pretending to doubt everything.",
+    "5.1.12": "Public testing and criticism can correct error; present consensus alone does not guarantee truth.",
+    "5.1.13": "Consequences, ends, habits, and affected people’s experiences enter moral inquiry. This is not necessarily a fixed calculation of maximum utility.",
+    "5.1.14": "Theories guide possible observations and tests, even without immediate practical products. Their success and limits remain subjects of inquiry.",
+    "5.2.0": "Here is a seven-item quiz covering the description, contributions, figures, and chair dialogue above. Answers follow the questions.",
+    "5.2.8": "a) The consequences a claim would have for inquiry and judgment",
+    "5.2.15": "c) They offer an ideal standard against which instances can be judged.",
+    "5.2.28": "a) A fixed ideal form for every manufactured object",
+    "5.2.29": "b) Practical inquiry connecting experience with reflection",
+    "5.2.30": "c) Passive memorization without a guiding question",
+    "5.2.31": "d) Rejecting any knowledge of the world",
+    "5.2.34": "b) Clarify meanings through conceivable effects and test beliefs through inquiry.",
+    "5.2.39": "a) The consequences a claim would have for inquiry and judgment",
+    "5.2.40": "c) They offer an ideal standard against which instances can be judged.",
+    "5.2.43": "b) Practical inquiry connecting experience with reflection",
+    "5.2.44": "b) Clarify meanings through conceivable effects and test beliefs through inquiry.",
+    "5.3.1": "Which statement best captures a shared pragmatic method? A) Clarify concepts through their conceivable consequences for inquiry and action B) Treat comfort as proof C) Reject all abstract reasoning D) Regard current consensus as infallible",
+    "5.3.2": "Which is NOT supported by the account above? A) Inquiry draws on experience B) Some pragmatists emphasize pluralism C) Different domains may require different methods D) Knowledge requires a foundation that cannot possibly be corrected",
+    "5.3.3": "Which claim is NOT made in the thread? A) Practical consequences can clarify meaning B) Inquiry can proceed without infallible foundations C) All pragmatists reject a reality independent of present opinion D) Concepts can function as tools in inquiry",
+    "5.3.5": "What distinction does the third dialogue insist on? A) Accuracy is always irrelevant B) Pragmatists differ over representation while sharing concerns about inquiry C) Every pragmatist rejects truth D) Metaphysical questions must never be discussed",
+    "6.1.8": "How can a community improve inquiry while still being mistaken? What distinguishes criticism and testing from consensus alone?",
+    "6.2.7": "<strong>Progress and Change:</strong> How can revising a belief improve our account of an unchanged event? Distinguish a changing purpose, a changing world, and a correction of error.",
+    "6.3.2": "How do Peirce’s commitment to reality independent of present opinion and Rorty’s criticism of representation complicate generalizations about pragmatism?",
+    "6.3.4": "What might James’s pluralism contribute to inquiry without implying that every incompatible factual claim is true?"
+  },
+  "countChecks": [
+    {
+      "name": "dialogueTurns",
+      "selector": "#prompt-4 .source-dialogue",
+      "child": "li",
+      "expected": [
+        20,
+        20,
+        20
+      ]
+    },
+    {
+      "name": "quizzesAndKeys",
+      "selector": "#prompt-5 .original-response > ol",
+      "child": "li",
+      "expected": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "discussionQuestions",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        12,
+        12,
+        12
+      ]
+    }
+  ],
+  "disclosureParagraphsAsDiv": true,
+  "pageSignals": {
+    "Page form": "Original conversation · edited responses",
+    "Best for": "meaning, evidence, and practical inquiry"
+  },
+  "leadingTextReplacements": {
+    "5.2.7": "When clarifying a philosophical claim, what does the pragmatist ask about?",
+    "5.2.27": "Which approach best represents Dewey’s contribution to education?",
+    "5.2.32": "Which statement best summarizes pragmatic method without equating truth with convenience?"
+  },
+  "dialogues": {
+    "4.1": {
+      "sourceTurnNodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "continuation": [
+        "Student: Then I should ask both whether the bridge model is accurate and whether building the bridge serves defensible purposes?",
+        "Pragmatist: Exactly. Evidence about the model and inquiry into the project’s ends inform one another, but answering one question does not automatically answer the other."
+      ]
+    },
+    "4.2": {
+      "sourceTurnNodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "continuation": [
+        "Student: So “this chair is good” and “it supports this weight” need different tests?",
+        "Pragmatist: Yes. Load testing bears on the second claim. The first also depends on purposes, users, and trade-offs.",
+        "Student: Could an ideal still help us choose those tests?",
+        "Pragmatist: Certainly. It can organize inquiry. We then ask whether it clarifies the problem or simply gives our preference an impressive name.",
+        "Student: What if everyone agrees on the ideal?",
+        "Pragmatist: Agreement can conceal excluded users. A comfortable chair for one body may be inaccessible to another.",
+        "Student: Then inquiry needs people whose experiences differ from ours.",
+        "Pragmatist: And it needs ways to challenge claims. Listening more widely and testing carefully are complementary.",
+        "Student: I see why practical judgment demands more than accepting whatever currently seems useful."
+      ]
+    },
+    "4.3": {
+      "sourceTurnNodes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "continuation": [
+        "Pragmatist: Try applying it to a study method you believe helps you learn.",
+        "Student: I like rereading because the material begins to feel familiar. Would that count as success?",
+        "Pragmatist: Familiarity is one effect. If your claim concerns understanding, also test whether you can explain the argument or solve a new problem.",
+        "Student: Suppose the new test is harder and my score is lower.",
+        "Pragmatist: That may reveal a limitation in your earlier evidence rather than a decline in learning. Choose a test that bears on the claim.",
+        "Student: Then “it works” needs an account of what counts as working and why.",
+        "Pragmatist: Exactly. Specifying that connection turns a reassuring slogan into a question we can investigate."
+      ]
+    }
+  },
+  "sectionResponseLabels": {
+    "4.1": "ChatGPT dialogue · original 18 turns plus 2 editorial continuation turns",
+    "4.2": "Gemini dialogue · original 11 turns plus 9 editorial continuation turns",
+    "4.3": "Claude dialogue · original 13 turns plus 7 editorial continuation turns"
+  },
+  "responseReviews": [
+    {
+      "promptSection": 1,
+      "sourceColumn": 1,
+      "decision": "Distinguish meaning, truth and justification across Peirce/James/Dewey."
+    },
+    {
+      "promptSection": 1,
+      "sourceColumn": 2,
+      "decision": "Replace relativist thesis and action-only picture."
+    },
+    {
+      "promptSection": 1,
+      "sourceColumn": 3,
+      "decision": "Remove uniform anti-representationalism and anti-scientific-law claims."
+    },
+    {
+      "promptSection": 2,
+      "sourceColumn": 1,
+      "decision": "Correct consensus and fallibilism; retain nine contributions."
+    },
+    {
+      "promptSection": 2,
+      "sourceColumn": 2,
+      "decision": "Explain conceivable effects, truth and scientific testing; retain six contributions."
+    },
+    {
+      "promptSection": 2,
+      "sourceColumn": 3,
+      "decision": "Retain ten entries; qualify pluralism, instrumentalism and learning."
+    },
+    {
+      "promptSection": 3,
+      "sourceColumn": 1,
+      "decision": "Retain nine names; restore Addams as philosopher and co-founder."
+    },
+    {
+      "promptSection": 3,
+      "sourceColumn": 2,
+      "decision": "Retain three founders and dates; clarify Peirce/Dewey."
+    },
+    {
+      "promptSection": 3,
+      "sourceColumn": 3,
+      "decision": "Retain ten names; correct Mead from student to colleague."
+    },
+    {
+      "promptSection": 4,
+      "sourceColumn": 1,
+      "decision": "Retain all nine student turns; answer truth/relativism/utilitarianism objections; add two turns."
+    },
+    {
+      "promptSection": 4,
+      "sourceColumn": 2,
+      "decision": "Retain all five student turns and chair sequence; qualify Plato illustration; add nine turns."
+    },
+    {
+      "promptSection": 4,
+      "sourceColumn": 3,
+      "decision": "Retain all seven student turns; respond to representation and revision objections; add seven turns."
+    },
+    {
+      "promptSection": 5,
+      "sourceColumn": 1,
+      "decision": "Retain seven questions/key; correct truth, community and ethics answers."
+    },
+    {
+      "promptSection": 5,
+      "sourceColumn": 2,
+      "decision": "Keep seven multiple-choice items/keys; broaden beyond dialogue and correct false utility criterion."
+    },
+    {
+      "promptSection": 5,
+      "sourceColumn": 3,
+      "decision": "Keep seven items/keys; remove ambiguous or false presuppositions."
+    },
+    {
+      "promptSection": 6,
+      "sourceColumn": 1,
+      "decision": "Retain twelve questions with consensus correction."
+    },
+    {
+      "promptSection": 6,
+      "sourceColumn": 2,
+      "decision": "Retain twelve; repair truth-change presupposition."
+    },
+    {
+      "promptSection": 6,
+      "sourceColumn": 3,
+      "decision": "Retain twelve; distinguish internal disagreement and pluralism."
+    }
+  ],
+  "remainingConcerns": [
+    "Original three dialogues contain 18,11,13 turns, extended to20 with disclosed additions; all21 original student turns verbatim.",
+    "The chair discussion is a teaching illustration, not a historical claim about a separate Platonic Form for every artifact.",
+    "Lists are selective; the three-model format preserves differences in coverage."
+  ],
+  "supplementalReferences": [
+    "https://peirce.org/writings/p119.html",
+    "https://www.gutenberg.org/files/5116/5116-h/5116-h.htm"
+  ],
+  "highlights": [
+    "Pragmatism connects ideas with inquiry and conduct.",
+    "Conceivable practical effects can clarify a concept’s meaning.",
+    "Peirce, James, and Dewey differ over truth, verification, and warranted assertion.",
+    "Inquiry tests and revises expectations in response to experience.",
+    "Usefulness or reassurance alone does not make a belief true."
+  ]
+}
