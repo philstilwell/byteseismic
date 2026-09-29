@@ -1,0 +1,111 @@
+{
+  "pagePath": "/philosophers/theodor-w-adorno/",
+  "sourceSha256": "e30af2effb4e20e703d1e6023e1c04059a397d50ee98aafaf3f958a430aba654",
+  "originalPrompts": 5,
+  "originalHeadings": 6,
+  "sourceColumns": 18,
+  "modelResponses": 18,
+  "blocksRetainedVerbatim": 154,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 37,
+  "bareAnswersExplicitlyRevised": 4,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "contributions": [
+      7,
+      7,
+      7
+    ],
+    "quizQuestions": [
+      7,
+      7,
+      7
+    ],
+    "quizDisclosures": [
+      7,
+      7,
+      7
+    ],
+    "discussions": [
+      12,
+      12,
+      12
+    ],
+    "introParagraphs": [
+      1,
+      1,
+      1
+    ]
+  },
+  "sha256": "63db6870990b8bc79f4c0cfe938fea6e1d8893dd7dce2bee199b2945cca8e4be",
+  "sourceTitle": "Theodor W. Adorno",
+  "sourceUrl": "http://byteseismic.com/2024/07/22/theodor-w-adorno/",
+  "wordpressId": 12977,
+  "snapshot": "theodor-w-adorno-wordpress-12977.html",
+  "cachedOriginalExact": true,
+  "originalPromptTexts": [
+    "Provide a short paragraph explaining Theodor W. Adorno’s influence on philosophy.",
+    "Provide an annotated list of Adorno’s 7 greatest contributions to philosophy.",
+    "Provide the most likely causes behind Adorno becoming a notable philosopher.",
+    "Which schools of philosophical thought and academic domains has the philosophy of Adorno most influenced?",
+    "Quizzes",
+    "Provide 12 discussion questions relevant to the content above."
+  ],
+  "previousEditionPromptTexts": [
+    "Provide a short paragraph explaining Theodor W. Adorno’s influence on philosophy.",
+    "Provide an annotated list of Adorno’s 7 greatest contributions to philosophy.",
+    "Provide the most likely causes behind Adorno becoming a notable philosopher.",
+    "Which schools of philosophical thought and academic domains has the philosophy of Adorno most influenced?"
+  ],
+  "homepageMatch": {
+    "title": "Theodor W. Adorno",
+    "url": "https://byteseismic.com/2024/07/22/theodor-w-adorno/"
+  },
+  "homepageSha256": "f05baf0203da8c05163b94edd74dbf7acbbac106ca7d60d6dbe1e5fbdf889f1d",
+  "matchingQualification": "Previous main prompts match the cached source; original final sections restored.",
+  "fullOriginalRead": true,
+  "fullCurrentEditionRead": true,
+  "responseReviews": {
+    "1.1": "Replaced contradiction/definite-conclusion caricature, distinguished reception from agreement.",
+    "1.2": "Made instrumental reason and culture industry concrete without passive-audience universalization.",
+    "1.3": "Retained concise accurate overview of three fields, works, and continuing debate.",
+    "2.1": "Preserved seven nested entries, corrected Schoenberg/Stravinsky contrast and concept of negative dialectics; explained overlapping Dialectic entries.",
+    "2.2": "Kept seven contributions; workplace and classification illustrations clarify ends and nonidentity; removed empty citation parentheses.",
+    "2.3": "Preserved seven entries and qualified Hegel caricature and authoritarian-personality explanatory reach.",
+    "3.1": "Distinguished collaborator/mentor/critical target and corrected US exile date.",
+    "3.2": "Separated pre-Nazi formation from later crisis, reception from correctness, and later cultural studies from original training.",
+    "3.3": "Retained family, institutional, exile, and musical factors; removed dissertation-as-proof-of-prowess inference.",
+    "4.1": "Retained seven fields with nested explanations; qualified postmodern genealogies and acknowledged active-audience critique.",
+    "4.2": "Preserved six paragraph entries, distinguished philosophical engagement from direct influence.",
+    "4.3": "Retained ten domains, corrected one-strand cultural-studies history and postmodern-relativist conflation.",
+    "5.1": "Seven questions and disclosures retained; repaired dialectics, totalitarian causality, and 1938-exile questions/answers.",
+    "5.2": "Seven questions/disclosures; corrected nonidentity explanation and chronology in answers.",
+    "5.3": "Seven questions/disclosures, repaired first question’s Hegel caricature; other matched answers retained.",
+    "6.1": "Retained all twelve relevant questions; revised preceding explanations supply distinctions needed to evaluate them.",
+    "6.2": "Twelve questions retained, replaced generic contradiction-celebration premise with concept/object challenge.",
+    "6.3": "Twelve questions retained, turned authoritarian-personality assumption into a testable question."
+  },
+  "deliberateOmissionsRejected": [
+    ".original-prompt-text",
+    "[data-source-node]",
+    "#prompt-2 .original-response li",
+    "#prompt-5 .original-response details"
+  ],
+  "remainingConcerns": [
+    "Interpretations of nonidentity and cultural domination remain contested; critical qualifications do not settle those disputes.",
+    "No extended dialogue or separate curator correction in this original.",
+    "Quizzes is an original section heading, not an invented prompt."
+  ],
+  "highlights": {
+    "originalPreambleRead": true,
+    "editedSummaryCount": 6
+  },
+  "supplementalReferences": [
+    "https://negativedialectics.org/",
+    "https://www.upress.umn.edu/9780816636679/philosophy-of-new-music/"
+  ]
+}

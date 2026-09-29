@@ -1,0 +1,89 @@
+{
+  "pagePath": "/philosophers/aquinas-five-ways/",
+  "sourceSha256": "52d5f354bade49d2a3d5a210c4bf153cdcbfe42c97a9aaf0e5e29a2ffa335d8b",
+  "originalPrompts": 4,
+  "originalHeadings": 5,
+  "sourceColumns": 5,
+  "modelResponses": 5,
+  "blocksRetainedVerbatim": 33,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 156,
+  "bareAnswersExplicitlyRevised": 12,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "fiveWaysAndCritique": [
+      6
+    ],
+    "fiveObjectionsAndCritique": [
+      6
+    ],
+    "quizQuestions": [
+      12
+    ],
+    "quizDisclosures": [
+      12
+    ],
+    "discussionQuestions": [
+      15
+    ]
+  },
+  "sha256": "a6983034b34fe83a02d3b5e278f757419c5edc9fa26e850ff790711b2940b835",
+  "sourceTitle": "Aquinas&#8217; Five Ways",
+  "sourceUrl": "http://byteseismic.com/2024/10/27/aquinas-five-ways/",
+  "wordpressId": 14334,
+  "snapshot": "aquinas-five-ways-wordpress-14334.html",
+  "cachedOriginalExact": true,
+  "originalPromptTexts": [
+    "Provide me with rigorous formulations of Aquinas’ Five Ways.",
+    "Provide rigorous counter-arguments to Aquinas’ Five Ways.",
+    "Provide an essay on the conceptual gulf between the deistic god the Five Ways, if valid, would entail and the specific God of the Bible.",
+    "Quiz ",
+    "Provide 15 discussion questions relevant to the content above. "
+  ],
+  "previousEditionPromptTexts": [
+    "Provide me with rigorous formulations of Aquinas’ Five Ways.",
+    "Provide rigorous counter-arguments to Aquinas’ Five Ways.",
+    "Provide an essay on the conceptual gulf between the deistic god the Five Ways, if valid, would entail and the specific God of the Bible."
+  ],
+  "homepageMatch": {
+    "title": "Aquinas’ Five Ways",
+    "url": "https://byteseismic.com/2024/10/27/aquinas-five-ways/"
+  },
+  "homepageSha256": "f05baf0203da8c05163b94edd74dbf7acbbac106ca7d60d6dbe1e5fbdf889f1d",
+  "matchingQualification": "Previous main prompts match the cached source; original final sections restored.",
+  "fullOriginalRead": true,
+  "fullCurrentEditionRead": true,
+  "responseReviews": {
+    "1.1": "Read all five natural-language, syllogistic, and symbolic formulations including original formula-image alt text. Retained all positions/list counts while repairing quantifier scope, undefined/free variables, direct-universal-cause and shared-director leaps; explicitly labeled reconstruction and foundation premises. Historical Third Way distinguished from source dependence reformulation.",
+    "2.1": "Retained five objections with three paired objection/explanation entries each and final four critiques. Replaced inertia/quantum/multiverse overclaims with targeted premise challenges and explicit countermodels; distinguished uncaused/self-caused, temporal/dependence order, probabilities/no explanation, maximum/source.",
+    "3.1": "Preserved essay sections, five Way summaries, four theological concerns, and gold/spherical-cube analogy. Retained skeptical identification burden; corrected entailment of deism, knowing/necessitating confusion, persons/essence conflation and treating unproved contradiction as established.",
+    "4.1": "Kept original Quiz heading, twelve questions and expandable answers. Revised false premises and aligned all twelve answers to corrected preceding responses.",
+    "5.1": "Kept fifteen discussion positions; repaired nine leading premises while retaining effective open questions on explanation, freedom, suffering and evidential standards."
+  },
+  "deliberateOmissionsRejected": [
+    ".original-prompt-text",
+    "[data-source-node]",
+    "#prompt-1 .original-response li",
+    "#prompt-4 .original-response details"
+  ],
+  "remainingConcerns": [
+    "Formalizations are transparent conditional editorial reconstructions, not verbatim Aquinas or proofs of disputed metaphysical premises.",
+    "The original Third Way formulation differs from the historical temporal argument; distinction disclosed.",
+    "Source displays two model logos over one response stream; no specific response authorship inferred.",
+    "Gold analogy and skeptical identification challenge retained; invalid proofs of contradiction repaired.",
+    "All original formula-image locations replaced by corrected text; exact source images/alt formulas remain in immutable snapshot."
+  ],
+  "highlights": {
+    "originalPreambleRead": true,
+    "editedSummaryCount": 4
+  },
+  "supplementalReferences": [
+    "https://www.newadvent.org/summa/1002.htm",
+    "https://www.newadvent.org/summa/1032.htm",
+    "https://www.newadvent.org/summa/1046.htm"
+  ]
+}

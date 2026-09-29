@@ -1,0 +1,239 @@
+{
+  "wordpressId": 12932,
+  "pageFile": "philosophers/william-of-ockham/index.html",
+  "snapshot": "william-of-ockham-wordpress-12932.html",
+  "sourceSha256": "13bbe58083beb7f8b58bd5a39ac64256aabb77ab979710ab6b03352c21109959",
+  "sourceUrl": "http://byteseismic.com/2024/07/12/william-of-ockham/",
+  "sourceLabel": "Original WordPress conversation, 2024-07-12",
+  "shellRevision": "7999743fa6a273fd99b184a6207f7f83673929cb",
+  "date": "2026-09-29",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini",
+    "Claude"
+  ],
+  "introHeading": "Economy, Concepts, and the Limits of Authority",
+  "intro": "This edition restores the five original prompts, the Quizzes heading, and all three response tracks. It distinguishes economy of explanation from a guarantee of truth, and places Ockham’s logic, theology, and political arguments within their medieval debates.",
+  "description": "Ockham on parsimony, universals, knowledge, and authority: original prompts, three revised responses, quizzes, and discussion questions.",
+  "headings": [
+    "Ockham’s Philosophical Influence",
+    "Seven Contributions in Each Response",
+    "Education, Disputes, and Recognition",
+    "Schools and Fields of Reception",
+    "Original Quizzes",
+    "Twelve Discussion Questions in Each Response"
+  ],
+  "replacements": {
+    "1.1.1": "William of Ockham reshaped medieval debates about universals, language, and knowledge through detailed logical analysis and resistance to unnecessary entities. His nominalism denies that many individuals share one universal thing outside the mind; it does not deny the reality of concepts or the usefulness of general language. The principle later called Ockham’s razor asks whether a proposed commitment is needed, not whether the shortest explanation must be true. His work remains important in metaphysics, logic, and debates over reason and authority, though simple genealogies from Ockham to modern science overstate the evidence.",
+    "1.2.1": "Ockham’s influence begins with the question of what our explanations require us to accept as real. He argues that individual things can be understood through general concepts without positing an additional universal object shared by them.",
+    "1.2.2": "This argument belongs within scholastic philosophy, which he practiced and disputed from within. His work on the use of terms, the grounds of knowledge, and limits to papal authority supplies more precise points of comparison with later thought than the claim that he single-handedly opened the way to modern science.",
+    "1.3.0": "William of Ockham, a fourteenth-century Franciscan philosopher, is associated with economy in explanation and a sustained analysis of general concepts.",
+    "1.3.1": "His work connects logic, metaphysics, and theology: what a term signifies affects what an argument commits us to, while the scope of demonstration affects what can be claimed as rationally established. His political writings also examine the limits of authority. These contributions make him a major medieval thinker without requiring a story in which medieval philosophy exists chiefly to prepare the Renaissance.",
+    "2.1.2": "<strong>Description:</strong> Avoid positing entities or assumptions that do no necessary explanatory work. A more complex account may still be preferable when it explains evidence the simpler account cannot. The principle supplies a burden of justification, not a guarantee that nature is simple.",
+    "2.1.5": "<strong>Description:</strong> In <a href=\"https://www.logicmuseum.com/wiki/Authors/Ockham/Summa_Logicae/Book_I/Chapter_14\">Summa Logicae I.14</a>, a universal is a sign applicable to many things. A concept is itself a particular mental act; its generality comes from its signification. Universals are therefore not merely arbitrary spoken names, nor shared substances present in many objects.",
+    "2.1.6": "<strong>Impact:</strong> His position became a major reference point in later medieval disputes over universals and mental language. Nominalism and conceptualism can describe related aspects of this account; they should not automatically be counted as two independent inventions.",
+    "2.1.8": "<strong>Description:</strong> Ockham uses scholastic disputation and Aristotelian logic to challenge particular metaphysical commitments. He does not reject careful logical argument as an obstacle to experience.",
+    "2.1.9": "<strong>Impact:</strong> His arguments helped diversify late medieval scholastic debates. Their importance does not depend on portraying him as replacing scholasticism with the modern experimental method.",
+    "2.1.11": "<strong>Description:</strong> His political writings dispute unlimited papal authority and examine the jurisdictions of spiritual and temporal powers. The <a href=\"https://publications.thebritishacademy.ac.uk/pubs/dialogus/index.html\">Dialogus</a> explores competing arguments through a teacher–student exchange; it is not a modern blueprint for separating religion from public life.",
+    "2.1.12": "<strong>Impact:</strong> These arguments form part of the history of limits on authority and rights. A connection to a particular modern constitutional doctrine requires more than a shared opposition to arbitrary power.",
+    "2.1.14": "<strong>Description:</strong> Intuitive cognition can ground evident judgments about contingent facts, such as whether an encountered thing exists. This technical use of “intuitive” does not mean a hunch. It belongs alongside, rather than simply displacing, abstract cognition and demonstrative reasoning.",
+    "2.1.15": "<strong>Impact:</strong> His distinction between kinds of cognition structures debates about evidence and certainty. Theological possibilities complicate a simple equation with modern empiricism or skepticism.",
+    "2.1.18": "<strong>Impact:</strong> His analysis remains significant in the history of logic and language. Similarity to modern analytic concerns is useful for comparison; direct influence on a particular modern logician must be separately documented.",
+    "2.1.21": "<strong>Impact:</strong> Disputes over what can be demonstrated and what is held by faith influenced later theology. They do not amount to a general endorsement of private belief over institutions or of abandoning reason.",
+    "2.2.0": "Seven Areas of Ockham’s Contribution",
+    "2.2.1": "The following seven entries identify contributions within medieval debates, with later comparisons kept distinct from claims of direct historical influence:",
+    "2.2.2": "<strong>Parsimony:</strong> Explanatory commitments need justification. If two accounts do equally well, an unnecessary extra entity adds no explanatory benefit; if the more elaborate account explains otherwise unexplained evidence, the extra commitment may be warranted. Economy was not invented by Ockham alone, though his name became closely associated with it.",
+    "2.2.3": "<strong>Nominalism:</strong> General concepts can signify many individual things without a common universal substance existing in all of them. This metaphysical position does not entail political individualism or, by itself, a modern theory of how all knowledge is acquired.",
+    "2.2.4": "<strong>Intuitive Cognition:</strong> Ockham examines cognition that enables evident judgment of a contingent fact, distinguishing it from abstraction that does not establish whether the thing exists. His criticism of certain intermediary species does not mean there are no mental acts or concepts. Discussions of divine power further qualify a simple direct-realism label.",
+    "2.2.5": "<strong>Supposition Theory:</strong> The issue is what a term stands for in a proposition. “Human” can stand for people in “A human is running,” for a concept in “Human is a species,” or for an expression when discussing the word itself. This is more specific than saying words change meaning unpredictably; context affects their logical role.",
+    "2.2.6": "<strong>Faith and Demonstration:</strong> Ockham restricts what natural reasoning can establish about theological claims, while continuing to argue rationally about them. He considers arguments concerning a first conserving cause; it is too sweeping to say that every claim about God’s existence is for him beyond argument. Doctrines such as the Trinity require a different basis from natural demonstration.",
+    "2.2.7": "<strong>Limits of Papal Power:</strong> Spiritual authority does not automatically confer unrestricted temporal jurisdiction. His arguments concern a Christian political order and admit questions about exceptional intervention. They are not simply the modern doctrine of a wholly secular state.",
+    "2.2.8": "<strong>Rights and Resistance:</strong> Ockham’s treatment of authority, property, and religious controversy contributes to the history of rights and resistance. Calling him a defender of unrestricted modern free speech would obscure the theological commitments and limits of the argument.",
+    "2.2.9": "The enduring value lies in the distinctions: necessary versus dispensable commitments, individuals versus general signs, demonstrated conclusions versus articles of faith, and legitimate authority versus claims exceeding its scope.",
+    "2.3.1": "<strong>Occam’s Razor:</strong> Do not add commitments without a reason. Simplicity can guide comparison among adequate explanations, but the simplest proposed explanation is not thereby established as true.",
+    "2.3.2": "<strong>Nominalism:</strong> He rejects a universal thing shared outside the mind while explaining generality through signs that apply to many individuals. Mental concepts remain part of the account.",
+    "2.3.3": "<strong>Faith and Reason:</strong> He distinguishes what arguments can demonstrate from what is accepted through faith. This restricts particular theological proofs without turning all religious claims into irrational assertions or making secularization an automatic consequence.",
+    "2.3.4": "<strong>Concepts:</strong> Concepts are particular acts with general significance. This entry develops the mental-language side of the nominalism already listed; it is an overlapping aspect of the contribution, not a separate discovery.",
+    "2.3.5": "<strong>Political Theory:</strong> His criticism of papal claims examines limits and overlapping responsibilities within Christian society. It should not be equated with a modern division of legislative, executive, and judicial powers.",
+    "2.3.6": "<strong>Logic and Semantics:</strong> His treatment of supposition develops an existing medieval tradition concerning what terms stand for in propositions. It offers a precise historical counterpart to some modern semantic questions without being identical to modern symbolic logic.",
+    "2.3.7": "<strong>Knowledge:</strong> Intuitive cognition can support evident judgments of contingent facts; abstraction serves other cognitive tasks. This is a specific account within medieval philosophy, not the modern scientific method in embryonic form.",
+    "3.1.2": "<strong>Description:</strong> Ockham made extensive use of economy when assessing proposed entities and explanations. Earlier thinkers also used principles of economy; the later name of the razor should not be taken as evidence that he originated every formulation.",
+    "3.1.5": "<strong>Description:</strong> He challenged particular positions on universals, cognition, and theological demonstration from within scholastic inquiry. Aristotelian logic was among his tools, not merely an orthodoxy he discarded.",
+    "3.1.8": "<strong>Description:</strong> His account of general concepts without shared universal substances supplied a clear position in disputed questions. The debate involved several competing realist and nominalist approaches, not one uniform orthodoxy.",
+    "3.1.9": "<strong>Impact:</strong> Those arguments helped generate commentary and controversy in later medieval philosophy. A direct route to modern empiricism cannot simply be inferred from a rejection of universals.",
+    "3.1.12": "<strong>Impact:</strong> The controversies extended his audience and changed the subjects of his writing. They show public conflict over authority; they do not by themselves establish a modern commitment to unrestricted political or intellectual freedom.",
+    "3.2.5": "4. Distinctive Arguments: Economy of explanation and his account of universals supplied positions that others could defend or attack. Their novelty should be assessed within existing debates, since both economy principles and criticism of universals had predecessors.",
+    "3.2.6": "5. Institutions and Controversy: Schools, religious orders, manuscript circulation, and disputes over ecclesiastical authority provided concrete channels for his work. A general story of medieval rigidity giving way to modern freedom explains less than these identifiable settings.",
+    "3.3.2": "<strong>Franciscan Context:</strong> The order supplied training and intellectual connections; disputes over poverty later became central to his political writing. A resemblance between voluntary poverty and explanatory economy does not establish that one caused the other.",
+    "4.1.2": "<strong>Description:</strong> His account of experience and intuitive cognition provides points of comparison with later empiricism. It remains embedded in medieval discussions of logic, demonstration, and divine power.",
+    "4.1.3": "<strong>Impact:</strong> A direct influence on Locke or Berkeley requires evidence of transmission and use. The shared importance of particulars or experience alone is insufficient.",
+    "4.1.6": "<strong>Impact:</strong> Modern historians and logicians examine his analyses of terms and inference. Parallels with Russell or Wittgenstein should not be presented as proven direct debts without specific evidence.",
+    "4.1.9": "<strong>Impact:</strong> Later debates over universals and mental language repeatedly return to his position. It is more precise to identify this continuing problem than to assert an unsupported direct influence on Hume.",
+    "4.1.11": "<strong>Description:</strong> His arguments limit papal claims and distinguish kinds of authority within a Christian political order. This supplies a historical case for examining jurisdiction rather than a ready-made secular constitution.",
+    "4.1.12": "<strong>Impact:</strong> Connections to later rights theories are a subject of historical inquiry. Direct lines to Locke, Rousseau, or modern liberalism should not be assumed from overlapping vocabulary.",
+    "4.1.14": "<strong>Description:</strong> His account asks what grounds an evident judgment of a contingent fact. It does not simply rank experience above every abstract argument.",
+    "4.1.15": "<strong>Impact:</strong> The distinctions continue to matter in scholarship on medieval cognition and certainty; describing them as the origin of skepticism or scientific method obscures their specific setting.",
+    "4.1.20": "<strong>Description:</strong> Modern appeals to Ockham’s razor ask whether extra assumptions improve an explanation enough to justify them. The standard of adequacy comes first; fewer assumptions alone do not establish truth.",
+    "4.2.2": "<strong>Nominalism:</strong> Ockham’s account of individuals and general signs remains important in metaphysics and the history of knowledge. Similarities to later empiricism invite comparison, but they do not establish a direct influence on Locke.",
+    "4.2.6": "<strong>Ockham’s Razor:</strong> Economy can discipline theory selection when competing explanations are otherwise adequate. It cannot justify discarding inconvenient evidence or selecting a simple model that fails at its task.",
+    "4.2.8": "<strong>Authority and Jurisdiction:</strong> His disputes about papal power enter the history of limits on authority. Modern separation of church and state involves institutions and commitments that should not be read backward into his account.",
+    "4.2.10": "<strong>Theological Demonstration:</strong> He examines what natural argument establishes and where faith is required. “Fideism” can conceal important distinctions if used to mean rejection of all rational theological inquiry.",
+    "4.2.12": "<strong>Historical Reception:</strong> His legacy passed through later medieval teaching, commentary, and controversy. Broad claims that he caused the Renaissance or modernity require a much more specific account of transmission.",
+    "4.3.1": "<strong>Empiricism:</strong> His treatment of experience offers a historical comparison with later empiricists. Similarity does not establish direct intellectual descent.",
+    "4.3.2": "<strong>Scientific Method:</strong> Parsimony is a useful consideration in explanation, alongside empirical adequacy and predictive performance; it is not a complete method or a proof of truth.",
+    "4.3.5": "<strong>Cognition:</strong> His analysis of concepts is relevant to the history of theories of mind. A direct influence on contemporary cognitive science needs particular evidence and should not be assumed.",
+    "4.3.6": "<strong>Political Theory:</strong> His criticism of unlimited authority provides material for later debates about jurisdiction and rights, while remaining rooted in a Christian account of society.",
+    "4.3.7": "<strong>Theology:</strong> Later medieval and Reformation debates engaged traditions associated with nominalism. Ockham’s own views and their later adaptations should be distinguished rather than treated as an inevitable progression to Protestantism.",
+    "4.3.13": "The clearest comparisons identify a particular problem or practice: universals, the logical role of terms, limits to authority, or economy in explanation. Applying a principle bearing Ockham’s name does not imply adoption of his whole philosophy.",
+    "5.1.2": "#3: In which area did Ockham argue against unlimited papal authority?",
+    "5.1.3": "#4: Did Ockham reject scholastic reasoning, or criticize particular positions from within it?",
+    "5.1.4": "#5: Why does similarity between Ockham and later empiricists not prove direct influence?",
+    "5.2.1": "2: What sort of account of universals did Ockham’s nominalism challenge?",
+    "5.2.2": "3: What kind of judgment can intuitive cognition ground, and why is it not simply a hunch?",
+    "5.2.4": "5: Why is “Ockham rejected all rational argument about God” too sweeping?",
+    "5.2.5": "6: How do Ockham’s limits on papal power differ from a modern secular constitution?",
+    "5.3.1": "#2: Which position rejects shared universal things while explaining generality through signs and concepts?",
+    "5.3.3": "#4: What documented connections link Ockham’s Franciscan setting to his intellectual and political work?",
+    "5.3.5": "#6: Why must nominalism be distinguished from a complete theory of empirical knowledge?",
+    "6.1.4": "How did Ockham use scholastic reasoning to criticize particular metaphysical claims, and why is this different from rejecting scholasticism?",
+    "6.1.5": "Compare Ockham’s limits on papal power with modern rights and church–state arrangements. What evidence would establish a historical connection?",
+    "6.1.6": "Which of Ockham’s logical questions resemble contemporary analytic concerns, and which depend on distinct medieval assumptions?",
+    "6.2.2": "3. Perception and Judgment: How does intuitive cognition ground a judgment about a contingent fact? Why should criticism of intermediary species not be confused with rejection of all mental representation?",
+    "6.2.3": "4. Supposition Theory in Action: Compare “A human is running” with a claim about the concept or word “human.” What does the term stand for in each case, and why does that distinction matter for inference?",
+    "6.2.4": "5. Faith and Demonstration: What justifies drawing a boundary between what reason can demonstrate and what someone accepts through faith? How might a critic challenge the boundary?",
+    "6.2.6": "7. Authority and Rights: What can Ockham’s arguments about limits to authority contribute to discussion of rights, and where would modern assumptions misrepresent his position?",
+    "6.2.10": "11. Historical Transmission: What evidence would establish that a later thinker borrowed an argument from Ockham, rather than independently confronting a similar problem?",
+    "6.2.11": "12. Ockham’s Razor Today: When does simplicity help compare explanations, and when does it conceal evidence or necessary complexity?",
+    "6.3.3": "How does distinguishing faith from demonstration differ from advocating secular government or denying all rational theology?",
+    "6.3.5": "How do Ockham’s arguments about spiritual and temporal power compare with modern political arrangements, and where does the comparison break down?",
+    "6.3.6": "Which distinctions in Ockham’s logic can illuminate modern semantic problems without being treated as identical to modern logical systems?",
+    "6.3.8": "How did Franciscan teaching and the poverty controversy shape Ockham’s work? Why would deriving explanatory parsimony from voluntary poverty require further evidence?",
+    "6.3.10": "What sources would be needed to trace a particular Ockhamist argument into Renaissance or early modern thought?"
+  },
+  "countChecks": [
+    {
+      "name": "contributions",
+      "selector": "#prompt-2 .original-response > ol",
+      "child": "li",
+      "expected": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "quizQuestions",
+      "selector": "#prompt-5 .original-response",
+      "child": "p",
+      "recursive": true,
+      "expected": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "quizDisclosures",
+      "selector": "#prompt-5 .original-response",
+      "child": "details",
+      "recursive": true,
+      "expected": [
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "listedDiscussions",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        12,
+        12
+      ]
+    },
+    {
+      "name": "paragraphDiscussions",
+      "selector": "#prompt-6 .original-response[data-source-column=\"2\"]",
+      "child": "p",
+      "expected": [
+        12
+      ]
+    },
+    {
+      "name": "introParagraphs",
+      "selector": "#prompt-1 .original-response",
+      "child": "p",
+      "expected": [
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "pageSignals": {
+    "Page form": "Original conversation · editorial edition",
+    "Best for": "distinguishing economy, concepts, and authority",
+    "Difficulty": "Intermediate"
+  },
+  "nonPromptSections": [
+    5
+  ],
+  "highlights": [
+    "Ockham argues against positing a shared universal thing outside the mind.",
+    "Concepts can signify many individuals without themselves being shared substances.",
+    "Parsimony excludes unnecessary commitments; evidence determines what is necessary.",
+    "Logic and theological inquiry remain central to his scholastic work.",
+    "His criticism of papal power differs from a modern secular constitution."
+  ],
+  "joinedParagraphs": {
+    "1.2": [
+      [
+        1,
+        2
+      ]
+    ],
+    "1.3": [
+      [
+        0,
+        1
+      ]
+    ]
+  },
+  "bareAnswerReplacements": {
+    "5.1.answer3": "He worked within scholastic reasoning while criticizing particular positions on universals, cognition, and demonstration.",
+    "5.1.answer4": "Direct influence requires evidence of transmission and use, not merely shared emphasis on particulars or experience.",
+    "5.2.answer0": "The principle of parsimony, later called Ockham’s razor: unnecessary commitments need justification; the simplest proposal is not automatically true.",
+    "5.2.answer1": "Accounts that posit a universal thing shared by many individuals outside the mind; scholasticism itself includes competing positions.",
+    "5.2.answer2": "An evident judgment of a contingent fact, such as whether a thing exists. “Intuitive” names a technical kind of cognition rather than an unsupported feeling.",
+    "5.2.answer4": "He questions the demonstrability of particular theological claims but also considers arguments about a first conserving cause. The Trinity and natural arguments do not have the same evidential status.",
+    "5.2.answer5": "He examines jurisdiction and limits within Christian society, not a modern constitution excluding religious authority from public life.",
+    "5.2.answer6": "Late medieval schools, Franciscan training, and disputes over philosophy, theology, and ecclesiastical power.",
+    "5.3.answer3": "The order provided training and scholarly connections; the poverty controversy became central to his political writing. It does not establish that poverty caused his principle of parsimony.",
+    "5.3.answer5": "A position about universals does not by itself settle the sources, scope, or justification of all knowledge.",
+    "5.3.answer6": "It encourages justified economy among adequate explanations, while leaving evidence and the purpose of the model decisive."
+  },
+  "reviewDecisions": {
+    "1.1": "Corrected razor/nominalism and speculative modernity genealogy in requested short paragraph.",
+    "1.2": "Revised and joined both original paragraphs, preserving addresses; placed Ockham within scholasticism.",
+    "1.3": "Joined lead-in and revised introduction into requested paragraph, avoiding origin-of-science narrative.",
+    "2.1": "Kept seven nested entries; corrected concepts, internal scholastic critique, intuitive cognition, political scope and impact claims.",
+    "2.2": "Revised all seven annotations; concrete adequacy and supposition examples; qualified direct realism, fideism and free-speech labels.",
+    "2.3": "Kept seven entries, disclosed conceptualism/nominalism overlap and qualified logic and political genealogies.",
+    "3.1": "Corrected invented razor novelty, anti-scholastic portrayal and modern freedom claims; retained institutional factors.",
+    "3.2": "Replaced inevitable-medieval-decline story with institutional transmission; qualified novelty.",
+    "3.3": "Removed unsupported Franciscan poverty-to-parsimony causal inference; retained other plausible formation factors.",
+    "4.1": "Kept seven domains and annotations; separated modern parallels from unsupported specific debts and corrected epistemology/politics.",
+    "4.2": "Retained six-area outline; qualified fideism, science, modernity and church–state claims.",
+    "4.3": "Kept twelve domains, distinguishing adaptations of parsimony from adoption of Ockham; corrected cognitive-science and theological overclaims.",
+    "5.1": "Seven questions and disclosures preserved; corrected scholasticism and direct-influence answers.",
+    "5.2": "Seven questions and disclosures, repaired universals/perception/fideism/politics/history premises and aligned answers.",
+    "5.3": "Seven questions and disclosures, corrected poverty and nominalism/empiricism confusion.",
+    "6.1": "Twelve retained positions; replaced assumed causal chains with comparison and evidence questions.",
+    "6.2": "Twelve paragraph questions; corrected supposition, cognition and faith; removed literal closing-div debris in final question.",
+    "6.3": "Twelve questions, revised modernity/politics/poverty claims into properly qualified inquiries."
+  },
+  "leadingTextReplacements": {
+    "2.1.7": "Criticism Within Scholasticism"
+  }
+}

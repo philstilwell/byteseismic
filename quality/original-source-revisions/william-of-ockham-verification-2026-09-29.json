@@ -1,0 +1,113 @@
+{
+  "pagePath": "/philosophers/william-of-ockham/",
+  "sourceSha256": "13bbe58083beb7f8b58bd5a39ac64256aabb77ab979710ab6b03352c21109959",
+  "originalPrompts": 5,
+  "originalHeadings": 6,
+  "sourceColumns": 18,
+  "modelResponses": 18,
+  "blocksRetainedVerbatim": 111,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 86,
+  "bareAnswersExplicitlyRevised": 11,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "contributions": [
+      7,
+      7,
+      7
+    ],
+    "quizQuestions": [
+      7,
+      7,
+      7
+    ],
+    "quizDisclosures": [
+      7,
+      7,
+      7
+    ],
+    "listedDiscussions": [
+      12,
+      12
+    ],
+    "paragraphDiscussions": [
+      12
+    ],
+    "introParagraphs": [
+      1,
+      1,
+      1
+    ]
+  },
+  "sha256": "93a35d28d0630be7148d89ac48537ca3cc7cc9016b849a0d89789a8eeb74015a",
+  "sourceTitle": "William of Ockham",
+  "sourceUrl": "http://byteseismic.com/2024/07/12/william-of-ockham/",
+  "wordpressId": 12932,
+  "snapshot": "william-of-ockham-wordpress-12932.html",
+  "cachedOriginalExact": true,
+  "originalPromptTexts": [
+    "Provide a short paragraph explaining William of Ockham’s influence on philosophy.",
+    "Provide an annotated list of William of Ockham’s 7 greatest contributions to philosophy.",
+    "Provide the most likely causes behind William of Ockham becoming a notable philosopher.",
+    "Which schools of philosophical thought and academic domains has the philosophy of William of Ockham most influenced?",
+    "Quizzes",
+    "Provide 12 discussion questions relevant to the content above. "
+  ],
+  "previousEditionPromptTexts": [
+    "Provide a short paragraph explaining William of Ockham’s influence on philosophy.",
+    "Provide an annotated list of William of Ockham’s 7 greatest contributions to philosophy.",
+    "Provide the most likely causes behind William of Ockham becoming a notable philosopher.",
+    "Which schools of philosophical thought and academic domains has the philosophy of William of Ockham most influenced?"
+  ],
+  "homepageMatch": {
+    "title": "William of Ockham",
+    "url": "https://byteseismic.com/2024/07/12/william-of-ockham/"
+  },
+  "homepageSha256": "f05baf0203da8c05163b94edd74dbf7acbbac106ca7d60d6dbe1e5fbdf889f1d",
+  "matchingQualification": "Previous main prompts match the cached source; original final sections restored.",
+  "fullOriginalRead": true,
+  "fullCurrentEditionRead": true,
+  "responseReviews": {
+    "1.1": "Corrected razor/nominalism and speculative modernity genealogy in requested short paragraph.",
+    "1.2": "Revised and joined both original paragraphs, preserving addresses; placed Ockham within scholasticism.",
+    "1.3": "Joined lead-in and revised introduction into requested paragraph, avoiding origin-of-science narrative.",
+    "2.1": "Kept seven nested entries; corrected concepts, internal scholastic critique, intuitive cognition, political scope and impact claims.",
+    "2.2": "Revised all seven annotations; concrete adequacy and supposition examples; qualified direct realism, fideism and free-speech labels.",
+    "2.3": "Kept seven entries, disclosed conceptualism/nominalism overlap and qualified logic and political genealogies.",
+    "3.1": "Corrected invented razor novelty, anti-scholastic portrayal and modern freedom claims; retained institutional factors.",
+    "3.2": "Replaced inevitable-medieval-decline story with institutional transmission; qualified novelty.",
+    "3.3": "Removed unsupported Franciscan poverty-to-parsimony causal inference; retained other plausible formation factors.",
+    "4.1": "Kept seven domains and annotations; separated modern parallels from unsupported specific debts and corrected epistemology/politics.",
+    "4.2": "Retained six-area outline; qualified fideism, science, modernity and church–state claims.",
+    "4.3": "Kept twelve domains, distinguishing adaptations of parsimony from adoption of Ockham; corrected cognitive-science and theological overclaims.",
+    "5.1": "Seven questions and disclosures preserved; corrected scholasticism and direct-influence answers.",
+    "5.2": "Seven questions and disclosures, repaired universals/perception/fideism/politics/history premises and aligned answers.",
+    "5.3": "Seven questions and disclosures, corrected poverty and nominalism/empiricism confusion.",
+    "6.1": "Twelve retained positions; replaced assumed causal chains with comparison and evidence questions.",
+    "6.2": "Twelve paragraph questions; corrected supposition, cognition and faith; removed literal closing-div debris in final question.",
+    "6.3": "Twelve questions, revised modernity/politics/poverty claims into properly qualified inquiries."
+  },
+  "deliberateOmissionsRejected": [
+    ".original-prompt-text",
+    "[data-source-node]",
+    "#prompt-2 .original-response li",
+    "#prompt-5 .original-response details"
+  ],
+  "remainingConcerns": [
+    "The accounts of cognition and theological demonstration are compressed and historically contested; no comprehensive survey claimed.",
+    "Nominalism/conceptualism overlap is disclosed; seven positions preserved.",
+    "Quizzes is an original heading; no separate dialogue or curator correction."
+  ],
+  "highlights": {
+    "originalPreambleRead": true,
+    "editedSummaryCount": 5
+  },
+  "supplementalReferences": [
+    "https://publications.thebritishacademy.ac.uk/pubs/dialogus/index.html",
+    "https://www.logicmuseum.com/wiki/Authors/Ockham/Summa_Logicae/Book_I/Chapter_14"
+  ]
+}
