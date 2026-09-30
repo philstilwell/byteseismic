@@ -1,0 +1,102 @@
+{
+  "pagePath": "/philosophers/augustine-of-hippo/",
+  "sourceKind": "site-native editorial/reconstructed profile",
+  "sourceIsOriginalWordPress": false,
+  "baselineSnapshot": "quality/original-source-revisions/augustine-of-hippo-first-repository-345af16a41ec.html",
+  "baselineSha256": "df385763f7f308dfd431de3283d410ac24cb794ac855d23e08a7c33c33c5cbc7",
+  "originalPrompts": 4,
+  "responseSections": 4,
+  "promptOrderExact": true,
+  "originalResponseListCounts": [
+    5,
+    5,
+    5,
+    5
+  ],
+  "originalSynthesisQuestionsPreserved": 5,
+  "quizQuestions": 8,
+  "genericParagraphsConsolidated": 13,
+  "sha256": "1fb382bd171db24262cde89d668f09e0fcfdfce01c3292169f8afeecf3a73747",
+  "verifiedAt": "2026-09-30T14:00:06.278119+00:00",
+  "fullBaselineRead": true,
+  "fullCurrentEditionRead": true,
+  "baselineMatchedBy": [
+    "exact-first-addition-commit",
+    "snapshot-SHA256",
+    "page-path",
+    "title",
+    "four-prompts"
+  ],
+  "responseReviews": {
+    "1": "Replaced six paragraphs of generic framing with an account of divided will from Confessions VIII; distinguished ignorance, compulsion and conflicting attachments. Retained the historical-setting/contribution/influence order and all five list slots; qualified invention-of-introspection claims.",
+    "2": "Developed the four concepts with memory retrieval, remembered sorrow and temporal recitation. Preserved concept order and effective memory/divided-love formulations. Distinguished desire from proof of its ultimate object, temporal awareness from the unreality of physical time, and introspection from modern scientific theory.",
+    "3": "Retained the skeptical challenge to premature theological explanation; explained the inferential gap, a charitable wider-case reply, grace as enabling rather than coercing, and the residual responsibility objection. Added an explicitly hypothetical promise-breaking example and kept all five objection/reply/test list positions.",
+    "4": "Replaced generic reading advice with Confessions VIII/X/XI and a comparison of distinct works On Free Choice of the Will and On Grace and Free Will. Preserved the five list positions and original central question about knowing better but choosing worse."
+  },
+  "fidelity": {
+    "fourPromptsVerbatimInOrder": true,
+    "fourResponsePositionsPreserved": true,
+    "fourFiveItemListsPreserved": true,
+    "fiveSynthesisQuestionsVerbatim": true,
+    "restoredFifthFollowupOmittedByLaterReconstruction": true,
+    "noOriginalDialogueOrSeparateCuratorCorrection": true,
+    "eightQuizSlotsWithFourOptionsPreserved": true,
+    "allQuizQuestionsOptionsAndFeedbackRewrittenForActualArgument": true,
+    "consolidatedGenericParagraphsFrom": 25,
+    "consolidatedInto": 12,
+    "synthesisParagraphCountPreserved": 3,
+    "modelAttribution": "site-native editorial response"
+  },
+  "supplementalReferences": [
+    {
+      "url": "https://www.newadvent.org/fathers/110101.htm",
+      "work": "Confessions I"
+    },
+    {
+      "url": "https://www.newadvent.org/fathers/110108.htm",
+      "work": "Confessions VIII"
+    },
+    {
+      "url": "https://www.newadvent.org/fathers/110110.htm",
+      "work": "Confessions X"
+    },
+    {
+      "url": "https://www.newadvent.org/fathers/110111.htm",
+      "work": "Confessions XI"
+    },
+    {
+      "url": "https://www.newadvent.org/fathers/1510.htm",
+      "work": "On Grace and Free Will"
+    },
+    {
+      "url": "https://www.cambridge.org/core/books/augustine-on-the-free-choice-of-the-will-on-grace-and-free-choice-and-other-writings/078B0C65D23789318CD663A7A36C4DC1",
+      "work": "Cambridge University Press edition: distinguishes the early and later works on will and grace",
+      "kind": "primary-text publisher description"
+    }
+  ],
+  "remainingConcerns": [
+    "The baseline is a curator-approved site-native reconstruction, not a recovered WordPress conversation.",
+    "The strongest-objection selection is editorial; other significant objections are outside this introductory profile.",
+    "Primary-text links use older English translations; the page distinguishes interpretation from quotation and claims no comprehensive account of Augustine’s development.",
+    "The promise-breaking example is hypothetical, not empirical evidence for or against theology."
+  ],
+  "deliberateOmissionsRejected": [
+    ".original-prompt-text",
+    "#prompt-1 > ol > li",
+    "#synthesis > ol > li",
+    ".quiz-item"
+  ],
+  "rendererRegression": {
+    "threePreviouslyApprovedPagesByteIdentical": true,
+    "unapprovedPathRejected": true
+  },
+  "desktopBrowser": {
+    "viewportObserved": "1280x720",
+    "responseAndFollowupLayout": "readable; no visible horizontal overflow",
+    "eightQuestionAccordionOpened": true,
+    "firstCorrectAnswerSelectionAndFeedbackConfirmed": true,
+    "temporaryTabClosed": true,
+    "mobileTestPerformed": false,
+    "limitation": "Hero heading contrast appeared low in the local preview. This revision changes no stylesheet or hero classes; a separate site-style check remains outside this editorial pass."
+  }
+}

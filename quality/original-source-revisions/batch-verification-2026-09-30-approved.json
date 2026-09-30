@@ -1,0 +1,494 @@
+{
+  "verifiedAt": "2026-09-30T14:04:55.017921+00:00",
+  "runStartHead": "52ae865b46f7cf988aa68bf024efe9ee81d0f9d5",
+  "scope": "Existing cycle8 currentBatch indexes50–99; approval resolved31 source blockers; one new substantive review",
+  "newReview": {
+    "pagePath": "/philosophers/augustine-of-hippo/",
+    "sourceKind": "site-native editorial/reconstructed profile",
+    "sourceIsOriginalWordPress": false,
+    "baselineSnapshot": "quality/original-source-revisions/augustine-of-hippo-first-repository-345af16a41ec.html",
+    "baselineSha256": "df385763f7f308dfd431de3283d410ac24cb794ac855d23e08a7c33c33c5cbc7",
+    "originalPrompts": 4,
+    "responseSections": 4,
+    "promptOrderExact": true,
+    "originalResponseListCounts": [
+      5,
+      5,
+      5,
+      5
+    ],
+    "originalSynthesisQuestionsPreserved": 5,
+    "quizQuestions": 8,
+    "genericParagraphsConsolidated": 13,
+    "sha256": "1fb382bd171db24262cde89d668f09e0fcfdfce01c3292169f8afeecf3a73747",
+    "verifiedAt": "2026-09-30T14:00:06.278119+00:00",
+    "fullBaselineRead": true,
+    "fullCurrentEditionRead": true,
+    "baselineMatchedBy": [
+      "exact-first-addition-commit",
+      "snapshot-SHA256",
+      "page-path",
+      "title",
+      "four-prompts"
+    ],
+    "responseReviews": {
+      "1": "Replaced six paragraphs of generic framing with an account of divided will from Confessions VIII; distinguished ignorance, compulsion and conflicting attachments. Retained the historical-setting/contribution/influence order and all five list slots; qualified invention-of-introspection claims.",
+      "2": "Developed the four concepts with memory retrieval, remembered sorrow and temporal recitation. Preserved concept order and effective memory/divided-love formulations. Distinguished desire from proof of its ultimate object, temporal awareness from the unreality of physical time, and introspection from modern scientific theory.",
+      "3": "Retained the skeptical challenge to premature theological explanation; explained the inferential gap, a charitable wider-case reply, grace as enabling rather than coercing, and the residual responsibility objection. Added an explicitly hypothetical promise-breaking example and kept all five objection/reply/test list positions.",
+      "4": "Replaced generic reading advice with Confessions VIII/X/XI and a comparison of distinct works On Free Choice of the Will and On Grace and Free Will. Preserved the five list positions and original central question about knowing better but choosing worse."
+    },
+    "fidelity": {
+      "fourPromptsVerbatimInOrder": true,
+      "fourResponsePositionsPreserved": true,
+      "fourFiveItemListsPreserved": true,
+      "fiveSynthesisQuestionsVerbatim": true,
+      "restoredFifthFollowupOmittedByLaterReconstruction": true,
+      "noOriginalDialogueOrSeparateCuratorCorrection": true,
+      "eightQuizSlotsWithFourOptionsPreserved": true,
+      "allQuizQuestionsOptionsAndFeedbackRewrittenForActualArgument": true,
+      "consolidatedGenericParagraphsFrom": 25,
+      "consolidatedInto": 12,
+      "synthesisParagraphCountPreserved": 3,
+      "modelAttribution": "site-native editorial response"
+    },
+    "supplementalReferences": [
+      {
+        "url": "https://www.newadvent.org/fathers/110101.htm",
+        "work": "Confessions I"
+      },
+      {
+        "url": "https://www.newadvent.org/fathers/110108.htm",
+        "work": "Confessions VIII"
+      },
+      {
+        "url": "https://www.newadvent.org/fathers/110110.htm",
+        "work": "Confessions X"
+      },
+      {
+        "url": "https://www.newadvent.org/fathers/110111.htm",
+        "work": "Confessions XI"
+      },
+      {
+        "url": "https://www.newadvent.org/fathers/1510.htm",
+        "work": "On Grace and Free Will"
+      },
+      {
+        "url": "https://www.cambridge.org/core/books/augustine-on-the-free-choice-of-the-will-on-grace-and-free-choice-and-other-writings/078B0C65D23789318CD663A7A36C4DC1",
+        "work": "Cambridge University Press edition: distinguishes the early and later works on will and grace",
+        "kind": "primary-text publisher description"
+      }
+    ],
+    "remainingConcerns": [
+      "The baseline is a curator-approved site-native reconstruction, not a recovered WordPress conversation.",
+      "The strongest-objection selection is editorial; other significant objections are outside this introductory profile.",
+      "Primary-text links use older English translations; the page distinguishes interpretation from quotation and claims no comprehensive account of Augustine’s development.",
+      "The promise-breaking example is hypothetical, not empirical evidence for or against theology."
+    ],
+    "deliberateOmissionsRejected": [
+      ".original-prompt-text",
+      "#prompt-1 > ol > li",
+      "#synthesis > ol > li",
+      ".quiz-item"
+    ],
+    "rendererRegression": {
+      "threePreviouslyApprovedPagesByteIdentical": true,
+      "unapprovedPathRejected": true
+    },
+    "desktopBrowser": {
+      "viewportObserved": "1280x720",
+      "responseAndFollowupLayout": "readable; no visible horizontal overflow",
+      "eightQuestionAccordionOpened": true,
+      "firstCorrectAnswerSelectionAndFeedbackConfirmed": true,
+      "temporaryTabClosed": true,
+      "mobileTestPerformed": false,
+      "limitation": "Hero heading contrast appeared low in the local preview. This revision changes no stylesheet or hero classes; a separate site-style check remains outside this editorial pass."
+    }
+  },
+  "approvedManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+  "approvalScopeChecks": {
+    "exactSeptember23BlockedSet": 31,
+    "firstRepositorySnapshotHashesMatched": 31,
+    "titlesMatched": 31,
+    "promptsVerbatimInOrder": 124
+  },
+  "fullBuild": {
+    "exitCode": 0,
+    "isolated": true,
+    "contentPages": 723,
+    "log": "Dialectical preservation check passed for all 39 recovered pages, including 17 high-risk regression cases.\nSite audit: pages=840 broken_links=0 duplicate_ids=0 prompt_number_issues=0 orphans=0 oversized_assets=0 style_scars=0 grammar_scars=0 seo_issues=0 json_ld_issues=0 sitemap_issues=0 robots_issues=0\nGenerated or updated 723 content pages.\nVisible hierarchy sections: 15\nExpanded archive years: 2\n",
+    "reviewedEditionsByteIdentical": 70,
+    "preservedPages": [
+      {
+        "pagePath": "/rational-thought/1-at-99-5-or-5-at-95/",
+        "sha256": "6913b5f0623ce838c745335b78c5620fade8dc5d17ff2e0f20f2fe314961afaa",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/epistemology/adequate-evidence/",
+        "sha256": "4db2354ebb73123f53d416a5cd9f640858033a0dffab3ef70db4e1aa28cfdf83",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/al-ghazali/",
+        "sha256": "ad41d27850d30efe6259708b5362cbc7cb7397e92a2d95d786b47a45bbd3d47c",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/analytic-philosophers/",
+        "sha256": "914016b7bc0cf54bd44b93e05ad8aafb1978aec185f01bd3e216278736ce211b",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/ancient-philosophers/",
+        "sha256": "8390ea2898cacbdc78aecafef134244fabf4a2febf6abc7891ebb7589cde0716",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/anselm-of-canterbury/",
+        "sha256": "3a2b4fb4ddb2f461a5499c869d194df4b78dcf95a5605adeff9dfb64caa7e825",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/aquinas-five-ways/",
+        "sha256": "a6983034b34fe83a02d3b5e278f757419c5edc9fa26e850ff790711b2940b835",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/arthur-schopenhauer/",
+        "sha256": "3a5fc239169a38b09f537ae928809f8dbe11f81ec797d745386968f25dbfbf1f",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/at-the-edge-of-miracles/",
+        "sha256": "81044b95dda86269c2d7aac0244db5f44047f23a50411f31730857b0f05b7c8e",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/rational-thought/avoiding-logical-fallacies/",
+        "sha256": "f511c3be5242e6d63e75e90075c0b4d1926738204b2a57469dace457306e6822",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/baruch-spinoza/",
+        "sha256": "934ac15bf60e33c45c6ca25c26825295b555c88057b4ff1e7deab75aa063d86d",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/bertrand-russell/",
+        "sha256": "a7167607f28600bb7b5f02209f386e601151ad8ae76975034ffacb4ec06f052d",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/rational-thought/calculating-risks/",
+        "sha256": "ad96d75257185ad71c55b9792e5a3dde780c6323a13731c46bf20f46ea6e1a85",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/charles-sanders-peirce/",
+        "sha256": "86ed145d421f1589035c5bd7708e41e446d6d5623ed4fd0d7b95a446391d4ac7",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/continental-philosophers/",
+        "sha256": "96db798388bb7c44f4d386f14ed5a6921d669c6cebc0175fe2d63ef6f3cc9860",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/political-philosophy/critical-race-theory/",
+        "sha256": "899f878839c637765c782c2831e5137e20fc4db864450e92ae46c3549fa8d15b",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/critical-theorists/",
+        "sha256": "e1b78a513207e3e79b87297620a07a0c1f3df794954c93f106751373957f5e73",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/daniel-dennett/",
+        "sha256": "ef4613dbae4d5b7807a43ebb3dae14b027f2179515a4e06f7cd5edea18e8aa0a",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/david-hume/",
+        "sha256": "f032caa34a5e3058688f0cbd41d5d4883f5473c7f44b5c6c86f75d703a4aca81",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/rational-thought/depth-or-width-of-knowledge/",
+        "sha256": "f1d239c13bf434e11f7416abb5ec7a9f5bedb5b6fffa530d1be79cf37980ddc1",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/duns-scotus/",
+        "sha256": "cb08245839a6e4eb8d999a21a848faa3e28d32b04e5c92201ccda7f051cef20a",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/edmund-husserl/",
+        "sha256": "260b752d76e7dd7986f9c425f8ac24d521761ccd9c68e8323c7a88f32827fccc",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/political-philosophy/elements-of-a-stable-state/",
+        "sha256": "771323fea54b3998dcd5a59999e4859a73cb90e2dfbcbe8b9165b8f778def55d",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophy-of-mind/elitzur-on-consciousness/",
+        "sha256": "1259de5f9f2a6c764314649682f171d8492329bca19ee431d97c35d54a83a69b",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/empiricists/",
+        "sha256": "304cfb69874c270844c162ab1db83d589577460a50fc5557c11927d5e1388a25",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/epictetus/",
+        "sha256": "44857f7372235cab813616e662c12e843265c9460b00780ff8ac87bdba43fe5a",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/epicurus/",
+        "sha256": "7764d58f2bc9c252c8a4ae1d865971f228a5d753fac8c3f0fb7a1698bad028eb",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/existentialists/",
+        "sha256": "489912bf15a50846df4e34ae05831815068352d64535b97d4d641d67f9449a28",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/friedrich-nietzsche/",
+        "sha256": "11984b03a0049fb51ce6fa7c951ff753ac4c6838d30016436985fe3790b584ba",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/george-berkeley/",
+        "sha256": "539336a0c32ee7c2938e93489069a2d63291bcf5be886d6a0205ff9959e58fd6",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/gottfried-wilhelm-leibniz/",
+        "sha256": "03b0e193fb0232dcf22ec7c7d842524009fb0483d70dd3a167df918df4543c19",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/political-philosophy/identity-politics/",
+        "sha256": "605e68d873e97f206601dc06a85ce54394692895ad61cfb786e09eea82351fb2",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/immanuel-kant/",
+        "sha256": "5004589a31c29149a1155b76997fb334a4cf7b22cdf0399818206c05b10d369d",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophy-of-science/improving-science/",
+        "sha256": "973cc3388a5ed278884654c74a0ee0defe266ce3d7c6ab31afb261dbb0bdba67",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/jacques-derrida/",
+        "sha256": "de32e48e45e1932924d91baf08bcb8830f96902bad29d6145f0cde09e82f15d1",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/metaphysics/jeremy-sherman-on-emergence/",
+        "sha256": "4ca8d1034ca7e09dffa62d5b449e25aa14417621bf636d86be2a734f220f79bf",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/john-dewey/",
+        "sha256": "9f0e64be3fd39c689c4236f5c0cf4c1ba13fc41c74b21a55617adfc5e278bfef",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/john-locke/",
+        "sha256": "f929c4b7bb87ceb73a7e4ca5f3f3adc55aa00b925c4c03a0f380fc6d3da5cc9b",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/jurgen-habermas/",
+        "sha256": "0edc9df47c5276814cc38df9230f49a7e420e8f5fb75cf438963c3f82c71a46c",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/karl-marx/",
+        "sha256": "3c3ae1ebea6573e0c610c62bb86dd2389913b06f28e9a4c03eba0950590ae4e9",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/marcus-aurelius/",
+        "sha256": "e06b49c2ad4e7da3077e4b749f982186af570a84e449034083b3f7e57acabf88",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/martin-heidegger/",
+        "sha256": "4ba141b8d620b6121681bd590768fdfea973fba1f5ab842c375636584152a537",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/maurice-merleau-ponty/",
+        "sha256": "94d91b77f7a76ea74edb36ec93e528528e881cbaccc578280dc7f7ab8ee942c8",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophy-of-science/methodological-naturalism/",
+        "sha256": "480b9ad4e212bd999ff4dfdf28ce9bc463c308af2d47ab30f7b6af92a008c18c",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/michel-foucault/",
+        "sha256": "cb37f35fd19c578213dcb74f3cf60d4fecd09389fa5389bdffd6b86db60ac690",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/introduction/miscellaneous-philosophers/",
+        "sha256": "1f9cc2ce99d4950cdefde7da1237bc4ab1c13eb792440dd2a0e6f88528a88b32",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophy-of-science/orthogonality/",
+        "sha256": "38f2bcfcf6afdc67497746000bbf82c9b6d66ad319690d69876d7d1a277d4d76",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophy-of-science/p-value-issues/",
+        "sha256": "02f85581c46683324316e50727c71a179793de54f5da97c2dca835a7febdf717",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/phenomenologists/",
+        "sha256": "77d73c916896fdba5e6ea7263820a70162e880efff16ee28a27d56464a3106fb",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/plato-2/",
+        "sha256": "2b9ecde1724f0c905b3c1938551fd9370105f240f69cf2bbeac311873998ff78",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/pragmatists/",
+        "sha256": "af1693ade374b98a07af3743416724b47f7853643b8d1968340512ce96cc027c",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/rationalists/",
+        "sha256": "1b739db04d2e5e257355429d633645e15b972f60dad0037c50d7bd995885ee9b",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/epistemology/rationality-discussion/",
+        "sha256": "a49f522e8fecec4a8868f4d608bf4801348822070b7d0e99283de20d0f4dd7e4",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/rene-descartes/",
+        "sha256": "d74b2fb865522e738a6aaf0293236d0e4000314d630c65b9ea99e1927f46d156",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/scholastics/",
+        "sha256": "7f59e00667e426795c5fbc4272f9fa6416bb76330932a6f0a5feb20f5e219d86",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/seneca/",
+        "sha256": "5390040b1e993fb801c9e69f4f0da4a118a8767058f18d7368c2cb6e4415dcc8",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/socrates/",
+        "sha256": "9433330c87a0a25d98ff3922eb7ceb5cbdfada66c4ec391257d1ca2e239b7df9",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/soren-kierkegaard/",
+        "sha256": "38e0410f24ab961f61a49513048e7204a6599b3fc8aa9bc3b8ee812359e12390",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophy-of-science/the-power-of-convergence/",
+        "sha256": "dec7336049fb5ff028452d30740eb092ece49432597c5c82bc20cd933c01dee1",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/political-philosophy/the-social-contract/",
+        "sha256": "a614b05a9c685c5a4620b92f5618420577e8617862abe8fee99ef59a5508e805",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophy-of-science/the-use-of-proxies/",
+        "sha256": "abfcf343db8d8d4395fd78a9a544175ce6bea70b326640ada299804309cdcf4f",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/theodor-w-adorno/",
+        "sha256": "63db6870990b8bc79f4c0cfe938fea6e1d8893dd7dce2bee199b2945cca8e4be",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/thomas-aquinas/",
+        "sha256": "99de93ae404f7f1bf772ac03b6ad8db197e9cf5c8e7b8e9d002c614913d2d7f3",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/thomas-hobbes/",
+        "sha256": "84c527f790032cc3398726c5ba3c0b9ac2f45020dfe7855d2894c10a08e5256e",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophy-of-mind/what-is-consciousness/",
+        "sha256": "82cca6b9dd3b871625aea753b73a7012b173185097a5a5f95a8726de50ac49be",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/humanistic-philosophies/what-is-existentialism/",
+        "sha256": "b3b6f15e2f2d345b269fe14294fb8b548130b85a6f6591570e6d3805c2f95f52",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/willard-van-orman-quine/",
+        "sha256": "fba4bff48dc6c329768894ba5c1b0d76fd900a72c8740044329df4645a356434",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/william-james/",
+        "sha256": "44e8bedfe704c1d4527326bc26c8bf47ff047318dd00c36d8f166d59b71b8661",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/william-of-ockham/",
+        "sha256": "93a35d28d0630be7148d89ac48537ca3cc7cc9016b849a0d89789a8eeb74015a",
+        "fullBuildByteIdentical": true
+      },
+      {
+        "pagePath": "/philosophers/augustine-of-hippo/",
+        "sha256": "1fb382bd171db24262cde89d668f09e0fcfdfce01c3292169f8afeecf3a73747",
+        "fullBuildByteIdentical": true
+      }
+    ],
+    "preliminaryRun": "Intentionally stopped before completion to include final reader-facing wording; final build ran fully."
+  },
+  "protectedFiles": {
+    "inheritedModifiedFiles": 476,
+    "allHashIdentical": true,
+    "bothTrackersHashIdentical": true
+  },
+  "rendererChecks": {
+    "threePreviouslyApprovedProfilesRenderByteIdentical": true,
+    "unauthorizedPageRejected": true,
+    "fourDeliberateOmissionsRejected": true
+  },
+  "desktopBrowser": {
+    "viewportObserved": "1280x720",
+    "responseAndFollowupLayout": "readable; no visible horizontal overflow",
+    "eightQuestionAccordionOpened": true,
+    "firstCorrectAnswerSelectionAndFeedbackConfirmed": true,
+    "temporaryTabClosed": true,
+    "mobileTestPerformed": false,
+    "limitation": "Hero heading contrast appeared low in the local preview. This revision changes no stylesheet or hero classes; a separate site-style check remains outside this editorial pass."
+  },
+  "trackerAdvanced": false
+}

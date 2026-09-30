@@ -11,175 +11,122 @@
   "trackerRemaining": 296,
   "nextBatch": "Same saved fifty, At the Edge of Miracles through Aquinas’ Five Ways; later batch not activated.",
   "sourceInventory": "quality/original-source-revisions/current-batch-source-inventory-2026-09-23.json",
-  "substantivelyReviewedTotal": 69,
-  "notYetSubstantivelyReviewed": 277,
+  "substantivelyReviewedTotal": 70,
+  "notYetSubstantivelyReviewed": 276,
   "currentBatch": {
-    "reviewed": 19,
-    "awaitingFullReview": 0,
-    "blockedSources": 31
+    "reviewed": 20,
+    "awaitingFullReview": 30,
+    "blockedSources": 0
   },
-  "nextSourceReadyPage": null,
-  "blockedPages": [
+  "nextSourceReadyPage": "/philosophers/averroes/",
+  "blockedPages": [],
+  "runTime": "2026-09-30T14:04:55.017921+00:00",
+  "status": "approved-baselines-review-in-progress",
+  "runStartHead": "52ae865b46f7cf988aa68bf024efe9ee81d0f9d5",
+  "newReviews": [
     {
       "pagePath": "/philosophers/augustine-of-hippo/",
-      "title": "Augustine of Hippo",
-      "reason": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only."
-    },
-    {
-      "pagePath": "/philosophers/averroes/",
-      "title": "Averroes",
-      "reason": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only."
-    },
-    {
-      "pagePath": "/philosophers/avicenna/",
-      "title": "Avicenna",
-      "reason": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only."
-    },
-    {
-      "pagePath": "/philosophers/cicero/",
-      "title": "Cicero",
-      "reason": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only."
-    },
-    {
-      "pagePath": "/philosophers/confucius/",
-      "title": "Confucius",
-      "reason": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only."
-    },
-    {
-      "pagePath": "/philosophers/dogen/",
-      "title": "Dogen",
-      "reason": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only."
-    },
-    {
-      "pagePath": "/philosophers/elizabeth-anscombe/",
-      "title": "Elizabeth Anscombe",
-      "reason": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only."
-    },
-    {
-      "pagePath": "/philosophers/g-e-moore/",
-      "title": "G.E. Moore",
-      "reason": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only."
-    },
-    {
-      "pagePath": "/philosophers/gottlob-frege/",
-      "title": "Gottlob Frege",
-      "reason": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only."
-    },
-    {
-      "pagePath": "/philosophers/hannah-arendt/",
-      "title": "Hannah Arendt",
-      "reason": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only."
-    },
-    {
-      "pagePath": "/philosophers/heraclitus/",
-      "title": "Heraclitus",
-      "reason": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only."
-    },
-    {
-      "pagePath": "/philosophers/jean-jacques-rousseau/",
-      "title": "Jean-Jacques Rousseau",
-      "reason": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only."
-    },
-    {
-      "pagePath": "/philosophers/john-rawls/",
-      "title": "John Rawls",
-      "reason": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only."
-    },
-    {
-      "pagePath": "/philosophers/john-stuart-mill/",
-      "title": "John Stuart Mill",
-      "reason": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only."
-    },
-    {
-      "pagePath": "/philosophers/judith-butler/",
-      "title": "Judith Butler",
-      "reason": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only."
-    },
-    {
-      "pagePath": "/philosophers/laozi/",
-      "title": "Laozi",
-      "reason": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only."
-    },
-    {
-      "pagePath": "/philosophers/maimonides/",
-      "title": "Maimonides",
-      "reason": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only."
-    },
-    {
-      "pagePath": "/philosophers/mary-wollstonecraft/",
-      "title": "Mary Wollstonecraft",
-      "reason": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only."
-    },
-    {
-      "pagePath": "/philosophers/mencius/",
-      "title": "Mencius",
-      "reason": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only."
-    },
-    {
-      "pagePath": "/philosophers/mozi/",
-      "title": "Mozi",
-      "reason": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only."
-    },
-    {
-      "pagePath": "/philosophers/nagarjuna/",
-      "title": "Nagarjuna",
-      "reason": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only."
-    },
-    {
-      "pagePath": "/philosophers/niccolo-machiavelli/",
-      "title": "Niccolo Machiavelli",
-      "reason": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only."
-    },
-    {
-      "pagePath": "/philosophers/parmenides/",
-      "title": "Parmenides",
-      "reason": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only."
-    },
-    {
-      "pagePath": "/philosophers/plato/",
-      "title": "Plato",
-      "reason": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only. WP6678 maps to /philosophers/plato-2/ (already reviewed); title equality alone does not establish an original for this separate four-prompt page."
-    },
-    {
-      "pagePath": "/philosophers/plotinus/",
-      "title": "Plotinus",
-      "reason": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only."
-    },
-    {
-      "pagePath": "/philosophers/saul-kripke/",
-      "title": "Saul Kripke",
-      "reason": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only."
-    },
-    {
-      "pagePath": "/philosophers/shankara/",
-      "title": "Shankara",
-      "reason": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only."
-    },
-    {
-      "pagePath": "/philosophers/theodor-adorno/",
-      "title": "Theodor Adorno",
-      "reason": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only. WP12977 maps to the separate /philosophers/theodor-w-adorno/ conversation in this batch; do not merge the two by name alone."
-    },
-    {
-      "pagePath": "/philosophers/walter-benjamin/",
-      "title": "Walter Benjamin",
-      "reason": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only."
-    },
-    {
-      "pagePath": "/philosophers/xunzi/",
-      "title": "Xunzi",
-      "reason": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only."
-    },
-    {
-      "pagePath": "/philosophers/zhuangzi/",
-      "title": "Zhuangzi",
-      "reason": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only."
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "sourceIsOriginalWordPress": false,
+      "baselineSnapshot": "quality/original-source-revisions/augustine-of-hippo-first-repository-345af16a41ec.html",
+      "baselineSha256": "df385763f7f308dfd431de3283d410ac24cb794ac855d23e08a7c33c33c5cbc7",
+      "originalPrompts": 4,
+      "responseSections": 4,
+      "promptOrderExact": true,
+      "originalResponseListCounts": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "originalSynthesisQuestionsPreserved": 5,
+      "quizQuestions": 8,
+      "genericParagraphsConsolidated": 13,
+      "sha256": "1fb382bd171db24262cde89d668f09e0fcfdfce01c3292169f8afeecf3a73747",
+      "verifiedAt": "2026-09-30T14:00:06.278119+00:00",
+      "fullBaselineRead": true,
+      "fullCurrentEditionRead": true,
+      "baselineMatchedBy": [
+        "exact-first-addition-commit",
+        "snapshot-SHA256",
+        "page-path",
+        "title",
+        "four-prompts"
+      ],
+      "responseReviews": {
+        "1": "Replaced six paragraphs of generic framing with an account of divided will from Confessions VIII; distinguished ignorance, compulsion and conflicting attachments. Retained the historical-setting/contribution/influence order and all five list slots; qualified invention-of-introspection claims.",
+        "2": "Developed the four concepts with memory retrieval, remembered sorrow and temporal recitation. Preserved concept order and effective memory/divided-love formulations. Distinguished desire from proof of its ultimate object, temporal awareness from the unreality of physical time, and introspection from modern scientific theory.",
+        "3": "Retained the skeptical challenge to premature theological explanation; explained the inferential gap, a charitable wider-case reply, grace as enabling rather than coercing, and the residual responsibility objection. Added an explicitly hypothetical promise-breaking example and kept all five objection/reply/test list positions.",
+        "4": "Replaced generic reading advice with Confessions VIII/X/XI and a comparison of distinct works On Free Choice of the Will and On Grace and Free Will. Preserved the five list positions and original central question about knowing better but choosing worse."
+      },
+      "fidelity": {
+        "fourPromptsVerbatimInOrder": true,
+        "fourResponsePositionsPreserved": true,
+        "fourFiveItemListsPreserved": true,
+        "fiveSynthesisQuestionsVerbatim": true,
+        "restoredFifthFollowupOmittedByLaterReconstruction": true,
+        "noOriginalDialogueOrSeparateCuratorCorrection": true,
+        "eightQuizSlotsWithFourOptionsPreserved": true,
+        "allQuizQuestionsOptionsAndFeedbackRewrittenForActualArgument": true,
+        "consolidatedGenericParagraphsFrom": 25,
+        "consolidatedInto": 12,
+        "synthesisParagraphCountPreserved": 3,
+        "modelAttribution": "site-native editorial response"
+      },
+      "supplementalReferences": [
+        {
+          "url": "https://www.newadvent.org/fathers/110101.htm",
+          "work": "Confessions I"
+        },
+        {
+          "url": "https://www.newadvent.org/fathers/110108.htm",
+          "work": "Confessions VIII"
+        },
+        {
+          "url": "https://www.newadvent.org/fathers/110110.htm",
+          "work": "Confessions X"
+        },
+        {
+          "url": "https://www.newadvent.org/fathers/110111.htm",
+          "work": "Confessions XI"
+        },
+        {
+          "url": "https://www.newadvent.org/fathers/1510.htm",
+          "work": "On Grace and Free Will"
+        },
+        {
+          "url": "https://www.cambridge.org/core/books/augustine-on-the-free-choice-of-the-will-on-grace-and-free-choice-and-other-writings/078B0C65D23789318CD663A7A36C4DC1",
+          "work": "Cambridge University Press edition: distinguishes the early and later works on will and grace",
+          "kind": "primary-text publisher description"
+        }
+      ],
+      "remainingConcerns": [
+        "The baseline is a curator-approved site-native reconstruction, not a recovered WordPress conversation.",
+        "The strongest-objection selection is editorial; other significant objections are outside this introductory profile.",
+        "Primary-text links use older English translations; the page distinguishes interpretation from quotation and claims no comprehensive account of Augustine’s development.",
+        "The promise-breaking example is hypothetical, not empirical evidence for or against theology."
+      ],
+      "deliberateOmissionsRejected": [
+        ".original-prompt-text",
+        "#prompt-1 > ol > li",
+        "#synthesis > ol > li",
+        ".quiz-item"
+      ],
+      "rendererRegression": {
+        "threePreviouslyApprovedPagesByteIdentical": true,
+        "unapprovedPathRejected": true
+      },
+      "desktopBrowser": {
+        "viewportObserved": "1280x720",
+        "responseAndFollowupLayout": "readable; no visible horizontal overflow",
+        "eightQuestionAccordionOpened": true,
+        "firstCorrectAnswerSelectionAndFeedbackConfirmed": true,
+        "temporaryTabClosed": true,
+        "mobileTestPerformed": false,
+        "limitation": "Hero heading contrast appeared low in the local preview. This revision changes no stylesheet or hero classes; a separate site-style check remains outside this editorial pass."
+      }
     }
   ],
-  "runTime": "2026-09-30T13:03:48.100329+00:00",
-  "status": "blocked-original-sources-or-explicit-baseline-approval-required",
-  "runStartHead": "40720e865c1201fab445a88ac527686deb9b346d",
-  "newReviews": [],
   "allBatchPages": [
     {
       "pagePath": "/philosophers/at-the-edge-of-miracles/",
@@ -204,7 +151,7 @@
     {
       "pagePath": "/philosophers/augustine-of-hippo/",
       "title": "Augustine of Hippo",
-      "status": "blocked-unapproved-site-native-baseline",
+      "status": "reviewed-revised-approved-baseline-verified",
       "candidates": [],
       "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
       "firstRepositorySha256": "df385763f7f308dfd431de3283d410ac24cb794ac855d23e08a7c33c33c5cbc7",
@@ -224,21 +171,31 @@
       "relatedPosts": [],
       "liveWordPressMatches": [],
       "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/augustine-of-hippo/index.html",
-      "concern": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only.",
-      "sourceReviewComplete": false,
+      "concern": [
+        "The baseline is a curator-approved site-native reconstruction, not a recovered WordPress conversation.",
+        "The strongest-objection selection is editorial; other significant objections are outside this introductory profile.",
+        "Primary-text links use older English translations; the page distinguishes interpretation from quotation and claims no comprehensive account of Augustine’s development.",
+        "The promise-breaking example is hypothetical, not empirical evidence for or against theology."
+      ],
+      "sourceReviewComplete": true,
       "fourPromptTextsMatchCurrentExactly": true,
       "todayVerification": {
-        "type": "recorded-first-repository-snapshot-hash",
-        "passed": true,
-        "sha256": "df385763f7f308dfd431de3283d410ac24cb794ac855d23e08a7c33c33c5cbc7",
-        "freshEditorialReview": false,
-        "approvedAsSource": false
-      }
+        "freshEditorialReview": true,
+        "promptOrderExact": true,
+        "sha256": "1fb382bd171db24262cde89d668f09e0fcfdfce01c3292169f8afeecf3a73747",
+        "fullBuildByteIdentical": true
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/augustine-of-hippo-first-repository-345af16a41ec.html",
+      "baselineSha256": "df385763f7f308dfd431de3283d410ac24cb794ac855d23e08a7c33c33c5cbc7",
+      "sourceIsOriginalWordPress": false,
+      "verificationFile": "quality/original-source-revisions/augustine-of-hippo-verification-2026-09-30.json"
     },
     {
       "pagePath": "/philosophers/averroes/",
       "title": "Averroes",
-      "status": "blocked-unapproved-site-native-baseline",
+      "status": "approved-site-native-baseline-editorial-review-pending",
       "candidates": [],
       "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
       "firstRepositorySha256": "3bae32e5157550c0eb4d8c7a7642733929d1a112ccc3a53e22b3854416db8fb5",
@@ -258,21 +215,24 @@
       "relatedPosts": [],
       "liveWordPressMatches": [],
       "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/averroes/index.html",
-      "concern": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only.",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
       "sourceReviewComplete": false,
       "fourPromptTextsMatchCurrentExactly": true,
       "todayVerification": {
-        "type": "recorded-first-repository-snapshot-hash",
-        "passed": true,
-        "sha256": "3bae32e5157550c0eb4d8c7a7642733929d1a112ccc3a53e22b3854416db8fb5",
-        "freshEditorialReview": false,
-        "approvedAsSource": false
-      }
+        "snapshotHashVerified": true,
+        "approvedAsSource": true,
+        "freshEditorialReview": false
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/averroes-first-repository-345af16a41ec.html",
+      "baselineSha256": "3bae32e5157550c0eb4d8c7a7642733929d1a112ccc3a53e22b3854416db8fb5",
+      "sourceIsOriginalWordPress": false
     },
     {
       "pagePath": "/philosophers/avicenna/",
       "title": "Avicenna",
-      "status": "blocked-unapproved-site-native-baseline",
+      "status": "approved-site-native-baseline-editorial-review-pending",
       "candidates": [],
       "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
       "firstRepositorySha256": "1a36a1063d794369295d8e790a18d1408aaa78f3ba73974825a26a08d8ba4b79",
@@ -292,21 +252,24 @@
       "relatedPosts": [],
       "liveWordPressMatches": [],
       "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/avicenna/index.html",
-      "concern": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only.",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
       "sourceReviewComplete": false,
       "fourPromptTextsMatchCurrentExactly": true,
       "todayVerification": {
-        "type": "recorded-first-repository-snapshot-hash",
-        "passed": true,
-        "sha256": "1a36a1063d794369295d8e790a18d1408aaa78f3ba73974825a26a08d8ba4b79",
-        "freshEditorialReview": false,
-        "approvedAsSource": false
-      }
+        "snapshotHashVerified": true,
+        "approvedAsSource": true,
+        "freshEditorialReview": false
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/avicenna-first-repository-345af16a41ec.html",
+      "baselineSha256": "1a36a1063d794369295d8e790a18d1408aaa78f3ba73974825a26a08d8ba4b79",
+      "sourceIsOriginalWordPress": false
     },
     {
       "pagePath": "/philosophers/cicero/",
       "title": "Cicero",
-      "status": "blocked-unapproved-site-native-baseline",
+      "status": "approved-site-native-baseline-editorial-review-pending",
       "candidates": [],
       "firstRepositoryCommit": "c848a72c8e71d73379aa3edf5e75d01c40dd1f1e",
       "firstRepositorySha256": "3d35309dfc4d648397738a9c938c1f7f18b27774ef6cff5df0e3b45d0a488a4f",
@@ -326,21 +289,24 @@
       "relatedPosts": [],
       "liveWordPressMatches": [],
       "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/c848a72c8e71d73379aa3edf5e75d01c40dd1f1e/philosophers/cicero/index.html",
-      "concern": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only.",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
       "sourceReviewComplete": false,
       "fourPromptTextsMatchCurrentExactly": true,
       "todayVerification": {
-        "type": "recorded-first-repository-snapshot-hash",
-        "passed": true,
-        "sha256": "3d35309dfc4d648397738a9c938c1f7f18b27774ef6cff5df0e3b45d0a488a4f",
-        "freshEditorialReview": false,
-        "approvedAsSource": false
-      }
+        "snapshotHashVerified": true,
+        "approvedAsSource": true,
+        "freshEditorialReview": false
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/cicero-first-repository-c848a72c8e71.html",
+      "baselineSha256": "3d35309dfc4d648397738a9c938c1f7f18b27774ef6cff5df0e3b45d0a488a4f",
+      "sourceIsOriginalWordPress": false
     },
     {
       "pagePath": "/philosophers/confucius/",
       "title": "Confucius",
-      "status": "blocked-unapproved-site-native-baseline",
+      "status": "approved-site-native-baseline-editorial-review-pending",
       "candidates": [],
       "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
       "firstRepositorySha256": "acfa142d02ddbe96032271798eebd21cfdb618005ee8d93e3b933a295608763a",
@@ -360,16 +326,19 @@
       "relatedPosts": [],
       "liveWordPressMatches": [],
       "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/confucius/index.html",
-      "concern": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only.",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
       "sourceReviewComplete": false,
       "fourPromptTextsMatchCurrentExactly": true,
       "todayVerification": {
-        "type": "recorded-first-repository-snapshot-hash",
-        "passed": true,
-        "sha256": "acfa142d02ddbe96032271798eebd21cfdb618005ee8d93e3b933a295608763a",
-        "freshEditorialReview": false,
-        "approvedAsSource": false
-      }
+        "snapshotHashVerified": true,
+        "approvedAsSource": true,
+        "freshEditorialReview": false
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/confucius-first-repository-345af16a41ec.html",
+      "baselineSha256": "acfa142d02ddbe96032271798eebd21cfdb618005ee8d93e3b933a295608763a",
+      "sourceIsOriginalWordPress": false
     },
     {
       "pagePath": "/philosophers/continental-philosophers/",
@@ -414,7 +383,7 @@
     {
       "pagePath": "/philosophers/dogen/",
       "title": "Dogen",
-      "status": "blocked-unapproved-site-native-baseline",
+      "status": "approved-site-native-baseline-editorial-review-pending",
       "candidates": [],
       "firstRepositoryCommit": "c848a72c8e71d73379aa3edf5e75d01c40dd1f1e",
       "firstRepositorySha256": "e2e1949ab18943ad6289d20896aa92d7adbb76cb38a19d2d1bc0afcbd4b8f655",
@@ -434,21 +403,24 @@
       "relatedPosts": [],
       "liveWordPressMatches": [],
       "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/c848a72c8e71d73379aa3edf5e75d01c40dd1f1e/philosophers/dogen/index.html",
-      "concern": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only.",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
       "sourceReviewComplete": false,
       "fourPromptTextsMatchCurrentExactly": true,
       "todayVerification": {
-        "type": "recorded-first-repository-snapshot-hash",
-        "passed": true,
-        "sha256": "e2e1949ab18943ad6289d20896aa92d7adbb76cb38a19d2d1bc0afcbd4b8f655",
-        "freshEditorialReview": false,
-        "approvedAsSource": false
-      }
+        "snapshotHashVerified": true,
+        "approvedAsSource": true,
+        "freshEditorialReview": false
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/dogen-first-repository-c848a72c8e71.html",
+      "baselineSha256": "e2e1949ab18943ad6289d20896aa92d7adbb76cb38a19d2d1bc0afcbd4b8f655",
+      "sourceIsOriginalWordPress": false
     },
     {
       "pagePath": "/philosophers/elizabeth-anscombe/",
       "title": "Elizabeth Anscombe",
-      "status": "blocked-unapproved-site-native-baseline",
+      "status": "approved-site-native-baseline-editorial-review-pending",
       "candidates": [],
       "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
       "firstRepositorySha256": "64c9ff70e7b192f2bb54cc5677430bd27ac4f916158427ef5563a23411acd4f2",
@@ -468,16 +440,19 @@
       "relatedPosts": [],
       "liveWordPressMatches": [],
       "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/elizabeth-anscombe/index.html",
-      "concern": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only.",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
       "sourceReviewComplete": false,
       "fourPromptTextsMatchCurrentExactly": true,
       "todayVerification": {
-        "type": "recorded-first-repository-snapshot-hash",
-        "passed": true,
-        "sha256": "64c9ff70e7b192f2bb54cc5677430bd27ac4f916158427ef5563a23411acd4f2",
-        "freshEditorialReview": false,
-        "approvedAsSource": false
-      }
+        "snapshotHashVerified": true,
+        "approvedAsSource": true,
+        "freshEditorialReview": false
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/elizabeth-anscombe-first-repository-345af16a41ec.html",
+      "baselineSha256": "64c9ff70e7b192f2bb54cc5677430bd27ac4f916158427ef5563a23411acd4f2",
+      "sourceIsOriginalWordPress": false
     },
     {
       "pagePath": "/philosophers/epictetus/",
@@ -539,7 +514,7 @@
     {
       "pagePath": "/philosophers/g-e-moore/",
       "title": "G.E. Moore",
-      "status": "blocked-unapproved-site-native-baseline",
+      "status": "approved-site-native-baseline-editorial-review-pending",
       "candidates": [],
       "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
       "firstRepositorySha256": "d822d2c2fd929ea404960b2a63f6b1116b8cf0f7801b535805368f59d0c14584",
@@ -559,16 +534,19 @@
       "relatedPosts": [],
       "liveWordPressMatches": [],
       "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/g-e-moore/index.html",
-      "concern": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only.",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
       "sourceReviewComplete": false,
       "fourPromptTextsMatchCurrentExactly": true,
       "todayVerification": {
-        "type": "recorded-first-repository-snapshot-hash",
-        "passed": true,
-        "sha256": "d822d2c2fd929ea404960b2a63f6b1116b8cf0f7801b535805368f59d0c14584",
-        "freshEditorialReview": false,
-        "approvedAsSource": false
-      }
+        "snapshotHashVerified": true,
+        "approvedAsSource": true,
+        "freshEditorialReview": false
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/g-e-moore-first-repository-345af16a41ec.html",
+      "baselineSha256": "d822d2c2fd929ea404960b2a63f6b1116b8cf0f7801b535805368f59d0c14584",
+      "sourceIsOriginalWordPress": false
     },
     {
       "pagePath": "/philosophers/george-berkeley/",
@@ -592,7 +570,7 @@
     {
       "pagePath": "/philosophers/gottlob-frege/",
       "title": "Gottlob Frege",
-      "status": "blocked-unapproved-site-native-baseline",
+      "status": "approved-site-native-baseline-editorial-review-pending",
       "candidates": [],
       "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
       "firstRepositorySha256": "bb7c8255b7b4d53518183296f6b1e5975516913c45990b8834137079880c4559",
@@ -612,21 +590,24 @@
       "relatedPosts": [],
       "liveWordPressMatches": [],
       "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/gottlob-frege/index.html",
-      "concern": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only.",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
       "sourceReviewComplete": false,
       "fourPromptTextsMatchCurrentExactly": true,
       "todayVerification": {
-        "type": "recorded-first-repository-snapshot-hash",
-        "passed": true,
-        "sha256": "bb7c8255b7b4d53518183296f6b1e5975516913c45990b8834137079880c4559",
-        "freshEditorialReview": false,
-        "approvedAsSource": false
-      }
+        "snapshotHashVerified": true,
+        "approvedAsSource": true,
+        "freshEditorialReview": false
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/gottlob-frege-first-repository-345af16a41ec.html",
+      "baselineSha256": "bb7c8255b7b4d53518183296f6b1e5975516913c45990b8834137079880c4559",
+      "sourceIsOriginalWordPress": false
     },
     {
       "pagePath": "/philosophers/hannah-arendt/",
       "title": "Hannah Arendt",
-      "status": "blocked-unapproved-site-native-baseline",
+      "status": "approved-site-native-baseline-editorial-review-pending",
       "candidates": [],
       "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
       "firstRepositorySha256": "72d9f9023fe723834727069ed7d394be8f3346ebdf4f55a43d990ee8bc6b2527",
@@ -646,21 +627,24 @@
       "relatedPosts": [],
       "liveWordPressMatches": [],
       "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/hannah-arendt/index.html",
-      "concern": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only.",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
       "sourceReviewComplete": false,
       "fourPromptTextsMatchCurrentExactly": true,
       "todayVerification": {
-        "type": "recorded-first-repository-snapshot-hash",
-        "passed": true,
-        "sha256": "72d9f9023fe723834727069ed7d394be8f3346ebdf4f55a43d990ee8bc6b2527",
-        "freshEditorialReview": false,
-        "approvedAsSource": false
-      }
+        "snapshotHashVerified": true,
+        "approvedAsSource": true,
+        "freshEditorialReview": false
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/hannah-arendt-first-repository-345af16a41ec.html",
+      "baselineSha256": "72d9f9023fe723834727069ed7d394be8f3346ebdf4f55a43d990ee8bc6b2527",
+      "sourceIsOriginalWordPress": false
     },
     {
       "pagePath": "/philosophers/heraclitus/",
       "title": "Heraclitus",
-      "status": "blocked-unapproved-site-native-baseline",
+      "status": "approved-site-native-baseline-editorial-review-pending",
       "candidates": [],
       "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
       "firstRepositorySha256": "d43a490c5d481844940f68530bf462965a5f0931d18b7fd524e55700fb3213e0",
@@ -680,21 +664,24 @@
       "relatedPosts": [],
       "liveWordPressMatches": [],
       "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/heraclitus/index.html",
-      "concern": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only.",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
       "sourceReviewComplete": false,
       "fourPromptTextsMatchCurrentExactly": true,
       "todayVerification": {
-        "type": "recorded-first-repository-snapshot-hash",
-        "passed": true,
-        "sha256": "d43a490c5d481844940f68530bf462965a5f0931d18b7fd524e55700fb3213e0",
-        "freshEditorialReview": false,
-        "approvedAsSource": false
-      }
+        "snapshotHashVerified": true,
+        "approvedAsSource": true,
+        "freshEditorialReview": false
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/heraclitus-first-repository-345af16a41ec.html",
+      "baselineSha256": "d43a490c5d481844940f68530bf462965a5f0931d18b7fd524e55700fb3213e0",
+      "sourceIsOriginalWordPress": false
     },
     {
       "pagePath": "/philosophers/jean-jacques-rousseau/",
       "title": "Jean-Jacques Rousseau",
-      "status": "blocked-unapproved-site-native-baseline",
+      "status": "approved-site-native-baseline-editorial-review-pending",
       "candidates": [],
       "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
       "firstRepositorySha256": "2c3b1642510bee085a94d770198a0ff54e08e34c486d1f978194ca14e48e721e",
@@ -714,16 +701,19 @@
       "relatedPosts": [],
       "liveWordPressMatches": [],
       "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/jean-jacques-rousseau/index.html",
-      "concern": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only.",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
       "sourceReviewComplete": false,
       "fourPromptTextsMatchCurrentExactly": true,
       "todayVerification": {
-        "type": "recorded-first-repository-snapshot-hash",
-        "passed": true,
-        "sha256": "2c3b1642510bee085a94d770198a0ff54e08e34c486d1f978194ca14e48e721e",
-        "freshEditorialReview": false,
-        "approvedAsSource": false
-      }
+        "snapshotHashVerified": true,
+        "approvedAsSource": true,
+        "freshEditorialReview": false
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/jean-jacques-rousseau-first-repository-345af16a41ec.html",
+      "baselineSha256": "2c3b1642510bee085a94d770198a0ff54e08e34c486d1f978194ca14e48e721e",
+      "sourceIsOriginalWordPress": false
     },
     {
       "pagePath": "/philosophers/john-dewey/",
@@ -753,7 +743,7 @@
     {
       "pagePath": "/philosophers/john-rawls/",
       "title": "John Rawls",
-      "status": "blocked-unapproved-site-native-baseline",
+      "status": "approved-site-native-baseline-editorial-review-pending",
       "candidates": [],
       "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
       "firstRepositorySha256": "09e3c7ae437915ed533f75ebbd496a56dc37bd7e42a5efe0c6216a439ca614f6",
@@ -773,21 +763,24 @@
       "relatedPosts": [],
       "liveWordPressMatches": [],
       "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/john-rawls/index.html",
-      "concern": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only.",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
       "sourceReviewComplete": false,
       "fourPromptTextsMatchCurrentExactly": true,
       "todayVerification": {
-        "type": "recorded-first-repository-snapshot-hash",
-        "passed": true,
-        "sha256": "09e3c7ae437915ed533f75ebbd496a56dc37bd7e42a5efe0c6216a439ca614f6",
-        "freshEditorialReview": false,
-        "approvedAsSource": false
-      }
+        "snapshotHashVerified": true,
+        "approvedAsSource": true,
+        "freshEditorialReview": false
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/john-rawls-first-repository-345af16a41ec.html",
+      "baselineSha256": "09e3c7ae437915ed533f75ebbd496a56dc37bd7e42a5efe0c6216a439ca614f6",
+      "sourceIsOriginalWordPress": false
     },
     {
       "pagePath": "/philosophers/john-stuart-mill/",
       "title": "John Stuart Mill",
-      "status": "blocked-unapproved-site-native-baseline",
+      "status": "approved-site-native-baseline-editorial-review-pending",
       "candidates": [],
       "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
       "firstRepositorySha256": "d246ffd788eb09d2abcee70c8d41ce769ff7fbffb9df9cc8e248596904b24394",
@@ -807,21 +800,24 @@
       "relatedPosts": [],
       "liveWordPressMatches": [],
       "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/john-stuart-mill/index.html",
-      "concern": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only.",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
       "sourceReviewComplete": false,
       "fourPromptTextsMatchCurrentExactly": true,
       "todayVerification": {
-        "type": "recorded-first-repository-snapshot-hash",
-        "passed": true,
-        "sha256": "d246ffd788eb09d2abcee70c8d41ce769ff7fbffb9df9cc8e248596904b24394",
-        "freshEditorialReview": false,
-        "approvedAsSource": false
-      }
+        "snapshotHashVerified": true,
+        "approvedAsSource": true,
+        "freshEditorialReview": false
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/john-stuart-mill-first-repository-345af16a41ec.html",
+      "baselineSha256": "d246ffd788eb09d2abcee70c8d41ce769ff7fbffb9df9cc8e248596904b24394",
+      "sourceIsOriginalWordPress": false
     },
     {
       "pagePath": "/philosophers/judith-butler/",
       "title": "Judith Butler",
-      "status": "blocked-unapproved-site-native-baseline",
+      "status": "approved-site-native-baseline-editorial-review-pending",
       "candidates": [],
       "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
       "firstRepositorySha256": "983ddc9e2d57b5582383ea7e94a3b1554b5038c6dcccf12f835c1eb13082a84d",
@@ -841,16 +837,19 @@
       "relatedPosts": [],
       "liveWordPressMatches": [],
       "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/judith-butler/index.html",
-      "concern": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only.",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
       "sourceReviewComplete": false,
       "fourPromptTextsMatchCurrentExactly": true,
       "todayVerification": {
-        "type": "recorded-first-repository-snapshot-hash",
-        "passed": true,
-        "sha256": "983ddc9e2d57b5582383ea7e94a3b1554b5038c6dcccf12f835c1eb13082a84d",
-        "freshEditorialReview": false,
-        "approvedAsSource": false
-      }
+        "snapshotHashVerified": true,
+        "approvedAsSource": true,
+        "freshEditorialReview": false
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/judith-butler-first-repository-345af16a41ec.html",
+      "baselineSha256": "983ddc9e2d57b5582383ea7e94a3b1554b5038c6dcccf12f835c1eb13082a84d",
+      "sourceIsOriginalWordPress": false
     },
     {
       "pagePath": "/philosophers/jurgen-habermas/",
@@ -904,7 +903,7 @@
     {
       "pagePath": "/philosophers/laozi/",
       "title": "Laozi",
-      "status": "blocked-unapproved-site-native-baseline",
+      "status": "approved-site-native-baseline-editorial-review-pending",
       "candidates": [],
       "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
       "firstRepositorySha256": "8cd1eb15146ff91e15fefaa5007fe14831d0da70b87916780ff3690896ecc481",
@@ -924,21 +923,24 @@
       "relatedPosts": [],
       "liveWordPressMatches": [],
       "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/laozi/index.html",
-      "concern": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only.",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
       "sourceReviewComplete": false,
       "fourPromptTextsMatchCurrentExactly": true,
       "todayVerification": {
-        "type": "recorded-first-repository-snapshot-hash",
-        "passed": true,
-        "sha256": "8cd1eb15146ff91e15fefaa5007fe14831d0da70b87916780ff3690896ecc481",
-        "freshEditorialReview": false,
-        "approvedAsSource": false
-      }
+        "snapshotHashVerified": true,
+        "approvedAsSource": true,
+        "freshEditorialReview": false
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/laozi-first-repository-345af16a41ec.html",
+      "baselineSha256": "8cd1eb15146ff91e15fefaa5007fe14831d0da70b87916780ff3690896ecc481",
+      "sourceIsOriginalWordPress": false
     },
     {
       "pagePath": "/philosophers/maimonides/",
       "title": "Maimonides",
-      "status": "blocked-unapproved-site-native-baseline",
+      "status": "approved-site-native-baseline-editorial-review-pending",
       "candidates": [],
       "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
       "firstRepositorySha256": "730438f5884c2ecd923057fceb764a8c6c125640b36d1d55688ea4232239011e",
@@ -958,16 +960,19 @@
       "relatedPosts": [],
       "liveWordPressMatches": [],
       "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/maimonides/index.html",
-      "concern": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only.",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
       "sourceReviewComplete": false,
       "fourPromptTextsMatchCurrentExactly": true,
       "todayVerification": {
-        "type": "recorded-first-repository-snapshot-hash",
-        "passed": true,
-        "sha256": "730438f5884c2ecd923057fceb764a8c6c125640b36d1d55688ea4232239011e",
-        "freshEditorialReview": false,
-        "approvedAsSource": false
-      }
+        "snapshotHashVerified": true,
+        "approvedAsSource": true,
+        "freshEditorialReview": false
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/maimonides-first-repository-345af16a41ec.html",
+      "baselineSha256": "730438f5884c2ecd923057fceb764a8c6c125640b36d1d55688ea4232239011e",
+      "sourceIsOriginalWordPress": false
     },
     {
       "pagePath": "/philosophers/marcus-aurelius/",
@@ -998,7 +1003,7 @@
     {
       "pagePath": "/philosophers/mary-wollstonecraft/",
       "title": "Mary Wollstonecraft",
-      "status": "blocked-unapproved-site-native-baseline",
+      "status": "approved-site-native-baseline-editorial-review-pending",
       "candidates": [],
       "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
       "firstRepositorySha256": "da43f415b9356fcb2e68468dd219fecd42c4da7dc74627984338c769df19b18f",
@@ -1018,16 +1023,19 @@
       "relatedPosts": [],
       "liveWordPressMatches": [],
       "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/mary-wollstonecraft/index.html",
-      "concern": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only.",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
       "sourceReviewComplete": false,
       "fourPromptTextsMatchCurrentExactly": true,
       "todayVerification": {
-        "type": "recorded-first-repository-snapshot-hash",
-        "passed": true,
-        "sha256": "da43f415b9356fcb2e68468dd219fecd42c4da7dc74627984338c769df19b18f",
-        "freshEditorialReview": false,
-        "approvedAsSource": false
-      }
+        "snapshotHashVerified": true,
+        "approvedAsSource": true,
+        "freshEditorialReview": false
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/mary-wollstonecraft-first-repository-345af16a41ec.html",
+      "baselineSha256": "da43f415b9356fcb2e68468dd219fecd42c4da7dc74627984338c769df19b18f",
+      "sourceIsOriginalWordPress": false
     },
     {
       "pagePath": "/philosophers/maurice-merleau-ponty/",
@@ -1053,7 +1061,7 @@
     {
       "pagePath": "/philosophers/mencius/",
       "title": "Mencius",
-      "status": "blocked-unapproved-site-native-baseline",
+      "status": "approved-site-native-baseline-editorial-review-pending",
       "candidates": [],
       "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
       "firstRepositorySha256": "fa1683ed89f144a360dcc5a45b24b7c26a1ccda1b3155cbefbd6e100817da70e",
@@ -1073,21 +1081,24 @@
       "relatedPosts": [],
       "liveWordPressMatches": [],
       "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/mencius/index.html",
-      "concern": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only.",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
       "sourceReviewComplete": false,
       "fourPromptTextsMatchCurrentExactly": true,
       "todayVerification": {
-        "type": "recorded-first-repository-snapshot-hash",
-        "passed": true,
-        "sha256": "fa1683ed89f144a360dcc5a45b24b7c26a1ccda1b3155cbefbd6e100817da70e",
-        "freshEditorialReview": false,
-        "approvedAsSource": false
-      }
+        "snapshotHashVerified": true,
+        "approvedAsSource": true,
+        "freshEditorialReview": false
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/mencius-first-repository-345af16a41ec.html",
+      "baselineSha256": "fa1683ed89f144a360dcc5a45b24b7c26a1ccda1b3155cbefbd6e100817da70e",
+      "sourceIsOriginalWordPress": false
     },
     {
       "pagePath": "/philosophers/mozi/",
       "title": "Mozi",
-      "status": "blocked-unapproved-site-native-baseline",
+      "status": "approved-site-native-baseline-editorial-review-pending",
       "candidates": [],
       "firstRepositoryCommit": "c848a72c8e71d73379aa3edf5e75d01c40dd1f1e",
       "firstRepositorySha256": "cef360976db6387a4430b773dff269fdf1d44d1d6ecc429dcb677622f62aad44",
@@ -1107,21 +1118,24 @@
       "relatedPosts": [],
       "liveWordPressMatches": [],
       "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/c848a72c8e71d73379aa3edf5e75d01c40dd1f1e/philosophers/mozi/index.html",
-      "concern": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only.",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
       "sourceReviewComplete": false,
       "fourPromptTextsMatchCurrentExactly": true,
       "todayVerification": {
-        "type": "recorded-first-repository-snapshot-hash",
-        "passed": true,
-        "sha256": "cef360976db6387a4430b773dff269fdf1d44d1d6ecc429dcb677622f62aad44",
-        "freshEditorialReview": false,
-        "approvedAsSource": false
-      }
+        "snapshotHashVerified": true,
+        "approvedAsSource": true,
+        "freshEditorialReview": false
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/mozi-first-repository-c848a72c8e71.html",
+      "baselineSha256": "cef360976db6387a4430b773dff269fdf1d44d1d6ecc429dcb677622f62aad44",
+      "sourceIsOriginalWordPress": false
     },
     {
       "pagePath": "/philosophers/nagarjuna/",
       "title": "Nagarjuna",
-      "status": "blocked-unapproved-site-native-baseline",
+      "status": "approved-site-native-baseline-editorial-review-pending",
       "candidates": [],
       "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
       "firstRepositorySha256": "345c65c6c7cbd7c76cfb7e74f936a74d52cf65104764f717aa265ffa06026cac",
@@ -1141,21 +1155,24 @@
       "relatedPosts": [],
       "liveWordPressMatches": [],
       "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/nagarjuna/index.html",
-      "concern": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only.",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
       "sourceReviewComplete": false,
       "fourPromptTextsMatchCurrentExactly": true,
       "todayVerification": {
-        "type": "recorded-first-repository-snapshot-hash",
-        "passed": true,
-        "sha256": "345c65c6c7cbd7c76cfb7e74f936a74d52cf65104764f717aa265ffa06026cac",
-        "freshEditorialReview": false,
-        "approvedAsSource": false
-      }
+        "snapshotHashVerified": true,
+        "approvedAsSource": true,
+        "freshEditorialReview": false
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/nagarjuna-first-repository-345af16a41ec.html",
+      "baselineSha256": "345c65c6c7cbd7c76cfb7e74f936a74d52cf65104764f717aa265ffa06026cac",
+      "sourceIsOriginalWordPress": false
     },
     {
       "pagePath": "/philosophers/niccolo-machiavelli/",
       "title": "Niccolo Machiavelli",
-      "status": "blocked-unapproved-site-native-baseline",
+      "status": "approved-site-native-baseline-editorial-review-pending",
       "candidates": [],
       "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
       "firstRepositorySha256": "85cce903d8b0ad082d33602612ed90d2e17e266d36dbe0000b766eee8e4b3fa7",
@@ -1175,21 +1192,24 @@
       "relatedPosts": [],
       "liveWordPressMatches": [],
       "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/niccolo-machiavelli/index.html",
-      "concern": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only.",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
       "sourceReviewComplete": false,
       "fourPromptTextsMatchCurrentExactly": true,
       "todayVerification": {
-        "type": "recorded-first-repository-snapshot-hash",
-        "passed": true,
-        "sha256": "85cce903d8b0ad082d33602612ed90d2e17e266d36dbe0000b766eee8e4b3fa7",
-        "freshEditorialReview": false,
-        "approvedAsSource": false
-      }
+        "snapshotHashVerified": true,
+        "approvedAsSource": true,
+        "freshEditorialReview": false
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/niccolo-machiavelli-first-repository-345af16a41ec.html",
+      "baselineSha256": "85cce903d8b0ad082d33602612ed90d2e17e266d36dbe0000b766eee8e4b3fa7",
+      "sourceIsOriginalWordPress": false
     },
     {
       "pagePath": "/philosophers/parmenides/",
       "title": "Parmenides",
-      "status": "blocked-unapproved-site-native-baseline",
+      "status": "approved-site-native-baseline-editorial-review-pending",
       "candidates": [],
       "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
       "firstRepositorySha256": "900614dd75270dedcbf8a7be7e85901196de4bd42f18484b6b8d2492322be169",
@@ -1209,21 +1229,24 @@
       "relatedPosts": [],
       "liveWordPressMatches": [],
       "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/parmenides/index.html",
-      "concern": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only.",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
       "sourceReviewComplete": false,
       "fourPromptTextsMatchCurrentExactly": true,
       "todayVerification": {
-        "type": "recorded-first-repository-snapshot-hash",
-        "passed": true,
-        "sha256": "900614dd75270dedcbf8a7be7e85901196de4bd42f18484b6b8d2492322be169",
-        "freshEditorialReview": false,
-        "approvedAsSource": false
-      }
+        "snapshotHashVerified": true,
+        "approvedAsSource": true,
+        "freshEditorialReview": false
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/parmenides-first-repository-345af16a41ec.html",
+      "baselineSha256": "900614dd75270dedcbf8a7be7e85901196de4bd42f18484b6b8d2492322be169",
+      "sourceIsOriginalWordPress": false
     },
     {
       "pagePath": "/philosophers/plato/",
       "title": "Plato",
-      "status": "blocked-unapproved-site-native-baseline",
+      "status": "approved-site-native-baseline-editorial-review-pending",
       "candidates": [],
       "firstRepositoryCommit": "c848a72c8e71d73379aa3edf5e75d01c40dd1f1e",
       "firstRepositorySha256": "f043d15c9d83446c26a12ed027445a0db782c336daa5b9a93d6ff77ce95ec1c6",
@@ -1266,21 +1289,24 @@
         }
       ],
       "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/c848a72c8e71d73379aa3edf5e75d01c40dd1f1e/philosophers/plato/index.html",
-      "concern": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only. WP6678 maps to /philosophers/plato-2/ (already reviewed); title equality alone does not establish an original for this separate four-prompt page.",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
       "sourceReviewComplete": false,
       "fourPromptTextsMatchCurrentExactly": true,
       "todayVerification": {
-        "type": "recorded-first-repository-snapshot-hash",
-        "passed": true,
-        "sha256": "f043d15c9d83446c26a12ed027445a0db782c336daa5b9a93d6ff77ce95ec1c6",
-        "freshEditorialReview": false,
-        "approvedAsSource": false
-      }
+        "snapshotHashVerified": true,
+        "approvedAsSource": true,
+        "freshEditorialReview": false
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/plato-first-repository-c848a72c8e71.html",
+      "baselineSha256": "f043d15c9d83446c26a12ed027445a0db782c336daa5b9a93d6ff77ce95ec1c6",
+      "sourceIsOriginalWordPress": false
     },
     {
       "pagePath": "/philosophers/plotinus/",
       "title": "Plotinus",
-      "status": "blocked-unapproved-site-native-baseline",
+      "status": "approved-site-native-baseline-editorial-review-pending",
       "candidates": [],
       "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
       "firstRepositorySha256": "34a43f3c5bf98991d74c0fe178029b7290cf5889dd5403a5c1034e3e63d36fc9",
@@ -1300,16 +1326,19 @@
       "relatedPosts": [],
       "liveWordPressMatches": [],
       "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/plotinus/index.html",
-      "concern": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only.",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
       "sourceReviewComplete": false,
       "fourPromptTextsMatchCurrentExactly": true,
       "todayVerification": {
-        "type": "recorded-first-repository-snapshot-hash",
-        "passed": true,
-        "sha256": "34a43f3c5bf98991d74c0fe178029b7290cf5889dd5403a5c1034e3e63d36fc9",
-        "freshEditorialReview": false,
-        "approvedAsSource": false
-      }
+        "snapshotHashVerified": true,
+        "approvedAsSource": true,
+        "freshEditorialReview": false
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/plotinus-first-repository-345af16a41ec.html",
+      "baselineSha256": "34a43f3c5bf98991d74c0fe178029b7290cf5889dd5403a5c1034e3e63d36fc9",
+      "sourceIsOriginalWordPress": false
     },
     {
       "pagePath": "/philosophers/pragmatists/",
@@ -1356,7 +1385,7 @@
     {
       "pagePath": "/philosophers/saul-kripke/",
       "title": "Saul Kripke",
-      "status": "blocked-unapproved-site-native-baseline",
+      "status": "approved-site-native-baseline-editorial-review-pending",
       "candidates": [],
       "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
       "firstRepositorySha256": "166e459d9042ef9ffb95340eeacc9c5c15f249e0daa77f30058c042ab919b917",
@@ -1376,16 +1405,19 @@
       "relatedPosts": [],
       "liveWordPressMatches": [],
       "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/saul-kripke/index.html",
-      "concern": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only.",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
       "sourceReviewComplete": false,
       "fourPromptTextsMatchCurrentExactly": true,
       "todayVerification": {
-        "type": "recorded-first-repository-snapshot-hash",
-        "passed": true,
-        "sha256": "166e459d9042ef9ffb95340eeacc9c5c15f249e0daa77f30058c042ab919b917",
-        "freshEditorialReview": false,
-        "approvedAsSource": false
-      }
+        "snapshotHashVerified": true,
+        "approvedAsSource": true,
+        "freshEditorialReview": false
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/saul-kripke-first-repository-345af16a41ec.html",
+      "baselineSha256": "166e459d9042ef9ffb95340eeacc9c5c15f249e0daa77f30058c042ab919b917",
+      "sourceIsOriginalWordPress": false
     },
     {
       "pagePath": "/philosophers/scholastics/",
@@ -1436,7 +1468,7 @@
     {
       "pagePath": "/philosophers/shankara/",
       "title": "Shankara",
-      "status": "blocked-unapproved-site-native-baseline",
+      "status": "approved-site-native-baseline-editorial-review-pending",
       "candidates": [],
       "firstRepositoryCommit": "c848a72c8e71d73379aa3edf5e75d01c40dd1f1e",
       "firstRepositorySha256": "76cdb327ad05dbf45bf43c28756e117b113dbddbbbacf14e785478fba5140881",
@@ -1456,21 +1488,24 @@
       "relatedPosts": [],
       "liveWordPressMatches": [],
       "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/c848a72c8e71d73379aa3edf5e75d01c40dd1f1e/philosophers/shankara/index.html",
-      "concern": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only.",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
       "sourceReviewComplete": false,
       "fourPromptTextsMatchCurrentExactly": true,
       "todayVerification": {
-        "type": "recorded-first-repository-snapshot-hash",
-        "passed": true,
-        "sha256": "76cdb327ad05dbf45bf43c28756e117b113dbddbbbacf14e785478fba5140881",
-        "freshEditorialReview": false,
-        "approvedAsSource": false
-      }
+        "snapshotHashVerified": true,
+        "approvedAsSource": true,
+        "freshEditorialReview": false
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/shankara-first-repository-c848a72c8e71.html",
+      "baselineSha256": "76cdb327ad05dbf45bf43c28756e117b113dbddbbbacf14e785478fba5140881",
+      "sourceIsOriginalWordPress": false
     },
     {
       "pagePath": "/philosophers/theodor-adorno/",
       "title": "Theodor Adorno",
-      "status": "blocked-unapproved-site-native-baseline",
+      "status": "approved-site-native-baseline-editorial-review-pending",
       "candidates": [],
       "firstRepositoryCommit": "c848a72c8e71d73379aa3edf5e75d01c40dd1f1e",
       "firstRepositorySha256": "5ea1d7109f26d16031e05cf4b4582bedfc7f9641f692d0c6b5f8b0b033cc21af",
@@ -1496,16 +1531,19 @@
       ],
       "liveWordPressMatches": [],
       "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/c848a72c8e71d73379aa3edf5e75d01c40dd1f1e/philosophers/theodor-adorno/index.html",
-      "concern": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only. WP12977 maps to the separate /philosophers/theodor-w-adorno/ conversation in this batch; do not merge the two by name alone.",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
       "sourceReviewComplete": false,
       "fourPromptTextsMatchCurrentExactly": true,
       "todayVerification": {
-        "type": "recorded-first-repository-snapshot-hash",
-        "passed": true,
-        "sha256": "5ea1d7109f26d16031e05cf4b4582bedfc7f9641f692d0c6b5f8b0b033cc21af",
-        "freshEditorialReview": false,
-        "approvedAsSource": false
-      }
+        "snapshotHashVerified": true,
+        "approvedAsSource": true,
+        "freshEditorialReview": false
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/theodor-adorno-first-repository-c848a72c8e71.html",
+      "baselineSha256": "5ea1d7109f26d16031e05cf4b4582bedfc7f9641f692d0c6b5f8b0b033cc21af",
+      "sourceIsOriginalWordPress": false
     },
     {
       "pagePath": "/philosophers/theodor-w-adorno/",
@@ -1535,7 +1573,7 @@
     {
       "pagePath": "/philosophers/walter-benjamin/",
       "title": "Walter Benjamin",
-      "status": "blocked-unapproved-site-native-baseline",
+      "status": "approved-site-native-baseline-editorial-review-pending",
       "candidates": [],
       "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
       "firstRepositorySha256": "b5cf7e91855bb85867e9aef86d8ebb87e25e99231cc83712fbde581dea9d90b8",
@@ -1555,16 +1593,19 @@
       "relatedPosts": [],
       "liveWordPressMatches": [],
       "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/walter-benjamin/index.html",
-      "concern": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only.",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
       "sourceReviewComplete": false,
       "fourPromptTextsMatchCurrentExactly": true,
       "todayVerification": {
-        "type": "recorded-first-repository-snapshot-hash",
-        "passed": true,
-        "sha256": "b5cf7e91855bb85867e9aef86d8ebb87e25e99231cc83712fbde581dea9d90b8",
-        "freshEditorialReview": false,
-        "approvedAsSource": false
-      }
+        "snapshotHashVerified": true,
+        "approvedAsSource": true,
+        "freshEditorialReview": false
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/walter-benjamin-first-repository-345af16a41ec.html",
+      "baselineSha256": "b5cf7e91855bb85867e9aef86d8ebb87e25e99231cc83712fbde581dea9d90b8",
+      "sourceIsOriginalWordPress": false
     },
     {
       "pagePath": "/philosophers/william-of-ockham/",
@@ -1594,7 +1635,7 @@
     {
       "pagePath": "/philosophers/xunzi/",
       "title": "Xunzi",
-      "status": "blocked-unapproved-site-native-baseline",
+      "status": "approved-site-native-baseline-editorial-review-pending",
       "candidates": [],
       "firstRepositoryCommit": "c848a72c8e71d73379aa3edf5e75d01c40dd1f1e",
       "firstRepositorySha256": "8b44fc24e2c9773120f00ccd7e12495476800364c20473223dbf1d0a9c2693c3",
@@ -1614,21 +1655,24 @@
       "relatedPosts": [],
       "liveWordPressMatches": [],
       "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/c848a72c8e71d73379aa3edf5e75d01c40dd1f1e/philosophers/xunzi/index.html",
-      "concern": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only.",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
       "sourceReviewComplete": false,
       "fourPromptTextsMatchCurrentExactly": true,
       "todayVerification": {
-        "type": "recorded-first-repository-snapshot-hash",
-        "passed": true,
-        "sha256": "8b44fc24e2c9773120f00ccd7e12495476800364c20473223dbf1d0a9c2693c3",
-        "freshEditorialReview": false,
-        "approvedAsSource": false
-      }
+        "snapshotHashVerified": true,
+        "approvedAsSource": true,
+        "freshEditorialReview": false
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/xunzi-first-repository-c848a72c8e71.html",
+      "baselineSha256": "8b44fc24e2c9773120f00ccd7e12495476800364c20473223dbf1d0a9c2693c3",
+      "sourceIsOriginalWordPress": false
     },
     {
       "pagePath": "/philosophers/zhuangzi/",
       "title": "Zhuangzi",
-      "status": "blocked-unapproved-site-native-baseline",
+      "status": "approved-site-native-baseline-editorial-review-pending",
       "candidates": [],
       "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
       "firstRepositorySha256": "c9c4937529860a2f885cbb5ca6a6cd50762339ee2c0f80c191545bb1907548e4",
@@ -1648,16 +1692,19 @@
       "relatedPosts": [],
       "liveWordPressMatches": [],
       "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/zhuangzi/index.html",
-      "concern": "Earliest repository edition is generated/reconstructed with four generic prompts. No authorized original baseline; the September 21 exception covers three other pages only.",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
       "sourceReviewComplete": false,
       "fourPromptTextsMatchCurrentExactly": true,
       "todayVerification": {
-        "type": "recorded-first-repository-snapshot-hash",
-        "passed": true,
-        "sha256": "c9c4937529860a2f885cbb5ca6a6cd50762339ee2c0f80c191545bb1907548e4",
-        "freshEditorialReview": false,
-        "approvedAsSource": false
-      }
+        "snapshotHashVerified": true,
+        "approvedAsSource": true,
+        "freshEditorialReview": false
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/zhuangzi-first-repository-345af16a41ec.html",
+      "baselineSha256": "c9c4937529860a2f885cbb5ca6a6cd50762339ee2c0f80c191545bb1907548e4",
+      "sourceIsOriginalWordPress": false
     },
     {
       "pagePath": "/philosophers/aquinas-five-ways/",
@@ -1697,18 +1744,20 @@
     ],
     "reason": "Four verified reviews were correctly included in totals/newReviews but stale in allBatchPages."
   },
-  "baselineApproval": "No new approval received. The three-page exception does not cover these 31 pages.",
+  "baselineApproval": "I Approve the 31 recorded site-native baselines for full editorial review.",
   "verification": {
-    "currentBatchMatchesSavedReportExactly": true,
-    "reviewedEditionsByteIdentical": 19,
-    "blockedFirstRepositorySnapshotsHashVerified": 31,
-    "trackerAdvanced": false,
-    "buildRunToday": false,
-    "buildReason": "Only reports changed; September 29 isolated full-build evidence remains the latest build.",
-    "previousBuildEvidence": "quality/original-source-revisions/batch-verification-2026-09-29.json",
-    "inheritedModifiedFiles": 476,
-    "freshOriginalReading": false,
-    "newSourceSearch": false
+    "reviewedEditionsPreservedByFullBuild": 70,
+    "newSubstantiveReviews": 1,
+    "approvalScopeAnd124PromptsChecked": true,
+    "inheritedModifiedFilesPreserved": 476,
+    "trackerAdvanced": false
   },
-  "commitPush": "Three report files prepared for delivery; exact commit and independent remote verification are recorded in automation memory and final response."
+  "commitPush": "Prepared for explicit-path commit and push. Exact delivered commit and independent remote hash recorded in automation memory and final response.",
+  "earlierRun": {
+    "commit": "52ae865b46f7cf988aa68bf024efe9ee81d0f9d5",
+    "status": "31 source-blocked pages before subsequent explicit approval",
+    "reportCorrection": "Four stale September29 status entries corrected; previous commit preserves that morning report."
+  },
+  "approvalManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+  "verificationEvidence": "quality/original-source-revisions/batch-verification-2026-09-30-approved.json"
 }

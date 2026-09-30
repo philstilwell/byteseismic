@@ -1,65 +1,38 @@
 # Byteseismic editorial audit — September 30, 2026
 
-Run time: 2026-09-30T13:03:48.100329+00:00. Saved configuration: `gpt-6-astra`, `high`.
+## Approval recorded and review resumed
 
-**Blocked: all 31 unfinished pages in the saved batch require reliable originals or explicit approval of their recorded site-native baselines.** No new editorial reviews or revisions were completed today. No unanswered request was treated as approval.
+The curator explicitly approved the 31 recorded site-native baselines after the morning run. That approval is now recorded in the protocol, in the September 30 baseline manifest, and in the saved daily automation prompt. The automation remains Astra/high on its existing daily schedule. No additional approval is needed for these exact 31 pages.
 
-The tracker remains at cycle 8/index 50. The batch is exactly the saved fifty pages, At the Edge of Miracles through Aquinas’ Five Ways: **19 reviewed, 31 source-blocked, 0 source-ready pending**. No reset or completion command was run.
+All thirty-one first-repository snapshots are committed with their exact commits, hashes, titles, and **124 verbatim prompts**. Checks confirm that the approved set exactly equals the September 23 blocked inventory and remains inside the saved current batch. They are labeled **site-native editorial/reconstructed profiles, not WordPress originals**. Approval resolves eligibility, not editorial completion.
 
-## Report correction
+## Augustine of Hippo: full review completed
 
-Corrected four stale entries in the September 29 JSON report: Seneca, Theodor W. Adorno, William of Ockham, and Aquinas’ Five Ways were still marked pending in `allBatchPages`, although its totals, `newReviews`, and individual verification files correctly documented completion. The four entries now say reviewed and link to their existing verification records. This fixes reporting only; it does not add four reviews to the totals a second time.
+Read the complete approved first-repository baseline and current page. Replaced generic writing instructions with explanations that directly answer each of the four prompts, preserving their order and wording. The page retains the importance → concepts → objection → reading route progression, all four five-item response lists, all five original synthesis questions, and eight four-option quiz slots. The fifth follow-up question had disappeared from the later reconstruction and is restored verbatim. No original dialogue or separate curator correction was present; none was invented.
 
-## Checks and preservation
+- **Importance:** distinguished ignorance, external compulsion and divided attachments using Augustine’s account of will; qualified claims of historical invention or influence.
+- **Concepts:** clarified desire versus evidence for its ultimate object, recollection versus presently experiencing sorrow, and memory/attention/expectation through the recitation example. Temporal awareness is not presented as proof that physical time is unreal.
+- **Objection:** retained the skeptical challenge to importing theological answers prematurely, supplied a charitable account of grace as enabling willing, and developed the remaining responsibility objection through a clearly hypothetical promise-breaking case.
+- **Reading route:** identified passages in Confessions VIII, X and XI, and distinguished the early On Free Choice of the Will from the later On Grace and Free Will. Rewrote all eight quiz questions, options and feedback around the actual argument.
 
-All nineteen reviewed current-batch pages match their September 29 verified hashes exactly. Their prompts, responses, structure, and curator exchanges are consequently unchanged; this is a preservation check, not a fresh substantive rereading. All thirty-one recorded first-repository snapshots match their saved hashes. That confirms which candidate baselines are available; it does not establish them as originals or authorize their use. Today’s JSON records these checks for each of the fifty pages.
+Twenty-five repetitive response paragraphs became twelve substantive paragraphs. Effective formulations about memory and divided love were retained and explained; all twenty list positions remain in their original order. Synthesis keeps its three paragraphs and five verbatim follow-up questions. Primary texts and a Cambridge University Press edition support the distinctions; the verification record gives exact sources, response-specific decisions and interpretation limits.
 
-All 476 inherited modified files and both trackers were fingerprinted for preservation. Only three report files belong to this delivery. No page, script, rendering, or builder changes were made, so no new build or browser test was needed. The last full isolated build, September 29, generated 723 pages, audited 840 with no failing categories, and preserved all 69 reviewed editions byte-for-byte; these are prior results, not tests rerun today.
+## Verification
+
+Prompt, response-position, list-count, follow-up and quiz checks pass. Four deliberately removed prompts/list entries/quiz items were rejected. The renderer now accepts the additional approved manifest and a per-page revision date; it still reproduces Al-Ghazali, Anselm and Schopenhauer byte-for-byte, and rejects an unapproved path.
+
+The final full build ran only in an isolated directory: **723 content pages generated, 840 audited, no failing audit categories; 39 recovered-conversation checks and 17 high-risk checks passed. All 70 reviewed editions survived byte-for-byte.** One preliminary build was intentionally stopped to incorporate final reader-facing wording; the final build completed normally.
+
+At 1280×720, Augustine’s response/follow-up/quiz layout was readable, and selecting the first correct answer displayed the expected feedback. The temporary tab was closed. No mobile test was performed. The existing hero heading appeared low-contrast in this local preview; no stylesheet or hero-class changes were included, and this remains a separate site-style follow-up rather than a claim that every visual detail passed.
 
 ## Progress and next work
 
-**Restarted pass: 69/346 substantively reviewed, 277 not yet reviewed.** The tracker counts only completed batches: **50/346 completed, 296 remaining**. The next active batch remains this same fifty; no later batch was activated. No new editorial improvements are claimed today. Prior page-specific changes and fidelity checks remain in the September 23–29 reports.
+**Current batch: 20 reviewed, 30 approved and pending full review, zero source-blocked.** The next page is **Averroes**, followed by Avicenna. All thirty pending pages are listed individually in today’s JSON with their exact approved snapshots; none is counted complete merely because it has approval.
 
-The protocol says: “If no reliable original can be established, report the affected page as blocked and leave the batch incomplete.” Its September 21 exception applies only to Al-Ghazali, Anselm, and Schopenhauer, all outside this current batch. The unresolved next step is reliable source recovery or explicit curator approval to use the exact earliest repository editions listed below as site-native editorial/reconstructed baselines. If approved, their four prompts would be preserved verbatim and in order, and each page would still need full substantive review and verification.
+**Restarted pass: 70/346 substantively reviewed, 276 not yet fully reviewed.** The unchanged completed-batch tracker remains **50/346 completed, 296 remaining**, cycle 8/index 50. The same fifty-page batch, At the Edge of Miracles through Aquinas’ Five Ways, remains active; no later batch was activated and the completion command was not run.
 
-The September 23 inventory already records full cache/live-index searches, exact commits, hashes, and four prompt texts. Those searches were not repeated without new evidence. No source approval or recovered original arrived in this run.
+## Delivery and preservation
 
-## Candidate baselines awaiting approval
+All 476 inherited modified files and both tracker files remain byte-identical. Authorized changes comprise the approval/protocol records, exact snapshots, Augustine’s page/edit/verification files, the narrowly extended renderer and the current reports/build evidence. They are prepared for explicit-path commit and push; automation memory and the final response record the delivered commit and independently verified remote hash. No paid services, repository installations, subagents, images or voice production were used. Temporary build/server/scratch resources are cleaned up after evidence is saved.
 
-| Page | Exact recorded first repository edition |
-| --- | --- |
-| Augustine of Hippo | [345af16a41ec](https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/augustine-of-hippo/index.html) |
-| Averroes | [345af16a41ec](https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/averroes/index.html) |
-| Avicenna | [345af16a41ec](https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/avicenna/index.html) |
-| Cicero | [c848a72c8e71](https://github.com/philstilwell/byteseismic/blob/c848a72c8e71d73379aa3edf5e75d01c40dd1f1e/philosophers/cicero/index.html) |
-| Confucius | [345af16a41ec](https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/confucius/index.html) |
-| Dogen | [c848a72c8e71](https://github.com/philstilwell/byteseismic/blob/c848a72c8e71d73379aa3edf5e75d01c40dd1f1e/philosophers/dogen/index.html) |
-| Elizabeth Anscombe | [345af16a41ec](https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/elizabeth-anscombe/index.html) |
-| G.E. Moore | [345af16a41ec](https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/g-e-moore/index.html) |
-| Gottlob Frege | [345af16a41ec](https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/gottlob-frege/index.html) |
-| Hannah Arendt | [345af16a41ec](https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/hannah-arendt/index.html) |
-| Heraclitus | [345af16a41ec](https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/heraclitus/index.html) |
-| Jean-Jacques Rousseau | [345af16a41ec](https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/jean-jacques-rousseau/index.html) |
-| John Rawls | [345af16a41ec](https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/john-rawls/index.html) |
-| John Stuart Mill | [345af16a41ec](https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/john-stuart-mill/index.html) |
-| Judith Butler | [345af16a41ec](https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/judith-butler/index.html) |
-| Laozi | [345af16a41ec](https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/laozi/index.html) |
-| Maimonides | [345af16a41ec](https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/maimonides/index.html) |
-| Mary Wollstonecraft | [345af16a41ec](https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/mary-wollstonecraft/index.html) |
-| Mencius | [345af16a41ec](https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/mencius/index.html) |
-| Mozi | [c848a72c8e71](https://github.com/philstilwell/byteseismic/blob/c848a72c8e71d73379aa3edf5e75d01c40dd1f1e/philosophers/mozi/index.html) |
-| Nagarjuna | [345af16a41ec](https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/nagarjuna/index.html) |
-| Niccolo Machiavelli | [345af16a41ec](https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/niccolo-machiavelli/index.html) |
-| Parmenides | [345af16a41ec](https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/parmenides/index.html) |
-| Plato | [c848a72c8e71](https://github.com/philstilwell/byteseismic/blob/c848a72c8e71d73379aa3edf5e75d01c40dd1f1e/philosophers/plato/index.html) |
-| Plotinus | [345af16a41ec](https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/plotinus/index.html) |
-| Saul Kripke | [345af16a41ec](https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/saul-kripke/index.html) |
-| Shankara | [c848a72c8e71](https://github.com/philstilwell/byteseismic/blob/c848a72c8e71d73379aa3edf5e75d01c40dd1f1e/philosophers/shankara/index.html) |
-| Theodor Adorno | [c848a72c8e71](https://github.com/philstilwell/byteseismic/blob/c848a72c8e71d73379aa3edf5e75d01c40dd1f1e/philosophers/theodor-adorno/index.html) |
-| Walter Benjamin | [345af16a41ec](https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/walter-benjamin/index.html) |
-| Xunzi | [c848a72c8e71](https://github.com/philstilwell/byteseismic/blob/c848a72c8e71d73379aa3edf5e75d01c40dd1f1e/philosophers/xunzi/index.html) |
-| Zhuangzi | [345af16a41ec](https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/zhuangzi/index.html) |
-
-## Delivery
-
-Three report files are prepared for explicit-path commit and push. The delivered commit and independently verified remote hash will be recorded in automation memory and the final response. Tracker files remain unchanged. No paid services, installations, subagents, browser tabs, dialogs, or local servers were used. Temporary verification scratch is removed after delivery.
+The morning report-only commit was `52ae865b46f7cf988aa68bf024efe9ee81d0f9d5`. It corrected four stale September 29 status entries while the batch was still blocked. This report supersedes that status following the curator’s explicit approval; it does not erase that history or count prior reviews again.

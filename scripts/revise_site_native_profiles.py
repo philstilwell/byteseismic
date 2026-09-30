@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Revise only the three curator-approved, first-repository site-native baselines.
+"""Revise only explicitly approved first-repository site-native baselines.
 
 These are editorial/reconstructed profiles, never recovered WordPress originals.
 The immutable baseline controls prompts, response positions, lists and follow-ups.
@@ -16,6 +16,16 @@ from bs4 import BeautifulSoup, Comment
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'quality/original-source-revisions'
 MANIFEST = DATA / 'site-native-baselines-2026-09-21.json'
+ADDITIONAL_MANIFEST = DATA / 'site-native-baselines-2026-09-30.json'
+
+
+def approved_baseline(config):
+    approved = json.loads(MANIFEST.read_text())['pages']
+    if ADDITIONAL_MANIFEST.exists():
+        approved += json.loads(ADDITIONAL_MANIFEST.read_text())['pages']
+    matches = [p for p in approved if p['pagePath'] == config['pagePath']]
+    assert len(matches) == 1, 'Exactly one explicit baseline approval is required'
+    return matches[0]
 
 
 def fragment(node, value):
@@ -25,7 +35,7 @@ def fragment(node, value):
 
 
 def render(config):
-    baseline = next(p for p in json.loads(MANIFEST.read_text())['pages'] if p['pagePath'] == config['pagePath'])
+    baseline = approved_baseline(config)
     raw = (ROOT / baseline['committedBaselineSnapshot']).read_bytes()
     assert hashlib.sha256(raw).hexdigest() == baseline['sha256']
     original = BeautifulSoup(raw, 'html.parser')
@@ -123,17 +133,17 @@ def render(config):
         if node:
             node['content'] = description
     for node in soup.select('meta[property="article:modified_time"]'):
-        node['content'] = '2026-09-22'
+        node['content'] = config.get('revisionDate', '2026-09-22')
     for node in soup.select('script[type="application/ld+json"]'):
         data = json.loads(node.string or '{}')
         if data.get('@type') == 'Article':
-            data.update(dateModified='2026-09-22', description=description)
+            data.update(dateModified=config.get('revisionDate', '2026-09-22'), description=description)
             node.string = json.dumps(data, ensure_ascii=False, separators=(',', ':'))
     return '\n'.join(line.rstrip() for line in str(soup).splitlines())+'\n'
 
 
 def verify(config, rendered):
-    baseline = next(p for p in json.loads(MANIFEST.read_text())['pages'] if p['pagePath'] == config['pagePath'])
+    baseline = approved_baseline(config)
     source = BeautifulSoup((ROOT / baseline['committedBaselineSnapshot']).read_text(), 'html.parser')
     soup = BeautifulSoup(rendered, 'html.parser')
     assert [x.get_text() for x in soup.select('.original-prompt-text')] == baseline['prompts']
@@ -163,7 +173,10 @@ def verify(config, rendered):
 
 def main():
     p=argparse.ArgumentParser(description=__doc__)
-    p.add_argument('slug',choices=['al-ghazali','anselm-of-canterbury','arthur-schopenhauer'])
+    approved = json.loads(MANIFEST.read_text())['pages']
+    if ADDITIONAL_MANIFEST.exists():
+        approved += json.loads(ADDITIONAL_MANIFEST.read_text())['pages']
+    p.add_argument('slug', choices=[x['pagePath'].strip('/').split('/')[-1] for x in approved])
     p.add_argument('--write',action='store_true')
     args=p.parse_args()
     config=json.loads((DATA/(args.slug+'-site-native-edits.json')).read_text())
