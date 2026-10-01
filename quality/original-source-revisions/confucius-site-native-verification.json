@@ -1,0 +1,76 @@
+{
+  "pagePath": "/philosophers/confucius/",
+  "sourceKind": "site-native editorial/reconstructed profile",
+  "sourceIsOriginalWordPress": false,
+  "baselineSnapshot": "quality/original-source-revisions/confucius-first-repository-345af16a41ec.html",
+  "baselineSha256": "acfa142d02ddbe96032271798eebd21cfdb618005ee8d93e3b933a295608763a",
+  "originalPrompts": 4,
+  "responseSections": 4,
+  "promptOrderExact": true,
+  "originalResponseListCounts": [
+    6,
+    5,
+    5,
+    5
+  ],
+  "originalSynthesisQuestionsPreserved": 5,
+  "quizQuestions": 8,
+  "genericParagraphsConsolidated": 12,
+  "sha256": "1d5307a8ae13e939557b5c627858594824cafdd01b6c950e19c8b3b1eff6b340",
+  "verifiedAt": "2026-10-01T13:29:08.685744+00:00",
+  "fullBaselineRead": true,
+  "fullCurrentEditionRead": true,
+  "baselineMatchedBy": [
+    "approved-page-path",
+    "title",
+    "four-prompts",
+    "exact-first-addition-commit",
+    "snapshot-SHA256"
+  ],
+  "sourceURL": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/confucius/index.html",
+  "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
+  "approvalManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+  "responseReviews": {
+    "1": "Explained ethical formation beyond rule knowledge, compiled character of Analects, punishment versus exemplarity, and historical hierarchy. Retained six original history/contribution/influence positions and qualified later-tradition uniformity.",
+    "2": "Explained ren/li/junzi and rectification of names with Analects 3.3–4,12.11,13.3. Added labeled condolence illustration and separated fulfilling a role from justifying it; retained all five concept-list positions.",
+    "3": "Preserved hierarchy/conformity/polite-cowardice objection. Used harmony-versus-agreement and remonstrance as a real reply, then kept family-concealment passage13.18 and victim’s claim visible. Added a labeled workplace case without sanitizing the original objection.",
+    "4": "Provided passage-by-passage route through2.3,3.3–4,4.18,13.18,13.23 and later Mencius/Xunzi comparison. Retained and qualified training-wheels analogy; preserved five reading functions and original follow-up questions."
+  },
+  "fidelity": {
+    "fourPromptsVerbatimInOrder": true,
+    "fourResponsePositionsPreserved": true,
+    "originalListPositionsPreserved": true,
+    "fiveSynthesisQuestionsVerbatim": true,
+    "restoredFifthFollowupOmittedByLaterReconstruction": true,
+    "noOriginalDialogueOrSeparateCuratorCorrection": true,
+    "eightQuizSlotsWithFourOptionsPreserved": true,
+    "allEightQuestionsAnd32FeedbackEntriesPageSpecific": true,
+    "baselineResponseParagraphs": 25,
+    "revisedResponseParagraphs": 13,
+    "synthesisParagraphCountPreserved": 3,
+    "originalNoticesCountPreserved": 0
+  },
+  "remainingConcerns": [
+    "Curator-approved site-native reconstruction; not a recovered WordPress original.",
+    "Translations of ren,li,junzi and individual passages vary; passage references allow comparison without claiming one English word is exact.",
+    "The profile does not settle the Analects’ complex compilation history.",
+    "Harmony-versus-agreement and remonstrance do not erase the tension in13.18; condolence/workplace illustrations are hypothetical."
+  ],
+  "deliberateOmissionsRejected": [
+    ".original-prompt-text",
+    "#prompt-1 > ol > li",
+    "#synthesis > ol > li",
+    ".quiz-item"
+  ],
+  "supplementalReferences": [
+    {
+      "url": "https://laits.utexas.edu/~mr56267/HIST_341K/Confucianism/Analects_of_Confucius.html",
+      "title": "Analects, Charles Muller translation"
+    },
+    {
+      "url": "https://warwick.ac.uk/fac/arts/classics/intranets/students/modules/ancientglobalhistory/syllabus/analects_of_confucius_eno-2015.pdf",
+      "title": "Analects, Robert Eno’s annotated translation"
+    }
+  ],
+  "preservedEffectiveMaterial": "Core concepts, skeptical objection, importance→concepts→objection→reading progression, ordered list roles and follow-ups retained; generic instructions to future writers replaced with actual explanation."
+}

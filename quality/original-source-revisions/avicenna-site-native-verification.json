@@ -1,0 +1,88 @@
+{
+  "pagePath": "/philosophers/avicenna/",
+  "sourceKind": "site-native editorial/reconstructed profile",
+  "sourceIsOriginalWordPress": false,
+  "baselineSnapshot": "quality/original-source-revisions/avicenna-first-repository-345af16a41ec.html",
+  "baselineSha256": "1a36a1063d794369295d8e790a18d1408aaa78f3ba73974825a26a08d8ba4b79",
+  "originalPrompts": 4,
+  "responseSections": 4,
+  "promptOrderExact": true,
+  "originalResponseListCounts": [
+    6,
+    5,
+    5,
+    5
+  ],
+  "originalSynthesisQuestionsPreserved": 5,
+  "quizQuestions": 8,
+  "genericParagraphsConsolidated": 14,
+  "sha256": "3f6b24ec1a2abad4a2ca55f27408bec9427cf2495c5229a50f82fe47fdd267fa",
+  "verifiedAt": "2026-10-01T13:29:08.269726+00:00",
+  "fullBaselineRead": true,
+  "fullCurrentEditionRead": true,
+  "baselineMatchedBy": [
+    "approved-page-path",
+    "title",
+    "four-prompts",
+    "exact-first-addition-commit",
+    "snapshot-SHA256"
+  ],
+  "sourceURL": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/avicenna/index.html",
+  "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
+  "approvalManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+  "responseReviews": {
+    "1": "Explained the essence/actuality/explanation distinction through a triangle comparison, explicitly limited the example, and distinguished Healing from Canon. Preserved six original history/contribution/influence slots and corrected dependence-versus-first-moment conflation.",
+    "2": "Distinguished necessary-in-itself from necessary-through-another. Explained floating person as thought experiment rather than experiment; separated awareness from dependence and included the stronger essentialist defense as a disputed extra premise. Explained active intellect without modern scientific attribution.",
+    "3": "Preserved the objection that necessity may relocate mystery; supplied a charitable dependence argument and explicitly limited mirror analogy. Identified dispute over termination rather than a simplistic what-caused-the-uncaused objection; separated existence, uniqueness and religious attributes.",
+    "4": "Gave Healing I.5–6/VIII and soul-opening reading route; replaced the vague Canon psychology recommendation. Retained original definition/existence entry question and five reading functions."
+  },
+  "fidelity": {
+    "fourPromptsVerbatimInOrder": true,
+    "fourResponsePositionsPreserved": true,
+    "originalListPositionsPreserved": true,
+    "fiveSynthesisQuestionsVerbatim": true,
+    "restoredFifthFollowupOmittedByLaterReconstruction": true,
+    "noOriginalDialogueOrSeparateCuratorCorrection": true,
+    "eightQuizSlotsWithFourOptionsPreserved": true,
+    "allEightQuestionsAnd32FeedbackEntriesPageSpecific": true,
+    "baselineResponseParagraphs": 26,
+    "revisedResponseParagraphs": 12,
+    "synthesisParagraphCountPreserved": 3,
+    "originalNoticesCountPreserved": 0
+  },
+  "remainingConcerns": [
+    "Curator-approved site-native reconstruction; not a recovered WordPress original.",
+    "Interpretations and locations of the Necessary Existent proofs are disputed; the profile gives an introductory dependence reconstruction, not a complete formal proof.",
+    "The floating-person objection is paired with a stronger essentialist defense; neither is presented as settled by a sensory-deprivation experiment.",
+    "Triangle, house, sufficient-condition and mirror examples illustrate distinctions without proving the metaphysical application."
+  ],
+  "deliberateOmissionsRejected": [
+    ".original-prompt-text",
+    "#prompt-1 > ol > li",
+    "#synthesis > ol > li",
+    ".quiz-item"
+  ],
+  "supplementalReferences": [
+    {
+      "url": "https://ucp-press-web10.uchicago.edu/ucp/books/book/distributed/M/bo3622795.html",
+      "title": "The Metaphysics of the Healing, Michael E. Marmura’s parallel Arabic–English edition"
+    },
+    {
+      "url": "https://plato.stanford.edu/entries/ibn-sina-metaphysics/",
+      "title": "Ibn Sina’s Metaphysics, Stanford Encyclopedia of Philosophy"
+    },
+    {
+      "url": "https://www.iranicaonline.org/articles/avicenna-iv/",
+      "title": "Avicenna: Metaphysics, Encyclopaedia Iranica"
+    },
+    {
+      "url": "https://epublications.marquette.edu/phil_fac/822/",
+      "title": "Richard Taylor on Avicenna and intellectual abstraction"
+    },
+    {
+      "url": "https://www.research.ed.ac.uk/en/publications/the-thought-experimental-method-avicennas-flying-man-argument/",
+      "title": "Peter Adamson and Fedor Benevich, The Thought Experimental Method"
+    }
+  ],
+  "preservedEffectiveMaterial": "Core concepts, skeptical objection, importance→concepts→objection→reading progression, ordered list roles and follow-ups retained; generic instructions to future writers replaced with actual explanation."
+}

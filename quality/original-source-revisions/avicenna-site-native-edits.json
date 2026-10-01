@@ -1,0 +1,216 @@
+{
+  "pagePath": "/philosophers/avicenna/",
+  "shellRevision": "1e019ee661feb4aa4023d1937ba983a46beecee6",
+  "revisionDate": "2026-10-01",
+  "intro": "Avicenna distinguishes knowing what something is from explaining why it exists. His account of dependence, and his thought experiment about self-awareness, invite careful separation of an illuminating distinction from a successful proof.",
+  "description": "Avicenna on essence, existence, necessary being, and the floating person: arguments, objections, examples, and a focused reading route.",
+  "sections": [
+    {
+      "heading": "What a definition leaves unexplained",
+      "paragraphs": [
+        "Avicenna, or Ibn Sina, made questions about existence and dependence central to a systematic philosophical project. Consider a triangle: understanding its definition lets us reason about what any triangle must be like, but does not tell us whether someone has drawn one on a particular sheet of paper. This modest comparison opens a distinction between what something is and whether it exists. It does not, by itself, establish Avicenna’s metaphysics.",
+        "His stronger claim is that something whose nature does not make it exist requires a cause. He develops an account of a Necessary Existent whose existence does not depend on another. The philosophical task is to justify the passage from dependent things to an independent source, not merely to give the source an impressive name. That is why the distinction remains useful even for a reader who rejects his conclusion.",
+        "Avicenna’s setting was the medieval Islamic philosophical world, where inherited Greek arguments were reworked into new systems. His <em>Book of Healing</em> is a philosophical and scientific work, despite its medical-sounding English title; the <em>Canon of Medicine</em> is a different work. The distinction matters when looking for his philosophical psychology. Later debates in Islamic philosophy and Latin scholasticism took up his account of essence, existence and causal dependence without simply adopting it unchanged."
+      ],
+      "listItems": [
+        "<strong>Historical setting:</strong> Avicenna brings logic, natural philosophy and metaphysics into a connected inquiry. The connections must be followed through arguments rather than inferred from the scale of the system.",
+        "<strong>Signature contribution:</strong> What a thing is does not automatically explain that it is. This is a distinction between questions, not a picture of two detachable physical ingredients.",
+        "<strong>Influence trail:</strong> Later disputes over essence and existence use a vocabulary Avicenna helped develop. Agreement on the vocabulary leaves room for substantial disagreement about its implications.",
+        "<strong>Signature contribution in use:</strong> A cause explains a possible thing’s actuality; defining that thing does not normally produce it. The Necessary Existent is proposed as independent in a stronger sense.",
+        "<strong>Historical setting in the works:</strong> Do not confuse the philosophical <em>Healing</em> with the medical <em>Canon</em>. Read the relevant division of the former when investigating the soul or metaphysics.",
+        "<strong>Influence as a question:</strong> An eternal reality could still be dependent. The issue is what sustains or explains existence, not only whether it had a first moment."
+      ],
+      "notices": [],
+      "baselineParagraphCount": 6
+    },
+    {
+      "heading": "Different kinds of necessity, and a different question about the self",
+      "paragraphs": [
+        "Avicenna distinguishes what is necessary in itself from what is possible in itself but necessary through a cause. In a simplified illustration, once all sufficient conditions for an event are fixed, its occurrence follows; that does not make the event independently necessary. The distinction prevents “it had to happen given those conditions” from sliding into “it needs no conditions.” His causal account is stronger than an observation that events frequently follow one another.",
+        "The floating-person thought experiment addresses self-awareness. Imagine a newly created person whose limbs do not touch and who receives no sensory information. Avicenna invites the reader to judge that this person would still affirm their own existence. The exercise is not a reported experiment in sensory deprivation. Nor does the absence of awareness of a body immediately show that awareness could exist without any bodily basis: how something is known and what it depends on are different questions. A stronger scholarly defense connects the inference to Avicenna’s view that grasping an essence reveals its constitutive features. That supplies an additional premise to assess; it does not turn mere failure to notice something into proof of independence.",
+        "His account of intellect places human understanding within a wider metaphysical order. Sensory experience and imagination matter to human cognition, but understanding universal forms involves the active intellect, an immaterial principle in his system. This is a historical theory of knowing, not a finding established by present-day brain science."
+      ],
+      "listItems": [
+        "<strong>Essence and existence:</strong> Knowing the kind of thing under discussion can leave its actuality unexplained. The triangle comparison introduces that gap without proving a Necessary Existent.",
+        "<strong>Necessary existent:</strong> Avicenna argues for an uncaused source, necessary in itself. A thing necessitated by its cause has a different status.",
+        "<strong>Floating person:</strong> The thought experiment brings self-awareness into focus without ordinary bodily cues. Whether its imagined verdict is compelling remains open to challenge.",
+        "<strong>Intellect:</strong> The active intellect helps explain, within his system, how human thought attains universal intelligibility. Do not identify it with a shared store of personal memories.",
+        "<strong>Historical pressure:</strong> Dependence, duration and self-awareness are separate issues. Something may always exist yet depend on a cause; something may be unnoticed yet required for an experience."
+      ],
+      "notices": [],
+      "baselineParagraphCount": 7
+    },
+    {
+      "heading": "Does necessity explain existence or rename the problem?",
+      "paragraphs": [
+        "The strongest objection in this profile targets the step from a legitimate demand for explanation to a claim about what must terminate it. Suppose each dependent thing has an explanation involving something else. Why must there be a single independent source, rather than an indefinitely extended order, a different kind of foundation, or an unexplained fact? Asking for a reason is not already an argument that one specific form of reason exists.",
+        "Avicenna’s reply treats merely dependent causes as unable to supply independence by being multiplied. An analogy can clarify the thought: a sequence of mirrors redirects illumination, but adding mirrors does not explain why there is light. The analogy is limited. Real mirrors and light belong to an independently understood physical system; the universe’s entire dependence structure is the disputed subject. The image cannot prove that all reality has the same structure.",
+        "The critic should therefore challenge the relevant premises rather than ask, without qualification, “What caused the uncaused?” If the category of something necessary in itself is coherent and instantiated, asking for its cause misses the proposal. Whether it is instantiated, whether dependent reality requires it, and which attributes follow are exactly what need demonstration. Even establishing an independent source would leave further work before identifying it with all the claims of a particular religion."
+      ],
+      "listItems": [
+        "<strong>Best objection:</strong> Calling the proposed terminus necessary may relocate the mystery unless there is an argument that it must exist and can explain dependent reality.",
+        "<strong>Charitable reply:</strong> Avicenna is not merely defining a preferred being into existence; he argues that a reality composed of dependent causes cannot be ultimately self-sufficient.",
+        "<strong>Contemporary test:</strong> Identify the premise that excludes an indefinitely dependent order. Disagreeing with the conclusion is weaker than locating the disputed premise.",
+        "<strong>Charitable reply extended:</strong> An uncaused source is not exempted from a rule that literally everything has a cause. The proposed rule concerns what is possible in itself.",
+        "<strong>Contemporary test extended:</strong> Keep existence, uniqueness and further divine attributes as separate argumentative achievements. A success at one step does not license all later conclusions."
+      ],
+      "notices": [],
+      "baselineParagraphCount": 7
+    },
+    {
+      "heading": "Read the distinction before evaluating the proof",
+      "paragraphs": [
+        "Begin with <em>The Metaphysics of the Healing</em>, book I, chapters 5–6, where the basic notions of existence, thing and necessity are introduced. Keep an ordinary case beside the text: describing a house’s plan leaves open whether the house exists. The example helps isolate the question; its familiar construction history must not be smuggled in as a model for all existence.",
+        "Next read book VIII’s treatment of causes and the First. Track what the argument rules out and which premises do the work. For the floating person, turn separately to the opening discussion of the soul in the <em>Healing</em>. The soul’s place in this philosophical work is distinct from the medical study pursued in the <em>Canon</em>.",
+        "A good first reading can end with a conditional judgment: if the account of dependence is right, an independent source follows in the stated way; the account itself still needs defense. This preserves both the ambition of Avicenna’s project and the skeptical question that gives it force."
+      ],
+      "listItems": [
+        "<strong>Best entry point:</strong> Why does the existence of any finite thing call for explanation beyond its definition? Distinguish the question from an assumption that its answer is already known.",
+        "<strong>What to watch:</strong> A systematic argument uses earlier distinctions later. Mark each change from possible in itself to necessary through another or necessary in itself.",
+        "<strong>Where to go next:</strong> Compare later Islamic and scholastic arguments about dependence. Similar conclusions may conceal different premises.",
+        "<strong>Reading discipline:</strong> Keep a thought experiment about self-awareness separate from a metaphysical argument about the ground of existence.",
+        "<strong>Avoid the shortcut:</strong> Neither “everything needs a cause” nor “God exists by definition” accurately states the distinctions the argument asks you to assess."
+      ],
+      "notices": [],
+      "baselineParagraphCount": 6
+    }
+  ],
+  "synthesisHeading": "An explanatory distinction is a beginning, not the whole proof",
+  "synthesisParagraphs": [
+    "Avicenna helps separate a thing’s nature, its actuality and the conditions of its existence. Those questions should not collapse into one just because a definition is clear or an event is predictable.",
+    "The same care applies to the floating person: what a subject notices and what makes awareness possible are different matters. A vivid imagined case can reveal a question without deciding every theory of the mind.",
+    "Use the five follow-up questions below to identify the exact step you accept or reject. The aim is a stronger assessment of dependence and self-awareness, with neither admiration nor dismissal replacing argument."
+  ],
+  "synthesisNotices": [],
+  "references": "<h2>Texts and scholarship</h2><p>The examples and critical reconstructions are editorial; they are not quotations or claims of experimental results.</p><ul><li><a href=\"https://ucp-press-web10.uchicago.edu/ucp/books/book/distributed/M/bo3622795.html\">The Metaphysics of the Healing, Michael E. Marmura’s parallel Arabic–English edition</a>: primary-text edition; see I.5–6 and VIII.</li><li><a href=\"https://plato.stanford.edu/entries/ibn-sina-metaphysics/\">Ibn Sina’s Metaphysics, Stanford Encyclopedia of Philosophy</a>: guide to the text’s distinctions and the placement of the causal argument.</li><li><a href=\"https://www.iranicaonline.org/articles/avicenna-iv/\">Avicenna: Metaphysics, Encyclopaedia Iranica</a>: essence, existence and causal explanation.</li><li><a href=\"https://epublications.marquette.edu/phil_fac/822/\">Richard Taylor on Avicenna and intellectual abstraction</a>: research on the active intellect.</li><li><a href=\"https://www.research.ed.ac.uk/en/publications/the-thought-experimental-method-avicennas-flying-man-argument/\">Peter Adamson and Fedor Benevich, The Thought Experimental Method</a>: a scholarly defense of the flying-person inference through Avicenna’s account of essence.</li></ul>",
+  "quiz": [
+    {
+      "question": "What does understanding a triangle’s definition leave open?",
+      "options": [
+        "Whether a triangle is drawn on this particular sheet.",
+        "Whether a triangle has any defining features.",
+        "Whether all geometrical reasoning is meaningless.",
+        "Whether definition and existence are identical."
+      ],
+      "answer": 0,
+      "explanations": [
+        "A definition alone does not establish this particular actuality.",
+        "The definition supplies features while leaving actuality open.",
+        "The example preserves geometrical reasoning.",
+        "The point is to distinguish those questions."
+      ]
+    },
+    {
+      "question": "What is necessary through another?",
+      "options": [
+        "Something that has no conditions.",
+        "Something whose existence follows from its cause while it is possible in itself.",
+        "Something impossible under every condition.",
+        "Something everyone happens to believe."
+      ],
+      "answer": 1,
+      "explanations": [
+        "That confuses dependence with independence.",
+        "The distinction concerns the source of necessity.",
+        "Being necessitated is not being impossible.",
+        "Consensus does not establish metaphysical necessity."
+      ]
+    },
+    {
+      "question": "Why does eternity not automatically mean independence?",
+      "options": [
+        "Eternal things cannot be discussed.",
+        "Dependence always requires a first moment.",
+        "A thing could always exist while still depending on a cause.",
+        "Existence and time are identical concepts."
+      ],
+      "answer": 2,
+      "explanations": [
+        "The question concerns explanatory dependence.",
+        "That is the assumption the distinction challenges.",
+        "Duration alone does not settle causal status.",
+        "The concepts answer different questions."
+      ]
+    },
+    {
+      "question": "What kind of exercise is the floating person?",
+      "options": [
+        "A documented laboratory trial.",
+        "A survey of people with sensory impairments.",
+        "A proof that every bodily process is consciously known.",
+        "A thought experiment about awareness without sensory cues."
+      ],
+      "answer": 3,
+      "explanations": [
+        "No laboratory result is reported.",
+        "It imagines a special case rather than surveying people.",
+        "Lack of bodily awareness does not imply such knowledge.",
+        "Its force depends on accepting the imagined judgment and the inference drawn from it."
+      ]
+    },
+    {
+      "question": "Which inference needs further support?",
+      "options": [
+        "From not noticing one’s body to being able to exist without a body.",
+        "From a definition to knowing what is being defined.",
+        "From a missing observation to uncertainty about that observation.",
+        "From a hypothetical case to calling it hypothetical."
+      ],
+      "answer": 0,
+      "explanations": [
+        "Awareness of a condition differs from dependence on that condition.",
+        "This does not make the disputed independence claim.",
+        "This preserves the evidential limitation.",
+        "The label accurately identifies the exercise."
+      ]
+    },
+    {
+      "question": "What can the mirror analogy do?",
+      "options": [
+        "Prove the universe has exactly the structure of an optical system.",
+        "Illustrate derivative dependence without establishing that all reality fits it.",
+        "Show that mirrors create their own light.",
+        "Replace every premise in the causal argument."
+      ],
+      "answer": 1,
+      "explanations": [
+        "That would overextend the comparison.",
+        "The illustration explains an idea; the metaphysical application needs argument.",
+        "The analogy depends on mirrors redirecting illumination.",
+        "An analogy cannot supply all the premises."
+      ]
+    },
+    {
+      "question": "Which work is the philosophical and scientific encyclopedia?",
+      "options": [
+        "The Canon of Medicine alone.",
+        "A book called The Canon’s Philosophical Psychology.",
+        "The Book of Healing.",
+        "The Decisive Treatise by Averroes."
+      ],
+      "answer": 2,
+      "explanations": [
+        "The Canon is a distinct medical work.",
+        "That is not a precise primary-text identification.",
+        "The title can sound medical, but this is the relevant philosophical work.",
+        "That work belongs to a different author and project."
+      ]
+    },
+    {
+      "question": "What remains after an argument establishes an independent source?",
+      "options": [
+        "No further philosophical questions.",
+        "Automatic proof of every religious doctrine.",
+        "Proof that every imagined being exists.",
+        "Further arguments about uniqueness, attributes and religious identification."
+      ],
+      "answer": 3,
+      "explanations": [
+        "The conclusion does not decide everything.",
+        "Those doctrines require further support.",
+        "The argument concerns dependence, not unrestricted imagination.",
+        "Each additional conclusion must earn its own support."
+      ]
+    }
+  ]
+}

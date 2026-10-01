@@ -1,0 +1,80 @@
+{
+  "pagePath": "/philosophers/averroes/",
+  "sourceKind": "site-native editorial/reconstructed profile",
+  "sourceIsOriginalWordPress": false,
+  "baselineSnapshot": "quality/original-source-revisions/averroes-first-repository-345af16a41ec.html",
+  "baselineSha256": "3bae32e5157550c0eb4d8c7a7642733929d1a112ccc3a53e22b3854416db8fb5",
+  "originalPrompts": 4,
+  "responseSections": 4,
+  "promptOrderExact": true,
+  "originalResponseListCounts": [
+    6,
+    5,
+    5,
+    5
+  ],
+  "originalSynthesisQuestionsPreserved": 5,
+  "quizQuestions": 8,
+  "genericParagraphsConsolidated": 14,
+  "sha256": "a9a1e7d6262f8b8e8f6cda495177cdad81843ae7d1cc1de76b41669941a2474e",
+  "verifiedAt": "2026-10-01T13:29:08.081508+00:00",
+  "fullBaselineRead": true,
+  "fullCurrentEditionRead": true,
+  "baselineMatchedBy": [
+    "approved-page-path",
+    "title",
+    "four-prompts",
+    "exact-first-addition-commit",
+    "snapshot-SHA256"
+  ],
+  "sourceURL": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/averroes/index.html",
+  "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
+  "approvalManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+  "responseReviews": {
+    "1": "Replaced generic influence framing with the legal defense of philosophical inquiry, separated permission to inquire from proof, and corrected a possible double-truth reading. Kept the six original historical-setting/contribution/influence list positions, developing duplicated slots rather than dropping them.",
+    "2": "Explained demonstration, dialectic and rhetoric; retained intelligible natural order while distinguishing it from modern atheism. Clarified mature material intellect as shared intellectual receptivity, not shared memories; supplied a qualified plant-growth comparison.",
+    "3": "Preserved the objection that harmony lets one discipline control the other; developed insulation from counterevidence, linguistic constraints, expertise and contestability through a labeled hypothetical interpreter dispute. Retained all five objection/reply/test slots.",
+    "4": "Provided a concrete Decisive Treatise reading route, identified the Long Commentary on the De Anima precisely, and preserved the original divergence question and five reading-list functions."
+  },
+  "fidelity": {
+    "fourPromptsVerbatimInOrder": true,
+    "fourResponsePositionsPreserved": true,
+    "originalListPositionsPreserved": true,
+    "fiveSynthesisQuestionsVerbatim": true,
+    "restoredFifthFollowupOmittedByLaterReconstruction": true,
+    "noOriginalDialogueOrSeparateCuratorCorrection": true,
+    "eightQuizSlotsWithFourOptionsPreserved": true,
+    "allEightQuestionsAnd32FeedbackEntriesPageSpecific": true,
+    "baselineResponseParagraphs": 26,
+    "revisedResponseParagraphs": 12,
+    "synthesisParagraphCountPreserved": 3,
+    "originalNoticesCountPreserved": 0
+  },
+  "remainingConcerns": [
+    "Curator-approved site-native reconstruction; not a recovered WordPress original.",
+    "The profile focuses on the mature Long Commentary intellect account; it does not survey changes across all commentaries.",
+    "The strongest objection is an editorial selection concerning interpretation and authority, not a claim that every other objection is weaker.",
+    "Modern natural-explanation and expert-dispute examples are illustrations, not attributed historical episodes."
+  ],
+  "deliberateOmissionsRejected": [
+    ".original-prompt-text",
+    "#prompt-1 > ol > li",
+    "#synthesis > ol > li",
+    ".quiz-item"
+  ],
+  "supplementalReferences": [
+    {
+      "url": "https://iberian-connections.yale.edu/wp-content/uploads/2019/08/Averroes-DecisiveTreatise.pdf",
+      "title": "Decisive Treatise, translated by Charles E. Butterworth"
+    },
+    {
+      "url": "https://bartholomew.stanford.edu/onunityaverroes/introtext.html",
+      "title": "Richard Taylor’s introduction to Averroes on intellect"
+    },
+    {
+      "url": "https://epublications.marquette.edu/phil_fac/248/",
+      "title": "Taylor, Improving on Nature’s Exemplar"
+    }
+  ],
+  "preservedEffectiveMaterial": "Core concepts, skeptical objection, importance→concepts→objection→reading progression, ordered list roles and follow-ups retained; generic instructions to future writers replaced with actual explanation."
+}

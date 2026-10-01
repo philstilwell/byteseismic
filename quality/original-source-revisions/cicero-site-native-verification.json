@@ -1,0 +1,84 @@
+{
+  "pagePath": "/philosophers/cicero/",
+  "sourceKind": "site-native editorial/reconstructed profile",
+  "sourceIsOriginalWordPress": false,
+  "baselineSnapshot": "quality/original-source-revisions/cicero-first-repository-c848a72c8e71.html",
+  "baselineSha256": "3d35309dfc4d648397738a9c938c1f7f18b27774ef6cff5df0e3b45d0a488a4f",
+  "originalPrompts": 4,
+  "responseSections": 4,
+  "promptOrderExact": true,
+  "originalResponseListCounts": [
+    5,
+    5,
+    5,
+    5
+  ],
+  "originalSynthesisQuestionsPreserved": 5,
+  "quizQuestions": 8,
+  "genericParagraphsConsolidated": 24,
+  "sha256": "183b497fb506aa8ccc2a5159664b0a9bf07e34f012968f631b0baba1a7586e56",
+  "verifiedAt": "2026-10-01T13:29:08.495626+00:00",
+  "fullBaselineRead": true,
+  "fullCurrentEditionRead": true,
+  "baselineMatchedBy": [
+    "approved-page-path",
+    "title",
+    "four-prompts",
+    "exact-first-addition-commit",
+    "snapshot-SHA256"
+  ],
+  "sourceURL": "https://github.com/philstilwell/byteseismic/blob/c848a72c8e71d73379aa3edf5e75d01c40dd1f1e/philosophers/cicero/index.html",
+  "firstRepositoryCommit": "c848a72c8e71d73379aa3edf5e75d01c40dd1f1e",
+  "approvalManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+  "responseReviews": {
+    "1": "Replaced nine generic paragraphs with comparative civic inquiry, duties and late republican context. Qualified modern equality/neutrality assumptions and retained five original list roles and three notice slots.",
+    "2": "Explained natural law/duty/republican order/Academic judgment separately. Developed the actual Rhodes grain case, correctly distinguishing Diogenes of Babylon and Antipater and Cicero’s disclosure verdict. Distinguished moral analysis from current law and Academic probability from numerical probability.",
+    "3": "Preserved eclecticism-versus-system objection; made selective standards and favoritism explicit, offered the honorable/advantageous constraint, then tested it through a labeled hypothetical official and party-identity reversal. Preserved five list positions and three notices.",
+    "4": "Gave specific On Duties III.50–57 reading exercise, earlier conceptual context and Republic/Laws/Academica route. Corrected draft bibliography before delivery; identified incomplete Republic and dialogue-speaker attribution. Preserved original list roles, four synthesis paragraphs and three synthesis notices."
+  },
+  "fidelity": {
+    "fourPromptsVerbatimInOrder": true,
+    "fourResponsePositionsPreserved": true,
+    "originalListPositionsPreserved": true,
+    "fiveSynthesisQuestionsVerbatim": true,
+    "restoredFifthFollowupOmittedByLaterReconstruction": true,
+    "noOriginalDialogueOrSeparateCuratorCorrection": true,
+    "eightQuizSlotsWithFourOptionsPreserved": true,
+    "allEightQuestionsAnd32FeedbackEntriesPageSpecific": true,
+    "baselineResponseParagraphs": 36,
+    "revisedResponseParagraphs": 12,
+    "synthesisParagraphCountPreserved": 4,
+    "originalNoticesCountPreserved": 15
+  },
+  "remainingConcerns": [
+    "Curator-approved site-native reconstruction; not a recovered WordPress original.",
+    "Comparative inquiry does not resolve every tension across Cicero’s works or political conduct.",
+    "The grain case is historical philosophical text; the official case is hypothetical, and neither is current legal guidance.",
+    "The Academica link is Latin primary text with English introduction/notes; the Republic and Laws links are older translations."
+  ],
+  "deliberateOmissionsRejected": [
+    ".original-prompt-text",
+    "#prompt-1 > ol > li",
+    "#synthesis > ol > li",
+    ".quiz-item"
+  ],
+  "supplementalReferences": [
+    {
+      "url": "https://extra.shu.ac.uk/emls/iemls/stoics/cicero_book.html",
+      "title": "Cicero, On Duties, Walter Miller translation"
+    },
+    {
+      "url": "https://www.gutenberg.org/ebooks/14970",
+      "title": "Cicero’s Academica, edited by James S. Reid"
+    },
+    {
+      "url": "https://www.gutenberg.org/ebooks/54161",
+      "title": "The Republic of Cicero"
+    },
+    {
+      "url": "https://oll.libertyfund.org/titles/cicero-treatise-on-the-laws?html=true",
+      "title": "Treatise on the Laws"
+    }
+  ],
+  "preservedEffectiveMaterial": "Core concepts, skeptical objection, importance→concepts→objection→reading progression, ordered list roles and follow-ups retained; generic instructions to future writers replaced with actual explanation."
+}
