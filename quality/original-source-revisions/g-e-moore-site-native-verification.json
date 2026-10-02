@@ -1,0 +1,77 @@
+{
+  "pagePath": "/philosophers/g-e-moore/",
+  "sourceKind": "site-native editorial/reconstructed profile",
+  "sourceIsOriginalWordPress": false,
+  "baselineSnapshot": "quality/original-source-revisions/g-e-moore-first-repository-345af16a41ec.html",
+  "baselineSha256": "d822d2c2fd929ea404960b2a63f6b1116b8cf0f7801b535805368f59d0c14584",
+  "originalPrompts": 4,
+  "responseSections": 4,
+  "promptOrderExact": true,
+  "originalResponseListCounts": [
+    6,
+    5,
+    5,
+    5
+  ],
+  "originalSynthesisQuestionsPreserved": 5,
+  "quizQuestions": 8,
+  "genericParagraphsConsolidated": 12,
+  "sha256": "685a98b3159bb88fec6a09980b7aacce4f3e57024e7df99d961bc49dbb7d0812",
+  "verifiedAt": "2026-10-02T13:23:53.743010+00:00",
+  "fullBaselineRead": true,
+  "fullCurrentEditionRead": true,
+  "baselineMatchedBy": [
+    "approved-page-path",
+    "title",
+    "four-prompts",
+    "exact-first-addition-commit",
+    "snapshot-SHA256"
+  ],
+  "sourceURL": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/g-e-moore/index.html",
+  "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
+  "approvalManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+  "responseReviews": {
+    "1": "Explained epistemic priority of ordinary knowledge without equating it with popular belief; connected ethical analysis while keeping arguments distinct.",
+    "2": "Explained open question, naturalistic fallacy and hand proof; distinguished meaning/property identity and validity/known premises; bounded water analogy.",
+    "3": "Kept inherited-assumption objection, gave modest-knowledge reply, distinguished skeptical premise challenge from popular prejudice; added clear/blurred cup test.",
+    "4": "Provided precise Principia I.5–14 and Proof route, corrected incomplete baseline avoid-shortcut sentence; preserved five original follow-ups."
+  },
+  "remainingConcerns": [
+    "Approved site-native profile, not WordPress source.",
+    "Whether open-question reasoning establishes non-naturalism remains disputed.",
+    "The hand proof’s force against skepticism remains contested; validity is not persuasion.",
+    "Desk/photo comparison is an editorial hypothetical, not a reported Moore example."
+  ],
+  "supplementalReferences": [
+    {
+      "url": "https://www.gutenberg.org/files/53430/53430-h/53430-h.htm",
+      "title": "G.E. Moore, Principia Ethica (1903), chapter I"
+    },
+    {
+      "url": "https://home.csulb.edu/~cwallis/382/readings/382/Moore_Proof.html",
+      "title": "G.E. Moore, Proof of an External World (1939)"
+    }
+  ],
+  "deliberateOmissionsRejected": [
+    ".original-prompt-text",
+    "#prompt-1 > ol > li",
+    "#synthesis > ol > li",
+    ".quiz-item"
+  ],
+  "fidelity": {
+    "fourPromptsVerbatimInOrder": true,
+    "fourResponsePositionsPreserved": true,
+    "originalListPositionsPreserved": true,
+    "fiveSynthesisQuestionsVerbatim": true,
+    "restoredFifthFollowupOmittedByLaterReconstruction": true,
+    "noOriginalDialogueOrSeparateCuratorCorrection": true,
+    "eightQuizSlotsWithFourOptionsPreserved": true,
+    "allEightQuestionsAnd32FeedbackEntriesPageSpecific": true,
+    "baselineResponseParagraphs": 26,
+    "revisedResponseParagraphs": 14,
+    "synthesisParagraphCountPreserved": 3,
+    "originalNoticesCountPreserved": 0,
+    "restoredOriginalResponseListEntries": 3
+  },
+  "preservedEffectiveMaterial": "Named concepts, original skeptical objection, four-response progression and ordered list roles retained and developed. Generic writing instructions replaced by explanations; five follow-ups retained verbatim."
+}

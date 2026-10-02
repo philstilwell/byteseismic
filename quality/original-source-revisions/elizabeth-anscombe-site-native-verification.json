@@ -1,0 +1,81 @@
+{
+  "pagePath": "/philosophers/elizabeth-anscombe/",
+  "sourceKind": "site-native editorial/reconstructed profile",
+  "sourceIsOriginalWordPress": false,
+  "baselineSnapshot": "quality/original-source-revisions/elizabeth-anscombe-first-repository-345af16a41ec.html",
+  "baselineSha256": "64c9ff70e7b192f2bb54cc5677430bd27ac4f916158427ef5563a23411acd4f2",
+  "originalPrompts": 4,
+  "responseSections": 4,
+  "promptOrderExact": true,
+  "originalResponseListCounts": [
+    6,
+    5,
+    5,
+    5
+  ],
+  "originalSynthesisQuestionsPreserved": 5,
+  "quizQuestions": 8,
+  "genericParagraphsConsolidated": 12,
+  "sha256": "12cae8656789b19cbfc2f07e8d1cce851c5b14298515ca3a3d4975506bfe39da",
+  "verifiedAt": "2026-10-02T13:23:53.743010+00:00",
+  "fullBaselineRead": true,
+  "fullCurrentEditionRead": true,
+  "baselineMatchedBy": [
+    "approved-page-path",
+    "title",
+    "four-prompts",
+    "exact-first-addition-commit",
+    "snapshot-SHA256"
+  ],
+  "sourceURL": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/elizabeth-anscombe/index.html",
+  "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
+  "approvalManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+  "responseReviews": {
+    "1": "Explained action under descriptions, purpose and knowledge; replaced generic influence claims with independent action-theory and ethical questions.",
+    "2": "Explained Why, practical knowledge and shopper/detective contrast; distinguished intended means, foresight and moral permissibility; qualified the law-conception critique.",
+    "3": "Preserved the pluralism/lawgiver objection, gave the Aristotelian ethics reply, separated genealogy from current justification, and added labeled safety-report test.",
+    "4": "Provided exact Intention section route and distinct essay arguments; introduced labeled attachment-error exercise; preserved all five follow-ups."
+  },
+  "remainingConcerns": [
+    "Approved site-native editorial profile; not a WordPress original.",
+    "Practical knowledge and the intended/foreseen distinction remain disputed; this introduction does not settle hard cases.",
+    "Historical diagnosis of obligation is presented as Anscombe’s argument, not as proof that secular ethics fails.",
+    "Safety report and document examples are hypothetical."
+  ],
+  "supplementalReferences": [
+    {
+      "url": "https://arthistory.uic.edu/wp-content/uploads/sites/422/2025/05/g-e-m-anscombe-intention-2nd-edition-2-TOC-pages-1-9.pdf",
+      "title": "Anscombe, Intention — detailed contents and opening excerpt"
+    },
+    {
+      "url": "https://makowski.wdfiles.com/local--files/wprowadzenie-do-analizy-metaetycznej/anscombe.pdf",
+      "title": "Anscombe, Intention — scanned text, especially sections 23–26 and 32"
+    },
+    {
+      "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/S0031819100037943",
+      "title": "Anscombe, Modern Moral Philosophy (1958) — publisher text"
+    }
+  ],
+  "deliberateOmissionsRejected": [
+    ".original-prompt-text",
+    "#prompt-1 > ol > li",
+    "#synthesis > ol > li",
+    ".quiz-item"
+  ],
+  "fidelity": {
+    "fourPromptsVerbatimInOrder": true,
+    "fourResponsePositionsPreserved": true,
+    "originalListPositionsPreserved": true,
+    "fiveSynthesisQuestionsVerbatim": true,
+    "restoredFifthFollowupOmittedByLaterReconstruction": true,
+    "noOriginalDialogueOrSeparateCuratorCorrection": true,
+    "eightQuizSlotsWithFourOptionsPreserved": true,
+    "allEightQuestionsAnd32FeedbackEntriesPageSpecific": true,
+    "baselineResponseParagraphs": 26,
+    "revisedResponseParagraphs": 14,
+    "synthesisParagraphCountPreserved": 3,
+    "originalNoticesCountPreserved": 0,
+    "restoredOriginalResponseListEntries": 3
+  },
+  "preservedEffectiveMaterial": "Named concepts, original skeptical objection, four-response progression and ordered list roles retained and developed. Generic writing instructions replaced by explanations; five follow-ups retained verbatim."
+}

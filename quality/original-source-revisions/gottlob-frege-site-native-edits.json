@@ -1,0 +1,244 @@
+{
+  "pagePath": "/philosophers/gottlob-frege/",
+  "shellRevision": "cde14d9d3e8b9e1360e78d2cef0b7e2b38b065ac",
+  "revisionDate": "2026-10-02",
+  "intro": "Frege makes the structure of an inference explicit and asks how two expressions for one object can convey different information. His achievements also sharpen the question of what a formal language can and cannot capture.",
+  "description": "Gottlob Frege on sense and reference, quantifiers and objective logic, with concrete examples and the limits exposed by context and Russell’s paradox.",
+  "sections": [
+    {
+      "heading": "Making the structure of reasoning visible",
+      "paragraphs": [
+        "Frege remains important because he developed a way of representing reasoning that exposes relationships ordinary grammar can hide. Consider these two claims: every student read some book, and there is a book that every student read. The first permits different students to read different books; the second requires a shared book. A precise notation keeps that difference visible across a long argument.",
+        "His <em>Begriffsschrift</em>, published in 1879, was an instrument for examining inference, especially in mathematics. The ambition was not merely to abbreviate sentences. It was to make the steps and assumptions of a proof inspectable. His later investigations of arithmetic and meaning connect that logical project with philosophical questions about numbers, identity and thought.",
+        "The influence should be understood through problems and methods rather than a claim that Frege solved everything. A formal system can make a mistake easier to locate, but its exactness does not guarantee that its principles are consistent. The later contradiction in his account of extensions makes that limitation part of his legacy, not an incidental embarrassment to omit."
+      ],
+      "listItems": [
+        "<strong>Historical setting:</strong> Late nineteenth-century work on logic and arithmetic supplies the problem of showing exactly what a mathematical proof depends on.",
+        "<strong>Signature contribution:</strong> Formal analysis represents relations and nested generality that an ordinary subject-predicate summary can conceal.",
+        "<strong>Influence trail:</strong> Modern logic and philosophy of language inherit questions about inference, reference and objective thought; Russell’s engagement provides a direct historical example.",
+        "<strong>Signature contribution in use:</strong> The student/book example reveals how changing the order of “every” and “some” changes a claim.",
+        "<strong>Historical setting as a constraint:</strong> The logicist project sought a logical foundation for arithmetic. Its difficulties should not be confused with failure of every logical tool Frege introduced.",
+        "<strong>Influence through criticism:</strong> Later work can preserve formal methods while revising the assumptions that generated a contradiction."
+      ],
+      "notices": [],
+      "baselineParagraphCount": 6
+    },
+    {
+      "heading": "One object, different ways of presenting it",
+      "paragraphs": [
+        "In “On Sense and Reference,” Frege distinguishes what an expression refers to from the way its referent is presented. The morning star and the evening star name Venus, but learning their identity can add information. <em>Reference</em> identifies the object; <em>sense</em> helps explain why recognizing one presentation need not amount to recognizing the other. Sense is not simply a private picture in a particular person’s mind.",
+        "<em>Quantification</em> concerns expressions such as “every” and “some,” including their scope. In the student/book case, suppose Ada reads one book and Ben reads a different book, with neither reading the other’s. Then every student in that two-person group has read a book, but no book was read by both. This counterexample shows why exchanging the order of the quantifiers can produce an invalid inference.",
+        "Frege’s concept-script is a notation for tracking such structure. The contemporary wording used here illustrates the logical distinction; it is not a reproduction of his original two-dimensional symbols. Anti-psychologism adds another distinction: laws of valid reasoning are not statistical descriptions of how people happen to think. A widespread mistake does not become valid because it is widespread.",
+        "His ambition to explain arithmetic through logic raises a further question about foundations. Even impeccably expressed rules require scrutiny. Precision helps us ask where a conclusion comes from; it cannot make an inconsistent collection of principles true."
+      ],
+      "listItems": [
+        "<strong>Sense and reference:</strong> Different ways of presenting the same object can explain an informative identity statement. The distinction is not between the object and one person’s mental image.",
+        "<strong>Quantification:</strong> “For each person, some book” differs from “some book for all people.” Scope must be preserved in inference.",
+        "<strong>Concept-script:</strong> A formal notation makes relationships explicit so that a reader can examine an argument’s steps.",
+        "<strong>Anti-psychologism:</strong> Logical validity differs from the psychological fact that someone accepts or habitually makes an inference.",
+        "<strong>Historical pressure:</strong> Frege’s work forces a separation between exact expression, valid inference and a defensible foundation for the system."
+      ],
+      "notices": [],
+      "baselineParagraphCount": 7
+    },
+    {
+      "heading": "Formal precision has a scope—and foundations can fail",
+      "paragraphs": [
+        "The strongest objection to treating formal analysis as a complete account of meaning is that it can leave out the practical conditions of language. As a hypothetical example, “The door is open” can report a fact, express a complaint or indirectly ask someone to close it. Identifying the proposition does not yet explain what a speaker is doing with it. If formal analysis were advertised as a complete account of communication, this would be a serious limitation.",
+        "A charitable reply is to limit the claim to its task. Frege’s preface to <em>Begriffsschrift</em> compares the specialized use of his notation with the relation of a microscope to the eye. A specialized instrument need not replace ordinary language to illuminate inference. His later treatment of sense, reference and indirect contexts also makes it inaccurate to portray him as simply ignoring every complexity of language.",
+        "A distinct and more decisive problem concerns his formal foundation for arithmetic. Russell’s 1902 letter raises a contradiction involving a collection of all collections that do not contain themselves. Ask whether that collection contains itself: either answer forces its opposite. In Frege’s system, the treatment of extensions associated with Basic Law V makes the contradiction possible. This requires revision of the system; calling the notation precise cannot answer it.",
+        "The two objections must remain separate. A limit on the scope of formal explanation can be met by a division of intellectual labor. An internal contradiction cannot. Frege’s enduring contribution includes tools for making both kinds of assessment more exact, but his original foundational system does not survive merely because those tools remain useful."
+      ],
+      "listItems": [
+        "<strong>Best objection:</strong> An account of propositional content leaves further work about context, purpose and conversational action. Frege’s foundational system also faces the separate contradiction just described.",
+        "<strong>Charitable reply:</strong> A formal instrument may explain inference successfully without serving as a complete account of every use of speech.",
+        "<strong>Contemporary test:</strong> In the door example, distinguish what is said from whether it functions as information, complaint or request.",
+        "<strong>Charitable reply extended:</strong> Failure of a foundational principle does not erase every distinction or method. It does require identifying which parts can be retained consistently.",
+        "<strong>Contemporary test extended:</strong> Ask whether an objection identifies a missing purpose, an invalid step, a false premise or an internal contradiction; these demand different responses."
+      ],
+      "notices": [],
+      "baselineParagraphCount": 7
+    },
+    {
+      "heading": "Begin with identity, then test a change of scope",
+      "paragraphs": [
+        "Begin with the opening of “On Sense and Reference.” Reconstruct why learning that two names concern the same object can be informative. Keep three things distinct: the expression, its way of presenting the object and the object itself. Read further for the contrast with private ideas and for the complications of reporting another person’s thoughts.",
+        "Next read the preface of <em>Begriffsschrift</em> before attempting its notation. Use the student/book example to practice preserving scope in ordinary English. Once the distinction is clear, a modern introductory logic text can help with quantifiers; modern notation should be identified as such rather than passed off as Frege’s own typography.",
+        "Finally, read Russell’s letter of 16 June 1902 alongside an account of Basic Law V. Write out both answers to the self-membership question and why each yields a contradiction. This route gives a balanced introduction: semantic insight, logical technique and a concrete failure that the technique helps expose."
+      ],
+      "listItems": [
+        "<strong>Best entry point:</strong> Ask why discovering that two names share a referent can teach someone something new.",
+        "<strong>What to watch:</strong> Keep sense, reference and private association separate, then track scope as the examples become more complex.",
+        "<strong>Where to go next:</strong> Study inference, philosophy of language and Russell’s response as connected inquiries with distinct aims.",
+        "<strong>Reading discipline:</strong> State the exact conclusion a passage supports; do not let admiration for formal clarity substitute for checking assumptions.",
+        "<strong>Avoid the shortcut:</strong> Neither all meaning nor all truth is secured simply by writing a claim in symbols."
+      ],
+      "notices": [],
+      "baselineParagraphCount": 6
+    }
+  ],
+  "synthesisHeading": "Precision helps expose limits as well as preserve insights",
+  "synthesisParagraphs": [
+    "Frege’s distinctions show how an informative identity can concern one object and how superficially similar sentences can have different logical consequences.",
+    "A formal language has a purpose. Its contribution to inference need not exhaust ordinary communication, and its foundations still require consistency.",
+    "The neighboring discussions should keep these questions separate: what an expression presents, what follows from a statement, what a speaker is doing, and whether the rules themselves can stand together."
+  ],
+  "synthesisNotices": [],
+  "quiz": [
+    {
+      "question": "Which claim requires one shared book?",
+      "options": [
+        "Every student read some book.",
+        "Each student read a book of their own choosing.",
+        "There is a book that every student read.",
+        "Every student read at least one of several books."
+      ],
+      "answer": 2,
+      "explanations": [
+        "Different books can satisfy this claim for different students.",
+        "Different choices need not coincide.",
+        "The book is fixed before the claim applies to every student.",
+        "This also permits different books."
+      ]
+    },
+    {
+      "question": "Why can the morning-star/evening-star identity be informative?",
+      "options": [
+        "The names present the same object in different ways.",
+        "The names must refer to different planets.",
+        "Identity changes the planet itself.",
+        "Every speaker has the same private image."
+      ],
+      "answer": 0,
+      "explanations": [
+        "The difference in presentation explains the possible gain in knowledge.",
+        "The example assumes a shared referent, Venus.",
+        "The discovery changes knowledge, not the object’s identity.",
+        "Sense is not equated with a shared private picture."
+      ]
+    },
+    {
+      "question": "What does anti-psychologism distinguish?",
+      "options": [
+        "Good handwriting from bad handwriting.",
+        "Popular arguments from unpopular people.",
+        "Arithmetic from every use of language.",
+        "Logical validity from how people happen to think."
+      ],
+      "answer": 3,
+      "explanations": [
+        "Typography is not the issue.",
+        "Acceptance does not establish validity.",
+        "The distinction concerns the standing of logical laws.",
+        "A common pattern of thought can still be mistaken."
+      ]
+    },
+    {
+      "question": "What does the door example reveal?",
+      "options": [
+        "The sentence cannot express a fact.",
+        "The same statement may serve different conversational purposes.",
+        "Formal inference is always invalid.",
+        "Sense and reference are identical."
+      ],
+      "answer": 1,
+      "explanations": [
+        "It can report a fact while also serving another purpose.",
+        "Reporting, complaining and requesting are different uses.",
+        "A limit in scope is not a refutation of inference.",
+        "The example concerns use in context, not collapse of that distinction."
+      ]
+    },
+    {
+      "question": "How does the microscope comparison qualify formal language?",
+      "options": [
+        "Formal language should replace every ordinary conversation.",
+        "Ordinary language has no value.",
+        "A specialized instrument can be valuable without replacing all other ways of seeing.",
+        "Precision guarantees truth."
+      ],
+      "answer": 2,
+      "explanations": [
+        "That exceeds the comparison’s point.",
+        "The eye retains its ordinary uses.",
+        "The analogy clarifies a limited explanatory task.",
+        "An exact system can still have faulty principles."
+      ]
+    },
+    {
+      "question": "What is the problem with the self-membership collection?",
+      "options": [
+        "Either answer to whether it contains itself implies the opposite answer.",
+        "It contains too many ordinary objects to count.",
+        "Its members are unpopular.",
+        "It can be solved merely by renaming it."
+      ],
+      "answer": 0,
+      "explanations": [
+        "That is the contradiction, rather than a practical difficulty in counting.",
+        "Size alone is not the demonstrated problem.",
+        "Popularity is irrelevant.",
+        "A new name leaves the conflicting conditions intact."
+      ]
+    },
+    {
+      "question": "Why separate context limitations from inconsistency?",
+      "options": [
+        "Both can be ignored if the author is influential.",
+        "Neither concerns philosophy.",
+        "Both are solved by clearer typography.",
+        "Limited scope may be acceptable; contradiction requires repairing the foundations."
+      ],
+      "answer": 3,
+      "explanations": [
+        "Influence does not answer either objection.",
+        "Both affect what an account can establish.",
+        "Typography does not remove a contradiction.",
+        "Different kinds of failure call for different remedies."
+      ]
+    },
+    {
+      "question": "What would be a sound use of formal analysis?",
+      "options": [
+        "Treating symbols as proof that the premises are true.",
+        "Checking scope, inference and assumptions while stating the method’s limits.",
+        "Ignoring the difference between some and every.",
+        "Replacing every objection with a new name for the conclusion."
+      ],
+      "answer": 1,
+      "explanations": [
+        "Truth of premises requires its own support.",
+        "This retains the contribution without overclaiming it.",
+        "Scope is precisely what the example makes visible.",
+        "Renaming does not supply an argument."
+      ]
+    }
+  ],
+  "references": "<h2>Sources and further reading</h2><p>These texts support the editorial explanations; the approved site-native profile remains the structural baseline.</p><ul><li><a href=\"https://en.wikisource.org/wiki/On_Sense_and_Reference\">Frege, On Sense and Reference (1892) — English translation</a></li><li><a href=\"https://www.cs.cornell.edu/courses/cs6860/2015fa/readings/frege.pdf\">Frege, Begriffsschrift — translated preface and opening sections</a></li><li><a href=\"https://bracers.mcmaster.ca/53946\">Bertrand Russell to Frege, 16 June 1902 — archive transcription and translation</a></li></ul>",
+  "responseReviews": {
+    "1": "Made quantifier order and proof inspection concrete; distinguished enduring logical tools from the failed foundational system; retained six list roles.",
+    "2": "Explained sense/reference/private image, quantified scope with two-student counterexample, concept-script and anti-psychologism; identified modern presentation as editorial.",
+    "3": "Preserved pragmatic/lived-language objection using door example, supplied specialized-instrument reply, added distinct Russell/Basic Law V contradiction with qualified scope.",
+    "4": "Provided identity→preface/quantifier scope→1902letter route; preserved five follow-ups and explained why context limits differ from inconsistency."
+  },
+  "remainingConcerns": [
+    "Approved site-native editorial profile, not a recovered WordPress original.",
+    "Sense/reference treatment is introductory; indirect contexts and competing semantic theories require further study.",
+    "Self-membership is an informal illustration of the contradiction; it is not a full derivation in Frege’s notation.",
+    "Student/book and door examples are editorial hypotheticals."
+  ],
+  "supplementalReferences": [
+    {
+      "url": "https://en.wikisource.org/wiki/On_Sense_and_Reference",
+      "title": "Frege, On Sense and Reference (1892) — English translation"
+    },
+    {
+      "url": "https://www.cs.cornell.edu/courses/cs6860/2015fa/readings/frege.pdf",
+      "title": "Frege, Begriffsschrift — translated preface and opening sections"
+    },
+    {
+      "url": "https://bracers.mcmaster.ca/53946",
+      "title": "Bertrand Russell to Frege, 16 June 1902 — archive transcription and translation"
+    }
+  ]
+}

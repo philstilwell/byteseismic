@@ -1,0 +1,81 @@
+{
+  "pagePath": "/philosophers/gottlob-frege/",
+  "sourceKind": "site-native editorial/reconstructed profile",
+  "sourceIsOriginalWordPress": false,
+  "baselineSnapshot": "quality/original-source-revisions/gottlob-frege-first-repository-345af16a41ec.html",
+  "baselineSha256": "bb7c8255b7b4d53518183296f6b1e5975516913c45990b8834137079880c4559",
+  "originalPrompts": 4,
+  "responseSections": 4,
+  "promptOrderExact": true,
+  "originalResponseListCounts": [
+    6,
+    5,
+    5,
+    5
+  ],
+  "originalSynthesisQuestionsPreserved": 5,
+  "quizQuestions": 8,
+  "genericParagraphsConsolidated": 12,
+  "sha256": "e75d332526aa75b25e4e1f03ded694416e14ae1bea00afebb8a4d806e15efb21",
+  "verifiedAt": "2026-10-02T13:23:53.743010+00:00",
+  "fullBaselineRead": true,
+  "fullCurrentEditionRead": true,
+  "baselineMatchedBy": [
+    "approved-page-path",
+    "title",
+    "four-prompts",
+    "exact-first-addition-commit",
+    "snapshot-SHA256"
+  ],
+  "sourceURL": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/gottlob-frege/index.html",
+  "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
+  "approvalManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+  "responseReviews": {
+    "1": "Made quantifier order and proof inspection concrete; distinguished enduring logical tools from the failed foundational system; retained six list roles.",
+    "2": "Explained sense/reference/private image, quantified scope with two-student counterexample, concept-script and anti-psychologism; identified modern presentation as editorial.",
+    "3": "Preserved pragmatic/lived-language objection using door example, supplied specialized-instrument reply, added distinct Russell/Basic Law V contradiction with qualified scope.",
+    "4": "Provided identity→preface/quantifier scope→1902letter route; preserved five follow-ups and explained why context limits differ from inconsistency."
+  },
+  "remainingConcerns": [
+    "Approved site-native editorial profile, not a recovered WordPress original.",
+    "Sense/reference treatment is introductory; indirect contexts and competing semantic theories require further study.",
+    "Self-membership is an informal illustration of the contradiction; it is not a full derivation in Frege’s notation.",
+    "Student/book and door examples are editorial hypotheticals."
+  ],
+  "supplementalReferences": [
+    {
+      "url": "https://en.wikisource.org/wiki/On_Sense_and_Reference",
+      "title": "Frege, On Sense and Reference (1892) — English translation"
+    },
+    {
+      "url": "https://www.cs.cornell.edu/courses/cs6860/2015fa/readings/frege.pdf",
+      "title": "Frege, Begriffsschrift — translated preface and opening sections"
+    },
+    {
+      "url": "https://bracers.mcmaster.ca/53946",
+      "title": "Bertrand Russell to Frege, 16 June 1902 — archive transcription and translation"
+    }
+  ],
+  "deliberateOmissionsRejected": [
+    ".original-prompt-text",
+    "#prompt-1 > ol > li",
+    "#synthesis > ol > li",
+    ".quiz-item"
+  ],
+  "fidelity": {
+    "fourPromptsVerbatimInOrder": true,
+    "fourResponsePositionsPreserved": true,
+    "originalListPositionsPreserved": true,
+    "fiveSynthesisQuestionsVerbatim": true,
+    "restoredFifthFollowupOmittedByLaterReconstruction": true,
+    "noOriginalDialogueOrSeparateCuratorCorrection": true,
+    "eightQuizSlotsWithFourOptionsPreserved": true,
+    "allEightQuestionsAnd32FeedbackEntriesPageSpecific": true,
+    "baselineResponseParagraphs": 26,
+    "revisedResponseParagraphs": 14,
+    "synthesisParagraphCountPreserved": 3,
+    "originalNoticesCountPreserved": 0,
+    "restoredOriginalResponseListEntries": 3
+  },
+  "preservedEffectiveMaterial": "Named concepts, original skeptical objection, four-response progression and ordered list roles retained and developed. Generic writing instructions replaced by explanations; five follow-ups retained verbatim."
+}

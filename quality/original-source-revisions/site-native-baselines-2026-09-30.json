@@ -50,9 +50,11 @@
         "How should a contemporary reader begin with Averroes?"
       ],
       "promptSectionCount": 4,
-      "status": "approved-site-native-baseline-editorial-review-pending",
-      "editoriallyComplete": false,
-      "currentPageSha256AtApproval": "da583487500b8e237c8dee43b9025d8ac1dbb64c8cf80308469dce11a45fdb0b"
+      "status": "reviewed-revised-approved-baseline-verified",
+      "editoriallyComplete": true,
+      "currentPageSha256AtApproval": "da583487500b8e237c8dee43b9025d8ac1dbb64c8cf80308469dce11a45fdb0b",
+      "verificationFile": "quality/original-source-revisions/averroes-site-native-verification.json",
+      "reviewedAt": "2026-10-01T13:29:08.081508+00:00"
     },
     {
       "pagePath": "/philosophers/avicenna/",
@@ -71,9 +73,11 @@
         "How should a contemporary reader begin with Avicenna?"
       ],
       "promptSectionCount": 4,
-      "status": "approved-site-native-baseline-editorial-review-pending",
-      "editoriallyComplete": false,
-      "currentPageSha256AtApproval": "0e5c7467e637b5c7b642ec8063669bd6443b7668991604a9b647b35b721c1bca"
+      "status": "reviewed-revised-approved-baseline-verified",
+      "editoriallyComplete": true,
+      "currentPageSha256AtApproval": "0e5c7467e637b5c7b642ec8063669bd6443b7668991604a9b647b35b721c1bca",
+      "verificationFile": "quality/original-source-revisions/avicenna-site-native-verification.json",
+      "reviewedAt": "2026-10-01T13:29:08.269726+00:00"
     },
     {
       "pagePath": "/philosophers/cicero/",
@@ -92,9 +96,11 @@
         "How should a contemporary reader begin with Cicero?"
       ],
       "promptSectionCount": 4,
-      "status": "approved-site-native-baseline-editorial-review-pending",
-      "editoriallyComplete": false,
-      "currentPageSha256AtApproval": "7b977b88873f5956c57081e4735132a577fb2787760c631e3c7fc146f4eaf868"
+      "status": "reviewed-revised-approved-baseline-verified",
+      "editoriallyComplete": true,
+      "currentPageSha256AtApproval": "7b977b88873f5956c57081e4735132a577fb2787760c631e3c7fc146f4eaf868",
+      "verificationFile": "quality/original-source-revisions/cicero-site-native-verification.json",
+      "reviewedAt": "2026-10-01T13:29:08.495626+00:00"
     },
     {
       "pagePath": "/philosophers/confucius/",
@@ -113,9 +119,11 @@
         "How should a contemporary reader begin with Confucius?"
       ],
       "promptSectionCount": 4,
-      "status": "approved-site-native-baseline-editorial-review-pending",
-      "editoriallyComplete": false,
-      "currentPageSha256AtApproval": "d1ea6c2c7908b9ea8c4c16ae3a05821e506f1e60879ebf3ef3bd7e801758231e"
+      "status": "reviewed-revised-approved-baseline-verified",
+      "editoriallyComplete": true,
+      "currentPageSha256AtApproval": "d1ea6c2c7908b9ea8c4c16ae3a05821e506f1e60879ebf3ef3bd7e801758231e",
+      "verificationFile": "quality/original-source-revisions/confucius-site-native-verification.json",
+      "reviewedAt": "2026-10-01T13:29:08.685744+00:00"
     },
     {
       "pagePath": "/philosophers/dogen/",
@@ -134,9 +142,11 @@
         "How should a contemporary reader begin with Dogen?"
       ],
       "promptSectionCount": 4,
-      "status": "approved-site-native-baseline-editorial-review-pending",
-      "editoriallyComplete": false,
-      "currentPageSha256AtApproval": "73558c13cf5b17dd39e7c6694ac7b1cf4ce868985177306090bf5a8417688b73"
+      "status": "reviewed-revised-approved-baseline-verified",
+      "editoriallyComplete": true,
+      "currentPageSha256AtApproval": "73558c13cf5b17dd39e7c6694ac7b1cf4ce868985177306090bf5a8417688b73",
+      "verificationFile": "quality/original-source-revisions/dogen-site-native-verification.json",
+      "reviewedAt": "2026-10-02T13:23:53.743010+00:00"
     },
     {
       "pagePath": "/philosophers/elizabeth-anscombe/",
@@ -155,9 +165,11 @@
         "How should a contemporary reader begin with Elizabeth Anscombe?"
       ],
       "promptSectionCount": 4,
-      "status": "approved-site-native-baseline-editorial-review-pending",
-      "editoriallyComplete": false,
-      "currentPageSha256AtApproval": "c576f7c1c2f96c81ef5f42e62339b8cbef6bdd404ffe26a1c2e51bcb39168bfc"
+      "status": "reviewed-revised-approved-baseline-verified",
+      "editoriallyComplete": true,
+      "currentPageSha256AtApproval": "c576f7c1c2f96c81ef5f42e62339b8cbef6bdd404ffe26a1c2e51bcb39168bfc",
+      "verificationFile": "quality/original-source-revisions/elizabeth-anscombe-site-native-verification.json",
+      "reviewedAt": "2026-10-02T13:23:53.743010+00:00"
     },
     {
       "pagePath": "/philosophers/g-e-moore/",
@@ -176,9 +188,11 @@
         "How should a contemporary reader begin with G.E. Moore?"
       ],
       "promptSectionCount": 4,
-      "status": "approved-site-native-baseline-editorial-review-pending",
-      "editoriallyComplete": false,
-      "currentPageSha256AtApproval": "3c89e6db11e4b13f0d17abeae7c00660c33cdbc0657983a46bc5c74a0eff8038"
+      "status": "reviewed-revised-approved-baseline-verified",
+      "editoriallyComplete": true,
+      "currentPageSha256AtApproval": "3c89e6db11e4b13f0d17abeae7c00660c33cdbc0657983a46bc5c74a0eff8038",
+      "verificationFile": "quality/original-source-revisions/g-e-moore-site-native-verification.json",
+      "reviewedAt": "2026-10-02T13:23:53.743010+00:00"
     },
     {
       "pagePath": "/philosophers/gottlob-frege/",
@@ -197,9 +211,11 @@
         "How should a contemporary reader begin with Gottlob Frege?"
       ],
       "promptSectionCount": 4,
-      "status": "approved-site-native-baseline-editorial-review-pending",
-      "editoriallyComplete": false,
-      "currentPageSha256AtApproval": "1ed287938c4f7fa595231d5b35206c4a638b4fbd506dc889f5f347974822a431"
+      "status": "reviewed-revised-approved-baseline-verified",
+      "editoriallyComplete": true,
+      "currentPageSha256AtApproval": "1ed287938c4f7fa595231d5b35206c4a638b4fbd506dc889f5f347974822a431",
+      "verificationFile": "quality/original-source-revisions/gottlob-frege-site-native-verification.json",
+      "reviewedAt": "2026-10-02T13:23:53.743010+00:00"
     },
     {
       "pagePath": "/philosophers/hannah-arendt/",
@@ -664,6 +680,7 @@
       "currentPageSha256AtApproval": "e55f717413af6b31ac4b691cdf6342cef51a35831513645cc2c92a43300092ef"
     }
   ],
-  "reviewedPages": 1,
-  "pendingPages": 30
+  "reviewedPages": 9,
+  "pendingPages": 22,
+  "reviewStatusReconciledAt": "2026-10-02T13:23:53.743010+00:00"
 }

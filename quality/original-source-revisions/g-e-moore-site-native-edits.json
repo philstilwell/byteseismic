@@ -1,0 +1,240 @@
+{
+  "pagePath": "/philosophers/g-e-moore/",
+  "shellRevision": "cde14d9d3e8b9e1360e78d2cef0b7e2b38b065ac",
+  "revisionDate": "2026-10-02",
+  "intro": "Moore asks why an abstract argument should outweigh what we already know, and why identifying something as pleasant does not settle whether it is good. His insistence on clarity is useful precisely where confidence needs to be examined.",
+  "description": "G.E. Moore on ordinary knowledge, the open question argument and the external world, with objections about inherited assumptions and disputed premises.",
+  "sections": [
+    {
+      "heading": "Ordinary knowledge can challenge a philosophical theory",
+      "paragraphs": [
+        "Moore matters because he reverses a familiar order of authority. A philosophical theory does not automatically outrank the ordinary knowledge it seeks to explain. If an argument concludes that we know nothing about objects around us, Moore asks why its premises deserve more confidence than the claim that there are hands in front of us. The challenge is to justify the theory’s demand, not merely to repeat it.",
+        "This approach developed within early analytic philosophy’s resistance to idealist accounts of reality and its attention to analysis. Moore’s defense of ordinary certainties does not commit him to every popular opinion. Knowing that a hand exists is a different sort of claim from endorsing an inherited social prejudice because it feels familiar.",
+        "His ethical work applies an equally persistent demand for clarity to goodness. <em>Principia Ethica</em> asks what good means before accepting a proposed identification with pleasure or another property. The common thread is resistance to a theory that appears to solve a problem by passing too quickly over the very claim that needs examination. The epistemological and ethical arguments still require separate assessment."
+      ],
+      "listItems": [
+        "<strong>Historical setting:</strong> Early analytic criticism of idealism gives ordinary objects and careful distinctions renewed philosophical importance.",
+        "<strong>Signature contribution:</strong> A proposed philosophical argument must earn the authority to overturn well-supported ordinary knowledge.",
+        "<strong>Influence trail:</strong> Moore’s challenges remain central to discussion of skepticism and ethical analysis, including debate by philosophers who reject his answers.",
+        "<strong>Signature contribution in practice:</strong> Compare the support for an argument’s premises with the support for the ordinary claim it would displace.",
+        "<strong>Historical setting as a caution:</strong> Opposition to idealism should not be confused with an endorsement of every belief considered commonsensical.",
+        "<strong>Influence as a continuing problem:</strong> Later inquiry must explain both what makes ordinary knowledge credible and when apparently obvious judgments deserve revision."
+      ],
+      "notices": [],
+      "baselineParagraphCount": 6
+    },
+    {
+      "heading": "Goodness, knowledge and what an argument actually establishes",
+      "paragraphs": [
+        "The open question argument asks whether a competent speaker can still intelligibly ask whether a proposed property is good after understanding that property. Take pleasure: knowing that an experience is pleasant seems to leave the question of its goodness unsettled. Moore uses this to resist treating “good” and “pleasant” as equivalent in meaning. Calling a cruel person’s enjoyment pleasant need not endorse it.",
+        "Moore’s “naturalistic fallacy” is a specific charge against attempts to define goodness as another property. It should not be used as a loose name for every bad appeal to nature, nor simply substituted for the problem of deriving an ought from an is. A serious limit also matters: a difference in meaning need not rule out an identity discovered through inquiry. Water and H2O provide a familiar analogy for that logical possibility, not proof that goodness is any particular natural property.",
+        "In the external-world proof, Moore displays one hand and then another and concludes that external objects exist. The inference from two hands to at least two such objects is straightforward. The philosophical dispute concerns his claim to know the premises, especially when a skeptic demands that dreaming or deception first be excluded. Moore distinguishes knowing a premise from being able to provide the further proof that a challenger demands.",
+        "These arguments concern different tasks. Ethical analysis asks whether a definition captures goodness; the hand argument asks what can serve as a known premise. Neither task is completed by confidence alone, and neither requires treating every conceivable doubt as equally weighty."
+      ],
+      "listItems": [
+        "<strong>Common sense:</strong> Ordinary knowledge constrains a theory, but familiarity alone does not establish knowledge.",
+        "<strong>Open question argument:</strong> The intelligibility of asking whether pleasure is good challenges an alleged synonymy; its implications for property identity require a further argument.",
+        "<strong>Naturalistic fallacy:</strong> Moore objects to defining good by another property. His target is more specific than any inference involving facts about nature.",
+        "<strong>External world proof:</strong> The hands provide premises Moore claims to know. Valid inference and acceptance of those premises are distinct issues.",
+        "<strong>Historical pressure:</strong> Philosophical analysis must say whether it is testing meaning, truth, knowledge or justification; moving between them can conceal an unsupported step."
+      ],
+      "notices": [],
+      "baselineParagraphCount": 6
+    },
+    {
+      "heading": "When common sense becomes a shield for assumptions",
+      "paragraphs": [
+        "The strongest objection in this profile asks whether common sense is a reliable starting point or inherited assumption dressed as certainty. A conviction can feel immediate because alternatives have never been taken seriously. If Moore’s method were merely “keep whatever feels obvious,” it could protect prejudice as readily as knowledge.",
+        "The charitable response is to separate modest claims about ordinary objects from sweeping claims about social arrangements or human capacities. Their evidential support differs. A person’s possession of hands can be checked in many ordinary ways; a claim that a social hierarchy is natural requires a much wider argument. This distinction limits a misuse of Moore’s method without making every perceptual judgment immune to error.",
+        "The skeptic presses a different challenge: the hand proof seems to assume the kind of knowledge under dispute. Moore can reply that an argument’s premises need not be more doubtful simply because a skeptic challenges them. But that does not show that the proof will persuade someone who rejects those premises. A successful inference from known facts and a demonstration from premises accepted by both sides are different achievements.",
+        "As an editorial test, compare seeing a cup on a well-lit desk with seeing what might be a cup in a blurred photograph. The first ordinarily supplies stronger grounds; the second invites checking. The ability to imagine an error is not the same as evidence of one, but actual reasons for doubt should change the judgment. The profile’s useful standard is accountable confidence, not reverence for whatever comes naturally."
+      ],
+      "listItems": [
+        "<strong>Best objection:</strong> Familiarity can conceal unsupported assumptions, so an appeal to common sense needs discrimination.",
+        "<strong>Charitable reply:</strong> The method can prioritize specific, well-supported ordinary claims without endorsing every culturally familiar belief.",
+        "<strong>Contemporary test:</strong> Compare the clear desk and the blurred photograph; identify the evidence that makes one judgment less secure.",
+        "<strong>Charitable reply extended:</strong> A philosophical demand for proof also needs justification. A bare possibility of error need not defeat all knowledge.",
+        "<strong>Contemporary test extended:</strong> Ask separately whether an inference is valid, whether its premises are known, and whether the opponent accepts them."
+      ],
+      "notices": [],
+      "baselineParagraphCount": 7
+    },
+    {
+      "heading": "Start with a proposed definition, then examine the hands",
+      "paragraphs": [
+        "Begin with chapter I of <em>Principia Ethica</em>, especially sections 5–14. Write out the difference between asking which things are good and asking what good means. Then test one proposed definition. Does understanding “pleasant” already answer whether every pleasant experience is good? This preserves the approved profile’s entry through the open question argument.",
+        "Next read “Proof of an External World,” paying particular attention to the distinction between things encountered in space and things whose existence depends on someone’s experience. Follow the proof’s conclusion carefully: it establishes external objects if the hand premises are known. It does not claim to reconstruct every feature of reality from an indubitable starting point.",
+        "Finally, compare the objections to the two arguments. In ethics, the contested move is from openness of a question to conclusions about goodness. In epistemology, it is the standing of ordinary premises under skeptical challenge. A reader who can explain those different burdens has gained more than a slogan about common sense."
+      ],
+      "listItems": [
+        "<strong>Best entry point:</strong> Ask why a proposed definition of good may leave a meaningful ethical question open.",
+        "<strong>What to watch:</strong> Separate the meaning of a term from claims about which things have the property and how we know that they do.",
+        "<strong>Where to go next:</strong> Compare later accounts of ethical properties and skepticism without assuming they must accept Moore’s conclusions to learn from his questions.",
+        "<strong>Reading discipline:</strong> Reconstruct the premises and the exact conclusion before deciding whether an objection addresses the inference or its starting points.",
+        "<strong>Avoid the shortcut:</strong> Common sense is not a vote, and an open question is not by itself a complete theory of value."
+      ],
+      "notices": [],
+      "baselineParagraphCount": 7
+    }
+  ],
+  "synthesisHeading": "Confidence has to remain answerable to reasons",
+  "synthesisParagraphs": [
+    "Moore gives ordinary knowledge a role in evaluating philosophical theories. The challenge is to defend that role without extending it to every inherited conviction.",
+    "His ethical inquiry separates the meaning of good from the features proposed as its definition. The continuing dispute concerns what this separation establishes about goodness itself.",
+    "Take both questions into the neighboring pages: which claims deserve to constrain a theory, and which apparently simple definitions conceal an unresolved argument?"
+  ],
+  "synthesisNotices": [],
+  "quiz": [
+    {
+      "question": "What is Moore’s challenge to a skeptical argument?",
+      "options": [
+        "Any argument using abstract terms must be false.",
+        "Its premises must deserve more confidence than the ordinary knowledge it rejects.",
+        "Every popular opinion is true.",
+        "No ordinary belief may ever be revised."
+      ],
+      "answer": 1,
+      "explanations": [
+        "Abstraction itself is not the objection.",
+        "The comparison concerns evidential authority.",
+        "Popularity does not establish knowledge.",
+        "Actual evidence of error still matters."
+      ]
+    },
+    {
+      "question": "What does asking whether pleasure is good most directly challenge?",
+      "options": [
+        "The claim that pleasure exists.",
+        "The possibility of ethical inquiry.",
+        "Every scientific account of humans.",
+        "The claim that good and pleasant are equivalent in meaning."
+      ],
+      "answer": 3,
+      "explanations": [
+        "The argument can grant that experiences are pleasant.",
+        "The question is part of ethical inquiry.",
+        "The immediate issue is a proposed definition.",
+        "A meaningful further question places pressure on alleged synonymy."
+      ]
+    },
+    {
+      "question": "Why mention water and H2O?",
+      "options": [
+        "To show that difference in meaning need not exclude a discovered identity.",
+        "To prove that goodness is pleasure.",
+        "To equate ethical inquiry with chemistry.",
+        "To show that all definitions are useless."
+      ],
+      "answer": 0,
+      "explanations": [
+        "It identifies a possible gap in an argument from meaning to property identity.",
+        "The analogy proves no specific ethical identity.",
+        "The point is logical, not a reduction of ethics to chemistry.",
+        "A limit on one argument does not invalidate every definition."
+      ]
+    },
+    {
+      "question": "What is disputed in the hand proof?",
+      "options": [
+        "Whether two is greater than one.",
+        "Whether showing hands uses language.",
+        "Whether Moore knows the premises under the skeptic’s challenge.",
+        "Whether a hand could be an external object if it exists."
+      ],
+      "answer": 2,
+      "explanations": [
+        "The numerical step is not the skeptical issue.",
+        "Using language is not the central difficulty.",
+        "The dispute concerns the standing of the premises.",
+        "The proof treats the hands as external objects; their known existence is the pressure point."
+      ]
+    },
+    {
+      "question": "Which statement misuses common sense?",
+      "options": [
+        "A clear view ordinarily supports a judgment better than a blurred image.",
+        "An inherited social hierarchy needs no defense because it feels obvious.",
+        "A theoretical premise may be less secure than an ordinary claim.",
+        "Evidence of an error should affect confidence."
+      ],
+      "answer": 1,
+      "explanations": [
+        "This discriminates between evidential situations.",
+        "Familiarity cannot substitute for justification of a social claim.",
+        "That comparison expresses the method’s challenge.",
+        "Correction remains possible."
+      ]
+    },
+    {
+      "question": "What does a valid inference alone establish?",
+      "options": [
+        "That everyone must accept its premises.",
+        "That the premises are known.",
+        "That the conclusion cannot be questioned.",
+        "That the conclusion follows if the premises are true."
+      ],
+      "answer": 3,
+      "explanations": [
+        "Acceptance is a further matter.",
+        "Knowledge of premises is a separate issue.",
+        "A challenger may contest the premises.",
+        "Validity concerns the relation between premises and conclusion."
+      ]
+    },
+    {
+      "question": "How is Moore’s naturalistic fallacy used here?",
+      "options": [
+        "As a specific objection to defining good as another property.",
+        "As a name for every scientific mistake.",
+        "As the claim that natural things are always bad.",
+        "As a synonym for every appeal to tradition."
+      ],
+      "answer": 0,
+      "explanations": [
+        "The term has a particular role in his ethical analysis.",
+        "The target is not science as a whole.",
+        "No such reversal of value follows.",
+        "The objection concerns a definition of goodness."
+      ]
+    },
+    {
+      "question": "What is a productive outcome of the reading route?",
+      "options": [
+        "Treating both arguments as appeals to popularity.",
+        "Assuming moral and perceptual judgments have identical support.",
+        "Distinguishing the ethical argument about meaning from the epistemic dispute over premises.",
+        "Accepting the conclusion before identifying any premises."
+      ],
+      "answer": 2,
+      "explanations": [
+        "Popularity is not the proposed basis.",
+        "Their questions and evidence need separate assessment.",
+        "This preserves the different burdens of the two arguments.",
+        "Reconstruction should precede that assessment."
+      ]
+    }
+  ],
+  "references": "<h2>Sources and further reading</h2><p>These texts support the editorial explanations; the approved site-native profile remains the structural baseline.</p><ul><li><a href=\"https://www.gutenberg.org/files/53430/53430-h/53430-h.htm\">G.E. Moore, Principia Ethica (1903), chapter I</a></li><li><a href=\"https://home.csulb.edu/~cwallis/382/readings/382/Moore_Proof.html\">G.E. Moore, Proof of an External World (1939)</a></li></ul>",
+  "responseReviews": {
+    "1": "Explained epistemic priority of ordinary knowledge without equating it with popular belief; connected ethical analysis while keeping arguments distinct.",
+    "2": "Explained open question, naturalistic fallacy and hand proof; distinguished meaning/property identity and validity/known premises; bounded water analogy.",
+    "3": "Kept inherited-assumption objection, gave modest-knowledge reply, distinguished skeptical premise challenge from popular prejudice; added clear/blurred cup test.",
+    "4": "Provided precise Principia I.5–14 and Proof route, corrected incomplete baseline avoid-shortcut sentence; preserved five original follow-ups."
+  },
+  "remainingConcerns": [
+    "Approved site-native profile, not WordPress source.",
+    "Whether open-question reasoning establishes non-naturalism remains disputed.",
+    "The hand proof’s force against skepticism remains contested; validity is not persuasion.",
+    "Desk/photo comparison is an editorial hypothetical, not a reported Moore example."
+  ],
+  "supplementalReferences": [
+    {
+      "url": "https://www.gutenberg.org/files/53430/53430-h/53430-h.htm",
+      "title": "G.E. Moore, Principia Ethica (1903), chapter I"
+    },
+    {
+      "url": "https://home.csulb.edu/~cwallis/382/readings/382/Moore_Proof.html",
+      "title": "G.E. Moore, Proof of an External World (1939)"
+    }
+  ]
+}
