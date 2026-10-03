@@ -1,0 +1,79 @@
+{
+  "pagePath": "/philosophers/jean-jacques-rousseau/",
+  "sourceKind": "site-native editorial/reconstructed profile",
+  "sourceIsOriginalWordPress": false,
+  "baselineSnapshot": "quality/original-source-revisions/jean-jacques-rousseau-first-repository-345af16a41ec.html",
+  "baselineSha256": "2c3b1642510bee085a94d770198a0ff54e08e34c486d1f978194ca14e48e721e",
+  "originalPrompts": 4,
+  "responseSections": 4,
+  "promptOrderExact": true,
+  "originalResponseListCounts": [
+    6,
+    5,
+    5,
+    5
+  ],
+  "originalSynthesisQuestionsPreserved": 5,
+  "quizQuestions": 8,
+  "genericParagraphsConsolidated": 11,
+  "sha256": "bee6fed5edb26a7cb377b1ee2952b6f2188343227660691cd6f1a5d26cd808cd",
+  "verifiedAt": "2026-10-03T13:15:24.613509+00:00",
+  "fullBaselineRead": true,
+  "fullCurrentEditionRead": true,
+  "baselineMatchedBy": [
+    "approved-page-path",
+    "title",
+    "four-prompts",
+    "exact-first-addition-commit",
+    "snapshot-SHA256"
+  ],
+  "sourceURL": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/jean-jacques-rousseau/index.html",
+  "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
+  "approvalManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+  "responseReviews": {
+    "1": "Replaced generic historical/influence framing with institution-shaped desire, hypothetical school ranking and distinction between diagnosis and legitimacy.",
+    "2": "Explained amour-propre/amour de soi, general will/will of all, conjectural natural goodness and civic freedom; retained four original conceptual priorities.",
+    "3": "Preserved coercion/general-will objection, addressed forced-to-be-free passage and internal constraints, then tested formal generality against minority participation.",
+    "4": "Provided Discourse introduction/PartII and Social Contract I.6–8,II.1–4/6 route; retained five list roles and five exact follow-ups."
+  },
+  "remainingConcerns": [
+    "Approved site-native editorial/reconstructed profile, not a WordPress original.",
+    "The Discourse supplies a conjectural account, not established anthropology.",
+    "The school-ranking and meeting-rule cases are editorial hypotheticals.",
+    "The relation of the general will to voting and dissent remains contested; criteria are not presented as self-enforcing safeguards."
+  ],
+  "supplementalReferences": [
+    {
+      "url": "https://www.gutenberg.org/cache/epub/11136/pg11136-images.html",
+      "title": "Rousseau, Discourse on Inequality — complete translation"
+    },
+    {
+      "url": "https://www.gutenberg.org/files/46333/46333-h/46333-h.htm",
+      "title": "Rousseau, The Social Contract and Discourses — G. D. H. Cole translation"
+    }
+  ],
+  "deliberateOmissionsRejected": [
+    ".original-prompt-text",
+    "#prompt-1 > ol > li",
+    "#synthesis > ol > li",
+    ".quiz-item"
+  ],
+  "fidelity": {
+    "fourPromptsVerbatimInOrder": true,
+    "fourResponsePositionsPreserved": true,
+    "originalListPositionsPreserved": true,
+    "fiveSynthesisQuestionsVerbatim": true,
+    "restoredFifthFollowupOmittedByLaterReconstruction": true,
+    "noOriginalDialogueOrSeparateCuratorCorrection": true,
+    "eightQuizSlotsWithFourOptionsPreserved": true,
+    "allEightQuestionsAnd32FeedbackEntriesPageSpecific": true,
+    "baselineResponseParagraphs": 26,
+    "revisedResponseParagraphs": 15,
+    "synthesisParagraphCountPreserved": 3,
+    "originalNoticesCountPreserved": 0,
+    "restoredOriginalResponseListEntries": 3
+  },
+  "preservedEffectiveMaterial": "Original four-response progression, named concepts, main skeptical objection and ordered list roles retained and developed. Effective entry questions retained. Repetitive writing instructions replaced by explanations; five follow-up questions retained verbatim. No original dialogue or separate curator exchange existed.",
+  "fullBuildByteIdentical": true,
+  "fullBuildEvidence": "quality/original-source-revisions/batch-verification-2026-10-03.json"
+}

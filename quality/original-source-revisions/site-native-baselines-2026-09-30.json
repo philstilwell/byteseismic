@@ -234,9 +234,11 @@
         "How should a contemporary reader begin with Hannah Arendt?"
       ],
       "promptSectionCount": 4,
-      "status": "approved-site-native-baseline-editorial-review-pending",
-      "editoriallyComplete": false,
-      "currentPageSha256AtApproval": "0dfa046cc74b50c240e2045a9c9b2e79e99d52a5b89d52f672452b03fa195cd0"
+      "status": "reviewed-revised-approved-baseline-verified",
+      "editoriallyComplete": true,
+      "currentPageSha256AtApproval": "0dfa046cc74b50c240e2045a9c9b2e79e99d52a5b89d52f672452b03fa195cd0",
+      "verificationFile": "quality/original-source-revisions/hannah-arendt-site-native-verification.json",
+      "reviewedAt": "2026-10-03T13:15:24.613509+00:00"
     },
     {
       "pagePath": "/philosophers/heraclitus/",
@@ -255,9 +257,11 @@
         "How should a contemporary reader begin with Heraclitus?"
       ],
       "promptSectionCount": 4,
-      "status": "approved-site-native-baseline-editorial-review-pending",
-      "editoriallyComplete": false,
-      "currentPageSha256AtApproval": "b20d4fe2050c95d6492b4b8161e2393973060cd56e0d67a7eaf438f93cfab11c"
+      "status": "reviewed-revised-approved-baseline-verified",
+      "editoriallyComplete": true,
+      "currentPageSha256AtApproval": "b20d4fe2050c95d6492b4b8161e2393973060cd56e0d67a7eaf438f93cfab11c",
+      "verificationFile": "quality/original-source-revisions/heraclitus-site-native-verification.json",
+      "reviewedAt": "2026-10-03T13:15:24.613509+00:00"
     },
     {
       "pagePath": "/philosophers/jean-jacques-rousseau/",
@@ -276,9 +280,11 @@
         "How should a contemporary reader begin with Jean-Jacques Rousseau?"
       ],
       "promptSectionCount": 4,
-      "status": "approved-site-native-baseline-editorial-review-pending",
-      "editoriallyComplete": false,
-      "currentPageSha256AtApproval": "6d243802416fb2dda864dba1e0aa16a6e6a64ad3cdb178ed1ef1e90d607b02e4"
+      "status": "reviewed-revised-approved-baseline-verified",
+      "editoriallyComplete": true,
+      "currentPageSha256AtApproval": "6d243802416fb2dda864dba1e0aa16a6e6a64ad3cdb178ed1ef1e90d607b02e4",
+      "verificationFile": "quality/original-source-revisions/jean-jacques-rousseau-site-native-verification.json",
+      "reviewedAt": "2026-10-03T13:15:24.613509+00:00"
     },
     {
       "pagePath": "/philosophers/john-rawls/",
@@ -297,9 +303,11 @@
         "How should a contemporary reader begin with John Rawls?"
       ],
       "promptSectionCount": 4,
-      "status": "approved-site-native-baseline-editorial-review-pending",
-      "editoriallyComplete": false,
-      "currentPageSha256AtApproval": "ac3bf36343840ad2271359109847b4ae67074ee2fe05615c6f15c2883faf6ded"
+      "status": "reviewed-revised-approved-baseline-verified",
+      "editoriallyComplete": true,
+      "currentPageSha256AtApproval": "ac3bf36343840ad2271359109847b4ae67074ee2fe05615c6f15c2883faf6ded",
+      "verificationFile": "quality/original-source-revisions/john-rawls-site-native-verification.json",
+      "reviewedAt": "2026-10-03T13:15:24.613509+00:00"
     },
     {
       "pagePath": "/philosophers/john-stuart-mill/",
@@ -680,7 +688,7 @@
       "currentPageSha256AtApproval": "e55f717413af6b31ac4b691cdf6342cef51a35831513645cc2c92a43300092ef"
     }
   ],
-  "reviewedPages": 9,
-  "pendingPages": 22,
-  "reviewStatusReconciledAt": "2026-10-02T13:23:53.743010+00:00"
+  "reviewedPages": 13,
+  "pendingPages": 18,
+  "reviewStatusReconciledAt": "2026-10-03T13:20:48.322815+00:00"
 }

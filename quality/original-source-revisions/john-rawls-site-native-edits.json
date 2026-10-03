@@ -1,0 +1,218 @@
+{
+  "pagePath": "/philosophers/john-rawls/",
+  "shellRevision": "6dd93dece998a5905d99cdc339d08c81f606f391",
+  "revisionDate": "2026-10-03",
+  "intro": "Rawls asks which terms of social cooperation can be justified to free and equal citizens. His hypothetical choice situation clarifies impartiality, but applying its principles requires attention to institutions, history and unequal power.",
+  "description": "John Rawls on impartial choice, liberty, opportunity and the difference principle, with a numerical example and the challenge of applying ideals.",
+  "sections": [
+    {
+      "heading": "Fair cooperation asks more than whether society is richer",
+      "paragraphs": [
+        "John Rawls remains important because he makes the justification of society’s main institutions a central philosophical problem. A policy can increase total wealth while leaving some people without secure rights or meaningful opportunities. His account of justice as fairness asks whether the terms of cooperation can be defended to each citizen, including those whose social position gives them little bargaining power.",
+        "His <em>A Theory of Justice</em>, published in 1971, presented a systematic alternative to utilitarian approaches that assess arrangements through aggregate welfare. The historical importance is not that political morality began with Rawls. It is that his account gave debates about liberty, equality and institutional design a detailed shared proposal to examine and dispute.",
+        "The familiar device is a hypothetical choice situation in which parties cannot tailor principles to their own class, talents or conception of a good life. Imagine designing the rules of an institution before learning whether your own circumstances will be favored by them. The analogy gives an initial grip on impartiality; it does not yet prove which principles must be selected or reproduce every condition in Rawls’s argument."
+      ],
+      "listItems": [
+        "<strong>Historical setting:</strong> Late twentieth-century political philosophy received a sustained account of justice that challenged the adequacy of aggregate welfare as its governing standard.",
+        "<strong>Signature contribution:</strong> A fair hypothetical choice situation models how principles might be justified without bargaining advantages from one’s social position.",
+        "<strong>Influence trail:</strong> Debates about equality and legitimacy must ask what institutions owe to each citizen, not only what they produce in total.",
+        "<strong>Historical setting as a qualification:</strong> Rawls renewed a major form of systematic argument; he did not invent the questions of justice or render earlier political philosophy obsolete.",
+        "<strong>Influence through criticism:</strong> Later disputes test both the fairness built into the model and whether it gives adequate guidance under real inequality."
+      ],
+      "notices": [],
+      "baselineParagraphCount": 7
+    },
+    {
+      "heading": "The veil is one part of an argument with ordered principles",
+      "paragraphs": [
+        "The <em>original position</em> is a modeled choice situation for selecting principles of justice, not a historical meeting or an actual agreement citizens once signed. The <em>veil of ignorance</em> is one restriction within that situation: parties lack information that would allow them to favor their particular social position. They retain general knowledge about human life and social cooperation. Impartiality is being modeled; universal amnesia is not.",
+        "The resulting principles have an order. Equal basic liberties come first. Social and economic inequalities must be compatible with fair equality of opportunity and must work to the greatest benefit of the least advantaged; within this second principle, fair opportunity has priority. The last requirement is the <em>difference principle</em>. An income gain cannot simply compensate for denying a group a basic liberty, and advertising an office as open to everyone does not establish fair opportunity.",
+        "Consider three hypothetical institutional arrangements, assumed for this limited illustration to satisfy the prior liberty and opportunity requirements. Suppose an index of the least advantaged group’s prospects is 40 under A, 50 under B and 45 under C. If these are the feasible alternatives and other relevant requirements are equal, the difference principle favors B. C does not win merely because it has a higher average income, and A does not win merely because its distribution is more equal. The invented numbers illustrate a comparison; they are not a welfare measurement or an argument that existing inequalities help anyone.",
+        "An <em>overlapping consensus</em> concerns a different problem: citizens with differing reasonable religious and philosophical outlooks may endorse a political conception of justice for their own reasons. This is more than a temporary bargain maintained only while the balance of power is convenient. It also does not require agreement on every moral question.",
+        "The method is usually called <em>reflective equilibrium</em>: considered judgments, general principles and the reasons for them are adjusted in light of one another and of serious alternatives. The baseline’s phrase “constructive equilibrium,” retained in its final follow-up question, should be understood here through this standard term. The method tests an account; it does not make every initial intuition infallible or secure a conclusion simply by imagining a veil."
+      ],
+      "listItems": [
+        "<strong>Original position:</strong> A hypothetical representation of fair choice asks which principles can govern society’s main institutions.",
+        "<strong>Veil of ignorance:</strong> Particular advantages are hidden while relevant general knowledge remains available.",
+        "<strong>Difference principle:</strong> Compare feasible institutional schemes by the prospects of the least advantaged, subject to prior liberty and opportunity requirements; some benefit is not enough.",
+        "<strong>Overlapping consensus:</strong> Different reasonable outlooks can support a shared political conception for moral reasons without becoming one worldview.",
+        "<strong>Historical pressure:</strong> Reflective equilibrium keeps principles, judgments and alternatives mutually answerable; the fairness of the modeled choice also needs justification."
+      ],
+      "notices": [],
+      "baselineParagraphCount": 7
+    },
+    {
+      "heading": "A fair model still needs a route through an unfair world",
+      "paragraphs": [
+        "The strongest objection developed here asks whether idealized fairness can guide institutions shaped by domination and historical exclusion. Choosing principles while ignoring one’s own identity is different from applying them while ignoring the history of a society. If those operations are confused, a proposal that looks impartial can preserve the very advantages the theory aims to question.",
+        "Consider a hypothetical competitive school system that formally allows every child to apply but inherits sharply unequal preparation and resources. A single examination does not establish fair equality of opportunity merely because the questions are identical. The example presses the theory to identify which background conditions matter, how they should be changed and how to judge competing reforms.",
+        "A charitable reply is that Rawls’s principles concern the <em>basic structure</em>, the main institutions and how they fit together. They are not just rules for isolated transactions. Their application requires social information; the veil is not a permanent instruction to ignore disadvantage. Ideal principles can identify what is wrong with formally equal arrangements and provide a direction for reform.",
+        "That reply leaves work to do. The model does not by itself determine the effects of a specific reform, how to repair historical injustice or which transition is feasible without entrenching new harms. A defender must connect the principles to evidence and an account of institutional change. A critic should distinguish that missing application from a demonstration that impartial justification is itself worthless."
+      ],
+      "listItems": [
+        "<strong>Best objection:</strong> Ideal principles may underdetermine reform where history, unequal power and imperfect compliance shape the available choices.",
+        "<strong>Charitable reply:</strong> Justice as fairness addresses the basic structure and can criticize the background conditions that make formally equal rules unfair.",
+        "<strong>Contemporary test:</strong> In the school example, examine preparation and access rather than treating an identical examination as sufficient proof of opportunity.",
+        "<strong>Charitable reply extended:</strong> Hiding personal advantages when choosing principles does not require hiding social facts when applying them.",
+        "<strong>Contemporary test extended:</strong> Compare a reform’s expected effects, institutional constraints and alternatives; do not let an attractive ideal replace the evidence."
+      ],
+      "notices": [],
+      "baselineParagraphCount": 7
+    },
+    {
+      "heading": "Read the choice device together with its institutional purpose",
+      "paragraphs": [
+        "Begin with the opening sections of <em>A Theory of Justice</em> on society’s basic structure and justice as fairness. Then read sections 11–13 on the principles and their interpretation, section 24 on the veil, and section 46 for the statement of the principles and their priority rules. Keep the rule for choosing principles distinct from the social arrangements those principles evaluate.",
+        "Use the three-arrangement example to check one common misreading: an inequality is not justified merely because the disadvantaged receive something. You must compare their prospects across alternatives, and you must first check the liberty and opportunity requirements. Then ask what information a real comparison would need. The example deliberately omits many practical measurement problems so that its limited point is visible.",
+        "Next read sections 10–11 of <em>Justice as Fairness: A Restatement</em> on reflective equilibrium and overlapping consensus. These make clearer why a fair-looking thought experiment is not the whole justification and why shared political principles need not rest on one comprehensive worldview. Carry the school example into that reading to keep the objection about real institutions active."
+      ],
+      "listItems": [
+        "<strong>Best entry point:</strong> Ask what terms you could defend without knowing whether your own position would benefit from them.",
+        "<strong>What to watch:</strong> Distinguish hypothetical choice, the priority of principles and the evidence needed for institutional application.",
+        "<strong>Where to go next:</strong> Read the named sections of <em>A Theory of Justice</em>, then reflective equilibrium and overlapping consensus in the <em>Restatement</em>.",
+        "<strong>Reading discipline:</strong> Compare considered judgments with principles and serious alternatives; examine the assumptions built into the original position itself.",
+        "<strong>Avoid the shortcut:</strong> Neither a higher average income nor any small gain to disadvantaged people is enough to establish justice as fairness."
+      ],
+      "notices": [],
+      "baselineParagraphCount": 6
+    }
+  ],
+  "synthesisHeading": "Impartiality must reach the institutions people live under",
+  "synthesisParagraphs": [
+    "Rawls’s choice device removes particular bargaining advantages so that principles can be assessed as fair terms of cooperation. It models a moral commitment whose justification still needs argument.",
+    "Liberty, fair opportunity and the prospects of the least advantaged constrain institutional design in an ordered way. The numerical example isolates one comparison while keeping those prior constraints explicit.",
+    "The challenge is to connect the ideal with history, evidence and practicable reform. The following questions retain the approved baseline’s wording; the discussion above clarifies its reference to equilibrium."
+  ],
+  "synthesisNotices": [],
+  "quiz": [
+    {
+      "question": "What is the original position?",
+      "options": [
+        "An actual meeting held before society existed.",
+        "A historical contract every citizen signed.",
+        "A hypothetical situation for choosing principles fairly.",
+        "A poll of the richest citizens."
+      ],
+      "answer": 2,
+      "explanations": [
+        "The argument does not depend on that historical event.",
+        "Hypothetical justification differs from actual consent.",
+        "It models a fair choice situation rather than reporting an event.",
+        "Such a poll would preserve the advantages the model excludes."
+      ]
+    },
+    {
+      "question": "What does the veil of ignorance leave available?",
+      "options": [
+        "General knowledge relevant to human life and cooperation.",
+        "Knowledge of one’s exact future income.",
+        "Knowledge that one will belong to the ruling group.",
+        "No knowledge of any kind."
+      ],
+      "answer": 0,
+      "explanations": [
+        "The model hides particular advantages without making deliberation impossible.",
+        "This could enable principles tailored to personal advantage.",
+        "The restriction prevents such positional bargaining.",
+        "The parties retain relevant general information."
+      ]
+    },
+    {
+      "question": "Which claim states a necessary limit on using the difference principle?",
+      "options": [
+        "Average income always takes priority over basic liberty.",
+        "Prior liberty and fair-opportunity requirements must also be satisfied.",
+        "Any inequality is fair if someone gains a little.",
+        "Every outcome must give everyone identical income."
+      ],
+      "answer": 1,
+      "explanations": [
+        "Basic liberty cannot simply be traded for aggregate gains.",
+        "The comparison is constrained by the ordered principles.",
+        "The requirement concerns the best prospects across relevant alternatives.",
+        "Equal distribution is not the sole criterion."
+      ]
+    },
+    {
+      "question": "Under the example’s stated assumptions, which arrangement is favored?",
+      "options": [
+        "A, because its distribution is more equal.",
+        "C, because its average income is higher.",
+        "All three, because any benefit is sufficient.",
+        "B, because 50 is the best least-advantaged prospect among the feasible alternatives."
+      ],
+      "answer": 3,
+      "explanations": [
+        "The example holds prior requirements equal and compares the group’s prospects.",
+        "Average income is not the criterion used in this comparison.",
+        "Different prospects still have to be compared.",
+        "This is the limited comparison illustrated by the invented numbers."
+      ]
+    },
+    {
+      "question": "What is an overlapping consensus?",
+      "options": [
+        "Agreement on every religious doctrine.",
+        "A bargain that lasts only while power is balanced.",
+        "Moral support for shared political principles from different reasonable outlooks.",
+        "A ban on philosophical disagreement."
+      ],
+      "answer": 2,
+      "explanations": [
+        "The comprehensive outlooks may remain different.",
+        "Consensus is intended to have more than strategic support.",
+        "Shared political commitment need not erase deeper differences.",
+        "Reasonable disagreement is part of the problem being addressed."
+      ]
+    },
+    {
+      "question": "What does reflective equilibrium require?",
+      "options": [
+        "Revising judgments and principles in light of reasons and alternatives.",
+        "Treating every first intuition as infallible.",
+        "Accepting whatever the majority initially believes.",
+        "Using a thought experiment to avoid all criticism."
+      ],
+      "answer": 0,
+      "explanations": [
+        "The method makes different levels of judgment answerable to one another.",
+        "Initial judgments can be reconsidered.",
+        "Popularity is not a substitute for considered justification.",
+        "The assumptions of the model also need scrutiny."
+      ]
+    },
+    {
+      "question": "Why does an identical school examination not settle fair opportunity?",
+      "options": [
+        "Because examinations never reveal anything.",
+        "Because unequal preparation and access may affect the competition.",
+        "Because the veil prohibits studying institutions.",
+        "Because Rawls requires ignoring every social fact."
+      ],
+      "answer": 1,
+      "explanations": [
+        "The issue is whether the examination suffices to establish fairness.",
+        "Formal openness can coexist with unequal background conditions.",
+        "Institutional application requires relevant information.",
+        "The restriction on choice is not a ban on facts during application."
+      ]
+    },
+    {
+      "question": "What remains after ideal principles have been stated?",
+      "options": [
+        "No need to compare reforms.",
+        "A guarantee that existing institutions are just.",
+        "A proof that every transition will work.",
+        "The task of connecting principles to history, evidence and feasible institutional change."
+      ],
+      "answer": 3,
+      "explanations": [
+        "Competing reforms can have different effects.",
+        "Principles provide standards for criticism as well as assessment.",
+        "A transition needs an argument about its likely consequences.",
+        "The original objection concerns precisely this further work."
+      ]
+    }
+  ],
+  "references": "<h2>Primary reading and editorial checks</h2><p>The examples identified as hypothetical are editorial illustrations. These readings support the distinctions and reading route above.</p><ul><li><a href=\"https://discoversocialsciences.com/wp-content/uploads/2018/08/Rawls_Theory_of_Justice.pdf\">Rawls, A Theory of Justice — revised edition, especially sections 11–13, 24 and 46</a></li><li><a href=\"https://www.willbrehm.com/wp-content/uploads/2016/02/Rawls-Reading.pdf\">Rawls, Justice as Fairness: A Restatement — Part I, including sections 10–11</a></li></ul>"
+}

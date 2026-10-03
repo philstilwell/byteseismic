@@ -1,0 +1,80 @@
+{
+  "pagePath": "/philosophers/john-rawls/",
+  "sourceKind": "site-native editorial/reconstructed profile",
+  "sourceIsOriginalWordPress": false,
+  "baselineSnapshot": "quality/original-source-revisions/john-rawls-first-repository-345af16a41ec.html",
+  "baselineSha256": "09e3c7ae437915ed533f75ebbd496a56dc37bd7e42a5efe0c6216a439ca614f6",
+  "originalPrompts": 4,
+  "responseSections": 4,
+  "promptOrderExact": true,
+  "originalResponseListCounts": [
+    5,
+    5,
+    5,
+    5
+  ],
+  "originalSynthesisQuestionsPreserved": 5,
+  "quizQuestions": 8,
+  "genericParagraphsConsolidated": 12,
+  "sha256": "7d65272389ea402062e118de3d202a2a738efc1fd6f95077cd35f1a0a13f995b",
+  "verifiedAt": "2026-10-03T13:15:24.613509+00:00",
+  "fullBaselineRead": true,
+  "fullCurrentEditionRead": true,
+  "baselineMatchedBy": [
+    "approved-page-path",
+    "title",
+    "four-prompts",
+    "exact-first-addition-commit",
+    "snapshot-SHA256"
+  ],
+  "sourceURL": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/john-rawls/index.html",
+  "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
+  "approvalManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+  "responseReviews": {
+    "1": "Replaced generic importance/history prose with basic institutions and justification to each citizen; qualified historical revival and scope of introductory thought experiment.",
+    "2": "Distinguished original position/veil/general knowledge, supplied liberty/opportunity priority and greatest-benefit comparison 40/50/45, clarified consensus and corrected constructive to reflective equilibrium while preserving exact follow-up.",
+    "3": "Preserved ideal-versus-nonideal objection; developed school preparation case, basic-structure reply and distinction between choosing principles and fact-sensitive application.",
+    "4": "Provided precise Theory sections11–13,24,46 and Restatement10–11 reading route; retained original five list roles and five exact follow-up questions."
+  },
+  "remainingConcerns": [
+    "Approved site-native editorial/reconstructed profile, not WordPress source.",
+    "The numerical example is invented and conditional on prior liberties/opportunity and equal other requirements; it is not an empirical inequality assessment.",
+    "The school example is hypothetical; the page supplies no ready-made policy or remedy for a specific historical injustice.",
+    "The baseline follow-up retains constructive equilibrium verbatim; the response and synthesis explain the standard term reflective equilibrium.",
+    "The original-position argument and its application remain disputed; the page does not claim the veil alone proves the principles."
+  ],
+  "supplementalReferences": [
+    {
+      "url": "https://discoversocialsciences.com/wp-content/uploads/2018/08/Rawls_Theory_of_Justice.pdf",
+      "title": "Rawls, A Theory of Justice — revised edition, especially sections 11–13, 24 and 46"
+    },
+    {
+      "url": "https://www.willbrehm.com/wp-content/uploads/2016/02/Rawls-Reading.pdf",
+      "title": "Rawls, Justice as Fairness: A Restatement — Part I, including sections 10–11"
+    }
+  ],
+  "deliberateOmissionsRejected": [
+    ".original-prompt-text",
+    "#prompt-1 > ol > li",
+    "#synthesis > ol > li",
+    ".quiz-item"
+  ],
+  "fidelity": {
+    "fourPromptsVerbatimInOrder": true,
+    "fourResponsePositionsPreserved": true,
+    "originalListPositionsPreserved": true,
+    "fiveSynthesisQuestionsVerbatim": true,
+    "restoredFifthFollowupOmittedByLaterReconstruction": true,
+    "noOriginalDialogueOrSeparateCuratorCorrection": true,
+    "eightQuizSlotsWithFourOptionsPreserved": true,
+    "allEightQuestionsAnd32FeedbackEntriesPageSpecific": true,
+    "baselineResponseParagraphs": 27,
+    "revisedResponseParagraphs": 15,
+    "synthesisParagraphCountPreserved": 3,
+    "originalNoticesCountPreserved": 0,
+    "restoredOriginalResponseListEntries": 2
+  },
+  "preservedEffectiveMaterial": "Original four-response progression, named concepts, main skeptical objection and ordered list roles retained and developed. Effective entry questions retained. Repetitive writing instructions replaced by explanations; five follow-up questions retained verbatim. No original dialogue or separate curator exchange existed.",
+  "fullBuildByteIdentical": true,
+  "fullBuildEvidence": "quality/original-source-revisions/batch-verification-2026-10-03.json"
+}

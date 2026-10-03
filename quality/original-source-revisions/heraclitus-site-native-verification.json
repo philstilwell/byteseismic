@@ -1,0 +1,79 @@
+{
+  "pagePath": "/philosophers/heraclitus/",
+  "sourceKind": "site-native editorial/reconstructed profile",
+  "sourceIsOriginalWordPress": false,
+  "baselineSnapshot": "quality/original-source-revisions/heraclitus-first-repository-345af16a41ec.html",
+  "baselineSha256": "d43a490c5d481844940f68530bf462965a5f0931d18b7fd524e55700fb3213e0",
+  "originalPrompts": 4,
+  "responseSections": 4,
+  "promptOrderExact": true,
+  "originalResponseListCounts": [
+    6,
+    5,
+    5,
+    6
+  ],
+  "originalSynthesisQuestionsPreserved": 5,
+  "quizQuestions": 8,
+  "genericParagraphsConsolidated": 12,
+  "sha256": "2350448902c1fd7467951e834e1570a9366ab49daac26ac19b14f090f035cc54",
+  "verifiedAt": "2026-10-03T13:15:24.613509+00:00",
+  "fullBaselineRead": true,
+  "fullCurrentEditionRead": true,
+  "baselineMatchedBy": [
+    "approved-page-path",
+    "title",
+    "four-prompts",
+    "exact-first-addition-commit",
+    "snapshot-SHA256"
+  ],
+  "sourceURL": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/heraclitus/index.html",
+  "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
+  "approvalManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+  "responseReviews": {
+    "1": "Replaced universal-influence boilerplate with identity-through-change problem, early Greek setting and limits of later transmission.",
+    "2": "Developed flux/logos/opposition/wakefulness individually; compared river, bow and road; distinguished tension, relative standpoint and logical contradiction.",
+    "3": "Preserved identity/knowledge/law objection; supplied ordered-continuity reply and hypothetical river-diversion test; stated limits of analogy and ancient fire cosmology.",
+    "4": "Provided exact DK B12,B1–2,B51,B60,B30 route; retained six original reading-list roles and five exact follow-ups, including effective original starting question."
+  },
+  "remainingConcerns": [
+    "Approved site-native editorial/reconstructed profile, not WordPress source.",
+    "The original book is lost; translation, authenticity and the reach of the logos remain contested.",
+    "Burnet’s older river rendering must be read with the linked alternative-version notes; it is not presented as the sole authoritative text.",
+    "The diverted river is an editorial hypothetical; ancient images are not presented as modern scientific discoveries."
+  ],
+  "supplementalReferences": [
+    {
+      "url": "https://en.wikisource.org/wiki/Fragments_of_Heraclitus_(annotated)",
+      "title": "Heraclitus, surviving fragments — Burnet translation, with notes"
+    },
+    {
+      "url": "https://heraclitusfragments.com/B12/notes.html",
+      "title": "River fragment B12 — comparison of ancient versions and translations"
+    }
+  ],
+  "deliberateOmissionsRejected": [
+    ".original-prompt-text",
+    "#prompt-1 > ol > li",
+    "#synthesis > ol > li",
+    ".quiz-item"
+  ],
+  "fidelity": {
+    "fourPromptsVerbatimInOrder": true,
+    "fourResponsePositionsPreserved": true,
+    "originalListPositionsPreserved": true,
+    "fiveSynthesisQuestionsVerbatim": true,
+    "restoredFifthFollowupOmittedByLaterReconstruction": true,
+    "noOriginalDialogueOrSeparateCuratorCorrection": true,
+    "eightQuizSlotsWithFourOptionsPreserved": true,
+    "allEightQuestionsAnd32FeedbackEntriesPageSpecific": true,
+    "baselineResponseParagraphs": 26,
+    "revisedResponseParagraphs": 14,
+    "synthesisParagraphCountPreserved": 3,
+    "originalNoticesCountPreserved": 0,
+    "restoredOriginalResponseListEntries": 4
+  },
+  "preservedEffectiveMaterial": "Original four-response progression, named concepts, main skeptical objection and ordered list roles retained and developed. Effective entry questions retained. Repetitive writing instructions replaced by explanations; five follow-up questions retained verbatim. No original dialogue or separate curator exchange existed.",
+  "fullBuildByteIdentical": true,
+  "fullBuildEvidence": "quality/original-source-revisions/batch-verification-2026-10-03.json"
+}

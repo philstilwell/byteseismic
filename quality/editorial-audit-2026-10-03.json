@@ -1,0 +1,2068 @@
+{
+  "automationId": "byteseismic-daily-editorial-audit",
+  "runTime": "2026-10-03T13:20:48.322815+00:00",
+  "savedModel": "gpt-6-astra",
+  "savedReasoningEffort": "high",
+  "runStartHead": "6dd93dece998a5905d99cdc339d08c81f606f391",
+  "status": "partial-batch-four-substantive-reviews",
+  "cycle": 8,
+  "startIndex": 50,
+  "endIndexExclusive": 100,
+  "batchSize": 50,
+  "trackerAdvanced": false,
+  "trackerCompleted": 50,
+  "trackerRemaining": 296,
+  "substantivelyReviewedTotal": 82,
+  "notYetSubstantivelyReviewed": 264,
+  "currentBatch": {
+    "reviewed": 32,
+    "awaitingFullReview": 18,
+    "blockedSources": 0
+  },
+  "nextSourceReadyPage": "/philosophers/john-stuart-mill/",
+  "nextBatch": "Same saved fifty, At the Edge of Miracles through Aquinas’ Five Ways; no later batch activated.",
+  "pendingPages": [
+    "/philosophers/john-stuart-mill/",
+    "/philosophers/judith-butler/",
+    "/philosophers/laozi/",
+    "/philosophers/maimonides/",
+    "/philosophers/mary-wollstonecraft/",
+    "/philosophers/mencius/",
+    "/philosophers/mozi/",
+    "/philosophers/nagarjuna/",
+    "/philosophers/niccolo-machiavelli/",
+    "/philosophers/parmenides/",
+    "/philosophers/plato/",
+    "/philosophers/plotinus/",
+    "/philosophers/saul-kripke/",
+    "/philosophers/shankara/",
+    "/philosophers/theodor-adorno/",
+    "/philosophers/walter-benjamin/",
+    "/philosophers/xunzi/",
+    "/philosophers/zhuangzi/"
+  ],
+  "blockedPages": [],
+  "approvalManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+  "newReviews": [
+    {
+      "pagePath": "/philosophers/hannah-arendt/",
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "sourceIsOriginalWordPress": false,
+      "baselineSnapshot": "quality/original-source-revisions/hannah-arendt-first-repository-345af16a41ec.html",
+      "baselineSha256": "72d9f9023fe723834727069ed7d394be8f3346ebdf4f55a43d990ee8bc6b2527",
+      "originalPrompts": 4,
+      "responseSections": 4,
+      "promptOrderExact": true,
+      "originalResponseListCounts": [
+        6,
+        5,
+        5,
+        5
+      ],
+      "originalSynthesisQuestionsPreserved": 5,
+      "quizQuestions": 8,
+      "genericParagraphsConsolidated": 12,
+      "sha256": "ab04314c19fb7dcbe019ac14b90c4997130ac4c160b31c1933cdc47d59103beb",
+      "verifiedAt": "2026-10-03T13:15:24.613509+00:00",
+      "fullBaselineRead": true,
+      "fullCurrentEditionRead": true,
+      "baselineMatchedBy": [
+        "approved-page-path",
+        "title",
+        "four-prompts",
+        "exact-first-addition-commit",
+        "snapshot-SHA256"
+      ],
+      "sourceURL": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/hannah-arendt/index.html",
+      "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
+      "approvalManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "responseReviews": {
+        "1": "Replaced generic fame/influence framing with public freedom versus administration; historical context qualified; hypothetical neighborhood case supplies continuity.",
+        "2": "Explained plurality, natality, public realm and labor/work/action; distinguished banality from triviality, innocence and a universal theory; all concept-list roles retained.",
+        "3": "Developed original sharp-categories objection through childcare/access; charitable activity distinction and remaining exclusion problem; responsibility assessed separately through a hypothetical office.",
+        "4": "Provided concrete Human Condition→Thinking→Eichmann postscript route and historical-evidence discipline; preserved five ordered reading items and five exact follow-ups."
+      },
+      "remainingConcerns": [
+        "Approved site-native editorial/reconstructed profile, not WordPress source.",
+        "Arendt’s historical interpretation of Eichmann remains a claim requiring evidence; the page makes no new historical finding about his motives.",
+        "Neighborhood, childcare and office cases are editorial hypotheticals, not reports by Arendt.",
+        "The boundaries between social needs and political action remain contested; the charitable reply is not presented as a complete resolution."
+      ],
+      "supplementalReferences": [
+        {
+          "url": "https://www.frontdeskapparatus.com/files/arendt.pdf",
+          "title": "Arendt, The Human Condition — public and private realm excerpt"
+        },
+        {
+          "url": "https://moodle.bezalel.ac.il/pluginfile.php/112179/mod_resource/content/1/Arendt%2C%20Hannah%20-%20Human%20Condition%2C%202nd%20edn.%20%28Chicago%2C%201998%29.pdf",
+          "title": "Arendt, The Human Condition — complete second edition"
+        },
+        {
+          "url": "https://jonudell.net/h/arendt.pdf",
+          "title": "Arendt, Thinking and Moral Considerations (1971)"
+        },
+        {
+          "url": "https://platypus1917.org/wp-content/uploads/2014/01/arendt_eichmanninjerusalem.pdf",
+          "title": "Arendt, Eichmann in Jerusalem — including postscript"
+        }
+      ],
+      "deliberateOmissionsRejected": [
+        ".original-prompt-text",
+        "#prompt-1 > ol > li",
+        "#synthesis > ol > li",
+        ".quiz-item"
+      ],
+      "fidelity": {
+        "fourPromptsVerbatimInOrder": true,
+        "fourResponsePositionsPreserved": true,
+        "originalListPositionsPreserved": true,
+        "fiveSynthesisQuestionsVerbatim": true,
+        "restoredFifthFollowupOmittedByLaterReconstruction": true,
+        "noOriginalDialogueOrSeparateCuratorCorrection": true,
+        "eightQuizSlotsWithFourOptionsPreserved": true,
+        "allEightQuestionsAnd32FeedbackEntriesPageSpecific": true,
+        "baselineResponseParagraphs": 26,
+        "revisedResponseParagraphs": 14,
+        "synthesisParagraphCountPreserved": 3,
+        "originalNoticesCountPreserved": 0,
+        "restoredOriginalResponseListEntries": 3
+      },
+      "preservedEffectiveMaterial": "Original four-response progression, named concepts, main skeptical objection and ordered list roles retained and developed. Effective entry questions retained. Repetitive writing instructions replaced by explanations; five follow-up questions retained verbatim. No original dialogue or separate curator exchange existed.",
+      "fullBuildByteIdentical": true,
+      "fullBuildEvidence": "quality/original-source-revisions/batch-verification-2026-10-03.json"
+    },
+    {
+      "pagePath": "/philosophers/heraclitus/",
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "sourceIsOriginalWordPress": false,
+      "baselineSnapshot": "quality/original-source-revisions/heraclitus-first-repository-345af16a41ec.html",
+      "baselineSha256": "d43a490c5d481844940f68530bf462965a5f0931d18b7fd524e55700fb3213e0",
+      "originalPrompts": 4,
+      "responseSections": 4,
+      "promptOrderExact": true,
+      "originalResponseListCounts": [
+        6,
+        5,
+        5,
+        6
+      ],
+      "originalSynthesisQuestionsPreserved": 5,
+      "quizQuestions": 8,
+      "genericParagraphsConsolidated": 12,
+      "sha256": "2350448902c1fd7467951e834e1570a9366ab49daac26ac19b14f090f035cc54",
+      "verifiedAt": "2026-10-03T13:15:24.613509+00:00",
+      "fullBaselineRead": true,
+      "fullCurrentEditionRead": true,
+      "baselineMatchedBy": [
+        "approved-page-path",
+        "title",
+        "four-prompts",
+        "exact-first-addition-commit",
+        "snapshot-SHA256"
+      ],
+      "sourceURL": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/heraclitus/index.html",
+      "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
+      "approvalManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "responseReviews": {
+        "1": "Replaced universal-influence boilerplate with identity-through-change problem, early Greek setting and limits of later transmission.",
+        "2": "Developed flux/logos/opposition/wakefulness individually; compared river, bow and road; distinguished tension, relative standpoint and logical contradiction.",
+        "3": "Preserved identity/knowledge/law objection; supplied ordered-continuity reply and hypothetical river-diversion test; stated limits of analogy and ancient fire cosmology.",
+        "4": "Provided exact DK B12,B1–2,B51,B60,B30 route; retained six original reading-list roles and five exact follow-ups, including effective original starting question."
+      },
+      "remainingConcerns": [
+        "Approved site-native editorial/reconstructed profile, not WordPress source.",
+        "The original book is lost; translation, authenticity and the reach of the logos remain contested.",
+        "Burnet’s older river rendering must be read with the linked alternative-version notes; it is not presented as the sole authoritative text.",
+        "The diverted river is an editorial hypothetical; ancient images are not presented as modern scientific discoveries."
+      ],
+      "supplementalReferences": [
+        {
+          "url": "https://en.wikisource.org/wiki/Fragments_of_Heraclitus_(annotated)",
+          "title": "Heraclitus, surviving fragments — Burnet translation, with notes"
+        },
+        {
+          "url": "https://heraclitusfragments.com/B12/notes.html",
+          "title": "River fragment B12 — comparison of ancient versions and translations"
+        }
+      ],
+      "deliberateOmissionsRejected": [
+        ".original-prompt-text",
+        "#prompt-1 > ol > li",
+        "#synthesis > ol > li",
+        ".quiz-item"
+      ],
+      "fidelity": {
+        "fourPromptsVerbatimInOrder": true,
+        "fourResponsePositionsPreserved": true,
+        "originalListPositionsPreserved": true,
+        "fiveSynthesisQuestionsVerbatim": true,
+        "restoredFifthFollowupOmittedByLaterReconstruction": true,
+        "noOriginalDialogueOrSeparateCuratorCorrection": true,
+        "eightQuizSlotsWithFourOptionsPreserved": true,
+        "allEightQuestionsAnd32FeedbackEntriesPageSpecific": true,
+        "baselineResponseParagraphs": 26,
+        "revisedResponseParagraphs": 14,
+        "synthesisParagraphCountPreserved": 3,
+        "originalNoticesCountPreserved": 0,
+        "restoredOriginalResponseListEntries": 4
+      },
+      "preservedEffectiveMaterial": "Original four-response progression, named concepts, main skeptical objection and ordered list roles retained and developed. Effective entry questions retained. Repetitive writing instructions replaced by explanations; five follow-up questions retained verbatim. No original dialogue or separate curator exchange existed.",
+      "fullBuildByteIdentical": true,
+      "fullBuildEvidence": "quality/original-source-revisions/batch-verification-2026-10-03.json"
+    },
+    {
+      "pagePath": "/philosophers/jean-jacques-rousseau/",
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "sourceIsOriginalWordPress": false,
+      "baselineSnapshot": "quality/original-source-revisions/jean-jacques-rousseau-first-repository-345af16a41ec.html",
+      "baselineSha256": "2c3b1642510bee085a94d770198a0ff54e08e34c486d1f978194ca14e48e721e",
+      "originalPrompts": 4,
+      "responseSections": 4,
+      "promptOrderExact": true,
+      "originalResponseListCounts": [
+        6,
+        5,
+        5,
+        5
+      ],
+      "originalSynthesisQuestionsPreserved": 5,
+      "quizQuestions": 8,
+      "genericParagraphsConsolidated": 11,
+      "sha256": "bee6fed5edb26a7cb377b1ee2952b6f2188343227660691cd6f1a5d26cd808cd",
+      "verifiedAt": "2026-10-03T13:15:24.613509+00:00",
+      "fullBaselineRead": true,
+      "fullCurrentEditionRead": true,
+      "baselineMatchedBy": [
+        "approved-page-path",
+        "title",
+        "four-prompts",
+        "exact-first-addition-commit",
+        "snapshot-SHA256"
+      ],
+      "sourceURL": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/jean-jacques-rousseau/index.html",
+      "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
+      "approvalManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "responseReviews": {
+        "1": "Replaced generic historical/influence framing with institution-shaped desire, hypothetical school ranking and distinction between diagnosis and legitimacy.",
+        "2": "Explained amour-propre/amour de soi, general will/will of all, conjectural natural goodness and civic freedom; retained four original conceptual priorities.",
+        "3": "Preserved coercion/general-will objection, addressed forced-to-be-free passage and internal constraints, then tested formal generality against minority participation.",
+        "4": "Provided Discourse introduction/PartII and Social Contract I.6–8,II.1–4/6 route; retained five list roles and five exact follow-ups."
+      },
+      "remainingConcerns": [
+        "Approved site-native editorial/reconstructed profile, not a WordPress original.",
+        "The Discourse supplies a conjectural account, not established anthropology.",
+        "The school-ranking and meeting-rule cases are editorial hypotheticals.",
+        "The relation of the general will to voting and dissent remains contested; criteria are not presented as self-enforcing safeguards."
+      ],
+      "supplementalReferences": [
+        {
+          "url": "https://www.gutenberg.org/cache/epub/11136/pg11136-images.html",
+          "title": "Rousseau, Discourse on Inequality — complete translation"
+        },
+        {
+          "url": "https://www.gutenberg.org/files/46333/46333-h/46333-h.htm",
+          "title": "Rousseau, The Social Contract and Discourses — G. D. H. Cole translation"
+        }
+      ],
+      "deliberateOmissionsRejected": [
+        ".original-prompt-text",
+        "#prompt-1 > ol > li",
+        "#synthesis > ol > li",
+        ".quiz-item"
+      ],
+      "fidelity": {
+        "fourPromptsVerbatimInOrder": true,
+        "fourResponsePositionsPreserved": true,
+        "originalListPositionsPreserved": true,
+        "fiveSynthesisQuestionsVerbatim": true,
+        "restoredFifthFollowupOmittedByLaterReconstruction": true,
+        "noOriginalDialogueOrSeparateCuratorCorrection": true,
+        "eightQuizSlotsWithFourOptionsPreserved": true,
+        "allEightQuestionsAnd32FeedbackEntriesPageSpecific": true,
+        "baselineResponseParagraphs": 26,
+        "revisedResponseParagraphs": 15,
+        "synthesisParagraphCountPreserved": 3,
+        "originalNoticesCountPreserved": 0,
+        "restoredOriginalResponseListEntries": 3
+      },
+      "preservedEffectiveMaterial": "Original four-response progression, named concepts, main skeptical objection and ordered list roles retained and developed. Effective entry questions retained. Repetitive writing instructions replaced by explanations; five follow-up questions retained verbatim. No original dialogue or separate curator exchange existed.",
+      "fullBuildByteIdentical": true,
+      "fullBuildEvidence": "quality/original-source-revisions/batch-verification-2026-10-03.json"
+    },
+    {
+      "pagePath": "/philosophers/john-rawls/",
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "sourceIsOriginalWordPress": false,
+      "baselineSnapshot": "quality/original-source-revisions/john-rawls-first-repository-345af16a41ec.html",
+      "baselineSha256": "09e3c7ae437915ed533f75ebbd496a56dc37bd7e42a5efe0c6216a439ca614f6",
+      "originalPrompts": 4,
+      "responseSections": 4,
+      "promptOrderExact": true,
+      "originalResponseListCounts": [
+        5,
+        5,
+        5,
+        5
+      ],
+      "originalSynthesisQuestionsPreserved": 5,
+      "quizQuestions": 8,
+      "genericParagraphsConsolidated": 12,
+      "sha256": "7d65272389ea402062e118de3d202a2a738efc1fd6f95077cd35f1a0a13f995b",
+      "verifiedAt": "2026-10-03T13:15:24.613509+00:00",
+      "fullBaselineRead": true,
+      "fullCurrentEditionRead": true,
+      "baselineMatchedBy": [
+        "approved-page-path",
+        "title",
+        "four-prompts",
+        "exact-first-addition-commit",
+        "snapshot-SHA256"
+      ],
+      "sourceURL": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/john-rawls/index.html",
+      "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
+      "approvalManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "responseReviews": {
+        "1": "Replaced generic importance/history prose with basic institutions and justification to each citizen; qualified historical revival and scope of introductory thought experiment.",
+        "2": "Distinguished original position/veil/general knowledge, supplied liberty/opportunity priority and greatest-benefit comparison 40/50/45, clarified consensus and corrected constructive to reflective equilibrium while preserving exact follow-up.",
+        "3": "Preserved ideal-versus-nonideal objection; developed school preparation case, basic-structure reply and distinction between choosing principles and fact-sensitive application.",
+        "4": "Provided precise Theory sections11–13,24,46 and Restatement10–11 reading route; retained original five list roles and five exact follow-up questions."
+      },
+      "remainingConcerns": [
+        "Approved site-native editorial/reconstructed profile, not WordPress source.",
+        "The numerical example is invented and conditional on prior liberties/opportunity and equal other requirements; it is not an empirical inequality assessment.",
+        "The school example is hypothetical; the page supplies no ready-made policy or remedy for a specific historical injustice.",
+        "The baseline follow-up retains constructive equilibrium verbatim; the response and synthesis explain the standard term reflective equilibrium.",
+        "The original-position argument and its application remain disputed; the page does not claim the veil alone proves the principles."
+      ],
+      "supplementalReferences": [
+        {
+          "url": "https://discoversocialsciences.com/wp-content/uploads/2018/08/Rawls_Theory_of_Justice.pdf",
+          "title": "Rawls, A Theory of Justice — revised edition, especially sections 11–13, 24 and 46"
+        },
+        {
+          "url": "https://www.willbrehm.com/wp-content/uploads/2016/02/Rawls-Reading.pdf",
+          "title": "Rawls, Justice as Fairness: A Restatement — Part I, including sections 10–11"
+        }
+      ],
+      "deliberateOmissionsRejected": [
+        ".original-prompt-text",
+        "#prompt-1 > ol > li",
+        "#synthesis > ol > li",
+        ".quiz-item"
+      ],
+      "fidelity": {
+        "fourPromptsVerbatimInOrder": true,
+        "fourResponsePositionsPreserved": true,
+        "originalListPositionsPreserved": true,
+        "fiveSynthesisQuestionsVerbatim": true,
+        "restoredFifthFollowupOmittedByLaterReconstruction": true,
+        "noOriginalDialogueOrSeparateCuratorCorrection": true,
+        "eightQuizSlotsWithFourOptionsPreserved": true,
+        "allEightQuestionsAnd32FeedbackEntriesPageSpecific": true,
+        "baselineResponseParagraphs": 27,
+        "revisedResponseParagraphs": 15,
+        "synthesisParagraphCountPreserved": 3,
+        "originalNoticesCountPreserved": 0,
+        "restoredOriginalResponseListEntries": 2
+      },
+      "preservedEffectiveMaterial": "Original four-response progression, named concepts, main skeptical objection and ordered list roles retained and developed. Effective entry questions retained. Repetitive writing instructions replaced by explanations; five follow-up questions retained verbatim. No original dialogue or separate curator exchange existed.",
+      "fullBuildByteIdentical": true,
+      "fullBuildEvidence": "quality/original-source-revisions/batch-verification-2026-10-03.json"
+    }
+  ],
+  "allBatchPages": [
+    {
+      "pagePath": "/philosophers/at-the-edge-of-miracles/",
+      "title": "At the Edge of Miracles",
+      "status": "reviewed-revised-source-verified",
+      "candidates": [
+        {
+          "id": 13920,
+          "title": "At the Edge of Miracles",
+          "url": "http://byteseismic.com/2024/10/19/at-the-edge-of-miracles/"
+        }
+      ],
+      "sourceReviewComplete": true,
+      "verificationFile": "quality/original-source-revisions/at-the-edge-of-miracles-verification-2026-09-23.json",
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": true,
+        "fullBuildByteIdentical": true,
+        "sha256": "81044b95dda86269c2d7aac0244db5f44047f23a50411f31730857b0f05b7c8e"
+      }
+    },
+    {
+      "pagePath": "/philosophers/augustine-of-hippo/",
+      "title": "Augustine of Hippo",
+      "status": "reviewed-revised-approved-baseline-verified",
+      "candidates": [],
+      "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
+      "firstRepositorySha256": "df385763f7f308dfd431de3283d410ac24cb794ac855d23e08a7c33c33c5cbc7",
+      "firstRepositoryPrompts": [
+        "Prompt 1: Explain why Augustine of Hippo remains philosophically important.",
+        "Prompt 2: Identify Augustine of Hippo's major concepts, methods, or questions.",
+        "Prompt 3: Where does Augustine of Hippo's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Augustine of Hippo?"
+      ],
+      "firstRepositoryGenerated": true,
+      "currentPrompts": [
+        "Prompt 1: Explain why Augustine of Hippo remains philosophically important.",
+        "Prompt 2: Identify Augustine of Hippo's major concepts, methods, or questions.",
+        "Prompt 3: Where does Augustine of Hippo's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Augustine of Hippo?"
+      ],
+      "relatedPosts": [],
+      "liveWordPressMatches": [],
+      "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/augustine-of-hippo/index.html",
+      "concern": [
+        "The baseline is a curator-approved site-native reconstruction, not a recovered WordPress conversation.",
+        "The strongest-objection selection is editorial; other significant objections are outside this introductory profile.",
+        "Primary-text links use older English translations; the page distinguishes interpretation from quotation and claims no comprehensive account of Augustine’s development.",
+        "The promise-breaking example is hypothetical, not empirical evidence for or against theology."
+      ],
+      "sourceReviewComplete": true,
+      "fourPromptTextsMatchCurrentExactly": true,
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": true,
+        "fullBuildByteIdentical": true,
+        "sha256": "1fb382bd171db24262cde89d668f09e0fcfdfce01c3292169f8afeecf3a73747"
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/augustine-of-hippo-first-repository-345af16a41ec.html",
+      "baselineSha256": "df385763f7f308dfd431de3283d410ac24cb794ac855d23e08a7c33c33c5cbc7",
+      "sourceIsOriginalWordPress": false,
+      "verificationFile": "quality/original-source-revisions/augustine-of-hippo-verification-2026-09-30.json"
+    },
+    {
+      "pagePath": "/philosophers/averroes/",
+      "title": "Averroes",
+      "status": "reviewed-revised-and-verified",
+      "candidates": [],
+      "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
+      "firstRepositorySha256": "3bae32e5157550c0eb4d8c7a7642733929d1a112ccc3a53e22b3854416db8fb5",
+      "firstRepositoryPrompts": [
+        "Prompt 1: Explain why Averroes remains philosophically important.",
+        "Prompt 2: Identify Averroes's major concepts, methods, or questions.",
+        "Prompt 3: Where does Averroes's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Averroes?"
+      ],
+      "firstRepositoryGenerated": true,
+      "currentPrompts": [
+        "Prompt 1: Explain why Averroes remains philosophically important.",
+        "Prompt 2: Identify Averroes's major concepts, methods, or questions.",
+        "Prompt 3: Where does Averroes's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Averroes?"
+      ],
+      "relatedPosts": [],
+      "liveWordPressMatches": [],
+      "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/averroes/index.html",
+      "concern": "Full approved-baseline editorial review completed; interpretation limits recorded.",
+      "sourceReviewComplete": true,
+      "fourPromptTextsMatchCurrentExactly": true,
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": true,
+        "fullBuildByteIdentical": true,
+        "sha256": "a9a1e7d6262f8b8e8f6cda495177cdad81843ae7d1cc1de76b41669941a2474e"
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/averroes-first-repository-345af16a41ec.html",
+      "baselineSha256": "3bae32e5157550c0eb4d8c7a7642733929d1a112ccc3a53e22b3854416db8fb5",
+      "sourceIsOriginalWordPress": false,
+      "verificationFile": "quality/original-source-revisions/averroes-site-native-verification.json",
+      "remainingConcerns": [
+        "Curator-approved site-native reconstruction; not a recovered WordPress original.",
+        "The profile focuses on the mature Long Commentary intellect account; it does not survey changes across all commentaries.",
+        "The strongest objection is an editorial selection concerning interpretation and authority, not a claim that every other objection is weaker.",
+        "Modern natural-explanation and expert-dispute examples are illustrations, not attributed historical episodes."
+      ]
+    },
+    {
+      "pagePath": "/philosophers/avicenna/",
+      "title": "Avicenna",
+      "status": "reviewed-revised-and-verified",
+      "candidates": [],
+      "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
+      "firstRepositorySha256": "1a36a1063d794369295d8e790a18d1408aaa78f3ba73974825a26a08d8ba4b79",
+      "firstRepositoryPrompts": [
+        "Prompt 1: Explain why Avicenna remains philosophically important.",
+        "Prompt 2: Identify Avicenna's major concepts, methods, or questions.",
+        "Prompt 3: Where does Avicenna's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Avicenna?"
+      ],
+      "firstRepositoryGenerated": true,
+      "currentPrompts": [
+        "Prompt 1: Explain why Avicenna remains philosophically important.",
+        "Prompt 2: Identify Avicenna's major concepts, methods, or questions.",
+        "Prompt 3: Where does Avicenna's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Avicenna?"
+      ],
+      "relatedPosts": [],
+      "liveWordPressMatches": [],
+      "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/avicenna/index.html",
+      "concern": "Full approved-baseline editorial review completed; interpretation limits recorded.",
+      "sourceReviewComplete": true,
+      "fourPromptTextsMatchCurrentExactly": true,
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": true,
+        "fullBuildByteIdentical": true,
+        "sha256": "3f6b24ec1a2abad4a2ca55f27408bec9427cf2495c5229a50f82fe47fdd267fa"
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/avicenna-first-repository-345af16a41ec.html",
+      "baselineSha256": "1a36a1063d794369295d8e790a18d1408aaa78f3ba73974825a26a08d8ba4b79",
+      "sourceIsOriginalWordPress": false,
+      "verificationFile": "quality/original-source-revisions/avicenna-site-native-verification.json",
+      "remainingConcerns": [
+        "Curator-approved site-native reconstruction; not a recovered WordPress original.",
+        "Interpretations and locations of the Necessary Existent proofs are disputed; the profile gives an introductory dependence reconstruction, not a complete formal proof.",
+        "The floating-person objection is paired with a stronger essentialist defense; neither is presented as settled by a sensory-deprivation experiment.",
+        "Triangle, house, sufficient-condition and mirror examples illustrate distinctions without proving the metaphysical application."
+      ]
+    },
+    {
+      "pagePath": "/philosophers/cicero/",
+      "title": "Cicero",
+      "status": "reviewed-revised-and-verified",
+      "candidates": [],
+      "firstRepositoryCommit": "c848a72c8e71d73379aa3edf5e75d01c40dd1f1e",
+      "firstRepositorySha256": "3d35309dfc4d648397738a9c938c1f7f18b27774ef6cff5df0e3b45d0a488a4f",
+      "firstRepositoryPrompts": [
+        "Prompt 1: Explain why Cicero remains philosophically important.",
+        "Prompt 2: Identify Cicero's major concepts, methods, or questions.",
+        "Prompt 3: Where does Cicero's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Cicero?"
+      ],
+      "firstRepositoryGenerated": true,
+      "currentPrompts": [
+        "Prompt 1: Explain why Cicero remains philosophically important.",
+        "Prompt 2: Identify Cicero's major concepts, methods, or questions.",
+        "Prompt 3: Where does Cicero's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Cicero?"
+      ],
+      "relatedPosts": [],
+      "liveWordPressMatches": [],
+      "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/c848a72c8e71d73379aa3edf5e75d01c40dd1f1e/philosophers/cicero/index.html",
+      "concern": "Full approved-baseline editorial review completed; interpretation limits recorded.",
+      "sourceReviewComplete": true,
+      "fourPromptTextsMatchCurrentExactly": true,
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": true,
+        "fullBuildByteIdentical": true,
+        "sha256": "183b497fb506aa8ccc2a5159664b0a9bf07e34f012968f631b0baba1a7586e56"
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/cicero-first-repository-c848a72c8e71.html",
+      "baselineSha256": "3d35309dfc4d648397738a9c938c1f7f18b27774ef6cff5df0e3b45d0a488a4f",
+      "sourceIsOriginalWordPress": false,
+      "verificationFile": "quality/original-source-revisions/cicero-site-native-verification.json",
+      "remainingConcerns": [
+        "Curator-approved site-native reconstruction; not a recovered WordPress original.",
+        "Comparative inquiry does not resolve every tension across Cicero’s works or political conduct.",
+        "The grain case is historical philosophical text; the official case is hypothetical, and neither is current legal guidance.",
+        "The Academica link is Latin primary text with English introduction/notes; the Republic and Laws links are older translations."
+      ]
+    },
+    {
+      "pagePath": "/philosophers/confucius/",
+      "title": "Confucius",
+      "status": "reviewed-revised-and-verified",
+      "candidates": [],
+      "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
+      "firstRepositorySha256": "acfa142d02ddbe96032271798eebd21cfdb618005ee8d93e3b933a295608763a",
+      "firstRepositoryPrompts": [
+        "Prompt 1: Explain why Confucius remains philosophically important.",
+        "Prompt 2: Identify Confucius's major concepts, methods, or questions.",
+        "Prompt 3: Where does Confucius's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Confucius?"
+      ],
+      "firstRepositoryGenerated": true,
+      "currentPrompts": [
+        "Prompt 1: Explain why Confucius remains philosophically important.",
+        "Prompt 2: Identify Confucius's major concepts, methods, or questions.",
+        "Prompt 3: Where does Confucius's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Confucius?"
+      ],
+      "relatedPosts": [],
+      "liveWordPressMatches": [],
+      "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/confucius/index.html",
+      "concern": "Full approved-baseline editorial review completed; interpretation limits recorded.",
+      "sourceReviewComplete": true,
+      "fourPromptTextsMatchCurrentExactly": true,
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": true,
+        "fullBuildByteIdentical": true,
+        "sha256": "1d5307a8ae13e939557b5c627858594824cafdd01b6c950e19c8b3b1eff6b340"
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/confucius-first-repository-345af16a41ec.html",
+      "baselineSha256": "acfa142d02ddbe96032271798eebd21cfdb618005ee8d93e3b933a295608763a",
+      "sourceIsOriginalWordPress": false,
+      "verificationFile": "quality/original-source-revisions/confucius-site-native-verification.json",
+      "remainingConcerns": [
+        "Curator-approved site-native reconstruction; not a recovered WordPress original.",
+        "Translations of ren,li,junzi and individual passages vary; passage references allow comparison without claiming one English word is exact.",
+        "The profile does not settle the Analects’ complex compilation history.",
+        "Harmony-versus-agreement and remonstrance do not erase the tension in13.18; condolence/workplace illustrations are hypothetical."
+      ]
+    },
+    {
+      "pagePath": "/philosophers/continental-philosophers/",
+      "title": "Continental Philosophers",
+      "status": "reviewed-revised-source-verified",
+      "candidates": [
+        {
+          "id": 7906,
+          "title": "Continental Philosophers",
+          "url": "http://byteseismic.com/2024/05/03/continental-philosophers/"
+        }
+      ],
+      "sourceReviewComplete": true,
+      "verificationFile": "quality/original-source-revisions/continental-philosophers-verification-2026-09-23.json",
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": true,
+        "fullBuildByteIdentical": true,
+        "sha256": "96db798388bb7c44f4d386f14ed5a6921d669c6cebc0175fe2d63ef6f3cc9860"
+      }
+    },
+    {
+      "pagePath": "/philosophers/critical-theorists/",
+      "title": "Critical Theorists",
+      "status": "reviewed-revised-source-verified",
+      "candidates": [
+        {
+          "id": 7994,
+          "title": "Critical Theorists",
+          "url": "http://byteseismic.com/2024/05/04/critical-theorists/"
+        }
+      ],
+      "sourceReviewComplete": true,
+      "verificationFile": "quality/original-source-revisions/critical-theorists-verification-2026-09-23.json",
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": true,
+        "fullBuildByteIdentical": true,
+        "sha256": "e1b78a513207e3e79b87297620a07a0c1f3df794954c93f106751373957f5e73"
+      }
+    },
+    {
+      "pagePath": "/philosophers/dogen/",
+      "title": "Dogen",
+      "status": "reviewed-revised-approved-baseline-verified",
+      "candidates": [],
+      "firstRepositoryCommit": "c848a72c8e71d73379aa3edf5e75d01c40dd1f1e",
+      "firstRepositorySha256": "e2e1949ab18943ad6289d20896aa92d7adbb76cb38a19d2d1bc0afcbd4b8f655",
+      "firstRepositoryPrompts": [
+        "Prompt 1: Explain why Dogen remains philosophically important.",
+        "Prompt 2: Identify Dogen's major concepts, methods, or questions.",
+        "Prompt 3: Where does Dogen's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Dogen?"
+      ],
+      "firstRepositoryGenerated": true,
+      "currentPrompts": [
+        "Prompt 1: Explain why Dogen remains philosophically important.",
+        "Prompt 2: Identify Dogen's major concepts, methods, or questions.",
+        "Prompt 3: Where does Dogen's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Dogen?"
+      ],
+      "relatedPosts": [],
+      "liveWordPressMatches": [],
+      "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/c848a72c8e71d73379aa3edf5e75d01c40dd1f1e/philosophers/dogen/index.html",
+      "concern": [
+        "Approved site-native editorial profile, not a WordPress conversation.",
+        "Being-time is presented as an introductory interpretation; translations and scholarly readings differ.",
+        "Friendship, bowl and teacher cases are editorial illustrations, not historical reports.",
+        "Practical accountability does not settle metaphysical or religious claims."
+      ],
+      "sourceReviewComplete": true,
+      "fourPromptTextsMatchCurrentExactly": true,
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": true,
+        "fullBuildByteIdentical": true,
+        "sha256": "ae09eb3cbf0dd58572155b16b871f4fc2ac8ab1225909f45a6134a9d7c7655ae"
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/dogen-first-repository-c848a72c8e71.html",
+      "baselineSha256": "e2e1949ab18943ad6289d20896aa92d7adbb76cb38a19d2d1bc0afcbd4b8f655",
+      "sourceIsOriginalWordPress": false,
+      "verificationFile": "quality/original-source-revisions/dogen-site-native-verification.json"
+    },
+    {
+      "pagePath": "/philosophers/elizabeth-anscombe/",
+      "title": "Elizabeth Anscombe",
+      "status": "reviewed-revised-approved-baseline-verified",
+      "candidates": [],
+      "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
+      "firstRepositorySha256": "64c9ff70e7b192f2bb54cc5677430bd27ac4f916158427ef5563a23411acd4f2",
+      "firstRepositoryPrompts": [
+        "Prompt 1: Explain why Elizabeth Anscombe remains philosophically important.",
+        "Prompt 2: Identify Elizabeth Anscombe's major concepts, methods, or questions.",
+        "Prompt 3: Where does Elizabeth Anscombe's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Elizabeth Anscombe?"
+      ],
+      "firstRepositoryGenerated": true,
+      "currentPrompts": [
+        "Prompt 1: Explain why Elizabeth Anscombe remains philosophically important.",
+        "Prompt 2: Identify Elizabeth Anscombe's major concepts, methods, or questions.",
+        "Prompt 3: Where does Elizabeth Anscombe's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Elizabeth Anscombe?"
+      ],
+      "relatedPosts": [],
+      "liveWordPressMatches": [],
+      "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/elizabeth-anscombe/index.html",
+      "concern": [
+        "Approved site-native editorial profile; not a WordPress original.",
+        "Practical knowledge and the intended/foreseen distinction remain disputed; this introduction does not settle hard cases.",
+        "Historical diagnosis of obligation is presented as Anscombe’s argument, not as proof that secular ethics fails.",
+        "Safety report and document examples are hypothetical."
+      ],
+      "sourceReviewComplete": true,
+      "fourPromptTextsMatchCurrentExactly": true,
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": true,
+        "fullBuildByteIdentical": true,
+        "sha256": "12cae8656789b19cbfc2f07e8d1cce851c5b14298515ca3a3d4975506bfe39da"
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/elizabeth-anscombe-first-repository-345af16a41ec.html",
+      "baselineSha256": "64c9ff70e7b192f2bb54cc5677430bd27ac4f916158427ef5563a23411acd4f2",
+      "sourceIsOriginalWordPress": false,
+      "verificationFile": "quality/original-source-revisions/elizabeth-anscombe-site-native-verification.json"
+    },
+    {
+      "pagePath": "/philosophers/epictetus/",
+      "title": "Epictetus",
+      "status": "reviewed-revised-source-verified",
+      "candidates": [
+        {
+          "id": 11220,
+          "title": "Epictetus",
+          "url": "http://byteseismic.com/2024/06/04/epictetus/"
+        }
+      ],
+      "sourceReviewComplete": true,
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": true,
+        "fullBuildByteIdentical": true,
+        "sha256": "44857f7372235cab813616e662c12e843265c9460b00780ff8ac87bdba43fe5a"
+      }
+    },
+    {
+      "pagePath": "/philosophers/existentialists/",
+      "title": "Existentialists",
+      "status": "reviewed-revised-source-verified",
+      "candidates": [
+        {
+          "id": 7786,
+          "title": "Existentialists",
+          "url": "http://byteseismic.com/2024/05/02/existentialists/"
+        }
+      ],
+      "sourceReviewComplete": true,
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": true,
+        "fullBuildByteIdentical": true,
+        "sha256": "489912bf15a50846df4e34ae05831815068352d64535b97d4d641d67f9449a28"
+      }
+    },
+    {
+      "pagePath": "/philosophers/friedrich-nietzsche/",
+      "title": "Friedrich Nietzsche",
+      "status": "reviewed-revised-source-verified",
+      "candidates": [
+        {
+          "id": 6646,
+          "title": "Friedrich Nietzsche",
+          "url": "http://byteseismic.com/2024/04/19/friedrich-nietzsche/"
+        }
+      ],
+      "sourceReviewComplete": true,
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": true,
+        "fullBuildByteIdentical": true,
+        "sha256": "11984b03a0049fb51ce6fa7c951ff753ac4c6838d30016436985fe3790b584ba"
+      }
+    },
+    {
+      "pagePath": "/philosophers/g-e-moore/",
+      "title": "G.E. Moore",
+      "status": "reviewed-revised-approved-baseline-verified",
+      "candidates": [],
+      "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
+      "firstRepositorySha256": "d822d2c2fd929ea404960b2a63f6b1116b8cf0f7801b535805368f59d0c14584",
+      "firstRepositoryPrompts": [
+        "Prompt 1: Explain why G.E. Moore remains philosophically important.",
+        "Prompt 2: Identify G.E. Moore's major concepts, methods, or questions.",
+        "Prompt 3: Where does G.E. Moore's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with G.E. Moore?"
+      ],
+      "firstRepositoryGenerated": true,
+      "currentPrompts": [
+        "Prompt 1: Explain why G.E. Moore remains philosophically important.",
+        "Prompt 2: Identify G.E. Moore's major concepts, methods, or questions.",
+        "Prompt 3: Where does G.E. Moore's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with G.E. Moore?"
+      ],
+      "relatedPosts": [],
+      "liveWordPressMatches": [],
+      "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/g-e-moore/index.html",
+      "concern": [
+        "Approved site-native profile, not WordPress source.",
+        "Whether open-question reasoning establishes non-naturalism remains disputed.",
+        "The hand proof’s force against skepticism remains contested; validity is not persuasion.",
+        "Desk/photo comparison is an editorial hypothetical, not a reported Moore example."
+      ],
+      "sourceReviewComplete": true,
+      "fourPromptTextsMatchCurrentExactly": true,
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": true,
+        "fullBuildByteIdentical": true,
+        "sha256": "685a98b3159bb88fec6a09980b7aacce4f3e57024e7df99d961bc49dbb7d0812"
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/g-e-moore-first-repository-345af16a41ec.html",
+      "baselineSha256": "d822d2c2fd929ea404960b2a63f6b1116b8cf0f7801b535805368f59d0c14584",
+      "sourceIsOriginalWordPress": false,
+      "verificationFile": "quality/original-source-revisions/g-e-moore-site-native-verification.json"
+    },
+    {
+      "pagePath": "/philosophers/george-berkeley/",
+      "title": "George Berkeley",
+      "status": "reviewed-revised-source-verified",
+      "candidates": [
+        {
+          "id": 11890,
+          "title": "George Berkeley",
+          "url": "http://byteseismic.com/2024/06/18/george-berkeley/"
+        }
+      ],
+      "sourceReviewComplete": true,
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": true,
+        "fullBuildByteIdentical": true,
+        "sha256": "539336a0c32ee7c2938e93489069a2d63291bcf5be886d6a0205ff9959e58fd6"
+      }
+    },
+    {
+      "pagePath": "/philosophers/gottlob-frege/",
+      "title": "Gottlob Frege",
+      "status": "reviewed-revised-approved-baseline-verified",
+      "candidates": [],
+      "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
+      "firstRepositorySha256": "bb7c8255b7b4d53518183296f6b1e5975516913c45990b8834137079880c4559",
+      "firstRepositoryPrompts": [
+        "Prompt 1: Explain why Gottlob Frege remains philosophically important.",
+        "Prompt 2: Identify Gottlob Frege's major concepts, methods, or questions.",
+        "Prompt 3: Where does Gottlob Frege's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Gottlob Frege?"
+      ],
+      "firstRepositoryGenerated": true,
+      "currentPrompts": [
+        "Prompt 1: Explain why Gottlob Frege remains philosophically important.",
+        "Prompt 2: Identify Gottlob Frege's major concepts, methods, or questions.",
+        "Prompt 3: Where does Gottlob Frege's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Gottlob Frege?"
+      ],
+      "relatedPosts": [],
+      "liveWordPressMatches": [],
+      "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/gottlob-frege/index.html",
+      "concern": [
+        "Approved site-native editorial profile, not a recovered WordPress original.",
+        "Sense/reference treatment is introductory; indirect contexts and competing semantic theories require further study.",
+        "Self-membership is an informal illustration of the contradiction; it is not a full derivation in Frege’s notation.",
+        "Student/book and door examples are editorial hypotheticals."
+      ],
+      "sourceReviewComplete": true,
+      "fourPromptTextsMatchCurrentExactly": true,
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": true,
+        "fullBuildByteIdentical": true,
+        "sha256": "e75d332526aa75b25e4e1f03ded694416e14ae1bea00afebb8a4d806e15efb21"
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/gottlob-frege-first-repository-345af16a41ec.html",
+      "baselineSha256": "bb7c8255b7b4d53518183296f6b1e5975516913c45990b8834137079880c4559",
+      "sourceIsOriginalWordPress": false,
+      "verificationFile": "quality/original-source-revisions/gottlob-frege-site-native-verification.json"
+    },
+    {
+      "pagePath": "/philosophers/hannah-arendt/",
+      "title": "Hannah Arendt",
+      "status": "reviewed-revised-approved-baseline-verified",
+      "candidates": [],
+      "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
+      "firstRepositorySha256": "72d9f9023fe723834727069ed7d394be8f3346ebdf4f55a43d990ee8bc6b2527",
+      "firstRepositoryPrompts": [
+        "Prompt 1: Explain why Hannah Arendt remains philosophically important.",
+        "Prompt 2: Identify Hannah Arendt's major concepts, methods, or questions.",
+        "Prompt 3: Where does Hannah Arendt's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Hannah Arendt?"
+      ],
+      "firstRepositoryGenerated": true,
+      "currentPrompts": [
+        "Prompt 1: Explain why Hannah Arendt remains philosophically important.",
+        "Prompt 2: Identify Hannah Arendt's major concepts, methods, or questions.",
+        "Prompt 3: Where does Hannah Arendt's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Hannah Arendt?"
+      ],
+      "relatedPosts": [],
+      "liveWordPressMatches": [],
+      "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/hannah-arendt/index.html",
+      "concern": "Approved site-native editorial/reconstructed profile, not WordPress source.; Arendt’s historical interpretation of Eichmann remains a claim requiring evidence; the page makes no new historical finding about his motives.; Neighborhood, childcare and office cases are editorial hypotheticals, not reports by Arendt.; The boundaries between social needs and political action remain contested; the charitable reply is not presented as a complete resolution.",
+      "sourceReviewComplete": true,
+      "fourPromptTextsMatchCurrentExactly": true,
+      "todayVerification": {
+        "freshEditorialReview": true,
+        "preservationOnly": false,
+        "fullBuildByteIdentical": true,
+        "sha256": "ab04314c19fb7dcbe019ac14b90c4997130ac4c160b31c1933cdc47d59103beb"
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/hannah-arendt-first-repository-345af16a41ec.html",
+      "baselineSha256": "72d9f9023fe723834727069ed7d394be8f3346ebdf4f55a43d990ee8bc6b2527",
+      "sourceIsOriginalWordPress": false,
+      "verificationFile": "quality/original-source-revisions/hannah-arendt-site-native-verification.json"
+    },
+    {
+      "pagePath": "/philosophers/heraclitus/",
+      "title": "Heraclitus",
+      "status": "reviewed-revised-approved-baseline-verified",
+      "candidates": [],
+      "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
+      "firstRepositorySha256": "d43a490c5d481844940f68530bf462965a5f0931d18b7fd524e55700fb3213e0",
+      "firstRepositoryPrompts": [
+        "Prompt 1: Explain why Heraclitus remains philosophically important.",
+        "Prompt 2: Identify Heraclitus's major concepts, methods, or questions.",
+        "Prompt 3: Where does Heraclitus's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Heraclitus?"
+      ],
+      "firstRepositoryGenerated": true,
+      "currentPrompts": [
+        "Prompt 1: Explain why Heraclitus remains philosophically important.",
+        "Prompt 2: Identify Heraclitus's major concepts, methods, or questions.",
+        "Prompt 3: Where does Heraclitus's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Heraclitus?"
+      ],
+      "relatedPosts": [],
+      "liveWordPressMatches": [],
+      "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/heraclitus/index.html",
+      "concern": "Approved site-native editorial/reconstructed profile, not WordPress source.; The original book is lost; translation, authenticity and the reach of the logos remain contested.; Burnet’s older river rendering must be read with the linked alternative-version notes; it is not presented as the sole authoritative text.; The diverted river is an editorial hypothetical; ancient images are not presented as modern scientific discoveries.",
+      "sourceReviewComplete": true,
+      "fourPromptTextsMatchCurrentExactly": true,
+      "todayVerification": {
+        "freshEditorialReview": true,
+        "preservationOnly": false,
+        "fullBuildByteIdentical": true,
+        "sha256": "2350448902c1fd7467951e834e1570a9366ab49daac26ac19b14f090f035cc54"
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/heraclitus-first-repository-345af16a41ec.html",
+      "baselineSha256": "d43a490c5d481844940f68530bf462965a5f0931d18b7fd524e55700fb3213e0",
+      "sourceIsOriginalWordPress": false,
+      "verificationFile": "quality/original-source-revisions/heraclitus-site-native-verification.json"
+    },
+    {
+      "pagePath": "/philosophers/jean-jacques-rousseau/",
+      "title": "Jean-Jacques Rousseau",
+      "status": "reviewed-revised-approved-baseline-verified",
+      "candidates": [],
+      "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
+      "firstRepositorySha256": "2c3b1642510bee085a94d770198a0ff54e08e34c486d1f978194ca14e48e721e",
+      "firstRepositoryPrompts": [
+        "Prompt 1: Explain why Jean-Jacques Rousseau remains philosophically important.",
+        "Prompt 2: Identify Jean-Jacques Rousseau's major concepts, methods, or questions.",
+        "Prompt 3: Where does Jean-Jacques Rousseau's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Jean-Jacques Rousseau?"
+      ],
+      "firstRepositoryGenerated": true,
+      "currentPrompts": [
+        "Prompt 1: Explain why Jean-Jacques Rousseau remains philosophically important.",
+        "Prompt 2: Identify Jean-Jacques Rousseau's major concepts, methods, or questions.",
+        "Prompt 3: Where does Jean-Jacques Rousseau's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Jean-Jacques Rousseau?"
+      ],
+      "relatedPosts": [],
+      "liveWordPressMatches": [],
+      "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/jean-jacques-rousseau/index.html",
+      "concern": "Approved site-native editorial/reconstructed profile, not a WordPress original.; The Discourse supplies a conjectural account, not established anthropology.; The school-ranking and meeting-rule cases are editorial hypotheticals.; The relation of the general will to voting and dissent remains contested; criteria are not presented as self-enforcing safeguards.",
+      "sourceReviewComplete": true,
+      "fourPromptTextsMatchCurrentExactly": true,
+      "todayVerification": {
+        "freshEditorialReview": true,
+        "preservationOnly": false,
+        "fullBuildByteIdentical": true,
+        "sha256": "bee6fed5edb26a7cb377b1ee2952b6f2188343227660691cd6f1a5d26cd808cd"
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/jean-jacques-rousseau-first-repository-345af16a41ec.html",
+      "baselineSha256": "2c3b1642510bee085a94d770198a0ff54e08e34c486d1f978194ca14e48e721e",
+      "sourceIsOriginalWordPress": false,
+      "verificationFile": "quality/original-source-revisions/jean-jacques-rousseau-site-native-verification.json"
+    },
+    {
+      "pagePath": "/philosophers/john-dewey/",
+      "title": "John Dewey",
+      "status": "reviewed-revised-source-verified",
+      "candidates": [
+        {
+          "id": 12678,
+          "title": "John Dewey",
+          "url": "http://byteseismic.com/2024/07/04/john-dewey/"
+        }
+      ],
+      "sourceReviewComplete": true,
+      "verificationFile": "quality/original-source-revisions/john-dewey-verification-2026-09-27.json",
+      "remainingConcerns": [
+        "The order and counts are preserved, but unrelated original Gemini quiz/discussion content is substantively replaced and disclosed.",
+        "Some domain listings describe broad reception; direct lineages to every contemporary practice are not claimed.",
+        "The original Claude introductory lead-in and paragraph are joined with source addresses intact."
+      ],
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": true,
+        "fullBuildByteIdentical": true,
+        "sha256": "9f0e64be3fd39c689c4236f5c0cf4c1ba13fc41c74b21a55617adfc5e278bfef"
+      }
+    },
+    {
+      "pagePath": "/philosophers/john-rawls/",
+      "title": "John Rawls",
+      "status": "reviewed-revised-approved-baseline-verified",
+      "candidates": [],
+      "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
+      "firstRepositorySha256": "09e3c7ae437915ed533f75ebbd496a56dc37bd7e42a5efe0c6216a439ca614f6",
+      "firstRepositoryPrompts": [
+        "Prompt 1: Explain why John Rawls remains philosophically important.",
+        "Prompt 2: Identify John Rawls's major concepts, methods, or questions.",
+        "Prompt 3: Where does John Rawls's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with John Rawls?"
+      ],
+      "firstRepositoryGenerated": true,
+      "currentPrompts": [
+        "Prompt 1: Explain why John Rawls remains philosophically important.",
+        "Prompt 2: Identify John Rawls's major concepts, methods, or questions.",
+        "Prompt 3: Where does John Rawls's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with John Rawls?"
+      ],
+      "relatedPosts": [],
+      "liveWordPressMatches": [],
+      "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/john-rawls/index.html",
+      "concern": "Approved site-native editorial/reconstructed profile, not WordPress source.; The numerical example is invented and conditional on prior liberties/opportunity and equal other requirements; it is not an empirical inequality assessment.; The school example is hypothetical; the page supplies no ready-made policy or remedy for a specific historical injustice.; The baseline follow-up retains constructive equilibrium verbatim; the response and synthesis explain the standard term reflective equilibrium.; The original-position argument and its application remain disputed; the page does not claim the veil alone proves the principles.",
+      "sourceReviewComplete": true,
+      "fourPromptTextsMatchCurrentExactly": true,
+      "todayVerification": {
+        "freshEditorialReview": true,
+        "preservationOnly": false,
+        "fullBuildByteIdentical": true,
+        "sha256": "7d65272389ea402062e118de3d202a2a738efc1fd6f95077cd35f1a0a13f995b"
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/john-rawls-first-repository-345af16a41ec.html",
+      "baselineSha256": "09e3c7ae437915ed533f75ebbd496a56dc37bd7e42a5efe0c6216a439ca614f6",
+      "sourceIsOriginalWordPress": false,
+      "verificationFile": "quality/original-source-revisions/john-rawls-site-native-verification.json"
+    },
+    {
+      "pagePath": "/philosophers/john-stuart-mill/",
+      "title": "John Stuart Mill",
+      "status": "approved-site-native-baseline-editorial-review-pending",
+      "candidates": [],
+      "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
+      "firstRepositorySha256": "d246ffd788eb09d2abcee70c8d41ce769ff7fbffb9df9cc8e248596904b24394",
+      "firstRepositoryPrompts": [
+        "Prompt 1: Explain why John Stuart Mill remains philosophically important.",
+        "Prompt 2: Identify John Stuart Mill's major concepts, methods, or questions.",
+        "Prompt 3: Where does John Stuart Mill's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with John Stuart Mill?"
+      ],
+      "firstRepositoryGenerated": true,
+      "currentPrompts": [
+        "Prompt 1: Explain why John Stuart Mill remains philosophically important.",
+        "Prompt 2: Identify John Stuart Mill's major concepts, methods, or questions.",
+        "Prompt 3: Where does John Stuart Mill's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with John Stuart Mill?"
+      ],
+      "relatedPosts": [],
+      "liveWordPressMatches": [],
+      "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/john-stuart-mill/index.html",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
+      "sourceReviewComplete": false,
+      "fourPromptTextsMatchCurrentExactly": true,
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": false,
+        "awaitingFullReview": true
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/john-stuart-mill-first-repository-345af16a41ec.html",
+      "baselineSha256": "d246ffd788eb09d2abcee70c8d41ce769ff7fbffb9df9cc8e248596904b24394",
+      "sourceIsOriginalWordPress": false
+    },
+    {
+      "pagePath": "/philosophers/judith-butler/",
+      "title": "Judith Butler",
+      "status": "approved-site-native-baseline-editorial-review-pending",
+      "candidates": [],
+      "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
+      "firstRepositorySha256": "983ddc9e2d57b5582383ea7e94a3b1554b5038c6dcccf12f835c1eb13082a84d",
+      "firstRepositoryPrompts": [
+        "Prompt 1: Explain why Judith Butler remains philosophically important.",
+        "Prompt 2: Identify Judith Butler's major concepts, methods, or questions.",
+        "Prompt 3: Where does Judith Butler's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Judith Butler?"
+      ],
+      "firstRepositoryGenerated": true,
+      "currentPrompts": [
+        "Prompt 1: Explain why Judith Butler remains philosophically important.",
+        "Prompt 2: Identify Judith Butler's major concepts, methods, or questions.",
+        "Prompt 3: Where does Judith Butler's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Judith Butler?"
+      ],
+      "relatedPosts": [],
+      "liveWordPressMatches": [],
+      "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/judith-butler/index.html",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
+      "sourceReviewComplete": false,
+      "fourPromptTextsMatchCurrentExactly": true,
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": false,
+        "awaitingFullReview": true
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/judith-butler-first-repository-345af16a41ec.html",
+      "baselineSha256": "983ddc9e2d57b5582383ea7e94a3b1554b5038c6dcccf12f835c1eb13082a84d",
+      "sourceIsOriginalWordPress": false
+    },
+    {
+      "pagePath": "/philosophers/jurgen-habermas/",
+      "title": "Jurgen Habermas",
+      "status": "reviewed-revised-source-verified",
+      "candidates": [
+        {
+          "id": 13061,
+          "title": "Jurgen Habermas",
+          "url": "http://byteseismic.com/2024/07/28/jurgen-habermas/"
+        }
+      ],
+      "sourceReviewComplete": true,
+      "verificationFile": "quality/original-source-revisions/jurgen-habermas-verification-2026-09-27.json",
+      "remainingConcerns": [
+        "A simplified teaching overview cannot settle disputes about discourse ethics, exclusion or social evolution.",
+        "Historical public spheres and normative conditions are distinguished; these are not empirical claims that equal dialogue is already achieved."
+      ],
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": true,
+        "fullBuildByteIdentical": true,
+        "sha256": "0edc9df47c5276814cc38df9230f49a7e420e8f5fb75cf438963c3f82c71a46c"
+      }
+    },
+    {
+      "pagePath": "/philosophers/karl-marx/",
+      "title": "Karl Marx",
+      "status": "reviewed-revised-source-verified",
+      "candidates": [
+        {
+          "id": 12232,
+          "title": "Karl Marx",
+          "url": "http://byteseismic.com/2024/06/25/karl-marx/"
+        }
+      ],
+      "sourceReviewComplete": true,
+      "verificationFile": "quality/original-source-revisions/karl-marx-verification-2026-09-27.json",
+      "remainingConcerns": [
+        "Theories of value and historical determination remain contested; no universal consensus or inevitable transition is claimed.",
+        "One original unrequested list is converted to the requested short paragraph; substantive source sequence remains exact.",
+        "The original model follow-up “Would you like me to elaborate on any of these contributions?” remains at its original location."
+      ],
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": true,
+        "fullBuildByteIdentical": true,
+        "sha256": "3c3ae1ebea6573e0c610c62bb86dd2389913b06f28e9a4c03eba0950590ae4e9"
+      }
+    },
+    {
+      "pagePath": "/philosophers/laozi/",
+      "title": "Laozi",
+      "status": "approved-site-native-baseline-editorial-review-pending",
+      "candidates": [],
+      "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
+      "firstRepositorySha256": "8cd1eb15146ff91e15fefaa5007fe14831d0da70b87916780ff3690896ecc481",
+      "firstRepositoryPrompts": [
+        "Prompt 1: Explain why Laozi remains philosophically important.",
+        "Prompt 2: Identify Laozi's major concepts, methods, or questions.",
+        "Prompt 3: Where does Laozi's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Laozi?"
+      ],
+      "firstRepositoryGenerated": true,
+      "currentPrompts": [
+        "Prompt 1: Explain why Laozi remains philosophically important.",
+        "Prompt 2: Identify Laozi's major concepts, methods, or questions.",
+        "Prompt 3: Where does Laozi's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Laozi?"
+      ],
+      "relatedPosts": [],
+      "liveWordPressMatches": [],
+      "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/laozi/index.html",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
+      "sourceReviewComplete": false,
+      "fourPromptTextsMatchCurrentExactly": true,
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": false,
+        "awaitingFullReview": true
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/laozi-first-repository-345af16a41ec.html",
+      "baselineSha256": "8cd1eb15146ff91e15fefaa5007fe14831d0da70b87916780ff3690896ecc481",
+      "sourceIsOriginalWordPress": false
+    },
+    {
+      "pagePath": "/philosophers/maimonides/",
+      "title": "Maimonides",
+      "status": "approved-site-native-baseline-editorial-review-pending",
+      "candidates": [],
+      "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
+      "firstRepositorySha256": "730438f5884c2ecd923057fceb764a8c6c125640b36d1d55688ea4232239011e",
+      "firstRepositoryPrompts": [
+        "Prompt 1: Explain why Maimonides remains philosophically important.",
+        "Prompt 2: Identify Maimonides's major concepts, methods, or questions.",
+        "Prompt 3: Where does Maimonides's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Maimonides?"
+      ],
+      "firstRepositoryGenerated": true,
+      "currentPrompts": [
+        "Prompt 1: Explain why Maimonides remains philosophically important.",
+        "Prompt 2: Identify Maimonides's major concepts, methods, or questions.",
+        "Prompt 3: Where does Maimonides's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Maimonides?"
+      ],
+      "relatedPosts": [],
+      "liveWordPressMatches": [],
+      "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/maimonides/index.html",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
+      "sourceReviewComplete": false,
+      "fourPromptTextsMatchCurrentExactly": true,
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": false,
+        "awaitingFullReview": true
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/maimonides-first-repository-345af16a41ec.html",
+      "baselineSha256": "730438f5884c2ecd923057fceb764a8c6c125640b36d1d55688ea4232239011e",
+      "sourceIsOriginalWordPress": false
+    },
+    {
+      "pagePath": "/philosophers/marcus-aurelius/",
+      "title": "Marcus Aurelius",
+      "status": "reviewed-revised-source-verified",
+      "candidates": [
+        {
+          "id": 6157,
+          "title": "Marcus Aurelius",
+          "url": "http://byteseismic.com/2024/04/12/marcus-aurelius/"
+        }
+      ],
+      "sourceReviewComplete": true,
+      "verificationFile": "quality/original-source-revisions/marcus-aurelius-verification-2026-09-27.json",
+      "remainingConcerns": [
+        "Current page had replaced all four original prompts; the saved homepage confirms WP6157 route identity, and all four WordPress prompts are now restored.",
+        "Historical affiliations, specific intellectual debts and details of text transmission remain qualified rather than invented.",
+        "Psychotherapy comparison is historical and conceptual; no clinical effectiveness or treatment recommendation is asserted.",
+        "Original source ends at four prompts; the later generic quiz and synthesis are removed."
+      ],
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": true,
+        "fullBuildByteIdentical": true,
+        "sha256": "e06b49c2ad4e7da3077e4b749f982186af570a84e449034083b3f7e57acabf88"
+      }
+    },
+    {
+      "pagePath": "/philosophers/mary-wollstonecraft/",
+      "title": "Mary Wollstonecraft",
+      "status": "approved-site-native-baseline-editorial-review-pending",
+      "candidates": [],
+      "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
+      "firstRepositorySha256": "da43f415b9356fcb2e68468dd219fecd42c4da7dc74627984338c769df19b18f",
+      "firstRepositoryPrompts": [
+        "Prompt 1: Explain why Mary Wollstonecraft remains philosophically important.",
+        "Prompt 2: Identify Mary Wollstonecraft's major concepts, methods, or questions.",
+        "Prompt 3: Where does Mary Wollstonecraft's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Mary Wollstonecraft?"
+      ],
+      "firstRepositoryGenerated": true,
+      "currentPrompts": [
+        "Prompt 1: Explain why Mary Wollstonecraft remains philosophically important.",
+        "Prompt 2: Identify Mary Wollstonecraft's major concepts, methods, or questions.",
+        "Prompt 3: Where does Mary Wollstonecraft's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Mary Wollstonecraft?"
+      ],
+      "relatedPosts": [],
+      "liveWordPressMatches": [],
+      "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/mary-wollstonecraft/index.html",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
+      "sourceReviewComplete": false,
+      "fourPromptTextsMatchCurrentExactly": true,
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": false,
+        "awaitingFullReview": true
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/mary-wollstonecraft-first-repository-345af16a41ec.html",
+      "baselineSha256": "da43f415b9356fcb2e68468dd219fecd42c4da7dc74627984338c769df19b18f",
+      "sourceIsOriginalWordPress": false
+    },
+    {
+      "pagePath": "/philosophers/maurice-merleau-ponty/",
+      "title": "Maurice Merleau-Ponty",
+      "status": "reviewed-revised-source-verified",
+      "candidates": [
+        {
+          "id": 11935,
+          "title": "Maurice Merleau-Ponty",
+          "url": "http://byteseismic.com/2024/06/19/maurice-merleau-ponty/"
+        }
+      ],
+      "sourceReviewComplete": true,
+      "concern": "URL/title candidate located only; complete source reading, substantive editing and verification remain pending.",
+      "verificationFile": "quality/original-source-revisions/maurice-merleau-ponty-verification-2026-09-28.json",
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": true,
+        "fullBuildByteIdentical": true,
+        "sha256": "94d91b77f7a76ea74edb36ec93e528528e881cbaccc578280dc7f7ab8ee942c8"
+      }
+    },
+    {
+      "pagePath": "/philosophers/mencius/",
+      "title": "Mencius",
+      "status": "approved-site-native-baseline-editorial-review-pending",
+      "candidates": [],
+      "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
+      "firstRepositorySha256": "fa1683ed89f144a360dcc5a45b24b7c26a1ccda1b3155cbefbd6e100817da70e",
+      "firstRepositoryPrompts": [
+        "Prompt 1: Explain why Mencius remains philosophically important.",
+        "Prompt 2: Identify Mencius's major concepts, methods, or questions.",
+        "Prompt 3: Where does Mencius's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Mencius?"
+      ],
+      "firstRepositoryGenerated": true,
+      "currentPrompts": [
+        "Prompt 1: Explain why Mencius remains philosophically important.",
+        "Prompt 2: Identify Mencius's major concepts, methods, or questions.",
+        "Prompt 3: Where does Mencius's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Mencius?"
+      ],
+      "relatedPosts": [],
+      "liveWordPressMatches": [],
+      "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/mencius/index.html",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
+      "sourceReviewComplete": false,
+      "fourPromptTextsMatchCurrentExactly": true,
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": false,
+        "awaitingFullReview": true
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/mencius-first-repository-345af16a41ec.html",
+      "baselineSha256": "fa1683ed89f144a360dcc5a45b24b7c26a1ccda1b3155cbefbd6e100817da70e",
+      "sourceIsOriginalWordPress": false
+    },
+    {
+      "pagePath": "/philosophers/mozi/",
+      "title": "Mozi",
+      "status": "approved-site-native-baseline-editorial-review-pending",
+      "candidates": [],
+      "firstRepositoryCommit": "c848a72c8e71d73379aa3edf5e75d01c40dd1f1e",
+      "firstRepositorySha256": "cef360976db6387a4430b773dff269fdf1d44d1d6ecc429dcb677622f62aad44",
+      "firstRepositoryPrompts": [
+        "Prompt 1: Explain why Mozi remains philosophically important.",
+        "Prompt 2: Identify Mozi's major concepts, methods, or questions.",
+        "Prompt 3: Where does Mozi's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Mozi?"
+      ],
+      "firstRepositoryGenerated": true,
+      "currentPrompts": [
+        "Prompt 1: Explain why Mozi remains philosophically important.",
+        "Prompt 2: Identify Mozi's major concepts, methods, or questions.",
+        "Prompt 3: Where does Mozi's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Mozi?"
+      ],
+      "relatedPosts": [],
+      "liveWordPressMatches": [],
+      "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/c848a72c8e71d73379aa3edf5e75d01c40dd1f1e/philosophers/mozi/index.html",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
+      "sourceReviewComplete": false,
+      "fourPromptTextsMatchCurrentExactly": true,
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": false,
+        "awaitingFullReview": true
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/mozi-first-repository-c848a72c8e71.html",
+      "baselineSha256": "cef360976db6387a4430b773dff269fdf1d44d1d6ecc429dcb677622f62aad44",
+      "sourceIsOriginalWordPress": false
+    },
+    {
+      "pagePath": "/philosophers/nagarjuna/",
+      "title": "Nagarjuna",
+      "status": "approved-site-native-baseline-editorial-review-pending",
+      "candidates": [],
+      "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
+      "firstRepositorySha256": "345c65c6c7cbd7c76cfb7e74f936a74d52cf65104764f717aa265ffa06026cac",
+      "firstRepositoryPrompts": [
+        "Prompt 1: Explain why Nagarjuna remains philosophically important.",
+        "Prompt 2: Identify Nagarjuna's major concepts, methods, or questions.",
+        "Prompt 3: Where does Nagarjuna's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Nagarjuna?"
+      ],
+      "firstRepositoryGenerated": true,
+      "currentPrompts": [
+        "Prompt 1: Explain why Nagarjuna remains philosophically important.",
+        "Prompt 2: Identify Nagarjuna's major concepts, methods, or questions.",
+        "Prompt 3: Where does Nagarjuna's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Nagarjuna?"
+      ],
+      "relatedPosts": [],
+      "liveWordPressMatches": [],
+      "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/nagarjuna/index.html",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
+      "sourceReviewComplete": false,
+      "fourPromptTextsMatchCurrentExactly": true,
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": false,
+        "awaitingFullReview": true
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/nagarjuna-first-repository-345af16a41ec.html",
+      "baselineSha256": "345c65c6c7cbd7c76cfb7e74f936a74d52cf65104764f717aa265ffa06026cac",
+      "sourceIsOriginalWordPress": false
+    },
+    {
+      "pagePath": "/philosophers/niccolo-machiavelli/",
+      "title": "Niccolo Machiavelli",
+      "status": "approved-site-native-baseline-editorial-review-pending",
+      "candidates": [],
+      "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
+      "firstRepositorySha256": "85cce903d8b0ad082d33602612ed90d2e17e266d36dbe0000b766eee8e4b3fa7",
+      "firstRepositoryPrompts": [
+        "Prompt 1: Explain why Niccolo Machiavelli remains philosophically important.",
+        "Prompt 2: Identify Niccolo Machiavelli's major concepts, methods, or questions.",
+        "Prompt 3: Where does Niccolo Machiavelli's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Niccolo Machiavelli?"
+      ],
+      "firstRepositoryGenerated": true,
+      "currentPrompts": [
+        "Prompt 1: Explain why Niccolo Machiavelli remains philosophically important.",
+        "Prompt 2: Identify Niccolo Machiavelli's major concepts, methods, or questions.",
+        "Prompt 3: Where does Niccolo Machiavelli's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Niccolo Machiavelli?"
+      ],
+      "relatedPosts": [],
+      "liveWordPressMatches": [],
+      "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/niccolo-machiavelli/index.html",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
+      "sourceReviewComplete": false,
+      "fourPromptTextsMatchCurrentExactly": true,
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": false,
+        "awaitingFullReview": true
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/niccolo-machiavelli-first-repository-345af16a41ec.html",
+      "baselineSha256": "85cce903d8b0ad082d33602612ed90d2e17e266d36dbe0000b766eee8e4b3fa7",
+      "sourceIsOriginalWordPress": false
+    },
+    {
+      "pagePath": "/philosophers/parmenides/",
+      "title": "Parmenides",
+      "status": "approved-site-native-baseline-editorial-review-pending",
+      "candidates": [],
+      "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
+      "firstRepositorySha256": "900614dd75270dedcbf8a7be7e85901196de4bd42f18484b6b8d2492322be169",
+      "firstRepositoryPrompts": [
+        "Prompt 1: Explain why Parmenides remains philosophically important.",
+        "Prompt 2: Identify Parmenides's major concepts, methods, or questions.",
+        "Prompt 3: Where does Parmenides's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Parmenides?"
+      ],
+      "firstRepositoryGenerated": true,
+      "currentPrompts": [
+        "Prompt 1: Explain why Parmenides remains philosophically important.",
+        "Prompt 2: Identify Parmenides's major concepts, methods, or questions.",
+        "Prompt 3: Where does Parmenides's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Parmenides?"
+      ],
+      "relatedPosts": [],
+      "liveWordPressMatches": [],
+      "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/parmenides/index.html",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
+      "sourceReviewComplete": false,
+      "fourPromptTextsMatchCurrentExactly": true,
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": false,
+        "awaitingFullReview": true
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/parmenides-first-repository-345af16a41ec.html",
+      "baselineSha256": "900614dd75270dedcbf8a7be7e85901196de4bd42f18484b6b8d2492322be169",
+      "sourceIsOriginalWordPress": false
+    },
+    {
+      "pagePath": "/philosophers/plato/",
+      "title": "Plato",
+      "status": "approved-site-native-baseline-editorial-review-pending",
+      "candidates": [],
+      "firstRepositoryCommit": "c848a72c8e71d73379aa3edf5e75d01c40dd1f1e",
+      "firstRepositorySha256": "f043d15c9d83446c26a12ed027445a0db782c336daa5b9a93d6ff77ce95ec1c6",
+      "firstRepositoryPrompts": [
+        "Prompt 1: Explain why Plato remains philosophically important.",
+        "Prompt 2: Identify Plato's major concepts, methods, or questions.",
+        "Prompt 3: Where does Plato's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Plato?"
+      ],
+      "firstRepositoryGenerated": true,
+      "currentPrompts": [
+        "Prompt 1: Explain why Plato remains philosophically important.",
+        "Prompt 2: Identify Plato's major concepts, methods, or questions.",
+        "Prompt 3: Where does Plato's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Plato?"
+      ],
+      "relatedPosts": [
+        {
+          "id": 9093,
+          "title": "Charting Plato",
+          "url": "http://byteseismic.com/2024/05/16/charting-plato/"
+        },
+        {
+          "id": 8378,
+          "title": "Dialoguing with Plato",
+          "url": "http://byteseismic.com/2024/05/09/dialoguing-with-plato/"
+        },
+        {
+          "id": 6678,
+          "title": "Plato",
+          "url": "http://byteseismic.com/2024/04/19/plato-2/"
+        }
+      ],
+      "liveWordPressMatches": [
+        {
+          "ID": 6678,
+          "title": "Plato",
+          "URL": "http://byteseismic.com/2024/04/19/plato-2/",
+          "slug": "plato-2"
+        }
+      ],
+      "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/c848a72c8e71d73379aa3edf5e75d01c40dd1f1e/philosophers/plato/index.html",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
+      "sourceReviewComplete": false,
+      "fourPromptTextsMatchCurrentExactly": true,
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": false,
+        "awaitingFullReview": true
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/plato-first-repository-c848a72c8e71.html",
+      "baselineSha256": "f043d15c9d83446c26a12ed027445a0db782c336daa5b9a93d6ff77ce95ec1c6",
+      "sourceIsOriginalWordPress": false
+    },
+    {
+      "pagePath": "/philosophers/plotinus/",
+      "title": "Plotinus",
+      "status": "approved-site-native-baseline-editorial-review-pending",
+      "candidates": [],
+      "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
+      "firstRepositorySha256": "34a43f3c5bf98991d74c0fe178029b7290cf5889dd5403a5c1034e3e63d36fc9",
+      "firstRepositoryPrompts": [
+        "Prompt 1: Explain why Plotinus remains philosophically important.",
+        "Prompt 2: Identify Plotinus's major concepts, methods, or questions.",
+        "Prompt 3: Where does Plotinus's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Plotinus?"
+      ],
+      "firstRepositoryGenerated": true,
+      "currentPrompts": [
+        "Prompt 1: Explain why Plotinus remains philosophically important.",
+        "Prompt 2: Identify Plotinus's major concepts, methods, or questions.",
+        "Prompt 3: Where does Plotinus's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Plotinus?"
+      ],
+      "relatedPosts": [],
+      "liveWordPressMatches": [],
+      "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/plotinus/index.html",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
+      "sourceReviewComplete": false,
+      "fourPromptTextsMatchCurrentExactly": true,
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": false,
+        "awaitingFullReview": true
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/plotinus-first-repository-345af16a41ec.html",
+      "baselineSha256": "34a43f3c5bf98991d74c0fe178029b7290cf5889dd5403a5c1034e3e63d36fc9",
+      "sourceIsOriginalWordPress": false
+    },
+    {
+      "pagePath": "/philosophers/pragmatists/",
+      "title": "Pragmatists",
+      "status": "reviewed-revised-source-verified",
+      "candidates": [
+        {
+          "id": 7946,
+          "title": "Pragmatists",
+          "url": "http://byteseismic.com/2024/05/03/pragmatists/"
+        }
+      ],
+      "sourceReviewComplete": true,
+      "concern": "URL/title candidate located only; complete source reading, substantive editing and verification remain pending.",
+      "verificationFile": "quality/original-source-revisions/pragmatists-verification-2026-09-28.json",
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": true,
+        "fullBuildByteIdentical": true,
+        "sha256": "af1693ade374b98a07af3743416724b47f7853643b8d1968340512ce96cc027c"
+      }
+    },
+    {
+      "pagePath": "/philosophers/rationalists/",
+      "title": "Rationalists",
+      "status": "reviewed-revised-source-verified",
+      "candidates": [
+        {
+          "id": 7666,
+          "title": "Rationalists",
+          "url": "http://byteseismic.com/2024/05/01/rationalists/"
+        }
+      ],
+      "sourceReviewComplete": true,
+      "concern": "URL/title candidate located only; complete source reading, substantive editing and verification remain pending.",
+      "verificationFile": "quality/original-source-revisions/rationalists-verification-2026-09-28.json",
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": true,
+        "fullBuildByteIdentical": true,
+        "sha256": "1b739db04d2e5e257355429d633645e15b972f60dad0037c50d7bd995885ee9b"
+      }
+    },
+    {
+      "pagePath": "/philosophers/saul-kripke/",
+      "title": "Saul Kripke",
+      "status": "approved-site-native-baseline-editorial-review-pending",
+      "candidates": [],
+      "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
+      "firstRepositorySha256": "166e459d9042ef9ffb95340eeacc9c5c15f249e0daa77f30058c042ab919b917",
+      "firstRepositoryPrompts": [
+        "Prompt 1: Explain why Saul Kripke remains philosophically important.",
+        "Prompt 2: Identify Saul Kripke's major concepts, methods, or questions.",
+        "Prompt 3: Where does Saul Kripke's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Saul Kripke?"
+      ],
+      "firstRepositoryGenerated": true,
+      "currentPrompts": [
+        "Prompt 1: Explain why Saul Kripke remains philosophically important.",
+        "Prompt 2: Identify Saul Kripke's major concepts, methods, or questions.",
+        "Prompt 3: Where does Saul Kripke's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Saul Kripke?"
+      ],
+      "relatedPosts": [],
+      "liveWordPressMatches": [],
+      "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/saul-kripke/index.html",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
+      "sourceReviewComplete": false,
+      "fourPromptTextsMatchCurrentExactly": true,
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": false,
+        "awaitingFullReview": true
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/saul-kripke-first-repository-345af16a41ec.html",
+      "baselineSha256": "166e459d9042ef9ffb95340eeacc9c5c15f249e0daa77f30058c042ab919b917",
+      "sourceIsOriginalWordPress": false
+    },
+    {
+      "pagePath": "/philosophers/scholastics/",
+      "title": "Scholastics",
+      "status": "reviewed-revised-source-verified",
+      "candidates": [
+        {
+          "id": 7977,
+          "title": "Scholastics",
+          "url": "http://byteseismic.com/2024/05/04/scholastics/"
+        }
+      ],
+      "sourceReviewComplete": true,
+      "concern": "URL/title candidate located only; complete source reading, substantive editing and verification remain pending.",
+      "verificationFile": "quality/original-source-revisions/scholastics-verification-2026-09-28.json",
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": true,
+        "fullBuildByteIdentical": true,
+        "sha256": "7f59e00667e426795c5fbc4272f9fa6416bb76330932a6f0a5feb20f5e219d86"
+      }
+    },
+    {
+      "pagePath": "/philosophers/seneca/",
+      "title": "Seneca",
+      "status": "reviewed-revised-source-verified",
+      "candidates": [
+        {
+          "id": 9201,
+          "title": "Seneca",
+          "url": "http://byteseismic.com/2024/05/17/seneca/"
+        }
+      ],
+      "sourceReviewComplete": true,
+      "concern": [
+        "Source seven-entry lists contain overlapping inherited Stoic contributions; explicitly disclosed.",
+        "No extended dialogue or separate curator correction in this original.",
+        "Clinical parallels do not establish treatment effectiveness."
+      ],
+      "verificationFile": "quality/original-source-revisions/seneca-verification-2026-09-29.json",
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": true,
+        "fullBuildByteIdentical": true,
+        "sha256": "5390040b1e993fb801c9e69f4f0da4a118a8767058f18d7368c2cb6e4415dcc8"
+      }
+    },
+    {
+      "pagePath": "/philosophers/shankara/",
+      "title": "Shankara",
+      "status": "approved-site-native-baseline-editorial-review-pending",
+      "candidates": [],
+      "firstRepositoryCommit": "c848a72c8e71d73379aa3edf5e75d01c40dd1f1e",
+      "firstRepositorySha256": "76cdb327ad05dbf45bf43c28756e117b113dbddbbbacf14e785478fba5140881",
+      "firstRepositoryPrompts": [
+        "Prompt 1: Explain why Shankara remains philosophically important.",
+        "Prompt 2: Identify Shankara's major concepts, methods, or questions.",
+        "Prompt 3: Where does Shankara's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Shankara?"
+      ],
+      "firstRepositoryGenerated": true,
+      "currentPrompts": [
+        "Prompt 1: Explain why Shankara remains philosophically important.",
+        "Prompt 2: Identify Shankara's major concepts, methods, or questions.",
+        "Prompt 3: Where does Shankara's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Shankara?"
+      ],
+      "relatedPosts": [],
+      "liveWordPressMatches": [],
+      "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/c848a72c8e71d73379aa3edf5e75d01c40dd1f1e/philosophers/shankara/index.html",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
+      "sourceReviewComplete": false,
+      "fourPromptTextsMatchCurrentExactly": true,
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": false,
+        "awaitingFullReview": true
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/shankara-first-repository-c848a72c8e71.html",
+      "baselineSha256": "76cdb327ad05dbf45bf43c28756e117b113dbddbbbacf14e785478fba5140881",
+      "sourceIsOriginalWordPress": false
+    },
+    {
+      "pagePath": "/philosophers/theodor-adorno/",
+      "title": "Theodor Adorno",
+      "status": "approved-site-native-baseline-editorial-review-pending",
+      "candidates": [],
+      "firstRepositoryCommit": "c848a72c8e71d73379aa3edf5e75d01c40dd1f1e",
+      "firstRepositorySha256": "5ea1d7109f26d16031e05cf4b4582bedfc7f9641f692d0c6b5f8b0b033cc21af",
+      "firstRepositoryPrompts": [
+        "Prompt 1: Explain why Theodor Adorno remains philosophically important.",
+        "Prompt 2: Identify Theodor Adorno's major concepts, methods, or questions.",
+        "Prompt 3: Where does Theodor Adorno's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Theodor Adorno?"
+      ],
+      "firstRepositoryGenerated": true,
+      "currentPrompts": [
+        "Prompt 1: Explain why Theodor Adorno remains philosophically important.",
+        "Prompt 2: Identify Theodor Adorno's major concepts, methods, or questions.",
+        "Prompt 3: Where does Theodor Adorno's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Theodor Adorno?"
+      ],
+      "relatedPosts": [
+        {
+          "id": 12977,
+          "title": "Theodor W. Adorno",
+          "url": "http://byteseismic.com/2024/07/22/theodor-w-adorno/"
+        }
+      ],
+      "liveWordPressMatches": [],
+      "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/c848a72c8e71d73379aa3edf5e75d01c40dd1f1e/philosophers/theodor-adorno/index.html",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
+      "sourceReviewComplete": false,
+      "fourPromptTextsMatchCurrentExactly": true,
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": false,
+        "awaitingFullReview": true
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/theodor-adorno-first-repository-c848a72c8e71.html",
+      "baselineSha256": "5ea1d7109f26d16031e05cf4b4582bedfc7f9641f692d0c6b5f8b0b033cc21af",
+      "sourceIsOriginalWordPress": false
+    },
+    {
+      "pagePath": "/philosophers/theodor-w-adorno/",
+      "title": "Theodor W. Adorno",
+      "status": "reviewed-revised-source-verified",
+      "candidates": [
+        {
+          "id": 12977,
+          "title": "Theodor W. Adorno",
+          "url": "http://byteseismic.com/2024/07/22/theodor-w-adorno/"
+        }
+      ],
+      "sourceReviewComplete": true,
+      "concern": [
+        "Interpretations of nonidentity and cultural domination remain contested; critical qualifications do not settle those disputes.",
+        "No extended dialogue or separate curator correction in this original.",
+        "Quizzes is an original section heading, not an invented prompt."
+      ],
+      "verificationFile": "quality/original-source-revisions/theodor-w-adorno-verification-2026-09-29.json",
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": true,
+        "fullBuildByteIdentical": true,
+        "sha256": "63db6870990b8bc79f4c0cfe938fea6e1d8893dd7dce2bee199b2945cca8e4be"
+      }
+    },
+    {
+      "pagePath": "/philosophers/walter-benjamin/",
+      "title": "Walter Benjamin",
+      "status": "approved-site-native-baseline-editorial-review-pending",
+      "candidates": [],
+      "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
+      "firstRepositorySha256": "b5cf7e91855bb85867e9aef86d8ebb87e25e99231cc83712fbde581dea9d90b8",
+      "firstRepositoryPrompts": [
+        "Prompt 1: Explain why Walter Benjamin remains philosophically important.",
+        "Prompt 2: Identify Walter Benjamin's major concepts, methods, or questions.",
+        "Prompt 3: Where does Walter Benjamin's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Walter Benjamin?"
+      ],
+      "firstRepositoryGenerated": true,
+      "currentPrompts": [
+        "Prompt 1: Explain why Walter Benjamin remains philosophically important.",
+        "Prompt 2: Identify Walter Benjamin's major concepts, methods, or questions.",
+        "Prompt 3: Where does Walter Benjamin's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Walter Benjamin?"
+      ],
+      "relatedPosts": [],
+      "liveWordPressMatches": [],
+      "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/walter-benjamin/index.html",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
+      "sourceReviewComplete": false,
+      "fourPromptTextsMatchCurrentExactly": true,
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": false,
+        "awaitingFullReview": true
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/walter-benjamin-first-repository-345af16a41ec.html",
+      "baselineSha256": "b5cf7e91855bb85867e9aef86d8ebb87e25e99231cc83712fbde581dea9d90b8",
+      "sourceIsOriginalWordPress": false
+    },
+    {
+      "pagePath": "/philosophers/william-of-ockham/",
+      "title": "William of Ockham",
+      "status": "reviewed-revised-source-verified",
+      "candidates": [
+        {
+          "id": 12932,
+          "title": "William of Ockham",
+          "url": "http://byteseismic.com/2024/07/12/william-of-ockham/"
+        }
+      ],
+      "sourceReviewComplete": true,
+      "concern": [
+        "The accounts of cognition and theological demonstration are compressed and historically contested; no comprehensive survey claimed.",
+        "Nominalism/conceptualism overlap is disclosed; seven positions preserved.",
+        "Quizzes is an original heading; no separate dialogue or curator correction."
+      ],
+      "verificationFile": "quality/original-source-revisions/william-of-ockham-verification-2026-09-29.json",
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": true,
+        "fullBuildByteIdentical": true,
+        "sha256": "93a35d28d0630be7148d89ac48537ca3cc7cc9016b849a0d89789a8eeb74015a"
+      }
+    },
+    {
+      "pagePath": "/philosophers/xunzi/",
+      "title": "Xunzi",
+      "status": "approved-site-native-baseline-editorial-review-pending",
+      "candidates": [],
+      "firstRepositoryCommit": "c848a72c8e71d73379aa3edf5e75d01c40dd1f1e",
+      "firstRepositorySha256": "8b44fc24e2c9773120f00ccd7e12495476800364c20473223dbf1d0a9c2693c3",
+      "firstRepositoryPrompts": [
+        "Prompt 1: Explain why Xunzi remains philosophically important.",
+        "Prompt 2: Identify Xunzi's major concepts, methods, or questions.",
+        "Prompt 3: Where does Xunzi's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Xunzi?"
+      ],
+      "firstRepositoryGenerated": true,
+      "currentPrompts": [
+        "Prompt 1: Explain why Xunzi remains philosophically important.",
+        "Prompt 2: Identify Xunzi's major concepts, methods, or questions.",
+        "Prompt 3: Where does Xunzi's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Xunzi?"
+      ],
+      "relatedPosts": [],
+      "liveWordPressMatches": [],
+      "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/c848a72c8e71d73379aa3edf5e75d01c40dd1f1e/philosophers/xunzi/index.html",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
+      "sourceReviewComplete": false,
+      "fourPromptTextsMatchCurrentExactly": true,
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": false,
+        "awaitingFullReview": true
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/xunzi-first-repository-c848a72c8e71.html",
+      "baselineSha256": "8b44fc24e2c9773120f00ccd7e12495476800364c20473223dbf1d0a9c2693c3",
+      "sourceIsOriginalWordPress": false
+    },
+    {
+      "pagePath": "/philosophers/zhuangzi/",
+      "title": "Zhuangzi",
+      "status": "approved-site-native-baseline-editorial-review-pending",
+      "candidates": [],
+      "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
+      "firstRepositorySha256": "c9c4937529860a2f885cbb5ca6a6cd50762339ee2c0f80c191545bb1907548e4",
+      "firstRepositoryPrompts": [
+        "Prompt 1: Explain why Zhuangzi remains philosophically important.",
+        "Prompt 2: Identify Zhuangzi's major concepts, methods, or questions.",
+        "Prompt 3: Where does Zhuangzi's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Zhuangzi?"
+      ],
+      "firstRepositoryGenerated": true,
+      "currentPrompts": [
+        "Prompt 1: Explain why Zhuangzi remains philosophically important.",
+        "Prompt 2: Identify Zhuangzi's major concepts, methods, or questions.",
+        "Prompt 3: Where does Zhuangzi's view face its strongest objection?",
+        "Prompt 4: How should a contemporary reader begin with Zhuangzi?"
+      ],
+      "relatedPosts": [],
+      "liveWordPressMatches": [],
+      "firstRepositoryUrl": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/zhuangzi/index.html",
+      "concern": "Explicit approval resolves source eligibility only. Full baseline/current reading, substantive review and verification remain pending.",
+      "sourceReviewComplete": false,
+      "fourPromptTextsMatchCurrentExactly": true,
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": false,
+        "awaitingFullReview": true
+      },
+      "sourceKind": "site-native editorial/reconstructed profile",
+      "baselineManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+      "baselineSnapshot": "quality/original-source-revisions/zhuangzi-first-repository-345af16a41ec.html",
+      "baselineSha256": "c9c4937529860a2f885cbb5ca6a6cd50762339ee2c0f80c191545bb1907548e4",
+      "sourceIsOriginalWordPress": false
+    },
+    {
+      "pagePath": "/philosophers/aquinas-five-ways/",
+      "title": "Aquinas’ Five Ways",
+      "status": "reviewed-revised-source-verified",
+      "candidates": [
+        {
+          "id": 14334,
+          "title": "Aquinas&#8217; Five Ways",
+          "url": "http://byteseismic.com/2024/10/27/aquinas-five-ways/"
+        }
+      ],
+      "sourceReviewComplete": true,
+      "concern": [
+        "Formalizations are transparent conditional editorial reconstructions, not verbatim Aquinas or proofs of disputed metaphysical premises.",
+        "The original Third Way formulation differs from the historical temporal argument; distinction disclosed.",
+        "Source displays two model logos over one response stream; no specific response authorship inferred.",
+        "Gold analogy and skeptical identification challenge retained; invalid proofs of contradiction repaired.",
+        "All original formula-image locations replaced by corrected text; exact source images/alt formulas remain in immutable snapshot."
+      ],
+      "verificationFile": "quality/original-source-revisions/aquinas-five-ways-verification-2026-09-29.json",
+      "todayVerification": {
+        "freshEditorialReview": false,
+        "preservationOnly": true,
+        "fullBuildByteIdentical": true,
+        "sha256": "a6983034b34fe83a02d3b5e278f757419c5edc9fa26e850ff790711b2940b835"
+      }
+    }
+  ],
+  "verificationEvidence": "quality/original-source-revisions/batch-verification-2026-10-03.json",
+  "verification": {
+    "newSubstantiveReviews": 4,
+    "priorEditionsPreserved": 78,
+    "reviewedEditionsPreservedByFullBuild": 82,
+    "siteAuditPages": 840,
+    "reportedFailures": 0,
+    "inheritedModifiedFilesPreserved": 476,
+    "trackerFilesPreserved": 2
+  },
+  "commitPush": {
+    "branch": "main",
+    "remote": "origin",
+    "scope": "Four pages, four edit records, four verification records, approval-status manifest, batch evidence and two reports. Exact commit and independently checked remote hash recorded in automation memory and final response."
+  },
+  "unresolvedFollowup": [
+    "18 approved current-batch profiles need full review, starting with John Stuart Mill and Judith Butler; approval is already granted.",
+    "Existing low-contrast hero text remains a separate shared-style follow-up.",
+    "Interpretive and source limitations are recorded per page; mobile was not tested."
+  ]
+}

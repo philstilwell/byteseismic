@@ -1,0 +1,87 @@
+{
+  "pagePath": "/philosophers/hannah-arendt/",
+  "sourceKind": "site-native editorial/reconstructed profile",
+  "sourceIsOriginalWordPress": false,
+  "baselineSnapshot": "quality/original-source-revisions/hannah-arendt-first-repository-345af16a41ec.html",
+  "baselineSha256": "72d9f9023fe723834727069ed7d394be8f3346ebdf4f55a43d990ee8bc6b2527",
+  "originalPrompts": 4,
+  "responseSections": 4,
+  "promptOrderExact": true,
+  "originalResponseListCounts": [
+    6,
+    5,
+    5,
+    5
+  ],
+  "originalSynthesisQuestionsPreserved": 5,
+  "quizQuestions": 8,
+  "genericParagraphsConsolidated": 12,
+  "sha256": "ab04314c19fb7dcbe019ac14b90c4997130ac4c160b31c1933cdc47d59103beb",
+  "verifiedAt": "2026-10-03T13:15:24.613509+00:00",
+  "fullBaselineRead": true,
+  "fullCurrentEditionRead": true,
+  "baselineMatchedBy": [
+    "approved-page-path",
+    "title",
+    "four-prompts",
+    "exact-first-addition-commit",
+    "snapshot-SHA256"
+  ],
+  "sourceURL": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/hannah-arendt/index.html",
+  "firstRepositoryCommit": "345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c",
+  "approvalManifest": "quality/original-source-revisions/site-native-baselines-2026-09-30.json",
+  "responseReviews": {
+    "1": "Replaced generic fame/influence framing with public freedom versus administration; historical context qualified; hypothetical neighborhood case supplies continuity.",
+    "2": "Explained plurality, natality, public realm and labor/work/action; distinguished banality from triviality, innocence and a universal theory; all concept-list roles retained.",
+    "3": "Developed original sharp-categories objection through childcare/access; charitable activity distinction and remaining exclusion problem; responsibility assessed separately through a hypothetical office.",
+    "4": "Provided concrete Human Condition→Thinking→Eichmann postscript route and historical-evidence discipline; preserved five ordered reading items and five exact follow-ups."
+  },
+  "remainingConcerns": [
+    "Approved site-native editorial/reconstructed profile, not WordPress source.",
+    "Arendt’s historical interpretation of Eichmann remains a claim requiring evidence; the page makes no new historical finding about his motives.",
+    "Neighborhood, childcare and office cases are editorial hypotheticals, not reports by Arendt.",
+    "The boundaries between social needs and political action remain contested; the charitable reply is not presented as a complete resolution."
+  ],
+  "supplementalReferences": [
+    {
+      "url": "https://www.frontdeskapparatus.com/files/arendt.pdf",
+      "title": "Arendt, The Human Condition — public and private realm excerpt"
+    },
+    {
+      "url": "https://moodle.bezalel.ac.il/pluginfile.php/112179/mod_resource/content/1/Arendt%2C%20Hannah%20-%20Human%20Condition%2C%202nd%20edn.%20%28Chicago%2C%201998%29.pdf",
+      "title": "Arendt, The Human Condition — complete second edition"
+    },
+    {
+      "url": "https://jonudell.net/h/arendt.pdf",
+      "title": "Arendt, Thinking and Moral Considerations (1971)"
+    },
+    {
+      "url": "https://platypus1917.org/wp-content/uploads/2014/01/arendt_eichmanninjerusalem.pdf",
+      "title": "Arendt, Eichmann in Jerusalem — including postscript"
+    }
+  ],
+  "deliberateOmissionsRejected": [
+    ".original-prompt-text",
+    "#prompt-1 > ol > li",
+    "#synthesis > ol > li",
+    ".quiz-item"
+  ],
+  "fidelity": {
+    "fourPromptsVerbatimInOrder": true,
+    "fourResponsePositionsPreserved": true,
+    "originalListPositionsPreserved": true,
+    "fiveSynthesisQuestionsVerbatim": true,
+    "restoredFifthFollowupOmittedByLaterReconstruction": true,
+    "noOriginalDialogueOrSeparateCuratorCorrection": true,
+    "eightQuizSlotsWithFourOptionsPreserved": true,
+    "allEightQuestionsAnd32FeedbackEntriesPageSpecific": true,
+    "baselineResponseParagraphs": 26,
+    "revisedResponseParagraphs": 14,
+    "synthesisParagraphCountPreserved": 3,
+    "originalNoticesCountPreserved": 0,
+    "restoredOriginalResponseListEntries": 3
+  },
+  "preservedEffectiveMaterial": "Original four-response progression, named concepts, main skeptical objection and ordered list roles retained and developed. Effective entry questions retained. Repetitive writing instructions replaced by explanations; five follow-up questions retained verbatim. No original dialogue or separate curator exchange existed.",
+  "fullBuildByteIdentical": true,
+  "fullBuildEvidence": "quality/original-source-revisions/batch-verification-2026-10-03.json"
+}
