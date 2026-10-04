@@ -1,0 +1,50 @@
+{
+  "pagePath": "/philosophers/laozi/",
+  "sourceKind": "site-native editorial/reconstructed profile",
+  "sourceIsOriginalWordPress": false,
+  "baselineSnapshot": "quality/original-source-revisions/laozi-first-repository-345af16a41ec.html",
+  "baselineSha256": "8cd1eb15146ff91e15fefaa5007fe14831d0da70b87916780ff3690896ecc481",
+  "originalPrompts": 4,
+  "responseSections": 4,
+  "promptOrderExact": true,
+  "originalResponseListCounts": [
+    6,
+    5,
+    5,
+    5
+  ],
+  "originalSynthesisQuestionsPreserved": 5,
+  "quizQuestions": 8,
+  "genericParagraphsConsolidated": 12,
+  "sha256": "b4ee717fdadc3468a3abe954ab6f51992477f856de4bdbfac899fa06824c7d45",
+  "baselineGitObjectExact": true,
+  "sourceURL": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/laozi/index.html",
+  "titlePathPromptsMatched": true,
+  "completeBaselineAndCurrentEditionRead": true,
+  "editorialDecisions": [
+    "1: Developed control/order problem; qualified traditional attribution and modern influence; supplied hypothetical teaching case.",
+    "2: Explained Dao/wu wei/simplicity/softness separately; used chapters63–64 against passive reading and limited water analogy.",
+    "3: Preserved neglect objection, added intimidation countercase and paternalism tension in chapters3/65.",
+    "4: Retained opening question, provided chapter route and translation caution; explicitly clarified original Coercive action follow-up without editing it."
+  ],
+  "remainingConcerns": [
+    "Approved site-native baseline, not a WordPress source.",
+    "Traditional attribution does not establish a secure single-author biography.",
+    "Translation of wu wei and the political interpretation remain disputed.",
+    "Hypothetical teaching and intimidation cases do not establish empirical policy conclusions."
+  ],
+  "noBaselineDialogueOrSeparateCuratorCorrections": true,
+  "deliberateOmissionsRejected": [
+    ".original-prompt-text",
+    "#prompt-2 li",
+    "#synthesis > ol > li",
+    ".quiz-item"
+  ],
+  "restoredListEntries": 3,
+  "restoredFifthFollowup": 1,
+  "responseParagraphsBefore": 26,
+  "responseParagraphsAfter": 14,
+  "verifiedAt": "2026-10-04T13:18:05.090056+00:00",
+  "fullBuildByteIdentical": true,
+  "desktopBrowserChecked": true
+}

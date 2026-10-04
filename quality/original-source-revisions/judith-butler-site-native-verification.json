@@ -1,0 +1,49 @@
+{
+  "pagePath": "/philosophers/judith-butler/",
+  "sourceKind": "site-native editorial/reconstructed profile",
+  "sourceIsOriginalWordPress": false,
+  "baselineSnapshot": "quality/original-source-revisions/judith-butler-first-repository-345af16a41ec.html",
+  "baselineSha256": "983ddc9e2d57b5582383ea7e94a3b1554b5038c6dcccf12f835c1eb13082a84d",
+  "originalPrompts": 4,
+  "responseSections": 4,
+  "promptOrderExact": true,
+  "originalResponseListCounts": [
+    5,
+    5,
+    5,
+    5
+  ],
+  "originalSynthesisQuestionsPreserved": 5,
+  "quizQuestions": 8,
+  "genericParagraphsConsolidated": 13,
+  "sha256": "0317cc2173ba7167f459d71b572fcddfb98fcfbd373ddc303e0a465c9c94a4d6",
+  "baselineGitObjectExact": true,
+  "sourceURL": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/judith-butler/index.html",
+  "titlePathPromptsMatched": true,
+  "completeBaselineAndCurrentEditionRead": true,
+  "editorialDecisions": [
+    "1: Replaced generic influence with representation/category problem and clearly hypothetical association.",
+    "2: Distinguished performativity/performance, embodiment/classification and shared dependence/unequal precarity; rejected automatic subversion.",
+    "3: Developed the original organizing objection, coalition reply and accountable-category test without claiming a settled procedure.",
+    "4: Preserved costume entry question but corrected voluntarist reading; supplied interview/book route and genealogy-versus-justification distinction."
+  ],
+  "remainingConcerns": [
+    "Approved site-native profile, not a recovered WordPress conversation.",
+    "The coalition procedure is an editorial test, not a claimed Butler prescription.",
+    "The relation between social formation, embodiment and agency remains contested."
+  ],
+  "noBaselineDialogueOrSeparateCuratorCorrections": true,
+  "deliberateOmissionsRejected": [
+    ".original-prompt-text",
+    "#prompt-2 li",
+    "#synthesis > ol > li",
+    ".quiz-item"
+  ],
+  "restoredListEntries": 2,
+  "restoredFifthFollowup": 1,
+  "responseParagraphsBefore": 27,
+  "responseParagraphsAfter": 14,
+  "verifiedAt": "2026-10-04T13:18:05.090056+00:00",
+  "fullBuildByteIdentical": true,
+  "desktopBrowserChecked": true
+}

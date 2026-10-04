@@ -1,0 +1,50 @@
+{
+  "pagePath": "/philosophers/maimonides/",
+  "sourceKind": "site-native editorial/reconstructed profile",
+  "sourceIsOriginalWordPress": false,
+  "baselineSnapshot": "quality/original-source-revisions/maimonides-first-repository-345af16a41ec.html",
+  "baselineSha256": "730438f5884c2ecd923057fceb764a8c6c125640b36d1d55688ea4232239011e",
+  "originalPrompts": 4,
+  "responseSections": 4,
+  "promptOrderExact": true,
+  "originalResponseListCounts": [
+    6,
+    5,
+    5,
+    5
+  ],
+  "originalSynthesisQuestionsPreserved": 5,
+  "quizQuestions": 8,
+  "genericParagraphsConsolidated": 11,
+  "sha256": "375552110c20dfa82de2352c74e1757396250fd02b67ca9d64d898afdfa98ef3",
+  "baselineGitObjectExact": true,
+  "sourceURL": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/maimonides/index.html",
+  "titlePathPromptsMatched": true,
+  "completeBaselineAndCurrentEditionRead": true,
+  "editorialDecisions": [
+    "1: Developed predicate/composition problem, distinguished legal and philosophical works, separated purified concept from existence claim.",
+    "2: Explained justified negation, essence/action distinction, equivocation and law’s two aims.",
+    "3: Developed loss-of-content objection with qualified reply and limited signal analogy; retained causal and practical burdens.",
+    "4: Preserved effective entry question and supplied precise Guide chapter route; qualified esoteric inference and translator commentary."
+  ],
+  "remainingConcerns": [
+    "Approved site-native baseline, not a WordPress original.",
+    "Negative theology is explained conditionally on theological premises, not presented as establishing them.",
+    "Signal analogy has deliberately limited scope.",
+    "The adequacy of action language and competing interpretations of the Guide remain open."
+  ],
+  "noBaselineDialogueOrSeparateCuratorCorrections": true,
+  "deliberateOmissionsRejected": [
+    ".original-prompt-text",
+    "#prompt-2 li",
+    "#synthesis > ol > li",
+    ".quiz-item"
+  ],
+  "restoredListEntries": 3,
+  "restoredFifthFollowup": 1,
+  "responseParagraphsBefore": 25,
+  "responseParagraphsAfter": 14,
+  "verifiedAt": "2026-10-04T13:18:05.090056+00:00",
+  "fullBuildByteIdentical": true,
+  "desktopBrowserChecked": true
+}

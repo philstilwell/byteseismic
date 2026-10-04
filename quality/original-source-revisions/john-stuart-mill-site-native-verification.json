@@ -1,0 +1,50 @@
+{
+  "pagePath": "/philosophers/john-stuart-mill/",
+  "sourceKind": "site-native editorial/reconstructed profile",
+  "sourceIsOriginalWordPress": false,
+  "baselineSnapshot": "quality/original-source-revisions/john-stuart-mill-first-repository-345af16a41ec.html",
+  "baselineSha256": "d246ffd788eb09d2abcee70c8d41ce769ff7fbffb9df9cc8e248596904b24394",
+  "originalPrompts": 4,
+  "responseSections": 4,
+  "promptOrderExact": true,
+  "originalResponseListCounts": [
+    6,
+    5,
+    5,
+    5
+  ],
+  "originalSynthesisQuestionsPreserved": 5,
+  "quizQuestions": 8,
+  "genericParagraphsConsolidated": 12,
+  "sha256": "22da78f40b030b0ee75bbbcc2deab3ef76dd51d403dfea774d22689b978496b8",
+  "baselineGitObjectExact": true,
+  "sourceURL": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/john-stuart-mill/index.html",
+  "titlePathPromptsMatched": true,
+  "completeBaselineAndCurrentEditionRead": true,
+  "editorialDecisions": [
+    "1: Replaced fame/influence boilerplate with individuality, social tyranny, club example and colonial exclusion; retained six list roles.",
+    "2: Distinguished harm/criticism/coercion, experiments, higher pleasures and discussion; qualified inherited public-reason label.",
+    "3: Developed liberty-utility objection, long-term reply, corn-dealer context and unequal-power test.",
+    "4: Retained effective entry question and supplied exact chapter route, including author/editor separation."
+  ],
+  "remainingConcerns": [
+    "Site-native approved baseline, not a WordPress original.",
+    "Liberty-utility relation and competence of pleasure judges remain disputed.",
+    "Colonial exception is criticized, not endorsed.",
+    "Examples supply philosophical tests, not current legal guidance."
+  ],
+  "noBaselineDialogueOrSeparateCuratorCorrections": true,
+  "deliberateOmissionsRejected": [
+    ".original-prompt-text",
+    "#prompt-2 li",
+    "#synthesis > ol > li",
+    ".quiz-item"
+  ],
+  "restoredListEntries": 3,
+  "restoredFifthFollowup": 1,
+  "responseParagraphsBefore": 26,
+  "responseParagraphsAfter": 14,
+  "verifiedAt": "2026-10-04T13:18:05.090056+00:00",
+  "fullBuildByteIdentical": true,
+  "desktopBrowserChecked": true
+}

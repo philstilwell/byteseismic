@@ -326,9 +326,11 @@
         "How should a contemporary reader begin with John Stuart Mill?"
       ],
       "promptSectionCount": 4,
-      "status": "approved-site-native-baseline-editorial-review-pending",
-      "editoriallyComplete": false,
-      "currentPageSha256AtApproval": "3f524eab0ba1254b4180633f71e89de97ba90bcb57a79c783d759dd21f4ad41f"
+      "status": "reviewed-revised-approved-baseline-verified",
+      "editoriallyComplete": true,
+      "currentPageSha256AtApproval": "3f524eab0ba1254b4180633f71e89de97ba90bcb57a79c783d759dd21f4ad41f",
+      "reviewedAt": "2026-10-04T13:18:05.090056+00:00",
+      "verificationFile": "quality/original-source-revisions/john-stuart-mill-site-native-verification.json"
     },
     {
       "pagePath": "/philosophers/judith-butler/",
@@ -347,9 +349,11 @@
         "How should a contemporary reader begin with Judith Butler?"
       ],
       "promptSectionCount": 4,
-      "status": "approved-site-native-baseline-editorial-review-pending",
-      "editoriallyComplete": false,
-      "currentPageSha256AtApproval": "841ca38b88ab18bf69eef29e9ede65432ec1b351f183fba7d54a16d94add6e79"
+      "status": "reviewed-revised-approved-baseline-verified",
+      "editoriallyComplete": true,
+      "currentPageSha256AtApproval": "841ca38b88ab18bf69eef29e9ede65432ec1b351f183fba7d54a16d94add6e79",
+      "reviewedAt": "2026-10-04T13:18:05.090056+00:00",
+      "verificationFile": "quality/original-source-revisions/judith-butler-site-native-verification.json"
     },
     {
       "pagePath": "/philosophers/laozi/",
@@ -368,9 +372,11 @@
         "How should a contemporary reader begin with Laozi?"
       ],
       "promptSectionCount": 4,
-      "status": "approved-site-native-baseline-editorial-review-pending",
-      "editoriallyComplete": false,
-      "currentPageSha256AtApproval": "76338f2fa13bbda1d37b65a4ff6908b243b0e66ea55e1d3e91be421e4726ce1a"
+      "status": "reviewed-revised-approved-baseline-verified",
+      "editoriallyComplete": true,
+      "currentPageSha256AtApproval": "76338f2fa13bbda1d37b65a4ff6908b243b0e66ea55e1d3e91be421e4726ce1a",
+      "reviewedAt": "2026-10-04T13:18:05.090056+00:00",
+      "verificationFile": "quality/original-source-revisions/laozi-site-native-verification.json"
     },
     {
       "pagePath": "/philosophers/maimonides/",
@@ -389,9 +395,11 @@
         "How should a contemporary reader begin with Maimonides?"
       ],
       "promptSectionCount": 4,
-      "status": "approved-site-native-baseline-editorial-review-pending",
-      "editoriallyComplete": false,
-      "currentPageSha256AtApproval": "fcf58ee35a3a6611a4742ece09807c4df8a72ba4156880400b73d69ec697d7ce"
+      "status": "reviewed-revised-approved-baseline-verified",
+      "editoriallyComplete": true,
+      "currentPageSha256AtApproval": "fcf58ee35a3a6611a4742ece09807c4df8a72ba4156880400b73d69ec697d7ce",
+      "reviewedAt": "2026-10-04T13:18:05.090056+00:00",
+      "verificationFile": "quality/original-source-revisions/maimonides-site-native-verification.json"
     },
     {
       "pagePath": "/philosophers/mary-wollstonecraft/",
@@ -688,7 +696,7 @@
       "currentPageSha256AtApproval": "e55f717413af6b31ac4b691cdf6342cef51a35831513645cc2c92a43300092ef"
     }
   ],
-  "reviewedPages": 13,
-  "pendingPages": 18,
-  "reviewStatusReconciledAt": "2026-10-03T13:20:48.322815+00:00"
+  "reviewedPages": 17,
+  "pendingPages": 14,
+  "reviewStatusReconciledAt": "2026-10-04T13:18:05.090056+00:00"
 }
