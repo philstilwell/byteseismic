@@ -418,9 +418,11 @@
         "How should a contemporary reader begin with Mary Wollstonecraft?"
       ],
       "promptSectionCount": 4,
-      "status": "approved-site-native-baseline-editorial-review-pending",
-      "editoriallyComplete": false,
-      "currentPageSha256AtApproval": "743f59d2e1d044e1499ff731e378b1c2fee3b27aaca28a471eac0f9d2a1ddc80"
+      "status": "reviewed-revised-approved-baseline-verified",
+      "editoriallyComplete": true,
+      "currentPageSha256AtApproval": "743f59d2e1d044e1499ff731e378b1c2fee3b27aaca28a471eac0f9d2a1ddc80",
+      "verificationFile": "quality/original-source-revisions/mary-wollstonecraft-site-native-verification.json",
+      "reviewedAt": "2026-10-05T13:19:50.086397+00:00"
     },
     {
       "pagePath": "/philosophers/mencius/",
@@ -439,9 +441,11 @@
         "How should a contemporary reader begin with Mencius?"
       ],
       "promptSectionCount": 4,
-      "status": "approved-site-native-baseline-editorial-review-pending",
-      "editoriallyComplete": false,
-      "currentPageSha256AtApproval": "a9eb7edfc88cd7b87245d2398b0a679a34de41ee7e48a10900c62126fad4da9d"
+      "status": "reviewed-revised-approved-baseline-verified",
+      "editoriallyComplete": true,
+      "currentPageSha256AtApproval": "a9eb7edfc88cd7b87245d2398b0a679a34de41ee7e48a10900c62126fad4da9d",
+      "verificationFile": "quality/original-source-revisions/mencius-site-native-verification.json",
+      "reviewedAt": "2026-10-05T13:19:50.086397+00:00"
     },
     {
       "pagePath": "/philosophers/mozi/",
@@ -460,9 +464,11 @@
         "How should a contemporary reader begin with Mozi?"
       ],
       "promptSectionCount": 4,
-      "status": "approved-site-native-baseline-editorial-review-pending",
-      "editoriallyComplete": false,
-      "currentPageSha256AtApproval": "9c08bb9766921a674cc5f71dc9983ff19befbb9a569aab9718cb31a2c4f639fa"
+      "status": "reviewed-revised-approved-baseline-verified",
+      "editoriallyComplete": true,
+      "currentPageSha256AtApproval": "9c08bb9766921a674cc5f71dc9983ff19befbb9a569aab9718cb31a2c4f639fa",
+      "verificationFile": "quality/original-source-revisions/mozi-site-native-verification.json",
+      "reviewedAt": "2026-10-05T13:19:50.086397+00:00"
     },
     {
       "pagePath": "/philosophers/nagarjuna/",
@@ -481,9 +487,11 @@
         "How should a contemporary reader begin with Nagarjuna?"
       ],
       "promptSectionCount": 4,
-      "status": "approved-site-native-baseline-editorial-review-pending",
-      "editoriallyComplete": false,
-      "currentPageSha256AtApproval": "b32d8909fa1cf1c3c67f067b9d1d2518a770e4df74065e0734b4874605af8208"
+      "status": "reviewed-revised-approved-baseline-verified",
+      "editoriallyComplete": true,
+      "currentPageSha256AtApproval": "b32d8909fa1cf1c3c67f067b9d1d2518a770e4df74065e0734b4874605af8208",
+      "verificationFile": "quality/original-source-revisions/nagarjuna-site-native-verification.json",
+      "reviewedAt": "2026-10-05T13:19:50.086397+00:00"
     },
     {
       "pagePath": "/philosophers/niccolo-machiavelli/",
@@ -696,7 +704,7 @@
       "currentPageSha256AtApproval": "e55f717413af6b31ac4b691cdf6342cef51a35831513645cc2c92a43300092ef"
     }
   ],
-  "reviewedPages": 17,
-  "pendingPages": 14,
-  "reviewStatusReconciledAt": "2026-10-04T13:18:05.090056+00:00"
+  "reviewedPages": 21,
+  "pendingPages": 10,
+  "reviewStatusReconciledAt": "2026-10-05T13:19:50.086397+00:00"
 }

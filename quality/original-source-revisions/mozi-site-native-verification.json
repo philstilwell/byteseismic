@@ -1,0 +1,51 @@
+{
+  "pagePath": "/philosophers/mozi/",
+  "sourceKind": "site-native editorial/reconstructed profile",
+  "sourceIsOriginalWordPress": false,
+  "baselineSnapshot": "quality/original-source-revisions/mozi-first-repository-c848a72c8e71.html",
+  "baselineSha256": "cef360976db6387a4430b773dff269fdf1d44d1d6ecc429dcb677622f62aad44",
+  "originalPrompts": 4,
+  "responseSections": 4,
+  "promptOrderExact": true,
+  "originalResponseListCounts": [
+    5,
+    5,
+    5,
+    5
+  ],
+  "originalSynthesisQuestionsPreserved": 5,
+  "quizQuestions": 8,
+  "genericParagraphsConsolidated": 22,
+  "sha256": "22e205e62f07d9d646c007811a86adfb5b2295db6c381cac0224f76c797bfe72",
+  "baselineGitObjectExact": true,
+  "sourceURL": "https://github.com/philstilwell/byteseismic/blob/c848a72c8e71d73379aa3edf5e75d01c40dd1f1e/philosophers/mozi/index.html",
+  "titlePathPromptsMatched": true,
+  "completeBaselineAndCurrentEditionRead": true,
+  "readingMethod": "Full source/current content inspected; exact repeated template strings displayed once with unique variations retained.",
+  "editorialDecisions": [
+    "1: Developed the insider-benefit problem and warfare double standard; qualified purely secular consequentialist framing.",
+    "2: Distinguished practical care from identical feeling, merit from democracy, economy from a complete theory of cultural value.",
+    "3: Preserved and developed the attachment objection with bridge, dependent-care and cultural-value countercases.",
+    "4: Supplied chapter and translation routes including Heaven and hierarchical authority; preserved all notice/list positions."
+  ],
+  "remainingConcerns": [
+    "Approved site-native profile, not WordPress original.",
+    "The received Mozi includes a tradition of texts; one uninterrupted authorial voice is not presumed.",
+    "Impartial care, special duties and the scope of public benefit remain contested.",
+    "Chinese Text Project full fetch returned 403; relevant passage was available in indexed search, while publisher records confirmed reading routes."
+  ],
+  "noBaselineDialogueOrSeparateCuratorCorrections": true,
+  "deliberateOmissionsRejected": [
+    ".original-prompt-text",
+    "#prompt-2 li",
+    "#synthesis > ol > li",
+    ".quiz-item"
+  ],
+  "restoredListEntries": 2,
+  "restoredFifthFollowup": 1,
+  "responseParagraphsBefore": 35,
+  "responseParagraphsAfter": 13,
+  "verifiedAt": "2026-10-05T13:19:50.086397+00:00",
+  "fullBuildByteIdentical": true,
+  "desktopBrowserChecked": true
+}
