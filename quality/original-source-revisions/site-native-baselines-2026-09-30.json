@@ -1,6 +1,6 @@
 {
   "recordedAt": "2026-09-30T13:54:05.855491+00:00",
-  "status": "curator-approved-site-native-baselines-editorial-review-in-progress",
+  "status": "curator-approved-site-native-baselines-editorial-review-complete",
   "approvalText": "I Approve the 31 recorded site-native baselines for full editorial review.",
   "approvalSource": "Explicit user message in this conversation on September 30, 2026",
   "sourceInventory": "quality/original-source-revisions/current-batch-source-inventory-2026-09-23.json",
@@ -510,9 +510,10 @@
         "How should a contemporary reader begin with Niccolo Machiavelli?"
       ],
       "promptSectionCount": 4,
-      "status": "approved-site-native-baseline-editorial-review-pending",
-      "editoriallyComplete": false,
-      "currentPageSha256AtApproval": "e1768f2494d038c91ea5d275f04ecdb540ebcbf96e970134cf4b477b006e2d2c"
+      "status": "reviewed-revised-approved-baseline-verified",
+      "editoriallyComplete": true,
+      "currentPageSha256AtApproval": "e1768f2494d038c91ea5d275f04ecdb540ebcbf96e970134cf4b477b006e2d2c",
+      "verificationFile": "quality/original-source-revisions/niccolo-machiavelli-site-native-verification.json"
     },
     {
       "pagePath": "/philosophers/parmenides/",
@@ -531,9 +532,10 @@
         "How should a contemporary reader begin with Parmenides?"
       ],
       "promptSectionCount": 4,
-      "status": "approved-site-native-baseline-editorial-review-pending",
-      "editoriallyComplete": false,
-      "currentPageSha256AtApproval": "6f2fe3c9cf4db97c63973b64cf88514549f74eca029da6350ab5a51b252cc47a"
+      "status": "reviewed-revised-approved-baseline-verified",
+      "editoriallyComplete": true,
+      "currentPageSha256AtApproval": "6f2fe3c9cf4db97c63973b64cf88514549f74eca029da6350ab5a51b252cc47a",
+      "verificationFile": "quality/original-source-revisions/parmenides-site-native-verification.json"
     },
     {
       "pagePath": "/philosophers/plato/",
@@ -552,9 +554,10 @@
         "How should a contemporary reader begin with Plato?"
       ],
       "promptSectionCount": 4,
-      "status": "approved-site-native-baseline-editorial-review-pending",
-      "editoriallyComplete": false,
-      "currentPageSha256AtApproval": "5b71178fc94b949ea364a24895baafbfbe67c32abda14951b6d505098c1ed4a1"
+      "status": "reviewed-revised-approved-baseline-verified",
+      "editoriallyComplete": true,
+      "currentPageSha256AtApproval": "5b71178fc94b949ea364a24895baafbfbe67c32abda14951b6d505098c1ed4a1",
+      "verificationFile": "quality/original-source-revisions/plato-site-native-verification.json"
     },
     {
       "pagePath": "/philosophers/plotinus/",
@@ -573,9 +576,10 @@
         "How should a contemporary reader begin with Plotinus?"
       ],
       "promptSectionCount": 4,
-      "status": "approved-site-native-baseline-editorial-review-pending",
-      "editoriallyComplete": false,
-      "currentPageSha256AtApproval": "b8e4fd5b1623427941e6050059e03ce720f9d4bc525b098ee5768bce15d73576"
+      "status": "reviewed-revised-approved-baseline-verified",
+      "editoriallyComplete": true,
+      "currentPageSha256AtApproval": "b8e4fd5b1623427941e6050059e03ce720f9d4bc525b098ee5768bce15d73576",
+      "verificationFile": "quality/original-source-revisions/plotinus-site-native-verification.json"
     },
     {
       "pagePath": "/philosophers/saul-kripke/",
@@ -594,9 +598,10 @@
         "How should a contemporary reader begin with Saul Kripke?"
       ],
       "promptSectionCount": 4,
-      "status": "approved-site-native-baseline-editorial-review-pending",
-      "editoriallyComplete": false,
-      "currentPageSha256AtApproval": "203a573e8b0f81ffeb9a64ef30e1e246fe08d8a7f6859f9a8a361743fcd0d5fb"
+      "status": "reviewed-revised-approved-baseline-verified",
+      "editoriallyComplete": true,
+      "currentPageSha256AtApproval": "203a573e8b0f81ffeb9a64ef30e1e246fe08d8a7f6859f9a8a361743fcd0d5fb",
+      "verificationFile": "quality/original-source-revisions/saul-kripke-site-native-verification.json"
     },
     {
       "pagePath": "/philosophers/shankara/",
@@ -615,9 +620,10 @@
         "How should a contemporary reader begin with Shankara?"
       ],
       "promptSectionCount": 4,
-      "status": "approved-site-native-baseline-editorial-review-pending",
-      "editoriallyComplete": false,
-      "currentPageSha256AtApproval": "65a5e5c80e4ddcb7f5ec0ecd53b9d2b64c231131f57b0bc5cad0042f4b5a052d"
+      "status": "reviewed-revised-approved-baseline-verified",
+      "editoriallyComplete": true,
+      "currentPageSha256AtApproval": "65a5e5c80e4ddcb7f5ec0ecd53b9d2b64c231131f57b0bc5cad0042f4b5a052d",
+      "verificationFile": "quality/original-source-revisions/shankara-site-native-verification.json"
     },
     {
       "pagePath": "/philosophers/theodor-adorno/",
@@ -636,9 +642,10 @@
         "How should a contemporary reader begin with Theodor Adorno?"
       ],
       "promptSectionCount": 4,
-      "status": "approved-site-native-baseline-editorial-review-pending",
-      "editoriallyComplete": false,
-      "currentPageSha256AtApproval": "7b42f82d4e2ea4322426b40af402092d10bdc99a6bacad31ae305893ae89f321"
+      "status": "reviewed-revised-approved-baseline-verified",
+      "editoriallyComplete": true,
+      "currentPageSha256AtApproval": "7b42f82d4e2ea4322426b40af402092d10bdc99a6bacad31ae305893ae89f321",
+      "verificationFile": "quality/original-source-revisions/theodor-adorno-site-native-verification.json"
     },
     {
       "pagePath": "/philosophers/walter-benjamin/",
@@ -657,9 +664,10 @@
         "How should a contemporary reader begin with Walter Benjamin?"
       ],
       "promptSectionCount": 4,
-      "status": "approved-site-native-baseline-editorial-review-pending",
-      "editoriallyComplete": false,
-      "currentPageSha256AtApproval": "4fc484b435359cbd39692f1fe365f3c726dfd197804b19b62159525d8bc28f76"
+      "status": "reviewed-revised-approved-baseline-verified",
+      "editoriallyComplete": true,
+      "currentPageSha256AtApproval": "4fc484b435359cbd39692f1fe365f3c726dfd197804b19b62159525d8bc28f76",
+      "verificationFile": "quality/original-source-revisions/walter-benjamin-site-native-verification.json"
     },
     {
       "pagePath": "/philosophers/xunzi/",
@@ -678,9 +686,10 @@
         "How should a contemporary reader begin with Xunzi?"
       ],
       "promptSectionCount": 4,
-      "status": "approved-site-native-baseline-editorial-review-pending",
-      "editoriallyComplete": false,
-      "currentPageSha256AtApproval": "1bcadbe58d6388bd4ff9bf7d7be1ec57217ae4772ab6d150e0ab6cbc1bdae919"
+      "status": "reviewed-revised-approved-baseline-verified",
+      "editoriallyComplete": true,
+      "currentPageSha256AtApproval": "1bcadbe58d6388bd4ff9bf7d7be1ec57217ae4772ab6d150e0ab6cbc1bdae919",
+      "verificationFile": "quality/original-source-revisions/xunzi-site-native-verification.json"
     },
     {
       "pagePath": "/philosophers/zhuangzi/",
@@ -699,12 +708,13 @@
         "How should a contemporary reader begin with Zhuangzi?"
       ],
       "promptSectionCount": 4,
-      "status": "approved-site-native-baseline-editorial-review-pending",
-      "editoriallyComplete": false,
-      "currentPageSha256AtApproval": "e55f717413af6b31ac4b691cdf6342cef51a35831513645cc2c92a43300092ef"
+      "status": "reviewed-revised-approved-baseline-verified",
+      "editoriallyComplete": true,
+      "currentPageSha256AtApproval": "e55f717413af6b31ac4b691cdf6342cef51a35831513645cc2c92a43300092ef",
+      "verificationFile": "quality/original-source-revisions/zhuangzi-site-native-verification.json"
     }
   ],
-  "reviewedPages": 21,
-  "pendingPages": 10,
-  "reviewStatusReconciledAt": "2026-10-05T13:19:50.086397+00:00"
+  "reviewedPages": 31,
+  "pendingPages": 0,
+  "reviewStatusReconciledAt": "2026-10-06T13:32:16.240300+00:00"
 }

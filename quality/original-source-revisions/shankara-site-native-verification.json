@@ -1,0 +1,56 @@
+{
+  "pagePath": "/philosophers/shankara/",
+  "sourceKind": "site-native editorial/reconstructed profile",
+  "sourceIsOriginalWordPress": false,
+  "baselineSnapshot": "quality/original-source-revisions/shankara-first-repository-c848a72c8e71.html",
+  "baselineSha256": "76cdb327ad05dbf45bf43c28756e117b113dbddbbbacf14e785478fba5140881",
+  "originalPrompts": 4,
+  "responseSections": 4,
+  "promptOrderExact": true,
+  "originalResponseListCounts": [
+    5,
+    5,
+    5,
+    5
+  ],
+  "originalSynthesisQuestionsPreserved": 5,
+  "quizQuestions": 8,
+  "genericParagraphsConsolidated": 23,
+  "sha256": "5422be1e5e78512e9ef8622369278bc95aa5ae29d458c53bb5cd9a87c7c26ac7",
+  "baselineGitObjectExact": true,
+  "sourceURL": "https://github.com/philstilwell/byteseismic/blob/c848a72c8e71d73379aa3edf5e75d01c40dd1f1e/philosophers/shankara/index.html",
+  "titlePathPromptsMatched": true,
+  "completeBaselineAndCurrentEditionRead": true,
+  "readingMethod": "Full source/current content inspected with repeated template text displayed once after name normalization; all distinct variations, quiz text and notices inspected.",
+  "editorialDecisions": [
+    "1: Explained superimposition and the scriptural/reasoning method; bounded an occupation analogy.",
+    "2: Distinguished ultimate self from ego and empirical standing from sheer nothingness.",
+    "3: Developed the original moral-responsibility objection through selective standpoint use.",
+    "4: Supplied a commentary reading method separating warrant, root text and later interpretation."
+  ],
+  "remainingConcerns": [
+    "Approved site-native editorial/reconstructed profile, not an original WordPress conversation.",
+    "Warrant for nonduality and the relation between standpoints remain contested.",
+    "Later Advaita technical formulations are not assumed to be Shankara’s own."
+  ],
+  "noBaselineDialogueOrSeparateCuratorCorrections": true,
+  "deliberateOmissionsRejected": [
+    ".original-prompt-text",
+    "#prompt-2 li",
+    "#synthesis > ol > li",
+    ".quiz-item"
+  ],
+  "restoredListEntries": 2,
+  "restoredFifthFollowup": 1,
+  "responseParagraphsBefore": 35,
+  "responseParagraphsAfter": 12,
+  "verifiedAt": "2026-10-06T13:32:16.240300+00:00",
+  "fullBuildByteIdentical": true,
+  "desktopBrowserChecked": true,
+  "desktopViewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "desktopHorizontalOverflow": false,
+  "quizFeedbackTested": "correct first answer"
+}

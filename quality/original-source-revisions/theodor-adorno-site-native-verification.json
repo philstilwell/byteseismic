@@ -1,0 +1,56 @@
+{
+  "pagePath": "/philosophers/theodor-adorno/",
+  "sourceKind": "site-native editorial/reconstructed profile",
+  "sourceIsOriginalWordPress": false,
+  "baselineSnapshot": "quality/original-source-revisions/theodor-adorno-first-repository-c848a72c8e71.html",
+  "baselineSha256": "5ea1d7109f26d16031e05cf4b4582bedfc7f9641f692d0c6b5f8b0b033cc21af",
+  "originalPrompts": 4,
+  "responseSections": 4,
+  "promptOrderExact": true,
+  "originalResponseListCounts": [
+    5,
+    5,
+    5,
+    5
+  ],
+  "originalSynthesisQuestionsPreserved": 5,
+  "quizQuestions": 8,
+  "genericParagraphsConsolidated": 24,
+  "sha256": "864c649252d7816cc39ab18ff7be5bacc695869e383e862e2f46224d3f243fec",
+  "baselineGitObjectExact": true,
+  "sourceURL": "https://github.com/philstilwell/byteseismic/blob/c848a72c8e71d73379aa3edf5e75d01c40dd1f1e/philosophers/theodor-adorno/index.html",
+  "titlePathPromptsMatched": true,
+  "completeBaselineAndCurrentEditionRead": true,
+  "readingMethod": "Full source/current content inspected with repeated template text displayed once after name normalization; all distinct variations, quiz text and notices inspected.",
+  "editorialDecisions": [
+    "1: Distinguished commercial cultural organization from taste-snobbery; preserved comfort/domination concern.",
+    "2: Explained nonidentity, instrumental reason and immanent critique with a bounded workplace case.",
+    "3: Developed the audience-agency and obscurity objections, requiring counterevidence.",
+    "4: Added production/content/reception reading method and correct coauthorship."
+  ],
+  "remainingConcerns": [
+    "Approved site-native editorial/reconstructed profile, not an original WordPress conversation.",
+    "Extent of cultural manipulation and the force of negative dialectics remain disputed.",
+    "Hypothetical service/workplace claims are not empirical findings."
+  ],
+  "noBaselineDialogueOrSeparateCuratorCorrections": true,
+  "deliberateOmissionsRejected": [
+    ".original-prompt-text",
+    "#prompt-2 li",
+    "#synthesis > ol > li",
+    ".quiz-item"
+  ],
+  "restoredListEntries": 2,
+  "restoredFifthFollowup": 1,
+  "responseParagraphsBefore": 36,
+  "responseParagraphsAfter": 12,
+  "verifiedAt": "2026-10-06T13:32:16.240300+00:00",
+  "fullBuildByteIdentical": true,
+  "desktopBrowserChecked": true,
+  "desktopViewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "desktopHorizontalOverflow": false,
+  "quizFeedbackTested": "correct first answer"
+}

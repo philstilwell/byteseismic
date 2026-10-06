@@ -1,0 +1,225 @@
+{
+  "pagePath": "/philosophers/saul-kripke/",
+  "shellRevision": "4e4d18af808adcb5bac6ca5fcd6203028ce6e99e",
+  "revisionDate": "2026-10-06",
+  "intro": "Kripke separates what a name refers to, what could have been otherwise, and how we learn a truth. Mixing these questions makes necessity look easier than it is.",
+  "description": "Kripke separates what a name refers to, what could have been otherwise, and how we learn a truth. Mixing these questions makes necessity look easier than it is.",
+  "sections": [
+    {
+      "heading": "Knowing a truth and its being necessary are different questions",
+      "paragraphs": [
+        "Kripke remains important because he separates two questions often run together: could a fact have been otherwise, and how could we know it? The first concerns possibility and necessity; the second concerns evidence. A truth discovered through experience need not therefore be a truth that could have been false.",
+        "Names provide the initial pressure. We can ask whether Aristotle might have had a different career while still speaking about that person. If the name meant exactly “the teacher of Alexander,” a counterfactual change of career would seem to change the subject. The contrast challenges a simple identification of names with descriptions their users associate with them.",
+        "The distinction matters beyond terminology. In an editorial case, a researcher may discover that two catalogue entries concern one artifact. The discovery changes the researcher's information; it does not fuse two formerly separate artifacts. Before moving from this example to claims about necessity, we must specify whether the two expressions actually function as names of that artifact. Not every catalogue description is rigid."
+      ],
+      "listItems": [
+        "<strong>Historical setting:</strong> Twentieth-century analytic debates connect the logic of possibility with reference and knowledge.",
+        "<strong>Signature contribution:</strong> Necessity and discovery through experience need not be opposites.",
+        "<strong>Influence trail:</strong> The distinctions affect metaphysics and language, while particular applications require further premises.",
+        "<strong>Signature contribution:</strong> Ask separately what is referred to and what evidence identifies it.",
+        "<strong>Historical setting:</strong> Read counterfactual cases as tests of a theory of reference, not as reports of other universes.",
+        "<strong>Influence trail:</strong> A useful distinction can survive disagreement about some of Kripke's wider conclusions."
+      ],
+      "notices": [],
+      "baselineParagraphCount": 6
+    },
+    {
+      "heading": "Reference, rigidity and evidence divide the work",
+      "paragraphs": [
+        "A rigid designator refers to the same object when we consider alternative circumstances in which that object exists. It does not require that the object exist in every possible circumstance, and it does not mean that the object cannot change. A name can stay fixed on a person while the imagined career changes.",
+        "Necessary a posteriori means necessary but knowable through experience. The point is not that an empirical method becomes infallible. Reference can also be sustained through a history of communication rather than through a complete private description. This is a picture of how names travel, not the claim that any causal connection to an object automatically names it.",
+        "The rule-following puzzle is a different pressure on meaning. A finite record of using a rule can fit competing extensions to new cases. Kripke's presentation of Wittgenstein asks what fixes the correct continuation; it should not be turned into the assertion that arithmetic is false or that Kripke simply endorses every skeptical conclusion he stages."
+      ],
+      "listItems": [
+        "<strong>Rigid designation:</strong> Sameness of reference across counterfactual circumstances differs from necessary existence or unchanging properties.",
+        "<strong>Necessary a posteriori:</strong> How a truth is learned differs from whether it could have been false.",
+        "<strong>Causal theory of reference:</strong> Communication history can sustain reference without each speaker possessing an identifying description.",
+        "<strong>Rule-following puzzle:</strong> A finite history of use raises a challenge about what counts as the correct continuation.",
+        "<strong>Historical pressure:</strong> Keep the naming arguments distinct from the later presentation of the rule-following problem."
+      ],
+      "notices": [],
+      "baselineParagraphCount": 7
+    },
+    {
+      "heading": "What entitles a counterfactual judgment to do philosophical work?",
+      "paragraphs": [
+        "The objection challenges the reliability of modal intuitions: judgments about what could or could not have happened. A familiar story can make a conclusion feel unavoidable because its wording quietly fixes what was meant to be tested. Readers may also imagine different cases while believing that they disagree about one case.",
+        "Take the editorial artifact example. “This artifact might have been catalogued differently” changes a record. “This artifact might have been a different artifact” may instead change the referent. A critic should first separate those readings. That clarification gives an intuition a more precise target; it does not establish that every remaining intuition is trustworthy.",
+        "A charitable reply is that counterexamples can reveal a theory's commitments without requiring a survey of every possible situation. If a proposed meaning predicts that a person's ordinary career is necessary, an intelligible contrary case puts pressure on that proposal. The critic can still dispute the description of the case or offer a more sophisticated account. The productive test is to state the assumptions and compare judgments under controlled changes, not to treat vividness as proof."
+      ],
+      "listItems": [
+        "<strong>Best objection:</strong> A story may smuggle its conclusion into the way a possible case is described.",
+        "<strong>Charitable reply:</strong> A carefully specified counterexample can expose an overstrong theory.",
+        "<strong>Contemporary test:</strong> Distinguish changing an artifact's catalogue description from changing the artifact referred to.",
+        "<strong>Charitable reply:</strong> Clarity improves the evidential value of an intuition without guaranteeing its truth.",
+        "<strong>Contemporary test:</strong> State what stays fixed, what varies and what would count against the proposed analysis."
+      ],
+      "notices": [],
+      "baselineParagraphCount": 7
+    },
+    {
+      "heading": "Begin with the name before moving to necessity",
+      "paragraphs": [
+        "Begin with this question: does “Aristotle” mean a bundle of descriptions, or does the name refer more directly to the person? Read Naming and Necessity Lecture I for the contrast between names and descriptions, then follow the later lectures' examples of identity and empirical discovery. Keep a three-column note: expression used, object referred to, fact learned.",
+        "Use that note to distinguish uncertainty about an identity from a possibility that an object is not itself. Avoid the reverse shortcut as well: recognizing a necessary identity does not prove that a particular empirical identification is correct. Evidence still matters.",
+        "Read Wittgenstein on Rules and Private Language as a separate investigation after the naming arguments. Mark the skeptical challenge, the response and the question of interpretation. Similar vocabulary about meaning does not make the two books one continuous proof."
+      ],
+      "listItems": [
+        "<strong>Best entry point:</strong> Does “Aristotle” mean a bundle of descriptions, or does the name refer more directly to the person?",
+        "<strong>What to watch:</strong> Separate the expression, its referent and the evidence used to identify that referent.",
+        "<strong>Where to go next:</strong> Proceed through Naming and Necessity before the rule-following book.",
+        "<strong>Reading discipline:</strong> Keep epistemic uncertainty distinct from metaphysical possibility.",
+        "<strong>Avoid the shortcut:</strong> Do not infer necessary existence, infallible science or universal skepticism from rigidity."
+      ],
+      "notices": [],
+      "baselineParagraphCount": 6
+    }
+  ],
+  "synthesisHeading": "What stays fixed across possibilities",
+  "synthesisParagraphs": [
+    "The page moves from a distinction about knowledge to a distinction about reference, then tests the evidence offered for modal claims.",
+    "The artifact case is deliberately limited: it helps separate changing a record from changing the subject of a claim.",
+    "The follow-up questions should be answered with an explicit statement of what stays fixed in a counterfactual case."
+  ],
+  "quiz": [
+    {
+      "question": "Which two questions should be separated?",
+      "options": [
+        "How a truth is learned and whether it could be false.",
+        "Whether a name has letters and how many.",
+        "Whether history matters and whether evidence exists.",
+        "Whether a fact is popular and pleasant."
+      ],
+      "answer": 0,
+      "explanations": [
+        "Evidence and necessity concern different issues.",
+        "That is not the philosophical distinction.",
+        "Those are not opposites.",
+        "Neither establishes necessity."
+      ]
+    },
+    {
+      "question": "What does rigidity not entail?",
+      "options": [
+        "A distinction between object and career.",
+        "That the named object exists in every possible circumstance.",
+        "Sameness of reference in the relevant counterfactual cases.",
+        "A contrast with some descriptions."
+      ],
+      "answer": 1,
+      "explanations": [
+        "The career can vary.",
+        "Reference can be fixed without necessary existence.",
+        "That is its defining role.",
+        "That contrast matters."
+      ]
+    },
+    {
+      "question": "What does discovering a catalogue identity change?",
+      "options": [
+        "Every description into a rigid name.",
+        "The past into a different past.",
+        "The researcher's information about the artifact.",
+        "The number of artifacts by fusion."
+      ],
+      "answer": 2,
+      "explanations": [
+        "Their use must be checked.",
+        "Learning does not rewrite the event.",
+        "It does not physically fuse artifacts.",
+        "Discovery is not fusion."
+      ]
+    },
+    {
+      "question": "What is a risk in modal stories?",
+      "options": [
+        "Every imagined story is meaningless.",
+        "They are observations of other universes.",
+        "They remove the need for assumptions.",
+        "Wording can silently fix the disputed conclusion."
+      ],
+      "answer": 3,
+      "explanations": [
+        "Some test theoretical commitments.",
+        "That is not their role here.",
+        "Assumptions must be stated.",
+        "Specify what remains constant."
+      ]
+    },
+    {
+      "question": "What does a communication chain help explain?",
+      "options": [
+        "Reference without a full private identifying description.",
+        "Why every rumor is true.",
+        "Why objects cannot change.",
+        "Why names are always descriptions."
+      ],
+      "answer": 0,
+      "explanations": [
+        "It is not any causal contact whatsoever.",
+        "Truth does not follow from transmission.",
+        "Rigidity is not changelessness.",
+        "That is the challenged equation."
+      ]
+    },
+    {
+      "question": "What is the rule-following difficulty?",
+      "options": [
+        "The name Aristotle has no referent.",
+        "A finite record can fit rival continuations.",
+        "Arithmetic has been disproved.",
+        "No one ever follows rules."
+      ],
+      "answer": 1,
+      "explanations": [
+        "That belongs to a different issue.",
+        "The question concerns correctness beyond that record.",
+        "That is not the claim made here.",
+        "The puzzle concerns the basis of doing so."
+      ]
+    },
+    {
+      "question": "What must an empirical identification still have?",
+      "options": [
+        "Agreement by definition.",
+        "An object that cannot change.",
+        "Adequate evidence.",
+        "Only a memorable name."
+      ],
+      "answer": 2,
+      "explanations": [
+        "Discovery can be empirical.",
+        "Identity permits changes in properties.",
+        "Necessary identity does not certify the identification.",
+        "That is insufficient."
+      ]
+    },
+    {
+      "question": "What makes a counterexample useful?",
+      "options": [
+        "It sounds surprising.",
+        "It uses undefined possibility.",
+        "It ignores rival interpretations.",
+        "It exposes a commitment of the theory under a specified variation."
+      ],
+      "answer": 3,
+      "explanations": [
+        "Surprise is not proof.",
+        "That conceals the issue.",
+        "The case must withstand them.",
+        "Vividness alone is not enough."
+      ]
+    }
+  ],
+  "references": "<h2>Primary reading</h2><p><a href=\"https://metaphysicist.com/articles/Kripke_Naming_Necessity_1970.pdf\">Kripke, Naming and Necessity, lecture selections</a>. Read the complete lectures for the development of the arguments; the excerpt is not the whole book. For the distinct rule-following inquiry, use <em>Wittgenstein on Rules and Private Language</em>. The catalogue case and its variations are editorial illustrations.</p>",
+  "editorialDecisions": [
+    "1: Separated necessity from evidential route and introduced a limited artifact-identity example.",
+    "2: Clarified rigidity versus necessary existence and distinguished naming from rule-following.",
+    "3: Developed the modal-intuition objection through controlled changes of description/referent.",
+    "4: Added expression/referent/evidence reading discipline and an explicit warning against empirical infallibility."
+  ],
+  "remainingConcerns": [
+    "Counterfactual judgments and theories of reference remain disputed.",
+    "Rule-following summary is an orientation, not a resolution of interpretive controversies."
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "pagePath": "/philosophers/niccolo-machiavelli/",
+  "sourceKind": "site-native editorial/reconstructed profile",
+  "sourceIsOriginalWordPress": false,
+  "baselineSnapshot": "quality/original-source-revisions/niccolo-machiavelli-first-repository-345af16a41ec.html",
+  "baselineSha256": "85cce903d8b0ad082d33602612ed90d2e17e266d36dbe0000b766eee8e4b3fa7",
+  "originalPrompts": 4,
+  "responseSections": 4,
+  "promptOrderExact": true,
+  "originalResponseListCounts": [
+    6,
+    5,
+    5,
+    6
+  ],
+  "originalSynthesisQuestionsPreserved": 5,
+  "quizQuestions": 8,
+  "genericParagraphsConsolidated": 13,
+  "sha256": "ff96e52d4aa0e3e828193a42e916f2e863978b9b0070680faa471ea86bbf5271",
+  "baselineGitObjectExact": true,
+  "sourceURL": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/niccolo-machiavelli/index.html",
+  "titlePathPromptsMatched": true,
+  "completeBaselineAndCurrentEditionRead": true,
+  "readingMethod": "Full source/current content inspected with repeated template text displayed once after name normalization; all distinct variations, quiz text and notices inspected.",
+  "editorialDecisions": [
+    "1: Replaced influence boilerplate with intention/consequence and prince/republic tensions.",
+    "2: Distinguished virtù, fortuna and reputation, with a bounded flood analogy and hypothetical emergency.",
+    "3: Developed the original cynicism objection through circular necessity claims and alternatives.",
+    "4: Supplied a precise paired reading route and separated description from endorsement."
+  ],
+  "remainingConcerns": [
+    "Approved site-native editorial/reconstructed profile, not an original WordPress conversation.",
+    "The relation between princely and republican arguments remains contested.",
+    "Emergency example is hypothetical, not contemporary legal guidance."
+  ],
+  "noBaselineDialogueOrSeparateCuratorCorrections": true,
+  "deliberateOmissionsRejected": [
+    ".original-prompt-text",
+    "#prompt-2 li",
+    "#synthesis > ol > li",
+    ".quiz-item"
+  ],
+  "restoredListEntries": 4,
+  "restoredFifthFollowup": 1,
+  "responseParagraphsBefore": 25,
+  "responseParagraphsAfter": 12,
+  "verifiedAt": "2026-10-06T13:32:16.240300+00:00",
+  "fullBuildByteIdentical": true,
+  "desktopBrowserChecked": true,
+  "desktopViewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "desktopHorizontalOverflow": false,
+  "quizFeedbackTested": "correct first answer"
+}

@@ -1,0 +1,56 @@
+{
+  "pagePath": "/philosophers/walter-benjamin/",
+  "sourceKind": "site-native editorial/reconstructed profile",
+  "sourceIsOriginalWordPress": false,
+  "baselineSnapshot": "quality/original-source-revisions/walter-benjamin-first-repository-345af16a41ec.html",
+  "baselineSha256": "b5cf7e91855bb85867e9aef86d8ebb87e25e99231cc83712fbde581dea9d90b8",
+  "originalPrompts": 4,
+  "responseSections": 4,
+  "promptOrderExact": true,
+  "originalResponseListCounts": [
+    5,
+    5,
+    5,
+    5
+  ],
+  "originalSynthesisQuestionsPreserved": 5,
+  "quizQuestions": 8,
+  "genericParagraphsConsolidated": 15,
+  "sha256": "e5230323d28864c18db50748841deab4de083872adad95ca5fbe36ad4a3b7d02",
+  "baselineGitObjectExact": true,
+  "sourceURL": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/walter-benjamin/index.html",
+  "titlePathPromptsMatched": true,
+  "completeBaselineAndCurrentEditionRead": true,
+  "readingMethod": "Full source/current content inspected with repeated template text displayed once after name normalization; all distinct variations, quiz text and notices inspected.",
+  "editorialDecisions": [
+    "1: Explained the fragment through a hypothetical redevelopment comparison and historical responsibility.",
+    "2: Distinguished aura, dialectical image, messianic time and flaneur without reducing them to nostalgia.",
+    "3: Developed the original ambiguity objection through provenance, representativeness and contrary records.",
+    "4: Connected media/history essays and gave a version-aware notebook method."
+  ],
+  "remainingConcerns": [
+    "Approved site-native editorial/reconstructed profile, not an original WordPress conversation.",
+    "Theological language and the scope of the critique of progress remain disputed.",
+    "Hypothetical juxtaposition is not a historical finding."
+  ],
+  "noBaselineDialogueOrSeparateCuratorCorrections": true,
+  "deliberateOmissionsRejected": [
+    ".original-prompt-text",
+    "#prompt-2 li",
+    "#synthesis > ol > li",
+    ".quiz-item"
+  ],
+  "restoredListEntries": 2,
+  "restoredFifthFollowup": 1,
+  "responseParagraphsBefore": 27,
+  "responseParagraphsAfter": 12,
+  "verifiedAt": "2026-10-06T13:32:16.240300+00:00",
+  "fullBuildByteIdentical": true,
+  "desktopBrowserChecked": true,
+  "desktopViewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "desktopHorizontalOverflow": false,
+  "quizFeedbackTested": "correct first answer"
+}

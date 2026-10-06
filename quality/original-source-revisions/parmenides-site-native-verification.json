@@ -1,0 +1,56 @@
+{
+  "pagePath": "/philosophers/parmenides/",
+  "sourceKind": "site-native editorial/reconstructed profile",
+  "sourceIsOriginalWordPress": false,
+  "baselineSnapshot": "quality/original-source-revisions/parmenides-first-repository-345af16a41ec.html",
+  "baselineSha256": "900614dd75270dedcbf8a7be7e85901196de4bd42f18484b6b8d2492322be169",
+  "originalPrompts": 4,
+  "responseSections": 4,
+  "promptOrderExact": true,
+  "originalResponseListCounts": [
+    6,
+    5,
+    5,
+    5
+  ],
+  "originalSynthesisQuestionsPreserved": 5,
+  "quizQuestions": 8,
+  "genericParagraphsConsolidated": 14,
+  "sha256": "fde8d5abb3f2165c82d773499c5db5ef2eb8d9b50cab09b36e7c266e0dae51ec",
+  "baselineGitObjectExact": true,
+  "sourceURL": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/parmenides/index.html",
+  "titlePathPromptsMatched": true,
+  "completeBaselineAndCurrentEditionRead": true,
+  "readingMethod": "Full source/current content inspected with repeated template text displayed once after name normalization; all distinct variations, quiz text and notices inspected.",
+  "editorialDecisions": [
+    "1: Explained the poem’s challenge to intelligibility and retained the opinion section as an interpretive problem.",
+    "2: Distinguished existence from predication and clarified the route to fragment8.",
+    "3: Developed the original objection through a leaf countercase and a qualified fundamental-reality defense.",
+    "4: Added fragment reading order, translation cautions and poem/dialogue separation."
+  ],
+  "remainingConcerns": [
+    "Approved site-native editorial/reconstructed profile, not an original WordPress conversation.",
+    "Scope of being and the truth/opinion relation remain disputed.",
+    "Leaf illustration tests a particular inference, not every reading of the poem."
+  ],
+  "noBaselineDialogueOrSeparateCuratorCorrections": true,
+  "deliberateOmissionsRejected": [
+    ".original-prompt-text",
+    "#prompt-2 li",
+    "#synthesis > ol > li",
+    ".quiz-item"
+  ],
+  "restoredListEntries": 3,
+  "restoredFifthFollowup": 1,
+  "responseParagraphsBefore": 26,
+  "responseParagraphsAfter": 12,
+  "verifiedAt": "2026-10-06T13:32:16.240300+00:00",
+  "fullBuildByteIdentical": true,
+  "desktopBrowserChecked": true,
+  "desktopViewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "desktopHorizontalOverflow": false,
+  "quizFeedbackTested": "incorrect first answer"
+}

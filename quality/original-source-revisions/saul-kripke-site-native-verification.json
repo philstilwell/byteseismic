@@ -1,0 +1,56 @@
+{
+  "pagePath": "/philosophers/saul-kripke/",
+  "sourceKind": "site-native editorial/reconstructed profile",
+  "sourceIsOriginalWordPress": false,
+  "baselineSnapshot": "quality/original-source-revisions/saul-kripke-first-repository-345af16a41ec.html",
+  "baselineSha256": "166e459d9042ef9ffb95340eeacc9c5c15f249e0daa77f30058c042ab919b917",
+  "originalPrompts": 4,
+  "responseSections": 4,
+  "promptOrderExact": true,
+  "originalResponseListCounts": [
+    6,
+    5,
+    5,
+    5
+  ],
+  "originalSynthesisQuestionsPreserved": 5,
+  "quizQuestions": 8,
+  "genericParagraphsConsolidated": 14,
+  "sha256": "d3ecc9840df64ac43ddb0e4d8edf3a10fbb776ff1e523087710c217c6ec936ed",
+  "baselineGitObjectExact": true,
+  "sourceURL": "https://github.com/philstilwell/byteseismic/blob/345af16a41eca1c30e18e8fe0df89b4a5eeb0a5c/philosophers/saul-kripke/index.html",
+  "titlePathPromptsMatched": true,
+  "completeBaselineAndCurrentEditionRead": true,
+  "readingMethod": "Full source/current content inspected with repeated template text displayed once after name normalization; all distinct variations, quiz text and notices inspected.",
+  "editorialDecisions": [
+    "1: Separated necessity from evidential route and introduced a limited artifact-identity example.",
+    "2: Clarified rigidity versus necessary existence and distinguished naming from rule-following.",
+    "3: Developed the modal-intuition objection through controlled changes of description/referent.",
+    "4: Added expression/referent/evidence reading discipline and an explicit warning against empirical infallibility."
+  ],
+  "remainingConcerns": [
+    "Approved site-native editorial/reconstructed profile, not an original WordPress conversation.",
+    "Counterfactual judgments and theories of reference remain disputed.",
+    "Rule-following summary is an orientation, not a resolution of interpretive controversies."
+  ],
+  "noBaselineDialogueOrSeparateCuratorCorrections": true,
+  "deliberateOmissionsRejected": [
+    ".original-prompt-text",
+    "#prompt-2 li",
+    "#synthesis > ol > li",
+    ".quiz-item"
+  ],
+  "restoredListEntries": 3,
+  "restoredFifthFollowup": 1,
+  "responseParagraphsBefore": 26,
+  "responseParagraphsAfter": 12,
+  "verifiedAt": "2026-10-06T13:32:16.240300+00:00",
+  "fullBuildByteIdentical": true,
+  "desktopBrowserChecked": true,
+  "desktopViewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "desktopHorizontalOverflow": false,
+  "quizFeedbackTested": "correct first answer"
+}
