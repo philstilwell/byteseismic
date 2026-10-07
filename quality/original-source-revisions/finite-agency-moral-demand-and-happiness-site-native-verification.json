@@ -1,0 +1,69 @@
+{
+  "pagePath": "/ethics/finite-agency-moral-demand-and-happiness/",
+  "sourceKind": "site-native editorial/reconstructed branch cluster",
+  "sourceIsOriginalWordPress": false,
+  "baselineSnapshot": "quality/original-source-revisions/finite-agency-moral-demand-and-happiness-first-repository-3d1144522bd3.html",
+  "baselineSha256": "ab104155c1da35fcccdff19e88ec9ae845b046416491ea43ef5277d84defc0e6",
+  "originalPrompts": 4,
+  "responseSections": 4,
+  "promptOrderExact": true,
+  "originalResponseListCounts": [
+    4,
+    4,
+    4,
+    4
+  ],
+  "originalSynthesisQuestionsPreserved": 5,
+  "quizQuestions": 8,
+  "genericParagraphsConsolidated": 2,
+  "sha256": "c2548ac734108a6afeaa4fa870577136da21b4ae82294371c6fcb13261592912",
+  "priorApprovedNativePagesReproducedByteIdentically": 34,
+  "baselineMatchesExactGitBlob": true,
+  "fullBaselineAndCurrentRead": true,
+  "editorialReview": [
+    {
+      "prompt": 1,
+      "changes": "Explains the notice-to-duty-to-permanent-unhappiness inference; separates awareness, authorship, agency, blame and remedial reasons; retains the effective unlimited-mortgage passage; adds a hypothetical flood and warranted-sacrifice qualification."
+    },
+    {
+      "prompt": 2,
+      "changes": "Explains the proposed scope-leakage mechanism with the same flood example; removes unsupported diagnosis/cure and evolutionary-scale claims; distinguishes sorrow, exhaustion and a supposed obligation to remain unhappy; practical reach is not geographical proximity."
+    },
+    {
+      "prompt": 3,
+      "changes": "Develops the useful earlier stopping-rule example inside a complete response; specifies causal/role responsibilities, coordinated action, review triggers and costs; directly answers comfortable self-exemption and avoids inferring motives from public emotion."
+    },
+    {
+      "prompt": 4,
+      "changes": "Explains how guilt rituals displace attention to affected people; separates institutional contribution, power and cooperation; applies skepticism to both moral accusations and the critic’s excuses; preserves compassion without requiring moral realism."
+    }
+  ],
+  "fidelity": {
+    "prompts": "Four exact first-edition texts, verbatim in original order in response sections and ledger.",
+    "responses": "Four responses in their original positions; same thematic progression.",
+    "lists": "Four entries per response in original conceptual order; three learning checkpoints each.",
+    "synthesis": "Three paragraphs, five exact follow-up questions, three learning checkpoints.",
+    "dialogue": "No separate curator corrections or model-specific dialogue turns in the native baseline; none invented.",
+    "quiz": "Eight original slots, four choices each; all questions and 32 individualized explanations rewritten to test the actual argument."
+  },
+  "remainingConcerns": [
+    "Normative proposal, not a universal formula for allocating assistance.",
+    "Scope leakage is explicitly an interpretive term, not a clinical diagnosis.",
+    "No claim to a recovered WordPress original."
+  ],
+  "browser": {
+    "viewport": [
+      1280,
+      720
+    ],
+    "horizontalOverflow": false,
+    "wrongAndCorrectFeedbackVerified": true,
+    "questionResetVerified": true,
+    "synthesisAndQuizVisuallyInspected": true,
+    "mobileTested": false,
+    "temporaryTabClosed": true
+  },
+  "verifiedAt": "2026-10-07T14:01:41.303591+00:00",
+  "fullBuildByteIdentical": true,
+  "editorialReviewComplete": true
+}

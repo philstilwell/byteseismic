@@ -17,12 +17,15 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'quality/original-source-revisions'
 MANIFEST = DATA / 'site-native-baselines-2026-09-21.json'
 ADDITIONAL_MANIFEST = DATA / 'site-native-baselines-2026-09-30.json'
+FINITE_AGENCY_MANIFEST = DATA / 'site-native-baselines-2026-10-07.json'
 
 
 def approved_baseline(config):
     approved = json.loads(MANIFEST.read_text())['pages']
     if ADDITIONAL_MANIFEST.exists():
         approved += json.loads(ADDITIONAL_MANIFEST.read_text())['pages']
+    if FINITE_AGENCY_MANIFEST.exists():
+        approved += json.loads(FINITE_AGENCY_MANIFEST.read_text())['pages']
     matches = [p for p in approved if p['pagePath'] == config['pagePath']]
     assert len(matches) == 1, 'Exactly one explicit baseline approval is required'
     return matches[0]
@@ -53,7 +56,7 @@ def render(config):
     quiz = soup.select_one('.quiz-section').extract()
     body.clear()
     intro = soup.new_tag('section', attrs={'class':'article-section','id':'source-texture'})
-    fragment(intro, '<h2>Source and context</h2><p>'+config['intro']+'</p><p>This is a site-native editorial/reconstructed profile, not an original WordPress conversation or a response attributable to a particular model. The curator approved its first-repository edition as the baseline. Its four prompts remain verbatim and in order.</p><p><a href="'+baseline['sourceURL']+'">First-repository baseline</a>.</p>')
+    fragment(intro, '<h2>Source and context</h2><p>'+config['intro']+'</p><p>This is a site-native editorial/reconstructed '+config.get('sourceNoun', 'profile')+', not an original WordPress conversation or a response attributable to a particular model. The curator approved its first-repository edition as the baseline. Its four prompts remain verbatim and in order.</p><p><a href="'+baseline['sourceURL']+'">First-repository baseline</a>.</p>')
     body.append(intro)
     body.append(route)
     for n, revision in enumerate(config['sections'], 1):
@@ -176,6 +179,8 @@ def main():
     approved = json.loads(MANIFEST.read_text())['pages']
     if ADDITIONAL_MANIFEST.exists():
         approved += json.loads(ADDITIONAL_MANIFEST.read_text())['pages']
+    if FINITE_AGENCY_MANIFEST.exists():
+        approved += json.loads(FINITE_AGENCY_MANIFEST.read_text())['pages']
     p.add_argument('slug', choices=[x['pagePath'].strip('/').split('/')[-1] for x in approved])
     p.add_argument('--write',action='store_true')
     args=p.parse_args()

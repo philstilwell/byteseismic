@@ -4,10 +4,10 @@
   "startIndex": 100,
   "endIndexExclusive": 150,
   "candidateWordPressOriginals": 49,
-  "fullyReviewed": 2,
+  "fullyReviewed": 3,
   "pendingFullReview": 47,
-  "sourceBlocked": 1,
-  "limitation": "Inventory identifies candidates. Only two entries have a complete editorial review; no batch advancement.",
+  "sourceBlocked": 0,
+  "limitation": "Three entries have a complete editorial review. Forty-seven candidate WordPress entries remain pending full review; no batch advancement.",
   "pages": [
     {
       "pagePath": "/philosophers/philosopher-club-membership/",
@@ -256,10 +256,13 @@
       "pagePath": "/ethics/finite-agency-moral-demand-and-happiness/",
       "pageTitle": "⌁ Finite Agency, Moral Demand, and Happiness",
       "queueIndex": 111,
-      "status": "source-blocked",
-      "editorialReviewComplete": false,
+      "status": "reviewed-site-native",
+      "editorialReviewComplete": true,
       "sourceCandidateCount": 0,
-      "concern": "No WordPress original established; generated site-native cluster outside the exact 34 approvals. First-addition snapshot recorded separately; not adopted as approved baseline."
+      "concern": "No WordPress original claimed. Explicit October 7 discretionary rewrite approval resolves source blocker; completed review and verification recorded.",
+      "sourceKind": "curator-approved site-native editorial/reconstructed branch cluster",
+      "approvalManifest": "quality/original-source-revisions/site-native-baselines-2026-10-07.json",
+      "verification": "quality/original-source-revisions/finite-agency-moral-demand-and-happiness-site-native-verification.json"
     },
     {
       "pagePath": "/rational-thought/perverse-incentives/",
@@ -1218,5 +1221,6 @@
       "fullSourceRead": false,
       "editorialReviewComplete": false
     }
-  ]
+  ],
+  "updatedAt": "2026-10-07T14:01:41.303591+00:00"
 }

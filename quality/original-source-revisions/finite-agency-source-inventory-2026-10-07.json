@@ -1,7 +1,7 @@
 {
   "createdAt": "2026-10-07T13:23:58.475837+00:00",
   "pagePath": "/ethics/finite-agency-moral-demand-and-happiness/",
-  "status": "source-blocked-unapproved-site-native",
+  "status": "curator-approved-site-native-review-complete",
   "firstAdditionCommit": "3d1144522bd3c31b28f945a578d6ebc486196b8a",
   "snapshot": "finite-agency-moral-demand-and-happiness-first-repository-3d1144522bd3.html",
   "sha256": "ab104155c1da35fcccdff19e88ec9ae845b046416491ea43ef5277d84defc0e6",
@@ -20,7 +20,11 @@
     "How should a finite agent think about distant suffering without collapsing into either apathy or performative guilt?",
     "Why might skepticism toward moral systems sometimes protect compassion rather than weaken it?"
   ],
-  "decision": "Preserve existing page and tracker. Reliable original or explicit curator approval of this exact site-native snapshot is required before full review.",
+  "decision": "October 7 explicit discretionary rewrite approval resolves the earlier blocker; first-addition snapshot used as the site-native baseline, not a WordPress original.",
   "approvalRequestedPreviously": false,
-  "editorialReviewComplete": false
+  "editorialReviewComplete": true,
+  "resolvedAt": "2026-10-07T14:00:12.311312+00:00",
+  "approvalManifest": "quality/original-source-revisions/site-native-baselines-2026-10-07.json",
+  "approvalEvidence": "I approve a rewrite of 'Finite Agency' at your discetion.",
+  "verification": "quality/original-source-revisions/finite-agency-moral-demand-and-happiness-site-native-verification.json"
 }
