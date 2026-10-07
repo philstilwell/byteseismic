@@ -1,0 +1,732 @@
+{
+  "runAt": "2026-10-07T13:31:02.735225+00:00",
+  "status": "partial-current-batch",
+  "automationConfiguration": {
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high"
+  },
+  "currentBatch": {
+    "cycle": 8,
+    "startIndex": 100,
+    "endIndexExclusive": 150,
+    "size": 50,
+    "reviewed": 2,
+    "pendingFullReview": 47,
+    "sourceBlocked": 1
+  },
+  "restartedPass": {
+    "officialComplete": 100,
+    "officialRemaining": 246,
+    "substantivelyReviewed": 102,
+    "notYetFullyReviewed": 244,
+    "total": 346
+  },
+  "nextReview": "/philosophers/philosophical-gradients/",
+  "nextBatchActivated": false,
+  "pages": [
+    {
+      "pagePath": "/philosophers/philosopher-club-membership/",
+      "sourceSha256": "ce176bc78a8a1055c80884055abe67beb1fb3d97e7ecab8eb7e35ca7259ecede",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 18,
+      "modelResponses": 18,
+      "blocksRetainedVerbatim": 300,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 111,
+      "bareAnswersExplicitlyRevised": 0,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": false,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [
+        "2.2"
+      ],
+      "formatChecks": {
+        "chatgptCategoryExamples": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "geminiOriginalGroupsAndExplicitCompletion": [
+          7,
+          7,
+          7,
+          7,
+          5,
+          2,
+          5
+        ],
+        "claudeCategoryExamples": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "quizQuestionsAndKeys": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "discussionQuestions": [
+          15,
+          15,
+          15
+        ],
+        "curatorCategoryRequirements": [
+          6
+        ]
+      },
+      "sha256": "22b51b24c8dc1f7b4a557caed68cd4840a004741eb2951960967e4e0c6595388",
+      "sourceUrl": "http://byteseismic.com/2024/05/28/philosopher-club-membership/",
+      "sourceTitle": "Philosopher Club Membership",
+      "sourceId": 10499,
+      "snapshot": "philosopher-club-membership-wordpress-10499.html",
+      "cacheContentExact": true,
+      "sourceUrlSlugMatches": true,
+      "sourceTitleMatches": true,
+      "allOriginalPromptsRead": true,
+      "sourceModelAttribution": "Logo order in complete WordPress source; revised texts labeled editorial editions.",
+      "responseDecisions": [
+        {
+          "section": 1,
+          "model": "ChatGPT",
+          "prompt": "Categorize and comment on the various notions of a philosopher.",
+          "decision": "Clarified foundational status, corrected Marx outsider claim and Bayes attribution, distinguished practical inquiry from occupational identity; retained six categories and their order.",
+          "editedSourceNodes": [
+            "1.1.1",
+            "1.1.9",
+            "1.1.12",
+            "1.1.16",
+            "1.1.20"
+          ],
+          "completeSourceResponseRead": true,
+          "completeRevisedResponseChecked": true
+        },
+        {
+          "section": 1,
+          "model": "Gemini",
+          "prompt": "Categorize and comment on the various notions of a philosopher.",
+          "decision": "Kept six paired descriptions/comments and three boundary notes; sharpened overlap and contribution-versus-fame test.",
+          "editedSourceNodes": [
+            "1.2.3",
+            "1.2.9",
+            "1.2.12",
+            "1.2.18",
+            "1.2.24"
+          ],
+          "completeSourceResponseRead": true,
+          "completeRevisedResponseChecked": true
+        },
+        {
+          "section": 1,
+          "model": "Claude",
+          "prompt": "Categorize and comment on the various notions of a philosopher.",
+          "decision": "Kept six category entries; corrected Marx training and the practical category, developed distinct evidence-versus-ethical-premise caution.",
+          "editedSourceNodes": [
+            "1.3.0",
+            "1.3.3",
+            "1.3.6",
+            "1.3.7"
+          ],
+          "completeSourceResponseRead": true,
+          "completeRevisedResponseChecked": true
+        },
+        {
+          "section": 2,
+          "model": "ChatGPT",
+          "prompt": "List at least 5 “philosophers” in each category.",
+          "decision": "Kept six five-name lists; qualified Marx, Newton, popular explanation, and academic practical philosophers rather than silently replacing the curator’s taxonomy.",
+          "editedSourceNodes": [
+            "2.1.1",
+            "2.1.13",
+            "2.1.14",
+            "2.1.19",
+            "2.1.22",
+            "2.1.31",
+            "2.1.34",
+            "2.1.38"
+          ],
+          "completeSourceResponseRead": true,
+          "completeRevisedResponseChecked": true
+        },
+        {
+          "section": 2,
+          "model": "Gemini",
+          "prompt": "List at least 5 “philosophers” in each category.",
+          "decision": "Read entire truncated answer; qualified misplacements of Hypatia, Wittgenstein, Foucault, Nietzsche and others; preserved original five groups and visibly added two literary examples plus missing five-name practical group.",
+          "editedSourceNodes": [
+            "2.2.7",
+            "2.2.8",
+            "2.2.9",
+            "2.2.16",
+            "2.2.19",
+            "2.2.22",
+            "2.2.24",
+            "2.2.27",
+            "2.2.29",
+            "2.2.30",
+            "2.2.32",
+            "2.2.38",
+            "2.2.39"
+          ],
+          "completeSourceResponseRead": true,
+          "completeRevisedResponseChecked": true
+        },
+        {
+          "section": 2,
+          "model": "Claude",
+          "prompt": "List at least 5 “philosophers” in each category.",
+          "decision": "Kept all sixty entries in six ten-name lists; added scope qualification, Pythagoras/Avicenna caveats and Marx correction.",
+          "editedSourceNodes": [
+            "2.3.0",
+            "2.3.7",
+            "2.3.11",
+            "2.3.24"
+          ],
+          "completeSourceResponseRead": true,
+          "completeRevisedResponseChecked": true
+        },
+        {
+          "section": 3,
+          "model": "ChatGPT",
+          "prompt": "Provide the stories of 3 philosophers who would be surprised at their “philosopher” status were they alive today.",
+          "decision": "Retained Darwin/Bayes/Freud story order and background/reaction/impact organization; replaced invented certainty about reactions; corrected reception claims and repaired split Freud paragraph.",
+          "editedSourceNodes": [
+            "3.1.0",
+            "3.1.2",
+            "3.1.3",
+            "3.1.5",
+            "3.1.7",
+            "3.1.8",
+            "3.1.9",
+            "3.1.10",
+            "3.1.12"
+          ],
+          "completeSourceResponseRead": true,
+          "completeRevisedResponseChecked": true
+        },
+        {
+          "section": 3,
+          "model": "Gemini",
+          "prompt": "Provide the stories of 3 philosophers who would be surprised at their “philosopher” status were they alive today.",
+          "decision": "Kept Hypatia/Machiavelli/Wollstonecraft three-item order; explained why they do not establish surprise at philosophical status and provided text-grounded reception stories instead.",
+          "editedSourceNodes": [
+            "3.2.0",
+            "3.2.1",
+            "3.2.2"
+          ],
+          "completeSourceResponseRead": true,
+          "completeRevisedResponseChecked": true
+        },
+        {
+          "section": 3,
+          "model": "Claude",
+          "prompt": "Provide the stories of 3 philosophers who would be surprised at their “philosopher” status were they alive today.",
+          "decision": "Retained Bayes/Carson and third narrative slot; explicitly replaced Diamond, alive at source publication, with Darwin; kept four-paragraph third-story form and qualified all imagined reactions.",
+          "editedSourceNodes": [
+            "3.3.0",
+            "3.3.2",
+            "3.3.3",
+            "3.3.4",
+            "3.3.6",
+            "3.3.7",
+            "3.3.8",
+            "3.3.9",
+            "3.3.10",
+            "3.3.11",
+            "3.3.12",
+            "3.3.13"
+          ],
+          "completeSourceResponseRead": true,
+          "completeRevisedResponseChecked": true
+        },
+        {
+          "section": 4,
+          "model": "ChatGPT",
+          "prompt": "Write a short essay on what it takes to become a “practical” philosopher.",
+          "decision": "Revised short essay through one concrete hypothetical feedback decision while retaining its six topical stages and conclusion.",
+          "editedSourceNodes": [
+            "4.1.1",
+            "4.1.2",
+            "4.1.3",
+            "4.1.4",
+            "4.1.5",
+            "4.1.6",
+            "4.1.7",
+            "4.1.9"
+          ],
+          "completeSourceResponseRead": true,
+          "completeRevisedResponseChecked": true
+        },
+        {
+          "section": 4,
+          "model": "Gemini",
+          "prompt": "Write a short essay on what it takes to become a “practical” philosopher.",
+          "decision": "Preserved questioning/reason/action three-part essay; developed hypothetical rumor example and limits of deliberation.",
+          "editedSourceNodes": [
+            "4.2.1",
+            "4.2.2",
+            "4.2.3",
+            "4.2.4",
+            "4.2.5",
+            "4.2.6"
+          ],
+          "completeSourceResponseRead": true,
+          "completeRevisedResponseChecked": true
+        },
+        {
+          "section": 4,
+          "model": "Claude",
+          "prompt": "Write a short essay on what it takes to become a “practical” philosopher.",
+          "decision": "Preserved curiosity/application/background/criticism/communication/action sequence; developed volunteer-allocation example without promising guaranteed good outcomes.",
+          "editedSourceNodes": [
+            "4.3.0",
+            "4.3.2",
+            "4.3.3",
+            "4.3.4",
+            "4.3.5",
+            "4.3.6",
+            "4.3.7",
+            "4.3.8",
+            "4.3.9"
+          ],
+          "completeSourceResponseRead": true,
+          "completeRevisedResponseChecked": true
+        },
+        {
+          "section": 5,
+          "model": "ChatGPT",
+          "prompt": "Create a 10-item quiz on the entire thread above.",
+          "decision": "Kept ten questions, four options each, and ten end-position answers; corrected speculative Darwin wording and Bayes attribution.",
+          "editedSourceNodes": [
+            "5.1.43",
+            "5.1.60"
+          ],
+          "completeSourceResponseRead": true,
+          "completeRevisedResponseChecked": true
+        },
+        {
+          "section": 5,
+          "model": "Gemini",
+          "prompt": "Create a 10-item quiz on the entire thread above.",
+          "decision": "Kept ten questions/ten answers; repaired false exclusion of innovation, mistaken Hypatia answer and overlap ambiguity; improved option line breaks.",
+          "editedSourceNodes": [
+            "5.2.1",
+            "5.2.3",
+            "5.2.5",
+            "5.2.7",
+            "5.2.11",
+            "5.2.14",
+            "5.2.18",
+            "5.2.22",
+            "5.2.2",
+            "5.2.4",
+            "5.2.6",
+            "5.2.8",
+            "5.2.9",
+            "5.2.10"
+          ],
+          "completeSourceResponseRead": true,
+          "completeRevisedResponseChecked": true
+        },
+        {
+          "section": 5,
+          "model": "Claude",
+          "prompt": "Create a 10-item quiz on the entire thread above.",
+          "decision": "Kept ten questions/ten answers; replaced unsupported surprise and Diamond questions with source-relevant questions on Carson and the ethical-premise gap.",
+          "editedSourceNodes": [
+            "5.3.4",
+            "5.3.8"
+          ],
+          "completeSourceResponseRead": true,
+          "completeRevisedResponseChecked": true
+        },
+        {
+          "section": 6,
+          "model": "ChatGPT",
+          "prompt": "Provide 15 discussion questions relevant to the content above. ",
+          "decision": "Retained fifteen discussion positions; corrected Marx/Darwin distinction and Freud speculation question, kept effective remaining topics.",
+          "editedSourceNodes": [
+            "6.1.3",
+            "6.1.11"
+          ],
+          "completeSourceResponseRead": true,
+          "completeRevisedResponseChecked": true
+        },
+        {
+          "section": 6,
+          "model": "Gemini",
+          "prompt": "Provide 15 discussion questions relevant to the content above. ",
+          "decision": "Retained fifteen positions; corrected Hypatia/Wollstonecraft assumptions and removed a stale claim about the revised essay mentioning existentialism.",
+          "editedSourceNodes": [
+            "6.2.8",
+            "6.2.9",
+            "6.2.13"
+          ],
+          "completeSourceResponseRead": true,
+          "completeRevisedResponseChecked": true
+        },
+        {
+          "section": 6,
+          "model": "Claude",
+          "prompt": "Provide 15 discussion questions relevant to the content above. ",
+          "decision": "Read and retained all fifteen discussion questions: they cover membership criteria, interdisciplinary work, practical judgment and communication without false biographical premises.",
+          "editedSourceNodes": [],
+          "completeSourceResponseRead": true,
+          "completeRevisedResponseChecked": true
+        }
+      ],
+      "reviewedAt": "2026-10-07T13:23:58.475837+00:00",
+      "curatorExchangeCheck": "All curator h2 prompts are exact; Club Membership also retains the six-category p/ul instruction preamble exactly. No separate dialogue or later curator correction in either original.",
+      "concerns": [
+        "Counterfactual reactions cannot be known. Gemini’s original three examples do not support the stronger surprise premise; limitation explicit.",
+        "The curator’s categories overlap and include boundary cases; lists do not certify exclusive membership or philosophical merit.",
+        "Gemini list completion is labeled editorial, not falsely attributed to the original model."
+      ],
+      "deliberateOmissionsRejected": [
+        ".original-prompt-text",
+        ".original-response [data-source-node]",
+        ".original-response > ol li",
+        "[data-source-preamble=\"1.1\"] li"
+      ],
+      "factualReferences": [
+        {
+          "label": "doctoral dissertation",
+          "url": "https://www.marxists.org/archive/marx/works/1841/dr-theses/index.htm"
+        },
+        {
+          "label": "autobiography",
+          "url": "https://darwin-online.org.uk/converted/pdf/1958_autobiography_F1497.pdf"
+        },
+        {
+          "label": "Socrates Scholasticus, Church History VII.15",
+          "url": "https://www.newadvent.org/fathers/26017.htm"
+        },
+        {
+          "label": "The Prince, chapter XV",
+          "url": "https://www.gutenberg.org/files/1232/1232-h/1232-h"
+        },
+        {
+          "label": "Vindication of the Rights of Woman",
+          "url": "https://www.gutenberg.org/cache/epub/3420/pg3420.html"
+        },
+        {
+          "label": "Essay towards solving a Problem in the Doctrine of Chances",
+          "url": "https://www.gtfp.cs.rhul.ac.uk/pulskamp/Bayes/bayesessay-rjp.pdf"
+        },
+        {
+          "label": "U.S. Fish and Wildlife Service’s account",
+          "url": "https://www.fws.gov/staff-profile/rachel-carson-1907-1964-author-modern-environmental-movement"
+        }
+      ],
+      "factCheckMethod": "Consulted primary texts and authoritative institutional historical accounts through web retrieval/search; links embedded at corrected claims. No blanket HTTP-status claim.",
+      "visualVerification": {
+        "viewport": [
+          1280,
+          720
+        ],
+        "horizontalOverflow": false,
+        "observedSections": [
+          "original curator preamble",
+          "static original quiz"
+        ],
+        "mobileTested": false,
+        "quizType": "Original static questions followed by end-position answer keys; no interactive feedback claimed."
+      }
+    },
+    {
+      "pagePath": "/philosophers/philosophers-or-philosophy/",
+      "sourceSha256": "ea6519c7d97380a883144120e9aa7c0130e8b54867faf050ee0bf55365d0a0ce",
+      "originalPrompts": 5,
+      "originalHeadings": 5,
+      "sourceColumns": 10,
+      "modelResponses": 10,
+      "blocksRetainedVerbatim": 81,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 64,
+      "bareAnswersExplicitlyRevised": 0,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "chatgptBenefitsDangers": [
+          4,
+          4,
+          4,
+          4
+        ],
+        "geminiBenefitsDangers": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "fiveOriginalCasePositions": [
+          5,
+          5
+        ],
+        "quizQuestionsAndKeys": [
+          7,
+          7,
+          7,
+          7
+        ],
+        "discussionQuestions": [
+          15,
+          15
+        ]
+      },
+      "sha256": "ef6d5726160497b46bf67973cd8031112f439bb9578cfcb958139372d5f43587",
+      "sourceUrl": "http://byteseismic.com/2024/04/08/philosophers-or-philosophy/",
+      "sourceTitle": "Philosophers or Philosophy?",
+      "sourceId": 5738,
+      "snapshot": "philosophers-or-philosophy-wordpress-5738.html",
+      "cacheContentExact": true,
+      "sourceUrlSlugMatches": true,
+      "sourceTitleMatches": true,
+      "allOriginalPromptsRead": true,
+      "sourceModelAttribution": "Logo order in complete WordPress source; revised texts labeled editorial editions.",
+      "responseDecisions": [
+        {
+          "section": 1,
+          "model": "ChatGPT",
+          "prompt": "What are the benefits and dangers of focusing on philosophers rather than focusing on philosophical concepts?",
+          "decision": "Retained four four-item benefits/dangers lists; qualified coherence, universality and canon claims, developed argument/context reading procedure.",
+          "editedSourceNodes": [
+            "1.1.0",
+            "1.1.3",
+            "1.1.8",
+            "1.1.9",
+            "1.1.12",
+            "1.1.17",
+            "1.1.21"
+          ],
+          "completeSourceResponseRead": true,
+          "completeRevisedResponseChecked": true
+        },
+        {
+          "section": 1,
+          "model": "Gemini",
+          "prompt": "What are the benefits and dangers of focusing on philosophers rather than focusing on philosophical concepts?",
+          "decision": "Retained four three-item lists; used shared-resource problem to distinguish accessibility, comparison and the limits of abstract labels.",
+          "editedSourceNodes": [
+            "1.2.0",
+            "1.2.10",
+            "1.2.11",
+            "1.2.17"
+          ],
+          "completeSourceResponseRead": true,
+          "completeRevisedResponseChecked": true
+        },
+        {
+          "section": 2,
+          "model": "ChatGPT",
+          "prompt": "Comment on how accidents of history contributed to the trajectory of philosophical thought, and how we might have been misled by the trajectory that exists rather than considering counter-factual trajectories that might have contributed to a superior understanding of philosophical concepts.",
+          "decision": "Preserved two four-item lists; distinguished selective survival, translation, institutions and exclusion from proof of falsity; made alternative-history claims bounded and assessable.",
+          "editedSourceNodes": [
+            "2.1.0",
+            "2.1.2",
+            "2.1.3",
+            "2.1.4",
+            "2.1.5",
+            "2.1.7",
+            "2.1.8",
+            "2.1.9",
+            "2.1.10",
+            "2.1.11"
+          ],
+          "completeSourceResponseRead": true,
+          "completeRevisedResponseChecked": true
+        },
+        {
+          "section": 2,
+          "model": "Gemini",
+          "prompt": "Comment on how accidents of history contributed to the trajectory of philosophical thought, and how we might have been misled by the trajectory that exists rather than considering counter-factual trajectories that might have contributed to a superior understanding of philosophical concepts.",
+          "decision": "Preserved three/two/two item groups; removed simplistic Alexandria/Christian suppression stories and false absence of Greek emotion or Western social inquiry; added concrete curriculum comparisons.",
+          "editedSourceNodes": [
+            "2.2.0",
+            "2.2.3",
+            "2.2.6",
+            "2.2.7",
+            "2.2.10",
+            "2.2.11",
+            "2.2.13",
+            "2.2.14"
+          ],
+          "completeSourceResponseRead": true,
+          "completeRevisedResponseChecked": true
+        },
+        {
+          "section": 3,
+          "model": "ChatGPT",
+          "prompt": "Provide 5 cases in which a philosopher introduced an incorrect idea that became so entrenched it took excessive time to introduce the correction.",
+          "decision": "Preserved original five case slots and order; distinguished geocentrism/phlogiston/physiology from misreadings of Locke/Kant; explicitly acknowledged limits of excessive-delay claims.",
+          "editedSourceNodes": [
+            "3.1.0",
+            "3.1.1",
+            "3.1.2",
+            "3.1.3",
+            "3.1.4",
+            "3.1.5",
+            "3.1.6"
+          ],
+          "completeSourceResponseRead": true,
+          "completeRevisedResponseChecked": true
+        },
+        {
+          "section": 3,
+          "model": "Gemini",
+          "prompt": "Provide 5 cases in which a philosopher introduced an incorrect idea that became so entrenched it took excessive time to introduce the correction.",
+          "decision": "Preserved Plato/Aristotle/Descartes/Malthus/eugenics order; separated disputed metaphysics, empirical error, conditional population model and coercive policy; identified Galton without treating Darwin as sole cause.",
+          "editedSourceNodes": [
+            "3.2.0",
+            "3.2.1",
+            "3.2.2",
+            "3.2.3",
+            "3.2.4",
+            "3.2.5",
+            "3.2.6"
+          ],
+          "completeSourceResponseRead": true,
+          "completeRevisedResponseChecked": true
+        },
+        {
+          "section": 4,
+          "model": "ChatGPT",
+          "prompt": "Create a 7-item quiz on the entire thread above.",
+          "decision": "Preserved seven questions and seven end-position answers; corrected Locke, Kant and originator attributions.",
+          "editedSourceNodes": [
+            "4.1.4",
+            "4.1.5",
+            "4.1.6",
+            "4.1.7",
+            "4.1.11",
+            "4.1.14",
+            "4.1.15"
+          ],
+          "completeSourceResponseRead": true,
+          "completeRevisedResponseChecked": true
+        },
+        {
+          "section": 4,
+          "model": "Gemini",
+          "prompt": "Create a 7-item quiz on the entire thread above.",
+          "decision": "Preserved seven questions and seven end-position answers; repaired multiple-correct-answer defect and unsupported all-views-false answer; made historical-selection and observation questions precise.",
+          "editedSourceNodes": [
+            "4.2.3",
+            "4.2.5",
+            "4.2.7",
+            "4.2.8",
+            "4.2.13",
+            "4.2.16",
+            "4.2.2",
+            "4.2.4",
+            "4.2.6"
+          ],
+          "completeSourceResponseRead": true,
+          "completeRevisedResponseChecked": true
+        },
+        {
+          "section": 5,
+          "model": "ChatGPT",
+          "prompt": "Provide 15 discussion questions relevant to the content above. ",
+          "decision": "Preserved fifteen positions; corrected prompts about geocentrism delay, Locke, Kant and kinds of error; retained effective questions on canon, translation and comparison.",
+          "editedSourceNodes": [
+            "5.1.7",
+            "5.1.9",
+            "5.1.10",
+            "5.1.14"
+          ],
+          "completeSourceResponseRead": true,
+          "completeRevisedResponseChecked": true
+        },
+        {
+          "section": 5,
+          "model": "Gemini",
+          "prompt": "Provide 15 discussion questions relevant to the content above. ",
+          "decision": "Read all fifteen; retained fourteen effective questions and replaced vague burning-libraries premise with selective-preservation question.",
+          "editedSourceNodes": [
+            "5.2.9"
+          ],
+          "completeSourceResponseRead": true,
+          "completeRevisedResponseChecked": true
+        }
+      ],
+      "reviewedAt": "2026-10-07T13:23:58.475837+00:00",
+      "curatorExchangeCheck": "All curator h2 prompts are exact; Club Membership also retains the six-category p/ul instruction preamble exactly. No separate dialogue or later curator correction in either original.",
+      "concerns": [
+        "Five-case lists do not establish five independently documented histories of excessive delay. Their differing fit and causal evidential limits are explicit.",
+        "Platonism, dualism and transcendental idealism are not represented as simply disproved scientific theories."
+      ],
+      "deliberateOmissionsRejected": [
+        ".original-prompt-text",
+        ".original-response [data-source-node]",
+        ".original-response > ol li"
+      ],
+      "factualReferences": [
+        {
+          "label": "Galileo’s observations",
+          "url": "https://www.loc.gov/collections/finding-our-place-in-the-cosmos-with-carl-sagan/articles-and-essays/modeling-the-cosmos/galileo-and-the-telescope/"
+        },
+        {
+          "label": "American Chemical Society’s history",
+          "url": "https://www.acs.org/education/whatischemistry/landmarks/lavoisier.html"
+        },
+        {
+          "label": "The Passions of the Soul, articles 7–16 and 31–34",
+          "url": "https://www.earlymoderntexts.com/assets/pdfs/descartes1649part1.pdf"
+        },
+        {
+          "label": "Essay II.i",
+          "url": "https://barryfvaughan.org/text/philtext/locke/bk2/1.html"
+        },
+        {
+          "label": "Transcendental Aesthetic",
+          "url": "https://humanum.arts.cuhk.edu.hk/humftp/E-text/Kant/cpr.kemp-smith/04aesth.htm"
+        },
+        {
+          "label": "1798 Essay",
+          "url": "https://www.gutenberg.org/files/4239/4239-h/4239-h.htm"
+        },
+        {
+          "label": "National Human Genome Research Institute documents",
+          "url": "https://www.genome.gov/about-genomics/fact-sheets/Eugenics-and-Scientific-Racism"
+        }
+      ],
+      "factCheckMethod": "Consulted primary texts and authoritative institutional historical accounts through web retrieval/search; links embedded at corrected claims. No blanket HTTP-status claim.",
+      "visualVerification": {
+        "viewport": [
+          1280,
+          720
+        ],
+        "horizontalOverflow": false,
+        "observedSections": [
+          "five-case response lists"
+        ],
+        "mobileTested": false,
+        "quizType": "Original static questions followed by end-position answer keys; no interactive feedback claimed."
+      }
+    }
+  ],
+  "sourceInventory": "quality/original-source-revisions/current-batch-source-inventory-2026-10-07.json",
+  "verification": "quality/original-source-revisions/batch-verification-2026-10-07.json",
+  "unresolvedBaseline": "quality/original-source-revisions/finite-agency-source-inventory-2026-10-07.json",
+  "advanceCommandRun": false,
+  "trackerFilesChanged": false,
+  "delivery": {
+    "scope": "Exactly the two pages, their source/edit/verification records, batch source inventory, unapproved baseline packet and run reports.",
+    "statusAtReportPreparation": "Verified and ready for the authorized commit/push. Resulting commit and remote confirmation are recorded in automation memory and final run message."
+  },
+  "cost": "No separately billed service, generation, installation, or external repository download. Used local tools and existing web/browser access."
+}

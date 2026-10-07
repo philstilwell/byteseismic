@@ -1,0 +1,26 @@
+{
+  "createdAt": "2026-10-07T13:23:58.475837+00:00",
+  "pagePath": "/ethics/finite-agency-moral-demand-and-happiness/",
+  "status": "source-blocked-unapproved-site-native",
+  "firstAdditionCommit": "3d1144522bd3c31b28f945a578d6ebc486196b8a",
+  "snapshot": "finite-agency-moral-demand-and-happiness-first-repository-3d1144522bd3.html",
+  "sha256": "ab104155c1da35fcccdff19e88ec9ae845b046416491ea43ef5277d84defc0e6",
+  "provenance": "Site-native editorial/reconstructed branch cluster; not an original WordPress conversation.",
+  "evidence": [
+    "Exact-path git log --no-renames --diff-filter=A identifies first addition; --follow incorrectly follows a similarity rename to an unrelated chivalry page.",
+    "No cached source URL slug or title match.",
+    "Builder SECTION_HIERARCHY_ADDITIONS supplies this title with empty href.",
+    "Exact-title web searches on byteseismic.com and byteseismic.wordpress.com found no matching original.",
+    "Live custom-domain search, WordPress search, and public API search were inaccessible through web retrieval; this is not a successful empty API response.",
+    "Neither September21 nor September30 approval manifest covers this path."
+  ],
+  "originalPromptTexts": [
+    "Why can moral seriousness become psychologically extractive when responsibility is allowed to expand without limit?",
+    "What is scope leakage of happiness, and why is it a better name for a certain modern misery than vague burnout language?",
+    "How should a finite agent think about distant suffering without collapsing into either apathy or performative guilt?",
+    "Why might skepticism toward moral systems sometimes protect compassion rather than weaken it?"
+  ],
+  "decision": "Preserve existing page and tracker. Reliable original or explicit curator approval of this exact site-native snapshot is required before full review.",
+  "approvalRequestedPreviously": false,
+  "editorialReviewComplete": false
+}

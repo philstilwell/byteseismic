@@ -1,0 +1,275 @@
+{
+  "pagePath": "/philosophers/philosophers-or-philosophy/",
+  "sourceSha256": "ea6519c7d97380a883144120e9aa7c0130e8b54867faf050ee0bf55365d0a0ce",
+  "originalPrompts": 5,
+  "originalHeadings": 5,
+  "sourceColumns": 10,
+  "modelResponses": 10,
+  "blocksRetainedVerbatim": 81,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 64,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "chatgptBenefitsDangers": [
+      4,
+      4,
+      4,
+      4
+    ],
+    "geminiBenefitsDangers": [
+      3,
+      3,
+      3,
+      3
+    ],
+    "fiveOriginalCasePositions": [
+      5,
+      5
+    ],
+    "quizQuestionsAndKeys": [
+      7,
+      7,
+      7,
+      7
+    ],
+    "discussionQuestions": [
+      15,
+      15
+    ]
+  },
+  "sha256": "ef6d5726160497b46bf67973cd8031112f439bb9578cfcb958139372d5f43587",
+  "sourceUrl": "http://byteseismic.com/2024/04/08/philosophers-or-philosophy/",
+  "sourceTitle": "Philosophers or Philosophy?",
+  "sourceId": 5738,
+  "snapshot": "philosophers-or-philosophy-wordpress-5738.html",
+  "cacheContentExact": true,
+  "sourceUrlSlugMatches": true,
+  "sourceTitleMatches": true,
+  "allOriginalPromptsRead": true,
+  "sourceModelAttribution": "Logo order in complete WordPress source; revised texts labeled editorial editions.",
+  "responseDecisions": [
+    {
+      "section": 1,
+      "model": "ChatGPT",
+      "prompt": "What are the benefits and dangers of focusing on philosophers rather than focusing on philosophical concepts?",
+      "decision": "Retained four four-item benefits/dangers lists; qualified coherence, universality and canon claims, developed argument/context reading procedure.",
+      "editedSourceNodes": [
+        "1.1.0",
+        "1.1.3",
+        "1.1.8",
+        "1.1.9",
+        "1.1.12",
+        "1.1.17",
+        "1.1.21"
+      ],
+      "completeSourceResponseRead": true,
+      "completeRevisedResponseChecked": true
+    },
+    {
+      "section": 1,
+      "model": "Gemini",
+      "prompt": "What are the benefits and dangers of focusing on philosophers rather than focusing on philosophical concepts?",
+      "decision": "Retained four three-item lists; used shared-resource problem to distinguish accessibility, comparison and the limits of abstract labels.",
+      "editedSourceNodes": [
+        "1.2.0",
+        "1.2.10",
+        "1.2.11",
+        "1.2.17"
+      ],
+      "completeSourceResponseRead": true,
+      "completeRevisedResponseChecked": true
+    },
+    {
+      "section": 2,
+      "model": "ChatGPT",
+      "prompt": "Comment on how accidents of history contributed to the trajectory of philosophical thought, and how we might have been misled by the trajectory that exists rather than considering counter-factual trajectories that might have contributed to a superior understanding of philosophical concepts.",
+      "decision": "Preserved two four-item lists; distinguished selective survival, translation, institutions and exclusion from proof of falsity; made alternative-history claims bounded and assessable.",
+      "editedSourceNodes": [
+        "2.1.0",
+        "2.1.2",
+        "2.1.3",
+        "2.1.4",
+        "2.1.5",
+        "2.1.7",
+        "2.1.8",
+        "2.1.9",
+        "2.1.10",
+        "2.1.11"
+      ],
+      "completeSourceResponseRead": true,
+      "completeRevisedResponseChecked": true
+    },
+    {
+      "section": 2,
+      "model": "Gemini",
+      "prompt": "Comment on how accidents of history contributed to the trajectory of philosophical thought, and how we might have been misled by the trajectory that exists rather than considering counter-factual trajectories that might have contributed to a superior understanding of philosophical concepts.",
+      "decision": "Preserved three/two/two item groups; removed simplistic Alexandria/Christian suppression stories and false absence of Greek emotion or Western social inquiry; added concrete curriculum comparisons.",
+      "editedSourceNodes": [
+        "2.2.0",
+        "2.2.3",
+        "2.2.6",
+        "2.2.7",
+        "2.2.10",
+        "2.2.11",
+        "2.2.13",
+        "2.2.14"
+      ],
+      "completeSourceResponseRead": true,
+      "completeRevisedResponseChecked": true
+    },
+    {
+      "section": 3,
+      "model": "ChatGPT",
+      "prompt": "Provide 5 cases in which a philosopher introduced an incorrect idea that became so entrenched it took excessive time to introduce the correction.",
+      "decision": "Preserved original five case slots and order; distinguished geocentrism/phlogiston/physiology from misreadings of Locke/Kant; explicitly acknowledged limits of excessive-delay claims.",
+      "editedSourceNodes": [
+        "3.1.0",
+        "3.1.1",
+        "3.1.2",
+        "3.1.3",
+        "3.1.4",
+        "3.1.5",
+        "3.1.6"
+      ],
+      "completeSourceResponseRead": true,
+      "completeRevisedResponseChecked": true
+    },
+    {
+      "section": 3,
+      "model": "Gemini",
+      "prompt": "Provide 5 cases in which a philosopher introduced an incorrect idea that became so entrenched it took excessive time to introduce the correction.",
+      "decision": "Preserved Plato/Aristotle/Descartes/Malthus/eugenics order; separated disputed metaphysics, empirical error, conditional population model and coercive policy; identified Galton without treating Darwin as sole cause.",
+      "editedSourceNodes": [
+        "3.2.0",
+        "3.2.1",
+        "3.2.2",
+        "3.2.3",
+        "3.2.4",
+        "3.2.5",
+        "3.2.6"
+      ],
+      "completeSourceResponseRead": true,
+      "completeRevisedResponseChecked": true
+    },
+    {
+      "section": 4,
+      "model": "ChatGPT",
+      "prompt": "Create a 7-item quiz on the entire thread above.",
+      "decision": "Preserved seven questions and seven end-position answers; corrected Locke, Kant and originator attributions.",
+      "editedSourceNodes": [
+        "4.1.4",
+        "4.1.5",
+        "4.1.6",
+        "4.1.7",
+        "4.1.11",
+        "4.1.14",
+        "4.1.15"
+      ],
+      "completeSourceResponseRead": true,
+      "completeRevisedResponseChecked": true
+    },
+    {
+      "section": 4,
+      "model": "Gemini",
+      "prompt": "Create a 7-item quiz on the entire thread above.",
+      "decision": "Preserved seven questions and seven end-position answers; repaired multiple-correct-answer defect and unsupported all-views-false answer; made historical-selection and observation questions precise.",
+      "editedSourceNodes": [
+        "4.2.3",
+        "4.2.5",
+        "4.2.7",
+        "4.2.8",
+        "4.2.13",
+        "4.2.16",
+        "4.2.2",
+        "4.2.4",
+        "4.2.6"
+      ],
+      "completeSourceResponseRead": true,
+      "completeRevisedResponseChecked": true
+    },
+    {
+      "section": 5,
+      "model": "ChatGPT",
+      "prompt": "Provide 15 discussion questions relevant to the content above. ",
+      "decision": "Preserved fifteen positions; corrected prompts about geocentrism delay, Locke, Kant and kinds of error; retained effective questions on canon, translation and comparison.",
+      "editedSourceNodes": [
+        "5.1.7",
+        "5.1.9",
+        "5.1.10",
+        "5.1.14"
+      ],
+      "completeSourceResponseRead": true,
+      "completeRevisedResponseChecked": true
+    },
+    {
+      "section": 5,
+      "model": "Gemini",
+      "prompt": "Provide 15 discussion questions relevant to the content above. ",
+      "decision": "Read all fifteen; retained fourteen effective questions and replaced vague burning-libraries premise with selective-preservation question.",
+      "editedSourceNodes": [
+        "5.2.9"
+      ],
+      "completeSourceResponseRead": true,
+      "completeRevisedResponseChecked": true
+    }
+  ],
+  "reviewedAt": "2026-10-07T13:23:58.475837+00:00",
+  "curatorExchangeCheck": "All curator h2 prompts are exact; Club Membership also retains the six-category p/ul instruction preamble exactly. No separate dialogue or later curator correction in either original.",
+  "concerns": [
+    "Five-case lists do not establish five independently documented histories of excessive delay. Their differing fit and causal evidential limits are explicit.",
+    "Platonism, dualism and transcendental idealism are not represented as simply disproved scientific theories."
+  ],
+  "deliberateOmissionsRejected": [
+    ".original-prompt-text",
+    ".original-response [data-source-node]",
+    ".original-response > ol li"
+  ],
+  "factualReferences": [
+    {
+      "label": "Galileo’s observations",
+      "url": "https://www.loc.gov/collections/finding-our-place-in-the-cosmos-with-carl-sagan/articles-and-essays/modeling-the-cosmos/galileo-and-the-telescope/"
+    },
+    {
+      "label": "American Chemical Society’s history",
+      "url": "https://www.acs.org/education/whatischemistry/landmarks/lavoisier.html"
+    },
+    {
+      "label": "The Passions of the Soul, articles 7–16 and 31–34",
+      "url": "https://www.earlymoderntexts.com/assets/pdfs/descartes1649part1.pdf"
+    },
+    {
+      "label": "Essay II.i",
+      "url": "https://barryfvaughan.org/text/philtext/locke/bk2/1.html"
+    },
+    {
+      "label": "Transcendental Aesthetic",
+      "url": "https://humanum.arts.cuhk.edu.hk/humftp/E-text/Kant/cpr.kemp-smith/04aesth.htm"
+    },
+    {
+      "label": "1798 Essay",
+      "url": "https://www.gutenberg.org/files/4239/4239-h/4239-h.htm"
+    },
+    {
+      "label": "National Human Genome Research Institute documents",
+      "url": "https://www.genome.gov/about-genomics/fact-sheets/Eugenics-and-Scientific-Racism"
+    }
+  ],
+  "factCheckMethod": "Consulted primary texts and authoritative institutional historical accounts through web retrieval/search; links embedded at corrected claims. No blanket HTTP-status claim.",
+  "visualVerification": {
+    "viewport": [
+      1280,
+      720
+    ],
+    "horizontalOverflow": false,
+    "observedSections": [
+      "five-case response lists"
+    ],
+    "mobileTested": false,
+    "quizType": "Original static questions followed by end-position answer keys; no interactive feedback claimed."
+  }
+}

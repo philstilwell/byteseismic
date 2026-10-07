@@ -1,0 +1,270 @@
+{
+  "wordpressId": 10499,
+  "pageFile": "philosophers/philosopher-club-membership/index.html",
+  "snapshot": "philosopher-club-membership-wordpress-10499.html",
+  "sourceSha256": "ce176bc78a8a1055c80884055abe67beb1fb3d97e7ecab8eb7e35ca7259ecede",
+  "sourceUrl": "http://byteseismic.com/2024/05/28/philosopher-club-membership/",
+  "sourceLabel": "Original WordPress conversation, 2024-05-28",
+  "shellRevision": "395881dc7db22bd76a8adfe800c61892aa1c1b3b",
+  "date": "2026-10-07",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini",
+    "Claude"
+  ],
+  "headings": [
+    "Six ways of contributing to philosophy",
+    "Examples in each of the curator’s categories",
+    "Three stories per response, with limits on imagined reactions",
+    "Becoming a practical philosopher",
+    "Three ten-question quizzes and answer keys",
+    "Three sets of fifteen discussion questions"
+  ],
+  "introHeading": "Original conversation · editorial edition",
+  "intro": "Who counts as a philosopher depends partly on the work being done and partly on the categories used to recognize it. This edition preserves the curator’s six categories, all six prompts, and the separate ChatGPT, Gemini, and Claude responses. Historical claims and classifications are corrected within those responses. Gemini’s incomplete examples are explicitly completed; imagined reactions are identified as speculation rather than biography.",
+  "description": "Six overlapping notions of a philosopher, named examples, qualified reception stories, practical essays, and the original quiz and discussion sequence.",
+  "replacements": {
+    "1.1.1": "<strong>Definition:</strong> Thinkers whose work became foundational to later philosophical traditions. The curator’s category concerns beginnings, but it should not imply that Plato and Aristotle worked before organized philosophical study existed, or that all traditions began together.",
+    "1.1.9": "<strong>Comments:</strong> Marx connects philosophy with political economy, but he is a boundary case here: his <a href=\"https://www.marxists.org/archive/marx/works/1841/dr-theses/index.htm\">doctoral dissertation</a> concerns ancient philosophy. Darwin is a clearer example of work in another discipline changing philosophical questions about life and humanity. Scientific influence does not itself settle ethical conclusions.",
+    "1.1.12": "<strong>Comments:</strong> Bayes’s work on inverse probability became important to accounts of evidence and rational belief; the later Bayesian tradition should not be attributed wholly to him. Harari’s historical writing raises questions about social order and humanity’s future. Calling either contribution philosophical still leaves its reasoning open to criticism.",
+    "1.1.16": "<strong>Definition:</strong> In the curator’s specified sense, people doing philosophical work without a conscious decision to “join the club.” This concerns how someone approaches the activity, not simply their job title. The broader use of “practical philosophy” also includes deliberate academic work; the two uses should not be silently conflated.",
+    "1.1.20": "These are overlapping descriptions of contributions, not grades of intellectual worth or exclusive professions. The difficult boundary is between “inducted” and “tangential”: one emphasizes substantial uptake into philosophy, the other philosophical implications of work done elsewhere. Neither label certifies that an argument is sound.",
+    "1.2.3": "<strong>Description:</strong> Thinkers whose questions and methods became starting points for later traditions, such as Plato and Aristotle. “Foundational” is relative to a tradition, not a claim that inquiry had no predecessors.",
+    "1.2.9": "<strong>Description:</strong> Work from other disciplines that changes philosophical debate. Darwin fits well; Marx also crossed fields, but was already philosophically trained. The curator’s example therefore reveals overlap rather than a clean disciplinary border.",
+    "1.2.12": "<strong>Description:</strong> Work pursued outside philosophy that receives philosophical interpretation. Bayes’s probability work is a useful example; the status of a particular interpretation must be argued, not inferred from the author’s fame.",
+    "1.2.18": "<strong>Description:</strong> In this taxonomy, people doing philosophical work without choosing club membership. Harris may illustrate public philosophical reasoning, but listing him does not establish that he lacks a conscious philosophical identity. That biographical condition requires evidence beyond accessibility or subject matter.",
+    "1.2.24": "Use the spectrum to ask what a person contributes: a method, an argument, a new problem, a literary exploration, or a way of examining conduct. If a category tells us only that someone is influential, it has not yet explained their philosophical contribution.",
+    "1.3.0": "The curator’s six notions distinguish routes into philosophical work. They overlap: a novelist can also be academically trained, and a foundational thinker can revise an earlier tradition. Classification should describe the contribution before judging its value.",
+    "1.3.3": "<strong>Inducted Philosophers (Marx and Darwin):</strong> Darwin’s natural history changed the questions philosophers could ask about humanity. Marx connects philosophical criticism with political economy, but describing him as untrained in philosophy is false: he wrote a philosophical doctorate. Retaining him as a boundary case makes the category’s limits visible.",
+    "1.3.6": "<strong>Practical Philosophers (Sam Harris):</strong> The curator specifically asks about doing philosophical work without deciding to “join the club.” Harris’s writing can be examined for practical reasoning, but that alone does not establish his attitude toward philosophical identity. Distinguish this membership condition from the broader activity of applying philosophy.",
+    "1.3.7": "An open membership rule still needs standards. A scientist may supply evidence that changes a philosophical argument without defending the argument’s value premises; a novelist may expose a moral conflict without resolving it. These are real contributions, but they should not be mistaken for identical achievements.",
+    "2.1.1": "<strong>Definition:</strong> Foundational figures in particular traditions; not people without intellectual predecessors.",
+    "2.1.13": "<strong>Definition:</strong> Cross-disciplinary contributors whose work significantly enters philosophy; the Marx entry is retained as a qualification to the curator’s proposed category.",
+    "2.1.14": "Karl Marx — political economy and social criticism; already trained in philosophy, so not a straightforward outsider.",
+    "2.1.19": "<strong>Definition:</strong> Contributors whose work outside philosophy has philosophical implications. These examples overlap with “inducted”; the distinction concerns reception, not a settled professional boundary.",
+    "2.1.22": "Isaac Newton — mathematical natural philosophy; useful here only with the warning that the modern science/philosophy boundary does not fit his period.",
+    "2.1.31": "<strong>Definition:</strong> Examples of applying reflection to public or personal problems. These five do not all satisfy the stricter “no conscious club membership” condition: Nussbaum and Singer are academic philosophers. They demonstrate practical work across occupational boundaries.",
+    "2.1.34": "Malcolm Gladwell — a boundary case: public explanation and provocative examples can invite philosophical inquiry, but popular social analysis alone does not establish philosophical rigor.",
+    "2.1.38": "Each category has five examples. Read them as proposed placements with stated limits, not as a census of who does or does not qualify. In particular, influence, accessibility, disciplinary training, and philosophical merit are different questions.",
+    "2.2.7": "Laozi (China): the figure traditionally associated with the <em>Daodejing</em>; the history and authorship of the received text are uncertain.",
+    "2.2.8": "Thales of Miletus: traditionally placed near the beginning of Greek natural inquiry; fragmentary later reports do not justify a simple story of the first thinker abandoning all religion.",
+    "2.2.9": "Hypatia (Alexandria in late antiquity): a teacher of mathematics and philosophy. Her place here illustrates continuity of a tradition rather than its first foundation.",
+    "2.2.16": "John Locke (England): developed an empiricist account drawing on sensation and reflection on the mind’s operations, not sensation alone.",
+    "2.2.19": "<strong>Description:</strong> Cross-disciplinary philosophical influence. The five examples below retain two instructive misfits: Wittgenstein and Foucault were philosophers, not outsiders merely inducted afterward.",
+    "2.2.22": "Ludwig Wittgenstein: moved from engineering interests into philosophy; his mature work is philosophical inquiry itself, so he marks a boundary of this category.",
+    "2.2.24": "Michel Foucault: a philosopher working with historical inquiry into knowledge and power; historical method does not make him external to philosophy.",
+    "2.2.27": "<strong>Description:</strong> Philosophical implications of work in other fields. Several inherited examples below are central philosophers, so their placement is qualified instead of treating this list as a settled classification.",
+    "2.2.29": "Niccolò Machiavelli: political writing grounded in statecraft and history, also central to political philosophy; not merely a marginal philosophical influence.",
+    "2.2.30": "Mary Wollstonecraft: arguments about reason, education, and equality are philosophical work as well as political advocacy.",
+    "2.2.32": "Friedrich Nietzsche: philosophical criticism expressed in several literary forms; literary method does not make his philosophy merely tangential.",
+    "2.2.38": "Albert Camus: fiction and essays examine absurdity and revolt; association with existentialist debates does not mean he accepted the label.",
+    "2.2.39": "Søren Kierkegaard: uses pseudonymous and literary voices to examine faith, choice, and existence; those voices should not all be read as direct autobiography.",
+    "2.3.0": "Here are ten examples in each category. These are overlapping placements, not official memberships. “Inducted” includes cross-disciplinary figures such as Marx who already had philosophical training; “practical” includes academic philosophers and therefore does not imply unconscious or accidental membership.",
+    "2.3.7": "Pythagoras — traditional foundational attribution, with significant uncertainty about separating his views from later Pythagorean teaching.",
+    "2.3.11": "Avicenna — foundational for later traditions while also developing inherited philosophy; “foundational” and “traditional” overlap.",
+    "2.3.24": "Karl Marx — a philosophically trained thinker whose political economy also transformed philosophical debate.",
+    "3.1.0": "Three reception stories: plausible surprises, not known reactions",
+    "3.1.2": "<strong>Possible surprise:</strong> Darwin could have encountered later uses of evolutionary ideas that he did not anticipate. But we cannot infer that philosophy itself would surprise him: his <a href=\"https://darwin-online.org.uk/converted/pdf/1958_autobiography_F1497.pdf\">autobiography</a> discusses religion, morality, and the limits of understanding. The imagined surprise concerns later reception, not an absence of philosophical reflection.",
+    "3.1.3": "<strong>Impact on philosophy:</strong> Evolution changes how explanations of human capacities must engage with biology. It does not, by itself, tell us which conduct is right. The story matters because a scientific explanation can alter a philosophical problem without resolving every part of it.",
+    "3.1.5": "<strong>Possible surprise:</strong> Richard Price communicated Bayes’s essay after his death. The scale and range of later Bayesian uses provide a defensible basis for imagining surprise; Bayes’s private attitude to a modern professional label is unknown.",
+    "3.1.7": "<strong>Background:</strong> Sigmund Freud (1856–1939) was a physician and founder of psychoanalysis. His accounts of unconscious motives became influential in interpretations of mind and culture. Influence should be distinguished from evidence for each proposed mechanism.",
+    "3.1.8": "<strong>Possible surprise:</strong> A later reader can turn a clinical theory into an account of self-knowledge or culture. That change of use might surprise an author, but it is not evidence that Freud had no philosophical interests. The counterfactual reaction remains an editorial thought experiment.",
+    "3.1.9": "<strong>Impact on philosophy:</strong> Freud’s work makes the gap between a person’s stated reasons and possible motives difficult to ignore.",
+    "3.1.10": "That gap invites philosophical scrutiny of self-knowledge. It also creates a danger: an interpreter can dismiss every objection as evidence of unconscious resistance. A useful account must leave room to distinguish a supported interpretation from an unfalsifiable one.",
+    "3.1.12": "These three stories concern the later life of ideas. We can document work and reception; we cannot document how a dead author would react to today’s classification. The prompt’s imaginative exercise is most useful when it exposes a change of context rather than inventing a private intention.",
+    "3.2.0": "<strong>Hypatia (died 415):</strong> The original example needs correction. <a href=\"https://www.newadvent.org/fathers/26017.htm\">Socrates Scholasticus, <em>Church History</em> VII.15</a>, describes her philosophical teaching. She was not a mathematician who only became a philosopher through modern recognition. An imagined surprise could concern her later symbolic roles; surprise at being called a philosopher is unsupported. Her story shows why retrospective inclusion must not erase recognition already present in her lifetime.",
+    "3.2.1": "<strong>Niccolò Machiavelli (1469–1527):</strong> In <a href=\"https://www.gutenberg.org/files/1232/1232-h/1232-h\"><em>The Prince</em>, chapter XV</a>, he contrasts political conduct with idealized accounts of how people ought to live. His practical purpose already raises philosophical questions about the relation between success and virtue. One may imagine surprise at a later classroom’s abstraction from his political setting, but not infer that he was unaware of those questions.",
+    "3.2.2": "<strong>Mary Wollstonecraft (1759–1797):</strong> Her <a href=\"https://www.gutenberg.org/cache/epub/3420/pg3420.html\"><em>Vindication of the Rights of Woman</em></a> argues from reason and education to a challenge to women’s prescribed dependence. Advocacy and philosophy work together here. An imagined surprise might be that a course honors the text while ignoring the practical demand it makes. Being a woman or an advocate gives no reason to think she would be surprised that her arguments are philosophical. These three inherited cases therefore illuminate reception, but do not establish three known reactions.",
+    "3.3.0": "Three stories follow, with possible surprise explicitly treated as imagination. The original third example was Jared Diamond, who was alive when the 2024 prompt was written and therefore did not fit “were they alive today.” This edition substitutes Darwin while retaining the third story’s place and four-paragraph form.",
+    "3.3.2": "Thomas Bayes was a minister and mathematician whose probability work later supplied a starting point for accounts of learning from evidence. The broad modern tradition contains substantial developments beyond his own essay.",
+    "3.3.3": "Richard Price presented the posthumous <a href=\"https://www.gtfp.cs.rhul.ac.uk/pulskamp/Bayes/bayesessay-rjp.pdf\"><em>Essay towards solving a Problem in the Doctrine of Chances</em></a> in 1763. It studies inference from observed outcomes to an unknown probability. The claim that it went unnoticed until a twentieth-century rediscovery is too strong and has been removed.",
+    "3.3.4": "We can imagine Bayes encountering the range of later applications with surprise. We cannot know whether he would reject the title “philosopher,” and Price’s discussion of the essay’s wider significance cautions against treating its implications as wholly unforeseen.",
+    "3.3.6": "Rachel Carson was an American biologist and writer. The <a href=\"https://www.fws.gov/staff-profile/rachel-carson-1907-1964-author-modern-environmental-movement\">U.S. Fish and Wildlife Service’s account</a> connects her scientific career with <em>Silent Spring</em> (1962) and its challenge to environmental harm.",
+    "3.3.7": "Her case connects observations about ecological damage with questions about who bears risks and who gets to decide. Evidence of harm matters, but choices about responsibility also require ethical reasoning.",
+    "3.3.8": "The imagined surprise is the later placement of that work inside environmental ethics. It is not a claim that Carson lacked ethical intentions or that we know her preferred disciplinary label. Her example makes the boundary between public scientific explanation and philosophical responsibility permeable.",
+    "3.3.9": "Charles Darwin (1809–1882) — editorial replacement for the ineligible original example",
+    "3.3.10": "Darwin’s natural history changed explanations of the diversity of life. Later philosophical discussion asks what this changes about human capacities, purpose, and humanity’s relation to other animals.",
+    "3.3.11": "The reception story should not portray a philosophically innocent scientist: Darwin reflected on morality and religious belief himself. What can be imagined as surprising is the later range of arguments built around his work.",
+    "3.3.12": "Consider the step from explaining cooperation to saying that cooperation is good. An evolutionary explanation may inform the discussion, but the evaluative conclusion requires further premises. Attaching Darwin’s name cannot fill that gap.",
+    "3.3.13": "Thus the third story, like the first two, concerns a contribution whose later uses exceed its original setting. Whether its author would welcome or resist the modern label remains unknown.",
+    "4.1.1": "Practical philosophy means testing reasons in decisions that matter. It can be done inside or outside a university and without deciding to adopt the title “philosopher.” Its distinguishing feature is accountable judgment, not celebrity or the promise of easy answers.",
+    "4.1.2": "Start with a real tension. A manager wants to be honest about a colleague’s mistake but also to avoid humiliation. Naming both aims exposes a question that “be kind” alone leaves unresolved: when does kindness become concealment?",
+    "4.1.3": "Other disciplines help establish what is likely to happen. Psychology may inform how feedback is received; organizational knowledge may reveal constraints. Neither automatically decides what respect or honesty requires. Separate predictions about consequences from reasons for valuing them.",
+    "4.1.4": "Clear communication makes the reasoning inspectable. In the manager’s case, a private conversation naming a specific error is easier to evaluate and correct than a vague judgment about character. Accessibility means showing the reasons, not merely simplifying the conclusion.",
+    "4.1.5": "Application then tests the proposal. Give the colleague a chance to explain; distinguish a mistake from misconduct; check whether the response is proportionate. This is a hypothetical example, not a universal script: an urgent safety risk could change what must happen first.",
+    "4.1.6": "Critical thinking includes scrutiny of one’s own motives. Was the manager protecting the colleague, avoiding discomfort, or enjoying superiority? Motives do not settle whether the feedback was warranted, but examining them can reveal selective standards.",
+    "4.1.7": "Ethical commitment becomes credible when principles constrain the person using them. Apply the same standard to a favored colleague, invite correction, and notice who bears the cost. A claim to help people does not excuse withholding those tests.",
+    "4.1.9": "Becoming a practical philosopher is therefore a repeatable discipline: frame a tension, identify reasons and evidence, act within the limits of what is known, and review what happened. It improves the quality of judgment without guaranteeing happiness, agreement, or success.",
+    "4.2.1": "Practical philosophy brings inquiry into ordinary choices. A person deciding whether to repeat an alarming rumor, for example, faces questions about evidence, responsibility, and the cost of waiting.",
+    "4.2.2": "Three habits make that inquiry useful:",
+    "4.2.3": "<strong>1. A Questioning Mind:</strong> Ask what the report actually establishes and what would count against it. Questioning is not endless paralysis: specify which uncertainty affects the next decision.",
+    "4.2.4": "<strong>2. A Commitment to Reason:</strong> Fear can identify a serious concern without proving that a story is true. Check the report’s source and distinguish evidence of danger from emotional vividness.",
+    "4.2.5": "<strong>3. Applying Wisdom to Action:</strong> A proportionate response might be to verify privately before spreading the story, or to alert someone able to investigate an urgent risk. Review the outcome without assuming that a lucky result validates careless reasoning.",
+    "4.2.6": "These habits are available without a professional title. They require enough humility to revise an attractive explanation and enough commitment to act when delay also has costs. Better reasoning is a practice, not a promise of complete control over life.",
+    "4.3.0": "A short essay following the original sequence of curiosity, application, background, criticism, communication, and action:",
+    "4.3.2": "A practical philosopher makes the reasons behind conduct available for examination. Giving advice is insufficient: the advice should answer a problem, explain its priorities, and survive a serious objection.",
+    "4.3.3": "Curiosity begins with a tension rather than a slogan. A volunteer group may value both equal treatment and extra help for people with greater needs. Which interpretation of fairness should govern its limited time?",
+    "4.3.4": "To connect the concept with action, distinguish equal shares, equal opportunity, and responses proportionate to need. Each can recommend something different. Stating the difference lets the group decide what it is defending.",
+    "4.3.5": "People from different backgrounds may see constraints others miss: who cannot attend a meeting, whose needs are harder to document, or who already performs unpaid work. Experience supplies relevant information, but any proposed rule still needs reasons.",
+    "4.3.6": "Self-criticism asks whether the favored rule changes when it disadvantages its proposer. A useful counterexample can reveal that “equal treatment” was covering a convenient exception.",
+    "4.3.7": "Communication should expose the disagreement clearly enough for participants to correct it. “Everyone gets the same number of hours” is inspectable; “we follow fairness” leaves the decisive choice concealed.",
+    "4.3.8": "The group can adopt a provisional allocation, state its reasons, and specify when to reconsider. Intellectual rigor and ethical commitment meet in that willingness to be answerable for an actual choice.",
+    "4.3.9": "This hypothetical case shows why practical philosophy can be ordinary without being shallow. Its achievement is a better connection between reasons and action, including recognition of conflicts that no pleasing maxim removes.",
+    "5.1.43": "b) Work on inverse probability that contributed to the later Bayesian tradition",
+    "5.1.60": "b) Work on inverse probability that contributed to the later Bayesian tradition",
+    "5.2.1": "These questions use the curator’s overlapping categories as working descriptions, not as an official classification of people.",
+    "5.2.3": "Which claim does NOT follow from calling someone a traditional philosopher?<br/>a) They engage with earlier ideas.<br/>b) They cannot originate a new philosophical approach.<br/>c) They build on an existing body of thought.",
+    "5.2.5": "Which category emphasizes philosophical implications of work pursued outside philosophy, while overlapping with “inducted”?<br/>a) Practical philosophers<br/>b) Tangential philosophers<br/>c) Literary philosophers",
+    "5.2.7": "Which inherited story requires correction because an early source already describes the person as a philosophical teacher?<br/>a) Charles Darwin<br/>b) Thomas Bayes<br/>c) Hypatia",
+    "5.2.11": "What is the first habit in the practical-philosophy essay?<br/>a) Treat emotion as proof.<br/>b) Wait until uncertainty disappears.<br/>c) Ask a question that bears on the decision.",
+    "5.2.14": "b) A traditional philosopher can originate ideas; the category does not exclude innovation.",
+    "5.2.18": "c) Hypatia; her recognition as a philosopher was not a modern invention.",
+    "5.2.22": "c) Ask a question that bears on the decision.",
+    "5.3.4": "Which biologist and author appears in a reception story about environmental ethics?<br/>A. Rachel Carson<br/>B. Immanuel Kant<br/>C. Jean-Paul Sartre<br/>D. Aristotle",
+    "5.3.8": "Which inference needs an additional ethical premise?<br/>A. Moving from an evolutionary account of cooperation to the claim that cooperation is morally right.<br/>B. Identifying Darwin as a naturalist.<br/>C. Dating Bayes’s essay to its posthumous publication.<br/>D. Counting the six proposed categories.",
+    "6.1.3": "How do Darwin’s influence from natural history and Marx’s philosophically trained engagement with political economy test the “inducted” category in different ways?",
+    "6.1.11": "What evidence could support a claim about Freud’s self-understanding, and what remains speculation about how he would receive later interpretations?",
+    "6.2.8": "Hypatia’s Reception: How does early recognition of her philosophical teaching change the original suggestion that the label would surprise her?",
+    "6.2.9": "Wollstonecraft’s Legacy: Why need advocacy for women’s rights and philosophical argument about reason and equality not be competing identities?",
+    "6.2.13": "Existentialism and the Meaning of Life: The literary examples include themes of freedom and responsibility. How do these concepts contribute to the search for meaning in life?",
+    "5.2.2": "Foundational philosophers are known for:<br/>a) Expanding on existing philosophical ideas<br/>b) Laying the groundwork for philosophical inquiry<br/>c) Challenging established philosophical assumptions from outside disciplines",
+    "5.2.4": "Literary philosophers are important because they:<br/>a) Introduce complex philosophical ideas to a wider audience<br/>b) Focus on the practical application of philosophical concepts<br/>c) Primarily write about ethics and morality",
+    "5.2.6": "The concept of questioning traditional authorities and emphasizing critical thinking through dialogue is associated with which philosopher?<br/>a) Hypatia<br/>b) Socrates<br/>c) John Locke",
+    "5.2.8": "What is a key feature of a practical philosopher?<br/>a) Identification with the academic philosophical community<br/>b) Commitment to applying philosophical reasoning in everyday life<br/>c) Focus on writing philosophical texts for a scholarly audience",
+    "5.2.9": "The method of doubt, which emphasizes reason in acquiring knowledge, is associated with which philosopher?<br/>a) Saint Thomas Aquinas<br/>b) René Descartes<br/>c) Simone de Beauvoir",
+    "5.2.10": "The passage describes existentialism as a philosophy that explores themes of:<br/>a) Social order and respect for tradition<br/>b) Freedom, responsibility, and the meaning of life<br/>c) The nature of language, meaning, and logic"
+  },
+  "countChecks": [
+    {
+      "name": "chatgptCategoryExamples",
+      "selector": "#prompt-2 [data-source-column=\"1\"] > ol",
+      "child": "li",
+      "expected": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "geminiOriginalGroupsAndExplicitCompletion",
+      "selector": "#prompt-2 [data-source-column=\"2\"] > ul",
+      "child": "li",
+      "expected": [
+        7,
+        7,
+        7,
+        7,
+        5,
+        2,
+        5
+      ]
+    },
+    {
+      "name": "claudeCategoryExamples",
+      "selector": "#prompt-2 [data-source-column=\"3\"] > ol",
+      "child": "li",
+      "expected": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "quizQuestionsAndKeys",
+      "selector": "#prompt-5 .original-response > ol",
+      "child": "li",
+      "expected": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "discussionQuestions",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        15,
+        15,
+        15
+      ]
+    },
+    {
+      "name": "curatorCategoryRequirements",
+      "selector": "[data-source-preamble=\"1.1\"]",
+      "child": "li",
+      "expected": [
+        6
+      ]
+    }
+  ],
+  "preambleHeadingIndexes": [
+    0
+  ],
+  "leadingTextReplacements": {
+    "5.1.31": "Which naturalist’s work is discussed as changing philosophical questions about humanity?",
+    "5.1.46": "Which category is defined by philosophical work on practical problems rather than by an academic job title?"
+  },
+  "responseAppendices": {
+    "2.2": [
+      "<p><strong>Editorial completion of the truncated source:</strong> The original Gemini response ended after three literary examples and omitted the practical category. Two further literary examples complete the requested five:</p><ul><li>Fyodor Dostoevsky — fiction exploring freedom, faith, responsibility, and self-deception.</li><li>Iris Murdoch — novels and philosophical writing examining attention and moral life.</li></ul>",
+      "<p><strong>Practical Philosophers — five examples:</strong> These illustrate philosophical work in practical settings; the examples do not establish that their authors never consciously joined philosophy.</p><ul><li>Peter Singer — arguments about how ethical principles bear on everyday choices.</li><li>Martha Nussbaum — philosophical accounts of human capabilities and political life.</li><li>Kwame Anthony Appiah — examination of identity, obligation, and public ethical questions.</li><li>Cornel West — public reflection joining democratic life, injustice, and moral criticism.</li><li>Sam Harris — public arguments about morality, mind, and belief whose premises remain open to scrutiny.</li></ul>"
+    ]
+  },
+  "joinedParagraphs": {
+    "3.1": [
+      [
+        9,
+        10
+      ]
+    ]
+  },
+  "orderedListStarts": {
+    "2.1": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "2.3": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "3.3": [
+      1,
+      2,
+      3
+    ],
+    "5.1": [
+      1,
+      1
+    ],
+    "5.2": [
+      1,
+      1
+    ],
+    "5.3": [
+      1,
+      1
+    ]
+  },
+  "pageSignals": {
+    "Page form": "Guided discussion",
+    "Best for": "examining who counts as a philosopher and why"
+  }
+}
