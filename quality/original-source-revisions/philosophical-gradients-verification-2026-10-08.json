@@ -1,0 +1,225 @@
+{
+  "reviewedAt": "2026-10-08T13:29:30.146595+00:00",
+  "status": "meaningfully reviewed, revised and source-verified; awaiting whole-batch completion",
+  "pagePath": "/philosophers/philosophical-gradients/",
+  "pageTitle": "Philosophical Gradients",
+  "source": {
+    "type": "complete cached original WordPress conversation",
+    "cache": ".cache/byteseismic-posts-with-content.json",
+    "wordpressId": 12949,
+    "title": "Philosophical Gradients",
+    "url": "http://byteseismic.com/2024/07/12/philosophical-gradients/",
+    "snapshot": "quality/original-source-revisions/philosophical-gradients-wordpress-12949.html",
+    "sha256": "dbdbf232e768070f32d76c972e81facea1eef881492fc6433be225c247416b94",
+    "exactCacheMatch": true,
+    "fullOriginalAndPriorSiteEditionRead": true,
+    "urlTitleAndPromptsMatched": true,
+    "modelLogoOrderVerified": true,
+    "priorSiteEditionUsedOnlyForChrome": "fe88126816fd9f130f9bda5d511c79a1c8b73788"
+  },
+  "originalHeadingTexts": [
+    "What gradients of philosophical thought can we assesses against particular philosophers?",
+    "For each of those gradients, provide at least 5 defined points.",
+    "I intend to populate those gradients with the names of philosophers who hold the views along the gradients. Provide advice on this next step."
+  ],
+  "modelLabels": [
+    "ChatGPT"
+  ],
+  "originalPromptClassification": "Three exact request prompts including original wording and typo.",
+  "responseDecisions": [
+    {
+      "sourceResponse": "1.1",
+      "decision": "Retained all nine subject areas and their three questions each. Distinguished comparison questions from ready-made linear scales; clarified how commitments can vary across works and issues rather than labeling an entire philosopher by one number."
+    },
+    {
+      "sourceResponse": "2.1",
+      "decision": "Retained the original nine five-category groups and all 225 nested definition positions. Corrected conflations including Kant/external reality, James/verificationism, hylomorphism/monism, infinitism/foundationalism, pluralism/relativism, phenomenology/world denial, and fuzzy truth/probability. Explained noncanonical category names and comparison cases. Added nine explicitly editorial five-point scales inside this response because the taxonomy alone did not supply the requested defined gradient points. Defined each measured feature and disallowed treating absence of applicability as a midpoint."
+    },
+    {
+      "sourceResponse": "3.1",
+      "decision": "Retained five research steps, twelve five-name example lists and five next steps. Corrected or flagged Berkeley as a dualism example, Leibniz’s plural monads, Kant’s mixed epistemology, Rorty, Confucius, Rawls and other boundary cases without silently dropping source positions. Added text/date/evidence requirements and distinguished provisional examples from settled placement on the new scales."
+    }
+  ],
+  "verification": {
+    "pagePath": "/philosophers/philosophical-gradients/",
+    "sourceSha256": "dbdbf232e768070f32d76c972e81facea1eef881492fc6433be225c247416b94",
+    "originalPrompts": 3,
+    "originalHeadings": 3,
+    "sourceColumns": 3,
+    "modelResponses": 3,
+    "blocksRetainedVerbatim": 275,
+    "tableCellsExplicitlyRevised": 0,
+    "blocksExplicitlyRevised": 150,
+    "bareAnswersExplicitlyRevised": 0,
+    "promptOrderExact": true,
+    "sourceBlockOrderExact": true,
+    "listAndTableStructuresPreserved": false,
+    "explicitListItemSplits": [],
+    "explicitResponseAppendices": [
+      "2.1"
+    ],
+    "formatChecks": {
+      "nineOriginalSubjectAreas": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "nineOriginalDefinitionGroups": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "allNestedDefinitionLists": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "nineEditorialFivePointScales": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "twelveOriginalFiveNameExamples": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    "sha256": "94a173c9fb071e5ca7e89af3000926412c05090751892f65c3e00a9502138f92"
+  },
+  "negativeControls": [
+    {
+      "case": "remove original prompt",
+      "rejected": true
+    },
+    {
+      "case": "remove original nested definition",
+      "rejected": true
+    },
+    {
+      "case": "remove name example",
+      "rejected": true
+    },
+    {
+      "case": "obsolete edition marker",
+      "rejected": true
+    }
+  ],
+  "sourcesConsulted": [
+    {
+      "label": "Original WordPress conversation, 2024-07-12",
+      "url": "http://byteseismic.com/2024/07/12/philosophical-gradients/"
+    },
+    {
+      "label": "Principles, §§27 and 86",
+      "url": "https://pages.uoregon.edu/rbear/berkeley.html"
+    },
+    {
+      "label": "Prolegomena, §13, Remark II",
+      "url": "https://www.earlymoderntexts.com/assets/pdfs/kant1783.pdf"
+    },
+    {
+      "label": "Essays in Radical Empiricism, “A World of Pure Experience”",
+      "url": "https://www.gutenberg.org/files/32547/32547-h/32547-h.htm"
+    },
+    {
+      "label": "Existentialism Is a Humanism",
+      "url": "https://www.marxists.org/reference/archive/sartre/works/exist/sartre.htm"
+    },
+    {
+      "label": "Monadology, §§1–7 and 78–81",
+      "url": "https://www.andrew.cmu.edu/user/kk3n/80-300/leibniz-monadology.htm"
+    },
+    {
+      "label": "chapter “Naturalistic Dualism”",
+      "url": "https://researchportalplus.anu.edu.au/en/publications/naturalistic-dualism/"
+    },
+    {
+      "label": "Enquiry, §XII",
+      "url": "https://www.gutenberg.org/cache/epub/9662/pg9662-images.html"
+    }
+  ],
+  "remainingConcerns": [
+    "The original taxonomy has overlaps and nonstandard labels. Its category/list positions are intentionally preserved with corrections and caveats; the editorial supplement supplies the actual ordered scales.",
+    "Five-point scales are explicit teaching conventions, not equal intervals, exhaustive historical taxonomies or measurements of entire philosophers. The twelve name lists remain provisional examples requiring issue-specific primary-text placement.",
+    "The verifier reports listAndTableStructuresPreserved=false solely because an explicit response appendix adds nine lists. Every original list and all original item positions remain preserved."
+  ],
+  "browser": {
+    "viewport": [
+      1280,
+      720
+    ],
+    "horizontalOverflow": false,
+    "inspected": "Original prompt/response layout, corrected gradient scale",
+    "mobileTested": false
+  }
+}

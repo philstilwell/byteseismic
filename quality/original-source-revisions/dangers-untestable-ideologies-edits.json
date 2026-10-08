@@ -1,0 +1,231 @@
+{
+  "wordpressId": 927,
+  "pageFile": "philosophical-inquiry/dangers-untestable-ideologies/index.html",
+  "snapshot": "dangers-untestable-ideologies-wordpress-927.html",
+  "sourceSha256": "8abc756ee560ee2011328e3e1476de30e7a85821587b3c685bb6164565fa3e09",
+  "sourceUrl": "http://byteseismic.com/2024/02/22/dangers-untestable-ideologies/",
+  "sourceLabel": "Original WordPress conversation, 2024-02-22",
+  "shellRevision": "fe88126816fd9f130f9bda5d511c79a1c8b73788",
+  "date": "2026-10-08",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "proseSectionHeadingIndexes": [
+    0,
+    2
+  ],
+  "sectionModelLabels": {
+    "1": [
+      "Curator"
+    ],
+    "3": [
+      "Curator"
+    ]
+  },
+  "nonResponseColumns": [
+    "1.1",
+    "3.1"
+  ],
+  "sectionResponseLabels": {
+    "1.1": "Original curator context · retained verbatim",
+    "3.1": "Original curator examples · retained verbatim"
+  },
+  "headings": [
+    "The curator’s five barriers to scrutiny",
+    "How the barriers protect confidence",
+    "The curator’s five promises about this life",
+    "How a concrete promise becomes harder to assess",
+    "The curator redirects attention to insulating tactics",
+    "Longer lists of claims and their protective use",
+    "Two ten-question quizzes with answers at the end",
+    "Two sets of fifteen discussion questions"
+  ],
+  "introHeading": "Original conversation · editorial edition",
+  "intro": "The curator identifies five barriers to scrutiny, then five worldly religious promises, and asks why those promises dissipate when examined. The later correction—“Good, but try again”—redirects both responses toward the believer’s insulating tactics. All eight original headings, including the two curator introductions, and both response tracks are restored in order. The critique concerns how a claim is defended; difficulty of testing is not itself proof of falsity or dishonesty.",
+  "description": "How religious and ideological promises evade scrutiny through shifting meanings, selective evidence, and attacks on doubt, with the original curator correction.",
+  "highlights": [
+    "The curator’s five barriers and five worldly promises remain verbatim in their original positions.",
+    "The decisive question is whether failure can reduce confidence in the promise as originally stated.",
+    "Both response tracks, the corrective follow-up, two ten-question quizzes, and thirty discussion questions are preserved."
+  ],
+  "replacements": {
+    "2.1.0": "The curator’s examples share an asymmetry: favorable experiences support the ideology, while unfavorable experiences are prevented from counting against it. A difficult or unfamiliar claim is not automatically evasive. The issue is whether the defense leaves any route by which criticism could change confidence in the claim.",
+    "2.1.1": "<strong>A Focus on Faith:</strong> The curator targets confidence encouraged beyond the strength of the evidence. If doubt itself becomes a moral failing, the believer gains a reason to protect conviction precisely when reasons for conviction weaken. Faith can mean several things, including ordinary trust; the insulating move occurs when the demand for trust exempts the disputed claim from the checks applied to rival claims.",
+    "2.1.2": "<strong>Promissory Promises and Threats:</strong> A distant reward or punishment can make the consequences of disbelief seem urgent while leaving the underlying claim unverified. Pascal’s wager offers a practical argument about commitment under uncertainty, not empirical proof that its promised outcome exists. Its probabilities, alternatives, and costs still require examination. See <a href=\"https://www.gutenberg.org/files/18269/18269-h/18269-h.htm\">Pensées, §233</a>. Raising the stakes does not by itself raise the probability.",
+    "2.1.3": "<strong>A Focus on Personal Anecdotes:</strong> A vivid success can be real yet unrepresentative. The protective move is to count the success while refusing to collect comparable failures or ask what happens outside the favored practice. Testimony may supply useful evidence or suggest a hypothesis; it becomes an insulating wall when broader comparison is rejected whenever it threatens the preferred conclusion.",
+    "2.1.4": "<strong>Deflection to the Motives of the Doubter:</strong> A critic’s alleged pride or hostility displaces the question of whether the criticism is sound. Motives can matter when assessing testimony or conflicts of interest, but they do not invalidate an independently checkable argument. A useful reply returns to the disputed premise: even if the critic disliked the ideology, would that premise still be false?",
+    "2.1.5": "<strong>The Notion Some Are Never Meant to Understand:</strong> Training can legitimately improve understanding. Insulation begins when eligibility is defined so that every unsuccessful seeker is retrospectively declared unqualified. Ask whether the entry conditions can be stated in advance and whether qualified participants can ever conclude that the claim failed. Otherwise the proposed test presupposes its desired result.",
+    "2.1.6": "These barriers can reinforce one another without being consciously designed. A failed prediction can prompt a faith appeal, followed by a charge of bad motives when someone persists. The concern is the pattern of reasoning, not a diagnosis of every believer’s psychology. Further barriers include moving deadlines, redefining success after the outcome, and treating contrary evidence as proof of a hidden conspiracy. In each case, ask what the defender would accept as a reason to revise the claim.",
+    "2.2.1": "The five barriers can be examined by asking what each does to the route from evidence to revision. Emotional significance, trust, and specialized understanding can be legitimate; the problem is their use to prevent a disputed claim from being assessed.",
+    "2.2.3": "<strong>Appeal to emotion:</strong> A belief’s comfort or importance can be offered in place of reasons for its truth. Feeling reassured is evidence about one’s experience, but not automatically about the proposed cause of that experience.",
+    "2.2.4": "<strong>Shifting the burden of proof:</strong> “You cannot disprove it” is used to avoid supporting the original assertion. A critic who makes an additional factual claim has a burden too; neither side acquires evidence merely from the other’s inability to settle the issue.",
+    "2.2.9": "<strong>Pascal’s Wager:</strong> A possible reward is used to recommend commitment under uncertainty. This is a practical argument with disputed assumptions, not a demonstration that belief has no costs or that one religion’s promised payoff is established.",
+    "2.2.19": "<strong>Controlling access to information:</strong> If only authorities can certify the evidence and only assent qualifies someone to judge it, the evaluation becomes circular. Contrast this with expertise whose methods, results, and errors can be independently examined.",
+    "2.2.21": "The warning concerns the insulating use of these practices, not merely their frequency. Even one ad hominem diversion can avoid a crucial objection, while repeated appeals to relevant expertise may be legitimate. Additional warning signs are a success criterion altered after failure, a deadline repeatedly deferred, and a rule that every criticism confirms persecution. Apply the same standards to a favored secular ideology as to a rival religious one.",
+    "4.1.0": "A promise dissipates when its original success condition is replaced after the result arrives. Keep the actual wording, relevant conditions, comparison, and time period in view. The following five cases examine that retreat; they do not assume every tradition makes the strongest possible version of each promise.",
+    "4.1.1": "<strong>Answered Prayer:</strong> Separate a person’s experience of consolation from a prediction about an observable outcome. The latter can sometimes be studied: the randomized <a href=\"https://escholarship.org/uc/item/9416b8sg\">STEP trial</a> tested specified intercessory prayer and complications after cardiac bypass surgery. Its result concerns that intervention and outcome, not every form of prayer. The insulating move is to advertise a detectable benefit and then declare every possible result an answer, so no outcome can reduce confidence in the advertised benefit.",
+    "4.1.2": "<strong>Divine Protection:</strong> Specify what harm is to be prevented, for whom, and under what conditions. If every injury becomes a hidden form of protection, the promised contrast disappears. A probabilistic claim requires comparison and allowance for uncertainty; one injury does not refute every such claim. No unsupported assertion about equal injury rates among believers and nonbelievers is needed to identify the evasion.",
+    "4.1.3": "<strong>Superior Wisdom:</strong> Better judgment must be distinguished from stronger confidence or agreement with the group. A test might assess a defined decision using standards not chosen merely to favor insiders. A retreat occurs when practical reliability is advertised but “wisdom” is later defined as accepting the doctrine whatever happens. Moral and interpretive reasoning remain discussable even where one numerical measure would be inadequate.",
+    "4.1.4": "<strong>Ability to Perform Miracles:</strong> First establish what happened, then compare explanations. Misreporting, ordinary recovery, unknown causes, and deliberate deception are possibilities to assess in a particular case, not diagnoses to assume. An unexplained event does not identify its cause. The promise weakens when a claimed publicly demonstrable ability becomes something that can never be examined under conditions capable of exposing error.",
+    "4.1.5": "<strong>Divine Guidance on Interpretation:</strong> Personal certainty about a text differs from a dependable way of settling its meaning. Incompatible sincere readings challenge a promise of reliable convergence, though disagreement alone does not prove that every reading is false. The retreat occurs when the proposed guidance is judged genuine only after it delivers the interpretation already approved by the group.",
+    "4.1.6": "A defender can reasonably correct a critic’s misquotation or explain that a promise was conditional from the outset. That differs from adding an unannounced condition after failure. The curator’s objection is preserved: confidence should not be recruited through concrete benefits and then protected through a different, inscrutable claim. Record the change rather than allowing the revised promise to inherit the original claim’s apparent success.",
+    "4.2.0": "The crucial issue is not simply whether a promise sounds less convincing under questioning. It is whether questioning exposes a shift from a clear benefit to a claim compatible with any result. Track that shift across the five promises.",
+    "4.2.2": "<strong>Selective recall:</strong> Remembering apparent answers while failing to record unanswered prayers can distort the comparison. This is a possible source of error, not a finding about every believer.",
+    "4.2.3": "<strong>Competing explanations:</strong> Ordinary causes, coincidence, and personal effort must be compared with the proposed intervention. Merely naming an alternative does not prove it; neither does an unusual outcome eliminate alternatives.",
+    "4.2.4": "<strong>Controlled studies:</strong> Some specified outcomes can be tested, as the <a href=\"https://pubmed.ncbi.nlm.nih.gov/11923793/\">STEP study design</a> illustrates. Private consolation and broad theological claims require different questions. It is incorrect to declare all prayer claims objectively untestable merely because prayer is personal.",
+    "4.2.6": "<strong>Scope of protection:</strong> Harm challenges a promise of unconditional protection from that harm. The broader problem of evil requires further premises about power, goodness, and permitted suffering; it is not settled by silently substituting a stronger promise for the one actually made.",
+    "4.2.8": "<strong>Comparative evidence:</strong> A claim of greater protection needs an appropriate comparison group and attention to other differences between groups. If no detectable difference is promised, that limitation should be stated before the claim is used to recruit confidence.",
+    "4.2.10": "<strong>Criteria for wisdom:</strong> Moral or practical judgment cannot simply be dismissed as subjective. Ask what counts as a good judgment and whether the proposed reasons can be assessed by someone who does not already accept the doctrine.",
+    "4.2.11": "<strong>Conflicting claims:</strong> Rival traditions’ incompatible assertions require a method of discrimination. Disagreement alone does not show which claim, if any, is true.",
+    "4.2.12": "<strong>Domain limits:</strong> Expertise in a tradition does not automatically confer superior judgment about unrelated empirical matters. Track the domain in which wisdom was promised.",
+    "4.2.14": "<strong>Event verification:</strong> Examine records, independent testimony, and opportunities for error. A sincere report can be mistaken; sincerity and accuracy are separate questions.",
+    "4.2.15": "<strong>Alternative explanations:</strong> A proposed ordinary cause needs case-specific support. If the event remains unexplained, preserve that uncertainty instead of declaring either a miracle or a debunking by default.",
+    "4.2.20": "<strong>Authority and correction:</strong> An interpreter’s social role can affect which readings are heard. That does not establish a hidden agenda. The assessable issue is whether reasons and contrary evidence can change an authorized interpretation.",
+    "4.2.21": "The pattern becomes clear when the meaning offered before scrutiny differs from the meaning defended afterward. A hypothetical claim of consistently better forecasts cannot be vindicated by redefining failed forecasts as spiritual growth. The new benefit might matter, but it is a new claim.",
+    "4.2.22": "A nonliteral interpretation stated and defended from the outset is not automatically evasive. Preserve the distinction between revising an interpretation for good reasons and rewriting the success condition solely to prevent any possible failure from counting.",
+    "5.1.0": "The curator’s correction changes the task: focus on the defensive moves made when these promises are questioned. For each promise below, identify the original commitment, the insulating move, and the evidential consequence. These are patterns a believer may use, not claims that all believers use them or do so deliberately.",
+    "5.1.3": "<strong>Vague Conditions:</strong> An unfulfilled request is attributed to insufficient faith or wrong timing only after the outcome is known. If faith has no independent measure and every delay remains acceptable, the believer can preserve the promise without exposing it to a failure condition.",
+    "5.1.5": "<strong>Post Hoc Rationalization:</strong> Harm is redescribed as spiritually necessary after protection fails. Meaning found in suffering can be valuable, but it does not establish that the promised prevention of harm occurred. The revised claim must be acknowledged as different.",
+    "5.1.8": "<strong>Subjective Interpretations:</strong> Demonstrably better judgment is replaced by an inward wisdom that outsiders supposedly cannot assess. The question is whether the new meaning was part of the original promise or appeared only after its practical implications were challenged.",
+    "5.1.9": "<strong>Circular Reasoning:</strong> The revelation guarantees the wisdom, while the wisdom is offered as the reason to trust the revelation. Unless some independent support enters, the circle gives the doubter no way to distinguish this claim from a rival circle.",
+    "5.1.11": "<strong>Anecdotal Evidence:</strong> A testimony is accepted as sufficient when favorable, while requests for records or independent checks are treated as irreverent. The asymmetry is the tactic: evidence praised for proving a miracle is denied the possibility of undermining one.",
+    "5.1.14": "<strong>Special Pleading:</strong> Only those with the correct spiritual condition are allowed to judge the interpretation, and that condition is inferred from accepting it. Specialized knowledge is legitimate when its standards are independently assessable; assent-defined eligibility closes the test.",
+    "5.1.16": "The common effect is to preserve confidence while removing the route to correction. A useful response asks the believer to restate the original promise, identify any new condition, and say what would now count against it. This keeps the discussion on the curator’s requested issue: how the defense protects the promise, rather than merely listing reasons to doubt religion.",
+    "5.2.1": "To follow the curator’s correction, examine the conversational move made at the moment scrutiny arrives. The five groups below show how a challenge to a promise can be transformed into a challenge to the critic’s standing.",
+    "5.2.7": "<strong>Emphasis on personal experience:</strong> A private conviction is offered as decisive for a public claim while the critic is denied any means of checking the inference. The experience may be real; its interpretation as fulfillment of this promise remains a further step.",
+    "5.2.9": "<strong>Focus on personal anecdotes:</strong> A favorable story is treated as proof, but comparable unfavorable stories are excluded as irrelevant. Ask why the same standard does not apply in both directions.",
+    "5.2.14": "<strong>De-emphasizing inconvenient aspects:</strong> A previously literal benefit is recast as metaphor only when it fails. A defensible allegorical reading can have independent textual reasons; the concern is a reading adjusted solely to guarantee success.",
+    "5.2.18": "<strong>Creating a sense of persecution:</strong> An evidential question is labeled an attack so that solidarity replaces evaluation. Actual discrimination must still be recognized; its existence would not by itself establish the truth of a disputed promise.",
+    "5.2.19": "A concrete diagnostic is to ask whether any imaginable result could lead the defender to reduce confidence in the original promise. If success confirms it, failure confirms hidden wisdom, and criticism confirms persecution, the procedure is closed to correction. That is an objection to the procedure. It neither establishes the defender’s motives nor automatically disproves every other belief they hold.",
+    "6.1.0": "The list below retains twenty original claim types. Each entry identifies a way the claim can be insulated, rather than assuming that every spiritual expression is evasive. Some versions have testable implications; others express metaphysical or interpretive commitments that require a different kind of argument.",
+    "6.1.1": "<strong>Transcendent Origins:</strong> A claimed divine origin is used to exempt a teaching from human criticism. The origin itself is then accepted on the teaching’s authority, leaving no independent way to examine either claim.",
+    "6.1.2": "<strong>Ultimate Enlightenment Only Through This Path:</strong> Only adherents are allowed to judge the result, while unsuccessful adherents are declared not to have followed the path correctly. Independently stated standards of practice and success would make this claim more assessable.",
+    "6.1.4": "<strong>Invisible Energy Fields and Frequencies:</strong> An alleged influence is said to affect observable outcomes but becomes undetectable whenever independent measurement is proposed. Invisibility alone is no objection; the problem is withdrawing every possible check on the claimed effects.",
+    "6.1.5": "<strong>Cosmic Consciousness:</strong> An experience of connection is interpreted as evidence for a universal mind, and disagreement is attributed to inadequate development. The experience and its metaphysical explanation must be distinguished.",
+    "6.1.6": "<strong>Ancient Hidden Wisdom:</strong> Antiquity and secrecy substitute for an accessible argument. If documents or methods are claimed to exist, their provenance and results can still be investigated; age alone supplies no immunity.",
+    "6.1.7": "<strong>Non-Duality as Ultimate Reality:</strong> Different nondual traditions make different distinctions and offer arguments. The insulating version says that any objection merely proves the critic remains trapped in dualistic thinking, without addressing the objection’s actual content.",
+    "6.1.8": "<strong>Interdimensional Beings and Contact:</strong> Messages allegedly come from an inaccessible realm, while any ambiguity or failed prediction is attributed to human inability to understand. Ask what would distinguish genuine contact from invention or misinterpretation.",
+    "6.1.9": "<strong>Quantum Healing:</strong> Quantum vocabulary is used to give an unspecified healing claim scientific authority, but requests for a mechanism or outcome comparison are dismissed as spiritually insensitive. The terminology itself establishes neither a treatment effect nor its cause.",
+    "6.1.10": "<strong>Synchronicity as Divine Signposting:</strong> A coincidence is interpreted as guidance after it happens. Without prior criteria or a record of nonmatching events, many outcomes can be selected as meaningful after the fact.",
+    "6.1.11": "<strong>Spiritual Ascension to Higher Dimensions:</strong> The promised change is repeatedly postponed or relocated to an unobservable plane. A metaphorical personal transformation must be distinguished from a literal prediction about physical reality.",
+    "6.1.12": "<strong>Chakras and Energy Centers:</strong> Symbolic or contemplative descriptions are used to support a separate claim about physical health, while the health claim is exempted from outcome assessment. Cultural significance does not itself establish the physical claim.",
+    "6.1.13": "<strong>Akashic Records:</strong> Access to a purported universal record is claimed, but the reader supplies no independently checkable information or treats errors as the questioner’s fault. A precise, independently verified prediction would create a different evidential situation.",
+    "6.1.14": "<strong>Past Lives and Reincarnation Karma:</strong> Present misfortune is explained through inaccessible past actions, while no outcome is allowed to count against that explanation. Specific memory claims can be investigated separately; the doctrine does not justify blaming a sufferer without evidence.",
+    "6.1.15": "<strong>Astral Projection and Out-of-Body Experiences:</strong> A compelling experience is treated as proof that perception occurred outside the body. Claims to obtain otherwise inaccessible information can be tested; retreating from those claims after failure changes what the experience is being used to establish.",
+    "6.1.16": "<strong>Sacred Geometry as the Blueprint of Creation:</strong> Selected patterns are presented as signs of cosmic intention while nonmatching cases are ignored. Define the pattern and its predictive consequences before inspecting the evidence.",
+    "6.1.17": "<strong>Channeling Higher Dimensional Entities:</strong> A speaker claims authority from an inaccessible source and treats requests for verification as disrespect. Accuracy, originality, and alternative sources of the message remain relevant checks.",
+    "6.1.18": "<strong>The Law of One and Universal Oneness:</strong> A metaphysical unity claim is defended by saying that disagreement itself is an illusion. That reply must still explain how the claimed unity supports its particular practical or factual conclusions.",
+    "6.1.19": "<strong>Encoded Prophecies in Sacred Texts:</strong> Flexible decoding rules are applied after events so that a match is virtually guaranteed. Fixing the rules and prediction beforehand would expose the claim to a meaningful comparison.",
+    "6.1.20": "<strong>Spiritual Warfare Between Light and Darkness:</strong> Opposition to the claim is itself classified as an attack by hostile forces. If no disagreement can be sincere or evidentially relevant, the narrative blocks correction by definition.",
+    "6.1.21": "The shared danger is not mystery alone. It is the retention of authority or confidence while every possible error signal is reclassified as support. These examples describe possible uses of claims, not a finding that every adherent intends deception or that all versions of each tradition are identical.",
+    "6.2.2": "<strong>Supernatural entities or forces:</strong> A claim is protected by declaring its alleged cause inaccessible while still treating selected observable events as proof. The observable implications remain open to assessment.",
+    "6.2.3": "<strong>Reality and existence:</strong> A metaphysical assertion is repeatedly redefined whenever an objection identifies its consequences. Stable definitions and explicit reasoning can make such a claim discussable even without a laboratory test.",
+    "6.2.4": "<strong>Inherent purpose or meaning:</strong> A purpose is asserted to be undeniable, but every request for reasons is treated as evidence of the critic’s spiritual deficiency. A reasoned claim about purpose is different from this dismissal.",
+    "6.2.8": "<strong>Circular reasoning and confirmation bias:</strong> The ideology supplies the standard used to certify its own evidence, and incompatible observations are excluded. A self-fulfilling prediction is a different mechanism: belief helps produce the outcome, which does not establish the proposed supernatural cause.",
+    "6.2.11": "<strong>Conspiracies and hidden agendas:</strong> Every missing piece of evidence is treated as evidence of a successful cover-up. Real conspiracies can be investigated; the insulating maneuver makes absence and presence of evidence equally confirmatory.",
+    "6.2.12": "<strong>Essentialist and reductionist claims:</strong> A supposed group essence explains both a predicted behavior and its opposite through an added excuse. Reduction or simplification is not inherently evasive; refusing counterexamples is the relevant defect.",
+    "6.2.14": "<strong>Universal moral truths:</strong> A principle is declared beyond criticism simply because it is universal. Universality alone is not an insulation tactic, and cultural disagreement alone does not refute it; inspect the reasons and how objections are handled.",
+    "6.2.15": "<strong>Natural law arguments:</strong> A contested account of natural purposes is treated as self-authenticating, so challenges to the premise are dismissed rather than answered. A developed argument about nature and value must be assessed on its actual premises.",
+    "6.2.16": "<strong>Slippery slope arguments:</strong> A feared chain of events is asserted without examining the links, and demands for evidence are cast as recklessness. A supported account of escalation would be a legitimate argument.",
+    "6.2.20": "<strong>Personal transformation:</strong> Improvement confirms the practice, while deterioration is blamed on insufficient commitment. Define the outcome and track unsuccessful participants as well as success stories.",
+    "6.2.22": "<strong>Foretelling events:</strong> A prediction is made vague enough to fit many outcomes or rewritten after the event. The test is whether a specific interpretation and deadline were fixed in advance.",
+    "6.2.24": "<strong>Apocalyptic narratives:</strong> A failed date becomes a spiritual event or a postponed deadline without reducing confidence. A genuinely revised forecast should acknowledge the earlier failure and explain the new basis.",
+    "6.2.25": "These eighteen entries broaden the range beyond explicitly religious language. An economic, political, or self-improvement movement can use the same protective reasoning. Apply the criterion symmetrically: identify the claim, its offered support, and what response to contrary evidence would permit correction.",
+    "7.1.2": "What term is used here for claims kept resistant to assessment through inaccessible meanings or conditions?<br>A. Empirical Claims<br>B. Inscrutable Claims<br>C. Rational Claims<br>D. Verifiable Claims",
+    "7.1.5": "An exclusive path becomes insulated when failure is always blamed on the seeker and no independent success criterion is allowed. Which original claim type illustrates this?<br>A. Ultimate Enlightenment Only Through This Path<br>B. Ancient Hidden Wisdom<br>C. Quantum Healing<br>D. Sacred Geometry as the Blueprint of Creation",
+    "7.1.9": "A literal promise is reinterpreted as a lesson only after it fails, without independent textual reasons. Which move is illustrated?<br>A. Allegorical reinterpretation used to protect the claim<br>B. Independent corroboration<br>C. A fixed success criterion<br>D. Moral relativism",
+    "7.1.20": "A. Allegorical reinterpretation used to protect the claim; allegory itself is not inherently evasive.",
+    "7.2.3": "What is the problem with shifting the burden of proof?<br>a) The critic is never allowed to make claims<br>b) Inability to disprove a claim is substituted for support for it<br>c) Every claim must be conclusively disproved<br>d) It makes every belief false",
+    "7.2.5": "Which response withdraws a proposed public claim from assessment?<br>a) State the outcome in advance<br>b) Supply an independent comparison<br>c) Declare that only those who already agree can judge it<br>d) Record both successes and failures",
+    "7.2.6": "Which version of a prayer claim is insulated from outcome testing?<br>a) A specified outcome will differ under a stated comparison<br>b) Every possible outcome counts as fulfillment of the same promise<br>c) Participants report a defined experience on a questionnaire<br>d) A claimant acknowledges an unsuccessful prediction",
+    "7.2.9": "What does the absence of expected evidence warrant?<br>a) It always proves a claim false<br>b) It never matters<br>c) Its significance depends on how likely the evidence would be if the claim were true and how well it was sought<br>d) It proves a critic has bad motives",
+    "7.2.10": "Which response turns a conspiracy claim into a barrier to correction?<br>a) Publish records for independent review<br>b) Treat every missing record as proof that the cover-up is perfect<br>c) Compare rival explanations<br>d) Revise the claim when a central record is disproved",
+    "7.2.11": "What is the principal effect of an insulating defense discussed here?<br>a) It necessarily proves deliberate fraud<br>b) It establishes every related belief as false<br>c) It prevents contrary evidence from reducing confidence in the claim<br>d) It makes the claim scientifically verified",
+    "7.2.14": "b) Inability to disprove a claim is substituted for support for it.",
+    "7.2.16": "c) Declare that only those who already agree can judge it.",
+    "7.2.17": "b) Every possible outcome counts as fulfillment of the same promise.",
+    "7.2.20": "c) The significance of missing evidence depends on its expected detectability and the quality of the search.",
+    "7.2.21": "b) Treat every missing record as proof that the cover-up is perfect.",
+    "7.2.22": "c) It prevents contrary evidence from reducing confidence in the claim; this does not establish the defender’s intention.",
+    "8.1.6": "What ethical responsibilities arise when a healing claim is advertised through scientific-sounding language but its promised outcomes are exempted from independent assessment?",
+    "8.1.8": "How can an inaccessible karma explanation for every misfortune affect judgments of responsibility? What separates an argument for the explanation from blaming a sufferer?",
+    "8.1.9": "How can a claim of persecution insulate an ideology from criticism, and how should actual discrimination be distinguished from that defensive use?",
+    "8.1.12": "When a law-of-attraction claim credits success to belief and blames every failure on insufficient belief, what could count against it? How might this affect judgments of personal responsibility?",
+    "7.1.3": "Which of the following is NOT listed as a tactic used by ideologies to shield themselves from critical examination?<br/>A. Selective Attribution<br/>B. Empirical Validation<br/>C. Post Hoc Rationalization<br/>D. Appeal to Complexity",
+    "7.1.4": "The promise of answered prayers is often protected from scrutiny by attributing positive outcomes to divine intervention and negative outcomes to what?<br/>A. Scientific explanations<br/>B. Luck<br/>C. God’s will or a test of faith<br/>D. Natural laws",
+    "7.1.6": "What is used to justify the belief in divine protection despite evidence to the contrary?<br/>A. Logical reasoning<br/>B. Statistical analysis<br/>C. Rationalizations like a divine plan or spiritual growth<br/>D. Empirical evidence",
+    "7.1.7": "Which claim involves the existence of energy fields or vibrations that influence well-being, detectable only to the initiated?<br/>A. Karma Justification<br/>B. Invisible Energy Fields and Frequencies<br/>C. Cosmic Consciousness<br/>D. Quantum Mysticism",
+    "7.1.8": "The use of quantum physics terminology to make unfounded claims about spirituality is referred to as what?<br/>A. Quantum Entanglement<br/>B. Quantum Healing<br/>C. Quantum Mysticism<br/>D. Quantum Theory",
+    "7.1.10": "Which of the following describes the belief that only a select group of people are chosen or enlightened enough to understand the truth?<br/>A. Cultural Superiority or Exceptionalism<br/>B. Chosen People or Elect<br/>C. Persecution Complex<br/>D. Spiritual Warfare",
+    "7.1.11": "The concept of a cosmic database containing all knowledge of human experience and history, accessible only through psychic or spiritual means, is known as what?<br/>A. Astral Projection<br/>B. Akashic Records<br/>C. Sacred Texts with Hidden Meanings<br/>D. Channeling Higher Dimensional Entities",
+    "7.2.2": "Which of the following is NOT a common tactic used by ideologies to shield themselves from criticism?<br>a) Appealing to faith and personal experience<br>b) Employing logical fallacies<br>c) Encouraging open and honest discussion<br>d) Shifting the burden of proof",
+    "7.2.4": "How do ideologies often exploit fear and insecurity?<br>a) By providing clear and objective evidence<br>b) By promoting critical thinking and skepticism<br>c) By using fear-mongering tactics and manipulating anxieties<br>d) By encouraging open dialogue and diverse perspectives",
+    "7.2.7": "What is the strategy of interpreting any criticism as confirmation of the ideology’s claims?<br>a) Moving the goalposts<br>b) Reframing criticisms<br>c) Deference to authority figures<br>d) Appealing to tradition",
+    "7.2.8": "How do ideologies often create a sense of exclusivity and in-group mentality?<br>a) By promoting inclusivity and welcoming diverse viewpoints<br>b) By restricting access to the “true meaning” of the ideology<br>c) By fostering a sense of community and shared values among believers<br>d) By encouraging critical evaluation of the ideology’s claims"
+  },
+  "countChecks": [
+    {
+      "name": "twoVerbatimCuratorLists",
+      "selector": "#prompt-1 .original-response > ul, #prompt-3 .original-response > ul",
+      "child": "li",
+      "expected": [
+        5,
+        5
+      ]
+    },
+    {
+      "name": "fiveOriginalPromiseEntries",
+      "selector": "#prompt-4 [data-source-column=\"1\"] > ol",
+      "child": "li",
+      "expected": [
+        5
+      ]
+    },
+    {
+      "name": "twentySpecificClaims",
+      "selector": "#prompt-6 [data-source-column=\"1\"] > ol",
+      "child": "li",
+      "expected": [
+        20
+      ]
+    },
+    {
+      "name": "eighteenGroupedClaims",
+      "selector": "#prompt-6 [data-source-column=\"2\"] > ul",
+      "child": "li",
+      "expected": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "twoQuizzesAndEndKeys",
+      "selector": "#prompt-7 .original-response > ol",
+      "child": "li",
+      "expected": [
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "thirtyDiscussionQuestions",
+      "selector": "#prompt-8 .original-response > ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    }
+  ],
+  "pageSignals": {
+    "Page form": "Guided discussion",
+    "Best for": "tracking how specific promises are insulated from correction"
+  }
+}

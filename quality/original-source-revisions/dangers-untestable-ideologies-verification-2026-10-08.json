@@ -1,0 +1,183 @@
+{
+  "reviewedAt": "2026-10-08T13:29:30.146595+00:00",
+  "status": "meaningfully reviewed, revised and source-verified; awaiting whole-batch completion",
+  "pagePath": "/philosophical-inquiry/dangers-untestable-ideologies/",
+  "pageTitle": "Dangers: Untestable Ideologies",
+  "source": {
+    "type": "complete cached original WordPress conversation",
+    "cache": ".cache/byteseismic-posts-with-content.json",
+    "wordpressId": 927,
+    "title": "Dangers: Untestable Ideologies",
+    "url": "http://byteseismic.com/2024/02/22/dangers-untestable-ideologies/",
+    "snapshot": "quality/original-source-revisions/dangers-untestable-ideologies-wordpress-927.html",
+    "sha256": "8abc756ee560ee2011328e3e1476de30e7a85821587b3c685bb6164565fa3e09",
+    "exactCacheMatch": true,
+    "fullOriginalAndPriorSiteEditionRead": true,
+    "urlTitleAndPromptsMatched": true,
+    "modelLogoOrderVerified": true,
+    "priorSiteEditionUsedOnlyForChrome": "fe88126816fd9f130f9bda5d511c79a1c8b73788"
+  },
+  "originalHeadingTexts": [
+    "There are many ideologies that avoid scrutiny by positioning the claims behind walls of inscrutability. These walls of inscrutability include but are not limited to the following:",
+    "Provide deeper explanations of these “walls of inscrutability” and any others that are commonly introduced.",
+    "Many religious ideologies contain clear promises to believers in this life. Here are several:",
+    "These promises seem to dissipate under scrutiny, and their scrutinization is often met with one of the tactics described above. Discuss in depth the way these promises seem to dissipate under scutiny.",
+    "Good, but try again, this time focusing more on the tactics of the believer in insulating the promises from scrutiny.",
+    "Create a longer list of inscrutable claims that pervade ideologies that hope to insulate themselves from scrutiny.",
+    "Create a 10-item quiz on the discussion above with answers at the end.",
+    "Provide 15 discussion questions relevant to the discussion above."
+  ],
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "originalPromptClassification": "Six requests plus two exact curator context headings and their verbatim five-item lists.",
+  "responseDecisions": [
+    {
+      "sourceResponse": "2.1",
+      "decision": "Retained the original five barriers and added cases in their source order. Made the criterion whether the claimed support can face a possible correction; distinguished inaccessible experiences from public evidence and conditional faith from an automatically dishonest tactic."
+    },
+    {
+      "sourceResponse": "2.2",
+      "decision": "Retained Gemini’s alternative explanation and additional mechanisms. Qualified motive claims, separated moral criticism from empirical testing, and explained that an authority appeal blocks scrutiny when it replaces reasons or makes disagreement disqualifying."
+    },
+    {
+      "sourceResponse": "4.1",
+      "decision": "Retained the sequence of five this-life promises and their barriers. Replaced unsupported broad outcome comparisons with the need for defined outcomes, relevant comparison groups and stated expectations. Added the distinction between a specified prayer intervention and every possible religious claim."
+    },
+    {
+      "sourceResponse": "4.2",
+      "decision": "Kept the second response’s practical examples and concerns while explaining how reinterpretation removes a failed prediction from possible assessment. Preserved the skeptical challenge without claiming every unmet wish disproves all theology."
+    },
+    {
+      "sourceResponse": "5.1",
+      "decision": "Answered the curator’s exact correction by focusing on believer-side insulation: qualifying eligibility after the outcome, selective reports, reinterpretation and shifted evidential burdens. Preserved the original enumerated tactics and distinguished protective function from proven conscious bad faith."
+    },
+    {
+      "sourceResponse": "5.2",
+      "decision": "Retained the second model’s tactics and application to the promises. Made prospective definitions and revision conditions explicit, so explanations can be assessed for whether they genuinely preserve an assessable claim or evade it."
+    },
+    {
+      "sourceResponse": "6.1",
+      "decision": "Retained all twenty claim positions and their sequence. Clarified what each claim protects and when it obstructs correction. Corrected Pascal’s wager from a purported truth proof or cost-free bet to a practical argument with contested assumptions; distinguished metaphysical and evaluative claims from empirical predictions."
+    },
+    {
+      "sourceResponse": "6.2",
+      "decision": "Retained all six groups of three claims. Added the same assessment criterion across religious and secular ideologies and differentiated a revised forecast that acknowledges error from an ad hoc moving deadline."
+    },
+    {
+      "sourceResponse": "7.1",
+      "decision": "Retained ten quiz questions, option layouts and the ten-entry key at the end. Repaired ambiguous generalizations about negative evidence and the status of inscrutable claims; checked each keyed answer against the revised discussion."
+    },
+    {
+      "sourceResponse": "7.2",
+      "decision": "Retained the second ten-question quiz and end key. Qualified premises that overstate what failed promises show and made the answer alternatives align with the discussion of insulation rather than presumed motives."
+    },
+    {
+      "sourceResponse": "8.1",
+      "decision": "Retained the fifteen discussion-question positions and useful progression from definitions to consequences. Revised questions that assumed every nonempirical claim has the same evidential role; kept the curator’s skeptical priorities."
+    },
+    {
+      "sourceResponse": "8.2",
+      "decision": "Retained fifteen distinct discussion questions and the practical focus on scrutiny and intellectual autonomy. Improved symmetry across ideological contexts and separated demonstrable reasoning tactics from speculation about personal intent."
+    }
+  ],
+  "verification": {
+    "pagePath": "/philosophical-inquiry/dangers-untestable-ideologies/",
+    "sourceSha256": "8abc756ee560ee2011328e3e1476de30e7a85821587b3c685bb6164565fa3e09",
+    "originalPrompts": 8,
+    "originalHeadings": 8,
+    "sourceColumns": 14,
+    "modelResponses": 12,
+    "blocksRetainedVerbatim": 119,
+    "tableCellsExplicitlyRevised": 0,
+    "blocksExplicitlyRevised": 113,
+    "bareAnswersExplicitlyRevised": 0,
+    "promptOrderExact": true,
+    "sourceBlockOrderExact": true,
+    "listAndTableStructuresPreserved": true,
+    "explicitListItemSplits": [],
+    "explicitResponseAppendices": [],
+    "formatChecks": {
+      "twoVerbatimCuratorLists": [
+        5,
+        5
+      ],
+      "fiveOriginalPromiseEntries": [
+        5
+      ],
+      "twentySpecificClaims": [
+        20
+      ],
+      "eighteenGroupedClaims": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "twoQuizzesAndEndKeys": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "thirtyDiscussionQuestions": [
+        15,
+        15
+      ]
+    },
+    "sha256": "9b5efd5c8bb38ec7fd8b28e111e99e13798ba5887ea88630108ae6cdd80d6d46"
+  },
+  "negativeControls": [
+    {
+      "case": "remove exact curator example",
+      "rejected": true
+    },
+    {
+      "case": "remove curator correction",
+      "rejected": true
+    },
+    {
+      "case": "remove end-position quiz answer",
+      "rejected": true
+    },
+    {
+      "case": "obsolete edition marker",
+      "rejected": true
+    }
+  ],
+  "sourcesConsulted": [
+    {
+      "label": "Original WordPress conversation, 2024-02-22",
+      "url": "http://byteseismic.com/2024/02/22/dangers-untestable-ideologies/"
+    },
+    {
+      "label": "Pensées, §233",
+      "url": "https://www.gutenberg.org/files/18269/18269-h/18269-h.htm"
+    },
+    {
+      "label": "STEP trial",
+      "url": "https://escholarship.org/uc/item/9416b8sg"
+    },
+    {
+      "label": "STEP study design",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11923793/"
+    }
+  ],
+  "remainingConcerns": [
+    "The source’s strong skeptical stance and exact curator wording are preserved. Edited responses qualify universal motive and outcome claims; the existence of an insulation tactic does not prove every adherent intentionally deceives.",
+    "A controlled test of a specified prayer intervention does not test all possible prayer or theology. No medical advice or new clinical-effect estimate is offered.",
+    "The primary STEP design abstract was accessible; the original article was corroborated in primary search results, but direct access to the linked repository returned a bot challenge. No claim of successful full-text retrieval or exhaustive review is made."
+  ],
+  "browser": {
+    "viewport": [
+      1280,
+      720
+    ],
+    "horizontalOverflow": false,
+    "inspected": "Exact curator correction and static quizzes/end keys",
+    "mobileTested": false
+  }
+}
