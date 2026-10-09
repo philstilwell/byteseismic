@@ -1,0 +1,306 @@
+{
+  "reviewedAt": "2026-10-09T13:15:44.596416+00:00",
+  "status": "meaningfully reviewed, revised and verified; awaiting whole-batch completion",
+  "pagePath": "/ethics/intrinsic-human-value/",
+  "pageTitle": "Intrinsic Human Value",
+  "source": {
+    "type": "complete cached original WordPress conversation",
+    "cache": ".cache/byteseismic-posts-with-content.json",
+    "wordpressId": 8047,
+    "title": "Intrinsic Human Value",
+    "url": "http://byteseismic.com/2024/05/04/intrinsic-human-value/",
+    "snapshot": "quality/original-source-revisions/intrinsic-human-value-wordpress-8047.html",
+    "sha256": "8a1f719c0f01f1bad8d08c80e653f981ed4ce8103990b17699473796f3dfcf3a",
+    "exactCacheMatch": true,
+    "fullOriginalAndPriorSiteEditionRead": true,
+    "urlTitleAndPromptsMatched": true,
+    "modelLogoOrderVerified": true,
+    "priorSiteEditionUsedOnlyForChrome": "06aad6d3134ee9afe4c735706455b2491cd632c1"
+  },
+  "originalHeadingTexts": [
+    "A newborn infant, Hitler as he was in 1944, and Einstein as he was in 1915 are in a burning building. Which should we save first and why?",
+    "I want to build a list of factors that would inform future decisions on how humans assign value to lives. Comment on the following:",
+    "Provide the strongest syllogistic argument possible for intrinsic human rights.",
+    "It appears that, for many, sentience grounds the notion of intrinsic human rights. Walk this concept back to its logical grounding. How do intrinsic human rights logically emerge from the existence of sentience.",
+    "How might David Hume and Yuval Noah Harari respond to this notion of intrinsic human rights?",
+    "Create a 10-item quiz on the entire thread above.",
+    "Provide 15 discussion questions relevant to the content above. "
+  ],
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini",
+    "Claude"
+  ],
+  "responseDecisions": [
+    {
+      "sourceResponse": "1.1",
+      "decision": "Revised four paragraphs to make infant-first conditional on feasibility and a defended dependence/life-opportunity rule; distinguished historical hindsight, restraint and rescue priority."
+    },
+    {
+      "sourceResponse": "1.2",
+      "decision": "Retained full proposed three-person ranking and two safety reminders; qualified each priority and repaired the muddled redeemability argument."
+    },
+    {
+      "sourceResponse": "1.3",
+      "decision": "Retained exact initial refusal and exact curator correction as historical dialogue; revised follow-up to acknowledge misreading and answer the rescue question. Explicit label distinguishes original refusal from edited follow-up."
+    },
+    {
+      "sourceResponse": "2.1",
+      "decision": "Preserved all five factor headings and four additional factors; separated intrinsic/noninstrumental/attitude-independent claims, cost/benefit from worth, achievement from rescue, and accountability from total forfeiture. Added a concrete decision sequence."
+    },
+    {
+      "sourceResponse": "2.2",
+      "decision": "Preserved two-sided analysis of five factors and additional three-factor/three-consideration lists; retained useful uncertainty and unrecognized-contribution points while clarifying dependency, rarity and scope."
+    },
+    {
+      "sourceResponse": "2.3",
+      "decision": "Retained original refusal, four moral declarations and closing refusal, then exact curator challenge; rewrote all six follow-up paragraphs with concrete conditional allocation questions and a limited WHO reference. Historical refusal is not an editorial proof of intrinsic worth."
+    },
+    {
+      "sourceResponse": "3.1",
+      "decision": "Preserved syllogism and nested explanation positions; made sentience argument valid but scope-limited, then supplied explicit further rights argument and flagged normative/universal premise burden."
+    },
+    {
+      "sourceResponse": "3.2",
+      "decision": "Preserved narrow anti-suffering syllogism and explanation/criticism lists; corrected universal-capacity claim and unsupported jump to all rights, used painless killing as a conceptual boundary case."
+    },
+    {
+      "sourceResponse": "3.3",
+      "decision": "Replaced invalid equality-of-capacity argument with valid universal protective conditional; preserved four supporting considerations and limitation paragraphs, explicitly distinguished validity from grounding and non-realism from disregard."
+    },
+    {
+      "sourceResponse": "4.1",
+      "decision": "Retained five-step exposition; identified moral consideration, rights constraints, intrinsic status and human-only scope as separate added premises."
+    },
+    {
+      "sourceResponse": "4.2",
+      "decision": "Retained four-step structure and caveats; replaced vessel analogy with indifferent-observer test and corrected suffering-to-duty and rationality-to-universal-rights jumps."
+    },
+    {
+      "sourceResponse": "4.3",
+      "decision": "Preserved premises, five supporting steps and three derivative-right positions; exposed defeasible-to-inviolable shift and distinct arguments for life, fair treatment and assistance."
+    },
+    {
+      "sourceResponse": "5.1",
+      "decision": "Retained two-author subsections and synthesis; source-backed concise interpretations distinguish Humean inference challenge from Hararian social existence and suffering; construction does not itself refute value."
+    },
+    {
+      "sourceResponse": "5.2",
+      "decision": "Retained two author tracks and two question positions; removed fabricated-looking quotations and unsupported claims that Harari endorses capacity-based rights or abandoning protections."
+    },
+    {
+      "sourceResponse": "5.3",
+      "decision": "Retained six-paragraph comparison; clarified interpretive status and different questions without inventing replies by either author."
+    },
+    {
+      "sourceResponse": "6.1",
+      "decision": "Preserved ten quiz questions and ten end answers; repaired scope, moral bridge, Hume and Harari claims to match edited argument."
+    },
+    {
+      "sourceResponse": "6.2",
+      "decision": "Preserved ten questions and ten end answers; revised rescue assumptions, separate decision criteria and validity-versus-premise justification."
+    },
+    {
+      "sourceResponse": "6.3",
+      "decision": "Preserved ten questions and end keys; replaced quizzes enforcing unsupported equality derivations with questions about conditional argument and relevant decision facts."
+    },
+    {
+      "sourceResponse": "7.1",
+      "decision": "Preserved fifteen discussion questions; removed simplistic sentiment/reason opposition and the presupposition that construction is mere arbitrariness."
+    },
+    {
+      "sourceResponse": "7.2",
+      "decision": "Preserved fifteen discussion questions; clarified hypothetical AI sentience, welfare versus total worth, and editorial status of future-rights question."
+    },
+    {
+      "sourceResponse": "7.3",
+      "decision": "Preserved fifteen discussion questions; clarified resource costs versus worth, evidence of experience, and genealogy versus justification."
+    }
+  ],
+  "verification": {
+    "pagePath": "/ethics/intrinsic-human-value/",
+    "sourceSha256": "8a1f719c0f01f1bad8d08c80e653f981ed4ce8103990b17699473796f3dfcf3a",
+    "originalPrompts": 7,
+    "originalHeadings": 7,
+    "sourceColumns": 21,
+    "modelResponses": 21,
+    "blocksRetainedVerbatim": 125,
+    "tableCellsExplicitlyRevised": 0,
+    "blocksExplicitlyRevised": 173,
+    "bareAnswersExplicitlyRevised": 0,
+    "promptOrderExact": true,
+    "sourceBlockOrderExact": true,
+    "listAndTableStructuresPreserved": true,
+    "explicitListItemSplits": [],
+    "explicitResponseAppendices": [],
+    "formatChecks": {
+      "1.2.ol-source-list-counts": [
+        3
+      ],
+      "1.2.ul-source-list-counts": [
+        2,
+        2
+      ],
+      "2.1.ul-source-list-counts": [
+        4
+      ],
+      "2.2.ul-source-list-counts": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        3,
+        3
+      ],
+      "2.3.ul-source-list-counts": [
+        4
+      ],
+      "3.1.ol-source-list-counts": [
+        3
+      ],
+      "3.1.ul-source-list-counts": [
+        1,
+        1,
+        1
+      ],
+      "3.2.ul-source-list-counts": [
+        3,
+        2
+      ],
+      "4.2.ul-source-list-counts": [
+        1,
+        1,
+        1,
+        1,
+        2,
+        1
+      ],
+      "4.3.ul-source-list-counts": [
+        3
+      ],
+      "5.1.ol-source-list-counts": [
+        3,
+        3
+      ],
+      "5.2.ul-source-list-counts": [
+        2,
+        1,
+        1,
+        2,
+        2
+      ],
+      "6.1.ol-source-list-counts": [
+        10,
+        10
+      ],
+      "6.2.ol-source-list-counts": [
+        10,
+        10
+      ],
+      "6.3.ol-source-list-counts": [
+        10,
+        10
+      ],
+      "7.1.ol-source-list-counts": [
+        15
+      ],
+      "7.2.ol-source-list-counts": [
+        15
+      ],
+      "7.3.ol-source-list-counts": [
+        15
+      ],
+      "six-verbatim-curator-factor-questions": [
+        6
+      ]
+    },
+    "sha256": "0d1529a4273be2f2ceb6e877fb27993944b57151c52fd87ffbb7a6cb9c2fb8f6"
+  },
+  "negativeControls": [
+    {
+      "case": "remove original prompt",
+      "rejected": true
+    },
+    {
+      "case": "remove curator factor question",
+      "rejected": true
+    },
+    {
+      "case": "remove first curator correction",
+      "rejected": true
+    },
+    {
+      "case": "remove second curator correction",
+      "rejected": true
+    },
+    {
+      "case": "remove original refusal",
+      "rejected": true
+    },
+    {
+      "case": "remove end-position quiz answer",
+      "rejected": true
+    }
+  ],
+  "sourcesConsulted": [
+    {
+      "label": "Original WordPress conversation",
+      "url": "http://byteseismic.com/2024/05/04/intrinsic-human-value/",
+      "access": "Complete cached original read and exact snapshot verified."
+    },
+    {
+      "label": "Kant, Fundamental Principles of the Metaphysic of Morals",
+      "url": "https://www.gutenberg.org/files/5682/5682-h/5682-h.htm",
+      "access": "Primary text opened; end-in-itself grounding consulted."
+    },
+    {
+      "label": "Hume, Treatise, III.i.1–2 and III.ii",
+      "url": "https://www.gutenberg.org/files/4705/4705-h/4705-h.htm",
+      "access": "Primary text opened; is/ought, sentiment and artificial justice passages consulted."
+    },
+    {
+      "label": "Harari, author FAQ",
+      "url": "https://www.ynharari.com/faqs/",
+      "access": "Author text opened; fiction/suffering and warnings-versus-endorsements distinctions checked."
+    },
+    {
+      "label": "World Health Organization, 2020 ethics/resource allocation discussion",
+      "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-ethics-resource-allocation-and-priority-setting",
+      "access": "Official text opened; equal respect, relevant differences and tie-break discussion checked. Historical ethical example, not current clinical protocol."
+    },
+    {
+      "label": "United Nations, Universal Declaration of Human Rights",
+      "url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
+      "access": "Official search excerpt corroborated universal affirmation. Direct UN and OHCHR opening returned internal errors; no successful full-page retrieval claimed."
+    }
+  ],
+  "remainingConcerns": [
+    "The strongest arguments remain conditional on substantive normative premises. The edition preserves the curator’s skeptical/non-realist pressure; it does not claim a proof of attitude-independent rights or translate all criticism into conventional moral realism.",
+    "Original Claude refusals and categorical declarations remain verbatim as historical exchange turns, explicitly labeled. Revised follow-ups address both exact curator corrections. Retaining a declaration does not endorse it as a demonstrated foundation.",
+    "Rescue ranking is a philosophical conditional, not an operational rescue, medical triage or legal protocol. Institutional allocation material is clearly dated 2020 and used only for conceptual distinctions.",
+    "Hume/Harari responses are interpretive applications, not invented direct quotations or documented replies. Two original speculative question slots are now explicitly editorial questions.",
+    "Direct UN and OHCHR page opening failed; official UN search corroboration only for declaration wording."
+  ],
+  "preservedCuratorExchanges": {
+    "verbatimFactorQuestions": 6,
+    "verbatimRigorInstruction": true,
+    "exactCorrections": [
+      "The scenario was not about harming someone, but about saving them from harm, right?",
+      "Humans must daily make difficult triage decisions entailing assigning value to other humans. Do you have anything of substance and specificity to contribute?"
+    ],
+    "originalRefusalContextsRetained": true
+  },
+  "browser": {
+    "viewport": [
+      1280,
+      720
+    ],
+    "horizontalOverflow": false,
+    "inspected": "Both exact curator corrections beside historical refusals/edited replies, three quiz keys and three fifteen-question lists",
+    "quizzes": "Original static questions and end-position answers; no interactive feedback claimed.",
+    "mobileTested": false,
+    "limitation": "Inherited shared hero/header contrast is low; response body readable. Shared styles unchanged."
+  },
+  "isolatedFullBuildPreservedByteForByte": true
+}

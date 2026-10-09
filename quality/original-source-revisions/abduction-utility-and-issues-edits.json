@@ -1,0 +1,324 @@
+{
+  "wordpressId": 1167,
+  "pageFile": "epistemology/abduction-utility-and-issues/index.html",
+  "snapshot": "abduction-utility-and-issues-wordpress-1167.html",
+  "sourceSha256": "578bf8222be295e83048b650cf42e29df9440be35fac5689b68057a95501cd92",
+  "sourceUrl": "http://byteseismic.com/2024/02/25/abduction-utility-and-issues/",
+  "sourceLabel": "Original WordPress conversation, 2024-02-25",
+  "shellRevision": "06aad6d3134ee9afe4c735706455b2491cd632c1",
+  "date": "2026-10-09",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "preambleHeadingIndexes": [
+    0
+  ],
+  "headings": [
+    "Six cases of premature explanatory closure",
+    "Historical corrections and the limits of hindsight",
+    "Leaving room for explanations outside the shortlist",
+    "Two explicit Bayesian examples with an unknown category",
+    "The curator presses the limited value of abduction",
+    "Two seven-question quizzes with answers at the end",
+    "Two sets of fifteen discussion questions"
+  ],
+  "introHeading": "Original conversation · editorial edition",
+  "intro": "The missing-cookie accusation begins a conversation about the gap between an available explanation and a justified conclusion. The seven original prompts and two separate response tracks are retained, including the curator’s challenge to abduction, historical examples, probability exercises, quizzes and discussion questions. The edited responses distinguish proposing an explanation from having enough evidence to believe it or act on it.",
+  "description": "Abduction’s uses and limits: premature accusations, historical corrections, unknown explanations, and two worked Bayesian examples with original quizzes.",
+  "highlights": [
+    "A plausible explanation can guide an investigation without justifying an accusation.",
+    "A later correction does not by itself establish that every earlier believer reasoned irresponsibly.",
+    "An unknown category can expose a missing explanation, but its probability and predictions still need explicit assumptions."
+  ],
+  "replacements": {
+    "1.1.0": "The teacher treats ease of reaching the shelf as evidence of taking the cookies. That may suggest a candidate, but it does not establish that candidate’s guilt: a shorter student could use a chair, students could cooperate, or the teacher could be mistaken about where the cookies were left. Abduction proposes or compares explanations; the error here is converting a weak comparison into punishment. Three further hypothetical cases show the same gap.",
+    "1.1.1": "<strong>Office Coffee Mystery:</strong> A manager finds a pot empty each morning and knows that only the night-shift team entered overnight. The manager accuses them of drinking it. Yet someone on that same team might routinely discard old coffee, or the pot might leak. These alternatives respect the stated access restriction. Asking about the cleaning routine and checking the pot would distinguish consumption from disposal or leakage; access alone does not.",
+    "1.1.2": "<strong>Neighborhood Noise Complaint:</strong> Loud music begins soon after students move into a nearby house, so neighbors blame them. The timing fits, but another resident’s party or a nearby venue could produce the sound. Locating its source while it is audible would add evidence that the stereotype about students does not supply.",
+    "1.1.3": "<strong>Library Book Misplacement:</strong> Several reference books disappear after a researcher’s visits. The librarian suspects theft, although staff might have moved the books or entered their locations incorrectly. Checking the catalogue, reshelving area and access records tests the alternatives. Even if theft becomes the leading hypothesis, identifying a thief requires additional evidence.",
+    "1.1.4": "Each case separates a useful lead from a warranted accusation. The comparison must ask what the evidence would look like under plausible alternatives, not merely whether one story can accommodate it. The cost of being wrong also matters: a reason to ask a question is not automatically a reason to impose a penalty.",
+    "1.2.1": "<strong>The case of the missing phone:</strong> You remember leaving your phone on the nightstand; only your partner was in the room with you. Accusing them ignores possibilities consistent with that restriction: your memory is mistaken, the phone fell, or you moved it while half asleep. Calling the phone or checking the bedding could discriminate among these explanations. An imagined extra visitor would instead contradict the stated premise.",
+    "1.2.2": "<strong>The crying baby:</strong> You hear crying and treat hunger as certain, overlooking a wet diaper, temperature or a desire for attention. The lesson is about certainty, not a prohibition on making a reasonable first response. A tentative explanation can guide a check while remaining open to other causes; crying alone does not uniquely identify hunger.",
+    "1.2.4": "These everyday cases vary in stakes. A wet sidewalk may justify carrying an umbrella even when rain remains uncertain; an accusation needs stronger grounds. Considering alternatives need not mean listing every imaginable story. It means resisting the claim that the first plausible story has already defeated relevant rivals.",
+    "2.1.0": "The requested cases illustrate incomplete explanatory menus, with an important qualification: being later shown false is not the same as having been unjustified on the evidence then available. Nor was there always one uncontested “best” explanation. The warranted criticism is often excessive confidence, neglect of anomalies, or refusal to investigate alternatives. These three histories show how new distinctions and evidence changed the comparison.",
+    "2.1.1": "<strong>Phlogiston Theory:</strong> Phlogiston accounts treated combustion as the loss of a principle from combustible material. Lavoisier’s measurements instead connected metal calcination with the uptake of part of the air. In <a href=\"https://www.gutenberg.org/files/30775/30775-h/30775-h.htm\">Elements of Chemistry, Part I, Chapters II–III</a>, measured changes in metal and air support a different material account. The lesson is not that earlier investigators had no evidence, but that a familiar framework could misidentify what was entering or leaving the system. Discriminating measurements were more useful than simply calling one account elegant.",
+    "2.1.2": "<strong>Geocentric Models:</strong> Ptolemaic astronomy could represent retrograde planetary motion using epicycles; it did not simply fail to notice or explain it. New observations and models altered which accounts remained viable. The <a href=\"https://catalogue.museogalileo.it/indepth/PhasesVenus.html\">phases of Venus</a> challenged the Ptolemaic arrangement, but also fitted Tycho Brahe’s system with a stationary Earth. Thus one observation could eliminate a particular model without uniquely proving Earth’s motion. Treating the historical alternatives as only “Ptolemy or modern astronomy” would repeat the very error under discussion.",
+    "2.1.3": "<strong>Miasma Theory of Disease:</strong> Associations among foul environments and illness could suggest that bad air caused an outbreak, while overlooking contaminated water or another route. In <a href=\"https://epi-snow.ph.ucla.edu/Stream3_GrandExperiment_a.html\">On the Mode of Communication of Cholera (1855), pp. 55–98</a>, John Snow compared cholera mortality under different water supplies. Such evidence could discriminate between routes before a complete microbial account was established. It would be inaccurate to describe all earlier thought as miasmatic, all disease as infectious, or the transition as one decisive discovery.",
+    "2.1.4": "These are cases of correction rather than a proof that abduction always lacked justification. A theory’s superiority within a limited comparison does not settle its absolute credibility. Confidence should also reflect the alternatives available, unexplained observations and the quality of tests capable of separating competing accounts.",
+    "2.2.0": "The same caution applies to the following three examples. They preserve the original historical sequence, while distinguishing a broad framework’s limitations from a precise experiment’s result. A later explanation may reveal what an earlier account missed without showing that every earlier inference was unreasonable.",
+    "2.2.2": "The four-humor framework explained health and disease through the mixture or imbalance of blood, phlegm, yellow bile and black bile. It could organize observed symptoms without establishing that the posited imbalance was their cause. Its displacement involved many developments in anatomy, physiology and pathology, not germ theory alone. Microbial explanations addressed many infectious illnesses; they did not provide a single replacement explanation for every form of illness. The epistemic lesson is to ask what independently tests a proposed hidden mechanism, rather than mistaking the ability to redescribe symptoms for such a test.",
+    "2.2.4": "Ptolemaic models used epicycles to account for apparent backward planetary motion. A moving Earth offered a different geometrical explanation, and later observations and refinements changed the balance of support. Yet the phases of Venus were also compatible with Tycho’s stationary-Earth arrangement. The correction is therefore more subtle than “an obvious observation finally defeated an inexplicable old model”: evidence must be compared across the actual surviving alternatives, some of which may be unfamiliar to the reader.",
+    "2.2.6": "Organisms appearing in decaying material invited the idea that they arose spontaneously there. Pasteur’s <a href=\"https://www.pasteur.fr/en/about-us/middle-years-1862-1877\">swan-neck flask experiments</a> separated contact with air from contamination carried by particles: heated broth could remain unaltered while air entered through a neck that trapped dust. This supplied a test of contamination as an alternative explanation. Its scope was growth in those experimental conditions; it did not establish that life could never originate through nonliving chemistry under any conditions, including those of the early Earth.",
+    "2.2.7": "The useful historical question is what new observation or intervention separated the explanations. Replacing one satisfying narrative with another would not be enough. These cases support openness to mechanisms not yet recognized and caution about retrospective claims that a rejected theory was always obviously irrational.",
+    "3.1.0": "If A and B are the only explanations considered, probabilities assigned within that shortlist answer “which is more plausible, assuming one of these is correct?” They need not answer “how likely is A to be correct at all?” Suppose, purely illustratively, A has probability 0.5, B has 0.3, and neither has 0.2. A receives 62.5% of the probability conditional on A-or-B, but only 50% overall. Reserving a remainder prevents that conditional ranking from masquerading as confidence in a complete explanation.",
+    "3.1.1": "<strong>Acknowledgment of Incomplete Knowledge:</strong> Define U as “none of the specified accounts adequately explains this event,” including missing mechanisms or combinations excluded by the listed models. U need not name the unknown cause. If the listed accounts overlap, first distinguish them or model their combinations; probabilities of overlapping causes cannot simply be added as if they were exclusive alternatives.",
+    "3.1.3": "<strong>Prevention of Overconfidence:</strong> A can outperform B while both predict the evidence badly. Repeated surprises should prompt a check of the whole comparison, rather than a forced choice between its members. Conversely, one anomalous observation might reflect measurement error, so the error process belongs in the comparison too.",
+    "3.1.4": "<strong>Enhanced Decision Making:</strong> Test whether a decision changes when the probability of U varies across plausible values. If a small change reverses the preferred action, the result depends heavily on confidence that the shortlist is complete. That is a reason to investigate further or favor an option that remains acceptable across several assumptions.",
+    "3.1.6": "This is a discipline of model incompleteness, not a rule to attach a precise positive percentage to every imaginable possibility. An exhaustive logical partition may already leave nothing outside it. Where the explanation set is substantively incomplete, a remainder, probability range or explicit sensitivity analysis can acknowledge that fact. Updating U numerically also requires a defensible account of how expected the evidence is under U; its being unknown does not make 50%, or any other likelihood, automatic.",
+    "3.2.0": "Failing to allow for unconsidered explanations can turn a provisional shortlist into a false claim of completeness. The danger is especially clear when the observations are unlikely under every listed model: a forced winner may still be a poor explanation. Four consequences follow.",
+    "3.2.5": "Leaving room for U, the category outside the specified accounts, can help address these problems. U is a reminder to enlarge the inquiry, not a rival mechanism with a free explanatory advantage:",
+    "3.2.7": "<strong>Improves Risk Assessment:</strong> Compare decisions under several assumed sizes and predictive behaviors of U. A probability reserve alone does not reveal which unexpected event will occur or measure its cost; it exposes how much a conclusion depends on the current models being adequate.",
+    "3.2.9": "A remainder is useful only when it changes the reasoning: seek observations that all current models struggle with, consider revised or combined explanations, and report how sensitive the conclusion is to the missing possibilities. There is no universal percentage for ignorance. Giving U a number without explaining its assumptions can merely replace one form of overconfidence with another.",
+    "4.1.0": "No single probability distribution would have been appropriate for all people, places and illnesses before germ theory. To make the requested analysis explicit, consider an imagined outbreak and a reasoner who has entertained an unspecified transmissible living agent without possessing modern germ theory. The following mutually exclusive toy models concern the principal mechanism of that outbreak. They do not estimate historical beliefs, population disease rates or current diagnostic probabilities; combined mechanisms belong in the remainder.",
+    "4.1.1": "For continuity with the original exercise, retain its four starting weights. These are stipulated teaching values, not values justified by an account’s popularity. In particular, the large supernatural weight is not an editorial endorsement:",
+    "4.1.2": "<strong>Living-agent hypothesis G: 10%.</strong> An already imagined microscopic or otherwise unseen reproducing agent transmits this outbreak. If this idea had genuinely never been conceived, it would instead lie inside U until the model was expanded.",
+    "4.1.3": "<strong>Miasma model M: 45%.</strong> A specified harmful-air mechanism, without transmission by a living agent, explains the outbreak.",
+    "4.1.4": "<strong>Demonic model D: 30%.</strong> A stipulated rival account with fixed predictions about physical interventions. An unrestricted claim that a demon could produce any outcome supplies no numerical likelihood by itself.",
+    "4.1.5": "<strong>Other or unperceived explanations U: 15%.</strong> None of G, M or D as specified is adequate, including unmodeled combinations. The four prior weights sum to 100%.",
+    "4.1.6": "Bayesian updating multiplies each prior weight by a likelihood: the probability of the specified evidence if that model were correct. These products are then divided by their total to give posterior probabilities. A high likelihood is not itself a high posterior; the starting weights and competing models also matter.",
+    "4.1.7": "Let E be an imagined, repeatable pattern in which material from affected cases transmits the condition under controlled comparison, while a treatment that neutralizes the suspected agent prevents transmission. This is a teaching scenario, not a reconstruction of an actual early experiment. Simply seeing bacteria through a microscope would be much weaker evidence: microbes can exist without causing the condition. Stipulate these likelihoods:",
+    "4.1.8": "<strong>P(E | G) = 0.90.</strong> Under this specified living-agent model, the experimental pattern is strongly expected.",
+    "4.1.9": "<strong>P(E | M) = 0.10.</strong> The specified air-only model makes that pattern relatively unexpected, allowing for experimental error or other modeled complications.",
+    "4.1.10": "<strong>P(E | D) = 0.05.</strong> This is an explicit assumption about the restricted toy model, not a number inferred from the word “demonic.” Different predictions would require a different calculation.",
+    "4.1.11": "<strong>P(E | U) = 0.50.</strong> This is a provisional summary assumption about the unmodeled possibilities, not the probability dictated by ignorance. Its uncertainty must be examined separately.",
+    "4.1.12": "For mutually exclusive and exhaustive models Hᵢ, with positive total evidence probability, Bayes’ rule is:",
+    "4.1.13": "<strong>P(Hᵢ | E) = P(E | Hᵢ) × P(Hᵢ) / Σⱼ[P(E | Hⱼ) × P(Hⱼ)].</strong> The denominator adds the prior-times-likelihood products for all models, including U.",
+    "4.1.14": "The unnormalized weights are G: 0.090, M: 0.045, D: 0.015 and U: 0.075, totaling 0.225. Dividing by that total gives G: <strong>40.00%</strong>, M: <strong>20.00%</strong>, D: <strong>6.67%</strong> and U: <strong>33.33%</strong>, rounded to two decimals. G rises from 10% and leads the named accounts, yet remains below 50% overall. U rises too: the evidence is more expected under its stipulated likelihood than under the prior mixture as a whole.",
+    "4.1.15": "The sensitivity is substantial. Holding the other assumptions fixed but changing P(E | U) from 0.50 to 0.10 gives G about 54.55%; changing it to 0.90 gives G about 31.58%. The arithmetic is exact conditional on the inputs, but the inputs are not historical measurements. If a previously unimagined account is later articulated, revising the model can allocate part of U to it; ordinary updating inside a fixed model cannot revive a hypothesis to which that model assigned zero probability.",
+    "4.2.1": "A second toy exercise starts before the reasoner has named a microbial mechanism. For one imagined outbreak, distinguish the five specified accounts below from all other accounts U. Treat each named model as excluding the others’ principal mechanism; mixed or inadequately specified cases fall within U. This bookkeeping assumption is essential because real illness can have several interacting causes. The numbers illustrate a coherent analysis, not what historical people actually believed or should universally have believed.",
+    "4.2.3": "<strong>Miasma: 35%.</strong> A specified harmful-air mechanism explains this outbreak.",
+    "4.2.4": "<strong>Humoral Imbalance: 25%.</strong> The specified mechanism is an internal imbalance, without a shared external source.",
+    "4.2.5": "<strong>Dietary Factors: 20%.</strong> A harmful substance in something consumed causes this outbreak; this model does not yet posit a reproducing agent.",
+    "4.2.6": "<strong>Divine Punishment: 5%.</strong> A restricted account with stated predictions about this outbreak. The percentage is stipulated, not inferred from historical religious prevalence.",
+    "4.2.7": "<strong>Demons/Evil Spirits: 5%.</strong> A separate restricted supernatural account, again assigned a teaching weight rather than an evidenced historical frequency.",
+    "4.2.8": "<strong>Other or unperceived explanations U: 10%.</strong> These six weights total 100%. The source exercise’s named accounts already totaled 100% before its additional 10% for U; the revised distribution corrects that inconsistency.",
+    "4.2.9": "To show how the comparison works, suppose E is a reliable difference in outbreak rates between otherwise similar groups receiving different drinking water. Stipulate likelihoods of 0.10, 0.10, 0.40, 0.20, 0.20 and 0.60 in the order above. These assumptions express predictions of the restricted toy accounts; they cannot be read directly from broad labels such as “divine punishment.” The resulting comparison is:",
+    "4.2.10": "<strong>Miasma:</strong> 0.35 × 0.10 = 0.035. A water-linked difference is relatively unexpected under the stipulated air-only model.",
+    "4.2.11": "<strong>Humoral Imbalance:</strong> 0.25 × 0.10 = 0.025. An internal-only account likewise struggles with this stipulated group difference.",
+    "4.2.12": "<strong>Dietary Factors:</strong> 0.20 × 0.40 = 0.080. A consumed harmful substance offers one possible account of a water-linked pattern, without yet identifying the substance or proving it is nonliving.",
+    "4.2.13": "<strong>Divine Punishment and Demons/Evil Spirits:</strong> Each gives 0.05 × 0.20 = 0.010. If either account were allowed to accommodate every possible outcome without specified probabilities, these likelihoods would have no evidential basis.",
+    "4.2.14": "<strong>Other explanations:</strong> 0.10 × 0.60 = 0.060. The total across all six models is 0.220. Normalization gives approximately 15.91%, 11.36%, 36.36%, 4.55%, 4.55% and 27.27%, respectively. The consumption model leads, but the remainder has gained weight. The observation does not yet identify germs: that more specific mechanism has still to be proposed and tested.",
+    "4.2.16": "These are invented probabilities and restricted models. Changing the priors or the assumed behavior of U can change the result. In particular, halving P(E | U) to 0.30 lowers U’s posterior to about 15.79%; it does not disappear.",
+    "4.2.17": "Broad historical explanations can overlap or make no agreed quantitative predictions. Without resolving those problems, assigning them tidy percentages gives only an appearance of precision.",
+    "4.2.19": "The analysis answers the prompt by keeping an unperceived mechanism within the comparison before naming it. It does not back-project modern certainty into earlier minds. Evidence about a transmission route, evidence for a particular agent and an account of all illness are different achievements; a useful probability exercise keeps their scopes separate.",
+    "5.1.0": "The curator’s strongest criticism concerns abduction used as a stopping rule: “this story explains it best, so further inquiry is unnecessary.” Its value is limited when it ranks a narrow set of weak accounts or offers no independent way to test them. But the examples do not establish how often abduction fails relative to induction; that frequency would require evidence beyond selected cases. The following limitations identify when its conclusions deserve restraint.",
+    "5.1.3": "<strong>No automatic confirmation:</strong> Proposing the most appealing explanation does not independently confirm it. Derive observations that competing accounts predict differently, then investigate them. Empirical tests can strengthen or weaken an explanation; neither a single favorable result nor induction in general guarantees its truth.",
+    "5.1.5": "<strong>Prediction must be earned:</strong> A story fitted after the event may say little about what to expect next. Some explanatory theories do yield strong new predictions, so weak predictive power is not an intrinsic property of all abduction. The relevant question is whether this hypothesis makes informative predictions and survives their examination.",
+    "5.1.6": "Abduction’s practical contribution is to propose or prioritize explanations worth checking. Deduction derives consequences from an account and its assumptions; induction evaluates patterns and how well expectations fare in further cases. These activities often interact rather than occupying three clean stages. The teacher could reasonably investigate access to the shelf, but neither that lead nor a history of tall children taking things would identify this child’s action without case-specific evidence.",
+    "5.2.0": "Over-reliance is most troublesome when the evidence merely fits a hypothesis without favoring it over relevant rivals. That supports the curator’s caution while leaving a specific role for abduction: deciding what to investigate next. Induction has its own vulnerabilities, including biased samples and projecting a past pattern into changed conditions; naming it does not supply a general guarantee of greater reliability.",
+    "5.2.4": "<strong>General rules still need support:</strong> Abduction can propose a general theory, not only an explanation of one event. What it cannot do merely by proposing that theory is establish its reliability across cases. That requires examination of its consequences, evidence and alternatives.",
+    "5.2.7": "<strong>Promotes creative thinking:</strong> Generating an unfamiliar alternative can break the grip of a misleading shortlist. Its novelty is a contribution to inquiry, not evidence that it is correct.",
+    "5.2.8": "<strong>Offers a provisional orientation:</strong> A quick explanation may guide the next observation when time is limited. Returning to the wet sidewalk, checking nearby ground helps distinguish rainfall from a local sprinkler. The cost of error should determine how much investigation an action requires.",
+    "5.2.10": "The useful division of labor is between developing candidates and checking how they perform, while recognizing that a new observation may force both activities to restart:",
+    "5.2.12": "Induction helps assess recurring evidence and whether expectations extend to further cases; deduction can make the expectations of each proposed explanation explicit.",
+    "5.2.13": "Abduction has limited value as an unsupported declaration of truth and substantial value as a way to organize inquiry. Its contribution grows when it produces a discriminating question: what could we observe that would favor this explanation over its nearest rivals? The unknown category matters because even a successful local comparison can leave the larger explanation unsettled.",
+    "6.1.4": "<strong>Question 4:</strong> Which activity is a useful contribution of abduction rather than a guarantee of truth?<br/>A) Proposing a candidate explanation for further comparison<br/>B) Proving that no unconsidered explanation exists<br/>C) Establishing that a familiar story must be correct<br/>D) Making further observation unnecessary",
+    "6.1.6": "<strong>Question 6:</strong> What can well-designed empirical testing contribute?<br/>A) Automatic final confirmation whenever a favored hypothesis fits<br/>B) A guarantee that the current shortlist is exhaustive<br/>C) Evidence that strengthens or weakens hypotheses by comparing their predictions<br/>D) Elimination of the need to state background assumptions",
+    "6.1.7": "<strong>Question 7:</strong> When can an abductive comparison encourage confirmation bias?<br/>A) Whenever it derives a testable prediction<br/>B) When preconceptions control which alternatives and evidence receive attention<br/>C) Whenever it includes more than one explanation<br/>D) Only when its final conclusion is later shown false",
+    "6.1.12": "<strong>Question 4:</strong> A) Proposing a candidate explanation for further comparison; the proposal does not certify itself.",
+    "6.1.14": "<strong>Question 6:</strong> C) Evidence that strengthens or weakens hypotheses by comparing their predictions; the interpretation also depends on assumptions and measurement quality.",
+    "6.1.15": "<strong>Question 7:</strong> B) Preconceptions can control the comparison. Bias is a risk in how abduction is used, not a necessary feature of every explanatory inference.",
+    "6.2.24": "B. It could suggest bad air as an explanation of observed associations; confidence beyond the evidence could then discourage testing rivals.",
+    "6.2.25": "C. It guaranteed that any earlier believer in miasma was irrational.",
+    "6.2.41": "B — A proposed explanation can guide inquiry; treating it as settled can obstruct the comparison with alternatives.",
+    "6.2.34": "B. Use abduction to generate possible approaches, then compare their predictions and test feasible candidates.",
+    "7.1.8": "When does an explanation set need an “other” category, and when might the stated alternatives already form an exhaustive partition? How would that distinction change a probability calculation?",
+    "7.1.10": "What would we need to know about a particular place, time and outbreak before assigning historically justified probabilities to rival illness explanations? Why are the page’s numbers only teaching assumptions?",
+    "7.1.12": "What dangers arise when a promising explanation receives no independent testing? When must action nevertheless precede a decisive test?",
+    "7.1.13": "How can a general explanatory theory yield informative predictions? What separates that achievement from fitting a story to evidence already known?",
+    "7.2.5": "Which biases can affect both abduction and induction, and what procedures could reduce them without claiming to eliminate all bias?",
+    "7.2.11": "What evidence would justify a comparison of reasoning practices across particular cultures or periods, and how could such a comparison avoid treating either as uniform?",
+    "7.2.14": "How does allowing for U change the first Bayesian example? Which assumptions about U’s likelihood would most affect the conclusion?"
+  },
+  "countChecks": [
+    {
+      "name": "1.1.ol-source-list-counts",
+      "selector": "#prompt-1 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        3
+      ]
+    },
+    {
+      "name": "1.2.ol-source-list-counts",
+      "selector": "#prompt-1 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        3
+      ]
+    },
+    {
+      "name": "2.1.ol-source-list-counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        3
+      ]
+    },
+    {
+      "name": "3.1.ol-source-list-counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        5
+      ]
+    },
+    {
+      "name": "3.2.ul-source-list-counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        3
+      ]
+    },
+    {
+      "name": "4.1.ol-source-list-counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        4
+      ]
+    },
+    {
+      "name": "4.1.ul-source-list-counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"1\"] ul",
+      "child": "li",
+      "expected": [
+        4
+      ]
+    },
+    {
+      "name": "4.2.ol-source-list-counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        5
+      ]
+    },
+    {
+      "name": "4.2.ul-source-list-counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        5,
+        3
+      ]
+    },
+    {
+      "name": "5.1.ol-source-list-counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        5
+      ]
+    },
+    {
+      "name": "5.2.ul-source-list-counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "6.2.ol-source-list-counts",
+      "selector": "#prompt-6 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        7,
+        7
+      ]
+    },
+    {
+      "name": "6.2.ul-source-list-counts",
+      "selector": "#prompt-6 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "7.1.ol-source-list-counts",
+      "selector": "#prompt-7 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    },
+    {
+      "name": "7.2.ol-source-list-counts",
+      "selector": "#prompt-7 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    },
+    {
+      "name": "chatgpt-seven-questions-seven-end-answers",
+      "selector": "#prompt-6 .original-response[data-source-column=\"1\"]",
+      "child": "p",
+      "expected": [
+        14
+      ]
+    }
+  ],
+  "responseDecisions": [
+    {
+      "sourceResponse": "1.1",
+      "decision": "Revised all three accusation cases and opening/closing reasoning; fixed the coffee-access contradiction and separated investigative leads from punitive justification."
+    },
+    {
+      "sourceResponse": "1.2",
+      "decision": "Retained the three everyday cases and wet-sidewalk explanation; removed the contradictory extra phone visitor, distinguished tentative baby-care response from certainty, and connected stakes to action."
+    },
+    {
+      "sourceResponse": "2.1",
+      "decision": "Restored three historical cases; distinguished later falsity from past unjustification, qualified phlogiston/geocentrism/miasma histories and added specific evidence and primary/institutional sources."
+    },
+    {
+      "sourceResponse": "2.2",
+      "decision": "Retained humors, geocentrism and spontaneous-generation sequence; repaired epicycles, Tycho alternative, germ-theory scope and the overclaim that Pasteur ruled out all origins of life."
+    },
+    {
+      "sourceResponse": "3.1",
+      "decision": "Retained the five reasons and developed the conditional-versus-overall probability example; defined an exclusive remainder and qualified universal positive-mass/precision claims."
+    },
+    {
+      "sourceResponse": "3.2",
+      "decision": "Retained four dangers and three benefits; developed practical sensitivity/model checking rather than making an unknown bucket self-validating."
+    },
+    {
+      "sourceResponse": "4.1",
+      "decision": "Kept four prior/likelihood list positions and original teaching weights; specified outbreak, exclusive models and discriminating evidence, restored missing formula, calculated posteriors and two sensitivity cases."
+    },
+    {
+      "sourceResponse": "4.2",
+      "decision": "Kept five named accounts, separate unknown category, five rationale items and three caveats; corrected 110% total, supplied explicit Bayesian update and sensitivity case, qualified all historical and supernatural probability claims."
+    },
+    {
+      "sourceResponse": "5.1",
+      "decision": "Answered exact skeptical curator prompt; retained five limitations but separated confirmation from proof, explained general predictive theories and declined unsupported failure-frequency claims."
+    },
+    {
+      "sourceResponse": "5.2",
+      "decision": "Retained three limitations/three strengths/two complementary roles; repaired claim that abduction cannot suggest general rules and replaced vague rapid-diagnosis praise with sidewalk testing."
+    },
+    {
+      "sourceResponse": "6.1",
+      "decision": "Retained seven question/answer positions and keys B B C A B C B; repaired misleading question four, verification overclaim and bias essentialism."
+    },
+    {
+      "sourceResponse": "6.2",
+      "decision": "Retained seven questions, all 28 options and seven end keys; corrected miasma question so original key B now matches a defensible answer, improved final problem-solving option."
+    },
+    {
+      "sourceResponse": "7.1",
+      "decision": "Retained fifteen discussion positions; sharpened questions about unknown categories, historical priors, testing and predictions."
+    },
+    {
+      "sourceResponse": "7.2",
+      "decision": "Retained fifteen discussion positions; improved bias/cultural-comparison questions and tied the unknown-category discussion to the actual calculation."
+    }
+  ],
+  "pageSignals": {
+    "Page form": "Original conversation · editorial edition"
+  }
+}

@@ -1,0 +1,264 @@
+{
+  "reviewedAt": "2026-10-09T13:15:44.149260+00:00",
+  "status": "meaningfully reviewed, revised and verified; awaiting whole-batch completion",
+  "pagePath": "/epistemology/abduction-utility-and-issues/",
+  "pageTitle": "Abduction: Utility and Issues",
+  "source": {
+    "type": "complete cached original WordPress conversation",
+    "cache": ".cache/byteseismic-posts-with-content.json",
+    "wordpressId": 1167,
+    "title": "Abduction: Utility and Issues",
+    "url": "http://byteseismic.com/2024/02/25/abduction-utility-and-issues/",
+    "snapshot": "quality/original-source-revisions/abduction-utility-and-issues-wordpress-1167.html",
+    "sha256": "578bf8222be295e83048b650cf42e29df9440be35fac5689b68057a95501cd92",
+    "exactCacheMatch": true,
+    "fullOriginalAndPriorSiteEditionRead": true,
+    "urlTitleAndPromptsMatched": true,
+    "modelLogoOrderVerified": true,
+    "priorSiteEditionUsedOnlyForChrome": "06aad6d3134ee9afe4c735706455b2491cd632c1"
+  },
+  "originalHeadingTexts": [
+    "One possible flaw in an over-dependence on abductive reasoning is illustrated by the following: A grade school teacher finds the cookies that she placed on a high classroom shelf missing. No one but the students has been in the classroom. She lines the students up against the wall, finds the tallest student who could have most easily reached the cookies, and punishes that child with detention.Introduce 3 other potential scenarios in which raw abductive reasoning may lead to unjustified conclusions.",
+    "Introduce cases in the history of science in which the best explanation (abductive conclusion) available to humans was unjustified due to unperceived explanations that turn out to be the actual explanation.",
+    "Discuss the danger of not leaving a space of probability for explanations not yet included in the set of potential explanations. Explain why, when we assign probabilities to various candidate explanations for a phenomenon, we must also assign a probability to the category of unperceived explanations.",
+    "Provide a theoretical Bayesian analysis of the probabilities of various known explanations and the category of unknown explanations of illness that would have been appropriate for humans prior to germ theory.",
+    "In this discussion, it appears that abduction has limited utility compared to induction, and its over-reliance very often leads to reasoning errors. Discuss the limited value of abduction.",
+    "Create a 7-item quiz on the content above with answers at the end.",
+    "Provide 15 discussion questions based on the content above."
+  ],
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "responseDecisions": [
+    {
+      "sourceResponse": "1.1",
+      "decision": "Revised all three accusation cases and opening/closing reasoning; fixed the coffee-access contradiction and separated investigative leads from punitive justification."
+    },
+    {
+      "sourceResponse": "1.2",
+      "decision": "Retained the three everyday cases and wet-sidewalk explanation; removed the contradictory extra phone visitor, distinguished tentative baby-care response from certainty, and connected stakes to action."
+    },
+    {
+      "sourceResponse": "2.1",
+      "decision": "Restored three historical cases; distinguished later falsity from past unjustification, qualified phlogiston/geocentrism/miasma histories and added specific evidence and primary/institutional sources."
+    },
+    {
+      "sourceResponse": "2.2",
+      "decision": "Retained humors, geocentrism and spontaneous-generation sequence; repaired epicycles, Tycho alternative, germ-theory scope and the overclaim that Pasteur ruled out all origins of life."
+    },
+    {
+      "sourceResponse": "3.1",
+      "decision": "Retained the five reasons and developed the conditional-versus-overall probability example; defined an exclusive remainder and qualified universal positive-mass/precision claims."
+    },
+    {
+      "sourceResponse": "3.2",
+      "decision": "Retained four dangers and three benefits; developed practical sensitivity/model checking rather than making an unknown bucket self-validating."
+    },
+    {
+      "sourceResponse": "4.1",
+      "decision": "Kept four prior/likelihood list positions and original teaching weights; specified outbreak, exclusive models and discriminating evidence, restored missing formula, calculated posteriors and two sensitivity cases."
+    },
+    {
+      "sourceResponse": "4.2",
+      "decision": "Kept five named accounts, separate unknown category, five rationale items and three caveats; corrected 110% total, supplied explicit Bayesian update and sensitivity case, qualified all historical and supernatural probability claims."
+    },
+    {
+      "sourceResponse": "5.1",
+      "decision": "Answered exact skeptical curator prompt; retained five limitations but separated confirmation from proof, explained general predictive theories and declined unsupported failure-frequency claims."
+    },
+    {
+      "sourceResponse": "5.2",
+      "decision": "Retained three limitations/three strengths/two complementary roles; repaired claim that abduction cannot suggest general rules and replaced vague rapid-diagnosis praise with sidewalk testing."
+    },
+    {
+      "sourceResponse": "6.1",
+      "decision": "Retained seven question/answer positions and keys B B C A B C B; repaired misleading question four, verification overclaim and bias essentialism."
+    },
+    {
+      "sourceResponse": "6.2",
+      "decision": "Retained seven questions, all 28 options and seven end keys; corrected miasma question so original key B now matches a defensible answer, improved final problem-solving option."
+    },
+    {
+      "sourceResponse": "7.1",
+      "decision": "Retained fifteen discussion positions; sharpened questions about unknown categories, historical priors, testing and predictions."
+    },
+    {
+      "sourceResponse": "7.2",
+      "decision": "Retained fifteen discussion positions; improved bias/cultural-comparison questions and tied the unknown-category discussion to the actual calculation."
+    }
+  ],
+  "verification": {
+    "pagePath": "/epistemology/abduction-utility-and-issues/",
+    "sourceSha256": "578bf8222be295e83048b650cf42e29df9440be35fac5689b68057a95501cd92",
+    "originalPrompts": 7,
+    "originalHeadings": 7,
+    "sourceColumns": 14,
+    "modelResponses": 14,
+    "blocksRetainedVerbatim": 101,
+    "tableCellsExplicitlyRevised": 0,
+    "blocksExplicitlyRevised": 87,
+    "bareAnswersExplicitlyRevised": 0,
+    "promptOrderExact": true,
+    "sourceBlockOrderExact": true,
+    "listAndTableStructuresPreserved": true,
+    "explicitListItemSplits": [],
+    "explicitResponseAppendices": [],
+    "formatChecks": {
+      "1.1.ol-source-list-counts": [
+        3
+      ],
+      "1.2.ol-source-list-counts": [
+        3
+      ],
+      "2.1.ol-source-list-counts": [
+        3
+      ],
+      "3.1.ol-source-list-counts": [
+        5
+      ],
+      "3.2.ul-source-list-counts": [
+        3
+      ],
+      "4.1.ol-source-list-counts": [
+        4
+      ],
+      "4.1.ul-source-list-counts": [
+        4
+      ],
+      "4.2.ol-source-list-counts": [
+        5
+      ],
+      "4.2.ul-source-list-counts": [
+        5,
+        3
+      ],
+      "5.1.ol-source-list-counts": [
+        5
+      ],
+      "5.2.ul-source-list-counts": [
+        3,
+        3,
+        2
+      ],
+      "6.2.ol-source-list-counts": [
+        7,
+        7
+      ],
+      "6.2.ul-source-list-counts": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "7.1.ol-source-list-counts": [
+        15
+      ],
+      "7.2.ol-source-list-counts": [
+        15
+      ],
+      "chatgpt-seven-questions-seven-end-answers": [
+        14
+      ]
+    },
+    "sha256": "2fdfb24fd721448a360a6598b79c166898f2c6565426c4dddc79c8ee78c22044"
+  },
+  "negativeControls": [
+    {
+      "case": "remove original prompt",
+      "rejected": true
+    },
+    {
+      "case": "remove historical example",
+      "rejected": true
+    },
+    {
+      "case": "remove Bayesian calculation",
+      "rejected": true
+    },
+    {
+      "case": "remove end-position quiz answer",
+      "rejected": true
+    }
+  ],
+  "sourcesConsulted": [
+    {
+      "label": "Original WordPress conversation",
+      "url": "http://byteseismic.com/2024/02/25/abduction-utility-and-issues/",
+      "access": "Complete cached original read and exact snapshot verified."
+    },
+    {
+      "label": "Lavoisier, Elements of Chemistry, Part I Chapters II–III",
+      "url": "https://www.gutenberg.org/files/30775/30775-h/30775-h.htm",
+      "access": "Primary text opened; relevant calcination material consulted."
+    },
+    {
+      "label": "Museo Galileo, Phases of Venus",
+      "url": "https://catalogue.museogalileo.it/indepth/PhasesVenus.html",
+      "access": "Institutional collection explanation opened; Ptolemaic/Tychonic distinction checked."
+    },
+    {
+      "label": "John Snow, On the Mode of Communication of Cholera, pp. 55–98",
+      "url": "https://epi-snow.ph.ucla.edu/Stream3_GrandExperiment_a.html",
+      "access": "Primary work in UCLA historical archive opened; water-supply comparison consulted."
+    },
+    {
+      "label": "Institut Pasteur, 1862–1877",
+      "url": "https://www.pasteur.fr/en/about-us/middle-years-1862-1877",
+      "access": "Institutional account opened; swan-neck contamination experiment checked."
+    },
+    {
+      "label": "Pasteur, On Spontaneous Generation",
+      "url": "https://www.pasteurbrewing.com/on-spontaneous-generation/",
+      "access": "Historical lecture reproduction opened; experimental scope cross-check."
+    },
+    {
+      "label": "Hippocratic corpus, Nature of Man / four humors",
+      "url": "https://www.gutenberg.org/files/72583/72583-h/72583-h.htm",
+      "access": "Primary-text search excerpt consulted alongside source conversation; no full historical literature review claimed."
+    }
+  ],
+  "remainingConcerns": [
+    "The historical cases demonstrate revision and incomplete explanatory comparison, not a measured error rate or that every earlier believer was unjustified.",
+    "Both Bayesian examples are explicitly invented and conditional. Neither priors nor unknown-category likelihoods reconstruct historical belief or current clinical probabilities. Restricted supernatural models only have numerical likelihoods by stipulation.",
+    "Abduction is used broadly for proposing/comparing explanations; the page is not an exhaustive account of Peirce or competing theories of inference to the best explanation.",
+    "Preserved the exact original missing space in detention.Introduce. No source tables or requested dramatic dialogue existed on this page; separate model tracks remain separate."
+  ],
+  "arithmeticVerification": {
+    "firstPosteriorsPercent": [
+      40.0,
+      20.0,
+      6.67,
+      33.33
+    ],
+    "firstAgentPosteriorSensitivityPercent": [
+      54.55,
+      31.58
+    ],
+    "secondPosteriorsPercent": [
+      15.91,
+      11.36,
+      36.36,
+      4.55,
+      4.55,
+      27.27
+    ],
+    "secondUnknownSensitivityPercent": 15.79,
+    "allPriorAndPosteriorSumsExactlyOne": true
+  },
+  "browser": {
+    "viewport": [
+      1280,
+      720
+    ],
+    "horizontalOverflow": false,
+    "inspected": "Seven-prompt navigation, Bayesian formula/posteriors and end-position quiz key",
+    "quizzes": "Original static questions and end-position answers; no interactive feedback claimed.",
+    "mobileTested": false,
+    "limitation": "Inherited shared hero/header contrast is low; response body readable. Shared styles unchanged."
+  },
+  "isolatedFullBuildPreservedByteForByte": true
+}

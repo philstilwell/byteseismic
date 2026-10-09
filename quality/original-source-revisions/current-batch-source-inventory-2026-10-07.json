@@ -4,10 +4,10 @@
   "startIndex": 100,
   "endIndexExclusive": 150,
   "candidateWordPressOriginals": 49,
-  "fullyReviewed": 3,
-  "pendingFullReview": 47,
+  "fullyReviewed": 8,
+  "pendingFullReview": 42,
   "sourceBlocked": 0,
-  "limitation": "Three entries have a complete editorial review. Forty-seven candidate WordPress entries remain pending full review; no batch advancement.",
+  "limitation": "Eight entries have complete substantive review and verification. Forty-two remain pending full review. October 8 completions reconciled from their saved verification records; no batch advancement.",
   "pages": [
     {
       "pagePath": "/philosophers/philosopher-club-membership/",
@@ -60,7 +60,7 @@
       "pagePath": "/philosophers/philosophical-gradients/",
       "pageTitle": "Philosophical Gradients",
       "queueIndex": 103,
-      "status": "pending-full-review",
+      "status": "reviewed-verified",
       "wordpressId": 12949,
       "sourceUrl": "http://byteseismic.com/2024/07/12/philosophical-gradients/",
       "sourceTitle": "Philosophical Gradients",
@@ -75,14 +75,16 @@
       ],
       "wordCount": 4943,
       "fullSourceRead": true,
-      "editorialReviewComplete": false,
-      "nextReviewConcern": "Full source read, no edit/current-edition review completed. Source response 2 offers taxonomy rather than ordered gradients, loses correspondence with response 1, and misdefines several views; response 3 includes Berkeley under dualism. Needs full response-specific repair; do not count source reading as completion."
+      "editorialReviewComplete": true,
+      "verification": "quality/original-source-revisions/philosophical-gradients-verification-2026-10-08.json",
+      "initialReviewConcern": "Full source read, no edit/current-edition review completed. Source response 2 offers taxonomy rather than ordered gradients, loses correspondence with response 1, and misdefines several views; response 3 includes Berkeley under dualism. Needs full response-specific repair; do not count source reading as completion.",
+      "reviewNote": "Initial concerns were addressed in the October 8 full review; see its saved verification record. Reconciled here without counting a fresh review."
     },
     {
       "pagePath": "/philosophical-inquiry/dangers-untestable-ideologies/",
       "pageTitle": "Dangers: Untestable Ideologies",
       "queueIndex": 104,
-      "status": "pending-full-review",
+      "status": "reviewed-verified",
       "wordpressId": 927,
       "sourceUrl": "http://byteseismic.com/2024/02/22/dangers-untestable-ideologies/",
       "sourceTitle": "Dangers: Untestable Ideologies",
@@ -101,14 +103,15 @@
         "Provide 15 discussion questions relevant to the discussion above."
       ],
       "wordCount": 7009,
-      "fullSourceRead": false,
-      "editorialReviewComplete": false
+      "fullSourceRead": true,
+      "editorialReviewComplete": true,
+      "verification": "quality/original-source-revisions/dangers-untestable-ideologies-verification-2026-10-08.json"
     },
     {
       "pagePath": "/philosophy-of-science/observable-regularity/",
       "pageTitle": "Observable Regularities",
       "queueIndex": 105,
-      "status": "pending-full-review",
+      "status": "reviewed-verified",
       "wordpressId": 13901,
       "sourceUrl": "http://byteseismic.com/2024/10/19/observable-regularity/",
       "sourceTitle": "Observable Regularity",
@@ -124,15 +127,16 @@
         "Provide 15 discussion questions relevant to the content above. "
       ],
       "wordCount": 6259,
-      "fullSourceRead": false,
-      "editorialReviewComplete": false,
-      "titleNote": "Site title pluralizes source Observable Regularity; URL slug exact. Candidate only until full response review."
+      "fullSourceRead": true,
+      "editorialReviewComplete": true,
+      "titleNote": "Source title singular; current site plural. Exact source URL/ID/prompts verified during October 8 full review.",
+      "verification": "quality/original-source-revisions/observable-regularity-verification-2026-10-08.json"
     },
     {
       "pagePath": "/epistemology/abduction-utility-and-issues/",
       "pageTitle": "Abduction: Utility and Issues",
       "queueIndex": 106,
-      "status": "pending-full-review",
+      "status": "reviewed-verified",
       "wordpressId": 1167,
       "sourceUrl": "http://byteseismic.com/2024/02/25/abduction-utility-and-issues/",
       "sourceTitle": "Abduction: Utility and Issues",
@@ -150,14 +154,15 @@
         "Provide 15 discussion questions based on the content above."
       ],
       "wordCount": 6332,
-      "fullSourceRead": false,
-      "editorialReviewComplete": false
+      "fullSourceRead": true,
+      "editorialReviewComplete": true,
+      "verification": "quality/original-source-revisions/abduction-utility-and-issues-verification-2026-10-09.json"
     },
     {
       "pagePath": "/ethics/intrinsic-human-value/",
       "pageTitle": "Intrinsic Human Value",
       "queueIndex": 107,
-      "status": "pending-full-review",
+      "status": "reviewed-verified",
       "wordpressId": 8047,
       "sourceUrl": "http://byteseismic.com/2024/05/04/intrinsic-human-value/",
       "sourceTitle": "Intrinsic Human Value",
@@ -175,8 +180,9 @@
         "Provide 15 discussion questions relevant to the content above. "
       ],
       "wordCount": 7807,
-      "fullSourceRead": false,
-      "editorialReviewComplete": false
+      "fullSourceRead": true,
+      "editorialReviewComplete": true,
+      "verification": "quality/original-source-revisions/intrinsic-human-value-verification-2026-10-09.json"
     },
     {
       "pagePath": "/philosophy-of-language/what-is-etymology/",
@@ -1222,5 +1228,5 @@
       "editorialReviewComplete": false
     }
   ],
-  "updatedAt": "2026-10-07T14:01:41.303591+00:00"
+  "updatedAt": "2026-10-09T13:21:13.454068+00:00"
 }
