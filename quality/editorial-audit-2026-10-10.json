@@ -1,0 +1,399 @@
+{
+  "runAt": "2026-10-10T13:10:19.033957+00:00",
+  "modelConfiguration": "Saved automation.toml specifies gpt-6-astra with high reasoning effort. No subagents or separately billed services used.",
+  "status": "partial-current-batch",
+  "savedCursor": {
+    "cycle": 8,
+    "index": 100
+  },
+  "pagesReviewedThisRun": 2,
+  "currentBatchReviewed": 10,
+  "currentBatchPending": 40,
+  "sourceBlocked": 0,
+  "restartedPassSubstantivelyReviewed": 110,
+  "restartedPassNotYetSubstantivelyReviewed": 236,
+  "officialCompletedBatchPages": 100,
+  "officialRemainingPages": 246,
+  "trackerAdvanced": false,
+  "currentBatch": {
+    "startIndex": 100,
+    "endIndexExclusive": 150,
+    "first": "Philosopher Club Membership",
+    "last": "Moral Systems: Required Elements"
+  },
+  "nextPendingPage": "/epistemology/collapsing-epistemological-terms/",
+  "nextBatch": "No subsequent batch activated; complete the forty pending pages in the saved current batch.",
+  "pages": [
+    {
+      "pagePath": "/philosophy-of-language/what-is-etymology/",
+      "sourceSha256": "506a3f9a6f8c32a57138d12b9ab97859f2ac27817108abe6561ca98f62da0928",
+      "originalPrompts": 8,
+      "originalHeadings": 8,
+      "sourceColumns": 16,
+      "modelResponses": 16,
+      "blocksRetainedVerbatim": 132,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 75,
+      "bareAnswersExplicitlyRevised": 0,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "2.1.ol-original-counts": [
+          6
+        ],
+        "2.2.ul-original-counts": [
+          5
+        ],
+        "3.2.ul-original-counts": [
+          2
+        ],
+        "4.1.ol-original-counts": [
+          15
+        ],
+        "4.2.ul-original-counts": [
+          5,
+          2,
+          6,
+          3,
+          3,
+          4,
+          4,
+          2
+        ],
+        "5.1.ol-original-counts": [
+          10
+        ],
+        "5.2.ul-original-counts": [
+          5,
+          3,
+          2,
+          4
+        ],
+        "6.2.ul-original-counts": [
+          2,
+          1,
+          3
+        ],
+        "7.1.ol-original-counts": [
+          10,
+          10
+        ],
+        "7.2.ol-original-counts": [
+          10,
+          10
+        ],
+        "8.1.ol-original-counts": [
+          15
+        ],
+        "8.2.ol-original-counts": [
+          15
+        ]
+      },
+      "sha256": "15a734efe35a9ad3260cf639748ec40fe7ccb71fc6196bf3a9d5e11192996d0e",
+      "verifiedAt": "2026-10-10T13:04:34.722759+00:00",
+      "source": {
+        "cache": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 3007,
+        "sourceUrl": "http://byteseismic.com/2024/03/11/what-is-etymology/",
+        "sourceTitle": "What is Etymology?",
+        "sourceDate": "2024-03-11T21:54:06+00:00",
+        "sourceSnapshot": "quality/original-source-revisions/what-is-etymology-wordpress-3007.html",
+        "sourceSha256": "506a3f9a6f8c32a57138d12b9ab97859f2ac27817108abe6561ca98f62da0928",
+        "exactCacheBytes": true,
+        "urlSlugMatch": true,
+        "titleMatch": true,
+        "originalHeadingTexts": [
+          "Provide a short definition of Etymology.",
+          "What practical advantages are there to understanding the etymologies of terms.",
+          "Provide a clear and interesting account of the etymology for the jacket we call a “blazer”.",
+          "Provide the etymology for the Latin morpheme “cred” and a extensive list of terms in its word family.",
+          "In what fields is a strong foundation in Greek and Latin roots most valuable?",
+          "Discuss the genetic fallacy in respect to etymologies.",
+          "Create a 10-item quiz on the discussion above with answers at the end. ",
+          "Provide 15 discussion questions relevant to the content above. "
+        ],
+        "fullOriginalRead": true,
+        "fullPriorPageRead": true,
+        "baselineType": "Original WordPress conversation; prior reconstructed page used only for site chrome",
+        "attribution": "WordPress header logos identify ChatGPT then Gemini."
+      },
+      "responseDecisions": [
+        {
+          "sourceResponse": "1.1",
+          "decision": "Kept the requested single-sentence length; added changes in word form to the definition."
+        },
+        {
+          "sourceResponse": "1.2",
+          "decision": "Retained the complete short definition and detective-work analogy: accurate, accessible, and proportionate to the request."
+        },
+        {
+          "sourceResponse": "2.1",
+          "decision": "Retained six advantages and their order; qualified root-based inference and language-family claims without turning the response into a warning essay."
+        },
+        {
+          "sourceResponse": "2.2",
+          "decision": "Repaired egregious semantic history, the mind/hands false split and current-use inference; retained five practical advantages."
+        },
+        {
+          "sourceResponse": "3.1",
+          "decision": "Retained three-paragraph Cambridge-to-general-garment progression; documented the colour derivation, separated club founding from coinage and removed a rigid formality hierarchy."
+        },
+        {
+          "sourceResponse": "3.2",
+          "decision": "Retained both original story positions and original illustration; corrected French derivation and marked unsupported ship/uniform particulars rather than claiming equal historical support."
+        },
+        {
+          "sourceResponse": "4.1",
+          "decision": "Preserved fifteen entries; replaced duplicate creditor with a disclosed incredulous entry, explained miscreant’s route and broadened creed beyond religion."
+        },
+        {
+          "sourceResponse": "4.2",
+          "decision": "Preserved eight grouped lists and all 29 entry slots; corrected creditable and furniture histories, replaced unrelated antecedent and unsupported entries explicitly, distinguished English formations from Latin borrowings and removed completeness claim."
+        },
+        {
+          "sourceResponse": "5.1",
+          "decision": "Retained ten fields and original linked reference; limited classical-language claims in linguistics/theology and separated technical vocabulary from expertise."
+        },
+        {
+          "sourceResponse": "5.2",
+          "decision": "Retained five main field groups, nested examples and four benefit entries; removed universal necessity claim and qualified technical interpretation."
+        },
+        {
+          "sourceResponse": "6.1",
+          "decision": "Distinguished genetic and etymological fallacies; corrected nice’s transmission and explained when historical meanings are actually relevant."
+        },
+        {
+          "sourceResponse": "6.2",
+          "decision": "Corrected trivial’s crossroads history and supplied an actual fallacious inference; avoided claiming that any appeal to origins is fallacious."
+        },
+        {
+          "sourceResponse": "7.1",
+          "decision": "Retained ten questions and end-position ten answers; aligned definition and nice question/key with corrected history."
+        },
+        {
+          "sourceResponse": "7.2",
+          "decision": "Preserved ten multiple-choice items and end key; corrected blazer key, trivial history, ambiguous cred answer and credulous/incredulous conflation."
+        },
+        {
+          "sourceResponse": "8.1",
+          "decision": "Retained fifteen discussion questions; made the origin/current-usage distinction and historical-text question more precise."
+        },
+        {
+          "sourceResponse": "8.2",
+          "decision": "Retained fifteen prompts and topical progression; removed false separation of slang from etymology and made misinformation question evidence-seeking."
+        }
+      ],
+      "pageSpecificChecks": {
+        "quizQuestions": [
+          10,
+          10
+        ],
+        "endAnswers": [
+          10,
+          10
+        ],
+        "discussionQuestions": [
+          15,
+          15
+        ],
+        "wordFamilyLists": [
+          15,
+          29
+        ],
+        "originalIllustrationSrcExact": true,
+        "originalReferenceTextAndHrefPreserved": true,
+        "niceQuestionSixAndKeyAligned": true,
+        "multipleChoiceOptionsLineSeparated": true
+      },
+      "remainingConcerns": [
+        "No exhaustive historical proof of every blazer anecdote is claimed; HMS story is marked unestablished. Club history corroborates the colour association, but its earliest-use claim is not adopted. Original image is illustrative, not historical evidence."
+      ],
+      "researchSources": [
+        "https://www.joh.cam.ac.uk/about-us/news-and-research/oldest-rowing-club-in-cambridge-celebrates-two-centuries-of-power-passion-and-prestige",
+        "https://www.merriam-webster.com/dictionary/antecedent",
+        "https://www.merriam-webster.com/dictionary/credence",
+        "https://www.merriam-webster.com/dictionary/credenza",
+        "https://www.merriam-webster.com/dictionary/creditable",
+        "https://www.merriam-webster.com/dictionary/egregious",
+        "https://www.merriam-webster.com/dictionary/miscreant",
+        "https://www.merriam-webster.com/dictionary/trivial",
+        "https://www.oxfordlearnersdictionaries.com/us/definition/english/blazer",
+        "https://www.oxfordlearnersdictionaries.com/us/definition/english/nice"
+      ],
+      "editorialReviewComplete": true
+    },
+    {
+      "pagePath": "/epistemology/avoiding-single-cause-dogmatism/",
+      "sourceSha256": "be24801257817711b698b4701160c8865007e66b6823f39c5e79870a6ae91e08",
+      "originalPrompts": 5,
+      "originalHeadings": 6,
+      "sourceColumns": 11,
+      "modelResponses": 11,
+      "blocksRetainedVerbatim": 91,
+      "tableCellsExplicitlyRevised": 15,
+      "blocksExplicitlyRevised": 79,
+      "bareAnswersExplicitlyRevised": 0,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "2.1.ol-original-counts": [
+          5
+        ],
+        "2.1.ul-original-counts": [
+          7,
+          3
+        ],
+        "2.2.ul-original-counts": [
+          3,
+          3
+        ],
+        "3.1.ul-original-counts": [
+          12
+        ],
+        "3.2.ul-original-counts": [
+          2
+        ],
+        "4.1.ol-original-counts": [
+          5
+        ],
+        "5.1.ol-original-counts": [
+          10,
+          10
+        ],
+        "5.2.ol-original-counts": [
+          10,
+          10
+        ],
+        "6.1.ol-original-counts": [
+          15
+        ],
+        "6.2.ol-original-counts": [
+          15
+        ]
+      },
+      "sha256": "020d5d18488cf43a24f48a1beee0931ae2a47d81f668e646d6ee53e33f957612",
+      "verifiedAt": "2026-10-10T13:04:34.722759+00:00",
+      "source": {
+        "cache": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 5070,
+        "sourceUrl": "http://byteseismic.com/2024/04/03/avoiding-single-cause-dogmatism/",
+        "sourceTitle": "Avoiding Single-Cause Dogmatism",
+        "sourceDate": "2024-04-03T21:41:02+00:00",
+        "sourceSnapshot": "quality/original-source-revisions/avoiding-single-cause-dogmatism-wordpress-5070.html",
+        "sourceSha256": "be24801257817711b698b4701160c8865007e66b6823f39c5e79870a6ae91e08",
+        "exactCacheBytes": true,
+        "urlSlugMatch": true,
+        "titleMatch": true,
+        "originalHeadingTexts": [
+          "The following dialogue, produced by AI Claude, highlights the contrasts between a rational, scientific mind (Randy) and a mind prone to over-simplification (Tom).",
+          "What might be an optimal way for Randy to lay out all of the potential casual factors and the reasonable credences he assigns to each factor in this scenario?",
+          "Create a hypothetical table of the potential causes Tom and Randy might consider to rationally evaluate the issue they are discussing. ",
+          "Are there salient analogies to show that jumping to a single cause is often misguided?",
+          "Create a 10-item quiz on the discussion above.",
+          "Provide 15 discussion questions relevant to the content above. "
+        ],
+        "fullOriginalRead": true,
+        "fullPriorPageRead": true,
+        "baselineType": "Original WordPress conversation; prior reconstructed page used only for site chrome",
+        "attribution": "WordPress header logos identify ChatGPT then Gemini; the first single-cause dialogue is expressly credited to Claude in the curator heading."
+      },
+      "responseDecisions": [
+        {
+          "sourceResponse": "1.1",
+          "decision": "Restored all twenty dialogue turns and preserved all ten Tom turns verbatim; revised Randy’s ten replies to separate rate from jobs, association from causal evidence and a possible dominant cause from unsupported sole-cause certainty. Claude attribution derives from curator heading."
+        },
+        {
+          "sourceResponse": "2.1",
+          "decision": "Preserved the nested method and seven candidate factors; defined threshold propositions, confidence versus effect size, reporting-band conventions, omitted causes and overlapping causal pathways."
+        },
+        {
+          "sourceResponse": "2.2",
+          "decision": "Retained the four-step conversational method, three factors and benefits; removed unsupported confidence labels and automatic bias-free/completeness claims, added concrete comparison and update requirements."
+        },
+        {
+          "sourceResponse": "3.1",
+          "decision": "Restored twelve-row table; retained eleven source percentages as explicit teaching stipulations under newly stated invented evidence conditions. Defined outcome, threshold and confidence target; repaired publicity-based support and explained why overlaps prevent additive causal shares."
+        },
+        {
+          "sourceResponse": "3.2",
+          "decision": "Restored nine-row table, two columns and note positions; made evidence assumptions explicit, repaired seasonal/population interpretation and unexplained uncertainty-to-low-probability inference, left unknown probability unassigned."
+        },
+        {
+          "sourceResponse": "4.1",
+          "decision": "Retained all five analogy topics and list order; distinguished alternative diagnoses from simultaneous causes, and background conditions from causes of a change. Orchestra now explains interaction rather than equal contribution."
+        },
+        {
+          "sourceResponse": "4.2",
+          "decision": "Retained four named analogies and their order; made the car case permit a single diagnosed fault and separated multiple symptoms from multiple causes. Retained effective garden/recipe explanations."
+        },
+        {
+          "sourceResponse": "5.1",
+          "decision": "Retained ten questions and ten end-position answers; corrected correlation-only answer, defined table confidence and replaced overgeneralized analogy inference."
+        },
+        {
+          "sourceResponse": "5.2",
+          "decision": "Retained ten questions and end key; repaired source’s Medium/High contradiction, linked ratings to hypothetical evidence and updated technology/unknown interpretation."
+        },
+        {
+          "sourceResponse": "6.1",
+          "decision": "Retained fifteen questions and topic order; replaced floating recent-events references with dated-study instructions and made single-cause/interaction questions open rather than dogmatic."
+        },
+        {
+          "sourceResponse": "6.2",
+          "decision": "Retained fifteen named discussion questions; improved background/change, prediction/uncertainty and political-bias questions while retaining useful policy and evidence prompts."
+        }
+      ],
+      "pageSpecificChecks": {
+        "dialogueTurns": 20,
+        "tomTurnsVerbatim": 10,
+        "randyTurnsRevised": 10,
+        "tableDataRows": [
+          12,
+          9
+        ],
+        "tableColumns": [
+          2,
+          2
+        ],
+        "quizQuestions": [
+          10,
+          10
+        ],
+        "endAnswers": [
+          10,
+          10
+        ],
+        "discussionQuestions": [
+          15,
+          15
+        ],
+        "sourceHeadingNotRequest": 1,
+        "tableNumbers": "Eleven original percentages explicitly stipulated under invented evidence; not measured estimates or additive contribution shares."
+      },
+      "remainingConcerns": [
+        "No observed economic episode, empirical estimates or computed Bayesian update is claimed. Numerical confidence values are teaching stipulations. Specifying an actual causal model and identification assumptions remains necessary for real-world use."
+      ],
+      "researchSources": [
+        "https://www.bls.gov/cps/cps_htgm.htm"
+      ],
+      "editorialReviewComplete": true
+    }
+  ],
+  "verificationEvidence": "quality/original-source-revisions/batch-verification-2026-10-10.json",
+  "sharedCodeOrStyleChanges": false,
+  "unrelatedChanges": "All 476 inherited modified files and both tracker files remain byte-identical to run start.",
+  "delivery": "Twelve authorized files prepared for commit and push; exact resulting commit and independently verified remote status are recorded in automation memory and the final run response.",
+  "followUp": [
+    "Continue with Collapsing Epistemological Terms; preserve the ten verified editions.",
+    "No source-approval blocker; all 35 approved native baselines remain approved.",
+    "The cause-table percentages are invented teaching stipulations, not observed measurements or calculated posteriors.",
+    "The blazer account does not establish an exact first-use date or authenticate the HMS story.",
+    "Shared header contrast and mobile presentation remain outside this run’s checks."
+  ]
+}

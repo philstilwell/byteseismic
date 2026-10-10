@@ -4,10 +4,10 @@
   "startIndex": 100,
   "endIndexExclusive": 150,
   "candidateWordPressOriginals": 49,
-  "fullyReviewed": 8,
-  "pendingFullReview": 42,
+  "fullyReviewed": 10,
+  "pendingFullReview": 40,
   "sourceBlocked": 0,
-  "limitation": "Eight entries have complete substantive review and verification. Forty-two remain pending full review. October 8 completions reconciled from their saved verification records; no batch advancement.",
+  "limitation": "Ten entries have complete substantive review and verification. Forty remain pending full review. Prior reviews retained without recounting them as fresh work; no batch advancement.",
   "pages": [
     {
       "pagePath": "/philosophers/philosopher-club-membership/",
@@ -188,7 +188,7 @@
       "pagePath": "/philosophy-of-language/what-is-etymology/",
       "pageTitle": "What is Etymology?",
       "queueIndex": 108,
-      "status": "pending-full-review",
+      "status": "reviewed-verified",
       "wordpressId": 3007,
       "sourceUrl": "http://byteseismic.com/2024/03/11/what-is-etymology/",
       "sourceTitle": "What is Etymology?",
@@ -207,14 +207,15 @@
         "Provide 15 discussion questions relevant to the content above. "
       ],
       "wordCount": 4245,
-      "fullSourceRead": false,
-      "editorialReviewComplete": false
+      "fullSourceRead": true,
+      "editorialReviewComplete": true,
+      "verification": "quality/original-source-revisions/what-is-etymology-verification-2026-10-10.json"
     },
     {
       "pagePath": "/epistemology/avoiding-single-cause-dogmatism/",
       "pageTitle": "Avoiding Single-Cause Dogmatism",
       "queueIndex": 109,
-      "status": "pending-full-review",
+      "status": "reviewed-verified",
       "wordpressId": 5070,
       "sourceUrl": "http://byteseismic.com/2024/04/03/avoiding-single-cause-dogmatism/",
       "sourceTitle": "Avoiding Single-Cause Dogmatism",
@@ -231,8 +232,9 @@
         "Provide 15 discussion questions relevant to the content above. "
       ],
       "wordCount": 4203,
-      "fullSourceRead": false,
-      "editorialReviewComplete": false
+      "fullSourceRead": true,
+      "editorialReviewComplete": true,
+      "verification": "quality/original-source-revisions/avoiding-single-cause-dogmatism-verification-2026-10-10.json"
     },
     {
       "pagePath": "/epistemology/collapsing-epistemological-terms/",
@@ -1228,5 +1230,5 @@
       "editorialReviewComplete": false
     }
   ],
-  "updatedAt": "2026-10-09T13:21:13.454068+00:00"
+  "updatedAt": "2026-10-10T13:10:19.033957+00:00"
 }

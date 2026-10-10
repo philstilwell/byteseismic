@@ -1,0 +1,268 @@
+{
+  "wordpressId": 5070,
+  "pageFile": "epistemology/avoiding-single-cause-dogmatism/index.html",
+  "snapshot": "avoiding-single-cause-dogmatism-wordpress-5070.html",
+  "sourceSha256": "be24801257817711b698b4701160c8865007e66b6823f39c5e79870a6ae91e08",
+  "sourceUrl": "http://byteseismic.com/2024/04/03/avoiding-single-cause-dogmatism/",
+  "sourceLabel": "Original WordPress conversation, 2024-04-03",
+  "shellRevision": "df84ce4107e1bff1e2b4a88c68b4a68deff918a3",
+  "date": "2026-10-10",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "Tom and Randy: timing, credit and causal evidence",
+    "Defining what each credence is confidence about",
+    "Two hypothetical cause tables with explicit limits",
+    "Analogies for alternatives, interactions and decisive causes",
+    "Two ten-question quizzes and their answer keys",
+    "Two sets of fifteen discussion questions"
+  ],
+  "introHeading": "Original conversation · editorial edition",
+  "intro": "The original twenty-turn Claude dialogue is followed by separate ChatGPT and Gemini responses, two cause tables, analogies, quizzes and discussion questions. All six original section headings remain, including the curator’s introduction and the wording “casual factors.” The edits preserve the challenge to premature single-cause certainty while allowing evidence to establish a dominant cause. Neither table describes an identified president, country or observed unemployment episode.",
+  "description": "Tom and Randy examine unemployment claims: causal evidence, confidence versus contribution, hypothetical tables, analogies, and the original quizzes.",
+  "replacements": {
+    "1.1.1": "<strong>Randy:</strong> A lower rate could be good news. Let’s check whether more people found work or whether some stopped looking; those changes have different implications.",
+    "1.1.3": "<strong>Randy:</strong> The policies might matter, but the rate alone does not tell us whether they caused the whole drop. I’d keep other plausible contributors open until we compare the evidence.",
+    "1.1.5": "<strong>Randy:</strong> Some policies could have an impact. We should also examine overall demand, changes within industries and the size of the labour force, and ask which changes preceded the drop.",
+    "1.1.7": "<strong>Randy:</strong> That gives us a mechanism to test. Did firms affected by those changes hire more than otherwise similar firms, after accounting for earlier trends and other differences? A simple correlation would not settle the causal question.",
+    "1.1.9": "<strong>Randy:</strong> The timing is relevant, but it is not sufficient. Another change might explain both the timing and the hiring. We need a credible comparison with what would probably have happened without these policies.",
+    "1.1.11": "<strong>Randy:</strong> A policy could be the main cause of a particular change. What we have not established is your stronger claim that it explains all of this one. Naming possible alternatives does not prove they mattered either.",
+    "1.1.13": "<strong>Randy:</strong> Labour economists can help test the proposed mechanisms and comparisons. I’d want to see their assumptions and uncertainty, not accept a conclusion just because an expert or a politician endorses it.",
+    "1.1.15": "<strong>Randy:</strong> Sometimes it is. If the evidence singled out this policy, I’d update toward it. My objection is to treating an appealing explanation as settled before doing that work.",
+    "1.1.17": "<strong>Randy:</strong> I’m willing to give credit. Let’s separate whether a policy helped, how much it helped, and whether it explains the whole fall. Those are three different claims.",
+    "1.1.19": "<strong>Randy:</strong> Then let’s follow the evidence as well as the money: name the policy, the affected firms, the period and a useful comparison. We can state in advance what result would make either of us change our mind.",
+    "2.1.0": "Randy first needs a defined outcome: the unemployment rate in a specified country and period, with comparable measurement. The <a href=\"https://www.bls.gov/cps/cps_htgm.htm\">US Bureau of Labor Statistics</a>, for example, measures unemployed people as a share of the labour force. A falling rate need not mean rising employment if people leave that labour force. He can then organize candidate explanations and confidence as follows:",
+    "2.1.2": "<strong>Economic Policies of the Current Administration:</strong> Name the particular policy, implementation date and affected groups. “Pro-business” is a political description, not an estimate of its employment effect.",
+    "2.1.10": "<strong>High Credence (70–100%):</strong> A chosen reporting band for a clearly specified proposition, justified by evidence and assumptions. The label alone supplies neither; reserve certainty for cases that actually warrant it.",
+    "2.1.11": "<strong>Medium Credence (40–69%):</strong> Another reporting band, not a natural boundary or automatic consequence of disagreement among experts. State why the evidence supports this judgment and how sensitive it is to the model.",
+    "2.1.12": "<strong>Low Credence (0–39%):</strong> Low probability of the specified contribution is different from having little information. Weak information alone does not tell us which numerical probability to assign.",
+    "2.1.13": "<strong>Evidence and Reasoning:</strong> For each candidate, record a mechanism, timing, evidence, a comparison group and an update condition. For example: “Hiring rose more in eligible firms than comparable ineligible firms after the tax change; confidence falls if the groups already had different trends.” A comparison only helps to the extent its assumptions are credible.",
+    "2.1.14": "<strong>Interconnectedness of Factors:</strong> A policy may influence investment, demand and industry hiring in one causal chain. Those labels need not represent separate additive contributions. A diagram of the proposed links can prevent counting one pathway several times.",
+    "2.1.15": "<strong>Conclusion and Recommendations:</strong> Summarize which claims are supported, which remain unresolved and which observations would best discriminate between them. Report confidence and estimated effect size separately. Do not infer that the factor with the highest probability of any contribution necessarily had the largest effect.",
+    "2.1.16": "This method replaces an argument over a single headline with answerable questions. It can support a finding that one cause dominated, several interacted, or the available evidence is insufficient. The rational constraint is responsiveness to evidence, not a requirement to multiply causes.",
+    "2.2.0": "Randy can make a short comparison without pretending to list every possible cause. He should define the outcome, separate confidence from effect size, and explain what evidence would change his judgment.",
+    "2.2.3": "“Tom, the lower unemployment rate is worth investigating. First let’s check employment and labour-force participation, then ask what changed and when.”",
+    "2.2.7": "<strong>Overall Economic Conditions:</strong> Stronger demand could support hiring, but “the economy improved” is partly a description of the outcome. Specify the underlying change and collect evidence before assigning high confidence.",
+    "2.2.8": "<strong>Job Market Trends:</strong> An expanding industry could contribute. Check its size, hiring and losses elsewhere rather than assigning a medium rating from the possibility alone.",
+    "2.2.9": "<strong>Population Changes:</strong> Entries to and exits from the labour force can change the rate. Track both the numerator and denominator before interpreting it as job creation.",
+    "2.2.12": "“For each claim, we need dates, affected groups and a comparison that addresses other differences. Then I can say how confident I am that it contributed and, separately, estimate how large the effect was.”",
+    "2.2.15": "“I’m open to the president’s policies explaining much of the change. I’m also open to little or no effect. We should say what result would move us toward either conclusion.”",
+    "2.2.17": "<strong>Fairness:</strong> Use the same evidential standards for favoured and disfavoured explanations. A list by itself does not remove bias or guarantee completeness.",
+    "2.2.19": "<strong>Openness:</strong> Permit evidence to identify a dominant cause as well as multiple contributors; neither answer is built into the method.",
+    "2.2.20": "Randy now has a plan for improving the explanation. Merely replacing “the president did it” with “it is complicated” would leave the causal question unanswered.",
+    "3.1.0": "<strong>Invented teaching example, not an estimate of a real economy.</strong> Suppose we study a one-year fall in a country’s unemployment rate. For every named row, the proposition is: “Under the specified causal model, this factor’s realized change made the final rate at least 0.1 percentage point lower than it would have been without that change.” The percentages below are stipulated confidence judgments under the imagined evidence described in the notes. They preserve the source’s numerical exercise without pretending publicity or generic plausibility warrants a number. They are not shares of the observed fall, so they need not total 100%. Overlapping causal pathways and interactions require additional modelling before any attribution of shares.",
+    "3.1.1": "Imagined evidence and limitations behind the exercise:",
+    "3.1.2": "<strong>Economic Policies of the Current Administration — 70%:</strong> Suppose the policy preceded a relative hiring increase in eligible firms, with reasonably similar earlier trends but some remaining differences. That hypothetical comparison, not publicity, motivates the stipulated confidence. Other models or failed comparison assumptions could lower it.",
+    "3.1.3": "<strong>Global Economic Conditions — 50%:</strong> Suppose trading partners’ demand improved, but exposure and timing provide only mixed evidence of a contribution large enough to meet the threshold.",
+    "3.1.4": "<strong>Technological Advancements — 50%:</strong> Suppose firms report both automation-related losses and new work. The net contribution to the defined fall is unresolved; this is not a 50% estimate that technology affected any job anywhere.",
+    "3.1.5": "<strong>Population Dynamics — 30%:</strong> Suppose measured labour-force composition changed little, leaving a comparatively weak case for a threshold-sized contribution. If many job seekers instead left the labour force, this judgment would need revision.",
+    "3.1.6": "<strong>Industry Trends — 50%:</strong> Suppose gains in one industry coexist with losses elsewhere. Industry change may also transmit the policy or global-demand effect, so it cannot simply be added as an independent share.",
+    "3.1.7": "<strong>Education and Skills Training — 40%:</strong> Suppose programme completion increased, but placement gains are small or delayed and participant selection remains a concern.",
+    "3.1.8": "<strong>Health and Pandemic Factors — 75%:</strong> Suppose this invented year follows a health disruption and affected sectors show a sizeable reopening rebound. This supplies a reason for the highest stipulated confidence in this particular scenario, not a general ranking for all unemployment changes.",
+    "3.1.9": "<strong>Market and Business Confidence — 60%:</strong> Suppose improved expectations preceded investment and hiring, but confidence may itself reflect anticipated policy or demand changes. Treat it as a possible pathway, not automatically an independent cause.",
+    "3.1.10": "<strong>External Investments and Foreign Trade Policies — 25%:</strong> Suppose the measured changes are modest and concentrated in small sectors. A larger exposure than assumed would call for updating.",
+    "3.1.11": "<strong>Environmental Policies and Sustainability Initiatives — 20%:</strong> Suppose few projects had begun during the specified year and sectoral losses partly offset gains. Later effects remain outside this one-year claim.",
+    "3.1.12": "<strong>Legislative Changes Affecting Labor Markets — 45%:</strong> Suppose the changes affected different groups in conflicting ways and comparison evidence remains inconclusive. Do not count a law again if it is already included in the administration-policy row.",
+    "3.1.13": "<strong>Unknown Causes:</strong> This is a reminder that the shortlist may miss something, not a measurable residual with an automatic probability. Define a proposition about omitted influences and a model for it before assigning a number.",
+    "3.1.14": "The precise values are teaching stipulations, not calculated posteriors. A real inquiry would need evidence sufficient to defend or replace them. Confidence of 75% rather than 70% neither proves a larger effect nor licenses a claim that 75% of the unemployment fall came from that factor.",
+    "3.2.1": "How to read this second, qualitative teaching table:",
+    "3.2.2": "The ratings assume the explicitly imagined observations within each row and use the same threshold proposition as the first table. They are provisional confidence judgments, not effect sizes, observed frequencies or findings about a particular administration.",
+    "3.2.4": "The two-column structure keeps the causes beside their evidence conditions. A useful real-world version would name the data and assumptions underlying each condition. Neither “medium” nor “unknown” substitutes for that work.",
+    "4.1.0": "These analogies expose two different mistakes: choosing one explanation before comparing alternatives, and ignoring contributors that act together. Neither mistake implies that every outcome must have many equally important causes.",
+    "4.1.1": "<strong>The Doctor’s Diagnosis Analogy:</strong> A symptom may fit several competing explanations. Selecting one without the relevant checks resembles crediting a policy from a headline alone. The logical lesson is to compare alternatives; it does not establish that every patient has several simultaneous illnesses.",
+    "4.1.2": "<strong>Cooking a Gourmet Meal Analogy:</strong> Ingredients, technique and timing jointly affect a meal. Yet the question “why was this batch different?” may have a narrower answer: perhaps the oven failed while everything else stayed much the same. Likewise, distinguish the background conditions for employment from the particular cause of a change in its rate.",
+    "4.1.3": "<strong>Orchestra Performance Analogy:</strong> Players, conductor and acoustics jointly shape a performance. A good result does not give each an equal share of credit; nor can removing one essential part reveal a unique percentage attributable to it. Interaction makes a simple pie chart misleading.",
+    "4.1.6": "Use each analogy to ask a concrete question: which alternatives remain, which factors interact, and what changed relative to a comparison? Analogies suggest ways to investigate the economy; they do not provide evidence for the causal weights in either table.",
+    "4.2.4": "If a car will not start, battery, fuel and electrical connections are possible explanations. Checking alternatives need not end in a many-cause diagnosis: a failed battery might be sufficient to explain this episode. The mistake is deciding before checking, not finding a single fault after a good test.",
+    "4.2.8": "A diagnostic judgment distinguishes the evidence observed from the explanation proposed. Several symptoms can support one diagnosis, while one symptom can fit several diagnoses. Likewise, several economic indicators are evidence to assess; they are not automatically several causes of unemployment.",
+    "4.2.9": "The garden and recipe emphasize joint contributions; the car and diagnostic examples emphasize competing explanations. Both help Randy investigate without making complexity itself into a dogma. A decisive single cause remains possible when evidence supports it.",
+    "5.1.3": "What evidence does Randy suggest would help distinguish a policy’s causal effect from coincident hiring changes?",
+    "5.1.5": "Why does Randy say that the timing of a policy change alone cannot establish its effect?",
+    "5.1.7": "Which factor has the highest stipulated confidence in the first hypothetical table, and does that imply the largest effect?",
+    "5.1.8": "What two different causal mistakes do the diagnosis and orchestra analogies illustrate?",
+    "5.1.14": "Compare affected firms with credibly comparable firms, check earlier trends and other changes, and state the assumptions needed to infer what would have happened without the policy.",
+    "5.1.16": "A change that follows a policy can have other explanations; temporal association alone does not distinguish them.",
+    "5.1.18": "Health and Pandemic Factors, at a stipulated 75% under the imagined reopening evidence. Highest confidence of a threshold-sized contribution does not establish the largest effect.",
+    "5.1.19": "Choosing among competing explanations too soon, and overlooking contributors that interact. Considering alternatives does not prove all of them operated.",
+    "5.2.6": "What imagined observation supports the “High” rating for demand conditions in the second table?",
+    "5.2.7": "Why is the technology row “Low” in the second table, and why is mere uncertainty about direction insufficient for a low probability?",
+    "5.2.13": "He asks for comparisons that test the policy claim against alternatives while remaining open to the policy being the dominant cause.",
+    "5.2.16": "A teaching framework that puts candidate causes beside stipulated confidence judgments and imagined evidence conditions, not measured causal shares.",
+    "5.2.17": "Demand rose across several sectors before hiring in the invented scenario. The row still requires a model separating demand from policy and other pathways.",
+    "5.2.18": "Little deployment occurred in the invented period. An uncertain direction alone would not show that the defined threshold contribution was unlikely.",
+    "6.1.2": "How might technological change create some jobs and displace others, and what evidence would establish its net effect over a specified period?",
+    "6.1.6": "How could recovery from a specified health disruption affect the unemployment rate, and what comparison would distinguish that effect from other concurrent changes?",
+    "6.1.10": "Choose a labour-market law and a dated episode. What evidence would distinguish its effect from earlier trends and other changes?",
+    "6.1.12": "When does attributing a change to one cause become premature, and what evidence could justify concluding that one cause dominated?",
+    "6.1.13": "Using the orchestra analogy, explain why confidence that several factors contributed need not divide into shares totalling 100%.",
+    "6.2.4": "<strong>Economic Complexity:</strong> How would you distinguish background conditions, interacting contributors and a dominant cause of a particular change?",
+    "6.2.7": "<strong>The Limits of Prediction:</strong> How can a useful probabilistic prediction differ from certainty about a policy’s effect?",
+    "6.2.12": "<strong>Beyond Politics:</strong> What shared evidence standard and advance update conditions could reduce political bias without pretending it disappears automatically?"
+  },
+  "countChecks": [
+    {
+      "name": "2.1.ol-original-counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        5
+      ]
+    },
+    {
+      "name": "2.1.ul-original-counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"1\"] ul",
+      "child": "li",
+      "expected": [
+        7,
+        3
+      ]
+    },
+    {
+      "name": "2.2.ul-original-counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "3.1.ul-original-counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"1\"] ul",
+      "child": "li",
+      "expected": [
+        12
+      ]
+    },
+    {
+      "name": "3.2.ul-original-counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        2
+      ]
+    },
+    {
+      "name": "4.1.ol-original-counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        5
+      ]
+    },
+    {
+      "name": "5.1.ol-original-counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        10,
+        10
+      ]
+    },
+    {
+      "name": "5.2.ol-original-counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        10,
+        10
+      ]
+    },
+    {
+      "name": "6.1.ol-original-counts",
+      "selector": "#prompt-6 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    },
+    {
+      "name": "6.2.ol-original-counts",
+      "selector": "#prompt-6 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    }
+  ],
+  "responseDecisions": [
+    {
+      "sourceResponse": "1.1",
+      "decision": "Restored all twenty dialogue turns and preserved all ten Tom turns verbatim; revised Randy’s ten replies to separate rate from jobs, association from causal evidence and a possible dominant cause from unsupported sole-cause certainty. Claude attribution derives from curator heading."
+    },
+    {
+      "sourceResponse": "2.1",
+      "decision": "Preserved the nested method and seven candidate factors; defined threshold propositions, confidence versus effect size, reporting-band conventions, omitted causes and overlapping causal pathways."
+    },
+    {
+      "sourceResponse": "2.2",
+      "decision": "Retained the four-step conversational method, three factors and benefits; removed unsupported confidence labels and automatic bias-free/completeness claims, added concrete comparison and update requirements."
+    },
+    {
+      "sourceResponse": "3.1",
+      "decision": "Restored twelve-row table; retained eleven source percentages as explicit teaching stipulations under newly stated invented evidence conditions. Defined outcome, threshold and confidence target; repaired publicity-based support and explained why overlaps prevent additive causal shares."
+    },
+    {
+      "sourceResponse": "3.2",
+      "decision": "Restored nine-row table, two columns and note positions; made evidence assumptions explicit, repaired seasonal/population interpretation and unexplained uncertainty-to-low-probability inference, left unknown probability unassigned."
+    },
+    {
+      "sourceResponse": "4.1",
+      "decision": "Retained all five analogy topics and list order; distinguished alternative diagnoses from simultaneous causes, and background conditions from causes of a change. Orchestra now explains interaction rather than equal contribution."
+    },
+    {
+      "sourceResponse": "4.2",
+      "decision": "Retained four named analogies and their order; made the car case permit a single diagnosed fault and separated multiple symptoms from multiple causes. Retained effective garden/recipe explanations."
+    },
+    {
+      "sourceResponse": "5.1",
+      "decision": "Retained ten questions and ten end-position answers; corrected correlation-only answer, defined table confidence and replaced overgeneralized analogy inference."
+    },
+    {
+      "sourceResponse": "5.2",
+      "decision": "Retained ten questions and end key; repaired source’s Medium/High contradiction, linked ratings to hypothetical evidence and updated technology/unknown interpretation."
+    },
+    {
+      "sourceResponse": "6.1",
+      "decision": "Retained fifteen questions and topic order; replaced floating recent-events references with dated-study instructions and made single-cause/interaction questions open rather than dogmatic."
+    },
+    {
+      "sourceResponse": "6.2",
+      "decision": "Retained fifteen named discussion questions; improved background/change, prediction/uncertainty and political-bias questions while retaining useful policy and evidence prompts."
+    }
+  ],
+  "pageSignals": {
+    "Page form": "Original conversation · editorial edition"
+  },
+  "sectionModelLabels": {
+    "1": [
+      "Claude"
+    ]
+  },
+  "nonPromptSections": [
+    1
+  ],
+  "leadingTextReplacements": {
+    "2.1.1": "List of Potential Causal Factors: Begin with a revisable shortlist, including mechanisms that could move the rate and a check for omitted explanations. “All possible causes” is not an achievable guarantee. Retain the following candidates for investigation:",
+    "2.1.9": "Assigning Credences: Define a proposition for each factor, such as whether it lowered the rate by at least 0.1 percentage point over the chosen period under a specified comparison. Credence is confidence that this proposition is true, not the factor’s share of the total change. Several propositions can be true together, so their probabilities need not sum to 100%. These bands are reporting conventions:"
+  },
+  "tableCellReplacements": {
+    "3.1.table0.0.1": "Stipulated confidence in the defined contribution",
+    "3.1.table0.12.1": "Not assigned: proposition and model needed",
+    "3.2.table0.0.1": "Hypothetical confidence and assumed evidence",
+    "3.2.table0.1.1": "Medium: imagine higher hiring in eligible firms but unresolved comparison differences. A mechanism alone does not establish an effect.",
+    "3.2.table0.2.0": "Overall Economic Conditions: changes in demand that might support hiring.",
+    "3.2.table0.2.1": "High: imagine demand rose across several sectors before hiring. Separate this pathway from policy and global influences in the causal model.",
+    "3.2.table0.3.1": "Medium: imagine expansion in some industries alongside losses elsewhere; net relevance to the threshold remains uncertain.",
+    "3.2.table0.4.0": "Population Changes: entries, exits and changes in the composition of the labour force.",
+    "3.2.table0.4.1": "Medium: imagine some job seekers left the labour force. A lower rate may then occur without more people finding work.",
+    "3.2.table0.5.1": "Medium: imagine stronger reported confidence preceded spending, but expectations may reflect other changes already counted.",
+    "3.2.table0.6.1": "Low: imagine little relevant deployment in this period. Uncertainty about technology’s direction by itself would not justify low confidence.",
+    "3.2.table0.7.1": "Low to Medium: imagine limited programme reach and uncertain placement evidence. Selection into training complicates the comparison.",
+    "3.2.table0.8.0": "Seasonal Fluctuations: recurring hiring and labour-force changes within the year.",
+    "3.2.table0.8.1": "Low: assume the compared series is seasonally adjusted and residual seasonal effects are small. Raw rates would require a fresh assessment.",
+    "3.2.table0.9.1": "Unassigned: acknowledge omitted influences without inventing a probability for an undefined catch-all."
+  }
+}

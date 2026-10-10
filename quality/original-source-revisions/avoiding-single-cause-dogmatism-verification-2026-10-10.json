@@ -1,0 +1,159 @@
+{
+  "pagePath": "/epistemology/avoiding-single-cause-dogmatism/",
+  "sourceSha256": "be24801257817711b698b4701160c8865007e66b6823f39c5e79870a6ae91e08",
+  "originalPrompts": 5,
+  "originalHeadings": 6,
+  "sourceColumns": 11,
+  "modelResponses": 11,
+  "blocksRetainedVerbatim": 91,
+  "tableCellsExplicitlyRevised": 15,
+  "blocksExplicitlyRevised": 79,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "2.1.ol-original-counts": [
+      5
+    ],
+    "2.1.ul-original-counts": [
+      7,
+      3
+    ],
+    "2.2.ul-original-counts": [
+      3,
+      3
+    ],
+    "3.1.ul-original-counts": [
+      12
+    ],
+    "3.2.ul-original-counts": [
+      2
+    ],
+    "4.1.ol-original-counts": [
+      5
+    ],
+    "5.1.ol-original-counts": [
+      10,
+      10
+    ],
+    "5.2.ol-original-counts": [
+      10,
+      10
+    ],
+    "6.1.ol-original-counts": [
+      15
+    ],
+    "6.2.ol-original-counts": [
+      15
+    ]
+  },
+  "sha256": "020d5d18488cf43a24f48a1beee0931ae2a47d81f668e646d6ee53e33f957612",
+  "verifiedAt": "2026-10-10T13:04:34.722759+00:00",
+  "source": {
+    "cache": ".cache/byteseismic-posts-with-content.json",
+    "wordpressId": 5070,
+    "sourceUrl": "http://byteseismic.com/2024/04/03/avoiding-single-cause-dogmatism/",
+    "sourceTitle": "Avoiding Single-Cause Dogmatism",
+    "sourceDate": "2024-04-03T21:41:02+00:00",
+    "sourceSnapshot": "quality/original-source-revisions/avoiding-single-cause-dogmatism-wordpress-5070.html",
+    "sourceSha256": "be24801257817711b698b4701160c8865007e66b6823f39c5e79870a6ae91e08",
+    "exactCacheBytes": true,
+    "urlSlugMatch": true,
+    "titleMatch": true,
+    "originalHeadingTexts": [
+      "The following dialogue, produced by AI Claude, highlights the contrasts between a rational, scientific mind (Randy) and a mind prone to over-simplification (Tom).",
+      "What might be an optimal way for Randy to lay out all of the potential casual factors and the reasonable credences he assigns to each factor in this scenario?",
+      "Create a hypothetical table of the potential causes Tom and Randy might consider to rationally evaluate the issue they are discussing. ",
+      "Are there salient analogies to show that jumping to a single cause is often misguided?",
+      "Create a 10-item quiz on the discussion above.",
+      "Provide 15 discussion questions relevant to the content above. "
+    ],
+    "fullOriginalRead": true,
+    "fullPriorPageRead": true,
+    "baselineType": "Original WordPress conversation; prior reconstructed page used only for site chrome",
+    "attribution": "WordPress header logos identify ChatGPT then Gemini; the first single-cause dialogue is expressly credited to Claude in the curator heading."
+  },
+  "responseDecisions": [
+    {
+      "sourceResponse": "1.1",
+      "decision": "Restored all twenty dialogue turns and preserved all ten Tom turns verbatim; revised Randy’s ten replies to separate rate from jobs, association from causal evidence and a possible dominant cause from unsupported sole-cause certainty. Claude attribution derives from curator heading."
+    },
+    {
+      "sourceResponse": "2.1",
+      "decision": "Preserved the nested method and seven candidate factors; defined threshold propositions, confidence versus effect size, reporting-band conventions, omitted causes and overlapping causal pathways."
+    },
+    {
+      "sourceResponse": "2.2",
+      "decision": "Retained the four-step conversational method, three factors and benefits; removed unsupported confidence labels and automatic bias-free/completeness claims, added concrete comparison and update requirements."
+    },
+    {
+      "sourceResponse": "3.1",
+      "decision": "Restored twelve-row table; retained eleven source percentages as explicit teaching stipulations under newly stated invented evidence conditions. Defined outcome, threshold and confidence target; repaired publicity-based support and explained why overlaps prevent additive causal shares."
+    },
+    {
+      "sourceResponse": "3.2",
+      "decision": "Restored nine-row table, two columns and note positions; made evidence assumptions explicit, repaired seasonal/population interpretation and unexplained uncertainty-to-low-probability inference, left unknown probability unassigned."
+    },
+    {
+      "sourceResponse": "4.1",
+      "decision": "Retained all five analogy topics and list order; distinguished alternative diagnoses from simultaneous causes, and background conditions from causes of a change. Orchestra now explains interaction rather than equal contribution."
+    },
+    {
+      "sourceResponse": "4.2",
+      "decision": "Retained four named analogies and their order; made the car case permit a single diagnosed fault and separated multiple symptoms from multiple causes. Retained effective garden/recipe explanations."
+    },
+    {
+      "sourceResponse": "5.1",
+      "decision": "Retained ten questions and ten end-position answers; corrected correlation-only answer, defined table confidence and replaced overgeneralized analogy inference."
+    },
+    {
+      "sourceResponse": "5.2",
+      "decision": "Retained ten questions and end key; repaired source’s Medium/High contradiction, linked ratings to hypothetical evidence and updated technology/unknown interpretation."
+    },
+    {
+      "sourceResponse": "6.1",
+      "decision": "Retained fifteen questions and topic order; replaced floating recent-events references with dated-study instructions and made single-cause/interaction questions open rather than dogmatic."
+    },
+    {
+      "sourceResponse": "6.2",
+      "decision": "Retained fifteen named discussion questions; improved background/change, prediction/uncertainty and political-bias questions while retaining useful policy and evidence prompts."
+    }
+  ],
+  "pageSpecificChecks": {
+    "dialogueTurns": 20,
+    "tomTurnsVerbatim": 10,
+    "randyTurnsRevised": 10,
+    "tableDataRows": [
+      12,
+      9
+    ],
+    "tableColumns": [
+      2,
+      2
+    ],
+    "quizQuestions": [
+      10,
+      10
+    ],
+    "endAnswers": [
+      10,
+      10
+    ],
+    "discussionQuestions": [
+      15,
+      15
+    ],
+    "sourceHeadingNotRequest": 1,
+    "tableNumbers": "Eleven original percentages explicitly stipulated under invented evidence; not measured estimates or additive contribution shares."
+  },
+  "remainingConcerns": [
+    "No observed economic episode, empirical estimates or computed Bayesian update is claimed. Numerical confidence values are teaching stipulations. Specifying an actual causal model and identification assumptions remains necessary for real-world use."
+  ],
+  "researchSources": [
+    "https://www.bls.gov/cps/cps_htgm.htm"
+  ],
+  "editorialReviewComplete": true
+}
