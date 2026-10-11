@@ -1,0 +1,231 @@
+{
+  "wordpressId": 4917,
+  "pageFile": "rational-thought/perverse-incentives/index.html",
+  "snapshot": "perverse-incentives-wordpress-4917.html",
+  "sourceSha256": "5531a18b9d52a6cd95c85c1d5c8622bad125401f40c3f738ba6358ae307632d4",
+  "sourceUrl": "http://byteseismic.com/2024/03/31/perverse-incentives/",
+  "sourceLabel": "Original WordPress conversation, 2024-03-31",
+  "shellRevision": "54786f8801e585168ede1270b20c8d1c9a1d7e79",
+  "date": "2026-10-11",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "Two short definitions",
+    "Two ten-entry historical lists, with evidential limits",
+    "Designing policies around the behaviour they reward",
+    "Investigating abuse without confusing suspicion with proof",
+    "Two ten-question quizzes with answer keys",
+    "Two sets of fifteen discussion questions"
+  ],
+  "introHeading": "Original conversation · editorial edition",
+  "intro": "All six original prompts and both response positions remain. The historical lists keep their twenty topics and order, but distinguish supported cases, broader policy failures, hypothetical mechanisms and stories not established by the available evidence. They do not supply twenty verified historical examples. The original policy-design lists, enforcement discussion, quizzes and discussion questions follow.",
+  "description": "How rewards undermine policy goals: original historical cases checked, design principles, proportionate responses to abuse, quizzes and discussion questions.",
+  "replacements": {
+    "1.2.0": "A perverse incentive makes behaviour that undermines a policy’s goal attractive to participants. For example, a bounty intended to eliminate mice could make breeding mice for the bounty profitable; this is a hypothetical illustration.",
+    "2.1.0": "<strong>Cobra Effect in Colonial India — unverified anecdote:</strong> The familiar story says a bounty encouraged cobra breeding, followed by releases when payment stopped. No reliable documentary basis for that particular episode is established here. It illustrates a possible mechanism—rewarding a supplied pest rather than a reduction in pests—but should not be presented as verified colonial history.",
+    "2.1.1": "<strong>Rat Bounty in Hanoi, 1902 — documented case:</strong> Historian <a href=\"https://madeinchinajournal.com/2020/08/20/the-great-hanoi-rat-hunt/\">Michael Vann’s archival research</a> describes payments for rat tails, reports of tailless living rats and rat farming. A tail was rewarded as a proxy for eradication, creating a reason to preserve the supply. This establishes the incentive problem without requiring an exact estimate of the resulting rat population.",
+    "2.1.2": "<strong>The Great Sparrow Campaign in China, 1958 — campaign and ecological harm:</strong> Sparrow killing pursued a grain-protection goal while disregarding the birds’ role in controlling insects. A <a href=\"https://climate.uchicago.edu/wp-content/uploads/2025/07/Campaigning-for-Extinction-Eradication-of-Sparrows-and-the-Great-Famine-in-China.pdf\">2025 working paper</a> finds evidence of crop losses associated with eradication. Its estimates are research findings, not a claim that this campaign alone caused the famine. The relevant target was killing birds rather than improving harvests; this is harmful compliance with a mistaken policy as well as a warning about incentives.",
+    "2.1.3": "<strong>Australian Cane-Toad Introduction, 1935 — failed biological control:</strong> Toads introduced to control cane beetles became invasive and harmed native wildlife. The <a href=\"https://digital-classroom.nma.gov.au/defining-moments/cane-toads-introduced\">National Museum of Australia</a> documents the introduction and its consequences. The original explanation based solely on jumping height is inadequate. This is principally an ecological policy failure: an incentive example would additionally need to identify whose reward encouraged which harmful behaviour.",
+    "2.1.4": "<strong>Mexico City’s “Hoy No Circula,” introduced in 1989 — disputed avoidance mechanism:</strong> Restricting weekday driving by licence-plate number gives households a possible reason to acquire another vehicle. <a href=\"https://faculty.haas.berkeley.edu/ldavis/Davis%20JPE%202008.pdf\">Davis’s 2008 study</a> found no air-quality improvement and evidence of more vehicles and a shift toward higher-emitting vehicles. A <a href=\"https://www.sciencedirect.com/science/article/pii/S1361920917303498\">later travel-survey study</a> also found little reduction in travel but rejected second-car purchasing as the explanation in its setting. The policy’s disappointing results are better supported than a universal account of how households evaded it.",
+    "2.1.5": "<strong>The Streisand Effect, 2003 — publicity backfire:</strong> A lawsuit seeking to restrict access to a coastal photograph became a subject of public attention; the <a href=\"https://www.californiacoastline.org/streisand/transcript-18Jul03.pdf\">July 2003 court transcript</a> records the dispute and arguments about that attention. The episode illustrates how attempted suppression can publicize information. It is not automatically a perverse reward scheme: that further diagnosis requires identifying the audience’s or publisher’s incentive to spread it.",
+    "2.1.6": "<strong>Dead Sea Scrolls publication — restricted access and delay:</strong> The <a href=\"https://www.loc.gov/exhibits/scrolls/bib.html\">Library of Congress exhibition</a> documents slow publication and the 1991 opening of photographic access. Exclusive control can reduce pressure to share, but that is a mechanism to investigate, not a complete causal explanation. The original claims about a Jordanian copyright grant and consequent black-market sales are not established by this evidence and are withdrawn.",
+    "2.1.7": "<strong>South African apartheid job reservation — a different kind of harm:</strong> Racial job restrictions deliberately excluded Black workers; their discriminatory purpose should not be redescribed as an innocent unintended effect. The original additional story—that these rules caused mechanization and reduced overall employment, including protected jobs—requires evidence for particular industries and periods and is not established here. A policy can be unjust without also fitting this specific incentive-backfire narrative.",
+    "2.1.8": "<strong>Naval suppression and Nassau’s pirates — causal story unestablished:</strong> The original asserts that stronger suppression created a stronger “Pirate Republic.” It does not identify a policy, comparison or reliable source supporting that sequence. Suppression might provoke coordination in some settings, but that possibility does not establish this historical explanation. Retain it as a question for research, not as one of the verified cases.",
+    "2.1.9": "<strong>The Window Tax in England, introduced in 1696 — documented avoidance:</strong> Tax liability tied to windows encouraged owners to block openings or provide fewer of them. <a href=\"https://www.parliament.uk/about/living-heritage/transformingsociety/towncountry/towns/tyne-and-wear-case-study/about-the-group/housing/window-tax/\">Parliament’s account</a> explains the resulting loss of light and ventilation, especially in tenements. The tax made a reduction in the taxable feature attractive even when the reduction worsened living conditions. It does not follow that every historic blind window was created to avoid tax.",
+    "2.2.0": "<strong>“The Sparrow of Paris” — unsupported location and title:</strong> The original describes rat breeding under an eighteenth-century Paris bounty but supplies no identifiable episode. Do not count it as history. The documented Hanoi case above provides the relevant rat-tail mechanism; changing its city and century would create a second story without a second source.",
+    "2.2.1": "<strong>“The London Fog” — unsupported tax narrative:</strong> The original says an anti-smoke coal tax caused substitution toward dirtier fuels. That particular policy and outcome are not established here. The <a href=\"https://api.parliament.uk/historic-hansard/commons/1889/may/22/coal-duties-london-abolition-bill-no-5\">1889 parliamentary debate on coal duties</a> discusses revenue and public works, which is not evidence for the claimed anti-pollution purpose. Substitution toward untaxed pollution is a possible design risk, not proof that this episode occurred.",
+    "2.2.2": "<strong>The Great Sparrow Campaign, China — same case, different emphasis:</strong> Encouraging the destruction of a grain-eating bird ignored its insect-control role. The historical campaign illustrates why visible compliance can be a poor measure of agricultural success. It is the same episode as in the first list, not an additional independent case, and should not be used as a single-cause explanation of the famine.",
+    "2.2.3": "<strong>“The Cobra Effect (1960s India)” — unsupported dating:</strong> Neither the 1960s date nor this version of the bounty story is established here. The mechanism can be taught as a hypothetical: if breeding a pest earns more than it costs, a bounty can reward increasing its supply. That does not turn the illustration into a documented Indian government programme.",
+    "2.2.4": "<strong>“The Boeing Bonus (1970s)” — unsupported allegation:</strong> No identified bonus scheme, accident investigation or source is supplied for the alleged chain from engineers’ production bonuses to fatal crashes. This edition does not assert that story. In a hypothetical production scheme, paying only for quantity could discourage time spent on quality checks; applying that explanation to a named company requires specific evidence.",
+    "2.2.5": "<strong>“The Texas Two-Step (1990s)” — unsupported programme:</strong> The named doctor-incentive scheme and its alleged unnecessary surgeries are not established here. The general mechanism is understandable: payment per procedure can reward volume rather than patient benefit. That incentive alone proves neither that a procedure was unnecessary nor that this particular Texas story occurred.",
+    "2.2.6": "<strong>Zero-tolerance drug policies — an underspecified category:</strong> The original spans many jurisdictions and decades, so it is not one testable historical story. An arrest-count target could encourage low-level arrests over work that better reduces harm; this is a conditional incentive mechanism. Assess an actual policy using its rules, enforcement choices and outcomes rather than inferring the mechanism from imprisonment alone.",
+    "2.2.7": "<strong>Subprime mortgages and the financial crisis — documented incentive concerns:</strong> The <a href=\"https://fraser.stlouisfed.org/files/docs/historical/fct/fcic_report_final_20110127.pdf\">Financial Crisis Inquiry Commission</a> examined compensation linked to loan volume and short-term gains while loan performance and losses unfolded later. Such arrangements could reward originating loans without adequately bearing their longer-term risks. This was one mechanism among several investigated causes; the report also contains dissenting interpretations.",
+    "2.2.8": "<strong>Clickbait — a general mechanism rather than one historical incident:</strong> If advertising revenue or promotion depends heavily on clicks, a publisher may profit from an enticing headline even when the article disappoints or misleads. The diagnosis requires the actual payment or ranking rule and evidence of the response. A striking headline is not itself proof of deception, and no named platform’s current policy is asserted here.",
+    "2.2.9": "<strong>Teacher evaluation and testing — distinguish instruction from manipulation:</strong> Rewards attached to scores can encourage narrow preparation or alteration of answers, but teaching tested material can also be legitimate. <a href=\"https://www.nber.org/papers/w9414\">Jacob and Levitt’s research</a> used follow-up testing to distinguish suspicious gains from gains consistent with effective teaching. This is a concrete research example, replacing the original vague date label; it does not imply that every high-scoring teacher cheated.",
+    "3.1.1": "<strong>Impact Assessment:</strong> Map the intended benefit, the rewarded action and who bears the cost. For each participant, ask for the cheapest way to earn the reward while defeating the goal. Historical examples help only when their facts and mechanisms survive checking.",
+    "3.1.2": "<strong>Incremental Implementation:</strong> Pilot where feasible, with comparison groups or baseline measures suited to the policy. Predetermine warning signs and stopping conditions. A small pilot may miss responses that become profitable only at larger scale.",
+    "3.1.4": "<strong>Align Incentives with Outcomes:</strong> Suppose a support team is paid for closing tickets quickly. Counting repeat contacts and whether the issue was resolved can reveal closures that merely shift work to the customer. Check whether the revised measures create new ways to hide unresolved cases.",
+    "3.1.6": "<strong>Avoid Reliance on a Single Target:</strong> Combine a small number of interpretable measures with independent quality checks. Broader measures are not automatically better: a complicated score can hide failures and make responsibility harder to locate.",
+    "3.1.7": "<strong>Transparent Communication:</strong> Explain the objective, the rules and how people can challenge errors. Clarity reduces misunderstanding, but intentional gaming can occur precisely because the rule is understood. Pair communication with checks on whether the objective is being met.",
+    "3.1.8": "<strong>Simplicity and Understandability:</strong> Make the rule easy to explain and its exceptions reviewable. Simplicity helps participation but does not ensure alignment: the very simple rule “pay per tail” is vulnerable because its proxy can be supplied without eradication.",
+    "3.1.9": "<strong>Monitoring and Evaluation:</strong> Compare the rewarded metric with outcomes measured through a partly independent channel. Rising ticket closures alongside rising repeat complaints warrant investigation, not immediate praise. Specify who can revise the policy and when review occurs.",
+    "3.1.10": "<strong>Ethical Considerations and Equity:</strong> Ask who can profit from the rule and who absorbs the harm. Test whether rewarding easy cases causes participants to avoid people with more difficult needs. A good average outcome can conceal that exclusion.",
+    "3.2.2": "<strong>Think Like a Gamer:</strong> Rehearse how someone could maximize the reward while complying with the letter of the rule. This is a stress test, not an assumption that everyone is malicious. Also ask how an honest participant with limited time or resources would respond.",
+    "3.2.5": "<strong>Don’t Just Track Outputs:</strong> Distinguish completed activity from achieved benefit. Arrest counts do not directly measure safety, just as test scores do not capture all learning. Use the output as one signal and look for costs displaced elsewhere.",
+    "3.2.6": "<strong>Test Changed Conditions:</strong> Consider new technology, higher participation and changes in relative costs. A loophole that is unprofitable today may become attractive tomorrow. Record assumptions that would trigger another review.",
+    "3.2.8": "<strong>Clear Goals and Metrics:</strong> Define success before choosing a measure, then state what the measure misses. Include an independent check that would reveal an improving score alongside a worsening outcome.",
+    "3.2.9": "<strong>Monitoring and Evaluation:</strong> Track both suspected gaming and the burdens created by enforcement. If investigators are rewarded solely for detected violations, they too acquire an incentive to optimize a count rather than accuracy.",
+    "4.1.0": "Begin by distinguishing deliberate deception, an honest error and lawful adaptation to a poorly designed rule. Here “quarantine” means a temporary, proportionate restriction on a risky transaction or account function while evidence is checked. Removing one participant will not repair an incentive that keeps producing the same behaviour.",
+    "4.1.1": "<strong>Data Analysis and Monitoring:</strong> Use unusual patterns to select cases for investigation. A spike in claims may reflect manipulation, a disaster or a delayed reporting batch. Seek corroboration tied to the alleged action before treating an anomaly as proof of misconduct.",
+    "4.1.2": "<strong>Machine Learning and AI:</strong> A model can prioritize review if its performance has been evaluated on relevant cases. Measure missed abuse and false accusations, including across affected groups. Past enforcement labels may encode past mistakes; automatic retraining does not guarantee improvement.",
+    "4.1.3": "<strong>Verification and Authentication:</strong> Choose checks suited to the suspected abuse. A second authentication factor can reduce account takeover but does not establish that the account owner’s claim is honest. Avoid burdensome identity checks that do not address the actual failure mode.",
+    "4.1.4": "<strong>Community Reports:</strong> Provide a way to submit specific evidence and correct mistakes. Reports are leads, not verdicts; coordinated false reporting can itself game the system. Do not reward the number of accusations without checking their quality.",
+    "4.1.6": "<strong>Audits and Reviews:</strong> Combine targeted investigation with a genuinely random sample. Targeted checks find suspicious cases; random sampling can reveal abuse missed by the suspicion rules and help estimate how common it is. Track overturned decisions too.",
+    "4.1.7": "<strong>Information Sharing:</strong> Share relevant, substantiated incident information through authorized channels, with its uncertainty and correction history attached. An unreviewed blacklist can multiply a single false accusation across organizations.",
+    "4.1.8": "<strong>Dynamic Responses:</strong> When the risk warrants intervention before investigation finishes, limit the vulnerable action—for example, hold an unusual payout—rather than automatically closing every service. Specify an expiry or review deadline and a route to restore access.",
+    "4.1.9": "<strong>Policy and Authority:</strong> State the prohibited conduct, what evidence supports each response and who can authorize it. Separate internal rule enforcement from referral of evidence of possible crime. Disagreement with a policy is not itself abuse.",
+    "4.1.10": "<strong>Reviewable Automated Decisions:</strong> Keep a record of the evidence and reason for a restriction, allow correction, and provide human review able to reverse the outcome. An explanation that merely repeats a risk score does not show why this person’s action justified the restriction.",
+    "4.2.0": "Use detection to identify conduct for investigation, and use temporary restrictions to contain a specified risk. Calling someone a “bad actor” should follow evidence of deliberate abuse, not substitute for it:",
+    "4.2.2": "<strong>Track Anomalies:</strong> Compare like cases and ask what else could explain the pattern. Geographic clustering might reflect a local need or a shared reporting channel. Check evidence of coordination before inferring organized manipulation.",
+    "4.2.3": "<strong>Risk Scoring:</strong> Use relevant, tested indicators to prioritize checks rather than automatically punish. Record the error rates and investigate whether association-based indicators merely penalize people who share an address, workplace or device.",
+    "4.2.5": "<strong>Additional Verification:</strong> Match the check to the problem: secure account access, verify a duplicate claim or confirm a disputed transaction. Multi-factor authentication uses distinct kinds of credentials; a phone call, biometric check and document request are not automatically interchangeable or sufficient.",
+    "4.2.6": "<strong>Random and Targeted Audits:</strong> Distinguish random selection from selection because a case looks suspicious. Use each for its purpose, with a recorded sampling method, so the results do not exaggerate the prevalence of abuse.",
+    "4.2.9": "<strong>Collaboration:</strong> Involve appropriately authorized investigators when evidence and seriousness justify it. Share the relevant facts and their limits. Ordinary policy disagreement or a correctable mistake does not require a criminal response.",
+    "4.2.11": "<strong>Restrict Access When Warranted:</strong> Start with the least disruptive restriction that contains the demonstrated risk. More serious or lasting exclusion needs stronger grounds and review; a suspicion score alone should not make a temporary hold permanent.",
+    "4.2.12": "<strong>Limit the Vulnerable Function:</strong> Restrict a particular action while preserving unrelated legitimate use where feasible. State the reason, what information could resolve the concern and when a decision will be reviewed.",
+    "4.2.13": "<strong>Escalation and Alerting:</strong> Distinguish a pending concern from a confirmed finding. Attach corrections and reversals to shared records so the same mistaken flag does not repeatedly exclude a person.",
+    "4.2.17": "<strong>Transparency and Communication:</strong> Explain the conduct rules and review process while protecting information that would enable evasion. Evaluate investigators on accurate, timely resolution rather than raw numbers of accounts blocked.",
+    "5.1.2": "Which documented rat-bounty case illustrates rewarding a proxy that can be supplied while the pest survives?",
+    "5.1.3": "What ecological role did the Great Sparrow Campaign overlook, and what limit should accompany its use as a famine explanation?",
+    "5.1.4": "How did cane-toad introduction backfire, and why is it not automatically an incentive example?",
+    "5.1.5": "What did the Mexico City studies find, and why is the second-car explanation qualified?",
+    "5.1.7": "What is established about restricted access to the Dead Sea Scrolls, and which original causal claims remain unsupported?",
+    "5.1.8": "Why should apartheid’s intended racial exclusion be distinguished from the original employment-backfire claim?",
+    "5.1.9": "Why is the original story that naval suppression strengthened Nassau’s pirates not counted as verified?",
+    "5.1.13": "Hanoi in 1902: payments for rat tails encouraged practices inconsistent with eradication. No exact population increase is established here.",
+    "5.1.14": "Sparrows also controlled crop-eating insects. Research supports an ecological contribution to crop losses; the campaign is not a complete explanation of the famine.",
+    "5.1.15": "The toads became invasive and harmed native wildlife. A failed ecological intervention needs a separate account of rewards and behavioural responses to establish a perverse incentive.",
+    "5.1.16": "Davis found no air-quality improvement and evidence of vehicle-fleet changes. A later study found little reduction in travel but rejected second-car purchasing as the mechanism in its setting. Different evidence and policy settings must be distinguished.",
+    "5.1.18": "Publication was slow and photographic access expanded in 1991. The asserted copyright-grant and black-market causal story is not established by the evidence cited.",
+    "5.1.19": "Racial exclusion was deliberate. The further claim that job reservation caused mechanization and overall employment losses requires specific causal evidence not established here.",
+    "5.1.20": "It lacks a sourced policy sequence and evidence that suppression caused the asserted strengthening; a possible coordination mechanism is not historical proof.",
+    "6.1.2": "How did the Great Sparrow Campaign make compliance with a target diverge from agricultural success? Why is the campaign only part of a famine explanation?",
+    "6.1.3": "What design risk does the cobra-bounty anecdote illustrate, and how should you teach it when its historical basis is not established?",
+    "6.1.6": "How might exclusive research access discourage sharing, and what evidence would distinguish that incentive from other causes of publication delay?",
+    "6.1.7": "How would you separate apartheid’s intended racial exclusion from any claimed unintended economic response? What evidence would each claim require?",
+    "6.1.8": "What evidence would be needed to test the claim that suppressing piracy strengthened pirate communities, and what rival explanations should be considered?",
+    "6.2.3": "Can a policy with some harmful incentives still produce net benefits? What would justify tolerating a particular harm instead of redesigning the reward?",
+    "5.2.2": "Which documented case illustrates paying for rat tails as an unreliable proxy for eradication?<br/>a) The Great Sparrow Campaign<br/>b) The unverified Boeing bonus story<br/>c) Hanoi’s rat bounty in 1902<br/>d) Clickbait",
+    "5.2.7": "What can a sudden, unexplained spike in claims provide?<br/>a) Proof that critics are dishonest<br/>b) A reason for investigation, requiring corroboration<br/>c) Automatic grounds for permanent exclusion<br/>d) Evidence that every claimant is cheating",
+    "5.2.8": "What does multi-factor authentication most directly help with?<br/>a) Proving every claim is honest<br/>b) Establishing the user’s motives<br/>c) Protecting access against compromised credentials<br/>d) Proving a transaction is beneficial",
+    "5.2.9": "What should guide a temporary restriction while suspected abuse is investigated?<br/>a) Public shaming<br/>b) Proportionality, a review deadline and a route to correct errors<br/>c) Indefinite exclusion based on a score<br/>d) Restricting every service regardless of the risk",
+    "5.2.10": "When might referral to law enforcement be appropriate?<br/>a) A minor good-faith mistake<br/>b) Substantiated evidence of serious possible criminal conduct, through authorized channels<br/>c) An unclear policy interpretation<br/>d) Public disagreement with the policy",
+    "5.2.1": "The term “perverse incentives” refers to situations where a reward or punishment unintentionally:<br/>a) Increases costs.<br/>b) Encourages undesired behavior.<br/>c) Creates confusion.<br/>d) Limits participation.",
+    "5.2.3": "Which response to score-only teacher evaluation would illustrate a perverse incentive?<br/>a) Improving understanding of the tested material<br/>b) Strengthening useful reasoning skills<br/>c) Drilling only predictable test items while neglecting broader learning<br/>d) Giving students helpful feedback",
+    "5.2.4": "When designing policies to reduce the chance of perverse incentives, it’s important to:<br/>a) Set clear and measurable goals.<br/>b) Only consider easily tracked outputs.<br/>c) Focus solely on short-term benefits.<br/>d) Ignore the motivations of those involved.",
+    "5.2.5": "The “Think Like a Gamer” approach to policy design involves considering:<br/>a) How complex the policy will be to implement.<br/>b) How the policy might be misinterpreted.<br/>c) How people might exploit the system for personal gain.<br/>d) How the policy will affect public perception.",
+    "5.2.6": "Pilot programs are a valuable tool for identifying perverse incentives because they allow for:<br/>a) Faster implementation on a larger scale.<br/>b) Early detection of unintended consequences.<br/>c) Reduced costs associated with policy changes.<br/>d) Increased public support for the policy.",
+    "5.2.13": "(c) Hanoi, 1902; the Paris story is not established.",
+    "5.2.18": "(b) An anomaly is a lead, not a finding of guilt.",
+    "5.2.19": "(c) Account security is distinct from the truth of a claim.",
+    "5.2.20": "(b) Contain the risk while making an erroneous restriction reversible.",
+    "5.2.21": "(b) Serious evidence and proper authority, not ordinary disagreement.",
+    "5.2.14": "(c) The problem is sacrificing the educational goal for the score, not teaching tested material as such."
+  },
+  "countChecks": [
+    {
+      "name": "2.1.ol original list counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        10
+      ]
+    },
+    {
+      "name": "2.2.ol original list counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        10
+      ]
+    },
+    {
+      "name": "3.1.ol original list counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        10
+      ]
+    },
+    {
+      "name": "3.2.ul original list counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "4.1.ol original list counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        10
+      ]
+    },
+    {
+      "name": "4.2.ul original list counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        2,
+        2,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "5.1.ol original list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        10,
+        10
+      ]
+    },
+    {
+      "name": "5.2.ol original list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        10,
+        10
+      ]
+    },
+    {
+      "name": "6.1.ol original list counts",
+      "selector": "#prompt-6 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    },
+    {
+      "name": "6.2.ol original list counts",
+      "selector": "#prompt-6 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    }
+  ],
+  "responseDecisions": {
+    "1.1": "Retained the concise original definition verbatim; it directly answers the short-definition prompt.",
+    "1.2": "Kept one short paragraph; made the mouse illustration explicitly hypothetical and explained profitable breeding rather than implying a reward attracts mice mechanically.",
+    "2.1": "Reviewed all ten original case topics in order. Corroborated Hanoi, Mexico City, window tax; bounded sparrows, cane toads, Streisand and scrolls. Flagged cobra, apartheid-backfire and pirate-causation stories as unestablished. Explicitly distinguish harmful compliance/ecological or publicity failure from perverse rewards.",
+    "2.2": "Reviewed all ten topics in order. Removed unsupported Paris, London anti-smoke-tax, 1960s cobra, Boeing and Texas factual assertions. Narrowed broad drug/clickbait mechanisms, qualified crisis causation and grounded testing discussion in named research. Does not claim ten verified historical stories.",
+    "3.1": "Preserved ten-principle sequence; strengthened mechanism mapping, pilot limitations, ticket-resolution example, multiple-metric cautions, review triggers and exclusion risks. Retained feedback/stakeholder items.",
+    "3.2": "Preserved four headings and eight heuristics; qualified gamer framing, replaced future-proofing promise with changing-condition checks and examined investigators’ own incentives.",
+    "4.1": "Preserved ten strategies; separated design failure/error/deception, anomaly/evidence, account authentication/honesty, and reversible restriction/punishment; specified review, correction and false-report checks.",
+    "4.2": "Preserved original category sequence and twelve strategy items; distinguished random/targeted sampling, proportional restrictions and corrected records, avoided guilt by association and clarified referral conditions.",
+    "5.1": "Preserved ten questions and keys in historical-topic order; repaired all keys dependent on unsupported history and included conceptual category limits.",
+    "5.2": "Preserved ten four-option questions and end keys; corrected Paris/Hanoi, suspicious-score inference, authentication scope, restrictions and referral grounds; separated options visually.",
+    "6.1": "Preserved fifteen questions; revised five to stop presupposing unsupported historical claims and sharpened causal-evidence demands.",
+    "6.2": "Preserved fifteen questions; repaired one confusing question about harnessing perverse incentives into an explicit tradeoff question. Retained the other fourteen, which directly test fairness, incentives and policy evaluation."
+  },
+  "pageSignals": {
+    "Page form": "Edited original conversation"
+  },
+  "highlights": [
+    "Perverse incentives arise when rewarded behaviour undermines the policy’s goal.",
+    "Historical claims need evidence; a vivid possible mechanism does not establish that an episode occurred.",
+    "Monitor outcomes beyond the rewarded metric and revise rules when participants adapt.",
+    "Investigate suspected abuse with corroboration, proportionate restrictions and a route to correct mistakes."
+  ]
+}

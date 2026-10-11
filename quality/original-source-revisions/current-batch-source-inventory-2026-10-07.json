@@ -4,10 +4,10 @@
   "startIndex": 100,
   "endIndexExclusive": 150,
   "candidateWordPressOriginals": 49,
-  "fullyReviewed": 10,
-  "pendingFullReview": 40,
+  "fullyReviewed": 12,
+  "pendingFullReview": 38,
   "sourceBlocked": 0,
-  "limitation": "Ten entries have complete substantive review and verification. Forty remain pending full review. Prior reviews retained without recounting them as fresh work; no batch advancement.",
+  "limitation": "Twelve entries have complete substantive review and verification. Thirty-eight remain pending full review. Prior reviews retained without recounting them as fresh work; no batch advancement. Perverse Incentives explicitly records historical claims that remain unestablished rather than asserting the requested ten verified stories in each original list.",
   "pages": [
     {
       "pagePath": "/philosophers/philosopher-club-membership/",
@@ -240,7 +240,7 @@
       "pagePath": "/epistemology/collapsing-epistemological-terms/",
       "pageTitle": "Collapsing Epistemological Terms",
       "queueIndex": 110,
-      "status": "pending-full-review",
+      "status": "reviewed-verified",
       "wordpressId": 8863,
       "sourceUrl": "http://byteseismic.com/2024/05/15/collapsing-epistemological-terms/",
       "sourceTitle": "Collapsing Epistemological Terms",
@@ -257,8 +257,9 @@
         "Provide 15 discussion questions relevant to the content above. "
       ],
       "wordCount": 7511,
-      "fullSourceRead": false,
-      "editorialReviewComplete": false
+      "fullSourceRead": true,
+      "editorialReviewComplete": true,
+      "verification": "quality/original-source-revisions/collapsing-epistemological-terms-verification-2026-10-11.json"
     },
     {
       "pagePath": "/ethics/finite-agency-moral-demand-and-happiness/",
@@ -276,7 +277,7 @@
       "pagePath": "/rational-thought/perverse-incentives/",
       "pageTitle": "Perverse Incentives",
       "queueIndex": 112,
-      "status": "pending-full-review",
+      "status": "reviewed-verified",
       "wordpressId": 4917,
       "sourceUrl": "http://byteseismic.com/2024/03/31/perverse-incentives/",
       "sourceTitle": "Perverse Incentives",
@@ -293,8 +294,9 @@
         "Provide 15 discussion questions relevant to the content above. "
       ],
       "wordCount": 3740,
-      "fullSourceRead": false,
-      "editorialReviewComplete": false
+      "fullSourceRead": true,
+      "editorialReviewComplete": true,
+      "verification": "quality/original-source-revisions/perverse-incentives-verification-2026-10-11.json"
     },
     {
       "pagePath": "/epistemology/doxastic-voluntarism/",
@@ -1230,5 +1232,5 @@
       "editorialReviewComplete": false
     }
   ],
-  "updatedAt": "2026-10-10T13:10:19.033957+00:00"
+  "updatedAt": "2026-10-11T13:19:54.511383+00:00"
 }

@@ -1,0 +1,340 @@
+{
+  "wordpressId": 8863,
+  "pageFile": "epistemology/collapsing-epistemological-terms/index.html",
+  "snapshot": "collapsing-epistemological-terms-wordpress-8863.html",
+  "sourceSha256": "01868687338aa959b7bd9b55058239ec4c5a48878cbb5c39b21d25b6b2de53a0",
+  "sourceUrl": "http://byteseismic.com/2024/05/15/collapsing-epistemological-terms/",
+  "sourceLabel": "Original WordPress conversation, 2024-05-15",
+  "shellRevision": "54786f8801e585168ede1270b20c8d1c9a1d7e79",
+  "date": "2026-10-11",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini",
+    "Claude"
+  ],
+  "preambleHeadingIndexes": [
+    0
+  ],
+  "headings": [
+    "The curator’s essay and three assessments",
+    "Which concepts can be unpacked without losing distinctions?",
+    "Three provisional rankings of disputed terms",
+    "Three dialogues negotiating a usable vocabulary",
+    "Three ten-question quizzes with answer keys",
+    "Three sets of fifteen discussion questions"
+  ],
+  "introHeading": "Original conversation · editorial edition",
+  "intro": "The curator’s essay and all six prompts appear verbatim, followed by the original three response positions in each section. These edited responses develop the proposal for a leaner shared vocabulary, distinguish local definitions from claims about truth, and retain the three dialogues, quizzes and discussion lists.",
+  "description": "Can shared definitions improve epistemological dialogue? The original essay, three assessments, term lists, dialogues, quizzes and discussion questions.",
+  "replacements": {
+    "1.1.2": "<strong>Demanding Adoption of One’s Definitions:</strong> The essay gives a plausible reason to expect resistance, not a logical impossibility. An agreed technical exercise can reasonably require a fixed vocabulary; demanding that someone’s ordinary usage is simply illegitimate is much less promising.",
+    "1.1.3": "<strong>Accommodating Interlocutors’ Definitions:</strong> Learning another person’s usage can expose disagreement that was only verbal. The proposed consistency check is valuable, though overlapping meanings are not automatically contradictory. Ask whether the speaker changes a term’s meaning within an inference.",
+    "1.1.4": "<strong>Collaborative Collapse of Second-Order Concepts:</strong> This is coherent as a negotiated convention. Its success does not follow merely from using fewer terms. “Knowledge” as top-decile credence reports confidence; ordinary factive knowledge also requires that the claim be true. The essay’s “fact” reports expert acceptance, which can itself be mistaken. Participants should record what their replacement preserves and what it deliberately sets aside.",
+    "1.1.6": "<strong>Demanding Adoption of One’s Definitions:</strong> Unilateral insistence may make the dialogue a contest over authority. State the purpose of a proposed definition and ask for a trial use rather than treating acquiescence as evidence that the definition is correct.",
+    "1.1.8": "<strong>Collaborative Collapse of Second-Order Concepts:</strong> The initial effort is most likely to pay off in recurring discussions with the same participants. Start with the two terms causing the current disagreement; writing a complete epistemological dictionary first could cost more time than it saves.",
+    "1.1.9": "<strong>Parsimony and Consistency:</strong> Fewer terms can reduce accidental shifts in meaning. A useful glossary should also mark its primitives: defining belief through credence and then credence solely through belief leaves the explanatory circle intact.",
+    "1.1.10": "<strong>Enhanced Understanding:</strong> Test a proposed definition against a shared case. Two people might both assign 0.95 credence to a train arriving on time yet disagree about calling that “knowledge.” The number locates their agreement; it does not establish that the train will arrive.",
+    "1.1.11": "<strong>Efficiency in Dialogue:</strong> Record the agreed usage and the remaining disagreement. Then discuss the evidence or reasons at issue. Reopen a definition when it produces a misleading inference, rather than renegotiating every word whenever the conclusion becomes unwelcome.",
+    "1.1.13": "The essay offers a useful method for reducing verbal friction, provided its replacements are understood as explicit working conventions. A short glossary, one agreed example and one counterexample give the proposal a practical test: does it reveal a disagreement about evidence, or merely hide it behind a new term?",
+    "1.2.0": "Logical Coherence: A workable proposal with substantive choices",
+    "1.2.1": "The three methods are clearly distinguished, and collaboration offers an intelligible response to semantic confusion. However, the examples do more than simplify wording: replacing knowledge with high credence and fact with expert agreement changes what those terms claim. The argument needs that choice to be explicit, not treated as a neutral discovery about their meanings.",
+    "1.2.7": "<strong>Acknowledges an implementation cost:</strong> The essay recognizes the effort needed before discussion begins. The further question is whether a stable local glossary saves enough later clarification to justify that effort.",
+    "1.2.9": "<strong>Specificity of first-order terms:</strong> “Credence” needs an agreed subject, proposition and time. A scale from 0 to 1 can represent confidence without making someone’s actual confidence precisely measurable. Here “first-order” means basic within this glossary, not the separate technical distinction used in logic.",
+    "1.2.11": "<strong>Potential for loss of distinctions:</strong> Consider a sealed envelope containing a red or blue card. Everyone may confidently expect red while the card is blue. Consensus and confidence are features of the observers; the card’s colour is what makes their claim accurate or inaccurate.",
+    "1.2.12": "Try the method on one disputed claim, with an agreed paraphrase and a case on which that paraphrase fails. Keep the simplification if it clarifies who believes what and why. Use an additional term when a single credence figure cannot express a distinction the discussion needs.",
+    "1.3.3": "The examples make the proposed method intelligible, but their usefulness does not establish that the replacements are equivalent to the original concepts. High confidence and expert agreement can be precisely described even when the proposition is false.",
+    "1.3.5": "The progression from diagnosing ambiguity to proposing a shared vocabulary is clear. The promised increase in productivity remains a hypothesis to test in dialogue, rather than a consequence proved by the definitions.",
+    "1.3.9": "The proposed knowledge and fact definitions help expose degrees of confidence and the role of expertise. Their value is greatest when they replace vague appeals to authority with inspectable claims, not when expert agreement becomes a substitute for assessing the proposition.",
+    "1.3.13": "Reducing terms can remove a useful distinction: an unsupported 0.95 credence and a well-supported 0.95 credence occupy the same point on the scale. The support therefore needs its own description.",
+    "1.3.14": "Agreement on primitives may itself be difficult. Keep the glossary provisional, and distinguish agreeing to use a phrase from agreeing with a philosophical theory embedded in it.",
+    "1.3.15": "The proposal is promising as a discipline of explicit paraphrase. Its strongest test is whether participants can state their remaining disagreement more accurately after translation. Agreement produced only by suppressing a disputed distinction would not meet that test.",
+    "2.1.1": "The following eleven entries keep the original sequence. Treat “first-order” as a locally agreed starting vocabulary, not as an established hierarchy of all epistemological concepts. Some entries can be unpacked around credence; others require evidence, inference or truth as separate anchors.",
+    "2.1.2": "<strong>2nd-Order Concept:</strong> Knowledge<br/><strong>Working phrase:</strong> High credence supported by stated reasons, when using the curator’s practical convention.",
+    "2.1.3": "<strong>Rationale:</strong> This makes the strength and basis of a claim visible. It is not equivalent to factive knowledge, which excludes falsehood. A person can be highly confident for apparently good reasons and still be wrong. For the broader philosophical dispute, see the <a href=\"https://plato.stanford.edu/entries/knowledge-analysis/\">analysis of knowledge</a>.",
+    "2.1.5": "<strong>Rationale:</strong> This is useful for graded belief. When “belief” means categorical acceptance, separately state whether the person accepts the proposition for assertion or reasoning. The relation between those attitudes and graded confidence is contested; assigning a number does not settle it.",
+    "2.1.6": "<strong>2nd-Order Concept:</strong> Truth<br/><strong>Working phrase:</strong> The proposition’s being as it says things are, rather than anyone’s confidence in it.",
+    "2.1.7": "<strong>Rationale:</strong> This modest working use keeps correctness separate from an estimate of correctness. “The card is blue” can be true before anyone opens the envelope. It therefore cannot be faithfully collapsed into maximum credence or unanimous agreement. A complete theory of truth remains outside this glossary.",
+    "2.1.8": "<strong>2nd-Order Concept:</strong> Fact<br/><strong>Working phrase:</strong> For the essay’s stipulated usage, a proposition assigned high credence by most relevant experts.",
+    "2.1.9": "<strong>Rationale:</strong> The phrase identifies an expert-consensus claim. State the field, proposition, date and evidence for that consensus. When “fact” means an actual state of affairs or a true proposition, preserve that different meaning: acceptance by experts is evidence to assess, not what makes the state of affairs obtain.",
+    "2.1.10": "<strong>2nd-Order Concept:</strong> Evidence<br/><strong>Working phrase:</strong> Information that bears on how much credence a proposition deserves, given relevant background assumptions.",
+    "2.1.11": "<strong>Rationale:</strong> Evidence may support or undermine a claim. A broken seal can reduce confidence that an envelope’s contents are unchanged. Persuasive rhetoric may raise actual confidence without providing evidence, so the phrase concerns warranted revision rather than any psychological effect.",
+    "2.1.12": "<strong>2nd-Order Concept:</strong> Demonstration<br/><strong>Working phrase:</strong> An inspectable presentation of reasoning or a procedure offered to establish a specified claim.",
+    "2.1.13": "<strong>Rationale:</strong> State what was shown and under which conditions. A demonstration of one device working is evidence about that trial; it does not establish that every device will work. Increased confidence is a possible result, not the criterion that makes the demonstration adequate.",
+    "2.1.14": "<strong>2nd-Order Concept:</strong> Proof<br/><strong>Working phrase:</strong> In a specified formal system, a derivation from its premises or axioms using its permitted inference rules.",
+    "2.1.15": "<strong>Rationale:</strong> Valid steps do the work, not the audience’s conviction. A persuasive invalid argument is not a formal proof. In empirical or ordinary uses of “proof,” state the relevant evidential standard instead of importing the formal sense automatically.",
+    "2.1.17": "<strong>Rationale:</strong> This addresses epistemic rationality: how well confidence responds to reasons. Mere consistency permits coherent but poorly supported beliefs. Decisions also involve goals and consequences, which this credence-based phrase does not by itself evaluate.",
+    "2.1.19": "<strong>Rationale:</strong> This is an evidential use of “reasonable.” Disagreement can remain over what the available evidence supports, so name the evidence and the standard rather than treating the adjective as a certificate of correctness.",
+    "2.1.20": "<strong>2nd-Order Concept:</strong> Assent to<br/><strong>Working phrase:</strong> Accept a proposition as true for the purpose under discussion, while separately reporting confidence.",
+    "2.1.21": "<strong>Rationale:</strong> Acceptance is not just any significant credence. Someone can assign a proposition substantial probability yet withhold assent. An agreed threshold is a local rule, not a universal feature of belief.",
+    "2.1.22": "<strong>2nd-Order Concept:</strong> Confidence<br/><strong>Working phrase:</strong> Degree of credence in a specified proposition; for trust in a source, specify what performance is expected.",
+    "2.1.23": "<strong>Rationale:</strong> Confidence can be low as well as high. Confidence in a report and confidence in the reporter’s general reliability answer different questions. Keeping the object explicit prevents one from standing in for the other.",
+    "2.1.25": "Parsimony helps when each replacement exposes the claim’s components. It fails when truth, justification and agreement become different names for confidence. Use credence where it clarifies the attitude, and retain additional anchors where the argument depends on them.",
+    "2.2.0": "<strong>Truth:</strong> High expert credence can replace “accepted as true by these experts,” but cannot by itself replace “true.” An expert community can agree and still be mistaken. This proposed collapse therefore needs a scope label; otherwise it erases the possibility of correcting a consensus.",
+    "2.2.1": "<strong>Misconception:</strong> “An inaccurate conception of the matter.” If it is also strongly held despite counterevidence, describe that additional feature through credence. Lack of justification alone does not establish falsity, and a misconception need not be confidently held.",
+    "2.2.2": "<strong>Doubt:</strong> “Reservation about accepting a proposition, with its grounds and degree specified.” Conflicting evidence may cause doubt, but so may missing information. A person can retain fairly high credence while doubting enough to seek another check.",
+    "2.2.4": "<strong>Agreement:</strong> “Matching judgments about the same specified issue.” Matching credences are one case; shared acceptance is another. Two people can agree on a probability while recommending different actions because they face different consequences. Specify what they agree about before claiming convergence.",
+    "2.3.1": "<strong>Justification → Reasons that warrant the assigned credence.</strong><br/>Rationale: The fit between support and confidence matters, not merely the presence of a supporting reason. A low credence can be well justified. This formulation leaves the standards for good reasons open to further discussion.",
+    "2.3.3": "<strong>A priori knowledge → Knowledge whose justification does not depend on experience.</strong><br/>Rationale: The distinction concerns the source of justification, not a confidence threshold. Experience may still be needed to acquire the concepts. A credence-based discussion can describe confidence justified a priori, but should not call every extremely confident hunch a priori knowledge. See <a href=\"https://plato.stanford.edu/entries/apriori/\">a priori justification</a>.",
+    "2.3.4": "<strong>Certainty → Maximal credence, when psychological certainty is intended.</strong><br/>Rationale: On a 0–1 probability scale, maximal means 1; a value close to 1 still leaves doubt. Evidential certainty is a separate claim about the adequacy of support. Feeling no doubt does not establish it.",
+    "2.3.5": "<strong>Validity → No possible case, under the specified interpretation, in which all premises are true and the conclusion false.</strong><br/>Rationale: This describes deductive validity. It does not require that the actual premises are true, and it is not measured by persuasiveness. Other kinds of good reasoning may support a conclusion without deductively guaranteeing it.",
+    "2.3.6": "These phrases reduce hidden commitments only if the anchors are themselves understood. The <a href=\"https://plato.stanford.edu/entries/formal-belief/\">formal representation of belief</a> distinguishes categorical belief from degrees of belief; neither should silently replace the other. A compact glossary can record that distinction without resolving every theory of belief.",
+    "3.1.0": "<strong>Degree of Semantic Dissent: Very High, provisionally.</strong><br/><strong>Explanation:</strong> “Knowledge” raises disputes about truth, belief, justification and epistemic luck. The following twelve-place order is an illustrative prioritization for discussion, not a measured ranking of populations or disciplines. The three responses rank different lists differently.",
+    "3.1.3": "<strong>Degree of Semantic Dissent: High.</strong><br/><strong>Explanation:</strong> “Fact” may name an actual state of affairs, a true proposition or a claim treated as settled. Disagreement about which facts obtain must be separated from disagreement about what the word means.",
+    "3.1.8": "<strong>Degree of Semantic Dissent: Moderate.</strong><br/><strong>Explanation:</strong> “Confidence” may concern a proposition, a method or one’s ability to perform a task. Numerical expression can help comparison only after the object and scale are agreed.",
+    "3.1.11": "<strong>Degree of Semantic Dissent: Low in this proposed ordering.</strong><br/><strong>Explanation:</strong> “Credence” commonly means degree of belief, but its measurement and relation to acceptance remain disputed. Calling it a primitive in this conversation does not remove those questions.",
+    "3.1.13": "Use this ordering to choose which terms to clarify first, then revise it for the actual participants. Disagreement about a theory, disagreement about the evidence and disagreement about word use can occur together; they should not be counted as the same phenomenon.",
+    "3.2.1": "Here is a ten-term working ranking, prioritizing terms with competing definitions and different consequences for what speakers accept. It is a reasoned discussion aid, not an empirical estimate of how often each term causes disagreement:",
+    "3.2.3": "<strong>Truth:</strong> Speakers dispute theories of truth and sometimes shift between “true,” “believed” and “accepted here.” A subjective subject matter, such as someone’s taste, does not by itself make every statement about it true for whoever asserts it.",
+    "3.2.7": "<strong>Reasonableness:</strong> The word can assess evidence, conduct or practical choices. A conclusion reached through a poor inference might nevertheless have good independent support; that would not repair the inference.",
+    "3.2.8": "<strong>Evidence:</strong> Disciplines and questions differ in what bears on a claim and how strongly. An experiment, an argument and testimony do different work; there is no single opposition in which philosophy simply demands more than science.",
+    "3.2.11": "<strong>Fact:</strong> An established claim and the state of affairs it describes are easily conflated. Context changes what is being claimed or counted as established; it does not make the underlying state of affairs depend on our confidence.",
+    "3.3.0": "This seven-term ranking is a provisional judgment about potential for confusion, with truth placed first. It is not survey evidence. The subpoints explain sources of controversy; some concern theories and standards rather than the meanings of words alone:",
+    "3.3.10": "Foundationalism versus coherentism: whether justification ultimately depends on basic beliefs or on relations of support within a system.",
+    "3.3.11": "Internalism versus externalism: whether justification depends only on factors accessible from the person’s perspective or can depend on external conditions such as reliability.",
+    "3.3.19": "How to distinguish and weigh evidence, including whether repeated reports are independent or copied from one source.",
+    "3.3.22": "Belief as a standing disposition, a presently entertained attitude or a degree of confidence.",
+    "3.3.23": "Whether people can choose their beliefs directly; a substantive dispute that need not be a disagreement over the word’s meaning.",
+    "3.3.27": "The analytic–synthetic distinction: whether a claim’s truth depends on meaning alone or on how the world is, and how this relates to justification without experience.",
+    "3.3.29": "The ordering highlights terms worth unpacking, not a settled hierarchy of dissent. Test it by asking participants for definitions and contrasting examples, then distinguish incompatible meanings from incompatible claims made with a shared meaning.",
+    "4.1.2": "<strong>Epistemologist B:</strong> That scale works as a representation of confidence, though we may only be able to give a range. For belief, shall we use credence here and flag occasions when we mean outright acceptance?",
+    "4.1.3": "<strong>Epistemologist A:</strong> Yes. For knowledge, the essay’s practical convention is high credence with stated support. We should label that convention, because someone using knowledge to require truth is making a further claim.",
+    "4.1.4": "<strong>Epistemologist B:</strong> Agreed. That also makes me cautious about truth: maximum credence cannot define it. We can be completely confident and mistaken. Shall we reserve true for the proposition’s being as it says things are?",
+    "4.1.5": "<strong>Epistemologist A:</strong> Yes, as a working use rather than a complete theory of truth. For fact, the essay suggests high credence among relevant experts. We could use that phrase when we mean an expert-consensus claim.",
+    "4.1.6": "<strong>Epistemologist B:</strong> Provided we distinguish it from a fact in the sense of an actual state of affairs. For evidence, let’s mean information bearing on how much confidence the proposition deserves, whether it supports or undermines it.",
+    "4.1.7": "<strong>Epistemologist A:</strong> That includes evidence against our preferred claim. For epistemic rationality, let’s ask whether our credences and revisions fit the evidence and our stated inference rules.",
+    "4.1.8": "<strong>Epistemologist B:</strong> And reasonable, in this discussion, can mean proportionate to the available evidence. We still need to explain why that evidence warrants a particular degree of confidence.",
+    "4.1.9": "<strong>Epistemologist A:</strong> Agreed. For proof, can we distinguish a formal derivation using permitted rules from strong empirical support? Calling both proof without qualification would restore the ambiguity.",
+    "4.1.10": "<strong>Epistemologist B:</strong> Yes. A formal proof does not depend on convincing us. A demonstration can instead be an inspectable presentation of reasoning or a procedure, with its scope stated.",
+    "4.1.11": "<strong>Epistemologist A:</strong> Then a demonstration of one device working establishes less than a claim about every device. Finally, confidence can mean degree of credence, including low confidence; trust in a source needs its own specified claim.",
+    "4.1.12": "<strong>Epistemologist B:</strong> That gives us a useful draft glossary. Let’s test it on one case before treating it as settled: if every expert expects a red card but the envelope contains blue, confidence and truth come apart.",
+    "4.1.13": "<strong>Epistemologist A:</strong> And we can describe that case without abandoning the essay’s goal. Let’s retain the useful translations, mark their limits and revise the glossary when a new case exposes an ambiguity.",
+    "4.2.4": "<strong>Emi:</strong> Perhaps “evidence” would work: observations, data and testimony that bear on a proposition. We should distinguish what deserves to influence credence from what merely persuades us.",
+    "4.2.8": "<strong>Emi:</strong> Let’s define justification as having reasons adequate for the degree of credence assigned. Strong evidence can justify high confidence, but limited evidence might justify only a cautious estimate.",
+    "4.2.9": "<strong>Nadia:</strong> That helps: a justified 0.4 credence is possible, so justification does not simply mean strong belief. How should we handle testimony from specialists?",
+    "4.2.11": "<strong>Nadia:</strong> Yes, provided we identify the relevant experts and ask whether their judgments draw on independent evidence. Ten people repeating one untested report do not give us ten independent confirmations.",
+    "4.2.12": "<strong>Emi:</strong> So proposition, credence and evidence are our initial anchors; justification describes their fit, and community of inquiry identifies whose judgments we are considering. Agreement within that community remains assessable evidence, not a definition of truth.",
+    "4.2.13": "<strong>Nadia:</strong> Let’s try this on the proposition that a particular train will arrive on time. We can compare our confidence, the timetable and recent service reports before deciding whether our disagreement over “knowledge” is verbal or evidential.",
+    "4.3.4": "<strong>A:</strong> I suggest “one’s degree of confidence that a specified proposition is true,” represented by a probability when that is useful. Low credence in that proposition can coexist with high credence in its negation.",
+    "4.3.6": "<strong>A:</strong> Then let’s use “one’s dispositional or standing degree of confidence that a specified proposition is true.” We can distinguish that from a belief actively entertained at this moment.",
+    "4.3.8": "<strong>A:</strong> With credence as an agreed starting point, knowledge might be unpacked as very high credence in a true proposition. The essay’s highest-decile threshold would make the confidence requirement explicit. Would that suffice?",
+    "4.3.9": "<strong>B:</strong> It would not distinguish an informed judgment from a lucky guess. Imagine confidently naming the colour of a concealed card without evidence and happening to be right. We need to say how the confidence was supported.",
+    "4.3.10": "<strong>A:</strong> Then “a true proposition accepted on the basis of adequate reasoning and reliable evidence evaluation” is a better starting phrase. But adequate, reliable and accepted still need clarification; we have not reduced everything to credence.",
+    "4.3.11": "<strong>B:</strong> Agreed as a provisional description, not a complete analysis of knowledge. We also need to test whether the truth was accidental relative to the person’s reasons. Let’s record that unresolved issue rather than disguise it as agreement.",
+    "4.3.12": "<strong>A:</strong> That is progress: the original proposal now gives us a way to locate a substantive disagreement instead of repeatedly exchanging the word knowledge.",
+    "4.3.14": "<strong>A:</strong> Yes. Let’s keep a small glossary with an example and a limitation for each entry. We can reduce verbal disputes without requiring every philosophical question to be settled in advance.",
+    "5.1.8": "c) High credence with stated support, explicitly distinguished from factive knowledge.",
+    "5.1.15": "b) The proposition’s being as it says things are, rather than anyone’s confidence.",
+    "5.1.18": "a) Information that bears on how much credence a proposition deserves, supporting or undermining it.",
+    "5.1.35": "b) Degree of credence in a specified proposition, which can be low as well as high.",
+    "5.1.39": "b) An inspectable presentation of reasoning or a procedure, with its claim and scope stated.",
+    "5.1.43": "c) High credence with stated support, under the explicitly limited practical convention.",
+    "5.1.44": "a) Fact, in the essay’s stipulated expert-consensus sense; this is distinct from an actual state of affairs.",
+    "5.1.45": "b) The proposition’s being as it says things are; high confidence alone cannot establish this.",
+    "5.1.46": "a) Information bearing on warranted credence, including evidence against the proposition.",
+    "5.1.49": "a) Proof, in the formal sense; persuasion alone does not meet that standard.",
+    "5.1.50": "b) Degree of credence in a specified proposition, including low confidence.",
+    "5.1.51": "b) An inspectable presentation of reasoning or a procedure, with its claim and scope stated.",
+    "5.2.8": "Match these working phrases to their terms:<br/>a. Reasons adequate for the assigned credence<br/>b. Maximum psychological confidence<br/>c. Matching judgments about the same issue<br/>i. Justification<br/>ii. Certainty<br/>iii. Agreement",
+    "5.2.14": "Demanding that the interlocutor adopt one’s definitions; the essay considers this least likely to yield productive dialogue, though agreed technical tasks can justify a fixed vocabulary.",
+    "5.2.19": "One possible answer is “proposition”: the content whose truth is being assessed. “Evidence” can also be adopted as a local anchor if its use is agreed. No choice here establishes that the concept is philosophically primitive in every theory.",
+    "5.2.21": "It identifies whose expert judgments may bear on the claim, while leaving their relevance, independence and reliability open to assessment.",
+    "5.2.22": "Observations, data and testimony that bear on how much credence a proposition deserves, rather than everything that happens to change someone’s mind.",
+    "5.3.6": "Which term is placed first in Claude’s provisional seven-term ranking?",
+    "5.3.19": "One’s dispositional or standing degree of confidence that a specified proposition is true.",
+    "5.3.20": "Knowledge, as a provisional description whose support and epistemic-luck conditions still need examination.",
+    "6.1.8": "What does the essay’s high-credence convention for knowledge clarify, and what additional claim is made by someone who requires knowledge to be true?",
+    "6.1.9": "Can maximum confidence ever make a false proposition true? Use the concealed-card example to explain what a confidence-based definition would lose.",
+    "6.1.10": "When is the essay’s expert-consensus phrase useful, and how would you distinguish an accepted claim from an actual state of affairs?",
+    "6.1.11": "Why must a useful definition of evidence include information that undermines a proposition, and distinguish warranted revision from mere persuasion?",
+    "6.1.14": "How does a formal proof differ from an argument that produces maximal confidence in an audience? Give a case where the distinction matters.",
+    "6.2.5": "<strong>Granularity of first-order terms:</strong> How precise do these starting terms need to be for the particular disagreement being discussed? Can extra numerical precision sometimes mislead?",
+    "5.2.16": "First, the effort needed to learn the interlocutor’s terms; second, overlapping meanings that make equivocation or semantic drift easy."
+  },
+  "countChecks": [
+    {
+      "name": "1.1.ol original list counts",
+      "selector": "#prompt-1 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "1.1.ul original list counts",
+      "selector": "#prompt-1 .original-response[data-source-column=\"1\"] ul",
+      "child": "li",
+      "expected": [
+        3
+      ]
+    },
+    {
+      "name": "1.2.ul original list counts",
+      "selector": "#prompt-1 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "1.3.ul original list counts",
+      "selector": "#prompt-1 .original-response[data-source-column=\"3\"] ul",
+      "child": "li",
+      "expected": [
+        4,
+        4,
+        3
+      ]
+    },
+    {
+      "name": "2.2.ol original list counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        5
+      ]
+    },
+    {
+      "name": "2.3.ol original list counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"3\"] ol",
+      "child": "li",
+      "expected": [
+        5
+      ]
+    },
+    {
+      "name": "3.2.ol original list counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        10
+      ]
+    },
+    {
+      "name": "3.3.ol original list counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"3\"] ol",
+      "child": "li",
+      "expected": [
+        7
+      ]
+    },
+    {
+      "name": "3.3.ul original list counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"3\"] ul",
+      "child": "li",
+      "expected": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "5.1.ol original list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        10,
+        10
+      ]
+    },
+    {
+      "name": "5.1.ul original list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"1\"] ul",
+      "child": "li",
+      "expected": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "5.2.ol original list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        10,
+        10,
+        1
+      ]
+    },
+    {
+      "name": "5.3.ol original list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"3\"] ol",
+      "child": "li",
+      "expected": [
+        10,
+        10
+      ]
+    },
+    {
+      "name": "6.1.ol original list counts",
+      "selector": "#prompt-6 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    },
+    {
+      "name": "6.2.ol original list counts",
+      "selector": "#prompt-6 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    },
+    {
+      "name": "6.3.ol original list counts",
+      "selector": "#prompt-6 .original-response[data-source-column=\"3\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    }
+  ],
+  "responseDecisions": {
+    "1.1": "Retained three-method assessment structure and benefits; replaced unqualified endorsement with explicit local conventions, a confidence example and a practical test. Curator essay remains untouched.",
+    "1.2": "Retained strengths/considerations lists; corrected overclaim that all steps are established, clarified first-order usage and tested confidence against the concealed-card case.",
+    "1.3": "Retained coherence/value/limitations progression; distinguished a plausible method from proved effectiveness and explained support versus confidence.",
+    "2.1": "Kept all eleven concepts and their separate phrase/rationale positions; repaired truth, fact, evidence, proof, demonstration, assent and confidence, while bounding knowledge and rationality.",
+    "2.2": "Kept all five concepts; corrected truth/consensus, misconception/falsity, doubt/low confidence and kinds of agreement. Retained reasonableness as an explicitly working phrase.",
+    "2.3": "Kept five concepts; repaired justification, a priori, certainty and deductive validity; retained evidence-responsive rationality and added linked reading on belief representations.",
+    "3.1": "Kept twelve ranks and order; labeled provisional, distinguished semantic/theoretical disputes and revised fact/confidence/credence explanations.",
+    "3.2": "Kept ten ranks and order; replaced subjective-truth and discipline-wide evidence overclaims with specific distinctions.",
+    "3.3": "Kept seven ranks with three subpoints each; labeled heuristic, unpacked technical distinctions and separated voluntary-belief controversy from semantics.",
+    "4.1": "Kept thirteen alternating A/B turns and original concept progression; repaired false reductions and introduced a test case, with provisional agreement.",
+    "4.2": "Kept fourteen Emi/Nadia turns; retained proposition/credence/evidence opening, repaired high-confidence justification and tested expert agreement and train example.",
+    "4.3": "Kept fifteen A/B turns and existing negotiation; clarified standing credence, added lucky-guess challenge and left knowledge analysis explicitly unresolved.",
+    "5.1": "Kept ten three-option questions and ten end-position keys; revised dependent wording and answers together to match corrected first dialogue and essay convention.",
+    "5.2": "Kept ten questions and end keys, including nested answer to question three; corrected unsupported understanding matching item and unsuitable primitive-term examples.",
+    "5.3": "Kept ten questions and keys; specified which ranking is tested and aligned credence/knowledge answers with third dialogue.",
+    "6.1": "Kept fifteen questions; repaired five questions that presupposed truth/credence, consensus/fact, evidence-only-support or persuasion/proof equivalence.",
+    "6.2": "Kept fifteen questions; retained useful challenges to universality, authority, teaching and cross-field use, repaired malformed Markdown and sharpened precision question.",
+    "6.3": "Reviewed and retained all fifteen discussion questions verbatim: they directly test costs, cross-cultural use, framework differences, rankings and alternatives without assuming the proposed reduction succeeds."
+  },
+  "pageSignals": {
+    "Page form": "Edited original conversation"
+  },
+  "leadingTextReplacements": {
+    "5.1.5": "How is knowledge treated under the explicitly limited practical convention in the first dialogue?",
+    "5.1.9": "Which term does the essay stipulate as a proposition assigned high credence by most relevant experts?",
+    "5.1.29": "Which term, in its formal sense, names a derivation using permitted inference rules?"
+  },
+  "highlights": [
+    "Among non-philosophers, discussions on epistemology are fraught with denotative and connotative differences for core terms that make progress difficult.",
+    "Accommodate the denotations of your interlocutor. This will require that you learn the terms they assign to various epistemological concepts, assess their constellation of epistemological terms for internal logical coherence , and engage in subsequent dialogues on epistemology with consistency in the way you employ terms.",
+    "In collaboration with your interlocutor, collapse as many 2nd-order epistemological concepts as possible into “1st-order” terms . Definition: 2nd-order concepts are semantic derivatives of 1st-order concepts that are far more conceptually primitive.",
+    "While this third method does have significant overhead such as a focused prelude to establish mutually agreed upon denotations, the subsequent discussions can avoid the paralyzing degree of semantic mire that many dialogues on epistemology suffer."
+  ]
+}
