@@ -1,0 +1,195 @@
+{
+  "wordpressId": 3683,
+  "pageFile": "epistemology/doxastic-voluntarism/index.html",
+  "snapshot": "doxastic-voluntarism-wordpress-3683.html",
+  "sourceSha256": "bc807e5eb692d8935dc6618a85e947010c9f489a534c055dcfebb5ce81ec0d13",
+  "sourceUrl": "http://byteseismic.com/2024/03/14/doxastic-voluntarism/",
+  "sourceLabel": "Original WordPress conversation, 2024-03-14",
+  "shellRevision": "4543e8d6eb62289670185840a546496b332d1f90",
+  "date": "2026-10-12",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "Choosing belief and directing inquiry",
+    "Arguments about control and responsibility",
+    "What cognitive research can establish",
+    "Two seven-question quizzes with end-position answers",
+    "Two sets of twelve discussion questions"
+  ],
+  "introHeading": "Original conversation · editorial edition",
+  "intro": "The five original prompts and both response tracks are preserved. The conversation distinguishes direct choice of belief from influence over inquiry, tests arguments about responsibility, and asks what cognitive research can establish. Its original quizzes and discussion questions follow.",
+  "description": "Can we choose our beliefs? Direct and indirect control, responsibility, limits of cognitive evidence, and the original quizzes and discussion questions.",
+  "replacements": {
+    "1.1.0": "Doxastic voluntarism concerns whether belief is subject to voluntary control. “Doxastic” derives from the Greek <em>doxa</em>, belief or opinion. The question matters for responsibility, but does not by itself settle when someone deserves blame: a false belief may be reasonable given the evidence available. Two kinds of control should be distinguished.",
+    "1.1.1": "<strong>Direct doxastic voluntarism</strong> holds that we can, at least in some circumstances, form a belief through an immediate act of will. Choosing to believe that it will rain is different from deciding to carry an umbrella or saying that it will rain. Strong versions allow broad choice; more limited versions concern cases of uncertain evidence. Failure to believe an obvious falsehood on command does not refute every limited version.",
+    "1.1.2": "<strong>Indirect doxastic voluntarism</strong> concerns influence through other choices: consulting a forecast, checking its reliability, or listening to a serious objection. These can change the evidence we encounter and how we assess it, without letting us prescribe the resulting belief. Access to information, time and freedom from coercion limit that influence. Deliberately avoiding contrary evidence can also shape belief, but influence is not the same as responsible inquiry.",
+    "1.2.2": "<strong>Direct doxastic voluntarism:</strong> Can deciding make a proposition seem true to you? Try believing that a visibly empty glass contains water merely for a reward. Pretending, hoping and reporting belief do not meet that challenge. This is an objection to unrestricted direct control; defenders of more limited control need not claim that every belief can be switched at will.",
+    "1.2.3": "<strong>Indirect doxastic voluntarism:</strong> You can inspect the glass in better light or ask someone else to check. Those actions may change your belief through new evidence. You choose an investigative step, not necessarily its result. Choosing only reassuring testimony would also influence the process, but could make it less reliable.",
+    "1.2.4": "The ethical question is where responsibility belongs: in the belief itself, in avoidable neglect of evidence, or in a capacity to respond to reasons. These are different proposals. Lack of direct choice does not make a belief unjustified: seeing a glass clearly may justify believing it is empty even if that belief forms without a decision. Nor does discovering an error automatically establish culpability.",
+    "2.1.2": "<strong>Moral Responsibility:</strong> If praise or blame requires control, and some beliefs deserve it, there must be relevant control somewhere. This is a conditional argument, not proof of direct choice: one might instead locate responsibility in inquiry, defend another account of responsibility, or reject the proposed blame. Whether a person could reasonably have checked matters more than simply noting that the belief was false.",
+    "2.1.3": "<strong>Intuitive Examples of Belief Control:</strong> Self-deception and wishful thinking appear to show desire shaping belief. A person may repeatedly consult flattering reports and avoid criticism. That could involve chosen avoidance, unchosen distortion, or both. A belief’s serving a desire does not establish that the person consciously chose to believe it.",
+    "2.1.4": "<strong>Practical Rationality:</strong> A useful belief may encourage persistence or cooperation. This gives someone a reason to want it, but wanting a belief is different from being able to adopt it, and usefulness is different from evidence of truth. Deliberately attending to genuine reasons for confidence can influence belief; acting on a working assumption need not involve believing it outright.",
+    "2.1.6": "<strong>Evidentialism:</strong> Evidentialism concerns justification: roughly, whether a belief fits the person’s evidence. It is not the psychological thesis that all belief is involuntary or evidence-determined. The relevant objection to direct choice is that, when sincerely deciding whether a proposition is true, we normally look for reasons to regard it as true rather than reasons we would benefit from believing it. Keep that objection separate from the standard of justification.",
+    "2.1.7": "<strong>Psychological Compulsion:</strong> Some beliefs resist a contrary decision. Looking into the empty glass, you may find that a promised reward cannot make water seem present. This is evidence against unrestricted command over belief, not a demonstration that no belief can ever be voluntarily formed in more ambiguous circumstances.",
+    "2.1.8": "<strong>Conceptual Arguments:</strong> A familiar argument says that belief represents something as true, whereas merely deciding to treat it as true may amount only to acceptance or pretense. The disputed step is whether this truth-directed character rules out voluntary formation in every case. No general principle of sufficient reason establishes that all actual beliefs must be rational or compelled by adequate evidence.",
+    "2.1.9": "<strong>Limited Scope of Voluntariness:</strong> Choosing the conditions of inquiry does not guarantee control over its conclusion. Someone can choose to read a convincing refutation and then find belief changing unbidden. That limits the strength of indirect control, but does not refute the weaker claim that chosen inquiry can influence belief. Calling this an objection to all indirect influence would miss its target.",
+    "2.1.10": "The dispute is not resolved by averaging the two sides. Specify the proposed control, its circumstances and what would count as exercising it. Then ask separately whether the person had fair opportunities to inquire, whether the resulting belief was justified, and what kind of responsibility those facts support.",
+    "2.2.1": "<strong>Intuitions of Control:</strong> Deliberation can feel like an exercise of agency: we compare reasons and settle a question. This supports taking reasoning seriously as something a person does. It does not establish that one can select either conclusion at will while finding the same evidence compelling.",
+    "2.2.3": "<strong>Belief Revision:</strong> Changing one’s mind for a reason may be an exercise of rational agency without being a choice of belief on demand. In <a href=\"https://eprints.soton.ac.uk/374091/\">McHugh’s account of attitudinal control</a>, responsiveness to reasons provides a distinct form of control. That is a philosophical proposal about agency, not evidence that people can freely choose any conclusion.",
+    "2.2.5": "<strong>The Role of Evidence:</strong> Evidence can make an unwelcome conclusion hard to escape: checking an account may convince you that you cannot afford a trip. This challenges the idea that desire alone controls belief. It does not imply that everyone responds correctly to evidence or that the same evidence always produces the same judgment.",
+    "2.2.6": "<strong>Unconscious Influences:</strong> Upbringing, habits and emotional responses can shape belief without a present decision. Their existence challenges complete conscious control. It leaves open whether someone can later recognize an influence, reassess the evidence or exercise more limited control.",
+    "2.2.7": "<strong>The Paradox of Belief:</strong> Why do we retain distressing beliefs if we could choose comforting ones? This challenges unrestricted comfort-seeking control, but is not a decisive paradox. A person might value accuracy more than comfort, and limited voluntarism does not promise control in every case.",
+    "2.2.8": "The central distinction is between being responsive to reasons, choosing how to investigate, and selecting a conclusion independently of what seems true. Evidence for one does not automatically establish the others. Responsibility must be argued for at the relevant level rather than inferred from a general feeling of control.",
+    "3.1.0": "Cognitive science studies processes that bear on belief control; it does not speak with a single position on the philosophical thesis. Experiments can test effects of distraction, goals, information and instructions on judgments. Interpreting those results as direct choice, indirect influence or a limit on control requires an additional argument. The following distinctions keep that argument visible.",
+    "3.1.1": "<strong>Belief Formation as a Cognitive Process:</strong> In <a href=\"https://dtg.sites.fas.harvard.edu/Gilbert%20et%20al%20%28EVERYTHING%20YOU%20READ%29.pdf\">Gilbert, Tafarodi and Malone’s 1993 experiments</a>, false information affected judgments more under cognitive load or time pressure. The authors interpreted this as evidence for initial acceptance followed by effortful rejection. The result concerns those tasks and that interpretation; it does not show that every belief is automatically accepted or that direct control is conceptually impossible.",
+    "3.1.2": "<strong>The Role of Cognitive Biases:</strong> Biased evaluation can make a conclusion feel evidence-based even when the inquiry is selective. This complicates simple appeals to “what I chose to believe.” To establish voluntary influence, distinguish an unchosen bias from a deliberate decision about which evidence to examine; finding the first does not establish the second.",
+    "3.1.3": "<strong>Neuroscience of Belief:</strong> A neural correlate—a pattern of brain activity associated with a judgment—does not by itself show that the judgment is involuntary. Deliberate actions also involve brain activity. A study relevant to voluntarism would need to distinguish genuine belief change from changes in reporting or compliance and test the proposed kind of control. Merely locating a process in the brain cannot settle the issue.",
+    "3.1.4": "<strong>Influence of Social and Environmental Factors:</strong> Other people supply evidence and exert pressure, but those pathways differ. A person may report agreement to avoid conflict without privately believing the claim. To interpret a social influence as belief change, a study must distinguish public compliance from private judgment and consider whether the information itself was informative.",
+    "3.1.5": "<strong>Possibilities for Indirect Influence:</strong> <a href=\"https://pubmed.ncbi.nlm.nih.gov/6527215/\">Lord, Lepper and Preston’s 1984 experiments</a> tested instructions to consider the opposite in biased assimilation and hypothesis testing. Their findings support the possibility of improving some judgments through a procedure. They do not establish that any desired belief can be produced, that all training generalizes, or that merely encountering disagreement guarantees correction.",
+    "3.1.6": "These studies help constrain claims about effortless belief choice and identify possible routes for influencing inquiry. They do not supply a scientific vote for one comprehensive theory of responsibility. A fair assessment asks what the task measured, whether a change persisted, and whether it reflected changed conviction rather than an answer given to satisfy the experimenter.",
+    "3.2.1": "Findings relevant to indirect influence:",
+    "3.2.2": "<strong>Confirmation Bias:</strong> Selective searching can shape the evidence encountered. Deliberately adding a serious contrary source is one possible intervention. But biased searching may also happen without awareness, so the existence of confirmation bias is not itself proof of voluntary control.",
+    "3.2.3": "<strong>Motivated Reasoning:</strong> Wanting a conclusion can influence which reasons seem persuasive. That influence may occur without a decision to believe the conclusion. Motivation, conscious strategy and actual belief change must therefore be distinguished.",
+    "3.2.4": "<strong>Attention and Memory:</strong> Choosing to reread an argument, check a record or compare alternatives can alter later judgment. One cannot infer from these choices complete control over what is noticed, remembered or ultimately believed. They are candidate routes of indirect influence, with results to be checked.",
+    "3.2.5": "Findings that limit claims of unrestricted direct control:",
+    "3.2.6": "<strong>Heuristics and Biases:</strong> Shortcuts can affect judgment without being chosen. Their presence makes complete conscious control implausible, but neither every shortcut nor every resulting judgment is wrong. A specific task must establish which influence occurred.",
+    "3.2.7": "<strong>Emotional Influences:</strong> An emotional reaction may change which risks feel salient without being summoned at will. It may also direct attention to a real concern. Showing an emotional influence therefore does not by itself prove either irrationality or the impossibility of all voluntary belief formation.",
+    "3.2.9": "The available distinction is between influencing an inquiry and commanding its conclusion. Cognitive research can test particular routes of influence; it does not license the stronger claim that a person can make any proposition believable by deciding to do so.",
+    "3.2.10": "A useful future experiment would compare belief reports before and after a chosen strategy, check incentives to merely report compliance, and test persistence beyond the immediate task. Its result would bear on a specified form of control, not settle the whole debate at once.",
+    "4.1.5": "Which claim states evidentialism as used in this discussion?<br>A. Beliefs always form involuntarily.<br>B. A belief’s justification depends on how it fits the evidence.<br>C. Useful beliefs are automatically true.<br>D. Brain activity rules out voluntary action.",
+    "4.1.6": "What follows from finding brain activity associated with a belief?<br>A. The belief is certainly chosen.<br>B. Neural association alone does not settle voluntary control.<br>C. Social factors cannot affect it.<br>D. The belief must be false.",
+    "4.1.8": "Which finding would support a limited form of indirect influence?<br>A. People can choose any belief directly.<br>B. All biases are eliminated.<br>C. A chosen inquiry procedure changes subsequent judgments.<br>D. Beliefs have no connection to brain processes.",
+    "4.1.13": "B. Evidentialism concerns justification by evidence; it is not a theory that every belief forms involuntarily.",
+    "4.1.14": "B. Both voluntary and involuntary processes can have neural correlates.",
+    "4.1.16": "C. A chosen inquiry procedure can influence later judgment without guaranteeing a desired belief.",
+    "4.2.3": "Which choice most clearly illustrates indirect influence through attention?<br>a) Deciding that evidence-free optimism is true<br>b) Commanding a memory to become accurate<br>c) Reading and comparing a serious counterargument<br>d) Merely announcing agreement",
+    "4.2.6": "Which practice could counter selective confirmation seeking?<br>a) Examining relevant disconfirming evidence<br>b) Ignoring every contradictory report<br>c) Claiming neutrality without inquiry<br>d) Replacing evidence with a desired conclusion",
+    "4.2.7": "Why does an emotional influence on judgment fail to settle the entire voluntarism debate?",
+    "4.2.10": "Direct control over at least some beliefs in specified circumstances. Unrestricted versions claim more; direct voluntarism need not imply complete control over every belief.",
+    "4.2.11": "c) Reading and comparing a serious counterargument. This chooses an inquiry step rather than its conclusion.",
+    "4.2.14": "a) Examining relevant disconfirming evidence may improve inquiry; it does not guarantee unbiased belief.",
+    "4.2.15": "An unchosen emotional influence limits claims of complete control, but does not show that all belief formation is involuntary or that emotional judgments are always false.",
+    "4.2.16": "Desires can shape which reasons seem persuasive without a conscious decision to believe. That differs from deliberately choosing evidence to examine.",
+    "5.1.4": "Why does finding a neural correlate of belief fail, by itself, to establish involuntariness? What further comparison would be needed?",
+    "5.1.7": "What would show that an inquiry intervention improves belief formation, rather than merely changing the answers participants report? How far could that finding generalize?",
+    "5.2.3": "If we cannot directly choose a belief, when might neglect of inquiry still warrant criticism? How does justified belief differ from blameless or blameworthy belief?",
+    "5.2.4": "When an information feed limits exposure to contrary evidence, how much influence can a user exercise by choosing other sources? What limits should affect judgments of responsibility?",
+    "5.2.7": "How could we check whether a desired conclusion is shaping our treatment of evidence, without assuming that any procedure guarantees impartiality?",
+    "5.2.11": "What experiment would help distinguish genuine voluntary belief change from deliberate reporting, pretense or compliance? What could brain measurements add?",
+    "4.1.2": "What does the term “Doxastic Voluntarism” refer to?<br>A. The study of ethics in belief formation<br>B. The belief in free will<br>C. The idea that beliefs are subject to the will and can be chosen voluntarily<br>D. The automatic process of forming beliefs",
+    "4.1.3": "Which Greek word is “doxastic” derived from, and what does it mean?<br>A. “Logos,” meaning reason<br>B. “Ethos,” meaning character<br>C. “Doxa,” meaning belief or opinion<br>D. “Pathos,” meaning emotion",
+    "4.1.4": "Direct doxastic voluntarism suggests that:<br>A. Beliefs are only indirectly influenced by the environment.<br>B. At least some beliefs can be formed through an immediate act of will.<br>C. No beliefs can be chosen or influenced.<br>D. All beliefs must be false.",
+    "4.1.7": "According to cognitive science, belief formation is influenced by:<br>A. Conscious decisions only.<br>B. Cognitive biases and unconscious processes.<br>C. Direct voluntary control.<br>D. The absence of social and environmental factors.",
+    "4.1.12": "B. At least some beliefs can be formed through an immediate act of will; stronger versions claim more."
+  },
+  "countChecks": [
+    {
+      "name": "1.1.ol original list counts",
+      "selector": "#prompt-1 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        2
+      ]
+    },
+    {
+      "name": "1.2.ul original list counts",
+      "selector": "#prompt-1 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        2
+      ]
+    },
+    {
+      "name": "2.1.ol original list counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        3,
+        4
+      ]
+    },
+    {
+      "name": "2.2.ul original list counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "3.1.ol original list counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        5
+      ]
+    },
+    {
+      "name": "3.2.ul original list counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "4.1.ol original list counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        7,
+        7
+      ]
+    },
+    {
+      "name": "4.2.ol original list counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        7,
+        7
+      ]
+    },
+    {
+      "name": "5.1.ol original list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        12
+      ]
+    },
+    {
+      "name": "5.2.ol original list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        12
+      ]
+    }
+  ],
+  "responseDecisions": {
+    "1.1": "Retained significance paragraph; distinguished limited versus unrestricted direct control, indirect influence and culpability. Kept two-item structure.",
+    "1.2": "Retained short introduction/two-kind lead; used the empty-glass example to distinguish belief, pretense and investigative action; corrected the claim that justification requires voluntary formation.",
+    "2.1": "Kept three pro/four contra entries in original order; repaired evidentialism, removed sufficient-reason non sequitur, distinguished desire/influence/control and framed responsibility argument conditionally.",
+    "2.2": "Kept three pro/three contra entries; retained selective-attention item; clarified rational agency versus willing, qualified evidence determinism and comfort paradox, cited alternative control account.",
+    "3.1": "Revised all seven blocks to replace field-wide consensus claims with bounded named experiments and distinguish neural correlation, public compliance and private belief.",
+    "3.2": "Preserved original three-plus-two finding sequence and closing positions; separated involuntary influences from chosen procedures and added concrete test requirements.",
+    "4.1": "Preserved seven questions/seven end keys; corrected evidentialism and neuroscience questions, bounded indirect-influence question and separated options visually.",
+    "4.2": "Preserved seven questions/seven end keys; removed complete-control overstatement, ambiguous confirmation-bias answer and inference from emotion to wholesale involuntarism.",
+    "5.1": "Retained ten of twelve questions verbatim; revised neuroscience and intervention questions to stop presupposing what experiments prove.",
+    "5.2": "Retained eight of twelve questions verbatim; sharpened responsibility, feed, motivated-reasoning and experimental-design questions without assuming total control or guaranteed bias elimination."
+  },
+  "pageSignals": {
+    "Page form": "Edited original conversation"
+  },
+  "highlights": [
+    "Direct belief choice differs from choosing what to investigate.",
+    "Evidence can justify a belief even when acquiring it was not voluntary.",
+    "An influence on belief is not automatically an influence we control.",
+    "Experiments constrain claims about belief formation without settling every philosophical question."
+  ]
+}

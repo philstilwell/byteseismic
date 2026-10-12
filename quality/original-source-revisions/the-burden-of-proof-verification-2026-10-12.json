@@ -1,0 +1,205 @@
+{
+  "pagePath": "/epistemology/the-burden-of-proof/",
+  "sourceSha256": "254dcd4505a90f713d00db2d5cfc7190a657af5ff001f36851838e87dfc0f74e",
+  "originalPrompts": 10,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 126,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 100,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "1.1.ol original list counts": [
+      5
+    ],
+    "1.2.ul original list counts": [
+      3,
+      2,
+      4,
+      2,
+      2,
+      2,
+      3
+    ],
+    "2.1.ol original list counts": [
+      3
+    ],
+    "2.1.ul original list counts": [
+      3
+    ],
+    "2.2.ul original list counts": [
+      2,
+      2,
+      2,
+      3
+    ],
+    "3.1.ol original list counts": [
+      4
+    ],
+    "3.2.ol original list counts": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "3.2.ul original list counts": [
+      2,
+      2,
+      2,
+      1,
+      3
+    ],
+    "4.1.ul original list counts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "4.2.ul original list counts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      3
+    ],
+    "5.1.ul original list counts": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "5.2.ol original list counts": [
+      5,
+      5
+    ],
+    "5.2.ul original list counts": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "6.1.ol original list counts": [
+      12
+    ],
+    "6.2.ol original list counts": [
+      12
+    ]
+  },
+  "sha256": "76f9890802a32f25713e14fcf83dfcfa69a958dbe407c535a2329af7001cb50f",
+  "verifiedAt": "2026-10-12T13:14:35.169856+00:00",
+  "source": {
+    "cache": ".cache/byteseismic-posts-with-content.json",
+    "wordpressId": 1842,
+    "title": "The Burden of Proof",
+    "url": "http://byteseismic.com/2024/03/02/the-burden-of-proof/",
+    "snapshot": "the-burden-of-proof-wordpress-1842.html",
+    "fullSourceRead": true,
+    "fullCurrentEditionRead": true,
+    "urlSlugMatch": true,
+    "titleExact": true,
+    "allPromptTexts": [
+      "I understand the burden of proof to be the social obligation of someone who makes a public claim to substantiate that claim. Is this definition correct, or is it wrong or incomplete?",
+      "How might a burden of proof scenario arise in the context of scientific inquiry?",
+      "Can you provide an actual scenario in which a burden of proof arose from a scientific inquiry?",
+      "Can you expound on the difference you implied between evidence and substantiation?",
+      "Can you instantiate your bridge analogy with an actual scenario?",
+      "In public discourse, we often encounter arguments over who has the burden of proof. In a case in which one person claims Elvis is still alive and the other claims he is dead, who actually bears the burden of proof? Provide an in-depth elaboration on this scenario.",
+      "I am going to gently tread into more controversial territory. Please apply the same principles you used in the Elvis scenario above to the following. If one person claims a miraculous God exists, and their interlocutor claims such a God does not exist, who has the burden of proof?",
+      "How can we best respond to someone who makes a claim, and then hands us the burden of proof to demonstrate their claim is false.",
+      "Create a 5-item quiz based on the discussion above with answers at the end.",
+      "Provide 12 discussion questions relevant to the content above."
+    ],
+    "modelLogoOrder": [
+      "ChatGPT",
+      "Gemini"
+    ]
+  },
+  "fullPromptOrderIncludingEmbeddedExact": true,
+  "responseDecisions": {
+    "1.1": "Reviewed definition plus two embedded follow-up responses; retained all prompt positions, five-stage science list and three-paragraph Copernican example. Corrected burden/standard, evidence/falsifiability, peer-review/replication and Venus/Tycho distinctions.",
+    "1.2": "Reviewed definition plus two embedded follow-up responses; retained evidence/substantiation categories, nested lists, bridge analogy and car-accident sequence. Explicitly acknowledge implied distinction was overstated; accident remains a hypothetical, not the requested documented actual case. Corrected camera inference and independent corroboration.",
+    "2.1": "Preserved three principles/three applications and original paragraph positions. Grounded asymmetry in existing death evidence; removed age, meaningfulness/falsifiability and unusual-claim shortcuts. Withholding belief distinguished from supported denial.",
+    "2.2": "Kept original five-part Elvis progression. Qualified razor, identified actual consulted biography rather than claiming autopsy access, bounded survival-evidence claim, corrected negative-proof and consensus exemptions.",
+    "3.1": "Retained exact curator transition and four issues/conclusion. Applied burden consistently to asserted existence/nonexistence; distinguished withholding assent/impossibility and expected evidence; Elvis evidence cannot transfer to God case.",
+    "3.2": "Preserved nested five-part argument. Repaired simplistic natural/divine simplicity comparison and who-made-God argument; retained skeptical accountability while explicitly requiring reasons for asserted nonexistence.",
+    "4.1": "Preserved seven strategies/conclusion; added concrete nonconfrontational reply and evidence-standard reciprocity; no assumption that only affirmative assertions carry burdens.",
+    "4.2": "Preserved seven strategies/three reminders; corrected proving-a-negative-impossible heading and response, bounded extraordinary label and clarified suspension versus refutation.",
+    "5.1": "Five questions with four options each and five end keys preserved; repaired God scenario ambiguity and false implication that volunteering counterevidence is itself invalid.",
+    "5.2": "Five nested four-option questions and five end keys preserved; corrected legal-only definition, Elvis asymmetry, negative-proof claim and always-simplest razor answer.",
+    "6.1": "All twelve original discussion questions retained verbatim. They ask open comparisons across law/science/evidence, historical cases, skeptical belief and fallacies, and remain relevant to corrected exposition.",
+    "6.2": "All twelve original discussion questions retained verbatim. They test fairness, bias, collaboration, ethics, evidence limits and rhetorical misuse without presupposing disproven answers."
+  },
+  "embeddedResponseDecisions": {
+    "1.1.follow-up-1": "Retained five scientific steps; differentiated data from discriminating evidence, peer review from truth and falsifiability from justification.",
+    "1.1.follow-up-2": "Retained actual Copernican case, corrected circular/elliptical history and Venus evidence compatible with Tycho; no substitute hypothetical drug scenario.",
+    "1.2.follow-up-1": "Preserved clarification request and corrected earlier implied evidence/substantiation distinction; retained bridge analogy with independence caveat.",
+    "1.2.follow-up-2": "Preserved concrete car-accident scenario and all nested evidence checks; expressly acknowledged hypothetical instead of claiming an actual sourced incident."
+  },
+  "negativeControlsRejected": [
+    ".original-prompt-text",
+    ".original-response",
+    "[data-source-node=\"1.1.1\"]",
+    "#prompt-5 li",
+    "#prompt-6 li",
+    ".original-embedded-prompt",
+    "#follow-up-1-2-2"
+  ],
+  "quizQuestionAndKeyCounts": [
+    5,
+    5
+  ],
+  "discussionQuestionCounts": [
+    12,
+    12
+  ],
+  "research": [
+    {
+      "url": "https://www.uscourts.gov/about-federal-courts/types-cases/criminal-cases",
+      "use": "Official United States federal criminal standard; no universal legal claim."
+    },
+    {
+      "url": "https://www.graceland.com/biography",
+      "use": "Estate biography death date; no claim to inspect death certificate or private autopsy."
+    },
+    {
+      "url": "https://catalogue.museogalileo.it/indepth/PhasesVenus.html",
+      "use": "Venus phases fit Tycho as well as heliocentrism; full page read."
+    },
+    {
+      "url": "https://science.nasa.gov/solar-system/orbits-and-keplers-laws/",
+      "use": "Kepler observational basis and elliptical-orbit refinement."
+    }
+  ],
+  "remainingConcerns": [
+    "Original request for an actual accident case remains served by a clearly labeled hypothetical. No incident fabricated.",
+    "No exhaustive adjudication of theological arguments or Elvis survival stories claimed."
+  ],
+  "browser": {
+    "viewport": [
+      1280,
+      720
+    ],
+    "horizontalOverflow": false,
+    "promptNavigationChecked": true,
+    "originalQuizLayoutChecked": true,
+    "embeddedFollowUpLayoutChecked": true,
+    "staticQuizzesWithEndKeys": true,
+    "mobileTested": false
+  },
+  "fullBuilderPreservedByteForByte": true
+}

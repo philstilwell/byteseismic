@@ -211,6 +211,14 @@ def edited_column(original, n, c, config):
         h.name = 'h5'
     for h in col.find_all('h3'):
         h.name = 'h4'
+    embedded = config.get('embeddedPrompts', {}).get(f'{n}.{c}', [])
+    if embedded:
+        headings = col.find_all('h2')
+        assert [h.get_text() for h in headings] == embedded
+        for index, h in enumerate(headings, 1):
+            h.name = 'h4'
+            h['class'] = ['original-embedded-prompt']
+            h['id'] = f'follow-up-{n}-{c}-{index}'
     starts = config.get('orderedListStarts', {}).get(f'{n}.{c}')
     if starts is not None:
         lists = col.find_all('ol')
@@ -263,7 +271,8 @@ def render(config):
                for n, (_, cols) in enumerate(original, 1))
     appendices = config.get('sourceAppendices', [])
     all_headings = source.select('h2')
-    assert len(original) + len(appendices) + len(config.get('pairedResponseHeadingIndexes', {})) == len(all_headings)
+    embedded_count = sum(len(values) for values in config.get('embeddedPrompts', {}).values())
+    assert len(original) + len(appendices) + len(config.get('pairedResponseHeadingIndexes', {})) + embedded_count == len(all_headings)
     for appendix in appendices:
         assert all_headings[appendix['headingIndex']].get_text() == appendix['heading']
     shell = subprocess.check_output(['git', 'show', f"{config['shellRevision']}:{config['pageFile']}"], cwd=ROOT, text=True)
@@ -465,6 +474,10 @@ def verify(config, rendered):
         for c, col in enumerate(cols, 1):
             expected = edited_column(col, n, c, config)
             actual = soup.select_one(f'#prompt-{n} .original-response[data-source-column="{c}"]')
+            embedded = config.get('embeddedPrompts', {}).get(f'{n}.{c}', [])
+            if embedded:
+                assert [h.get_text() for h in col.find_all('h2')] == embedded
+                assert [h.get_text() for h in actual.select('.original-embedded-prompt')] == embedded
             actual_nodes = actual.select('[data-source-node]')
             expected_nodes = expected.select('[data-source-node]')
             assert [x['data-source-node'] for x in actual_nodes] == [x['data-source-node'] for x in expected_nodes]
@@ -552,7 +565,7 @@ def verify(config, rendered):
                  if text(item.select_one('.page-signals__label')) == label]
         assert len(items) == 1 and text(items[0].select_one('.page-signals__value')) == value
     return {'pagePath': '/' + config['pageFile'].removesuffix('index.html'),
-            'sourceSha256': config['sourceSha256'], 'originalPrompts': len(prompts) - len(config.get('nonPromptSections', [])),
+            'sourceSha256': config['sourceSha256'], 'originalPrompts': len(prompts) - len(config.get('nonPromptSections', [])) + sum(len(values) for values in config.get('embeddedPrompts', {}).values()),
             'originalHeadings': len(prompts),
             'sourceColumns': sum(len(cols) for _, cols in original),
             'modelResponses': sum(len(cols) for _, cols in original) - len(config.get('nonResponseColumns', [])), 'blocksRetainedVerbatim': retained,

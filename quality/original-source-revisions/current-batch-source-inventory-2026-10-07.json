@@ -4,10 +4,10 @@
   "startIndex": 100,
   "endIndexExclusive": 150,
   "candidateWordPressOriginals": 49,
-  "fullyReviewed": 12,
-  "pendingFullReview": 38,
+  "fullyReviewed": 14,
+  "pendingFullReview": 36,
   "sourceBlocked": 0,
-  "limitation": "Twelve entries have complete substantive review and verification. Thirty-eight remain pending full review. Prior reviews retained without recounting them as fresh work; no batch advancement. Perverse Incentives explicitly records historical claims that remain unestablished rather than asserting the requested ten verified stories in each original list.",
+  "limitation": "Fourteen entries have complete substantive review and verification; thirty-six remain pending. No batch advancement. The Burden of Proof retains a labeled hypothetical accident rather than inventing the actual case requested. Earlier Perverse Incentives historical limitations remain documented.",
   "pages": [
     {
       "pagePath": "/philosophers/philosopher-club-membership/",
@@ -302,7 +302,7 @@
       "pagePath": "/epistemology/doxastic-voluntarism/",
       "pageTitle": "Doxastic Voluntarism",
       "queueIndex": 113,
-      "status": "pending-full-review",
+      "status": "reviewed-verified",
       "wordpressId": 3683,
       "sourceUrl": "http://byteseismic.com/2024/03/14/doxastic-voluntarism/",
       "sourceTitle": "Doxastic Voluntarism",
@@ -318,14 +318,15 @@
         "Provide 12 discussion questions relevant to the content above. "
       ],
       "wordCount": 3566,
-      "fullSourceRead": false,
-      "editorialReviewComplete": false
+      "fullSourceRead": true,
+      "editorialReviewComplete": true,
+      "verification": "quality/original-source-revisions/doxastic-voluntarism-verification-2026-10-12.json"
     },
     {
       "pagePath": "/epistemology/the-burden-of-proof/",
       "pageTitle": "The Burden of Proof",
       "queueIndex": 114,
-      "status": "pending-full-review",
+      "status": "reviewed-verified",
       "wordpressId": 1842,
       "sourceUrl": "http://byteseismic.com/2024/03/02/the-burden-of-proof/",
       "sourceTitle": "The Burden of Proof",
@@ -346,8 +347,9 @@
         "Provide 12 discussion questions relevant to the content above."
       ],
       "wordCount": 6650,
-      "fullSourceRead": false,
-      "editorialReviewComplete": false
+      "fullSourceRead": true,
+      "editorialReviewComplete": true,
+      "verification": "quality/original-source-revisions/the-burden-of-proof-verification-2026-10-12.json"
     },
     {
       "pagePath": "/humanistic-philosophies/can-humans-change/",
@@ -1232,5 +1234,5 @@
       "editorialReviewComplete": false
     }
   ],
-  "updatedAt": "2026-10-11T13:19:54.511383+00:00"
+  "updatedAt": "2026-10-12T13:20:44.899535+00:00"
 }

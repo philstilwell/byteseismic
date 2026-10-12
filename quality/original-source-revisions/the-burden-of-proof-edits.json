@@ -1,0 +1,329 @@
+{
+  "wordpressId": 1842,
+  "pageFile": "epistemology/the-burden-of-proof/index.html",
+  "snapshot": "the-burden-of-proof-wordpress-1842.html",
+  "sourceSha256": "254dcd4505a90f713d00db2d5cfc7190a657af5ff001f36851838e87dfc0f74e",
+  "sourceUrl": "http://byteseismic.com/2024/03/02/the-burden-of-proof/",
+  "sourceLabel": "Original WordPress conversation, 2024-03-02",
+  "shellRevision": "4543e8d6eb62289670185840a546496b332d1f90",
+  "date": "2026-10-12",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "Defining the burden, with the original scientific and evidence follow-ups",
+    "Elvis: established evidence and a contrary claim",
+    "Applying the same standards to a miraculous God",
+    "Responding to an unsupported demand for disproof",
+    "Two five-question quizzes with end-position answers",
+    "Two sets of twelve discussion questions"
+  ],
+  "introHeading": "Original conversation · editorial edition",
+  "intro": "The six main prompts and four embedded follow-ups remain verbatim in their original order and response tracks. The discussion moves from science and the evidence–substantiation distinction to Elvis, a miraculous God, and unfair demands for disproof. The original accident illustration is hypothetical; it does not supply the documented case requested.",
+  "description": "Who owes reasons for a claim? Original science, Elvis and miraculous-God exchanges, evidence and substantiation, quizzes and discussion questions.",
+  "embeddedPrompts": {
+    "1.1": [
+      "How might a burden of proof scenario arise in the context of scientific inquiry?",
+      "Can you provide an actual scenario in which a burden of proof arose from a scientific inquiry?"
+    ],
+    "1.2": [
+      "Can you expound on the difference you implied between evidence and substantiation?",
+      "Can you instantiate your bridge analogy with an actual scenario?"
+    ]
+  },
+  "replacements": {
+    "1.1.0": "Your definition captures an important norm of public discussion: someone asking others to accept a claim should be prepared to support it. It is incomplete because justification can also be requested privately, and because a burden includes both who must provide support and what would count as enough in that setting. It is not a rule that every ordinary remark requires a fresh investigation.",
+    "1.1.1": "In a legal setting, procedural rules allocate burdens and standards of proof. For example, <a href=\"https://www.uscourts.gov/about-federal-courts/types-cases/criminal-cases\">United States federal criminal procedure</a> requires the government to establish guilt beyond a reasonable doubt. That specific allocation should not be treated as a universal rule governing every conversation.",
+    "1.1.2": "In ordinary argument, a person advancing a disputed assertion owes relevant reasons when challenged. Others may withhold assent if support is inadequate; that does not by itself prove the assertion false. A negative assertion can also need support: “there is no coin in this box” is a claim, whereas “you have not shown me that there is a coin” reports an evidential shortfall.",
+    "1.1.3": "Scientific claims raise related questions about testable consequences, but falsifiability and burden of proof are different concepts. A hypothesis can be testable yet unsupported, or fail a proposed test only because an instrument malfunctioned. Asking what observations would count against it helps specify an empirical claim; it does not determine who has already supplied enough evidence.",
+    "1.1.4": "A fuller definition is: the responsibility, within a particular inquiry or dispute, to supply the support needed for the conclusion one asks others to accept. Relevant support may already be available and reasonably cited. The required case depends on the claim, the shared evidence and the decision at issue.",
+    "1.1.5": "A scientific burden arises when a researcher asks others to accept a hypothesis, a result or an inference from data. The practical task is to connect the proposed conclusion to evidence that distinguishes it from serious alternatives. That may involve an experiment, observation, reanalysis or a combination:",
+    "1.1.6": "<strong>Proposal of a New Hypothesis or Theory:</strong> State exactly what is claimed. A proposal to investigate a possibility needs a rationale; a claim that a mechanism has been established needs much more. Novelty does not remove the obligation to explain the inference, and an accepted claim remains answerable to evidence.",
+    "1.1.7": "<strong>Evidence and Experimentation:</strong> Show how the observations bear on the hypothesis, what alternatives were tested and how uncertainty was handled. A measurement consistent with a theory may also fit its rivals. The burden is not merely to produce data but to explain why those data support this conclusion.",
+    "1.1.8": "<strong>Peer Review and Reproducibility:</strong> Make methods and reasoning open to scrutiny and, where possible, independent checking. Peer review is a useful check, not a truth certificate. Repeating a calculation with the same data differs from gathering new evidence, and a unique historical event cannot itself be rerun; its traces and competing explanations can still be investigated.",
+    "1.1.9": "<strong>Falsifiability:</strong> Specify observations that would create a problem for the hypothesis, including assumptions about measurement. This makes criticism more informative. Passing a test does not establish truth, and a failed prediction may implicate an auxiliary assumption rather than uniquely refute the central theory.",
+    "1.1.10": "<strong>Shifting the Paradigm:</strong> A challenger must address the evidence supporting an established account, not only its popularity. If a new account explains observations better, defenders of the old one must answer those reasons. Both positions remain accountable; consensus is not a permanent exemption from justification.",
+    "1.1.11": "The scientific burden is met through an explicit, proportionate case: what the evidence supports, how alternatives fare and what remains uncertain. This permits strong conclusions when warranted without treating either novelty or established status as decisive.",
+    "1.1.12": "The Copernican dispute is an actual historical example. Copernicus’s 1543 model placed Earth in motion around the Sun, challenging an Earth-centered account. Its proponents needed to explain the observed motions and answer objections to a moving Earth. The issue was not settled simply by demanding that opponents disprove the new arrangement.",
+    "1.1.13": "Kepler used Tycho Brahe’s observations to develop an account with elliptical planetary orbits, rather than merely confirm Copernicus’s original circular scheme; <a href=\"https://science.nasa.gov/solar-system/orbits-and-keplers-laws/\">NASA’s account</a> explains the relationship. Galileo’s observations added constraints. In particular, Venus’s phases challenged the traditional Ptolemaic arrangement, but also fitted Tycho’s alternative in which Earth remained stationary, as <a href=\"https://catalogue.museogalileo.it/indepth/PhasesVenus.html\">Museo Galileo explains</a>. That observation alone did not uniquely establish Earth’s motion.",
+    "1.1.14": "The lesson is that the evidential burden changes as alternatives are specified and tested. An observation may eliminate one model without selecting a unique winner. The historical transition involved developing the theory and accumulating different kinds of support, not one decisive observation followed only by irrational resistance.",
+    "1.2.0": "Your definition is a good starting point for public discourse. Three refinements help:",
+    "1.2.1": "<strong>1. Legal rules are one application:</strong> Courts specify who must establish what and to which standard. Ordinary arguments also have justificatory responsibilities, though usually without a formally appointed decision-maker. The concept should not be confined to law.",
+    "1.2.3": "<strong>3. Specify adequate support:</strong> “Substantiate” is not defective simply because it is broader than “present evidence.” A mathematical claim may need a proof; an empirical claim needs relevant observations; an ethical argument needs defensible premises and reasoning. The issue is whether the support fits the claim.",
+    "1.2.4": "Your proposed definition therefore needs scope and standards, rather than a replacement of “social” by “legal.” Ask what is asserted, why it is disputed, what support is already shared, and what further case the claimant owes.",
+    "1.2.5": "My earlier contrast needs correcting: evidence and substantiation are not rival kinds of support. Evidence is material that bears on a claim; substantiation is the work of supporting that claim with relevant reasons and evidence. Ordinary usage does not impose one universal threshold of completed proof on the word “substantiation.”",
+    "1.2.8": "<strong>Measurements and records:</strong> Observations, documents and physical traces can bear on a claim, but require checks for measurement error, authenticity and relevance.",
+    "1.2.9": "<strong>Reports and assessments:</strong> Testimony, personal accounts and expert judgments can also be evidence. Evaluate access, competence, independence and possible bias rather than dismissing them merely as “subjective.”",
+    "1.2.10": "Evidence can raise or lower a claim’s credibility without settling whether it is true. Its importance depends on what alternatives would also produce it.",
+    "1.2.13": "Substantiation is presenting and connecting support to the particular claim. Making a statement more persuasive through rhetoric is not, by itself, substantiating it.",
+    "1.2.15": "A substantiated claim need not be infallible. State whether the available support warrants investigation, tentative belief, strong confidence or a particular action.",
+    "1.2.18": "<strong>Evidence:</strong> The bridge’s materials stand for observations and reports. Some may be weak or unsuitable for the load; a larger pile alone does not make a sound bridge. Unlike physical materials, two reports may depend on the same source and add little independent support.",
+    "1.2.19": "<strong>Substantiation:</strong> Engineering stands for explaining how the evidence supports the conclusion, testing weak connections and checking alternatives. The analogy concerns disciplined assessment, not constructing the conclusion one wanted regardless of the evidence.",
+    "1.2.20": "Evidence is what bears on the claim; substantiation is the case made with it. Neither the amount of material nor how convincing a presentation sounds guarantees that the conclusion is warranted.",
+    "1.2.22": "Consider this hypothetical car accident: Driver A says Driver B ran a red light. It makes the analogy concrete, but it is not a documented actual case; the original response did not establish the real incident requested. The illustration separates pieces of evidence from the inference they could support.",
+    "1.2.28": "<strong>Evaluating the evidence:</strong> Test the witness’s opportunity to see the signal and the accuracy of the account. Footage showing entry into an intersection may establish presence and timing, but if both competing stories predict that entry, it adds no specific support for a red-light violation without further information. A camera is not automatically decisive because it is mechanical.",
+    "1.2.30": "<strong>Review signal timing:</strong> If available, authenticated records of the actual signal state, aligned with reliable camera timestamps, could test the claim. A nominal light-cycle schedule may not establish what happened during a malfunction or manual override.",
+    "1.2.31": "<strong>Check other frames or views:</strong> They may show the signal or the relevant sequence. Verify that the footage is complete and that the clock and viewing angle support the inference.",
+    "1.2.32": "<strong>Collect independent accounts:</strong> Seek witnesses who could see the relevant event, including those whose reports conflict. Several people repeating one account do not supply several independent observations.",
+    "1.2.33": "The bridge is stronger when reliable, relevant pieces support the same inference without hidden dependence. It may instead fail if the signal record contradicts the witness. Investigating a claim is not an obligation to substantiate it successfully: the evidence may warrant suspension or rejection.",
+    "2.1.0": "Both “Elvis is alive” and “Elvis is dead” are factual assertions. In this setting, the latter has established historical support, while the survival claim owes a case that answers it. That asymmetry comes from the evidence already available, not a rule that only unusual or affirmative statements need reasons.",
+    "2.1.2": "<strong>Extraordinary Claims Require Extraordinary Evidence:</strong> Here “extraordinary” should refer to conflict with well-supported evidence, not mere unfamiliarity. <a href=\"https://www.graceland.com/biography\">Graceland’s biographical account</a> records Elvis’s death on August 16, 1977. A survival claim needs evidence strong enough to support survival despite that historical record. A rare claim need not have magical evidence; its support must withstand the relevant alternatives.",
+    "2.1.3": "<strong>Default Position Based on Established Facts:</strong> Someone asserting Elvis’s death can cite reliable historical sources rather than personally repeat the original investigation. That is meeting a burden through existing evidence, not having no burden at all. His age is not the decisive consideration: being born in 1935 does not by itself establish death.",
+    "2.1.4": "<strong>Falsifiability and Testability:</strong> Specify what survival claim is being made and what observations it predicts. A verifiable present encounter would challenge the death account; an account that explains away every possible contrary observation provides little basis for inquiry. Testability helps assess a claim but does not automatically allocate the burden, nor is it a requirement for every meaningful statement.",
+    "2.1.6": "<strong>Responsibility to Provide Evidence:</strong> A survival claimant should identify the person, date and provenance of the alleged evidence and allow independent checking. A photograph alone may depict an impersonator or be misdated. Evidence that warrants investigation can still fall short of overturning the established account.",
+    "2.1.7": "<strong>Analysis of Evidence:</strong> Check authenticity, identity, timing and independent corroboration. A claim of forged death records needs its own support. It cannot be established merely by observing that forgery is possible. Apply the same scrutiny to sources supporting the death account if a specific credible challenge arises.",
+    "2.1.8": "<strong>Conclusion:</strong> The survival claimant has the outstanding task of overcoming the existing case for death. The other speaker may cite that case and ask what new evidence changes it. Neither speaker wins simply by announcing where the burden lies.",
+    "2.1.9": "One can withhold assent to an unsupported survival story without disproving every imagined hiding place. One can also positively believe that Elvis died because of the historical evidence. Those are distinct reasons for distinct attitudes, even when held by the same person.",
+    "2.2.0": "The person claiming survival bears the unmet burden of answering the historical evidence for death. The person affirming death also owes reasons if challenged, but may rely on established evidence. The contrast is evidential, not a privilege enjoyed by the majority:",
+    "2.2.2": "An account in which Elvis staged his death and remained hidden must explain the historical record and offer evidence of survival. Being contrary to consensus does not automatically make a claim false; it creates a need to address the reasons supporting that consensus.",
+    "2.2.3": "<strong>Occam’s Razor:</strong> Avoid unnecessary assumptions when rival explanations otherwise handle the evidence comparably. Simplicity is a guide to comparison, not a guarantee that the simplest story is true. Evidence may justify a complicated explanation; unsupported complications cannot rescue a claim indefinitely.",
+    "2.2.5": "<strong>Death documentation:</strong> The historical record supports death in 1977. This discussion relies on the publicly available biographical account linked above; it does not claim to have inspected or authenticated a death certificate or the private autopsy report. Those distinct source claims should not be blurred.",
+    "2.2.6": "<strong>Evidence for survival:</strong> No authenticated survival evidence is supplied in this conversation. A particular sighting would need examination rather than dismissal merely because it is unusual. Lack of new support leaves the existing case intact; it is not an exhaustive survey of every claimed sighting.",
+    "2.2.8": "It is unreasonable to demand elimination of every imaginable hiding place as the price of accepting well-supported death evidence. But negative claims can be proved or supported: one can check that a specified box is empty, or show that a defined combination is contradictory. The problem is an unbounded demand, not grammatical negation.",
+    "2.2.9": "Asking a majority-view holder for reasons is legitimate. The improper move is treating their inability to answer every hypothetical as positive evidence for survival, while offering no adequate case of one’s own.",
+    "2.2.11": "Allocating the outstanding evidential task correctly helps for three reasons:",
+    "2.2.14": "<strong>Efficient use of resources:</strong> Focus on specific, testable challenges and evidence. A participant need not investigate an unlimited series of unsupported possibilities merely because each can be described.",
+    "2.2.15": "The survival claim cannot inherit credibility from unanswered speculation. Conversely, the death claim is defensible because of its support, not simply because it is ordinary. This distinction will matter when moving to a different example where the shared evidence is different.",
+    "3.1.0": "Apply the same rule: each asserted conclusion needs reasons. The person claiming a miracle-performing God exists owes a case for that claim. The interlocutor’s explicit assertion that no such God exists also needs justification; merely finding the first case inadequate supports withholding belief, not automatically that stronger denial.",
+    "3.1.2": "<strong>Extraordinary Claims Principle:</strong> A claimed miracle should be defined precisely enough to compare the evidence for it with error, misreporting and ordinary causes. The theist cannot replace that case with a demand that the skeptic prove impossibility. Calling a claim extraordinary also does not refute it in advance; the judgment must connect to relevant background evidence.",
+    "3.1.3": "<strong>Evidence and Argumentation:</strong> Testimony, historical reports and philosophical arguments need different scrutiny. Ask whether a report is reliable, whether an unusual event occurred, and whether its cause was the proposed deity. Even a well-established unexplained event does not by itself establish divine authorship; a general argument for a first cause does not by itself identify a miracle-performing God.",
+    "3.1.4": "<strong>Nature of the Counterclaim:</strong> “I am unconvinced” differs from “that being does not exist,” and both differ from “that being is impossible.” A denial can cite contradiction or missing evidence that the defined being would strongly lead us to expect. It need not establish impossibility to support nonexistence, but must explain its inference. A negative sentence is not automatically exempt.",
+    "3.1.5": "<strong>Challenges in Proof:</strong> Specify the deity’s proposed properties and expected actions. A claim that this being reliably performs an observable event can face a different evidential test from an unspecified being that need never act detectably. If no observable difference is expected, lack of an observation is weak evidence against existence—but this also deprives the claimant of that route to public substantiation.",
+    "3.1.7": "The Elvis analogy supports a consistent demand for reasons; it does not transfer Elvis’s historical death evidence to the God question. The existence claimant owes support, and cannot impose a requirement that skeptics disprove every possible deity. An interlocutor who explicitly asserts nonexistence should defend that assertion. This preserves the skeptical demand for substantiation without converting an unmet burden into a proof of falsity.",
+    "3.2.0": "The existence claimant owes support and cannot demand that disbelief wait for an exhaustive disproof. Because the prompt also specifies a person asserting nonexistence, that person owes reasons for the denial. The two burdens need not be equal: their size and whether they are already met depend on the defined claims and evidence.",
+    "3.2.2": "A miracle claim must distinguish an unusual event from a demonstrated violation of an otherwise reliable regularity, and distinguish either from evidence of a particular divine agent. An event’s being surprising is a reason to investigate, not a complete causal explanation.",
+    "3.2.3": "The person asserting the miraculous God’s existence should state what supports the claim and why alternatives do not account for that support as well.",
+    "3.2.5": "Simplicity matters only in a substantive comparison. An unspecified natural process and an unspecified divine act cannot be ranked just by counting words. Ask what each account explains, what it assumes and what it predicts.",
+    "3.2.6": "Ask what work the proposed deity does in the explanation. Some theologies define God as uncaused, so “who made God?” alone does not refute them. The relevant challenge is why an uncaused deity is warranted and why that account is preferable to alternatives, rather than whether every cause must have a maker.",
+    "3.2.8": "Religious texts, testimony and experiences can be proposed as evidence; assess provenance, reliability and the inference to the deity claimed. Personal importance does not automatically make them strong public support, but calling them subjective is not a complete rebuttal either.",
+    "3.2.9": "This conversation supplies no evidence establishing the specified miraculous God. That is a limit on the case presented, not a claim to have exhaustively evaluated every theological argument or an inference that no deity can exist.",
+    "3.2.11": "A negative claim may be supported by inconsistency or by the absence of strongly expected evidence. For an unrestricted, poorly specified deity claim, a comprehensive disproof may be unavailable. The skeptic need not supply that disproof merely to withhold assent; a speaker asserting nonexistence should say what warrants the stronger conclusion.",
+    "3.2.15": "It lets participants request a definite claim and relevant reasons before investing effort in every possible variation. A limit on discussion time is not a proof of nonexistence.",
+    "3.2.16": "Faith or conviction cannot transfer the existence claimant’s burden to an unconvinced listener. The listener can consistently ask for support while withholding belief. If the listener goes further and asserts nonexistence, the same norm requires a reasoned case for that assertion.",
+    "4.1.2": "<strong>Explain the Principle:</strong> Say, “You are asking me to accept this claim. What supports it?” Make clear whether you are withholding judgment or asserting the opposite; the latter would call for your own reasons.",
+    "4.1.6": "<strong>Explain the Problem:</strong> “My inability to disprove your claim does not supply evidence for it.” An invisible, intangible unicorn illustrates the issue if it is defined to leave no detectable trace. That definition blocks a proposed test; it does not turn ignorance into support.",
+    "4.1.10": "<strong>Discuss Standards of Evidence:</strong> Identify what each side would count as support or a defeater, and apply comparable scrutiny to comparable claims. Agreement on a standard improves the discussion, but does not guarantee that the standard is reliable.",
+    "4.1.16": "A concise reply is: “I have not said your claim is impossible. I am asking why I should believe it. Please give the strongest evidence and explain what it rules out.” If you have made a contrary assertion, provide its support as well. This keeps the exchange on reasons rather than a contest over who must speak next.",
+    "4.2.2": "Identify the inference rather than begin with an accusation: “You have asked me to disprove it, but that does not explain why it should be accepted.” The rule concerns asserted claims, including negative ones; a request for evidence is not automatically a contrary assertion.",
+    "4.2.6": "If the claim conflicts with well-supported background evidence, explain the conflict and ask how the new evidence overcomes it. Avoid using “extraordinary” merely as a label for an unfamiliar or unpopular position.",
+    "4.2.7": "4. Distinguish an unbounded demand from proving a negative:",
+    "4.2.8": "Some negative claims are readily testable; others range over possibilities no finite investigation could exhaust. Ask for a defined claim and appropriate test. Failure to disprove an unrestricted assertion is not evidence for its truth.",
+    "4.2.10": "If no evidence is offered, say that you are withholding assent and explain why. You may end an unproductive exchange without claiming to have demonstrated the assertion false.",
+    "5.1.6": "Question 2: Someone asserts that a miraculous God exists; the listener only withholds belief. Who owes a case for the existence claim?",
+    "5.1.11": "Question 3: Which response would wrongly treat your inability to disprove a claim as sufficient support for it?",
+    "5.1.14": "C) Accepting the claim merely because you cannot disprove it",
+    "5.1.16": "Question 4: Why does an undetectable-unicorn claim fail to gain support from your inability to refute it?",
+    "5.1.18": "B) Lack of a disproof is not itself evidence for the claim",
+    "5.1.28": "Question 2: A) The existence claimant. If the listener instead asserted nonexistence, that assertion would also need reasons.",
+    "5.1.29": "Question 3: C) Accepting a claim merely because you cannot disprove it",
+    "5.1.30": "Question 4: B) Lack of a disproof does not establish the claim. This is not a rule that negative claims are impossible to prove.",
+    "5.2.3": "a. The responsibility to provide adequate support for an asserted conclusion in the relevant context.",
+    "5.2.13": "a. To assess a proposed claim against the evidence already supporting alternatives.",
+    "5.2.18": "a. Explain why an inability to disprove a claim does not establish it.",
+    "5.2.21": "d. Distinguish withholding assent from asserting the contrary.",
+    "5.2.23": "a. Other things being comparable, avoid unnecessary assumptions; simplicity does not guarantee truth.",
+    "5.2.28": "a. The context determines what support is needed; the concept is not confined to law.",
+    "5.2.29": "c. The survival claimant owes a case that answers existing death evidence; an assertion of death is also supported by citing that evidence.",
+    "5.2.30": "a. The issue is evidential comparison, not punishment for unusual beliefs.",
+    "5.2.31": "c. Agreement without adequate reasons does not repair an unfair demand for disproof.",
+    "5.2.32": "a. Simplicity guides comparison when the evidence and explanatory performance are otherwise comparable."
+  },
+  "leadingTextReplacements": {
+    "1.2.7": "Evidence is information that bears on whether a claim is true. It can support or undermine the claim; familiar categories include:",
+    "1.2.29": "Seeking additional evidence means looking for information that can distinguish the competing accounts, including:",
+    "5.2.7": "Given established historical evidence of Elvis’s death, who owes a new case for the claim that he is alive?",
+    "5.2.12": "Why must a claim that conflicts with well-supported evidence address that evidence?",
+    "5.2.17": "Which response fails to repair an improper demand that you disprove a claim?"
+  },
+  "countChecks": [
+    {
+      "name": "1.1.ol original list counts",
+      "selector": "#prompt-1 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        5
+      ]
+    },
+    {
+      "name": "1.2.ul original list counts",
+      "selector": "#prompt-1 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        3,
+        2,
+        4,
+        2,
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "2.1.ol original list counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        3
+      ]
+    },
+    {
+      "name": "2.1.ul original list counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"1\"] ul",
+      "child": "li",
+      "expected": [
+        3
+      ]
+    },
+    {
+      "name": "2.2.ul original list counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        2,
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "3.1.ol original list counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        4
+      ]
+    },
+    {
+      "name": "3.2.ol original list counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "3.2.ul original list counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        2,
+        2,
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "4.1.ul original list counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"1\"] ul",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "4.2.ul original list counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "5.1.ul original list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"1\"] ul",
+      "child": "li",
+      "expected": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "5.2.ol original list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        5,
+        5
+      ]
+    },
+    {
+      "name": "5.2.ul original list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "6.1.ol original list counts",
+      "selector": "#prompt-6 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        12
+      ]
+    },
+    {
+      "name": "6.2.ol original list counts",
+      "selector": "#prompt-6 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        12
+      ]
+    }
+  ],
+  "responseDecisions": {
+    "1.1": "Reviewed definition plus two embedded follow-up responses; retained all prompt positions, five-stage science list and three-paragraph Copernican example. Corrected burden/standard, evidence/falsifiability, peer-review/replication and Venus/Tycho distinctions.",
+    "1.2": "Reviewed definition plus two embedded follow-up responses; retained evidence/substantiation categories, nested lists, bridge analogy and car-accident sequence. Explicitly acknowledge implied distinction was overstated; accident remains a hypothetical, not the requested documented actual case. Corrected camera inference and independent corroboration.",
+    "2.1": "Preserved three principles/three applications and original paragraph positions. Grounded asymmetry in existing death evidence; removed age, meaningfulness/falsifiability and unusual-claim shortcuts. Withholding belief distinguished from supported denial.",
+    "2.2": "Kept original five-part Elvis progression. Qualified razor, identified actual consulted biography rather than claiming autopsy access, bounded survival-evidence claim, corrected negative-proof and consensus exemptions.",
+    "3.1": "Retained exact curator transition and four issues/conclusion. Applied burden consistently to asserted existence/nonexistence; distinguished withholding assent/impossibility and expected evidence; Elvis evidence cannot transfer to God case.",
+    "3.2": "Preserved nested five-part argument. Repaired simplistic natural/divine simplicity comparison and who-made-God argument; retained skeptical accountability while explicitly requiring reasons for asserted nonexistence.",
+    "4.1": "Preserved seven strategies/conclusion; added concrete nonconfrontational reply and evidence-standard reciprocity; no assumption that only affirmative assertions carry burdens.",
+    "4.2": "Preserved seven strategies/three reminders; corrected proving-a-negative-impossible heading and response, bounded extraordinary label and clarified suspension versus refutation.",
+    "5.1": "Five questions with four options each and five end keys preserved; repaired God scenario ambiguity and false implication that volunteering counterevidence is itself invalid.",
+    "5.2": "Five nested four-option questions and five end keys preserved; corrected legal-only definition, Elvis asymmetry, negative-proof claim and always-simplest razor answer.",
+    "6.1": "All twelve original discussion questions retained verbatim. They ask open comparisons across law/science/evidence, historical cases, skeptical belief and fallacies, and remain relevant to corrected exposition.",
+    "6.2": "All twelve original discussion questions retained verbatim. They test fairness, bias, collaboration, ethics, evidence limits and rhetorical misuse without presupposing disproven answers."
+  },
+  "pageSignals": {
+    "Page form": "Edited original conversation"
+  },
+  "highlights": [
+    "A claim’s support depends on evidence and context, not whether its sentence is positive or negative.",
+    "Withholding belief differs from asserting that a claim is false.",
+    "Established evidence may already meet a burden; popularity alone does not.",
+    "Evidence can be relevant without being sufficient to substantiate the conclusion."
+  ],
+  "embeddedResponseDecisions": {
+    "1.1.follow-up-1": "Retained five scientific steps; differentiated data from discriminating evidence, peer review from truth and falsifiability from justification.",
+    "1.1.follow-up-2": "Retained actual Copernican case, corrected circular/elliptical history and Venus evidence compatible with Tycho; no substitute hypothetical drug scenario.",
+    "1.2.follow-up-1": "Preserved clarification request and corrected earlier implied evidence/substantiation distinction; retained bridge analogy with independence caveat.",
+    "1.2.follow-up-2": "Preserved concrete car-accident scenario and all nested evidence checks; expressly acknowledged hypothetical instead of claiming an actual sourced incident."
+  }
+}

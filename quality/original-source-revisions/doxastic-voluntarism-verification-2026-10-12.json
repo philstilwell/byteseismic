@@ -1,0 +1,137 @@
+{
+  "pagePath": "/epistemology/doxastic-voluntarism/",
+  "sourceSha256": "bc807e5eb692d8935dc6618a85e947010c9f489a534c055dcfebb5ce81ec0d13",
+  "originalPrompts": 5,
+  "originalHeadings": 5,
+  "sourceColumns": 10,
+  "modelResponses": 10,
+  "blocksRetainedVerbatim": 45,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 61,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "1.1.ol original list counts": [
+      2
+    ],
+    "1.2.ul original list counts": [
+      2
+    ],
+    "2.1.ol original list counts": [
+      3,
+      4
+    ],
+    "2.2.ul original list counts": [
+      3,
+      3
+    ],
+    "3.1.ol original list counts": [
+      5
+    ],
+    "3.2.ul original list counts": [
+      3,
+      2
+    ],
+    "4.1.ol original list counts": [
+      7,
+      7
+    ],
+    "4.2.ol original list counts": [
+      7,
+      7
+    ],
+    "5.1.ol original list counts": [
+      12
+    ],
+    "5.2.ol original list counts": [
+      12
+    ]
+  },
+  "sha256": "ece13d3ad5b581ffbefc3e515a261acbd47b5f455517fdba0e96afe62964af20",
+  "verifiedAt": "2026-10-12T13:14:34.749126+00:00",
+  "source": {
+    "cache": ".cache/byteseismic-posts-with-content.json",
+    "wordpressId": 3683,
+    "title": "Doxastic Voluntarism",
+    "url": "http://byteseismic.com/2024/03/14/doxastic-voluntarism/",
+    "snapshot": "doxastic-voluntarism-wordpress-3683.html",
+    "fullSourceRead": true,
+    "fullCurrentEditionRead": true,
+    "urlSlugMatch": true,
+    "titleExact": true,
+    "allPromptTexts": [
+      "What is Doxastic Voluntarism?",
+      "What are the arguments for and against doxastic voluntarism?",
+      "What positions do cognitive scientists take on doxastic voluntarism?",
+      "Create a 7-item quiz on the discussion above with answers at the end. ",
+      "Provide 12 discussion questions relevant to the content above. "
+    ],
+    "modelLogoOrder": [
+      "ChatGPT",
+      "Gemini"
+    ]
+  },
+  "fullPromptOrderIncludingEmbeddedExact": true,
+  "responseDecisions": {
+    "1.1": "Retained significance paragraph; distinguished limited versus unrestricted direct control, indirect influence and culpability. Kept two-item structure.",
+    "1.2": "Retained short introduction/two-kind lead; used the empty-glass example to distinguish belief, pretense and investigative action; corrected the claim that justification requires voluntary formation.",
+    "2.1": "Kept three pro/four contra entries in original order; repaired evidentialism, removed sufficient-reason non sequitur, distinguished desire/influence/control and framed responsibility argument conditionally.",
+    "2.2": "Kept three pro/three contra entries; retained selective-attention item; clarified rational agency versus willing, qualified evidence determinism and comfort paradox, cited alternative control account.",
+    "3.1": "Revised all seven blocks to replace field-wide consensus claims with bounded named experiments and distinguish neural correlation, public compliance and private belief.",
+    "3.2": "Preserved original three-plus-two finding sequence and closing positions; separated involuntary influences from chosen procedures and added concrete test requirements.",
+    "4.1": "Preserved seven questions/seven end keys; corrected evidentialism and neuroscience questions, bounded indirect-influence question and separated options visually.",
+    "4.2": "Preserved seven questions/seven end keys; removed complete-control overstatement, ambiguous confirmation-bias answer and inference from emotion to wholesale involuntarism.",
+    "5.1": "Retained ten of twelve questions verbatim; revised neuroscience and intervention questions to stop presupposing what experiments prove.",
+    "5.2": "Retained eight of twelve questions verbatim; sharpened responsibility, feed, motivated-reasoning and experimental-design questions without assuming total control or guaranteed bias elimination."
+  },
+  "embeddedResponseDecisions": {},
+  "negativeControlsRejected": [
+    ".original-prompt-text",
+    ".original-response",
+    "[data-source-node=\"1.1.1\"]",
+    "#prompt-4 li",
+    "#prompt-5 li"
+  ],
+  "quizQuestionAndKeyCounts": [
+    7,
+    7
+  ],
+  "discussionQuestionCounts": [
+    12,
+    12
+  ],
+  "research": [
+    {
+      "url": "https://eprints.soton.ac.uk/374091/",
+      "use": "McHugh alternative control account; repository abstract retrieved in search, direct open errored."
+    },
+    {
+      "url": "https://dtg.sites.fas.harvard.edu/Gilbert%20et%20al%20%28EVERYTHING%20YOU%20READ%29.pdf",
+      "use": "Original experiments; cognitive load/time pressure finding and authors’ interpretation, bounded to tasks."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6527215/",
+      "use": "Original Lord/Lepper/Preston abstract indexed and read; direct open yielded no substantive body. Two domains, no universal training guarantee."
+    }
+  ],
+  "remainingConcerns": [
+    "Cognitive experiments constrain specified mechanisms; no exhaustive field consensus, universal choice claim or general responsibility theory established."
+  ],
+  "browser": {
+    "viewport": [
+      1280,
+      720
+    ],
+    "horizontalOverflow": false,
+    "promptNavigationChecked": true,
+    "originalQuizLayoutChecked": true,
+    "embeddedFollowUpLayoutChecked": false,
+    "staticQuizzesWithEndKeys": true,
+    "mobileTested": false
+  },
+  "fullBuilderPreservedByteForByte": true
+}

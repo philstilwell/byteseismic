@@ -1,0 +1,40 @@
+# Original-preserving editorial audit — October 12, 2026
+
+Continued cycle 8 at saved index 100, without reset or advancement. Saved automation configuration remains `gpt-6-astra` / `high`; this is configuration evidence, not an independent runtime-model assertion. No subagents, added paid services, installations or media generation.
+
+Two further pages received full original-source review and revision: **Doxastic Voluntarism** and **The Burden of Proof**. Current batch progress is **14/50 reviewed, 36 pending, zero source blockers**. Restarted-pass substantive progress is **114/346 reviewed, 232 not yet reviewed**. Official completed-batch totals remain **100 complete / 246 remaining** until the whole saved batch qualifies.
+
+## Doxastic Voluntarism — WordPress 3683
+
+Read the complete cached original and existing edition; matched title, URL, all five prompts and the ChatGPT/Gemini logo order. Restored separate response tracks, two seven-question quizzes with answers at the end, and two twelve-question discussion lists. All original prompts—including trailing spaces—remain verbatim and in order. Ten responses have individual review decisions.
+
+Distinguished limited from unrestricted direct belief choice, voluntary inquiry from its result, and justified belief from culpability. Retained effective original introductions, the selective-attention argument and most discussion questions. Developed the empty-glass example across the definitions rather than replacing the conversation with a generic essay. Corrected the source’s treatment of evidentialism as a psychological theory, its unsupported appeal to sufficient reason, and its inference from wishful thinking to conscious choice.
+
+Replaced sweeping claims about cognitive-scientist consensus with bounded accounts of named experiments. Brain activity associated with belief does not itself demonstrate involuntariness; reporting agreement is not necessarily changed conviction; an influence on belief is not automatically one we control. Related quiz questions and keys now teach these distinctions, with limited direct control no longer defined as complete control over every belief.
+
+Research used [McHugh’s original account of attitudinal control](https://eprints.soton.ac.uk/374091/), [Gilbert, Tafarodi and Malone’s experiments](https://dtg.sites.fas.harvard.edu/Gilbert%20et%20al%20%28EVERYTHING%20YOU%20READ%29.pdf), and the original [Lord, Lepper and Preston abstract](https://pubmed.ncbi.nlm.nih.gov/6527215/). The McHugh repository abstract was available through search, while direct retrieval errored. The Lord abstract was indexed and read; direct opening yielded no substantive body. The page does not claim an exhaustive research review, universally effective intervention or complete theory of moral responsibility.
+
+## The Burden of Proof — WordPress 1842
+
+Read the full cached original and existing edition; matched title, URL, ten prompts and model-logo order. Preserved six main prompts and four follow-up questions embedded in their original response columns. The twelve source columns contain sixteen distinct response segments. The four follow-up decisions are recorded separately. Preserved the five-step science list, three-paragraph historical case, evidence/substantiation lists, nested accident investigation, original Elvis-to-God transition, response strategies, two five-question quizzes/end keys and twenty-four discussion questions. All discussion questions were retained verbatim because they remain relevant, open questions after the corrections.
+
+Corrected burden versus standard of proof, falsifiability versus justification, peer review versus truth, and reproducibility versus independent confirmation. Restored the original Copernican example in place of the previous edition’s hypothetical drug scenario. Explained why Venus’s phases did not uniquely establish Earth’s motion: they also fitted Tycho’s model. Revised the bridge analogy to account for dependent evidence and explained why footage of a car entering an intersection may not support the contested red-light allegation.
+
+Preserved the curator’s skeptical demand for public substantiation while applying it consistently. Existing evidence can already satisfy a burden; popularity alone cannot. Withholding assent differs from asserting nonexistence. Negative claims can be supported, and a claim is not false merely because its proponent has failed to establish it. The Elvis example’s historical evidence does not transfer to a miracle-performing God. Corrected the simplistic razor and “who made God?” arguments, and retained the explicit demands for evidence of both an event and its alleged divine cause.
+
+The original request for an actual accident scenario remains served by a **clearly labeled hypothetical**, not a fabricated documented case. This limitation appears on the page. The Elvis discussion relies on [Graceland’s public biography](https://www.graceland.com/biography), not an asserted inspection of a death certificate or private autopsy. Other checks used [United States Courts](https://www.uscourts.gov/about-federal-courts/types-cases/criminal-cases), [Museo Galileo](https://catalogue.museogalileo.it/indepth/PhasesVenus.html), and [NASA’s account of Kepler’s laws](https://science.nasa.gov/solar-system/orbits-and-keplers-laws/).
+
+## Verification and delivery
+
+- Exact cached snapshots, title/URL matches and model-logo order verified. All fifteen prompts remain verbatim and in source order, including four embedded follow-ups. Original response placement and list structures preserved.
+- Twenty-two response-column decisions plus four separate embedded-response decisions recorded. 161 source-addressed blocks revised; 171 retained verbatim. All twenty-four quiz questions were checked against their end-position keys; forty-eight discussion questions preserved in the original four lists.
+- Twelve deliberate omissions rejected, including two embedded follow-up removals. All 78 generic-renderer configurations passed. The opt-in nested-prompt extension leaves the 76 older renderings unchanged relative to the pre-change renderer.
+- An initial comparison against saved older editions found two pre-existing HTML-marker differences (Philosopher Club Membership and Philosophers or Philosophy?). They are unrelated to this change. Comparing both renderer versions confirmed that; the saved pages were left untouched and tested for full-build preservation.
+- Full build ran only in an isolated Git archive plus authorized changes. It generated/updated 723 content pages and audited 840 pages with zero reported failures; 39 recovered-conversation checks, including 17 high-risk cases, passed. All 114 reviewed editions survived byte-for-byte. The earlier 112 were preservation checks, not fresh editorial reviews.
+- Desktop preview at 1280 × 720 checked prompt navigation, embedded follow-up placement, the exact curator transition, accident caveat and quiz options. No horizontal overflow. The quizzes are static, with end-position keys; mobile was not tested. Temporary browser tab closed.
+- Both official tracker files and all 476 inherited modified files remain byte-identical. No advance/reset command was run. Only the two pages, source/edit/verification records, small renderer extension, source inventory and reports are authorized for staging.
+- Thirteen authorized files prepared for commit and push. The exact commit and remote confirmation are recorded in automation memory and the final response. Owned preview/build resources are removed after saving evidence.
+
+## Remaining queue
+
+Continue the same saved fifty pages, **Philosopher Club Membership through Moral Systems: Required Elements**. Next pending: **Can Humans Change?** (`/humanistic-philosophies/can-humans-change/`, WordPress 3566). Preliminary source inspection identified research-attribution, personality-change, therapy and autism claims requiring careful review; the source output was truncated, so full reading and review are **not** counted complete. Thirty-six pages still need full review. No later batch is activated and no baseline approvals are reopened.
