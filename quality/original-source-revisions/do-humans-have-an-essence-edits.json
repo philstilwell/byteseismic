@@ -1,0 +1,241 @@
+{
+  "wordpressId": 3589,
+  "pageFile": "humanistic-philosophies/do-humans-have-an-essence/index.html",
+  "snapshot": "do-humans-have-an-essence-wordpress-3589.html",
+  "sourceSha256": "d7c7c4bf28102a565c30d08140f482bb5db183d1283bda23a0c19d51fe4f0364",
+  "sourceUrl": "http://byteseismic.com/2024/03/13/do-humans-have-an-essence/",
+  "sourceLabel": "Original WordPress conversation, 2024-03-13",
+  "shellRevision": "3e582cda2cd24c0edafb2d694cb16c77f50a3cce",
+  "date": "2026-10-13",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "What kind of essence is being denied?",
+    "Human dispositions, freedom, and possible harm",
+    "Two sets of five lives and choices",
+    "Shyness, agency, and workable change",
+    "Two ten-question quizzes with answers at the end",
+    "Two sets of fifteen discussion questions"
+  ],
+  "introHeading": "Original conversation · editorial edition",
+  "intro": "The 6 original prompts and both response tracks are preserved, including the original quizzes and discussion questions. Responses have been checked and edited in their original positions; research corrections and interpretive limits are identified where they matter.",
+  "description": "Human nature and existential freedom: inherited tendencies, practical constraints, ten biographical examples, and a careful response to disabling shyness.",
+  "replacements": {
+    "1.1.0": "Yes: Sartre is the clearest example of a philosopher rejecting a human essence fixed in advance. In <a href=\"https://www.marxists.org/reference/archive/sartre/works/exist/sartre.htm\"><em>Existentialism Is a Humanism</em></a>, his comparison is with a manufactured object whose design and purpose precede its production. He denies that humans arrive with an equivalent assigned purpose. That is a stronger philosophical position than a psychology finding, but it is not evidence that every disposition can be changed at will.",
+    "1.1.1": "The animal comparison needs care. Species-typical tendencies are not the same as a script fixing every act, and learning and individual variation make “forced into particular behaviors” too sweeping. More fundamentally, a description of what a creature tends to do differs from a purpose that tells it what its life must be for. The existence of a human tendency therefore does not by itself answer Sartre’s question.",
+    "1.1.2": "Nietzsche and Heidegger belong in the broader discussion, but should not be made to repeat Sartre’s formula. Nietzsche’s interest in self-overcoming includes the role of drives; it is not a claim that an unconstrained self can invent anything. Heidegger examines human existence as already situated in a world and facing possibilities, not as an object with a fixed functional specification. These are different approaches, not a single empirical theory of personality.",
+    "1.1.3": "Thus the defensible answer is specific: some existentialists reject a predetermined human definition or purpose. Whether they adequately account for biological constraints is a further question. Neither declaring humans free nor contrasting them with animals settles how much any particular trait can change.",
+    "1.2.0": "Dogs and cats have different typical dispositions, but calling those dispositions “essences” can hide several claims. Does it mean species membership, a tendency, an unavoidable behavior, or a life-purpose? The last two do not follow merely from the first two.",
+    "1.2.1": "Sartre emphasizes responsibility for one’s projects rather than a purpose supplied in advance. Existentialism is a family of approaches, however: absurdity, religious commitment, embodiment, and freedom receive different treatment in different thinkers. It should not be defined as one unanimous doctrine that life lacks all meaning.",
+    "1.2.2": "A practical distinction is between “I often withdraw in groups” and “withdrawing is what I must always be.” Rejecting the second does not make the first unreal or easily reversible. It leaves the possible actions and supports to be investigated instead of treating a label as their final limit.",
+    "2.1.0": "The curator’s challenge is important: if people have powerful needs and tendencies, rejecting an essence must not become denial of those facts. There is no single existentialist answer about sociability or curiosity. We should separate a philosopher’s account of freedom from empirical claims about which dispositions humans share and what happens when they are frustrated.",
+    "2.1.1": "A Sartrean interpretation can distinguish a tendency from the project through which a person acts on it. Curiosity might support laboratory work, collecting local histories, or solitary reading. These are editorial examples, not claims that Sartre measured curiosity or proved it voluntary. Having more than one expression available is also much weaker than being able to abolish the underlying disposition.",
+    "2.1.2": "“Bad faith” is not a clinical label for being insufficiently social or curious. It involves a distortion of one’s freedom and situation: treating oneself as nothing but a role, for example, or pretending that real circumstances impose no limits. It does not follow that a person who enjoys solitude is evading responsibility. A preference, a defensive story, and a disabling fear require different evidence.",
+    "2.1.3": "Heidegger’s discussion of mortality offers another limit: a life is finite, and owning its possibilities does not eliminate death. That philosophical point does not establish a causal claim about isolation or suppressed curiosity. <a href=\"https://www.marxists.org/reference/subject/ethics/de-beauvoir/ambiguity/ch03.htm\">Beauvoir’s account of freedom and oppression</a> is particularly useful here because it connects meaningful action to concrete opportunities that others can restrict or help expand.",
+    "2.1.4": "Departures from a familiar pattern can be harmful, liberating, or mixed. To decide which, ask what need is affected, whether the change is chosen, and what happens to functioning and well-being. A harm does not prove that an immutable essence has been violated; an improvement does not prove that constraints were imaginary. That is a way to preserve the force of the curator’s objection without deciding it by terminology.",
+    "2.2.0": "A powerful driver of behavior need not be a destiny, but the extent of its power cannot be settled by invoking existentialism. Four distinctions help answer the two parts of the question:",
+    "2.2.1": "<strong>Acknowledging Dispositions:</strong> People differ in their desire for company, novelty, or familiar routines. An existentialist argument about purpose should not be mistaken for a demonstration that these differences are absent.",
+    "2.2.2": "<strong>Choosing an Expression:</strong> A curious person might investigate a problem alone or with others. Solitary inquiry is an expression of curiosity, not an example of resisting it. Choice concerns available actions; the desire driving them may not itself be chosen.",
+    "2.2.4": "<strong>Possible Harm:</strong> Unwanted isolation and chosen solitude should not be treated as identical. Similarly, abandoning an imposed activity may help someone rather than suppress a universal need. Whether a departure is destructive requires evidence about its effects; calling it unnatural supplies no such evidence.",
+    "2.2.5": "The useful middle position is neither that a tendency dictates every action nor that any tendency can be discarded without cost. Projects take shape within conditions. Those conditions may leave alternatives open, but the alternatives differ in accessibility and consequences.",
+    "2.2.6": "So the answer should not be attributed to “all existentialists.” The strongest version of the curator’s concern asks how an account of freedom handles embodiment and needs. An adequate reply must acknowledge their influence while explaining why influence need not assign one obligatory way of life.",
+    "3.1.0": "Here are five concrete episodes involving the original five people. The events and the existential interpretations should be kept separate. Some subjects are existentialist philosophers; others illustrate a possible reading of action under constraint without having adopted that label. No single episode certifies someone’s whole life as authentic.",
+    "3.1.1": "<strong>Jean-Paul Sartre — refusing the Nobel Prize:</strong> In 1964 Sartre declined the literature prize, consistent with his refusal of official honors, as the <a href=\"https://www.nobelprize.org/prizes/literature/1964/summary/\">Nobel record</a> confirms. The episode illustrates a decision about how institutional recognition should relate to his work. It can be interpreted as owning a commitment, but neither refusal nor acceptance of an award is automatically an existentialist virtue.",
+    "3.1.2": "<strong>Simone de Beauvoir — interrogating an assigned role:</strong> Publishing <em>The Second Sex</em> in 1949, Beauvoir examined how womanhood is shaped through social conditions rather than supplied as a complete destiny by biology. Her <a href=\"https://www.marxists.org/reference/subject/ethics/de-beauvoir/2nd-sex/ch03.htm\">discussion of historical materialism</a> also refuses to dissolve individuality into an economic formula. The episode illustrates philosophical work that makes a taken-for-granted role available for criticism; it does not imply that women can remove oppressive conditions by private resolve alone.",
+    "3.1.3": "<strong>Albert Camus — resistance and journalism:</strong> Camus joined the French Resistance and wrote for <em>Combat</em>, according to his <a href=\"https://www.nobelprize.org/prizes/literature/1957/camus/biographical/\">Nobel biography</a>. His example shows public commitment under dangerous circumstances rather than detachment from an allegedly meaningless world. He resisted the existentialist label; presenting this as an existentially relevant episode is an interpretation, not a correction of his self-description or an endorsement of every later position he took.",
+    "3.1.4": "<strong>Viktor Frankl — developing and resuming work on meaning:</strong> Frankl’s <a href=\"https://www.viktorfrankl.org/biography.html\">institute chronology</a> traces logotherapy to work before his imprisonment and records his subsequent writing after surviving the camps. His later account connects extreme constraint with the question of meaningful response. It should not be retold as though he invented the approach entirely in the camps, or as proof that survival depends on choosing the right attitude. Responsibility for persecution remains with the perpetrators; suffering does not need to be justified by a lesson.",
+    "3.1.5": "<strong>Frida Kahlo — making art during recovery:</strong> Her <a href=\"https://www.museofridakahlo.org.mx/frida/?lang=en\">museum’s chronology</a> recounts how a mirror above her bed and painting materials enabled work during recovery from her accident. This is a concrete example of expression made possible within severe bodily limits, with material help from others. Calling it existentially illuminating is an interpretation; it neither establishes that Kahlo adopted existentialism nor turns pain into a benefit she was obliged to welcome.",
+    "3.1.6": "The common theme is action within a situation, not escape from all constraint. These episodes invite questions about commitments, opportunities, and costs. They illustrate the discussion; they do not demonstrate that existentialism is true or that anyone could reproduce the same outcomes.",
+    "3.2.0": "<strong>Viktor Frankl and Meaning:</strong> After surviving imprisonment, Frankl returned to clinical and writing work and set out his account of meaning under extreme conditions. His <a href=\"https://www.viktorfrankl.org/biography.html\">biographical chronology</a> shows that logotherapy had earlier roots. The episode illustrates persistence in a project; it does not imply that victims chose their suffering or could control their survival. Frankl’s approach also stresses discovering meaning in situations, so it should not be equated without qualification with inventing any purpose one likes.",
+    "3.2.1": "<strong>Simone de Beauvoir and Womanhood:</strong> In <em>The Second Sex</em>, Beauvoir turned the question of what a woman is into an investigation of how a social position is produced. Writing that analysis was itself an intervention in expectations about women. The lesson concerns criticism and action within social conditions, not a promise that self-definition alone removes their effects.",
+    "3.2.2": "<strong>Albert Camus and Commitment:</strong> His resistance journalism gives a clearer real-life example than treating the fictional murderer in <em>The Stranger</em> as a model of successful living. Camus’s <a href=\"https://www.nobelprize.org/prizes/literature/1957/camus/speech/\">Nobel banquet speech</a> connects the writer’s work with resistance to falsehood and oppression. The interpretive point is that lack of final certainty need not prevent commitment; neither murder nor arbitrary meaning-making is the lesson.",
+    "3.2.3": "<strong>John Coltrane and Artistic Direction:</strong> The <a href=\"https://www.johncoltrane.com/biography\">official biography</a> describes the composition of <em>A Love Supreme</em> in 1964 amid a career combining established forms and experimentation. Developing that work offers an example of sustained artistic commitment, not change simply for novelty’s sake. Reading it alongside existential themes does not establish that Coltrane was an existentialist; his spiritual purposes should not be replaced with a presumed belief in meaninglessness.",
+    "3.2.4": "<strong>Malala Yousafzai and Education:</strong> In her <a href=\"https://www.nobelprize.org/uploads/2018/06/yousafzai-lecture_en.pdf\">2014 Nobel lecture</a>, she recounts threats, an attack, and continuing advocacy for girls’ education. The episode illustrates commitment under danger and the importance of collective opportunity. It does not show that fear is freely chosen or that other threatened people deserve blame for being unable to act similarly. Her work can illuminate this discussion without assigning her a philosophical affiliation.",
+    "3.2.5": "These five episodes can be read through existential questions about how to act and what to sustain. That reading is ours, not a claim that every subject accepted an atheistic or existentialist doctrine. Religious and secular commitments, individual decisions, and assistance from others need to remain visible in the stories.",
+    "4.1.0": "“Dysfunctionally shy” describes a difficulty worth taking seriously, not a complete definition of who you are. Calling it an essence can make every future interaction seem settled in advance. Rejecting that conclusion leaves room to investigate change; it does not prove that anxiety is voluntary or that philosophy can guarantee recovery.",
+    "4.1.1": "If fear substantially interferes with everyday life, an appropriately qualified practitioner can help assess what is happening. <a href=\"https://www.nimh.nih.gov/health/publications/social-anxiety-disorder-more-than-just-shyness\">NIMH distinguishes social anxiety disorder from ordinary shyness and describes treatment options</a>. Assessment matters because similar outward withdrawal can have different explanations and call for different support.",
+    "4.1.2": "An achievable aim might be participation in one valued activity, rather than becoming universally outgoing. Progress can include doing something while still feeling shy. Difficulty or a setback should prompt a review of the approach and conditions, not a verdict that you have failed to exercise freedom.",
+    "4.1.3": "Managing shyness need not mean rejecting your temperament or becoming someone else. A welcoming group, a familiar topic, or a preferred way to communicate may make participation easier. Those are possibilities to explore, not assumptions that every shy person is unusually sensitive or that a different environment resolves every problem.",
+    "4.1.4": "The philosophical contribution is to question whether a trait exhausts your possibilities. The practical task is to discover which possibilities are available, what support they require, and whether attempts improve your life. That combination preserves agency without turning distress into a moral failure.",
+    "4.2.0": "You may be able to change how shyness affects your life, but “definitely” promises too much. The useful existential question is what room for action remains, not whether you can prove freedom by making the feeling disappear.",
+    "4.2.1": "<strong>Shyness and Choice:</strong> Shyness is not adequately described as a behavior you chose, consciously or unconsciously. Feelings, learned patterns, and present circumstances can limit action without being voluntary. Some responses may become more workable with practice or support; that does not make the original difficulty your fault.",
+    "4.2.2": "<strong>Gradual Steps:</strong> Choose a small action connected to your own goal, such as asking a prepared question in a familiar group. Adjust it from experience. Eye contact or approaching strangers need not be compulsory milestones, especially when they do not fit someone’s communication needs.",
+    "4.2.5": "Change can involve discomfort, but discomfort alone is not proof of progress. A useful attempt teaches something or expands participation; repeated overwhelm is a reason to reconsider the task or seek support. There is no philosophical duty to force yourself through a fixed quota.",
+    "4.2.7": "<strong>Therapy:</strong> Consider qualified assessment if the difficulty is persistent or disabling. Treatment decisions should follow the actual problem and your preferences, rather than assuming shyness has one cause.",
+    "4.2.9": "<strong>Practice and Feedback:</strong> More exposure is not automatically better. Compare a specific feared prediction with what occurred, and choose the next manageable step on that basis. Unwanted or unsafe interactions are not required.",
+    "4.2.10": "The attainable goal may be a fuller social life with some shyness still present. Your interests and relationships need not wait for a complete personality transformation, and receiving help is compatible with taking an active part in change.",
+    "5.1.12": "Which clinician’s account emphasized possible meaning and response under extreme constraint?",
+    "5.1.17": "What does “bad faith” concern in the Sartrean discussion?",
+    "5.1.19": "B) Misrepresenting one’s freedom or situation to evade responsibility",
+    "5.1.22": "Which attitude conflicts with the critical approach presented here?",
+    "5.1.25": "C) Treating an inherited role as beyond examination",
+    "5.1.27": "Which literature award did Sartre decline in 1964?",
+    "5.1.28": "A) The Pulitzer Prize",
+    "5.1.32": "In Sartre’s account, what role do choices and actions have?",
+    "5.1.37": "How should Frankl’s postwar account be interpreted here?",
+    "5.1.40": "C) As exploring meaning under constraint, without making survival a test of attitude",
+    "5.1.50": "C) Change in participation may be possible with suitable practice and support; it is not guaranteed by philosophy.",
+    "5.1.56": "B) Misrepresenting one’s freedom or situation to evade responsibility.",
+    "5.1.57": "C) Treating an inherited role as beyond examination.",
+    "5.1.60": "C) As exploring meaning under constraint, without making survival a test of attitude.",
+    "5.1.62": "C) Change in participation may be possible with suitable practice and support; philosophy alone does not guarantee it.",
+    "5.2.2": "What distinction answers the first prompt most directly?<br>a) Every animal act is fixed.<br>b) A typical disposition differs from a predetermined life-purpose.<br>c) Humans have no biological tendencies.<br>d) All traits change on command.",
+    "5.2.3": "Which formula is associated with Sartre’s account here?<br>a) Existence precedes essence.<br>b) The unconscious precedes awareness.<br>c) Pleasure is the sole good.<br>d) Biology assigns one purpose.",
+    "5.2.4": "How can a strong tendency such as curiosity relate to action?<br>a) It dictates every project.<br>b) It has no influence.<br>c) It can influence several possible projects without assigning one destiny.<br>d) It must always be suppressed.",
+    "5.2.5": "Which approach did Frankl begin developing before his imprisonment?<br>a) Psychoanalysis<br>b) Logotherapy<br>c) Behaviorism<br>d) Humanism",
+    "5.2.7": "Why is Camus’s resistance journalism a better anecdote than treating a fictional murderer as a role model?<br>a) Fiction can never matter philosophically.<br>b) It documents a real commitment without making violence a model of authenticity.<br>c) It proves all his beliefs correct.<br>d) It establishes that he accepted the existentialist label.",
+    "5.2.8": "How is Coltrane’s work used in this discussion?<br>a) As proof that he rejected spiritual meaning<br>b) As proof that tradition forbids innovation<br>c) As an interpretive example of sustained artistic commitment<br>d) As evidence that everyone should constantly reinvent themselves",
+    "5.2.9": "What does the Malala example illustrate here?<br>a) An obligation for every threatened person to act identically<br>b) A commitment to education under danger, without assigning a philosophical label<br>c) Proof that fear is freely chosen<br>d) A solitary achievement requiring no support",
+    "5.2.10": "Which response to shyness fits the revised discussion?<br>a) Treat it as a destiny.<br>b) Explore manageable, valued actions and suitable support.<br>c) Demand its immediate disappearance.<br>d) Assume it was freely chosen.",
+    "5.2.11": "Which conclusion is supported by the examples?<br>a) Every subject adopted existentialism.<br>b) Freedom removes all constraints.<br>c) Choices and commitments can be examined within real situations.<br>d) A successful life proves its philosophy true.",
+    "6.1.3": "How does Camus’s account of the absurd differ from the claim that nothing matters? Must all existentialist approaches accept the same account?",
+    "6.1.4": "How can Frankl’s account of meaning under constraint be considered without romanticizing suffering or blaming those unable to find meaning in it?",
+    "6.1.14": "How might existential reflection help someone question a limiting identity while empirical assessment and support address disabling shyness? Where would philosophy alone be insufficient?",
+    "6.2.7": "How might Frankl’s emphasis on meaning offer help in adversity, and when could urging someone to find meaning instead become an unfair demand?",
+    "6.2.12": "How might temperament, learning, and current circumstances all contribute to shyness? Why would identifying those influences not by itself settle every possible action?",
+    "5.2.6": "Simone de Beauvoir challenged the idea of a pre-defined:<br>a) Social Class<br>b) Political Identity<br>c) Gender Role<br>d) Religious Belief",
+    "5.1.30": "C) The Booker Prize",
+    "5.1.31": "D) The National Book Award",
+    "5.1.48": "A) A wish to change guarantees immediate improvement.",
+    "5.1.49": "B) Shyness fixes every future action.",
+    "5.1.51": "D) Receiving support proves a lack of agency."
+  },
+  "countChecks": [
+    {
+      "name": "2.2.ul original list counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        4
+      ]
+    },
+    {
+      "name": "3.1.ol original list counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        5
+      ]
+    },
+    {
+      "name": "3.2.ol original list counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        5
+      ]
+    },
+    {
+      "name": "4.2.ul original list counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        4,
+        3
+      ]
+    },
+    {
+      "name": "5.1.ol original list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        10
+      ]
+    },
+    {
+      "name": "5.1.ul original list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"1\"] ul",
+      "child": "li",
+      "expected": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "5.2.ol original list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        10,
+        10
+      ]
+    },
+    {
+      "name": "6.1.ol original list counts",
+      "selector": "#prompt-6 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    },
+    {
+      "name": "6.2.ol original list counts",
+      "selector": "#prompt-6 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    }
+  ],
+  "responseDecisions": {
+    "1.1": "Preserved four-paragraph sequence and named thinkers; separated tendency/purpose, qualified animal determinism and human exception, distinguished Nietzsche/Heidegger from Sartre.",
+    "1.2": "Kept three paragraphs; corrected dog/cat stereotypes and uniform absurdity doctrine; supplied concrete withdrawal-versus-destiny comparison.",
+    "2.1": "Preserved five-paragraph curator-challenge progression. Distinguished empirical needs from purpose, labeled curiosity examples editorial, corrected bad-faith clinical inference, linked Beauvoir conditions and separated harm from violated essence.",
+    "2.2": "Preserved four-point list; retained useful meaning-making examples. Corrected solitary-curiosity contradiction, blanket existentialist attribution and equation of solitude with harm.",
+    "3.1": "Kept five names/order and individual list positions. Grounded Nobel/Second Sex/Resistance/Frankl/Kahlo episodes in identified sources; corrected Frankl chronology, bounded interpretation and avoided authenticity certificates or victim-blaming.",
+    "3.2": "Kept five names/order. Replaced fictional-murder proxy with real Camus commitment, grounded Coltrane and Malala examples, separated philosophical interpretation from self-identification and retained spiritual/social context.",
+    "4.1": "Preserved five paragraphs and exact personal prompt. Retained agency/identity distinction while replacing guarantee with assessment, narrower participation goal and explicit limits of philosophical inference.",
+    "4.2": "Preserved four core points/three practical tips. Retained meaningful-interactions, more-than-shy and interest-group entries; removed chosen-shyness claim, guaranteed improvement, compulsory eye contact and more-is-better exposure.",
+    "5.1": "Ten questions/forty options/ten end keys preserved. Corrected bad faith, Frankl, uncritical tradition, duplicate Sartre-honor correct options and guaranteed shyness change; keys updated in place.",
+    "5.2": "Ten questions/ten end keys preserved. Corrected wrong Sartre absurd answer, human/animal premise, Frankl chronology, Camus murder example, Coltrane meaning assumption, Malala label and freedom-as-treatment inference.",
+    "6.1": "Fifteen discussion questions preserved; three revised for philosophical plurality, non-romanticizing suffering and limits of clinical inference. Twelve retained verbatim.",
+    "6.2": "Fifteen discussion questions preserved; two revised for Frankl pressure and learned/inherent false dichotomy. Thirteen retained verbatim."
+  },
+  "pageSignals": {
+    "Page form": "Edited original conversation"
+  },
+  "highlights": [
+    "A biological tendency differs from a predetermined purpose for a life.",
+    "Recognizing constraints does not settle every question about what someone can do.",
+    "Biographical examples illustrate interpretations; they do not prove a philosophy or confer a label.",
+    "Shyness need not define a whole person, and its difficulty is not evidence of a freely chosen failure."
+  ],
+  "leadingTextReplacements": {
+    "5.1.47": "What is a defensible response to “dysfunctionally shy” in this discussion?"
+  },
+  "orderedListStarts": {
+    "5.1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      1
+    ]
+  }
+}

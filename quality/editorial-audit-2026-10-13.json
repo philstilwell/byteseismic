@@ -1,0 +1,434 @@
+{
+  "date": "2026-10-13",
+  "recordedAt": "2026-10-13T13:25:17.318854+00:00",
+  "savedModelConfiguration": {
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "runtimeModelIndependentlyVerified": false
+  },
+  "cycle": 8,
+  "savedIndex": 100,
+  "currentBatchReviewed": 16,
+  "currentBatchPending": 34,
+  "sourceBlocked": 0,
+  "restartedPassSubstantivelyReviewed": 116,
+  "restartedPassNotYetReviewed": 230,
+  "officialCompletedBatchPages": 100,
+  "officialRemaining": 246,
+  "trackerAdvanced": false,
+  "nextPending": "/epistemology/epistemological-case-studies/",
+  "noLaterBatchActivated": true,
+  "pages": [
+    {
+      "pagePath": "/humanistic-philosophies/can-humans-change/",
+      "sourceSha256": "c8830db74e00f650a7750c21bb88e724feb86c8dae79623bcc579a89e3178cb8",
+      "originalPrompts": 8,
+      "originalHeadings": 8,
+      "sourceColumns": 16,
+      "modelResponses": 16,
+      "blocksRetainedVerbatim": 102,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 113,
+      "bareAnswersExplicitlyRevised": 0,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "2.1.ol original list counts": [
+          5
+        ],
+        "2.1.ul original list counts": [
+          4
+        ],
+        "2.2.ul original list counts": [
+          3,
+          3
+        ],
+        "3.1.ol original list counts": [
+          10
+        ],
+        "3.2.ul original list counts": [
+          7,
+          3
+        ],
+        "4.1.ul original list counts": [
+          2,
+          2,
+          2,
+          1
+        ],
+        "4.2.ul original list counts": [
+          3,
+          3,
+          3
+        ],
+        "5.1.ul original list counts": [
+          5
+        ],
+        "5.2.ul original list counts": [
+          2,
+          3,
+          4
+        ],
+        "6.1.ol original list counts": [
+          5
+        ],
+        "6.2.ul original list counts": [
+          2,
+          2,
+          3,
+          1
+        ],
+        "7.1.ol original list counts": [
+          10
+        ],
+        "7.2.ol original list counts": [
+          10,
+          10
+        ],
+        "8.1.ol original list counts": [
+          15
+        ],
+        "8.2.ol original list counts": [
+          15
+        ]
+      },
+      "sha256": "03ab2f42ce8670b10a505378b6c5caeb4e504e13fc9801a07607f7765f390862",
+      "verifiedAt": "2026-10-13T13:21:26.539389+00:00",
+      "source": {
+        "cache": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 3566,
+        "title": "Can Humans Change?",
+        "url": "http://byteseismic.com/2024/03/13/can-humans-change/",
+        "snapshot": "can-humans-change-wordpress-3566.html",
+        "fullSourceRead": true,
+        "fullCurrentEditionRead": true,
+        "urlSlugMatch": true,
+        "titleExact": true,
+        "allPromptTexts": [
+          "Existentialists suggest that we have no essence we are born with and destined to follow. But can humans actually change their personalities and character at any time?",
+          "List and comment on any studies that have measured the rate at  and conditions under which humans can change their characters or personalities.",
+          "If an individual dislikes their current personality, what are the actions they can take, such as those related to environmental changes, to maximize the speed at which they shed that unwanted personality?",
+          "It has been suggested that those who make changes without dependence on others, such as a therapist, often change faster and more permanently. To what degree is this true?",
+          "I have a friend who quite rapidly got over his shyness by forcing himself to speak to a random girl everyday. Is this “brute force” method encouraged?",
+          "What conditions such as autism and Asperger’s constitute an essence one is lock into that makes an existential departure from that essence difficult?",
+          "Create a 10-item quiz on the discussion above with answers at the end. ",
+          "Provide 15 discussion questions relevant to the content above. "
+        ],
+        "modelLogoOrder": [
+          "ChatGPT",
+          "Gemini"
+        ],
+        "preamble": "Four original highlight extracts read; four explicitly labeled edited highlights retain orientation without repeating superseded overclaims. Original repeated table of contents replaced with exact prompt navigation."
+      },
+      "responseDecisions": {
+        "1.1": "Preserved five-paragraph progression; separated state/habit/trait/moral character, constrained neuroplasticity inference, and qualified control and resources.",
+        "1.2": "Retained short opener; corrected unlinked source placeholders and total-remaking promise; explained relative stability versus within-person change.",
+        "2.1": "Preserved five study entries and four interpretive points. Flagged unestablished Grant/Terman claims and Riversdale identification, differentiated Dunedin continuity, bounded unemployment evidence with replication, corrected 2006 age/facet patterns.",
+        "2.2": "Preserved three research entries and three caveats. Withdrew unidentified Clark and mismatched Caspi claims, corrected Krasner population/design, supplied intervention timing/effect-scale meaning, Dugan repeated measures, Stieger trial/follow-up/attrition; corrected genetic immutability inference.",
+        "3.1": "Kept ten actions; retained useful activity/habit/feedback/patience entries. Made goal observable, removed wholesale-replacement/speed promises and social-copying inference; bounded therapy, reflection, biographies and health claims.",
+        "3.2": "Kept seven strategies/three reminders. Retained specific traits/environment/habits; corrected forced contact, self-talk, CBT placeholder and coaching equivalence; emphasized learning and accessible practice.",
+        "4.1": "Preserved autonomy/support/complexity/research hierarchy; rejected unsupported superiority, explained selection bias and follow-up requirements, separated assistance from dependence.",
+        "4.2": "Kept three advantages, three disadvantages and three considerations. Retained ownership/stigma/accountability/support points as possibilities; removed assumed truth of superiority, hidden-cause claims and fastest-route conclusion. Final review removed the residual permanent-change subheading and unsupported success-rate claim.",
+        "5.1": "Retained friend anecdote prompt and five cautions; distinguished practice from treatment, added prediction-testing example, consent and meaningful outcomes; no diagnosis or universal dose inferred.",
+        "5.2": "Preserved two pros/three cons/four alternatives. Corrected force guarantees, conversational quotas, meaningful-talk performance demand and root-cause assumptions.",
+        "6.1": "Preserved autism/identity progression and five entries. Distinguished condition from purpose, variable needs, supported agency and environmental accommodation; included other constraints without blanket diagnoses or agency claims.",
+        "6.2": "Preserved headings and list counts; corrected Asperger classification, abstract-thinking stereotype and uniform-core-immutability claim; support targets access and well-being, not compulsory normalization.",
+        "7.1": "Ten questions and ten end keys preserved. Repaired causal life-event item and anecdote/therapy classification; scoped Sartre question and separated options. Final review made the longitudinal-design item uniquely answerable.",
+        "7.2": "Ten questions/ten end keys preserved. Removed ambiguous double-key independence question, two-correct-option drawback, age maximum, autism stereotype and comparative-efficacy overclaim.",
+        "8.1": "Fifteen questions preserved; revised three that presupposed brute force equals therapy, unsupported comparative findings or universal mindfulness benefit; retained twelve open questions.",
+        "8.2": "Fifteen questions preserved; revised purpose/personality conflation and age-maximum presupposition; retained thirteen open questions."
+      },
+      "negativeControlsRejected": [
+        ".original-prompt-text",
+        ".original-response",
+        "[data-source-node=\"1.1.0\"]",
+        "#prompt-7 li",
+        "#prompt-8 li"
+      ],
+      "quizQuestionAndKeyCounts": [
+        10,
+        10
+      ],
+      "discussionQuestionCounts": [
+        15,
+        15
+      ],
+      "research": [
+        {
+          "url": "https://www.adultdevelopmentstudy.org/our-participants",
+          "use": "Official cohort description; does not establish the original specific emotional-regulation result."
+        },
+        {
+          "url": "https://dunedinstudy.otago.ac.nz/files/1627860881468.pdf",
+          "use": "Primary repository paper concerning age-three traits and age-26 personality; distinct from the unidentified Riversdale claim."
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25664474/",
+          "use": "Boyce unemployment abstract indexed and read: 6,769 adults, four-year measurements; association, not experimental proof."
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0092656619300625",
+          "use": "Registered replication indexed abstract: personality did not change after unemployment."
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/16435954/",
+          "use": "Roberts, Walton and Viechtbauer 2006 meta-analysis; primary abstract/index and Illinois author repository. Social dominance is a facet; no general age deadline."
+        },
+        {
+          "url": "https://jamanetwork.com/journals/jama/fullarticle/184621",
+          "use": "Krasner 2009 primary article indexed table/abstract, supplemented by PubMed 19773563: 70 primary-care physicians, pre/post design, baseline and 2/12/15 months."
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/28054797/",
+          "use": "Roberts 2017 primary abstract/index and DOI abstract: 207 studies, approximately 24 weeks, standardized change .37; not 37% of personality."
+        },
+        {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/37041673/",
+          "use": "Dugan primary indexed abstract: 4,904 participants, 47,814 assessments, median 35 days; observational."
+        },
+        {
+          "url": "https://doi.org/10.1073/PNAS.2017548118",
+          "use": "Stieger primary indexed abstract/method: 1,523 participants, three-month intervention, one-month waitlist, smaller observer increases and three-month follow-up. PMC direct access returned CAPTCHA; not bypassed."
+        },
+        {
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/jopy.12898",
+          "use": "Primary indexed follow-up abstract: 157 respondents at one year; attrition prevents a simple permanence conclusion."
+        },
+        {
+          "url": "https://www.nice.org.uk/Guidance/CG159/chapter/recommendations",
+          "use": "Official indexed recommendations 1.3.2 and 1.3.4; bounded treatment distinction, no individualized diagnosis."
+        },
+        {
+          "url": "https://www.nice.org.uk/guidance/CG142/chapter/Recommendations",
+          "use": "Official indexed adult-autism support/adaptations guidance; direct open 403."
+        },
+        {
+          "url": "https://www.nimh.nih.gov/health/publications/autism-spectrum-disorder",
+          "use": "Official public information read directly; variable needs and supports, not an abstract-thinking deficit shared by all."
+        },
+        {
+          "url": "https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM-5-Autism-Spectrum-Disorder.pdf",
+          "use": "Official indexed DSM-5 fact sheet; Asperger diagnosis incorporated within autism-spectrum disorder."
+        }
+      ],
+      "remainingConcerns": [
+        "The original Grant/Terman causal or emotional-regulation claims, Riversdale study identification, and Clark 2003 20-week depression attribution could not be established. The responses disclose these limits and provide clearly identified alternatives; no invented original-study verification.",
+        "Personality evidence varies by measure, design, duration, replication and attrition. Change is possible without implying unlimited voluntary control, guaranteed speed or permanence.",
+        "The friend anecdote cannot diagnose anxiety or establish comparative therapy efficacy; autism support is individualized rather than compulsory normalization."
+      ],
+      "browser": {
+        "viewport": [
+          1280,
+          720
+        ],
+        "horizontalOverflow": false,
+        "promptNavigationChecked": true,
+        "originalQuizLayoutChecked": true,
+        "staticQuizzesWithEndKeys": true,
+        "mobileTested": false
+      },
+      "fullBuilderPreservedByteForByte": true
+    },
+    {
+      "pagePath": "/humanistic-philosophies/do-humans-have-an-essence/",
+      "sourceSha256": "d7c7c4bf28102a565c30d08140f482bb5db183d1283bda23a0c19d51fe4f0364",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 12,
+      "modelResponses": 12,
+      "blocksRetainedVerbatim": 86,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 79,
+      "bareAnswersExplicitlyRevised": 0,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "2.2.ul original list counts": [
+          4
+        ],
+        "3.1.ol original list counts": [
+          5
+        ],
+        "3.2.ol original list counts": [
+          5
+        ],
+        "4.2.ul original list counts": [
+          4,
+          3
+        ],
+        "5.1.ol original list counts": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          10
+        ],
+        "5.1.ul original list counts": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "5.2.ol original list counts": [
+          10,
+          10
+        ],
+        "6.1.ol original list counts": [
+          15
+        ],
+        "6.2.ol original list counts": [
+          15
+        ]
+      },
+      "sha256": "e4f23952a9094b68b4eb61d8b5895ad70dec528e45c2117b67cce19a1720f303",
+      "verifiedAt": "2026-10-13T13:21:26.777932+00:00",
+      "source": {
+        "cache": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 3589,
+        "title": "Do Humans have an Essence?",
+        "url": "http://byteseismic.com/2024/03/13/do-humans-have-an-essence/",
+        "snapshot": "do-humans-have-an-essence-wordpress-3589.html",
+        "fullSourceRead": true,
+        "fullCurrentEditionRead": true,
+        "urlSlugMatch": true,
+        "titleExact": true,
+        "allPromptTexts": [
+          "Dogs and cats clearly have distinct essences that force them into particular behaviors. Are there existentialists who claim we have no such similar essence?",
+          "There are several psychological traits that seem to be intrinsic to humans. These include sociability and curiosity. Do existentialists claim these traits are not powerful drivers of human behavior? And do they acknowledge that departing from this human “essence” can be destructive?",
+          "Provide 5 anecdotes of humans who effectively practiced existentialism.",
+          "I am dysfunctionally shy. Can I escape this “essence”?",
+          "Create a 10-item quiz on the discussion above with answers at the end. ",
+          "Provide 15 discussion questions relevant to the content above. "
+        ],
+        "modelLogoOrder": [
+          "ChatGPT",
+          "Gemini"
+        ],
+        "preamble": "Four original highlight extracts read; four explicitly labeled edited highlights retain orientation without repeating superseded overclaims. Original repeated table of contents replaced with exact prompt navigation."
+      },
+      "responseDecisions": {
+        "1.1": "Preserved four-paragraph sequence and named thinkers; separated tendency/purpose, qualified animal determinism and human exception, distinguished Nietzsche/Heidegger from Sartre.",
+        "1.2": "Kept three paragraphs; corrected dog/cat stereotypes and uniform absurdity doctrine; supplied concrete withdrawal-versus-destiny comparison.",
+        "2.1": "Preserved five-paragraph curator-challenge progression. Distinguished empirical needs from purpose, labeled curiosity examples editorial, corrected bad-faith clinical inference, linked Beauvoir conditions and separated harm from violated essence.",
+        "2.2": "Preserved four-point list; retained useful meaning-making examples. Corrected solitary-curiosity contradiction, blanket existentialist attribution and equation of solitude with harm.",
+        "3.1": "Kept five names/order and individual list positions. Grounded Nobel/Second Sex/Resistance/Frankl/Kahlo episodes in identified sources; corrected Frankl chronology, bounded interpretation and avoided authenticity certificates or victim-blaming.",
+        "3.2": "Kept five names/order. Replaced fictional-murder proxy with real Camus commitment, grounded Coltrane and Malala examples, separated philosophical interpretation from self-identification and retained spiritual/social context.",
+        "4.1": "Preserved five paragraphs and exact personal prompt. Retained agency/identity distinction while replacing guarantee with assessment, narrower participation goal and explicit limits of philosophical inference.",
+        "4.2": "Preserved four core points/three practical tips. Retained meaningful-interactions, more-than-shy and interest-group entries; removed chosen-shyness claim, guaranteed improvement, compulsory eye contact and more-is-better exposure.",
+        "5.1": "Ten questions/forty options/ten end keys preserved. Corrected bad faith, Frankl, uncritical tradition, duplicate Sartre-honor correct options and guaranteed shyness change; keys updated in place. Original separate one-item question lists now display consecutive numbers 1–10; list containers, options, order and end-key list preserved.",
+        "5.2": "Ten questions/ten end keys preserved. Corrected wrong Sartre absurd answer, human/animal premise, Frankl chronology, Camus murder example, Coltrane meaning assumption, Malala label and freedom-as-treatment inference.",
+        "6.1": "Fifteen discussion questions preserved; three revised for philosophical plurality, non-romanticizing suffering and limits of clinical inference. Twelve retained verbatim.",
+        "6.2": "Fifteen discussion questions preserved; two revised for Frankl pressure and learned/inherent false dichotomy. Thirteen retained verbatim."
+      },
+      "negativeControlsRejected": [
+        ".original-prompt-text",
+        ".original-response",
+        "[data-source-node=\"1.1.0\"]",
+        "#prompt-5 li",
+        "#prompt-6 li"
+      ],
+      "quizQuestionAndKeyCounts": [
+        10,
+        10
+      ],
+      "discussionQuestionCounts": [
+        15,
+        15
+      ],
+      "research": [
+        {
+          "url": "https://www.marxists.org/reference/archive/sartre/works/exist/sartre.htm",
+          "use": "Primary lecture translation read; Sartrean existence/essence and situated action, not universal treatment efficacy."
+        },
+        {
+          "url": "https://www.marxists.org/reference/subject/ethics/de-beauvoir/ambiguity/ch03.htm",
+          "use": "Primary text read on real constraints and oppression; freedom is not an excuse to deny access barriers."
+        },
+        {
+          "url": "https://www.marxists.org/reference/subject/ethics/de-beauvoir/2nd-sex/ch03.htm",
+          "use": "Primary text indexed; situated formation rather than biologically assigned purpose."
+        },
+        {
+          "url": "https://www.nobelprize.org/prizes/literature/1964/summary/",
+          "use": "Official indexed award account confirms Sartre refused the 1964 Nobel Prize; direct page returned 403."
+        },
+        {
+          "url": "https://www.nobelprize.org/prizes/literature/1957/camus/biographical/",
+          "use": "Official indexed biography for Resistance/Combat; direct access limited."
+        },
+        {
+          "url": "https://www.nobelprize.org/prizes/literature/1957/camus/speech/",
+          "use": "Official speech indexed and official Nobel quotation corroborated refusal to lie/resistance to oppression; direct page 403, not claimed as a full direct read."
+        },
+        {
+          "url": "https://www.viktorfrankl.org/biography.html",
+          "use": "Official chronology read; logotherapy predates concentration-camp imprisonment, no victim-blaming inference."
+        },
+        {
+          "url": "https://www.museofridakahlo.org.mx/frida/?lang=en",
+          "use": "Museum chronology read and mirror/recovery passage indexed; material conditions as well as choice."
+        },
+        {
+          "url": "https://www.johncoltrane.com/biography",
+          "use": "Official biography read; A Love Supreme and spirituality retained rather than inferring abandonment of inherited religion."
+        },
+        {
+          "url": "https://www.nobelprize.org/uploads/2018/06/yousafzai-lecture_en.pdf",
+          "use": "Official indexed lecture for education commitment amid threats; no claim of existentialist affiliation or full direct PDF read."
+        },
+        {
+          "url": "https://www.nimh.nih.gov/health/publications/social-anxiety-disorder-more-than-just-shyness",
+          "use": "Official public information read directly; ordinary shyness distinguished from clinically impairing anxiety and treatment guarantees."
+        }
+      ],
+      "remainingConcerns": [
+        "Biographical examples are expressly philosophical interpretations, not certificates of authenticity or proof that every named figure identified as an existentialist.",
+        "Sartrean agency does not imply that shyness is freely chosen or that philosophy guarantees recovery; real constraints and appropriate support remain explicit."
+      ],
+      "browser": {
+        "viewport": [
+          1280,
+          720
+        ],
+        "horizontalOverflow": false,
+        "promptNavigationChecked": true,
+        "originalQuizLayoutChecked": true,
+        "staticQuizzesWithEndKeys": true,
+        "mobileTested": false,
+        "quizNumberingCorrectedAndChecked": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "fullBuilderPreservedByteForByte": true
+    }
+  ],
+  "verification": "quality/original-source-revisions/batch-verification-2026-10-13.json",
+  "delivery": "Prepared for explicit commit and push; exact commit and remote confirmation recorded in automation memory and final response."
+}

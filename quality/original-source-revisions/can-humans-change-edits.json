@@ -1,0 +1,304 @@
+{
+  "wordpressId": 3566,
+  "pageFile": "humanistic-philosophies/can-humans-change/index.html",
+  "snapshot": "can-humans-change-wordpress-3566.html",
+  "sourceSha256": "c8830db74e00f650a7750c21bb88e724feb86c8dae79623bcc579a89e3178cb8",
+  "sourceUrl": "http://byteseismic.com/2024/03/13/can-humans-change/",
+  "sourceLabel": "Original WordPress conversation, 2024-03-13",
+  "shellRevision": "3e582cda2cd24c0edafb2d694cb16c77f50a3cce",
+  "date": "2026-10-13",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "Possibility of change and limits of choice",
+    "Studies, time intervals, and strength of evidence",
+    "Changing routines and environments",
+    "Does doing it alone produce better results?",
+    "The friend’s experiment with repeated social contact",
+    "Autism, constraints, and personal agency",
+    "Two ten-question quizzes with answers at the end",
+    "Two sets of fifteen discussion questions"
+  ],
+  "introHeading": "Original conversation · editorial edition",
+  "intro": "The 8 original prompts and both response tracks are preserved, including the original quizzes and discussion questions. Responses have been checked and edited in their original positions; research corrections and interpretive limits are identified where they matter.",
+  "description": "Can people change their traits and habits? The original dialogue examines evidence, support, autonomy, shyness, and autism, with quizzes and discussion questions.",
+  "replacements": {
+    "1.1.0": "People can change aspects of personality and character, but “at any time” is too strong if it means immediately, by decision alone, or without limits. The existentialist rejection of a predetermined life-purpose raises a philosophical question about how we live; it does not establish a psychological ability to become any kind of person on demand.",
+    "1.1.1": "Distinguish a passing state, a practiced behavior, and a broad trait. Speaking confidently once is an event; contributing regularly can become a habit; greater confidence across many settings over time is stronger evidence of personality change. The Big Five measures describe openness, conscientiousness, extraversion, agreeableness, and neuroticism. Changes in these scores do not automatically establish moral improvement: becoming more assertive is not the same as becoming more honest or considerate.",
+    "1.1.2": "The brain’s capacity to change with experience is compatible with learning new patterns. But invoking neuroplasticity does not tell us which trait will change, how quickly, or how long the change will last. Those questions require measurements of the behavior and trait in question, rather than an inference from the general fact that brains can adapt.",
+    "1.1.3": "Age, health, existing habits, resources, relationships, and opportunities affect what change is feasible. “Willingness to try” is only one factor: someone may sincerely want to speak in meetings yet face anxiety, an inaccessible environment, or a hostile audience. A change in those conditions may matter as much as greater effort.",
+    "1.1.4": "The evidence therefore supports possibility without promising unlimited reinvention. We can ask what actions a person can take and what support makes them practicable, while leaving the extent and durability of change open to observation. A setback does not establish a fixed essence, and improvement does not establish complete control.",
+    "1.2.1": "Sartre’s rejection of a ready-made human purpose places weight on what we do with our lives. It should not be turned into the claim that inherited dispositions disappear when we choose a new identity. A philosophical account of responsibility and a measured change in personality are different subjects.",
+    "1.2.2": "Psychology studies both continuity and change. A person may remain more reserved than most peers while becoming more sociable than they used to be. Stability in people’s relative ordering can therefore coexist with change in their scores. Specific longitudinal and intervention findings appear below; neither guarantees an individual outcome.",
+    "1.2.3": "So complete self-reconstruction on demand is not established. More modest changes in habits, responses, and sometimes broader traits are possible. The practical test is whether a chosen change helps someone participate in a valued activity and persists across relevant circumstances.",
+    "2.1.0": "The original list mixes genuine research programs with unsupported attributions. Keeping its five entries in order, the following distinguishes what each can establish. A study’s observation period is not the time everyone needs to change, and an association with a life event does not by itself establish its cause.",
+    "2.1.1": "<strong>The Grant Study:</strong> The <a href=\"https://www.adultdevelopmentstudy.org/our-participants\">study’s participant record</a> identifies the original Harvard cohort of 268 men. Long follow-up makes it valuable for adult development, but the original response supplied no particular analysis or trait-change rate for its emotional-regulation claim. That claim is not established here. Its selective cohort also cannot stand for all people.",
+    "2.1.2": "<strong>The Terman Study of the Gifted:</strong> The original response names this long-running cohort but does not identify a paper demonstrating that marriage, career change, or war caused the claimed personality changes. Retain it as a research lead, not a measured rate or confirmed causal result. A cohort’s existence is insufficient evidence for a specific finding attributed to it.",
+    "2.1.3": "<strong>The alleged “Riversdale Study”:</strong> A reliable match for the personality study described in the original has not been established; its claimed results should not be repeated as fact. Do not silently rename it the Dunedin Study. For comparison, the separately documented <a href=\"https://dunedinstudy.otago.ac.nz/files/1627860881468.pdf\">Dunedin paper on behavioral styles at age 3 and personality at 26</a> examines long-term continuity. Predicting later traits is different from measuring how quickly someone can deliberately change them.",
+    "2.1.4": "<strong>The German Socio-Economic Panel:</strong> <a href=\"https://pubmed.ncbi.nlm.nih.gov/25664474/\">Boyce and colleagues (2015)</a> studied 6,769 adults with personality measurements four years apart. Unemployment was associated with patterns of change in agreeableness, conscientiousness, and openness. This does not establish an individual rate, and observational comparisons leave causal questions. A <a href=\"https://www.sciencedirect.com/science/article/pii/S0092656619300625\">2019 registered replication</a> reported no personality change following unemployment. The original broad claim about life events needs this qualification.",
+    "2.1.5": "<strong>Roberts, Walton, and Viechtbauer (2006):</strong> Their <a href=\"https://pubmed.ncbi.nlm.nih.gov/16435954/\">analysis of 92 longitudinal samples</a> found average increases in social dominance, conscientiousness, and emotional stability, especially between ages 20 and 40. Social dominance is one facet of extraversion; it is misleading to summarize the study as a simple lifelong decline in all extraversion. Some trait categories changed in middle and later adulthood too. These are group age patterns, not an intervention timetable or a claim that older people cannot change.",
+    "2.1.8": "<strong>Influencing Factors:</strong> Life events and social settings are plausible influences, but people also select environments partly because of existing traits. Repeated measurements and suitable comparisons help distinguish these directions of influence; merely finding that an event and a change occurred together does not settle them.",
+    "2.1.9": "<strong>Age Trends:</strong> An average shift toward greater conscientiousness is not a requirement that every person follow that path. Nor does the label “maturity” turn a descriptive score into a judgment of someone’s moral worth.",
+    "2.1.11": "These sources support a mixed picture of stability and change, with important limits on the original attributions. For shorter intervals and deliberate interventions, the next response gives more direct evidence. None supplies a universal rate for changing “character,” which also involves values and conduct not captured by every personality inventory.",
+    "2.2.0": "Intervention studies are more directly relevant to deliberate change than a list of famous cohorts. The three entries below correct the original references and make the measurement intervals explicit.",
+    "2.2.1": "<strong>Therapy and Personality Change:</strong> The original “Clark et al., 2003” attribution for a twenty-week depression program is insufficiently identified and is withdrawn here. <a href=\"https://pubmed.ncbi.nlm.nih.gov/28054797/\">Roberts and colleagues (2017)</a> reviewed 207 intervention studies, finding changes in personality measures over an average of 24 weeks, with an overall standardized change of about 0.37. That number expresses change relative to score variability, not “37% of a personality,” and the review includes both controlled and uncontrolled designs. Also, <a href=\"https://jamanetwork.com/journals/jama/fullarticle/184621\">Krasner and colleagues (2009)</a> studied 70 primary-care physicians, not medical students. Their before-and-after study measured outcomes through 15 months and found improvements including conscientiousness and emotional stability; without a randomized comparison it cannot isolate the program’s effect.",
+    "2.2.2": "<strong>Life Events and Personality Shifts:</strong> The original “Caspi et al., 2005” reference does not identify the claimed Dunedin test of marriage, parenthood, and career transitions. A more direct, separately identified study is <a href=\"https://pubmed.ncbi.nlm.nih.gov/37041673/\">Dugan and colleagues (2024)</a>: 4,904 participants, 47,814 assessments, and a median interval of 35 days. Some major and recurring minor events were associated with changed personality trajectories. Frequent observation helps locate change in time, but the design does not make events randomized causes or show that every major event transforms personality.",
+    "2.2.3": "<strong>Personality Change Over Time:</strong> Age patterns do not establish the maximum rate of intentional change. <a href=\"https://doi.org/10.1073/PNAS.2017548118\">Stieger and colleagues (2021)</a> tested a three-month digital intervention in 1,523 participants; the comparison group initially waited one month. Desired changes appeared in self-reports, with smaller observer-reported changes for trait increases, and findings persisted to three-month follow-up. This supports some deliberate change over months, not instant transformation or lifelong permanence. A <a href=\"https://onlinelibrary.wiley.com/doi/10.1111/jopy.12898\">one-year follow-up</a> reported maintenance among respondents, but only 157 of the initial 1,523 completed it, making attrition a substantial limitation.",
+    "2.2.6": "<strong>Nature and Nurture:</strong> A genetic contribution to differences between people does not specify a particular person’s limit on change. Heritability, a population-level statistic in an environment, is not a percentage of an individual’s personality that is immutable.",
+    "2.2.7": "<strong>Effort and Consistency:</strong> Structured practice can support change, but its effect must be tested rather than inferred from motivation. Participants may also differ in opportunity, health, and resources. Wanting a change and receiving an intervention are not interchangeable conditions.",
+    "2.2.8": "The clearest answer about rate is therefore conditional: these studies measure changes over weeks, months, or years in specified outcomes and populations. They do not identify the fastest safe method for every person. Self-report, observer agreement, comparison groups, and follow-up each answer a different part of the question.",
+    "3.1.0": "Start by identifying what is unwanted: a painful feeling, an avoidance habit, or a broad pattern across settings. “Shed my personality” is too sweeping a target to evaluate. The following ten actions offer ways to make a specific change easier to practice; they are not a tested ranking of the fastest methods.",
+    "3.1.1": "<strong>Seek Professional Help:</strong> If anxiety, mood difficulties, or another problem is interfering with daily life, assessment can clarify the obstacle and suitable support. Cognitive behavioral therapy (CBT) works on patterns of thinking and action. Using it for a particular difficulty is different from promising to replace an entire personality.",
+    "3.1.2": "<strong>Set Specific Goals:</strong> Choose a behavior and a setting: for example, contribute one prepared question at a weekly group meeting. Record attempts and what you learn. A useful goal concerns an action you can attempt, rather than demanding that you feel confident or make others respond warmly.",
+    "3.1.4": "<strong>Alter Your Social Environment:</strong> Look for settings that allow the behavior you want to practice: a cooperative study group may offer more room to speak than a competitive discussion. Seek encouragement without assuming that copying admirable people will transfer their traits to you. Existing relationships need not be discarded merely because you are changing.",
+    "3.1.5": "<strong>Practice Mindfulness and Reflection:</strong> Notice specific sequences: anticipating criticism, avoiding a meeting, then feeling temporary relief. Reflection can help identify a pattern to examine. It should serve a practical goal rather than become a demand for constant self-monitoring or a claim that mindfulness reliably changes every trait.",
+    "3.1.7": "<strong>Read and Educate Yourself:</strong> Use materials with identifiable evidence and clear limits. A biography can suggest possibilities but cannot establish that repeating its subject’s choices will reproduce the outcome. Be especially cautious about promises of rapid, permanent personality replacement.",
+    "3.1.9": "<strong>Physical Health:</strong> Sleep, movement, and access to suitable health care can affect the energy available for a goal. Treat them as supporting conditions, not proof that a lifestyle formula will produce a chosen personality.",
+    "3.1.11": "To improve efficiency, remove obstacles to one repeatable action, review what happens, and adjust the plan. Speed alone is a poor measure: a change that survives ordinary setbacks and works in more than one setting is more useful than a dramatic week followed by exhaustion.",
+    "3.2.0": "Environmental changes can make useful practice more accessible. The aim is to reduce avoidable friction and learn from manageable attempts, while checking whether the desired change is actually occurring.",
+    "3.2.3": "<strong>Challenge Yourself Gradually:</strong> Choose a small, relevant social action, such as asking a question at an interest group. Adjust the challenge from experience. There is no need to impose a stranger-contact quota, prolong a service worker’s conversation, or treat maximum distress as evidence of progress.",
+    "3.2.4": "<strong>Practice Realistic Self-Talk:</strong> Replace “One awkward pause proves I am hopeless” with a testable description: “There was a pause; I do not yet know what the other person thought.” The point is accuracy and another workable attempt, not compulsory optimism.",
+    "3.2.6": "<strong>Cognitive Behavioral Therapy (CBT):</strong> For social anxiety disorder, <a href=\"https://www.nice.org.uk/Guidance/CG159/chapter/recommendations\">NICE recommends individual CBT designed for that problem</a>; supported self-help is another option in specified circumstances. Such support should target the person’s difficulty and goals. Ordinary introversion is not itself a disorder requiring treatment.",
+    "3.2.7": "<strong>Life Coaching:</strong> Accountability or planning support may suit some nonclinical goals. “Coach” alone does not establish clinical qualifications, and coaching should not be treated as interchangeable with assessment or treatment of a mental health condition. Check what service is offered and what evidence supports its claims.",
+    "3.2.11": "<strong>Professional Help:</strong> Seek an appropriately qualified practitioner when distress or impairment makes independent work difficult. Needing support is information about the task and circumstances, not a failure of character.",
+    "3.2.12": "A useful environment makes chosen actions easier to repeat and feedback easier to interpret. Whether those actions eventually change a broad trait remains an empirical question. Retain changes that improve life without making a new personality label the sole measure of success.",
+    "4.1.0": "The general claim that unsupported change is faster and more permanent is not established by the studies discussed here. To test it fairly, comparable people pursuing comparable goals would need comparable outcome measures and follow-up. People who seek therapy may begin with more severe or persistent difficulties; a simple comparison can therefore confuse starting conditions with treatment effects.",
+    "4.1.2": "<strong>Self-Motivation:</strong> Choosing a goal can make practice more meaningful, but autonomy means having a say in the process, not necessarily working alone. A person can own a goal while receiving professional help. Motivation is a plausible contributor, not evidence that unsupported change wins a comparison.",
+    "4.1.3": "<strong>Personal Responsibility:</strong> Keeping track of attempts and deciding what to try next can strengthen participation. It does not establish faster results or permanence. Responsibility should be proportionate to what someone can control, including access to suitable help.",
+    "4.1.5": "<strong>Guidance and Expertise:</strong> A skilled practitioner can help identify the problem, select an appropriate approach, and revise it when progress stalls. That is a potential benefit of support, not a guarantee that all therapy works or always works faster.",
+    "4.1.8": "<strong>Simple and Complex Changes:</strong> A narrow organizational habit may be manageable independently. Severe or persistent difficulties may warrant assessment and support. The apparent simplicity of a goal does not reveal its causes: “speak more” could involve opportunity, anxiety, communication needs, or an unsafe setting.",
+    "4.1.9": "<strong>Adaptive and Maladaptive Patterns:</strong> Evaluate a pattern by its effect on the person’s life and goals, rather than treating a trait name as inherently good or bad. The same quietness can be a comfortable preference in one setting and accompanied by disabling fear in another.",
+    "4.1.11": "<strong>What Is Established Here:</strong> Intervention studies support the possibility of change; they do not establish the superiority of doing it alone. Evidence of improvement during treatment also cannot be reversed into a claim that every person needs treatment. “More permanent” requires follow-up long enough to test maintenance.",
+    "4.1.12": "The appropriate conclusion is conditional: self-directed efforts may work, support may help, and the best approach depends on the problem and evidence. A therapist who helps someone practice independently may increase autonomy rather than create dependence. Judge the approach by functioning, durability, costs, and the person’s informed preferences.",
+    "4.2.0": "Self-directed change can succeed, but success does not establish that it is generally faster or longer lasting. The following advantages and limitations are reasons to consider an approach, not results from a direct comparison.",
+    "4.2.3": "<strong>Tailored Approach:</strong> Working independently lets you choose timing and goals. A supported plan can also be individualized, so tailoring alone does not distinguish their effectiveness.",
+    "4.2.6": "<strong>Lack of Expertise:</strong> A person working alone may miss a maintaining factor or choose unsuitable exercises. Professional advice can help, provided the practitioner has relevant skills and the plan is reviewed against outcomes.",
+    "4.2.8": "<strong>Emotional Hurdles:</strong> Persistent distress may need assessment; it should not automatically be attributed to hidden unresolved issues. A useful explanation must fit the evidence and lead to an appropriate response.",
+    "4.2.10": "<strong>Complexity of Change:</strong> Specify both the action and the obstacle before choosing a level of support. A simple-looking habit may be entangled with anxiety or environmental barriers; a broad wish may become manageable when broken into narrower goals.",
+    "4.2.11": "<strong>Self-Awareness:</strong> Confidence in one’s own explanation is not a measure of its accuracy. Observable progress and independent feedback can help identify blind spots with or without a therapist.",
+    "4.2.14": "Self-direction and support can be combined. The evidence discussed does not rank independence as the fastest or most durable route, and avoiding therapy is not a test of agency. Choose an approach that fits the difficulty, review its effects, and change it when the evidence warrants.",
+    "5.1.0": "Your friend’s reported improvement is a useful example of what repeated practice might achieve. It is not enough to diagnose social anxiety, identify the cause of improvement, or call the exercise exposure therapy. A personal experiment can resemble a treatment component without being an assessed treatment.",
+    "5.1.1": "Exposure-based work involves approaching feared situations and testing feared expectations. Learning can include finding that a predicted rejection does not occur, or that an awkward exchange is tolerable. The useful outcome is greater ability to participate, not the requirement that anxiety vanish during every attempt.",
+    "5.1.3": "<strong>Individual Differences:</strong> The account does not tell us the friend’s starting difficulty, other changes in his life, or whether improvement lasted. Those missing comparisons limit what we can infer for another person.",
+    "5.1.4": "<strong>Gradual Exposure:</strong> Structured work often uses graded tasks chosen for a person’s fears and goals. A more demanding task can sometimes be appropriate, but “brute force” is not a clinical principle and maximum distress is not the objective.",
+    "5.1.6": "<strong>Safety and Respect:</strong> Choose situations where brief conversation is welcome, notice disengagement, and accept a refusal immediately. The other person is an equal participant, not practice equipment. There is no reason to make women specifically responsible for someone else’s confidence exercise.",
+    "5.1.7": "<strong>Reflection and Learning:</strong> Compare the feared prediction with what happened. “I expected ridicule; the person answered briefly” teaches something more precise than rating the encounter as a win or a loss. A short or awkward reply does not establish a global judgment of your worth.",
+    "5.1.9": "Repeated, respectful practice can be useful; the anecdote does not justify encouraging indiscriminate forcing. A structured approach addresses the particular fear, examines what was learned, and adjusts when a task is unhelpful. Intensity alone is not evidence of effectiveness.",
+    "5.1.10": "For ordinary shyness, a manageable conversation in a shared-interest setting may be a reasonable experiment. If fear significantly restricts daily life, qualified assessment can help distinguish social anxiety from other difficulties and select suitable support. One friend’s timetable should not become another person’s deadline.",
+    "5.2.0": "The plausible benefit is repeated learning, but the story cannot establish a universal method. Separate possible gains from reasons the same exercise might be unsuitable.",
+    "5.2.2": "<strong>Practice Resembling Exposure:</strong> Entering a feared but appropriate situation can allow a prediction to be tested. That resemblance does not turn every forced interaction into therapy or mean repeated contact will necessarily reduce anxiety.",
+    "5.2.3": "<strong>Quick Wins:</strong> One manageable success may increase willingness to try again. Rapid initial improvement should still be checked for persistence and relevance to the situations the person actually values.",
+    "5.2.5": "<strong>Quality and Quantity:</strong> A conversation count can distract from the learning goal. A brief greeting may be entirely sufficient; requiring every interaction to become meaningful can add another unrealistic performance demand.",
+    "5.2.6": "<strong>Overload and Discouragement:</strong> Tasks that repeatedly feel unmanageable may undermine further practice. Difficulty is a reason to review the task, context, and support, not automatically a reason to push harder or abandon all attempts.",
+    "5.2.9": "<strong>Start Smaller:</strong> Use a setting with a natural shared activity and room to disengage. A prepared question to another group member may be more relevant and less intrusive than a daily quota of strangers.",
+    "5.2.10": "<strong>Focus on Learning:</strong> Ask a relevant question, listen, and respect the response. Evaluate what you learned about a specific expectation rather than whether you impressed the other person.",
+    "5.2.12": "<strong>Seek Professional Help:</strong> When fear causes substantial impairment, a qualified practitioner can assess the difficulty and discuss evidence-based options. Do not assume every shy person lacks social skills or has the same underlying problem.",
+    "5.2.14": "Encourage purposeful practice, respect for others, and adjustment from feedback. The friend’s improvement is compatible with these principles, but does not establish that force, frequency, or absence of support caused it. Lasting freedom to participate is a better target than a streak of completed encounters.",
+    "6.1.0": "Autism can impose real constraints without constituting a destiny that fixes someone’s purposes, values, or whole personality. The question joins two meanings of “essence”: an enduring developmental condition and a predetermined definition of how a person must live. They should be examined separately. Asperger’s is an older diagnostic label now included within autism spectrum disorder in the <a href=\"https://www.psychiatry.org/File%20Library/Psychiatrists/Practice/DSM/APA_DSM-5-Autism-Spectrum-Disorder.pdf\">Diagnostic and Statistical Manual of Mental Disorders, fifth edition (DSM-5)</a>; some people continue to use it for their identity.",
+    "6.1.2": "<strong>Neurological Foundation:</strong> Autism is a developmental condition involving varied patterns of communication, behavior, interests, and sensory experience. It is not something a person chooses. The <a href=\"https://www.nimh.nih.gov/health/publications/autism-spectrum-disorder\">National Institute of Mental Health describes both the variation in needs and the potential benefits of support</a>. A diagnosis does not specify every individual ability.",
+    "6.1.3": "<strong>Inherent Characteristics:</strong> An enduring disposition may shape which situations are accessible or exhausting. This gives the curator’s concern real force: freedom cannot simply mean ignoring those conditions. But an influence on experience is not a complete instruction for what a life must become.",
+    "6.1.4": "<strong>Change and Growth:</strong> Skills, coping strategies, opportunities, and support needs can change. Autism is commonly lifelong, but that does not mean every characteristic or difficulty remains constant. The aim of support need not be to erase an autistic identity or make someone indistinguishable from others.",
+    "6.1.5": "<strong>Essence and Identity:</strong> The philosophical question is whether a condition fixes a person’s meaning and projects; the practical question is which choices are available and supported. Neither should be answered by assuming unlimited capacity. People’s communication and decision-support needs differ, and dependence on assistance does not remove their interests or worth.",
+    "6.1.6": "<strong>Navigating the World:</strong> A quieter meeting space, explicit instructions, or a preferred communication channel may expand participation without demanding a personality transformation. <a href=\"https://www.nice.org.uk/guidance/CG142/chapter/Recommendations\">NICE’s adult-autism guidance</a> includes attention to social and physical environments. Sometimes the needed change is in the setting rather than in the person.",
+    "6.1.8": "Other enduring disabilities or acquired impairments can likewise restrict available actions, though they do not all work in the same way. They should be assessed individually, not collected into a class of people without agency. The defensible conclusion is that real limits and room for development can coexist; philosophy cannot tell us in advance how extensive either will be for a particular person.",
+    "6.2.0": "The concern about constraints is sound, but it does not establish that autism is an inescapable philosophical essence. A developmental condition, a personality trait, and a chosen project are distinct.",
+    "6.2.2": "Existentialist language asks what we can make of a situation. It does not establish equal practical options for everyone. Refusing to reduce a person to a diagnosis is compatible with taking disability and assistance seriously.",
+    "6.2.4": "Autism spectrum disorder (ASD) includes differing patterns of social communication, restricted or repetitive behaviors and interests, and often sensory differences. The older Asperger’s diagnosis is included within ASD in DSM-5. It is not a separate essence that someone is expected to escape.",
+    "6.2.7": "<strong>Enduring Characteristics:</strong> The original description of autism as “social awkwardness and difficulty with abstract concepts” was misleading. It is not a general inability to think abstractly. Particular communication or sensory needs can persist, but a diagnostic label alone does not tell us which tasks are possible for someone.",
+    "6.2.8": "<strong>Social Participation:</strong> Difficulty can arise from a mismatch between a person’s needs and a setting’s expectations. Increasing opportunities may involve clearer communication or environmental accommodation as well as any skills the person wants to develop.",
+    "6.2.10": "<strong>Therapy and Support:</strong> Support should address the individual’s goals and needs, including any co-occurring distress. Improvement in a skill or reduced anxiety does not imply that autism has disappeared, nor is a more conventional outward presentation sufficient evidence of improved well-being.",
+    "6.2.11": "<strong>Strengths and Interests:</strong> Build on what the particular person enjoys or does well. Avoid substituting a flattering stereotype of exceptional talent for a negative stereotype; neither describes everyone.",
+    "6.2.13": "Autism can involve enduring constraints, but it is not interchangeable with a personality or a complete account of a person.",
+    "6.2.14": "Practical agency depends partly on accessible options and support; philosophical freedom does not guarantee unlimited self-transformation.",
+    "6.2.15": "Changes in skills, settings, and co-occurring difficulties may improve life without requiring rejection of an autistic identity.",
+    "6.2.18": "The question to bring to a practitioner or support service is specific: what is difficult, what change does the person want, and which conditions could make it achievable? This is more informative than asking whether a whole diagnosis can be overcome by will.",
+    "7.1.2": "1. In Sartre’s account, is a person’s life-purpose assigned by a predetermined human essence?<br>A) Yes<br>B) No<br>C) Only during childhood<br>D) Only after therapy",
+    "7.1.6": "5. What is a necessary caution about studies linking life events and personality change?<br>A) Association alone does not establish causation.<br>B) Every event changes every trait.<br>C) All changes are immediate.<br>D) Life events cannot be studied.",
+    "7.1.8": "7. How should the friend’s daily conversations be described from the information given?<br>A) Proof of a universal cure<br>B) A personal practice that resembles an exposure component<br>C) A controlled clinical trial<br>D) A diagnosis of social anxiety",
+    "7.1.17": "A) Association alone does not establish causation.",
+    "7.1.19": "B) A personal practice that resembles an exposure component; the anecdote does not establish therapy or its causal effect.",
+    "7.2.2": "In the Sartrean account discussed here, what gives a life its projects rather than simply assigning a ready-made purpose?<br>a) Genetic destiny alone<br>b) Choices and actions in a situation<br>c) An obligatory social role<br>d) A clinical diagnosis",
+    "7.2.3": "What do average changes between ages 20 and 40 in the cited longitudinal analysis establish?<br>a) Everyone changes at the same rate.<br>b) Some traits show age-related group trends.<br>c) Older adults cannot change.<br>d) A guaranteed deadline for self-improvement.",
+    "7.2.5": "Which is a reason to review a “brute force” social exercise?<br>a) It respects someone’s refusal.<br>b) It repeatedly overwhelms the person without useful learning.<br>c) It allows manageable practice.<br>d) It has a specific learning goal.",
+    "7.2.6": "Which feature may occur in autism?<br>a) A universal inability to reason abstractly<br>b) Differences in social communication and sensory experience<br>c) An absence of personal interests<br>d) A fixed purpose assigned at birth",
+    "7.2.7": "What would be a suitable aim of individualized support for an autistic person?<br>a) Erasing their identity<br>b) Improving access, communication, or well-being according to their needs<br>c) Enforcing a standard personality<br>d) Proving that every constraint is chosen",
+    "7.2.8": "Which is a possible advantage of self-directed work that does not establish its superiority?<br>a) Guaranteed access to clinical expertise<br>b) A sense of ownership of a chosen goal<br>c) Guaranteed permanent change<br>d) Elimination of all blind spots",
+    "7.2.11": "What follows from the evidence about support and autonomy?<br>a) Therapy always works faster.<br>b) Unsupported work always lasts longer.<br>c) Support and ownership can coexist; comparative results depend on the problem.<br>d) Needing support disproves agency.",
+    "7.2.19": "(b) Ownership is compatible with supported work too.",
+    "8.1.7": "<strong>Exposure and Practice:</strong> How does the friend’s personal experiment differ from structured exposure-based treatment? Which ethical considerations apply to the other participants?",
+    "8.1.8": "<strong>Self-initiated Change:</strong> What comparison would establish that independent work is faster or more durable than supported work? How could differing initial severity mislead us?",
+    "8.1.12": "<strong>Mindfulness and Self-reflection:</strong> When might reflection help identify a useful next step, and when could it become unproductive self-monitoring? What evidence would distinguish them?",
+    "8.2.1": "<strong>Existentialism and Science:</strong> How does rejecting an assigned life-purpose differ from claiming that every personality trait is freely changeable? Can either claim settle the other?",
+    "8.2.3": "<strong>Rate of Change:</strong> How do group age trends differ from evidence about a particular person’s ability to change? What do shorter intervention studies add?",
+    "7.2.4": "Which of these is a potential benefit of therapy for personality change?<br>a) Increased self-awareness<br>b) Development of coping mechanisms<br>c) Both a and b<br>d) Neither a nor b",
+    "7.2.9": "What is a potential challenge of self-directed change for personality development?<br>a) Lack of accountability<br>b) Difficulty identifying blind spots<br>c) Both a and b<br>d) Neither a nor b",
+    "7.2.10": "In the context of personality change, what does “nature vs. nurture” refer to?<br>a) Internal motivations vs. external influences<br>b) The role of genetics vs. environment<br>c) Therapy vs. self-directed change<br>d) Medication vs. lifestyle changes",
+    "4.2.9": "Factors to Consider When Choosing an Approach:",
+    "4.2.12": "<strong>Support System:</strong> Friends or family may provide encouragement, feedback, or practical help. Such support means that “self-directed” need not mean unsupported; its effect should be judged in the particular situation.",
+    "7.1.5": "4. Which study design follows the same people over time?<br>A) A single cross-sectional survey<br>B) A longitudinal study<br>C) A one-time comparison of unrelated groups<br>D) A single unverified anecdote"
+  },
+  "countChecks": [
+    {
+      "name": "2.1.ol original list counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        5
+      ]
+    },
+    {
+      "name": "2.1.ul original list counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"1\"] ul",
+      "child": "li",
+      "expected": [
+        4
+      ]
+    },
+    {
+      "name": "2.2.ul original list counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "3.1.ol original list counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        10
+      ]
+    },
+    {
+      "name": "3.2.ul original list counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        7,
+        3
+      ]
+    },
+    {
+      "name": "4.1.ul original list counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"1\"] ul",
+      "child": "li",
+      "expected": [
+        2,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "4.2.ul original list counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "5.1.ul original list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"1\"] ul",
+      "child": "li",
+      "expected": [
+        5
+      ]
+    },
+    {
+      "name": "5.2.ul original list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "6.1.ol original list counts",
+      "selector": "#prompt-6 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        5
+      ]
+    },
+    {
+      "name": "6.2.ul original list counts",
+      "selector": "#prompt-6 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        2,
+        2,
+        3,
+        1
+      ]
+    },
+    {
+      "name": "7.1.ol original list counts",
+      "selector": "#prompt-7 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        10
+      ]
+    },
+    {
+      "name": "7.2.ol original list counts",
+      "selector": "#prompt-7 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        10,
+        10
+      ]
+    },
+    {
+      "name": "8.1.ol original list counts",
+      "selector": "#prompt-8 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    },
+    {
+      "name": "8.2.ol original list counts",
+      "selector": "#prompt-8 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    }
+  ],
+  "responseDecisions": {
+    "1.1": "Preserved five-paragraph progression; separated state/habit/trait/moral character, constrained neuroplasticity inference, and qualified control and resources.",
+    "1.2": "Retained short opener; corrected unlinked source placeholders and total-remaking promise; explained relative stability versus within-person change.",
+    "2.1": "Preserved five study entries and four interpretive points. Flagged unestablished Grant/Terman claims and Riversdale identification, differentiated Dunedin continuity, bounded unemployment evidence with replication, corrected 2006 age/facet patterns.",
+    "2.2": "Preserved three research entries and three caveats. Withdrew unidentified Clark and mismatched Caspi claims, corrected Krasner population/design, supplied intervention timing/effect-scale meaning, Dugan repeated measures, Stieger trial/follow-up/attrition; corrected genetic immutability inference.",
+    "3.1": "Kept ten actions; retained useful activity/habit/feedback/patience entries. Made goal observable, removed wholesale-replacement/speed promises and social-copying inference; bounded therapy, reflection, biographies and health claims.",
+    "3.2": "Kept seven strategies/three reminders. Retained specific traits/environment/habits; corrected forced contact, self-talk, CBT placeholder and coaching equivalence; emphasized learning and accessible practice.",
+    "4.1": "Preserved autonomy/support/complexity/research hierarchy; rejected unsupported superiority, explained selection bias and follow-up requirements, separated assistance from dependence.",
+    "4.2": "Kept three advantages, three disadvantages and three considerations. Retained ownership/stigma/accountability/support points as possibilities; removed assumed truth of superiority, hidden-cause claims and fastest-route conclusion. Final review removed the residual permanent-change subheading and unsupported success-rate claim.",
+    "5.1": "Retained friend anecdote prompt and five cautions; distinguished practice from treatment, added prediction-testing example, consent and meaningful outcomes; no diagnosis or universal dose inferred.",
+    "5.2": "Preserved two pros/three cons/four alternatives. Corrected force guarantees, conversational quotas, meaningful-talk performance demand and root-cause assumptions.",
+    "6.1": "Preserved autism/identity progression and five entries. Distinguished condition from purpose, variable needs, supported agency and environmental accommodation; included other constraints without blanket diagnoses or agency claims.",
+    "6.2": "Preserved headings and list counts; corrected Asperger classification, abstract-thinking stereotype and uniform-core-immutability claim; support targets access and well-being, not compulsory normalization.",
+    "7.1": "Ten questions and ten end keys preserved. Repaired causal life-event item and anecdote/therapy classification; scoped Sartre question and separated options. Final review made the longitudinal-design item uniquely answerable.",
+    "7.2": "Ten questions/ten end keys preserved. Removed ambiguous double-key independence question, two-correct-option drawback, age maximum, autism stereotype and comparative-efficacy overclaim.",
+    "8.1": "Fifteen questions preserved; revised three that presupposed brute force equals therapy, unsupported comparative findings or universal mindfulness benefit; retained twelve open questions.",
+    "8.2": "Fifteen questions preserved; revised purpose/personality conflation and age-maximum presupposition; retained thirteen open questions."
+  },
+  "pageSignals": {
+    "Page form": "Edited original conversation"
+  },
+  "highlights": [
+    "A new behavior, a durable habit, and a broad personality change require different evidence.",
+    "Research measures change over defined intervals; it does not establish one speed for remaking a person.",
+    "Ownership of a goal is compatible with professional or social support.",
+    "Neurological differences constrain possibilities without determining a person’s purpose or worth."
+  ]
+}

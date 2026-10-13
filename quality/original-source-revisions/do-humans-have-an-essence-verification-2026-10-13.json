@@ -1,0 +1,196 @@
+{
+  "pagePath": "/humanistic-philosophies/do-humans-have-an-essence/",
+  "sourceSha256": "d7c7c4bf28102a565c30d08140f482bb5db183d1283bda23a0c19d51fe4f0364",
+  "originalPrompts": 6,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 86,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 79,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "2.2.ul original list counts": [
+      4
+    ],
+    "3.1.ol original list counts": [
+      5
+    ],
+    "3.2.ol original list counts": [
+      5
+    ],
+    "4.2.ul original list counts": [
+      4,
+      3
+    ],
+    "5.1.ol original list counts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      10
+    ],
+    "5.1.ul original list counts": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "5.2.ol original list counts": [
+      10,
+      10
+    ],
+    "6.1.ol original list counts": [
+      15
+    ],
+    "6.2.ol original list counts": [
+      15
+    ]
+  },
+  "sha256": "e4f23952a9094b68b4eb61d8b5895ad70dec528e45c2117b67cce19a1720f303",
+  "verifiedAt": "2026-10-13T13:21:26.777932+00:00",
+  "source": {
+    "cache": ".cache/byteseismic-posts-with-content.json",
+    "wordpressId": 3589,
+    "title": "Do Humans have an Essence?",
+    "url": "http://byteseismic.com/2024/03/13/do-humans-have-an-essence/",
+    "snapshot": "do-humans-have-an-essence-wordpress-3589.html",
+    "fullSourceRead": true,
+    "fullCurrentEditionRead": true,
+    "urlSlugMatch": true,
+    "titleExact": true,
+    "allPromptTexts": [
+      "Dogs and cats clearly have distinct essences that force them into particular behaviors. Are there existentialists who claim we have no such similar essence?",
+      "There are several psychological traits that seem to be intrinsic to humans. These include sociability and curiosity. Do existentialists claim these traits are not powerful drivers of human behavior? And do they acknowledge that departing from this human “essence” can be destructive?",
+      "Provide 5 anecdotes of humans who effectively practiced existentialism.",
+      "I am dysfunctionally shy. Can I escape this “essence”?",
+      "Create a 10-item quiz on the discussion above with answers at the end. ",
+      "Provide 15 discussion questions relevant to the content above. "
+    ],
+    "modelLogoOrder": [
+      "ChatGPT",
+      "Gemini"
+    ],
+    "preamble": "Four original highlight extracts read; four explicitly labeled edited highlights retain orientation without repeating superseded overclaims. Original repeated table of contents replaced with exact prompt navigation."
+  },
+  "responseDecisions": {
+    "1.1": "Preserved four-paragraph sequence and named thinkers; separated tendency/purpose, qualified animal determinism and human exception, distinguished Nietzsche/Heidegger from Sartre.",
+    "1.2": "Kept three paragraphs; corrected dog/cat stereotypes and uniform absurdity doctrine; supplied concrete withdrawal-versus-destiny comparison.",
+    "2.1": "Preserved five-paragraph curator-challenge progression. Distinguished empirical needs from purpose, labeled curiosity examples editorial, corrected bad-faith clinical inference, linked Beauvoir conditions and separated harm from violated essence.",
+    "2.2": "Preserved four-point list; retained useful meaning-making examples. Corrected solitary-curiosity contradiction, blanket existentialist attribution and equation of solitude with harm.",
+    "3.1": "Kept five names/order and individual list positions. Grounded Nobel/Second Sex/Resistance/Frankl/Kahlo episodes in identified sources; corrected Frankl chronology, bounded interpretation and avoided authenticity certificates or victim-blaming.",
+    "3.2": "Kept five names/order. Replaced fictional-murder proxy with real Camus commitment, grounded Coltrane and Malala examples, separated philosophical interpretation from self-identification and retained spiritual/social context.",
+    "4.1": "Preserved five paragraphs and exact personal prompt. Retained agency/identity distinction while replacing guarantee with assessment, narrower participation goal and explicit limits of philosophical inference.",
+    "4.2": "Preserved four core points/three practical tips. Retained meaningful-interactions, more-than-shy and interest-group entries; removed chosen-shyness claim, guaranteed improvement, compulsory eye contact and more-is-better exposure.",
+    "5.1": "Ten questions/forty options/ten end keys preserved. Corrected bad faith, Frankl, uncritical tradition, duplicate Sartre-honor correct options and guaranteed shyness change; keys updated in place. Original separate one-item question lists now display consecutive numbers 1–10; list containers, options, order and end-key list preserved.",
+    "5.2": "Ten questions/ten end keys preserved. Corrected wrong Sartre absurd answer, human/animal premise, Frankl chronology, Camus murder example, Coltrane meaning assumption, Malala label and freedom-as-treatment inference.",
+    "6.1": "Fifteen discussion questions preserved; three revised for philosophical plurality, non-romanticizing suffering and limits of clinical inference. Twelve retained verbatim.",
+    "6.2": "Fifteen discussion questions preserved; two revised for Frankl pressure and learned/inherent false dichotomy. Thirteen retained verbatim."
+  },
+  "negativeControlsRejected": [
+    ".original-prompt-text",
+    ".original-response",
+    "[data-source-node=\"1.1.0\"]",
+    "#prompt-5 li",
+    "#prompt-6 li"
+  ],
+  "quizQuestionAndKeyCounts": [
+    10,
+    10
+  ],
+  "discussionQuestionCounts": [
+    15,
+    15
+  ],
+  "research": [
+    {
+      "url": "https://www.marxists.org/reference/archive/sartre/works/exist/sartre.htm",
+      "use": "Primary lecture translation read; Sartrean existence/essence and situated action, not universal treatment efficacy."
+    },
+    {
+      "url": "https://www.marxists.org/reference/subject/ethics/de-beauvoir/ambiguity/ch03.htm",
+      "use": "Primary text read on real constraints and oppression; freedom is not an excuse to deny access barriers."
+    },
+    {
+      "url": "https://www.marxists.org/reference/subject/ethics/de-beauvoir/2nd-sex/ch03.htm",
+      "use": "Primary text indexed; situated formation rather than biologically assigned purpose."
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/literature/1964/summary/",
+      "use": "Official indexed award account confirms Sartre refused the 1964 Nobel Prize; direct page returned 403."
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/literature/1957/camus/biographical/",
+      "use": "Official indexed biography for Resistance/Combat; direct access limited."
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/literature/1957/camus/speech/",
+      "use": "Official speech indexed and official Nobel quotation corroborated refusal to lie/resistance to oppression; direct page 403, not claimed as a full direct read."
+    },
+    {
+      "url": "https://www.viktorfrankl.org/biography.html",
+      "use": "Official chronology read; logotherapy predates concentration-camp imprisonment, no victim-blaming inference."
+    },
+    {
+      "url": "https://www.museofridakahlo.org.mx/frida/?lang=en",
+      "use": "Museum chronology read and mirror/recovery passage indexed; material conditions as well as choice."
+    },
+    {
+      "url": "https://www.johncoltrane.com/biography",
+      "use": "Official biography read; A Love Supreme and spirituality retained rather than inferring abandonment of inherited religion."
+    },
+    {
+      "url": "https://www.nobelprize.org/uploads/2018/06/yousafzai-lecture_en.pdf",
+      "use": "Official indexed lecture for education commitment amid threats; no claim of existentialist affiliation or full direct PDF read."
+    },
+    {
+      "url": "https://www.nimh.nih.gov/health/publications/social-anxiety-disorder-more-than-just-shyness",
+      "use": "Official public information read directly; ordinary shyness distinguished from clinically impairing anxiety and treatment guarantees."
+    }
+  ],
+  "remainingConcerns": [
+    "Biographical examples are expressly philosophical interpretations, not certificates of authenticity or proof that every named figure identified as an existentialist.",
+    "Sartrean agency does not imply that shyness is freely chosen or that philosophy guarantees recovery; real constraints and appropriate support remain explicit."
+  ],
+  "browser": {
+    "viewport": [
+      1280,
+      720
+    ],
+    "horizontalOverflow": false,
+    "promptNavigationChecked": true,
+    "originalQuizLayoutChecked": true,
+    "staticQuizzesWithEndKeys": true,
+    "mobileTested": false,
+    "quizNumberingCorrectedAndChecked": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "fullBuilderPreservedByteForByte": true
+}
