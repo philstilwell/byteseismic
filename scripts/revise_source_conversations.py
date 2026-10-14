@@ -182,6 +182,15 @@ def edited_column(original, n, c, config):
             answer.clear()
             answer.append(summary)
             answer.append(config['bareAnswerReplacements'][key])
+    for key in config.get('hiddenEmptySourceListNodes', []):
+        if key.startswith(f'{n}.{c}.'):
+            node = col.select_one(f'[data-source-node="{key}"]')
+            assert node is not None and node.name == 'li' and not node.get_text(strip=True)
+            assert not node.find(True), 'An empty source item cannot contain an image or other element'
+            assert node.parent.name in ('ol', 'ul') and not node.parent.get_text(strip=True)
+            assert node.parent.find_all('li', recursive=False) == [node]
+            # Keep the source address for verification, without displaying an empty number.
+            node.parent['hidden'] = ''
     cell_edits = config.get('tableCellReplacements', {})
     for t, table in enumerate(col.find_all('table')):
         for r, row in enumerate(table.find_all('tr')):

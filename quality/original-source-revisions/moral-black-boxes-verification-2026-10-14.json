@@ -1,0 +1,165 @@
+{
+  "pagePath": "/ethics/moral-black-boxes/",
+  "sourceSha256": "d22d6ab7a0b750d57288fab3d7c02e23b4aa6822d93ab7d8c79a7107056bfbed",
+  "originalPrompts": 6,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 88,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 69,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "1.1.ol source list counts": [
+      3
+    ],
+    "1.1.ul source list counts": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "2.1.ol source list counts": [
+      3
+    ],
+    "3.1.ol source list counts": [
+      5
+    ],
+    "5.1.ol source list counts": [
+      10,
+      10
+    ],
+    "5.2.ol source list counts": [
+      10,
+      10
+    ],
+    "6.1.ol source list counts": [
+      15
+    ],
+    "6.2.ol source list counts": [
+      15
+    ]
+  },
+  "sha256": "3dfa7e01eda0de918a76a00593c43cd10da6a16795f9480f69ea88bc5a1e9fb7",
+  "verifiedAt": "2026-10-14T13:12:35.639617+00:00",
+  "source": {
+    "cache": ".cache/byteseismic-posts-with-content.json",
+    "wordpressId": 7018,
+    "title": "Moral Black Boxes",
+    "url": "http://byteseismic.com/2024/04/24/moral-black-boxes/",
+    "snapshot": "moral-black-boxes-wordpress-7018.html",
+    "fullSourceRead": true,
+    "fullCurrentEditionRead": true,
+    "urlSlugMatch": true,
+    "titleExact": true,
+    "allPromptTexts": [
+      "Rigorously assess the following argument.",
+      "Therefore, anyone claiming that there can be no evidence submitted against the moral goodness of Deity X must also conclude they have no access to the moral status of Deity X. Correct?",
+      "I have seen theists of different sorts attempt to make their God off-limits to questions of moral goodness by claiming their God cannot be morally judged by humans. Comment on any logical flaws in this in light of our discussion above.",
+      "Create an interesting and clear hypothetical dialogue between a theist and a non-theist that saliently highlights the argument above.",
+      "Create a 10-item quiz on the entire thread above.",
+      "Provide 15 discussion questions relevant to the content above. "
+    ],
+    "modelLogoOrder": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "preamble": "All four highlight extracts read; four clearly labeled edited highlights. Original contents list replaced with exact prompt navigation.",
+    "curatorNotePreserved": "A blackbox is a source of output for which the inner processes are unseen and unknown."
+  },
+  "responseDecisions": {
+    "1.1": "Restored exact opening argument and premise/assessment progression. Gave explicit valid deduction; distinguished soundness, P2 independence, prohibition versus evaluability, and policy/definition/necessity readings of P3.",
+    "1.2": "Retained premise restatements and inference; corrected claim that only P3 needs support and that P2 is logically sound. Addressed independent grounds and circularity.",
+    "2.1": "Preserved curator follow-up verbatim and its three-premise recap. Qualified too-strong yes: original conclusion concerns rational authority; complete epistemic inaccessibility requires more.",
+    "2.2": "Retained P1–P3 quotations; separated action-based testing from other possible justification and exposed selective application of skepticism.",
+    "3.1": "Five-point list preserved. Distinguished limited understanding from total immunity, conditional inconsistency from disagreement, command identity from authority, and delegation from uncheckable obedience.",
+    "3.2": "Seven-paragraph progression preserved. Developed concrete ruler analogy with its limits, evidential asymmetry, definitional goodness and the remaining burden of justification.",
+    "4.1": "Retained Theo/Alex opening, faith and divine-logic turns, all thirteen speaker turns/order. Revised middle and end to test independent revelation, circularity and identity rather than infer all unfalsifiable beliefs irrational.",
+    "4.2": "Restored full eleven-turn Tara/Nate dialogue. Preserved alternation and initial stances; replaced forced capitulation with conditional argument, independent-ground reply and an explicit remaining disagreement.",
+    "5.1": "Ten questions/keys preserved. Revised three items and keys to match actual dialogue, manually checked remaining premise and authority answers.",
+    "5.2": "Ten questions/keys preserved. Corrected P3-as-fact, overbroad moral-access conclusion, and questions/keys tied to former forced capitulation.",
+    "6.1": "Fifteen questions retained; revised two to distinguish reality from justified belief and test scope of P1; thirteen retained verbatim.",
+    "6.2": "Fifteen questions retained; one revised to request a constructed case before assuming a real-world example; fourteen retained verbatim."
+  },
+  "negativeControlsRejected": 5,
+  "quizQuestionAndKeyCounts": [
+    10,
+    10
+  ],
+  "discussionQuestionCounts": [
+    15,
+    15
+  ],
+  "browser": {
+    "viewport": [
+      1280,
+      720
+    ],
+    "horizontalOverflow": false,
+    "promptNavigationChecked": true,
+    "mobileTested": false,
+    "originalQuizLayoutChecked": false,
+    "originalArgumentLayoutChecked": true,
+    "dialogueLayoutChecked": true,
+    "staticQuizzesWithEndKeys": true
+  },
+  "fullBuilderPreservedByteForByte": true,
+  "dialogueSpeakerOrder": [
+    [
+      "Alex",
+      "Theo",
+      "Alex",
+      "Theo",
+      "Alex",
+      "Theo",
+      "Alex",
+      "Theo",
+      "Alex",
+      "Theo",
+      "Alex",
+      "Theo",
+      "Alex"
+    ],
+    [
+      "Nate",
+      "Tara",
+      "Nate",
+      "Tara",
+      "Nate",
+      "Tara",
+      "Nate",
+      "Tara",
+      "Nate",
+      "Tara",
+      "Nate"
+    ]
+  ],
+  "dialogueTurnCounts": [
+    13,
+    11
+  ],
+  "originalArgumentPreservedVerbatim": true,
+  "deductionCheck": {
+    "truthTableRows": 8,
+    "premiseSatisfyingAssignments": [
+      {
+        "E": false,
+        "Q": false,
+        "A": false
+      }
+    ],
+    "conclusionNegAEntailed": true,
+    "totalMoralIgnoranceEntailed": false,
+    "note": "A further variable representing some moral knowledge may be true without violating any formal premise; this demonstrates the extension needs another premise."
+  },
+  "research": [],
+  "remainingConcerns": [
+    "P1 and P2 remain philosophical premises requiring defense; the response does not equate valid form with proven soundness.",
+    "The dialogues are fictional examples of positions, not evidence about all theists. Independent-ground replies remain open to assessment; no inference to evil or nonexistence is claimed."
+  ]
+}

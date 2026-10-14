@@ -4,10 +4,10 @@
   "startIndex": 100,
   "endIndexExclusive": 150,
   "candidateWordPressOriginals": 49,
-  "fullyReviewed": 16,
-  "pendingFullReview": 34,
+  "fullyReviewed": 18,
+  "pendingFullReview": 32,
   "sourceBlocked": 0,
-  "limitation": "Sixteen entries have complete substantive review and verification; thirty-four remain pending. No batch advancement. Original personality-study attribution limits are explicitly disclosed in the revised responses. The Burden of Proof retains a labeled hypothetical accident; earlier Perverse Incentives historical limitations remain documented.",
+  "limitation": "Eighteen entries have substantive review and verification; thirty-two remain pending. No batch advancement. Case-study lesson plans are proposals, not tested curricula; conceptual puzzles retain disputed answers. Moral Black Boxes distinguishes valid inference from defended premises and leaves independent-ground replies open. Earlier personality-study attribution, Burden of Proof, and Perverse Incentives limitations remain documented.",
   "pages": [
     {
       "pagePath": "/philosophers/philosopher-club-membership/",
@@ -407,7 +407,7 @@
       "pagePath": "/epistemology/epistemological-case-studies/",
       "pageTitle": "Epistemological Case Studies",
       "queueIndex": 117,
-      "status": "pending-full-review",
+      "status": "reviewed-verified",
       "wordpressId": 5326,
       "sourceUrl": "http://byteseismic.com/2024/04/06/epistemological-case-studies/",
       "sourceTitle": "Epistemological Case Studies",
@@ -423,14 +423,17 @@
         "Provide 15 discussion questions relevant to the content above. "
       ],
       "wordCount": 6949,
-      "fullSourceRead": false,
-      "editorialReviewComplete": false
+      "fullSourceRead": true,
+      "editorialReviewComplete": true,
+      "fullCurrentEditionRead": true,
+      "verification": "quality/original-source-revisions/epistemological-case-studies-verification-2026-10-14.json",
+      "reviewedAt": "2026-10-14T13:17:16.991651+00:00"
     },
     {
       "pagePath": "/ethics/moral-black-boxes/",
       "pageTitle": "Moral Black Boxes",
       "queueIndex": 118,
-      "status": "pending-full-review",
+      "status": "reviewed-verified",
       "wordpressId": 7018,
       "sourceUrl": "http://byteseismic.com/2024/04/24/moral-black-boxes/",
       "sourceTitle": "Moral Black Boxes",
@@ -447,8 +450,11 @@
         "Provide 15 discussion questions relevant to the content above. "
       ],
       "wordCount": 5021,
-      "fullSourceRead": false,
-      "editorialReviewComplete": false
+      "fullSourceRead": true,
+      "editorialReviewComplete": true,
+      "fullCurrentEditionRead": true,
+      "verification": "quality/original-source-revisions/moral-black-boxes-verification-2026-10-14.json",
+      "reviewedAt": "2026-10-14T13:17:16.991651+00:00"
     },
     {
       "pagePath": "/economics/economics-core-concepts/",
@@ -1236,6 +1242,6 @@
       "editorialReviewComplete": false
     }
   ],
-  "updatedAt": "2026-10-12T13:20:44.899535+00:00",
+  "updatedAt": "2026-10-14T13:17:16.991651+00:00",
   "recordedAt": "2026-10-13T13:25:17.318854+00:00"
 }

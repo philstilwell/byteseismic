@@ -1,0 +1,232 @@
+{
+  "pagePath": "/epistemology/epistemological-case-studies/",
+  "sourceSha256": "e5a8057ee0c4edb5ce54ed692cfaab86e6871c74955f5cf6f46fbf5398a5d489",
+  "originalPrompts": 5,
+  "originalHeadings": 5,
+  "sourceColumns": 15,
+  "modelResponses": 15,
+  "blocksRetainedVerbatim": 187,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 92,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "1.1.ol source list counts": [
+      20
+    ],
+    "1.2.ol source list counts": [
+      1
+    ],
+    "1.3.ol source list counts": [
+      20
+    ],
+    "2.1.ul source list counts": [
+      2,
+      2,
+      2,
+      3,
+      3,
+      3,
+      2
+    ],
+    "2.2.ol source list counts": [
+      3
+    ],
+    "2.2.ul source list counts": [
+      2,
+      2,
+      3,
+      4,
+      2,
+      4
+    ],
+    "2.3.ol source list counts": [
+      2,
+      1,
+      1
+    ],
+    "2.3.ul source list counts": [
+      2,
+      2,
+      3
+    ],
+    "3.1.ul source list counts": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      1
+    ],
+    "3.3.ol source list counts": [
+      6
+    ],
+    "4.1.ol source list counts": [
+      10,
+      10
+    ],
+    "4.2.ol source list counts": [
+      10,
+      10
+    ],
+    "4.3.ol source list counts": [
+      10,
+      10
+    ],
+    "5.1.ol source list counts": [
+      15
+    ],
+    "5.2.ol source list counts": [
+      15
+    ],
+    "5.3.ol source list counts": [
+      15
+    ]
+  },
+  "sha256": "c3007f1807d678b14fec5002a8ed0e1a5bb4b4198f82a1d5d2b2080f0336d50c",
+  "verifiedAt": "2026-10-14T13:12:35.561024+00:00",
+  "source": {
+    "cache": ".cache/byteseismic-posts-with-content.json",
+    "wordpressId": 5326,
+    "title": "Epistemological Case Studies",
+    "url": "http://byteseismic.com/2024/04/06/epistemological-case-studies/",
+    "snapshot": "epistemological-case-studies-wordpress-5326.html",
+    "fullSourceRead": true,
+    "fullCurrentEditionRead": true,
+    "urlSlugMatch": true,
+    "titleExact": true,
+    "allPromptTexts": [
+      "Provide a list of 20 epistemological case studies for students of rationality.",
+      "How might these scenarios best be taught in a 60-minute class of 10 students?",
+      "Explain the value of epistemological case studies or scenarios.",
+      "Create a 10-item quiz on the entire thread above.",
+      "Provide 15 discussion questions relevant to the content above. "
+    ],
+    "modelLogoOrder": [
+      "ChatGPT",
+      "Gemini",
+      "Claude"
+    ],
+    "preamble": "All four highlight extracts read; four clearly labeled edited highlights. Original contents list replaced with exact prompt navigation."
+  },
+  "responseDecisions": {
+    "1.1": "Preserved all twenty titles/order; corrected court provenance, finite distinct books, quantum metaphors, random-selection conflation, sensory-concept inference and predictive-policing inference. Made polygraph rates expressly hypothetical and testable; other sound scenarios retained.",
+    "1.2": "Preserved twenty paragraph cases/order. Qualified investment records, placebo causality, cultural relativism, skepticism and historical legends; corrected Jung and bodhisattva descriptions, distinguished reliability from ethics and search assumptions.",
+    "1.3": "Preserved twenty entries/order; corrected Gettier, error types, Sleeping Beauty and Bostrom; separated circumstantial evidence, model assumptions, observer selection and causal inference. Retained remaining open investigations.",
+    "2.1": "Retained preparation, three fifteen-minute rounds, reflection and homework hierarchy. Filled missing five minutes via ten-minute reflection; explicit group participation and minute allocations.",
+    "2.2": "Retained 10/40/10 structure and nested questions. Two cases/five pairs; filled previously unspecified exploration time with comparison and individual revision. Replaced leading questions with open questions.",
+    "2.3": "Retained 5/25/20/10 structure and two groups of five. Corrected infeasible twenty-case promise to four selected cases, explicit roles and reports. Other cases remain homework menu.",
+    "3.1": "Seven value headings preserved; replaced guarantees with teaching aims and made assessment, revision, perspective-taking and transfer concrete.",
+    "3.2": "Seven benefits preserved; corrected unsupported memory superiority and added ways to check learning; retained effective discussion of application and reasoning.",
+    "3.3": "Six philosophical uses retained. Distinguished imagined counterexamples from empirical evidence and defeasible intuitions from settled verdicts.",
+    "4.1": "Ten questions/keys retained; disambiguated three tracks, updated schedule and revision criteria; manually checked all answers.",
+    "4.2": "Ten questions/keys retained; corrected placebo cause inference and its answer; other questions remain aligned.",
+    "4.3": "Ten questions/keys retained; replaced unrelated suffix-sphere question with Sleeping Beauty; synchronized four-case lesson answer.",
+    "5.1": "Fifteen questions retained; corrected infinity, quantum, random-selection and policing assumptions; eleven retained verbatim.",
+    "5.2": "Fifteen questions retained; corrected scenario numbers 6→8 and 11→13, placebo/bodhisattva assumptions, and case-superiority presupposition; ten retained verbatim.",
+    "5.3": "All fifteen questions retained: they remain open, relevant to their actual cases, and invite critique of the teaching plan."
+  },
+  "negativeControlsRejected": 5,
+  "quizQuestionAndKeyCounts": [
+    10,
+    10,
+    10
+  ],
+  "discussionQuestionCounts": [
+    15,
+    15,
+    15
+  ],
+  "browser": {
+    "viewport": [
+      1280,
+      720
+    ],
+    "horizontalOverflow": false,
+    "promptNavigationChecked": true,
+    "mobileTested": false,
+    "originalQuizLayoutChecked": true,
+    "originalArgumentLayoutChecked": false,
+    "dialogueLayoutChecked": false,
+    "staticQuizzesWithEndKeys": true
+  },
+  "fullBuilderPreservedByteForByte": true,
+  "caseCounts": [
+    20,
+    20,
+    20
+  ],
+  "hiddenEmptySourceListNode": "1.2.20",
+  "classTimingMinutes": [
+    [
+      5,
+      45,
+      10
+    ],
+    [
+      10,
+      40,
+      10
+    ],
+    [
+      5,
+      25,
+      20,
+      10
+    ]
+  ],
+  "hypotheticalPolygraphArithmetic": {
+    "truePositive": 80,
+    "falsePositive": 90,
+    "positiveTotal": 170,
+    "positivePredictiveFraction": "80/170"
+  },
+  "research": [
+    {
+      "url": "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Gellius/5*.html#10",
+      "use": "Primary ancient account directly read; an attributed story, not a verified court record."
+    },
+    {
+      "url": "https://carljung.ru/Library/EngConcept.htm",
+      "use": "Jung text directly read: inherited archetypal forms; hypothesis distinguished from shared learned facts."
+    },
+    {
+      "url": "https://www.fhs.unizg.hr/_download/repository/Gettier.pdf",
+      "use": "Original paper read, especially first job/coins case; justified true belief with epistemic luck."
+    },
+    {
+      "url": "https://www.princeton.edu/~adame/papers/sleeping/sleeping.html",
+      "use": "Original Elga article/setup read: fair coin, Monday/Tuesday, memory erasure; no random waking intervals."
+    },
+    {
+      "url": "https://simulation-argument.com/simulation/",
+      "use": "Original Bostrom article abstract and argument read: conditional disjunction, not an unconditional simulation claim."
+    },
+    {
+      "url": "https://itl.nist.gov/div898/handbook/eda/section3/eda35.htm",
+      "use": "Official handbook: Type I/II definitions relative to null hypothesis."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20091554/",
+      "use": "Indexed primary review abstract: randomized placebo versus no-treatment comparison. Direct PubMed response was inconsistent; no full-text claim."
+    },
+    {
+      "url": "https://reader.84000.co/toh908",
+      "use": "Publisher/translator indexed glossary directly supports aspiration to buddhahood to benefit beings; direct open returned 502. Used only bounded glossary claim, not full sutra."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19123933/",
+      "use": "Indexed research abstract on three-arm comparisons; confirms why within-group improvement does not isolate treatment causality."
+    }
+  ],
+  "remainingConcerns": [
+    "The lesson plans are worked editorial proposals, not empirically tested curricula or claims of guaranteed learning.",
+    "Polygraph figures are expressly invented for arithmetic; no real accuracy estimate is claimed.",
+    "Some cases are conceptual puzzles with disputed answers. Historical story and religious interpretations are qualified; 84000 direct retrieval failed but its indexed glossary supports the limited correction."
+  ]
+}

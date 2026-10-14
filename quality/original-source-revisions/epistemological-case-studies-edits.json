@@ -1,0 +1,301 @@
+{
+  "wordpressId": 5326,
+  "pageFile": "epistemology/epistemological-case-studies/index.html",
+  "snapshot": "epistemological-case-studies-wordpress-5326.html",
+  "sourceSha256": "e5a8057ee0c4edb5ce54ed692cfaab86e6871c74955f5cf6f46fbf5398a5d489",
+  "sourceUrl": "http://byteseismic.com/2024/04/06/epistemological-case-studies/",
+  "sourceLabel": "Original WordPress conversation, 2024-04-06",
+  "shellRevision": "9ab8e8aa6c35601fa177330ddae62035a4534c14",
+  "date": "2026-10-14",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini",
+    "Claude"
+  ],
+  "headings": [
+    "Three sets of twenty reasoning cases",
+    "Three workable sixty-minute class plans",
+    "What cases can teach, and how to check learning",
+    "Three ten-question quizzes with answer keys",
+    "Three sets of fifteen discussion questions"
+  ],
+  "introHeading": "Original conversation · editorial edition",
+  "intro": "All five original prompts and the three original response tracks are preserved. The cases are exercises for inquiry, not reports of established events. Each class plan is an alternative for ten students; quizzes and discussion questions follow in their original positions.",
+  "description": "Sixty epistemological cases, three practical class plans, and original quizzes and discussions about evidence, uncertainty, and rational inquiry.",
+  "replacements": {
+    "1.1.1": "<strong>The Paradox of the Court:</strong> In the ancient story of Protagoras and Euathlus, a student owes the remaining fee after winning his first case; the teacher sues when the student delays practicing. Each argues that either verdict favors him. Separate the contract’s payment condition from the effect and timing of a judgment. <a href=\"https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Gellius/5*.html#10\">Gellius recounts the story</a>; that does not establish it as a verified court record.",
+    "1.1.2": "<strong>The Library of Babel:</strong> Imagine every possible book of a fixed length, using a fixed finite alphabet. There are enormously many distinct books, but finitely many; an endless library could repeat them. If every true account sits among countless false ones, what would let a reader identify reliable information? Distinguish possessing strings of text from knowing which claims deserve belief.",
+    "1.1.3": "<strong>Schrödinger’s Cat in the Information Age:</strong> An online profile might be authentic or fabricated, and you have not yet checked. What evidence would discriminate between those possibilities, and what would remain uncertain after verification? The title is an analogy with a strict limit: your ignorance does not make the profile literally both real and fake or establish a quantum effect.",
+    "1.1.5": "<strong>The Blind Watchmaker’s Factory:</strong> A fictional factory assembles watches randomly; a few happen to keep time. Compare that process with one that repeatedly tests products, retains successful designs, and varies them. What difference does accumulated selection make? Pure random assembly alone is not an adequate model of evolution or of inquiry that learns from its errors.",
+    "1.1.6": "<strong>The Parable of the Polygraph:</strong> Imagine a society that treats a machine’s “lie” label as conclusive. Suppose, solely for the exercise, that it falsely labels 10 of every 100 truthful answers and misses 20 of every 100 lies. In 1,000 tests containing 100 lies, how many positive labels would be correct? Discuss why reliability, prevalence, and independent evidence matter before treating a label as truth.",
+    "1.1.8": "<strong>The Quantum Classroom:</strong> In this hypothetical classroom, a teacher expects one group to excel and gives it more encouragement. How could students distinguish changed learning from changed grading? Compare blinded marking and a common assessment. The title is metaphorical: a social expectation or measurement bias is not a quantum-mechanical observer effect.",
+    "1.1.12": "<strong>The Paradox of the Omniscient Historian:</strong> A historian is stipulated to know every fact about the past. Does that settle which facts explain an event, which past choices were free, or what will happen next? Separate complete historical information from causal interpretation and prediction; the stipulation alone proves neither determinism nor its opposite.",
+    "1.1.15": "<strong>The Island of the Colorblind:</strong> Imagine people who do not experience color differences, but can compare instruments that register different wavelengths. What can they learn about those differences, and what experience might remain unavailable? Lack of a sensory experience does not by itself rule out a corresponding scientific concept. This is a stipulated society, not a description of everyone with color-vision differences.",
+    "1.1.17": "<strong>The Case of the Predictive Policing Algorithm:</strong> In a hypothetical city, an algorithm uses recorded arrests to direct patrols; additional patrols then produce more recorded arrests in those neighborhoods. What evidence would distinguish underlying offending from differences in observation? Separate a forecast of recorded events from knowledge of an individual’s future guilt.",
+    "1.1.18": "<strong>The Paradox of Fictional Truths:</strong> A novel portrays a believable betrayal. Does recognizing the experience establish how frequently people betray one another, or why? Distinguish truth within a story, an interpretation of human experience, and an empirical generalization requiring evidence beyond the narrative.",
+    "1.1.20": "Treat each case as a question to investigate. State the claim, identify what is stipulated rather than observed, compare alternatives, and name evidence that would distinguish them. A memorable story can reveal a distinction without proving its answer.",
+    "1.2.2": "<strong>3. The Stock Market Whisperer:</strong> David reports a winning record based on intuition. What would you need to see before crediting that method: dated predictions, losing trades, a comparison strategy, and how many other people tried? Distinguish a complete record from selected successes. This is an evidence-assessment exercise, not investment advice.",
+    "1.2.3": "<strong>4. The Placebo Effect:</strong> Participants receiving a placebo report improvement. That before-and-after change alone cannot isolate an effect of expectation: natural recovery, fluctuating symptoms, and reporting can also contribute. What could an appropriate no-treatment comparison add, and what would remain difficult to separate? <a href=\"https://pubmed.ncbi.nlm.nih.gov/20091554/\">Placebo research comparing randomized groups</a> illustrates why the comparison matters.",
+    "1.2.6": "<strong>7. The Lost City of Atlantis:</strong> A legend supplies a possible search lead. What independent evidence would justify treating the city as historical, and what would justify spending resources on a search? A story can generate a hypothesis without confirming it; exploration and acceptance require different judgments.",
+    "1.2.7": "<strong>8. The Crop Circle Enigma:</strong> Patterns appear overnight in a field. Compare human construction with an alien explanation, specifying what observations each predicts. How can an investigator remain open to alternatives while demanding evidence? “Unexplained so far” does not itself favor the more extraordinary account.",
+    "1.2.9": "<strong>10. The Collective Unconscious:</strong> <a href=\"https://carljung.ru/Library/EngConcept.htm\">Jung proposed inherited archetypal forms</a>, not simply a store of facts learned and shared by a community. What evidence could distinguish inherited dispositions from cultural transmission, common environments, or selective interpretation of similarities? Treat the proposal as a hypothesis to assess, not an established source of knowledge.",
+    "1.2.11": "<strong>12. The Skeptic’s Dilemma:</strong> A skeptic questions the reliability of reasoning while using reasoning to state the challenge. Is the challenge a local request for better justification, a suspension of judgment, or a claim that no reasoning is trustworthy? These are different positions; examine which, if any, defeats its own claim.",
+    "1.2.14": "<strong>15. The Lost Library of Alexandria:</strong> Imagine recovering a lost collection of ancient texts. What could it teach us, and how would we establish authorship, dates, and reliability? The phrase “all human knowledge” should be treated as a legend, not a premise established about the historical library. More surviving records would still need critical interpretation.",
+    "1.2.16": "<strong>17. The Cultural Lens:</strong> People learn different categories and expectations through their cultures. How might those influences shape observation or interpretation? Does their influence imply that no claim can be checked across perspectives? Compare a culturally learned measurement practice with the possibility of independently detecting its errors.",
+    "1.2.17": "<strong>18. The Ethical Dilemma:</strong> A fictional scientist claims a cure from an unethical experiment. Separate whether the result is reliable, whether obtaining it was justified, and whether using it would be permissible. Could coercion also distort the data? Neither usefulness nor accuracy, even if established, would by itself excuse the method.",
+    "1.2.18": "<strong>19. The Fermi Paradox:</strong> Suppose someone expects many technologically active civilizations yet sees no confirmed detection. Which assumptions about emergence, duration, detectability, and search coverage produce that expectation? A large universe alone supplies no precise probability. Ask how a non-detection constrains a specified model rather than treating silence as a universal verdict.",
+    "1.2.19": "<strong>20. The Bodhisattva’s Vow:</strong> A bodhisattva pursues awakening for the benefit of all beings; traditions need not frame this as postponing all enlightenment until everyone else is enlightened. The <a href=\"https://reader.84000.co/toh908\">84000 glossary</a> connects the aspiration to buddhahood with liberation of beings. Can someone act compassionately while their knowledge is incomplete? Distinguish an ethical commitment from a claim already to possess perfect knowledge.",
+    "1.3.2": "<strong>The Conspiracy Theorist:</strong> A person alleges coordination among governments and companies. Compare specific, independently corroborated records with a theory that treats every denial as further confirmation. Circumstantial evidence is not automatically weak; ask how strongly it favors coordination over alternatives and whether the sources are independent.",
+    "1.3.3": "<strong>The Placebo Effect:</strong> A trial’s placebo group improves. Does improvement show what the pill or expectation caused? Compare natural change, reporting, and treatment context, then design a suitable comparison. A change within one group is not the same quantity as a difference attributable to an intervention.",
+    "1.3.5": "<strong>The Gambler’s Fallacy:</strong> A coin has landed heads repeatedly. If flips are independent and the coin is fair, is tails now “due”? Distinguish that question from whether the sequence gives reason to doubt the fairness assumption. Independence under a model does not prevent inquiry into whether the model fits.",
+    "1.3.9": "<strong>The Anthropic Principle:</strong> Observers can find themselves only in conditions permitting observers. How does that selection fact affect an argument from apparently life-permitting constants? Compare design and multiverse proposals without assuming a known probability distribution over possible constants or treating the observation-selection point as either proposal’s proof.",
+    "1.3.11": "<strong>The Gettier Problem:</strong> Smith has strong but misleading evidence that Jones will get a job and has ten coins. Smith infers that the successful applicant has ten coins; unexpectedly Smith gets the job and, unknown to him, also has ten coins. Does justified belief plus accidental truth amount to knowledge? This condenses <a href=\"https://www.fhs.unizg.hr/_download/repository/Gettier.pdf\">Gettier’s first case</a>; the issue is not merely having no justification.",
+    "1.3.16": "<strong>The Inductive Risk:</strong> A test compares a null hypothesis with an alternative. A Type I error rejects a true null; a Type II error fails to reject a false null. Consider how sample size, decision thresholds, and the costs of both mistakes affect a study’s design. These <a href=\"https://itl.nist.gov/div898/handbook/eda/section3/eda35.htm\">statistical errors</a> are not simply “accepting a false theory” and “rejecting a true theory” in every context.",
+    "1.3.17": "<strong>The Sleeping Beauty Problem:</strong> A fair coin determines awakenings: heads means Monday only; tails means Monday and Tuesday, with memory of Monday erased. On waking without knowing the day, what credence should Beauty give heads? <a href=\"https://www.princeton.edu/~adame/papers/sleeping/sleeping.html\">Elga’s setup</a> concerns information about one’s location within an experiment, not random waking intervals. Explain the sampling assumption behind an answer of one-half or one-third.",
+    "1.3.19": "<strong>The Simulation Argument:</strong> <a href=\"https://simulation-argument.com/simulation/\">Bostrom’s argument</a> offers a conditional three-way conclusion: civilizations rarely reach the relevant stage, rarely run many ancestor simulations, or simulated observers predominate under its assumptions. Which assumptions about consciousness, computing, and observer sampling are doing the work? The argument does not simply establish that advanced civilizations will run simulations or that ours probably is one.",
+    "2.1.0": "For ten students, choose three cases for this session rather than attempting every list. The plan below retains three discussion rounds and totals sixty minutes: 5 + 45 + 10. Preparation and homework fall outside class time.",
+    "2.1.2": "<strong>Assign Pre-Reading:</strong> Give students the polygraph, historian, and echo-chamber cases. Include the stated assumptions and ask for an initial judgment with one reason. These three cases offer contrasts in numerical evidence, conflicting testimony, and selection of information.",
+    "2.1.8": "Use three fifteen-minute rounds, from minute 5 to minute 50. Discuss one of the three prepared cases in each round, with ten minutes in groups and five minutes in the whole class. Both groups work on the same case so their reasoning can be compared.",
+    "2.1.11": "Give both groups the same case in each round; ask one to develop the strongest initial interpretation and the other to investigate an alternative. Swap roles in the next round.",
+    "2.1.12": "Within the ten minutes, reserve one for silent notes, six for discussion, and three for a written judgment naming an assumption and a possible reason to revise it. Rotate the reporter so participation is not confined to one confident speaker.",
+    "2.1.15": "Give each group two minutes to share its result, leaving one minute for the instructor to identify the key disagreement.",
+    "2.1.16": "Use that final minute to distinguish disagreement about evidence from disagreement about assumptions or decision costs; do not force consensus merely to finish the round.",
+    "2.1.17": "4. Reflection and Synthesis (10 minutes)",
+    "2.1.18": "<strong>Individual Reflection (3 minutes):</strong> Each student writes an initial judgment, a revised judgment if any, and the reason for changing or retaining it.",
+    "2.1.19": "<strong>Group Sharing (5 minutes):</strong> Invite one thirty-second contribution from each of the ten students; a student may submit a written contribution instead.",
+    "2.1.20": "<strong>Closing Thoughts (2 minutes):</strong> Compare the reasoning moves used across cases and set the follow-up task. These final ten minutes bring the lesson to sixty.",
+    "2.1.24": "This structure creates an opportunity for every student to contribute; participation and learning still need checking. Assess the stated reasons and revision conditions, not agreement with the instructor’s preferred conclusion.",
+    "2.2.0": "This alternative gives forty minutes to two cases, with a ten-minute opening and a ten-minute close. Use five pairs so all ten students have an identifiable role.",
+    "2.2.2": "<strong>Select Two Case Studies:</strong> Use the News Feed Filter and Witness Paradox. Keep a third case as optional homework, not another full in-class round.",
+    "2.2.9": "<strong>Present the Cases (4 minutes):</strong> Spend two minutes on each scenario and clarify what is known, reported, or merely assumed.",
+    "2.2.15": "<strong>Class Discussion and Revision (21 minutes):</strong> Use fifteen minutes for reports and challenges: each of five pairs has two minutes, followed by five minutes comparing the cases. Reserve six more minutes for each student to revise a judgment in writing and compare it with their partner’s. Together with four minutes of presentation and fifteen of paired work, this fills the forty-minute block.",
+    "2.2.21": "<strong>Socratic Method:</strong> Ask open questions that reveal assumptions: “What makes that source reliable?” or “Would the same evidence support another explanation?” Avoid leading students toward a predetermined answer while calling it inquiry.",
+    "2.3.0": "This alternative retains the original two-group design and the 5 + 25 + 20 + 10 minute schedule. Twenty cases are a menu for preparation; four selected cases receive attention in class. Trying to give every case a two-to-three-minute presentation would leave virtually no time for discussion.",
+    "2.3.2": "<strong>Small Group Discussions (25 minutes):</strong> Split the ten students into two groups of five. Give each group two cases and assign a facilitator, assumption-checker, alternative-generator, evidence-checker, and reporter. Roles organize work without preventing anyone from contributing.",
+    "2.3.3": "Group 1: discuss the Unfalsifiable Claim and Psychic’s Prediction. Use two minutes to agree roles, ten minutes per case, and three minutes to prepare a report.",
+    "2.3.4": "Group 2: discuss the Gettier Problem and Occam’s Razor Dilemma on the same schedule. Each student records a tentative answer before discussion; the reporter identifies both agreement and unresolved disagreement.",
+    "2.3.6": "Group 1 presents its two cases: six minutes for the report and four for questions.",
+    "2.3.7": "Group 2 presents its two cases on the same ten-minute schedule. Ask the other group to test one assumption rather than merely vote for an answer.",
+    "2.3.8": "<strong>Wrap-up and Reflection (10 minutes):</strong> Allow three minutes for individual writing, five minutes for a round of thirty-second contributions, and two minutes to connect the cases and assign follow-up work.",
+    "2.3.9": "The class investigates four cases and hears both groups’ reasoning. It does not study all twenty in depth. The unselected cases remain available for later lessons or independent work, and a brief exit response checks what each student learned.",
+    "3.1.0": "Case studies can make reasoning visible: a student must say what follows from particular evidence instead of merely reciting a definition. Their value depends on careful design and discussion. The following seven uses are teaching aims, not guaranteed effects of presenting a story.",
+    "3.1.2": "<strong>Encourage Deep Thinking:</strong> Ask students what would change their judgment. In the polygraph case, moving from “the machine is usually right” to counting true and false positive labels reveals whether they understand the evidence.",
+    "3.1.14": "<strong>Develops Perspective-Taking:</strong> Reconstruct another person’s reasons before criticizing them. Understanding why a witness reports something neither proves the report true nor requires endorsing it.",
+    "3.1.18": "<strong>Builds Responsible Argument:</strong> Defending an interpretation requires reasons, but changing one’s mind can be the better performance. Reward a justified revision as well as a well-supported defense.",
+    "3.1.20": "<strong>Reflects Real-World Complexity:</strong> A case isolates a difficulty so it can be examined. Actual situations may contain additional facts and incentives; ask which simplifying assumptions would need checking before transferring the lesson.",
+    "3.1.21": "To see whether learning transfers, give a fresh case with different surface details but the same evidential problem. Ask students to explain the connection. Remembering a striking story or its favored answer is not yet evidence that the reasoning habit has transferred.",
+    "3.2.0": "The seven benefits below are opportunities a teacher can create. A case becomes useful when students must explain a judgment, face a counterexample, and reconsider their reasons.",
+    "3.2.6": "<strong>6. Memory and Retention:</strong> A story may be memorable while its reasoning is forgotten. Ask students later to reconstruct the distinction without the original character names, then apply it to a new situation. That checks more than recognition.",
+    "3.2.8": "Use the cases alongside explanation and feedback. An engaging discussion may reveal confusion rather than resolve it; the teacher’s next step is to identify what the student has understood and which inference still needs work.",
+    "3.3.0": "Epistemological cases may be real investigations or deliberately simplified thought experiments. They examine knowledge, its sources, and its limits. Distinguish evidence about how people actually reason from an imagined case used to test a philosophical claim.",
+    "3.3.2": "<strong>Testing Epistemological Theories:</strong> In a Gettier case, ask whether a proposed definition counts an accidentally true belief as knowledge. Then examine both the definition and the judgment about the case: a disputed intuition is a reason for further argument, not an experimental verdict.",
+    "3.3.7": "The strongest discussions identify the exact assumption under pressure. A scenario can expose a gap in an argument, but it does not establish how common the situation is or settle every competing theory. Keep conceptual clarification and empirical confirmation distinct.",
+    "4.1.2": "How many cases does each original response track provide, and how many case entries appear across the three tracks?",
+    "4.1.4": "In the first response track’s class plan, how long is the introduction?",
+    "4.1.6": "How are the final ten minutes divided in the first class plan?",
+    "4.1.8": "What should be rewarded alongside a well-supported defense of an interpretation?",
+    "4.1.13": "Twenty per track; sixty entries across all three tracks, with some overlapping topics.",
+    "4.1.16": "Two groups of five examine the same case from contrasting angles in each fifteen-minute round, then share their reasoning.",
+    "4.1.17": "Three minutes of individual reflection, five minutes of brief student contributions, and two minutes of closing guidance.",
+    "4.1.19": "A justified revision of one’s judgment, rather than defending a position simply to win.",
+    "4.1.20": "It can encourage perspective-taking: reconstructing reasons without assuming every conclusion is equally supported.",
+    "4.2.5": "Why does improvement within a placebo group alone fail to establish that expectation caused the improvement?",
+    "4.2.16": "Natural change, fluctuations in symptoms, and reporting can also contribute. An appropriate comparison is needed to estimate what the intervention changed.",
+    "4.3.3": "True or False: The third class plan investigates all twenty cases in depth during the hour.",
+    "4.3.5": "In the Sleeping Beauty case, what determines whether she is awakened once or twice?<br>A. Her confidence<br>B. A fair coin toss<br>C. The instructor’s preference<br>D. Randomly chosen waking intervals",
+    "4.3.15": "To share the reasoning from four selected cases, compare approaches, and invite challenges from the other group.",
+    "4.3.16": "B. A fair coin toss.",
+    "5.1.2": "In the Library of Babel case, why does possession of every fixed-length text fail to identify which accounts are true? Would adding more texts solve that problem?",
+    "5.1.3": "Where does the Schrödinger’s Cat analogy for an unverified online identity break down? How does uncertainty in the observer differ from a claim about the object’s physical state?",
+    "5.1.5": "How does repeated testing and retention of successful designs change the Blind Watchmaker’s Factory case? Why would pure random assembly misrepresent that process?",
+    "5.1.12": "How could patrol allocation affect the arrest data used by a predictive-policing system? Why would prediction of recorded events not establish an individual’s future guilt?",
+    "5.2.3": "Placebo Evidence: What could a comparison among active treatment, placebo, and no-treatment groups tell us that improvement within one group cannot? What ethical constraints would matter?",
+    "5.2.7": "Unexplained Phenomena: How can we investigate crop circles (scenario 8) with both openness to alternatives and clear demands for discriminating evidence?",
+    "5.2.10": "The Bodhisattva’s Vow: How can a commitment to helping others guide action when one’s knowledge is incomplete? What distinguishes that commitment from a claim of omniscience?",
+    "5.2.12": "Case Studies and Lectures: When might a case help understanding, and when might direct explanation be more useful? How could we check learning rather than infer it from enjoyment?",
+    "5.2.14": "The Limits of Language: In the Language Barrier case (scenario 13), how might examples, agreed definitions, and requests for paraphrase reveal misunderstandings?"
+  },
+  "countChecks": [
+    {
+      "name": "1.1.ol source list counts",
+      "selector": "#prompt-1 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        20
+      ]
+    },
+    {
+      "name": "1.2.ol source list counts",
+      "selector": "#prompt-1 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        1
+      ]
+    },
+    {
+      "name": "1.3.ol source list counts",
+      "selector": "#prompt-1 .original-response[data-source-column=\"3\"] ol",
+      "child": "li",
+      "expected": [
+        20
+      ]
+    },
+    {
+      "name": "2.1.ul source list counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"1\"] ul",
+      "child": "li",
+      "expected": [
+        2,
+        2,
+        2,
+        3,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "2.2.ol source list counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        3
+      ]
+    },
+    {
+      "name": "2.2.ul source list counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        2,
+        2,
+        3,
+        4,
+        2,
+        4
+      ]
+    },
+    {
+      "name": "2.3.ol source list counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"3\"] ol",
+      "child": "li",
+      "expected": [
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "2.3.ul source list counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"3\"] ul",
+      "child": "li",
+      "expected": [
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "3.1.ul source list counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"1\"] ul",
+      "child": "li",
+      "expected": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "3.3.ol source list counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"3\"] ol",
+      "child": "li",
+      "expected": [
+        6
+      ]
+    },
+    {
+      "name": "4.1.ol source list counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        10,
+        10
+      ]
+    },
+    {
+      "name": "4.2.ol source list counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        10,
+        10
+      ]
+    },
+    {
+      "name": "4.3.ol source list counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"3\"] ol",
+      "child": "li",
+      "expected": [
+        10,
+        10
+      ]
+    },
+    {
+      "name": "5.1.ol source list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    },
+    {
+      "name": "5.2.ol source list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    },
+    {
+      "name": "5.3.ol source list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"3\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    }
+  ],
+  "responseDecisions": {
+    "1.1": "Preserved all twenty titles/order; corrected court provenance, finite distinct books, quantum metaphors, random-selection conflation, sensory-concept inference and predictive-policing inference. Made polygraph rates expressly hypothetical and testable; other sound scenarios retained.",
+    "1.2": "Preserved twenty paragraph cases/order. Qualified investment records, placebo causality, cultural relativism, skepticism and historical legends; corrected Jung and bodhisattva descriptions, distinguished reliability from ethics and search assumptions.",
+    "1.3": "Preserved twenty entries/order; corrected Gettier, error types, Sleeping Beauty and Bostrom; separated circumstantial evidence, model assumptions, observer selection and causal inference. Retained remaining open investigations.",
+    "2.1": "Retained preparation, three fifteen-minute rounds, reflection and homework hierarchy. Filled missing five minutes via ten-minute reflection; explicit group participation and minute allocations.",
+    "2.2": "Retained 10/40/10 structure and nested questions. Two cases/five pairs; filled previously unspecified exploration time with comparison and individual revision. Replaced leading questions with open questions.",
+    "2.3": "Retained 5/25/20/10 structure and two groups of five. Corrected infeasible twenty-case promise to four selected cases, explicit roles and reports. Other cases remain homework menu.",
+    "3.1": "Seven value headings preserved; replaced guarantees with teaching aims and made assessment, revision, perspective-taking and transfer concrete.",
+    "3.2": "Seven benefits preserved; corrected unsupported memory superiority and added ways to check learning; retained effective discussion of application and reasoning.",
+    "3.3": "Six philosophical uses retained. Distinguished imagined counterexamples from empirical evidence and defeasible intuitions from settled verdicts.",
+    "4.1": "Ten questions/keys retained; disambiguated three tracks, updated schedule and revision criteria; manually checked all answers.",
+    "4.2": "Ten questions/keys retained; corrected placebo cause inference and its answer; other questions remain aligned.",
+    "4.3": "Ten questions/keys retained; replaced unrelated suffix-sphere question with Sleeping Beauty; synchronized four-case lesson answer.",
+    "5.1": "Fifteen questions retained; corrected infinity, quantum, random-selection and policing assumptions; eleven retained verbatim.",
+    "5.2": "Fifteen questions retained; corrected scenario numbers 6→8 and 11→13, placebo/bodhisattva assumptions, and case-superiority presupposition; ten retained verbatim.",
+    "5.3": "All fifteen questions retained: they remain open, relevant to their actual cases, and invite critique of the teaching plan."
+  },
+  "highlights": [
+    "An unknown online identity is not a quantum superposition.",
+    "Each alternative lesson plan accounts for all sixty minutes and all ten students.",
+    "A case teaches reasoning when students identify assumptions and explain what could change their judgment.",
+    "Three sets of twenty cases are followed by thirty quiz questions and forty-five discussion questions."
+  ],
+  "leadingTextReplacements": {
+    "2.2.10": "Paired Discussion (15 minutes): Form five pairs. Spend seven minutes on each case and one minute identifying a contrast. Use these guiding questions:"
+  },
+  "hiddenEmptySourceListNodes": [
+    "1.2.20"
+  ]
+}
