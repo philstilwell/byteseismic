@@ -1,0 +1,198 @@
+{
+  "pagePath": "/miscellany/complexity-theory/",
+  "sourceSha256": "3a38aa46c22e8702562f0c283ca2ea281cb44fe108dcd43db5212ba73a6ca46f",
+  "originalPrompts": 6,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 86,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 87,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "1.2.ol list counts": [
+      7
+    ],
+    "2.1.ol list counts": [
+      7
+    ],
+    "2.2.ol list counts": [
+      7
+    ],
+    "3.1.ol list counts": [
+      6
+    ],
+    "3.2.ol list counts": [
+      6
+    ],
+    "5.1.ol list counts": [
+      10,
+      10
+    ],
+    "5.2.ol list counts": [
+      10,
+      10
+    ],
+    "6.1.ol list counts": [
+      15
+    ],
+    "6.2.ol list counts": [
+      15
+    ]
+  },
+  "sha256": "2e5e384a028a6f28ce5bd82a3c165ac3d7034b144d97feb9379c8bdf7ff4cdfb",
+  "verifiedAt": "2026-10-15T13:21:49.012141+00:00",
+  "source": {
+    "cache": ".cache/byteseismic-posts-with-content.json",
+    "wordpressId": 7729,
+    "title": "Complexity Theory",
+    "url": "http://byteseismic.com/2024/05/02/complexity-theory/",
+    "snapshot": "complexity-theory-wordpress-7729.html",
+    "fullSourceRead": true,
+    "fullCurrentEditionRead": true,
+    "urlSlugMatch": true,
+    "titleExact": true,
+    "allPromptTexts": [
+      "What is complexity theory?",
+      "What have been the most powerful concepts that have emerged from complexity theory research?",
+      "What recent complexity theory research projects have shown promise?",
+      "Create a dialogue between an expert in complexity theory and a novice who cannot quite understand it.",
+      "Create a 10-item quiz on the entire thread above.",
+      "Provide 15 discussion questions relevant to the content above. "
+    ],
+    "modelLogoOrder": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "preamble": "Original highlight extracts read; replaced with clearly labeled edited highlights. Original contents replaced with exact prompt navigation."
+  },
+  "responseDecisions": {
+    "1.1": "Kept five-paragraph overview/course progression; distinguished complex-systems science from computational complexity, adaptation from dynamics, and shared tools from a universal theory. Added traffic and rumor comparisons.",
+    "1.2": "Preserved seven areas and SFI/application closing paragraphs. Corrected nonlinear=chaotic, emergence=self-organization and one complexity measure; qualified consciousness as unsolved.",
+    "2.1": "Retained seven concepts. Added traffic/convection mechanisms, restricted chaos prediction claim, documented disputed edge-of-chaos hypothesis and qualified scaling universality.",
+    "2.2": "Retained seven concepts/methods. Explained adaptation without conscious learning, network assumptions, feedback signs, identifiability and distinct metric meanings. Kept scientific testing central.",
+    "3.1": "Verified six SFI programs and retained their original order; replaced ungrounded success claims with linked concrete outputs, dates and limitations. Flagged older programs, removed broken internal citation marker.",
+    "3.2": "Preserved six research areas/order with specific linked examples available by May 2024. Replaced unverified Eurace@Unica name with documented Eurace@Unibi, corrected ORNL/MIT error, used actual UVM Hedonometer and CLIMBER-X examples, qualified network medicine and quantum claims.",
+    "4.1": "Restored all twenty-three turns and eleven novice turns verbatim. Rewrote expert explanations around traffic, testing, city-boundary assumptions, chaos and prediction. No invented novice questions or compressed dialogue.",
+    "4.2": "Restored all twenty-one turns and eleven novice turns verbatim plus introduction. Reworked expert responses to distinguish emergence/self-organization, adaptation, conditional intervention, and testable modeling; retained concrete ant-colony trajectory.",
+    "5.1": "Ten questions and ten keys preserved; corrected edge-of-chaos universality, algorithmic-justice mission, and prediction limits. All question/key pairs checked.",
+    "5.2": "Ten questions and keys preserved. Replaced categorical mechanical-clock distractor, false reductionism dichotomy and wrong goal key; corrected emergence definition and adaptation answer.",
+    "6.1": "Fifteen discussion questions retained; three revised to remove historical caricature and unwarranted edge-of-chaos/project-result assumptions. Twelve verbatim.",
+    "6.2": "Fifteen discussion questions retained; three refined to test reductionism complementarity, chaos evidence and tipping conditions. Twelve verbatim."
+  },
+  "negativeControlsRejected": [
+    "changed original prompt",
+    "missing response",
+    "source block out of order",
+    "changed quiz text",
+    "missing novice final turn"
+  ],
+  "originalListStructuresPreserved": true,
+  "quizQuestionAndKeyCounts": [
+    10,
+    10
+  ],
+  "discussionQuestionCounts": [
+    15,
+    15
+  ],
+  "research": [
+    {
+      "url": "https://www.complexityexplorer.org/courses/185-introduction-to-complexity",
+      "label": "Introduction to Complexity"
+    },
+    {
+      "url": "https://www.santafe.edu/research/projects/cities-scaling-sustainability",
+      "label": "urban-scaling work"
+    },
+    {
+      "url": "https://arxiv.org/abs/adap-org/9306003",
+      "label": "Mitchell, Hraber, and Crutchfield’s re-examination"
+    },
+    {
+      "url": "https://www.santafe.edu/research/projects/algorithmic-justice/",
+      "label": "project account"
+    },
+    {
+      "url": "https://www.santafe.edu/research/projects/artificial-intelligence-foundations-frontiers",
+      "label": "project"
+    },
+    {
+      "url": "https://arxiv.org/abs/2105.02198",
+      "label": "2021 workshop report"
+    },
+    {
+      "url": "https://www.santafe.edu/research/projects/theory-of-embodied-intelligence",
+      "label": "project"
+    },
+    {
+      "url": "https://www.santafe.edu/research/projects/cities-scaling-sustainability",
+      "label": "program"
+    },
+    {
+      "url": "https://www.santafe.edu/research/projects/dynamics-wealth-inequality",
+      "label": "project"
+    },
+    {
+      "url": "https://www.santafe.edu/research/projects/emergence-of-complex-societies/",
+      "label": "project"
+    },
+    {
+      "url": "https://www.nature.com/articles/s41421-020-0153-3",
+      "label": "2020 study by Zhou and colleagues"
+    },
+    {
+      "url": "https://flame.ac.uk/pubs/pdf/eurace-unibi-model-2011-v1.pdf",
+      "label": "Eurace@Unibi"
+    },
+    {
+      "url": "https://www.uvm.edu/uvmnews/news/happiness-theres-app",
+      "label": "Hedonometer, publicly described in 2013"
+    },
+    {
+      "url": "https://www.ornl.gov/blog/city-oak-ridge-partners-advanced-urban-planning-tool",
+      "label": "2018 UrbanSense collaboration"
+    },
+    {
+      "url": "https://gmd.copernicus.org/articles/15/5905/2022/",
+      "label": "CLIMBER-X v1.0, described in 2022"
+    },
+    {
+      "url": "https://research.google/blog/suppressing-quantum-errors-by-scaling-a-surface-code-logical-qubit/",
+      "label": "2023, Google Quantum AI reported"
+    }
+  ],
+  "dialogueTurnCounts": [
+    23,
+    21
+  ],
+  "noviceTurnsVerbatim": [
+    11,
+    11
+  ],
+  "researchScope": "Primary project descriptions, institutional reports, article/model descriptions and abstracts. No claim to have replicated studies or read every full paper.",
+  "remainingConcerns": [
+    "Several original research examples predate 2024 substantially; dates and aims are explicit. The page does not claim they are new in 2026.",
+    "Eurace@Unica could not be corroborated; replaced transparently with the documented Eurace@Unibi example, not a claim that the names are aliases.",
+    "Research project descriptions establish scope and selected outputs, not successful policy or clinical outcomes. Edge-of-chaos and consciousness claims remain qualified."
+  ],
+  "browser": {
+    "viewport": [
+      1280,
+      720
+    ],
+    "horizontalOverflow": false,
+    "promptNavigationChecked": true,
+    "mobileTested": false,
+    "staticQuizzesWithEndKeys": true,
+    "equationAndQuizLayoutChecked": false,
+    "dialogueLayoutChecked": true,
+    "temporaryTabClosed": true
+  },
+  "fullBuilderPreservedByteForByte": true
+}

@@ -4,10 +4,10 @@
   "startIndex": 100,
   "endIndexExclusive": 150,
   "candidateWordPressOriginals": 49,
-  "fullyReviewed": 18,
-  "pendingFullReview": 32,
+  "fullyReviewed": 20,
+  "pendingFullReview": 30,
   "sourceBlocked": 0,
-  "limitation": "Eighteen entries have substantive review and verification; thirty-two remain pending. No batch advancement. Case-study lesson plans are proposals, not tested curricula; conceptual puzzles retain disputed answers. Moral Black Boxes distinguishes valid inference from defended premises and leaves independent-ground replies open. Earlier personality-study attribution, Burden of Proof, and Perverse Incentives limitations remain documented.",
+  "limitation": "Twenty entries have substantive review and source verification; thirty remain pending. No batch advancement. Economics comparisons are explicitly dated 1974–2024, with conditional equations and policy claims. Complexity research examples distinguish dated outputs from aims; some programs are older than the original recent framing. Earlier lesson-plan, personality-study, Burden of Proof and Perverse Incentives limitations remain documented.",
   "pages": [
     {
       "pagePath": "/philosophers/philosopher-club-membership/",
@@ -460,7 +460,7 @@
       "pagePath": "/economics/economics-core-concepts/",
       "pageTitle": "Economics – Core Concepts",
       "queueIndex": 119,
-      "status": "pending-full-review",
+      "status": "reviewed-verified",
       "wordpressId": 3948,
       "sourceUrl": "http://byteseismic.com/2024/03/19/economics-core-concepts/",
       "sourceTitle": "Economics – Core Concepts",
@@ -478,14 +478,15 @@
         "Provide 15 discussion questions relevant to the content above. "
       ],
       "wordCount": 7584,
-      "fullSourceRead": false,
-      "editorialReviewComplete": false
+      "fullSourceRead": true,
+      "editorialReviewComplete": true,
+      "verification": "quality/original-source-revisions/economics-core-concepts-verification-2026-10-15.json"
     },
     {
       "pagePath": "/miscellany/complexity-theory/",
       "pageTitle": "Complexity Theory",
       "queueIndex": 120,
-      "status": "pending-full-review",
+      "status": "reviewed-verified",
       "wordpressId": 7729,
       "sourceUrl": "http://byteseismic.com/2024/05/02/complexity-theory/",
       "sourceTitle": "Complexity Theory",
@@ -502,8 +503,9 @@
         "Provide 15 discussion questions relevant to the content above. "
       ],
       "wordCount": 4695,
-      "fullSourceRead": false,
-      "editorialReviewComplete": false
+      "fullSourceRead": true,
+      "editorialReviewComplete": true,
+      "verification": "quality/original-source-revisions/complexity-theory-verification-2026-10-15.json"
     },
     {
       "pagePath": "/philosophical-inquiry/personal-truth/",
@@ -1242,6 +1244,6 @@
       "editorialReviewComplete": false
     }
   ],
-  "updatedAt": "2026-10-14T13:17:16.991651+00:00",
+  "updatedAt": "2026-10-15T13:24:22.498309+00:00",
   "recordedAt": "2026-10-13T13:25:17.318854+00:00"
 }

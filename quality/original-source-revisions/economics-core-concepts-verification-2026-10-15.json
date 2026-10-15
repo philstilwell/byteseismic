@@ -1,0 +1,274 @@
+{
+  "pagePath": "/economics/economics-core-concepts/",
+  "sourceSha256": "641f2da56069188ebd9436c3caa89a62b6b2ee6c04bad5d9b5e854266d8bcd43",
+  "originalPrompts": 7,
+  "originalHeadings": 7,
+  "sourceColumns": 14,
+  "modelResponses": 14,
+  "blocksRetainedVerbatim": 134,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 155,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": false,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [
+    "6.2"
+  ],
+  "formatChecks": {
+    "1.1.ol list counts": [
+      30
+    ],
+    "1.2.ol list counts": [
+      30
+    ],
+    "2.1.ol list counts": [
+      15
+    ],
+    "2.2.ol list counts": [
+      15
+    ],
+    "3.1.ol list counts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "3.1.ul list counts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "3.2.ol list counts": [
+      3,
+      1,
+      2,
+      4
+    ],
+    "3.2.ul list counts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "4.2.ul list counts": [
+      4,
+      4,
+      3
+    ],
+    "5.1.ul list counts": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "5.2.ul list counts": [
+      2,
+      2,
+      2
+    ],
+    "6.1.ol list counts": [
+      1,
+      2,
+      2,
+      2,
+      3,
+      1,
+      1,
+      1,
+      2,
+      1,
+      1,
+      2,
+      1
+    ],
+    "6.1.ul list counts": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "6.2.ol list counts": [
+      10,
+      10
+    ],
+    "7.1.ol list counts": [
+      15
+    ],
+    "7.2.ol list counts": [
+      15
+    ]
+  },
+  "sha256": "98076ede3392b2b99233ef95bf0d494b7346097d654cc42f441c2954cc7d5a09",
+  "verifiedAt": "2026-10-15T13:21:48.719120+00:00",
+  "source": {
+    "cache": ".cache/byteseismic-posts-with-content.json",
+    "wordpressId": 3948,
+    "title": "Economics – Core Concepts",
+    "url": "http://byteseismic.com/2024/03/19/economics-core-concepts/",
+    "snapshot": "economics-core-concepts-wordpress-3948.html",
+    "fullSourceRead": true,
+    "fullCurrentEditionRead": true,
+    "urlSlugMatch": true,
+    "titleExact": true,
+    "allPromptTexts": [
+      "List and define 30 key terms in economics.",
+      "List and provide clear explanations of 15 key concepts in economics.",
+      "Provide the top ten mathematical equations essential to economics.",
+      "Provide a salient description of the world of economics today.",
+      "How does the skillset of the typical economist differ today from 50 years ago?",
+      "Create a 10-item quiz on the discussion above.  ",
+      "Provide 15 discussion questions relevant to the content above. "
+    ],
+    "modelLogoOrder": [
+      "ChatGPT",
+      "Gemini"
+    ],
+    "preamble": "Original highlight extracts read; replaced with clearly labeled edited highlights. Original contents replaced with exact prompt navigation."
+  },
+  "responseDecisions": {
+    "1.1": "Retained all thirty original terms/order; corrected opportunity cost, trade-balance sign, diminishing returns, unemployment, supply/demand, monetary policy, economic systems and liquidity. Retained accurate basic definitions.",
+    "1.2": "Retained thirty terms/order; clarified rational choice, demand versus quantity, proportional elasticity, public goods, statistical unemployment, irregular cycles and alternative forms of socialism.",
+    "2.1": "Preserved fifteen concepts; developed town-building, evening-time, elasticity and comparative-advantage examples; distinguished GDP/welfare, marginal/total output, equilibrium/stability and public ownership/public-good properties.",
+    "2.2": "Preserved fifteen concepts; corrected luxury-good exception, scarce-resource claim and price response; retained effective supply-time-horizon, externality, monopoly and micro/macro explanations.",
+    "3.1": "Retained ten equations in order. Defined inverse demand; corrected GDP components, surplus triangles, finite/local marginal cost, NPV bounds and multiplier assumptions. Clarified simple versus compound interest and constant returns. Repaired repeated list numbering.",
+    "3.2": "Retained ten equations and grouped structure. Distinguished utility ranking from measured happiness, MC=MR condition from sufficient optimum, planned AD from GDP identity, and short/long-run supply assumptions.",
+    "4.1": "Preserved seven-paragraph progression from academia through industry/public policy to interdisciplinary and methodological issues. Replaced promotional claims with concrete estimation tasks, dated 2024 scope and uncertainty.",
+    "4.2": "Kept all academia/industry/challenges lists. Removed unprecedented-accuracy and profit/stability promises; added dated research examples, credible comparisons and distinction between firm interests and public effects.",
+    "5.1": "Kept six historical comparison pairs and summary. Anchored 1974–2024; corrected manual/analog, no-empirical-past and newly-invented-fields caricatures. Skills vary by role and do not guarantee inference.",
+    "5.2": "Preserved Focus/Toolset/Skillset progression. Corrected past-versus-future and theory-versus-data dichotomies; documented reproducibility policy, data bias and role-specific skills.",
+    "6.1": "Preserved ten questions, option counts and ten keys. Broadened narrow skills-only quiz to cover the full thread; checked every answer, fixed unsupported universality and numbered fragmented lists consecutively.",
+    "6.2": "Preserved ten multiple-choice questions; corrected no-valid-answer items 1 and 7, big-data guarantee and ambiguous industry example. Added explicitly labeled missing ten-answer key after source quiz.",
+    "7.1": "Fifteen questions retained in order; three adjusted to remove universal skill and automatic accuracy premises. Twelve verbatim.",
+    "7.2": "Fifteen questions retained in order; two adjusted to invite trade-offs and conditional trade effects. Thirteen verbatim."
+  },
+  "negativeControlsRejected": [
+    "changed original prompt",
+    "missing response",
+    "source block out of order",
+    "changed quiz text",
+    "incorrect equation example",
+    "missing added answer key",
+    "broken quiz numbering"
+  ],
+  "originalListStructuresPreserved": true,
+  "quizQuestionAndKeyCounts": [
+    10,
+    10
+  ],
+  "discussionQuestionCounts": [
+    15,
+    15
+  ],
+  "research": [
+    {
+      "url": "https://www.bls.gov/cps/definitions.htm",
+      "label": "U.S. Bureau of Labor Statistics definitions"
+    },
+    {
+      "url": "https://www.bea.gov/help/glossary/expenditures-approach",
+      "label": "expenditure accounting identity"
+    },
+    {
+      "url": "https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy",
+      "label": "Bank of England’s 2014 explanation"
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/economic-sciences/2019/press-release/",
+      "label": "2019 prize for experimental work on poverty"
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/economic-sciences/2002/press-release/",
+      "label": "2002 prize recognized psychological and experimental contributions"
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/economic-sciences/1969/tinbergen/lecture/",
+      "label": "Tinbergen’s 1969 lecture"
+    },
+    {
+      "url": "https://www.aeaweb.org/journals/data/archive",
+      "label": "archived data and code policies"
+    }
+  ],
+  "equationCounts": [
+    10,
+    10
+  ],
+  "termCounts": [
+    30,
+    30
+  ],
+  "conceptCounts": [
+    15,
+    15
+  ],
+  "numberingVerified": true,
+  "addedAnswerKey": "Gemini supplied ten quiz questions without answers. Ten answers appended, explicitly labeled editorial addition; all original lists remain intact.",
+  "numericalChecks": {
+    "consumerSurplus": 20,
+    "producerSurplus": 20,
+    "elasticityApproximation": -2,
+    "comparativeAdvantageExampleFeasible": {
+      "workerA": {
+        "loavesPerHour": 4,
+        "cakesPerHour": 2,
+        "loavesForgonePerCake": 2
+      },
+      "workerB": {
+        "loavesPerHour": 12,
+        "cakesPerHour": 3,
+        "loavesForgonePerCake": 4
+      }
+    }
+  },
+  "remainingConcerns": [
+    "Historical comparison explicitly anchors today to March 2024 and fifty years earlier to roughly 1974. It is not a current economic forecast or a survey of every economist.",
+    "GDP, unemployment and institutional examples specify applicable definitions; policy implications depend on assumptions.",
+    "Deposit multiplier retained as a restrictive textbook exercise, not a mechanical description of modern banking."
+  ],
+  "browser": {
+    "viewport": [
+      1280,
+      720
+    ],
+    "horizontalOverflow": false,
+    "promptNavigationChecked": true,
+    "mobileTested": false,
+    "staticQuizzesWithEndKeys": true,
+    "equationAndQuizLayoutChecked": true,
+    "dialogueLayoutChecked": false,
+    "temporaryTabClosed": true
+  },
+  "fullBuilderPreservedByteForByte": true
+}

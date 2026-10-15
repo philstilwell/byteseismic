@@ -1,0 +1,214 @@
+{
+  "pageFile": "miscellany/complexity-theory/index.html",
+  "wordpressId": 7729,
+  "snapshot": "complexity-theory-wordpress-7729.html",
+  "sourceSha256": "3a38aa46c22e8702562f0c283ca2ea281cb44fe108dcd43db5212ba73a6ca46f",
+  "sourceUrl": "http://byteseismic.com/2024/05/02/complexity-theory/",
+  "sourceLabel": "Original WordPress post, 2024-05-02",
+  "shellRevision": "ea4a63fdaa48df086bf2151be480a5b3b5912ee7",
+  "date": "2026-10-15",
+  "modelLabels": [
+    "ChatGPT",
+    "Claude"
+  ],
+  "headings": [
+    "What complex-systems research studies",
+    "Concepts that explain interactions",
+    "Research projects and what their evidence shows",
+    "Two complete expert–novice dialogues",
+    "Two ten-item quizzes and answer keys",
+    "Fifteen discussion questions from each response"
+  ],
+  "introHeading": "What complex-systems research studies",
+  "intro": "This conversation introduces complex systems, develops their central concepts, surveys research, and tests understanding through two dialogues, quizzes, and discussion. All six original prompts and both response tracks are preserved. The research examples are dated in the context of the May 2024 source; aims and preliminary findings are distinguished from demonstrated applications.",
+  "description": "Explore complexity through interactions, emergence, research examples, two complete dialogues, original quizzes and discussion questions.",
+  "highlights": [
+    "Emergence concerns patterns produced by interactions; naming it does not explain the mechanism.",
+    "Chaotic dynamics can limit detailed forecasts while leaving useful statistical predictions.",
+    "Research promises require evidence from the particular model and system.",
+    "Complex-systems science and computational complexity ask related but distinct questions."
+  ],
+  "replacements": {
+    "1.1.0": "Here “complexity theory” means <em>complex-systems science</em>: research on how interactions among parts generate collective patterns, such as traffic waves, ecosystem dynamics, or market behavior. It is a family of approaches, not an all-encompassing theory. Computational complexity, which studies the time or memory needed to solve computational problems, is a distinct field with some connections to this one.",
+    "1.1.1": "The Santa Fe Institute is an important interdisciplinary center for this work. Researchers examine how local interactions can produce organization at a larger scale. For example, understanding individual drivers is insufficient to explain a traffic wave unless we also model how each responds to the car ahead. Adaptation matters in many systems, but a system need not learn or evolve to have complex dynamics.",
+    "1.1.2": "The field draws on dynamics, chaos, fractals, information theory, and network methods. These are overlapping tools with their own histories: dynamics studies change through time, chaos concerns sensitive dependence in certain deterministic systems, fractals concern structure across scales, and information theory quantifies uncertainty and dependence. Not every complex system displays every one of these features.",
+    "1.1.3": "Shared mathematical tools can help compare biology, physics, economics, and social behavior. The comparison is useful only when the parts, interactions, measurements, and mechanisms are specified. A model of an epidemic and a model of rumor spread may share a network structure, but people can respond to a rumor in ways a virus cannot.",
+    "1.1.4": "For an introduction with models and exercises, see Melanie Mitchell’s <a href=\"https://www.complexityexplorer.org/courses/185-introduction-to-complexity\">Introduction to Complexity</a> through the Santa Fe Institute’s Complexity Explorer. Work through a small model and ask which real observations could show its limits.",
+    "1.2.0": "Complex-systems science studies interacting components whose collective behavior is difficult to infer by inspecting the components separately. Its methods span mathematics, physics, biology, economics, and social science. The difficulty can come from feedback, network structure, adaptation, or nonlinear dynamics; the word “complex” is not an explanation by itself.",
+    "1.2.1": "Researchers seek mechanisms and patterns that can be tested across systems, from cellular automata to ecosystems and economies. Some patterns recur, but a successful model in one domain does not establish a universal law for every other domain. The related computer-science field of computational complexity asks about the resources needed for computation.",
+    "1.2.3": "<strong>Chaos and Nonlinear Dynamics:</strong> Nonlinear systems need not respond in direct proportion to a change in inputs. Some show chaos: nearby initial states can diverge under the same deterministic rules. This limits detailed prediction from imperfect measurements; nonlinearity alone does not imply chaos.",
+    "1.2.6": "<strong>Emergence and Self-Organization:</strong> Emergence concerns patterns or properties produced by interactions; self-organization concerns organization developing without a controller specifying the overall pattern. External energy, constraints, or designed rules can still be essential. These concepts overlap but are not synonyms.",
+    "1.2.8": "<strong>Complexity Measures:</strong> Entropy, information measures, and fractal dimensions quantify different features. A random sequence can have high entropy without the organized structure of a living system. There is no single score that ranks every kind of complexity.",
+    "1.2.10": "The Santa Fe Institute has helped bring researchers from different disciplines together to study such mechanisms. Its <a href=\"https://www.santafe.edu/research/projects/cities-scaling-sustainability\">urban-scaling work</a>, for example, compares quantitative patterns across cities while asking how interactions generate them.",
+    "1.2.11": "Applications include ecosystems, climate, economies, social networks, and artificial intelligence. Network models can also illuminate aspects of brain organization, but calling consciousness “emergent” does not solve the problem of explaining subjective experience. A useful application identifies a measurable outcome and tests its mechanism.",
+    "2.1.0": "The following concepts have been especially useful in complex-systems research. Several have older roots in mathematics, physics, or philosophy; the field develops and combines them rather than having invented each one.",
+    "2.1.1": "<strong>Emergence:</strong> Collective patterns arise from interacting components. A traffic jam can move backward while the cars move forward: the pattern belongs to the traffic system, not to any one car. This invites an explanation in terms of interactions. Consciousness is a possible research application, not an already explained consequence of the label.",
+    "2.1.2": "<strong>Self-Organization:</strong> A system develops organized patterns without a controller prescribing their detailed form. Heating a fluid can generate convection patterns; the external heat supply and boundary conditions still matter. “No central controller” does not mean “no external causes.”",
+    "2.1.3": "<strong>Chaos:</strong> Some deterministic systems amplify small differences in initial conditions. With limited measurement precision, their detailed trajectories eventually become hard to forecast. Short-term forecasts or statistical patterns can remain useful. Complexity and chaos overlap, but neither implies the other.",
+    "2.1.6": "<strong>Edge of Chaos:</strong> A proposal that some useful computation or adaptive behavior occurs near transitions between ordered and chaotic dynamics. It is a model-dependent research hypothesis, not a law that all systems are most adaptable there. <a href=\"https://arxiv.org/abs/adap-org/9306003\">Mitchell, Hraber, and Crutchfield’s re-examination</a> shows why definitions, tasks, and experimental design matter.",
+    "2.1.7": "<strong>Scaling Laws:</strong> Relationships describing how a measured property varies with system size, often expressed as a power law. Urban-scaling research compares quantities such as infrastructure or economic activity across city populations. Exponents, boundaries, deviations, and causal explanations must be examined; an average pattern is not an exact prediction for each city.",
+    "2.1.8": "These concepts are useful when they turn a broad question into a specific test: which connections transmit a disturbance, which feedback amplifies it, and which observations would contradict the model? Studying parts and studying interactions complement each other.",
+    "2.2.0": "Here are seven influential concepts and methods used in complex-systems research. Their value lies in the questions they make testable, with different qualifications in different settings.",
+    "2.2.1": "<strong>Emergence and Self-Organization:</strong> Interactions can produce a collective pattern, and some patterns organize without central direction. A flock’s movement depends on birds responding to neighbors and surroundings. “The whole is greater than the sum” is a metaphor, not an arithmetic rule or proof that parts cannot explain a system when their interactions are included.",
+    "2.2.2": "<strong>Nonlinearity and Chaos:</strong> Nonlinear responses can involve thresholds, saturation, or amplification. Chaos is a more specific kind of sensitive deterministic behavior. A nonlinear system can also settle to a stable state, so unpredictability must be demonstrated rather than inferred from the adjective.",
+    "2.2.3": "<strong>Complex Adaptive Systems:</strong> Agents or populations change through learning, selection, or other adaptive processes. Their responses can alter the environment faced by others. An economy’s participants may change strategies after a policy change, so a model that holds behavior fixed may miss a feedback. Adaptation need not be conscious or beneficial to everyone.",
+    "2.2.4": "<strong>Networks and Interconnectivity:</strong> The arrangement of links can change how disease, information, or failure spreads. Small-world and scale-free networks are particular structures, not descriptions that fit every network. A model must specify what nodes and links mean and compare its structure with observations.",
+    "2.2.5": "<strong>Feedback and Tipping Points:</strong> Reinforcing feedback amplifies a change; balancing feedback counteracts it. Neither term means morally good or bad. Under particular conditions, feedback and changing pressures can push a system into a different regime. Not every feedback produces a tipping point, and identifying one retrospectively does not guarantee advance warning.",
+    "2.2.6": "<strong>Agent-Based Modeling:</strong> Simulations specify individual agents, their rules, and their interactions, then examine the resulting collective behavior. Different rules can produce similar patterns, so matching one pattern does not uniquely identify a mechanism. Compare independent observations and test sensitivity to assumptions.",
+    "2.2.7": "<strong>Complexity Measures:</strong> Entropy measures uncertainty under a specified distribution; fractal dimensions describe aspects of scaling; other measures capture dependence or organization. Their meanings and units differ. A comparison is useful only after specifying what feature the chosen measure captures.",
+    "2.2.8": "These tools connect mechanisms at different scales and help analyze possible interventions. They remain part of ordinary scientific inquiry: explicit assumptions, comparison with evidence, and attention to alternatives. Their appeal does not exempt a model from those tests.",
+    "3.1.0": "The six Santa Fe Institute projects below are documented research programs relevant to the May 2024 conversation. Several began much earlier, so “recent” should not be taken to mean newly launched. Their promise lies in specified questions, methods, or outputs; a project description alone does not establish a successful intervention.",
+    "3.1.1": "<strong>Algorithmic Justice:</strong> This SFI–University of New Mexico collaboration examines how automated decisions can reproduce bias and how transparency, independent evaluation, and appeal should work. Its <a href=\"https://www.santafe.edu/research/projects/algorithmic-justice/\">project account</a> documents housing and criminal-justice work, including a 2019 housing-policy response. That is concrete interdisciplinary engagement, not evidence that a fairness problem has been solved.",
+    "3.1.2": "<strong>Artificial Intelligence — Foundations to Frontiers:</strong> The <a href=\"https://www.santafe.edu/research/projects/artificial-intelligence-foundations-frontiers\">project</a> investigates intelligence across natural and artificial systems, with attention to transfer, adaptability, and evaluation. A <a href=\"https://arxiv.org/abs/2105.02198\">2021 workshop report</a> is a documented output. Bringing fields together can sharpen research questions; it is not itself a demonstrated general-intelligence system.",
+    "3.1.3": "<strong>A Theory of Embodied Intelligence:</strong> The <a href=\"https://www.santafe.edu/research/projects/theory-of-embodied-intelligence\">project</a> studies how an agent’s body and environment participate in intelligent behavior. Its work uses predictive information to guide exploratory behavior, with a cited study from 2008. This offers a concrete route from interaction to behavior, while a general theory of intelligence remains an aim.",
+    "3.1.4": "<strong>Cities, Scaling, and Sustainability:</strong> SFI’s <a href=\"https://www.santafe.edu/research/projects/cities-scaling-sustainability\">program</a> connects urban datasets and models, with published work including urban scaling and its deviations in 2010 and a theory of city scaling in 2013. Comparing how infrastructure and activity vary with population can reveal patterns and outliers. It does not by itself identify which policy will improve a particular city.",
+    "3.1.5": "<strong>Dynamics of Wealth Inequality:</strong> The <a href=\"https://www.santafe.edu/research/projects/dynamics-wealth-inequality\">project</a> combines anthropology, history, economics, and models of wealth transmission and social networks. Its cited studies extend back to 2009–2011. Linking institutions and networks with inequality offers hypotheses to test; the models do not establish a universal policy prescription.",
+    "3.1.6": "<strong>Emergence of Complex Societies:</strong> This <a href=\"https://www.santafe.edu/research/projects/emergence-of-complex-societies/\">project</a> assembled archaeological information to compare early state formation. The promise is a common evidential basis for testing explanations across sites. Surviving records and their dating remain uneven, and greater organizational complexity does not imply moral superiority or an inevitable path for every society.",
+    "3.1.7": "These examples range from research infrastructure to mathematical models and public-facing analysis. Assess each by its actual output and evidence. They are not six verified solutions, and the age of several programs limits the original claim of recency.",
+    "3.2.0": "The following six areas retain the source’s progression from biology through economics and society to climate and quantum research. The examples are dated and available by May 2024. Some are long-running programs; “promising” describes a useful method or result rather than a guarantee of practical success.",
+    "3.2.1": "<strong>Network Medicine and Systems Biology:</strong> A <a href=\"https://www.nature.com/articles/s41421-020-0153-3\">2020 study by Zhou and colleagues</a> used relationships among proteins, viral targets, and drug targets to prioritize candidates for further investigation. This demonstrates a way to generate testable hypotheses from a biological network. Computational proximity is not clinical proof of efficacy or safety; the example concerns research method, not treatment advice.",
+    "3.2.2": "<strong>Complexity Economics and Agent-Based Models:</strong> A documented example is <a href=\"https://flame.ac.uk/pubs/pdf/eurace-unibi-model-2011-v1.pdf\">Eurace@Unibi</a>, described by Dawid and colleagues in 2011, rather than the source’s unverified “Eurace@Unica” attribution. It represents interacting households, firms, and financial institutions to explore macroeconomic behavior and policy scenarios. The useful result is a reproducible model for comparison and sensitivity analysis, not a guaranteed forecast of a real economy.",
+    "3.2.3": "<strong>Social Complexity and Collective Behavior:</strong> The University of Vermont’s Computational Story Lab helped develop the <a href=\"https://www.uvm.edu/uvmnews/news/happiness-theres-app\">Hedonometer, publicly described in 2013</a>, which tracks the emotional tone of large text collections using word ratings. It makes changes in collective language measurable. Such a measure describes sampled language, not everyone’s happiness, and does not by itself explain why a narrative spreads. This documented example is narrower than the source’s unsupported description of a particular agent-based misinformation project.",
+    "3.2.4": "<strong>Urban Complexity and Smart Cities:</strong> The Urban Dynamics Institute belonged to <strong>Oak Ridge National Laboratory</strong>, not MIT. Its <a href=\"https://www.ornl.gov/blog/city-oak-ridge-partners-advanced-urban-planning-tool\">2018 UrbanSense collaboration</a> used sensors and a web tool to study urban activity. Measuring how places are used can inform planning, but improved measurement is not yet proof of improved sustainability, and privacy and coverage need attention.",
+    "3.2.5": "<strong>Climate and Earth-System Modeling:</strong> <a href=\"https://gmd.copernicus.org/articles/15/5905/2022/\">CLIMBER-X v1.0, described in 2022</a> by Potsdam Institute researchers and collaborators, couples atmosphere, ocean, sea ice, and land processes. It makes long simulations feasible using simplified components. This supports studies of long-term climate behavior, but its published climate core does not resolve day-to-day weather or El Niño variability. A coupled model is not automatically a precise predictor of tipping dates.",
+    "3.2.6": "<strong>Quantum Complexity and Computing:</strong> This belongs primarily to quantum information and computation, with connections to complex physical systems. In <a href=\"https://research.google/blog/suppressing-quantum-errors-by-scaling-a-surface-code-logical-qubit/\">2023, Google Quantum AI reported</a> reduced logical error rates when scaling a surface-code experiment. That is evidence of progress in protecting quantum information. It does not establish that quantum machines solve arbitrary complex problems efficiently or already provide the broad practical applications mentioned in the source.",
+    "3.2.7": "A useful comparison asks what each project measured or demonstrated, what it merely aims to achieve, and what evidence would be needed next. The projects support specific advances; they do not establish one universal theory or guaranteed control of complex systems.",
+    "4.1.0": "<strong>Expert:</strong> Complexity research asks how interactions produce a collective pattern. Think of traffic: one driver brakes, the next reacts, and a wave of slowing can travel backward even though every car moves forward.",
+    "4.1.2": "<strong>Expert:</strong> Yes, it is science. Many fields already study interactions. Complexity research brings tools together to ask how local responses produce a larger pattern. For a flock, we would study how birds respond to neighbors, then test whether those rules explain the observed movement.",
+    "4.1.4": "<strong>Expert:</strong> Often, yes. But we specify what we are predicting: an exact trajectory, a probability, or a broad relationship. Understanding why traffic waves form can be useful even if we cannot name the position of every car an hour from now.",
+    "4.1.6": "<strong>Expert:</strong> For example, researchers compare infrastructure or economic activity with city population. They may find a scaling relationship across many cities. That is an average pattern with deviations, not a formula that dictates every city’s future.",
+    "4.1.8": "<strong>Expert:</strong> We combine measurements with models and simulations. We need a consistent definition of a city, comparable measurements, and tests on data not used to fit the model. Otherwise a neat-looking pattern may depend on our boundaries or sample.",
+    "4.1.10": "<strong>Expert:</strong> That is what we have to test. Two models can fit yesterday’s observations and disagree about tomorrow. We compare predictions, vary assumptions, and check mechanisms instead of treating a realistic-looking simulation as proof.",
+    "4.1.12": "<strong>Expert:</strong> One challenge is separating different limits: poor data, uncertain rules, adaptation, and chaos. In a chaotic system, small initial differences can grow under fixed rules. Other complex systems are more stable; complexity does not always mean unpredictability.",
+    "4.1.14": "<strong>Expert:</strong> That is the famous image, but it does not show that one identifiable butterfly caused a particular tornado. The point is sensitivity: two very similar starting states can develop differently. Limited initial precision can then limit how long detailed forecasts remain reliable.",
+    "4.1.16": "<strong>Expert:</strong> Yes. Some short-term outcomes, probabilities, or statistical relationships can be predicted and checked. Losing the exact path does not mean losing every regularity. A useful model states which kind of prediction it supports and how uncertain it is.",
+    "4.1.18": "<strong>Expert:</strong> Start with a small model, such as drivers responding to the car ahead. Specify the rule, change one assumption, and see what happens. Then ask what real measurements would distinguish that rule from another. Mathematics and subject knowledge help, but the habit of testing is central.",
+    "4.1.20": "<strong>Expert:</strong> It is rewarding when a pattern survives careful checks. It is equally useful to discover that an apparent connection was an artifact of the data or model. Both outcomes improve understanding.",
+    "4.1.22": "<strong>Expert:</strong> It makes me ask more precise questions: which parts interact, through what links, and what would show that my explanation is wrong? Seeing connections is a beginning; explaining and testing them is the work.",
+    "4.2.6": "<strong>Expert:</strong> “Complicated” often means many details. Here we focus on how interactions and feedback shape the result. Even a small system can have difficult dynamics; merely counting parts does not settle the distinction.",
+    "4.2.8": "<strong>Expert:</strong> An emergent property is a pattern produced by interactions. A traffic wave is one example: no driver intends to create the whole wave. If a pattern organizes without a central director, we also call that self-organization. Designed rules or external conditions can still matter.",
+    "4.2.10": "<strong>Expert:</strong> Yes. Local responses to other ants and their surroundings can coordinate collective work without an ant directing every action. We still need to identify and test the particular rules; saying “emergence” alone does not explain the nest.",
+    "4.2.12": "<strong>Expert:</strong> Because decisions based on isolated parts can miss consequences transmitted through the system. Changing one road, for instance, can alter drivers’ route choices elsewhere. Some systems adapt through learning or selection; others have complex dynamics without adapting.",
+    "4.2.14": "<strong>Expert:</strong> Disease can spread along a contact network; financial distress can spread through obligations between firms; climate processes can reinforce or counteract changes. Some systems have tipping points, but we must show the relevant mechanism rather than call every large event a tipping point.",
+    "4.2.16": "<strong>Expert:</strong> It can help. Models let us compare interventions and possible outcomes, then check them against evidence. They do not guarantee control: people may change behavior, data may miss important links, and different models may disagree.",
+    "4.2.18": "<strong>Expert:</strong> Try a concrete network: people are nodes and contacts are links. Change the links and compare how a simulated infection spreads. Then ask whether those links represent real contact and whether the model predicts observations it was not fitted to.",
+    "4.2.20": "<strong>Expert:</strong> Exactly. You are moving from a label to a question about mechanisms. Sometimes a simple linear model will be adequate; sometimes interactions require a richer one. We decide by the purpose and evidence, not by assuming that more complexity is always better.",
+    "5.1.5": "How can chaotic dynamics limit prediction without making every kind of forecast impossible?",
+    "5.1.7": "What name is given to the model-dependent hypothesis linking useful computation with a transition between ordered and chaotic dynamics?",
+    "5.1.9": "Which SFI collaboration examines transparency and fairness in algorithmic decisions about housing and criminal justice?",
+    "5.1.16": "Chaotic dynamics can amplify small initial errors and limit detailed forecasts, while shorter-term or statistical predictions may remain useful. Chaos and complexity are related but not identical.",
+    "5.1.18": "The edge-of-chaos hypothesis; it is not a universal law of maximum adaptability.",
+    "5.1.20": "Algorithmic Justice, involving researchers from SFI and the University of New Mexico.",
+    "5.1.21": "One example is sensitivity to initial conditions in chaotic systems; others include uncertain models, poor data, and changing behavior.",
+    "5.2.1": "Which example most directly illustrates an emergent collective pattern?<br/>a) A traffic wave propagating through drivers’ local responses.<br/>b) Reading one car’s serial number.<br/>c) Counting the pages in an instruction manual.<br/>d) Looking up a single component’s price.",
+    "5.2.2": "What term describes a collective pattern or property arising from interactions among components?",
+    "5.2.4": "Which claim would be a mistake?<br/>a) Nonlinear systems can have stable behavior.<br/>b) Some deterministic systems are chaotic.<br/>c) Studying parts can never contribute to explaining collective behavior.<br/>d) Emergent patterns can be investigated scientifically.",
+    "5.2.6": "Which phenomena can be studied using models of interacting systems, without assuming those models guarantee control?<br/>a) Traffic patterns.<br/>b) Disease outbreaks.<br/>c) Market crashes.<br/>d) All of the above.",
+    "5.2.9": "Which is a scientific goal of complex-systems research?<br/>a) Develop and test explanations or predictions with stated limits.<br/>b) Replace testing with admiration for surprising patterns.<br/>c) Assume every nonlinear system is chaotic.<br/>d) Infer that every connection has the same causal importance.",
+    "5.2.12": "a) A traffic wave generated by drivers responding locally.",
+    "5.2.14": "False. “Greater than the sum” is a metaphor; interactions and the measured property must be specified.",
+    "5.2.15": "c) It is a mistake to exclude studying parts. Their properties and interactions can both matter.",
+    "5.2.16": "Agents or populations change through processes such as learning or selection, potentially changing their environment in turn. Conscious learning is not required.",
+    "5.2.20": "a) Develop and test explanations or predictions with stated limits.",
+    "6.1.1": "How can studying interactions complement studying individual components, and when might either approach be insufficient?",
+    "6.1.7": "Explain the edge-of-chaos hypothesis. What evidence would be needed before applying it to the design of an artificial intelligence system?",
+    "6.1.9": "What questions about data, evaluation, and appeal does the Algorithmic Justice project raise for real-world automated decisions?",
+    "6.2.2": "How can studying a system’s components and studying their interactions complement each other? Give a case in which ignoring either would mislead.",
+    "6.2.3": "What observations or controlled model comparisons would demonstrate sensitivity to initial conditions, rather than a change in the rules or an unmeasured external influence?",
+    "6.2.6": "How do reinforcing and balancing feedback differ, and what further conditions would be needed for a tipping point or critical transition?"
+  },
+  "countChecks": [
+    {
+      "name": "1.2.ol list counts",
+      "selector": "#prompt-1 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        7
+      ]
+    },
+    {
+      "name": "2.1.ol list counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        7
+      ]
+    },
+    {
+      "name": "2.2.ol list counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        7
+      ]
+    },
+    {
+      "name": "3.1.ol list counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        6
+      ]
+    },
+    {
+      "name": "3.2.ol list counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        6
+      ]
+    },
+    {
+      "name": "5.1.ol list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        10,
+        10
+      ]
+    },
+    {
+      "name": "5.2.ol list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        10,
+        10
+      ]
+    },
+    {
+      "name": "6.1.ol list counts",
+      "selector": "#prompt-6 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    },
+    {
+      "name": "6.2.ol list counts",
+      "selector": "#prompt-6 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    }
+  ],
+  "responseDecisions": {
+    "1.1": "Kept five-paragraph overview/course progression; distinguished complex-systems science from computational complexity, adaptation from dynamics, and shared tools from a universal theory. Added traffic and rumor comparisons.",
+    "1.2": "Preserved seven areas and SFI/application closing paragraphs. Corrected nonlinear=chaotic, emergence=self-organization and one complexity measure; qualified consciousness as unsolved.",
+    "2.1": "Retained seven concepts. Added traffic/convection mechanisms, restricted chaos prediction claim, documented disputed edge-of-chaos hypothesis and qualified scaling universality.",
+    "2.2": "Retained seven concepts/methods. Explained adaptation without conscious learning, network assumptions, feedback signs, identifiability and distinct metric meanings. Kept scientific testing central.",
+    "3.1": "Verified six SFI programs and retained their original order; replaced ungrounded success claims with linked concrete outputs, dates and limitations. Flagged older programs, removed broken internal citation marker.",
+    "3.2": "Preserved six research areas/order with specific linked examples available by May 2024. Replaced unverified Eurace@Unica name with documented Eurace@Unibi, corrected ORNL/MIT error, used actual UVM Hedonometer and CLIMBER-X examples, qualified network medicine and quantum claims.",
+    "4.1": "Restored all twenty-three turns and eleven novice turns verbatim. Rewrote expert explanations around traffic, testing, city-boundary assumptions, chaos and prediction. No invented novice questions or compressed dialogue.",
+    "4.2": "Restored all twenty-one turns and eleven novice turns verbatim plus introduction. Reworked expert responses to distinguish emergence/self-organization, adaptation, conditional intervention, and testable modeling; retained concrete ant-colony trajectory.",
+    "5.1": "Ten questions and ten keys preserved; corrected edge-of-chaos universality, algorithmic-justice mission, and prediction limits. All question/key pairs checked.",
+    "5.2": "Ten questions and keys preserved. Replaced categorical mechanical-clock distractor, false reductionism dichotomy and wrong goal key; corrected emergence definition and adaptation answer.",
+    "6.1": "Fifteen discussion questions retained; three revised to remove historical caricature and unwarranted edge-of-chaos/project-result assumptions. Twelve verbatim.",
+    "6.2": "Fifteen discussion questions retained; three refined to test reductionism complementarity, chaos evidence and tipping conditions. Twelve verbatim."
+  },
+  "pageSignals": {
+    "Page form": "Original conversation · editorial edition",
+    "Best for": "understanding interactions, models, and prediction limits"
+  }
+}

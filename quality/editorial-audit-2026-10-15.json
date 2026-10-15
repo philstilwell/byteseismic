@@ -1,0 +1,1147 @@
+{
+  "date": "2026-10-15",
+  "recordedAt": "2026-10-15T13:26:31.997909+00:00",
+  "savedModelConfiguration": {
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "runtimeModelIndependentlyVerified": false
+  },
+  "cycle": 8,
+  "savedIndex": 100,
+  "currentBatchReviewed": 20,
+  "currentBatchPending": 30,
+  "sourceBlocked": 0,
+  "restartedPassSubstantivelyReviewed": 120,
+  "restartedPassNotYetReviewed": 226,
+  "officialCompletedBatchPages": 100,
+  "officialRemaining": 246,
+  "trackerAdvanced": false,
+  "nextPending": "/philosophical-inquiry/personal-truth/",
+  "nextAfterPending": "/rational-thought/regret-assessment/",
+  "followingBatchFirst": "/ethics/what-are-ethics/",
+  "noLaterBatchActivated": true,
+  "pages": [
+    {
+      "pagePath": "/economics/economics-core-concepts/",
+      "sourceSha256": "641f2da56069188ebd9436c3caa89a62b6b2ee6c04bad5d9b5e854266d8bcd43",
+      "originalPrompts": 7,
+      "originalHeadings": 7,
+      "sourceColumns": 14,
+      "modelResponses": 14,
+      "blocksRetainedVerbatim": 134,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 155,
+      "bareAnswersExplicitlyRevised": 0,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": false,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [
+        "6.2"
+      ],
+      "formatChecks": {
+        "1.1.ol list counts": [
+          30
+        ],
+        "1.2.ol list counts": [
+          30
+        ],
+        "2.1.ol list counts": [
+          15
+        ],
+        "2.2.ol list counts": [
+          15
+        ],
+        "3.1.ol list counts": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "3.1.ul list counts": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "3.2.ol list counts": [
+          3,
+          1,
+          2,
+          4
+        ],
+        "3.2.ul list counts": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "4.2.ul list counts": [
+          4,
+          4,
+          3
+        ],
+        "5.1.ul list counts": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "5.2.ul list counts": [
+          2,
+          2,
+          2
+        ],
+        "6.1.ol list counts": [
+          1,
+          2,
+          2,
+          2,
+          3,
+          1,
+          1,
+          1,
+          2,
+          1,
+          1,
+          2,
+          1
+        ],
+        "6.1.ul list counts": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "6.2.ol list counts": [
+          10,
+          10
+        ],
+        "7.1.ol list counts": [
+          15
+        ],
+        "7.2.ol list counts": [
+          15
+        ]
+      },
+      "sha256": "98076ede3392b2b99233ef95bf0d494b7346097d654cc42f441c2954cc7d5a09",
+      "verifiedAt": "2026-10-15T13:21:48.719120+00:00",
+      "source": {
+        "cache": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 3948,
+        "title": "Economics – Core Concepts",
+        "url": "http://byteseismic.com/2024/03/19/economics-core-concepts/",
+        "snapshot": "economics-core-concepts-wordpress-3948.html",
+        "fullSourceRead": true,
+        "fullCurrentEditionRead": true,
+        "urlSlugMatch": true,
+        "titleExact": true,
+        "allPromptTexts": [
+          "List and define 30 key terms in economics.",
+          "List and provide clear explanations of 15 key concepts in economics.",
+          "Provide the top ten mathematical equations essential to economics.",
+          "Provide a salient description of the world of economics today.",
+          "How does the skillset of the typical economist differ today from 50 years ago?",
+          "Create a 10-item quiz on the discussion above.  ",
+          "Provide 15 discussion questions relevant to the content above. "
+        ],
+        "modelLogoOrder": [
+          "ChatGPT",
+          "Gemini"
+        ],
+        "preamble": "Original highlight extracts read; replaced with clearly labeled edited highlights. Original contents replaced with exact prompt navigation."
+      },
+      "responseDecisions": {
+        "1.1": "Retained all thirty original terms/order; corrected opportunity cost, trade-balance sign, diminishing returns, unemployment, supply/demand, monetary policy, economic systems and liquidity. Retained accurate basic definitions.",
+        "1.2": "Retained thirty terms/order; clarified rational choice, demand versus quantity, proportional elasticity, public goods, statistical unemployment, irregular cycles and alternative forms of socialism.",
+        "2.1": "Preserved fifteen concepts; developed town-building, evening-time, elasticity and comparative-advantage examples; distinguished GDP/welfare, marginal/total output, equilibrium/stability and public ownership/public-good properties.",
+        "2.2": "Preserved fifteen concepts; corrected luxury-good exception, scarce-resource claim and price response; retained effective supply-time-horizon, externality, monopoly and micro/macro explanations.",
+        "3.1": "Retained ten equations in order. Defined inverse demand; corrected GDP components, surplus triangles, finite/local marginal cost, NPV bounds and multiplier assumptions. Clarified simple versus compound interest and constant returns. Repaired repeated list numbering.",
+        "3.2": "Retained ten equations and grouped structure. Distinguished utility ranking from measured happiness, MC=MR condition from sufficient optimum, planned AD from GDP identity, and short/long-run supply assumptions.",
+        "4.1": "Preserved seven-paragraph progression from academia through industry/public policy to interdisciplinary and methodological issues. Replaced promotional claims with concrete estimation tasks, dated 2024 scope and uncertainty.",
+        "4.2": "Kept all academia/industry/challenges lists. Removed unprecedented-accuracy and profit/stability promises; added dated research examples, credible comparisons and distinction between firm interests and public effects.",
+        "5.1": "Kept six historical comparison pairs and summary. Anchored 1974–2024; corrected manual/analog, no-empirical-past and newly-invented-fields caricatures. Skills vary by role and do not guarantee inference.",
+        "5.2": "Preserved Focus/Toolset/Skillset progression. Corrected past-versus-future and theory-versus-data dichotomies; documented reproducibility policy, data bias and role-specific skills.",
+        "6.1": "Preserved ten questions, option counts and ten keys. Broadened narrow skills-only quiz to cover the full thread; checked every answer, fixed unsupported universality and numbered fragmented lists consecutively.",
+        "6.2": "Preserved ten multiple-choice questions; corrected no-valid-answer items 1 and 7, big-data guarantee and ambiguous industry example. Added explicitly labeled missing ten-answer key after source quiz.",
+        "7.1": "Fifteen questions retained in order; three adjusted to remove universal skill and automatic accuracy premises. Twelve verbatim.",
+        "7.2": "Fifteen questions retained in order; two adjusted to invite trade-offs and conditional trade effects. Thirteen verbatim."
+      },
+      "negativeControlsRejected": [
+        "changed original prompt",
+        "missing response",
+        "source block out of order",
+        "changed quiz text",
+        "incorrect equation example",
+        "missing added answer key",
+        "broken quiz numbering"
+      ],
+      "originalListStructuresPreserved": true,
+      "quizQuestionAndKeyCounts": [
+        10,
+        10
+      ],
+      "discussionQuestionCounts": [
+        15,
+        15
+      ],
+      "research": [
+        {
+          "url": "https://www.bls.gov/cps/definitions.htm",
+          "label": "U.S. Bureau of Labor Statistics definitions"
+        },
+        {
+          "url": "https://www.bea.gov/help/glossary/expenditures-approach",
+          "label": "expenditure accounting identity"
+        },
+        {
+          "url": "https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy",
+          "label": "Bank of England’s 2014 explanation"
+        },
+        {
+          "url": "https://www.nobelprize.org/prizes/economic-sciences/2019/press-release/",
+          "label": "2019 prize for experimental work on poverty"
+        },
+        {
+          "url": "https://www.nobelprize.org/prizes/economic-sciences/2002/press-release/",
+          "label": "2002 prize recognized psychological and experimental contributions"
+        },
+        {
+          "url": "https://www.nobelprize.org/prizes/economic-sciences/1969/tinbergen/lecture/",
+          "label": "Tinbergen’s 1969 lecture"
+        },
+        {
+          "url": "https://www.aeaweb.org/journals/data/archive",
+          "label": "archived data and code policies"
+        }
+      ],
+      "equationCounts": [
+        10,
+        10
+      ],
+      "termCounts": [
+        30,
+        30
+      ],
+      "conceptCounts": [
+        15,
+        15
+      ],
+      "numberingVerified": true,
+      "addedAnswerKey": "Gemini supplied ten quiz questions without answers. Ten answers appended, explicitly labeled editorial addition; all original lists remain intact.",
+      "numericalChecks": {
+        "consumerSurplus": 20,
+        "producerSurplus": 20,
+        "elasticityApproximation": -2,
+        "comparativeAdvantageExampleFeasible": {
+          "workerA": {
+            "loavesPerHour": 4,
+            "cakesPerHour": 2,
+            "loavesForgonePerCake": 2
+          },
+          "workerB": {
+            "loavesPerHour": 12,
+            "cakesPerHour": 3,
+            "loavesForgonePerCake": 4
+          }
+        }
+      },
+      "remainingConcerns": [
+        "Historical comparison explicitly anchors today to March 2024 and fifty years earlier to roughly 1974. It is not a current economic forecast or a survey of every economist.",
+        "GDP, unemployment and institutional examples specify applicable definitions; policy implications depend on assumptions.",
+        "Deposit multiplier retained as a restrictive textbook exercise, not a mechanical description of modern banking."
+      ],
+      "browser": {
+        "viewport": [
+          1280,
+          720
+        ],
+        "horizontalOverflow": false,
+        "promptNavigationChecked": true,
+        "mobileTested": false,
+        "staticQuizzesWithEndKeys": true,
+        "equationAndQuizLayoutChecked": true,
+        "dialogueLayoutChecked": false,
+        "temporaryTabClosed": true
+      },
+      "fullBuilderPreservedByteForByte": true
+    },
+    {
+      "pagePath": "/miscellany/complexity-theory/",
+      "sourceSha256": "3a38aa46c22e8702562f0c283ca2ea281cb44fe108dcd43db5212ba73a6ca46f",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 12,
+      "modelResponses": 12,
+      "blocksRetainedVerbatim": 86,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 87,
+      "bareAnswersExplicitlyRevised": 0,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "1.2.ol list counts": [
+          7
+        ],
+        "2.1.ol list counts": [
+          7
+        ],
+        "2.2.ol list counts": [
+          7
+        ],
+        "3.1.ol list counts": [
+          6
+        ],
+        "3.2.ol list counts": [
+          6
+        ],
+        "5.1.ol list counts": [
+          10,
+          10
+        ],
+        "5.2.ol list counts": [
+          10,
+          10
+        ],
+        "6.1.ol list counts": [
+          15
+        ],
+        "6.2.ol list counts": [
+          15
+        ]
+      },
+      "sha256": "2e5e384a028a6f28ce5bd82a3c165ac3d7034b144d97feb9379c8bdf7ff4cdfb",
+      "verifiedAt": "2026-10-15T13:21:49.012141+00:00",
+      "source": {
+        "cache": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 7729,
+        "title": "Complexity Theory",
+        "url": "http://byteseismic.com/2024/05/02/complexity-theory/",
+        "snapshot": "complexity-theory-wordpress-7729.html",
+        "fullSourceRead": true,
+        "fullCurrentEditionRead": true,
+        "urlSlugMatch": true,
+        "titleExact": true,
+        "allPromptTexts": [
+          "What is complexity theory?",
+          "What have been the most powerful concepts that have emerged from complexity theory research?",
+          "What recent complexity theory research projects have shown promise?",
+          "Create a dialogue between an expert in complexity theory and a novice who cannot quite understand it.",
+          "Create a 10-item quiz on the entire thread above.",
+          "Provide 15 discussion questions relevant to the content above. "
+        ],
+        "modelLogoOrder": [
+          "ChatGPT",
+          "Claude"
+        ],
+        "preamble": "Original highlight extracts read; replaced with clearly labeled edited highlights. Original contents replaced with exact prompt navigation."
+      },
+      "responseDecisions": {
+        "1.1": "Kept five-paragraph overview/course progression; distinguished complex-systems science from computational complexity, adaptation from dynamics, and shared tools from a universal theory. Added traffic and rumor comparisons.",
+        "1.2": "Preserved seven areas and SFI/application closing paragraphs. Corrected nonlinear=chaotic, emergence=self-organization and one complexity measure; qualified consciousness as unsolved.",
+        "2.1": "Retained seven concepts. Added traffic/convection mechanisms, restricted chaos prediction claim, documented disputed edge-of-chaos hypothesis and qualified scaling universality.",
+        "2.2": "Retained seven concepts/methods. Explained adaptation without conscious learning, network assumptions, feedback signs, identifiability and distinct metric meanings. Kept scientific testing central.",
+        "3.1": "Verified six SFI programs and retained their original order; replaced ungrounded success claims with linked concrete outputs, dates and limitations. Flagged older programs, removed broken internal citation marker.",
+        "3.2": "Preserved six research areas/order with specific linked examples available by May 2024. Replaced unverified Eurace@Unica name with documented Eurace@Unibi, corrected ORNL/MIT error, used actual UVM Hedonometer and CLIMBER-X examples, qualified network medicine and quantum claims.",
+        "4.1": "Restored all twenty-three turns and eleven novice turns verbatim. Rewrote expert explanations around traffic, testing, city-boundary assumptions, chaos and prediction. No invented novice questions or compressed dialogue.",
+        "4.2": "Restored all twenty-one turns and eleven novice turns verbatim plus introduction. Reworked expert responses to distinguish emergence/self-organization, adaptation, conditional intervention, and testable modeling; retained concrete ant-colony trajectory.",
+        "5.1": "Ten questions and ten keys preserved; corrected edge-of-chaos universality, algorithmic-justice mission, and prediction limits. All question/key pairs checked.",
+        "5.2": "Ten questions and keys preserved. Replaced categorical mechanical-clock distractor, false reductionism dichotomy and wrong goal key; corrected emergence definition and adaptation answer.",
+        "6.1": "Fifteen discussion questions retained; three revised to remove historical caricature and unwarranted edge-of-chaos/project-result assumptions. Twelve verbatim.",
+        "6.2": "Fifteen discussion questions retained; three refined to test reductionism complementarity, chaos evidence and tipping conditions. Twelve verbatim."
+      },
+      "negativeControlsRejected": [
+        "changed original prompt",
+        "missing response",
+        "source block out of order",
+        "changed quiz text",
+        "missing novice final turn"
+      ],
+      "originalListStructuresPreserved": true,
+      "quizQuestionAndKeyCounts": [
+        10,
+        10
+      ],
+      "discussionQuestionCounts": [
+        15,
+        15
+      ],
+      "research": [
+        {
+          "url": "https://www.complexityexplorer.org/courses/185-introduction-to-complexity",
+          "label": "Introduction to Complexity"
+        },
+        {
+          "url": "https://www.santafe.edu/research/projects/cities-scaling-sustainability",
+          "label": "urban-scaling work"
+        },
+        {
+          "url": "https://arxiv.org/abs/adap-org/9306003",
+          "label": "Mitchell, Hraber, and Crutchfield’s re-examination"
+        },
+        {
+          "url": "https://www.santafe.edu/research/projects/algorithmic-justice/",
+          "label": "project account"
+        },
+        {
+          "url": "https://www.santafe.edu/research/projects/artificial-intelligence-foundations-frontiers",
+          "label": "project"
+        },
+        {
+          "url": "https://arxiv.org/abs/2105.02198",
+          "label": "2021 workshop report"
+        },
+        {
+          "url": "https://www.santafe.edu/research/projects/theory-of-embodied-intelligence",
+          "label": "project"
+        },
+        {
+          "url": "https://www.santafe.edu/research/projects/cities-scaling-sustainability",
+          "label": "program"
+        },
+        {
+          "url": "https://www.santafe.edu/research/projects/dynamics-wealth-inequality",
+          "label": "project"
+        },
+        {
+          "url": "https://www.santafe.edu/research/projects/emergence-of-complex-societies/",
+          "label": "project"
+        },
+        {
+          "url": "https://www.nature.com/articles/s41421-020-0153-3",
+          "label": "2020 study by Zhou and colleagues"
+        },
+        {
+          "url": "https://flame.ac.uk/pubs/pdf/eurace-unibi-model-2011-v1.pdf",
+          "label": "Eurace@Unibi"
+        },
+        {
+          "url": "https://www.uvm.edu/uvmnews/news/happiness-theres-app",
+          "label": "Hedonometer, publicly described in 2013"
+        },
+        {
+          "url": "https://www.ornl.gov/blog/city-oak-ridge-partners-advanced-urban-planning-tool",
+          "label": "2018 UrbanSense collaboration"
+        },
+        {
+          "url": "https://gmd.copernicus.org/articles/15/5905/2022/",
+          "label": "CLIMBER-X v1.0, described in 2022"
+        },
+        {
+          "url": "https://research.google/blog/suppressing-quantum-errors-by-scaling-a-surface-code-logical-qubit/",
+          "label": "2023, Google Quantum AI reported"
+        }
+      ],
+      "dialogueTurnCounts": [
+        23,
+        21
+      ],
+      "noviceTurnsVerbatim": [
+        11,
+        11
+      ],
+      "researchScope": "Primary project descriptions, institutional reports, article/model descriptions and abstracts. No claim to have replicated studies or read every full paper.",
+      "remainingConcerns": [
+        "Several original research examples predate 2024 substantially; dates and aims are explicit. The page does not claim they are new in 2026.",
+        "Eurace@Unica could not be corroborated; replaced transparently with the documented Eurace@Unibi example, not a claim that the names are aliases.",
+        "Research project descriptions establish scope and selected outputs, not successful policy or clinical outcomes. Edge-of-chaos and consciousness claims remain qualified."
+      ],
+      "browser": {
+        "viewport": [
+          1280,
+          720
+        ],
+        "horizontalOverflow": false,
+        "promptNavigationChecked": true,
+        "mobileTested": false,
+        "staticQuizzesWithEndKeys": true,
+        "equationAndQuizLayoutChecked": false,
+        "dialogueLayoutChecked": true,
+        "temporaryTabClosed": true
+      },
+      "fullBuilderPreservedByteForByte": true
+    }
+  ],
+  "verification": {
+    "verifiedAt": "2026-10-15T13:24:47.573486+00:00",
+    "runStartHead": "ea4a63fdaa48df086bf2151be480a5b3b5912ee7",
+    "newReviews": [
+      "/economics/economics-core-concepts/",
+      "/miscellany/complexity-theory/"
+    ],
+    "fullBuild": {
+      "isolated": true,
+      "basis": "Git archive of run-start HEAD plus the two reviewed pages and exact source/edit files. Required two caches copied. All inherited working changes excluded. No builder invocation in main checkout.",
+      "exitCode": 0,
+      "generatedContentPages": 723,
+      "siteAuditPages": 840,
+      "reviewedEditionsByteIdentical": 120,
+      "prior118PreservationOnly": true,
+      "preservedPages": [
+        {
+          "pagePath": "/philosophers/empiricists/",
+          "sha256": "304cfb69874c270844c162ab1db83d589577460a50fc5557c11927d5e1388a25",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophy-of-mind/what-is-consciousness/",
+          "sha256": "82cca6b9dd3b871625aea753b73a7012b173185097a5a5f95a8726de50ac49be",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/analytic-philosophers/",
+          "sha256": "914016b7bc0cf54bd44b93e05ad8aafb1978aec185f01bd3e216278736ce211b",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophy-of-science/the-use-of-proxies/",
+          "sha256": "abfcf343db8d8d4395fd78a9a544175ce6bea70b326640ada299804309cdcf4f",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophy-of-science/methodological-naturalism/",
+          "sha256": "480b9ad4e212bd999ff4dfdf28ce9bc463c308af2d47ab30f7b6af92a008c18c",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/david-hume/",
+          "sha256": "f032caa34a5e3058688f0cbd41d5d4883f5473c7f44b5c6c86f75d703a4aca81",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/baruch-spinoza/",
+          "sha256": "934ac15bf60e33c45c6ca25c26825295b555c88057b4ff1e7deab75aa063d86d",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/immanuel-kant/",
+          "sha256": "5004589a31c29149a1155b76997fb334a4cf7b22cdf0399818206c05b10d369d",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/political-philosophy/critical-race-theory/",
+          "sha256": "899f878839c637765c782c2831e5137e20fc4db864450e92ae46c3549fa8d15b",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/ancient-philosophers/",
+          "sha256": "8390ea2898cacbdc78aecafef134244fabf4a2febf6abc7891ebb7589cde0716",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/rational-thought/calculating-risks/",
+          "sha256": "ad96d75257185ad71c55b9792e5a3dde780c6323a13731c46bf20f46ea6e1a85",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophy-of-mind/elitzur-on-consciousness/",
+          "sha256": "1259de5f9f2a6c764314649682f171d8492329bca19ee431d97c35d54a83a69b",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/rational-thought/depth-or-width-of-knowledge/",
+          "sha256": "f1d239c13bf434e11f7416abb5ec7a9f5bedb5b6fffa530d1be79cf37980ddc1",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/epistemology/adequate-evidence/",
+          "sha256": "4db2354ebb73123f53d416a5cd9f640858033a0dffab3ef70db4e1aa28cfdf83",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/metaphysics/jeremy-sherman-on-emergence/",
+          "sha256": "4ca8d1034ca7e09dffa62d5b449e25aa14417621bf636d86be2a734f220f79bf",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/political-philosophy/identity-politics/",
+          "sha256": "605e68d873e97f206601dc06a85ce54394692895ad61cfb786e09eea82351fb2",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophy-of-science/orthogonality/",
+          "sha256": "38f2bcfcf6afdc67497746000bbf82c9b6d66ad319690d69876d7d1a277d4d76",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/rene-descartes/",
+          "sha256": "d74b2fb865522e738a6aaf0293236d0e4000314d630c65b9ea99e1927f46d156",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/daniel-dennett/",
+          "sha256": "ef4613dbae4d5b7807a43ebb3dae14b027f2179515a4e06f7cd5edea18e8aa0a",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/soren-kierkegaard/",
+          "sha256": "38e0410f24ab961f61a49513048e7204a6599b3fc8aa9bc3b8ee812359e12390",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophy-of-science/the-power-of-convergence/",
+          "sha256": "dec7336049fb5ff028452d30740eb092ece49432597c5c82bc20cd933c01dee1",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophy-of-science/improving-science/",
+          "sha256": "973cc3388a5ed278884654c74a0ee0defe266ce3d7c6ab31afb261dbb0bdba67",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/plato-2/",
+          "sha256": "2b9ecde1724f0c905b3c1938551fd9370105f240f69cf2bbeac311873998ff78",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/socrates/",
+          "sha256": "9433330c87a0a25d98ff3922eb7ceb5cbdfada66c4ec391257d1ca2e239b7df9",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/thomas-hobbes/",
+          "sha256": "84c527f790032cc3398726c5ba3c0b9ac2f45020dfe7855d2894c10a08e5256e",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/political-philosophy/the-social-contract/",
+          "sha256": "a614b05a9c685c5a4620b92f5618420577e8617862abe8fee99ef59a5508e805",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/humanistic-philosophies/what-is-existentialism/",
+          "sha256": "b3b6f15e2f2d345b269fe14294fb8b548130b85a6f6591570e6d3805c2f95f52",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/gottfried-wilhelm-leibniz/",
+          "sha256": "03b0e193fb0232dcf22ec7c7d842524009fb0483d70dd3a167df918df4543c19",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/thomas-aquinas/",
+          "sha256": "99de93ae404f7f1bf772ac03b6ad8db197e9cf5c8e7b8e9d002c614913d2d7f3",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/epistemology/rationality-discussion/",
+          "sha256": "a49f522e8fecec4a8868f4d608bf4801348822070b7d0e99283de20d0f4dd7e4",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/introduction/miscellaneous-philosophers/",
+          "sha256": "1f9cc2ce99d4950cdefde7da1237bc4ab1c13eb792440dd2a0e6f88528a88b32",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/martin-heidegger/",
+          "sha256": "4ba141b8d620b6121681bd590768fdfea973fba1f5ab842c375636584152a537",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/phenomenologists/",
+          "sha256": "77d73c916896fdba5e6ea7263820a70162e880efff16ee28a27d56464a3106fb",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophy-of-science/p-value-issues/",
+          "sha256": "02f85581c46683324316e50727c71a179793de54f5da97c2dca835a7febdf717",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/epicurus/",
+          "sha256": "7764d58f2bc9c252c8a4ae1d865971f228a5d753fac8c3f0fb7a1698bad028eb",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/political-philosophy/elements-of-a-stable-state/",
+          "sha256": "771323fea54b3998dcd5a59999e4859a73cb90e2dfbcbe8b9165b8f778def55d",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/duns-scotus/",
+          "sha256": "cb08245839a6e4eb8d999a21a848faa3e28d32b04e5c92201ccda7f051cef20a",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/william-james/",
+          "sha256": "44e8bedfe704c1d4527326bc26c8bf47ff047318dd00c36d8f166d59b71b8661",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/rational-thought/1-at-99-5-or-5-at-95/",
+          "sha256": "6913b5f0623ce838c745335b78c5620fade8dc5d17ff2e0f20f2fe314961afaa",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/rational-thought/avoiding-logical-fallacies/",
+          "sha256": "f511c3be5242e6d63e75e90075c0b4d1926738204b2a57469dace457306e6822",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/bertrand-russell/",
+          "sha256": "a7167607f28600bb7b5f02209f386e601151ad8ae76975034ffacb4ec06f052d",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/jacques-derrida/",
+          "sha256": "de32e48e45e1932924d91baf08bcb8830f96902bad29d6145f0cde09e82f15d1",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/john-locke/",
+          "sha256": "f929c4b7bb87ceb73a7e4ca5f3f3adc55aa00b925c4c03a0f380fc6d3da5cc9b",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/edmund-husserl/",
+          "sha256": "260b752d76e7dd7986f9c425f8ac24d521761ccd9c68e8323c7a88f32827fccc",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/willard-van-orman-quine/",
+          "sha256": "fba4bff48dc6c329768894ba5c1b0d76fd900a72c8740044329df4645a356434",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/charles-sanders-peirce/",
+          "sha256": "86ed145d421f1589035c5bd7708e41e446d6d5623ed4fd0d7b95a446391d4ac7",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/michel-foucault/",
+          "sha256": "cb37f35fd19c578213dcb74f3cf60d4fecd09389fa5389bdffd6b86db60ac690",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/al-ghazali/",
+          "sha256": "ad41d27850d30efe6259708b5362cbc7cb7397e92a2d95d786b47a45bbd3d47c",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/anselm-of-canterbury/",
+          "sha256": "3a2b4fb4ddb2f461a5499c869d194df4b78dcf95a5605adeff9dfb64caa7e825",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/arthur-schopenhauer/",
+          "sha256": "3a5fc239169a38b09f537ae928809f8dbe11f81ec797d745386968f25dbfbf1f",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/at-the-edge-of-miracles/",
+          "sha256": "81044b95dda86269c2d7aac0244db5f44047f23a50411f31730857b0f05b7c8e",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/augustine-of-hippo/",
+          "sha256": "1fb382bd171db24262cde89d668f09e0fcfdfce01c3292169f8afeecf3a73747",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/averroes/",
+          "sha256": "a9a1e7d6262f8b8e8f6cda495177cdad81843ae7d1cc1de76b41669941a2474e",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/avicenna/",
+          "sha256": "3f6b24ec1a2abad4a2ca55f27408bec9427cf2495c5229a50f82fe47fdd267fa",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/cicero/",
+          "sha256": "183b497fb506aa8ccc2a5159664b0a9bf07e34f012968f631b0baba1a7586e56",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/confucius/",
+          "sha256": "1d5307a8ae13e939557b5c627858594824cafdd01b6c950e19c8b3b1eff6b340",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/continental-philosophers/",
+          "sha256": "96db798388bb7c44f4d386f14ed5a6921d669c6cebc0175fe2d63ef6f3cc9860",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/critical-theorists/",
+          "sha256": "e1b78a513207e3e79b87297620a07a0c1f3df794954c93f106751373957f5e73",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/dogen/",
+          "sha256": "ae09eb3cbf0dd58572155b16b871f4fc2ac8ab1225909f45a6134a9d7c7655ae",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/elizabeth-anscombe/",
+          "sha256": "12cae8656789b19cbfc2f07e8d1cce851c5b14298515ca3a3d4975506bfe39da",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/epictetus/",
+          "sha256": "44857f7372235cab813616e662c12e843265c9460b00780ff8ac87bdba43fe5a",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/existentialists/",
+          "sha256": "489912bf15a50846df4e34ae05831815068352d64535b97d4d641d67f9449a28",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/friedrich-nietzsche/",
+          "sha256": "11984b03a0049fb51ce6fa7c951ff753ac4c6838d30016436985fe3790b584ba",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/g-e-moore/",
+          "sha256": "685a98b3159bb88fec6a09980b7aacce4f3e57024e7df99d961bc49dbb7d0812",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/george-berkeley/",
+          "sha256": "539336a0c32ee7c2938e93489069a2d63291bcf5be886d6a0205ff9959e58fd6",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/gottlob-frege/",
+          "sha256": "e75d332526aa75b25e4e1f03ded694416e14ae1bea00afebb8a4d806e15efb21",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/hannah-arendt/",
+          "sha256": "ab04314c19fb7dcbe019ac14b90c4997130ac4c160b31c1933cdc47d59103beb",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/heraclitus/",
+          "sha256": "2350448902c1fd7467951e834e1570a9366ab49daac26ac19b14f090f035cc54",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/jean-jacques-rousseau/",
+          "sha256": "bee6fed5edb26a7cb377b1ee2952b6f2188343227660691cd6f1a5d26cd808cd",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/john-dewey/",
+          "sha256": "9f0e64be3fd39c689c4236f5c0cf4c1ba13fc41c74b21a55617adfc5e278bfef",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/john-rawls/",
+          "sha256": "7d65272389ea402062e118de3d202a2a738efc1fd6f95077cd35f1a0a13f995b",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/john-stuart-mill/",
+          "sha256": "22da78f40b030b0ee75bbbcc2deab3ef76dd51d403dfea774d22689b978496b8",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/judith-butler/",
+          "sha256": "0317cc2173ba7167f459d71b572fcddfb98fcfbd373ddc303e0a465c9c94a4d6",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/jurgen-habermas/",
+          "sha256": "0edc9df47c5276814cc38df9230f49a7e420e8f5fb75cf438963c3f82c71a46c",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/karl-marx/",
+          "sha256": "3c3ae1ebea6573e0c610c62bb86dd2389913b06f28e9a4c03eba0950590ae4e9",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/laozi/",
+          "sha256": "b4ee717fdadc3468a3abe954ab6f51992477f856de4bdbfac899fa06824c7d45",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/maimonides/",
+          "sha256": "375552110c20dfa82de2352c74e1757396250fd02b67ca9d64d898afdfa98ef3",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/marcus-aurelius/",
+          "sha256": "e06b49c2ad4e7da3077e4b749f982186af570a84e449034083b3f7e57acabf88",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/mary-wollstonecraft/",
+          "sha256": "920e0e5165817a69bb01a9edf9a31614285806da6b6ca0dd08c86cc9ab5a4c7d",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/maurice-merleau-ponty/",
+          "sha256": "94d91b77f7a76ea74edb36ec93e528528e881cbaccc578280dc7f7ab8ee942c8",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/mencius/",
+          "sha256": "a0b9d9950496a4b605fb0d90c1ea64b93a28e7a35c9b23def8a257bf6c500e61",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/mozi/",
+          "sha256": "22e205e62f07d9d646c007811a86adfb5b2295db6c381cac0224f76c797bfe72",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/nagarjuna/",
+          "sha256": "4c26c25c5f49ff3acf80da2aa7bba9d800fc8c1430705f438841800b1615ac40",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/niccolo-machiavelli/",
+          "sha256": "ff96e52d4aa0e3e828193a42e916f2e863978b9b0070680faa471ea86bbf5271",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/parmenides/",
+          "sha256": "fde8d5abb3f2165c82d773499c5db5ef2eb8d9b50cab09b36e7c266e0dae51ec",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/plato/",
+          "sha256": "2ae0ab44d28d314cc9a43a71e38d5f81707211aa9b2669e61db5db2562c13d44",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/plotinus/",
+          "sha256": "124e3c02683f7725255a7422a825dc06e3fa64c6dcfe829a724af4ae1e160c26",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/pragmatists/",
+          "sha256": "af1693ade374b98a07af3743416724b47f7853643b8d1968340512ce96cc027c",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/rationalists/",
+          "sha256": "1b739db04d2e5e257355429d633645e15b972f60dad0037c50d7bd995885ee9b",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/saul-kripke/",
+          "sha256": "d3ecc9840df64ac43ddb0e4d8edf3a10fbb776ff1e523087710c217c6ec936ed",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/scholastics/",
+          "sha256": "7f59e00667e426795c5fbc4272f9fa6416bb76330932a6f0a5feb20f5e219d86",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/seneca/",
+          "sha256": "5390040b1e993fb801c9e69f4f0da4a118a8767058f18d7368c2cb6e4415dcc8",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/shankara/",
+          "sha256": "5422be1e5e78512e9ef8622369278bc95aa5ae29d458c53bb5cd9a87c7c26ac7",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/theodor-adorno/",
+          "sha256": "864c649252d7816cc39ab18ff7be5bacc695869e383e862e2f46224d3f243fec",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/theodor-w-adorno/",
+          "sha256": "63db6870990b8bc79f4c0cfe938fea6e1d8893dd7dce2bee199b2945cca8e4be",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/walter-benjamin/",
+          "sha256": "e5230323d28864c18db50748841deab4de083872adad95ca5fbe36ad4a3b7d02",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/william-of-ockham/",
+          "sha256": "93a35d28d0630be7148d89ac48537ca3cc7cc9016b849a0d89789a8eeb74015a",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/xunzi/",
+          "sha256": "39a829e02e46ab988b6f09ebb8a1b86ae37f9b4e0203a9dea12afd37ab9f7d72",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/zhuangzi/",
+          "sha256": "4885aca68544c977c482d8cc5f20adab414973f96f6c766880b987e9061f474b",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/aquinas-five-ways/",
+          "sha256": "a6983034b34fe83a02d3b5e278f757419c5edc9fa26e850ff790711b2940b835",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/philosopher-club-membership/",
+          "sha256": "22b51b24c8dc1f7b4a557caed68cd4840a004741eb2951960967e4e0c6595388",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/philosophers-or-philosophy/",
+          "sha256": "ef6d5726160497b46bf67973cd8031112f439bb9578cfcb958139372d5f43587",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/ethics/finite-agency-moral-demand-and-happiness/",
+          "sha256": "c2548ac734108a6afeaa4fa870577136da21b4ae82294371c6fcb13261592912",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophers/philosophical-gradients/",
+          "sha256": "94a173c9fb071e5ca7e89af3000926412c05090751892f65c3e00a9502138f92",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophical-inquiry/dangers-untestable-ideologies/",
+          "sha256": "9b5efd5c8bb38ec7fd8b28e111e99e13798ba5887ea88630108ae6cdd80d6d46",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophy-of-science/observable-regularity/",
+          "sha256": "78af6f6b696bf44c4b93ea6e647e89486ae2efefe5723988ade9183d39460519",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/epistemology/abduction-utility-and-issues/",
+          "sha256": "2fdfb24fd721448a360a6598b79c166898f2c6565426c4dddc79c8ee78c22044",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/ethics/intrinsic-human-value/",
+          "sha256": "0d1529a4273be2f2ceb6e877fb27993944b57151c52fd87ffbb7a6cb9c2fb8f6",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/philosophy-of-language/what-is-etymology/",
+          "sha256": "15a734efe35a9ad3260cf639748ec40fe7ccb71fc6196bf3a9d5e11192996d0e",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/epistemology/avoiding-single-cause-dogmatism/",
+          "sha256": "020d5d18488cf43a24f48a1beee0931ae2a47d81f668e646d6ee53e33f957612",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/epistemology/collapsing-epistemological-terms/",
+          "sha256": "bd028d82dc490b29675e68308aa8f956db5fc5aa4117d16301401ec2688f8a8f",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/rational-thought/perverse-incentives/",
+          "sha256": "30807611b86c871a2217a878e9d4a2e128c7101fb8e3daf897eba0f6630a744c",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/epistemology/doxastic-voluntarism/",
+          "sha256": "ece13d3ad5b581ffbefc3e515a261acbd47b5f455517fdba0e96afe62964af20",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/epistemology/the-burden-of-proof/",
+          "sha256": "76f9890802a32f25713e14fcf83dfcfa69a958dbe407c535a2329af7001cb50f",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/humanistic-philosophies/can-humans-change/",
+          "sha256": "03ab2f42ce8670b10a505378b6c5caeb4e504e13fc9801a07607f7765f390862",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/humanistic-philosophies/do-humans-have-an-essence/",
+          "sha256": "e4f23952a9094b68b4eb61d8b5895ad70dec528e45c2117b67cce19a1720f303",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/epistemology/epistemological-case-studies/",
+          "sha256": "c3007f1807d678b14fec5002a8ed0e1a5bb4b4198f82a1d5d2b2080f0336d50c",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/ethics/moral-black-boxes/",
+          "sha256": "3dfa7e01eda0de918a76a00593c43cd10da6a16795f9480f69ea88bc5a1e9fb7",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/economics/economics-core-concepts/",
+          "sha256": "98076ede3392b2b99233ef95bf0d494b7346097d654cc42f441c2954cc7d5a09",
+          "fullBuildByteIdentical": true
+        },
+        {
+          "pagePath": "/miscellany/complexity-theory/",
+          "sha256": "2e5e384a028a6f28ce5bd82a3c165ac3d7034b144d97feb9379c8bdf7ff4cdfb",
+          "fullBuildByteIdentical": true
+        }
+      ],
+      "log": "Dialectical preservation check passed for all 39 recovered pages, including 17 high-risk regression cases.\nSite audit: pages=840 broken_links=0 duplicate_ids=0 prompt_number_issues=0 orphans=0 oversized_assets=0 style_scars=0 grammar_scars=0 seo_issues=0 json_ld_issues=0 sitemap_issues=0 robots_issues=0\nGenerated or updated 723 content pages.\nVisible hierarchy sections: 15\nExpanded archive years: 2\n",
+      "siteAuditSummary": {
+        "pages_scanned": 840,
+        "broken_links": 0,
+        "duplicate_ids": 0,
+        "repeated_headings": 215,
+        "prompt_number_issues": 0,
+        "orphan_pages": 0,
+        "oversized_assets": 0,
+        "style_scars": 0,
+        "grammar_scars": 0,
+        "seo_issues": 0,
+        "duplicate_titles": 0,
+        "duplicate_descriptions": 0,
+        "json_ld_issues": 0,
+        "sitemap_issues": 0,
+        "robots_issues": 0
+      }
+    },
+    "inheritedModifiedFilesPreserved": 476,
+    "officialTrackerFilesByteIdentical": true,
+    "sourceNegativeControlsRejected": 12,
+    "browser": {
+      "viewport": [
+        1280,
+        720
+      ],
+      "overflow": false,
+      "temporaryTabClosed": true,
+      "mobileTested": false
+    }
+  },
+  "delivery": "Commit and remote confirmation recorded in final response and automation memory."
+}

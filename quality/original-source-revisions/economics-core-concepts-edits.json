@@ -1,0 +1,438 @@
+{
+  "pageFile": "economics/economics-core-concepts/index.html",
+  "wordpressId": 3948,
+  "snapshot": "economics-core-concepts-wordpress-3948.html",
+  "sourceSha256": "641f2da56069188ebd9436c3caa89a62b6b2ee6c04bad5d9b5e854266d8bcd43",
+  "sourceUrl": "http://byteseismic.com/2024/03/19/economics-core-concepts/",
+  "sourceLabel": "Original WordPress post, 2024-03-19",
+  "shellRevision": "ea4a63fdaa48df086bf2151be480a5b3b5912ee7",
+  "date": "2026-10-15",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "Thirty terms in each response",
+    "Fifteen concepts with practical explanations",
+    "Ten equations and their assumptions",
+    "Economics in research, business, and public policy",
+    "Economists’ skills: roughly 1974 to 2024",
+    "Two ten-item quizzes and answer keys",
+    "Fifteen discussion questions from each response"
+  ],
+  "introHeading": "Thirty terms in each response",
+  "intro": "The original conversation moves from terms and concepts to equations, professional practice, changing skills, quizzes, and discussion. All seven prompts and both response tracks are preserved, with editorial corrections. “Today” in the historical comparisons refers to the March 2024 conversation, not a rolling economic forecast.",
+  "description": "Study economic terms, concepts, equations and professional skills through the original seven prompts, separate responses, quizzes and discussion questions.",
+  "highlights": [
+    "Opportunity cost concerns the best alternative forgone, including uses of time.",
+    "Equations need definitions and assumptions: an accounting identity does a different job from a behavioral model.",
+    "Bigger datasets can support better analysis, but do not guarantee accurate forecasts or causal conclusions.",
+    "Modern tools extend a long history of mathematical and empirical economics."
+  ],
+  "replacements": {
+    "1.1.1": "<strong>Economics:</strong> The social science of how people and institutions allocate scarce resources among competing uses, and how those choices affect production, distribution, and consumption. It studies trade-offs; maximizing output is one possible objective, not the definition of the discipline.",
+    "1.1.2": "<strong>Supply and Demand:</strong> The quantities sellers are willing and able to offer and buyers are willing and able to purchase at different prices, holding other relevant conditions fixed. Their interaction helps explain prices and quantities in a market; desire alone is not demand.",
+    "1.1.6": "<strong>Monetary Policy:</strong> Central-bank actions affecting interest rates and monetary and financial conditions in pursuit of goals such as price stability and employment. The tools and mandate vary across institutions; the bank does not precisely control every monetary quantity.",
+    "1.1.8": "<strong>Market Equilibrium:</strong> In the basic competitive model, a price at which quantity supplied equals quantity demanded. With the modeled conditions unchanged, there is no excess demand or supply pushing the price away from that level; stability is a separate question.",
+    "1.1.9": "<strong>Opportunity Cost:</strong> The value of the best alternative forgone when a choice is made. It includes valuable uses of time or resources even when no money changes hands.",
+    "1.1.13": "<strong>Unemployment Rate:</strong> The unemployed share of the labor force, multiplied by 100. Statistical definitions specify job search and availability; some people on temporary layoff count without searching. It is not the percentage of all adults without jobs. See the <a href=\"https://www.bls.gov/cps/definitions.htm\">U.S. Bureau of Labor Statistics definitions</a>.",
+    "1.1.17": "<strong>Elasticity:</strong> The percentage response of one variable to a percentage change in another, under stated conditions. Demand can have price, income, and cross-price elasticities; these measure different relationships.",
+    "1.1.20": "<strong>Balance of Trade:</strong> Exports minus imports over a period. State whether the measure covers goods alone or goods and services. Positive means a surplus; negative means a deficit.",
+    "1.1.25": "<strong>Capitalism:</strong> An economic system in which productive assets are predominantly privately owned and production commonly responds to markets and profit incentives. Actual capitalist economies also have legal institutions, public services, regulation, and unequal market power.",
+    "1.1.26": "<strong>Socialism:</strong> A family of arrangements advocating social ownership or control of major productive resources. State ownership, worker cooperatives, planning, and market allocation appear in different versions; neither one ownership form nor equal outcomes defines every version.",
+    "1.1.27": "<strong>Demand Curve:</strong> A graph of quantities buyers are willing and able to purchase at different prices over a specified period, holding other influences fixed. A change in income or tastes can shift the curve.",
+    "1.1.28": "<strong>Supply Curve:</strong> A graph of quantities sellers are willing and able to offer at different prices over a specified period, holding other influences fixed. A change in input costs or technology can shift the curve.",
+    "1.1.29": "<strong>Diminishing Returns:</strong> Beyond some point, adding more of one input while holding other inputs fixed yields smaller additions to output. Total output may still rise: smaller extra gains do not mean that output itself must fall.",
+    "1.1.30": "<strong>Liquidity:</strong> How readily an asset can be exchanged for cash without a substantial price concession or transaction cost. Liquidity can deteriorate when many holders try to sell at once.",
+    "1.2.1": "<strong>Scarcity:</strong> Available resources cannot satisfy every competing use. Even with modest wants, an hour spent on one activity cannot simultaneously be spent on another; scarcity need not assume literally unlimited desires.",
+    "1.2.3": "<strong>Rational Choice Theory:</strong> A framework that models choices as maximizing a consistent ordering of preferences subject to constraints. The preferences need not be selfish, and the model is an assumption to assess rather than a guarantee about actual behavior.",
+    "1.2.4": "<strong>Demand:</strong> The relationship between prices and quantities consumers are willing and able to buy over a period, with other conditions fixed. A quantity demanded at one price is one point on that relationship.",
+    "1.2.5": "<strong>Supply:</strong> The relationship between prices and quantities producers are willing and able to sell over a period, with other conditions fixed. A quantity supplied at one price is one point on that relationship.",
+    "1.2.7": "<strong>Price Elasticity of Demand:</strong> Percentage change in quantity demanded divided by percentage change in price, other conditions fixed. A magnitude above one means an elastic response; below one means an inelastic response.",
+    "1.2.8": "<strong>Price Elasticity of Supply:</strong> Percentage change in quantity supplied divided by percentage change in price, other conditions fixed. The time available to change production matters.",
+    "1.2.10": "<strong>Externality:</strong> A cost or benefit of an activity borne by others that is not fully reflected in the chooser’s incentives or compensated through the relevant exchange. Pollution affecting nearby residents is a standard example.",
+    "1.2.11": "<strong>Public Good:</strong> A good that is non-rival in consumption and difficult to exclude nonpayers from using, such as national defense. These properties concern use and access; public funding alone does not make something a public good.",
+    "1.2.21": "<strong>Unemployment:</strong> Joblessness meeting the statistical criteria for availability and job search, with specified exceptions such as temporary layoff. People outside the labor force are distinct from those counted as unemployed.",
+    "1.2.22": "<strong>Business Cycle:</strong> Fluctuations of aggregate economic activity through expansions and contractions. The timing and duration are irregular; “cycle” does not mean a fixed timetable.",
+    "1.2.25": "<strong>Central Bank:</strong> The institution responsible for a currency area’s monetary policy and usually important payment-system or financial-stability functions. Legal ownership and independence vary. The Federal Reserve is the U.S. central bank.",
+    "1.2.28": "<strong>Socialism:</strong> A family of systems emphasizing social ownership or control of productive resources. Central planning is one version; others use markets or worker-managed firms.",
+    "1.2.29": "<strong>Communism:</strong> In its theoretical ideal, a classless society with productive resources held in common. This differs from the historical arrangements of states governed by communist parties; common ownership of production does not simply mean abolishing every personal possession.",
+    "2.1.1": "<strong>Scarcity:</strong> Resources have competing uses that cannot all be satisfied. A town with one available building may have to choose between a library and a clinic. The point is the constraint, even if both demands are finite and reasonable.",
+    "2.1.2": "<strong>Opportunity Cost:</strong> The value of the best alternative forgone. If an evening’s best alternative to a paid shift is studying, its opportunity cost includes that study time. Do not add together every rejected alternative: they could not all have been chosen.",
+    "2.1.3": "<strong>Demand and Supply:</strong> Demand describes quantities buyers are willing and able to buy at different prices; supply describes quantities sellers are willing and able to offer. A price change moves along a fixed curve. A change in income, preferences, costs, or technology can shift a curve and change the modeled equilibrium.",
+    "2.1.4": "<strong>Elasticity:</strong> The ratio of percentage changes measures responsiveness without depending on units. If a small 1% price rise is associated with a 2% fall in quantity demanded, with other influences fixed, demand elasticity is approximately −2, often reported by its magnitude, 2.",
+    "2.1.6": "<strong>Market Equilibrium:</strong> A price and quantity at which buyers’ and sellers’ plans agree in the model. This removes excess-demand or excess-supply pressure under fixed conditions. It does not establish that the outcome is fair, that all needs are met, or that a disturbed market returns to it.",
+    "2.1.7": "<strong>Inflation:</strong> A rise in a broad price level over time. It reduces what a fixed amount of money buys; a household’s real purchasing power also depends on its income. One item becoming more expensive does not by itself establish general inflation.",
+    "2.1.8": "<strong>Gross Domestic Product (GDP):</strong> The value of final goods and services produced within an economy over a period. Real GDP adjusts for price changes; comparisons of living standards also require attention to population, purchasing power, distribution, and activities GDP omits. GDP is not a complete welfare measure.",
+    "2.1.9": "<strong>Monetary Policy:</strong> Central-bank actions alter borrowing conditions and incentives to spend or save. Effects on output, employment, and inflation depend on how households, firms, and banks respond; monetary policy is not a dial that sets those outcomes exactly.",
+    "2.1.11": "<strong>Comparative Advantage:</strong> Producing at lower opportunity cost. If one worker gives up two loaves to make a cake while another gives up four, the first has a comparative advantage in cakes, even if the second produces more of both goods per hour. Specialization can create gains from trade; how those gains are shared is a further question.",
+    "2.1.13": "<strong>Public Goods:</strong> Goods for which one person’s use does not reduce another’s and exclusion is difficult. National defense is a standard example. A park can be crowded or gated, so it is not automatically a pure public good. Difficulty collecting payment can lead to underprovision; compare public, collective, and private funding arrangements.",
+    "2.1.14": "<strong>Business Cycle:</strong> Irregular expansions and contractions in aggregate activity. Several mechanisms, including demand changes, supply disruptions, financial conditions, and policy responses, can contribute. Calling a downturn part of a cycle does not explain its cause.",
+    "2.1.15": "<strong>Unemployment Rate:</strong> The unemployed percentage of the labor force, using the statistical rules stated above. Frictional unemployment concerns job transitions, structural unemployment concerns mismatches, and cyclical unemployment concerns weak aggregate demand. The rate alone misses some hardship, including people who want work but are no longer searching.",
+    "2.2.1": "<strong>Scarcity:</strong> Limited resources force choices among competing uses. A fixed public budget can support more of one service only by reducing another use or finding additional resources. This holds without assuming that every person’s wants are unlimited.",
+    "2.2.2": "<strong>Opportunity Cost:</strong> The value of the next best alternative forgone. If studying is your best alternative to a movie, the foregone benefit of studying is the opportunity cost of that use of your evening. If another activity is the better alternative, use that instead.",
+    "2.2.3": "<strong>Demand:</strong> Quantities consumers are willing and able to buy at different prices, with other influences fixed. Quantity demanded usually falls as price rises. A luxury good is defined by its response to income, so luxury status alone is not an exception to this price relationship.",
+    "2.2.4": "<strong>Supply:</strong> Quantities producers are willing and able to sell at different prices, with other influences fixed. Higher prices can make additional production worthwhile. Capacity limits and the time available to respond affect the size of the change.",
+    "2.2.5": "<strong>Market Equilibrium:</strong> A price where quantity demanded equals quantity supplied. In the basic model there is no pressure from an excess on either side to change that price, provided the underlying conditions stay fixed.",
+    "2.2.6": "<strong>Price Elasticity of Demand:</strong> Percentage responsiveness of quantity demanded to price. A magnitude below one is inelastic; above one is elastic. Gasoline demand may respond little immediately but more over time as drivers change vehicles or travel habits. Elasticity depends on substitutes, time, and the market being measured.",
+    "2.2.10": "<strong>Public Good:</strong> A good with non-rival use and difficult exclusion. National defense is a standard example. The free-rider problem arises when a person can benefit without paying, which can discourage voluntary provision even when collective benefits exceed costs.",
+    "2.2.11": "<strong>Competition:</strong> Rivalry among suppliers or buyers over terms of exchange. It can affect prices, quality, and innovation. Perfect competition is a more restrictive benchmark with many price-taking firms, identical products, and free entry and exit; actual competition need not meet all those assumptions.",
+    "2.2.15": "<strong>Gross Domestic Product (GDP):</strong> The value of final production within an economy over a period, commonly a quarter or year. Real GDP tracks output after adjustment for price changes. It does not by itself tell us how output is distributed or whether well-being improved.",
+    "3.1.0": "There is no agreed top ten for every branch of economics. The following ten introductory equations retain the original selection. Some are accounting identities, others are conditional models; their usefulness depends on the definitions and assumptions stated with them.",
+    "3.1.2": "Here D(Q) and S(Q) are <em>inverse</em> demand and supply functions: each returns a price for quantity Q. At the equilibrium quantity Q*, both equal P*. If instead the functions return quantities at a given price, write Qd(P*) = Qs(P*). Mixing those two notations would equate unlike quantities.",
+    "3.1.4": "C is household consumption, I gross private domestic investment including inventory change, G government consumption and investment, and X − M exports minus imports. Transfers are not government purchases. Imports are subtracted to remove foreign production already included in spending categories. This is the <a href=\"https://www.bea.gov/help/glossary/expenditures-approach\">expenditure accounting identity</a>, not a causal law saying that every extra dollar of one component raises GDP without other changes.",
+    "3.1.6": "This ratio measures percentage responsiveness of quantity demanded to price, holding other influences fixed. It is usually negative for downward-sloping demand, though often reported as an absolute value. For a finite interval, specify the percentage convention, such as midpoint percentages; for a local measure use (dQ/dP)(P/Q).",
+    "3.1.8": "Δ means change. The ratio gives additional cost per additional unit over the interval; when ΔQ = 1 it is the cost of that extra unit. For a smooth cost function, local marginal cost is dTC/dQ. It informs an output decision only alongside revenue and the relevant constraints.",
+    "3.1.10": "The triangle formula applies to a straight-line demand curve with price-axis intercept P_max and quantity Q purchased at price P. Generally, consumer surplus is the area below demand and above price, up to Q. For example, Q = 10, P_max = 12 and P = 8 give CS = 20, not 40.",
+    "3.1.12": "This triangle formula assumes a straight-line supply curve starting at price P_min when quantity is zero. More generally, producer surplus is the area above supply and below price. It is not generally profit: fixed costs still need to be accounted for. With Q = 10, P = 8 and P_min = 4, the triangular surplus is 20.",
+    "3.1.14": "A is the accumulated amount, P the principal, r the interest rate per period, and t the number of matching periods. This is simple interest: interest is not reinvested. For annual compounding the corresponding expression is A = P(1 + r)^t. Here P denotes principal, unlike the price variable in earlier equations.",
+    "3.1.15": "<strong>Net Present Value:</strong> NPV = Σ(t = 1 to T)[C_t / (1 + r)^t] − C_0",
+    "3.1.16": "C_t is the net cash flow at the end of period t, C_0 the initial outlay, and r a discount rate for the same period. The sum begins at 1 so the outlay is not counted twice. The result depends on cash-flow forecasts, risk assumptions, and consistent treatment of inflation; it does not guarantee a return.",
+    "3.1.18": "Y is output, K capital, L labor, A a productivity parameter, and α the output elasticity of capital. This version assumes exponents α and 1 − α with 0 &lt; α &lt; 1, so scaling both inputs by the same factor scales output by that factor. Constant returns to scale is a model assumption, not a universal production law.",
+    "3.1.19": "<strong>Simple Deposit Multiplier:</strong> m = 1 / rr, for 0 &lt; rr ≤ 1",
+    "3.1.20": "In a stylized banking-system exercise, rr is a fixed reserve fraction. With all loans redeposited, no cash leakage, no excess reserves, and enough willing borrowers, an initial reserve addition ΔR can support total deposits ΔD = ΔR/rr. This is a system-wide limiting calculation, not money a single bank can lend without constraints. The <a href=\"https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy\">Bank of England’s 2014 explanation</a> rejects it as a mechanical account of modern money creation: lending creates deposits, subject to monetary, funding, risk, and regulatory constraints.",
+    "3.1.21": "Use the equations by first identifying their job: an identity organizes measured quantities, a behavioral model makes assumptions, and a valuation formula depends on inputs and timing. Arithmetic can be correct while the model is unsuitable.",
+    "3.2.10": "U represents a ranking of consumption bundles X₁, X₂, and so on. In the standard model, a consumer chooses the highest-ranked affordable bundle. Utility numbers need not measure happiness in physical units or be comparable across people.",
+    "3.2.15": "For discrete changes, ΔTC/ΔQ is extra cost per extra unit; a differentiable function has local MC = dTC/dQ. An interior profit maximum may satisfy MC = marginal revenue, but equality alone is not sufficient: compare boundary choices and verify that the point is a maximum.",
+    "3.2.18": "This schematic relationship describes planned spending on domestic output at different overall price levels P. C, I, G, and NX denote consumption, investment, government purchases, and net exports. It includes businesses, government, and foreign buyers, not just household demand. It is a behavioral schedule, unlike the realized GDP accounting identity below.",
+    "3.2.20": "Y_s is total output supplied; P is the overall price level. This is a schematic function, not a universal formula. Its shape depends on the time horizon and assumptions about wages, prices, and capacity. The short-run curve may slope upward; a common long-run benchmark relates output to real productive capacity.",
+    "3.2.22": "Divide those classified as unemployed by the employed plus unemployed, then multiply by 100. Use the statistical criteria consistently, including availability, active search, and temporary-layoff exceptions. Someone outside the labor force is not counted in either part of that denominator.",
+    "3.2.24": "This identity totals expenditure on domestic final production. C is consumption, I gross investment including inventory changes, G government purchases rather than transfers, and NX exports minus imports. Use price-adjusted GDP to compare output through time. Planned aggregate demand can differ from realized expenditure, for example through unplanned inventory changes.",
+    "4.1.0": "Read “today” as the context of this March 2024 conversation. Economics spans academic research, public administration, and business practice. Researchers ask how choices interact under particular institutions, why outcomes differ, and what changes a policy might cause. A wage study, for example, must distinguish the effect of training from the prior differences between people who do and do not enroll.",
+    "4.1.1": "Behavioral economics studies departures from simple choice assumptions, while network approaches examine who interacts with whom. Larger administrative and digital datasets permit questions that were previously difficult to investigate. Yet more observations can measure a biased relationship very precisely: credible comparisons and checks on measurement still matter.",
+    "4.1.2": "In industry, economists contribute to demand forecasts, pricing, competition analysis, investment evaluation, and risk assessment. A retailer estimating how sales respond to price must distinguish a price effect from seasonal demand or a simultaneous promotion. Those distinctions connect the introductory concepts above to decisions with practical consequences.",
+    "4.1.3": "In finance, economists analyze economic conditions and risks. In the public sector, they evaluate taxation, health, education, and environmental policies. Forecasting what may happen, estimating what caused a change, and deciding which outcome is desirable are different tasks. Distributional judgments require stating whose gains and losses count.",
+    "4.1.4": "Collaboration with psychologists, political scientists, public-health researchers, and environmental scientists can improve the assumptions behind economic models. The <a href=\"https://www.nobelprize.org/prizes/economic-sciences/2019/press-release/\">2019 prize for experimental work on poverty</a> illustrates one established line of this work: testing specific interventions rather than assuming that a plausible policy will work everywhere.",
+    "4.1.5": "Disagreements concern methods, institutional assumptions, distribution, and whose experiences the data capture. Researchers also face obligations to make results checkable while protecting confidential records. Publishing an impressive estimate is not enough if others cannot understand how it was produced.",
+    "4.1.6": "The field therefore combines theory, measurement, and institutional knowledge. Its strength is conditional explanation: stating what a result depends on, testing alternatives, and making uncertainty visible. This overview describes professional work, not the current state of any particular national economy.",
+    "4.2.1": "In the March 2024 setting of the original question, the following themes connect academic research with practical work. These are examples of an established research landscape, not a ranking of the newest discoveries.",
+    "4.2.3": "<strong>Inequality and Sustainability:</strong> Researchers study how gains are distributed and how production affects future resources and environmental conditions. These concerns have long histories; they supplement questions about growth and efficiency rather than replace them.",
+    "4.2.4": "<strong>Behavioral Economics:</strong> Experiments and models examine how attention, framing, beliefs, and social motives shape decisions. The <a href=\"https://www.nobelprize.org/prizes/economic-sciences/2002/press-release/\">2002 prize recognized psychological and experimental contributions</a>. Changing a form or default can affect choices, but a beneficial effect must be demonstrated and its ethical implications assessed.",
+    "4.2.5": "<strong>Data Science:</strong> Large datasets and computation make it possible to investigate detailed patterns. Prediction on new data and credible causal inference are separate tests; data volume by itself establishes neither.",
+    "4.2.6": "<strong>Development Economics:</strong> Researchers investigate institutions, education, health, financial access, and poverty. The experimental approaches recognized in 2019 compare concrete interventions. Whether a result transfers to a different population or institution remains an empirical question.",
+    "4.2.8": "<strong>Economic Impact Assessments:</strong> Businesses model how a price change, product launch, or market entry could affect demand and costs. Useful assessments compare alternatives and expose uncertainty; they do not guarantee higher profits.",
+    "4.2.9": "<strong>Risk Management:</strong> Models explore exposure to inflation, currency movements, and changes in demand. Stress tests ask how plans fare under adverse assumptions. A model helps identify vulnerabilities but cannot ensure financial stability.",
+    "4.2.11": "<strong>Policy Analysis:</strong> Firms assess proposed rules and may advocate for their interests. Such an analysis should distinguish effects on the firm from effects on consumers, competitors, workers, and the public.",
+    "4.2.16": "Across these applications, a useful analysis states its question, data, assumptions, and limits. A good forecast is not automatically a causal explanation, and a profitable decision is not automatically a socially desirable one.",
+    "5.1.0": "For this March 2024 question, “50 years ago” means roughly 1974. The comparison varies by specialty and country, so there is no single typical economist. The clearest changes concern access to computing, kinds of data, and reproducible workflows, alongside continued needs for mathematical and institutional judgment.",
+    "5.1.2": "<strong>Roughly 1974:</strong> Quantitative economics already used digital computers and sophisticated statistical models. <a href=\"https://www.nobelprize.org/prizes/economic-sciences/1969/tinbergen/lecture/\">Tinbergen’s 1969 lecture</a> discusses estimating and testing economic models. Computing was less accessible and convenient than on later personal machines, but it is misleading to portray the field as mainly manual or analog calculation.",
+    "5.1.3": "<strong>By 2024:</strong> Many empirical economists worked with statistical software and languages such as Stata, R, Python, or MATLAB. The required combination depends on the job. Writing reusable analysis code and documenting how results were produced are often as important as running a complex model.",
+    "5.1.5": "<strong>Roughly 1974:</strong> Surveys, administrative records, national accounts, and time series already supported empirical research. Storage, processing costs, and access constrained the scale and speed of analysis, without making earlier statistical reasoning inherently crude.",
+    "5.1.6": "<strong>By 2024:</strong> Linked records and digital traces could support much larger analyses. Researchers still needed to handle missing data, selection, privacy, and changing measurement. More complex models do not automatically yield more accurate predictions or valid causal conclusions.",
+    "5.1.8": "<strong>Roughly 1974:</strong> Connections to mathematics, statistics, psychology, history, and politics already existed. The balance differed among research traditions; an isolated, purely theoretical past would be a caricature.",
+    "5.1.9": "<strong>By 2024:</strong> Behavioral research, computational methods, and environmental applications offered prominent opportunities for collaboration. Useful collaboration requires learning enough about the other field to avoid importing an unsuitable assumption, not simply adding its vocabulary.",
+    "5.1.11": "<strong>Roughly 1974:</strong> Economists already worked on policy, business, development, industry, health, and environmental questions. New applications extend that history rather than mark the beginning of practical economics.",
+    "5.1.12": "<strong>By 2024:</strong> Digital platforms, online experiments, and climate-policy analysis created new settings and data demands. Work might require understanding an auction’s rules, how a platform records behavior, or what a climate model can support.",
+    "5.1.14": "<strong>Roughly 1974:</strong> Equilibrium and rational-choice models were influential, alongside macroeconometric, institutional, and other approaches. Both theory and observation mattered; no one description captures the whole profession.",
+    "5.1.15": "<strong>By 2024:</strong> Laboratory and field experiments, natural-experiment designs, and simulations were established tools in parts of the field. Choosing among them requires matching a method to the question and identifying what would invalidate the inference.",
+    "5.1.17": "<strong>Roughly 1974:</strong> Trade, development, currencies, and international finance were already substantial specialties. It would be wrong to describe economists as interested only in national economies.",
+    "5.1.18": "<strong>By 2024:</strong> Research on cross-border production and finance could require detailed knowledge of international networks and data. The needed depth remained role-dependent: a trade specialist and a local labor-market analyst need not have identical expertise.",
+    "5.1.19": "The contrast is an expanded and more accessible toolkit, with stronger expectations for transparent analysis in many settings. The enduring skills are defining a question, understanding institutions, testing assumptions, and explaining limits. No software replaces them.",
+    "5.2.0": "Taking “today” as March 2024 and the comparison point as roughly 1974, the following distinctions describe changing tasks without treating all economists as alike.",
+    "5.2.2": "<strong>Historical Evidence and Forecasting:</strong> Economists in both periods used past observations to study present conditions and possible futures. Digital data can now shorten the delay between an event and its measurement; that does not eliminate revisions or forecasting error.",
+    "5.2.3": "<strong>Growth, Distribution, and Sustainability:</strong> These questions coexist and have long histories. A climate-policy analyst may need to connect output, emissions, adaptation costs, and distribution. A model should make the trade-offs visible rather than promise inclusive and sustainable growth by definition.",
+    "5.2.5": "<strong>Data Access and Scale:</strong> Larger datasets and cheaper computation widen the range of feasible analyses. But a large unrepresentative sample can still mislead. Researchers must understand how observations were collected and which people or activities are missing.",
+    "5.2.6": "<strong>Theory and Evidence:</strong> Earlier economics was not devoid of empirical research. Later experimental and causal methods add ways to test mechanisms and estimate effects. The key skill is constructing a convincing comparison, not choosing “data” over “theory.”",
+    "5.2.8": "<strong>Mathematics, Statistics, and Programming:</strong> Mathematical reasoning remains important, while many empirical jobs also require programming, data management, and clear visual presentation. The tool serves the question; proficiency in every package is neither necessary nor universal.",
+    "5.2.9": "<strong>Communication and Collaboration:</strong> Economists need to explain assumptions and uncertainty to specialists and nonspecialists. A concrete institutional example is the American Economic Association’s <a href=\"https://www.aeaweb.org/journals/data/archive\">archived data and code policies</a>, including its 2019 policy: documented data and code help others check published analyses.",
+    "5.2.10": "The strongest practitioner can connect economic reasoning with trustworthy evidence and communicate what remains unknown. Adaptability matters because datasets, tools, and institutions change, while an impressive calculation can still answer the wrong question.",
+    "6.1.0": "Here is a ten-item quiz covering the terms, concepts, equations, professional applications, and historical comparison above. Answers follow the questions.",
+    "6.1.6": "<strong>True or False:</strong> Diminishing marginal returns necessarily mean that total output falls when another unit of an input is added.",
+    "6.1.8": "A) The sum of all rejected alternatives",
+    "6.1.9": "B) Only the cash paid",
+    "6.1.10": "C) The value of the best alternative forgone",
+    "6.1.11": "D) A cost that has already been incurred and cannot be recovered",
+    "6.1.14": "A) Every consumer has the same income",
+    "6.1.15": "B) Demand is vertical",
+    "6.1.16": "C) Demand is a straight line with the stated price intercept",
+    "6.1.17": "D) The product has no substitutes",
+    "6.1.20": "A) Every transfer payment",
+    "6.1.21": "B) Government consumption and investment purchases",
+    "6.1.22": "C) All private share purchases",
+    "6.1.23": "D) Imports alone",
+    "6.1.24": "<strong>Short Answer:</strong> What evidence in the discussion contradicts the claim that economics around 1974 was merely theoretical or based on manual arithmetic?",
+    "6.1.25": "<strong>True or False:</strong> Every economist needs the same depth of expertise in international trade and finance.",
+    "6.1.27": "A) It proves a single bank can lend without funding constraints",
+    "6.1.28": "B) It is a stylized system-wide calculation under restrictive assumptions",
+    "6.1.29": "C) It guarantees that every reserve addition produces the predicted deposits",
+    "6.1.30": "D) It establishes that monetary policy never matters",
+    "6.1.35": "Diminishing marginal returns mean smaller additions to output, not necessarily a fall in total output.",
+    "6.1.36": "C) The value of the best alternative forgone",
+    "6.1.37": "The best forgone alternative can involve time and nonmonetary benefits. Adding all rejected alternatives overstates the sacrifice.",
+    "6.1.38": "<strong>Short Answer:</strong> Researchers can process larger, more detailed or timely datasets and repeat complex analyses more readily. Data quality, causal identification, and forecasting accuracy still require separate checks.",
+    "6.1.39": "C) Demand is a straight line with the stated price intercept",
+    "6.1.40": "The triangle measures the area below a straight demand curve and above the price. A differently shaped curve generally requires a different area calculation.",
+    "6.1.43": "B) Government consumption and investment purchases",
+    "6.1.44": "G excludes transfer payments as purchases of current production. Spending by transfer recipients may later appear in another component.",
+    "6.1.45": "<strong>Short Answer:</strong> Tinbergen’s 1969 lecture discusses estimating and testing economic models against observations. Empirical modeling and digital computation predated modern desktop tools.",
+    "6.1.46": "False",
+    "6.1.47": "The necessary expertise depends on the role. Trade specialists and local labor-market analysts need not have the same specialization.",
+    "6.1.49": "Its assumptions include redepositing loans, no currency leakage or excess reserves, and willing borrowers. It is not a mechanical account of modern lending.",
+    "6.2.1": "Which statement accurately describes the research themes above?<br/>a) Growth, distribution, behavior, and sustainability can all be studied.<br/>b) Efficiency no longer matters.<br/>c) Inequality had never been studied before 2024.<br/>d) Technology has removed the need for theory.",
+    "6.2.2": "How can large datasets improve economic research?<br/>a) They can permit more detailed analysis, but accuracy and causal validity still require testing.<br/>b) They remove all sampling bias.<br/>c) They eliminate the need to understand collection methods.<br/>d) They make theory irrelevant.",
+    "6.2.4": "What is a reasonable comparison between roughly 1974 and 2024?<br/>a) Economists in 2024 no longer use theory.<br/>b) Economists in 1974 did no empirical work.<br/>c) More accessible computing widened the toolkit for many empirical economists.<br/>d) Every economist must master every programming language.",
+    "6.2.5": "Which example directly applies economics to a business decision?<br/>a) Listing the dates of past bubbles without an analytical question.<br/>b) Estimating customers’ response to a price change to evaluate a marketing strategy.<br/>c) Copying a policy document without assessing its effects.<br/>d) Assuming more data guarantees a correct forecast.",
+    "6.2.7": "What does aggregate demand describe?<br/>a) One firm’s production costs.<br/>b) Planned spending on domestic output by households, firms, government, and foreign buyers at different price levels.<br/>c) The number of unemployed people.<br/>d) The value of an economy’s past production regardless of planned spending.",
+    "7.1.2": "When do programming skills improve an economist’s work, and which tasks require other forms of expertise?",
+    "7.1.7": "Which problems in large datasets are new in scale or form, and which resemble older problems of selection and measurement?",
+    "7.1.8": "How can improved computing and data expand economic forecasting without guaranteeing greater accuracy?",
+    "7.2.1": "How should economists weigh growth, distribution, and sustainability when those objectives conflict? Explain the value judgments involved.",
+    "7.2.13": "Under what conditions can trade agreements promote growth, and how should their gains, losses, and adjustment costs be assessed?",
+    "6.1.7": "Multiple Choice: What is opportunity cost?",
+    "6.1.13": "Multiple Choice: What assumption permits the triangular consumer-surplus formula?",
+    "6.1.19": "Multiple Choice: Which item belongs in G in the GDP expenditure identity?"
+  },
+  "countChecks": [
+    {
+      "name": "1.1.ol list counts",
+      "selector": "#prompt-1 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        30
+      ]
+    },
+    {
+      "name": "1.2.ol list counts",
+      "selector": "#prompt-1 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        30
+      ]
+    },
+    {
+      "name": "2.1.ol list counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    },
+    {
+      "name": "2.2.ol list counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    },
+    {
+      "name": "3.1.ol list counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "3.1.ul list counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"1\"] ul",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "3.2.ol list counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        3,
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "name": "3.2.ul list counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "4.2.ul list counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        4,
+        4,
+        3
+      ]
+    },
+    {
+      "name": "5.1.ul list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"1\"] ul",
+      "child": "li",
+      "expected": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "5.2.ul list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "6.1.ol list counts",
+      "selector": "#prompt-6 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        1,
+        2,
+        2,
+        2,
+        3,
+        1,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "name": "6.1.ul list counts",
+      "selector": "#prompt-6 .original-response[data-source-column=\"1\"] ul",
+      "child": "li",
+      "expected": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "6.2.ol list counts",
+      "selector": "#prompt-6 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        10,
+        10
+      ]
+    },
+    {
+      "name": "7.1.ol list counts",
+      "selector": "#prompt-7 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    },
+    {
+      "name": "7.2.ol list counts",
+      "selector": "#prompt-7 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    }
+  ],
+  "responseDecisions": {
+    "1.1": "Retained all thirty original terms/order; corrected opportunity cost, trade-balance sign, diminishing returns, unemployment, supply/demand, monetary policy, economic systems and liquidity. Retained accurate basic definitions.",
+    "1.2": "Retained thirty terms/order; clarified rational choice, demand versus quantity, proportional elasticity, public goods, statistical unemployment, irregular cycles and alternative forms of socialism.",
+    "2.1": "Preserved fifteen concepts; developed town-building, evening-time, elasticity and comparative-advantage examples; distinguished GDP/welfare, marginal/total output, equilibrium/stability and public ownership/public-good properties.",
+    "2.2": "Preserved fifteen concepts; corrected luxury-good exception, scarce-resource claim and price response; retained effective supply-time-horizon, externality, monopoly and micro/macro explanations.",
+    "3.1": "Retained ten equations in order. Defined inverse demand; corrected GDP components, surplus triangles, finite/local marginal cost, NPV bounds and multiplier assumptions. Clarified simple versus compound interest and constant returns. Repaired repeated list numbering.",
+    "3.2": "Retained ten equations and grouped structure. Distinguished utility ranking from measured happiness, MC=MR condition from sufficient optimum, planned AD from GDP identity, and short/long-run supply assumptions.",
+    "4.1": "Preserved seven-paragraph progression from academia through industry/public policy to interdisciplinary and methodological issues. Replaced promotional claims with concrete estimation tasks, dated 2024 scope and uncertainty.",
+    "4.2": "Kept all academia/industry/challenges lists. Removed unprecedented-accuracy and profit/stability promises; added dated research examples, credible comparisons and distinction between firm interests and public effects.",
+    "5.1": "Kept six historical comparison pairs and summary. Anchored 1974–2024; corrected manual/analog, no-empirical-past and newly-invented-fields caricatures. Skills vary by role and do not guarantee inference.",
+    "5.2": "Preserved Focus/Toolset/Skillset progression. Corrected past-versus-future and theory-versus-data dichotomies; documented reproducibility policy, data bias and role-specific skills.",
+    "6.1": "Preserved ten questions, option counts and ten keys. Broadened narrow skills-only quiz to cover the full thread; checked every answer, fixed unsupported universality and numbered fragmented lists consecutively.",
+    "6.2": "Preserved ten multiple-choice questions; corrected no-valid-answer items 1 and 7, big-data guarantee and ambiguous industry example. Added explicitly labeled missing ten-answer key after source quiz.",
+    "7.1": "Fifteen questions retained in order; three adjusted to remove universal skill and automatic accuracy premises. Twelve verbatim.",
+    "7.2": "Fifteen questions retained in order; two adjusted to invite trade-offs and conditional trade effects. Thirteen verbatim."
+  },
+  "leadingTextReplacements": {
+    "6.1.26": "Multiple Choice: Which statement about the simple deposit multiplier is accurate?",
+    "3.2.17": "Aggregate Demand (AD): AD(P) = C(P) + I(P) + G + NX(P), with other determinants held fixed",
+    "3.2.19": "Aggregate Supply (AS): Y_s = f(P; wages, technology, resources, expectations)",
+    "6.1.48": "B) It is a stylized system-wide calculation under restrictive assumptions"
+  },
+  "orderedListStarts": {
+    "3.1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "6.1": [
+      1,
+      2,
+      4,
+      6,
+      8,
+      1,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      10
+    ]
+  },
+  "responseAppendices": {
+    "6.2": [
+      "<h4>Answers · editorial addition</h4><ol><li>a — These research themes coexist.</li><li>a — More data can enable analysis without guaranteeing validity.</li><li>c — Modeling an interconnected economy is difficult.</li><li>c — Computing access and tools expanded.</li><li>b — Demand estimation can inform a pricing or marketing decision.</li><li>b — Behavioral economics studies psychological and social influences on choice.</li><li>b — Aggregate demand includes all the listed sources of planned spending.</li><li>d — Collection and use of data can compromise privacy.</li><li>c — Market failure concerns inefficient allocation under the relevant criterion.</li><li>a — Non-rival use and difficult exclusion define a public good.</li></ol>"
+    ]
+  },
+  "pageSignals": {
+    "Page form": "Original conversation · editorial edition"
+  }
+}
