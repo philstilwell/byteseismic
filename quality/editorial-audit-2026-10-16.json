@@ -1,0 +1,331 @@
+{
+  "date": "2026-10-16",
+  "recordedAt": "2026-10-16T13:13:50.204021+00:00",
+  "savedModelConfiguration": {
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "runtimeModelIndependentlyVerified": false
+  },
+  "cycle": 8,
+  "savedIndex": 100,
+  "currentBatchReviewed": 22,
+  "currentBatchPending": 28,
+  "sourceBlocked": 0,
+  "restartedPassSubstantivelyReviewed": 122,
+  "restartedPassNotYetReviewed": 224,
+  "officialCompletedBatchPages": 100,
+  "officialRemaining": 246,
+  "trackerAdvanced": false,
+  "nextPending": "/epistemology/belief-evidence-graphic/",
+  "nextAfterPending": "/epistemology/pascals-wager/",
+  "followingBatchFirst": "/ethics/what-are-ethics/",
+  "noLaterBatchActivated": true,
+  "pages": [
+    {
+      "pagePath": "/philosophical-inquiry/personal-truth/",
+      "sourceSha256": "e39b7c3d857156b1176d206e7c36c07da003ccb83b76d34b0049c3811f728f16",
+      "originalPrompts": 6,
+      "originalHeadings": 4,
+      "sourceColumns": 8,
+      "modelResponses": 8,
+      "blocksRetainedVerbatim": 81,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 78,
+      "bareAnswersExplicitlyRevised": 0,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "1.1.ol source counts": [
+          4
+        ],
+        "1.1.ul source counts": [
+          2
+        ],
+        "2.1.ol source counts": [
+          8
+        ],
+        "2.1.ul source counts": [
+          4
+        ],
+        "2.2.ol source counts": [
+          2,
+          2
+        ],
+        "2.2.ul source counts": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          1,
+          1
+        ],
+        "3.1.ol source counts": [
+          8
+        ],
+        "3.2.ol source counts": [
+          8,
+          8
+        ],
+        "3.2.ul source counts": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "4.1.ol source counts": [
+          10
+        ],
+        "4.2.ol source counts": [
+          10
+        ]
+      },
+      "sha256": "bd70042b0cb056fa334585785ce897f8968b73c9406cbd97335285aca05ae6d3",
+      "verifiedAt": "2026-10-16T13:10:50.118646+00:00",
+      "source": {
+        "cache": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 556,
+        "title": "Personal Truth?",
+        "url": "http://byteseismic.com/2024/02/12/personal-truth/",
+        "snapshot": "personal-truth-wordpress-556.html",
+        "fullSourceRead": true,
+        "fullCurrentEditionRead": true,
+        "urlTitleAndAllPromptsMatched": true,
+        "allOriginalH2Texts": [
+          "Given truth is an objective correspondence between a statement and reality, can subjective humans coherently claim, “I have my truth, and you have your truth”?",
+          "What would be a more coherent way to express what is presumably meant when individuals say, “I have my truth, and you have your truth”?",
+          "Can you list other problematic statements about truth and provide better expressions of the sentiment they are trying to reflect?",
+          "I’d like to take issue with your suggestion that the following statement is coherent:",
+          "Create an 8-item quiz based on our discussion of truth above with answers at the end.",
+          "Provide 10 discussion questions relevant to our exchange on the notion of truth."
+        ],
+        "modelLogoOrder": [
+          "ai-logos-chatgpt",
+          "ai-logos-gemini"
+        ],
+        "preamble": "Original highlights and source contents read; replaced with labeled edited summary and prompt navigation."
+      },
+      "responseDecisions": {
+        "1.1": "Revised full argument without changing its headings/list structure: fixed truth/evidence and experience/reality conflations, qualified relativism inference, added meeting and experience/intention examples. Kept curator’s stipulated correspondence stance.",
+        "1.2": "Kept three interpretations in order; corrected only-one-description and subjective-knowledge claims. Explained fallible access versus truth and supplied a concrete clarification question.",
+        "2.1": "Retained four opening alternatives verbatim and the embedded follow-up verbatim/in place. Revised eight statement/repair pairs, especially all truths, unchanging facts, and facts as evidence. Retained temperature distinction from effective current material, integrated into the actual response.",
+        "2.2": "Retained original challenged suggestion, exact objection heading, quoted sentence and full curator correction. Explained original mistake in place and supplied corrected wording. Kept four intent categories and nested response structure; removed self-training promise and ownership-based confusion.",
+        "3.1": "Eight questions/three options each and eight end keys. Corrected universal framing and all-truths ambiguity; preserved remaining relevant questions and visible line breaks.",
+        "3.2": "Eight questions/four options each/eight keys. Replaced unrelated asymptotic-approximation, ideology and fact-checking-site items with actual exchange content; bounded epistemic limitations. Verified keys d,c,b,c,b,d,b,c.",
+        "4.1": "Ten questions in original order; nine verbatim. Changed provisional knowledge to provisional assessments to avoid factive ambiguity.",
+        "4.2": "Ten questions in order; seven verbatim. Clarified rights versus correctness, theory versus access, and meaning versus accuracy; retained critical questions rather than requiring agreement."
+      },
+      "allPromptsInSourceOrderIncludingEmbedded": true,
+      "sourceBlocksWithChangedText": 74,
+      "sourceBlocksTextVerbatim": 85,
+      "negativeControlsRejected": [
+        "changed prompt",
+        "missing source response",
+        "missing embedded correction",
+        "altered curator correction"
+      ],
+      "manualChecks": {
+        "embeddedFollowups": 2,
+        "fullCuratorCorrectionAndChallengedQuoteVerbatim": true,
+        "responseColumns": 8,
+        "responseSegments": 10,
+        "quizQuestionCounts": [
+          8,
+          8
+        ],
+        "endKeyCounts": [
+          8,
+          8
+        ],
+        "discussionQuestionCounts": [
+          10,
+          10
+        ],
+        "discussionQuestionsVerbatim": 16,
+        "limitations": [
+          "Correspondence is the curator’s stipulated framework; this edition does not claim to settle all theories of truth.",
+          "The problematic original suggestion remains explicitly flagged so the correction exchange is intelligible."
+        ]
+      },
+      "research": [
+        {
+          "url": "https://plato.stanford.edu/entries/truth-correspondence/",
+          "use": "Checked correspondence formulation and distinction from epistemic assessment; did not claim universal theoretical agreement."
+        }
+      ],
+      "browser": {
+        "viewport": [
+          1280,
+          720
+        ],
+        "mobileTested": false,
+        "horizontalOverflow": false,
+        "promptNavigationChecked": true,
+        "quizOptionBreaksAndAnswerPlacementChecked": true,
+        "discussionLayoutChecked": true,
+        "curatorExchangeChecked": true,
+        "staticQuizzesWithEndKeys": true,
+        "temporaryTabClosed": true
+      },
+      "fullBuildByteIdentical": true
+    },
+    {
+      "pagePath": "/rational-thought/regret-assessment/",
+      "sourceSha256": "8f3f415d69024264a13ab1b9105776c3ba6df3bce669833731468fc254067a4e",
+      "originalPrompts": 5,
+      "originalHeadings": 5,
+      "sourceColumns": 10,
+      "modelResponses": 10,
+      "blocksRetainedVerbatim": 29,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 84,
+      "bareAnswersExplicitlyRevised": 0,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "1.1.ol source counts": [
+          5
+        ],
+        "2.1.ol source counts": [
+          10
+        ],
+        "2.2.ol source counts": [
+          9
+        ],
+        "3.1.ol source counts": [
+          11
+        ],
+        "3.2.ol source counts": [
+          7
+        ],
+        "4.1.ol source counts": [
+          10
+        ],
+        "4.2.ol source counts": [
+          10,
+          10
+        ],
+        "5.1.ol source counts": [
+          15
+        ]
+      },
+      "sha256": "df21593f0a80493e3deaf1025046b8fecae4c14fc3e7187fc8f1c5120a6dee9f",
+      "verifiedAt": "2026-10-16T13:10:50.412147+00:00",
+      "source": {
+        "cache": ".cache/byteseismic-posts-with-content.json",
+        "wordpressId": 6507,
+        "title": "Regret Assessment",
+        "url": "http://byteseismic.com/2024/04/17/regret-assessment/",
+        "snapshot": "regret-assessment-wordpress-6507.html",
+        "fullSourceRead": true,
+        "fullCurrentEditionRead": true,
+        "urlTitleAndAllPromptsMatched": true,
+        "allOriginalH2Texts": [
+          "What do individuals near the end of their lives report that they regret most?",
+          "What can I do to ensure I make decisions that minimize regrets later in life?",
+          "How can I overcome my fear of risks that allow a full life with minimal regrets?",
+          "Create a 10-item quiz on the entire thread above.",
+          "Provide 15 discussion questions relevant to the content above. "
+        ],
+        "modelLogoOrder": [
+          "ai-logos-chatgpt",
+          "ai-logos-claude2"
+        ],
+        "preamble": "Original highlights and source contents read; replaced with labeled edited summary and prompt navigation."
+      },
+      "responseDecisions": {
+        "1.1": "Retained five themes/order; attributed to Ware and replaced population ranking with clearly bounded observations. Removed happiness-as-choice claim. Practical interpretations separated from reported evidence.",
+        "1.2": "Retained six numbered themes within original paragraph block; clarified travel and risk claims lack population evidence. Made numbering readable with line breaks; did not invent a survey.",
+        "2.1": "Ten strategies/order retained, connection advice verbatim. Repaired guarantee, emotion-control, forgiveness and disclosure overclaims. Added concrete calendar/class example and decision-process versus outcome distinction; retained effective trial idea from current edition.",
+        "2.2": "Nine strategies/order retained, values/relationships/present-focus entries verbatim. Intuition now prompts investigation; fear can track real risk; confrontation and authenticity bounded. Clarified unchosen alternatives remain uncertain.",
+        "3.1": "Eleven approaches preserved; replaced blanket escalation and optimism with reversible tests, preparation limits, credible downside and process-based evaluation. Therapy and mindfulness claims bounded with official sources.",
+        "3.2": "Seven steps/order preserved; compares both action and omission; checks survivor-only success stories and external risk. No promise that courage guarantees a full life.",
+        "4.1": "Ten questions/four options each/ten end keys. Repaired unsupported prevalence, happiness, reframing, failure and mindfulness claims; six paragraph-form items clarified or retained with readable option breaks.",
+        "4.2": "Ten questions/ten answers preserved. Tests sampling limits, intuition investigation, symmetric future reflection and specific risk assessment. Matched revised answers to questions.",
+        "5.1": "Fifteen discussion questions/order preserved; six verbatim. Repaired leading premises about happiness, growing stakes, guaranteed therapy and forgiveness.",
+        "5.2": "Fifteen numbered questions within original paragraph; readable line breaks. Retained topical progression, made disclosure optional and replaced pressured risk-taking with balanced comparison."
+      },
+      "allPromptsInSourceOrderIncludingEmbedded": true,
+      "sourceBlocksWithChangedText": 81,
+      "sourceBlocksTextVerbatim": 32,
+      "negativeControlsRejected": [
+        "changed prompt",
+        "missing source response",
+        "missing final discussion question",
+        "altered quiz answer"
+      ],
+      "manualChecks": {
+        "responseColumns": 10,
+        "responseSegments": 10,
+        "quizQuestionCounts": [
+          10,
+          10
+        ],
+        "endKeyCounts": [
+          10,
+          10
+        ],
+        "discussionQuestionCounts": [
+          15,
+          15
+        ],
+        "sourceNumberedParagraphsPreserved": [
+          {
+            "sourceNode": "1.2.0",
+            "items": 6
+          },
+          {
+            "sourceNode": "5.2.0",
+            "items": 15
+          }
+        ],
+        "limitations": [
+          "Ware’s personal observations do not establish representative prevalence or a universal ranking.",
+          "Travel and risk-taking remain original reflection themes, explicitly not established as leading end-of-life regrets.",
+          "Practical examples are illustrative; no regret-minimization intervention or individual clinical treatment is validated here."
+        ]
+      },
+      "research": [
+        {
+          "url": "https://bronnieware.com/blog/regrets-of-the-dying/",
+          "use": "Read complete primary account; attributed five themes and bounded observational evidence."
+        },
+        {
+          "url": "https://www.nimh.nih.gov/health/topics/psychotherapies",
+          "use": "Checked individualized mental-health assessment and therapy description; no outcome guarantee."
+        },
+        {
+          "url": "https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety",
+          "use": "Checked variable benefits, evidence limits and possible adverse experiences."
+        }
+      ],
+      "browser": {
+        "viewport": [
+          1280,
+          720
+        ],
+        "mobileTested": false,
+        "horizontalOverflow": false,
+        "promptNavigationChecked": true,
+        "quizOptionBreaksAndAnswerPlacementChecked": true,
+        "discussionLayoutChecked": true,
+        "curatorExchangeChecked": false,
+        "staticQuizzesWithEndKeys": true,
+        "temporaryTabClosed": true
+      },
+      "fullBuildByteIdentical": true
+    }
+  ],
+  "batchVerification": "quality/original-source-revisions/batch-verification-2026-10-16.json",
+  "delivery": "Authorized files prepared for explicit staging, commit and push; final hash and remote confirmation recorded in automation memory."
+}

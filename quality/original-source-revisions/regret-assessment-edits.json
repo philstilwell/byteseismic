@@ -1,0 +1,198 @@
+{
+  "pageFile": "rational-thought/regret-assessment/index.html",
+  "wordpressId": 6507,
+  "snapshot": "regret-assessment-wordpress-6507.html",
+  "sourceSha256": "8f3f415d69024264a13ab1b9105776c3ba6df3bce669833731468fc254067a4e",
+  "sourceUrl": "http://byteseismic.com/2024/04/17/regret-assessment/",
+  "sourceLabel": "Original WordPress post, 2024-04-17",
+  "shellRevision": "c7511efeca6332c980bf4beb12f2c2b858b84534",
+  "date": "2026-10-16",
+  "modelLabels": [
+    "ChatGPT",
+    "Claude"
+  ],
+  "headings": [
+    "Reported regrets and the limits of the evidence",
+    "Making decisions you can later understand",
+    "Testing opportunities without dismissing danger",
+    "Two ten-item quizzes and answer keys",
+    "Fifteen discussion questions from each response"
+  ],
+  "introHeading": "Reported regrets and the limits of the evidence",
+  "intro": "The original conversation moves from reported end-of-life regrets to everyday choices and fear of risk, then quizzes and discussion. Both response tracks and all five prompts remain. The editorial revisions distinguish a caregiver’s observations from population evidence, and thoughtful choices from a promise of a regret-free life.",
+  "description": "Explore reported regrets, practical decision habits and proportionate risk through five original prompts, separate responses, quizzes and discussion questions.",
+  "highlights": [
+    "A caregiver’s memorable observations do not establish a universal ranking of regrets.",
+    "A disappointing outcome does not by itself prove that the original decision was careless.",
+    "Small trials can reveal preferences and costs before a major commitment.",
+    "Reducing avoidable regret does not require eliminating fear or taking ever larger risks."
+  ],
+  "replacements": {
+    "1.1.0": "A widely circulated answer comes from Bronnie Ware’s <a href=\"https://bronnieware.com/blog/regrets-of-the-dying/\">account of people she cared for near death</a>. She reports the five themes below. Her article describes personal observations, not a representative survey with a stated sampling method or prevalence estimates; it therefore cannot establish what dying people as a whole regret most.",
+    "1.1.1": "<strong>Living by others’ expectations:</strong> Ware describes people wishing they had pursued more of their own aspirations. The practical question is which commitments you endorse and which you follow mainly to avoid disapproval.",
+    "1.1.2": "<strong>Work crowding out relationships:</strong> Her account includes regret about missed family time. This invites a review of discretionary work demands; it does not show that everyone can afford fewer hours or should value work less.",
+    "1.1.3": "<strong>Leaving feelings unexpressed:</strong> She reports wishes to have spoken more openly. Consider affection, apologies, or unresolved concerns, while recognizing that a safe setting and the other person’s boundaries matter.",
+    "1.1.4": "<strong>Losing contact with friends:</strong> Neglected friendships feature in her account. A small present action, such as arranging a call, can be more useful than treating friendship as an intention to fulfill someday.",
+    "1.1.5": "<strong>Allowing too little enjoyment:</strong> This is another reported theme. It does not establish that happiness is simply a choice or that illness, hardship, and grief can be overcome by deciding to feel differently.",
+    "1.1.6": "Use these five themes as questions for reflection, not a statistical league table or a verdict on another person’s life. To establish prevalence would require broader, transparently sampled research. People also differ in resources, responsibilities, culture, and what they value; the available account does not settle those differences.",
+    "1.2.0": "The original response listed six themes. Four overlap with the caregiver account discussed above; travel and risk-taking are additional reflection topics, not established here as leading end-of-life regrets.<br/><br/><strong>1. Living by others’ expectations:</strong> Ask whether an important choice reflects your considered values or mainly pressure to appear acceptable.<br/><strong>2. Working too much:</strong> Examine what work provides as well as what it displaces. Supporting dependents and finding meaning in work can be reasons to keep a demanding role.<br/><strong>3. Not expressing feelings:</strong> An unsent thank-you or unoffered apology may identify a concrete step. Disclosure does not guarantee reconciliation.<br/><strong>4. Not traveling or experiencing more:</strong> The source conversation supplies no evidence that travel ranks among the most common regrets of dying people. As a prompt for reflection, ask which experiences you actually want; local exploration may matter more than an expensive itinerary.<br/><strong>5. Not taking more risks:</strong> This is likewise not established as a general end-of-life finding here. Compare a missed opportunity with the possible costs of pursuing it; either action or inaction can be regrettable.<br/><strong>6. Letting friendships fade:</strong> Consider which relationships you want to sustain and what realistic contact would look like.<br/><br/>These are six starting points, not six duties or a universal model of a successful life.",
+    "2.1.0": "You cannot ensure that later regret will be minimal: outcomes, information, and your priorities can change. You can improve how you choose. Compare realistic alternatives, record what matters and what you currently know, and review the choice at a planned time. The following ten practices make that approach concrete:",
+    "2.1.1": "<strong>Live authentically:</strong> Name the values a decision serves and the obligations it creates. “I want this” is relevant, but so are commitments you freely made to others. A choice can be your own even when it involves compromise.",
+    "2.1.2": "<strong>Prioritize relationships:</strong> Reserve time for relationships you value instead of relying on leftover time. For example, a regular shared meal makes a priority visible in your calendar. Balance that commitment against the work needed to meet basic needs.",
+    "2.1.3": "<strong>Express your feelings:</strong> Say what you appreciate, need, or regret clearly and at an appropriate time. Speak about your experience without assuming you know another person’s motives. Openness can help understanding, but cannot guarantee agreement or safety.",
+    "2.1.5": "<strong>Make room for enjoyment:</strong> Choose feasible activities that matter to you, rather than demanding that you choose an emotion on command. A short walk with a friend or time for a hobby may fit where a major life change would not. Difficulty feeling happy is not a moral failure.",
+    "2.1.6": "<strong>Explore new experiences:</strong> Test an interest before making a large commitment. An introductory class can reveal whether you enjoy the daily work of a subject, not just the imagined identity of being good at it.",
+    "2.1.7": "<strong>Plan for the future while living now:</strong> Identify what must be protected and what can be tried. Set a review date so “later” does not become indefinite postponement, but allow enough room for obligations and foreseeable setbacks.",
+    "2.1.8": "<strong>Take care of your health:</strong> Treat rest, care, and support as legitimate priorities rather than obstacles to an impressive life. Adapt plans to your circumstances and seek appropriate professional help when health concerns interfere with daily life. Good planning is not complete control over health.",
+    "2.1.9": "<strong>Seek feedback and learn:</strong> Ask a trusted person what your plan overlooks. Record your expectations before the outcome is known. Later, distinguish a weak decision process from a reasonable choice that had an unlucky result.",
+    "2.1.10": "<strong>Respond to mistakes without endless self-punishment:</strong> Acknowledge harm, repair what you can, and change the relevant habit. Forgiveness may be meaningful, but it need not involve renewed contact or removal of boundaries, and it cannot be demanded from someone else.",
+    "2.1.11": "For a decision such as trying an evening class, compare the cost of a short trial with the cost of continued postponement. Decide what would make you continue, change the arrangement, or stop. This gives future reflection something fairer to judge than an idealized alternative life.",
+    "2.2.0": "No method guarantees freedom from regret. These nine suggestions aim to make decisions more deliberate and easier to reassess:",
+    "2.2.2": "<strong>Examine fear rather than automatically obeying or dismissing it.</strong> Specify the feared outcome and look for evidence about its likelihood and cost. Fear of embarrassment and a credible risk to your livelihood call for different responses.",
+    "2.2.4": "<strong>Maintain a workable balance.</strong> Identify one realistic adjustment between work, care, rest, and personal interests. Balance need not mean equal time, and travel is not a requirement for a fulfilling life.",
+    "2.2.5": "<strong>Listen to intuition, then investigate it.</strong> A sense that something is wrong can point to an overlooked concern; it is not proof. Ask what specific fact or value the feeling may be tracking and what evidence might change your view.",
+    "2.2.6": "<strong>Take calculated risks when they serve your goals.</strong> Compare potential benefits, losses, reversibility, and the option of waiting for information. A small trial may be preferable to either a permanent commitment or complete avoidance.",
+    "2.2.7": "<strong>Address conflicts thoughtfully.</strong> Choose a suitable setting for a difficult conversation, clarify what you hope to resolve, and respect safety and boundaries. Immediate confrontation is not always the best response.",
+    "2.2.9": "<strong>Revisit what being true to yourself means.</strong> Your priorities can develop. Distinguish a considered change of direction from reflexively following either social approval or a passing urge.",
+    "2.2.10": "Small course corrections can help you notice neglected priorities. They cannot reveal exactly how an unchosen life would have unfolded. Use regret as information about a decision or value, not as conclusive proof that the alternative would have been better.",
+    "3.1.0": "The aim is to distinguish avoidable fear from relevant danger, then choose a proportionate next step. A full life does not require fearlessness or continually rising stakes. These approaches focus on ordinary choices; persistent anxiety that disrupts daily life may need individualized support.",
+    "3.1.1": "<strong>Understand the fear:</strong> Write down what you predict will happen, how serious it would be, and what supports that prediction. “People might dislike my work” becomes more manageable when separated into possible criticism, actual loss, and steps you could take afterward.",
+    "3.1.2": "<strong>Consider opportunities alongside losses:</strong> Ask what the choice could teach or enable, while retaining an honest account of what could go wrong. Reframing should widen the comparison, not hide unfavorable evidence.",
+    "3.1.3": "<strong>Start small:</strong> Choose a reversible experiment, such as attending one group session before committing to a long course. Evaluate what you learned. Confidence in a small trial does not establish that a much larger risk is acceptable.",
+    "3.1.4": "<strong>Make room for learning:</strong> A setback can reveal a skill to practice or an assumption to revise. It can also reveal that the activity is a poor fit. Calling every failure growth should not become a reason to repeat a harmful decision.",
+    "3.1.5": "<strong>Prepare and plan:</strong> Identify the most consequential plausible outcomes, a recovery plan, and a stopping point. Preparation cannot cover every possibility. Set a decision date when further research would mainly repeat what you already know.",
+    "3.1.6": "<strong>Rehearse the process:</strong> Imagine the actual steps, including a difficulty and how you would respond. For a presentation, rehearse an opening and an uncertain question. A pleasant image of success is not evidence that success is likely.",
+    "3.1.7": "<strong>Use stress-management practices selectively:</strong> Mindfulness or relaxation may help some people manage anxiety; effects vary, and meditation is not helpful for everyone. The <a href=\"https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety\">National Center for Complementary and Integrative Health</a> describes both evidence and limitations. Feeling calmer does not itself make a risky situation safer.",
+    "3.1.8": "<strong>Seek support:</strong> Talk with someone who can encourage you and question your assumptions. Useful support includes practical help and honest feedback, not just pressure to be brave.",
+    "3.1.9": "<strong>Analyze serious downside scenarios:</strong> Consider their plausibility, severity, and recoverability, including effects on others. Do not assume the worst case is harmless. If an outcome would be unacceptable and cannot be adequately reduced, declining or redesigning the risk can be sensible.",
+    "3.1.10": "<strong>Recognize small gains in judgment:</strong> Notice when you tested a prediction, asked for help, or kept a sensible boundary. A good decision can be to proceed, pause, or stop; celebrate the quality of the process rather than risk-taking alone.",
+    "3.1.11": "<strong>Consider professional help when needed:</strong> If fear persistently restricts daily life, a qualified mental health professional can assess it and discuss suitable treatment. The <a href=\"https://www.nimh.nih.gov/health/topics/psychotherapies\">National Institute of Mental Health</a> describes therapies that address distressing thoughts and avoidance. Ordinary life planning is not a substitute for an individual treatment plan.",
+    "3.1.12": "Return to a specific choice: what do you value, what are you predicting, and what small step would provide useful information at an acceptable cost? This can support a fuller life without promising that every good choice will feel comfortable or end well.",
+    "3.2.0": "You can work toward a considered relationship with risk rather than trying to eliminate fear. The following seven steps keep your goals and the possible consequences in view:",
+    "3.2.1": "<strong>Reframe the comparison:</strong> Include the opportunity cost of doing nothing as well as the possible cost of acting. Staying with a familiar option can be wise; it should be assessed rather than treated as automatically safe or stagnant.",
+    "3.2.2": "<strong>Start small:</strong> Choose a low-cost trial with a clear exit. A single volunteer shift can tell you more about a new role than imagining either perfect fulfillment or complete failure.",
+    "3.2.3": "<strong>Imagine your future self fairly:</strong> Imagine regretting action as well as inaction. Also imagine being glad you chose each option. This exposes competing values without using an imagined deathbed as pressure to take a risk.",
+    "3.2.4": "<strong>Learn from failure without romanticizing it:</strong> Ask what failed and what could change. Some losses are serious, and a lesson does not automatically compensate for them. Decide in advance what you are willing to risk.",
+    "3.2.5": "<strong>Identify the fear:</strong> State the predicted harm and examine its basis. Some fears exaggerate danger; others signal a real problem. Reduce or avoid a substantiated danger rather than calling all hesitation irrational.",
+    "3.2.6": "<strong>Learn from people with relevant experience:</strong> Ask what preparation, resources, failures, and luck their success involved. Include people whose attempts did not work out; success stories alone can give a distorted picture.",
+    "3.2.7": "<strong>Consider long-term consequences on both sides:</strong> Compare benefits, costs, effects on others, and the possibility of changing course. A distant benefit does not automatically outweigh a serious present loss.",
+    "3.2.8": "Progress can mean acting despite manageable discomfort, collecting better information, or deciding a risk is not worth taking. The measure is how well the choice fits your evidence, values, and responsibilities—not how fearless it makes you appear.",
+    "4.1.1": "<strong>1. Which concern appears in the caregiver account discussed above?</strong><br/>A) Everyone should change careers frequently.<br/>B) Living mainly by others’ expectations.<br/>C) All demanding jobs are mistakes.<br/>D) A particular career guarantees happiness.",
+    "4.1.4": "<strong>4. What is the careful lesson from the reported regret about enjoyment?</strong><br/>A) Wealth guarantees happiness.<br/>B) Health is fully under personal control.<br/>C) Making room for valued activities may matter, but happiness is not simply chosen.<br/>D) People who feel unhappy have failed morally.",
+    "4.1.7": "<strong>7. What should reframing a risk accomplish?</strong><br/>A) Hide possible losses.<br/>B) Prove the risk is safe.<br/>C) Bring potential benefits into the comparison while retaining the costs.<br/>D) Make planning unnecessary.",
+    "4.1.8": "<strong>8. What is a useful way to learn from a setback?</strong><br/>A) Assume fear has disappeared.<br/>B) Identify what it teaches, including whether to change or stop.<br/>C) Call every loss worthwhile.<br/>D) Immediately increase the stakes.",
+    "4.1.10": "<strong>10. How are mindfulness and relaxation described here?</strong><br/>A) They make dangerous situations safe.<br/>B) They replace all professional care.<br/>C) They may help some people manage anxiety, with limitations.<br/>D) They guarantee a life without regret.",
+    "4.1.12": "B) Living mainly by others’ expectations.",
+    "4.1.15": "C) Make room for valued activities without treating happiness as simply chosen.",
+    "4.1.18": "C) Consider benefits and costs together.",
+    "4.1.19": "B) Learn what to change, including when to stop.",
+    "4.1.21": "C) These practices may help some people; effects vary and they do not remove external danger.",
+    "4.2.1": "Name one theme in the caregiver account, and explain why it does not establish a universal ranking of regrets.",
+    "4.2.5": "What should you do after noticing an intuitive concern about a decision?",
+    "4.2.9": "How can imagining your future self improve a decision without automatically favoring risk-taking?",
+    "4.2.10": "What should you specify when examining a fear of taking a risk?",
+    "4.2.12": "For example, neglected friendships or work displacing relationships. Personal observations without representative sampling do not establish population prevalence.",
+    "4.2.16": "Identify what it may be tracking and check the relevant evidence; intuition is a signal to investigate, not proof.",
+    "4.2.17": "Look for what the setback teaches while recognizing real costs and the option to stop.",
+    "4.2.20": "Compare possible regret and satisfaction after either action or inaction, keeping realistic consequences in view.",
+    "4.2.21": "The predicted harm, its evidence, likelihood, severity, and whether it can be reduced or recovered from.",
+    "5.1.1": "<strong>Work-life balance:</strong> How can the reported regret about work inform reflection without assuming that everyone can reduce their hours? What constraints should be considered?",
+    "5.1.4": "<strong>Enjoyment and control:</strong> Which conditions for enjoyment can a person influence, and which may be outside their control? How can advice avoid blaming people for unhappiness?",
+    "5.1.6": "<strong>Learning from setbacks:</strong> When does treating failure as a learning opportunity help, and when might it excuse repeating a damaging choice?",
+    "5.1.7": "<strong>Rehearsal:</strong> How does imagining concrete steps and obstacles differ from merely picturing success? What evidence would show that either method improves a decision?",
+    "5.1.9": "<strong>Mindfulness and relaxation:</strong> How might managing distress help deliberation, and why does feeling calmer not establish that a risk is safe?",
+    "5.1.10": "<strong>Support systems:</strong> What kinds of encouragement and critical feedback would help someone make a considered choice, including a choice to decline a risk?",
+    "5.1.12": "<strong>Small gains:</strong> What counts as progress when a trial leads someone to stop or change direction? Why need progress not mean taking larger risks?",
+    "5.1.13": "<strong>Professional support:</strong> When might fear warrant an individualized assessment rather than ordinary planning advice? What should a person ask about proposed treatment and its goals?",
+    "5.1.14": "<strong>Forgiveness and repair:</strong> How might accountability and self-compassion affect regret? Can someone move forward while retaining boundaries or declining reconciliation?",
+    "5.2.0": "Here are fifteen questions for discussion; personal disclosure is optional.<br/><br/>1. What different causes might underlie the regrets in the caregiver account, and what further evidence would be needed to generalize?<br/>2. Using a personal or hypothetical example, what led to a regret, and what was reasonably knowable at the time?<br/>3. How can someone determine whether they are living according to values they endorse?<br/>4. How should reflection on working too much account for financial need and caring responsibilities?<br/>5. In what ways can maintaining close friendships help address potential regrets?<br/>6. What could you learn from an inspiring risk-taker, and what might their success story leave out?<br/>7. How can you strike a workable balance between work, care, rest, and other valued activities?<br/>8. What small, reversible experiment could test an interest without requiring a major commitment?<br/>9. How might your future self view both the decision to act and the decision to wait?<br/>10. What specific harm do you fear, and what evidence bears on its likelihood and severity?<br/>11. When does learning from failure help, and when is stopping the better lesson?<br/>12. When has intuition helped or misled you, and how could you check it?<br/>13. Which relationships do you want to nurture, and what realistic action would support them?<br/>14. Which priorities deserve reconsideration, and which competing commitments should remain protected?<br/>15. In what area would acting, gathering more information, or declining a risk best fit your present circumstances?",
+    "4.1.2": "<strong>2. Which reported regret concerns work displacing time with others?</strong><br/>A) Working too much.<br/>B) Not traveling enough.<br/>C) Failing to stay physically active.<br/>D) Spending too little on personal luxuries.",
+    "4.1.3": "<strong>3. Which communication regret appears in the account?</strong><br/>A) Over-sharing personal problems.<br/>B) Leaving important feelings unexpressed.<br/>C) Being too honest about negative emotions.<br/>D) Not making enough jokes.",
+    "4.1.5": "<strong>5. Which strategy can help minimize regrets in life according to the discussion?</strong><br/>A) Increasing work hours to secure financial stability<br/>B) Maintaining and prioritizing close personal relationships<br/>C) Focusing solely on personal health<br/>D) Avoiding all risky decisions",
+    "4.1.6": "<strong>6. What initial step can help someone start overcoming their fear of risks?</strong><br/>A) Taking extremely challenging risks immediately<br/>B) Understanding and reflecting on the nature of their fears<br/>C) Ignoring all fears and pushing forward<br/>D) Eliminating all safe routines",
+    "4.1.9": "<strong>9. What practical step can reduce anxiety when facing risks?</strong><br/>A) Completely avoiding planning<br/>B) Preparing and planning for potential outcomes<br/>C) Waiting for others to take the first step<br/>D) Focusing on past failures",
+    "4.1.14": "B) Leaving important feelings unexpressed."
+  },
+  "countChecks": [
+    {
+      "name": "1.1.ol source counts",
+      "selector": "#prompt-1 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        5
+      ]
+    },
+    {
+      "name": "2.1.ol source counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        10
+      ]
+    },
+    {
+      "name": "2.2.ol source counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        9
+      ]
+    },
+    {
+      "name": "3.1.ol source counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        11
+      ]
+    },
+    {
+      "name": "3.2.ol source counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        7
+      ]
+    },
+    {
+      "name": "4.1.ol source counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        10
+      ]
+    },
+    {
+      "name": "4.2.ol source counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        10,
+        10
+      ]
+    },
+    {
+      "name": "5.1.ol source counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    }
+  ],
+  "responseDecisions": {
+    "1.1": "Retained five themes/order; attributed to Ware and replaced population ranking with clearly bounded observations. Removed happiness-as-choice claim. Practical interpretations separated from reported evidence.",
+    "1.2": "Retained six numbered themes within original paragraph block; clarified travel and risk claims lack population evidence. Made numbering readable with line breaks; did not invent a survey.",
+    "2.1": "Ten strategies/order retained, connection advice verbatim. Repaired guarantee, emotion-control, forgiveness and disclosure overclaims. Added concrete calendar/class example and decision-process versus outcome distinction; retained effective trial idea from current edition.",
+    "2.2": "Nine strategies/order retained, values/relationships/present-focus entries verbatim. Intuition now prompts investigation; fear can track real risk; confrontation and authenticity bounded. Clarified unchosen alternatives remain uncertain.",
+    "3.1": "Eleven approaches preserved; replaced blanket escalation and optimism with reversible tests, preparation limits, credible downside and process-based evaluation. Therapy and mindfulness claims bounded with official sources.",
+    "3.2": "Seven steps/order preserved; compares both action and omission; checks survivor-only success stories and external risk. No promise that courage guarantees a full life.",
+    "4.1": "Ten questions/four options each/ten end keys. Repaired unsupported prevalence, happiness, reframing, failure and mindfulness claims; six paragraph-form items clarified or retained with readable option breaks.",
+    "4.2": "Ten questions/ten answers preserved. Tests sampling limits, intuition investigation, symmetric future reflection and specific risk assessment. Matched revised answers to questions.",
+    "5.1": "Fifteen discussion questions/order preserved; six verbatim. Repaired leading premises about happiness, growing stakes, guaranteed therapy and forgiveness.",
+    "5.2": "Fifteen numbered questions within original paragraph; readable line breaks. Retained topical progression, made disclosure optional and replaced pressured risk-taking with balanced comparison."
+  },
+  "pageSignals": {
+    "Page form": "Original conversation · editorial edition"
+  }
+}

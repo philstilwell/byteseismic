@@ -4,10 +4,10 @@
   "startIndex": 100,
   "endIndexExclusive": 150,
   "candidateWordPressOriginals": 49,
-  "fullyReviewed": 20,
-  "pendingFullReview": 30,
+  "fullyReviewed": 22,
+  "pendingFullReview": 28,
   "sourceBlocked": 0,
-  "limitation": "Twenty entries have substantive review and source verification; thirty remain pending. No batch advancement. Economics comparisons are explicitly dated 1974–2024, with conditional equations and policy claims. Complexity research examples distinguish dated outputs from aims; some programs are older than the original recent framing. Earlier lesson-plan, personality-study, Burden of Proof and Perverse Incentives limitations remain documented.",
+  "limitation": "Twenty-two entries have substantive review and source verification; twenty-eight remain pending. No batch advancement. Personal Truth preserves the stipulated correspondence framework and exact correction exchange. Regret Assessment bounds caregiver observations, travel/risk prevalence claims and clinical advice. Prior page-specific limitations remain documented.",
   "pages": [
     {
       "pagePath": "/philosophers/philosopher-club-membership/",
@@ -511,7 +511,7 @@
       "pagePath": "/philosophical-inquiry/personal-truth/",
       "pageTitle": "Personal Truth?",
       "queueIndex": 121,
-      "status": "pending-full-review",
+      "status": "reviewed-verified",
       "wordpressId": 556,
       "sourceUrl": "http://byteseismic.com/2024/02/12/personal-truth/",
       "sourceTitle": "Personal Truth?",
@@ -528,14 +528,16 @@
         "Provide 10 discussion questions relevant to our exchange on the notion of truth."
       ],
       "wordCount": 3741,
-      "fullSourceRead": false,
-      "editorialReviewComplete": false
+      "fullSourceRead": true,
+      "editorialReviewComplete": true,
+      "reviewDate": "2026-10-16",
+      "verification": "quality/original-source-revisions/personal-truth-verification-2026-10-16.json"
     },
     {
       "pagePath": "/rational-thought/regret-assessment/",
       "pageTitle": "Regret Assessment",
       "queueIndex": 122,
-      "status": "pending-full-review",
+      "status": "reviewed-verified",
       "wordpressId": 6507,
       "sourceUrl": "http://byteseismic.com/2024/04/17/regret-assessment/",
       "sourceTitle": "Regret Assessment",
@@ -551,8 +553,10 @@
         "Provide 15 discussion questions relevant to the content above. "
       ],
       "wordCount": 3709,
-      "fullSourceRead": false,
-      "editorialReviewComplete": false
+      "fullSourceRead": true,
+      "editorialReviewComplete": true,
+      "reviewDate": "2026-10-16",
+      "verification": "quality/original-source-revisions/regret-assessment-verification-2026-10-16.json"
     },
     {
       "pagePath": "/epistemology/belief-evidence-graphic/",
