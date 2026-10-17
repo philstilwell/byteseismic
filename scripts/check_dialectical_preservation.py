@@ -123,9 +123,16 @@ def main() -> int:
             failures.append(f"{slug}: rebuilt page was not found uniquely")
             continue
         soup = BeautifulSoup(page_path.read_text(), "html.parser")
-        section = soup.select_one("#dialectical-turn")
+        try:
+            original_edition = verify_original_edition(slug, post, page_path)
+        except (AssertionError, KeyError, ValueError, OSError, AttributeError) as error:
+            failures.append(f"{slug}: original-edition preservation failed: {error}")
+            continue
+        # A fully verified original edition keeps the challenge at its source
+        # position. Still require the high-risk phrase in the article itself.
+        section = soup.select_one(".article-body" if original_edition else "#dialectical-turn")
         if section is None:
-            failures.append(f"{slug}: rebuilt page has no recovered-exchange section")
+            failures.append(f"{slug}: rebuilt page has no verified exchange container")
             continue
         section_text = build_archive.clean_text(section.get_text(" ", strip=True))
         if needle.casefold() not in section_text.casefold():

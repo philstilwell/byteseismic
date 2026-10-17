@@ -4,10 +4,10 @@
   "startIndex": 100,
   "endIndexExclusive": 150,
   "candidateWordPressOriginals": 49,
-  "fullyReviewed": 22,
-  "pendingFullReview": 28,
+  "fullyReviewed": 24,
+  "pendingFullReview": 26,
   "sourceBlocked": 0,
-  "limitation": "Twenty-two entries have substantive review and source verification; twenty-eight remain pending. No batch advancement. Personal Truth preserves the stipulated correspondence framework and exact correction exchange. Regret Assessment bounds caregiver observations, travel/risk prevalence claims and clinical advice. Prior page-specific limitations remain documented.",
+  "limitation": "Twenty-four entries have substantive review and source verification; twenty-six remain pending. No batch advancement. Belief/Evidence Graphic preserves eleven embedded curator prompts and labels retained original errors. Pascal’s Wager distinguishes assumed payoffs, probabilities, valuation and evidence; adds its missing seventh answer guide. Prior page-specific limitations remain documented.",
   "pages": [
     {
       "pagePath": "/philosophers/philosopher-club-membership/",
@@ -562,7 +562,7 @@
       "pagePath": "/epistemology/belief-evidence-graphic/",
       "pageTitle": "Belief/Evidence Graphic",
       "queueIndex": 123,
-      "status": "pending-full-review",
+      "status": "reviewed-verified",
       "wordpressId": 3833,
       "sourceUrl": "http://byteseismic.com/2024/03/17/belief-evidence-graphic/",
       "sourceTitle": "Belief/Evidence Graphic",
@@ -589,14 +589,16 @@
         "Provide 15 discussion questions relevant to the content above. "
       ],
       "wordCount": 5370,
-      "fullSourceRead": false,
-      "editorialReviewComplete": false
+      "fullSourceRead": true,
+      "editorialReviewComplete": true,
+      "reviewDate": "2026-10-17",
+      "verification": "quality/original-source-revisions/belief-evidence-graphic-verification-2026-10-17.json"
     },
     {
       "pagePath": "/epistemology/pascals-wager/",
       "pageTitle": "Pascal’s Wager",
       "queueIndex": 124,
-      "status": "pending-full-review",
+      "status": "reviewed-verified",
       "wordpressId": 4264,
       "sourceUrl": "http://byteseismic.com/2024/03/20/pascals-wager/",
       "sourceTitle": "Pascal’s Wager",
@@ -614,8 +616,10 @@
         "Provide 12 discussion questions relevant to the content above. "
       ],
       "wordCount": 4179,
-      "fullSourceRead": false,
-      "editorialReviewComplete": false
+      "fullSourceRead": true,
+      "editorialReviewComplete": true,
+      "reviewDate": "2026-10-17",
+      "verification": "quality/original-source-revisions/pascals-wager-verification-2026-10-17.json"
     },
     {
       "pagePath": "/epistemology/the-inductive-paradox/",
@@ -1248,6 +1252,6 @@
       "editorialReviewComplete": false
     }
   ],
-  "updatedAt": "2026-10-15T13:24:22.498309+00:00",
-  "recordedAt": "2026-10-13T13:25:17.318854+00:00"
+  "updatedAt": "2026-10-17T13:08:59.268164+00:00",
+  "recordedAt": "2026-10-17T13:08:59.268164+00:00"
 }

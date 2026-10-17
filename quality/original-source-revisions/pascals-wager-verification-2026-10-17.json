@@ -1,0 +1,155 @@
+{
+  "pagePath": "/epistemology/pascals-wager/",
+  "sourceSha256": "5f5cdb2c5398eef71eb6e4e69e8c44f72cebbedde567fc9da2f699ba42eb7b53",
+  "originalPrompts": 7,
+  "originalHeadings": 7,
+  "sourceColumns": 14,
+  "modelResponses": 14,
+  "blocksRetainedVerbatim": 60,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 86,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": false,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [
+    "6.2"
+  ],
+  "formatChecks": {
+    "1.1.ol source counts": [
+      5
+    ],
+    "1.1.ul source counts": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "1.2.ol source counts": [
+      3
+    ],
+    "1.2.ul source counts": [
+      2,
+      2,
+      2,
+      4
+    ],
+    "2.2.ul source counts": [
+      2,
+      2
+    ],
+    "3.2.ul source counts": [
+      3,
+      3
+    ],
+    "4.2.ul source counts": [
+      3,
+      2
+    ],
+    "5.2.ul source counts": [
+      3
+    ],
+    "6.1.ol source counts": [
+      7,
+      7
+    ],
+    "6.2.ol source counts": [
+      7,
+      6
+    ],
+    "7.1.ol source counts": [
+      12
+    ],
+    "7.2.ol source counts": [
+      12
+    ]
+  },
+  "sha256": "72cff7fc0d0431e6f4567c3c1d4d380198f444587fe95bda74d8c13238b0cfa0",
+  "verifiedAt": "2026-10-17T13:07:00.736597+00:00",
+  "source": {
+    "cache": ".cache/byteseismic-posts-with-content.json",
+    "wordpressId": 4264,
+    "title": "Pascal’s Wager",
+    "url": "http://byteseismic.com/2024/03/20/pascals-wager/",
+    "snapshot": "pascals-wager-wordpress-4264.html",
+    "fullSourceRead": true,
+    "fullCurrentEditionRead": true,
+    "urlTitleAndAllPromptsMatched": true,
+    "allOriginalH2Texts": [
+      "Provide a comprehensive explanation of Pascal’s Wager.",
+      "According to proponents of the wager, no actual evidence for the alleged consequences of a decision for or against the alleged entity is needed for the wager to have weight. Is this correct?",
+      "If Pascal’s Wager does not depend on evidence, all that is needed to force a proponent of Pascal’s Wager to move to another alleged God is an unsubstantiated claim of a God with a better Heaven and more horrific Hell. Correct?",
+      "Since the wager depends on the emotional assessment of the consequences, Pascal’s Wager is essentially a choice to follow one’s emotions devoid of the need for evidence. Correct?",
+      "But for this wager, the logical or pragmatic choice is wholly dependent on the outcome of the emotional assessment of the consequences. Right?",
+      "Create a 7-item quiz on the discussion above. ",
+      "Provide 12 discussion questions relevant to the content above. "
+    ],
+    "modelLogoOrder": [
+      "ai-logos-chatgpt",
+      "ai-logos-gemini"
+    ],
+    "preamble": "All original highlights read; now labeled edited summary, complete prompt order retained."
+  },
+  "responseDecisions": {
+    "1.1": "Preserved nested premises/options/outcomes/argument/criticism structure. Distinguished historical wager from familiar punitive matrix; bounded positive probability/infinity assumptions, finite life costs, no-belief alternatives and practice versus immediate belief.",
+    "1.2": "Kept core outline and criticism sequence; repaired probability/agnosticism/zero-value conflations and made theological payoffs conditional.",
+    "2.1": "Directly answered absence-of-evidence challenge: no proof differs from no defensible assumptions; retained skeptical burden.",
+    "2.2": "Repaired unknown-probability and subjective-infinity claims; added finite expected-value example and undefined mixed infinity case.",
+    "3.1": "Preserved many-gods pressure while rejecting forced conversion and larger-infinity inference; incompatible reward rules defeat unique selection without establishing rivals.",
+    "3.2": "Retained competing-offer and three-response lists; distinguished escalation/tie/undefined result and qualified simplicity, unique-god and restricted-audience replies.",
+    "4.1": "Separated values, emotions, probabilities and available actions; retained evidential objection and distinction between practice and conviction.",
+    "4.2": "Kept emotional/formal/catalyst structure with precise limits; calculation does not verify its inputs.",
+    "5.1": "Direct response to curator pushback: acknowledged dependence on values; explained why not wholly dependent on emotion. Preserved critical stance without automatic agreement.",
+    "5.2": "Replaced indiscriminate agreement and subjective-infinity error with distinct assessment of value/likelihood/action; checked worked finite example.",
+    "6.1": "Seven original-position questions and keys; revised questions/keys to test actual qualified conclusions rather than repeat overclaims.",
+    "6.2": "Seven questions, six original key nodes and one explicitly added missing answer guide. All seven question/key pairs aligned.",
+    "7.1": "Twelve discussion questions retained verbatim: open evaluative questions remain useful.",
+    "7.2": "Twelve in order, nine verbatim; repaired false dichotomy, subjective infinity and presupposed manipulation."
+  },
+  "allPromptsInSourceOrderIncludingEmbedded": true,
+  "originalListStructuresIndependentlyPreserved": true,
+  "negativeControlsRejected": [
+    "changed prompt",
+    "missing response",
+    "missing answer",
+    "missing added seventh answer"
+  ],
+  "manualChecks": {
+    "mainPrompts": 7,
+    "responseColumns": 14,
+    "quizQuestions": [
+      7,
+      7
+    ],
+    "originalQuizEndKeyCounts": [
+      7,
+      6
+    ],
+    "finalQuizAnswerCounts": [
+      7,
+      7
+    ],
+    "explicitlyAddedSeventhAnswerGuide": true,
+    "discussionQuestions": [
+      12,
+      12
+    ],
+    "discussionQuestionsVerbatim": 21,
+    "workedExamples": "0.01 × 100 = 1; 0.5 × 100 = 50",
+    "limits": [
+      "Familiar punitive presentation is explicitly a simplified theological scenario, not a verbatim Pascal matrix.",
+      "No claim that all versions depend on infinite punishment or that valuation is identical to immediate emotion.",
+      "Competing infinite payoffs need not select a unique option; alternative deity examples are hypothetical, not existence claims."
+    ]
+  },
+  "research": [
+    {
+      "url": "https://www.gutenberg.org/files/18269/18269-h/18269-h.htm",
+      "checked": "Primary Pascal text, fragment233: finite stake/infinite gain; inability to choose belief and proposed religious practice. Read fragment233, not entire book."
+    }
+  ]
+}

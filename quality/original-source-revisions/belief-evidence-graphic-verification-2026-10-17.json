@@ -1,0 +1,142 @@
+{
+  "pagePath": "/epistemology/belief-evidence-graphic/",
+  "sourceSha256": "87a1f1198669943de1a692818802da99117ed3244c0f595bf22b393fbc6250fc",
+  "originalPrompts": 16,
+  "originalHeadings": 5,
+  "sourceColumns": 10,
+  "modelResponses": 10,
+  "blocksRetainedVerbatim": 78,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 62,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "1.1.ol source counts": [
+      3
+    ],
+    "1.1.ul source counts": [
+      4,
+      3
+    ],
+    "3.1.ol source counts": [
+      3,
+      3,
+      3
+    ],
+    "4.1.ol source counts": [
+      8,
+      8
+    ],
+    "4.2.ol source counts": [
+      8,
+      8
+    ],
+    "5.1.ol source counts": [
+      15
+    ],
+    "5.2.ol source counts": [
+      15
+    ]
+  },
+  "sha256": "56965785bafecea466a90698ec81a3145804806bd0ab791f632e5f13592eaa6a",
+  "verifiedAt": "2026-10-17T13:07:00.520711+00:00",
+  "source": {
+    "cache": ".cache/byteseismic-posts-with-content.json",
+    "wordpressId": 3833,
+    "title": "Belief/Evidence Graphic",
+    "url": "http://byteseismic.com/2024/03/17/belief-evidence-graphic/",
+    "snapshot": "belief-evidence-graphic-wordpress-3833.html",
+    "fullSourceRead": true,
+    "fullCurrentEditionRead": true,
+    "urlTitleAndAllPromptsMatched": true,
+    "allOriginalH2Texts": [
+      "Describe the content of this graphic.",
+      "Can individual A rationally say at the end of the period, ‘I knew it all along’ if they maintained their high degree of belief without mapping it to the relevant evidence as it fluctuated?",
+      "Was individual C rational to wait until the evidence reached a particular threshold to flip from disbelief to belief?",
+      "Provide three scenarios in which the cost of belief would be high, epistemically justifying disbelief.",
+      "In your three secnarios, what would be the actual danger of mapping one’s belief to the degree of the evidence?",
+      "But a credence is not a decision. Wouldn’t more accurate credences better inform the decisions?",
+      "All things being equal, including the credibility of the evidence, is it not better to update your priors as new confirming and disconfirming evidence arrives?",
+      "Then, based on your last response, it would have been more rational for C to have updated their credences to map to the changing balance of evidence, right?",
+      "You said the following:",
+      "However, there was no suggestion in my scenario that the evidence was anything other than reliable evidence. There is no “whim”, and therefore, C would be irrational not to constantly adjust their degree of belief as the degree of the non-whimsical evidence arrived, right?",
+      "Provide a salient reformulation of the notion that rational belief is a degree of belief that maps to the degree of the relevant evidence. ",
+      "For a final confirmation, explain why individual B was or was not the most rational of the three individuals.",
+      "If the degree of B’s belief did map to the degree of the evidence, B would be most rational of the three individuals, correct?",
+      "Then it is correct to say rational belief is a degree of belief that maps to the degree of the relevant evidence. Right?",
+      "Create an 8-item quiz on the discussion above. ",
+      "Provide 15 discussion questions relevant to the content above. "
+    ],
+    "modelLogoOrder": [
+      "ai-logos-chatgpt",
+      "ai-logos-claude2"
+    ],
+    "preamble": "All original highlights read; now labeled edited summary, complete prompt order retained."
+  },
+  "responseDecisions": {
+    "1.1": "Corrected three-question count, non-monotonic evidence, A endpoint, B movement and unjustified exact percentages; retained title, three question list and color legend. Added explicit schematic limits.",
+    "1.2": "Retained short description structure; corrected claim that A aligned from the start.",
+    "2.1": "Separated later support from earlier justification and belief from knowledge; no diagnosis of confirmation bias from a line alone.",
+    "2.2": "Directly answered A question under same-evidence premise; distinguished evidence from truth.",
+    "3.1": "Reviewed initial response plus five embedded follow-ups. Kept all prompts and three successive three-scenario lists; repaired action/credence confusion, scoped law example, made medical case hypothetical, added worked odds example and redundant-evidence caveat.",
+    "3.2": "Reviewed initial response plus six embedded prompts. Preserved four-paragraph initial error and six-paragraph B misreading with visible warnings; exact quoted whim sentence and challenges remain. Rewrote each correction to concede actual mistakes, identified B correctly, bounded schematic ideal.",
+    "4.1": "Eight questions and eight end keys retained; repaired question endorsing erroneous danger of accuracy and clarified law/Bayesian answers.",
+    "4.2": "Eight questions and keys retained; qualified threshold question and underconfidence answer, all keys checked.",
+    "5.1": "Fifteen questions in order, twelve verbatim; revised three that obscured the established correction.",
+    "5.2": "Fifteen questions retained verbatim: useful open challenges on disagreement, emotion, institutions and calibration."
+  },
+  "allPromptsInSourceOrderIncludingEmbedded": true,
+  "originalListStructuresIndependentlyPreserved": true,
+  "negativeControlsRejected": [
+    "changed prompt",
+    "missing response",
+    "missing answer",
+    "missing embedded prompt",
+    "missing original graphic",
+    "altered quoted correction",
+    "unreadable graphic size"
+  ],
+  "manualChecks": {
+    "mainPrompts": 5,
+    "embeddedPrompts": 11,
+    "responseColumns": 10,
+    "responseSegmentsIncludingFollowups": 20,
+    "quotedWhimSentenceVerbatim": true,
+    "twoOriginalErrorPassagesClearlyFlagged": true,
+    "originalGraphicInspectedInBrowser": true,
+    "originalGraphicUrlPreserved": true,
+    "quizQuestions": [
+      8,
+      8
+    ],
+    "quizEndKeys": [
+      8,
+      8
+    ],
+    "discussionQuestions": [
+      15,
+      15
+    ],
+    "discussionQuestionsVerbatim": 27,
+    "workedOddsExample": "1:1 multiplied by 3 gives 3:1, probability 3/4 = 0.75",
+    "limits": [
+      "Chart is schematic, not a quantitative estimator or evidence of perfect measured calibration.",
+      "Original erroneous Claude passages remain visibly labeled to preserve the subsequent curator objections.",
+      "Medical examples are conceptual, not clinical decision instructions; law example explicitly scoped to United States."
+    ]
+  },
+  "research": [
+    {
+      "url": "https://byteseismic.wordpress.com/wp-content/uploads/2024/03/mapping-belief-to-evidence-1.png",
+      "checked": "Browser image: blue follows green up and down with small offsets; purple flat; orange single late jump. Web open failed, browser succeeded."
+    },
+    {
+      "url": "https://www.law.cornell.edu/supremecourt/text/397/358",
+      "checked": "In re Winship majority due-process holding and distinction between preponderance and reasonable-doubt standard. No general jurisdiction claim."
+    }
+  ]
+}

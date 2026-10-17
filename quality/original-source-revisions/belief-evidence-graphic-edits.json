@@ -1,0 +1,197 @@
+{
+  "pageFile": "epistemology/belief-evidence-graphic/index.html",
+  "wordpressId": 3833,
+  "snapshot": "belief-evidence-graphic-wordpress-3833.html",
+  "sourceSha256": "87a1f1198669943de1a692818802da99117ed3244c0f595bf22b393fbc6250fc",
+  "sourceUrl": "http://byteseismic.com/2024/03/17/belief-evidence-graphic/",
+  "sourceLabel": "Original WordPress post, 2024-03-17",
+  "shellRevision": "1ac4091be61b0d2095643e186bfe949257ed96e1",
+  "date": "2026-10-17",
+  "modelLabels": [
+    "ChatGPT",
+    "Claude"
+  ],
+  "replacements": {
+    "1.1.0": "The graphic is a schematic line chart with a title and three questions about how confidence should respond to evidence over time.",
+    "1.1.3": "“Can A rationally say at the end, ‘I knew it all along’?”",
+    "1.1.11": "The green evidence line rises, falls sharply, and then rises in stages. The three belief paths respond differently:",
+    "1.1.12": "Individual A’s purple line remains high throughout, including when the evidence falls. At the right edge it is still drawn above the green line; the graphic does not establish that the proposition has become certainly true.",
+    "1.1.13": "Individual B’s blue line follows the green line’s rises and falls closely. The small visible offsets separate the lines; the accompanying discussion treats B as the evidence-responsive case, not as a sequence of dramatic overshoots.",
+    "1.1.14": "Individual C’s orange line stays near the bottom until the last large increase in evidence, then jumps near the top. Its endpoints are not labeled with exact percentages, so “near zero” and “near certainty” are more faithful than exact numerical readings.",
+    "1.1.15": "The chart compares confidence with the support available at each stage. Treat the green line as the confidence warranted by the relevant evidence within this illustration. Real evidence is not a ready-made probability scale: its relevance, reliability, dependence and background assumptions still require assessment.",
+    "1.2.1": "The first question asks whether A can claim to have known all along merely because the evidence eventually becomes favorable. A’s line does not align with the evidence from the start; that mismatch is the point of the example.",
+    "2.1.0": "On the stated scenario, A’s eventual agreement with favorable evidence does not justify the high confidence maintained earlier. A can accurately say “I believed it all along”; claiming to have known it all along requires more than a belief that later receives support. The error is assessing an earlier belief solely by a later outcome.",
+    "2.1.1": "The comparison assumes the same access to relevant evidence. An additional reliable source available only to A would change the case, but none is given. The flat line shows a failure to respond to the stipulated evidence; it does not by itself diagnose confirmation bias or establish that A’s conclusion is true.",
+    "2.2.0": "A remains highly confident while the evidence rises and falls. Even at the end, favorable evidence is support for the claim, not a record of justification that existed at every earlier time.",
+    "2.2.1": "No: under these assumptions, the final evidence cannot retroactively supply A’s missing earlier grounds. A method that stays equally confident through confirming and disconfirming evidence may occasionally land on the correct answer without being a dependable method of inquiry.",
+    "3.1.0": "<strong>Earlier answer under examination:</strong> The original response defended C’s threshold as potentially rational when a false belief would be costly. That defense conflated a degree of belief with a decision to act. The curator’s follow-ups below expose the distinction. A high action threshold can be appropriate while confidence continues to change.",
+    "3.1.1": "For example, a hypothetical forecast might justify a 30% chance of rain. That estimate could support carrying a cheap umbrella while leaving an expensive outdoor event uncancelled. Different action thresholds do not require inventing different probabilities for the same forecast.",
+    "3.1.2": "C’s line is labeled degree of belief, not action or public commitment. Read that way, staying near zero while relevant reliable evidence accumulates fails to represent the support already available. The subsequent jump also should not manufacture certainty beyond that support.",
+    "3.1.3": "So C’s displayed confidence is not justified by the cost of error. A binary decision may wait for a threshold; a credence—a degree of confidence that a proposition is true—should still reflect the evidence. The following examples distinguish those two questions.",
+    "3.1.4": "<strong>Medical diagnosis:</strong> In a hypothetical case, an unnecessary intervention could be costly. That supports careful assessment of whether to intervene, not deliberate disbelief in a condition that remains possible. Recognizing uncertainty can also matter because delay may have costs. This illustrates the belief/action distinction, not a clinical decision rule.",
+    "3.1.5": "<strong>Criminal justice:</strong> In United States criminal proceedings, conviction requires proof beyond a reasonable doubt; <a href=\"https://www.law.cornell.edu/supremecourt/text/397/358\">In re Winship</a> grounds that protection in due process. Not meeting that standard is not equivalent to establishing that the accused certainly did not commit the act. The example concerns the difference between a verdict standard and a factual assessment.",
+    "3.1.6": "<strong>Scientific research:</strong> A premature causal announcement can misdirect further work. A researcher may assign a plausible but uncertain causal explanation some weight while withholding a strong public claim. Costly error justifies care about evidence and communication, not assigning zero credibility until a preferred threshold is crossed.",
+    "3.1.7": "There is no inherent danger in accurately mapping confidence to the evidential support. The original examples described errors in assessing evidence or acting on it, not a defect in accurate credence. In the same three settings:",
+    "3.1.8": "<strong>Medical diagnosis:</strong> Treating a tentative estimate as certainty can produce an ill-judged decision. The mistake is the unjustified certainty or the action rule, not a probability that faithfully represents current evidence.",
+    "3.1.9": "<strong>Criminal justice:</strong> Ignoring exculpatory evidence or treating repeated dependent testimony as independent confirmation distorts the assessment. A careful evidence-based assessment can coexist with the required protection against conviction on insufficient proof.",
+    "3.1.10": "<strong>Scientific research:</strong> Announcing a tentative association as an established cause confuses a limited finding with a stronger conclusion. Updating confidence accurately while reporting uncertainty avoids that error.",
+    "3.1.11": "Yes. Your distinction is decisive: a credence is not a decision. Better grounded confidence gives a decision-maker a better representation of uncertainty; it does not itself choose an action. My earlier defense of disbelief on the ground that a mistaken action would be costly did not establish what it claimed.",
+    "3.1.12": "Evidence quality is part of assessing what confidence is warranted. Introducing unreliable evidence after the scenario has stipulated reliability changes the problem rather than answering your objection.",
+    "3.1.14": "<strong>Medical diagnosis:</strong> A realistic assessment of uncertainty informs the comparison of possible actions. Inflating or suppressing confidence to make an action feel comfortable makes that comparison less informative.",
+    "3.1.15": "<strong>Criminal justice:</strong> Assessing the evidence and applying the standard for conviction are distinct tasks. Caution about the latter does not require pretending that the evidence provides no information.",
+    "3.1.16": "<strong>Scientific research:</strong> A finding can raise or lower confidence before it warrants a settled conclusion. Maintaining the distinction allows further investigation without either premature certainty or blanket disbelief.",
+    "3.1.17": "More accurate credences improve the information available for choice. Costs then bear on what to do with that information. They do not, just by being high, become evidence that a proposition is false.",
+    "3.1.18": "Yes. When new evidence changes the support for a claim, confidence should respond in the appropriate direction. In Bayesian updating, prior odds are multiplied by how much more likely that evidence is under the claim than under its alternative; this is not a rule to raise confidence merely because another report arrived.",
+    "3.1.19": "For a hypothetical illustration, prior odds of 1:1 become 3:1 if new evidence is three times as likely under the claim as under its alternative. The resulting probability is 75%. Repeating the same report adds no independent evidence and does not warrant applying the multiplier again.",
+    "3.1.20": "The benefit is responsiveness to support, not constant motion for its own sake. Evidence equally likely under both alternatives may leave confidence unchanged. The chart stipulates that the relevant balance changes, so C cannot invoke that exception.",
+    "3.1.21": "Yes. Because the chart depicts changes in warranted confidence, C should have updated as that balance changed. A high threshold for taking some action would not excuse keeping the degree of belief near zero.",
+    "3.1.22": "C could remain cautious about acting while assigning the claim intermediate confidence. This is the distinction your follow-ups establish: evidence governs credence; the consequences of acting or waiting also enter the separate decision.",
+    "3.2.0": "<strong>Original error retained for the correction below:</strong> The following four-paragraph assessment incorrectly defended C and misdescribed A and B. It remains visible because the curator quotes and challenges it. Based on the graph, individual C’s approach of waiting until the balance of evidence reached a high threshold before flipping from disbelief to belief does seem rational and justified.",
+    "3.2.5": "You are right. The scenario gives no reason to treat the changing evidence as whimsical. My original assessment introduced that assumption and used it to defend C’s refusal to update. It also incorrectly said A fluctuated, although A’s plotted line is flat.",
+    "3.2.6": "If the relevant evidential support changes as stipulated, the degree of belief should respond. Waiting for a high threshold may describe a decision policy; it does not justify ignoring intermediate support in the confidence assigned to the claim.",
+    "3.2.7": "I should therefore withdraw the claim that C best exemplifies continuous evidence-mapping. My appeal to prudence depended on a different scenario and confused withholding an action with maintaining near-total disbelief.",
+    "3.2.8": "Under the given assumptions, C’s belief path is poorly matched to the reliable evidential changes. B is the intended contrast: confidence rises and falls with support, even when the resulting level is inconvenient or uncomfortable.",
+    "3.2.11": "The confidence assigned to a claim should fit the evidence bearing on it. Excessive confidence and excessive disbelief can both be mistakes. A low probability is not automatically more rational merely because it sounds cautious.",
+    "3.2.12": "When new evidence changes the balance, revise confidence accordingly. That requires evaluating the evidence’s bearing on the claim; it is not mechanically copying the amount of information or the number of people repeating it.",
+    "3.2.13": "The concise formulation expresses the chart’s central ideal. It does not promise that every real disagreement has a uniquely measurable evidential level or that people can read exact probabilities directly from observations.",
+    "3.2.14": "<strong>Original misreading retained for the next correction:</strong> This six-paragraph assessment wrongly favors C and describes movements the chart does not show. The following curator prompt challenges its consequence. Based on the graphic, individual B does not appear to be the most rational of the three individuals in mapping their degree of belief to the changing balance of evidence over time.",
+    "3.2.20": "Correct. If B’s confidence maps to the changing support, B best satisfies the standard among these three. In the actual schematic, blue follows the rises and falls of green closely; C remains flat near the bottom and then jumps.",
+    "3.2.21": "The small drawn offsets between blue and green do not support my earlier story of dramatic overshooting and plunging. The question tests responsiveness to evidence. It does not supply measurements from which a precise calibration error could be calculated.",
+    "3.2.22": "My preceding response also said C rose steadily in tight alignment; that is visibly wrong. C shows a single abrupt jump after a long unresponsive interval. Correcting that description removes the basis for ranking C above B.",
+    "3.2.23": "B is therefore the most evidence-responsive of the three as the example is intended. That is a judgment about the method over time, not a guarantee that every claim B accepts will turn out true.",
+    "3.2.24": "Yes, as the evidential standard used in this conversation: rational confidence should track the support the relevant evidence provides.",
+    "3.2.25": "When that support strengthens, weakens or stays unchanged, confidence should respond appropriately. This preserves your distinction between a degree of belief and the separate decision to act.",
+    "3.2.26": "Both overconfidence and unjustified disbelief violate the standard. Neither eventual success nor the high cost of a possible mistake supplies the missing evidential grounds.",
+    "3.2.27": "The practical lesson is to ask two questions separately: “How well supported is this claim?” and “Given that uncertainty, what should I do?” The graphic addresses the first; the attempted defense of C repeatedly substituted the second.",
+    "4.1.1": "What is the difference between accurately updating confidence and overreacting to poorly assessed evidence?",
+    "4.1.3": "In the United States criminal-justice example, what standard must a conviction meet, and why is that different from assuming factual innocence with certainty?",
+    "4.1.10": "Accurate updating reflects the evidence’s real support. Overreaction gives information more weight than it warrants; that is a failure of assessment, not a danger of accurate credence.",
+    "4.1.12": "Proof beyond a reasonable doubt. Failure to meet the conviction standard does not establish a zero probability of guilt.",
+    "4.1.14": "The tendency to favor information or interpretations that support an existing view. It can cause relevant contrary evidence to be neglected.",
+    "4.1.16": "Update prior odds by the likelihood ratio of the new evidence, accounting for relevance and dependence rather than counting repeated reports as fresh support.",
+    "4.2.2": "In this scenario, where reliable evidence changes the warranted confidence, is it rational to wait for a high threshold before updating that confidence?",
+    "4.2.14": "Unjustified overconfidence or underconfidence relative to the stipulated support.",
+    "5.1.1": "How does accurate evidence-based confidence differ from reacting strongly to unreliable or misunderstood information?",
+    "5.1.8": "When could new information leave a skeptical assessment unchanged, and how is that different from C ignoring evidence that changes the balance?",
+    "5.1.12": "How would your assessment of C change if the orange line represented an action rather than a degree of belief?"
+  },
+  "countChecks": [
+    {
+      "name": "1.1.ol source counts",
+      "selector": "#prompt-1 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        3
+      ]
+    },
+    {
+      "name": "1.1.ul source counts",
+      "selector": "#prompt-1 .original-response[data-source-column=\"1\"] ul",
+      "child": "li",
+      "expected": [
+        4,
+        3
+      ]
+    },
+    {
+      "name": "3.1.ol source counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "4.1.ol source counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        8,
+        8
+      ]
+    },
+    {
+      "name": "4.2.ol source counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        8,
+        8
+      ]
+    },
+    {
+      "name": "5.1.ol source counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    },
+    {
+      "name": "5.2.ol source counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    }
+  ],
+  "responseDecisions": {
+    "1.1": "Corrected three-question count, non-monotonic evidence, A endpoint, B movement and unjustified exact percentages; retained title, three question list and color legend. Added explicit schematic limits.",
+    "1.2": "Retained short description structure; corrected claim that A aligned from the start.",
+    "2.1": "Separated later support from earlier justification and belief from knowledge; no diagnosis of confirmation bias from a line alone.",
+    "2.2": "Directly answered A question under same-evidence premise; distinguished evidence from truth.",
+    "3.1": "Reviewed initial response plus five embedded follow-ups. Kept all prompts and three successive three-scenario lists; repaired action/credence confusion, scoped law example, made medical case hypothetical, added worked odds example and redundant-evidence caveat.",
+    "3.2": "Reviewed initial response plus six embedded prompts. Preserved four-paragraph initial error and six-paragraph B misreading with visible warnings; exact quoted whim sentence and challenges remain. Rewrote each correction to concede actual mistakes, identified B correctly, bounded schematic ideal.",
+    "4.1": "Eight questions and eight end keys retained; repaired question endorsing erroneous danger of accuracy and clarified law/Bayesian answers.",
+    "4.2": "Eight questions and keys retained; qualified threshold question and underconfidence answer, all keys checked.",
+    "5.1": "Fifteen questions in order, twelve verbatim; revised three that obscured the established correction.",
+    "5.2": "Fifteen questions retained verbatim: useful open challenges on disagreement, emotion, institutions and calibration."
+  },
+  "preambleHeadingIndexes": [
+    0
+  ],
+  "preambleImageOrigins": {
+    "1.0": {
+      "sourceAttribute": "src",
+      "url": "https://byteseismic.wordpress.com/wp-content/uploads/2024/03/mapping-belief-to-evidence-1.png?w=1024",
+      "alt": "Original belief/evidence chart: A stays highly confident; B follows the rising and falling evidence; C stays near zero before jumping near certainty.",
+      "maxWidth": "100%"
+    }
+  },
+  "embeddedPrompts": {
+    "3.1": [
+      "Provide three scenarios in which the cost of belief would be high, epistemically justifying disbelief.",
+      "In your three secnarios, what would be the actual danger of mapping one’s belief to the degree of the evidence?",
+      "But a credence is not a decision. Wouldn’t more accurate credences better inform the decisions?",
+      "All things being equal, including the credibility of the evidence, is it not better to update your priors as new confirming and disconfirming evidence arrives?",
+      "Then, based on your last response, it would have been more rational for C to have updated their credences to map to the changing balance of evidence, right?"
+    ],
+    "3.2": [
+      "You said the following:",
+      "However, there was no suggestion in my scenario that the evidence was anything other than reliable evidence. There is no “whim”, and therefore, C would be irrational not to constantly adjust their degree of belief as the degree of the non-whimsical evidence arrived, right?",
+      "Provide a salient reformulation of the notion that rational belief is a degree of belief that maps to the degree of the relevant evidence. ",
+      "For a final confirmation, explain why individual B was or was not the most rational of the three individuals.",
+      "If the degree of B’s belief did map to the degree of the evidence, B would be most rational of the three individuals, correct?",
+      "Then it is correct to say rational belief is a degree of belief that maps to the degree of the relevant evidence. Right?"
+    ]
+  },
+  "headings": [
+    "Reading the three belief paths",
+    "Being right at the end does not justify earlier certainty",
+    "Confidence, action thresholds, and the curator’s corrections",
+    "Two eight-item quizzes with answers",
+    "Fifteen discussion questions from each response"
+  ],
+  "introHeading": "Following the evidence through the full exchange",
+  "intro": "The original graphic and both response tracks are restored here, including eleven embedded curator prompts. The initial Claude assessment and its later misreading of B remain explicitly flagged so the ensuing corrections can be read in context. The chart illustrates an ideal of evidential responsiveness; it does not supply a numerical method for weighing real evidence.",
+  "description": "Read the original belief/evidence graphic, the curator’s corrections, and both response tracks on confidence, evidence and decisions.",
+  "highlights": [
+    "A later favorable result does not justify earlier unsupported certainty.",
+    "A threshold for action is different from a degree of belief.",
+    "B follows the changing evidence; C postpones updating confidence.",
+    "The curator repeatedly separates reliable evidence from whim and credence from decision."
+  ]
+}

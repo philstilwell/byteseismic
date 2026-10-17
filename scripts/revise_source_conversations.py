@@ -343,7 +343,9 @@ def render(config):
                 assert original_preamble.img[image_origin['sourceAttribute']] == image_origin['url']
                 preamble.img['src'] = image_origin['url']
                 preamble.img['alt'] = image_origin['alt']
-                preamble.img['style'] = 'max-width:189px;height:auto'
+                max_width = image_origin.get('maxWidth', '189px')
+                assert max_width in ('189px', '100%')
+                preamble.img['style'] = f'max-width:{max_width};height:auto'
             preamble['data-source-preamble'] = f'{n}.{k}'
             section.append(preamble)
         for c, col in enumerate(cols, 1):
@@ -475,6 +477,7 @@ def verify(config, rendered):
             if image_origin:
                 assert p.img is not None, 'Original preamble illustration missing'
                 assert p.img['src'] == image_origin['url'] and p.img['alt'] == image_origin['alt']
+                assert p.img['style'] == f"max-width:{image_origin.get('maxWidth', '189px')};height:auto"
     assert prompts == [n.get_text() for n in soup.select('.original-prompt-text')]
     assert prompts == [n.get_text() for n in soup.select('.prompt-ledger__text')]
     used = set()
