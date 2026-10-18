@@ -4,8 +4,8 @@
   "startIndex": 100,
   "endIndexExclusive": 150,
   "candidateWordPressOriginals": 49,
-  "fullyReviewed": 24,
-  "pendingFullReview": 26,
+  "fullyReviewed": 26,
+  "pendingFullReview": 24,
   "sourceBlocked": 0,
   "limitation": "Twenty-four entries have substantive review and source verification; twenty-six remain pending. No batch advancement. Belief/Evidence Graphic preserves eleven embedded curator prompts and labels retained original errors. Pascal’s Wager distinguishes assumed payoffs, probabilities, valuation and evidence; adds its missing seventh answer guide. Prior page-specific limitations remain documented.",
   "pages": [
@@ -625,7 +625,7 @@
       "pagePath": "/epistemology/the-inductive-paradox/",
       "pageTitle": "The Inductive Paradox",
       "queueIndex": 125,
-      "status": "pending-full-review",
+      "status": "reviewed-verified",
       "wordpressId": 13949,
       "sourceUrl": "http://byteseismic.com/2024/10/21/the-inductive-paradox/",
       "sourceTitle": "The Inductive Paradox",
@@ -643,14 +643,16 @@
         "Provide 20 discussion questions relevant to the content above. "
       ],
       "wordCount": 8234,
-      "fullSourceRead": false,
-      "editorialReviewComplete": false
+      "fullSourceRead": true,
+      "editorialReviewComplete": true,
+      "reviewDate": "2026-10-18",
+      "verification": "quality/original-source-revisions/the-inductive-paradox-verification-2026-10-18.json"
     },
     {
       "pagePath": "/humanistic-philosophies/christian-apologetics/",
       "pageTitle": "Christian Apologetics",
       "queueIndex": 126,
-      "status": "pending-full-review",
+      "status": "reviewed-verified",
       "wordpressId": 13360,
       "sourceUrl": "http://byteseismic.com/2024/09/14/christian-apologetics/",
       "sourceTitle": "Christian Apologetics",
@@ -667,8 +669,10 @@
         "Provide 20 discussion questions relevant to the content above. "
       ],
       "wordCount": 7852,
-      "fullSourceRead": false,
-      "editorialReviewComplete": false
+      "fullSourceRead": true,
+      "editorialReviewComplete": true,
+      "reviewDate": "2026-10-18",
+      "verification": "quality/original-source-revisions/christian-apologetics-verification-2026-10-18.json"
     },
     {
       "pagePath": "/philosophical-inquiry/common-sense-blunders/",
@@ -1252,6 +1256,6 @@
       "editorialReviewComplete": false
     }
   ],
-  "updatedAt": "2026-10-17T13:08:59.268164+00:00",
-  "recordedAt": "2026-10-17T13:08:59.268164+00:00"
+  "updatedAt": "2026-10-18T13:22:48.374798+00:00",
+  "recordedAt": "2026-10-18T13:22:48.374798+00:00"
 }

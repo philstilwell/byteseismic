@@ -1,0 +1,166 @@
+{
+  "pagePath": "/humanistic-philosophies/christian-apologetics/",
+  "sourceSha256": "069e02ee350413dd5b919aa88da0ef6f55b9476612a573d86b89d23d22f9e077",
+  "originalPrompts": 5,
+  "originalHeadings": 6,
+  "sourceColumns": 6,
+  "modelResponses": 6,
+  "blocksRetainedVerbatim": 169,
+  "tableCellsExplicitlyRevised": 13,
+  "blocksExplicitlyRevised": 132,
+  "bareAnswersExplicitlyRevised": 12,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "1.1.ol source counts": [
+      12
+    ],
+    "1.1.ul source counts": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "4.1.ul source counts": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "6.1.ol source counts": [
+      20
+    ],
+    "6.1.ul source counts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "twelve response rows plus header": [
+      13
+    ],
+    "fifteen expandable answers": [
+      15
+    ]
+  },
+  "sha256": "381ef597a27b391272d551a79aa648d540ccc50a849adf1ec6f28c48c388e239",
+  "verifiedAt": "2026-10-18T13:20:02.224139+00:00",
+  "source": {
+    "wordpressId": 13360,
+    "title": "Christian Apologetics",
+    "url": "http://byteseismic.com/2024/09/14/christian-apologetics/",
+    "cache": ".cache/byteseismic-posts-with-content.json",
+    "snapshot": "christian-apologetics-wordpress-13360.html",
+    "fullSourceRead": true,
+    "fullPreviousEditionRead": true,
+    "urlTitleAndAllHeadingsMatched": true,
+    "allOriginalHeadings": [
+      "What are the general categories of Christian apologetics?",
+      "Imagine someone says, “The sparse evidence for your God requires that I assign a very low credence to your God’s existence.” How might each category of apologist respond? ",
+      "For each apologetic category, provide a hypothetical dialogue between an apologist and a philosopher, with the philosopher revealing the weaknesses in the apologetics approach.",
+      "How might any of these apologetic approaches deal with the absurdity of an omnipresent and omnipotent God wanting a relationship with humans, but requiring that those humans read a holy book to come to know him?",
+      "Quiz",
+      "Provide 20 discussion questions relevant to the content above. "
+    ],
+    "modelAttribution": "ChatGPT logos in original source; displayed as editorial editions"
+  },
+  "responseDecisions": {
+    "1.1": "Restored all twelve approaches and original overview/method/proponent lists. Clarified overlapping categories, proper basicality, qualified historical associations, Kant practical faith, and compatibility versus positive evidence. Effective descriptions retained.",
+    "2.1": "Restored all twelve table rows; rewrote replies as explicitly hypothetical, differentiated changes to evidence from changes to justification standard, and stated narrow claims without treating apologetic assertions as findings.",
+    "3.1": "Restored all twelve dialogues with 96 turns in source order. Repaired physics/quantum, historical independence and mass-hallucination assertions, description/normativity conflations, basic belief, Bayesian dependence, modal reversal, and cultural/biological overclaims. Preserved critical progression and final skeptical turns.",
+    "4.1": "Restored twelve response/strength/weakness comparisons. Addressed exact curator objection, rejected universal personal-reading premise without evading relational hiddenness, distinguished stated theological proposals from demonstrated access, and challenged free-will/mystery as unsupported answers.",
+    "5.1": "Restored fifteen question/expandable-answer pairs, repaired dependent-evidence, modal argument, basicality and hiddenness keys. Three effective source answers retained.",
+    "6.1": "All twenty source questions in order; sixteen verbatim. Four revised to reflect corrected cumulative, modal, evidence and hiddenness distinctions."
+  },
+  "negativeControlsRejected": [
+    "changed original prompt",
+    "missing response",
+    "missing dialogue turn",
+    "missing quiz answer",
+    "missing comparison table"
+  ],
+  "originalListsIndependentlyPreserved": true,
+  "dialogueTurns": 96,
+  "speakerOrderExact": true,
+  "quizQuestions": 15,
+  "quizAnswers": 15,
+  "discussionQuestions": 20,
+  "manualChecks": {
+    "categories": 12,
+    "comparisonDataRows": 12,
+    "dialogues": 12,
+    "dialogueTurnsByCategory": [
+      10,
+      8,
+      10,
+      6,
+      6,
+      6,
+      8,
+      8,
+      8,
+      8,
+      8,
+      10
+    ],
+    "hiddennessComparisons": 12,
+    "scope": "Hypothetical dialogues, not quotations or definitive surveys of Christian traditions; critical conclusions concern support for claims."
+  },
+  "research": [
+    {
+      "url": "https://www.ccel.org/p/plantinga/warrant3/cache/warrant3.pdf",
+      "checked": "Primary preface account of extended Aquinas/Calvin model: proper function, truth-directed process and conditional scope. Web deep-open failed; direct PDF download and local text extraction succeeded. No whole-book reading claimed."
+    },
+    {
+      "url": "https://www.garyhabermas.com/articles/Habermas_Minimal%20Facts%20STR%202012.pdf",
+      "checked": "Pages 10–11 of PDF: author explicitly excludes empty tomb from strict minimal facts, distinguishes early proclamation and related premises. No independent survey of scholarly consensus claimed."
+    },
+    {
+      "url": "https://www.reasonablefaith.org/writings/question-answer/the-ontological-argument-once-more/",
+      "checked": "Proponent’s discussion of necessary existence and possibility; corrected asymmetric dismissal of rival possibility. Critical assessment is editorial reasoning, not attributed to Craig."
+    },
+    {
+      "url": "https://www.vatican.va/content/catechism/en/part_one/section_one/chapter_two/article_3/ii_inspiration_and_truth_of_sacred_scripture.html",
+      "checked": "Official account distinguishes Christian Word from merely written text; used as one denominational counterexample to universal personal-reading requirement, not as evidence the religion is true."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17438286/",
+      "checked": "Liu/Ochman 2007 abstract and indexed PMC search extract: comparative sequence evidence for stepwise flagellar development. University PDF link was 404 and replaced with PubMed. Direct PMC access challenged; not bypassed. No complete evolutionary reconstruction or replication claim; PubMed lists an erratum not assessed here."
+    }
+  ]
+}
