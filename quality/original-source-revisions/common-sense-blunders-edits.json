@@ -1,0 +1,209 @@
+{
+  "pageFile": "philosophical-inquiry/common-sense-blunders/index.html",
+  "wordpressId": 6614,
+  "snapshot": "common-sense-blunders-wordpress-6614.html",
+  "sourceSha256": "2c309b2dd42e857396e809f9abf257c78af67286a42d47666c8f7b5d029e6764",
+  "sourceUrl": "http://byteseismic.com/2024/04/18/common-sense-blunders/",
+  "sourceLabel": "Original WordPress post, 2024-04-18",
+  "shellRevision": "c294d6c7b7b582ce58d194ca7f50e0b25b256ef9",
+  "date": "2026-10-19",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "replacements": {
+    "1.1.0": "Here are five cases in different domains. “Common sense” means an initially plausible everyday judgment here, not a belief held by everyone. Some corrections are well established; others show why an unconditional rule needs limits.",
+    "1.1.1": "<strong>Astronomy.</strong> <strong>Common sense:</strong> The sky appears to move around a stationary Earth. <strong>Correction:</strong> Earth rotates and orbits the Sun. Copernicus developed a Sun-centered model; Kepler refined planetary orbits and Galileo supplied important observations. The daily appearance alone cannot settle which body moves. Geocentrism was also a developed mathematical tradition, not merely an unexamined intuition; the transition required comparing models against multiple observations.",
+    "1.1.2": "<strong>Health and medicine.</strong> <strong>Common sense:</strong> Getting cold directly gives you a cold. <strong>Correction:</strong> A cold is a viral infection, as the <a href=\"https://www.cdc.gov/common-cold/about/index.html\">CDC explains</a>. Weather and behavior can affect opportunities for infection, but low temperature alone does not supply the virus. This distinguishes an infectious cause from conditions that may alter risk.",
+    "1.1.3": "<strong>Economics.</strong> <strong>Common sense:</strong> If a household improves its finances by cutting spending, government cuts must help an economy recover from recession. <strong>Correction:</strong> Spending also supplies someone else’s income. <a href=\"https://www.imf.org/en/news/articles/2015/09/28/04/53/sores093010a\">IMF analysis of fiscal consolidation</a> found typical short-term contraction. Effects depend on monetary policy, debt constraints, timing and the measures used; this is not a rule that every spending increase helps. The error is transferring a household analogy to an economy without tracing the feedback.",
+    "1.1.4": "<strong>Physics.</strong> <strong>Common sense:</strong> Greater weight must make an object fall faster. <strong>Correction:</strong> Objects released together in the same gravitational field have the same gravitational acceleration when air resistance and other relevant effects are negligible. Galileo challenged the weight rule; the <a href=\"https://science.nasa.gov/resource/the-apollo-15-hammer-feather-drop/\">Apollo 15 hammer-and-feather demonstration</a> provides a memorable near-vacuum test. In air, shape and drag help explain why a feather falls differently.",
+    "1.1.5": "<strong>Environmental science.</strong> <strong>Common sense:</strong> A biodegradable paper bag must be environmentally better than a plastic one. <strong>Correction:</strong> The <a href=\"https://www.gov.uk/government/publications/life-cycle-assessment-of-supermarket-carrierbags-a-review-of-the-bags-available-in-2006\">Environment Agency’s 2011 study of bags available in 2006</a> found a higher climate impact for the modeled paper bag at low reuse. Results depend on production, carrying capacity, reuse and disposal; climate impact also differs from litter persistence. “Natural” is not a sufficient comparison, and this dated study is not a universal verdict on today’s bags.",
+    "1.1.6": "The shared lesson is to test the inference between an appearance and a conclusion. Replacing an intuitive slogan with a counterintuitive slogan would repeat the same mistake.",
+    "1.2.0": "<strong>Geography:</strong> A small area of ground can look flat even though Earth is approximately spherical, with a slight equatorial bulge. Local appearance is compatible with a much larger curved surface. The useful correction is about scale; it does not require the false historical story that all earlier societies believed in a flat Earth.",
+    "1.2.1": "<strong>Physics:</strong> Reports of initially hotter water freezing sooner are called the Mpemba effect. Whether this occurs depends on the setup and on whether “freezing” means first ice, a temperature threshold or complete solidification. <a href=\"https://www.nature.com/articles/srep37665\">Burridge and Linden’s experiments</a> challenged the general cooling claim; a <a href=\"https://arxiv.org/abs/1701.03219\">researcher’s reply</a> disputed their treatment of freezing. This is a conditional, contested example, not a settled law that hot water always freezes faster. It tests our willingness to examine a surprising claim as carefully as an intuitive one.",
+    "1.2.2": "<strong>Biology:</strong> The familiar story that ostriches hide by burying their heads is a myth, rather than a sound deduction from observation. The <a href=\"https://animals.sandiegozoo.org/animals/ostrich\">San Diego Zoo describes a defensive posture</a> with the head and neck held low against the ground, creating a misleading distant appearance. The original response’s temperature-regulation explanation did not establish the reason for that posture.",
+    "1.2.3": "<strong>Economics:</strong> Saving more can help one household, yet simultaneous spending cuts can reduce incomes across an economy when demand is weak and other spending does not compensate. This is the <a href=\"https://www.stlouisfed.org/publications/page-one-economics/2012/05/01/wait-is-saving-good-or-bad-the-paradox-of-thrift\">paradox of thrift</a>, the subject of the original response’s link. It does not establish the original claim that lower policy rates shrink the money supply and raise borrowing rates. Saving can also finance investment; the timing and response of the rest of the economy matter.",
+    "1.2.4": "<strong>Psychology:</strong> More uninterrupted work time need not mean better work. A <a href=\"https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0272460\">2022 meta-analysis of short breaks</a> found small benefits for vigor and fatigue, but no statistically significant overall performance gain. Thus breaks can help recovery without guaranteeing better memory or productivity on every task. Measure fatigue, accuracy and output separately rather than treating time at the desk as a complete result.",
+    "2.1.0": "Common-sense errors can arise from useful shortcuts applied outside their reliable conditions, poor evidence, and misplaced confidence. These eight sources overlap; naming a bias is a prompt to inspect reasoning, not proof that a particular person is wrong.",
+    "2.1.5": "<strong>Definition:</strong> Inductive reasoning extends beyond observed cases. Even a careful inference can be mistaken because its evidence does not guarantee its conclusion; a biased sample is an additional weakness, not what makes induction legitimate.",
+    "2.1.6": "<strong>Impact:</strong> “It has worked on my street” becomes “it works everywhere” without checking differences in the wider population. Improve the sample and narrow the claim; do not abandon inference from experience.",
+    "2.1.9": "<strong>Impact:</strong> The gambler’s fallacy treats a run of independent outcomes as making a compensating result due. Past events can matter when outcomes are dependent or reveal how a process works. Other errors include expecting small samples to balance perfectly and ignoring the base rate—the relevant background frequency.",
+    "2.1.15": "<strong>Impact:</strong> A vivid crash may dominate a risk judgment while less memorable events receive too little attention. Compare frequencies for a specified population, exposure and time period; emotional intensity cannot supply those denominators.",
+    "2.1.18": "<strong>Impact:</strong> An initial price or estimate may pull later judgments toward it even when it is irrelevant. Insufficient adjustment is one possible process; the remedy is to build an independent estimate from relevant evidence, not simply to move farther from the first number.",
+    "2.2.1": "<strong>Inductive inference and overgeneralization:</strong> Inference from limited observations is indispensable but fallible. A child who sees puddles grow during rain has a reasonable causal clue; the possibility of drainage does not refute rain’s contribution. The mistaken extension is “every puddle always grows whenever it rains.” Inflow, drainage and evaporation jointly determine the result.",
+    "2.2.2": "<strong>Errors in probability assessment:</strong> People may estimate frequency from memorable examples without checking how often the relevant exposure occurs. Many news reports about a hazard do not establish its risk per journey or per year. The original flying-versus-lightning comparison lacked a defined population, time period and outcome, so it cannot support a reliable ranking.",
+    "2.2.3": "<strong>Emotional salience:</strong> An alarming or reassuring presentation can make a claim feel more credible than its evidence warrants. Emotion can also draw attention to a real problem; ask whether the feeling is identifying an issue to investigate or being used as proof of the explanation.",
+    "2.2.6": "<strong>Cultural assumptions:</strong> Familiar customs can be mistaken for universal facts. A gesture’s meaning may genuinely depend on a local convention; the physical effects of a treatment do not become true merely because a community expects them. Identify which kind of claim is being made.",
+    "2.2.7": "<strong>Language limitations:</strong> Words can hide changes of meaning or scope. “Natural” may mean occurring without human manufacture, but it does not thereby mean safe. Likewise, “common sense” can conceal disagreement about whose experience counts. Define the claim before accepting the implication.",
+    "3.1.0": "No cognitive routine can ensure that every commonsense belief is true. The following seven-stage process can expose weak assumptions and make confidence better proportioned to evidence. Spend more effort where mistakes would matter most.",
+    "3.1.2": "<strong>Reflect:</strong> Write the claim in a form that could be wrong. Replace “paper is greener” with a specified comparison of bags, carrying capacity, reuse and environmental outcome. Record why you initially expect that result.",
+    "3.1.3": "<strong>Challenge:</strong> Ask what observation would count against the claim and what a plausible rival would predict. The opposite claim is not automatically the only alternative; the answer may depend on conditions.",
+    "3.1.5": "<strong>Consult:</strong> Ask people with relevant expertise and different experiences which assumptions you may be missing. Diversity can reveal blind spots; it does not make every view equally supported.",
+    "3.1.6": "<strong>Read:</strong> Trace important claims to their evidence. Check the study’s population, comparison, outcome and limitations; several websites repeating one study are not several independent tests.",
+    "3.1.8": "<strong>Apply logical reasoning:</strong> Check whether the conclusion follows from the stated premises. A valid inference can still start from a false premise, so test the premises separately.",
+    "3.1.9": "<strong>Test hypotheses:</strong> Specify competing predictions before looking at the result. For a hypothetical raffle where most winners bought tickets at one shop, compare winners with tickets sold there. A large share of winners is unsurprising if that shop sold a large share of tickets.",
+    "3.1.11": "<strong>Experimentation:</strong> Where feasible and appropriate, compare conditions while controlling relevant differences. Repetition, measurement quality and a suitable comparison matter; an experiment supplies evidence rather than an unconditional guarantee.",
+    "3.1.12": "<strong>Observation and data analysis:</strong> When intervention is impractical, inspect suitable observational evidence. Check sample selection, missing cases and alternative causes. Statistical calculations cannot repair a misleading comparison merely by being precise.",
+    "3.1.14": "<strong>Assess probabilities:</strong> Consider background frequencies and how strongly the evidence favors one explanation over its rivals. State a range or qualitative confidence when a precise probability is unjustified.",
+    "3.1.15": "<strong>Think in terms of risk and reward:</strong> Separate belief from action. A costly possible error can justify a precaution or further inquiry; it does not make the feared event more probable. Decide how to act using both evidence and consequences.",
+    "3.1.18": "<strong>Error correction:</strong> Record what changed your assessment and revise the specific claim that failed. Avoid rescuing it by silently changing its meaning or demanding stricter evidence only from critics.",
+    "3.1.21": "<strong>Pause and inspect:</strong> Notice urgency, defensiveness or the desire for a comforting answer. Then use a concrete check: write a rival explanation or ask someone to examine your evidence. Feeling mindful or calm does not establish that a belief is unbiased.",
+    "3.1.23": "End with a stated claim, its supporting and opposing evidence, your present confidence, and what would change it. A provisional conclusion can be enough for an ordinary decision. The aim is a judgment that can be checked and corrected, not certainty produced by completing a checklist.",
+    "3.2.0": "Use this shorter six-step version when an everyday claim feels obvious. It can improve reliability, but it cannot guarantee truth.",
+    "3.2.1": "<strong>Question your initial assumptions:</strong> State exactly what seems obvious, including its scope. Is it “this happened once,” “this usually happens,” or “this must always happen”? Each requires different support.",
+    "3.2.2": "<strong>Seek evidence:</strong> Look for observations or studies that address that exact claim. Check methods and independent confirmation, rather than treating a reputable outlet or peer review as a guarantee.",
+    "3.2.3": "<strong>Consider alternative explanations:</strong> Ask what else could produce the observation and which evidence would distinguish the alternatives. Seek relevant challenges, not just contrary opinions.",
+    "3.2.4": "<strong>Evaluate the source:</strong> Examine expertise, methods, incentives and access to the underlying evidence. A possible bias calls for checking; it does not automatically falsify a result.",
+    "3.2.5": "<strong>Context matters:</strong> Check whether the conditions match. A claim about a feather falling in a vacuum does not predict the same motion in air.",
+    "3.2.7": "You can stop when the evidence is adequate for the decision while leaving the belief open to revision. Record the main uncertainty and a reason to reopen the question. Endless searching and premature certainty are both avoidable.",
+    "4.1.4": "True or False: Low temperature alone, without a viral infection, causes a common cold.",
+    "4.1.5": "In the Apollo 15 demonstration, why did the hammer and feather fall together?",
+    "4.1.8": "Why is “paper is biodegradable” insufficient to establish that a paper bag has the lower environmental impact?",
+    "4.1.9": "What can checking an argument’s logical validity establish, and what must still be checked separately?",
+    "4.1.14": "There was essentially no air resistance; both objects underwent the same gravitational acceleration.",
+    "4.1.17": "Production, carrying capacity, reuse, disposal and the particular environmental outcome also matter. Biodegradability alone does not settle the comparison.",
+    "4.1.18": "Validity checks whether the conclusion follows from the premises. Whether the premises are true requires separate support.",
+    "4.2.2": "Estimating a hazard’s frequency from vivid news stories without checking exposure illustrates which probability-assessment problem?",
+    "4.2.4": "What name is given to reports of initially hotter water freezing sooner, and why must the freezing endpoint be specified?",
+    "4.2.8": "When a claim seems commonsensical, what should you specify first, and does completing the checking process guarantee truth?",
+    "4.2.10": "Inductive reasoning. Its uncertainty does not make every use of it an error.",
+    "4.2.11": "Availability-driven probability error: memorable reports substitute for a defined frequency or risk measure.",
+    "4.2.13": "The Mpemba effect. First ice, reaching a temperature and freezing completely are different outcomes; results depend on conditions.",
+    "4.2.17": "State the exact claim and its scope, then question its assumptions. The process improves reliability but cannot guarantee truth.",
+    "5.1.6": "Discuss the statement: “All beliefs should be subject to scientific testing.” How do empirical claims differ from logical claims, definitions and value judgments, and how should each be examined?",
+    "5.1.12": "Can pausing to notice your reactions help you investigate a belief? What external checks would distinguish reduced bias from merely feeling more reflective?"
+  },
+  "countChecks": [
+    {
+      "name": "1.1.ol original list counts",
+      "selector": "#prompt-1 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        5
+      ]
+    },
+    {
+      "name": "1.2.ol original list counts",
+      "selector": "#prompt-1 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        5
+      ]
+    },
+    {
+      "name": "2.1.ol original list counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        8
+      ]
+    },
+    {
+      "name": "2.1.ul original list counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"1\"] ul",
+      "child": "li",
+      "expected": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "2.2.ul original list counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        7
+      ]
+    },
+    {
+      "name": "3.1.ul original list counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"1\"] ul",
+      "child": "li",
+      "expected": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "3.2.ol original list counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        6
+      ]
+    },
+    {
+      "name": "4.1.ol original list counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        8,
+        8
+      ]
+    },
+    {
+      "name": "4.2.ol original list counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        8,
+        8
+      ]
+    },
+    {
+      "name": "5.1.ol original list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    },
+    {
+      "name": "5.2.ol original list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    }
+  ],
+  "responseDecisions": {
+    "1.1": "Retain five domains and common-sense/correction sequence. Qualify historical geocentrism, viral causation, fiscal policy, equal gravitational acceleration and the dated carrier-bag comparison; add direct primary links. No universal ranking of bag materials.",
+    "1.2": "Retain five domains/order. Correct Earth shape, qualify disputed Mpemba endpoint, repair ostrich function, replace unsupported interest-rate story with the actual paradox of thrift named in its source link, and bound micro-break findings.",
+    "2.1": "Retain eight sources and each definition/impact pair. Separate fallibility of sound induction from biased sampling, specify independent trials in gambler fallacy, qualify availability and anchoring explanations.",
+    "2.2": "Retain seven sources. Repair rain/puddle counterexample, remove unsourced lightning/aviation risk ranking, explain cultural and language effects without relativism or determinism.",
+    "3.1": "Retain all seven stages and paired actions. Refuse guarantee, operationalize belief and rival prediction, distinguish validity from true premises, experimental evidence from proof and belief from action stakes; replace mindfulness cure claim with checkable reasoning record. Retain useful raffle comparison as explicitly hypothetical within response.",
+    "3.2": "Retain six steps and order. Add reproducible evidence checks, relevant alternatives, source-method distinction and conditions; acknowledge reasonable stopping and uncertainty.",
+    "4.1": "Restore eight questions and end key. Replace misleading Galileo-vacuum attribution, make bag question conditional, distinguish logic and truth. Manually checked every question/key pairing.",
+    "4.2": "Restore eight questions and end key. Remove unsupported risk ranking, correct induction label, distinguish reported freezing effect from guaranteed law and truth-checking from certainty. Every key checked.",
+    "5.1": "Restore fifteen source questions; revise universal testing assumption and unestablished mindfulness benefits. Other thirteen retained verbatim.",
+    "5.2": "Restore all fifteen source questions verbatim: useful open questions about cultural difference, emotional judgment, trust, language and the role/limits of common sense."
+  },
+  "headings": [
+    "Five cases in each response",
+    "Where intuitive errors arise",
+    "A process for checking an obvious-seeming claim",
+    "Eight questions per response, with answers",
+    "Fifteen discussion questions per response"
+  ],
+  "introHeading": "Five cases in each response",
+  "intro": "The original conversation asks for five counterexamples to common sense, the sources of intuitive error, and a process for checking an apparently obvious claim. Both response tracks, their eight-question quizzes and their fifteen-question discussion lists are restored. The examples distinguish established corrections from claims that depend on experimental conditions; no thinking routine can guarantee truth.",
+  "description": "Test common-sense claims through five examples, sources of error, practical evidence checks, and the original quizzes and discussion questions.",
+  "highlights": [
+    "A familiar appearance can support more than one explanation.",
+    "A counterintuitive claim needs evidence too; surprise is not proof.",
+    "Compare like conditions and distinguish a universal claim from a conditional result.",
+    "Use evidence to set confidence and consequences to decide how cautiously to act."
+  ]
+}

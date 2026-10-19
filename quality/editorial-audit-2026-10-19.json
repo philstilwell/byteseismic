@@ -1,0 +1,361 @@
+{
+  "runAt": "2026-10-19T13:10:49.294925+00:00",
+  "status": "partial-batch",
+  "modelConfiguration": {
+    "model": "gpt-6-astra",
+    "reasoningEffort": "high",
+    "runtimeIdentityIndependentlyVerified": false
+  },
+  "cycle": 8,
+  "startIndex": 100,
+  "endIndexExclusive": 150,
+  "newReviews": [
+    {
+      "pagePath": "/philosophical-inquiry/common-sense-blunders/",
+      "sourceSha256": "2c309b2dd42e857396e809f9abf257c78af67286a42d47666c8f7b5d029e6764",
+      "originalPrompts": 5,
+      "originalHeadings": 5,
+      "sourceColumns": 10,
+      "modelResponses": 10,
+      "blocksRetainedVerbatim": 86,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 60,
+      "bareAnswersExplicitlyRevised": 0,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "1.1.ol original list counts": [
+          5
+        ],
+        "1.2.ol original list counts": [
+          5
+        ],
+        "2.1.ol original list counts": [
+          8
+        ],
+        "2.1.ul original list counts": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "2.2.ul original list counts": [
+          7
+        ],
+        "3.1.ul original list counts": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "3.2.ol original list counts": [
+          6
+        ],
+        "4.1.ol original list counts": [
+          8,
+          8
+        ],
+        "4.2.ol original list counts": [
+          8,
+          8
+        ],
+        "5.1.ol original list counts": [
+          15
+        ],
+        "5.2.ol original list counts": [
+          15
+        ]
+      },
+      "sha256": "7027fed961055f6d128861e85c98c1cc0bff1f5f9eef216cc441a18b8d0ff78e",
+      "fullOriginalRead": true,
+      "fullPreviousEditionRead": true,
+      "sourceCache": ".cache/byteseismic-posts-with-content.json",
+      "sourceUrl": "http://byteseismic.com/2024/04/18/common-sense-blunders/",
+      "sourceTitle": "Common Sense Blunders",
+      "sourceUrlTitleAndPromptsMatch": true,
+      "modelLogoOrderVerified": true,
+      "independentListTreeChecks": [
+        {
+          "response": "1.1",
+          "listTreePreserved": true
+        },
+        {
+          "response": "1.2",
+          "listTreePreserved": true
+        },
+        {
+          "response": "2.1",
+          "listTreePreserved": true
+        },
+        {
+          "response": "2.2",
+          "listTreePreserved": true
+        },
+        {
+          "response": "3.1",
+          "listTreePreserved": true
+        },
+        {
+          "response": "3.2",
+          "listTreePreserved": true
+        },
+        {
+          "response": "4.1",
+          "listTreePreserved": true
+        },
+        {
+          "response": "4.2",
+          "listTreePreserved": true
+        },
+        {
+          "response": "5.1",
+          "listTreePreserved": true
+        },
+        {
+          "response": "5.2",
+          "listTreePreserved": true
+        }
+      ],
+      "responseDecisions": {
+        "1.1": "Retain five domains and common-sense/correction sequence. Qualify historical geocentrism, viral causation, fiscal policy, equal gravitational acceleration and the dated carrier-bag comparison; add direct primary links. No universal ranking of bag materials.",
+        "1.2": "Retain five domains/order. Correct Earth shape, qualify disputed Mpemba endpoint, repair ostrich function, replace unsupported interest-rate story with the actual paradox of thrift named in its source link, and bound micro-break findings.",
+        "2.1": "Retain eight sources and each definition/impact pair. Separate fallibility of sound induction from biased sampling, specify independent trials in gambler fallacy, qualify availability and anchoring explanations.",
+        "2.2": "Retain seven sources. Repair rain/puddle counterexample, remove unsourced lightning/aviation risk ranking, explain cultural and language effects without relativism or determinism.",
+        "3.1": "Retain all seven stages and paired actions. Refuse guarantee, operationalize belief and rival prediction, distinguish validity from true premises, experimental evidence from proof and belief from action stakes; replace mindfulness cure claim with checkable reasoning record. Retain useful raffle comparison as explicitly hypothetical within response.",
+        "3.2": "Retain six steps and order. Add reproducible evidence checks, relevant alternatives, source-method distinction and conditions; acknowledge reasonable stopping and uncertainty.",
+        "4.1": "Restore eight questions and end key. Replace misleading Galileo-vacuum attribution, make bag question conditional, distinguish logic and truth. Manually checked every question/key pairing.",
+        "4.2": "Restore eight questions and end key. Remove unsupported risk ranking, correct induction label, distinguish reported freezing effect from guaranteed law and truth-checking from certainty. Every key checked.",
+        "5.1": "Restore fifteen source questions; revise universal testing assumption and unestablished mindfulness benefits. Other thirteen retained verbatim.",
+        "5.2": "Restore all fifteen source questions verbatim: useful open questions about cultural difference, emotional judgment, trust, language and the role/limits of common sense."
+      },
+      "reviewLimitations": [
+        "Targeted factual verification, not an exhaustive survey.",
+        "Original counterintuitive examples remain conditional where evidence requires it."
+      ],
+      "research": [
+        {
+          "url": "https://www.cdc.gov/common-cold/about/index.html",
+          "scope": "CDC current cause statement: viral infection; not weather alone. No personal medical advice."
+        },
+        {
+          "url": "https://www.imf.org/en/news/articles/2015/09/28/04/53/sores093010a",
+          "scope": "IMF summary of its research: typical short-term contraction after fiscal consolidation; contextual qualification rather than current policy advice."
+        },
+        {
+          "url": "https://science.nasa.gov/resource/the-apollo-15-hammer-feather-drop/",
+          "scope": "NASA account of Apollo 15 vacuum demonstration; avoids attributing this experiment to Galileo."
+        },
+        {
+          "url": "https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/291023/scho0711buan-e-e.pdf",
+          "scope": "Environment Agency report, selected scope/conclusions pp58–60 read. Dated bag models and reuse assumptions, not universal material ranking. Initial tool error resolved; no full 120-page reading claimed."
+        },
+        {
+          "url": "https://www.nature.com/articles/srep37665",
+          "scope": "Original Burridge/Linden abstract and discussion of endpoint/definition read; no general hotter-water law claimed."
+        },
+        {
+          "url": "https://arxiv.org/abs/1701.03219",
+          "scope": "Researcher reply abstract distinguishes freezing from cooling; preprint/reply is not treated as final adjudication."
+        },
+        {
+          "url": "https://animals.sandiegozoo.org/animals/ostrich",
+          "scope": "Zoo observational account of defensive low-head posture, replacing unsupported temperature-regulation explanation."
+        },
+        {
+          "url": "https://www.stlouisfed.org/publications/page-one-economics/2012/05/01/wait-is-saving-good-or-bad-the-paradox-of-thrift",
+          "scope": "Federal Reserve educational explanation of demand/income mechanism and longer-run saving benefits; original interest-rate claim unsupported."
+        },
+        {
+          "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0272460",
+          "scope": "Research meta-analysis abstract read: small vigor/fatigue effects; overall performance effect not significant. No general memory or productivity guarantee."
+        }
+      ],
+      "verifiedAt": "2026-10-19T13:07:49.538477+00:00",
+      "discussionQuestionsRetainedVerbatim": 28,
+      "quizQuestionAnswerPairs": 16
+    },
+    {
+      "pagePath": "/philosophical-inquiry/packaged-vs-eclectic-ideologies/",
+      "sourceSha256": "60be73c0c12d8b9acc96800830edce4f7b8eeaa87d3c53bb442616f1d3f6ab8d",
+      "originalPrompts": 5,
+      "originalHeadings": 5,
+      "sourceColumns": 10,
+      "modelResponses": 10,
+      "blocksRetainedVerbatim": 84,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 68,
+      "bareAnswersExplicitlyRevised": 0,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "1.1.ol original list counts": [
+          2
+        ],
+        "1.2.ul original list counts": [
+          3,
+          3,
+          3,
+          2,
+          3
+        ],
+        "2.1.ol original list counts": [
+          2
+        ],
+        "2.2.ul original list counts": [
+          3,
+          3,
+          3,
+          2,
+          3
+        ],
+        "3.1.ol original list counts": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "3.2.ul original list counts": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "4.1.ol original list counts": [
+          7,
+          7
+        ],
+        "4.2.ol original list counts": [
+          7,
+          7
+        ],
+        "5.1.ol original list counts": [
+          12
+        ],
+        "5.2.ol original list counts": [
+          12
+        ]
+      },
+      "sha256": "433d3a8fcee6eb9a8c5d42771e908ae9e84974c5a2d389de0d8fe5c831b6e182",
+      "fullOriginalRead": true,
+      "fullPreviousEditionRead": true,
+      "sourceCache": ".cache/byteseismic-posts-with-content.json",
+      "sourceUrl": "http://byteseismic.com/2024/03/11/packaged-vs-eclectic-ideologies/",
+      "sourceTitle": "Packaged vs Eclectic Ideologies",
+      "sourceUrlTitleAndPromptsMatch": true,
+      "modelLogoOrderVerified": true,
+      "independentListTreeChecks": [
+        {
+          "response": "1.1",
+          "listTreePreserved": true
+        },
+        {
+          "response": "1.2",
+          "listTreePreserved": true
+        },
+        {
+          "response": "2.1",
+          "listTreePreserved": true
+        },
+        {
+          "response": "2.2",
+          "listTreePreserved": true
+        },
+        {
+          "response": "3.1",
+          "listTreePreserved": true
+        },
+        {
+          "response": "3.2",
+          "listTreePreserved": true
+        },
+        {
+          "response": "4.1",
+          "listTreePreserved": true
+        },
+        {
+          "response": "4.2",
+          "listTreePreserved": true
+        },
+        {
+          "response": "5.1",
+          "listTreePreserved": true
+        },
+        {
+          "response": "5.2",
+          "listTreePreserved": true
+        }
+      ],
+      "responseDecisions": {
+        "1.1": "Retain the two-item comparison and three named examples within each item. Distinguish adoption from historical formation, qualify broad ideological families, correct Rand attribution, retain named syntheses without treating them as necessarily eclectic in use.",
+        "1.2": "Retain meal/salad analogies and original lists. Correct capitalism/socialism/liberalism definitions, remove false policy ownership, distinguish selecting from selecting well, replace resonance criterion with evidence/coherence/value examination.",
+        "2.1": "Retain packaged/eclectic adoption and three examples per group. Explain Orthodox church distinction, diversity of Islamic/Jewish interpretation, modern Pagan diversity and the non-equivalence of SBNR and eclectic practice. Treat alternative-healing descriptions as belief reports, not evidence of efficacy.",
+        "2.2": "Retain religion/practice/institution structure and examples. Avoid universal divine/hierarchy claims, distinguish meditative practice from metaphysical endorsement, qualify Hindu diversity and personal experience; preserve personal agency without making comfort a truth criterion.",
+        "3.1": "Retain all four three-item lists. Distinguish stable commitments from predictable outcomes, add concrete tradeoff/coherence checks, separate syncretism from misrepresentation and make shared epistemic standards explicit.",
+        "3.2": "Retain four three-item lists, including useful unchanged cautions. Clarify delegation, flexibility conditions, justification and inquiry stopping; retain practical benefit of community while checking authority.",
+        "4.1": "Restore seven questions/end answers; make benefits conditional, clarify religious adoption, replace syncretism-as-harm with misrepresentation. All answer keys manually checked.",
+        "4.2": "Restore seven questions/end answers. Replace conservative/libertarian ambiguity, distinguish individual selection from policy identity, remove immunity-to-groupthink implication. All keys checked against choices.",
+        "5.1": "Restore twelve questions; ten verbatim. Qualify growth claim and separate cultural borrowing from misrepresentation.",
+        "5.2": "Restore twelve questions; eleven verbatim. Adaptability question now asks for enabling conditions rather than assuming eclecticism always wins."
+      },
+      "reviewLimitations": [
+        "Broad ideological and religious labels are illustrative families, not exhaustive classifications.",
+        "Religious efficacy and metaphysical truth are not established by this comparison."
+      ],
+      "research": [
+        {
+          "url": "https://courses.aynrand.org/lexicon/libertarians/",
+          "scope": "Rand primary quotations establish explicit opposition to movement; influence distinguished from endorsement."
+        },
+        {
+          "url": "https://www.oca.org/questions/teaching/what-is-the-proper-name-for-the-orthodox-church",
+          "scope": "Orthodox Church in America self-description distinguishes Eastern and Oriental Orthodox church families. No theological truth endorsement."
+        },
+        {
+          "url": "https://pluralism.org/eclectic",
+          "scope": "Harvard Pluralism Project field-research glossary describes eclectic Pagan practice."
+        },
+        {
+          "url": "https://pluralism.org/reconstructionist-pagans",
+          "scope": "Same research project distinguishes historical reconstruction from eclectic selection; broad Pagan identity does not prove eclectic adoption."
+        }
+      ],
+      "verifiedAt": "2026-10-19T13:07:49.539013+00:00",
+      "discussionQuestionsRetainedVerbatim": 21,
+      "quizQuestionAnswerPairs": 14
+    }
+  ],
+  "progress": {
+    "batchReviewed": 28,
+    "batchPending": 22,
+    "sourceBlocked": 0,
+    "restartedSubstantivelyReviewed": 128,
+    "restartedNotYetReviewed": 218,
+    "officialTrackerCompleted": 100,
+    "officialTrackerRemaining": 246
+  },
+  "trackerAdvanced": false,
+  "nextPending": "/philosophical-inquiry/selective-pressures-on-ideologies/",
+  "followingBatchFirstPage": "What are Ethics? (inactive)",
+  "fullBuildVerification": "quality/original-source-revisions/batch-verification-2026-10-19.json",
+  "inheritedModifiedFilesUnchanged": 476,
+  "commitAndPush": "Outcome recorded after delivery in automation memory; explicit authorized paths only.",
+  "remainingConcerns": [
+    "Twenty-two pages need full editorial review before batch advancement.",
+    "Targeted research scope and page-specific qualifications recorded in per-page evidence.",
+    "Mobile not tested; shared sidebar issue outside editorial scope.",
+    "Earlier report limitations remain effective."
+  ]
+}

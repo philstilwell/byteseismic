@@ -4,10 +4,10 @@
   "startIndex": 100,
   "endIndexExclusive": 150,
   "candidateWordPressOriginals": 49,
-  "fullyReviewed": 26,
-  "pendingFullReview": 24,
+  "fullyReviewed": 28,
+  "pendingFullReview": 22,
   "sourceBlocked": 0,
-  "limitation": "Twenty-four entries have substantive review and source verification; twenty-six remain pending. No batch advancement. Belief/Evidence Graphic preserves eleven embedded curator prompts and labels retained original errors. Pascal’s Wager distinguishes assumed payoffs, probabilities, valuation and evidence; adds its missing seventh answer guide. Prior page-specific limitations remain documented.",
+  "limitation": "Twenty-eight entries have substantive review and source verification; twenty-two remain pending. No batch advancement. Common Sense Blunders qualifies conditional examples and replaces its unsupported interest-rate claim with the paradox of thrift. Packaged vs Eclectic Ideologies separates adoption from origin, coherence from truth, and personal meaning from evidential support. Prior page-specific limitations remain documented.",
   "pages": [
     {
       "pagePath": "/philosophers/philosopher-club-membership/",
@@ -678,7 +678,7 @@
       "pagePath": "/philosophical-inquiry/common-sense-blunders/",
       "pageTitle": "Common Sense Blunders",
       "queueIndex": 127,
-      "status": "pending-full-review",
+      "status": "reviewed-verified",
       "wordpressId": 6614,
       "sourceUrl": "http://byteseismic.com/2024/04/18/common-sense-blunders/",
       "sourceTitle": "Common Sense Blunders",
@@ -694,14 +694,17 @@
         "Provide 15 discussion questions relevant to the content above. "
       ],
       "wordCount": 3495,
-      "fullSourceRead": false,
-      "editorialReviewComplete": false
+      "fullSourceRead": true,
+      "editorialReviewComplete": true,
+      "reviewedAt": "2026-10-19",
+      "reviewReport": "quality/editorial-audit-2026-10-19.json",
+      "verification": "quality/original-source-revisions/common-sense-blunders-verification-2026-10-19.json"
     },
     {
       "pagePath": "/philosophical-inquiry/packaged-vs-eclectic-ideologies/",
       "pageTitle": "Packaged vs Eclectic Ideologies",
       "queueIndex": 128,
-      "status": "pending-full-review",
+      "status": "reviewed-verified",
       "wordpressId": 3086,
       "sourceUrl": "http://byteseismic.com/2024/03/11/packaged-vs-eclectic-ideologies/",
       "sourceTitle": "Packaged vs Eclectic Ideologies",
@@ -717,8 +720,11 @@
         "Provide 12 discussion questions relevant to the content above. "
       ],
       "wordCount": 3650,
-      "fullSourceRead": false,
-      "editorialReviewComplete": false
+      "fullSourceRead": true,
+      "editorialReviewComplete": true,
+      "reviewedAt": "2026-10-19",
+      "reviewReport": "quality/editorial-audit-2026-10-19.json",
+      "verification": "quality/original-source-revisions/packaged-vs-eclectic-ideologies-verification-2026-10-19.json"
     },
     {
       "pagePath": "/philosophical-inquiry/selective-pressures-on-ideologies/",
@@ -1256,6 +1262,6 @@
       "editorialReviewComplete": false
     }
   ],
-  "updatedAt": "2026-10-18T13:22:48.374798+00:00",
-  "recordedAt": "2026-10-18T13:22:48.374798+00:00"
+  "updatedAt": "2026-10-19T13:10:49.294925+00:00",
+  "recordedAt": "2026-10-19T13:10:49.294925+00:00"
 }
