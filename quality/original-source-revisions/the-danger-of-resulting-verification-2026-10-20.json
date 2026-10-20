@@ -1,0 +1,205 @@
+{
+  "pagePath": "/philosophical-inquiry/the-danger-of-resulting/",
+  "sourceSha256": "a47f2ed837801c0070d89acdd6d31a728e9acb60eb46f7ed6468562ecaee5e9a",
+  "originalPrompts": 7,
+  "originalHeadings": 7,
+  "sourceColumns": 14,
+  "modelResponses": 14,
+  "blocksRetainedVerbatim": 127,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 90,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": false,
+  "explicitListItemSplits": [
+    "7.2.5"
+  ],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "1.1.ol original list counts": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "1.1.ul original list counts": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "1.2.ul original list counts": [
+      3
+    ],
+    "2.2.ol original list counts": [
+      3
+    ],
+    "3.2.ul original list counts": [
+      2,
+      2,
+      2
+    ],
+    "4.2.ul original list counts": [
+      2,
+      2,
+      3
+    ],
+    "5.1.ul original list counts": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "5.2.ul original list counts": [
+      3,
+      3,
+      3,
+      6
+    ],
+    "6.1.ol original list counts": [
+      10,
+      10
+    ],
+    "6.2.ol original list counts": [
+      10,
+      10
+    ],
+    "7.1.ol original list counts": [
+      15
+    ],
+    "7.2.ol fifteen questions after splitting originally merged 5/6": [
+      15
+    ]
+  },
+  "sha256": "9d70a64b1b56c34c76532e45add2beda0708ed00f3964efd01fc66b6be45cb31",
+  "fullOriginalRead": true,
+  "fullPreviousEditionRead": true,
+  "sourceCache": ".cache/byteseismic-posts-with-content.json",
+  "sourceUrl": "http://byteseismic.com/2024/04/12/the-danger-of-resulting/",
+  "sourceTitle": "The Danger of “Resulting”",
+  "sourceUrlTitleAndPromptsMatch": true,
+  "modelLogoOrderVerified": true,
+  "independentListTreeChecks": [
+    {
+      "response": "1.1",
+      "sourceListTreePreservedExceptDeclaredSplit": true
+    },
+    {
+      "response": "1.2",
+      "sourceListTreePreservedExceptDeclaredSplit": true
+    },
+    {
+      "response": "2.1",
+      "sourceListTreePreservedExceptDeclaredSplit": true
+    },
+    {
+      "response": "2.2",
+      "sourceListTreePreservedExceptDeclaredSplit": true
+    },
+    {
+      "response": "3.1",
+      "sourceListTreePreservedExceptDeclaredSplit": true
+    },
+    {
+      "response": "3.2",
+      "sourceListTreePreservedExceptDeclaredSplit": true
+    },
+    {
+      "response": "4.1",
+      "sourceListTreePreservedExceptDeclaredSplit": true
+    },
+    {
+      "response": "4.2",
+      "sourceListTreePreservedExceptDeclaredSplit": true
+    },
+    {
+      "response": "5.1",
+      "sourceListTreePreservedExceptDeclaredSplit": true
+    },
+    {
+      "response": "5.2",
+      "sourceListTreePreservedExceptDeclaredSplit": true
+    },
+    {
+      "response": "6.1",
+      "sourceListTreePreservedExceptDeclaredSplit": true
+    },
+    {
+      "response": "6.2",
+      "sourceListTreePreservedExceptDeclaredSplit": true
+    },
+    {
+      "response": "7.1",
+      "sourceListTreePreservedExceptDeclaredSplit": true
+    },
+    {
+      "response": "7.2",
+      "sourceListTreePreservedExceptDeclaredSplit": true
+    }
+  ],
+  "responseDecisions": {
+    "1.1": "Retain four example domains and original nested lists; label hypotheticals, correct 75%-therefore-sound inference, separate reasonable risk from outcome and preserve room for legitimate medical/business review.",
+    "1.2": "Retain three examples; replace non-diagnostic coaching blame with lucky success, make umbrella precaution conditional on evidence/cost.",
+    "2.1": "Retain all three historical cases and event/test placement; remove unsupported exoneration of Bay of Pigs and Light Brigade and monocausal Versailles account. Explicitly limit examples to conditional applications, not demonstrated diagnoses of historians.",
+    "2.2": "Retain Rome/Civil War/Columbus order; state Rome specificity limitation, restore centrality of slavery, separate sincere motive from justification, distinguish consequences from process. Preserve curator note after both responses in exact original position.",
+    "3.1": "Retain five stages and explanation/application pairs; distinguish earlier and present choices, add consent/boundaries and decisive new evidence, avoid requiring repeated harm or equating compatibility checklist with rationality.",
+    "3.2": "Retain three groups/six bullets and useful sunk-cost caution; separate interaction enjoyment from prior decision quality, remove anti-attraction shortcut and treat consent as non-contingent on success.",
+    "4.1": "Retain six stages/pairs; general review framework only, costs/exposure/alternatives, revise when facts change, compare returns and shared risks; no automatic hold rule or promised benefit.",
+    "4.2": "Retain three groups/seven bullets; distinguish skill/risk/chance, conditional plan adherence, no guaranteed predictability or mandatory hold/rebalance; include costs and changed needs.",
+    "5.1": "Retain seven indicators/strategies; operationalize outcome-reversal and prior-record tests, distinguish emotion from bias, correct long-horizon cure and process dogmatism.",
+    "5.2": "Retain three sign groups/nine indicators and six practices; distinguish hindsight/confirmation/regret, avoid pathologizing normal disappointment, replace mindfulness efficacy claim with bounded practical pause.",
+    "6.1": "Restore ten questions and end key; repair long-term cure and process-versus-feedback errors. Every answer checked.",
+    "6.2": "Restore ten questions/end key; fix erroneous umbrella key, ambiguous process-only option, unsupported most-likely-bias question and mindfulness cure. Break inline options for readability.",
+    "7.1": "Restore fifteen questions; fourteen verbatim. Replace process-versus-outcome false dichotomy with complementary evaluation.",
+    "7.2": "Restore fifteen questions by splitting originally merged fifth/sixth items in place, preserving both texts. Fourteen questions verbatim; distinguish legitimate outcome learning from resulting in question2."
+  },
+  "quizQuestionAnswerPairs": 20,
+  "discussionQuestionCount": 30,
+  "verifiedAt": "2026-10-20T13:23:17.803787+00:00",
+  "curatorNoteExactAndOriginalPosition": true,
+  "discussionQuestionsRetainedVerbatim": 28,
+  "reviewLimitations": [
+    "Historical cases are explicitly conditional illustrations of outcome bias, not documented psychological diagnoses of historians or proof that the original decisions were sound.",
+    "Rome remains a broad source example whose lack of a specific decision is stated.",
+    "Portfolio discussion is a general review framework, not individualized financial advice or a return guarantee.",
+    "Generic strict list-preservation flag is false only because the originally merged fifth/sixth discussion questions are split into two visible entries."
+  ],
+  "research": [
+    {
+      "url": "https://www.annieduke.com/dont-be-a-resulter/",
+      "scope": "Author’s short explanation of distinction between outcome and decision quality. No whole-book reading claimed."
+    },
+    {
+      "url": "https://www.annieduke.com/article-how-the-duchess-of-poker-became-a-management-guru/",
+      "scope": "Duke interview passage distinguishes resulting, hindsight and confirmation bias; paraphrased, not quoted."
+    },
+    {
+      "url": "https://www.jfklibrary.org/learn/about-jfk/jfk-in-history/the-bay-of-pigs",
+      "scope": "Library account of planning assumptions, landing-site limits and air support. Does not establish that historians themselves committed resulting."
+    },
+    {
+      "url": "https://collection.nam.ac.uk/detail.php?acc=1962-11-4-3",
+      "scope": "Museum-held order and accompanying account establish misunderstood direction of attack. No claim to settle individual responsibility."
+    },
+    {
+      "url": "https://history.state.gov/milestones/1914-1920/paris-peace",
+      "scope": "Official account of treaty scope and competing Allied priorities; no single-cause explanation of later Nazi power."
+    },
+    {
+      "url": "https://da.mdah.ms.gov/series-files/books/pdf/11094-book.pdf",
+      "scope": "Mississippi1861 original declaration, opening passage on PDFpage3 (zero-based2), directly identifies slavery. No comprehensive secession-document survey."
+    },
+    {
+      "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation",
+      "scope": "SEC general education on time horizon, risk tolerance, allocation and diversification; no personalized portfolio choices."
+    },
+    {
+      "url": "https://www.sec.gov/about/reports-publications/investorpubsmfperformhtm",
+      "scope": "SEC2007 general education on costs, risks and limits of past returns. No current tax-rate or legal interpretation imported."
+    }
+  ]
+}

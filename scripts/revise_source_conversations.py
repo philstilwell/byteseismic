@@ -112,6 +112,27 @@ def labels_for(config, n):
     return config.get('sectionModelLabels', {}).get(str(n), config['modelLabels'])
 
 
+def section_afterword(source, heading, config, n):
+    """Locate an explicitly reviewed curator note after its source responses."""
+    note = config.get('sourceSectionAfterwords', {}).get(str(n))
+    if not note:
+        return None
+    matches = source.find_all(id=note['sourceId'])
+    assert len(matches) == 1
+    original = matches[0]
+    assert original.name in ('p', 'h3', 'h4')
+    assert original.get_text() == note['text']
+    siblings = []
+    for sibling in heading.find_next_siblings():
+        if sibling.name == 'h2':
+            break
+        siblings.append(sibling)
+    assert original in siblings, 'Curator note must follow its own source section'
+    assert any(x.select(':scope > .wp-block-column')
+               for x in siblings[:siblings.index(original)]), 'Note must follow responses'
+    return note
+
+
 def tag(soup, name, value=None, **attrs):
     node = soup.new_tag(name, attrs=attrs)
     if value is not None:
@@ -372,6 +393,14 @@ def render(config):
             display = config.get('sectionResponseLabels', {}).get(f'{n}.{c}', label + ' response · editorial edition')
             edited.insert(0, tag(soup, 'h3', display))
             section.append(edited)
+        afterword = section_afterword(source, heading, config, n)
+        if afterword:
+            note = tag(soup, 'aside', **{'class': 'original-curator-afterword',
+                                       'data-source-id': afterword['sourceId']})
+            note.append(tag(soup, 'p', afterword['editorialContext']))
+            note.append(tag(soup, 'p', afterword['text'],
+                            **{'class': 'original-curator-text'}))
+            section.append(note)
         body.append(section)
     bonus = config.get('sourceBonusExchange')
     if bonus:
@@ -447,7 +476,8 @@ def render(config):
 def verify(config, rendered):
     raw = (DATA / config['snapshot']).read_bytes()
     assert hashlib.sha256(raw).hexdigest() == config['sourceSha256']
-    original = sections(BeautifulSoup(raw, 'html.parser'), config)
+    source = BeautifulSoup(raw, 'html.parser')
+    original = sections(source, config)
     soup = BeautifulSoup(rendered, 'html.parser')
     if config.get('highlights'):
         assert [x.get_text() for x in soup.select('.source-highlights > li')] == config['highlights']
@@ -467,6 +497,17 @@ def verify(config, rendered):
         assert actual.select_one('.curator-comment').get_text() == figure.find_next_sibling().get_text() == bonus['curatorComment']
         assert [s['id'] for s in soup.select('.article-section--prompt')] == [f'prompt-{n}' for n in range(1, len(prompts) + 1)]
     for n, (h, _) in enumerate(original, 1):
+        afterword = section_afterword(source, h, config, n)
+        actual_afterwords = soup.select(f'#prompt-{n} .original-curator-afterword')
+        assert len(actual_afterwords) == (1 if afterword else 0)
+        if afterword:
+            note = actual_afterwords[0]
+            assert note['data-source-id'] == afterword['sourceId']
+            assert [p.get_text() for p in note.find_all('p', recursive=False)] == [
+                afterword['editorialContext'], afterword['text']]
+            assert note.parent is soup.select_one(f'#prompt-{n}')
+            assert note.find_next_sibling() is None, 'Curator note must follow both responses'
+            assert note.find_previous_sibling().get('class') == ['original-response']
         old_preambles = [p for k, p in enumerate(preamble_nodes(h, config, n))
                          if k != config.get('promptContinuationPreambleIndexes', {}).get(str(n))]
         new_preambles = soup.select(f'#prompt-{n} [data-source-preamble]')

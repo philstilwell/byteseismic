@@ -1,0 +1,281 @@
+{
+  "pageFile": "philosophical-inquiry/the-danger-of-resulting/index.html",
+  "wordpressId": 6103,
+  "snapshot": "the-danger-of-resulting-wordpress-6103.html",
+  "sourceSha256": "a47f2ed837801c0070d89acdd6d31a728e9acb60eb46f7ed6468562ecaee5e9a",
+  "sourceUrl": "http://byteseismic.com/2024/04/12/the-danger-of-resulting/",
+  "sourceLabel": "Original WordPress post, 2024-04-12",
+  "shellRevision": "c74913b1995e837f8f92cc0cc7a27944a7869222",
+  "date": "2026-10-20",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "Judging decisions without letting one outcome decide",
+    "Three historical illustrations and the curator’s caution",
+    "Dating: fair review and new information",
+    "Portfolio review: process, evidence and risk",
+    "Recognizing outcome-driven judgments",
+    "Ten questions per response, with answer keys",
+    "Fifteen discussion questions per response"
+  ],
+  "introHeading": "Judging decisions without letting one outcome decide",
+  "intro": "Annie Duke’s notion of resulting concerns judging a decision’s quality from its outcome. This conversation moves from examples to history, dating, investing and self-assessment. The original seven prompts, two response tracks and curator’s caution after the historical examples are restored. Outcomes remain evidence for learning; avoiding resulting does not excuse bad reasoning or require loyalty to a failed plan.",
+  "description": "Explore resulting through the original examples, curator caution, dating and portfolio applications, ten-item quizzes and fifteen-question discussion lists.",
+  "highlights": [
+    "A favorable outcome cannot by itself show that a decision was sound.",
+    "Judge the earlier choice using the information reasonably available then; make the next choice using what is known now.",
+    "Intentions, sincerity and understandable motives do not establish good reasoning.",
+    "Outcomes can reveal errors, and one serious new fact can justify an immediate change."
+  ],
+  "replacements": {
+    "1.1.0": "“Resulting,” as popularized by Annie Duke, means equating a decision’s quality with the quality of its outcome. A lucky win can disguise a poor choice, and an unlucky loss can follow a reasonable one. Duke makes the distinction in <a href=\"https://www.annieduke.com/dont-be-a-resulter/\">her own account</a>; the examples below are hypothetical illustrations, not quotations from her.",
+    "1.1.5": "In a hypothetical poker hand, suppose a player estimates a 75% chance of winning. Losing does not by itself show that going all in was mistaken. But the percentage alone does not prove the choice was sound either: the estimate, payoff, alternatives, amount at risk and consequences of losing all matter. Resulting skips that assessment and lets this one result settle the verdict.",
+    "1.1.7": "A football coach chooses a two-point attempt that would win the game instead of a one-point kick that could lead to overtime. Suppose the estimates favor the attempt after accounting for both conversion and overtime chances. Condemning it solely because it fails is resulting; criticism of an unreasonable estimate or ignored game condition would be a different matter.",
+    "1.1.9": "A business invests in a new technology after comparing alternatives and estimating downside risks. An unforeseen downturn then causes a loss. Saying “it lost money, so the decision was bad” bypasses the earlier evidence. Yet calling every loss bad luck is equally evasive: the review must check whether the business ignored warning signs or risked more than it could afford.",
+    "1.1.11": "Suppose a clinician and patient choose an option after considering the available evidence, alternatives, risks and the patient’s preferences. An adverse outcome alone does not establish that the choice was wrong. The outcome may still reveal an error or new information that warrants review and a change in care. This illustrates the distinction; it does not assess any particular treatment.",
+    "1.1.12": "Resulting can encourage excessive caution after an unlucky loss or excessive confidence after a lucky win. The remedy is to compare the decision with feasible alternatives using the evidence available then, while using subsequent outcomes to improve future judgments.",
+    "1.2.0": "In Annie Duke’s usage, “resulting” is treating outcome quality as if it settled decision quality. Outcomes matter, but one outcome is not a complete evaluation of the reasoning, alternatives and risks at the time.",
+    "1.2.3": "<strong>Sports game:</strong> A coach calls a poorly justified play, it succeeds through an opponent’s unexpected error, and observers call the strategy brilliant solely because the team won. The success does not repair the weak reasoning that preceded it.",
+    "1.2.4": "<strong>Daily life:</strong> You carry a light umbrella because rain is plausible and being soaked would be costly. Sunshine does not retroactively make the precaution foolish. Its reasonableness depends on the forecast and the burden of carrying it; the result alone does not decide.",
+    "2.1.0": "The three original cases are retained, but a distinction is needed: a bad historical outcome is not itself evidence that later observers committed resulting. Each case below states how outcome-only judgment would go wrong and what a fuller assessment needs. These are applications to historical events, not documented diagnoses of particular historians’ reasoning.",
+    "2.1.3": "<strong>Resulting test:</strong> “The invasion failed, therefore every prior decision was irrational” would be an outcome-only inference. But reliance on an intelligence agency does not establish sound reasoning either. The <a href=\"https://www.jfklibrary.org/learn/about-jfk/jfk-in-history/the-bay-of-pigs\">JFK Library’s account</a> identifies dependence on a popular uprising and difficulties with the landing site and air support. Those are substantive planning questions. Avoiding resulting requires examining what officials could reasonably know about them, not excusing the plan because it had a Cold War rationale.",
+    "2.1.6": "<strong>Resulting test:</strong> Heavy losses alone do not identify who made which mistake. The <a href=\"https://collection.nam.ac.uk/detail.php?acc=1962-11-4-3\">surviving order and museum account</a> document a misunderstood direction of attack. Review what commanders could see, how the message was conveyed and which ambiguities could have been resolved. Confusion may explain an error without making the process sound. A lucky escape would not have made an unclear order clear.",
+    "2.1.8": "<strong>Event:</strong> The 1919 Treaty of Versailles set peace terms with Germany, including territorial changes, military restrictions and reparations. It was one part of the postwar settlement, not a treaty with every defeated power. The <a href=\"https://history.state.gov/milestones/1914-1920/paris-peace\">U.S. Office of the Historian</a> describes competing Allied priorities and the treaty’s contested reception.",
+    "2.1.9": "<strong>Resulting test:</strong> “Another world war followed, so every term was obviously wrong in 1919” would substitute hindsight for analysis. Conversely, a stated desire for peace does not establish that the terms were prudent. Assess contemporary warnings, feasible alternatives and the settlement’s likely effects. The later Nazi rise cannot be attributed to the treaty alone, nor can it be dismissed as irrelevant to evaluating the settlement’s consequences.",
+    "2.1.10": "These cases illustrate a discipline of judgment, not a blanket defense of unsuccessful decisions. Outcome evidence, causal analysis and scrutiny of the original process belong together. A historical label such as “disaster” does not perform that analysis for us.",
+    "2.2.0": "<strong>The Fall of the Western Roman Empire:</strong> Its eventual collapse cannot show that every earlier imperial decision was foolish. To assess a specific decision, identify the ruler, date, options and evidence then available. The broad label “fall of Rome” is too large to supply those details. This original example therefore illustrates a possible hindsight error rather than establishing that any particular emperor made the best available choice.",
+    "2.2.1": "<strong>The American Civil War:</strong> Confederate defeat does not, by itself, establish the quality of every strategic forecast made before secession. But sincere belief in success is not good reasoning, and explaining motives is not a moral defense. Slavery must not be hidden behind generic “economic interests”: <a href=\"https://da.mdah.ms.gov/series-files/books/pdf/11094-book.pdf\">Mississippi’s 1861 declaration</a> explicitly identifies its preservation as central. Evaluate strategic expectations from contemporary evidence and the project’s ethics separately; neither question is settled solely by the eventual defeat.",
+    "2.2.2": "<strong>The Voyages of Christopher Columbus:</strong> An outcome-only judgment would call the voyage well reasoned simply because land was reached, without examining the geographic assumptions, alternatives and risks that informed it. A fuller account must also consider harms to Indigenous peoples. Those harms matter to ethical and causal assessment, but merely adding bad consequences to good ones is not yet the analysis of decision quality that Duke’s distinction requires.",
+    "3.1.0": "Apply the distinction to two different questions: was the earlier choice reasonable, and what should you do now? A relationship ending does not automatically answer the first. New evidence about compatibility, conduct or safety may answer the second even when the original decision was reasonable.",
+    "3.1.1": "1. Evaluate the Earlier Decision Using the Earlier Evidence",
+    "3.1.2": "<strong>Explanation:</strong> Shared interests and values can be reasons to accept a date, but they do not guarantee compatibility or establish that every warning sign was considered. A relationship’s length is also an imperfect measure of its quality.",
+    "3.1.3": "<strong>Application:</strong> After a breakup, ask what you knew, what you could reasonably have checked, and whether you respected your own and the other person’s boundaries. A sensible initial choice can lead to a relationship you should now leave; a lasting relationship can begin with a poorly considered choice.",
+    "3.1.6": "<strong>Application:</strong> Consider timing and circumstances without turning them into automatic excuses. You cannot control whether someone reciprocates interest. You can examine whether you communicated honestly, respected consent and responded appropriately to information you actually had.",
+    "3.1.8": "<strong>Explanation:</strong> One disappointing date does not establish that your whole approach is defective. However, one instance of coercion, deception or a serious boundary violation can be decisive new evidence. Avoiding resulting is not a rule to wait for repeated harm.",
+    "3.1.9": "<strong>Application:</strong> Identify what the outcome revealed. “We did not want the same kind of relationship” may support a targeted change in how you discuss intentions. A serious breach of trust may justify ending contact. Neither requires condemning yourself for facts you could not reasonably have known.",
+    "3.1.11": "<strong>Explanation:</strong> Clarifying your values, boundaries and relationship goals makes later review more specific. Treat these as guides for mutual exploration, not a scorecard that turns another person into a predictable payoff.",
+    "3.1.12": "<strong>Application:</strong> Decide which expectations need early discussion and which qualities can only become clear over time. Revise your criteria when experience exposes a poor assumption. Following a checklist is not sufficient if the checklist itself is weak.",
+    "3.1.15": "<strong>Application:</strong> Review preferences, boundaries and approaches to conflict. Separate “I ignored evidence” from “I learned something unavailable earlier.” Include positive experiences in this review too: success can conceal poor communication just as disappointment can accompany respectful choices.",
+    "3.1.17": "Fair review allows learning without converting every disappointment into self-blame. It also allows changing course now without declaring that every earlier choice was a mistake.",
+    "3.2.2": "<strong>Focus on the process as well as the outcome:</strong> Did you choose to meet on reasonable information, communicate respectfully and honor boundaries? Enjoyable conversation is an experience to value, but it does not prove that all the earlier reasoning was sound. A second date is neither owed nor a complete score for the first.",
+    "3.2.6": "<strong>Examine your criteria:</strong> Attraction, compatibility and shared values can all matter. Ask whether your actual choices fit your goals and whether you have ignored contrary evidence. Excitement is not inherently irrational, and a familiar checklist is not inherently wise.",
+    "3.2.9": "<strong>Recognize good choices:</strong> You can value being honest and respecting a refusal even when no relationship follows. That assessment concerns how you acted, not whether the date delivered a desired outcome.",
+    "3.2.10": "Use the distinction to review choices fairly and make the next choice on current information. You can want a lasting relationship while recognizing that its arrival is not fully under your control.",
+    "4.1.0": "For a portfolio, separate review of the earlier decision from review of the current position. Record the original reasons and risks, then ask what new information changes today’s choice. This is a general decision-review framework, not a recommendation about particular holdings or a promise of better returns.",
+    "4.1.3": "<strong>Application:</strong> Compare the initial choice with realistic alternatives using the information available then. Consider costs, concentration, time horizon, ability to bear losses and the quality of the evidence. “I researched it” is not enough if the research ignored adverse information or unsuitable risk.",
+    "4.1.6": "<strong>Application:</strong> A market shock may explain a loss without showing that it was reasonably unforeseeable or that the exposure was suitable. Ask which risks were recognized, how large a loss was tolerable and what new facts emerged. “Bad luck” should be a conclusion to examine, not a default excuse.",
+    "4.1.9": "<strong>Application:</strong> Poor performance alone does not dictate a sale, but neither does an unchanged personal conviction justify holding. Reassess evidence, valuation, costs, alternatives and your own needs. A decision that made sense earlier can require a different action now.",
+    "4.1.12": "<strong>Application:</strong> Write down the purpose of the investment, relevant uncertainties, acceptable exposure and conditions for review. The <a href=\"https://www.investor.gov/introduction-investing/getting-started/asset-allocation\">SEC’s investor education material</a> explains why time horizon, risk tolerance and diversification matter. Rules need revision when the facts or your circumstances change; consistency alone is not soundness.",
+    "4.1.15": "<strong>Application:</strong> Review successes as well as losses against an appropriate comparison, including costs and the risks taken. Several holdings can rise together because of one shared exposure, so their gains need not be independent confirmations of skill. Use a sufficiently informative record while remaining alert to a single decisive fact such as fraud.",
+    "4.1.18": "<strong>Application:</strong> Choose a review schedule and explicit triggers that fit the investment and your needs. A pause can prevent impulsive action, but a calendar should not delay attention to a serious new fact, a changed cash need or an unsuitable exposure.",
+    "4.1.20": "The aim is accountable reasoning: explain the choice, test its assumptions and revise it when warranted. Neither a profit nor a loss by itself settles whether the original process was sound, and a careful process still cannot eliminate investment risk.",
+    "4.2.0": "Use Duke’s distinction to improve how you review a portfolio decision. It does not supply an asset selection rule or guarantee returns.",
+    "4.2.3": "<strong>Learn from successes and failures:</strong> Compare what you expected with what happened and ask which assumptions were supported or challenged. Skill, market exposure and chance can operate together; one gain or loss rarely lets you assign exact shares to each.",
+    "4.2.6": "<strong>Review process and risk management:</strong> Check whether the allocation was suitable for the time horizon, foreseeable needs and ability to bear losses. Then check whether those conditions still hold. Keeping a plan is valuable only while the plan remains defensible.",
+    "4.2.8": "<strong>Understand uncertainty:</strong> Short-term prices are uncertain. That makes a single fluctuation an unreliable verdict on skill, but it does not make every risk unknowable or every loss irrelevant.",
+    "4.2.9": "<strong>Recognize sound reasoning:</strong> Give credit for comparing alternatives, accounting for costs and limiting an unsuitable exposure, whether the next price move is favorable or unfavorable. A gain after extensive research does not alone validate the research.",
+    "4.2.10": "<strong>Avoid automatic reactions:</strong> Neither “sell because it fell” nor “hold because I had a plan” is an adequate rule. Reassess the facts and your circumstances; if rebalancing is warranted, consider transaction costs and tax effects rather than assuming that every adjustment is free.",
+    "4.2.11": "Judge the earlier process using earlier evidence, and decide what to do next using current evidence. Outcomes contribute to that learning. The <a href=\"https://www.sec.gov/about/reports-publications/investorpubsmfperformhtm\">SEC’s discussion of fund performance</a> also explains why a past winner is not a guarantee of future success.",
+    "5.1.0": "The clearest sign is a verdict that changes solely because you learn the outcome, with no new information about the original reasoning. The following seven indicators can prompt a review; they are not a diagnostic test. Feeling disappointment or celebrating success is not itself resulting.",
+    "5.1.2": "<strong>Indicator:</strong> You call a choice wise after a win and foolish after a loss without examining what was known or reasonably knowable when it was made.",
+    "5.1.3": "<strong>Management Strategy:</strong> Record reasons, alternatives and expectations before the result. Later, assess the process first, ideally with the outcome concealed from an independent reviewer, then examine what the result teaches. Waiting longer without such a record does not prevent hindsight.",
+    "5.1.6": "<strong>Management Strategy:</strong> State plausible outcomes and their estimated chances before deciding. Afterwards, compare the result with that range. One unlikely event can occur without invalidating the estimate; repeated or highly diagnostic surprises may require revision.",
+    "5.1.8": "<strong>Indicator:</strong> The feeling produced by a win or loss becomes your entire argument about whether the decision was justified. The emotion itself is not the error.",
+    "5.1.9": "<strong>Management Strategy:</strong> Pause long enough to state the evidence for a change. Use written review criteria that include new information and changed needs, rather than rules that protect the old decision from criticism.",
+    "5.1.12": "<strong>Management Strategy:</strong> Compare observed patterns with what chance and shared conditions could produce. Check the size and independence of the sample and whether you noticed the pattern only after searching many possibilities.",
+    "5.1.15": "<strong>Management Strategy:</strong> Align review with the actual objective and time horizon, then evaluate reasoning and outcomes separately. A long-term success can be lucky too; changing the time horizon alone does not remove resulting.",
+    "5.1.18": "<strong>Management Strategy:</strong> Use a repeatable review with two stages: reconstruct the earlier choice and alternatives, then assess new evidence from outcomes. Preserve records of both favorable and unfavorable results.",
+    "5.1.21": "<strong>Management Strategy:</strong> Invite someone to identify an assumption that could be wrong. Ask whether their verdict on the earlier process would survive a different outcome generated by the same information. Criticism of a new fact is legitimate; criticism based only on the outcome label is the concern.",
+    "5.1.23": "A useful self-check is: “Would I praise or condemn this same reasoning if the luck had gone the other way?” Follow it with: “What did the actual result teach me?” Together these questions resist both outcome worship and the refusal to learn.",
+    "5.2.0": "These signs can indicate susceptibility when they lead you to infer decision quality solely from outcomes. Ordinary regret, grief or satisfaction does not establish a reasoning bias.",
+    "5.2.3": "<strong>Discouragement treated as proof:</strong> Do you infer that your earlier choice was foolish merely because you feel disappointed, without inspecting the evidence available then?",
+    "5.2.6": "<strong>Hindsight bias:</strong> Do you now treat the outcome as having been inevitable? This differs from resulting: hindsight changes your estimate of what was foreseeable, while resulting treats outcome quality as decision quality. They can reinforce one another.",
+    "5.2.8": "<strong>Regret aversion:</strong> Do you reject a well-supported option solely to avoid feeling responsible for a possible loss? This is related to emotion and anticipated regret, but is not identical to resulting.",
+    "5.2.10": "<strong>Defending an earlier choice:</strong> Do you cite a favorable result as your entire justification? Explaining a choice from its original evidence can be appropriate, even after failure.",
+    "5.2.11": "<strong>Replaying events:</strong> Do you compare the actual outcome with an imagined alternative while assuming the alternative would certainly have succeeded? Repeated reflection is not itself resulting; the unsupported counterfactual certainty is the concern.",
+    "5.2.12": "<strong>Calling every setback a mistake:</strong> Have you shown a flaw in the choice, or simply renamed an unwanted outcome? A genuine mistake still deserves correction.",
+    "5.2.19": "<strong>Pause before reviewing:</strong> A brief pause may help you notice an emotional verdict. Then write down what was known and what changed. The pause is a practical aid, not an established cure for outcome bias.",
+    "5.2.20": "Use these prompts to inspect a particular judgment, not to label your personality. A fair assessment can acknowledge disappointment, responsibility and uncertainty at the same time.",
+    "6.1.8": "Why is focusing on long-term goals alone insufficient to prevent resulting?",
+    "6.1.17": "A record made before the outcome preserves reasons, alternatives and expectations, making it harder to rewrite the original reasoning after learning the result.",
+    "6.1.19": "A long-term outcome can also be lucky. Review the evidence and alternatives at the time as well as whether the choice fitted the relevant time horizon.",
+    "6.1.20": "It means considering a range of possible outcomes and their likelihoods, rather than treating one outcome as inevitable or as a complete verdict on the decision.",
+    "6.1.21": "Changing your judgment of the same earlier reasoning solely because the result was good or bad, without identifying a flaw or new evidence about the process.",
+    "6.1.22": "Pause to compare the decision with a prior written record, then separately assess what new evidence justifies a change. Rules must remain responsive to important facts.",
+    "6.2.1": "What term does Annie Duke popularize for equating outcome quality with decision quality?",
+    "6.2.3": "When reviewing an investment decision, which approach best avoids resulting?<br>a) Treat gain or loss as the complete verdict.<br>b) Ignore all outcomes forever.<br>c) Evaluate the earlier process from earlier evidence, then use outcomes and other new facts to update future choices.",
+    "6.2.4": "You carry a light umbrella on a reasonable forecast, but it stays sunny. Which response is resulting?<br>a) Review the forecast quality over many comparable days.<br>b) Declare the choice foolish solely because no rain fell.<br>c) Compare the forecast with the burden of carrying the umbrella.",
+    "6.2.6": "When applying the distinction to dating, it is important to:<br>a) Treat a second date as proof of a good decision.<br>b) Review the earlier choice fairly and use current information for the next one.<br>c) Ignore new warning signs to remain consistent.",
+    "6.2.8": "How can disappointment become resulting rather than simply an understandable emotion?",
+    "6.2.9": "Which statement illustrates hindsight bias?<br>a) “Now that I know the result, it seems to have been inevitable.”<br>b) “The result was good, so the decision must have been good.”<br>c) “I should consider information that challenges my belief.”",
+    "6.2.10": "What useful step should follow a pause to notice an emotional reaction?",
+    "6.2.14": "c) Assess the earlier decision on its earlier evidence, then learn from outcomes and other new information.",
+    "6.2.15": "b) Calling the choice foolish solely because the rain did not occur.",
+    "6.2.17": "b) A reasonable earlier choice can still need revision now; new warning signs must not be ignored.",
+    "6.2.19": "When the feeling is treated as sufficient proof that the earlier decision was bad, without reviewing its evidence and alternatives.",
+    "6.2.20": "a) Treating the known outcome as inevitable is hindsight bias. Option b illustrates resulting.",
+    "6.2.21": "Reconstruct the reasons and alternatives from the time of the decision, then identify what the actual result changes. A pause alone does not establish sound judgment.",
+    "7.1.11": "How can process goals and outcome goals complement each other, and how could either become an excuse to ignore evidence?",
+    "7.2.2": "When is learning from an outcome justified, and how does that differ from treating the outcome as a complete verdict on decision quality?",
+    "7.2.5": "In a group decision-making scenario, how can we ensure everyone is less susceptible to “resulting”?"
+  },
+  "responseDecisions": {
+    "1.1": "Retain four example domains and original nested lists; label hypotheticals, correct 75%-therefore-sound inference, separate reasonable risk from outcome and preserve room for legitimate medical/business review.",
+    "1.2": "Retain three examples; replace non-diagnostic coaching blame with lucky success, make umbrella precaution conditional on evidence/cost.",
+    "2.1": "Retain all three historical cases and event/test placement; remove unsupported exoneration of Bay of Pigs and Light Brigade and monocausal Versailles account. Explicitly limit examples to conditional applications, not demonstrated diagnoses of historians.",
+    "2.2": "Retain Rome/Civil War/Columbus order; state Rome specificity limitation, restore centrality of slavery, separate sincere motive from justification, distinguish consequences from process. Preserve curator note after both responses in exact original position.",
+    "3.1": "Retain five stages and explanation/application pairs; distinguish earlier and present choices, add consent/boundaries and decisive new evidence, avoid requiring repeated harm or equating compatibility checklist with rationality.",
+    "3.2": "Retain three groups/six bullets and useful sunk-cost caution; separate interaction enjoyment from prior decision quality, remove anti-attraction shortcut and treat consent as non-contingent on success.",
+    "4.1": "Retain six stages/pairs; general review framework only, costs/exposure/alternatives, revise when facts change, compare returns and shared risks; no automatic hold rule or promised benefit.",
+    "4.2": "Retain three groups/seven bullets; distinguish skill/risk/chance, conditional plan adherence, no guaranteed predictability or mandatory hold/rebalance; include costs and changed needs.",
+    "5.1": "Retain seven indicators/strategies; operationalize outcome-reversal and prior-record tests, distinguish emotion from bias, correct long-horizon cure and process dogmatism.",
+    "5.2": "Retain three sign groups/nine indicators and six practices; distinguish hindsight/confirmation/regret, avoid pathologizing normal disappointment, replace mindfulness efficacy claim with bounded practical pause.",
+    "6.1": "Restore ten questions and end key; repair long-term cure and process-versus-feedback errors. Every answer checked.",
+    "6.2": "Restore ten questions/end key; fix erroneous umbrella key, ambiguous process-only option, unsupported most-likely-bias question and mindfulness cure. Break inline options for readability.",
+    "7.1": "Restore fifteen questions; fourteen verbatim. Replace process-versus-outcome false dichotomy with complementary evaluation.",
+    "7.2": "Restore fifteen questions by splitting originally merged fifth/sixth items in place, preserving both texts. Fourteen questions verbatim; distinguish legitimate outcome learning from resulting in question2."
+  },
+  "countChecks": [
+    {
+      "name": "1.1.ol original list counts",
+      "selector": "#prompt-1 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "1.1.ul original list counts",
+      "selector": "#prompt-1 .original-response[data-source-column=\"1\"] ul",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "1.2.ul original list counts",
+      "selector": "#prompt-1 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        3
+      ]
+    },
+    {
+      "name": "2.2.ol original list counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        3
+      ]
+    },
+    {
+      "name": "3.2.ul original list counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "4.2.ul original list counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "5.1.ul original list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"1\"] ul",
+      "child": "li",
+      "expected": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "5.2.ul original list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        3,
+        3,
+        3,
+        6
+      ]
+    },
+    {
+      "name": "6.1.ol original list counts",
+      "selector": "#prompt-6 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        10,
+        10
+      ]
+    },
+    {
+      "name": "6.2.ol original list counts",
+      "selector": "#prompt-6 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        10,
+        10
+      ]
+    },
+    {
+      "name": "7.1.ol original list counts",
+      "selector": "#prompt-7 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    },
+    {
+      "name": "7.2.ol fifteen questions after splitting originally merged 5/6",
+      "selector": "#prompt-7 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    }
+  ],
+  "sourceSectionAfterwords": {
+    "2": {
+      "sourceId": "note-the-ai-responses-above-seem-to-depart-a-bit-from-annie-s-core-notion-of-resulting",
+      "text": "Note: The AI responses above seem to depart a bit from Annie’s core notion of “resulting”.",
+      "editorialContext": "Curator’s original note, preserved in its original position. The editorial revisions above address this caution by separating documented events from conditional examples of outcome-biased judgment."
+    }
+  },
+  "listItemContinuations": {
+    "7.2.5": "Can “resulting” lead to a culture of blame? Discuss how to create a more growth-oriented approach."
+  },
+  "orderedListStarts": {
+    "1.1": [
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "pageSignals": {
+    "Page form": "Original conversation · editorial edition",
+    "Best for": "reviewing decisions without confusing luck, evidence and justification"
+  }
+}

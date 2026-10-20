@@ -1,0 +1,333 @@
+{
+  "pageFile": "philosophical-inquiry/selective-pressures-on-ideologies/index.html",
+  "wordpressId": 4825,
+  "snapshot": "selective-pressures-on-ideologies-wordpress-4825.html",
+  "sourceSha256": "7a2591815054ff9288d339119c6c6570ca1140680517828e54e4f00a8fce2935",
+  "sourceUrl": "http://byteseismic.com/2024/03/29/selective-pressures-on-ideologies/",
+  "sourceLabel": "Original WordPress post, 2024-03-29",
+  "shellRevision": "c74913b1995e837f8f92cc0cc7a27944a7869222",
+  "date": "2026-10-20",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "Why an ideology can spread without being true",
+    "Five historical cases in each response",
+    "Evidence, institutions and the original conflation",
+    "The curator challenges promises of well-being",
+    "The curator separates ethics from truth",
+    "Ten questions per response, with answer keys",
+    "Fifteen discussion questions per response"
+  ],
+  "introHeading": "Why an ideology can spread without being true",
+  "intro": "The conversation first asks why ideologies spread and then tests proposed signs of truth. Two curator challenges expose a slide from ethical appeal to factual accuracy. The original prompts and separate ChatGPT and Gemini tracks are restored; the specific claims challenged below remain visible and are labeled as errors. Each track ends with a ten-question quiz and fifteen discussion questions.",
+  "description": "Examine ideological popularity, historical failures, evidence and ethics through the original curator challenges, separate responses, quizzes and discussion questions.",
+  "highlights": [
+    "Popularity can reflect transmission, incentives or coercion without establishing truth.",
+    "Observed compliance is not a reliable measure of private agreement.",
+    "Evidence for one claim does not validate an entire ideological package.",
+    "A promise of well-being, an ethical judgment and a factual finding require different tests."
+  ],
+  "replacements": {
+    "1.1.0": "An ideology can spread because it meets social needs, rewards allegiance or gains institutional support. None of those explanations establishes whether its claims are true. They can help transmit truths as well as falsehoods; discovering a non-evidential motive is not itself a refutation. Seven interacting influences are:",
+    "1.1.3": "<strong>Media and Propaganda:</strong> Control over communication can give some claims far more repetition and visibility than their evidence warrants. Repeated exposure can make a view familiar, while censorship makes competing views difficult to encounter. The size of this effect depends on the audience and its access to alternatives.",
+    "1.1.7": "<strong>Economic and Political Power Structures:</strong> Powerful groups can finance, reward and institutionalize ideas that serve their interests. A person may publicly repeat an official doctrine to keep a job while privately doubting it. Institutional dominance, visible compliance and sincere popularity must therefore be distinguished.",
+    "1.1.8": "These mechanisms explain adoption and persistence, not truth by themselves. Ask separately what attracts people, what keeps them in the movement, and what evidence bears on its claims. The same slogan can be sincerely believed by one person and repeated under pressure by another.",
+    "1.2.2": "<strong>Charismatic Leaders:</strong> A compelling speaker can turn uncertainty into loyalty by offering a clear identity and a promised remedy. Nazi propaganda illustrates this mechanism, but charisma alone does not explain political power: organization, elite decisions, violence and institutional opportunities also matter.",
+    "1.2.6": "<strong>Historical Context:</strong> War, economic upheaval and existing grievances can change which promises seem credible. Revolutionary movements did not begin with the world wars, and similar crises have produced different political responses. Context helps explain receptivity without making any one ideology inevitable.",
+    "1.2.8": "These influences can carry misinformation, but they also operate in movements with well-supported claims. Exposure to alternatives helps only if those alternatives are assessed: popularity is neither a proof nor a disproof, and an explanation of persuasion does not replace examination of evidence.",
+    "2.1.0": "The five cases below distinguish unsupported factual claims from ethical failures and explain how each gained support or institutional dominance. These are related but different defects: oppression does not make every factual statement by its perpetrators false, and coerced obedience does not demonstrate genuine popularity.",
+    "2.1.2": "<strong>Ideology:</strong> Manifest Destiny portrayed nineteenth-century U.S. territorial expansion as providentially justified. Military or demographic success could not establish a divine entitlement to other peoples’ land. Its racial hierarchy and disregard for Indigenous and Mexican sovereignty supplied further grounds for criticism.",
+    "2.1.5": "<strong>Ideology:</strong> Kipling’s 1899 poem gave a memorable formulation to an existing imperial “civilizing mission”; it did not originate imperialism. The paternalistic claim that subject peoples required foreign rule concealed coercion and treated an asserted racial hierarchy as justification for domination.",
+    "2.1.8": "<strong>Ideology:</strong> Italian Fascism and German Nazism shared dictatorial leadership and aggressive nationalism, but were not identical systems. Nazi racial doctrine and antisemitic conspiracy claims were central to its project. Declaring a leader or nation superior supplies no evidence for those assertions and no entitlement to suppress others.",
+    "2.1.9": "<strong>Popularity Dynamics:</strong> Postwar disruption, fear of political opponents, promises of national recovery and organized violence helped these movements. In Germany the Depression deepened the crisis. Hitler’s appointment and the subsequent destruction of opposition must be distinguished from electoral support: the Nazis lacked an absolute majority in free national parliamentary elections. See the <a href=\"https://encyclopedia.ushmm.org/content/en/article/the-nazi-rise-to-power\">U.S. Holocaust Memorial Museum’s account</a>.",
+    "2.1.11": "<strong>Ideology:</strong> Soviet official doctrine presented the party as the authoritative interpreter of social development and representative of workers’ interests. Party monopoly, censorship and repression obstructed correction and contradicted emancipatory promises. This criticism targets that historical governing system; it does not show that every claim made by every communist or socialist is false.",
+    "2.1.12": "<strong>Popularity Dynamics:</strong> Inequality, war and discontent with the old order made revolutionary promises attractive. After taking power, party control of communication and punishment of dissent helped sustain official conformity. The <a href=\"https://www.loc.gov/exhibits/archives/intn.html\">Library of Congress exhibition of Soviet archival material</a> documents repression and censorship; those practices make public loyalty a poor measure of private conviction.",
+    "2.1.14": "<strong>Ideology:</strong> Stalin’s personality cult is a concrete instance of the original response’s broader category. Treating a leader as uniquely wise or effectively infallible blocks the ordinary inference from errors to fallibility. Achievements attributed to him cannot establish that his next claim is correct.",
+    "2.1.15": "<strong>Popularity Dynamics:</strong> Official praise, controlled publication and penalties for dissent made admiration highly visible while making contrary testimony dangerous. Some people believed the image; others had reasons to perform loyalty. The same Soviet archival collection records mechanisms of censorship and terror, not a reliable census of sincere admiration.",
+    "2.1.16": "These cases show why influence and justification must be examined separately. Land, status, security, belonging and fear can all help a doctrine spread. A historical explanation should identify the particular mechanisms and affected groups rather than treating “the public” as a single mind.",
+    "2.2.2": "<strong>Flaw and dynamics:</strong> Nazi racial hierarchy and antisemitic conspiracy stories were false premises used to justify exclusion and violence. Economic depression, nationalist grievance and organized propaganda widened its appeal. Elite cooperation and Hitler’s appointment enabled power; censorship and terror then restricted opposition. Electoral support and enforced conformity were different stages, not proof that an entire population freely embraced the doctrine.",
+    "2.2.4": "<strong>Flaw and dynamics:</strong> Italian Fascism treated dictatorship and the subordination of individuals to national power as routes to renewal. Postwar instability, fear of socialism, nationalist resentment and political violence helped Mussolini’s movement. Promises of unity concealed the suppression of disagreement: eliminating opponents cannot establish that a leader represents everyone or reasons correctly.",
+    "2.2.6": "<strong>Flaw and dynamics:</strong> Lysenko promoted heredity claims incompatible with established genetics and promised rapid agricultural improvement. Political sponsorship and suppression of rival research let his school dominate institutions without winning an open evidential contest. This was enforced scientific orthodoxy, not merely a popular agricultural opinion. The <a href=\"https://pubmed.ncbi.nlm.nih.gov/31053614/\">historical study of the 1948 academy meeting</a> describes the institutional takeover.",
+    "2.2.8": "<strong>Flaw and dynamics:</strong> The Khmer Rouge sought radical agrarian transformation through forced evacuation, collectivization and the persecution of alleged enemies. A promise of liberation could not justify treating social origin as guilt. Wartime mobilization and promises of change helped recruitment; after victory, coercion and information control sustained obedience. The <a href=\"https://timeline.eccc.gov.kh/en/section/the-democratic-kampuchea-regime\">Cambodian tribunal’s historical account</a> documents the regime’s forced social reorganization. Domination after 1975 is not evidence of freely chosen mass approval.",
+    "2.2.10": "<strong>Flaw and dynamics:</strong> Eugenics misused heredity to rank human groups and to explain complex social conditions as fixed biological deficiencies. Scientific prestige, existing prejudice and promises of national improvement helped legitimize coercive policies, including forced sterilization. Its empirical errors and its violations of bodily autonomy are distinct grounds for rejection. The <a href=\"https://www.genome.gov/about-genomics/fact-sheets/Eugenics-and-Scientific-Racism\">National Human Genome Research Institute</a> describes that misuse of science.",
+    "2.2.11": "The recurring pattern is an incentive to accept or display allegiance without adequate scrutiny. Each case still needs its own historical explanation. Neither suffering nor popularity alone proves every attached empirical proposition false; the relevant claims and mechanisms must be identified.",
+    "3.1.0": "For an ideology to be “largely true,” its important factual claims must survive relevant tests; counting agreeable slogans is not enough. The following original nine-marker sequence mixes evidence-related practices with moral approval. The ethical conflation is retained where needed to make the curator’s later objections intelligible and is explicitly identified below.",
+    "3.1.1": "<strong>Evidence-Based Claims:</strong> Look for accessible evidence bearing on specific claims, competent methods and independent checks. A movement’s declaration that it follows science is weaker than a record of predictions tested against alternatives, including results it would prefer not to find.",
+    "3.1.2": "<strong>Consistency with Established Knowledge:</strong> Conflicts with well-supported findings require an explanation and counterevidence. Consistency alone is insufficient: many incompatible stories can fit the same facts. Ethical consensus is not interchangeable with a tested factual result.",
+    "3.1.3": "<strong>Transparency and Accountability:</strong> Publication of methods, failures and corrections makes error easier to discover. Test whether critics can inspect the evidence and whether leaders actually revise failed claims. Transparency is an aid to checking accuracy, not accuracy itself.",
+    "3.1.4": "<strong>Inclusivity and Respect for Diversity — original claim retained for the later correction:</strong> Truthful ideologies recognize and respect the diversity of human experience and knowledge. They are inclusive, promoting equity and respect for differences rather than dividing people based on arbitrary or prejudicial criteria. <em>Editorial note:</em> This moral description does not establish factual truth. Including neglected evidence may improve inquiry, but ethical approval supplies no necessary connection to accuracy.",
+    "3.1.5": "<strong>Promotion of Critical Thinking and Open Debate:</strong> Criticism can expose mistakes if objections are answered and adverse evidence is allowed to change conclusions. Tolerating a debate as a performance, while insulating leaders from its consequences, does not provide the same protection.",
+    "3.1.6": "<strong>Focus on Constructive Solutions:</strong> When a movement makes a causal claim about a proposed solution, test that claim against alternatives. Good intentions do not establish effectiveness. Even an effective policy does not validate unrelated historical or metaphysical beliefs attached to it.",
+    "3.1.7": "<strong>Ethical Consistency:</strong> Applying the same moral standards to allies and opponents can indicate integrity. It does not establish the accuracy of the movement’s factual claims: people can consistently act on a mistaken account of the world.",
+    "3.1.8": "<strong>Adaptability and Growth:</strong> Revision is valuable when it responds to evidence and records what failed. Constantly moving the target so that no result can count against the ideology is an evasion, not learning.",
+    "3.1.9": "<strong>Positive Impact:</strong> Repeated, well-measured improvements can support a bounded claim that a particular intervention works under specified conditions. Check comparison groups, harms and alternative causes. Beneficial effects do not entail the truth of the whole ideology.",
+    "3.1.10": "The strongest inference concerns the claims actually tested. Institutions that encourage correction may make such testing more reliable, while moral virtues answer a further question about how people ought to act. The next exchanges expose the danger of merging those assessments.",
+    "3.2.0": "Assess an ideology claim by claim. Evidence for its central factual commitments matters more than popularity or self-description. The original response also offered “Promotes Human Well-being” as a truth marker; that sentence remains below because it is the precise target of the next prompt.",
+    "3.2.2": "<strong>Scientific Backing:</strong> Where a claim is empirical, ask which studies support it and how well they distinguish alternatives. Evolution by natural selection is a scientific explanatory framework, not an example of a political ideology being validated as a package. Borrowing scientific vocabulary confers no comparable support.",
+    "3.2.3": "<strong>Predictive Power:</strong> Prefer specific predictions recorded before the outcome, evaluated across successes and failures, and compared with credible alternatives. A movement that predicts unrest everywhere will sometimes appear prescient without offering a useful forecast.",
+    "3.2.6": "<strong>Evolves with New Information:</strong> Examine actual corrections, not professions of openness. Revising a failed claim and explaining why it failed differs from reinterpreting every outcome as confirmation.",
+    "3.2.8": "<strong>Addresses Root Causes:</strong> A proposed cause needs evidence about what changes when that cause changes. Calling an explanation “fundamental” does not establish it, and a useful immediate remedy need not solve every underlying problem.",
+    "3.2.9": "<strong>Practical Applications:</strong> Evidence of improvement supports the intervention only to the extent that the intervention caused it. Compare plausible alternatives, costs and side effects before attributing an outcome to the ideology.",
+    "3.2.11": "<strong>Promotes Human Well-being:</strong> Does the ideology promote the well-being of all individuals and the environment? Humanistic values and a focus on long-term sustainability are positive signs. <em>Editorial note: this original claim is retained because the curator challenges it next. Ethical attractiveness and a promise of benefits do not establish factual truth.</em>",
+    "3.2.12": "<strong>Avoids Scapegoating:</strong> Assigning collective guilt without relevant evidence distorts explanation and can promote injustice. Refusing that distortion improves the method of inquiry; it still leaves the movement’s positive claims to be tested.",
+    "3.2.13": "Distinguish direct evidence for a proposition from conditions that help people investigate it. Neither a humane ideal nor an open meeting is a substitute for showing that the relevant claim is accurate.",
+    "4.1.0": "The curator identifies a real problem: a promise of well-being has little power to distinguish reliable from unreliable ideologies when competing movements all promise improvement. The original response tried to repair this by examining practice, means, inclusion and feedback. Its specific claim that an inclusive ideology is “more truthful” is retained and flagged below, because the next curator prompt challenges that remaining conflation.",
+    "4.1.2": "<strong>Broad Promises:</strong> A better future is an appealing recruitment message. Ask whose future, which measurable changes, over what period, and what would count as failure. A pledge with no conditions for disappointment offers little evidential discrimination.",
+    "4.1.3": "<strong>Practical Outcomes:</strong> Compare the promised changes with independently measured outcomes, including harms and excluded groups. Establishing that a policy caused an improvement supports that causal claim; it does not certify every belief of the movement that promoted it.",
+    "4.1.5": "<strong>Ethical Considerations:</strong> Evaluate means against stated standards such as consent, equal treatment and protection from harm. Calling a goal humane does not make the means humane. Whether the means work and whether they are permissible remain distinguishable questions.",
+    "4.1.6": "<strong>Feasibility and Sustainability:</strong> A credible plan identifies resources, constraints, time horizons and possible reversals. A short-lived benefit can be real while failing a promise of durable improvement; a proposed future benefit can also be used to excuse present harm indefinitely.",
+    "4.1.8": "<strong>Scope of Well-being — original conflation retained:</strong> Some ideologies promise well-being but only for a select group, often at the expense of others. A more truthful ideology is inclusive, aiming to improve the well-being of all people without discrimination. <em>Editorial note:</em> The second sentence does not follow. Inclusivity can be ethically desirable without making the ideology’s factual claims more accurate. The next curator prompt calls out this conflation.",
+    "4.1.9": "<strong>Distribution of Benefits:</strong> Aggregate improvement can conceal losses imposed on a minority. Showing who gains and who bears costs tests the scope of a promise; judging whether that distribution is fair requires an ethical standard.",
+    "4.1.11": "<strong>Evolution with Evidence:</strong> Look for a stated willingness to abandon a failed policy and a record of doing so. Adaptation supports confidence in a learning process only when failures are acknowledged rather than renamed as victories.",
+    "4.1.12": "<strong>Feedback Mechanisms:</strong> Independent reporting, protected criticism and revisable policy make corrective evidence available. Check whether these mechanisms can actually constrain the leadership.",
+    "4.1.14": "<strong>Analyzing Outcomes:</strong> Comparable outcomes across settings can strengthen a causal case, but historical comparisons must consider selection, background conditions and changes unrelated to the policy. A favorable record is evidence to interpret, not a certificate of universal validity.",
+    "4.1.15": "<strong>Scientific and Ethical Standards:</strong> Scientific checks concern evidence and explanation; ethical checks concern permissible aims and actions. Both matter when evaluating a program, but passing one test does not entail passing the other.",
+    "4.1.16": "Promises, demonstrated effects and ethical assessments should be recorded separately. That separation preserves the curator’s challenge: even evidence that a policy benefits people cannot by itself make all the ideology’s descriptive claims true.",
+    "4.2.0": "The earlier claim was misleading. Promising well-being supplies almost no evidence of truth when rival ideologies make similar promises. Even actually improving well-being supports only the relevant causal claims, not an entire belief system. Two distinctions help:",
+    "4.2.1": "<strong>Utopian Promises:</strong> A movement can depict its favored group’s future as glorious while excluding or persecuting others. Nazi promises were not genuinely universal promises of human welfare. An attractive future story is evidence of an appeal strategy, not of its own feasibility.",
+    "4.2.2": "<strong>Defining Well-being:</strong> People disagree about the weight of freedom, security, equality and other goods. That does not make every welfare claim untestable: mortality, hunger or access to education can be measured, while judgments about priorities and acceptable trade-offs still require argument.",
+    "4.2.4": "<strong>Focus on Methods:</strong> Ask separately whether the means are likely to produce the stated effect and whether they meet defensible ethical standards. A well-intended intervention can fail; an effective intervention can violate rights.",
+    "4.2.5": "<strong>Look for Trade-offs:</strong> Identify concrete costs and beneficiaries rather than assuming that a slogan such as equality or growth entails one fixed consequence. A claim that a policy reduces innovation or harms the environment needs evidence about that policy and context.",
+    "4.2.6": "<strong>Historical Track Record:</strong> Compare defined policies and conditions, not just ideological labels. Include failures and harms, explain differences between settings, and avoid using “it worked” as a shortcut around causation.",
+    "4.2.7": "This approach assesses particular promises and methods. It does not infer truth from benevolence. A movement’s humane intentions, policy performance and factual accuracy can diverge, which is the central issue in the curator’s objection.",
+    "5.1.0": "Yes, the earlier response conflated ethical desirability with factual truth. There is no necessary inference from “this ideology meets ethical standard E” to “its descriptive claims are true.” Conversely, an accurate claim can be put to an unethical use. This distinction does not assume that moral claims can never be true; that is a further philosophical question.",
+    "5.1.2": "<strong>Truth:</strong> A descriptive claim is true when things are as it says. Its discovery, expression or use may be ethical or unethical. Accurately describing an injustice is not itself an injustice, so calling a true statement “unethical” requires specifying the act or use being judged.",
+    "5.1.3": "<strong>Ethics:</strong> Ethical judgments concern what ought to be done or valued. Disagreement among standards does not by itself prove that moral truth is impossible. The immediate question is whether ethical approval entails factual accuracy; it does not.",
+    "5.1.6": "<strong>Guiding Application:</strong> The same accurate information can serve different ends. A correct map could help deliver aid or plan an attack on civilians. Its accuracy does not settle the permissibility of either use.",
+    "5.1.8": "<strong>Logical Independence:</strong> Suppose an ideology compassionately proposes sharing food but falsely predicts that a particular crop needs no water. Its moral aim does not make the agricultural claim true. Conversely, accurate knowledge of a vulnerability can be used to exploit it. These counterexamples defeat a necessary inference in either direction.",
+    "5.1.10": "<strong>Societal Well-being:</strong> Facts about harm can inform an ethical judgment when combined with a normative premise, such as a reason to prevent avoidable suffering. The factual premise alone does not specify how much harm, freedom or fairness should count.",
+    "5.1.11": "<strong>Philosophical Debate:</strong> Moral realists hold that at least some moral claims are true in a way not reducible to mere approval. Other accounts interpret moral claims differently. Either way, the truth or defensibility of one moral claim does not establish unrelated empirical claims made by the same movement.",
+    "5.1.13": "The necessary tie proposed by the earlier answer is absent. Ethical inquiry often needs accurate facts, and ethical rules can improve the conduct of inquiry. Those useful relationships do not turn goodness into a test of factual truth or factual accuracy into moral permission.",
+    "5.2.0": "No necessary connection of that kind follows. An ideology may satisfy a chosen ethical standard while relying on a false factual premise; it may also contain accurate facts while recommending wrongdoing. Three distinctions prevent the earlier conflation:",
+    "5.2.1": "<strong>Ethical Frameworks Differ:</strong> Standards can assess the same action differently. This explains why “ethical by some standard” needs specification, but disagreement alone does not prove that no moral claim is true. The logical point is that approval under a standard does not verify empirical premises.",
+    "5.2.2": "<strong>Truth Can Be Uncomfortable:</strong> Evidence can undermine a comforting belief. Discomfort does not make it false, and comfort does not make the belief true. Separately, even accurate information can be used coercively or cruelly.",
+    "5.2.3": "<strong>Truth Does Not Alone Dictate Action:</strong> Knowing that a bridge is unsafe does not by itself settle all duties about closure, warning and access. Those choices combine the facts with judgments about safety, responsibility and competing needs.",
+    "5.2.5": "<strong>Ethical Frameworks Informed by Reality:</strong> Evidence about people and institutions helps assess whether proposed actions serve chosen aims. It can expose a mistaken factual premise without settling every disagreement about which aims deserve priority.",
+    "5.2.7": "A defensible ideology should seek both factual accuracy and justified ethical commitments. Each needs its own reasons. Neither moral admiration nor moral condemnation licenses accepting or rejecting every factual claim in the package.",
+    "6.1.3": "Can accurate information be used for an unethical purpose? Give a brief example.",
+    "6.1.4": "How does empirical evidence differ from a proof of logical validity?",
+    "6.1.7": "Does ethical approval of an ideology establish the truth of its descriptive claims?",
+    "6.1.14": "Yes. An accurate map could be used to target civilians; the map’s accuracy does not justify that use.",
+    "6.1.15": "Empirical evidence draws on observation or experiment. A proof of validity establishes that a conclusion follows from premises; it does not by itself establish that empirical premises are true.",
+    "6.1.17": "They assess the aims and methods of using information. Ethical guidance can be ignored, and factual accuracy alone does not guarantee permissible use.",
+    "6.1.18": "No. A benevolent ideology can make false predictions, and an accurate factual claim can serve an unethical project.",
+    "6.1.20": "Whether moral claims can be true, and what would make them true. Disagreement alone does not resolve that debate.",
+    "6.2.5": "What helped Lysenkoism dominate institutions, and what would not justify its scientific claims?",
+    "6.2.6": "Why does the Khmer Rouge’s control after victory fail to establish free public approval of its ideology?",
+    "6.2.7": "What provides direct support for an ideology’s particular factual claim?",
+    "6.2.10": "Why does an ideology’s ethical attractiveness fail to establish its factual truth?",
+    "6.2.12": "Emotional resonance, identity and institutional incentives can help an ideology spread independently of the evidence for its claims.",
+    "6.2.13": "By making ideas memorable and rallying supporters; those persuasive abilities do not establish truth.",
+    "6.2.14": "Offering apparently easy answers to difficult problems.",
+    "6.2.15": "Controlled information can conceal objections and create an exaggerated appearance of agreement.",
+    "6.2.16": "Political sponsorship and suppression of rival research helped it dominate. Official approval cannot replace evidence for heredity claims.",
+    "6.2.17": "Coercion and information control can produce compliance without sincere agreement.",
+    "6.2.18": "Relevant, independently checkable evidence that discriminates the claim from alternatives.",
+    "6.2.19": "It makes error correction possible when criticism and evidence can actually change conclusions.",
+    "6.2.20": "The appeal of an unspecified utopian promise. Methods still need separate tests of effectiveness and ethical acceptability.",
+    "6.2.21": "A compassionate aim can rest on a false factual premise; ethical approval and factual accuracy are different judgments.",
+    "7.1.3": "How can ethical dilemmas arise when accurate facts reveal competing harms or obligations?",
+    "7.1.4": "How does disagreement among ethical standards differ from evidence that a factual claim is true or false?",
+    "7.1.8": "Would universal agreement on an ethical claim establish its truth? How does that question differ from whether moral truths exist?",
+    "7.1.13": "How should we separately assess an ideology’s promise of well-being, its measured effects, its ethical standards and its factual claims?",
+    "2.1.13": "The Cult of Personality Around Stalin (Soviet Union):"
+  },
+  "responseDecisions": {
+    "1.1": "Retain seven mechanisms and effective descriptions; distinguish popularity, institutional power and coerced conformity; block the genetic fallacy of inferring falsehood from origins.",
+    "1.2": "Retain seven mechanisms/order; qualify charisma and historical-war generalization; separate persuasion from verification.",
+    "2.1": "Retain five cases and paired ideology/dynamics lists. Make broad cult category a concrete Stalin case; distinguish ethical defects from empirical falsehood and domination from support. Correct poem-origin and Nazi electoral-majority implications.",
+    "2.2": "Retain five named cases/order; specify each flaw, distinguish recruitment from coercion and qualify historical causal compression; correct eugenics account.",
+    "3.1": "Retain nine markers; replace virtue-as-evidence reasoning with bounded claims. Preserve original inclusivity passage explicitly as error so curator critique remains intelligible.",
+    "3.2": "Retain four groups/eight markers. Preserve exact well-being claim challenged in prompt4 with adjacent error label. Distinguish science from ideological endorsement and prediction from post-hoc fit.",
+    "4.1": "Retain five paired stages; preserve exact more-truthful/inclusive conflation flagged as error for prompt5. Add explicit testing of promises, causation, scope and value standards.",
+    "4.2": "Directly acknowledge curator correction. Separate promising, delivering and justifying well-being; correct subjectivity and universally benevolent Nazi framing.",
+    "5.1": "Direct answer and counterexamples; distinguish facts, uses and normative premises without presupposing moral antirealism. Retain original five-part progression.",
+    "5.2": "Retain three distinctions/two intersections. Remove disagreement-therefore-no-moral-truth implication and show logical independence with concrete examples.",
+    "6.1": "Restore ten questions/end key; repair misleading true-but-unethical wording and logical/empirical distinction; check all pairs against corrected conversation.",
+    "6.2": "Restore ten questions/end key; remove option letters that refer to nonexistent options, repair unsupported questions and key ethical inference.",
+    "7.1": "Restore fifteen questions; eleven verbatim. Repair questions presupposing conflicting truths, equating consensus/truth or ethics/factual accuracy.",
+    "7.2": "Restore all fifteen source discussion questions verbatim; useful open challenges about institutions, responsibility, persuasion and evidence."
+  },
+  "countChecks": [
+    {
+      "name": "1.1.ol original list counts",
+      "selector": "#prompt-1 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        7
+      ]
+    },
+    {
+      "name": "1.2.ul original list counts",
+      "selector": "#prompt-1 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        7
+      ]
+    },
+    {
+      "name": "2.1.ol original list counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "2.1.ul original list counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"1\"] ul",
+      "child": "li",
+      "expected": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "2.2.ol original list counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "2.2.ul original list counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "3.1.ol original list counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        9
+      ]
+    },
+    {
+      "name": "3.2.ul original list counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "4.1.ul original list counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"1\"] ul",
+      "child": "li",
+      "expected": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "4.2.ul original list counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        2,
+        3
+      ]
+    },
+    {
+      "name": "5.1.ul original list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"1\"] ul",
+      "child": "li",
+      "expected": [
+        2,
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "5.2.ul original list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        3,
+        2
+      ]
+    },
+    {
+      "name": "6.1.ol original list counts",
+      "selector": "#prompt-6 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        10,
+        10
+      ]
+    },
+    {
+      "name": "6.2.ol original list counts",
+      "selector": "#prompt-6 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        10,
+        10
+      ]
+    },
+    {
+      "name": "7.1.ol original list counts",
+      "selector": "#prompt-7 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    },
+    {
+      "name": "7.2.ol original list counts",
+      "selector": "#prompt-7 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    }
+  ],
+  "orderedListStarts": {
+    "2.1": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "2.2": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "pageSignals": {
+    "Page form": "Original conversation · editorial edition",
+    "Best for": "separating popularity, evidence and ethics"
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "pagePath": "/philosophical-inquiry/selective-pressures-on-ideologies/",
+  "sourceSha256": "7a2591815054ff9288d339119c6c6570ca1140680517828e54e4f00a8fce2935",
+  "originalPrompts": 7,
+  "originalHeadings": 7,
+  "sourceColumns": 14,
+  "modelResponses": 14,
+  "blocksRetainedVerbatim": 92,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 103,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "1.1.ol original list counts": [
+      7
+    ],
+    "1.2.ul original list counts": [
+      7
+    ],
+    "2.1.ol original list counts": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "2.1.ul original list counts": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "2.2.ol original list counts": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "2.2.ul original list counts": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "3.1.ol original list counts": [
+      9
+    ],
+    "3.2.ul original list counts": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "4.1.ul original list counts": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "4.2.ul original list counts": [
+      2,
+      3
+    ],
+    "5.1.ul original list counts": [
+      2,
+      2,
+      1,
+      2
+    ],
+    "5.2.ul original list counts": [
+      3,
+      2
+    ],
+    "6.1.ol original list counts": [
+      10,
+      10
+    ],
+    "6.2.ol original list counts": [
+      10,
+      10
+    ],
+    "7.1.ol original list counts": [
+      15
+    ],
+    "7.2.ol original list counts": [
+      15
+    ]
+  },
+  "sha256": "a4c15f815ffd226344a5d2287ffb579c586135e2215423d1b766380ead012427",
+  "fullOriginalRead": true,
+  "fullPreviousEditionRead": true,
+  "sourceCache": ".cache/byteseismic-posts-with-content.json",
+  "sourceUrl": "http://byteseismic.com/2024/03/29/selective-pressures-on-ideologies/",
+  "sourceTitle": "Selective Pressures on Ideologies",
+  "sourceUrlTitleAndPromptsMatch": true,
+  "modelLogoOrderVerified": true,
+  "independentListTreeChecks": [
+    {
+      "response": "1.1",
+      "sourceListTreePreservedExceptDeclaredSplit": true
+    },
+    {
+      "response": "1.2",
+      "sourceListTreePreservedExceptDeclaredSplit": true
+    },
+    {
+      "response": "2.1",
+      "sourceListTreePreservedExceptDeclaredSplit": true
+    },
+    {
+      "response": "2.2",
+      "sourceListTreePreservedExceptDeclaredSplit": true
+    },
+    {
+      "response": "3.1",
+      "sourceListTreePreservedExceptDeclaredSplit": true
+    },
+    {
+      "response": "3.2",
+      "sourceListTreePreservedExceptDeclaredSplit": true
+    },
+    {
+      "response": "4.1",
+      "sourceListTreePreservedExceptDeclaredSplit": true
+    },
+    {
+      "response": "4.2",
+      "sourceListTreePreservedExceptDeclaredSplit": true
+    },
+    {
+      "response": "5.1",
+      "sourceListTreePreservedExceptDeclaredSplit": true
+    },
+    {
+      "response": "5.2",
+      "sourceListTreePreservedExceptDeclaredSplit": true
+    },
+    {
+      "response": "6.1",
+      "sourceListTreePreservedExceptDeclaredSplit": true
+    },
+    {
+      "response": "6.2",
+      "sourceListTreePreservedExceptDeclaredSplit": true
+    },
+    {
+      "response": "7.1",
+      "sourceListTreePreservedExceptDeclaredSplit": true
+    },
+    {
+      "response": "7.2",
+      "sourceListTreePreservedExceptDeclaredSplit": true
+    }
+  ],
+  "responseDecisions": {
+    "1.1": "Retain seven mechanisms and effective descriptions; distinguish popularity, institutional power and coerced conformity; block the genetic fallacy of inferring falsehood from origins.",
+    "1.2": "Retain seven mechanisms/order; qualify charisma and historical-war generalization; separate persuasion from verification.",
+    "2.1": "Retain five cases and paired ideology/dynamics lists. Make broad cult category a concrete Stalin case; distinguish ethical defects from empirical falsehood and domination from support. Correct poem-origin and Nazi electoral-majority implications.",
+    "2.2": "Retain five named cases/order; specify each flaw, distinguish recruitment from coercion and qualify historical causal compression; correct eugenics account.",
+    "3.1": "Retain nine markers; replace virtue-as-evidence reasoning with bounded claims. Preserve original inclusivity passage explicitly as error so curator critique remains intelligible.",
+    "3.2": "Retain four groups/eight markers. Preserve exact well-being claim challenged in prompt4 with adjacent error label. Distinguish science from ideological endorsement and prediction from post-hoc fit.",
+    "4.1": "Retain five paired stages; preserve exact more-truthful/inclusive conflation flagged as error for prompt5. Add explicit testing of promises, causation, scope and value standards.",
+    "4.2": "Directly acknowledge curator correction. Separate promising, delivering and justifying well-being; correct subjectivity and universally benevolent Nazi framing.",
+    "5.1": "Direct answer and counterexamples; distinguish facts, uses and normative premises without presupposing moral antirealism. Retain original five-part progression.",
+    "5.2": "Retain three distinctions/two intersections. Remove disagreement-therefore-no-moral-truth implication and show logical independence with concrete examples.",
+    "6.1": "Restore ten questions/end key; repair misleading true-but-unethical wording and logical/empirical distinction; check all pairs against corrected conversation.",
+    "6.2": "Restore ten questions/end key; remove option letters that refer to nonexistent options, repair unsupported questions and key ethical inference.",
+    "7.1": "Restore fifteen questions; eleven verbatim. Repair questions presupposing conflicting truths, equating consensus/truth or ethics/factual accuracy.",
+    "7.2": "Restore all fifteen source discussion questions verbatim; useful open challenges about institutions, responsibility, persuasion and evidence."
+  },
+  "quizQuestionAnswerPairs": 20,
+  "discussionQuestionCount": 30,
+  "verifiedAt": "2026-10-20T13:23:17.579399+00:00",
+  "curatorChallengesExact": true,
+  "challengedSourcePassagesPreservedWithErrorLabels": [
+    "3.1.4",
+    "3.2.11",
+    "4.1.8"
+  ],
+  "discussionQuestionsRetainedVerbatim": 26,
+  "reviewLimitations": [
+    "Historical explanations are concise and not a comprehensive causal survey.",
+    "Three source claims are deliberately retained as labeled errors to preserve the two subsequent curator challenges.",
+    "Evidence for factual claims is distinguished from ethical approval without purporting to settle moral realism."
+  ],
+  "research": [
+    {
+      "url": "https://encyclopedia.ushmm.org/content/en/article/the-nazi-rise-to-power",
+      "scope": "Museum research account, electoral/appointment passages: no absolute majority in free national elections; persuasion, appointment and coercion distinguished."
+    },
+    {
+      "url": "https://encyclopedia.ushmm.org/content/en/article/fascism-1",
+      "scope": "Museum account, definitions and development sections; state priority and suppression. No precise founding-date claim imported."
+    },
+    {
+      "url": "https://nationalhumanitiescenter.org/pds/gilded/empire/text7/text7read.htm",
+      "scope": "Primary-source collection guide verifies February1899 poem and existing imperial debate; did not read every linked item. Virginia mirror failed."
+    },
+    {
+      "url": "https://www.loc.gov/exhibits/archives/intn.html",
+      "scope": "Archival exhibition introduction and repression/censorship descriptions; no adoption-rate estimates or disputed casualty totals imported."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31053614/",
+      "scope": "Borinskaya et al.2019 abstract and indexed excerpts: heredity errors, political support and1948 academy control. Publisher open failed; PMC requested CAPTCHA, not bypassed. No full-paper reading claimed."
+    },
+    {
+      "url": "https://timeline.eccc.gov.kh/en/section/the-democratic-kampuchea-regime",
+      "scope": "Tribunal historical record, takeover/forced relocation/social categories/forced labor sections. Used for coercion and institutional power, not to estimate sincere popularity."
+    },
+    {
+      "url": "https://www.genome.gov/about-genomics/fact-sheets/Eugenics-and-Scientific-Racism",
+      "scope": "NHGRI account of pseudoscientific ranking, social prejudice and coercive practices. No genetic determinism or contemporary treatment advice."
+    }
+  ]
+}

@@ -4,10 +4,10 @@
   "startIndex": 100,
   "endIndexExclusive": 150,
   "candidateWordPressOriginals": 49,
-  "fullyReviewed": 28,
-  "pendingFullReview": 22,
+  "fullyReviewed": 30,
+  "pendingFullReview": 20,
   "sourceBlocked": 0,
-  "limitation": "Twenty-eight entries have substantive review and source verification; twenty-two remain pending. No batch advancement. Common Sense Blunders qualifies conditional examples and replaces its unsupported interest-rate claim with the paradox of thrift. Packaged vs Eclectic Ideologies separates adoption from origin, coherence from truth, and personal meaning from evidential support. Prior page-specific limitations remain documented.",
+  "limitation": "Thirty entries have substantive review and source verification; twenty remain pending. No batch advancement. Selective Pressures distinguishes evidence from ethical approval while retaining exact curator challenges and the challenged passages with error labels. Resulting separates outcome bias from evidence-based reconsideration, restores the intervening curator note, and repairs quiz and discussion counts. Historical resulting cases are qualified illustrations, not demonstrated diagnoses. Prior page-specific limitations remain documented.",
   "pages": [
     {
       "pagePath": "/philosophers/philosopher-club-membership/",
@@ -730,7 +730,7 @@
       "pagePath": "/philosophical-inquiry/selective-pressures-on-ideologies/",
       "pageTitle": "Selective Pressures on Ideologies",
       "queueIndex": 129,
-      "status": "pending-full-review",
+      "status": "reviewed-verified",
       "wordpressId": 4825,
       "sourceUrl": "http://byteseismic.com/2024/03/29/selective-pressures-on-ideologies/",
       "sourceTitle": "Selective Pressures on Ideologies",
@@ -748,14 +748,17 @@
         "Provide 15 discussion questions relevant to the content above. "
       ],
       "wordCount": 5633,
-      "fullSourceRead": false,
-      "editorialReviewComplete": false
+      "fullSourceRead": true,
+      "editorialReviewComplete": true,
+      "reviewedAt": "2026-10-20T13:29:13.480582+00:00",
+      "reviewReport": "quality/editorial-audit-2026-10-20.json",
+      "verification": "quality/original-source-revisions/selective-pressures-on-ideologies-verification-2026-10-20.json"
     },
     {
       "pagePath": "/philosophical-inquiry/the-danger-of-resulting/",
       "pageTitle": "The Danger of “Resulting”",
       "queueIndex": 130,
-      "status": "pending-full-review",
+      "status": "reviewed-verified",
       "wordpressId": 6103,
       "sourceUrl": "http://byteseismic.com/2024/04/12/the-danger-of-resulting/",
       "sourceTitle": "The Danger of “Resulting”",
@@ -773,8 +776,11 @@
         "Provide 15 discussion questions relevant to the content above. "
       ],
       "wordCount": 6038,
-      "fullSourceRead": false,
-      "editorialReviewComplete": false
+      "fullSourceRead": true,
+      "editorialReviewComplete": true,
+      "reviewedAt": "2026-10-20T13:29:13.480582+00:00",
+      "reviewReport": "quality/editorial-audit-2026-10-20.json",
+      "verification": "quality/original-source-revisions/the-danger-of-resulting-verification-2026-10-20.json"
     },
     {
       "pagePath": "/philosophy-of-science/is-logic-acquired-inductively/",
@@ -1262,6 +1268,6 @@
       "editorialReviewComplete": false
     }
   ],
-  "updatedAt": "2026-10-19T13:10:49.294925+00:00",
-  "recordedAt": "2026-10-19T13:10:49.294925+00:00"
+  "updatedAt": "2026-10-20T13:29:13.480582+00:00",
+  "recordedAt": "2026-10-20T13:29:13.480582+00:00"
 }
