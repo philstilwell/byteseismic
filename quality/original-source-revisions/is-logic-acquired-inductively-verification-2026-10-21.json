@@ -1,0 +1,203 @@
+{
+  "pagePath": "/philosophy-of-science/is-logic-acquired-inductively/",
+  "sourceSha256": "731627798e8b201f4d6af99d71fec1f01e9f410a0e2f1e509e7a1d814695c412",
+  "originalPrompts": 7,
+  "originalHeadings": 5,
+  "sourceColumns": 10,
+  "modelResponses": 10,
+  "blocksRetainedVerbatim": 81,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 73,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "1.1.ol original list counts": [
+      3,
+      3,
+      3
+    ],
+    "1.2.ul original list counts": [
+      2,
+      2,
+      2,
+      2,
+      1,
+      1,
+      1
+    ],
+    "2.2.ul original list counts": [
+      4
+    ],
+    "3.2.ul original list counts": [
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "4.1.ol original list counts": [
+      2,
+      1,
+      1,
+      1,
+      5
+    ],
+    "4.1.ul original list counts": [
+      4,
+      4,
+      4,
+      4
+    ],
+    "4.2.ol original list counts": [
+      5,
+      5
+    ],
+    "5.1.ol original list counts": [
+      10
+    ],
+    "5.2.ol original list counts": [
+      10
+    ]
+  },
+  "sha256": "435c02e5b6c677e7201ebb46bde09b01f6b4344f8f63522b869b02f0b8e428d0",
+  "verifiedAt": "2026-10-21T13:13:09.916862+00:00",
+  "fullOriginalRead": true,
+  "fullPreviousEditionRead": true,
+  "sourceCache": ".cache/byteseismic-posts-with-content.json",
+  "sourceUrl": "http://byteseismic.com/2024/02/25/is-logic-acquired-inductively/",
+  "sourceTitle": "Is Logic Acquired Inductively?",
+  "sourceUrlTitleAndPromptsMatch": true,
+  "modelLogoOrderVerified": true,
+  "responseDecisions": {
+    "1.1.initial": "Retain two three-item positions and synthesis progression; distinguish acquisition, warrant and validity; correct causality/uniformity-as-logic conflation; make synthesis answer curator without deciding its later challenge in advance.",
+    "1.1.followup": "Preserve complete three-part curator challenge verbatim, including typo. Answer each point in place; respect inductive density and sub-absolute warrant while distinguishing revisability from a sufficient solution to circularity.",
+    "1.2.initial": "Retain pros/cons and further considerations; preserve quoted question exactly for ensuing challenge; correct inevitable-violations claim and developmental/justificatory conflation.",
+    "1.2.followup": "Preserve exact in-place challenge, three-part response and closing model question. Correct graded-validity language; explain premise/rule distinction with box example; retain curator’s positive conclusion as his position.",
+    "2.1": "Give an explicitly attributed summary of curator’s actual stance; do not substitute a middle position or endorse every disputed inference as settled.",
+    "2.2": "Retain four summary bullets, three verbatim; clarify dependence claim and distinguish statement of position from established conclusion.",
+    "3.1": "Retain seven headings/order; replace gravity-as-logical-law and conformity-as-validity confusions with boxes, categories and conditional examples; avoid universal developmental sequence or proof of exclusive empiricism.",
+    "3.2": "Retain four paired groups and three limitations; add bounded primary research and distinguish sampled properties, logic, authority and desired outcomes.",
+    "4.1": "Retain five questions, nested four-option lists and end key; repair circularity question to test curator’s claimed safeguard without asserting it settles all objections.",
+    "4.2": "Retain five questions/four choices each and end key; replace nonexistent computer-analogy question and ambiguous/incorrect answer keys; separate inline options visibly.",
+    "5.1": "Retain ten discussion questions, nine verbatim; replace quantum/no-logic presupposition with diagnostic question.",
+    "5.2": "Retain ten discussion questions, nine verbatim; replace subjective-or-objective false dichotomy with reliability/luck assessment."
+  },
+  "modelResponsesIncludingEmbeddedFollowups": 12,
+  "originalTopLevelPrompts": 5,
+  "embeddedCuratorChallenges": [
+    "I am going to push back against your synthesis by addressing each of your three points in favor of accepting logic as an unevidence presupposition.1: Logical Framework — While logic does offer a framework for common deductive thought processes, it should not be grounded on an unevidenced presupposition. While inductive grounding of logic is sub-absolute (necessarily less than fully certain), the inductive density of logic we arrive at through our inductive experience is more than enough to give us ample confidence that logic is ontologically “solid” and will persist into the future.2: Self-evident Logic: The high reliability of logic seen in our inductive experience may feel like a justification for its “self-evident” essence, but it is actually only our inductive experience that generates this intuition of its “self-evidence”, whatever that term may mean.3: Circularity: You only find actual circularity in deduction. If your epistemology is grounded in induction, you are always leaving open the possibility that logic could fail, in which case you would simply revise your confidence in logic. There is no circularity in a degree of confidence in the reliability of logic that maps to the degree of inductive evidence for the reliability of logic. Would you not agree?",
+    "Allow me to respond to one line in your response. You said, “We use logic to reason about evidence, so how can we justify its validity using logic itself?“You cannot justify logic’s validity without reaching an inductive substrate. That inductive substrate is quite firm in the minds of most humans who employ (and thereby test) logic every day. That sub-absolute, though extremely high, justified degree of confidence in the reliability of logic is enough to justify the deductive use of logic in many domains.If logic were to ever fail, we would simply, at that point, lower our degree of confidence in logic as honest epistemic agents."
+  ],
+  "embeddedChallengeTextAndPositionExact": true,
+  "closingModelQuestionPreserved": true,
+  "independentListTreeChecks": [
+    {
+      "response": "1.1",
+      "originalListTreeExact": true
+    },
+    {
+      "response": "1.2",
+      "originalListTreeExact": true
+    },
+    {
+      "response": "2.1",
+      "originalListTreeExact": true
+    },
+    {
+      "response": "2.2",
+      "originalListTreeExact": true
+    },
+    {
+      "response": "3.1",
+      "originalListTreeExact": true
+    },
+    {
+      "response": "3.2",
+      "originalListTreeExact": true
+    },
+    {
+      "response": "4.1",
+      "originalListTreeExact": true
+    },
+    {
+      "response": "4.2",
+      "originalListTreeExact": true
+    },
+    {
+      "response": "5.1",
+      "originalListTreeExact": true
+    },
+    {
+      "response": "5.2",
+      "originalListTreeExact": true
+    }
+  ],
+  "quizQuestionAnswerPairs": 10,
+  "discussionQuestionCount": 20,
+  "discussionQuestionsRetainedVerbatim": 18,
+  "sourceNegativeControls": [
+    {
+      "removed": "prompt",
+      "rejected": true
+    },
+    {
+      "removed": "initial response block",
+      "rejected": true
+    },
+    {
+      "removed": "first curator challenge",
+      "rejected": true
+    },
+    {
+      "removed": "second curator challenge",
+      "rejected": true
+    },
+    {
+      "removed": "follow-up response",
+      "rejected": true
+    },
+    {
+      "removed": "closing model question",
+      "rejected": true
+    },
+    {
+      "removed": "quiz option",
+      "rejected": true
+    },
+    {
+      "removed": "quiz answer",
+      "rejected": true
+    },
+    {
+      "removed": "discussion question",
+      "rejected": true
+    },
+    {
+      "changed": "first challenge moved to wrong model response",
+      "rejected": true
+    }
+  ],
+  "reviewLimitations": [
+    "The curator’s experiential account remains a philosophical position, not a proved exclusive developmental theory.",
+    "Read the 2018 report’s main text and the 2010 sampling paper’s abstract/introduction; no comprehensive developmental literature review or replication assessment. The 2018 PDF is marked corrected; the separate erratum publisher page returned HTTP403, so its details were not assessed. No numerical study result is reproduced.",
+    "Ten source columns contain twelve model answers because each opening column also includes a curator challenge and reply; the generic verifier counts columns, not these extra replies."
+  ],
+  "research": [
+    {
+      "url": "https://perception.jhu.edu/files/PDFs/Misc/CesanaArlotti_Science_PreverbalLogic.pdf",
+      "scope": "Corrected main report text, experiments and interpretive limitations; limited claim about evidence compatible with early elimination of alternatives, not innate complete logic or reflective confidence."
+    },
+    {
+      "url": "https://sll.stanford.edu/docs/2010_Gweon_Schulz_Tenenbaum_PNAS.pdf",
+      "scope": "Abstract and introduction: infant generalization varies with sampling information; not a demonstration that logical validity is induced."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30237323/",
+      "scope": "Correction metadata only; separate publisher erratum unavailable."
+    }
+  ]
+}

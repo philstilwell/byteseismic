@@ -1,0 +1,233 @@
+{
+  "pageFile": "philosophy-of-science/is-logic-acquired-inductively/index.html",
+  "wordpressId": 1109,
+  "snapshot": "is-logic-acquired-inductively-wordpress-1109.html",
+  "sourceSha256": "731627798e8b201f4d6af99d71fec1f01e9f410a0e2f1e509e7a1d814695c412",
+  "sourceUrl": "http://byteseismic.com/2024/02/25/is-logic-acquired-inductively/",
+  "sourceLabel": "Original WordPress post, 2024-02-25",
+  "shellRevision": "72096ea3c3c49fcfb7152d8565cacae40af9c152",
+  "date": "2026-10-21",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "Experience, presupposition and two curator challenges",
+    "The curator’s account of sub-absolute confidence",
+    "How children develop and test inferential confidence",
+    "Five questions per response, with answers at the end",
+    "Ten discussion questions per response"
+  ],
+  "introHeading": "How experience supports confidence in logic",
+  "intro": "The curator argues that confidence in logic rests on accumulated experience and can be extremely high without becoming absolute. This edition preserves the two original model tracks, including each in-place challenge and reply, before the requested summaries, childhood examples, quizzes and discussion questions. Learning to reason, justifying confidence and establishing formal validity remain distinct questions.",
+  "description": "Follow the original debate on inductive confidence in logic, with both curator challenges, developmental examples, five-item quizzes and ten-question discussion lists.",
+  "highlights": [
+    "The curator’s proposed ground is revisable confidence supported by experience, not a demand for certainty.",
+    "A valid inference concerns what follows from its premises; a successful prediction also depends on whether those premises fit the world.",
+    "Evidence can correct confidence, but willingness to revise does not by itself settle every circularity objection."
+  ],
+  "embeddedPrompts": {
+    "1.1": [
+      "Phil’s Pushback:"
+    ],
+    "1.2": [
+      "Phil’s Pushback:"
+    ]
+  },
+  "replacements": {
+    "1.1.0": "Your proposal gives experience a substantive role in justifying our confidence in logic, rather than treating that confidence as an unexplained starting point. Its force is clearest if we distinguish three questions: how we acquire reasoning skills, what warrants our trust in them, and what makes an inference valid. Evidence about the first can inform the second without automatically settling the third. Here are the two positions before considering your challenge to their proposed reconciliation.",
+    "1.1.2": "<strong>Logical Framework as a Foundation:</strong> The presuppositional argument is that assessing evidence already involves inference: we distinguish claims, compare cases and draw conclusions. Some reasoning must therefore be in use before we can evaluate a proposed justification. That establishes a dependence of inquiry on inference; it does not yet establish that our confidence must be unevidenced or unrevisable.",
+    "1.1.3": "<strong>Self-Evident Nature of Logic:</strong> A defender may regard a principle such as non-contradiction as evident once understood: the same claim cannot be both true and false in the same respect in classical logic. The curator asks what warrants this sense of obviousness. Merely calling a principle self-evident does not explain how we came to trust it or answer that challenge.",
+    "1.1.4": "<strong>Problem of Circularity:</strong> An inductive defense of logic itself uses inferential standards to decide what counts as evidence and support. A critic asks whether those standards are being vindicated by their own use. This is a challenge to justification, not a refutation of the claim that children learn through experience. Causality and the uniformity of nature are not themselves laws of formal logic.",
+    "1.1.6": "<strong>Empirical Learning of Logic:</strong> Children can acquire confidence in reasoning by comparing expectations with outcomes and receiving correction. For example, if a toy is in one of two boxes and the first is empty, looking in the second can confirm the expectation. Experience here supplies feedback about premises, interpretation and inference together; observing gravity alone would not demonstrate a logical law.",
+    "1.1.7": "<strong>Evolving Understanding of Logic:</strong> On the curator’s account, trust remains open to correction. An apparent failure could lead us to reconsider a premise, our use of a rule, or the suitability of a logical framework. Revising our understanding or choice of logic is different from saying that an unchanged formal rule simply became invalid overnight.",
+    "1.1.8": "<strong>Epistemic Honesty:</strong> The proposed advantage is to state both the experiential grounds of confidence and the possibility of revision. This avoids presenting strong confidence as absolute certainty. Whether experience supplies the only possible warrant remains the philosophical claim under discussion, rather than something established merely by describing childhood learning.",
+    "1.1.10": "A proposed synthesis is that reasoning supplies the working framework for evaluating experience while experience helps us assess how reliably we reason. Yet this formulation can evade your central objection if it quietly reinstates an unevidenced foundation. Using a rule before having an explicit defense of it does not mean accepting it as beyond evidential assessment.",
+    "1.1.11": "The issue is therefore whether an experience-based, revisable warrant is enough, even when it uses some of the reasoning it assesses. The following pushback rejects the idea that the absence of an entirely independent proof requires an unevidenced presupposition. Its three objections deserve separate answers.",
+    "1.1.13": "I agree that my synthesis should not turn the practical use of logic into a requirement to accept it without evidence. Your position asks for warranted, revisable confidence rather than an absolute proof. The first two points clarify that proposal; the third needs a distinction between openness to correction and independence of justification.",
+    "1.1.14": "<strong>Logical Framework and Inductive Grounding:</strong> Your “inductive density” is the accumulated support supplied by varied successful applications. The claim is that this can warrant extremely high confidence even though it cannot exclude every possible future correction. Diverse tests matter more than repeatedly counting the same assumption as a new success. On your view, this evidential record does the justificatory work that an unevidenced presupposition does not.",
+    "1.1.15": "<strong>Self-evident Logic and Inductive Experience:</strong> You explain the feeling of self-evidence as deeply learned confidence. That challenges the use of obviousness as a stopping point: a principle’s feeling irresistible does not independently establish why we should trust it. This is your account of that feeling; the developmental evidence alone does not establish that experience is its only possible source.",
+    "1.1.16": "<strong>Circularity and Inductive Epistemology:</strong> Your proposed defense does not assume absolute reliability as a premise and then deduce it. It lets experience affect confidence. I agree that this differs from a closed, self-confirming argument. However, circular support can also occur in an uncertain argument: calling a method probably reliable because it itself classifies its results as probably correct still needs scrutiny. Revisability is an important safeguard, but the further question is whether successes and failures are assessed in ways that can actually challenge the method.",
+    "1.1.17": "This qualification preserves your central claim: strong practical warrant need not await an impossible standpoint outside every form of inference. It asks how that warrant is maintained. Independent checks of premises, attempts to find counterexamples and comparison with alternative explanations make experience informative rather than ceremonial.",
+    "1.1.18": "I therefore agree that an openly revisable, experience-supported confidence is more defensible than simply announcing an unevidenced certainty. I would not infer from this alone that all circularity is deductive or that every form of non-empirical justification has been defeated. Those stronger claims require arguments beyond the rejection of absolute certainty.",
+    "1.2.0": "Your question challenges the move from “we must reason” to “we must assume logic without evidence.” The following comparison separates that challenge from the question of how children learn, and leaves room for your subsequent reply about an inductive substrate.",
+    "1.2.2": "<strong>Pros:</strong> Any assessment of evidence uses inferential capacities. The original question remains: “We use logic to reason about evidence, so how can we justify its validity using logic itself?” This raises a problem for a wholly independent justification. It does not establish that practical confidence requires certainty.",
+    "1.2.3": "<strong>Cons:</strong> If the approach simply declares logic reliable and exempt from assessment, it has not supplied the warrant you request. But using an inference rule and believing it with absolute certainty are different acts. A defender must explain the warrant for reliance, rather than treat the word “presupposition” as an answer.",
+    "1.2.5": "<strong>Pros:</strong> Trusted testimony, successful predictions and correction can help children develop confidence in reasoning. These experiences give a concrete account of how trust grows. To support a philosophical justification, the account must also explain why particular outcomes count as evidence for a rule, rather than only for the premises used with it.",
+    "1.2.6": "<strong>Cons:</strong> Learning can incorporate biased testimony, selective examples and mistakes. Moreover, an apparent contradiction might expose false premises or ambiguous wording instead of a failure of logic. The original response wrongly called violations of logic inevitable: encountering a mistaken argument is not the same as finding a valid inference with true premises and a false conclusion.",
+    "1.2.8": "<strong>Inductive Approach:</strong> Its epistemic honesty lies in identifying the evidence behind confidence and admitting possible correction. That commitment becomes substantive when adverse observations can change the assessment, not merely when a speaker says “I might be wrong.”",
+    "1.2.9": "<strong>Presupposition Approach:</strong> It can candidly acknowledge dependence on basic reasoning, but that is insufficient if it treats a claim of necessity as a substitute for explaining warrant. The curator’s objection targets precisely that unexplained step.",
+    "1.2.12": "A developmental explanation may include early capacities as well as learning. <a href=\"https://perception.jhu.edu/files/PDFs/Misc/CesanaArlotti_Science_PreverbalLogic.pdf\">Cesana-Arlotti and colleagues’ 2018 infant study</a> reports behavior consistent with eliminating a logical alternative before extensive language mastery. It does not establish that all logic is innate, or measure infants’ reflective confidence in logic. Competence, learning and justification should not be collapsed.",
+    "1.2.13": "These issues should be judged by how well the arguments answer one another, not merely by which philosophical outlook a person prefers. Your proposal supplies a possible practical warrant; the challenge is whether this warrant can answer the dependence objection without requiring a proof from outside all reasoning.",
+    "1.2.15": "Yes: your reply distinguishes an inductive basis for high confidence from a deduction claiming absolute certainty. My earlier question could wrongly suggest that only an independent, certainty-producing proof would justify using logic. Your proposal rejects that demand.",
+    "1.2.16": "Your reply has three parts:",
+    "1.2.18": "You locate the warrant in the accumulated record of applying reasoning across experience. “Sub-absolute” describes our confidence, not a rule being partly valid. Within a specified system, validity concerns whether a conclusion follows from its premises; our confidence in using that system to reason about the world can remain revisable.",
+    "1.2.20": "You hold that extensive, varied experience supplies enough warrant to employ deductive rules without claiming certainty about their ultimate grounding. We can distinguish that confidence from confidence in a particular conclusion, which also depends on its premises and on applying the rule correctly.",
+    "1.2.22": "If a well-examined failure emerged, your account would allow confidence to fall. Before identifying the rule as the problem, we would check the premises, observations and meanings of the terms. A toy unexpectedly absent from both boxes may show that it was moved, not that elimination of alternatives is invalid. This does not rule out reassessment; it specifies what reassessment must examine.",
+    "1.2.23": "Your inductive substrate therefore offers a practical, fallible warrant for reliance on logic. It does not pretend to assess inference without using inference. A critic can still ask whether the warrant is sufficiently independent of the rules being assessed, while you can ask why that independence is required for justified confidence short of certainty.",
+    "1.2.24": "The disagreement is now more precise: not whether we have achieved absolute proof, but whether this continuing, experience-responsive warrant is adequate. Your answer is yes. Preserving that answer does not require confusing very high confidence with infallibility.",
+    "2.1.0": "Your position concerns the warrant for our confidence in logic:",
+    "2.1.1": "You hold that reliance on logic ultimately rests on accumulated inductive experience. Repeated successful applications, correction of mistakes and the reliability of reasoning across varied settings supply evidence for extremely high confidence. This dependence on experience remains even when the reasoning subsequently performed is deductive.",
+    "2.1.2": "You interpret logic’s apparent self-evidence as a confidence formed through that experiential record, rather than as a separate warrant that needs no explanation. Calling a rule obvious cannot replace the account of why a finite human reasoner is justified in trusting it.",
+    "2.1.3": "You reject a closed deduction that assumes the very certainty it claims to establish. Instead, confidence should track the evidence and remain open to reduction if logic were demonstrably to fail. In your account, this revisability distinguishes inductive support from the circular proof you reject. That states your position; the earlier responses distinguish it from the further objection that some inferential standards remain in use during the assessment.",
+    "2.1.4": "Thus, your proposal is neither absolute certainty nor suspension of ordinary reasoning: it is extremely strong, sub-absolute confidence grounded in experience and accountable to possible correction. You regard this as a more honest warrant than an unevidenced presupposition.",
+    "2.2.1": "You argue that inductive experience is unavoidable in warranting our confidence in logic. Successful use across varied settings provides support that a purely self-referential assertion of reliability cannot supply.",
+    "2.2.3": "<strong>A deduction alone cannot supply the ultimate warrant you seek:</strong> it already employs inferential rules whose reliability is under discussion.",
+    "2.2.7": "These points express your commitment to an experiential, revisable warrant for using logic. They should be read as a summary of your position, not as a claim that the discussion has independently settled every foundational objection.",
+    "3.1.0": "Children can build confidence in reasoning through feedback long before they explicitly ask whether logic is reliable. The seven aspects below describe interacting opportunities for learning, not a fixed sequence or evidence that every logical capacity originates in induction. “Confidence” here often means a growing disposition to rely on an inference, rather than a child’s articulated philosophical belief.",
+    "3.1.2": "A child notices that a dropped toy usually falls. This supports an expectation about physical behavior; gravity is not a logical law. A more directly logical opportunity occurs when the child knows a toy is in either box A or box B, finds A empty, and searches B. Repeated successful searches can build trust in eliminating alternatives, provided those really were the only possibilities.",
+    "3.1.4": "Trying different objects can test a physical generalization, while changing the box arrangement can reveal a hidden premise. If a third box becomes available, “not in A” no longer warrants “in B.” The child can learn both that a pattern of inference works and that it depends on an adequately specified set of alternatives. This is an illustration of how experience could teach the distinction, not a claim that every child consciously performs this analysis.",
+    "3.1.6": "Words such as “not,” “all,” “some” and “if” help children express relations they can compare with examples. Sorting blocks can distinguish “all the blocks are red” from “some are red”: one blue block defeats the first statement but not the second. Language can make such distinctions explicit without being the only possible basis of early reasoning.",
+    "3.1.8": "Parents, teachers and peers can offer explanations and counterexamples. When an adult says that every piece in a game must fit a square slot, a child can test that claim against the pieces. Useful feedback identifies the premise or step that failed. Mere approval, conformity to a social norm or a feeling of fairness is not proof of logical validity.",
+    "3.1.10": "With growing experience and cognitive resources, children can reason about possibilities they have not directly encountered. An adult might ask: “Suppose every creature on an imaginary island has wings, and this creature lives there. What follows?” This separates accepting a premise for the exercise from believing it describes the actual world. Such tasks can help make inferential form explicit.",
+    "3.1.12": "Education can connect familiar examples to stated rules and counterexamples. “Every square is a rectangle; this is a square; therefore this is a rectangle” illustrates a valid move. Reversing it does not: a rectangle need not be square. Drawing examples helps the learner see why the reversal fails instead of memorizing that it is forbidden.",
+    "3.1.14": "Feedback becomes more informative when the child can distinguish a bad premise from a bad inference. If a supposed square turns out not to have equal sides, that changes the classification, not the rule connecting squares and rectangles. This kind of correction can strengthen well-placed confidence while reducing confidence in a mistaken application.",
+    "3.1.15": "Observation, experimentation, language and correction can therefore cultivate inferential confidence together. This supports the plausibility of the curator’s learning account without showing that every logical capacity is learned or that successful applications alone prove a universal logical law. The developmental and justificatory claims remain related but distinct.",
+    "3.2.0": "The curator’s proposal can be elaborated through four kinds of experience. These describe possible routes to confidence, rather than a complete developmental theory:",
+    "3.2.2": "<strong>Trusting Adults:</strong> An adult can model reasoning and explain why a conclusion follows. Children may learn whom to trust through a history of accurate testimony and correction. Trust in an adult is nevertheless revisable, and reasoning abilities need not begin only after adult instruction.",
+    "3.2.3": "<strong>Consistent Outcomes:</strong> Advice such as wearing warm clothes can be checked against experience. Its success supports a practical expectation involving several assumptions; it does not isolate a logical rule. Confidence in reasoning becomes better calibrated when explanations identify which claim or inference the outcome tests.",
+    "3.2.5": "<strong>Identifying Patterns:</strong> Learners can notice relations among categories, events and claims. A pattern such as “these blue toys squeak” invites a generalization, but the selection of examples matters. <a href=\"https://sll.stanford.edu/docs/2010_Gweon_Schulz_Tenenbaum_PNAS.pdf\">Gweon, Tenenbaum and Schulz’s 2010 experiments</a> found that infants’ generalization varied with evidence about sampling. This supports early sensitivity to evidence, not proof that logical validity is acquired by induction.",
+    "3.2.6": "<strong>Testing and Experimentation:</strong> Trying an unfamiliar case can expose a mistaken generalization. A non-squeaking toy need not discredit inference itself; it may show that the sampled toys were unrepresentative. Learning which expectation failed is more informative than simply associating reasoning with getting a desired outcome.",
+    "3.2.8": "<strong>Learning Vocabulary:</strong> “Not,” “all,” “some” and “if–then” let children articulate and compare logical relationships. “Because” can introduce a causal explanation or a reason for a claim; those are not identical. Examples and correction help a learner understand what each expression contributes.",
+    "3.2.9": "<strong>Following Instructions and Rules:</strong> A game can make conditional reasoning concrete: if a piece is red, place it in this tray. Applying the instruction requires noticing its condition. Obeying an adult, however, is not itself evidence that the adult’s reasoning is valid or the instruction fair.",
+    "3.2.11": "<strong>Witnessing Discussions:</strong> Adults can model asking what supports a claim and whether a counterexample changes it. They can also model bad reasoning. The benefit comes from examining reasons and corrections, rather than assuming that confident argument is sound argument.",
+    "3.2.12": "<strong>Engaging in Discussions:</strong> Children can state a reason, hear an objection and revise a conclusion. An adult who asks “Could both statements be true?” or “What if one object is different?” helps make consistency and exceptions available for reflection. Such exchanges cultivate explicit assessment of reasoning.",
+    "3.2.17": "These experiences can strengthen practical reliance on reasoning while leaving its developmental origins and ultimate justification open to further inquiry. The curator’s emphasis is that confidence is answerable to experience, not that children first learn a finished formal system and then test it.",
+    "4.1.24": "<strong>False.</strong> The curator’s account permits extremely high confidence while keeping it below absolute certainty.",
+    "4.1.26": "<strong>B) By allowing confidence to be revised.</strong> This is the safeguard the curator emphasizes. Openness to revision prevents an explicitly unrevisable commitment; by itself it does not settle whether using inferential rules to assess those rules provides an adequate warrant.",
+    "4.2.2": "According to the inductive account, what supports confidence in logic?<br/>a) Using a rule as its own complete proof.<br/>b) Its successful application across varied experiences, with openness to correction.<br/>c) Unquestioning obedience to experts.<br/>d) Absolute certainty that no error is possible.",
+    "4.2.3": "Which limitation must an experiential account address?<br/>a) Every unexpected result proves that logic has failed.<br/>b) Biases and false premises can distort the assessment of a purported success or failure.<br/>c) Children must know formal logic before learning from feedback.<br/>d) All induction must claim absolute certainty.",
+    "4.2.4": "Why is observing a falling toy insufficient to demonstrate a law of logic?<br/>a) Physical observations can never inform confidence.<br/>b) Children cannot learn from observation.<br/>c) It tests a physical expectation and does not isolate the validity of an inference rule.<br/>d) Every logical rule concerns falling objects.",
+    "4.2.5": "What foundational question remains after describing how confidence develops?<br/>a) Whether experience supplies adequate warrant for the inferential rules used to assess that experience.<br/>b) Whether children are physically present in classrooms.<br/>c) Whether definitions can be printed in books.<br/>d) Whether all practical decisions require absolute certainty.",
+    "4.2.6": "Which statement best captures the curator’s position?<br/>a) Logic must be accepted without evidence.<br/>b) Experience can warrant extremely high, revisable confidence in logic.<br/>c) Because certainty is unavailable, reasoning should stop.<br/>d) Every surprising event refutes logic.",
+    "4.2.8": "<strong>b)</strong> Varied successful applications and correction provide the proposed experiential support.",
+    "4.2.9": "<strong>b)</strong> A result must be interpreted carefully: biased samples, mistaken premises and misuse of a rule can affect the assessment.",
+    "4.2.10": "<strong>c)</strong> A physical regularity is not itself a logical law. The revised quiz replaces an original question about a computer analogy absent from the source conversation.",
+    "4.2.11": "<strong>a)</strong> A developmental account does not by itself settle the adequacy of the proposed warrant.",
+    "4.2.12": "<strong>b)</strong> The curator rejects both unevidenced certainty and the demand to abandon reasoning because its ultimate warrant is fallible.",
+    "5.1.1": "When an observation conflicts with an expectation, how could we distinguish a faulty premise, a mistaken application and a reason to reconsider a logical framework?",
+    "5.2.2": "What criteria would distinguish reliable reasoning from a lucky outcome, and how could those criteria themselves be assessed?",
+    "4.1.8": "Which safeguard does the curator emphasize against a closed, self-confirming defense of logic?"
+  },
+  "countChecks": [
+    {
+      "name": "1.1.ol original list counts",
+      "selector": "#prompt-1 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "1.2.ul original list counts",
+      "selector": "#prompt-1 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "2.2.ul original list counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        4
+      ]
+    },
+    {
+      "name": "3.2.ul original list counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        2,
+        2,
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "4.1.ol original list counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        2,
+        1,
+        1,
+        1,
+        5
+      ]
+    },
+    {
+      "name": "4.1.ul original list counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"1\"] ul",
+      "child": "li",
+      "expected": [
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "4.2.ol original list counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        5,
+        5
+      ]
+    },
+    {
+      "name": "5.1.ol original list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        10
+      ]
+    },
+    {
+      "name": "5.2.ol original list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        10
+      ]
+    }
+  ],
+  "responseDecisions": {
+    "1.1.initial": "Retain two three-item positions and synthesis progression; distinguish acquisition, warrant and validity; correct causality/uniformity-as-logic conflation; make synthesis answer curator without deciding its later challenge in advance.",
+    "1.1.followup": "Preserve complete three-part curator challenge verbatim, including typo. Answer each point in place; respect inductive density and sub-absolute warrant while distinguishing revisability from a sufficient solution to circularity.",
+    "1.2.initial": "Retain pros/cons and further considerations; preserve quoted question exactly for ensuing challenge; correct inevitable-violations claim and developmental/justificatory conflation.",
+    "1.2.followup": "Preserve exact in-place challenge, three-part response and closing model question. Correct graded-validity language; explain premise/rule distinction with box example; retain curator’s positive conclusion as his position.",
+    "2.1": "Give an explicitly attributed summary of curator’s actual stance; do not substitute a middle position or endorse every disputed inference as settled.",
+    "2.2": "Retain four summary bullets, three verbatim; clarify dependence claim and distinguish statement of position from established conclusion.",
+    "3.1": "Retain seven headings/order; replace gravity-as-logical-law and conformity-as-validity confusions with boxes, categories and conditional examples; avoid universal developmental sequence or proof of exclusive empiricism.",
+    "3.2": "Retain four paired groups and three limitations; add bounded primary research and distinguish sampled properties, logic, authority and desired outcomes.",
+    "4.1": "Retain five questions, nested four-option lists and end key; repair circularity question to test curator’s claimed safeguard without asserting it settles all objections.",
+    "4.2": "Retain five questions/four choices each and end key; replace nonexistent computer-analogy question and ambiguous/incorrect answer keys; separate inline options visibly.",
+    "5.1": "Retain ten discussion questions, nine verbatim; replace quantum/no-logic presupposition with diagnostic question.",
+    "5.2": "Retain ten discussion questions, nine verbatim; replace subjective-or-objective false dichotomy with reliability/luck assessment."
+  },
+  "pageSignals": {
+    "Page form": "Original conversation · editorial edition",
+    "Best for": "separating learned confidence, justification and logical validity"
+  },
+  "orderedListStarts": {
+    "4.1": [
+      1,
+      3,
+      4,
+      5,
+      1
+    ]
+  }
+}

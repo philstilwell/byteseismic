@@ -4,10 +4,10 @@
   "startIndex": 100,
   "endIndexExclusive": 150,
   "candidateWordPressOriginals": 49,
-  "fullyReviewed": 30,
-  "pendingFullReview": 20,
+  "fullyReviewed": 31,
+  "pendingFullReview": 19,
   "sourceBlocked": 0,
-  "limitation": "Thirty entries have substantive review and source verification; twenty remain pending. No batch advancement. Selective Pressures distinguishes evidence from ethical approval while retaining exact curator challenges and the challenged passages with error labels. Resulting separates outcome bias from evidence-based reconsideration, restores the intervening curator note, and repairs quiz and discussion counts. Historical resulting cases are qualified illustrations, not demonstrated diagnoses. Prior page-specific limitations remain documented.",
+  "limitation": "Thirty-one entries have substantive review and source verification; nineteen remain pending. No batch advancement. Is Logic Acquired Inductively restores both model tracks and exact curator challenges; separates acquisition, warrant and validity, repairs developmental examples and quizzes. Case #6 original and prior edition read only; historical claims and circularity account await full review. Earlier page-specific limitations remain effective.",
   "pages": [
     {
       "pagePath": "/philosophers/philosopher-club-membership/",
@@ -786,7 +786,7 @@
       "pagePath": "/philosophy-of-science/is-logic-acquired-inductively/",
       "pageTitle": "Is Logic Acquired Inductively?",
       "queueIndex": 131,
-      "status": "pending-full-review",
+      "status": "reviewed-verified",
       "wordpressId": 1109,
       "sourceUrl": "http://byteseismic.com/2024/02/25/is-logic-acquired-inductively/",
       "sourceTitle": "Is Logic Acquired Inductively?",
@@ -804,8 +804,11 @@
         "Provide 10 discussion questions relevant to the discussion above."
       ],
       "wordCount": 5978,
-      "fullSourceRead": false,
-      "editorialReviewComplete": false
+      "fullSourceRead": true,
+      "editorialReviewComplete": true,
+      "reviewedAt": "2026-10-21T13:31:54.527978+00:00",
+      "verification": "quality/original-source-revisions/is-logic-acquired-inductively-verification-2026-10-21.json",
+      "sourceSnapshot": "quality/original-source-revisions/is-logic-acquired-inductively-wordpress-1109.html"
     },
     {
       "pagePath": "/epistemology/case-6-insatiable-loops/",
@@ -827,8 +830,10 @@
         "Provide 15 discussion questions relevant to the content above. "
       ],
       "wordCount": 4346,
-      "fullSourceRead": false,
-      "editorialReviewComplete": false
+      "fullSourceRead": true,
+      "editorialReviewComplete": false,
+      "fullPreviousEditionRead": true,
+      "initialReviewConcern": "Circular recycling of inferred classifications is distinct from induction generally. Cave appearance is not an established counterexample. Preserve eight alternating father/son turns, repair bat/bird analogy, research five historical cases per response, and check both ten-item quizzes and fifteen-question lists. Source reading alone does not complete review."
     },
     {
       "pagePath": "/ethics/fictional-meta-ethics-debate/",
@@ -1268,6 +1273,6 @@
       "editorialReviewComplete": false
     }
   ],
-  "updatedAt": "2026-10-20T13:29:13.480582+00:00",
+  "updatedAt": "2026-10-21T13:31:54.527978+00:00",
   "recordedAt": "2026-10-20T13:29:13.480582+00:00"
 }
