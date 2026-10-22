@@ -1,0 +1,214 @@
+{
+  "pageFile": "epistemology/case-6-insatiable-loops/index.html",
+  "wordpressId": 6794,
+  "snapshot": "case-6-insatiable-loops-wordpress-6794.html",
+  "sourceSha256": "6b4ddbda63903762946d27cec4c8b327a7a672acf1f6b98047733b34225454f5",
+  "sourceUrl": "http://byteseismic.com/2024/04/20/case-6-insatiable-loops/",
+  "sourceLabel": "Original WordPress post, 2024-04-20",
+  "shellRevision": "bc8fb849c1a86368516c23cef18cc186f7499750",
+  "date": "2026-10-22",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "When a prediction is counted as new evidence",
+    "Showing the father where the loop closes",
+    "Five historical cases in each response, with qualifications",
+    "Ten questions per response, with answer keys",
+    "Fifteen discussion questions per response"
+  ],
+  "introHeading": "The cave that becomes evidence without being examined",
+  "intro": "The curator’s cave example exposes a belief that manufactures its own confirmation. This edition restores the two original response tracks, the father–son exchange, and both sets of historical examples, quizzes and discussion questions. It distinguishes legitimate provisional inference from recycling an inferred classification as new evidence, and corrects historical examples that the original responses labeled circular too quickly.",
+  "description": "A father counts an unexamined cave as evidence for his own prediction. Follow the original exchange, qualified historical examples, and two complete quizzes.",
+  "highlights": [
+    "A prediction about a new cave is not an independently checked observation about its origin.",
+    "An apparently natural cave deserves investigation; its appearance alone does not settle how it formed.",
+    "A false theory, an unsupported premise and a circular argument are different problems."
+  ],
+  "pageSignals": {
+    "Page form": "Original conversation · editorial edition",
+    "Best for": "recognizing when a belief manufactures its own confirmation"
+  },
+  "replacements": {
+    "1.1.0": "The decisive mistake occurs when the father adds the new cave to his evidence without checking how it formed. He uses his generalization to classify the cave, then treats that classification as fresh support for the same generalization. The following five distinctions show how the loop works.",
+    "1.1.1": "<strong>Misapplication of Inductive Reasoning:</strong> Observations of earlier human-made caves can support a provisional expectation about another cave, depending on how representative the sample is. They do not establish its origin. The son has found a possible counterexample, not yet a demonstrated natural cave. The father should investigate it instead of converting his expectation into a supposedly observed fact.",
+    "1.1.3": "<strong>Ignoring Counterexamples:</strong> One established natural cave would refute the universal claim that all caves are man-made. A cave that merely looks natural is a reason to investigate, since appearances can mislead in either direction. The father’s method fails because it supplies the same classification before any such investigation could change his mind.",
+    "1.1.4": "<strong>Hasty Generalization:</strong> The earlier sample may be unrepresentative—for example, it may contain only excavations near settlements. The prompt does not tell us its size or how the father verified those cases. Even a large sample does not license counting an untested prediction as an additional observation. Sample quality and circular reinforcement are separate issues.",
+    "1.1.5": "<strong>Circular Reasoning:</strong> The loop is: earlier cases suggest all caves are man-made → therefore classify this cave as man-made → count that classification as another confirmation that all caves are man-made. Nothing independent has been learned at the last step. If repeated, this procedure can make the apparent evidence grow indefinitely while the actual evidential basis stays unchanged.",
+    "1.1.6": "The remedy is to keep observed origins separate from predicted origins. Records of excavation, tool marks and geological evidence could help investigate this cave; no single sign need be decisive. The father may start with an expectation, but the test must have a real chance to change it.",
+    "1.2.0": "The central flaw is circular confirmation, not simply the general problem of induction. Induction asks how observed cases support expectations beyond them. Here the father introduces an additional error: he lets an expectation supply its own confirming data. Even a cautious, useful prediction becomes misleading if relabeled as a new observation.",
+    "1.2.2": "<strong>Hasty generalization:</strong> A sample of human-made caves may support an expectation, but its reach depends on how those caves were selected and identified. It is not necessary to inspect every cave before making any reasonable prediction. The mistake is treating a limited record as a universal verdict and shielding it from further testing.",
+    "1.2.3": "<strong>Confirmation bias:</strong> The cave’s appearance does not prove a natural origin. Nevertheless, the father dismisses a reason for further investigation and classifies the cave to fit his existing view. The bias lies in that unequal treatment of possible supporting and challenging evidence.",
+    "1.2.4": "<strong>Failure to consider alternative explanations:</strong> Human excavation is one candidate; natural formation is another. For example, water can dissolve soluble rock and create a cave. The relevant question is what evidence distinguishes these origins in this case, including the possibility that people modified an existing natural cave.",
+    "1.2.5": "<strong>Misunderstanding of inductive inference:</strong> “This cave is probably man-made, given my earlier observations” is a prediction. “I have independently established that this cave is man-made” reports new evidence. Replacing the first sentence with the second without doing the investigation is the step that closes the loop.",
+    "1.2.10": "Keep a separate record of verified cases and provisional classifications. If ten checked excavations support the prediction about an eleventh cave, that prediction alone does not turn the evidence into eleven checked excavations.",
+    "1.2.11": "These safeguards preserve the value of induction while preventing the father from inflating his evidence. The son need not prove that this cave is natural before exposing the faulty bookkeeping.",
+    "2.1.0": "The son can distinguish a reasonable starting expectation from the extra claim that the expectation has been confirmed. This hypothetical dialogue keeps the father’s replies in place so the precise objection can develop:",
+    "2.1.1": "<strong>Son:</strong> “Dad, the other caves may give you a reason to expect this one to be man-made. But what did you find here that lets you count it as another checked example?”",
+    "2.1.3": "<strong>Son:</strong> “You’ve used ‘all caves are man-made’ to decide what this cave is. Then you’ve added that decision to your evidence that all caves are man-made. Where did the new evidence enter?”",
+    "2.1.5": "<strong>Son:</strong> “Suppose all the birds I’ve checked are black. I see a white-looking bird, declare it black because of my rule, and count it as another black bird. I haven’t checked whether it is really black or whether the light is misleading me. My rule has supplied the answer I then count as support.”",
+    "2.1.7": "<strong>Son:</strong> “The things being classified are different, but the loop is the same. This cave might turn out to be man-made. We still need evidence of that. What could we find that would make you classify it as natural instead?”",
+    "2.1.9": "The analogy targets the reuse of a classification as evidence. It does not equate a cave’s appearance with proof of its origin. Asking what would change the classification turns the conversation from defending a conclusion to examining the method that produced it.",
+    "2.2.1": "“Dad, I’m not saying your earlier observations are worthless. I’m asking why this cave is now on your list of verified man-made caves when your only reason for putting it there is the claim that the list is meant to support.”",
+    "2.2.3": "“There are two different inferences here. Let’s separate them:",
+    "2.2.4": "<strong>Starting evidence:</strong> The earlier caves were independently checked and found to be man-made.<br/><strong>Prediction:</strong> On that basis, you expect this cave to be man-made too.<br/><strong>Unjustified addition:</strong> You count that expectation as a new verified case.<br/><strong>Return to the claim:</strong> You use the enlarged list to say your original generalization is now better supported.",
+    "2.2.5": "The prediction might be reasonable; the addition is not new evidence. We have to inspect the cave before it can confirm or challenge the prediction.”",
+    "2.2.7": "“Imagine I claim that every winged animal is a bird. When we find a bat, I call it a bird solely because of that claim, then add it to my evidence that all winged animals are birds. I haven’t independently checked what kind of animal it is; I’ve recycled the rule as support for itself.”",
+    "2.2.8": "This revised analogy repairs the original example, which mixed up flight, wings and classification without completing the evidential loop. The son’s question is now specific: what observation supports the new entry besides the generalization that the entry is supposed to confirm?",
+    "3.1.0": "Here are five historical cases related to the requested pattern. They differ in how closely they reproduce the cave loop: some show evidence shaped by a prior belief, while others show a doctrine protected from criticism. Those similarities should not be inflated into a claim that every argument in these traditions was formally circular. The explanations below identify both the mechanism and its limits.",
+    "3.1.1": "<strong>Geocentric Model of the Universe — Bellarmine’s 1615 letter:</strong> Bellarmine invoked accepted scriptural interpretation against a moving Earth. An evidential loop would arise if that interpretation fixed the astronomical conclusion and the conclusion then validated the interpretation. But his actual letter also allowed that a genuine demonstration would require reconsidering the scriptural reading. It therefore illustrates the pressure of prior authority and an explicit qualification, not an entirely closed loop. Geocentrism also had observational and mathematical arguments; it was not merely a religious assumption. <a href=\"https://w2.inters.org/Bellarmino-Letter-Foscarini\">Read the letter.</a>",
+    "3.1.2": "<strong>Racial Science in the 19th and Early 20th Century — Morton’s 1839 classifications:</strong> In <em>Crania Americana</em>, Samuel Morton coupled descriptions of skulls with sweeping racial character judgments. The danger is using assumed group superiority to interpret measurements, then presenting those interpreted measurements as independent proof of superiority. His classifications document the racist framework; they do not by themselves establish that every measurement was fabricated or every inference literally circular. The required check is whether the supposed measure of ability was validated independently of the hierarchy it was used to defend. <a href=\"https://chnm.gmu.edu/exploring/19thcentury/debateoverslavery/pop_morton.html\">Read the primary-source excerpts.</a>",
+    "3.1.3": "<strong>Witch Hunts in the Early Modern Period — Salem, 1692:</strong> Thomas Brattle reported that some husbands, already convinced that an accusation meant guilt, pressured their wives to confess. Confessions were then offered as evidence of witchcraft. His account exposes a close analogue of the cave loop: the initial belief helps produce the supposed confirmation. This concerns the reliability and independence of particular confessions, not a claim that all Salem testimony was obtained by torture or that every European trial followed one procedure. <a href=\"https://human.libretexts.org/Under_Construction/American_Literature_I%3A_An_Anthology_of_Texts_From_Early_America_Through_the_Civil_War_%28Kurtz%29/02%3A_Literature_of_Colonial_America/2.26%3A_Letter_of_Thomas_Brattle_F._R._S._1692_By_Thomas_Brattle\">Read Brattle’s letter.</a>",
+    "3.1.4": "<strong>Divine Right of Kings — James VI’s <em>The True Law of Free Monarchies</em> (1598):</strong> James answered the objection of a wicked ruler by treating such a ruler as divine punishment, still not removable by subjects. This absorbs apparent counterevidence to benevolent divine appointment within the same theological framework. It resembles the father’s insulation of his claim, but is not by itself a formal proof of the claim from itself: James also offered scriptural and political premises. Those premises need assessment rather than the blanket label “circular.” <a href=\"https://slaverylawpower.org/chapters/debating-power-empire/james-i-true-law-free-monarchies-1598/\">Read the text, especially its answer to the wicked-king objection.</a>",
+    "3.1.5": "<strong>McCarthyism and the Red Scare — the censure dispute of 1954:</strong> The Senate’s censure resolution records McCarthy characterizing the committee examining his conduct as serving Communist interests and using Communist methods. The danger is treating criticism of an accusation as further evidence of the conspiracy alleged. That interpretation is an analysis of his defensive move, not proof that every denial by every accused person was treated as guilt. Resistance to an allegation cannot establish the allegation without additional evidence. <a href=\"https://www.archives.gov/milestone-documents/censure-of-senator-joseph-mccarthy\">Read the resolution and transcript.</a>",
+    "3.1.6": "These five cases answer the historical request with different degrees of fit, not five interchangeable proofs of circularity. The most important diagnostic question remains the same: was the apparent confirmation established independently, or did the belief being defended determine what would count as confirmation? Calling an argument circular also requires evidence.",
+    "3.2.0": "The original response offered five familiar historical examples, but several diagnoses were mistaken. The same five topics are retained below with the limits made explicit. This is a qualified review of those examples, not a claim to have established five unambiguous historical instances of the precise cave argument.",
+    "3.2.1": "<strong>Geocentric model of the universe:</strong> The argument “if Earth moved, we would observe a certain effect; we do not observe it; therefore Earth does not move” is not formally circular. Its vulnerability may lie in the physical premise about what motion would produce. A defender would become circular by deciding in advance that every observation must fit a stationary Earth and then counting those forced interpretations as new support. The original example did not establish that this happened. Bellarmine’s 1615 letter, discussed above, shows why the actual argument and its qualifications matter.",
+    "3.2.2": "<strong>Divine command theory:</strong> In Plato’s <em>Euthyphro</em>, Socrates distinguishes being holy from being loved by the gods and asks which explains which. A loop would arise if divine commands were certified as good solely because God is good, while God’s goodness were certified solely because he issues those commands. But a theory that takes divine commands as constitutive of obligation is not circular simply by stating that view; its grounding and authority still require argument. The original response confused a demand for justification with a demonstrated circular proof. <a href=\"https://classics.mit.edu/Plato/euthyfro.html\">Read the dialogue’s explanatory challenge.</a>",
+    "3.2.3": "<strong>Argument from design — Paley’s watchmaker analogy (1802):</strong> Paley begins with the arrangement and functioning of a watch, then argues for a maker. That reasoning does not simply list God’s existence as a premise. Critics can challenge the extension from artifacts to organisms, the exclusion of alternatives, or the move from a designer to a particular deity. Circularity would arise if “design” already meant “made by God” and the presence of design were assumed rather than established. The original response did not demonstrate that this was Paley’s argument. <a href=\"https://ntarchive.org/works/paley-1802-natural-theology/\">Read the opening of <em>Natural Theology</em>.</a>",
+    "3.2.4": "<strong>Aristotelian physics:</strong> In <em>On the Heavens</em>, Aristotle connects heavy and light bodies with characteristic directions of natural motion. Merely saying that a body falls because it has a tendency to fall would redescribe the event instead of independently explaining it. But Aristotle’s wider theory includes additional claims about elements and cosmic order. Its failure as modern physics does not establish that every argument in it was circular. Nor did he simply assign all light terrestrial bodies to the celestial spheres, as the original response suggested. <a href=\"https://classics.mit.edu/Aristotle/heavens.4.iv.html\">Read Book IV.</a>",
+    "3.2.5": "<strong>Phrenology — <em>The American Phrenological Journal</em>, May 1839:</strong> An article inferred that Thomas Brown must have had a large “Combativeness” organ from the vividness of his writing about anger. The organ was thus inferred through the doctrine rather than independently measured in the passage. Counting such an inference as anatomical confirmation would repeat the cave error. The same issue also absorbed apparent conflicts between phrenology and Scripture into the reader’s supposed incomplete understanding. These are specific examples of theory-driven classification and protection, not evidence that every phrenological observation had an identical logical form. <a href=\"https://www.gutenberg.org/cache/epub/58927/pg58927-images.html\">Read Articles I–II of the journal.</a>",
+    "3.2.6": "The corrected lesson is to locate the dependence between claim and evidence. Some of the original five examples are better criticisms of unsupported premises, weak analogies or inadequate explanations. Mislabeling them as circular would reproduce the very habit under criticism: letting an expected diagnosis decide the case before the argument is examined.",
+    "4.1.7": "2. Which fallacy draws a conclusion broader than the size or representativeness of its sample warrants?",
+    "4.1.13": "A) Revising a belief after checking new evidence",
+    "4.1.17": "4. Which action would provide a genuine test of the father’s classification of the new cave?",
+    "4.1.18": "A) Investigating its origin using evidence beyond the generalization being tested",
+    "4.1.19": "B) Counting the prediction as another verified cave",
+    "4.1.20": "C) Declaring that its natural appearance settles its origin",
+    "4.1.21": "D) Refusing to consider any non-human origin",
+    "4.1.22": "5. Inferring that all birds are black from an inadequate sample of black birds illustrates which flaw, before any new case is recycled as evidence?",
+    "4.1.27": "6. Which qualification in Bellarmine’s 1615 letter prevents describing it as an entirely closed loop?",
+    "4.1.28": "A) He had already accepted every claim made by Galileo.",
+    "4.1.29": "B) He allowed that a genuine demonstration would require reconsidering the scriptural interpretation.",
+    "4.1.30": "C) He rejected all appeals to scriptural authority.",
+    "4.1.31": "D) He claimed astronomical observations were impossible.",
+    "4.1.32": "7. Which early modern case describes prior belief in guilt helping to produce confessions later offered as evidence?",
+    "4.1.33": "A) Paley’s watchmaker analogy",
+    "4.1.34": "B) Morton’s skull classifications",
+    "4.1.35": "C) The Salem proceedings criticized by Thomas Brattle",
+    "4.1.36": "D) McCarthy’s censure dispute",
+    "4.1.37": "8. Which doctrine is illustrated by James VI’s defense of obedience even under a wicked ruler?",
+    "4.1.42": "9. What self-protective move is illustrated by McCarthy’s response to the committee examining his conduct?",
+    "4.1.44": "B) Portraying his investigators as serving the conspiracy he alleged",
+    "4.1.56": "A) Investigating its origin using evidence beyond the generalization being tested. Neither prediction nor appearance alone supplies that check.",
+    "4.1.58": "B) A genuine demonstration could require reconsidering the scriptural interpretation; the letter contains that qualification.",
+    "4.1.59": "C) The Salem proceedings criticized by Thomas Brattle.",
+    "4.1.61": "B) Portraying his investigators as serving Communist interests. This illustrates a defensive move, not a verdict about every accusation of the period.",
+    "4.2.4": "Why is the father’s circular confirmation a more specific error than the general problem of induction?",
+    "4.2.7": "Why is an argument against a moving Earth not necessarily circular merely because its physical premise is mistaken?",
+    "4.2.8": "Under what conditions would an appeal to divine commands and divine goodness become circular?",
+    "4.2.9": "Why does the watchmaker analogy need more analysis before it can be called circular?",
+    "4.2.10": "How does the 1839 phrenological claim about Brown illustrate the danger of inferred data?",
+    "4.2.12": "He classifies a new cave using his generalization and counts that unverified classification as new evidence for the generalization. Sample bias and disregard of alternatives can aggravate this central error.",
+    "4.2.14": "Calling a bat a bird solely because of a rule that all winged animals are birds, then counting that classification as evidence for the rule. The rule has produced its own supposed confirmation.",
+    "4.2.15": "The general problem concerns the warrant for extending observations to unobserved cases. The father additionally treats his own prediction as an independently established observation.",
+    "4.2.16": "Confirmation bias favors information or interpretations that fit an existing belief. The father dismisses a candidate counterexample without checking it; the cave’s appearance alone has not proved its origin.",
+    "4.2.17": "Ask what new observation supports the cave’s entry on the verified list. Earlier evidence may justify an expectation, but the expectation cannot confirm itself.",
+    "4.2.18": "An argument from a predicted but absent effect can have a valid form even if its physical premise is false. Circularity requires showing that the disputed conclusion supplies the purported support for itself.",
+    "4.2.19": "If the only warrant for the commands’ goodness is God’s goodness, and the only warrant for God’s goodness is those same commands, the two claims support each other without an independent basis. This is not a refutation of every divine command theory.",
+    "4.2.20": "Paley argues from organized functioning toward a maker, rather than simply assuming God exists. A critic must identify a question-begging premise or assess the analogy and alternatives instead of merely attaching the label.",
+    "4.2.21": "The article infers a large mental organ from Brown’s writing. Treating that inferred organ as independent anatomical confirmation would recycle the doctrine’s own prediction as evidence.",
+    "5.1.0": "How can deduction, induction and comparison of explanations each contribute to investigating a cave without turning a prediction into new evidence?",
+    "5.1.9": "What does Bellarmine’s stated willingness to reconsider a scriptural interpretation tell us about the difference between strong prior commitments and a completely closed evidential loop?",
+    "5.1.10": "How does James VI’s reply about wicked kings protect his view of royal authority? What would distinguish that protection from a formally circular argument?",
+    "5.1.15": "For each proposed example, identify the claim, its supposed evidence and the step that connects them. Then ask whether your diagnosis of circularity is itself supported by the argument actually given."
+  },
+  "countChecks": [
+    {
+      "name": "1.1.ol original list counts",
+      "selector": "#prompt-1 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        5
+      ]
+    },
+    {
+      "name": "1.2.ol original list counts",
+      "selector": "#prompt-1 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        4,
+        4
+      ]
+    },
+    {
+      "name": "3.1.ol original list counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        5
+      ]
+    },
+    {
+      "name": "3.2.ol original list counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        5
+      ]
+    },
+    {
+      "name": "4.1.ol original list counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        10
+      ]
+    },
+    {
+      "name": "4.1.ul original list counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"1\"] ul",
+      "child": "li",
+      "expected": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "4.2.ol original list counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        10,
+        10
+      ]
+    },
+    {
+      "name": "5.1.ol original list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    },
+    {
+      "name": "5.2.ol original list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    }
+  ],
+  "responseDecisions": {
+    "1.1": "Retain five-part diagnosis; distinguish candidate/established counterexample and sample uncertainty; show exact prediction-to-observation recycling with concrete investigation criteria.",
+    "1.2": "Retain four flaws/four remedies; replace problem-of-induction misdiagnosis and all-caves-must-be-observed error; add ten-versus-eleven bookkeeping example in the relevant remedy.",
+    "2.1": "Restore all eight alternating turns, including four omitted father replies verbatim; revise son turns to distinguish provisional expectation from independent confirmation and qualify bird appearance analogy.",
+    "2.2": "Retain nine-paragraph progression and quoted explanation; replace invalid bat analogy with classification/confirmation loop; preserve premise-style format and distinguish initial induction from recycled evidence.",
+    "3.1": "Retain five original historical topics/order with specific primary texts. Brattle illustrates manufactured confirmation; other cases explicitly distinguish conditional circularity/self-protection from demonstrated formal circularity. Correct blanket torture/denial claims.",
+    "3.2": "Retain five original historical topics/order while retracting unsupported circularity diagnoses for geocentrism, divine command theory, Paley and Aristotle; use actual 1839 phrenological passage. Explicitly disclose that five candidates are not five proven exact loops, rather than manufacture a match.",
+    "4.1": "Restore ten MC questions, forty options and separate ten-answer key. Correct ambiguous induction/deduction item, confirmation-bias distractor and historical overclaims; retain answers where accurate.",
+    "4.2": "Restore ten short-answer questions and separate ten-answer key; align all historical and analogy answers with revised argument; preserve counts and positions.",
+    "5.1": "Retain fifteen questions, twelve verbatim; correct three leading questions to avoid false induction/deduction choice and historical presumptions.",
+    "5.2": "Retain all fifteen discussion questions verbatim: their questions about non-circular induction, analogy, intellectual humility and foundational limits remain relevant without asserting the corrected historical errors."
+  }
+}

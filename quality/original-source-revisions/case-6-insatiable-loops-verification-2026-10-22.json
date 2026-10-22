@@ -1,0 +1,162 @@
+{
+  "pagePath": "/epistemology/case-6-insatiable-loops/",
+  "sourceSha256": "6b4ddbda63903762946d27cec4c8b327a7a672acf1f6b98047733b34225454f5",
+  "originalPrompts": 5,
+  "originalHeadings": 5,
+  "sourceColumns": 10,
+  "modelResponses": 10,
+  "blocksRetainedVerbatim": 87,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 82,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "1.1.ol original list counts": [
+      5
+    ],
+    "1.2.ol original list counts": [
+      4,
+      4
+    ],
+    "3.1.ol original list counts": [
+      5
+    ],
+    "3.2.ol original list counts": [
+      5
+    ],
+    "4.1.ol original list counts": [
+      10
+    ],
+    "4.1.ul original list counts": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "4.2.ol original list counts": [
+      10,
+      10
+    ],
+    "5.1.ol original list counts": [
+      15
+    ],
+    "5.2.ol original list counts": [
+      15
+    ]
+  },
+  "sha256": "0262424fd006272c95415ea4c0944b636792db97d266491eb0cf558a9d1d974d",
+  "independentOriginalListHierarchyAndTableCells": true,
+  "dialogueTurns": 8,
+  "fatherRepliesVerbatim": true,
+  "quizQuestionAnswerPairs": 20,
+  "discussionQuestions": 30,
+  "discussionQuestionsVerbatim": 27,
+  "negativeControls": [
+    {
+      "removed": "prompt",
+      "rejected": true
+    },
+    {
+      "removed": "response",
+      "rejected": true
+    },
+    {
+      "removed": "father reply",
+      "rejected": true
+    },
+    {
+      "removed": "historical case",
+      "rejected": true
+    },
+    {
+      "removed": "quiz option",
+      "rejected": true
+    },
+    {
+      "removed": "quiz key",
+      "rejected": true
+    },
+    {
+      "removed": "discussion question",
+      "rejected": true
+    }
+  ],
+  "verifiedAt": "2026-10-22T18:47:59.658771+00:00",
+  "fullOriginalRead": true,
+  "fullPreviousEditionRead": true,
+  "sourceCache": ".cache/byteseismic-posts-with-content.json",
+  "sourceUrl": "http://byteseismic.com/2024/04/20/case-6-insatiable-loops/",
+  "sourceTitle": "Case #6 – Insatiable Loops",
+  "wordpressId": 6794,
+  "sourceSnapshot": "quality/original-source-revisions/case-6-insatiable-loops-wordpress-6794.html",
+  "sourceUrlTitleAndPromptsMatch": true,
+  "modelLogoOrderVerified": true,
+  "responseDecisions": {
+    "1.1": "Retain five-part diagnosis; distinguish candidate/established counterexample and sample uncertainty; show exact prediction-to-observation recycling with concrete investigation criteria.",
+    "1.2": "Retain four flaws/four remedies; replace problem-of-induction misdiagnosis and all-caves-must-be-observed error; add ten-versus-eleven bookkeeping example in the relevant remedy.",
+    "2.1": "Restore all eight alternating turns, including four omitted father replies verbatim; revise son turns to distinguish provisional expectation from independent confirmation and qualify bird appearance analogy.",
+    "2.2": "Retain nine-paragraph progression and quoted explanation; replace invalid bat analogy with classification/confirmation loop; preserve premise-style format and distinguish initial induction from recycled evidence.",
+    "3.1": "Retain five original historical topics/order with specific primary texts. Brattle illustrates manufactured confirmation; other cases explicitly distinguish conditional circularity/self-protection from demonstrated formal circularity. Correct blanket torture/denial claims.",
+    "3.2": "Retain five original historical topics/order while retracting unsupported circularity diagnoses for geocentrism, divine command theory, Paley and Aristotle; use actual 1839 phrenological passage. Explicitly disclose that five candidates are not five proven exact loops, rather than manufacture a match.",
+    "4.1": "Restore ten MC questions, forty options and separate ten-answer key. Correct ambiguous induction/deduction item, confirmation-bias distractor and historical overclaims; retain answers where accurate.",
+    "4.2": "Restore ten short-answer questions and separate ten-answer key; align all historical and analogy answers with revised argument; preserve counts and positions.",
+    "5.1": "Retain fifteen questions, twelve verbatim; correct three leading questions to avoid false induction/deduction choice and historical presumptions.",
+    "5.2": "Retain all fifteen discussion questions verbatim: their questions about non-circular induction, analogy, intellectual humility and foundational limits remain relevant without asserting the corrected historical errors."
+  },
+  "research": [
+    {
+      "url": "https://w2.inters.org/Bellarmino-Letter-Foscarini",
+      "scope": "Bellarmine 1615 letter: conditional willingness to reinterpret Scripture; not evidence of an entirely closed loop."
+    },
+    {
+      "url": "https://chnm.gmu.edu/exploring/19thcentury/debateoverslavery/pop_morton.html",
+      "scope": "Primary excerpts from Morton 1839; racist classification and framing, not a whole-book measurement audit."
+    },
+    {
+      "url": "https://human.libretexts.org/Under_Construction/American_Literature_I%3A_An_Anthology_of_Texts_From_Early_America_Through_the_Civil_War_%28Kurtz%29/02%3A_Literature_of_Colonial_America/2.26%3A_Letter_of_Thomas_Brattle_F._R._S._1692_By_Thomas_Brattle",
+      "scope": "Selected confession and procedure passages in Brattle 1692; pressure producing supposed confirmation."
+    },
+    {
+      "url": "https://slaverylawpower.org/chapters/debating-power-empire/james-i-true-law-free-monarchies-1598/",
+      "scope": "James VI 1598 wicked-king passages; doctrinal protection against counterevidence, not demonstrated formal circular proof."
+    },
+    {
+      "url": "https://www.archives.gov/milestone-documents/censure-of-senator-joseph-mccarthy",
+      "scope": "Primary censure record and displayed November 9 draft transcript; attacks on investigators. Not a claim that every denial counted as guilt."
+    },
+    {
+      "url": "https://classics.mit.edu/Plato/euthyfro.html",
+      "scope": "Relevant holiness/divine-love argument; conditional mutual dependence is distinguished from every divine command theory."
+    },
+    {
+      "url": "https://ntarchive.org/works/paley-1802-natural-theology/",
+      "scope": "Opening watch argument only; analogy toward a maker is not merely an assumed conclusion."
+    },
+    {
+      "url": "https://classics.mit.edu/Aristotle/heavens.4.iv.html",
+      "scope": "Relevant heavy/light and natural-motion discussion, not a whole-corpus review."
+    },
+    {
+      "url": "https://www.gutenberg.org/cache/epub/58927/pg58927-images.html",
+      "scope": "1839 American Phrenological Journal Articles I–II: Brown organ inference from writings and treatment of apparent contradictions. Actual example, with conditional evidential-loop diagnosis."
+    },
+    {
+      "url": "https://www.nps.gov/subjects/caves/solution-caves.htm",
+      "scope": "Official search excerpt on natural dissolution; not an identification of the hypothetical cave."
+    }
+  ],
+  "reviewLimitations": [
+    "The original five historical topics in each model track are retained, but they do not establish five identical instances of the cave error. The page explicitly distinguishes actual evidence, conditional circularity and protection against counterevidence rather than inventing historical matches.",
+    "Cave appearance is only a candidate counterexample; the fictional cave has not been independently investigated."
+  ]
+}

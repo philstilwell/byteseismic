@@ -1,0 +1,238 @@
+{
+  "pageFile": "ethics/fictional-meta-ethics-debate/index.html",
+  "wordpressId": 12544,
+  "snapshot": "fictional-meta-ethics-debate-wordpress-12544.html",
+  "sourceSha256": "9cddb3461d7ad3748a3b7047b6bdcbf0d8822c2de27bbc6b2afbda53c8ee910c",
+  "sourceUrl": "http://byteseismic.com/2024/07/02/fictional-meta-ethics-debate/",
+  "sourceLabel": "Original WordPress post, 2024-07-02",
+  "shellRevision": "bc8fb849c1a86368516c23cef18cc186f7499750",
+  "date": "2026-10-22",
+  "modelLabels": [
+    "ChatGPT"
+  ],
+  "preambleHeadingIndexes": [
+    0
+  ],
+  "promptContinuationPreambleIndexes": {
+    "1": 0
+  },
+  "nonPromptSections": [
+    7
+  ],
+  "headings": [
+    "The initial dispute: values, computation and claimed authority",
+    "The curator’s reformulation: emotional intuitions and emergent values",
+    "Can emotions and values replace moral terminology?",
+    "The objection to normative force",
+    "A landscape of socially acceptable behaviors",
+    "Feasibility of changing the vocabulary",
+    "Fifteen questions with expandable answers",
+    "Twenty discussion questions"
+  ],
+  "introHeading": "A fictional exchange revised through four curator challenges",
+  "intro": "Stilwell challenges the idea that emotional intuitions acquire additional authority when called moral or normative. The five original dialogue tables are followed by the feasibility response, quiz and discussion questions. Every spoken line is fictional, including agreements and concessions; the commentary distinguishes the argument being tested from claims about the real participants. Yudkowsky’s linked essay defends a fixed evaluative computation, not simple conformity to current social approval. The curator’s challenge is whether that account earns the further authority claimed for moral language.",
+  "description": "A fictional meta-ethics debate on emotions, values and moral language, preserving the curator’s challenges, paired commentary and complete quiz.",
+  "pageSignals": {
+    "Page form": "Original fictional dialogue · editorial edition",
+    "Best for": "separating emotional influence, social approval and claimed authority"
+  },
+  "highlights": [
+    "The curator seeks an explicit account of emotions, values and social practices without an added moral realm.",
+    "Describing what a community accepts does not require endorsing it.",
+    "Fictional agreement between characters does not establish agreement between the real authors."
+  ],
+  "replacements": {
+    "6.1.1": "<strong>Challenging Social Inertia:</strong> The proposal is feasible as a deliberate way of speaking in a community of inquiry; eliminating “moral” from public discourse is a much larger and uncertain aim. The word compresses praise, blame, identity, personal guidance and institutional expectations. Some users assert objective authority; others do not. Resistance may therefore reflect different meanings and practical habits as well as commitment to moral realism.",
+    "6.1.3": "<strong>Educational Initiatives:</strong> Teach the distinctions the proposal needs: what a person feels, what they value, what a group accepts and what supports a recommendation. Ask students to translate a disputed judgment into those terms and identify anything they think is lost. This tests the usefulness of the vocabulary without presenting anti-realism as a conclusion already established by the exercise.",
+    "6.1.4": "<strong>Public Discourse:</strong> Demonstrate the method on specific disagreements. Replace “That is immoral” with a statement of the harm, the priorities involved and the proposed change. Then answer objections about facts and values. Clear examples are more informative than a campaign that merely bans a familiar word.",
+    "6.1.5": "<strong>Scientific and Philosophical Research:</strong> Research into the causes of intuitions can inform an account of how judgments arise and change. It does not, by itself, decide whether any moral claims are true: causal explanations and philosophical justification answer different questions. The anti-realist still needs arguments against the proposed grounding, just as the realist cannot establish that grounding merely by pointing to a strong feeling.",
+    "6.1.6": "<strong>Replacing “Moral” with “Emotional” or “Socially Acceptable”:</strong> Use the replacements precisely. “Emotional” describes a response; “value” names a priority; “socially acceptable” describes approval within an identified group. None alone expresses every recommendation. For advocacy, state the values and consequences that support it. This retains the curator’s rejection of an added realm without turning social acceptance into a hidden substitute for justification.",
+    "6.1.8": "<strong>Resistance to Change:</strong> People may rely on familiar language for personal guidance as well as influence over others. The curator’s closing note on the linked essay explicitly softened the earlier emphasis on social control by recognizing this roadmap role. A persuasive reformulation should explain how people can retain guidance and commitments while examining their grounding.",
+    "6.1.9": "<strong>Misunderstanding and Misrepresentation:</strong> Listeners may hear “no moral facts” as “nothing matters” or “anything is permitted.” Show why those inferences do not follow from the curator’s position: emotions, values, harms, agreements and opposition remain. Conversely, the replacement should not be advertised as neutral if particular values are being advocated.",
+    "6.1.10": "<strong>Integration with Existing Norms:</strong> Examine practical functions one at a time—stating rules, giving reasons, coordinating conduct and criticizing abuse. Ask whether the new wording communicates each function clearly and what commitments or institutions sustain it. Requiring it to retain an unexplained “normative force” would simply reinstate the notion the curator has challenged.",
+    "6.1.11": "<strong>Conclusion:</strong> A limited, demonstrable change in discussion is more plausible than predicting wholesale replacement. Try the vocabulary, check whether participants can identify the actual disagreements, and revise it where it blurs distinctions. Its success would show that some discussions can proceed more clearly without moral terminology; it would not alone prove anti-realism or guarantee wider adoption.",
+    "7.1.5": "<details><summary>Answer:</summary>He traces the reason to act backward from saving the child through the actions needed to achieve it. This is reasoning about consequences, not a physical influence traveling backward in time.</details>",
+    "7.1.10": "#6: How does the revised fictional exchange address Stilwell’s objection to normative force?",
+    "7.1.11": "<details><summary>Answer:</summary>It separates psychological influence, social enforcement and recommendations based on stated commitments. It rejects the shortcut of equating pressure with justification; the fictional accommodation is not a report of Yudkowsky conceding anti-realism.</details>",
+    "7.1.14": "#8: Why does the fictional interlocutor initially resist simply dropping the word “moral”?",
+    "7.1.15": "<details><summary>Answer:</summary>He asks whether replacement language preserves distinctions among impulses, lasting commitments, shared rules and criticism. Stilwell replies by making those elements explicit without treating the label as an argument.</details>",
+    "7.1.19": "<details><summary>Answer:</summary>His essay holds the evaluative standard fixed across imagined changes in a person’s desires. It does not equate rightness with whatever a person or society currently approves.</details>",
+    "7.1.23": "<details><summary>Answer:</summary>Stilwell rejects the claimed grounding of moral systems and challenges the authority their language appears to add to emotions and values. This does not mean that rules, practical guidance or opposition to harm cease to exist.</details>",
+    "7.1.24": "#13: What disagreement remains after the fictional speakers adopt more explicit terminology?",
+    "7.1.25": "<details><summary>Answer:</summary>Whether the account of human evaluation justifies retaining claims of moral truth or authority. Agreement to discuss emotions, values and social practices does not settle that question.</details>",
+    "7.1.26": "#14: What role does the idea of a “gift” play in the passage discussed from “The Meaning of Right”?",
+    "7.1.27": "<details><summary>Answer:</summary>It expresses the possibility of continuing to cherish human concerns while revising beliefs about their origin. It is not a rule to approve everything produced by evolution.</details>",
+    "7.1.28": "#15: What limit does the revised discussion place on using coherence to resolve a conflict between values?",
+    "7.1.29": "<details><summary>Answer:</summary>Showing that two commitments conflict does not alone determine which to abandon. Further deliberation must state the concerns and reasons doing the work.</details>",
+    "8.1.4": "How does the revised fictional exchange distinguish psychological influence from justification when addressing Stilwell’s objection to normative force?",
+    "8.1.6": "Can people continue to cherish their commitments while rejecting a proposed account of moral facts? How would each side explain that possibility?",
+    "8.1.12": "What useful roles might moral terminology play, and which of those roles can the curator’s replacement vocabulary preserve without assuming a moral realm?"
+  },
+  "tableCellReplacements": {
+    "1.1.table0.2.0": "<strong>Yudkowsky:</strong> A cognitive origin does not by itself settle what a judgment refers to. My proposal treats rightness as a derived computational property; it is not merely a report of whatever I currently want.",
+    "1.1.table0.2.1": "The reply distinguishes the origin of a judgment from its proposed content. It does not establish that the proposed content has the authority Stilwell disputes.",
+    "1.1.table0.4.0": "<strong>Yudkowsky:</strong> A “1-place function” means a fixed evaluative procedure applied to a situation, rather than a procedure that first substitutes whichever preferences an observer happens to have. Its standard can remain fixed while a person’s desires change.",
+    "1.1.table0.4.1": "This explains the technical expression without treating stable social agreement as proof of moral truth. The identification of that procedure with rightness remains disputed.",
+    "1.1.table0.6.0": "<strong>Yudkowsky:</strong> Take the wish to save a child. Given that concern, facts about which action will save the child constrain our choice. You can recognize that reasoning while still challenging the claim that it establishes moral authority.",
+    "1.1.table0.6.1": "The fictional exchange now distinguishes practical reasoning from the further authority claim. The example does not make useful consequences sufficient proof of moral realism.",
+    "1.1.table0.8.0": "<strong>Yudkowsky:</strong> A fleeting impulse and an assessment after considering objections need not agree. For this discussion, the question is what justifies treating the latter as an improvement, rather than merely a different preference.",
+    "1.1.table0.8.1": "The reply identifies a question for both sides instead of deriving objectivity from the strength of a feeling.",
+    "1.1.table0.9.0": "<strong>Stilwell:</strong> Yet such assessments still arise from human dispositions and reflection. Disagreement across cultures gives us reason to examine those origins. It does not alone prove anti-realism, but neither does calling an assessment stable establish the grounding I am asking for.",
+    "1.1.table0.9.1": "Stilwell retains the challenge to grounding while avoiding the inference that disagreement alone disproves objective truth.",
+    "1.1.table0.10.0": "<strong>Yudkowsky:</strong> Then let us separate agreement from justification. Shared concerns may help us cooperate; agreement itself does not settle whether the resulting judgment is true. Nor does disagreement by itself show that no better answer exists.",
+    "1.1.table0.10.1": "This fictional reply preserves a live disagreement without claiming that all humans necessarily share one fully specified standard.",
+    "1.1.table0.12.0": "<strong>Yudkowsky:</strong> The practical value of a framework is relevant to whether people use it. I accept that it cannot, by itself, answer your question about the truth or authority of its judgments. Those are different claims.",
+    "1.1.table0.12.1": "The concession is limited to the insufficiency of usefulness as proof. It is not a historical concession by Yudkowsky or an agreement to abandon his published position.",
+    "1.1.table0.14.0": "<strong>Yudkowsky:</strong> We can at least agree to state the disputed step. You accept emotions, values and practical reasoning, but reject the extra authority attributed to moral language. I want to defend a way of retaining that language. Our next exchange can test what it adds.",
+    "1.1.table0.14.1": "The exchange ends with a defined disagreement, preserving the reason for the curator’s subsequent reformulation.",
+    "1.1.table0.3.1": "Stilwell questions the move from human labeling to objective authority. An explanation of how a belief arises is not, by itself, a proof that the belief is false.",
+    "1.1.table0.7.1": "Stilwell rejects practical success as sufficient grounding. The challenge does not require treating every appeal to flourishing as the same theory of utilitarianism.",
+    "2.1.table0.2.0": "<strong>Yudkowsky:</strong> We can examine emotional intuitions and the values that develop from them. My reservation is that describing their origin does not yet tell us how to compare a sudden impulse with a commitment maintained after reflection. What distinctions would your replacement vocabulary preserve?",
+    "2.1.table0.2.1": "The fictional interlocutor accepts the topic of investigation without conceding the whole anti-realist argument.",
+    "2.1.table0.4.0": "<strong>Yudkowsky:</strong> That risk is real enough to require clarity. Still, people also use “moral” to name a subject of disagreement without claiming a separate realm. We should ask which use adds confusion, rather than assume every speaker has the same ontology.",
+    "2.1.table0.4.1": "The term’s social use is distinguished from a claim about what exists. This supplies a specific objection for the curator to answer.",
+    "2.1.table0.6.0": "<strong>Yudkowsky:</strong> I agree that origins should be examined. I would still call the deliberation normative: it asks which considerations count for or against a choice. I recognize that this word may sound like the very added authority you reject.",
+    "2.1.table0.6.1": "The contested term appears explicitly here, preserving the source’s progression toward the later challenge to normative force.",
+    "2.1.table0.8.0": "<strong>Yudkowsky:</strong> Then a useful test is to replace the disputed word in a concrete recommendation. If I condemn an action, can I name the concern, the relevant facts and the consequences without treating the label itself as an argument?",
+    "2.1.table0.8.1": "The dialogue moves from repeated agreement to a practical test of the proposed reformulation.",
+    "2.1.table0.9.0": "<strong>Stilwell:</strong> Yes. If I oppose cruelty, I can state my aversion to suffering, the effects of the act and the commitments I want our institutions to protect. I need not turn those concerns into a moral realm. That is the clarification I want, not a new moral system under a different name.",
+    "2.1.table0.9.1": "Stilwell retains his eliminative proposal. The revision removes the original suggestion that his goal was simply to build another moral system.",
+    "2.1.table0.10.0": "<strong>Yudkowsky:</strong> We can test that vocabulary while leaving our larger disagreement open. It may clarify some arguments; whether it can replace every useful role of moral language is a further question.",
+    "2.1.table0.10.1": "Agreement to conduct an inquiry is not agreement that the inquiry has already vindicated either side.",
+    "3.1.table0.2.0": "<strong>Yudkowsky:</strong> We can try. My earlier appeal to “normative force” needs explanation, though. There is a difference between an emotion moving someone to act and a consideration being offered as a reason for an action. Simply using the same word for both would conceal that difference.",
+    "3.1.table0.2.1": "The fictional reply introduces the motivation/justification distinction without declaring that justification requires a separate moral realm.",
+    "3.1.table0.4.0": "<strong>Yudkowsky:</strong> Then distinguish the immediate feeling from the lasting priority. Anger can pass while a commitment to protect someone remains. A community’s rule is another thing again: it records expectations and may bring sanctions. Your vocabulary needs room for all three.",
+    "3.1.table0.4.1": "Emotion, value and socially enforced rule are separated rather than folded into one undifferentiated feeling.",
+    "3.1.table0.6.0": "<strong>Yudkowsky:</strong> Consider a policy that a community accepts even though it harms a minority. Recording the shared sentiment will explain the policy’s support. What will your vocabulary say when you want to challenge that sentiment?",
+    "3.1.table0.6.1": "The objection asks how the proposed language supports dissent, rather than treating social agreement as an automatic standard.",
+    "3.1.table0.7.0": "<strong>Stilwell:</strong> I can name the suffering, identify the values with which the policy conflicts, and explain why I recommend changing it. “Emotional values” can describe the commitments involved. I do not need to pretend that popularity or my intensity of feeling supplies an independent moral fact.",
+    "3.1.table0.7.1": "The original proposed term is preserved, with a concrete account of criticism and no concession of stance-independent authority.",
+    "3.1.table0.8.0": "<strong>Yudkowsky:</strong> That distinguishes description from advocacy. I can use your terms for this exchange, but doing so does not settle our disagreement about what the language of rightness can mean.",
+    "3.1.table0.8.1": "The fictional accommodation no longer masquerades as a resolution of the real philosophical dispute.",
+    "3.1.table0.9.0": "<strong>Stilwell:</strong> Then our agreement is about keeping the grounds visible. When I say a value is important, I mean important to someone with particular commitments, not promoted into a separate category by the word “moral.”",
+    "3.1.table0.9.1": "The curator’s insistence on explicit grounding survives the terminological agreement.",
+    "3.1.table0.10.0": "<strong>Yudkowsky:</strong> We can continue on that basis. The next question is what, if anything, remains of my appeal to “normative force” once the emotions, commitments, arguments and social pressures have all been stated.",
+    "3.1.table0.10.1": "The closing turn connects directly to the next original curator challenge rather than ending in an invented philosophical consensus.",
+    "4.1.table0.2.0": "<strong>Yudkowsky:</strong> Your objection targets authority beyond those human processes. I should not answer it by quietly redefining “normative” as psychological compulsion: pressure can cause obedience without justifying it. We can instead specify whether a claim concerns motivation, social enforcement or a recommendation based on stated commitments.",
+    "4.1.table0.2.1": "The original reply conflated motivational influence with justification. The revised fictional speaker corrects that conflation without assuming a moral realm.",
+    "4.1.table0.4.0": "<strong>Yudkowsky:</strong> We can use that language here. If a person values another’s welfare but acts on false information, correcting the information can change the recommendation. That does not establish an authority independent of the person’s commitments.",
+    "4.1.table0.4.1": "A concrete case shows what reasons can do within a commitment, while leaving the curator’s stronger objection intact.",
+    "4.1.table0.6.0": "<strong>Yudkowsky:</strong> And when commitments conflict, we must expose that conflict. Consistency alone may show that both cannot be maintained together; it need not select which one to abandon. That requires further deliberation from the concerns actually at stake.",
+    "4.1.table0.6.1": "The revision avoids introducing coherence as an unexplained source of categorical authority.",
+    "4.1.table0.7.0": "<strong>Stilwell:</strong> That is the kind of explicit discussion I want. I am not denying that people can care deeply, criticize conduct or organize against it. I deny that calling their judgments normative adds a demonstrated kind of authority beyond the values and reasons we have named.",
+    "4.1.table0.7.1": "Stilwell’s rejection of added authority is preserved without equating anti-realism with indifference.",
+    "4.1.table0.8.0": "<strong>Yudkowsky:</strong> Understood. I will avoid using “normative force” as an unexplained answer to your challenge. The question of whether to retain the phrase “moral landscape” remains, and we can examine that next.",
+    "4.1.table0.8.1": "The transition preserves the source’s next correction without putting the disputed phrase back as an accepted conclusion.",
+    "5.1.table0.2.0": "<strong>Yudkowsky:</strong> Yes, as a description of what groups accept. We should specify which group, whose judgments are heard and how acceptance is measured. It would be a mistake to treat that map as an automatic endorsement of everything on it.",
+    "5.1.table0.2.1": "The proposed phrase is accepted for descriptive work, with its scope and limits made explicit.",
+    "5.1.table0.3.0": "<strong>Stilwell:</strong> That is how I want to use it. The landscape can include conflicting groups and changing approval. Describing those patterns does not oblige me to approve of them or reintroduce a moral realm.",
+    "5.1.table0.3.1": "Stilwell’s proposal remains anti-realist rather than becoming majority rule by definition.",
+    "5.1.table0.4.0": "<strong>Yudkowsky:</strong> Then imagine a workplace where retaliation against a complainant is widely accepted. The map records that acceptance. Whether to oppose it requires stating additional concerns, such as safety, honest reporting and protection against intimidation.",
+    "5.1.table0.4.1": "The fictional example distinguishes social description from a recommendation based on named values.",
+    "5.1.table0.5.0": "<strong>Stilwell:</strong> I can state those concerns and the evidence about the effects of retaliation. I can advocate different rules and explain whose interests they protect. No moral property needs to be added to make the suffering or intimidation real.",
+    "5.1.table0.5.1": "The anti-realist can make forceful practical criticism without borrowing the premise the curator rejects.",
+    "5.1.table0.6.0": "<strong>Yudkowsky:</strong> And someone may reject those priorities. More facts alone may not settle that conflict. Negotiation, institutional procedures or enforcement may still be needed, and their costs and effects should also be open to scrutiny.",
+    "5.1.table0.6.1": "The exchange acknowledges unresolved value conflict without making consensus or coercion a proof of correctness.",
+    "5.1.table0.7.0": "<strong>Stilwell:</strong> Agreed. The clearer vocabulary makes the conflict visible; it does not promise to dissolve it. I would rather say what I oppose, why I oppose it and what I recommend than invoke “immoral” as though the word supplied the missing argument.",
+    "5.1.table0.7.1": "The reformulation preserves the curator’s concern about the rhetorical force of moral labels.",
+    "5.1.table0.8.0": "<strong>Yudkowsky:</strong> That provides a workable vocabulary for this conversation: prevailing approvals for the description, stated values for advocacy, and evidence about consequences for assessing proposed action. We need not pretend that our broader disagreement has disappeared.",
+    "5.1.table0.8.1": "The fictional agreement concerns a method of discussion, not a documented agreement between the authors.",
+    "5.1.table0.9.0": "<strong>Stilwell:</strong> Then let us continue within that framework. We can examine how values and social expectations change without treating those changes as movements through an independently existing moral terrain.",
+    "5.1.table0.9.1": "The original closing invitation is retained in substance and linked to the proposed alternative vocabulary.",
+    "5.1.table0.10.0": "<strong>Yudkowsky:</strong> Yes. We can now ask where that vocabulary improves public discussion, where it becomes cumbersome, and whether listeners understand the intended distinction between rejecting moral facts and giving up their commitments.",
+    "5.1.table0.10.1": "The dialogue leads into the original feasibility request rather than claiming that terminology alone settles the debate."
+  },
+  "countChecks": [
+    {
+      "name": "6.1.ol original list counts",
+      "selector": "#prompt-6 .original-response ol",
+      "child": "li",
+      "expected": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "8.1.ol original list counts",
+      "selector": "#prompt-8 .original-response ol",
+      "child": "li",
+      "expected": [
+        20
+      ]
+    },
+    {
+      "name": "Table 1 rows including header",
+      "selector": "#prompt-1 table",
+      "child": "tr",
+      "recursive": true,
+      "expected": [
+        15
+      ]
+    },
+    {
+      "name": "Table 2 rows including header",
+      "selector": "#prompt-2 table",
+      "child": "tr",
+      "recursive": true,
+      "expected": [
+        11
+      ]
+    },
+    {
+      "name": "Table 3 rows including header",
+      "selector": "#prompt-3 table",
+      "child": "tr",
+      "recursive": true,
+      "expected": [
+        11
+      ]
+    },
+    {
+      "name": "Table 4 rows including header",
+      "selector": "#prompt-4 table",
+      "child": "tr",
+      "recursive": true,
+      "expected": [
+        9
+      ]
+    },
+    {
+      "name": "Table 5 rows including header",
+      "selector": "#prompt-5 table",
+      "child": "tr",
+      "recursive": true,
+      "expected": [
+        11
+      ]
+    },
+    {
+      "name": "15 expandable quiz answers",
+      "selector": "#prompt-7 .original-response",
+      "child": "details",
+      "recursive": true,
+      "expected": [
+        15
+      ]
+    }
+  ],
+  "responseDecisions": {
+    "1.1": "Restore full multi-part first prompt, two source links, 14 dialogue/commentary rows and original warning. Correct stable-computation/current-approval conflation; retain curator grounding challenge and limit fictional concessions. No actual dialogue or consensus claimed.",
+    "2.1": "Retain 10 table turns and paired commentary; preserve emotional-intuition reformulation; replace repetitive agreement with a concrete translation test and remove concession that curator merely wants a new moral system.",
+    "3.1": "Retain 10 table turns and paired commentary; distinguish emotion/value/rule; apply proposal to harmful accepted policy; keep normative-force wording as the subject of the following challenge, not a settled answer.",
+    "4.1": "Retain 8 table turns and paired commentary; answer exact curator objection, separate influence/enforcement/justification, and state that coherence alone cannot select which conflicting value to abandon.",
+    "5.1": "Retain 10 table turns and paired commentary; accept socially acceptable behavior as description; workplace retaliation example demonstrates criticism without majority endorsement or an added moral realm; preserve continuing disagreement.",
+    "6.1": "Restore omitted full feasibility response and both three-item lists. Replace promotion claims with testable linguistic practice; distinguish research on causes from proof of anti-realism; incorporate linked essay’s curator roadmap qualification without adding it as a fictitious original prompt.",
+    "7.1": "Restore all 15 quiz pairs and expandable answer placement; correct normative-force and consensus claims; replace two broad source-report questions with tests of revised argument; retain source heading Quiz, not falsely label it a curator request for 15.",
+    "8.1": "Restore 20 questions, 17 verbatim; revise 3 to distinguish fiction from author views and avoid depending on an unreviewed separate essay."
+  },
+  "responseAppendices": {
+    "1.1": [
+      "<p class=\"original-dialogue-warning\">Warning: The dialogues presented are AI-generated and may not accurately represent the positions of the interlocutors. Readers should not assume these dialogues are proper or authoritative representations of the views held by the individuals involved.</p>"
+    ]
+  },
+  "sourceWarning": {
+    "text": "Warning: The dialogues presented are AI-generated and may not accurately represent the positions of the interlocutors. Readers should not assume these dialogues are proper or authoritative representations of the views held by the individuals involved.",
+    "position": "Immediately after the first dialogue table and before prompt 2; retained inside its response wrapper."
+  },
+  "disclosureParagraphsAsDiv": true
+}

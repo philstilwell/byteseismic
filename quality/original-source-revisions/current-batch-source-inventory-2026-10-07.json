@@ -4,10 +4,10 @@
   "startIndex": 100,
   "endIndexExclusive": 150,
   "candidateWordPressOriginals": 49,
-  "fullyReviewed": 31,
-  "pendingFullReview": 19,
+  "fullyReviewed": 33,
+  "pendingFullReview": 17,
   "sourceBlocked": 0,
-  "limitation": "Thirty-one entries have substantive review and source verification; nineteen remain pending. No batch advancement. Is Logic Acquired Inductively restores both model tracks and exact curator challenges; separates acquisition, warrant and validity, repairs developmental examples and quizzes. Case #6 original and prior edition read only; historical claims and circularity account await full review. Earlier page-specific limitations remain effective.",
+  "limitation": "Thirty-three entries have substantive review and source verification; seventeen remain pending. No batch advancement. Case #6 restores both model tracks and all father replies, corrects the circularity diagnosis and qualifies historical examples; Fictional Meta-Ethics restores all five paired tables, curator challenges, feasibility response and expandable quiz. Earlier page-specific limitations remain effective.",
   "pages": [
     {
       "pagePath": "/philosophers/philosopher-club-membership/",
@@ -814,7 +814,7 @@
       "pagePath": "/epistemology/case-6-insatiable-loops/",
       "pageTitle": "Case #6 – Insatiable Loops",
       "queueIndex": 132,
-      "status": "pending-full-review",
+      "status": "reviewed-verified",
       "wordpressId": 6794,
       "sourceUrl": "http://byteseismic.com/2024/04/20/case-6-insatiable-loops/",
       "sourceTitle": "Case #6 – Insatiable Loops",
@@ -831,15 +831,16 @@
       ],
       "wordCount": 4346,
       "fullSourceRead": true,
-      "editorialReviewComplete": false,
+      "editorialReviewComplete": true,
       "fullPreviousEditionRead": true,
-      "initialReviewConcern": "Circular recycling of inferred classifications is distinct from induction generally. Cave appearance is not an established counterexample. Preserve eight alternating father/son turns, repair bat/bird analogy, research five historical cases per response, and check both ten-item quizzes and fifteen-question lists. Source reading alone does not complete review."
+      "verification": "quality/original-source-revisions/case-6-insatiable-loops-verification-2026-10-22.json",
+      "reviewedAt": "2026-10-22T18:47:59.658771+00:00"
     },
     {
       "pagePath": "/ethics/fictional-meta-ethics-debate/",
       "pageTitle": "Fictional Meta-Ethics Debate",
       "queueIndex": 133,
-      "status": "pending-full-review",
+      "status": "reviewed-verified",
       "wordpressId": 12544,
       "sourceUrl": "http://byteseismic.com/2024/07/02/fictional-meta-ethics-debate/",
       "sourceTitle": "Fictional Meta-Ethics Debate",
@@ -858,8 +859,11 @@
         "Provide 20 discussion questions relevant to the content above. "
       ],
       "wordCount": 5810,
-      "fullSourceRead": false,
-      "editorialReviewComplete": false
+      "fullSourceRead": true,
+      "editorialReviewComplete": true,
+      "fullPreviousEditionRead": true,
+      "verification": "quality/original-source-revisions/fictional-meta-ethics-debate-verification-2026-10-22.json",
+      "reviewedAt": "2026-10-22T18:47:59.658771+00:00"
     },
     {
       "pagePath": "/epistemology/decision-making/",
@@ -1273,6 +1277,6 @@
       "editorialReviewComplete": false
     }
   ],
-  "updatedAt": "2026-10-21T13:31:54.527978+00:00",
-  "recordedAt": "2026-10-20T13:29:13.480582+00:00"
+  "updatedAt": "2026-10-22T18:47:59.658771+00:00",
+  "recordedAt": "2026-10-22T18:47:59.658771+00:00"
 }

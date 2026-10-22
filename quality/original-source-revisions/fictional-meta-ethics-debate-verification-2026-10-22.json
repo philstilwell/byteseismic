@@ -1,0 +1,132 @@
+{
+  "pagePath": "/ethics/fictional-meta-ethics-debate/",
+  "sourceSha256": "9cddb3461d7ad3748a3b7047b6bdcbf0d8822c2de27bbc6b2afbda53c8ee910c",
+  "originalPrompts": 7,
+  "originalHeadings": 8,
+  "sourceColumns": 8,
+  "modelResponses": 8,
+  "blocksRetainedVerbatim": 37,
+  "tableCellsExplicitlyRevised": 72,
+  "blocksExplicitlyRevised": 25,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": false,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [
+    "1.1"
+  ],
+  "formatChecks": {
+    "6.1.ol original list counts": [
+      3,
+      3
+    ],
+    "8.1.ol original list counts": [
+      20
+    ],
+    "Table 1 rows including header": [
+      15
+    ],
+    "Table 2 rows including header": [
+      11
+    ],
+    "Table 3 rows including header": [
+      11
+    ],
+    "Table 4 rows including header": [
+      9
+    ],
+    "Table 5 rows including header": [
+      11
+    ],
+    "15 expandable quiz answers": [
+      15
+    ]
+  },
+  "sha256": "3cb63c1fb15a0b4194c89927e86fd925b2e24093febbac1bd339115d9cf93a8a",
+  "independentOriginalListHierarchyAndTableCells": true,
+  "dialogueTurns": 52,
+  "dialogueTables": 5,
+  "columnsPerTable": 2,
+  "quizQuestionAnswerPairs": 15,
+  "discussionQuestions": 20,
+  "discussionQuestionsVerbatim": 17,
+  "originalWarningExactAndSourceOrdered": true,
+  "firstPromptContinuationExact": true,
+  "negativeControls": [
+    {
+      "removed": "prompt continuation",
+      "rejected": true
+    },
+    {
+      "removed": "source essay link",
+      "rejected": true
+    },
+    {
+      "removed": "dialogue turn",
+      "rejected": true
+    },
+    {
+      "removed": "commentary cell",
+      "rejected": true
+    },
+    {
+      "removed": "fiction warning",
+      "rejected": true
+    },
+    {
+      "removed": "feasibility response",
+      "rejected": true
+    },
+    {
+      "removed": "quiz disclosure",
+      "rejected": true
+    },
+    {
+      "removed": "discussion question",
+      "rejected": true
+    }
+  ],
+  "verifiedAt": "2026-10-22T18:47:59.658771+00:00",
+  "fullOriginalRead": true,
+  "fullPreviousEditionRead": true,
+  "sourceCache": ".cache/byteseismic-posts-with-content.json",
+  "sourceUrl": "http://byteseismic.com/2024/07/02/fictional-meta-ethics-debate/",
+  "sourceTitle": "Fictional Meta-Ethics Debate",
+  "wordpressId": 12544,
+  "sourceSnapshot": "quality/original-source-revisions/fictional-meta-ethics-debate-wordpress-12544.html",
+  "sourceUrlTitleAndPromptsMatch": true,
+  "modelLogoOrderVerified": true,
+  "responseDecisions": {
+    "1.1": "Restore full multi-part first prompt, two source links, 14 dialogue/commentary rows and original warning. Correct stable-computation/current-approval conflation; retain curator grounding challenge and limit fictional concessions. No actual dialogue or consensus claimed.",
+    "2.1": "Retain 10 table turns and paired commentary; preserve emotional-intuition reformulation; replace repetitive agreement with a concrete translation test and remove concession that curator merely wants a new moral system.",
+    "3.1": "Retain 10 table turns and paired commentary; distinguish emotion/value/rule; apply proposal to harmful accepted policy; keep normative-force wording as the subject of the following challenge, not a settled answer.",
+    "4.1": "Retain 8 table turns and paired commentary; answer exact curator objection, separate influence/enforcement/justification, and state that coherence alone cannot select which conflicting value to abandon.",
+    "5.1": "Retain 10 table turns and paired commentary; accept socially acceptable behavior as description; workplace retaliation example demonstrates criticism without majority endorsement or an added moral realm; preserve continuing disagreement.",
+    "6.1": "Restore omitted full feasibility response and both three-item lists. Replace promotion claims with testable linguistic practice; distinguish research on causes from proof of anti-realism; incorporate linked essay’s curator roadmap qualification without adding it as a fictitious original prompt.",
+    "7.1": "Restore all 15 quiz pairs and expandable answer placement; correct normative-force and consensus claims; replace two broad source-report questions with tests of revised argument; retain source heading Quiz, not falsely label it a curator request for 15.",
+    "8.1": "Restore 20 questions, 17 verbatim; revise 3 to distinguish fiction from author views and avoid depending on an unreviewed separate essay."
+  },
+  "research": [
+    {
+      "url": "http://byteseismic.com/2024/04/24/essay-moral-anti-realism/",
+      "scope": "Cached WordPress 7089: full linked essay passage and closing curator roadmap qualification read. Not a full editorial review of all responses on that separate page."
+    },
+    {
+      "url": "https://www.lesswrong.com/posts/fG3g3764tSubr6xvs/the-meaning-of-right",
+      "scope": "Selected article passages on a fixed evaluative function, present desires, reflection, moral truth and the gift passage. Not a complete 28-minute article review or reading of a separate Gift essay."
+    }
+  ],
+  "reviewLimitations": [
+    "All dialogue and concessions are fictional, not statements or agreements by the real authors. The curator’s anti-realist stance remains explicit without claiming empirical science proves it.",
+    "The generic strict list/table flag is false solely because responseAppendices restores the exact source warning after table 1. Independent checks verify all original list hierarchies, table rows/cells and warning order.",
+    "The linked essay’s roadmap qualification is supporting context, not invented as a prompt in this conversation."
+  ],
+  "supportingCachedSource": {
+    "wordpressId": 7089,
+    "title": "Essay: Moral Anti-Realism",
+    "url": "http://byteseismic.com/2024/04/24/essay-moral-anti-realism/",
+    "fullCachedPostSha256": "6d87c628f4ee98272b6193d013bc85890064110af92b65640be529f0a7bac304",
+    "scope": "Linked essay passage and closing curator qualification; not a full editorial review of this supporting page."
+  }
+}
