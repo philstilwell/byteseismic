@@ -1,0 +1,292 @@
+{
+  "pageFile": "epistemology/decision-making/index.html",
+  "wordpressId": 2922,
+  "snapshot": "decision-making-wordpress-2922.html",
+  "sourceSha256": "0dd5a9dd9af4653c1452dd4867f283b1ba15aece35ad396bc7f83bd9eda22aed",
+  "sourceUrl": "http://byteseismic.com/2024/03/10/decision-making/",
+  "sourceLabel": "Original WordPress post, 2024-03-10",
+  "shellRevision": "c88241225fdece39e23bd1433e85f1b18fe6e1e4",
+  "date": "2026-10-23",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "What a reasonable choice needs to take into account",
+    "When another check is worth the delay",
+    "Consequences before the choice and evidence after it",
+    "Accountability, compassion and repair after harm",
+    "Two ten-question quizzes with answers at the end",
+    "Fifteen discussion questions from each response"
+  ],
+  "introHeading": "Choosing, waiting, learning and responding to harm",
+  "intro": "The conversation moves from the ingredients of a rational choice to its timing, consequences and emotional aftermath. This editorial edition restores all six original prompts and both response tracks, including their complete quizzes and discussion lists. A decision can be reasonable without guaranteeing success; responding honestly to harm requires attention both to what was foreseeable and to what can still be repaired.",
+  "description": "How to weigh options, decide when to act, learn from outcomes, and respond responsibly after harm. Includes both original quizzes and discussion lists.",
+  "highlights": [
+    "Define the problem and the goals before comparing choices.",
+    "Gather relevant evidence, including information that could change your preferred option.",
+    "Identify feasible alternatives, including waiting or trying a reversible step.",
+    "Weigh costs, benefits and risks without hiding uncertainty behind precise-looking numbers.",
+    "Consider immediate and delayed effects on everyone affected."
+  ],
+  "pageSignals": {
+    "Page form": "Original conversation · editorial edition",
+    "Best for": "weighing evidence, timing action and learning without hindsight bias"
+  },
+  "replacements": {
+    "1.1.0": "A rational decision connects a clear objective with credible evidence, feasible options and the consequences that matter. It must also fit the time and resources available. The following considerations improve the grounds for a choice; they do not guarantee the desired result.",
+    "1.1.2": "<strong>Gather Relevant Information:</strong> Collect facts, estimates and informed perspectives. Distinguish an observation from an assumption, check the source, and look for evidence that could overturn your preferred choice. More information helps only when it bears on the decision.",
+    "1.1.3": "<strong>Identify Alternatives:</strong> Look for a useful range of feasible options, including doing nothing, delaying, or taking a small reversible step. Listing every conceivable option is usually impossible; the aim is to avoid overlooking a materially better one.",
+    "1.1.4": "<strong>Weigh the Evidence:</strong> Compare options against the same criteria. Separate how likely an outcome is from how desirable it would be, and distinguish established facts from uncertain forecasts. A cheaper venue, for example, may save money while making an event inaccessible to some guests.",
+    "1.1.6": "<strong>Make a Decision:</strong> Choose the best-supported feasible option given the goals, constraints and uncertainty. Feelings can reveal what matters to you, but the intensity of a feeling does not establish a factual claim. Record the main reasons and any assumptions that would justify changing course.",
+    "1.1.8": "<strong>Evaluate the Outcome:</strong> Compare results with the expectations you recorded. Ask whether a mistaken assumption, poor execution, an overlooked alternative or chance explains the difference. One good outcome does not vindicate a reckless process, and one bad outcome does not by itself refute a careful one.",
+    "1.1.9": "<strong>Emotional Balance:</strong> Notice fear, excitement, concern for others and your own preferences. These can identify stakes or prompt useful questions. Check their implied predictions against evidence rather than either obeying them automatically or pretending they are irrelevant.",
+    "1.1.10": "<strong>Consider Ethical Implications:</strong> Ask whose interests, consent and legitimate claims are affected. Efficiently pursuing a goal does not by itself make that goal or its means ethically acceptable. State the moral constraints as well as the practical objectives.",
+    "1.1.11": "<strong>Risk Assessment:</strong> Consider both the likelihood and severity of harm, including outcomes that are unlikely but difficult to reverse. Use ranges where probabilities are uncertain, and ask whether your choice changes under plausible alternative estimates.",
+    "1.1.12": "<strong>Seek Feedback:</strong> Consult people with relevant knowledge and people who will bear the consequences. Invite reasons for disagreement. Advice can expose blind spots, but agreement among advisers does not establish that every important factor has been covered.",
+    "1.1.13": "Use these considerations in proportion to the decision. Choosing lunch rarely warrants the same investigation as relocating a family. A short record of the goal, leading options, key uncertainties and reason for acting now often makes the reasoning easier to inspect and improve.",
+    "1.2.1": "Rational decisions use defensible reasons to pursue stated goals under real constraints. Your interests matter, but so do commitments and effects on other people. Here are key considerations:",
+    "1.2.5": "<strong>Evaluating Options:</strong> Weigh the advantages and disadvantages using your stated criteria. Treat emotions as information about concerns and preferences, while independently checking beliefs about what each option will produce.",
+    "1.2.8": "<strong>Time Constraints:</strong> Include the cost of waiting. More research is worthwhile when it can improve the choice or its implementation enough to justify the time and effort. A modest decision made in time can be preferable to an elaborate assessment completed after the opportunity has passed.",
+    "1.2.9": "Rationality does not require perfect knowledge or an absence of feeling. It requires using the evidence and resources you reasonably have, acknowledging uncertainty, and revising your choice when the reasons change. This makes a decision defensible even when its eventual outcome remains uncertain.",
+    "2.1.0": "Rational timing depends on what further deliberation could accomplish and what delay would cost. The right pace is not a fixed midpoint between haste and hesitation. A useful test is: what could I learn next, could it change my choice or preparation, and can I obtain it before waiting becomes more costly than acting?",
+    "2.1.2": "Haste means deciding before completing checks that were worthwhile and realistically available. It is not simply deciding quickly: a practiced response to an immediate danger may be appropriate. The risks of unnecessary haste include:",
+    "2.1.6": "<strong>Regret and Negative Outcomes:</strong> Skipping a useful check can expose you to avoidable harm. But regret or a poor result does not prove haste; review the information and time available when the choice was made.",
+    "2.1.9": "<strong>Analysis Paralysis:</strong> Repeating the same comparisons or waiting for certainty can prevent action without improving it. Identify the unresolved question that matters and the specific information needed to answer it.",
+    "2.1.14": "Choose the pace by comparing the value of further inquiry with the costs and risks of delay. An event organizer might check an unresolved venue-access question before booking, but gain little from reading ten more reviews that repeat what is already known. The following practices make that comparison easier:",
+    "2.1.15": "<strong>Setting Deadlines:</strong> Set a deadline that reflects the real opportunity or obligation, with time for the checks most likely to matter. A deadline is a planning aid, not permission to ignore a newly discovered serious risk.",
+    "2.1.16": "<strong>Prioritizing Decisions:</strong> Give more scrutiny to consequential, uncertain or difficult-to-reverse choices. Importance and urgency are different: an important decision may need prompt protective action followed by fuller review.",
+    "2.1.17": "<strong>Incremental Decision-Making:</strong> Where possible, use a small trial or reversible commitment to learn before committing fully. Check whether the supposed trial itself creates lasting obligations or harm; not every decision can safely be divided into stages.",
+    "2.1.19": "<strong>Learning from Experience:</strong> Compare earlier forecasts and deadlines with what happened. Look for repeated missed checks or needless delays, rather than treating each lucky success or unlucky failure as a complete lesson about your judgment.",
+    "2.1.20": "Act when the available reasons support a choice and the next useful check no longer justifies its cost or delay. Keep important uncertainties visible and decide what later evidence would trigger a review. Timeliness and revisability can work together.",
+    "2.2.0": "Timing is part of the decision itself. Both investigation and delay have consequences, so the question is how much deliberation is warranted here. Speed alone does not establish recklessness, and lengthy analysis does not establish care.",
+    "2.2.3": "<strong>Emotionally Charged Decisions:</strong> Fear or excitement can make relief or immediate reward seem more important than it is. If the situation permits, pause long enough to check the prediction behind the feeling. An urgent warning may also be justified; pausing is useful only when the delay is tolerable.",
+    "2.2.8": "<strong>Bounded Rationality:</strong> Herbert Simon examined decisions made with limited information and capacity to search and calculate. Instead of assuming every option can be ranked perfectly, look for an option that meets justified requirements within the available resources. This is a response to limits, not a license for careless standards. See <a href=\"https://www.nobelprize.org/prizes/economic-sciences/1978/press-release/\">the Nobel account of Simon’s work</a>.",
+    "2.2.9": "<strong>Identifying Importance and Urgency:</strong> Assess stakes, reversibility and the cost of waiting separately. A routine choice can often be made quickly; an urgent consequential choice may require a prompt protective step rather than prolonged comparison.",
+    "2.2.10": "<strong>Setting Time Limits:</strong> Set a research deadline and identify the few unknowns most likely to change the choice. If they remain unresolved, consider a reversible option or explain why postponement is still justified. Do not let an arbitrary timer override a material warning.",
+    "2.2.11": "Before another round of research, state what new answer you expect and how it would affect the decision. If neither plausible answer would change the choice or its preparation, that inquiry may be unnecessary. If a cheap check could prevent serious harm, making it can be the most timely action available.",
+    "3.1.0": "Consequences matter both before a choice and afterward. Before acting, compare the plausible effects of the alternatives; afterward, compare the result with what you had reason to expect. Neither exercise guarantees success, but both help connect intentions with what actions actually do.",
+    "3.1.3": "<strong>Ethical Considerations:</strong> Ask who may benefit, who may be harmed and whether burdens fall on people who had no say. Consequences inform moral judgment, but social approval and reputation do not settle whether an action respects obligations or people’s legitimate claims.",
+    "3.1.4": "<strong>Resource Allocation:</strong> Compare what each option consumes with what it makes possible. Time, money and effort spent on one course cannot also serve another. Efficiency matters, but it must be assessed against the actual goals, including access and fairness where relevant.",
+    "3.1.5": "<strong>Long-term Planning:</strong> Consider recurring costs, maintenance, changed incentives and future options. A cheap venue may require expensive transport every week. Forecasts become less certain over longer periods, so examine several plausible paths rather than treating one projection as settled.",
+    "3.1.7": "<strong>Learning and Improvement:</strong> Review the reasons and forecasts made before the outcome was known. Distinguish a flawed assumption from poor implementation or chance. Repeated observations may reveal a pattern that one result cannot establish.",
+    "3.1.8": "<strong>Responsibility and Accountability:</strong> Ask what you controlled, what you knew or should reasonably have checked, and which harms your action contributed to. Responsibility is not identical to either intending the harm or causing every later event. Repair may still matter even when the original choice was reasonable.",
+    "3.1.10": "<strong>Social Impact:</strong> Include effects on people outside the immediate decision and on the environment. Consultation and monitoring can expose harms that a narrow comparison misses; merely considering consequences does not ensure that the effects will be beneficial.",
+    "3.1.11": "A useful consequence review names the main possible outcomes, the grounds for expecting them, who bears the risks, and what could be changed if the forecast is wrong. This makes disagreement concrete and creates a basis for learning after the choice.",
+    "3.2.3": "<strong>Helps Manage Risk:</strong> Compare the severity and likelihood of harms, and identify precautions or fallback plans. Where estimates are uncertain, ask whether a choice remains acceptable across a plausible range. Assessment improves preparation; it does not eliminate uncertainty.",
+    "3.2.5": "<strong>Puts Regret in Perspective:</strong> Considering foreseeable consequences can reduce avoidable mistakes. Still, a well-reasoned choice may bring grief or regret after a bad outcome. The feeling deserves attention without being treated as proof that the earlier reasoning was defective.",
+    "3.2.7": "You cannot see every consequence any more than a driver can see the whole route at once. The analogy supports checking foreseeable hazards and adjusting to new information; it does not promise control over everything that happens.",
+    "4.1.0": "After a horrific decision, a constructive emotional stance can combine honest remorse, care for those affected and enough compassion for yourself to remain capable of repair. First distinguish a knowingly or negligently harmful choice from a reasonable choice with a terrible outcome. Neither intense guilt nor its absence settles responsibility; the circumstances need examination.",
+    "4.1.2": "<strong>Responsibility Without Global Self-Condemnation:</strong> Identify what you did, failed to do, knew and could reasonably have checked. Specific blame may be justified. The conclusion that your whole life is worthless is a different claim and does not follow from acknowledging a serious wrong. Incomplete information is relevant, but not an automatic excuse.",
+    "4.1.3": "<strong>Self-Compassion:</strong> Treat yourself as someone still capable of truthful reflection and responsible action. This does not make the harm trivial or entitle you to forgiveness. It allows care for yourself to coexist with accountability to others.",
+    "4.1.4": "<strong>Learning and Growth:</strong> Examine the actual failure: an ignored warning, an unjustified assumption, pressure you yielded to, or a constraint you could not overcome. Choose a concrete change where one is warranted. Harm need not be recast as a fortunate lesson to make learning possible.",
+    "4.1.5": "<strong>Seeking Support:</strong> Speak with a trusted person or qualified professional who can help you examine events without either excusing everything or condemning your entire self. The <a href=\"https://www.ptsd.va.gov/professional/treat/cooccurring/moral_injury.asp\">National Center for PTSD’s discussion of moral injury</a> distinguishes guilt about an event from shame generalized to the whole person. This distinction can clarify the discussion; it does not diagnose any reader.",
+    "4.1.6": "<strong>Regret Management:</strong> Let regret inform an honest account of what happened and what remains possible. Repeatedly replaying the same accusation without new understanding or repair is different from useful reflection. There is no universal timetable on which sorrow ought to disappear.",
+    "4.1.7": "<strong>Future-Focused Thinking:</strong> Connect future choices to the obligations created by the past. Preventing repetition, honoring commitments and sustaining repair matter more than announcing a fresh start that leaves affected people behind.",
+    "4.1.8": "<strong>Emotional Resilience:</strong> Aim to remain able to seek support, meet basic needs and carry out responsible actions while distress is present. Recovery need not mean becoming stronger than before, feeling no grief, or proving that the harm was somehow worthwhile.",
+    "4.1.9": "<strong>Forgiveness:</strong> Self-forgiveness may become possible, but it need not be forced or immediate. It cannot cancel another person’s claims or require them to reconcile with you. Taking responsibility and changing conduct remain possible while forgiveness is unresolved.",
+    "4.1.10": "<strong>Engagement in Restorative Actions:</strong> Where possible, stop ongoing harm, acknowledge what happened and offer appropriate repair. Respect the affected person’s wishes and boundaries. An apology or offer of help should serve their needs, not pressure them to relieve your guilt.",
+    "4.1.11": "A responsible response does not require either instant peace or endless self-punishment. It requires honesty about the harm and sustained attention to what can still be done. If distress is persistent or disrupting daily life, professional support may help; this discussion is a general ethical reflection, not an individualized treatment plan.",
+    "4.2.0": "There is no single correct feeling after a horrific decision. Grief, guilt, anger, numbness and confusion do not by themselves establish what you were responsible for. A helpful orientation is to face the facts, care about those harmed, and remain open to support and repair:",
+    "4.2.2": "<strong>Allow Room for Your Emotions:</strong> Notice what you feel without demanding an immediate display of remorse or an immediate return to calm. An emotion can be acknowledged without treating every accusation it carries as a reliable account of what happened.",
+    "4.2.3": "<strong>Accept Responsibility:</strong> Own the choices and omissions that were yours, while examining what was genuinely beyond your control. Asking what you could reasonably have done differently can be useful; repeatedly imagining impossible alternatives is not the same as accountability.",
+    "4.2.5": "<strong>Be Kind to Yourself:</strong> Avoid equating a harmful act with a permanent verdict on everything you are. Compassion need not excuse misconduct. It can leave room for the difficult work of acknowledging harm and behaving differently.",
+    "4.2.6": "<strong>Consider Self-Forgiveness:</strong> This may take time and cannot substitute for repair. Other people decide for themselves whether to forgive or resume contact; your recovery does not give you a claim to their reassurance.",
+    "4.2.8": "<strong>Reflect on the Experience:</strong> Ask what went wrong and what was foreseeable at the time. If you ignored a warning, specify how future warnings will be handled. If a reasonable choice ended badly, update what the outcome teaches without inventing knowledge you could not have had.",
+    "4.2.9": "<strong>Develop Ways to Cope:</strong> Ordinary routines, reflective writing, supportive conversation or professional help may be useful ways to remain engaged with daily life. No single activity suits everyone, and these suggestions do not replace care when it is needed.",
+    "4.2.14": "<strong>Look for Ways to Make Amends:</strong> Offer repair that addresses the actual harm and respects the affected person’s boundaries. Do not use an apology to demand contact, forgiveness or emotional care from them.",
+    "4.2.15": "<strong>Focus on the Future:</strong> Make future choices that demonstrate what has changed, including continued repair where needed. A future commitment gains credibility through conduct, not through a declaration that the past is over.",
+    "4.2.16": "These are possible directions, not stages everyone must complete or feelings everyone must produce. Honest accountability, support and repair can proceed while emotional recovery is still uncertain.",
+    "5.1.20": "C) Setting realistic deadlines while checking material risks",
+    "5.1.28": "A) Relentless condemnation of one’s entire self",
+    "5.1.50": "C) To guarantee that every decision can be made faster",
+    "5.1.56": "C) Setting realistic deadlines while checking material risks",
+    "5.1.58": "A) Relentless condemnation of one’s entire self; this differs from justified responsibility for a specific act.",
+    "5.1.62": "C) To guarantee that every decision can be made faster",
+    "5.2.6": "What analogy does the response use for evaluating consequences?<br>a) Choosing a restaurant from online reviews<br>b) Checking the weather before going outside<br>c) Following a map without looking ahead<br>d) Checking traffic lights, pedestrians and turns while driving",
+    "5.2.11": "After an unforeseeable bad outcome, which review is most reasonable?<br>a) Assume the original choice must have been irrational<br>b) Ignore the result because the intentions were good<br>c) Judge solely by how guilty the decision-maker feels<br>d) Compare the outcome with the evidence and options available at the time",
+    "5.2.17": "(d) Checking traffic lights, pedestrians and turns while driving",
+    "5.2.22": "(d) Compare the outcome with the evidence and options available at the time; then ask what genuinely new information should change future choices.",
+    "5.2.2": "Which of the following is NOT a key consideration when making a rational decision?<br>a) Defining the problem and your goals<br>b) Consulting a horoscope<br>c) Gathering information<br>d) Identifying criteria for evaluation",
+    "5.2.3": "According to the passage, what is the downside of rushing a decision?<br>a) You might miss out on crucial information.<br>b) You’ll have more time to analyze the situation.<br>c) It allows for a more in-depth evaluation of options.<br>d) It helps you avoid emotional influences.",
+    "5.2.4": "What is the term used to describe the idea that perfect information and unlimited time for decisions are unrealistic?<br>a) Bounded awareness<br>b) Optimal timing<br>c) Hasty analysis<br>d) Bounded rationality",
+    "5.2.5": "Which of these is a healthy emotional response after making a bad decision?<br>a) Bottling up your emotions and avoiding the situation<br>b) Accepting responsibility and focusing on learning from it<br>c) Blaming yourself relentlessly<br>d) Ignoring the consequences and moving on",
+    "5.2.7": "When making a rational decision, it’s important to:<br>a) Make snap judgments based on intuition.<br>b) Weigh the pros and cons of each option.<br>c) Focus only on the most positive potential outcome.<br>d) Avoid seeking any outside input.",
+    "5.2.8": "True or False: Overanalyzing every detail can lead to a state of indecision called “paralysis by analysis.”<br>a) True<br>b) False",
+    "5.2.9": "Which of these is NOT a benefit of evaluating the consequences of decisions?<br>a) Increases the likelihood of achieving your goals<br>b) Helps manage potential risks<br>c) Guarantees a perfect outcome in every situation<br>d) Promotes long-term thinking",
+    "5.2.10": "When considering the timing of a decision, it’s important to:<br>a) Always take the same amount of time for every choice.<br>b) Recognize the difference between important vs. everyday decisions.<br>c) Rush through all decisions to avoid wasting time.<br>d) Spend as much time analyzing as possible.",
+    "6.1.8": "How can someone distinguish responsibility for a harmful choice from responsibility they could not reasonably have had for its outcome?",
+    "6.2.4": "How can emotions reveal what matters in a decision, and when might they distort beliefs about its consequences?",
+    "6.2.14": "What might self-forgiveness mean after a serious wrong, and how can it remain distinct from another person’s forgiveness or a duty to repair harm?"
+  },
+  "countChecks": [
+    {
+      "name": "1.1.ol original list counts",
+      "selector": "#prompt-1 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        12
+      ]
+    },
+    {
+      "name": "1.2.ol original list counts",
+      "selector": "#prompt-1 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        7
+      ]
+    },
+    {
+      "name": "2.1.ol original list counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        5
+      ]
+    },
+    {
+      "name": "2.1.ul original list counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"1\"] ul",
+      "child": "li",
+      "expected": [
+        4,
+        4
+      ]
+    },
+    {
+      "name": "2.2.ul original list counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "3.1.ol original list counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        10
+      ]
+    },
+    {
+      "name": "3.2.ul original list counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        5
+      ]
+    },
+    {
+      "name": "4.1.ol original list counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        10
+      ]
+    },
+    {
+      "name": "4.2.ul original list counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "5.1.ol original list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        10
+      ]
+    },
+    {
+      "name": "5.1.ul original list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"1\"] ul",
+      "child": "li",
+      "expected": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "5.2.ol original list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        10,
+        10
+      ]
+    },
+    {
+      "name": "6.1.ol original list counts",
+      "selector": "#prompt-6 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    },
+    {
+      "name": "6.2.ol original list counts",
+      "selector": "#prompt-6 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    }
+  ],
+  "responseDecisions": {
+    "1.1": "Preserve twelve considerations and their order. Replace impossible exhaustive search, success guarantees and emotion/reason opposition; separate probability from value, means from moral legitimacy and outcome from process. Add venue accessibility example at the comparison step.",
+    "1.2": "Retain seven-item compact alternative including effective goal, evidence, criteria, trade-off and consultation entries; clarify other-regarding commitments, emotions and bounded inquiry.",
+    "2.1": "Preserve haste/hesitation/timing headings and 4/4/5-item lists. Define haste by skipped worthwhile checks, not speed alone; give concrete venue stopping-rule example; distinguish stakes, urgency and reversibility; qualify deadline and trial advice.",
+    "2.2": "Preserve two haste risks, two delay risks and three pacing practices. Correct conflation of slow/optimal and fast/irrational, add resource limits to Simon attribution, and specify inquiry stopping criterion.",
+    "3.1": "Preserve ten reasons. Remove guaranteed ethical/societal success, separate forecast from retrospective evaluation, add recurring transport-cost example and distinguish control/foreseeability/repair.",
+    "3.2": "Preserve five benefits and effective driving analogy. Clarify uncertainty and regret; analogy describes checking hazards rather than comprehensive control.",
+    "4.1": "Preserve ten components and progression. Distinguish bad choice/bad outcome, specific responsibility/global shame, compassion/excuse, and self-forgiveness/others’ consent. Remove mandatory growth and pressure to recover; repair centers affected people.",
+    "4.2": "Preserve five paired categories and ten recommendations. Reject single ideal emotion, qualify counterfactual reflection and coping advice, preserve professional-support entries, and clarify boundaries in repair and forgiveness.",
+    "5.1": "Restore ten questions/forty nested options plus ten answers at end. Retain accurate items; qualify deadline option, specific blame versus global condemnation, and speed distractor. Keys independently checked.",
+    "5.2": "Restore ten questions plus ten end-position answers. Correct street-crossing answer to actual driving analogy; replace irrelevant model-name question with outcome/evidence review. Separate inline options without changing remaining wording.",
+    "6.1": "Preserve fifteen questions, fourteen verbatim. Replace one question that presumes responsibility for every outcome with a prompt to examine responsibility fairly.",
+    "6.2": "Preserve fifteen questions, thirteen verbatim. Broaden emotion question beyond distortion and distinguish self-forgiveness from victims’ claims; remaining questions remain relevant."
+  },
+  "orderedListStarts": {
+    "5.1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      1
+    ]
+  }
+}

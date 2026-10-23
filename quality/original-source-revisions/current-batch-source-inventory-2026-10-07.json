@@ -4,10 +4,10 @@
   "startIndex": 100,
   "endIndexExclusive": 150,
   "candidateWordPressOriginals": 49,
-  "fullyReviewed": 33,
-  "pendingFullReview": 17,
+  "fullyReviewed": 34,
+  "pendingFullReview": 16,
   "sourceBlocked": 0,
-  "limitation": "Thirty-three entries have substantive review and source verification; seventeen remain pending. No batch advancement. Case #6 restores both model tracks and all father replies, corrects the circularity diagnosis and qualifies historical examples; Fictional Meta-Ethics restores all five paired tables, curator challenges, feasibility response and expandable quiz. Earlier page-specific limitations remain effective.",
+  "limitation": "Thirty-four entries have substantive review and source verification; sixteen remain pending. No batch advancement. Decision-Making restores both model tracks, six prompts, twenty quiz/answer pairs and thirty discussion questions, with decision-timing and accountability corrections. Strong Leaders source has been read but is not editorially complete. Prior page-specific limitations remain effective.",
   "pages": [
     {
       "pagePath": "/philosophers/philosopher-club-membership/",
@@ -869,7 +869,7 @@
       "pagePath": "/epistemology/decision-making/",
       "pageTitle": "Decision-Making",
       "queueIndex": 134,
-      "status": "pending-full-review",
+      "status": "reviewed-verified",
       "wordpressId": 2922,
       "sourceUrl": "http://byteseismic.com/2024/03/10/decision-making/",
       "sourceTitle": "Decision-Making",
@@ -886,8 +886,11 @@
         "Provide 15 discussion questions relevant to the content above. "
       ],
       "wordCount": 4772,
-      "fullSourceRead": false,
-      "editorialReviewComplete": false
+      "fullSourceRead": true,
+      "editorialReviewComplete": true,
+      "fullPreviousEditionRead": true,
+      "verification": "quality/original-source-revisions/decision-making-verification-2026-10-23.json",
+      "reviewedAt": "2026-10-23T13:08:34.082317+00:00"
     },
     {
       "pagePath": "/philosophical-inquiry/dangers-strong-leaders/",
@@ -910,8 +913,16 @@
         "Provide 15 discussion questions relevant to the content above. "
       ],
       "wordCount": 5030,
-      "fullSourceRead": false,
-      "editorialReviewComplete": false
+      "fullSourceRead": true,
+      "editorialReviewComplete": false,
+      "sourceReadAt": "2026-10-23T13:08:34.082317+00:00",
+      "preliminaryConcerns": [
+        "Do not treat coercion and blocked exit as free admiration or blame victims for failing to foresee atrocities.",
+        "Bound historical responsibility and chronology; distinguish institutional authority from charisma.",
+        "Twelve entries per historical response need individual verification; repeated Peoples Temple material must not be mistaken for independent examples.",
+        "Repair quizzes that supply no options and overstate Nicholas II causal responsibility.",
+        "Preserve faults-of-admired-person challenge without demanding invented criticisms or trivial-fault tokenism."
+      ]
     },
     {
       "pagePath": "/philosophical-inquiry/dangers-co-opted-wonders/",
@@ -1277,6 +1288,6 @@
       "editorialReviewComplete": false
     }
   ],
-  "updatedAt": "2026-10-22T18:47:59.658771+00:00",
-  "recordedAt": "2026-10-22T18:47:59.658771+00:00"
+  "updatedAt": "2026-10-23T13:08:34.082317+00:00",
+  "recordedAt": "2026-10-23T13:08:34.082317+00:00"
 }

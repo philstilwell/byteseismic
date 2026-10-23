@@ -1,0 +1,257 @@
+{
+  "recordedAt": "2026-10-23T13:10:29.188908+00:00",
+  "status": "partial-batch",
+  "modelConfiguration": {
+    "savedModel": "gpt-6-astra",
+    "savedReasoningEffort": "high",
+    "runtimeIdentityIndependentlyVerified": false
+  },
+  "cycle": 8,
+  "currentBatch": {
+    "startIndex": 100,
+    "endIndexExclusive": 150,
+    "fullyReviewed": 34,
+    "pending": 16,
+    "sourceBlocked": 0
+  },
+  "restartedPass": {
+    "substantivelyReviewed": 134,
+    "notYetReviewed": 212,
+    "total": 346,
+    "officialWholeBatchCompleted": 100,
+    "officialRemaining": 246
+  },
+  "pagesReviewedThisRun": [
+    {
+      "pagePath": "/epistemology/decision-making/",
+      "sourceSha256": "0dd5a9dd9af4653c1452dd4867f283b1ba15aece35ad396bc7f83bd9eda22aed",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 12,
+      "modelResponses": 12,
+      "blocksRetainedVerbatim": 139,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 84,
+      "bareAnswersExplicitlyRevised": 0,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "1.1.ol original list counts": [
+          12
+        ],
+        "1.2.ol original list counts": [
+          7
+        ],
+        "2.1.ol original list counts": [
+          5
+        ],
+        "2.1.ul original list counts": [
+          4,
+          4
+        ],
+        "2.2.ul original list counts": [
+          2,
+          2,
+          3
+        ],
+        "3.1.ol original list counts": [
+          10
+        ],
+        "3.2.ul original list counts": [
+          5
+        ],
+        "4.1.ol original list counts": [
+          10
+        ],
+        "4.2.ul original list counts": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "5.1.ol original list counts": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          10
+        ],
+        "5.1.ul original list counts": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "5.2.ol original list counts": [
+          10,
+          10
+        ],
+        "6.1.ol original list counts": [
+          15
+        ],
+        "6.2.ol original list counts": [
+          15
+        ]
+      },
+      "sha256": "8b71d3640a856f46d83ca8b87e41ab933a9f5e79939b3c28aa4aa4b630737a12",
+      "recordedAt": "2026-10-23T13:08:34.082317+00:00",
+      "fullSourceRead": true,
+      "fullPreviousEditionRead": true,
+      "source": {
+        "cache": ".cache/byteseismic-posts-with-content.json",
+        "cacheSha256": "632a713e5539d66a4dd778a482fa0da0eaa6131dd077bc3d02f5e766c88b8344",
+        "wordpressId": 2922,
+        "title": "Decision-Making",
+        "url": "http://byteseismic.com/2024/03/10/decision-making/",
+        "urlTitlePromptMatch": true,
+        "modelLogoOrder": [
+          "ChatGPT",
+          "Gemini"
+        ],
+        "snapshot": "decision-making-wordpress-2922.html",
+        "kind": "Original WordPress conversation"
+      },
+      "responseDecisions": {
+        "1.1": "Preserve twelve considerations and their order. Replace impossible exhaustive search, success guarantees and emotion/reason opposition; separate probability from value, means from moral legitimacy and outcome from process. Add venue accessibility example at the comparison step.",
+        "1.2": "Retain seven-item compact alternative including effective goal, evidence, criteria, trade-off and consultation entries; clarify other-regarding commitments, emotions and bounded inquiry.",
+        "2.1": "Preserve haste/hesitation/timing headings and 4/4/5-item lists. Define haste by skipped worthwhile checks, not speed alone; give concrete venue stopping-rule example; distinguish stakes, urgency and reversibility; qualify deadline and trial advice.",
+        "2.2": "Preserve two haste risks, two delay risks and three pacing practices. Correct conflation of slow/optimal and fast/irrational, add resource limits to Simon attribution, and specify inquiry stopping criterion.",
+        "3.1": "Preserve ten reasons. Remove guaranteed ethical/societal success, separate forecast from retrospective evaluation, add recurring transport-cost example and distinguish control/foreseeability/repair.",
+        "3.2": "Preserve five benefits and effective driving analogy. Clarify uncertainty and regret; analogy describes checking hazards rather than comprehensive control.",
+        "4.1": "Preserve ten components and progression. Distinguish bad choice/bad outcome, specific responsibility/global shame, compassion/excuse, and self-forgiveness/others’ consent. Remove mandatory growth and pressure to recover; repair centers affected people.",
+        "4.2": "Preserve five paired categories and ten recommendations. Reject single ideal emotion, qualify counterfactual reflection and coping advice, preserve professional-support entries, and clarify boundaries in repair and forgiveness.",
+        "5.1": "Restore ten questions/forty nested options plus ten answers at end. Retain accurate items; qualify deadline option, specific blame versus global condemnation, and speed distractor. Keys independently checked.",
+        "5.2": "Restore ten questions plus ten end-position answers. Correct street-crossing answer to actual driving analogy; replace irrelevant model-name question with outcome/evidence review. Separate inline options without changing remaining wording.",
+        "6.1": "Preserve fifteen questions, fourteen verbatim. Replace one question that presumes responsibility for every outcome with a prompt to examine responsibility fairly.",
+        "6.2": "Preserve fifteen questions, thirteen verbatim. Broaden emotion question beyond distortion and distinguish self-forgiveness from victims’ claims; remaining questions remain relevant."
+      },
+      "originalPromptTexts": [
+        "What are the considerations that factor into making rational decisions?",
+        "Some people are too hasty or hesitant when making decisions. Discuss the timing of rational decisions.",
+        "Discuss the importance of evaluating the consequences of one’s decisions.",
+        "What might be a healthy emotional disposition after making a horrific decision.",
+        "Create a 10-item quiz on the discussion above with answers at the end. ",
+        "Provide 15 discussion questions relevant to the content above. "
+      ],
+      "requestedCounts": {
+        "quizzes": [
+          10,
+          10
+        ],
+        "answerKeys": [
+          10,
+          10
+        ],
+        "discussionQuestions": [
+          15,
+          15
+        ],
+        "discussionQuestionsRetainedVerbatim": 27
+      },
+      "negativeControls": {
+        "tests": 6,
+        "allRejected": true,
+        "cases": [
+          "delete original prompt",
+          "delete entire response",
+          "delete ChatGPT quiz answer",
+          "delete Gemini quiz answer",
+          "delete discussion item",
+          "swap two prompts"
+        ]
+      },
+      "research": [
+        {
+          "url": "https://www.nobelprize.org/prizes/economic-sciences/1978/press-release/",
+          "scope": "Read official press-release passages on limited knowledge, organizational decision-making and satisfactory alternatives. Direct terminal retrieval succeeded after web tool HTTP403. Prize lecture PDF itself returned HTTP403 and was not read.",
+          "use": "Qualify Simon attribution and explain bounded rationality; application to everyday stopping rules is editorial reasoning."
+        },
+        {
+          "url": "https://www.ptsd.va.gov/professional/treat/cooccurring/moral_injury.asp",
+          "scope": "Read definition, guilt/shame distinction and opening treatment discussion, not underlying studies or a full clinical literature review.",
+          "use": "Distinguish event-specific guilt from global shame; qualify emotional advice and professional-support option. No diagnosis or treatment efficacy claim."
+        }
+      ],
+      "limitations": [
+        "General decision framework and ethical reflection, not individualized clinical, legal or financial advice.",
+        "A stopping rule requires judgment about information value; no formula guarantees optimal timing.",
+        "Site navigation retained as chrome; earlier composite body is not treated as the original.",
+        "Strong Leaders original read for preparation only; no editorial completion claimed."
+      ],
+      "browser": {
+        "viewports": [
+          [
+            1280,
+            720
+          ],
+          [
+            390,
+            844
+          ]
+        ],
+        "promptLinkToQuizPassed": true,
+        "desktopQuizNumberingAndOptionsInspected": true,
+        "mobileTextLayoutInspected": true,
+        "documentHorizontalOverflow": false,
+        "quizCounts": [
+          10,
+          10
+        ],
+        "endKeyCounts": [
+          10,
+          10
+        ],
+        "discussionCounts": [
+          15,
+          15
+        ],
+        "consoleLimitation": "Local preview Cloudflare analytics requests fail cross-origin checks; no content/navigation failure observed. No claim to full cross-browser or assistive-technology testing."
+      }
+    }
+  ],
+  "sourcePreparationOnly": [
+    {
+      "title": "Dangers: Strong Leaders",
+      "pagePath": "/philosophical-inquiry/dangers-strong-leaders/",
+      "wordpressId": 6064,
+      "fullOriginalRead": true,
+      "complete": false,
+      "sourceSha256": "9a1fa837a4f7fab84c19586968f79d1482167182b8c26fd24f645f5544ee1546",
+      "followUp": "Individually verify both twelve-entry history lists, avoid conflating admiration with coercion, qualify responsibility and chronology, repair incomplete quiz question and causal overclaims."
+    }
+  ],
+  "trackerAdvanced": false,
+  "queueReset": false,
+  "nextPendingPage": "/philosophical-inquiry/dangers-strong-leaders/",
+  "nextInactiveBatch": {
+    "startIndex": 150,
+    "firstPage": "What are Ethics?"
+  },
+  "verification": "quality/original-source-revisions/batch-verification-2026-10-23.json",
+  "publication": {
+    "statusAtReportCreation": "Prepared for explicit-file commit and push; final commit and remote confirmation recorded in automation memory and run response.",
+    "branch": "main",
+    "baseCommit": "c88241225fdece39e23bd1433e85f1b18fe6e1e4"
+  },
+  "environment": "Configured project folder no longer exists. Located repository in iCloud Drive; slow reads and stalled status checks required a local copy of the verified published base. No new dependency or third-party repository installed; no paid external generation or subagents. Saved project location still needs correction.",
+  "remainingConcerns": [
+    "The isolated builder regenerated its temporary tracker to 96 tracked pages/index 0. That generated tracker was excluded and both temporary tracker files restored from the published base before delivery. The authoritative iCloud tracker remains byte-identical at cycle 8/index 100 (346 pages); no advance/reset command was run. Treat builder-generated tracker output as unsafe to copy back.",
+    "Configured project path is absent; current working repository resides in iCloud Drive."
+  ]
+}
