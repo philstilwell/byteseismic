@@ -1,0 +1,332 @@
+{
+  "pageFile": "philosophical-inquiry/dangers-strong-leaders/index.html",
+  "wordpressId": 6064,
+  "snapshot": "dangers-strong-leaders-wordpress-6064.html",
+  "sourceSha256": "9a1fa837a4f7fab84c19586968f79d1482167182b8c26fd24f645f5544ee1546",
+  "sourceUrl": "http://byteseismic.com/2024/04/11/dangers-strong-leaders/",
+  "sourceLabel": "Original WordPress post, 2024-04-11",
+  "shellRevision": "76b386bae64b78fbbfdc72cd6d256bce7938df70",
+  "date": "2026-10-24",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "When confidence begins to replace evidence",
+    "Making discovery and correction rewarding",
+    "Two historical lists, with their limits made explicit",
+    "Respect that remains open to correction",
+    "Two ten-question quizzes and answer keys",
+    "Fifteen discussion questions from each response"
+  ],
+  "introHeading": "Leadership, independent inquiry and the freedom to disagree",
+  "intro": "This editorial edition restores all six original prompts and both response tracks, including the historical lists, quizzes and discussion questions. The conversation asks how admiration can obstruct inquiry and how to enjoy discovering and correcting beliefs for oneself. The historical examples require distinctions among persuasion, institutional obedience and coercion; their differences matter as much as their similarities.",
+  "description": "How admiration can obstruct inquiry, how to welcome correction, and what historical examples can teach about leadership. Includes original quizzes and discussions.",
+  "highlights": [
+    "An echo chamber can make repeated claims look independently confirmed.",
+    "Respect for a leader does not establish the truth of the leader’s claims.",
+    "Independent inquiry includes checking whose expertise deserves trust."
+  ],
+  "pageSignals": {
+    "Page form": "Original conversation · editorial edition",
+    "Best for": "examining loyalty, evidence and accountability"
+  },
+  "replacements": {
+    "1.1.0": "Following a confident or decisive leader can make coordination easier, but it can also make someone else’s judgment a substitute for checking reasons. The danger depends on how authority is exercised and questioned; decisiveness, charisma, expertise and coercive power are different things. Here are six ways loyalty can obstruct the pursuit of truth:",
+    "1.1.4": "<strong>Overdependence on Leadership:</strong> Reliance on expertise is often reasonable: nobody can personally repeat every investigation. Dependence becomes hazardous when a leader controls both the claim and every permitted check on it. Ask whether independent specialists, records or affected people can challenge the account without being dismissed merely for disagreeing.",
+    "1.1.6": "<strong>Polarization and Fragmentation:</strong> A leader can strengthen loyalty by depicting outsiders as inherently dishonest. Followers then judge a claim by its group of origin before considering its evidence. Disagreement need not disappear, but shared ways to check facts become harder to maintain.",
+    "1.1.7": "A useful safeguard is to make correction ordinary and safe. If a leader predicts that a policy will work, preserve the prediction, examine the results and allow an explicit revision. If every failure becomes proof of sabotage, the belief has lost a meaningful test. Open debate helps when participants can inspect evidence and when disagreement does not invite retaliation.",
+    "1.2.0": "People sometimes look to strong leaders for confidence, coordination or a sense of belonging. That observation does not establish an irresistible natural tendency, and it does not make all leadership a threat. The pursuit of truth suffers when loyalty changes which reasons people are willing to examine:",
+    "1.2.6": "<strong>Question Important Claims:</strong> Examine evidence in proportion to the stakes. You do not need to distrust every instruction or recreate every expert’s work; you do need ways to check consequential claims beyond the leader’s own assurance.",
+    "1.2.9": "Leadership can help a group act while leaving its reasons open to review. A practical test is whether a follower can say, “I support the goal, but this evidence undermines the plan,” and receive an answer rather than a demand for loyalty.",
+    "2.1.0": "Make the satisfying part of inquiry the discovery of a better-supported answer, including an answer that corrects your own. “Personal” discovery means actively understanding and checking what you accept; it does not mean that truth becomes whatever feels right to you. Education and community practices can support that habit:",
+    "2.1.3": "<strong>Problem-Based Learning:</strong> Give learners a question they can investigate, such as whether a widely shared quotation appears in the cited speech. Let them compare records, explain their initial expectation and describe what changed their mind. Remembered facts remain useful; the exercise shows how to put them to work.",
+    "2.1.5": "<strong>Understanding Scientific Methods:</strong> Teach how hypotheses, observations, comparisons and revisions connect. Different fields use different methods. The common lesson is that a confident account must answer to evidence, and that acknowledging uncertainty need not erase well-established findings.",
+    "2.1.8": "<strong>Self-Awareness Practices:</strong> Learning the names of biases is only a start. Write down what you expect before checking, seek a serious objection and record what would change your view. Apply those checks to your own favored account, not only to an opponent’s.",
+    "2.1.9": "<strong>Dialogue and Dissent:</strong> Welcome questions and protect people who raise inconvenient evidence. Praise a careful correction even when it comes from someone outside the group. Disagreement is valuable for what it reveals, not simply because it challenges an established view.",
+    "2.1.17": "<strong>Philosophical Reflection:</strong> Use reflective writing or structured dialogue to separate what you believe, why you believe it and how confident you should be. Reflection can clarify a question, but an inward sense of certainty is not independent evidence for an outward claim.",
+    "2.1.20": "<strong>Artistic Expression:</strong> Stories, images and performances can make unfamiliar perspectives vivid and help people examine their values. An affecting story may generate a question or illuminate an experience; its emotional force does not establish that its factual claims are true.",
+    "2.1.22": "These practices can make checking and revising beliefs more rewarding. A group might end a discussion by sharing one useful uncertainty or one corrected mistake, rather than voting for the most impressive speaker. Enjoyment can sustain inquiry, but an unwelcome discovery still deserves acceptance when its evidence is strong.",
+    "2.2.5": "<strong>Learn to Identify Biases:</strong> Notice patterns such as seeking only favorable evidence, then try a concrete countermeasure: read a serious objection before defending your preferred answer. A <a href=\"https://en.wikipedia.org/wiki/List_of_cognitive_biases\">list of cognitive biases</a> can supply vocabulary, but recognizing a label does not make you immune to the tendency.",
+    "2.2.6": "<strong>Evaluate Evidence:</strong> Trace a consequential claim to its source, ask whether repeated reports are independent and check whether the conclusion follows. A <a href=\"https://en.wikipedia.org/wiki/List_of_fallacies\">list of fallacies</a> can help identify reasoning errors; naming an error is useful only if you explain it accurately.",
+    "2.2.8": "<strong>Celebrate Small Discoveries:</strong> Enjoy finding the source of a quotation, understanding an unfamiliar argument or correcting a mistaken date. These are definite achievements even while larger questions remain unresolved.",
+    "2.2.11": "<strong>Connect with People Who Value Inquiry:</strong> Share standards of honesty and evidence without requiring shared conclusions. A group that applauds only its own answers can recreate the very echo chamber you hoped to leave.",
+    "2.2.12": "<strong>Seek Out Mentors:</strong> Learn from a teacher or other knowledgeable guide who explains reasons, identifies limits and welcomes correction. Useful mentorship makes it easier to question the mentor, including by consulting someone else.",
+    "2.2.14": "<strong>Personal Growth:</strong> Understanding your reasons can help you choose more deliberately. It can also unsettle a reassuring belief. Growth need not feel pleasant at every stage, and inquiry does not guarantee confidence or success.",
+    "2.2.18": "<strong>Focus on Values and Practices:</strong> Shared values can matter when choosing collaborators, but agreement with you does not establish honesty or competence. Look for observable practices: acknowledging mistakes, allowing independent checks and respecting dissent.",
+    "2.2.19": "Try one small investigation for which you can explain the answer without appealing to a person’s prestige. Then credit anyone who helped you check it. The joy is in understanding something better, while remaining willing to learn from others and to revise again.",
+    "3.1.0": "The following twelve entries preserve the original selection and order. They illustrate destructive uses of leadership, but they are not twelve demonstrations of the same psychological process. Some involve genuine enthusiasm; others involve military obedience, institutional incentives or coercion. Victims of those systems must not be treated as freely choosing followers, and evidence of harm is not proof that every later outcome was foreseeable.",
+    "3.1.2": "<strong>Destructive Actions:</strong> Adolf Hitler’s regime pursued aggressive war and the systematic murder of Europe’s Jews, alongside persecution and mass killing of other groups. Party organizations, officials and collaborators helped translate his aims into action. <a href=\"https://encyclopedia.ushmm.org/content/en/article/nazi-terror-begins\">Source and context</a>.",
+    "3.1.3": "<strong>Clues for Reconsideration:</strong> Antisemitic exclusion, political violence and the destruction of opposition supplied reasons to reject the regime before its later crimes reached their full extent. These were already wrongs, not merely signs whose significance depends on hindsight.",
+    "3.1.5": "<strong>Destructive Actions:</strong> Under Stalin, forced collectivization, famine, mass repression and forced labor caused immense loss of life. The party-state enforced these policies through officials and security institutions; public compliance cannot simply be read as personal admiration. <a href=\"https://www.loc.gov/exhibits/archives/intn.html\">Source and context</a>.",
+    "3.1.6": "<strong>Clues for Reconsideration:</strong> The famine of 1932–33 and the later Great Terror exposed catastrophic harm already occurring. They were reasons to resist the policies, not early forecasts available before all damage. Censorship and punishment restricted both reliable information and safe opposition.",
+    "3.1.8": "<strong>Destructive Actions:</strong> The Khmer Rouge under Pol Pot forced urban populations into the countryside and imposed coercive labor, persecution and killing. Its crimes included genocide against targeted groups as well as crimes against humanity; “agrarian socialism” alone is not an adequate explanation. <a href=\"https://timeline.eccc.gov.kh/en/section/the-democratic-kampuchea-regime\">Source and context</a>.",
+    "3.1.9": "<strong>Clues for Reconsideration:</strong> Forced evacuations, family separation and punishment of alleged enemies made the coercive character of the project visible. Those subjected to it were not simply enthusiasts who could safely withdraw their support.",
+    "3.1.11": "<strong>Destructive Actions:</strong> More than 900 people died at Jonestown in November 1978 after Jones ordered the poisoning. Children were among those killed. The mass murder-suicide cannot be described as the freely chosen suicide of every victim. <a href=\"https://www.fbi.gov/history/cases-and-criminals/jonestown\">Source and context</a>.",
+    "3.1.12": "<strong>Clues for Reconsideration:</strong> Reports of beatings, forced labor, confinement and rehearsals for death warranted investigation. Some residents sought to leave with Congressman Leo Ryan; gunmen attacked the departing party. The danger involved blocked exit and coercion, not merely misplaced confidence.",
+    "3.1.14": "<strong>Destructive Actions:</strong> Mussolini’s Fascist government entered the Second World War as Germany’s ally in June 1940. The regime’s mobilization of state power and suppression of opposition helped make destructive commitments harder to contest. <a href=\"https://encyclopedia.ushmm.org/content/en/article/italy\">Source and context</a>.",
+    "3.1.15": "<strong>Clues for Reconsideration:</strong> Political violence and the removal of meaningful opposition were reasons to distrust demands for unconditional obedience. Support for the regime also depended on institutions and interests; it cannot all be explained by the force of Mussolini’s personality.",
+    "3.1.17": "<strong>Destructive Actions:</strong> Saddam Hussein’s government invaded Iran in 1980 and Kuwait in 1990. Its repression of Kurds included the Anfal campaign and chemical attacks. Human Rights Watch documents the roles of the state apparatus and Ali Hassan al-Majid, rather than treating every act as the work of one man. <a href=\"https://www.hrw.org/reports/1993/iraqanfal/ANFALINT.htm\">Source and context</a>.",
+    "3.1.18": "<strong>Clues for Reconsideration:</strong> Chemical attacks and mass displacement were grave abuses already in progress, not just clues to a later danger. They gave officials and outside supporters reasons to reject the regime’s assurances; terror severely constrained those living under it.",
+    "3.1.20": "<strong>Destructive Actions:</strong> François Duvalier’s dictatorship used repression and the Tonton Macoute to maintain power. A contemporary US assessment described loyalty to Duvalier and intimidation as central to the force’s role. <a href=\"https://history.state.gov/historicaldocuments/frus1969-76ve10/d380\">Source and context</a>.",
+    "3.1.21": "<strong>Clues for Reconsideration:</strong> Violence against opponents and enforcement of personal loyalty were reasons to question the regime’s legitimacy. Its capacity to punish dissent also means that outward obedience cannot establish freely given support.",
+    "3.1.23": "<strong>Destructive Actions:</strong> Mao’s Great Leap Forward was associated with catastrophic famine, while the Cultural Revolution brought persecution, political upheaval and damage to cultural life. The Communist Party’s 1981 retrospective acknowledged serious errors and Mao’s leading responsibility for the Cultural Revolution; that self-assessment is a politically situated source. <a href=\"https://www.marxists.org/subject/china/documents/cpc/history/01.htm\">Source and context</a>.",
+    "3.1.24": "<strong>Clues for Reconsideration:</strong> Unrealistic targets and punishment of criticism made correction harder. Treating adverse reports as disloyalty obstructed inquiry precisely when failures demanded attention. The famine and persecution were harms themselves, not simply warnings of something still to come.",
+    "3.1.26": "<strong>Destructive Actions:</strong> Wartime losses, shortages and failures of imperial government contributed to the February Revolution of 1917 and Nicholas II’s abdication. The Bolshevik seizure of power occurred later, after the Provisional Government. Nicholas was a hereditary autocrat, not a straightforward example of recruitment through charisma. <a href=\"https://encyclopedia.ushmm.org/content/en/article/the-russian-revolution-1917\">Source and context</a>.",
+    "3.1.27": "<strong>Clues for Reconsideration:</strong> The relevant danger is preserving authority while failing to respond adequately to evidence of crisis. War, institutions and social conflict also mattered: attributing both revolutions or all casualties to Nicholas alone would replace historical explanation with a personality story.",
+    "3.1.29": "<strong>Destructive Actions:</strong> In the Congo Free State under Leopold II’s sovereignty, coercive extraction of rubber and other resources brought severe abuse. Records collected by Roger Casement include testimony about forced labor. The people forced to supply rubber were victims of colonial power, not admirers enticed to follow Leopold. <a href=\"https://catalogue.nli.ie/Record/vtls000723025\">Source and context</a>.",
+    "3.1.30": "<strong>Clues for Reconsideration:</strong> Reports of coercion required scrutiny of the enterprise and of official claims to benevolent rule. Administrative service, profit and imperial prestige are more relevant mechanisms here than an assumed personal attraction felt by every participant. The linked catalogue identifies testimony; it is not a substitute for reading the restricted manuscript.",
+    "3.1.32": "<strong>Destructive Actions:</strong> Tojo served as Japan’s prime minister from 1941 to 1944 while also holding major military offices. His cabinet governed during the opening war against the United States and Britain. Imperial, cabinet and military institutions shared decision-making; he was not the sole source of Japanese expansion. <a href=\"https://www.ndl.go.jp/portrait/e/datas/142/\">Source and context</a>.",
+    "3.1.33": "<strong>Clues for Reconsideration:</strong> The National Diet Library describes the 1942 election’s candidate-recommendation system as a means of establishing a pro-Tojo parliament. Restricting meaningful political opposition is a concrete warning sign. His earlier military career does not by itself prove personal responsibility for every previous act of aggression.",
+    "3.1.35": "<strong>Destructive Actions:</strong> Kitchener commanded campaigns in Sudan and later British forces in the South African War. In South Africa, farm destruction and the camp system inflicted grave civilian suffering, including deaths among Boer families and black Africans. Military command and imperial policy, not simply personal charisma, organized the harm. <a href=\"https://www.nam.ac.uk/explore/boer-war\">Source and context</a>.",
+    "3.1.36": "<strong>Clues for Reconsideration:</strong> Emily Hobhouse’s reports made suffering in the camps a contemporary matter of public criticism. Assessing military success required confronting those civilian costs. The broader original allegation about Sudan is not used here as evidence of a specific civilian atrocity without a separately established account.",
+    "3.1.28": "<strong>10: Leopold II (Congo Free State sovereignty, 1885–1908)</strong>",
+    "3.1.37": "These cases support scrutiny of concentrated authority, dehumanizing claims and blocked correction. They do not establish that all followers had the same motives, that victims could safely leave, or that noticing a warning would necessarily have prevented catastrophe. Responsibility must be assessed in light of information, power and realistic alternatives.",
+    "3.2.0": "<strong>The Crusades (from 1095):</strong> Urban II’s call at Clermont encouraged an armed expedition in religious terms, including remission of sins in surviving accounts. He did not lead every later crusade. The crusading movement involved many rulers, preachers and motives. Claims of sacred authorization warrant scrutiny when they license harm to outsiders; the original two-century range should not be treated as one leader’s campaign. <a href=\"https://sourcebooks.fordham.edu/source/urban2-5vers.asp\">Source and context</a>.",
+    "3.2.1": "<strong>The Salem Witch Trials (1692):</strong> Judicial authority helped turn accusations into deadly proceedings. Spectral evidence concerned alleged appearances of an accused person’s spirit; it was not simply a report of an ordinary observed act. Contemporary objections to its sufficiency survive. This is chiefly a case of institutions validating unreliable evidence, rather than one charismatic leader enticing everyone. <a href=\"https://salem.lib.virginia.edu/letters/to_foster.html\">Source and context</a>.",
+    "3.2.2": "<strong>The Jonestown Massacre (1978):</strong> Jones ordered poisoning after members of his group attacked a departing congressional party. More than 900 people died, including children. Reports of confinement and abuse, and residents’ attempts to leave, show why describing all victims as willing followers is wrong. <a href=\"https://www.fbi.gov/history/cases-and-criminals/jonestown\">Source and context</a>.",
+    "3.2.3": "<strong>The Holocaust (1933–1945):</strong> Hitler and the Nazi regime organized the persecution and systematic murder of six million Jews. They also persecuted and murdered other groups. Dehumanizing propaganda, discriminatory measures and political terror demanded opposition in their own right. Party loyalty, bureaucratic participation, opportunism and coercion must be distinguished. <a href=\"https://encyclopedia.ushmm.org/content/en/article/nazi-terror-begins\">Source and context</a>.",
+    "3.2.4": "<strong>The Rwandan Genocide (1994):</strong> Extremist leaders directed mass murder of Tutsis and targeted moderate Hutu opponents. Armed organizations, propaganda and administrative networks helped spread the killing. The case involves organized incitement and multiple authorities, not a single leader’s charisma; victims and people resisting the violence were not simply failed followers. <a href=\"https://encyclopedia.ushmm.org/content/en/article/the-rwanda-genocide\">Source and context</a>.",
+    "3.2.5": "<strong>The Great Leap Forward (launched in 1958):</strong> Mao’s campaign imposed ambitious economic and agricultural transformations amid a catastrophic famine. Unrealistic demands and the punishment of criticism obstructed correction. The Party’s later resolution acknowledges grave errors but remains an interested retrospective, not a neutral measure of the campaign’s human cost. <a href=\"https://www.marxists.org/subject/china/documents/cpc/history/01.htm\">Source and context</a>.",
+    "3.2.6": "<strong>The Cultural Revolution (1966–1976):</strong> Mao’s mobilization and the struggle among political factions brought persecution and destruction of cultural objects and institutions. It did not erase all traditional Chinese culture. Treating criticism as hostility and personal loyalty as a warrant for attack are the relevant dangers. <a href=\"https://www.marxists.org/subject/china/documents/cpc/history/01.htm\">Source and context</a>.",
+    "3.2.7": "<strong>The Jim Jones Peoples Temple (1955–1978):</strong> This is the same movement as the Jonestown entry above, not a twelfth independent case. Retained here in its original position, it directs attention to the development of dependence and restrictions on exit before the final killings. The duplication limits the original response’s satisfaction of the request for twelve distinct accounts. <a href=\"https://www.fbi.gov/history/cases-and-criminals/jonestown\">Source and context</a>.",
+    "3.2.8": "<strong>The Roman Colosseum Games (from AD 80):</strong> The amphitheatre opened under Titus in AD 80, not AD 70. Imperial sponsorship made violent spectacle a public display of generosity and power. Gladiators included enslaved people and volunteers, while executions were another form of spectacle. This illustrates institutional normalization of violence, not proof that one leader personally persuaded all spectators. <a href=\"https://colosseo.it/en/digital_exhibitions/gladiators-in-the-arena-between-colosseum-and-ludus-magnus/\">Source and context</a>.",
+    "3.2.9": "<strong>The Spanish Inquisition (established in 1478):</strong> Papal authorization enabled the monarchs to appoint inquisitors; royal and ecclesiastical power therefore both mattered. Its policing of religious belief and censorship illustrate how authority can constrain inquiry. The original claim about “countless” executions supplies no usable count and is withdrawn here. This centuries-long institution is not a single charismatic leader’s episode. <a href=\"https://www.bne.es/es/comment/747\">Source and context</a>.",
+    "3.2.10": "<strong>The Khmer Rouge Regime (1975–1979):</strong> The Khmer Rouge imposed forced population movements, labor and persecution under Pol Pot’s leadership. Coercion was central: people expelled from their homes were not necessarily persuaded adherents. Naming particular policies and targeted groups is more informative than treating every crime as one undifferentiated ideological effect. <a href=\"https://timeline.eccc.gov.kh/en/section/the-democratic-kampuchea-regime\">Source and context</a>.",
+    "3.2.11": "<strong>The Night of the Long Knives (1934):</strong> Hitler ordered the murder of SA leaders and other political opponents, including conservative critics. The killings were subsequently declared lawful. This was violence already committed, as well as evidence of the danger of accepting a leader’s wishes in place of legal restraint. <a href=\"https://encyclopedia.ushmm.org/content/en/timeline-event/holocaust/1933-1938/roehm-affair\">Source and context</a>.",
+    "3.2.12": "The list retains twelve original entries, including one explicit duplication, and several entries describe institutions rather than individual recruitment. It should therefore not be presented as twelve independent demonstrations of people freely following a charismatic leader. Its useful question is more specific: where did authority make evidence, dissent or refusal harder to exercise?",
+    "4.1.0": "The suggestion is a useful warning about protected admiration, but it is too strong if treated as a test that everyone must pass by producing a fault on demand. You may know too little about someone to identify a well-supported criticism. The more revealing question is whether you would examine serious contrary evidence and allow it to change your trust. The following considerations explain the value and limits of that test:",
+    "4.1.2": "<strong>Checks Idolization:</strong> Specific, evidence-based criticism helps prevent a respected person from becoming exempt from ordinary scrutiny. Naming a harmless quirk while excusing serious misconduct does not achieve that purpose.",
+    "4.1.5": "<strong>Acknowledgement of Imperfection:</strong> Treat admired people and your own judgments as fallible. This supports investigation, not the invention of accusations to prove that you are independent.",
+    "4.1.6": "<strong>Avoidance of Echo Chambers:</strong> Seek a substantive challenge from outside the circle of admirers. Judge its evidence fairly; neither loyalty nor hostility to the person settles whether a criticism is sound.",
+    "4.1.9": "<strong>Democratic Health:</strong> Scrutiny needs practical support: access to records, independent review and protection for dissent. Privately admitting a leader’s faults does little if no institution can investigate them or limit the resulting harm.",
+    "4.1.11": "<strong>Handling Disappointment:</strong> A fallible view of a leader can make correction easier to contemplate, but discovering serious wrongdoing may still be painful. Emotional comfort is not the standard of truth, and acknowledging complexity must not become an excuse for abuse.",
+    "4.1.12": "<strong>Promotes Revisable Trust:</strong> Specify what the criticism changes. A poor estimate might call for an independent check; deliberate concealment may justify withdrawing a responsibility or support. The response should fit the evidence and the stakes.",
+    "4.1.15": "<strong>Examines Claims about Means and Ends:</strong> Ask who bears the costs of the leader’s plan, whether those costs are acknowledged and whether a promised benefit is supported. Admiration must not give a leader permission to ignore harms that would matter if anyone else caused them.",
+    "4.1.16": "Imagine a leader whose confident prediction fails. Does the leader acknowledge it and revise, or blame disloyal followers and rewrite what was promised? Your willingness to investigate that difference is more informative than a recital of minor faults. Respect remains responsible when contrary evidence can alter what you accept and what authority you grant.",
+    "4.2.1": "<strong>Critical Thinking:</strong> Examining supported criticisms can interrupt blind devotion. The useful skill is fair evaluation, not fault-finding as a ritual. Someone who asks for evidence before accepting an allegation is not thereby defending an idol.",
+    "4.2.2": "<strong>Holding Power to Account:</strong> State what went wrong, what evidence supports that assessment and what remedy is warranted. Accountability also needs procedures and protection for people affected by the leader’s decisions.",
+    "4.2.5": "<strong>Complexity of People:</strong> Admirable work can coexist with serious wrongdoing. Good qualities do not automatically cancel harm, and a relevant failure may justify limiting trust in a particular role even when other contributions remain valuable.",
+    "4.2.9": "Unless your respect permits serious, evidence-based criticism and a meaningful revision of trust, it risks becoming uncritical allegiance. Not yet knowing a specific fault is different from refusing to consider one.",
+    "4.2.10": "Keep the judgment tied to actual claims and conduct. You can appreciate an insight, reject a policy and withdraw support for misconduct without forcing all three judgments into one verdict about a person’s total worth.",
+    "5.1.2": "What can make following a leader dangerous to the pursuit of truth?",
+    "5.1.4": "Which 1978 case involved ordered poisoning and the deaths of children as well as adults?",
+    "5.1.5": "Which Haitian ruler maintained power with repression and the Tonton Macoute?",
+    "5.1.8": "Which 1917 revolution forced Nicholas II’s abdication, and why should it be distinguished from the later Bolshevik seizure of power?",
+    "5.1.9": "Which commander’s South African campaign is discussed in connection with farm destruction and concentration camps?",
+    "5.1.13": "Allowing loyalty or confidence in the leader to replace independent checks on important claims.",
+    "5.1.19": "The February Revolution forced his abdication. The Bolsheviks took power later, after the Provisional Government; the two events should not be collapsed into one effect of Nicholas’s decisions.",
+    "5.1.22": "It can support scrutiny, but meaningful accountability also requires access to evidence, independent review and protection for dissent.",
+    "5.2.1": "What kind of reliance on a leader can obstruct inquiry?",
+    "5.2.3": "What is one way to check confirmation bias when assessing a leader’s claim?",
+    "5.2.7": "Does the pursuit of personal truth discovery guarantee greater wealth or success?",
+    "5.2.12": "Reliance that treats loyalty or the leader’s assurance as sufficient grounds for accepting a consequential claim.",
+    "5.2.14": "Examine a serious contrary view and check its evidence fairly, applying the same standard to your favored account.",
+    "5.2.18": "No. Better understanding can be valuable without guaranteeing wealth, success or an emotionally comfortable conclusion.",
+    "6.1.7": "How could information control and fear of punishment affect what Soviet citizens knew about Stalin’s policies and what they could safely do in response?",
+    "6.2.12": "When is it reasonable to rely on a leader’s expertise without independently checking every step, and what safeguards distinguish that reliance from blind trust?"
+  },
+  "countChecks": [
+    {
+      "name": "1.1.ol original list counts",
+      "selector": "#prompt-1 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        6
+      ]
+    },
+    {
+      "name": "1.2.ul original list counts",
+      "selector": "#prompt-1 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        4,
+        3
+      ]
+    },
+    {
+      "name": "2.1.ol original list counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "2.1.ul original list counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"1\"] ul",
+      "child": "li",
+      "expected": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "2.2.ul original list counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "3.1.ol original list counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "3.1.ul original list counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"1\"] ul",
+      "child": "li",
+      "expected": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "3.2.ol original list counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        12
+      ]
+    },
+    {
+      "name": "4.1.ol original list counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "4.1.ul original list counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"1\"] ul",
+      "child": "li",
+      "expected": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "4.2.ul original list counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "5.1.ol original list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        10,
+        10
+      ]
+    },
+    {
+      "name": "5.2.ol original list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        10,
+        10
+      ]
+    },
+    {
+      "name": "6.1.ol original list counts",
+      "selector": "#prompt-6 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    },
+    {
+      "name": "6.2.ol original list counts",
+      "selector": "#prompt-6 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    }
+  ],
+  "responseDecisions": {
+    "1.1": "Retain six risks and effective echo-chamber/manipulation/dissent/moral passages. Distinguish decisive leadership, expertise and coercion; add a concrete prediction/correction test and qualify polarization.",
+    "1.2": "Retain four risks and three practices; remove unsupported universal-natural-tendency endorsement, replace indiscriminate doubt with proportional checking and make dissent concrete.",
+    "2.1": "Preserve seven categories and fourteen nested practices. Explain personal discovery without private truth, use quotation tracing and rewarding corrections, distinguish bias vocabulary from countermeasures and artistic insight from factual evidence.",
+    "2.2": "Preserve six paired groups and original external learning links. Repair agreement-based leader selection and like-minded echo chamber advice; qualify personal growth, mentorship and emotional reward.",
+    "3.1": "Preserve twelve named entries/order and each paired actions/warnings structure. Individually qualify historical responsibility, coercion, chronology and source limits; no guaranteed preventability or victim blame. Retain effective name headings except Leopold date scope.",
+    "3.2": "Preserve twelve entries/order. Mark Peoples Temple duplication; distinguish broad institutional cases from personal enticement; correct Colosseum opening, Crusades attribution, genocide scope, total-culture-erasure and uncounted executions. Explicitly disclose failure to supply twelve independent cases.",
+    "4.1": "Preserve five categories/ten nested arguments. Reject invented criticism and token faults, distinguish unknown fault from protected admiration, relate trust to specific responsibilities and add observable correction example.",
+    "4.2": "Preserve three benefits/three qualifications and proposed reformulation. Make criticism evidence-based; do not net serious wrongdoing against unrelated merits; retain room for respect and specific disagreement.",
+    "5.1": "Restore ten questions/ten end answers. Correct Jonestown framing, Nicholas chronology and overly broad Sudan question; replace natural-tendency tautology and accountability guarantee. All pairs read together.",
+    "5.2": "Restore ten questions/ten end answers. Repair question requiring missing options as a direct question, qualify reliance and bias prevention; remaining items retained and all keys checked.",
+    "6.1": "Restore fifteen questions, fourteen verbatim. Replace hindsight presumption with information/coercion inquiry. Other questions remain relevant and invite evaluation rather than predetermined answers.",
+    "6.2": "Restore fifteen questions, fourteen verbatim. Replace assumed necessity of blind trust with defensible expertise/safeguards question; retain remaining discussion progression."
+  },
+  "orderedListStarts": {
+    "2.1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "4.1": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}

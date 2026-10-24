@@ -4,10 +4,10 @@
   "startIndex": 100,
   "endIndexExclusive": 150,
   "candidateWordPressOriginals": 49,
-  "fullyReviewed": 34,
-  "pendingFullReview": 16,
+  "fullyReviewed": 36,
+  "pendingFullReview": 14,
   "sourceBlocked": 0,
-  "limitation": "Thirty-four entries have substantive review and source verification; sixteen remain pending. No batch advancement. Decision-Making restores both model tracks, six prompts, twenty quiz/answer pairs and thirty discussion questions, with decision-timing and accountability corrections. Strong Leaders source has been read but is not editorially complete. Prior page-specific limitations remain effective.",
+  "limitation": "Thirty-six entries have substantive review and source verification; fourteen remain pending. No batch advancement. Strong Leaders and Co-opted Wonders reviewed this run; page-specific source scopes and limitations are recorded in their verification files. Earlier page-specific limitations remain effective.",
   "pages": [
     {
       "pagePath": "/philosophers/philosopher-club-membership/",
@@ -896,7 +896,7 @@
       "pagePath": "/philosophical-inquiry/dangers-strong-leaders/",
       "pageTitle": "Dangers: Strong Leaders",
       "queueIndex": 135,
-      "status": "pending-full-review",
+      "status": "reviewed-verified",
       "wordpressId": 6064,
       "sourceUrl": "http://byteseismic.com/2024/04/11/dangers-strong-leaders/",
       "sourceTitle": "Dangers: Strong Leaders",
@@ -914,21 +914,17 @@
       ],
       "wordCount": 5030,
       "fullSourceRead": true,
-      "editorialReviewComplete": false,
+      "editorialReviewComplete": true,
       "sourceReadAt": "2026-10-23T13:08:34.082317+00:00",
-      "preliminaryConcerns": [
-        "Do not treat coercion and blocked exit as free admiration or blame victims for failing to foresee atrocities.",
-        "Bound historical responsibility and chronology; distinguish institutional authority from charisma.",
-        "Twelve entries per historical response need individual verification; repeated Peoples Temple material must not be mistaken for independent examples.",
-        "Repair quizzes that supply no options and overstate Nicholas II causal responsibility.",
-        "Preserve faults-of-admired-person challenge without demanding invented criticisms or trivial-fault tokenism."
-      ]
+      "reviewedAt": "2026-10-24T13:22:56.830861+00:00",
+      "verification": "quality/original-source-revisions/dangers-strong-leaders-verification-2026-10-24.json",
+      "revisionConfig": "quality/original-source-revisions/dangers-strong-leaders-edits.json"
     },
     {
       "pagePath": "/philosophical-inquiry/dangers-co-opted-wonders/",
       "pageTitle": "Dangers: Co-opted Wonders",
       "queueIndex": 136,
-      "status": "pending-full-review",
+      "status": "reviewed-verified",
       "wordpressId": 6661,
       "sourceUrl": "http://byteseismic.com/2024/04/19/dangers-co-opted-wonders/",
       "sourceTitle": "Dangers: Co-opted Wonders",
@@ -944,8 +940,11 @@
         "Provide 15 discussion questions relevant to the content above. "
       ],
       "wordCount": 4301,
-      "fullSourceRead": false,
-      "editorialReviewComplete": false
+      "fullSourceRead": true,
+      "editorialReviewComplete": true,
+      "reviewedAt": "2026-10-24T13:22:56.830861+00:00",
+      "verification": "quality/original-source-revisions/dangers-co-opted-wonders-verification-2026-10-24.json",
+      "revisionConfig": "quality/original-source-revisions/dangers-co-opted-wonders-edits.json"
     },
     {
       "pagePath": "/philosophical-inquiry/dangers-half-searches/",
@@ -1288,6 +1287,6 @@
       "editorialReviewComplete": false
     }
   ],
-  "updatedAt": "2026-10-23T13:08:34.082317+00:00",
+  "updatedAt": "2026-10-24T13:22:56.830861+00:00",
   "recordedAt": "2026-10-23T13:08:34.082317+00:00"
 }
