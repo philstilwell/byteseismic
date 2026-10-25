@@ -1,0 +1,232 @@
+{
+  "pagePath": "/philosophical-inquiry/dangers-half-searches/",
+  "sourceSha256": "64d0fa859dd181526aeef1539dc505fc609154331d4d0e27b742f074fd551cf3",
+  "originalPrompts": 5,
+  "originalHeadings": 5,
+  "sourceColumns": 10,
+  "modelResponses": 10,
+  "blocksRetainedVerbatim": 77,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 84,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "1.1.ol original list counts": [
+      5
+    ],
+    "1.2.ul original list counts": [
+      3,
+      3
+    ],
+    "2.1.ol original list counts": [
+      7
+    ],
+    "2.2.ul original list counts": [
+      3,
+      2,
+      2,
+      4
+    ],
+    "3.1.ol original list counts": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "3.1.ul original list counts": [
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "3.2.ol original list counts": [
+      5
+    ],
+    "4.1.ol original list counts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      7
+    ],
+    "4.1.ul original list counts": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "4.2.ol original list counts": [
+      7,
+      7
+    ],
+    "5.1.ol original list counts": [
+      15
+    ],
+    "5.2.ol original list counts": [
+      5,
+      5,
+      5
+    ]
+  },
+  "sha256": "6fd40af06e6256d42ffdcf79b23d9cbad6b88d920427e42174fce359086059f2",
+  "recordedAt": "2026-10-25T13:20:41.592755+00:00",
+  "fullSourceRead": true,
+  "fullPreviousEditionRead": true,
+  "source": {
+    "cache": ".cache/byteseismic-posts-with-content.json",
+    "cacheSha256": "632a713e5539d66a4dd778a482fa0da0eaa6131dd077bc3d02f5e766c88b8344",
+    "wordpressId": 5676,
+    "title": "Dangers: Half-Searches",
+    "url": "http://byteseismic.com/2024/04/08/dangers-half-searches/",
+    "urlTitlePromptMatch": true,
+    "modelLogoOrder": [
+      "ChatGPT",
+      "Gemini"
+    ],
+    "snapshot": "dangers-half-searches-wordpress-5676.html",
+    "kind": "Original WordPress conversation"
+  },
+  "responseDecisions": {
+    "1.1": "Retain five-part progression and effective hope paragraph. Distinguish proposed/established truth, evidence/desirability, revisable belief/changing past facts; prevent the critique itself becoming an appeal to bad consequences. Add bridge and explicit contrary-evidence tests.",
+    "1.2": "Retain three reasons, hope paragraph and three practices. Qualify complete-knowledge promise and legitimate rejection, strengthen the final practice with controllable outcomes and a project-safety illustration.",
+    "2.1": "Retain seven mechanisms in order. Separate fallacy from practical reasoning, distinguish confirmation/directional goals, loss/risk aversion, belief/public assent and sunk/future costs. Bound optimism and closure claims. Primary-text support limited to Kunda opening and prospect-theory opening.",
+    "2.2": "Retain original three influences, two uses, two misuses and four habits. Remove unsupported evolutionary and automatic neurochemical story; keep useful anticipation distinct from the fallacy. Make all four practices operational and include costs of precaution.",
+    "3.1": "Preserve five named scenarios and paired scenario/consequence structure. Label hypothetical, remove unsupported death counts, deterministic single-country climate claims and general hurricane-frequency assertion. Distinguish illustrative finance mechanism from full 2008 history and specify documented security weakness.",
+    "3.2": "Preserve five original scenario types/order. Explain Ponzi mechanism, qualify cracks/threat intelligence, reject automatic military escalation and identify every example as hypothetical. Retain devastating possible outcomes without certainty.",
+    "4.1": "Restore seven multiple-choice items/four options each and seven end answers. Correct reversed realism option/key, make financial question unambiguous, align climate item and fallacy definition with revised responses; all pairs read together.",
+    "4.2": "Restore seven open questions/seven end answers. Replace erroneous evolutionary/fight-or-flight premises, distinguish motivation/action from evidential inference, remove complete-knowledge promise; all pairs read together.",
+    "5.1": "Restore fifteen discussion questions; thirteen retained verbatim. Distinguish accuracy/directional goals and replace sweeping regulation-lag premise with an open comparison.",
+    "5.2": "Restore three five-question groups with continuous numbering 1–15. Eleven questions retained verbatim; repair dishonest-rejection presupposition and three prompts conflating practical consequence reasoning with the fallacy."
+  },
+  "originalPromptTexts": [
+    "Is it epistemically honest to reject all proposed truths that do not align with human hopes?",
+    "Expand on the control this appeal to consequences has over the human mind.",
+    "Provide 5 scenarios in which a rejection of all proposed negative possibilities could lead to devastating results.",
+    "Create a 7-item quiz on the entire thread above.",
+    "Provide 15 discussion questions relevant to the content above. "
+  ],
+  "requestedCounts": {
+    "scenarios": [
+      5,
+      5
+    ],
+    "quizzes": [
+      7,
+      7
+    ],
+    "answerKeys": [
+      7,
+      7
+    ],
+    "discussionQuestions": [
+      15,
+      15
+    ],
+    "discussionQuestionsRetainedVerbatim": 24
+  },
+  "originalIllustration": {
+    "sourceRetained": true,
+    "position": "After original prompt 1, before both responses",
+    "browserLoadedNaturalWidth": 888,
+    "newImageGenerated": false
+  },
+  "negativeControls": {
+    "tests": 7,
+    "allRejected": true,
+    "cases": [
+      {
+        "removed": ".original-prompt-text",
+        "rejected": true
+      },
+      {
+        "removed": "#prompt-2 .original-response[data-source-column=\"2\"]",
+        "rejected": true
+      },
+      {
+        "removed": "#prompt-3 [data-source-node=\"3.1.15\"]",
+        "rejected": true
+      },
+      {
+        "removed": "#prompt-4 [data-source-node=\"4.1.44\"]",
+        "rejected": true
+      },
+      {
+        "removed": "#prompt-5 [data-source-node=\"5.2.17\"]",
+        "rejected": true
+      },
+      {
+        "removed": "[data-source-preamble] img",
+        "rejected": true
+      },
+      {
+        "swapped": "first two prompts",
+        "rejected": true
+      }
+    ]
+  },
+  "research": [
+    {
+      "url": "https://www.craiganderson.org/wp-content/uploads/caa/Classes/~SupplementalReadings/Attribu-Decision-Explanation/90Kunda-motivated-reasoning.pdf",
+      "scope": "Read abstract and opening first-page paragraphs of Kunda (1990), including directional/accuracy goal distinction, apparently reasonable justification constraint and debate about cognitive versus motivational explanations. Not a full review or replication audit."
+    },
+    {
+      "url": "https://web.mit.edu/curhan/www/docs/Articles/15341_Readings/Behavioral_Decision_Theory/Kahneman_Tversky_1979_Prospect_theory.pdf",
+      "scope": "Read abstract and opening introduction/risk-aversion definition and questionnaire-method passages. Supports qualified distinction between loss weighting and risk preference; not a universal human or neural mechanism claim."
+    },
+    {
+      "url": "https://www.ipcc.ch/report/ar6/wg1/chapter/summary-for-policymakers/",
+      "scope": "Official indexed excerpt distinguishes major-storm proportion from all-category frequency; direct page returned 403. Removed unsupported general hurricane-frequency assertion; no quantitative forecast added."
+    }
+  ],
+  "browser": {
+    "viewports": [
+      [
+        1280,
+        720
+      ],
+      [
+        390,
+        844
+      ]
+    ],
+    "promptLinkToQuizPassed": true,
+    "desktopQuizLayoutInspected": true,
+    "mobileQuizLayoutInspected": true,
+    "documentHorizontalOverflow": false,
+    "questionNumbering": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "discussionGroupStarts": [
+      1,
+      6,
+      11
+    ],
+    "sourceIllustrationLoaded": true,
+    "consoleLimitation": "Local-preview Cloudflare analytics cross-origin request errors only. No comprehensive accessibility or cross-browser certification."
+  },
+  "limitations": [
+    "No additional original curator correction or dialogue beyond the five prompt/response exchanges occurs in this source.",
+    "Ten scenarios are hypothetical possibilities, not forecasts, historical reconstructions or specific medical, investment or military instructions.",
+    "Research reading scope is explicitly bounded; no full literature review, universal psychological mechanism or automatic evolutionary explanation claimed.",
+    "Original illustration preserved and browser-loaded; no newly generated image."
+  ],
+  "isolatedFullBuildPreservedPage": true
+}

@@ -4,10 +4,10 @@
   "startIndex": 100,
   "endIndexExclusive": 150,
   "candidateWordPressOriginals": 49,
-  "fullyReviewed": 36,
-  "pendingFullReview": 14,
+  "fullyReviewed": 37,
+  "pendingFullReview": 13,
   "sourceBlocked": 0,
-  "limitation": "Thirty-six entries have substantive review and source verification; fourteen remain pending. No batch advancement. Strong Leaders and Co-opted Wonders reviewed this run; page-specific source scopes and limitations are recorded in their verification files. Earlier page-specific limitations remain effective.",
+  "limitation": "Thirty-seven entries have substantive review and source verification; thirteen remain pending. No batch advancement. Half-Searches reviewed this run; per-response decisions, source scopes and limitations are recorded in its verification file. All prior page-specific limitations remain effective.",
   "pages": [
     {
       "pagePath": "/philosophers/philosopher-club-membership/",
@@ -950,7 +950,7 @@
       "pagePath": "/philosophical-inquiry/dangers-half-searches/",
       "pageTitle": "Dangers: Half-Searches",
       "queueIndex": 137,
-      "status": "pending-full-review",
+      "status": "reviewed-verified",
       "wordpressId": 5676,
       "sourceUrl": "http://byteseismic.com/2024/04/08/dangers-half-searches/",
       "sourceTitle": "Dangers: Half-Searches",
@@ -966,8 +966,11 @@
         "Provide 15 discussion questions relevant to the content above. "
       ],
       "wordCount": 3801,
-      "fullSourceRead": false,
-      "editorialReviewComplete": false
+      "fullSourceRead": true,
+      "editorialReviewComplete": true,
+      "reviewedAt": "2026-10-25T13:20:41.592755+00:00",
+      "verification": "quality/original-source-revisions/dangers-half-searches-verification-2026-10-25.json",
+      "revisionConfig": "quality/original-source-revisions/dangers-half-searches-edits.json"
     },
     {
       "pagePath": "/ethics/ethics-core-concepts/",
@@ -1287,6 +1290,6 @@
       "editorialReviewComplete": false
     }
   ],
-  "updatedAt": "2026-10-24T13:22:56.830861+00:00",
-  "recordedAt": "2026-10-23T13:08:34.082317+00:00"
+  "updatedAt": "2026-10-25T13:20:41.592755+00:00",
+  "recordedAt": "2026-10-25T13:20:41.592755+00:00"
 }

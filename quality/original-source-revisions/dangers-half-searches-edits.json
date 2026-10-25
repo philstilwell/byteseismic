@@ -1,0 +1,295 @@
+{
+  "pageFile": "philosophical-inquiry/dangers-half-searches/index.html",
+  "wordpressId": 5676,
+  "snapshot": "dangers-half-searches-wordpress-5676.html",
+  "sourceSha256": "64d0fa859dd181526aeef1539dc505fc609154331d4d0e27b742f074fd551cf3",
+  "sourceUrl": "http://byteseismic.com/2024/04/08/dangers-half-searches/",
+  "sourceLabel": "Original WordPress post, 2024-04-08",
+  "shellRevision": "afb78325fc40483210f33df7a4a1d140db46c498",
+  "date": "2026-10-25",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "Letting an unwelcome answer remain possible",
+    "How desired consequences can distort a search",
+    "Five risk scenarios from each response",
+    "Two seven-question quizzes with answers",
+    "Fifteen discussion questions from each response"
+  ],
+  "introHeading": "When hope limits which answers we allow",
+  "intro": "This conversation asks what happens when an inquiry admits reassuring answers but rules out unwelcome ones in advance. The five original prompts, both response tracks, opening illustration, scenario lists, quizzes and discussion questions remain in place. The edited responses distinguish a claim’s evidence from its emotional consequences and distinguish responsible preparation from believing every alarming possibility.",
+  "description": "Examine how hope can narrow inquiry, distinguish evidence from desired consequences, and consider ten risk scenarios, two quizzes and discussion questions.",
+  "highlights": [
+    "A proposed truth still needs evidence, whether reassuring or disturbing.",
+    "Rejecting a claim because it would be unwelcome restricts the search in advance.",
+    "Consequences matter when choosing actions; desirability alone does not establish facts.",
+    "Hope can motivate preparation without dictating a verdict.",
+    "A serious risk can merit investigation before it is certain."
+  ],
+  "pageSignals": {
+    "Page form": "Original conversation · editorial edition",
+    "Best for": "separating evidence, hope and risk preparation"
+  },
+  "preambleHeadingIndexes": [
+    0
+  ],
+  "preambleImageOrigins": {
+    "1.0": {
+      "sourceAttribute": "src",
+      "url": "https://byteseismic.wordpress.com/wp-content/uploads/2024/04/hemispheric-search-for-truth.png?w=888",
+      "alt": "Original illustration accompanying the Half-Searches prompt",
+      "maxWidth": "100%"
+    }
+  },
+  "replacements": {
+    "1.1.0": "No. Rejecting every proposed truth solely because it conflicts with our hopes is not an honest search for what is true. A proposed truth is still a claim to assess, not something we must accept merely because someone calls it true. Epistemic honesty means assessing evidence consistently and remaining willing to revise a belief, including a comforting one.",
+    "1.1.1": "<strong>Truth versus Hope:</strong> Wishing that a bridge is sound does not establish that it is sound. Hopes can influence actions and thereby help change a future outcome, but the desire alone does not establish a fact about the present. Equally, an assertion does not become more credible just because it is grim.",
+    "1.1.2": "<strong>Cognitive Bias:</strong> Confirmation bias favors information that supports an existing belief; wishful thinking favors what we want to be true. They can overlap, but a person can also selectively confirm a pessimistic belief. Watch for the asymmetry: accepting a reassuring anecdote while demanding impossible certainty from a well-supported warning.",
+    "1.1.3": "<strong>Moral and Practical Implications:</strong> Dismissing evidence can leave people unprepared for a real problem. Climate risks, for example, must be assessed from observations and defensible projections, not from how convenient a conclusion would be. The possible harm of denial is a reason to take investigation seriously; it is not, by itself, proof that any particular warning is correct.",
+    "1.1.4": "<strong>Complexity of Truth:</strong> What we believe to be true can change when evidence or understanding improves. That does not mean that the same precisely specified past event changes simply because we learn more about it. Honest inquiry can conclude “supported,” “unlikely” or “not yet settled”; it need not force certainty in either an optimistic or a pessimistic direction.",
+    "1.1.6": "Hope can remain a commitment to work toward a better outcome without becoming a rule that the outcome must already be assured. Before investigating, identify what evidence would count against the answer you prefer. If nothing could count, the inquiry has excluded part of its answer space before it begins—the central danger of a half-search.",
+    "1.2.0": "No, if the reason for rejection is simply that the proposed truth would frustrate human hopes. Rejection for lack of evidence or because of strong contrary evidence can be entirely honest. Here’s the distinction:",
+    "1.2.1": "<strong>Epistemic honesty</strong> means seeking an accurate understanding and revising beliefs when the evidence warrants it. It cannot guarantee a complete understanding of the world, but excluding inconvenient possibilities in advance makes correction harder.",
+    "1.2.8": "If good evidence conflicts with a hope, distinguish what is already the case from what your actions might still change. Adjust the expectation without assuming that every worthwhile goal has disappeared.",
+    "1.2.9": "Taking an unwelcome possibility seriously does not require accepting it immediately. It requires giving the evidence a fair hearing. For example, investigate a credible warning about a project’s safety rather than deciding that the project must be safe because cancellation would be painful.",
+    "2.1.0": "An appeal to consequences becomes a fallacy when the desirability of a claim—or of believing it—is treated as evidence that the claim is true or false. “If the report is right, our plans are ruined; therefore the report is wrong” skips the evidence. Considering likely consequences when choosing what to do is different and often necessary. The pressure to avoid a painful conclusion can influence a search through several overlapping processes; these are possible influences, not a diagnosis of everyone who disagrees:",
+    "2.1.1": "<strong>Motivated Reasoning:</strong> A desired conclusion can influence which memories, explanations and objections a person uses. <a href=\"https://www.craiganderson.org/wp-content/uploads/caa/Classes/~SupplementalReadings/Attribu-Decision-Explanation/90Kunda-motivated-reasoning.pdf\">Ziva Kunda’s 1990 review</a> distinguishes seeking accuracy from seeking a preferred conclusion and emphasizes the constraint of finding seemingly reasonable justifications. Someone may sincerely scrutinize an unwanted report harder than a welcome one; the problem need not involve conscious lying.",
+    "2.1.2": "<strong>Confirmation Bias:</strong> Search, interpretation and recall can favor an existing belief. This does not always require a desired outcome: people can defend a frightening expectation too. In a half-search, the relevant pattern is selective treatment of evidence that protects the preferred answer.",
+    "2.1.3": "<strong>Fear of Negative Outcomes:</strong> Losing status, security or a cherished expectation can make a conclusion hard to face. That broad concern should not be equated with loss aversion, the more specific tendency for losses to weigh more heavily than comparable gains relative to a reference point. <a href=\"https://web.mit.edu/curhan/www/docs/Articles/15341_Readings/Behavioral_Decision_Theory/Kahneman_Tversky_1979_Prospect_theory.pdf\">Kahneman and Tversky’s prospect theory</a> also describes risk-seeking choices in some loss situations; it does not show that humans always avoid risk or reject bad news.",
+    "2.1.4": "<strong>Social and Cultural Pressures:</strong> Accepting or expressing a claim may threaten belonging, employment or standing. Such pressures can affect what someone investigates or says publicly. Private belief and public agreement may diverge; silence under pressure does not establish that someone privately believes the comforting account.",
+    "2.1.5": "<strong>Sunk Cost Fallacy:</strong> Time, money or emotional effort already spent can tempt someone to defend a failing commitment. Past investment does not prove the belief true or make further investment worthwhile. Genuine future costs of changing course still matter to the decision; they should be weighed separately from the wish that the past expense had been justified.",
+    "2.1.6": "<strong>Optimism Bias:</strong> A person may underestimate their risk or judge themselves safer than comparable others without adequate grounds. A lower risk estimate is not automatically biased: relevant differences may support it. The warning sign is dismissing unfavorable evidence merely because “that happens to other people.”",
+    "2.1.7": "<strong>The Need for Cognitive Closure:</strong> Wanting a definite answer can make uncertainty uncomfortable. Settling on a reassuring explanation may end that discomfort before the evidence warrants closure. But closure can also favor a bleak answer; the issue is premature finality, not optimism alone.",
+    "2.1.8": "These processes can make a selective search feel thorough: many reasons are considered, but only within a protected range of conclusions. One practical check is to write down the evidence required for each rival explanation before learning which explanation it favors. This does not eliminate bias, but it makes later changes in standards easier to notice.",
+    "2.2.0": "Consequences matter to human goals, so a claim that threatens those goals can be difficult to examine calmly. That does not mean the mind is controlled by a single mechanism. Separate the useful ability to anticipate consequences from the faulty inference that an unwanted claim must be false.",
+    "2.2.1": "<strong>Evolutionary Advantage:</strong> Responding to credible danger can plainly be useful. A story about ancestors surviving animal attacks illustrates that usefulness, but it does not establish an evolutionary history of the appeal-to-consequences fallacy. Taking precautions because a threat is possible differs from deciding that a threat exists merely because its consequences would be severe.",
+    "2.2.2": "<strong>The Threat Response:</strong> Frightening information may narrow attention, provoke avoidance or prompt further investigation. Those are different possible reactions, not a guaranteed fight-or-flight sequence in every disagreement. The relevant question here is whether the reaction changes how evidence is assessed.",
+    "2.2.3": "<strong>Confirmation Bias:</strong> A person can notice supporting reports and discount contrary ones while feeling that both were considered. Ask whether a reassuring claim and an alarming claim face comparable demands for reliability, rather than treating either emotional direction as automatically trustworthy.",
+    "2.2.4": "Attention to consequences can also serve legitimate purposes without committing the fallacy:",
+    "2.2.5": "<strong>Motivational Tool:</strong> Evidence of a preventable harm can give someone a reason to change behavior. For example, a credible building inspection may motivate repairs. The evidence supports the risk assessment; concern about the consequences motivates the response. Neither substitutes for the other.",
+    "2.2.6": "<strong>Risk Assessment:</strong> Choosing an action requires considering possible outcomes, their likelihood, their severity and the costs of precautions. Taking a low-cost precaution need not imply certainty that a disaster will occur. Conversely, a frightening possibility alone does not justify every proposed intervention.",
+    "2.2.7": "The fallacy appears when consequences are used as substitutes for evidence:",
+    "2.2.8": "<strong>Propaganda:</strong> A message may claim that accepting an opponent’s factual argument would destroy a valued way of life, then treat that threat as a refutation. Ask whether the alleged consequence is established and whether it bears on the truth of the original claim. A documented warning is not propaganda merely because it is alarming.",
+    "2.2.9": "<strong>Confirmation Bias Trap:</strong> Listing only favorable outcomes can conceal a plan’s risks. Listing only frightening outcomes can distort the comparison too. Examine the evidence for each scenario and compare feasible alternatives, including the consequences of doing nothing.",
+    "2.2.11": "<strong>Be Aware of Your Biases:</strong> Name the answer you want and the answer you fear. Awareness alone is insufficient; state what evidence would make you reconsider either.",
+    "2.2.12": "<strong>Seek Out Diverse Perspectives:</strong> Look for informed disagreement and relevant contrary evidence. Diversity of views is useful for finding omissions, but it does not require giving unsupported assertions equal weight.",
+    "2.2.13": "<strong>Evaluate Evidence, Not Just Emotions:</strong> Examine the source, methods and competing explanations. An emotion can draw attention to a question without settling its answer; confidence and dread are not measurements of reliability.",
+    "2.2.14": "<strong>Consider Long-Term Consequences:</strong> Compare short- and long-term effects when deciding what to do. Keep that decision distinct from whether the factual claim is supported. Long-term comfort cannot make a false statement true any more than immediate comfort can.",
+    "2.2.15": "A useful discipline is to ask two questions separately: “What does the evidence support?” and “Given that assessment and our values, what should we do?” Hope belongs naturally in the goals of the second question; it must not predetermine the answer to the first.",
+    "3.1.0": "These five hypothetical scenarios illustrate how refusing to examine an unwelcome possibility can leave people exposed. They are not predictions or claims that every warning is accurate. In each case, the failure is to dismiss evidence because of what accepting it would mean:",
+    "3.1.2": "<strong>Scenario:</strong> Officials receive credible reports of a spreading infection but reject further investigation because acknowledging an outbreak would disrupt an important public event.",
+    "3.1.3": "<strong>Possible consequence:</strong> Delay in checking the reports and preparing medical capacity allows a preventable surge to overwhelm care. The appropriate response depends on the disease and evidence; this hypothetical does not prescribe travel restrictions or any other measure for every outbreak.",
+    "3.1.5": "<strong>Scenario:</strong> A government discounts well-supported climate-risk assessments because the implications conflict with its growth plans. It refuses to compare emissions reductions and adaptation options on their costs and likely benefits.",
+    "3.1.6": "<strong>Possible consequence:</strong> Continued emissions contribute to warming while inadequate adaptation leaves communities more exposed to heat, flooding or other assessed local hazards. Exact losses depend on exposure, vulnerability and policy choices; they do not follow from a single country’s disbelief alone.",
+    "3.1.8": "<strong>Scenario:</strong> Financial institutions and regulators dismiss credible evidence of concentrated exposure and fragile funding because they assume a serious crisis cannot recur.",
+    "3.1.9": "<strong>Possible consequence:</strong> A shock triggers losses and funding failures that spread through connected institutions, damaging jobs, savings and access to credit. This is a hypothetical mechanism, not a complete explanation of the 2008 crisis or a prediction that every regulatory failure has this result.",
+    "3.1.11": "<strong>Scenario:</strong> Coastal officials dismiss evidence about flood exposure and deficiencies in evacuation routes because preparing for a severe storm seems too costly or discouraging. This scenario does not depend on claiming that hurricanes become more frequent everywhere as the climate warms.",
+    "3.1.12": "<strong>Possible consequence:</strong> When a severe storm arrives, avoidable infrastructure failures and delayed evacuation increase injury, displacement and damage. Preparation cannot remove all risk, but refusing to assess it can leave preventable vulnerabilities in place.",
+    "3.1.14": "<strong>Scenario:</strong> A technology company and its overseers ignore a documented weakness in the handling of sensitive personal data because acknowledging it would delay a profitable launch.",
+    "3.1.15": "<strong>Possible consequence:</strong> Attackers exploit the weakness, exposing people to fraud, harassment or other harm. Reviewing access, retention and security could reduce exposure; neither regulation nor technical safeguards promise perfect prevention.",
+    "3.1.16": "In each example, the uncomfortable prospect should trigger proportionate assessment rather than automatic belief or automatic dismissal. Ask how credible the warning is, what further investigation can resolve and which precautions are justified while uncertainty remains. The potential damage explains why the question matters; evidence determines which answer is warranted.",
+    "3.2.0": "<strong>Ignoring Disease Warnings:</strong> In a hypothetical village, an elder dismisses credible reports of a contagious illness because investigating them would disrupt the harvest festival. If the warning is accurate, continued contact without appropriate precautions could spread illness beyond the community’s capacity to care for people. The festival’s value is not evidence that the reports are false.",
+    "3.2.1": "<strong>Ignoring Structural Issues:</strong> A construction company dismisses engineers’ concerns about foundation cracks to protect its schedule and budget. If the cracks indicate a serious defect, continued construction or later occupation could expose people to collapse. Not every crack signals imminent failure; qualified assessment is precisely what the company should not rule out.",
+    "3.2.2": "<strong>Financial Recklessness:</strong> An investor ignores credible questions about an investment’s cash flows because its promised returns would solve pressing financial problems. In this hypothetical case it is a Ponzi scheme, which uses later investors’ money to pay earlier investors. Its collapse could destroy savings; the investor’s need for the return offers no evidence that the underlying business is sound.",
+    "3.2.3": "<strong>Ignoring Environmental Threats:</strong> A coastal town rejects evidence of local flood exposure and rising sea level because it fears discouraging tourists. If it postpones needed preparation, later flooding could damage property and displace residents. The appropriate response depends on local conditions; protecting the town’s image does not establish its safety.",
+    "3.2.4": "<strong>Underestimating Military Threats:</strong> Leaders dismiss credible intelligence about a neighboring state’s capabilities because they assume their own strength guarantees safety. If the warning concerns a real threat, the resulting lack of preparation could be disastrous. Intelligence can also be mistaken or manipulated: independent evaluation and proportionate defensive planning are warranted, not automatic escalation or war.",
+    "3.2.5": "All five are hypothetical illustrations of the same omission: the unwelcome possibility is excluded before its evidence is assessed. Treating it seriously can preserve options for investigation, prevention or preparation. It does not require treating the worst case as certain or assuming that precautions are costless.",
+    "4.1.14": "B) Treating the desirability of a claim or belief as evidence of its truth",
+    "4.1.23": "A) It guarantees immediate economic growth",
+    "4.1.25": "C) It can delay justified mitigation and adaptation, increasing exposure to harm",
+    "4.1.28": "A) Investigating the warning and improving justified risk controls",
+    "4.1.29": "B) Treating past crises as proof that another crisis is impossible",
+    "4.1.30": "C) Dismissing evidence of concentrated exposure",
+    "4.1.31": "D) Assuming reassuring returns prove that funding is secure",
+    "4.1.35": "C) It allows evidence-based preparation while preserving useful goals",
+    "4.1.40": "B) Treating the desirability of a claim or belief as evidence of its truth",
+    "4.1.42": "C) It can delay justified mitigation and adaptation, increasing exposure to harm",
+    "4.1.43": "A) Investigating the warning and improving justified risk controls",
+    "4.1.44": "C) It allows evidence-based preparation while preserving useful goals",
+    "4.2.3": "Why does the possible usefulness of reacting to danger not establish an evolutionary explanation of the appeal-to-consequences fallacy?",
+    "4.2.4": "How can threatening information affect inquiry, and why should we avoid assuming one universal response?",
+    "4.2.6": "Give an example of consequences legitimately motivating action without being used as evidence that a factual claim is true.",
+    "4.2.7": "Why should long-term consequences inform decisions without replacing evidence about factual claims?",
+    "4.2.8": "Answers",
+    "4.2.9": "It supports a more accurate and revisable understanding by assessing evidence consistently; it does not guarantee complete knowledge.",
+    "4.2.11": "The usefulness of a precaution does not show how a particular reasoning error evolved. Responding to credible danger also differs from inferring truth from a desired or feared consequence.",
+    "4.2.12": "Threatening information may prompt avoidance, narrowed attention or investigation. The relevant issue is its effect on evidence assessment, not an assumed automatic fight-or-flight sequence.",
+    "4.2.14": "A credible inspection establishes a building defect; concern for occupants then motivates repair. The need to avoid harm does not itself prove the defect exists.",
+    "4.2.15": "Future costs and benefits help compare actions. They do not make an unsupported claim true simply because believing it would produce a welcome long-term result.",
+    "5.1.2": "Discuss how the desire for accuracy differs from the desire to reach a particular conclusion. How might each affect a search for evidence?",
+    "5.1.14": "When a new technology raises privacy or security concerns, how should societies compare evidence of harm, proposed safeguards and the benefits of innovation?",
+    "5.2.1": "When is rejecting or withholding judgment on a proposed truth consistent with epistemic honesty, even if the claim would be unwelcome?",
+    "5.2.4": "How can the consequences of misinformation motivate careful inquiry without being treated as proof that a particular claim is false?",
+    "5.2.8": "Some moral theories give consequences a central role in judging actions. Why is that different from judging a factual claim true because its consequences would be desirable?",
+    "5.2.16": "How can public campaigns explain the likely consequences of actions without manipulating audiences into treating fear or hope as evidence?",
+    "4.1.7": "Which term most directly names processing information toward a desired conclusion?",
+    "4.1.12": "What makes an appeal to consequences fallacious when assessing a factual claim?",
+    "4.1.22": "In the climate-policy scenario, what is the central danger of dismissing credible risk assessments?",
+    "4.1.27": "Which response would address, rather than exemplify, the financial-regulation failure described above?"
+  },
+  "leadingTextReplacements": {},
+  "countChecks": [
+    {
+      "name": "1.1.ol original list counts",
+      "selector": "#prompt-1 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        5
+      ]
+    },
+    {
+      "name": "1.2.ul original list counts",
+      "selector": "#prompt-1 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "2.1.ol original list counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        7
+      ]
+    },
+    {
+      "name": "2.2.ul original list counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        3,
+        2,
+        2,
+        4
+      ]
+    },
+    {
+      "name": "3.1.ol original list counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "3.1.ul original list counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"1\"] ul",
+      "child": "li",
+      "expected": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "3.2.ol original list counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        5
+      ]
+    },
+    {
+      "name": "4.1.ol original list counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        7
+      ]
+    },
+    {
+      "name": "4.1.ul original list counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"1\"] ul",
+      "child": "li",
+      "expected": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "4.2.ol original list counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        7,
+        7
+      ]
+    },
+    {
+      "name": "5.1.ol original list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    },
+    {
+      "name": "5.2.ol original list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "orderedListStarts": {
+    "3.1": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "4.1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      1
+    ],
+    "5.2": [
+      1,
+      6,
+      11
+    ]
+  },
+  "responseReviewDecisions": {
+    "1.1": "Retain five-part progression and effective hope paragraph. Distinguish proposed/established truth, evidence/desirability, revisable belief/changing past facts; prevent the critique itself becoming an appeal to bad consequences. Add bridge and explicit contrary-evidence tests.",
+    "1.2": "Retain three reasons, hope paragraph and three practices. Qualify complete-knowledge promise and legitimate rejection, strengthen the final practice with controllable outcomes and a project-safety illustration.",
+    "2.1": "Retain seven mechanisms in order. Separate fallacy from practical reasoning, distinguish confirmation/directional goals, loss/risk aversion, belief/public assent and sunk/future costs. Bound optimism and closure claims. Primary-text support limited to Kunda opening and prospect-theory opening.",
+    "2.2": "Retain original three influences, two uses, two misuses and four habits. Remove unsupported evolutionary and automatic neurochemical story; keep useful anticipation distinct from the fallacy. Make all four practices operational and include costs of precaution.",
+    "3.1": "Preserve five named scenarios and paired scenario/consequence structure. Label hypothetical, remove unsupported death counts, deterministic single-country climate claims and general hurricane-frequency assertion. Distinguish illustrative finance mechanism from full 2008 history and specify documented security weakness.",
+    "3.2": "Preserve five original scenario types/order. Explain Ponzi mechanism, qualify cracks/threat intelligence, reject automatic military escalation and identify every example as hypothetical. Retain devastating possible outcomes without certainty.",
+    "4.1": "Restore seven multiple-choice items/four options each and seven end answers. Correct reversed realism option/key, make financial question unambiguous, align climate item and fallacy definition with revised responses; all pairs read together.",
+    "4.2": "Restore seven open questions/seven end answers. Replace erroneous evolutionary/fight-or-flight premises, distinguish motivation/action from evidential inference, remove complete-knowledge promise; all pairs read together.",
+    "5.1": "Restore fifteen discussion questions; thirteen retained verbatim. Distinguish accuracy/directional goals and replace sweeping regulation-lag premise with an open comparison.",
+    "5.2": "Restore three five-question groups with continuous numbering 1–15. Eleven questions retained verbatim; repair dishonest-rejection presupposition and three prompts conflating practical consequence reasoning with the fallacy."
+  }
+}
