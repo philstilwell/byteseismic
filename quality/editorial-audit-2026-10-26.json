@@ -1,0 +1,86 @@
+{
+  "recordedAt": "2026-10-26T13:21:36.111716+00:00",
+  "savedModel": "gpt-6-astra",
+  "savedReasoningEffort": "high",
+  "runtimeModelIdentity": "Not independently verified",
+  "cycle": 8,
+  "currentBatchStart": 100,
+  "currentBatchEndExclusive": 150,
+  "newPagesReviewed": 1,
+  "newPagePaths": [
+    "/ethics/ethics-core-concepts/"
+  ],
+  "currentBatchReviewed": 38,
+  "currentBatchPending": 12,
+  "sourceBlocked": 0,
+  "restartedPassSubstantivelyReviewed": 138,
+  "restartedPassNotYetReviewed": 208,
+  "officialCompletedBatchPages": 100,
+  "officialRemainingPages": 246,
+  "trackerAdvanced": false,
+  "nextPendingPage": "/philosophy-of-language/gradient-concepts-and-binary-terms/",
+  "followingBatch": "Index 150, What are Ethics?; inactive",
+  "originalSource": {
+    "url": "http://byteseismic.com/2024/03/12/ethics-core-concepts/",
+    "kind": "Full cached original WordPress post",
+    "readingScope": "Entire post content including highlights, seven prompts, fourteen response columns, quizzes, answers, discussion lists, model-logo order and footer navigation. Exact URL, title, prompt sequence and SHA256 matched inventory.",
+    "wordpressId": 3285,
+    "snapshot": "ethics-core-concepts-wordpress-3285.html",
+    "sha256": "defe1d9d6d613457baee6234eb42158bbf2c3c7ccc65d9268cc1b16d777ce9cc"
+  },
+  "responseDecisions": {
+    "1.1": "Read all 31 original definitions; retain order and effective definitions. Correct deontology, relativism/objectivity, contracts, natural law, subjectivism/noncognitivism, pragmatism and nihilism. Preserve stewardship as an explicitly labeled supplementary paragraph after the requested thirty items, never delete its source node.",
+    "1.2": "Retain all thirty entries, including the curator-relevant anti-realist term. Correct majority-count utilitarianism, verity/veracity, moral distress, informed consent, professional codes and dilemmas. Preserve concise effective definitions rather than expanding every item.",
+    "2.1": "Retain nine concepts and explanatory progression; distinguish normative standards/metaethical status/applied inquiry. Add wallet example within the concluding response, with contractual agreement and absolutism/objectivity qualifications.",
+    "2.2": "Retain ten concepts and original introduction/conclusion. Clarify norms versus justification, values, strict dilemmas, rights, consequences and courage versus recklessness.",
+    "3.1": "Retain all original thinker entries and group sequence; repair ancient and late-antique date ranges, Bentham period, Kant and Moore invention claims, Epicurus and Augustine summaries, and update MacIntyre lifespan. State selective European scope and continuing disputes.",
+    "3.2": "Retain nested timeline and thinker order. Correct Socrates/Aristotle dates, Buddha/karma invention claim and date uncertainty, Machiavelli anachronism, Emmanuel Levinas name, Moore/metaethics claim and late-twentieth-century origins. Explicitly flag retained Mill-before-Bentham source order.",
+    "4.1": "Retain all ten areas; eight source entries unchanged. Qualify novelty, AI moral status and concluding practical questions. Treat this as conceptual scope, not current technology performance or ranked trends.",
+    "4.2": "Retain all seven areas; distinguish machine ethics from deployment ethics, technical autonomy from moral agency, established care ethics from a new field. Retain data/global/animal descriptions.",
+    "5.1": "Retain nine entries and source progression. Add missing relativist proponents, qualify Nietzsche/Anscombe associations, distinguish Nussbaum from care-only feminism, replace misleading nihilist exemplar, clarify contracts/Ross/utilitarianism. Explicitly decline unsupported popularity ranking.",
+    "5.2": "Retain five groups and nested proponents. Repair Moore statement, Kant means-only distinction, moral realism knowledge claim and anti-realist taxonomy. Remove invented reference to a missing earlier user prompt; preserved all actual prompts.",
+    "6.1": "Retain seven MCQs with four options and seven end answers. Clarify questions and update nihilism/contract answer pairs; continuous numbering through seven separate source lists. All pairs read together.",
+    "6.2": "Retain seven MCQs with three options and seven end answers. Correct false exclusion of Moore by substituting explicit Ayer emotivism question; revise universality/objectivity confusion. Display choices on separate lines; all answer pairs checked.",
+    "7.1": "Retain twelve discussions and closing paragraph, eight questions verbatim. Correct utilitarian slogan, Kant merely-as-means qualifier, feminist scope and nihilist inference.",
+    "7.2": "Retain twelve discussions, ten verbatim. Correct utilitarian slogan and relativism false dichotomy while preserving practical scenarios and open questions."
+  },
+  "fidelity": {
+    "glossaries": [
+      30,
+      30
+    ],
+    "supplementarySourceTerms": 1,
+    "quizzes": [
+      7,
+      7
+    ],
+    "endAnswerKeys": [
+      7,
+      7
+    ],
+    "discussionQuestions": [
+      12,
+      12
+    ]
+  },
+  "limitations": [
+    "The timelines remain selective: the first mainly European; the companion adds Chinese and Indian traditions but is not a global survey.",
+    "The original timeline order places Mill before Bentham; retained and explicitly labeled as a reversal rather than silently changing source progression.",
+    "The requested most popular schools are presented as prominent examples without inventing survey data or a ranked popularity claim.",
+    "Moral realism and anti-realism are families with contested boundaries; the page states its robust, stance-independent sense and separates normative from metaethical questions.",
+    "The first source glossary has 31 entries. The first 30 remain numbered; Stewardship is retained immediately afterward as a labeled source note with its original node and sequence.",
+    "All prior page limitations and all 35 site-native approvals remain effective. No new original-source blocker.",
+    "Browser checks are desktop/mobile spot checks, not full accessibility, device or cross-browser certification."
+  ],
+  "verification": "quality/original-source-revisions/ethics-core-concepts-verification-2026-10-26.json",
+  "delivery": "Nine explicit files verified and prepared for commit/push; final SHA and remote confirmation recorded in automation memory and final response.",
+  "verificationStatus": "passed",
+  "build": {
+    "exitCode": 0,
+    "contentPages": 723,
+    "pagesAudited": 840,
+    "reviewedPagesPreserved": 138,
+    "repeatedHeadingNotices": 254,
+    "failingCategories": 0
+  }
+}

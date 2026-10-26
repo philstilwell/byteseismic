@@ -1,0 +1,455 @@
+{
+  "pageFile": "ethics/ethics-core-concepts/index.html",
+  "wordpressId": 3285,
+  "snapshot": "ethics-core-concepts-wordpress-3285.html",
+  "sourceSha256": "defe1d9d6d613457baee6234eb42158bbf2c3c7ccc65d9268cc1b16d777ce9cc",
+  "sourceUrl": "http://byteseismic.com/2024/03/12/ethics-core-concepts/",
+  "sourceLabel": "Original WordPress post, March 12, 2024",
+  "shellRevision": "bd008b49695dc30ff92999ba0929e88327bd3693",
+  "date": "2026-10-26",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "Thirty terms from each response",
+    "What the concepts help us distinguish",
+    "Two selective timelines of ethical thought",
+    "New questions within established fields",
+    "Ethical approaches and their proponents",
+    "Two seven-question quizzes with end-position answers",
+    "Twelve discussion questions from each response"
+  ],
+  "introHeading": "Ethical vocabulary, arguments and their history",
+  "intro": "This conversation moves from definitions and explanations to historical developments, emerging questions and major approaches, then tests the distinctions through quizzes and discussion. All seven original prompts and both response tracks remain in order. The edited responses distinguish judgments about conduct from claims about what makes moral judgments true, without assuming that rejecting moral realism ends ethical inquiry.",
+  "description": "Explore ethical terms, theories, historical developments and emerging questions through two response tracks, seven-item quizzes and discussions.",
+  "highlights": [
+    "Ethics examines conduct, motives, ends and the reasons offered for moral judgments.",
+    "Virtue ethics gives character and practical judgment a central role.",
+    "Deontology treats some duties or constraints as more than a calculation of outcomes.",
+    "Utilitarianism evaluates conduct through impartial concern for overall well-being.",
+    "Social contract approaches examine agreement and the justification of shared rules.",
+    "Natural law approaches connect practical reason with accounts of human nature and flourishing."
+  ],
+  "pageSignals": {
+    "Page form": "Original conversation · editorial edition",
+    "Best for": "distinguishing ethical concepts, theories and their historical development"
+  },
+  "replacements": {
+    "1.1.1": "<strong>Morality:</strong> Standards of right and wrong, and the practices and judgments organized around them. The word can describe a group’s actual code or the standards a theory argues are justified; acceptance alone does not establish justification.",
+    "1.1.2": "<strong>Virtue Ethics:</strong> Approaches that give character, cultivated virtues and practical judgment a central role in ethical life. They can consider rules and consequences without treating either as the sole foundation.",
+    "1.1.3": "<strong>Deontology:</strong> Approaches on which duties, rights or constraints help determine what is permissible independently of simply maximizing good consequences. This is not obedience to whatever rules happen to exist.",
+    "1.1.4": "<strong>Consequentialism:</strong> Approaches that ground moral assessment in consequences. Versions differ over which outcomes matter and whether they assess individual acts, rules or other objects.",
+    "1.1.5": "<strong>Utilitarianism:</strong> A family of consequentialist views giving impartial weight to well-being and seeking to maximize it overall. It is not merely a vote for whichever option benefits the largest number.",
+    "1.1.6": "<strong>Categorical Imperative:</strong> Kant’s unconditional principle of morality. Its universal-law formulation asks whether one can will the maxim of one’s action as a universal law; its humanity formulation requires treating persons as ends, never merely as means.",
+    "1.1.7": "<strong>Moral Relativism:</strong> Views on which moral truth or justification is relative to a framework, such as a culture’s standards. The observation that cultures disagree is a separate descriptive claim and does not by itself establish relativism.",
+    "1.1.8": "<strong>Social Contract Theory:</strong> Approaches that explain or justify moral or political arrangements through agreement. The agreement may be hypothetical or idealized; people need not have signed an actual contract.",
+    "1.1.9": "<strong>Natural Law Theory:</strong> Approaches that connect moral requirements with human nature, human goods and practical reason. They do not equate whatever occurs in nature with what ought to happen.",
+    "1.1.11": "<strong>Justice:</strong> The fair treatment of persons, including questions of distribution, rights, procedures and responses to wrongdoing. A law’s existence does not by itself make it just.",
+    "1.1.14": "<strong>Duty:</strong> Something an agent is required to do or refrain from doing. Moral and legal duties can overlap or conflict; identifying a duty requires stating its source and scope.",
+    "1.1.17": "<strong>Normative Ethics:</strong> Inquiry into standards for right action, good character and a good life, including what is required, permitted or admirable.",
+    "1.1.22": "<strong>Moral Subjectivism:</strong> Views that make moral truth depend on subjects’ attitudes. Unlike noncognitivism, a subjectivist theory can treat moral judgments as truth-apt claims; the relevant subject and attitudes must be specified.",
+    "1.1.28": "<strong>Pragmatism:</strong> A philosophical tradition that connects inquiry with practical consequences, experience and revisability. In ethics it encourages testing proposed solutions in lived situations, rather than identifying rightness with whatever is immediately convenient.",
+    "1.1.29": "<strong>Moral Nihilism:</strong> Usually, denial that objective moral values or requirements exist. A moral error theory says ordinary affirmative moral judgments purport to describe such facts but fail. This does not by itself eliminate preferences, compassion or social commitments.",
+    "1.1.30": "<strong>Supplementary source term — Stewardship:</strong> The responsible overseeing and protection of something considered worth caring for and preserving, often related to environmental conservation and ethical management of resources. The original response supplied this thirty-first term; it is retained here after the requested thirty-item list.",
+    "1.2.1": "Here are thirty terms, including moral anti-realism. Some name ethical approaches, some name practical principles, and others name areas of inquiry; they are not thirty competing theories.",
+    "1.2.3": "<strong>Morality:</strong> Standards governing right and wrong conduct, used either to describe a person’s or society’s code or to identify the standards taken to be justified.",
+    "1.2.5": "<strong>Deontological Ethics:</strong> Approaches that give duties or constraints a role not reducible to maximizing good outcomes. Their rules need justification; following an unjust order is not automatically ethical.",
+    "1.2.6": "<strong>Consequentialism:</strong> Approaches that ground moral assessment in consequences, with disagreements about what counts as good and what should be evaluated.",
+    "1.2.7": "<strong>Utilitarianism:</strong> Consequentialist approaches that assess options by their contribution to overall well-being, counting each affected person impartially. A small majority’s gain need not outweigh a minority’s severe loss.",
+    "1.2.11": "<strong>Justice:</strong> Fair treatment and defensible arrangements for rights, resources, procedures and responsibility. Equal respect does not always require identical treatment, as differing needs can matter.",
+    "1.2.13": "<strong>Autonomy:</strong> The capacity or standing to govern one’s choices through reflection rather than coercion or manipulation. In some ethical contexts it also names a right to make those choices.",
+    "1.2.16": "<strong>Verity:</strong> Truth or truthfulness. For the ethical duty of honest communication, “veracity” is the more usual term; it concerns avoiding deception, not merely uttering technically true sentences.",
+    "1.2.18": "<strong>Confidentiality:</strong> The responsibility to protect information entrusted in a relationship or role. Its scope and any justified exceptions must be explained rather than assuming all secrecy is ethical.",
+    "1.2.19": "<strong>Informed Consent:</strong> Voluntary authorization based on adequate understanding of relevant information, including material risks, benefits and alternatives, by a person with the capacity to decide. It does not require knowledge of every imaginable consequence.",
+    "1.2.20": "<strong>Ethical Dilemma:</strong> A conflict between moral requirements. In a strict dilemma, an agent cannot satisfy all applicable requirements; mere uncertainty about the right answer is not sufficient.",
+    "1.2.21": "<strong>Moral Distress:</strong> Distress associated with perceived moral constraints or wrongdoing. In its influential narrower usage, it arises when someone believes they know the right action but is prevented from taking it; broader definitions also exist.",
+    "1.2.24": "<strong>Moral Relativism:</strong> Views that make moral truth or justification relative to a framework, often cultural. Disagreement between cultures does not alone prove that view.",
+    "1.2.29": "<strong>Professional Ethics:</strong> Moral responsibilities associated with a professional role. A written professional code is one expression of these responsibilities, and can itself need criticism or revision.",
+    "2.1.0": "Ethics examines how we should act, what we should value and how such judgments can be justified. The following concepts answer different questions: some offer standards for conduct, others concern the status of moral judgments, and applied ethics names a form of inquiry.",
+    "2.1.1": "<strong>Moral Absolutism:</strong> The view that at least some moral requirements admit no exceptions. Distinguish this from moral objectivity: an objective standard could itself make circumstances relevant.",
+    "2.1.2": "<strong>Moral Relativism:</strong> The view that moral truth or justification depends on a framework such as cultural standards. It goes beyond noticing disagreement. Rejecting exceptionless rules does not force one to become a relativist.",
+    "2.1.3": "<strong>Utilitarianism:</strong> This approach assesses conduct through overall well-being, with impartial consideration of those affected. For example, many tiny conveniences may not compensate for a few people’s profound suffering. Counting beneficiaries alone is not a calculation of utility.",
+    "2.1.4": "<strong>Deontology:</strong> Duties and constraints can limit what we may do even for a beneficial outcome. A promise matters as a commitment to another person, not only as an instrument of social convenience. Deontologists disagree about exceptions and how conflicting duties should be resolved.",
+    "2.1.5": "<strong>Virtue Ethics:</strong> This approach asks what character traits and practical wisdom enable good conduct and a good life. Honesty involves recognizing when and how truthfulness matters; merely labeling an act “what a virtuous person would do” leaves the real explanatory work unfinished.",
+    "2.1.6": "<strong>Ethical Egoism:</strong> The normative view that agents ought to advance their own interests. It is different from the psychological claim that everyone always acts selfishly. Whether self-interest supplies an adequate ethical standard remains disputed.",
+    "2.1.7": "<strong>Social Contract Theory:</strong> Agreement supplies a way to explain or justify shared rules. In hypothetical versions, the question is what people would accept under specified conditions, not whether everyone actually consented. Whose interests count and what makes the conditions fair are central questions.",
+    "2.1.8": "<strong>Natural Law Theory:</strong> These approaches connect practical reason with accounts of human nature and basic human goods. They require an argument about flourishing and obligation, not an inference that whatever is biologically common must be right.",
+    "2.1.10": "Consider returning a lost wallet. Consequences, the owner’s claim and the finder’s honesty illuminate different aspects of the act. Whether any resulting moral judgment reports a stance-independent fact is a further, metaethical question. Agreement on what to do need not settle that question.",
+    "2.2.1": "<strong>Morality:</strong> Beliefs, practices and standards concerning right and wrong. Their social origins help explain how people acquire them; their justification requires further argument.",
+    "2.2.2": "<strong>Values:</strong> What people regard as important, or what a theory argues is worth caring about. These senses can diverge: a society can prize something that a critic judges harmful or unjust.",
+    "2.2.3": "<strong>Norms:</strong> Standards of expected behavior, including formal rules and informal conventions. A widespread norm can still be morally objectionable, so description is not endorsement.",
+    "2.2.4": "<strong>Moral dilemma:</strong> A conflict between moral requirements that cannot all be fulfilled. Uncertainty is different: one may not know what to do even where the requirements are compatible. An apparent dilemma may dissolve when further options become visible.",
+    "2.2.5": "<strong>Consequentialism:</strong> This family grounds moral assessment in consequences. Maximizing versions favor the best outcomes; variants differ over the relevant goods, whose outcomes count and whether acts or rules are assessed.",
+    "2.2.6": "<strong>Deontology:</strong> Duties, rights or constraints can make actions required or forbidden independently of maximizing benefits. The question is which principles are justified, not simply whether an action obeys a pre-existing rule.",
+    "2.2.7": "<strong>Virtue ethics:</strong> Character and practical wisdom guide action. Courage, for example, requires judging which dangers are worth facing; recklessness is not made virtuous by confidence.",
+    "2.2.8": "<strong>Utilitarianism:</strong> This consequentialist family seeks overall well-being with impartial consideration of those affected. It is not simply majority advantage, and disputes about measuring and distributing well-being remain important.",
+    "2.2.9": "<strong>Rights:</strong> Entitlements, claims, liberties or protections attributed to persons or other rights-holders. Moral rights and legally recognized rights need not coincide. A right’s content matters: who has it, against whom, and what does it require?",
+    "3.1.0": "This selective timeline follows the original response’s mainly European sequence. It records prominent contributions rather than claiming that each thinker invented the associated concept. The companion timeline adds Chinese and Indian traditions; neither provides a global history.",
+    "3.1.1": "Ancient Greek Ethics (sixth–fourth centuries BCE)",
+    "3.1.2": "<strong>Pre-Socratic Philosophers:</strong> Discussions of order, character and human life appear alongside cosmological inquiry. Surviving evidence is fragmentary; this is not the beginning of all ethical reflection.",
+    "3.1.3": "<strong>Socrates (c. 470–399 BCE):</strong> In Plato’s dialogues, questions inherited claims about virtue and the good life through examination and argument. Our knowledge is mediated by other authors, not surviving writings by Socrates.",
+    "3.1.4": "<strong>Plato (c. 427–347 BCE):</strong> Explores justice, the ordering of the soul and the Good. His account seeks standards beyond fluctuating opinion, though its interpretation remains debated.",
+    "3.1.7": "<strong>Epicurus (341–270 BCE):</strong> Makes pleasure central to the good life, emphasizing freedom from bodily pain and mental disturbance, prudent desires and friendship. This is not an invitation to unlimited indulgence.",
+    "3.1.9": "Late Antique and Medieval Christian Ethics (fourth–fifteenth centuries CE)",
+    "3.1.10": "<strong>Augustine of Hippo (354–430):</strong> Develops Christian accounts of love, will, sin and grace in conversation with Platonism. Reducing his ethics to obedience to divine commands misses much of that account.",
+    "3.1.13": "<strong>Thomas Hobbes (1588–1679):</strong> In <em>Leviathan</em> (1651), connects peace and political authority with covenants and laws of nature. The argument concerns conditions for secure cooperation, not a claim that any agreement automatically makes its terms right.",
+    "3.1.15": "<strong>Immanuel Kant (1724–1804):</strong> Develops a systematic ethics of duty, autonomy and the categorical imperative, including the <em>Groundwork</em> (1785) and <em>Critique of Practical Reason</em> (1788). He did not originate every duty-based approach.",
+    "3.1.16": "Late Eighteenth- and Nineteenth-Century Ethics",
+    "3.1.19": "<strong>G. E. Moore (1873–1958):</strong> In <em>Principia Ethica</em> (1903), argues that goodness is not definable as a natural or other nonidentical property. He criticizes what he calls the naturalistic fallacy; he does not advocate committing it.",
+    "3.1.21": "<strong>Alasdair MacIntyre (1929–2025):</strong> In <em>After Virtue</em> (1981), criticizes fragmented modern moral discourse and develops an account of virtues through practices, narratives and traditions. He is one contributor to the modern revival of virtue ethics.",
+    "3.1.22": "These developments overlap and remain contested; later approaches do not simply replace earlier ones. The omissions here reflect the original list’s limited scope, not the absence of ethical thought in other traditions.",
+    "3.2.1": "Ancient World (before 500 CE):",
+    "3.2.3": "<strong>Confucius (China):</strong> Emphasizes ren (humaneness), li (ritual propriety) and ethical cultivation in relationships. His tradition offers an account of character and social responsibility distinct from, though comparable with, Greek virtue ethics.",
+    "3.2.4": "<strong>The Buddha (India):</strong> The early Buddhist teachings connect suffering and its cessation with an ethical path, including right speech, action and livelihood. They reinterpret karma through intention; they do not introduce the pre-existing idea of karma for the first time.",
+    "3.2.6": "<strong>Socrates (Greece):</strong> Active in fifth-century Athens and executed in 399 BCE; remembered for critical questioning about virtue and the good life.",
+    "3.2.9": "<strong>Aristotle (Greece; 384–322 BCE):</strong> Develops an account of eudaimonia (human flourishing), virtues, habituation and practical wisdom. His work belongs to the fourth century BCE; he gives the existing Greek idea of flourishing a detailed philosophical treatment.",
+    "3.2.10": "Medieval Era (500–1500 CE):",
+    "3.2.12": "<strong>Thomas Aquinas:</strong> Integrates Aristotelian thought with Christian theology. Natural law involves practical reason’s participation in a divinely ordered account of human goods, rather than merely an implanted feeling of approval.",
+    "3.2.13": "Early Modern Period (1500–1800 CE):",
+    "3.2.15": "<strong>Niccolò Machiavelli:</strong> In <em>The Prince</em>, written in 1513, examines political necessity, power and the tension between effective rule and conventional virtue. “Realpolitik” is a later label; he did not coin it.",
+    "3.2.20": "<strong>Immanuel Kant:</strong> Develops the categorical imperative, including the demand to treat persons as ends and never merely as means. Ordinary cooperation can involve others as means while respecting their agency.",
+    "3.2.21": "<strong>David Hume:</strong> Gives sentiment and sympathy a central role in moral judgment. Reason still informs us about facts, relations and consequences; his account is not simply a license to follow any immediate feeling.",
+    "3.2.22": "Late Eighteenth Century to the Present:",
+    "3.2.24": "<strong>John Stuart Mill:</strong> In <em>Utilitarianism</em> (1861/1863), develops the greatest-happiness approach, including qualitative differences among pleasures. Overall well-being matters, not simply the number of people on a winning side.",
+    "3.2.25": "<strong>Jeremy Bentham:</strong> His <em>Introduction to the Principles of Morals and Legislation</em> (published 1789) develops an influential utility-based approach to conduct and institutions, attending to pleasure and pain across those affected.",
+    "3.2.27": "<strong>G. E. Moore:</strong> <em>Principia Ethica</em> (1903) strongly influences analytic metaethics. Questions about the nature and justification of moral judgments are much older; he did not invent the whole inquiry.",
+    "3.2.28": "<strong>Emmanuel Levinas:</strong> Makes responsibility to another person central to his philosophical project. His account of the Other is not simply interchangeable with the distinct tradition of care ethics.",
+    "3.2.30": "<strong>Bioethics:</strong> An established twentieth-century field addressing medicine and the life sciences, with continuing questions about consent, biotechnology and access to care.",
+    "3.2.31": "<strong>Environmental Ethics:</strong> An established field examining human responsibilities toward animals, ecosystems and future generations; it was not first created in the twenty-first century.",
+    "3.2.32": "<strong>Machine Ethics:</strong> Inquiry into how artificial systems might follow ethical constraints or make ethically significant choices, distinct from the broader ethics of how people build and deploy AI.",
+    "3.2.33": "This remains a selective timeline with large geographic and historical omissions. Dates name periods of contribution, not a claim that every concept was invented then. The original thinker order is retained, including the explicitly noted Mill/Bentham reversal.",
+    "4.1.0": "New technologies and social conditions create new questions within both established and newer fields. The following areas overlap; this list identifies active lines of inquiry rather than ranking current popularity or claiming that every field is new.",
+    "4.1.2": "<strong>Artificial Intelligence Ethics:</strong> Examines bias, accountability, privacy, labor and the distribution of benefits and harms from AI. Possible moral status of artificial systems is a separate disputed question; performance or fluent language alone does not establish sentience or rights.",
+    "4.1.11": "A useful way to connect these fields is to ask who may be affected, who can consent or object, who bears uncertainty, and who must answer for mistakes. New applications can expose old conflicts between benefit, rights, responsibility and fair distribution.",
+    "4.2.0": "These are areas where changing technologies or social conditions create further ethical questions. Several, including care and animal ethics, have long histories and should not be described as newly invented.",
+    "4.2.1": "<strong>Machine Ethics:</strong> Studies how artificial systems might be designed to act within ethical constraints. Broader AI ethics also asks whether people should deploy a system at all, who can challenge its decisions and who remains responsible for its harms.",
+    "4.2.2": "<strong>Bioethics:</strong> Examines moral issues in medicine and the life sciences. Gene editing, brain–computer interfaces and related technologies raise questions about consent, access and effects on future people; identifying an ethical issue is not a claim that a proposed intervention is safe or effective.",
+    "4.2.3": "<strong>Robotics and Automation:</strong> Raises questions about workplace change, safety and responsibility when machines act with limited supervision. Moral agency requires further argument; increased technical capability does not automatically make a machine morally responsible.",
+    "4.2.6": "<strong>Care Ethics:</strong> An established approach emphasizing relationships, dependency and attentive response to particular needs. It also asks who performs care, under what conditions, and whether caring relationships distribute power and burdens unfairly.",
+    "4.2.8": "The task is not only to devise rules for new devices. It is also to examine whose needs existing institutions overlook and whether their arrangements can be justified to those affected.",
+    "5.1.0": "<strong>Virtue Ethics</strong>",
+    "5.1.1": "<strong>Major Proponents and Influences:</strong> Aristotle and Alasdair MacIntyre; Elizabeth Anscombe’s criticism of modern moral philosophy helped renew attention to virtue, though these thinkers do not share one complete theory.",
+    "5.1.5": "<strong>Key Concepts:</strong> Evaluates conduct through overall well-being with impartial consideration of those affected. Different versions specify utility and the assessment of acts or rules differently; majority benefit alone is not enough.",
+    "5.1.8": "<strong>Key Concepts:</strong> Duties, rights or constraints are not reducible to maximizing outcomes. Kant’s unconditional principle differs from Ross’s account of prima facie duties: genuine duties that can be outweighed in a particular conflict.",
+    "5.1.11": "<strong>Key Concepts:</strong> Uses agreement to explain or justify shared arrangements. The original proponents disagree substantially; Rawls’s hypothetical choice under fair conditions is not a claim that actual citizens have all consented.",
+    "5.1.13": "<strong>Major Proponents and Precursor:</strong> Jean-Paul Sartre and Simone de Beauvoir; Friedrich Nietzsche is an influential precursor rather than an adherent of the later existentialist movement.",
+    "5.1.14": "<strong>Key Concepts:</strong> Examines freedom, responsibility and making commitments within concrete situations. De Beauvoir emphasizes that one’s freedom is entangled with others’ freedom; this is not permission to invent values without accountability.",
+    "5.1.17": "<strong>Key Concepts:</strong> Connects moral reasoning with human nature and basic goods. The relevant “law” is a proposed standard for action, not a physical regularity or the claim that every natural impulse is good.",
+    "5.1.19": "<strong>Key Concepts:</strong> Moral truth or justification is relative to a framework. <strong>Major Proponents:</strong> Gilbert Harman and David Wong develop different versions. Cultural disagreement alone does not establish either version, and tolerance requires its own argument.",
+    "5.1.21": "<strong>Major Contributors:</strong> Carol Gilligan and Nel Noddings are associated with care-centered approaches; Martha Nussbaum develops a capabilities approach. Their inclusion does not make all feminist ethics a single care theory.",
+    "5.1.22": "<strong>Key Concepts:</strong> Examines gendered power, exclusion and the neglected experiences of women and other marginalized people. Care and relationships are important strands alongside arguments about justice, autonomy, institutions and oppression.",
+    "5.1.24": "<strong>Relevant Thinkers:</strong> J. L. Mackie is a clearer example of moral error theory than Nietzsche. Nietzsche diagnoses and challenges nihilism while criticizing inherited morality; calling him simply a proponent is misleading.",
+    "5.1.25": "<strong>Key Concepts:</strong> Denies objective moral values or requirements, with moral error theory offering one developed account. This does not entail that every preference is arbitrary or that compassion and practical criticism must disappear.",
+    "5.1.26": "Compare these entries at the right level. A theory may guide action by consequences while rejecting stance-independent moral facts. Conversely, realism alone does not settle which moral standards are correct. No survey of popularity is supplied here.",
+    "5.2.0": "Here are five prominent positions and families of theories, including moral realism and anti-realism. This is not a measured ranking of popularity: the first and last concern the status of moral judgments, while the middle three principally concern ethical assessment.",
+    "5.2.1": "Moral Realism:",
+    "5.2.2": "<strong>Core Belief:</strong> On the robust sense used here, some moral judgments are true independently of our approving them. Realists disagree about the nature of moral facts and how we know them; realism is not by definition a theory that reason alone discovers every answer.",
+    "5.2.5": "G. E. Moore — Defended a non-naturalist account of goodness and criticized identifying it with another property, calling such identifications the naturalistic fallacy.",
+    "5.2.7": "<strong>Core Belief:</strong> Grounds moral assessment in consequences. Maximizing versions require the best outcomes; members of the family disagree about which outcomes matter and what should be assessed.",
+    "5.2.10": "Jeremy Bentham — Assessed utility through pleasure and pain across those affected, rather than equating morality with the agent’s own pleasure.",
+    "5.2.12": "<strong>Core Belief:</strong> Gives duties or constraints a role independent of simply producing the best aggregate outcome. Justification and conflicts between duties matter; existing rules do not automatically deserve obedience.",
+    "5.2.14": "Immanuel Kant — Developed the categorical imperative, including the requirement to treat persons as ends and never merely as means.",
+    "5.2.16": "<strong>Core Belief:</strong> Gives virtues and practical wisdom a central role in good conduct and a good life. Courage, honesty and care require judgment about circumstances, not simply habitual conformity.",
+    "5.2.21": "<strong>Core Belief:</strong> Challenges robust moral realism. Different versions dispute moral truth, its independence from attitudes, or the function of moral language. Anti-realism is broader than the two noncognitivist approaches listed below.",
+    "5.2.23": "Emotivism: A form of noncognitivism on which moral utterances express attitudes and can influence others (A. J. Ayer, C. L. Stevenson).",
+    "5.2.24": "Noncognitivism: Treats moral language primarily as expressing attitudes or prescriptions rather than describing moral facts. R. M. Hare’s prescriptivism is one version; emotivism is another, not a separate rival category at the same level.",
+    "5.2.25": "<strong>Note:</strong> Error theory, associated with J. L. Mackie, treats ordinary affirmative moral judgments as truth-apt but false; subjectivist approaches can make truth depend on attitudes. Neither is captured by equating all anti-realism with emotional expression. These distinctions alone do not supply a practical decision rule.",
+    "6.1.2": "<strong>Which of the following is a consequentialist ethical theory?</strong>",
+    "6.1.7": "<strong>Which listed philosopher is centrally associated with a systematic ethics of duty and the categorical imperative?</strong>",
+    "6.1.12": "<strong>Which approach gives cultivated character and practical wisdom a central role in ethics?</strong>",
+    "6.1.19": "B) There are no objective moral values or requirements.",
+    "6.1.34": "B) Actual, hypothetical or idealized agreement, depending on the theory.",
+    "6.1.41": "B) There are no objective moral values or requirements.",
+    "6.1.44": "B) Actual, hypothetical or idealized agreement, depending on the theory.",
+    "6.2.2": "Which family grounds moral assessment in consequences?<br>a) Deontology<br>b) Consequentialism<br>c) Virtue Ethics",
+    "6.2.3": "Immanuel Kant’s categorical imperative belongs to which approach?<br>a) Consequentialism<br>b) Deontology<br>c) Moral Anti-Realism",
+    "6.2.4": "Which of these is a character virtue when guided by practical judgment?<br>a) Happiness<br>b) Courage<br>c) Surprise",
+    "6.2.5": "For John Stuart Mill, the utilitarian standard concerns which of these?<br>a) Wealth alone<br>b) Overall happiness<br>c) Political power alone",
+    "6.2.6": "What does moral anti-realism challenge in the robust sense used here?<br>a) Stance-independent moral facts<br>b) The existence of emotions<br>c) Every possible role for reason in ethics",
+    "6.2.7": "Which philosopher is associated with emotivism, rather than the moral realism attributed here to Moore and Plato?<br>a) A. J. Ayer<br>b) G. E. Moore<br>c) Plato",
+    "6.2.8": "Which pair is central to Confucian ethical cultivation?<br>a) Pleasure and wealth<br>b) Ren (humaneness) and li (ritual propriety)<br>c) The categorical imperative and utility",
+    "6.2.14": "(a) Stance-independent moral facts",
+    "6.2.15": "(a) A. J. Ayer",
+    "7.1.2": "<strong>Utilitarianism gives impartial weight to overall well-being. What difficulties arise when benefits and harms are uncertain or unevenly distributed?</strong>",
+    "7.1.3": "<strong>Kant’s humanity formulation requires treating persons as ends and never merely as means. How does this distinction apply to data privacy and AI?</strong>",
+    "7.1.5": "<strong>Care is one strand within feminist ethics. How might attention to dependency, power and unequal burdens change approaches to business ethics?</strong>",
+    "7.1.6": "<strong>If objective moral values or requirements do not exist, what resources remain for criticizing legal systems and social norms?</strong>",
+    "7.2.3": "<strong>Limitations of Utilitarianism:</strong> Can maximizing overall well-being conflict with an individual’s rights or fair treatment? What responses could a utilitarian offer?",
+    "7.2.7": "<strong>Cultural Relativism vs. Universal Ethics:</strong> What would distinguish evidence of disagreement from evidence that moral truth is relative? Could different practices express a shared underlying concern?"
+  },
+  "leadingTextReplacements": {
+    "3.2.2": "Sixth–fifth centuries BCE (approximate; the Buddha’s dates are disputed):",
+    "3.2.5": "Late fifth–fourth centuries BCE:",
+    "3.2.8": "Fourth century BCE:",
+    "3.2.11": "Thirteenth century CE:",
+    "3.2.14": "Sixteenth century CE:",
+    "3.2.16": "Seventeenth century CE:",
+    "3.2.19": "Eighteenth century CE:",
+    "3.2.23": "Late eighteenth–nineteenth centuries CE (the original order below lists Mill before his predecessor Bentham):",
+    "3.2.26": "Twentieth century CE:",
+    "3.2.29": "Late twentieth–twenty-first centuries CE:"
+  },
+  "countChecks": [
+    {
+      "name": "1.1.ol counts",
+      "selector": "#prompt-1 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        30
+      ]
+    },
+    {
+      "name": "1.2.ol counts",
+      "selector": "#prompt-1 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        30
+      ]
+    },
+    {
+      "name": "2.1.ol counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        9
+      ]
+    },
+    {
+      "name": "2.2.ul counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        10
+      ]
+    },
+    {
+      "name": "3.1.ol counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "3.1.ul counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"1\"] ul",
+      "child": "li",
+      "expected": [
+        4,
+        2,
+        2,
+        3,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "3.2.ul counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        3,
+        2,
+        2,
+        1,
+        1,
+        1,
+        3,
+        1,
+        2,
+        2,
+        3,
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "4.1.ol counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        10
+      ]
+    },
+    {
+      "name": "4.2.ul counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        7
+      ]
+    },
+    {
+      "name": "5.1.ol counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "5.1.ul counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"1\"] ul",
+      "child": "li",
+      "expected": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "5.2.ul counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "6.1.ol counts",
+      "selector": "#prompt-6 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        7
+      ]
+    },
+    {
+      "name": "6.1.ul counts",
+      "selector": "#prompt-6 .original-response[data-source-column=\"1\"] ul",
+      "child": "li",
+      "expected": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "6.2.ol counts",
+      "selector": "#prompt-6 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        7,
+        7
+      ]
+    },
+    {
+      "name": "7.1.ol counts",
+      "selector": "#prompt-7 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        12
+      ]
+    },
+    {
+      "name": "7.2.ol counts",
+      "selector": "#prompt-7 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        12
+      ]
+    }
+  ],
+  "orderedListStarts": {
+    "6.1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      1
+    ],
+    "3.1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "5.1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "responseReviewDecisions": {
+    "1.1": "Read all 31 original definitions; retain order and effective definitions. Correct deontology, relativism/objectivity, contracts, natural law, subjectivism/noncognitivism, pragmatism and nihilism. Preserve stewardship as an explicitly labeled supplementary paragraph after the requested thirty items, never delete its source node.",
+    "1.2": "Retain all thirty entries, including the curator-relevant anti-realist term. Correct majority-count utilitarianism, verity/veracity, moral distress, informed consent, professional codes and dilemmas. Preserve concise effective definitions rather than expanding every item.",
+    "2.1": "Retain nine concepts and explanatory progression; distinguish normative standards/metaethical status/applied inquiry. Add wallet example within the concluding response, with contractual agreement and absolutism/objectivity qualifications.",
+    "2.2": "Retain ten concepts and original introduction/conclusion. Clarify norms versus justification, values, strict dilemmas, rights, consequences and courage versus recklessness.",
+    "3.1": "Retain all original thinker entries and group sequence; repair ancient and late-antique date ranges, Bentham period, Kant and Moore invention claims, Epicurus and Augustine summaries, and update MacIntyre lifespan. State selective European scope and continuing disputes.",
+    "3.2": "Retain nested timeline and thinker order. Correct Socrates/Aristotle dates, Buddha/karma invention claim and date uncertainty, Machiavelli anachronism, Emmanuel Levinas name, Moore/metaethics claim and late-twentieth-century origins. Explicitly flag retained Mill-before-Bentham source order.",
+    "4.1": "Retain all ten areas; eight source entries unchanged. Qualify novelty, AI moral status and concluding practical questions. Treat this as conceptual scope, not current technology performance or ranked trends.",
+    "4.2": "Retain all seven areas; distinguish machine ethics from deployment ethics, technical autonomy from moral agency, established care ethics from a new field. Retain data/global/animal descriptions.",
+    "5.1": "Retain nine entries and source progression. Add missing relativist proponents, qualify Nietzsche/Anscombe associations, distinguish Nussbaum from care-only feminism, replace misleading nihilist exemplar, clarify contracts/Ross/utilitarianism. Explicitly decline unsupported popularity ranking.",
+    "5.2": "Retain five groups and nested proponents. Repair Moore statement, Kant means-only distinction, moral realism knowledge claim and anti-realist taxonomy. Remove invented reference to a missing earlier user prompt; preserved all actual prompts.",
+    "6.1": "Retain seven MCQs with four options and seven end answers. Clarify questions and update nihilism/contract answer pairs; continuous numbering through seven separate source lists. All pairs read together.",
+    "6.2": "Retain seven MCQs with three options and seven end answers. Correct false exclusion of Moore by substituting explicit Ayer emotivism question; revise universality/objectivity confusion. Display choices on separate lines; all answer pairs checked.",
+    "7.1": "Retain twelve discussions and closing paragraph, eight questions verbatim. Correct utilitarian slogan, Kant merely-as-means qualifier, feminist scope and nihilist inference.",
+    "7.2": "Retain twelve discussions, ten verbatim. Correct utilitarian slogan and relativism false dichotomy while preserving practical scenarios and open questions."
+  },
+  "supplementarySourceTerm": "1.1.30",
+  "responseAppendices": {
+    "3.1": [
+      "<p>Sources for specific corrections: <a href=\"https://fair-use.org/g-e-moore/principia-ethica/s.35\">Moore, <em>Principia Ethica</em>, §35</a>; <a href=\"https://news.nd.edu/news/de-nicola-center-mourns-the-passing-of-alasdair-macintyre-19292025/\">Notre Dame’s MacIntyre memorial</a>.</p>"
+    ],
+    "3.2": [
+      "<p>For dating and karma qualifications, see the <a href=\"https://iep.utm.edu/buddha/\">Buddha entry, sections 1a and 3a</a>; for the name and project, see <a href=\"https://plato.stanford.edu/entries/levinas/\">Emmanuel Levinas</a>.</p>"
+    ],
+    "5.2": [
+      "<p>Further distinctions: <a href=\"https://www.gutenberg.org/files/5682/5682-h/5682-h.htm\">Kant, <em>Groundwork</em>, second section</a>; <a href=\"https://www.gutenberg.org/cache/epub/11224/pg11224-images.html\">Mill, <em>Utilitarianism</em>, chapter II</a>; <a href=\"https://plato.stanford.edu/entries/moral-anti-realism/\">Moral Anti-Realism</a>.</p>"
+    ],
+    "1.2": [
+      "<p>On the narrower and broader senses of moral distress, see <a href=\"https://journalofethics.ama-assn.org/article/what-moral-distress-nursing-history-could-suggest-about-future-health-care/2017-06\">Andrew Jameton’s retrospective</a> and <a href=\"https://journalofethics.ama-assn.org/article/who-experiencing-what-kind-moral-distress-distinctions-moving-narrow-broad-definition-moral-distress/2017-06\">Carina Fourie’s distinction</a>.</p>"
+    ]
+  }
+}

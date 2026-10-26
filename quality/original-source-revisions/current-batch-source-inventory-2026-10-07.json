@@ -4,8 +4,8 @@
   "startIndex": 100,
   "endIndexExclusive": 150,
   "candidateWordPressOriginals": 49,
-  "fullyReviewed": 37,
-  "pendingFullReview": 13,
+  "fullyReviewed": 38,
+  "pendingFullReview": 12,
   "sourceBlocked": 0,
   "limitation": "Thirty-seven entries have substantive review and source verification; thirteen remain pending. No batch advancement. Half-Searches reviewed this run; per-response decisions, source scopes and limitations are recorded in its verification file. All prior page-specific limitations remain effective.",
   "pages": [
@@ -976,7 +976,7 @@
       "pagePath": "/ethics/ethics-core-concepts/",
       "pageTitle": "Ethics — Core Concepts",
       "queueIndex": 138,
-      "status": "pending-full-review",
+      "status": "reviewed-verified",
       "wordpressId": 3285,
       "sourceUrl": "http://byteseismic.com/2024/03/12/ethics-core-concepts/",
       "sourceTitle": "Ethics — Core Concepts",
@@ -994,8 +994,12 @@
         "Provide 12 discussion questions relevant to the content above. "
       ],
       "wordCount": 5998,
-      "fullSourceRead": false,
-      "editorialReviewComplete": false
+      "fullSourceRead": true,
+      "editorialReviewComplete": true,
+      "reviewedAt": "2026-10-26T13:21:36.111716+00:00",
+      "verification": "quality/original-source-revisions/ethics-core-concepts-verification-2026-10-26.json",
+      "revisionConfig": "quality/original-source-revisions/ethics-core-concepts-edits.json",
+      "renderer": "scripts/revise_ethics_core_concepts.py"
     },
     {
       "pagePath": "/philosophy-of-language/gradient-concepts-and-binary-terms/",
@@ -1290,6 +1294,6 @@
       "editorialReviewComplete": false
     }
   ],
-  "updatedAt": "2026-10-25T13:20:41.592755+00:00",
-  "recordedAt": "2026-10-25T13:20:41.592755+00:00"
+  "updatedAt": "2026-10-26",
+  "recordedAt": "2026-10-26T13:21:36.111716+00:00"
 }
