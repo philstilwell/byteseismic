@@ -1,0 +1,340 @@
+{
+  "pageFile": "philosophy-of-language/gradient-concepts-and-binary-terms/index.html",
+  "wordpressId": 2837,
+  "snapshot": "gradient-concepts-and-binary-terms-wordpress-2837.html",
+  "sourceSha256": "095d8024def532137cf13495cb08a1e0098c9db4b43d5570e095b497d0b0b6a0",
+  "sourceUrl": "http://byteseismic.com/2024/03/08/gradient-concepts-and-binary-terms/",
+  "sourceLabel": "Original WordPress conversation, March 8, 2024",
+  "shellRevision": "3a5a417e3b7e7d963f4f2352b22959d972bcae1a",
+  "date": "2026-10-27",
+  "modelLabels": [
+    "First source track",
+    "Gemini"
+  ],
+  "sectionModelLabels": {
+    "1": [
+      "Claude 3 Sonnet",
+      "Gemini"
+    ]
+  },
+  "headings": [
+    "What a label leaves out",
+    "More degrees, dimensions and thresholds",
+    "Documented cases and the limits of their lessons",
+    "Choose the detail the decision needs",
+    "Five media examples from each response",
+    "Two ten-question quizzes with answers at the end",
+    "Fifteen discussion questions from each response"
+  ],
+  "introHeading": "When categories hide the differences that matter",
+  "intro": "The conversation moves from familiar terms to institutional consequences, practical wording and media criticism. All seven original prompts and both response tracks remain in order. The source displays ChatGPT and Gemini column logos but explicitly notes a Claude 3 Sonnet substitution in the first response; that note is retained, and later first-column responses are not assigned a more specific model identity than the source establishes.",
+  "description": "Examine how labels compress degrees and dimensions, when thresholds help, and how to detect misleading language through documented cases, quizzes and discussion.",
+  "highlights": [
+    "A category can support a decision while concealing differences within and around it.",
+    "Degrees of confidence, multiple dimensions and formal eligibility rules are different things.",
+    "Use the detail that could change the reader’s judgment, with clear boundaries and uncertainty.",
+    "A sensational headline warrants scrutiny; proving deliberate distortion takes further evidence."
+  ],
+  "pageSignals": {
+    "Page form": "Original conversation · editorial edition",
+    "Best for": "testing labels against the distinctions a decision needs"
+  },
+  "replacements": {
+    "1.1.1": "Language often compresses variation into a few categories. A binary distinction has two alternatives; a coarse classification has several broad categories. Neither is automatically a mistake. The problem begins when the label hides differences relevant to the question, or makes a chosen boundary look like a sharp division in nature. Some examples involve one scale; others involve several dimensions or a formal status:",
+    "1.1.2": "<strong>Belief:</strong> Confidence in a proposition can range from near-zero to near-certainty. “I do not believe it” might mean withholding judgment or believing its negation; those are different positions. Ask how confident the person is and what evidence would change that confidence. This need not imply that every use of categorical belief is reducible to a precise probability.",
+    "1.1.3": "<strong>Strange:</strong> Familiarity and surprise vary by degree and by observer. “Strange” can compress unfamiliarity, rarity and disapproval into one reaction. A custom can be unfamiliar to a visitor while common locally; the label alone establishes neither abnormality nor error.",
+    "1.1.4": "<strong>Expert:</strong> Knowledge, experience and reliability vary across domains and tasks. Someone may be an expert in bridge design without being an expert in every kind of engineering. A credential can be categorical while competence remains uneven; specify the subject and the basis for trusting the judgment.",
+    "1.1.5": "<strong>City:</strong> Density, infrastructure and commuting patterns can change gradually across a settlement. Legal city status, however, may have a definite administrative boundary. Calling a place a city can correctly state its status while telling us little about how urban its outskirts are. Do not confuse a legal category with a single natural scale.",
+    "1.1.6": "<strong>Beautiful:</strong> Aesthetic responses can differ in intensity and in what people admire. “Beautiful or not?” may hide differences among elegance, color, proportion and personal associations. Describing those features is often more useful than assuming everyone is placing the object on the same scale.",
+    "1.1.7": "<strong>Intelligent:</strong> Cognitive performance varies across people, tasks and conditions. “Intelligent” can conceal a profile of strengths and weaknesses and the uncertainty of any measurement. A label or test score is not a complete description of someone’s reasoning or capacity to learn.",
+    "1.1.8": "<strong>Healthy:</strong> Symptoms, functioning and risks vary across dimensions. A person can manage a chronic condition well while having difficulties in another area. A particular diagnosis may still have useful criteria; the error is treating it as a complete verdict on the person’s health.",
+    "1.1.9": "<strong>Moral:</strong> People’s evaluations may depend on intent, harm, alternatives and the standards they endorse. A single “moral/immoral” verdict can conceal that reasoning. This does not establish an objective moral scale: an anti-realist can describe degrees of concern, approval and conflict among values without positing moral facts.",
+    "1.1.11": "<strong>Oversimplification:</strong> A broad category loses detail. It distorts when the missing detail would alter a relevant conclusion—for example, when “expert” is taken to warrant trust outside the person’s field.",
+    "1.1.12": "<strong>Polarization:</strong> Two opposing labels can encourage readers to overlook mixed positions. Yet a midpoint is not automatically reasonable: sometimes one claim is false, or a decision really does require choosing between two options.",
+    "1.1.13": "<strong>Hidden standards:</strong> A label can conceal whose standard, threshold or comparison group is being used. That does not make all distinctions subjective; it makes the standard something to state and examine.",
+    "1.1.14": "<strong>Cognitive shortcuts:</strong> Categories can invite unwarranted inferences about everyone assigned to them. The mistake is not categorization itself, but treating a limited description as sufficient evidence for a much broader judgment.",
+    "1.1.15": "<strong>Limited discussion:</strong> If a debate only permits “believer” and “nonbeliever,” people may struggle to express uncertainty or distinguish propositions. Adding the missing distinctions can improve the exchange without requiring an entirely new vocabulary.",
+    "1.1.16": "Use qualifiers, dimensions and context where they change what the audience should infer. “Experienced in residential wiring, but unfamiliar with this industrial system” conveys more than “expert.” More words are worthwhile here because they prevent a specific mistaken inference; longer wording is not inherently more accurate.",
+    "1.2.0": "The concern is well placed: labels can hide variation. But not every apparently binary term denotes a single underlying continuum. Your four examples show different ways that a category can leave out useful information:",
+    "1.2.1": "<strong>Belief:</strong> “I believe it” can hide whether someone is mildly persuaded or nearly certain. “I do not believe it” can express suspension of judgment rather than confidence that it is false. State the proposition, confidence and evidential basis when the difference matters.",
+    "1.2.3": "<strong>Expert:</strong> Expertise varies by field and by task. A person can be highly skilled at diagnosis but less skilled at teaching beginners. The title does not supply a single ranking that transfers unchanged across activities.",
+    "1.2.4": "<strong>City:</strong> Administrative status and urban character are different. A legally designated city may contain low-density districts; a dense settlement may have another official designation. Specify which sense matters before comparing places.",
+    "1.2.6": "<strong>Oversimplification:</strong> A category can conceal a range of confidence, competence or experience. Whether that omission matters depends on the inference being made.",
+    "1.2.10": "A useful check is to ask what someone would infer from the label alone. If “city” is only a postal designation, the label may suffice. If the discussion concerns transport demand, density and commuting patterns provide information the designation does not.",
+    "2.1.0": "Here are twelve entries extending the discussion. Some revisit earlier terms from a different angle; the repeated “Intelligence” entry in the original list is replaced with “Reliability” so that this list contains twelve distinct examples.",
+    "2.1.1": "<strong>Intelligence:</strong> “Intelligent/unintelligent” can conceal how performance varies between unfamiliar reasoning, acquired knowledge and specific tasks. Reporting the relevant performance and its uncertainty is more informative than making a judgment about the whole person.",
+    "2.1.2": "<strong>Success:</strong> A project can meet its deadline, exceed its budget and leave its users dissatisfied. “Success/failure” compresses several criteria; name the goal before judging how far it was achieved.",
+    "2.1.3": "<strong>Happiness:</strong> Pleasant mood, satisfaction with life and a sense of purpose can diverge. “Happy/unhappy” may hide changes over time or a mixture of these dimensions.",
+    "2.1.4": "<strong>Friendship:</strong> Trust, intimacy and shared activity vary by relationship. Someone can be a close companion without being the person entrusted with a secret; “friend” does not settle every expectation.",
+    "2.1.5": "<strong>Wealth:</strong> Income, assets, debts and accessible cash can point in different directions. “Rich/poor” conceals these differences, and even a numerical income threshold does not capture every household’s expenses or security.",
+    "2.1.6": "<strong>Age:</strong> Time since birth changes continuously, while categories such as “young” and “old” depend on the comparison. Legal age thresholds can be definite without implying that every relevant capacity changes abruptly on a birthday.",
+    "2.1.7": "<strong>Beauty:</strong> “Beautiful/not beautiful” can merge distinct reactions to appearance, movement or design. Describe what is admired and by whom rather than assuming a universal numerical ranking.",
+    "2.1.8": "<strong>Health:</strong> “Healthy/unhealthy” can conceal the difference between present symptoms, everyday functioning and future risk. A person’s status on one dimension does not settle the others.",
+    "2.1.9": "<strong>Reliability:</strong> A device may succeed in most ordinary uses but fail under heat or heavy load. “Reliable/unreliable” needs a task, conditions and an acceptable failure rate.",
+    "2.1.10": "<strong>Talent:</strong> “Talented/untalented” can confuse current performance with future potential. Practice, opportunity and the task itself matter; neither early success nor slow progress is a complete forecast.",
+    "2.1.11": "<strong>Personality:</strong> Traits such as extraversion describe tendencies that vary in degree. “Introvert/extrovert” may hide people near the middle and differences between social settings.",
+    "2.1.12": "<strong>Addiction:</strong> Patterns of control, impairment and harm differ in severity and kind. Diagnostic thresholds can guide care, but “addicted/not addicted” does not convey that whole profile. Frequent engagement alone does not establish a disorder.",
+    "2.1.13": "These examples do not all reduce to one scale. The useful move is to recover the missing dimension, comparison or threshold—not merely to replace every firm word with “somewhat.”",
+    "2.2.0": "Here are twelve further examples, with health revisited as a reminder that many apparent scales are profiles of several features:",
+    "2.2.1": "<strong>Healthy:</strong> Symptoms, functioning and risk can vary independently. Someone with a managed chronic illness can function well; “healthy/unhealthy” is too broad to describe all of those dimensions.",
+    "2.2.2": "<strong>Safe:</strong> Risk varies by activity, exposure and precautions. Say safe for whom, under what conditions and compared with what alternative; it rarely means that harm is impossible.",
+    "2.2.3": "<strong>Clean:</strong> Visible dirt, chemical residue and microbial contamination are different measurements. A surface can look clean without meeting a particular hygiene standard. Preferences influence some uses of “clean,” but contamination is not merely subjective.",
+    "2.2.5": "<strong>Sweet:</strong> Perceived sweetness varies in intensity. Calling something “sweet” leaves out how strong it tastes; perceived sweetness and sugar content are not interchangeable measures.",
+    "2.2.6": "<strong>Sour:</strong> Sourness varies in perceived intensity, from mildly tart to sharply sour. A taste judgment does not by itself provide an exact chemical measurement.",
+    "2.2.8": "<strong>Busy:</strong> Workload, time pressure and spare capacity differ. Having many tasks is not identical to burnout, and “busy” alone does not say whether someone can take on another commitment.",
+    "2.2.10": "<strong>Literate:</strong> Reading and writing abilities vary by task, language and text difficulty. A yes/no literacy label can hide whether someone can interpret a short notice, compare arguments or understand technical instructions.",
+    "2.2.11": "<strong>Modern:</strong> The word may describe a historical period, a design style or how recently a technology was introduced. It is not one universal scale of improvement; something newer can work less well for a given purpose.",
+    "2.2.12": "<strong>Kind:</strong> Helpful conduct varies in effort, frequency and sensitivity to another person’s needs. A dramatic gesture need not be more considerate than steady everyday support.",
+    "3.1.0": "The original response named broad problem areas. The following entries retain those areas and add identifiable cases, studies or institutional responses. They distinguish evidence of a classification problem from proof that a word alone caused harm:",
+    "3.1.1": "<strong>Mental Health Stigma — Interconnect Cable Technologies, 2020:</strong> The U.S. Equal Employment Opportunity Commission reported a settlement after alleging that an employee was demoted and later fired following hospitalization for major depressive disorder. Its account challenged employment decisions based on stereotypes about mental illness. The lesson is that a diagnostic label cannot replace assessment of a person’s actual abilities. This was a settled allegation, not a trial finding that particular wording alone caused the dismissal. <a href=\"https://www.eeoc.gov/newsroom/interconnect-cable-technologies-pay-35000-settle-eeoc-disability-discrimination-suit\">EEOC settlement account</a>.",
+    "3.1.2": "<strong>Intelligence Testing — gifted-program screening:</strong> Card and Giuliano studied a Florida district that introduced screening of all second graders in 2005. More disadvantaged and minority pupils were identified for gifted education without relaxing eligibility standards. “Not identified as gifted” had been mistaken for a reliable indication of who lacked qualifying ability. The study identifies a referral problem, not proof that every threshold or specialized class is harmful. <a href=\"https://files.eric.ed.gov/fulltext/ED578122.pdf\">Card and Giuliano, 2016</a>.",
+    "3.1.3": "<strong>Body Image Issues — BMI used as a whole-person verdict:</strong> In 2023 the American Medical Association adopted policy recognizing limitations of body mass index, or BMI, and recommending consideration of other risk measures. It also opposed using BMI alone to deny appropriate insurance reimbursement. “Normal weight” is not a complete health assessment. This documented policy response concerns oversimplified measurement; it does not establish that weight labels alone cause eating disorders. <a href=\"https://www.ama-assn.org/press-center/ama-press-releases/ama-adopts-new-policy-clarifying-role-bmi-measure-medicine\">AMA policy announcement</a>.",
+    "3.1.4": "<strong>Racial Categorization — Loving v. Virginia, 1967:</strong> Virginia’s marriage law classified people by race and criminalized marriages across its designated boundary. The Supreme Court overturned the prohibition. This is a concrete example of categories carrying discriminatory legal consequences. Race should not be recast as a single biological gradient; the injustice was not merely a shortage of intermediate labels, and adding more racial categories would not have justified the prohibition. <a href=\"https://www.law.cornell.edu/supremecourt/text/388/1\">Supreme Court opinion</a>.",
+    "3.1.5": "<strong>Academic Grading — England’s 2020 calculated grades:</strong> After examinations were cancelled, a standardization system produced grades that generated distress and damaged public confidence. On August 17, Ofqual announced that students would receive the higher of their school’s estimate and the calculated grade. A definite grade had obscured uncertainty about individual performance. Letter grades have several categories, not two, and this episode concerned the way grades were assigned rather than proving that all grading is invalid. <a href=\"https://www.gov.uk/government/news/statement-from-roger-taylor-chair-ofqual\">Ofqual statement</a>.",
+    "3.1.6": "<strong>Poverty Measurement — the Supplemental Poverty Measure:</strong> The U.S. Census Bureau’s report for 2011 shows how including taxes, noncash benefits and necessary expenses changes the assessment of poverty. A cash-income label can miss resources or costs that affect actual living conditions, and can hide the contribution of assistance. The alternative measure still uses thresholds; the improvement is in what it measures, not the abolition of categories. This statistical measure is not itself a universal benefit-eligibility rule. <a href=\"https://www2.census.gov/library/publications/2012/demo/p60-244.pdf\">Census Bureau report</a>.",
+    "3.1.7": "<strong>Talent Identification — youth ice hockey:</strong> A 2013 study of 147,991 male players aged 5–17 found relative-age differences associated with selection into competitive teams. Players grouped in the same year can differ substantially in development. Treating selection as an unqualified badge of “talent” can conceal that context. The study also found effects among younger noncompetitive players, so it did not establish coaches as the sole cause or show that every unselected child was wrongly excluded. <a href=\"https://pubmed.ncbi.nlm.nih.gov/23611016/\">Study abstract</a>.",
+    "3.1.8": "<strong>Political Polarization — Pew’s 2021 typology:</strong> Survey analysis identified nine groups, including substantial divisions within both major U.S. party coalitions. A two-camp description misses differences relevant to understanding voters and coalitions. This documents a representational limitation; it does not demonstrate that binary labels caused polarization. The nine-group scheme is itself a useful simplification, not a discovery of nine natural kinds of person. <a href=\"https://www.pewresearch.org/politics/2021/11/09/beyond-red-vs-blue-the-political-typology-2021/\">Pew Research Center report</a>.",
+    "3.1.9": "The cases differ. Some show unequal treatment, some show omitted information, and some show institutions revising a classification. The common question is what the category authorizes a reader or decision-maker to infer—and whether the evidence supports that inference.",
+    "3.2.0": "<strong>Medical Diagnosis — changing blood-pressure categories:</strong> The 2017 American College of Cardiology/American Heart Association announcement estimated that its revised definition would classify 46% rather than 32% of U.S. adults as having hypertension, while only modestly increasing the number requiring medication. People’s underlying readings did not jump when the definition changed. The communication problem arises if “newly classified” is presented as “suddenly became unhealthy,” or a diagnosis as an automatic drug recommendation. This is a historical classification example, not current treatment advice. <a href=\"https://www.acc.org/About-ACC/Press-Releases/2017/11/13/15/35/High-blood-pressure-redefined-for-first-time-in-14-years-130-is-the-new-high\">2017 ACC announcement</a>.",
+    "3.2.1": "<strong>Mental Health Stigma — employment after hospitalization:</strong> In the 2020 Interconnect Cable Technologies settlement, the EEOC alleged that hospitalization for depression was followed by removal of duties, demotion and dismissal. “Has a mental illness” does not entail “cannot do this job.” The record illustrates a dispute about that inference; it does not establish every clinical detail or prove that a label alone caused the actions. <a href=\"https://www.eeoc.gov/newsroom/interconnect-cable-technologies-pay-35000-settle-eeoc-disability-discrimination-suit\">EEOC account</a>.",
+    "3.2.2": "<strong>Educational Placement — missed gifted pupils:</strong> Card and Giuliano’s district study found that universal screening brought previously overlooked children into gifted programs under unchanged eligibility criteria. The practical distinction is between “has not been identified” and “does not qualify.” More careful identification improved access while retaining a category; deleting the word “gifted” was not the tested intervention. <a href=\"https://files.eric.ed.gov/fulltext/ED578122.pdf\">Original study</a>.",
+    "3.2.3": "<strong>Legal System — Hall v. Florida, 2014:</strong> Florida treated an IQ score above 70 as barring further evidence of intellectual disability in deciding eligibility for execution. Hall had presented a score of 71. The Supreme Court rejected that rigid rule because it ignored measurement uncertainty and other relevant evidence. This is a documented threshold failure. It replaces the original response’s misleading claim that a guilty verdict necessarily gives an accomplice and a principal the same consequences. <a href=\"https://www.govinfo.gov/content/pkg/USREPORTS-572/pdf/USREPORTS-572-701.pdf\">Supreme Court syllabus and opinion</a>.",
+    "3.2.4": "<strong>Algorithmic Bias — State v. Loomis, 2016:</strong> Wisconsin’s Supreme Court considered use of COMPAS risk scores in sentencing. It allowed consideration subject to cautions and limitations, including that group-based scores do not determine an individual’s future behavior. “High risk” must not become “will reoffend.” The court affirmed the judgment; this is not a finding that the algorithm had proved Loomis personally dangerous or that all such assessments are unlawful. <a href=\"https://www.wicourts.gov/sc/opinion/DisplayDocument.pdf?content=pdf&amp;seqNo=171690\">Wisconsin Supreme Court opinion</a>.",
+    "3.2.5": "A sharper description separates the measured feature, the rule that assigns a category, and the decision made with it. Each can be challenged independently: a useful classification may be measured badly, and an accurate measurement may still be used for an unjustified purpose.",
+    "4.1.1": "<strong>Precision and Accuracy:</strong> Ask which omitted detail could change the conclusion. A longer phrase is useful if it supplies that detail; an invented percentage or unexplained technical term creates an appearance of precision without better evidence.",
+    "4.1.3": "<strong>Audience and Shared Understanding:</strong> A short label may work when its scope is already shared. When it is not, use plain explanations of the missing distinction. Novices may need clearer nuance rather than a misleading binary; expertise is not a prerequisite for understanding “not tested” versus “tested and failed.”",
+    "4.1.6": "<strong>Flexibility and Adaptability:</strong> State when an assessment was made and what could change it. “Reliable on the tested tasks under these conditions” is easier to update than a timeless claim that a system is simply reliable.",
+    "4.1.13": "Use a two-part test: What must the audience decide, and what information could reasonably change that decision? An eligibility notice may need a clear yes/no result; an explanation of the result should also state the criterion and any review process. Keep the action clear while making its basis inspectable.",
+    "4.1.14": "The aim is appropriate resolution, not endless qualification. If the extra detail would not change a reasonable interpretation, it can wait. If it changes who is included, what is at risk or how strong the evidence is, it belongs near the label rather than in an easily missed footnote.",
+    "4.2.2": "<strong>Quick Decisions:</strong> An urgent instruction such as “stop” can be more useful than a long account of the risk. The action may be categorical even when the risk is graded. The explanation can follow once immediate coordination is secured.",
+    "4.2.4": "<strong>Shared Conventions:</strong> A familiar signal can communicate efficiently when people know its meaning. Symbols are not universally understood merely because they are simple; training, accessibility and context still matter.",
+    "4.2.6": "<strong>Complex Situations:</strong> A health discussion may need the particular measurement, symptoms and implications rather than a verdict of “healthy” or “unhealthy.” Even “normal range” needs a specified test and context; it does not summarize every aspect of a person’s health.",
+    "4.2.7": "<strong>Emotional Impact:</strong> “Recovered/not recovered” can conceal changes in grief, functioning and support needs. Acknowledging both progress and continuing difficulty gives a more accurate description than insisting on one total verdict.",
+    "4.2.8": "<strong>Subtle Distinctions Matter:</strong> A wine buyer asking whether they would enjoy a bottle may welcome “good for your taste.” A taster comparing wines needs details such as acidity, sweetness and aroma. The useful resolution depends on the task, not the prestige of elaborate wording.",
+    "4.2.11": "<strong>Use informative qualifiers:</strong> “Safe for this use under these conditions” says more than “very safe.” If a reliable risk estimate is available, explain its outcome and time period. If not, state the uncertainty instead of manufacturing a number.",
+    "4.2.12": "<strong>Use several categories where helpful:</strong> “Low, medium and high” may convey more than two labels, but each boundary still needs a purpose. Ordinary traffic lights already include an amber/yellow signal; three categories are not a binary system and do not fully describe road risk.",
+    "4.2.14": "A brief label and a clear explanation can work together. For example, “Not eligible under this year’s rule; your measured result is close to the cutoff” distinguishes an administrative decision from a sweeping verdict on ability. State any real review option accurately rather than promising one by default.",
+    "5.1.0": "Attention incentives can favor stark labels, as the prompt emphasizes. The five examples below are illustrative headline patterns, not quotations from identified outlets. Each pairs a compressed concept with a clue worth investigating. Sensational wording can reveal distortion; establishing deliberate manipulation requires additional evidence, such as a known contradiction between the headline and the available facts.",
+    "5.1.1": "<strong>Political Ideologies:</strong> An illustrative headline calls every critic of one tax proposal “anti-business.” It compresses views on rates, exemptions and public spending into a loyalty test. <strong>Clue:</strong> the article reports mixed policy positions that the headline collapses into two camps. Compare the stated policies before accepting the label; opposition to one measure does not settle a person’s entire economic outlook.",
+    "5.1.2": "<strong>Body Image and Beauty Standards:</strong> An illustrative feature calls a celebrity’s weight change a move from “disaster” to “perfect.” It turns appearance into two total judgments and may imply health without evidence. <strong>Clue:</strong> loaded before/after captions substitute for relevant information or use inconsistent images. Commercial incentives warrant scrutiny, but do not by themselves establish the editor’s intent.",
+    "5.1.3": "<strong>Mental Health:</strong> An illustrative report divides public figures into “stable” and “unhinged” on the basis of a short clip. It converts limited behavior into a whole-person judgment. <strong>Clue:</strong> a categorical label outruns the evidence and supplies no context. Ordinary phrases such as “living with” or “suffering from” a condition are not, on their own, evidence of sensationalism or deception.",
+    "5.1.4": "<strong>Intelligence and Talent:</strong> An illustrative headline announces a “genius” after one exceptional performance, then calls the same person “exposed as a fraud” after a setback. <strong>Clue:</strong> the label swings with a single result while ignoring task, experience and repeated performance. “Fraud” also alleges deception; poor performance alone does not establish it.",
+    "5.1.5": "<strong>Moral Judgments:</strong> An illustrative story changes a person from “hero” to “villain” without distinguishing the acts, evidence or competing values involved. <strong>Clue:</strong> the reader is pushed to judge an entire character before learning what happened. Nuance can clarify culpability without excusing an established wrong or requiring a compromise verdict.",
+    "5.1.6": "Look first for the information that the label suppresses: comparison group, domain, degree, uncertainty or threshold. Then separate two questions: Is the description misleading, and what evidence shows why it was chosen? Repeated omission after a documented correction is stronger evidence of knowing distortion than dramatic wording alone.",
+    "5.2.1": "<strong>Binary Framing:</strong> An illustrative headline says “Nation splits into two camps over tax plan,” although people may support some provisions and reject others. The gradient is the pattern and strength of policy support, not merely membership in a party.",
+    "5.2.2": "<strong>Clue:</strong> compare the two-camp headline with any reported variation within each group. Conflict language alone does not establish dishonesty; omitted contrary details make the problem more concrete.",
+    "5.2.4": "<strong>Relationship Status:</strong> An illustrative headline declares “Together or finished?” from a vague social-media post. The couple’s actual relationship may involve uncertainty, separation or reconciliation, and the outlet may have little evidence about any of it.",
+    "5.2.5": "<strong>Clue:</strong> a categorical claim in the headline becomes “may” or “sources speculate” in the article. That mismatch is more revealing than the word “breaking” alone. It also concerns uncertainty about the facts, which should not be confused with a gradient in the relationship itself.",
+    "5.2.7": "<strong>Oversimplification:</strong> An illustrative headline calls an early laboratory result a “cure,” compressing stages of evidence and varying treatment effects into “works/does not work.” A promising finding may justify further research without establishing benefit for patients.",
+    "5.2.8": "<strong>Clue:</strong> check whether the headline omits the study population, comparison, outcome and limitations that the article itself acknowledges. “Breakthrough” is a reason to inspect the evidence, not proof of bad intent.",
+    "5.2.10": "<strong>Threat Levels:</strong> An illustrative report describes an entire region as “safe” or “under threat” while omitting differences in location, timing and hazard severity. A weather warning can still properly require a clear action; the error is presenting uniform risk where conditions differ.",
+    "5.2.11": "<strong>Clue:</strong> the dramatic label lacks the location, time window or relevant forecast details. Check those details in the underlying forecast rather than assuming all concise weather reporting is misleading.",
+    "5.2.13": "<strong>Boom or Bust Narrative:</strong> An illustrative headline announces “The economy is booming” from one market index. Employment, incomes, prices and sectors can move differently, so a single label may conceal who is benefiting and over what period.",
+    "5.2.14": "<strong>Clue:</strong> the headline generalizes beyond the measure or time span actually reported. Ask for the comparison and the omitted dimensions before treating a dramatic adjective as a summary of everyone’s circumstances.",
+    "5.2.15": "These five patterns show where to look for lost resolution. They do not establish how often a particular outlet manipulates readers. A careful reader can reject a misleading frame without claiming to know the author’s motives.",
+    "6.1.1": "Which description most clearly treats a graded ability as a binary whole-person label?<br>a) The walk took twenty minutes.<br>b) The distance is approximately five kilometers.<br>c) Every person is either intelligent or unintelligent.<br>d) The paint becomes gradually darker.",
+    "6.1.5": "True or False: Attention incentives can encourage stark media labels, but a sensational headline alone proves that its author knowingly distorted the facts.",
+    "6.1.7": "Which observation most directly exposes a loss of nuance in a headline?<br>a) It contains a short word.<br>b) It appears in a popular outlet.<br>c) It uses a large font.<br>d) It makes an absolute claim while the article reports important exceptions.",
+    "6.1.10": "Which strategy best reduces a misleading classification?<br>a) Avoid every category.<br>b) Add an exact percentage even without a basis.<br>c) State the relevant dimension, threshold and uncertainty.<br>d) Assume every distinction is subjective.",
+    "6.1.16": "False. Incentives and wording can raise suspicion, but knowing distortion requires further evidence.",
+    "6.1.18": "d) The mismatch between the absolute claim and the reported exceptions.",
+    "6.1.21": "c) State the relevant dimension, threshold and uncertainty.",
+    "6.2.3": "Why might a short action label be useful in an urgent situation?<br>a) It supplies every relevant fact.<br>b) It can communicate an agreed action quickly.<br>c) It eliminates all uncertainty about risk.<br>d) It is always more accurate than an explanation.",
+    "6.2.4": "Which subject usually needs several dimensions to describe it adequately?<br>a) Whether a specified switch is in its on position.<br>b) Whether a recorded application was submitted before a stated deadline.<br>c) Whether a particular signal currently displays red.<br>d) A person’s overall health.",
+    "6.2.5": "What mistaken inference is illustrated by the employment case discussed above?<br>a) A clinical diagnosis automatically shows someone cannot perform a job.<br>b) Relevant job demands should be considered.<br>c) A person’s current abilities matter.<br>d) A settlement differs from a trial finding.",
+    "6.2.6": "How can a qualifier improve the word “safe”?<br>a) By making it sound reassuring without adding information.<br>b) By specifying the use and conditions for which the assessment applies.<br>c) By guaranteeing that no harm can occur.<br>d) By replacing evidence with a longer phrase.",
+    "6.2.8": "Which pairing correctly identifies an example of misleading compression?<br>a) Political discourse: a report explains divisions within both parties.<br>b) Celebrity reporting: an article clearly states that a rumor is unverified.<br>c) Weather reporting: a whole region is labeled safe while local hazards are omitted.<br>d) Economic reporting: an article specifies which index fell and over what period.",
+    "6.2.9": "Which is the strongest clue that a scientific headline overstates the evidence?<br>a) It gives the sample size.<br>b) It claims a cure while the article reports only an early laboratory finding.<br>c) It explains the study’s limitations.<br>d) It uses plain language.",
+    "6.2.16": "(a) A diagnosis does not by itself determine job capability.",
+    "6.2.17": "(b) Specify relevant uses and conditions.",
+    "6.2.19": "(c) The region-wide label conceals local differences in risk.",
+    "6.2.20": "(b) The headline claims more than the reported evidence supports.",
+    "7.1.9": "When might deliberately using a simple media label be justified, and what evidence would distinguish useful compression from knowing distortion?",
+    "7.1.13": "How can quantitative measures reveal differences that labels hide, and when might they create false precision or obscure measurement uncertainty?",
+    "7.1.16": "These questions extend the conversation about categories, the decisions they support, and the information they omit. They invite criticism of misleading language without assuming that every simplification is deceptive.",
+    "7.2.4": "When media use stark framing to attract attention, how can journalists preserve the distinctions that matter while keeping a report engaging?",
+    "7.2.11": "Can existing words be used more carefully to express degrees and dimensions, or do some contexts need new terms? Give an example of each possibility.",
+    "6.1.3": "Which of the following is NOT an issue that can arise from the use of inadequate binary or granular linguistic terms?<br>a) Stigmatization<br>b) Discrimination<br>c) Ineffective policies<br>d) Increased linguistic diversity",
+    "6.1.4": "When determining whether to use a low-resolution binary term or a more nuanced high-resolution phrase, which of the following factors should be considered?<br>a) The level of precision and accuracy required<br>b) The potential consequences of oversimplification or inaccuracy<br>c) The audience’s familiarity with the concept<br>d) All of the above",
+    "6.1.6": "Which subject in the illustrative media examples can lose important dimensions when reduced to two labels?<br>a) Political views<br>b) Body image and beauty judgments<br>c) Mental health<br>d) All of the above",
+    "6.1.8": "Which of the following is NOT a potential issue arising from the media’s use of binary terms to represent gradient concepts?<br>a) Perpetuation of harmful stereotypes<br>b) Oversimplification of complex ethical dilemmas<br>c) Increased linguistic diversity<br>d) Promotion of moral outrage",
+    "6.2.7": "When might headlines in the media use binary framing, according to the passage?<br>a) To report on scientific breakthroughs with accuracy.<br>b) When weather forecasts need to be very detailed.<br>c) To simplify complex political landscapes for readers.<br>d) They always avoid binary framing in favor of nuanced language.",
+    "6.2.10": "Which of the following best describes the main point of the passage?<br>a) Complex concepts should never be described with simple language.<br>b) Language perfectly captures the nuances of the real world.<br>c) Binary terms are always misleading and should be avoided.<br>d) We should be aware of how language can simplify complex ideas.",
+    "6.2.11": "When reading news articles, what should you do to become a more critical consumer of information?<br>a) Focus on headlines and avoid reading the full article.<br>b) Look for articles that use only binary terms for clarity.<br>c) Be skeptical of dramatic language and seek out more details.<br>d) Trust all information presented by reputable news sources.",
+    "6.2.12": "Imagine you are a teacher explaining the concept of “healthy” to your students. How might you use language that acknowledges the limitations of a binary term?<br>a) Simply tell them “healthy” means feeling good.<br>b) Explain there are many factors that contribute to overall health.<br>c) Divide students into “healthy” and “unhealthy” groups.<br>d) Instruct them to memorize a list of healthy foods.",
+    "6.1.12": "c) Calling every person either intelligent or unintelligent."
+  },
+  "countChecks": [
+    {
+      "name": "1.1.ol source list counts",
+      "selector": "#prompt-1 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        8,
+        5
+      ]
+    },
+    {
+      "name": "1.2.ul source list counts",
+      "selector": "#prompt-1 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        4,
+        3
+      ]
+    },
+    {
+      "name": "2.1.ol source list counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        12
+      ]
+    },
+    {
+      "name": "2.2.ul source list counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        12
+      ]
+    },
+    {
+      "name": "3.1.ol source list counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        8
+      ]
+    },
+    {
+      "name": "3.2.ol source list counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        5
+      ]
+    },
+    {
+      "name": "4.1.ol source list counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        6
+      ]
+    },
+    {
+      "name": "4.1.ul source list counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"1\"] ul",
+      "child": "li",
+      "expected": [
+        5
+      ]
+    },
+    {
+      "name": "4.2.ul source list counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "5.1.ol source list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        5
+      ]
+    },
+    {
+      "name": "5.2.ol source list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "5.2.ul source list counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "6.1.ol source list counts",
+      "selector": "#prompt-6 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        10,
+        10
+      ]
+    },
+    {
+      "name": "6.2.ol source list counts",
+      "selector": "#prompt-6 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        10,
+        10
+      ]
+    },
+    {
+      "name": "7.1.ol source list counts",
+      "selector": "#prompt-7 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    },
+    {
+      "name": "7.2.ol source list counts",
+      "selector": "#prompt-7 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    }
+  ],
+  "orderedListStarts": {
+    "1.1": [
+      1,
+      1
+    ],
+    "5.2": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "responseDecisions": {
+    "1.1": "Preserve eight examples, five distortions and exact Claude substitution note. Separate confidence from categorical belief, multiple dimensions from a single gradient, legal city status from urban character, and moral evaluations from assumed moral facts. Retain response progression and make distortions conditional on relevant missing information.",
+    "1.2": "Preserve four examples and three limitations. Retain effective strangeness and qualifying-language passages; clarify suspension/disbelief, domain-specific expertise and administrative city status. Avoid unconditional agreement with the prompt.",
+    "2.1": "Preserve twelve-entry order and topics except the duplicated Intelligence item, explicitly replaced by Reliability. Explain multidimensional success/health/wealth, personality tendencies, addiction criteria and measurement uncertainty. Acknowledge deliberate revisiting of earlier concepts.",
+    "2.2": "Preserve twelve entries. Retain Old, Wet and Formal verbatim; correct clean-as-subjective, sweetness/sugar, busy/burnout, modernity-as-one-scale and health-as-total-verdict claims.",
+    "3.1": "Preserve eight problem areas and supply named primary evidence: EEOC settlement, Card/Giuliano screening, AMA BMI policy, Loving, Ofqual grades, Census SPM, youth hockey selection and Pew typology. Distinguish documented harms, institutional responses, measurement limitations and causal inferences; avoid claiming language alone caused outcomes.",
+    "3.2": "Preserve five areas. Add historical ACC definition change, EEOC employment dispute, gifted screening, Hall threshold and Loomis risk-score cautions. Replace erroneous uniform accomplice punishment claim; distinguish category decisions, underlying profiles and measurement uncertainty. Repeated cases intentionally develop the companion response.",
+    "4.1": "Preserve six criteria and five diagnostic questions, most verbatim. Improve precision/accuracy and novice explanations; add decision-changing-information test and distinguish eligibility result from capacity judgment.",
+    "4.2": "Preserve three uses, three reasons for detail and three balancing practices. Correct universal-symbol and nonexistent-yellow-light examples; distinguish categorical action from graded risk, use informative qualifiers, avoid medical totalization and explain multi-category thresholds.",
+    "5.1": "Keep five original subject areas. Supply clearly hypothetical headline patterns and concrete headline/body checks, with no invented quotes or frequency estimates. Distinguish distortion from proven intent; ordinary suffering language is not evidence of deception.",
+    "5.2": "Keep five numbered areas and two subitems per area. Restore sequential numbering. Improve celebrity uncertainty/relationship distinction, scientific evidence stages, localized weather risk and single-indicator economic claims. Do not attribute hypothetical examples to real outlets.",
+    "6.1": "Read every original question/key pair. Preserve ten items and ten answers at end. Replace ambiguous all-gradient multiple-choice options, unproved intent true/false claim, motive inference and subjectivity overgeneralization; align changed answers. Format options on separate lines.",
+    "6.2": "Read every original question/key pair. Preserve ten items and end key. Repair multiple valid least-binary options, mismatched media categories and implication that all concise signals are universal; align mental-health and headline answers. Format options on separate lines.",
+    "7.1": "Preserve fifteen questions, thirteen verbatim. Refine intentional simplification question and quantitative precision/uncertainty question; remove blanket motive claim from conclusion.",
+    "7.2": "Preserve fifteen questions, thirteen verbatim. Qualify media motive premise and replace false either/or about vocabulary evolution with a productive comparison."
+  }
+}

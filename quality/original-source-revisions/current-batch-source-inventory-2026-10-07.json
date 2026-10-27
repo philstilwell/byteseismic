@@ -4,10 +4,10 @@
   "startIndex": 100,
   "endIndexExclusive": 150,
   "candidateWordPressOriginals": 49,
-  "fullyReviewed": 38,
-  "pendingFullReview": 12,
+  "fullyReviewed": 39,
+  "pendingFullReview": 11,
   "sourceBlocked": 0,
-  "limitation": "Thirty-seven entries have substantive review and source verification; thirteen remain pending. No batch advancement. Half-Searches reviewed this run; per-response decisions, source scopes and limitations are recorded in its verification file. All prior page-specific limitations remain effective.",
+  "limitation": "Thirty-nine entries have substantive review and source verification; eleven remain pending. Gradient Concepts and Binary Terms reviewed this run. No batch advancement. Per-response decisions, bounded research scopes and limitations are recorded in page verification; all prior page-specific limitations remain effective.",
   "pages": [
     {
       "pagePath": "/philosophers/philosopher-club-membership/",
@@ -1005,7 +1005,7 @@
       "pagePath": "/philosophy-of-language/gradient-concepts-and-binary-terms/",
       "pageTitle": "Gradient Concepts and Binary Terms",
       "queueIndex": 139,
-      "status": "pending-full-review",
+      "status": "reviewed-verified",
       "wordpressId": 2837,
       "sourceUrl": "http://byteseismic.com/2024/03/08/gradient-concepts-and-binary-terms/",
       "sourceTitle": "Gradient Concepts and Binary Terms",
@@ -1023,8 +1023,12 @@
         "Provide 15 discussion questions relevant to the content above. "
       ],
       "wordCount": 6310,
-      "fullSourceRead": false,
-      "editorialReviewComplete": false
+      "fullSourceRead": true,
+      "editorialReviewComplete": true,
+      "fullPreviousEditionRead": true,
+      "reviewedAt": "2026-10-27T13:24:56.573828+00:00",
+      "verification": "quality/original-source-revisions/gradient-concepts-and-binary-terms-verification-2026-10-27.json",
+      "revisionConfig": "quality/original-source-revisions/gradient-concepts-and-binary-terms-edits.json"
     },
     {
       "pagePath": "/epistemology/epistemology-core-concepts/",
@@ -1294,6 +1298,6 @@
       "editorialReviewComplete": false
     }
   ],
-  "updatedAt": "2026-10-26",
-  "recordedAt": "2026-10-26T13:21:36.111716+00:00"
+  "updatedAt": "2026-10-27",
+  "recordedAt": "2026-10-27T13:24:56.573828+00:00"
 }

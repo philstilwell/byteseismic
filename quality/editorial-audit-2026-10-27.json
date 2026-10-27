@@ -1,0 +1,329 @@
+{
+  "recordedAt": "2026-10-27T13:24:56.573828+00:00",
+  "savedModel": "gpt-6-astra",
+  "savedReasoningEffort": "high",
+  "runtimeModelIdentity": "Not independently verified",
+  "cycle": 8,
+  "currentBatchStart": 100,
+  "currentBatchEndExclusive": 150,
+  "newPagesReviewed": 1,
+  "newPagePaths": [
+    "/philosophy-of-language/gradient-concepts-and-binary-terms/"
+  ],
+  "currentBatchReviewed": 39,
+  "currentBatchPending": 11,
+  "sourceBlocked": 0,
+  "restartedPassSubstantivelyReviewed": 139,
+  "restartedPassNotYetReviewed": 207,
+  "officialCompletedBatchPages": 100,
+  "officialRemainingPages": 246,
+  "trackerAdvanced": false,
+  "nextPendingPage": "/epistemology/epistemology-core-concepts/",
+  "followingBatch": "Index150 What are Ethics?; inactive",
+  "source": {
+    "cache": ".cache/byteseismic-posts-with-content.json",
+    "cacheSha256": "632a713e5539d66a4dd778a482fa0da0eaa6131dd077bc3d02f5e766c88b8344",
+    "wordpressId": 2837,
+    "title": "Gradient Concepts and Binary Terms",
+    "url": "http://byteseismic.com/2024/03/08/gradient-concepts-and-binary-terms/",
+    "snapshot": "gradient-concepts-and-binary-terms-wordpress-2837.html",
+    "kind": "Original WordPress conversation",
+    "urlTitlePromptMatch": true,
+    "fullSourceRead": true,
+    "fullPreviousEditionRead": true,
+    "sourceLogoOrder": [
+      "ChatGPT",
+      "Gemini"
+    ],
+    "sourceModelCaveat": "Exact Claude 3 Sonnet substitution note retained; later first source track left unattributed."
+  },
+  "responseDecisions": {
+    "1.1": "Preserve eight examples, five distortions and exact Claude substitution note. Separate confidence from categorical belief, multiple dimensions from a single gradient, legal city status from urban character, and moral evaluations from assumed moral facts. Retain response progression and make distortions conditional on relevant missing information.",
+    "1.2": "Preserve four examples and three limitations. Retain effective strangeness and qualifying-language passages; clarify suspension/disbelief, domain-specific expertise and administrative city status. Avoid unconditional agreement with the prompt.",
+    "2.1": "Preserve twelve-entry order and topics except the duplicated Intelligence item, explicitly replaced by Reliability. Explain multidimensional success/health/wealth, personality tendencies, addiction criteria and measurement uncertainty. Acknowledge deliberate revisiting of earlier concepts.",
+    "2.2": "Preserve twelve entries. Retain Old, Wet and Formal verbatim; correct clean-as-subjective, sweetness/sugar, busy/burnout, modernity-as-one-scale and health-as-total-verdict claims.",
+    "3.1": "Preserve eight problem areas and supply named primary evidence: EEOC settlement, Card/Giuliano screening, AMA BMI policy, Loving, Ofqual grades, Census SPM, youth hockey selection and Pew typology. Distinguish documented harms, institutional responses, measurement limitations and causal inferences; avoid claiming language alone caused outcomes.",
+    "3.2": "Preserve five areas. Add historical ACC definition change, EEOC employment dispute, gifted screening, Hall threshold and Loomis risk-score cautions. Replace erroneous uniform accomplice punishment claim; distinguish category decisions, underlying profiles and measurement uncertainty. Repeated cases intentionally develop the companion response.",
+    "4.1": "Preserve six criteria and five diagnostic questions, most verbatim. Improve precision/accuracy and novice explanations; add decision-changing-information test and distinguish eligibility result from capacity judgment.",
+    "4.2": "Preserve three uses, three reasons for detail and three balancing practices. Correct universal-symbol and nonexistent-yellow-light examples; distinguish categorical action from graded risk, use informative qualifiers, avoid medical totalization and explain multi-category thresholds.",
+    "5.1": "Keep five original subject areas. Supply clearly hypothetical headline patterns and concrete headline/body checks, with no invented quotes or frequency estimates. Distinguish distortion from proven intent; ordinary suffering language is not evidence of deception.",
+    "5.2": "Keep five numbered areas and two subitems per area. Restore sequential numbering. Improve celebrity uncertainty/relationship distinction, scientific evidence stages, localized weather risk and single-indicator economic claims. Do not attribute hypothetical examples to real outlets.",
+    "6.1": "Read every original question/key pair. Preserve ten items and ten answers at end. Replace ambiguous all-gradient multiple-choice options, unproved intent true/false claim, motive inference and subjectivity overgeneralization; align changed answers. Format options on separate lines.",
+    "6.2": "Read every original question/key pair. Preserve ten items and end key. Repair multiple valid least-binary options, mismatched media categories and implication that all concise signals are universal; align mental-health and headline answers. Format options on separate lines.",
+    "7.1": "Preserve fifteen questions, thirteen verbatim. Refine intentional simplification question and quantitative precision/uncertainty question; remove blanket motive claim from conclusion.",
+    "7.2": "Preserve fifteen questions, thirteen verbatim. Qualify media motive premise and replace false either/or about vocabulary evolution with a productive comparison."
+  },
+  "fidelity": {
+    "pagePath": "/philosophy-of-language/gradient-concepts-and-binary-terms/",
+    "sourceSha256": "095d8024def532137cf13495cb08a1e0098c9db4b43d5570e095b497d0b0b6a0",
+    "originalPrompts": 7,
+    "originalHeadings": 7,
+    "sourceColumns": 14,
+    "modelResponses": 14,
+    "blocksRetainedVerbatim": 79,
+    "tableCellsExplicitlyRevised": 0,
+    "blocksExplicitlyRevised": 123,
+    "bareAnswersExplicitlyRevised": 0,
+    "promptOrderExact": true,
+    "sourceBlockOrderExact": true,
+    "listAndTableStructuresPreserved": true,
+    "explicitListItemSplits": [],
+    "explicitResponseAppendices": [],
+    "formatChecks": {
+      "1.1.ol source list counts": [
+        8,
+        5
+      ],
+      "1.2.ul source list counts": [
+        4,
+        3
+      ],
+      "2.1.ol source list counts": [
+        12
+      ],
+      "2.2.ul source list counts": [
+        12
+      ],
+      "3.1.ol source list counts": [
+        8
+      ],
+      "3.2.ol source list counts": [
+        5
+      ],
+      "4.1.ol source list counts": [
+        6
+      ],
+      "4.1.ul source list counts": [
+        5
+      ],
+      "4.2.ul source list counts": [
+        3,
+        3,
+        3
+      ],
+      "5.1.ol source list counts": [
+        5
+      ],
+      "5.2.ol source list counts": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "5.2.ul source list counts": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "6.1.ol source list counts": [
+        10,
+        10
+      ],
+      "6.2.ol source list counts": [
+        10,
+        10
+      ],
+      "7.1.ol source list counts": [
+        15
+      ],
+      "7.2.ol source list counts": [
+        15
+      ]
+    },
+    "sha256": "516abd45f99ee11fb85db6d53b64c032b30cbeccd94a48d7b537e39f3abef2c1",
+    "recordedAt": "2026-10-27T13:24:56.573828+00:00",
+    "source": {
+      "cache": ".cache/byteseismic-posts-with-content.json",
+      "cacheSha256": "632a713e5539d66a4dd778a482fa0da0eaa6131dd077bc3d02f5e766c88b8344",
+      "wordpressId": 2837,
+      "title": "Gradient Concepts and Binary Terms",
+      "url": "http://byteseismic.com/2024/03/08/gradient-concepts-and-binary-terms/",
+      "snapshot": "gradient-concepts-and-binary-terms-wordpress-2837.html",
+      "kind": "Original WordPress conversation",
+      "urlTitlePromptMatch": true,
+      "fullSourceRead": true,
+      "fullPreviousEditionRead": true,
+      "sourceLogoOrder": [
+        "ChatGPT",
+        "Gemini"
+      ],
+      "sourceModelCaveat": "Exact Claude 3 Sonnet substitution note retained; later first source track left unattributed."
+    },
+    "fullSourceRead": true,
+    "fullPreviousEditionRead": true,
+    "responseDecisions": {
+      "1.1": "Preserve eight examples, five distortions and exact Claude substitution note. Separate confidence from categorical belief, multiple dimensions from a single gradient, legal city status from urban character, and moral evaluations from assumed moral facts. Retain response progression and make distortions conditional on relevant missing information.",
+      "1.2": "Preserve four examples and three limitations. Retain effective strangeness and qualifying-language passages; clarify suspension/disbelief, domain-specific expertise and administrative city status. Avoid unconditional agreement with the prompt.",
+      "2.1": "Preserve twelve-entry order and topics except the duplicated Intelligence item, explicitly replaced by Reliability. Explain multidimensional success/health/wealth, personality tendencies, addiction criteria and measurement uncertainty. Acknowledge deliberate revisiting of earlier concepts.",
+      "2.2": "Preserve twelve entries. Retain Old, Wet and Formal verbatim; correct clean-as-subjective, sweetness/sugar, busy/burnout, modernity-as-one-scale and health-as-total-verdict claims.",
+      "3.1": "Preserve eight problem areas and supply named primary evidence: EEOC settlement, Card/Giuliano screening, AMA BMI policy, Loving, Ofqual grades, Census SPM, youth hockey selection and Pew typology. Distinguish documented harms, institutional responses, measurement limitations and causal inferences; avoid claiming language alone caused outcomes.",
+      "3.2": "Preserve five areas. Add historical ACC definition change, EEOC employment dispute, gifted screening, Hall threshold and Loomis risk-score cautions. Replace erroneous uniform accomplice punishment claim; distinguish category decisions, underlying profiles and measurement uncertainty. Repeated cases intentionally develop the companion response.",
+      "4.1": "Preserve six criteria and five diagnostic questions, most verbatim. Improve precision/accuracy and novice explanations; add decision-changing-information test and distinguish eligibility result from capacity judgment.",
+      "4.2": "Preserve three uses, three reasons for detail and three balancing practices. Correct universal-symbol and nonexistent-yellow-light examples; distinguish categorical action from graded risk, use informative qualifiers, avoid medical totalization and explain multi-category thresholds.",
+      "5.1": "Keep five original subject areas. Supply clearly hypothetical headline patterns and concrete headline/body checks, with no invented quotes or frequency estimates. Distinguish distortion from proven intent; ordinary suffering language is not evidence of deception.",
+      "5.2": "Keep five numbered areas and two subitems per area. Restore sequential numbering. Improve celebrity uncertainty/relationship distinction, scientific evidence stages, localized weather risk and single-indicator economic claims. Do not attribute hypothetical examples to real outlets.",
+      "6.1": "Read every original question/key pair. Preserve ten items and ten answers at end. Replace ambiguous all-gradient multiple-choice options, unproved intent true/false claim, motive inference and subjectivity overgeneralization; align changed answers. Format options on separate lines.",
+      "6.2": "Read every original question/key pair. Preserve ten items and end key. Repair multiple valid least-binary options, mismatched media categories and implication that all concise signals are universal; align mental-health and headline answers. Format options on separate lines.",
+      "7.1": "Preserve fifteen questions, thirteen verbatim. Refine intentional simplification question and quantitative precision/uncertainty question; remove blanket motive claim from conclusion.",
+      "7.2": "Preserve fifteen questions, thirteen verbatim. Qualify media motive premise and replace false either/or about vocabulary evolution with a productive comparison."
+    },
+    "research": [
+      {
+        "url": "https://www.eeoc.gov/newsroom/interconnect-cable-technologies-pay-35000-settle-eeoc-disability-discrimination-suit",
+        "scope": "Full short EEOC settlement announcement, December 18 2020. Allegations and settlement distinguished from adjudicated findings; no independent litigation-file review."
+      },
+      {
+        "url": "https://files.eric.ed.gov/fulltext/ED578122.pdf",
+        "scope": "Card and Giuliano 2016: abstract, opening study design and first results paragraphs. Verified unchanged eligibility standards and screening/referral distinction. No full statistical replication. NBER page returned403; original paper read through ERIC."
+      },
+      {
+        "url": "https://www.ama-assn.org/press-center/ama-press-releases/ama-adopts-new-policy-clarifying-role-bmi-measure-medicine",
+        "scope": "2023 policy announcement body on limitations, accompanying measures and insurance reimbursement; not a claim that BMI or weight labels alone cause eating disorders."
+      },
+      {
+        "url": "https://www.law.cornell.edu/supremecourt/text/388/1",
+        "scope": "Original Loving opinion opening, factual background and statutory classifications. Official GovInfo PDF timed out; primary opinion text hosted by Cornell read instead."
+      },
+      {
+        "url": "https://www.gov.uk/government/news/statement-from-roger-taylor-chair-ofqual",
+        "scope": "Full short August17 2020 statement: distress, public confidence and decision to award higher of teacher/center estimate or calculated grade."
+      },
+      {
+        "url": "https://www2.census.gov/library/publications/2012/demo/p60-244.pdf",
+        "scope": "2011 SPM report opening two pages and indexed passage on taxes, transfers and expenses. No current poverty-rate claim or full report analysis."
+      },
+      {
+        "url": "https://pubmed.ncbi.nlm.nih.gov/23611016/",
+        "scope": "Indexed original study abstract: 147991 male youth hockey players, selected/noncompetitive comparisons and qualified parental/coach explanation. Direct PubMed open returned a bare shell; no full-text claim."
+      },
+      {
+        "url": "https://www.pewresearch.org/politics/2021/11/09/beyond-red-vs-blue-the-political-typology-2021/",
+        "scope": "2021 overview passages on nine groups, within-party heterogeneity and survey sample. No claim that this is the current typology or that the survey establishes label-induced polarization."
+      },
+      {
+        "url": "https://www.acc.org/About-ACC/Press-Releases/2017/11/13/15/35/High-blood-pressure-redefined-for-first-time-in-14-years-130-is-the-new-high",
+        "scope": "2017 announcement opening paragraphs, 32%/46% classification comparison and small medication increase. Explicitly historical classification example, not current treatment guidance."
+      },
+      {
+        "url": "https://www.govinfo.gov/content/pkg/USREPORTS-572/pdf/USREPORTS-572-701.pdf",
+        "scope": "Hall2014 syllabus and opinion opening; IQ71, rigid70 cutoff and measurement uncertainty. Earlier SupremeCourt slip PDF404; recovered official bound report."
+      },
+      {
+        "url": "https://www.wicourts.gov/sc/opinion/DisplayDocument.pdf?content=pdf&seqNo=171690",
+        "scope": "Loomis2016 opinion opening, group/individual discussion and limitations at paragraphs44 and93–99. Affirmance and limited consideration distinguished from finding personal dangerousness. Not full opinion review."
+      }
+    ],
+    "limitations": [
+      "Only this page received substantive editorial review during this run; eleven current-batch pages remain pending. No batch advancement.",
+      "The source contains ChatGPT/Gemini logos and an explicit Claude 3 Sonnet substitution note in response1.1. Exact note retained; later first-column model identity remains unspecified.",
+      "Not all examples are a single continuous gradient. Administrative status, multidimensional profiles, measurement uncertainty and social classification are distinguished.",
+      "Actual cases include settlement allegations, studies, policy responses and judicial decisions; causal claims about words alone are not established. Some entries document representational limits rather than a proven injury.",
+      "Media examples are clearly labeled illustrative patterns, not invented quotations from real outlets. No outlet-frequency estimate or proof of intent is claimed.",
+      "Original duplicate Intelligence entry in the twelve-item extension is replaced with Reliability and disclosed; other original topic order, list shapes and response placement retained.",
+      "Research scopes are bounded as recorded; direct source failures use identified alternatives or explicitly indexed abstracts.",
+      "Browser checks are desktop/mobile spot checks, not full accessibility, device or cross-browser certification. Static source quizzes retain answer keys at the end.",
+      "All prior page-specific limitations and all 35 site-native approvals remain effective. No source approval is being requested."
+    ],
+    "negativeControls": {
+      "missing prompt": "rejected",
+      "missing response": "rejected",
+      "missing Claude note": "rejected",
+      "missing case": "rejected",
+      "missing answer": "rejected",
+      "missing discussion": "rejected",
+      "swapped prompts": "rejected"
+    },
+    "browser": {
+      "desktopViewport": [
+        1280,
+        720
+      ],
+      "mobileViewport": [
+        390,
+        844
+      ],
+      "desktopDocumentWidth": 1280,
+      "mobileDocumentWidth": 390,
+      "promptToQuizNavigation": "Desktop original prompt-ledger link reached #prompt-6; mobile layout inspected after explicit scrolling, not a mobile anchor-arrival certification.",
+      "prompts": 7,
+      "responsePositions": 14,
+      "quizAndEndKeyCounts": [
+        [
+          10,
+          10
+        ],
+        [
+          10,
+          10
+        ]
+      ],
+      "discussionCounts": [
+        15,
+        15
+      ],
+      "mediaListStarts": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "sourceNote": "* Claude 3 Sonnet stepped in for a sluggish ChatGPT 4.",
+      "scope": "Desktop quiz and settled mobile case/quiz visual spot checks; 7 prompts,14 response positions and exact source note checked in browser DOM. No measured horizontal overflow. Initial mobile screenshots preceded settled target positioning; explicit scrolling used before final visual check.",
+      "console": "Only observed Cloudflare analytics CORS/resource errors on local preview."
+    },
+    "requestedCounts": {
+      "mediaExamples": [
+        5,
+        5
+      ],
+      "quizQuestions": [
+        10,
+        10
+      ],
+      "endAnswerKeys": [
+        10,
+        10
+      ],
+      "discussionQuestions": [
+        15,
+        15
+      ],
+      "discussionQuestionsRetainedVerbatim": 26
+    },
+    "originalPromptTexts": [
+      "Many concepts that are intrinsically gradient are reflected in language with binary or granular terms that lack nuance. Provide a list of such terms including “belief”, “strange”, “expert”, and “city”. Elaborate on how the linguistic terms may distort the gradient nature of the underlying conceptual reality.",
+      "Provide an additional list of gradient concepts that are often reduced to binary or granular categories by linguistic terms.",
+      "Provide actual cases in which the use of an inadequate binary or granular term created real-life issues.",
+      "Discuss how we can determine whether a context is best served by a low-resolution binary term or by a more nuanced and conceptually precise high-resolution phrase.",
+      "The media is frequently guilty of intentionally employing low-resolution terms to loosely reflect gradient concepts to capture readership. Give 5 examples of this and highlight the clues this is being done.",
+      "Create a 10-item quiz on the discussion above with answers at the end. ",
+      "Provide 15 discussion questions relevant to the content above. "
+    ],
+    "isolatedFullBuildPreservedPage": true
+  },
+  "limitations": [
+    "Only this page received substantive editorial review during this run; eleven current-batch pages remain pending. No batch advancement.",
+    "The source contains ChatGPT/Gemini logos and an explicit Claude 3 Sonnet substitution note in response1.1. Exact note retained; later first-column model identity remains unspecified.",
+    "Not all examples are a single continuous gradient. Administrative status, multidimensional profiles, measurement uncertainty and social classification are distinguished.",
+    "Actual cases include settlement allegations, studies, policy responses and judicial decisions; causal claims about words alone are not established. Some entries document representational limits rather than a proven injury.",
+    "Media examples are clearly labeled illustrative patterns, not invented quotations from real outlets. No outlet-frequency estimate or proof of intent is claimed.",
+    "Original duplicate Intelligence entry in the twelve-item extension is replaced with Reliability and disclosed; other original topic order, list shapes and response placement retained.",
+    "Research scopes are bounded as recorded; direct source failures use identified alternatives or explicitly indexed abstracts.",
+    "Browser checks are desktop/mobile spot checks, not full accessibility, device or cross-browser certification. Static source quizzes retain answer keys at the end.",
+    "All prior page-specific limitations and all 35 site-native approvals remain effective. No source approval is being requested."
+  ],
+  "verificationStatus": "passed",
+  "build": {
+    "exitCode": 0,
+    "contentPages": 723,
+    "pagesAudited": 840,
+    "reviewedPagesPreserved": 139,
+    "repeatedHeadingNotices": 256,
+    "failingCategories": 0
+  },
+  "delivery": "Eight explicitly selected authorized files prepared for commit/push; exact commit and independent remote confirmation recorded in automation memory and final response."
+}
