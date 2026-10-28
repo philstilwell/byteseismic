@@ -4,10 +4,10 @@
   "startIndex": 100,
   "endIndexExclusive": 150,
   "candidateWordPressOriginals": 49,
-  "fullyReviewed": 39,
-  "pendingFullReview": 11,
+  "fullyReviewed": 40,
+  "pendingFullReview": 10,
   "sourceBlocked": 0,
-  "limitation": "Thirty-nine entries have substantive review and source verification; eleven remain pending. Gradient Concepts and Binary Terms reviewed this run. No batch advancement. Per-response decisions, bounded research scopes and limitations are recorded in page verification; all prior page-specific limitations remain effective.",
+  "limitation": "Forty current-batch pages have substantive review and verification; ten remain pending. Epistemology — Core Concepts reviewed this run. No batch advancement. Per-response decisions and bounded research scopes recorded in page verification; all prior limitations remain effective.",
   "pages": [
     {
       "pagePath": "/philosophers/philosopher-club-membership/",
@@ -1034,7 +1034,7 @@
       "pagePath": "/epistemology/epistemology-core-concepts/",
       "pageTitle": "Epistemology — Core Concepts",
       "queueIndex": 140,
-      "status": "pending-full-review",
+      "status": "reviewed-verified",
       "wordpressId": 1081,
       "sourceUrl": "http://byteseismic.com/2024/02/24/epistemology-core-concepts/",
       "sourceTitle": "Epistemology — Core Concepts",
@@ -1051,8 +1051,8 @@
         "Provide 15 discussion questions relevant to the content above on epistemology."
       ],
       "wordCount": 5905,
-      "fullSourceRead": false,
-      "editorialReviewComplete": false
+      "fullSourceRead": true,
+      "editorialReviewComplete": true
     },
     {
       "pagePath": "/philosophical-inquiry/do-i-need-a-worldview/",
@@ -1298,6 +1298,6 @@
       "editorialReviewComplete": false
     }
   ],
-  "updatedAt": "2026-10-27",
-  "recordedAt": "2026-10-27T13:24:56.573828+00:00"
+  "updatedAt": "2026-10-28",
+  "recordedAt": "2026-10-28T13:34:07.250030+00:00"
 }

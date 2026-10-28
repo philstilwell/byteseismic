@@ -1,0 +1,210 @@
+{
+  "pagePath": "/epistemology/epistemology-core-concepts/",
+  "sourceSha256": "fc2296b4b8f2469f2fdeff713cb91aef9a844838dcb2b57836d3c7d4ceec3752",
+  "originalPrompts": 6,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 111,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 146,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "1.1.ol original counts": [
+      30
+    ],
+    "1.2.ol original counts": [
+      30
+    ],
+    "2.1.ol original counts": [
+      10
+    ],
+    "2.2.ul original counts": [
+      3,
+      3,
+      2,
+      2,
+      2
+    ],
+    "3.1.ul original counts": [
+      3,
+      2,
+      3,
+      3,
+      2
+    ],
+    "3.2.ul original counts": [
+      2,
+      1,
+      2,
+      2,
+      1,
+      1,
+      2,
+      1,
+      3
+    ],
+    "4.1.ol original counts": [
+      9
+    ],
+    "4.2.ul original counts": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "5.2.ol original counts": [
+      10,
+      10
+    ],
+    "6.1.ol original counts": [
+      15
+    ],
+    "6.2.ol original counts": [
+      15
+    ]
+  },
+  "sha256": "13433ce14306bbcd060bf3b3cb8a88d27414a6196fc08e3431dc60411998b2df",
+  "recordedAt": "2026-10-28T13:34:07.250030+00:00",
+  "source": {
+    "kind": "Original WordPress conversation",
+    "cache": ".cache/byteseismic-posts-with-content.json",
+    "cacheSha256": "632a713e5539d66a4dd778a482fa0da0eaa6131dd077bc3d02f5e766c88b8344",
+    "wordpressId": 1081,
+    "url": "http://byteseismic.com/2024/02/24/epistemology-core-concepts/",
+    "title": "Epistemology — Core Concepts",
+    "snapshot": "epistemology-core-concepts-wordpress-1081.html",
+    "sha256": "fc2296b4b8f2469f2fdeff713cb91aef9a844838dcb2b57836d3c7d4ceec3752",
+    "urlTitlePromptMatch": true,
+    "fullSourceRead": true,
+    "fullPreviousEditionRead": true,
+    "sourceLogoOrder": [
+      "ChatGPT",
+      "Gemini"
+    ],
+    "curatorExchanges": "No additional dialogue or curator corrections outside the six original prompts in this source."
+  },
+  "responseDecisions": {
+    "1.1": "Retain all thirty terms and their order. Correct certainty, intuition, deduction, fallibilism, contextualism and testimony definitions; distinguish internalist variants, source reliability and confidence. Retain eleven effective original entries verbatim.",
+    "1.2": "Retain thirty entries, including paired contrasts as source entries. Remove nonexistent image instruction and settled-Plato JTB attribution. Repair induction-as-fallacy, foundationalism-as-certainty, proposition/sentence, modality/necessity and sensation-as-uninterpreted conflations. Keep useful simple definitions.",
+    "2.1": "Keep ten concepts in order. Incorporate the previous edition’s useful bridge-report example within justification; distinguish copied reports from independent support. Explain regress, coherence-fiction challenge, truth/usefulness and contextualism versus subject stakes.",
+    "2.2": "Keep seven topics and nested source lists. Correct dismissal of friends’ testimony and anti-realism as total denial of reality. Add actual Gettier job/coins case; distinguish concepts learned through experience from a priori justification. No dialogue or curator correction existed here to reconstruct.",
+    "3.1": "Retain all selected figures and ordering. Correct Augustine’s period, Descartes founder claim, Locke sensation/reflection, Kant innate/a priori and Peirce usefulness caricatures; distinguish social epistemology from relativism. Explain methodological changes and continuity.",
+    "3.2": "Retain source figure/topic order while correcting period headings and explicitly identifying earlier antecedents. Correct Aristotle Hellenistic label, Augustine inventing skepticism, Kant nineteenth-century placement, Hume certainty caricature and linear rationalism-to-empiricism story. Add Gettier within analytic philosophy and explain verificationism’s difficulty.",
+    "4.1": "Keep nine fields. Date scope to the original conversation, avoid unsupported novelty ranking, add independent-source and AI-verification examples, qualify survey-based philosophical conclusions and consensus. Retain formal epistemology definition and closing connection.",
+    "4.2": "Keep six fields and three questions/aims each. Clarify plural feminist/decolonial positions, evidence requirements, embodied competence and description versus justification. Retain most original questions.",
+    "5.1": "Read all ten questions and the compact end key together. Replace father-of-empiricism ambiguity, overlapping hermeneutical-category answers and repetitive Locke question with precise targets including fallibilism. Add line breaks while retaining source paragraph layout and ten end answers.",
+    "5.2": "Read all ten questions and ten answers together. Repair skepticism wording, a priori meaning, gender generalization and overlapping testimony/social-epistemology and embodiment distractors. Preserve ordered question/key lists and exact counts.",
+    "6.1": "Retain twelve of fifteen discussion questions verbatim; revise JTB sufficiency and two historical questions to avoid assuming unestablished influence claims.",
+    "6.2": "Retain thirteen of fifteen questions verbatim; remove objective-versus-perspective false dichotomy and distinguish experiential report from further inferences."
+  },
+  "research": [
+    {
+      "url": "https://people.umass.edu/gmhwww/382/Resources/Is%20Justified%20True%20Belief%20Knowledge.htm",
+      "scope": "Complete short Gettier 1963 paper, including both cases and notes; UMass transcription. Initial Fitelson PDF timed out."
+    },
+    {
+      "url": "https://www.gutenberg.org/files/10615/10615-h/10615-h.htm",
+      "scope": "Locke Essay Book II chapter I opening on sensation/reflection and chapter VI passage on reflection; not the whole book."
+    },
+    {
+      "url": "https://web.stanford.edu/class/history34q/readings/Kant/CritiquePreface.html",
+      "scope": "Kant preface passage on objects/knowledge and introduction opening on experience versus a priori; edition dates checked. Not a whole Critique reading."
+    },
+    {
+      "url": "https://www.peirce.org/writings/p119.html",
+      "scope": "1878 essay passages on inquiry, truth and reality, especially final part; not a full Peirce corpus review."
+    },
+    {
+      "url": "https://www.newadvent.org/fathers/120111.htm",
+      "scope": "Augustine City of God XI.26 argument against skeptical doubt about existing; not the whole work."
+    },
+    {
+      "url": "https://academic.oup.com/book/32817",
+      "scope": "Fricker 2007 publisher book abstract and chapter abstracts for testimonial and hermeneutical injustice; no full-book access claimed."
+    },
+    {
+      "url": "https://classics.mit.edu/Aristotle/posterior.2.ii.html",
+      "scope": "Posterior Analytics II.19 on perception, memory, experience and primary premises; selected earlier demonstration passages. Not a complete Aristotle survey."
+    },
+    {
+      "url": "https://www.gutenberg.org/files/9662/9662-h/9662-h.htm",
+      "scope": "Enquiry editorial index paragraphs summarizing sections IV/V on induction and custom; no fresh full-text reading claimed for those sections."
+    },
+    {
+      "url": "https://home.csulb.edu/~cwallis/382/readings/382/quine%20epistemology%20naturalized.html",
+      "scope": "Quine Epistemology Naturalized pages82–84 psychology/input-output passage; 1969 date corroborated against publisher chapter metadata. Not the whole chapter."
+    }
+  ],
+  "limitations": [
+    "Only Epistemology — Core Concepts received full editorial review this run; ten current-batch pages remain pending. No tracker advancement.",
+    "Timelines retain the original mainly European selection. Corrected period headings and explicit antecedent labels preserve figure order; this is not a global history.",
+    "The second glossary preserves thirty original entries including overlapping paired contrasts. These are entries, not a claim to thirty mutually exclusive concepts.",
+    "Current-interest lists are framed relative to the original 2024 conversation, not as a newly measured 2026 ranking.",
+    "Primary research was scoped as recorded; historical interpretation remains selective. No claim that one definition of knowledge or theory of truth is settled.",
+    "Browser verification is desktop/mobile quiz-layout spot checking; mobile position used explicit scrolling, not certified mobile anchor arrival. Static quizzes keep end keys.",
+    "All prior page-specific concerns and all35 approved site-native baselines remain effective. No new baseline approval requested.",
+    "Saved project path remains absent; actual repository is in iCloud Documents. Saved automation model is gpt-6-astra/high; runtime identity not independently verified."
+  ],
+  "negativeControls": {
+    "missing prompt": "rejected",
+    "missing response": "rejected",
+    "missing glossary term": "rejected",
+    "missing timeline passage": "rejected",
+    "missing compact answer key": "rejected",
+    "missing second quiz answer": "rejected",
+    "missing discussion question": "rejected",
+    "reordered prompts": "rejected"
+  },
+  "browser": {
+    "desktopViewport": [
+      1280,
+      720
+    ],
+    "mobileViewport": [
+      390,
+      844
+    ],
+    "desktopDocumentWidth": 1280,
+    "mobileDocumentWidth": 390,
+    "desktopPromptLedgerQuizNavigation": "Click reached #prompt-5; settled top23.85px.",
+    "mobile": "Quiz layout inspected after explicit instant scroll; top23.85px.",
+    "scope": "Visible quiz typography, response labels and option line breaks inspected in screenshots; six prompts/twelve responses verified in browser DOM. No measured horizontal overflow.",
+    "console": "Only observed Cloudflare analytics CORS/resource failures on local preview."
+  },
+  "originalPromptTexts": [
+    "List and define 30 key terms in epistemology.",
+    "List and provide explanations of key concepts in epistemology.",
+    "Provide a timeline of epistemology. Include deeper explanations for any paradigm shifts.",
+    "List and describe new areas of interest in epistemology.",
+    "Create a 10-item quiz based on the content above with answers at the end.",
+    "Provide 15 discussion questions relevant to the content above on epistemology."
+  ],
+  "requestedCounts": {
+    "glossaryEntries": [
+      30,
+      30
+    ],
+    "quizQuestions": [
+      10,
+      10
+    ],
+    "endAnswers": [
+      10,
+      10
+    ],
+    "discussionQuestions": [
+      15,
+      15
+    ],
+    "discussionQuestionsRetainedVerbatim": 25
+  },
+  "isolatedFullBuildPreservedPage": true
+}

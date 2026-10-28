@@ -1,0 +1,310 @@
+{
+  "pageFile": "epistemology/epistemology-core-concepts/index.html",
+  "wordpressId": 1081,
+  "snapshot": "epistemology-core-concepts-wordpress-1081.html",
+  "sourceSha256": "fc2296b4b8f2469f2fdeff713cb91aef9a844838dcb2b57836d3c7d4ceec3752",
+  "sourceUrl": "http://byteseismic.com/2024/02/24/epistemology-core-concepts/",
+  "sourceLabel": "Original WordPress conversation, February 24, 2024",
+  "shellRevision": "caf3d624ada5421d25b9e87b8f0b8d03b42d747d",
+  "date": "2026-10-28",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "Thirty terms from each response",
+    "How knowledge, support and doubt fit together",
+    "Two selective timelines and their turning points",
+    "Established fields and newer problems",
+    "Two ten-question quizzes with answer keys",
+    "Fifteen discussion questions from each response"
+  ],
+  "introHeading": "Knowing more than a definition",
+  "intro": "This conversation moves from vocabulary to explanations, historical changes and developing questions in epistemology, then tests the distinctions through quizzes and discussion. All six original prompts and both response tracks remain in their original positions. The timelines retain the source’s largely European selection; they are not a global history of inquiry.",
+  "description": "Distinguish knowledge from belief, justification from certainty, and useful doubt from skepticism through two glossaries, historical explanations, quizzes and discussion.",
+  "highlights": [
+    "Epistemology studies knowledge, justification and the limits of inquiry.",
+    "Empirical evidence and reasoning often work together; the dispute concerns what each can establish.",
+    "A justified true belief can still owe its truth to the wrong kind of luck.",
+    "Fallibility does not make every inference fallacious or every belief equally reasonable.",
+    "Social sources of knowledge can be evaluated for reliability without denying their social character."
+  ],
+  "pageSignals": {
+    "Page form": "Original conversation · editorial edition",
+    "Best for": "distinguishing knowledge, evidence, confidence and justification"
+  },
+  "replacements": {
+    "1.1.2": "<strong>Rationalism:</strong> The view that some substantive knowledge can be obtained through reason or intellectual insight independently of sensory evidence. It need not deny that experience supplies other knowledge.",
+    "1.1.3": "<strong>Skepticism:</strong> A family of arguments or positions questioning whether we have knowledge or justification in a specified domain; more broadly, a disciplined questioning attitude. Doubting one report is not the same as denying all knowledge.",
+    "1.1.4": "<strong>Justified True Belief (JTB):</strong> An influential proposed analysis of knowledge: the proposition is true, the person believes it, and the belief is justified. These three conditions are a starting point for debate, not an uncontested sufficient definition.",
+    "1.1.8": "<strong>Internalism:</strong> A family of views on which justification depends on a person’s mental states or on reasons accessible through reflection. These are distinct versions of internalism, not a claim that sincerely feeling right makes a belief justified.",
+    "1.1.10": "<strong>A Priori Knowledge:</strong> Knowledge whose justification does not depend on empirical evidence, although experience may be needed to acquire its concepts. Mathematical proof is a standard example.",
+    "1.1.12": "<strong>Intuition:</strong> An immediate seeming that something is true, without a conscious chain of inference. Whether such seemings justify beliefs, and how to check them, are disputed; immediacy does not guarantee accuracy.",
+    "1.1.13": "<strong>Deductive Reasoning:</strong> Reasoning intended to make the conclusion follow necessarily from the premises. A valid deduction guarantees a true conclusion <em>if its premises are true</em>; validity alone does not establish those premises.",
+    "1.1.16": "<strong>Reliabilism:</strong> A family of views connecting justification or knowledge with processes that tend to produce true beliefs in relevant conditions. Reliable performance is different from a person merely feeling confident.",
+    "1.1.17": "<strong>Evidence:</strong> Information that supports or undermines a proposition. Its force depends on relevance, reliability and alternatives; five copies of one rumor are not five independent confirmations.",
+    "1.1.18": "<strong>Truth:</strong> On a correspondence account, a proposition is true when things are as it says they are. Truth is distinct from evidence for truth; other theories analyze truth differently.",
+    "1.1.19": "<strong>Belief:</strong> Accepting a proposition as true. Degrees of confidence, or credences, describe how strongly one takes it to be true; neither acceptance nor confidence guarantees truth.",
+    "1.1.20": "<strong>Justification:</strong> The epistemic support or standing that makes a belief reasonable to hold. Having a justified belief and successfully explaining its justification to someone else are different matters.",
+    "1.1.22": "<strong>Contextualism:</strong> In its standard knowledge-attribution form, the view that the truth conditions of “S knows that p” vary with the context of the person making that attribution. The underlying proposition p need not change truth value.",
+    "1.1.24": "<strong>Testimony:</strong> Information conveyed by another person, through speech, writing or other communication. It can transmit knowledge, but sincerity, competence and opportunities to check matter.",
+    "1.1.25": "<strong>Perception:</strong> Sensory awareness of the world, which can provide knowledge under suitable conditions. Illusions show why perceptual experience and accurate judgment should not be equated.",
+    "1.1.27": "<strong>Infallibilism:</strong> The view that knowledge requires support that rules out error in a suitably strong sense. This is a requirement on epistemic standing, not simply on how certain a person feels.",
+    "1.1.28": "<strong>Fallibilism:</strong> The view that knowledge can be compatible with fallible justification: knowing need not require an error-proof basis. It does not say that a false proposition is known or that every claim must eventually be falsified.",
+    "1.2.1": "<strong>Epistemology:</strong> The branch of philosophy concerned with the nature, sources and limits of knowledge and justification.",
+    "1.2.2": "<strong>Knowledge:</strong> Knowing that a proposition is true requires more than guessing correctly. Justified true belief is an influential proposed analysis, challenged by Gettier cases; Plato discusses related proposals rather than simply establishing that definition.",
+    "1.2.3": "<strong>Justification:</strong> The support that makes a belief reasonable to hold. A well-supported belief can turn out false, so justification must be distinguished from truth.",
+    "1.2.4": "<strong>Truth:</strong> On a correspondence account, things being as a proposition says they are. This is distinct from the proposition being widely accepted or easy to verify.",
+    "1.2.6": "<strong>A Priori Knowledge:</strong> Knowledge justified independently of empirical evidence. Understanding “all bachelors are unmarried” may require learning the language; the justification offered for the claim then depends on the concepts, not a survey of bachelors.",
+    "1.2.10": "<strong>Rationalism:</strong> The view that reason or intellectual insight can supply some substantive knowledge independently of sensory evidence. It does not require abandoning observation.",
+    "1.2.11": "<strong>Foundationalism:</strong> The view that chains of justification rest on basic beliefs justified without inference from other beliefs. Some versions make these certain; others allow fallible perceptual foundations.",
+    "1.2.12": "<strong>Coherentism:</strong> The view that a belief’s justification depends on its place in a coherent, mutually supporting system of beliefs. Mere consistency is weaker than the explanatory support coherentists seek.",
+    "1.2.13": "<strong>Internalism vs. Externalism:</strong> A dispute about what determines justification or knowledge. Internalists emphasize mental or reflectively accessible factors; externalists allow relevant factors such as reliable belief formation that the person need not recognize.",
+    "1.2.16": "<strong>Internal vs. External Justification:</strong> Continuing the preceding distinction, compare the reasons a person can cite with the reliability of the process producing the belief. Externalism is not simply reliance on public evidence, and internalism is not mere personal preference.",
+    "1.2.18": "<strong>Deduction:</strong> In a valid deductive argument, true premises guarantee a true conclusion. For example: all humans are mortal; Socrates is human; therefore Socrates is mortal. Checking validity and checking the premises are separate tasks.",
+    "1.2.19": "<strong>Induction:</strong> Reasoning that extends beyond observed cases, with support that does not guarantee the conclusion. Observing white swans may support a qualified expectation; concluding that every swan is white from a narrow sample overreaches. Lack of certainty alone does not make induction fallacious.",
+    "1.2.20": "<strong>Abduction:</strong> Inference to the best available explanation. A wet pavement may suggest rain, but sprinklers or washing are alternatives; the best explanation considered can still be wrong.",
+    "1.2.22": "<strong>Sensation:</strong> Sensory experience, such as a color sensation or feeling of warmth. Describing it as wholly uninterpreted is controversial; distinguish the experience from a judgment about its cause.",
+    "1.2.24": "<strong>Proposition:</strong> What an assertion or belief says is the case, capable of being true or false. Different sentences, including translations, can express the same proposition.",
+    "1.2.25": "<strong>Truth Value:</strong> A proposition’s status as true or false in classical logic. A person’s uncertainty about that status is a separate matter.",
+    "1.2.26": "<strong>Epistemic Modality:</strong> Expressions of what is possible, likely or required given available information. “She must be home” may express an inference from evidence, not a claim that her being home is logically necessary.",
+    "1.2.27": "<strong>Fallibilism:</strong> The view that knowledge need not rest on justification that eliminates every possibility of error. Revising a mistaken knowledge claim does not make a false belief an instance of knowledge.",
+    "1.2.28": "<strong>Reliability:</strong> A process or source tending to yield accurate information in relevant conditions. A good record in one domain does not automatically transfer to another.",
+    "2.1.0": "Epistemology asks how belief can amount to knowledge and what makes belief reasonable. The following ten concepts connect sources of information with standards of support; they are questions to investigate, not interchangeable labels.",
+    "2.1.1": "<strong>Knowledge:</strong> Justified true belief is an influential starting analysis: the claim is true, the person believes it, and the belief has justification. Gettier cases challenge its sufficiency by making a belief true through a fortunate accident despite its apparent support. Knowing must be distinguished from both confident assertion and a lucky correct answer.",
+    "2.1.2": "<strong>Justification:</strong> The support that makes a belief reasonable. Consider a report that a bridge is closed: a recent firsthand observation may provide stronger support than several messages copied from one unverified post. Support can be defeated by new information without having been irrational at the time.",
+    "2.1.3": "<strong>Truth:</strong> Whether the bridge is actually closed differs from how convincing its closure sounds. Correspondence theories relate truth to how things are; coherence theories relate it to a suitably specified system; pragmatic approaches connect it with inquiry and practice in different ways. None should be reduced to “whatever is convenient for me to believe.”",
+    "2.1.4": "<strong>Belief:</strong> Accepting a proposition as true. A belief is someone’s attitude, but its content may concern an objective fact. Credence records degrees of confidence: treating closure as plausible differs from being nearly certain. Justified confidence should respond to the strength and independence of the evidence.",
+    "2.1.5": "<strong>Skepticism:</strong> Questions about whether our claimed knowledge survives relevant challenges. Local skepticism targets a domain or source; radical versions challenge much wider classes of beliefs. A demand for reasons can improve inquiry without requiring permanent suspension on every question.",
+    "2.1.6": "<strong>Rationalism:</strong> Holds that some substantive knowledge can arise through reason or intellectual insight independently of sensory evidence. Its challenge is to explain why such insight is trustworthy and what it can establish; rationalists need not reject empirical knowledge.",
+    "2.1.7": "<strong>Empiricism:</strong> Gives experience a central role in acquiring concepts or knowledge. In Locke’s account, ideas arise through sensation and reflection on the mind’s operations. Empiricism is compatible with reasoning about experience; its varieties should not all be described as rejecting a priori knowledge.",
+    "2.1.8": "<strong>Foundationalism:</strong> Holds that some beliefs have justification that does not depend on inference from other beliefs, stopping a regress of requested reasons. A basic perceptual belief might support further conclusions. Basic need not mean self-evident or immune to correction: fallible versions allow contrary evidence to defeat it.",
+    "2.1.9": "<strong>Coherentism:</strong> Explains justification through a belief’s relations to a mutually supporting system. Agreement and explanatory fit can strengthen support, but a consistent fictional story raises a challenge: how does the system remain answerable to experience?",
+    "2.1.10": "<strong>Contextualism:</strong> On the standard attribution view, the context of a speaker saying “she knows” helps set the standard the attribution must meet. An ordinary report and a skeptical challenge can invoke different standards. This differs from a view on which the subject’s practical stakes themselves change whether she knows; neither makes the underlying fact true by agreement.",
+    "2.1.11": "Together these concepts separate what is true, what a person accepts, what supports that acceptance, and what further conditions knowledge may require. The distinctions matter even when no final theory has won agreement.",
+    "2.2.1": "Epistemology takes its name from Greek terms for knowledge and an account or study. The concepts below develop the glossary by separating the status of a belief from its sources and by testing proposed definitions against counterexamples.",
+    "2.2.3": "Knowing that something is the case is different from merely guessing correctly. One influential proposal analyzes knowledge as justified true belief. On that proposal:",
+    "2.2.7": "Reliable testimony from friends can convey knowledge, including knowledge of Earth’s roughly spherical shape; firsthand scientific investigation is not always required. The relevant questions concern competence, evidence and reasons for doubt. Conversely, citing “scientific evidence” without checking what it supports does not automatically make a belief knowledge.",
+    "2.2.9": "Justification is the support that makes a belief reasonable; whether it also amounts to knowledge depends on truth and other disputed conditions. Sources of support include:",
+    "2.2.10": "<strong>Empirical justification:</strong> Sensory experience and observation. Seeing an apple under ordinary lighting can support judging it red; tinted lighting may undermine that support.",
+    "2.2.11": "<strong>Rational justification:</strong> Reasoning from appropriate premises. The mortality argument about Socrates preserves truth if the premises are true; it does not establish those premises by logic alone.",
+    "2.2.12": "<strong>Testimonial justification:</strong> Support from what others report. A knowledgeable source with access to the facts may justify reliance; reputation without relevant competence is weaker.",
+    "2.2.14": "On a correspondence view, truth concerns things being as the belief represents them. Questions about what exists and how we can know it are related but distinct. The following positions need to be specified by domain:",
+    "2.2.15": "<strong>Realism:</strong> In a specified domain, the view that the relevant entities or facts exist independently of our beliefs or judgments about them. A realist can still acknowledge serious limits to our knowledge.",
+    "2.2.16": "<strong>Anti-realism:</strong> A range of views rejecting or qualifying a particular realist commitment. It is not equivalent to saying nothing exists objectively, and limited access to reality by itself does not establish anti-realism.",
+    "2.2.18": "Skeptical arguments ask whether our evidence rules out relevant mistakes, including deception, faulty inference or unreliable testimony. Some target particular claims; others question extensive domains of knowledge. Whether knowing requires certainty is itself disputed, so fallibilists need not concede that possible error defeats all knowledge.",
+    "2.2.20": "<a href=\"https://people.umass.edu/gmhwww/382/Resources/Is%20Justified%20True%20Belief%20Knowledge.htm\">Gettier’s 1963 paper</a> presents justified true beliefs whose truth depends on luck disconnected from their apparent basis. In one case Smith expects Jones to get a job and knows Jones carries ten coins. Smith infers that the successful applicant carries ten coins; unexpectedly, Smith gets the job and unknowingly also has ten coins. The conclusion is true, believed and apparently justified, yet its truth is accidental in a way that challenges calling it knowledge.",
+    "2.2.22": "This debate concerns what determines justification, not simply whether information comes from inside or outside the body.",
+    "2.2.23": "<strong>Internalism:</strong> Makes justification depend on mental states or reflectively accessible reasons, depending on the version. It asks what is available from the believer’s perspective.",
+    "2.2.24": "<strong>Externalism:</strong> Allows justification or knowledge to depend on factors such as a process’s actual reliability, even when the believer cannot explain that reliability. Lack of control is not its defining feature.",
+    "2.2.26": "This distinction concerns the basis of justification. It must be kept separate from whether a concept is innate, a belief feels obvious, or a proposition is necessary.",
+    "2.2.27": "<strong>A priori knowledge:</strong> Knowledge justified without empirical evidence for the proposition. Understanding the concepts may still require experience; “all bachelors are unmarried” is a familiar conceptual example.",
+    "2.2.28": "<strong>A posteriori knowledge:</strong> Knowledge whose justification depends on experience. Observing that this patch of grass is green supports a particular claim; it does not establish that every patch is green.",
+    "2.2.29": "These distinctions cross-cut one another. A belief learned through testimony can be justified; an internally coherent belief can be false; and a claim with strong evidence can remain open to revision. Ask separately about its content, its source and the quality of its support.",
+    "3.1.0": "This is a selective timeline of mainly European debates, with earlier traditions continuing alongside later ones. “Paradigm shift” here means a major change of emphasis or method, not a universal replacement of one settled theory by another.",
+    "3.1.2": "<strong>Pre-Socratic philosophy (sixth–fifth centuries BCE):</strong> Thinkers including Thales and Heraclitus sought accounts of nature and examined tensions between appearance and understanding. They belong to a longer history of inquiry, not a demonstrable single invention of reasoning.",
+    "3.1.4": "<strong>Aristotle (384–322 BCE):</strong> Connected perception, memory and experience with grasping universals and first principles, while treating demonstration from principles as central to scientific understanding. The contrast with Plato gives observation a larger role without making Aristotle a modern empiricist or dispensing with reason.",
+    "3.1.5": "Late antiquity and medieval reception",
+    "3.1.6": "<strong>Augustine (354–430):</strong> A late-antique thinker whose influence extended through the Middle Ages. He combined Christian theology with Platonic themes and argued against sweeping skepticism; in <em>City of God</em> XI.26, even being deceived requires that one exist. He did not invent skepticism.",
+    "3.1.7": "<strong>Thomas Aquinas (c. 1225–1274):</strong> Integrated Aristotelian accounts of cognition with Christian theology. He distinguished what natural reason can establish from truths accepted through revelation. The change concerns the coordination of different grounds of assent, not a proof that revealed claims are independently verified.",
+    "3.1.9": "<strong>René Descartes (1596–1650):</strong> His methodological doubt tests beliefs by considering error and deception, then identifies the thinker’s existence as secure while thinking. The shift is toward examining the grounds of certainty from the inquirer’s perspective. He became a major early-modern rationalist; he did not originate all rationalism.",
+    "3.1.10": "<strong>John Locke (1632–1704):</strong> The <a href=\"https://www.gutenberg.org/files/10615/10615-h/10615-h.htm\">1690 <em>Essay</em>, Book II, chapter I</a>, traces ideas to sensation and reflection on mental operations. His blank-paper comparison rejects innate ideas, not mental capacities. The emphasis shifts toward examining how materials for thought are acquired; it does not eliminate reasoning from knowledge.",
+    "3.1.11": "<strong>Immanuel Kant (1724–1804):</strong> In the <em>Critique of Pure Reason</em> (1781; revised 1787), experience requires contributions from both sensibility and understanding. Space, time and categories help structure objects as experienced. The shift asks what makes experience and objective judgment possible, rather than merely choosing reason over sensation. A priori justification is not simply a synonym for an innate idea.",
+    "3.1.13": "<strong>Charles Sanders Peirce (1839–1914) and pragmatism:</strong> In <a href=\"https://www.peirce.org/writings/p119.html\">“How to Make Our Ideas Clear” (1878)</a>, practical consequences clarify a conception’s meaning, while truth is connected with the outcome of sustained inquiry. Immediate usefulness or popularity does not make a belief true. The shift emphasizes public testing and correction over private assurance.",
+    "3.1.14": "<strong>Edmund Husserl (1859–1938) and phenomenology:</strong> Investigated how objects are experienced and judgments receive evidence. Suspending a taken-for-granted commitment to the world serves methodological analysis; it should not be confused with proving that no external reality exists.",
+    "3.1.15": "<strong>Ludwig Wittgenstein (1889–1951) and language:</strong> His later work examines how doubt, certainty and claims to know function in practices. This redirects attention to the background against which reasons are offered, without showing that every epistemological problem is merely a verbal mistake.",
+    "3.1.17": "<strong>Postmodern criticism and social epistemology:</strong> These should not be treated as one doctrine. Some critiques emphasize power and historical conditions; social epistemologists also investigate testimony and institutions using truth and reliability as standards. Studying the social production of belief need not deny objective knowledge.",
+    "3.1.18": "<strong>Naturalized epistemology:</strong> Quine’s 1969 proposal gives empirical psychology a central role in studying the relation between sensory input and theory. Different naturalizing projects vary over whether empirical study replaces or informs traditional questions about justification; description alone does not settle what one ought to believe.",
+    "3.1.19": "These developments change the questions emphasized and the methods used, while older problems persist. The sequence is not a ladder from pure reason to pure experience or from truth to social convention. Each approach must explain how its preferred methods can distinguish getting things right from merely feeling assured.",
+    "3.2.1": "This second timeline retains the source’s selected figures and periods while correcting their placement. It is a guide to recurring disputes, not a global history or a claim that each period shared one epistemology.",
+    "3.2.4": "<strong>Socrates and Plato:</strong> Plato’s dialogues test claims to know through questioning. His recollection accounts explore how learning might recover what the soul already knows. These are philosophical proposals within dialogues, not evidence that all knowledge is biologically innate.",
+    "3.2.5": "Fourth century BCE and its later ancient reception:",
+    "3.2.6": "<strong>Aristotle:</strong> A fourth-century BCE thinker, not a philosopher of the entire later Hellenistic period. He connects perception and experience to universal understanding while giving demonstration and intellectual grasp important roles. His writing-tablet analogy should not be treated as identical to Locke’s later account.",
+    "3.2.7": "Late-antique antecedents and medieval philosophy:",
+    "3.2.8": "<strong>Transmission of classical texts:</strong> Translation and commentary in Arabic, Greek and Latin traditions contributed to medieval debates over reason, intellect and revelation. This was continuing interpretation across cultures, not a moment when all classical thought was suddenly rediscovered after disappearing.",
+    "3.2.9": "<strong>Augustine (354–430), an earlier influence:</strong> Retained here in the source’s discussion of medieval antecedents, although he lived in late antiquity. He answered skepticism rather than introducing it. <a href=\"https://www.newadvent.org/fathers/120111.htm\">The argument in <em>City of God</em> XI.26</a> says that deception presupposes an existing subject; Christian faith and reason also shape his account of understanding.",
+    "3.2.11": "<strong>René Descartes and the cogito:</strong> Methodological doubt challenges inherited beliefs to seek secure grounds. The thinker’s existence while thinking resists the proposed deception. Further claims about the body and external world require further arguments, rather than following automatically from that starting point.",
+    "3.2.14": "<strong>David Hume:</strong> Distinguished relations of ideas from matters of fact and challenged a demonstrative or non-circular inductive justification for projecting past regularities into the future. Habit explains our expectations; that psychological explanation does not supply the missing proof. He did not simply deny everything beyond immediate sensation.",
+    "3.2.15": "Late eighteenth century and nineteenth-century influence:",
+    "3.2.16": "<strong>Immanuel Kant:</strong> The <a href=\"https://web.stanford.edu/class/history34q/readings/Kant/CritiquePreface.html\">1781/1787 <em>Critique</em></a> belongs to the eighteenth century. Kant distinguishes knowledge beginning with experience from all knowledge arising from experience. He asks what the mind contributes to the possibility of experience; this neither invents the a priori/a posteriori distinction nor equates it with innate/learned.",
+    "3.2.18": "<strong>Logical positivism and logical empiricism:</strong> Twentieth-century proposals linked factual meaning to empirical testing while assigning a different role to logic and mathematics. Some rejected traditional metaphysical claims as cognitively meaningless. Their verification criteria and revisions were contested; this was not a general proof that everything unmeasurable is false.",
+    "3.2.19": "<strong>Analytic philosophy:</strong> Uses argument and conceptual clarification to investigate knowledge, justification and language, among other subjects. Gettier’s 1963 challenge to justified true belief sharpened a specific problem: how to exclude truth acquired through epistemically defective luck. Analytic philosophy is broader than linguistic analysis alone.",
+    "3.2.21": "<strong>Continuing plurality:</strong> Feminist, formal, social, contextualist, virtue and naturalized approaches coexist and overlap. Many have twentieth-century or earlier roots; their application to digital systems and contemporary institutions does not make every approach newly invented.",
+    "3.2.23": "<strong>Reason and experience:</strong> The productive change is a shift in arguments about what each can establish. Aristotle already gave perception a significant role; Locke and Hume did not replace an exclusively rationalist antiquity. The enduring issue is how sensory input, concepts and inference support claims extending beyond what is immediately given.",
+    "3.2.24": "<strong>Renewed skeptical pressure:</strong> Skepticism has ancient precedents. Descartes uses doubt methodologically, whereas Hume examines limits on justificatory arguments. Their different projects challenge easy certainty without establishing that careful inquiry is pointless.",
+    "3.2.25": "<strong>Challenges to verificationism:</strong> Strong verification criteria struggled to accommodate general scientific laws and to explain their own standing. Criticism encouraged revisions and rival approaches, rather than abolishing empirical testing. The lesson is to distinguish an excessively restrictive criterion of meaning from the continuing value of evidence.",
+    "4.1.0": "These are active areas and applications relevant to the original 2024 conversation, not a ranking of the newest research in 2026. Several have long histories; newer technologies and social conditions give their questions fresh settings.",
+    "4.1.1": "<strong>Epistemology of the Internet:</strong> Studies credibility, search and information sharing. For example, ten sites repeating one unsupported assertion may look like corroboration; tracing the common source changes the evidential assessment.",
+    "4.1.3": "<strong>Social Epistemology:</strong> Studies testimony, expertise, disagreement and institutions that distribute knowledge. A scientific consensus may deserve weight because of competent, independently checked work; sheer headcount or shared dependence on one source is different.",
+    "4.1.4": "<strong>Epistemic Injustice:</strong> Examines wrongs to people in their capacity as knowers. Miranda Fricker’s <a href=\"https://academic.oup.com/book/32817\">2007 account</a> distinguishes prejudicial credibility deficits in testimony from structural disadvantages in the shared resources used to understand experience. Neither concept implies that every rejected claim is unjustly rejected.",
+    "4.1.5": "<strong>Virtue Epistemology:</strong> Studies intellectual capacities and character traits associated with knowing well. Reliability, intellectual humility and perseverance can matter in different versions. Open-mindedness requires considering relevant challenges, not assigning every proposal equal credibility.",
+    "4.1.6": "<strong>Epistemology of Artificial Intelligence (AI):</strong> Asks when machine outputs provide evidence, how their reliability is assessed, and what users can responsibly infer. A fluent answer or plausible citation is not itself verification. Whether a machine can know is a further issue; it is not settled solely by whether it is conscious.",
+    "4.1.7": "<strong>Experimental Epistemology:</strong> Uses empirical studies to investigate judgments about knowledge, evidence and belief. Such results can test claims about how people judge cases; a survey majority does not by itself establish the correct philosophical definition.",
+    "4.1.8": "<strong>Epistemology of Disagreement:</strong> Asks how another competent, informed person’s disagreement should affect confidence. Equal competence, access to evidence and independence must be examined rather than assumed. Rational responses need not always be either equal compromise or stubborn persistence.",
+    "4.1.9": "<strong>Environmental Epistemology:</strong> Studies how observations, models and local or Indigenous knowledge contribute to understanding environments. Different sources can reveal different patterns; credibility requires attention to methods, context and corroboration rather than either automatic exclusion or automatic endorsement.",
+    "4.2.0": "The following six areas extend longstanding questions about knowledge. They are active frameworks relevant to the 2024 discussion, with new applications; this list does not claim that all six recently originated.",
+    "4.2.5": "<strong>2. Feminist Epistemology:</strong> Examines how gender and social position can affect questions asked, evidence gathered and credibility assigned. Different feminist approaches disagree about how best to improve objectivity; they need not treat evidence as optional. Questions include:",
+    "4.2.7": "How can inquiry include women’s experiences without assuming that all women share one perspective or that any perspective is infallible?",
+    "4.2.9": "<strong>3. Decolonial Epistemology:</strong> Examines colonial exclusions, whose categories organize inquiry, and how knowledge is preserved or dismissed. Assessing such exclusions should remain distinct from accepting every claim associated with a marginalized tradition. Aims include:",
+    "4.2.11": "Evaluate the contributions of diverse knowledge traditions on their evidence and methods, without treating Western provenance as the automatic test of legitimacy.",
+    "4.2.17": "<strong>5. Embodied Epistemology:</strong> Studies how bodily skills, perception and action shape understanding. Learning to navigate an unfamiliar space illustrates knowledge acquired through doing as well as description. This emphasis need not assume that every traditional epistemology endorsed mind-body dualism. Questions include:",
+    "4.2.20": "How do we distinguish practical bodily competence from propositional knowledge, and how can each be assessed?",
+    "4.2.21": "<strong>6. Naturalized Epistemology:</strong> Uses psychology, cognitive science and related empirical work to study perception, memory and reasoning. Some versions seek to replace traditional epistemology; others inform it. Explaining how a belief arose does not by itself justify it. Questions include:",
+    "4.2.25": "These areas broaden the sources and settings examined by epistemology. A useful common test is whether an approach improves access to relevant evidence and correction, while distinguishing a belief’s social or psychological origins from its truth.",
+    "5.1.2": "1. Which three conditions make up the JTB proposal, whose sufficiency Gettier challenges?<br>A. Truth and popularity<br>B. Justification and usefulness<br>C. Justification, truth and belief<br>D. Belief and action",
+    "5.1.4": "3. Which philosopher’s <em>Essay</em> traces ideas to sensation and reflection?<br>A. John Locke<br>B. René Descartes<br>C. Immanuel Kant<br>D. Aristotle",
+    "5.1.8": "7. Which term specifically names an injustice arising from prejudicial gaps in shared resources for understanding experience?<br>A. Virtue epistemology<br>B. Hermeneutical injustice<br>C. Foundationalism<br>D. Formal epistemology",
+    "5.1.11": "10. Which statement best expresses fallibilism?<br>A. False propositions can be known<br>B. Every belief is equally reasonable<br>C. Knowledge can rest on fallible justification<br>D. No knowledge is possible",
+    "5.1.13": "1. C — Justification, truth and belief; the proposal faces Gettier’s challenge.<br>2. B — Plato.<br>3. A — John Locke.<br>4. C — Wronging someone in their capacity as a knower.<br>5. B — Formal epistemology.<br>6. B — The epistemic significance of persisting disagreement among informed parties.<br>7. B — Hermeneutical injustice.<br>8. C — Descartes.<br>9. B — Epistemology of the Internet.<br>10. C — Knowledge can rest on fallible justification.",
+    "5.2.5": "Which question most directly expresses a skeptical challenge?<br>a) How many people agree with this claim?<br>b) Does our support establish knowledge despite the relevant possibility of error?<br>c) Can we replace evidence with confidence?<br>d) Is every unsupported belief automatically true?",
+    "5.2.6": "Which term concerns knowledge justified independently of empirical evidence for the proposition?<br>a) A posteriori knowledge<br>b) A priori knowledge<br>c) Empirical justification<br>d) Skepticism",
+    "5.2.8": "Which concern is central to feminist epistemology?<br>a) Eliminating the need for reasoning<br>b) How gender and exclusion can affect evidence and credibility<br>c) Treating all members of a gender as identical<br>d) Rejecting every scientific finding",
+    "5.2.10": "Which area most specifically studies the justification of beliefs acquired through what others tell us?<br>a) Embodied epistemology<br>b) The epistemology of perception<br>c) Epistemology of testimony<br>d) The philosophy of mathematics",
+    "5.2.11": "Which question especially illustrates embodied epistemology?<br>a) Is a proposition true by definition?<br>b) Does a deduction preserve truth?<br>c) How does learning to navigate through movement shape understanding?<br>d) Is an argument internally consistent?",
+    "5.2.16": "(b) Does our support establish knowledge despite the relevant possibility of error?",
+    "5.2.19": "(b) How gender and exclusion can affect evidence and credibility",
+    "5.2.22": "(c) How does learning to navigate through movement shape understanding?",
+    "5.1.3": "2. Which philosopher introduced the theory of Forms?<br>A. Aristotle<br>B. Plato<br>C. Descartes<br>D. Kant",
+    "5.1.5": "4. What does the term “epistemic injustice” refer to?<br>A. The misuse of knowledge<br>B. Inequality in educational institutions<br>C. Wronging someone in their capacity as a knower<br>D. The injustice of claiming false knowledge",
+    "5.1.6": "5. Which area of epistemology uses formal tools like logic and probability theory?<br>A. Social Epistemology<br>B. Formal Epistemology<br>C. Epistemology of the Internet<br>D. Virtue Epistemology",
+    "5.1.7": "6. What is the primary concern of the epistemology of disagreement?<br>A. Understanding why disagreements occur<br>B. The epistemic significance of persisting disagreements among informed parties<br>C. How to end disagreements<br>D. The impact of disagreement on scientific progress",
+    "5.1.9": "8. Which philosopher argued for the foundational principle “Cogito, ergo sum”?<br>A. Plato<br>B. Aristotle<br>C. Descartes<br>D. Kant",
+    "5.1.10": "9. Which area investigates the impact of the Internet on knowledge acquisition and validation?<br>A. Epistemology of Artificial Intelligence<br>B. Epistemology of the Internet<br>C. Environmental Epistemology<br>D. Experimental Epistemology",
+    "5.2.2": "According to the traditional definition, knowledge requires all of the following EXCEPT:<br>a) Belief<br>b) Justification<br>c) Relevance<br>d) Truth",
+    "5.2.3": "Which philosopher is associated with the statement “Cogito, ergo sum” (I think, therefore I am)?<br>a) Plato<br>b) Aristotle<br>c) Rene Descartes<br>d) John Locke",
+    "5.2.4": "Empiricism emphasizes the role of:<br>a) Reason and logic<br>b) Sensory experience and reflection<br>c) Faith and revelation<br>d) Innate knowledge and recollection",
+    "5.2.7": "What is a central question in social epistemology?<br>a) How to improve memory recall<br>b) How to develop strong arguments<br>c) How social interactions influence knowledge acquisition<br>d) How to overcome sensory limitations",
+    "5.2.9": "Decolonial epistemology aims to:<br>a) Promote universal standards for knowledge acquisition<br>b) Deconstruct Eurocentric dominance in knowledge production<br>c) Emphasize the importance of individual justification<br>d) Eliminate the influence of emotions and biases",
+    "6.1.0": "How does the truth condition in justified true belief exclude false beliefs, and why does Gettier argue that the three conditions still do not suffice?",
+    "6.1.1": "Which problems raised by Plato’s distinction between knowledge and opinion remain relevant to contemporary epistemology?",
+    "6.1.2": "How do observation and demonstration work together in Aristotle’s account, and where does that account differ from modern scientific inquiry?",
+    "6.2.10": "Can knowledge concern objective facts while being acquired from a particular social or personal perspective? What would distinguish a limited perspective from a distorted judgment?",
+    "6.2.14": "What can personal experience establish directly, what further inferences require corroboration, and how can people’s reports receive fair consideration?"
+  },
+  "countChecks": [
+    {
+      "name": "1.1.ol original counts",
+      "selector": "#prompt-1 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        30
+      ]
+    },
+    {
+      "name": "1.2.ol original counts",
+      "selector": "#prompt-1 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        30
+      ]
+    },
+    {
+      "name": "2.1.ol original counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        10
+      ]
+    },
+    {
+      "name": "2.2.ul original counts",
+      "selector": "#prompt-2 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        3,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "3.1.ul original counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"1\"] ul",
+      "child": "li",
+      "expected": [
+        3,
+        2,
+        3,
+        3,
+        2
+      ]
+    },
+    {
+      "name": "3.2.ul original counts",
+      "selector": "#prompt-3 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        2,
+        1,
+        2,
+        2,
+        1,
+        1,
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "4.1.ol original counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        9
+      ]
+    },
+    {
+      "name": "4.2.ul original counts",
+      "selector": "#prompt-4 .original-response[data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "5.2.ol original counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        10,
+        10
+      ]
+    },
+    {
+      "name": "6.1.ol original counts",
+      "selector": "#prompt-6 .original-response[data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    },
+    {
+      "name": "6.2.ol original counts",
+      "selector": "#prompt-6 .original-response[data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    }
+  ],
+  "responseDecisions": {
+    "1.1": "Retain all thirty terms and their order. Correct certainty, intuition, deduction, fallibilism, contextualism and testimony definitions; distinguish internalist variants, source reliability and confidence. Retain eleven effective original entries verbatim.",
+    "1.2": "Retain thirty entries, including paired contrasts as source entries. Remove nonexistent image instruction and settled-Plato JTB attribution. Repair induction-as-fallacy, foundationalism-as-certainty, proposition/sentence, modality/necessity and sensation-as-uninterpreted conflations. Keep useful simple definitions.",
+    "2.1": "Keep ten concepts in order. Incorporate the previous edition’s useful bridge-report example within justification; distinguish copied reports from independent support. Explain regress, coherence-fiction challenge, truth/usefulness and contextualism versus subject stakes.",
+    "2.2": "Keep seven topics and nested source lists. Correct dismissal of friends’ testimony and anti-realism as total denial of reality. Add actual Gettier job/coins case; distinguish concepts learned through experience from a priori justification. No dialogue or curator correction existed here to reconstruct.",
+    "3.1": "Retain all selected figures and ordering. Correct Augustine’s period, Descartes founder claim, Locke sensation/reflection, Kant innate/a priori and Peirce usefulness caricatures; distinguish social epistemology from relativism. Explain methodological changes and continuity.",
+    "3.2": "Retain source figure/topic order while correcting period headings and explicitly identifying earlier antecedents. Correct Aristotle Hellenistic label, Augustine inventing skepticism, Kant nineteenth-century placement, Hume certainty caricature and linear rationalism-to-empiricism story. Add Gettier within analytic philosophy and explain verificationism’s difficulty.",
+    "4.1": "Keep nine fields. Date scope to the original conversation, avoid unsupported novelty ranking, add independent-source and AI-verification examples, qualify survey-based philosophical conclusions and consensus. Retain formal epistemology definition and closing connection.",
+    "4.2": "Keep six fields and three questions/aims each. Clarify plural feminist/decolonial positions, evidence requirements, embodied competence and description versus justification. Retain most original questions.",
+    "5.1": "Read all ten questions and the compact end key together. Replace father-of-empiricism ambiguity, overlapping hermeneutical-category answers and repetitive Locke question with precise targets including fallibilism. Add line breaks while retaining source paragraph layout and ten end answers.",
+    "5.2": "Read all ten questions and ten answers together. Repair skepticism wording, a priori meaning, gender generalization and overlapping testimony/social-epistemology and embodiment distractors. Preserve ordered question/key lists and exact counts.",
+    "6.1": "Retain twelve of fifteen discussion questions verbatim; revise JTB sufficiency and two historical questions to avoid assuming unestablished influence claims.",
+    "6.2": "Retain thirteen of fifteen questions verbatim; remove objective-versus-perspective false dichotomy and distinguish experiential report from further inferences."
+  }
+}
