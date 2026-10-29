@@ -1,0 +1,130 @@
+{
+  "pagePath": "/philosophical-inquiry/do-i-need-a-worldview/",
+  "sourceSha256": "1e05087376cfa88562b368a475cc32b125259eef4e7b2569fa15a620b528db14",
+  "originalPrompts": 6,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 141,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 70,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "1.2.ul source counts": [
+      3,
+      3,
+      3
+    ],
+    "2.1.ol source counts": [
+      5
+    ],
+    "2.2.ul source counts": [
+      4,
+      3
+    ],
+    "3.1.ol source counts": [
+      3,
+      3
+    ],
+    "3.2.ul source counts": [
+      3,
+      3,
+      3,
+      3
+    ],
+    "4.1.ol source counts": [
+      8
+    ],
+    "4.2.ul source counts": [
+      5,
+      4,
+      4
+    ],
+    "5.1.ol source counts": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      10
+    ],
+    "5.1.ul source counts": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3
+    ],
+    "5.2.ol source counts": [
+      10,
+      10
+    ],
+    "6.1.ol source counts": [
+      15
+    ],
+    "6.2.ol source counts": [
+      15
+    ]
+  },
+  "sha256": "5f96d3d576dd829adf42e3540ca59bb7fc6a456e37e70cef2cbc9922540c6e43",
+  "sourceMatch": {
+    "url": true,
+    "title": true,
+    "prompts": true
+  },
+  "fullSourceRead": true,
+  "responseDecisions": {
+    "1.1": "Revised universal-worldview claim; retained inquiry-by-inquiry paragraph; distinguished minimal orientation from comprehensive commitment.",
+    "1.2": "Retained scaffolding, values, community and nuance lists; removed guarantee against dogmatism and preference-only criterion.",
+    "2.1": "Retained consistency and revision principles; separated practical utility and comprehensiveness from evidential support; added dependent-report example.",
+    "2.2": "Retained humility, openness and critical assessment; clarified interpretive disagreement, normative premises and suspension versus rejection.",
+    "3.1": "Retained three benefits and three risks; made even core principles revisable and added dependency tracing and review stopping rule.",
+    "3.2": "Retained contrasting benefit lists; separated inquiry quality from distress and provided bounded support reference without diagnosis.",
+    "4.1": "Retained eight-sign sequence; distinguished contradiction/evidence from emotional discomfort and curiosity; added local versus foundational revision example.",
+    "4.2": "Retained internal/external/remember structure; removed conformity and comfort as exemptions from evidence; qualified emotional signs.",
+    "5.1": "Preserved ten questions, option positions and end key; repaired worldview equivocation, speculative life-event ranking, automatic virtue and affect/truth inference; corrected visible numbering.",
+    "5.2": "Preserved ten true/false statements and end explanations; clarified necessity and discomfort wording, evaluated all keys together.",
+    "6.1": "Retained twelve questions verbatim; repaired completeness pressure, discomfort-as-truth and false stability/change choice.",
+    "6.2": "Retained thirteen questions verbatim and closing invitation; removed all-subjective dichotomy and diagnostic framing."
+  },
+  "research": [
+    {
+      "url": "https://www.nimh.nih.gov/health/publications/my-mental-health-do-i-need-help",
+      "scope": "Public guidance about symptoms, daily functioning and seeking help; no diagnosis or claim that questioning causes illness."
+    }
+  ],
+  "limitations": [
+    "No empirical claim that all people possess a coherent worldview.",
+    "No clinical assessment; signs of distress do not decide philosophical truth.",
+    "Original benefits/risks are possibilities, not outcome guarantees."
+  ],
+  "deliberateCorruptionsRejected": [
+    "prompt",
+    "response",
+    "quiz question",
+    "answer",
+    "discussion",
+    "prompt order"
+  ],
+  "visualVerification": {
+    "desktop": "1280x720 opening and quiz link navigation",
+    "mobile": "390x844 quiz/end-key layout inspected; scrollWidth 390",
+    "console": "Only local Cloudflare analytics CORS errors observed",
+    "limitations": "Spot check only; mobile explicit scrolling, not certified anchor arrival; no full accessibility or cross-browser certification."
+  }
+}
