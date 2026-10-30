@@ -1,0 +1,292 @@
+{
+  "pageFile": "philosophy-of-language/core-concepts-philosophy-of-language/index.html",
+  "wordpressId": 1024,
+  "snapshot": "core-concepts-philosophy-of-language-wordpress-1024.html",
+  "sourceSha256": "ea840a35616919c718f65a20bb3d4cb631b29330f3aabc04c64eab30c614c51d",
+  "sourceUrl": "http://byteseismic.com/2024/02/24/core-concepts-philosophy-of-language/",
+  "sourceLabel": "Original WordPress conversation, February 24, 2024",
+  "shellRevision": "1d3c19cdf18942cad098e972a19af946fa27c3c6",
+  "date": "2026-10-30",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "Thirty terms in each glossary",
+    "Meaning, reference and use",
+    "Changes in philosophical method",
+    "Research directions and their limits",
+    "Two ten-item quizzes with end answers",
+    "Fifteen discussion questions from each response"
+  ],
+  "introHeading": "Distinctions that make language intelligible",
+  "intro": "This editorial edition preserves all six original prompts and the separate ChatGPT and Gemini responses. It retains the glossary-to-concepts-to-history progression, followed by research directions, quizzes and discussion. Duplicate glossary entries have been replaced; the second glossary’s truncated ending is completed and its seven missing entries are explicitly supplied as editorial additions.",
+  "description": "Explore meaning, reference, context and speech acts through two glossaries, philosophical timelines, quizzes and discussion.",
+  "pageSignals": {
+    "Page form": "Original conversation · editorial edition",
+    "Best for": "distinguishing meaning, reference and speaker intention"
+  },
+  "highlights": [
+    "Reference and sense answer different questions about an expression.",
+    "Context helps determine what speakers communicate beyond literal wording.",
+    "A theory of linguistic meaning must account for more than naming objects."
+  ],
+  "replacements": {
+    "1.1.2": "<strong>Convention:</strong> A shared practice or norm governing language use. Speakers need not explicitly agree to it; learning a language usually means acquiring established patterns of meaning and use.",
+    "1.1.12": "<strong>Reference:</strong> The relation between an expression used in context and what it picks out. “That planet,” accompanied by pointing, can refer to Venus. This replaces the original list’s second occurrence of Syntax.",
+    "1.1.14": "<strong>Implicature:</strong> Something a speaker conveys beyond what is explicitly said. “Some guests arrived” may suggest that not all arrived, though the speaker can cancel that suggestion. This replaces the repeated Pragmatics entry.",
+    "1.1.18": "<strong>Grapheme:</strong> A contrastive unit in a writing system. Graphemes do not always correspond one-to-one with phonemes; writing systems differ in what their units represent.",
+    "1.1.19": "<strong>Presupposition:</strong> Background information an utterance takes for granted. “Mira stopped smoking” normally presupposes that Mira previously smoked. This replaces the third Syntax entry.",
+    "1.1.22": "<strong>Diglossia:</strong> A stable division of functions between language varieties in a community, often with one used in formal settings and another in everyday conversation. Merely speaking two languages is not sufficient.",
+    "1.1.23": "<strong>Polysemy:</strong> Several related senses of one word, as with the mouth of a person and the mouth of a river. Related senses differ from unrelated words that happen to share a form.",
+    "1.2.0": "The source begins a thirty-term glossary but stops during entry 23. The following retains its sequence, completes that definition, and supplies entries 24–30 as identified editorial additions. These linguistic terms support the philosophical concepts developed in the next response.",
+    "1.2.3": "<strong>Convention:</strong> A shared linguistic practice that permits coordination without requiring explicit agreement. English speakers call a familiar animal a “cat”; the sound is not inherently tied to the animal, though not every feature of language is arbitrary.",
+    "1.2.5": "<strong>Disambiguation:</strong> Resolving multiple available readings using context. “We met by the bank” could indicate a financial institution or a riverbank; a reference to fishing would favor the latter.",
+    "1.2.6": "<strong>Reference:</strong> The relation between a contextual use of an expression and its target. “That cat,” with a pointing gesture, can pick out one animal; this differs from describing the general category of cats.",
+    "1.2.9": "<strong>Prescriptivism:</strong> Recommending or enforcing standards for how people should use language, often for a particular setting. A style rule can be useful for a publication without establishing that other dialects lack grammar.",
+    "1.2.12": "<strong>Performance:</strong> Actual language use, including pauses, slips and memory limits. In the competence/performance distinction, a failed sentence need not show that a speaker lacks the relevant linguistic knowledge.",
+    "1.2.14": "<strong>Morphology:</strong> The study of word structure. “Unhappy” has two morphemes: “un-” and “happy.” “Unhappily” adds the suffix “-ly,” with a spelling change in the root.",
+    "1.2.17": "<strong>Phonology:</strong> The study of how a language organizes contrastive sounds and their patterns. It differs from phonetics, which examines speech sounds as physical events.",
+    "1.2.19": "<strong>Allophone:</strong> A phonetic realization of a phoneme. In many English varieties, /t/ is aspirated in “top” but unaspirated after /s/ in “stop”; that difference does not distinguish words by itself.",
+    "1.2.23": "<strong>Register:</strong> A variety of language associated with a purpose or situation, such as a technical report or a conversation among friends. Speakers may change vocabulary and formality across registers. <em>Editorial completion of the source’s interrupted definition.</em>",
+    "2.1.0": "<strong>Truth Conditions:</strong> What would have to be the case for a statement to be true, distinct from the evidence by which we discover whether it is true. “The window is open” is true if the relevant window is open, even when nobody has checked.",
+    "2.1.1": "<strong>Reference and referential theories:</strong> Reference concerns what an expression picks out. Referential theories seek to explain meaning through this relation, but an account must also handle expressions without ordinary objects as referents and different ways of presenting the same object.",
+    "2.1.2": "<strong>Sense and Reference:</strong> Frege distinguishes an expression’s referent from its mode of presentation. “The morning star” and “the evening star” both pick out Venus but present it differently. Learning that they identify the same object can therefore be informative.",
+    "2.1.4": "<strong>Pragmatics:</strong> How speakers communicate through context and use. “It is cold in here” can function as a request to close a window. The request is not entailed by the sentence: “but please leave the window open” can cancel it. This distinguishes contextual inference from logical consequence.",
+    "2.1.5": "<strong>Intension and Extension:</strong> An extension is what an expression applies to in a circumstance; in possible-world semantics, an intension assigns extensions across possible circumstances. Two predicates may apply to the same things here yet differ in what they would apply to elsewhere. An intension is not simply a collection of every possible referent.",
+    "2.1.10": "<strong>Private Language Argument:</strong> Wittgenstein questions whether signs tied to sensations accessible only to their user could acquire a standard distinguishing correct use from merely seeming correct. This is not an objection to diaries or secret codes based on a learnable language. Interpretations differ; the issue is a criterion of correctness, not simply how many people speak. See <a href=\"https://centerforgermanphilosophy.uchicago.edu/wp-content/uploads/2024/05/PI-243-308-422-427-Anscombe-Monolingual-Edition.pdf\">Philosophical Investigations §§243–258</a>.",
+    "2.1.12": "<strong>Indeterminacy of Translation:</strong> Quine argues that rival overall translation schemes can fit all the relevant behavioral evidence while assigning different translations. The thesis concerns underdetermination even with the evidence available in principle, not a claim that ordinary translation has no objective constraints or that every translation is equally good.",
+    "2.1.14": "<strong>Deixis:</strong> Context-dependent pointing through expressions such as “here,” “now” and “you.” Understanding “Meet me here tomorrow” requires identifying the speaker, place and time of utterance, not just knowing dictionary meanings.",
+    "2.2.3": "<strong>Mentalist approaches:</strong> Accounts connecting linguistic meaning with ideas or mental representations. They must explain how speakers share meanings despite differences in imagery and associations; whatever a word happens to evoke is not automatically its meaning.",
+    "2.2.5": "<strong>Direct Reference Theory:</strong> For expressions treated as directly referential, their contribution to propositional content is their referent rather than a descriptive condition. This is a claim about semantic content, not a denial that speakers use mental representations to identify people or things.",
+    "2.2.9": "<strong>Coherence Theory of Truth:</strong> Accounts explaining truth through coherence within a suitably specified system of propositions. Mere agreement with whatever beliefs someone already accepts is insufficient; the adequacy of the system and the kind of coherence require explanation.",
+    "2.2.14": "<strong>Frege’s Puzzle:</strong> Why can “The morning star is the evening star” convey an astronomical discovery while “The morning star is the morning star” is uninformative, if the expressions refer to the same planet? The puzzle motivates separating reference from mode of presentation rather than equating meaning with the object named.",
+    "3.1.0": "This selective timeline follows the original response’s predominantly European and analytic sequence. Its “shifts” are changes of emphasis and method, not moments when every philosopher abandoned one settled theory for another.",
+    "3.1.4": "<strong>Late antiquity through the Middle Ages:</strong> Augustine’s work on signs belongs to late antiquity and influenced medieval thought. Boethius transmitted and commented on ancient logic; later scholastics, including Aquinas, investigated universals, predication and theological language. Their questions linked the structure of statements to what could be said about things.",
+    "3.1.8": "<strong>Late nineteenth and early twentieth centuries:</strong> Frege’s logic and sense/reference distinction made linguistic analysis a powerful method for investigating thought and knowledge. The shift was not the discovery that language mattered; ancient and medieval thinkers already studied it. New logical tools exposed distinctions that ordinary grammar can conceal.",
+    "3.1.11": "<strong>1930s–1940s; posthumous publication in 1953:</strong> Wittgenstein developed the later investigations of language-games and use before Philosophical Investigations appeared. Asking how an expression functions in an activity—giving an order, telling a story, making a calculation—challenged the demand for one model fitting every meaningful utterance.",
+    "3.1.14": "<strong>1960s onward:</strong> Davidson developed truth-theoretic approaches to meaning; Kripke and Putnam challenged influential descriptive accounts of names and natural-kind terms. Kripke’s Naming and Necessity lectures were delivered in 1970, published in 1972 and issued as a book in 1980. A person can use a name successfully while holding mistaken descriptions of its bearer, motivating attention to how reference is transmitted through a community.",
+    "3.1.18": "<strong>From structure toward use:</strong> Attention to promising, requesting and other activities broadened inquiry beyond descriptive sentences. Formal semantics continued to develop; studying use did not make logical structure irrelevant.",
+    "3.2.8": "<strong>1921:</strong> Wittgenstein’s Tractatus presented a picture account of propositions: a proposition represents a possible arrangement of things. It was highly influential, but it was not the sole philosophy of language of its period.",
+    "3.2.9": "<strong>1920s–1930s:</strong> The Vienna Circle connected the cognitive meaning of empirical claims with verification or confirmation, while distinguishing logical and mathematical statements. Versions of the criterion differed and were revised. Requiring conclusive verification of every meaningful statement proved too restrictive for general scientific laws; verification and falsification should not simply be equated.",
+    "3.2.10": "<strong>1930s–1940s:</strong> Wittgenstein developed the later work published posthumously as Philosophical Investigations in 1953. Its attention to language-games challenges the assumption that all meaningful speech works by describing facts. The development preceded publication, not the reverse.",
+    "3.2.12": "<strong>1951:</strong> In <a href=\"https://ditext.com/quine/quine.html\">Two Dogmas of Empiricism</a>, Quine challenged both a sharp analytic/synthetic divide and reduction of each meaningful statement to immediate experience. His alternative emphasizes how connected bodies of theory face evidence. This is not simply a thesis that words depend on neighboring words, nor an instruction to reject logic.",
+    "4.1.0": "The February 2024 source groups research directions and interdisciplinary possibilities under “new areas.” The list below preserves those topics without implying that they all began recently or constitute equally established specialties.",
+    "4.1.9": "<strong>Language and Mindfulness:</strong> A possible interdisciplinary question is how attention to wording and interpretation affects communication. The source’s label is retained as a proposed direction, not a claim that a distinct established specialty exists or that linguistic mindfulness has demonstrated therapeutic benefits.",
+    "4.2.0": "These six topics mix established research programs with newer applications. “New” here describes directions highlighted by the 2024 conversation, not a ranking of current research or a claim that each originated recently.",
+    "4.2.1": "<strong>1. Two-dimensional semantics:</strong> These approaches use two parameters to distinguish aspects of meaning. In an epistemic version, one asks what an expression would pick out if a scenario were actual; another asks how it applies in counterfactual circumstances with the actual reference fixed. This is not the division between a word’s internal structure and its sentence neighbors. See <a href=\"https://consc.net/papers/twodim.html\">David Chalmers’s account</a>.",
+    "4.2.2": "<strong>2. Modality and epistemic modals:</strong> “Might” and “must” can express what is possible or necessary relative to available information, rules or other standards. “The key might be upstairs” differs from “You must return it.” Knowledge and belief reports interact with these issues but are not themselves simply modal words.",
+    "4.2.3": "<strong>3. Semantic relationism:</strong> Kit Fine’s proposal concerns representational relations between expressions or thoughts that are not reducible to their individual representational properties. It is not just the general claim that words acquire meaning from related words. His <a href=\"https://onlinelibrary.wiley.com/doi/book/10.1002/9780470690826\">2007 book</a> develops coordination within language, thought and communication.",
+    "4.2.6": "<strong>6. Philosophy of artificial language:</strong> In this response the label concerns artificial intelligence systems that process and generate natural language. Questions about successful use, reference and understanding must be distinguished from questions about consciousness. Fluent output alone does not settle all of them; formal or constructed languages are a separate use of “artificial language.”",
+    "4.2.7": "These topics extend the older problems of meaning and reference into different explanatory settings. Their value depends on stating a precise question and what would count as an answer, rather than treating technological novelty as a solution.",
+    "5.1.4": "Which concept specifies what must be the case for a statement to be true?<br>A) Semantic Drift<br>B) Speech Acts<br>C) Truth Conditions<br>D) Reference",
+    "5.1.9": "What does Frege’s distinction between sense and reference help explain?<br>A) How speech acts create obligations<br>B) How two expressions can present the same object differently<br>C) Why every word must change meaning<br>D) How syntax alone determines reference",
+    "5.1.17": "Truth conditions specify what must hold for a statement to be true; they are distinct from tests by which we determine its truth.",
+    "5.1.27": "Different modes of presentation can make an identity informative even when both expressions refer to Venus.",
+    "5.2.25": "a) Semantic drift",
+    "5.2.32": "c) Considering a scenario as actual versus evaluating a counterfactual with actual reference fixed",
+    "5.2.51": "a) Semantic drift. Cultural color symbolism can also raise philosophical questions; it is not excluded from the field.",
+    "5.2.52": "c) Considering a scenario as actual versus evaluating a counterfactual with actual reference fixed.",
+    "6.1.6": "Evaluate Frege’s distinction between sense and reference. How can an identity statement be informative when two expressions refer to the same object?",
+    "6.2.7": "How can speakers make claims open to shared assessment while acknowledging the influence of perspective and framing?",
+    "5.1.3": "What does the term ‘denotation’ refer to in linguistics? <br>A) The emotional overtones of a word <br>B) The direct, explicit meaning of a word <br>C) The rules governing sentence structure <br>D) The study of sound patterns in language",
+    "5.1.5": "‘Speech Acts’ theory was primarily developed by which philosopher? <br>A) Ludwig Wittgenstein <br>B) J.L. Austin <br>C) Gottlob Frege <br>D) John Searle",
+    "5.1.6": "What does ‘Pragmatics’ study in the philosophy of language? <br>A) The organization of sounds in languages <br>B) The structure and formation of words <br>C) How context influences the interpretation of meaning <br>D) The relationship between language and thought",
+    "5.1.7": "Which of the following best describes ‘Semantic Drift’? <br>A) The process by which the meaning of a word changes over time <br>B) The smallest grammatical unit in a language <br>C) A figure of speech where a word is applied to something it does not literally apply to <br>D) The action performed via utterances",
+    "5.1.8": "The ‘Linguistic Turn’ in philosophy emphasized what aspect of philosophical problems? <br>A) Their moral implications <br>B) Their historical context <br>C) Their dependence on language <br>D) Their mathematical structure",
+    "5.1.10": "Which area of interest in the philosophy of language examines the possibility of AI achieving true linguistic competence? <br>A) Digital and Internet Language <br>B) Computational Linguistics and AI <br>C) Ecological Linguistics <br>D) Neurophilosophy of Language",
+    "5.1.11": "The principle that the meaning of a complex expression is determined by the meanings of its constituent expressions and the rules for combining them is known as: <br>A) The Principle of Compositionality <br>B) The Private Language Argument <br>C) The Principle of Conventionality <br>D) The Principle of Referential Integrity",
+    "5.1.12": "Which emerging area in the philosophy of language focuses on the relationship between language, ecological thought, and environmental action? <br>A) Language and Embodiment <br>B) Ethics of Communication <br>C) Ecological Linguistics <br>D) Language and Mindfulness",
+    "5.2.3": "a) Ludwig Wittgenstein<br>b) Aristotle",
+    "5.2.4": "c) Gottlob Frege<br>d) Bertrand Russell",
+    "5.2.6": "a) Empiricism<br>b) Rationalism",
+    "5.2.7": "c) Logical Positivism<br>d) Pragmatism",
+    "5.2.9": "a) Logic and verification<br>b) Context and use",
+    "5.2.10": "c) Mathematical models<br>d) Universal grammar",
+    "5.2.12": "a) W.V. Quine<br>b) Rudolf Carnap",
+    "5.2.13": "c) Thomas Aquinas<br>d) John Locke"
+  },
+  "countChecks": [
+    {
+      "name": "1.1.ol counts",
+      "selector": "#prompt-1 [data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        30
+      ]
+    },
+    {
+      "name": "1.2.ol counts",
+      "selector": "#prompt-1 [data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        23,
+        7
+      ]
+    },
+    {
+      "name": "2.1.ol counts",
+      "selector": "#prompt-2 [data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        17
+      ]
+    },
+    {
+      "name": "2.2.ol counts",
+      "selector": "#prompt-2 [data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        10
+      ]
+    },
+    {
+      "name": "2.2.ul counts",
+      "selector": "#prompt-2 [data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "3.1.ul counts",
+      "selector": "#prompt-3 [data-source-column=\"1\"] ul",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1,
+        1,
+        3,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "3.2.ul counts",
+      "selector": "#prompt-3 [data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        2,
+        2,
+        3,
+        2,
+        4,
+        3
+      ]
+    },
+    {
+      "name": "4.1.ol counts",
+      "selector": "#prompt-4 [data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        10
+      ]
+    },
+    {
+      "name": "5.1.ol counts",
+      "selector": "#prompt-5 [data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        10
+      ]
+    },
+    {
+      "name": "5.1.ul counts",
+      "selector": "#prompt-5 [data-source-column=\"1\"] ul",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "5.2.ol counts",
+      "selector": "#prompt-5 [data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        10,
+        10
+      ]
+    },
+    {
+      "name": "5.2.ul counts",
+      "selector": "#prompt-5 [data-source-column=\"2\"] ul",
+      "child": "li",
+      "expected": [
+        2,
+        2,
+        2,
+        2,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "name": "6.1.ol counts",
+      "selector": "#prompt-6 [data-source-column=\"1\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    },
+    {
+      "name": "6.2.ol counts",
+      "selector": "#prompt-6 [data-source-column=\"2\"] ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    }
+  ],
+  "responseAppendices": {
+    "1.2": [
+      "<p><em>Editorial additions completing the requested thirty entries:</em></p><ol start=\"24\"><li><strong>Proposition:</strong> What a declarative utterance expresses as true or false; different sentences can express the same proposition.</li><li><strong>Entailment:</strong> A relation in which the truth of one claim guarantees another. “Every guest arrived” entails that no guest failed to arrive.</li><li><strong>Implicature:</strong> An additional message inferred from a speaker’s words and context, often cancelable without contradiction.</li><li><strong>Presupposition:</strong> Information treated as background, as prior smoking is in “Mira stopped smoking.”</li><li><strong>Indexical:</strong> An expression such as “I,” “here” or “now” whose reference depends on the context of use.</li><li><strong>Vagueness:</strong> The presence of borderline cases, as with “tall”; this differs from having several distinct meanings.</li><li><strong>Compositionality:</strong> The principle that the meaning of a complex expression depends on its parts and their mode of combination.</li></ol>"
+    ]
+  },
+  "responseDecisions": {
+    "1.1": "Retained glossary order; replaced three duplicates with reference, implicature and presupposition; corrected grapheme, diglossia and polysemy. Thirty distinct terms.",
+    "1.2": "Completed interrupted register definition, corrected unhappy/allophone examples and reference; seven explicitly editorial entries fulfill thirty-term request.",
+    "2.1": "Retained seventeen concepts; clarified truth conditions, sense, intension, private language, translation and deixis; retained useful prior cold-window example.",
+    "2.2": "Retained ten concepts and nested theoretical alternatives; corrected direct-reference psychology, mentalism, coherence and Frege puzzle.",
+    "3.1": "Retained timeline order; corrected Augustine period, Wittgenstein and Kripke chronology; explained methodological shifts without replacement narrative.",
+    "3.2": "Retained narrative sequence; corrected verification criterion and chronology; clarified Quine and qualified dominance.",
+    "4.1": "Retained ten topics; scoped list to original 2024 perspective and qualified mindfulness specialty and benefits.",
+    "4.2": "Retained six topics; corrected two-dimensional semantics, Fine relationism, modal terms and artificial-language ambiguity.",
+    "5.1": "Retained ten questions and end explanations; repaired truth/sense questions and matching keys, made options readable.",
+    "5.2": "Retained ten questions and end key; removed unsupported dominance claim and exclusion of color symbolism; corrected two-dimensional question and ethical overlap.",
+    "6.1": "Retained fourteen questions verbatim; made Frege question address informative identity.",
+    "6.2": "Retained fourteen questions verbatim; replaced false objectivity/subjectivity dichotomy."
+  },
+  "leadingTextReplacements": {
+    "5.1.26": "7: B) How two expressions can present the same object differently",
+    "5.2.5": "Which movement associated with the Vienna Circle emphasized logic and empirical verification or confirmation?",
+    "5.2.24": "Which topic concerns changes in a word’s meaning over time?",
+    "5.2.29": "Which distinction is central to the epistemic version of two-dimensional semantics described above?",
+    "5.2.34": "Which option most directly concerns the social and political power of language?"
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "recordedAt": "2026-10-30T13:14:16.966558+00:00",
+  "savedModel": "gpt-6-astra",
+  "savedReasoningEffort": "high",
+  "runtimeModelIdentity": "Not independently verified",
+  "newPagesReviewed": 1,
+  "pageTitle": "Philosophy of Language — Core Concepts",
+  "source": {
+    "wordpressId": 1024,
+    "cache": ".cache/byteseismic-posts-with-content.json",
+    "url": "http://byteseismic.com/2024/02/24/core-concepts-philosophy-of-language/",
+    "sha256": "ea840a35616919c718f65a20bb3d4cb631b29330f3aabc04c64eab30c614c51d",
+    "fullSourceRead": true,
+    "urlTitlePromptMatch": true
+  },
+  "verification": {
+    "pagePath": "/philosophy-of-language/core-concepts-philosophy-of-language/",
+    "sourceSha256": "ea840a35616919c718f65a20bb3d4cb631b29330f3aabc04c64eab30c614c51d",
+    "originalPrompts": 6,
+    "originalHeadings": 6,
+    "sourceColumns": 12,
+    "modelResponses": 12,
+    "blocksRetainedVerbatim": 199,
+    "tableCellsExplicitlyRevised": 0,
+    "blocksExplicitlyRevised": 78,
+    "bareAnswersExplicitlyRevised": 0,
+    "promptOrderExact": true,
+    "sourceBlockOrderExact": true,
+    "listAndTableStructuresPreserved": false,
+    "explicitListItemSplits": [],
+    "explicitResponseAppendices": [
+      "1.2"
+    ],
+    "formatChecks": {
+      "1.1.ol counts": [
+        30
+      ],
+      "1.2.ol counts": [
+        23,
+        7
+      ],
+      "2.1.ol counts": [
+        17
+      ],
+      "2.2.ol counts": [
+        10
+      ],
+      "2.2.ul counts": [
+        2,
+        2,
+        2
+      ],
+      "3.1.ul counts": [
+        1,
+        1,
+        1,
+        1,
+        3,
+        2,
+        3
+      ],
+      "3.2.ul counts": [
+        2,
+        2,
+        3,
+        2,
+        4,
+        3
+      ],
+      "4.1.ol counts": [
+        10
+      ],
+      "5.1.ol counts": [
+        10
+      ],
+      "5.1.ul counts": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "5.2.ol counts": [
+        10,
+        10
+      ],
+      "5.2.ul counts": [
+        2,
+        2,
+        2,
+        2,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "6.1.ol counts": [
+        15
+      ],
+      "6.2.ol counts": [
+        15
+      ]
+    },
+    "sha256": "4330aef3730c35a60a7418426d814529d3e4355a45ab3d9943a5d5b01350eae0",
+    "fullSourceRead": true,
+    "sourceMatch": {
+      "url": true,
+      "title": true,
+      "prompts": true,
+      "inventorySha256": true
+    },
+    "curatorExchanges": "All six original prompts preserved verbatim; no separate curator correction or dialogue outside them.",
+    "responseDecisions": {
+      "1.1": "Retained glossary order; replaced three duplicates with reference, implicature and presupposition; corrected grapheme, diglossia and polysemy. Thirty distinct terms.",
+      "1.2": "Completed interrupted register definition, corrected unhappy/allophone examples and reference; seven explicitly editorial entries fulfill thirty-term request.",
+      "2.1": "Retained seventeen concepts; clarified truth conditions, sense, intension, private language, translation and deixis; retained useful prior cold-window example.",
+      "2.2": "Retained ten concepts and nested theoretical alternatives; corrected direct-reference psychology, mentalism, coherence and Frege puzzle.",
+      "3.1": "Retained timeline order; corrected Augustine period, Wittgenstein and Kripke chronology; explained methodological shifts without replacement narrative.",
+      "3.2": "Retained narrative sequence; corrected verification criterion and chronology; clarified Quine and qualified dominance.",
+      "4.1": "Retained ten topics; scoped list to original 2024 perspective and qualified mindfulness specialty and benefits.",
+      "4.2": "Retained six topics; corrected two-dimensional semantics, Fine relationism, modal terms and artificial-language ambiguity.",
+      "5.1": "Retained ten questions and end explanations; repaired truth/sense questions and matching keys, made options readable.",
+      "5.2": "Retained ten questions and end key; removed unsupported dominance claim and exclusion of color symbolism; corrected two-dimensional question and ethical overlap.",
+      "6.1": "Retained fourteen questions verbatim; made Frege question address informative identity.",
+      "6.2": "Retained fourteen questions verbatim; replaced false objectivity/subjectivity dichotomy."
+    },
+    "structureException": "All original lists and source-block order retained. Second glossary has an explicitly labeled seven-entry editorial continuation after original entry 23, fulfilling the request for thirty terms. First glossary duplicate terms replaced at original positions.",
+    "deliberateCorruptionsRejected": [
+      "prompt",
+      "response",
+      "glossary",
+      "quiz",
+      "discussion",
+      "added term"
+    ],
+    "visualVerification": {
+      "desktop": "1280x720 quiz navigation reached prompt-5; heading and answer-option layout inspected.",
+      "limitations": "Desktop spot check only; no mobile or full accessibility audit this run."
+    },
+    "research": [
+      {
+        "url": "http://byteseismic.com/2024/02/24/core-concepts-philosophy-of-language/",
+        "scope": "Published page confirms original glossary stops at interrupted entry 23."
+      },
+      {
+        "url": "https://consc.net/papers/twodim.html",
+        "scope": "Selected introductory account, actual/counterfactual dimensions and variant approaches; not full paper review."
+      },
+      {
+        "url": "https://onlinelibrary.wiley.com/doi/book/10.1002/9780470690826",
+        "scope": "Publisher description and contents for Fine 2007; not full book."
+      },
+      {
+        "url": "https://centerforgermanphilosophy.uchicago.edu/wp-content/uploads/2024/05/PI-243-308-422-427-Anscombe-Monolingual-Edition.pdf",
+        "scope": "Publication details and selected private-language passage around section 258. Did not use the alternative machine-translated online edition."
+      },
+      {
+        "url": "https://ditext.com/quine/quine.html",
+        "scope": "Opening formulation of two dogmas and edition note."
+      }
+    ],
+    "limitations": [
+      "Timelines are selective and primarily European/analytic, as disclosed.",
+      "Research directions retain the original 2024 framing; no claim of a current 2026 ranking.",
+      "Editorial glossary additions are new writing, not recovered model output.",
+      "Eight current-batch pages remain unreviewed."
+    ]
+  },
+  "currentBatchReviewed": 42,
+  "currentBatchPending": 8,
+  "sourceBlocked": 0,
+  "restartedPassSubstantivelyReviewed": 142,
+  "restartedPassNotYetReviewed": 204,
+  "officialCompletedBatchPages": 100,
+  "officialRemainingPages": 246,
+  "cycle": 8,
+  "currentBatchStart": 100,
+  "trackerAdvanced": false,
+  "nextPendingPage": "/rational-thought/training-data-bias/",
+  "followingBatch": "Index 150 begins What are Ethics?; inactive",
+  "buildVerification": "quality/original-source-revisions/batch-verification-2026-10-30.json",
+  "publication": "Commit and remote verification recorded in automation memory after publication.",
+  "unresolved": [
+    "Eight further full page reviews",
+    "Previously documented research and presentation limitations remain effective"
+  ],
+  "cost": "No separately billed services, generation or installations used.",
+  "disk": "37 GiB free before modest isolated archive and cache copies; scratch removed after publication."
+}
