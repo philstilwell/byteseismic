@@ -4,10 +4,10 @@
   "startIndex": 100,
   "endIndexExclusive": 150,
   "candidateWordPressOriginals": 49,
-  "fullyReviewed": 42,
-  "pendingFullReview": 8,
+  "fullyReviewed": 43,
+  "pendingFullReview": 7,
   "sourceBlocked": 0,
-  "limitation": "Forty-one current-batch pages reviewed and verified; nine pending. Worldview conversation reviewed October29. No tracker advancement; prior limitations remain effective.",
+  "limitation": "Forty-three current-batch pages reviewed; seven pending. Training Data Bias reviewed October31. No tracker advancement; prior limitations remain effective.",
   "pages": [
     {
       "pagePath": "/philosophers/philosopher-club-membership/",
@@ -1109,7 +1109,7 @@
       "pagePath": "/rational-thought/training-data-bias/",
       "pageTitle": "Training Data Bias",
       "queueIndex": 143,
-      "status": "pending-full-review",
+      "status": "reviewed-verified",
       "wordpressId": 14804,
       "sourceUrl": "http://byteseismic.com/2024/11/03/training-data-bias/",
       "sourceTitle": "Training Data Bias",
@@ -1126,8 +1126,10 @@
         "Provide 15 discussion questions relevant to the content above. "
       ],
       "wordCount": 4101,
-      "fullSourceRead": false,
-      "editorialReviewComplete": false
+      "fullSourceRead": true,
+      "editorialReviewComplete": true,
+      "report": "quality/editorial-audit-2026-10-31.json",
+      "verification": "quality/original-source-revisions/training-data-bias-verification-2026-10-31.json"
     },
     {
       "pagePath": "/ethics/coherent-moral-systems/",
@@ -1301,6 +1303,6 @@
       "editorialReviewComplete": false
     }
   ],
-  "updatedAt": "2026-10-30T13:13:12.731961+00:00",
-  "recordedAt": "2026-10-30T13:13:12.732080+00:00"
+  "updatedAt": "2026-10-31T13:12:52.372491+00:00",
+  "recordedAt": "2026-10-31T13:12:52.372491+00:00"
 }

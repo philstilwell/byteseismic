@@ -1,0 +1,113 @@
+{
+  "recordedAt": "2026-10-31T13:12:52.372491+00:00",
+  "status": "partial-batch",
+  "reviewedThisRun": [
+    "/rational-thought/training-data-bias/"
+  ],
+  "currentBatchReviewed": 43,
+  "currentBatchPending": 7,
+  "sourceBlocked": 0,
+  "restartedPassSubstantivelyReviewed": 143,
+  "restartedPassNotYetReviewed": 203,
+  "officialTrackerCompleted": 100,
+  "officialTrackerRemaining": 246,
+  "cursor": {
+    "cycle": 8,
+    "startIndex": 100
+  },
+  "trackerAdvanced": false,
+  "nextPending": "/ethics/coherent-moral-systems/",
+  "followingBatchStart": "/ethics/what-are-ethics/",
+  "pageVerification": {
+    "pagePath": "/rational-thought/training-data-bias/",
+    "sourceSha256": "235ef1c206d471b07d2b1005bfcd5451bd7cae9090afaa3a7b0c46e9981d90bb",
+    "originalPrompts": 6,
+    "originalHeadings": 6,
+    "sourceColumns": 6,
+    "modelResponses": 6,
+    "blocksRetainedVerbatim": 70,
+    "tableCellsExplicitlyRevised": 0,
+    "blocksExplicitlyRevised": 48,
+    "bareAnswersExplicitlyRevised": 5,
+    "promptOrderExact": true,
+    "sourceBlockOrderExact": true,
+    "listAndTableStructuresPreserved": true,
+    "explicitListItemSplits": [],
+    "explicitResponseAppendices": [],
+    "formatChecks": {
+      "ten example headings": [
+        10
+      ],
+      "ten quiz questions": [
+        10
+      ],
+      "ten expandable answers": [
+        10
+      ],
+      "fifteen discussion questions": [
+        15
+      ]
+    },
+    "sha256": "fd8e36e2bdf503bc504a7ac4844f7e9cb0d51a93fa8d283b634d93b53793f771",
+    "recordedAt": "2026-10-31T13:12:52.372491+00:00",
+    "fullSourceRead": true,
+    "sourceUrl": "http://byteseismic.com/2024/11/03/training-data-bias/",
+    "sourceTitle": "Training Data Bias",
+    "sourceCache": ".cache/byteseismic-posts-with-content.json",
+    "urlTitlePromptMatch": true,
+    "responseDecisions": {
+      "1.1": "Revised inference/evidence distinction, automatic-filter premise, conversation versus retraining and concession test. Retained original four-part sequence.",
+      "2.1": "Read linked post 459 prompts/context; preserve quoted AI/human/AI turns and curator confidence-based priority. Correct commentary about circularity, truth and reliabilism without recasting the quoted human stance.",
+      "3.1": "Retain all ten initial examples and all ten human challenges verbatim. Revise AI replies and closing explanation in place; retain exact curator warning. Correct overconcessions and medical, test-validity and policy examples.",
+      "4.1": "Retain essay sequence and useful economic/history examples. Repair knowledge, vaccine and universality arguments; add explicit evidence and uncertainty checks.",
+      "5.1": "Retain ten original question positions and expandable answer placement; revise two questions and five answers dependent on corrected exposition.",
+      "6.1": "Retain fifteen-item list, twelve questions verbatim; replace three leading or causally overconfident questions."
+    },
+    "quotedKnowledgeTurnsVerbatim": true,
+    "tenHumanChallengesVerbatim": true,
+    "curatorWarningVerbatim": true,
+    "damageDetectionChecksPassed": 6,
+    "browserCheck": "Chrome desktop, original prompt list and readable quiz; third answer expanded successfully. Initial role-button selector missed summary element, corrected by exact visible text. No mobile or accessibility certification.",
+    "limitations": [
+      "Ten source examples are hypothetical; no frequency claim about current models.",
+      "Linked What is Knowledge? post 459 consulted for curator prompts and selected surrounding replies, not freshly reviewed in full or edited. Source 14804 presents a paraphrased exchange, retained as such.",
+      "Research checked selected primary passages, abstracts and agency guidance; no complete literature review.",
+      "The source has five prose prompts plus the Quiz heading; all six heading texts preserved verbatim.",
+      "The original embedded link remains; its stripped legacy iframe is blank."
+    ],
+    "research": [
+      {
+        "url": "https://arxiv.org/abs/2310.13548",
+        "scope": "Research abstract: sycophancy and preference judgments."
+      },
+      {
+        "url": "https://joelvelasco.net/teaching/4330/goldman76-discrimination.pdf",
+        "scope": "Opening pp771–772 of Goldman original paper: reliable processes and true belief."
+      },
+      {
+        "url": "https://www.cdc.gov/vaccines/hcp/imz-best-practices/altered-immunocompetence.html",
+        "scope": "General principles: live/non-live vaccines and immunity."
+      },
+      {
+        "url": "https://www.nccih.nih.gov/health/homeopathy",
+        "scope": "Evidence/safety overview, not regulatory guidance."
+      },
+      {
+        "url": "https://www.ojp.gov/pdffiles1/nij/247350.pdf",
+        "scope": "First-page deterrence findings. HTML timed out; official PDF obtained."
+      },
+      {
+        "url": "https://www.nimh.nih.gov/health/topics/caring-for-your-mental-health",
+        "scope": "Indexed official self-care/treatment excerpt."
+      },
+      {
+        "url": "https://www.ipcc.ch/report/ar6/syr/summary-for-policymakers/",
+        "scope": "Indexed official A.1 attribution statement; direct open returned403."
+      }
+    ]
+  },
+  "buildVerification": "quality/original-source-revisions/batch-verification-2026-10-31.json",
+  "model": "Astra High requested; prior saved configuration recorded as gpt-6-astra/high; runtime identity not independently verified",
+  "publication": "Commit/push receipt recorded in automation memory after publication.",
+  "initialBuildFailure": "Omitted .cache/byteseismic-home.html; fetched live homepage produced duplicate routes, dialectical preservation check failed. Main checkout untouched. Rerun from fresh archive with both required caches."
+}
