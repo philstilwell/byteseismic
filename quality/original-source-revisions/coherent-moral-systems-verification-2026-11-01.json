@@ -1,0 +1,74 @@
+{
+  "pagePath": "/ethics/coherent-moral-systems/",
+  "sourceSha256": "714cb9fca92ec6b28410db36026847ece935942f5063a9679f9ff68599cd85ec",
+  "originalPrompts": 10,
+  "originalHeadings": 10,
+  "sourceColumns": 20,
+  "modelResponses": 20,
+  "blocksRetainedVerbatim": 191,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 83,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "quiz questions and first end key": [
+      10,
+      10,
+      10
+    ],
+    "discussion questions": [
+      15,
+      15
+    ]
+  },
+  "sha256": "0687e7bb5530370d10fd1ef09903c8a1622c2f62684ef7acf642211a3eb6969a",
+  "fullSourceRead": true,
+  "urlTitlePromptMatch": true,
+  "sourceUrl": "http://byteseismic.com/2024/03/13/coherent-moral-systems/",
+  "sourceTitle": "Coherent Moral Systems",
+  "sourceCache": ".cache/byteseismic-posts-with-content.json",
+  "responseDecisions": {
+    "1.1": "Retain eight-part order; distinguish coherence, justification and practical adequacy; correct consistency-as-reliability claim.",
+    "1.2": "Retain seven-part order; qualify context independence and motivational necessity; distinguish failure types.",
+    "2.1": "Retain alternatives and headings; repair non-naturalism, emergentism and Kant/constructivism classification; qualify immutable-truth premise.",
+    "2.2": "Retain five proposals; explain overlap and supervenience versus reduction; distinguish mental subject matter from approval dependence.",
+    "3.1": "Retain effective contextual examples and limitations; qualify inference from consistency to objectivity.",
+    "3.2": "Preserve six numbered aspects; repair scope, indexicality and necessity claims; add promiser/rescuer contrasts within responses.",
+    "4.1": "Retain examples and sequence; distinguish competing reasons from contradictory verdicts; correct utilitarian definition and change-over-time claim.",
+    "4.2": "Repair suffering counterexample and abduction; retain genuine autonomy contradiction and basic logical constraints.",
+    "5.1": "Retain six practical dimensions and examples; qualify closing promise of confidence with uncertainty.",
+    "5.2": "Distinguish criterion from decision method, remove complete-algorithm demand; explain Ross and practical limits.",
+    "6.1": "Distinguish understanding, agreement and justification; correct intuition conformity and community-autonomy conflation.",
+    "6.2": "Retain error-correction sequence; repair opacity wording and claims about intuition/revelation; separate inaccessibility from nonexistence.",
+    "7.1": "Retain eight topics; substantially revise authority, emotion, consensus and reinforcement claims to distinguish influence from justification.",
+    "7.2": "Retain five aspects; treat motivation internalism and moral overridingness as disputed, not necessary assumptions.",
+    "8.1": "Retain seven dimensions; separate causal explanation of intuitions from justification and moral change from progress.",
+    "8.2": "Retain five dimensions; qualify intuitive fit and dilemma resolution; restore rights objection; correct non-naturalism-as-antirealism error.",
+    "9.1": "Retain ten questions and ten end answers; repair three questions tied to authority/access/emergence distinctions.",
+    "9.2": "Retain ten questions and end key; correct questions 3/4 and answers, clarify practical methods and explanatory scope.",
+    "10.1": "Retain fourteen questions verbatim; revise leading emergence question.",
+    "10.2": "Retain twelve questions verbatim; revise universality, motivation and common-sense assumptions."
+  },
+  "damageDetectionChecksPassed": 6,
+  "recordedAt": "2026-11-01T14:06:57.356656+00:00",
+  "limitations": [
+    "Selected Kant preface and Ross chapter II passages checked, not a full literature review.",
+    "No original curator exchanges outside the ten prompts; source highlights replaced by labeled edited summary.",
+    "No browser/mobile/accessibility inspection this run.",
+    "Remaining six batch pages require full review; no batch advancement."
+  ],
+  "research": [
+    {
+      "url": "https://www.gutenberg.org/cache/epub/5682/pg5682-images.html",
+      "scope": "Kant preface and indexed universal-law formulation"
+    },
+    {
+      "url": "https://ditext.com/ross/right2.html",
+      "scope": "Ross chapter II opening through promise/distress and prima facie duty discussion"
+    }
+  ]
+}

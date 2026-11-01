@@ -1,0 +1,17 @@
+# Editorial audit — November 1, 2026
+
+Completed one page: **Coherent Moral Systems**, from the complete cached WordPress post 3447. URL, title, SHA-256 and all ten original prompts match the saved source inventory. The original is recorded separately from the Git revision used only for the surrounding site layout. Saved automation specifies Astra High; runtime identity was not independently verified.
+
+Restored the full ten-prompt progression, twenty ChatGPT/Claude response positions, two ten-question quizzes with answers at the end, and two fifteen-question discussion lists. All prompts remain verbatim and ordered, including trailing whitespace. No separate curator correction or dialogue turn occurs outside those prompts. Original lists and response block ordering are retained. The former shortened edition is not used as the source. Highlights are labeled an edited summary.
+
+Revised 83 source blocks and retained 191. The main repairs distinguish coherence from justification and usefulness, objectivity from independence of circumstances, moral authority from emotional or social influence, and practical guidance from a complete decision algorithm. Corrected non-naturalism, emergentism and supervenience descriptions; qualified Kantian construction and universalizability claims. The suffering example now explains why causing a lesser harm may be consistent with minimizing total suffering, then supplies an actual contradiction. Corrected the related quiz questions and answer key. Retained effective examples and 26 of 30 discussion questions verbatim. All twenty response decisions are recorded in the edit map and page verification.
+
+Research checked selected passages in [Kant’s Groundwork](https://www.gutenberg.org/cache/epub/5682/pg5682-images.html) and [Ross’s The Right and the Good, chapter II](https://ditext.com/ross/right2.html), rather than claiming a complete literature review. Philosophical alternatives remain presented as proposals, not settled foundations.
+
+Source/order/list/count checks pass. Six deliberately damaged versions fail verification: missing prompt, response paragraph, quiz question, answer paragraph, discussion question, and swapped prompts. The full build ran only in an isolated Git archive with both required caches. All 144 reviewed pages survived byte-for-byte; the prior 143 received preservation checks only. Full build output is retained in the batch verification record. No browser, mobile or accessibility certification this run.
+
+**Progress:** 44/50 pages reviewed in the current batch, six pending, zero source blockers. Restarted substantive progress is 144/346, leaving 202 not yet reviewed. The official whole-batch tracker remains 100 complete / 246 remaining at cycle 8, index 100. Neither tracker was advanced or reset.
+
+Next: Counterfactual Reasoning; Dangers: Narrative; Dangers: Ontological Buffet; Dangers: Unnuanced Conclusions; Meta-Ethics; Moral Systems: Required Elements. The following batch begins What are Ethics? and remains inactive. All 35 approved site-native exceptions remain effective. Remaining reviews and prior documented limitations remain open.
+
+Only the revised page, its exact source/edit/verification records, partial inventory, build evidence and reports are authorized for this commit. All inherited working changes must remain unchanged. Commit/push receipt and cleanup are recorded in automation memory after publication. No paid external services, repository installation or temporary browser tabs used.
