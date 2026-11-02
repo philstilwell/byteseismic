@@ -1,0 +1,109 @@
+{
+  "recordedAt": "2026-11-02T14:10:51.744637+00:00",
+  "status": "partial-batch",
+  "reviewedThisRun": [
+    "/epistemology/counterfactual-reasoning/"
+  ],
+  "currentBatchReviewed": 45,
+  "currentBatchPending": 5,
+  "sourceBlocked": 0,
+  "restartedPassSubstantivelyReviewed": 145,
+  "restartedPassNotYetReviewed": 201,
+  "officialTrackerCompleted": 100,
+  "officialTrackerRemaining": 246,
+  "cursor": {
+    "cycle": 8,
+    "startIndex": 100
+  },
+  "trackerAdvanced": false,
+  "nextPending": "/philosophical-inquiry/dangers-narrative/",
+  "followingBatchStart": "/ethics/what-are-ethics/",
+  "pageVerification": {
+    "pagePath": "/epistemology/counterfactual-reasoning/",
+    "sourceSha256": "ef14489541c9315c58f1078eb284b085df23477a12ec9419a326e9bcd7f79fa9",
+    "originalPrompts": 6,
+    "originalHeadings": 6,
+    "sourceColumns": 18,
+    "modelResponses": 18,
+    "blocksRetainedVerbatim": 199,
+    "tableCellsExplicitlyRevised": 0,
+    "blocksExplicitlyRevised": 60,
+    "bareAnswersExplicitlyRevised": 0,
+    "promptOrderExact": true,
+    "sourceBlockOrderExact": true,
+    "listAndTableStructuresPreserved": true,
+    "explicitListItemSplits": [],
+    "explicitResponseAppendices": [],
+    "formatChecks": {
+      "quiz questions and end keys": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "discussion questions": [
+        15,
+        15,
+        15
+      ]
+    },
+    "sha256": "b7ec8a5b225cf7fcfeb736a4441ba97118ac53cc28f5514630042dc034e541bb",
+    "fullSourceRead": true,
+    "urlTitlePromptMatch": true,
+    "sourceUrl": "http://byteseismic.com/2024/05/06/counterfactual-reasoning/",
+    "sourceTitle": "Counterfactual Reasoning",
+    "sourceCache": ".cache/byteseismic-posts-with-content.json",
+    "responseDecisions": {
+      "1.1": "Preserve three steps; broaden definition beyond past events and explain causal consequences.",
+      "1.2": "Keep examples; repair umbrella conditional and grade certainty.",
+      "1.3": "Keep five applications and bias cautions; qualify exam inference and responsibility.",
+      "2.1": "Keep five domains; qualify conflict, health and investment inferences.",
+      "2.2": "Keep five scenarios; remove assumed career mistake and outcome certainty.",
+      "2.3": "Keep six domains; add concrete presentation example and distinguish relocation planning.",
+      "3.1": "Retain Cuba/Iraq progression; source historical details and distinguish decision quality from outcomes.",
+      "3.2": "Retain listed examples but label USSR/1914 as research proposals; explain forecast distinction.",
+      "3.3": "Retain four cases; bound reunification claim and ground Bay of Pigs vulnerability.",
+      "4.1": "Keep eight methods; add bus example, rival narratives and success/failure comparison.",
+      "4.2": "Retain evidence and bias advice; replace mere repetition with feedback.",
+      "4.3": "Keep eight headings; explain structured methods and limits of introspection.",
+      "5.1": "Keep ten questions and end answers; align historical questions and answers with corrected discussion.",
+      "5.2": "Retain ten multiple-choice items and exact end key; answers are supported and format is complete.",
+      "5.3": "Keep ten questions and end answers; repair certainty and scenario-planning conflation.",
+      "6.1": "Retain fourteen discussion questions; make game-transfer question open rather than leading.",
+      "6.2": "Retain all fifteen: personal, historical and imaginative uses remain productive open questions.",
+      "6.3": "Retain all fifteen: broad applications, ethical issues and limitations suitably extend the preceding answers."
+    },
+    "damageDetectionChecksPassed": 6,
+    "recordedAt": "2026-11-02T14:08:56.856086+00:00",
+    "limitations": [
+      "Historical verification limited to cited official accounts and selected Iraq Inquiry summary; no complete archival or literature review.",
+      "No browser, mobile or accessibility inspection this run.",
+      "Source preamble logos replaced by response labels; highlights are an explicitly labeled edited summary. No separate curator correction or dialogue outside prompts found.",
+      "Five batch pages remain pending."
+    ],
+    "research": [
+      {
+        "url": "https://history.state.gov/milestones/1961-1968/cuban-missile-crisis",
+        "scope": "Alternatives, quarantine and settlement account"
+      },
+      {
+        "url": "https://www.gov.uk/government/speeches/pm-statement-on-the-iraq-inquiry-6-july-2016",
+        "scope": "Selected findings on certainty, alternatives and aftermath preparation"
+      },
+      {
+        "url": "https://history.state.gov/countries/german-democratic-republic",
+        "scope": "Unification and Two Plus Four agreements"
+      },
+      {
+        "url": "https://www.archives.gov/research/jfk/select-committee-report/findings.html",
+        "scope": "Bay of Pigs paragraph: anticipated uprising and defeat"
+      }
+    ],
+    "responseOrderVerification": "Explicit independent DOM sequence check confirms columns 1,2,3 for each of six prompts. Shared verifier validates columns by identifier but does not itself reject column reordering; the independent check rejected the swapped-column variant."
+  },
+  "buildVerification": "quality/original-source-revisions/batch-verification-2026-11-02.json",
+  "model": "Saved automation confirms gpt-6-astra/high; runtime identity not independently verified. No configuration change or delegation.",
+  "publication": "Commit and push receipt recorded in automation memory after publication."
+}

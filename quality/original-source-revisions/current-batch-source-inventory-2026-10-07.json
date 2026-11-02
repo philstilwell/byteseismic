@@ -4,10 +4,10 @@
   "startIndex": 100,
   "endIndexExclusive": 150,
   "candidateWordPressOriginals": 49,
-  "fullyReviewed": 44,
-  "pendingFullReview": 6,
+  "fullyReviewed": 45,
+  "pendingFullReview": 5,
   "sourceBlocked": 0,
-  "limitation": "Forty-four current-batch pages reviewed; six pending. Coherent Moral Systems reviewed November 1. No tracker advancement; prior limitations remain effective.",
+  "limitation": "Forty-five current-batch pages reviewed; five pending. Counterfactual Reasoning reviewed November 2. No tracker advancement; prior limitations remain effective.",
   "pages": [
     {
       "pagePath": "/philosophers/philosopher-club-membership/",
@@ -1165,7 +1165,7 @@
       "pagePath": "/epistemology/counterfactual-reasoning/",
       "pageTitle": "Counterfactual Reasoning",
       "queueIndex": 145,
-      "status": "pending-full-review",
+      "status": "reviewed-verified",
       "wordpressId": 8159,
       "sourceUrl": "http://byteseismic.com/2024/05/06/counterfactual-reasoning/",
       "sourceTitle": "Counterfactual Reasoning",
@@ -1182,8 +1182,10 @@
         "Provide 15 discussion questions relevant to the content above. "
       ],
       "wordCount": 6343,
-      "fullSourceRead": false,
-      "editorialReviewComplete": false
+      "fullSourceRead": true,
+      "editorialReviewComplete": true,
+      "report": "quality/editorial-audit-2026-11-02.json",
+      "verification": "quality/original-source-revisions/counterfactual-reasoning-verification-2026-11-02.json"
     },
     {
       "pagePath": "/philosophical-inquiry/dangers-narrative/",
