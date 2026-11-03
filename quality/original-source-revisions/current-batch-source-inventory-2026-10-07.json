@@ -4,10 +4,10 @@
   "startIndex": 100,
   "endIndexExclusive": 150,
   "candidateWordPressOriginals": 49,
-  "fullyReviewed": 45,
-  "pendingFullReview": 5,
+  "fullyReviewed": 46,
+  "pendingFullReview": 4,
   "sourceBlocked": 0,
-  "limitation": "Forty-five current-batch pages reviewed; five pending. Counterfactual Reasoning reviewed November 2. No tracker advancement; prior limitations remain effective.",
+  "limitation": "Forty-six current-batch pages reviewed; four pending. Dangers: Narrative reviewed November 3. No tracker advancement; prior limitations remain effective.",
   "pages": [
     {
       "pagePath": "/philosophers/philosopher-club-membership/",
@@ -1191,7 +1191,7 @@
       "pagePath": "/philosophical-inquiry/dangers-narrative/",
       "pageTitle": "Dangers: Narrative",
       "queueIndex": 146,
-      "status": "pending-full-review",
+      "status": "reviewed-verified",
       "wordpressId": 2863,
       "sourceUrl": "http://byteseismic.com/2024/03/08/dangers-narrative/",
       "sourceTitle": "Dangers: Narrative",
@@ -1208,8 +1208,10 @@
         "Provide 15 discussion questions relevant to the content above. "
       ],
       "wordCount": 3840,
-      "fullSourceRead": false,
-      "editorialReviewComplete": false
+      "fullSourceRead": true,
+      "editorialReviewComplete": true,
+      "reviewedAt": "2026-11-03",
+      "verification": "quality/original-source-revisions/dangers-narrative-verification-2026-11-03.json"
     },
     {
       "pagePath": "/philosophical-inquiry/dangers-ontological-buffet/",

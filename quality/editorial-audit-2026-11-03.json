@@ -1,0 +1,85 @@
+{
+  "recordedAt": "2026-11-03T14:10:37.643606+00:00",
+  "status": "partial-batch",
+  "reviewedThisRun": [
+    "/philosophical-inquiry/dangers-narrative/"
+  ],
+  "currentBatchReviewed": 46,
+  "currentBatchPending": 4,
+  "sourceBlocked": 0,
+  "restartedPassSubstantivelyReviewed": 146,
+  "restartedPassNotYetReviewed": 200,
+  "officialTrackerCompleted": 100,
+  "officialTrackerRemaining": 246,
+  "cursor": {
+    "cycle": 8,
+    "startIndex": 100
+  },
+  "trackerAdvanced": false,
+  "nextPending": "/philosophical-inquiry/dangers-ontological-buffet/",
+  "followingBatchStart": "/ethics/what-are-ethics/",
+  "pageVerification": {
+    "pagePath": "/philosophical-inquiry/dangers-narrative/",
+    "sourceSha256": "b375ffbe3d64403600a2f5c39071aa3671d75251ddcff1261d6616bc837c4281",
+    "originalPrompts": 6,
+    "originalHeadings": 6,
+    "sourceColumns": 12,
+    "modelResponses": 12,
+    "blocksRetainedVerbatim": 92,
+    "tableCellsExplicitlyRevised": 0,
+    "blocksExplicitlyRevised": 60,
+    "bareAnswersExplicitlyRevised": 0,
+    "promptOrderExact": true,
+    "sourceBlockOrderExact": true,
+    "listAndTableStructuresPreserved": true,
+    "explicitListItemSplits": [],
+    "explicitResponseAppendices": [],
+    "formatChecks": {
+      "quiz question counts": [
+        10,
+        10
+      ],
+      "discussion counts": [
+        15,
+        15
+      ],
+      "Gemini end answer count": [
+        10
+      ]
+    },
+    "sha256": "e65c72e5f2e90314fbc3023af26e716bd4dff055626b2709777907ef06599411",
+    "fullSourceRead": true,
+    "urlTitlePromptMatch": true,
+    "sourceUrl": "http://byteseismic.com/2024/03/08/dangers-narrative/",
+    "sourceTitle": "Dangers: Narrative",
+    "sourceCache": ".cache/byteseismic-posts-with-content.json",
+    "responseDecisions": {
+      "1.1": "Keep six distortions and curator substitution note; distinguish warning signs from disproof and add causal/symmetrical tests.",
+      "1.2": "Keep layered outline and benefits of stories; sharpen alternative explanations and avoid dismissing claims by motives alone.",
+      "2.1": "Keep eight mechanisms; explain inherited grievance, collective blame, silencing critics and symmetric standards.",
+      "2.2": "Keep six numbered paragraphs; add illustrative jobs scenario and distinguish civic symbols from coercive uses.",
+      "3.1": "Keep five cases in order; support Clermont, conversion suspicion, Partition and LRA mechanisms; qualify unsupported religious causation for removal.",
+      "3.2": "Keep five cases in order; correct Spanish scope and mixed war causes; explicitly mark Mughal–Maratha mechanism unestablished and Rwanda ethnic rather than demonstrated religious narrative.",
+      "4.1": "Keep seven reasons; replace unsupported generational optimism and inevitable progress with concrete correction practices.",
+      "4.2": "Keep reasons/challenges order; distinguish curiosity, education, counternarratives and technology from guaranteed truth.",
+      "5.1": "Keep ten questions and final answer paragraph; align four questions and key with corrected text.",
+      "5.2": "Keep ten questions and ten end answers; remove nine premature answer flags and repair religious-mechanism question.",
+      "6.1": "Retain all fifteen questions: they invite application, institutional responses and examination of biases without requiring the discarded historical claims.",
+      "6.2": "Retain all fifteen questions: civic belonging, helpful emotion, technology and religious peacemaking productively test the discussion’s limits."
+    },
+    "damageDetectionChecksPassed": 6,
+    "responseOrderVerification": "Independent DOM sequence check confirms source columns 1,2 in each section; shared verifier alone locates by identifier.",
+    "curatorNotePreservedVerbatim": true,
+    "discussionQuestionsRetainedVerbatim": 30,
+    "recordedAt": "2026-11-03T14:09:30.501524+00:00",
+    "limitations": [
+      "Historical review limited to sources linked in the edited responses; no complete archival review.",
+      "Trail of Tears religious-causation claim and Mughal–Maratha religious-supremacy mechanism are explicitly unestablished, not asserted facts.",
+      "First column substitution note preserved; no claim that each later first-column response is independently model-identified.",
+      "No browser/mobile/accessibility inspection."
+    ]
+  },
+  "buildVerification": "quality/original-source-revisions/batch-verification-2026-11-03.json",
+  "model": "Saved automation confirms gpt-6-astra/high; runtime identity not independently verified. No configuration change or delegation.",
+  "publication": "Commit and push receipt recorded in automation memory after publication."
+}
