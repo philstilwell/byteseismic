@@ -1,0 +1,135 @@
+{
+  "pageFile": "philosophical-inquiry/dangers-ontological-buffet/index.html",
+  "wordpressId": 6230,
+  "snapshot": "dangers-ontological-buffet-wordpress-6230.html",
+  "sourceSha256": "386e2557c9f6bf201f92372de597a2f393a0fb5842e97c769cdee8b3e86c7aad",
+  "sourceUrl": "http://byteseismic.com/2024/04/15/dangers-ontological-buffet/",
+  "sourceLabel": "Original WordPress conversation, April 15, 2024",
+  "shellRevision": "e4ae862817c5ccc9f8393c9681080e7fb34cdb10",
+  "date": "2026-11-04",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "preambleHeadingIndexes": [
+    0
+  ],
+  "headings": [
+    "How additions can insulate a claim",
+    "Examples and the limits of the comparison",
+    "Cheap invention and the cost of checking",
+    "Warning signs require investigation",
+    "Two ten-question quizzes with answer keys",
+    "Two sets of fifteen discussion questions"
+  ],
+  "introHeading": "When an explanation can absorb every objection",
+  "intro": "Six original prompts and both response tracks are restored. The edited responses preserve the curator’s challenge: without evidential constraints, an ideology can recruit new entities and powers whenever its claims are threatened. The examples distinguish that maneuver from honest inquiry, symbolic storytelling and revision supported by evidence.",
+  "description": "Examine the ontological buffet through Sagan’s dragon, qualified examples, the burden of proof, warning signs, two quizzes and thirty discussion questions.",
+  "highlights": [
+    "Internal consistency does not establish that the entities in an explanation exist.",
+    "An added mechanism earns credibility through independent support and consequences that can be checked.",
+    "Failure to disprove an insulated claim does not transfer the burden of supporting it to its critics."
+  ],
+  "replacements": {
+    "1.1.5": "Seeing nothing prompts invisibility; flour cannot catch footprints if the dragon floats; a heat detector fails if its fire gives off no heat. Each proposed test loses its force through a newly supplied property. The problem is not invisibility alone: it is the systematic removal of observable consequences.",
+    "1.1.7": "Paint is defeated by declaring the dragon incorporeal. An auxiliary explanation can be legitimate when independently supported, but here each addition merely rescues the claim from the test just proposed. No new reason for believing the addition is supplied.",
+    "1.1.9": "A defender can try to keep these additions mutually consistent while insulating the central claim. That makes coherence easier to arrange; it does not guarantee coherence or truth. The inability to disprove the resulting story supplies no positive evidence for its inhabitants.",
+    "1.1.11": "Wonder may explain why the story matters to someone, but it does not establish a creature in a garage. Philosophical argument and emotional meaning have legitimate roles; neither should quietly replace the evidence originally promised for a claim about the world.",
+    "1.1.15": "<strong>Erosion of empirical foundations:</strong> A claim that excludes every contrary observation cannot earn empirical support simply by surviving challenges. It remains open to logical and conceptual criticism; escaping a physical test does not escape all rational assessment.",
+    "1.1.19": "The curator’s point is therefore about the freedom to construct: remove the obligation to justify additions, and a coherent story becomes much easier to assemble and defend. Whether that story describes reality is a separate question. Insulation blocks a route to justification; it does not by itself demonstrate deliberate deception or establish that every component is false.",
+    "1.2.5": "<strong>Introducing a “dragon whisperer”:</strong> As an extension of the analogy in this response, imagine a person who claims privileged access to the dragon. The person’s existence may be ordinary; the unsupported addition is the special ability. What would distinguish accurate reports from invention? This character is not part of Sagan’s original garage exchange.",
+    "1.2.7": "<strong>Immunity to empirical counterarguments:</strong> If every contrary result receives a new exemption, observation loses its ability to discriminate between the story and its rivals. An appearance of coherence can remain, but contradictions may still be exposed.",
+    "1.2.10": "<strong>Loss of grounding:</strong> Elaborateness is not the problem by itself. The problem is increasing detail without increasing evidence: a richer description is being mistaken for a better-supported account.",
+    "1.2.12": "<strong>Erosion of trust:</strong> Repeated evasions give outsiders reason to distrust the explanation, even while committed insiders may become more attached to it.",
+    "1.2.14": "Sagan’s practical lesson is to remain open to evidence without treating an unrefuted story as established. His garage exchange contrasts failed tests with an imagined case in which detectable traces really appear. See <a href=\"https://goldengalaxies.net/Quasarpdflibrary/wp-content/uploads/2024/04/The-Demon-Haunted-World-Science-as-a-Candle-in-the-Dark-Carl-Sagan-1997.pdf\">The Demon-Haunted World, chapter 10, pp. 160–162</a>. The original post also placed <a href=\"https://www.youtube.com/watch?v=jJRy3Kl_z5E\">this video</a> before the responses; the link provides access if its legacy embed does not load.",
+    "2.1.0": "The following are real families of beliefs, but belonging to one is not evidence that a particular believer fabricated anything. The relevant test concerns a specific defense: does it add unsupported entities or exemptions to absorb contrary evidence? Some original examples show that pattern more clearly than others.",
+    "2.1.2": "<strong>Creationism and intelligent design:</strong> These are distinct positions, and particular claims can be tested. A narrower example is mature creation: <a href=\"https://crsq.creationresearch.org/id/eprint/1109/1/The%20Case%20for%20the%20Mature%20Creation%20Hypothesis.pdf\">Jerry Bergman’s defense</a> invokes created maturity to reconcile apparent age with Genesis. My criticism is conditional: if any apparent history may be attributed to initial creation without independent constraints, observations cease to discriminate between histories. That criticism does not establish that every creationist or design argument uses this maneuver.",
+    "2.1.3": "<strong>Spiritual and paranormal phenomena:</strong> A claim that a spirit moves an object has observable consequences even if the proposed cause is nonphysical. It becomes insulated when failures count as the spirit’s refusal to cooperate while successes count as confirmation, with no independent way to test the refusal explanation.",
+    "2.1.5": "<strong>Moon-landing-hoax claims:</strong> The insulating version dismisses every photograph, sample or independent observation as another product of the alleged conspiracy. Evidence of fabrication would be relevant; merely adding fabricators whenever contrary evidence appears is the buffet mechanism. This diagnoses a form of argument, not every person’s reasons for doubting a landing.",
+    "2.1.6": "<strong>Flat-Earth claims:</strong> Claims about Earth’s shape have testable consequences. An evasive defense adds coordinated deception whenever measurements conflict with its account, instead of offering a model that consistently explains the measurements. The test is whether the proposed deception has support beyond its usefulness in rescuing the claim.",
+    "2.1.8": "<strong>Ancient myths and legends:</strong> A phoenix story offered as symbolism need not pass a zoological test. The relevant evasion occurs when a narrator asserts literal history, cites evidence for it, then retreats to allegory only when that evidence fails while retaining the original factual conclusion. Mythmaking alone does not demonstrate this sequence.",
+    "2.1.9": "<strong>Loch Ness Monster and Bigfoot:</strong> An undiscovered animal is a testable possibility; rarity can genuinely make detection difficult. The buffet comparison applies only when new evasive powers or cover-ups are invoked without support to neutralize every unsuccessful search. Absence of detection matters in proportion to how likely the search was to detect the proposed animal.",
+    "2.1.11": "<strong>Homeopathy:</strong> Clinical benefit can be tested even when a proposed mechanism is disputed. <a href=\"https://www.nccih.nih.gov/health/homeopathy\">NCCIH’s evidence overview</a> describes substantial evidential and theoretical problems. The buffet maneuver would be to invoke an undetectable energy as a reason that unfavorable outcome tests cannot count. An unfamiliar mechanism alone is not that maneuver, and the cited overview does not establish that every practitioner uses it.",
+    "2.1.13": "<strong>“Cultural Marxism” conspiracy narratives:</strong> Claims about particular scholars or institutions can be investigated. A sweeping narrative becomes insulated if all cultural change confirms a hidden coordinated plot and all contrary findings become evidence of concealment. This criticism targets that self-protecting argument, not cultural criticism or the study of Marxist ideas as such.",
+    "2.1.14": "These comparisons differ in strength. Mature creation provides a named published defense to examine; several other entries describe conditional patterns rather than documented episodes of a speaker changing a claim. None establishes fabrication merely from a label. The shared danger is an addition whose only credential is that it protects the conclusion.",
+    "2.2.0": "The original examples can illustrate different ways to add entities and powers, provided we distinguish a rich imagined world from an account offered as factual knowledge:",
+    "2.2.1": "<strong>Creation myths:</strong> Divine powers can supply an account of origins without independently establishing it. As symbolic narratives, such stories need not be attempts at empirical explanation. As literal accounts, their added powers need justification; flexibility alone does not supply it.",
+    "2.2.2": "<strong>Conspiracy theories:</strong> Secret cooperation is possible and can be evidenced. The dangerous version adds an otherwise unsupported agent or technology each time a difficulty arises, then treats the theory’s ability to accommodate everything as confirmation.",
+    "2.2.3": "<strong>Cryptozoology:</strong> Searching for an unrecorded animal is not intrinsically evasive. Repeatedly inventing new reasons why no adequate search could find it is different. A useful proposal specifies habitat, traces and search conditions that could change confidence.",
+    "2.2.4": "<strong>Religious eschatology:</strong> Detailed accounts of souls, judgment and an afterlife illustrate how much can be specified beyond available observation. That evidential gap does not itself prove invention. The buffet objection is strongest when new details are introduced to defeat objections without an independent reason to accept them.",
+    "2.2.5": "<strong>Astrology and alchemy:</strong> These broad labels should not erase differences between predictions, symbolic practices and historical experiments. A concrete prediction can fail a test. Invoking a previously unspecified influence solely to excuse failure is the relevant maneuver; merely investigating an unknown influence is not.",
+    "2.2.6": "The distinction is between proposing possibilities and claiming warranted belief. An imaginative explanation may begin an inquiry, but its details must eventually constrain expectations or gain other relevant support. These examples are analytical comparisons, not evidence that whole traditions share one origin or motive.",
+    "3.1.4": "<strong>Repeated adjustability:</strong> New exemptions can defeat successive tests, as with a floating dragon and heatless fire. This protects the claim rhetorically while reducing what it predicts; it does not turn each rescue into evidence.",
+    "3.1.10": "<strong>Requirement for evidence:</strong> Responsible claims need support proportionate to their content and confidence. Repeatable experiments are one source; independently checkable records and converging traces also matter for events that cannot be rerun.",
+    "3.1.11": "<strong>Exposure to correction:</strong> Empirical claims must allow observations to count against them. A failed prediction may challenge the claim, its supporting assumptions or the measurement. The task is to investigate which failed, not to protect the central claim by automatic exemption.",
+    "3.1.13": "<strong>Logical consistency:</strong> An account must avoid contradiction in its own commitments. It can challenge existing science, but it then needs to explain the evidence that made the displaced account credible. Agreement with accepted theory is not a veto on discovery.",
+    "3.1.19": "The asymmetry is a difference in the cost of answering objections: an unsupported rescue can be invented quickly, while checking it takes work. A useful response is to hold one claim fixed, ask what would lower confidence in it, and require support for each added mechanism before pursuing an endless series of new claims.",
+    "3.2.2": "<strong>Cheap explanations:</strong> A new power or hidden agent can be proposed in seconds. Our added “dragon whisperer” illustrates this extension of Sagan’s scenario; it is not his character. Describing how such an agent could rescue the story does not establish that the agent has that power.",
+    "3.2.3": "<strong>Attempted burden shifting:</strong> The claimant may demand that a skeptic disprove every new explanation. That is rhetorical pressure, not a legitimate transfer of responsibility: the person asserting the entities or powers still owes reasons to accept them. A critic who makes a separate positive claim must support that claim too.",
+    "3.2.4": "<strong>Weak pressure to maintain consistency:</strong> Evidence avoidance does not logically require contradiction. A buffet account may be internally consistent, as the curator’s first prompt allows. But an audience satisfied by a story may overlook contradictions, so consistency and evidential support require separate checks.",
+    "3.2.6": "<strong>Limits of disproof:</strong> Some negative claims are readily established under specified conditions. What is difficult is ruling out an entity whose properties change after every test. Withholding belief does not require disproving every imaginable version.",
+    "4.1.2": "<strong>Untestable mechanisms:</strong> Invisibility is not enough: an unseen cause may leave measurable effects. The warning sign is a mechanism declared exempt from every relevant test while still invoked to explain observable events.",
+    "4.1.9": "<strong>Elastic explanations:</strong> Both a result and its opposite are presented as confirming the same claim. Metaphor is legitimate as metaphor; the evasion is switching between metaphorical and literal meanings to retain a factual conclusion without its evidential burden.",
+    "4.1.12": "<strong>Supernatural exemptions:</strong> Calling a cause supernatural does not erase the observable consequences of a claim that it changes the world. Ask which consequences are expected and whether their absence matters. Metaphysical language alone does not establish evasion.",
+    "4.1.22": "<strong>Martyrdom narrative:</strong> Suppression is possible and should be investigated when supported. But evidence that someone has been treated unfairly is not evidence that their theory is true. Using persecution to dismiss every criticism prevents that distinction from being examined.",
+    "4.1.23": "Treat these as reasons to investigate, not a checklist that proves fabrication or intent. Record the original claim, the troublesome observation, the added explanation and its independent support. A revision that yields a new successful test differs from one that only makes failure impossible to acknowledge.",
+    "4.2.4": "<strong>Internal inconsistencies:</strong> A contradiction is a separate defect, even if a compelling narrative conceals it. Conversely, removing contradictions would not establish the existence of the proposed entities. Narrative unity, logical consistency and factual support are different achievements.",
+    "4.2.10": "<strong>Easy certainty about complex problems:</strong> Simplicity can be a virtue when a model explains evidence well. The warning sign is confidence that outruns support, combined with refusal to discuss omitted causes, limitations or failed predictions.",
+    "4.2.13": "These signs warrant checking the claim’s history and evidence. They do not establish the claimant’s intentions. Ask for one clear prediction and a possible result that would change the account; then examine whether the response supplies a reason or merely another exemption.",
+    "5.1.21": "5. Which practice most clearly avoids the ontological buffet maneuver?",
+    "5.1.22": "A. Inventing an exception whenever a prediction fails.",
+    "5.1.23": "B. Treating every objection as evidence of a cover-up.",
+    "5.1.24": "C. Revising a model using independent evidence and checking new predictions.",
+    "5.1.25": "D. Declaring the proposed mechanism exempt from every relevant test.",
+    "5.1.29": "C. They add unsupported exemptions so contrary results cannot count against the core claim.",
+    "5.1.38": "B. It declares its mechanisms exempt from every relevant test while claiming they affect the world.",
+    "5.1.42": "A. Checking a new claim can take much longer than inventing it.",
+    "5.1.46": "10. Why is it difficult to debunk ideologies that use the ontological buffet approach?<br>A. They are based on strong empirical evidence.<br>B. They are always logically coherent.<br>C. They adapt explanations to negate falsification.<br>D. They are universally accepted in the scientific community.",
+    "5.1.48": "1. B — Evidence distinguishes support from mere assertion.<br>2. B — Invisibility and incorporeality defeat the proposed direct checks.<br>3. C — Listening for a roar is not one of the tests in the quoted garage sequence.<br>4. C — No possible evidence is allowed to count against it.<br>5. C — Independent evidence and new checks constrain revision.<br>6. C — Unsupported exemptions insulate the core claim.<br>7. B — Shifting goalposts changes the agreed test.<br>8. B — Exemption from relevant tests is the warning sign.<br>9. A — Checking can be costly while invention is cheap.<br>10. C — Adaptation prevents acknowledgment of failed tests.",
+    "5.2.3": "Who retains responsibility for supporting a claim when a defender demands that critics disprove every newly added explanation?",
+    "5.2.9": "What is the difference between withholding belief in the dragon and proving that no imaginable dragon exists?",
+    "5.2.13": "Insulating the claim through unsupported additions that defeat each proposed test.",
+    "5.2.14": "The claimant retains responsibility for supporting the asserted entities or powers.",
+    "5.2.20": "Withholding belief means adequate support has not been supplied; it does not require ruling out every imaginable version.",
+    "6.1.1": "When does lack of a possible empirical test weaken a factual claim, and how does that differ from evaluating a mathematical argument or a symbolic story?",
+    "6.2.6": "How do fictional stories or mythologies build worlds through imaginative additions? What changes when those additions are presented as established facts about our world?",
+    "3.2.10": "This creates a practical imbalance: invention is cheap and checking is costly. A defender may sound certain without having met the evidential burden. Critics can refuse an endless chase by asking for independent support for the new explanation before spending more time testing it."
+  },
+  "responseDecisions": {
+    "1.1": "Retain six construction stages and four consequences; distinguish coherence, truth, empirical insulation and logical criticism.",
+    "1.2": "Retain dragon extension and risks; explicitly distinguish our dragon whisperer from Sagan; add primary chapter and original video links.",
+    "2.1": "Retain five example groups and all named cases; narrow blanket allegations, cite mature creation and homeopathy, label other patterns conditional.",
+    "2.2": "Retain five examples; distinguish symbolism, empirical predictions and unsupported rescue mechanisms; remove blanket historical classifications.",
+    "3.1": "Retain asymmetry outline; explain historical evidence, revisable scientific assumptions and costs of checking additions.",
+    "3.2": "Retain freedoms/constraints progression; correct burden reversal, negative-proof generalization and internal-consistency error.",
+    "4.1": "Retain eight warning categories; distinguish unseen from undetectable, symbolism from retreat, persecution from truth and suspicion from proof of intent.",
+    "4.2": "Retain warning groups; distinguish narrative unity/coherence/support and legitimate simplicity from unjustified certainty.",
+    "5.1": "Restore ten multiple-choice questions and final key; repair unfair scientist characterization, broad category quiz and ambiguous revision answer; improve final-question line breaks.",
+    "5.2": "Restore ten short-answer questions and ten final answers; repair burden-of-proof answer and wrong strategy label; replace unintroduced Scottish-verdict question with withholding-belief distinction.",
+    "6.1": "Retain fourteen discussion questions; revise unfalsifiability question to invite distinctions between factual, mathematical and symbolic claims.",
+    "6.2": "Retain fourteen discussion questions; revise fiction question to distinguish worldbuilding from factual assertion."
+  },
+  "countChecks": [
+    {
+      "name": "Gemini quiz and key counts",
+      "selector": "#prompt-5 .original-response[data-source-column=\"2\"] > ol",
+      "child": "li",
+      "expected": [
+        10,
+        10
+      ]
+    },
+    {
+      "name": "discussion counts",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    }
+  ],
+  "preambleIframeOrigins": {
+    "1.0": "https://www.youtube.com/embed/jJRy3Kl_z5E?version=3&rel=1&showsearch=0&showinfo=1&iv_load_policy=1&fs=1&hl=en&autohide=2&wmode=transparent"
+  }
+}

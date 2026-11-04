@@ -1,0 +1,106 @@
+{
+  "recordedAt": "2026-11-04T14:09:36.696566+00:00",
+  "status": "partial-batch",
+  "reviewedThisRun": [
+    "/philosophical-inquiry/dangers-ontological-buffet/"
+  ],
+  "currentBatchReviewed": 47,
+  "currentBatchPending": 3,
+  "sourceBlocked": 0,
+  "restartedPassSubstantivelyReviewed": 147,
+  "restartedPassNotYetReviewed": 199,
+  "officialTrackerCompleted": 100,
+  "officialTrackerRemaining": 246,
+  "cursor": {
+    "cycle": 8,
+    "startIndex": 100
+  },
+  "trackerAdvanced": false,
+  "nextPending": "/philosophical-inquiry/dangers-unnuanced-conclusions/",
+  "followingBatchStart": "/ethics/what-are-ethics/",
+  "pageVerification": {
+    "pagePath": "/philosophical-inquiry/dangers-ontological-buffet/",
+    "sourceSha256": "386e2557c9f6bf201f92372de597a2f393a0fb5842e97c769cdee8b3e86c7aad",
+    "originalPrompts": 6,
+    "originalHeadings": 6,
+    "sourceColumns": 12,
+    "modelResponses": 12,
+    "blocksRetainedVerbatim": 170,
+    "tableCellsExplicitlyRevised": 0,
+    "blocksExplicitlyRevised": 63,
+    "bareAnswersExplicitlyRevised": 0,
+    "promptOrderExact": true,
+    "sourceBlockOrderExact": true,
+    "listAndTableStructuresPreserved": true,
+    "explicitListItemSplits": [],
+    "explicitResponseAppendices": [],
+    "formatChecks": {
+      "Gemini quiz and key counts": [
+        10,
+        10
+      ],
+      "discussion counts": [
+        15,
+        15
+      ]
+    },
+    "sha256": "f9a90330e3cb41b0d12612a2c90a11dfb15a2cdfc575dcb0e2d54fc488cb81c2",
+    "fullSourceRead": true,
+    "urlTitlePromptMatch": true,
+    "sourceUrl": "http://byteseismic.com/2024/04/15/dangers-ontological-buffet/",
+    "sourceTitle": "Dangers: Ontological Buffet",
+    "sourceCache": ".cache/byteseismic-posts-with-content.json",
+    "responseDecisions": {
+      "1.1": "Retain six construction stages and four consequences; distinguish coherence, truth, empirical insulation and logical criticism.",
+      "1.2": "Retain dragon extension and risks; explicitly distinguish our dragon whisperer from Sagan; add primary chapter and original video links.",
+      "2.1": "Retain five example groups and all named cases; narrow blanket allegations, cite mature creation and homeopathy, label other patterns conditional.",
+      "2.2": "Retain five examples; distinguish symbolism, empirical predictions and unsupported rescue mechanisms; remove blanket historical classifications.",
+      "3.1": "Retain asymmetry outline; explain historical evidence, revisable scientific assumptions and costs of checking additions.",
+      "3.2": "Retain freedoms/constraints progression; correct burden reversal, negative-proof generalization and internal-consistency error.",
+      "4.1": "Retain eight warning categories; distinguish unseen from undetectable, symbolism from retreat, persecution from truth and suspicion from proof of intent.",
+      "4.2": "Retain warning groups; distinguish narrative unity/coherence/support and legitimate simplicity from unjustified certainty.",
+      "5.1": "Restore ten multiple-choice questions and final key; repair unfair scientist characterization, broad category quiz and ambiguous revision answer; improve final-question line breaks.",
+      "5.2": "Restore ten short-answer questions and ten final answers; repair burden-of-proof answer and wrong strategy label; replace unintroduced Scottish-verdict question with withholding-belief distinction.",
+      "6.1": "Retain fourteen discussion questions; revise unfalsifiability question to invite distinctions between factual, mathematical and symbolic claims.",
+      "6.2": "Retain fourteen discussion questions; revise fiction question to distinguish worldbuilding from factual assertion."
+    },
+    "responseOrderExact": true,
+    "chatgptQuizQuestions": 10,
+    "chatgptQuizEndAnswers": 10,
+    "discussionQuestionsRetainedVerbatim": 28,
+    "originalVideoUrlPreserved": true,
+    "damageDetectionChecks": [
+      "prompt",
+      "response",
+      "order",
+      "quiz",
+      "discussion",
+      "video"
+    ],
+    "recordedAt": "2026-11-04T14:08:47.760806+00:00",
+    "limitations": [
+      "Named source support added for mature creation and homeopathy; other example defenses explicitly conditional, not documented speaker histories.",
+      "Sagan research limited to chapter 10 opening pp.160–162; mature-creation research limited to abstract and opening page.",
+      "No browser/mobile/accessibility or video-playback inspection.",
+      "Shared verifier requires supplementary response-column-order check; performed independently."
+    ]
+  },
+  "buildVerification": "quality/original-source-revisions/batch-verification-2026-11-04.json",
+  "model": "Saved automation confirms gpt-6-astra/high; runtime identity not independently verified. No configuration change or delegation.",
+  "publication": "Commit and push receipt recorded in automation memory after publication.",
+  "rendererChange": "Opt-in exact original YouTube preamble iframe restoration, including sandbox attributes; prior Narrative renderer output reverified unchanged.",
+  "researchSources": [
+    {
+      "url": "https://goldengalaxies.net/Quasarpdflibrary/wp-content/uploads/2024/04/The-Demon-Haunted-World-Science-as-a-Candle-in-the-Dark-Carl-Sagan-1997.pdf",
+      "scope": "chapter 10 opening pp.160–162"
+    },
+    {
+      "url": "https://crsq.creationresearch.org/id/eprint/1109/1/The%20Case%20for%20the%20Mature%20Creation%20Hypothesis.pdf",
+      "scope": "abstract and opening page; critique explicitly inferential"
+    },
+    {
+      "url": "https://www.nccih.nih.gov/health/homeopathy",
+      "scope": "evidence discussion; no general claim about practitioner motives"
+    }
+  ]
+}

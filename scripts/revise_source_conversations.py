@@ -367,6 +367,14 @@ def render(config):
                 max_width = image_origin.get('maxWidth', '189px')
                 assert max_width in ('189px', '100%')
                 preamble.img['style'] = f'max-width:{max_width};height:auto'
+            iframe_url = config.get('preambleIframeOrigins', {}).get(f'{n}.{k}')
+            if iframe_url:
+                assert len(original_preamble.find_all('iframe')) == 1
+                assert original_preamble.iframe['src'] == iframe_url
+                assert iframe_url.startswith('https://www.youtube.com/embed/')
+                preamble.iframe.attrs = dict(original_preamble.iframe.attrs)
+                preamble.iframe['title'] = 'Video included in the original WordPress post'
+                preamble.iframe['style'] = 'border:0;max-width:100%'
             preamble['data-source-preamble'] = f'{n}.{k}'
             section.append(preamble)
         for c, col in enumerate(cols, 1):
@@ -514,6 +522,13 @@ def verify(config, rendered):
         assert [x.get_text() for x in old_preambles] == [x.get_text() for x in new_preambles]
         assert [a.get('href') for p in old_preambles for a in p.find_all('a')] == [a.get('href') for p in new_preambles for a in p.find_all('a')]
         for p in new_preambles:
+            iframe_url = config.get('preambleIframeOrigins', {}).get(p['data-source-preamble'])
+            if iframe_url:
+                old = next(x for x in old_preambles if x.find('iframe') and x.iframe.get('src') == iframe_url)
+                assert p.iframe is not None and p.iframe['src'] == old.iframe['src']
+                for attr in ('sandbox', 'allowfullscreen', 'width', 'height', 'loading'):
+                    assert p.iframe.get(attr) == old.iframe.get(attr)
+                assert p.iframe['title'] == 'Video included in the original WordPress post'
             image_origin = config.get('preambleImageOrigins', {}).get(p['data-source-preamble'])
             if image_origin:
                 assert p.img is not None, 'Original preamble illustration missing'

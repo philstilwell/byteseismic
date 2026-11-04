@@ -4,10 +4,10 @@
   "startIndex": 100,
   "endIndexExclusive": 150,
   "candidateWordPressOriginals": 49,
-  "fullyReviewed": 46,
-  "pendingFullReview": 4,
+  "fullyReviewed": 47,
+  "pendingFullReview": 3,
   "sourceBlocked": 0,
-  "limitation": "Forty-six current-batch pages reviewed; four pending. Dangers: Narrative reviewed November 3. No tracker advancement; prior limitations remain effective.",
+  "limitation": "Forty-seven current-batch pages reviewed; three pending. Ontological Buffet reviewed November 4; source recovery alone does not count as review.",
   "pages": [
     {
       "pagePath": "/philosophers/philosopher-club-membership/",
@@ -1217,7 +1217,7 @@
       "pagePath": "/philosophical-inquiry/dangers-ontological-buffet/",
       "pageTitle": "Dangers: Ontological Buffet",
       "queueIndex": 147,
-      "status": "pending-full-review",
+      "status": "reviewed-verified",
       "wordpressId": 6230,
       "sourceUrl": "http://byteseismic.com/2024/04/15/dangers-ontological-buffet/",
       "sourceTitle": "Dangers: Ontological Buffet",
@@ -1234,8 +1234,10 @@
         "Provide 15 discussion questions relevant to the content above. "
       ],
       "wordCount": 6037,
-      "fullSourceRead": false,
-      "editorialReviewComplete": false
+      "fullSourceRead": true,
+      "editorialReviewComplete": true,
+      "reviewReport": "quality/editorial-audit-2026-11-04.json",
+      "verification": "quality/original-source-revisions/dangers-ontological-buffet-verification-2026-11-04.json"
     },
     {
       "pagePath": "/philosophical-inquiry/dangers-unnuanced-conclusions/",
@@ -1309,6 +1311,6 @@
       "editorialReviewComplete": false
     }
   ],
-  "updatedAt": "2026-10-31T13:12:52.372491+00:00",
+  "updatedAt": "2026-11-04T14:09:11.099925+00:00",
   "recordedAt": "2026-10-31T13:12:52.372491+00:00"
 }
