@@ -1,0 +1,96 @@
+{
+  "recordedAt": "2026-11-05T14:09:07.180975+00:00",
+  "status": "partial-batch",
+  "reviewedThisRun": [
+    "/philosophical-inquiry/dangers-unnuanced-conclusions/"
+  ],
+  "currentBatchReviewed": 48,
+  "currentBatchPending": 2,
+  "sourceBlocked": 0,
+  "restartedPassSubstantivelyReviewed": 148,
+  "restartedPassNotYetReviewed": 198,
+  "officialTrackerCompleted": 100,
+  "officialTrackerRemaining": 246,
+  "cursor": {
+    "cycle": 8,
+    "startIndex": 100
+  },
+  "trackerAdvanced": false,
+  "nextPending": "/ethics/meta-ethics/",
+  "followingBatchStart": "/ethics/what-are-ethics/",
+  "pageVerification": {
+    "pagePath": "/philosophical-inquiry/dangers-unnuanced-conclusions/",
+    "sourceSha256": "1901a8cd8dece033db35ba6973ae08f887e3f799ed3f477dc155fbc18968dd27",
+    "originalPrompts": 6,
+    "originalHeadings": 6,
+    "sourceColumns": 18,
+    "modelResponses": 18,
+    "blocksRetainedVerbatim": 173,
+    "tableCellsExplicitlyRevised": 0,
+    "blocksExplicitlyRevised": 79,
+    "bareAnswersExplicitlyRevised": 0,
+    "promptOrderExact": true,
+    "sourceBlockOrderExact": true,
+    "listAndTableStructuresPreserved": true,
+    "explicitListItemSplits": [],
+    "explicitResponseAppendices": [],
+    "formatChecks": {
+      "quiz and keys": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "discussion lists": [
+        15,
+        15,
+        15
+      ]
+    },
+    "sha256": "5c4c0b6403ec4865601889bcc89e4587fe21337195980321ab667ff2d9db8c1d",
+    "fullSourceRead": true,
+    "urlTitlePromptMatch": true,
+    "sourceUrl": "http://byteseismic.com/2024/05/05/dangers-unnuanced-conclusions/",
+    "sourceTitle": "Dangers: Unnuanced Conclusions",
+    "sourceCache": ".cache/byteseismic-posts-with-content.json",
+    "responseOrderExact": true,
+    "dialogueTurns": [
+      11,
+      14,
+      16
+    ],
+    "allDogmaticSpeakerTurnsVerbatim": true,
+    "responseDecisions": {
+      "1.1": "Retain seven mechanisms; distinguish heuristics from biases, emotion from error and explanation from diagnosis.",
+      "1.2": "Retain four causes and three practices; remove irrelevant attachment-style citation and clarify useful shortcuts.",
+      "1.3": "Preserve echoed source question and seven factors; remove unsupported single evolutionary story and sweeping laziness/overconfidence claims.",
+      "2.1": "Retain eight practices; add precise claim scope, independent sources, disconfirmation and calibration without false precision.",
+      "2.2": "Retain four groups; distinguish replication from repeated error, uncertainty from blanket hedging, belief from action.",
+      "2.3": "Retain eight practices; distinguish binary truth from degrees of belief and revisability from weak confidence.",
+      "3.1": "Preserve eleven turns and all Bob turns verbatim; revise Alice to distinguish strong climate attribution from local/policy uncertainty.",
+      "3.2": "Preserve fourteen turns and all Alex turns verbatim; label study fictional and repair middle-ground and inaction assumptions.",
+      "3.3": "Preserve sixteen turns and all Dan turns verbatim; revise Nora to permit decisions and strong evidence without universal dietary claims.",
+      "4.1": "Retain five cases; qualify hindsight and causal reductionism, correct whole-system collapse, link narrower evidence.",
+      "4.2": "Retain Iraq/thalidomide/Red Scare sequence; repair certainty, fetal-safety and collective-guilt claims.",
+      "4.3": "Retain all seven entries; explicitly flag three insufficient disaster examples, limit Sokal inference, qualify medical trial scope.",
+      "5.1": "Retain ten questions and final key; replace unintroduced Salem and duplicate Rwanda items with material actually covered.",
+      "5.2": "Retain ten questions and final key; update Maya answer and replace absent Salem material.",
+      "5.3": "Retain ten questions and final key; fix wrong availability answer and invented reference to initial examples; sharpen Nora questions.",
+      "6.1": "Retain thirteen questions; replace unintroduced Salem/Rwanda questions with accusation standards and source adequacy.",
+      "6.2": "Retain all fifteen questions: productive tensions about open-mindedness, action, authority and emotion remain relevant.",
+      "6.3": "Retain all fifteen questions: strong-belief/dogmatism and nuance/action distinctions directly engage revised conversation."
+    },
+    "recordedAt": "2026-11-05T14:07:16.064539+00:00",
+    "limitations": [
+      "Historical research is bounded to linked accounts, document summaries and trial abstract; no exhaustive historical review.",
+      "Three original disaster examples explicitly identified as insufficiently supported.",
+      "No browser/mobile/accessibility inspection."
+    ]
+  },
+  "buildVerification": "quality/original-source-revisions/batch-verification-2026-11-05.json",
+  "model": "Saved automation confirms gpt-6-astra/high; runtime identity not independently verified. No configuration change or delegation.",
+  "publication": "Commit/push receipt recorded in automation memory after publication.",
+  "acceptedSourceGrammarFlag": "The site audit flags double-and in the original third prompt. Preserved verbatim as required; all other reported failing categories are zero."
+}
