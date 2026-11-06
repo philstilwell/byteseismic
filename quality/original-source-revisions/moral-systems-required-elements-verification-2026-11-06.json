@@ -1,0 +1,65 @@
+{
+  "pagePath": "/ethics/moral-systems-required-elements/",
+  "sourceSha256": "5dc89dbeecb8df45b74c2fbf985c1ff883b9ec6c72dea0d30b6d499ec27894ee",
+  "originalPrompts": 5,
+  "originalHeadings": 5,
+  "sourceColumns": 10,
+  "modelResponses": 10,
+  "blocksRetainedVerbatim": 96,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 75,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "quiz questions and answers": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "discussion questions": [
+      15,
+      15
+    ]
+  },
+  "sha256": "d768ae621372ef27fd1370de8a94b94151fa64b3508066d49dec791b269aa9b2",
+  "fullSourceRead": true,
+  "urlTitlePromptMatch": true,
+  "sourceUrl": "http://byteseismic.com/2024/04/23/moral-systems-required-elements/",
+  "sourceTitle": "Moral Systems: Required Elements",
+  "sourceCache": ".cache/byteseismic-posts-with-content.json",
+  "responseOrderExact": true,
+  "responseDecisions": {
+    "1.1": "Assess all six exact curator requirements; distinguish logical necessity from objective authority, access, blame and enforcement.",
+    "1.2": "Retain punishment objection; correct unsupported blanket necessity claims for objective duties and libertarian free will.",
+    "2.1": "Retain three systems and six criteria each; correct Kant punishment, utility formula, autonomy and virtue coherence.",
+    "2.2": "Retain four systems and original criterion order; supply omitted punishment treatment within each first criterion and qualify claimed objectivity.",
+    "3.1": "Retain four refutations and three additional criteria; test same circumstances, distinguish recognition/truth and rule/enforcement.",
+    "3.2": "Retain four challenges and three criteria; clarify access/agreement, contextual application, dilemmas and justification.",
+    "4.1": "Retain ten questions/end key; correct Kant item and answers dependent on qualified criteria.",
+    "4.2": "Retain ten questions/end key; repair missing-options first item and overstrong disagreement/time/region answers.",
+    "5.1": "Retain all fifteen discussion questions: appropriately open probes of agency, access, punishment and consistency.",
+    "5.2": "Retain all fifteen discussion questions: prompts invite defense and criticism rather than presupposing the revised responses settle the debate."
+  },
+  "recordedAt": "2026-11-06T14:11:29.016407+00:00",
+  "limitations": [
+    "No browser, mobile or accessibility inspection.",
+    "Research bounded to linked survey results, publisher records and relevant primary-text passages; no exhaustive literature review."
+  ],
+  "curatorPreambleListsVerbatim": [
+    6,
+    4
+  ],
+  "discussionQuestionsRetainedVerbatim": 30,
+  "damagedVariantChecks": {
+    "missing prompt": "rejected",
+    "swapped responses": "rejected",
+    "missing answer": "rejected",
+    "missing source block": "rejected",
+    "missing curator list": "rejected"
+  }
+}

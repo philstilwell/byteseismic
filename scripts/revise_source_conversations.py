@@ -249,6 +249,19 @@ def edited_column(original, n, c, config):
             h.name = 'h4'
             h['class'] = ['original-embedded-prompt']
             h['id'] = f'follow-up-{n}-{c}-{index}'
+    supplementary = config.get('supplementarySourceTerm')
+    if supplementary and supplementary.startswith(f'{n}.{c}.'):
+        node = col.select_one(f'[data-source-node="{supplementary}"]')
+        assert node is not None and node.name == 'li'
+        listing = node.parent
+        assert listing.name == 'ol' and listing.find_all('li', recursive=False)[-1] is node
+        spacing = node.previous_sibling
+        if isinstance(spacing, str) and not spacing.strip():
+            spacing.extract()
+        node.extract()
+        node.name = 'p'
+        node['class'] = ['supplementary-source-term']
+        listing.insert_after(node)
     starts = config.get('orderedListStarts', {}).get(f'{n}.{c}')
     if starts is not None:
         lists = col.find_all('ol')

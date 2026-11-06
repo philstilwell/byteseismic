@@ -1,0 +1,414 @@
+{
+  "recordedAt": "2026-11-06T14:16:52.566487+00:00",
+  "status": "batch-complete",
+  "reviewedThisRun": [
+    "/ethics/meta-ethics/",
+    "/ethics/moral-systems-required-elements/"
+  ],
+  "completedBatchPaths": [
+    "/philosophers/philosopher-club-membership/",
+    "/philosophers/philosophers-or-philosophy/",
+    "/philosophers/philosophical-gradients/",
+    "/philosophical-inquiry/dangers-untestable-ideologies/",
+    "/philosophy-of-science/observable-regularity/",
+    "/epistemology/abduction-utility-and-issues/",
+    "/ethics/intrinsic-human-value/",
+    "/philosophy-of-language/what-is-etymology/",
+    "/epistemology/avoiding-single-cause-dogmatism/",
+    "/epistemology/collapsing-epistemological-terms/",
+    "/ethics/finite-agency-moral-demand-and-happiness/",
+    "/rational-thought/perverse-incentives/",
+    "/epistemology/doxastic-voluntarism/",
+    "/epistemology/the-burden-of-proof/",
+    "/humanistic-philosophies/can-humans-change/",
+    "/humanistic-philosophies/do-humans-have-an-essence/",
+    "/epistemology/epistemological-case-studies/",
+    "/ethics/moral-black-boxes/",
+    "/economics/economics-core-concepts/",
+    "/miscellany/complexity-theory/",
+    "/philosophical-inquiry/personal-truth/",
+    "/rational-thought/regret-assessment/",
+    "/epistemology/belief-evidence-graphic/",
+    "/epistemology/pascals-wager/",
+    "/epistemology/the-inductive-paradox/",
+    "/humanistic-philosophies/christian-apologetics/",
+    "/philosophical-inquiry/common-sense-blunders/",
+    "/philosophical-inquiry/packaged-vs-eclectic-ideologies/",
+    "/philosophical-inquiry/selective-pressures-on-ideologies/",
+    "/philosophical-inquiry/the-danger-of-resulting/",
+    "/philosophy-of-science/is-logic-acquired-inductively/",
+    "/epistemology/case-6-insatiable-loops/",
+    "/ethics/fictional-meta-ethics-debate/",
+    "/epistemology/decision-making/",
+    "/philosophical-inquiry/dangers-strong-leaders/",
+    "/philosophical-inquiry/dangers-co-opted-wonders/",
+    "/philosophical-inquiry/dangers-half-searches/",
+    "/ethics/ethics-core-concepts/",
+    "/philosophy-of-language/gradient-concepts-and-binary-terms/",
+    "/epistemology/epistemology-core-concepts/",
+    "/philosophical-inquiry/do-i-need-a-worldview/",
+    "/philosophy-of-language/core-concepts-philosophy-of-language/",
+    "/rational-thought/training-data-bias/",
+    "/ethics/coherent-moral-systems/",
+    "/epistemology/counterfactual-reasoning/",
+    "/philosophical-inquiry/dangers-narrative/",
+    "/philosophical-inquiry/dangers-ontological-buffet/",
+    "/philosophical-inquiry/dangers-unnuanced-conclusions/",
+    "/ethics/meta-ethics/",
+    "/ethics/moral-systems-required-elements/"
+  ],
+  "currentBatchReviewed": 50,
+  "currentBatchPending": 0,
+  "sourceBlocked": 0,
+  "restartedPassSubstantivelyReviewed": 150,
+  "restartedPassNotYetReviewed": 196,
+  "officialTrackerCompleted": 150,
+  "officialTrackerRemaining": 196,
+  "trackerAdvanced": true,
+  "pageVerifications": [
+    {
+      "pagePath": "/ethics/meta-ethics/",
+      "sourceSha256": "aebce255ef7c9c4bdc7b1f589382e4aaf1948774b086d2297ebdb71df971e49a",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 12,
+      "modelResponses": 12,
+      "blocksRetainedVerbatim": 114,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 64,
+      "bareAnswersExplicitlyRevised": 0,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "quiz questions and keys": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          7,
+          7,
+          7
+        ],
+        "discussion questions": [
+          12,
+          12
+        ]
+      },
+      "sha256": "d3c31a3b1baf01b4da8e1609ef4fdef8c8018bddc91bfd485ddfab7dc8f3e6c8",
+      "fullSourceRead": true,
+      "urlTitlePromptMatch": true,
+      "sourceUrl": "http://byteseismic.com/2024/03/12/meta-ethics/",
+      "sourceTitle": "Meta-Ethics",
+      "sourceCache": ".cache/byteseismic-posts-with-content.json",
+      "responseOrderExact": true,
+      "responseDecisions": {
+        "1.1": "Retain five areas; repair ontology/semantics conflation and add motivation/authority distinctions.",
+        "1.2": "Retain four groups; repair anti-realism, truth-aptness and foundationalism.",
+        "2.1": "Retain source categories; verify key books/encyclopedias, distinguish research from general discovery resources.",
+        "2.2": "Repair unrelated URL and five unreliable references without changing source-list placement.",
+        "3.1": "Replace mixed estimates with dated inclusive 2020 figures and denominators for each question.",
+        "3.2": "Replace unsupported ranges and trend claim; retain cautions about population and overlapping views.",
+        "4.1": "Retain seven reasons; qualify prerequisite, disagreement and tolerance claims.",
+        "4.2": "Retain five reasons; separate normative/metaethical axes and three often-confused inference problems.",
+        "5.1": "Retain all seven questions/options and final key: accurate and directly relevant to revised introduction.",
+        "5.2": "Preserve seven questions and final key; remove inline answers and repair three dependent items.",
+        "6.1": "Retain twelve questions; open-ended tests of realism, knowledge, tolerance and scientific relevance remain useful.",
+        "6.2": "Retain eleven questions; clarify the fallacy discussion question."
+      },
+      "recordedAt": "2026-11-06T14:11:29.016407+00:00",
+      "limitations": [
+        "No browser, mobile or accessibility inspection.",
+        "Research bounded to linked survey results, publisher records and relevant primary-text passages; no exhaustive literature review."
+      ],
+      "discussionQuestionsRetainedVerbatim": 23,
+      "quizNumberingRepaired": true,
+      "damagedVariantChecks": {
+        "missing prompt": "rejected",
+        "swapped responses": "rejected",
+        "missing answer": "rejected",
+        "missing source block": "rejected"
+      }
+    },
+    {
+      "pagePath": "/ethics/moral-systems-required-elements/",
+      "sourceSha256": "5dc89dbeecb8df45b74c2fbf985c1ff883b9ec6c72dea0d30b6d499ec27894ee",
+      "originalPrompts": 5,
+      "originalHeadings": 5,
+      "sourceColumns": 10,
+      "modelResponses": 10,
+      "blocksRetainedVerbatim": 96,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 75,
+      "bareAnswersExplicitlyRevised": 0,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "quiz questions and answers": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "discussion questions": [
+          15,
+          15
+        ]
+      },
+      "sha256": "d768ae621372ef27fd1370de8a94b94151fa64b3508066d49dec791b269aa9b2",
+      "fullSourceRead": true,
+      "urlTitlePromptMatch": true,
+      "sourceUrl": "http://byteseismic.com/2024/04/23/moral-systems-required-elements/",
+      "sourceTitle": "Moral Systems: Required Elements",
+      "sourceCache": ".cache/byteseismic-posts-with-content.json",
+      "responseOrderExact": true,
+      "responseDecisions": {
+        "1.1": "Assess all six exact curator requirements; distinguish logical necessity from objective authority, access, blame and enforcement.",
+        "1.2": "Retain punishment objection; correct unsupported blanket necessity claims for objective duties and libertarian free will.",
+        "2.1": "Retain three systems and six criteria each; correct Kant punishment, utility formula, autonomy and virtue coherence.",
+        "2.2": "Retain four systems and original criterion order; supply omitted punishment treatment within each first criterion and qualify claimed objectivity.",
+        "3.1": "Retain four refutations and three additional criteria; test same circumstances, distinguish recognition/truth and rule/enforcement.",
+        "3.2": "Retain four challenges and three criteria; clarify access/agreement, contextual application, dilemmas and justification.",
+        "4.1": "Retain ten questions/end key; correct Kant item and answers dependent on qualified criteria.",
+        "4.2": "Retain ten questions/end key; repair missing-options first item and overstrong disagreement/time/region answers.",
+        "5.1": "Retain all fifteen discussion questions: appropriately open probes of agency, access, punishment and consistency.",
+        "5.2": "Retain all fifteen discussion questions: prompts invite defense and criticism rather than presupposing the revised responses settle the debate."
+      },
+      "recordedAt": "2026-11-06T14:11:29.016407+00:00",
+      "limitations": [
+        "No browser, mobile or accessibility inspection.",
+        "Research bounded to linked survey results, publisher records and relevant primary-text passages; no exhaustive literature review."
+      ],
+      "curatorPreambleListsVerbatim": [
+        6,
+        4
+      ],
+      "discussionQuestionsRetainedVerbatim": 30,
+      "damagedVariantChecks": {
+        "missing prompt": "rejected",
+        "swapped responses": "rejected",
+        "missing answer": "rejected",
+        "missing source block": "rejected",
+        "missing curator list": "rejected"
+      }
+    }
+  ],
+  "buildVerification": "quality/original-source-revisions/batch-verification-2026-11-06.json",
+  "model": "Saved configuration gpt-6-astra/high; runtime identity not independently verified.",
+  "publication": "Commit and push receipt recorded in automation memory.",
+  "completedPathsMatchExactly": true,
+  "cursor": {
+    "cycle": 8,
+    "startIndex": 150
+  },
+  "nextBatch": [
+    {
+      "pagePath": "/ethics/what-are-ethics/",
+      "pageTitle": "What are Ethics?"
+    },
+    {
+      "pagePath": "/ethics/is-vs-ought/",
+      "pageTitle": "“Is” vs “Ought”"
+    },
+    {
+      "pagePath": "/philosophical-inquiry/how-minds-are-changed/",
+      "pageTitle": "How Minds are Changed"
+    },
+    {
+      "pagePath": "/economics/economic-comparisons/",
+      "pageTitle": "Economic Comparisons"
+    },
+    {
+      "pagePath": "/epistemology/preponderance-of-evidence/",
+      "pageTitle": "Preponderance of Evidence?"
+    },
+    {
+      "pagePath": "/philosophy-of-language/what-is-language/",
+      "pageTitle": "What is Language?"
+    },
+    {
+      "pagePath": "/miscellany/domains-of-aesthetics/",
+      "pageTitle": "Domains of Aesthetics"
+    },
+    {
+      "pagePath": "/philosophical-inquiry/conspiracies-misunderstanding-human-nature/",
+      "pageTitle": "Conspiracies & Misunderstanding Human Nature"
+    },
+    {
+      "pagePath": "/philosophy-of-mind/functionalism-subjectivity/",
+      "pageTitle": "Functionalism & Subjectivity"
+    },
+    {
+      "pagePath": "/philosophy-of-mind/subjective-objective-free-will/",
+      "pageTitle": "Subjective/Objective Free Will"
+    },
+    {
+      "pagePath": "/economics/wealth-creation/",
+      "pageTitle": "Wealth Creation"
+    },
+    {
+      "pagePath": "/epistemology/case-1-credence-complexity/",
+      "pageTitle": "Case #1 – Credence Complexity"
+    },
+    {
+      "pagePath": "/epistemology/case-4-recursive-credences/",
+      "pageTitle": "Case #4 – Recursive Credences"
+    },
+    {
+      "pagePath": "/humanistic-philosophies/accounting-for-x/",
+      "pageTitle": "Accounting for X"
+    },
+    {
+      "pagePath": "/philosophical-inquiry/dangers-carrot-stick/",
+      "pageTitle": "Dangers: Carrot & Stick"
+    },
+    {
+      "pagePath": "/philosophical-inquiry/dangers-the-notion-of-fate/",
+      "pageTitle": "Dangers: The Notion of Fate"
+    },
+    {
+      "pagePath": "/philosophical-inquiry/testing-ideologies/",
+      "pageTitle": "Testing Ideologies"
+    },
+    {
+      "pagePath": "/rational-thought/scope-of-influence/",
+      "pageTitle": "Scope of Influence"
+    },
+    {
+      "pagePath": "/philosophical-inquiry/dangers-ideologies-of-mystery/",
+      "pageTitle": "Dangers: Ideologies of Mystery"
+    },
+    {
+      "pagePath": "/economics/economic-stability/",
+      "pageTitle": "Economic Stability"
+    },
+    {
+      "pagePath": "/economics/minimum-wage/",
+      "pageTitle": "Minimum Wage"
+    },
+    {
+      "pagePath": "/economics/schools-of-economic-thought/",
+      "pageTitle": "Schools of Economic Thought"
+    },
+    {
+      "pagePath": "/economics/taxation/",
+      "pageTitle": "Taxation"
+    },
+    {
+      "pagePath": "/economics/what-are-moral-hazards/",
+      "pageTitle": "What are Moral Hazards?"
+    },
+    {
+      "pagePath": "/economics/what-is-economics/",
+      "pageTitle": "What is Economics?"
+    },
+    {
+      "pagePath": "/epistemology/black-boxes-epistemology/",
+      "pageTitle": "Black Boxes & Epistemology"
+    },
+    {
+      "pagePath": "/epistemology/core-deep-rationality/",
+      "pageTitle": "Core & Deep Rationality"
+    },
+    {
+      "pagePath": "/epistemology/deduction-utility-and-issues/",
+      "pageTitle": "Deduction: Utility and Issues"
+    },
+    {
+      "pagePath": "/epistemology/extraordinary-claims/",
+      "pageTitle": "Extraordinary Claims"
+    },
+    {
+      "pagePath": "/epistemology/induction-utility-and-issues/",
+      "pageTitle": "Induction: Utility and Issues"
+    },
+    {
+      "pagePath": "/epistemology/pragmatic-considerations-vs-epistemic-assessments/",
+      "pageTitle": "Pragmatic Considerations vs Epistemic Assessments"
+    },
+    {
+      "pagePath": "/epistemology/predictive-power/",
+      "pageTitle": "Predictive Power"
+    },
+    {
+      "pagePath": "/epistemology/presuppositions/",
+      "pageTitle": "Presuppositions?"
+    },
+    {
+      "pagePath": "/epistemology/properly-basic-beliefs/",
+      "pageTitle": "Properly Basic Beliefs"
+    },
+    {
+      "pagePath": "/epistemology/reasoned-probabilities-and-decisions/",
+      "pageTitle": "Reasoned Probabilities and Decisions"
+    },
+    {
+      "pagePath": "/epistemology/the-abuse-of-self-evident/",
+      "pageTitle": "The Abuse of “Self-Evident”"
+    },
+    {
+      "pagePath": "/epistemology/what-is-doubt/",
+      "pageTitle": "What is Doubt?"
+    },
+    {
+      "pagePath": "/epistemology/what-is-evidence/",
+      "pageTitle": "What is Evidence?"
+    },
+    {
+      "pagePath": "/ethics/assisted-suicide/",
+      "pageTitle": "Assisted Suicide"
+    },
+    {
+      "pagePath": "/ethics/conditions-for-culpability/",
+      "pageTitle": "Conditions for Culpability"
+    },
+    {
+      "pagePath": "/ethics/evidences-of-moral-facts/",
+      "pageTitle": "Evidences of Moral Facts"
+    },
+    {
+      "pagePath": "/ethics/model-of-ethical-dynamics/",
+      "pageTitle": "Model of Ethical Dynamics"
+    },
+    {
+      "pagePath": "/ethics/self-evident-morality/",
+      "pageTitle": "Self-Evident Morality?"
+    },
+    {
+      "pagePath": "/humanistic-philosophies/personal-cosmic-meaning/",
+      "pageTitle": "Personal & Cosmic Meaning"
+    },
+    {
+      "pagePath": "/humanistic-philosophies/russell-on-faith/",
+      "pageTitle": "Russell on Faith"
+    },
+    {
+      "pagePath": "/humanistic-philosophies/the-legitimacy-of-divine-revelation/",
+      "pageTitle": "The Legitimacy of Divine Revelation"
+    },
+    {
+      "pagePath": "/humanistic-philosophies/unpalatable-religions/",
+      "pageTitle": "“Unpalatable” Religions"
+    },
+    {
+      "pagePath": "/introduction/careers-in-philosophy/",
+      "pageTitle": "Careers in Philosophy"
+    },
+    {
+      "pagePath": "/introduction/philosophy-higher-education/",
+      "pageTitle": "Philosophy: Higher Education"
+    },
+    {
+      "pagePath": "/introduction/womens-interest-in-philosophy/",
+      "pageTitle": "Women’s Interest in Philosophy"
+    }
+  ]
+}

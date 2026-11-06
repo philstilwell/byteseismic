@@ -1,0 +1,69 @@
+{
+  "pagePath": "/ethics/meta-ethics/",
+  "sourceSha256": "aebce255ef7c9c4bdc7b1f589382e4aaf1948774b086d2297ebdb71df971e49a",
+  "originalPrompts": 6,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 114,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 64,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "quiz questions and keys": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      7,
+      7,
+      7
+    ],
+    "discussion questions": [
+      12,
+      12
+    ]
+  },
+  "sha256": "d3c31a3b1baf01b4da8e1609ef4fdef8c8018bddc91bfd485ddfab7dc8f3e6c8",
+  "fullSourceRead": true,
+  "urlTitlePromptMatch": true,
+  "sourceUrl": "http://byteseismic.com/2024/03/12/meta-ethics/",
+  "sourceTitle": "Meta-Ethics",
+  "sourceCache": ".cache/byteseismic-posts-with-content.json",
+  "responseOrderExact": true,
+  "responseDecisions": {
+    "1.1": "Retain five areas; repair ontology/semantics conflation and add motivation/authority distinctions.",
+    "1.2": "Retain four groups; repair anti-realism, truth-aptness and foundationalism.",
+    "2.1": "Retain source categories; verify key books/encyclopedias, distinguish research from general discovery resources.",
+    "2.2": "Repair unrelated URL and five unreliable references without changing source-list placement.",
+    "3.1": "Replace mixed estimates with dated inclusive 2020 figures and denominators for each question.",
+    "3.2": "Replace unsupported ranges and trend claim; retain cautions about population and overlapping views.",
+    "4.1": "Retain seven reasons; qualify prerequisite, disagreement and tolerance claims.",
+    "4.2": "Retain five reasons; separate normative/metaethical axes and three often-confused inference problems.",
+    "5.1": "Retain all seven questions/options and final key: accurate and directly relevant to revised introduction.",
+    "5.2": "Preserve seven questions and final key; remove inline answers and repair three dependent items.",
+    "6.1": "Retain twelve questions; open-ended tests of realism, knowledge, tolerance and scientific relevance remain useful.",
+    "6.2": "Retain eleven questions; clarify the fallacy discussion question."
+  },
+  "recordedAt": "2026-11-06T14:11:29.016407+00:00",
+  "limitations": [
+    "No browser, mobile or accessibility inspection.",
+    "Research bounded to linked survey results, publisher records and relevant primary-text passages; no exhaustive literature review."
+  ],
+  "discussionQuestionsRetainedVerbatim": 23,
+  "quizNumberingRepaired": true,
+  "damagedVariantChecks": {
+    "missing prompt": "rejected",
+    "swapped responses": "rejected",
+    "missing answer": "rejected",
+    "missing source block": "rejected"
+  }
+}
