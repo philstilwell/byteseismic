@@ -1,0 +1,609 @@
+{
+  "cycle": 8,
+  "startIndex": 150,
+  "pageCount": 50,
+  "reviewed": 1,
+  "pending": 49,
+  "pages": [
+    {
+      "pagePath": "/ethics/what-are-ethics/",
+      "title": "What are Ethics?",
+      "status": "reviewed-and-verified",
+      "sourceCandidates": [
+        {
+          "ID": 3145,
+          "title": "What are Ethics?",
+          "url": "http://byteseismic.com/2024/03/12/what-are-ethics/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/ethics/is-vs-ought/",
+      "title": "“Is” vs “Ought”",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 7500,
+          "title": "&#8220;Is&#8221; vs &#8220;Ought&#8221;",
+          "url": "http://byteseismic.com/2024/04/30/is-vs-ought/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/philosophical-inquiry/how-minds-are-changed/",
+      "title": "How Minds are Changed",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 270,
+          "title": "How Minds are Changed",
+          "url": "http://byteseismic.com/2024/02/09/how-minds-are-changed/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/economics/economic-comparisons/",
+      "title": "Economic Comparisons",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 3807,
+          "title": "Economic Comparisons",
+          "url": "http://byteseismic.com/2024/03/15/economic-comparisons/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/epistemology/preponderance-of-evidence/",
+      "title": "Preponderance of Evidence?",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 7832,
+          "title": "Preponderance of Evidence?",
+          "url": "http://byteseismic.com/2024/05/02/preponderance-of-evidence/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/philosophy-of-language/what-is-language/",
+      "title": "What is Language?",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 1752,
+          "title": "What is Language?",
+          "url": "http://byteseismic.com/2024/03/01/what-is-language/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/miscellany/domains-of-aesthetics/",
+      "title": "Domains of Aesthetics",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 6743,
+          "title": "Domains of Aesthetics",
+          "url": "http://byteseismic.com/2024/04/20/domains-of-aesthetics/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/philosophical-inquiry/conspiracies-misunderstanding-human-nature/",
+      "title": "Conspiracies & Misunderstanding Human Nature",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 14492,
+          "title": "Conspiracies &amp; Misunderstanding Human Nature",
+          "url": "http://byteseismic.com/2024/10/31/conspiracies-misunderstanding-human-nature/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/philosophy-of-mind/functionalism-subjectivity/",
+      "title": "Functionalism & Subjectivity",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 8183,
+          "title": "Functionalism &amp; Subjectivity",
+          "url": "http://byteseismic.com/2024/05/07/functionalism-subjectivity/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/philosophy-of-mind/subjective-objective-free-will/",
+      "title": "Subjective/Objective Free Will",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 7546,
+          "title": "Subjective/Objective Free Will",
+          "url": "http://byteseismic.com/2024/04/30/subjective-objective-free-will/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/economics/wealth-creation/",
+      "title": "Wealth Creation",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 13751,
+          "title": "Wealth Creation",
+          "url": "http://byteseismic.com/2024/10/12/wealth-creation/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/epistemology/case-1-credence-complexity/",
+      "title": "Case #1 – Credence Complexity",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 5357,
+          "title": "Case #1 &#8211; Credence Complexity",
+          "url": "http://byteseismic.com/2024/04/06/case-1-credence-complexity/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/epistemology/case-4-recursive-credences/",
+      "title": "Case #4 – Recursive Credences",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 5483,
+          "title": "Case #4 &#8211; Recursive Credences",
+          "url": "http://byteseismic.com/2024/04/07/case-4-recursive-credences/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/humanistic-philosophies/accounting-for-x/",
+      "title": "Accounting for X",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 14171,
+          "title": "Accounting for X",
+          "url": "http://byteseismic.com/2024/10/25/accounting-for-x/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/philosophical-inquiry/dangers-carrot-stick/",
+      "title": "Dangers: Carrot & Stick",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 6382,
+          "title": "Dangers: Carrot &amp; Stick",
+          "url": "http://byteseismic.com/2024/04/16/dangers-carrot-stick/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/philosophical-inquiry/dangers-the-notion-of-fate/",
+      "title": "Dangers: The Notion of Fate",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 6725,
+          "title": "Dangers: The Notion of Fate",
+          "url": "http://byteseismic.com/2024/04/20/dangers-the-notion-of-fate/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/philosophical-inquiry/testing-ideologies/",
+      "title": "Testing Ideologies",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 676,
+          "title": "Testing Ideologies",
+          "url": "http://byteseismic.com/2024/02/14/testing-ideologies/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/rational-thought/scope-of-influence/",
+      "title": "Scope of Influence",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 5195,
+          "title": "Scope of Influence",
+          "url": "http://byteseismic.com/2024/04/04/scope-of-influence/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/philosophical-inquiry/dangers-ideologies-of-mystery/",
+      "title": "Dangers: Ideologies of Mystery",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 614,
+          "title": "Dangers: Ideologies of Mystery",
+          "url": "http://byteseismic.com/2024/02/13/dangers-ideologies-of-mystery/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/economics/economic-stability/",
+      "title": "Economic Stability",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 4977,
+          "title": "Economic Stability",
+          "url": "http://byteseismic.com/2024/04/02/economic-stability/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/economics/minimum-wage/",
+      "title": "Minimum Wage",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 5873,
+          "title": "Minimum Wage",
+          "url": "http://byteseismic.com/2024/04/10/minimum-wage/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/economics/schools-of-economic-thought/",
+      "title": "Schools of Economic Thought",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 5837,
+          "title": "Schools of Economic Thought",
+          "url": "http://byteseismic.com/2024/04/09/schools-of-economic-thought/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/economics/taxation/",
+      "title": "Taxation",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 7565,
+          "title": "Taxation",
+          "url": "http://byteseismic.com/2024/04/30/taxation/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/economics/what-are-moral-hazards/",
+      "title": "What are Moral Hazards?",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 5521,
+          "title": "What are Moral Hazards?",
+          "url": "http://byteseismic.com/2024/04/07/what-are-moral-hazards/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/economics/what-is-economics/",
+      "title": "What is Economics?",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 3765,
+          "title": "What is Economics?",
+          "url": "http://byteseismic.com/2024/03/15/what-is-economics/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/epistemology/black-boxes-epistemology/",
+      "title": "Black Boxes & Epistemology",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 5280,
+          "title": "Black Boxes &amp; Epistemology",
+          "url": "http://byteseismic.com/2024/04/05/black-boxes-epistemology/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/epistemology/core-deep-rationality/",
+      "title": "Core & Deep Rationality",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 7761,
+          "title": "Core &amp; Deep Rationality",
+          "url": "http://byteseismic.com/2024/05/02/core-deep-rationality/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/epistemology/deduction-utility-and-issues/",
+      "title": "Deduction: Utility and Issues",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 1192,
+          "title": "Deduction: Utility and Issues",
+          "url": "http://byteseismic.com/2024/02/27/deduction-utility-and-issues/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/epistemology/extraordinary-claims/",
+      "title": "Extraordinary Claims",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 304,
+          "title": "Extraordinary Claims",
+          "url": "http://byteseismic.com/2024/02/10/extraordinary-claims/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/epistemology/induction-utility-and-issues/",
+      "title": "Induction: Utility and Issues",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 1194,
+          "title": "Induction: Utility and Issues",
+          "url": "http://byteseismic.com/2024/02/27/induction-utility-and-issues/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/epistemology/pragmatic-considerations-vs-epistemic-assessments/",
+      "title": "Pragmatic Considerations vs Epistemic Assessments",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 320,
+          "title": "Pragmatic Considerations vs Epistemic Assessments",
+          "url": "http://byteseismic.com/2024/02/10/pragmatic-considerations-vs-epistemic-assessments/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/epistemology/predictive-power/",
+      "title": "Predictive Power",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 2897,
+          "title": "Predictive Power",
+          "url": "http://byteseismic.com/2024/03/10/predictive-power/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/epistemology/presuppositions/",
+      "title": "Presuppositions?",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 4176,
+          "title": "Presuppositions?",
+          "url": "http://byteseismic.com/2024/03/20/presuppositions/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/epistemology/properly-basic-beliefs/",
+      "title": "Properly Basic Beliefs",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 5598,
+          "title": "Properly Basic Beliefs",
+          "url": "http://byteseismic.com/2024/04/08/properly-basic-beliefs/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/epistemology/reasoned-probabilities-and-decisions/",
+      "title": "Reasoned Probabilities and Decisions",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 1196,
+          "title": "Reasoned Probabilities and Decisions",
+          "url": "http://byteseismic.com/2024/03/03/reasoned-probabilities-and-decisions/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/epistemology/the-abuse-of-self-evident/",
+      "title": "The Abuse of “Self-Evident”",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 1724,
+          "title": "The Abuse of &#8220;Self-Evident&#8221;",
+          "url": "http://byteseismic.com/2024/03/01/the-abuse-of-self-evident/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/epistemology/what-is-doubt/",
+      "title": "What is Doubt?",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 635,
+          "title": "What is Doubt?",
+          "url": "http://byteseismic.com/2024/02/13/what-is-doubt/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/epistemology/what-is-evidence/",
+      "title": "What is Evidence?",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 486,
+          "title": "What is Evidence?",
+          "url": "http://byteseismic.com/2024/02/11/what-is-evidence/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/ethics/assisted-suicide/",
+      "title": "Assisted Suicide",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 11504,
+          "title": "Assisted Suicide",
+          "url": "http://byteseismic.com/2024/06/10/assisted-suicide/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/ethics/conditions-for-culpability/",
+      "title": "Conditions for Culpability",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 3410,
+          "title": "Conditions for Culpability",
+          "url": "http://byteseismic.com/2024/03/13/conditions-for-culpability/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/ethics/evidences-of-moral-facts/",
+      "title": "Evidences of Moral Facts",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 3375,
+          "title": "Evidences of Moral Facts",
+          "url": "http://byteseismic.com/2024/03/13/evidences-of-moral-facts/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/ethics/model-of-ethical-dynamics/",
+      "title": "Model of Ethical Dynamics",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 15426,
+          "title": "Model of Ethical Dynamics",
+          "url": "http://byteseismic.com/2025/02/23/model-of-ethical-dynamics/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/ethics/self-evident-morality/",
+      "title": "Self-Evident Morality?",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 14138,
+          "title": "Self-Evident Morality?",
+          "url": "http://byteseismic.com/2024/10/24/self-evident-morality/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/humanistic-philosophies/personal-cosmic-meaning/",
+      "title": "Personal & Cosmic Meaning",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 3103,
+          "title": "Personal &amp; Cosmic Meaning",
+          "url": "http://byteseismic.com/2024/03/12/personal-cosmic-meaning/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/humanistic-philosophies/russell-on-faith/",
+      "title": "Russell on Faith",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 10381,
+          "title": "Russell on Faith",
+          "url": "http://byteseismic.com/2024/05/27/russell-on-faith/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/humanistic-philosophies/the-legitimacy-of-divine-revelation/",
+      "title": "The Legitimacy of Divine Revelation",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 7684,
+          "title": "The Legitimacy of Divine Revelation",
+          "url": "http://byteseismic.com/2024/05/01/the-legitimacy-of-divine-revelation/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/humanistic-philosophies/unpalatable-religions/",
+      "title": "“Unpalatable” Religions",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 11674,
+          "title": "&#8220;Unpalatable&#8221; Religions",
+          "url": "http://byteseismic.com/2024/06/13/unpalatable-religions/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/introduction/careers-in-philosophy/",
+      "title": "Careers in Philosophy",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 1096,
+          "title": "Careers in Philosophy",
+          "url": "http://byteseismic.com/2024/02/25/careers-in-philosophy/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/introduction/philosophy-higher-education/",
+      "title": "Philosophy: Higher Education",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 1803,
+          "title": "Philosophy: Higher Education",
+          "url": "http://byteseismic.com/2024/03/02/philosophy-higher-education/"
+        }
+      ]
+    },
+    {
+      "pagePath": "/introduction/womens-interest-in-philosophy/",
+      "title": "Women’s Interest in Philosophy",
+      "status": "pending-full-source-reading-and-review",
+      "sourceCandidates": [
+        {
+          "ID": 2712,
+          "title": "Women&#8217;s Interest in Philosophy",
+          "url": "http://byteseismic.com/2024/03/07/womens-interest-in-philosophy/"
+        }
+      ]
+    }
+  ]
+}

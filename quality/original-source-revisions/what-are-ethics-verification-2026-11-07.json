@@ -1,0 +1,63 @@
+{
+  "pagePath": "/ethics/what-are-ethics/",
+  "sourceSha256": "1e3711307bb4cedde92a0e3aa830267c7576d984ff766a720a8f17aeda7e44ac",
+  "originalPrompts": 6,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 136,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 70,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "quiz questions and final keys": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "discussion questions": [
+      15,
+      15
+    ]
+  },
+  "sha256": "74ae56e8611547c75b07eda957d147ba4688b916342d41c923e84abb61ed4250",
+  "independentResponseOrderExact": true,
+  "sourceMatch": {
+    "ID": 3145,
+    "title": "What are Ethics?",
+    "url": "http://byteseismic.com/2024/03/12/what-are-ethics/",
+    "promptsExact": true
+  },
+  "responseDecisions": {
+    "1.1": "Retain four-field structure; clarify utility, descriptive study and the authority question with a lying example.",
+    "1.2": "Retain three subfields and moral/legal comparison; remove presumed objectivity and clarify legal validity.",
+    "2.1": "Retain eight approaches; distinguish grounding, criteria and metaethical positions; add specific justificatory challenges.",
+    "2.2": "Retain nested approach list; repair Aquinas/Hobbes/Hume examples, intuitionism and contractual authority.",
+    "3.1": "Retain headings and five arguments; distinguish epistemic skepticism/error theory and qualify evolutionary, disagreement and queerness arguments.",
+    "3.2": "Retain two groups; repair emotivism, origin/truth inference and conflation of objective authority with reality of care.",
+    "4.1": "Retain ethics/morality/three-differences progression; make distinctions conventional, not universal/contextual facts.",
+    "4.2": "Retain personal/professional contrast and navigation analogy; correct exclusive internal/external split.",
+    "5.1": "Retain ten questions and end key; repair dependent universalism and theory/practice answers.",
+    "5.2": "Retain ten questions/options and end key; repair objectivity, intuitionism, skepticism and applied-ethics ambiguity.",
+    "6.1": "Retain fourteen of fifteen open questions; replace false universal-versus-contextual dichotomy.",
+    "6.2": "Retain fourteen of fifteen questions; repair relativism-means-anything-goes premise."
+  },
+  "limitations": [
+    "No browser, mobile or accessibility inspection.",
+    "Research bounded to selected primary passages, not a complete literature review.",
+    "Shared verifier requires an independent response-column order check."
+  ],
+  "damagedVariantsRejected": [
+    "prompt",
+    "response",
+    "column-order",
+    "quiz",
+    "discussion"
+  ]
+}
