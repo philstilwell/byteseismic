@@ -1,0 +1,113 @@
+{
+  "date": "2026-11-08",
+  "runTime": "2026-11-08T14:06:13.954414+00:00",
+  "status": "partial-batch",
+  "modelConfiguration": "gpt-6-astra/high; saved configuration verified, runtime identity not independently verified",
+  "cycle": 8,
+  "cursor": 150,
+  "pagesReviewedThisRun": 1,
+  "currentBatchReviewed": 2,
+  "currentBatchPending": 48,
+  "officialCompleted": 150,
+  "officialRemaining": 196,
+  "substantivelyReviewed": 152,
+  "notYetReviewed": 194,
+  "nextPage": "/philosophical-inquiry/how-minds-are-changed/",
+  "currentBatchLastPage": "/introduction/womens-interest-in-philosophy/",
+  "trackerAdvanced": false,
+  "pages": [
+    {
+      "pagePath": "/ethics/is-vs-ought/",
+      "sourceSha256": "84740aaebce61ec79424e6c43f23ee180ad97b69367c61f6b9122776804073c8",
+      "originalPrompts": 6,
+      "originalHeadings": 6,
+      "sourceColumns": 12,
+      "modelResponses": 12,
+      "blocksRetainedVerbatim": 136,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 92,
+      "bareAnswersExplicitlyRevised": 0,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": true,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [],
+      "formatChecks": {
+        "quiz questions and final keys": [
+          10,
+          10,
+          10,
+          10
+        ],
+        "discussion questions": [
+          15,
+          15
+        ]
+      },
+      "sha256": "df1586717aaa82fe33c65c6b2ad6287603b71e2306ef310cf5f9e8e713c719ba",
+      "runTime": "2026-11-08T14:05:27.361123+00:00",
+      "sourceUrl": "http://byteseismic.com/2024/04/30/is-vs-ought/",
+      "wordpressId": 7500,
+      "titleMatched": true,
+      "urlMatched": true,
+      "sourceCacheExact": true,
+      "independentResponseOrder": true,
+      "rendererReproduces": true,
+      "damagedVariantsRejected": [
+        "prompt",
+        "response",
+        "column-order",
+        "quiz-item",
+        "discussion-item"
+      ],
+      "curatorExchange": "Exact third prompt retained verbatim and in order; no separate curator notes or dialogue turns in source.",
+      "limitations": [
+        "No browser/mobile/accessibility review.",
+        "Shared verifier requires independent column-order check.",
+        "Routledge content unavailable; unspecified podcast episodes and IEP Hume reading lead not verified.",
+        "Research checked referenced passages/metadata, not full books or exhaustive literature."
+      ]
+    }
+  ],
+  "changes": [
+    "Restored six exact prompts and twelve separate response positions from WordPress 7500.",
+    "Corrected error theory, internalism, natural law, assumed subjectivity and conflation of Hume’s fork with the inference problem.",
+    "Reconstructed premises and limits of proposed bridges; directly answered the exact curator challenge.",
+    "Repaired bibliography and dependent quizzes; preserved two ten-item quizzes/end keys and two fifteen-question discussion lists.",
+    "Retained 28 discussion questions, modernized source Hume quotation, original block/list progression; no separate curator exchanges."
+  ],
+  "verification": "Source, identity, exact prompt/order, independent response order, list counts, renderer reproduction and five damaged variants passed. Full isolated build generated 723 content pages, audited 840, preserved all 152 reviewed pages byte-for-byte; 39 recovered/17 high-risk dialogue checks passed. One previously accepted original-prompt grammar flag; all other failure categories zero.",
+  "unrelatedModifiedFilesHashPreserved": 476,
+  "commitStatus": "Prepared; final commit and push result recorded in automation memory.",
+  "researchSources": [
+    {
+      "url": "https://davidhume.org/texts/t/3/1/1",
+      "scope": "Original is/ought passage and context"
+    },
+    {
+      "url": "https://www.cambridge.org/core/books/abs/speech-acts/deriving-ought-from-is/FA9A09474489EA3E3829F3A82E474582",
+      "scope": "Searle chapter metadata and summary; full chapter not reviewed"
+    },
+    {
+      "url": "https://www.otago.ac.nz/philosophy/our-people/academic-staff/charles-pigden",
+      "scope": "Author bibliography; initial retrieval succeeded, later find timed out"
+    },
+    {
+      "url": "https://plato.stanford.edu/entries/moore-moral/",
+      "scope": "Opening account, open-question argument, author credit"
+    },
+    {
+      "url": "https://plato.stanford.edu/entries/hume-moral/",
+      "scope": "Hume overview and is/ought section"
+    },
+    {
+      "url": "https://plato.stanford.edu/entries/moral-cognitivism/",
+      "scope": "Opening distinctions and expressive/reporting distinction"
+    },
+    {
+      "url": "https://iep.utm.edu/natlaw/",
+      "scope": "Opening distinction between moral/legal natural law and scientific laws"
+    }
+  ],
+  "buildVerification": "quality/original-source-revisions/batch-verification-2026-11-08.json"
+}

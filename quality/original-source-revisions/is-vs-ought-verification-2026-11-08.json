@@ -1,0 +1,52 @@
+{
+  "pagePath": "/ethics/is-vs-ought/",
+  "sourceSha256": "84740aaebce61ec79424e6c43f23ee180ad97b69367c61f6b9122776804073c8",
+  "originalPrompts": 6,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 136,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 92,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "quiz questions and final keys": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "discussion questions": [
+      15,
+      15
+    ]
+  },
+  "sha256": "df1586717aaa82fe33c65c6b2ad6287603b71e2306ef310cf5f9e8e713c719ba",
+  "runTime": "2026-11-08T14:05:27.361123+00:00",
+  "sourceUrl": "http://byteseismic.com/2024/04/30/is-vs-ought/",
+  "wordpressId": 7500,
+  "titleMatched": true,
+  "urlMatched": true,
+  "sourceCacheExact": true,
+  "independentResponseOrder": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "response",
+    "column-order",
+    "quiz-item",
+    "discussion-item"
+  ],
+  "curatorExchange": "Exact third prompt retained verbatim and in order; no separate curator notes or dialogue turns in source.",
+  "limitations": [
+    "No browser/mobile/accessibility review.",
+    "Shared verifier requires independent column-order check.",
+    "Routledge content unavailable; unspecified podcast episodes and IEP Hume reading lead not verified.",
+    "Research checked referenced passages/metadata, not full books or exhaustive literature."
+  ]
+}

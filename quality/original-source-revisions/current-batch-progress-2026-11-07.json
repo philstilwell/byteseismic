@@ -2,8 +2,8 @@
   "cycle": 8,
   "startIndex": 150,
   "pageCount": 50,
-  "reviewed": 1,
-  "pending": 49,
+  "reviewed": 2,
+  "pending": 48,
   "pages": [
     {
       "pagePath": "/ethics/what-are-ethics/",
@@ -20,14 +20,16 @@
     {
       "pagePath": "/ethics/is-vs-ought/",
       "title": "“Is” vs “Ought”",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 7500,
           "title": "&#8220;Is&#8221; vs &#8220;Ought&#8221;",
           "url": "http://byteseismic.com/2024/04/30/is-vs-ought/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/is-vs-ought-verification-2026-11-08.json",
+      "report": "quality/editorial-audit-2026-11-08.json"
     },
     {
       "pagePath": "/philosophical-inquiry/how-minds-are-changed/",
@@ -605,5 +607,6 @@
         }
       ]
     }
-  ]
+  ],
+  "lastUpdated": "2026-11-08"
 }
