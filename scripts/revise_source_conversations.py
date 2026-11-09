@@ -64,6 +64,15 @@ def sections(source, config=None):
                 cols = sibling.select(':scope > .wp-block-column')
                 if cols:
                     break
+        if str(index) in (config or {}).get('sourceColumnGroupIndexes', {}):
+            groups = []
+            for sibling in h.find_next_siblings():
+                if sibling.name == 'h2':
+                    break
+                group = sibling.select(':scope > .wp-block-column')
+                if group:
+                    groups.append(group)
+            cols = groups[config['sourceColumnGroupIndexes'][str(index)]]
         if index in prose:
             assert not cols
             col = source.new_tag('div')

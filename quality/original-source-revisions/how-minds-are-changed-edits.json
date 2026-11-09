@@ -1,0 +1,122 @@
+{
+  "pageFile": "philosophical-inquiry/how-minds-are-changed/index.html",
+  "wordpressId": 270,
+  "snapshot": "how-minds-are-changed-wordpress-270.html",
+  "sourceUrl": "http://byteseismic.com/2024/02/09/how-minds-are-changed/",
+  "sourceLabel": "Original WordPress conversation, February 9, 2024",
+  "shellRevision": "ddef80e0b2296bf04b5a9e8d4817878431062000",
+  "date": "2026-11-09",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "sourceColumnGroupIndexes": {
+    "0": 1
+  },
+  "headings": [
+    "Gradual shifts and sudden reversals",
+    "What persuasion evidence actually supports",
+    "Recognizing reactance in ourselves",
+    "Fifteen discussion questions in each response"
+  ],
+  "introHeading": "Changing a belief without surrendering judgment",
+  "intro": "The original conversation moves from the pace of opinion change to persuasion, then to resistance within our own thinking. All four prompts and both response positions are retained. The final Gemini response originally repeated its previous answer; an explicitly labeled editorial supplement supplies its missing discussion questions.",
+  "description": "Explore gradual and sudden belief change, evidence for persuasion, personal reactance and discussion questions.",
+  "highlights": [
+    "A change in confidence, a public statement and a change in behavior need not occur together.",
+    "Persuasion studies support specific interventions in specific settings, not a universal recipe.",
+    "Rejecting pressure and assessing evidence are separate decisions."
+  ],
+  "removeDecorativeImages": true,
+  "replacements": {
+    "1.1.0": "Many changes in confidence are incremental, while some reversals are abrupt. A defensible claim about which is more common needs a defined population, issue and interval of observation. The following mechanisms explain why gradual change is plausible; they do not establish that most opinion changes everywhere are gradual.",
+    "1.1.1": "<strong>Cognitive dissonance:</strong> Conflict between commitments can be uncomfortable. A person may revise a belief, dismiss the new evidence or reinterpret the conflict. Dissonance therefore does not by itself predict gradual revision: it can also preserve the old position.",
+    "1.1.2": "<strong>Confirmation bias:</strong> Favoring congenial information can slow or prevent revision. It need not produce a succession of small corrections. One useful check is to ask whether the same evidence would seem convincing if it supported the opposing view.",
+    "1.1.3": "<strong>Social influence and peer pressure:</strong> Group expectations can affect what people believe and what they say. A person may publicly agree before privately changing, or privately doubt long before speaking. A sudden public shift need not be a sudden intellectual conversion.",
+    "1.1.5": "<strong>Emotional and psychological investment:</strong> A belief connected to identity or relationships may be costly to abandon. This can delay acknowledgment of doubt. It does not imply that preserving identity is always irrational, or that a dramatic revision must take a long time once decisive evidence arrives.",
+    "1.1.6": "<strong>Education and experience:</strong> Repeated encounters can gradually alter expectations. A single clear counterexample can also overturn a universal claim. The pace depends on what the evidence bears on and how central that claim is to other beliefs.",
+    "1.1.7": "<strong>Resistance to change:</strong> Familiarity and uncertainty can favor the status quo. Yet caution can be reasonable when a new claim is poorly supported. Distinguish resistance to evidence from a warranted demand for better evidence.",
+    "1.1.8": "Imagine someone becoming less confident in a policy over several months, then announcing opposition after one final report. The announcement is abrupt; the underlying reassessment was gradual. To understand the change, track confidence, reasons, public expression and action separately. A coherent identity is a possible benefit of gradual revision, not proof that gradual revision is more accurate.",
+    "1.2.0": "The question cannot be settled by memorable conversion stories alone. “Dramatic” might mean a large change, a fast change or a conspicuous announcement. Those measures can diverge. Consider four distinctions:",
+    "1.2.2": "<strong>The scale of analysis:</strong> A short observation window can hide years of preparation. A legal change such as abolition is also different from a change in public attitudes: enactment does not show that everyone changed their mind at once.",
+    "1.2.3": "<strong>Individual vs. collective:</strong> An average can move gradually even if each individual switches abruptly at a different time. Conversely, population opinion can change because generations or participants change, without the same people revising their beliefs.",
+    "1.2.7": "<strong>Revolutionary moments:</strong> A crisis or public event can concentrate attention and precipitate a visible shift. Broad periods such as the Renaissance or Enlightenment are not evidence of instantaneous individual conversions; their long duration makes them poor examples of that claim.",
+    "1.2.9": "<strong>Rapid technological change:</strong> A new demonstration may overturn a specific expectation quickly. Adopting a technology, however, does not prove a wider worldview has changed.",
+    "1.2.12": "<strong>Unnoticed shifts:</strong> Accumulating knowledge can gradually change an individual’s confidence. Demographic replacement can gradually change a population average. These are different processes and require different evidence.",
+    "1.2.14": "Both patterns are possible. A useful investigation would follow the same people over time, ask about confidence as well as agreement, and distinguish reported views from behavior. Without that evidence, “usually incremental” is a hypothesis about a specified setting, not a universal finding.",
+    "2.1.0": "The strongest answer separates tested interventions from sensible conversational advice. Two examples are factual corrections and structured, nonjudgmental exchanges of personal experiences. Neither is guaranteed to change a worldview, and a change in factual belief is different from a change in values or behavior. The source’s eleven techniques remain below, with their limits made explicit.",
+    "2.1.1": "<strong>Active listening and empathy:</strong> Listening can help identify the real disagreement. In <a href=\"https://www.cambridge.org/core/journals/american-political-science-review/article/reducing-exclusionary-attitudes-through-interpersonal-conversation-evidence-from-three-field-experiments/4AA5B97806A4CAFBAB0651F5DAD8F223\">Kalla and Broockman’s three field experiments</a>, nonjudgmental narrative exchanges reduced exclusionary attitudes in the studied settings. This supports the tested conversation, not a claim that empathy alone reliably changes every belief.",
+    "2.1.2": "<strong>Evidence and reasoning:</strong> Correct a specific claim with a clear explanation and a checkable source. <a href=\"https://doi.org/10.1073/pnas.2104235118\">Porter and Wood’s experiments in four countries</a> found that fact-checking reduced false beliefs. That supports factual correction; it does not show that a corrected fact necessarily changes a political allegiance or action.",
+    "2.1.3": "<strong>Stories and personal anecdotes:</strong> A concrete account can make another person’s experience intelligible. The narrative-exchange experiments above provide a relevant example. A moving anecdote is still not a representative sample, so use stories to illuminate evidence rather than replace it.",
+    "2.1.4": "<strong>Framing and reframing:</strong> Connect the issue to a concern the listener actually holds, while keeping material facts and tradeoffs visible. A policy may involve both security and liberty; explaining both is more honest than changing labels to conceal a cost.",
+    "2.1.5": "<strong>Socratic questioning:</strong> Ask what supports the belief and what would count against it. Questions should allow an answer you did not expect. A disguised interrogation can create defensiveness; this is a method of inquiry, not a universally validated persuasion formula.",
+    "2.1.6": "<strong>Incremental change and dissonance:</strong> Address one disputed claim at a time when that makes the evidence easier to assess. Discomfort may prompt reconsideration or defensive dismissal. Do not infer that creating dissonance will reliably move someone toward your conclusion.",
+    "2.1.7": "<strong>Social norms:</strong> Accurate information about a relevant group may correct a mistaken impression of what others think. Agreement is not proof of truth, and public conformity need not indicate private conviction. Never invent a consensus.",
+    "2.1.8": "<strong>Reciprocal concessions:</strong> Acknowledge a sound objection because it is sound. This may improve trust, but beliefs should not be traded as bargaining chips: one justified concession does not make an unrelated concession obligatory.",
+    "2.1.10": "<strong>Humor:</strong> Shared humor may ease a conversation; ridicule may undermine it. Treat humor as a context-sensitive aid to rapport, not as an established general route to durable belief change.",
+    "2.1.11": "<strong>Expert agreement:</strong> Relevant expertise can help a nonspecialist judge evidence. Explain the field, the basis of the agreement and its uncertainties. A majority of bystanders is not equivalent to a well-supported expert assessment.",
+    "2.1.12": "Judge a technique by the outcome it actually measures: immediate assent, later recall, private belief or behavior. Ask whether an effect persists and whether it applies to this audience. The evidence for the two tested examples is stronger than the blanket claim that every item in this list has a strong track record.",
+    "2.2.0": "Several practices can make reconsideration easier, but the evidence does not justify ranking this whole list as proven techniques. Factual corrections and nonjudgmental narrative exchanges have the specific experimental support described in the preceding response. The following groups organize practical advice around understanding, evidence, communication, humility and patience.",
+    "2.2.6": "<strong>Focus on common ground:</strong> State the shared premise and then locate the disputed inference. If both people want safer roads, disagreement may concern whether a proposed measure works, how much it costs or whose freedom it restricts.",
+    "2.2.10": "<strong>Tell illuminating stories:</strong> Use a truthful example to show what an issue means in someone’s life. Then ask how typical it is. Emotional force should not be mistaken for evidence about prevalence.",
+    "2.2.11": "<strong>Frame information honestly:</strong> Explain benefits and costs in terms the listener understands. Tailoring an explanation should improve understanding, not hide facts that might weaken your case.",
+    "2.2.17": "<strong>Allow time:</strong> Leave room for reflection without demanding an immediate public concession. Some corrections are quick; a more connected belief may require examining several reasons.",
+    "2.2.18": "<strong>Revisit by agreement:</strong> Offer to discuss new evidence later. Repetition without consent can become pressure, and hearing the same assertion again does not make it better supported.",
+    "2.2.19": "<strong>Distinguish possible later effects from observed success:</strong> A conversation may matter later, but “planting seeds” is not evidence that it worked. If evaluating an intervention, use an appropriate comparison and follow-up measure.",
+    "2.2.20": "These practices support a fair conversation; they are not guaranteed to be most effective in combination. If the other person’s objection is stronger, your own revision is a successful outcome of inquiry, even when your attempt to persuade fails.",
+    "3.1.0": "Reactance is motivation to restore a freedom one perceives as threatened. It can involve anger and resistant thoughts, and can lead someone to reject advice partly because it feels controlling. It is more specific than ordinary disagreement: a person may reject a claim simply because the evidence is weak. See <a href=\"https://pure.psu.edu/en/publications/on-the-nature-of-reactance-and-its-role-in-persuasive-health-comm/\">Dillard and Shen’s study of reactance</a> for the roles of anger and resistant thoughts; its health-message experiments do not establish that every disagreement has this cause.",
+    "3.1.1": "The practical aim is not to eliminate resistance. Sometimes a demand really is coercive. Separate two questions: “Do I accept this person’s authority over me?” and “Is this claim well supported?” You can reject the demand while accepting the evidence.",
+    "3.1.7": "<strong>Employ critical thinking:</strong> Write down the claim without the speaker’s commanding language, then assess its evidence. If a disliked person says a bridge is unsafe, irritation at the speaker is not evidence that the bridge is safe.",
+    "3.1.8": "<strong>Allow learning:</strong> Treat revision as compatible with competence. This is a useful stance toward inquiry, not proof that adopting a “growth mindset” will by itself prevent reactance.",
+    "3.1.10": "<strong>Affirm your freedom to assess:</strong> “I can investigate this without accepting the demand” may help separate evidence from pressure. This does not mean beliefs can always be chosen at will, or that real constraints disappear when you reframe them.",
+    "3.1.11": "<strong>Consult trustworthy sources:</strong> Check competence, evidence and correction practices, not merely familiarity. A comfortable source can reinforce bias; an unwelcome source can still be right.",
+    "3.1.13": "When you notice resistance, pause, identify the threatened choice and restate the claim neutrally. Ask what evidence would support or weaken it, then decide separately how to respond to the pressure. These are reflective practices, not a guarantee that introspection will reveal every influence on your judgment.",
+    "3.2.7": "Noticing a defensive response can prompt a check, but it is not a diagnosis of reactance. Anger may concern unfair treatment; disagreement may concern evidence. Try these questions before deciding which explanation fits:",
+    "3.2.11": "<strong>Question the source of your resistance:</strong> Would the same evidence seem stronger if it came from someone you liked? Would you accept it if it were offered as an option rather than an order? These comparisons can reveal a possible influence without proving it.",
+    "3.2.12": "<strong>Make revision possible:</strong> Specify one finding that would lower your confidence. Then give it the same scrutiny you would give a finding on your own side. “Being open” is useful only when it changes how you assess evidence.",
+    "3.2.13": "Maintaining autonomy includes the ability to say both “You cannot decide for me” and “Your factual point is correct.” Avoid labeling every dissenter reactant; that would protect your own claim from criticism. The purpose is more independent judgment, not compliance.",
+    "4.1.0": "These fifteen questions connect belief revision, social influence, evidence and autonomy. They are retained from the original response because they invite examination rather than requiring agreement with a single persuasion strategy.",
+    "4.1.16": "For a concrete discussion, choose one disputed claim and use these questions to separate the quality of its evidence from the social experience of changing one’s mind.",
+    "4.2.0": "Source repetition: the previous reactance answer",
+    "4.2.1": "<strong>Editorial note:</strong> The original Gemini response at this position repeats its preceding reactance explanation instead of answering the request for fifteen questions. Its structure is retained below, with the same clarifications as above; the missing question list follows as an editorial supplement. Reactance is motivation to restore a freedom perceived as threatened, not a synonym for disagreement.",
+    "4.2.7": "Noticing a defensive response can prompt a check, but it is not a diagnosis of reactance. Anger may concern unfair treatment; disagreement may concern evidence. Try these questions before deciding which explanation fits:",
+    "4.2.11": "<strong>Question the source of your resistance:</strong> Would the same evidence seem stronger if it came from someone you liked? Would you accept it if it were offered as an option rather than an order? These comparisons can reveal a possible influence without proving it.",
+    "4.2.12": "<strong>Make revision possible:</strong> Specify one finding that would lower your confidence. Then give it the same scrutiny you would give a finding on your own side. “Being open” is useful only when it changes how you assess evidence.",
+    "4.2.13": "Maintaining autonomy includes the ability to say both “You cannot decide for me” and “Your factual point is correct.” Avoid labeling every dissenter reactant; that would protect your own claim from criticism. The purpose is more independent judgment, not compliance."
+  },
+  "sourceSha256": "0b495a0365a4a2eb0af1f82c0a1ca2a7eec7ff46d296caf53824e7c5f355e600",
+  "responseAppendices": {
+    "4.2": [
+      "<h4>Editorial supplement · fifteen requested discussion questions</h4><ol class=\"editorial-discussion\"><li>What would distinguish a gradual loss of confidence from an abrupt reversal in a study of the same people?</li><li>Can a sudden public change conceal a long private reassessment? Give an example.</li><li>How could a population’s average opinion shift without any individual changing their mind?</li><li>When is refusing to revise a belief a rational response to weak evidence?</li><li>What would show that a conversation changed belief rather than produced polite agreement?</li><li>How would you test whether a persuasive effect lasts beyond the conversation?</li><li>What can a personal story reveal, and what can it not establish about a wider population?</li><li>How can a factual correction succeed while leaving a political preference unchanged?</li><li>When does framing clarify a dispute, and when does it conceal a tradeoff?</li><li>What separates a sincere question from an attempt to trap someone?</li><li>How can you acknowledge a valid objection without treating belief as a bargain?</li><li>Which threatened freedom might explain your resistance to advice, and how could you check that explanation?</li><li>How could you reject a controlling demand while accepting the factual claim that accompanies it?</li><li>What evidence would lead you to revise a belief held by your own social group?</li><li>If your partner’s argument is stronger, what would a successful conversation require you to do?</li></ol>"
+    ]
+  },
+  "responseDecisions": {
+    "1.1": "Revised prevalence claim and six mechanisms; retained information-processing explanation. Separated confidence, expression and behavior.",
+    "1.2": "Retained contextual comparison and two three-item lists; corrected historical/aggregate examples and defined observation requirements.",
+    "2.1": "Reviewed all eleven techniques; added two bounded experimental examples and qualified unsupported universal efficacy claims.",
+    "2.2": "Preserved five topic groups; made common ground concrete, corrected framing/persistence/success assumptions; retained listening and humility guidance.",
+    "3.1": "Preserved ten practices; distinguished motivation from emotion, coercion from evidence, and practical suggestions from demonstrated cures.",
+    "3.2": "Retained definition and three manifestations; made self-checks concrete and limited self-diagnosis. Preserved five-practice progression.",
+    "4.1": "Retained all fifteen relevant source questions verbatim and order; tightened introduction/conclusion.",
+    "4.2": "Source is duplicated off-prompt answer. Retained its position and block/list structure with clear disclosure and equivalent corrections; supplied fifteen explicitly editorial questions as appendix, not invented original model text."
+  },
+  "countChecks": [
+    {
+      "name": "two requested discussion sets",
+      "selector": "#prompt-4 ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    },
+    {
+      "name": "original technique list",
+      "selector": "#prompt-2 .original-response[data-source-column=\"1\"] > ol",
+      "child": "li",
+      "expected": [
+        11
+      ]
+    }
+  ]
+}

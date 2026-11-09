@@ -1,0 +1,27 @@
+# Editorial audit — November 9, 2026
+
+Continued cycle 8 at saved index 150. One page reviewed and revised this run: **How Minds are Changed**. The active batch has 3 verified pages and 47 pending; official tracker totals remain 150 completed and 196 remaining out of 346. Including verified partial-batch work, 153 pages have received substantive review and 193 have not. No reset or advancement. Next review: **Economic Comparisons**. The active batch still runs from What are Ethics? through Women’s Interest in Philosophy.
+
+## Source and editorial work
+
+Read the complete cached WordPress post 270, matching its title, dated URL and all four prompts. The exact source snapshot and SHA256 are preserved. The previous reconstructed page collapsed the conversation to three prompts and omitted the requested discussion section. Restored all four source prompts verbatim and in order, with eight ChatGPT/Gemini response positions. The first source section has a separate two-column logo row before its actual responses; the renderer now supports explicitly selecting the correct group. The logos establish attribution and are replaced by text labels. Original navigation repeats are replaced by the prompt ledger, and highlights are labeled as an edited summary. There are no separate curator corrections or dialogue turns.
+
+Revised 54 source blocks and retained 64. Qualified the unsupported general claim that most belief changes are gradual. Distinguished private confidence, public announcements, population averages and behavior; corrected historical examples that confused long periods with sudden conversions. Preserved the seven mechanisms and the contrasting lists while explaining why dissonance can preserve a belief as well as change it.
+
+Reviewed each of the eleven persuasion techniques and the second response’s five groups. Added bounded experimental examples for factual correction and nonjudgmental narrative exchange; separated tested effects from conversational advice. Corrected claims about stories, social agreement, framing, reciprocal concessions, humor, persistence and unobserved later success. Made common ground concrete through a road-safety example.
+
+Clarified reactance as motivation to restore threatened freedom, rather than ordinary disagreement or merely negative emotion. Preserved the ten-practice and five-practice lists. Added concrete checks that separate rejecting pressure from evaluating evidence, and qualified claims that a growth mindset or introspection guarantees improvement.
+
+Retained all fifteen original ChatGPT discussion questions verbatim and in order. The source’s final Gemini response repeats its preceding reactance answer instead of supplying questions. Preserved that response’s position and underlying block/list progression with an explicit disclosure and matching clarifications, then added fifteen clearly labeled editorial questions. This is an intentional structural addition to fulfill the prompt, not purported recovered model text. Accordingly, the automatic unchanged-structure field is false; all original lists remain, and the added list is explicitly recorded.
+
+## Verification and limits
+
+Exact cached source, title/URL, prompt order, response order, source block order, original list preservation, requested counts and renderer reproduction pass. Five damaged variants were rejected: missing prompt, response, original discussion item, editorial discussion item and swapped response columns. The shared verifier’s column-order gap is covered by an independent order assertion. The optional source-group selection also reproduces the two earlier reviewed pages unchanged.
+
+Primary research was limited to publisher/author abstracts and bounded indexed passages. The direct Porter/Wood publisher opening returned HTTP 403; its indexed primary-paper text supports the limited factual-correction claim. No exhaustive literature review or browser/mobile/accessibility inspection is claimed. No paid generation or external repository installation was used. Saved automation configuration is gpt-6-astra/high; runtime model identity was not independently verified.
+
+Full isolated-build results are recorded in `quality/original-source-revisions/batch-verification-2026-11-09.json`. The build directory and scratch files are removed after verification. No browser tabs, dialogs or local servers were opened. Only this page, its evidence, the narrow renderer change, progress record and reports are authorized for commit. The batch remains incomplete; tracker files stay unchanged. Commit and push outcomes are recorded in automation memory and the delivery message.
+
+After the current batch is complete, the next scheduled batch is indexes 200–249, from Categories of Nihilism through Philosophy of AI – Core Concepts. It has not been started. No new original-source blocker was established. The remaining 47 current-batch candidates still require full reading and review. All 35 earlier baseline approvals remain effective.
+
+Final isolated build passed: 723 generated content pages; 840 audited; 39 recovered/17 high-risk dialogue checks passed. All 153 reviewed pages survived byte-for-byte (the prior 152 received preservation checks only). All 476 inherited modified files and both tracker files remain unchanged. The sole grammar flag is the previously accepted verbatim “and and” in the Unnuanced Conclusions prompt; other failure categories are zero. Nine authorized files are prepared for commit and push.

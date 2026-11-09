@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-09",
+  "runTime": "2026-11-09T15:37:36.709893+00:00",
+  "status": "partial-batch",
+  "modelConfiguration": "Saved automation gpt-6-astra/high; runtime identity not independently verified; no delegation or configuration change.",
+  "cycle": 8,
+  "cursor": 150,
+  "pagesReviewedThisRun": 1,
+  "currentBatchReviewed": 3,
+  "currentBatchPending": 47,
+  "officialCompleted": 150,
+  "officialRemaining": 196,
+  "substantivelyReviewed": 153,
+  "notYetReviewed": 193,
+  "nextPage": "/economics/economic-comparisons/",
+  "currentBatchLastPage": "/introduction/womens-interest-in-philosophy/",
+  "trackerAdvanced": false,
+  "pages": [
+    {
+      "pagePath": "/philosophical-inquiry/how-minds-are-changed/",
+      "sourceSha256": "0b495a0365a4a2eb0af1f82c0a1ca2a7eec7ff46d296caf53824e7c5f355e600",
+      "originalPrompts": 4,
+      "originalHeadings": 4,
+      "sourceColumns": 8,
+      "modelResponses": 8,
+      "blocksRetainedVerbatim": 64,
+      "tableCellsExplicitlyRevised": 0,
+      "blocksExplicitlyRevised": 54,
+      "bareAnswersExplicitlyRevised": 0,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": false,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [
+        "4.2"
+      ],
+      "formatChecks": {
+        "two requested discussion sets": [
+          15,
+          15
+        ],
+        "original technique list": [
+          11
+        ]
+      },
+      "sha256": "f10dc0cd08c35f5103c3db8efbfe2f31157132a58b5323af9ea107e1f4dc4e3e",
+      "runTime": "2026-11-09T15:36:53.122919+00:00",
+      "sourceCacheExact": true,
+      "titleMatched": true,
+      "urlMatched": true,
+      "sourceUrl": "http://byteseismic.com/2024/02/09/how-minds-are-changed/",
+      "wordpressId": 270,
+      "rendererReproduces": true,
+      "independentResponseOrder": true,
+      "damagedVariantsRejected": [
+        "prompt",
+        "response",
+        "discussion",
+        "supplement",
+        "column-order"
+      ],
+      "originalListsPreserved": true,
+      "structuralException": "A clearly labeled fifteen-question editorial appendix follows the retained off-prompt Gemini repetition; original lists and all source block positions remain.",
+      "curatorExchanges": "Four prompts, no separate curator correction or dialogue turns.",
+      "limitations": [
+        "No browser/mobile/accessibility inspection.",
+        "Research checked published abstracts and bounded indexed passages, not exhaustive literature.",
+        "Aggregate gradual-change prevalence intentionally left unquantified."
+      ]
+    }
+  ],
+  "changes": [
+    "Restored four exact source prompts and eight response positions from WordPress 270.",
+    "Qualified unsupported prevalence and efficacy claims; distinguished private confidence, public expression, population composition and behavior.",
+    "Added bounded evidence for factual corrections and nonjudgmental narrative exchanges; clarified autonomy and reactance.",
+    "Retained fifteen original discussion questions; disclosed off-prompt repeated Gemini answer and added fifteen clearly labeled editorial questions.",
+    "Selected original first response group after separate decorative model-logo group; optional renderer change regression-checked against prior two reviewed pages."
+  ],
+  "verification": "Exact source, prompts, source block/list order, independent response ordering, requested counts, renderer reproduction and five damaged variants passed. Isolated build generated 723 pages; audit covered 840; 39 recovered/17 high-risk dialogue checks passed; all 153 reviewed pages byte-identical. One previously accepted original-prompt grammar flag.",
+  "buildVerification": "quality/original-source-revisions/batch-verification-2026-11-09.json",
+  "commitStatus": "Prepared; exact commit/push result recorded in automation memory.",
+  "researchSources": [
+    {
+      "url": "https://doi.org/10.1073/pnas.2104235118",
+      "scope": "Indexed primary-paper excerpts; direct opening returned 403. Limited claim: fact-checks reduced false beliefs in four-country experiments."
+    },
+    {
+      "url": "https://www.cambridge.org/core/journals/american-political-science-review/article/reducing-exclusionary-attitudes-through-interpersonal-conversation-evidence-from-three-field-experiments/4AA5B97806A4CAFBAB0651F5DAD8F223",
+      "scope": "Publisher abstract and indexed article passages; context-specific narrative-exchange results."
+    },
+    {
+      "url": "https://pure.psu.edu/en/publications/on-the-nature-of-reactance-and-its-role-in-persuasive-health-comm/",
+      "scope": "Author institution research abstract; anger and negative cognition in two health-message studies."
+    }
+  ],
+  "followingBatch": {
+    "startIndex": 200,
+    "pageCount": 50,
+    "firstPage": "/metaphysics/categories-of-nihilism/",
+    "lastPage": "/philosophy-of-ai/philosophy-of-ai-core-concepts/"
+  },
+  "unrelatedModifiedFilesHashPreserved": 476
+}

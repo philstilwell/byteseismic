@@ -2,8 +2,8 @@
   "cycle": 8,
   "startIndex": 150,
   "pageCount": 50,
-  "reviewed": 2,
-  "pending": 48,
+  "reviewed": 3,
+  "pending": 47,
   "pages": [
     {
       "pagePath": "/ethics/what-are-ethics/",
@@ -34,14 +34,16 @@
     {
       "pagePath": "/philosophical-inquiry/how-minds-are-changed/",
       "title": "How Minds are Changed",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 270,
           "title": "How Minds are Changed",
           "url": "http://byteseismic.com/2024/02/09/how-minds-are-changed/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/how-minds-are-changed-verification-2026-11-09.json",
+      "report": "quality/editorial-audit-2026-11-09.json"
     },
     {
       "pagePath": "/economics/economic-comparisons/",
@@ -608,5 +610,6 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-08"
+  "lastUpdated": "2026-11-08",
+  "updatedAt": "2026-11-09"
 }
