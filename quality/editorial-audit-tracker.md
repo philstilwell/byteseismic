@@ -10,6 +10,7 @@ Current queue start: 151 of 346
 - Read first: `quality/editorial-audit-tracker.json`
 - Advance command: `python3 scripts/advance_editorial_audit_tracker.py --complete-current`
 - Advance only when: Advance the tracker only after the current batch has been meaningfully audited, rebuilt, and prepared for commit.
+- Stop after this original-preserving cycle. Pause the daily automation after the final verified commit and push; maintenance requires separate authorization.
 
 ## Ordering
 

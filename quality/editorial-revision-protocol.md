@@ -39,3 +39,11 @@ Use the exact first-repository snapshots, commits, checksums, and four prompt te
 ## Finite Agency discretionary rewrite — October 7, 2026
 
 The curator explicitly stated: “I approve a rewrite of 'Finite Agency' at your discetion.” This authorizes a discretionary rewrite of exactly `/ethics/finite-agency-moral-demand-and-happiness/` and resolves its previously recorded source blocker. The exact first-repository snapshot is retained as the preservation baseline in `quality/original-source-revisions/site-native-baselines-2026-10-07.json`. It is a site-native editorial/reconstructed branch cluster, not a WordPress original or an attributable model conversation. Preserve its four prompts verbatim and in order and retain the five follow-up questions. This is a one-page addition to the prior 34 approved baselines, not a general exception. Its review and verification are recorded in `quality/editorial-audit-2026-10-07-finite-agency.json`; the current 50-page batch must still remain at its saved cursor until all pages have been reviewed.
+
+## Project endpoint — November 9, 2026
+
+The curator authorized stopping after the initial original-preserving pass, which is cycle 8 (restarted September 6, 2026), currently covering 346 queued pages. Continue the saved batch and remaining pages; do not pause before completion or count source recovery alone as review.
+
+`protocol.stopAfterCurrentCycle` keeps the final completed paths and cycle number, leaves the next batch empty, and prevents automatic rollover or restart. On the final batch, perform the ordinary full review, isolated-build verification and exact completed-path checks, then commit and push all authorized final work. Confirm the push before using the Codex automation tool to set `byteseismic-daily-editorial-audit` to `PAUSED`, preserving its other settings. Issue a final completion report with totals, verification, commit/push status and any limitations. If the final push is blocked, report it and continue only completion work on subsequent runs; never begin another review cycle. If a later run finds the pass already complete and pushed, pause the automation without editing more pages.
+
+Maintenance is a separate future decision. Do not start maintenance, reset the queue, create a replacement recurring task or reactivate this automation without explicit user authorization.

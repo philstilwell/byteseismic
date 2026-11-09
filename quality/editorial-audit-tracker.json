@@ -6,7 +6,9 @@
     "readFirst": "quality/editorial-audit-tracker.json",
     "workCurrentBatchOnly": true,
     "advanceCommand": "python3 scripts/advance_editorial_audit_tracker.py --complete-current",
-    "advanceCondition": "Advance the tracker only after the current batch has been meaningfully audited, rebuilt, and prepared for commit."
+    "advanceCondition": "Advance the tracker only after the current batch has been meaningfully audited, rebuilt, and prepared for commit.",
+    "stopAfterCurrentCycle": true,
+    "completionAction": "After cycle 8 is fully reviewed, verified, committed and pushed, pause byteseismic-daily-editorial-audit and issue the final report. Maintenance requires separate user authorization."
   },
   "ordering": {
     "description": "Pages are queued deterministically by priority band, then by weakest score, then by severity counts, then alphabetically.",

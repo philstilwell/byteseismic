@@ -205,16 +205,16 @@ def _resolve_cursor(existing_tracker: dict | None, pages: list[dict]) -> dict:
             for path in current_batch_paths
             if path in remaining_paths
         ),
-        stored_path if stored_path in remaining_paths else remaining_paths[0],
+        stored_path if stored_path in remaining_paths else (remaining_paths[0] if remaining_paths else ""),
     )
 
     cycle = max(_safe_int(existing_cursor.get("cycle", 1), 1), 1)
-    current_page = pages[page_paths.index(next_path)]
+    current_page = pages[page_paths.index(next_path)] if next_path else {}
     return {
         "cycle": cycle,
         "currentPageIndex": len(completed_paths),
-        "nextPagePath": current_page["pagePath"],
-        "nextPageTitle": current_page["pageTitle"],
+        "nextPagePath": current_page.get("pagePath", ""),
+        "nextPageTitle": current_page.get("pageTitle", ""),
         "lastAdvancedAt": existing_cursor.get("lastAdvancedAt", ""),
         "lastCompletedBatch": existing_cursor.get("lastCompletedBatch", {}),
         "completedPagePathsInCurrentCycle": completed_paths,
@@ -388,6 +388,17 @@ def _upcoming_batches_from_remaining(
     return previews
 
 
+def _apply_completion_policy(tracker: dict) -> dict:
+    """Keep a finite editorial project within its authorized cycle."""
+    if tracker.get("protocol", {}).get("stopAfterCurrentCycle"):
+        cycle = tracker["cursor"]["cycle"]
+        tracker["currentBatch"]["wrapsToNextCycle"] = False
+        tracker["upcomingBatches"] = [
+            batch for batch in tracker["upcomingBatches"] if batch["cycle"] == cycle
+        ]
+    return tracker
+
+
 def build_editorial_audit_tracker(
     report: dict,
     *,
@@ -405,11 +416,12 @@ def build_editorial_audit_tracker(
     if not isinstance(history, list):
         history = []
 
-    return {
+    return _apply_completion_policy({
         "version": 1,
         "generatedAt": date.today().isoformat(),
         "batchSize": batch_size,
         "protocol": {
+            **((existing_tracker or {}).get("protocol", {})),
             "readFirst": "quality/editorial-audit-tracker.json",
             "workCurrentBatchOnly": True,
             "advanceCommand": "python3 scripts/advance_editorial_audit_tracker.py --complete-current",
@@ -443,11 +455,13 @@ def build_editorial_audit_tracker(
         ),
         "history": history[-HISTORY_LIMIT:],
         "pages": [_compact_page(page) for page in pages],
-    }
+    })
 
 
 def restart_editorial_audit_tracker(tracker: dict) -> dict:
     """Preserve prior history while starting a new editorial pass at queue zero."""
+    if tracker.get("protocol", {}).get("stopAfterCurrentCycle"):
+        raise ValueError("This project stops after its current cycle; maintenance requires separate authorization.")
     pages = list(tracker.get("pages", []))
     if not pages:
         raise ValueError("Cannot restart an empty editorial queue")
@@ -501,6 +515,8 @@ def advance_editorial_audit_tracker(tracker: dict, completed_at: str | None = No
         ]
     )
     completed_before_set = set(completed_before)
+    if len(completed_before) >= total_pages and tracker.get("protocol", {}).get("stopAfterCurrentCycle"):
+        return _apply_completion_policy(tracker)
     tracked_current_pages = tracker.get("currentBatch", {}).get("pages", [])
     current_pages = [
         page_lookup[path]
@@ -512,7 +528,7 @@ def advance_editorial_audit_tracker(tracker: dict, completed_at: str | None = No
 
     current_paths = [page["pagePath"] for page in current_pages]
     completed_after = _dedupe(completed_before + current_paths)
-    wrapped = len(completed_after) >= total_pages
+    wrapped = len(completed_after) >= total_pages and not tracker.get("protocol", {}).get("stopAfterCurrentCycle")
     next_cycle = cycle + 1 if wrapped else cycle
     completed_for_next = [] if wrapped else completed_after
     completed_for_next_set = set(completed_for_next)
@@ -535,14 +551,14 @@ def advance_editorial_audit_tracker(tracker: dict, completed_at: str | None = No
     )
     history = history[-HISTORY_LIMIT:]
 
-    next_page = next_batch["pages"][0]
+    next_page = next_batch["pages"][0] if next_batch["pages"] else {}
     tracker["generatedAt"] = date.today().isoformat()
     tracker["history"] = history
     tracker["cursor"] = {
         "cycle": next_cycle,
         "currentPageIndex": len(completed_for_next),
-        "nextPagePath": next_page["pagePath"],
-        "nextPageTitle": next_page["pageTitle"],
+        "nextPagePath": next_page.get("pagePath", ""),
+        "nextPageTitle": next_page.get("pageTitle", ""),
         "lastAdvancedAt": completed_at,
         "lastCompletedBatch": history[-1],
         "completedPagePathsInCurrentCycle": completed_for_next,
@@ -557,23 +573,26 @@ def advance_editorial_audit_tracker(tracker: dict, completed_at: str | None = No
         next_cycle,
         count=2,
     )
-    return tracker
+    return _apply_completion_policy(tracker)
 
 
 def render_editorial_audit_tracker_markdown(tracker: dict) -> str:
+    complete = tracker.get('summary', {}).get('pagesRemainingInCurrentCycle') == 0
     lines = [
         "# Byteseismic Editorial Audit Tracker",
         "",
         f"Generated: {tracker.get('generatedAt', date.today().isoformat())}",
         f"Batch size: {tracker.get('batchSize', DEFAULT_BATCH_SIZE)} pages",
         f"Current cycle: {tracker.get('cursor', {}).get('cycle', 1)}",
-        f"Current queue start: {tracker.get('cursor', {}).get('currentPageIndex', 0) + 1} of {tracker.get('summary', {}).get('trackedPages', 0)}",
+        "Current pass complete; no queued pages remain." if complete else f"Current queue start: {tracker.get('cursor', {}).get('currentPageIndex', 0) + 1} of {tracker.get('summary', {}).get('trackedPages', 0)}",
         "",
         "## Protocol",
         "",
         f"- Read first: `{tracker.get('protocol', {}).get('readFirst', TRACKER_JSON_NAME)}`",
         f"- Advance command: `{tracker.get('protocol', {}).get('advanceCommand', '')}`",
         f"- Advance only when: {tracker.get('protocol', {}).get('advanceCondition', '')}",
+        *(["- Stop after this original-preserving cycle. Pause the daily automation after the final verified commit and push; maintenance requires separate authorization."]
+          if tracker.get('protocol', {}).get('stopAfterCurrentCycle') else []),
         "",
         "## Ordering",
         "",
