@@ -1,0 +1,278 @@
+{
+  "retrievedAt": "2026-11-10",
+  "worldBankUrl": "https://api.worldbank.org/v2/country/WLD;USA/indicator/NY.GNP.PCAP.PP.CD?date=2022&format=json",
+  "worldBank": [
+    {
+      "page": 1,
+      "pages": 1,
+      "per_page": 50,
+      "total": 2,
+      "sourceid": "2",
+      "lastupdated": "2026-10-08"
+    },
+    [
+      {
+        "indicator": {
+          "id": "NY.GNP.PCAP.PP.CD",
+          "value": "GNI per capita, PPP (current international $)"
+        },
+        "country": {
+          "id": "US",
+          "value": "United States"
+        },
+        "countryiso3code": "USA",
+        "date": "2022",
+        "value": 78470,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      },
+      {
+        "indicator": {
+          "id": "NY.GNP.PCAP.PP.CD",
+          "value": "GNI per capita, PPP (current international $)"
+        },
+        "country": {
+          "id": "1W",
+          "value": "World"
+        },
+        "countryiso3code": "WLD",
+        "date": "2022",
+        "value": 21842.9984919325,
+        "unit": "",
+        "obs_status": "",
+        "decimal": 0
+      }
+    ]
+  ],
+  "maddisonUrl": "https://ourworldindata.org/grapher/gdp-per-capita-maddison-project-database.csv?tab=table&country=~OWID_WRL",
+  "maddisonWorld": [
+    {
+      "Entity": "World",
+      "Code": "OWID_WRL",
+      "Year": "1820",
+      "GDP per capita": "1127.73",
+      "GDP per capita (Annotations)": ""
+    },
+    {
+      "Entity": "World",
+      "Code": "OWID_WRL",
+      "Year": "1850",
+      "GDP per capita": "1300.502",
+      "GDP per capita (Annotations)": ""
+    },
+    {
+      "Entity": "World",
+      "Code": "OWID_WRL",
+      "Year": "1870",
+      "GDP per capita": "1543.2267",
+      "GDP per capita (Annotations)": ""
+    },
+    {
+      "Entity": "World",
+      "Code": "OWID_WRL",
+      "Year": "1900",
+      "GDP per capita": "2265.4688",
+      "GDP per capita (Annotations)": ""
+    },
+    {
+      "Entity": "World",
+      "Code": "OWID_WRL",
+      "Year": "1920",
+      "GDP per capita": "2493.3152",
+      "GDP per capita (Annotations)": ""
+    },
+    {
+      "Entity": "World",
+      "Code": "OWID_WRL",
+      "Year": "1940",
+      "GDP per capita": "3413.199",
+      "GDP per capita (Annotations)": ""
+    },
+    {
+      "Entity": "World",
+      "Code": "OWID_WRL",
+      "Year": "1950",
+      "GDP per capita": "3360.164",
+      "GDP per capita (Annotations)": ""
+    },
+    {
+      "Entity": "World",
+      "Code": "OWID_WRL",
+      "Year": "1960",
+      "GDP per capita": "4403.6543",
+      "GDP per capita (Annotations)": ""
+    },
+    {
+      "Entity": "World",
+      "Code": "OWID_WRL",
+      "Year": "1970",
+      "GDP per capita": "5970.6577",
+      "GDP per capita (Annotations)": ""
+    },
+    {
+      "Entity": "World",
+      "Code": "OWID_WRL",
+      "Year": "1980",
+      "GDP per capita": "7239.1943",
+      "GDP per capita (Annotations)": ""
+    },
+    {
+      "Entity": "World",
+      "Code": "OWID_WRL",
+      "Year": "1990",
+      "GDP per capita": "8210.969",
+      "GDP per capita (Annotations)": ""
+    },
+    {
+      "Entity": "World",
+      "Code": "OWID_WRL",
+      "Year": "2000",
+      "GDP per capita": "9903.86",
+      "GDP per capita (Annotations)": ""
+    },
+    {
+      "Entity": "World",
+      "Code": "OWID_WRL",
+      "Year": "2010",
+      "GDP per capita": "13121.591",
+      "GDP per capita (Annotations)": ""
+    },
+    {
+      "Entity": "World",
+      "Code": "OWID_WRL",
+      "Year": "2015",
+      "GDP per capita": "14713.451",
+      "GDP per capita (Annotations)": ""
+    },
+    {
+      "Entity": "World",
+      "Code": "OWID_WRL",
+      "Year": "2016",
+      "GDP per capita": "15029.054",
+      "GDP per capita (Annotations)": ""
+    },
+    {
+      "Entity": "World",
+      "Code": "OWID_WRL",
+      "Year": "2017",
+      "GDP per capita": "15416.331",
+      "GDP per capita (Annotations)": ""
+    },
+    {
+      "Entity": "World",
+      "Code": "OWID_WRL",
+      "Year": "2018",
+      "GDP per capita": "15814.849",
+      "GDP per capita (Annotations)": ""
+    },
+    {
+      "Entity": "World",
+      "Code": "OWID_WRL",
+      "Year": "2019",
+      "GDP per capita": "16091.449",
+      "GDP per capita (Annotations)": ""
+    },
+    {
+      "Entity": "World",
+      "Code": "OWID_WRL",
+      "Year": "2020",
+      "GDP per capita": "15461.187",
+      "GDP per capita (Annotations)": ""
+    },
+    {
+      "Entity": "World",
+      "Code": "OWID_WRL",
+      "Year": "2021",
+      "GDP per capita": "16282.981",
+      "GDP per capita (Annotations)": ""
+    },
+    {
+      "Entity": "World",
+      "Code": "OWID_WRL",
+      "Year": "2022",
+      "GDP per capita": "16676.75",
+      "GDP per capita (Annotations)": ""
+    }
+  ],
+  "limitations": [
+    "Historical GDP per capita is an explicitly labeled proxy, not personal income.",
+    "World series lacks opening-year observations for 1860,1880,1890,1910,1930; no interpolation.",
+    "No complete 2020s average.",
+    "Poverty comparison is dated 2023 edition, not latest estimate."
+  ],
+  "maddisonMetadata": {
+    "chart": {
+      "title": "GDP per capita",
+      "subtitle": "GDP per capita is a country's gross domestic product divided by its population. This data is adjusted for inflation and differences in living costs between countries.",
+      "note": "This data is expressed in international-$ at 2011 prices.",
+      "citation": "Bolt and van Zanden \u2013 Maddison Project Database 2023",
+      "originalChartUrl": "https://ourworldindata.org/grapher/gdp-per-capita-maddison-project-database",
+      "selection": [
+        "World",
+        "Western Europe (Maddison)",
+        "Eastern Europe (Maddison)",
+        "Latin America (Maddison)",
+        "East Asia (Maddison)",
+        "Western offshoots (Maddison)",
+        "Sub Saharan Africa (Maddison)",
+        "South and South East Asia (Maddison)",
+        "Middle East and North Africa (Maddison)"
+      ]
+    },
+    "columns": {
+      "GDP per capita": {
+        "titleShort": "GDP per capita",
+        "titleLong": "GDP per capita - Maddison Project Database \u2013 Long-run data in constant international-$",
+        "descriptionShort": "Average economic output per person in a country or region per year. This data is adjusted for inflation and differences in living costs between countries.",
+        "descriptionKey": "- GDP per capita is a comprehensive measure of people's average income. It helps compare income levels across countries and track how they change over time. It is especially useful for understanding trends in economic growth and living standards.\n- GDP per capita is calculated as the value of all final goods and services produced each year in a country (the gross domestic product), divided by the population. It represents the average economic output per person.\n- This indicator shows the large inequality between people in different countries. In the poorest countries, average incomes are below $1,000 per year; in rich countries, they are more than 50 times higher.\n- This data comes from the [Maddison Project Database](https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-project-database-2023), which provides GDP per capita estimates for the _very long run_. Some country series extend as far back as 1 CE, and regional estimates start in 1820.\n- This work builds on the efforts of many researchers who have carefully reconstructed historical data on economic growth and population for individual countries. You can find the full list of sources in [the original dataset](https://dataverse.nl/api/access/datafile/421302).\n- This data is expressed in constant international dollars at 2011 prices to adjust for inflation and differences in living costs between countries. Read more in our article, [What are international dollars?](https://ourworldindata.org/international-dollars)\n- This dataset combines multiple purchasing power parity (PPP) benchmarks to ensure historical consistency and comparability over time. 1990 PPPs are used up to 1990, and 2011 PPPs are used from 2011 onward. For the years in between, they adjust the series to smoothly connect the two benchmarks. This approach preserves consistency with the original long-run estimates calculated by Angus Maddison.\n- Time series for former countries and territories are calculated forward by estimating values based on their last official borders.\n- For more frequently updated estimates since 1990, explore our chart of GDP per capita from the [World Bank](https://ourworldindata.org/grapher/gdp-per-capita-worldbank).",
+        "shortUnit": "$",
+        "unit": "international-$ in 2011 prices",
+        "timespan": "1-2022",
+        "type": "Numeric",
+        "owidVariableId": 900793,
+        "shortName": "gdp_per_capita",
+        "lastUpdated": "2024-04-26",
+        "nextUpdate": "2027-04-22",
+        "citationShort": "Bolt and van Zanden \u2013 Maddison Project Database 2023 \u2013 with minor processing by Our World in Data",
+        "citationLong": "Bolt and van Zanden \u2013 Maddison Project Database 2023 \u2013 with minor processing by Our World in Data. \u201cGDP per capita \u2013 Maddison Project Database \u2013 Long-run data in constant international-$\u201d [dataset]. Bolt and van Zanden, \u201cMaddison Project Database 2023\u201d [original data].",
+        "fullMetadata": "https://api.ourworldindata.org/v1/indicators/900793.metadata.json"
+      },
+      "900793-annotations": {
+        "titleShort": "900793-annotations",
+        "titleLong": "900793-annotations",
+        "type": "SeriesAnnotation",
+        "citationShort": " \u2013 processed by Our World in Data",
+        "citationLong": " \u2013 processed by Our World in Data. \u201c900793-annotations\u201d [dataset].",
+        "fullMetadata": "https://api.ourworldindata.org/v1/indicators/undefined.metadata.json"
+      }
+    },
+    "dateDownloaded": "2026-11-10"
+  },
+  "checkedReferences": [
+    {
+      "url": "https://blogs.worldbank.org/en/opendata/progress-challenges-ending-extreme-poverty",
+      "scope": "Dated 2023 38% to 8.5% comparison; not latest edition."
+    },
+    {
+      "url": "https://www.worldbank.org/en/news/factsheet/2025/06/05/june-2025-update-to-global-poverty-lines",
+      "scope": "Threshold and PPP update."
+    },
+    {
+      "url": "https://www.nasa.gov/aeronautics/commercial-flight-opens-unlimited-opportunities/",
+      "scope": "Scheduled passenger flight in 1914."
+    },
+    {
+      "url": "https://www.loc.gov/lcm/pdf/LCM_2019_1112.pdf",
+      "scope": "Indexed passage on 1886 dishwasher patent; not entire magazine."
+    },
+    {
+      "url": "https://invention.si.edu/invention-stories/inventing-home-sparklab",
+      "scope": "Indexed passage on 1908 electric vacuum cleaner."
+    },
+    {
+      "url": "https://www.energy.gov/articles/history-air-conditioning",
+      "scope": "Historical timeline; climate control predates 1924."
+    }
+  ]
+}

@@ -2,8 +2,8 @@
   "cycle": 8,
   "startIndex": 150,
   "pageCount": 50,
-  "reviewed": 3,
-  "pending": 47,
+  "reviewed": 4,
+  "pending": 46,
   "pages": [
     {
       "pagePath": "/ethics/what-are-ethics/",
@@ -48,14 +48,16 @@
     {
       "pagePath": "/economics/economic-comparisons/",
       "title": "Economic Comparisons",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 3807,
           "title": "Economic Comparisons",
           "url": "http://byteseismic.com/2024/03/15/economic-comparisons/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/economic-comparisons-verification-2026-11-10.json",
+      "report": "quality/editorial-audit-2026-11-10.json"
     },
     {
       "pagePath": "/epistemology/preponderance-of-evidence/",
@@ -610,6 +612,6 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-08",
-  "updatedAt": "2026-11-09"
+  "lastUpdated": "2026-11-10",
+  "updatedAt": "2026-11-10"
 }

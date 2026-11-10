@@ -1,0 +1,127 @@
+{
+  "date": "2026-11-10",
+  "runTime": "2026-11-10T14:17:52.375646+00:00",
+  "status": "partial-batch",
+  "modelConfiguration": "Saved automation gpt-6-astra/high; runtime identity not independently verified; no delegation or configuration change.",
+  "cycle": 8,
+  "cursor": 150,
+  "pagesReviewedThisRun": 1,
+  "currentBatchReviewed": 4,
+  "currentBatchPending": 46,
+  "officialCompleted": 150,
+  "officialRemaining": 196,
+  "substantivelyReviewed": 154,
+  "notYetReviewed": 192,
+  "nextPage": "/epistemology/preponderance-of-evidence/",
+  "currentBatchLastPage": "/introduction/womens-interest-in-philosophy/",
+  "trackerAdvanced": false,
+  "pages": [
+    {
+      "pagePath": "/economics/economic-comparisons/",
+      "sourceSha256": "38975bad9af65fc3f60737c919b5ec02ad5d5619fe7c0d73dc6b234148e30faa",
+      "originalPrompts": 8,
+      "originalHeadings": 8,
+      "sourceColumns": 16,
+      "modelResponses": 16,
+      "blocksRetainedVerbatim": 51,
+      "tableCellsExplicitlyRevised": 46,
+      "blocksExplicitlyRevised": 118,
+      "bareAnswersExplicitlyRevised": 0,
+      "promptOrderExact": true,
+      "sourceBlockOrderExact": true,
+      "listAndTableStructuresPreserved": false,
+      "explicitListItemSplits": [],
+      "explicitResponseAppendices": [
+        "2.1"
+      ],
+      "formatChecks": {
+        "original tables": [
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "amenity lists": [
+          10,
+          10
+        ],
+        "discussion lists": [
+          15,
+          15
+        ]
+      },
+      "sha256": "2ed28f8400c84e68fcb2e4ee864646139707028eaa43c613cbe32de3742659d5",
+      "runTime": "2026-11-10T14:14:02.716741+00:00",
+      "sourceCacheExact": true,
+      "titleMatched": true,
+      "urlMatched": true,
+      "sourceUrl": "http://byteseismic.com/2024/03/15/economic-comparisons/",
+      "wordpressId": 3807,
+      "rendererReproduces": true,
+      "independentResponseOrder": true,
+      "quizzes": [
+        10,
+        10
+      ],
+      "answerKeys": [
+        10,
+        10
+      ],
+      "damagedVariantsRejected": [
+        "prompt",
+        "response",
+        "table",
+        "quiz",
+        "discussion"
+      ],
+      "originalTablesAndListsPreserved": true,
+      "structuralException": "One clearly dated 2020 continuation paragraph follows original first historical table response; source tables and lists retain dimensions/order.",
+      "curatorExchanges": "Eight exact prompts; no additional curator correction or dialogue turns.",
+      "limitations": [
+        "Historical GDP per capita is an explicitly labeled proxy, not personal income.",
+        "World series lacks opening-year observations for 1860,1880,1890,1910,1930; no interpolation.",
+        "No complete 2020s average.",
+        "Poverty comparison is dated 2023 edition, not latest estimate.",
+        "No visual browser or accessibility review."
+      ]
+    }
+  ],
+  "changes": [
+    "Restored all eight prompts and sixteen model-response positions, including omitted statistics, quiz and discussion sections.",
+    "Replaced incompatible income comparisons with same-year GNI per resident adjusted for purchasing power; saved exact World Bank response.",
+    "Replaced unsupported historical numbers with an attributed GDP proxy and explicit missing observations; preserved all four original table dimensions.",
+    "Corrected amenities already available in 1924; distinguished invention, improvement and wider affordability.",
+    "Explained price divided by hourly wage and corrected inference from annual hours and household earnings.",
+    "Dated poverty percentages consistently; explained updated thresholds and corrected causal inferences in economic statistics.",
+    "Repaired both ten-question quizzes and answer keys; retained 26 of 30 discussion questions verbatim."
+  ],
+  "verification": "Exact source/title/URL, eight verbatim prompts, sixteen response positions, table/list dimensions, two ten-question quizzes and keys, two fifteen-question discussions, renderer reproduction and five damaged variants passed. Final isolated build generated 723 pages, audited 840 and passed 39 recovered/17 high-risk dialogue checks. All 154 reviewed pages byte-identical; prior 153 preservation-only. One previously accepted original-prompt grammar flag; no browser/mobile/accessibility inspection.",
+  "buildVerification": "quality/original-source-revisions/batch-verification-2026-11-10.json",
+  "commitStatus": "Prepared; exact commit/push outcome recorded in automation memory.",
+  "limitations": [
+    "Historical GDP per capita is an explicitly labeled proxy, not personal income.",
+    "World series lacks opening-year observations for 1860,1880,1890,1910,1930; no interpolation.",
+    "No complete 2020s average.",
+    "Poverty comparison is dated 2023 edition, not latest estimate.",
+    "No visual browser or accessibility review."
+  ],
+  "followingBatch": {
+    "startIndex": 200,
+    "pageCount": 50,
+    "firstPage": "/metaphysics/categories-of-nihilism/",
+    "lastPage": "/philosophy-of-ai/philosophy-of-ai-core-concepts/"
+  },
+  "unrelatedModifiedFilesHashPreserved": 476
+}
