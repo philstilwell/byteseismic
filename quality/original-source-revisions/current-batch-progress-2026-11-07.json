@@ -2,8 +2,8 @@
   "cycle": 8,
   "startIndex": 150,
   "pageCount": 50,
-  "reviewed": 4,
-  "pending": 46,
+  "reviewed": 5,
+  "pending": 45,
   "pages": [
     {
       "pagePath": "/ethics/what-are-ethics/",
@@ -62,14 +62,16 @@
     {
       "pagePath": "/epistemology/preponderance-of-evidence/",
       "title": "Preponderance of Evidence?",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 7832,
           "title": "Preponderance of Evidence?",
           "url": "http://byteseismic.com/2024/05/02/preponderance-of-evidence/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/preponderance-of-evidence-verification-2026-11-11.json",
+      "report": "quality/editorial-audit-2026-11-11.json"
     },
     {
       "pagePath": "/philosophy-of-language/what-is-language/",
@@ -612,6 +614,6 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-10",
-  "updatedAt": "2026-11-10"
+  "lastUpdated": "2026-11-11",
+  "updatedAt": "2026-11-11"
 }

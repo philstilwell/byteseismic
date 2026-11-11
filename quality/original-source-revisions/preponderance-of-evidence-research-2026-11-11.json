@@ -1,0 +1,23 @@
+{
+  "runTime": "2026-11-11T14:06:46.411250+00:00",
+  "sources": [
+    {
+      "url": "https://plato.stanford.edu/entries/epistemology-bayesian/",
+      "consulted": "Opening discussion and tutorial paragraphs on conditionalization and large revisions; not an exhaustive literature review.",
+      "supports": "Credence as degree of confidence; updates can be large; relationship to acceptance remains a further question."
+    },
+    {
+      "url": "https://www3.ce9.uscourts.gov/jury-instructions/node/47",
+      "consulted": "Indexed official model instruction 1.6; direct page returned HTTP502.",
+      "supports": "Preponderance concerns the claim being more probably true than false; limited illustrative use, not legal advice."
+    }
+  ],
+  "sourceIdentity": {
+    "wordpressId": 7832,
+    "URL": "http://byteseismic.com/2024/05/02/preponderance-of-evidence/",
+    "title": "Preponderance of Evidence?",
+    "sha256": "31312610955ef415ce069521d8ef732ca8a912885cccb7709fcb21b6596f695c",
+    "modelAttribution": "Original header image filenames ai-logos-chatgpt.png and ai-logos-claude2.png in left/right order.",
+    "quote": "Koukl quotation and June28,2023 attribution retained exactly as recorded; podcast not independently authenticated."
+  }
+}

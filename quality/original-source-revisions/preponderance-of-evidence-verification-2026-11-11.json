@@ -1,0 +1,56 @@
+{
+  "pagePath": "/epistemology/preponderance-of-evidence/",
+  "sourceSha256": "31312610955ef415ce069521d8ef732ca8a912885cccb7709fcb21b6596f695c",
+  "originalPrompts": 7,
+  "originalHeadings": 7,
+  "sourceColumns": 14,
+  "modelResponses": 14,
+  "blocksRetainedVerbatim": 110,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 96,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "quizzes and final answer keys": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "discussion questions": [
+      15,
+      15
+    ]
+  },
+  "sha256": "a08188b3957b59e50f32f814d07568914e03357d03e9e9108a966f9d467b27e7",
+  "runTime": "2026-11-11T14:03:01.448011+00:00",
+  "sourceCacheExact": true,
+  "titleMatched": true,
+  "urlMatched": true,
+  "sourceUrl": "http://byteseismic.com/2024/05/02/preponderance-of-evidence/",
+  "wordpressId": 7832,
+  "independentResponseOrder": true,
+  "dialogueTurns": [
+    22,
+    19
+  ],
+  "speakerOrderPreserved": true,
+  "discussionQuestionsVerbatim": 30,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    ".original-prompt-text",
+    "[data-source-preamble] p",
+    "[data-source-node=\"3.2.19\"]",
+    "[data-source-node=\"6.2.21\"]",
+    "[data-source-node=\"7.1.15\"]"
+  ],
+  "limitations": [
+    "Podcast quotation and attribution preserved from WordPress, not independently authenticated.",
+    "Ninth Circuit instruction search text verified; direct open returned HTTP502.",
+    "No browser/mobile/accessibility inspection."
+  ]
+}
