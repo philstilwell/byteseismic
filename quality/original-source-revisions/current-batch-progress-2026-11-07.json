@@ -2,8 +2,8 @@
   "cycle": 8,
   "startIndex": 150,
   "pageCount": 50,
-  "reviewed": 5,
-  "pending": 45,
+  "reviewed": 6,
+  "pending": 44,
   "pages": [
     {
       "pagePath": "/ethics/what-are-ethics/",
@@ -76,14 +76,16 @@
     {
       "pagePath": "/philosophy-of-language/what-is-language/",
       "title": "What is Language?",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 1752,
           "title": "What is Language?",
           "url": "http://byteseismic.com/2024/03/01/what-is-language/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/what-is-language-verification-2026-11-12.json",
+      "report": "quality/editorial-audit-2026-11-12.json"
     },
     {
       "pagePath": "/miscellany/domains-of-aesthetics/",
@@ -614,6 +616,6 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-11",
-  "updatedAt": "2026-11-11"
+  "lastUpdated": "2026-11-12",
+  "updatedAt": "2026-11-12"
 }

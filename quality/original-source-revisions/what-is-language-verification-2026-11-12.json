@@ -1,0 +1,68 @@
+{
+  "pagePath": "/philosophy-of-language/what-is-language/",
+  "sourceSha256": "a96eb2a84e1d2a09d8ab2fef7c9a600ebf4ca66849db4f7506d220c4756f4ded",
+  "originalPrompts": 7,
+  "originalHeadings": 7,
+  "sourceColumns": 14,
+  "modelResponses": 14,
+  "blocksRetainedVerbatim": 133,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 58,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "ten insights": [
+      10,
+      10
+    ],
+    "quizzes and answer keys": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      8,
+      8,
+      8
+    ],
+    "discussion questions": [
+      15,
+      15
+    ]
+  },
+  "sha256": "a543d0a67086dce16deab29e3d2d40825fa9b7939736529ccf660e4ac9cd8f87",
+  "sourceCacheExact": true,
+  "titleMatched": true,
+  "urlMatched": true,
+  "sourceUrl": "http://byteseismic.com/2024/03/01/what-is-language/",
+  "wordpressId": 1752,
+  "discussionQuestionsVerbatim": 30,
+  "rendererReproduces": true,
+  "quizQuestionCounts": [
+    8,
+    8
+  ],
+  "quizAnswerCounts": [
+    8,
+    8
+  ],
+  "runTime": "2026-11-12T14:09:53.227929+00:00",
+  "limitations": [
+    "No browser/mobile/accessibility inspection.",
+    "Historical and NLP research bounded to cited institutional accounts, primary documents and indexed paper passages.",
+    "Prompt grammar retained verbatim."
+  ],
+  "damagedVariantsRejected": [
+    ".original-prompt-text",
+    "[data-source-node=\"3.1.2\"]",
+    "[data-source-node=\"6.2.13\"]",
+    "[data-source-node=\"7.2.15\"]"
+  ]
+}
