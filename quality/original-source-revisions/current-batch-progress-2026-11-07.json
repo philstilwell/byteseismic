@@ -2,8 +2,8 @@
   "cycle": 8,
   "startIndex": 150,
   "pageCount": 50,
-  "reviewed": 6,
-  "pending": 44,
+  "reviewed": 7,
+  "pending": 43,
   "pages": [
     {
       "pagePath": "/ethics/what-are-ethics/",
@@ -90,14 +90,16 @@
     {
       "pagePath": "/miscellany/domains-of-aesthetics/",
       "title": "Domains of Aesthetics",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 6743,
           "title": "Domains of Aesthetics",
           "url": "http://byteseismic.com/2024/04/20/domains-of-aesthetics/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/domains-of-aesthetics-verification-2026-11-13.json",
+      "report": "quality/editorial-audit-2026-11-13.json"
     },
     {
       "pagePath": "/philosophical-inquiry/conspiracies-misunderstanding-human-nature/",
@@ -616,6 +618,6 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-12",
-  "updatedAt": "2026-11-12"
+  "lastUpdated": "2026-11-13",
+  "updatedAt": "2026-11-13"
 }

@@ -1,0 +1,108 @@
+{
+  "date": "2026-11-13",
+  "runTime": "2026-11-13T14:10:55.735234+00:00",
+  "status": "partial-batch",
+  "pagesReviewed": [
+    {
+      "title": "Domains of Aesthetics",
+      "pagePath": "/miscellany/domains-of-aesthetics/",
+      "source": {
+        "wordpressId": 6743,
+        "url": "http://byteseismic.com/2024/04/20/domains-of-aesthetics/",
+        "snapshot": "domains-of-aesthetics-wordpress-6743.html",
+        "sha256": "d10e8ee3bded3369826b33eec1aecc7b698be2fcb56937597d7f095b91f0f093"
+      },
+      "responseDecisions": {
+        "1.1": "Retained seven domains and nested examples; clarified overlap and distinction between empirical response and evaluative judgment with a building example.",
+        "1.2": "Retained nine domains; qualified broad cultural grouping and added everyday aesthetics needed by quiz; replaced novelty/progress rhetoric.",
+        "2.1": "Retained six domains of contribution and sublists; separated art from inquiry, arguments from demonstrated effects, economic activity from net benefit, beauty from sustainability; linked bounded health research.",
+        "2.2": "Retained five arguments; made community inclusion and critical judgment concrete; qualified automatic empathy/progress.",
+        "3.1": "Retained six drivers; answered intrinsic-evolution qualification, corrected Dada chronology, removed unsupported economic-style law and ethical progress claim.",
+        "3.2": "Retained four drivers and three examples; distinguished revision from improvement and natural appearance from environmental performance.",
+        "4.1": "Retained eight pursuits, duration/frequency/purpose organization and five general tips; framed times as optional menu, corrected music minimum/math transfer and added feasible 150-minute example.",
+        "4.2": "Retained five principles and three scheduling examples; removed hierarchy of making over attentive reception; clarified sessions are alternatives, not health quotas.",
+        "5.1": "Retained ten questions and end key; repaired disciplines/questions mismatch and dependent benefit/time claims.",
+        "5.2": "Retained ten questions and end key; everyday-aesthetics item now supported by response1.2; removed recency claim and qualified well-being answer.",
+        "6.1": "Retained fifteen question positions; revised two presuppositions about democratization and therapeutic evidence; other thirteen retained as relevant open inquiries.",
+        "6.2": "All fifteen retained verbatim: they test universality, cultural taste, art status, technology, sustainability and limits of aesthetic priorities without requiring a single stance."
+      },
+      "verification": {
+        "pagePath": "/miscellany/domains-of-aesthetics/",
+        "sourceSha256": "d10e8ee3bded3369826b33eec1aecc7b698be2fcb56937597d7f095b91f0f093",
+        "originalPrompts": 6,
+        "originalHeadings": 6,
+        "sourceColumns": 12,
+        "modelResponses": 12,
+        "blocksRetainedVerbatim": 183,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 50,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "quiz questions and keys": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "discussion questions": [
+            15,
+            15
+          ]
+        },
+        "sha256": "792ea37c666d6a57c740190f3233229a90d8691a36f5f64206bc14c45ae1aafb",
+        "sourceCacheExact": true,
+        "titleMatched": true,
+        "urlMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          ".original-prompt-text",
+          "[data-source-node=\"2.1.3\"]",
+          "#prompt-5 .original-response > ol > li",
+          "#prompt-6 .original-response > ol > li"
+        ],
+        "discussionQuestionsVerbatim": 28,
+        "sourceAttribution": "ChatGPT/Gemini logos in original header; exact WordPress6743 snapshot",
+        "limitations": [
+          "No browser/mobile/accessibility inspection.",
+          "WHO publication metadata and indexed scope only; no efficacy estimates inferred.",
+          "No separate curator corrections/dialogues/tables in source."
+        ],
+        "runTime": "2026-11-13T14:10:23.076452+00:00"
+      },
+      "researchSources": [
+        {
+          "url": "https://www.moma.org/momaorg/shared/flattened_pages/moma_learning/themes/dada/",
+          "use": "Dada active from 1916 during WWI; opened institutional account."
+        },
+        {
+          "url": "https://www.who.int/publications/i/item/what-is-the-evidence-on-the-role-of-the-arts-in-improving-health-and-well-being-a-scoping-review",
+          "use": "Publication metadata and indexed scope only; no quantified efficacy or time threshold inferred."
+        }
+      ]
+    }
+  ],
+  "currentBatch": {
+    "reviewed": 7,
+    "pending": 43,
+    "startIndex": 150,
+    "endIndexExclusive": 200
+  },
+  "cycle8": {
+    "officialCompleted": 150,
+    "officialRemaining": 196,
+    "substantivelyReviewed": 157,
+    "awaitingReview": 189
+  },
+  "nextPage": "Conspiracies & Misunderstanding Human Nature",
+  "followingBatch": "Indexes200–249: Categories of Nihilism through Philosophy of AI—Core Concepts",
+  "trackerAdvanced": false,
+  "publication": "Prepared for commit/push; final result in automation memory",
+  "model": "Saved automation specifies gpt-6-astra/high; runtime identity not independently verified; no delegation or configuration change.",
+  "buildVerification": "quality/original-source-revisions/batch-verification-2026-11-13.json",
+  "buildPassed": true
+}
