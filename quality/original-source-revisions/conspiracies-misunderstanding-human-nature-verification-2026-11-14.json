@@ -1,0 +1,46 @@
+{
+  "pagePath": "/philosophical-inquiry/conspiracies-misunderstanding-human-nature/",
+  "sourceSha256": "7a707c172be41c0a1c4a2bff2632fa452d801c9dba32c7b8c77f26ca04aaff59",
+  "originalPrompts": 6,
+  "originalHeadings": 6,
+  "sourceColumns": 6,
+  "modelResponses": 6,
+  "blocksRetainedVerbatim": 119,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 76,
+  "bareAnswersExplicitlyRevised": 8,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "quiz answers": [
+      12
+    ],
+    "discussion questions": [
+      15
+    ]
+  },
+  "sha256": "913dc3315422f059dc2bdb5e47723b21a7ed5478676bad427b08c5b2b6f67cb5",
+  "sourceCacheExact": true,
+  "titleMatched": true,
+  "urlMatched": true,
+  "rendererReproduces": true,
+  "dialogueTurns": 22,
+  "samTurnsVerbatim": 11,
+  "discussionQuestionsVerbatim": 9,
+  "damagedVariantsRejected": [
+    ".original-prompt-text",
+    "[data-source-node=\"3.1.55\"]",
+    "#prompt-4 [data-source-node=\"4.1.23\"]",
+    "#prompt-5 details",
+    "#prompt-6 li"
+  ],
+  "limitations": [
+    "No browser/mobile/accessibility inspection.",
+    "Research bounded to three primary papers; no estimate of an original-sin causal effect is established.",
+    "Prior reviewed pages receive build-preservation checks only."
+  ],
+  "runTime": "2026-11-14T14:09:19.681224+00:00"
+}

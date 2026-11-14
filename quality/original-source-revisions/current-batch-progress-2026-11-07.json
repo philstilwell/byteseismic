@@ -2,8 +2,8 @@
   "cycle": 8,
   "startIndex": 150,
   "pageCount": 50,
-  "reviewed": 7,
-  "pending": 43,
+  "reviewed": 8,
+  "pending": 42,
   "pages": [
     {
       "pagePath": "/ethics/what-are-ethics/",
@@ -104,14 +104,16 @@
     {
       "pagePath": "/philosophical-inquiry/conspiracies-misunderstanding-human-nature/",
       "title": "Conspiracies & Misunderstanding Human Nature",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 14492,
           "title": "Conspiracies &amp; Misunderstanding Human Nature",
           "url": "http://byteseismic.com/2024/10/31/conspiracies-misunderstanding-human-nature/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/conspiracies-misunderstanding-human-nature-verification-2026-11-14.json",
+      "report": "quality/editorial-audit-2026-11-14.json"
     },
     {
       "pagePath": "/philosophy-of-mind/functionalism-subjectivity/",
@@ -618,6 +620,6 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-13",
-  "updatedAt": "2026-11-13"
+  "lastUpdated": "2026-11-14",
+  "updatedAt": "2026-11-14"
 }
