@@ -1,0 +1,57 @@
+{
+  "pagePath": "/philosophy-of-mind/functionalism-subjectivity/",
+  "sourceSha256": "7a13c73bd427e98d2e437917ec0f34dd468c120f9edd566f1b50bf2c8c44e876",
+  "originalPrompts": 6,
+  "originalHeadings": 6,
+  "sourceColumns": 18,
+  "modelResponses": 18,
+  "blocksRetainedVerbatim": 224,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 68,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "quiz questions and keys": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "discussion questions": [
+      15,
+      15,
+      15
+    ]
+  },
+  "sha256": "943946040dd1449250fd60cddc4c233348d04fc5d3270ada2a97e41beae6a8e3",
+  "sourceCacheExact": true,
+  "titleMatched": true,
+  "urlMatched": true,
+  "rendererReproduces": true,
+  "dialogueTurns": {
+    "3.3": 11,
+    "4.1": 17,
+    "4.2": 17,
+    "4.3": 24
+  },
+  "discussionQuestionsRetainedVerbatim": 45,
+  "damagedVariantsRejected": [
+    ".original-prompt-text",
+    "#prompt-3 [data-source-node=\"3.3.1\"]",
+    "#prompt-4 [data-source-node=\"4.2.18\"]",
+    "#prompt-5 ol li",
+    "#prompt-6 ol li"
+  ],
+  "runTime": "2026-11-15T14:01:43.297833+00:00",
+  "limitations": [
+    "No browser/mobile/accessibility inspection.",
+    "Research bounded to two primary theory papers; no current AI consciousness or near-death causal finding asserted.",
+    "Prior reviewed pages receive build-preservation checks only."
+  ]
+}

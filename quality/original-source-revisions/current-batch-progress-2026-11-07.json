@@ -2,8 +2,8 @@
   "cycle": 8,
   "startIndex": 150,
   "pageCount": 50,
-  "reviewed": 8,
-  "pending": 42,
+  "reviewed": 9,
+  "pending": 41,
   "pages": [
     {
       "pagePath": "/ethics/what-are-ethics/",
@@ -118,14 +118,16 @@
     {
       "pagePath": "/philosophy-of-mind/functionalism-subjectivity/",
       "title": "Functionalism & Subjectivity",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 8183,
           "title": "Functionalism &amp; Subjectivity",
           "url": "http://byteseismic.com/2024/05/07/functionalism-subjectivity/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/functionalism-subjectivity-verification-2026-11-15.json",
+      "report": "quality/editorial-audit-2026-11-15.json"
     },
     {
       "pagePath": "/philosophy-of-mind/subjective-objective-free-will/",
@@ -620,6 +622,6 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-14",
-  "updatedAt": "2026-11-14"
+  "lastUpdated": "2026-11-15",
+  "updatedAt": "2026-11-15"
 }

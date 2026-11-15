@@ -1,0 +1,124 @@
+{
+  "date": "2026-11-15",
+  "runTime": "2026-11-15T14:05:55.284927+00:00",
+  "status": "partial-batch",
+  "pagesReviewed": [
+    {
+      "title": "Functionalism & Subjectivity",
+      "pagePath": "/philosophy-of-mind/functionalism-subjectivity/",
+      "source": {
+        "wordpressId": 8183,
+        "sourceUrl": "http://byteseismic.com/2024/05/07/functionalism-subjectivity/",
+        "snapshot": "functionalism-subjectivity-wordpress-8183.html",
+        "sourceSha256": "7a13c73bd427e98d2e437917ec0f34dd468c120f9edd566f1b50bf2c8c44e876"
+      },
+      "responseDecisions": {
+        "1.1": "Retained five-part exposition; qualified physicalist application and necessity; made internal causal equivalence concrete.",
+        "1.2": "Retained input/process/output and thermostat lists; corrected thermostat mental-state attribution and necessary/sufficient confusion; added rain-belief relations.",
+        "1.3": "Retained role, multiple realizability, machine-consciousness and objections progression; clarified Chinese Room target and systems reply.",
+        "2.1": "Retained four strategies; separated multiple realizability from explanation of feeling, future hopes from evidence and hard problem from impossibility claim.",
+        "2.2": "Retained five-point progression and ant analogy; explained limits of introspection and analogy and access/feeling distinction.",
+        "2.3": "Retained five strategies; distinguished substrate neutrality, access consciousness and phenomenal character; preserved radical option without generalizing it.",
+        "3.1": "Retained five concepts; separated correlation from cause, IIT from computational functionalism and weak/strong emergence; clarified identity proposal with pain example.",
+        "3.2": "Retained lemon, orchestra and kaleidoscope examples and progression; corrected quale singular; removed circular use of listener and complexity-as-proof.",
+        "3.3": "Kept all eleven original dialogue turns in place; retained all five dualist turns verbatim; made functionalist identity hypothesis and explanatory obligations explicit.",
+        "4.1": "Kept all seventeen turns; clarified AI pain criterion, illustrative C-fiber claim and limits of prediction; eight dualist turns retained verbatim.",
+        "4.2": "Kept setting and seventeen turns; corrected misleading introspection/thermostat analogy and speculative independence inferred from near-death reports; clarified final dualist turn instead of inventing missing source continuation.",
+        "4.3": "Kept all twenty-four turns and twelve dualist turns verbatim; strengthened functionalist answers on access, unity, inversion, intrinsic nature and unresolved disagreement.",
+        "5.1": "Ten questions/end answers preserved; revised four dependent answers on AI, IIT, emergence and introspection.",
+        "5.2": "Ten questions/end answers preserved; repaired wrong ant attribution, complexity premise and all answer letters referring to nonexistent multiple-choice options.",
+        "5.3": "Ten questions/end answers preserved; qualified access, explanatory gap and absent/inverted qualia answers.",
+        "6.1": "All fifteen retained verbatim: open questions test evidence, ethics, alternatives and falsifiability.",
+        "6.2": "All fifteen retained verbatim: the prompts invite criticism of analogies, completeness and evolutionary explanations, without requiring acceptance of them.",
+        "6.3": "All fifteen retained verbatim: comparisons, counterarguments and implications remain relevant to the revised conversation."
+      },
+      "verification": {
+        "pagePath": "/philosophy-of-mind/functionalism-subjectivity/",
+        "sourceSha256": "7a13c73bd427e98d2e437917ec0f34dd468c120f9edd566f1b50bf2c8c44e876",
+        "originalPrompts": 6,
+        "originalHeadings": 6,
+        "sourceColumns": 18,
+        "modelResponses": 18,
+        "blocksRetainedVerbatim": 224,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 68,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "quiz questions and keys": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ],
+          "discussion questions": [
+            15,
+            15,
+            15
+          ]
+        },
+        "sha256": "943946040dd1449250fd60cddc4c233348d04fc5d3270ada2a97e41beae6a8e3",
+        "sourceCacheExact": true,
+        "titleMatched": true,
+        "urlMatched": true,
+        "rendererReproduces": true,
+        "dialogueTurns": {
+          "3.3": 11,
+          "4.1": 17,
+          "4.2": 17,
+          "4.3": 24
+        },
+        "discussionQuestionsRetainedVerbatim": 45,
+        "damagedVariantsRejected": [
+          ".original-prompt-text",
+          "#prompt-3 [data-source-node=\"3.3.1\"]",
+          "#prompt-4 [data-source-node=\"4.2.18\"]",
+          "#prompt-5 ol li",
+          "#prompt-6 ol li"
+        ],
+        "runTime": "2026-11-15T14:01:43.297833+00:00",
+        "limitations": [
+          "No browser/mobile/accessibility inspection.",
+          "Research bounded to two primary theory papers; no current AI consciousness or near-death causal finding asserted.",
+          "Prior reviewed pages receive build-preservation checks only."
+        ]
+      },
+      "researchSources": [
+        {
+          "url": "https://consc.net/papers/qualia.html",
+          "use": "Author primary paper: organizational invariance and distinctions between natural and metaphysical necessity."
+        },
+        {
+          "url": "https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011465",
+          "use": "IIT 4.0 primary paper: intrinsic causal structure versus input/output equivalence."
+        }
+      ]
+    }
+  ],
+  "currentBatch": {
+    "reviewed": 9,
+    "pending": 41,
+    "startIndex": 150,
+    "endIndexExclusive": 200
+  },
+  "cycle8": {
+    "officialCompleted": 150,
+    "officialRemaining": 196,
+    "substantivelyReviewed": 159,
+    "awaitingReview": 187
+  },
+  "nextPage": "Subjective/Objective Free Will",
+  "followingBatch": "Indexes 200–249: Categories of Nihilism through Philosophy of AI—Core Concepts",
+  "trackerAdvanced": false,
+  "publication": "Prepared for commit/push; final outcome in automation memory",
+  "model": "Saved automation specifies gpt-6-astra/high; runtime identity not independently verified; no delegation or configuration change.",
+  "buildVerification": "quality/original-source-revisions/batch-verification-2026-11-15.json",
+  "buildPassed": true,
+  "buildSummary": "723 generated pages; 840 audited; all159 reviewed pages byte-identical; 39 recovered/17 high-risk checks passed. See build log for existing notices."
+}
