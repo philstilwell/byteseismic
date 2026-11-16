@@ -1,0 +1,145 @@
+{
+  "date": "2026-11-16",
+  "runTime": "2026-11-16T14:00:24.282828+00:00",
+  "pagePath": "/philosophy-of-mind/subjective-objective-free-will/",
+  "title": "Subjective/Objective Free Will",
+  "source": {
+    "wordpressId": 7546,
+    "url": "http://byteseismic.com/2024/04/30/subjective-objective-free-will/",
+    "snapshot": "quality/original-source-revisions/subjective-objective-free-will-wordpress-7546.html",
+    "sha256": "537021630155a0e2f5ef4fa684fa20991af890cc15e5eb090f4667176483c751",
+    "titleUrlPromptsMatched": true,
+    "attribution": "ChatGPT and Claude identified by original header logos"
+  },
+  "responseDecisions": [
+    {
+      "response": "1.1",
+      "decision": "Revised all four paragraphs to distinguish real decision, felt agency and unsupported independence; used the curator’s offense/hope analogy and retained the request to avoid compatibilism."
+    },
+    {
+      "response": "1.2",
+      "decision": "Revised four of five paragraphs; retained the effective emotion analogy. Removed blanket incoherence and illusion claims; explained the causal role of the inner loop."
+    },
+    {
+      "response": "2.1",
+      "decision": "Revised three paragraphs with a train-fare example and distinction between experienced choice and real selection; avoided treating agency language as merely a concession."
+    },
+    {
+      "response": "2.2",
+      "decision": "Retained initial agreement and clarification; revised three paragraphs to include internal reasons among causes, repair spelling and leave accountability open."
+    },
+    {
+      "response": "3.1",
+      "decision": "Revised introduction, six field entries and conclusion; separated useful causal research from required universal determinism, fatalism, predictability and ethical justification."
+    },
+    {
+      "response": "3.2",
+      "decision": "Retained qualified criminal-justice entry; revised other seven blocks to reject claims that science and AI require determinism, preserving all six fields in order."
+    },
+    {
+      "response": "4.1",
+      "decision": "Preserved all nineteen speaker turns; revised eight to distinguish deterrence, restraint and ethical justification, qualify effectiveness using NIJ, and preserve the punishment disagreement."
+    },
+    {
+      "response": "4.2",
+      "decision": "Preserved all twelve speaker turns; revised ten to separate prevention from deterrence, avoid fatalism and coercive consensus, and leave the advocate’s opposition intact."
+    },
+    {
+      "response": "5.1",
+      "decision": "Kept ten questions and ten end-position answers; repaired the ambiguous first question and six answers dependent on corrected exposition."
+    },
+    {
+      "response": "5.2",
+      "decision": "Kept ten questions and ten end-position answers; revised five answers, particularly the false identification of the advocate’s objection with retribution alone."
+    },
+    {
+      "response": "6.1",
+      "decision": "Retained thirteen questions verbatim; revised two questions whose wording presupposed therapeutic or compassionate benefits."
+    },
+    {
+      "response": "6.2",
+      "decision": "Retained all fifteen open discussion questions: they test possible consequences without asserting that determinism establishes them."
+    }
+  ],
+  "verification": {
+    "pagePath": "/philosophy-of-mind/subjective-objective-free-will/",
+    "sourceSha256": "537021630155a0e2f5ef4fa684fa20991af890cc15e5eb090f4667176483c751",
+    "originalPrompts": 6,
+    "originalHeadings": 6,
+    "sourceColumns": 12,
+    "modelResponses": 12,
+    "blocksRetainedVerbatim": 78,
+    "tableCellsExplicitlyRevised": 0,
+    "blocksExplicitlyRevised": 60,
+    "bareAnswersExplicitlyRevised": 0,
+    "promptOrderExact": true,
+    "sourceBlockOrderExact": true,
+    "listAndTableStructuresPreserved": true,
+    "explicitListItemSplits": [],
+    "explicitResponseAppendices": [],
+    "formatChecks": {
+      "quiz questions and keys": [
+        10,
+        10,
+        10,
+        10
+      ],
+      "discussion questions": [
+        15,
+        15
+      ]
+    },
+    "sha256": "37dba677299e6d02aa28efebdd8cf0e02ddf8320f1b28d1e48edcb2c867d583a",
+    "sourceCacheExact": true,
+    "titleMatched": true,
+    "urlMatched": true,
+    "rendererReproduces": true,
+    "openingCuratorParagraphsPreserved": 2,
+    "dialogueTurns": {
+      "1": 19,
+      "2": 12
+    },
+    "discussionQuestionsRetainedVerbatim": 28,
+    "damagedVariantsRejected": [
+      ".original-prompt-text",
+      "#prompt-1 [data-source-node=\"1.1.1\"]",
+      "#prompt-4 [data-source-node=\"4.2.11\"]",
+      "#prompt-5 ol li",
+      "#prompt-6 ol li"
+    ],
+    "runTime": "2026-11-16T13:59:44.235884+00:00",
+    "limitations": [
+      "No browser/mobile/accessibility inspection.",
+      "Research limited to NIJ deterrence summary; no universal effectiveness claim.",
+      "Prior reviewed pages receive preservation checks only."
+    ]
+  },
+  "research": [
+    {
+      "url": "https://nij.ojp.gov/library/publications/five-things-about-deterrence",
+      "accessed": "2026-11-16",
+      "scope": "Official summary and abstract: certainty versus severity; no numerical effect size or universal policy efficacy inferred."
+    }
+  ],
+  "progress": {
+    "batchReviewed": 10,
+    "batchPending": 40,
+    "officialCompleted": 150,
+    "officialRemaining": 196,
+    "substantiveReviewed": 160,
+    "notYetReviewed": 186,
+    "cycle": 8,
+    "cursor": 150,
+    "advanced": false,
+    "nextPage": "Wealth Creation",
+    "followingBatch": "200–249: Categories of Nihilism through Philosophy of AI—Core Concepts"
+  },
+  "limitations": [
+    "No browser/mobile/accessibility inspection.",
+    "Research limited to NIJ deterrence summary; no universal effectiveness claim.",
+    "Prior reviewed pages receive preservation checks only."
+  ],
+  "publication": "Prepared for commit and push; final outcome in automation memory.",
+  "verificationSetupCorrection": "First isolated build lacked the new source-edit record and snapshot; copied both into the isolated directory and reran the full builder.",
+  "isolatedBuildVerification": "quality/original-source-revisions/batch-verification-2026-11-16.json"
+}

@@ -1,0 +1,53 @@
+{
+  "pagePath": "/philosophy-of-mind/subjective-objective-free-will/",
+  "sourceSha256": "537021630155a0e2f5ef4fa684fa20991af890cc15e5eb090f4667176483c751",
+  "originalPrompts": 6,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 78,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 60,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "quiz questions and keys": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "discussion questions": [
+      15,
+      15
+    ]
+  },
+  "sha256": "37dba677299e6d02aa28efebdd8cf0e02ddf8320f1b28d1e48edcb2c867d583a",
+  "sourceCacheExact": true,
+  "titleMatched": true,
+  "urlMatched": true,
+  "rendererReproduces": true,
+  "openingCuratorParagraphsPreserved": 2,
+  "dialogueTurns": {
+    "1": 19,
+    "2": 12
+  },
+  "discussionQuestionsRetainedVerbatim": 28,
+  "damagedVariantsRejected": [
+    ".original-prompt-text",
+    "#prompt-1 [data-source-node=\"1.1.1\"]",
+    "#prompt-4 [data-source-node=\"4.2.11\"]",
+    "#prompt-5 ol li",
+    "#prompt-6 ol li"
+  ],
+  "runTime": "2026-11-16T13:59:44.235884+00:00",
+  "limitations": [
+    "No browser/mobile/accessibility inspection.",
+    "Research limited to NIJ deterrence summary; no universal effectiveness claim.",
+    "Prior reviewed pages receive preservation checks only."
+  ]
+}

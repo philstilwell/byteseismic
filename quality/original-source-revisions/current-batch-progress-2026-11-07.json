@@ -2,8 +2,8 @@
   "cycle": 8,
   "startIndex": 150,
   "pageCount": 50,
-  "reviewed": 9,
-  "pending": 41,
+  "reviewed": 10,
+  "pending": 40,
   "pages": [
     {
       "pagePath": "/ethics/what-are-ethics/",
@@ -132,14 +132,16 @@
     {
       "pagePath": "/philosophy-of-mind/subjective-objective-free-will/",
       "title": "Subjective/Objective Free Will",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 7546,
           "title": "Subjective/Objective Free Will",
           "url": "http://byteseismic.com/2024/04/30/subjective-objective-free-will/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/subjective-objective-free-will-verification-2026-11-16.json",
+      "report": "quality/editorial-audit-2026-11-16.json"
     },
     {
       "pagePath": "/economics/wealth-creation/",
@@ -622,6 +624,6 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-15",
-  "updatedAt": "2026-11-15"
+  "lastUpdated": "2026-11-16",
+  "updatedAt": "2026-11-16"
 }
