@@ -1,0 +1,116 @@
+{
+  "date": "2026-11-17",
+  "runTime": "2026-11-17T14:05:36.856772+00:00",
+  "pagePath": "/economics/wealth-creation/",
+  "title": "Wealth Creation",
+  "source": {
+    "wordpressId": 13751,
+    "url": "http://byteseismic.com/2024/10/12/wealth-creation/",
+    "snapshot": "quality/original-source-revisions/wealth-creation-wordpress-13751.html",
+    "sha256": "ea8fd8fa4e7e31adee2cd5dfe052dcb8765d76f811cf5813f0b18e2c15af3243",
+    "titleUrlPromptsMatched": true,
+    "attribution": "ChatGPT identified by original header logo; quiz is a source exercise, not an additional curator prompt"
+  },
+  "responseDecisions": [
+    {
+      "response": "1.1",
+      "decision": "Retained ten analogies in order and the education example; revised others to distinguish value from sales, non-rival knowledge from costless application, complementary work from assured profit, and growth from universal gains."
+    },
+    {
+      "response": "2.1",
+      "decision": "Retained Meadowbrook, characters and complete narrative sequence; revised five paragraphs to make experimentation, bridge upkeep, displacement and limits part of the story."
+    },
+    {
+      "response": "3.1",
+      "decision": "Retained all twenty factors, order and four explanatory bullets each; corrected the necessary/sufficient premise, distinguished enabling conditions and assessment criteria, qualified finance, markets, culture, resource, demographic and healthcare claims."
+    },
+    {
+      "response": "4.1",
+      "decision": "Retained twenty questions and expandable answers; corrected two questions and fifteen answers dependent on qualified exposition."
+    },
+    {
+      "response": "5.1",
+      "decision": "Retained twenty of twenty-five discussion questions verbatim; revised five leading formulations while retaining their topics and order."
+    }
+  ],
+  "verification": {
+    "pagePath": "/economics/wealth-creation/",
+    "sourceSha256": "ea8fd8fa4e7e31adee2cd5dfe052dcb8765d76f811cf5813f0b18e2c15af3243",
+    "originalPrompts": 4,
+    "originalHeadings": 5,
+    "sourceColumns": 5,
+    "modelResponses": 4,
+    "blocksRetainedVerbatim": 195,
+    "tableCellsExplicitlyRevised": 0,
+    "blocksExplicitlyRevised": 61,
+    "bareAnswersExplicitlyRevised": 15,
+    "promptOrderExact": true,
+    "sourceBlockOrderExact": true,
+    "listAndTableStructuresPreserved": true,
+    "explicitListItemSplits": [],
+    "explicitResponseAppendices": [],
+    "formatChecks": {
+      "quiz answers": [
+        20
+      ],
+      "discussion questions": [
+        25
+      ]
+    },
+    "sha256": "082fe278b8ded568f91ddfb36625e5583244b37e3146b48fab121534f098126f",
+    "sourceCacheExact": true,
+    "titleMatched": true,
+    "urlMatched": true,
+    "rendererReproduces": true,
+    "analogies": 10,
+    "enablingConditions": 20,
+    "explanatoryLists": 21,
+    "discussionQuestionsRetainedVerbatim": 20,
+    "damagedVariantsRejected": [
+      ".original-prompt-text",
+      "#prompt-2 [data-source-node=\"2.1.14\"]",
+      "#prompt-3 ul li",
+      "#prompt-4 details",
+      "#prompt-5 ol li"
+    ],
+    "runTime": "2026-11-17T14:04:46.775453+00:00",
+    "limitations": [
+      "No browser/mobile/accessibility inspection.",
+      "Research bounded to institutional summaries; no quantitative economic or medical efficacy claims.",
+      "Prior reviewed pages receive preservation checks only."
+    ]
+  },
+  "research": [
+    {
+      "url": "https://www.worldbank.org/en/publication/the-changing-wealth-of-nations",
+      "accessed": "2026-11-17",
+      "scope": "Indexed official summary distinguishing productive wealth from current output and depletion; no quantitative estimates used."
+    },
+    {
+      "url": "https://www.imf.org/en/publications/fandd/issues/series/back-to-basics/externalities",
+      "accessed": "2026-11-17",
+      "scope": "Indexed official explanation of costs/benefits absent from market prices; no policy effectiveness estimate inferred."
+    }
+  ],
+  "progress": {
+    "batchReviewed": 11,
+    "batchPending": 39,
+    "officialCompleted": 150,
+    "officialRemaining": 196,
+    "substantiveReviewed": 161,
+    "notYetReviewed": 185,
+    "cycle": 8,
+    "cursor": 150,
+    "advanced": false,
+    "nextPage": "Case #1 – Credence Complexity",
+    "followingBatch": "200–249: Categories of Nihilism through Philosophy of AI—Core Concepts"
+  },
+  "limitations": [
+    "No browser/mobile/accessibility inspection.",
+    "Research bounded to institutional summaries; no quantitative economic or medical efficacy claims.",
+    "Prior reviewed pages receive preservation checks only."
+  ],
+  "publication": "Prepared for commit and push; final outcome in automation memory.",
+  "isolatedBuildVerification": "quality/original-source-revisions/batch-verification-2026-11-17.json",
+  "model": "Saved automation gpt-6-astra/high; runtime model identity not independently verified."
+}

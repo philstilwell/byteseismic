@@ -1,0 +1,161 @@
+{
+  "modelLabels": [
+    "ChatGPT"
+  ],
+  "nonPromptSections": [
+    4
+  ],
+  "nonResponseColumns": [
+    "4.1"
+  ],
+  "sectionResponseLabels": {
+    "4.1": "Original quiz · editorial edition"
+  },
+  "pageSignals": {
+    "Page form": "Original conversation · editorial edition"
+  },
+  "pageFile": "economics/wealth-creation/index.html",
+  "wordpressId": 13751,
+  "snapshot": "wealth-creation-wordpress-13751.html",
+  "sourceUrl": "http://byteseismic.com/2024/10/12/wealth-creation/",
+  "sourceLabel": "Original WordPress conversation, October 12, 2024",
+  "shellRevision": "9f9fc491c001437b900c1ef2cfcfb6a4c92be0a4",
+  "date": "2026-11-17",
+  "sourceSha256": "ea8fd8fa4e7e31adee2cd5dfe052dcb8765d76f811cf5813f0b18e2c15af3243",
+  "headings": [
+    "Ten analogies for creating value",
+    "The Alchemist’s Apprentice",
+    "Twenty enabling conditions and their limits",
+    "Twenty-question quiz",
+    "Twenty-five discussion questions"
+  ],
+  "introHeading": "How the economic pie can grow",
+  "intro": "The original conversation moves from ten analogies to the story of Meadowbrook, then examines twenty conditions that can support wealth creation. This edition preserves its four prompts, story progression, quiz and discussion while distinguishing possible shared gains from guaranteed gains for everyone.",
+  "description": "Wealth creation through ten analogies, an original narrative, twenty enabling conditions, a quiz and twenty-five discussion questions.",
+  "highlights": [
+    "Innovation and cooperation can create value beyond a transfer of existing wealth.",
+    "Helpful institutions are not a universal checklist of necessary and sufficient conditions.",
+    "More revenue does not by itself establish a net social gain."
+  ],
+  "replacements": {
+    "1.1.0": "These ten analogies illustrate how an economy can create additional useful goods, services and capabilities, rather than only transfer existing possessions. They describe possible gains, not a promise that every venture succeeds or every person benefits. Here “wealth” is used broadly; income is a flow, whereas wealth in accounting is a stock of assets.",
+    "1.1.2": "Imagine a town with a single bakery. A baker discovers a recipe that makes tastier pies with less wasted flour and fuel. Other bakers improve it and add varieties. More people can enjoy good pies using the same resources. The growing “pie” represents additional useful value. Higher sales alone would not establish that gain: customers might simply spend less elsewhere, or prices might have risen.",
+    "1.1.4": "In a village, a magical fountain grants knowledge to anyone who drinks from it. One villager learning a recipe does not erase another’s knowledge of it. They can use the shared ideas to start businesses, create art and solve problems. This is the fountain’s useful lesson: knowledge can be reused without being used up. Actual teaching, experimentation and equipment still require time and resources, and a shared idea must work in practice before it produces a gain.",
+    "1.1.6": "A group of musicians gathers for a jam session. Each brings a different skill, and together they create music none could perform alone. Listeners value the result, and recordings let more people enjoy it. Collaboration has created a new experience without consuming the musicians’ skills. Rehearsal time, equipment and distribution still cost something; whether the project pays, and how its proceeds are shared, are separate questions.",
+    "1.1.8": "A farmer plants a seed, tends the tree and uses some fruit seeds to establish an orchard. Keeping seeds for planting means giving up some consumption now for possible harvests later. The additional fruit need not come from a neighbor’s basket. Yet growth requires land, water, labor and time, and can fail. The analogy explains productive investment, not multiplication without inputs or limits.",
+    "1.1.10": "Think of technological development as a branching tree: electricity supports computers, which support new software and services. A useful new branch can make further inventions possible. This expanding set of capabilities can create value beyond redistribution, although some branches fail and new businesses can displace older ones. More value overall does not mean every existing producer gains.",
+    "1.1.12": "A town invests in solar panels, wind turbines and suitable hydroelectric facilities. In this imagined successful project, it can use the electricity and sell surplus power when neighboring towns need it. The gain must be assessed after construction, maintenance, storage or backup, transmission and environmental costs. Revenue and new jobs alone do not prove net wealth creation; the question is whether the useful energy and other benefits justify the resources used.",
+    "1.1.14": "Writers contribute stories to a collaborative book. In this successful example, the variety makes a collection readers value, and the authors share its proceeds under an agreed arrangement. Combining complementary contributions can create something no author would have made alone. Editing and promotion take resources, however, and collaboration does not guarantee a bestseller or a fair division of returns.",
+    "1.1.18": "Programmers start an open-source project, inviting others to contribute code, ideas and fixes. If the software proves useful and reliable, businesses can build services around it and users can save effort. Contributors may gain skills, reputation or income. Reusing code can spread benefits widely, although maintenance, security and coordination still require sustained work.",
+    "1.1.20": "A painting inspires a poem, which inspires a song and then a film. The original work need not disappear for new experiences to exist. That illustrates growth in cultural value. Sales may support the creators, but artistic value and market income are not identical; audiences have limited time and money, and permissions may be needed when existing work is reused.",
+    "1.1.21": "These analogies preserve the central point: innovation, learning and cooperation can expand what people can enjoy and accomplish. A growing pie is possible. It does not follow that every profitable activity adds net value, that growth has no limits, or that gains are shared automatically. Ask what new benefit was created, what it cost, and who received it.",
+    "2.1.5": "Intrigued, Theo became Alaric’s apprentice. Their gold-making experiments produced mostly smoke and an unfortunate smell. But small trials of a compost mixture improved the soil. Theo showed the villagers how to test it before committing every field. In the story’s favorable season, the extra harvest exceeded the labor and materials spent making the compost.",
+    "2.1.10": "Elara returned to her village and tested the same methods on its soil. As harvests improved, the villages traded goods and ideas. They built a bridge over the river, agreeing who would contribute timber and who would maintain it. The bridge saved long journeys, but its benefits depended on keeping it safe and usable.",
+    "2.1.14": "Theo replied, “We learned that wealth need not be a fixed treasure. A useful idea is like a flame we can share without extinguishing our own. But building the bridge took real timber, and some weavers struggled when new cloth arrived. Creating more value gives us more possibilities; it does not decide how to help those who lose out.”",
+    "2.1.16": "And so the people continued to experiment and cooperate, setting aside resources to maintain their roads and bridge. They saw that seeds could produce future harvests, but only with care and suitable conditions. They also learned to ask whose work made the gains possible and who still lacked access to them.",
+    "2.1.17": "The moral of the story? One person’s gain need not require an equal loss elsewhere. Knowledge, specialization and shared infrastructure can expand useful production. Meadowbrook is a story of how that can happen, not proof of boundless prosperity or a guarantee that every innovation benefits everyone.",
+    "3.1.0": "Conditions that can support wealth creation",
+    "3.1.1": "The prompt asks for necessary and sufficient conditions. A necessary condition must hold whenever wealth is created; a sufficient set would guarantee it. The twenty factors below do not meet that universal test: someone can make a useful tool without global trade or digital connectivity, and a well-funded enterprise with strong institutions can still fail. For a specified project, the practical test is whether it creates additional value after accounting for resources used, depreciation, displaced uses and harms. That is an assessment criterion, not a causal recipe. The list explains enabling conditions, especially for sustained wealth creation across a society; none is individually necessary in every case, and the list is not jointly sufficient.",
+    "3.1.4": "Reliable ownership and use rights, backed by workable dispute resolution, can make investment less vulnerable to theft or arbitrary seizure. Rights may be individual, communal or public; their clarity and enforcement matter. These arrangements support sustained investment without being prerequisites for every small act of production.",
+    "3.1.12": "Finance connects available savings with projects that need resources before earning revenue. It can fund useful tools and experiments, but also bad investments. Small projects may use retained earnings or shared resources without formal financial markets; access to finance is an enabler, not proof that value will be created.",
+    "3.1.15": "<strong>Promotes Innovation:</strong> Funding allows research and testing; it does not guarantee a useful result.",
+    "3.1.16": "<strong>Enhances Productivity:</strong> Suitable equipment can increase output per hour; poorly chosen equipment may waste resources.",
+    "3.1.17": "<strong>Risk Management:</strong> Insurance and other contracts can redistribute risks. They do not eliminate underlying losses and can introduce new obligations.",
+    "3.1.28": "Learning builds skills that can improve production and problem-solving. This includes apprenticeship and experience as well as formal education. Its value depends on what is learned and the opportunities to use it; schooling alone cannot guarantee productivity or earnings.",
+    "3.1.36": "Specialization lets people concentrate on tasks they perform at relatively low opportunity cost—the other useful work they give up. Practice and suitable tools can improve quality and speed. Gains must exceed the costs of coordinating and exchanging work, and heavy specialization can increase dependence on reliable partners.",
+    "3.1.44": "Competition can give suppliers reasons to improve quality, reduce waste and respond to customers. Entry must be feasible and buyers need usable information. A market described as “free” can still be dominated by powerful firms or shift costs onto outsiders.",
+    "3.1.49": "<strong>Resource Allocation:</strong> Prices convey demand backed by purchasing power and some production costs. They do not automatically reflect unmet need or harms imposed on others; see the <a href=\"https://www.imf.org/en/publications/fandd/issues/series/back-to-basics/externalities\">IMF explanation of externalities</a>.",
+    "3.1.52": "Transport, communication and utilities can connect producers to inputs and customers. Their usefulness depends on location, demand, reliability and upkeep. A well-used bridge may save more resources than it costs; an unused road can absorb resources with little return.",
+    "3.1.68": "Trust, attitudes to experimentation and habits of cooperation can affect whether people share information and attempt new projects. These practices interact with institutions and material opportunities. They should not become a blanket explanation that ranks whole cultures or blames poverty on insufficient effort.",
+    "3.1.70": "<strong>Work and Productivity:</strong> Effort matters, but output per hour also depends on tools, skills, health and organization. Long working hours alone do not demonstrate high productivity.",
+    "3.1.72": "<strong>Entrepreneurial Spirit:</strong> Willingness to test ideas can help when people have resources, opportunities and room to recover from failure.",
+    "3.1.76": "Workable, fairly enforced rules can protect workers and consumers and constrain fraud, pollution and market power. Rule design and enforcement matter: excessive burdens or favoritism can obstruct useful activity. Merely having a law does not ensure its intended effect.",
+    "3.1.79": "<strong>Fair Competition:</strong> Effective competition law can restrain abuses of market power; legislation alone does not prevent concentration.",
+    "3.1.80": "<strong>Environmental Protection:</strong> Enforced rules can reduce damage to resources and ecosystems that future production depends on.",
+    "3.1.84": "Trade can widen markets, supply inputs and make specialization more useful. These opportunities depend on transport, exchange arrangements and productive capabilities. Global access is not necessary for every local gain, and greater total gains can coexist with losses for particular workers or regions.",
+    "3.1.92": "Entrepreneurs combine resources and test whether an offering meets a need at a viable cost. Some attempts fail, and profit can also come from privilege or shifting costs to others. Businesses are one route to value creation; households, cooperatives and public organizations can also create useful goods and services.",
+    "3.1.100": "Better allocation moves resources toward uses that create more value relative to what must be given up. Perfect efficiency is not necessary for improvement: reducing one source of waste can help even when others remain. Prices provide information, but market power, missing information and unpriced harms can distort it.",
+    "3.1.102": "<strong>Useful Output:</strong> The objective is valuable output relative to costs, not the largest physical quantity of whatever happens to be produced.",
+    "3.1.104": "<strong>Responds to Demand:</strong> Market allocation responds to willingness and ability to pay; urgent needs without purchasing power can remain unmet.",
+    "3.1.105": "<strong>Supports Innovation:</strong> Resources may flow toward promising experiments, but high expected private returns do not guarantee high social value.",
+    "3.1.108": "Resource stewardship helps protect the assets on which future production depends. Selling extracted resources can raise current income while depleting natural wealth. The <a href=\"https://www.worldbank.org/en/publication/the-changing-wealth-of-nations\">World Bank’s wealth accounts</a> distinguish the productive asset base from current output. Sustainability requires attention to depletion and damage, not just this year’s sales.",
+    "3.1.111": "<strong>Depletion Costs:</strong> Careful management can reduce depletion and scarcity risks; it cannot abolish physical limits.",
+    "3.1.113": "<strong>Energy Efficiency:</strong> Using less energy for a useful task can save resources. Renewable generation concerns the energy source and is a distinct, though potentially complementary, strategy.",
+    "3.1.116": "Networks can spread information, make cooperation easier and mobilize shared resources. They can also exclude outsiders or protect insiders from competition. Trust creates the most useful opportunities when supported by accountability and openness to new participants.",
+    "3.1.124": "Digital connections can support communication, software and access to customers. Their benefits depend on skills, reliability, security and affordability. They are important to many present-day businesses, but clearly not necessary to all wealth creation, including farming or toolmaking without them.",
+    "3.1.132": "Fiscal policy concerns public spending and taxation; monetary policy influences money and credit conditions. Both can support investment and economic stability, but policy choices involve tradeoffs and depend on circumstances. No single debt level, interest rate or exchange arrangement guarantees growth.",
+    "3.1.136": "<strong>Fiscal Sustainability:</strong> Public borrowing should be assessed alongside financing costs, future revenues and what spending achieves. Productive investment and wasteful spending have different consequences.",
+    "3.1.140": "Research and development can yield discoveries and better processes, but uncertainty and unsuccessful trials are part of the activity. Its contribution depends on how useful results are tested, adopted and maintained; spending itself is not the resulting wealth.",
+    "3.1.148": "More people able to participate productively can expand total output. That does not automatically increase output or wealth per person: skills, equipment and opportunities must also be considered. A society with a stable or shrinking population can still improve productivity.",
+    "3.1.156": "Health can expand people’s ability to learn, work and participate. Care also has value apart from its contribution to production. The relevant question is whether a service improves lives sufficiently to justify its costs, not whether all care pays for itself through increased output.",
+    "3.1.159": "<strong>Longevity:</strong> Longer healthy lives can allow more years of participation; extra years of life do not automatically become extra working years.",
+    "3.1.160": "<strong>Costs and Benefits:</strong> Prevention may avoid illness and some treatment costs, but it is not always cost-saving. A worthwhile health improvement need not produce financial savings.",
+    "3.1.169": "These factors can reinforce one another, but they are enabling influences rather than a proven necessary-and-sufficient checklist. The missing bridge may matter more than another loan; a new machine may help only after workers learn to use it. Identify the actual constraint, compare plausible alternatives, and test whether the benefits exceed the costs.",
+    "3.1.170": "For policymakers, organizations and individuals, the practical lesson is to distinguish additional value from a transfer of existing value, and sustained productive capacity from short-lived revenue. Even a net gain leaves a further question: who benefits and who bears the costs? The possibility of a growing pie does not settle its distribution.",
+    "4.1.13": "#14: How can secure property and use rights and the rule of law support sustained wealth creation?",
+    "4.1.16": "#17: How can education and learning support wealth creation without being sufficient to guarantee it?",
+    "5.1.0": "How do the analogies show the possibility of positive-sum wealth creation, and where might their assumptions fail?",
+    "5.1.3": "What role does education play in the Educational Ecosystem analogy, and why is a useful enabling factor different from a necessary condition?",
+    "5.1.17": "Which enabling conditions should a government prioritize in a particular setting, and what evidence would show that its policies create net value?",
+    "5.1.23": "How can trust and attitudes toward experimentation affect wealth creation, and how can we examine those effects without stereotyping whole societies?",
+    "5.1.24": "How should the possibility of positive-sum growth influence global cooperation while leaving room to address losses, costs and unequal gains?"
+  },
+  "bareAnswerReplacements": {
+    "4.1.answer1": "Sharing knowledge does not normally erase another person’s knowledge. Applying it can create value, although learning, testing and implementation use resources.",
+    "4.1.answer2": "Complementary skills can produce a new musical experience without using up those skills. Time and equipment still have costs, and returns are not guaranteed.",
+    "4.1.answer3": "Investment gives up some present use for possible future benefits. The orchard requires land, water, work and time; its growth is not costless or guaranteed.",
+    "4.1.answer4": "Useful technologies can enable further products and services. Some attempts fail and some existing producers lose business, so new possibilities do not mean universal gains.",
+    "4.1.answer5": "Useful electricity can justify the investment if its benefits exceed construction, operating, transmission and environmental costs. Sales and employment alone do not establish a net gain.",
+    "4.1.answer6": "Complementary stories can form a collection readers value. Profits and their fair distribution depend on costs, demand and the contributors’ agreement.",
+    "4.1.answer8": "Reusable code can support new services and save effort. Maintenance and security still cost resources; collaboration is an opportunity rather than a guarantee.",
+    "4.1.answer9": "New works can add experiences without destroying the original art. Cultural value differs from income, and audiences’ spending and time remain limited.",
+    "4.1.answer12": "Cooperation, knowledge and investment can create additional value rather than merely transfer a fixed stock. The story does not establish unlimited growth or equal gains for everyone.",
+    "4.1.answer13": "Reliable rights and dispute resolution can protect investment, facilitate exchange and support planning. They are enabling arrangements, not necessary conditions for every instance of useful production.",
+    "4.1.answer14": "Finance makes resources available before a project earns revenue and can redistribute risk. It can also fund failures; small projects may operate without formal financial markets.",
+    "4.1.answer15": "Useful innovation can improve productivity, open new activities and improve lives. Failed experiments and displacement remain possible.",
+    "4.1.answer16": "Learning can build useful skills, adaptability and problem-solving ability. Formal schooling is not necessary for every productive act and does not guarantee useful work or higher earnings.",
+    "4.1.answer17": "Competition can encourage improvements and lower costs when entry and information are adequate. Prices do not automatically account for every social cost or need.",
+    "4.1.answer19": "Trust and openness to experimentation can support cooperation. Their effects depend on opportunities and institutions; poverty is not evidence of a deficient work ethic."
+  },
+  "countChecks": [
+    {
+      "name": "quiz answers",
+      "selector": "#prompt-4 .original-response",
+      "child": "details",
+      "recursive": true,
+      "expected": [
+        20
+      ]
+    },
+    {
+      "name": "discussion questions",
+      "selector": "#prompt-5 .original-response ol",
+      "child": "li",
+      "expected": [
+        25
+      ]
+    }
+  ],
+  "responseDecisions": [
+    {
+      "response": "1.1",
+      "decision": "Retained ten analogies in order and the education example; revised others to distinguish value from sales, non-rival knowledge from costless application, complementary work from assured profit, and growth from universal gains."
+    },
+    {
+      "response": "2.1",
+      "decision": "Retained Meadowbrook, characters and complete narrative sequence; revised five paragraphs to make experimentation, bridge upkeep, displacement and limits part of the story."
+    },
+    {
+      "response": "3.1",
+      "decision": "Retained all twenty factors, order and four explanatory bullets each; corrected the necessary/sufficient premise, distinguished enabling conditions and assessment criteria, qualified finance, markets, culture, resource, demographic and healthcare claims."
+    },
+    {
+      "response": "4.1",
+      "decision": "Retained twenty questions and expandable answers; corrected two questions and fifteen answers dependent on qualified exposition."
+    },
+    {
+      "response": "5.1",
+      "decision": "Retained twenty of twenty-five discussion questions verbatim; revised five leading formulations while retaining their topics and order."
+    }
+  ]
+}

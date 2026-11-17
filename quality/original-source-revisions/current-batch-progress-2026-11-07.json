@@ -2,8 +2,8 @@
   "cycle": 8,
   "startIndex": 150,
   "pageCount": 50,
-  "reviewed": 10,
-  "pending": 40,
+  "reviewed": 11,
+  "pending": 39,
   "pages": [
     {
       "pagePath": "/ethics/what-are-ethics/",
@@ -146,14 +146,16 @@
     {
       "pagePath": "/economics/wealth-creation/",
       "title": "Wealth Creation",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 13751,
           "title": "Wealth Creation",
           "url": "http://byteseismic.com/2024/10/12/wealth-creation/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/wealth-creation-verification-2026-11-17.json",
+      "report": "quality/editorial-audit-2026-11-17.json"
     },
     {
       "pagePath": "/epistemology/case-1-credence-complexity/",
@@ -624,6 +626,6 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-16",
-  "updatedAt": "2026-11-16"
+  "lastUpdated": "2026-11-17",
+  "updatedAt": "2026-11-17"
 }
