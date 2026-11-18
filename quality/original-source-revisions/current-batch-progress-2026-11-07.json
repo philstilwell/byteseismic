@@ -2,8 +2,8 @@
   "cycle": 8,
   "startIndex": 150,
   "pageCount": 50,
-  "reviewed": 11,
-  "pending": 39,
+  "reviewed": 12,
+  "pending": 38,
   "pages": [
     {
       "pagePath": "/ethics/what-are-ethics/",
@@ -160,14 +160,16 @@
     {
       "pagePath": "/epistemology/case-1-credence-complexity/",
       "title": "Case #1 – Credence Complexity",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 5357,
           "title": "Case #1 &#8211; Credence Complexity",
           "url": "http://byteseismic.com/2024/04/06/case-1-credence-complexity/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/case-1-credence-complexity-verification-2026-11-18.json",
+      "report": "quality/editorial-audit-2026-11-18.json"
     },
     {
       "pagePath": "/epistemology/case-4-recursive-credences/",
@@ -626,6 +628,6 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-17",
-  "updatedAt": "2026-11-17"
+  "lastUpdated": "2026-11-18",
+  "updatedAt": "2026-11-18"
 }

@@ -1,0 +1,71 @@
+{
+  "pagePath": "/epistemology/case-1-credence-complexity/",
+  "sourceSha256": "9b8f4a97d8202532fdbfc6c8f3e7d2fd5186241a295524bd33878a38325e049a",
+  "originalPrompts": 5,
+  "originalHeadings": 5,
+  "sourceColumns": 14,
+  "modelResponses": 14,
+  "blocksRetainedVerbatim": 130,
+  "tableCellsExplicitlyRevised": 75,
+  "blocksExplicitlyRevised": 71,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "four grids": [
+      3,
+      1
+    ],
+    "quiz and answer lists": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "discussion lists": [
+      15,
+      15,
+      15
+    ]
+  },
+  "sha256": "ec7c0827e3cd7ba7c7da8d725bfc864fa4ea24dfc305fa91c696e3c6645a6756",
+  "originalPromptsIncludingCuratorCorrection": 6,
+  "modelResponsesIncludingGeminiRetry": 16,
+  "sourceCacheExact": true,
+  "titleMatched": true,
+  "urlMatched": true,
+  "curatorCorrectionVerbatimInPlace": true,
+  "firstFailedGeminiGridVerbatim": true,
+  "tableDimensions": [
+    [
+      6,
+      6
+    ],
+    [
+      6,
+      6
+    ],
+    [
+      6,
+      6
+    ],
+    [
+      6,
+      6
+    ]
+  ],
+  "rendererReproduces": true,
+  "discussionQuestionsRetainedVerbatim": 43,
+  "damagedVariantsRejected": [
+    ".original-prompt-text",
+    "[data-source-node=\"1.1.22\"]",
+    "#prompt-1 table td",
+    "#prompt-4 ol li",
+    "#prompt-5 ol li"
+  ]
+}

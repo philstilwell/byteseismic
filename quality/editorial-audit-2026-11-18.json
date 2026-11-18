@@ -1,0 +1,179 @@
+{
+  "date": "2026-11-18",
+  "runTime": "2026-11-18T14:06:19.464300+00:00",
+  "title": "Case #1 – Credence Complexity",
+  "pagePath": "/epistemology/case-1-credence-complexity/",
+  "source": {
+    "wordpressId": 5357,
+    "url": "http://byteseismic.com/2024/04/06/case-1-credence-complexity/",
+    "snapshot": "quality/original-source-revisions/case-1-credence-complexity-wordpress-5357.html",
+    "sha256": "9b8f4a97d8202532fdbfc6c8f3e7d2fd5186241a295524bd33878a38325e049a",
+    "titleUrlPromptsMatched": true,
+    "attribution": "First section explicitly names ChatGPT, GEMINI and CLAUDE; two physical source columns contain four responses including Gemini retry. Later sections preserve three parallel response tracks."
+  },
+  "responseDecisions": [
+    {
+      "response": "1 ChatGPT",
+      "decision": "Replaced 25 unsupported percentages with explicit undetermined entries; retained claim order, rewrote five explanations and supplied a conditional odds example with invented inputs clearly labeled."
+    },
+    {
+      "response": "1 Gemini first attempt",
+      "decision": "Retained all 25 original values as an explicitly labeled failed grid so the curator correction retains its target. Revised explanations to expose honesty/accuracy confusion and inaccurate readings of Max, Bob and Abe rows."
+    },
+    {
+      "response": "1 Gemini retry",
+      "decision": "Kept curator correction exactly in place; explained why lowering resurrection to 1% while retaining other certainties fails. Replaced all 25 unsupported numerical cells; sharpened alternative explanations and independent-evidence requirements."
+    },
+    {
+      "response": "1 Claude",
+      "decision": "Preserved its table and five-speaker progression; replaced 25 arbitrary decimals. Explained unjustified cross-speaker reversal and why honesty does not establish either zero or certainty."
+    },
+    {
+      "response": "2 ChatGPT",
+      "decision": "Retained six-point summary structure; clarified claim-specific reliability, background plausibility, evidence strength and assumption sensitivity."
+    },
+    {
+      "response": "2 Gemini",
+      "decision": "Retained alternatives, skepticism and plausibility discussion; revised source credibility and spectrum entries to avoid deriving accuracy directly from lying rates."
+    },
+    {
+      "response": "2 Claude",
+      "decision": "Retained critical-evaluation point; corrected unsupported claim that the original grids demonstrate systematic estimation, clarified 0.2 means 20%, and explained limits of quantification."
+    },
+    {
+      "response": "3 ChatGPT",
+      "decision": "Retained eight effective reasons and introduction/conclusion; clarified that new knowledge changes assessment rather than past truth."
+    },
+    {
+      "response": "3 Gemini",
+      "decision": "Retained memory, knowledge, communication and sensory explanations; made death-versus-apparent-death example precise, distinguished community confidence from corroboration and unexplained from unexplainable."
+    },
+    {
+      "response": "3 Claude",
+      "decision": "Retained six effective reasons; clarified partial truth versus error and independence of corroboration."
+    },
+    {
+      "response": "4 ChatGPT",
+      "decision": "Retained ten questions and end key; corrected always-tells-truth wording, circular memory answer and vague reliability answer."
+    },
+    {
+      "response": "4 Gemini",
+      "decision": "Retained ten questions and key; replaced single-main-factor premise and improved answers about numerical uncertainty and reasons to investigate."
+    },
+    {
+      "response": "4 Claude",
+      "decision": "Retained ten-item format and three multiple-choice items; rewrote five questions and dependent answers that rewarded unjustified original table values."
+    },
+    {
+      "response": "5 ChatGPT",
+      "decision": "Kept fifteen questions, thirteen verbatim; repaired implied denial of objective facts and confusion between revised beliefs and changing past truth."
+    },
+    {
+      "response": "5 Gemini",
+      "decision": "All fifteen retained verbatim: questions address evidence, culture, memory, figurative language, skepticism and practical evaluation without relying on failed grid values."
+    },
+    {
+      "response": "5 Claude",
+      "decision": "All fifteen retained verbatim: balanced questions about credibility, numerical limits, bias, mistakes and evidence remain directly relevant."
+    }
+  ],
+  "verification": {
+    "pagePath": "/epistemology/case-1-credence-complexity/",
+    "sourceSha256": "9b8f4a97d8202532fdbfc6c8f3e7d2fd5186241a295524bd33878a38325e049a",
+    "originalPrompts": 5,
+    "originalHeadings": 5,
+    "sourceColumns": 14,
+    "modelResponses": 14,
+    "blocksRetainedVerbatim": 130,
+    "tableCellsExplicitlyRevised": 75,
+    "blocksExplicitlyRevised": 71,
+    "bareAnswersExplicitlyRevised": 0,
+    "promptOrderExact": true,
+    "sourceBlockOrderExact": true,
+    "listAndTableStructuresPreserved": true,
+    "explicitListItemSplits": [],
+    "explicitResponseAppendices": [],
+    "formatChecks": {
+      "four grids": [
+        3,
+        1
+      ],
+      "quiz and answer lists": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "discussion lists": [
+        15,
+        15,
+        15
+      ]
+    },
+    "sha256": "ec7c0827e3cd7ba7c7da8d725bfc864fa4ea24dfc305fa91c696e3c6645a6756",
+    "originalPromptsIncludingCuratorCorrection": 6,
+    "modelResponsesIncludingGeminiRetry": 16,
+    "sourceCacheExact": true,
+    "titleMatched": true,
+    "urlMatched": true,
+    "curatorCorrectionVerbatimInPlace": true,
+    "firstFailedGeminiGridVerbatim": true,
+    "tableDimensions": [
+      [
+        6,
+        6
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        6,
+        6
+      ]
+    ],
+    "rendererReproduces": true,
+    "discussionQuestionsRetainedVerbatim": 43,
+    "damagedVariantsRejected": [
+      ".original-prompt-text",
+      "[data-source-node=\"1.1.22\"]",
+      "#prompt-1 table td",
+      "#prompt-4 ol li",
+      "#prompt-5 ol li"
+    ]
+  },
+  "research": [
+    {
+      "url": "https://sscc.wisc.edu/sscc/pubs/blimp/bayesian_basics.html",
+      "scope": "University instructional source, Bayes theorem definition only; numerical illustration independently calculated, no empirical animal probabilities asserted."
+    }
+  ],
+  "progress": {
+    "batchReviewed": 12,
+    "batchPending": 38,
+    "officialCompleted": 150,
+    "officialRemaining": 196,
+    "substantiveReviewed": 162,
+    "notYetReviewed": 184,
+    "cycle": 8,
+    "cursor": 150,
+    "advanced": false,
+    "nextPage": "Case #4 – Recursive Credences",
+    "followingBatch": "200–249: Categories of Nihilism through Philosophy of AI—Core Concepts"
+  },
+  "limitations": [
+    "Partial batch only; 38 current-batch pages still require full review.",
+    "No browser/mobile/accessibility inspection.",
+    "No empirical probabilities inferred for dog claims. Original Gemini first-attempt table intentionally retains labeled errors to preserve the curator exchange.",
+    "Previous reviewed pages receive preservation checks only."
+  ],
+  "model": "Saved automation gpt-6-astra/high; runtime identity not independently verified.",
+  "publication": "Prepared for commit/push; final outcome recorded in automation memory.",
+  "isolatedBuildVerification": "quality/original-source-revisions/batch-verification-2026-11-18.json"
+}
