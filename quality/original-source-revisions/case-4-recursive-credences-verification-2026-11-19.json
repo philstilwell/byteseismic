@@ -1,0 +1,63 @@
+{
+  "pagePath": "/epistemology/case-4-recursive-credences/",
+  "sourceSha256": "b605abdd8ab3b817672c6773ab7ae2a783fee0970bf690dfad60ce1a79ff1e84",
+  "originalPrompts": 4,
+  "originalHeadings": 4,
+  "sourceColumns": 8,
+  "modelResponses": 8,
+  "blocksRetainedVerbatim": 22,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 81,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "original list sizes": [
+      5,
+      4,
+      3,
+      5,
+      8,
+      4,
+      7,
+      5,
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  "sha256": "8735bb657c4f169971becf3ea28e188bdc84a2e74f7d9014bc32b151914d45bb",
+  "sourceCacheExact": true,
+  "titleUrlMatched": true,
+  "diagramVisuallyRead": true,
+  "diagramPriors": [
+    0.75,
+    0.5,
+    0.3
+  ],
+  "diagramTrust": [
+    0.4,
+    0.7,
+    0.2
+  ],
+  "numericalSolution": [
+    0.6114406779661017,
+    0.4036016949152542,
+    0.3622881355932203
+  ],
+  "iterationMatchesDirectSolution": true,
+  "damagedVariantsRejected": [
+    ".original-prompt-text",
+    "[data-source-node=\"2.1.4\"]",
+    "#prompt-3 li",
+    "#prompt-4 li",
+    "[data-source-preamble] img"
+  ],
+  "rendererReproduces": true,
+  "originalSkepticalAnnotationAndChallengedSentenceExactInPlace": true
+}

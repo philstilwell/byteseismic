@@ -1,0 +1,368 @@
+{
+  "date": "2026-11-19",
+  "runTime": "2026-11-19T14:09:59.917425+00:00",
+  "title": "Case #4 – Recursive Credences",
+  "pagePath": "/epistemology/case-4-recursive-credences/",
+  "source": {
+    "wordpressId": 5483,
+    "url": "http://byteseismic.com/2024/04/07/case-4-recursive-credences/",
+    "snapshot": "quality/original-source-revisions/case-4-recursive-credences-wordpress-5483.html",
+    "sha256": "b605abdd8ab3b817672c6773ab7ae2a783fee0970bf690dfad60ce1a79ff1e84",
+    "titleUrlPromptsMatched": true,
+    "attribution": "ChatGPT and Gemini logos in original source; edited responses are explicitly labeled editorial editions."
+  },
+  "responseDecisions": [
+    {
+      "response": "1 ChatGPT",
+      "decision": "Restored exact diagram values and five-step list; distinguished reported trust, measured reliability, an opinion rule and a justified posterior; retained the original closing follow-up question."
+    },
+    {
+      "response": "1 Gemini",
+      "decision": "Retained variables and six attempted equations as explicitly labeled diagnostic material; exposed swapped priors, unsupported 0.5 fallback, false nonlinearity claim and incompatible p values."
+    },
+    {
+      "response": "2 ChatGPT",
+      "decision": "Restored omitted calculation prompt and response; preserved original skeptical (?) and challenged sentence in the first list slot. Replaced unexplained 109.53% result with fully specified anchored averaging example; direct and iterative solutions agree. Original invalid numbers remain labeled as errors for historical context."
+    },
+    {
+      "response": "2 Gemini",
+      "decision": "Replaced false iterations with ordered arithmetic audit, correcting 0.47 to 0.42, tolerance claim and averaging-as-solution error. Preserved paragraph progression and explained why p=0.49 is only a least-squares compromise for inconsistent constraints."
+    },
+    {
+      "response": "3 ChatGPT",
+      "decision": "Retained five challenges and eight strategies, including effective cognitive-load, visualization and education material; corrected automatic nonlinearity and simulation claims, added source tracing and sensitivity checks."
+    },
+    {
+      "response": "3 Gemini",
+      "decision": "Retained four challenges/seven strategies; qualified exponential complexity, clarified directed acyclic Bayesian networks versus cyclic communication, respected no-new-evidence restriction, removed endorsement of failed original iteration."
+    },
+    {
+      "response": "4 ChatGPT",
+      "decision": "Preserved five resource slots, replaced vague resources with identifiable primary/institutional materials, distinguished programming recursion from probability modeling."
+    },
+    {
+      "response": "4 Gemini",
+      "decision": "Preserved five groups of three resources; retained real books/courses/tools with links, replaced unestablished research and online titles with verified alternatives and explicit replacement notice."
+    }
+  ],
+  "verification": {
+    "pagePath": "/epistemology/case-4-recursive-credences/",
+    "sourceSha256": "b605abdd8ab3b817672c6773ab7ae2a783fee0970bf690dfad60ce1a79ff1e84",
+    "originalPrompts": 4,
+    "originalHeadings": 4,
+    "sourceColumns": 8,
+    "modelResponses": 8,
+    "blocksRetainedVerbatim": 22,
+    "tableCellsExplicitlyRevised": 0,
+    "blocksExplicitlyRevised": 81,
+    "bareAnswersExplicitlyRevised": 0,
+    "promptOrderExact": true,
+    "sourceBlockOrderExact": true,
+    "listAndTableStructuresPreserved": true,
+    "explicitListItemSplits": [],
+    "explicitResponseAppendices": [],
+    "formatChecks": {
+      "original list sizes": [
+        5,
+        4,
+        3,
+        5,
+        8,
+        4,
+        7,
+        5,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    "sha256": "8735bb657c4f169971becf3ea28e188bdc84a2e74f7d9014bc32b151914d45bb",
+    "sourceCacheExact": true,
+    "titleUrlMatched": true,
+    "diagramVisuallyRead": true,
+    "diagramPriors": [
+      0.75,
+      0.5,
+      0.3
+    ],
+    "diagramTrust": [
+      0.4,
+      0.7,
+      0.2
+    ],
+    "numericalSolution": [
+      0.6114406779661017,
+      0.4036016949152542,
+      0.3622881355932203
+    ],
+    "iterationMatchesDirectSolution": true,
+    "damagedVariantsRejected": [
+      ".original-prompt-text",
+      "[data-source-node=\"2.1.4\"]",
+      "#prompt-3 li",
+      "#prompt-4 li",
+      "[data-source-preamble] img"
+    ],
+    "rendererReproduces": true,
+    "originalSkepticalAnnotationAndChallengedSentenceExactInPlace": true
+  },
+  "research": [
+    {
+      "url": "https://bayes.cs.ucla.edu/csl_papers.html",
+      "scope": "Identity/topic checked against primary or institutional listing; not a full review of the work."
+    },
+    {
+      "url": "https://ocw.mit.edu/courses/6-041-probabilistic-systems-analysis-and-applied-probability-fall-2010/",
+      "scope": "Identity/topic checked against primary or institutional listing; not a full review of the work."
+    },
+    {
+      "url": "https://personal.lse.ac.uk/vayanos/papers/persu_qje03.pdf",
+      "scope": "Identity/topic checked against primary or institutional listing; not a full review of the work."
+    },
+    {
+      "url": "https://plato.stanford.edu/entries/epistemology-bayesian/",
+      "scope": "Identity/topic checked against primary or institutional listing; not a full review of the work."
+    },
+    {
+      "url": "https://us2.sagepub.com/en-us/nam/rational-choice-in-an-uncertain-world/book231783",
+      "scope": "Identity/topic checked against primary or institutional listing; not a full review of the work."
+    },
+    {
+      "url": "https://www.bayesfusion.com/genie/",
+      "scope": "Identity/topic checked against primary or institutional listing; not a full review of the work."
+    },
+    {
+      "url": "https://www.cambridge.org/core/books/judgment-under-uncertainty/6F9E814794E08EC43D426E480A4B412C",
+      "scope": "Identity/topic checked against primary or institutional listing; not a full review of the work."
+    },
+    {
+      "url": "https://www.coursera.org/learn/bayesian-statistics",
+      "scope": "Identity/topic checked against primary or institutional listing; not a full review of the work."
+    },
+    {
+      "url": "https://www.coursera.org/specializations/probabilistic-graphical-models",
+      "scope": "Identity/topic checked against primary or institutional listing; not a full review of the work."
+    },
+    {
+      "url": "https://www.cse.cuhk.edu.hk/~cslui/CMSC5734/DeGroot-Reaching_a_concensus.pdf",
+      "scope": "Identity/topic checked against primary or institutional listing; not a full review of the work."
+    },
+    {
+      "url": "https://www.cse.cuhk.edu.hk/~cslui/CMSC5734/degroot_method-berger_jasa81.pdf",
+      "scope": "Identity/topic checked against primary or institutional listing; not a full review of the work."
+    },
+    {
+      "url": "https://www.hugin.com/",
+      "scope": "Identity/topic checked against primary or institutional listing; not a full review of the work."
+    },
+    {
+      "url": "https://www.ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/876348c652c5353daccc96e1b7d577bb_MIT6_0001F16_Lec6.pdf",
+      "scope": "Identity/topic checked against primary or institutional listing; not a full review of the work."
+    },
+    {
+      "url": "https://www.pymc.io/projects/docs/en/stable/learn.html",
+      "scope": "Identity/topic checked against primary or institutional listing; not a full review of the work."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=j9WZyLZCBzs",
+      "scope": "Identity/topic checked against primary or institutional listing; not a full review of the work."
+    }
+  ],
+  "progress": {
+    "batchReviewed": 13,
+    "batchPending": 37,
+    "officialCompleted": 150,
+    "officialRemaining": 196,
+    "substantiveReviewed": 163,
+    "notYetReviewed": 183,
+    "cycle": 8,
+    "cursor": 150,
+    "advanced": false,
+    "nextPage": "Accounting for X",
+    "followingBatch": "200–249: Categories of Nihilism through Philosophy of AI—Core Concepts"
+  },
+  "limitations": [
+    "Partial current batch: 37 pages still require full review.",
+    "No browser/mobile/accessibility inspection.",
+    "Retained remote original diagram; visual reading confirmed priors and trust arrows.",
+    "Numerical example uses an explicitly added averaging convention and does not identify the event probability.",
+    "Prior 162 reviewed pages receive build preservation checks only."
+  ],
+  "model": "Saved automation gpt-6-astra/high; runtime identity not independently verified.",
+  "publication": "Prepared for commit/push; actual final outcome recorded in automation memory.",
+  "isolatedBuildVerification": "quality/original-source-revisions/batch-verification-2026-11-19.json",
+  "buildResult": {
+    "runTime": "2026-11-19T14:13:33.681392+00:00",
+    "isolatedBuild": true,
+    "buildLog": "Dialectical preservation check passed for all 39 recovered pages, including 17 high-risk regression cases.\nSite audit: pages=840 broken_links=0 duplicate_ids=0 prompt_number_issues=0 orphans=0 oversized_assets=0 style_scars=0 grammar_scars=1 seo_issues=0 json_ld_issues=0 sitemap_issues=0 robots_issues=0\nGenerated or updated 723 content pages.\nVisible hierarchy sections: 15\nExpanded archive years: 2\n",
+    "reviewedPagesPreservedByteForByte": 163,
+    "preservedPagePaths": [
+      "/philosophers/empiricists/",
+      "/philosophy-of-mind/what-is-consciousness/",
+      "/philosophers/analytic-philosophers/",
+      "/philosophy-of-science/the-use-of-proxies/",
+      "/philosophy-of-science/methodological-naturalism/",
+      "/philosophers/david-hume/",
+      "/philosophers/baruch-spinoza/",
+      "/philosophers/immanuel-kant/",
+      "/political-philosophy/critical-race-theory/",
+      "/philosophers/ancient-philosophers/",
+      "/rational-thought/calculating-risks/",
+      "/philosophy-of-mind/elitzur-on-consciousness/",
+      "/rational-thought/depth-or-width-of-knowledge/",
+      "/epistemology/adequate-evidence/",
+      "/metaphysics/jeremy-sherman-on-emergence/",
+      "/political-philosophy/identity-politics/",
+      "/philosophy-of-science/orthogonality/",
+      "/philosophers/rene-descartes/",
+      "/philosophers/daniel-dennett/",
+      "/philosophers/soren-kierkegaard/",
+      "/philosophy-of-science/the-power-of-convergence/",
+      "/philosophy-of-science/improving-science/",
+      "/philosophers/plato-2/",
+      "/philosophers/socrates/",
+      "/philosophers/thomas-hobbes/",
+      "/political-philosophy/the-social-contract/",
+      "/humanistic-philosophies/what-is-existentialism/",
+      "/philosophers/gottfried-wilhelm-leibniz/",
+      "/philosophers/thomas-aquinas/",
+      "/epistemology/rationality-discussion/",
+      "/introduction/miscellaneous-philosophers/",
+      "/philosophers/martin-heidegger/",
+      "/philosophers/phenomenologists/",
+      "/philosophy-of-science/p-value-issues/",
+      "/philosophers/epicurus/",
+      "/political-philosophy/elements-of-a-stable-state/",
+      "/philosophers/duns-scotus/",
+      "/philosophers/william-james/",
+      "/rational-thought/1-at-99-5-or-5-at-95/",
+      "/rational-thought/avoiding-logical-fallacies/",
+      "/philosophers/bertrand-russell/",
+      "/philosophers/jacques-derrida/",
+      "/philosophers/john-locke/",
+      "/philosophers/edmund-husserl/",
+      "/philosophers/willard-van-orman-quine/",
+      "/philosophers/charles-sanders-peirce/",
+      "/philosophers/michel-foucault/",
+      "/philosophers/al-ghazali/",
+      "/philosophers/anselm-of-canterbury/",
+      "/philosophers/arthur-schopenhauer/",
+      "/philosophers/at-the-edge-of-miracles/",
+      "/philosophers/augustine-of-hippo/",
+      "/philosophers/averroes/",
+      "/philosophers/avicenna/",
+      "/philosophers/cicero/",
+      "/philosophers/confucius/",
+      "/philosophers/continental-philosophers/",
+      "/philosophers/critical-theorists/",
+      "/philosophers/dogen/",
+      "/philosophers/elizabeth-anscombe/",
+      "/philosophers/epictetus/",
+      "/philosophers/existentialists/",
+      "/philosophers/friedrich-nietzsche/",
+      "/philosophers/g-e-moore/",
+      "/philosophers/george-berkeley/",
+      "/philosophers/gottlob-frege/",
+      "/philosophers/hannah-arendt/",
+      "/philosophers/heraclitus/",
+      "/philosophers/jean-jacques-rousseau/",
+      "/philosophers/john-dewey/",
+      "/philosophers/john-rawls/",
+      "/philosophers/john-stuart-mill/",
+      "/philosophers/judith-butler/",
+      "/philosophers/jurgen-habermas/",
+      "/philosophers/karl-marx/",
+      "/philosophers/laozi/",
+      "/philosophers/maimonides/",
+      "/philosophers/marcus-aurelius/",
+      "/philosophers/mary-wollstonecraft/",
+      "/philosophers/maurice-merleau-ponty/",
+      "/philosophers/mencius/",
+      "/philosophers/mozi/",
+      "/philosophers/nagarjuna/",
+      "/philosophers/niccolo-machiavelli/",
+      "/philosophers/parmenides/",
+      "/philosophers/plato/",
+      "/philosophers/plotinus/",
+      "/philosophers/pragmatists/",
+      "/philosophers/rationalists/",
+      "/philosophers/saul-kripke/",
+      "/philosophers/scholastics/",
+      "/philosophers/seneca/",
+      "/philosophers/shankara/",
+      "/philosophers/theodor-adorno/",
+      "/philosophers/theodor-w-adorno/",
+      "/philosophers/walter-benjamin/",
+      "/philosophers/william-of-ockham/",
+      "/philosophers/xunzi/",
+      "/philosophers/zhuangzi/",
+      "/philosophers/aquinas-five-ways/",
+      "/philosophers/philosopher-club-membership/",
+      "/philosophers/philosophers-or-philosophy/",
+      "/philosophers/philosophical-gradients/",
+      "/philosophical-inquiry/dangers-untestable-ideologies/",
+      "/philosophy-of-science/observable-regularity/",
+      "/epistemology/abduction-utility-and-issues/",
+      "/ethics/intrinsic-human-value/",
+      "/philosophy-of-language/what-is-etymology/",
+      "/epistemology/avoiding-single-cause-dogmatism/",
+      "/epistemology/collapsing-epistemological-terms/",
+      "/ethics/finite-agency-moral-demand-and-happiness/",
+      "/rational-thought/perverse-incentives/",
+      "/epistemology/doxastic-voluntarism/",
+      "/epistemology/the-burden-of-proof/",
+      "/humanistic-philosophies/can-humans-change/",
+      "/humanistic-philosophies/do-humans-have-an-essence/",
+      "/epistemology/epistemological-case-studies/",
+      "/ethics/moral-black-boxes/",
+      "/economics/economics-core-concepts/",
+      "/miscellany/complexity-theory/",
+      "/philosophical-inquiry/personal-truth/",
+      "/rational-thought/regret-assessment/",
+      "/epistemology/belief-evidence-graphic/",
+      "/epistemology/pascals-wager/",
+      "/epistemology/the-inductive-paradox/",
+      "/humanistic-philosophies/christian-apologetics/",
+      "/philosophical-inquiry/common-sense-blunders/",
+      "/philosophical-inquiry/packaged-vs-eclectic-ideologies/",
+      "/philosophical-inquiry/selective-pressures-on-ideologies/",
+      "/philosophical-inquiry/the-danger-of-resulting/",
+      "/philosophy-of-science/is-logic-acquired-inductively/",
+      "/epistemology/case-6-insatiable-loops/",
+      "/ethics/fictional-meta-ethics-debate/",
+      "/epistemology/decision-making/",
+      "/philosophical-inquiry/dangers-strong-leaders/",
+      "/philosophical-inquiry/dangers-co-opted-wonders/",
+      "/philosophical-inquiry/dangers-half-searches/",
+      "/ethics/ethics-core-concepts/",
+      "/philosophy-of-language/gradient-concepts-and-binary-terms/",
+      "/epistemology/epistemology-core-concepts/",
+      "/philosophical-inquiry/do-i-need-a-worldview/",
+      "/philosophy-of-language/core-concepts-philosophy-of-language/",
+      "/rational-thought/training-data-bias/",
+      "/ethics/coherent-moral-systems/",
+      "/epistemology/counterfactual-reasoning/",
+      "/philosophical-inquiry/dangers-narrative/",
+      "/philosophical-inquiry/dangers-ontological-buffet/",
+      "/philosophical-inquiry/dangers-unnuanced-conclusions/",
+      "/ethics/meta-ethics/",
+      "/ethics/moral-systems-required-elements/",
+      "/ethics/what-are-ethics/",
+      "/ethics/is-vs-ought/",
+      "/philosophical-inquiry/how-minds-are-changed/",
+      "/economics/economic-comparisons/",
+      "/epistemology/preponderance-of-evidence/",
+      "/philosophy-of-language/what-is-language/",
+      "/miscellany/domains-of-aesthetics/",
+      "/philosophical-inquiry/conspiracies-misunderstanding-human-nature/",
+      "/philosophy-of-mind/functionalism-subjectivity/",
+      "/philosophy-of-mind/subjective-objective-free-will/",
+      "/economics/wealth-creation/",
+      "/epistemology/case-1-credence-complexity/",
+      "/epistemology/case-4-recursive-credences/"
+    ],
+    "priorPagesPreservationOnly": true
+  }
+}

@@ -2,8 +2,8 @@
   "cycle": 8,
   "startIndex": 150,
   "pageCount": 50,
-  "reviewed": 12,
-  "pending": 38,
+  "reviewed": 13,
+  "pending": 37,
   "pages": [
     {
       "pagePath": "/ethics/what-are-ethics/",
@@ -174,14 +174,16 @@
     {
       "pagePath": "/epistemology/case-4-recursive-credences/",
       "title": "Case #4 – Recursive Credences",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 5483,
           "title": "Case #4 &#8211; Recursive Credences",
           "url": "http://byteseismic.com/2024/04/07/case-4-recursive-credences/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/case-4-recursive-credences-verification-2026-11-19.json",
+      "report": "quality/editorial-audit-2026-11-19.json"
     },
     {
       "pagePath": "/humanistic-philosophies/accounting-for-x/",
@@ -628,6 +630,6 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-18",
-  "updatedAt": "2026-11-18"
+  "lastUpdated": "2026-11-19",
+  "updatedAt": "2026-11-19"
 }
