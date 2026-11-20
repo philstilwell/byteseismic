@@ -2,8 +2,8 @@
   "cycle": 8,
   "startIndex": 150,
   "pageCount": 50,
-  "reviewed": 13,
-  "pending": 37,
+  "reviewed": 14,
+  "pending": 36,
   "pages": [
     {
       "pagePath": "/ethics/what-are-ethics/",
@@ -188,14 +188,16 @@
     {
       "pagePath": "/humanistic-philosophies/accounting-for-x/",
       "title": "Accounting for X",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 14171,
           "title": "Accounting for X",
           "url": "http://byteseismic.com/2024/10/25/accounting-for-x/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/accounting-for-x-verification-2026-11-20.json",
+      "report": "quality/editorial-audit-2026-11-20.json"
     },
     {
       "pagePath": "/philosophical-inquiry/dangers-carrot-stick/",
@@ -630,6 +632,6 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-19",
-  "updatedAt": "2026-11-19"
+  "lastUpdated": "2026-11-20",
+  "updatedAt": "2026-11-20"
 }

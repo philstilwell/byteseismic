@@ -1,0 +1,39 @@
+{
+  "pagePath": "/humanistic-philosophies/accounting-for-x/",
+  "sourceSha256": "5a8ec2b4c7c7adbc9c570ad4e4d88fc20b10bb0760dc9268b68505515b8e21f7",
+  "originalPrompts": 4,
+  "originalHeadings": 5,
+  "sourceColumns": 5,
+  "modelResponses": 5,
+  "blocksRetainedVerbatim": 201,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 84,
+  "bareAnswersExplicitlyRevised": 9,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "dialogue turns": [
+      30
+    ],
+    "quiz answers": [
+      12
+    ],
+    "discussion questions": [
+      15
+    ]
+  },
+  "sha256": "f6fff754bc032bd0ad7b6402d9544dbfe723ad6e35d8675ec6184fd26fad31d7",
+  "sourceCacheExact": true,
+  "titleUrlMatched": true,
+  "rendererReproduces": true,
+  "dialogueSpeakerOrderExact": true,
+  "all15DiscussionQuestionsVerbatim": true,
+  "tenCandidateDefinitionsPreserved": true,
+  "limitations": [
+    "No browser, mobile or accessibility inspection.",
+    "Research bounded to conceptual distinctions, not a survey of Christian apologetics."
+  ]
+}
