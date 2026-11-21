@@ -1,0 +1,39 @@
+{
+  "pagePath": "/philosophical-inquiry/dangers-carrot-stick/",
+  "sourceSha256": "8b9982baf4ff3e976061f35d5f07e5138511a963c82a8c496a8c24b2a19f8bf8",
+  "originalPrompts": 5,
+  "originalHeadings": 5,
+  "sourceColumns": 10,
+  "modelResponses": 10,
+  "blocksRetainedVerbatim": 120,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 53,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "quiz questions and keys": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "discussion questions": [
+      15,
+      15
+    ]
+  },
+  "sha256": "551910162d73e659a594aa57ff63dc7aa1a56ad18ae2a7c0d7cd35dea7eff410",
+  "sourceCacheExact": true,
+  "titleUrlMatched": true,
+  "rendererReproduces": true,
+  "modelResponseOrderExact": true,
+  "discussionQuestionsVerbatim": 28,
+  "limitations": [
+    "No browser, mobile or accessibility inspection.",
+    "Category lists are illustrative, not an empirically ranked frequency survey."
+  ]
+}

@@ -1,0 +1,17 @@
+# Editorial audit — November 21, 2026
+
+Reviewed and revised **Dangers: Carrot & Stick** against complete WordPress post 6382, matched by URL, decoded title and all five prompts. The committed snapshot is the original source; the previous reconstructed edition supplied navigation only. Original header logos establish ChatGPT/Gemini attribution.
+
+Restored five exact prompts in order, ten separate responses, eight outcome categories and five persuasive patterns, eight and six threat categories, both strategy lists, two ten-question quizzes with their final answer keys, and two fifteen-question discussion lists. There are no separate curator corrections, dialogues or tables. Redundant source contents blocks and decorative logos are replaced by site navigation and attribution; highlights are labeled as an edited summary.
+
+Revised 53 tracked blocks and retained 120. Each of the ten responses has an individual review decision in the JSON report. The revisions distinguish an unsupported prediction from a real danger, and a real danger from proof that one remedy is necessary. Scapegoating and dystopia now state the promised payoff directly. Practical guidance distinguishes independent corroboration from repeated reporting, source incentives from refutation, and relevant expertise from an inappropriate appeal to authority. A hypothetical unemployment promise makes feasibility checks concrete. Quiz answers follow the corrected explanations; 28 of 30 discussion questions remain verbatim, with authority and scapegoating questions clarified.
+
+Research was bounded to the [IPCC's 2023 synthesis](https://www.ipcc.ch/report/ar6/syr/summary-for-policymakers/), supporting the correction that established climate risk must not be dismissed merely because it is alarming. No empirical ranking of ideological tactics or current risk projection is asserted.
+
+Source/cache/hash, exact prompt and model-response order, list structures, requested quiz/discussion counts and renderer reproduction passed. No browser, mobile or accessibility inspection was performed. Full isolated-build results are recorded in the companion JSON and batch-verification file.
+
+Current batch: **15/50 reviewed, 35 pending**. Substantive pass progress: **165/346 reviewed, 181 awaiting full review**. Official tracker remains **150 completed / 196 remaining**, cycle 8, cursor 150. The incomplete batch was not advanced or reset. Next page: **Dangers: The Notion of Fate**. Current batch ends with **Women's Interest in Philosophy**. Following batch: positions 200–249, **Categories of Nihilism** through **Philosophy of AI—Core Concepts**.
+
+All 476 inherited working changes remain preserved. Only this page, its source/edit/verification files, progress record and reports belong to this commit. Publication outcome is recorded in automation memory after pushing. The saved automation remains Astra High and ACTIVE; runtime model identity was not independently verified. No paid generation or external repository installation was used. Initial available space was 27 GiB; the isolated build uses approximately 136 MiB and is removed after verification. No browser tabs or dialogs were opened. Pause remains conditional on full cycle 8 completion and successful final push; maintenance has not begun.
+
+Full isolated build passed: 723 generated pages, 840 audited pages, 39 recovered-page and 17 high-risk checks. All 165 reviewed pages survived byte-for-byte. One existing original-prompt grammar notice remains; all other audit categories reported zero issues.

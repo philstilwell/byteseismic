@@ -2,8 +2,8 @@
   "cycle": 8,
   "startIndex": 150,
   "pageCount": 50,
-  "reviewed": 14,
-  "pending": 36,
+  "reviewed": 15,
+  "pending": 35,
   "pages": [
     {
       "pagePath": "/ethics/what-are-ethics/",
@@ -202,14 +202,16 @@
     {
       "pagePath": "/philosophical-inquiry/dangers-carrot-stick/",
       "title": "Dangers: Carrot & Stick",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 6382,
           "title": "Dangers: Carrot &amp; Stick",
           "url": "http://byteseismic.com/2024/04/16/dangers-carrot-stick/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/dangers-carrot-stick-verification-2026-11-21.json",
+      "report": "quality/editorial-audit-2026-11-21.json"
     },
     {
       "pagePath": "/philosophical-inquiry/dangers-the-notion-of-fate/",
@@ -632,6 +634,6 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-20",
-  "updatedAt": "2026-11-20"
+  "lastUpdated": "2026-11-21",
+  "updatedAt": "2026-11-21"
 }
