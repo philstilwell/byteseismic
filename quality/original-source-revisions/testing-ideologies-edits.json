@@ -1,0 +1,94 @@
+{
+  "pageFile": "philosophical-inquiry/testing-ideologies/index.html",
+  "wordpressId": 676,
+  "snapshot": "testing-ideologies-wordpress-676.html",
+  "sourceUrl": "http://byteseismic.com/2024/02/14/testing-ideologies/",
+  "sourceLabel": "Original WordPress conversation, February 14, 2024",
+  "shellRevision": "33f30e596885d1a6b00edd0c505ca0331982d9d6",
+  "date": "2026-11-21",
+  "sourceSha256": "3ea3810670d3fd6a33014ac87bc80464fc095da919d7cbf15ff52e09c1798096",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "Testing consistency, truth and consequences",
+    "Testing religious promises fairly and rigorously",
+    "Contradictions and other defects in reasoning",
+    "Two eight-item quizzes with answer keys",
+    "Two sets of fifteen discussion questions"
+  ],
+  "introHeading": "What would count against an ideology?",
+  "intro": "The five original prompts and ten separate responses are restored. Editorial revisions distinguish internal contradiction from empirical failure, retain the curator’s challenge to untested religious promises, and make the quizzes agree with the distinctions being taught.",
+  "description": "Evaluate ideological consistency, empirical predictions and religious promises using explicit evidence and fair tests.",
+  "highlights": [
+    "A coherent set of beliefs can still be false.",
+    "Respect for believers does not exempt factual promises from scrutiny.",
+    "Specify outcomes and conditions before testing, and distinguish contradictions from other failures."
+  ],
+  "replacements": {
+    "1.1.0": "Separate three questions: can the claims all be true together, are they supported by evidence, and are their consequences acceptable? These tests interact, but success on one does not guarantee success on the others. A coherent fiction is still a fiction; an attractive goal does not establish that a policy will achieve it.",
+    "1.1.10": "Counterarguments: Examine the strongest objections and the actual replies. Repeating a claim, insulating it from every possible objection or retaining loyal supporters is not evidence that criticism has been answered.",
+    "1.1.18": "Ethical Foundations: Identify the values being defended and the reasons offered for them. Agreement with a popular moral standard is not by itself proof, and disagreement is not automatically incoherence.",
+    "1.1.21": "Adaptability: Distinguish revisions prompted by evidence from changes made only to evade a failed test. State what changed, why, and what the revised claim now predicts. Some core principles may themselves need revision.",
+    "1.2.4": "Explanatory power: Check whether the account explains evidence rather than selecting only congenial facts. This concerns explanatory adequacy and truth, not merely internal consistency.",
+    "1.2.5": "Predictive ability: Record predictions in advance and assess failures as well as successes. Failure can reveal false assumptions or poor application even when an argument is logically consistent.",
+    "1.2.9": "Source analysis: Investigate relevant expertise, methods and incentives. A biased advocate can make a true claim; an admirable origin does not make a doctrine true. Use this information to guide scrutiny rather than substitute for it.",
+    "2.1.0": "Yes: when a religion advertises an observable benefit but rules out a fair test of that very benefit, skepticism is warranted. Refusal does not prove that the promise fails or establish the claimant’s motive; it leaves the evidential burden unmet. First specify the promise, since a claim about a measurable outcome needs a different assessment from an unrestricted metaphysical claim.",
+    "2.1.5": "Testing people requires consent, appropriate privacy and safeguards against harm. Respecting their right to believe does not require exempting public factual claims from criticism or protecting those claims against unfavorable results.",
+    "2.1.8": "Identify Testable Claims: Write down the promised outcome, eligible participants, conditions, time frame and what would count as failure before collecting results. If the promise concerns healing, improvement in reported calm would test a different claim; do not quietly substitute a more convenient outcome.",
+    "2.1.9": "Interdisciplinary Research: Invite proponents to confirm that the test represents their claim, and independent researchers to scrutinize the design. Agree on fair comparisons and analysis beforehand so neither side can redefine success after seeing the result.",
+    "2.1.10": "Longitudinal Studies: Following people over time can reveal patterns, but association alone does not establish a religious cause. Consider prior differences, selection, changes in participation and other explanations; a suitable comparison group matters.",
+    "2.1.15": "Respectful inquiry may legitimately test whether a claim is false. Protect participants and describe limitations honestly while allowing results to support, weaken or leave the promise unresolved. Respect concerns how the test is conducted, not a promise to spare the doctrine from refutation.",
+    "2.1.16": "A fair test neither presumes religious promises false nor grants them immunity. Agree on the claim and criteria, make the procedure open to criticism, and report failures as readily as successes. A claimant who rejects every possible unfavorable result has withdrawn the promise from empirical testing, not supplied evidence for it.",
+    "2.2.0": "Refusal to test an advertised observable promise can reasonably lower confidence, especially if success stories are accepted as evidence while unfavorable comparisons are forbidden. It is not proof of nonfulfillment. The challenge is to design a test of the actual promise rather than replace it with a different question:",
+    "2.2.4": "Faith and evidence: A tradition may value trust or personal experience. That preference does not establish the truth of a public factual promise. If favorable observations are cited, ask why comparable unfavorable observations would not count.",
+    "2.2.7": "Qualitative Research: Interviews can clarify what adherents mean by fulfillment and reveal overlooked outcomes. They do not by themselves establish how often a benefit occurs or what causes it.",
+    "2.2.8": "Case Studies: Carefully documented cases can generate hypotheses and sometimes challenge a universal claim. Selected successes cannot establish a general rate of fulfillment; record failures and the selection process too.",
+    "2.2.10": "Keeping the Focus: Study well-being or social cohesion when those are the promised benefits. If the advertised promise concerns something else, label such work as a separate inquiry rather than a successful test of the original claim.",
+    "2.2.12": "Reluctance can reflect distrust, practical barriers or disagreement over the claim, so motives should not be guessed. Still, none of those possibilities supplies the missing evidence. Ask which fair procedure the claimant would accept and which outcome would reduce their confidence.",
+    "2.2.14": "A rigorous test needs a specified claim, agreed outcomes, appropriate comparisons and a plan for reporting all results. Dialogue can make the test fairer; it must not make the result predetermined or convert methodological difficulty into immunity from scrutiny.",
+    "3.1.0": "A strict internal contradiction commits an ideology to claims that cannot both hold in the same sense under the same conditions. Several related defects are listed below, but failed predictions, bad arguments and practical tradeoffs are not all contradictions. These are diagnostic categories, not an empirical ranking of prevalence:",
+    "3.1.2": "Inconsistent Application of Principles: An ideology may demand equal treatment under a stated rule while exempting favored members without a relevant distinction. Failure to achieve an ideal is not automatically a contradictory belief; ask whether the exception is endorsed, justified or acknowledged as a failure.",
+    "3.1.3": "Logical Fallacies in Argumentation: A straw man or unsupported inference weakens the offered justification, but does not necessarily make the conclusion false or the doctrine internally contradictory. Relevant expert evidence and supported causal chains are not fallacious merely because authority or consequences are mentioned.",
+    "3.1.4": "Utopianism vs. Pragmatism: Unrealistic assumptions can make a plan infeasible. This becomes an internal contradiction only if the ideology also accepts constraints that rule out its promised result; otherwise it may be an empirical error or an unresolved aspiration.",
+    "3.1.5": "Historical Revisionism: Changing an account in light of better evidence is legitimate. Selectively denying contrary evidence to protect an ideology is the defect at issue. It may produce factual error without an explicit internal contradiction.",
+    "3.1.6": "Ethical Inconsistencies: Endorsing an exception to an allegedly exceptionless rule is contradictory. Advocating peace while allowing defensive force may instead involve a stated priority or distinction; evaluate that rationale before declaring inconsistency.",
+    "3.1.7": "Theoretical vs. Practical Discrepancies: A promised result may fail because of false assumptions, poor implementation or changed conditions. Compare those explanations with the evidence rather than automatically treating every failure as a logical contradiction.",
+    "3.1.8": "Dynamic Social Contexts: Changed conditions can make a policy ineffective or reveal that a principle was stated too broadly. Age or unpopularity alone does not make a claim internally inconsistent.",
+    "3.1.9": "Conflicting Interpretations: Rival schools can disagree while each remains internally consistent. A contradiction arises within a position only when it commits to the incompatible interpretations together.",
+    "3.1.10": "Economic Unrealism: An economic claim may conflict with observed constraints. Separate this empirical failure from internal contradiction, which would require the theory itself to affirm incompatible assumptions or outcomes.",
+    "3.2.0": "The following patterns can undermine an ideology, but not all are internal contradictions. Keep inconsistency, unsupported justification, ambiguity and empirical failure distinct:",
+    "3.2.2": "Circular Reasoning: A claim is supported by a premise whose justification already assumes that claim. Example: “The leader is always right because our doctrine says so; the doctrine is true because the leader guarantees it.”",
+    "3.2.6": "Vagueness: A term lacks enough precision for the argument at hand. Different legitimate meanings are not themselves inconsistent; a problem arises when an inference silently changes meanings.",
+    "3.2.9": "Prioritization Clash: Values can conflict in application without contradiction if the ideology has a defensible way to weigh them. The inconsistency arises when it insists that incompatible demands are both absolute in the same case.",
+    "3.2.10": "Unintended Consequences: A policy can cause the opposite of what was promised. For example, an intervention intended to prevent conflict might instead escalate it. This is an outcome to investigate, not automatically a logical contradiction.",
+    "4.1.5": "4. An ideology requires equal treatment under a rule but explicitly exempts its leaders without a relevant justification. This illustrates: A) Ethical consistency B) Inconsistent application of principles C) Logical consistency D) Pragmatic feasibility",
+    "4.2.1": "Instructions: Identify the reasoning defect or practical problem in each scenario. These are not all strict internal contradictions. Choose the closest answer from the options below.",
+    "4.2.19": "A policy intended to reduce conflict instead causes an escalation its advocates did not anticipate.",
+    "4.2.20": "When records show their group initiated an attack, supporters alter the chronology to portray it as retaliation.",
+    "5.1.4": "Historical Revisionism and Ideology: How does evidence-based revision of history differ from changing the record to protect a doctrine, and how does each affect credibility?",
+    "5.2.9": "Are some ideological practices more likely to conceal contradictions than others? What evidence would support that comparison?"
+  },
+  "countChecks": [
+    {
+      "name": "discussion lists",
+      "selector": "#prompt-5 .original-response ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    },
+    {
+      "name": "quiz lists",
+      "selector": "#prompt-4 .original-response ol",
+      "child": "li",
+      "expected": [
+        8,
+        8,
+        8
+      ]
+    }
+  ]
+}

@@ -1,0 +1,472 @@
+{
+  "runTime": "2026-11-21T14:37:59.938867+00:00",
+  "dailyTarget": 20,
+  "alreadyCompletedToday": [
+    "/philosophical-inquiry/dangers-carrot-stick/"
+  ],
+  "newPages": [
+    {
+      "pagePath": "/philosophical-inquiry/dangers-the-notion-of-fate/",
+      "wordpressId": 6725,
+      "sourceUrl": "http://byteseismic.com/2024/04/20/dangers-the-notion-of-fate/",
+      "snapshot": "dangers-the-notion-of-fate-wordpress-6725.html",
+      "sourceSha256": "a8550cc0f1753861bd4c8a18ed7be062a73ac5afe9b41d6f372d6142b891882d",
+      "responseDecisions": [
+        {
+          "response": "1.1",
+          "decision": "Six risk categories retained; distinguished causal determinism from futile effort and qualified psychological claims."
+        },
+        {
+          "response": "1.2",
+          "decision": "Five possible harms retained; separated causal contribution from unlimited blame and added study-effort example."
+        },
+        {
+          "response": "2.1",
+          "decision": "Six control mechanisms retained; corrected apparent absolution, compulsory conformity and passivity-only account."
+        },
+        {
+          "response": "2.2",
+          "decision": "Five mechanisms in the original paragraph retained; clarified conditional rewards and purpose versus manipulation."
+        },
+        {
+          "response": "3.1",
+          "decision": "Seven strategies retained; made prediction checks concrete, qualified mindfulness and immunity, distinguished uncertainty from indeterminism."
+        },
+        {
+          "response": "3.2",
+          "decision": "Seven numbered strategies within original paragraph retained; corrected growth-versus-determinism inference without changing order."
+        },
+        {
+          "response": "4.1",
+          "decision": "Ten quiz questions and final key retained; qualified six items dependent on overstatements about fate."
+        },
+        {
+          "response": "4.2",
+          "decision": "Ten quiz questions and final key retained; repaired missing-options question and corrected determinism conflation."
+        },
+        {
+          "response": "5.1",
+          "decision": "Fifteen discussion questions retained; corrected one question conflating determinism and passivity."
+        },
+        {
+          "response": "5.2",
+          "decision": "Fifteen discussion questions retained; corrected one growth-mindset question; fourteen others retained verbatim as relevant open questions."
+        }
+      ],
+      "verification": {
+        "pagePath": "/philosophical-inquiry/dangers-the-notion-of-fate/",
+        "sourceSha256": "a8550cc0f1753861bd4c8a18ed7be062a73ac5afe9b41d6f372d6142b891882d",
+        "originalPrompts": 5,
+        "originalHeadings": 5,
+        "sourceColumns": 10,
+        "modelResponses": 10,
+        "blocksRetainedVerbatim": 118,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 35,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "discussion lists": [
+            15,
+            15
+          ],
+          "quiz lists": [
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        "sha256": "21b87a3d15380434ccfda7ee63cb91db36243e9b119ffce4af7edb3f78f6e9b7",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "rendererReproduces": true,
+        "isolatedBuildVerified": true
+      },
+      "remainingConcerns": [
+        "No browser/mobile/accessibility inspection."
+      ]
+    },
+    {
+      "pagePath": "/philosophical-inquiry/testing-ideologies/",
+      "wordpressId": 676,
+      "sourceUrl": "http://byteseismic.com/2024/02/14/testing-ideologies/",
+      "snapshot": "testing-ideologies-wordpress-676.html",
+      "sourceSha256": "3ea3810670d3fd6a33014ac87bc80464fc095da919d7cbf15ff52e09c1798096",
+      "responseDecisions": [
+        {
+          "response": "1.1",
+          "decision": "Eight evaluation groups retained; separated consistency, truth and ethics and distinguished evidence-driven revision from evasion."
+        },
+        {
+          "response": "1.2",
+          "decision": "Coherence/veracity/additional headings retained; clarified predictive failure versus inconsistency and source motive versus refutation."
+        },
+        {
+          "response": "2.1",
+          "decision": "Answered curator suspicion directly; preserved five sections while adding advance criteria, controls, confounding and legitimate refutation."
+        },
+        {
+          "response": "2.2",
+          "decision": "Preserved challenge and approach lists; corrected substitution of well-being for the advertised promise and distinguished explanatory motives from evidence."
+        },
+        {
+          "response": "3.1",
+          "decision": "Ten diagnostic categories retained; distinguished contradictions from factual error, infeasibility, historical revision and rival interpretations."
+        },
+        {
+          "response": "3.2",
+          "decision": "Five grouped patterns retained; repaired circularity example and distinctions concerning vagueness, value conflicts and unintended effects."
+        },
+        {
+          "response": "4.1",
+          "decision": "Eight multiple-choice questions and final key preserved; made equality exception question precise; other seven retained as relevant."
+        },
+        {
+          "response": "4.2",
+          "decision": "Eleven choices, eight scenarios and final key preserved; repaired two scenarios to match unintended-consequences and rewriting-history answers."
+        },
+        {
+          "response": "5.1",
+          "decision": "Fifteen questions retained; clarified legitimate historical revision versus distortion."
+        },
+        {
+          "response": "5.2",
+          "decision": "Fifteen questions retained; replaced unsupported comparison premise and typo in one question; fourteen retained verbatim."
+        }
+      ],
+      "verification": {
+        "pagePath": "/philosophical-inquiry/testing-ideologies/",
+        "sourceSha256": "3ea3810670d3fd6a33014ac87bc80464fc095da919d7cbf15ff52e09c1798096",
+        "originalPrompts": 5,
+        "originalHeadings": 5,
+        "sourceColumns": 10,
+        "modelResponses": 10,
+        "blocksRetainedVerbatim": 144,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 42,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "discussion lists": [
+            15,
+            15
+          ],
+          "quiz lists": [
+            8,
+            8,
+            8
+          ]
+        },
+        "sha256": "f4d15f8d1c9ad36c31b260cfbd97d2a2e9b0b6aa0e4bb275713c0171428e46bf",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "rendererReproduces": true,
+        "isolatedBuildVerified": true
+      },
+      "remainingConcerns": [
+        "No browser/mobile/accessibility inspection."
+      ]
+    },
+    {
+      "pagePath": "/rational-thought/scope-of-influence/",
+      "wordpressId": 5195,
+      "sourceUrl": "http://byteseismic.com/2024/04/04/scope-of-influence/",
+      "snapshot": "scope-of-influence-wordpress-5195.html",
+      "sourceSha256": "b229c290dd871ca555dcbb0a6316fa119d59fb7631c31a9e390ce2708917efef",
+      "responseDecisions": [
+        {
+          "response": "1.1",
+          "decision": "Five benefits retained; qualified bottom-up superiority, scaling and automatic accumulation; added reading-group feedback example."
+        },
+        {
+          "response": "1.2",
+          "decision": "Three benefits and three combined-action recommendations retained; clarified workload, limited control and realistic influence."
+        },
+        {
+          "response": "2.1",
+          "decision": "Six motivation categories and five balancing practices retained; replaced diagnostic assumptions with concrete calendar/credit/reflection tests."
+        },
+        {
+          "response": "2.2",
+          "decision": "Five pressures and five balancing suggestions retained; acknowledged mixed motives and removed guarantee against exhaustion."
+        },
+        {
+          "response": "3.1",
+          "decision": "Six strategies retained; introduced explicit tradeoffs, example response schedule and separate impact/relationship measures."
+        },
+        {
+          "response": "3.2",
+          "decision": "Six strategy groups and two reminders retained; separated reciprocal relationships from audience engagement and public mission."
+        },
+        {
+          "response": "4.1",
+          "decision": "Seven multiple-choice questions and final key retained as relevant checks; restored explicit numbering across seven original single-item lists."
+        },
+        {
+          "response": "4.2",
+          "decision": "Seven questions and final key retained; repaired ambiguous ripple-effect example, false exclusion of external validation, and stray character."
+        },
+        {
+          "response": "5.1",
+          "decision": "Fifteen discussion questions retained; qualified one causal premise about burnout."
+        },
+        {
+          "response": "5.2",
+          "decision": "Fifteen discussion questions retained; revised one false dichotomy about mixed motives."
+        }
+      ],
+      "verification": {
+        "pagePath": "/rational-thought/scope-of-influence/",
+        "sourceSha256": "b229c290dd871ca555dcbb0a6316fa119d59fb7631c31a9e390ce2708917efef",
+        "originalPrompts": 5,
+        "originalHeadings": 5,
+        "sourceColumns": 10,
+        "modelResponses": 10,
+        "blocksRetainedVerbatim": 143,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 33,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "discussion lists": [
+            15,
+            15
+          ],
+          "quiz lists": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            7,
+            7,
+            7
+          ]
+        },
+        "sha256": "ad323ee62ff2dcf8d0843862f69be2f9e48609e9af87da38d466d979f1f98d6b",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "rendererReproduces": true,
+        "isolatedBuildVerified": true
+      },
+      "remainingConcerns": [
+        "No browser/mobile/accessibility inspection."
+      ]
+    }
+  ],
+  "additionalPagesAfterThese": 16,
+  "officialCompleted": 150,
+  "officialRemaining": 196,
+  "cycle": 8,
+  "cursor": 150,
+  "advanced": false,
+  "automationUpdate": "20 pages/calendar day America/New_York; model gpt-6-astra/high, schedule and other settings preserved.",
+  "delegation": "Optional authorization requested via async tool; no reply received and no delegation performed. Sequential work remains authorized.",
+  "research": [
+    {
+      "url": "https://plato.stanford.edu/entries/determinism-causal/",
+      "scope": "Causal determinism versus fatalism; no claimed empirical psychological effect sizes."
+    }
+  ],
+  "publication": "Commit/push outcome recorded in automation memory after publication.",
+  "buildResult": {
+    "isolatedBuild": true,
+    "reviewedPagesPreservedByteForByte": 168,
+    "preservedPagePaths": [
+      "/philosophers/empiricists/",
+      "/philosophy-of-mind/what-is-consciousness/",
+      "/philosophers/analytic-philosophers/",
+      "/philosophy-of-science/the-use-of-proxies/",
+      "/philosophy-of-science/methodological-naturalism/",
+      "/philosophers/david-hume/",
+      "/philosophers/baruch-spinoza/",
+      "/philosophers/immanuel-kant/",
+      "/political-philosophy/critical-race-theory/",
+      "/philosophers/ancient-philosophers/",
+      "/rational-thought/calculating-risks/",
+      "/philosophy-of-mind/elitzur-on-consciousness/",
+      "/rational-thought/depth-or-width-of-knowledge/",
+      "/epistemology/adequate-evidence/",
+      "/metaphysics/jeremy-sherman-on-emergence/",
+      "/political-philosophy/identity-politics/",
+      "/philosophy-of-science/orthogonality/",
+      "/philosophers/rene-descartes/",
+      "/philosophers/daniel-dennett/",
+      "/philosophers/soren-kierkegaard/",
+      "/philosophy-of-science/the-power-of-convergence/",
+      "/philosophy-of-science/improving-science/",
+      "/philosophers/plato-2/",
+      "/philosophers/socrates/",
+      "/philosophers/thomas-hobbes/",
+      "/political-philosophy/the-social-contract/",
+      "/humanistic-philosophies/what-is-existentialism/",
+      "/philosophers/gottfried-wilhelm-leibniz/",
+      "/philosophers/thomas-aquinas/",
+      "/epistemology/rationality-discussion/",
+      "/introduction/miscellaneous-philosophers/",
+      "/philosophers/martin-heidegger/",
+      "/philosophers/phenomenologists/",
+      "/philosophy-of-science/p-value-issues/",
+      "/philosophers/epicurus/",
+      "/political-philosophy/elements-of-a-stable-state/",
+      "/philosophers/duns-scotus/",
+      "/philosophers/william-james/",
+      "/rational-thought/1-at-99-5-or-5-at-95/",
+      "/rational-thought/avoiding-logical-fallacies/",
+      "/philosophers/bertrand-russell/",
+      "/philosophers/jacques-derrida/",
+      "/philosophers/john-locke/",
+      "/philosophers/edmund-husserl/",
+      "/philosophers/willard-van-orman-quine/",
+      "/philosophers/charles-sanders-peirce/",
+      "/philosophers/michel-foucault/",
+      "/philosophers/al-ghazali/",
+      "/philosophers/anselm-of-canterbury/",
+      "/philosophers/arthur-schopenhauer/",
+      "/philosophers/at-the-edge-of-miracles/",
+      "/philosophers/augustine-of-hippo/",
+      "/philosophers/averroes/",
+      "/philosophers/avicenna/",
+      "/philosophers/cicero/",
+      "/philosophers/confucius/",
+      "/philosophers/continental-philosophers/",
+      "/philosophers/critical-theorists/",
+      "/philosophers/dogen/",
+      "/philosophers/elizabeth-anscombe/",
+      "/philosophers/epictetus/",
+      "/philosophers/existentialists/",
+      "/philosophers/friedrich-nietzsche/",
+      "/philosophers/g-e-moore/",
+      "/philosophers/george-berkeley/",
+      "/philosophers/gottlob-frege/",
+      "/philosophers/hannah-arendt/",
+      "/philosophers/heraclitus/",
+      "/philosophers/jean-jacques-rousseau/",
+      "/philosophers/john-dewey/",
+      "/philosophers/john-rawls/",
+      "/philosophers/john-stuart-mill/",
+      "/philosophers/judith-butler/",
+      "/philosophers/jurgen-habermas/",
+      "/philosophers/karl-marx/",
+      "/philosophers/laozi/",
+      "/philosophers/maimonides/",
+      "/philosophers/marcus-aurelius/",
+      "/philosophers/mary-wollstonecraft/",
+      "/philosophers/maurice-merleau-ponty/",
+      "/philosophers/mencius/",
+      "/philosophers/mozi/",
+      "/philosophers/nagarjuna/",
+      "/philosophers/niccolo-machiavelli/",
+      "/philosophers/parmenides/",
+      "/philosophers/plato/",
+      "/philosophers/plotinus/",
+      "/philosophers/pragmatists/",
+      "/philosophers/rationalists/",
+      "/philosophers/saul-kripke/",
+      "/philosophers/scholastics/",
+      "/philosophers/seneca/",
+      "/philosophers/shankara/",
+      "/philosophers/theodor-adorno/",
+      "/philosophers/theodor-w-adorno/",
+      "/philosophers/walter-benjamin/",
+      "/philosophers/william-of-ockham/",
+      "/philosophers/xunzi/",
+      "/philosophers/zhuangzi/",
+      "/philosophers/aquinas-five-ways/",
+      "/philosophers/philosopher-club-membership/",
+      "/philosophers/philosophers-or-philosophy/",
+      "/philosophers/philosophical-gradients/",
+      "/philosophical-inquiry/dangers-untestable-ideologies/",
+      "/philosophy-of-science/observable-regularity/",
+      "/epistemology/abduction-utility-and-issues/",
+      "/ethics/intrinsic-human-value/",
+      "/philosophy-of-language/what-is-etymology/",
+      "/epistemology/avoiding-single-cause-dogmatism/",
+      "/epistemology/collapsing-epistemological-terms/",
+      "/ethics/finite-agency-moral-demand-and-happiness/",
+      "/rational-thought/perverse-incentives/",
+      "/epistemology/doxastic-voluntarism/",
+      "/epistemology/the-burden-of-proof/",
+      "/humanistic-philosophies/can-humans-change/",
+      "/humanistic-philosophies/do-humans-have-an-essence/",
+      "/epistemology/epistemological-case-studies/",
+      "/ethics/moral-black-boxes/",
+      "/economics/economics-core-concepts/",
+      "/miscellany/complexity-theory/",
+      "/philosophical-inquiry/personal-truth/",
+      "/rational-thought/regret-assessment/",
+      "/epistemology/belief-evidence-graphic/",
+      "/epistemology/pascals-wager/",
+      "/epistemology/the-inductive-paradox/",
+      "/humanistic-philosophies/christian-apologetics/",
+      "/philosophical-inquiry/common-sense-blunders/",
+      "/philosophical-inquiry/packaged-vs-eclectic-ideologies/",
+      "/philosophical-inquiry/selective-pressures-on-ideologies/",
+      "/philosophical-inquiry/the-danger-of-resulting/",
+      "/philosophy-of-science/is-logic-acquired-inductively/",
+      "/epistemology/case-6-insatiable-loops/",
+      "/ethics/fictional-meta-ethics-debate/",
+      "/epistemology/decision-making/",
+      "/philosophical-inquiry/dangers-strong-leaders/",
+      "/philosophical-inquiry/dangers-co-opted-wonders/",
+      "/philosophical-inquiry/dangers-half-searches/",
+      "/ethics/ethics-core-concepts/",
+      "/philosophy-of-language/gradient-concepts-and-binary-terms/",
+      "/epistemology/epistemology-core-concepts/",
+      "/philosophical-inquiry/do-i-need-a-worldview/",
+      "/philosophy-of-language/core-concepts-philosophy-of-language/",
+      "/rational-thought/training-data-bias/",
+      "/ethics/coherent-moral-systems/",
+      "/epistemology/counterfactual-reasoning/",
+      "/philosophical-inquiry/dangers-narrative/",
+      "/philosophical-inquiry/dangers-ontological-buffet/",
+      "/philosophical-inquiry/dangers-unnuanced-conclusions/",
+      "/ethics/meta-ethics/",
+      "/ethics/moral-systems-required-elements/",
+      "/ethics/what-are-ethics/",
+      "/ethics/is-vs-ought/",
+      "/philosophical-inquiry/how-minds-are-changed/",
+      "/economics/economic-comparisons/",
+      "/epistemology/preponderance-of-evidence/",
+      "/philosophy-of-language/what-is-language/",
+      "/miscellany/domains-of-aesthetics/",
+      "/philosophical-inquiry/conspiracies-misunderstanding-human-nature/",
+      "/philosophy-of-mind/functionalism-subjectivity/",
+      "/philosophy-of-mind/subjective-objective-free-will/",
+      "/economics/wealth-creation/",
+      "/epistemology/case-1-credence-complexity/",
+      "/epistemology/case-4-recursive-credences/",
+      "/humanistic-philosophies/accounting-for-x/",
+      "/philosophical-inquiry/dangers-carrot-stick/",
+      "/philosophical-inquiry/dangers-the-notion-of-fate/",
+      "/philosophical-inquiry/testing-ideologies/",
+      "/rational-thought/scope-of-influence/"
+    ],
+    "priorPagesPreservationOnly": true,
+    "inheritedFilesHashPreserved": 476,
+    "trackerUnchanged": true,
+    "buildLog": "Dialectical preservation check passed for all 39 recovered pages, including 17 high-risk regression cases.\nSite audit: pages=840 broken_links=0 duplicate_ids=0 prompt_number_issues=0 orphans=0 oversized_assets=0 style_scars=0 grammar_scars=1 seo_issues=0 json_ld_issues=0 sitemap_issues=0 robots_issues=0\nGenerated or updated 723 content pages.\nVisible hierarchy sections: 15\nExpanded archive years: 2\n"
+  },
+  "dailyVerified": 4,
+  "dailyRemaining": 16,
+  "batchReviewed": 18,
+  "batchRemaining": 32,
+  "substantiveReviewed": 168,
+  "notYetReviewed": 178,
+  "nextPage": "Dangers: Ideologies of Mystery"
+}

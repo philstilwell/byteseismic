@@ -1,0 +1,33 @@
+{
+  "pagePath": "/philosophical-inquiry/testing-ideologies/",
+  "sourceSha256": "3ea3810670d3fd6a33014ac87bc80464fc095da919d7cbf15ff52e09c1798096",
+  "originalPrompts": 5,
+  "originalHeadings": 5,
+  "sourceColumns": 10,
+  "modelResponses": 10,
+  "blocksRetainedVerbatim": 144,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 42,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "discussion lists": [
+      15,
+      15
+    ],
+    "quiz lists": [
+      8,
+      8,
+      8
+    ]
+  },
+  "sha256": "f4d15f8d1c9ad36c31b260cfbd97d2a2e9b0b6aa0e4bb275713c0171428e46bf",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "rendererReproduces": true,
+  "isolatedBuildVerified": true
+}

@@ -1,0 +1,34 @@
+{
+  "pagePath": "/philosophical-inquiry/dangers-the-notion-of-fate/",
+  "sourceSha256": "a8550cc0f1753861bd4c8a18ed7be062a73ac5afe9b41d6f372d6142b891882d",
+  "originalPrompts": 5,
+  "originalHeadings": 5,
+  "sourceColumns": 10,
+  "modelResponses": 10,
+  "blocksRetainedVerbatim": 118,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 35,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "discussion lists": [
+      15,
+      15
+    ],
+    "quiz lists": [
+      10,
+      10,
+      10,
+      10
+    ]
+  },
+  "sha256": "21b87a3d15380434ccfda7ee63cb91db36243e9b119ffce4af7edb3f78f6e9b7",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "rendererReproduces": true,
+  "isolatedBuildVerified": true
+}

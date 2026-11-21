@@ -12,7 +12,7 @@ Read each prompt and its entire response together. Improve the actual response w
 
 ## Daily batch and completion
 
-Read `quality/editorial-audit-tracker.json` first and work only on `currentBatch.pages`, normally 50 pages. Continue from the saved cursor on subsequent days; the reset is a one-time change, not a daily instruction to restart.
+Read `quality/editorial-audit-tracker.json` first. Effective November 21, 2026, review 20 previously unreviewed pages per calendar day in America/New_York. Count pages fully reviewed and verified earlier that day toward the total; source recovery and automated checks alone do not count. Work sequentially within `currentBatch.pages`, normally 50 pages. The daily target does not reset or resize the saved tracker batch. Maintain per-page partial-batch progress. If a day finishes a batch, verify it completely and advance under the conditions below before continuing the newly current batch toward the daily total. If fewer than 20 pages remain in cycle 8, finish only those remaining pages and follow the endpoint instructions. Continue from the saved cursor; never restart the queue. Report any genuine blocker and exact shortfall honestly; do not routinely stop after one page.
 
 Check each revised page against its original source for structure, prompt completeness and order, response relevance, curator exchanges, and page-specific treatment. Automated structural scores do not establish editorial quality. Keep a per-page report identifying the original source, substantive changes, preservation checks, and remaining concerns.
 

@@ -1,0 +1,40 @@
+{
+  "pagePath": "/rational-thought/scope-of-influence/",
+  "sourceSha256": "b229c290dd871ca555dcbb0a6316fa119d59fb7631c31a9e390ce2708917efef",
+  "originalPrompts": 5,
+  "originalHeadings": 5,
+  "sourceColumns": 10,
+  "modelResponses": 10,
+  "blocksRetainedVerbatim": 143,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 33,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "discussion lists": [
+      15,
+      15
+    ],
+    "quiz lists": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      7,
+      7,
+      7
+    ]
+  },
+  "sha256": "ad323ee62ff2dcf8d0843862f69be2f9e48609e9af87da38d466d979f1f98d6b",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "rendererReproduces": true,
+  "isolatedBuildVerified": true
+}

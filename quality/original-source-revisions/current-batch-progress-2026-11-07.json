@@ -2,8 +2,8 @@
   "cycle": 8,
   "startIndex": 150,
   "pageCount": 50,
-  "reviewed": 15,
-  "pending": 35,
+  "reviewed": 18,
+  "pending": 32,
   "pages": [
     {
       "pagePath": "/ethics/what-are-ethics/",
@@ -216,38 +216,44 @@
     {
       "pagePath": "/philosophical-inquiry/dangers-the-notion-of-fate/",
       "title": "Dangers: The Notion of Fate",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 6725,
           "title": "Dangers: The Notion of Fate",
           "url": "http://byteseismic.com/2024/04/20/dangers-the-notion-of-fate/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/dangers-the-notion-of-fate-verification-2026-11-21.json",
+      "report": "quality/editorial-audit-2026-11-21-supplement.json"
     },
     {
       "pagePath": "/philosophical-inquiry/testing-ideologies/",
       "title": "Testing Ideologies",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 676,
           "title": "Testing Ideologies",
           "url": "http://byteseismic.com/2024/02/14/testing-ideologies/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/testing-ideologies-verification-2026-11-21.json",
+      "report": "quality/editorial-audit-2026-11-21-supplement.json"
     },
     {
       "pagePath": "/rational-thought/scope-of-influence/",
       "title": "Scope of Influence",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 5195,
           "title": "Scope of Influence",
           "url": "http://byteseismic.com/2024/04/04/scope-of-influence/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/scope-of-influence-verification-2026-11-21.json",
+      "report": "quality/editorial-audit-2026-11-21-supplement.json"
     },
     {
       "pagePath": "/philosophical-inquiry/dangers-ideologies-of-mystery/",

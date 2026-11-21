@@ -1,0 +1,104 @@
+{
+  "pageFile": "rational-thought/scope-of-influence/index.html",
+  "wordpressId": 5195,
+  "snapshot": "scope-of-influence-wordpress-5195.html",
+  "sourceUrl": "http://byteseismic.com/2024/04/04/scope-of-influence/",
+  "sourceLabel": "Original WordPress conversation, April 4, 2024",
+  "shellRevision": "33f30e596885d1a6b00edd0c505ca0331982d9d6",
+  "date": "2026-11-21",
+  "sourceSha256": "b229c290dd871ca555dcbb0a6316fa119d59fb7631c31a9e390ce2708917efef",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "Choosing a workable scale of change",
+    "Examining ambition without diagnosing motives",
+    "Balancing public reach and personal connection",
+    "Two seven-item quizzes and answer keys",
+    "Two sets of fifteen discussion questions"
+  ],
+  "introHeading": "Influence with room for a personal life",
+  "intro": "The five original prompts and separate responses are restored. The revised discussion considers both local and institutional action, examines mixed motives without treating ambition as pathology, and separates audience growth from reciprocal personal relationships.",
+  "description": "Balance public influence with meaningful relationships and choose a sustainable scale for social action.",
+  "highlights": [
+    "Local work can offer useful feedback, but scale alone does not determine effectiveness.",
+    "Motives can be mixed; evaluate commitments and consequences as well as intentions.",
+    "Audience size, public benefit and relationship quality are different measures."
+  ],
+  "replacements": {
+    "1.1.0": "Bottom-up work can be a more workable starting point when it offers a clear task, feedback and support. It is not automatically more productive or less exhausting. Policy reform and local organizing both face constraints; compare the problem, available skills, resources and likely effects rather than making scale itself the deciding criterion.",
+    "1.1.2": "Empowerment through Tangible Results: A bounded community project may make its results easier to observe. For example, improving a local reading group can produce feedback sooner than changing national education policy. Visibility can sustain motivation, but visible activity should still be checked for actual benefit.",
+    "1.1.4": "Flexibility and Innovation: A small initiative may test an idea cheaply and adapt to feedback. Success in one setting is a reason to investigate wider use, not proof that the same approach will work at a larger scale.",
+    "1.1.6": "Incremental Change Adds Up: Local efforts can combine through coordination and shared learning. They do not automatically accumulate into systemic reform; some barriers require institutions, funding or changes in law.",
+    "1.1.7": "The approaches can complement one another. A community may identify an access problem, test an improvement and use the results to support an institutional change. Choose the level at which the obstacle can actually be addressed, with realistic workloads and opportunities to recover.",
+    "1.2.0": "A bottom-up approach may make a large ambition manageable, especially when a person has a clear local contribution. The curator’s concern about discouragement is worth addressing without assuming that all young activists follow the same pattern:",
+    "1.2.1": "Sustainable action: A small project can offer shorter feedback cycles, but local volunteers can also become overextended. Agree on responsibilities, time limits and how work will be shared.",
+    "1.2.2": "Focus on what you can influence: Identify actions within your practical reach while acknowledging constraints. Influence is not total control, and an unsuccessful effort does not necessarily reflect a personal failure.",
+    "2.1.0": "Treat these as hypotheses for self-examination, not diagnoses of ambitious people. Motives are often mixed. Compare what you say matters with your calendar, broken commitments, reactions to criticism and the observations of people who know you:",
+    "2.1.2": "Recognition and Validation: Ask whether you would still do the useful work if someone else received the credit. Wanting recognition is not inherently unhealthy; it becomes a concern when attention repeatedly overrides the work or commitments to others.",
+    "2.1.3": "Escapism: Notice whether taking on public work repeatedly replaces a difficult private conversation. That pattern is a reason to investigate, not proof that the cause is insincere or the ambition a psychological defect.",
+    "2.1.8": "Mindful Reflection: Review a recent week: which relationships received time, which promises were deferred, and what prompted the deferrals? Concrete observations are more useful than simply asking whether you feel balanced.",
+    "2.1.12": "Outside Perspective: A trusted person can help identify patterns you miss. If persistent distress or relationship difficulties are involved, qualified professional support may help; a life coach and a licensed mental-health professional do not have interchangeable roles.",
+    "2.2.0": "Several possible pressures can contribute to neglect of close relationships. They should be examined through specific behavior rather than inferred merely from the size of someone’s ambitions:",
+    "2.2.1": "Idealism and the Desire to Be Indispensable:",
+    "2.2.2": "Desire to make a big difference: A useful question is whether you can accept an effective solution that does not put you at its center. Wanting to help and wanting recognition can coexist; neither motive can be diagnosed from ambition alone.",
+    "2.2.6": "Searching for meaning: A public mission can become one source of identity. Notice whether setbacks make every other part of life seem worthless, rather than assuming that anyone seeking a large purpose lacks self-worth.",
+    "2.2.12": "Self-awareness: Ask how helping others, recognition, belonging and avoidance each contribute to your choices. Mixed motives do not cancel useful work; assess whether the work helps and whether you keep commitments.",
+    "2.2.16": "Celebrate Small Victories: Acknowledge progress while monitoring workload, support and recovery time. Celebration alone cannot guarantee protection from exhaustion.",
+    "3.1.0": "Maximizing audience size and maintaining close relationships can compete for time; there is no formula that maximizes both. Start by choosing what the larger audience is for and which personal commitments deserve protected time. Then treat the following strategies as experiments:",
+    "3.1.6": "Authentic Engagement: Offer thoughtful replies within a stated time budget. You do not owe unlimited access to every reader, and an engaged audience is not a substitute for reciprocal friendships.",
+    "3.1.8": "Digital Boundaries: Try a specific rule—for example, two scheduled periods for public replies and an evening with notifications off. Adjust it with the people affected rather than treating constant availability as a requirement for influence.",
+    "3.1.11": "Use Different Platforms Selectively: A public channel and an occasional newsletter may serve different purposes. Add a platform only if its benefit justifies the maintenance time; diversification can otherwise multiply obligations.",
+    "3.1.14": "Regular Check-ins: Track public outcomes separately from relationships: who benefited from the work, which close commitments were kept, and whether the workload was sustainable. Follower counts cannot answer all three questions.",
+    "3.2.4": "What drives you? Identify the result you want a larger audience to produce. Reach can matter for public information, while deeper exchanges may matter for teaching or friendship. Decide which outcome you are pursuing before choosing a measure of success.",
+    "3.2.12": "Find meaning in close connections: Value shared time and mutual care without requiring loved ones to demonstrate growth or become part of your public mission.",
+    "4.2.2": "Which example clearly illustrates a ripple effect? a) Neighbors copy a successful local garden project in their own streets. b) A project meets once and stops. c) An idea is kept private. d) A public post receives no response.",
+    "4.2.10": "a) Neighbors copy a successful local garden project in their own streets.",
+    "4.2.3": "Which is NOT one of the pressures discussed as encouraging pursuit of a cosmic role? a) Fear of global issues b) Desire to make a big difference c) Contentment with a limited role and existing relationships d) Uncertainty about one’s place in the world",
+    "4.2.11": "c) Contentment with a limited role and existing relationships. External recognition was explicitly discussed as a possible motive.",
+    "4.2.6": "The passage suggests that finding a balance between maximizing your audience and finding meaning within a smaller social sphere involves: a) Focusing on quantity of followers over quality of interactions. b) Prioritizing impersonal online presence over building genuine relationships. c) Using technology strategically to cultivate a smaller, impactful community. d) Spreading your message thinly across every possible online platform.",
+    "5.1.0": "Under what conditions might the pursuit of broad societal change contribute to exhaustion, and how could local action either reduce or reproduce those pressures?",
+    "5.2.13": "How can we identify mixed motives for wanting to change the world and assess whether our actions help, even when our motives are imperfect?"
+  },
+  "countChecks": [
+    {
+      "name": "discussion lists",
+      "selector": "#prompt-5 .original-response ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    },
+    {
+      "name": "quiz lists",
+      "selector": "#prompt-4 .original-response ol",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        7,
+        7,
+        7
+      ]
+    }
+  ],
+  "orderedListStarts": {
+    "4.1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      1
+    ]
+  }
+}
