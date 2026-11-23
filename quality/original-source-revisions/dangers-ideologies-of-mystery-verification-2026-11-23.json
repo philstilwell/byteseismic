@@ -1,0 +1,29 @@
+{
+  "pagePath": "/philosophical-inquiry/dangers-ideologies-of-mystery/",
+  "sourceSha256": "64672d8b47734ba66f65e4ef2a7c46adda22d222f4a9ada17e7c61b0752aba59",
+  "originalPrompts": 3,
+  "originalHeadings": 3,
+  "sourceColumns": 6,
+  "modelResponses": 6,
+  "blocksRetainedVerbatim": 64,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 21,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "discussion questions": [
+      10,
+      10
+    ]
+  },
+  "sha256": "43d2e0da7ec4d348b9acd568489da94ef099a5103a79d67c96a00a7a014fe80c",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": 2,
+  "isolatedBuildVerified": true
+}

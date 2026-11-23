@@ -1,0 +1,81 @@
+{
+  "pageFile": "philosophical-inquiry/dangers-ideologies-of-mystery/index.html",
+  "wordpressId": 614,
+  "snapshot": "dangers-ideologies-of-mystery-wordpress-614.html",
+  "sourceUrl": "http://byteseismic.com/2024/02/13/dangers-ideologies-of-mystery/",
+  "sourceLabel": "Original WordPress conversation, February 13, 2024",
+  "shellRevision": "9d498ea5e1ff6366ed9eca3af7eb5ecb8e9ceb34",
+  "date": "2026-11-23",
+  "sourceSha256": "64672d8b47734ba66f65e4ef2a7c46adda22d222f4a9ada17e7c61b0752aba59",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "sectionModelLabels": {
+    "1": [
+      "Claude 2",
+      "Gemini"
+    ]
+  },
+  "explicitSourceColumnIndexes": {
+    "0": [
+      5,
+      6
+    ],
+    "1": [
+      7,
+      8
+    ],
+    "2": [
+      9,
+      10
+    ]
+  },
+  "headings": [
+    "When wonder is made to certify a belief",
+    "Responding without surrendering the evidence question",
+    "Two sets of ten discussion questions"
+  ],
+  "introHeading": "Wonder can invite inquiry without settling it",
+  "intro": "The original three prompts, six responses and two curator notes are restored. The revisions distinguish appreciating mystery from using it to certify a doctrine, and make the suggested replies more precise without losing their respectful tone.",
+  "description": "Examine the risks of treating mystery as evidence, with practical replies and discussion questions.",
+  "highlights": [
+    "A feeling of awe needs an additional argument to support a particular doctrine.",
+    "Mystery does not by itself entail manipulation, intolerance or extremism.",
+    "Respect for a person does not require equal confidence in every claim."
+  ],
+  "replacements": {
+    "1.1.1": "The intrinsic problem is an unsupported inference: a powerful experience of mystery does not, by itself, distinguish a true ideology from a false one. Two incompatible doctrines may evoke the same awe. Further harms depend on how a community uses that inference; they are risks, not inevitable features of wonder:",
+    "1.1.3": "Enabling ungrounded speculation. If every request for a reason is answered with an appeal to mystery, unsupported claims become difficult to challenge. Empirical claims need appropriate tests; philosophical claims still need intelligible arguments, even when experimental falsification is not applicable.",
+    "1.1.6": "Wonder can motivate inquiry and remain valuable when no answer is available. The problem is treating the absence of an explanation as support for a particular explanation. Ask what favors that doctrine over an equally mysterious rival, and what could count against it.",
+    "1.2.0": "Treating awe as evidence creates a gap between the experience and the conclusion. The individual and societal dangers below are possible consequences when that gap is protected from criticism, not outcomes that follow from every encounter with mystery:",
+    "1.2.3": "Cognitive dissonance: A conflict between a belief and contrary evidence can prompt defensive reasoning, but it can also prompt revision. The concern is a rule that automatically turns counterevidence into another sign of the doctrine’s depth.",
+    "1.2.4": "Isolation and extremism: If a community portrays every outside criticism as proof that outsiders cannot understand its mysteries, members may lose opportunities to correct errors. Isolation or extremism is a further possibility, not an intrinsic result of valuing the ineffable.",
+    "1.2.6": "Oppression and intolerance: A clear moral code can still be shielded from criticism by appeals to mystery. The danger is that harmful rules become immune to challenge; mystery does not establish that an ideology lacks moral rules or necessarily produces violence.",
+    "1.2.8": "Authoritarianism: A leader who claims exclusive access to hidden truth can use that claim to evade accountability. The practical questions are whether decisions can be challenged, evidence examined and authority withdrawn—not simply whether the leader speaks of mystery.",
+    "1.2.10": "The familiar slogan “Credo quia absurdum” is not a verbatim quotation from Tertullian. Its history should not be compressed into a settled claim that he endorsed belief merely because it is irrational. <a href=\"https://www.cambridge.org/core/journals/church-history/article/abs/i-believe-because-it-is-absurd-the-enlightenment-invention-of-tertullians-credo/69340C3AF8366E79BCF3BDD804DED82E\">Peter Harrison’s historical study</a> traces the later formulation. Whatever its provenance, a modern appeal to absurdity still needs an argument linking the experience to the proposition asserted.",
+    "1.2.11": "The central defect is evidential: mystery alone does not establish the doctrine. The social risks become more serious when that reasoning is combined with censorship, coercion or unaccountable authority. Keeping these steps separate makes the criticism more precise.",
+    "2.1.4": "“I can appreciate the wonder you find in this. Something can be unexplained without being permanently inexplicable, and neither possibility yet tells us which explanation is true.”",
+    "2.1.8": "“I want a reason to think this belief is true, beyond the feeling it creates. What evidence or argument favors it over another belief that produces the same sense of mystery?”",
+    "2.1.9": "This states an evidential requirement rather than presenting reasoning as merely a personal taste. The question is what supports the conclusion.",
+    "2.1.20": "“Different traditions can inspire similar awe while making incompatible claims. What would help us decide between them, or decide that we should suspend judgment?”",
+    "2.1.26": "Use the replies that fit the conversation rather than delivering all six as a script. A useful next step is to select one specific claim and agree on what would support or weaken it. Respectful wording helps, but cannot guarantee a productive exchange.",
+    "2.2.4": "You might say, “The beauty helps explain why the idea attracts us. What makes it more likely to be true than an incompatible idea that is equally beautiful?”",
+    "2.2.12": "Respect the person while evaluating the claim: “I take your experience seriously, but I do not yet see how it establishes this conclusion.” Mutual respect does not require treating all claims as equally supported.",
+    "2.2.15": "The aim is a clear exchange about reasons, not agreement at any cost. Offer to examine one concrete claim together, and leave room for uncertainty or for ending the conversation if it becomes coercive.",
+    "3.1.2": "The Value of Mystery: How can the allure of mystery make a belief feel credible without increasing its evidential support?",
+    "3.1.6": "Rationality and Intuition: When might an intuitive impression be useful as a starting hypothesis, and what checks should precede relying on it?",
+    "3.2.7": "Should we distinguish a belief’s personal significance from the evidence needed to present it as a publicly established truth? Why or why not?"
+  },
+  "countChecks": [
+    {
+      "name": "discussion questions",
+      "selector": "#prompt-3 .original-response ol",
+      "child": "li",
+      "expected": [
+        10,
+        10
+      ]
+    }
+  ]
+}

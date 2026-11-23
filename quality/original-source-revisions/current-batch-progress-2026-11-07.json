@@ -2,8 +2,8 @@
   "cycle": 8,
   "startIndex": 150,
   "pageCount": 50,
-  "reviewed": 18,
-  "pending": 32,
+  "reviewed": 20,
+  "pending": 30,
   "pages": [
     {
       "pagePath": "/ethics/what-are-ethics/",
@@ -258,26 +258,30 @@
     {
       "pagePath": "/philosophical-inquiry/dangers-ideologies-of-mystery/",
       "title": "Dangers: Ideologies of Mystery",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 614,
           "title": "Dangers: Ideologies of Mystery",
           "url": "http://byteseismic.com/2024/02/13/dangers-ideologies-of-mystery/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/dangers-ideologies-of-mystery-verification-2026-11-23.json",
+      "report": "quality/editorial-audit-2026-11-23.json"
     },
     {
       "pagePath": "/economics/economic-stability/",
       "title": "Economic Stability",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 4977,
           "title": "Economic Stability",
           "url": "http://byteseismic.com/2024/04/02/economic-stability/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/economic-stability-verification-2026-11-23.json",
+      "report": "quality/editorial-audit-2026-11-23.json"
     },
     {
       "pagePath": "/economics/minimum-wage/",
@@ -640,6 +644,6 @@
       ]
     }
   ],
-  "lastUpdated": "2026-11-21",
-  "updatedAt": "2026-11-21"
+  "lastUpdated": "2026-11-23",
+  "updatedAt": "2026-11-23"
 }

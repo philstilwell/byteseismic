@@ -1,0 +1,44 @@
+{
+  "pagePath": "/economics/economic-stability/",
+  "sourceSha256": "fa9a8f080ad993d2f3fdc73c3aa7550e0fb054fca5efa1dcd9c13546697ba47a",
+  "originalPrompts": 7,
+  "originalHeadings": 7,
+  "sourceColumns": 14,
+  "modelResponses": 14,
+  "blocksRetainedVerbatim": 205,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 48,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "discussion questions": [
+      15,
+      15
+    ],
+    "quiz questions and keys": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      10,
+      10,
+      10
+    ]
+  },
+  "sha256": "3cd58a1aab849afdb46c1829a74c83462e77e7d33fbe57a1b126d687674b6977",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": 2,
+  "isolatedBuildVerified": true
+}

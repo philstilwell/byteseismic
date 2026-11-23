@@ -84,6 +84,12 @@ def sections(source, config=None):
                     continue
                 col.append(copy.deepcopy(sibling))
             cols = [col]
+        if str(index) in (config or {}).get('explicitSourceColumnIndexes', {}):
+            # Some WordPress exports leave a layout wrapper around later prompts.
+            # Only reviewed, explicitly selected leaf columns are responses.
+            cols = [source.select('.wp-block-column')[i]
+                    for i in config['explicitSourceColumnIndexes'][str(index)]]
+            assert all(not col.select('h2, .wp-block-column') for col in cols)
         if cols:
             result.append((h, cols))
     return result

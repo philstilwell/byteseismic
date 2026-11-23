@@ -1,0 +1,143 @@
+{
+  "runTime": "2026-11-23T14:16:39.879141+00:00",
+  "dailyTarget": 20,
+  "dailyVerified": 2,
+  "dailyRemaining": 18,
+  "cycle": 8,
+  "cursor": 150,
+  "advanced": false,
+  "batchReviewed": 20,
+  "batchRemaining": 30,
+  "officialCompleted": 150,
+  "officialRemaining": 196,
+  "substantiveReviewed": 170,
+  "notYetReviewed": 176,
+  "nextPage": "Minimum Wage",
+  "nextBatch": "Indexes 200–249: Categories of Nihilism through Philosophy of AI—Core Concepts",
+  "newPages": [
+    {
+      "pagePath": "/philosophical-inquiry/dangers-ideologies-of-mystery/",
+      "wordpressId": 614,
+      "sourceUrl": "http://byteseismic.com/2024/02/13/dangers-ideologies-of-mystery/",
+      "sourceSha256": "64672d8b47734ba66f65e4ef2a7c46adda22d222f4a9ada17e7c61b0752aba59",
+      "snapshot": "dangers-ideologies-of-mystery-wordpress-614.html",
+      "responseDecisions": [
+        "Claude: preserved the curator’s switch note and four risks; clarified the unsupported inference from awe to a particular doctrine, and distinguished empirical tests from philosophical argument.",
+        "Gemini: retained individual/societal grouping and all six risk categories; qualified claims about dissonance, extremism, morality and authoritarianism; corrected the history of the Tertullian slogan with a scholarly source.",
+        "ChatGPT: preserved return note and six response strategies; made unexplained versus inexplicable explicit and supplied a concrete rival-belief test.",
+        "Gemini: preserved seven strategies including boundaries; separated respect for a person from confidence in a claim.",
+        "ChatGPT discussion: retained ten questions, revised credibility and intuition questions to avoid misleading premises; eight retained verbatim.",
+        "Gemini discussion: retained ten questions, clarified personal significance versus publicly established truth; nine retained verbatim."
+      ],
+      "verification": {
+        "pagePath": "/philosophical-inquiry/dangers-ideologies-of-mystery/",
+        "sourceSha256": "64672d8b47734ba66f65e4ef2a7c46adda22d222f4a9ada17e7c61b0752aba59",
+        "originalPrompts": 3,
+        "originalHeadings": 3,
+        "sourceColumns": 6,
+        "modelResponses": 6,
+        "blocksRetainedVerbatim": 64,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 21,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "discussion questions": [
+            10,
+            10
+          ]
+        },
+        "sha256": "43d2e0da7ec4d348b9acd568489da94ef099a5103a79d67c96a00a7a014fe80c",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 2,
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "pagePath": "/economics/economic-stability/",
+      "wordpressId": 4977,
+      "sourceUrl": "http://byteseismic.com/2024/04/02/economic-stability/",
+      "sourceSha256": "fa9a8f080ad993d2f3fdc73c3aa7550e0fb054fca5efa1dcd9c13546697ba47a",
+      "snapshot": "economic-stability-wordpress-4977.html",
+      "responseDecisions": [
+        "ChatGPT stability: eight supporting conditions retained; distinguished supporting factors from a universal minimum, external-financing sustainability from balance, and adjustment capacity from costless change.",
+        "Gemini stability: three core categories and three additional factors retained; replaced moderate debt with sustainability, allowed deflation concerns and removed an unsupported necessity claim.",
+        "ChatGPT predictability: eight connections retained; added bakery/factory contrast, separated predictable institutions from guaranteed outcomes and corrected the claim that adaptability prevents obsolescence.",
+        "Gemini predictability: original grouped structure retained; qualified legal protection and debt assurances, and removed the implication that predictable institutions inherently stifle innovation.",
+        "ChatGPT uncertainty: four entrepreneurial and four arbitrage points retained; defined strict arbitrage, separated forecast-based trades and discussed shared liquidity risk.",
+        "Gemini uncertainty: original entrepreneurial/arbitrage/caveat structure retained; replaced loose historical illustrations with hypothetical demand and transport examples; added a 100/101 price example net of 0.40 costs and execution conditions.",
+        "ChatGPT AI: all four domain groups retained; treated reduced unpredictability as hypothetical, distinguished current-price detection from forecasting, added common-model volatility risk and unequal access, qualified innovation and skill effects.",
+        "Gemini AI: positive, negative and unforeseen groups retained; qualified consumer-price claims, separated shrinking informational advantages from creativity generally, and added behavioral feedback.",
+        "ChatGPT corruption: retained five source groups and their mechanisms; they directly answer the expanded prompt through corruption, political instability, technology, interdependence and environmental/health shocks. No unsupported numerical effect size is introduced.",
+        "Gemini corruption: retained market distortion, investment, stagnation and other shocks; useful complementary organization and concrete mechanisms, with conditional wording. No new empirical estimate asserted.",
+        "ChatGPT quiz: retained ten questions and matching final key; repaired ordered-list numbering across ten single-item lists. Questions test the preceding corruption/shock discussion.",
+        "Gemini quiz: retained ten questions/key; rewrote minimum-condition and predictable-economy items to match qualified exposition; corrected question five’s erroneous answer from a to b.",
+        "ChatGPT discussion: all fifteen questions retained verbatim as relevant invitations to examine mechanisms, cases and uncertain AI effects.",
+        "Gemini discussion: all fifteen questions retained verbatim, including the explicitly hypothetical fully predictable economy."
+      ],
+      "verification": {
+        "pagePath": "/economics/economic-stability/",
+        "sourceSha256": "fa9a8f080ad993d2f3fdc73c3aa7550e0fb054fca5efa1dcd9c13546697ba47a",
+        "originalPrompts": 7,
+        "originalHeadings": 7,
+        "sourceColumns": 14,
+        "modelResponses": 14,
+        "blocksRetainedVerbatim": 205,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 48,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "discussion questions": [
+            15,
+            15
+          ],
+          "quiz questions and keys": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            10,
+            10,
+            10
+          ]
+        },
+        "sha256": "3cd58a1aab849afdb46c1829a74c83462e77e7d33fbe57a1b126d687674b6977",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 2,
+        "isolatedBuildVerified": true
+      }
+    }
+  ],
+  "limitations": [
+    "Daily target not met: eighteen further pages remain. No claim of a persistent external blocker; intermittent repository-read delays resolved sufficiently to continue.",
+    "No browser, mobile or accessibility inspection.",
+    "Saved task requests Astra High; this run does not independently attest runtime model identity."
+  ],
+  "publication": "Commit/push outcome recorded in automation memory after publication.",
+  "buildResult": {
+    "isolatedBuild": true,
+    "reviewedPagesPreservedByteForByte": 170,
+    "priorPagesPreservationOnly": true,
+    "buildLog": "Dialectical preservation check passed for all 39 recovered pages, including 17 high-risk regression cases.\nSite audit: pages=840 broken_links=0 duplicate_ids=0 prompt_number_issues=0 orphans=0 oversized_assets=0 style_scars=0 grammar_scars=1 seo_issues=0 json_ld_issues=0 sitemap_issues=0 robots_issues=0\nGenerated or updated 723 content pages.\nVisible hierarchy sections: 15\nExpanded archive years: 2\n"
+  },
+  "inheritedFilesHashPreserved": 476
+}
