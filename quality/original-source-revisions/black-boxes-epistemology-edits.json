@@ -1,0 +1,141 @@
+{
+  "pageFile": "epistemology/black-boxes-epistemology/index.html",
+  "wordpressId": 5280,
+  "snapshot": "black-boxes-epistemology-wordpress-5280.html",
+  "sourceUrl": "http://byteseismic.com/2024/04/05/black-boxes-epistemology/",
+  "sourceLabel": "Original WordPress conversation, 2024-04-05",
+  "shellRevision": "625f7d87956745038bfe7ac1121ac7ea790c1a75",
+  "date": "2026-11-23",
+  "sourceSha256": "dee226a7aa1ddd51119f938395a95b00368aa725c0a7b84fe98a72a552ad284e",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "Predictive trust without access to mechanism",
+    "A fair die and an informative prediction",
+    "The curator challenges theoretical immunity",
+    "Bayesian calculations and the amount of evidence",
+    "Updating confidence versus choosing a bet",
+    "Two ten-item quizzes",
+    "Two sets of fifteen discussion questions"
+  ],
+  "introHeading": "Black Boxes & Epistemology · original exchange",
+  "intro": "The seven original prompts preserve the curator’s escalating challenge to dismissing reliable evidence merely because its mechanism is opaque. The replies now distinguish conditional prediction, calibration and betting decisions.",
+  "description": "The seven original prompts preserve the curator’s escalating challenge to dismissing reliable evidence merely because its mechanism is opaque. The replies ",
+  "highlights": [],
+  "replacements": {
+    "1.1.1": "Yes: independently verified predictive performance can warrant confidence without an account of the mechanism. That confidence should match the tested task and conditions, with uncertainty about sampling and future change. Understanding can add evidence, but it is not a prerequisite for learning that a source predicts well.",
+    "1.1.2": "Mechanistic understanding can help identify when performance will transfer to new conditions. Its absence does not cancel evidence from controlled prospective tests. Several mechanisms may explain the same success; uncertainty about which mechanism operates is different from uncertainty about whether predictions have been successful.",
+    "1.2.0": "The question asks for confidence warranted by performance, not complete trust. Opacity alone does not prevent that proportional confidence:",
+    "1.2.2": "Black-Box Limitation: We may not know why the system succeeds or when it will fail outside its tested domain. But a sufficiently large, independently recorded test can distinguish sustained success from chance without opening the box.",
+    "1.2.6": "Track Record: Prospective, specific predictions scored against all outcomes can support reliability. Variety helps test scope, but selective reporting, dependence and vague scoring can exaggerate apparent success.",
+    "1.2.13": "Separate Belief from Action: Risk tolerance affects how much to stake or whether to act, not what probability the evidence supports. The same probability can rationally lead different people to choose different bets.",
+    "2.1.0": "A fair die can have an unconditional probability of 1/6 for each face while an informative signal changes the probability conditional on that signal. Fairness does not imply independence from every possible source of information. We must also distinguish overall predictive accuracy from accuracy specifically when the box predicts a six.",
+    "2.1.2": "Empirical Reliability: If the record is verified, sufficiently large and relevant to the next throw, it warrants substantial confidence in the predicted outcome. Under stable, symmetric performance across faces, 90% accuracy supports about 90% confidence in the indicated face; without that calibration, overall accuracy alone does not determine the exact number.",
+    "2.1.4": "Betting: Whether to bet depends on payouts, losses and resources. Those stakes affect the action threshold, not the evidential probability. A one-off bet does not make weaker evidence stronger.",
+    "2.1.5": "Independence: Rolls can be independent of one another while each roll remains correlated with the box’s signal. The evidence need not show a biased die; it may show that the signal contains information omitted from the unconditional model.",
+    "2.1.6": "It is not equally rational to ignore applicable evidence merely because one prefers theory. Update the conditional forecast while keeping 1/6 as the unconditional probability if fairness remains supported. Investigate the mechanism without making ignorance of it a veto on the track record.",
+    "2.2.0": "Under the intended assumptions of verified, stable and relevant performance, use the box’s information rather than defaulting to 1/6 after hearing its forecast. An exact 90% estimate additionally requires suitable calibration for that prediction.",
+    "2.2.2": "Limited Scope: Testing the same well-defined task supports transfer to the next trial. A clear task does not guarantee absence of hidden variables; those could be precisely what makes prediction possible.",
+    "2.2.4": "Coin Analogy: Ninety correct advance forecasts out of one hundred fair-coin trials would support predictive information if the trials and scoring were sound. This is an illustrative dataset, not a simulation performed here, and finite observations leave uncertainty about future accuracy.",
+    "3.1.2": "Rationality and Evidence: The curator is right to challenge the earlier escape clause. Preference for theoretical foundations is not an evidential reason to ignore a verified signal. Bayesian reasoning conditions on all relevant information; it does not require abandoning the unconditional fairness model.",
+    "3.1.3": "Independence: P(roll = 6) = 1/6 and P(roll = 6 | signal = 6) near 0.9 can both hold. The first averages across signals; the second uses additional information. Independent rolls need not be independent of their corresponding signals.",
+    "3.1.5": "A Longer Record: More relevant, independently informative trials can tighten estimates and strengthen evidence against chance prediction. Years alone supply no sample size, and dependence or changes in conditions matter. A thousand years does not prove that future conditions cannot change.",
+    "3.1.7": "The correction is to update the forecast conditional on the signal, not necessarily to declare the die unfair. Mechanistic ignorance can limit extrapolation without erasing observed predictive information.",
+    "3.1.8": "Understanding remains a worthwhile aim. It should guide further investigation while confidence follows the tested performance; a reliable opaque signal is not disqualified merely because an elegant but incomplete model omits it.",
+    "3.2.0": "I should not defend the earlier answer by treating epistemic standards as a matter of personal preference. Under the stated evidential conditions, the signal must be taken into account.",
+    "3.2.1": "The unconditional 1/6 remains appropriate before the signal, or if there is evidence that the signal is irrelevant here. It is not justified after an informative signal merely by valuing theoretical understanding.",
+    "3.2.2": "What theoretical understanding can legitimately contribute:",
+    "3.2.3": "Scope: A physical model may help explain whether performance will transfer to a changed throwing process. That is additional evidence about applicability, not a general exemption from updating.",
+    "3.2.5": "The case for using the signal is epistemic as well as practical:",
+    "3.2.7": "The data estimate a conditional relationship. There is no need to present practical prediction as a deviation from probability theory; conditioning is part of that theory.",
+    "3.2.9": "More informative trials strengthen evidence for reliability, provided recording, independence and relevance are adequate. Duration is not a substitute for those conditions.",
+    "3.2.10": "Diminishing Returns: Further data can tighten uncertainty around an accuracy rate near 90%; they do not make each future prediction approach certainty.",
+    "3.2.11": "The evidential judgment should therefore update. Personal priorities can change whether to bet or how much to invest in explanation, but they do not make ignoring the same reliable evidence equally well supported.",
+    "4.1.0": "The calculation requires the number of scored predictions, successes and a model of their dependence—not just years. Two calculations answer different questions: whether prediction beats chance, and what accuracy to expect next.",
+    "4.1.2": "Bayes’ theorem is P(H | E) = P(E | H)P(H)/P(E), for P(E) greater than zero. The original equation image is retained below.",
+    "4.1.9": "Prior: Let H1 be a stable predictor with accuracy 0.9 and H0 be guessing with accuracy 1/6. Assign prior odds between these hypotheses; 1/6 itself is not the prior probability that H1 is true.",
+    "4.1.10": "Data: Let n be the number of prospectively scored trials and k the correct predictions. Retain failures as well as successes; five years without a trial count is insufficient for a numerical update.",
+    "4.1.11": "Likelihood Ratio: Under independent trials with constant accuracy, BF = (0.9/(1/6))^k × (0.1/(5/6))^(n−k). Multiply prior odds by this Bayes factor to get posterior odds. This compares two specified models, not every possible explanation.",
+    "4.1.12": "Accuracy Estimate: To estimate an unknown stable accuracy p, an illustrative uniform Beta(1,1) prior gives Beta(k+1,n−k+1) after the data. The next-trial predictive probability of a correct forecast is (k+1)/(n+2). For 90 successes in 100 trials, it is 91/102, about 89.2%. The prior is illustrative, not uniquely rational.",
+    "4.1.14": "Longer Records: If k/n stays at 0.9 as independent n grows, evidence against chance prediction accumulates and uncertainty about p narrows near 0.9. That is increased confidence in the estimated reliability, not a prediction that the next forecast is almost certain to succeed.",
+    "4.1.17": "For the next forecast of six specifically, use accuracy conditional on that forecast or justify a symmetric error model. Overall 90% accuracy can conceal different performance by predicted face. No single posterior number is fixed by the prompt’s duration and aggregate success rate alone.",
+    "4.2.2": "Separate Two Priors: The die’s unconditional 1/6 probability is not a prior probability that the predictor is reliable. We need a model relating the signal to the result, informed by the track record.",
+    "4.2.4": "The evidence is the recorded sequence of successes and failures; a likelihood is the probability of that evidence under a specified model. Neither selectively counting successes nor calling the evidence itself a likelihood is sufficient.",
+    "4.2.6": "A Concrete Symmetric Model: Suppose each face is equally likely, the box names the actual face with probability 0.9, and each wrong face with probability 0.02. Then P(signal = 6) = 1/6 and P(roll = 6 | signal = 6) = (0.9 × 1/6)/(1/6) = 0.9. This is fully compatible with a fair die.",
+    "4.2.9": "Five Years: Evaluate the trial count and the relevance of the testing conditions. A short period with many independent trials can contain more information than a long period with a few correlated observations.",
+    "4.2.10": "One Thousand Years: More relevant observations may tighten the reliability estimate, but changes in conditions require modeling. Even perfect knowledge that accuracy is 0.9 leaves a 10% error probability for an exchangeable next prediction.",
+    "4.2.12": "Bayesian updating formalizes the curator’s demand to let evidence affect confidence. It distinguishes confidence in a reliability estimate from the probability that a particular prediction is correct.",
+    "5.1.0": "Yes, on the intended reading that the record establishes applicable reliability for this forecast, retaining 1/6 solely because the mechanism is opaque ignores relevant evidence. The correction is epistemic, not merely a strategy for winning bets.",
+    "5.1.3": "The qualification is about the evidence supplied: aggregate accuracy over a duration does not uniquely determine accuracy conditional on predicting six. If relevant calibration is established, use it. That qualification should not be used to resurrect the claim that a personal preference for theory makes disregarding reliable evidence rational.",
+    "5.2.2": "Update on Relevant Evidence: A reliable signal changes the probability conditional on that signal. It does not contradict the unconditional probability of a fair die.",
+    "5.2.3": "Long Records: Additional informative trials can make a reliability estimate more secure. A stable 90% accurate predictor still makes errors; reliability near 90% is not near-certainty on each prediction.",
+    "5.2.5": "Understanding: Wanting an explanation is reasonable, but it does not supply a reason to assign 1/6 after receiving a signal known to be informative.",
+    "5.2.6": "The earlier appeal to a principled preference for first principles was misplaced. Probability theory itself requires appropriate conditioning, and its assumptions must be assessed against evidence.",
+    "5.2.8": "The evidential case is to condition on the reliable signal. The practical decision then combines that probability with costs, benefits and alternatives.",
+    "5.2.9": "Nuance: Investigate calibration, data quality and whether conditions have changed. These are evidential questions, not a license to ignore evidence because its source is mysterious.",
+    "5.2.10": "Risk tolerance can determine the size of a bet; it does not determine the probability warranted by the same information.",
+    "6.1.20": "More relevant trials can strengthen confidence in the accuracy estimate; they need not show that the die is unfair or that successive rolls are dependent.",
+    "6.2.7": "Why is a preference for theoretical understanding insufficient to justify ignoring an independently verified, applicable predictive signal?",
+    "6.2.18": "Inductive density here concerns the amount and relevance of informative evidence, including failures and dependencies, not merely years or successful cases.",
+    "6.2.20": "Because that preference is not evidence against the signal; theoretical probability can incorporate the signal through conditioning.",
+    "6.2.23": "More relevant observations can tighten the accuracy estimate. An estimated 90% rate does not turn into certainty for the next prediction.",
+    "7.1.1": "How does conditional probability reconcile a fair die with an informative predictive signal?",
+    "7.1.5": "How can successive rolls be independent while a roll remains correlated with a corresponding signal?",
+    "6.2.19": "Yes, if the trials were prospectively recorded, applicable and free of selection or information leakage. Ninety successes out of one hundred support performance above chance under those assumptions, without guaranteeing the next prediction.",
+    "6.2.24": "Yes, if the record independently establishes a reliable and applicable signal. The rational update is conditional on that signal; an old marginal probability need not remain the posterior."
+  },
+  "countChecks": [
+    {
+      "name": "discussion lists",
+      "selector": "#prompt-7 .original-response ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    },
+    {
+      "name": "quiz questions and repaired keys",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "prompt-6 reviewed quiz list structure",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        10,
+        10,
+        10,
+        10
+      ]
+    }
+  ],
+  "reviewDecisions": [
+    "1: both caution/trust analyses retained; proportional confidence separated from complete trust and action risk.",
+    "2: all considerations retained; conditional versus unconditional probability, class calibration and betting stakes corrected.",
+    "3: curator challenge preserved verbatim; both replies explicitly retract theoretical-preference immunity and distinguish independence across rolls from signal dependence.",
+    "4: retained formula image and both explanatory structures; supplied likelihood-ratio and beta-binomial calculations with explicit assumptions and symmetric fair-die example.",
+    "5: preserved curator conclusion and both responses; removed repeated equivocation between epistemic rationality and practical preferences.",
+    "6: all twenty questions and original answer placements retained; dependent answers repaired. Gemini’s original key merged answers 1/2 and 3/4. Split those nested lists into ten correctly numbered answer items while preserving every source address.",
+    "7: thirty questions retained, two corrected to avoid suggesting probability theory itself fails."
+  ],
+  "sourceImageDescriptions": {
+    "4.1.img0": "Bayes’ theorem: P(H given E) equals P(E given H) times P(H), divided by P(E)."
+  },
+  "leadingTextReplacements": {
+    "6.2.13": "Whether confidence proportional to a verified track record can be rational without knowing the mechanism; complete trust is not required."
+  },
+  "splitNestedAnswerItems": [
+    "6.2.13",
+    "6.2.16"
+  ]
+}

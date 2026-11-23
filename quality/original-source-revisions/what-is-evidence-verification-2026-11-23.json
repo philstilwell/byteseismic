@@ -1,0 +1,40 @@
+{
+  "pagePath": "/epistemology/what-is-evidence/",
+  "sourceSha256": "fc0445bb7dac7e906e383e1fa9f4f135fa27784d41639dd2ef5a42b84e14a809",
+  "originalPrompts": 7,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 7,
+  "sourceColumns": 14,
+  "modelResponses": 14,
+  "blocksRetainedVerbatim": 189,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 39,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "discussion requested and bonus groups": [
+      15,
+      5,
+      5,
+      5,
+      2
+    ],
+    "prompt-6 reviewed quiz list structure": [
+      10,
+      10,
+      10,
+      10
+    ]
+  },
+  "sha256": "3d36ebd2905a683a3cb158ec3bf79970efc5329302e742293f87724017fb2c4b",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitleMatched": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": 2,
+  "isolatedBuildVerified": true
+}

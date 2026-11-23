@@ -1,0 +1,181 @@
+{
+  "pageFile": "epistemology/deduction-utility-and-issues/index.html",
+  "wordpressId": 1192,
+  "snapshot": "deduction-utility-and-issues-wordpress-1192.html",
+  "sourceUrl": "http://byteseismic.com/2024/02/27/deduction-utility-and-issues/",
+  "sourceLabel": "Original WordPress conversation, 2024-02-27",
+  "shellRevision": "625f7d87956745038bfe7ac1121ac7ea790c1a75",
+  "date": "2026-11-23",
+  "sourceSha256": "4bd04c93b9415e9a9412b0c65f6125fb32427c01672eb5271504a6a6fcb07d98",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "Deductive reasoning",
+    "Terms and definitions",
+    "Syllogisms and reliability",
+    "Twelve example forms",
+    "Extended deductions",
+    "Categories of symbolic logic",
+    "Five applications",
+    "Ten-item quizzes",
+    "Discussion questions"
+  ],
+  "introHeading": "Deduction: Utility and Issues · original exchange",
+  "intro": "The complete exchange introduces deduction, tests symbolic and instantiated examples, completes interrupted responses, and distinguishes valid inference from true premises and empirical evidence.",
+  "description": "The complete exchange introduces deduction, tests symbolic and instantiated examples, completes interrupted responses, and distinguishes valid inference fr",
+  "highlights": [],
+  "replacements": {
+    "1.1.0": "Deductive reasoning aims at conclusions that follow necessarily from stated premises. A valid argument cannot have all true premises and a false conclusion; a sound argument is valid and has true premises. Deduction need not run from general to specific, and validity alone does not establish the truth of empirical premises.",
+    "1.1.13": "Conclusion: Therefore, this cake is not from France. This is valid modus tollens: P → Q; ¬Q; therefore ¬P. The claim about all French cakes is an illustrative assumption, not an established fact, so validity does not make this example sound.",
+    "1.2.0": "Deductive Reasoning: Necessary Consequence",
+    "1.2.1": "A valid deductive argument makes its conclusion necessary if all its premises are true. Some examples apply a general rule to a particular case, but this direction is not the definition of deduction.",
+    "1.2.15": "Validity preserves truth from premises to conclusion. A false premise removes the guarantee but need not make the conclusion false, and it does not change the validity of the argument’s form.",
+    "2.1.6": "Conditional Statement: “If P, then Q” treats P as sufficient for Q. Q may also hold when P is false; in classical logic the conditional is false only when P is true and Q is false.",
+    "2.2.5": "Soundness: An argument is sound when it is valid and all its premises are true. Validity applies to the inference, not to a conclusion considered alone.",
+    "2.2.8": "Logical fallacy: An error in reasoning; a faulty argument can happen to have a true conclusion. “My friend passed, so I definitely will” is an unsupported inference from one case to another, not an appeal to popularity.",
+    "3.1.9": "Tests of validity: Specify the intended interpretation and ask whether any interpretation makes the premises true and conclusion false. For categorical syllogisms, diagrams or formal derivations can help; assumptions about whether categories are nonempty must be explicit.",
+    "3.1.12": "A valid syllogism may have false premises and either a true or a false conclusion. Validity is a relation between premises and conclusion, not a guarantee that the premises are consistent or factually correct.",
+    "3.2.18": "Reliability breakdown: The form is valid but the argument is unsound because Socrates is not a cat. Its conclusion nevertheless happens to be true; that truth is not established by these premises.",
+    "4.1.0": "These twelve examples include categorical syllogisms and other deductive forms. The conditional everyday claims are stipulated for illustration, not asserted as universal facts. Each instantiated argument below matches its symbolic form.",
+    "4.1.6": "Instantiated Form: If this plant is a cactus, it needs little water. It does not need little water. Therefore, it is not a cactus. This illustrates form under a stipulated conditional, not a botanical rule.",
+    "4.1.22": "Existential Consequence",
+    "4.1.23": "Symbolic Form: Some P are Q. All Q are R. Therefore, some P are R.",
+    "4.1.24": "Instantiated Form: Some fruits are apples. All apples are plant products. Therefore, some fruits are plant products. Two premises beginning merely with “some” would not establish a shared instance.",
+    "4.1.32": "Symbolic Form: P ∨ Q. P → R. Therefore, ¬R → Q.",
+    "4.1.33": "Instantiated Form: This light is red or green. If it is red, it signals stop. Therefore, if it does not signal stop, it is green. This uses the stated two-color assumption.",
+    "4.1.36": "Instantiated Form: In this stipulated system, the car is enabled if and only if the key is present. The car is enabled. Therefore, the key is present. P is “car enabled” and Q is “key present.”",
+    "4.2.4": "P (the antecedent is true)",
+    "4.2.5": "Therefore, Q.",
+    "4.2.8": "It is currently raining (P).",
+    "4.2.9": "Therefore, the ground is wet (Q), under the stated conditional.",
+    "4.2.24": "This penguin is a bird (Y is B).",
+    "4.2.25": "Therefore, this penguin is not a mammal (Y is not A).",
+    "4.2.28": "All B are C.",
+    "4.2.29": "Therefore, some A are C.",
+    "4.2.32": "All sweet things have a taste property (all B are C).",
+    "4.2.33": "Therefore, some fruits have a taste property (some A are C).",
+    "4.2.36": "P.",
+    "4.2.37": "Therefore, ¬Q.",
+    "4.2.40": "John studied hard (P).",
+    "4.2.41": "Therefore, John did not fail (¬Q), given the stipulated conditional.",
+    "4.2.47": "All squares (A) are quadrilaterals (B).",
+    "4.2.48": "No circles (C) are quadrilaterals (B).",
+    "4.2.49": "Therefore, no squares are circles (no A are C).",
+    "4.2.52": "All B are C.",
+    "4.2.53": "Therefore, some A are C.",
+    "4.2.56": "All friendly creatures in this example are good companions (all B are C).",
+    "4.2.57": "Therefore, some dogs are good companions (some A are C), under these premises.",
+    "4.2.77": "Therefore, some C are not A.",
+    "5.1.0": "A traditional categorical syllogism has two premises and a conclusion. The longer request is therefore treated as an extended deductive argument. Both displayed forms below contain at least 25 lines; the everyday conditionals are stipulated assumptions rather than guaranteed causal laws.",
+    "5.1.51": "The chain is valid under its assumptions, but the claims that study guarantees a good job, happiness, or correct life choices are not established. This separates a valid deduction from a sound account of actual human outcomes.",
+    "5.2.0": "The original Gemini reply did not meet the 25-line request. Its shorter example is preserved and corrected below, followed by a clearly identified editorial completion in both symbolic and instantiated forms.",
+    "5.2.3": "Premise 1: ∀x(A(x) → Y(x)), with the testing conditions held fixed. All objects composed entirely of X have property Y. This conditional alone does not establish a causal mechanism.",
+    "5.2.4": "Premise 2(a): Y(m). Object m exhibits property Y under those conditions.",
+    "5.2.5": "Premise 2(b): ¬A(m). Object m is not composed entirely of X. This is compatible with premise 1; a sufficient condition need not be necessary.",
+    "5.2.6": "Conclusion: ∃x(Y(x) ∧ ¬A(x)). At least one object with Y is not composed entirely of X. The premises do not identify which ingredients cause Y.",
+    "5.2.8": "Fictional premise 1: In this invented example, every material made solely of “Superium” is heat-resistant under a specified test. Superium is not presented as a real discovered element.",
+    "5.2.9": "Fictional premise 2(a): Prototype X is heat-resistant under that test.",
+    "5.2.10": "Fictional premise 2(b): Prototype X is not made solely of Superium.",
+    "5.2.11": "Conclusion: Some heat-resistant material is not pure Superium. Further evidence would be needed to identify the cause of its resistance.",
+    "5.2.12": "The example illustrates a sufficient condition that is not necessary, not a contradiction or an exception to the first premise. The following extended chains complete the requested length.",
+    "6.1.9": "Under full semantics, second-order validity has no sound, complete, effective proof calculus. First-order logic does have a completeness theorem, but unrestricted first-order validity is undecidable. Completeness and decidability are different properties. See the <a href=\"https://builds.openlogicproject.org/open-logic-complete.pdf\">Open Logic Text</a>.",
+    "6.1.17": "Does not accept P ∨ ¬P as an unrestricted logical principle. This is not a blanket assertion that every instance is false; particular instances can be proved constructively.",
+    "6.1.23": "A family of many-valued logics used to formalize degrees of truth, especially for vague predicates. Degree of truth is distinct from the probability that a crisp proposition is true.",
+    "6.2.15": "Fuzzy logic: Uses degrees of truth, often between 0 and 1, to model vague predicates. These values are not automatically probabilities or measures of ignorance.",
+    "7.1.2": "Automated Reasoning and Software Verification: Logical tools can prove specified properties of a program or model under stated assumptions. A proof does not guarantee that the specification covers every error or that the model perfectly represents the deployed system.",
+    "8.1.17": "Which field was NOT one of the five application headings in the first response?",
+    "8.1.22": "Which logic does not accept the unrestricted law of excluded middle and emphasizes constructive proof?",
+    "8.1.29": "B) Degrees of truth associated with vague predicates",
+    "8.1.32": "Which option names the operators AND, OR, and NOT used in symbolic reasoning?",
+    "8.1.58": "B) Degrees of truth associated with vague predicates",
+    "8.2.2": "Deductive reasoning aims at conclusions that: (a) Follow necessarily from stated premises in a valid argument (b) Express personal preference (c) Are random guesses (d) Depend on popularity",
+    "8.2.5": "What makes a deductive argument truth-preserving? (a) A conclusion that happens to be true (b) A valid structure, so true premises cannot lead to a false conclusion (c) Complex vocabulary (d) Popularity",
+    "9.1.4": "How does fuzzy logic represent degrees of truth for vague predicates, and how does that differ from probability?",
+    "9.1.5": "What follows from declining unrestricted excluded middle, and why is this different from declaring every instance false?"
+  },
+  "countChecks": [
+    {
+      "name": "prompt-8 reviewed quiz list structure",
+      "selector": "#prompt-8 .original-response > ol",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "extended forms",
+      "selector": "#prompt-5 .original-response > ol",
+      "child": "li",
+      "expected": [
+        25,
+        25,
+        4,
+        25,
+        25
+      ]
+    }
+  ],
+  "reviewDecisions": [
+    "Read and checked all nine prompt pairs, including all symbolic and instantiated examples, both quizzes and thirty discussion questions.",
+    "Corrected invalid existential forms, notation mismatches, false astronomy premise, and the incomplete Gemini example set. Preserved each source block and supplied identified editorial completions for examples 10–12.",
+    "Completed both requested 25-line forms. Corrected sufficient/necessary confusion, marked Superium fictional, and scoped the life-outcome chain as stipulated rather than sound.",
+    "Corrected first-order undecidability and full second-order semantics; distinguished intuitionistic excluded-middle restrictions and fuzzy truth degrees from probability; repaired dependent quizzes.",
+    "Repaired restarted numbering across split original ordered lists; preserved source item order and wording except documented edits."
+  ],
+  "listItemContinuations": {
+    "5.1.24": "Therefore, B is true (from Y, Y → Z, Z → A, and A ↔ B).",
+    "5.1.49": "Therefore, they followed their passion (B), under the preceding stipulated assumptions."
+  },
+  "responseAppendices": {
+    "4.2": [
+      "<p>Editorial completion of example 10: No reptiles are mammals; some pets are mammals; therefore some pets are not reptiles.</p><h4>11. Disjunctive syllogism</h4><p>P ∨ Q; ¬P; therefore Q. The file is on drive A or B; it is not on A; therefore it is on B.</p><h4>12. Hypothetical syllogism</h4><p>P → Q; Q → R; therefore P → R. If a number is divisible by four, it is even; if it is even, it is divisible by two; therefore divisibility by four implies divisibility by two.</p>"
+    ],
+    "5.2": [
+      "<h4>Editorial completion: symbolic form</h4><ol><li>P0 → P1 (premise)</li><li>P1 → P2 (premise)</li><li>P2 → P3 (premise)</li><li>P3 → P4 (premise)</li><li>P4 → P5 (premise)</li><li>P5 → P6 (premise)</li><li>P6 → P7 (premise)</li><li>P7 → P8 (premise)</li><li>P8 → P9 (premise)</li><li>P9 → P10 (premise)</li><li>P10 → P11 (premise)</li><li>P11 → P12 (premise)</li><li>P0 (premise)</li><li>P1 (modus ponens from P0 and its conditional)</li><li>P2 (modus ponens from P1 and its conditional)</li><li>P3 (modus ponens from P2 and its conditional)</li><li>P4 (modus ponens from P3 and its conditional)</li><li>P5 (modus ponens from P4 and its conditional)</li><li>P6 (modus ponens from P5 and its conditional)</li><li>P7 (modus ponens from P6 and its conditional)</li><li>P8 (modus ponens from P7 and its conditional)</li><li>P9 (modus ponens from P8 and its conditional)</li><li>P10 (modus ponens from P9 and its conditional)</li><li>P11 (modus ponens from P10 and its conditional)</li><li>P12 (modus ponens from P11 and its conditional)</li></ol><h4>Instantiated form: a stipulated recording system</h4><ol><li>If checkpoint 0 is recorded as passed, checkpoint 1 is recorded as passed (stipulated rule).</li><li>If checkpoint 1 is recorded as passed, checkpoint 2 is recorded as passed (stipulated rule).</li><li>If checkpoint 2 is recorded as passed, checkpoint 3 is recorded as passed (stipulated rule).</li><li>If checkpoint 3 is recorded as passed, checkpoint 4 is recorded as passed (stipulated rule).</li><li>If checkpoint 4 is recorded as passed, checkpoint 5 is recorded as passed (stipulated rule).</li><li>If checkpoint 5 is recorded as passed, checkpoint 6 is recorded as passed (stipulated rule).</li><li>If checkpoint 6 is recorded as passed, checkpoint 7 is recorded as passed (stipulated rule).</li><li>If checkpoint 7 is recorded as passed, checkpoint 8 is recorded as passed (stipulated rule).</li><li>If checkpoint 8 is recorded as passed, checkpoint 9 is recorded as passed (stipulated rule).</li><li>If checkpoint 9 is recorded as passed, checkpoint 10 is recorded as passed (stipulated rule).</li><li>If checkpoint 10 is recorded as passed, checkpoint 11 is recorded as passed (stipulated rule).</li><li>If checkpoint 11 is recorded as passed, checkpoint 12 is recorded as passed (stipulated rule).</li><li>Checkpoint 0 is recorded as passed (premise).</li><li>Checkpoint 1 is recorded as passed (from the previous checkpoint and rule).</li><li>Checkpoint 2 is recorded as passed (from the previous checkpoint and rule).</li><li>Checkpoint 3 is recorded as passed (from the previous checkpoint and rule).</li><li>Checkpoint 4 is recorded as passed (from the previous checkpoint and rule).</li><li>Checkpoint 5 is recorded as passed (from the previous checkpoint and rule).</li><li>Checkpoint 6 is recorded as passed (from the previous checkpoint and rule).</li><li>Checkpoint 7 is recorded as passed (from the previous checkpoint and rule).</li><li>Checkpoint 8 is recorded as passed (from the previous checkpoint and rule).</li><li>Checkpoint 9 is recorded as passed (from the previous checkpoint and rule).</li><li>Checkpoint 10 is recorded as passed (from the previous checkpoint and rule).</li><li>Checkpoint 11 is recorded as passed (from the previous checkpoint and rule).</li><li>Checkpoint 12 is recorded as passed (from the previous checkpoint and rule).</li></ol>"
+    ]
+  },
+  "leadingTextReplacements": {
+    "4.1.31": "Conditional and Disjunctive Inference"
+  },
+  "orderedListStarts": {
+    "4.1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "8.1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      1
+    ]
+  }
+}

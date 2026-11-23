@@ -1,0 +1,82 @@
+{
+  "pageFile": "epistemology/what-is-doubt/index.html",
+  "wordpressId": 635,
+  "snapshot": "what-is-doubt-wordpress-635.html",
+  "sourceUrl": "http://byteseismic.com/2024/02/13/what-is-doubt/",
+  "sourceLabel": "Original WordPress conversation, 2024-02-13",
+  "shellRevision": "625f7d87956745038bfe7ac1121ac7ea790c1a75",
+  "date": "2026-11-23",
+  "sourceSha256": "e43d523667a3dbd8662ff0539fb474abb6c8d5a606348ab90271e5bb7226719e",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "Defining rational doubt",
+    "Stigmatizing doubters",
+    "Restricting inquiry and relationships",
+    "Eight-item quizzes",
+    "Discussion questions"
+  ],
+  "introHeading": "What is Doubt? · original exchange",
+  "intro": "The complete exchange defines rational doubt, preserves two follow-up challenges about emotion and social influence, and examines practices that discourage open inquiry.",
+  "description": "The complete exchange defines rational doubt, preserves two follow-up challenges about emotion and social influence, and examines practices that discourage",
+  "highlights": [],
+  "replacements": {
+    "1.1.0": "Yes, as a stipulated quantitative sense of rational doubt: if p is the evidentially warranted confidence in a claim, define residual doubt as 1−p. For p=0.8, doubt in this sense is 0.2. This is coherent on a normalized probability scale, though ordinary “doubt” can also mean active questioning or felt uncertainty.",
+    "1.1.2": "Unwarranted absolute belief: Assigning confidence 1 when the evidence warrants less is overconfidence in this framework. The definition does not establish that probability 1 is irrational for every logical or mathematical proposition.",
+    "1.1.5": "Coherence: The numerical definition is internally consistent once the scale and evidential assessment are specified. It does not prove there is a unique precise warranted probability for every claim or that all uses of the word doubt reduce to this quantity.",
+    "1.2.0": "Your definition can be coherent as a stipulated sense of rational doubt. It need not cover every psychological use of “doubt” to serve the limited purpose you identify.",
+    "1.2.5": "Scope: Emotional and social causes of actual belief do not invalidate a normative definition of warranted doubt. Prior information belongs in the evidential assessment; irrelevant pressure does not.",
+    "1.2.7": "Irrational doubt is outside your stipulated focus. It is worth distinguishing, but its existence is not an objection to defining the rational kind.",
+    "1.2.10": "Context: Costs and consequences can change the threshold for acting or investigating further. They do not by themselves change the probability supported by fixed evidence.",
+    "1.2.12": "The definition works as residual evidential uncertainty, provided its scope is explicit. Broader psychological and practical questions can be considered separately.",
+    "1.2.14": "Yes: non-evidential emotional or social pressure can be excluded from a definition of rational doubt. A distinction is needed when an emotional response or another person’s judgment actually conveys information about the claim.",
+    "1.2.15": "Possible evidence: A response or social report may be informative if it reliably tracks relevant conditions. Fear alone is not proof of danger, and popularity alone is not proof of truth.",
+    "1.2.17": "Human complexity explains how beliefs arise, but does not require redefining the normative standard to include influences that lack evidential relevance.",
+    "1.2.22": "Keep the definition tied to evidential support while investigating whether particular cues carry relevant information. Describing the psychology of doubt is a separate task.",
+    "1.2.24": "Correct that neither emotional intensity nor social agreement makes an external claim true. They can sometimes be evidence through a reliable relation to the world; that does not require a hidden verbal argument behind every reliable cue.",
+    "1.2.25": "Emotions can flag concerns worth investigating, but anger does not establish injustice and fear does not establish danger. A response’s adaptive role does not guarantee truth in the case at hand.",
+    "1.2.32": "Their epistemic value depends on relevant reliability and context, not on being emotional or socially shared. They may prompt inquiry or provide defeasible information without supplying intrinsic truth.",
+    "2.1.2": "Psychological implications: Penalizing doubt can discourage people from voicing uncertainty and create pressure to conform. Those are potential effects, not a diagnosis of every participant or a guarantee of a particular outcome.",
+    "2.1.5": "Authority and scrutiny: Punishing questions can protect leaders or institutions from criticism. A claim about a particular historical group’s motives requires evidence rather than inference from the pattern alone.",
+    "2.1.6": "Blanket character attacks on doubters impede open assessment and deserve criticism. Evaluate the actual practices and their effects without assuming that every member shares the same motives or that every expressed doubt is well-supported.",
+    "3.1.3": "External scrutiny: Avoiding challenge can protect beliefs from correction. It does not by itself establish that leaders consciously fear refutation or know their claims are false.",
+    "3.1.5": "Restricted inquiry: Blocking relevant counterarguments reduces opportunities to correct error. It need not eliminate every form of learning within the group.",
+    "3.1.6": "Ethical implications: Restrictions imposed to preserve adherence raise concerns about autonomy and inquiry. Their purpose and effects should be established from the actual case, not presumed for every member.",
+    "3.2.5": "Suppression of dissent: Coercive restrictions on information and relationships can indicate controlling practices. The specific behaviors are more informative than applying an undefined “cult-like” label.",
+    "4.2.2": "Which is NOT a potential benefit of healthy doubt? a) Questioning assumptions b) Blind acceptance of harmful practices c) Considering relevant alternatives d) Identifying gaps that need further evidence",
+    "4.2.6": "In the scenario where outside arguments are discouraged specifically to preserve adherence, what goal does the restriction serve? a) Testing all relevant counterarguments b) Encouraging independent evaluation c) Ensuring every challenge is considered d) Protecting commitment to the ideology’s core beliefs",
+    "5.1.11": "What can restrictions on external scrutiny show about a group’s practices, and what further evidence is needed to infer its leaders’ motives?"
+  },
+  "countChecks": [
+    {
+      "name": "discussion lists",
+      "selector": "#prompt-5 .original-response ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    },
+    {
+      "name": "prompt-4 reviewed quiz list structure",
+      "selector": "#prompt-4 .original-response > ol",
+      "child": "li",
+      "expected": [
+        8,
+        8,
+        8
+      ]
+    }
+  ],
+  "reviewDecisions": [
+    "Read all five main prompt pairs and two embedded prose follow-ups; preserved and explicitly labeled the curator’s original prose.",
+    "Made the proposed 1−p definition precise while separating ordinary doubt, causal psychology, evidential support and action thresholds.",
+    "Removed unsupported motive-reading and universal psychological claims; focused criticism on specific restrictive practices. Corrected two ambiguous quiz questions while preserving sixteen items, keys and thirty discussion questions."
+  ],
+  "curatorPromptNodes": {
+    "1.2.13": "I definitely acknowledge that irrational doubt exists, but I want to focus only on rational doubt here. You provided the following: “Oversimplification of belief: While evidence plays a significant role in shaping belief, other factors like prior beliefs, emotions, and social influences also come into play.”Doubt based on emotions and social influences is not rational doubt, and can be ignored in our pursuit of a coherent definition of rational doubt, right?",
+    "1.2.23": "I can concede that, to the degree that emotions and social influences have a track record of leading to truth, to that degree we can suspect those emotions and social influences hint at some underlying rational argument based on something other than emotions and social influences. However, there is no intrinsic truth found in emotions and social influences, right?"
+  }
+}

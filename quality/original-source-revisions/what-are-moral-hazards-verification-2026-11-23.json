@@ -1,0 +1,37 @@
+{
+  "pagePath": "/economics/what-are-moral-hazards/",
+  "sourceSha256": "531e6eaa5836bbe3352452fb95bf98997351e9069ee311a76c075b9cef1707c6",
+  "originalPrompts": 8,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 8,
+  "sourceColumns": 16,
+  "modelResponses": 16,
+  "blocksRetainedVerbatim": 142,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 49,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "discussion lists": [
+      15,
+      15
+    ],
+    "prompt-7 reviewed quiz list structure": [
+      10,
+      10,
+      10,
+      10
+    ]
+  },
+  "sha256": "d0c89c0beb9a60111dc6e8f84db7f616a62f33fa73069e5d0309583b0ee2d657",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitleMatched": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": 2,
+  "isolatedBuildVerified": true
+}

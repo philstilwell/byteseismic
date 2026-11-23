@@ -1,0 +1,37 @@
+{
+  "pagePath": "/epistemology/core-deep-rationality/",
+  "sourceSha256": "0cc8a6bb9214a4b53e4e0b86728daef8ef36a2b133a513c88b10b44c254854b7",
+  "originalPrompts": 8,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 8,
+  "sourceColumns": 16,
+  "modelResponses": 16,
+  "blocksRetainedVerbatim": 227,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 40,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "two 24-line dialogues": [
+      24,
+      24
+    ],
+    "prompt-7 reviewed quiz list structure": [
+      10,
+      10,
+      10,
+      10
+    ]
+  },
+  "sha256": "20b67ea91f29b9fa45ddb220b9067796accb24b284cc2e4cf81d7cb128d84b6c",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitleMatched": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": 2,
+  "isolatedBuildVerified": true
+}

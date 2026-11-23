@@ -1,0 +1,46 @@
+{
+  "pagePath": "/epistemology/black-boxes-epistemology/",
+  "sourceSha256": "dee226a7aa1ddd51119f938395a95b00368aa725c0a7b84fe98a72a552ad284e",
+  "originalPrompts": 7,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 7,
+  "sourceColumns": 14,
+  "modelResponses": 14,
+  "blocksRetainedVerbatim": 125,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 61,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": false,
+  "explicitListItemSplits": [
+    "6.2.13",
+    "6.2.16"
+  ],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "discussion lists": [
+      15,
+      15
+    ],
+    "quiz questions and repaired keys": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "prompt-6 reviewed quiz list structure": [
+      10,
+      10,
+      10,
+      10
+    ]
+  },
+  "sha256": "68f8ad9c7009bbd6823baf8b3cf57085b60d9c2fbdac736425c118ef8f360a44",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitleMatched": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": 2,
+  "isolatedBuildVerified": true
+}

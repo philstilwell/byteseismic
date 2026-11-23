@@ -1,0 +1,1030 @@
+{
+  "runTime": "2026-11-23T12:56:54.591036-05:00",
+  "reportDate": "2026-11-23",
+  "dailyTarget": 20,
+  "dailyVerified": 20,
+  "dailyRemaining": 0,
+  "additionalVerified": 18,
+  "earlierToday": {
+    "pages": [
+      "Dangers: Ideologies of Mystery",
+      "Economic Stability"
+    ],
+    "commit": "625f7d87956745038bfe7ac1121ac7ea790c1a75",
+    "report": "quality/editorial-audit-2026-11-23.json"
+  },
+  "cycle": 8,
+  "cursor": 150,
+  "advanced": false,
+  "batchReviewed": 38,
+  "batchRemaining": 12,
+  "officialCompleted": 150,
+  "officialRemaining": 196,
+  "substantiveReviewed": 188,
+  "notYetReviewed": 158,
+  "nextPage": "Assisted Suicide",
+  "nextBatch": "Indexes 200–249: Categories of Nihilism through Philosophy of AI—Core Concepts",
+  "newPages": [
+    {
+      "pagePath": "/economics/minimum-wage/",
+      "title": "Minimum Wage",
+      "wordpressId": 5873,
+      "sourceUrl": "http://byteseismic.com/2024/04/10/minimum-wage/",
+      "sourceSha256": "e78eaf5cf1d16c2dd6cdaf7f064f74a460aef76abc36174473c93efb8b4d7941",
+      "snapshot": "minimum-wage-wordpress-5873.html",
+      "reviewDecisions": [
+        "1: both benefit/cost lists retained; qualified living-income, inequality and productivity claims.",
+        "2: both autonomy/protection arguments retained; answered the actual restriction rather than the irrelevant floor-versus-ceiling reply.",
+        "3: retained exact Phil pushback and Gemini concession; made necessity a contested premise and compared alternative institutions.",
+        "4: preserved competing arguments; informal exchange is evidence of valued options, not conclusive efficiency or automatic exploitation.",
+        "5: honored-contract premise explicitly accepted; distinguished possible risks from stipulated facts and acknowledged loss relative to actual alternatives.",
+        "6: repeated-return premise treated conditionally; distinguished breach, legal violation and contested moral unfairness without dismissing curator stance.",
+        "7: both replies now directly acknowledge deprivation caused by regulation; retained policy lists but removed guaranteed benefit framing.",
+        "8: Gemini withdrawal and curator transition preserved verbatim; ChatGPT directly concedes restriction of contractual freedom.",
+        "9: single ChatGPT answer retained; personal valuation, moral autonomy and legal permission separated.",
+        "10: both seven-item quizzes retained; repaired vague legal threshold and tip-credit terminology; first quiz reflects conditional effects.",
+        "11: both fifteen-question lists retained; dated wage premise; other29 questions preserved."
+      ],
+      "verification": {
+        "pagePath": "/economics/minimum-wage/",
+        "sourceSha256": "e78eaf5cf1d16c2dd6cdaf7f064f74a460aef76abc36174473c93efb8b4d7941",
+        "originalPrompts": 11,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 11,
+        "sourceColumns": 21,
+        "modelResponses": 21,
+        "blocksRetainedVerbatim": 229,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 51,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "discussion lists": [
+            15,
+            15
+          ],
+          "prompt-10 reviewed quiz list structure": [
+            7,
+            7,
+            7,
+            7
+          ]
+        },
+        "sha256": "d2b4ff019da8ff2ba55bbe3d577bbfa115a56004d0322c450586d47e001105a3",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitleMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 2,
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "pagePath": "/economics/schools-of-economic-thought/",
+      "title": "Schools of Economic Thought",
+      "wordpressId": 5837,
+      "sourceUrl": "http://byteseismic.com/2024/04/09/schools-of-economic-thought/",
+      "sourceSha256": "86d8cb6a54eed5063d6345789d2dd7563430aac26b7190fea7cdc5685e2a9eb3",
+      "snapshot": "schools-of-economic-thought-wordpress-5837.html",
+      "reviewDecisions": [
+        "1: both school lists retained; corrected classical unanimity, neoclassical efficiency assumptions, Austrian methodological uniqueness and behavioral classification.",
+        "2: both testing discussions now distinguish policy history from identified causal tests; corrected Volcker attribution and blanket validation claims.",
+        "3: both income comparisons retain examples but distinguish GDP, household income, rankings and causal explanation.",
+        "4: retained five ChatGPT cases and Gemini’s three categories; distinguished systems/campaigns/crises, qualified motives and removed unsupported precision and racial causal shorthand.",
+        "5: all ten table rows retained; success claims qualified and overlapping categories explained.",
+        "6: ten questions per model retained; repaired two answer contents, Gemini terminology and missing tenth answer. Answers heading stays inside Gemini response, not a curator prompt.",
+        "7: thirty discussion questions retained, one sharpened to compare testable claims.",
+        "Repaired restarted numbering across split original ordered lists; preserved source item order and wording except documented edits."
+      ],
+      "verification": {
+        "pagePath": "/economics/schools-of-economic-thought/",
+        "sourceSha256": "86d8cb6a54eed5063d6345789d2dd7563430aac26b7190fea7cdc5685e2a9eb3",
+        "originalPrompts": 7,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 7,
+        "sourceColumns": 13,
+        "modelResponses": 13,
+        "blocksRetainedVerbatim": 221,
+        "tableCellsExplicitlyRevised": 10,
+        "blocksExplicitlyRevised": 40,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": false,
+        "explicitListItemSplits": [
+          "6.2.19"
+        ],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "discussion lists": [
+            15,
+            15
+          ],
+          "prompt-6 reviewed quiz list structure": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            10,
+            10,
+            10
+          ]
+        },
+        "sha256": "e0f9fa980e2456ea8e467b1babbfb1285658564eba00b77afad423f82c200571",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitleMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 2,
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "pagePath": "/economics/taxation/",
+      "title": "Taxation",
+      "wordpressId": 7565,
+      "sourceUrl": "http://byteseismic.com/2024/04/30/taxation/",
+      "sourceSha256": "aa9014f31acb271639981bd95f3e3226c1b819de86470d916511f4fafa950d66",
+      "snapshot": "taxation-wordpress-7565.html",
+      "reviewDecisions": [
+        "1: both financing accounts retained; qualified universal necessity, automatic stabilization and guaranteed governance effects.",
+        "2: five examples per response retained with explicit limits on success claims; distinguished payroll/income taxes, broad VAT revenue and causal evidence.",
+        "3: five cases per response retained; corrected poll-tax dates, tax collection versus liability and overclaiming from repeal; explicitly marked Zimbabwe and Venezuela as broader fiscal cases rather than five clean tax experiments.",
+        "4: retained both policy-analysis lists; separated welfare/revenue goals and removed unsupported universal rate ceilings.",
+        "5: retained attraction/retention categories; corrected CFC, exit-tax and residence descriptions and distinguished real activity from profit booking.",
+        "6: both original trend lists retained as dated April2024 context; qualified universal direction, scope of minimum tax and trading versus tax distinction.",
+        "7: first seven questions preserved with one causal-inference repair; second six-item quiz expanded to requested seven with explicit question/answer insertion and ambiguity repairs.",
+        "8: both fifteen-question discussion lists retained; one causal premise revised."
+      ],
+      "verification": {
+        "pagePath": "/economics/taxation/",
+        "sourceSha256": "aa9014f31acb271639981bd95f3e3226c1b819de86470d916511f4fafa950d66",
+        "originalPrompts": 8,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 8,
+        "sourceColumns": 16,
+        "modelResponses": 16,
+        "blocksRetainedVerbatim": 128,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 47,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": false,
+        "explicitListItemSplits": [
+          "7.2.5",
+          "7.2.12"
+        ],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "discussion lists": [
+            15,
+            15
+          ],
+          "prompt-7 reviewed quiz list structure": [
+            7,
+            7,
+            7,
+            7
+          ]
+        },
+        "sha256": "627cb14262d2b7bceecd189bf58725fd8fa8d0f734888d7db0a01cb16ab3d6d8",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitleMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 2,
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "pagePath": "/economics/what-are-moral-hazards/",
+      "title": "What are Moral Hazards?",
+      "wordpressId": 5521,
+      "sourceUrl": "http://byteseismic.com/2024/04/07/what-are-moral-hazards/",
+      "sourceSha256": "531e6eaa5836bbe3352452fb95bf98997351e9069ee311a76c075b9cef1707c6",
+      "snapshot": "what-are-moral-hazards-wordpress-5521.html",
+      "reviewDecisions": [
+        "1: both seven-example lists retained; replaced nonexamples involving credit delay and online answers, qualified insurance and depositor mechanisms.",
+        "2: both history sequences retained; removed unsupported first-use precision and the claim that all information-driven behavior qualifies.",
+        "3: both comparisons retained; conceptual relationship distinguished from statistical correlation, sales/environment examples made explicit.",
+        "4: directly corrected both premises; separated adverse selection from hidden action and explained why information alone is insufficient.",
+        "5: retained all mitigation groups; qualified performance pay, peer platforms and mistaken preventive-care claims.",
+        "6: retained both AI analyses; separated prediction/screening from moral hazard and specified accountability and gaming mechanisms.",
+        "7: all twenty questions/keys retained and dependent answers corrected.",
+        "8: thirty questions retained, one reframed to evaluate insurance benefits versus incentive costs."
+      ],
+      "verification": {
+        "pagePath": "/economics/what-are-moral-hazards/",
+        "sourceSha256": "531e6eaa5836bbe3352452fb95bf98997351e9069ee311a76c075b9cef1707c6",
+        "originalPrompts": 8,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 8,
+        "sourceColumns": 16,
+        "modelResponses": 16,
+        "blocksRetainedVerbatim": 142,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 49,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "discussion lists": [
+            15,
+            15
+          ],
+          "prompt-7 reviewed quiz list structure": [
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        "sha256": "d0c89c0beb9a60111dc6e8f84db7f616a62f33fa73069e5d0309583b0ee2d657",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitleMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 2,
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "pagePath": "/economics/what-is-economics/",
+      "title": "What is Economics?",
+      "wordpressId": 3765,
+      "sourceUrl": "http://byteseismic.com/2024/03/15/what-is-economics/",
+      "sourceSha256": "a0d56701ce2054e5dc6c637be9bba5d8b60346ad62c309d7fc306b2be083444d",
+      "snapshot": "what-is-economics-wordpress-3765.html",
+      "reviewDecisions": [
+        "1: retained comprehensive scope and micro/macro distinction; added opportunity cost and separated efficiency, equity and normative goals.",
+        "2: retained both tradition lists; corrected behavioral classification and monetarism/inflation-targeting equivalence.",
+        "3: both timelines retained; qualified Eurocentric scope, corrected psychologist attribution and value-theory simplification.",
+        "4: both fifteen-country tables retained with original-period framing; removed false top15 claim and confused philosophical adherence.",
+        "5: all research-method groups retained; clarified controls, natural experiments and simulation limitations.",
+        "6: both eight-question quizzes/keys retained; repaired classical/neoclassical answer and overly comprehensive GPI claim.",
+        "7: both fifteen-question discussions retained; one causal-identification question sharpened."
+      ],
+      "verification": {
+        "pagePath": "/economics/what-is-economics/",
+        "sourceSha256": "a0d56701ce2054e5dc6c637be9bba5d8b60346ad62c309d7fc306b2be083444d",
+        "originalPrompts": 7,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 7,
+        "sourceColumns": 14,
+        "modelResponses": 14,
+        "blocksRetainedVerbatim": 172,
+        "tableCellsExplicitlyRevised": 3,
+        "blocksExplicitlyRevised": 24,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "discussion lists": [
+            15,
+            15
+          ],
+          "country rows": [
+            16,
+            16
+          ],
+          "prompt-6 reviewed quiz list structure": [
+            8,
+            8,
+            8,
+            8
+          ]
+        },
+        "sha256": "3c46aa288d9704e3c6175b5cadc272b4d8d5233f7b059ab1ce6afc1f8485f417",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitleMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 2,
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "pagePath": "/epistemology/black-boxes-epistemology/",
+      "title": "Black Boxes & Epistemology",
+      "wordpressId": 5280,
+      "sourceUrl": "http://byteseismic.com/2024/04/05/black-boxes-epistemology/",
+      "sourceSha256": "dee226a7aa1ddd51119f938395a95b00368aa725c0a7b84fe98a72a552ad284e",
+      "snapshot": "black-boxes-epistemology-wordpress-5280.html",
+      "reviewDecisions": [
+        "1: both caution/trust analyses retained; proportional confidence separated from complete trust and action risk.",
+        "2: all considerations retained; conditional versus unconditional probability, class calibration and betting stakes corrected.",
+        "3: curator challenge preserved verbatim; both replies explicitly retract theoretical-preference immunity and distinguish independence across rolls from signal dependence.",
+        "4: retained formula image and both explanatory structures; supplied likelihood-ratio and beta-binomial calculations with explicit assumptions and symmetric fair-die example.",
+        "5: preserved curator conclusion and both responses; removed repeated equivocation between epistemic rationality and practical preferences.",
+        "6: all twenty questions and original answer placements retained; dependent answers repaired. Gemini’s original key merged answers 1/2 and 3/4. Split those nested lists into ten correctly numbered answer items while preserving every source address.",
+        "7: thirty questions retained, two corrected to avoid suggesting probability theory itself fails."
+      ],
+      "verification": {
+        "pagePath": "/epistemology/black-boxes-epistemology/",
+        "sourceSha256": "dee226a7aa1ddd51119f938395a95b00368aa725c0a7b84fe98a72a552ad284e",
+        "originalPrompts": 7,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 7,
+        "sourceColumns": 14,
+        "modelResponses": 14,
+        "blocksRetainedVerbatim": 125,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 61,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": false,
+        "explicitListItemSplits": [
+          "6.2.13",
+          "6.2.16"
+        ],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "discussion lists": [
+            15,
+            15
+          ],
+          "quiz questions and repaired keys": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "prompt-6 reviewed quiz list structure": [
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        "sha256": "68f8ad9c7009bbd6823baf8b3cf57085b60d9c2fbdac736425c118ef8f360a44",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitleMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 2,
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "pagePath": "/epistemology/core-deep-rationality/",
+      "title": "Core & Deep Rationality",
+      "wordpressId": 7761,
+      "sourceUrl": "http://byteseismic.com/2024/05/02/core-deep-rationality/",
+      "sourceSha256": "0cc8a6bb9214a4b53e4e0b86728daef8ef36a2b133a513c88b10b44c254854b7",
+      "snapshot": "core-deep-rationality-wordpress-7761.html",
+      "reviewDecisions": [
+        "Scoped the taxonomy as a proposal, resolved the prerequisite contradiction using the curator’s final disposition/tools distinction, and distinguished sincerity from accuracy.",
+        "Retained every prompt, the four-item preamble, all characters and scenarios, and both model attributions. Qualified guaranteed outcomes and corrected the compass analogy.",
+        "Retained all 25 ChatGPT utterances in 24 numbered exchanges by grouping the final thanks and reply; extended the 18-turn Claude dialogue with six substantive turns. Updated dependent quizzes and preserved both ten-item keys and thirty discussion questions."
+      ],
+      "verification": {
+        "pagePath": "/epistemology/core-deep-rationality/",
+        "sourceSha256": "0cc8a6bb9214a4b53e4e0b86728daef8ef36a2b133a513c88b10b44c254854b7",
+        "originalPrompts": 8,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 8,
+        "sourceColumns": 16,
+        "modelResponses": 16,
+        "blocksRetainedVerbatim": 227,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 40,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "two 24-line dialogues": [
+            24,
+            24
+          ],
+          "prompt-7 reviewed quiz list structure": [
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        "sha256": "20b67ea91f29b9fa45ddb220b9067796accb24b284cc2e4cf81d7cb128d84b6c",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitleMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 2,
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "pagePath": "/epistemology/deduction-utility-and-issues/",
+      "title": "Deduction: Utility and Issues",
+      "wordpressId": 1192,
+      "sourceUrl": "http://byteseismic.com/2024/02/27/deduction-utility-and-issues/",
+      "sourceSha256": "4bd04c93b9415e9a9412b0c65f6125fb32427c01672eb5271504a6a6fcb07d98",
+      "snapshot": "deduction-utility-and-issues-wordpress-1192.html",
+      "reviewDecisions": [
+        "Read and checked all nine prompt pairs, including all symbolic and instantiated examples, both quizzes and thirty discussion questions.",
+        "Corrected invalid existential forms, notation mismatches, false astronomy premise, and the incomplete Gemini example set. Preserved each source block and supplied identified editorial completions for examples 10–12.",
+        "Completed both requested 25-line forms. Corrected sufficient/necessary confusion, marked Superium fictional, and scoped the life-outcome chain as stipulated rather than sound.",
+        "Corrected first-order undecidability and full second-order semantics; distinguished intuitionistic excluded-middle restrictions and fuzzy truth degrees from probability; repaired dependent quizzes.",
+        "Repaired restarted numbering across split original ordered lists; preserved source item order and wording except documented edits."
+      ],
+      "verification": {
+        "pagePath": "/epistemology/deduction-utility-and-issues/",
+        "sourceSha256": "4bd04c93b9415e9a9412b0c65f6125fb32427c01672eb5271504a6a6fcb07d98",
+        "originalPrompts": 9,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 9,
+        "sourceColumns": 18,
+        "modelResponses": 18,
+        "blocksRetainedVerbatim": 389,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 68,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": false,
+        "explicitListItemSplits": [
+          "5.1.24",
+          "5.1.49"
+        ],
+        "explicitResponseAppendices": [
+          "4.2",
+          "5.2"
+        ],
+        "formatChecks": {
+          "prompt-8 reviewed quiz list structure": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            10,
+            10,
+            10
+          ],
+          "extended forms": [
+            25,
+            25,
+            4,
+            25,
+            25
+          ]
+        },
+        "sha256": "fd70b66a00ef597ff57b8d86657a0540423a39e522e7415124f9c6e8ea474139",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitleMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 2,
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "pagePath": "/epistemology/extraordinary-claims/",
+      "title": "Extraordinary Claims",
+      "wordpressId": 304,
+      "sourceUrl": "http://byteseismic.com/2024/02/10/extraordinary-claims/",
+      "sourceSha256": "baf1e8ce7e15a141f2b096bc156c88e36cbe3d60dc7930c49363470476923b93",
+      "snapshot": "extraordinary-claims-wordpress-304.html",
+      "reviewDecisions": [
+        "Restored all three curator follow-ups, retained their exact h3 text and labels as source preambles, and reviewed all six response pairs.",
+        "Retracted unsupported claims that scientific reversals alone prove misuse; used qualified historical accounts and explicitly hypothetical examples rather than invented documented incidents.",
+        "Distinguished prior probability, evidential likelihood ratios and action thresholds; repaired discussion questions while retaining all thirty."
+      ],
+      "verification": {
+        "pagePath": "/epistemology/extraordinary-claims/",
+        "sourceSha256": "baf1e8ce7e15a141f2b096bc156c88e36cbe3d60dc7930c49363470476923b93",
+        "originalPrompts": 6,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 6,
+        "sourceColumns": 12,
+        "modelResponses": 12,
+        "blocksRetainedVerbatim": 99,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 29,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "discussion lists": [
+            15,
+            15
+          ]
+        },
+        "sha256": "d07d191795c4ca9ddd1838abe632ad9accb237db4d4922d8870cba37d1632ec1",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitleMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 2,
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "pagePath": "/epistemology/induction-utility-and-issues/",
+      "title": "Induction: Utility and Issues",
+      "wordpressId": 1194,
+      "sourceUrl": "http://byteseismic.com/2024/02/27/induction-utility-and-issues/",
+      "sourceSha256": "f8e9eec98cd8cba386fac869edc00ef6f534f4f11a97a1866b4449cde7aa1ded",
+      "snapshot": "induction-utility-and-issues-wordpress-1194.html",
+      "reviewDecisions": [
+        "All seven prompts, fifteen responses, two ten-item quizzes and thirty discussion questions reviewed; preserved Copilot’s third card response with explicit attribution.",
+        "Corrected reversed red-queen arithmetic, impossible thirty-red standard-deck example, and unsupported bridge inference; separated model-based deduction from induction about the model.",
+        "Corrected universal falsifiability, scoped the historical survey and Hume’s problem, avoided guarantees and repaired the dependent queen quiz."
+      ],
+      "verification": {
+        "pagePath": "/epistemology/induction-utility-and-issues/",
+        "sourceSha256": "f8e9eec98cd8cba386fac869edc00ef6f534f4f11a97a1866b4449cde7aa1ded",
+        "originalPrompts": 7,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 7,
+        "sourceColumns": 15,
+        "modelResponses": 15,
+        "blocksRetainedVerbatim": 208,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 31,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "discussion lists": [
+            15,
+            15
+          ],
+          "prompt-6 reviewed quiz list structure": [
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        "sha256": "99119ab290ce618b6d5af49786395b829f723898f40ad089c29c5e61f776d316",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitleMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 2,
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "pagePath": "/epistemology/pragmatic-considerations-vs-epistemic-assessments/",
+      "title": "Pragmatic Considerations vs Epistemic Assessments",
+      "wordpressId": 320,
+      "sourceUrl": "http://byteseismic.com/2024/02/10/pragmatic-considerations-vs-epistemic-assessments/",
+      "sourceSha256": "1ac80b32d21ad5a65126dd28ab579e866f8b55d0f8c31a6f392f3dcdd9672df0",
+      "snapshot": "pragmatic-considerations-vs-epistemic-assessments-wordpress-320.html",
+      "reviewDecisions": [
+        "Read all six prompt pairs and retained the complete four-stage curator challenge rather than replacing it with a general essay.",
+        "Corrected the repeated substitution of practical rationality for epistemic support and the evasion of the explicitly conscious case by appeals to unconscious bias.",
+        "Scoped James and Pascal, distinguished belief-dependent future effects from historical truth, and avoided treating a contested psychological label as a diagnosis. Preserved twenty discussion questions."
+      ],
+      "verification": {
+        "pagePath": "/epistemology/pragmatic-considerations-vs-epistemic-assessments/",
+        "sourceSha256": "1ac80b32d21ad5a65126dd28ab579e866f8b55d0f8c31a6f392f3dcdd9672df0",
+        "originalPrompts": 6,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 6,
+        "sourceColumns": 12,
+        "modelResponses": 12,
+        "blocksRetainedVerbatim": 67,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 35,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "discussion lists": [
+            10,
+            10
+          ]
+        },
+        "sha256": "80c1f0ab8f6707c94854d4676373b15f59d243123e7dda0a7058729cf11e7e0e",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitleMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 2,
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "pagePath": "/epistemology/predictive-power/",
+      "title": "Predictive Power",
+      "wordpressId": 2897,
+      "sourceUrl": "http://byteseismic.com/2024/03/10/predictive-power/",
+      "sourceSha256": "c0f2b802fe301a3cdfd62ac22beee3d66ff9e4e2694aa7bcab33eaf19cee6ffc",
+      "snapshot": "predictive-power-wordpress-2897.html",
+      "reviewDecisions": [
+        "All eight prompt pairs and repeated curator challenges preserved. Added concrete coherence, posterior-error, expected-utility and forecast-score measures instead of vague labels.",
+        "Distinguished measuring a factor from justifying its value, prediction from causal understanding, forecast scores from decision success, and long records from fair comparisons.",
+        "Checked all twenty quiz questions and keys; corrected Gemini’s wrong coherence answer and ambiguous first/fourth/ninth questions. Thirty discussion questions retained."
+      ],
+      "verification": {
+        "pagePath": "/epistemology/predictive-power/",
+        "sourceSha256": "c0f2b802fe301a3cdfd62ac22beee3d66ff9e4e2694aa7bcab33eaf19cee6ffc",
+        "originalPrompts": 8,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 8,
+        "sourceColumns": 16,
+        "modelResponses": 16,
+        "blocksRetainedVerbatim": 210,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 36,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "discussion lists": [
+            15,
+            15
+          ],
+          "prompt-7 reviewed quiz list structure": [
+            10,
+            10,
+            10
+          ]
+        },
+        "sha256": "eafd76fa8d9823db8f65a15214ad88b178e017e7bd1de45e290934d1433adf1e",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitleMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 2,
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "pagePath": "/epistemology/presuppositions/",
+      "title": "Presuppositions?",
+      "wordpressId": 4176,
+      "sourceUrl": "http://byteseismic.com/2024/03/20/presuppositions/",
+      "sourceSha256": "7123ec69dd3ffe75a2d239e165fff740fbe04d44dca895982b8ecb4aac2ebe68",
+      "snapshot": "presuppositions-wordpress-4176.html",
+      "reviewDecisions": [
+        "Reviewed all six main prompt pairs, both embedded follow-ups and the quiz-correction disclosure; retained exact curator text including original typos.",
+        "Scoped inductive density as a proposed concept; supplied a conditional Bernoulli illustration, rejected automatic confidence accumulation, and separated subjectivity from underdetermination.",
+        "Distinguished presupposition from certainty, acquisition from justification, unsupported belief from contradiction, and excluded middle from bivalence. Corrected the false spatial mathematics axiom and Euclidean definition claim.",
+        "Preserved both ten-item quizzes, corrected the Yes/No answer with its original correction exchange, and retained thirty discussion questions."
+      ],
+      "verification": {
+        "pagePath": "/epistemology/presuppositions/",
+        "sourceSha256": "7123ec69dd3ffe75a2d239e165fff740fbe04d44dca895982b8ecb4aac2ebe68",
+        "originalPrompts": 8,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 6,
+        "sourceColumns": 12,
+        "modelResponses": 12,
+        "blocksRetainedVerbatim": 112,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 50,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "discussion lists": [
+            15,
+            15
+          ],
+          "prompt-5 reviewed quiz list structure": [
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        "sha256": "01aa4d157357ff8d2399d02ca2827faf66b181edd8812e1e30819802b731e17c",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitleMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 2,
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "pagePath": "/epistemology/properly-basic-beliefs/",
+      "title": "Properly Basic Beliefs",
+      "wordpressId": 5598,
+      "sourceUrl": "http://byteseismic.com/2024/04/08/properly-basic-beliefs/",
+      "sourceSha256": "8154e3df94f52079f8a8992bea7466c020e95a3e831ba6276b2e4de60470a67f",
+      "snapshot": "properly-basic-beliefs-wordpress-5598.html",
+      "reviewDecisions": [
+        "Read all fourteen prompt pairs, including every curator follow-up and the detector analogy. Retained twenty quiz questions and thirty discussion questions.",
+        "Corrected the initial incorrigibility overgeneralization throughout; distinguished non-inferential warrant from no justification, and experience from the external reality it seems to represent.",
+        "Corrected the invalid religious-experience syllogism, avoided conflating lack of entailment with zero evidence, and represented Plantinga’s conditional externalist proposal and defeaters rather than an assertion that God exists.",
+        "Separated actual reliability from known reliability and made the regress conditional on a disputed requirement; corrected dependent quiz answers."
+      ],
+      "verification": {
+        "pagePath": "/epistemology/properly-basic-beliefs/",
+        "sourceSha256": "8154e3df94f52079f8a8992bea7466c020e95a3e831ba6276b2e4de60470a67f",
+        "originalPrompts": 14,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 14,
+        "sourceColumns": 28,
+        "modelResponses": 28,
+        "blocksRetainedVerbatim": 301,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 79,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "discussion lists": [
+            15,
+            15
+          ],
+          "prompt-13 reviewed quiz list structure": [
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        "sha256": "23af619a25f1c1cc75d43c189a0bd5e43ac4e5b3384f1c86e7853a74e7589404",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitleMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 2,
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "pagePath": "/epistemology/reasoned-probabilities-and-decisions/",
+      "title": "Reasoned Probabilities and Decisions",
+      "wordpressId": 1196,
+      "sourceUrl": "http://byteseismic.com/2024/03/03/reasoned-probabilities-and-decisions/",
+      "sourceSha256": "6d07b062c9980843449117cbfd67401411b2d794919b10f29fcbdc18a8a50442",
+      "snapshot": "reasoned-probabilities-and-decisions-wordpress-1196.html",
+      "reviewDecisions": [
+        "Retained all seven main prompts, four embedded curator follow-ups, both curator observations, original abbreviated marker, ten quiz items and twenty discussion questions.",
+        "Qualified the absolute decisions-are-not-evidence claim using fixed information and action-conditional probabilities; preserved the 10%/15% hypothetical without treating it as survival advice.",
+        "Separated Kierkegaard’s existential themes from probability calibration, corrected prediction/transformation equivocation, and avoided generalizing across Christian philosophy.",
+        "Fixed choose-two quiz instruction with only one correct option; preserved the literal wording of the curator’s not-actually-no follow-up.",
+        "Repaired restarted numbering across split original ordered lists; preserved source item order and wording except documented edits."
+      ],
+      "verification": {
+        "pagePath": "/epistemology/reasoned-probabilities-and-decisions/",
+        "sourceSha256": "6d07b062c9980843449117cbfd67401411b2d794919b10f29fcbdc18a8a50442",
+        "originalPrompts": 11,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 7,
+        "sourceColumns": 14,
+        "modelResponses": 14,
+        "blocksRetainedVerbatim": 153,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 41,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "discussion lists": [
+            10,
+            10
+          ],
+          "prompt-6 reviewed quiz list structure": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            5,
+            5,
+            5
+          ]
+        },
+        "sha256": "51067e0ade695366a6d088c32c274bf24dd798e13568e3ffdcafebb299fc4813",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitleMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 2,
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "pagePath": "/epistemology/the-abuse-of-self-evident/",
+      "title": "The Abuse of “Self-Evident”",
+      "wordpressId": 1724,
+      "sourceUrl": "http://byteseismic.com/2024/03/01/the-abuse-of-self-evident/",
+      "sourceSha256": "d3907c1cf11c8ca2828a2450ae65a90ce6490c0575747183b184ae9c9ef2d991",
+      "snapshot": "the-abuse-of-self-evident-wordpress-1724.html",
+      "reviewDecisions": [
+        "Read all seven main prompt pairs and both embedded challenges; preserved all substantive source text, two five-item quizzes and thirty discussion questions.",
+        "Removed one explicitly identified empty source h2 artifact; no substantive prompt removed. Corrected Aquinas, mathematical axioms and Euclidean geometry.",
+        "Retracted the claimed epistemic gain from ethical motivation or moral rhetoric. Qualified historical examples because exact contemporaneous self-evident attributions were not supplied; avoided replacing missing support with invented quotations.",
+        "Corrected overbroad Pasteur and acquired-inheritance claims and distinguished biological variation from moral worth."
+      ],
+      "verification": {
+        "pagePath": "/epistemology/the-abuse-of-self-evident/",
+        "sourceSha256": "d3907c1cf11c8ca2828a2450ae65a90ce6490c0575747183b184ae9c9ef2d991",
+        "originalPrompts": 9,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 7,
+        "sourceColumns": 14,
+        "modelResponses": 14,
+        "blocksRetainedVerbatim": 172,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 42,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "discussion lists": [
+            15,
+            15
+          ],
+          "prompt-6 reviewed quiz list structure": [
+            5,
+            5,
+            5,
+            5
+          ]
+        },
+        "sha256": "9271f0595cf7353a43fb5a900156618f47c99a8173043e54e808063cee3661c2",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitleMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 2,
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "pagePath": "/epistemology/what-is-doubt/",
+      "title": "What is Doubt?",
+      "wordpressId": 635,
+      "sourceUrl": "http://byteseismic.com/2024/02/13/what-is-doubt/",
+      "sourceSha256": "e43d523667a3dbd8662ff0539fb474abb6c8d5a606348ab90271e5bb7226719e",
+      "snapshot": "what-is-doubt-wordpress-635.html",
+      "reviewDecisions": [
+        "Read all five main prompt pairs and two embedded prose follow-ups; preserved and explicitly labeled the curator’s original prose.",
+        "Made the proposed 1−p definition precise while separating ordinary doubt, causal psychology, evidential support and action thresholds.",
+        "Removed unsupported motive-reading and universal psychological claims; focused criticism on specific restrictive practices. Corrected two ambiguous quiz questions while preserving sixteen items, keys and thirty discussion questions."
+      ],
+      "verification": {
+        "pagePath": "/epistemology/what-is-doubt/",
+        "sourceSha256": "e43d523667a3dbd8662ff0539fb474abb6c8d5a606348ab90271e5bb7226719e",
+        "originalPrompts": 7,
+        "curatorProsePrompts": 2,
+        "originalHeadings": 5,
+        "sourceColumns": 10,
+        "modelResponses": 10,
+        "blocksRetainedVerbatim": 120,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 25,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "discussion lists": [
+            15,
+            15
+          ],
+          "prompt-4 reviewed quiz list structure": [
+            8,
+            8,
+            8
+          ]
+        },
+        "sha256": "7ecd133789f7df4120ae82f8559c9c1b49853551734e27488f0d0684bfb0f340",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitleMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 2,
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "pagePath": "/epistemology/what-is-evidence/",
+      "title": "What is Evidence?",
+      "wordpressId": 486,
+      "sourceUrl": "http://byteseismic.com/2024/02/11/what-is-evidence/",
+      "sourceSha256": "fc0445bb7dac7e906e383e1fa9f4f135fa27784d41639dd2ef5a42b84e14a809",
+      "snapshot": "what-is-evidence-wordpress-486.html",
+      "reviewDecisions": [
+        "Read all seven prompt pairs, twenty quiz items and keys, thirty requested discussion questions plus both original Gemini bonus questions.",
+        "Separated evidence from sufficient proof, repeatability from reliability, deductive validity from measurement validity, and action thresholds from factual support.",
+        "Qualified historical causal claims, corrected Pepper’s Ghost as a theatrical illustration rather than a scientific fraud, and separated cold-fusion anomalies from established nuclear mechanisms.",
+        "Corrected non-detection likelihood reasoning and null-result interpretation; repaired the direct/indirect answer and the multiple-correct manipulation question.",
+        "Repaired restarted numbering across split original ordered lists; preserved source item order and wording except documented edits."
+      ],
+      "verification": {
+        "pagePath": "/epistemology/what-is-evidence/",
+        "sourceSha256": "fc0445bb7dac7e906e383e1fa9f4f135fa27784d41639dd2ef5a42b84e14a809",
+        "originalPrompts": 7,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 7,
+        "sourceColumns": 14,
+        "modelResponses": 14,
+        "blocksRetainedVerbatim": 189,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 39,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "discussion requested and bonus groups": [
+            15,
+            5,
+            5,
+            5,
+            2
+          ],
+          "prompt-6 reviewed quiz list structure": [
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        "sha256": "3d36ebd2905a683a3cb158ec3bf79970efc5329302e742293f87724017fb2c4b",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitleMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 2,
+        "isolatedBuildVerified": true
+      }
+    }
+  ],
+  "buildResult": {
+    "isolatedBuild": true,
+    "reviewedPagesPreservedByteForByte": 188,
+    "priorPagesPreservationOnly": 170,
+    "damagedVariantsRejected": 36,
+    "priorRendererRegressions": 2,
+    "buildLog": "Dialectical preservation check passed for all 39 recovered pages, including 17 high-risk regression cases.\nSite audit: pages=840 broken_links=0 duplicate_ids=0 prompt_number_issues=0 orphans=0 oversized_assets=0 style_scars=0 grammar_scars=1 seo_issues=0 json_ld_issues=0 sitemap_issues=0 robots_issues=0\nGenerated or updated 723 content pages.\nVisible hierarchy sections: 15\nExpanded archive years: 2\n"
+  },
+  "inheritedFilesHashPreserved": 476,
+  "limitations": [
+    "No browser, mobile or accessibility inspection. The full static build and source-fidelity checks passed.",
+    "Historical examples on The Abuse of Self-Evident illustrate apparent obviousness; the page explicitly does not claim documented uses of that exact phrase in every case.",
+    "Taxation examples retain their original April 2024 historical frame; they are not presented as current tax advice.",
+    "Saved automation requests Astra High; runtime model identity is not independently attested."
+  ],
+  "publication": "Commit and independently verified remote push recorded in automation memory after publication.",
+  "totals": {
+    "originalPrompts": 148,
+    "modelResponses": 275,
+    "blocksExplicitlyRevised": 787,
+    "blocksRetainedVerbatim": 3264,
+    "tableCellsExplicitlyRevised": 13
+  }
+}

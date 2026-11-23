@@ -1,0 +1,31 @@
+{
+  "pagePath": "/epistemology/pragmatic-considerations-vs-epistemic-assessments/",
+  "sourceSha256": "1ac80b32d21ad5a65126dd28ab579e866f8b55d0f8c31a6f392f3dcdd9672df0",
+  "originalPrompts": 6,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 67,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 35,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "discussion lists": [
+      10,
+      10
+    ]
+  },
+  "sha256": "80c1f0ab8f6707c94854d4676373b15f59d243123e7dda0a7058729cf11e7e0e",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitleMatched": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": 2,
+  "isolatedBuildVerified": true
+}

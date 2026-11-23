@@ -1,0 +1,139 @@
+{
+  "pageFile": "economics/minimum-wage/index.html",
+  "wordpressId": 5873,
+  "snapshot": "minimum-wage-wordpress-5873.html",
+  "sourceUrl": "http://byteseismic.com/2024/04/10/minimum-wage/",
+  "sourceLabel": "Original WordPress conversation, 2024-04-10",
+  "shellRevision": "625f7d87956745038bfe7ac1121ac7ea790c1a75",
+  "date": "2026-11-23",
+  "sourceSha256": "e78eaf5cf1d16c2dd6cdaf7f064f74a460aef76abc36174473c93efb8b4d7941",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "Potential gains and costs",
+    "Voluntary work and nonmonetary rewards",
+    "The curator challenges an assumed necessity",
+    "What informal employment can establish",
+    "Honored contracts and the worker’s alternatives",
+    "Return migration and the meaning of exploitation",
+    "When protection removes a livelihood",
+    "The freedom-of-contract challenge and model withdrawal",
+    "Who decides whether a wage is fair?",
+    "Two seven-item quizzes",
+    "Two sets of fifteen discussion questions"
+  ],
+  "introHeading": "Minimum Wage · original exchange",
+  "intro": "The original eleven prompts preserve the curator’s sustained challenge about voluntary work, migrant opportunity and the meaning of exploitation, including Gemini’s withdrawal and ChatGPT’s continuation.",
+  "description": "The original eleven prompts preserve the curator’s sustained challenge about voluntary work, migrant opportunity and the meaning of exploitation, including",
+  "highlights": [],
+  "replacements": {
+    "1.1.2": "Increased Standard of Living: A higher hourly wage can raise earnings for workers who retain sufficient paid hours. Whether it covers basic needs depends on household circumstances, prices and the applicable wage level; a statutory floor does not guarantee a living income.",
+    "1.1.5": "Reduced Wage Inequality: Raising low hourly wages can narrow wage differences among covered workers. Effects on household income inequality also depend on employment, hours, household composition and other income.",
+    "1.1.6": "Worker Productivity and Retention: Better pay may improve morale and reduce turnover. These possible offsets to labor costs are not guaranteed and differ across workplaces.",
+    "2.1.4": "Nonmonetary and Community Benefits: Some people willingly trade earnings for experience, enjoyment or service. That preference deserves weight. Whether a position legally qualifies as employment, volunteering or training is a separate, jurisdiction-specific question; nonprofit status alone does not answer it.",
+    "2.1.11": "The restriction is real: a covered worker cannot generally waive an applicable wage floor simply because the work is rewarding. Its justification therefore requires more than repeating that protection is desirable. Compare the lost opportunity with likely gains from stronger bargaining power, income support, training subsidies or a narrowly designed exception, including the risk that employers relabel ordinary jobs to evade the rule.",
+    "2.2.5": "A Floor Still Restricts Choice: That employers may pay more does not answer the objection. The issue is whether a mutually desired lower-paid job is prohibited and, if so, whether the public benefit justifies that restriction.",
+    "2.2.10": "Skill Development: Training support may help workers reach better-paid jobs, but it is not an immediate substitute for every opportunity lost today.",
+    "3.1.0": "Yes: the earlier reply largely treated a wage floor as necessary without defending that premise. The curator’s objection is not answered by calling the policy protective. A person may reasonably value a job’s experience or enjoyment more than its cash wage; prohibiting that agreement requires a separate justification.",
+    "3.1.2": "A possible justification is that individual bargaining can produce poor outcomes when workers have few alternatives. That is a reason to investigate intervention, not proof that a statutory minimum is the only or best intervention.",
+    "3.1.3": "Reasons Offered in Support of a Wage Floor:",
+    "3.1.5": "Poverty Reduction: Higher hourly pay may improve household income, but employment, paid hours and family needs affect the result. Neither poverty elimination nor reduced reliance on public support follows automatically.",
+    "3.1.9": "Alternative Solutions: Income supplements, bargaining institutions and expanded employment options should be compared with a wage floor. Each has costs and distributional effects; none can simply be assumed free of employment effects.",
+    "3.1.14": "The unresolved question is comparative: which feasible policy best improves workers’ actual options and outcomes, and how much weight should voluntary choice receive? The case for regulation must meet that question rather than assume its answer.",
+    "3.2.2": "Minimum Wage as a Policy Choice: Statutory wage floors are one institutional approach. Collective bargaining, income support and competitive access to employers are others; absence of a general statutory floor should not be equated with wages determined by an institution-free market.",
+    "3.2.5": "My previous response should have acknowledged the restriction first and then defended any proposed justification. Neutrality requires examining whether the intervention is warranted, not merely proposing variations of it.",
+    "4.1.0": "Such employment is evidence that some workers and employers prefer an arrangement that the formal rules exclude. That matters to the over-regulation argument. It does not alone establish overall efficiency: compare worker gains, lost alternatives, enforcement costs and effects on others under feasible alternative policies.",
+    "4.1.10": "Efficiency and Distribution: A mutually beneficial exchange can improve the parties’ positions while raising questions about effects on others or how gains are divided. Conversely, a rule intended to promote fairness can make a particular worker worse off. Neither label decides the comparison.",
+    "4.2.1": "Efficiency and Exploitation Are Separate Questions: Mutual gains are possible even where bargaining power is unequal. Calling an arrangement exploitative requires a stated criterion and evidence; sub-minimum pay alone does not establish low productivity or prove that the worker would benefit from prohibition.",
+    "4.2.2": "Effects Beyond the Parties: Informal employment may affect competitors, tax collection and workers’ access to protections. Assess those effects rather than assuming that any saving to an employer is a loss to the economy as a whole.",
+    "4.2.11": "The observation raises questions about both policy design and enforcement. It is premature to conclude that enforcement is the only problem, just as it is premature to infer that every wage floor should disappear.",
+    "5.1.0": "An honored verbal agreement is evidence against deception or breach of contract. It does not settle every broader moral definition of exploitation, but anyone applying that label must state the standard and show how this arrangement fails it. The worker’s actual alternative is central, not incidental.",
+    "5.1.8": "Impact of Stopping Informal Employment: If the realistic alternative is lower income or no work, prohibition can make the worker worse off. Long-term development proposals do not erase that immediate loss. Compare actual available alternatives and transition support, rather than an imagined better job.",
+    "5.2.0": "Under the stated conditions, I should not infer a broken promise or deception. A wider claim of exploitation would need evidence of coercion or unfair advantage under an explicitly defended standard. The risks below concern different cases in which the agreement is not as secure as the prompt stipulates.",
+    "5.2.10": "These risks justify checking particular arrangements; they do not establish that the mutually honored arrangement in the prompt is exploitative. Nor do they show that removing it improves the worker’s circumstances.",
+    "5.2.18": "Evaluate both conditions at work and the consequences of removing access to work. If a proposed reform leaves the worker poorer with no feasible alternative, that is a substantive objection it must answer.",
+    "6.1.0": "If workers repeatedly return voluntarily, that supports the view that they value the arrangement relative to their alternatives. It does not prove every term is fair. The prompt’s general claim about how many return is not established here; taking the repeated-return case as stipulated, the disagreement is partly about what “exploitation” means.",
+    "6.1.3": "Wage Standards: Paying below an applicable legal floor and treating someone unfairly are distinct judgments. A legal breach can be established by the rule; a moral allegation needs an account of unfair advantage and evidence about the circumstances, not merely the same wage relabeled.",
+    "6.1.9": "Under a narrow definition tied to broken agreements, an honored agreement is not exploitation. Under a broader definition, it might be, but the speaker must defend the additional criterion. Using the word without that work risks substituting emotional force for an argument.",
+    "6.1.11": "The next step is to identify evidence: were promises kept, was participation informed, were threats used, and what alternatives were available? Keep those findings separate from the further policy question of whether prohibition would help.",
+    "6.2.17": "Repeated return is relevant evidence of perceived benefit. It neither proves the absence of all unfairness nor permits the response to presume abuse. Specify the allegation before applying the label.",
+    "7.1.0": "If enforcing a standard removes a worker’s best available livelihood, that loss counts against the policy. A protective intention does not by itself justify the outcome. The question is whether demonstrable benefits, effects on others or an independently defended right outweigh that loss—and whether a less restrictive alternative exists.",
+    "7.1.9": "Raising Standards: Better conditions are a policy aim, not a guaranteed result. Evidence that remaining jobs improve must be considered alongside the circumstances of workers who lose access to them.",
+    "7.1.12": "Taking away an opportunity can harm a worker. Calling that harm “exploitation” additionally requires an account of unfair advantage or a different clearly stated definition. The same discipline should apply to accusations against employers and regulators.",
+    "7.1.13": "A useful comparison tracks earnings, hours, safety, freedom to leave and realistic alternatives before and after the intervention. A future ideal cannot substitute for explaining what happens to the affected family now.",
+    "7.2.0": "Yes, the lost job can leave the migrant worse off. That possibility must be addressed directly rather than answered only with the purpose of labor protection.",
+    "7.2.8": "Specify the Harm: Distinguish deception, coercion, dangerous conditions and low pay freely accepted for a valued opportunity. Different problems may call for different remedies, and removing the job can itself be a serious harm.",
+    "7.2.15": "No policy is vindicated merely by its stated aim. Compare feasible outcomes and consider measures that preserve access while reducing specific harms; acknowledge cases where a restriction fails that test.",
+    "8.2.0": "Yes. Where a minimum wage applies, it restricts the legal freedom to accept a job below that floor. Saying the law protects rights does not erase this restriction. The remaining dispute is whether the restriction is justified, not whether it exists.",
+    "8.2.5": "Protective Purpose: A wage floor is intended to protect workers, but intention and effect must be distinguished. The proponent must explain why its benefits justify excluding an agreement the worker would prefer.",
+    "9.1.0": "You can judge the personal value of a job, including its enjoyment, experience and cash pay. That supports a strong moral argument for choice. It does not establish an unlimited legal entitlement to every employment arrangement; the further question is whether restrictions on that choice are justified.",
+    "9.1.11": "The answer should acknowledge the cost to your autonomy rather than define it away. To justify preventing your preferred agreement, a proponent needs a defensible competing principle and evidence about consequences. You may still reject that tradeoff; naming “fairness” does not resolve it.",
+    "10.1.3": "What is one possible negative consequence of minimum wage laws for entry-level employment?",
+    "10.1.9": "One intended aim is to improve low-paid workers’ living standards; whether it succeeds depends on pay, hours, employment and household needs.",
+    "10.2.0": "As checked against the US Department of Labor on November 23, 2026, what federal hourly minimum applies to covered, nonexempt employees?",
+    "10.2.3": "When the federal tip-credit requirements are met, what is the minimum direct cash wage, distinct from the worker’s total minimum wage entitlement?",
+    "10.2.5": "Can a single employee-count threshold be assumed to determine minimum-wage coverage across all US states?",
+    "10.2.11": "$2.13 in direct cash wages when the tip-credit requirements are met; wages plus tips must reach the applicable minimum, and the employer must make up a shortfall. See the <a href=\"https://www.dol.gov/agencies/whd/fact-sheets/15-tipped-employees-FLSA\">Department of Labor fact sheet</a>.",
+    "10.2.13": "No. Coverage and exceptions depend on the applicable law; the original answer’s unspecified “4” is not a reliable general rule.",
+    "11.2.1": "Adequacy: Using the federal $7.25 rate confirmed on November 23, 2026, how would you assess adequacy across different household needs and locations?",
+    "8.2.11": "The curator’s freedom-of-contract objection therefore remains substantive. A defensible policy answer must identify the competing interest, examine actual consequences and explain why a less restrictive option would not achieve the aim."
+  },
+  "countChecks": [
+    {
+      "name": "discussion lists",
+      "selector": "#prompt-11 .original-response ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    },
+    {
+      "name": "prompt-10 reviewed quiz list structure",
+      "selector": "#prompt-10 .original-response > ol",
+      "child": "li",
+      "expected": [
+        7,
+        7,
+        7,
+        7
+      ]
+    }
+  ],
+  "reviewDecisions": [
+    "1: both benefit/cost lists retained; qualified living-income, inequality and productivity claims.",
+    "2: both autonomy/protection arguments retained; answered the actual restriction rather than the irrelevant floor-versus-ceiling reply.",
+    "3: retained exact Phil pushback and Gemini concession; made necessity a contested premise and compared alternative institutions.",
+    "4: preserved competing arguments; informal exchange is evidence of valued options, not conclusive efficiency or automatic exploitation.",
+    "5: honored-contract premise explicitly accepted; distinguished possible risks from stipulated facts and acknowledged loss relative to actual alternatives.",
+    "6: repeated-return premise treated conditionally; distinguished breach, legal violation and contested moral unfairness without dismissing curator stance.",
+    "7: both replies now directly acknowledge deprivation caused by regulation; retained policy lists but removed guaranteed benefit framing.",
+    "8: Gemini withdrawal and curator transition preserved verbatim; ChatGPT directly concedes restriction of contractual freedom.",
+    "9: single ChatGPT answer retained; personal valuation, moral autonomy and legal permission separated.",
+    "10: both seven-item quizzes retained; repaired vague legal threshold and tip-credit terminology; first quiz reflects conditional effects.",
+    "11: both fifteen-question lists retained; dated wage premise; other29 questions preserved."
+  ],
+  "preambleHeadingIndexes": [
+    7
+  ],
+  "explicitSourceColumnIndexes": {
+    "7": [
+      18,
+      19
+    ]
+  },
+  "sectionModelLabels": {
+    "8": [
+      "Gemini",
+      "ChatGPT"
+    ],
+    "9": [
+      "ChatGPT"
+    ]
+  },
+  "leadingTextReplacements": {
+    "6.2.9": "Clear breaches or serious harms require direct attention. Breach and exploitation overlap but are not identical concepts; the following examples should be investigated rather than inferred from migrant status:"
+  }
+}

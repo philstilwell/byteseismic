@@ -1,0 +1,99 @@
+{
+  "pageFile": "economics/what-is-economics/index.html",
+  "wordpressId": 3765,
+  "snapshot": "what-is-economics-wordpress-3765.html",
+  "sourceUrl": "http://byteseismic.com/2024/03/15/what-is-economics/",
+  "sourceLabel": "Original WordPress conversation, 2024-03-15",
+  "shellRevision": "625f7d87956745038bfe7ac1121ac7ea790c1a75",
+  "date": "2026-11-23",
+  "sourceSha256": "a0d56701ce2054e5dc6c637be9bba5d8b60346ad62c309d7fc306b2be083444d",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "Choices under scarcity",
+    "Schools and overlapping research traditions",
+    "Two historical timelines",
+    "Country descriptions, not philosophical allegiance",
+    "Testing specific claims and evaluating systems",
+    "Two eight-item quizzes",
+    "Two sets of fifteen discussion questions"
+  ],
+  "introHeading": "What is Economics? · original exchange",
+  "intro": "The seven original prompts introduce scarcity, economic traditions, history, country comparisons and evidence. Both timelines, both fifteen-country tables and the original learning exercises are retained.",
+  "description": "The seven original prompts introduce scarcity, economic traditions, history, country comparisons and evidence. Both timelines, both fifteen-country tables ",
+  "highlights": [],
+  "replacements": {
+    "1.1.4": "Economics studies supply, demand, distribution, efficiency and institutions. In a basic market model, equilibrium means quantity supplied equals quantity demanded at a price. An equilibrium need not be fair or efficient. Market failure usually concerns a failure of efficient allocation; an unequal outcome raises a distinct distributional question.",
+    "1.1.6": "Economists use models, historical evidence, statistical analysis and experiments to explain behavior and assess policies. Describing consequences is distinct from deciding which goals society should pursue. For example, estimating a tax’s effect on work does not by itself determine how to weigh revenue against leisure or inequality.",
+    "1.2.1": "Scarcity and Resource Allocation: Resources have competing uses relative to people’s goals. Unlimited wants are not required: even someone with modest aims must allocate limited time. Opportunity cost is the value of the best alternative forgone—for example, an hour spent working cannot also be spent resting.",
+    "1.2.7": "Social Science and Application: Economic analysis can inform questions about poverty, health, trade and the environment. Its predictions are conditional and uncertain; evaluating them requires data and attention to the setting, not confidence in a model’s label.",
+    "2.1.0": "In the original 2024 context, mainstream research combined several approaches rather than ranking six mutually exclusive schools. The following traditions remain useful historical categories; their influence differs by field and institution:",
+    "2.1.9": "Key Concepts: The role of money, inflation and rules for monetary policy. Modern inflation targeting is not simply identical to the monetarist proposal for a fixed growth rate of the money supply.",
+    "2.1.14": "Overview: Austrian traditions emphasize individual action, dispersed knowledge, entrepreneurship and market processes. Their methodological views vary; it is too sweeping to say that all mathematical modeling is regarded as impossible.",
+    "2.2.2": "Neoclassical Tools: Marginal analysis, constrained choice and equilibrium models are widely used. Their application can identify market failures as well as market coordination; using these tools does not entail a policy of minimal government.",
+    "2.2.4": "Modern macroeconomics has combined optimizing models with nominal rigidities and other imperfections in several ways. The historical neoclassical synthesis is part of that development, not a complete description of all contemporary economics.",
+    "2.2.8": "Behavioral Economics: Psychological evidence is incorporated into much mainstream research. It cannot uniformly be classified as heterodox merely because it revises simple rational-choice assumptions.",
+    "2.2.9": "These categories overlap. Identify the particular model, evidence and question rather than assuming a researcher or policy belongs to one comprehensive doctrine.",
+    "3.1.4": "In medieval European scholastic thought, Aquinas and others linked exchange and just-price questions with theology and ethics. This is a regional strand, not a complete account of medieval economic thinking across civilizations.",
+    "3.1.20": "Psychologists Daniel Kahneman and Amos Tversky made major contributions to the study of judgment and choice, alongside economists and earlier work on bounded rationality. Their findings helped reshape economic models of decision-making.",
+    "3.2.4": "In medieval European scholastic work, religious and ethical concerns shaped discussions of price and exchange. Other regions had their own economic thought; this simplified chronology should not be mistaken for a universal history.",
+    "3.2.13": "The Marginal Revolution emphasized the value of an additional unit and choices at the margin. This changed value theory, but prices still depend on scarcity, production conditions and market structure as well as satisfaction.",
+    "3.2.17": "Karl Marx’s analysis of capitalist production, class and surplus value developed in the nineteenth century and challenged both existing institutions and competing accounts of value.",
+    "4.1.0": "The original fifteen-country selection is retained as a broad historical overview, not a verified ranking of the top fifteen economies or a list of official philosophical commitments. The source framed its descriptions around 2023. Countries combine institutions and change policies; an economic system is not the same thing as a school of theory.",
+    "4.1.1": "Read both tables as simplified institutional descriptions in the original period. Similar “mixed economy” labels conceal large differences, and none establishes that a country adheres exclusively to a particular theory.",
+    "5.1.3": "Econometric Modeling: Statistical models estimate relationships under assumptions about measurement, comparison and omitted factors. Adding controls does not automatically isolate a causal effect; the research design must justify that inference.",
+    "5.1.6": "Natural Experiments: An external event or policy change may create a useful comparison if the affected and comparison groups would otherwise have followed sufficiently similar paths. A before-and-after difference alone can reflect unrelated changes.",
+    "5.2.7": "Economic Modeling: Simulations show what follows from specified assumptions. They are experiments within a model, not independent evidence that the actual economy will behave that way; check predictions against observations and alternative assumptions.",
+    "6.1.8": "Which indicator discussed above adjusts economic activity to reflect selected social and environmental costs and benefits, with results depending on its design?",
+    "6.2.11": "Classical Economics—the question’s invisible-hand framing refers especially to Adam Smith, not simply to all neoclassical economics.",
+    "7.1.1": "Under what assumptions can econometric models help identify a policy’s causal effect, and when might adding controls still leave bias?"
+  },
+  "countChecks": [
+    {
+      "name": "discussion lists",
+      "selector": "#prompt-7 .original-response ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    },
+    {
+      "name": "country rows",
+      "selector": "#prompt-4 table",
+      "child": "tr",
+      "recursive": true,
+      "expected": [
+        16,
+        16
+      ]
+    },
+    {
+      "name": "prompt-6 reviewed quiz list structure",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        8,
+        8,
+        8,
+        8
+      ]
+    }
+  ],
+  "reviewDecisions": [
+    "1: retained comprehensive scope and micro/macro distinction; added opportunity cost and separated efficiency, equity and normative goals.",
+    "2: retained both tradition lists; corrected behavioral classification and monetarism/inflation-targeting equivalence.",
+    "3: both timelines retained; qualified Eurocentric scope, corrected psychologist attribution and value-theory simplification.",
+    "4: both fifteen-country tables retained with original-period framing; removed false top15 claim and confused philosophical adherence.",
+    "5: all research-method groups retained; clarified controls, natural experiments and simulation limitations.",
+    "6: both eight-question quizzes/keys retained; repaired classical/neoclassical answer and overly comprehensive GPI claim.",
+    "7: both fifteen-question discussions retained; one causal-identification question sharpened."
+  ],
+  "tableCellReplacements": {
+    "4.1.table0.1.1": "Mixed market economy; schools inform particular policies rather than define national allegiance.",
+    "4.1.table0.15.2": "Market activity alongside public institutions; the direction of reform varies by period.",
+    "4.2.table0.11.1": "Mixed economy with substantial state influence in key sectors (original-period description)."
+  }
+}

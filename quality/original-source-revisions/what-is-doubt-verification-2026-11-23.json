@@ -1,0 +1,36 @@
+{
+  "pagePath": "/epistemology/what-is-doubt/",
+  "sourceSha256": "e43d523667a3dbd8662ff0539fb474abb6c8d5a606348ab90271e5bb7226719e",
+  "originalPrompts": 7,
+  "curatorProsePrompts": 2,
+  "originalHeadings": 5,
+  "sourceColumns": 10,
+  "modelResponses": 10,
+  "blocksRetainedVerbatim": 120,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 25,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "discussion lists": [
+      15,
+      15
+    ],
+    "prompt-4 reviewed quiz list structure": [
+      8,
+      8,
+      8
+    ]
+  },
+  "sha256": "7ecd133789f7df4120ae82f8559c9c1b49853551734e27488f0d0684bfb0f340",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitleMatched": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": 2,
+  "isolatedBuildVerified": true
+}

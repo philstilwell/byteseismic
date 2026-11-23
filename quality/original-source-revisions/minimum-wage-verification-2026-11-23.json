@@ -1,0 +1,37 @@
+{
+  "pagePath": "/economics/minimum-wage/",
+  "sourceSha256": "e78eaf5cf1d16c2dd6cdaf7f064f74a460aef76abc36174473c93efb8b4d7941",
+  "originalPrompts": 11,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 11,
+  "sourceColumns": 21,
+  "modelResponses": 21,
+  "blocksRetainedVerbatim": 229,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 51,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "discussion lists": [
+      15,
+      15
+    ],
+    "prompt-10 reviewed quiz list structure": [
+      7,
+      7,
+      7,
+      7
+    ]
+  },
+  "sha256": "d2b4ff019da8ff2ba55bbe3d577bbfa115a56004d0322c450586d47e001105a3",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitleMatched": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": 2,
+  "isolatedBuildVerified": true
+}

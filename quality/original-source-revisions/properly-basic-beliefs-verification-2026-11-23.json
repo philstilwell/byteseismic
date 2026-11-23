@@ -1,0 +1,37 @@
+{
+  "pagePath": "/epistemology/properly-basic-beliefs/",
+  "sourceSha256": "8154e3df94f52079f8a8992bea7466c020e95a3e831ba6276b2e4de60470a67f",
+  "originalPrompts": 14,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 14,
+  "sourceColumns": 28,
+  "modelResponses": 28,
+  "blocksRetainedVerbatim": 301,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 79,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "discussion lists": [
+      15,
+      15
+    ],
+    "prompt-13 reviewed quiz list structure": [
+      10,
+      10,
+      10,
+      10
+    ]
+  },
+  "sha256": "23af619a25f1c1cc75d43c189a0bd5e43ac4e5b3384f1c86e7853a74e7589404",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitleMatched": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": 2,
+  "isolatedBuildVerified": true
+}

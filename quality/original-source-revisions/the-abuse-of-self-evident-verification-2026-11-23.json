@@ -1,0 +1,37 @@
+{
+  "pagePath": "/epistemology/the-abuse-of-self-evident/",
+  "sourceSha256": "d3907c1cf11c8ca2828a2450ae65a90ce6490c0575747183b184ae9c9ef2d991",
+  "originalPrompts": 9,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 7,
+  "sourceColumns": 14,
+  "modelResponses": 14,
+  "blocksRetainedVerbatim": 172,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 42,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "discussion lists": [
+      15,
+      15
+    ],
+    "prompt-6 reviewed quiz list structure": [
+      5,
+      5,
+      5,
+      5
+    ]
+  },
+  "sha256": "9271f0595cf7353a43fb5a900156618f47c99a8173043e54e808063cee3661c2",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitleMatched": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": 2,
+  "isolatedBuildVerified": true
+}

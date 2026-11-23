@@ -1,0 +1,41 @@
+{
+  "pagePath": "/economics/what-is-economics/",
+  "sourceSha256": "a0d56701ce2054e5dc6c637be9bba5d8b60346ad62c309d7fc306b2be083444d",
+  "originalPrompts": 7,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 7,
+  "sourceColumns": 14,
+  "modelResponses": 14,
+  "blocksRetainedVerbatim": 172,
+  "tableCellsExplicitlyRevised": 3,
+  "blocksExplicitlyRevised": 24,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "discussion lists": [
+      15,
+      15
+    ],
+    "country rows": [
+      16,
+      16
+    ],
+    "prompt-6 reviewed quiz list structure": [
+      8,
+      8,
+      8,
+      8
+    ]
+  },
+  "sha256": "3c46aa288d9704e3c6175b5cadc272b4d8d5233f7b059ab1ce6afc1f8485f417",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitleMatched": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": 2,
+  "isolatedBuildVerified": true
+}

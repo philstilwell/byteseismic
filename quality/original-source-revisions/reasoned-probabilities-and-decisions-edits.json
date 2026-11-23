@@ -1,0 +1,125 @@
+{
+  "pageFile": "epistemology/reasoned-probabilities-and-decisions/index.html",
+  "wordpressId": 1196,
+  "snapshot": "reasoned-probabilities-and-decisions-wordpress-1196.html",
+  "sourceUrl": "http://byteseismic.com/2024/03/03/reasoned-probabilities-and-decisions/",
+  "sourceLabel": "Original WordPress conversation, 2024-03-03",
+  "shellRevision": "625f7d87956745038bfe7ac1121ac7ea790c1a75",
+  "date": "2026-11-23",
+  "sourceSha256": "6d07b062c9980843449117cbfd67401411b2d794919b10f29fcbdc18a8a50442",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "Confidence, benefits and choices",
+    "When a decision conveys information",
+    "Post-decision biases",
+    "Kierkegaard and commitment",
+    "Prediction and the curator’s follow-ups",
+    "Five-item quizzes",
+    "Discussion questions"
+  ],
+  "introHeading": "Reasoned Probabilities and Decisions · original exchange",
+  "intro": "The complete exchange distinguishes choosing under uncertainty from inflating confidence, then tests whether existential commitment supplies a measure of predictive success.",
+  "description": "The complete exchange distinguishes choosing under uncertainty from inflating confidence, then tests whether existential commitment supplies a measure of p",
+  "highlights": [],
+  "replacements": {
+    "1.1.2": "Practical reasons can justify choosing an action or commitment under uncertainty without increasing the probability assigned to its underlying claim. A promised reward for belief is not evidence that the promise is true.",
+    "1.1.5": "Hold the information and action conditions fixed. Choosing the jump does not raise an already assessed P(survival if jumping)=0.15 merely through commitment. A decision that changes preparation or reveals new information may justify a new conditional assessment; those are different cases.",
+    "1.1.9": "The bare choice does not warrant inflating the probability already conditional on that choice. Changes in causal conditions or information can warrant updates.",
+    "1.2.2": "In the stipulated example, choosing the jump does not by itself raise its 15% survival chance. Selecting between actions with different conditional risks does change which risk you face; that is different from improving the selected action’s conditional chance.",
+    "1.2.11": "Reassess when relevant information or causal conditions change, including during the current decision. Correcting a discovered calculation error can also justify revision.",
+    "2.1.0": "Correct for the intended case of bare commitment with fixed information and conditions. The blanket claim that decisions can never be evidence is too strong: learning another person’s informed choice can be evidence, and one’s own decision can reveal previously unrecognized preferences or information. Neither permits arbitrary inflation of a fixed action-conditional probability.",
+    "2.2.0": "A bare decision supplies no independent support for raising a probability already assessed under that action. But actions can change outcomes, and observing an informed choice can convey information; those cases should not be excluded by an absolute slogan.",
+    "2.2.5": "Update for relevant information, corrected reasoning, or changes in modeled conditions. Merely preferring the chosen option is insufficient.",
+    "2.2.7": "The careful principle is: do not inflate confidence solely because you have committed to an option while holding its evidence and conditions fixed.",
+    "3.1.10": "Optimism bias: A tendency to overestimate favorable outcomes in some contexts. It may contribute to inflated confidence after a choice, but it is not a universal innate response and cannot be diagnosed from the hypothetical alone.",
+    "3.2.2": "Motivated reasoning: Desire for a good outcome can shape interpretation of evidence—for example, inflating the jump’s survival estimate or selectively emphasizing reasons the alternative looks worse. This is a possible mechanism, not a justification for changing the estimate.",
+    "4.1.0": "Kierkegaard’s discussion of faith and commitment is relevant by analogy, but it should not be presented as a rule for altering numerical probabilities after choosing an action. His pseudonymous works also require care in attribution.",
+    "4.1.2": "“Leap of faith” is a common interpretive label for themes of commitment in Kierkegaard. It does not itself supply a probability-updating rule or settle whether a particular commitment is epistemically justified.",
+    "4.1.4": "In the <a href=\"https://web.stanford.edu/~jsabol/existentialism/materials/kierkegaard-postscript.pdf\">Concluding Unscientific Postscript</a>, the pseudonymous Johannes Climacus connects existential truth with passionate inwardness amid objective uncertainty. This concerns how a person relates to existence, not a general rule that sincere belief makes an external proposition true.",
+    "4.1.8": "The relevant comparison is commitment despite uncertainty. It does not follow that choosing to commit supplies new evidence or legitimately raises a numerical credence.",
+    "4.1.9": "Kierkegaard can illuminate the existential meaning of commitment. Whether that commitment warrants belief beyond the evidence is a separate philosophical dispute, and the bear example does not resolve it.",
+    "4.2.3": "Passion and commitment can motivate action despite uncertainty. Choosing the higher-survival option in the stipulated example already has a reason grounded in the probabilities; it need not require a non-rational leap.",
+    "4.2.5": "Reason and faith: The works discuss their tension rather than supplying a general formula for balancing them in every factual judgment.",
+    "5.1.0": "The discussion has identified no quantitative forecasting method supplied by Kierkegaard’s account of faith. Other Christian philosophers differ substantially, so that conclusion should not be generalized to all of them.",
+    "5.1.2": "The existential account concerns commitment and the believer’s way of living. Calling authenticity a form of success does not make it a measure of predictive accuracy.",
+    "5.1.4": "Subjective appropriation concerns the person’s relation to a claim. It does not mean every proposition becomes true when believed intensely.",
+    "5.1.6": "Other Christian philosophers take different approaches to reason and revelation. The earlier appeal to “divine mystery” did not establish a forecasting measure and should not substitute for answering that question.",
+    "5.1.8": "Trust and relationship are important interpretations of faith. Reported changes in behavior or well-being can in principle be studied, but beneficial effects would not by themselves establish the truth of the associated theological claims.",
+    "5.1.10": "No measurable predictive performance has been demonstrated here. Existential significance and forecast accuracy are separate claims requiring different assessments.",
+    "5.1.11": "No quantitative predictive strength has been established in this discussion. Recasting transformation or subjective assurance as “prediction” would change the meaning of the question.",
+    "5.1.15": "Subjective assurance may affect how a person lives, but it is not predictive accuracy. Evidence would be needed for claims about resulting behavior or outcomes.",
+    "5.1.17": "Ethical or spiritual expectations are not automatically verified predictions. If expressed as testable outcome claims, they need clear measures and relevant evidence.",
+    "5.1.19": "Faith in relation to paradox or the absurd is an interpretive philosophical theme, not permission to assign a higher survival probability without support. Its existential significance does not establish forecasting skill.",
+    "5.1.21": "The direct answer is that the thread has offered no demonstrated forecasting advantage attributable to faith. This does not by itself prove that every empirical effect of religious commitment is unmeasurable or absent.",
+    "5.1.22": "Yes, in the limited sense that no observable forecasting strength has been established here. That is different from proving that faith has no observable effects or that every claim made by a believer lacks predictive content.",
+    "5.2.0": "The initial reply repeated the prior topic rather than answering the measurement question. No general quantitative method for scoring a leap of faith has been supplied here.",
+    "5.2.3": "Commitment under uncertainty is relevant to the comparison, but it does not supply new evidence for a numerical probability. Choosing a higher-probability action can already be rational without inflating that probability.",
+    "5.2.5": "His discussion of reason and religious commitment should not be described as a universal operational balancing rule.",
+    "5.2.7": "For the question asked, the answer is that this account supplies no demonstrated forecasting metric. The value of its existential guidance is a distinct issue.",
+    "5.2.8": "He offers philosophical reflection on commitment, but no general numerical rule for balancing faith and evidence in factual probability judgments. Whether that reflection is coherent and applicable depends on the specific interpretation and purpose.",
+    "5.2.21": "The wording of your follow-up matters: “not actually no” is correct if “guidance” means philosophical reflection. It would not establish an operational method for assigning evidential probabilities.",
+    "5.2.24": "Thus: some existential guidance, but no general calibration rule established in this discussion. These are different senses of guidance.",
+    "6.1.12": "C) The individual’s committed relation to existential truth",
+    "6.1.34": "C) The individual’s committed relation to existential truth",
+    "7.1.6": "How can we distinguish a lack of demonstrated predictive accuracy from a lack of observable psychological or social effects of faith?"
+  },
+  "countChecks": [
+    {
+      "name": "discussion lists",
+      "selector": "#prompt-7 .original-response ol",
+      "child": "li",
+      "expected": [
+        10,
+        10
+      ]
+    },
+    {
+      "name": "prompt-6 reviewed quiz list structure",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "reviewDecisions": [
+    "Retained all seven main prompts, four embedded curator follow-ups, both curator observations, original abbreviated marker, ten quiz items and twenty discussion questions.",
+    "Qualified the absolute decisions-are-not-evidence claim using fixed information and action-conditional probabilities; preserved the 10%/15% hypothetical without treating it as survival advice.",
+    "Separated Kierkegaard’s existential themes from probability calibration, corrected prediction/transformation equivocation, and avoided generalizing across Christian philosophy.",
+    "Fixed choose-two quiz instruction with only one correct option; preserved the literal wording of the curator’s not-actually-no follow-up.",
+    "Repaired restarted numbering across split original ordered lists; preserved source item order and wording except documented edits."
+  ],
+  "embeddedPrompts": {
+    "5.1": [
+      "You said, “However, even within this more rational framework, the predictability of faith’s outcomes remains a matter of divine mystery rather than empirical evidence.” What is the predictive strength in Kierkegaard’s faith?",
+      "Your response is equivalent to saying there is no observable predictive strength in faith, right?"
+    ],
+    "5.2": [
+      "Does Kierkegaard offer us coherent and applicable guidance on the proper balance of reason and faith when we make epistemic judgments?",
+      "My question was whether Kierkegaard offers us coherent and applicable guidance on the proper balance of reason and faith when we make epistemic judgments. Based on your last response above, the answer is not actually “no”, right?"
+    ]
+  },
+  "leadingTextReplacements": {
+    "6.2.5": "Which is one way emotions can influence decision-making? (Choose one.)"
+  },
+  "orderedListStarts": {
+    "6.1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      1
+    ]
+  }
+}

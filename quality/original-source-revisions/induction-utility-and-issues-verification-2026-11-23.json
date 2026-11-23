@@ -1,0 +1,37 @@
+{
+  "pagePath": "/epistemology/induction-utility-and-issues/",
+  "sourceSha256": "f8e9eec98cd8cba386fac869edc00ef6f534f4f11a97a1866b4449cde7aa1ded",
+  "originalPrompts": 7,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 7,
+  "sourceColumns": 15,
+  "modelResponses": 15,
+  "blocksRetainedVerbatim": 208,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 31,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "discussion lists": [
+      15,
+      15
+    ],
+    "prompt-6 reviewed quiz list structure": [
+      10,
+      10,
+      10,
+      10
+    ]
+  },
+  "sha256": "99119ab290ce618b6d5af49786395b829f723898f40ad089c29c5e61f776d316",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitleMatched": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": 2,
+  "isolatedBuildVerified": true
+}

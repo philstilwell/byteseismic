@@ -1,0 +1,55 @@
+{
+  "pagePath": "/epistemology/deduction-utility-and-issues/",
+  "sourceSha256": "4bd04c93b9415e9a9412b0c65f6125fb32427c01672eb5271504a6a6fcb07d98",
+  "originalPrompts": 9,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 9,
+  "sourceColumns": 18,
+  "modelResponses": 18,
+  "blocksRetainedVerbatim": 389,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 68,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": false,
+  "explicitListItemSplits": [
+    "5.1.24",
+    "5.1.49"
+  ],
+  "explicitResponseAppendices": [
+    "4.2",
+    "5.2"
+  ],
+  "formatChecks": {
+    "prompt-8 reviewed quiz list structure": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      10,
+      10,
+      10
+    ],
+    "extended forms": [
+      25,
+      25,
+      4,
+      25,
+      25
+    ]
+  },
+  "sha256": "fd70b66a00ef597ff57b8d86657a0540423a39e522e7415124f9c6e8ea474139",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitleMatched": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": 2,
+  "isolatedBuildVerified": true
+}

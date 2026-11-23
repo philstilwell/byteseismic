@@ -1,0 +1,114 @@
+{
+  "pageFile": "epistemology/presuppositions/index.html",
+  "wordpressId": 4176,
+  "snapshot": "presuppositions-wordpress-4176.html",
+  "sourceUrl": "http://byteseismic.com/2024/03/20/presuppositions/",
+  "sourceLabel": "Original WordPress conversation, 2024-03-20",
+  "shellRevision": "625f7d87956745038bfe7ac1121ac7ea790c1a75",
+  "date": "2026-11-23",
+  "sourceSha256": "7123ec69dd3ffe75a2d239e165fff740fbe04d44dca895982b8ecb4aac2ebe68",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "Inductive density",
+    "Certainty and presupposition",
+    "Logic, axioms and intuition",
+    "Truth and human confidence",
+    "Ten-item quizzes and correction",
+    "Discussion questions"
+  ],
+  "introHeading": "Presuppositions? · original exchange",
+  "intro": "The complete exchange preserves the curator’s challenges about axioms and intuition while distinguishing proposed fallibilism, mathematical consequence, and the limits of finite evidence.",
+  "description": "The complete exchange preserves the curator’s challenges about axioms and intuition while distinguishing proposed fallibilism, mathematical consequence, an",
+  "highlights": [],
+  "replacements": {
+    "1.1.0": "“Inductive density” is the conversation’s proposed name for the amount, variety, and relevance of experience supporting a regularity. It is not here a defined statistical quantity. Its value depends on sampling, dependence between observations, measurement quality, and competing explanations, not just frequency.",
+    "1.1.3": "Strengthening confidence: A new observation raises confidence in a hypothesis only insofar as it favors that hypothesis over alternatives. Repeating the same report or observing a case equally expected under rival models need not add support.",
+    "1.1.4": "An asymptotic illustration: Under independent Bernoulli trials with a stable unknown success rate and a uniform prior, n successes without failures give next-trial success probability (n+1)/(n+2). This approaches one as n grows, but does not reach one at finite n. The formula depends on the model; it is not a universal law of human confidence or a proof that all propositions have this trajectory.",
+    "1.1.5": "Limits: Human subjectivity can introduce bias, but the inferential limitation is broader. Finite observations may fit several models, sampling can be unrepresentative, and future conditions can change. Those issues remain even for an ideal observer.",
+    "1.1.6": "The useful insight is that relevant experience can strengthen provisional confidence. It does not follow that every observation increases confidence, that every confidence curve approaches one, or that subjectivity alone proves universal uncertainty.",
+    "1.2.3": "Strengthening confidence requires evidence that distinguishes the regularity from plausible alternatives, with dependence and selection effects taken into account.",
+    "1.2.4": "An asymptotic approach is possible in specified models, such as the all-successes Bernoulli example. Persistent failures, changing conditions, or model uncertainty can instead make confidence level off or decrease.",
+    "1.2.5": "Subjectivity can limit assessment, but finite evidence and uncertainty about the model are independent reasons not to infer unrestricted certainty from repeated observations.",
+    "1.2.7": "Counterexamples: A genuine counterexample refutes an unrestricted universal claim. For a probabilistic claim, an occasional failure may be expected; its evidential effect depends on the competing probabilities.",
+    "2.1.0": "Your reasoning supports caution about unrestricted empirical generalizations, but the stronger conclusion needs additional premises. “Presupposition” means something taken as a starting point in a context; it need not mean an absolutely certain belief.",
+    "2.1.2": "Certainty and presuppositions differ. Psychological certainty is an absence of felt doubt; epistemic certainty concerns warrant that excludes error. A presupposition may be a revisable background assumption. An inductive limit on one kind of justification does not eliminate every useful starting assumption.",
+    "2.1.3": "More relevant evidence can support greater confidence within a specified model. There is no general theorem here that all human confidence increases asymptotically toward one.",
+    "2.1.5": "The conclusion is defensible as fallibilism about ordinary empirical generalizations. Extending it to every mathematical, logical, or introspective claim requires a further argument, and identifying presuppositions with certainty would beg that question.",
+    "2.2.0": "The argument makes a useful case for empirical caution, but does not yet establish that every kind of certainty is impossible or that all presuppositions claim certainty.",
+    "2.2.4": "Presuppositions and axioms: An axiom is a starting statement of a formal system, not automatically an assertion of infallible human knowledge. “Everything that exists occupies space” is not a mathematical axiom; abstract mathematical objects are not ordinarily assigned spatial locations.",
+    "2.2.6": "Valid deduction establishes what follows from assumptions within a specified logic. The validity of the consequence, the truth or applicability of the axioms, and a person’s fallibility in checking the proof are separate questions.",
+    "3.1.0": "The proposal raises a serious fallibilist position, but its strongest conclusions are not established simply by restating the limitations of induction.",
+    "3.1.1": "Confidence should not exceed what its justification warrants. Identifying all justification with inductive regularity is an additional philosophical thesis, not a consequence of that proportionality principle.",
+    "3.1.2": "Unsupported certainty is not automatically a logical contradiction. To show incoherence, identify incompatible commitments. To show insufficient warrant, explain why the evidence falls short; these are different criticisms.",
+    "3.1.3": "The justification of logic is disputed. Experience can inform our trust in reasoning practices, but it does not follow that every logical principle is merely an inductive generalization. Using logic to assess an inductive justification of logic also raises a circularity question.",
+    "3.1.4": "Evaluation: The argument motivates caution about claims of infallibility. It needs independent support for the premises that all justification is inductive and that every certainty claim is logically incoherent.",
+    "3.1.6": "A defensible conclusion is that strong felt conviction alone does not establish infallibility. The universal thesis about logic remains a philosophical position requiring argument.",
+    "3.1.8": "Axioms are accepted without proof within the system being studied. Their selection may reflect conceptual aims, consistency, mathematical fruitfulness, or empirical application; they need not be self-evident or claimed as absolute truths.",
+    "3.1.12": "Self-evidence: Some accounts defend non-empirical warrant for logical principles. Distinguish excluded middle, P ∨ ¬P, from semantic bivalence, the claim that every proposition has exactly one of two truth values. Their relationship depends on the logical framework.",
+    "3.1.13": "Conceptual and structural accounts: Euclidean postulates are not all consequences of definitions of point, line, and plane. Alternative geometries illustrate why choosing postulates and defining terms are different acts.",
+    "3.1.15": "Acquisition versus justification: Experience may help someone learn an axiom without constituting its entire justification. Conversely, calling an axiom conceptual does not settle whether a human can be infallibly certain of it.",
+    "3.2.0": "Your argument supports scrutiny of claims of self-evidence, but the conclusions about all knowledge and logic need more support.",
+    "3.2.1": "Inductive support can be insufficient for certainty about unobserved cases. The claim that no other kind of warrant exists is an additional premise, not something established by induction’s limitations alone.",
+    "3.2.2": "A belief stronger than its evidence warrants is epistemically under-supported. That is not by itself a formal contradiction; “logically incoherent” needs a separate demonstration.",
+    "3.2.3": "Experience can influence confidence in logical practices. Whether logic’s warrant is fundamentally inductive is disputed, and an inductive defense already employs some inferential standards.",
+    "3.2.7": "The fallibilist challenge is significant, but the thread has not established that all apparently self-evident truths originate in induction or that logic is justified only by observed success.",
+    "3.2.9": "Track records can be relevant to assessing intuition, but the universal claim that every intuition has only inductive warrant remains disputed. A feeling of obviousness alone does not establish infallibility.",
+    "3.2.16": "Intuitions should be open to critical assessment and correction. Relevant track records can help, alongside arguments about content, context, and competing explanations; this does not settle every account of intuitive or a priori warrant.",
+    "4.1.0": "The distinction between truth and a person’s confidence is right. The further claim that every confidence trajectory must approach certainty without reaching it does not follow from that distinction alone.",
+    "4.1.3": "In a classical framework, bivalence concerns a proposition’s truth value, not an observer’s certainty about it. Alternative logics and semantic theories complicate the general claim; the epistemic point remains that being true and being known with certainty are different.",
+    "4.1.4": "An asymptotic model can illustrate some patterns of learning, but is not a general description of every belief. Distinguish an unobserved empirical generalization, a formal consequence of axioms, and human confidence in having checked the consequence correctly.",
+    "4.2.0": "Yes to separating truth from confidence. The general asymptotic limit and the exclusively inductive justification of all axioms remain further claims to defend.",
+    "4.2.3": "Finite inductive support does not by itself entail an unrestricted generalization. That point does not require an exact universal curve for human confidence or establish that every kind of certainty is impossible.",
+    "5.1.14": "Valid deduction entails its conclusion from its premises; induction supports conclusions that go beyond what the premises entail. Neither is defined solely by a general-to-specific or specific-to-general direction.",
+    "5.1.15": "Yes, as a possible account of how people acquire or come to accept axioms. This does not establish that all axioms are acquired that way or that their justification must be exclusively inductive. The original correction exchange is retained below.",
+    "5.1.17": "The proposed idea of confidence approaching one without reaching it. This occurs in some models, not as a demonstrated law for all human knowledge.",
+    "5.1.21": "Finite observations alone do not entail an unrestricted empirical generalization. Extending that conclusion to every form of knowledge requires further argument.",
+    "5.1.22": "You are correct that “can be considered” permits an inductive-acquisition account. The earlier “No” was too strong. Acquisition, acceptance, and justification must nevertheless be distinguished.",
+    "5.1.24": "Can axioms be considered to have been acquired inductively? Yes, as a possible account, without establishing an exclusive universal explanation.",
+    "5.1.25": "This corrects the quiz while preserving the remaining disagreement about whether every axiom’s warrant is inductive.",
+    "5.2.8": "How might experience influence acceptance of logical axioms, and why does that not settle their justification?",
+    "5.2.18": "A presupposition is a starting assumption in a context; it may be revisable and need not claim absolute certainty.",
+    "5.2.19": "Experience may help people acquire or trust logical practices. That psychological history does not alone prove that all logical justification is inductive.",
+    "6.1.1": "How do axioms function in a formal system, and why need they not be self-evident?",
+    "6.1.9": "Is certainty achievable in any domain, and what additional argument would be needed to generalize an asymptotic model to all knowledge?"
+  },
+  "countChecks": [
+    {
+      "name": "discussion lists",
+      "selector": "#prompt-6 .original-response ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    },
+    {
+      "name": "prompt-5 reviewed quiz list structure",
+      "selector": "#prompt-5 .original-response > ol",
+      "child": "li",
+      "expected": [
+        10,
+        10,
+        10,
+        10
+      ]
+    }
+  ],
+  "reviewDecisions": [
+    "Reviewed all six main prompt pairs, both embedded follow-ups and the quiz-correction disclosure; retained exact curator text including original typos.",
+    "Scoped inductive density as a proposed concept; supplied a conditional Bernoulli illustration, rejected automatic confidence accumulation, and separated subjectivity from underdetermination.",
+    "Distinguished presupposition from certainty, acquisition from justification, unsupported belief from contradiction, and excluded middle from bivalence. Corrected the false spatial mathematics axiom and Euclidean definition claim.",
+    "Preserved both ten-item quizzes, corrected the Yes/No answer with its original correction exchange, and retained thirty discussion questions."
+  ],
+  "embeddedPrompts": {
+    "3.1": [
+      "But axioms themselves cannot escape their dependence on induction. Axioms held by human minds have been acquired inductively. Right?"
+    ],
+    "3.2": [
+      "I would submit that even our intuitions deserve only as much confidence as their induction-derived track records justify. We can never claim our intuitions have been adequately tested to an degree that warrants their creation of self-evident presuppositions. Right?"
+    ]
+  }
+}

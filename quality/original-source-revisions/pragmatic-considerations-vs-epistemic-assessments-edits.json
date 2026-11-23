@@ -1,0 +1,79 @@
+{
+  "pageFile": "epistemology/pragmatic-considerations-vs-epistemic-assessments/index.html",
+  "wordpressId": 320,
+  "snapshot": "pragmatic-considerations-vs-epistemic-assessments-wordpress-320.html",
+  "sourceUrl": "http://byteseismic.com/2024/02/10/pragmatic-considerations-vs-epistemic-assessments/",
+  "sourceLabel": "Original WordPress conversation, 2024-02-10",
+  "shellRevision": "625f7d87956745038bfe7ac1121ac7ea790c1a75",
+  "date": "2026-11-23",
+  "sourceSha256": "1ac80b32d21ad5a65126dd28ab579e866f8b55d0f8c31a6f392f3dcdd9672df0",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "Pragmatic and epistemic justification",
+    "The proportionality challenge",
+    "Norms and human limitations",
+    "Belief, benefits and self-deception",
+    "The consciously lowered standard",
+    "Discussion questions"
+  ],
+  "introHeading": "Pragmatic Considerations vs Epistemic Assessments · original exchange",
+  "intro": "The full conversation separates practical reasons to act from evidential reasons to believe and follows the curator’s increasingly precise challenge about consciously lowering a standard.",
+  "description": "The full conversation separates practical reasons to act from evidential reasons to believe and follows the curator’s increasingly precise challenge about ",
+  "highlights": [],
+  "replacements": {
+    "1.1.1": "Pragmatic justification concerns whether believing or acting has desirable consequences. Epistemic justification concerns whether a belief is adequately supported as true. A practical benefit is not automatically evidence for the proposition believed.",
+    "1.1.2": "Context and stakes: Practical circumstances can alter how much inquiry is worthwhile or when action is justified under uncertainty. Whether stakes also affect knowledge or outright belief is philosophically disputed; they do not, merely by being important, increase a claim’s evidential probability.",
+    "1.1.3": "William James, in <a href=\"https://www.gutenberg.org/cache/epub/26659/pg26659-images.html\">The Will to Believe</a>, defends passional commitment for a genuine option—live, forced, and momentous—when intellectual grounds cannot decide it. This is not a demonstration that a desired outcome supplies additional evidence for a historical claim.",
+    "1.1.6": "Religious application: The claim that redemption requires belief and the claim that a resurrection occurred each need their own assessment. Even if belief were necessary for a benefit, that condition would not establish either the benefit or the historical event. Religious traditions also differ in how they understand faith and evidence.",
+    "1.1.7": "Under the evidential conception in the question, a promised benefit does not justify increasing confidence beyond the evidence. One may separately debate practical permission to commit or act. Evidence that belief causally changes a future outcome would be relevant evidence about that outcome, not a license to change the past.",
+    "1.2.2": "Pascal’s Wager is a practical argument about commitment under uncertainty, not evidence that its religious premises are true. Its expected-benefit reasoning faces questions about rival religious possibilities, assigned probabilities, costs, and whether belief can be voluntarily chosen.",
+    "1.2.8": "Risk of inconsistent standards: An exception for a desired outcome needs a defensible rationale; otherwise the same move could favor mutually incompatible claims. This is a possible pattern, not proof that one exception inevitably produces general irrationality.",
+    "1.2.9": "Values and risk tolerance can affect what action is reasonable. They do not by themselves settle the truth of the claim or the confidence warranted by the evidence. Calling a commitment practically useful does not answer the epistemic question.",
+    "1.2.14": "The direct answer, on the evidential standard proposed here, is no: the desirability of X does not itself provide evidence for X. Practical commitment and evidential confidence must be assessed separately.",
+    "2.1.0": "Yes, under the evidential conception you stipulate: increasing confidence solely for a hoped-for benefit, without new relevant evidence, departs from that standard. This is a conditional conclusion within a clear framework, not a proof that every philosophical account of rationality has the same definition.",
+    "2.1.1": "Proportionality: Confidence should reflect the support of the total relevant evidence. This does not supply a unique numerical degree for every real-world claim; uncertainty in the evidential model and background assumptions may permit a range.",
+    "2.1.7": "Keep the two assessments separate: desire can motivate action or further investigation, but it does not make the same evidence support a higher probability. If belief has a demonstrated causal effect, that effect belongs in the evidence and decision model.",
+    "2.2.0": "Within your stated evidential standard, yes. My earlier appeal to practical benefits did not answer that specific question; a different account of practical rationality must not be substituted for epistemic rationality.",
+    "2.2.2": "Human limitations: Biases and cognitive constraints may explain a departure from an epistemic standard. An explanation of the departure does not by itself justify it.",
+    "2.2.3": "Practical reasoning: Acting on a low-probability possibility may be sensible when costs and benefits warrant it, while retaining an appropriately low belief in that possibility.",
+    "2.2.5": "Context: The harm caused by a miscalibrated belief can vary without changing whether that confidence exceeds the evidential support.",
+    "2.2.7": "Thus the response to your stipulated case is direct: knowingly inflating confidence for a desired benefit violates the stated epistemic standard. Understanding motives and evaluating practical consequences remain separate questions.",
+    "3.1.0": "Yes. A normative standard describes how reasoning should proceed; a descriptive account explains how people actually reason. Failures to meet a standard do not force us to redefine it, though the standard itself remains open to argument.",
+    "3.2.3": "Clarity without overreach: An explicit standard makes a discussion assessable. It need not imply that all disagreement over rationality is mere relativism or that there is only one defensible account.",
+    "4.1.3": "Self-deception: Knowingly allowing a desired outcome to override one’s acknowledged evidential standard is a departure from that standard. Whether to call the process self-deception depends on the account of self-deception; the argument does not establish a clinical delusion or that the person is irrational in every respect.",
+    "4.2.3": "Practical and epistemic reasoning can coexist: one can act to pursue a benefit without claiming that the benefit makes its underlying proposition more probable.",
+    "4.2.5": "Degree matters: A smaller mismatch may be a smaller epistemic defect under the proposed standard. It is not converted into evidence by being comforting or harmless.",
+    "4.2.7": "Context can change moral consequences and action thresholds. It does not automatically remove the stipulated mismatch between confidence and evidence.",
+    "4.2.11": "The term “self-delusion” is unnecessary here. Self-deception need not be defined as consciously telling oneself a known falsehood; accounts differ. The clear point is that deliberately overriding an acknowledged evidential standard for a desired benefit is not evidential justification.",
+    "4.2.13": "For your specified case, the epistemic judgment does not need to wait on every psychological detail: the confidence is being raised for a non-evidential reason. Psychological labels require additional care.",
+    "5.1.0": "Yes. Your question explicitly stipulates conscious lowering of a standard formerly judged rational. Responding with cases of unconscious bias would evade that stipulation. The person is knowingly departing from that standard, assuming no new evidence or reason to revise the standard itself.",
+    "5.1.1": "Motivated reasoning: Desire can influence assessment consciously or unconsciously. In the case you specify, the lowering is conscious; calling it motivated reasoning does not erase that feature.",
+    "5.1.2": "Cognitive limitations: These can explain other cases, but they do not change the answer to a hypothetical that explicitly includes conscious departure from an accepted evidential standard.",
+    "5.1.3": "Social influences: They may explain why someone makes the choice, but a social benefit is not itself additional evidence that X is true.",
+    "5.2.0": "“Motivated reasoning” can describe the mechanism, but “unintentional bias” is not an adequate substitute for your stipulated conscious choice.",
+    "5.2.1": "Yes: knowingly lowering the bar solely to obtain a promised benefit consciously departs from the evidential standard the person still regards as appropriate. A genuine evidential reason to revise that standard would be a different case.",
+    "5.2.2": "The terminology of self-deception remains debatable; the logical point does not. A promise conditional on belief does not, merely because it is enticing, justify greater confidence in the promise or its underlying claim.",
+    "6.1.6": "When can urgent public-health decisions be justified with incomplete evidence while keeping confidence calibrated to what is actually known?",
+    "6.2.0": "When can pragmatic concerns justify acting on limited evidence, and why is that different from inflating confidence in a claim?",
+    "6.2.10": "These questions distinguish practical decisions, evidential confidence, and psychological explanations. Keeping those separate makes the original disagreement clearer."
+  },
+  "countChecks": [
+    {
+      "name": "discussion lists",
+      "selector": "#prompt-6 .original-response ol",
+      "child": "li",
+      "expected": [
+        10,
+        10
+      ]
+    }
+  ],
+  "reviewDecisions": [
+    "Read all six prompt pairs and retained the complete four-stage curator challenge rather than replacing it with a general essay.",
+    "Corrected the repeated substitution of practical rationality for epistemic support and the evasion of the explicitly conscious case by appeals to unconscious bias.",
+    "Scoped James and Pascal, distinguished belief-dependent future effects from historical truth, and avoided treating a contested psychological label as a diagnosis. Preserved twenty discussion questions."
+  ]
+}

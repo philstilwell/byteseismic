@@ -1,0 +1,113 @@
+{
+  "pageFile": "epistemology/what-is-evidence/index.html",
+  "wordpressId": 486,
+  "snapshot": "what-is-evidence-wordpress-486.html",
+  "sourceUrl": "http://byteseismic.com/2024/02/11/what-is-evidence/",
+  "sourceLabel": "Original WordPress conversation, 2024-02-11",
+  "shellRevision": "625f7d87956745038bfe7ac1121ac7ea790c1a75",
+  "date": "2026-11-23",
+  "sourceSha256": "fc0445bb7dac7e906e383e1fa9f4f135fa27784d41639dd2ef5a42b84e14a809",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "Defining evidence",
+    "Standards across inquiries",
+    "Historical examples",
+    "Absence as evidence",
+    "Evidence and proof",
+    "Ten-item quizzes",
+    "Discussion questions and original bonus"
+  ],
+  "introHeading": "What is Evidence? · original exchange",
+  "intro": "The complete exchange develops a usable account of evidence, evaluates historical examples, and explains when missing observations count against a hypothesis.",
+  "description": "The complete exchange develops a usable account of evidence, evaluates historical examples, and explains when missing observations count against a hypothes",
+  "highlights": [],
+  "replacements": {
+    "1.1.2": "A working definition: evidence is information that bears on how well a claim is supported relative to alternatives, given relevant background assumptions. Something can be evidence without settling the claim; alleged evidence can also be unreliable or irrelevant.",
+    "1.1.6": "Reliability: Assess how accurately the source or method represents the relevant facts. Reliability is a matter to evaluate, not a guarantee built into every item called evidence.",
+    "1.1.8": "Checkability: Independent corroboration is valuable where possible. A unique historical event or private experience need not be reproducible to have evidential relevance, though limits on checking affect the assessment.",
+    "1.1.12": "Context-specific procedures: Different inquiries use different methods and thresholds. Peer review is a screening process, not a guarantee of truth, and eyewitness reports are not automatically stronger than indirect evidence.",
+    "2.1.0": "A coherent general framework can ask about relevance, reliability, alternatives, uncertainty and transparency. It does not supply one universal threshold or procedure for every scientific, historical, mathematical and practical question.",
+    "2.1.2": "Empirical grounding: Empirical claims should fit relevant observations. Not every event can be repeated, and falsifiability ordinarily concerns a hypothesis or testing arrangement rather than an isolated datum. Mathematical proof has different standards.",
+    "2.1.4": "Validity: In deduction, validity means true premises cannot yield a false conclusion. In measurement, construct validity concerns whether an instrument measures its intended property. These senses should not be merged.",
+    "2.1.6": "Reliability: Check repeatability where appropriate, accuracy, dependence and conditions of collection. A consistently biased instrument or rehearsed testimony can be stable without being accurate.",
+    "2.1.10": "Sufficiency: An item can count as evidence while being insufficient for acceptance. The threshold for action or an institutional decision is separate from the strength of support the evidence provides.",
+    "2.1.18": "Scientific inquiry uses observations, methodological scrutiny and independent checking where feasible. Peer review can help detect problems but does not ensure every standard is met.",
+    "2.2.1": "Different inquiries: Physics uses observation as well as experiment, and history uses material traces as well as documents. Procedures differ, but both can assess source quality and compare explanations.",
+    "2.2.2": "Uncertainty: Uncertainty in our knowledge is distinct from a proposition lacking a truth value. Probabilistic assessment can express incomplete support for a definite claim.",
+    "2.2.3": "Values and decisions: Values affect which questions are pursued, ethical collection methods, and action thresholds. They do not by themselves make the same evidence favor a factual claim more strongly.",
+    "3.1.3": "Evidential problem: Mass gain during metal calcination challenged straightforward phlogiston accounts, while oxygen-based explanations better organized relevant observations. Historical phlogiston theories were varied; their rejection was not one observation against one unchanging model.",
+    "3.1.4": "Lesson: Observations must discriminate among competing explanations. Calling the episode simply a lack of proper experiments overlooks the experimental work performed by supporters and critics.",
+    "3.1.8": "Lesson: Altered specimens and insufficient authentication misled parts of the research community. Expectations may affect interpretation, but not every scientist accepted the find, and a single motive should not be assigned to all participants.",
+    "3.1.11": "Evidential failure: Political enforcement of favored claims and suppression of criticism undermined the testing of hereditary and agricultural assertions. Reported successes were not an adequate substitute for controlled, independently assessable evidence.",
+    "3.1.12": "Lesson: Ideological control and restrictions on research damaged scientific inquiry. Attributing particular agricultural losses requires historical evidence rather than treating every Soviet failure as caused by one doctrine.",
+    "3.2.1": "Piltdown Man (1912): A human cranium and an orangutan jaw were altered and presented as an ancient hominin find. The fraud was exposed in 1953 through chemical and anatomical examination. This illustrates failed authentication, not a failure of evolutionary evidence generally. See the <a href=\"https://www.nhm.ac.uk/our-science/services/library/collections/piltdown-man.html\">Natural History Museum archive</a>.",
+    "3.2.2": "Cold fusion (1989): Reported excess heat was interpreted as evidence of nuclear fusion. Independent investigations did not establish the claimed nuclear process with adequate reproducibility and corroborating products. The lesson is to distinguish a measured anomaly from a demonstrated mechanism, without assuming deliberate fraud. See the <a href=\"https://www.osti.gov/servlets/purl/5144772\">1989 Department of Energy report</a>.",
+    "3.2.3": "Pepper’s Ghost (1862): A stage illusion uses reflection from angled glass and controlled lighting to create an apparent figure. It is not, merely as theatrical entertainment, a failed scientific claim or fraudulent ghost investigation. It illustrates how an appearance can have a different cause from the one an observer first imagines. See the <a href=\"https://www.hsm.ox.ac.uk/files/peppersghosthowitworkssmallfilepdf\">Oxford History of Science Museum explanation</a>.",
+    "4.1.5": "A null result can count against an effect when the study was capable of detecting an effect of the relevant size. Failure to reach statistical significance alone is not proof of no effect; examine the estimate, uncertainty, design and the effects still compatible with the data.",
+    "4.1.7": "Compare the probability of no detection under the hypothesis and under its alternative. If no detection is less likely under the hypothesis, it counts against it. For example, with equal prior odds, P(no detection|present)=0.1 and P(no detection|absent)=1 yield posterior presence probability 0.1/1.1, about 9.1%.",
+    "4.1.12": "Indirectly observable claims: Theoretical entities in physics can predict observable traces even when they cannot be seen directly. The significance of a missing trace depends on the specific prediction and detection method, not simply on labeling a claim theoretical or metaphysical.",
+    "4.1.14": "Absence can be evidence when the missing observation was more expected under one hypothesis than another. Its strength depends on detection capability and the comparison, and it need not be conclusive proof.",
+    "4.2.4": "Distinguish evidence from conclusive proof. “We did not find it” may lower its probability even if it does not establish impossibility; the search conditions determine how informative that result is.",
+    "4.2.6": "Expected detection: The evidential weight of a non-detection depends on its likelihood under the competing hypotheses. Prior improbability affects the final probability but does not alone determine the strength of that new evidence.",
+    "4.2.7": "Claim specificity: A clearly specified, detectable entity may be easier to search for than a vague claim. Universal claims are not uniformly harder to refute: a genuine counterexample can refute one.",
+    "5.1.2": "Induction supports conclusions beyond what premises entail; valid deduction establishes a conditional guarantee from true premises. Calling an inductive result conclusive proof can overstate its support, even when that support is extremely strong.",
+    "5.2.3": "Risk of misleading language: “Proof” can overstate certainty, but its use alone does not demonstrate dishonest intent. Ordinary and legal uses can mean sufficient demonstration under a stated standard rather than mathematical certainty.",
+    "5.2.6": "Prefer language that accurately conveys the strength and limits of support. The aim is clarity, not a blanket rule that anyone using the word proof in an empirical context is dishonest.",
+    "6.1.14": "Phlogiston accounts faced difficulties such as mass gain in calcination, while oxygen-based explanations better accounted for relevant observations. The historical change involved competing models and experiments.",
+    "6.1.21": "Empirical claims should be assessed against relevant observations. This is not a requirement that every kind of evidence or justification be an independently repeatable experiment.",
+    "6.1.22": "Compare the likelihood of no detection under the hypothesis and its alternative, then update prior odds by that likelihood ratio.",
+    "6.2.4": "Why distinguish direct from indirect evidence? a) It identifies the author b) It guarantees a certainty ranking c) It rules out bias d) It describes the inferential relationship to the claim",
+    "6.2.15": "d) It describes the inferential relationship to the claim; directness does not guarantee greater reliability.",
+    "6.2.10": "Which is evidence manipulation? (Choose all that apply.) a) Selectively reporting supporting data while hiding relevant contrary data b) Using misleading graph axes c) Transparently citing relevant reliable sources d) Reporting a well-controlled experiment with its limitations",
+    "6.2.21": "a) Selective reporting and b) misleading graph axes.",
+    "7.2.17": "How should consequences affect the threshold for action while remaining distinct from the evidential support for a factual claim?"
+  },
+  "countChecks": [
+    {
+      "name": "discussion requested and bonus groups",
+      "selector": "#prompt-7 .original-response > ol, #prompt-7 .original-response > ul",
+      "child": "li",
+      "expected": [
+        15,
+        5,
+        5,
+        5,
+        2
+      ]
+    },
+    {
+      "name": "prompt-6 reviewed quiz list structure",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        10,
+        10,
+        10,
+        10
+      ]
+    }
+  ],
+  "reviewDecisions": [
+    "Read all seven prompt pairs, twenty quiz items and keys, thirty requested discussion questions plus both original Gemini bonus questions.",
+    "Separated evidence from sufficient proof, repeatability from reliability, deductive validity from measurement validity, and action thresholds from factual support.",
+    "Qualified historical causal claims, corrected Pepper’s Ghost as a theatrical illustration rather than a scientific fraud, and separated cold-fusion anomalies from established nuclear mechanisms.",
+    "Corrected non-detection likelihood reasoning and null-result interpretation; repaired the direct/indirect answer and the multiple-correct manipulation question.",
+    "Repaired restarted numbering across split original ordered lists; preserved source item order and wording except documented edits."
+  ],
+  "orderedListStarts": {
+    "1.1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+}

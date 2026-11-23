@@ -39,7 +39,8 @@ def sections(source, config=None):
     for index, h in enumerate(source.select('h2')):
         if index in pairs.values():
             continue
-        cols = h.find_next_sibling().select(':scope > .wp-block-column')
+        sibling = h.find_next_sibling()
+        cols = sibling.select(':scope > .wp-block-column') if sibling else []
         if index in (config or {}).get('siblingColumnHeadingIndexes', []):
             cols = []
             for sibling in h.find_next_siblings():
@@ -209,6 +210,14 @@ def edited_column(original, n, c, config):
             node.clear()
             for child in list(BeautifulSoup(config['replacements'][key], 'html.parser').contents):
                 node.append(child)
+    for key, value in config.get('curatorPromptNodes', {}).items():
+        if key.startswith(f'{n}.{c}.'):
+            node = col.select_one(f'[data-source-node="{key}"]')
+            assert node is not None and node.get_text() == value
+            assert key not in config['replacements'] and key not in config.get('leadingTextReplacements', {})
+            node['class'] = ['original-curator-prompt']
+            label = BeautifulSoup('<h4>Curator follow-up · original wording</h4>', 'html.parser').h4
+            node.insert_before(label)
     for i, answer in enumerate(col.find_all('details')):
         key = f'{n}.{c}.answer{i}'
         if key in config.get('bareAnswerReplacements', {}):
@@ -246,6 +255,15 @@ def edited_column(original, n, c, config):
             for child in list(BeautifulSoup(value, 'html.parser').contents):
                 addition.append(child)
             node.insert_after(addition)
+    for key in config.get('splitNestedAnswerItems', []):
+        if key.startswith(f'{n}.{c}.'):
+            node = col.select_one(f'[data-source-node="{key}"]')
+            nested = node.find('ul', recursive=False)
+            assert node.name == 'li' and nested is not None
+            addition = BeautifulSoup('<li></li>', 'html.parser').li
+            addition['data-source-addition'] = key
+            addition.append(nested.extract())
+            node.insert_after(addition)
     for value in config.get('responseAppendices', {}).get(f'{n}.{c}', []):
         for child in list(BeautifulSoup(value, 'html.parser').contents):
             col.append(child)
@@ -256,6 +274,13 @@ def edited_column(original, n, c, config):
         h.name = 'h5'
     for h in col.find_all('h3'):
         h.name = 'h4'
+    if f'{n}.{c}' in config.get('emptyEmbeddedHeadings', []):
+        empty = [h for h in col.select('h2') if not h.get_text(strip=True)]
+        assert len(empty) == 1 and not empty[0].find(['img', 'iframe'])
+        previous = empty[0].previous_sibling
+        if isinstance(previous, str) and not previous.strip():
+            previous.extract()
+        empty[0].decompose()
     embedded = config.get('embeddedPrompts', {}).get(f'{n}.{c}', [])
     if embedded:
         headings = col.find_all('h2')
@@ -330,7 +355,12 @@ def render(config):
     appendices = config.get('sourceAppendices', [])
     all_headings = source.select('h2')
     embedded_count = sum(len(values) for values in config.get('embeddedPrompts', {}).values())
-    assert len(original) + len(appendices) + len(config.get('pairedResponseHeadingIndexes', {})) + embedded_count == len(all_headings)
+    response_headings = config.get('embeddedResponseHeadings', {})
+    for address, values in response_headings.items():
+        n, c = map(int, address.split('.'))
+        assert [h.get_text() for h in original[n-1][1][c-1].select('h2')] == values
+    response_heading_count = sum(len(values) for values in response_headings.values())
+    assert len(original) + len(appendices) + len(config.get('pairedResponseHeadingIndexes', {})) + embedded_count + response_heading_count + len(config.get('emptyEmbeddedHeadings', [])) == len(all_headings)
     for appendix in appendices:
         assert all_headings[appendix['headingIndex']].get_text() == appendix['heading']
     shell = subprocess.check_output(['git', 'show', f"{config['shellRevision']}:{config['pageFile']}"], cwd=ROOT, text=True)
@@ -572,7 +602,8 @@ def verify(config, rendered):
             actual = soup.select_one(f'#prompt-{n} .original-response[data-source-column="{c}"]')
             embedded = config.get('embeddedPrompts', {}).get(f'{n}.{c}', [])
             if embedded:
-                assert [h.get_text() for h in col.find_all('h2')] == embedded
+                assert [h.get_text() for h in col.find_all('h2')
+                        if h.get_text(strip=True) or f'{n}.{c}' not in config.get('emptyEmbeddedHeadings', [])] == embedded
                 assert [h.get_text() for h in actual.select('.original-embedded-prompt')] == embedded
             actual_nodes = actual.select('[data-source-node]')
             expected_nodes = expected.select('[data-source-node]')
@@ -661,15 +692,16 @@ def verify(config, rendered):
                  if text(item.select_one('.page-signals__label')) == label]
         assert len(items) == 1 and text(items[0].select_one('.page-signals__value')) == value
     return {'pagePath': '/' + config['pageFile'].removesuffix('index.html'),
-            'sourceSha256': config['sourceSha256'], 'originalPrompts': len(prompts) - len(config.get('nonPromptSections', [])) + sum(len(values) for values in config.get('embeddedPrompts', {}).values()),
+            'sourceSha256': config['sourceSha256'], 'originalPrompts': len(config.get('curatorPromptNodes', {})) + len(prompts) - len(config.get('nonPromptSections', [])) + sum(len(values) for values in config.get('embeddedPrompts', {}).values()),
+            'curatorProsePrompts': len(config.get('curatorPromptNodes', {})),
             'originalHeadings': len(prompts),
             'sourceColumns': sum(len(cols) for _, cols in original),
             'modelResponses': sum(len(cols) for _, cols in original) - len(config.get('nonResponseColumns', [])), 'blocksRetainedVerbatim': retained,
             'tableCellsExplicitlyRevised': len(config.get('tableCellReplacements', {})),
             'blocksExplicitlyRevised': changed, 'bareAnswersExplicitlyRevised': len(config.get('bareAnswerReplacements', {})), 'promptOrderExact': True,
             'sourceBlockOrderExact': True,
-            'listAndTableStructuresPreserved': not bool(config.get('listItemContinuations') or config.get('responseAppendices') or config.get('compactResponseParagraphs')),
-            'explicitListItemSplits': list(config.get('listItemContinuations', {})),
+            'listAndTableStructuresPreserved': not bool(config.get('splitNestedAnswerItems') or config.get('listItemContinuations') or config.get('responseAppendices') or config.get('compactResponseParagraphs')),
+            'explicitListItemSplits': list(config.get('listItemContinuations', {})) + config.get('splitNestedAnswerItems', []),
             'explicitResponseAppendices': list(config.get('responseAppendices', {})),
             'formatChecks': checks, 'sha256': hashlib.sha256(rendered.encode()).hexdigest()}
 

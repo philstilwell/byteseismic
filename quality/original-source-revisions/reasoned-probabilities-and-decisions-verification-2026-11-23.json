@@ -1,0 +1,41 @@
+{
+  "pagePath": "/epistemology/reasoned-probabilities-and-decisions/",
+  "sourceSha256": "6d07b062c9980843449117cbfd67401411b2d794919b10f29fcbdc18a8a50442",
+  "originalPrompts": 11,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 7,
+  "sourceColumns": 14,
+  "modelResponses": 14,
+  "blocksRetainedVerbatim": 153,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 41,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "discussion lists": [
+      10,
+      10
+    ],
+    "prompt-6 reviewed quiz list structure": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      5,
+      5,
+      5
+    ]
+  },
+  "sha256": "51067e0ade695366a6d088c32c274bf24dd798e13568e3ffdcafebb299fc4813",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitleMatched": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": 2,
+  "isolatedBuildVerified": true
+}

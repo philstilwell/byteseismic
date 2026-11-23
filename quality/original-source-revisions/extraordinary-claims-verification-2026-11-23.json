@@ -1,0 +1,31 @@
+{
+  "pagePath": "/epistemology/extraordinary-claims/",
+  "sourceSha256": "baf1e8ce7e15a141f2b096bc156c88e36cbe3d60dc7930c49363470476923b93",
+  "originalPrompts": 6,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 99,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 29,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "discussion lists": [
+      15,
+      15
+    ]
+  },
+  "sha256": "d07d191795c4ca9ddd1838abe632ad9accb237db4d4922d8870cba37d1632ec1",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitleMatched": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": 2,
+  "isolatedBuildVerified": true
+}

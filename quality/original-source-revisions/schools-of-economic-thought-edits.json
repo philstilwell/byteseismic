@@ -1,0 +1,150 @@
+{
+  "pageFile": "economics/schools-of-economic-thought/index.html",
+  "wordpressId": 5837,
+  "snapshot": "schools-of-economic-thought-wordpress-5837.html",
+  "sourceUrl": "http://byteseismic.com/2024/04/09/schools-of-economic-thought/",
+  "sourceLabel": "Original WordPress conversation, 2024-04-09",
+  "shellRevision": "625f7d87956745038bfe7ac1121ac7ea790c1a75",
+  "date": "2026-11-23",
+  "sourceSha256": "86d8cb6a54eed5063d6345789d2dd7563430aac26b7190fea7cdc5685e2a9eb3",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "Comparing schools without reducing them to slogans",
+    "What economic evidence can test",
+    "Income per person and institutional comparisons",
+    "Historical failures and their causes",
+    "A table of systems and qualified achievements",
+    "Two ten-item quizzes",
+    "Discussion across schools and systems"
+  ],
+  "introHeading": "Schools of Economic Thought · original exchange",
+  "intro": "The seven original prompts compare economic traditions, evidence, income per person and historical failures, followed by the original systems table, quizzes and discussion questions.",
+  "description": "The seven original prompts compare economic traditions, evidence, income per person and historical failures, followed by the original systems table, quizze",
+  "highlights": [],
+  "replacements": {
+    "1.1.3": "Key Concepts: Classical writers examined production, distribution, growth and exchange, often emphasizing competition and trade. Their views on public institutions and reform differed; they did not all teach an identical doctrine of automatic equilibrium.",
+    "1.1.7": "Key Concepts: Marx analyzes capitalist production, class relations, surplus value and crisis. His critique concerns private ownership of the means of production; “abolition of private property” should not be read as an undifferentiated claim about all personal possessions.",
+    "1.1.11": "Key Concepts: Marginal choices, preferences, scarcity and equilibrium became central tools. Efficiency results depend on assumptions; neoclassical analysis also examines externalities, market power and information problems.",
+    "1.1.24": "Major Differences: Austrian approaches emphasize subjective value, dispersed knowledge and market processes. Methodological individualism is not unique to this tradition, and its members differ in their attitudes toward empirical and statistical work.",
+    "1.1.26": "Major Contributors: Daniel Kahneman and Amos Tversky are prominent contributors, alongside earlier work on bounded rationality and a wider research tradition.",
+    "1.2.3": "Used arguments about coordination through self-interest and competition; the invisible hand is not a theorem that every unregulated outcome is efficient.",
+    "1.2.20": "Behavioral Economics: Integrates psychological findings into economic models. Much behavioral work is part of mainstream economics, so placing all of it outside the mainstream is misleading.",
+    "1.2.22": "The main differences concern methods, value, distribution, coordination and instability. They are not exhausted by a binary choice between markets and government; modern researchers often combine tools associated with different traditions.",
+    "2.1.0": "Schools are broad research traditions, not single hypotheses that a country can decisively test. Specific claims about incentives, demand, prices and institutions can be tested more rigorously than labels. Policy adoption supplies historical evidence, but not a controlled comparison of an entire school:",
+    "2.1.3": "Results: Evidence about demand management depends on the policy, timing, monetary response and economic conditions. Postwar prosperity cannot be attributed to Keynesianism alone. Stagflation exposed limits in some contemporary models and encouraged revisions concerning supply shocks and expectations.",
+    "2.1.5": "Testing: Monetary targeting and anti-inflation policies supplied important evidence. In the United States, the relevant central-bank episode was the Federal Reserve under Paul Volcker, beginning in 1979, rather than a policy simply attributable to President Reagan.",
+    "2.1.6": "Results: Inflation fell after severe monetary tightening, with substantial recession and employment costs. Monetary-aggregate targeting also encountered difficulties. The <a href=\"https://www.federalreserve.gov/newsevents/speech/bernanke20061110a.htm\">Federal Reserve’s historical account</a> distinguishes this experience from a permanent adoption of a fixed money-growth rule.",
+    "2.1.8": "Testing: Neoclassical tools generate testable predictions about demand, production, incentives and policy. These can be studied with experiments, natural experiments and observational data; deregulation alone is not a test of the entire framework.",
+    "2.1.9": "Results: Findings support some models in specified settings and reject or qualify others. A financial crisis challenges relevant assumptions about risk, information and institutions, but does not by itself refute every model grouped under the neoclassical label.",
+    "2.1.11": "Classical Economics: Industrialization and trade expansion provide historical material, but technology, institutions, colonial relations and demographic change prevent a simple inference from growth to the truth of a whole school.",
+    "2.1.12": "Marxist Economics: Soviet and Chinese institutions provide evidence about particular planning arrangements and policies. Their outcomes do not constitute a clean test of every proposition in Marx’s analysis; distinguish his explanatory claims from later governments’ institutional choices.",
+    "2.1.14": "Behavioral Economics: Laboratory and field experiments test specific decision patterns and interventions. Results vary in magnitude, replication and transfer across settings; success of one intervention does not validate all behavioral claims.",
+    "2.2.5": "Classical and Neoclassical Approaches: Market-oriented reforms have varied outcomes. Assess an identified reform against a credible comparison rather than attributing all growth or crisis in an economy to its broad intellectual label.",
+    "2.2.13": "For a concrete historical case, examine the <a href=\"https://www.federalreservehistory.org/essays/great-inflation\">Federal Reserve’s account of the Great Inflation</a>, then distinguish the historical sequence from a causal test of a whole school.",
+    "3.1.0": "Many high-income economies combine markets, private ownership and extensive public institutions. That descriptive observation does not identify an optimal mix or establish which institution caused high income. The prompt also requires a metric choice: GDP per person measures domestic production, not typical household income; comparisons depend on year and exchange-rate or purchasing-power adjustments.",
+    "3.1.5": "High Production per Person: A high average can coexist with substantial inequality, and resource income or multinational activity can affect it. To assess residents’ circumstances, compare income measures, their distribution and household purchasing power as well.",
+    "3.1.10": "The broad answer is mixed, market-based economies, but the category is too inclusive to establish a precise causal ranking. A defensible comparison needs specified countries, dates and measures, plus controls for resources, history and other institutions.",
+    "3.2.0": "Mixed economies include many high-income countries, but almost all modern economies combine public and private activity to some degree. The label alone therefore has little power to explain income differences. Compare specified institutional arrangements, not only labels:",
+    "3.2.7": "Luxembourg, Switzerland and Norway illustrate high-income mixed economies rather than a dated ranking. Their size, financial sectors, resource income and cross-border production differ substantially.",
+    "3.2.17": "Income per capita can describe outcomes, but it cannot isolate the effect of an economic system by itself. Avoid converting a broad association into proof of the best policy mix.",
+    "4.1.0": "The examples below include systems, policy campaigns and monetary crises. Each can exhibit serious failure on specified measures, but these are not interchangeable kinds of evidence about an entire economic doctrine:",
+    "4.1.2": "The Great Leap Forward in China (1958–1962): Coercive collectivization, procurement pressures, distorted reporting and failed production campaigns contributed to catastrophic famine. Exact mortality estimates differ; a single unsourced numerical range would imply more precision than this overview establishes.",
+    "4.1.3": "Weimar Hyperinflation: War finance, fiscal and external pressures, monetary expansion and the 1923 Ruhr crisis interacted. Financing passive resistance accelerated the breakdown; it is misleading to reduce the episode to simply printing money for reparations. See the <a href=\"https://www.bundestag.de/parlament/geschichte/100-jahre-weimar/hyperinflation-970722\">German Bundestag’s historical account</a>.",
+    "4.1.4": "Zimbabwe’s Crisis: Severe production disruption, fiscal and monetary breakdown and failures of governance contributed to hyperinflation and collapsing living standards. Explaining these outcomes requires institutional and policy evidence, not racial generalizations about the competence of replacement farmers. No precise unsourced inflation estimate is relied on here.",
+    "4.1.11": "These cases show failures of particular institutions and policy combinations. They motivate investigation of information, incentives, accountability and resilience; they do not establish a universal prescription merely by attaching a school’s name to the outcome.",
+    "4.2.2": "Incentives: Planning targets can reward reported output while neglecting quality or consumer needs. This distorts incentives rather than removing all individual motivation.",
+    "4.2.12": "Productivity: Restricted rights, obligations and limited access to resources could constrain improvement. Low productivity also reflected technology and material conditions; it should not simply be attributed to a lack of motivation among serfs.",
+    "5.1.0": "These categories overlap: some describe ownership and coordination, others political arrangements or areas of activity. The table lists possible or observed achievements, not a consensus ranking or guaranteed effects.",
+    "6.1.13": "B) Socially necessary labor time in the production of commodities",
+    "6.1.28": "B) Monetary financing amid fiscal pressures, intensified by the Ruhr crisis",
+    "6.1.54": "B) Socially necessary labor time in the production of commodities",
+    "6.1.57": "B) Monetary financing amid fiscal pressures, intensified by the Ruhr crisis",
+    "6.2.1": "Which broad economic system relies primarily on private ownership and market exchange?",
+    "6.2.5": "Which broad category includes many high-income countries discussed above, without by itself establishing a causal ranking?",
+    "7.1.5": "Monetarism and Keynesianism: Which specific claims about inflation could be tested, and how would you separate their predictions from overlapping policy tools?"
+  },
+  "countChecks": [
+    {
+      "name": "discussion lists",
+      "selector": "#prompt-7 .original-response ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    },
+    {
+      "name": "prompt-6 reviewed quiz list structure",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        10,
+        10,
+        10
+      ]
+    }
+  ],
+  "reviewDecisions": [
+    "1: both school lists retained; corrected classical unanimity, neoclassical efficiency assumptions, Austrian methodological uniqueness and behavioral classification.",
+    "2: both testing discussions now distinguish policy history from identified causal tests; corrected Volcker attribution and blanket validation claims.",
+    "3: both income comparisons retain examples but distinguish GDP, household income, rankings and causal explanation.",
+    "4: retained five ChatGPT cases and Gemini’s three categories; distinguished systems/campaigns/crises, qualified motives and removed unsupported precision and racial causal shorthand.",
+    "5: all ten table rows retained; success claims qualified and overlapping categories explained.",
+    "6: ten questions per model retained; repaired two answer contents, Gemini terminology and missing tenth answer. Answers heading stays inside Gemini response, not a curator prompt.",
+    "7: thirty discussion questions retained, one sharpened to compare testable claims.",
+    "Repaired restarted numbering across split original ordered lists; preserved source item order and wording except documented edits."
+  ],
+  "sectionModelLabels": {
+    "5": [
+      "ChatGPT"
+    ]
+  },
+  "embeddedResponseHeadings": {
+    "6.2": [
+      "Answers"
+    ]
+  },
+  "listItemContinuations": {
+    "6.2.19": "Historical context, institutions, resources, distribution, freedoms and environmental outcomes; specify the question before choosing measures."
+  },
+  "tableCellReplacements": {
+    "5.1.table0.1.2": "Markets can support coordination, innovation and wealth creation; results depend on competition, information and institutions.",
+    "5.1.table0.2.2": "Some implementations combine high living standards with extensive social protection; attribution and tradeoffs require evidence.",
+    "5.1.table0.3.2": "Can mobilize resources toward selected goals; shortages, incentives and coercion can impose serious costs.",
+    "5.1.table0.4.2": "Allows varied combinations of public and private activity; the label does not guarantee stability or equality.",
+    "5.1.table0.5.2": "Can provide extensive services and social insurance; funding, design and access affect outcomes.",
+    "5.1.table0.6.2": "Can direct investment toward selected sectors; performance depends on governance and competition.",
+    "5.1.table0.7.2": "Can facilitate entry and consumer choice; externalities and market power remain possible.",
+    "5.1.table0.8.2": "Some cases grew rapidly, but authoritarian rule is neither necessary nor sufficient for growth.",
+    "5.1.table0.9.2": "Aims to reduce environmental damage; achievements require measured outcomes rather than the label.",
+    "5.1.table0.10.2": "Enables new products and coordination; distribution, privacy, security and market power need separate assessment."
+  },
+  "orderedListStarts": {
+    "6.1": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      1
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "pagePath": "/epistemology/predictive-power/",
+  "sourceSha256": "c0f2b802fe301a3cdfd62ac22beee3d66ff9e4e2694aa7bcab33eaf19cee6ffc",
+  "originalPrompts": 8,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 8,
+  "sourceColumns": 16,
+  "modelResponses": 16,
+  "blocksRetainedVerbatim": 210,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 36,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "discussion lists": [
+      15,
+      15
+    ],
+    "prompt-7 reviewed quiz list structure": [
+      10,
+      10,
+      10
+    ]
+  },
+  "sha256": "eafd76fa8d9823db8f65a15214ad88b178e017e7bd1de45e290934d1433adf1e",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitleMatched": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": 2,
+  "isolatedBuildVerified": true
+}

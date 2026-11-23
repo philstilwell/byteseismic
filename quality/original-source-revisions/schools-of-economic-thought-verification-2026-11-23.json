@@ -1,0 +1,48 @@
+{
+  "pagePath": "/economics/schools-of-economic-thought/",
+  "sourceSha256": "86d8cb6a54eed5063d6345789d2dd7563430aac26b7190fea7cdc5685e2a9eb3",
+  "originalPrompts": 7,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 7,
+  "sourceColumns": 13,
+  "modelResponses": 13,
+  "blocksRetainedVerbatim": 221,
+  "tableCellsExplicitlyRevised": 10,
+  "blocksExplicitlyRevised": 40,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": false,
+  "explicitListItemSplits": [
+    "6.2.19"
+  ],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "discussion lists": [
+      15,
+      15
+    ],
+    "prompt-6 reviewed quiz list structure": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      10,
+      10,
+      10
+    ]
+  },
+  "sha256": "e0f9fa980e2456ea8e467b1babbfb1285658564eba00b77afad423f82c200571",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitleMatched": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": 2,
+  "isolatedBuildVerified": true
+}

@@ -1,0 +1,40 @@
+{
+  "pagePath": "/economics/taxation/",
+  "sourceSha256": "aa9014f31acb271639981bd95f3e3226c1b819de86470d916511f4fafa950d66",
+  "originalPrompts": 8,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 8,
+  "sourceColumns": 16,
+  "modelResponses": 16,
+  "blocksRetainedVerbatim": 128,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 47,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": false,
+  "explicitListItemSplits": [
+    "7.2.5",
+    "7.2.12"
+  ],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "discussion lists": [
+      15,
+      15
+    ],
+    "prompt-7 reviewed quiz list structure": [
+      7,
+      7,
+      7,
+      7
+    ]
+  },
+  "sha256": "627cb14262d2b7bceecd189bf58725fd8fa8d0f734888d7db0a01cb16ab3d6d8",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitleMatched": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": 2,
+  "isolatedBuildVerified": true
+}

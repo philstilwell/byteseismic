@@ -1,0 +1,111 @@
+{
+  "pageFile": "economics/what-are-moral-hazards/index.html",
+  "wordpressId": 5521,
+  "snapshot": "what-are-moral-hazards-wordpress-5521.html",
+  "sourceUrl": "http://byteseismic.com/2024/04/07/what-are-moral-hazards/",
+  "sourceLabel": "Original WordPress conversation, 2024-04-07",
+  "shellRevision": "625f7d87956745038bfe7ac1121ac7ea790c1a75",
+  "date": "2026-11-23",
+  "sourceSha256": "531e6eaa5836bbe3352452fb95bf98997351e9069ee311a76c075b9cef1707c6",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "Definition and seven examples",
+    "From moral judgment to incentive analysis",
+    "The relationship to perverse incentives",
+    "Can an information gap alone create moral hazard?",
+    "Mitigation and its costs",
+    "AI, observation and accountability",
+    "Two ten-item quizzes",
+    "Two sets of fifteen discussion questions"
+  ],
+  "introHeading": "What are Moral Hazards? · original exchange",
+  "intro": "The eight prompts trace moral hazard from insurance to incentives, hidden actions, policy design and AI. The revisions distinguish it from adverse selection and from risk or dishonesty generally.",
+  "description": "The eight prompts trace moral hazard from insurance to incentives, hidden actions, policy design and AI. The revisions distinguish it from adverse selectio",
+  "highlights": [],
+  "replacements": {
+    "1.1.0": "Moral hazard arises when an arrangement changes incentives for an action whose consequences are partly borne by another party, especially when that action is difficult to observe or contract over. Insurance can reduce care or change use of services; delegated work can change effort. Bad faith is not required. The relevant comparison is behavior under the arrangement versus behavior with different incentives.",
+    "1.1.2": "Insurance: Coverage may reduce the financial incentive to take precautions against an insured loss. This is a conditional example, not evidence that insured people generally become reckless; injuries, deductibles and other consequences remain.",
+    "1.1.3": "Employee Effort: An employee paid the same regardless of effort may exert less effort when the employer cannot observe it and bears the resulting loss. This illustrates hidden action without assuming every salaried employee shirks.",
+    "1.1.6": "Rental Property: If damage is hard to attribute and a tenant expects the landlord to bear repair costs, the tenant may take less care. Deposits and enforceable obligations can change that incentive; tenants are not generally exempt from responsibility.",
+    "1.1.7": "Credit Cards: Deferred payment alone is not moral hazard if the borrower bears the debt. A moral-hazard example would require an expected guarantee or discharge that shifts part of the loss and thereby changes borrowing behavior.",
+    "1.2.6": "Deposit Insurance: Protecting depositors can weaken their incentive to monitor a bank. The bank’s risk incentives also depend on owners’ losses, supervision and capital requirements; insurance is not a guarantee that every bank stakeholder escapes loss.",
+    "1.2.9": "Delegated Academic Work: If a group grade rewards everyone equally while one student’s effort is hard to observe, that student may leave work to others. Easy access to online answers alone, as in the original example, does not establish shifted costs or moral hazard.",
+    "1.2.11": "Healthcare: Lower out-of-pocket prices can increase use of care. Some additional care may be beneficial; the technical incentive effect does not by itself establish dishonesty, unhealthy behavior or social harm.",
+    "2.1.0": "Insurance discussions historically used moral language about character, honesty and care. Modern economic analysis increasingly focuses on how coverage or contracts change incentives, without requiring a judgment that the person acts in bad faith. This was a gradual change in emphasis, not a clean replacement of one universal definition.",
+    "2.1.4": "Beyond Bad Faith: The broader analysis includes ordinary responses to incentives, such as reduced effort or increased use of insured services. It does not cover every behavioral change caused by unequal information; hidden characteristics and selection require separate treatment.",
+    "2.2.1": "Insurance Origins: Discussions of character and precaution in insurance predate modern contract theory. The original response’s precise eighteenth-century claim about the first appearance of the term is not established here. Nineteenth-century insurance usage and later economic formalization provide a firmer outline than an unsupported first-use date.",
+    "3.1.0": "The connection is conceptual rather than a measured statistical correlation. “Perverse incentive” is a broad description of a reward structure working against its intended aim. Moral hazard identifies a more specific problem involving incentives, actions and costs shifted under an arrangement.",
+    "3.1.6": "Insurance: Lower prices at the point of care may increase utilization. Whether that additional care is wasteful or valuable needs separate evidence; describing it as moral hazard does not settle that welfare question.",
+    "3.1.7": "Environmental Policy: A subsidy that rewards clearing land can create a perverse incentive even if every action is visible. A moral-hazard version would involve an operator reducing hidden precautions because a guarantee shifts cleanup costs to others. An external cost alone is not enough to establish the narrower concept.",
+    "3.2.4": "Moral hazard is one possible incentive problem, not every undesirable response to a reward. Identify the action, who bears its consequences and why observation or contracting does not fully align their interests.",
+    "3.2.8": "Moral-Hazard Version: Suppose the salesperson receives a bonus immediately but later refunds fall on the employer, which cannot readily observe misleading sales tactics. That specified transfer of consequences and hidden action makes the example fit.",
+    "3.2.12": "Information asymmetry enables some incentive problems, but it is not an independent substitute for a behavioral mechanism. If the parties’ interests remain aligned and behavior does not change, the information gap alone does not establish moral hazard.",
+    "4.1.0": "Not in the strict sense implied by “only.” Unequal information alone is insufficient: there must also be an action and an incentive conflict. The original borrower example mixed hidden characteristics before contracting with changed behavior after lending. The latter is the relevant moral-hazard case.",
+    "4.1.2": "Situation: A bank lends for a project on terms that leave it bearing part of the downside. After receiving funds, the borrower can secretly choose a riskier project with greater personal upside.",
+    "4.1.3": "Information Asymmetry: The lender cannot cheaply observe or verify the project choice. By contrast, undisclosed risk characteristics known before contracting primarily raise a selection problem.",
+    "4.1.4": "Moral Hazard: The loan’s payoff structure makes the riskier action more attractive to the borrower than to the lender. Hidden action allows that conflict to persist. Both the information problem and incentives are doing work.",
+    "4.1.5": "Outcome: The lender faces a risk different from the one it priced. The example does not satisfy a claim that information alone causes moral hazard; it shows why that premise needs correction.",
+    "4.2.0": "The used-car example needs correction. A seller’s private knowledge of an existing defect is primarily a hidden-information or adverse-selection problem, not a demonstration that moral hazard exists without incentive effects.",
+    "4.2.1": "Used-Car Setting: Suppose a buyer agrees to purchase a car but the seller must maintain it until delivery. The buyer cannot readily observe that maintenance.",
+    "4.2.2": "Moral Hazard: Once the sale price is fixed, the seller may reduce costly care while the buyer bears the resulting deterioration. The changed incentive and hidden action—not knowledge of an old defect alone—create the problem.",
+    "4.2.3": "Why Incentives Still Matter: Saving maintenance costs while transferring damage is itself an incentive. A formally announced bonus is not required for an incentive conflict to exist.",
+    "4.2.4": "Thus the requested information-only example is unavailable under this definition. The <a href=\"https://www.nobelprize.org/prizes/economic-sciences/1996/advanced-information/\">Nobel background account of contract theory</a> makes the hidden-action structure explicit.",
+    "5.1.5": "Performance-Linked Contracts: Link rewards to outcomes the agent can influence, while allowing for noise and delayed harms. A narrow metric can create a new incentive to manipulate the measure rather than improve performance.",
+    "5.1.9": "Market Arrangements: Peer-to-peer platforms do not inherently remove moral hazard. Ask who screens borrowers, who monitors actions and who bears losses; a new intermediary can reproduce the same problem.",
+    "5.2.2": "Align Incentives: Risk sharing, delayed rewards or well-chosen performance measures can reduce harmful incentives. Deductibles and co-payments can also deter beneficial activity, so their costs must be evaluated alongside any reduction in unnecessary use.",
+    "5.2.7": "Healthcare: Co-payments may reduce use of care, including needed or preventive care. They should not be assumed to encourage prevention automatically; distinguish targeted incentives from a general increase in patient costs.",
+    "6.1.0": "Under the prompt’s assumption of better information, AI could improve observation of actions and evaluation of contracts. More data do not automatically mean accurate information, equal access or aligned incentives:",
+    "6.1.6": "Tailored Incentives: Behavior data could support more specific rewards, but measurement may be incomplete or influenced by circumstances outside a person’s control. A useful design tests accuracy, privacy, consent and whether the measured behavior actually improves the intended outcome.",
+    "6.1.8": "Predictive Analytics: Predicting default may improve screening for risk types. It addresses moral hazard only insofar as it helps identify or change the borrower’s subsequent incentives and actions; prediction alone does not establish that mechanism.",
+    "6.1.12": "Better observation can help, but effective mitigation depends on contracts, enforceability and who uses the information. A system can predict risk well while leaving incentives misaligned or creating new opportunities to game its measures.",
+    "6.2.6": "Algorithmic Bias: Unfair or inaccurate classification is an important problem, but is not itself moral hazard. The link must specify how the classification changes actions and shifts consequences—for example, encouraging an institution to rely on a score while others bear losses.",
+    "6.2.7": "Over-reliance: A manager insulated from the costs of an AI error may reduce independent checking. That incentive-and-accountability mechanism is a clearer moral-hazard example than mere lack of technical skill.",
+    "7.1.12": "An arrangement changes incentives for actions whose consequences are partly borne by another party, often when those actions are hard to observe. Bad faith is not required.",
+    "7.1.15": "Hidden action can prevent the affected party from observing or contracting over behavior; an information gap alone is insufficient.",
+    "7.1.21": "Prediction can identify situations for investigation, but preventing moral hazard also requires changing incentives or monitoring relevant actions.",
+    "7.2.2": "Which feature makes reduced care after insurance a moral-hazard example? a) Hidden characteristics alone b) Risk aversion alone c) A price that never changes d) Changed incentives for actions whose costs are partly borne by another party",
+    "7.2.3": "How does modern economic usage differ from a purely moral judgment about dishonest behavior?",
+    "7.2.5": "Why might an unobserved group member reduce effort when others bear the extra workload and everyone receives the same reward?",
+    "7.2.7": "A seller’s private knowledge of a pre-existing car defect primarily illustrates: a) Perfect information b) Hidden action after insurance c) Hidden information and possible adverse selection d) Guaranteed moral hazard",
+    "7.2.13": "d) Changed incentives for actions whose costs are partly borne by another party.",
+    "7.2.16": "The member saves effort while shifting work to others, and individual effort is difficult to observe.",
+    "7.2.18": "c) Hidden information and possible adverse selection.",
+    "7.2.20": "AI may improve observation of relevant actions and support better incentives; more accurate pricing alone does not prove that moral hazard was reduced.",
+    "8.2.3": "Can accepting some moral hazard be worthwhile to gain the benefits of insurance or risk sharing? How would you compare the costs and benefits?"
+  },
+  "countChecks": [
+    {
+      "name": "discussion lists",
+      "selector": "#prompt-8 .original-response ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    },
+    {
+      "name": "prompt-7 reviewed quiz list structure",
+      "selector": "#prompt-7 .original-response > ol",
+      "child": "li",
+      "expected": [
+        10,
+        10,
+        10,
+        10
+      ]
+    }
+  ],
+  "reviewDecisions": [
+    "1: both seven-example lists retained; replaced nonexamples involving credit delay and online answers, qualified insurance and depositor mechanisms.",
+    "2: both history sequences retained; removed unsupported first-use precision and the claim that all information-driven behavior qualifies.",
+    "3: both comparisons retained; conceptual relationship distinguished from statistical correlation, sales/environment examples made explicit.",
+    "4: directly corrected both premises; separated adverse selection from hidden action and explained why information alone is insufficient.",
+    "5: retained all mitigation groups; qualified performance pay, peer platforms and mistaken preventive-care claims.",
+    "6: retained both AI analyses; separated prediction/screening from moral hazard and specified accountability and gaming mechanisms.",
+    "7: all twenty questions/keys retained and dependent answers corrected.",
+    "8: thirty questions retained, one reframed to evaluate insurance benefits versus incentive costs."
+  ]
+}

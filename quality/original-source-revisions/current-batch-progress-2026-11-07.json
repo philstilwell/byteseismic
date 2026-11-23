@@ -2,8 +2,8 @@
   "cycle": 8,
   "startIndex": 150,
   "pageCount": 50,
-  "reviewed": 20,
-  "pending": 30,
+  "reviewed": 38,
+  "pending": 12,
   "pages": [
     {
       "pagePath": "/ethics/what-are-ethics/",
@@ -286,218 +286,254 @@
     {
       "pagePath": "/economics/minimum-wage/",
       "title": "Minimum Wage",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 5873,
           "title": "Minimum Wage",
           "url": "http://byteseismic.com/2024/04/10/minimum-wage/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/minimum-wage-verification-2026-11-23.json",
+      "report": "quality/editorial-audit-2026-11-23-supplement.json"
     },
     {
       "pagePath": "/economics/schools-of-economic-thought/",
       "title": "Schools of Economic Thought",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 5837,
           "title": "Schools of Economic Thought",
           "url": "http://byteseismic.com/2024/04/09/schools-of-economic-thought/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/schools-of-economic-thought-verification-2026-11-23.json",
+      "report": "quality/editorial-audit-2026-11-23-supplement.json"
     },
     {
       "pagePath": "/economics/taxation/",
       "title": "Taxation",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 7565,
           "title": "Taxation",
           "url": "http://byteseismic.com/2024/04/30/taxation/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/taxation-verification-2026-11-23.json",
+      "report": "quality/editorial-audit-2026-11-23-supplement.json"
     },
     {
       "pagePath": "/economics/what-are-moral-hazards/",
       "title": "What are Moral Hazards?",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 5521,
           "title": "What are Moral Hazards?",
           "url": "http://byteseismic.com/2024/04/07/what-are-moral-hazards/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/what-are-moral-hazards-verification-2026-11-23.json",
+      "report": "quality/editorial-audit-2026-11-23-supplement.json"
     },
     {
       "pagePath": "/economics/what-is-economics/",
       "title": "What is Economics?",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 3765,
           "title": "What is Economics?",
           "url": "http://byteseismic.com/2024/03/15/what-is-economics/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/what-is-economics-verification-2026-11-23.json",
+      "report": "quality/editorial-audit-2026-11-23-supplement.json"
     },
     {
       "pagePath": "/epistemology/black-boxes-epistemology/",
       "title": "Black Boxes & Epistemology",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 5280,
           "title": "Black Boxes &amp; Epistemology",
           "url": "http://byteseismic.com/2024/04/05/black-boxes-epistemology/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/black-boxes-epistemology-verification-2026-11-23.json",
+      "report": "quality/editorial-audit-2026-11-23-supplement.json"
     },
     {
       "pagePath": "/epistemology/core-deep-rationality/",
       "title": "Core & Deep Rationality",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 7761,
           "title": "Core &amp; Deep Rationality",
           "url": "http://byteseismic.com/2024/05/02/core-deep-rationality/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/core-deep-rationality-verification-2026-11-23.json",
+      "report": "quality/editorial-audit-2026-11-23-supplement.json"
     },
     {
       "pagePath": "/epistemology/deduction-utility-and-issues/",
       "title": "Deduction: Utility and Issues",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 1192,
           "title": "Deduction: Utility and Issues",
           "url": "http://byteseismic.com/2024/02/27/deduction-utility-and-issues/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/deduction-utility-and-issues-verification-2026-11-23.json",
+      "report": "quality/editorial-audit-2026-11-23-supplement.json"
     },
     {
       "pagePath": "/epistemology/extraordinary-claims/",
       "title": "Extraordinary Claims",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 304,
           "title": "Extraordinary Claims",
           "url": "http://byteseismic.com/2024/02/10/extraordinary-claims/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/extraordinary-claims-verification-2026-11-23.json",
+      "report": "quality/editorial-audit-2026-11-23-supplement.json"
     },
     {
       "pagePath": "/epistemology/induction-utility-and-issues/",
       "title": "Induction: Utility and Issues",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 1194,
           "title": "Induction: Utility and Issues",
           "url": "http://byteseismic.com/2024/02/27/induction-utility-and-issues/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/induction-utility-and-issues-verification-2026-11-23.json",
+      "report": "quality/editorial-audit-2026-11-23-supplement.json"
     },
     {
       "pagePath": "/epistemology/pragmatic-considerations-vs-epistemic-assessments/",
       "title": "Pragmatic Considerations vs Epistemic Assessments",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 320,
           "title": "Pragmatic Considerations vs Epistemic Assessments",
           "url": "http://byteseismic.com/2024/02/10/pragmatic-considerations-vs-epistemic-assessments/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/pragmatic-considerations-vs-epistemic-assessments-verification-2026-11-23.json",
+      "report": "quality/editorial-audit-2026-11-23-supplement.json"
     },
     {
       "pagePath": "/epistemology/predictive-power/",
       "title": "Predictive Power",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 2897,
           "title": "Predictive Power",
           "url": "http://byteseismic.com/2024/03/10/predictive-power/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/predictive-power-verification-2026-11-23.json",
+      "report": "quality/editorial-audit-2026-11-23-supplement.json"
     },
     {
       "pagePath": "/epistemology/presuppositions/",
       "title": "Presuppositions?",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 4176,
           "title": "Presuppositions?",
           "url": "http://byteseismic.com/2024/03/20/presuppositions/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/presuppositions-verification-2026-11-23.json",
+      "report": "quality/editorial-audit-2026-11-23-supplement.json"
     },
     {
       "pagePath": "/epistemology/properly-basic-beliefs/",
       "title": "Properly Basic Beliefs",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 5598,
           "title": "Properly Basic Beliefs",
           "url": "http://byteseismic.com/2024/04/08/properly-basic-beliefs/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/properly-basic-beliefs-verification-2026-11-23.json",
+      "report": "quality/editorial-audit-2026-11-23-supplement.json"
     },
     {
       "pagePath": "/epistemology/reasoned-probabilities-and-decisions/",
       "title": "Reasoned Probabilities and Decisions",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 1196,
           "title": "Reasoned Probabilities and Decisions",
           "url": "http://byteseismic.com/2024/03/03/reasoned-probabilities-and-decisions/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/reasoned-probabilities-and-decisions-verification-2026-11-23.json",
+      "report": "quality/editorial-audit-2026-11-23-supplement.json"
     },
     {
       "pagePath": "/epistemology/the-abuse-of-self-evident/",
       "title": "The Abuse of “Self-Evident”",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 1724,
           "title": "The Abuse of &#8220;Self-Evident&#8221;",
           "url": "http://byteseismic.com/2024/03/01/the-abuse-of-self-evident/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/the-abuse-of-self-evident-verification-2026-11-23.json",
+      "report": "quality/editorial-audit-2026-11-23-supplement.json"
     },
     {
       "pagePath": "/epistemology/what-is-doubt/",
       "title": "What is Doubt?",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 635,
           "title": "What is Doubt?",
           "url": "http://byteseismic.com/2024/02/13/what-is-doubt/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/what-is-doubt-verification-2026-11-23.json",
+      "report": "quality/editorial-audit-2026-11-23-supplement.json"
     },
     {
       "pagePath": "/epistemology/what-is-evidence/",
       "title": "What is Evidence?",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 486,
           "title": "What is Evidence?",
           "url": "http://byteseismic.com/2024/02/11/what-is-evidence/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/what-is-evidence-verification-2026-11-23.json",
+      "report": "quality/editorial-audit-2026-11-23-supplement.json"
     },
     {
       "pagePath": "/ethics/assisted-suicide/",

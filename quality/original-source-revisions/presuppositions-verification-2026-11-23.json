@@ -1,0 +1,37 @@
+{
+  "pagePath": "/epistemology/presuppositions/",
+  "sourceSha256": "7123ec69dd3ffe75a2d239e165fff740fbe04d44dca895982b8ecb4aac2ebe68",
+  "originalPrompts": 8,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 112,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 50,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "discussion lists": [
+      15,
+      15
+    ],
+    "prompt-5 reviewed quiz list structure": [
+      10,
+      10,
+      10,
+      10
+    ]
+  },
+  "sha256": "01aa4d157357ff8d2399d02ca2827faf66b181edd8812e1e30819802b731e17c",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitleMatched": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": 2,
+  "isolatedBuildVerified": true
+}

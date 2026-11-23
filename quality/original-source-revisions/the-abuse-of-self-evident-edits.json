@@ -1,0 +1,112 @@
+{
+  "pageFile": "epistemology/the-abuse-of-self-evident/index.html",
+  "wordpressId": 1724,
+  "snapshot": "the-abuse-of-self-evident-wordpress-1724.html",
+  "sourceUrl": "http://byteseismic.com/2024/03/01/the-abuse-of-self-evident/",
+  "sourceLabel": "Original WordPress conversation, 2024-03-01",
+  "shellRevision": "625f7d87956745038bfe7ac1121ac7ea790c1a75",
+  "date": "2026-11-23",
+  "sourceSha256": "d3907c1cf11c8ca2828a2450ae65a90ce6490c0575747183b184ae9c9ef2d991",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "Self-evidence and apparent obviousness",
+    "The demand for justification",
+    "Two proposed examples and pushbacks",
+    "Lessons from mistaken certainty",
+    "Historical examples and their limits",
+    "Five-item quizzes",
+    "Discussion questions"
+  ],
+  "introHeading": "The Abuse of “Self-Evident” · original exchange",
+  "intro": "The complete exchange tests what the label self-evident contributes, preserves both curator objections, and separates rhetorical force from epistemic justification.",
+  "description": "The complete exchange tests what the label self-evident contributes, preserves both curator objections, and separates rhetorical force from epistemic justi",
+  "highlights": [],
+  "replacements": {
+    "1.1.3": "Aquinas distinguishes self-evidence in itself from self-evidence to us. He explicitly denies that God’s existence is self-evident to us and argues that it requires demonstration from effects. See <a href=\"https://www.newadvent.org/summa/1002.htm\">Summa Theologiae I, question 2, article 1</a>.",
+    "1.1.8": "Accounts differ: some link self-evidence to understanding alone, while others discuss non-inferential warrant or rational intuition. Do not equate every account with necessity or with the claim that denial is formally contradictory.",
+    "1.1.10": "A claim being disputed is not the same as its being demonstrated false. The Declaration of Independence illustrates explicit political use of “self-evident”; disagreement about equality or inconsistent implementation does not establish that moral equality is false.",
+    "1.1.12": "Relativity and quantum theory challenged familiar physical expectations. Without identifying a particular writer and text, these should be described as overturned intuitions, not documented uses of the exact philosophical claim of self-evidence.",
+    "1.2.2": "Immediate understanding: Some accounts propose that understanding a proposition can warrant belief without inference. That is stronger than merely feeling certain. Even 1+1=2 is a theorem rather than a primitive axiom in familiar formalizations of arithmetic.",
+    "1.2.3": "Starting point: Accepting a premise does not make subsequent reasoning valid; the inference must still be checked. An axiom can be stipulated for a system without being declared self-evident.",
+    "1.2.9": "Several historical beliefs illustrate the fallibility of apparent obviousness. The examples here do not all document an explicit contemporary use of the words “self-evident.”",
+    "1.2.11": "Euclidean geometry: Non-Euclidean systems show that alternative geometric postulates can be studied consistently under appropriate assumptions. They do not refute Euclidean theorems within Euclidean geometry; application to physical space is a separate empirical question.",
+    "2.1.10": "A useful approach is to state the proposed ground of a claim explicitly and keep it open to scrutiny. An argument must have starting points, but those points need not gain infallibility or immunity from questions by being called self-evident.",
+    "2.2.6": "Distinguish a strong feeling of obviousness from a defended account of non-inferential warrant. For non-contradiction, specify the same subject, time and respect; an intuitive slogan alone does not settle every logical question.",
+    "3.1.0": "Ethical egoism says that one ought to act in one’s own interest. It is not established by the descriptive observation that people often act from self-interest. Calling it self-evident cannot supply the missing normative premise.",
+    "3.1.2": "Intuitive appeal can explain why a person accepts ethical egoism. Explanation of acceptance is not additional evidence that the principle is true.",
+    "3.1.3": "A principle can be adopted as an assumption to explore its consequences. Declaring it foundational or self-evident does not by itself supply certainty or remove the need to defend its status.",
+    "3.1.4": "Moral intuition may be proposed as a source of non-inferential warrant. Whether it provides such warrant requires an account; a familiar motivation does not automatically establish an ethical obligation.",
+    "3.1.6": "The example therefore fails to show an added epistemic quality produced by the label. At most the term describes a proposed way of knowing or supplies rhetorical emphasis; it does not create justification.",
+    "3.1.7": "Yes. The original response confused an explanation of motivation with justification of a moral principle. A natural inclination does not by itself establish what one ought to do.",
+    "3.1.10": "Public defense: A claim that motivation establishes a moral truth needs a defensible connection between those facts and the conclusion. Private experience can be evidence in some contexts, but desire alone does not supply that normative bridge.",
+    "3.2.1": "Example: The claim that causing gratuitous suffering is wrong. This is narrower than claiming every intentional harm is wrong, which would raise immediate questions about justified protection or treatment.",
+    "3.2.3": "Moral emphasis: Calling the principle self-evident can make a message forceful. That is rhetorical or practical influence, not added evidence for its truth.",
+    "3.2.4": "Empathy can motivate concern for suffering. The emotional force of a label should not be mistaken for a demonstration of a moral principle.",
+    "3.2.5": "Rapid decisions can use standing principles without rehearsing their full justification. This practical need does not establish that labeling the principle self-evident increases its epistemic warrant.",
+    "3.2.10": "The example shows a possible communicative effect, not a new truth-conferring quality. The original reply did not meet the request for an epistemic advantage beyond evidence and argument.",
+    "3.2.11": "Yes, if rhetorical force is offered as epistemic support. Persuasion and practical urgency do not make a proposition better justified; the original answer conflated those roles.",
+    "4.1.0": "The relevant lesson concerns claims of self-evidence that prove mistaken, rather than a contradiction in the definition of a genuinely self-evident truth. Historical examples also require documentation of what was actually claimed.",
+    "5.1.0": "These three cases show the failure of familiar or entrenched beliefs. The original answer did not supply contemporary quotations proving that each was explicitly called “self-evident”; that stronger historical claim remains unestablished here.",
+    "5.1.2": "Apparent obviousness: Daily celestial motion can make a stationary Earth seem natural. The geocentric theories involved further arguments and models, not merely one universally shared intuition.",
+    "5.1.3": "Correction: Evidence and improved models supported Earth’s motion and the planetary system. Copernicus’s proposal alone did not demonstrate it, and heliocentrism does not place the Sun at the center of the entire universe.",
+    "5.1.5": "Historical belief: Organisms appearing in decaying material were sometimes explained by spontaneous generation. That explanation was supported by mistaken interpretations of observations; an exact attribution of “self-evident” is not supplied here.",
+    "5.1.6": "Experimental correction: Controlled work, including Pasteur’s broth experiments, challenged spontaneous microbial generation under the tested conditions. It did not prove that life could never originate from nonliving chemistry under any conditions. See the <a href=\"https://www.pasteur.fr/en/about-us/middle-years-1862-1877\">Institut Pasteur historical account</a>.",
+    "5.1.8": "Historical claim: Racial hierarchies were used to justify domination and exclusion. Calling such hierarchies natural or obvious did not establish their scientific or moral legitimacy; this paragraph does not document a particular quotation.",
+    "5.1.9": "Correction: Human genetic variation does not justify a simple hierarchy of racial worth. Genetic similarity alone is not a proof of moral equality, and the Human Genome Project did not show that all human biological differences are absent. Claims about ancestry, ability and moral status must be distinguished.",
+    "5.2.0": "Geocentrism: A stationary central Earth fit everyday appearances, but later observations and explanatory models supported Earth’s motion. This illustrates fallible apparent obviousness; the response does not document a contemporary declaration of self-evidence.",
+    "5.2.1": "Fixity of species: The claim that species never change was challenged by evidence for descent with modification. It was not universally held, and a particular source explicitly labeling it self-evident would be needed for the exact historical request.",
+    "5.2.2": "Inheritance of acquired traits: A general rule that a parent’s acquired adaptations are inherited is not supported by modern genetics. But “only DNA sequence is transmitted” is also too strong: parental effects and some epigenetic inheritance complicate that claim. They do not establish that a blacksmith’s exercised muscles are inherited as such. See the <a href=\"https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet\">NHGRI epigenomics explanation</a>.",
+    "5.2.3": "These examples support caution about intuitive certainty. They should not be presented as three verified quotations of “self-evidence” or as proof that every immediate judgment is unreliable.",
+    "6.2.4": "What rhetorical effect can the label “self-evident” have, without thereby adding epistemic support? (a) Guarantee truth (b) Encourage shared confidence or action (c) Prove a theorem by itself (d) Remove every need for scrutiny",
+    "6.2.10": "(b) Encourage shared confidence or action; that effect is not additional evidence.",
+    "7.1.6": "How have claims of supposedly obvious racial hierarchy been used, and how should empirical assertions be separated from moral status?",
+    "7.2.6": "What documentation is needed to show that a historical belief was explicitly claimed to be self-evident rather than merely widely accepted?"
+  },
+  "countChecks": [
+    {
+      "name": "discussion lists",
+      "selector": "#prompt-7 .original-response ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    },
+    {
+      "name": "prompt-6 reviewed quiz list structure",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        5,
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "reviewDecisions": [
+    "Read all seven main prompt pairs and both embedded challenges; preserved all substantive source text, two five-item quizzes and thirty discussion questions.",
+    "Removed one explicitly identified empty source h2 artifact; no substantive prompt removed. Corrected Aquinas, mathematical axioms and Euclidean geometry.",
+    "Retracted the claimed epistemic gain from ethical motivation or moral rhetoric. Qualified historical examples because exact contemporaneous self-evident attributions were not supplied; avoided replacing missing support with invented quotations.",
+    "Corrected overbroad Pasteur and acquired-inheritance claims and distinguished biological variation from moral worth."
+  ],
+  "embeddedPrompts": {
+    "3.1": [
+      "You said, “The term “self-evident” captures the intuitive appeal of ethical egoism. It suggests that the principle resonates with an internal, almost instinctive understanding of human motivation.“But grounding self-evidence in an internal human motivation is epistemically inappropriate, right?"
+    ],
+    "3.2": [
+      "You said, “Framing [morality] as “self-evident” gives it an immediate moral weight. This weight goes beyond simple arguments and makes condemnation of clear instances of harm swift and socially powerful.“But this rhetorical framing to achieve moral weight is epistemically improper, right?"
+    ]
+  },
+  "emptyEmbeddedHeadings": [
+    "3.2"
+  ],
+  "leadingTextReplacements": {
+    "6.1.7": "Which historical model placed Earth at the center with celestial bodies revolving around it?",
+    "6.1.12": "Who used swan-neck flask experiments to challenge spontaneous microbial generation in broth under the tested conditions?",
+    "6.1.17": "Which fields contribute to assessing empirical claims behind racial hierarchies, while moral equality remains a distinct normative question?"
+  }
+}

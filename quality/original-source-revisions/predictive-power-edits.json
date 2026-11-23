@@ -1,0 +1,92 @@
+{
+  "pageFile": "epistemology/predictive-power/index.html",
+  "wordpressId": 2897,
+  "snapshot": "predictive-power-wordpress-2897.html",
+  "sourceUrl": "http://byteseismic.com/2024/03/10/predictive-power/",
+  "sourceLabel": "Original WordPress conversation, 2024-03-10",
+  "shellRevision": "625f7d87956745038bfe7ac1121ac7ea790c1a75",
+  "date": "2026-11-23",
+  "sourceSha256": "c0f2b802fe301a3cdfd62ac22beee3d66ff9e4e2694aa7bcab33eaf19cee6ffc",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "Prediction and rationality",
+    "Long-term performance",
+    "Quantifying alternative measures",
+    "Measurement versus usefulness",
+    "Arbitrary application",
+    "Answering the value challenge",
+    "Ten-item quizzes",
+    "Discussion questions"
+  ],
+  "introHeading": "Predictive Power · original exchange",
+  "intro": "The full exchange tests the case for predictive power as a measure of rationality and separates formal consistency, empirical usefulness, forecasting skill, and decision quality.",
+  "description": "The full exchange tests the case for predictive power as a measure of rationality and separates formal consistency, empirical usefulness, forecasting skill",
+  "highlights": [],
+  "replacements": {
+    "1.1.4": "Ethical evaluation: Whether goals or actions are morally acceptable is a distinct question from whether beliefs fit evidence or means efficiently serve goals. Ethical goodness should not silently become a measure of predictive or epistemic rationality.",
+    "1.2.5": "Consistency: Assess beliefs and choices under comparable information and aims. Changing a choice after learning relevant facts is not itself inconsistency.",
+    "2.1.2": "Empirical validation: Sustained predictive performance supports the forecasting method in the tested domain. Correlation-based prediction can work without correct causal understanding, so success does not by itself establish a causal model.",
+    "2.1.4": "Measurement: Register forecasts before outcomes, specify resolution rules, include failures, compare equivalent tasks and information, and use a suitable scoring rule. Long duration alone does not remove selection bias or unequal access to data.",
+    "2.2.3": "Access to information: A forecaster with private data may outperform an equally careful reasoner with less information. Evaluate the process relative to available evidence and keep domain skill distinct from a universal personal ranking.",
+    "2.2.4": "Uncertainty: Some forecasting tasks involve irreducible randomness or practical limits on information. Rational probability forecasts need not predict every individual outcome correctly.",
+    "2.2.6": "Repeated success: Out-of-sample performance on relevant, comparably selected cases is stronger evidence than a few hits. It supports predictive skill without proving universal rationality or causal understanding.",
+    "3.1.3": "Quantification: For complementary events, measure |P(A)+P(not A)−1|. Assigning 0.8 to A and 0.7 to not-A gives a coherence discrepancy of 0.5, detectable without observing an outcome. This is a limited diagnostic, not a complete rationality score.",
+    "3.1.6": "Quantification: With specified priors, likelihoods and utilities, compare a reported posterior or chosen action with the model’s result. For example, report absolute posterior error or expected-utility loss. The benchmark assumptions must be justified separately.",
+    "3.1.9": "Quantification: In a controlled task with explicit evidence and assumptions, compare stated confidence with the supported posterior. Counting sources is not enough: sources can share errors or differ in relevance and reliability.",
+    "3.1.12": "Quantification: Compare expected utility of the chosen action with the best available action under stated probabilities and preferences. Realized success also matters as evidence, but one lucky outcome does not establish a good choice.",
+    "3.2.18": "Predictive tracking: Record probability forecasts in advance and score all resolved events. For binary outcomes y ∈ {0,1}, the mean of (p−y)² is the binary Brier score; lower is better. A forecast p=0.8 scores 0.04 if the event occurs and 0.64 if it does not. This convention is half the original two-category sum; see <a href=\"https://viterbi-web.usc.edu/~shaddin/teaching/cs699fa17/docs/Brier50.pdf\">Brier’s paper</a>.",
+    "4.1.2": "Coherence can be measured directly without predictive outcomes, as with complementary probabilities that fail to sum to one. Whether teaching that constraint improves real forecasting is a separate empirical question about the measure’s practical usefulness.",
+    "4.1.11": "The distinction is between measuring a property and demonstrating its usefulness. A formal inconsistency can be identified without a forecast outcome; evidence about whether a training method improves forecasting requires performance evaluation. Neither point establishes a single universally best measure of rationality.",
+    "4.2.1": "Coherence: Mutually exclusive and exhaustive probabilities that sum to more than one reveal a formal inconsistency without waiting for outcomes. Whether a person’s inconsistent-looking purchases conflict with their aims requires knowing their other goals and constraints.",
+    "4.2.7": "The challenge is not that no direct measures exist. It is how to justify their normative importance and establish how well they transfer to real tasks. Predictive performance is central to the latter question when forecasting is the objective.",
+    "5.1.0": "Arbitrary application without a relevant justification is open to criticism. But not every justification requires first measuring predictive success: a proof can establish a formal constraint, while empirical claims about the usefulness of a method need empirical testing.",
+    "5.1.4": "Normative models provide conditional benchmarks. Poor outcomes can reveal mistaken probabilities, utilities, model assumptions, or implementation; they do not automatically refute probability rules or show that a single decision was irrational.",
+    "5.1.10": "A formal rule should have an explicit rationale and be applied under suitable assumptions. Claims that following it improves empirical forecasts need fair performance tests. Logical conformity alone and realized outcomes alone answer different, incomplete questions.",
+    "5.2.3": "Normative models: Adherence is informative only when the model and its application are justified. Merely following a rule labeled “rational” does not establish sound thinking.",
+    "5.2.7": "Normative models: Some are defended through explicit axioms or mathematical arguments rather than only past success. Whether they improve outcomes in a particular application remains an empirical question.",
+    "6.1.0": "There are two questions: how to measure a factor, and why to value it. Coherence can be measured by formal constraints; its value can be defended by arguments about consistency or accuracy under stated assumptions. Claims that a method improves real-world forecasting require empirical validation. These justifications should be stated, not hidden in the label “intrinsic.”",
+    "6.1.5": "Formal assessment: Compare a response with the result of a specified normative model. Justification: explain the model’s axioms and why they fit the task. Agreement with a model is not its own independent justification.",
+    "6.1.8": "Process assessment: In a task with explicit likelihoods and prior odds, calculate posterior odds and compare the participant’s update. The calculation can be checked before the event resolves; the adequacy of the likelihood model is a separate empirical issue.",
+    "6.1.11": "Predictive power is a strong practical test for forecasting methods. It is not required to identify every formal inconsistency or conditional mathematical error. Conversely, formal correctness does not establish a model’s empirical usefulness. This answers the challenge without asserting that all rival measures are independently validated universal scores.",
+    "6.2.0": "Your challenge calls for a justification, not another list of labels. Formal constraints can be checked directly, while claims of practical usefulness require evidence appropriate to the claimed benefit.",
+    "6.2.3": "Expert evaluation: Experts can apply published scoring criteria, but authority alone does not establish those criteria’s value. Report the rationale, agreement between assessors, and evidence of transfer to the target task.",
+    "6.2.9": "Following a justified normative model demonstrates conformity to that model; whether it improves real decisions must be investigated rather than assumed.",
+    "6.2.18": "Predictive power: Scores registered forecasts against resolved outcomes. Decision success additionally depends on goals, actions, information and chance.",
+    "7.1.11": "10. Which distinction answers the curator’s challenge? A) Formal conformity can be checked directly, while empirical usefulness requires relevant evidence. B) Predictive success proves every moral value. C) Prediction is irrelevant to forecasting methods. D) Coherence guarantees success.",
+    "7.1.22": "A) Formal conformity can be checked directly, while empirical usefulness requires relevant evidence.",
+    "7.2.2": "What can confound a comparison of two people’s predictive scores? a) Different information and event selection b) Recording every forecast c) Using the same resolution rule d) Testing the same events with the same information",
+    "7.2.13": "(a)",
+    "7.2.15": "(c)",
+    "7.2.5": "Why might an efficiency test fail to represent real-world performance? a) All tests exclude uncertainty b) Its tasks and information may differ from the intended real-world domain c) Every simulation guarantees success d) Logical consistency is irrelevant",
+    "7.2.10": "What is needed to assess a formal measure’s usefulness for real-world forecasting? a) The forecaster’s confidence alone b) Evidence of performance on relevant tasks c) A popular label d) A guarantee of perfect prediction"
+  },
+  "countChecks": [
+    {
+      "name": "discussion lists",
+      "selector": "#prompt-8 .original-response ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    },
+    {
+      "name": "prompt-7 reviewed quiz list structure",
+      "selector": "#prompt-7 .original-response > ol",
+      "child": "li",
+      "expected": [
+        10,
+        10,
+        10
+      ]
+    }
+  ],
+  "reviewDecisions": [
+    "All eight prompt pairs and repeated curator challenges preserved. Added concrete coherence, posterior-error, expected-utility and forecast-score measures instead of vague labels.",
+    "Distinguished measuring a factor from justifying its value, prediction from causal understanding, forecast scores from decision success, and long records from fair comparisons.",
+    "Checked all twenty quiz questions and keys; corrected Gemini’s wrong coherence answer and ambiguous first/fourth/ninth questions. Thirty discussion questions retained."
+  ]
+}

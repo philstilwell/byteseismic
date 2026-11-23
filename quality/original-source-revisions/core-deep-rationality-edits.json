@@ -1,0 +1,237 @@
+{
+  "pageFile": "epistemology/core-deep-rationality/index.html",
+  "wordpressId": 7761,
+  "snapshot": "core-deep-rationality-wordpress-7761.html",
+  "sourceUrl": "http://byteseismic.com/2024/05/02/core-deep-rationality/",
+  "sourceLabel": "Original WordPress conversation, 2024-05-02",
+  "shellRevision": "625f7d87956745038bfe7ac1121ac7ea790c1a75",
+  "date": "2026-11-23",
+  "sourceSha256": "0cc8a6bb9214a4b53e4e0b86728daef8ef36a2b133a513c88b10b44c254854b7",
+  "modelLabels": [
+    "ChatGPT",
+    "Claude"
+  ],
+  "headings": [
+    "Definitions and their scope",
+    "Four combinations",
+    "Two analogies",
+    "Applied scenarios",
+    "Expert and novice dialogues",
+    "Disposition and tools",
+    "Ten-item quizzes",
+    "Discussion questions"
+  ],
+  "introHeading": "Core & Deep Rationality · original exchange",
+  "intro": "The complete exchange distinguishes epistemic honesty from acquired reasoning tools, tests four combinations, and explores their use through examples, dialogues, quizzes, and discussion.",
+  "description": "The complete exchange distinguishes epistemic honesty from acquired reasoning tools, tests four combinations, and explores their use through examples, dial",
+  "highlights": [],
+  "replacements": {
+    "1.1.0": "Core rationality, in the terminology proposed in this conversation, is a disposition of epistemic self-honesty: trying sincerely to align confidence with the evidence as one understands it, including contrary evidence. This is a proposed distinction, not a standard psychological classification. A binary ideal can distinguish honesty from deliberate misrepresentation in a particular judgment; real people vary across situations, and sincere error or unconscious bias does not by itself establish dishonesty.",
+    "1.1.1": "Deep rationality names acquired critical-thinking tools and relevant knowledge: probability, deduction, induction, methods of inquiry, and recognition of biases and fallacies. These abilities develop by degrees. To make the four combinations requested below coherent, possession of these tools must be distinguished from their honest use: a skilled reasoner can misuse expertise. Core honesty supports good application but is not a prerequisite for acquiring the skills.",
+    "1.1.2": "The distinction separates an epistemic disposition from a repertoire of skills. Both can be cultivated together. Honest intentions do not guarantee accurate beliefs, and technical sophistication does not guarantee honest reasoning.",
+    "1.2.1": "Core rationality here means a sincere disposition to match confidence to perceived relevant evidence and revise it when warranted. The thread proposes a binary ideal for a particular judgment; it does not establish that whole people fall into two empirically measurable classes.",
+    "1.2.3": "For a proposition P, the ideal is to assign confidence in accordance with one’s honest assessment of the total relevant evidence. No unique numerical mapping follows from this statement alone: a model of evidential support and appropriate background assumptions would also be needed.",
+    "1.2.5": "Deep rationality refers to acquired skills and knowledge that can improve reasoning. It varies by degree and domain; someone can possess these tools while selectively or dishonestly using them.",
+    "1.2.10": "Relevant knowledge of the world and the ability to distinguish justified probability estimates from unsupported precision.",
+    "1.2.16": "Evaluate how well confidence tracks evidence, acknowledge uncertainty, and correct identifiable errors.",
+    "1.2.20": "Core rationality supports honest use of deep rational skills; it is not logically required for possessing those skills.",
+    "2.1.4": "Character: Jane is a high school science teacher who sincerely tries to align her beliefs with available evidence and revises lessons in response to student feedback. She has limited training in advanced statistics, research design, and the identification of reasoning errors. Sincerity does not make all her judgments correct.",
+    "2.1.11": "Situation: Dr. Lisa evaluates a sustainable farming technique through careful data collection, suitable statistical analysis, and checks for bias. In this hypothetical case, these practices improve the support for her conclusions; they do not guarantee correct results or policy influence.",
+    "2.2.2": "Jamie dogmatically maintains claims even after recognizing that the available evidence weighs against them, and lacks training in scientific reasoning or bias detection. The deliberate disregard of recognized evidence, rather than merely holding an unusual belief, illustrates the missing core disposition.",
+    "2.2.8": "Sam is a researcher who uses blinding, replication, and appropriate statistical updating while sincerely remaining open to correction. These methods can improve reliability without making beliefs perfectly calibrated. Sam’s combination of skill and intellectual honesty illustrates both dimensions.",
+    "3.1.5": "The house analogy illustrates the importance of combining a sound foundation with capable design. Its limit is that people can acquire advanced reasoning skills before, or without, an honest disposition; the four combinations concern that distinction.",
+    "3.2.1": "Imagine navigating a forest with a compass. An ordinary compass indicates magnetic north, not the direction of your destination. Core rationality is analogous to honestly taking its reading and other available evidence into account when choosing a direction.",
+    "3.2.2": "Following a reading sincerely can illustrate core honesty when one has no reason to doubt it. Persisting after recognizing that the compass is faulty would not: honest reasoning must include evidence about the instrument’s reliability.",
+    "3.2.6": "An honest reading provides a starting point, while maps and navigation skills help interpret and check it. Possessing those skills is distinct from choosing to use them honestly.",
+    "3.2.10": "Reaching the destination = Successfully applying evidence and skills in this particular case, without a guarantee of success in every case.",
+    "4.1.0": "These three hypothetical scenarios illustrate how honest evidence assessment and suitable reasoning tools can improve decisions. They are examples of a method, not guarantees of a particular clinical, investment, or policy outcome.",
+    "4.1.5": "Outcome: A more carefully supported assessment can improve treatment decisions, while uncertainty and diagnostic error remain possible. The example supplies no clinical rule for deciding between particular diagnoses or treatments.",
+    "4.1.8": "Core Rationality: Maria aims to assess the available financial information honestly, including evidence against the investment, and acknowledges uncertainty and potential conflicts of interest.",
+    "4.1.10": "Outcome: Maria can make the assumptions and risks of her recommendation clearer. Careful reasoning does not guarantee higher returns or prevent losses.",
+    "4.1.13": "Core Rationality: Greg aims to represent evidence about water resources accurately. Choosing a policy also requires explicit judgments about competing interests, costs, and distribution; evidence alone does not settle those values.",
+    "4.1.15": "Outcome: Greg can compare plausible consequences and trade-offs more transparently. Forecast uncertainty, implementation, and competing priorities still limit the result; conservation is not guaranteed.",
+    "4.1.16": "In each scenario, core rationality supplies an honest stance toward evidence and deep rationality supplies tools for evaluating it. Their combination can improve the quality of reasoning without eliminating uncertainty or settling every value judgment.",
+    "4.2.8": "Conclusion: Suitable methods and honest assessment can support a better-grounded diagnosis, while leaving uncertainty and the possibility of error.",
+    "4.2.16": "Conclusion: The analysis makes evidence, assumptions, uncertainty, and value trade-offs explicit. Models and simulations require validation and cannot by themselves establish that a policy will succeed.",
+    "4.2.22": "Distinguishing relevant expert testimony from treating authority as conclusive, and checking for narrative bias.",
+    "4.2.25": "Summary: Honest attention to evidence and appropriate analytical tools can improve reasoning across these domains. Neither complexity nor sincerity guarantees truth; limitations, competing explanations, and uncertainty remain part of the assessment.",
+    "5.1.10": "RE: An honest disposition helps you use advanced skills well, but people can acquire those skills without using them honestly. That is why our four combinations are possible.",
+    "5.1.22": "RE: Developing honesty is valuable from the start, and you can practice reasoning skills alongside it. Neither needs to wait until the other is perfect.",
+    "5.2.4": "Expert: Yes, provided the alignment is sincere and includes evidence you recognize as contrary. It does not mean you are immune to error or unconscious bias.",
+    "5.2.12": "Expert: Someone might honestly believe a study technique works because several friends report success, while lacking the skills to assess whether the anecdotes establish a causal effect.",
+    "5.2.14": "Expert: Research-design knowledge would help them compare groups, examine selection effects and alternative explanations, and update confidence in proportion to the evidence.",
+    "7.1.11": "True or False: In this proposed taxonomy, core rationality can be expressed as a binary ideal for a particular judgment, without proving that people are permanently either fully rational or irrational.",
+    "7.1.20": "C) A researcher who honestly follows the evidence and uses rigorous scientific methods",
+    "7.1.48": "C) A researcher who honestly follows the evidence and uses rigorous scientific methods",
+    "7.2.2": "Which example illustrates core honesty without advanced analytical training? A) A doctor applying Bayesian diagnosis B) A policymaker using cost-benefit analysis C) A student sincerely following the evidence as understood while lacking advanced methods D) A researcher evaluating documents with formal probability models",
+    "7.2.4": "Which acquired ability belongs to deep rationality in this taxonomy? A) Confirmation bias B) Recognizing and checking cognitive biases C) Motivated reasoning D) Treating authority as conclusive",
+    "8.1.10": "What are the strengths and limits of treating core honesty as a binary ideal for a judgment rather than as a permanent classification of people?"
+  },
+  "countChecks": [
+    {
+      "name": "two 24-line dialogues",
+      "selector": "#prompt-5 .source-dialogue",
+      "child": "li",
+      "expected": [
+        24,
+        24
+      ]
+    },
+    {
+      "name": "prompt-7 reviewed quiz list structure",
+      "selector": "#prompt-7 .original-response > ol",
+      "child": "li",
+      "expected": [
+        10,
+        10,
+        10,
+        10
+      ]
+    }
+  ],
+  "reviewDecisions": [
+    "Scoped the taxonomy as a proposal, resolved the prerequisite contradiction using the curator’s final disposition/tools distinction, and distinguished sincerity from accuracy.",
+    "Retained every prompt, the four-item preamble, all characters and scenarios, and both model attributions. Qualified guaranteed outcomes and corrected the compass analogy.",
+    "Retained all 25 ChatGPT utterances in 24 numbered exchanges by grouping the final thanks and reply; extended the 18-turn Claude dialogue with six substantive turns. Updated dependent quizzes and preserved both ten-item keys and thirty discussion questions."
+  ],
+  "preambleHeadingIndexes": [
+    0,
+    1
+  ],
+  "dialogues": {
+    "5.1": {
+      "sourceTurnNodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "sourceTurnGroups": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ],
+        [
+          6
+        ],
+        [
+          7
+        ],
+        [
+          8
+        ],
+        [
+          9
+        ],
+        [
+          10
+        ],
+        [
+          11
+        ],
+        [
+          12
+        ],
+        [
+          13
+        ],
+        [
+          14
+        ],
+        [
+          15
+        ],
+        [
+          16
+        ],
+        [
+          17
+        ],
+        [
+          18
+        ],
+        [
+          19
+        ],
+        [
+          20
+        ],
+        [
+          21
+        ],
+        [
+          22
+        ],
+        [
+          23,
+          24
+        ]
+      ]
+    },
+    "5.2": {
+      "sourceTurnNodes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "continuation": [
+        "Novice: Can someone possess the tools and still reason dishonestly?",
+        "Expert: Yes. Technical skill can be used selectively to defend a preferred conclusion.",
+        "Novice: Then core honesty is not a prerequisite for learning the tools?",
+        "Expert: Correct. It is important to their honest use, which is a different claim.",
+        "Novice: Does having both dimensions guarantee that I am right?",
+        "Expert: No. Limited evidence and fallible methods leave room for error and further correction."
+      ]
+    }
+  }
+}
