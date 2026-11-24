@@ -1,0 +1,46 @@
+{
+  "runAt": "2026-11-24T09:06:20.121141-05:00",
+  "status": "incomplete-source-inspection-only",
+  "dailyTarget": 20,
+  "pagesFullyReviewedAndVerifiedToday": 0,
+  "dailyShortfall": 20,
+  "externalBlocker": null,
+  "cycle": 8,
+  "cursor": 150,
+  "currentBatchReviewed": 38,
+  "currentBatchPending": 12,
+  "substantiveCompleted": 188,
+  "substantiveRemaining": 158,
+  "officialCompleted": 150,
+  "officialRemaining": 196,
+  "nextPage": "/ethics/assisted-suicide/",
+  "sourceInspected": {
+    "wordpressId": 11504,
+    "title": "Assisted Suicide",
+    "url": "http://byteseismic.com/2024/06/10/assisted-suicide/",
+    "cache": ".cache/byteseismic-posts-with-content.json",
+    "sha256": "a1eccfcd31fc2dd4e1941631519d491576c6d29890a46a225ba658ea37311195",
+    "fullReadingComplete": false
+  },
+  "findings": [
+    "The source has eight main headings: seven prompt sections and the Quizzes response heading. Three model columns occur in each section when the split chart groups and pushback preamble are included.",
+    "The two-part curator challenge is an original list following heading index 1; preserve it verbatim with preambleHeadingIndexes [1].",
+    "The comparison chart section uses three separate sibling column groups; siblingColumnHeadingIndexes [2] collects all three.",
+    "The opening conflates assisted suicide and euthanasia; distinguish terms and qualify claims about medical ethics.",
+    "Treat numerical theory scores as illustrative judgments, not measurements or canonical positions. The ChatGPT chart and score lists also require a theory-coverage check.",
+    "Disagreement does not by itself establish incommensurability; lack of proof from convergence is not equivalent to absence of evidence.",
+    "The pushback responses overconcede: alternatives can matter within a consequentialist assessment, and independently specified social harms are not automatically circular. Preserve the curator objection while making the response precise.",
+    "Dependent quiz answers repeat terminology and argument errors and need coordinated revision."
+  ],
+  "verification": {
+    "isolatedBuildRun": false,
+    "pageFidelityVerified": false,
+    "trackerAdvanced": false,
+    "readerPagesEdited": false
+  },
+  "limitations": [
+    "Source and current-page output was truncated; no complete reading or editorial completion is claimed.",
+    "Conditions for Culpability was located but not fully read or reviewed.",
+    "The requested daily work was not completed; no external condition has been established that prevents continuing sequentially."
+  ]
+}
