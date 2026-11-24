@@ -1,0 +1,139 @@
+{
+  "pageFile": "philosophy-of-ai/feedback-loops/index.html",
+  "wordpressId": 4445,
+  "snapshot": "feedback-loops-wordpress-4445.html",
+  "sourceUrl": "http://byteseismic.com/2024/03/25/feedback-loops/",
+  "sourceLabel": "Original WordPress conversation",
+  "shellRevision": "1d5d5e4829f7bdd8f7e0b3c000dccabc67e2eccd",
+  "date": "2026-11-24",
+  "sourceSha256": "e93d4e737a6813c621b12c45adac2669c94a287b5e88554b7a2e3b4cbc4da8b1",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "Discuss the importance of feedback loops in knowledge acquisition for both human minds and AI.",
+    "Explain the strengths and limitations these types of feedback loops introduced by Claude AI .",
+    "How important will embodiment and a diverse sensory apparatus be for General AI agents? Will AI-connected robots that have a wide range of sensors dramatically speed up the accurate AI modeling of physical reality?",
+    "Might improvements in AI reasoning also improve through this embodiment of AI agents in robots? If so, explain the dynamics.",
+    "Will the improved accuracy of AI models of the world be wholly based on Bayes Theorem, or are there other algorithms or techniques that also play an important role?",
+    "Create a 10-item quiz on the discussion above.",
+    "Provide 15 discussion questions relevant to the content above."
+  ],
+  "introHeading": "Feedback Loops · original exchange",
+  "intro": "The original exchange moves from feedback in learning to five approaches listed by Claude, embodiment, reasoning and alternatives to Bayesian inference. Feedback can correct errors or reinforce them; the distinction depends on what is measured and how updates are evaluated.",
+  "description": "Original discussions of human and AI feedback, embodiment and Bayesian inference distinguish training, control, evidence and speculative gains.",
+  "highlights": [],
+  "replacements": {
+    "1.1.0": "A feedback loop connects an action or prediction to an observed result and a subsequent adjustment. Its value depends on the signal’s relevance and reliability: repeating a misleading signal can amplify error instead of producing knowledge.",
+    "1.1.8": "ii. Teaching methods: use evidence about prior knowledge, task difficulty and actual performance to adjust teaching. Do not assume that matching instruction to fixed visual, auditory or similar learning-style labels improves learning.",
+    "1.1.12": "i. Training: a learning algorithm may adjust model parameters to reduce a specified loss. Lower training loss does not guarantee better performance on new data or a more accurate account of reality.",
+    "1.1.14": "AI adaptation: deployed systems do not necessarily update their model parameters after every interaction. Context changes, external memory, later retraining and deliberate online learning are distinct mechanisms; each needs evaluation.",
+    "1.2.9": "AI adaptation: deployed systems do not necessarily update their model parameters after every interaction. Context changes, external memory, later retraining and deliberate online learning are distinct mechanisms; each needs evaluation.",
+    "1.1.16": "i. User feedback: ratings or corrections may inform later training or product changes. They do not necessarily modify the model immediately, and user satisfaction is not a direct measure of truth.",
+    "1.1.17": "ii. Personalization: recommendations can adapt to behavior through profiles or ranking systems. Clicks reflect exposure and design as well as preference, so feeding them back can narrow what the user encounters.",
+    "1.1.20": "Human and machine learning can benefit from timely, credible feedback, but improvement is conditional. Compare performance on independent tasks, examine who supplied the signal, and check whether the loop rewards the intended outcome or a convenient substitute.",
+    "1.2.12": "AI learning: numerical metrics are explicit, but their selection, labels and rewards embed judgments and can be biased or incomplete. Quantification does not make a learning objective automatically objective or correct.",
+    "1.2.13": "Feedback supports correction only when the evidence, incentives and update process are suitable. Neither human oversight nor automation guarantees accuracy or freedom from bias; independent evaluation remains necessary.",
+    "2.1.0": "Claude supplied the five descriptions reproduced above. They mix training paradigms, an architecture and ways of organizing feedback, so the categories overlap. A human-feedback system can also use supervised and reinforcement learning. The list does not establish which methods any particular Claude model uses.",
+    "2.1.4": "Clear objective: a loss function makes the optimization target explicit. Its suitability and the reliability of labels still need justification; optimization can remain difficult.",
+    "2.1.10": "Adaptability: reinforcement learning can improve a decision policy through rewards and interaction or previously collected experience. Optimality and successful adaptation are not guaranteed for arbitrary environments or finite training.",
+    "2.1.18": "Adversarial training: the generator and discriminator can improve through competing objectives. The interaction can also oscillate or collapse; it does not ensure continuous progress.",
+    "2.1.25": "Human-guided improvement: feedback can support later retraining or fine-tuning. Collecting feedback alone does not mean that a deployed model is continually learning.",
+    "2.1.31": "Adaptation: online learning updates from a stream of examples. Whether updates improve performance depends on reliable feedback, suitable learning rates and checks for noise or drift.",
+    "2.1.34": "Concept drift: changes in relationships relevant to prediction can make an old model less accurate. Detecting and adapting to change is a separate design problem, not an automatic consequence of receiving new data.",
+    "2.2.0": "Strengths and Limitations of the Five Approaches Listed by Claude",
+    "2.2.4": "Labeled examples: supervised learning provides a target for learning. Its accuracy depends on label quality, data coverage, model choice and evaluation on examples not used for fitting.",
+    "2.2.5": "Error correction: training loss guides updates, but progress need not be monotonic and a lower training error can accompany worse generalization.",
+    "2.2.13": "Task feedback: reinforcement learning may use real interaction, simulation or offline experience. Its relevance to deployment depends on how closely the data and rewards represent the intended task.",
+    "2.2.20": "Data augmentation: generated examples may help some tasks, but realism does not establish diversity, label correctness or added information. Test the effect against a baseline on independent real data.",
+    "2.2.21": "Generation: producing novel-looking samples is not by itself acquiring new factual knowledge. A generator can reproduce errors or omit parts of the source distribution.",
+    "2.2.29": "Human scrutiny: reviewers may identify failures or request explanations. Their feedback does not by itself reveal the model’s internal causal process or ensure that generated explanations are faithful.",
+    "2.2.37": "Update timing: an online learner can update incrementally, but feedback may be delayed or incomplete. Immediate updating is not always desirable and does not guarantee improvement.",
+    "2.2.42": "These are general approaches, not a verified inventory of Claude 2’s implementation. Choose a feedback mechanism by task, signal quality, update cost and measured performance; retain a way to detect and reverse degradation.",
+    "3.1.0": "Embodiment can provide action-dependent observations useful for physical tasks. Whether a body is necessary for artificial general intelligence remains unsettled, and general intelligence itself lacks a single agreed operational test. More sensors are a potential resource, not a sufficient condition.",
+    "3.1.7": "Cognitive theories: embodied cognition motivates studying how action and perception support reasoning. It does not establish that physical embodiment is necessary or sufficient for machine consciousness or every form of intelligence.",
+    "3.1.9": "Social interaction: cameras and microphones can provide additional behavioral cues, but inferring intentions or emotions remains uncertain and context-dependent. Behavior perceived as empathetic does not demonstrate felt empathy.",
+    "3.1.11": "Richer data: complementary sensors may reveal properties missed by one modality. Gains depend on calibration, synchronization, coverage and the learning objective; redundant or noisy signals can add cost without improving accuracy.",
+    "3.1.13": "Iteration: physical action supplies consequential feedback, but robot time, resets, wear and safety constraints can make it slower than simulation. Immediate control corrections are also distinct from updating a learned world model.",
+    "3.1.14": "Generalization: varied experience can help transfer, but successful behavior in familiar settings is insufficient evidence. Test new objects, environments and tasks with suitable comparison systems.",
+    "3.1.15": "Embodiment is a promising route for improving physical-task competence. Dramatic gains in speed, general reasoning or empathy remain hypotheses to evaluate against cost, transfer performance and non-embodied alternatives, rather than inevitable consequences of adding sensors.",
+    "3.2.0": "Embodiment may be valuable for broad physical competence. It has not been established as a necessary route to artificial general intelligence, and task-specific success should not be confused with general capability.",
+    "3.2.1": "Grounding: action can connect predictions to physical consequences. A system can also learn about heat or weight from measurements, simulations and descriptions without its own body; embodied experience may improve some abilities without being their only source.",
+    "3.2.2": "Complementary measurements: cameras, lidar (light detection and ranging), touch sensors and microphones capture different properties. Robot readings are themselves digital data; the relevant contrast is between information sources and opportunities to act, not digital versus real.",
+    "3.2.4": "How sensors might improve physical modeling—and what the comparison requires:",
+    "3.2.5": "Collection speed: robots can gather action-linked data, but real-time operation is not necessarily faster than parallel simulation or existing datasets. Compare useful learning per unit of time and cost, not just the quantity of recordings.",
+    "3.2.6": "Measurement checks: multiple sensors can cross-check observations, but calibration errors and shared blind spots remain. A sensor reading is evidence with uncertainty, not infallible ground truth.",
+    "4.1.0": "Embodiment can improve some forms of reasoning by linking predictions, interventions and observed consequences. The claim is conditional: better motor control or additional data does not automatically imply improved abstract reasoning or broad transfer.",
+    "4.2.0": "Embodiment can improve some forms of reasoning by linking predictions, interventions and observed consequences. The claim is conditional: better motor control or additional data does not automatically imply improved abstract reasoning or broad transfer.",
+    "4.1.3": "Dynamic learning: controlled interactions can reveal physical regularities. Observing how people behave does not alone establish which social norms are justified or how the robot should act.",
+    "4.1.8": "Cross-modal learning: combining touch, sight and sound can reduce ambiguity about an object. Whether it improves reasoning rather than only perception must be tested separately.",
+    "4.1.10": "Social information: embodied interaction supplies cues that may support prediction of behavior. Cultural variation, context and privacy constrain their interpretation; social competence and subjective emotional experience are separate questions.",
+    "4.1.12": "Responsive behavior: a system may learn responses people judge considerate. That is a behavioral outcome, not evidence that the system experiences empathy.",
+    "4.1.18": "The proposed chain is observation, action, outcome, model revision and transfer to a new problem. Evaluate each link. Improved performance on practiced tasks alone cannot establish the broad, socially intelligent reasoning described as a possible goal.",
+    "4.2.8": "Causal inference: designed interventions can help distinguish causes from correlations, but confounding, measurement error and selection still matter. Acting on an object does not automatically identify every causal relationship.",
+    "4.2.9": "Counterfactuals: experiments can inform a model used to predict what would have happened under another action. The unperformed alternative for the very same event is not directly observed; such reasoning relies on model assumptions.",
+    "4.2.11": "Example: a robot predicts a stable grasp, senses slippage and changes grip force. A fixed feedback controller might do this without learning. To demonstrate learned reasoning, test whether the experience improves prediction or planning on a new cup, compared with a suitable controller or model baseline.",
+    "5.1.0": "Bayes’ theorem relates conditional probabilities; it is not a complete learning algorithm or a guarantee of accuracy. Models also need representations, data, objectives and computational procedures. The following list spans architectures and training methods, several of which can be combined with Bayesian inference.",
+    "5.1.8": "Transformers: architectures using attention to relate parts of an input, widely applied to language and other data. Attention weights are computational quantities, not automatically faithful explanations of a decision.",
+    "5.1.10": "Reinforcement learning seeks policies with high expected reward. Optimality depends on assumptions and training conditions, and reward can be an imperfect substitute for the real goal.",
+    "5.1.12": "Generative adversarial networks: a generator and discriminator are trained with competing objectives. Realistic-looking samples are a possible result, not a guarantee of indistinguishability or faithful coverage of reality.",
+    "5.2.3": "Bayesian updating: a posterior depends on the prior, likelihood and evidence. Misspecified assumptions or unrepresentative data can produce confident errors; updating alone does not guarantee improved predictions.",
+    "5.2.12": "A probabilistic model of pedestrian behavior, which might use Bayesian inference together with observations and assumptions about motion and intent.",
+    "5.2.13": "Reinforcement learning in simulation to explore driving policies, with separate evaluation of transfer and constraints; this does not establish optimal real-world driving.",
+    "5.2.14": "Logic rules to represent constraints such as stopping at red lights. Rules alone do not guarantee safe navigation when perception, prediction or execution can fail.",
+    "6.1.4": "Name a recurrent architecture designed for sequential data, without claiming it is best for every sequence task.",
+    "6.1.6": "Which learning paradigm seeks high expected reward through a policy informed by rewards and experience?",
+    "6.2.6": "How might embodiment help physical learning, and what does that leave unsettled about general intelligence?",
+    "6.2.12": "Reliable feedback can support correction and adaptation; poor signals can also reinforce errors.",
+    "6.2.15": "GANs can generate additional training samples, but gains must be tested on independent data and are not guaranteed.",
+    "6.2.17": "It supplies action-linked observations that may improve physical-task competence; this does not establish that a body is necessary or sufficient for general intelligence.",
+    "6.2.18": "Sensors can supply complementary measurements and action outcomes, subject to calibration, noise and collection costs; they are not infallible ground truth.",
+    "6.2.19": "Controlled interactions can inform causal models and planning, but transfer and alternative explanations such as fixed control must be tested.",
+    "6.2.21": "Different components can handle perception, uncertainty, planning and constraints. Their combination still needs system-level validation; no component guarantees safety or optimality.",
+    "7.1.5": "What does reinforcement learning optimize, under what assumptions can it approach an optimum, and how can a well-optimized reward still miss the intended goal?",
+    "7.1.10": "When might combining deep learning and Bayesian inference help, and what added assumptions or computational costs should be tested?"
+  },
+  "countChecks": [
+    {
+      "name": "twenty quiz questions and answer keys",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "thirty discussions",
+      "selector": "#prompt-7 .original-response > ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    }
+  ],
+  "reviewDecisions": [
+    "Read all 315 indexed source lines and the full 42,296-character current page; preserved the exact five-item Claude preamble and all seven prompts.",
+    "Corrected unsupported Claude 2 implementation claims, automatic online learning, metric objectivity, guaranteed GAN progress and optimal RL behavior.",
+    "Separated physical control from learning and reasoning; qualified causal/counterfactual inference, sensor ground truth, speed, AGI necessity and empathy claims.",
+    "Explained Bayesian updating limitations and overlapping method categories; preserved twenty quizzes/keys and thirty discussion questions with dependent corrections."
+  ],
+  "preambleHeadingIndexes": [
+    1
+  ],
+  "responseAppendices": {
+    "1.1": [
+      "<p>A loop can change its own future evidence: recommendations alter what people see, and clicks then train the next recommendations. <a href=\"https://arxiv.org/abs/2002.06673\">Performative Prediction (2020)</a> studies prediction systems that influence the outcomes they seek to predict. Keep independent evaluation data and examine changes induced by deployment.</p>"
+    ],
+    "2.1": [
+      "<p>A concrete training example: <a href=\"https://arxiv.org/abs/2203.02155\">Training language models to follow instructions with human feedback (2022)</a> uses demonstrations and rankings in separate training stages. It does not imply that every chat immediately changes model weights or eliminates errors.</p>"
+    ],
+    "3.1": [
+      "<p><a href=\"https://arxiv.org/abs/2310.08864\">Open X-Embodiment (2023)</a> investigates shared robotic datasets and transfer across embodiments. Such empirical work tests particular capabilities; it does not settle necessity for general intelligence or consciousness.</p>"
+    ]
+  }
+}

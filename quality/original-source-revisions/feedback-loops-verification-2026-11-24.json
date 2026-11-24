@@ -1,0 +1,40 @@
+{
+  "pagePath": "/philosophy-of-ai/feedback-loops/",
+  "sourceSha256": "e93d4e737a6813c621b12c45adac2669c94a287b5e88554b7a2e3b4cbc4da8b1",
+  "originalPrompts": 7,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 7,
+  "sourceColumns": 14,
+  "modelResponses": 14,
+  "blocksRetainedVerbatim": 224,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 68,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": false,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [
+    "1.1",
+    "2.1",
+    "3.1"
+  ],
+  "formatChecks": {
+    "twenty quiz questions and answer keys": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "thirty discussions": [
+      15,
+      15
+    ]
+  },
+  "sha256": "b2fe4d7c92bcd295a541d6a3bb667e7382b0b07d21eadbaf7fa93a49d40fe6cc",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": 2,
+  "isolatedBuildVerified": true
+}

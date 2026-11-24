@@ -1,0 +1,41 @@
+{
+  "pagePath": "/metaphysics/establishing-the-spiritual/",
+  "sourceSha256": "a8acac76301d96a42fd8810448610d35fb888ac23d4724351b30ec7f2e851c2e",
+  "originalPrompts": 9,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 9,
+  "sourceColumns": 23,
+  "modelResponses": 23,
+  "blocksRetainedVerbatim": 267,
+  "tableCellsExplicitlyRevised": 71,
+  "blocksExplicitlyRevised": 89,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": false,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [
+    "7.1"
+  ],
+  "formatChecks": {
+    "three ten-question quizzes and keys": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "forty-five discussion questions": [
+      15,
+      15,
+      15
+    ]
+  },
+  "sha256": "27d1dec0ce33c327c8c55d80f50ebb866385d238201005ea540b2e8b3a046e7b",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": 2,
+  "isolatedBuildVerified": true
+}

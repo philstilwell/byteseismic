@@ -1,0 +1,139 @@
+{
+  "pageFile": "humanistic-philosophies/unpalatable-religions/index.html",
+  "wordpressId": 11674,
+  "snapshot": "unpalatable-religions-wordpress-11674.html",
+  "sourceUrl": "http://byteseismic.com/2024/06/13/unpalatable-religions/",
+  "sourceLabel": "Original WordPress conversation",
+  "shellRevision": "1d5d5e4829f7bdd8f7e0b3c000dccabc67e2eccd",
+  "date": "2026-11-24",
+  "sourceSha256": "cb6de88fa8c427fef98ea6945fb7fec70315ba96bfc514062656e758672dd5ac",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini",
+    "Claude"
+  ],
+  "headings": [
+    "A religious leader made the statements below. Steel-man his arguments, then explain why humans find a religion with ostensibly “unpalatable” features appealing.",
+    "Does the logic of the religion leader above entail the conclusion that any  religion more austere than his has an even lower probability of being made up? Elaborate on this if so.",
+    "You are all being given access to each other’s responses to the previous prompt. Reassess your own response in light of all responses.",
+    "Is the following syllogism an accurate reflection of the religious leader’s position and the corollaries?",
+    "Respond to the religious leader’s statements with your own comprehensive critique of the underlying logic.",
+    "Quizzes",
+    "Provide 15 discussion questions relevant to the content above."
+  ],
+  "introHeading": "“Unpalatable” Religions · original exchange",
+  "intro": "The three models steel-man a religious leader’s appeal to demanding teachings, disagree about its comparative implications, and reassess the proposed syllogism. The revision preserves those differences while separating validity, attribution and evidence.",
+  "description": "Original arguments about unpleasant religious teachings, separating truth, human authorship, probability and unsupported motive claims.",
+  "highlights": [
+    "Unappealing to one motive can still appeal to other human motives.",
+    "A stronger-austerity conclusion follows only from a stronger comparative premise.",
+    "Human development need not mean deliberate fabrication."
+  ],
+  "replacements": {
+    "1.1.1": "The strongest version is a comparative evidential argument: these teachings would be surprising under a narrowly self-serving fabrication hypothesis. To favor divine origin, the leader must also explain why they are more expected under that hypothesis and consider other human-origin accounts.",
+    "1.1.2": "Counterintuitive core: distinguish difficulty understanding a doctrine from an actual contradiction. A counterintuitive belief might be unlikely under one simple wish-fulfillment account, but humans can invent counterintuitive or inconsistent ideas.",
+    "1.1.3": "Demanding ethics: costly obligations may count against the hypothesis that a founder sought only immediate comfort for every adherent. They do not exclude ideals, discipline, group loyalty or rewards deferred to an afterlife.",
+    "1.1.4": "Humility and cleansing: these challenge pride but can satisfy desires for renewal, acceptance or moral improvement. A stronger argument must assess the whole motivational package.",
+    "1.1.5": "Servant leadership: this can challenge domination while appealing to cooperation and the wish for trustworthy leaders. Human authorship is not ruled out by a demanding ideal.",
+    "1.1.6": "Counterintuitive teachings: their evidential force depends on an explicit model of human motives. Comfort is one motive among others, not a complete theory of invention.",
+    "1.1.7": "Comparison with rivals: the excerpt’s caricature of other religions is not established evidence. Apply the same criteria to demanding and permissive features in each tradition.",
+    "1.1.15": "Perceived credibility: costly commitment can make sincerity seem more credible, but sincerity and supernatural truth are different. A sincere believer can be mistaken.",
+    "1.1.17": "Demanding teachings can challenge a narrow account of opportunistic invention while remaining understandable through ordinary human motives. Their appeal does not authenticate divine origin, and explaining their appeal does not by itself disprove that origin.",
+    "1.2.2": "Logical challenge: a charitable reading distinguishes counterintuitive doctrine from contradiction. Limited understanding does not make a genuine contradiction evidence of divine authorship.",
+    "1.3.2": "Counterintuitive core: arguably surprising under a simple comfort-seeking model of invention, without being impossible for humans to devise.",
+    "1.3.3": "Austere ethics: demanding humility and service may oppose immediate indulgence but suit longer-term goals and group commitments.",
+    "1.3.4": "Service and communal duty: these oppose some power-seeking motives while expressing other familiar human aspirations.",
+    "1.3.13": "Demanding practices may be instrumentally rational for people who value their anticipated benefits. That helps explain appeal without establishing either human fabrication or divine revelation.",
+    "2.1.0": "On a general monotonic reading—every increase in austerity raises the relative probability of divine origin—the comparative conclusion follows, other factors held equal. The quoted leader does not explicitly state that complete rule; the distinction between an implication of a reconstructed premise and an attribution to him matters.",
+    "2.1.3": "Increasing austerity: under that added monotonic rule and a shared measure, a stricter religion would receive greater evidential weight. Without those assumptions, “austere” does not automatically imply “more austere is more divine.”",
+    "2.1.6": "Comparative analysis: the strongest ranking follows only if austerity is treated as the decisive measure and other evidence is held constant. It does not yield actual probabilities.",
+    "2.1.7": "Evaluation: an even stricter claimant could invoke the same proposed rule. This tests its consistent application; it does not establish that the claimant is divine.",
+    "2.1.8": "Extreme case: an unlivable religion puts pressure on the rule’s plausibility. It is a reductio-style challenge to a premise, not automatically a formal contradiction.",
+    "2.1.10": "The comparative conclusion follows from a general monotonic version of the argument. It is not established merely by showing that one religion is demanding, nor does it become empirically sound because its inference is valid.",
+    "2.2.0": "Not necessarily from the quoted words alone. However, if the leader adopts the general rule that increasing austerity always increases the relative probability of divine origin, the comparison does follow under the same conditions. Challenges to that premise do not invalidate the conditional inference.",
+    "2.2.8": "Cultural scope: the excerpt overgeneralizes comfort-seeking motives. No label such as “Western-centric” is needed without evidence about the speaker’s context; duty and self-denial occur within many cultures.",
+    "2.3.0": "The excerpt permits a narrower, feature-specific interpretation rather than a universal comparative rule. If the stronger rule is explicitly adopted, however, its comparative consequence cannot be avoided simply by listing other possible motives.",
+    "2.3.11": "Austerity alone does not establish an origin. Distinguish deliberate fabrication from sincere experience, gradual tradition and institutional development: these are different human-origin possibilities.",
+    "3.1.1": "The responses differed partly because they answered different questions: what follows from a general austerity rule, what the speaker actually asserted, and whether the rule is true.",
+    "3.1.2": "A comparative conclusion follows if the reconstructed premise says that more austerity always increases the probability of divine origin, other factors equal. The quotation itself leaves that strengthening open to dispute.",
+    "3.1.16": "An extreme case can expose an implausible implication of the monotonic rule. It does not show the conditional deduction invalid; it challenges the premise.",
+    "3.1.18": "A coherent reassessment separates entailment, interpretation and evidence. The strict comparative conclusion is valid under the stated stronger premise; assigning it to the leader and accepting it as true require additional arguments.",
+    "3.1.19": "Revised conclusion: ChatGPT’s original “yes” needs its comparative assumption made explicit. The other models’ “no” should not use objections to the premise as a denial of what follows if that premise is granted.",
+    "3.2.0": "The synthesis should preserve the distinction between a conditional implication and evidence for its premise:",
+    "3.2.9": "Scope: duty, sacrifice and comfort can coexist within a culture and an individual. The argument needs a demonstrated account of motivation rather than a sweeping cultural label.",
+    "3.2.18": "The stronger comparative rule entails the stricter-religion conclusion under matched conditions. Whether the speaker accepts that rule and whether it is reliable remain separate questions.",
+    "3.3.0": "I retain the caution about attributing a universal comparative rule to the speaker. I also qualify my earlier denial: once that stronger rule is stipulated, greater austerity has the stated implication. Contextual objections challenge the rule’s soundness, not that inference.",
+    "3.3.7": "The dispute can be resolved at the level of logic without pretending that the models agreed initially: specify the comparative premise, hold other evidence constant, and distinguish its consequence from its credibility.",
+    "4.1.3": "This is a possible stronger reconstruction, not a verbatim premise of the excerpt. It converts the claim that certain features are surprising into a general rule that more constraint always favors divine origin.",
+    "4.1.5": "Premise 2 is largely an instance of Premise 1. To make the inference about X explicit, add the factual premise that X is more constraining than Y under the same measure and background conditions.",
+    "4.1.7": "With that added comparison and the general rule, the conclusion follows. Its validity does not establish the rule or the comparison as true.",
+    "4.1.14": "The structure is valid as a conditional argument once the comparison premise is explicit. Its fidelity to the speaker and its evidential soundness remain disputed; those are not the same as logical validity.",
+    "4.2.0": "It accurately expresses the stronger monotonic interpretation of the leader’s reasoning. It is not the only interpretation his quoted words permit.",
+    "4.2.2": "Premise 1: supplies the general comparative rule; this is stronger than saying one set of austere features counts against one fabrication hypothesis.",
+    "4.2.4": "Conclusion: follows if X really is more constraining under the stipulated measure and the general rule applies. It does not establish that the speaker consciously accepts the result.",
+    "4.2.8": "The conditional inference is clear, but the attribution and truth of its comparative premise require further defense.",
+    "4.3.0": "It may overstate the leader’s expressed position, although the argument is valid under its own stronger comparative premise. These are distinct assessments.",
+    "4.3.2": "Premise 2 follows from the stronger Premise 1 under matched conditions; it is not an additional logical leap. The disputed step is attributing Premise 1 to the leader.",
+    "4.3.3": "Given that premise and the comparison X>Y, the conclusion follows. Questioning its premises is not a reason to deny the inference.",
+    "4.3.7": "The speaker did not explicitly supply a universal scale or control for other evidence. The models’ later qualifications should not be retroactively attributed to him.",
+    "4.3.8": "A fair reading can test the consequence of the stronger interpretation while acknowledging that a narrower claim remains available. The narrower claim still needs comparative evidence about origins.",
+    "5.1.6": "Historical context: specific cases may show pressures favoring strict rules. This is a possible human-origin explanation to investigate, not proof of every religion’s origin.",
+    "5.1.12": "Possible benefits: service and disciplined practice can support identity or cooperation for some participants. These are plausible motives, not a guarantee of reduced anxiety or a complete causal account.",
+    "5.1.21": "Extreme austerity: under the proposed monotonic rule, still harsher systems gain evidential weight. A defender must either accept that consequence or justify a qualified rule consistently.",
+    "5.1.22": "Motivational scope: comfort, duty, status, belonging and long-term rewards may compete within the same person. The excerpt does not establish that only the first motivates invention.",
+    "5.3.1": "Unsupported generalization: humans can formulate demanding ideals in secular and religious settings. This challenges the premise that a human-origin belief system must minimize constraint without assuming in advance that every religion is fabricated.",
+    "5.3.2": "Selection effects: an inference from surviving religions would need a comparison with failed or forgotten movements. The excerpt alone does not establish survivorship bias, and the traits of unobserved movements should not be invented.",
+    "5.3.3": "Possible circularity: if the account of human nature is defended solely through the religion whose origin is at issue, support could be circular. That dependency is not established by the excerpt. Its evident weakness is the unsupported account of motivation.",
+    "5.3.5": "Possible incentives: authority or group identity could favor this rhetoric, but that does not establish the speaker’s private motive or determine the argument’s truth.",
+    "5.3.6": "Comparative inference: this is better analyzed as an argument from alleged improbability under human invention than simply called teleological. Posterior odds depend on prior odds multiplied by P(features|divine origin)/P(features|human origin). A low denominator alone does not establish a high posterior, and human development is not limited to deliberate fraud.",
+    "5.3.7": "The argument needs defensible comparisons between origin hypotheses and a less narrow account of motives. Demanding teachings do not by themselves authenticate revelation; neither does identifying ordinary motives alone settle every historical origin claim.",
+    "7.2.1": "What forms of disciplined self-denial count as asceticism, and why might people value them?",
+    "7.3.10": "What evidence would be needed to establish a survivorship-selection problem in this argument?",
+    "7.3.15": "How would a likelihood comparison between divine origin and several human-origin hypotheses improve on merely labeling the argument teleological?",
+    "6.1.1": "<details><summary>Answer:</summary> The leader treats counterintuitive doctrines, demanding ethics, humility and service as unexpected under a human-invention account. That is his argument, not an established fact about all human motives.</details>",
+    "6.1.5": "<details><summary>Answer:</summary> Austerity is offered as evidence against human invention. A general claim that every increase favors divine origin is a stronger interpretation requiring explicit defense.</details>",
+    "6.1.9": "<details><summary>Answer:</summary> Context may supply motives for discipline or cohesion. A specific historical explanation needs evidence; it need not assume those practices were necessary.</details>",
+    "6.1.11": "<details><summary>Answer:</summary> Extreme austerity pressures the plausibility of a monotonic rule. It is not automatically a formal contradiction.</details>",
+    "6.3.13": "<details><summary>Answer:</summary> Selection effects are a possible concern requiring evidence about which movements were included and omitted; survivorship bias was not demonstrated.</details>",
+    "6.3.17": "<details><summary>Answer:</summary> An inference from alleged improbability under human invention; calling it teleological does not substitute for evaluating the competing hypotheses.</details>",
+    "6.3.19": "<details><summary>Answer:</summary> Its comparative premise is stronger than the excerpt explicitly states. If that premise and the X>Y comparison are granted, the conclusion follows.</details>"
+  },
+  "countChecks": [
+    {
+      "name": "original quiz counts",
+      "selector": "#prompt-6 .original-response",
+      "child": "details",
+      "recursive": true,
+      "expected": [
+        10,
+        9,
+        10
+      ]
+    },
+    {
+      "name": "fifteen discussions each",
+      "selector": "#prompt-7 .original-response > ol",
+      "child": "li",
+      "expected": [
+        15,
+        15,
+        15
+      ]
+    }
+  ],
+  "reviewDecisions": [
+    "Read all380 normalized source lines and preserved full anonymized quotation, curator reassessment note and formal syllogism.",
+    "Retained three-model disagreement while distinguishing monotonic entailment, accurate attribution and truth of premises.",
+    "Repaired steelman, motive claims, fallacy-label overreach, likelihood logic and corresponding quiz answers. Source quiz heading requests no fixed count; retained10/9/10."
+  ],
+  "preambleHeadingIndexes": [
+    0,
+    1,
+    3
+  ],
+  "nonPromptSections": [
+    6
+  ],
+  "bareAnswerReplacements": {},
+  "disclosureParagraphsAsDiv": true
+}

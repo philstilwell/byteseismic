@@ -1,0 +1,150 @@
+{
+  "pageFile": "introduction/womens-interest-in-philosophy/index.html",
+  "wordpressId": 2712,
+  "snapshot": "womens-interest-in-philosophy-wordpress-2712.html",
+  "sourceUrl": "http://byteseismic.com/2024/03/07/womens-interest-in-philosophy/",
+  "sourceLabel": "Original WordPress conversation",
+  "shellRevision": "1d5d5e4829f7bdd8f7e0b3c000dccabc67e2eccd",
+  "date": "2026-11-24",
+  "sourceSha256": "5bca74cf26caf1aee466c48259336fab0c6d2e3588f1d5b694cd308b89716dc5",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "Based on the Goodreads data below, it appears that women have far less interest in philosophy than do men. Provide some possible reasons for this phenomenon.",
+    "Why have there traditionally been fewer women who have chosen philosophy majors, and why the recent uptick?",
+    "You did not mention the genetics-based psychological composition of women as a possible reason women appear to have less interest in philosophy. Was this an oversight?",
+    "I’m concerned with the immediate jump from the reasonable consideration of genetic factors in gender preferences for particular majors to what GEMINI calls “harmful stereotypes”. This way of thinking will likely lead to an illegitimate condemnation as sexist any rigorous scientific finding that suggests there are genetic factors. Right?",
+    "GEMINI does concede that genetics may play a role. I agree it would not be the sole reason for gender gaps in this context. But to disallow or discourage an exploration of genetic factors because the findings might be used to reinforce stereotypes is bad science. Right?",
+    "Elaborate on how the logical fallacy “appeal to consequences” is relevant to the discussion above.",
+    "Provide 15 discussion question relevant to the discussion above."
+  ],
+  "introHeading": "Women’s Interest in Philosophy · original exchange",
+  "intro": "The original exchange examines differences in philosophy participation, the possibility of genetic influences and the appeal-to-consequences fallacy. This edition separates what the charts measure from competing causal hypotheses and preserves all seven curator prompts.",
+  "description": "Original questions about women in philosophy, with chart denominators clarified and unsupported causal and genetic inferences corrected.",
+  "highlights": [
+    "Reviewing a genre, completing a major and being interested in a subject are different outcomes.",
+    "A possible cause is not an established cause; uncertainty applies to social and genetic explanations.",
+    "Consequences do not decide factual truth, but they can matter when choosing actions."
+  ],
+  "replacements": {
+    "1.1.0": "The chart shows the male/female composition of reviewers within each book genre—roughly 59% male and 41% female for philosophy—not the fraction of all women or men interested in philosophy. To compare review propensities, we also need each group’s size on the platform. Reviewing is a selected behavior, not a direct population measure of philosophical interest.",
+    "1.1.8": "These are hypotheses to test, not explanations established by this chart. Define the outcome, population, denominators and classification method before inferring a difference in interest or its causes.",
+    "1.2.0": "The chart credits M. Thelwall (2017); the relevant researcher is Mike Thelwall, not Matthew. It concerns selected Goodreads reviewers. The caption’s linked Schwitzgebel post discusses US degrees, so it should not be mistaken for the chart’s underlying Goodreads study. See <a href=\"https://journals.sagepub.com/doi/abs/10.1177/0961000617709061\">Reader and author gender and genre in Goodreads</a>.",
+    "1.2.1": "The chart alone does not establish a population-wide difference in interest. Possible influences on reviewing and reading include:",
+    "1.2.3": "Representation: visibility of women in a curriculum could affect some students’ identification with the field. The chart does not measure that mechanism.",
+    "1.2.4": "Teaching climate: adversarial classroom practices might affect participation, but abstract reasoning itself should not be assumed less appealing to women. A causal claim needs direct evidence.",
+    "2.1.0": "The linked 2022 analysis reports US philosophy bachelor’s completions through 2019–2020, including first and second majors, with women’s share reaching 39.4%. This is a historical completion measure, not a current 2026 figure or a direct measure of initial interest. See <a href=\"https://schwitzsplinters.blogspot.com/2022/08/the-philosophy-major-continues-to.html\">the analysis and method</a>.",
+    "2.1.1": "Possible influences on participation and completion, not causes identified by the time series, include:",
+    "2.1.7": "Changing norms: a hypothesis to compare with enrollment, persistence and institutional data; timing alone does not establish that it caused the increase.",
+    "2.1.11": "The rising share could reflect changes in women’s completions, men’s completions or both. Separate entry, switching and completion, and compare institutions and cohorts before attributing the change to a particular policy.",
+    "2.2.0": "Several mechanisms could contribute to historical differences in major completion. The graph does not estimate their relative causal effects:",
+    "2.2.3": "Teaching climate: investigate classroom practices and experiences directly. The original assertion that research establishes a gender-specific aversion to abstraction or debate was not sourced.",
+    "2.2.4": "The historical increase is in the share of completed degrees awarded to women. It need not imply the same increase in the number initially choosing the major. Proposed explanations include:",
+    "2.2.8": "These are hypotheses, not findings derived from the chart. A percentage trend alone cannot isolate mechanisms or predict future participation.",
+    "3.1.0": "Yes, the earlier list omitted a possible category of explanation. Biological influences on preferences can be investigated, but these charts contain no genetic measurements and cannot estimate such an effect. The original broad “majority consensus” claim about all educational choices was not supported by cited evidence.",
+    "3.1.1": "Distinguish interest, skill, educational access and completed degrees. A difference in one does not establish the others, and an average difference does not explain its own origin. Relevant mechanisms to investigate include:",
+    "3.1.6": "A further distinction is between variation within a population and differences between group averages. Heritability within groups does not identify the genetic share of a between-group difference. See the <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC10962975/\">2024 analysis of this inference</a>.",
+    "3.1.7": "Neither exclusion of genetic hypotheses nor endorsement of them follows from this evidence. Specify measurable hypotheses, compare genetic and environmental explanations, and report uncertainty rather than using anticipated social consequences to decide factual truth.",
+    "3.2.0": "Considering a possible genetic contribution is not the same as claiming genetics is the sole cause. The original response answered a stronger claim than the curator made. The relevant issue is what evidence would distinguish the proposed mechanisms.",
+    "3.2.1": "The original blanket denial of biological differences across all cognitive abilities and preferences was too broad. No direct genetic explanation of this particular philosophy-participation pattern has been established here. Other possible influences include:",
+    "3.2.5": "The displayed data identify neither an exclusively genetic nor an exclusively social explanation. A rigorous study must define the trait, measurement and population, account for selection and examine competing pathways.",
+    "4.1.0": "A finding should not be dismissed as false merely because it could be misused. That validates the curator’s methodological concern; it does not establish a genetic explanation or predict that all criticism of such research will be illegitimate.",
+    "4.1.2": "The original claim of overwhelming consensus about the relative causal weights was unsupported in this exchange. Those weights cannot be inferred from participation charts or a list of plausible social mechanisms.",
+    "4.2.0": "The earlier wording conflated proposing a hypothesis with endorsing a stereotype. A scientific assessment should examine design, measurement and inference, regardless of whether the result is welcome.",
+    "4.2.3": "What the evidence here does not establish:",
+    "4.2.4": "The charts do not measure genetic causes. They also cannot rule out every possible biological contribution. “Genetic” would not mean fixed, inevitable or unresponsive to environment.",
+    "4.2.8": "The statement “this gap is caused by genes” would require direct support. Even a supported group-average effect would not determine any individual’s interests, ability or opportunities.",
+    "4.2.10": "Investigate social, institutional and biological hypotheses with methods capable of testing them; possible mechanisms should not be promoted to established causes.",
+    "4.2.13": "Genetic contributions remain a possible research question; their size for this outcome is not estimated here.",
+    "5.1.0": "Rejecting a factual hypothesis solely because its truth would be unwelcome is unsound. Decisions about conducting a particular study can nevertheless legitimately consider consent, privacy, participant risk, scientific value and resources; that is different from declaring the hypothesis false.",
+    "5.1.2": "The distinction supports open inquiry with appropriate standards, including:",
+    "5.1.8": "Evaluate truth claims by evidence, and evaluate research conduct through both scientific and ethical reasons. Concerns about misuse do not refute a result, while a commitment to inquiry does not make every proposed study automatically well designed or justified.",
+    "5.2.0": "The core objection is sound when aimed at rejecting a hypothesis because of disliked implications. It should not be broadened into the claim that consequences never matter to research decisions.",
+    "5.2.3": "Specify the possible mechanism: a genetic association with an individual trait would not automatically explain a group difference in choice of major. Examine environments, selection and interactions.",
+    "5.2.4": "An analogy about food preferences cannot estimate the relative roles of genes and environment in educational choices. The original claim that socialization plays a “much larger” role in this particular gap was not established.",
+    "6.1.4": "A different kind of claim concerns whether a particular study should be conducted or published. For example:",
+    "6.1.5": "Practical argument: “This proposed study has risks that outweigh its scientific value.” Such a claim may be right or wrong, but it is not automatically the appeal-to-consequences fallacy: it recommends an action rather than inferring that a factual hypothesis is false.",
+    "6.1.6": "Only the first example necessarily infers factual falsity from an unwelcome implication. The second concerns a decision and needs a proportionate assessment of risks, benefits and alternatives. Confusing the two would overextend the fallacy label.",
+    "6.2.4": "Correction of the conversational record: the earlier response did not straightforwardly call the omission an oversight; it instead warned about stereotypes and made broad empirical assertions. Those assertions need evidence. A warning about misuse alone does not refute a genetic hypothesis.",
+    "6.2.5": "A fallacious inference would be: the result could encourage discrimination, therefore it is false. Criticism of a study’s design or of a proposed use is a separate matter.",
+    "6.2.10": "Keep three questions separate: is the hypothesis supported, is the proposed research appropriately conducted, and what decisions would follow? Different kinds of reasons bear on each.",
+    "6.2.13": "Testing competing explanations without treating group membership as a verdict on an individual."
+  },
+  "countChecks": [
+    {
+      "name": "fifteen discussion questions each",
+      "selector": "#prompt-7 .original-response > ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    }
+  ],
+  "reviewDecisions": [
+    "Read all164 normalized source lines and visually inspected all four original substantive charts.",
+    "Corrected reversed denominator interpretation, dated degree-completion measure, unsupported consensus claims, sole-cause strawman and factual/practical appeal-to-consequences distinction.",
+    "Preserved both preamble charts and all supplementary chart source links; recovered same original images from WordPress origin. Flagged disputed score provenance, aggregate inference and inaccessible first-chart analysis."
+  ],
+  "preambleHeadingIndexes": [
+    0,
+    1
+  ],
+  "preambleImageOrigins": {
+    "1.1": {
+      "url": "https://byteseismic.wordpress.com/wp-content/uploads/2024/03/women-and-philosophy.jpeg?w=878",
+      "alt": "Original Goodreads chart: sex composition of reviewers within each genre; not the fraction of each sex interested in philosophy.",
+      "maxWidth": "100%"
+    },
+    "2.1": {
+      "url": "https://byteseismic.wordpress.com/wp-content/uploads/2024/03/screenshot-2024-03-06-at-19.57.26.png?w=1024",
+      "alt": "Original US philosophy-degree chart, 1988–2020; women’s share reaches about 39.4%, not a current-year estimate.",
+      "maxWidth": "100%"
+    }
+  },
+  "sourceSectionAttachments": {
+    "7": [
+      {
+        "siblingIndex": 2,
+        "sha256": "b5d871edb4a6f223c49c05103fbcef55c86b27fa6b997d1036d6360ed149ea1a"
+      },
+      {
+        "siblingIndex": 3,
+        "sha256": "624c8eda333d7a25f81df3b14dc25294d2746c1654087367cbb42530ef15007c"
+      },
+      {
+        "siblingIndex": 4,
+        "sha256": "5f3130384e1ae56a1bb4f63e2d24d487f249aa4c14f7ff52865b4a09e5b1cdd5",
+        "imageOverrides": {
+          "0": {
+            "sourceUrl": "https://byteseismic.com/wp-content/uploads/2024/03/image-1.png?w=750",
+            "url": "https://byteseismic.wordpress.com/wp-content/uploads/2024/03/image-1.png",
+            "alt": "Original supplementary scatterplot of college-major gender composition and estimated scores. Aggregated, historically sourced data; not evidence of individual ability or genetic causation."
+          }
+        }
+      },
+      {
+        "siblingIndex": 5,
+        "sha256": "dac06449ddd79ee229813c56055090aac6275c24b381c0177d188aa0861946a1"
+      },
+      {
+        "siblingIndex": 6,
+        "sha256": "3fd3bff91bb5e748b3c1e02bafab7a38f68770d2e19c82d16b9e7ff07a790f0d",
+        "imageOverrides": {
+          "0": {
+            "sourceUrl": "https://byteseismic.com/wp-content/uploads/2024/03/image-2.png?w=741",
+            "url": "https://byteseismic.wordpress.com/wp-content/uploads/2024/03/image-2.png",
+            "alt": "Original supplementary scatterplot of college-major gender composition and estimated scores. Aggregated, historically sourced data; not evidence of individual ability or genetic causation."
+          }
+        }
+      }
+    ]
+  },
+  "responseAppendices": {
+    "7.2": [
+      "<aside class=\"chart-source-note\"><h4>Reading the supplementary charts</h4><p>The two charts added in June 2024 are retained below as original material. They compare aggregated majors, not individual women and men or measured genetic effects. Chart #1 labels its horizontal axis a female-to-male ratio, while Chart #2 uses percentage female; those quantities are not interchangeable.</p><p><a href=\"https://www.randalolson.com/2014/06/25/average-iq-of-students-by-college-major-and-gender-ratio/\">Olson’s source page</a> warns that the score provenance is disputed, that the underlying test is described inconsistently as SAT versus GRE, and that the IQ conversions were not established as ETS measurements. The data concern selected prospective graduate students and intended fields. The first chart’s linked page redirected rather than exposing its original analysis during this review, so its underlying dataset remains unverified.</p><p>A correlation among major-level averages cannot identify individual ability differences or a genetic cause. These charts do not establish that women are less capable of philosophy, nor that genes cannot influence any preference. Those are separate claims requiring suitable evidence.</p></aside>"
+    ]
+  }
+}

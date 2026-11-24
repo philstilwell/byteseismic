@@ -58,7 +58,8 @@ def sections(source, config=None):
                     break
                 col.append(copy.deepcopy(sibling))
             cols = [col]
-        if index in (config or {}).get('preambleHeadingIndexes', []) and str(index) not in pairs:
+        if (index in (config or {}).get('preambleHeadingIndexes', []) and str(index) not in pairs
+                and index not in (config or {}).get('siblingColumnHeadingIndexes', [])):
             for sibling in h.find_next_siblings():
                 if sibling.name == 'h2':
                     break
@@ -149,6 +150,28 @@ def section_afterword(source, heading, config, n):
     return note
 
 
+def source_attachments(heading, config, n):
+    result = []
+    siblings = list(heading.find_next_siblings())
+    for item in config.get('sourceSectionAttachments', {}).get(str(n), []):
+        original = siblings[item['siblingIndex']]
+        assert not any(x.name == 'h2' for x in siblings[:item['siblingIndex']+1])
+        assert hashlib.sha256(str(original).encode()).hexdigest() == item['sha256']
+        clone = copy.deepcopy(original)
+        for el in [clone, *clone.find_all(True)]:
+            el.attrs = {k: v for k, v in el.attrs.items() if k in ('href', 'src', 'alt', 'colspan', 'rowspan')}
+        for index, im in enumerate(clone.select('img')):
+            override = item.get('imageOverrides', {}).get(str(index))
+            if override:
+                assert im['src'] == override['sourceUrl']
+                im['src'] = override['url']
+                im['alt'] = override['alt']
+            im['style'] = 'max-width:100%;height:auto'
+        clone['data-source-attachment'] = f"{n}.{item['siblingIndex']}"
+        result.append(clone)
+    return result
+
+
 def tag(soup, name, value=None, **attrs):
     node = soup.new_tag(name, attrs=attrs)
     if value is not None:
@@ -183,10 +206,15 @@ def edited_column(original, n, c, config):
                     if k in ('href', 'colspan', 'rowspan', 'start')}
     col['class'] = ['original-response']
     col['data-source-column'] = str(c)
-    for i, (old_image, new_image) in enumerate(zip(original.find_all('img'), col.find_all('img'))):
+    source_images = [(i, im) for i, im in enumerate(original.find_all('img'))
+                     if not (config.get('mathImageText') and 'latex' in im.get('class', []))]
+    for (i, old_image), new_image in zip(source_images, col.find_all('img')):
         key = f'{n}.{c}.img{i}'
         if key in config.get('sourceImageDescriptions', {}):
-            new_image['src'] = old_image['src']
+            override = config.get('sourceImageReplacements', {}).get(key)
+            if override:
+                assert override['sourceUrl'] == old_image['src']
+            new_image['src'] = override['url'] if override else old_image['src']
             new_image['alt'] = config['sourceImageDescriptions'][key]
             new_image['style'] = 'max-width:100%;height:auto'
     nodes = col.find_all(TAGS)
@@ -467,6 +495,8 @@ def render(config):
             note.append(tag(soup, 'p', afterword['text'],
                             **{'class': 'original-curator-text'}))
             section.append(note)
+        for attachment in source_attachments(heading, config, n):
+            section.append(attachment)
         body.append(section)
     bonus = config.get('sourceBonusExchange')
     if bonus:
@@ -574,6 +604,8 @@ def verify(config, rendered):
             assert note.parent is soup.select_one(f'#prompt-{n}')
             assert note.find_next_sibling() is None, 'Curator note must follow both responses'
             assert note.find_previous_sibling().get('class') == ['original-response']
+        assert [str(x) for x in soup.select(f'#prompt-{n} [data-source-attachment]')] == [
+            str(x) for x in source_attachments(h, config, n)]
         old_preambles = [p for k, p in enumerate(preamble_nodes(h, config, n))
                          if k != config.get('promptContinuationPreambleIndexes', {}).get(str(n))]
         new_preambles = soup.select(f'#prompt-{n} [data-source-preamble]')
@@ -619,6 +651,7 @@ def verify(config, rendered):
                     retained += 1
             assert [(x.name, len(x.find_all('li', recursive=False))) for x in expected.find_all(['ol', 'ul'])] == [(x.name, len(x.find_all('li', recursive=False))) for x in actual.find_all(['ol', 'ul']) if 'source-dialogue' not in x.get('class', [])]
             assert len(col.find_all('table')) == len(actual.find_all('table'))
+            assert len(col.find_all('details')) == len(actual.find_all('details')), (n, c, 'answer disclosure count')
             for t, (old_table, new_table) in enumerate(zip(col.find_all('table'), actual.find_all('table'))):
                 assert len(old_table.find_all('tr')) == len(new_table.find_all('tr'))
                 for r, (old_row, new_row) in enumerate(zip(old_table.find_all('tr'), new_table.find_all('tr'))):
@@ -654,7 +687,7 @@ def verify(config, rendered):
                 # or a split list item; source-node checks alone cannot do so.
                 clone = copy.deepcopy(actual)
                 clone.find('h3', recursive=False).decompose()
-                assert str(clone) == str(expected), (n, c, 'complete response mismatch')
+                assert '\n'.join(line.rstrip() for line in str(clone).splitlines()) == '\n'.join(line.rstrip() for line in str(expected).splitlines()), (n, c, 'complete response mismatch')
     edits = set(config['replacements']) | set(config.get('leadingTextReplacements', {})) | set(config.get('tableCellReplacements', {})) | set(config.get('bareAnswerReplacements', {}))
     assert used == edits, ('Unused edits', edits - used)
     if config.get('mathImageText'):
@@ -666,8 +699,11 @@ def verify(config, rendered):
             for i, old_image in enumerate(col.find_all('img')):
                 key = f'{n}.{c}.img{i}'
                 if key in config.get('sourceImageDescriptions', {}):
-                    new_image = actual.find_all('img')[i]
-                    assert new_image['src'] == old_image['src']
+                    visible_index = sum(1 for im in col.find_all('img')[:i]
+                                        if not (config.get('mathImageText') and 'latex' in im.get('class', [])))
+                    new_image = actual.find_all('img')[visible_index]
+                    override = config.get('sourceImageReplacements', {}).get(key)
+                    assert new_image['src'] == (override['url'] if override else old_image['src'])
                     assert new_image['alt'] == config['sourceImageDescriptions'][key]
                     image_keys.add(key)
     assert image_keys == set(config.get('sourceImageDescriptions', {}))

@@ -1,0 +1,275 @@
+{
+  "cycle": 8,
+  "startIndex": 200,
+  "pageCount": 50,
+  "reviewed": 8,
+  "pending": 42,
+  "pages": [
+    {
+      "pagePath": "/metaphysics/categories-of-nihilism/",
+      "title": "Categories of Nihilism",
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/categories-of-nihilism-verification-2026-11-24.json",
+      "report": "quality/editorial-audit-2026-11-24-supplement.json"
+    },
+    {
+      "pagePath": "/metaphysics/dualismvsmaterialism/",
+      "title": "Dualism vs Materialism",
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/dualismvsmaterialism-verification-2026-11-24.json",
+      "report": "quality/editorial-audit-2026-11-24-supplement.json"
+    },
+    {
+      "pagePath": "/metaphysics/establishing-the-spiritual/",
+      "title": "Establishing the Spiritual",
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/establishing-the-spiritual-verification-2026-11-24.json",
+      "report": "quality/editorial-audit-2026-11-24-supplement.json"
+    },
+    {
+      "pagePath": "/miscellany/covid-19-science/",
+      "title": "COVID19 & Science",
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/covid-19-science-verification-2026-11-24.json",
+      "report": "quality/editorial-audit-2026-11-24-supplement.json"
+    },
+    {
+      "pagePath": "/philosophical-inquiry/dangers-ideologies-of-emotion/",
+      "title": "Dangers: Ideologies of Emotion",
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/dangers-ideologies-of-emotion-verification-2026-11-24.json",
+      "report": "quality/editorial-audit-2026-11-24-supplement.json"
+    },
+    {
+      "pagePath": "/philosophical-inquiry/inscrutability-case-studies/",
+      "title": "Inscrutability Case Studies",
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/inscrutability-case-studies-verification-2026-11-24.json",
+      "report": "quality/editorial-audit-2026-11-24-supplement.json"
+    },
+    {
+      "pagePath": "/philosophical-inquiry/seeker-scenarios/",
+      "title": "Seeker Scenarios",
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/seeker-scenarios-verification-2026-11-24.json",
+      "report": "quality/editorial-audit-2026-11-24-supplement.json"
+    },
+    {
+      "pagePath": "/philosophy-of-ai/feedback-loops/",
+      "title": "Feedback Loops",
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/feedback-loops-verification-2026-11-24.json",
+      "report": "quality/editorial-audit-2026-11-24-supplement.json"
+    },
+    {
+      "pagePath": "/philosophy-of-ai/human-reaction-to-ai/",
+      "title": "Human Reaction to AI",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/philosophy-of-ai/philosophy-of-ai-core-concepts/",
+      "title": "Philosophy of AI – Core Concepts",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/philosophy-of-language/linguistic-abstraction/",
+      "title": "Linguistic Abstraction",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/philosophy-of-language/semantics-convention-vs-stipulation/",
+      "title": "Semantics: Convention vs Stipulation",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/philosophy-of-language/the-linearity-of-language/",
+      "title": "The Linearity of Language",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/philosophy-of-mind/assessing-mind-with-mind/",
+      "title": "Assessing Mind with Mind",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/philosophy-of-mind/manufacturer-or-method/",
+      "title": "Manufacturer or Method?",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/philosophy-of-mind/philosophy-of-mind-basics/",
+      "title": "Philosophy of Mind Basics",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/philosophy-of-mind/where-are-our-thoughts/",
+      "title": "Where are our Thoughts?",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/philosophy-of-science/asymmetric-counterfactuals/",
+      "title": "Asymmetric Counterfactuals",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/philosophy-of-science/correlation-and-causation/",
+      "title": "Correlation and Causation",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/philosophy-of-science/elements-of-research-design/",
+      "title": "Elements of Research Design",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/philosophy-of-science/is-history-science/",
+      "title": "Is History Science?",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/philosophy-of-science/research-design/",
+      "title": "Research Design",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/philosophy-of-science/scientism-faith/",
+      "title": "Scientism & Faith",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/philosophy-of-science/the-power-of-thought-experiments/",
+      "title": "The Power of Thought Experiments",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/philosophy-of-science/what-is-induction/",
+      "title": "What is Induction?",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/philosophy-of-science/what-is-parsimony/",
+      "title": "What is Parsimony?",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/political-philosophy/peaceful-revolutions/",
+      "title": "Peaceful Revolutions",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/political-philosophy/political-philosophy-basics/",
+      "title": "Political Philosophy Basics",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/political-philosophy/political-philosophy-core-concepts/",
+      "title": "Political Philosophy – Core Concepts",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/rational-thought/ai-logic-intelligence/",
+      "title": "AI “Logic” & “Intelligence”",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/rational-thought/case-2-autism/",
+      "title": "Case #2 – Autism",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/rational-thought/do-rationalists-skew-neurodivergent/",
+      "title": "Do Rationalists Skew Neurodivergent?",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/rational-thought/the-professional-application-of-rationality/",
+      "title": "The Professional Application of Rationality",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/rational-thought/what-is-futurism/",
+      "title": "What is Futurism?",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/rational-thought/what-is-game-theory/",
+      "title": "What is Game Theory?",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/rational-thought/what-is-rational-thought/",
+      "title": "What is Rational Thought?",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/economics/a-living-wage/",
+      "title": "A Living Wage",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/economics/ai-the-future-of-work/",
+      "title": "AI & the Future of Work",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/economics/business-risks/",
+      "title": "Business Risks",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/economics/economic-complexity/",
+      "title": "Economic Complexity",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/economics/economic-entitlements/",
+      "title": "Economic Entitlements",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/economics/economic-optimism/",
+      "title": "Economic Optimism",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/economics/innovation-attractors/",
+      "title": "Innovation Attractors",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/economics/justified-optimism/",
+      "title": "Justified Optimism",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/economics/the-poverty-line/",
+      "title": "The Poverty Line",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/economics/what-makes-economics-dismal/",
+      "title": "What Makes Economics “Dismal”?",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/epistemology/absolute-certainty/",
+      "title": "Absolute Certainty",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/epistemology/case-5-vanishing-probabilities/",
+      "title": "Case #5 – Vanishing Probabilities",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/epistemology/cromwells-rule/",
+      "title": "Cromwell’s Rule",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/epistemology/establishing-cognitive-reliability-1/",
+      "title": "Establishing Cognitive Reliability (#1)",
+      "status": "pending-original-review"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "pagePath": "/introduction/womens-interest-in-philosophy/",
+  "sourceSha256": "5bca74cf26caf1aee466c48259336fab0c6d2e3588f1d5b694cd308b89716dc5",
+  "originalPrompts": 7,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 7,
+  "sourceColumns": 14,
+  "modelResponses": 14,
+  "blocksRetainedVerbatim": 98,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 42,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": false,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [
+    "7.2"
+  ],
+  "formatChecks": {
+    "fifteen discussion questions each": [
+      15,
+      15
+    ]
+  },
+  "sha256": "b260b32d39567581f7e947999433ee7d05336d840099a8529d5214343bbd98fe",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": 2,
+  "isolatedBuildVerified": true
+}

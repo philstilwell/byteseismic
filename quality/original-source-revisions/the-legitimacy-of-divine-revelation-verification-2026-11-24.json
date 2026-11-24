@@ -1,0 +1,39 @@
+{
+  "pagePath": "/humanistic-philosophies/the-legitimacy-of-divine-revelation/",
+  "sourceSha256": "00ce1ce4388bb2fb1bc622cc2d889a677186f409d5bcdf03f17f013742b73aa7",
+  "originalPrompts": 7,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 7,
+  "sourceColumns": 21,
+  "modelResponses": 21,
+  "blocksRetainedVerbatim": 259,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 79,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "ten quiz questions and keys each": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "fifteen discussions per model": [
+      15,
+      15,
+      15
+    ]
+  },
+  "sha256": "0ea93701567e6439a0bb8f018ed632873545a16c4dc9394e834a85688ee15c6d",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": 2,
+  "isolatedBuildVerified": true
+}

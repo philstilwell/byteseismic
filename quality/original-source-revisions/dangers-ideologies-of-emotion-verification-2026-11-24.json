@@ -1,0 +1,43 @@
+{
+  "pagePath": "/philosophical-inquiry/dangers-ideologies-of-emotion/",
+  "sourceSha256": "a1460693a26cf0de26c4176a249d67d15211e8c69f40dfdddba11da271888f6a",
+  "originalPrompts": 7,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 7,
+  "sourceColumns": 14,
+  "modelResponses": 14,
+  "blocksRetainedVerbatim": 234,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 40,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "sixteen quiz questions and sixteen answer keys": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      8,
+      8,
+      8
+    ],
+    "thirty discussion questions": [
+      15,
+      15
+    ]
+  },
+  "sha256": "a284f271f949cd7e0304c2cf93871a7b7d776ea92f9d23ab91269f578e357134",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": 2,
+  "isolatedBuildVerified": true
+}

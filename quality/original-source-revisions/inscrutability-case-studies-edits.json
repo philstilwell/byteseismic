@@ -1,0 +1,120 @@
+{
+  "pageFile": "philosophical-inquiry/inscrutability-case-studies/index.html",
+  "wordpressId": 2969,
+  "snapshot": "inscrutability-case-studies-wordpress-2969.html",
+  "sourceUrl": "http://byteseismic.com/2024/03/11/inscrutability-case-studies/",
+  "sourceLabel": "Original WordPress conversation",
+  "shellRevision": "1d5d5e4829f7bdd8f7e0b3c000dccabc67e2eccd",
+  "date": "2026-11-24",
+  "sourceSha256": "24e227af64516e4cb2c9cf397fd43233766a8c0d7c859e24395ef9e537f8ed66",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "Provide a list of “walls of inscrutability” accompanying particular claims in which all possible outcomes are encompassed by the expansiveness of the claims.",
+    "Expand on how promises of answered prayer are both unconfirmable and unfalsifiable as all possible outcomes are accounted for by the ideology.",
+    "Expand on how promises of divine protection are both unconfirmable and unfalsifiable as all possible outcomes are accounted for by the ideology.",
+    "Expand on how the claim that an unfulfilled promise is due to a “lack of faith” or a “lack of sincereity” traps sincere believers into self-blame and self-disparagement.",
+    "Comment on the increased probability that an ideology heavily employing inscrutability in its foundational claims is false.",
+    "If one encounters an ideology that relies heavily on inscrutable claims, what can be asked to possibly make the claims scrutable?",
+    "Create a 10-item quiz on the discussion above with answers at the end.",
+    "Provide 15 discussion questions relevant to the content above."
+  ],
+  "introHeading": "Inscrutability Case Studies · original exchange",
+  "intro": "Eight original prompts examine claims that absorb every outcome, their effects on believers, and ways to make them assessable. The two model responses distinguish compatibility, confirmation, falsification and evidence of evasion.",
+  "description": "Prayer, protection and inscrutability: original case studies clarify what evidence can establish and why compatibility alone is not confirmation.",
+  "highlights": [],
+  "replacements": {
+    "1.1.0": "Here “walls of inscrutability” names a way of insulating claims from scrutiny, not a technical category covering every religious or mysterious proposition. The examples require different diagnoses: vagueness, inaccessible evidence, flexible reinterpretation and lack of comparative predictions are not identical.",
+    "1.1.4": "Final judgment: an after-death claim may lack presently accessible evidence without being logically compatible with every possible event. Its testability depends on the content and any independently assessable implications. Inaccessibility is distinct from changing a promise after failure.",
+    "1.1.6": "Divine protection: a specific promise of safety can be contradicted by harm. A wall arises when harm is redescribed as a different kind of protection and no possible outcome is allowed to count against the revised claim.",
+    "1.1.8": "Lack of faith: the explanation becomes self-sealing if faith is judged inadequate solely because the promised result failed. An independently specified measure would at least make the condition assessable; failure itself does not establish insincerity.",
+    "1.1.12": "Karma: traditions differ. An unspecified connection across unknown lifetimes can resist testing, while particular claims about actions and consequences may be assessable. Do not assume every account requires a supernatural judge or identical reward system.",
+    "1.1.14": "Synchronicity: a person can find a coincidence meaningful without claiming an unusual causal mechanism. A claim of a statistically unusual pattern needs a defined comparison, selection rule and accounting for how many opportunities there were to notice coincidences.",
+    "1.1.16": "Placebo: placebo effects are researchable and are not inherently inscrutable. Improvement in a placebo group can also reflect natural recovery, regression toward typical symptoms or reporting effects. Calling every unexplained improvement a placebo effect without suitable comparisons is the unsupported move.",
+    "1.2.1": "These examples show ways a claim can become insulated from evidence. Their broad topic alone does not establish that they are untestable or false:",
+    "1.2.5": "Accessibility: details of an after-death judgment may not be presently observable. That is a different limitation from a claim deliberately reinterpreted to accommodate contradictory outcomes.",
+    "1.2.11": "Karma: specify the tradition and proposed relation between action and consequence. An indefinite timescale may prevent testing a particular version; the term alone does not establish universal inscrutability.",
+    "1.2.12": "Free will and predestination: conceptual arguments and specific empirical implications may be assessed even when a single event does not distinguish positions. Compatibilist accounts also reject the assumption that determination and freedom must be opposites.",
+    "2.1.0": "The criticism applies to a promise interpreted so flexibly that no outcome could count against it. It does not cover every possible claim about prayer. Distinguish logical compatibility with an outcome from that outcome being more expected under the claim than under a rival explanation.",
+    "2.2.0": "The criticism applies to a promise interpreted so flexibly that no outcome could count against it. It does not cover every possible claim about prayer. Distinguish logical compatibility with an outcome from that outcome being more expected under the claim than under a rival explanation.",
+    "2.1.2": "Criteria: if “answer” is redefined after each event, the observation does not discriminate divine response from ordinary outcomes. An independently specified result and timeframe would make a narrower claim assessable, although fulfillment alone would not establish its cause.",
+    "2.1.3": "Timing: an indefinitely postponed answer cannot be shown to have failed at any finite date. A specified deadline would expose a narrower promise to failure. This asymmetry does not mean every positive occurrence establishes divine agency.",
+    "2.1.5": "All-encompassing interpretations: “yes,” “no” and “wait” accommodate every outcome. Unless the account specifies their expected frequencies or other distinguishing evidence, accommodation supplies no comparative support for divine intervention.",
+    "2.1.8": "The unrestricted yes/no/wait formulation supplies no discriminating prediction merely by fitting every event. Narrower claims about prayer can be studied, and philosophical arguments can be examined separately. Neither lack of a decisive disproof nor the comfort of prayer establishes the unrestricted claim.",
+    "2.2.7": "Compatibility is not confirmation. If an account can fit every event but gives no way to compare their probabilities with alternatives, seeing an event that fits does not by itself favor that account. A narrower prediction can still be tested without settling all theology.",
+    "3.1.0": "Some formulations of divine protection evade testing by shifting what counts as protection. A concrete promise can instead be tested against specified outcomes. The problem is the unrestricted reformulation, not a property inferred from the word divine alone.",
+    "3.2.0": "Some formulations of divine protection evade testing by shifting what counts as protection. A concrete promise can instead be tested against specified outcomes. The problem is the unrestricted reformulation, not a property inferred from the word divine alone.",
+    "3.1.3": "Interpretation: a safe journey is compatible with protection and with ordinary travel risk. To treat it as evidence favoring protection, explain why it was more expected under that hypothesis than under relevant alternatives.",
+    "3.1.5": "All-inclusive outcomes: redescribing injury as a lesson or protection of a different kind can shield the claim from counterevidence. It does not make the injury positive evidence for the revised explanation without an additional argument.",
+    "3.1.8": "Promises can provide comfort while remaining evidentially weak. When protection has no stable definition or comparative prediction, fitting events to it does not establish divine action. Specific promises may be contradicted, and the broader claim can still be examined for coherence and other evidence.",
+    "3.2.9": "Promises can provide comfort while remaining evidentially weak. When protection has no stable definition or comparative prediction, fitting events to it does not establish divine action. Specific promises may be contradicted, and the broader claim can still be examined for coherence and other evidence.",
+    "4.1.2": "Internalization of failure: someone taught that sincere faith guarantees a result may blame themselves when it fails. That inference is not warranted by the outcome alone; the promise, its conditions or the proposed causal relationship may instead be mistaken.",
+    "4.2.10": "Emotional toll: repeated blame can contribute to distress, shame and isolation. These are possible harms, not a diagnosis or an inevitable response for every believer.",
+    "4.2.12": "Reconsider the promise: assess whether the original claim was justified rather than assuming every setback is a test that should strengthen belief. Continuing, changing or leaving a belief remains the person’s decision.",
+    "4.2.13": "Seek support: choose a trusted person who permits questions and does not repeat the blame. That may be a religious adviser, a friend outside the community or another appropriate source of support.",
+    "4.2.14": "Self-compassion: doubt is a state of uncertainty, often accompanied by emotion. An unmet promise is not, on its own, evidence of personal unworthiness or insincerity.",
+    "5.1.0": "Inscrutability alone does not assign a probability of falsehood. Distinguish an unspecified claim, a difficult test and a history of evasive revisions. The last can count against the reliability of a source when it is more expected under error or deception than under accurate reporting.",
+    "5.1.2": "Falsifiability: Popper emphasized possible empirical observations that conflict with a theory. It is an influential account, not a complete agreed definition of science. Probabilistic hypotheses can be evaluated by comparative likelihood even when no finite outcome is logically impossible under them.",
+    "5.1.3": "Ambiguity: an underspecified claim may not supply enough content to evaluate. Ask for a stable meaning before attributing a definite probability to it; making a claim precise can reveal both support and contradictions.",
+    "5.1.5": "Confirmation bias: a flexible interpretation can make contrary events feel supportive. Skeptics can also select evidence. The relevant question is whether the same standards are applied to favorable and unfavorable outcomes.",
+    "5.1.8": "Kinds of assessment: logical, mathematical, normative and empirical claims need different methods. Being outside a simple experiment does not confer truth, nor exempt a claim from coherent argument and criticism.",
+    "5.1.11": "A stronger conclusion is conditional: if repeated evasions are more likely when a source is unreliable than when it is reliable, they count against that source. They do not automatically disprove every proposition it endorses. Absence of independent support can justify withholding assent without pretending to have calculated a universal falsehood rate.",
+    "5.2.3": "Shifting goalposts: document the original criteria and later revisions. An independently motivated correction differs from an ad hoc change made solely to avoid failure. Unfalsifiability and actual evidence of evasive conduct are separate facts.",
+    "5.2.8": "To infer increased probability of falsehood, specify alternatives and why the observed evasion is more expected under one than another. Merely naming inscrutability supplies no numerical increase. A person can responsibly suspend judgment when the claim lacks enough content or support.",
+    "5.2.12": "Does it promote beneficial conduct? That matters ethically and practically, but beneficial consequences do not establish the factual truth of its foundations.",
+    "6.1.16": "These questions can improve clarity without guaranteeing a testable answer. Record definitions and expected outcomes before judging results, distinguish logical disproof from probabilistic evidence, and allow suspension of judgment when the claim remains underspecified.",
+    "6.2.1": "Focus on specifics: ask what result, by what date and under what conditions would count for or against the claim. Ask what would be expected without the proposed cause; certainty need not be the standard.",
+    "6.2.5": "Historical context: investigate documented origins and revisions. Origins can inform source reliability but do not alone determine whether a proposition is true.",
+    "6.2.8": "Approach with respect: ask whether the person wants to discuss the issue. Respect supports fair inquiry but does not guarantee agreement or receptivity.",
+    "6.2.9": "Use clear questions: open questions can invite explanation, while precise yes/no questions can clarify commitments. Neither format is inherently superior.",
+    "7.1.13": "Here the term refers to claims insulated from scrutiny through unclear criteria or flexible reinterpretation. Not every hard-to-test claim is deliberately designed to evade evidence.",
+    "7.1.14": "Possible contrary evidence helps expose claims to correction. Probabilistic evidence can also shift support without a conclusive logical falsification.",
+    "7.1.17": "It reveals what observations could support or weaken the claim relative to alternatives, without requiring absolute proof.",
+    "7.2.4": "Why does an unrestricted yes/no/wait prayer claim lack discriminatory force by itself? a) Prayer requires special wording b) It accommodates every outcome without specified comparative expectations c) Only one religion prays d) Every prayer has a fixed deadline",
+    "7.2.7": "Which practice would help reduce insulation from scrutiny? a) Changing criteria after every outcome b) Stating revision criteria and inviting contrary evidence c) Counting every event as confirmation d) Blaming all failures on hidden insincerity",
+    "7.2.9": "Which question makes a claim more assessable? a) Why is it superior? b) What result would count against it, and what would alternatives predict? c) Do its followers look alike? d) Is questioning arrogant?",
+    "7.2.12": "What supports a probabilistic argument against a source’s reliability? a) Its age alone b) Its location alone c) Evidence of evasion more expected under unreliability than reliability d) Its number of followers alone",
+    "7.2.15": "(b) It fits every outcome without comparative expectations.",
+    "7.2.18": "(b) State revision criteria and invite contrary evidence.",
+    "7.2.20": "(b) Ask for contrary outcomes and alternative predictions.",
+    "7.2.23": "(c) Compare how expected the observed evasion is under competing accounts of reliability."
+  },
+  "countChecks": [
+    {
+      "name": "twenty quiz questions and answer keys",
+      "selector": "#prompt-7 .original-response > ol",
+      "child": "li",
+      "expected": [
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "thirty discussions",
+      "selector": "#prompt-8 .original-response > ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    }
+  ],
+  "reviewDecisions": [
+    "Read all 257 source lines and the full current page; restored eight prompts and sixteen responses.",
+    "Distinguished inaccessible evidence, unspecified claims, flexible reinterpretation and probabilistic confirmation; corrected placebo and free-will examples.",
+    "Answered probability challenge conditionally without unsupported falsehood rates; preserved twenty quizzes/keys and thirty discussions with dependent corrections.",
+    "Preserved curator wording including sincereity; improved response spelling, causal caution and autonomy in advice about faith."
+  ],
+  "responseAppendices": {
+    "1.1": [
+      "<p>Research distinction: <a href=\"https://www.nimh.nih.gov/news/media/2024/day-one-placebo-workshop-translational-research-domains-and-key-questions\">NIMH placebo workshop</a> distinguishes improvement in a placebo group from effects identified through suitable comparison groups.</p>"
+    ],
+    "5.1": [
+      "<p>Further reading: <a href=\"https://plato.stanford.edu/entries/confirmation/\">Confirmation</a> explains why evidence can change support for a hypothesis without establishing it with certainty.</p>"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "pagePath": "/humanistic-philosophies/unpalatable-religions/",
+  "sourceSha256": "cb6de88fa8c427fef98ea6945fb7fec70315ba96bfc514062656e758672dd5ac",
+  "originalPrompts": 6,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 7,
+  "sourceColumns": 21,
+  "modelResponses": 21,
+  "blocksRetainedVerbatim": 243,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 67,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "original quiz counts": [
+      10,
+      9,
+      10
+    ],
+    "fifteen discussions each": [
+      15,
+      15,
+      15
+    ]
+  },
+  "sha256": "849b01970ff617ce0bbb4f6472fa356952f83ae1b27f1bb2014cdf2477784f2c",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": 2,
+  "isolatedBuildVerified": true
+}

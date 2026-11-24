@@ -1,0 +1,32 @@
+{
+  "pagePath": "/philosophical-inquiry/seeker-scenarios/",
+  "sourceSha256": "c0caf69fe9d1e220b232dd95ec90b4b1923679f6a939ad2335fcfc2fc9d37cad",
+  "originalPrompts": 7,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 7,
+  "sourceColumns": 14,
+  "modelResponses": 14,
+  "blocksRetainedVerbatim": 236,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 52,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": false,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [
+    "5.1"
+  ],
+  "formatChecks": {
+    "thirty original discussions": [
+      15,
+      15
+    ]
+  },
+  "sha256": "8da87f24a45ff95154e6256820b0ec923383f192a8bbab6b6920251c799339f5",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": 2,
+  "isolatedBuildVerified": true
+}

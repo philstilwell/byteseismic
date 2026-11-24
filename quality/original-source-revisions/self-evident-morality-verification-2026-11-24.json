@@ -1,0 +1,32 @@
+{
+  "pagePath": "/ethics/self-evident-morality/",
+  "sourceSha256": "8f734fc36e8f259194a04ecac983acb06dbebc88ebe46aafabfbf4c3ab52b842",
+  "originalPrompts": 9,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 10,
+  "sourceColumns": 10,
+  "modelResponses": 10,
+  "blocksRetainedVerbatim": 399,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 147,
+  "bareAnswersExplicitlyRevised": 12,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "twelve quiz answers": [
+      12
+    ],
+    "twenty discussion questions": [
+      20
+    ]
+  },
+  "sha256": "3a93f39d63c17ef347d2378aa34ba6871f51360c42e2aa9db0a9040e4056257b",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": 2,
+  "isolatedBuildVerified": true
+}

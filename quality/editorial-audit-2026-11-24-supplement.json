@@ -1,0 +1,1352 @@
+{
+  "runTime": "2026-11-24T16:18:04.685684-05:00",
+  "reportDate": "2026-11-24",
+  "dailyTarget": 20,
+  "dailyVerified": 20,
+  "dailyRemaining": 0,
+  "additionalVerified": 20,
+  "earlierToday": {
+    "pages": [],
+    "commit": "1d5d5e4829f7bdd8f7e0b3c000dccabc67e2eccd",
+    "report": "quality/editorial-audit-2026-11-24.json",
+    "status": "Inspection only; zero completed reviews. Preserved as historical record."
+  },
+  "stoppageDiagnosis": "The earlier run stopped after truncated source inspection and wrote a report-only commit despite no established external blocker. This was premature termination, not completed editorial work.",
+  "instructionRepair": {
+    "automationId": "byteseismic-daily-editorial-audit",
+    "updatedThroughCodexAutomationTool": true,
+    "status": "ACTIVE",
+    "savedModel": "gpt-6-astra",
+    "savedReasoningEffort": "high",
+    "schedulePreserved": true,
+    "repositoryProtocol": "quality/editorial-revision-protocol.md",
+    "rules": [
+      "20-page target is a completion requirement, not a time limit.",
+      "Continue through full source reading, bespoke revision, fidelity checks, isolated build, commit and verified push.",
+      "Recover truncated output in bounded chunks and preserve progress across compaction.",
+      "Inspection, elapsed time, dirty working files and unavailable delegation do not establish a blocker.",
+      "A real blocker requires exact failure evidence and attempted remedies."
+    ]
+  },
+  "cycle": 8,
+  "cursor": 200,
+  "advanced": true,
+  "completedBatch": {
+    "startIndex": 150,
+    "pageCount": 50,
+    "reviewed": 50,
+    "advancedAfterFullVerification": true
+  },
+  "batchReviewed": 8,
+  "batchRemaining": 42,
+  "officialCompleted": 200,
+  "officialRemaining": 146,
+  "substantiveReviewed": 208,
+  "notYetReviewed": 138,
+  "nextPage": "Human Reaction to AI",
+  "currentBatchEnd": "Establishing Cognitive Reliability (#1)",
+  "nextBatch": "Indexes 250–299: Evidence Workshop through What is Faith?",
+  "newPages": [
+    {
+      "pagePath": "/ethics/assisted-suicide/",
+      "title": "Assisted Suicide",
+      "wordpressId": 11504,
+      "sourceUrl": "http://byteseismic.com/2024/06/10/assisted-suicide/",
+      "sourceSha256": "a1eccfcd31fc2dd4e1941631519d491576c6d29890a46a225ba658ea37311195",
+      "snapshot": "assisted-suicide-wordpress-11504.html",
+      "sourceCoverage": {
+        "indexedSourceLines": 432,
+        "coveredLineRange": [
+          1,
+          432
+        ],
+        "originalFullyRead": true,
+        "currentPageCompared": true,
+        "supplementaryMathRead": false
+      },
+      "reviewDecisions": [
+        "1: all three pro/con responses retained and individually corrected for terminology, autonomy, treatment refusal, medical roles, resource pressure and dignity.",
+        "2: preserved exact two-part curator list and three replies; replaced overconcession with distinctions between intrinsic prohibition, conditional justification and independently evidenced harms.",
+        "3: retained all three tables and 18 theory rows; corrected natural-law caricature, deontological inference, welfare versus intrinsic value and coercive resource framing.",
+        "4: retained original scores as explicitly invented illustrations, corrected uniform-theory claims and added missing existentialism entry to match the first chart.",
+        "5: distinguished disagreement, common measure and reasoned comparability; corrected normative/metaethical conflation and unsupported intrinsic-incomparability conclusions.",
+        "6: preserved skeptical challenge while distinguishing evidence from proof, disagreement from falsity and alternative explanations from equally supported explanations.",
+        "7: retained 10/9/10 source quizzes and expandable answers; no original prompt requests ten in each. Corrected dependent answers and ambiguous references.",
+        "8: retained all 45 questions; repaired two assumptions in Claude’s questions about natural law and established incommensurability."
+      ],
+      "verification": {
+        "pagePath": "/ethics/assisted-suicide/",
+        "sourceSha256": "a1eccfcd31fc2dd4e1941631519d491576c6d29890a46a225ba658ea37311195",
+        "originalPrompts": 7,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 8,
+        "sourceColumns": 24,
+        "modelResponses": 24,
+        "blocksRetainedVerbatim": 202,
+        "tableCellsExplicitlyRevised": 12,
+        "blocksExplicitlyRevised": 97,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": false,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [
+          "4.1"
+        ],
+        "formatChecks": {
+          "three original tables": [
+            8,
+            5,
+            8
+          ],
+          "discussion question lists": [
+            15,
+            15,
+            15
+          ],
+          "expandable answers": [
+            10,
+            9,
+            10
+          ]
+        },
+        "sha256": "6d6b7bf41291600e1ad0f7d3ec2d529fbe3b18701b30b954190bc4a805f65940",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 2,
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "pagePath": "/ethics/conditions-for-culpability/",
+      "title": "Conditions for Culpability",
+      "wordpressId": 3410,
+      "sourceUrl": "http://byteseismic.com/2024/03/13/conditions-for-culpability/",
+      "sourceSha256": "bd211579d629287cc58555aa08ccc8abb5f9b2c0ae2f780002079454c2cb403b",
+      "snapshot": "conditions-for-culpability-wordpress-3410.html",
+      "sourceCoverage": {
+        "indexedSourceLines": 346,
+        "coveredLineRange": [
+          1,
+          346
+        ],
+        "originalFullyRead": true,
+        "currentPageCompared": true,
+        "supplementaryMathRead": false
+      },
+      "reviewDecisions": [
+        "1: restored both 35-item lists and original hidden-list note; corrected causation/blame, norms/authority, authenticity/excuse, diagnosis/capacity and tracing.",
+        "2: corrected determinism/free-will conflation throughout both responses; retained each original item while distinguishing reasons-responsive control, coercion, desert and practical accountability. No unsupported majority claim retained.",
+        "3: preserved both car assessments; separated fault, causal contribution, compensation and trust; avoided presuming betrayal or liability.",
+        "4: preserved both friendliness assessments; rejected automatic blame for another person’s interpretation, distinguished later clarity from prior wrongdoing and retained the wife’s agency.",
+        "5: separated later memory from earlier intention/capacity, required evidence before blame, distinguished embarrassment from wrongdoing and applied tracing conditionally.",
+        "6: retained twenty questions and final keys; repaired determinism answer, four ambiguity/presumption errors and related keys.",
+        "7: retained thirty discussion questions, correcting the derivative-responsibility definition in one."
+      ],
+      "verification": {
+        "pagePath": "/ethics/conditions-for-culpability/",
+        "sourceSha256": "bd211579d629287cc58555aa08ccc8abb5f9b2c0ae2f780002079454c2cb403b",
+        "originalPrompts": 7,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 7,
+        "sourceColumns": 14,
+        "modelResponses": 14,
+        "blocksRetainedVerbatim": 245,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 78,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "two 35-item lists": [
+            35,
+            35
+          ],
+          "quiz questions and keys": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            10,
+            10,
+            10
+          ],
+          "discussion questions": [
+            15,
+            15
+          ]
+        },
+        "sha256": "c107765c81f6db5b09622c628ea631ec1b2e72c31824f66b67a71b7c1d2465ba",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 2,
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "pagePath": "/ethics/evidences-of-moral-facts/",
+      "title": "Evidences of Moral Facts",
+      "wordpressId": 3375,
+      "sourceUrl": "http://byteseismic.com/2024/03/13/evidences-of-moral-facts/",
+      "sourceSha256": "c80296ffcbcb403db91c682ddc782829149cb5aa8f9453a46964d908a3f6122a",
+      "snapshot": "evidences-of-moral-facts-wordpress-3375.html",
+      "sourceCoverage": {
+        "indexedSourceLines": 330,
+        "coveredLineRange": [
+          1,
+          330
+        ],
+        "originalFullyRead": true,
+        "currentPageCompared": true,
+        "supplementaryMathRead": false
+      },
+      "reviewDecisions": [
+        "1: retained both opening replies while distinguishing intuitions from emotions, causal explanation from truth and parsimony from mere simplicity.",
+        "2: each of six proposed evidences now answers the request for discriminating support; corrected false Hume/queasiness attribution and the separate-realm definition of realism.",
+        "3: retained curator agenda verbatim without model attribution.",
+        "4: preserved full disagreement challenge; corrected misclassification as cultural relativism and constructivism.",
+        "5: preserved emotional-convergence challenge and metaphor; corrected reversed viscosity reading and historical overgeneralization.",
+        "6: preserved complete reason challenge with original typos; corrected mathematical certainty caricature, unsupported spirit attribution and thick-concept confusion.",
+        "7: preserved both curator paragraphs and replies; distinguished language, social force and reference without claiming the emotional account proven complete.",
+        "8: preserved self-evidence challenge; distinguished feeling certain from philosophical self-evidence and unsupported auxiliaries from ordinary psychology.",
+        "9: retained both ten-item quizzes and keys; corrected evidence, Hume-related concepts, emotional/social options and false moral-language key.",
+        "10: retained thirty discussion questions, correcting two inherited assumptions."
+      ],
+      "verification": {
+        "pagePath": "/ethics/evidences-of-moral-facts/",
+        "sourceSha256": "c80296ffcbcb403db91c682ddc782829149cb5aa8f9453a46964d908a3f6122a",
+        "originalPrompts": 10,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 10,
+        "sourceColumns": 19,
+        "modelResponses": 18,
+        "blocksRetainedVerbatim": 232,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 62,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "discussion questions": [
+            15,
+            15
+          ],
+          "twenty quiz questions and keys": [
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        "sha256": "4f397d0aac8037195797ed634e14886205db391326f873151017813761972302",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 2,
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "pagePath": "/ethics/model-of-ethical-dynamics/",
+      "title": "Model of Ethical Dynamics",
+      "wordpressId": 15426,
+      "sourceUrl": "http://byteseismic.com/2025/02/23/model-of-ethical-dynamics/",
+      "sourceSha256": "d30acdf21177dbacc08c89310ed1224db09f7fa1f3c0b8c1bc3fe013d35bd2f3",
+      "snapshot": "model-of-ethical-dynamics-wordpress-15426.html",
+      "sourceCoverage": {
+        "indexedSourceLines": 378,
+        "coveredLineRange": [
+          1,
+          378
+        ],
+        "originalFullyRead": true,
+        "currentPageCompared": true,
+        "supplementaryMathRead": true
+      },
+      "reviewDecisions": [
+        "1: retained thirteen factors and equations; corrected beta sum, V and ED arithmetic, interaction bounds and unsupported moral-ranking interpretation.",
+        "2: retained psychological/social/lifestyle progression and examples; separated attitudes from behavior and removed sweeping medieval/wealth claims.",
+        "3: corrected quadratic/exponential confusion, negative capacity and zero denominator; supplied bounded recovery-capable dynamics and precise interpretation of synthetic index.",
+        "4: retained all proposed loops and scarcity discussion; corrected sign of the scarcity-cost term and unsupported rarity/threshold claims.",
+        "5: retained original diagram and supplied explicitly reconstructed requested Mermaid code absent from export.",
+        "6: preserved curator religious-alignment addition, distinguished alignment from conflict, bounded feedback and qualified positive cost assumptions.",
+        "7: retained all fourteen values/calculation stages and chart; labeled fabricated historical estimates as hypothetical and removed unsupported Greek religious/persistence assertions.",
+        "8: retained hypothetical scenario, all inputs/calculations and images; corrected NF/ES direction and distinguished index from adoption percentage.",
+        "9: retained essay structure, four research proposals, exact non-realist curator note and original ChatGPT assessment table; replaced validation claims with actual measurement and testing requirements.",
+        "User authorized SVG redraws: four lightweight local vectors replace sprawling raster diagrams, retain original links and correct misleading causal and prevalence labels. No generation charge."
+      ],
+      "verification": {
+        "pagePath": "/ethics/model-of-ethical-dynamics/",
+        "sourceSha256": "d30acdf21177dbacc08c89310ed1224db09f7fa1f3c0b8c1bc3fe013d35bd2f3",
+        "originalPrompts": 9,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 9,
+        "sourceColumns": 9,
+        "modelResponses": 9,
+        "blocksRetainedVerbatim": 288,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 65,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": false,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [
+          "5.1",
+          "6.1",
+          "7.1",
+          "8.1"
+        ],
+        "formatChecks": {
+          "nine Grok responses": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        "sha256": "8d18275988702a82eb654c6053aa96402037dc25d02fe94bb102620e2465b516",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 2,
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "pagePath": "/ethics/self-evident-morality/",
+      "title": "Self-Evident Morality?",
+      "wordpressId": 14138,
+      "sourceUrl": "http://byteseismic.com/2024/10/24/self-evident-morality/",
+      "sourceSha256": "8f734fc36e8f259194a04ecac983acb06dbebc88ebe46aafabfbf4c3ab52b842",
+      "snapshot": "self-evident-morality-wordpress-14138.html",
+      "sourceCoverage": {
+        "indexedSourceLines": 649,
+        "coveredLineRange": [
+          1,
+          649
+        ],
+        "originalFullyRead": true,
+        "currentPageCompared": true,
+        "supplementaryMathRead": true
+      },
+      "reviewDecisions": [
+        "Read entire original in numbered ranges 1–125,126–200,201–285,286–380,381–470,471–557; preserved exact Singer preamble and all ten sections.",
+        "Corrected universal/existential scope, validity/soundness/circularity, proof/self-evidence, disagreement/relativism and non-realism/noncognitivism throughout essays, dialogue and quiz.",
+        "Retained invalid original mathematical formulas as explicitly diagnosed counterexamples; preserved all source equation positions as readable text.",
+        "Removed reliance on unverified Van Cleve title while retaining a visible citation correction."
+      ],
+      "verification": {
+        "pagePath": "/ethics/self-evident-morality/",
+        "sourceSha256": "8f734fc36e8f259194a04ecac983acb06dbebc88ebe46aafabfbf4c3ab52b842",
+        "originalPrompts": 9,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 10,
+        "sourceColumns": 10,
+        "modelResponses": 10,
+        "blocksRetainedVerbatim": 399,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 147,
+        "bareAnswersExplicitlyRevised": 12,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "twelve quiz answers": [
+            12
+          ],
+          "twenty discussion questions": [
+            20
+          ]
+        },
+        "sha256": "3a93f39d63c17ef347d2378aa34ba6871f51360c42e2aa9db0a9040e4056257b",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 2,
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "pagePath": "/humanistic-philosophies/personal-cosmic-meaning/",
+      "title": "Personal & Cosmic Meaning",
+      "wordpressId": 3103,
+      "sourceUrl": "http://byteseismic.com/2024/03/12/personal-cosmic-meaning/",
+      "sourceSha256": "e38442555a2b6c4e14c8ce142d9e5a501d6a12343f3b99edbb049cffcffcdc25",
+      "snapshot": "personal-cosmic-meaning-wordpress-3103.html",
+      "sourceCoverage": {
+        "indexedSourceLines": 232,
+        "coveredLineRange": [
+          1,
+          232
+        ],
+        "originalFullyRead": true,
+        "currentPageCompared": true,
+        "supplementaryMathRead": false
+      },
+      "reviewDecisions": [
+        "Read full original 232 numbered lines. Preserved all eight prompts and sixteen responses.",
+        "Corrected anthropic/design inference, evidence/proof, subjective/objective meaning, finite-value objection, philosophical classifications and erroneous quiz answers."
+      ],
+      "verification": {
+        "pagePath": "/humanistic-philosophies/personal-cosmic-meaning/",
+        "sourceSha256": "e38442555a2b6c4e14c8ce142d9e5a501d6a12343f3b99edbb049cffcffcdc25",
+        "originalPrompts": 8,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 8,
+        "sourceColumns": 16,
+        "modelResponses": 16,
+        "blocksRetainedVerbatim": 162,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 45,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "ten questions and answers per model": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "fifteen discussions each": [
+            15,
+            15
+          ]
+        },
+        "sha256": "479f77b3d0aaad3bc0c9953f37f80c86e879419862df9612668826d6a8067a93",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 2,
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "pagePath": "/humanistic-philosophies/russell-on-faith/",
+      "title": "Russell on Faith",
+      "wordpressId": 10381,
+      "sourceUrl": "http://byteseismic.com/2024/05/27/russell-on-faith/",
+      "sourceSha256": "a8c83e09ab629bfb76236890fbcb28aacf885cacbe98a7e36c78a3735029bc6c",
+      "snapshot": "russell-on-faith-wordpress-10381.html",
+      "sourceCoverage": {
+        "indexedSourceLines": 403,
+        "coveredLineRange": [
+          1,
+          403
+        ],
+        "originalFullyRead": true,
+        "currentPageCompared": true,
+        "supplementaryMathRead": false
+      },
+      "reviewDecisions": [
+        "Read all seven original sections including quote preamble; the initial extraction missed first section and was corrected before review.",
+        "Replaced unrelated credencing/Bob-the-aphid quiz and discussion contamination in place, preserving requested counts.",
+        "Corrected all three models’ overagreement about credence; separated degree of belief from rational evidential calibration.",
+        "Retained original attributed passages with explicit unverified-provenance labels; removed misleading composite quotation status and unsupported predictions."
+      ],
+      "verification": {
+        "pagePath": "/humanistic-philosophies/russell-on-faith/",
+        "sourceSha256": "a8c83e09ab629bfb76236890fbcb28aacf885cacbe98a7e36c78a3735029bc6c",
+        "originalPrompts": 7,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 7,
+        "sourceColumns": 21,
+        "modelResponses": 21,
+        "blocksRetainedVerbatim": 267,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 96,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "ten quiz questions and answers each": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ],
+          "fifteen discussion questions each": [
+            15,
+            15,
+            15
+          ]
+        },
+        "sha256": "bf25fa1110dbc1ab34fb157605d3672af000cd14a5511a00d7d63c098ced193b",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 2,
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "pagePath": "/humanistic-philosophies/the-legitimacy-of-divine-revelation/",
+      "title": "The Legitimacy of Divine Revelation",
+      "wordpressId": 7684,
+      "sourceUrl": "http://byteseismic.com/2024/05/01/the-legitimacy-of-divine-revelation/",
+      "sourceSha256": "00ce1ce4388bb2fb1bc622cc2d889a677186f409d5bcdf03f17f013742b73aa7",
+      "snapshot": "the-legitimacy-of-divine-revelation-wordpress-7684.html",
+      "sourceCoverage": {
+        "indexedSourceLines": 369,
+        "coveredLineRange": [
+          1,
+          369
+        ],
+        "originalFullyRead": true,
+        "currentPageCompared": true,
+        "supplementaryMathRead": false
+      },
+      "reviewDecisions": [
+        "Read all 369 normalized source lines including the three assumptions and all proposed confirmation tests.",
+        "Preserved seven prompts,21 responses and all ranked taxonomies; corrected source authentication, hypothetical theodicies, conditional predictions and inappropriate religious generalizations.",
+        "Checked Quaker, Latter-day Saint and Vatican primary institutional explanations; revised quizzes to reflect the limits of the arguments."
+      ],
+      "verification": {
+        "pagePath": "/humanistic-philosophies/the-legitimacy-of-divine-revelation/",
+        "sourceSha256": "00ce1ce4388bb2fb1bc622cc2d889a677186f409d5bcdf03f17f013742b73aa7",
+        "originalPrompts": 7,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 7,
+        "sourceColumns": 21,
+        "modelResponses": 21,
+        "blocksRetainedVerbatim": 259,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 79,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "ten quiz questions and keys each": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ],
+          "fifteen discussions per model": [
+            15,
+            15,
+            15
+          ]
+        },
+        "sha256": "0ea93701567e6439a0bb8f018ed632873545a16c4dc9394e834a85688ee15c6d",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 2,
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "pagePath": "/humanistic-philosophies/unpalatable-religions/",
+      "title": "“Unpalatable” Religions",
+      "wordpressId": 11674,
+      "sourceUrl": "http://byteseismic.com/2024/06/13/unpalatable-religions/",
+      "sourceSha256": "cb6de88fa8c427fef98ea6945fb7fec70315ba96bfc514062656e758672dd5ac",
+      "snapshot": "unpalatable-religions-wordpress-11674.html",
+      "sourceCoverage": {
+        "indexedSourceLines": 380,
+        "coveredLineRange": [
+          1,
+          380
+        ],
+        "originalFullyRead": true,
+        "currentPageCompared": true,
+        "supplementaryMathRead": false
+      },
+      "reviewDecisions": [
+        "Read all380 normalized source lines and preserved full anonymized quotation, curator reassessment note and formal syllogism.",
+        "Retained three-model disagreement while distinguishing monotonic entailment, accurate attribution and truth of premises.",
+        "Repaired steelman, motive claims, fallacy-label overreach, likelihood logic and corresponding quiz answers. Source quiz heading requests no fixed count; retained10/9/10."
+      ],
+      "verification": {
+        "pagePath": "/humanistic-philosophies/unpalatable-religions/",
+        "sourceSha256": "cb6de88fa8c427fef98ea6945fb7fec70315ba96bfc514062656e758672dd5ac",
+        "originalPrompts": 6,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 7,
+        "sourceColumns": 21,
+        "modelResponses": 21,
+        "blocksRetainedVerbatim": 243,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 67,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "original quiz counts": [
+            10,
+            9,
+            10
+          ],
+          "fifteen discussions each": [
+            15,
+            15,
+            15
+          ]
+        },
+        "sha256": "849b01970ff617ce0bbb4f6472fa356952f83ae1b27f1bb2014cdf2477784f2c",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 2,
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "pagePath": "/introduction/careers-in-philosophy/",
+      "title": "Careers in Philosophy",
+      "wordpressId": 1096,
+      "sourceUrl": "http://byteseismic.com/2024/02/25/careers-in-philosophy/",
+      "sourceSha256": "61c65f5eeeac1242b806b91e1c16f4cbf8ba286a8c99b1f850e022c1016d34b7",
+      "snapshot": "careers-in-philosophy-wordpress-1096.html",
+      "sourceCoverage": {
+        "indexedSourceLines": 193,
+        "coveredLineRange": [
+          1,
+          193
+        ],
+        "originalFullyRead": true,
+        "currentPageCompared": true,
+        "supplementaryMathRead": false
+      },
+      "reviewDecisions": [
+        "Read entire193-line source including the nested heading and both20-item original lists.",
+        "Corrected false credentials in place; added20 sourced completed philosophy degrees, preserving original candidate lists as documented corrections.",
+        "Removed unsupported current hiring-growth/ranking claims; distinguished career preparation, professional qualification, additional skills and costs."
+      ],
+      "verification": {
+        "pagePath": "/introduction/careers-in-philosophy/",
+        "sourceSha256": "61c65f5eeeac1242b806b91e1c16f4cbf8ba286a8c99b1f850e022c1016d34b7",
+        "originalPrompts": 6,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 6,
+        "sourceColumns": 12,
+        "modelResponses": 12,
+        "blocksRetainedVerbatim": 114,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 59,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": false,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [
+          "2.1"
+        ],
+        "formatChecks": {
+          "original twenty candidates each retained": [
+            20,
+            20
+          ],
+          "twenty sourced completed degrees": [
+            20
+          ],
+          "fifteen discussions each": [
+            15,
+            15
+          ]
+        },
+        "sha256": "8673cfc40ae68ad696454205ae425213fef2e6856c843161cae643c3c3929fe6",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 2,
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "pagePath": "/introduction/philosophy-higher-education/",
+      "title": "Philosophy: Higher Education",
+      "wordpressId": 1803,
+      "sourceUrl": "http://byteseismic.com/2024/03/02/philosophy-higher-education/",
+      "sourceSha256": "9126b0c8b2e215bbc2da3e04508a6cc2b406797d26be415fabccf5f14104011e",
+      "snapshot": "philosophy-higher-education-wordpress-1803.html",
+      "sourceCoverage": {
+        "indexedSourceLines": 318,
+        "coveredLineRange": [
+          1,
+          318
+        ],
+        "originalFullyRead": true,
+        "currentPageCompared": true,
+        "supplementaryMathRead": false
+      },
+      "reviewDecisions": [
+        "Read all318 normalized original lines including both final responses and nested heading.",
+        "Preserved extensive institutional lists while removing unsourced ranking claims and stale blanket fee rules; checked official Berlin,Vienna,StAndrews policies and LMU scope.",
+        "Corrected no-formal-education category errors, unsupported illness causation, Carroll affiliation and DalaiLama birth year; removed inference from fame to private happiness."
+      ],
+      "verification": {
+        "pagePath": "/introduction/philosophy-higher-education/",
+        "sourceSha256": "9126b0c8b2e215bbc2da3e04508a6cc2b406797d26be415fabccf5f14104011e",
+        "originalPrompts": 7,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 7,
+        "sourceColumns": 14,
+        "modelResponses": 14,
+        "blocksRetainedVerbatim": 197,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 98,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {},
+        "sha256": "5dda056450cab9a7d9fb50f4dd04da2f3d08ae5ca8928ca8cf0f32a49320304a",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 2,
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "pagePath": "/introduction/womens-interest-in-philosophy/",
+      "title": "Women’s Interest in Philosophy",
+      "wordpressId": 2712,
+      "sourceUrl": "http://byteseismic.com/2024/03/07/womens-interest-in-philosophy/",
+      "sourceSha256": "5bca74cf26caf1aee466c48259336fab0c6d2e3588f1d5b694cd308b89716dc5",
+      "snapshot": "womens-interest-in-philosophy-wordpress-2712.html",
+      "sourceCoverage": {
+        "indexedSourceLines": 164,
+        "coveredLineRange": [
+          1,
+          164
+        ],
+        "originalFullyRead": true,
+        "currentPageCompared": true,
+        "supplementaryMathRead": false
+      },
+      "reviewDecisions": [
+        "Read all164 normalized source lines and visually inspected all four original substantive charts.",
+        "Corrected reversed denominator interpretation, dated degree-completion measure, unsupported consensus claims, sole-cause strawman and factual/practical appeal-to-consequences distinction.",
+        "Preserved both preamble charts and all supplementary chart source links; recovered same original images from WordPress origin. Flagged disputed score provenance, aggregate inference and inaccessible first-chart analysis."
+      ],
+      "verification": {
+        "pagePath": "/introduction/womens-interest-in-philosophy/",
+        "sourceSha256": "5bca74cf26caf1aee466c48259336fab0c6d2e3588f1d5b694cd308b89716dc5",
+        "originalPrompts": 7,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 7,
+        "sourceColumns": 14,
+        "modelResponses": 14,
+        "blocksRetainedVerbatim": 98,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 42,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": false,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [
+          "7.2"
+        ],
+        "formatChecks": {
+          "fifteen discussion questions each": [
+            15,
+            15
+          ]
+        },
+        "sha256": "b260b32d39567581f7e947999433ee7d05336d840099a8529d5214343bbd98fe",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 2,
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "pagePath": "/metaphysics/categories-of-nihilism/",
+      "title": "Categories of Nihilism",
+      "wordpressId": 8304,
+      "sourceUrl": "http://byteseismic.com/2024/05/09/categories-of-nihilism/",
+      "sourceSha256": "565c0da0b4e20a562769d73141737b1af01c9cf7fc8d65e0de450e4a28f070dc",
+      "snapshot": "categories-of-nihilism-wordpress-8304.html",
+      "sourceCoverage": {
+        "indexedSourceLines": 426,
+        "coveredLineRange": [
+          1,
+          426
+        ],
+        "originalFullyRead": true,
+        "currentPageCompared": true,
+        "supplementaryMathRead": false
+      },
+      "reviewDecisions": [
+        "Read all nine original sections, all model replies, three tables and forty-five discussion questions; restored material omitted by the five-section composite.",
+        "Corrected cosmic/metaphysical/physicalist conflations and distinguished denial of knowledge from denial of certainty or truth.",
+        "Separated moral nihilism, error theory, subjectivism and relativism; repaired invalid self-refutation, evolutionary and social-order arguments.",
+        "Qualified existentialist attributions, political generalizations, and size/duration-to-value inferences.",
+        "Corrected van Inwagen attribution, partlessness and causality descriptions; retained all table rows but removed fabricated acceptance ratings."
+      ],
+      "verification": {
+        "pagePath": "/metaphysics/categories-of-nihilism/",
+        "sourceSha256": "565c0da0b4e20a562769d73141737b1af01c9cf7fc8d65e0de450e4a28f070dc",
+        "originalPrompts": 9,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 9,
+        "sourceColumns": 25,
+        "modelResponses": 25,
+        "blocksRetainedVerbatim": 228,
+        "tableCellsExplicitlyRevised": 39,
+        "blocksExplicitlyRevised": 87,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": false,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [
+          "8.1"
+        ],
+        "formatChecks": {
+          "three original discussion lists": [
+            15,
+            15,
+            15
+          ]
+        },
+        "sha256": "642c1dc03b155944797a1042d4dd70aa3eca2a0ec8f87accd3e6f1ebe3295bd4",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 2,
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "pagePath": "/metaphysics/dualismvsmaterialism/",
+      "title": "Dualism vs Materialism",
+      "wordpressId": 4318,
+      "sourceUrl": "http://byteseismic.com/2024/03/24/dualismvsmaterialism/",
+      "sourceSha256": "8c3415bf2b96a87c35506bf46dab57a443127ba9117d7f77f123d6a8cdb4703d",
+      "snapshot": "dualismvsmaterialism-wordpress-4318.html",
+      "sourceCoverage": {
+        "indexedSourceLines": 264,
+        "coveredLineRange": [
+          1,
+          264
+        ],
+        "originalFullyRead": true,
+        "currentPageCompared": true,
+        "supplementaryMathRead": false
+      },
+      "reviewDecisions": [
+        "Read both complete dialogues, all argument/reply sequences, all four tables, both quizzes and thirty discussion prompts. Restored the source beyond the old five-section composite.",
+        "Preserved dialogue voices while replacing caricatures and question-begging assertions with the actual dependence/identity and explanatory-gap disputes.",
+        "Corrected causal closure, overdetermination, energy conservation, moral realism, software analogy and near-death evidential claims in prose and tables.",
+        "Replaced weak inconceivability argument with the physical-duplicate argument and corresponding reply; retained explicit source attributions within the combined table column.",
+        "Retained original seven-item quiz sequences and supplied identified questions and answers 8–10 for each model."
+      ],
+      "verification": {
+        "pagePath": "/metaphysics/dualismvsmaterialism/",
+        "sourceSha256": "8c3415bf2b96a87c35506bf46dab57a443127ba9117d7f77f123d6a8cdb4703d",
+        "originalPrompts": 7,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 7,
+        "sourceColumns": 13,
+        "modelResponses": 13,
+        "blocksRetainedVerbatim": 122,
+        "tableCellsExplicitlyRevised": 18,
+        "blocksExplicitlyRevised": 40,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": false,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [
+          "6.1",
+          "6.2",
+          "2.2"
+        ],
+        "formatChecks": {
+          "source quiz questions and keys plus explicit completions": [
+            7,
+            7,
+            3,
+            3,
+            7,
+            7,
+            3,
+            3
+          ],
+          "thirty discussions": [
+            15,
+            15
+          ]
+        },
+        "sha256": "17f0c493586a98817de6a2e785cf6f7eb81f954675c38e360645d6ef3be793bc",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 2,
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "pagePath": "/metaphysics/establishing-the-spiritual/",
+      "title": "Establishing the Spiritual",
+      "wordpressId": 8983,
+      "sourceUrl": "http://byteseismic.com/2024/05/15/establishing-the-spiritual/",
+      "sourceSha256": "a8acac76301d96a42fd8810448610d35fb888ac23d4724351b30ec7f2e851c2e",
+      "snapshot": "establishing-the-spiritual-wordpress-8983.html",
+      "sourceCoverage": {
+        "indexedSourceLines": 602,
+        "coveredLineRange": [
+          1,
+          602
+        ],
+        "originalFullyRead": true,
+        "currentPageCompared": true,
+        "supplementaryMathRead": false
+      },
+      "reviewDecisions": [
+        "Read every original response including ten later sibling columns; source logos identify ChatGPT, Gemini and Copilot. Single-model pushbacks remain attributed to Gemini.",
+        "Preserved all nine prompts, the exact quoted example and complete curator demand for rigid justified categorization. Corrected the repeated substitution of interpretation for evidence of a realm.",
+        "Separated physical intangibility, mental episodes and abstract objects; corrected non-reductive physicalism, dualism and mathematical platonism.",
+        "Retained all seven tables and cell positions while removing asserted existence and false duration/depth demarcations; amended dependent quizzes and preserved all thirty questions/keys and forty-five discussions."
+      ],
+      "verification": {
+        "pagePath": "/metaphysics/establishing-the-spiritual/",
+        "sourceSha256": "a8acac76301d96a42fd8810448610d35fb888ac23d4724351b30ec7f2e851c2e",
+        "originalPrompts": 9,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 9,
+        "sourceColumns": 23,
+        "modelResponses": 23,
+        "blocksRetainedVerbatim": 267,
+        "tableCellsExplicitlyRevised": 71,
+        "blocksExplicitlyRevised": 89,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": false,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [
+          "7.1"
+        ],
+        "formatChecks": {
+          "three ten-question quizzes and keys": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ],
+          "forty-five discussion questions": [
+            15,
+            15,
+            15
+          ]
+        },
+        "sha256": "27d1dec0ce33c327c8c55d80f50ebb866385d238201005ea540b2e8b3a046e7b",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 2,
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "pagePath": "/miscellany/covid-19-science/",
+      "title": "COVID-19 & Science",
+      "wordpressId": 10686,
+      "sourceUrl": "http://byteseismic.com/2024/05/29/covid-19-science/",
+      "sourceSha256": "bd1bda44891296ffad0a213ad314b9c3112d97157c91621fee9dec37fc7f57e5",
+      "snapshot": "covid-19-science-wordpress-10686.html",
+      "sourceCoverage": {
+        "indexedSourceLines": 500,
+        "coveredLineRange": [
+          1,
+          500
+        ],
+        "originalFullyRead": true,
+        "currentPageCompared": true,
+        "supplementaryMathRead": false
+      },
+      "reviewDecisions": [
+        "Read all 500 indexed source lines and the entire current page; restored three models, quantification appendix and explicitly attributed o1-mini essay.",
+        "Preserved all thirty original quiz questions and answer disclosures, replacing the cultural stereotype and unsupported effectiveness answers.",
+        "Replaced universal percentages with scoped measurement requirements; corrected N95 filtration versus infection risk, R0 versus Rt, mask-study dates and New Zealand lockdown claim.",
+        "Qualified policy permanence with dated primary sources and distinguished scientific discovery from application. Retained all intervention lists and forty-five discussions."
+      ],
+      "verification": {
+        "pagePath": "/miscellany/covid-19-science/",
+        "sourceSha256": "bd1bda44891296ffad0a213ad314b9c3112d97157c91621fee9dec37fc7f57e5",
+        "originalPrompts": 6,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 8,
+        "sourceColumns": 20,
+        "modelResponses": 20,
+        "blocksRetainedVerbatim": 346,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 65,
+        "bareAnswersExplicitlyRevised": 3,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": false,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [
+          "4.1",
+          "3.1",
+          "3.3",
+          "7.1"
+        ],
+        "formatChecks": {
+          "forty-five original discussions": [
+            15,
+            15,
+            15
+          ],
+          "thirty answer disclosures": [
+            10,
+            10,
+            10
+          ]
+        },
+        "sha256": "20aa4a6980e53e94f62f454e5fc1843cd52c4c8e9d205c16a7dc8f04fb24ccfb",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 2,
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "pagePath": "/philosophical-inquiry/dangers-ideologies-of-emotion/",
+      "title": "Dangers: Ideologies of Emotion",
+      "wordpressId": 577,
+      "sourceUrl": "http://byteseismic.com/2024/02/13/dangers-ideologies-of-emotion/",
+      "sourceSha256": "a1460693a26cf0de26c4176a249d67d15211e8c69f40dfdddba11da271888f6a",
+      "snapshot": "dangers-ideologies-of-emotion-wordpress-577.html",
+      "sourceCoverage": {
+        "indexedSourceLines": 296,
+        "coveredLineRange": [
+          1,
+          296
+        ],
+        "originalFullyRead": true,
+        "currentPageCompared": true,
+        "supplementaryMathRead": false
+      },
+      "reviewDecisions": [
+        "Read the full original 296-line exchange and 39,115-character current page. Restored all seven prompts and both model voices.",
+        "Distinguished emotional salience from evidence, logical consistency from truth, and persuasion from manipulation; removed unsupported taxonomy and emotional superiority assumptions.",
+        "Preserved sixteen quiz questions with matching keys and thirty discussions; qualified guaranteed psychological rewards and respected voluntary disagreement."
+      ],
+      "verification": {
+        "pagePath": "/philosophical-inquiry/dangers-ideologies-of-emotion/",
+        "sourceSha256": "a1460693a26cf0de26c4176a249d67d15211e8c69f40dfdddba11da271888f6a",
+        "originalPrompts": 7,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 7,
+        "sourceColumns": 14,
+        "modelResponses": 14,
+        "blocksRetainedVerbatim": 234,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 40,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "sixteen quiz questions and sixteen answer keys": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            8,
+            8,
+            8
+          ],
+          "thirty discussion questions": [
+            15,
+            15
+          ]
+        },
+        "sha256": "a284f271f949cd7e0304c2cf93871a7b7d776ea92f9d23ab91269f578e357134",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 2,
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "pagePath": "/philosophical-inquiry/inscrutability-case-studies/",
+      "title": "Inscrutability Case Studies",
+      "wordpressId": 2969,
+      "sourceUrl": "http://byteseismic.com/2024/03/11/inscrutability-case-studies/",
+      "sourceSha256": "24e227af64516e4cb2c9cf397fd43233766a8c0d7c859e24395ef9e537f8ed66",
+      "snapshot": "inscrutability-case-studies-wordpress-2969.html",
+      "sourceCoverage": {
+        "indexedSourceLines": 257,
+        "coveredLineRange": [
+          1,
+          257
+        ],
+        "originalFullyRead": true,
+        "currentPageCompared": true,
+        "supplementaryMathRead": false
+      },
+      "reviewDecisions": [
+        "Read all 257 source lines and the full current page; restored eight prompts and sixteen responses.",
+        "Distinguished inaccessible evidence, unspecified claims, flexible reinterpretation and probabilistic confirmation; corrected placebo and free-will examples.",
+        "Answered probability challenge conditionally without unsupported falsehood rates; preserved twenty quizzes/keys and thirty discussions with dependent corrections.",
+        "Preserved curator wording including sincereity; improved response spelling, causal caution and autonomy in advice about faith."
+      ],
+      "verification": {
+        "pagePath": "/philosophical-inquiry/inscrutability-case-studies/",
+        "sourceSha256": "24e227af64516e4cb2c9cf397fd43233766a8c0d7c859e24395ef9e537f8ed66",
+        "originalPrompts": 8,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 8,
+        "sourceColumns": 16,
+        "modelResponses": 16,
+        "blocksRetainedVerbatim": 178,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 54,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": false,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [
+          "1.1",
+          "5.1"
+        ],
+        "formatChecks": {
+          "twenty quiz questions and answer keys": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "thirty discussions": [
+            15,
+            15
+          ]
+        },
+        "sha256": "4b18728f8f5fae321621f673db564600fd4b218e72ca148fdc099dbeab55cdb1",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 2,
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "pagePath": "/philosophical-inquiry/seeker-scenarios/",
+      "title": "Seeker Scenarios",
+      "wordpressId": 914,
+      "sourceUrl": "http://byteseismic.com/2024/02/22/seeker-scenarios/",
+      "sourceSha256": "c0caf69fe9d1e220b232dd95ec90b4b1923679f6a939ad2335fcfc2fc9d37cad",
+      "snapshot": "seeker-scenarios-wordpress-914.html",
+      "sourceCoverage": {
+        "indexedSourceLines": 311,
+        "coveredLineRange": [
+          1,
+          311
+        ],
+        "originalFullyRead": true,
+        "currentPageCompared": true,
+        "supplementaryMathRead": false
+      },
+      "reviewDecisions": [
+        "Read all 311 indexed source lines and full 44,069-character current page. Restored all five scenarios, common-elements prompt and thirty discussions.",
+        "Replaced generic encouragement with reversible plans, reciprocal relationship commitments and symmetric inquiry; did not presume conversion, disclosure or dramatic life changes.",
+        "Adapted the permanently bedridden scenario to energy, asynchronous exchange and host accessibility responsibilities; corrected claims that disability creates no hindrance.",
+        "Qualified happiness guarantees and universal experiential-purchase claims; provided a verified free educational starting point without implying live tutoring."
+      ],
+      "verification": {
+        "pagePath": "/philosophical-inquiry/seeker-scenarios/",
+        "sourceSha256": "c0caf69fe9d1e220b232dd95ec90b4b1923679f6a939ad2335fcfc2fc9d37cad",
+        "originalPrompts": 7,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 7,
+        "sourceColumns": 14,
+        "modelResponses": 14,
+        "blocksRetainedVerbatim": 236,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 52,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": false,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [
+          "5.1"
+        ],
+        "formatChecks": {
+          "thirty original discussions": [
+            15,
+            15
+          ]
+        },
+        "sha256": "8da87f24a45ff95154e6256820b0ec923383f192a8bbab6b6920251c799339f5",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 2,
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "pagePath": "/philosophy-of-ai/feedback-loops/",
+      "title": "Feedback Loops",
+      "wordpressId": 4445,
+      "sourceUrl": "http://byteseismic.com/2024/03/25/feedback-loops/",
+      "sourceSha256": "e93d4e737a6813c621b12c45adac2669c94a287b5e88554b7a2e3b4cbc4da8b1",
+      "snapshot": "feedback-loops-wordpress-4445.html",
+      "sourceCoverage": {
+        "indexedSourceLines": 315,
+        "coveredLineRange": [
+          1,
+          315
+        ],
+        "originalFullyRead": true,
+        "currentPageCompared": true,
+        "supplementaryMathRead": false
+      },
+      "reviewDecisions": [
+        "Read all 315 indexed source lines and the full 42,296-character current page; preserved the exact five-item Claude preamble and all seven prompts.",
+        "Corrected unsupported Claude 2 implementation claims, automatic online learning, metric objectivity, guaranteed GAN progress and optimal RL behavior.",
+        "Separated physical control from learning and reasoning; qualified causal/counterfactual inference, sensor ground truth, speed, AGI necessity and empathy claims.",
+        "Explained Bayesian updating limitations and overlapping method categories; preserved twenty quizzes/keys and thirty discussion questions with dependent corrections."
+      ],
+      "verification": {
+        "pagePath": "/philosophy-of-ai/feedback-loops/",
+        "sourceSha256": "e93d4e737a6813c621b12c45adac2669c94a287b5e88554b7a2e3b4cbc4da8b1",
+        "originalPrompts": 7,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 7,
+        "sourceColumns": 14,
+        "modelResponses": 14,
+        "blocksRetainedVerbatim": 224,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 68,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": false,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [
+          "1.1",
+          "2.1",
+          "3.1"
+        ],
+        "formatChecks": {
+          "twenty quiz questions and answer keys": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "thirty discussions": [
+            15,
+            15
+          ]
+        },
+        "sha256": "b2fe4d7c92bcd295a541d6a3bb667e7382b0b07d21eadbaf7fa93a49d40fe6cc",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 2,
+        "isolatedBuildVerified": true
+      }
+    }
+  ],
+  "buildResult": {
+    "reviewedPagesPreservedByteForByte": 208,
+    "buildLog": "Dialectical preservation check passed for all 39 recovered pages, including 17 high-risk regression cases.\nSite audit: pages=840 broken_links=0 duplicate_ids=0 prompt_number_issues=0 orphans=0 oversized_assets=0 style_scars=0 grammar_scars=1 seo_issues=0 json_ld_issues=0 sitemap_issues=0 robots_issues=0\nGenerated or updated 723 content pages.\nVisible hierarchy sections: 15\nExpanded archive years: 2\n",
+    "isolatedBuild": true,
+    "priorPagesPreservationOnly": 188,
+    "damagedVariantsRejected": 43,
+    "priorRendererRegressions": [
+      "minimum-wage",
+      "what-is-evidence"
+    ]
+  },
+  "inheritedFilesHashPreserved": 476,
+  "diagrams": {
+    "tool": "SVG/vector drawing, chosen by user",
+    "count": 4,
+    "costUSD": 0,
+    "directory": "assets/diagrams/ethical-dynamics/",
+    "totalBytes": 17904,
+    "replacedRasterBytes": 1421241,
+    "visuallyReviewed": true,
+    "originalImageLinksRetained": true,
+    "scope": "Basic model, religious alignment, historical illustration, octopus scenario; corrected formulas and hypothetical assumptions retained."
+  },
+  "rendererChanges": [
+    "Preserve additional sibling response columns when a section also has a curator preamble.",
+    "Keep original image addresses consistent after formula images become readable text.",
+    "Support hash-checked source attachments and explicit original-to-vector image substitutions.",
+    "Normalize only trailing line whitespace in whole-response comparison.",
+    "Reject missing answer disclosures in addition to prompt, block, table and attachment checks."
+  ],
+  "limitations": [
+    "No full browser, mobile or accessibility audit; four diagram previews were visually inspected.",
+    "One inherited original-prompt grammar notice remains; original curator wording is preserved.",
+    "Russell quotations retain their original attribution but are not certified against an identified primary edition.",
+    "Ethical Dynamics parameters and historical/octopus inputs are illustrative, not empirically calibrated.",
+    "Saved automation requests Astra High; runtime model identity is not independently attested.",
+    "Trailing spaces inside two immutable WordPress snapshots are deliberately preserved for exact source hashes. All authored files pass the whitespace check."
+  ],
+  "publication": "Commit and independently verified remote push are recorded in automation memory after publication.",
+  "totals": {
+    "originalPrompts": 150,
+    "modelResponses": 333,
+    "blocksExplicitlyRevised": 1430,
+    "blocksRetainedVerbatim": 4541,
+    "tableCellsExplicitlyRevised": 140,
+    "bareAnswersExplicitlyRevised": 15
+  }
+}

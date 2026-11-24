@@ -1,0 +1,49 @@
+{
+  "pagePath": "/ethics/conditions-for-culpability/",
+  "sourceSha256": "bd211579d629287cc58555aa08ccc8abb5f9b2c0ae2f780002079454c2cb403b",
+  "originalPrompts": 7,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 7,
+  "sourceColumns": 14,
+  "modelResponses": 14,
+  "blocksRetainedVerbatim": 245,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 78,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "two 35-item lists": [
+      35,
+      35
+    ],
+    "quiz questions and keys": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      10,
+      10,
+      10
+    ],
+    "discussion questions": [
+      15,
+      15
+    ]
+  },
+  "sha256": "c107765c81f6db5b09622c628ea631ec1b2e72c31824f66b67a71b7c1d2465ba",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": 2,
+  "isolatedBuildVerified": true
+}

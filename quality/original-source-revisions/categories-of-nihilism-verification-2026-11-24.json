@@ -1,0 +1,33 @@
+{
+  "pagePath": "/metaphysics/categories-of-nihilism/",
+  "sourceSha256": "565c0da0b4e20a562769d73141737b1af01c9cf7fc8d65e0de450e4a28f070dc",
+  "originalPrompts": 9,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 9,
+  "sourceColumns": 25,
+  "modelResponses": 25,
+  "blocksRetainedVerbatim": 228,
+  "tableCellsExplicitlyRevised": 39,
+  "blocksExplicitlyRevised": 87,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": false,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [
+    "8.1"
+  ],
+  "formatChecks": {
+    "three original discussion lists": [
+      15,
+      15,
+      15
+    ]
+  },
+  "sha256": "642c1dc03b155944797a1042d4dd70aa3eca2a0ec8f87accd3e6f1ebe3295bd4",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": 2,
+  "isolatedBuildVerified": true
+}

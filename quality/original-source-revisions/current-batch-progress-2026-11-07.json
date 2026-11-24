@@ -2,8 +2,8 @@
   "cycle": 8,
   "startIndex": 150,
   "pageCount": 50,
-  "reviewed": 38,
-  "pending": 12,
+  "reviewed": 50,
+  "pending": 0,
   "pages": [
     {
       "pagePath": "/ethics/what-are-ethics/",
@@ -538,146 +538,170 @@
     {
       "pagePath": "/ethics/assisted-suicide/",
       "title": "Assisted Suicide",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 11504,
           "title": "Assisted Suicide",
           "url": "http://byteseismic.com/2024/06/10/assisted-suicide/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/assisted-suicide-verification-2026-11-24.json",
+      "report": "quality/editorial-audit-2026-11-24-supplement.json"
     },
     {
       "pagePath": "/ethics/conditions-for-culpability/",
       "title": "Conditions for Culpability",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 3410,
           "title": "Conditions for Culpability",
           "url": "http://byteseismic.com/2024/03/13/conditions-for-culpability/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/conditions-for-culpability-verification-2026-11-24.json",
+      "report": "quality/editorial-audit-2026-11-24-supplement.json"
     },
     {
       "pagePath": "/ethics/evidences-of-moral-facts/",
       "title": "Evidences of Moral Facts",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 3375,
           "title": "Evidences of Moral Facts",
           "url": "http://byteseismic.com/2024/03/13/evidences-of-moral-facts/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/evidences-of-moral-facts-verification-2026-11-24.json",
+      "report": "quality/editorial-audit-2026-11-24-supplement.json"
     },
     {
       "pagePath": "/ethics/model-of-ethical-dynamics/",
       "title": "Model of Ethical Dynamics",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 15426,
           "title": "Model of Ethical Dynamics",
           "url": "http://byteseismic.com/2025/02/23/model-of-ethical-dynamics/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/model-of-ethical-dynamics-verification-2026-11-24.json",
+      "report": "quality/editorial-audit-2026-11-24-supplement.json"
     },
     {
       "pagePath": "/ethics/self-evident-morality/",
       "title": "Self-Evident Morality?",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 14138,
           "title": "Self-Evident Morality?",
           "url": "http://byteseismic.com/2024/10/24/self-evident-morality/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/self-evident-morality-verification-2026-11-24.json",
+      "report": "quality/editorial-audit-2026-11-24-supplement.json"
     },
     {
       "pagePath": "/humanistic-philosophies/personal-cosmic-meaning/",
       "title": "Personal & Cosmic Meaning",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 3103,
           "title": "Personal &amp; Cosmic Meaning",
           "url": "http://byteseismic.com/2024/03/12/personal-cosmic-meaning/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/personal-cosmic-meaning-verification-2026-11-24.json",
+      "report": "quality/editorial-audit-2026-11-24-supplement.json"
     },
     {
       "pagePath": "/humanistic-philosophies/russell-on-faith/",
       "title": "Russell on Faith",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 10381,
           "title": "Russell on Faith",
           "url": "http://byteseismic.com/2024/05/27/russell-on-faith/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/russell-on-faith-verification-2026-11-24.json",
+      "report": "quality/editorial-audit-2026-11-24-supplement.json"
     },
     {
       "pagePath": "/humanistic-philosophies/the-legitimacy-of-divine-revelation/",
       "title": "The Legitimacy of Divine Revelation",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 7684,
           "title": "The Legitimacy of Divine Revelation",
           "url": "http://byteseismic.com/2024/05/01/the-legitimacy-of-divine-revelation/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/the-legitimacy-of-divine-revelation-verification-2026-11-24.json",
+      "report": "quality/editorial-audit-2026-11-24-supplement.json"
     },
     {
       "pagePath": "/humanistic-philosophies/unpalatable-religions/",
       "title": "“Unpalatable” Religions",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 11674,
           "title": "&#8220;Unpalatable&#8221; Religions",
           "url": "http://byteseismic.com/2024/06/13/unpalatable-religions/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/unpalatable-religions-verification-2026-11-24.json",
+      "report": "quality/editorial-audit-2026-11-24-supplement.json"
     },
     {
       "pagePath": "/introduction/careers-in-philosophy/",
       "title": "Careers in Philosophy",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 1096,
           "title": "Careers in Philosophy",
           "url": "http://byteseismic.com/2024/02/25/careers-in-philosophy/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/careers-in-philosophy-verification-2026-11-24.json",
+      "report": "quality/editorial-audit-2026-11-24-supplement.json"
     },
     {
       "pagePath": "/introduction/philosophy-higher-education/",
       "title": "Philosophy: Higher Education",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 1803,
           "title": "Philosophy: Higher Education",
           "url": "http://byteseismic.com/2024/03/02/philosophy-higher-education/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/philosophy-higher-education-verification-2026-11-24.json",
+      "report": "quality/editorial-audit-2026-11-24-supplement.json"
     },
     {
       "pagePath": "/introduction/womens-interest-in-philosophy/",
       "title": "Women’s Interest in Philosophy",
-      "status": "pending-full-source-reading-and-review",
+      "status": "reviewed-and-verified",
       "sourceCandidates": [
         {
           "ID": 2712,
           "title": "Women&#8217;s Interest in Philosophy",
           "url": "http://byteseismic.com/2024/03/07/womens-interest-in-philosophy/"
         }
-      ]
+      ],
+      "verification": "quality/original-source-revisions/womens-interest-in-philosophy-verification-2026-11-24.json",
+      "report": "quality/editorial-audit-2026-11-24-supplement.json"
     }
   ],
   "lastUpdated": "2026-11-23",

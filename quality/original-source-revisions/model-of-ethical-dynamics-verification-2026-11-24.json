@@ -1,0 +1,42 @@
+{
+  "pagePath": "/ethics/model-of-ethical-dynamics/",
+  "sourceSha256": "d30acdf21177dbacc08c89310ed1224db09f7fa1f3c0b8c1bc3fe013d35bd2f3",
+  "originalPrompts": 9,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 9,
+  "sourceColumns": 9,
+  "modelResponses": 9,
+  "blocksRetainedVerbatim": 288,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 65,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": false,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [
+    "5.1",
+    "6.1",
+    "7.1",
+    "8.1"
+  ],
+  "formatChecks": {
+    "nine Grok responses": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "sha256": "8d18275988702a82eb654c6053aa96402037dc25d02fe94bb102620e2465b516",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": 2,
+  "isolatedBuildVerified": true
+}

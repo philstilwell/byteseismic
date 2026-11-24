@@ -22,6 +22,14 @@ Only after every page in the batch has been meaningfully revised or explicitly r
 
 Commit and push the completed work. Provide a progress report every run, including the pages reviewed, specific improvements, fidelity to original prompts and structure, verification results, commit/push status, completed and remaining page counts for this new pass, the next batch, and unresolved follow-up. Report partial work honestly.
 
+## Persistence and completion gate — November 24, 2026
+
+The daily target is a completion requirement, not a time-boxed attempt. Do not stop at inspection, an inventory, preliminary findings, or a report-only commit while authorized editorial work remains possible. Continue until the daily target is fully source-read, individually revised or justified as retained, fidelity-verified, isolated-build-verified, committed and successfully pushed, or the authorized cycle endpoint is reached.
+
+Read large sources in bounded, numbered chunks and save a coverage record. If output is truncated, immediately reread the omitted range in smaller chunks. Truncation, long pages, elapsed time, an inconvenient working tree, lack of delegation, and context compaction are not blockers. Preserve exact per-page progress and resume after compaction in the same task. Give concise progress updates without asking the user to say continue. Resolve routine tool failures through available remedies and fallbacks.
+
+Before a final response, check the daily total, full verification, commit and remote push. If the target is unmet and no demonstrated external blocker remains, continue working. A genuine blocker report must identify the exact failing operation and evidence, attempted remedies, affected pages and shortfall. Never invent a blocker or relax original fidelity, editorial depth, or batch-advancement requirements to claim completion.
+
 ## Recorded source resolutions — September 21, 2026
 
 The curator explicitly approved the earliest repository editions of **Al-Ghazali**, **Anselm of Canterbury**, and **Arthur Schopenhauer** as **site-native baselines**, preserving each page’s four prompts. This exception applies only to `/philosophers/al-ghazali/`, `/philosophers/anselm-of-canterbury/`, and `/philosophers/arthur-schopenhauer/`. These baselines are editorial/reconstructed site pages, not original WordPress posts. Label their provenance accurately; do not infer an original WordPress conversation or attribute composite responses to a particular model.

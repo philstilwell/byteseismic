@@ -1,0 +1,169 @@
+{
+  "pageFile": "ethics/evidences-of-moral-facts/index.html",
+  "wordpressId": 3375,
+  "snapshot": "evidences-of-moral-facts-wordpress-3375.html",
+  "sourceUrl": "http://byteseismic.com/2024/03/13/evidences-of-moral-facts/",
+  "sourceLabel": "Original WordPress conversation",
+  "shellRevision": "1d5d5e4829f7bdd8f7e0b3c000dccabc67e2eccd",
+  "date": "2026-11-24",
+  "sourceSha256": "c80296ffcbcb403db91c682ddc782829149cb5aa8f9453a46964d908a3f6122a",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "Moral intuitions and emotional explanation",
+    "What would distinguish the explanations?",
+    "The curator’s six-part agenda",
+    "Disagreement and cultural emotion",
+    "Progress or changing dispositions?",
+    "Reason and the mathematical analogy",
+    "Moral language and social authority",
+    "Experience and self-evidence",
+    "Ten-item quizzes",
+    "Discussion questions"
+  ],
+  "introHeading": "Evidences of Moral Facts · original exchange",
+  "intro": "The curator tests six proposed grounds for moral facts against an explanation in terms of emotions and social expectations. Each challenge and both replies are retained in sequence.",
+  "description": "What could count as evidence for moral facts? Original exchanges clarify realism, disagreement, explanation and standards of evidence.",
+  "highlights": [],
+  "replacements": {
+    "1.1.3": "Emotional foundations: the social-intuitionist model emphasizes rapid evaluative intuitions and the frequent social or justificatory role of reasoning. An intuition is not simply identical to an emotion, and the model does not claim that every moral judgment is an after-the-fact rationalization.",
+    "1.1.13": "Cross-cultural overlap: some realists appeal to shared judgments, but common needs, learning and evolved dispositions are rival explanations. The agreement must be specified and its independence assessed before it can discriminate between accounts.",
+    "1.1.15": "Moral change: a psychological account can explain criticism of prevailing norms through competing emotions, new information and reflection. Whether a change is objectively better is a further normative question; the occurrence of reform alone does not answer it.",
+    "1.1.16": "Your explanation is a serious competitor because it uses familiar mechanisms to explain why moral claims feel compelling. Parsimony favors it only if explanatory coverage and fit are comparable. Explaining the origin of a judgment is also distinct from deciding whether its content is true.",
+    "1.2.3": "Challenge: the emotional account must explain both conformity and reflective resistance to prevailing norms. A feeling of rightness is part of what needs explaining; simply declaring that emotion cannot explain it would beg the question.",
+    "1.2.4": "Alternative view: moral realists hold that some moral claims are true in a relevantly objective sense. Many naturalist realists identify moral properties with natural properties; realism does not always posit a separate realm. See the <a href=\"https://plato.stanford.edu/entries/moral-realism/\">Stanford Encyclopedia account</a>.",
+    "2.1.0": "The question asks for discriminating evidence: what would be better expected on a specified realist account than on the emotional-social account? The following are proposed arguments, not six observations already shown to meet that test. A realist need not posit a separate supernatural realm.",
+    "2.1.2": "Universality: genuinely independent agreement might be offered as evidence, but shared biology and social needs predict overlap too. “Unjust killing is wrong” also embeds evaluation in the description. A useful test would compare specific judgments and rival predictions.",
+    "2.1.5": "Disagreement: parties can argue as though there is a correct answer. That fact is compatible with conflicting attitudes and social expectations, so depth of disagreement alone does not distinguish realism from the proposed alternative.",
+    "2.1.7": "Progress: the realist interprets some changes as increased accuracy. An anti-realist may judge them better by endorsed standards such as compassion or reduced domination. Calling a change progress cannot independently establish the objective standard under dispute.",
+    "2.1.9": "Reason: an analogy to mathematics suggests a possible model of justification, not an automatic route to moral facts. The realist must supply defensible normative premises or an account of rational insight rather than derive an ought solely from descriptive facts.",
+    "2.1.11": "Language: moral assertions can appear factual, but grammar does not guarantee a successful reference. Error theorists allow truth-apt claims while denying their truth; expressivist accounts explain moral language through attitudes and commitments.",
+    "2.1.15": "None of these items, as stated, establishes an observation that the emotional-social account cannot explain. Their potential force depends on a fuller comparison: independent constraints, explanatory successes, and costs of auxiliary assumptions. This answers the curator’s evidential request more directly than merely repeating realist interpretations of familiar experiences.",
+    "2.2.5": "Correcting the earlier terminology: there is no established Humean “queasiness factor” here. Mackie’s argument from queerness challenges objective moral properties and our alleged access to them; it is not a feeling of disgust offered as evidence for them. See <a href=\"https://plato.stanford.edu/entries/moral-anti-realism/\">Moral Anti-Realism</a>.",
+    "2.2.7": "Alternative explanations must be compared rather than merely listed. Shared predispositions may explain agreement, and reasoning can organize commitments without establishing stance-independent facts. Disgust is an emotional datum, not an independent detector of moral reality.",
+    "4.1.3": "Cultural explanation: showing that beliefs vary with culture does not entail that each culture determines moral truth or that all codes are equally defensible. Your proposed explanation should not be relabeled cultural relativism without that additional claim.",
+    "4.1.5": "Constructivism: some accounts ground moral justification in a specified procedure of practical reasoning. They are not simply the claim that cultures manufacture whatever truths they prefer. The emotional explanation does not by itself commit you to constructivism.",
+    "4.1.9": "The earlier appeal to depth of disagreement did not meet your test. Similar emotional and cultural mechanisms can generate serious disputes without a separate moral realm. This defeats that unsupported evidential inference; it does not alone disprove every realist account.",
+    "5.1.2": "Shifting dispositions: emotional convergence is a possible mechanism of moral change. The account must identify when, where and how dispositions changed; “evolution” can mean cultural change rather than genetic selection.",
+    "5.1.6": "Compassion as a standard: one can assess reforms by increasing compassion or reducing suffering without first claiming an independent realm. That stance is not automatically cultural relativism, and an empirical trend toward greater compassion should not be assumed everywhere.",
+    "5.2.0": "Your “lower viscosity” metaphor concerns compassion becoming easier to express as circumstances change; it should not be rewritten as lower aggression viscosity. It proposes a mechanism for convergence, rather than documenting a universal historical trend.",
+    "5.2.1": "Emotions can help explain moral reform, alongside institutions, interests, argument and political struggle. Abolition should not be reduced to a simple automatic increase in peacefulness.",
+    "5.2.4": "The earlier “queasiness factor” was a mistaken attribution and supplies no counterargument. A strong feeling of wrongness remains something the emotional explanation is designed to explain.",
+    "5.2.5": "Better outcomes relative to a standard: a policy may measurably reduce suffering, while the normative authority assigned to that reduction remains a separate issue. This distinction preserves meaningful evaluation without assuming the disputed conclusion.",
+    "5.2.9": "The explanatory question is whether a separate moral reality adds justified predictive or explanatory value. The practical usefulness of moral talk cannot by itself answer that question.",
+    "6.1.0": "Your challenge asks what the mathematical analogy actually explains. A moral realist needs an account of justification and error, but need not promise a universally accepted algorithm. Mathematical inquiry itself contains disputes about axioms, foundations and interpretation.",
+    "6.1.2": "Invariance: shared rules can yield consistent deductions without agreement on premises. A proposed moral calculus therefore needs justified starting points and a way to apply them; disagreement tests that proposal but is not a direct logical disproof of all objectivity.",
+    "6.1.3": "Additional entities: if a particular theory invokes unsupported spirits to protect itself from counterevidence, that is an explanatory cost. Such entities are not required by moral realism in general, and the response should not attribute them without identifying an actual argument.",
+    "6.1.6": "Parsimony: compare explanatory fit as well as assumptions. A simpler account gains an advantage when it handles the same observations adequately, not merely because its vocabulary contains fewer entities.",
+    "6.2.3": "Context and thick concepts: moral evaluation often depends on detailed facts. “Thick” ethical concepts such as cruelty combine description and evaluation; the original “thick fact problem” was not a demonstrated obstacle to logic itself.",
+    "6.2.5": "Moral realism need not identify morality with mathematics or supply a perfect calculus. The analogy is one possible argument, not the definition of realism.",
+    "6.2.7": "Explaining disagreement: ordinary ignorance, bias and conflicting interests can be invoked without adding spirits. Whether these explanations are independently supported or merely protective devices must be assessed in the particular theory.",
+    "7.1.2": "Emotional drivers: anger, empathy and disgust can help explain forceful moral language. This supports the plausibility of your account but does not yet show that emotions fully explain every use, including conditional reasoning and disagreement with one’s immediate feelings.",
+    "7.1.9": "Your account explains how moral vocabulary can acquire authority through emotion and social enforcement. The earlier appeal to that authority as evidence for moral facts therefore needs more support. Neither declarative grammar nor persuasive force establishes the existence of the claimed facts.",
+    "7.2.0": "Your argument gives a plausible explanation for moral language without assuming a separate realm. Its explanatory completeness remains a claim to defend, rather than something established by agreement with the examples.",
+    "8.1.2": "Self-evidence: in a philosophical account, a self-evident proposition is supposed to be justified through adequate understanding, not merely to feel forceful. The curator’s challenge asks how to distinguish that understanding from a compelling emotional appearance without assuming the answer.",
+    "8.1.5": "Auxiliary explanations: bias and cultural influence are ordinary psychological hypotheses, not automatically new metaphysical entities. Their use becomes suspect when they are unsupported or deployed only to insulate favored intuitions from contrary cases.",
+    "8.2.1": "A feeling of obviousness is not a sufficient public test of moral truth. The challenge is to supply a defensible account of understanding and justification that distinguishes insight from conviction.",
+    "8.2.2": "Disagreement pressures claims of readily accessible truths. It does not formally contradict every account of self-evidence, since proponents can distinguish adequate understanding from seeming obviousness; that distinction itself needs justification.",
+    "8.2.3": "Explanatory costs: a proposed moral faculty needs support, while natural-law theory is a framework rather than simply an extra entity. Count unsupported assumptions and assess their explanatory work, not just the number of labels.",
+    "9.1.17": "Persistent disagreement may be argued to fit emotional and cultural explanations better than reliable access to moral facts. The inference depends on what each account predicts; diversity alone is not a contradiction of realism.",
+    "9.1.18": "The argument from moral progress interprets some changes as increasing accuracy; calling them progress does not independently prove that interpretation.",
+    "9.1.20": "Fact-like moral language can also be explained by attitudes, coordination or error. Its grammar does not establish that the asserted moral facts exist.",
+    "9.1.21": "Parsimony favors fewer unsupported assumptions when explanatory adequacy is otherwise comparable; it does not guarantee the shortest account is true.",
+    "9.2.6": "(c) Emotions together with socially learned expectations",
+    "9.2.11": "(c) It must also explain reflective resistance to prevailing norms.",
+    "9.2.15": "(b) Similar broad judgments may occur across cultures while applications differ.",
+    "9.2.25": "(b) Shifting compassion and social incentives, as a proposed explanation.",
+    "9.2.30": "(b) Relevant context and competing reasons must be specified.",
+    "9.2.40": "(b) That speakers express a normative commitment, not that objective moral facts exist.",
+    "9.2.50": "(b) A feeling of obviousness does not independently establish its reliability.",
+    "9.2.54": "(c) Emotions together with socially learned expectations.",
+    "9.2.55": "(c) It must also explain reflective resistance to prevailing norms.",
+    "9.2.56": "(b) Similar broad judgments may occur while applications differ.",
+    "9.2.58": "(b) Shifting compassion and social incentives, as a proposed explanation.",
+    "9.2.59": "(b) Relevant context and competing reasons must be specified.",
+    "9.2.61": "(b) Speakers express a normative commitment; its objective truth is not established by the language alone.",
+    "9.2.63": "(b) A feeling of obviousness does not independently establish its reliability.",
+    "10.2.3": "How does Mackie’s argument from queerness differ from an appeal to disgust, and what would a realist need to answer it?",
+    "10.2.10": "When does an explanation of moral disagreement add unsupported assumptions, and when does it use independently supported psychological facts?"
+  },
+  "countChecks": [
+    {
+      "name": "discussion questions",
+      "selector": "#prompt-10 .original-response > ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    },
+    {
+      "name": "twenty quiz questions and keys",
+      "selector": "#prompt-9 .original-response > ol",
+      "child": "li",
+      "expected": [
+        10,
+        10,
+        10,
+        10
+      ]
+    }
+  ],
+  "reviewDecisions": [
+    "1: retained both opening replies while distinguishing intuitions from emotions, causal explanation from truth and parsimony from mere simplicity.",
+    "2: each of six proposed evidences now answers the request for discriminating support; corrected false Hume/queasiness attribution and the separate-realm definition of realism.",
+    "3: retained curator agenda verbatim without model attribution.",
+    "4: preserved full disagreement challenge; corrected misclassification as cultural relativism and constructivism.",
+    "5: preserved emotional-convergence challenge and metaphor; corrected reversed viscosity reading and historical overgeneralization.",
+    "6: preserved complete reason challenge with original typos; corrected mathematical certainty caricature, unsupported spirit attribution and thick-concept confusion.",
+    "7: preserved both curator paragraphs and replies; distinguished language, social force and reference without claiming the emotional account proven complete.",
+    "8: preserved self-evidence challenge; distinguished feeling certain from philosophical self-evidence and unsupported auxiliaries from ordinary psychology.",
+    "9: retained both ten-item quizzes and keys; corrected evidence, Hume-related concepts, emotional/social options and false moral-language key.",
+    "10: retained thirty discussion questions, correcting two inherited assumptions."
+  ],
+  "preambleHeadingIndexes": [
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "proseSectionHeadingIndexes": [
+    2
+  ],
+  "nonResponseColumns": [
+    "3.1"
+  ],
+  "sectionResponseLabels": {
+    "3.1": "Curator’s list · original wording"
+  },
+  "sectionModelLabels": {
+    "3": [
+      "ChatGPT"
+    ]
+  },
+  "readingCoverage": {
+    "sourceDumpLines": 330,
+    "readRanges": [
+      [
+        1,
+        64
+      ],
+      [
+        65,
+        200
+      ],
+      [
+        201,
+        330
+      ]
+    ],
+    "currentPageInspection": "Opening 11000 characters and structure; original governs revision."
+  },
+  "leadingTextReplacements": {
+    "9.2.28": "What makes applying moral principles to concrete situations difficult?",
+    "9.2.38": "What does forceful language such as “ought” and “must” establish by itself?"
+  }
+}

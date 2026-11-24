@@ -1,0 +1,39 @@
+{
+  "pagePath": "/philosophical-inquiry/inscrutability-case-studies/",
+  "sourceSha256": "24e227af64516e4cb2c9cf397fd43233766a8c0d7c859e24395ef9e537f8ed66",
+  "originalPrompts": 8,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 8,
+  "sourceColumns": 16,
+  "modelResponses": 16,
+  "blocksRetainedVerbatim": 178,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 54,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": false,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [
+    "1.1",
+    "5.1"
+  ],
+  "formatChecks": {
+    "twenty quiz questions and answer keys": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "thirty discussions": [
+      15,
+      15
+    ]
+  },
+  "sha256": "4b18728f8f5fae321621f673db564600fd4b218e72ca148fdc099dbeab55cdb1",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": 2,
+  "isolatedBuildVerified": true
+}

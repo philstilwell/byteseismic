@@ -1,0 +1,39 @@
+{
+  "pagePath": "/introduction/careers-in-philosophy/",
+  "sourceSha256": "61c65f5eeeac1242b806b91e1c16f4cbf8ba286a8c99b1f850e022c1016d34b7",
+  "originalPrompts": 6,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 114,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 59,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": false,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [
+    "2.1"
+  ],
+  "formatChecks": {
+    "original twenty candidates each retained": [
+      20,
+      20
+    ],
+    "twenty sourced completed degrees": [
+      20
+    ],
+    "fifteen discussions each": [
+      15,
+      15
+    ]
+  },
+  "sha256": "8673cfc40ae68ad696454205ae425213fef2e6856c843161cae643c3c3929fe6",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": 2,
+  "isolatedBuildVerified": true
+}

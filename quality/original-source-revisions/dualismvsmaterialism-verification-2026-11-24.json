@@ -1,0 +1,44 @@
+{
+  "pagePath": "/metaphysics/dualismvsmaterialism/",
+  "sourceSha256": "8c3415bf2b96a87c35506bf46dab57a443127ba9117d7f77f123d6a8cdb4703d",
+  "originalPrompts": 7,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 7,
+  "sourceColumns": 13,
+  "modelResponses": 13,
+  "blocksRetainedVerbatim": 122,
+  "tableCellsExplicitlyRevised": 18,
+  "blocksExplicitlyRevised": 40,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": false,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [
+    "6.1",
+    "6.2",
+    "2.2"
+  ],
+  "formatChecks": {
+    "source quiz questions and keys plus explicit completions": [
+      7,
+      7,
+      3,
+      3,
+      7,
+      7,
+      3,
+      3
+    ],
+    "thirty discussions": [
+      15,
+      15
+    ]
+  },
+  "sha256": "17f0c493586a98817de6a2e785cf6f7eb81f954675c38e360645d6ef3be793bc",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": 2,
+  "isolatedBuildVerified": true
+}

@@ -1,0 +1,137 @@
+{
+  "pageFile": "introduction/careers-in-philosophy/index.html",
+  "wordpressId": 1096,
+  "snapshot": "careers-in-philosophy-wordpress-1096.html",
+  "sourceUrl": "http://byteseismic.com/2024/02/25/careers-in-philosophy/",
+  "sourceLabel": "Original WordPress conversation",
+  "shellRevision": "1d5d5e4829f7bdd8f7e0b3c000dccabc67e2eccd",
+  "date": "2026-11-24",
+  "sourceSha256": "61c65f5eeeac1242b806b91e1c16f4cbf8ba286a8c99b1f850e022c1016d34b7",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "While a few who pick up degrees in philosophy go on to teach philosophy in academia, most use their philosophy degree as a foundation for other disciplines or careers. List the careers for which philosophy is a good foundation.",
+    "Provide a list of 20 notable people who have received degrees in philosophy.",
+    "In which fields are philosophy graduates increasingly being recruited.",
+    "Which fields of philosophy are currently most desired by company recruiters?",
+    "What advice would you give a young person considering majoring in philosophy?",
+    "Provide 15 discussion questions relevant to the content above."
+  ],
+  "introHeading": "Careers in Philosophy · original exchange",
+  "intro": "Philosophy can support several career paths, but relevant training is different from a professional qualification or a hiring guarantee. This edition corrects the original degree lists and distinguishes plausible applications from measured recruitment trends.",
+  "description": "Original career discussions with corrected degree claims, realistic qualification requirements and a sourced list of philosophy graduates.",
+  "highlights": [
+    "Demonstrate skills with work samples and relevant experience.",
+    "A PhD is not necessarily a degree in the subject of philosophy.",
+    "Famous alumni illustrate possibilities, not typical outcomes."
+  ],
+  "replacements": {
+    "1.1.0": "Philosophy provides practice in argument, conceptual analysis and writing. The following are possible applications, not automatic qualifications or evidence of recruitment growth. Actual requirements vary by role and country.",
+    "1.1.1": "Law: philosophical reasoning can help with legal study. Professional practice requires the education and admission requirements applicable to the jurisdiction.",
+    "1.1.6": "Counseling and social work: ethical reflection can be useful preparation, but professional roles commonly require relevant accredited training and registration. A philosophy degree alone does not qualify a person to provide clinical services.",
+    "1.1.7": "Medicine and healthcare ethics: ethics study can support bioethics work; becoming a clinician requires the relevant clinical training. Hospital ethics roles may require advanced study and practical experience.",
+    "1.1.9": "Technology and artificial intelligence: ethical analysis can complement policy, design or technical work. Programming, statistics, user research or regulatory expertise may also be needed for a particular role.",
+    "1.2.1": "Law: argument analysis and writing can be useful preparation. Success is not guaranteed by a major, and professional qualification requirements remain separate.",
+    "1.2.3": "Education: teaching and curriculum work can use philosophical skills, but school certification and university hiring requirements differ. College teaching ordinarily requires advanced subject expertise.",
+    "1.2.6": "Technology: software development, user experience and artificial intelligence require demonstrable role-specific skills. Philosophy can complement these rather than replace technical or design preparation.",
+    "2.1.0": "The original twenty candidates are retained below, with corrections where the list confused influence, study and degrees. They should not collectively be treated as twenty verified philosophy-degree holders. A separate twenty-person list from an identified professional association follows.",
+    "2.1.3": "Aung San Suu Kyi — studied Philosophy, Politics and Economics at Oxford, a joint degree rather than philosophy alone. The original present-tense office description is historical and is not retained as a current claim.",
+    "2.1.4": "Martin Luther King Jr. — a philosophical influence on public life, but his doctorate was in systematic theology, not the subject of philosophy. See <a href=\"https://www.bu.edu/library/explore-collections/special-collections-archives/dr-martin-luther-king-jr-archive/\">Boston University’s archive</a>.",
+    "2.1.7": "Martha Nussbaum — a major philosopher whose academic training includes classics. Do not infer that every degree was in philosophy from her professional title; see her <a href=\"https://philosophy.uchicago.edu/sites/default/files/2023-02/Academic%20CV_0.pdf\">academic curriculum vitae</a>.",
+    "2.1.9": "Thomas Aquinas — medieval philosopher and theologian. His scholastic education should not be casually converted into a modern named philosophy degree.",
+    "2.1.12": "Noam Chomsky — studied philosophy as well as linguistics, but his doctorate was in linguistics. His philosophical work does not make that credential a philosophy doctorate.",
+    "2.1.16": "Stephen Fry — actor and writer; the original entry did not establish a philosophy degree. It is not counted in the sourced list below.",
+    "2.1.21": "Prominence in philosophy, philosophy coursework, a joint degree and a completed degree in philosophy are distinct claims. The corrected examples below identify completed credentials rather than inferring them from achievement.",
+    "2.2.0": "René Descartes — his law credential does not satisfy this prompt’s request for a philosophy degree.",
+    "2.2.1": "Voltaire — the original Bachelor of Arts claim was unsupported; do not treat philosophical authorship as proof of that credential.",
+    "2.2.2": "Mary Wollstonecraft — the original itself identifies self-education rather than a philosophy degree, so this is not a qualifying example.",
+    "2.2.3": "Søren Kierkegaard — the original compresses his theological education and philosophical dissertation into a misleading degree label; verify the specific credential before counting it.",
+    "2.2.4": "John Stuart Mill — the original Bachelor of Arts claim is erroneous; his education was largely directed at home by his father.",
+    "2.2.5": "Bertrand Russell — mathematics and moral sciences at Cambridge require historically accurate credential descriptions; the original mathematics-only label does not establish the requested category.",
+    "2.2.6": "Simone de Beauvoir — the original doctorate claim is incorrect. Her philosophy studies and agrégation qualification should not be redescribed as a doctorate.",
+    "2.2.7": "Martin Luther King Jr. — sociology and systematic theology credentials are not degrees in the subject of philosophy, despite significant philosophical study.",
+    "2.2.8": "Nelson Mandela — the original claim of philosophy coursework does not establish a completed philosophy degree.",
+    "2.2.9": "Amartya Sen — the original combined “Economics and Philosophy” degree label lacks support here; distinguish his economics education from his contributions to philosophy.",
+    "2.2.10": "Noam Chomsky — a linguistics credential with philosophy study is not itself a philosophy degree.",
+    "2.2.11": "Iris Murdoch — Oxford’s classical course included philosophy; label that combined historical curriculum accurately rather than presenting a stand-alone philosophy degree without explanation.",
+    "2.2.12": "Martha Nussbaum — the original all-philosophy credential sequence is inaccurate; consult the linked academic curriculum vitae for the disciplines of her degrees.",
+    "2.2.13": "Kwame Anthony Appiah — a philosopher with doctoral training in philosophy; the original example fits the category, unlike several adjacent entries.",
+    "2.2.14": "Peter Singer — the original “Law and Philosophy” label is inaccurate; his philosophical education should not be presented as a law degree.",
+    "2.2.15": "Hilary Putnam — the original mathematics-degree sequence is unreliable; his doctorate was in philosophy, not evidence that all his named credentials were mathematics degrees.",
+    "2.2.16": "Colin Kaepernick — the business credential offered in the original is not evidence of a philosophy degree; the added coursework assertion was undocumented.",
+    "2.2.17": "Morgan Freeman — the original associate-degree and philosophy-coursework assertions were unsupported and should not be used as a credential record.",
+    "2.2.18": "Arianna Huffington — an economics credential is not a philosophy degree; the original coursework assertion does not answer the prompt.",
+    "2.2.19": "Chimamanda Ngozi Adichie — the original earned doctorate in comparative literature was unsupported. In any event, a doctorate’s general “Doctor of Philosophy” title does not make its subject philosophy.",
+    "2.2.20": "This original list does not meet the request as written. The corrected twenty-person supplement in the first response supplies completed degree examples; these annotations retain the erroneous candidates so readers can see what was corrected.",
+    "3.1.0": "No longitudinal recruitment dataset is supplied here to establish which fields increasingly hire philosophy graduates. The following are possible applications of relevant skills, not measured growth sectors for this major.",
+    "3.1.1": "Technology and artificial intelligence: ethics and governance work can use philosophical analysis alongside technical, legal or policy expertise. Whether a vacancy accepts this background must be checked in the actual job requirements.",
+    "3.1.5": "Healthcare and bioethics: philosophical ethics is relevant, but specialist roles may require postgraduate or clinical experience. Relevance does not establish a growing number of entry-level jobs.",
+    "3.1.8": "Finance and banking: reasoning can complement quantitative, commercial and regulatory expertise. The original claim of increasing recruitment by major was not supported.",
+    "3.1.10": "Environmental policy: ethical reasoning can support work on trade-offs and justice alongside scientific and policy knowledge; no hiring-growth statistic is established here.",
+    "3.1.13": "Digital ethics and cybersecurity: distinguish governance and policy roles from technical security work, which requires additional expertise. The original did not establish a recruitment trend.",
+    "3.1.14": "These examples show potential relevance. Establishing growth would require dated, comparable hiring or graduate-outcome data rather than a list of plausible applications.",
+    "3.2.0": "The response does not establish increasing recruitment in these fields. Treat the following as directions for investigation and match them against actual qualifications and vacancies.",
+    "4.1.0": "There is no sourced ranking here of philosophical specializations most desired by recruiters. These are examples of subject matter that could connect with particular roles; employer requirements and geography matter.",
+    "4.1.1": "Ethics: connect analysis of responsibility, privacy or sustainability with sector knowledge and evidence of practical work. A relevant specialization does not guarantee a dedicated ethics position.",
+    "4.1.3": "Political philosophy: can support analysis of justice and institutions in policy work when paired with research methods and knowledge of the policy area.",
+    "4.1.4": "Philosophy of science and technology: can help assess evidence and assumptions; technical or regulatory roles require the corresponding additional expertise.",
+    "4.1.6": "Philosophy of mind: relevant to conceptual questions about cognition, but not a substitute for computing, experimental methods or interface-design skills.",
+    "4.1.7": "Existential and humanistic philosophy: may inform reflection on work and meaning. The original supplied no evidence that companies commonly recruit these specializations.",
+    "4.1.8": "Bioethics: can prepare for advanced work in healthcare or research ethics, subject to the qualifications and practical experience required by a particular institution.",
+    "4.1.9": "A specialization’s relevance differs from employer demand. Check actual job descriptions and program outcomes before making an expensive educational decision.",
+    "4.2.0": "Many roles assess skills and experience rather than the name of a philosophical specialization. The balance varies; specialist academic and ethics roles may explicitly require advanced subject training.",
+    "5.1.3": "Consider complementary coursework or a second subject if it supports a specific goal. Compare the added time and cost with targeted courses, internships or a portfolio before taking on a second major.",
+    "5.1.7": "Graduate study: compare funding, completion rates, time to degree and placement outcomes for the intended career. An advanced degree is a substantial commitment and does not guarantee academic employment.",
+    "5.1.11": "A philosophy major can be worthwhile for intellectual and practical reasons. Decide using course fit, total cost, funding and credible graduate outcomes, not celebrity examples or unsourced promises of demand."
+  },
+  "countChecks": [
+    {
+      "name": "original twenty candidates each retained",
+      "selector": "#prompt-2 .original-response > ol",
+      "child": "li",
+      "expected": [
+        20,
+        20
+      ]
+    },
+    {
+      "name": "twenty sourced completed degrees",
+      "selector": ".verified-graduates",
+      "child": "li",
+      "expected": [
+        20
+      ]
+    },
+    {
+      "name": "fifteen discussions each",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    }
+  ],
+  "reviewDecisions": [
+    "Read entire193-line source including the nested heading and both20-item original lists.",
+    "Corrected false credentials in place; added20 sourced completed philosophy degrees, preserving original candidate lists as documented corrections.",
+    "Removed unsupported current hiring-growth/ranking claims; distinguished career preparation, professional qualification, additional skills and costs."
+  ],
+  "preambleHeadingIndexes": [],
+  "responseAppendices": {
+    "2.1": [
+      "<aside class=\"credential-correction\"><h4>Twenty completed philosophy-degree examples</h4><p>Listed by the <a href=\"https://www.apaonline.org/page/whostudiesphilosophy\">American Philosophical Association</a>; bachelor’s degrees unless marked PhD. These illustrate possibilities, not typical career outcomes.</p><ol class=\"verified-graduates\"><li>Suroosh Alvi — McGill, 1991.</li><li>Ronan Farrow — Bard, 2004.</li><li>Glenn Greenwald — George Washington, 1990.</li><li>Chris Hayes — Brown, 2001.</li><li>Tamara Keith — Berkeley, 1999.</li><li>Adam Conover — Bard, 2004.</li><li>Arthur Danto — Columbia PhD, 1952.</li><li>Lana Del Rey — Fordham, 2008.</li><li>Dessa — Minnesota, 2003.</li><li>Ed Gamble — Durham, 2007.</li><li>Ricky Gervais — University College London, 1983.</li><li>Chris Hardwick — UCLA, 1995.</li><li>Theo James — Nottingham, 2007.</li><li>Duncan Jones — Wooster, 1995.</li><li>Adrian Piper — Harvard PhD, 1981.</li><li>Steve Reich — Cornell, 1957.</li><li>Paul Schrader — Calvin, 1968.</li><li>Gene Siskel — Yale, 1967.</li><li>Kim Thayil — Washington, 1985.</li><li>Alex Trebek — Ottawa, 1961.</li></ol></aside>"
+    ]
+  },
+  "embeddedResponseHeadings": {
+    "2.2": [
+      "20 Notable People with Philosophy Degrees:"
+    ]
+  },
+  "leadingTextReplacements": {
+    "3.2.10": "Data science: logic can help, but statistics, programming and domain knowledge are essential. A philosophy degree alone does not demonstrate those skills.",
+    "3.2.14": "Healthcare: ethical analysis can be useful; clinical and research roles have their own training requirements. Do not infer a general hiring trend from ethical complexity."
+  }
+}

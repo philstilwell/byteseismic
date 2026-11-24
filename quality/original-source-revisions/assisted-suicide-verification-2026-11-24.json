@@ -1,0 +1,43 @@
+{
+  "pagePath": "/ethics/assisted-suicide/",
+  "sourceSha256": "a1eccfcd31fc2dd4e1941631519d491576c6d29890a46a225ba658ea37311195",
+  "originalPrompts": 7,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 8,
+  "sourceColumns": 24,
+  "modelResponses": 24,
+  "blocksRetainedVerbatim": 202,
+  "tableCellsExplicitlyRevised": 12,
+  "blocksExplicitlyRevised": 97,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": false,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [
+    "4.1"
+  ],
+  "formatChecks": {
+    "three original tables": [
+      8,
+      5,
+      8
+    ],
+    "discussion question lists": [
+      15,
+      15,
+      15
+    ],
+    "expandable answers": [
+      10,
+      9,
+      10
+    ]
+  },
+  "sha256": "6d6b7bf41291600e1ad0f7d3ec2d529fbe3b18701b30b954190bc4a805f65940",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": 2,
+  "isolatedBuildVerified": true
+}

@@ -1,0 +1,302 @@
+{
+  "pageFile": "ethics/model-of-ethical-dynamics/index.html",
+  "wordpressId": 15426,
+  "snapshot": "model-of-ethical-dynamics-wordpress-15426.html",
+  "sourceUrl": "http://byteseismic.com/2025/02/23/model-of-ethical-dynamics/",
+  "sourceLabel": "Original WordPress conversation",
+  "shellRevision": "1d5d5e4829f7bdd8f7e0b3c000dccabc67e2eccd",
+  "date": "2026-11-24",
+  "sourceSha256": "d30acdf21177dbacc08c89310ed1224db09f7fa1f3c0b8c1bc3fe013d35bd2f3",
+  "modelLabels": [
+    "Grok"
+  ],
+  "headings": [
+    "Thirteen factors and a preliminary score",
+    "Affordability as a descriptive framework",
+    "Costs, capacity and bounded dynamics",
+    "Feedback and compassion under scarcity",
+    "The basic diagram and editable code",
+    "Adding religious alignment",
+    "A historical illustration, not an estimate",
+    "The hypothetical octopus scenario",
+    "Accuracy, utility and the original assessment"
+  ],
+  "introHeading": "Model of Ethical Dynamics · original exchange",
+  "intro": "Grok develops a provisional affordability model through nine prompts. The edition preserves the curator’s descriptive, moral non-realist purpose while correcting arithmetic, domain limits and unsupported claims of validation.",
+  "description": "A descriptive ethical-dynamics model with checked arithmetic, bounded equations, hypothetical examples and four accessible vector diagrams.",
+  "highlights": [],
+  "replacements": {
+    "1.1.0": "This is a conceptual model, not a validated predictor. Define the target as the prevalence or intensity of one specified disposition in a specified population and time period. A number must not be read as a society’s objective moral worth. The thirteen proposed factors can organize hypotheses before data determine their useful measurements and relationships.",
+    "1.1.2": "Ethical Disposition (ED): initially a toy composite score; later a bounded index for a specified target disposition. Keep a vector of separate attitudes when one scalar would hide opposing commitments. Neither survival-focused nor idealistic is automatically a higher moral rank.",
+    "1.1.4": "Emotional factors (held fixed only within the first illustration)",
+    "1.1.21": "The first illustration temporarily holds C, RI, F and B fixed; later prompts explicitly allow their change.",
+    "1.1.36": "The example beta coefficients total 1.10, not 1. Treat V here as an unnormalized weighted sum. A normalized version would divide both V and its example value by 1.10 and yield a different score.",
+    "1.1.39": "The interaction is I = 0.3 RI×ES + 0.3 C×NF + 0.2 FT×IF − 0.2 PS×CC. With inputs in [0,1], it ranges from −0.2 to 0.8, not 0 to 1.",
+    "1.1.52": "V = 0.12 + 0.09 + 0.03 + 0.105 + 0.09 + 0.02 + 0.04 + 0.07 + 0.12 = 0.685.",
+    "1.1.54": "ED = 0.4×0.57 + 0.4×0.685 + 0.2×0.426 = 0.228 + 0.274 + 0.0852 = 0.5872. This corrects the original arithmetic and is an index value, not a measured population percentage.",
+    "1.1.55": "The stipulated values produce 0.5872 in this formula. No observed threshold has been supplied that would make that value “moderately idealistic.” Interpretation requires an independently defined outcome and calibration.",
+    "1.1.57": "Range: because the initial interaction can be negative and V is unnormalized, the claimed [0,1] range is not guaranteed. A conservative bound for this weighted construction is [−0.04,1]. The later affordability specification supplies explicit clipping.",
+    "2.1.3": "The affordability lens describes the costs of acting on a disposition, not how morally good a society is. A person may endorse equal treatment while lacking the time, protection or resources to enact it. Separating endorsement from behavior prevents the model from counting constrained action as absence of concern.",
+    "2.1.8": "Emotional dispositions need not be stable across societies or time. Stability is a simplifying assumption to test; expression, reported concern and sustained behavior should be measured separately.",
+    "2.1.23": "A historical application would need a particular place, period and practice, with evidence about institutions, resources and dissent. It is too broad to infer that medieval Europeans could not afford equality or that wealthy modern societies therefore exhibit more concern. Wealth can lower some costs while power and incentives preserve harmful practices.",
+    "3.1.4": "ED: a bounded, uncalibrated index for a specified target disposition or behavior. Its definition must remain constant across observations. Zero and one do not rank survival against idealism or measure objective morality.",
+    "3.1.24": "The ratio below represents one assumed relationship between capacity and costs. TEC exceeding AT lowers this model’s score; it does not prove that people abandon the target behavior at a real-world threshold.",
+    "3.1.27": "Squared terms are quadratic, not exponential. On [0,1], C² is no larger than C, though its marginal slope rises with C. Interpreting this shape as burnout requires evidence.",
+    "3.1.38": "AT = clip(0.25×(R + FT + TC + IF − EP), 0, 1), where clip(x,0,1) = max(0,min(1,x)). Clipping prevents a negative capacity when pressures exceed the enabling sum.",
+    "3.1.40": "With nonnegative weights summing to one within each component, PE, SE and LE each lie in [0,1], so TEC lies in [0,3]. AT lies in [0,1] after clipping. These are constructed comparable index units, not automatically equal ranges or real economic costs.",
+    "3.1.41": "For TEC > 0, define ED* = clip((AT/TEC)×E_base, 0, 1). For TEC = 0, define ED* = E_base as an explicit no-cost convention. A different convention would need justification; the original ratio was undefined at zero.",
+    "3.1.47": "A bounded adjustment rule can be ED(t+1) = (1−rho)ED(t) + rho ED*(t), with 0 ≤ rho ≤ 1. It moves toward the current affordability target without exceeding [0,1]. Unlike a pure decay equation, it also permits recovery when conditions improve.",
+    "3.1.48": "One optional feedback specification is RI(t+1) = clip((1−delta)RI(t) + alpha ES(t)NF(t),0,1), with delta in [0,1] and alpha ≥ 0. Lagging the inputs states the time direction; damping and clipping prevent unrestricted accumulation. It is a hypothesis, not an identified causal effect.",
+    "3.1.60": "The stipulated inputs give ED* approximately 0.322. This is a synthetic index, not evidence that 32.2% of a population adopts a disposition or that a society has shifted toward pragmatism.",
+    "3.1.65": "The equations make assumptions explicit, but predictive accuracy is untested. Specify observations, estimate parameters using training data, and compare forecasts on held-out places or periods before calling this a predictive model.",
+    "4.1.7": "These proposed feedbacks require explicit time-lagged equations. Drawing a cycle does not identify its causal direction or strength; shared causes could also generate the observed correlations.",
+    "4.1.8": "Use the bounded, lagged RI update above, and separate an observation of ES from any later change caused by RI. Specify which variables are externally supplied and which are generated within the model.",
+    "4.1.16": "Resilience: scarcity can coexist with solidarity and mutual aid. Its effects are not uniformly suppressive, and the model supplies no evidence that such responses are rare. Institutions, trust and perceived common fate may change the direction of effects.",
+    "4.1.19": "The proposed term PE_C = w_C C(1−R)^k rises as R falls for C>0 and k>0; it increases a cost contribution rather than reducing compassion itself. To model C changing, add a separate measured or explicitly specified transition equation.",
+    "4.1.21": "A threshold near zero compassion is a hypothesis requiring evidence, not a consequence of scarcity alone. Test gradual, threshold and resilience accounts against each other.",
+    "5.1.3": "Arrows in the redrawn diagram represent proposed dependencies, not demonstrated causal relationships. The editable code below separates instantaneous accounting from lagged feedback.",
+    "5.1.16": "The original export retains a diagram image rather than editable Mermaid code. The following editorial reconstruction supplies code for the corrected basic model; it does not claim to recover missing original code.",
+    "6.1.2": "ARP records alignment of prevailing norms with dominant religious proscriptions. For a specified target behavior, identify whether those proscriptions support or oppose it. High alignment can lower the cost of a conforming target and raise the cost of a conflicting one; a single always-positive coefficient cannot represent both.",
+    "6.1.8": "The retained extension uses positive ARP cost terms. It therefore represents the restricted hypothesis that religious alignment makes the selected departure costly. If the target conforms to prevailing proscriptions, change the sign or use a separate conflict variable and recalibrate; do not silently reuse this interpretation.",
+    "6.1.12": "ARP² is a quadratic cost term under this restricted conflict interpretation, not an exponential law or evidence that religion always raises costs.",
+    "6.1.20": "Use the same corrected capacity and target rules: AT = clip(0.25(R+FT+TC+IF−EP),0,1); ED* = clip(AT E_base/TEC,0,1) when TEC>0 and ED*=E_base otherwise. The original separate PE/SE/LE weights remain as illustrative assumptions.",
+    "6.1.22": "A possible bounded update is ARP(t+1)=clip((1−delta_A)ARP(t)+beta(CC(t)+PS(t))/2,0,1). This is one specified feedback hypothesis; its coefficients and direction need independent evidence.",
+    "6.1.24": "This adds a potentially relevant distinction, but more variables do not automatically enhance accuracy. Compare the expanded model with simpler alternatives and guard against counting the same cultural influence more than once.",
+    "7.1.0": "This application is a synthetic historical illustration of the model, not a measurement of ancient attitudes or an explanation established by historical evidence. The target is resistance to killing or abandoning female newborns; low ED is not a direct measure of support for the opposite practice.",
+    "7.1.4": "The original response selected ancient Greece across several centuries without a supporting dataset. That is too broad for a historical estimate. Retain the numbers as hypothetical inputs inspired by the proposed case, with no claim that they characterize an actual population.",
+    "7.1.18": "Hypothetical inputs for the historical illustration",
+    "7.1.19": "All fourteen values below are stipulated for calculation, not estimated from cited historical records. Their labels explain the assumptions of the example; they must not be read as findings about Greek people, families or religion.",
+    "7.1.20": "C = 0.3: stipulated target-specific compassionate response; not a measured level of compassion in ancient Greece.",
+    "7.1.21": "RI = 0.2: stipulated indignation toward the practice; no historical prevalence estimate follows.",
+    "7.1.28": "IF = 0.2: stipulated information-flow index, not a claim that the society lacked writing or relied only on oral tradition.",
+    "7.1.33": "ARP = 0.8: stipulated strength of religiously aligned pressure against the target departure. No specific Greek divine proscription endorsing this practice has been established here.",
+    "7.1.42": "ED* ≈ 0.01248 follows from the stipulated inputs. It does not establish a 1.25% adoption rate, historical dominance, inevitability or moral acceptability of infanticide.",
+    "7.1.44": "In this hypothetical application, resource constraints and hostile norms make the selected alternative costly within the equation. Establishing why historical practices occurred would require independent evidence about places, periods, households, institutions and dissent.",
+    "7.1.45": "Psychological interpretation: the low C and RI and higher F and B are assumptions that produce the result, not discoveries made by the model. The ARP term assumes a conflict with prevailing religiously aligned norms; attributing a specific demand to Zeus or Apollo was unsupported.",
+    "7.1.46": "Social interpretation: the chosen high CC and PS raise SE by construction. Historical evidence would have to establish the relevant pressures and who faced them. An aggregate value cannot show that every family accepted the practice.",
+    "7.1.47": "Lifestyle interpretation: the stipulated R, FT, EP and TC imply constrained capacity. They do not establish that raising a daughter was impossible or that economic pressure determined individual behavior. Such conclusions would confuse a chosen input with evidence.",
+    "7.1.48": "The calculation has AT=0.075 and TEC=1.5025. Their ratio, multiplied by E_base=0.25, yields the low target index. This explains the arithmetic only; it does not explain or justify the historical practice.",
+    "7.1.49": "The redrawn chart displays the stipulated values with the corrected interpretation; they are illustrative rather than historical estimates. The original diagram remains linked for comparison.",
+    "7.1.53": "A historical account must examine actual changes and disagreements. No claim about Plato or Aristotle raising this target index follows from the model or the evidence provided here.",
+    "7.1.54": "This application demonstrates how to run a hypothetical calculation and where evidence is missing. It is not an empirical test or a validation of the model.",
+    "8.1.4": "Treat the availability, price and taste of lab-produced octopus substitute as the curator’s hypothetical assumptions, not a report of actual products in 2025 or today.",
+    "8.1.18": "Stipulated values for the hypothetical octopus scenario",
+    "8.1.42": "ED* ≈ 0.37505 is the output for these invented inputs. It is neither a forecast that 37.5% of people change their diet nor a validated label of moderate ethical development.",
+    "8.1.44": "The scenario posits lower practical costs of avoiding octopus and stronger attention to its sentience. Whether these changes actually increase avoidance depends on behavioral evidence; the present calculation illustrates assumptions rather than documenting a shift.",
+    "8.1.48": "For these inputs, AT=0.725 and TEC=1.2565 yield ED*≈0.37505. Holding other inputs fixed, higher NF or ES increases the cost term and lowers this equation’s ED*, contrary to the original prose prediction. A positive total effect would need a specified pathway through C or RI that outweighs that cost, or a revised signed coefficient. Higher TC raises capacity and lowers lifestyle cost here. Compare explicit before/after scenarios rather than inferring causal effects from this one point.",
+    "9.1.3": "The framework makes a set of possible drivers explicit. The two applications illustrate calculations; they have not demonstrated that those drivers predict observed dispositions. A target such as reported support or actual consumption must be defined before accuracy can be assessed.",
+    "9.1.4": "Measurement is the first obstacle: the 0–1 values and historical inputs were stipulated, not estimated. Within-society variation and uncertainty cannot be replaced by one precise-looking number. Quadratic terms are nonlinear but not exponential, and their signs and shapes need testing rather than intuitive labels.",
+    "9.1.5": "Feedback requires time-indexed observations and an account of direction. The bounded updates above prevent arithmetic overflow but do not establish causality. Distinguish correlation, predictive fit and intervention effects; stable-looking coefficients may fail across cultures or periods.",
+    "9.1.6": "Flexibility can improve fit but also encourage overfitting. Compare simple baselines, reserve later periods or societies for testing, report uncertainty and sensitivity, and check measurement comparability. More adjustable parameters are not themselves evidence of greater accuracy.",
+    "9.1.8": "The octopus scenario is useful for exposing assumptions: cheaper substitutes plausibly lower a practical barrier, but the original formula assigns media attention a cost that can lower its target index. Before using it to recommend a campaign, specify and test the competing pathways. The value 0.375 is not a policy forecast.",
+    "9.1.9": "The historical example reveals missing evidence rather than proving that compassionate alternatives were unaffordable. Scenario comparisons can organize questions, but historical causes must be established independently.",
+    "9.1.19": "The model is currently a structured hypothesis generator with checked arithmetic, not an accurate predictor demonstrated by its examples. Its value lies in exposing assumptions, collecting better observations and testing simpler competing explanations. The curator’s non-realist purpose is descriptive: predicting attitudes does not establish what anyone morally ought to do. The original model-on-model assessment retained below is part of the exchange, not independent empirical validation."
+  },
+  "countChecks": [
+    {
+      "name": "nine Grok responses",
+      "selector": ".original-response",
+      "child": "h3",
+      "expected": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "reviewDecisions": [
+    "1: retained thirteen factors and equations; corrected beta sum, V and ED arithmetic, interaction bounds and unsupported moral-ranking interpretation.",
+    "2: retained psychological/social/lifestyle progression and examples; separated attitudes from behavior and removed sweeping medieval/wealth claims.",
+    "3: corrected quadratic/exponential confusion, negative capacity and zero denominator; supplied bounded recovery-capable dynamics and precise interpretation of synthetic index.",
+    "4: retained all proposed loops and scarcity discussion; corrected sign of the scarcity-cost term and unsupported rarity/threshold claims.",
+    "5: retained original diagram and supplied explicitly reconstructed requested Mermaid code absent from export.",
+    "6: preserved curator religious-alignment addition, distinguished alignment from conflict, bounded feedback and qualified positive cost assumptions.",
+    "7: retained all fourteen values/calculation stages and chart; labeled fabricated historical estimates as hypothetical and removed unsupported Greek religious/persistence assertions.",
+    "8: retained hypothetical scenario, all inputs/calculations and images; corrected NF/ES direction and distinguished index from adoption percentage.",
+    "9: retained essay structure, four research proposals, exact non-realist curator note and original ChatGPT assessment table; replaced validation claims with actual measurement and testing requirements.",
+    "User authorized SVG redraws: four lightweight local vectors replace sprawling raster diagrams, retain original links and correct misleading causal and prevalence labels. No generation charge."
+  ],
+  "mathImageText": {
+    "ED = w_1 \\cdot E + w_2 \\cdot V + w_3 \\cdot I": "ED = w_1 × E + w_2 × V + w_3 × I",
+    "w_1, w_2, w_3": "w_1, w_2, w_3",
+    "E = \\alpha_C \\cdot C + \\alpha_{RI} \\cdot RI + \\alpha_F \\cdot F + \\alpha_B \\cdot B": "E = \\alpha_C × C + \\alpha_{RI} × RI + \\alpha_F × F + \\alpha_B × B",
+    "\\alpha": "\\alpha",
+    "V = \\beta_{FT} \\cdot FT + \\beta_R \\cdot R + \\beta_{CC} \\cdot CC + \\beta_{ES} \\cdot ES + \\beta_{IF} \\cdot IF + \\beta_{PS} \\cdot PS + \\beta_{EP} \\cdot EP + \\beta_{TC} \\cdot TC + \\beta_{NF} \\cdot NF": "V = \\beta_{FT} × FT + \\beta_R × R + \\beta_{CC} × CC + \\beta_{ES} × ES + \\beta_{IF} × IF + \\beta_{PS} × PS + \\beta_{EP} × EP + \\beta_{TC} × TC + \\beta_{NF} × NF",
+    "\\beta": "\\beta",
+    "I = \\gamma_1 \\cdot (RI \\cdot ES) + \\gamma_2 \\cdot (C \\cdot NF) + \\gamma_3 \\cdot (FT \\cdot IF) - \\gamma_4 \\cdot (PS \\cdot CC)": "I = \\gamma_1 × (RI × ES) + \\gamma_2 × (C × NF) + \\gamma_3 × (FT × IF) - \\gamma_4 × (PS × CC)",
+    "\\gamma": "\\gamma",
+    "RI \\cdot ES": "RI × ES",
+    "C \\cdot NF": "C × NF",
+    "FT \\cdot IF": "FT × IF",
+    "PS \\cdot CC": "PS × CC",
+    "w_1 = 0.4": "w_1 = 0.4",
+    "w_2 = 0.4": "w_2 = 0.4",
+    "w_3 = 0.2": "w_3 = 0.2",
+    "(0.3 \\cdot 0.7) + (0.3 \\cdot 0.6) + (0.2 \\cdot 0.4) + (0.2 \\cdot 0.5) = 0.21 + 0.18 + 0.08 + 0.1 = 0.57": "(0.3 × 0.7) + (0.3 × 0.6) + (0.2 × 0.4) + (0.2 × 0.5) = 0.21 + 0.18 + 0.08 + 0.1 = 0.57",
+    "(0.15 \\cdot 0.8) + (0.15 \\cdot 0.6) + (0.1 \\cdot 0.3) + (0.15 \\cdot 0.7) + (0.1 \\cdot 0.9) + (0.1 \\cdot 0.2) + (0.1 \\cdot 0.4) + (0.1 \\cdot 0.7) + (0.15 \\cdot 0.8) = 0.12 + 0.09 + 0.03 + 0.105 + 0.09 + 0.02 + 0.04 + 0.07 + 0.12 = 0.655": "(0.15 × 0.8) + (0.15 × 0.6) + (0.1 × 0.3) + (0.15 × 0.7) + (0.1 × 0.9) + (0.1 × 0.2) + (0.1 × 0.4) + (0.1 × 0.7) + (0.15 × 0.8) = 0.12 + 0.09 + 0.03 + 0.105 + 0.09 + 0.02 + 0.04 + 0.07 + 0.12 = 0.655",
+    "(0.3 \\cdot 0.6 \\cdot 0.7) + (0.3 \\cdot 0.7 \\cdot 0.8) + (0.2 \\cdot 0.8 \\cdot 0.9) - (0.2 \\cdot 0.2 \\cdot 0.3) = 0.126 + 0.168 + 0.144 - 0.012 = 0.426": "(0.3 × 0.6 × 0.7) + (0.3 × 0.7 × 0.8) + (0.2 × 0.8 × 0.9) - (0.2 × 0.2 × 0.3) = 0.126 + 0.168 + 0.144 - 0.012 = 0.426",
+    "(0.4 \\cdot 0.57) + (0.4 \\cdot 0.655) + (0.2 \\cdot 0.426) = 0.228 + 0.262 + 0.0852 = 0.575": "(0.4 × 0.57) + (0.4 × 0.655) + (0.2 × 0.426) = 0.228 + 0.262 + 0.0852 = 0.575",
+    "w": "w",
+    "TEC = PE + SE + LE": "TEC = PE + SE + LE",
+    "PE = w_C \\cdot C^2 + w_{RI} \\cdot RI^2 + w_F \\cdot F + w_B \\cdot B": "PE = w_C × C^2 + w_{RI} × RI^2 + w_F × F + w_B × B",
+    "w_C, w_{RI}, w_F, w_B": "w_C, w_{RI}, w_F, w_B",
+    "SE = w_{CC} \\cdot CC + w_{PS} \\cdot PS + w_{ES} \\cdot ES^2 + w_{NF} \\cdot NF^2": "SE = w_{CC} × CC + w_{PS} × PS + w_{ES} × ES^2 + w_{NF} × NF^2",
+    "w_{CC}, w_{PS}, w_{ES}, w_{NF}": "w_{CC}, w_{PS}, w_{ES}, w_{NF}",
+    "LE = w_{FT} \\cdot (1 - FT) + w_R \\cdot (1 - R) + w_{EP} \\cdot EP + w_{TC} \\cdot (1 - TC) + w_{IF} \\cdot IF": "LE = w_{FT} × (1 - FT) + w_R × (1 - R) + w_{EP} × EP + w_{TC} × (1 - TC) + w_{IF} × IF",
+    "w_{FT}, w_R, w_{EP}, w_{TC}, w_{IF}": "w_{FT}, w_R, w_{EP}, w_{TC}, w_{IF}",
+    "AT = k \\cdot (R + FT + TC + IF - EP)": "AT = clip(k × (R + FT + TC + IF − EP), 0, 1)",
+    "k": "k",
+    "ED = \\min\\left(1, \\frac{AT}{TEC} \\cdot E_{\\text{base}}\\right)": "ED* = clip(AT × E_base / TEC, 0, 1) for TEC > 0; ED* = E_base for TEC = 0",
+    "E_{\\text{base}} = \\frac{C + RI}{2}": "E_{\\text{base}} = \\frac{C + RI}{2}",
+    "\\min(1, \\cdot)": "\\min(1, ×)",
+    "TEC > AT": "TEC > AT",
+    "ED_t = ED_{t-1} \\cdot e^{-\\lambda \\cdot (TEC - AT)}": "ED_t = ED_{t-1} × e^{-\\lambda × (TEC - AT)}",
+    "\\lambda": "\\lambda",
+    "RI_t = RI_{t-1} + \\alpha \\cdot (ES \\cdot NF)": "RI_t = RI_{t-1} + \\alpha × (ES × NF)",
+    "(0.4 \\cdot 0.7^2) + (0.3 \\cdot 0.6^2) + (0.2 \\cdot 0.4) + (0.1 \\cdot 0.5) = (0.4 \\cdot 0.49) + (0.3 \\cdot 0.36) + 0.08 + 0.05 = 0.196 + 0.108 + 0.13 = 0.434": "(0.4 × 0.7^2) + (0.3 × 0.6^2) + (0.2 × 0.4) + (0.1 × 0.5) = (0.4 × 0.49) + (0.3 × 0.36) + 0.08 + 0.05 = 0.196 + 0.108 + 0.13 = 0.434",
+    "(0.2 \\cdot 0.3) + (0.2 \\cdot 0.2) + (0.3 \\cdot 0.7^2) + (0.3 \\cdot 0.8^2) = 0.06 + 0.04 + (0.3 \\cdot 0.49) + (0.3 \\cdot 0.64) = 0.06 + 0.04 + 0.147 + 0.192 = 0.439": "(0.2 × 0.3) + (0.2 × 0.2) + (0.3 × 0.7^2) + (0.3 × 0.8^2) = 0.06 + 0.04 + (0.3 × 0.49) + (0.3 × 0.64) = 0.06 + 0.04 + 0.147 + 0.192 = 0.439",
+    "(0.2 \\cdot (1 - 0.8)) + (0.2 \\cdot (1 - 0.6)) + (0.2 \\cdot 0.4) + (0.2 \\cdot (1 - 0.7)) + (0.2 \\cdot 0.9) = (0.2 \\cdot 0.2) + (0.2 \\cdot 0.4) + 0.08 + (0.2 \\cdot 0.3) + 0.18 = 0.04 + 0.08 + 0.08 + 0.06 + 0.18 = 0.44": "(0.2 × (1 - 0.8)) + (0.2 × (1 - 0.6)) + (0.2 × 0.4) + (0.2 × (1 - 0.7)) + (0.2 × 0.9) = (0.2 × 0.2) + (0.2 × 0.4) + 0.08 + (0.2 × 0.3) + 0.18 = 0.04 + 0.08 + 0.08 + 0.06 + 0.18 = 0.44",
+    "0.434 + 0.439 + 0.44 = 1.313": "0.434 + 0.439 + 0.44 = 1.313",
+    "0.25 \\cdot (0.6 + 0.8 + 0.7 + 0.9 - 0.4) = 0.25 \\cdot 2.6 = 0.65": "0.25 × (0.6 + 0.8 + 0.7 + 0.9 - 0.4) = 0.25 × 2.6 = 0.65",
+    "\\frac{0.7 + 0.6}{2} = 0.65": "\\frac{0.7 + 0.6}{2} = 0.65",
+    "\\min\\left(1, \\frac{0.65}{1.313} \\cdot 0.65\\right) = \\min\\left(1, 0.495 \\cdot 0.65\\right) = \\min(1, 0.322) = 0.322": "\\min\\left(1, \\frac{0.65}{1.313} × 0.65\\right) = \\min\\left(1, 0.495 × 0.65\\right) = \\min(1, 0.322) = 0.322",
+    "TEC = 0.4 \\cdot PE^2 + 0.3 \\cdot SE + 0.3 \\cdot LE": "TEC = 0.4 × PE^2 + 0.3 × SE + 0.3 × LE",
+    "RI_t = RI_{t-1} + \\alpha \\cdot ES \\cdot NF": "RI_t = RI_{t-1} + \\alpha × ES × NF",
+    "PE = w_C \\cdot C \\cdot (1 - R)^k": "PE = w_C × C × (1 - R)^k",
+    "example": "example",
+    "PE = w_C \\cdot C^2 + w_{RI} \\cdot RI^2 + w_F \\cdot F + w_B \\cdot B + w_{ARP} \\cdot ARP^2": "PE = w_C × C^2 + w_{RI} × RI^2 + w_F × F + w_B × B + w_{ARP} × ARP^2",
+    "w_C, w_{RI}, w_F, w_B, w_{ARP}": "w_C, w_{RI}, w_F, w_B, w_{ARP}",
+    "SE = w_{CC} \\cdot CC + w_{PS} \\cdot PS + w_{ES} \\cdot ES^2 + w_{NF} \\cdot NF^2 + w_{ARP} \\cdot ARP": "SE = w_{CC} × CC + w_{PS} × PS + w_{ES} × ES^2 + w_{NF} × NF^2 + w_{ARP} × ARP",
+    "w_{CC}, w_{PS}, w_{ES}, w_{NF}, w_{ARP}": "w_{CC}, w_{PS}, w_{ES}, w_{NF}, w_{ARP}",
+    "LE = w_{FT} \\cdot (1 - FT) + w_R \\cdot (1 - R) + w_{EP} \\cdot EP + w_{TC} \\cdot (1 - TC) + w_{IF} \\cdot IF + w_{ARP} \\cdot ARP": "LE = w_{FT} × (1 - FT) + w_R × (1 - R) + w_{EP} × EP + w_{TC} × (1 - TC) + w_{IF} × IF + w_{ARP} × ARP",
+    "w_{FT}, w_R, w_{EP}, w_{TC}, w_{IF}, w_{ARP}": "w_{FT}, w_R, w_{EP}, w_{TC}, w_{IF}, w_{ARP}",
+    "ARP_t = ARP_{t-1} + \\beta \\cdot (CC + PS)": "ARP_t = ARP_{t-1} + \\beta × (CC + PS)",
+    "w_C = 0.3": "w_C = 0.3",
+    "w_{RI} = 0.25": "w_{RI} = 0.25",
+    "w_F = 0.15": "w_F = 0.15",
+    "w_B = 0.1": "w_B = 0.1",
+    "w_{ARP} = 0.2": "w_{ARP} = 0.2",
+    "w_{CC} = 0.15": "w_{CC} = 0.15",
+    "w_{PS} = 0.15": "w_{PS} = 0.15",
+    "w_{ES} = 0.25": "w_{ES} = 0.25",
+    "w_{NF} = 0.25": "w_{NF} = 0.25",
+    "w_{FT} = 0.15": "w_{FT} = 0.15",
+    "w_R = 0.15": "w_R = 0.15",
+    "w_{EP} = 0.15": "w_{EP} = 0.15",
+    "w_{TC} = 0.15": "w_{TC} = 0.15",
+    "w_{IF} = 0.15": "w_{IF} = 0.15",
+    "w_{ARP} = 0.25": "w_{ARP} = 0.25",
+    "k = 0.25": "k = 0.25",
+    "PE = (0.3 \\cdot 0.3^2) + (0.25 \\cdot 0.2^2) + (0.15 \\cdot 0.6) + (0.1 \\cdot 0.8) + (0.2 \\cdot 0.8^2)": "PE = (0.3 × 0.3^2) + (0.25 × 0.2^2) + (0.15 × 0.6) + (0.1 × 0.8) + (0.2 × 0.8^2)",
+    "(0.3 \\cdot 0.09) + (0.25 \\cdot 0.04) + (0.15 \\cdot 0.6) + (0.1 \\cdot 0.8) + (0.2 \\cdot 0.64)": "(0.3 × 0.09) + (0.25 × 0.04) + (0.15 × 0.6) + (0.1 × 0.8) + (0.2 × 0.64)",
+    "SE = (0.15 \\cdot 0.9) + (0.15 \\cdot 0.7) + (0.25 \\cdot 0.4^2) + (0.25 \\cdot 0.5^2) + (0.2 \\cdot 0.8)": "SE = (0.15 × 0.9) + (0.15 × 0.7) + (0.25 × 0.4^2) + (0.25 × 0.5^2) + (0.2 × 0.8)",
+    "(0.15 \\cdot 0.9) + (0.15 \\cdot 0.7) + (0.25 \\cdot 0.16) + (0.25 \\cdot 0.25) + (0.2 \\cdot 0.8)": "(0.15 × 0.9) + (0.15 × 0.7) + (0.25 × 0.16) + (0.25 × 0.25) + (0.2 × 0.8)",
+    "LE = (0.15 \\cdot (1 - 0.2)) + (0.15 \\cdot (1 - 0.3)) + (0.15 \\cdot 0.7) + (0.15 \\cdot (1 - 0.3)) + (0.15 \\cdot 0.2) + (0.25 \\cdot 0.8)": "LE = (0.15 × (1 - 0.2)) + (0.15 × (1 - 0.3)) + (0.15 × 0.7) + (0.15 × (1 - 0.3)) + (0.15 × 0.2) + (0.25 × 0.8)",
+    "(0.15 \\cdot 0.8) + (0.15 \\cdot 0.7) + (0.15 \\cdot 0.7) + (0.15 \\cdot 0.7) + (0.15 \\cdot 0.2) + (0.25 \\cdot 0.8)": "(0.15 × 0.8) + (0.15 × 0.7) + (0.15 × 0.7) + (0.15 × 0.7) + (0.15 × 0.2) + (0.25 × 0.8)",
+    "TEC = 0.335 + 0.5025 + 0.665 = 1.5025": "TEC = 0.335 + 0.5025 + 0.665 = 1.5025",
+    "AT = 0.25 \\cdot (0.3 + 0.2 + 0.3 + 0.2 - 0.7) = 0.25 \\cdot 0.3 = 0.075": "AT = 0.25 × (0.3 + 0.2 + 0.3 + 0.2 - 0.7) = 0.25 × 0.3 = 0.075",
+    "E_{\\text{base}} = \\frac{0.3 + 0.2}{2} = 0.25": "E_{\\text{base}} = \\frac{0.3 + 0.2}{2} = 0.25",
+    "ED = \\min\\left(1, \\frac{0.075}{1.5025} \\cdot 0.25\\right) = \\min\\left(1, 0.05 \\cdot 0.25\\right) = \\min(1, 0.0125) = 0.0125": "ED = \\min\\left(1, \\frac{0.075}{1.5025} × 0.25\\right) = \\min\\left(1, 0.05 × 0.25\\right) = \\min(1, 0.0125) = 0.0125",
+    "PE = (0.3 \\cdot 0.7^2) + (0.25 \\cdot 0.6^2) + (0.15 \\cdot 0.4) + (0.1 \\cdot 0.6) + (0.2 \\cdot 0.4^2)": "PE = (0.3 × 0.7^2) + (0.25 × 0.6^2) + (0.15 × 0.4) + (0.1 × 0.6) + (0.2 × 0.4^2)",
+    "(0.3 \\cdot 0.49) + (0.25 \\cdot 0.36) + (0.15 \\cdot 0.4) + (0.1 \\cdot 0.6) + (0.2 \\cdot 0.16)": "(0.3 × 0.49) + (0.25 × 0.36) + (0.15 × 0.4) + (0.1 × 0.6) + (0.2 × 0.16)",
+    "SE = (0.15 \\cdot 0.5) + (0.15 \\cdot 0.3) + (0.25 \\cdot 0.7^2) + (0.25 \\cdot 0.8^2) + (0.2 \\cdot 0.4)": "SE = (0.15 × 0.5) + (0.15 × 0.3) + (0.25 × 0.7^2) + (0.25 × 0.8^2) + (0.2 × 0.4)",
+    "(0.15 \\cdot 0.5) + (0.15 \\cdot 0.3) + (0.25 \\cdot 0.49) + (0.25 \\cdot 0.64) + (0.2 \\cdot 0.4)": "(0.15 × 0.5) + (0.15 × 0.3) + (0.25 × 0.49) + (0.25 × 0.64) + (0.2 × 0.4)",
+    "LE = (0.15 \\cdot (1 - 0.7)) + (0.15 \\cdot (1 - 0.8)) + (0.15 \\cdot 0.4) + (0.15 \\cdot (1 - 0.9)) + (0.15 \\cdot 0.9) + (0.25 \\cdot 0.4)": "LE = (0.15 × (1 - 0.7)) + (0.15 × (1 - 0.8)) + (0.15 × 0.4) + (0.15 × (1 - 0.9)) + (0.15 × 0.9) + (0.25 × 0.4)",
+    "(0.15 \\cdot 0.3) + (0.15 \\cdot 0.2) + (0.15 \\cdot 0.4) + (0.15 \\cdot 0.1) + (0.15 \\cdot 0.9) + (0.25 \\cdot 0.4)": "(0.15 × 0.3) + (0.15 × 0.2) + (0.15 × 0.4) + (0.15 × 0.1) + (0.15 × 0.9) + (0.25 × 0.4)",
+    "TEC = 0.389 + 0.4825 + 0.385 = 1.2565": "TEC = 0.389 + 0.4825 + 0.385 = 1.2565",
+    "AT = 0.25 \\cdot (0.8 + 0.7 + 0.9 + 0.9 - 0.4) = 0.25 \\cdot 2.9 = 0.725": "AT = 0.25 × (0.8 + 0.7 + 0.9 + 0.9 - 0.4) = 0.25 × 2.9 = 0.725",
+    "E_{\\text{base}} = \\frac{0.7 + 0.6}{2} = 0.65": "E_{\\text{base}} = \\frac{0.7 + 0.6}{2} = 0.65",
+    "ED = \\min\\left(1, \\frac{0.725}{1.2565} \\cdot 0.65\\right) = \\min\\left(1, 0.577 \\cdot 0.65\\right) = \\min(1, 0.375) = 0.375": "ED = \\min\\left(1, \\frac{0.725}{1.2565} × 0.65\\right) = \\min\\left(1, 0.577 × 0.65\\right) = \\min(1, 0.375) = 0.375"
+  },
+  "sourceSectionAttachments": {
+    "8": [
+      {
+        "siblingIndex": 1,
+        "sha256": "0aa1c8bf202b8670fa18641ea19ff12c3476577d1c1854d359538988826979dc",
+        "imageOverrides": {
+          "0": {
+            "sourceUrl": "https://byteseismic.wordpress.com/wp-content/uploads/2025/02/untitled-diagram-2025-02-23-073730.png?w=1024",
+            "url": "/assets/diagrams/ethical-dynamics/octopus-scenario.svg",
+            "alt": "Hypothetical octopus scenario: fourteen stipulated inputs yield ED approximately 0.37505; not an adoption percentage."
+          }
+        }
+      }
+    ],
+    "9": [
+      {
+        "siblingIndex": 3,
+        "sha256": "536c93db0834fc893ff021fa0bfccffb33c70a6816980cfa0ea9c9f55f05a757"
+      },
+      {
+        "siblingIndex": 4,
+        "sha256": "5511a3266f546cd2b92e55f84b943602205359914d83d5e4fa68dfdb289920ef"
+      },
+      {
+        "siblingIndex": 5,
+        "sha256": "8f7706dc516d5ecdf94c376457003ccae1a75dc8f4a98fe0a2f2340d28e679f0"
+      }
+    ]
+  },
+  "sourceImageDescriptions": {
+    "5.1.img0": "Editorial vector reconstruction: basic model. Corrected dependencies and interpretation are explained in the response.",
+    "6.1.img14": "Editorial vector reconstruction: religious alignment. Corrected dependencies and interpretation are explained in the response.",
+    "7.1.img34": "Editorial vector reconstruction: historical illustration. Corrected dependencies and interpretation are explained in the response.",
+    "8.1.img0": "Original illustration retained from the WordPress exchange; corrected equations and editable chart code appear in this edition."
+  },
+  "responseAppendices": {
+    "5.1": [
+      "<p>The SVG redraw presents the corrected model. <a href=\"https://byteseismic.wordpress.com/wp-content/uploads/2025/02/untitled-diagram-2025-02-23-000441.png?w=1024\">View the original diagram</a> for source comparison.</p>",
+      "<p>Editorial reconstruction of editable Mermaid code. Solid arrows show assumed accounting dependencies; dotted arrows are proposed lagged feedbacks. Original diagrams remain linked as source artifacts; the photographic illustration is retained.</p><pre><code>flowchart TD\n  C[Compassion] --&gt; PE[Psychological cost]\n  RI[Indignation] --&gt; PE\n  F[Fear] --&gt; PE\n  B[Belonging] --&gt; PE\n  CC[Cultural conditioning] --&gt; SE[Social cost]\n  PS[Power structures] --&gt; SE\n  ES[Exposure] --&gt; SE\n  NF[Narrative framing] --&gt; SE\n  FT[Free time] --&gt; LE[Lifestyle cost]\n  R[Resources] --&gt; LE\n  EP[Environmental pressure] --&gt; LE\n  TC[Technology] --&gt; LE\n  IF[Information flow] --&gt; LE\n  PE --&gt; TEC[Total cost]\n  SE --&gt; TEC\n  LE --&gt; TEC\n  R --&gt; AT[Clipped capacity]\n  FT --&gt; AT\n  TC --&gt; AT\n  IF --&gt; AT\n  EP --&gt; AT\n  C --&gt; EB[Baseline target disposition]\n  RI --&gt; EB\n  TEC --&gt; ED[Bounded target index with zero-cost rule]\n  AT --&gt; ED\n  EB --&gt; ED\n  ED -. proposed next-period feedback .-&gt; R\n  RI -. proposed next-period feedback .-&gt; ES\n  ES -. proposed next-period feedback .-&gt; RI\n  RI -. proposed next-period feedback .-&gt; NF\n  NF -. proposed next-period feedback .-&gt; RI\n  NF -. proposed next-period feedback .-&gt; C\n  C -. proposed next-period feedback .-&gt; NF\n</code></pre>"
+    ],
+    "6.1": [
+      "<p>The SVG redraw presents the corrected model. <a href=\"https://byteseismic.wordpress.com/wp-content/uploads/2025/02/untitled-diagram-2025-02-23-001359.png?w=1024\">View the original diagram</a> for source comparison.</p>",
+      "<p>Editorial reconstruction of editable Mermaid code. Solid arrows show assumed accounting dependencies; dotted arrows are proposed lagged feedbacks. Original diagrams remain linked as source artifacts; the photographic illustration is retained.</p><pre><code>flowchart TD\n  C[Compassion] --&gt; PE[Psychological cost]\n  RI[Indignation] --&gt; PE\n  F[Fear] --&gt; PE\n  B[Belonging] --&gt; PE\n  CC[Cultural conditioning] --&gt; SE[Social cost]\n  PS[Power structures] --&gt; SE\n  ES[Exposure] --&gt; SE\n  NF[Narrative framing] --&gt; SE\n  FT[Free time] --&gt; LE[Lifestyle cost]\n  R[Resources] --&gt; LE\n  EP[Environmental pressure] --&gt; LE\n  TC[Technology] --&gt; LE\n  IF[Information flow] --&gt; LE\n  PE --&gt; TEC[Total cost]\n  SE --&gt; TEC\n  LE --&gt; TEC\n  R --&gt; AT[Clipped capacity]\n  FT --&gt; AT\n  TC --&gt; AT\n  IF --&gt; AT\n  EP --&gt; AT\n  C --&gt; EB[Baseline target disposition]\n  RI --&gt; EB\n  TEC --&gt; ED[Bounded target index with zero-cost rule]\n  AT --&gt; ED\n  EB --&gt; ED\n  ED -. proposed next-period feedback .-&gt; R\n  RI -. proposed next-period feedback .-&gt; ES\n  ES -. proposed next-period feedback .-&gt; RI\n  RI -. proposed next-period feedback .-&gt; NF\n  NF -. proposed next-period feedback .-&gt; RI\n  NF -. proposed next-period feedback .-&gt; C\n  C -. proposed next-period feedback .-&gt; NF\n  ARP[Religious alignment: target conflict specified] --&gt; PE\n  ARP --&gt; SE\n  ARP --&gt; LE\n  ARP -. next period .-&gt; CC\n  CC -. next period .-&gt; ARP\n  PS -. next period .-&gt; ARP\n  ARP -. next period .-&gt; PS\n  ARP -. next period .-&gt; NF\n  NF -. next period .-&gt; ARP\n</code></pre>"
+    ],
+    "7.1": [
+      "<p>The SVG redraw presents the corrected model. <a href=\"https://byteseismic.wordpress.com/wp-content/uploads/2025/02/untitled-diagram-2025-02-23-003848.png?w=1024\">View the original diagram</a> for source comparison.</p>",
+      "<p>Editorial reconstruction of editable Mermaid code. Solid arrows show assumed accounting dependencies; dotted arrows are proposed lagged feedbacks. Original diagrams remain linked as source artifacts; the photographic illustration is retained.</p><pre><code>flowchart TD\n  C[Compassion] --&gt; PE[Psychological cost]\n  RI[Indignation] --&gt; PE\n  F[Fear] --&gt; PE\n  B[Belonging] --&gt; PE\n  CC[Cultural conditioning] --&gt; SE[Social cost]\n  PS[Power structures] --&gt; SE\n  ES[Exposure] --&gt; SE\n  NF[Narrative framing] --&gt; SE\n  FT[Free time] --&gt; LE[Lifestyle cost]\n  R[Resources] --&gt; LE\n  EP[Environmental pressure] --&gt; LE\n  TC[Technology] --&gt; LE\n  IF[Information flow] --&gt; LE\n  PE --&gt; TEC[Total cost]\n  SE --&gt; TEC\n  LE --&gt; TEC\n  R --&gt; AT[Clipped capacity]\n  FT --&gt; AT\n  TC --&gt; AT\n  IF --&gt; AT\n  EP --&gt; AT\n  C --&gt; EB[Baseline target disposition]\n  RI --&gt; EB\n  TEC --&gt; ED[Bounded target index with zero-cost rule]\n  AT --&gt; ED\n  EB --&gt; ED\n  ED -. proposed next-period feedback .-&gt; R\n  RI -. proposed next-period feedback .-&gt; ES\n  ES -. proposed next-period feedback .-&gt; RI\n  RI -. proposed next-period feedback .-&gt; NF\n  NF -. proposed next-period feedback .-&gt; RI\n  NF -. proposed next-period feedback .-&gt; C\n  C -. proposed next-period feedback .-&gt; NF\n  ARP[Religious alignment: target conflict specified] --&gt; PE\n  ARP --&gt; SE\n  ARP --&gt; LE\n  ARP -. next period .-&gt; CC\n  CC -. next period .-&gt; ARP\n  PS -. next period .-&gt; ARP\n  ARP -. next period .-&gt; PS\n  ARP -. next period .-&gt; NF\n  NF -. next period .-&gt; ARP\n  ED --&gt; RESULT[Hypothetical output: 0.01248; not historical prevalence]\n</code></pre>"
+    ],
+    "8.1": [
+      "<p>The SVG redraw presents the corrected calculation. <a href=\"https://byteseismic.wordpress.com/wp-content/uploads/2025/02/untitled-diagram-2025-02-23-073730.png?w=1024\">View the original octopus diagram</a> for source comparison.</p>",
+      "<p>Editorial reconstruction of editable Mermaid code. Solid arrows show assumed accounting dependencies; dotted arrows are proposed lagged feedbacks. Original diagrams remain linked as source artifacts; the photographic illustration is retained.</p><pre><code>flowchart TD\n  C[Compassion] --&gt; PE[Psychological cost]\n  RI[Indignation] --&gt; PE\n  F[Fear] --&gt; PE\n  B[Belonging] --&gt; PE\n  CC[Cultural conditioning] --&gt; SE[Social cost]\n  PS[Power structures] --&gt; SE\n  ES[Exposure] --&gt; SE\n  NF[Narrative framing] --&gt; SE\n  FT[Free time] --&gt; LE[Lifestyle cost]\n  R[Resources] --&gt; LE\n  EP[Environmental pressure] --&gt; LE\n  TC[Technology] --&gt; LE\n  IF[Information flow] --&gt; LE\n  PE --&gt; TEC[Total cost]\n  SE --&gt; TEC\n  LE --&gt; TEC\n  R --&gt; AT[Clipped capacity]\n  FT --&gt; AT\n  TC --&gt; AT\n  IF --&gt; AT\n  EP --&gt; AT\n  C --&gt; EB[Baseline target disposition]\n  RI --&gt; EB\n  TEC --&gt; ED[Bounded target index with zero-cost rule]\n  AT --&gt; ED\n  EB --&gt; ED\n  ED -. proposed next-period feedback .-&gt; R\n  RI -. proposed next-period feedback .-&gt; ES\n  ES -. proposed next-period feedback .-&gt; RI\n  RI -. proposed next-period feedback .-&gt; NF\n  NF -. proposed next-period feedback .-&gt; RI\n  NF -. proposed next-period feedback .-&gt; C\n  C -. proposed next-period feedback .-&gt; NF\n  ARP[Religious alignment: target conflict specified] --&gt; PE\n  ARP --&gt; SE\n  ARP --&gt; LE\n  ARP -. next period .-&gt; CC\n  CC -. next period .-&gt; ARP\n  PS -. next period .-&gt; ARP\n  ARP -. next period .-&gt; PS\n  ARP -. next period .-&gt; NF\n  NF -. next period .-&gt; ARP\n  ED --&gt; RESULT[Hypothetical output: 0.37505; not adoption percentage]\n</code></pre>"
+    ]
+  },
+  "readingCoverage": {
+    "sourceDumpLinesWithMath": 362,
+    "readRanges": [
+      [
+        1,
+        100
+      ],
+      [
+        101,
+        215
+      ],
+      [
+        216,
+        362
+      ]
+    ],
+    "sourceTail": "Complete original assessment and curator note read separately."
+  },
+  "sourceImageReplacements": {
+    "5.1.img0": {
+      "sourceUrl": "https://byteseismic.wordpress.com/wp-content/uploads/2025/02/untitled-diagram-2025-02-23-000441.png?w=1024",
+      "url": "/assets/diagrams/ethical-dynamics/basic-model.svg"
+    },
+    "6.1.img14": {
+      "sourceUrl": "https://byteseismic.wordpress.com/wp-content/uploads/2025/02/untitled-diagram-2025-02-23-001359.png?w=1024",
+      "url": "/assets/diagrams/ethical-dynamics/religious-alignment.svg"
+    },
+    "7.1.img34": {
+      "sourceUrl": "https://byteseismic.wordpress.com/wp-content/uploads/2025/02/untitled-diagram-2025-02-23-003848.png?w=1024",
+      "url": "/assets/diagrams/ethical-dynamics/historical-illustration.svg"
+    }
+  }
+}

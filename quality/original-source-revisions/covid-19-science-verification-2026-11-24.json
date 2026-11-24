@@ -1,0 +1,41 @@
+{
+  "pagePath": "/miscellany/covid-19-science/",
+  "sourceSha256": "bd1bda44891296ffad0a213ad314b9c3112d97157c91621fee9dec37fc7f57e5",
+  "originalPrompts": 6,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 8,
+  "sourceColumns": 20,
+  "modelResponses": 20,
+  "blocksRetainedVerbatim": 346,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 65,
+  "bareAnswersExplicitlyRevised": 3,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": false,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [
+    "4.1",
+    "3.1",
+    "3.3",
+    "7.1"
+  ],
+  "formatChecks": {
+    "forty-five original discussions": [
+      15,
+      15,
+      15
+    ],
+    "thirty answer disclosures": [
+      10,
+      10,
+      10
+    ]
+  },
+  "sha256": "20aa4a6980e53e94f62f454e5fc1843cd52c4c8e9d205c16a7dc8f04fb24ccfb",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": 2,
+  "isolatedBuildVerified": true
+}

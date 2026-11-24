@@ -1,0 +1,39 @@
+{
+  "pagePath": "/humanistic-philosophies/russell-on-faith/",
+  "sourceSha256": "a8c83e09ab629bfb76236890fbcb28aacf885cacbe98a7e36c78a3735029bc6c",
+  "originalPrompts": 7,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 7,
+  "sourceColumns": 21,
+  "modelResponses": 21,
+  "blocksRetainedVerbatim": 267,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 96,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "ten quiz questions and answers each": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "fifteen discussion questions each": [
+      15,
+      15,
+      15
+    ]
+  },
+  "sha256": "bf25fa1110dbc1ab34fb157605d3672af000cd14a5511a00d7d63c098ced193b",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": 2,
+  "isolatedBuildVerified": true
+}

@@ -1,0 +1,36 @@
+{
+  "pagePath": "/ethics/evidences-of-moral-facts/",
+  "sourceSha256": "c80296ffcbcb403db91c682ddc782829149cb5aa8f9453a46964d908a3f6122a",
+  "originalPrompts": 10,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 10,
+  "sourceColumns": 19,
+  "modelResponses": 18,
+  "blocksRetainedVerbatim": 232,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 62,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "discussion questions": [
+      15,
+      15
+    ],
+    "twenty quiz questions and keys": [
+      10,
+      10,
+      10,
+      10
+    ]
+  },
+  "sha256": "4f397d0aac8037195797ed634e14886205db391326f873151017813761972302",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": 2,
+  "isolatedBuildVerified": true
+}

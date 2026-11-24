@@ -1,0 +1,36 @@
+{
+  "pagePath": "/humanistic-philosophies/personal-cosmic-meaning/",
+  "sourceSha256": "e38442555a2b6c4e14c8ce142d9e5a501d6a12343f3b99edbb049cffcffcdc25",
+  "originalPrompts": 8,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 8,
+  "sourceColumns": 16,
+  "modelResponses": 16,
+  "blocksRetainedVerbatim": 162,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 45,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "ten questions and answers per model": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "fifteen discussions each": [
+      15,
+      15
+    ]
+  },
+  "sha256": "479f77b3d0aaad3bc0c9953f37f80c86e879419862df9612668826d6a8067a93",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": 2,
+  "isolatedBuildVerified": true
+}
