@@ -1,0 +1,34 @@
+{
+  "status": "DRAFT—NOT FULLY REVIEWED OR BUILD VERIFIED",
+  "wordpressId": 6019,
+  "sourceSha256": "3b895557ecd7f285faf2a4e2a11e838f7b68852684a192a696f0cd59e7ed9113",
+  "proposedReplacements": {
+    "1.1.6": "Unsupervised learning: methods that identify structure in data without supplied target labels. Designers still choose representations, objectives and evaluation methods; “unsupervised” does not mean free of human assumptions.",
+    "1.1.7": "Reinforcement learning: learning a policy for choosing actions to obtain high expected reward. The reward is a specified signal and may fail to capture what people actually value.",
+    "1.1.12": "Strong AI: in Searle’s philosophical usage, the claim that an appropriately programmed computer can literally possess a mind and understanding. Popular usage sometimes equates it with general capability, but that is a different claim.",
+    "1.1.13": "Weak AI: in the philosophical contrast, treating computer programs as useful models or tools for studying minds without claiming that running the program constitutes a mind. This should be distinguished from narrow AI, which concerns the range of tasks performed.",
+    "1.1.14": "Artificial general intelligence (AGI): broadly transferable competence across cognitive tasks. Definitions and thresholds vary; breadth of performance does not by itself settle consciousness or understanding.",
+    "1.1.23": "Bias in AI: systematic tendencies arising from data, design, measurement or deployment. Statistical bias and unfair social outcomes are related but distinct senses; not every useful inductive bias is prejudice.",
+    "1.1.27": "Human-in-the-loop: human participation in training, evaluation or operation. Meaningful oversight requires appropriate information, authority and time; mere presence does not guarantee control.",
+    "1.2.0": "Artificial general intelligence (AGI): broadly transferable cognitive competence rather than a system limited to one defined task. There is no single agreed threshold, and the term does not entail consciousness.",
+    "1.2.3": "Chinese Room argument: Searle’s challenge to the claim that executing a formal program is sufficient for understanding. It concerns the relation between syntax and semantics; critics dispute whether the understanding of the whole system is captured by the person manipulating symbols.",
+    "1.2.12": "Consciousness: in the relevant phenomenal sense, subjective experience—there being something it is like to be the system. Responsiveness and wakefulness are related but distinct notions; behavior alone does not settle this question.",
+    "1.2.18": "Machine ethics: inquiry into how artificial systems might choose or act in ways constrained by ethical considerations. The broader ethics of AI also examines the responsibilities of people and institutions that develop and deploy them.",
+    "1.2.25": "Artificial empathy: systems that recognize emotional cues or produce responses perceived as empathetic. Simulating an empathetic response does not establish that the system shares anyone’s feelings.",
+    "2.1.1": "Philosophical behaviorism: analyzes mental concepts in terms of behavior or dispositions to behave. It does not establish that machines necessarily lack understanding; rather, it raises the question of what behavioral criteria justify mental attribution.",
+    "2.1.9": "Hard problem of consciousness: why and how physical or functional processes are accompanied by subjective experience. Posing this explanatory problem does not itself prove that computation can never support consciousness.",
+    "2.1.12": "Singularity: a speculative discontinuity in technological development, often associated with rapidly accelerating or self-improving AI. It is distinct from merely exceeding human performance on particular tasks.",
+    "2.2.1": "Artificial general intelligence (AGI): imagine competence that transfers across substantially different tasks, with flexible learning in unfamiliar settings. Whether and when a system meets that description depends on a stated definition and evidence; “distant future” is not a justified timetable.",
+    "2.2.4": "Chinese Room argument: imagine a person following formal rules for producing Chinese responses without understanding Chinese. Searle uses this to argue that program execution alone is insufficient for understanding. The argument and replies to it concern more than whether a chatbot passes a test.",
+    "2.2.13": "Machine ethics: studies whether and how machines can make ethically constrained decisions. Building in a rule or objective does not ensure alignment with all human values, especially when those values conflict.",
+    "2.2.15": "Artificial consciousness debate: whether artificial systems can have subjective experience and what evidence would support that attribution. Being responsive to surroundings is insufficient as a definition of experience.",
+    "6.1.8": "How do different degrees of machine autonomy change human oversight, employment and daily life? Which decisions should remain contestable by affected people?",
+    "6.2.3": "Searle’s Chinese Room argument challenges the sufficiency of formal program execution for understanding. Which reply to that argument is strongest, and why?",
+    "6.2.9": "What distinguishes explaining intelligent behavior from explaining subjective experience, and what evidence could bear on consciousness in artificial systems?"
+  },
+  "remainingWork": [
+    "Review and verify every proposed replacement before incorporation.",
+    "Complete resource/university verification and remaining definition repairs documented in partial record.",
+    "Render, fidelity-check, isolate-build-check and count only after full review."
+  ]
+}

@@ -2,8 +2,8 @@
   "cycle": 8,
   "startIndex": 200,
   "pageCount": 50,
-  "reviewed": 8,
-  "pending": 42,
+  "reviewed": 9,
+  "pending": 41,
   "pages": [
     {
       "pagePath": "/metaphysics/categories-of-nihilism/",
@@ -64,7 +64,9 @@
     {
       "pagePath": "/philosophy-of-ai/human-reaction-to-ai/",
       "title": "Human Reaction to AI",
-      "status": "pending-original-review"
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/human-reaction-to-ai-verification-2026-11-25.json",
+      "report": "quality/editorial-audit-2026-11-25.json"
     },
     {
       "pagePath": "/philosophy-of-ai/philosophy-of-ai-core-concepts/",

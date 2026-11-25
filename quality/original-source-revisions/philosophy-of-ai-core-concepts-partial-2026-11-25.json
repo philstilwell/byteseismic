@@ -1,0 +1,51 @@
+{
+  "status": "source-read-not-revised-or-verified",
+  "countTowardDailyTotal": false,
+  "wordpressId": 6019,
+  "sourceUrl": "http://byteseismic.com/2024/04/11/philosophy-of-ai-core-concepts/",
+  "sourceReadingCoverage": {
+    "indexedLines": 293,
+    "ranges": [
+      [
+        1,
+        65
+      ],
+      [
+        66,
+        140
+      ],
+      [
+        141,
+        220
+      ],
+      [
+        221,
+        293
+      ]
+    ],
+    "currentArticleCharacters": 39198,
+    "currentRanges": [
+      [
+        0,
+        20000
+      ],
+      [
+        20000,
+        39198
+      ]
+    ]
+  },
+  "requiredRepairs": [
+    "Behaviorism definition reverses its implication; strong/weak AI, AGI, consciousness and singularity are conflated.",
+    "Correct Chinese Room target, frame problem, Goodhart formulation, artificial empathy and Moral Machine description.",
+    "Restore sixty terms, thirty concepts and thirty discussion questions across separate responses.",
+    "Resource list includes misattributed or unverified titles, incorrect encyclopedia authors/links and fiction labeled documentary.",
+    "University list confuses institutes with degrees; alleged ANU mental-health MPhil AI/Society unsupported; FHI closed April 16, 2024. Verify all listings using official sources."
+  ],
+  "researchLocated": [
+    "https://melaniemitchell.me/aibook/",
+    "https://www.futureofhumanityinstitute.org/home",
+    "https://plato.stanford.edu/entries/artificial-intelligence/",
+    "https://plato.stanford.edu/archives/sum2020/entries/chinese-room/"
+  ]
+}

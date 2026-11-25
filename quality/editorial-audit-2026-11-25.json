@@ -1,0 +1,115 @@
+{
+  "runTime": "2026-11-25T09:13:24.703144-05:00",
+  "dailyTarget": 20,
+  "fullyReviewedToday": 1,
+  "dailyShortfall": 19,
+  "status": "INCOMPLETE DAILY TARGET; no external blocker established",
+  "cycle": 8,
+  "batchStartIndex": 200,
+  "batchReviewed": 9,
+  "batchPending": 41,
+  "substantivelyReviewed": 209,
+  "substantivelyRemaining": 137,
+  "officialCompleted": 200,
+  "officialRemaining": 146,
+  "pages": [
+    {
+      "title": "Human Reaction to AI",
+      "source": "http://byteseismic.com/2024/03/25/human-reaction-to-ai/",
+      "wordpressId": 4404,
+      "decisions": [
+        "Read all 223 indexed source lines in ranges 1–75,76–150,151–223 and current article in character ranges 0–22000,22000–44103. URL/title/seven prompts match.",
+        "1: retained historical examples and stage lists; replaced deterministic progression and unsupported uniqueness claims.",
+        "2: preserved both risk/mitigation lists; distinguished task superiority from singularity, dignity from comparative performance and training from guaranteed employment.",
+        "3: retained symmetrical deification/demonization analysis; distinguished warranted concern, faithful explanation and persuasion.",
+        "4: preserved each field comparison while replacing unsupported rankings with task-specific predictions; included contemporary religious engagement counterexample.",
+        "5: directly developed curator’s authority-threat hypothesis, evidential contrast and alternative explanations without excusing unsupported revelation claims.",
+        "6: retained twenty quiz questions and twenty keys; repaired dependent claims and ambiguous multiple-choice items.",
+        "7: retained thirty discussion questions, sharpening historical selection and human-participation questions."
+      ],
+      "verification": {
+        "pagePath": "/philosophy-of-ai/human-reaction-to-ai/",
+        "sourceSha256": "e6e7932623e2d9d88177bc6c3e8dd0c3e63ea4d0b6f4c8aebdf114ef6412df1b",
+        "originalPrompts": 7,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 7,
+        "sourceColumns": 14,
+        "modelResponses": 14,
+        "blocksRetainedVerbatim": 149,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 66,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": false,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [
+          "3.1",
+          "4.1"
+        ],
+        "formatChecks": {
+          "quiz questions and keys": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "discussion questions": [
+            15,
+            15
+          ]
+        },
+        "sha256": "7293a9e10c814d87969367646e1a5623c4ca6be0eead5838b2c16d3c1c99b8a4",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 2,
+        "isolatedBuildVerified": true,
+        "sourceReadingCoverage": {
+          "indexedLines": 223,
+          "ranges": [
+            [
+              1,
+              75
+            ],
+            [
+              76,
+              150
+            ],
+            [
+              151,
+              223
+            ]
+          ],
+          "currentArticleCharacters": 44103,
+          "currentRanges": [
+            [
+              0,
+              22000
+            ],
+            [
+              22000,
+              44103
+            ]
+          ]
+        }
+      }
+    }
+  ],
+  "partialPage": "quality/original-source-revisions/philosophy-of-ai-core-concepts-partial-2026-11-25.json",
+  "build": {
+    "isolated": true,
+    "log": "Dialectical preservation check passed for all 39 recovered pages, including 17 high-risk regression cases.\nSite audit: pages=840 broken_links=0 duplicate_ids=0 prompt_number_issues=0 orphans=0 oversized_assets=0 style_scars=0 grammar_scars=1 seo_issues=0 json_ld_issues=0 sitemap_issues=0 robots_issues=0\nGenerated or updated 723 content pages.\nVisible hierarchy sections: 15\nExpanded archive years: 2\n",
+    "reviewedPagesByteIdentical": 209,
+    "earlierPagesPreservationOnly": 208
+  },
+  "unrelatedFilesHashPreserved": 476,
+  "limitations": [
+    "Daily target not achieved. No external blocker is claimed.",
+    "No browser, mobile or accessibility audit.",
+    "Philosophy of AI – Core Concepts fully source-read with 22 draft corrections but requires further reference verification, final revision and all verification. Not counted."
+  ],
+  "nextPage": "Philosophy of AI – Core Concepts",
+  "nextBatch": "Evidence Workshop through What is Faith? (250–299)",
+  "trackerAdvanced": false
+}

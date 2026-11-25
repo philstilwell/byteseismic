@@ -1,0 +1,67 @@
+{
+  "pagePath": "/philosophy-of-ai/human-reaction-to-ai/",
+  "sourceSha256": "e6e7932623e2d9d88177bc6c3e8dd0c3e63ea4d0b6f4c8aebdf114ef6412df1b",
+  "originalPrompts": 7,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 7,
+  "sourceColumns": 14,
+  "modelResponses": 14,
+  "blocksRetainedVerbatim": 149,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 66,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": false,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [
+    "3.1",
+    "4.1"
+  ],
+  "formatChecks": {
+    "quiz questions and keys": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "discussion questions": [
+      15,
+      15
+    ]
+  },
+  "sha256": "7293a9e10c814d87969367646e1a5623c4ca6be0eead5838b2c16d3c1c99b8a4",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": 2,
+  "isolatedBuildVerified": true,
+  "sourceReadingCoverage": {
+    "indexedLines": 223,
+    "ranges": [
+      [
+        1,
+        75
+      ],
+      [
+        76,
+        150
+      ],
+      [
+        151,
+        223
+      ]
+    ],
+    "currentArticleCharacters": 44103,
+    "currentRanges": [
+      [
+        0,
+        22000
+      ],
+      [
+        22000,
+        44103
+      ]
+    ]
+  }
+}
