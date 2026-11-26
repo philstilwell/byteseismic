@@ -9,6 +9,11 @@ import editorial_daily_gate as gate
 
 
 class DailyGateTests(unittest.TestCase):
+    def completed_day_plan(self):
+        # A date can contain separately authorized assignments. Exercise the
+        # frozen daily plan, never combine every report into a new assignment.
+        return gate.read(gate.ROOT, gate.assignment_path('2026-11-26'))
+
     def test_additional_assignment_cannot_replace_or_create_daily_work(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
@@ -20,8 +25,7 @@ class DailyGateTests(unittest.TestCase):
                                 gate.assignment_path('2026-11-26', 'review-recovery'))
 
     def test_real_completed_day_and_missing_evidence(self):
-        plan = {'date': '2026-11-26', 'target': 20, 'remainingAtPlanning': 135,
-                'pagePaths': list(gate.records(gate.ROOT, '2026-11-26'))}
+        plan = self.completed_day_plan()
         errors, files = gate.evidence(gate.ROOT, plan)
         self.assertEqual(errors, [])
         self.assertGreater(len(files), 60)
@@ -29,11 +33,11 @@ class DailyGateTests(unittest.TestCase):
         rows.pop(plan['pagePaths'][-1])
         with patch.object(gate, 'records', return_value=rows):
             errors, _ = gate.evidence(gate.ROOT, plan)
-        self.assertTrue(errors)
+        self.assertTrue(any(plan['pagePaths'][-1] in error for error in errors))
 
     def test_two_pages_cannot_pass_twenty_page_target(self):
-        plan = {'date': '2026-11-26', 'target': 20, 'remainingAtPlanning': 135,
-                'pagePaths': list(gate.records(gate.ROOT, '2026-11-26'))[:2]}
+        plan = self.completed_day_plan()
+        plan['pagePaths'] = plan['pagePaths'][:2]
         self.assertTrue(gate.evidence(gate.ROOT, plan)[0])
 
     def test_duplicates_do_not_count(self):
@@ -42,10 +46,10 @@ class DailyGateTests(unittest.TestCase):
         self.assertTrue(gate.evidence(gate.ROOT, plan)[0])
 
     def test_changed_page_fails(self):
-        plan = {'date': '2026-11-26', 'target': 20, 'remainingAtPlanning': 135,
-                'pagePaths': list(gate.records(gate.ROOT, '2026-11-26'))}
+        plan = self.completed_day_plan()
         with patch.object(gate, 'sha', return_value='changed'):
-            self.assertTrue(gate.evidence(gate.ROOT, plan)[0])
+            errors, _ = gate.evidence(gate.ROOT, plan)
+        self.assertTrue(any('current page does not match' in error for error in errors))
 
     def test_missing_build_fails(self):
         original = gate.read
@@ -53,10 +57,10 @@ class DailyGateTests(unittest.TestCase):
             if 'batch-verification-' in str(path):
                 raise FileNotFoundError(path)
             return original(root, path)
-        plan = {'date': '2026-11-26', 'target': 20, 'remainingAtPlanning': 135,
-                'pagePaths': list(gate.records(gate.ROOT, '2026-11-26'))}
+        plan = self.completed_day_plan()
         with patch.object(gate, 'read', side_effect=read):
-            self.assertTrue(gate.evidence(gate.ROOT, plan)[0])
+            errors, _ = gate.evidence(gate.ROOT, plan)
+        self.assertTrue(any('Missing or invalid full-build record' in error for error in errors))
 
     def test_unpushed_or_uncommitted_cannot_pass(self):
         def git(root, *args):

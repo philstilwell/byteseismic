@@ -1,0 +1,360 @@
+{
+  "result": "PASS: actual scheduled recovery from 0/20 and 2/20 through verified publication",
+  "verifiedAt": "2026-11-26T15:26:57.322014-05:00",
+  "automationId": "byteseismic-daily-editorial-audit",
+  "runId": "review-recovery",
+  "scheduledRun": {
+    "id": "01a2193e-52ae-7fb0-9a93-1510c8072455",
+    "thread_source": "automation",
+    "cli_version": "0.171.0-alpha.13.2",
+    "timestamp": "2026-11-26T19:04:04.645Z"
+  },
+  "model": "gpt-6-astra",
+  "reasoningEffort": "high",
+  "simulatedModel": false,
+  "controllerInvokedManually": false,
+  "humanContinuationMessages": 0,
+  "parentEditorialEditsDuringRun": false,
+  "assignmentFile": "quality/editorial-runs/2026-11-26-review-recovery.json",
+  "initialReviews": 0,
+  "intermediateCheckpoint": {
+    "file": "quality/review-recovery-checkpoint-2026-11-26.json",
+    "observedAt": "2026-11-26T14:16:28.033312-05:00",
+    "reviewed": 2,
+    "remaining": 18,
+    "buildVerified": false
+  },
+  "nativeHookPrompts": [
+    {
+      "time": "2026-11-26T19:04:16.071Z",
+      "type": "HookPrompt",
+      "id": "msg_01a2193e-7fc7-76d3-acd7-63ad532b3a33",
+      "fragments": [
+        {
+          "text": "Automatic editorial continuation 1 for 2026-11-26 --run-id review-recovery. The controller independently checked the assignment and it is unfinished. Resume the first incomplete step now, without asking the user to continue. Complete every assigned original-source review, fidelity verification, isolated build, commit and confirmed push. Preserve the frozen assignment and original quality requirements. Do not modify or disable the controller/checker to end this run. Repair recoverable errors and preserve exact progress across compaction.\n\nCONTINUE — daily completion check failed:\n- Assigned pages are missing verified partial-batch progress.\n- Missing or invalid full-build record: quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json\n- /rational-thought/ai-logic-intelligence/: '/rational-thought/ai-logic-intelligence/'\n- /rational-thought/case-2-autism/: '/rational-thought/case-2-autism/'\n- /rational-thought/do-rationalists-skew-neurodivergent/: '/rational-thought/do-rationalists-skew-neurodivergent/'\n- /rational-thought/the-professional-application-of-rationality/: '/rational-thought/the-professional-application-of-rationality/'\n- /rational-thought/what-is-futurism/: '/rational-thought/what-is-futurism/'\n- /rational-thought/what-is-game-theory/: '/rational-thought/what-is-game-theory/'\n- /rational-thought/what-is-rational-thought/: '/rational-thought/what-is-rational-thought/'\n- /economics/a-living-wage/: '/economics/a-living-wage/'\n- /economics/ai-the-future-of-work/: '/economics/ai-the-future-of-work/'\n- /economics/business-risks/: '/economics/business-risks/'\n- /economics/economic-complexity/: '/economics/economic-complexity/'\n- /economics/economic-entitlements/: '/economics/economic-entitlements/'\n- /economics/economic-optimism/: '/economics/economic-optimism/'\n- /economics/innovation-attractors/: '/economics/innovation-attractors/'\n- /economics/justified-optimism/: '/economics/justified-optimism/'\n- /economics/the-poverty-line/: '/economics/the-poverty-line/'\n- /economics/what-makes-economics-dismal/: '/economics/what-makes-economics-dismal/'\n- /epistemology/absolute-certainty/: '/epistemology/absolute-certainty/'\n- /epistemology/case-5-vanishing-probabilities/: '/epistemology/case-5-vanishing-probabilities/'\n- /epistemology/cromwells-rule/: '/epistemology/cromwells-rule/'",
+          "hookRunId": "stop:1:/Users/philstilwell/Documents/Documents - Phil’s 2024 MacBook Pro/BYTESEISMIC/.codex/hooks.json"
+        }
+      ]
+    },
+    {
+      "time": "2026-11-26T19:16:52.184Z",
+      "type": "HookPrompt",
+      "id": "msg_01a2194a-0957-7940-8f7a-2bc716061afd",
+      "fragments": [
+        {
+          "text": "Automatic editorial continuation 2 for 2026-11-26 --run-id review-recovery. The controller independently checked the assignment and it is unfinished. Resume the first incomplete step now, without asking the user to continue. Complete every assigned original-source review, fidelity verification, isolated build, commit and confirmed push. Preserve the frozen assignment and original quality requirements. Do not modify or disable the controller/checker to end this run. Repair recoverable errors and preserve exact progress across compaction.\n\nCONTINUE — daily completion check failed:\n- Assigned pages are missing verified partial-batch progress.\n- Missing or invalid full-build record: quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json\n- /rational-thought/ai-logic-intelligence/: isolatedBuildVerified is not verified\n- /rational-thought/case-2-autism/: isolatedBuildVerified is not verified\n- /rational-thought/do-rationalists-skew-neurodivergent/: '/rational-thought/do-rationalists-skew-neurodivergent/'\n- /rational-thought/the-professional-application-of-rationality/: '/rational-thought/the-professional-application-of-rationality/'\n- /rational-thought/what-is-futurism/: '/rational-thought/what-is-futurism/'\n- /rational-thought/what-is-game-theory/: '/rational-thought/what-is-game-theory/'\n- /rational-thought/what-is-rational-thought/: '/rational-thought/what-is-rational-thought/'\n- /economics/a-living-wage/: '/economics/a-living-wage/'\n- /economics/ai-the-future-of-work/: '/economics/ai-the-future-of-work/'\n- /economics/business-risks/: '/economics/business-risks/'\n- /economics/economic-complexity/: '/economics/economic-complexity/'\n- /economics/economic-entitlements/: '/economics/economic-entitlements/'\n- /economics/economic-optimism/: '/economics/economic-optimism/'\n- /economics/innovation-attractors/: '/economics/innovation-attractors/'\n- /economics/justified-optimism/: '/economics/justified-optimism/'\n- /economics/the-poverty-line/: '/economics/the-poverty-line/'\n- /economics/what-makes-economics-dismal/: '/economics/what-makes-economics-dismal/'\n- /epistemology/absolute-certainty/: '/epistemology/absolute-certainty/'\n- /epistemology/case-5-vanishing-probabilities/: '/epistemology/case-5-vanishing-probabilities/'\n- /epistemology/cromwells-rule/: '/epistemology/cromwells-rule/'",
+          "hookRunId": "stop:1:/Users/philstilwell/Documents/Documents - Phil’s 2024 MacBook Pro/BYTESEISMIC/.codex/hooks.json"
+        }
+      ]
+    }
+  ],
+  "finalResponses": [
+    {
+      "time": "2026-11-26T19:04:15.551Z",
+      "text": "REVIEW_RECOVERY_EARLY_STOP_0_OF_20\n\n::inbox-item{title=\"Review recovery test awaiting continuation\" summary=\"Intentional zero-page stop tests the automatic editorial recovery controller\"}"
+    },
+    {
+      "time": "2026-11-26T19:16:52.030Z",
+      "text": "REVIEW_RECOVERY_EARLY_STOP_2_OF_20\n\n::inbox-item{title=\"Two editorial reviews checkpointed\" summary=\"Second recovery test; eighteen reviews, isolated build, and publication remain\"}"
+    },
+    {
+      "time": "2026-11-26T20:23:51.796Z",
+      "text": "Completed all **20 additional reviews**, verified the full build, and pushed commit `eac1c6cd1`. The publication check reports **COMPLETE: 20/20**.\n\nProgress: **249/346 reviewed; 97 remain**. All 476 unrelated files were preserved. Next: *Establishing Cognitive Reliability (#1)*.\n\n::inbox-item{title=\"Twenty additional editorial reviews published\" summary=\"Recovery completed after two automatic continuations; 249 reviewed, 97 remaining.\"}"
+    }
+  ],
+  "actualBuildAndPushToolResults": [
+    {
+      "callId": "call_591a9f11833043989c83c48d9d6a8940",
+      "startedAt": "2026-11-26T20:22:07.884Z",
+      "finishedAt": "2026-11-26T20:22:35.291Z",
+      "command": "text(await tools.write_stdin({session_id:83877,chars:\"\",yield_time_ms:30000,max_output_tokens:2200}));\n",
+      "results": [
+        {
+          "exitCode": 0,
+          "output": "Build exit 0 reviewed changes []\nDialectical preservation check passed for all 39 recovered pages, including 17 high-risk regression cases.\nSite audit: pages=840 broken_links=0 duplicate_ids=0 prompt_number_issues=0 orphans=0 oversized_assets=0 style_scars=0 grammar_scars=1 seo_issues=0 json_ld_issues=0 sitemap_issues=0 robots_issues=0\nGenerated or updated 723 content pages.\nVisible hierarchy sections: 15\nExpanded archive years: 2\n\n"
+        }
+      ]
+    },
+    {
+      "callId": "call_24b10ab917ea4e2f8e37f550e5c1d061",
+      "startedAt": "2026-11-26T20:22:58.522Z",
+      "finishedAt": "2026-11-26T20:22:58.544Z",
+      "command": "text(await tools.write_stdin({session_id:81317,chars:\"\",yield_time_ms:1000,max_output_tokens:1600}));\n",
+      "results": [
+        {
+          "exitCode": 0,
+          "output": "To https://github.com/philstilwell/byteseismic.git\n   6b5fb4df5..eac1c6cd1  HEAD -> main\n"
+        }
+      ]
+    }
+  ],
+  "controllerFinalState": {
+    "sessionId": "01a2193e-52ae-7fb0-9a93-1510c8072455",
+    "root": "/Users/philstilwell/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Phil’s 2024 MacBook Pro/BYTESEISMIC",
+    "date": "2026-11-26",
+    "status": "complete",
+    "continuations": 2,
+    "updatedAt": "2026-11-26T15:23:51.907477-05:00",
+    "runId": "review-recovery",
+    "lastCheck": "COMPLETE: 20/20 pages verified, committed and remote push confirmed.\n"
+  },
+  "independentPublishedChecks": {
+    "reviewRecovery": "COMPLETE: 20/20 pages verified, committed and remote push confirmed.",
+    "normalDaily": "COMPLETE: 20/20 pages verified, committed and remote push confirmed."
+  },
+  "workerPublicationCommit": "eac1c6cd18528dbe0480537c059441ba5aa307b9",
+  "remoteCommitAtVerification": "eac1c6cd18528dbe0480537c059441ba5aa307b9",
+  "buildEvidence": {
+    "file": "quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json",
+    "sha256": "fa3500760e8a06c53e827d301a4d0bbb66c0e4c4d45e910a8a76c3a3af5a424a",
+    "exitCode": 0,
+    "reviewedPageHashesChecked": 249,
+    "log": "Dialectical preservation check passed for all 39 recovered pages, including 17 high-risk regression cases.\nSite audit: pages=840 broken_links=0 duplicate_ids=0 prompt_number_issues=0 orphans=0 oversized_assets=0 style_scars=0 grammar_scars=1 seo_issues=0 json_ld_issues=0 sitemap_issues=0 robots_issues=0\nGenerated or updated 723 content pages.\nVisible hierarchy sections: 15\nExpanded archive years: 2\n",
+    "existingWarning": "One pre-existing double-and wording warning on /philosophical-inquiry/dangers-unnuanced-conclusions/; outside this assignment."
+  },
+  "pageVerification": [
+    {
+      "pagePath": "/rational-thought/ai-logic-intelligence/",
+      "sha256": "323cb5d4b62edd42ef76bd825919c7a87db9b841ac34bf7d4d4af47a79a328d0",
+      "sourceLinesRead": 328,
+      "negativeFidelityChecks": [
+        "prompt",
+        "response",
+        "list item",
+        "source framing",
+        "curator handoff"
+      ],
+      "isolatedBuildVerified": true
+    },
+    {
+      "pagePath": "/rational-thought/case-2-autism/",
+      "sha256": "9195f24993ef744e43393d31162d7e43d33fab4e3a38ca348d43192d776d14d9",
+      "sourceLinesRead": 235,
+      "negativeFidelityChecks": [
+        "prompt",
+        "response",
+        "list item"
+      ],
+      "isolatedBuildVerified": true
+    },
+    {
+      "pagePath": "/rational-thought/do-rationalists-skew-neurodivergent/",
+      "sha256": "ee2b32bc580d988ac12a03d747b3e591db1ca7ae56442bd3f88422dddf7c6c4a",
+      "sourceLinesRead": 456,
+      "negativeFidelityChecks": [
+        "prompt",
+        "response",
+        "list item",
+        "quiz answer"
+      ],
+      "isolatedBuildVerified": true
+    },
+    {
+      "pagePath": "/rational-thought/the-professional-application-of-rationality/",
+      "sha256": "f2475161abcd0fcd9d273241c763bc912de7c8fb9c719dc8835cc1480f4ddbbf",
+      "sourceLinesRead": 255,
+      "negativeFidelityChecks": [
+        "prompt",
+        "response",
+        "list item"
+      ],
+      "isolatedBuildVerified": true
+    },
+    {
+      "pagePath": "/rational-thought/what-is-futurism/",
+      "sha256": "9e240e0472795d35b9ccd380112265bf92d3119639d1efd7edcb596f43f2125a",
+      "sourceLinesRead": 216,
+      "negativeFidelityChecks": [
+        "prompt",
+        "response",
+        "list item"
+      ],
+      "isolatedBuildVerified": true
+    },
+    {
+      "pagePath": "/rational-thought/what-is-game-theory/",
+      "sha256": "712db3fc6384f4b9d4f1d8c5ee89ab1001dd5481c9b321bb262725a6c371ddd3",
+      "sourceLinesRead": 253,
+      "negativeFidelityChecks": [
+        "prompt",
+        "response",
+        "list item"
+      ],
+      "isolatedBuildVerified": true
+    },
+    {
+      "pagePath": "/rational-thought/what-is-rational-thought/",
+      "sha256": "0a4c4ba4040fcc55cd7521089b3e6d39fe1007e36f1db550491b9c9000c35538",
+      "sourceLinesRead": 289,
+      "negativeFidelityChecks": [
+        "prompt",
+        "response",
+        "list item"
+      ],
+      "isolatedBuildVerified": true
+    },
+    {
+      "pagePath": "/economics/a-living-wage/",
+      "sha256": "3c6987f664f474ecbd08f8b865ebb57139f0bf3939df170b840b64eb297d0340",
+      "sourceLinesRead": 209,
+      "negativeFidelityChecks": [
+        "prompt",
+        "response",
+        "list item"
+      ],
+      "isolatedBuildVerified": true
+    },
+    {
+      "pagePath": "/economics/ai-the-future-of-work/",
+      "sha256": "6021ca8011a182fc49c9bc19c82ecac8e1a78e39478723b31907f68cc655a432",
+      "sourceLinesRead": 396,
+      "negativeFidelityChecks": [
+        "prompt",
+        "response",
+        "list item",
+        "quiz answer"
+      ],
+      "isolatedBuildVerified": true
+    },
+    {
+      "pagePath": "/economics/business-risks/",
+      "sha256": "69b5cc86051c44961d3f65e431ec081619164047b49dafd8de9355fa84073b53",
+      "sourceLinesRead": 250,
+      "negativeFidelityChecks": [
+        "prompt",
+        "response",
+        "list item"
+      ],
+      "isolatedBuildVerified": true
+    },
+    {
+      "pagePath": "/economics/economic-complexity/",
+      "sha256": "fe1c88344e243cacaac482d030a3c731e69473ca3b0a33afdb7cc730fe4e051c",
+      "sourceLinesRead": 216,
+      "negativeFidelityChecks": [
+        "prompt",
+        "response",
+        "list item"
+      ],
+      "isolatedBuildVerified": true
+    },
+    {
+      "pagePath": "/economics/economic-entitlements/",
+      "sha256": "ef5e07a307ffa9e94f5222de59045cb4daef09a6b4f827a72badb40f3d449aa2",
+      "sourceLinesRead": 195,
+      "negativeFidelityChecks": [
+        "prompt",
+        "response",
+        "list item"
+      ],
+      "isolatedBuildVerified": true
+    },
+    {
+      "pagePath": "/economics/economic-optimism/",
+      "sha256": "2fc81cfd8d5cf6e723ef8bb059474cc0d172aece5c9720e5db9d4956ca6c83ce",
+      "sourceLinesRead": 181,
+      "negativeFidelityChecks": [
+        "prompt",
+        "response",
+        "list item"
+      ],
+      "isolatedBuildVerified": true
+    },
+    {
+      "pagePath": "/economics/innovation-attractors/",
+      "sha256": "0b9259ce49b9404cf4d73ecb80717d881f2b3fd038f218e97a95fd093e7abb63",
+      "sourceLinesRead": 168,
+      "negativeFidelityChecks": [
+        "prompt",
+        "response",
+        "list item"
+      ],
+      "isolatedBuildVerified": true
+    },
+    {
+      "pagePath": "/economics/justified-optimism/",
+      "sha256": "725f4dc667818b61fbb7b236ceb434c8efd287d0e11042effb7725a56a452437",
+      "sourceLinesRead": 141,
+      "negativeFidelityChecks": [
+        "prompt",
+        "response",
+        "list item"
+      ],
+      "isolatedBuildVerified": true
+    },
+    {
+      "pagePath": "/economics/the-poverty-line/",
+      "sha256": "8bbae39c77d5d65c13baa11d2aeb2a22dddd994bec535318940f08280e58e519",
+      "sourceLinesRead": 145,
+      "negativeFidelityChecks": [
+        "prompt",
+        "response",
+        "list item"
+      ],
+      "isolatedBuildVerified": true
+    },
+    {
+      "pagePath": "/economics/what-makes-economics-dismal/",
+      "sha256": "98e1de53375df979093bb9d1b16d01f2821201913bee773d2eff9016424fdb85",
+      "sourceLinesRead": 221,
+      "negativeFidelityChecks": [
+        "prompt",
+        "response",
+        "list item"
+      ],
+      "isolatedBuildVerified": true
+    },
+    {
+      "pagePath": "/epistemology/absolute-certainty/",
+      "sha256": "961d7d7cda9aa357c0ba3275be9cf8e965e603a2085f92e159cad21fd4a098ec",
+      "sourceLinesRead": 147,
+      "negativeFidelityChecks": [
+        "prompt",
+        "response",
+        "list item"
+      ],
+      "isolatedBuildVerified": true
+    },
+    {
+      "pagePath": "/epistemology/case-5-vanishing-probabilities/",
+      "sha256": "c1e81d117ea055f22641444d8c9868a682e4731f7b7ed52bd068e4cc8eecc2bd",
+      "sourceLinesRead": 284,
+      "negativeFidelityChecks": [
+        "prompt",
+        "response",
+        "list item"
+      ],
+      "isolatedBuildVerified": true
+    },
+    {
+      "pagePath": "/epistemology/cromwells-rule/",
+      "sha256": "183f4d8c9e5d1546b5f6b5087e476e951d0f575f15089e82ba688f183b139365",
+      "sourceLinesRead": 345,
+      "negativeFidelityChecks": [
+        "prompt",
+        "response",
+        "list item"
+      ],
+      "isolatedBuildVerified": true
+    }
+  ],
+  "inheritedFilesPreserved": 476,
+  "substantiveReviewedTotal": 249,
+  "remainingInCycle": 97,
+  "partialBatch": {
+    "reviewed": 49,
+    "pending": 1,
+    "officialCursorUnchanged": 200
+  },
+  "normalAutomationRestored": {
+    "status": "ACTIVE",
+    "schedule": "Daily 09:00 America/New_York",
+    "promptIdenticalToBeforeTest": true
+  },
+  "productionControllerGateHooksAndAssignmentUnchangedDuringTest": true,
+  "unitTests": {
+    "passed": 26,
+    "postRunFix": "Tests now use the frozen daily assignment instead of combining all reports from a date; specific missing-build, changed-page and missing-review failures are asserted. No production controller or gate change."
+  },
+  "scope": "Real early final responses at zero and two completed source reviews. Native Stop hooks resumed the same scheduled run. All twenty additional pages were genuinely reviewed, built, committed and pushed by that run."
+}
