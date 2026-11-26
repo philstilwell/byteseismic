@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-26",
+  "timezone": "America/New_York",
+  "cycle": 8,
+  "target": 20,
+  "pagePaths": [
+    "/philosophy-of-ai/philosophy-of-ai-core-concepts/",
+    "/philosophy-of-language/linguistic-abstraction/",
+    "/philosophy-of-language/semantics-convention-vs-stipulation/",
+    "/philosophy-of-language/the-linearity-of-language/",
+    "/philosophy-of-mind/assessing-mind-with-mind/",
+    "/philosophy-of-mind/manufacturer-or-method/",
+    "/philosophy-of-mind/philosophy-of-mind-basics/",
+    "/philosophy-of-mind/where-are-our-thoughts/",
+    "/philosophy-of-science/asymmetric-counterfactuals/",
+    "/philosophy-of-science/correlation-and-causation/",
+    "/philosophy-of-science/elements-of-research-design/",
+    "/philosophy-of-science/is-history-science/",
+    "/philosophy-of-science/research-design/",
+    "/philosophy-of-science/scientism-faith/",
+    "/philosophy-of-science/the-power-of-thought-experiments/",
+    "/philosophy-of-science/what-is-induction/",
+    "/philosophy-of-science/what-is-parsimony/",
+    "/political-philosophy/peaceful-revolutions/",
+    "/political-philosophy/political-philosophy-basics/",
+    "/political-philosophy/political-philosophy-core-concepts/"
+  ],
+  "remainingAtPlanning": 137,
+  "endpointException": false
+}
