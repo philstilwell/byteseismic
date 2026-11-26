@@ -1,0 +1,82 @@
+{
+  "pagePath": "/philosophy-of-science/the-power-of-thought-experiments/",
+  "sourceSha256": "432c1cc041676989515a4fab6794b30ea394d7afcd4e4d86842cfbe9d1865542",
+  "originalPrompts": 9,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 9,
+  "sourceColumns": 15,
+  "modelResponses": 15,
+  "blocksRetainedVerbatim": 153,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 76,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "prompt-1 ordered sequence sizes": [
+      7,
+      7
+    ],
+    "prompt-2 ordered sequence sizes": [
+      2,
+      4
+    ],
+    "prompt-3 ordered sequence sizes": [
+      3
+    ],
+    "prompt-5 ordered sequence sizes": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "prompt-6 ordered sequence sizes": [
+      15,
+      10,
+      5
+    ],
+    "prompt-7 ordered sequence sizes": [
+      2,
+      1,
+      1,
+      1
+    ],
+    "prompt-9 ordered sequence sizes": [
+      5
+    ]
+  },
+  "sha256": "6e23b6f96552c5e5930ea93c78f5aa9b1ddb8a9dd61abccc767db3708947680c",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "The Power of Thought Experiments",
+  "queueTitle": "The Power of Thought Experiments",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "response",
+    "list item"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 238,
+    "ranges": [
+      [
+        1,
+        90
+      ],
+      [
+        91,
+        165
+      ],
+      [
+        166,
+        238
+      ]
+    ],
+    "complete": true
+  },
+  "additionalFormatChecks": {},
+  "isolatedBuildVerified": true
+}

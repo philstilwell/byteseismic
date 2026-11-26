@@ -1,0 +1,1931 @@
+{
+  "runTime": "2026-11-26T11:28:54.930556-05:00",
+  "dailyTarget": 20,
+  "fullyReviewedToday": 20,
+  "additionalPagesThisContinuation": 18,
+  "dailyShortfall": 0,
+  "status": "Daily editorial target complete; commit and push recorded in automation memory and Git history",
+  "whyEarlierRequirementWasMissed": "Earlier run stopped after two completed pages despite an explicit requirement to continue to twenty and no established external blocker. This was a failure to apply the completion gate, not a source, tool, storage, or authorization blocker.",
+  "earlierCommit": "505a7a255c6e1bcbf661f9edf3a1878b95226d96",
+  "cycle": 8,
+  "batchStartIndex": 200,
+  "batchReviewed": 29,
+  "batchPending": 21,
+  "substantivelyReviewed": 229,
+  "substantivelyRemaining": 117,
+  "officialCompleted": 200,
+  "officialRemaining": 146,
+  "trackerAdvanced": false,
+  "dailyTotals": {
+    "originalPrompts": 157,
+    "modelResponses": 310,
+    "blocksExplicitlyRevised": 1213,
+    "blocksRetainedVerbatim": 4058
+  },
+  "pages": [
+    {
+      "title": "Semantics: Convention vs Stipulation",
+      "pagePath": "/philosophy-of-language/semantics-convention-vs-stipulation/",
+      "source": "http://byteseismic.com/2024/02/24/semantics-convention-vs-stipulation/",
+      "wordpressId": 1021,
+      "decisions": [
+        "1: retained causal progression; separated local stipulation, coinage, conventional diffusion and dictionary feedback; corrected mouse/quark/meme examples.",
+        "2: retained two ten-item lists with corrected thug,literally,gumption,host and smartphone descriptions; removed invented naughty transition.",
+        "3: retained community examples but qualified unsupported small-group causation; distinguished reclamation,coinage,semantic change and associations; verified vegan chronology.",
+        "4: audited every proposed failure; corrected dictionary counterexamples and explicitly acknowledged that the original candidates cannot substantiate ten failures. No invented replacements or attribution.",
+        "5: retained determinants; distinguished adoption as outcome from mechanisms and qualified fixed-duration implication.",
+        "6: retained respectful responses; directly answer universal-definition demand without conceding validity, and expose equivocation or conclusions smuggled into definitions.",
+        "7: repaired dependent gay/brights questions and ambiguous causal/adoption multiple-choice items; preserved20questions20answers.",
+        "8: retained30discussion questions, correcting assumptions about gay reclamation and brights failure."
+      ],
+      "verification": {
+        "pagePath": "/philosophy-of-language/semantics-convention-vs-stipulation/",
+        "sourceSha256": "6df0413e102a1827392266dc94280246ff2690b427ec036b328513c471fbed98",
+        "originalPrompts": 8,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 8,
+        "sourceColumns": 16,
+        "modelResponses": 16,
+        "blocksRetainedVerbatim": 172,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 63,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "Prompt 2 ten-item lists": [
+            10,
+            10
+          ],
+          "Prompt 3 ten-item lists": [
+            10,
+            10
+          ],
+          "Prompt 4 ten-item lists": [
+            10,
+            10
+          ],
+          "quizzes and keys": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "discussion questions": [
+            15,
+            15
+          ],
+          "prompt-1 ordered sequence sizes": [
+            6
+          ],
+          "prompt-2 ordered sequence sizes": [
+            10,
+            10
+          ],
+          "prompt-3 ordered sequence sizes": [
+            10,
+            10
+          ],
+          "prompt-4 ordered sequence sizes": [
+            10,
+            10
+          ],
+          "prompt-5 ordered sequence sizes": [
+            10
+          ],
+          "prompt-6 ordered sequence sizes": [
+            10
+          ],
+          "prompt-7 ordered sequence sizes": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "prompt-8 ordered sequence sizes": [
+            15,
+            15
+          ]
+        },
+        "sha256": "f0ca937819d7ed2b87d78d7a35b53281f7b1053c7cd5abd1ec6566307f071e73",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "Semantics: Convention vs Stipulation",
+        "queueTitle": "Semantics: Convention vs Stipulation",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "response",
+          "list item"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 243,
+          "ranges": [
+            [
+              1,
+              65
+            ],
+            [
+              66,
+              135
+            ],
+            [
+              136,
+              243
+            ]
+          ],
+          "complete": true
+        },
+        "additionalFormatChecks": {},
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "title": "The Linearity of Language",
+      "pagePath": "/philosophy-of-language/the-linearity-of-language/",
+      "source": "http://byteseismic.com/2024/03/14/the-linearity-of-language/",
+      "wordpressId": 3638,
+      "decisions": [
+        "1: qualified instantaneous vision and isolated-word processing; repaired reversed accessibility claim and universal-symbol claims while preserving advantages/disadvantages.",
+        "2: separated multimedia design from learning-style matching; qualified universal trends and speed/memory claims.",
+        "3: preserved all named products, linked official sites, updated Spark and Easelly descriptions and iPad requirement; removed unsupported free-feature guarantees.",
+        "4: replaced orphan citation tokens with usable resource links; removed ungrounded400percent claim; qualified per-article features.",
+        "5: answered availability directly; separated illustrations,data charts and diagrams,audio transcription and factual validation; removed arbitrary2–5year forecast.",
+        "6: retained ten questions/keys, repaired unsupported premises and ambiguous final item.",
+        "7: retained twenty discussion questions, replacing assumptions of revolution and reduced attention spans with testable questions."
+      ],
+      "verification": {
+        "pagePath": "/philosophy-of-language/the-linearity-of-language/",
+        "sourceSha256": "3cb199562e2acda45fc887d3889829269cb72598c95d34ac3f9a259bae65f253",
+        "originalPrompts": 7,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 7,
+        "sourceColumns": 14,
+        "modelResponses": 14,
+        "blocksRetainedVerbatim": 111,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 58,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "Gemini quiz and key": [
+            5,
+            5
+          ],
+          "discussion questions": [
+            10,
+            10
+          ],
+          "prompt-1 ordered sequence sizes": [
+            4,
+            5
+          ],
+          "prompt-2 ordered sequence sizes": [
+            7
+          ],
+          "prompt-3 ordered sequence sizes": [
+            9
+          ],
+          "prompt-6 ordered sequence sizes": [
+            5,
+            5
+          ],
+          "prompt-7 ordered sequence sizes": [
+            10,
+            10
+          ]
+        },
+        "sha256": "e18a645dc98a93d6e23ffa62bb9539bc51b0cac44b58328acbeecad6091d1d7b",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "The Linearity of Language",
+        "queueTitle": "The Linearity of Language",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "response",
+          "list item"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 176,
+          "ranges": [
+            [
+              1,
+              75
+            ],
+            [
+              76,
+              176
+            ]
+          ],
+          "complete": true
+        },
+        "additionalFormatChecks": {},
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "title": "Assessing Mind with Mind",
+      "pagePath": "/philosophy-of-mind/assessing-mind-with-mind/",
+      "source": "http://byteseismic.com/2024/04/28/assessing-mind-with-mind/",
+      "wordpressId": 7436,
+      "decisions": [
+        "1: directly support curator’s evidential point with checks for luck,compensation and independent destination confirmation.",
+        "2: retain computing analogies and five examples; repair checksum/tax comparison and blanket validation claims; add concrete human size-measurement analogue.",
+        "3: inspect all3original equation images; preserve them with explicit rejection and accessible transcriptions. Replace posterior-product error with conditional likelihood ratios and checked0.953example; repair invalid rain implications and necessary-component inference.",
+        "4: retain original activity categories; distinguish informal observations from validated diagnosis and remove risky unfamiliar solo-travel tests. NIA guidance linked.",
+        "5: retain anti-impossibility argument but distinguish local fallible calibration from global noncircular certainty; correct functionalism/positivism/pragmatism mischaracterizations.",
+        "6: preserve30quiz items and keys; correct certainty,positivism,unsupported all-of-above,ambiguous recall and unsafe navigation premises.",
+        "7: preserve45discussion questions; refine safety-guarantee and logical-assumption questions."
+      ],
+      "verification": {
+        "pagePath": "/philosophy-of-mind/assessing-mind-with-mind/",
+        "sourceSha256": "d551210b05083baddd1638f5b02e261ef010bb63f83308dce9ce495d5d17b3e9",
+        "originalPrompts": 7,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 7,
+        "sourceColumns": 21,
+        "modelResponses": 21,
+        "blocksRetainedVerbatim": 221,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 77,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "discussion lists": [
+            15,
+            15,
+            15
+          ],
+          "prompt-1 ordered sequence sizes": [
+            2,
+            2
+          ],
+          "prompt-2 ordered sequence sizes": [
+            5,
+            5
+          ],
+          "prompt-3 ordered sequence sizes": [
+            4,
+            2
+          ],
+          "prompt-4 ordered sequence sizes": [
+            5
+          ],
+          "prompt-5 ordered sequence sizes": [
+            6
+          ],
+          "prompt-6 ordered sequence sizes": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ],
+          "prompt-7 ordered sequence sizes": [
+            15,
+            15,
+            15
+          ]
+        },
+        "sha256": "3f40e1e6a736a4447c5e0a929d79a1c72545c3b4aeaa17133b4ce8a9d6de1012",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "Assessing Mind with Mind",
+        "queueTitle": "Assessing Mind with Mind",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "response",
+          "list item",
+          "source image"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 305,
+          "ranges": [
+            [
+              1,
+              60
+            ],
+            [
+              61,
+              130
+            ],
+            [
+              131,
+              220
+            ],
+            [
+              221,
+              305
+            ]
+          ],
+          "complete": true
+        },
+        "additionalFormatChecks": {},
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "title": "Manufacturer or Method?",
+      "pagePath": "/philosophy-of-mind/manufacturer-or-method/",
+      "source": "http://byteseismic.com/2024/04/29/manufacturer-or-method/",
+      "wordpressId": 7475,
+      "decisions": [
+        "Preserved all seven prompts, the compass argument, Lewis quotation, Phil’s pushback and confusion note; corrected model attribution to ChatGPT and Claude from source logos.",
+        "Corrected the claim that Lewis endorsed empirical self-testing, distinguished foundations from practical checks, and replaced unsupported fallacy accusations and corresponding quiz keys.",
+        "Qualified transfer from multi-ability tests to particular theological conclusions, corrected blanket aging claims, and retained 20 quiz questions, 20 answers and 30 discussion questions."
+      ],
+      "verification": {
+        "pagePath": "/philosophy-of-mind/manufacturer-or-method/",
+        "sourceSha256": "01a97262df75697493745254a33288690a22e25780a84e1a967e8769805798ef",
+        "originalPrompts": 7,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 7,
+        "sourceColumns": 14,
+        "modelResponses": 14,
+        "blocksRetainedVerbatim": 118,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 38,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "#prompt-6 .original-response > ol": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "#prompt-7 .original-response > ol": [
+            15,
+            15
+          ],
+          "prompt-1 ordered sequence sizes": [
+            2,
+            3
+          ],
+          "prompt-2 ordered sequence sizes": [
+            2
+          ],
+          "prompt-3 ordered sequence sizes": [
+            5
+          ],
+          "prompt-4 ordered sequence sizes": [
+            5
+          ],
+          "prompt-5 ordered sequence sizes": [
+            4
+          ],
+          "prompt-6 ordered sequence sizes": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "prompt-7 ordered sequence sizes": [
+            15,
+            15
+          ]
+        },
+        "sha256": "d63a1004766d6642c8bb61ec4bcc07d9c49f57e648a7663dcc16bb7ac4a88841",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "Manufacturer or Method?",
+        "queueTitle": "Manufacturer or Method?",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "response",
+          "list item",
+          "curator preamble"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 170,
+          "ranges": [
+            [
+              1,
+              70
+            ],
+            [
+              1,
+              35
+            ],
+            [
+              36,
+              100
+            ],
+            [
+              101,
+              170
+            ]
+          ],
+          "complete": true
+        },
+        "additionalFormatChecks": {},
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "title": "Philosophy of Mind Basics",
+      "pagePath": "/philosophy-of-mind/philosophy-of-mind-basics/",
+      "source": "http://byteseismic.com/2024/03/14/philosophy-of-mind-basics/",
+      "wordpressId": 3746,
+      "decisions": [
+        "Read six complete source sections and preserved twelve responses; retained useful multidisciplinary preparation and the two question sets.",
+        "Corrected physicalism/identity, functionalism, property dualism, monism/idealism and panpsychism; removed false contrasts in free will and mental content.",
+        "Corrected Heil book attribution and Chalmers classification, replaced unrelated source link, completed the truncated six-month study plan with an explicitly marked continuation.",
+        "Original fictional panels ended at 16 and 12 pairs; added four and eight explicitly editorial pairs to satisfy 20 each. Preserved all original pairs and quiz counts."
+      ],
+      "verification": {
+        "pagePath": "/philosophy-of-mind/philosophy-of-mind-basics/",
+        "sourceSha256": "bec8643eff6c4f3d5232b12d91e66c7850da31db30c34b713ca2ddb6001572cf",
+        "originalPrompts": 6,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 6,
+        "sourceColumns": 12,
+        "modelResponses": 12,
+        "blocksRetainedVerbatim": 307,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 21,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": false,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [
+          "2.1",
+          "4.1",
+          "4.2"
+        ],
+        "formatChecks": {
+          "two sets of 25 research questions": [
+            25,
+            4,
+            5,
+            4,
+            4,
+            5,
+            3
+          ],
+          "quiz questions and keys": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "prompt-1 ordered sequence sizes": [
+            1,
+            1,
+            5
+          ],
+          "prompt-3 ordered sequence sizes": [
+            25,
+            4,
+            5,
+            4,
+            4,
+            5,
+            3
+          ],
+          "prompt-5 ordered sequence sizes": [
+            10
+          ],
+          "prompt-6 ordered sequence sizes": [
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        "sha256": "224328e081abe6781eca9a549f8fa16291add91ee56adab0dd4aa2fbbf326dad",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "Philosophy of Mind Basics",
+        "queueTitle": "Philosophy of Mind Basics",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "response",
+          "list item"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 334,
+          "ranges": [
+            [
+              1,
+              90
+            ],
+            [
+              91,
+              180
+            ],
+            [
+              181,
+              260
+            ],
+            [
+              261,
+              334
+            ]
+          ],
+          "complete": true
+        },
+        "additionalFormatChecks": {
+          "fictionalStudentQuestionAnswerPairs": [
+            20,
+            20
+          ]
+        },
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "title": "Where are our Thoughts?",
+      "pagePath": "/philosophy-of-mind/where-are-our-thoughts/",
+      "source": "http://byteseismic.com/2024/03/19/where-are-our-thoughts/",
+      "wordpressId": 4071,
+      "decisions": [
+        "Preserved the exact opening claim, all seven prompts, three-premise syllogism and curator follow-up.",
+        "Corrected both models’ invalid endorsement of the syllogism; retained the curator’s inclusive scope of ways of knowing and distinguished an unsupported explanation from proved nonexistence.",
+        "Qualified computer analogies and physicalist overreach, distinguished fMRI from EEG, and corrected clinical status of deep brain stimulation for depression with primary sources.",
+        "Repaired both quiz sets and one discussion question so the 20 questions and keys and 30 discussion questions reflect the corrected reasoning."
+      ],
+      "verification": {
+        "pagePath": "/philosophy-of-mind/where-are-our-thoughts/",
+        "sourceSha256": "3a226bb21c6a8bf63f90735ffc4473994d0cf610f9385e31c8bb24d308fc087c",
+        "originalPrompts": 7,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 7,
+        "sourceColumns": 14,
+        "modelResponses": 14,
+        "blocksRetainedVerbatim": 105,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 40,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "quiz questions and answers": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "discussion questions": [
+            15,
+            15
+          ],
+          "prompt-1 ordered sequence sizes": [
+            5,
+            4
+          ],
+          "prompt-2 ordered sequence sizes": [
+            5
+          ],
+          "prompt-3 ordered sequence sizes": [
+            5
+          ],
+          "prompt-4 ordered sequence sizes": [
+            3,
+            3
+          ],
+          "prompt-5 ordered sequence sizes": [
+            3
+          ],
+          "prompt-6 ordered sequence sizes": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "prompt-7 ordered sequence sizes": [
+            15,
+            15
+          ]
+        },
+        "sha256": "de7823b8277c1d7b4ed78ecd8553b0460e481cc2e0dbfbcc989e4715a3481303",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "Where are our Thoughts?",
+        "queueTitle": "Where are our Thoughts?",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "response",
+          "list item",
+          "curator preamble"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 155,
+          "ranges": [
+            [
+              1,
+              45
+            ],
+            [
+              46,
+              100
+            ],
+            [
+              101,
+              155
+            ]
+          ],
+          "complete": true
+        },
+        "additionalFormatChecks": {},
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "title": "Asymmetric Counterfactuals",
+      "pagePath": "/philosophy-of-science/asymmetric-counterfactuals/",
+      "source": "http://byteseismic.com/2024/03/27/asymmetric-counterfactuals/",
+      "wordpressId": 4606,
+      "decisions": [
+        "Preserved all seven prompts and fourteen responses, including all four five-example lists and 20 quiz and 30 discussion questions.",
+        "Distinguished evidence asymmetry from bias, outcome bias from sunk cost, and uncertainty from metaphysical indeterminism.",
+        "Reworked all trauma examples: Gemini originally substituted actual background harm for unrealized harm; explicitly disclosed weak and unsubstantiated examples without pretending five definite near misses were proved.",
+        "Corrected Marshall Plan participation, Emancipation Proclamation scope, later Reconstruction rights, polio vaccine types, printing chronology and antibiotics development.",
+        "Added a concrete counterfactual assessment method and corrected quiz references to unsupported training claims and orphan answer labels."
+      ],
+      "verification": {
+        "pagePath": "/philosophy-of-science/asymmetric-counterfactuals/",
+        "sourceSha256": "7209f84447f05028878aff5aa835ebbca0055ebfe9b419f96fe4e7a37ff96281",
+        "originalPrompts": 7,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 7,
+        "sourceColumns": 14,
+        "modelResponses": 14,
+        "blocksRetainedVerbatim": 127,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 36,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "five examples per response": [
+            5,
+            5,
+            5,
+            5
+          ],
+          "quiz and answers": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "discussion": [
+            15,
+            15
+          ],
+          "prompt-1 ordered sequence sizes": [
+            5
+          ],
+          "prompt-2 ordered sequence sizes": [
+            5,
+            5
+          ],
+          "prompt-3 ordered sequence sizes": [
+            5,
+            5
+          ],
+          "prompt-4 ordered sequence sizes": [
+            6
+          ],
+          "prompt-5 ordered sequence sizes": [
+            8
+          ],
+          "prompt-6 ordered sequence sizes": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "prompt-7 ordered sequence sizes": [
+            15,
+            15
+          ]
+        },
+        "sha256": "89626b247ff982f7fce004b240fa62ee6b4184154c29aa7b0e9fe18f649dc327",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "Asymmetric Counterfactuals",
+        "queueTitle": "Asymmetric Counterfactuals",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "response",
+          "list item"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 170,
+          "ranges": [
+            [
+              1,
+              40
+            ],
+            [
+              41,
+              85
+            ],
+            [
+              86,
+              130
+            ],
+            [
+              131,
+              170
+            ]
+          ],
+          "complete": true
+        },
+        "additionalFormatChecks": {},
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "title": "Correlation and Causation",
+      "pagePath": "/philosophy-of-science/correlation-and-causation/",
+      "source": "http://byteseismic.com/2024/02/21/correlation-and-causation/",
+      "wordpressId": 844,
+      "decisions": [
+        "Read all ten source headings: seven main prompts, two model-specific embedded follow-ups, and the final curator invitation. Preserved both embedded follow-ups in place, screenshot, exact curator comment, and exercise URL.",
+        "Corrected zero correlation versus independence, quantified causal effects, direct versus mediated effects, and the limits of significance, matching, and observational methods.",
+        "Replaced garbled examples with explicit hypothetical or unsupported-example labels; corrected confounding and declined to invent causes for miscellaneous chart pairings.",
+        "Corrected medical historical claims and linked primary authorities; distinguished popular unsupported beliefs from previously established science.",
+        "Reworked family-size study around a defined contrast, temporal ordering, common causes versus mediators, and observational adoption studies. Repaired ambiguous and incorrect quiz items while retaining 20 questions and answers and 30 discussion questions."
+      ],
+      "verification": {
+        "pagePath": "/philosophy-of-science/correlation-and-causation/",
+        "sourceSha256": "2c7fdfc453635e8157f4194864a2f129144875e2a9b2a66f10e795754c58574a",
+        "originalPrompts": 9,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 8,
+        "sourceColumns": 15,
+        "modelResponses": 14,
+        "blocksRetainedVerbatim": 290,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 66,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": false,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [
+          "8.1",
+          "1.1"
+        ],
+        "formatChecks": {
+          "discussion questions": [
+            15,
+            15
+          ],
+          "prompt-2 ordered sequence sizes": [
+            6
+          ],
+          "prompt-6 ordered sequence sizes": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            10,
+            10,
+            10
+          ],
+          "prompt-7 ordered sequence sizes": [
+            15,
+            15
+          ]
+        },
+        "sha256": "d385bed62bc0744580c3c9eb43ec2e069a081c4d0f514c9bfd545056504ba8d1",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "Correlation and Causation",
+        "queueTitle": "Correlation and Causation",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "response",
+          "list item",
+          "source image"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 464,
+          "ranges": [
+            [
+              1,
+              70
+            ],
+            [
+              71,
+              145
+            ],
+            [
+              146,
+              230
+            ],
+            [
+              231,
+              330
+            ],
+            [
+              331,
+              464
+            ]
+          ],
+          "complete": true,
+          "note": "Indexed read included duplicated embedded-response text and trailing navigation during recovery; final rendering retains each original exchange once and the curator result."
+        },
+        "additionalFormatChecks": {
+          "curatorActivityLinkAndResultImage": true
+        },
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "title": "Elements of Research Design",
+      "pagePath": "/philosophy-of-science/elements-of-research-design/",
+      "source": "http://byteseismic.com/2024/02/20/elements-of-research-design/",
+      "wordpressId": 818,
+      "decisions": [
+        "Read all eleven prompts and twenty-two complete responses; preserved the detailed examples, twenty-four quiz items and answers, two fifteen-question sets and two explicitly bonus discussion questions.",
+        "Distinguished precision from representativeness, probability sampling from equal-probability sampling, cluster sampling from stratification, and causal inference from significance.",
+        "Reconciled contradictory accounts of methodology versus design, clarified qualitative coding and mixed-methods integration, and corrected null-hypothesis wording.",
+        "Corrected STAI item count from 20 to 40 using publisher source, distinguished perceived stress from objective stress and work engagement from loyalty, and made example measurement procedures reproducible.",
+        "Improved analysis and documentation around prespecification, missingness, effect sizes, privacy, and exploratory changes; repaired quiz ambiguity and anonymity guarantees."
+      ],
+      "verification": {
+        "pagePath": "/philosophy-of-science/elements-of-research-design/",
+        "sourceSha256": "6addc49c04448c2238d5cc9fc16dbf8de6ea649cd980058001c0019b8e8208c7",
+        "originalPrompts": 11,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 11,
+        "sourceColumns": 22,
+        "modelResponses": 22,
+        "blocksRetainedVerbatim": 512,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 64,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "discussion sets and source bonus questions": [
+            15,
+            5,
+            5,
+            5
+          ],
+          "two original bonus discussion questions": [
+            2
+          ],
+          "prompt-1 ordered sequence sizes": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "prompt-2 ordered sequence sizes": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "prompt-3 ordered sequence sizes": [
+            2,
+            2
+          ],
+          "prompt-4 ordered sequence sizes": [
+            3,
+            3
+          ],
+          "prompt-5 ordered sequence sizes": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "prompt-6 ordered sequence sizes": [
+            3,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "prompt-7 ordered sequence sizes": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            3
+          ],
+          "prompt-8 ordered sequence sizes": [
+            3,
+            4
+          ],
+          "prompt-9 ordered sequence sizes": [
+            4
+          ],
+          "prompt-10 ordered sequence sizes": [
+            12,
+            12,
+            12
+          ],
+          "prompt-11 ordered sequence sizes": [
+            15,
+            5,
+            5,
+            5
+          ]
+        },
+        "sha256": "04b86efe592cdb6e24311dd46a79e2cf365480967ae92746fc5848a33a88e28a",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "Elements of Research Design",
+        "queueTitle": "Elements of Research Design",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "response",
+          "list item"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 587,
+          "ranges": [
+            [
+              1,
+              65
+            ],
+            [
+              66,
+              145
+            ],
+            [
+              146,
+              225
+            ],
+            [
+              226,
+              305
+            ],
+            [
+              306,
+              390
+            ],
+            [
+              391,
+              465
+            ],
+            [
+              466,
+              587
+            ]
+          ],
+          "complete": true
+        },
+        "additionalFormatChecks": {},
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "title": "Is History Science?",
+      "pagePath": "/philosophy-of-science/is-history-science/",
+      "source": "http://byteseismic.com/2024/03/19/is-history-science/",
+      "wordpressId": 4009,
+      "decisions": [
+        "Preserved eight prompts and sixteen responses, four five-case lists, twenty quiz questions and keys, and thirty discussion questions.",
+        "Replaced false science/history dichotomies with shared evidence-based inference, historical natural-science examples, and claim-specific confidence.",
+        "Distinguished inference about motives from evidence of historians overclaiming; disclosed that unnamed examples cannot substantiate accusations or prove causes lie elsewhere.",
+        "Corrected Magna Carta sealing, slavery-centered Civil War causation, industrial chronology, and overconfident abolition economics; separated actors’ intentions from later significance.",
+        "Repaired the second quiz’s absent multiple-choice options and stray lettered keys, and the first quiz’s unsupported disciplinary origin claim about oral history."
+      ],
+      "verification": {
+        "pagePath": "/philosophy-of-science/is-history-science/",
+        "sourceSha256": "2ae5347afa232f764d9f083c54c5f6e2d7d006a790de2172246e6afff2d57435",
+        "originalPrompts": 8,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 8,
+        "sourceColumns": 16,
+        "modelResponses": 16,
+        "blocksRetainedVerbatim": 133,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 50,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "five-case lists": [
+            5,
+            5,
+            5,
+            5
+          ],
+          "quizzes and keys": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "discussion": [
+            15,
+            15
+          ],
+          "prompt-1 ordered sequence sizes": [
+            4
+          ],
+          "prompt-2 ordered sequence sizes": [
+            6
+          ],
+          "prompt-3 ordered sequence sizes": [
+            5,
+            5
+          ],
+          "prompt-4 ordered sequence sizes": [
+            5
+          ],
+          "prompt-5 ordered sequence sizes": [
+            5,
+            5
+          ],
+          "prompt-6 ordered sequence sizes": [
+            8
+          ],
+          "prompt-7 ordered sequence sizes": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "prompt-8 ordered sequence sizes": [
+            15,
+            15
+          ]
+        },
+        "sha256": "644fa6b348ed8a695282db0422c21cef89961ad6562d51120cbb589387085908",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "Is History Science?",
+        "queueTitle": "Is History Science?",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "response",
+          "list item"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 191,
+          "ranges": [
+            [
+              1,
+              55
+            ],
+            [
+              56,
+              110
+            ],
+            [
+              111,
+              191
+            ]
+          ],
+          "complete": true
+        },
+        "additionalFormatChecks": {},
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "title": "Research Design",
+      "pagePath": "/philosophy-of-science/research-design/",
+      "source": "http://byteseismic.com/2024/02/15/research-design/",
+      "wordpressId": 755,
+      "decisions": [
+        "Read eight prompts and sixteen full responses; retained both three-experiment sequences, 24 quiz questions and keys, and 30 discussion questions.",
+        "Qualified universality of control groups and blinding, corrected unequal random allocation and sample-size guarantees, and separated random assignment from sampling.",
+        "Corrected overclaims about Michelson–Morley, observer consciousness, Pavlov’s bell illustration and Miller–Urey’s conditions and scope.",
+        "Marked climate-paper text as a hypothetical outline with no invented findings and removed placeholders presented as results.",
+        "Corrected 1985–2005 crime premise using official historical series; distinguished UCR and NCVS definitions, survey redesign, regional inference, predictive validation and causal identification.",
+        "Clarified selection, nonresponse, reporting and attrition biases; repaired ambiguous quiz options and two discussion questions that confused sampling or encouraged confirmation."
+      ],
+      "verification": {
+        "pagePath": "/philosophy-of-science/research-design/",
+        "sourceSha256": "0a1932fd63e1b966d7aac0467834012b1c23795b6bc62fb8f7b0ba447a60e8c6",
+        "originalPrompts": 8,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 8,
+        "sourceColumns": 16,
+        "modelResponses": 16,
+        "blocksRetainedVerbatim": 274,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 56,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "discussion": [
+            15,
+            15
+          ],
+          "prompt-1 ordered sequence sizes": [
+            2,
+            1,
+            2,
+            2,
+            3
+          ],
+          "prompt-2 ordered sequence sizes": [
+            1,
+            1,
+            1
+          ],
+          "prompt-3 ordered sequence sizes": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "prompt-5 ordered sequence sizes": [
+            2,
+            10
+          ],
+          "prompt-6 ordered sequence sizes": [
+            12
+          ],
+          "prompt-7 ordered sequence sizes": [
+            12,
+            12,
+            12
+          ],
+          "prompt-8 ordered sequence sizes": [
+            15,
+            15
+          ]
+        },
+        "sha256": "cb0c2c61f9eb70b7c204ca1c3d79a9e88ad159e8970c1c66292e433b85cb8464",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "Research Design",
+        "queueTitle": "Research Design",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "response",
+          "list item"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 338,
+          "ranges": [
+            [
+              1,
+              65
+            ],
+            [
+              66,
+              135
+            ],
+            [
+              136,
+              205
+            ],
+            [
+              206,
+              275
+            ],
+            [
+              276,
+              338
+            ]
+          ],
+          "complete": true
+        },
+        "additionalFormatChecks": {},
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "title": "Scientism & Faith",
+      "pagePath": "/philosophy-of-science/scientism-faith/",
+      "source": "http://byteseismic.com/2024/04/05/scientism-faith/",
+      "wordpressId": 5246,
+      "decisions": [
+        "Read all eleven paired exchanges and both embedded curator rebuttals; preserved thirteen prompts verbatim and both ten-item lists.",
+        "Corrected scientism attribution, empirical/nonexperimental distinction, validity versus soundness, and unsupported validation through usefulness or consensus.",
+        "Explicitly identified why both alleged lists of ten facts fail their evidential standard, retaining every original topic instead of disguising disputed beliefs as facts.",
+        "Separated faith, confidence, experience and its cause; removed circular verification claims while preserving the curator’s criticism and model concessions.",
+        "Corrected invalid or unsupported syllogisms, complexity-as-exemption claims, unsupported universal religious prevalence, and inference from one model error to humanity or training data.",
+        "Compared psychological alternatives without asserting numerical likelihoods from parsimony alone."
+      ],
+      "verification": {
+        "pagePath": "/philosophy-of-science/scientism-faith/",
+        "sourceSha256": "9f1b74c84ea20e1d1f0030e578d1aca32f2c675dda846d83e7d8fc159b1f57e1",
+        "originalPrompts": 13,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 11,
+        "sourceColumns": 22,
+        "modelResponses": 22,
+        "blocksRetainedVerbatim": 176,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 101,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "prompt-5 ordered sequence sizes": [
+            10,
+            10
+          ],
+          "prompt-10 ordered sequence sizes": [
+            3
+          ],
+          "prompt-11 ordered sequence sizes": [
+            3
+          ]
+        },
+        "sha256": "91580262b87cc9d2d2a4e82eb2b3a3a63aeb5748270c0307db6f74cac620dff4",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "Scientism & Faith",
+        "queueTitle": "Scientism & Faith",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "response",
+          "list item"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 288,
+          "ranges": [
+            [
+              1,
+              50
+            ],
+            [
+              51,
+              105
+            ],
+            [
+              106,
+              155
+            ],
+            [
+              106,
+              130
+            ],
+            [
+              131,
+              185
+            ],
+            [
+              186,
+              240
+            ],
+            [
+              241,
+              288
+            ]
+          ],
+          "complete": true
+        },
+        "additionalFormatChecks": {},
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "title": "The Power of Thought Experiments",
+      "pagePath": "/philosophy-of-science/the-power-of-thought-experiments/",
+      "source": "http://byteseismic.com/2024/04/17/the-power-of-thought-experiments/",
+      "wordpressId": 6473,
+      "decisions": [
+        "Read nine prompts and all fifteen responses, including ChatGPT bonus, provenance question and Claude appraisal; corrected final model label.",
+        "Preserved seven-example lists, three-example lists, eight-step Galileo account, twenty quiz questions and answers, and thirty discussion questions.",
+        "Removed invented Pisa observations, corrected Einstein general/special relativity, Newton trajectory/date, Nash bargaining/equilibrium, and Turing machine/imitation-game conflations.",
+        "Corrected Everett attribution, survival inference, time-crystal definition and unsupported recent-breakthrough claims; supplied primary research links with limits.",
+        "Reworked quantum-observer proposal to expose measurement confounding; corrected claims of model introspection, novelty and consciousness evidence."
+      ],
+      "verification": {
+        "pagePath": "/philosophy-of-science/the-power-of-thought-experiments/",
+        "sourceSha256": "432c1cc041676989515a4fab6794b30ea394d7afcd4e4d86842cfbe9d1865542",
+        "originalPrompts": 9,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 9,
+        "sourceColumns": 15,
+        "modelResponses": 15,
+        "blocksRetainedVerbatim": 153,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 76,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "prompt-1 ordered sequence sizes": [
+            7,
+            7
+          ],
+          "prompt-2 ordered sequence sizes": [
+            2,
+            4
+          ],
+          "prompt-3 ordered sequence sizes": [
+            3
+          ],
+          "prompt-5 ordered sequence sizes": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "prompt-6 ordered sequence sizes": [
+            15,
+            10,
+            5
+          ],
+          "prompt-7 ordered sequence sizes": [
+            2,
+            1,
+            1,
+            1
+          ],
+          "prompt-9 ordered sequence sizes": [
+            5
+          ]
+        },
+        "sha256": "6e23b6f96552c5e5930ea93c78f5aa9b1ddb8a9dd61abccc767db3708947680c",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "The Power of Thought Experiments",
+        "queueTitle": "The Power of Thought Experiments",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "response",
+          "list item"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 238,
+          "ranges": [
+            [
+              1,
+              90
+            ],
+            [
+              91,
+              165
+            ],
+            [
+              166,
+              238
+            ]
+          ],
+          "complete": true
+        },
+        "additionalFormatChecks": {},
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "title": "What is Induction?",
+      "pagePath": "/philosophy-of-science/what-is-induction/",
+      "source": "http://byteseismic.com/2024/02/15/what-is-induction/",
+      "wordpressId": 689,
+      "decisions": [
+        "Read all eight paired exchanges; retained both ten-domain lists, both three-experiment treatments, twenty quiz items plus the source bonus, and thirty discussion questions.",
+        "Corrected deduction/induction definitions and misleading red-car generalization; separated causal identification from observed association.",
+        "Distinguished historical experiments from proposed classroom reconstructions and corrected control-group, rolling-body, treatment-development and significance claims.",
+        "Replaced incorrect infant age and conflated bibliographic entries with identified primary studies; qualified innateness and brain-localization claims.",
+        "Corrected inverse-probability errors in p-values, one/two-sided sigma conventions, Gaussian coverage and dependent quiz keys."
+      ],
+      "verification": {
+        "pagePath": "/philosophy-of-science/what-is-induction/",
+        "sourceSha256": "70eede9b413810d75a5f7945c35de90c9830113d2b6faca2a642ac31ae31c074",
+        "originalPrompts": 8,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 8,
+        "sourceColumns": 16,
+        "modelResponses": 16,
+        "blocksRetainedVerbatim": 220,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 70,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "prompt-1 ordered sequence sizes": [
+            2,
+            2
+          ],
+          "prompt-2 ordered sequence sizes": [
+            10
+          ],
+          "prompt-5 ordered sequence sizes": [
+            5
+          ],
+          "prompt-7 ordered sequence sizes": [
+            10,
+            10,
+            10,
+            11
+          ],
+          "prompt-8 ordered sequence sizes": [
+            15,
+            5,
+            5,
+            5
+          ]
+        },
+        "sha256": "bef433a6bec8a3ad1a476d13df540e6a778e62f8014da786b5d6707986b0b7bd",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "What is Induction?",
+        "queueTitle": "What is Induction?",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "response",
+          "list item"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 298,
+          "ranges": [
+            [
+              1,
+              105
+            ],
+            [
+              106,
+              205
+            ],
+            [
+              206,
+              298
+            ]
+          ],
+          "complete": true
+        },
+        "additionalFormatChecks": {},
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "title": "What is Parsimony?",
+      "pagePath": "/philosophy-of-science/what-is-parsimony/",
+      "source": "http://byteseismic.com/2024/03/26/what-is-parsimony/",
+      "wordpressId": 4507,
+      "decisions": [
+        "Read eight paired exchanges; preserved all four five-example lists, ten quizzes per model, fifteen discussion questions per model and the requested alchemy speculation.",
+        "Separated parsimony from truth, consistency, testability and simple wording; corrected repeated Copernican, Lamarckian and ether oversimplifications.",
+        "Examined each historical-event example individually; distinguished Titanic sinking from mortality, qualified plague transmission and Salem diagnosis, and identified famine example as oversimplification.",
+        "Grounded pyramid discussion in excavation evidence, removed unsupported slave-workforce claims and avoided asserting one settled ramp design.",
+        "Corrected dependent quiz questions and answer keys while preserving all original prompt text."
+      ],
+      "verification": {
+        "pagePath": "/philosophy-of-science/what-is-parsimony/",
+        "sourceSha256": "b2208f068bb46535757c6d3b3db2a1379b1fddfbe6b88a012605bebf5337ba8e",
+        "originalPrompts": 8,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 8,
+        "sourceColumns": 16,
+        "modelResponses": 16,
+        "blocksRetainedVerbatim": 123,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 49,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "prompt-1 ordered sequence sizes": [
+            3
+          ],
+          "prompt-2 ordered sequence sizes": [
+            5,
+            5
+          ],
+          "prompt-3 ordered sequence sizes": [
+            5,
+            5
+          ],
+          "prompt-4 ordered sequence sizes": [
+            5
+          ],
+          "prompt-5 ordered sequence sizes": [
+            5
+          ],
+          "prompt-6 ordered sequence sizes": [
+            3
+          ],
+          "prompt-7 ordered sequence sizes": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "prompt-8 ordered sequence sizes": [
+            15,
+            15
+          ]
+        },
+        "sha256": "4bd65db752b34bfb63fb47b9554b981fd8e3917666d20f25ac8b072689c2eadc",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "What is Parsimony?",
+        "queueTitle": "What is Parsimony?",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "response",
+          "list item"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 180,
+          "ranges": [
+            [
+              1,
+              65
+            ],
+            [
+              66,
+              125
+            ],
+            [
+              126,
+              180
+            ]
+          ],
+          "complete": true
+        },
+        "additionalFormatChecks": {},
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "title": "Peaceful Revolutions",
+      "pagePath": "/political-philosophy/peaceful-revolutions/",
+      "source": "http://byteseismic.com/2024/04/28/peaceful-revolutions/",
+      "wordpressId": 7397,
+      "decisions": [
+        "Read all eight paired exchanges and the complete curator unemployment analogy; retained every challenge verbatim including the prompt continuation.",
+        "Distinguished revolution frequency, tactic share, nonviolent campaign success and armed conflict; treated explanations as mechanisms rather than invented causal magnitudes.",
+        "Retained and directly addressed the curator’s vested-interest hypothesis and critique of irrelevant individual exceptions.",
+        "Corrected the claim that exceptions cannot affect an average, without confusing that arithmetic fact with logical refutation of an aggregate trend.",
+        "Removed unsupported generational apathy, universal democratization and introspective explanations of model omissions; updated both ten-item quizzes and preserved thirty discussions."
+      ],
+      "verification": {
+        "pagePath": "/political-philosophy/peaceful-revolutions/",
+        "sourceSha256": "351173fb9eef7abcfe92e7c9874e4e1f1e4cbf85f67bd0122ef844a3d803cff6",
+        "originalPrompts": 8,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 8,
+        "sourceColumns": 16,
+        "modelResponses": 16,
+        "blocksRetainedVerbatim": 129,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 52,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "prompt-1 ordered sequence sizes": [
+            7
+          ],
+          "prompt-2 ordered sequence sizes": [
+            1,
+            1
+          ],
+          "prompt-3 ordered sequence sizes": [
+            7
+          ],
+          "prompt-4 ordered sequence sizes": [
+            3
+          ],
+          "prompt-5 ordered sequence sizes": [
+            4
+          ],
+          "prompt-7 ordered sequence sizes": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "prompt-8 ordered sequence sizes": [
+            15,
+            15
+          ]
+        },
+        "sha256": "2cb0ed9dc166e4516cbd6785bf58af768490f40f67797775c55d30a14d41e136",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "Peaceful Revolutions",
+        "queueTitle": "Peaceful Revolutions",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "response",
+          "list item"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 190,
+          "ranges": [
+            [
+              1,
+              85
+            ],
+            [
+              86,
+              190
+            ]
+          ],
+          "complete": true
+        },
+        "additionalFormatChecks": {
+          "completeCuratorAnalogy": true
+        },
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "title": "Political Philosophy Basics",
+      "pagePath": "/political-philosophy/political-philosophy-basics/",
+      "source": "http://byteseismic.com/2024/04/18/political-philosophy-basics/",
+      "wordpressId": 6540,
+      "decisions": [
+        "Read seven paired exchanges; preserved fifty research questions, two complete six-month structures, twenty quizzes with keys, and thirty discussion questions.",
+        "Corrected socialism versus welfare-state redistribution, anarchism versus absence of norms, utilitarianism versus majority benefit, and internal diversity within liberalism and libertarianism.",
+        "Made study selections manageable; repaired invalid and mislabeled resources, corrected Plato/Aristotle chapter scopes, added republican Discourses and the missing Rawls preparation.",
+        "Preserved forty fictional panel turns while replacing a thank-you counted as the twentieth question with a substantive question and answer.",
+        "Qualified state legitimacy, social-contract consent, Rawls’s veil and political disagreement; manually numbered all twenty quiz items as requested."
+      ],
+      "verification": {
+        "pagePath": "/political-philosophy/political-philosophy-basics/",
+        "sourceSha256": "7fe0f4ae42e7d676e774da9c921d880daba974d8f8154cc1d62a7e1a0de535e1",
+        "originalPrompts": 7,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 7,
+        "sourceColumns": 14,
+        "modelResponses": 14,
+        "blocksRetainedVerbatim": 397,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 77,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "prompt-1 ordered sequence sizes": [
+            9
+          ],
+          "prompt-3 ordered sequence sizes": [
+            25,
+            10,
+            4,
+            4,
+            4,
+            3
+          ],
+          "prompt-5 ordered sequence sizes": [
+            12
+          ],
+          "prompt-6 ordered sequence sizes": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "prompt-7 ordered sequence sizes": [
+            15,
+            15
+          ]
+        },
+        "sha256": "1bbb8f248739b9aee8419f68f209acc9a875fba6688494f649ab8888941aa620",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "Political Philosophy Basics",
+        "queueTitle": "Political Philosophy Basics",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "response",
+          "list item"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 481,
+          "ranges": [
+            [
+              1,
+              125
+            ],
+            [
+              126,
+              255
+            ],
+            [
+              256,
+              365
+            ],
+            [
+              366,
+              481
+            ]
+          ],
+          "complete": true
+        },
+        "additionalFormatChecks": {
+          "fictionalStudentQuestionAnswerPairs": [
+            20,
+            20
+          ],
+          "manuallyNumberedQuizItems": 20
+        },
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "title": "Political Philosophy – Core Concepts",
+      "pagePath": "/political-philosophy/political-philosophy-core-concepts/",
+      "source": "http://byteseismic.com/2024/04/18/political-philosophy-core-concepts/",
+      "wordpressId": 6525,
+      "decisions": [
+        "Read six paired exchanges, preserving both thirty-term lists, both fifteen-concept lists, all resource and university entries, and thirty discussion questions.",
+        "Completed truncated Zionism definition and corrected communism/state ownership, republic/democracy, monarchy, legitimacy, sovereignty, social contract and justice distinctions.",
+        "Removed universal economic-trend claims and unsupported university rankings; linked all fourteen distinct institutions to identified official research or teaching evidence and clarified evidence limits.",
+        "Corrected journal publisher and 2026 closure status, malformed resource placeholders and unsupported documentary/organization claims; supplied documented alternatives without pretending they were the original resources.",
+        "Corrected classification of AI as biotechnology and retained the page’s full conceptual and discussion structure."
+      ],
+      "verification": {
+        "pagePath": "/political-philosophy/political-philosophy-core-concepts/",
+        "sourceSha256": "d03f3c2e7e08b9b92bbf1f1b8acbc53723e64356db091789f0070fcebaf18ebe",
+        "originalPrompts": 6,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 6,
+        "sourceColumns": 12,
+        "modelResponses": 12,
+        "blocksRetainedVerbatim": 157,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 82,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "prompt-1 ordered sequence sizes": [
+            30,
+            30
+          ],
+          "prompt-2 ordered sequence sizes": [
+            15,
+            15
+          ],
+          "prompt-3 ordered sequence sizes": [
+            10
+          ],
+          "prompt-4 ordered sequence sizes": [
+            10,
+            5,
+            3,
+            5
+          ],
+          "prompt-5 ordered sequence sizes": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "prompt-6 ordered sequence sizes": [
+            15,
+            15
+          ]
+        },
+        "sha256": "efdf6a78968237e77345954d32380db8902df510bb40e63b3d1eedb0561e9664",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "Political Philosophy – Core Concepts",
+        "queueTitle": "Political Philosophy – Core Concepts",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "response",
+          "list item"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 245,
+          "ranges": [
+            [
+              1,
+              80
+            ],
+            [
+              81,
+              160
+            ],
+            [
+              161,
+              245
+            ]
+          ],
+          "complete": true
+        },
+        "additionalFormatChecks": {},
+        "isolatedBuildVerified": true
+      }
+    }
+  ],
+  "earlierTodayReport": "quality/editorial-audit-2026-11-26.json",
+  "build": {
+    "isolated": true,
+    "log": "Dialectical preservation check passed for all 39 recovered pages, including 17 high-risk regression cases.\nSite audit: pages=840 broken_links=0 duplicate_ids=0 prompt_number_issues=0 orphans=0 oversized_assets=0 style_scars=0 grammar_scars=1 seo_issues=0 json_ld_issues=0 sitemap_issues=0 robots_issues=0\nGenerated or updated 723 content pages.\nVisible hierarchy sections: 15\nExpanded archive years: 2\n",
+    "reviewedPagesByteIdentical": 229,
+    "earlierPagesPreservationOnly": 211,
+    "inheritedFilesUnchanged": 476
+  },
+  "unrelatedFilesHashPreserved": 476,
+  "earlierCuratorProseRendererRegressionsPassed": 5,
+  "nextPage": "AI “Logic” & “Intelligence”",
+  "nextPagePath": "/rational-thought/ai-logic-intelligence/",
+  "nextBatch": "Evidence Workshop through What is Faith? (250–299)",
+  "limitations": [
+    "No full browser, mobile, or accessibility inspection; no such validation is claimed.",
+    "One inherited original-prompt grammar notice remains in the full-site audit; original prompt wording is deliberately preserved.",
+    "Where original examples cannot meet a requested evidential standard, each is retained with explicit limitations; unsupported historical claims, facts, breakthroughs, and rankings are not silently certified.",
+    "The official fifty-page batch remains incomplete and its cursor stays at 200. The separate partial progress file records twenty-nine reviewed pages.",
+    "The automation remains active until the authorized initial original-preserving pass ends; no maintenance cycle is started."
+  ]
+}

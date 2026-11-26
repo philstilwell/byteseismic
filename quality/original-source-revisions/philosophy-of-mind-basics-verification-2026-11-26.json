@@ -1,0 +1,102 @@
+{
+  "pagePath": "/philosophy-of-mind/philosophy-of-mind-basics/",
+  "sourceSha256": "bec8643eff6c4f3d5232b12d91e66c7850da31db30c34b713ca2ddb6001572cf",
+  "originalPrompts": 6,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 307,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 21,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": false,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [
+    "2.1",
+    "4.1",
+    "4.2"
+  ],
+  "formatChecks": {
+    "two sets of 25 research questions": [
+      25,
+      4,
+      5,
+      4,
+      4,
+      5,
+      3
+    ],
+    "quiz questions and keys": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "prompt-1 ordered sequence sizes": [
+      1,
+      1,
+      5
+    ],
+    "prompt-3 ordered sequence sizes": [
+      25,
+      4,
+      5,
+      4,
+      4,
+      5,
+      3
+    ],
+    "prompt-5 ordered sequence sizes": [
+      10
+    ],
+    "prompt-6 ordered sequence sizes": [
+      10,
+      10,
+      10,
+      10
+    ]
+  },
+  "sha256": "224328e081abe6781eca9a549f8fa16291add91ee56adab0dd4aa2fbbf326dad",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "Philosophy of Mind Basics",
+  "queueTitle": "Philosophy of Mind Basics",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "response",
+    "list item"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 334,
+    "ranges": [
+      [
+        1,
+        90
+      ],
+      [
+        91,
+        180
+      ],
+      [
+        181,
+        260
+      ],
+      [
+        261,
+        334
+      ]
+    ],
+    "complete": true
+  },
+  "additionalFormatChecks": {
+    "fictionalStudentQuestionAnswerPairs": [
+      20,
+      20
+    ]
+  },
+  "isolatedBuildVerified": true
+}

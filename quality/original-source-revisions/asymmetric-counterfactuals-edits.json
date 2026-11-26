@@ -1,0 +1,167 @@
+{
+  "pageFile": "philosophy-of-science/asymmetric-counterfactuals/index.html",
+  "wordpressId": 4606,
+  "snapshot": "asymmetric-counterfactuals-wordpress-4606.html",
+  "sourceUrl": "http://byteseismic.com/2024/03/27/asymmetric-counterfactuals/",
+  "sourceLabel": "Original WordPress conversation, 2024-03-27",
+  "shellRevision": "505a7a255c6e1bcbf661f9edf3a1878b95226d96",
+  "date": "2026-11-26",
+  "sourceSha256": "7209f84447f05028878aff5aa835ebbca0055ebfe9b419f96fe4e7a37ff96281",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "It seems that the salience of what has actually happened obscures the “reality” of what could have happened. Comment on this asymmetry in historical assessments.",
+    "Provide 5 actual historical examples in which the trauma of what happened may be hiding a worse trauma that might have happened.",
+    "Now provide 5 actual historical examples in which a success may be hiding a greater success that could have happened.",
+    "How does this asymmetry negatively affect rationality?",
+    "How might we inoculate ourselves from burying counterfactuals under the salience of the actual?",
+    "Create a 10-item quiz on the discussion above.  ",
+    "Provide 15 discussion questions relevant to the content above. "
+  ],
+  "introHeading": "Asymmetric Counterfactuals",
+  "intro": "Historical outcomes are vivid; unrealized alternatives are easier to overlook. This discussion examines worse disasters and better successes that might have occurred, while separating documented events from conditional scenarios. Several source examples needed correction because they described another actual harm rather than a counterfactual.",
+  "description": "How hindsight and outcome bias obscure plausible historical alternatives, with critically qualified examples, practical methods, quizzes and discussion questions.",
+  "highlights": [],
+  "replacements": {
+    "1.1.1": "<strong>Evidential asymmetry:</strong> Actual events often leave evidence that unrealized outcomes cannot leave. Giving that evidence greater weight is reasonable. The error comes when the prominence of an outcome is mistaken for proof that it was inevitable. Contemporary plans and disagreements can document alternatives without showing what their eventual consequences would have been.",
+    "1.2.2": "<strong>Availability and hindsight:</strong> A known outcome is easy to recall and can come to seem predictable. Alternatives may also be documented in proposals and warnings, but receive less attention. Ease of recall is not a measure of their original probability.",
+    "1.2.3": "<strong>Outcome bias:</strong> We may judge a decision mainly by how it turned out, instead of the options and evidence available when it was made. This is a better fit than the source’s “sunk cost” label, which concerns letting irrecoverable past expenditure improperly influence a present choice.",
+    "1.2.7": "<strong>Confusing inevitability with knowledge:</strong> Even in a deterministic model, observers can be uncertain and compare what would follow from different interventions. Counterfactual reasoning does not require settling metaphysical determinism.",
+    "2.1.0": "These are five historical cases with proposed worse alternatives, not five observed alternative histories. The strength of each case differs; a worse scenario neither excuses actual harm nor proves that the actual course was the best available.",
+    "2.1.1": "<strong>Cuban Missile Crisis (1962):</strong> The confrontation and danger were real; nuclear escalation is the proposed worse outcome. A failed diplomatic settlement followed by attack and retaliation supplies a concrete escalation mechanism. Its probability and eventual scale remain uncertain. See the <a href=\"https://history.state.gov/milestones/1961-1968/cuban-missile-crisis\">Office of the Historian’s account</a>.",
+    "2.1.2": "<strong>Black Death:</strong> The actual pandemic caused immense mortality. A worse scenario would require specifying a change that increased transmission or vulnerability, rather than simply imagining more deaths. The source’s assertion that acquired population immunity prevented continuing collapse is not established here; plague also recurred long afterward. Retain this as a weak counterfactual example, not a demonstrated near miss. See the <a href=\"https://www.who.int/news-room/fact-sheets/detail/Plague\">WHO background</a>.",
+    "2.1.3": "<strong>Chernobyl (1986):</strong> The accident caused severe harm, and emergency response sought to limit further release and exposure. Delayed protective action could plausibly have increased exposure. The source’s assertion that a vastly larger explosion was narrowly avoided lacks adequate support here and should not be presented as fact. A useful comparison specifies an intervention and its exposure pathway, without inventing the scale of the disaster it prevented. See the <a href=\"https://www.nrc.gov/regulations-legislation/fact-sheets-brochures/backgrounder-on-chernobyl-nuclear-power-plant-accident\">NRC account</a>.",
+    "2.1.4": "<strong>Spanish Armada (1588):</strong> The failed expedition caused actual losses. A successful invasion followed by prolonged warfare or persecution is a proposed worse scenario for affected populations. But naval success would not automatically secure a landing, overthrow Elizabeth, or determine religious policy. Its ranking depends on whose losses are counted and on several unestablished steps; it is not proof that the observed outcome minimized suffering.",
+    "2.1.5": "<strong>Y2K:</strong> Preparations and limited rollover disruptions are documented by <a href=\"https://www.gao.gov/products/t-aimd-00-70\">GAO</a>. Without particular repairs, identified date-processing faults could have caused more disruption. A quiet transition does not show that preparation was unnecessary, but neither does it prove that global collapse was otherwise imminent. This is chiefly a prevention example, not a strong instance of actual mass trauma concealing worse trauma.",
+    "2.1.6": "These cases illustrate different evidential strengths. The missile crisis and Y2K offer identifiable risk-reduction mechanisms; the plague and Armada examples require substantially more assumptions. None establishes that an imagined worse history actually would have occurred.",
+    "2.2.0": "<strong>Western Roman Empire:</strong> The source described other actual or alleged causes of collapse, not a worse unrealized outcome. To answer the prompt, one could ask whether a specified failure of a local settlement would have prolonged warfare and displacement. Without a particular settlement and supporting evidence, this remains a research question, not a substantiated example.",
+    "2.2.1": "<strong>American Civil War:</strong> The war’s destruction should be compared with a proposed alternative such as a negotiated settlement preserving slavery for longer. Continued enslavement is a specific additional harm that such an arrangement could impose. Its duration and wider effects would depend on later developments; the comparison does not show that every wartime decision was necessary or justified.",
+    "2.2.2": "<strong>Irish Great Famine:</strong> Colonial conditions and policy failures are part of the actual history, not an unrealized alternative. A relevant counterfactual would ask whether less relief or more delayed access to food would have increased mortality in a specified place. The source supplies no adequate local evidence to quantify that comparison, and imagining worse policy does not excuse actual policy.",
+    "2.2.3": "<strong>Partition of India (1947):</strong> Existing communal tensions are not themselves a counterfactual. A worse-outcome hypothesis might involve an alternative transfer of power leading to a longer civil conflict; a better-outcome hypothesis might involve more effective protection or a different settlement. Both require evidence about feasible arrangements. The source cannot establish that partition averted a greater catastrophe.",
+    "2.2.4": "<strong>Soviet dissolution (1991):</strong> Repression under the preceding system was actual history. A different counterfactual is a wider military effort to prevent dissolution, producing more armed conflict. This identifies a possible mechanism of additional harm but does not prove that the observed breakup was peaceful everywhere or that this alternative was inevitable.",
+    "2.2.5": "The original five entries often substituted deeper actual harms for worse unrealized outcomes. These revisions distinguish them explicitly. They offer conditional comparisons and research questions; the available material does not substantiate five definite cases in which a worse catastrophe was averted.",
+    "3.1.1": "<strong>Marshall Plan:</strong> Aid helped European recovery. Broader participation might have supported more extensive reconstruction, but the obstacle was not simply an American decision to omit Eastern Europe: the Soviet Union rejected participation and prevented countries under its control from accepting. A broader-success scenario must change that political constraint and consider consequences of doing so. See the <a href=\"https://www.loc.gov/exhibits/marshall/marsh-exhibition.html\">Library of Congress exhibition</a>.",
+    "3.1.2": "<strong>Apollo 11:</strong> The 1969 landing was an achievement. Sustained funding and technical progress might have supported further exploration; an early sustainable lunar base is a much stronger conjecture. Calling this a greater success requires weighing scientific gains against cost, risk, feasibility, and alternative uses of resources.",
+    "3.1.3": "<strong>Emancipation Proclamation:</strong> It declared freedom in designated rebellious areas, with explicit exceptions; it did not cover all Confederate territory or all slavery in the United States. More effective protection of freedom, civil rights, and material independence would be a stronger outcome, but would require additional political and legal measures, not merely broader wording in a wartime order. See the <a href=\"https://www.archives.gov/milestone-documents/emancipation-proclamation\">proclamation and context</a>.",
+    "3.1.4": "<strong>United Nations:</strong> Stronger collective enforcement might have prevented some harms. Removing veto constraints, however, might also have prevented major powers from joining or cooperating. The counterfactual must examine both effects rather than assume stronger formal powers would automatically deliver better outcomes.",
+    "3.1.5": "<strong>Polio vaccination:</strong> Salk’s inactivated vaccine and Sabin’s oral live-attenuated vaccine were distinct approaches, not simply successive upgrades. Earlier safe, equitable access could have prevented additional cases, conditional on production, delivery, and uptake. Earlier global eradication is a substantially stronger claim that this example does not establish. See <a href=\"https://www.who.int/news-room/spotlight/history-of-vaccination/history-of-polio-vaccination\">WHO’s history</a>.",
+    "3.2.0": "<strong>Printing:</strong> Gutenberg’s fifteenth-century European printing system expanded access to texts; printing and movable type had earlier Asian histories. Wider literacy and affordable schooling could have enlarged the benefit, but require their own resources and institutional changes. Do not treat those changes as costless consequences of introducing a press.",
+    "3.2.1": "<strong>American Revolution:</strong> Independence was declared in 1776 and secured through war and settlement, not completed in that year. An outcome extending freedom and political inclusion to enslaved people, women, and Indigenous peoples would improve important dimensions of justice. Its historical feasibility requires confronting slavery, settler expansion, and the political opposition to inclusion, rather than assuming a change of ideals alone would suffice.",
+    "3.2.2": "<strong>Abolition in the United States:</strong> The Thirteenth Amendment abolished slavery and involuntary servitude with its stated punishment exception. The Fourteenth and Fifteenth Amendments subsequently addressed citizenship and voting rights; the missed opportunity was not simply failure to enact any such rights, but failures of protection and enforcement alongside economic exclusion. A better-outcome scenario must identify how stronger protection could have been sustained. See the <a href=\"https://www.archives.gov/milestone-documents/13th-amendment\">amendment</a>.",
+    "3.2.4": "<strong>Antibiotics:</strong> Fleming’s 1928 observation was one stage; making penicillin an effective, scalable treatment required later research and production. Better infection prevention, equitable access, and careful antibiotic use could have increased benefits and limited resistance. Unspecified “alternative treatments” are not an evidence-based substitute, and the counterfactual must account for the knowledge available at the time.",
+    "4.1.7": "Evaluate the decision using information available at the time, then separately evaluate the outcome. Compare plausible alternatives, including better and worse ones, with explicit mechanisms and uncertainty. This avoids judging a risky decision good merely because it succeeded—or declaring actual harm justified merely because something worse can be imagined.",
+    "5.1.2": "<strong>Structured alternatives:</strong> State the actual event, change one feasible decision, identify what is held fixed, and explain the causal path to the proposed outcome. Then list evidence for the path and one plausible competing outcome. This makes a counterfactual assessable rather than merely vivid.",
+    "5.1.8": "<strong>Practice revising assumptions:</strong> Write down a preferred scenario, identify its weakest causal step, and ask someone to construct a competing scenario from the same evidence. The source did not establish that mindfulness or generic flexibility training specifically prevents this historical reasoning error.",
+    "5.2.9": "<strong>9. Visual aids:</strong> Label observed events separately from hypothetical branches. Add assumptions and confidence levels to the branches; a neat diagram must not make unsupported paths look like documented history.",
+    "6.1.8": "Which practice best tests a counterfactual rather than merely making it vivid? a. Adding dramatic details. b. Identifying its weakest causal step and a competing scenario. c. Repeating the conclusion. d. Assuming every imagined outcome is equally probable.",
+    "6.1.19": "b. Identifying its weakest causal step and a competing scenario.",
+    "6.2.12": "The prominence of the actual outcome overshadows plausible unrealized alternatives.",
+    "6.2.13": "Possible answers include hindsight bias, availability, confirmation bias, and judging a decision by its realized outcome.",
+    "6.2.14": "Outcomes.",
+    "6.2.20": "Because the evidence constrains alternatives unevenly, and an imagined causal chain can be mistaken. Assumptions and uncertainty must remain explicit."
+  },
+  "countChecks": [
+    {
+      "name": "five examples per response",
+      "selector": "#prompt-2 .original-response > ol, #prompt-3 .original-response > ol",
+      "child": "li",
+      "expected": [
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "quiz and answers",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "discussion",
+      "selector": "#prompt-7 .original-response > ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    },
+    {
+      "name": "prompt-1 ordered sequence sizes",
+      "selector": "#prompt-1 .original-response > ol",
+      "child": "li",
+      "expected": [
+        5
+      ]
+    },
+    {
+      "name": "prompt-2 ordered sequence sizes",
+      "selector": "#prompt-2 .original-response > ol",
+      "child": "li",
+      "expected": [
+        5,
+        5
+      ]
+    },
+    {
+      "name": "prompt-3 ordered sequence sizes",
+      "selector": "#prompt-3 .original-response > ol",
+      "child": "li",
+      "expected": [
+        5,
+        5
+      ]
+    },
+    {
+      "name": "prompt-4 ordered sequence sizes",
+      "selector": "#prompt-4 .original-response > ol",
+      "child": "li",
+      "expected": [
+        6
+      ]
+    },
+    {
+      "name": "prompt-5 ordered sequence sizes",
+      "selector": "#prompt-5 .original-response > ol",
+      "child": "li",
+      "expected": [
+        8
+      ]
+    },
+    {
+      "name": "prompt-6 ordered sequence sizes",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "prompt-7 ordered sequence sizes",
+      "selector": "#prompt-7 .original-response > ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    }
+  ],
+  "reviewDecisions": [
+    "Preserved all seven prompts and fourteen responses, including all four five-example lists and 20 quiz and 30 discussion questions.",
+    "Distinguished evidence asymmetry from bias, outcome bias from sunk cost, and uncertainty from metaphysical indeterminism.",
+    "Reworked all trauma examples: Gemini originally substituted actual background harm for unrealized harm; explicitly disclosed weak and unsubstantiated examples without pretending five definite near misses were proved.",
+    "Corrected Marshall Plan participation, Emancipation Proclamation scope, later Reconstruction rights, polio vaccine types, printing chronology and antibiotics development.",
+    "Added a concrete counterfactual assessment method and corrected quiz references to unsupported training claims and orphan answer labels."
+  ]
+}

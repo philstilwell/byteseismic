@@ -1,0 +1,162 @@
+{
+  "pageFile": "philosophy-of-mind/where-are-our-thoughts/index.html",
+  "wordpressId": 4071,
+  "snapshot": "where-are-our-thoughts-wordpress-4071.html",
+  "sourceUrl": "http://byteseismic.com/2024/03/19/where-are-our-thoughts/",
+  "sourceLabel": "Original WordPress conversation, 2024-03-19",
+  "shellRevision": "505a7a255c6e1bcbf661f9edf3a1878b95226d96",
+  "date": "2026-11-26",
+  "sourceSha256": "3a226bb21c6a8bf63f90735ffc4473994d0cf610f9385e31c8bb24d308fc087c",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "“If you open up a brain, you can’t  find thoughts anywhere! Thoughts must, therefore, exist in a spiritual realm.” Why is this claim faulty?",
+    "Is a spiritual ontological domain necessary to explain any of the functions of the human brain?",
+    "The ChatGPT quote above suggests the introduction of a spiritual realm to explain mental activities provides a “holistic” view. However, if there is no actual spiritual realm, this “holistic” view is a distortion and an illusion, right?",
+    "Let me offer a syllogism to reflect my previous argument in a more rigorous manner. Assuming P2 is correct, including spiritual concepts to provide a “holistic” approach is logically inappropriate, correct?",
+    "The quote from ChatGPT above was offered in response to my P2 premise, “The spiritual realm has not been established to exist.” I did not limit the ways of knowing. Non-empirical ways of knowing could establish a spiritual realm also, but the premise is that it has not been established, inclusive of any way of knowing. Correct? Therefore the ChatGPT response referring to other way of knowing is irrelevant, correct? ",
+    "Create a 10-item quiz on the discussion above. ",
+    "Provide 15 discussion questions relevant to the content above. "
+  ],
+  "introHeading": "Where are our Thoughts?",
+  "intro": "Why does failing to see a thought inside a brain not establish a spiritual realm? The conversation moves from computer analogies to a careful distinction between what exists and what has been established. The original prompts and syllogism remain intact; the edited responses correct their earlier acceptance of an invalid inference and retain Phil’s objection to narrowing his premise to empirical methods.",
+  "description": "Thoughts, brain processes and spiritual explanations: a source-preserving discussion of physical evidence and the difference between unestablished and nonexistent.",
+  "highlights": [],
+  "replacements": {
+    "1.1.1": "<strong>Physical evidence:</strong> Opening a device does not reveal the meaning of its running computation as a separate object. Likewise, the failure to find a visible thought in brain tissue does not establish a nonphysical location. Neural activity and interventions provide evidence about thinking; the analogy illustrates the faulty inference without proving that brains are literally computers.",
+    "1.1.4": "<strong>Measurement:</strong> Functional magnetic resonance imaging (fMRI) tracks blood-oxygen-related signals associated with neural activity; electroencephalography (EEG) records electrical activity at the scalp. They are different, limited measures, not direct photographs of thoughts or unrestricted mind readers.",
+    "1.1.6": "The conclusion does not follow from the observation. Physical processes need not appear as separable objects, and failure to detect something by an unsuitable method is not evidence for a particular alternative realm. This rebuts the offered argument without pretending to settle every mind–body question.",
+    "2.1.2": "<strong>Method and metaphysics:</strong> Neuroscience investigates physical mechanisms and tests their explanatory predictions. That research method is distinct from physicalism, the broader philosophical thesis that reality is physical or wholly grounded in the physical. Successful physical explanations support their stated scope; they are not a completed explanation of every aspect of consciousness.",
+    "2.1.5": "<strong>Spiritual ontology:</strong> The discussion has supplied no demonstrated need for a spiritual realm as a component of a brain-function explanation. People’s spiritual beliefs can be studied as experiences and interpretations without assuming that the entities those beliefs describe exist. Calling an account “holistic” supplies no missing evidence for such entities.",
+    "2.1.6": "Physical accounts explain many aspects of brain function; important explanatory questions remain. Those gaps alone neither establish a spiritual realm nor demonstrate that invoking one improves an explanation. Meaning and comfort should be distinguished from the truth of an account of what exists.",
+    "2.2.3": "<strong>Intervention:</strong> Altering brain activity can alter function. Deep brain stimulation is used for selected movement-disorder symptoms, including Parkinson’s disease; its use for depression remains investigational. These are distinct clinical contexts, not interchangeable examples of an established treatment. See <a href=\"https://www.ninds.nih.gov/health-information/disorders/deep-brain-stimulation-dbs\">NINDS</a> and <a href=\"https://www.nimh.nih.gov/health/topics/brain-stimulation-therapies/brain-stimulation-therapies\">NIMH</a>.",
+    "3.1.0": "Yes—under the stated condition that no spiritual realm exists, an explanation that depends on its existence would be false in that respect. Calling it “holistic” cannot make the nonexistent component real. That conditional differs from saying that the realm has not been established to exist.",
+    "3.1.4": "<strong>Truth versus meaning:</strong> If the realm does not exist, an account that treats it as an actual cause misdescribes reality, even if the account is comforting. If existence is merely unestablished, the warranted description is unsupported, not thereby disproved. A subjective experience can be real while an interpretation of its cause is mistaken.",
+    "3.1.6": "The answer to the original conditional does not depend on adopting a sympathetic framework: a nonexistent realm cannot supply an actual cause. The separate question is whether its nonexistence, or only the lack of a satisfactory case for existence, has been established.",
+    "3.2.2": "<strong>Assessable claims:</strong> A proposed realm is not outside inquiry merely because it is called spiritual. Claims with observable consequences can be tested; claims without such consequences require their own stated grounds. Neither label settles whether the claim is true.",
+    "3.2.7": "<strong>Subjective experience:</strong> Researchers study reports and behavioral and neural measures associated with experience. The limits of those measures do not turn every interpretation of experience into an equally supported explanation.",
+    "4.1.0": "No: the conclusion does not follow from P1 and P2 as written. P1 concerns a realm that does not exist; P2 concerns a realm whose existence has not been established. Accepting P2 does not supply the antecedent of P1.",
+    "4.1.2": "<strong>Premise 2:</strong> “Has not been established to exist” is a claim about justification. It does not restrict the possible methods of justification to empirical science, and it does not assert nonexistence.",
+    "4.1.3": "<strong>Conclusion:</strong> To derive the stated conclusion using P1, one would need the different premise that the spiritual realm does not exist. Alternatively, retaining the original P2 supports a narrower argument against presenting that realm as an established explanatory foundation.",
+    "4.1.5": "<strong>Counterexample to the inference:</strong> An object might exist before anyone has established its existence. Thus a situation can satisfy P2 without satisfying the antecedent “does not exist” in P1. This is a logical gap, independent of which methods of knowing are allowed.",
+    "4.1.6": "<strong>Repair retaining P2:</strong> Add a methodological premise: an entity whose existence has not been established should not be presented as an established explanation. Then conclude that a spiritual realm should not be presented as an established explanation. This does not prohibit clearly labeled hypotheses.",
+    "4.1.7": "<strong>“Illusory”:</strong> If this means dependence on something nonexistent, the conclusion requires nonexistence. If it means merely unestablished, the argument must say so consistently; changing senses mid-argument would obscure the issue.",
+    "4.1.8": "Your concern about an unwarranted spiritual addition can be expressed without equating lack of establishment with nonexistence. The original models’ declarations that this syllogism was valid were incorrect.",
+    "4.2.0": "The concern is clear, but the syllogism is not valid as written. “Not established to exist” and “does not exist” are different propositions.",
+    "4.2.2": "<strong>P2:</strong> Even if accepted exactly as stated and across every proposed method of knowing, it does not entail nonexistence. The difficulty is the inference, not merely the available strength of evidence.",
+    "4.2.3": "<strong>Alternative conclusion:</strong> A nonspiritual, multi-level explanation may be justified by its evidence. P2 gives grounds not to treat a spiritual realm as established, but does not alone show that every dependence on it is illusory.",
+    "4.2.5": "The original response incorrectly replaced P2 with “the spiritual realm doesn’t exist.” Retain the stated premise and narrow the conclusion to lack of an established foundation, or defend the stronger nonexistence premise separately.",
+    "5.1.1": "Your clarification is correct: merely mentioning other ways of knowing does not answer a premise that already includes them. However, this correction does not validate the conclusion. Even if no proposed method has established existence, nonexistence does not follow from that fact alone.",
+    "5.1.2": "The response should therefore acknowledge both points: it wrongly narrowed your premise, and it wrongly accepted the syllogism. A coherent revision preserves your challenge to unsupported explanation while distinguishing that challenge from a demonstration of nonexistence.",
+    "5.2.1": "<strong>Scope:</strong> You did not define an exclusively scientific framework. The premise concerns establishment by any proposed means; the original response contradicted your clarification by narrowing it again.",
+    "5.2.3": "<strong>Relevance:</strong> An alternative method would be relevant if someone showed that it actually establishes the realm’s existence, thereby contesting P2. Merely saying other methods are possible does not do that.",
+    "5.2.5": "The clarification about P2 is correct, but the syllogism still lacks an inference from non-establishment to nonexistence.",
+    "5.2.6": "The original response did not answer your premise as stated. The appropriate reply distinguishes that failure from the separate issue of the argument’s validity.",
+    "5.2.7": "A more defensible conclusion is that an unestablished spiritual realm should not be offered as an established explanation. This preserves the objection to calling an unsupported ontological addition “holistic,” without claiming that the premise disproves the realm.",
+    "6.1.7": "Why does calling an explanation “holistic” not establish the reality of its spiritual component?",
+    "6.1.8": "What logical gap occurs between P1 and P2 in the original syllogism?",
+    "6.1.18": "The description concerns the explanation’s breadth or intent, not evidence that each proposed entity exists.",
+    "6.1.19": "P1 requires nonexistence; P2 supplies only non-establishment. The latter does not entail the former.",
+    "6.1.21": "Dependence on something that does not exist, if “illusory” has that meaning; lack of establishment alone does not show this.",
+    "6.2.10": "Why is the original syllogism invalid? (Choose one.) a. It permits too many ways of knowing. b. It moves from non-establishment to nonexistence without a supporting premise. c. It proves physicalism. d. It forbids studying subjective reports.",
+    "6.2.11": "True or false: Phil’s P2 expressly excludes non-empirical ways of establishing existence.",
+    "6.2.21": "b. Non-establishment does not itself entail nonexistence.",
+    "6.2.22": "False. The premise includes any proposed means of establishing existence.",
+    "7.1.10": "How could a proposed non-empirical method actually challenge P2, rather than merely being named as a possibility?"
+  },
+  "countChecks": [
+    {
+      "name": "quiz questions and answers",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "discussion questions",
+      "selector": "#prompt-7 .original-response > ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    },
+    {
+      "name": "prompt-1 ordered sequence sizes",
+      "selector": "#prompt-1 .original-response > ol",
+      "child": "li",
+      "expected": [
+        5,
+        4
+      ]
+    },
+    {
+      "name": "prompt-2 ordered sequence sizes",
+      "selector": "#prompt-2 .original-response > ol",
+      "child": "li",
+      "expected": [
+        5
+      ]
+    },
+    {
+      "name": "prompt-3 ordered sequence sizes",
+      "selector": "#prompt-3 .original-response > ol",
+      "child": "li",
+      "expected": [
+        5
+      ]
+    },
+    {
+      "name": "prompt-4 ordered sequence sizes",
+      "selector": "#prompt-4 .original-response > ol",
+      "child": "li",
+      "expected": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "prompt-5 ordered sequence sizes",
+      "selector": "#prompt-5 .original-response > ol",
+      "child": "li",
+      "expected": [
+        3
+      ]
+    },
+    {
+      "name": "prompt-6 ordered sequence sizes",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "prompt-7 ordered sequence sizes",
+      "selector": "#prompt-7 .original-response > ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    }
+  ],
+  "reviewDecisions": [
+    "Preserved the exact opening claim, all seven prompts, three-premise syllogism and curator follow-up.",
+    "Corrected both models’ invalid endorsement of the syllogism; retained the curator’s inclusive scope of ways of knowing and distinguished an unsupported explanation from proved nonexistence.",
+    "Qualified computer analogies and physicalist overreach, distinguished fMRI from EEG, and corrected clinical status of deep brain stimulation for depression with primary sources.",
+    "Repaired both quiz sets and one discussion question so the 20 questions and keys and 30 discussion questions reflect the corrected reasoning."
+  ],
+  "preambleHeadingIndexes": [
+    3
+  ]
+}

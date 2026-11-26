@@ -1,0 +1,138 @@
+{
+  "pageFile": "philosophy-of-mind/philosophy-of-mind-basics/index.html",
+  "wordpressId": 3746,
+  "snapshot": "philosophy-of-mind-basics-wordpress-3746.html",
+  "sourceUrl": "http://byteseismic.com/2024/03/14/philosophy-of-mind-basics/",
+  "sourceLabel": "Original WordPress conversation, 2024-03-14",
+  "shellRevision": "505a7a255c6e1bcbf661f9edf3a1878b95226d96",
+  "date": "2026-11-26",
+  "sourceSha256": "bec8643eff6c4f3d5232b12d91e66c7850da31db30c34b713ca2ddb6001572cf",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "What are the major schools of thought in philosophy of mind?",
+    "Create a 6-month self-study program to serve as a comprehensive introduction to philosophy of mind.",
+    "Provide 25 of the most relevant questions in philosophy of mind today. ",
+    "Create a hypothetical dialogue between a panel of philosophy of mind professors and first-year philosophy students. Include 20 questions/answer pairs.",
+    "What other disciplines are a good foundation for an advanced degree in philosophy of mind?",
+    "Create a 10-item quiz on the discussion above."
+  ],
+  "introHeading": "Philosophy of Mind Basics",
+  "intro": "An introduction to competing accounts of mind, two six-month study plans, fifty research questions, and two fictional classroom panels. Editorial continuations complete the source’s unfinished study plan and short panels; corrections distinguish physicalism, functionalism, idealism, and theories of consciousness.",
+  "description": "Study philosophy of mind through competing theories, six-month reading plans, research questions, classroom dialogues and quizzes.",
+  "highlights": [],
+  "replacements": {
+    "1.1.3": "<strong>Property dualism:</strong> Mental properties are irreducible to physical properties; this need not posit a separate mental substance.",
+    "1.1.7": "<strong>Functionalism:</strong> Mental states are characterized by their causal roles—relations to inputs, other states, and behavior. Many functionalists are physicalists, but the role-based account does not by itself require a particular physical realization or settle all metaphysical questions.",
+    "1.1.9": "<strong>Identity theory:</strong> Mental states are physical states. Type identity identifies kinds of mental states with kinds of brain states; token identity identifies particular occurrences without requiring one brain-state type for every occurrence of the same mental kind. Identity is stronger than correlation.",
+    "2.1.6": "Reading: Descartes’ <em>Meditations on First Philosophy</em>, Meditations II and VI, on the thinking self and the mind–body distinction.",
+    "2.1.63": "Reading: Andy Clark and David Chalmers, <a href=\"https://consc.net/papers/extended.html\">“The Extended Mind”</a> (1998). Activity: compare remembering an address unaided with using a reliably available notebook; state what would make the notebook part of cognition rather than merely a helpful tool.",
+    "2.2.3": "An introductory textbook: John Heil, <a href=\"https://www.routledge.com/Philosophy-of-Mind-A-Contemporary-Introduction/Heil/p/book/9781041053637\"><em>Philosophy of Mind: A Contemporary Introduction</em></a>. The original response incorrectly attributed this title to David Chalmers.",
+    "2.2.5": "Supplementary lectures: choose a university lecture on the same topic as each week’s reading, record the speaker and source, and reconstruct one argument. The source’s named podcast series was not established and is not relied on here.",
+    "2.2.28": "Compare a defense of physicalism with David Chalmers’ challenge to reductive explanations in <a href=\"https://consc.net/papers/facing.html\">“Facing Up to the Problem of Consciousness”</a>; study Berkeley as an idealist. Chalmers should not have been listed here as a representative defender of physicalism.",
+    "2.2.36": "David Chalmers, <a href=\"https://consc.net/papers/facing.html\">“Facing Up to the Problem of Consciousness”</a> (1995), especially the distinction between explaining functions and explaining subjective experience. This replaces the unrelated Library of Congress homepage link.",
+    "3.1.14": "What kinds of freedom, if any, are compatible with determinism, and what kinds of control matter for responsibility?",
+    "3.2.4": "Is consciousness fundamental or emergent, and how do those alternatives intersect with physicalism, dualism, and other views?",
+    "3.2.9": "Does mentality extend to fundamental constituents of nature, as panpsychists propose, and how could such mentality relate to unified human experience?",
+    "3.2.15": "Does the content of a mental state depend only on the individual’s internal condition, or also on relations to the environment (internalism versus externalism)?",
+    "4.1.10": "Professor A: Interactionist substance dualists hold that mind and body causally interact; other dualists deny or differently explain that interaction. Descartes assigned the pineal gland a role, but identifying a location does not explain how distinct kinds of substance could affect each other.",
+    "4.2.17": "Professor Sharma: Yes. Idealism treats reality as fundamentally mental or dependent on mind; it need not dismiss the experienced world as an illusion. Neutral monism treats the mental and physical as deriving from a basis that is not intrinsically either.",
+    "4.2.19": "Dr. Jones: Compatibilists can ground responsibility in acting through one’s own reasons-responsive capacities without coercion, even if the past and laws determine the action. Incompatibilists dispute whether that control is sufficient. Simply saying one could choose differently leaves the disputed sense of “could” unresolved.",
+    "4.2.23": "Professor Chen: Phenomenal consciousness concerns what an experience feels like. Access consciousness concerns information being available for reasoning and the control of action or speech. Reportability is one manifestation of access, not its entire definition.",
+    "4.2.25": "Dr. Jones: Randomness alone does not provide control. A defender of indeterministic free will must explain how an agent guides a choice, rather than merely adding chance. Whether such an account succeeds remains disputed.",
+    "6.1.15": "Some philosophers regard machine consciousness as possible; the question remains disputed, and fluent behavior alone does not establish experience.",
+    "1.1.4": "<strong>Physicalism:</strong> The mental is physical or wholly dependent on the physical. Identity theory is one version; not every physicalist identifies each mental kind with a single brain-state kind. Variants include:"
+  },
+  "countChecks": [
+    {
+      "name": "two sets of 25 research questions",
+      "selector": "#prompt-3 .original-response > ol",
+      "child": "li",
+      "expected": [
+        25,
+        4,
+        5,
+        4,
+        4,
+        5,
+        3
+      ]
+    },
+    {
+      "name": "quiz questions and keys",
+      "selector": "#prompt-6 .original-response ol",
+      "child": "li",
+      "expected": [
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "prompt-1 ordered sequence sizes",
+      "selector": "#prompt-1 .original-response > ol",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        5
+      ]
+    },
+    {
+      "name": "prompt-3 ordered sequence sizes",
+      "selector": "#prompt-3 .original-response > ol",
+      "child": "li",
+      "expected": [
+        25,
+        4,
+        5,
+        4,
+        4,
+        5,
+        3
+      ]
+    },
+    {
+      "name": "prompt-5 ordered sequence sizes",
+      "selector": "#prompt-5 .original-response > ol",
+      "child": "li",
+      "expected": [
+        10
+      ]
+    },
+    {
+      "name": "prompt-6 ordered sequence sizes",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        10,
+        10,
+        10,
+        10
+      ]
+    }
+  ],
+  "reviewDecisions": [
+    "Read six complete source sections and preserved twelve responses; retained useful multidisciplinary preparation and the two question sets.",
+    "Corrected physicalism/identity, functionalism, property dualism, monism/idealism and panpsychism; removed false contrasts in free will and mental content.",
+    "Corrected Heil book attribution and Chalmers classification, replaced unrelated source link, completed the truncated six-month study plan with an explicitly marked continuation.",
+    "Original fictional panels ended at 16 and 12 pairs; added four and eight explicitly editorial pairs to satisfy 20 each. Preserved all original pairs and quiz counts."
+  ],
+  "responseAppendices": {
+    "2.1": [
+      "<div class=\"editorial-continuation\"><p><strong>Editorial continuation:</strong> The original stopped at the reading for Month 6, Week 1. The remaining weeks complete the requested plan.</p><h4>Month 6, Week 2: Embodiment</h4><p>Read a scholarly overview of embodied cognition. Compare a task performed mentally, with gestures, and with a written diagram; distinguish causal assistance from the stronger claim that a bodily process constitutes cognition.</p><h4>Month 6, Week 3: Artificial minds</h4><p>Return to the functionalism and consciousness readings. Write an argument for and an objection to using behavioral performance as evidence of machine consciousness; identify the assumptions each requires.</p><h4>Month 6, Week 4: Final synthesis</h4><p>Write a 1,500-word answer to one mind–body question, reconstructing two competing arguments and responding to the strongest objection to your preferred view. Revise your first-month concept map and identify one unresolved issue.</p></div>"
+    ],
+    "4.1": [
+      "<div class=\"editorial-continuation\"><p><strong>Editorial continuation:</strong> The source supplied 16 of the requested 20 pairs. These four complete this fictional panel.</p><p><strong>Student 17:</strong> Does explaining a mental function explain its felt quality?</p><p><strong>Professor B:</strong> It explains how the function is performed. Whether that also explains experience is the contested issue raised by the hard problem.</p><p><strong>Student 18:</strong> Does panpsychism mean that stones think?</p><p><strong>Professor A:</strong> Not ordinarily. Fundamental mentality need not involve thinking or a unified stone-sized subject; explaining how simple experiences combine is itself a challenge.</p><p><strong>Student 19:</strong> Could a notebook be part of memory?</p><p><strong>Professor C:</strong> Extended-mind theorists argue that suitably integrated external resources can constitute parts of cognition. Mere usefulness does not establish that stronger claim.</p><p><strong>Student 20:</strong> How should we compare theories?</p><p><strong>Professor D:</strong> Ask what each explains, which assumptions it needs, how it fits evidence, and whether it answers the strongest objections without changing the question.</p></div>"
+    ],
+    "4.2": [
+      "<div class=\"editorial-continuation\"><p><strong>Editorial continuation:</strong> The source supplied 12 of the requested 20 pairs. These eight complete this fictional panel.</p><p><strong>Student 13:</strong> Does correlation show that a thought is a brain state?</p><p><strong>Professor Sharma:</strong> Correlation is evidence of association. Identity is a stronger metaphysical claim and needs further argument.</p><p><strong>Student 14:</strong> Why distinguish substance from property dualism?</p><p><strong>Professor Sharma:</strong> The former posits a distinct mental substance; the latter can accept physical organisms while denying that their mental properties reduce to physical properties.</p><p><strong>Student 15:</strong> Is functionalism tied to biological brains?</p><p><strong>Professor Chen:</strong> It characterizes states by their roles, allowing in principle different materials to realize the same role. Whether that captures every feature of experience is disputed.</p><p><strong>Student 16:</strong> Does introspection settle what the mind is?</p><p><strong>Dr. Jones:</strong> It supplies first-person evidence but can be incomplete or mistaken, and it does not directly reveal every causal mechanism.</p><p><strong>Student 17:</strong> What does behaviorism leave to debate?</p><p><strong>Professor Chen:</strong> Whether dispositions to behave adequately capture inner experience and the causal relations among unobserved mental states.</p><p><strong>Student 18:</strong> Why study other animals?</p><p><strong>Professor Chen:</strong> Comparative evidence can challenge human-centered assumptions about cognition; deciding which evidence supports experience requires careful argument.</p><p><strong>Student 19:</strong> Does the extended mind imply a shared group consciousness?</p><p><strong>Professor Sharma:</strong> No. A claim about externally supported cognitive processes does not by itself establish a unified subject shared by several people.</p><p><strong>Student 20:</strong> What should a beginner practice?</p><p><strong>Dr. Jones:</strong> State a thesis clearly, reconstruct its supporting argument, separate empirical premises from conceptual ones, and answer a serious objection.</p></div>"
+    ]
+  },
+  "leadingTextReplacements": {
+    "1.2.3": "<strong>Monism:</strong> Reality has one fundamental kind or basis. This does not by itself mean that mind is brain: physicalism, idealism, and neutral monism offer different accounts of that basis."
+  }
+}

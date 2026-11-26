@@ -1,0 +1,223 @@
+{
+  "pageFile": "philosophy-of-language/semantics-convention-vs-stipulation/index.html",
+  "wordpressId": 1021,
+  "snapshot": "semantics-convention-vs-stipulation-wordpress-1021.html",
+  "sourceUrl": "http://byteseismic.com/2024/02/24/semantics-convention-vs-stipulation/",
+  "sourceLabel": "Original WordPress conversation, 2024-02-24",
+  "shellRevision": "505a7a255c6e1bcbf661f9edf3a1878b95226d96",
+  "date": "2026-11-26",
+  "sourceSha256": "6df0413e102a1827392266dc94280246ff2690b427ec036b328513c471fbed98",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "Describe the causal interplay between 1) conventional denotations of terms that end up in dictionaries and 2) stipulated denotations of terms in attempts to bring the stipulated denotation into conventional acceptance.",
+    "Provide 10 salient examples of English terms that have experienced dramatic evolutionary changes in their meanings.",
+    "Provide ten examples in which a small group of English language speakers successfully changed the conventional denotation of a term.",
+    "Provide ten examples in which a small group of English language speakers unsuccessfully attempted to change the conventional denotation of a term.",
+    "What seem to be the major determinants behind the successful migration of a non-conventional denotation of a term into conventional acceptance?",
+    "When engaging an individual who insists everyone adopt a narrow stipulated definition of a term, how might we respond?",
+    "Create a 10-item quiz on the content above with answers at the end.",
+    "Provide 15 discussion questions on the content above."
+  ],
+  "introHeading": "Semantics: Convention vs Stipulation",
+  "intro": "Eight original prompts examine how local definitions become shared usage, test proposed examples of semantic change and ask how to respond to demands for a universal definition. Both responses and their quizzes remain separate. Unsupported historical claims are corrected or identified explicitly.",
+  "description": "Examine conventional and stipulated meaning, semantic change, dictionary evidence and the limits of demanding universal definitions.",
+  "highlights": [],
+  "replacements": {
+    "1.1.0": "A stipulated definition assigns a meaning for a purpose; a conventional meaning is sustained by shared usage. The first can influence the second, but not every local stipulation seeks general adoption, and not every semantic change begins with an explicit stipulation. The following stages are possibilities, not a compulsory sequence.",
+    "1.1.5": "Dictionary recognition: dictionaries generally record established usage, often including several meanings and usage labels. Inclusion can increase visibility and encourage adoption, so the influence runs both ways; it does not make a definition universally binding.",
+    "1.2.7": "In science, “quark” received a technical meaning through Gell-Mann’s work; the literary spelling is “quark,” not “Querk.” This illustrates deliberate naming, distinct from replacing the conventional sense of an existing everyday term.",
+    "1.2.8": "In computing, “mouse” acquired a device sense by analogy with the rodent. The animal sense came first and remains in use: an additional conventional meaning need not displace its predecessor.",
+    "1.2.14": "Dawkins introduced “meme” for a unit of cultural transmission; online uses adapted that idea to shareable and transformable digital material. This is not a transition from a purely biological entity to a cultural one.",
+    "2.1.8": "Naughty: earlier senses concern having little or nothing, and later being bad or morally objectionable. The modern association with children’s misbehavior should not be turned into the unsupported intermediate story “having nothing but mischief.”",
+    "2.2.3": "<a href=\"https://www.merriam-webster.com/dictionary/thug\">Thug</a>: the older English sense refers to members of groups of robbers in India; the generalized sense denotes a violent criminal or bully. The original claim about a royal servant or messenger was incorrect.",
+    "2.2.6": "<a href=\"https://www.merriam-webster.com/dictionary/literally\">Literally</a>: the literal or exact sense coexists with an emphatic, hyperbolic use. The latter is centuries old; the original response reversed the direction of the contrast.",
+    "2.2.7": "Host: the hospitality sense coexists with biological and computing senses. A living organism may host a parasite; a computer can host software. A computer is not thereby an organism.",
+    "2.2.8": "<a href=\"https://www.merriam-webster.com/dictionary/gumption\">Gumption</a>: recorded from the early eighteenth century with a common-sense meaning, later also associated with initiative and courage. The original sixteenth-century dating was unsupported.",
+    "2.2.9": "Nice guy: ordinarily a friendly man; in some critical uses, someone whose apparent kindness conceals entitlement. This is contextual irony and a competing sense, not proof that the ordinary meaning has disappeared.",
+    "2.2.10": "Smartphone: a compound naming a kind of mobile phone. It illustrates vocabulary growth around a technology rather than a dramatic reversal of the meaning of “phone”; mobile phones already existed before smartphones.",
+    "3.1.0": "The ten cases below illustrate community influence, but they are not ten proven instances of a small group deliberately replacing a conventional denotation. Some involve coinage, reclamation, a competing sense or wider diffusion. Those distinctions matter when evaluating the causal claim in the prompt.",
+    "3.1.1": "Queer: an older sense concerns strangeness; later derogatory uses targeted sexual minorities. Some LGBTQ+ communities reclaimed it as a positive self-description. Reclamation is context-sensitive and does not make every use welcome to every person.",
+    "3.1.6": "Sustainability: use spans ecological, economic and institutional contexts. That breadth illustrates semantic extension; this exchange does not identify a small initiating group or establish a single original environmental meaning.",
+    "3.1.7": "Vegan: the <a href=\"https://www.vegansociety.com/about-us/history\">Vegan Society’s history</a> records the 1944 coinage among non-dairy vegetarians and subsequent development of the broader ethical definition. The modern wording should not be projected unchanged back into 1944. This is deliberate coinage and later refinement, not simply replacement of an existing word’s meaning.",
+    "3.1.9": "Influencer: social-media use specializes the broader idea of someone who influences others. The new occupational application is clear; attributing it to an identifiable small group’s successful campaign requires evidence not supplied here.",
+    "3.1.11": "Community use can reshape meaning, but the examples vary in what changed and how well its cause is documented. A successful new term, a newly positive association and a replacement denotation are different outcomes.",
+    "3.2.0": "These ten cases concern community-associated uses. They should not all be treated as documented small-group campaigns: each needs a specified starting meaning, proposed change and evidence of diffusion.",
+    "3.2.1": "Hack: computing communities developed senses involving ingenious solutions and exploration of systems. The original account wrongly collapsed the verb for cutting with a noun for a person and asserted a simple lineage without evidence.",
+    "3.2.8": "Trigger: a mechanical term also has a general causal sense and specialized psychological uses. Awareness communities have helped circulate the trauma-related use; clinical usage is not the word’s entire prior history.",
+    "3.2.9": "Binge-watching: a compound for watching many episodes in succession. Streaming services helped popularize the practice and expression; the original claim that Netflix coined it is not established here.",
+    "4.1.0": "The requested ten historical failures require evidence of an actual campaign, its proposed meaning and its reception. The original list does not establish that evidence for all ten entries. The following assessment preserves each candidate while distinguishing limited adoption, changed associations and unsupported anecdotes; it is not a verified list of ten failures.",
+    "4.1.1": "Brights: <a href=\"https://www.the-brights.net/\">the movement</a> proposes a label for people with a naturalistic worldview. Its continued community use establishes some uptake. Whether it failed to achieve a wider aim requires a stated target and usage evidence, not simply observing that other labels remain common.",
+    "4.1.2": "Frishtar: the claimed intersex-community campaign and kinship definition are unverified. Do not use this as a historical example without a traceable source from the alleged proponents.",
+    "4.1.3": "Quixotic: a mix of idealism and impracticality does not by itself demonstrate a failed campaign to make the word wholly positive. The original response named no proponents or evidence of such an attempt.",
+    "4.1.4": "Scientist: the alleged nineteenth-century campaign to replace it with a more specialized term is insufficiently specified. A documented debate about naming scientific practitioners would need to be distinguished from an attempt to change this word’s denotation.",
+    "4.1.5": "Cybernetics: specialist use is not automatically a failed attempt at general adoption. A technical term can succeed within its intended field even if it remains uncommon in everyday speech.",
+    "4.1.6": "Involuntary celibate: the phrase’s descriptive meaning and the associations of particular “incel” communities should be distinguished. Unwanted associations may frustrate a supportive intent without establishing that the denotation itself was unsuccessfully changed.",
+    "4.1.7": "Digital native and digital immigrant: criticism of these categories concerns their accuracy and implications. A disputed expression can still be conventionally understood; universal agreement is not the criterion for linguistic adoption.",
+    "4.1.8": "<a href=\"https://www.merriam-webster.com/dictionary/netizen\">Netizen</a>: an established dictionary entry for an internet-community participant. Its frequency varies by context; it cannot simply be classified as a failed coinage on the original evidence.",
+    "4.1.9": "Phablet: a blend naming a phone/tablet category. Even if usage declines as devices converge, later decline would not establish that the initial naming attempt failed or changed an existing word’s denotation.",
+    "4.1.10": "Information superhighway: a metaphor popularized for communications networks. Becoming dated after substantial circulation is different from never achieving conventional recognition.",
+    "4.1.11": "The defensible lesson is methodological: assess an explicit adoption goal with usage evidence. These candidates do not justify the original promise of ten demonstrated failures.",
+    "4.2.0": "Assessing proposed failures and limits of adoption:",
+    "4.2.1": "Woke: competing favorable and pejorative uses show contested meaning. Resistance to an intended evaluative tone does not mean that the expression failed to spread.",
+    "4.2.2": "Latinx: adoption differs across speakers and settings. Assess a defined community and period rather than treating either limited uptake or criticism as universal failure.",
+    "4.2.3": "<a href=\"https://www.merriam-webster.com/dictionary/humankind\">Humankind</a>: an established word. The continued use of “mankind” does not demonstrate that “humankind” failed to gain acceptance.",
+    "4.2.4": "<a href=\"https://www.merriam-webster.com/dictionary/chesterfield\">Chesterfield</a>: dictionaries record a sofa sense. The original story of a company’s unsuccessful generic-brand campaign is unverified and should not be taught as fact.",
+    "4.2.5": "Moist: dislike of a word’s sound or associations differs from rejection of its conventional meaning. No identified campaign or reception evidence supports the original reclamation story.",
+    "4.2.6": "New coinages: many remain unfamiliar, but a category of possible failures is not a named historical example. Identify a proposer and dated usage before drawing a causal lesson.",
+    "4.2.7": "Community slang: a bounded audience can be the intended audience. Limited reach therefore does not by itself establish failure.",
+    "4.2.8": "Academic terminology: a specialized sense can be fully conventional within a discipline. Success should be measured against the communication task it was meant to serve.",
+    "4.2.9": "Euphemisms: altered associations can frustrate a speaker’s purpose, but the effect must be demonstrated for a particular term rather than assumed for the whole category.",
+    "4.2.10": "Controversial labels: a negative association can deter some speakers and attract others. A documented campaign and reception history are needed to classify a specific attempt.",
+    "4.2.11": "This response cannot substantiate ten historical failures from the proposed examples. It instead identifies why several classifications fail and what evidence a reliable list would require.",
+    "5.1.1": "Diffusion across contexts: broad usage is partly what conventional acceptance means, so it is not an independent explanation by itself. Look for mechanisms such as repeated exposure, useful coordination, institutional repetition and incentives to signal group membership.",
+    "5.2.14": "Repeated exposure can stabilize a meaning, although some expressions spread rapidly and others remain specialized. A fixed duration is not required.",
+    "6.1.2": "Acknowledge the purpose: “I see why that definition helps your argument.” This recognizes an aim without conceding that the definition is valid, useful or binding on everyone.",
+    "6.1.9": "Use dictionaries as evidence of usage, not as final authorities over every conversation. A local stipulation can be useful if agreed and kept consistent; it cannot establish an empirical or moral conclusion merely by redefining a word.",
+    "6.2.4": "4. Agree on scope: “I can use that definition for this discussion, provided we do not treat it as proof that everyone else is using the word incorrectly.” Then restate the substantive disagreement without relying on the contested label.",
+    "6.2.5": "5. Avoid defensiveness and remain open-minded: consider the proposed definition’s purpose while checking whether it hides an assumption or changes meaning during the argument.",
+    "7.1.3": "Which term acquired a common sexual-orientation sense while retaining older senses such as cheerful?",
+    "7.1.14": "Gay. The semantic shift should not simply be equated with reclamation of a prior slur.",
+    "7.1.8": "What does the Brights movement’s use of its label establish, and what would be needed to assess broader adoption?",
+    "7.1.19": "It establishes community use for a naturalistic identity. Assessing broader success requires a defined target and evidence of usage beyond that community.",
+    "7.2.2": "Which claim incorrectly guarantees conventional acceptance? a. Cultural context can influence adoption. b. An individual’s stipulation binds all speakers immediately. c. A useful new distinction may encourage uptake. d. Technology can create new naming needs.",
+    "7.2.13": "b. An individual’s stipulation binds all speakers immediately.",
+    "7.2.5": "When a usage spreads among ordinary speakers without an official decree, what description best fits? a. An imposed institutional rule b. Bottom-up language change c. A formal linguistic decree d. A change that requires no social interaction",
+    "7.2.6": "Which is insufficient by itself to establish widespread conventional acceptance? a. Repeated independent usage across communities b. One person declaring a definition mandatory c. Stable understanding in diverse contexts d. Sustained documented use",
+    "7.2.17": "b. One person declaring a definition mandatory.",
+    "8.1.1": "How does the development of the sexual-orientation sense of “gay” differ from reclamation of “queer”? Why should semantic shift and reclamation not be treated as identical?",
+    "8.1.6": "How would you measure whether “brights” achieved its proponents’ aims? Distinguish community uptake, broader recognition and replacement of other labels."
+  },
+  "countChecks": [
+    {
+      "name": "Prompt 2 ten-item lists",
+      "selector": "#prompt-2 .original-response > ol",
+      "child": "li",
+      "expected": [
+        10,
+        10
+      ]
+    },
+    {
+      "name": "Prompt 3 ten-item lists",
+      "selector": "#prompt-3 .original-response > ol",
+      "child": "li",
+      "expected": [
+        10,
+        10
+      ]
+    },
+    {
+      "name": "Prompt 4 ten-item lists",
+      "selector": "#prompt-4 .original-response > ol",
+      "child": "li",
+      "expected": [
+        10,
+        10
+      ]
+    },
+    {
+      "name": "quizzes and keys",
+      "selector": "#prompt-7 .original-response > ol",
+      "child": "li",
+      "expected": [
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "discussion questions",
+      "selector": "#prompt-8 .original-response > ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    },
+    {
+      "name": "prompt-1 ordered sequence sizes",
+      "selector": "#prompt-1 .original-response > ol",
+      "child": "li",
+      "expected": [
+        6
+      ]
+    },
+    {
+      "name": "prompt-2 ordered sequence sizes",
+      "selector": "#prompt-2 .original-response > ol",
+      "child": "li",
+      "expected": [
+        10,
+        10
+      ]
+    },
+    {
+      "name": "prompt-3 ordered sequence sizes",
+      "selector": "#prompt-3 .original-response > ol",
+      "child": "li",
+      "expected": [
+        10,
+        10
+      ]
+    },
+    {
+      "name": "prompt-4 ordered sequence sizes",
+      "selector": "#prompt-4 .original-response > ol",
+      "child": "li",
+      "expected": [
+        10,
+        10
+      ]
+    },
+    {
+      "name": "prompt-5 ordered sequence sizes",
+      "selector": "#prompt-5 .original-response > ol",
+      "child": "li",
+      "expected": [
+        10
+      ]
+    },
+    {
+      "name": "prompt-6 ordered sequence sizes",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        10
+      ]
+    },
+    {
+      "name": "prompt-7 ordered sequence sizes",
+      "selector": "#prompt-7 .original-response > ol",
+      "child": "li",
+      "expected": [
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "prompt-8 ordered sequence sizes",
+      "selector": "#prompt-8 .original-response > ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    }
+  ],
+  "reviewDecisions": [
+    "1: retained causal progression; separated local stipulation, coinage, conventional diffusion and dictionary feedback; corrected mouse/quark/meme examples.",
+    "2: retained two ten-item lists with corrected thug,literally,gumption,host and smartphone descriptions; removed invented naughty transition.",
+    "3: retained community examples but qualified unsupported small-group causation; distinguished reclamation,coinage,semantic change and associations; verified vegan chronology.",
+    "4: audited every proposed failure; corrected dictionary counterexamples and explicitly acknowledged that the original candidates cannot substantiate ten failures. No invented replacements or attribution.",
+    "5: retained determinants; distinguished adoption as outcome from mechanisms and qualified fixed-duration implication.",
+    "6: retained respectful responses; directly answer universal-definition demand without conceding validity, and expose equivocation or conclusions smuggled into definitions.",
+    "7: repaired dependent gay/brights questions and ambiguous causal/adoption multiple-choice items; preserved20questions20answers.",
+    "8: retained30discussion questions, correcting assumptions about gay reclamation and brights failure."
+  ]
+}

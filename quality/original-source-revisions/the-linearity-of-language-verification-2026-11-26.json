@@ -1,0 +1,73 @@
+{
+  "pagePath": "/philosophy-of-language/the-linearity-of-language/",
+  "sourceSha256": "3cb199562e2acda45fc887d3889829269cb72598c95d34ac3f9a259bae65f253",
+  "originalPrompts": 7,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 7,
+  "sourceColumns": 14,
+  "modelResponses": 14,
+  "blocksRetainedVerbatim": 111,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 58,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "Gemini quiz and key": [
+      5,
+      5
+    ],
+    "discussion questions": [
+      10,
+      10
+    ],
+    "prompt-1 ordered sequence sizes": [
+      4,
+      5
+    ],
+    "prompt-2 ordered sequence sizes": [
+      7
+    ],
+    "prompt-3 ordered sequence sizes": [
+      9
+    ],
+    "prompt-6 ordered sequence sizes": [
+      5,
+      5
+    ],
+    "prompt-7 ordered sequence sizes": [
+      10,
+      10
+    ]
+  },
+  "sha256": "e18a645dc98a93d6e23ffa62bb9539bc51b0cac44b58328acbeecad6091d1d7b",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "The Linearity of Language",
+  "queueTitle": "The Linearity of Language",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "response",
+    "list item"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 176,
+    "ranges": [
+      [
+        1,
+        75
+      ],
+      [
+        76,
+        176
+      ]
+    ],
+    "complete": true
+  },
+  "additionalFormatChecks": {},
+  "isolatedBuildVerified": true
+}

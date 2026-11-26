@@ -1,0 +1,81 @@
+{
+  "pagePath": "/philosophy-of-science/what-is-parsimony/",
+  "sourceSha256": "b2208f068bb46535757c6d3b3db2a1379b1fddfbe6b88a012605bebf5337ba8e",
+  "originalPrompts": 8,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 8,
+  "sourceColumns": 16,
+  "modelResponses": 16,
+  "blocksRetainedVerbatim": 123,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 49,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "prompt-1 ordered sequence sizes": [
+      3
+    ],
+    "prompt-2 ordered sequence sizes": [
+      5,
+      5
+    ],
+    "prompt-3 ordered sequence sizes": [
+      5,
+      5
+    ],
+    "prompt-4 ordered sequence sizes": [
+      5
+    ],
+    "prompt-5 ordered sequence sizes": [
+      5
+    ],
+    "prompt-6 ordered sequence sizes": [
+      3
+    ],
+    "prompt-7 ordered sequence sizes": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "prompt-8 ordered sequence sizes": [
+      15,
+      15
+    ]
+  },
+  "sha256": "4bd65db752b34bfb63fb47b9554b981fd8e3917666d20f25ac8b072689c2eadc",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "What is Parsimony?",
+  "queueTitle": "What is Parsimony?",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "response",
+    "list item"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 180,
+    "ranges": [
+      [
+        1,
+        65
+      ],
+      [
+        66,
+        125
+      ],
+      [
+        126,
+        180
+      ]
+    ],
+    "complete": true
+  },
+  "additionalFormatChecks": {},
+  "isolatedBuildVerified": true
+}

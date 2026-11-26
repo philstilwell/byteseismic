@@ -1,0 +1,190 @@
+{
+  "pageFile": "philosophy-of-science/correlation-and-causation/index.html",
+  "wordpressId": 844,
+  "snapshot": "correlation-and-causation-wordpress-844.html",
+  "sourceUrl": "http://byteseismic.com/2024/02/21/correlation-and-causation/",
+  "sourceLabel": "Original WordPress conversation, 2024-02-21",
+  "shellRevision": "505a7a255c6e1bcbf661f9edf3a1878b95226d96",
+  "date": "2026-11-26",
+  "sourceSha256": "2c7fdfc453635e8157f4194864a2f129144875e2a9b2a66f10e795754c58574a",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "Rigorously define the scientific concepts of correlation and causation, and clearly explain the difference between them.",
+    "Provide more examples of spurious correlations that appear causal but are not.",
+    "Provide a step-by-step method of teasing out actual causation from a correlation.",
+    "Provide examples of cases from the history of science in which causation was thought to have been established when it was not.",
+    "Suppose I suspect there is a causal link between the number of children in a family and their degree of gregariousness. How might I go about rigorously establishing this causal link?",
+    "Create a 10-item quiz relevant to our discussion above with answers at the end.",
+    "Provide 15 discussion questions relevant to the content above.",
+    "To test your correlation skills on psychological statements, check out this link. "
+  ],
+  "introHeading": "Correlation and Causation",
+  "intro": "Correlation describes association; causation asks what would change under a specified intervention. This conversation develops that distinction through examples, research methods, and a proposed family-size study. Both embedded follow-up prompts and the curator’s original correlation-test screenshot are preserved.",
+  "description": "Correlation, causation and the assumptions behind causal inference, with a family-size study, corrected examples, quizzes and the curator’s original results.",
+  "highlights": [],
+  "replacements": {
+    "1.1.2": "<strong>Definition:</strong> Correlation summarizes a specified kind of statistical association. For variables with finite, nonzero variances, Pearson’s population correlation is ρ = Cov(X,Y)/(σXσY), between −1 and +1; sample r estimates it. It measures linear association: zero does not exclude a nonlinear relationship. For example, a symmetric X and Y = X² can have zero correlation despite exact dependence.",
+    "1.1.4": "<strong>Definition:</strong> A causal effect compares outcomes under specified alternative interventions. For an individual, Y(1) − Y(0) compares the outcome under treatment with that under no treatment; an average effect is E[Y(1) − Y(0)]. Both outcomes cannot ordinarily be observed for the same individual under the same circumstances, so estimation requires a design and assumptions. Effects may operate through intermediate steps, not only directly.",
+    "1.1.8": "<strong>Causation:</strong> A change in the intervention would change an outcome or its probability under the stated conditions. A cause need not be sufficient, necessary, or immediate; causal effects may be probabilistic and mediated.",
+    "1.1.11": "<strong>Hypothetical causal example:</strong> Randomly assign otherwise similarly treated plants to two specified fertilizer regimens and compare growth after a fixed period. Randomization supports a causal comparison of assigned regimens, provided measurement, follow-up, and implementation do not introduce systematic bias. The result concerns those regimens and conditions, not every fertilizer in every setting.",
+    "1.1.12": "<strong>Important distinction:</strong> Association alone does not establish a causal effect. Randomized experiments can help, and observational designs can also support causal claims when their assumptions are justified. Statistical significance, large samples, and an adjustment formula do not replace those assumptions.",
+    "1.2.4": "<strong>Quantification:</strong> Pearson’s r measures linear association, ranging from −1 to +1. Zero linear correlation does not imply independence or the absence of every kind of relationship.",
+    "1.2.7": "<strong>Definition:</strong> A causal relationship concerns a difference in outcomes under alternative interventions or conditions. It can operate through a chain of intermediate events.",
+    "1.2.8": "<strong>Quantification:</strong> Causal effects can be quantified—for example, as an average outcome difference or a risk difference under two interventions. Identifying such an effect from data requires assumptions beyond the observed correlation.",
+    "1.2.13": "<strong>Confounding:</strong> Shared causes can generate a real association that is misleading as evidence of the causal effect of one variable on the other. “Spurious” does not mean the measured association itself must be fabricated.",
+    "2.1.0": "These examples illustrate ways an association can mislead. Some are hypothetical or satirical, not verified data findings. An example must distinguish the observed association, a possible explanation, and what has actually been established.",
+    "2.1.1": "<strong>Ice cream and shark incidents:</strong> As an illustrative seasonal scenario, warm conditions can increase both ice-cream purchases and exposure to ocean swimming. That shared influence would undermine a causal inference from sales to incidents; no numerical dataset is supplied here.",
+    "2.1.2": "<strong>Nicolas Cage films and pool drownings:</strong> This familiar data-mining example illustrates how selected annual series can appear related. A selected time window and many candidate comparisons can produce impressive-looking correlations without a plausible causal effect. Check the actual dataset and selection process rather than inventing a mechanism.",
+    "2.1.3": "<strong>Pirates and warming:</strong> The pirate example is satire, not a credible dataset establishing a climate relationship. Juxtaposing two historical trends does not show that changing one would change the other; calendar time is an index, not by itself a causal mechanism.",
+    "2.1.4": "<strong>Space spending and a disaster:</strong> The source’s Challenger sentence is garbled and identifies no reproducible comparison. It cannot serve as a verified example. A clear hypothetical substitute is two unrelated budgets that both rise with inflation: their correlation can reflect a shared trend rather than one budget causing the other.",
+    "2.1.5": "<strong>Books at home and later outcomes:</strong> Parental education, income, reading habits, and access to resources could influence both. That makes a simple correlation insufficient to isolate the effect of adding books; it does not establish that books have no causal benefit.",
+    "2.1.6": "<strong>Organic-food sales and autism diagnoses:</strong> Two rising aggregate series do not establish an individual-level causal relationship. The source gives neither a reliable dataset nor a design separating trends, population changes, and changes in ascertainment. Do not infer a dietary cause from such a graph.",
+    "2.1.7": "<strong>Internet subscriptions and seizures in cats:</strong> This unsupported pairing should be treated as an invented illustration, not a veterinary finding. Even if two annual series happened to correlate, one would need valid measurements, a causal hypothesis, and tests of competing explanations.",
+    "2.1.8": "The useful lesson is to examine measurement, shared causes, selection, timing, and the number of comparisons searched. A humorous pairing is not a substitute for checking its data.",
+    "2.1.9": "Some spurious-looking claims hide genuine causal effects; others arise through confounding, selection, or chance. Neither accepting nor dismissing causation solely from how surprising a correlation looks is justified.",
+    "2.2.2": "<strong>Divorce and Nicolas Cage films:</strong> The source provides no verified dataset and its seasonal explanation is speculation. Annual totals could not establish that proposed seasonal mechanism. Treat this as an unsupported example, not a demonstrated explanation.",
+    "2.2.3": "<strong>Pirates and temperature:</strong> This is a satirical comparison. Two trends moving in opposite directions are not evidence that one causes the other, and saying “time caused both” is not an adequate mechanism.",
+    "2.2.5": "<strong>Video games and aggression:</strong> This is not a clean example of a proven noncausal correlation. Aggression measures and serious violence are different outcomes, and conclusions depend on design, population, and outcome definition. A simple association cannot settle those questions.",
+    "2.2.6": "<strong>Prosperity and ice cream:</strong> Income, prices, and weather might all affect purchases. It is unjustified to dismiss an economic effect merely because seasonal factors are plausible. Their roles need separate investigation.",
+    "2.2.7": "<strong>Coffee and health:</strong> Smoking and other characteristics can complicate comparisons between consumers and nonconsumers. This illustrates possible confounding, not a blanket conclusion about all coffee-related health outcomes or all patterns of consumption.",
+    "3.1.2": "<strong>Step 1:</strong> Define the population, exposure, outcome, timing, and causal contrast before selecting a statistic. Plot the data and examine relevant associations, including nonlinear patterns. A zero crude correlation does not rule out causal effects masked by confounding or cancellation.",
+    "3.1.8": "<strong>Step 4:</strong> Choose a feasible design for the causal question. Random assignment makes treatment groups comparable in expectation; matching on recorded characteristics is not equivalent to randomization. For observational designs, state the assumptions that would justify the comparison.",
+    "3.1.12": "<strong>Step 6:</strong> Estimate the prespecified effect with uncertainty intervals and appropriate handling of clustered observations, missing data, and multiple analyses. A small p-value does not establish the causal assumptions.",
+    "3.1.22": "<strong>Hill’s considerations:</strong> Strength, consistency, temporality, plausibility, and related considerations can organize an assessment. They are not a checklist whose completion proves causation; weak, nonspecific, and nonmonotonic effects can still be causal.",
+    "3.2.16": "<strong>Calibrate the claim:</strong> Report a causal estimate when the design and assumptions warrant it, with those assumptions and limitations stated. Otherwise report an association. It is also misleading to insist that every well-supported causal result must be described as only a correlation.",
+    "4.1.7": "<strong>Earlier explanation:</strong> Stress and lifestyle were overemphasized as explanations for peptic ulcers. This historical shift is not adequately captured as one simple correlation mistaken for causation.",
+    "4.1.8": "<strong>Correction:</strong> H. pylori infection and nonsteroidal anti-inflammatory drugs are major causes of peptic ulcers. The bacterial discovery changed treatment, but not all ulcers share one cause. See <a href=\"https://www.niddk.nih.gov/health-information/digestive-diseases/peptic-ulcers-stomach-ulcers/symptoms-causes\">NIDDK</a>.",
+    "4.1.12": "<strong>Correction:</strong> The 1998 report was retracted and did not establish a causal link. Large bodies of subsequent evidence do not support vaccines causing autism; see the <a href=\"https://www.who.int/news/item/11-12-2025-statement-gacvs-vaccines-autism\">WHO safety committee review</a>. This was not a sound causal result later casually overturned.",
+    "4.1.15": "<strong>Mistake:</strong> Phrenology inferred mental traits from skull features through unsupported assumptions about localization and skull shape. It was not an established statistical causal relationship.",
+    "4.1.20": "<strong>Correction:</strong> The Michelson–Morley result challenged the expected ether-wind effect; later theoretical developments removed the need for the classical light-bearing ether. This is a case of theory change, not a straightforward spurious-correlation example or a single experiment disproving every possible ether theory.",
+    "4.2.2": "<strong>1. Miasma:</strong> Foul surroundings were associated with some diseases, but the relevant mechanisms differ. Cholera spreads principally through contaminated water or food; malaria involves parasites transmitted by infected mosquitoes. Calling these “airborne pathogens transmitted by mosquitoes and water” confuses distinct transmission routes.",
+    "4.2.3": "<strong>2. Bloodletting:</strong> Recovery after a treatment was often attributed to it without an adequate comparison with untreated patients. Natural recovery and selection can mislead such judgments. This historical criticism concerns indiscriminate use; it does not imply that medically indicated blood removal has no legitimate modern use.",
+    "4.2.4": "<strong>3. Peptic ulcers:</strong> Spicy food is not the usual cause. H. pylori and nonsteroidal anti-inflammatory drugs are major causes; symptoms, triggers, and causes must be distinguished. See <a href=\"https://www.niddk.nih.gov/health-information/digestive-diseases/peptic-ulcers-stomach-ulcers/symptoms-causes\">NIDDK</a>.",
+    "4.2.5": "<strong>4. Coffee and growth:</strong> The source identifies no specific historical study establishing and then overturning this causal claim. It is better treated as an unsupported popular belief than as a verified episode of scientific causal inference.",
+    "4.2.6": "<strong>5. Radium health products:</strong> Promotional claims of benefit exceeded their evidence and failed to account for radiation harm. The source’s claim of a complete worldwide ban on every consumer use is too broad and unsupported here. Distinguish advertising, scientific evidence, and particular regulatory actions.",
+    "5.1.3": "<strong>Step 2:</strong> Define a contrast, such as the effect on an existing child’s later sociability of one additional sibling by a specified age. Define household membership and observation time; “large versus small family” otherwise bundles together many different histories.",
+    "5.1.6": "<strong>Step 4:</strong> Measure likely common causes before the family-size change where possible. Distinguish preexisting income or parenting conditions from changes caused by the additional child; adjusting for the latter can remove part of the effect being studied.",
+    "5.1.11": "<strong>Step 6:</strong> A comparison of only children with children who have siblings remains observational even when environments look similar. A natural experiment requires an argued source of variation that is plausibly unrelated to other causes of the outcome; the label alone does not provide one.",
+    "5.1.15": "<strong>Step 8:</strong> Choose a method only after identifying a defensible design. Matching assumes relevant confounders were measured; difference-in-differences requires an appropriate untreated trend; instrumental variables require a valid instrument. Combining method names does not establish any of these conditions.",
+    "5.1.21": "Use independent ethics review, parental permission and age-appropriate child assent where applicable, confidentiality protections, and a clear withdrawal process. Family-size decisions must not be manipulated for this study.",
+    "5.1.26": "<strong>Instrumental variables:</strong> An instrument must predict the exposure, be independent of relevant unmeasured causes of the outcome under the design, and affect the outcome only through the exposure. Some interpretations require further assumptions, such as monotonicity. “No direct effect” alone is insufficient.",
+    "5.1.27": "<strong>Application:</strong> College proximity illustrates a proposed education instrument, not an automatically valid one: neighborhoods can differ in job opportunities and resources. Likewise, a proposed family-size instrument must be examined for pathways to sociability other than family size.",
+    "5.1.29": "<strong>Difference-in-differences:</strong> Compare changes in treated and comparison groups. The key assumption is that, without treatment, their average outcomes would have followed parallel trends on the chosen scale. No anticipation and absence of differential shocks also matter; similar earlier trends support but do not prove the assumption.",
+    "5.1.32": "<strong>Propensity-score matching:</strong> Match using the estimated probability of exposure given measured pre-exposure characteristics. Causal interpretation requires adequate overlap and no relevant unmeasured confounding, together with a well-defined treatment. Matching does not manufacture randomization.",
+    "5.1.35": "<strong>Regression discontinuity:</strong> An assignment threshold can identify a local effect when potential outcomes vary smoothly around it and subjects cannot precisely manipulate assignment. Crossing an arbitrary cutoff is not enough; inspect other changes at the threshold and distinguish sharp from imperfect treatment assignment.",
+    "5.1.38": "<strong>Synthetic control:</strong> Combine untreated comparison units to approximate a treated unit before intervention. A post-intervention gap supports a causal interpretation only if the comparison remains credible—without spillovers, relevant concurrent shocks, or an unstable pre-intervention relationship.",
+    "5.2.10": "<strong>Natural variation:</strong> Do not manipulate adoption or family size for research. An observational adoption study may help answer a carefully defined question, but placement and selection are not random and must be addressed.",
+    "5.2.24": "Several variables could complicate this study, but not every predictor of sociability is a confounder. A confounder is a common cause of exposure and outcome in the proposed causal account. Mediators, selection variables, and measurement errors require different treatment.",
+    "5.2.31": "<strong>Parenting:</strong> Preexisting parenting dispositions could influence both family-size decisions and sociability. Parenting changes caused by an added sibling may instead mediate the effect; indiscriminately adjusting for both can answer the wrong question.",
+    "5.2.35": "Measurement issues—not automatically confounding:",
+    "5.2.40": "<strong>Birth order:</strong> Birth order and family size are structurally related. Define the eligible child and comparison carefully; some combinations do not exist, so automatic statistical adjustment can conceal a lack of comparable observations.",
+    "5.2.41": "<strong>Friendship groups:</strong> Earlier peer opportunities might influence later outcomes; friendship changes after a sibling arrives might be part of the causal pathway. Timing and the causal question determine whether adjustment is appropriate.",
+    "6.1.9": "B) It concerns outcomes under alternative interventions or conditions, possibly through intermediate steps.",
+    "6.1.54": "B) It concerns outcomes under alternative interventions or conditions, possibly through intermediate steps.",
+    "6.2.2": "Which pair of tasks should come before choosing a study design? a) Publish results and choose a headline. b) Define the causal question and review existing research. c) Select only large families and inspect results. d) Manipulate adoption decisions.",
+    "6.2.3": "Which is a measurement problem rather than, by itself, a common cause of family size and sociability? a) Preexisting family resources. b) Parental traits influencing both. c) Cultural influences on both. d) A sociability questionnaire that records answers incorrectly.",
+    "6.2.5": "Which statement about a large observational family-size study is correct? a) It still needs a justified strategy for addressing confounding. b) A large sample guarantees causation. c) Matching makes unmeasured confounding impossible. d) Adoption decisions can be randomized for this purpose.",
+    "6.2.7": "Which practice best assesses measurement reliability? a) Repeat measurements under comparable conditions and examine agreement. b) Assume self-reports are always inaccurate. c) Assume observations are always unbiased. d) Count every questionnaire as validated.",
+    "6.2.13": "b) Define the causal question and review existing research.",
+    "6.2.14": "d) A questionnaire that records answers incorrectly is a measurement problem.",
+    "6.2.16": "a) A large observational study still needs a justified strategy for confounding.",
+    "6.2.18": "a) Repeat measurements under comparable conditions and examine agreement."
+  },
+  "countChecks": [
+    {
+      "name": "discussion questions",
+      "selector": "#prompt-7 .original-response > ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    },
+    {
+      "name": "prompt-2 ordered sequence sizes",
+      "selector": "#prompt-2 .original-response > ol",
+      "child": "li",
+      "expected": [
+        6
+      ]
+    },
+    {
+      "name": "prompt-6 ordered sequence sizes",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "prompt-7 ordered sequence sizes",
+      "selector": "#prompt-7 .original-response > ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    }
+  ],
+  "reviewDecisions": [
+    "Read all ten source headings: seven main prompts, two model-specific embedded follow-ups, and the final curator invitation. Preserved both embedded follow-ups in place, screenshot, exact curator comment, and exercise URL.",
+    "Corrected zero correlation versus independence, quantified causal effects, direct versus mediated effects, and the limits of significance, matching, and observational methods.",
+    "Replaced garbled examples with explicit hypothetical or unsupported-example labels; corrected confounding and declined to invent causes for miscellaneous chart pairings.",
+    "Corrected medical historical claims and linked primary authorities; distinguished popular unsupported beliefs from previously established science.",
+    "Reworked family-size study around a defined contrast, temporal ordering, common causes versus mediators, and observational adoption studies. Repaired ambiguous and incorrect quiz items while retaining 20 questions and answers and 30 discussion questions."
+  ],
+  "proseSectionHeadingIndexes": [
+    9
+  ],
+  "sectionModelLabels": {
+    "8": [
+      "Curator"
+    ]
+  },
+  "nonResponseColumns": [
+    "8.1"
+  ],
+  "proseSiblingLimits": {
+    "9": 2
+  },
+  "sectionResponseLabels": {
+    "8.1": "Original curator note and results"
+  },
+  "nonPromptSections": [
+    8
+  ],
+  "embeddedPrompts": {
+    "5.1": [
+      "Elaborate on the Causal Inference Methods introduced above."
+    ],
+    "5.2": [
+      "What are possible confounding factors in the context of this particular study?"
+    ]
+  },
+  "sourceImageDescriptions": {
+    "8.1.img0": "Phil’s original correlation prediction results: average absolute error 0.16; outperformed 57% of psychology experts and 91% of non-expert participants. The screenshot notes that tool users receive feedback unavailable to study participants."
+  },
+  "responseAppendices": {
+    "8.1": [
+      "<p><a href=\"https://programs.clearerthinking.org/predict_correlations.html\">Open the original correlation-prediction exercise</a>. The screenshot records the curator’s result at the time; it is not a causal-inference test or a population-wide ranking.</p>"
+    ],
+    "1.1": [
+      "<p>For the distinction between observed associations, potential outcomes, and causal assumptions, see Hernán and Robins, <a href=\"https://miguelhernan.org/whatifbook\"><em>Causal Inference: What If</em></a>.</p>"
+    ]
+  }
+}

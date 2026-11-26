@@ -1,0 +1,87 @@
+{
+  "pagePath": "/political-philosophy/political-philosophy-core-concepts/",
+  "sourceSha256": "d03f3c2e7e08b9b92bbf1f1b8acbc53723e64356db091789f0070fcebaf18ebe",
+  "originalPrompts": 6,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 157,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 82,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "prompt-1 ordered sequence sizes": [
+      30,
+      30
+    ],
+    "prompt-2 ordered sequence sizes": [
+      15,
+      15
+    ],
+    "prompt-3 ordered sequence sizes": [
+      10
+    ],
+    "prompt-4 ordered sequence sizes": [
+      10,
+      5,
+      3,
+      5
+    ],
+    "prompt-5 ordered sequence sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "prompt-6 ordered sequence sizes": [
+      15,
+      15
+    ]
+  },
+  "sha256": "efdf6a78968237e77345954d32380db8902df510bb40e63b3d1eedb0561e9664",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "Political Philosophy – Core Concepts",
+  "queueTitle": "Political Philosophy – Core Concepts",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "response",
+    "list item"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 245,
+    "ranges": [
+      [
+        1,
+        80
+      ],
+      [
+        81,
+        160
+      ],
+      [
+        161,
+        245
+      ]
+    ],
+    "complete": true
+  },
+  "additionalFormatChecks": {},
+  "isolatedBuildVerified": true
+}

@@ -1,0 +1,92 @@
+{
+  "pagePath": "/philosophy-of-mind/assessing-mind-with-mind/",
+  "sourceSha256": "d551210b05083baddd1638f5b02e261ef010bb63f83308dce9ce495d5d17b3e9",
+  "originalPrompts": 7,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 7,
+  "sourceColumns": 21,
+  "modelResponses": 21,
+  "blocksRetainedVerbatim": 221,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 77,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "discussion lists": [
+      15,
+      15,
+      15
+    ],
+    "prompt-1 ordered sequence sizes": [
+      2,
+      2
+    ],
+    "prompt-2 ordered sequence sizes": [
+      5,
+      5
+    ],
+    "prompt-3 ordered sequence sizes": [
+      4,
+      2
+    ],
+    "prompt-4 ordered sequence sizes": [
+      5
+    ],
+    "prompt-5 ordered sequence sizes": [
+      6
+    ],
+    "prompt-6 ordered sequence sizes": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "prompt-7 ordered sequence sizes": [
+      15,
+      15,
+      15
+    ]
+  },
+  "sha256": "3f40e1e6a736a4447c5e0a929d79a1c72545c3b4aeaa17133b4ce8a9d6de1012",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "Assessing Mind with Mind",
+  "queueTitle": "Assessing Mind with Mind",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "response",
+    "list item",
+    "source image"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 305,
+    "ranges": [
+      [
+        1,
+        60
+      ],
+      [
+        61,
+        130
+      ],
+      [
+        131,
+        220
+      ],
+      [
+        221,
+        305
+      ]
+    ],
+    "complete": true
+  },
+  "additionalFormatChecks": {},
+  "isolatedBuildVerified": true
+}

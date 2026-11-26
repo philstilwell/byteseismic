@@ -1,0 +1,85 @@
+{
+  "pagePath": "/political-philosophy/political-philosophy-basics/",
+  "sourceSha256": "7fe0f4ae42e7d676e774da9c921d880daba974d8f8154cc1d62a7e1a0de535e1",
+  "originalPrompts": 7,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 7,
+  "sourceColumns": 14,
+  "modelResponses": 14,
+  "blocksRetainedVerbatim": 397,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 77,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "prompt-1 ordered sequence sizes": [
+      9
+    ],
+    "prompt-3 ordered sequence sizes": [
+      25,
+      10,
+      4,
+      4,
+      4,
+      3
+    ],
+    "prompt-5 ordered sequence sizes": [
+      12
+    ],
+    "prompt-6 ordered sequence sizes": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "prompt-7 ordered sequence sizes": [
+      15,
+      15
+    ]
+  },
+  "sha256": "1bbb8f248739b9aee8419f68f209acc9a875fba6688494f649ab8888941aa620",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "Political Philosophy Basics",
+  "queueTitle": "Political Philosophy Basics",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "response",
+    "list item"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 481,
+    "ranges": [
+      [
+        1,
+        125
+      ],
+      [
+        126,
+        255
+      ],
+      [
+        256,
+        365
+      ],
+      [
+        366,
+        481
+      ]
+    ],
+    "complete": true
+  },
+  "additionalFormatChecks": {
+    "fictionalStudentQuestionAnswerPairs": [
+      20,
+      20
+    ],
+    "manuallyNumberedQuizItems": 20
+  },
+  "isolatedBuildVerified": true
+}

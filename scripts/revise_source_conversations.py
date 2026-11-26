@@ -82,6 +82,9 @@ def sections(source, config=None):
             for position, sibling in enumerate(h.find_next_siblings()):
                 if sibling.name == 'h2':
                     break
+                limit = (config or {}).get('proseSiblingLimits', {}).get(str(index))
+                if limit is not None and position >= limit:
+                    break
                 if position < skip:
                     continue
                 col.append(copy.deepcopy(sibling))

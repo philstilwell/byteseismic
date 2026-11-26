@@ -1,0 +1,101 @@
+{
+  "pagePath": "/philosophy-of-science/research-design/",
+  "sourceSha256": "0a1932fd63e1b966d7aac0467834012b1c23795b6bc62fb8f7b0ba447a60e8c6",
+  "originalPrompts": 8,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 8,
+  "sourceColumns": 16,
+  "modelResponses": 16,
+  "blocksRetainedVerbatim": 274,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 56,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "discussion": [
+      15,
+      15
+    ],
+    "prompt-1 ordered sequence sizes": [
+      2,
+      1,
+      2,
+      2,
+      3
+    ],
+    "prompt-2 ordered sequence sizes": [
+      1,
+      1,
+      1
+    ],
+    "prompt-3 ordered sequence sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "prompt-5 ordered sequence sizes": [
+      2,
+      10
+    ],
+    "prompt-6 ordered sequence sizes": [
+      12
+    ],
+    "prompt-7 ordered sequence sizes": [
+      12,
+      12,
+      12
+    ],
+    "prompt-8 ordered sequence sizes": [
+      15,
+      15
+    ]
+  },
+  "sha256": "cb0c2c61f9eb70b7c204ca1c3d79a9e88ad159e8970c1c66292e433b85cb8464",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "Research Design",
+  "queueTitle": "Research Design",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "response",
+    "list item"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 338,
+    "ranges": [
+      [
+        1,
+        65
+      ],
+      [
+        66,
+        135
+      ],
+      [
+        136,
+        205
+      ],
+      [
+        206,
+        275
+      ],
+      [
+        276,
+        338
+      ]
+    ],
+    "complete": true
+  },
+  "additionalFormatChecks": {},
+  "isolatedBuildVerified": true
+}

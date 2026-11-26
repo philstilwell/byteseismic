@@ -1,0 +1,92 @@
+{
+  "pagePath": "/philosophy-of-science/correlation-and-causation/",
+  "sourceSha256": "2c7fdfc453635e8157f4194864a2f129144875e2a9b2a66f10e795754c58574a",
+  "originalPrompts": 9,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 8,
+  "sourceColumns": 15,
+  "modelResponses": 14,
+  "blocksRetainedVerbatim": 290,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 66,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": false,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [
+    "8.1",
+    "1.1"
+  ],
+  "formatChecks": {
+    "discussion questions": [
+      15,
+      15
+    ],
+    "prompt-2 ordered sequence sizes": [
+      6
+    ],
+    "prompt-6 ordered sequence sizes": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      10,
+      10,
+      10
+    ],
+    "prompt-7 ordered sequence sizes": [
+      15,
+      15
+    ]
+  },
+  "sha256": "d385bed62bc0744580c3c9eb43ec2e069a081c4d0f514c9bfd545056504ba8d1",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "Correlation and Causation",
+  "queueTitle": "Correlation and Causation",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "response",
+    "list item",
+    "source image"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 464,
+    "ranges": [
+      [
+        1,
+        70
+      ],
+      [
+        71,
+        145
+      ],
+      [
+        146,
+        230
+      ],
+      [
+        231,
+        330
+      ],
+      [
+        331,
+        464
+      ]
+    ],
+    "complete": true,
+    "note": "Indexed read included duplicated embedded-response text and trailing navigation during recovery; final rendering retains each original exchange once and the curator result."
+  },
+  "additionalFormatChecks": {
+    "curatorActivityLinkAndResultImage": true
+  },
+  "isolatedBuildVerified": true
+}

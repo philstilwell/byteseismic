@@ -1,0 +1,104 @@
+{
+  "pagePath": "/philosophy-of-language/semantics-convention-vs-stipulation/",
+  "sourceSha256": "6df0413e102a1827392266dc94280246ff2690b427ec036b328513c471fbed98",
+  "originalPrompts": 8,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 8,
+  "sourceColumns": 16,
+  "modelResponses": 16,
+  "blocksRetainedVerbatim": 172,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 63,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "Prompt 2 ten-item lists": [
+      10,
+      10
+    ],
+    "Prompt 3 ten-item lists": [
+      10,
+      10
+    ],
+    "Prompt 4 ten-item lists": [
+      10,
+      10
+    ],
+    "quizzes and keys": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "discussion questions": [
+      15,
+      15
+    ],
+    "prompt-1 ordered sequence sizes": [
+      6
+    ],
+    "prompt-2 ordered sequence sizes": [
+      10,
+      10
+    ],
+    "prompt-3 ordered sequence sizes": [
+      10,
+      10
+    ],
+    "prompt-4 ordered sequence sizes": [
+      10,
+      10
+    ],
+    "prompt-5 ordered sequence sizes": [
+      10
+    ],
+    "prompt-6 ordered sequence sizes": [
+      10
+    ],
+    "prompt-7 ordered sequence sizes": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "prompt-8 ordered sequence sizes": [
+      15,
+      15
+    ]
+  },
+  "sha256": "f0ca937819d7ed2b87d78d7a35b53281f7b1053c7cd5abd1ec6566307f071e73",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "Semantics: Convention vs Stipulation",
+  "queueTitle": "Semantics: Convention vs Stipulation",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "response",
+    "list item"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 243,
+    "ranges": [
+      [
+        1,
+        65
+      ],
+      [
+        66,
+        135
+      ],
+      [
+        136,
+        243
+      ]
+    ],
+    "complete": true
+  },
+  "additionalFormatChecks": {},
+  "isolatedBuildVerified": true
+}

@@ -1,0 +1,92 @@
+{
+  "pagePath": "/philosophy-of-mind/manufacturer-or-method/",
+  "sourceSha256": "01a97262df75697493745254a33288690a22e25780a84e1a967e8769805798ef",
+  "originalPrompts": 7,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 7,
+  "sourceColumns": 14,
+  "modelResponses": 14,
+  "blocksRetainedVerbatim": 118,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 38,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "#prompt-6 .original-response > ol": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "#prompt-7 .original-response > ol": [
+      15,
+      15
+    ],
+    "prompt-1 ordered sequence sizes": [
+      2,
+      3
+    ],
+    "prompt-2 ordered sequence sizes": [
+      2
+    ],
+    "prompt-3 ordered sequence sizes": [
+      5
+    ],
+    "prompt-4 ordered sequence sizes": [
+      5
+    ],
+    "prompt-5 ordered sequence sizes": [
+      4
+    ],
+    "prompt-6 ordered sequence sizes": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "prompt-7 ordered sequence sizes": [
+      15,
+      15
+    ]
+  },
+  "sha256": "d63a1004766d6642c8bb61ec4bcc07d9c49f57e648a7663dcc16bb7ac4a88841",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "Manufacturer or Method?",
+  "queueTitle": "Manufacturer or Method?",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "response",
+    "list item",
+    "curator preamble"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 170,
+    "ranges": [
+      [
+        1,
+        70
+      ],
+      [
+        1,
+        35
+      ],
+      [
+        36,
+        100
+      ],
+      [
+        101,
+        170
+      ]
+    ],
+    "complete": true
+  },
+  "additionalFormatChecks": {},
+  "isolatedBuildVerified": true
+}

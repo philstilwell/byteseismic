@@ -10,3 +10,5 @@ Both immutable sources match the cache, URLs and titles; full source/current rea
 Current batch: **11/50 reviewed, 39 pending**. Restarted pass: **211/346 substantively reviewed, 135 remaining**. Completed-batch tracker remains **200 completed, 146 remaining**, cycle 8/index 200; no premature advancement. Next page is **Semantics: Convention vs Stipulation**. Its full source was read and repair requirements saved, but it is not revised or verified and does not count. Next tracker batch remains **Evidence Workshop through What is Faith? (250–299)**.
 
 All 476 inherited modified files remain hash-identical. Only this run’s authorized files are prepared for commit. Commit and remote-push results are recorded in automation memory after publication. No paid external service, repository installation, browser tab or dialog was used. Automation remains active because cycle 8 is incomplete.
+
+Later completion: [The November 26 supplement](editorial-audit-2026-11-26-supplement.md) records completion of all twenty required pages. The incomplete state above is historical.

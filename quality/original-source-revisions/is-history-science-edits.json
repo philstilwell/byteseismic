@@ -1,0 +1,190 @@
+{
+  "pageFile": "philosophy-of-science/is-history-science/index.html",
+  "wordpressId": 4009,
+  "snapshot": "is-history-science-wordpress-4009.html",
+  "sourceUrl": "http://byteseismic.com/2024/03/19/is-history-science/",
+  "sourceLabel": "Original WordPress conversation, 2024-03-19",
+  "shellRevision": "505a7a255c6e1bcbf661f9edf3a1878b95226d96",
+  "date": "2026-11-26",
+  "sourceSha256": "2ae5347afa232f764d9f083c54c5f6e2d7d006a790de2172246e6afff2d57435",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "It appears history is grounded on the same application of induction that other sciences are. Or is history conceptually distinct from other sciences?",
+    "On top of the remoteness of the evidence necessary to feed an accurate inductive analysis, much of the dissent among historians seems to be emergent of the varying ascribed intentions of historical figures. Please weigh in on this notion.",
+    "Provide 5 historical events for which historians may have overstated their knowledge of the intentions of the actors.",
+    "It seems the human appetite for narrative allows historians to attribute excessive causal power to individuals (The Great Man theory) rather than to other more likely mundane causes. Comment on this tendency.",
+    "Provide 5 cases in which historians have attributed the cause of an event to a “great man” when the causation very likely lies elsewhere.",
+    "What tools of science are applied by historians when attempting to untangle the causation behind historical events?",
+    "Create a 10-item quiz on the discussion above.  ",
+    "Provide 15 discussion questions relevant to the content above. "
+  ],
+  "introHeading": "Is History Science?",
+  "intro": "History and the sciences both evaluate evidence and compare explanations, but their questions and methods vary. This conversation examines historical intentions, the appeal of individual-centered stories, and tools for testing causal claims. The revised examples distinguish reasonable interpretive caution from unsupported accusations against unnamed historians.",
+  "description": "History, scientific reasoning, intentions and historical causation, with qualified examples, source criticism, quizzes and discussion questions.",
+  "highlights": [],
+  "replacements": {
+    "1.1.0": "History shares evidence-based inference with the sciences. Whether it is called a science depends partly on how broadly that word is used. A useful comparison examines particular questions and methods rather than treating all history as subjective and all science as experimental.",
+    "1.1.3": "<strong>Sciences:</strong> Many sciences use quantitative models and experiments, but astronomy, geology, and evolutionary biology also reconstruct unrepeatable past events from surviving traces. Replicable analysis does not require replaying the original event.",
+    "1.1.6": "<strong>Scientific aims:</strong> Sciences explain patterns, mechanisms, and particular events; not every explanation takes the form of a universal law or a precise forecast. History can likewise seek general patterns as well as explanations of particular events.",
+    "1.1.12": "<strong>Shared reasoning:</strong> Both fields use induction, deduction, and inference to the best explanation. They derive implications of competing accounts and compare them with evidence. “Induction” alone does not exhaust either discipline’s reasoning.",
+    "1.1.13": "Historical inquiry is often placed among the humanities, sometimes among the social sciences. Its concern with meaning and agency is distinctive, but not an exemption from evidence. Differences are matters of question, evidence, and explanatory aims—not a simple division between scientific certainty and historical opinion.",
+    "1.2.4": "<strong>Subject matter:</strong> Historians often investigate particular past events. So do historical natural sciences. What can be repeated is examination of evidence, measurement, and analysis, even when the event itself cannot be repeated.",
+    "1.2.5": "<strong>Confidence:</strong> Assess confidence claim by claim. A well-documented historical date may be far more secure than a speculative scientific mechanism; motive attribution may be less secure than either. New evidence can change conclusions in both fields.",
+    "1.2.6": "<strong>Prediction:</strong> Forecasting is useful but not a universal requirement of science. Historical explanations can generate testable expectations about undiscovered documents, material traces, or comparable cases without forecasting a unique future event.",
+    "1.2.7": "Consider footprints: investigators can test competing accounts of who made them by comparing size, gait, location, and other traces. A historian investigating human movement and a natural scientist investigating an extinct animal can use closely related reasoning, adapted to different evidence.",
+    "1.2.8": "The shared use of evidence and revisable inference is substantial. Differences in access to evidence and attention to meanings affect particular conclusions, but do not make history intrinsically less reliable on every question.",
+    "2.1.4": "Evidence often becomes fragmentary with time, but age is not a direct measure of evidential quality. A recent event may be poorly documented; an ancient event may have multiple independent traces. Survival, provenance, access, and corroboration matter more than a simple age rule.",
+    "2.1.13": "Disagreement can improve inquiry when it identifies competing explanations and evidence that would discriminate between them. It is not automatically a strength: unsupported speculation and selective citation remain defects. Separate what an actor said, what they did, and what is inferred about their motives.",
+    "2.2.3": "<strong>Intentions:</strong> Letters, speeches, and actions provide indirect evidence of motives and may conflict. Even researchers studying living people cannot simply inspect intentions: self-reports, behavior, and context must be evaluated. Historical distance adds difficulties rather than creating an entirely unique problem.",
+    "3.1.0": "The following five cases illustrate where motive attribution requires caution. The source does not name historians, quote their claims, or show that they overstated certainty. These are therefore candidate cases for examining overconfidence, not five established findings of scholarly misconduct or error.",
+    "3.1.3": "<strong>Magna Carta (1215):</strong> The charter was sealed, not signed. Distinguish the settlement’s provisions, the barons’ immediate interests, and later constitutional meanings; later significance is not evidence that its participants intended modern democracy. Motives may be mixed. See the <a href=\"https://www.parliament.uk/about/living-heritage/evolutionofparliament/2015-parliament-in-the-making/2015-historic-anniversaries/magna-carta/the-making-of-magna-carta-/\">Parliament account</a>.",
+    "3.2.0": "<strong>Alexandria’s libraries:</strong> Do not begin by assuming one securely identified destruction event with one perpetrator and motive. Accounts concern different episodes and institutions. A causal claim must first establish which library, which event, and which evidence it addresses; assigning a single religious or political intention before that compounds uncertainty.",
+    "3.2.1": "<strong>Cleopatra’s death:</strong> Romantic despair, avoidance of captivity, dynastic concerns, and political calculation are competing interpretations, not directly observed motives. The source supplies no primary passage establishing a particular negotiation or private intention; those details require examination rather than confident replacement of one story with another.",
+    "3.2.2": "<strong>The pyramids:</strong> Royal funerary and religious contexts constrain interpretation; uncertainty about each participant’s private motives does not erase that evidence. Distinguish the monument’s function, a ruler’s political aims, workers’ reasons for participation, and later symbolic interpretations.",
+    "3.2.3": "<strong>Joan of Arc:</strong> “Divinely guided or a political pawn” is a false choice. Historians can examine reports of visions, her actions, and political uses of her role without claiming direct access to subjective experience or establishing a supernatural cause. Sincere conviction and political consequences can coexist.",
+    "3.2.4": "<strong>First Crusade:</strong> Religious commitments, family obligations, status, political aims, and material considerations need not exclude one another. Their weights may vary by actor. The source’s claim about a simple shift from traditional to “recent” scholarship is unsupported here; assess named interpretations against their evidence.",
+    "4.1.2": "<strong>Attribution:</strong> A vivid leader can draw attention away from institutions and material constraints. This is a plausible explanatory bias, not a reason to assume that every account emphasizing an individual is mistaken. Test whether the decision changed outcomes given the surrounding conditions.",
+    "4.2.0": "The tendency is plausible, but “mundane” causes are not automatically more likely than individual decisions. The question is what contribution each made and what evidence distinguishes the competing accounts.",
+    "4.2.9": "<strong>Compare mechanisms:</strong> Ask how structural conditions enabled or constrained a leader’s choices, and whether plausible alternative decisions could have changed the result. Replacing every individual with an abstract social force can oversimplify in the opposite direction.",
+    "5.1.0": "These five examples show why single-person explanations can be incomplete. They do not establish, without named historical arguments and further evidence, that the true cause “very likely lies elsewhere.” Individual decisions and broader conditions can both be causally important.",
+    "5.1.1": "<strong>French Revolution:</strong> Fiscal and political crises, inequality, and mobilization help explain its outbreak. Robespierre’s later role and Napoleon’s eventual rise are different questions. Later prominence cannot make either man the sole cause of the events of 1789.",
+    "5.1.2": "<strong>American Civil War:</strong> Lincoln’s and Davis’s decisions mattered, but slavery and its protection and expansion were central to the secession crisis. “States’ rights” should not be listed as an independent, unspecified alternative that conceals which institution those rights were invoked to defend. See the <a href=\"https://www.nps.gov/liho/learn/historyculture/slavery-cause-civil-war.htm\">National Park Service discussion of secession evidence</a>.",
+    "5.1.3": "<strong>Industrialization:</strong> James Watt’s innovations operated within networks of engineering, finance, labor, fuel supply, and markets. Ford and Carnegie belong to later industrial developments; grouping them as causes of the initial British Industrial Revolution blurs chronology. An inventor’s contribution need not be either sufficient by itself or irrelevant.",
+    "5.1.5": "<strong>British slave-trade abolition (1807):</strong> Wilberforce’s parliamentary role was part of wider campaigning, including Clarkson, Sharp, petitions, and testimony from formerly enslaved people. The source’s claim that declining profitability explains abolition is contested and not demonstrated here. Distinguish ending the British trade from later abolition of slavery. See <a href=\"https://www.parliament.uk/about/living-heritage/evolutionofparliament/2015-parliament-in-the-making/get-involved1/2015-banners-exhibition/maria-amidu/1807-abolition-of-the-slave-trade/\">Parliament’s campaign overview</a>.",
+    "5.2.0": "<strong>Western Roman imperial collapse:</strong> Romulus Augustulus’s deposition marks a conventional endpoint in the West, not evidence that historians generally blame his personal failings for the process. Military, fiscal, and political explanations require examination; the Eastern Empire also continued. The source’s “single bad emperor” claim is unsupported.",
+    "5.2.1": "<strong>American Revolution:</strong> Separate the decision to rebel, military victory, and institution-building. Washington’s leadership mattered particularly to the war; colonial grievances and mobilization predated it, while French support helped shape its outcome. Combining these stages into one event obscures causal roles.",
+    "5.2.2": "<strong>Renaissance:</strong> Patronage, urban institutions, scholarship, and artistic networks help explain developments that varied by place and period. Printing aided later circulation but cannot alone explain the movement’s earlier origins. The source names no individual or historian whose claim is actually being overturned.",
+    "6.1.2": "<strong>Quantitative history:</strong> Historians analyze counts, prices, demographic records, and other measurements. Cliometrics more specifically applies economic theory and quantitative methods to economic history; it is not a synonym for every numerical historical analysis. Check record coverage and changing definitions before comparing figures.",
+    "6.2.0": "Historians use a range of evidence-testing methods, sometimes with laboratory specialists or quantitative researchers. The distinction from natural science is not that historians never observe or test anything, but that many target events cannot be experimentally reproduced.",
+    "6.2.2": "<strong>Comparison:</strong> Comparing cases can test an explanation, but does not automatically isolate variables. Justify case selection, examine confounding and missing records, and look for evidence of the proposed mechanism.",
+    "6.2.3": "<strong>Chronology:</strong> A proposed cause must fit the temporal sequence. Precedence alone does not show causation; a timeline can rule out some accounts while leaving others open.",
+    "7.1.6": "What can oral histories add, and what limitation must be considered?",
+    "7.1.17": "They add recorded recollections and perspectives; memory, interview context, and later reinterpretation require scrutiny.",
+    "7.2.1": "Answer these ten short-answer questions. The source included lettered keys without answer options; the corrected key below gives complete answers.",
+    "7.2.2": "Why does the inability to repeat an original event not distinguish history from every natural science?",
+    "7.2.7": "Why is accepting a source at face value an inadequate way to assess credibility?",
+    "7.2.13": "Historical natural sciences also study unrepeatable events; measurements, source examination, and analytical procedures can still be repeated.",
+    "7.2.14": "Evidence can be incomplete, selectively preserved, biased, or compatible with several causal accounts.",
+    "7.2.15": "Sources may be limited or ambiguous, and historians may interpret their context and implications differently.",
+    "7.2.16": "It can overattribute complex outcomes to a single individual while neglecting other people and structural conditions.",
+    "7.2.17": "Institutions, social movements, ordinary people, economic conditions, and technological or environmental factors.",
+    "7.2.18": "It ignores provenance, purpose, reliability, and independent corroboration.",
+    "7.2.19": "It can reveal patterns and test explanations, but case selection and confounding limit causal conclusions.",
+    "7.2.20": "It establishes sequence and can exclude causes that occurred too late; precedence alone does not establish a causal effect.",
+    "7.2.21": "Oral testimony and quantitative records such as census or economic data, assessed for their limitations.",
+    "7.2.22": "It contributes complementary evidence and methods from disciplines such as archaeology, sociology, and economics."
+  },
+  "countChecks": [
+    {
+      "name": "five-case lists",
+      "selector": "#prompt-3 .original-response > ol, #prompt-5 .original-response > ol",
+      "child": "li",
+      "expected": [
+        5,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "quizzes and keys",
+      "selector": "#prompt-7 .original-response > ol",
+      "child": "li",
+      "expected": [
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "discussion",
+      "selector": "#prompt-8 .original-response > ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    },
+    {
+      "name": "prompt-1 ordered sequence sizes",
+      "selector": "#prompt-1 .original-response > ol",
+      "child": "li",
+      "expected": [
+        4
+      ]
+    },
+    {
+      "name": "prompt-2 ordered sequence sizes",
+      "selector": "#prompt-2 .original-response > ol",
+      "child": "li",
+      "expected": [
+        6
+      ]
+    },
+    {
+      "name": "prompt-3 ordered sequence sizes",
+      "selector": "#prompt-3 .original-response > ol",
+      "child": "li",
+      "expected": [
+        5,
+        5
+      ]
+    },
+    {
+      "name": "prompt-4 ordered sequence sizes",
+      "selector": "#prompt-4 .original-response > ol",
+      "child": "li",
+      "expected": [
+        5
+      ]
+    },
+    {
+      "name": "prompt-5 ordered sequence sizes",
+      "selector": "#prompt-5 .original-response > ol",
+      "child": "li",
+      "expected": [
+        5,
+        5
+      ]
+    },
+    {
+      "name": "prompt-6 ordered sequence sizes",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        8
+      ]
+    },
+    {
+      "name": "prompt-7 ordered sequence sizes",
+      "selector": "#prompt-7 .original-response > ol",
+      "child": "li",
+      "expected": [
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "prompt-8 ordered sequence sizes",
+      "selector": "#prompt-8 .original-response > ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    }
+  ],
+  "reviewDecisions": [
+    "Preserved eight prompts and sixteen responses, four five-case lists, twenty quiz questions and keys, and thirty discussion questions.",
+    "Replaced false science/history dichotomies with shared evidence-based inference, historical natural-science examples, and claim-specific confidence.",
+    "Distinguished inference about motives from evidence of historians overclaiming; disclosed that unnamed examples cannot substantiate accusations or prove causes lie elsewhere.",
+    "Corrected Magna Carta sealing, slavery-centered Civil War causation, industrial chronology, and overconfident abolition economics; separated actors’ intentions from later significance.",
+    "Repaired the second quiz’s absent multiple-choice options and stray lettered keys, and the first quiz’s unsupported disciplinary origin claim about oral history."
+  ]
+}

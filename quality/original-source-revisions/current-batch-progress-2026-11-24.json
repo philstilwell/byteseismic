@@ -2,8 +2,8 @@
   "cycle": 8,
   "startIndex": 200,
   "pageCount": 50,
-  "reviewed": 11,
-  "pending": 39,
+  "reviewed": 29,
+  "pending": 21,
   "pages": [
     {
       "pagePath": "/metaphysics/categories-of-nihilism/",
@@ -85,92 +85,128 @@
     {
       "pagePath": "/philosophy-of-language/semantics-convention-vs-stipulation/",
       "title": "Semantics: Convention vs Stipulation",
-      "status": "pending-original-review"
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/semantics-convention-vs-stipulation-verification-2026-11-26.json",
+      "report": "quality/editorial-audit-2026-11-26-supplement.json"
     },
     {
       "pagePath": "/philosophy-of-language/the-linearity-of-language/",
       "title": "The Linearity of Language",
-      "status": "pending-original-review"
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/the-linearity-of-language-verification-2026-11-26.json",
+      "report": "quality/editorial-audit-2026-11-26-supplement.json"
     },
     {
       "pagePath": "/philosophy-of-mind/assessing-mind-with-mind/",
       "title": "Assessing Mind with Mind",
-      "status": "pending-original-review"
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/assessing-mind-with-mind-verification-2026-11-26.json",
+      "report": "quality/editorial-audit-2026-11-26-supplement.json"
     },
     {
       "pagePath": "/philosophy-of-mind/manufacturer-or-method/",
       "title": "Manufacturer or Method?",
-      "status": "pending-original-review"
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/manufacturer-or-method-verification-2026-11-26.json",
+      "report": "quality/editorial-audit-2026-11-26-supplement.json"
     },
     {
       "pagePath": "/philosophy-of-mind/philosophy-of-mind-basics/",
       "title": "Philosophy of Mind Basics",
-      "status": "pending-original-review"
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/philosophy-of-mind-basics-verification-2026-11-26.json",
+      "report": "quality/editorial-audit-2026-11-26-supplement.json"
     },
     {
       "pagePath": "/philosophy-of-mind/where-are-our-thoughts/",
       "title": "Where are our Thoughts?",
-      "status": "pending-original-review"
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/where-are-our-thoughts-verification-2026-11-26.json",
+      "report": "quality/editorial-audit-2026-11-26-supplement.json"
     },
     {
       "pagePath": "/philosophy-of-science/asymmetric-counterfactuals/",
       "title": "Asymmetric Counterfactuals",
-      "status": "pending-original-review"
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/asymmetric-counterfactuals-verification-2026-11-26.json",
+      "report": "quality/editorial-audit-2026-11-26-supplement.json"
     },
     {
       "pagePath": "/philosophy-of-science/correlation-and-causation/",
       "title": "Correlation and Causation",
-      "status": "pending-original-review"
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/correlation-and-causation-verification-2026-11-26.json",
+      "report": "quality/editorial-audit-2026-11-26-supplement.json"
     },
     {
       "pagePath": "/philosophy-of-science/elements-of-research-design/",
       "title": "Elements of Research Design",
-      "status": "pending-original-review"
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/elements-of-research-design-verification-2026-11-26.json",
+      "report": "quality/editorial-audit-2026-11-26-supplement.json"
     },
     {
       "pagePath": "/philosophy-of-science/is-history-science/",
       "title": "Is History Science?",
-      "status": "pending-original-review"
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/is-history-science-verification-2026-11-26.json",
+      "report": "quality/editorial-audit-2026-11-26-supplement.json"
     },
     {
       "pagePath": "/philosophy-of-science/research-design/",
       "title": "Research Design",
-      "status": "pending-original-review"
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/research-design-verification-2026-11-26.json",
+      "report": "quality/editorial-audit-2026-11-26-supplement.json"
     },
     {
       "pagePath": "/philosophy-of-science/scientism-faith/",
       "title": "Scientism & Faith",
-      "status": "pending-original-review"
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/scientism-faith-verification-2026-11-26.json",
+      "report": "quality/editorial-audit-2026-11-26-supplement.json"
     },
     {
       "pagePath": "/philosophy-of-science/the-power-of-thought-experiments/",
       "title": "The Power of Thought Experiments",
-      "status": "pending-original-review"
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/the-power-of-thought-experiments-verification-2026-11-26.json",
+      "report": "quality/editorial-audit-2026-11-26-supplement.json"
     },
     {
       "pagePath": "/philosophy-of-science/what-is-induction/",
       "title": "What is Induction?",
-      "status": "pending-original-review"
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/what-is-induction-verification-2026-11-26.json",
+      "report": "quality/editorial-audit-2026-11-26-supplement.json"
     },
     {
       "pagePath": "/philosophy-of-science/what-is-parsimony/",
       "title": "What is Parsimony?",
-      "status": "pending-original-review"
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/what-is-parsimony-verification-2026-11-26.json",
+      "report": "quality/editorial-audit-2026-11-26-supplement.json"
     },
     {
       "pagePath": "/political-philosophy/peaceful-revolutions/",
       "title": "Peaceful Revolutions",
-      "status": "pending-original-review"
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/peaceful-revolutions-verification-2026-11-26.json",
+      "report": "quality/editorial-audit-2026-11-26-supplement.json"
     },
     {
       "pagePath": "/political-philosophy/political-philosophy-basics/",
       "title": "Political Philosophy Basics",
-      "status": "pending-original-review"
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/political-philosophy-basics-verification-2026-11-26.json",
+      "report": "quality/editorial-audit-2026-11-26-supplement.json"
     },
     {
       "pagePath": "/political-philosophy/political-philosophy-core-concepts/",
       "title": "Political Philosophy – Core Concepts",
-      "status": "pending-original-review"
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/political-philosophy-core-concepts-verification-2026-11-26.json",
+      "report": "quality/editorial-audit-2026-11-26-supplement.json"
     },
     {
       "pagePath": "/rational-thought/ai-logic-intelligence/",

@@ -1,0 +1,251 @@
+{
+  "pageFile": "philosophy-of-science/elements-of-research-design/index.html",
+  "wordpressId": 818,
+  "snapshot": "elements-of-research-design-wordpress-818.html",
+  "sourceUrl": "http://byteseismic.com/2024/02/20/elements-of-research-design/",
+  "sourceLabel": "Original WordPress conversation, 2024-02-20",
+  "shellRevision": "505a7a255c6e1bcbf661f9edf3a1878b95226d96",
+  "date": "2026-11-26",
+  "sourceSha256": "6addc49c04448c2238d5cc9fc16dbf8de6ea649cd980058001c0019b8e8208c7",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "Here, we will explore the elements essential to research design. List all the critical elements in research design, and explain how each contributes to decreasing subjectivity and increasing quantifiability.",
+    "Elaborate on research questions and hypotheses and provide helpful examples.",
+    "Explain any differences between study design and research methodology, elaborate on these concepts, and provide useful examples.",
+    "Elaborate on study sampling and provide helpful examples.",
+    "Elaborate on data collection and provide helpful examples.",
+    "Elaborate on operational definitions and provide clear examples.",
+    "Elaborate on research instrumentation and provide helpful examples.",
+    "Elaborate on data analysis and provide helpful examples.",
+    "Elaborate on reporting and documentation, and provide helpful examples.",
+    "Create a 12-item quiz on the content above with answers at the end.",
+    "Provide 15 discussion questions based on the content above."
+  ],
+  "introHeading": "Elements of Research Design",
+  "intro": "Research design connects a question to evidence through sampling, measurement, analysis, and transparent reporting. These eleven exchanges retain the original examples while correcting claims that numbers, large samples, or standardized procedures automatically remove bias. The quizzes distinguish design choices from the assumptions needed to interpret them.",
+  "description": "A practical guide to research questions, designs, sampling, operational definitions, instruments, analysis and reporting, with corrected examples and quizzes.",
+  "highlights": [],
+  "replacements": {
+    "1.1.0": "Research design specifies how a study will answer a question and what conclusions its evidence can support. Quantification can make comparisons explicit, but numerical data can still be biased or measure the wrong thing. Qualitative methods can be rigorous without converting every observation into a number. The following elements are a useful starting framework, not an exhaustive checklist for every field.",
+    "1.1.10": "<strong>Contribution:</strong> Design specifies comparisons, timing, and allocation or observation of exposures. Random assignment can reduce confounding in expectation; observational comparisons need additional causal assumptions. Identifying a cause and quantifying a relationship are separate achievements.",
+    "1.1.14": "<strong>Contribution:</strong> Prespecify primary outcomes and analyses where appropriate; account for missingness, clustering, measurement error, and multiple comparisons. Report effect sizes and uncertainty. Statistical calculations are objective procedures conditional on chosen models, not guarantees that those models or causal assumptions are correct.",
+    "1.2.9": "<strong>Sampling:</strong> Probability sampling supports population inference when the sampling frame, response process, and analysis are adequate. It does not ensure that every realized sample perfectly represents every population characteristic.",
+    "1.2.13": "<strong>Masking:</strong> Where feasible, keep specified participants, assessors, or analysts unaware of allocation. State who is masked and how; “double-blind” alone is ambiguous, and a third-party observer is not automatically unbiased.",
+    "1.2.16": "<strong>Coding:</strong> A stated coding framework can improve consistency, while some qualitative approaches develop codes iteratively. Document revisions, disagreements, and the researcher’s role rather than treating a fixed scheme as universally required or bias-free.",
+    "2.1.7": "This asks a causal question, so specify the technology, comparator, student group, outcome measure, and follow-up period. A survey may estimate an association but cannot by itself establish that technology caused a score change.",
+    "2.1.12": "This predicts an association as written. If the intended claim is that study groups improve scores, a self-selected comparison can be confounded by prior attainment, motivation, and time available. A causal design must address those differences.",
+    "2.1.15": "<strong>Null hypothesis:</strong> The population mean reading-comprehension scores under the specified print and e-book conditions are equal: H₀: μprint − μebook = 0. “Not statistically significant” is a possible test result, not the hypothesis itself.",
+    "2.1.16": "The alternative specifies a nonzero difference, or a prespecified direction. Failure to reject H₀ does not establish equality: an imprecise study can miss meaningful differences. A p-value is not the probability that H₀ is true. See the <a href=\"https://www.amstat.org/asa/files/pdfs/P-ValueStatement.pdf\">American Statistical Association statement</a>.",
+    "2.2.3": "<strong>Function:</strong> State what the study aims to find out. Research questions can be exploratory, descriptive, comparative, or causal; they are not confined to open-ended exploration.",
+    "2.2.4": "<strong>Structure:</strong> A question, which may be broad or narrowly specified. A hypothesis is a testable proposed answer or prediction; one study may contain both.",
+    "3.1.0": "Study design, methods, and methodology overlap in everyday usage, and conventions vary across disciplines. A useful distinction is that design specifies the arrangement of comparisons and observations; methods are the actual procedures; methodology explains and justifies the overall approach and its assumptions.",
+    "3.2.8": "<strong>Quasi-experimental design:</strong> Estimate an intervention’s effect without researcher-controlled random allocation, using a justified comparison such as an interrupted time series with enough observations and attention to concurrent changes. A single before–after measurement following a library program is weak evidence by itself.",
+    "3.2.10": "<strong>Methodology:</strong> The reasoning behind the approach and choice of methods, including assumptions about what the evidence can show. A “toolbox” more accurately describes the methods themselves.",
+    "3.2.17": "<strong>Scope:</strong> Terminology varies, but under the convention used here methodology includes the rationale for the approach, design specifies the study arrangement, and methods implement it. The source’s two responses originally gave contradictory scope hierarchies.",
+    "3.2.18": "<strong>Focus:</strong> A randomized comparison is a design; a questionnaire or interview is a method; the justification for why these answer the question is part of methodology. None can be reduced to a simple “what” versus “how” split.",
+    "3.2.19": "<strong>Adaptation:</strong> Any changes should be justified and documented. Exploratory qualitative work may develop iteratively; changing a confirmatory analysis after seeing results requires disclosure and changes how its evidence is interpreted.",
+    "3.2.24": "Grounded-theory studies can use an emergent design, iteratively relating sampling, collection, coding, and theory development. Emergence is a planned methodological feature, not the absence of design.",
+    "4.1.2": "Probability sampling gives eligible units known, nonzero selection probabilities under the design; those probabilities need not be equal. Coverage, nonresponse, weighting, and clustered sampling must still be addressed.",
+    "4.1.11": "<strong>Purposive sampling:</strong> Select cases because they are informative for the question, such as teachers experienced with an intervention. This can support detailed understanding without making those cases statistically representative of all teachers.",
+    "4.2.8": "Eligible units have known, nonzero selection probabilities under the sampling design; equal probability is a feature of simple random sampling, not every probability design.",
+    "4.2.27": "<strong>Sample size:</strong> More observations can improve precision under appropriate conditions, but do not repair systematic selection or measurement bias. Plan size using the needed precision or detectable effect, design, variability, clustering, and expected attrition.",
+    "4.2.33": "<strong>Student perceptions:</strong> Randomly select some course sections and survey all eligible students in those selected sections for a cluster sample. Sampling students separately within every course is closer to stratification. Account for similarity among students within a selected course.",
+    "5.1.24": "Choose methods for the question and integrate their findings deliberately. Surveys can include qualitative responses; interviews can collect numerical data; observations can be coded in either way. Merely using two tools is not automatically a mixed-methods design.",
+    "5.2.28": "To study a new curriculum, use focus groups for participants’ interpretations and classroom observation for field notes, coded counts, or both. Observation is not inherently quantitative, and disagreement between methods can be informative.",
+    "5.2.29": "For public opinion, a large online survey may still exclude people without access or attract a selective response. Specify recruitment and population coverage; stakeholder interviews answer a different, complementary question.",
+    "6.1.8": "<strong>Operational definition:</strong> Use a specified version and language of the <a href=\"https://www.cmu.edu/dietrich/psychology/stress-immunity-disease-lab/scales/html/pss.html\">Perceived Stress Scale</a>, with its stated recall period and scoring rules. It quantifies reported perceived stress; it is not a direct, interpretation-free measure of every form of stress.",
+    "6.1.11": "<strong>Operational definition:</strong> Record steps over seven days using a specified device, wear schedule, and rule for missing or non-wear time. This measures a form of movement, not all physical activity; cycling, swimming, and device error may be missed.",
+    "6.1.14": "<strong>Operational definition:</strong> Define the test, scoring, timing, and outcome as the post-test minus pre-test score. That is a measured change, not automatically the intervention’s causal effect; practice, maturation, and other experiences may also change scores.",
+    "6.1.17": "<strong>Operational definition:</strong> Combine specified income, education, and occupation measures using stated coding, weights, reference period, and missing-data rules. Without those decisions, “a composite score” is not yet reproducible, and different choices can yield different conclusions.",
+    "6.1.19": "<strong>Construct:</strong> Work engagement concerns vigor, dedication, and absorption in work; it should not be conflated with organizational commitment or loyalty.",
+    "6.1.20": "<strong>Operational definition:</strong> Specify a version and language of the Utrecht Work Engagement Scale and follow its scoring rules. Interpret the resulting scores as measures of its engagement dimensions, with evidence appropriate to the population. See the <a href=\"https://www.wilmarschaufeli.nl/publications/Schaufeli/Test%20Manuals/Test_manual_UWES_English.pdf\">authors’ manual</a>.",
+    "6.2.7": "<strong>Comparability:</strong> Clear definitions help others determine whether a measure applies to another setting. They do not by themselves establish generalizability or equivalence across cultures and populations.",
+    "6.2.12": "For the adult State-Trait Anxiety Inventory, the standard inventory has <strong>40 items: two 20-item scales</strong>, not ten items per scale. Specify the form, language, administration timing, and authorized scoring instructions; state and trait scales use their respective response instructions. See the <a href=\"https://www.mindgarden.com/145-state-trait-anxiety-inventory-for-adults\">publisher’s description</a>.",
+    "6.2.22": "Specify the procedure, unit, timing when relevant, scoring, and handling of ambiguous or missing observations. The SMART goal-setting mnemonic may be helpful in some settings but is not a universal rule for measurement definitions.",
+    "7.1.9": "<strong>Psychological tests:</strong> Standardization makes administration and scoring more consistent. Validity concerns whether evidence supports a particular interpretation and use of scores in a specified population; a test is not permanently “validated” for every purpose.",
+    "7.1.20": "Choose instruments whose reliability and validity evidence fits the intended use. A consistently miscalibrated instrument can be reliable yet inaccurate. Record versions, calibration, administration, and scoring; a familiar tool or software package does not guarantee a trustworthy result.",
+    "7.2.20": "<strong>Gene expression:</strong> To study RNA abundance, specify an appropriate assay such as RNA sequencing or quantitative reverse-transcription PCR, with normalization and controls. Protein abundance is a related but distinct measurement and need not track RNA levels directly.",
+    "8.1.5": "<strong>Inferential statistics:</strong> Estimate quantities and uncertainty under stated sampling and model assumptions. A comparison of mean outcomes can quantify a difference; attributing it to a treatment depends on design, allocation, follow-up, and confounding, not merely obtaining a significant t-test.",
+    "8.2.17": "<strong>Triangulation:</strong> Compare results from methods with different strengths and error sources. Agreement can increase confidence, but shared biases can persist; disagreement should be examined rather than hidden.",
+    "8.2.29": "Exploratory analysis can be iterative. Preserve the original analysis plan and label later choices and hypotheses as exploratory; use new data or suitable validation for claims generated from the same data.",
+    "9.2.1": "Documentation starts when planning begins and continues through collection, cleaning, analysis, and reporting. Keep a record of what was planned, what changed, why it changed, and how each reported result was produced.",
+    "9.2.12": "<strong>Codebooks:</strong> Document variable names, units, category values, missing-value codes, derived variables, and qualitative coding definitions as applicable.",
+    "9.2.18": "<strong>Complete reporting:</strong> Report prespecified outcomes, effect estimates and uncertainty, exclusions, missing data, and deviations from the plan. Preserve analysis files and explain access restrictions; confidential data should not be exposed merely to claim openness.",
+    "10.1.6": "5. Which example clearly collects quantitative data? A) Interpreting a life narrative B) Recording each respondent’s number of weekly purchases C) An open discussion of product meanings D) Interpreting a historical letter",
+    "10.1.8": "7. What is the broad design category in which exposures are observed rather than assigned by the researcher? A) Randomized experiment B) Randomized clinical trial C) Observational study D) Laboratory intervention",
+    "10.1.11": "10. Which example is a standardized instrument producing a numerical score? A) An unstructured life-history conversation B) An uncoded field diary C) A specified psychological test with a scoring manual D) A narrative interpretation",
+    "10.1.19": "B) Recording each respondent’s number of weekly purchases",
+    "10.1.24": "C) A specified psychological test with a scoring manual",
+    "10.2.8": "a) A research question is always qualitative.",
+    "10.2.9": "b) A research question asks what is to be investigated; a hypothesis proposes a testable answer or prediction.",
+    "10.2.43": "a) Quantitative analysis cannot describe data.",
+    "10.2.44": "b) Quantitative analysis works with numerical measurements; qualitative analysis interprets meanings and patterns in contextual material.",
+    "10.2.48": "a) Obtain appropriate consent and protect privacy, explaining whether data are anonymous or confidential.",
+    "10.2.58": "a) Giving the study an accurate, informative title",
+    "10.2.60": "c) Presenting unsupported personal opinion as an empirical finding",
+    "10.2.64": "b) A question states what is being investigated; a hypothesis proposes a testable answer or prediction.",
+    "10.2.71": "b) Quantitative analysis uses numerical measurements; qualitative analysis interprets contextual meanings and patterns.",
+    "10.2.72": "a) Obtain appropriate consent and protect privacy; anonymity and confidentiality are different.",
+    "10.2.74": "c) Presenting unsupported personal opinion as an empirical finding",
+    "11.1.9": "How can qualitative researchers make interpretations accountable to the evidence while acknowledging their own role and possible alternative readings?"
+  },
+  "countChecks": [
+    {
+      "name": "discussion sets and source bonus questions",
+      "selector": "#prompt-11 .original-response > ol",
+      "child": "li",
+      "expected": [
+        15,
+        5,
+        5,
+        5
+      ]
+    },
+    {
+      "name": "two original bonus discussion questions",
+      "selector": "#prompt-11 .original-response > ul",
+      "child": "li",
+      "expected": [
+        2
+      ]
+    },
+    {
+      "name": "prompt-1 ordered sequence sizes",
+      "selector": "#prompt-1 .original-response > ol",
+      "child": "li",
+      "expected": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "prompt-2 ordered sequence sizes",
+      "selector": "#prompt-2 .original-response > ol",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "prompt-3 ordered sequence sizes",
+      "selector": "#prompt-3 .original-response > ol",
+      "child": "li",
+      "expected": [
+        2,
+        2
+      ]
+    },
+    {
+      "name": "prompt-4 ordered sequence sizes",
+      "selector": "#prompt-4 .original-response > ol",
+      "child": "li",
+      "expected": [
+        3,
+        3
+      ]
+    },
+    {
+      "name": "prompt-5 ordered sequence sizes",
+      "selector": "#prompt-5 .original-response > ol",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "prompt-6 ordered sequence sizes",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        3,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "prompt-7 ordered sequence sizes",
+      "selector": "#prompt-7 .original-response > ol",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        3
+      ]
+    },
+    {
+      "name": "prompt-8 ordered sequence sizes",
+      "selector": "#prompt-8 .original-response > ol",
+      "child": "li",
+      "expected": [
+        3,
+        4
+      ]
+    },
+    {
+      "name": "prompt-9 ordered sequence sizes",
+      "selector": "#prompt-9 .original-response > ol",
+      "child": "li",
+      "expected": [
+        4
+      ]
+    },
+    {
+      "name": "prompt-10 ordered sequence sizes",
+      "selector": "#prompt-10 .original-response > ol",
+      "child": "li",
+      "expected": [
+        12,
+        12,
+        12
+      ]
+    },
+    {
+      "name": "prompt-11 ordered sequence sizes",
+      "selector": "#prompt-11 .original-response > ol",
+      "child": "li",
+      "expected": [
+        15,
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "reviewDecisions": [
+    "Read all eleven prompts and twenty-two complete responses; preserved the detailed examples, twenty-four quiz items and answers, two fifteen-question sets and two explicitly bonus discussion questions.",
+    "Distinguished precision from representativeness, probability sampling from equal-probability sampling, cluster sampling from stratification, and causal inference from significance.",
+    "Reconciled contradictory accounts of methodology versus design, clarified qualitative coding and mixed-methods integration, and corrected null-hypothesis wording.",
+    "Corrected STAI item count from 20 to 40 using publisher source, distinguished perceived stress from objective stress and work engagement from loyalty, and made example measurement procedures reproducible.",
+    "Improved analysis and documentation around prespecification, missingness, effect sizes, privacy, and exploratory changes; repaired quiz ambiguity and anonymity guarantees."
+  ],
+  "leadingTextReplacements": {
+    "6.2.16": "For this illustrative observational study, record the following behaviors per 30-minute meeting using a coding manual that defines each behavior and how repeated actions are counted. Train observers and assess agreement on a subset of recordings. This measures selected leadership behaviors, not the whole construct:",
+    "10.2.57": "Which reporting practice is inappropriate?"
+  }
+}

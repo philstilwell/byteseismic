@@ -1,0 +1,75 @@
+{
+  "pagePath": "/political-philosophy/peaceful-revolutions/",
+  "sourceSha256": "351173fb9eef7abcfe92e7c9874e4e1f1e4cbf85f67bd0122ef844a3d803cff6",
+  "originalPrompts": 8,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 8,
+  "sourceColumns": 16,
+  "modelResponses": 16,
+  "blocksRetainedVerbatim": 129,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 52,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "prompt-1 ordered sequence sizes": [
+      7
+    ],
+    "prompt-2 ordered sequence sizes": [
+      1,
+      1
+    ],
+    "prompt-3 ordered sequence sizes": [
+      7
+    ],
+    "prompt-4 ordered sequence sizes": [
+      3
+    ],
+    "prompt-5 ordered sequence sizes": [
+      4
+    ],
+    "prompt-7 ordered sequence sizes": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "prompt-8 ordered sequence sizes": [
+      15,
+      15
+    ]
+  },
+  "sha256": "2cb0ed9dc166e4516cbd6785bf58af768490f40f67797775c55d30a14d41e136",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "Peaceful Revolutions",
+  "queueTitle": "Peaceful Revolutions",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "response",
+    "list item"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 190,
+    "ranges": [
+      [
+        1,
+        85
+      ],
+      [
+        86,
+        190
+      ]
+    ],
+    "complete": true
+  },
+  "additionalFormatChecks": {
+    "completeCuratorAnalogy": true
+  },
+  "isolatedBuildVerified": true
+}

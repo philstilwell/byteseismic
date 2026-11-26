@@ -1,0 +1,97 @@
+{
+  "pagePath": "/philosophy-of-science/is-history-science/",
+  "sourceSha256": "2ae5347afa232f764d9f083c54c5f6e2d7d006a790de2172246e6afff2d57435",
+  "originalPrompts": 8,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 8,
+  "sourceColumns": 16,
+  "modelResponses": 16,
+  "blocksRetainedVerbatim": 133,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 50,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "five-case lists": [
+      5,
+      5,
+      5,
+      5
+    ],
+    "quizzes and keys": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "discussion": [
+      15,
+      15
+    ],
+    "prompt-1 ordered sequence sizes": [
+      4
+    ],
+    "prompt-2 ordered sequence sizes": [
+      6
+    ],
+    "prompt-3 ordered sequence sizes": [
+      5,
+      5
+    ],
+    "prompt-4 ordered sequence sizes": [
+      5
+    ],
+    "prompt-5 ordered sequence sizes": [
+      5,
+      5
+    ],
+    "prompt-6 ordered sequence sizes": [
+      8
+    ],
+    "prompt-7 ordered sequence sizes": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "prompt-8 ordered sequence sizes": [
+      15,
+      15
+    ]
+  },
+  "sha256": "644fa6b348ed8a695282db0422c21cef89961ad6562d51120cbb589387085908",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "Is History Science?",
+  "queueTitle": "Is History Science?",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "response",
+    "list item"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 191,
+    "ranges": [
+      [
+        1,
+        55
+      ],
+      [
+        56,
+        110
+      ],
+      [
+        111,
+        191
+      ]
+    ],
+    "complete": true
+  },
+  "additionalFormatChecks": {},
+  "isolatedBuildVerified": true
+}

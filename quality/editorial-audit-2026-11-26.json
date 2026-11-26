@@ -188,5 +188,10 @@
   ],
   "nextPage": "Semantics: Convention vs Stipulation",
   "nextBatch": "Evidence Workshop through What is Faith? (250–299)",
-  "trackerAdvanced": false
+  "trackerAdvanced": false,
+  "laterCompletion": {
+    "date": "2026-11-26",
+    "report": "quality/editorial-audit-2026-11-26-supplement.json",
+    "note": "Historical incomplete state above retained. The continuation completed and verified today’s twenty-page target."
+  }
 }

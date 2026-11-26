@@ -1,0 +1,89 @@
+{
+  "pagePath": "/philosophy-of-mind/where-are-our-thoughts/",
+  "sourceSha256": "3a226bb21c6a8bf63f90735ffc4473994d0cf610f9385e31c8bb24d308fc087c",
+  "originalPrompts": 7,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 7,
+  "sourceColumns": 14,
+  "modelResponses": 14,
+  "blocksRetainedVerbatim": 105,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 40,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "quiz questions and answers": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "discussion questions": [
+      15,
+      15
+    ],
+    "prompt-1 ordered sequence sizes": [
+      5,
+      4
+    ],
+    "prompt-2 ordered sequence sizes": [
+      5
+    ],
+    "prompt-3 ordered sequence sizes": [
+      5
+    ],
+    "prompt-4 ordered sequence sizes": [
+      3,
+      3
+    ],
+    "prompt-5 ordered sequence sizes": [
+      3
+    ],
+    "prompt-6 ordered sequence sizes": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "prompt-7 ordered sequence sizes": [
+      15,
+      15
+    ]
+  },
+  "sha256": "de7823b8277c1d7b4ed78ecd8553b0460e481cc2e0dbfbcc989e4715a3481303",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "Where are our Thoughts?",
+  "queueTitle": "Where are our Thoughts?",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "response",
+    "list item",
+    "curator preamble"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 155,
+    "ranges": [
+      [
+        1,
+        45
+      ],
+      [
+        46,
+        100
+      ],
+      [
+        101,
+        155
+      ]
+    ],
+    "complete": true
+  },
+  "additionalFormatChecks": {},
+  "isolatedBuildVerified": true
+}

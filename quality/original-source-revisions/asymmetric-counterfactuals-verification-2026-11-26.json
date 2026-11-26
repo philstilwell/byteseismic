@@ -1,0 +1,98 @@
+{
+  "pagePath": "/philosophy-of-science/asymmetric-counterfactuals/",
+  "sourceSha256": "7209f84447f05028878aff5aa835ebbca0055ebfe9b419f96fe4e7a37ff96281",
+  "originalPrompts": 7,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 7,
+  "sourceColumns": 14,
+  "modelResponses": 14,
+  "blocksRetainedVerbatim": 127,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 36,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "five examples per response": [
+      5,
+      5,
+      5,
+      5
+    ],
+    "quiz and answers": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "discussion": [
+      15,
+      15
+    ],
+    "prompt-1 ordered sequence sizes": [
+      5
+    ],
+    "prompt-2 ordered sequence sizes": [
+      5,
+      5
+    ],
+    "prompt-3 ordered sequence sizes": [
+      5,
+      5
+    ],
+    "prompt-4 ordered sequence sizes": [
+      6
+    ],
+    "prompt-5 ordered sequence sizes": [
+      8
+    ],
+    "prompt-6 ordered sequence sizes": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "prompt-7 ordered sequence sizes": [
+      15,
+      15
+    ]
+  },
+  "sha256": "89626b247ff982f7fce004b240fa62ee6b4184154c29aa7b0e9fe18f649dc327",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "Asymmetric Counterfactuals",
+  "queueTitle": "Asymmetric Counterfactuals",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "response",
+    "list item"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 170,
+    "ranges": [
+      [
+        1,
+        40
+      ],
+      [
+        41,
+        85
+      ],
+      [
+        86,
+        130
+      ],
+      [
+        131,
+        170
+      ]
+    ],
+    "complete": true
+  },
+  "additionalFormatChecks": {},
+  "isolatedBuildVerified": true
+}

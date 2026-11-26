@@ -1,0 +1,178 @@
+{
+  "pageFile": "philosophy-of-science/research-design/index.html",
+  "wordpressId": 755,
+  "snapshot": "research-design-wordpress-755.html",
+  "sourceUrl": "http://byteseismic.com/2024/02/15/research-design/",
+  "sourceLabel": "Original WordPress conversation, 2024-02-15",
+  "shellRevision": "505a7a255c6e1bcbf661f9edf3a1878b95226d96",
+  "date": "2026-11-26",
+  "sourceSha256": "0a1932fd63e1b966d7aac0467834012b1c23795b6bc62fb8f7b0ba447a60e8c6",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "What common elements are found in rigorous experimental designs across all domains of scientific inquiry?",
+    "Clearly describe three ingenious experiments that uncovered insights into reality that were once thought unknowable. ",
+    "Provide an example of the key sections found in scientific papers with clear explanations of the importance of each section.",
+    "You are a social scientist who would like to explore why there was a dramatic decline in violent crime in the US between 1985 and 2005. Provide a detailed explanation of the steps you would take to ensure your study met scientific rigor. ",
+    "What are common flaws in experimental design?",
+    "What are the most common biases that can negatively affect a scientific study?",
+    "Create a 12-item quiz on the content above with answers at the end.",
+    "Provide 15 discussion questions relevant to the content above."
+  ],
+  "introHeading": "Research Design",
+  "intro": "Rigorous research needs a question, a defensible comparison, reliable measurements, and an honest account of uncertainty. These eight exchanges cover experimental principles, landmark experiments, paper structure, a historical crime study, common flaws, and biases. The crime example now checks the trend before explaining it, and the quizzes avoid treating statistical procedures as guarantees.",
+  "description": "Scientific rigor through experimental design, historical experiments, a crime-trend study, common biases and corrected quizzes.",
+  "highlights": [],
+  "replacements": {
+    "1.1.0": "Strong experiments make their questions, interventions, comparisons, measurements, and uncertainty explicit. The details differ across domains: separate human treatment groups, blinding, and a fixed hypothesis are not universal features of every rigorous experiment. The elements below are common design considerations, with those limits in mind.",
+    "1.1.5": "<strong>Controlled variables:</strong> Holding relevant conditions stable can reduce alternative explanations, but does not ensure that every outcome difference is caused by the intended intervention. Random error, measurement problems, and unintended differences still matter.",
+    "1.1.7": "<strong>Comparison condition:</strong> It may receive no intervention, a placebo, usual practice, or an active alternative. Some experiments compare conditions within the same unit rather than using a separate control group.",
+    "1.1.9": "<strong>Random assignment:</strong> Allocate units using a prespecified random procedure with known probabilities, which need not be equal. This balances other characteristics in expectation, not perfectly in every sample. Conceal allocation and address attrition and nonadherence; random assignment is distinct from random population sampling.",
+    "1.1.11": "<strong>Masking participants:</strong> Where feasible, participants do not know their assigned condition, reducing some expectation effects. State exactly who is masked rather than relying only on “single-blind.”",
+    "1.1.12": "<strong>Masking additional roles:</strong> Assessors, treating staff, or analysts may also be kept unaware of allocation. State which roles are masked and how; “double-blind” has inconsistent uses across fields.",
+    "1.1.15": "<strong>Sample size:</strong> Plan for a specified meaningful effect or desired precision, given variation, clustering, and expected missingness. No finite sample guarantees detection of every nonzero effect, and a large sample does not fix systematic bias.",
+    "1.2.2": "<strong>Comparison:</strong> Choose a control condition that answers the question, whether no treatment, placebo, active treatment, or a within-unit comparison. Explain what contrast it identifies.",
+    "1.2.6": "<strong>Blinding is separate from randomization:</strong> Randomization governs allocation; masking limits information available to specified roles. A study can implement either without the other.",
+    "1.2.15": "<strong>Power or precision:</strong> Calculate the sample needed under explicit assumptions about effect size, variability, design, and missingness. Power is a probability under a specified alternative, not an assurance that an experiment will find the truth.",
+    "2.1.0": "These three experiments made difficult questions empirically tractable. The source does not establish that contemporaries generally regarded their questions as unknowable in principle; it is more accurate to describe them as previously unresolved.",
+    "2.1.4": "<strong>Outcome:</strong> The expected ether-wind fringe shift was not observed at the predicted magnitude. This constrained the tested ether account and became important to later physics; it did not by itself demonstrate every postulate of special relativity or every inertial-frame claim. See the <a href=\"https://ajsonline.org/article/62505-on-the-relative-motion-of-the-earth-and-the-luminiferous-ether\">1887 paper</a>.",
+    "2.1.11": "<strong>Method:</strong> Pavlov and his collaborators studied how stimuli associated with feeding could elicit salivation before food arrived. Controlled presentation and measurement distinguished conditioned responses from reflexes to food itself. The familiar bell story is a simplified teaching illustration, not an adequate specification of the historical experiments.",
+    "2.1.12": "<strong>Outcome:</strong> The work helped establish experimental study of conditioned reflexes: responses can depend on learned relations between signals and biologically significant events. Pavlov discusses conditioned and unconditioned responses in his <a href=\"https://www.nobelprize.org/prizes/medicine/1904/pavlov/lecture/\">1904 lecture</a>. It did not show that all learning or behavior follows one mechanism.",
+    "2.2.3": "<strong>Finding:</strong> The anticipated interference-fringe displacement from the tested ether-wind model was absent at its predicted scale. Later theoretical developments, including special relativity, explained the relevant observations differently. The experiment alone did not settle all questions about space and time.",
+    "2.2.8": "<strong>Finding:</strong> Individual detection events can accumulate into an interference distribution when the paths remain coherent. A physical interaction that records path information can suppress that interference. “Observation” here does not require a conscious person watching the apparatus.",
+    "2.2.9": "<strong>Significance:</strong> The experiment challenges classical trajectory descriptions and tests quantum predictions. It does not establish that consciousness creates reality or supplies the mechanism of measurement.",
+    "2.2.12": "<strong>Design:</strong> Miller, working with Urey, circulated water vapor with methane, ammonia, and hydrogen and applied electrical discharges. This tested one proposed chemical environment rather than reproducing the early Earth in all its details.",
+    "2.2.13": "<strong>Finding:</strong> Amino acids formed abiotically under the experimental conditions. This demonstrated a possible chemical route to some biological building blocks; it did not create life or establish that these were the actual global conditions or pathway on early Earth. See <a href=\"https://pubmed.ncbi.nlm.nih.gov/13056598/\">Miller’s 1953 paper</a>.",
+    "3.1.16": "<strong>Importance:</strong> Acknowledge relevant contributions that do not meet the authorship criteria being used. Disclose funding and competing interests in the required sections; contributors may have assisted the research even if they are not authors.",
+    "3.2.1": "The following is a hypothetical paper outline, not a report of a completed climate study. Examples show what each section should contain; no numerical results or new projections are being asserted.",
+    "3.2.4": "<strong>Example:</strong> State the observation period, sea-level measure, datasets, model comparison, and main estimates with uncertainty. An actual abstract would summarize results as well as aims; this outline supplies no invented estimates.",
+    "3.2.7": "<strong>Example:</strong> Explain the specific gap the proposed analysis addresses, such as the contribution of thermal expansion and land-ice loss over a defined period. Distinguish glaciers from ice sheets and specify other components and regional effects included in the accounting.",
+    "3.2.13": "<strong>Example:</strong> A real results section would report each estimated contribution, its units and uncertainty, the observation period, and model-specific projections under named scenarios. The source’s X%, Y%, and Z cm were placeholders, not findings; they should not be mistaken for evidence.",
+    "3.2.16": "<strong>Example:</strong> Explain what the estimated contributions and uncertainty imply, compare them with previous evidence, and address omitted components and regional variation. Policy implications must be tied to actual findings; this hypothetical outline does not produce new ones.",
+    "3.2.19": "<strong>Example:</strong> Conclude by restating what the completed analysis establishes, within its stated period and assumptions. Since no analysis is reported here, this outline cannot claim to have supplied quantitative estimates.",
+    "4.1.0": "First verify the premise. U.S. violent-crime rates did not decline steadily from 1985 through 2005: the police-recorded national series rose into the early 1990s before the substantial decline. Retain the requested 1985–2005 window to study both phases, and distinguish counts, population rates, and different crime categories. See the <a href=\"https://www.congress.gov/crs_external_products/R/PDF/R45236/R45236.4.pdf\">Congressional Research Service historical table</a> and <a href=\"https://ucr.fbi.gov/crime-in-the-u.s/2010/crime-in-the-u.s.-2010/tables/10tbl01.xls\">FBI series</a>.",
+    "4.1.2": "<strong>Question:</strong> Which factors help explain the early-1990s turning point and subsequent declines in specified violent-crime rates, and how did these patterns differ by place and offense within 1985–2005?",
+    "4.1.9": "Construct a documented series from FBI Uniform Crime Reporting records and compare appropriate trends with the Bureau of Justice Statistics’ National Crime Victimization Survey. Police records depend on reporting and recording; the household survey includes some unreported crime but excludes homicide and differs in coverage and definitions. Account for the survey redesign around 1992–1993 rather than splicing incompatible series.",
+    "4.1.16": "<strong>Analysis:</strong> Begin with descriptive plots and data-quality checks. For a particular policy claim, justify a comparison—such as a difference-in-differences design with credible untreated trends—and examine policy timing, concurrent changes, and spillovers. A regression of trending national series can produce a misleading association.",
+    "4.1.17": "<strong>Robustness:</strong> Check alternative periods, offense definitions, reporting coverage, lags, and comparison groups. Account for serial and within-place dependence. Prediction on held-out data tests predictive performance; it does not by itself validate a causal claim.",
+    "4.2.1": "Verify and describe the trend before explaining it. The interval includes an initial increase in recorded violent-crime rates and a later decline; the turning point and magnitude depend on the measure and location. The <a href=\"https://bjs.ojp.gov/press-release/criminal-victimization-2005\">BJS 2005 account</a> documents survey declines from 1993 and provides a complementary, differently defined measure.",
+    "4.2.7": "Specify competing explanations and estimands, including a null hypothesis of no effect for each defined policy contrast. “No statistically significant change” is a possible analysis result, not a population hypothesis.",
+    "4.2.10": "Investigate competing mechanisms and concurrent changes. This can reduce omitted-explanation errors; it is not by itself a remedy for selection into a sample or policy.",
+    "4.2.11": "Analyze geographical variation, but keep the level of inference explicit. State- or city-level patterns do not automatically establish individual behavior; adding more geographical units does not itself eliminate the ecological fallacy.",
+    "4.2.14": "Adjust for justified pre-exposure common causes under an explicit causal account. Do not assume regression isolates effects automatically, and avoid controlling away mediators or introducing bias by conditioning on selection variables.",
+    "5.1.8": "<strong>Baseline characteristics:</strong> Prespecified adjustment can improve precision and address confounding in appropriate designs. In a properly randomized trial, not every prognostic trait must be controlled to make the estimate valid; indiscriminate adjustment, especially for post-treatment variables, can introduce problems.",
+    "5.2.2": "<strong>Small sample:</strong> A limited number of independent units can produce wide uncertainty and low power for a specified effect. Representativeness and selection bias are separate questions; a larger biased sample can be precisely wrong.",
+    "6.1.1": "<strong>Selection bias:</strong> How people enter or remain in the analyzed sample can distort a comparison. This includes more than lack of population representativeness: conditioning on selection related to both exposure and outcome can bias the estimated relationship within the study.",
+    "6.1.7": "<strong>Selective reporting:</strong> Reporting only some outcomes, analyses, or time points because of their results can distort the evidence. This differs from participants giving socially desirable responses, which is listed separately below.",
+    "6.1.9": "<strong>Attrition:</strong> Missing follow-up can bias results when its causes relate to outcomes and differ between conditions. Even modest loss may matter; a large dropout percentage is not required. Report reasons and assess sensitivity to plausible missing outcomes.",
+    "6.2.9": "<strong>Nonresponse bias:</strong> Respondents may differ from nonrespondents in ways relevant to the question. This differs from inaccurate answers given by people who do respond.",
+    "6.2.13": "<strong>Measurement error:</strong> Miscalibration can systematically shift values, whereas random imprecision increases noise. Both matter, but not every imprecise reading is a systematic bias.",
+    "6.2.22": "<strong>Post hoc explanations:</strong> Developing explanations after seeing results can be useful exploration. The error is presenting them as independently confirmed or as hypotheses specified in advance without disclosure or new testing.",
+    "7.1.7": "6. What does randomized treatment assignment primarily address? A) Population coverage B) Publication selection C) Systematic baseline differences between treatment groups D) Every form of measurement error",
+    "7.1.8": "7. Which feature is not inherently a design flaw? A) An unjustified comparison B) Undisclosed selective exclusions C) Using digital collection tools appropriate to the question D) Undefined variables",
+    "7.1.13": "12. What should statistical analysis provide? A) More complex-looking data B) Estimates and uncertainty, with tests suited to the question and design C) Proof that assumptions are true D) A substitute for a comparison condition",
+    "7.1.20": "C) Systematic baseline differences between treatment groups, in expectation.",
+    "7.1.21": "C) Using appropriate digital collection tools.",
+    "7.1.26": "B) Estimates and uncertainty, with tests suited to the question and design.",
+    "7.2.3": "Which is a common consequence of a smaller sample under otherwise comparable conditions? (a) Guaranteed selection bias. (b) Wider uncertainty and lower power for a specified effect. (c) More accurate individual measurements. (d) Automatic invalidity.",
+    "7.2.6": "Which practice helps counter confirmation bias? (a) Ignoring contradictory results. (b) Reporting only supportive analyses. (c) Prespecifying tests and actively examining competing explanations. (d) Excluding inconvenient observations without justification.",
+    "7.2.10": "Which practice supports ethical transparency? (a) Publishing identifiable participant records without permission. (b) Sharing authorized data or protected summaries with documented access limits. (c) Fabricating results. (d) Concealing adverse outcomes.",
+    "7.2.11": "What can complementary measures contribute when their limitations are assessed? (a) Automatic proof of validity. (b) Evidence about different aspects of the construct and possible measurement weaknesses. (c) Elimination of all bias. (d) Removal of the need to define the outcome.",
+    "8.1.5": "How does random assignment to treatment groups differ from random sampling of participants, and which problem is each intended to address?",
+    "8.1.11": "What strategies help an analysis evaluate the hypothesis fairly, including results that fail to support it?"
+  },
+  "countChecks": [
+    {
+      "name": "discussion",
+      "selector": "#prompt-8 .original-response > ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    },
+    {
+      "name": "prompt-1 ordered sequence sizes",
+      "selector": "#prompt-1 .original-response > ol",
+      "child": "li",
+      "expected": [
+        2,
+        1,
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "prompt-2 ordered sequence sizes",
+      "selector": "#prompt-2 .original-response > ol",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "prompt-3 ordered sequence sizes",
+      "selector": "#prompt-3 .original-response > ol",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "prompt-5 ordered sequence sizes",
+      "selector": "#prompt-5 .original-response > ol",
+      "child": "li",
+      "expected": [
+        2,
+        10
+      ]
+    },
+    {
+      "name": "prompt-6 ordered sequence sizes",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        12
+      ]
+    },
+    {
+      "name": "prompt-7 ordered sequence sizes",
+      "selector": "#prompt-7 .original-response > ol",
+      "child": "li",
+      "expected": [
+        12,
+        12,
+        12
+      ]
+    },
+    {
+      "name": "prompt-8 ordered sequence sizes",
+      "selector": "#prompt-8 .original-response > ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    }
+  ],
+  "reviewDecisions": [
+    "Read eight prompts and sixteen full responses; retained both three-experiment sequences, 24 quiz questions and keys, and 30 discussion questions.",
+    "Qualified universality of control groups and blinding, corrected unequal random allocation and sample-size guarantees, and separated random assignment from sampling.",
+    "Corrected overclaims about Michelson–Morley, observer consciousness, Pavlov’s bell illustration and Miller–Urey’s conditions and scope.",
+    "Marked climate-paper text as a hypothetical outline with no invented findings and removed placeholders presented as results.",
+    "Corrected 1985–2005 crime premise using official historical series; distinguished UCR and NCVS definitions, survey redesign, regional inference, predictive validation and causal identification.",
+    "Clarified selection, nonresponse, reporting and attrition biases; repaired ambiguous quiz options and two discussion questions that confused sampling or encouraged confirmation."
+  ]
+}

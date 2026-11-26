@@ -1,0 +1,73 @@
+{
+  "pagePath": "/philosophy-of-science/what-is-induction/",
+  "sourceSha256": "70eede9b413810d75a5f7945c35de90c9830113d2b6faca2a642ac31ae31c074",
+  "originalPrompts": 8,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 8,
+  "sourceColumns": 16,
+  "modelResponses": 16,
+  "blocksRetainedVerbatim": 220,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 70,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "prompt-1 ordered sequence sizes": [
+      2,
+      2
+    ],
+    "prompt-2 ordered sequence sizes": [
+      10
+    ],
+    "prompt-5 ordered sequence sizes": [
+      5
+    ],
+    "prompt-7 ordered sequence sizes": [
+      10,
+      10,
+      10,
+      11
+    ],
+    "prompt-8 ordered sequence sizes": [
+      15,
+      5,
+      5,
+      5
+    ]
+  },
+  "sha256": "bef433a6bec8a3ad1a476d13df540e6a778e62f8014da786b5d6707986b0b7bd",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "What is Induction?",
+  "queueTitle": "What is Induction?",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "response",
+    "list item"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 298,
+    "ranges": [
+      [
+        1,
+        105
+      ],
+      [
+        106,
+        205
+      ],
+      [
+        206,
+        298
+      ]
+    ],
+    "complete": true
+  },
+  "additionalFormatChecks": {},
+  "isolatedBuildVerified": true
+}

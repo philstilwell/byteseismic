@@ -1,0 +1,77 @@
+{
+  "pagePath": "/philosophy-of-science/scientism-faith/",
+  "sourceSha256": "9f1b74c84ea20e1d1f0030e578d1aca32f2c675dda846d83e7d8fc159b1f57e1",
+  "originalPrompts": 13,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 11,
+  "sourceColumns": 22,
+  "modelResponses": 22,
+  "blocksRetainedVerbatim": 176,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 101,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "prompt-5 ordered sequence sizes": [
+      10,
+      10
+    ],
+    "prompt-10 ordered sequence sizes": [
+      3
+    ],
+    "prompt-11 ordered sequence sizes": [
+      3
+    ]
+  },
+  "sha256": "91580262b87cc9d2d2a4e82eb2b3a3a63aeb5748270c0307db6f74cac620dff4",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "Scientism & Faith",
+  "queueTitle": "Scientism & Faith",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "response",
+    "list item"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 288,
+    "ranges": [
+      [
+        1,
+        50
+      ],
+      [
+        51,
+        105
+      ],
+      [
+        106,
+        155
+      ],
+      [
+        106,
+        130
+      ],
+      [
+        131,
+        185
+      ],
+      [
+        186,
+        240
+      ],
+      [
+        241,
+        288
+      ]
+    ],
+    "complete": true
+  },
+  "additionalFormatChecks": {},
+  "isolatedBuildVerified": true
+}

@@ -1,0 +1,185 @@
+{
+  "pageFile": "political-philosophy/political-philosophy-core-concepts/index.html",
+  "wordpressId": 6525,
+  "snapshot": "political-philosophy-core-concepts-wordpress-6525.html",
+  "sourceUrl": "http://byteseismic.com/2024/04/18/political-philosophy-core-concepts/",
+  "sourceLabel": "Original WordPress conversation, 2024-04-18",
+  "shellRevision": "505a7a255c6e1bcbf661f9edf3a1878b95226d96",
+  "date": "2026-11-26",
+  "sourceSha256": "d03f3c2e7e08b9b92bbf1f1b8acbc53723e64356db091789f0070fcebaf18ebe",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "List and define 30 key terms in the political philosophy.",
+    "List and provide clear explanations of 15 key concepts in political philosophy.",
+    "Provide a salient description of the most critical issues within political philosophy today.",
+    "Provide a list of resources relevant to political philosophy.",
+    "Which universities currently have the strongest programs in political philosophy?",
+    "Provide 15 discussion questions relevant to the content above."
+  ],
+  "introHeading": "Political Philosophy – Core Concepts",
+  "intro": "These six exchanges introduce political vocabulary, conceptual disputes, research issues, and study resources. The revisions distinguish descriptive power from justified authority, republics from democracy, and political traditions from particular policy packages. The university lists are preserved as research starting points, with official links and no unsupported ranking.",
+  "description": "Sixty political terms, thirty concepts, current study resources and university research links, with thirty discussion questions.",
+  "highlights": [],
+  "replacements": {
+    "1.1.4": "<strong>Communism:</strong> In Marxist theory, a classless society with common ownership of productive resources, ultimately without a state. Historical states governed by communist parties are distinct from that theoretical endpoint; common productive ownership does not simply mean abolition of every personal possession.",
+    "1.1.5": "<strong>Confederalism:</strong> A union in which member polities retain substantial sovereignty and delegate specified functions to common institutions. The distribution of powers distinguishes a confederation from mere cooperation and from a federation.",
+    "1.1.10": "<strong>Hegemony:</strong> Predominance or leadership, including one state’s influence over others. In Gramscian theory it also concerns social leadership sustained through consent and institutions, not only military coercion.",
+    "1.1.11": "<strong>Idealism:</strong> An ambiguous term: it may describe politics guided by moral ideals or particular philosophical traditions, including British idealism. It is not simply another name for the moral worth of the individual; specify the intended sense.",
+    "1.1.17": "<strong>Nationalism:</strong> Views giving political significance to national membership, often supporting national self-determination or a nation-state. Civic, ethnic, cultural, and other variants differ; nations and states do not map one-to-one.",
+    "1.1.21": "<strong>Populism:</strong> Approaches framing politics as a conflict between “the people” and an elite, often claiming privileged representation of the people’s will. Definitions and variants differ; appealing to ordinary voters alone is not enough to identify populism.",
+    "1.1.22": "<strong>Realism:</strong> Political approaches emphasizing power, conflict, institutions, and the conditions of political action. Some criticize beginning with abstract moral ideals, but realism need not reject all moral constraints. International-relations realism is a related but distinct usage.",
+    "1.1.23": "<strong>Republicanism:</strong> A tradition emphasizing civic self-government, law, and freedom from domination. A republic as a constitutional form is a different concept: the absence of a monarch does not guarantee democratic or republican ideals.",
+    "1.1.24": "<strong>Socialism:</strong> Traditions advocating social ownership or democratic control of productive resources. State ownership, cooperative ownership, and market socialism differ; regulation or welfare provision within capitalism alone is not the definition.",
+    "1.1.25": "<strong>Sovereignty:</strong> Claims to supreme political authority within a jurisdiction and independence in external relations. Legal authority, effective control, and moral legitimacy can diverge; sovereignty does not imply freedom from every treaty or international obligation.",
+    "1.1.26": "<strong>Statism:</strong> A position assigning a central or extensive role to the state in political, economic, or social organization. It is broader than centralized economic planning alone.",
+    "1.1.28": "<strong>Utilitarianism:</strong> A consequentialist ethical approach that impartially evaluates overall well-being. It is not synonymous with democracy, majority preference, or liberal economics, and its political implications depend on further assumptions.",
+    "1.1.30": "<strong>Zionism:</strong> A family of Jewish national movements seeking a homeland and national self-determination in the historic Land of Israel/Palestine, with different political, cultural, religious, and territorial interpretations. Support for Jewish self-determination does not by itself specify a position on every Israeli policy; Palestinian rights and competing national claims are central to the political debate. This completes the source’s truncated definition.",
+    "1.2.6": "<strong>Legitimacy:</strong> Normatively, the justified right to rule; descriptively, people’s belief in or acceptance of that right. Acceptance and moral justification are distinct.",
+    "1.2.7": "<strong>Constitution:</strong> Fundamental rules and institutions structuring public power. Constitutions may include rights guarantees, but neither their existence nor their effectiveness is automatic.",
+    "1.2.9": "<strong>Republic:</strong> Commonly, a polity without a hereditary monarch, whose public offices are constituted as public rather than dynastic authority. Republics can be democratic or authoritarian; representative democracy can coexist with constitutional monarchy.",
+    "1.2.10": "<strong>Monarchy:</strong> A system with a monarch as head of state. The monarch’s powers range from chiefly ceremonial constitutional functions to extensive governing authority.",
+    "1.2.11": "<strong>Tyranny:</strong> Oppressive or arbitrary rule; philosophical usage is not confined to a single absolute ruler and can include domination by a group or majority.",
+    "1.2.12": "<strong>Liberalism:</strong> A family of views emphasizing liberty, equal standing, and justification of coercive authority. Liberals disagree over property, redistribution, and the size of government; a mixed economy is not its universal definition.",
+    "1.2.13": "<strong>Conservatism:</strong> Traditions valuing continuity, inherited institutions, and caution about sweeping political redesign. Conservative positions on markets and state intervention vary.",
+    "1.2.15": "<strong>Communism:</strong> A classless common-ownership ideal in Marxist theory, distinguished from the institutions of historical communist-party states. State control alone is neither the theoretical endpoint nor a sufficient definition.",
+    "1.2.18": "<strong>Justice:</strong> What persons and groups are due in institutions, relationships, distribution, procedure, and responses to wrongs. Theories disagree about when equality is required; justice is not simply identical distribution.",
+    "1.2.23": "<strong>Civil society:</strong> Associations and collective activities outside direct state administration, often distinguished from market firms. Its precise boundaries vary across theories, and such organizations can interact with both government and economic life.",
+    "1.2.24": "<strong>Social contract:</strong> Approaches using agreement to justify political institutions or principles. The agreement may be actual, tacit, or hypothetical depending on the theory; it is not always an historical exchange of liberty for protection.",
+    "1.2.28": "<strong>Racism:</strong> Racial hierarchy, exclusion, or disadvantage expressed through beliefs, conduct, or institutional arrangements. An explicit belief in biological superiority is one form, not the only possible form.",
+    "2.1.1": "<strong>Social contract:</strong> Arguments grounding institutions or principles in an appropriate form of agreement. Early modern thinkers developed influential versions, but the broader idea has older antecedents. Hobbes, Locke, Rousseau, and Rawls differ over parties, terms, consent, and the function of the agreement.",
+    "2.1.2": "<strong>Natural rights:</strong> Rights claimed to hold independently of enacted law or local convention. Different theories specify different rights and limits; calling a right natural does not entail that it is absolute or never forfeitable. Legal violation does not itself erase the claimed moral right.",
+    "2.1.4": "<strong>Liberty:</strong> Accounts distinguish freedom from interference, self-direction or effective agency, and republican freedom from domination. These identify different constraints and can support different institutional conclusions.",
+    "2.1.6": "<strong>Democracy:</strong> Collective political rule giving members an appropriate equal role, directly or through representatives. Majority decision is one mechanism; rights, participation, representation, and accountability raise further questions about democratic legitimacy.",
+    "2.1.9": "<strong>Sovereignty:</strong> Supreme authority claimed within a jurisdiction and external independence. Divided authority, treaties, and international law complicate any definition as unlimited freedom from outside influence.",
+    "2.1.11": "<strong>Republicanism:</strong> A tradition of civic self-rule and opposition to domination. Contemporary republican freedom often concerns security against arbitrary power, not merely whether a state formally lacks a monarch.",
+    "2.1.14": "<strong>Civil disobedience:</strong> Conscientious lawbreaking intended to contest laws or policies. A prominent account emphasizes publicity, nonviolence, and fidelity to law, but these conditions are debated rather than universally accepted definitions.",
+    "2.2.0": "<strong>Sovereignty:</strong> A claim to supreme authority and external independence, distinct from effective power and moral legitimacy. International commitments can limit permitted conduct without simply eliminating statehood.",
+    "2.2.1": "<strong>Legitimacy:</strong> Separate sociological acceptance from a justified right to rule. Constitutions, elections, and traditions may contribute to either, but their presence alone does not settle moral justification.",
+    "2.2.2": "<strong>Social contract:</strong> Actual or hypothetical agreement used to justify political authority or principles. Different versions ask different questions; it need not assert that citizens literally signed away freedom.",
+    "2.2.3": "<strong>Justice:</strong> Fair terms of social relations, distribution, procedure, and response to wrongs. Fairness may require equal treatment in some respects and justified differences in others.",
+    "2.2.8": "<strong>Constitution:</strong> Basic rules defining public institutions and powers, sometimes spread across multiple sources rather than one codified document. Rights may be specified but are not necessarily protected effectively.",
+    "2.2.10": "<strong>Civil society:</strong> Voluntary associations and collective activities distinct from direct state administration, with contested boundaries in relation to markets. Such organizations can support or undermine accountability depending on their practices.",
+    "2.2.11": "<strong>Liberalism:</strong> Diverse views defending liberty and equal standing while disagreeing about property, welfare, and public institutions. Neither minimal intervention nor a particular mixed economy defines every liberal theory.",
+    "2.2.12": "<strong>Conservatism:</strong> Views valuing continuity and inherited institutions, often skeptical of abstract political redesign. They do not all favor the same economic policy.",
+    "3.1.4": "<strong>Economic inequality:</strong> Questions concern the legitimacy of unequal resources, opportunity, and power. Specify the country, period, and measure before asserting that all inequalities are increasing; income, wealth, and between-country gaps can move differently.",
+    "3.1.5": "<strong>Migration and refuge:</strong> Displacement raises questions about protection, borders, asylum, and membership. A claim of an unprecedented level requires a dated measure; the philosophical issues do not depend on that unsourced superlative.",
+    "3.2.2": "<strong>Justice and inequality:</strong> Evaluate which inequalities are objectionable and why, distinguishing wealth, income, opportunity, and political influence. Trends vary by measure and place; the normative question cannot be answered by an unsupported universal claim that every gap is widening.",
+    "4.1.4": "<em>Leviathan</em>, Thomas Hobbes: an influential argument about peace, authority, and covenant. It is a major social-contract text, not the foundation of all or most Western political philosophy.",
+    "4.1.13": "<a href=\"https://onlinelibrary.wiley.com/journal/14679760\"><em>Journal of Political Philosophy</em></a>: a valuable research archive. Wiley reports that publication ceased effective January 1, 2026; treat it as an archive rather than an active submission venue.",
+    "4.1.19": "<a href=\"https://oyc.yale.edu/political-science/plsc-114\">Introduction to Political Philosophy</a>, Steven B. Smith, Open Yale Courses: an identified university lecture archive, replacing the vague and unsupported platform/university attribution.",
+    "4.1.20": "<a href=\"https://pll.harvard.edu/course/justice\">Justice</a>, Michael Sandel, Harvard: lectures and readings examining moral and political arguments. Check the provider for current access and certificate terms.",
+    "4.1.21": "<a href=\"https://online.yale.edu/courses/moral-foundations-politics\">The Moral Foundations of Politics</a>, Ian Shapiro, Yale: competing accounts of legitimacy, with provider links to learning options.",
+    "4.2.2": "<a href=\"https://plato.stanford.edu/\">Stanford Encyclopedia of Philosophy</a>: scholarly entries with bibliographies; use specific topics such as authority, democracy, justice, and liberty.",
+    "4.2.3": "<a href=\"https://iep.utm.edu/\">Internet Encyclopedia of Philosophy</a>: introductory scholarly articles on philosophical topics and thinkers.",
+    "4.2.4": "<a href=\"https://onlinelibrary.wiley.com/journal/14679760\"><em>Journal of Political Philosophy</em></a>: the source misidentified its publisher as Cambridge. It is a Wiley archive, with a 2026 closure notice. For a distinct open-access journal, see <a href=\"https://politicalphilosophyjournal.org/\"><em>Political Philosophy</em></a>, published by the Open Library of Humanities.",
+    "4.2.5": "<strong>Research networks:</strong> The source’s “Society for Political Philosophy” address was not established as a reliable resource. A documented alternative is the <a href=\"https://www.politics.ox.ac.uk/pillar/political-theory\">Oxford Political Theory Network</a>, whose page describes its research community.",
+    "4.2.7": "<em>A Theory of Justice</em>, John Rawls: justice as fairness, the original position, and principles for society’s basic structure. Obtain a library or publisher edition; the source’s bracketed Amazon label was not a usable citation.",
+    "4.2.8": "<em>Leviathan</em>, Thomas Hobbes: political authority, covenant, and the problem of peace; read with attention to its seventeenth-century setting.",
+    "4.2.9": "<em>Second Treatise of Government</em>, John Locke: natural rights, property, consent, political authority, and resistance.",
+    "4.2.10": "<em>Democracy in America</em>, Alexis de Tocqueville: democratic social conditions, institutions, and risks; distinguish historical observations from arguments about democracy.",
+    "4.2.11": "Video alternatives to the unverified documentary listings:",
+    "4.2.12": "<strong>Plato:</strong> The claimed <em>Plato’s Republic (1998)</em> Kanopy listing was not verified. Use the Plato lectures in <a href=\"https://oyc.yale.edu/political-science/plsc-114\">Open Yale’s political philosophy course</a> as an identified educational alternative.",
+    "4.2.13": "<strong>Social contract:</strong> The claimed <em>The Social Contract (2010)</em> documentary was not verified. Use the relevant lectures in <a href=\"https://online.yale.edu/courses/moral-foundations-politics\">Yale’s Moral Foundations of Politics</a>; these are course lectures, not that documentary.",
+    "5.1.0": "There is no single substantiated “strongest” ranking supplied here. The original thirteen institutions are retained as places to investigate, with official research or teaching pages checked on November 26, 2026. Compare topic fit, active supervision, degree requirements, funding, and recent work; a famous or emeritus scholar’s affiliation does not establish current advising availability.",
+    "5.1.4": "<a href=\"https://www.gov.harvard.edu/graduate/programs-of-study/political-thought-and-its-history/\">Political Thought and Its History</a> describes historical and contemporary political philosophy, including democratic, feminist, and republican thought.",
+    "5.1.7": "<a href=\"https://politics.princeton.edu/areas-study/political-theory\">Political Theory</a> describes historical and contemporary work and links the interdisciplinary Program in Political Philosophy. Use its current directory instead of assuming the source’s named scholars are accepting students.",
+    "5.1.10": "The <a href=\"https://ethicsinsociety.stanford.edu/\">McCoy Family Center for Ethics in Society</a> supports interdisciplinary ethics, teaching, and political-theory events. A center is not itself a doctoral degree or a guarantee of supervision.",
+    "5.1.13": "The department’s <a href=\"https://political-science.uchicago.edu/graduate-study/graduate-degree-requirements/comprehensive-exams/political-theory\">political theory examination materials</a> show substantial historical and contemporary reading expectations. Compare those with your intended research approach.",
+    "5.1.16": "Yale’s <a href=\"https://politicalscience.yale.edu/sites/default/files/politicaltheory_jan2026.pdf\">January 2026 political theory examination</a> includes historical, contemporary, and thematic work. Consult current faculty and admissions information rather than relying on the source’s older named-faculty examples.",
+    "5.1.19": "<a href=\"https://polisci.berkeley.edu/research-and-teaching/subfields/political-theory-philosophy\">Political Theory &amp; Philosophy</a> describes historical and contemporary strengths and a joint graduate opportunity involving philosophy and political science.",
+    "5.1.23": "Oxford’s <a href=\"https://www.ox.ac.uk/admissions/graduate/courses/mphil-politics-political-theory\">MPhil in Politics (Political Theory)</a> combines analytical, critical, and historical approaches. Compare its taught-master’s structure with doctoral routes elsewhere.",
+    "5.1.26": "Cambridge’s <a href=\"https://www.polis.cam.ac.uk/about-us/centres-and-institutes\">Centre for Political Thought</a>, jointly run by Politics and History, provides a research setting for political thought, theory, and intellectual history. Check the relevant degree separately.",
+    "5.1.29": "The <a href=\"https://www.lse.ac.uk/study-at-lse/graduate/msc-political-theory\">MSc Political Theory</a> offers analytical, critical, and historical approaches. Its existence and content are documented; that does not independently prove a comparative ranking.",
+    "5.1.33": "Leiden’s <a href=\"https://www.universiteitleiden.nl/en/education/study-programmes/master/philosophy-60ec/pdf\">Philosophy MA overview</a> includes Moral and Political Philosophy and related specializations. Check the current specialization and entry requirements.",
+    "5.1.36": "LMU’s <a href=\"https://www.philosophie.lmu.de/en/faculty/chair-of-philosophy-and-political-theory/research-profile/\">Philosophy and Political Theory research profile</a> describes contemporary social, political, legal, and moral philosophy, particularly in the analytic tradition.",
+    "5.1.40": "Toronto offers political-philosophy teaching; its <a href=\"https://philosophy.utoronto.ca/utm/utm-philosophy-undergraduate/utm-courses/300-level-courses/\">2026–27 Mississauga course list</a> includes political philosophy and the ethics of borders. This confirms teaching, not a graduate ranking; investigate the relevant graduate department and campus separately.",
+    "5.1.43": "McGill’s <a href=\"https://www.mcgill.ca/politicalscience/about-us/research\">research areas</a> describe normative, critical, historical, and jurisprudential political theory, with links to research communities and supervision interests.",
+    "5.1.44": "These official pages support a research shortlist, not a ranked recommendation. Institutional reputation, a center’s existence, and a specific degree’s suitability are different considerations.",
+    "5.2.0": "The following five original choices are a shorter research shortlist, not a verified league table. Political theory may be housed in politics, government, or philosophy; compare the actual route and available supervisors.",
+    "5.2.1": "<strong>Harvard:</strong> Its <a href=\"https://www.gov.harvard.edu/graduate/programs-of-study/political-thought-and-its-history/\">Political Thought and Its History</a> field spans historical and contemporary work. Examine individual research fit rather than reputation alone.",
+    "5.2.2": "<strong>Princeton:</strong> The <a href=\"https://politics.princeton.edu/areas-study/political-theory\">political theory field</a> connects with an interdisciplinary political philosophy program and the University Center for Human Values.",
+    "5.2.3": "<strong>Oxford:</strong> Its <a href=\"https://www.politics.ox.ac.uk/pillar/political-theory\">political theory network</a> includes analytic, critical, historical, and other approaches. Check whether a taught or research degree matches your preparation.",
+    "5.2.4": "<strong>Columbia:</strong> Its <a href=\"https://polisci.columbia.edu/content/political-theory\">political theory section</a> describes historical, analytical, legal, democratic, and comparative work. Use the current faculty directory to assess specialization.",
+    "5.2.5": "<strong>Chicago:</strong> Its <a href=\"https://political-science.uchicago.edu/graduate-study/graduate-degree-requirements/comprehensive-exams/political-theory\">political theory requirements and readings</a> provide concrete evidence of training expectations. Compare the program with the work you intend to pursue.",
+    "6.1.14": "How should states regulate biotechnologies such as genetic editing, and how do those questions differ from regulation of artificial intelligence?",
+    "6.2.13": "<strong>Inequality and redistribution:</strong> After specifying the place, period, and measure of inequality, what reasons support particular redistributive policies, and what evidence would assess their effects?"
+  },
+  "countChecks": [
+    {
+      "name": "prompt-1 ordered sequence sizes",
+      "selector": "#prompt-1 .original-response > ol",
+      "child": "li",
+      "expected": [
+        30,
+        30
+      ]
+    },
+    {
+      "name": "prompt-2 ordered sequence sizes",
+      "selector": "#prompt-2 .original-response > ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    },
+    {
+      "name": "prompt-3 ordered sequence sizes",
+      "selector": "#prompt-3 .original-response > ol",
+      "child": "li",
+      "expected": [
+        10
+      ]
+    },
+    {
+      "name": "prompt-4 ordered sequence sizes",
+      "selector": "#prompt-4 .original-response > ol",
+      "child": "li",
+      "expected": [
+        10,
+        5,
+        3,
+        5
+      ]
+    },
+    {
+      "name": "prompt-5 ordered sequence sizes",
+      "selector": "#prompt-5 .original-response > ol",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "prompt-6 ordered sequence sizes",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    }
+  ],
+  "reviewDecisions": [
+    "Read six paired exchanges, preserving both thirty-term lists, both fifteen-concept lists, all resource and university entries, and thirty discussion questions.",
+    "Completed truncated Zionism definition and corrected communism/state ownership, republic/democracy, monarchy, legitimacy, sovereignty, social contract and justice distinctions.",
+    "Removed universal economic-trend claims and unsupported university rankings; linked all fourteen distinct institutions to identified official research or teaching evidence and clarified evidence limits.",
+    "Corrected journal publisher and 2026 closure status, malformed resource placeholders and unsupported documentary/organization claims; supplied documented alternatives without pretending they were the original resources.",
+    "Corrected classification of AI as biotechnology and retained the page’s full conceptual and discussion structure."
+  ]
+}
