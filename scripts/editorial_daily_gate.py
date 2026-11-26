@@ -8,6 +8,7 @@ import argparse
 import hashlib
 import json
 import subprocess
+import re
 import revise_source_conversations as conversations
 from datetime import date, datetime
 from pathlib import Path
@@ -36,10 +37,18 @@ def records(root, day):
     return result
 
 
-def assignment(root, day):
-    path = Path(f'quality/editorial-runs/{day}.json')
+def assignment_path(day, run_id=None):
+    if run_id and not re.fullmatch(r'[a-z0-9][a-z0-9-]{0,39}', run_id):
+        raise ValueError('Invalid additional assignment identifier.')
+    return Path(f"quality/editorial-runs/{day}{'-' + run_id if run_id else ''}.json")
+
+
+def assignment(root, day, run_id=None):
+    path = assignment_path(day, run_id)
     if (root / path).exists():
         return read(root, path), path
+    if run_id:
+        raise ValueError('Additional assignments must be explicitly prepared and authorized; do not create extra reviews automatically.')
     tracker = read(root, 'quality/editorial-audit-tracker.json')
     if tracker['cursor']['cycle'] != 8:
         raise ValueError('Only the authorized cycle 8 is supported; do not restart.')
@@ -88,7 +97,8 @@ def evidence(root, plan):
         errors.append('Assigned pages are missing verified partial-batch progress.')
     files.update(['quality/editorial-audit-tracker.json',
                   'scripts/revise_source_conversations.py'])
-    build_path = DATA / f"batch-verification-{plan['date']}.json"
+    suffix = '-' + plan['runId'] if plan.get('runId') else ''
+    build_path = DATA / f"batch-verification-{plan['date']}{suffix}.json"
     files.add(str(build_path))
     try:
         build = read(root, build_path)['build']
@@ -171,17 +181,21 @@ def main():
     parser.add_argument('action', choices=['plan', 'check'])
     parser.add_argument('--date', default=datetime.now(ZoneInfo('America/New_York')).date().isoformat())
     parser.add_argument('--phase', choices=['ready', 'published'], default='published')
+    parser.add_argument('--run-id', help='Explicitly authorized additional assignment; never replaces the normal daily plan.')
     args = parser.parse_args()
     date.fromisoformat(args.date)
-    plan_path = Path(f'quality/editorial-runs/{args.date}.json')
+    plan_path = assignment_path(args.date, args.run_id)
     if args.action == 'plan':
-        plan, _ = assignment(ROOT, args.date)
+        plan, _ = assignment(ROOT, args.date, args.run_id)
         print(json.dumps(plan, indent=2, ensure_ascii=False))
         return 0
     if not (ROOT / plan_path).exists():
         print('CONTINUE: create the daily assignment with the plan command first.')
         return 1
     plan = read(ROOT, plan_path)
+    if plan['date'] != args.date or plan.get('runId') != args.run_id:
+        print('CONTINUE: assignment identity does not match the requested run.')
+        return 1
     errors, files = evidence(ROOT, plan)
     files.add(str(plan_path))
     if args.phase == 'published' and not errors:

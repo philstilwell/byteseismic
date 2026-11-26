@@ -128,6 +128,22 @@ class ControllerTests(unittest.TestCase):
         self.assertEqual(self.event('Stop', transcript_path=str(transcript)), {})
         self.run.assert_not_called()
 
+    def test_additional_review_run_uses_its_own_gate_and_does_not_release_other_run(self):
+        self.arm()
+        other = {'cwd': str(self.root), 'session_id': 'extra-run',
+                 'hook_event_name': 'UserPromptSubmit',
+                 'prompt': controller.MARKER + '\n[byteseismic-run:review-recovery]\nReview twenty new pages.'}
+        controller.handle(other, self.home, self.root, self.run, self.clock)
+        self.run.assert_called_with('plan', '2026-11-27', 'review-recovery')
+        other['hook_event_name'] = 'Stop'
+        self.run.return_value = (1, '0/20 reviewed')
+        self.assertEqual(controller.handle(other, self.home, self.root, self.run, self.clock)['decision'], 'block')
+        self.run.assert_called_with('check', '2026-11-27', 'review-recovery')
+        self.run.return_value = (0, 'published')
+        controller.handle(other, self.home, self.root, self.run, self.clock)
+        normal = json.loads((self.home / 'controller-sessions/test-session.json').read_text())
+        self.assertEqual(normal['status'], 'active')
+
 
 if __name__ == '__main__':
     unittest.main()

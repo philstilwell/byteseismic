@@ -71,11 +71,13 @@ def save(path, data):
             Path(name).unlink()
 
 
-def command(action, day):
+def command(action, day, run_id=None):
     args = [sys.executable, str(ROOT / 'scripts/editorial_daily_gate.py'), action,
             '--date', day]
     if action == 'check':
         args += ['--phase', 'published']
+    if run_id:
+        args += ['--run-id', run_id]
     # A network stall must not hang the stop hook indefinitely or pass as success.
     process = subprocess.Popen(args, cwd=ROOT, stdout=subprocess.PIPE,
                                stderr=subprocess.STDOUT, text=True,
@@ -136,22 +138,32 @@ def handle(payload, home=HOME, root=ROOT, run=command, now=None):
         for other in (home / 'controller-sessions').glob('*.json'):
             previous = json.loads(other.read_text())
             if previous.get('status') == 'active' and previous.get('root') == str(root):
-                pending.append(previous['date'])
-        day = min(pending) if pending else now.date().isoformat()
+                pending.append((previous['date'], previous.get('runId') or ''))
+        explicit_runs = [m.group(1) for line in prompt.splitlines()[:32]
+                         if (m := re.fullmatch(r'\[byteseismic-run:([a-z0-9][a-z0-9-]{0,39})\]', line))]
+        if len(explicit_runs) > 1:
+            raise ValueError('Ambiguous additional assignment.')
+        if explicit_runs:
+            day, run_id = now.date().isoformat(), explicit_runs[0]
+        else:
+            day, run_id = min(pending) if pending else (now.date().isoformat(), '')
         state = {'sessionId': session, 'root': str(root), 'date': day,
                  'status': 'active', 'continuations': 0, 'updatedAt': now.isoformat()}
+        if run_id:
+            state['runId'] = run_id
         save(path, state)  # Bind before planning, including when planning fails.
-        code, output = run('plan', day)
+        code, output = run('plan', day, run_id) if run_id else run('plan', day)
         if code:
             context = 'Daily assignment planning failed; repair it before reviewing: ' + output
         else:
-            context = f'Automatic continuation controller armed for {day}. Use that saved assignment date throughout this run.'
+            context = f'Automatic continuation controller armed for {day}' + (f' --run-id {run_id}' if run_id else '') + '. Use that saved assignment throughout this run.'
         if not recovered:
             return {'hookSpecificOutput': {'hookEventName': 'UserPromptSubmit',
                                           'additionalContext': context}}
     if event != 'Stop':
         return {}
-    code, output = run('check', state['date'])
+    run_id = state.get('runId')
+    code, output = run('check', state['date'], run_id) if run_id else run('check', state['date'])
     state.update(updatedAt=now.isoformat(), lastCheck=output)
     if code == 0:
         state['status'] = 'complete'
@@ -161,6 +173,7 @@ def handle(payload, home=HOME, root=ROOT, run=command, now=None):
         for other in (home / 'controller-sessions').glob('*.json'):
             previous = json.loads(other.read_text())
             if (previous.get('status') == 'active' and previous.get('date') == state['date']
+                    and previous.get('runId') == state.get('runId')
                     and previous.get('root') == str(root)):
                 previous.update(status='complete', completedBy=session,
                                 updatedAt=now.isoformat())
@@ -171,7 +184,8 @@ def handle(payload, home=HOME, root=ROOT, run=command, now=None):
     # Deliberately do NOT exit when stop_hook_active is true. Every premature
     # finish must be checked, including the second, third and later attempts.
     return {'decision': 'block', 'reason': (
-        f"Automatic editorial continuation {state['continuations']} for {state['date']}. "
+        f"Automatic editorial continuation {state['continuations']} for {state['date']}" +
+        (f" --run-id {run_id}. " if run_id else '. ') +
         'The controller independently checked the assignment and it is unfinished. '
         'Resume the first incomplete step now, without asking the user to continue. '
         'Complete every assigned original-source review, fidelity verification, isolated build, '

@@ -9,6 +9,16 @@ import editorial_daily_gate as gate
 
 
 class DailyGateTests(unittest.TestCase):
+    def test_additional_assignment_cannot_replace_or_create_daily_work(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            with self.assertRaisesRegex(ValueError, 'explicitly prepared'):
+                gate.assignment(root, '2026-11-26', 'review-recovery')
+            with self.assertRaises(ValueError):
+                gate.assignment_path('2026-11-26', '../escape')
+            self.assertNotEqual(gate.assignment_path('2026-11-26'),
+                                gate.assignment_path('2026-11-26', 'review-recovery'))
+
     def test_real_completed_day_and_missing_evidence(self):
         plan = {'date': '2026-11-26', 'target': 20, 'remainingAtPlanning': 135,
                 'pagePaths': list(gate.records(gate.ROOT, '2026-11-26'))}
