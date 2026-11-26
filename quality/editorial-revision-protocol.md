@@ -42,6 +42,19 @@ The existing prose persistence rule was not enough: subsequent runs still stoppe
 
 A genuine external blocker still requires the exact failure, attempted remedies, affected pages, shortfall and saved recovery step. Mark that result incomplete. The checker verifies evidence and publication; it is not a scheduler restart mechanism and cannot override application shutdown or service limits. If an interrupted assignment exists, the next available run resumes it before starting a new assignment. At the already-published cycle endpoint, follow the existing pause instructions instead of creating an empty new assignment.
 
+## Runtime continuation controller — November 26, 2026
+
+The executable gate alone cannot keep an agent working. The trusted project hooks in `.codex/hooks.json` now invoke `scripts/editorial_run_controller.py` independently of the model:
+
+- `UserPromptSubmit` recognizes the exact automation marker, binds the chat to a saved assignment date, and creates/reopens its plan before the model starts. Other project conversations remain unaffected.
+- `Stop` independently runs the published completion check. Failure returns Codex’s supported `decision: block` with the outstanding work, causing an automatic continuation prompt. This applies to every premature finish, even when `stop_hook_active` is already true. There is no one-retry escape or successful partial-completion path.
+- Successful verification and remote-push confirmation release the run and mark its controller state complete. State lives in the automation’s `controller-sessions` directory, separate from editorial artifacts.
+- `Interrupt` suspends continuation when the user manually stops work. Pausing the existing automation also disables continuation. Neither mechanism is overridden.
+
+The controller is active runtime behavior, not a request for the model to remember a check. Its hooks must remain enabled and trusted for the configured project path. The installed hooks were checked through Codex’s hooks/list API. A local Codex integration test with a simulated model verified two automatic continuations after deliberate early finishes, followed by termination only after the simulated publication gate passed; it used no paid model calls. Ordinary unit tests cover repeated stops, failed publication, midnight/restart recovery, unrelated chats and manual interruption.
+
+This controller handles attempted final responses while Codex is running. It cannot run while the application is shut down or force an unavailable model service to respond. A subsequent scheduled run binds to the oldest saved unfinished assignment. It does not install an independent operating-system restart service or create a replacement automation. The schedule, source-fidelity rules and fifty-page batch advancement requirements remain unchanged.
+
 ## Recorded source resolutions — September 21, 2026
 
 The curator explicitly approved the earliest repository editions of **Al-Ghazali**, **Anselm of Canterbury**, and **Arthur Schopenhauer** as **site-native baselines**, preserving each page’s four prompts. This exception applies only to `/philosophers/al-ghazali/`, `/philosophers/anselm-of-canterbury/`, and `/philosophers/arthur-schopenhauer/`. These baselines are editorial/reconstructed site pages, not original WordPress posts. Label their provenance accurately; do not infer an original WordPress conversation or attribute composite responses to a particular model.

@@ -1,0 +1,43 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 \"$(git rev-parse --show-toplevel)/scripts/editorial_run_controller.py\"",
+            "timeout": 60,
+            "onFailure": "block",
+            "statusMessage": "Maintaining editorial run state"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 \"$(git rev-parse --show-toplevel)/scripts/editorial_run_controller.py\"",
+            "timeout": 60,
+            "onFailure": "block",
+            "statusMessage": "Checking editorial completion"
+          }
+        ]
+      }
+    ],
+    "Interrupt": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3 \"$(git rev-parse --show-toplevel)/scripts/editorial_run_controller.py\"",
+            "timeout": 3,
+            "onFailure": "continue",
+            "statusMessage": "Maintaining editorial run state"
+          }
+        ]
+      }
+    ]
+  }
+}

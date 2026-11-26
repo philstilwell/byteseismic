@@ -1,0 +1,97 @@
+{
+  "date": "2026-11-26T11:53:30.118192-05:00",
+  "purpose": "Automatically continue an unfinished scheduled editorial run when the model attempts to stop.",
+  "implementation": "Codex UserPromptSubmit, Stop and Interrupt lifecycle command hooks; controller executes published gate independently of the model.",
+  "automation": "byteseismic-daily-editorial-audit",
+  "nativeCodexIntegrationTest": {
+    "codexExit": 0,
+    "simulatedModelRequests": 3,
+    "completionChecks": 3,
+    "automaticContinuations": 2,
+    "humanContinuationMessages": 0,
+    "paidModelCalls": 0,
+    "hookTrustBypassed": false
+  },
+  "nativeTestScope": "Real installed Codex CLI and trusted lifecycle hooks, local simulated Responses model and simulated completion results; not an additional live twenty-page editorial run.",
+  "unitTestsPassed": 21,
+  "actualPublishedDay": "2026-11-26",
+  "actualPublishedDayControllerCheck": [
+    {
+      "hookSpecificOutput": {
+        "hookEventName": "UserPromptSubmit",
+        "additionalContext": "Automatic continuation controller armed for 2026-11-26. Use that saved assignment date throughout this run."
+      }
+    },
+    {
+      "systemMessage": "Editorial controller: verification and remote push confirmed; run complete."
+    }
+  ],
+  "installedHooks": [
+    {
+      "cwd": "/Users/philstilwell/Documents/Documents - Phil’s 2024 MacBook Pro/BYTESEISMIC",
+      "hooks": [
+        {
+          "event": "userPromptSubmit",
+          "enabled": true,
+          "trustStatus": "trusted",
+          "definitionHash": "sha256:2676da7b6f5bc634bb2fefbc030209f406ac3f6c12feb940fe8f65fdc2fb5eb7"
+        },
+        {
+          "event": "stop",
+          "enabled": true,
+          "trustStatus": "trusted",
+          "definitionHash": "sha256:cfdcde515b5849f7b7985e961f79994658efc1c6b78ee58bfb19d1fdf66f357b"
+        },
+        {
+          "event": "interrupt",
+          "enabled": true,
+          "trustStatus": "trusted",
+          "definitionHash": "sha256:178320fe2fb3b44c00f3feb42fa796004bcd79eb5344b0a7d50c14d89eccbcf9"
+        }
+      ]
+    },
+    {
+      "cwd": "/Users/philstilwell/Library/Mobile Documents/com~apple~CloudDocs/Documents/Documents - Phil’s 2024 MacBook Pro/BYTESEISMIC",
+      "hooks": [
+        {
+          "event": "userPromptSubmit",
+          "enabled": true,
+          "trustStatus": "trusted",
+          "definitionHash": "sha256:2676da7b6f5bc634bb2fefbc030209f406ac3f6c12feb940fe8f65fdc2fb5eb7"
+        },
+        {
+          "event": "stop",
+          "enabled": true,
+          "trustStatus": "trusted",
+          "definitionHash": "sha256:cfdcde515b5849f7b7985e961f79994658efc1c6b78ee58bfb19d1fdf66f357b"
+        },
+        {
+          "event": "interrupt",
+          "enabled": true,
+          "trustStatus": "trusted",
+          "definitionHash": "sha256:178320fe2fb3b44c00f3feb42fa796004bcd79eb5344b0a7d50c14d89eccbcf9"
+        }
+      ]
+    }
+  ],
+  "controllerSha256": "d1a0e15b32baf3c5ad9e5c871b426e71759cd15962adc7ade9a68f0c7dcefac9",
+  "behavior": [
+    "Activation occurs before model work through the automation marker, not an optional agent command.",
+    "Every incomplete Stop returns block and automatically produces another continuation, including repeated stop_hook_active events.",
+    "Assignment date and progress survive midnight and controller process restarts.",
+    "User interruption suspends continuation; paused automation disables it.",
+    "A subsequent scheduled run recovers the oldest unfinished bound assignment."
+  ],
+  "limits": [
+    "Requires Codex running with the trusted project hooks enabled.",
+    "Cannot override application shutdown, unavailable model service or usage limits.",
+    "No independent operating-system restart service was installed."
+  ],
+  "settingsPreserved": [
+    "daily schedule",
+    "active status",
+    "project",
+    "Astra High"
+  ],
+  "docs": "https://learn.chatgpt.com/docs/hooks"
+}
