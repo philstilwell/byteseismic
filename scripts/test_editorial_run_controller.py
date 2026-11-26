@@ -96,6 +96,38 @@ class ControllerTests(unittest.TestCase):
         old = json.loads((self.home / 'controller-sessions/test-session.json').read_text())
         self.assertEqual(old['status'], 'complete')
 
+    def test_scheduler_tool_output_arms_at_stop_without_user_prompt_event(self):
+        transcript = self.root / 'scheduler.jsonl'
+        transcript.write_text('\n'.join(json.dumps(x) for x in [
+            {'type': 'session_meta', 'payload': {'id': 'test-session', 'cwd': str(self.root), 'thread_source': 'automation'}},
+            {'type': 'response_item', 'payload': {'type': 'function_call_output',
+             'name': 'automation_update', 'namespace': 'codex_app',
+             'output': 'Automation ID: byteseismic-daily-editorial-audit\n' + controller.MARKER}}
+        ]) + '\n')
+        self.run.side_effect = [(0, 'planned'), (1, 'uncommitted evidence')]
+        result = self.event('Stop', transcript_path=str(transcript))
+        self.assertEqual(result['decision'], 'block')
+        self.assertEqual(self.run.call_count, 2)
+
+    def test_scheduled_interrupt_before_first_stop_is_respected(self):
+        transcript = self.root / 'scheduler.jsonl'
+        transcript.write_text('\n'.join(json.dumps(x) for x in [
+            {'type': 'session_meta', 'payload': {'id': 'test-session', 'cwd': str(self.root), 'thread_source': 'automation'}},
+            {'type': 'response_item', 'payload': {'type': 'function_call_output',
+             'name': 'automation_update', 'namespace': 'codex_app',
+             'output': 'Automation ID: byteseismic-daily-editorial-audit\n' + controller.MARKER}}
+        ]) + '\n')
+        self.event('Interrupt', transcript_path=str(transcript))
+        self.assertEqual(self.event('Stop', transcript_path=str(transcript)), {})
+        self.run.assert_not_called()
+
+    def test_arbitrary_transcript_text_cannot_arm(self):
+        transcript = self.root / 'other.jsonl'
+        transcript.write_text(json.dumps({'type': 'response_item', 'payload': {
+            'type': 'message', 'content': controller.MARKER}}) + '\n')
+        self.assertEqual(self.event('Stop', transcript_path=str(transcript)), {})
+        self.run.assert_not_called()
+
 
 if __name__ == '__main__':
     unittest.main()

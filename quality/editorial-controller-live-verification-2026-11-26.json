@@ -1,0 +1,47 @@
+{
+  "result": "PASS after repairing scheduler-specific activation",
+  "automationId": "byteseismic-daily-editorial-audit",
+  "failedInitialTrialThread": "01a218c9-92c1-7752-ba12-baaaeb210799",
+  "initialFailure": "Scheduler supplied a codex_app automation_update tool result, so UserPromptSubmit did not arm the controller.",
+  "successfulScheduledRun": {
+    "id": "01a218cf-865f-7262-8943-93055508808e",
+    "thread_source": "automation",
+    "cli_version": "0.171.0-alpha.13.2",
+    "cwd": "/Users/philstilwell/Documents/Documents - Phil’s 2024 MacBook Pro/BYTESEISMIC",
+    "timestamp": "2026-11-26T17:03:03.279Z"
+  },
+  "model": "gpt-6-astra",
+  "realModel": true,
+  "simulatedModel": false,
+  "controllerInvokedManually": false,
+  "humanContinuationMessages": 0,
+  "nativeHookPrompts": [
+    {
+      "time": "2026-11-26T17:03:18.850Z",
+      "id": "msg_01a218cf-c341-7d42-b77e-1372d8400f18",
+      "fragments": [
+        {
+          "text": "Automatic editorial continuation 1 for 2026-11-26. The controller independently checked the assignment and it is unfinished. Resume the first incomplete step now, without asking the user to continue. Complete every assigned original-source review, fidelity verification, isolated build, commit and confirmed push. Preserve the frozen assignment and original quality requirements. Do not modify or disable the controller/checker to end this run. Repair recoverable errors and preserve exact progress across compaction.\n\nCONTINUE — daily completion check failed:\n- Uncommitted evidence or content: quality/editorial-runs/2026-11-26.json",
+          "hookRunId": "stop:1:/Users/philstilwell/Documents/Documents - Phil’s 2024 MacBook Pro/BYTESEISMIC/.codex/hooks.json"
+        }
+      ]
+    }
+  ],
+  "finalResponses": [
+    {
+      "time": "2026-11-26T17:03:14.408Z",
+      "text": "SCHEDULED_CONTROLLER_EARLY_STOP_ATTEMPT\n\n::inbox-item{title=\"Scheduled controller early stop attempted\" summary=\"Awaiting automatic editorial continuation from the installed Stop hook\"}"
+    },
+    {
+      "time": "2026-11-26T17:04:16.197Z",
+      "text": "Automatic continuation succeeded. Committed only the verification record and pushed `aa18b4819f9360010638ac7d9f26d54c0aedd093`.\n\nPublication check: **COMPLETE — 20/20 pages verified, committed and remote push confirmed.** All 478 unrelated working changes preserved.\n\n::inbox-item{title=\"Scheduled continuation verified and published\" summary=\"Parent chat can independently verify results and restore ordinary automation settings\"}"
+    }
+  ],
+  "publicationCommit": "aa18b4819f9360010638ac7d9f26d54c0aedd093",
+  "publicationGate": "COMPLETE: 20/20 pages verified, committed and remote push confirmed.",
+  "probeScope": "One real uncommitted verification record in the already-complete daily assignment. No new editorial pages; target and content unchanged.",
+  "additionalScheduledTick": "A second tick completed with zero continuations after the first published the record; no additional pages were selected.",
+  "scheduleRestored": "Daily 09:00 America/New_York",
+  "fix": "Stop can arm from the runtime-provided transcript only when session ID, project path, automation thread source, named scheduler tool output, exact automation ID and marker match. Manual interrupts remain respected.",
+  "testCount": 24
+}

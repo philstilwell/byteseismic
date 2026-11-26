@@ -21,6 +21,43 @@ ROOT = Path(__file__).resolve().parents[1]
 HOME = Path.home() / '.codex/automations' / AUTOMATION
 
 
+def scheduled_prompt(payload, root):
+    """Recover the scheduler's tool-delivered prompt from the hook's transcript.
+
+    Desktop automation turns do not necessarily emit UserPromptSubmit. Read only
+    the runtime-provided transcript, require matching session metadata, and accept
+    only the scheduler's named automation_update output, never arbitrary text.
+    """
+    name = payload.get('transcript_path')
+    if not name:
+        return None
+    budget = 16 * 1024 * 1024
+    matched_session = False
+    with Path(name).open() as transcript:
+        for _ in range(128):
+            line = transcript.readline(min(budget + 1, 2 * 1024 * 1024))
+            if not line:
+                break
+            budget -= len(line.encode())
+            if budget < 0 or not line.endswith('\n'):
+                break
+            item = json.loads(line)
+            data = item.get('payload', {})
+            if item.get('type') == 'session_meta':
+                matched_session = (data.get('id') == payload.get('session_id')
+                                   and data.get('thread_source') == 'automation'
+                                   and Path(data.get('cwd', '/')).resolve() == root.resolve())
+            if (matched_session and item.get('type') == 'response_item'
+                    and data.get('type') == 'function_call_output'
+                    and data.get('namespace') == 'codex_app'
+                    and data.get('name') == 'automation_update'):
+                text = data.get('output', '')
+                if (isinstance(text, str) and f'Automation ID: {AUTOMATION}' in text.splitlines()[:8]
+                        and MARKER in text.splitlines()[:32]):
+                    return text
+    return None
+
+
 def save(path, data):
     path.parent.mkdir(parents=True, exist_ok=True)
     fd, name = tempfile.mkstemp(dir=path.parent, prefix='.controller-')
@@ -61,14 +98,29 @@ def handle(payload, home=HOME, root=ROOT, run=command, now=None):
     if not re.fullmatch(r'[A-Za-z0-9_-]{1,100}', session):
         return {}
     event = payload.get('hook_event_name')
+    observation_path = home / 'controller-hook-observations.json'
+    observations = json.loads(observation_path.read_text()) if observation_path.exists() else []
+    observations.append({'sessionId': session, 'event': event, 'time': now.isoformat(),
+                         'payloadKeys': sorted(payload),
+                         'transcriptPath': payload.get('transcript_path')})
+    save(observation_path, observations[-32:])
     path = home / 'controller-sessions' / (session + '.json')
     state = json.loads(path.read_text()) if path.exists() else None
     prompt = payload.get('prompt', '')
+    recovered = False
+    if not state and event in ['Stop', 'Interrupt']:
+        recovered_prompt = scheduled_prompt(payload, root)
+        if recovered_prompt:
+            prompt = recovered_prompt
+            recovered = True
     # Desktop scheduled messages can prepend an automation name/memory header.
-    starts = event == 'UserPromptSubmit' and MARKER in prompt.splitlines()[:32]
+    starts = (event == 'UserPromptSubmit' or recovered) and MARKER in prompt.splitlines()[:32]
     if not state and not starts:
         return {}  # Other conversations in the same repository are unaffected.
     if event == 'Interrupt':
+        if not state and recovered:
+            state = {'sessionId': session, 'root': str(root),
+                     'date': now.date().isoformat(), 'continuations': 0}
         if state:
             state.update(status='user-interrupted', updatedAt=now.isoformat())
             save(path, state)
@@ -94,8 +146,9 @@ def handle(payload, home=HOME, root=ROOT, run=command, now=None):
             context = 'Daily assignment planning failed; repair it before reviewing: ' + output
         else:
             context = f'Automatic continuation controller armed for {day}. Use that saved assignment date throughout this run.'
-        return {'hookSpecificOutput': {'hookEventName': 'UserPromptSubmit',
-                                      'additionalContext': context}}
+        if not recovered:
+            return {'hookSpecificOutput': {'hookEventName': 'UserPromptSubmit',
+                                          'additionalContext': context}}
     if event != 'Stop':
         return {}
     code, output = run('check', state['date'])
