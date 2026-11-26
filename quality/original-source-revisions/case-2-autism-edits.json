@@ -1,0 +1,140 @@
+{
+  "pageFile": "rational-thought/case-2-autism/index.html",
+  "wordpressId": 5112,
+  "snapshot": "case-2-autism-wordpress-5112.html",
+  "sourceUrl": "http://byteseismic.com/2024/04/04/case-2-autism/",
+  "sourceLabel": "Original WordPress conversation, 2024-04-04",
+  "shellRevision": "6b5fb4df56e85247bc7cd169f1f9d7aa80b5c509",
+  "date": "2026-11-26",
+  "sourceSha256": "1361e97fc7f01862c6eb7f31cec2f631dcd03ac5f1f45b68d11b5252ae941e56",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "It was once thought that autism was caused by poor parenting. Provide a comprehensive chronological account of the causes introduced to explain autism from then to now.",
+    "As each incorrect cause of autism was introduce, what might the public have done to keep from credulously accepting the new cause as gospel?",
+    "Andrew Wakefield was a single scientist. How was he able to capture the minds of such a large percentage of the public?",
+    "What other false “discoveries” have followed the same general trajectory as the Wakefield hoax?",
+    "The bulk of the relevant scientific community seems to be silent and disinterested during hoaxes such as those you listed. Should this silent majority speak out more to counter the distortions from frauds and sensational media outlets?",
+    "Create a 10-item quiz on the entire thread above.  ",
+    "Provide 15 discussion questions relevant to the content above. "
+  ],
+  "introHeading": "Case #2 &#8211; Autism",
+  "intro": "These seven exchanges trace explanations of autism, examine the MMR controversy, and ask how scientists and the public should respond to weak or misleading claims. The original prompts and separate ChatGPT and Gemini responses are retained. Chronology, causal distinctions, analogies, and both quiz keys have been corrected.",
+  "description": "Autism, causal evidence, and misinformation: corrected historical timelines, the MMR controversy, two ten-question quizzes, and thirty discussion questions.",
+  "highlights": [],
+  "replacements": {
+    "1.1.0": "This is a selective chronology of influential explanations, diagnostic changes, and research directions, not an exhaustive catalogue of every proposed cause. Changes in diagnostic labels must be distinguished from evidence about causation.",
+    "1.1.2": "<strong>Introduction:</strong> Leo Kanner’s influential 1943 report described eleven children. Although he discussed parental characteristics, he also explicitly proposed an innate condition. Later parent-blaming accounts, including those popularized by Bruno Bettelheim, should not be presented as the report’s sole explanation. <a href=\"https://neurodiversity.net/library_kanner_1943.pdf\">Kanner’s original paper</a> makes the tension visible.",
+    "1.1.9": "<strong>Broadening understanding:</strong> Research and diagnostic practice increasingly recognized varied presentations and support needs. Spectrum classifications concern how autism is described and diagnosed; they are not themselves causal explanations.",
+    "1.1.11": "<strong>Origins:</strong> The 1998 Lancet report by Wakefield and colleagues described twelve children without a comparison group. It raised a suggested temporal association involving MMR, bowel symptoms, and developmental regression; its design could not establish that vaccination caused autism.",
+    "1.1.13": "<strong>Retraction and evidence:</strong> The Lancet fully retracted the paper in 2010 after findings of serious misconduct. Large controlled studies independently found no increased autism risk after MMR, including a <a href=\"https://pubmed.ncbi.nlm.nih.gov/30831578/\">2019 Danish cohort of 657,461 children</a>. The paper’s invalidity and the positive body of vaccine-safety evidence are distinct reasons to reject the claim.",
+    "1.1.16": "<strong>Environmental research:</strong> Researchers examine prenatal and perinatal influences alongside genetic variation. A statistical risk association does not establish an individual cause. The <a href=\"https://www.who.int/news/item/11-12-2025-statement-gacvs-vaccines-autism\">WHO vaccine-safety review</a> concludes that high-quality evidence indicates vaccines do not cause autism.",
+    "1.1.17": "<strong>Neurodiversity:</strong> This social and ethical perspective emphasizes autistic people’s dignity, participation, and differing needs. It is not a causal theory and does not preclude substantial disability, treatment of co-occurring conditions, or individualized support.",
+    "1.2.0": "Here is a condensed chronology. The original decade labels have been corrected; diagnostic concepts, hypotheses, and evidence are distinguished:",
+    "1.2.1": "<strong>Early twentieth century:</strong> “Autism” initially appeared in descriptions of schizophrenia. That older usage is not identical to today’s neurodevelopmental diagnosis, and it does not establish a 1930s refrigerator-mother explanation.",
+    "1.2.2": "<strong>1940s:</strong> Kanner’s 1943 report described early childhood autism and explicitly distinguished its developmental pattern from schizophrenia, though later diagnostic practice sometimes conflated the conditions.",
+    "1.2.3": "<strong>1950s–1960s:</strong> Parent-blaming psychogenic explanations gained influence and caused harm. They did not establish that emotional coldness caused autism.",
+    "1.2.4": "<strong>1960s:</strong> Bernard Rimland challenged psychogenic explanations and argued for biological origins. This was part of a developing research program, not the discovery of one universal cause.",
+    "1.2.5": "<strong>1970s:</strong> Twin research strengthened evidence for a genetic contribution. Wakefield’s MMR paper belongs to 1998, not this decade.",
+    "1.2.6": "<strong>1980s:</strong> Autism received a distinct diagnostic category in DSM-III, and biological and developmental research expanded. Diagnostic recognition itself did not identify a cause.",
+    "1.2.7": "<strong>1990s:</strong> Genetic investigation expanded; in 1998 Wakefield and colleagues published the subsequently retracted MMR report. The report did not establish a causal link.",
+    "1.2.8": "<strong>2000s onward:</strong> Research identified diverse common and rare genetic contributions and investigated non-genetic developmental influences. No single explanation fits every autistic person. Large vaccine studies and evidence reviews reject a causal vaccine–autism link.",
+    "2.1.2": "<strong>Multiple sources:</strong> Look for independent studies and systematic reviews, not merely several outlets repeating the same report. Give views weight according to evidence and relevant expertise rather than treating every dissenting opinion as equally supported.",
+    "2.1.4": "<strong>Peer review and replication:</strong> Peer review checks a manuscript but cannot guarantee truth or detect all misconduct. Ask whether the design can test causation, whether independent groups reproduce the finding, and whether the broader evidence supports it.",
+    "2.1.10": "<strong>Evidence syntheses:</strong> Consult health organizations and inspect the evidence they cite, including study quality and uncertainty. Institutional status is a useful guide, not a replacement for justification; disagreements should be evaluated against the underlying research.",
+    "2.1.17": "These practices reduce vulnerability without requiring every parent to become a researcher. Clinicians, journals, institutions, and journalists also carry responsibility for communicating evidence clearly. Families deserve support rather than retrospective blame for misleading claims promoted by trusted professionals.",
+    "2.2.2": "<strong>Parent-blaming theories, especially mid-twentieth century:</strong> Ask whether parenting differences were measured fairly, whether comparison groups existed, and whether the proposed cause preceded the child’s differences. A clinician’s impression cannot establish causation.",
+    "2.2.4": "<strong>Wakefield’s 1998 MMR report:</strong> Publication in a prestigious journal was not enough. A twelve-child case series without controls could not establish a causal association. Undisclosed litigation-related interests were also relevant, but methodological defects must be evaluated independently of motives.",
+    "2.2.6": "<strong>Childhood schizophrenia:</strong> Ask whether the labels describe the same developmental pattern. A historical diagnostic classification is not a demonstrated causal link between two conditions.",
+    "2.2.8": "<strong>Single-factor explanations:</strong> Ask whether evidence supports a cause for a defined subgroup or a claim about all autism. Some genetic conditions have strong associations, but heterogeneity makes universal one-cause accounts unreliable.",
+    "2.2.10": "<strong>New theories:</strong> Match confidence to the evidence. Consensus based on independent research is informative; waiting for unanimity is unnecessary, and an untested possibility should not be treated as a demonstrated danger.",
+    "3.1.0": "Wakefield was a prominent advocate, but the paper had multiple authors and appeared through a respected medical institution and journal. Its reach depended on amplification by media, advocates, and later online communities. The prompt does not provide a measured percentage of the public, so the explanation below identifies mechanisms rather than quantifying their contribution.",
+    "3.1.7": "4. Evidence and Communication Lag",
+    "3.1.8": "Criticism and research responses did occur. The 1998 report never constituted a scientific consensus for causation; larger epidemiological studies and public communication took time to accumulate and reach different audiences. A gap in visibility should not be equated with an absence of scientific concern.",
+    "3.1.10": "Wakefield actively promoted the proposed link and presented himself as challenging established advice. Public visibility and a clear narrative can amplify a claim independently of its evidential strength; “charisma” is an interpretation, not a measured cause here.",
+    "3.1.14": "News coverage and early online forums helped circulate the claim; later social-media networks sustained it. Modern platforms should not be projected backward as the primary mechanism of its initial 1998 spread.",
+    "3.2.0": "Wakefield was one influential person, but the report had coauthors and institutional amplification. Several mechanisms can explain its reach without assuming that a lone scientist independently persuaded a measured share of the public:",
+    "3.2.1": "<strong>1. Media attention:</strong> A vivid claim about children attracted coverage. Reporting varied, and publicity could make a weak hypothesis appear comparable to a much larger body of evidence.",
+    "3.2.2": "<strong>2. Pre-existing anxieties:</strong> Parents reasonably care about vaccine safety. MMR uses weakened viruses, but vaccines differ in how they work. The timing of developmental concerns near routine vaccination can create a misleading impression of causation.",
+    "3.2.4": "<strong>4. Difficulty evaluating evidence:</strong> A prestigious journal and clinical testimony can obscure the limitations of an uncontrolled case series. Scientific literacy helps, but institutions and communicators must also make those limitations understandable.",
+    "4.1.0": "The original examples below share some features of public controversy, but they are not all fraudulent discoveries or close parallels to Wakefield. Distinguish deliberate deception, unsupported causal claims, unresolved research questions, and ordinary correction of mistaken theories.",
+    "4.1.3": "<strong>Evidence:</strong> Large human studies have not established that ordinary cell-phone use causes cancer. Radiofrequency radiation is non-ionizing, but that fact alone cannot decide every biological question. <a href=\"https://www.cancer.gov/about-cancer/causes-prevention/risk/radiation/cell-phones-fact-sheet\">The National Cancer Institute summarizes the evidence and limitations</a>. This is not evidence that investigating the question was a hoax.",
+    "4.1.6": "<strong>Evidence:</strong> Some studies have found an association between relatively high residential extremely low-frequency magnetic-field exposure and childhood leukemia, while a causal relationship has not been established. <a href=\"https://www.cancer.gov/about-cancer/causes-prevention/risk/radiation/electromagnetic-fields-fact-sheet\">NCI discusses the unresolved evidence</a>. Calling the entire question “largely debunked” or fraudulent overstates what follows.",
+    "4.1.9": "<strong>Outcome:</strong> DHMO is a misleading scientific-sounding name for ordinary water. Such demonstrations show how framing can exploit missing context; they are rhetorical hoaxes rather than medical discoveries or evidence of widespread public panic.",
+    "4.1.12": "<strong>Evidence:</strong> Studies do not support vaccines causing SIDS. Routine vaccination and SIDS occur during overlapping ages, so temporal proximity alone is misleading. Observed lower SIDS rates among vaccinated infants should not automatically be interpreted as a protective causal effect. <a href=\"https://www.cdc.gov/vaccine-safety/about/sids.html\">CDC evidence summary</a>.",
+    "4.1.15": "<strong>Outcome:</strong> Ordinary contrails are ice-crystal clouds formed under suitable atmospheric conditions. Their persistence is not evidence of a covert spraying program. This is a conspiracy narrative, not a retracted clinical study.",
+    "4.1.18": "<strong>Evidence:</strong> Gluten and casein have not been established as causes of autism. Treating a diagnosed allergy, celiac disease, or another gastrointestinal condition is a different question from treating autism itself; dietary restrictions should not be justified by conflating them. <a href=\"https://www.who.int/news-room/questions-and-answers/item/autism-spectrum-disorders-%28asd%29\">WHO’s autism overview</a>.",
+    "4.1.19": "The comparison is useful only when these differences remain explicit. Unsupported assertions, unresolved associations, and documented misconduct require different responses. Similar media dynamics do not establish identical scientific or ethical failings.",
+    "4.2.0": "These three original examples illustrate different forms of scientific correction, not three established replicas of the Wakefield fraud:",
+    "4.2.1": "<strong>Cold fusion:</strong> Fleischmann and Pons announced an electrochemical nuclear-fusion claim in 1989. Independent investigators did not establish reliable reproduction of the claimed phenomenon. Failed replication undermined the claim; it did not by itself demonstrate deliberate fraud or that all room-temperature nuclear processes violate physics.",
+    "4.2.2": "<strong>Water memory:</strong> A 1988 report associated with Jacques Benveniste claimed biological effects after extreme dilution. Follow-up scrutiny did not establish the claimed reliable effect. This concerns a specific experimental claim, not proof that water retains therapeutically useful memories.",
+    "4.2.3": "<strong>Peptic ulcers:</strong> Evidence for Helicobacter pylori displaced much earlier emphasis on ordinary stress and diet; nonsteroidal anti-inflammatory drugs are another major cause. This is a case of improved causal understanding, not evidence that the old theory was a deliberate hoax. <a href=\"https://www.niddk.nih.gov/health-information/digestive-diseases/peptic-ulcers-stomach-ulcers/symptoms-causes\">NIDDK’s account of causes</a>.",
+    "4.2.4": "The analogies are limited. The following mechanisms can occur in scientific controversies but should not be attributed identically to every example:",
+    "4.2.5": "<strong>Sensational claims:</strong> Simple or dramatic explanations can attract attention before evidence is mature.",
+    "4.2.6": "<strong>Media attention:</strong> Publicity can outpace independent validation; the details vary by case.",
+    "4.2.7": "<strong>Public concerns:</strong> Health worries and hopes for new energy sources can increase attention without making the public irrational.",
+    "4.2.8": "<strong>Independent scrutiny:</strong> Controls, replication, and competing explanations help distinguish an exciting hypothesis from a dependable finding.",
+    "4.2.11": "<strong>Retraction:</strong> A journal may retract a paper when its findings are unreliable or serious misconduct or ethical problems undermine it. Retraction is not just a weakening of an argument, and absence of retraction is not proof that a result is sound.",
+    "5.1.2": "Public engagement can support trust when experts explain evidence, acknowledge uncertainty, correct their own mistakes, and listen to concerns. Simply speaking more loudly or asserting authority is not enough.",
+    "5.1.16": "Scientists and institutions should communicate more effectively, with protected time, training, and clear responsibility for corrections. The aim is not to make every researcher a media debater: trusted clinicians, specialist societies, journalists, and autistic people and families can help communicate evidence while respecting lived needs.",
+    "5.2.0": "Scientists should address consequential misinformation, but the premise that most were silent or disinterested has not been established. A weak public communication response can coexist with active research and criticism. Possible obstacles include:",
+    "5.2.12": "A practical response is to identify the claim, state the best-supported conclusion, link to the underlying evidence, explain why the misleading inference fails, and provide a way to ask follow-up questions. Institutions should support this work and distinguish emerging uncertainty from established misconduct.",
+    "6.1.1": "Who published the influential 1943 report describing eleven children with early autistic features?",
+    "6.1.7": "Why could an uncontrolled twelve-child case series not establish that MMR caused autism?",
+    "6.1.8": "What kind of radiation do cell phones emit, and does that classification alone settle all cancer-risk questions?",
+    "6.1.18": "Without a suitable comparison group it cannot establish whether autism occurs more often after MMR than otherwise; a temporal sequence alone does not prove causation.",
+    "6.1.19": "Non-ionizing radiofrequency radiation. Its classification helps explain mechanisms, but epidemiological and experimental evidence must also be assessed.",
+    "6.1.20": "To demonstrate misleading framing and missing context: dihydrogen monoxide is water.",
+    "6.2.5": "Which example involved a 1989 claim of electrochemical nuclear fusion that was not reliably reproduced?",
+    "6.2.8": "What is the term for a journal’s formal withdrawal of a paper from the reliable scientific record because of serious problems?",
+    "6.2.9": "Which historical diagnostic category was sometimes conflated with early childhood autism?",
+    "6.2.13": "The 1990s: the paper appeared in 1998 and was fully retracted in 2010.",
+    "6.2.21": "Autism has diverse genetic contributions and other developmental influences; no single cause explains every case, and vaccines do not cause autism.",
+    "7.1.9": "How do documented fraud, failed replication, and revision of an older causal theory differ? What happens to public trust when these are all called hoaxes?",
+    "7.2.11": "How can open discussions about neurodevelopmental differences and mental health avoid conflating distinct conditions or stigmatizing autistic people?"
+  },
+  "countChecks": [
+    {
+      "name": "ten question quizzes and ten answer keys",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "fifteen discussion questions per model",
+      "selector": "#prompt-7 .original-response > ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    },
+    {
+      "name": "prompt-6 ordered list sizes",
+      "selector": "#prompt-6 .original-response ol",
+      "child": "li",
+      "expected": [
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "prompt-7 ordered list sizes",
+      "selector": "#prompt-7 .original-response ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    }
+  ]
+}

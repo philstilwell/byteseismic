@@ -1,0 +1,102 @@
+{
+  "pagePath": "/economics/ai-the-future-of-work/",
+  "sourceSha256": "5d830cd51ae1c9c8c79f408c4a6b805f134485240bb8ca0f531d5d6a58447423",
+  "originalPrompts": 5,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 6,
+  "sourceColumns": 16,
+  "modelResponses": 16,
+  "blocksRetainedVerbatim": 294,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 65,
+  "bareAnswersExplicitlyRevised": 4,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "prompt-2 ordered lists": [
+      3,
+      2,
+      3,
+      1,
+      1,
+      1,
+      1,
+      4,
+      4
+    ],
+    "prompt-3 ordered lists": [
+      10
+    ],
+    "prompt-4 ordered lists": [
+      5,
+      8
+    ],
+    "prompt-6 ordered lists": [
+      15,
+      15,
+      15
+    ]
+  },
+  "sha256": "6021ca8011a182fc49c9bc19c82ecac8e1a78e39478723b31907f68cc655a432",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "AI &amp; the Future of Work",
+  "queueTitle": "AI &amp; the Future of Work",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "response",
+    "list item",
+    "quiz answer"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 396,
+    "ranges": [
+      [
+        1,
+        396
+      ]
+    ],
+    "complete": true,
+    "indexFile": "quality/original-source-revisions/ai-the-future-of-work-reading-index-2026-11-26.txt",
+    "readingPassNotes": [
+      "1-125 (first four biography nodes plus previously read assessment/careers, with numbering updated after preamble recovery)",
+      "126-255",
+      "256-395",
+      "396 full Gemini bare-text quiz"
+    ]
+  },
+  "currentArticleReadingCoverage": {
+    "indexedLines": 398,
+    "ranges": [
+      [
+        1,
+        398
+      ]
+    ],
+    "complete": true,
+    "snapshot": "quality/original-source-revisions/ai-the-future-of-work-before-review-2026-11-26.html",
+    "sha256": "e5f785a78f2046776e316881739170b692b41bd7b7aaf48ef892474c2f09624d",
+    "readingPassNotes": [
+      "1-180",
+      "181-398"
+    ]
+  },
+  "isolatedBuildVerified": true,
+  "verifiedAt": "2026-11-26T15:22:39.370768-05:00",
+  "primarySourcesChecked": [
+    "https://www.palladiummag.com/2024/05/17/my-last-five-years-of-work/",
+    "https://journals.sagepub.com/doi/10.1177/07308884221129520",
+    "https://law.yale.edu/sites/default/files/documents/pdf/Intellectual_Life/Stevenson_ParadoxDecliningFemaleHappiness_Dec08.pdf"
+  ],
+  "additionalFormatChecks": [
+    "One background response plus five3-model sections;30quiz questions/expandableanswers;45discussionquestions;curator essay URL preserved."
+  ],
+  "limitations": [
+    "Article and biography evaluated as published May2024; no claim to verify current employment or predict an actual post-work date."
+  ],
+  "isolatedBuildRecord": "quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json"
+}

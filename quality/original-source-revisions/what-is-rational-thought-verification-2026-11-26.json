@@ -1,0 +1,129 @@
+{
+  "pagePath": "/rational-thought/what-is-rational-thought/",
+  "sourceSha256": "5d1a775649ca87c41cc93275946a84715f3704828e31f4bfb4067e2e554dcc5c",
+  "originalPrompts": 9,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 9,
+  "sourceColumns": 18,
+  "modelResponses": 18,
+  "blocksRetainedVerbatim": 229,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 51,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": false,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [
+    "8.2"
+  ],
+  "formatChecks": {
+    "prompt-1 ordered lists": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "prompt-2 ordered lists": [
+      10,
+      8
+    ],
+    "prompt-3 ordered lists": [
+      10
+    ],
+    "prompt-4 ordered lists": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "prompt-5 ordered lists": [
+      8
+    ],
+    "prompt-6 ordered lists": [
+      4,
+      5
+    ],
+    "prompt-7 ordered lists": [
+      12,
+      10
+    ],
+    "prompt-8 ordered lists": [
+      10,
+      10,
+      10,
+      8,
+      2
+    ],
+    "prompt-9 ordered lists": [
+      15,
+      15
+    ]
+  },
+  "sha256": "0a4c4ba4040fcc55cd7521089b3e6d39fe1007e36f1db550491b9c9000c35538",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "What is Rational Thought?",
+  "queueTitle": "What is Rational Thought?",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "response",
+    "list item"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 289,
+    "ranges": [
+      [
+        1,
+        289
+      ]
+    ],
+    "complete": true,
+    "indexFile": "quality/original-source-revisions/what-is-rational-thought-reading-index-2026-11-26.txt",
+    "readingPassNotes": [
+      "1-145",
+      "146-289",
+      "238-272 reread after output truncation"
+    ]
+  },
+  "currentArticleReadingCoverage": {
+    "indexedLines": 574,
+    "ranges": [
+      [
+        1,
+        574
+      ]
+    ],
+    "complete": true,
+    "snapshot": "quality/original-source-revisions/what-is-rational-thought-before-review-2026-11-26.html",
+    "sha256": "2b2ab9a606564124574c311e8a94d4a008997859b9258bc6119fdde98e818fb0",
+    "readingPassNotes": [
+      "1-200",
+      "201-400",
+      "401-574"
+    ]
+  },
+  "isolatedBuildVerified": true,
+  "verifiedAt": "2026-11-26T15:22:39.370768-05:00",
+  "primarySourcesChecked": [
+    "https://www.philosophizethis.org/home",
+    "https://thecrashcourse.com/topic/philosophy/",
+    "https://www.coursera.org/learn/understanding-arguments",
+    "https://www.coursera.org/specializations/logic-critical-thinking-duke",
+    "https://news.yale.edu/2022/10/05/bias-brain-yale-psychologist-examines-common-thinking-problems"
+  ],
+  "additionalFormatChecks": [
+    "Nine prompts/eighteen responses; two10-question quizzes; ChatGPT10keys, Gemini8original+2explicit editorial completions; two15-discussion sets."
+  ],
+  "limitations": [
+    "Scriven/Wander title and Chinese podcast could not be confirmed; text explicitly says unverified rather than nonexistent."
+  ],
+  "isolatedBuildRecord": "quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json"
+}

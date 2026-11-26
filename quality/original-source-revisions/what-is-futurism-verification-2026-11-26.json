@@ -1,0 +1,121 @@
+{
+  "pagePath": "/rational-thought/what-is-futurism/",
+  "sourceSha256": "f456f741ed8f6208533f551166c88b5fad9b765cbb5921e0e046301c85b3fc6a",
+  "originalPrompts": 7,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 7,
+  "sourceColumns": 14,
+  "modelResponses": 14,
+  "blocksRetainedVerbatim": 155,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 54,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "prompt-1 ordered lists": [
+      5
+    ],
+    "prompt-2 ordered lists": [
+      3,
+      1,
+      1,
+      1
+    ],
+    "prompt-3 ordered lists": [
+      7
+    ],
+    "prompt-4 ordered lists": [
+      10
+    ],
+    "prompt-5 ordered lists": [
+      8
+    ],
+    "prompt-6 ordered lists": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      10,
+      10,
+      10
+    ],
+    "prompt-7 ordered lists": [
+      15,
+      15
+    ]
+  },
+  "sha256": "9e240e0472795d35b9ccd380112265bf92d3119639d1efd7edcb596f43f2125a",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "What is Futurism?",
+  "queueTitle": "What is Futurism?",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "response",
+    "list item"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 216,
+    "ranges": [
+      [
+        1,
+        216
+      ]
+    ],
+    "complete": true,
+    "indexFile": "quality/original-source-revisions/what-is-futurism-reading-index-2026-11-26.txt",
+    "readingPassNotes": [
+      "1-155",
+      "156-216"
+    ]
+  },
+  "currentArticleReadingCoverage": {
+    "indexedLines": 491,
+    "ranges": [
+      [
+        1,
+        491
+      ]
+    ],
+    "complete": true,
+    "snapshot": "quality/original-source-revisions/what-is-futurism-before-review-2026-11-26.html",
+    "sha256": "9813bb3d1f4a3a12bcb98f19c23e2a9716d0561fb6a496d4523fa63a239c2318",
+    "readingPassNotes": [
+      "1-491",
+      "215-235 reread after bounded-output truncation"
+    ]
+  },
+  "isolatedBuildVerified": true,
+  "verifiedAt": "2026-11-26T15:22:39.370768-05:00",
+  "primarySourcesChecked": [
+    "https://www.hdcs.uh.edu/programs/graduate/foresight",
+    "https://www.utu.fi/en/study-at-utu/masters-degree-programme-in-futures-studies",
+    "https://www.fu-berlin.de/studium/studienangebot/master/zukunftsforschung/index.html",
+    "https://english.tku.edu.tw/doc/2024-2025TKUcatalog.pdf",
+    "https://www.swinburne.edu.au/downloads/Postgraduate-Degrees_and_Pathways_International_Course_Guide_2026.pdf",
+    "https://www.regent.edu/program/dsl-strategic-foresight/",
+    "https://uwaterloo.ca/future-graduate-students/programs",
+    "https://ftsg.com/company/",
+    "https://futuristgerd.com/2026/04/introducing-my-new-brand-advocate-for-the-human-future-public-thinker-gerd-tv/",
+    "https://www.xprize.org/people/peter-h-diamandis-m-d",
+    "https://www.penguinrandomhouse.com/books/89410/hyperspace-by-michio-kaku/"
+  ],
+  "additionalFormatChecks": [
+    "Seven prompts, fourteen responses; both quiz sets retain ten questions and ten matching keys; both discussion lists retain fifteen items."
+  ],
+  "limitations": [
+    "Unavailable Waterloo degree is identified as unconfirmed, not proven never to have existed; historical and current university titles explicitly distinguished."
+  ],
+  "isolatedBuildRecord": "quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json"
+}

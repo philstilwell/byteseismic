@@ -1,0 +1,161 @@
+{
+  "pageFile": "rational-thought/what-is-futurism/index.html",
+  "wordpressId": 3606,
+  "snapshot": "what-is-futurism-wordpress-3606.html",
+  "sourceUrl": "http://byteseismic.com/2024/03/13/what-is-futurism/",
+  "sourceLabel": "Original WordPress conversation, 2024-03-13",
+  "shellRevision": "6b5fb4df56e85247bc7cd169f1f9d7aa80b5c509",
+  "date": "2026-11-26",
+  "sourceSha256": "f456f741ed8f6208533f551166c88b5fad9b765cbb5921e0e046301c85b3fc6a",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "What is futurism, and how is it connected to philosophy?",
+    "Futurism seems quite similar to forecasting. How are they related?",
+    "What universities offer degrees in futurism or something similar?",
+    "What tools of rationality are essential for those wanting to become a quality futurist or forecaster?",
+    "Which groups or individuals are considered to be the top futurists today?",
+    "Create a 10-item quiz on the discussion above with answers at the end. ",
+    "Provide 15 discussion questions relevant to the content above. "
+  ],
+  "introHeading": "What is Futurism?",
+  "intro": "Futures studies explores possible, probable, and preferred futures. These seven exchanges distinguish that work from forecasting, examine training and reasoning tools, and introduce public figures without treating prominence as evidence of predictive accuracy. Both original ten-question quizzes and fifteen-question discussion lists are retained.",
+  "description": "Futures studies and forecasting: philosophical questions, verified training examples, reasoning tools, public figures, quizzes, and discussion.",
+  "highlights": [
+    "A possible scenario, a probable outcome, and a preferred future make different claims.",
+    "Forecasting and foresight overlap; neither is confined to one time horizon.",
+    "University credentials and public reputations require verification rather than repetition."
+  ],
+  "replacements": {
+    "1.1.0": "Futurism here means futures studies or strategic foresight, not the early twentieth-century artistic movement. It draws on economics, sociology, technology, politics, and other fields to investigate possible developments and how present choices could shape them. Distinguish possible futures from forecasts of likely outcomes and from preferred futures: imagining a scenario neither assigns it a probability nor makes it desirable.",
+    "1.1.2": "<strong>Epistemology and methodology:</strong> What evidence supports a forecast, which assumptions does it require, and how could its accuracy be tested? Knowledge about present trends can support conditional expectations without giving certain knowledge of future events.",
+    "1.1.4": "<strong>Ontology:</strong> Emerging technologies and social arrangements may challenge categories such as person, institution, or agency. Exploring alternative scenarios does not establish that parallel realities exist.",
+    "1.1.6": "<strong>Philosophy of time:</strong> Questions about change, contingency, and the consequences of action can inform futures thinking. Practical scenario analysis need not resolve metaphysical debates about whether the future is already fixed.",
+    "1.2.0": "Futurism is an umbrella term rather than one predictive science. Some methods use empirical models and testable forecasts; others explore scenarios or values. Their standards of appraisal differ. In this conversation the term means studying future possibilities, not the artistic movement. Its philosophical connections include:",
+    "1.2.2": "<strong>Free will:</strong> Questions about determinism and choice may arise, but successful prediction does not itself establish determinism or settle responsibility. Futures studies can examine consequences of decisions without resolving that debate.",
+    "1.2.3": "<strong>The ethics of prediction:</strong> Who benefits from a forecast, who bears the risk of error, and could publishing it change the outcome? These questions concern both evidence and responsible action.",
+    "2.1.0": "Futures studies and forecasting overlap. Forecasting estimates specified outcomes under stated conditions; foresight also explores alternative futures and choices. Prediction markets are one forecasting method, alongside statistical models, expert judgment, and other approaches.",
+    "2.1.11": "Forecasting seeks useful, assessable estimates at defined horizons, which may be short or long. Prediction markets aggregate participants’ judgments, but performance depends on information, participation, incentives, and how a question resolves. They do not automatically outperform every expert or model.",
+    "2.1.14": "Forecasting distinguishes an estimate of what may happen from a judgment about what should happen. That distinction does not make the activity ethically neutral: question selection, data use, unequal risks, and the effects of publication all matter.",
+    "2.1.15": "The useful distinction is purpose rather than a rigid boundary of time or method. A forecast estimates an outcome; scenario work examines alternatives and choices, sometimes using forecasts as inputs. Both need explicit assumptions and an honest account of uncertainty.",
+    "2.2.7": "<strong>Methods:</strong> Forecasts can use statistical analysis, expert judgment, or a combination. Quantitative results still depend on qualitative decisions about data, assumptions, and the question being asked.",
+    "2.2.8": "<strong>Uncertainty:</strong> Useful forecasts report probabilities or intervals where justified. A bare point estimate does not communicate uncertainty, and a numerical probability is not automatically well calibrated.",
+    "2.2.10": "The approaches complement each other at both short and long horizons. For example, a forecast may estimate energy demand in 2040 while scenario analysis examines how a plan fares under several demand and policy conditions.",
+    "3.1.0": "Universities offer futures studies and related courses, degrees, and professional concentrations, but these credentials are not interchangeable. The entries below distinguish confirmed programs from corrections to the original list; consult the linked university information for current availability.",
+    "3.1.1": "<strong>University of Houston:</strong> Its <a href=\"https://www.hdcs.uh.edu/programs/graduate/foresight\">Master of Science in Foresight</a> is a dedicated graduate program. Confirm current departmental arrangements and certificate options directly rather than relying on the original College of Technology attribution.",
+    "3.1.2": "<strong>Tamkang University:</strong> Its <a href=\"https://english.tku.edu.tw/doc/2024-2025TKUcatalog.pdf\">2024–2025 catalog</a> describes futures education and a master’s program in futures studies. This does not support the original claim that it offers bachelor’s, master’s, and doctoral degrees all titled Futures Studies.",
+    "3.1.3": "<strong>Swinburne University of Technology:</strong> Earlier official materials describe a Master of Design Strategy and Innovation including futures forecasting. The <a href=\"https://www.swinburne.edu.au/downloads/Postgraduate-Degrees_and_Pathways_International_Course_Guide_2026.pdf\">2026 guide</a> instead describes a Master of Design with design innovation and strategy options. Treat the earlier title as historical unless current admissions information confirms it.",
+    "3.1.4": "<strong>Regent University:</strong> Its <a href=\"https://www.regent.edu/program/dsl-strategic-foresight/\">Doctor of Strategic Leadership with a Strategic Foresight concentration</a> includes scenario learning and organizational strategy, taught from a Christian perspective. It is a professional leadership degree rather than a general doctorate titled Futures Studies.",
+    "3.1.5": "<strong>Aalto University:</strong> The original attribution of the Finland Futures Research Centre to Aalto is incorrect. That centre belongs to the University of Turku; do not infer an Aalto degree from the mistaken affiliation.",
+    "3.1.6": "<strong>University of Turku:</strong> Its <a href=\"https://www.utu.fi/en/study-at-utu/masters-degree-programme-in-futures-studies\">Master’s Degree Programme in Futures Studies</a> leads to a Master of Social Sciences and is based at the Finland Futures Research Centre in Turku School of Economics.",
+    "3.1.7": "<strong>Freie Universität Berlin:</strong> Its <a href=\"https://www.fu-berlin.de/studium/studienangebot/master/zukunftsforschung/index.html\">Zukunftsforschung master’s program</a> addresses futures research. Consult the university for current entry requirements and teaching arrangements.",
+    "3.2.0": "There are dedicated foresight degrees as well as related courses and concentrations. The original three entries need the following qualifications:",
+    "3.2.1": "<strong>University of Houston:</strong> The <a href=\"https://www.hdcs.uh.edu/programs/graduate/foresight\">Master of Science in Foresight</a> is confirmed. The claim that it is one of only a dozen such programs worldwide is not established here and should not guide a comparison.",
+    "3.2.2": "<strong>University of Waterloo:</strong> The claimed MA in Imagination, Cognition, and Culture with a Futures Studies specialization could not be confirmed in the <a href=\"https://uwaterloo.ca/future-graduate-students/programs\">official graduate program directory</a>. It should not be presented as an available degree. This finding does not rule out individual courses or research related to futures.",
+    "3.2.3": "<strong>University of Helsinki:</strong> The original named degree is misattributed: the confirmed <a href=\"https://www.utu.fi/en/study-at-utu/masters-degree-programme-in-futures-studies\">Master’s Degree Programme in Futures Studies is at Turku</a>. Helsinki incorporates futures concepts in some related study, which is different from offering that degree.",
+    "4.1.4": "<strong>Quantitative analysis:</strong> Check data quality, units, base rates, and model assumptions. Test forecasts on outcomes that were not used to fit the model, and compare performance with simple reference forecasts. More data or decimal places alone does not establish accuracy.",
+    "4.1.5": "<strong>Bayesian thinking:</strong> Update a prior probability using how likely the new evidence is under competing hypotheses. The result depends on the prior, likelihood model, and reliability of evidence; updating is not a guarantee of improvement. Record assumptions and avoid counting dependent evidence twice.",
+    "4.1.10": "<strong>Communication:</strong> State the event, horizon, assumptions, uncertainty, and what would change the estimate. Distinguish a compelling scenario from a measured probability; persuasion is not the same as predictive success.",
+    "4.2.1": "<strong>Critical thinking:</strong> Check sources, seek contrary evidence, and compare alternative explanations. No method makes a person bias-free; written forecasts and later evaluation make mistakes easier to detect.",
+    "4.2.2": "<strong>Probabilistic thinking:</strong> Use base rates and explicit probabilities where justified, then track outcomes. Calibration asks whether events assigned a given probability occur about that often across many comparable forecasts; a single correct prediction cannot establish it.",
+    "5.1.0": "There is no agreed ranking of the best futurists, and public influence is not a measured record of forecasting accuracy. These original examples illustrate different kinds of contribution, from historical interpretation and games to technology scenarios and strategic advice. Assess a particular claim by its evidence and track record.",
+    "5.1.1": "<strong>Ray Kurzweil:</strong> An inventor and author associated with predictions about artificial intelligence and technological change. He is a prominent advocate of a technological singularity, a speculative transformation involving accelerating technology, not its sole originator or the discoverer of an established future event.",
+    "5.1.5": "<strong>Amy Webb:</strong> A futurist and author who founded the organization formerly called Future Today Institute, now <a href=\"https://ftsg.com/company/\">Future Today Strategy Group</a>. Her work concerns strategic foresight and emerging technologies.",
+    "5.2.0": "No definitive ranking establishes who is best. The following public figures discuss different aspects of technological and social change; prominence and confident presentation do not prove forecast accuracy:",
+    "5.2.1": "<strong>Gerd Leonhard:</strong> A <a href=\"https://futuristgerd.com/2026/04/introducing-my-new-brand-advocate-for-the-human-future-public-thinker-gerd-tv/\">German-born futurist and humanist</a>, based in Switzerland, who writes and speaks about technology and society. His book <em>Technology vs. Humanity</em> explores ethical choices around technological change.",
+    "5.2.2": "<strong>Amy Webb:</strong> Founder of Future Today Institute, now Future Today Strategy Group. Her book is <a href=\"https://ftsg.com/company/\"><em>The Signals Are Talking: Why Today’s Fringe Is Tomorrow’s Mainstream</em></a>, not the title supplied in the original response. It concerns recognizing emerging changes and their possible implications.",
+    "5.2.3": "<strong>Peter Diamandis:</strong> An entrepreneur associated with technological innovation and space exploration. <a href=\"https://www.xprize.org/people/peter-h-diamandis-m-d\">XPRIZE identifies him as its founder</a>; the organization runs competitions intended to stimulate technological advances.",
+    "5.2.4": "<strong>Ray Kurzweil:</strong> An inventor and author associated with the technological singularity. This is a contested family of hypotheses about transformative technological change, often involving advanced AI, rather than an agreed date or a single operational threshold of intelligence.",
+    "5.2.5": "<strong>Michio Kaku:</strong> A theoretical physicist and popular science author. <a href=\"https://www.penguinrandomhouse.com/books/89410/hyperspace-by-michio-kaku/\"><em>Hyperspace</em></a> explores higher-dimensional theories and speculative implications; discussion of such possibilities does not establish practical faster-than-light travel.",
+    "5.2.6": "Compare these writers’ purposes, assumptions, evidence, and assessable predictions. Ideas that resonate can stimulate inquiry, but agreement or celebrity is not a substitute for testing claims.",
+    "6.1.12": "What distinguishes a forecast from broader exploration of possible futures?",
+    "6.1.14": "B) A forecast estimates a specified outcome under stated conditions",
+    "6.1.55": "B) A forecast estimates a specified outcome under stated conditions",
+    "6.1.27": "Who is a prominent advocate of the technological singularity?",
+    "6.2.3": "Which distinction is most useful? a) Futurism always makes narrower predictions. b) Only forecasting uses numbers. c) Forecasts can concern only the near future. d) Forecasting estimates specified outcomes; futures studies also explores alternatives and choices.",
+    "6.2.4": "Which philosophical area includes debates about determinism and free will? a) Aesthetics b) Metaphysics c) Formal grammar d) Bookkeeping",
+    "6.2.5": "Which term commonly refers to systematic exploration of future possibilities to inform present decisions? a) Strategic foresight b) Certain prophecy c) Historical transcription d) A single probability",
+    "6.2.9": "Which term describes a speculative transformative acceleration in technology, often associated with advanced AI? a) Technological Leap b) The Singularity c) The Information Age d) Moore’s Law",
+    "6.2.14": "d) Forecasting estimates specified outcomes; futures studies also explores alternatives and choices.",
+    "6.2.15": "b) Metaphysics",
+    "6.2.16": "a) Strategic foresight",
+    "7.1.14": "How can ethical reasoning shape the questions futurists ask and the decisions informed by forecasts, without confusing desirable outcomes with likely ones?",
+    "7.2.1": "<strong>Prediction and choice:</strong> Does greater predictive accuracy establish that the future is predetermined? What additional argument would be needed to connect prediction with free will or responsibility?"
+  },
+  "countChecks": [
+    {
+      "name": "prompt-1 ordered lists",
+      "selector": "#prompt-1 .original-response ol",
+      "child": "li",
+      "expected": [
+        5
+      ]
+    },
+    {
+      "name": "prompt-2 ordered lists",
+      "selector": "#prompt-2 .original-response ol",
+      "child": "li",
+      "expected": [
+        3,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "prompt-3 ordered lists",
+      "selector": "#prompt-3 .original-response ol",
+      "child": "li",
+      "expected": [
+        7
+      ]
+    },
+    {
+      "name": "prompt-4 ordered lists",
+      "selector": "#prompt-4 .original-response ol",
+      "child": "li",
+      "expected": [
+        10
+      ]
+    },
+    {
+      "name": "prompt-5 ordered lists",
+      "selector": "#prompt-5 .original-response ol",
+      "child": "li",
+      "expected": [
+        8
+      ]
+    },
+    {
+      "name": "prompt-6 ordered lists",
+      "selector": "#prompt-6 .original-response ol",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "prompt-7 ordered lists",
+      "selector": "#prompt-7 .original-response ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    }
+  ]
+}

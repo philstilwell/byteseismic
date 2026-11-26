@@ -1,0 +1,113 @@
+{
+  "pagePath": "/economics/business-risks/",
+  "sourceSha256": "13baa04f1496ad7032a81a8e0736d4882c349538b38896fc5309765de4d6454e",
+  "originalPrompts": 6,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 6,
+  "sourceColumns": 13,
+  "modelResponses": 13,
+  "blocksRetainedVerbatim": 191,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 53,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "prompt-1 ordered lists": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      7
+    ],
+    "prompt-3 ordered lists": [
+      3,
+      2,
+      3
+    ],
+    "prompt-4 ordered lists": [
+      2,
+      3,
+      3
+    ],
+    "prompt-5 ordered lists": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      7,
+      7,
+      7
+    ],
+    "prompt-6 ordered lists": [
+      15,
+      15
+    ]
+  },
+  "sha256": "69b5cc86051c44961d3f65e431ec081619164047b49dafd8de9355fa84073b53",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "Business Risks",
+  "queueTitle": "Business Risks",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "response",
+    "list item"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 250,
+    "ranges": [
+      [
+        1,
+        250
+      ]
+    ],
+    "complete": true,
+    "indexFile": "quality/original-source-revisions/business-risks-reading-index-2026-11-26.txt",
+    "readingPassNotes": [
+      "1-132 and133-234 before sibling-response recovery",
+      "35-112 after recovery; previous later sections shift by16"
+    ]
+  },
+  "currentArticleReadingCoverage": {
+    "indexedLines": 410,
+    "ranges": [
+      [
+        1,
+        410
+      ]
+    ],
+    "complete": true,
+    "snapshot": "quality/original-source-revisions/business-risks-before-review-2026-11-26.html",
+    "sha256": "0e0db153e4a1785570786e18d7132db3c58aac173a8e35b2aab5830bed42ccfd",
+    "readingPassNotes": [
+      "1-210",
+      "211-410"
+    ]
+  },
+  "isolatedBuildVerified": true,
+  "verifiedAt": "2026-11-26T15:22:39.370768-05:00",
+  "primarySourcesChecked": [
+    "https://www.fdic.gov/overview-resolution-under-title-ii-dodd-frank-act",
+    "https://www.icaew.com/library/historical-resources/timeline",
+    "https://www.lloyds.com/about-lloyds/history/lloyds-buildings",
+    "https://www.bls.gov/osmr/research-papers/2004/st040060.htm"
+  ],
+  "additionalFormatChecks": [
+    "Six prompts/thirteenresponses; allrisk categories retained; two7-questionquizzes/keys and two15-discussionlists."
+  ],
+  "limitations": [
+    "No current sector-specific ranking, failure percentage, or jurisdiction-specific compliance advice is asserted."
+  ],
+  "isolatedBuildRecord": "quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json"
+}

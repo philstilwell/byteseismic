@@ -1,0 +1,51 @@
+{
+  "source": "https://www.rug.nl/ggdc/historicaldevelopment/maddison/data/md2010_vertical.xlsx",
+  "release": 2010,
+  "units": "GDP millions of1990internationalGK dollars; percapita dollars",
+  "rows": {
+    "GDP": [
+      {
+        "Unnamed: 0": 1700.0,
+        "World Total": 371058.0
+      },
+      {
+        "Unnamed: 0": 1820.0,
+        "World Total": 693501.8
+      },
+      {
+        "Unnamed: 0": 1900.0,
+        "World Total": 1971880.5130551266
+      },
+      {
+        "Unnamed: 0": 1950.0,
+        "World Total": 5335859.970874232
+      },
+      {
+        "Unnamed: 0": 2000.0,
+        "World Total": 36688284.83559714
+      }
+    ],
+    "PerCapita GDP": [
+      {
+        "Unnamed: 0": 1700.0,
+        "World Total": 614.8536015509785
+      },
+      {
+        "Unnamed: 0": 1820.0,
+        "World Total": 665.7353304975773
+      },
+      {
+        "Unnamed: 0": 1900.0,
+        "World Total": 1261.225414024424
+      },
+      {
+        "Unnamed: 0": 1950.0,
+        "World Total": 2110.7375878729968
+      },
+      {
+        "Unnamed: 0": 2000.0,
+        "World Total": 6037.6758874956095
+      }
+    ]
+  }
+}

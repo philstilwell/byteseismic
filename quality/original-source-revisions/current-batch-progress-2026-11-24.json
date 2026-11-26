@@ -2,8 +2,8 @@
   "cycle": 8,
   "startIndex": 200,
   "pageCount": 50,
-  "reviewed": 29,
-  "pending": 21,
+  "reviewed": 49,
+  "pending": 1,
   "pages": [
     {
       "pagePath": "/metaphysics/categories-of-nihilism/",
@@ -211,102 +211,142 @@
     {
       "pagePath": "/rational-thought/ai-logic-intelligence/",
       "title": "AI “Logic” & “Intelligence”",
-      "status": "pending-original-review"
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/ai-logic-intelligence-verification-2026-11-26.json",
+      "report": "quality/editorial-audit-2026-11-26-review-recovery.json"
     },
     {
       "pagePath": "/rational-thought/case-2-autism/",
       "title": "Case #2 – Autism",
-      "status": "pending-original-review"
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/case-2-autism-verification-2026-11-26.json",
+      "report": "quality/editorial-audit-2026-11-26-review-recovery.json"
     },
     {
       "pagePath": "/rational-thought/do-rationalists-skew-neurodivergent/",
       "title": "Do Rationalists Skew Neurodivergent?",
-      "status": "pending-original-review"
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/do-rationalists-skew-neurodivergent-verification-2026-11-26.json",
+      "report": "quality/editorial-audit-2026-11-26-review-recovery.json"
     },
     {
       "pagePath": "/rational-thought/the-professional-application-of-rationality/",
       "title": "The Professional Application of Rationality",
-      "status": "pending-original-review"
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/the-professional-application-of-rationality-verification-2026-11-26.json",
+      "report": "quality/editorial-audit-2026-11-26-review-recovery.json"
     },
     {
       "pagePath": "/rational-thought/what-is-futurism/",
       "title": "What is Futurism?",
-      "status": "pending-original-review"
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/what-is-futurism-verification-2026-11-26.json",
+      "report": "quality/editorial-audit-2026-11-26-review-recovery.json"
     },
     {
       "pagePath": "/rational-thought/what-is-game-theory/",
       "title": "What is Game Theory?",
-      "status": "pending-original-review"
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/what-is-game-theory-verification-2026-11-26.json",
+      "report": "quality/editorial-audit-2026-11-26-review-recovery.json"
     },
     {
       "pagePath": "/rational-thought/what-is-rational-thought/",
       "title": "What is Rational Thought?",
-      "status": "pending-original-review"
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/what-is-rational-thought-verification-2026-11-26.json",
+      "report": "quality/editorial-audit-2026-11-26-review-recovery.json"
     },
     {
       "pagePath": "/economics/a-living-wage/",
       "title": "A Living Wage",
-      "status": "pending-original-review"
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/a-living-wage-verification-2026-11-26.json",
+      "report": "quality/editorial-audit-2026-11-26-review-recovery.json"
     },
     {
       "pagePath": "/economics/ai-the-future-of-work/",
       "title": "AI & the Future of Work",
-      "status": "pending-original-review"
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/ai-the-future-of-work-verification-2026-11-26.json",
+      "report": "quality/editorial-audit-2026-11-26-review-recovery.json"
     },
     {
       "pagePath": "/economics/business-risks/",
       "title": "Business Risks",
-      "status": "pending-original-review"
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/business-risks-verification-2026-11-26.json",
+      "report": "quality/editorial-audit-2026-11-26-review-recovery.json"
     },
     {
       "pagePath": "/economics/economic-complexity/",
       "title": "Economic Complexity",
-      "status": "pending-original-review"
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/economic-complexity-verification-2026-11-26.json",
+      "report": "quality/editorial-audit-2026-11-26-review-recovery.json"
     },
     {
       "pagePath": "/economics/economic-entitlements/",
       "title": "Economic Entitlements",
-      "status": "pending-original-review"
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/economic-entitlements-verification-2026-11-26.json",
+      "report": "quality/editorial-audit-2026-11-26-review-recovery.json"
     },
     {
       "pagePath": "/economics/economic-optimism/",
       "title": "Economic Optimism",
-      "status": "pending-original-review"
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/economic-optimism-verification-2026-11-26.json",
+      "report": "quality/editorial-audit-2026-11-26-review-recovery.json"
     },
     {
       "pagePath": "/economics/innovation-attractors/",
       "title": "Innovation Attractors",
-      "status": "pending-original-review"
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/innovation-attractors-verification-2026-11-26.json",
+      "report": "quality/editorial-audit-2026-11-26-review-recovery.json"
     },
     {
       "pagePath": "/economics/justified-optimism/",
       "title": "Justified Optimism",
-      "status": "pending-original-review"
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/justified-optimism-verification-2026-11-26.json",
+      "report": "quality/editorial-audit-2026-11-26-review-recovery.json"
     },
     {
       "pagePath": "/economics/the-poverty-line/",
       "title": "The Poverty Line",
-      "status": "pending-original-review"
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/the-poverty-line-verification-2026-11-26.json",
+      "report": "quality/editorial-audit-2026-11-26-review-recovery.json"
     },
     {
       "pagePath": "/economics/what-makes-economics-dismal/",
       "title": "What Makes Economics “Dismal”?",
-      "status": "pending-original-review"
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/what-makes-economics-dismal-verification-2026-11-26.json",
+      "report": "quality/editorial-audit-2026-11-26-review-recovery.json"
     },
     {
       "pagePath": "/epistemology/absolute-certainty/",
       "title": "Absolute Certainty",
-      "status": "pending-original-review"
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/absolute-certainty-verification-2026-11-26.json",
+      "report": "quality/editorial-audit-2026-11-26-review-recovery.json"
     },
     {
       "pagePath": "/epistemology/case-5-vanishing-probabilities/",
       "title": "Case #5 – Vanishing Probabilities",
-      "status": "pending-original-review"
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/case-5-vanishing-probabilities-verification-2026-11-26.json",
+      "report": "quality/editorial-audit-2026-11-26-review-recovery.json"
     },
     {
       "pagePath": "/epistemology/cromwells-rule/",
       "title": "Cromwell’s Rule",
-      "status": "pending-original-review"
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/cromwells-rule-verification-2026-11-26.json",
+      "report": "quality/editorial-audit-2026-11-26-review-recovery.json"
     },
     {
       "pagePath": "/epistemology/establishing-cognitive-reliability-1/",

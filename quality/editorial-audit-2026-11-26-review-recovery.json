@@ -1,0 +1,2577 @@
+{
+  "runTime": "2026-11-26T15:22:39.370768-05:00",
+  "runId": "review-recovery",
+  "target": 20,
+  "status": "20/20 original-source reviewed, substantively revised, fidelity-verified, and isolated-build-verified",
+  "sourceReviewed": 20,
+  "fidelityVerified": 20,
+  "isolatedBuildVerified": 20,
+  "normalDailyTwentyAlreadyComplete": true,
+  "cycle": 8,
+  "batchStartIndex": 200,
+  "trackerAdvanced": false,
+  "pages": [
+    {
+      "title": "AI &#8220;Logic&#8221; &amp; &#8220;Intelligence&#8221;",
+      "pagePath": "/rational-thought/ai-logic-intelligence/",
+      "source": "http://byteseismic.com/2025/03/07/ai-logic-intelligence/",
+      "wordpressId": 15580,
+      "decisions": [
+        "1: Preserved all thirteen logic-related and twelve intelligence-related passages, page references, and referent/commentary order. Replaced automatic equivocation accusations with inference-specific analysis; distinguished literal term occurrences from related rationality examples and acknowledged that the separately supplied transcript is absent.",
+        "2: Retained the extraction structure while distinguishing the author’s reported position from editorial evaluation; corrected the leap from a tool relationship to a literal subset, and the evolutionary inference from formal logic’s late codification.",
+        "3: Corrected learned parameters versus algorithms, contextual response versus continual learning, human-feedback training, multiple sources of bias, and AlphaGo/AlphaFold claims. Retained the critique’s subject and subheadings while separating useful outputs from understanding.",
+        "4: Retained the extensive essay and its three framing questions; replaced a deterministic four-stage history with overlapping research approaches and conditional capabilities. Corrected logic, induction, premise truth, economic-model diversity, and learning during deployment.",
+        "5: Preserved the curator’s proposed acceptance-through-superior-performance argument while making its conditions explicit. Removed unsupported blanket claims about radiology, law, diplomacy, military command, finance, and governance; substituted bounded evidence and fair comparisons. Preserved concern about human exceptionalism without treating all skepticism as irrational.",
+        "6: Restored all fifteen discussion items omitted from the current reconstruction and revised loaded presuppositions. Preserved the heading as a response heading rather than inventing a curator prompt or attributing the unattributed list to a model.",
+        "Framing: preserved verbatim curator introduction and original podcast link before prompt 1, and the exact Grok-to-ChatGPT handoff after prompt 3. Inspected both original robot-face illustrations and retained them at the beginning/end. No original quizzes, tables, or scripted dialogues occur. Decorative model logos are not counted as substantive images."
+      ],
+      "verification": {
+        "pagePath": "/rational-thought/ai-logic-intelligence/",
+        "sourceSha256": "7eb4339c93ae90b952f7301c9b672fa3da067ba44c60a86406e19bb58dae425b",
+        "originalPrompts": 5,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 6,
+        "sourceColumns": 6,
+        "modelResponses": 5,
+        "blocksRetainedVerbatim": 191,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 131,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "discussion questions": [
+            15
+          ],
+          "prompt-1 ordered list sizes": [
+            13,
+            12
+          ],
+          "prompt-4 ordered list sizes": [
+            3
+          ],
+          "prompt-6 ordered list sizes": [
+            15
+          ]
+        },
+        "sha256": "323cb5d4b62edd42ef76bd825919c7a87db9b841ac34bf7d4d4af47a79a328d0",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "AI &#8220;Logic&#8221; &amp; &#8220;Intelligence&#8221;",
+        "queueTitle": "AI &#8220;Logic&#8221; &amp; &#8220;Intelligence&#8221;",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "response",
+          "list item",
+          "source framing",
+          "curator handoff"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 328,
+          "ranges": [
+            [
+              1,
+              65
+            ],
+            [
+              66,
+              140
+            ],
+            [
+              141,
+              225
+            ],
+            [
+              226,
+              312
+            ],
+            [
+              313,
+              328
+            ]
+          ],
+          "complete": true,
+          "indexFile": "quality/original-source-revisions/ai-logic-intelligence-reading-index-2026-11-26.txt",
+          "additionalFramingRead": "Original highlights, curator framing, model labels, images, and navigation examined separately; navigation is site furniture, not omitted responses."
+        },
+        "currentArticleReadingCoverage": {
+          "snapshot": "quality/original-source-revisions/ai-logic-intelligence-before-review-2026-11-26.html",
+          "sha256": "dd569526e97124e57f228277288fb3aa446e8de85fa96946c7f18fed59a16429",
+          "indexedLines": 433,
+          "ranges": [
+            [
+              1,
+              110
+            ],
+            [
+              111,
+              220
+            ],
+            [
+              221,
+              330
+            ],
+            [
+              331,
+              433
+            ]
+          ],
+          "complete": true
+        },
+        "isolatedBuildVerified": true,
+        "verifiedAt": "2026-11-26T15:22:39.370768-05:00",
+        "primarySourcesChecked": [
+          "https://www.nature.com/articles/nature16961",
+          "https://arxiv.org/abs/2203.02155",
+          "https://www.nature.com/articles/s41586-021-03819-2",
+          "https://pubmed.ncbi.nlm.nih.gov/36413172/",
+          "https://podcasts.apple.com/us/podcast/the-tyranny-of-logic-the-deeper-thinking-podcast/id1772047800?i=1000697230312"
+        ],
+        "additionalFormatChecks": {
+          "tables": 0,
+          "scriptedDialogueTurns": 0,
+          "originalQuizQuestions": 0,
+          "originalQuizAnswers": 0,
+          "discussionItems": 15,
+          "substantiveImagesRetained": 2,
+          "curatorHandoffVerbatim": true
+        },
+        "limitations": [
+          "No isolated full build yet; not counted as reviewed-and-verified partial-batch progress.",
+          "The separately supplied podcast transcript is absent from the published post; quotations remain attributed as reported by the original conversation, without an exhaustive independent transcript claim."
+        ],
+        "isolatedBuildRecord": "quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json"
+      }
+    },
+    {
+      "title": "Case #2 &#8211; Autism",
+      "pagePath": "/rational-thought/case-2-autism/",
+      "source": "http://byteseismic.com/2024/04/04/case-2-autism/",
+      "wordpressId": 5112,
+      "decisions": [
+        "1: Retained both chronological responses and corrected all Wakefield decade errors to 1998, Kanner’s innate-condition qualification, diagnostic-versus-causal distinctions, genetics heterogeneity, and the distinct ethical role of neurodiversity. Kept the vaccination conclusion grounded in cohort evidence and WHO review rather than authority alone.",
+        "2: Preserved eight ChatGPT evaluation headings and five Gemini headings plus supporting points. Distinguished independent evidence from repeated coverage, peer review from proof, conflicts from methodological validity, and consensus from unanimity; rejected retrospective blame of families.",
+        "3: Corrected the lone-scientist premise by acknowledging coauthors and institutional amplification. Separated 1998 media/early internet from later social platforms, qualified unsupported claims of scientific silence, and corrected the generalization that all vaccines contain weakened viruses.",
+        "4: Kept all six ChatGPT and three Gemini comparison examples. Explicitly distinguished fraud, unresolved magnetic-field associations, unsupported causal claims, failed replication, rhetorical hoaxes, and revision of ulcer causation. Added the NSAID cause and removed automatic causal interpretation of lower SIDS association.",
+        "5: Retained the public-communication argument and both models’ proposals; rejected unsupported agreement that most scientists were silent/disinterested, and supplied a practical evidence-based correction process with institutional support.",
+        "6: Manually matched both ten-question quizzes to their ten answers. Repaired Kanner wording, the impossible NOT-mentioned question, cell-phone risk framing, Gemini’s 1970s key, ambiguous retraction wording, and the cold-fusion analogy. Final dependent keys agree with corrected responses.",
+        "7: Retained both fifteen-item discussion lists. Repaired the assumption that all examples were hoaxes and distinguished neurodevelopmental differences from mental-health conditions. No substantive source images, tables, or scripted dialogue turns occur; four source images are decorative branding."
+      ],
+      "verification": {
+        "pagePath": "/rational-thought/case-2-autism/",
+        "sourceSha256": "1361e97fc7f01862c6eb7f31cec2f631dcd03ac5f1f45b68d11b5252ae941e56",
+        "originalPrompts": 7,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 7,
+        "sourceColumns": 14,
+        "modelResponses": 14,
+        "blocksRetainedVerbatim": 159,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 69,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "ten question quizzes and ten answer keys": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "fifteen discussion questions per model": [
+            15,
+            15
+          ],
+          "prompt-6 ordered list sizes": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "prompt-7 ordered list sizes": [
+            15,
+            15
+          ]
+        },
+        "sha256": "9195f24993ef744e43393d31162d7e43d33fab4e3a38ca348d43192d776d14d9",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "Case #2 &#8211; Autism",
+        "queueTitle": "Case #2 &#8211; Autism",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "response",
+          "list item"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 235,
+          "ranges": [
+            [
+              1,
+              80
+            ],
+            [
+              81,
+              160
+            ],
+            [
+              161,
+              235
+            ]
+          ],
+          "complete": true,
+          "indexFile": "quality/original-source-revisions/case-2-autism-reading-index-2026-11-26.txt",
+          "additionalFramingRead": "Original highlights, curator framing, model labels, images, and navigation examined separately; navigation is site furniture, not omitted responses."
+        },
+        "currentArticleReadingCoverage": {
+          "snapshot": "quality/original-source-revisions/case-2-autism-before-review-2026-11-26.html",
+          "sha256": "04ec1eb00e8200aa7cdbdc09ba957aa235e5131b19616b0ded23e15ad271539d",
+          "indexedLines": 464,
+          "ranges": [
+            [
+              1,
+              115
+            ],
+            [
+              116,
+              235
+            ],
+            [
+              236,
+              350
+            ],
+            [
+              351,
+              464
+            ]
+          ],
+          "complete": true
+        },
+        "isolatedBuildVerified": true,
+        "verifiedAt": "2026-11-26T15:22:39.370768-05:00",
+        "primarySourcesChecked": [
+          "https://neurodiversity.net/library_kanner_1943.pdf",
+          "https://pubmed.ncbi.nlm.nih.gov/562353/",
+          "https://pubmed.ncbi.nlm.nih.gov/30831578/",
+          "https://www.who.int/news/item/11-12-2025-statement-gacvs-vaccines-autism",
+          "https://www.who.int/news-room/questions-and-answers/item/autism-spectrum-disorders-%28asd%29",
+          "https://www.cancer.gov/about-cancer/causes-prevention/risk/radiation/cell-phones-fact-sheet",
+          "https://www.cancer.gov/about-cancer/causes-prevention/risk/radiation/electromagnetic-fields-fact-sheet",
+          "https://www.cdc.gov/vaccine-safety/about/sids.html",
+          "https://www.niddk.nih.gov/health-information/digestive-diseases/peptic-ulcers-stomach-ulcers/symptoms-causes",
+          "https://www.nature.com/articles/342375a0",
+          "https://media.ellinikahoaxes.gr/uploads/2017/10/High-dilution-experiments-a-delusion.pdf"
+        ],
+        "additionalFormatChecks": {
+          "tables": 0,
+          "scriptedDialogueTurns": 0,
+          "originalQuizQuestions": 20,
+          "originalQuizAnswers": 20,
+          "discussionItems": 30,
+          "substantiveImagesRetained": 0,
+          "curatorHandoffVerbatim": false
+        },
+        "limitations": [
+          "No isolated full build yet; not counted as reviewed-and-verified partial-batch progress."
+        ],
+        "isolatedBuildRecord": "quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json"
+      }
+    },
+    {
+      "title": "Do Rationalists Skew Neurodivergent?",
+      "pagePath": "/rational-thought/do-rationalists-skew-neurodivergent/",
+      "source": "http://byteseismic.com/2024/06/27/do-rationalists-skew-neurodivergent/",
+      "wordpressId": 12301,
+      "decisions": [
+        "1: Reviewed all three responses; corrected claims of a strong general correlation, ADHD detail orientation and binary-thinking superiority; distinguished college STEM participation, task performance and rationalist-community membership. Retained tailored support proposals without exceptional-productivity conditions.",
+        "2: Preserved all fourteen ChatGPT, five Gemini and fifteen Claude named historical entries and order; replaced unsupported diagnostic labels with explicit evidence limits. Distinguished Grandin’s first-person account and Nash’s autobiography. Corrected Edison, Babbage and Turing contributions and selection-bias inference.",
+        "3: Reviewed all three trauma discussions; distinguished neurodiversity from a single disorder, reverse vulnerability, overlapping symptoms, extreme deprivation and general childhood experience. Removed unsupported epigenetic causal conclusions and repaired placeholder citations with primary adoptee research.",
+        "4: Retained all three well-being discussions while distinguishing happiness, life satisfaction and quality of life, self versus proxy report, and specific samples versus all neurodivergent people. Corrected a reversed neurotypical-environment sentence and qualified intervention claims.",
+        "5: Retained the curator’s general-superiority premise verbatim but challenged it directly in responses; separated framing effects from confirmation bias, social mismatch from absent empathy, and rational avoidance of sensory distress from irrationality. Replaced unsupported source placeholders with primary studies.",
+        "6: Preserved original Quizzes heading without inventing a missing prompt; manually reviewed thirty questions and thirty expandable keys. Revised dependent historical-diagnosis, trauma, intervention and general-rationality keys. Initial verifier rejected loss of answer disclosure elements; repaired all twenty wrapped answer edits and final verification passed.",
+        "7: Preserved all three fifteen-question discussion lists; corrected loaded historical and trauma assumptions. No substantive source illustrations, tables or dialogue turns; only five decorative branding/model images."
+      ],
+      "verification": {
+        "pagePath": "/rational-thought/do-rationalists-skew-neurodivergent/",
+        "sourceSha256": "33a843c4ed31150312feca5d37b23a346aacc4bf39880a06371045ec172acdfb",
+        "originalPrompts": 6,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 7,
+        "sourceColumns": 21,
+        "modelResponses": 21,
+        "blocksRetainedVerbatim": 274,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 145,
+        "bareAnswersExplicitlyRevised": 6,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "ten expandable keys per model": [
+            10,
+            10,
+            10
+          ],
+          "fifteen ordered discussion items in first two models": [
+            15,
+            15
+          ],
+          "Claude introduction plus fifteen numbered questions": [
+            16
+          ],
+          "prompt-1 ordered lists": [
+            9
+          ],
+          "prompt-2 ordered lists": [
+            6,
+            3,
+            2,
+            2,
+            2,
+            5
+          ],
+          "prompt-3 ordered lists": [
+            10
+          ],
+          "prompt-4 ordered lists": [
+            2,
+            3,
+            3,
+            2,
+            2,
+            3
+          ],
+          "prompt-5 ordered lists": [
+            3,
+            7,
+            5
+          ],
+          "prompt-7 ordered lists": [
+            15,
+            15
+          ]
+        },
+        "sha256": "ee2b32bc580d988ac12a03d747b3e591db1ca7ae56442bd3f88422dddf7c6c4a",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "Do Rationalists Skew Neurodivergent?",
+        "queueTitle": "Do Rationalists Skew Neurodivergent?",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "response",
+          "list item",
+          "quiz answer"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 456,
+          "ranges": [
+            [
+              1,
+              80
+            ],
+            [
+              81,
+              170
+            ],
+            [
+              171,
+              260
+            ],
+            [
+              261,
+              355
+            ],
+            [
+              356,
+              456
+            ]
+          ],
+          "complete": true,
+          "indexFile": "quality/original-source-revisions/do-rationalists-skew-neurodivergent-reading-index-2026-11-26.txt"
+        },
+        "currentArticleReadingCoverage": {
+          "indexedLines": 497,
+          "ranges": [
+            [
+              1,
+              125
+            ],
+            [
+              126,
+              250
+            ],
+            [
+              251,
+              375
+            ],
+            [
+              376,
+              497
+            ]
+          ],
+          "complete": true,
+          "snapshot": "quality/original-source-revisions/do-rationalists-skew-neurodivergent-before-review-2026-11-26.html",
+          "sha256": "65f67f01e56a83cf285775343e030a34b2f2c2373c466071c4a9505e8b55ef57"
+        },
+        "isolatedBuildVerified": true,
+        "verifiedAt": "2026-11-26T15:22:39.370768-05:00",
+        "primarySourcesChecked": [
+          "https://pubmed.ncbi.nlm.nih.gov/23114569/",
+          "https://www.templegrandin.com/faq.html",
+          "https://cgi.pbs.org/wgbh/amex/nash/filmmore/ps_nobel.html",
+          "https://pubmed.ncbi.nlm.nih.gov/18093025/",
+          "https://pubmed.ncbi.nlm.nih.gov/29734506/",
+          "https://pubmed.ncbi.nlm.nih.gov/29188584/",
+          "https://pubmed.ncbi.nlm.nih.gov/18923049/",
+          "https://journals.sagepub.com/doi/full/10.1177/1362361320919286"
+        ],
+        "additionalFormatChecks": {
+          "quizzes": 3,
+          "questionsPerQuiz": 10,
+          "answersPerQuiz": 10,
+          "discussionQuestionsPerModel": [
+            15,
+            15,
+            15
+          ],
+          "historicalEntriesPerModel": [
+            14,
+            5,
+            15
+          ],
+          "tables": 0,
+          "dialogueTurns": 0,
+          "substantiveImages": 0
+        },
+        "limitations": [
+          "No claim of population-wide rational superiority or retrospective clinical diagnosis is retained as established fact.",
+          "Final isolated full build pending."
+        ],
+        "isolatedBuildRecord": "quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json"
+      }
+    },
+    {
+      "title": "The Professional Application of Rationality",
+      "pagePath": "/rational-thought/the-professional-application-of-rationality/",
+      "source": "http://byteseismic.com/2024/03/02/the-professional-application-of-rationality/",
+      "wordpressId": 1892,
+      "decisions": [
+        "1: Retained ten ChatGPT career examples and Gemini’s three groups/eight careers; clarified that the lists illustrate task demands rather than rank professions, and distinguished mathematical proof from empirical physics and reasoning from emotion suppression.",
+        "2: Retained all skill categories while correcting Nash equilibrium, model-dependent optimality, communication versus mere persuasion, and quantitative precision versus accuracy. Added concrete professional checks within the relevant response items.",
+        "3: Removed unsupported newborn-familiarity and universal innate-fraction inferences; replaced placeholder sources with a primary training study and the blank-canvas analogy with a qualified toolkit analogy. Distinguished transfer, developmental capacity, experience, and targeted learning.",
+        "4: Retained Newton, Beethoven, Van Gogh, and Turing in source order. Used primary correspondence to distinguish achievement from general rationality, illness from lack of control, and Turing’s persecution from personal failure. Explicitly acknowledged that the four cases do not establish the stronger causal premise requested.",
+        "5: Retained nine maturity dimensions and Gemini’s five groups; qualified guaranteed-success language, social conformity, financial insecurity, illness/disability, constant positivity, and unconditional persistence.",
+        "6: Manually checked both ten-question multiple-choice quizzes and end-position keys. Repaired ambiguous innateness question and answer, changed the toolkit analogy reference, corrected dependent Turing/Van Gogh interpretation, and aligned resilience wording with support-seeking. Original answer ordering preserved.",
+        "7: Retained thirty discussion questions and corrected health/maturity, causal attribution of hardship, and heuristics-versus-irrationality framing. No source tables, scripted dialogue, or substantive source images."
+      ],
+      "verification": {
+        "pagePath": "/rational-thought/the-professional-application-of-rationality/",
+        "sourceSha256": "59662b38e3ae8cb6b0552b4527a0fc35fc42c1fa56bbd021d13c4b0f416c4502",
+        "originalPrompts": 7,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 7,
+        "sourceColumns": 14,
+        "modelResponses": 14,
+        "blocksRetainedVerbatim": 191,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 57,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "ten quiz questions and ten answer keys per model": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "fifteen discussion questions per model": [
+            15,
+            15
+          ],
+          "prompt-1 ordered lists": [
+            10
+          ],
+          "prompt-2 ordered lists": [
+            10
+          ],
+          "prompt-3 ordered lists": [
+            3,
+            6
+          ],
+          "prompt-4 ordered lists": [
+            2
+          ],
+          "prompt-5 ordered lists": [
+            9
+          ],
+          "prompt-6 ordered lists": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "prompt-7 ordered lists": [
+            15,
+            15
+          ]
+        },
+        "sha256": "f2475161abcd0fcd9d273241c763bc912de7c8fb9c719dc8835cc1480f4ddbbf",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "The Professional Application of Rationality",
+        "queueTitle": "The Professional Application of Rationality",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "response",
+          "list item"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 255,
+          "ranges": [
+            [
+              1,
+              75
+            ],
+            [
+              76,
+              165
+            ],
+            [
+              166,
+              255
+            ]
+          ],
+          "complete": true,
+          "indexFile": "quality/original-source-revisions/the-professional-application-of-rationality-reading-index-2026-11-26.txt"
+        },
+        "currentArticleReadingCoverage": {
+          "indexedLines": 516,
+          "ranges": [
+            [
+              1,
+              120
+            ],
+            [
+              121,
+              250
+            ],
+            [
+              251,
+              385
+            ],
+            [
+              386,
+              516
+            ]
+          ],
+          "complete": true,
+          "snapshot": "quality/original-source-revisions/the-professional-application-of-rationality-before-review-2026-11-26.html",
+          "sha256": "fd158af1ba7de6952d06bd75ddc62b4788b3156c6d73ea9727e5c67a653cfb73"
+        },
+        "isolatedBuildVerified": true,
+        "verifiedAt": "2026-11-26T15:22:39.370768-05:00",
+        "primarySourcesChecked": [
+          "https://journals.sagepub.com/doi/abs/10.1177/2372732215600886",
+          "https://www.newtonproject.ox.ac.uk/view/texts/diplomatic/OTHE00130",
+          "https://www.beethoven.de/de/media/view/5488179599638528/Ludwig%2Bvan%2BBeethoven%2C%2BBrief%2Ban%2Bseine%2BBr%C3%BCder%2BKaspar%2BKarl%2Bund%2BJohann%2C%2BHeiligenstadt%2Bvom%2B6.%2Bund%2B10.%2BOktober%2B1802",
+          "https://www.webexhibits.org/vangogh/letter/19/576.htm?qp=health.mental",
+          "https://turingarchive.kings.cam.ac.uk/correspondence-amtd/amt-d-14a"
+        ],
+        "additionalFormatChecks": {
+          "quizzes": 2,
+          "questionsPerQuiz": 10,
+          "keysPerQuiz": 10,
+          "discussionItemsPerModel": [
+            15,
+            15
+          ],
+          "tables": 0,
+          "dialogueTurns": 0,
+          "substantiveImages": 0
+        },
+        "limitations": [
+          "The original historical cases do not establish high rationality on most metrics or a general emotional-control cause of hardship; the responses now acknowledge that limitation.",
+          "Final isolated full build pending."
+        ],
+        "isolatedBuildRecord": "quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json"
+      }
+    },
+    {
+      "title": "What is Futurism?",
+      "pagePath": "/rational-thought/what-is-futurism/",
+      "source": "http://byteseismic.com/2024/03/13/what-is-futurism/",
+      "wordpressId": 3606,
+      "decisions": [
+        "Restored seven exact prompts and fourteen separate source responses instead of generic composite padding.",
+        "Corrected Turku/Helsinki/Aalto confusion, unconfirmed Waterloo degree, Tamkang overstatement, historical Swinburne title and Houston ranking; linked official programs.",
+        "Separated forecasts, scenarios and preferences; removed short-horizon and ethical-neutrality false dichotomies; added calibration and conditional Bayesian updating.",
+        "Corrected Webb title and organization, Leonhard birthplace, Diamandis attribution; treated singularity as hypothesis and fame separately from accuracy.",
+        "Preserved two ten-question quizzes and keys and thirty discussion questions; repaired contradictory Gemini answer and dependent distinction questions."
+      ],
+      "verification": {
+        "pagePath": "/rational-thought/what-is-futurism/",
+        "sourceSha256": "f456f741ed8f6208533f551166c88b5fad9b765cbb5921e0e046301c85b3fc6a",
+        "originalPrompts": 7,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 7,
+        "sourceColumns": 14,
+        "modelResponses": 14,
+        "blocksRetainedVerbatim": 155,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 54,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "prompt-1 ordered lists": [
+            5
+          ],
+          "prompt-2 ordered lists": [
+            3,
+            1,
+            1,
+            1
+          ],
+          "prompt-3 ordered lists": [
+            7
+          ],
+          "prompt-4 ordered lists": [
+            10
+          ],
+          "prompt-5 ordered lists": [
+            8
+          ],
+          "prompt-6 ordered lists": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            10,
+            10,
+            10
+          ],
+          "prompt-7 ordered lists": [
+            15,
+            15
+          ]
+        },
+        "sha256": "9e240e0472795d35b9ccd380112265bf92d3119639d1efd7edcb596f43f2125a",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "What is Futurism?",
+        "queueTitle": "What is Futurism?",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "response",
+          "list item"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 216,
+          "ranges": [
+            [
+              1,
+              216
+            ]
+          ],
+          "complete": true,
+          "indexFile": "quality/original-source-revisions/what-is-futurism-reading-index-2026-11-26.txt",
+          "readingPassNotes": [
+            "1-155",
+            "156-216"
+          ]
+        },
+        "currentArticleReadingCoverage": {
+          "indexedLines": 491,
+          "ranges": [
+            [
+              1,
+              491
+            ]
+          ],
+          "complete": true,
+          "snapshot": "quality/original-source-revisions/what-is-futurism-before-review-2026-11-26.html",
+          "sha256": "9813bb3d1f4a3a12bcb98f19c23e2a9716d0561fb6a496d4523fa63a239c2318",
+          "readingPassNotes": [
+            "1-491",
+            "215-235 reread after bounded-output truncation"
+          ]
+        },
+        "isolatedBuildVerified": true,
+        "verifiedAt": "2026-11-26T15:22:39.370768-05:00",
+        "primarySourcesChecked": [
+          "https://www.hdcs.uh.edu/programs/graduate/foresight",
+          "https://www.utu.fi/en/study-at-utu/masters-degree-programme-in-futures-studies",
+          "https://www.fu-berlin.de/studium/studienangebot/master/zukunftsforschung/index.html",
+          "https://english.tku.edu.tw/doc/2024-2025TKUcatalog.pdf",
+          "https://www.swinburne.edu.au/downloads/Postgraduate-Degrees_and_Pathways_International_Course_Guide_2026.pdf",
+          "https://www.regent.edu/program/dsl-strategic-foresight/",
+          "https://uwaterloo.ca/future-graduate-students/programs",
+          "https://ftsg.com/company/",
+          "https://futuristgerd.com/2026/04/introducing-my-new-brand-advocate-for-the-human-future-public-thinker-gerd-tv/",
+          "https://www.xprize.org/people/peter-h-diamandis-m-d",
+          "https://www.penguinrandomhouse.com/books/89410/hyperspace-by-michio-kaku/"
+        ],
+        "additionalFormatChecks": [
+          "Seven prompts, fourteen responses; both quiz sets retain ten questions and ten matching keys; both discussion lists retain fifteen items."
+        ],
+        "limitations": [
+          "Unavailable Waterloo degree is identified as unconfirmed, not proven never to have existed; historical and current university titles explicitly distinguished."
+        ],
+        "isolatedBuildRecord": "quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json"
+      }
+    },
+    {
+      "title": "What is Game Theory?",
+      "pagePath": "/rational-thought/what-is-game-theory/",
+      "source": "http://byteseismic.com/2024/03/02/what-is-game-theory/",
+      "wordpressId": 1870,
+      "decisions": [
+        "Restored eight exact prompts, sixteen responses, three embedded response headings, two source payoff tables and both original quiz/discussion sets.",
+        "Corrected strategies versus actions, complete versus perfect information, prisoner dilemma dominance, auction winner curse and unjustified parking/pricing game labels.",
+        "Added full mixed coordination solution p=2/3 q=1/3 expected payoff2/3; corrected matching pennies symmetry and outcome probabilities and proved indifference.",
+        "Qualified equilibrium existence and stability; corrected universal complete-information assertion and unsupported MAD probability.",
+        "Repaired dependent quiz answers and unsupported exclusion of literature as relevant background."
+      ],
+      "verification": {
+        "pagePath": "/rational-thought/what-is-game-theory/",
+        "sourceSha256": "2df1816de0b4dff78bed11393450a129abfb182355843889e4f0dd52ea708fae",
+        "originalPrompts": 8,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 8,
+        "sourceColumns": 16,
+        "modelResponses": 16,
+        "blocksRetainedVerbatim": 199,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 44,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "prompt-1 ordered lists": [
+            3
+          ],
+          "prompt-2 ordered lists": [
+            1,
+            1,
+            1
+          ],
+          "prompt-3 ordered lists": [
+            2
+          ],
+          "prompt-4 ordered lists": [
+            5,
+            4
+          ],
+          "prompt-7 ordered lists": [
+            7,
+            7,
+            7,
+            7
+          ],
+          "prompt-8 ordered lists": [
+            15,
+            15
+          ]
+        },
+        "sha256": "712db3fc6384f4b9d4f1d8c5ee89ab1001dd5481c9b321bb262725a6c371ddd3",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "What is Game Theory?",
+        "queueTitle": "What is Game Theory?",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "response",
+          "list item"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 253,
+          "ranges": [
+            [
+              1,
+              253
+            ]
+          ],
+          "complete": true,
+          "indexFile": "quality/original-source-revisions/what-is-game-theory-reading-index-2026-11-26.txt",
+          "readingPassNotes": [
+            "1-132",
+            "133-253"
+          ]
+        },
+        "currentArticleReadingCoverage": {
+          "indexedLines": 455,
+          "ranges": [
+            [
+              1,
+              455
+            ]
+          ],
+          "complete": true,
+          "snapshot": "quality/original-source-revisions/what-is-game-theory-before-review-2026-11-26.html",
+          "sha256": "7038678b2607537360564f6a985409830c280f39920b8cd3962912976cf9ad60",
+          "readingPassNotes": [
+            "1-228",
+            "229-455"
+          ]
+        },
+        "isolatedBuildVerified": true,
+        "verifiedAt": "2026-11-26T15:22:39.370768-05:00",
+        "primarySourcesChecked": [
+          "https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html",
+          "https://live.ocw.mit.edu/courses/17-810-game-theory-spring-2021/mit17_810s21_lec3.pdf",
+          "https://unidir.org/publication/nuclear-risks-perceptions-pathways/"
+        ],
+        "additionalFormatChecks": [
+          "Two unchanged payoff tables checked against best-response derivations; two7-question quizzes and7keys each; two15-question discussions."
+        ],
+        "limitations": [
+          "Nuclear section is a general model critique, not a current assessment of treaties or force inventories."
+        ],
+        "isolatedBuildRecord": "quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json"
+      }
+    },
+    {
+      "title": "What is Rational Thought?",
+      "pagePath": "/rational-thought/what-is-rational-thought/",
+      "source": "http://byteseismic.com/2024/03/02/what-is-rational-thought/",
+      "wordpressId": 1769,
+      "decisions": [
+        "Restored nine complete exchanges including formerly compressed education and practical-scenario prompts.",
+        "Preserved explicit curator umbrella stipulation while distinguishing validity/soundness, deduction/induction and rational thought from emotional suppression.",
+        "Replaced unsupported guaranteed debiasing, puzzle-transfer, mindfulness and success assertions with concrete feedback practices and qualifications.",
+        "Corrected West host, Crash Course series, Duke provider and Thinking101 book attribution; flagged two unverified bibliographic entries instead of inventing alternatives.",
+        "Kept twenty original questions; original second key has only8answers, so explicitly labeled completion supplies9and10. Retained thirty discussions and repaired emotion false dichotomies."
+      ],
+      "verification": {
+        "pagePath": "/rational-thought/what-is-rational-thought/",
+        "sourceSha256": "5d1a775649ca87c41cc93275946a84715f3704828e31f4bfb4067e2e554dcc5c",
+        "originalPrompts": 9,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 9,
+        "sourceColumns": 18,
+        "modelResponses": 18,
+        "blocksRetainedVerbatim": 229,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 51,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": false,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [
+          "8.2"
+        ],
+        "formatChecks": {
+          "prompt-1 ordered lists": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "prompt-2 ordered lists": [
+            10,
+            8
+          ],
+          "prompt-3 ordered lists": [
+            10
+          ],
+          "prompt-4 ordered lists": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "prompt-5 ordered lists": [
+            8
+          ],
+          "prompt-6 ordered lists": [
+            4,
+            5
+          ],
+          "prompt-7 ordered lists": [
+            12,
+            10
+          ],
+          "prompt-8 ordered lists": [
+            10,
+            10,
+            10,
+            8,
+            2
+          ],
+          "prompt-9 ordered lists": [
+            15,
+            15
+          ]
+        },
+        "sha256": "0a4c4ba4040fcc55cd7521089b3e6d39fe1007e36f1db550491b9c9000c35538",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "What is Rational Thought?",
+        "queueTitle": "What is Rational Thought?",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "response",
+          "list item"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 289,
+          "ranges": [
+            [
+              1,
+              289
+            ]
+          ],
+          "complete": true,
+          "indexFile": "quality/original-source-revisions/what-is-rational-thought-reading-index-2026-11-26.txt",
+          "readingPassNotes": [
+            "1-145",
+            "146-289",
+            "238-272 reread after output truncation"
+          ]
+        },
+        "currentArticleReadingCoverage": {
+          "indexedLines": 574,
+          "ranges": [
+            [
+              1,
+              574
+            ]
+          ],
+          "complete": true,
+          "snapshot": "quality/original-source-revisions/what-is-rational-thought-before-review-2026-11-26.html",
+          "sha256": "2b2ab9a606564124574c311e8a94d4a008997859b9258bc6119fdde98e818fb0",
+          "readingPassNotes": [
+            "1-200",
+            "201-400",
+            "401-574"
+          ]
+        },
+        "isolatedBuildVerified": true,
+        "verifiedAt": "2026-11-26T15:22:39.370768-05:00",
+        "primarySourcesChecked": [
+          "https://www.philosophizethis.org/home",
+          "https://thecrashcourse.com/topic/philosophy/",
+          "https://www.coursera.org/learn/understanding-arguments",
+          "https://www.coursera.org/specializations/logic-critical-thinking-duke",
+          "https://news.yale.edu/2022/10/05/bias-brain-yale-psychologist-examines-common-thinking-problems"
+        ],
+        "additionalFormatChecks": [
+          "Nine prompts/eighteen responses; two10-question quizzes; ChatGPT10keys, Gemini8original+2explicit editorial completions; two15-discussion sets."
+        ],
+        "limitations": [
+          "Scriven/Wander title and Chinese podcast could not be confirmed; text explicitly says unverified rather than nonexistent."
+        ],
+        "isolatedBuildRecord": "quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json"
+      }
+    },
+    {
+      "title": "A Living Wage",
+      "pagePath": "/economics/a-living-wage/",
+      "source": "http://byteseismic.com/2024/04/16/a-living-wage/",
+      "wordpressId": 6411,
+      "decisions": [
+        "Preserved six exact prompts and twelve complete model responses, two7-question quizzes and thirty discussion questions.",
+        "Distinguished empirical local costs, normative decent-life criteria, PPP, poverty lines and wage-setting feasibility.",
+        "Used ILO primary definition and Anker household-earner assumptions; removed ability-to-pay as a needs definition and unsupported universal ownership claims.",
+        "Removed promise that contingency money ensures an affordable move; separated recurring costs from actual relocation support.",
+        "Challenged spoiled premise and sweeping rich/poor stereotypes without changing curator prompt; computed hypothetical160-hour cost shares explicitly and stated omissions.",
+        "Repaired ambiguous migration question and dependent answer keys; preserved Gemini two-part social-support answer."
+      ],
+      "verification": {
+        "pagePath": "/economics/a-living-wage/",
+        "sourceSha256": "9c3240985405a223e1e9c6df74f45850434b1834f7a429f415605da332dfcaf0",
+        "originalPrompts": 6,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 6,
+        "sourceColumns": 12,
+        "modelResponses": 12,
+        "blocksRetainedVerbatim": 151,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 52,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "prompt-1 ordered lists": [
+            5
+          ],
+          "prompt-3 ordered lists": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "prompt-5 ordered lists": [
+            7,
+            7,
+            7,
+            6
+          ],
+          "prompt-6 ordered lists": [
+            15,
+            15
+          ]
+        },
+        "sha256": "3c6987f664f474ecbd08f8b865ebb57139f0bf3939df170b840b64eb297d0340",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "A Living Wage",
+        "queueTitle": "A Living Wage",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "response",
+          "list item"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 209,
+          "ranges": [
+            [
+              1,
+              209
+            ]
+          ],
+          "complete": true,
+          "indexFile": "quality/original-source-revisions/a-living-wage-reading-index-2026-11-26.txt",
+          "readingPassNotes": [
+            "1-125",
+            "126-209"
+          ]
+        },
+        "currentArticleReadingCoverage": {
+          "indexedLines": 321,
+          "ranges": [
+            [
+              1,
+              321
+            ]
+          ],
+          "complete": true,
+          "snapshot": "quality/original-source-revisions/a-living-wage-before-review-2026-11-26.html",
+          "sha256": "b6dd21d1ac956afb0e0e2c3967e46df6375d9f98b8b398a538aa287c14c7fb35",
+          "readingPassNotes": [
+            "1-170",
+            "171-321"
+          ]
+        },
+        "isolatedBuildVerified": true,
+        "verifiedAt": "2026-11-26T15:22:39.370768-05:00",
+        "primarySourcesChecked": [
+          "https://www.ilo.org/topics-and-sectors/wages/living-wages",
+          "https://www.globallivingwage.org/about/anker-methodology/",
+          "https://www.globallivingwage.org/faq/"
+        ],
+        "additionalFormatChecks": [
+          "Six prompts/twelve responses; ChatGPT7MCquestions/7keys, Gemini7questions with one two-part answer;15discussion questions each."
+        ],
+        "limitations": [
+          "No actual wage recommendation or current location-specific rate; numerical example explicitly hypothetical."
+        ],
+        "isolatedBuildRecord": "quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json"
+      }
+    },
+    {
+      "title": "AI &amp; the Future of Work",
+      "pagePath": "/economics/ai-the-future-of-work/",
+      "source": "http://byteseismic.com/2024/06/22/ai-the-future-of-work/",
+      "wordpressId": 12062,
+      "decisions": [
+        "Recovered author-background prompt and original essay-link preamble; five exact prompts plus nonprompt Quizzes heading; sixteen responses across three models.",
+        "Checked complete Palladium essay: corrected author versus photo credit, publication-relative role, five versus three years, gender and actual-worker comparison.",
+        "Separated explicit financial-security thought-experiment premise from implemented policy; identified task/job/adoption distinction and limits of scaling extrapolation.",
+        "Kept all proposed career areas while identifying transitional demand and tension with all-task automation premise; qualified health, equality and inevitable-purpose claims.",
+        "Checked temporary-layoff primary study; limited generalization, corrected correlation/causation on women and work, retained leisure/retirement examples as analogies.",
+        "Preserved all thirty quiz disclosures and forty-five discussion questions; corrected dependent attribution/timeline answers and bare-text Gemini question."
+      ],
+      "verification": {
+        "pagePath": "/economics/ai-the-future-of-work/",
+        "sourceSha256": "5d830cd51ae1c9c8c79f408c4a6b805f134485240bb8ca0f531d5d6a58447423",
+        "originalPrompts": 5,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 6,
+        "sourceColumns": 16,
+        "modelResponses": 16,
+        "blocksRetainedVerbatim": 294,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 65,
+        "bareAnswersExplicitlyRevised": 4,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "prompt-2 ordered lists": [
+            3,
+            2,
+            3,
+            1,
+            1,
+            1,
+            1,
+            4,
+            4
+          ],
+          "prompt-3 ordered lists": [
+            10
+          ],
+          "prompt-4 ordered lists": [
+            5,
+            8
+          ],
+          "prompt-6 ordered lists": [
+            15,
+            15,
+            15
+          ]
+        },
+        "sha256": "6021ca8011a182fc49c9bc19c82ecac8e1a78e39478723b31907f68cc655a432",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "AI &amp; the Future of Work",
+        "queueTitle": "AI &amp; the Future of Work",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "response",
+          "list item",
+          "quiz answer"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 396,
+          "ranges": [
+            [
+              1,
+              396
+            ]
+          ],
+          "complete": true,
+          "indexFile": "quality/original-source-revisions/ai-the-future-of-work-reading-index-2026-11-26.txt",
+          "readingPassNotes": [
+            "1-125 (first four biography nodes plus previously read assessment/careers, with numbering updated after preamble recovery)",
+            "126-255",
+            "256-395",
+            "396 full Gemini bare-text quiz"
+          ]
+        },
+        "currentArticleReadingCoverage": {
+          "indexedLines": 398,
+          "ranges": [
+            [
+              1,
+              398
+            ]
+          ],
+          "complete": true,
+          "snapshot": "quality/original-source-revisions/ai-the-future-of-work-before-review-2026-11-26.html",
+          "sha256": "e5f785a78f2046776e316881739170b692b41bd7b7aaf48ef892474c2f09624d",
+          "readingPassNotes": [
+            "1-180",
+            "181-398"
+          ]
+        },
+        "isolatedBuildVerified": true,
+        "verifiedAt": "2026-11-26T15:22:39.370768-05:00",
+        "primarySourcesChecked": [
+          "https://www.palladiummag.com/2024/05/17/my-last-five-years-of-work/",
+          "https://journals.sagepub.com/doi/10.1177/07308884221129520",
+          "https://law.yale.edu/sites/default/files/documents/pdf/Intellectual_Life/Stevenson_ParadoxDecliningFemaleHappiness_Dec08.pdf"
+        ],
+        "additionalFormatChecks": [
+          "One background response plus five3-model sections;30quiz questions/expandableanswers;45discussionquestions;curator essay URL preserved."
+        ],
+        "limitations": [
+          "Article and biography evaluated as published May2024; no claim to verify current employment or predict an actual post-work date."
+        ],
+        "isolatedBuildRecord": "quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json"
+      }
+    },
+    {
+      "title": "Business Risks",
+      "pagePath": "/economics/business-risks/",
+      "source": "http://byteseismic.com/2024/04/05/business-risks/",
+      "wordpressId": 5227,
+      "decisions": [
+        "Recovered Claude inventory plus both previously omitted first-prompt assessment columns; sixprompts thirteenresponses.",
+        "Qualified neglected-risk ranking and overlapping categories; added exposure/recovery practice rather than promises of success.",
+        "Corrected1840–1914 early-modern label, medieval bookkeeping and preindustrial insurance; removed claims that old risks first emerged in modern periods.",
+        "Distinguished essential services, investor losses, rescue instruments, gross outlay and net publiccost; referenced FDIC resolution.",
+        "Replaced failure-benefit inevitability with learning conditions, sunk resources, transitioncosts and survivor bias; corrected quiz conclusions and unsupported neglect ranking."
+      ],
+      "verification": {
+        "pagePath": "/economics/business-risks/",
+        "sourceSha256": "13baa04f1496ad7032a81a8e0736d4882c349538b38896fc5309765de4d6454e",
+        "originalPrompts": 6,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 6,
+        "sourceColumns": 13,
+        "modelResponses": 13,
+        "blocksRetainedVerbatim": 191,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 53,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "prompt-1 ordered lists": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            7
+          ],
+          "prompt-3 ordered lists": [
+            3,
+            2,
+            3
+          ],
+          "prompt-4 ordered lists": [
+            2,
+            3,
+            3
+          ],
+          "prompt-5 ordered lists": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            7,
+            7,
+            7
+          ],
+          "prompt-6 ordered lists": [
+            15,
+            15
+          ]
+        },
+        "sha256": "69b5cc86051c44961d3f65e431ec081619164047b49dafd8de9355fa84073b53",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "Business Risks",
+        "queueTitle": "Business Risks",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "response",
+          "list item"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 250,
+          "ranges": [
+            [
+              1,
+              250
+            ]
+          ],
+          "complete": true,
+          "indexFile": "quality/original-source-revisions/business-risks-reading-index-2026-11-26.txt",
+          "readingPassNotes": [
+            "1-132 and133-234 before sibling-response recovery",
+            "35-112 after recovery; previous later sections shift by16"
+          ]
+        },
+        "currentArticleReadingCoverage": {
+          "indexedLines": 410,
+          "ranges": [
+            [
+              1,
+              410
+            ]
+          ],
+          "complete": true,
+          "snapshot": "quality/original-source-revisions/business-risks-before-review-2026-11-26.html",
+          "sha256": "0e0db153e4a1785570786e18d7132db3c58aac173a8e35b2aab5830bed42ccfd",
+          "readingPassNotes": [
+            "1-210",
+            "211-410"
+          ]
+        },
+        "isolatedBuildVerified": true,
+        "verifiedAt": "2026-11-26T15:22:39.370768-05:00",
+        "primarySourcesChecked": [
+          "https://www.fdic.gov/overview-resolution-under-title-ii-dodd-frank-act",
+          "https://www.icaew.com/library/historical-resources/timeline",
+          "https://www.lloyds.com/about-lloyds/history/lloyds-buildings",
+          "https://www.bls.gov/osmr/research-papers/2004/st040060.htm"
+        ],
+        "additionalFormatChecks": [
+          "Six prompts/thirteenresponses; allrisk categories retained; two7-questionquizzes/keys and two15-discussionlists."
+        ],
+        "limitations": [
+          "No current sector-specific ranking, failure percentage, or jurisdiction-specific compliance advice is asserted."
+        ],
+        "isolatedBuildRecord": "quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json"
+      }
+    },
+    {
+      "title": "Economic Complexity",
+      "pagePath": "/economics/economic-complexity/",
+      "source": "http://byteseismic.com/2024/03/14/economic-complexity/",
+      "wordpressId": 3722,
+      "decisions": [
+        "Removed false natural-science/economics dichotomy; distinguished causal probability from correlation and experiments from simulation.",
+        "Separated equilibrium existence, efficiency, changing targets and dynamic stability.",
+        "Rejected solved hyperinflation, resource scarcity and bank-run claims; linked documented2023SVB run.",
+        "Corrected Depression chronology, euro-area heterogeneity, S&L causes and tulipmania myth; rejected easy counterfactual prevention.",
+        "Updated both ten-question quizzes and discussion premise to match revised explanations."
+      ],
+      "verification": {
+        "pagePath": "/economics/economic-complexity/",
+        "sourceSha256": "9140fee57b2cfd97649b8c88cb64d2357bc6752b2adb954393af0b9d9c7d30e2",
+        "originalPrompts": 6,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 6,
+        "sourceColumns": 12,
+        "modelResponses": 12,
+        "blocksRetainedVerbatim": 142,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 68,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "prompt-1 ordered lists": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "prompt-2 ordered lists": [
+            7
+          ],
+          "prompt-3 ordered lists": [
+            3,
+            5
+          ],
+          "prompt-4 ordered lists": [
+            5,
+            5
+          ],
+          "prompt-5 ordered lists": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            10,
+            5,
+            5,
+            5,
+            5
+          ],
+          "prompt-6 ordered lists": [
+            15,
+            15
+          ]
+        },
+        "sha256": "fe1c88344e243cacaac482d030a3c731e69473ca3b0a33afdb7cc730fe4e051c",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "Economic Complexity",
+        "queueTitle": "Economic Complexity",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "response",
+          "list item"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 216,
+          "ranges": [
+            [
+              1,
+              216
+            ]
+          ],
+          "complete": true,
+          "indexFile": "quality/original-source-revisions/economic-complexity-reading-index-2026-11-26.txt",
+          "readingPassNotes": [
+            "1-125",
+            "126-216"
+          ]
+        },
+        "currentArticleReadingCoverage": {
+          "indexedLines": 381,
+          "ranges": [
+            [
+              1,
+              381
+            ]
+          ],
+          "complete": true,
+          "snapshot": "quality/original-source-revisions/economic-complexity-before-review-2026-11-26.html",
+          "sha256": "1067c7449e51584d1c92444f086ac30ee8ff0b2ae5a7c955a9cdbbdfc3650740",
+          "readingPassNotes": [
+            "1-381; truncated75-173 reread separately"
+          ]
+        },
+        "isolatedBuildVerified": true,
+        "verifiedAt": "2026-11-26T15:22:39.370768-05:00",
+        "primarySourcesChecked": [
+          "https://www.federalreserve.gov/publications/2023-April-SVB-Executive-Summary.htm",
+          "https://www.federalreservehistory.org/essays/great-depression",
+          "https://www.federalreservehistory.org/essays/savings-and-loan-crisis",
+          "https://press.uchicago.edu/Misc/Chicago/301259.html"
+        ],
+        "additionalFormatChecks": [
+          "Sixprompts twelve responses; two10-questionquizzes/keys and thirtydiscussionquestions retained."
+        ],
+        "limitations": [],
+        "isolatedBuildRecord": "quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json"
+      }
+    },
+    {
+      "title": "Economic Entitlements",
+      "pagePath": "/economics/economic-entitlements/",
+      "source": "http://byteseismic.com/2024/03/15/economic-entitlements/",
+      "wordpressId": 3786,
+      "decisions": [
+        "Separated legitimate moral/legal entitlement from psychological special-treatment claims; qualified generational generalizations.",
+        "Corrected self-efficacy/intrinsic motivation conflation and overstrong adaptation/positive-practice promises.",
+        "Replaced all ten erroneous historical GDP/percapita values with directly inspected Maddison2010data in consistent units; separately identified nominal2020WorldBank values and GDPnotpersonal income.",
+        "Dated health/literacy observations, qualified historical poverty reconstruction and threshold changes, corrected associated quizkeys."
+      ],
+      "verification": {
+        "pagePath": "/economics/economic-entitlements/",
+        "sourceSha256": "ec2475bc191bb8fa88297e7a2b2382fd59d1ca45b684bc6fe486f1935c352217",
+        "originalPrompts": 6,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 6,
+        "sourceColumns": 12,
+        "modelResponses": 12,
+        "blocksRetainedVerbatim": 131,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 58,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "prompt-1 ordered lists": [
+            1,
+            1,
+            1
+          ],
+          "prompt-2 ordered lists": [
+            6
+          ],
+          "prompt-3 ordered lists": [
+            10
+          ],
+          "prompt-5 ordered lists": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "prompt-6 ordered lists": [
+            15,
+            15
+          ]
+        },
+        "sha256": "ef5e07a307ffa9e94f5222de59045cb4daef09a6b4f827a72badb40f3d449aa2",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "Economic Entitlements",
+        "queueTitle": "Economic Entitlements",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "response",
+          "list item"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 195,
+          "ranges": [
+            [
+              1,
+              195
+            ]
+          ],
+          "complete": true,
+          "indexFile": "quality/original-source-revisions/economic-entitlements-reading-index-2026-11-26.txt",
+          "readingPassNotes": [
+            "1-195"
+          ]
+        },
+        "currentArticleReadingCoverage": {
+          "indexedLines": 407,
+          "ranges": [
+            [
+              1,
+              407
+            ]
+          ],
+          "complete": true,
+          "snapshot": "quality/original-source-revisions/economic-entitlements-before-review-2026-11-26.html",
+          "sha256": "f76b019abb4216ef357fd0aaf8519c290ed5fa81f265a2dd4d9a5cd8c35a041b",
+          "readingPassNotes": [
+            "1-407; truncation160-345 reread"
+          ]
+        },
+        "isolatedBuildVerified": true,
+        "verifiedAt": "2026-11-26T15:22:39.370768-05:00",
+        "primarySourcesChecked": [
+          "https://pubmed.ncbi.nlm.nih.gov/11392867/",
+          "https://www.rug.nl/ggdc/historicaldevelopment/maddison/data/md2010_vertical.xlsx",
+          "https://api.worldbank.org/v2/country/WLD/indicator/NY.GDP.MKTP.CD?date=2015:2020&format=json",
+          "https://ourworldindata.org/a-history-of-global-living-conditions"
+        ],
+        "additionalFormatChecks": [
+          "Sixprompts twelve responses; two10questionquizzes/keys and thirtydiscussionquestions. Historical figures independently extracted from workbook/API and preserved as smallJSON evidence."
+        ],
+        "limitations": [
+          "Early global estimates are reconstructions with substantial uncertainty, not contemporaneous surveys."
+        ],
+        "isolatedBuildRecord": "quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json"
+      }
+    },
+    {
+      "title": "Economic Optimism",
+      "pagePath": "/economics/economic-optimism/",
+      "source": "http://byteseismic.com/2024/03/24/economic-optimism/",
+      "wordpressId": 4365,
+      "decisions": [
+        "Recovered first source exchange and exact follow-on prompt sentence.",
+        "Replaced unspecified hundredfoldGDP claim with consistent53fold1820–2000 comparison, corrected2017poverty9.2%,datedWHO healthsource.",
+        "Replaced invalidURLplaceholders and citationmarkers with checkedlinks.",
+        "Rejected exponential-universal-progress premise and prescriptiveoptimism; separated real losses, forecast risk, negativitybias and lossaversion.",
+        "Corrected wrongrelative/absolutegain quizkey and multipleambiguous questions, preservingtenitemsperquiz."
+      ],
+      "verification": {
+        "pagePath": "/economics/economic-optimism/",
+        "sourceSha256": "68454cce0ffd88ece5fa81d37934dc79fee9c0369a640f5d520dd090ad15c3ce",
+        "originalPrompts": 6,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 6,
+        "sourceColumns": 12,
+        "modelResponses": 12,
+        "blocksRetainedVerbatim": 134,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 41,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "prompt-2 ordered lists": [
+            3
+          ],
+          "prompt-5 ordered lists": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "prompt-6 ordered lists": [
+            15,
+            15
+          ]
+        },
+        "sha256": "2fc81cfd8d5cf6e723ef8bb059474cc0d172aece5c9720e5db9d4956ca6c83ce",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "Economic Optimism",
+        "queueTitle": "Economic Optimism",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "response",
+          "list item"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 181,
+          "ranges": [
+            [
+              1,
+              181
+            ]
+          ],
+          "complete": true,
+          "indexFile": "quality/original-source-revisions/economic-optimism-reading-index-2026-11-26.txt",
+          "readingPassNotes": [
+            "1-181"
+          ]
+        },
+        "currentArticleReadingCoverage": {
+          "indexedLines": 366,
+          "ranges": [
+            [
+              1,
+              366
+            ]
+          ],
+          "complete": true,
+          "snapshot": "quality/original-source-revisions/economic-optimism-before-review-2026-11-26.html",
+          "sha256": "b98d2c5736d8140afc2a23733318cb75766675b2919f764eefb363ad5a10034b",
+          "readingPassNotes": [
+            "1-200",
+            "201-366"
+          ]
+        },
+        "isolatedBuildVerified": true,
+        "verifiedAt": "2026-11-26T15:22:39.370768-05:00",
+        "primarySourcesChecked": [
+          "https://blogs.worldbank.org/en/opendata/september-2020-global-poverty-update-world-bank-new-annual-poverty-estimates-using-revised",
+          "https://www.who.int/news/item/20-05-2022-world-health-statistics-2022",
+          "https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-database-2010",
+          "https://pip.worldbank.org/",
+          "https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG",
+          "https://www.uis.unesco.org/en"
+        ],
+        "additionalFormatChecks": [
+          "Sixprompts with firstpromptcontinuation,twelveresponses,two10questionquizzes/keys,30discussionquestions."
+        ],
+        "limitations": [],
+        "isolatedBuildRecord": "quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json"
+      }
+    },
+    {
+      "title": "Innovation Attractors",
+      "pagePath": "/economics/innovation-attractors/",
+      "source": "http://byteseismic.com/2024/03/29/innovation-attractors/",
+      "wordpressId": 4846,
+      "decisions": [
+        "Recovered nestedGeminitable as ownresponse with exactsource-order assertion; retained blankfinalsourceheading asnonpromptsection.",
+        "Distinguished enablingconditions fromnecessary/sufficientones, venturecapital fromallinnovationfinance, experimentation fromrecklessness.",
+        "Replaced opposing absolute causalclaims with specific mechanisms and causal-identification requirements.",
+        "Corrected TelAvivEurope error and removed unverifiedregionalrankings; preservedboth tables all13rows.",
+        "Corrected brainwaste definition, migrant-welfare omission, automaticfiscal/wage claims; splitmergedGeminiquestions9/10 preservingboth andtenanswers."
+      ],
+      "verification": {
+        "pagePath": "/economics/innovation-attractors/",
+        "sourceSha256": "73180b27a6eaa6c7c5524debc0aee0a2c7f3d8d98b706eb9f7687459025f0991",
+        "originalPrompts": 5,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 6,
+        "sourceColumns": 12,
+        "modelResponses": 12,
+        "blocksRetainedVerbatim": 118,
+        "tableCellsExplicitlyRevised": 9,
+        "blocksExplicitlyRevised": 42,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": false,
+        "explicitListItemSplits": [
+          "5.2.10"
+        ],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "prompt-1 ordered lists": [
+            10
+          ],
+          "prompt-2 ordered lists": [
+            7
+          ],
+          "prompt-4 ordered lists": [
+            4,
+            4
+          ],
+          "prompt-5 ordered lists": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "prompt-6 ordered lists": [
+            15,
+            15
+          ]
+        },
+        "sha256": "0b9259ce49b9404cf4d73ecb80717d881f2b3fd038f218e97a95fd093e7abb63",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "Innovation Attractors",
+        "queueTitle": "Innovation Attractors",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "response",
+          "list item"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 168,
+          "ranges": [
+            [
+              1,
+              168
+            ]
+          ],
+          "complete": true,
+          "indexFile": "quality/original-source-revisions/innovation-attractors-reading-index-2026-11-26.txt",
+          "readingPassNotes": [
+            "1-168",
+            "49-60 after nestedresponse separation"
+          ]
+        },
+        "currentArticleReadingCoverage": {
+          "indexedLines": 436,
+          "ranges": [
+            [
+              1,
+              436
+            ]
+          ],
+          "complete": true,
+          "snapshot": "quality/original-source-revisions/innovation-attractors-before-review-2026-11-26.html",
+          "sha256": "081bce0ed397b5407fd91b6d2e328d2979e2dbb416915edca61a906bbf9d6298",
+          "readingPassNotes": [
+            "1-220",
+            "221-436"
+          ]
+        },
+        "isolatedBuildVerified": true,
+        "verifiedAt": "2026-11-26T15:22:39.370768-05:00",
+        "primarySourcesChecked": [
+          "https://www.wipo.int/en/web/global-innovation-index/2025/innovation-clusters",
+          "https://www.worldbank.org/en/publication/wdr2023"
+        ],
+        "additionalFormatChecks": [
+          "Fiveexplicitprompts plusblank-headingdiscussionsection,twelveresponses,two3columntables8and5rows,two10questionquizzes/keys,30discussionquestions."
+        ],
+        "limitations": [],
+        "isolatedBuildRecord": "quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json"
+      }
+    },
+    {
+      "title": "Justified Optimism",
+      "pagePath": "/economics/justified-optimism/",
+      "source": "http://byteseismic.com/2024/05/01/justified-optimism/",
+      "wordpressId": 7650,
+      "decisions": [
+        "Corrected false denial ofHansRoslingauthorship andcreditedallthreeauthors; correctedStevenPinkername throughoutresponses/quizzes/discussion.",
+        "DatedFactfulnessstatistics andcorrectedgirlslowincomedenominator, vaccinationqualification andincomeclassification conflation.",
+        "SeparatedPinkerhistoricalthesis fromunverifiedcurrentgenocide/warclaims andunsupportedprehistoricratios; preservedallviolencetopics withmeasurementlimits.",
+        "Qualifiedevolution/educationpsychologizing, addedtwo-sidedbiastesting andforecastchecks; correctedquizitems4andavailabilityanswer."
+      ],
+      "verification": {
+        "pagePath": "/economics/justified-optimism/",
+        "sourceSha256": "336f5b2e7394761a4b0ce24e4af999328142f20f42daa8f95732be09df859368",
+        "originalPrompts": 6,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 6,
+        "sourceColumns": 12,
+        "modelResponses": 12,
+        "blocksRetainedVerbatim": 88,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 47,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "prompt-1 ordered lists": [
+            5
+          ],
+          "prompt-2 ordered lists": [
+            6
+          ],
+          "prompt-3 ordered lists": [
+            6
+          ],
+          "prompt-4 ordered lists": [
+            8
+          ],
+          "prompt-5 ordered lists": [
+            7,
+            7,
+            7,
+            7
+          ],
+          "prompt-6 ordered lists": [
+            15,
+            15
+          ]
+        },
+        "sha256": "725f4dc667818b61fbb7b236ceb434c8efd287d0e11042effb7725a56a452437",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "Justified Optimism",
+        "queueTitle": "Justified Optimism",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "response",
+          "list item"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 141,
+          "ranges": [
+            [
+              1,
+              141
+            ]
+          ],
+          "complete": true,
+          "indexFile": "quality/original-source-revisions/justified-optimism-reading-index-2026-11-26.txt",
+          "readingPassNotes": [
+            "1-141"
+          ]
+        },
+        "currentArticleReadingCoverage": {
+          "indexedLines": 374,
+          "ranges": [
+            [
+              1,
+              374
+            ]
+          ],
+          "complete": true,
+          "snapshot": "quality/original-source-revisions/justified-optimism-before-review-2026-11-26.html",
+          "sha256": "16e83742c7ae228164794b03eefbcdb2f6f9ba0d2d5bc3e8a4b7a8013bc4a83b",
+          "readingPassNotes": [
+            "1-195",
+            "196-374"
+          ]
+        },
+        "isolatedBuildVerified": true,
+        "verifiedAt": "2026-11-26T15:22:39.370768-05:00",
+        "primarySourcesChecked": [
+          "https://us.macmillan.com/books/9781250107817/factfulness/",
+          "https://www.gapminder.org/factfulness-book/notes/",
+          "https://stevenpinker.com/publications/better-angels-our-nature",
+          "https://stevenpinker.com/frequently-asked-questions-about-better-angels-our-nature-why-violence-has-declined",
+          "https://www.vrc.crim.cam.ac.uk/vrcresearch/dynamics"
+        ],
+        "additionalFormatChecks": [
+          "Sixprompts12responses,two7questionquizzesandkeys,30discussionquestions."
+        ],
+        "limitations": [
+          "No independently verified current global genocide trend is claimed; the original unsupported assertions are explicitly qualified."
+        ],
+        "isolatedBuildRecord": "quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json"
+      }
+    },
+    {
+      "title": "The Poverty Line",
+      "pagePath": "/economics/the-poverty-line/",
+      "source": "http://byteseismic.com/2024/04/10/the-poverty-line/",
+      "wordpressId": 5962,
+      "decisions": [
+        "Recovered omitted Claude tables/responses insections1and4 andcorrectmodelattribution.",
+        "Rebuiltbothnationaltableswithdatedsource-linkedlines/rates; fixedUSfamilyunit/arithmetic,Chinaruraldenominatorand2010prices,Boliviamethodchange,Francecurrency,Cambodia/Togoneedsbaskets,Russiavintage.",
+        "Updatedinternationalpovertyline3.00in2021PPP; distinguishedvalues/conventionsfromarbitrarymeasurementandrejectedcomparisonnihilism.",
+        "RebuiltHDI/ranksfromUNDP2025release2023data;datedGiniobservationswithmissingCambodiatransparent;removedunsupportedGiniranks.",
+        "Rebuiltsecondtablewithdefinedbasicdrinkingwater2023andWHR2022lifeevaluations2019–2021; allsevenrowsretained.",
+        "CorrectedClaudeincomenotmeasuredanswerandChatGPTFrenchcurrencyquiz;kept20questions/keys and30discussionprompts."
+      ],
+      "verification": {
+        "pagePath": "/economics/the-poverty-line/",
+        "sourceSha256": "27790ec15e74313cae8a73e0566ea974f57be7ff8e9ef4401c17b66adabef731",
+        "originalPrompts": 6,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 6,
+        "sourceColumns": 12,
+        "modelResponses": 12,
+        "blocksRetainedVerbatim": 80,
+        "tableCellsExplicitlyRevised": 96,
+        "blocksExplicitlyRevised": 55,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "prompt-1 ordered lists": [
+            7
+          ],
+          "prompt-2 ordered lists": [
+            6
+          ],
+          "prompt-3 ordered lists": [
+            5,
+            5
+          ],
+          "prompt-4 ordered lists": [
+            3
+          ],
+          "prompt-5 ordered lists": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "prompt-6 ordered lists": [
+            15,
+            15
+          ]
+        },
+        "sha256": "8bbae39c77d5d65c13baa11d2aeb2a22dddd994bec535318940f08280e58e519",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "The Poverty Line",
+        "queueTitle": "The Poverty Line",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "response",
+          "list item"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 145,
+          "ranges": [
+            [
+              1,
+              145
+            ]
+          ],
+          "complete": true,
+          "indexFile": "quality/original-source-revisions/the-poverty-line-reading-index-2026-11-26.txt",
+          "readingPassNotes": [
+            "1-128 before sibling recovery",
+            "13-19 and59-68 after recovery"
+          ]
+        },
+        "currentArticleReadingCoverage": {
+          "indexedLines": 469,
+          "ranges": [
+            [
+              1,
+              469
+            ]
+          ],
+          "complete": true,
+          "snapshot": "quality/original-source-revisions/the-poverty-line-before-review-2026-11-26.html",
+          "sha256": "42393aa00aa5047ccae97ad05d0fc5a3da6b50f4a903731f0805de9f36dcb6fb",
+          "readingPassNotes": [
+            "1-210",
+            "211-340",
+            "341-469"
+          ]
+        },
+        "isolatedBuildVerified": true,
+        "verifiedAt": "2026-11-26T15:22:39.370768-05:00",
+        "primarySourcesChecked": [
+          "https://www.census.gov/library/publications/2024/demo/p60-283.html",
+          "https://www.stats.gov.cn/zs/tjws/tjzb/202301/t20230101_1903716.html",
+          "https://www.ine.gob.bo/index.php/descarga/225/publicaciones/48206/nota-tecnica-pobreza-2f.pdf",
+          "https://www.insee.fr/en/statistiques/8220422",
+          "https://www.worldbank.org/en/country/cambodia/publication/cambodia-poverty-assessment-2022-toward-a-more-inclusive-and-resilient-cambodia",
+          "https://documents1.worldbank.org/curated/en/099110623151041764/pdf/P176872075c6e80b90b37009066bfc111f2.pdf",
+          "https://rosstat.gov.ru/storage/mediabank/SGD_2022_RUS.pdf",
+          "https://www.worldbank.org/en/news/factsheet/2025/06/05/june-2025-update-to-global-poverty-lines",
+          "https://www.census.gov/data/tables/time-series/demo/income-poverty/historical-poverty-thresholds.html",
+          "https://hdr.undp.org/data-center/documentation-and-downloads",
+          "https://data.worldbank.org/indicator/SI.POV.GINI",
+          "https://data.worldbank.org/indicator/SH.H2O.BASW.ZS",
+          "https://www.worldhappiness.report/ed/2022/"
+        ],
+        "additionalFormatChecks": [
+          "Sixprompts12responses fourtableseachsevenrows; two10questionquizzesandkeys;30discussionquestions. Dataextracts retained."
+        ],
+        "limitations": [
+          "Nationalpovertyexamples intentionallyuse differentdocumentedyears/populations andmustnotberanked asabsolutelivingstandards.",
+          "Cambodia Gini not available in checked2015–2023window; no value orrankinvented.",
+          "Russia2020figureisadatedpublishedestimateandlatermethodschanged."
+        ],
+        "isolatedBuildRecord": "quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json"
+      }
+    },
+    {
+      "title": "What Makes Economics &#8220;Dismal&#8221;?",
+      "pagePath": "/economics/what-makes-economics-dismal/",
+      "source": "http://byteseismic.com/2024/03/14/what-makes-economics-dismal/",
+      "wordpressId": 3700,
+      "decisions": [
+        "Corrected Carlyle/Mill chronology and emancipation context; separated Malthus association from coinage.",
+        "Rejected the prompt’s unsupported general forecast-improvement premise and separated local causal inference from aggregate forecasts and macroeconomic stability.",
+        "Qualified natural-science contrast, big-data guarantees, and uniform curriculum history; preserved named tools and periods.",
+        "Repaired Gemini quiz questions 6,7,10 and keys; preserved both ten-question quizzes and all thirty source discussion questions."
+      ],
+      "verification": {
+        "pagePath": "/economics/what-makes-economics-dismal/",
+        "sourceSha256": "df014317ec6a6baee58e6f60f27244780465f21afd58e2e6c034073d145d00ab",
+        "originalPrompts": 6,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 6,
+        "sourceColumns": 12,
+        "modelResponses": 12,
+        "blocksRetainedVerbatim": 173,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 42,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "prompt-2 ordered lists": [
+            3
+          ],
+          "prompt-3 ordered lists": [
+            5
+          ],
+          "prompt-5 ordered lists": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            10,
+            10,
+            10
+          ],
+          "prompt-6 ordered lists": [
+            15,
+            15
+          ]
+        },
+        "sha256": "98e1de53375df979093bb9d1b16d01f2821201913bee773d2eff9016424fdb85",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "What Makes Economics &#8220;Dismal&#8221;?",
+        "queueTitle": "What Makes Economics &#8220;Dismal&#8221;?",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "response",
+          "list item"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 221,
+          "ranges": [
+            [
+              1,
+              221
+            ]
+          ],
+          "complete": true,
+          "indexFile": "quality/original-source-revisions/what-makes-economics-dismal-reading-index-2026-11-26.txt"
+        },
+        "currentArticleReadingCoverage": {
+          "indexedLines": 347,
+          "ranges": [
+            [
+              1,
+              347
+            ]
+          ],
+          "complete": true,
+          "snapshot": "quality/original-source-revisions/what-makes-economics-dismal-before-review-2026-11-26.html",
+          "sha256": "3a4d8e8f751428b04fd3d745884dbc9f503f2128b010290cda25ed841dbe8c0f",
+          "readingPassNotes": [
+            "1-170",
+            "1-26 rechecked after output truncation",
+            "171-347"
+          ]
+        },
+        "isolatedBuildVerified": true,
+        "verifiedAt": "2026-11-26T15:22:39.370768-05:00",
+        "primarySourcesChecked": [
+          "https://www.hetwebsite.net/het/texts/carlyle/carlyle1849negroquestion.htm",
+          "https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/titles/255/Mill_0223-21_EBk_v6.0.pdf",
+          "https://www.federalreserve.gov/boarddocs/speeches/2004/20040220/default.htm",
+          "https://www.nobelprize.org/prizes/economic-sciences/2021/summary/"
+        ],
+        "additionalFormatChecks": [
+          "Six prompts, twelve responses, twenty quiz questions and keys; both discussion lists have fifteen original items."
+        ],
+        "limitations": [],
+        "isolatedBuildRecord": "quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json"
+      }
+    },
+    {
+      "title": "Absolute Certainty",
+      "pagePath": "/epistemology/absolute-certainty/",
+      "source": "http://byteseismic.com/2024/02/11/absolute-certainty/",
+      "wordpressId": 430,
+      "decisions": [
+        "Recovered complete second prompt and both separate model follow-ups; ten responses rather than truncated composites.",
+        "Distinguished pain from injury, first-person authority from infallibility, and qualia from a single theory; corrected broad Descartes/Wittgenstein/phenomenology attributions.",
+        "Separated acquisition, proof, consistency, semantic truth, and human checking; corrected sycophantic acceptance of induction subsuming deduction.",
+        "Added conditions and scope for Gödel; corrected constructivism versus educational learning theory; repaired both eight-item quiz sets and discussion premises."
+      ],
+      "verification": {
+        "pagePath": "/epistemology/absolute-certainty/",
+        "sourceSha256": "92793e91fef09f8ec41e0de258eb59847c72e2c67ca7727a3efa6bc0a6e2b2f2",
+        "originalPrompts": 6,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 6,
+        "sourceColumns": 10,
+        "modelResponses": 10,
+        "blocksRetainedVerbatim": 87,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 53,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "prompt-1 ordered lists": [
+            3
+          ],
+          "prompt-2 ordered lists": [
+            3
+          ],
+          "prompt-3 ordered lists": [
+            5
+          ],
+          "prompt-5 ordered lists": [
+            8,
+            8,
+            8
+          ],
+          "prompt-6 ordered lists": [
+            15,
+            15
+          ]
+        },
+        "sha256": "961d7d7cda9aa357c0ba3275be9cf8e965e603a2085f92e159cad21fd4a098ec",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "Absolute Certainty",
+        "queueTitle": "Absolute Certainty",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "response",
+          "list item"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 147,
+          "ranges": [
+            [
+              1,
+              147
+            ]
+          ],
+          "complete": true,
+          "indexFile": "quality/original-source-revisions/absolute-certainty-reading-index-2026-11-26.txt",
+          "readingPassNotes": [
+            "1-20",
+            "21-111",
+            "112-146",
+            "147 complete prompt continuation"
+          ]
+        },
+        "currentArticleReadingCoverage": {
+          "indexedLines": 349,
+          "ranges": [
+            [
+              1,
+              349
+            ]
+          ],
+          "complete": true,
+          "snapshot": "quality/original-source-revisions/absolute-certainty-before-review-2026-11-26.html",
+          "sha256": "4cead18223c3d7e75a13ff894af92ed9230125b6d8e4b1729da9227e4bc4d99f",
+          "readingPassNotes": [
+            "1-175",
+            "176-349"
+          ]
+        },
+        "isolatedBuildVerified": true,
+        "verifiedAt": "2026-11-26T15:22:39.370768-05:00",
+        "primarySourcesChecked": [
+          "https://www.iasp-pain.org/publications/iasp-news/iasp-announces-revised-definition-of-pain/",
+          "https://www.earlymoderntexts.com/assets/pdfs/descartes1641.pdf",
+          "https://www.cs.cornell.edu/info/people/kreitz/Teaching/CS486/notes-23.pdf",
+          "https://plato.stanford.edu/entries/mathematics-constructive/",
+          "https://plato.stanford.edu/entries/goedel-incompleteness/"
+        ],
+        "additionalFormatChecks": [
+          "Six prompts, ten responses including ChatGPT-only3 and Gemini-only4, sixteen quiz questions/answers, thirty discussion questions."
+        ],
+        "limitations": [],
+        "isolatedBuildRecord": "quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json"
+      }
+    },
+    {
+      "title": "Case #5 &#8211; Vanishing Probabilities",
+      "pagePath": "/epistemology/case-5-vanishing-probabilities/",
+      "source": "http://byteseismic.com/2024/04/14/case-5-vanishing-probabilities/",
+      "wordpressId": 6211,
+      "decisions": [
+        "Recovered full teacher rationale and both first responses; corrected 1/33 conditional shares versus unsupported independent-events calculation.",
+        "Corrected 63.4% arithmetic and division-fallacy mislabel; distinguished disjoint, overlapping, independent, and conditional events throughout.",
+        "Kept all original toy percentages but disclosed arbitrary weights, missing mass, overlaps, and absent measured base rates; avoided individual accusations.",
+        "Repaired missing-car total-probability formula and double counting of evidence; preserved all six scenarios and curator criticism of Gemini, clarified hypothetical Mars tire and actual aluminum wheels.",
+        "Updated fourteen quiz questions/keys and thirty discussion prompts to match corrected mathematics."
+      ],
+      "verification": {
+        "pagePath": "/epistemology/case-5-vanishing-probabilities/",
+        "sourceSha256": "b5c35f675624c5ff5b2da0aa5674e2b03cf0c5414943a57167a9d12fc0b44336",
+        "originalPrompts": 6,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 6,
+        "sourceColumns": 12,
+        "modelResponses": 12,
+        "blocksRetainedVerbatim": 214,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 63,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "prompt-1 ordered lists": [
+            1,
+            2,
+            2,
+            4
+          ],
+          "prompt-2 ordered lists": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            5,
+            4
+          ],
+          "prompt-3 ordered lists": [
+            1,
+            1,
+            1
+          ],
+          "prompt-4 ordered lists": [
+            4
+          ],
+          "prompt-5 ordered lists": [
+            7,
+            7
+          ],
+          "prompt-6 ordered lists": [
+            15,
+            15
+          ]
+        },
+        "sha256": "c1e81d117ea055f22641444d8c9868a682e4731f7b7ed52bd068e4cc8eecc2bd",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "Case #5 &#8211; Vanishing Probabilities",
+        "queueTitle": "Case #5 &#8211; Vanishing Probabilities",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "response",
+          "list item"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 284,
+          "ranges": [
+            [
+              1,
+              284
+            ]
+          ],
+          "complete": true,
+          "indexFile": "quality/original-source-revisions/case-5-vanishing-probabilities-reading-index-2026-11-26.txt",
+          "readingPassNotes": [
+            "1-130 (including recovered first exchange)",
+            "131-160",
+            "161-260",
+            "261-283",
+            "284 full teacher rationale"
+          ]
+        },
+        "currentArticleReadingCoverage": {
+          "indexedLines": 373,
+          "ranges": [
+            [
+              1,
+              373
+            ]
+          ],
+          "complete": true,
+          "snapshot": "quality/original-source-revisions/case-5-vanishing-probabilities-before-review-2026-11-26.html",
+          "sha256": "24c4972b4c6fec86f3cf9f31929f7d648f70f21617cc5e9d08deb7e17d5c2a27",
+          "readingPassNotes": [
+            "1-165",
+            "166-373"
+          ]
+        },
+        "isolatedBuildVerified": true,
+        "verifiedAt": "2026-11-26T15:22:39.370768-05:00",
+        "primarySourcesChecked": [
+          "https://cs229.stanford.edu/lectures-spring2023/cs229-probability_review.pdf",
+          "https://www.probabilitycourse.com/chapter1/1_4_1_independence.php",
+          "https://www.nasa.gov/image-article/testing-wheels-of-mars-curiosity-rover/"
+        ],
+        "additionalFormatChecks": [
+          "Six prompts, twelve responses, six scenarios, two seven-question quizzes with all keys, thirty discussion questions.",
+          "Numerically checked 1-0.97**33=0.6340116757315108; missing toy mass75%,48%,25%."
+        ],
+        "limitations": [],
+        "isolatedBuildRecord": "quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json"
+      }
+    },
+    {
+      "title": "Cromwell&#8217;s Rule",
+      "pagePath": "/epistemology/cromwells-rule/",
+      "source": "http://byteseismic.com/2024/05/19/cromwells-rule/",
+      "wordpressId": 9322,
+      "decisions": [
+        "Restored opening definition and all eighteen model responses, three full dialogues, thirty quizzes and sixty discussion questions, including extra ChatGPT contextual set.",
+        "Qualified zero/one invariance by positive-probability conditioning and fixed model; distinguished continuous point probabilities, impossible events, and model revision; corrected Claude reversed zero/one ordering and both tautology examples.",
+        "Separated predictive coin chance from prior over bias with checked Beta update; corrected amnesia as information loss, blanket diagnosis of closed-mindedness, and flat-Earth historical vignette.",
+        "Verified Lindley/Jaynes/Popper/Kahneman/Coursera/TED references; marked three exact article/book citations and unnamed web resources unverified; retained each original entry with correction.",
+        "Replaced two off-topic quiz items on Earth age and ad hominem with grounded coin/model-revision questions, preserving all options and keys; corrected other quiz/discussion premises."
+      ],
+      "verification": {
+        "pagePath": "/epistemology/cromwells-rule/",
+        "sourceSha256": "bbaab7796670a5bc0549683ea1933ed3f8f7dfcc0b9dad6a79c3aa444d0bd45b",
+        "originalPrompts": 6,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 6,
+        "sourceColumns": 18,
+        "modelResponses": 18,
+        "blocksRetainedVerbatim": 251,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 87,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "prompt-1 ordered lists": [
+            2,
+            3,
+            3,
+            3,
+            2,
+            2
+          ],
+          "prompt-2 ordered lists": [
+            2,
+            2,
+            3,
+            3,
+            4,
+            3
+          ],
+          "prompt-4 ordered lists": [
+            3,
+            3,
+            3,
+            3,
+            4
+          ],
+          "prompt-5 ordered lists": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ],
+          "prompt-6 ordered lists": [
+            15,
+            15,
+            15,
+            15
+          ]
+        },
+        "sha256": "183f4d8c9e5d1546b5f6b5087e476e951d0f575f15089e82ba688f183b139365",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "Cromwell&#8217;s Rule",
+        "queueTitle": "Cromwell&#8217;s Rule",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "response",
+          "list item"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 345,
+          "ranges": [
+            [
+              1,
+              345
+            ]
+          ],
+          "complete": true,
+          "indexFile": "quality/original-source-revisions/cromwells-rule-reading-index-2026-11-26.txt",
+          "readingPassNotes": [
+            "1-90",
+            "91-185",
+            "186-344",
+            "345 quoted definition"
+          ]
+        },
+        "currentArticleReadingCoverage": {
+          "indexedLines": 418,
+          "ranges": [
+            [
+              1,
+              418
+            ]
+          ],
+          "complete": true,
+          "snapshot": "quality/original-source-revisions/cromwells-rule-before-review-2026-11-26.html",
+          "sha256": "2f694b9171ec2c4bbe7fd93658e4cde83a24213dded1da4bb1ba8903a6b2e0c2",
+          "readingPassNotes": [
+            "1-95",
+            "96-245",
+            "246-418"
+          ]
+        },
+        "isolatedBuildVerified": true,
+        "verifiedAt": "2026-11-26T15:22:39.370768-05:00",
+        "primarySourcesChecked": [
+          "https://onlinelibrary.wiley.com/doi/book/10.1002/0470055480",
+          "https://cs229.stanford.edu/lectures-spring2023/cs229-probability_review.pdf",
+          "https://www.cambridge.org/core/books/probability-theory/9CA08E224FF30123304E6D8935CF1A99",
+          "https://www.routledge.com/The-Logic-of-Scientific%20Discovery/Popper/p/book/9780203994627",
+          "https://us.macmillan.com/books/9780374275631/thinkingfastandslow/",
+          "https://www.coursera.org/learn/bayesian-statistics",
+          "https://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve",
+          "https://plato.stanford.edu/entries/probability-interpret/",
+          "https://plato.stanford.edu/entries/epistemology-bayesian/"
+        ],
+        "additionalFormatChecks": [
+          "Six prompts, eighteen responses, three dialogues retaining all speaker turns, thirty quiz questions and keys, sixty discussion questions (30+15+15)."
+        ],
+        "limitations": [
+          "Exact titles attributed to Goldstein, Schum, and Savage were not verified; retained with explicit caveats. Unnamed LessWrong/YouTube/DeepAI recommendations are not treated as verified sources."
+        ],
+        "isolatedBuildRecord": "quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json"
+      }
+    }
+  ],
+  "unrelatedFilesHashPreserved": 476,
+  "rendererFramingRegressionPages": [
+    "political-philosophy-core-concepts",
+    "semantics-convention-vs-stipulation",
+    "elements-of-research-design"
+  ],
+  "limitations": [
+    "No full browser/mobile/accessibility inspection claimed.",
+    "AI Logic & Intelligence retains and qualifies quotations whose separate supplied podcast transcript is absent from the published WordPress source.",
+    "Historical data tables use explicitly dated releases; no claim that those values are live estimates.",
+    "Unverified resource titles are explicitly labeled; original short/missing quiz or discussion counts are disclosed, with any editorial additions marked.",
+    "One pre-existing double-and grammar warning remains at /philosophical-inquiry/dangers-unnuanced-conclusions/, outside this assignment."
+  ],
+  "substantiveTotal": 249,
+  "totalQueued": 346,
+  "remaining": 97,
+  "currentBatchReviewed": 49,
+  "currentBatchPending": 1,
+  "nextPage": "/epistemology/establishing-cognitive-reliability-1/",
+  "rendererFeatureChecks": [
+    {
+      "check": "missing curator framing",
+      "rejected": true
+    },
+    {
+      "check": "wrong source framing hash",
+      "rejected": true
+    },
+    {
+      "check": "bare-text replacement must match source",
+      "rejected": true
+    },
+    {
+      "check": "missing bare-text quiz item",
+      "rejected": true
+    },
+    {
+      "check": "Gemini table moved into ChatGPT response",
+      "rejected": true
+    }
+  ],
+  "rendererRegressionChecks": [
+    {
+      "slug": "political-philosophy-core-concepts",
+      "oldAndNewRendererByteIdentical": true,
+      "sha256": "efdf6a78968237e77345954d32380db8902df510bb40e63b3d1eedb0561e9664"
+    },
+    {
+      "slug": "semantics-convention-vs-stipulation",
+      "oldAndNewRendererByteIdentical": true,
+      "sha256": "f0ca937819d7ed2b87d78d7a35b53281f7b1053c7cd5abd1ec6566307f071e73"
+    },
+    {
+      "slug": "elements-of-research-design",
+      "oldAndNewRendererByteIdentical": true,
+      "sha256": "04b86efe592cdb6e24311dd46a79e2cf365480967ae92746fc5848a33a88e28a"
+    }
+  ],
+  "publication": {
+    "required": "Commit and push these exact files, then pass the published gate with --date 2026-11-26 --run-id review-recovery.",
+    "confirmationLocation": "Automation memory and final response record the independently confirmed commit and published-gate result."
+  }
+}

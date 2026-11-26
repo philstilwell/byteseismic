@@ -1,0 +1,109 @@
+{
+  "pageFile": "economics/economic-optimism/index.html",
+  "wordpressId": 4365,
+  "snapshot": "economic-optimism-wordpress-4365.html",
+  "sourceUrl": "http://byteseismic.com/2024/03/24/economic-optimism/",
+  "sourceLabel": "Original WordPress conversation, 2024-03-24",
+  "shellRevision": "6b5fb4df56e85247bc7cd169f1f9d7aa80b5c509",
+  "date": "2026-11-26",
+  "sourceSha256": "68454cce0ffd88ece5fa81d37934dc79fee9c0369a640f5d520dd090ad15c3ce",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "Provide evidence that we are on an upward economic trajectory that will continue to provide ever-better career and lifestyle opportunities to global citizens.",
+    "Provide links to quality sources of the data alluded to above.",
+    "Given the exponential growth across the many metrics through which economic progress is evinced, what is behind the economic pessimism we often encounter?",
+    "How can public-facing economists and social scientists more accurately reflect the actual health and potential of the global economy?",
+    "Create a 10-item quiz on the discussion above.  ",
+    "Provide 15 discussion questions relevant to the content above. "
+  ],
+  "introHeading": "Economic Optimism",
+  "intro": "Six exchanges examine evidence of long-run progress, sources for checking it, reasons for pessimism, and responsible public communication. Both model responses and two ten-question quizzes with thirty discussion questions are preserved. Historical improvement supports possibilities for progress; it cannot establish that every future generation or group will benefit.",
+  "description": "Evidence and limits of economic optimism, usable data sources, uneven progress, and accurate public communication.",
+  "highlights": [
+    "Past gains demonstrate possibilities, not a guarantee of future prosperity.",
+    "Use dated, consistently defined series rather than assume every indicator grows exponentially.",
+    "Accurate communication should improve understanding, whether the resulting outlook is optimistic or pessimistic."
+  ],
+  "replacements": {
+    "1.1.0": "Long-run evidence shows substantial improvements in output, health, and education. It does not prove the prompt’s stronger claim that career and lifestyle opportunities will keep improving for all global citizens. Separate observed trends, possible mechanisms of further progress, and conditional forecasts.",
+    "1.1.2": "<strong>Output growth:</strong> Maddison’s 2010 reconstruction puts world GDP at about 0.694 trillion in 1820 and 36.688 trillion in 2000, roughly 53 times larger, in consistent 1990 international Geary–Khamis dollars. See the <a href=\"https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-database-2010\">original data release</a>. The original “hundredfold since the nineteenth century” claim lacked specified endpoints and units; population growth also contributes to total output.",
+    "1.1.4": "<strong>Poverty:</strong> The <a href=\"https://blogs.worldbank.org/en/opendata/september-2020-global-poverty-update-world-bank-new-annual-poverty-estimates-using-revised\">World Bank’s September 2020 update</a> estimated extreme poverty at 36.2% in 1990 and 9.2% in 2017 using $1.90 a day in 2011 purchasing-power terms. This is a dated comparison under that threshold, not the current poverty definition or a forecast of uninterrupted decline.",
+    "1.1.8": "<strong>Integration:</strong> Trade and investment can spread knowledge and expand markets. Gains and adjustment costs differ across workers and places, so aggregate benefits do not establish that each community has better opportunities.",
+    "1.1.10": "<strong>Health:</strong> <a href=\"https://www.who.int/news/item/20-05-2022-world-health-statistics-2022\">WHO’s 2022 report</a> estimated global life expectancy at birth rising from 66.8 years in 2000 to 73.3 in 2019. This dated estimate supports the six-year improvement claim; it does not imply continuous subsequent progress or that economic growth alone caused the gain.",
+    "1.1.12": "<strong>Green-economy opportunities:</strong> Energy, efficiency, and environmental investments can create work and improve welfare. Assess net employment, displaced activity, training needs, and policy conditions rather than count new-sector jobs as an automatic net gain.",
+    "1.1.14": "<strong>Middle-income consumers:</strong> Rising purchasing power can expand demand, but “middle class” depends on the income or consumption definition. Its growth does not by itself ensure macroeconomic stability, and projections should not be reported as completed gains.",
+    "1.2.1": "<strong>1. Poverty reduction:</strong> Under the $1.90 line in 2011 purchasing-power terms, the <a href=\"https://blogs.worldbank.org/en/opendata/september-2020-global-poverty-update-world-bank-new-annual-poverty-estimates-using-revised\">September 2020 World Bank release</a> reported 36.2% in 1990 and 9.2% in 2017, not under 9%. Later releases and poverty lines must be labeled separately.",
+    "1.2.2": "<strong>2. Living standards:</strong> Real GDP per person has risen substantially over long periods. It measures average production, not the distribution of income, security, leisure, or environmental quality; those need separate indicators.",
+    "1.2.3": "<strong>3. Technology:</strong> Innovations in medicine, energy, and communication show scope for further improvement. The pace differs by field, and inventions must be adopted and combined with institutions and skills before their potential becomes widespread benefit.",
+    "1.2.4": "<strong>4. Education:</strong> Adult literacy has risen greatly over the long run, but progress varies and enrollment is not equivalent to learning. <a href=\"https://data.worldbank.org/indicator/SE.ADT.LITR.ZS?locations=1W\">UNESCO literacy data distributed by the World Bank</a> specify the population aged 15 and above and observation years.",
+    "2.1.1": "<strong>Historical output:</strong> The <a href=\"https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-database-2010\">Maddison 2010 data</a> provide the consistent historical comparison used above. <a href=\"https://ourworldindata.org/economic-growth\">Our World in Data’s economic-growth topic</a> offers explanatory charts. Check each chart’s release and units before combining values.",
+    "2.1.2": "<strong>Annual growth:</strong> <a href=\"https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG\">World Bank GDP growth, annual percent</a> reports changes in real output. Annual growth rates, output levels, and output per capita answer different questions.",
+    "2.1.3": "<strong>Broader progress:</strong> <a href=\"https://ourworldindata.org/a-history-of-global-living-conditions\">Our World in Data’s historical overview</a> compares several living-condition measures and identifies their sources. It is a guide to evidence, not proof that growth automatically solves inequality or environmental damage.",
+    "2.1.4": "Use these sources to test the claim, including unfavorable periods and groups. Cite the exact indicator, date range, units, and data release; a reputable institution’s homepage is not evidence for every number attributed to it.",
+    "2.2.2": "<a href=\"https://pip.worldbank.org/\">World Bank Poverty and Inequality Platform</a> for data and definitions; the <a href=\"https://blogs.worldbank.org/en/opendata/september-2020-global-poverty-update-world-bank-new-annual-poverty-estimates-using-revised\">September 2020 release</a> documents the historical figures used here.",
+    "2.2.4": "<a href=\"https://ourworldindata.org/economic-growth\">Our World in Data: economic growth</a>. Select a per-capita series with a stated purchasing-power benchmark and read its sources and processing notes.",
+    "2.2.6": "<a href=\"https://www.uis.unesco.org/en\">UNESCO Institute for Statistics</a>; for the specific adult-literacy indicator, use <a href=\"https://data.worldbank.org/indicator/SE.ADT.LITR.ZS\">the World Bank’s UNESCO-sourced series</a>. The former literacy-topic link now redirects to the institute’s homepage.",
+    "3.1.0": "The premise needs qualification: substantial improvement is not the same as exponential growth. Literacy is bounded, and gains in life expectancy or income can slow or reverse. Pessimism can reflect inaccurate beliefs, genuine local losses, or a reasonable forecast of risk:",
+    "3.1.3": "Average growth can coexist with stagnant or falling real income for particular groups. Measure distribution, housing and other essential costs, and the relevant period before deciding whether dissatisfaction reflects misperception.",
+    "3.1.7": "Environmental damage and climate risks can rationally lower expectations of future welfare. The relationship between output and environmental impact varies by pollutant, energy system, and policy; it is not a single fixed proportional link.",
+    "3.1.9": "Trade and structural change can create benefits alongside concentrated losses and community disruption. These are not merely feelings of being left behind; evaluate actual employment, income, services, and adjustment prospects.",
+    "3.1.11": "Negative information and relative comparisons can affect judgment. But identifying a possible bias does not show that a particular pessimistic belief is false; compare that belief with evidence about its subject and time horizon.",
+    "3.2.1": "<strong>Time horizon:</strong> A long-run improvement can coexist with an important current downturn. Neither time scale automatically overrides the other when people assess their own prospects.",
+    "3.2.2": "<strong>Distribution:</strong> Rising average output does not establish improvement for every group. Some people face real losses even when the aggregate grows.",
+    "3.2.3": "<strong>Psychological mechanisms:</strong> Loss aversion concerns how gains and losses are evaluated relative to a reference point; negativity bias concerns the weight of negative information. They are related but distinct, and neither makes all pessimism irrational.",
+    "4.1.2": "Present improvements, setbacks, distribution, and uncertainty in proportion to their evidence. “Balanced” should not mean equal space for unequal evidence or a predetermined optimistic conclusion.",
+    "4.1.6": "Charts should identify source, dates, units, denominators, uncertainty, and axis choices. Separate totals from per-capita values and nominal prices from real purchasing power; attractive graphics can otherwise conceal misleading comparisons.",
+    "4.2.2": "<strong>Show multiple horizons:</strong> Place recent changes in long-run context without dismissing immediate hardship. Explain what each horizon can and cannot show.",
+    "4.2.4": "<strong>Explain gains accurately:</strong> Show documented benefits alongside who received them and what costs accompanied them. Positive framing should not substitute for representative evidence.",
+    "4.2.8": "<strong>Past downturns:</strong> Explain recoveries and their unequal pace while recognizing lasting losses. Historical resilience is evidence of capacity, not a guarantee of quick or complete recovery.",
+    "4.2.16": "The goal is a more informed public assessment, not optimism as an independent target. Clear uncertainty, accessible sources, and correction of errors make both hopeful and cautious conclusions more credible.",
+    "5.2.2": "Which is a geopolitical risk to economic opportunities? a) Improved access to training b) Wider vaccination c) Better literacy d) Armed conflict disrupting trade",
+    "5.2.13": "(d) Armed conflict disrupting trade.",
+    "5.2.7": "Why can people experience hardship during aggregate growth? a) Growth guarantees equal gains b) Poverty must rise whenever output rises c) Gains can be unequal and some groups can lose d) GDP measures every household’s disposable income",
+    "5.2.18": "(c) Gains can be unequal and some groups can lose.",
+    "5.2.8": "Which communication practice undermines credibility? a) Explaining complex data b) Giving historical context c) Presenting uncertain short-term forecasts as guarantees d) Disclosing data limitations",
+    "5.2.19": "(c) Presenting uncertain short-term forecasts as guarantees.",
+    "5.2.9": "Which is an environmental limitation of GDP as a welfare measure? a) It does not comprehensively deduct environmental damage b) It contains only environmental damage c) It measures biodiversity directly d) It excludes all market production",
+    "5.2.20": "(a) It does not comprehensively deduct environmental damage.",
+    "6.2.7": "How can people test both optimistic and pessimistic claims for bias without deciding in advance which outlook they should reach?"
+  },
+  "countChecks": [
+    {
+      "name": "prompt-2 ordered lists",
+      "selector": "#prompt-2 .original-response ol",
+      "child": "li",
+      "expected": [
+        3
+      ]
+    },
+    {
+      "name": "prompt-5 ordered lists",
+      "selector": "#prompt-5 .original-response ol",
+      "child": "li",
+      "expected": [
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "prompt-6 ordered lists",
+      "selector": "#prompt-6 .original-response ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    }
+  ],
+  "preambleHeadingIndexes": [
+    0
+  ],
+  "promptContinuationPreambleIndexes": {
+    "1": 0
+  }
+}

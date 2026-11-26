@@ -1,0 +1,136 @@
+{
+  "pagePath": "/rational-thought/the-professional-application-of-rationality/",
+  "sourceSha256": "59662b38e3ae8cb6b0552b4527a0fc35fc42c1fa56bbd021d13c4b0f416c4502",
+  "originalPrompts": 7,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 7,
+  "sourceColumns": 14,
+  "modelResponses": 14,
+  "blocksRetainedVerbatim": 191,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 57,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "ten quiz questions and ten answer keys per model": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "fifteen discussion questions per model": [
+      15,
+      15
+    ],
+    "prompt-1 ordered lists": [
+      10
+    ],
+    "prompt-2 ordered lists": [
+      10
+    ],
+    "prompt-3 ordered lists": [
+      3,
+      6
+    ],
+    "prompt-4 ordered lists": [
+      2
+    ],
+    "prompt-5 ordered lists": [
+      9
+    ],
+    "prompt-6 ordered lists": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "prompt-7 ordered lists": [
+      15,
+      15
+    ]
+  },
+  "sha256": "f2475161abcd0fcd9d273241c763bc912de7c8fb9c719dc8835cc1480f4ddbbf",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "The Professional Application of Rationality",
+  "queueTitle": "The Professional Application of Rationality",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "response",
+    "list item"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 255,
+    "ranges": [
+      [
+        1,
+        75
+      ],
+      [
+        76,
+        165
+      ],
+      [
+        166,
+        255
+      ]
+    ],
+    "complete": true,
+    "indexFile": "quality/original-source-revisions/the-professional-application-of-rationality-reading-index-2026-11-26.txt"
+  },
+  "currentArticleReadingCoverage": {
+    "indexedLines": 516,
+    "ranges": [
+      [
+        1,
+        120
+      ],
+      [
+        121,
+        250
+      ],
+      [
+        251,
+        385
+      ],
+      [
+        386,
+        516
+      ]
+    ],
+    "complete": true,
+    "snapshot": "quality/original-source-revisions/the-professional-application-of-rationality-before-review-2026-11-26.html",
+    "sha256": "fd158af1ba7de6952d06bd75ddc62b4788b3156c6d73ea9727e5c67a653cfb73"
+  },
+  "isolatedBuildVerified": true,
+  "verifiedAt": "2026-11-26T15:22:39.370768-05:00",
+  "primarySourcesChecked": [
+    "https://journals.sagepub.com/doi/abs/10.1177/2372732215600886",
+    "https://www.newtonproject.ox.ac.uk/view/texts/diplomatic/OTHE00130",
+    "https://www.beethoven.de/de/media/view/5488179599638528/Ludwig%2Bvan%2BBeethoven%2C%2BBrief%2Ban%2Bseine%2BBr%C3%BCder%2BKaspar%2BKarl%2Bund%2BJohann%2C%2BHeiligenstadt%2Bvom%2B6.%2Bund%2B10.%2BOktober%2B1802",
+    "https://www.webexhibits.org/vangogh/letter/19/576.htm?qp=health.mental",
+    "https://turingarchive.kings.cam.ac.uk/correspondence-amtd/amt-d-14a"
+  ],
+  "additionalFormatChecks": {
+    "quizzes": 2,
+    "questionsPerQuiz": 10,
+    "keysPerQuiz": 10,
+    "discussionItemsPerModel": [
+      15,
+      15
+    ],
+    "tables": 0,
+    "dialogueTurns": 0,
+    "substantiveImages": 0
+  },
+  "limitations": [
+    "The original historical cases do not establish high rationality on most metrics or a general emotional-control cause of hardship; the responses now acknowledge that limitation.",
+    "Final isolated full build pending."
+  ],
+  "isolatedBuildRecord": "quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json"
+}

@@ -1,0 +1,96 @@
+{
+  "pagePath": "/economics/economic-entitlements/",
+  "sourceSha256": "ec2475bc191bb8fa88297e7a2b2382fd59d1ca45b684bc6fe486f1935c352217",
+  "originalPrompts": 6,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 131,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 58,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "prompt-1 ordered lists": [
+      1,
+      1,
+      1
+    ],
+    "prompt-2 ordered lists": [
+      6
+    ],
+    "prompt-3 ordered lists": [
+      10
+    ],
+    "prompt-5 ordered lists": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "prompt-6 ordered lists": [
+      15,
+      15
+    ]
+  },
+  "sha256": "ef5e07a307ffa9e94f5222de59045cb4daef09a6b4f827a72badb40f3d449aa2",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "Economic Entitlements",
+  "queueTitle": "Economic Entitlements",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "response",
+    "list item"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 195,
+    "ranges": [
+      [
+        1,
+        195
+      ]
+    ],
+    "complete": true,
+    "indexFile": "quality/original-source-revisions/economic-entitlements-reading-index-2026-11-26.txt",
+    "readingPassNotes": [
+      "1-195"
+    ]
+  },
+  "currentArticleReadingCoverage": {
+    "indexedLines": 407,
+    "ranges": [
+      [
+        1,
+        407
+      ]
+    ],
+    "complete": true,
+    "snapshot": "quality/original-source-revisions/economic-entitlements-before-review-2026-11-26.html",
+    "sha256": "f76b019abb4216ef357fd0aaf8519c290ed5fa81f265a2dd4d9a5cd8c35a041b",
+    "readingPassNotes": [
+      "1-407; truncation160-345 reread"
+    ]
+  },
+  "isolatedBuildVerified": true,
+  "verifiedAt": "2026-11-26T15:22:39.370768-05:00",
+  "primarySourcesChecked": [
+    "https://pubmed.ncbi.nlm.nih.gov/11392867/",
+    "https://www.rug.nl/ggdc/historicaldevelopment/maddison/data/md2010_vertical.xlsx",
+    "https://api.worldbank.org/v2/country/WLD/indicator/NY.GDP.MKTP.CD?date=2015:2020&format=json",
+    "https://ourworldindata.org/a-history-of-global-living-conditions"
+  ],
+  "additionalFormatChecks": [
+    "Sixprompts twelve responses; two10questionquizzes/keys and thirtydiscussionquestions. Historical figures independently extracted from workbook/API and preserved as smallJSON evidence."
+  ],
+  "limitations": [
+    "Early global estimates are reconstructions with substantial uncertainty, not contemporaneous surveys."
+  ],
+  "isolatedBuildRecord": "quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json"
+}

@@ -1,0 +1,95 @@
+{
+  "pagePath": "/economics/innovation-attractors/",
+  "sourceSha256": "73180b27a6eaa6c7c5524debc0aee0a2c7f3d8d98b706eb9f7687459025f0991",
+  "originalPrompts": 5,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 118,
+  "tableCellsExplicitlyRevised": 9,
+  "blocksExplicitlyRevised": 42,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": false,
+  "explicitListItemSplits": [
+    "5.2.10"
+  ],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "prompt-1 ordered lists": [
+      10
+    ],
+    "prompt-2 ordered lists": [
+      7
+    ],
+    "prompt-4 ordered lists": [
+      4,
+      4
+    ],
+    "prompt-5 ordered lists": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "prompt-6 ordered lists": [
+      15,
+      15
+    ]
+  },
+  "sha256": "0b9259ce49b9404cf4d73ecb80717d881f2b3fd038f218e97a95fd093e7abb63",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "Innovation Attractors",
+  "queueTitle": "Innovation Attractors",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "response",
+    "list item"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 168,
+    "ranges": [
+      [
+        1,
+        168
+      ]
+    ],
+    "complete": true,
+    "indexFile": "quality/original-source-revisions/innovation-attractors-reading-index-2026-11-26.txt",
+    "readingPassNotes": [
+      "1-168",
+      "49-60 after nestedresponse separation"
+    ]
+  },
+  "currentArticleReadingCoverage": {
+    "indexedLines": 436,
+    "ranges": [
+      [
+        1,
+        436
+      ]
+    ],
+    "complete": true,
+    "snapshot": "quality/original-source-revisions/innovation-attractors-before-review-2026-11-26.html",
+    "sha256": "081bce0ed397b5407fd91b6d2e328d2979e2dbb416915edca61a906bbf9d6298",
+    "readingPassNotes": [
+      "1-220",
+      "221-436"
+    ]
+  },
+  "isolatedBuildVerified": true,
+  "verifiedAt": "2026-11-26T15:22:39.370768-05:00",
+  "primarySourcesChecked": [
+    "https://www.wipo.int/en/web/global-innovation-index/2025/innovation-clusters",
+    "https://www.worldbank.org/en/publication/wdr2023"
+  ],
+  "additionalFormatChecks": [
+    "Fiveexplicitprompts plusblank-headingdiscussionsection,twelveresponses,two3columntables8and5rows,two10questionquizzes/keys,30discussionquestions."
+  ],
+  "limitations": [],
+  "isolatedBuildRecord": "quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json"
+}

@@ -1,0 +1,99 @@
+{
+  "pagePath": "/economics/justified-optimism/",
+  "sourceSha256": "336f5b2e7394761a4b0ce24e4af999328142f20f42daa8f95732be09df859368",
+  "originalPrompts": 6,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 88,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 47,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "prompt-1 ordered lists": [
+      5
+    ],
+    "prompt-2 ordered lists": [
+      6
+    ],
+    "prompt-3 ordered lists": [
+      6
+    ],
+    "prompt-4 ordered lists": [
+      8
+    ],
+    "prompt-5 ordered lists": [
+      7,
+      7,
+      7,
+      7
+    ],
+    "prompt-6 ordered lists": [
+      15,
+      15
+    ]
+  },
+  "sha256": "725f4dc667818b61fbb7b236ceb434c8efd287d0e11042effb7725a56a452437",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "Justified Optimism",
+  "queueTitle": "Justified Optimism",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "response",
+    "list item"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 141,
+    "ranges": [
+      [
+        1,
+        141
+      ]
+    ],
+    "complete": true,
+    "indexFile": "quality/original-source-revisions/justified-optimism-reading-index-2026-11-26.txt",
+    "readingPassNotes": [
+      "1-141"
+    ]
+  },
+  "currentArticleReadingCoverage": {
+    "indexedLines": 374,
+    "ranges": [
+      [
+        1,
+        374
+      ]
+    ],
+    "complete": true,
+    "snapshot": "quality/original-source-revisions/justified-optimism-before-review-2026-11-26.html",
+    "sha256": "16e83742c7ae228164794b03eefbcdb2f6f9ba0d2d5bc3e8a4b7a8013bc4a83b",
+    "readingPassNotes": [
+      "1-195",
+      "196-374"
+    ]
+  },
+  "isolatedBuildVerified": true,
+  "verifiedAt": "2026-11-26T15:22:39.370768-05:00",
+  "primarySourcesChecked": [
+    "https://us.macmillan.com/books/9781250107817/factfulness/",
+    "https://www.gapminder.org/factfulness-book/notes/",
+    "https://stevenpinker.com/publications/better-angels-our-nature",
+    "https://stevenpinker.com/frequently-asked-questions-about-better-angels-our-nature-why-violence-has-declined",
+    "https://www.vrc.crim.cam.ac.uk/vrcresearch/dynamics"
+  ],
+  "additionalFormatChecks": [
+    "Sixprompts12responses,two7questionquizzesandkeys,30discussionquestions."
+  ],
+  "limitations": [
+    "No independently verified current global genocide trend is claimed; the original unsupported assertions are explicitly qualified."
+  ],
+  "isolatedBuildRecord": "quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json"
+}

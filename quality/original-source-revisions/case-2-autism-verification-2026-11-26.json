@@ -1,0 +1,123 @@
+{
+  "pagePath": "/rational-thought/case-2-autism/",
+  "sourceSha256": "1361e97fc7f01862c6eb7f31cec2f631dcd03ac5f1f45b68d11b5252ae941e56",
+  "originalPrompts": 7,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 7,
+  "sourceColumns": 14,
+  "modelResponses": 14,
+  "blocksRetainedVerbatim": 159,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 69,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "ten question quizzes and ten answer keys": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "fifteen discussion questions per model": [
+      15,
+      15
+    ],
+    "prompt-6 ordered list sizes": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "prompt-7 ordered list sizes": [
+      15,
+      15
+    ]
+  },
+  "sha256": "9195f24993ef744e43393d31162d7e43d33fab4e3a38ca348d43192d776d14d9",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "Case #2 &#8211; Autism",
+  "queueTitle": "Case #2 &#8211; Autism",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "response",
+    "list item"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 235,
+    "ranges": [
+      [
+        1,
+        80
+      ],
+      [
+        81,
+        160
+      ],
+      [
+        161,
+        235
+      ]
+    ],
+    "complete": true,
+    "indexFile": "quality/original-source-revisions/case-2-autism-reading-index-2026-11-26.txt",
+    "additionalFramingRead": "Original highlights, curator framing, model labels, images, and navigation examined separately; navigation is site furniture, not omitted responses."
+  },
+  "currentArticleReadingCoverage": {
+    "snapshot": "quality/original-source-revisions/case-2-autism-before-review-2026-11-26.html",
+    "sha256": "04ec1eb00e8200aa7cdbdc09ba957aa235e5131b19616b0ded23e15ad271539d",
+    "indexedLines": 464,
+    "ranges": [
+      [
+        1,
+        115
+      ],
+      [
+        116,
+        235
+      ],
+      [
+        236,
+        350
+      ],
+      [
+        351,
+        464
+      ]
+    ],
+    "complete": true
+  },
+  "isolatedBuildVerified": true,
+  "verifiedAt": "2026-11-26T15:22:39.370768-05:00",
+  "primarySourcesChecked": [
+    "https://neurodiversity.net/library_kanner_1943.pdf",
+    "https://pubmed.ncbi.nlm.nih.gov/562353/",
+    "https://pubmed.ncbi.nlm.nih.gov/30831578/",
+    "https://www.who.int/news/item/11-12-2025-statement-gacvs-vaccines-autism",
+    "https://www.who.int/news-room/questions-and-answers/item/autism-spectrum-disorders-%28asd%29",
+    "https://www.cancer.gov/about-cancer/causes-prevention/risk/radiation/cell-phones-fact-sheet",
+    "https://www.cancer.gov/about-cancer/causes-prevention/risk/radiation/electromagnetic-fields-fact-sheet",
+    "https://www.cdc.gov/vaccine-safety/about/sids.html",
+    "https://www.niddk.nih.gov/health-information/digestive-diseases/peptic-ulcers-stomach-ulcers/symptoms-causes",
+    "https://www.nature.com/articles/342375a0",
+    "https://media.ellinikahoaxes.gr/uploads/2017/10/High-dilution-experiments-a-delusion.pdf"
+  ],
+  "additionalFormatChecks": {
+    "tables": 0,
+    "scriptedDialogueTurns": 0,
+    "originalQuizQuestions": 20,
+    "originalQuizAnswers": 20,
+    "discussionItems": 30,
+    "substantiveImagesRetained": 0,
+    "curatorHandoffVerbatim": false
+  },
+  "limitations": [
+    "No isolated full build yet; not counted as reviewed-and-verified partial-batch progress."
+  ],
+  "isolatedBuildRecord": "quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json"
+}

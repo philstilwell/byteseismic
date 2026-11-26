@@ -95,6 +95,18 @@ def sections(source, config=None):
             cols = [source.select('.wp-block-column')[i]
                     for i in config['explicitSourceColumnIndexes'][str(index)]]
             assert all(not col.select('h2, .wp-block-column') for col in cols)
+        if index in (config or {}).get('splitNestedColumnHeadingIndexes', []):
+            assert len(cols) == 1
+            outer = cols[0]
+            nested = outer.select('.wp-block-column')
+            assert len(nested) == 1 and not nested[0].select('h2, .wp-block-column')
+            first = copy.deepcopy(outer)
+            first.select_one('.wp-block-column').decompose()
+            first = BeautifulSoup(str(first), 'html.parser').find()
+            cols = [first, nested[0]]
+            # Only unwrap a trailing response; never reorder source prose or tables.
+            assert [str(node) for node in outer.find_all(TAGS + ['table'])] == [
+                str(node) for col in cols for node in col.find_all(TAGS + ['table'])]
         if cols:
             result.append((h, cols))
     return result
@@ -175,6 +187,26 @@ def source_attachments(heading, config, n):
     return result
 
 
+def outer_source_nodes(source, config, position):
+    """Preserve explicitly selected source framing outside prompt responses."""
+    result = []
+    for i, item in enumerate(config.get('sourceOuterNodes', {}).get(position, [])):
+        matches = source.select(item['selector'])
+        assert len(matches) == 1
+        original = matches[0]
+        assert hashlib.sha256(str(original).encode()).hexdigest() == item['sha256']
+        assert not original.select('h2, .wp-block-column'), 'Framing cannot swallow responses'
+        clone = copy.deepcopy(original)
+        for el in [clone, *clone.find_all(True)]:
+            el.attrs = {k: v for k, v in el.attrs.items() if k in ('href', 'src', 'alt')}
+        for im in clone.select('img'):
+            im['alt'] = item['alt']
+            im['style'] = 'max-width:100%;height:auto'
+        clone['data-source-outer'] = f'{position}.{i}'
+        result.append(clone)
+    return result
+
+
 def tag(soup, name, value=None, **attrs):
     node = soup.new_tag(name, attrs=attrs)
     if value is not None:
@@ -220,6 +252,12 @@ def edited_column(original, n, c, config):
             new_image['src'] = override['url'] if override else old_image['src']
             new_image['alt'] = config['sourceImageDescriptions'][key]
             new_image['style'] = 'max-width:100%;height:auto'
+    for item in config.get('bareTextReplacements', {}).get(f'{n}.{c}', []):
+        matches = col.find_all(string=lambda value: str(value) == item['before'])
+        assert len(matches) == 1, 'Bare source text must match exactly once'
+        node = matches[0]
+        assert not any(parent.name in TAGS or parent.name == 'details' for parent in node.parents)
+        node.replace_with(item['after'])
     nodes = col.find_all(TAGS)
     for k, node in enumerate(nodes):
         node['data-source-node'] = f'{n}.{c}.{k}'
@@ -419,6 +457,8 @@ def render(config):
         intro.append(highlights)
     body.append(intro)
     body.append(route)
+    for node in outer_source_nodes(source, config, 'before'):
+        body.append(node)
     ledger = soup.select_one('.prompt-ledger ol')
     ledger.clear()
     for n, (heading, cols) in enumerate(original, 1):
@@ -550,6 +590,8 @@ def render(config):
         figure.append(tag(soup, 'figcaption', appendix['caption']))
         section.append(figure)
         body.append(section)
+    for node in outer_source_nodes(source, config, 'after'):
+        body.append(node)
     body.append(future)
     for label, value in config.get('pageSignals', {}).items():
         matches = [item for item in soup.select('.page-signals__item')
@@ -629,6 +671,18 @@ def verify(config, rendered):
                 assert p.img['style'] == f"max-width:{image_origin.get('maxWidth', '189px')};height:auto"
     assert prompts == [n.get_text() for n in soup.select('.original-prompt-text')]
     assert prompts == [n.get_text() for n in soup.select('.prompt-ledger__text')]
+    for position in ('before', 'after'):
+        expected_outer = outer_source_nodes(source, config, position)
+        actual_outer = soup.select(f'[data-source-outer^="{position}."]')
+        assert [str(x) for x in actual_outer] == [str(x) for x in expected_outer]
+        for node in actual_outer:
+            assert node.parent is soup.select_one('.article-body')
+            prompts_in_body = soup.select('.article-section--prompt')
+            siblings = list(node.parent.children)
+            if position == 'before':
+                assert siblings.index(node) < siblings.index(prompts_in_body[0])
+            else:
+                assert siblings.index(node) > siblings.index(prompts_in_body[-1])
     used = set()
     retained = changed = 0
     for n, (_, cols) in enumerate(original, 1):

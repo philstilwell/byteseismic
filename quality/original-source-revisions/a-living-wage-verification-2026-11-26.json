@@ -1,0 +1,96 @@
+{
+  "pagePath": "/economics/a-living-wage/",
+  "sourceSha256": "9c3240985405a223e1e9c6df74f45850434b1834f7a429f415605da332dfcaf0",
+  "originalPrompts": 6,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 151,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 52,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "prompt-1 ordered lists": [
+      5
+    ],
+    "prompt-3 ordered lists": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "prompt-5 ordered lists": [
+      7,
+      7,
+      7,
+      6
+    ],
+    "prompt-6 ordered lists": [
+      15,
+      15
+    ]
+  },
+  "sha256": "3c6987f664f474ecbd08f8b865ebb57139f0bf3939df170b840b64eb297d0340",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "A Living Wage",
+  "queueTitle": "A Living Wage",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "response",
+    "list item"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 209,
+    "ranges": [
+      [
+        1,
+        209
+      ]
+    ],
+    "complete": true,
+    "indexFile": "quality/original-source-revisions/a-living-wage-reading-index-2026-11-26.txt",
+    "readingPassNotes": [
+      "1-125",
+      "126-209"
+    ]
+  },
+  "currentArticleReadingCoverage": {
+    "indexedLines": 321,
+    "ranges": [
+      [
+        1,
+        321
+      ]
+    ],
+    "complete": true,
+    "snapshot": "quality/original-source-revisions/a-living-wage-before-review-2026-11-26.html",
+    "sha256": "b6dd21d1ac956afb0e0e2c3967e46df6375d9f98b8b398a538aa287c14c7fb35",
+    "readingPassNotes": [
+      "1-170",
+      "171-321"
+    ]
+  },
+  "isolatedBuildVerified": true,
+  "verifiedAt": "2026-11-26T15:22:39.370768-05:00",
+  "primarySourcesChecked": [
+    "https://www.ilo.org/topics-and-sectors/wages/living-wages",
+    "https://www.globallivingwage.org/about/anker-methodology/",
+    "https://www.globallivingwage.org/faq/"
+  ],
+  "additionalFormatChecks": [
+    "Six prompts/twelve responses; ChatGPT7MCquestions/7keys, Gemini7questions with one two-part answer;15discussion questions each."
+  ],
+  "limitations": [
+    "No actual wage recommendation or current location-specific rate; numerical example explicitly hypothetical."
+  ],
+  "isolatedBuildRecord": "quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json"
+}

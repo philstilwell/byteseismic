@@ -1,0 +1,171 @@
+{
+  "pageFile": "rational-thought/the-professional-application-of-rationality/index.html",
+  "wordpressId": 1892,
+  "snapshot": "the-professional-application-of-rationality-wordpress-1892.html",
+  "sourceUrl": "http://byteseismic.com/2024/03/02/the-professional-application-of-rationality/",
+  "sourceLabel": "Original WordPress conversation, 2024-03-02",
+  "shellRevision": "6b5fb4df56e85247bc7cd169f1f9d7aa80b5c509",
+  "date": "2026-11-26",
+  "sourceSha256": "59662b38e3ae8cb6b0552b4527a0fc35fc42c1fa56bbd021d13c4b0f416c4502",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "What careers demand an extremely high degree of rationality?",
+    "What are the specialty skills in rationality that make someone competent in the careers listed above?",
+    "To what degree is rationality innate, and to what degree can it be learned?",
+    "Give examples from history in which an individual displayed high rationality on most metrics, but experienced hardship due to an inability to control their emotions. ",
+    "List the dimensions of maturity that must be developed alongside rationality for one to be optimally equipped to excel in life.",
+    "Create a 10-item quiz on the discussion above with answers at the end.",
+    "Provide 15 discussion questions relevant to the discussion above."
+  ],
+  "introHeading": "The Professional Application of Rationality",
+  "intro": "Seven exchanges examine reasoning at work, whether it can be learned, the limits of professional brilliance, and complementary forms of maturity. The historical examples are retained with a distinction between documented hardship and unsupported claims that emotional failure caused it. Both original ten-question quizzes and fifteen-question discussion lists follow.",
+  "description": "Professional reasoning, learnable skills, historical examples, and complementary maturity, with two ten-question quizzes and thirty discussion questions.",
+  "highlights": [],
+  "replacements": {
+    "1.1.0": "Careers with consequential decisions demand sound inference, reliable evidence, and judgment under uncertainty. The examples below illustrate different demands rather than a measured ranking of professions. Emotions can reveal what matters and practiced intuition can be useful; both still need appropriate checks.",
+    "1.1.3": "<strong>Medicine:</strong> Diagnosis and treatment require evaluating evidence, base rates, uncertainty, patient preferences, and risks. Technical reasoning and compassionate communication support one another.",
+    "1.1.9": "<strong>Mathematics and theoretical physics:</strong> Mathematics requires proof within stated assumptions; physics additionally requires models to answer to observation. Both demand abstraction, but their standards of validation differ.",
+    "1.2.0": "Many careers require careful reasoning. The following examples identify important tasks, not evidence that their practitioners are generally more rational than other people:",
+    "2.1.1": "<strong>Logical reasoning:</strong> Identify premises, determine whether a conclusion follows, and distinguish validity from the truth of the premises. A lawyer, programmer, or philosopher can reason validly from a mistaken assumption, so evidence checks remain essential.",
+    "2.1.4": "<strong>Quantitative analysis:</strong> Use appropriate mathematical and statistical methods, inspect units and assumptions, and distinguish precision from accuracy. A financial forecast or experimental estimate should communicate uncertainty rather than merely display a number.",
+    "2.1.8": "<strong>Game theory:</strong> Model strategic interaction by specifying players, feasible actions, information, and payoffs. A Nash equilibrium permits no profitable unilateral deviation given the others’ strategies; it need not be fair, efficient, unique, or a reliable forecast of actual behavior. Useful applications test the model’s assumptions against the setting.",
+    "2.1.10": "<strong>Communication:</strong> Explain the conclusion, supporting evidence, uncertainty, and alternatives so others can assess them. Successful persuasion alone does not establish that the argument is sound.",
+    "2.2.11": "<strong>Modeling strategic scenarios:</strong> Specify information and incentives, compare plausible responses, and test sensitivity to assumptions. A strategy optimal in one model may fail if the other participants behave differently.",
+    "2.2.12": "<strong>Identifying equilibria:</strong> In a Nash equilibrium, no player benefits by changing strategy alone while the others’ strategies stay fixed. This does not imply collective optimality, fairness, or that actual play converges there.",
+    "3.1.0": "There is no defensible universal percentage of rationality that is innate or learned. The answer depends on which capacity is measured, at what age, and under which conditions. Biological development and experience interact rather than contributing independently measurable slices to one general faculty.",
+    "3.1.2": "<strong>Early capacities:</strong> Infants show discrimination and learning abilities that later reasoning can build on. Early appearance alone does not prove innateness, and preferences or quantity discrimination should not be equated with explicit logical inference.",
+    "3.1.3": "<strong>Heuristics:</strong> Shortcuts can yield useful decisions under time and information limits. Their origins involve development and experience as well as evolved capacities; calling every heuristic innate or rational would overstate the case.",
+    "3.1.4": "<strong>Pattern recognition:</strong> Recognizing regularities supports learning but can also produce false patterns. Detecting an association is different from establishing a cause.",
+    "3.1.9": "<strong>Emotional regulation:</strong> Development, experience, and support can improve how people respond to feelings. The goal is not emotionless judgment: emotions can supply relevant information about needs and values.",
+    "3.1.13": "Human reasoning develops through interacting biological and environmental influences. Education can teach formal methods and practice can improve particular decisions, but transfer to unfamiliar situations must be tested. Neither a fixed innate ceiling nor unlimited trainability follows from the evidence here.",
+    "3.2.2": "<strong>Early development:</strong> Infant preferences and learning do not, by themselves, demonstrate newborn logical reasoning. The original placeholder supplied no study that could support that inference.",
+    "3.2.3": "<strong>Evolution:</strong> Abilities useful for survival may contribute to reasoning, but an adaptive story alone does not establish the evolutionary origin of a specific ability or guarantee truth-seeking in every setting.",
+    "3.2.5": "<strong>Experience and culture:</strong> Learned practices and institutions can shape reasoning. Differences between groups require specific evidence and do not by themselves partition biology from environment.",
+    "3.2.7": "<strong>Training:</strong> <a href=\"https://journals.sagepub.com/doi/abs/10.1177/2372732215600886\">Morewedge and colleagues’ experiments</a> found reductions in selected decision biases after targeted training. That supports some trainability; it does not establish that every course improves all forms of rationality.",
+    "3.2.10": "A better analogy is developing a toolkit: people bring evolving capacities and experiences, while instruction and practice add techniques and teach when to use them. It is not a blank canvas, and learning one tool does not ensure good judgment everywhere.",
+    "4.1.0": "The requested standard is stronger than the available historical evidence. Achievement does not establish “high rationality on most metrics,” and distress does not by itself show failed emotional control. These two retained cases illustrate the coexistence of accomplishment and hardship, with the causal limits made explicit:",
+    "4.1.2": "<strong>Achievement:</strong> Newton’s work on motion, gravitation, and mathematics demonstrates exceptional ability in specific domains. It does not supply a general assessment of his rationality in every part of life.",
+    "4.1.3": "<strong>Hardship:</strong> Correspondence from 1693 documents illness, sleeplessness, and strained communication, followed by regret. The <a href=\"https://www.newtonproject.ox.ac.uk/view/texts/diplomatic/OTHE00130\">letters preserved by the Newton Project</a> support that narrower account. A specific retrospective diagnosis, mercury-poisoning explanation, or simple failure-of-self-control cause is not established here.",
+    "4.1.5": "<strong>Achievement:</strong> Beethoven’s compositions demonstrate musical imagination, craft, and sustained work. Musical mastery should not be relabeled a measured general rationality score.",
+    "4.1.6": "<strong>Hardship:</strong> Beethoven’s <a href=\"https://www.beethoven.de/de/media/view/5488179599638528/Ludwig%2Bvan%2BBeethoven%2C%2BBrief%2Ban%2Bseine%2BBr%C3%BCder%2BKaspar%2BKarl%2Bund%2BJohann%2C%2BHeiligenstadt%2Bvom%2B6.%2Bund%2B10.%2BOktober%2B1802\">1802 Heiligenstadt Testament</a> describes suffering associated with his hearing loss and isolation. This supports an account of adversity alongside achievement, not a conclusion that his difficulties resulted simply from uncontrolled emotions.",
+    "4.1.7": "These cases show that accomplishment does not confer immunity from illness or distress. They cannot establish the stronger requested causal pattern without independent evidence about the person’s decisions, alternatives, and circumstances.",
+    "4.2.0": "The two original cases are retained, but neither safely demonstrates that an inability to control emotions caused the person’s hardship. Their achievements and circumstances must be assessed separately:",
+    "4.2.2": "<strong>Achievement:</strong> Van Gogh’s study and experimentation show artistic discipline. They do not establish a high score on most measures of rationality.",
+    "4.2.3": "<strong>Hardship:</strong> Van Gogh’s correspondence describes illness, treatment, uncertainty, and efforts to continue working; see his <a href=\"https://www.webexhibits.org/vangogh/letter/19/576.htm?qp=health.mental\">letter to Theo of 3 February 1889</a>. His suffering and death should not be reduced to a failure of willpower or a single retrospectively assigned diagnosis.",
+    "4.2.5": "<strong>Achievement:</strong> Turing made foundational contributions to computation and important contributions to Allied cryptanalysis. The wartime effort was collaborative; a precise number of years or lives saved is not established by this account.",
+    "4.2.6": "<strong>Hardship:</strong> Turing was prosecuted for his homosexuality. His <a href=\"https://turingarchive.kings.cam.ac.uk/correspondence-amtd/amt-d-14a\">letters to Norman Routledge</a> document the surrounding distress. Persecution is an injustice imposed on him, not evidence that he lacked emotional maturity. The original causal explanation of his death and hardship is not established by these facts.",
+    "4.2.7": "These cases support the limited lesson that exceptional work can coexist with suffering. They do not justify blaming illness or persecution on low emotional intelligence. Institutions, health, and social conditions matter alongside personal skills.",
+    "5.1.0": "The following dimensions are a practical framework rather than a validated universal checklist or guarantee of success. They overlap, and their importance depends on goals, relationships, resources, and circumstances.",
+    "5.1.2": "<strong>Social maturity:</strong> Communicate clearly, listen, cooperate, and repair misunderstandings while respecting boundaries. Conformity to every social convention is not the standard; different communication styles can be equally responsible.",
+    "5.1.6": "<strong>Financial maturity:</strong> Make considered decisions about available resources, obligations, and risks. Responsible habits help, but poverty or financial insecurity does not demonstrate immaturity; income, costs, and external shocks constrain choices.",
+    "5.1.7": "<strong>Physical maturity, as used here:</strong> Attend to health needs and sustainable habits within one’s circumstances. This is better understood as health-related self-care than biological maturity; disability or illness is not a moral failure.",
+    "5.1.10": "Developing these capacities can support thoughtful action and relationships, but cannot ensure prosperity, health, or freedom from injustice. Good judgment includes recognizing constraints and knowing when support or institutional change is needed.",
+    "5.2.9": "<strong>Recovery:</strong> Seek support and adapt after adversity; resilience does not require constant positivity or rapid recovery.",
+    "5.2.10": "<strong>Persistence:</strong> Continue when the goal and evidence justify it, and revise or stop when costs or information change. Unconditional persistence can become a sunk-cost error.",
+    "6.1.2": "What does emotional maturity primarily involve? A. The ability to earn a high income B. The ability to understand, manage, and express emotions healthily C. The ability to solve complex mathematical problems D. The ability to win arguments",
+    "6.2.13": "a) Infants notice differences between familiar and unfamiliar objects.",
+    "6.2.14": "b) People vary in how quickly they complete a task.",
+    "6.2.15": "c) A controlled study finds improved performance on targeted reasoning tasks after training.",
+    "6.2.16": "d) A plausible evolutionary story can be told about an ability.",
+    "6.2.19": "b) Exceptional achievement does not guarantee well-being, and hardship need not reflect failed emotional control.",
+    "6.2.35": "b) Adapting after difficulty and seeking support when needed.",
+    "6.2.54": "c) A controlled study finds improved performance on targeted reasoning tasks after training.",
+    "6.2.55": "b) Exceptional achievement does not guarantee well-being, and hardship need not reflect failed emotional control.",
+    "6.2.58": "b) Adapting after difficulty and seeking support when needed.",
+    "7.1.6": "How can health-related self-care support decision-making without treating illness or disability as immaturity?",
+    "7.2.2": "What do historical achievements and accounts of hardship establish, and what additional evidence is needed before attributing hardship to poor emotional control?",
+    "7.2.11": "When do mental shortcuts improve decisions under limited time, and when do they produce systematic errors? How could we test the difference?"
+  },
+  "countChecks": [
+    {
+      "name": "ten quiz questions and ten answer keys per model",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "fifteen discussion questions per model",
+      "selector": "#prompt-7 .original-response > ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    },
+    {
+      "name": "prompt-1 ordered lists",
+      "selector": "#prompt-1 .original-response ol",
+      "child": "li",
+      "expected": [
+        10
+      ]
+    },
+    {
+      "name": "prompt-2 ordered lists",
+      "selector": "#prompt-2 .original-response ol",
+      "child": "li",
+      "expected": [
+        10
+      ]
+    },
+    {
+      "name": "prompt-3 ordered lists",
+      "selector": "#prompt-3 .original-response ol",
+      "child": "li",
+      "expected": [
+        3,
+        6
+      ]
+    },
+    {
+      "name": "prompt-4 ordered lists",
+      "selector": "#prompt-4 .original-response ol",
+      "child": "li",
+      "expected": [
+        2
+      ]
+    },
+    {
+      "name": "prompt-5 ordered lists",
+      "selector": "#prompt-5 .original-response ol",
+      "child": "li",
+      "expected": [
+        9
+      ]
+    },
+    {
+      "name": "prompt-6 ordered lists",
+      "selector": "#prompt-6 .original-response ol",
+      "child": "li",
+      "expected": [
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "prompt-7 ordered lists",
+      "selector": "#prompt-7 .original-response ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    }
+  ],
+  "leadingTextReplacements": {
+    "6.2.7": "What is the main point of the revised toolkit analogy for rationality?",
+    "6.2.12": "Which observation most directly supports the claim that some reasoning skills can be improved by learning?",
+    "6.2.17": "What limited conclusion do the retained Van Gogh and Turing examples support?",
+    "6.2.22": "Which skill is listed under rational problem-solving rather than as one of the emotional-intelligence components in the second response?"
+  }
+}

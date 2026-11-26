@@ -1,0 +1,114 @@
+{
+  "pagePath": "/economics/economic-complexity/",
+  "sourceSha256": "9140fee57b2cfd97649b8c88cb64d2357bc6752b2adb954393af0b9d9c7d30e2",
+  "originalPrompts": 6,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 142,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 68,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "prompt-1 ordered lists": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "prompt-2 ordered lists": [
+      7
+    ],
+    "prompt-3 ordered lists": [
+      3,
+      5
+    ],
+    "prompt-4 ordered lists": [
+      5,
+      5
+    ],
+    "prompt-5 ordered lists": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      10,
+      5,
+      5,
+      5,
+      5
+    ],
+    "prompt-6 ordered lists": [
+      15,
+      15
+    ]
+  },
+  "sha256": "fe1c88344e243cacaac482d030a3c731e69473ca3b0a33afdb7cc730fe4e051c",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "Economic Complexity",
+  "queueTitle": "Economic Complexity",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "response",
+    "list item"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 216,
+    "ranges": [
+      [
+        1,
+        216
+      ]
+    ],
+    "complete": true,
+    "indexFile": "quality/original-source-revisions/economic-complexity-reading-index-2026-11-26.txt",
+    "readingPassNotes": [
+      "1-125",
+      "126-216"
+    ]
+  },
+  "currentArticleReadingCoverage": {
+    "indexedLines": 381,
+    "ranges": [
+      [
+        1,
+        381
+      ]
+    ],
+    "complete": true,
+    "snapshot": "quality/original-source-revisions/economic-complexity-before-review-2026-11-26.html",
+    "sha256": "1067c7449e51584d1c92444f086ac30ee8ff0b2ae5a7c955a9cdbbdfc3650740",
+    "readingPassNotes": [
+      "1-381; truncated75-173 reread separately"
+    ]
+  },
+  "isolatedBuildVerified": true,
+  "verifiedAt": "2026-11-26T15:22:39.370768-05:00",
+  "primarySourcesChecked": [
+    "https://www.federalreserve.gov/publications/2023-April-SVB-Executive-Summary.htm",
+    "https://www.federalreservehistory.org/essays/great-depression",
+    "https://www.federalreservehistory.org/essays/savings-and-loan-crisis",
+    "https://press.uchicago.edu/Misc/Chicago/301259.html"
+  ],
+  "additionalFormatChecks": [
+    "Sixprompts twelve responses; two10-questionquizzes/keys and thirtydiscussionquestions retained."
+  ],
+  "limitations": [],
+  "isolatedBuildRecord": "quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json"
+}

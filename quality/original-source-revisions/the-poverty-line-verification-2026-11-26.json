@@ -1,0 +1,112 @@
+{
+  "pagePath": "/economics/the-poverty-line/",
+  "sourceSha256": "27790ec15e74313cae8a73e0566ea974f57be7ff8e9ef4401c17b66adabef731",
+  "originalPrompts": 6,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 80,
+  "tableCellsExplicitlyRevised": 96,
+  "blocksExplicitlyRevised": 55,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "prompt-1 ordered lists": [
+      7
+    ],
+    "prompt-2 ordered lists": [
+      6
+    ],
+    "prompt-3 ordered lists": [
+      5,
+      5
+    ],
+    "prompt-4 ordered lists": [
+      3
+    ],
+    "prompt-5 ordered lists": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "prompt-6 ordered lists": [
+      15,
+      15
+    ]
+  },
+  "sha256": "8bbae39c77d5d65c13baa11d2aeb2a22dddd994bec535318940f08280e58e519",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "The Poverty Line",
+  "queueTitle": "The Poverty Line",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "response",
+    "list item"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 145,
+    "ranges": [
+      [
+        1,
+        145
+      ]
+    ],
+    "complete": true,
+    "indexFile": "quality/original-source-revisions/the-poverty-line-reading-index-2026-11-26.txt",
+    "readingPassNotes": [
+      "1-128 before sibling recovery",
+      "13-19 and59-68 after recovery"
+    ]
+  },
+  "currentArticleReadingCoverage": {
+    "indexedLines": 469,
+    "ranges": [
+      [
+        1,
+        469
+      ]
+    ],
+    "complete": true,
+    "snapshot": "quality/original-source-revisions/the-poverty-line-before-review-2026-11-26.html",
+    "sha256": "42393aa00aa5047ccae97ad05d0fc5a3da6b50f4a903731f0805de9f36dcb6fb",
+    "readingPassNotes": [
+      "1-210",
+      "211-340",
+      "341-469"
+    ]
+  },
+  "isolatedBuildVerified": true,
+  "verifiedAt": "2026-11-26T15:22:39.370768-05:00",
+  "primarySourcesChecked": [
+    "https://www.census.gov/library/publications/2024/demo/p60-283.html",
+    "https://www.stats.gov.cn/zs/tjws/tjzb/202301/t20230101_1903716.html",
+    "https://www.ine.gob.bo/index.php/descarga/225/publicaciones/48206/nota-tecnica-pobreza-2f.pdf",
+    "https://www.insee.fr/en/statistiques/8220422",
+    "https://www.worldbank.org/en/country/cambodia/publication/cambodia-poverty-assessment-2022-toward-a-more-inclusive-and-resilient-cambodia",
+    "https://documents1.worldbank.org/curated/en/099110623151041764/pdf/P176872075c6e80b90b37009066bfc111f2.pdf",
+    "https://rosstat.gov.ru/storage/mediabank/SGD_2022_RUS.pdf",
+    "https://www.worldbank.org/en/news/factsheet/2025/06/05/june-2025-update-to-global-poverty-lines",
+    "https://www.census.gov/data/tables/time-series/demo/income-poverty/historical-poverty-thresholds.html",
+    "https://hdr.undp.org/data-center/documentation-and-downloads",
+    "https://data.worldbank.org/indicator/SI.POV.GINI",
+    "https://data.worldbank.org/indicator/SH.H2O.BASW.ZS",
+    "https://www.worldhappiness.report/ed/2022/"
+  ],
+  "additionalFormatChecks": [
+    "Sixprompts12responses fourtableseachsevenrows; two10questionquizzesandkeys;30discussionquestions. Dataextracts retained."
+  ],
+  "limitations": [
+    "Nationalpovertyexamples intentionallyuse differentdocumentedyears/populations andmustnotberanked asabsolutelivingstandards.",
+    "Cambodia Gini not available in checked2015–2023window; no value orrankinvented.",
+    "Russia2020figureisadatedpublishedestimateandlatermethodschanged."
+  ],
+  "isolatedBuildRecord": "quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json"
+}

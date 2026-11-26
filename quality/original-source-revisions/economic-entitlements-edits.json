@@ -1,0 +1,140 @@
+{
+  "pageFile": "economics/economic-entitlements/index.html",
+  "wordpressId": 3786,
+  "snapshot": "economic-entitlements-wordpress-3786.html",
+  "sourceUrl": "http://byteseismic.com/2024/03/15/economic-entitlements/",
+  "sourceLabel": "Original WordPress conversation, 2024-03-15",
+  "shellRevision": "6b5fb4df56e85247bc7cd169f1f9d7aa80b5c509",
+  "date": "2026-11-26",
+  "sourceSha256": "ec2475bc191bb8fa88297e7a2b2382fd59d1ca45b684bc6fe486f1935c352217",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "For thousands of years, humans lived in primitive economic systems that produced little wealth. Just recently we’ve entered an age in which each generation expects their own economic opportunities to be greater than the economic opportunities of their parents. What philosophical, psychological, and sociological conclusions can we make when these expectations become demands?",
+    "What does psychology say about the tendency to expect a better life than had the previous generation, and how does this expectation affect the perception of self?",
+    "What can we do to maintain perspective and appreciate our current opportunities rather than focusing on our seemingly boundless desires.",
+    "Provide real data on the economic progress of humanity over the past three centuries.",
+    "Create a 10-item quiz on the discussion above. ",
+    "Provide 15 discussion questions relevant to the content above. "
+  ],
+  "introHeading": "Economic Entitlements",
+  "intro": "Six exchanges explore rising expectations, self-worth, gratitude, and the historical record of economic progress. Both model responses and their quizzes and discussion questions are retained. The revision separates legitimate claims to opportunity from psychological entitlement and replaces incompatible economic figures with dated, identified measures.",
+  "description": "Rising economic expectations, legitimate entitlements, social comparison, and verified historical output and well-being data.",
+  "highlights": [
+    "A demand for fair opportunity does not by itself establish greed or a declining work ethic.",
+    "Material progress and unfair deprivation can coexist; gratitude need not excuse the latter.",
+    "Compare historical output using consistent purchasing-power units, and distinguish averages from distribution."
+  ],
+  "replacements": {
+    "1.1.0": "The prompt describes a broad historical shift, but low average output does not mean earlier societies lacked complex economic institutions. Nor does every generation expect or obtain improvement. The following perspectives distinguish a forecast of progress, a moral claim to opportunity, and an insistence on receiving every desired benefit.",
+    "1.1.2": "<strong>Entitlement and justification:</strong> A legal or moral entitlement is a claim grounded in rules or reasons; psychological entitlement is a disposition to expect special treatment. A demand for fair access, safer work, or basic security is not automatically an unearned demand. Ask what is owed, by whom, and why.",
+    "1.1.4": "<strong>Justice:</strong> Rawls’s difference principle concerns arranging social and economic inequalities to benefit the least advantaged, alongside equal basic liberties and fair equality of opportunity. It is not a promise that every individual will be richer than their parents.",
+    "1.1.6": "<strong>Changing expectations:</strong> Demands can reflect rising desires, but also unmet needs, exclusion, or broken public commitments. Dissatisfaction alone does not diagnose unrealistic expectations or establish a population-wide mental-health effect.",
+    "1.1.8": "<strong>Psychological entitlement:</strong> This is one possible explanation requiring evidence. Neither demanding better opportunities nor comparing generations demonstrates a growing sense of special deservingness.",
+    "1.1.11": "<strong>Cultural interpretation:</strong> Some demands emphasize material status; others concern security, leisure, fairness, or collective services. The shift from expectation to demand does not by itself prove increasing individualism or materialism.",
+    "1.2.0": "These are questions and possible mechanisms, rather than conclusions that follow necessarily when expectations become demands:",
+    "1.2.7": "<strong>Entitlement:</strong> Expecting prosperity need not reduce effort. Distinguish unrealistic claims to special treatment from reasonable expectations about access, institutions, or shared productivity gains.",
+    "2.1.0": "Psychological theories offer mechanisms through which comparisons and aspirations can affect self-worth. They do not establish a universal tendency for every generation to expect a better life. Economic conditions, culture, and the reference group matter.",
+    "2.1.3": "<strong>Self-determination theory:</strong> <a href=\"https://pubmed.ncbi.nlm.nih.gov/11392867/\">Ryan and Deci’s account</a> emphasizes autonomy, competence, and relatedness. Exceeding a parent’s income is neither a requirement for satisfying these needs nor proof that they are satisfied. Extrinsic goals can also be pursued with varying degrees of autonomous motivation.",
+    "2.1.6": "<strong>Adaptation:</strong> People may adjust aspirations or emotional responses after changed circumstances, but adaptation is not always complete. Poverty, insecurity, or exclusion should not be treated as harmless because people might become accustomed to them.",
+    "2.2.1": "<strong>Social comparison:</strong> Festinger’s theory concerns evaluation through comparisons with others. Parents can become a reference point, but constant comparison and a universal desire to surpass the preceding generation do not follow from the theory.",
+    "2.2.2": "<strong>Hedonic adaptation:</strong> Brickman and Campbell’s treadmill metaphor highlights adaptation to changed circumstances. It does not establish that all income gains have no lasting value or that everyone is trapped in endlessly rising desires. Gains that meet basic needs and adaptation to different events require separate assessment.",
+    "2.2.3": "<strong>Self-efficacy and motivation:</strong> Self-efficacy means confidence in one’s ability to perform a task. Intrinsic motivation means doing it for its inherent interest. Someone can feel capable while working for money or status, so the two concepts should not be equated.",
+    "2.2.5": "<strong>Generational differences:</strong> Differences between age groups can reflect life stage, economic conditions, or birth cohort. Claims that younger generations prefer experiences require evidence separating these effects.",
+    "3.1.0": "These are optional ways to reflect on aspirations and appreciate existing opportunities. Their usefulness varies, and personal reflection does not replace addressing insecure housing, discrimination, or other material constraints.",
+    "3.1.1": "<strong>Gratitude:</strong> Recording specific things one values may help redirect attention for some people. It is an exercise to try, not an obligation to feel positive or a reason to dismiss legitimate dissatisfaction.",
+    "3.1.3": "<strong>Attention to the present:</strong> A pause, quiet reflection, or a comfortable breathing exercise may help someone notice current experience. These practices do not guarantee reduced worry or resolve the causes of financial stress.",
+    "3.1.11": "Use the practices that help clarify priorities and feasible action. Appreciating improvements and seeking fairer conditions are compatible; the exercise should not make people responsible for institutional failures.",
+    "3.2.3": "<strong>Experiences and needs:</strong> Time with others, learning, or a hobby can be valuable without expensive travel or purchases. Material security also matters; there is no universal rule that experiences should take priority over necessities.",
+    "3.2.14": "<strong>Use comparisons selectively:</strong> Comparisons can inform goals or reveal unfair barriers as well as generate dissatisfaction. Ask whether a comparison is accurate and useful rather than treating all comparison as harmful.",
+    "3.2.16": "<strong>Respond to setbacks:</strong> Some setbacks create opportunities to learn, but suffering is not inherently beneficial. Seek practical support and change harmful conditions where possible.",
+    "3.2.17": "These practices can support reflection, but their effects vary. Contentment need not require abandoning ambition or accepting avoidable deprivation.",
+    "4.1.0": "Long-run reconstructions show large increases in output and several measures of well-being. Early estimates are uncertain and modern series are revised. The figures below identify their units and dates rather than splice unlike dollar measures into a single growth series. Historical values are from the <a href=\"https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-database-2010\">Maddison 2010 release</a>.",
+    "4.1.2": "1700: approximately 0.371 trillion.",
+    "4.1.3": "1820: approximately 0.694 trillion.",
+    "4.1.4": "1900: approximately 1.972 trillion.",
+    "4.1.5": "1950: approximately 5.336 trillion.",
+    "4.1.6": "2000: approximately 36.688 trillion.",
+    "4.1.7": "For a separate nominal measure, <a href=\"https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=1W\">World Bank world GDP</a> for 2020 is approximately US$86.39 trillion in the series checked on 26 November 2026. Do not compare this directly with the constant purchasing-power figures above.",
+    "4.1.9": "1700: approximately 615.",
+    "4.1.10": "1820: approximately 666.",
+    "4.1.11": "1900: approximately 1,261.",
+    "4.1.12": "1950: approximately 2,111.",
+    "4.1.13": "2000: approximately 6,038.",
+    "4.1.14": "Separately, <a href=\"https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=1W\">World Bank GDP per capita</a> for 2020 is about US$11,000 in current dollars in the checked series. This nominal value is not the next observation in the Maddison constant-unit comparison.",
+    "4.1.16": "<strong>Life expectancy:</strong> The <a href=\"https://data.worldbank.org/indicator/SP.DYN.LE00.IN?locations=1W\">World Bank series</a> reports world life expectancy at birth of about 72.0 years in 2015. Historical estimates near 30 years around 1800 are much less precise and reflect high childhood mortality, not that all adults died around thirty.",
+    "4.1.17": "<strong>Poverty:</strong> The <a href=\"https://ourworldindata.org/a-history-of-global-living-conditions\">long-run reconstruction discussed by Our World in Data</a> puts extreme poverty near 80% in 1820 and below 10% in 2019, using its stated historical methodology. These are not directly observed household-survey rates for 1820. Thresholds, purchasing-power benchmarks, and methods must accompany any comparison.",
+    "4.1.18": "<strong>Literacy:</strong> Historical reconstructions put adult literacy around one in ten in 1820. The <a href=\"https://data.worldbank.org/indicator/SE.ADT.LITR.ZS?locations=1W\">World Bank/UNESCO series</a> reports approximately 86.0% for people aged 15 and above in 2015. Historical and modern measurement methods differ.",
+    "4.1.19": "These measures support substantial long-run improvement without showing that everyone benefited equally, that gains were continuous, or that future progress is guaranteed. Output totals also rise with population; averages must be supplemented by distribution and environmental measures.",
+    "4.2.2": "<strong>GDP per capita:</strong> In the consistently defined Maddison 2010 series, world output per person rose from about 666 in 1820 to 6,038 in 2000, roughly ninefold, in 1990 international Geary–Khamis dollars. The earlier 1820-to-2010 figures were not established by the cited page and should not be treated as a verified pair.",
+    "4.2.4": "<strong>Extreme poverty:</strong> The historical series discussed by <a href=\"https://ourworldindata.org/a-history-of-global-living-conditions\">Our World in Data</a> estimates nearly 80% in 1820 and under 10% in 2019. The original 90%-to-2015 comparison and unqualified $1.90 definition conflated versions and methods. This is a dated historical comparison, not a statement of the current international poverty line.",
+    "4.2.5": "<strong>Life expectancy:</strong> The checked World Bank series gives about 72.0 years globally in 2015 and 72.2 in 2020. Use dated observations rather than a moving “today,” and distinguish life expectancy at birth from remaining life expectancy for adults.",
+    "5.1.2": "In the Maddison 2010 series, approximately what was world GDP in 1900, in trillions of 1990 international Geary–Khamis dollars?",
+    "5.1.4": "What was 2020 world GDP in current US dollars in the World Bank series checked for this revision?",
+    "5.1.6": "Approximately what was world life expectancy at birth in 2015 in the checked World Bank series?",
+    "5.1.7": "How did estimated adult literacy change between approximately 1820 and 2015, and what measurement caution matters?",
+    "5.1.9": "By what year was extreme poverty below 10% in the historical comparison discussed here?",
+    "5.1.13": "Approximately 1.972 trillion in the specified constant purchasing-power units.",
+    "5.1.15": "Approximately US$86.39 trillion; this nominal figure is not directly comparable with the Maddison constant-unit series.",
+    "5.1.17": "Approximately 72.0 years at birth.",
+    "5.1.18": "From roughly one in ten adults to about 86%; historical reconstruction and modern measurement differ.",
+    "5.1.20": "2019, in the specified historical series; poverty estimates depend on the threshold and method.",
+    "5.2.14": "People may adapt to gains and revise aspirations, but adaptation is not universally complete and material improvements can have lasting value.",
+    "5.2.15": "Self-efficacy is confidence in performing a task. It can support effort but does not itself establish intrinsic motivation or determine self-worth.",
+    "5.2.21": "The specified historical reconstruction shows a large decline, from nearly 80% in 1820 to below 10% in 2019; early estimates and modern surveys differ in their evidence and methods."
+  },
+  "countChecks": [
+    {
+      "name": "prompt-1 ordered lists",
+      "selector": "#prompt-1 .original-response ol",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "prompt-2 ordered lists",
+      "selector": "#prompt-2 .original-response ol",
+      "child": "li",
+      "expected": [
+        6
+      ]
+    },
+    {
+      "name": "prompt-3 ordered lists",
+      "selector": "#prompt-3 .original-response ol",
+      "child": "li",
+      "expected": [
+        10
+      ]
+    },
+    {
+      "name": "prompt-5 ordered lists",
+      "selector": "#prompt-5 .original-response ol",
+      "child": "li",
+      "expected": [
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "prompt-6 ordered lists",
+      "selector": "#prompt-6 .original-response ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    }
+  ],
+  "leadingTextReplacements": {
+    "4.1.1": "World output: The following five estimates use Angus Maddison’s 2010 database, rounded to trillions of 1990 international Geary–Khamis dollars. These purchasing-power units are not current US dollars:",
+    "4.1.8": "Output per person: The same Maddison 2010 series gives the following rounded world GDP per capita in 1990 international Geary–Khamis dollars. GDP per capita is an average of production, not a typical person’s income:"
+  }
+}

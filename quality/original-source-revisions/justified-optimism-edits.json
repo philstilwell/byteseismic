@@ -1,0 +1,133 @@
+{
+  "pageFile": "economics/justified-optimism/index.html",
+  "wordpressId": 7650,
+  "snapshot": "justified-optimism-wordpress-7650.html",
+  "sourceUrl": "http://byteseismic.com/2024/05/01/justified-optimism/",
+  "sourceLabel": "Original WordPress conversation, 2024-05-01",
+  "shellRevision": "6b5fb4df56e85247bc7cd169f1f9d7aa80b5c509",
+  "date": "2026-11-26",
+  "sourceSha256": "336f5b2e7394761a4b0ce24e4af999328142f20f42daa8f95732be09df859368",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "Who is Hans Rosling, the author of the book “Factfulness”, and what are some of the more interesting statistics he presents?",
+    "Steven Pinker seems to share the same optimism. What are some of the more salient statistics in Pinker’s book The Better Angels of our Nature?",
+    "What accounts for the human tendency to ignore positive facts and focus on negative facts to arrive at the conclusion humanity is hopelessly flawed. ",
+    "How can rational thinkers ensure we have a proper balance between appreciating the progress of humanity and concern about our current problems?",
+    "Create a 7-item quiz on the entire thread above. ",
+    "Provide 15 discussion questions relevant to the content above. "
+  ],
+  "introHeading": "Justified Optimism",
+  "intro": "Six exchanges examine Hans Rosling’s Factfulness, Steven Pinker’s account of violence, and habits for assessing progress without complacency. Both original model responses, two seven-question quizzes, and thirty discussion questions remain. Authorship, dated statistics, and the scope of historical comparisons are corrected; improvement and continuing harm can both be real.",
+  "description": "Rosling, Pinker, historical progress, statistical limits, and evidence-based optimism, with corrected authorship and quizzes.",
+  "highlights": [
+    "Hans Rosling coauthored Factfulness with Ola Rosling and Anna Rosling Rönnlund.",
+    "A dated historical trend is neither a claim about every place nor a guarantee about the future.",
+    "Test hopeful and pessimistic claims using the same standards."
+  ],
+  "replacements": {
+    "1.1.0": "Hans Rosling was a Swedish physician, global-health researcher, and public educator who cofounded Gapminder with Ola Rosling and Anna Rosling Rönnlund. The three are credited as authors of <a href=\"https://us.macmillan.com/books/9781250107817/factfulness/\">Factfulness</a>, published in 2018 after Hans’s death in 2017.",
+    "1.1.1": "Factfulness uses dated evidence to challenge misconceptions. Its figures describe the period covered by the book, not automatically the present. The <a href=\"https://www.gapminder.org/factfulness-book/notes/\">authors’ detailed notes</a> identify sources and limitations:",
+    "1.1.2": "<strong>Poverty:</strong> The book’s twenty-year comparison reported that the global extreme-poverty share had at least halved. Treat this as a publication-era comparison, with the specified threshold and purchasing-power benchmark.",
+    "1.1.3": "<strong>Life expectancy:</strong> The quiz rounded global life expectancy at birth to 70 years; the notes cite estimates around 72 years for 2016. This average does not describe the health of every population.",
+    "1.1.4": "<strong>Education:</strong> The book’s question concerned girls completing primary school in low-income countries, with a rounded answer of 60%, not a statistic about all girls worldwide.",
+    "1.1.5": "<strong>Vaccination:</strong> The book’s rounded 80% answer concerns one-year-olds receiving some vaccines. It does not mean complete coverage for every vaccine or disease, and it should not be presented as a current coverage estimate.",
+    "1.1.6": "<strong>Income levels:</strong> Four purchasing-power income bands replace a simple rich/poor split. These household-level bands should not be confused with country income classifications or a claim that most people enjoy affluent living standards.",
+    "1.2.0": "Hans Rosling was indeed a coauthor of Factfulness, together with Ola Rosling and Anna Rosling Rönnlund. The original denial of his authorship was incorrect. His work as a Swedish physician and global-health educator helped communicate development data to wide audiences.",
+    "1.2.1": "Rosling emphasized checking beliefs against evidence of both progress and continuing problems. Gapminder’s visualization work was collaborative; it should not be attributed to software created by Hans alone.",
+    "1.2.3": "<strong>Poverty:</strong> The book documents substantial declines using the definitions and estimates available during its preparation. The $1.90 threshold was expressed in 2011 purchasing-power terms, not a timeless cash-dollar definition.",
+    "1.2.4": "<strong>Income distribution:</strong> Some countries have narrowed income gaps over particular periods, but convergence between countries does not establish falling inequality within each country. Specify the measure before claiming the world has become more equal.",
+    "1.2.5": "<strong>Health:</strong> Long-run global improvements in life expectancy and child survival coexist with local reversals, unequal access, and new shocks. “Rising everywhere” is stronger than the evidence warrants.",
+    "1.2.6": "For the underlying book evidence, use <a href=\"https://www.gapminder.org/factfulness-book/notes/\">Gapminder’s source notes</a>. Engaging presentations can make trends memorable, but definitions and dates are still needed to assess them.",
+    "2.1.0": "Steven Pinker’s 2011 book, <a href=\"https://stevenpinker.com/publications/better-angels-our-nature\">The Better Angels of Our Nature: Why Violence Has Declined</a>, argues for declines in several forms of physical violence across different historical periods. It is a historical thesis, not evidence that every form of violence decreases every year or that the present is necessarily the safest moment.",
+    "2.1.1": "<strong>European homicide:</strong> Pinker draws on historical work including Manuel Eisner’s research. <a href=\"https://www.vrc.crim.cam.ac.uk/vrcresearch/dynamics\">Eisner’s project</a> identifies a long decline from the sixteenth to early twentieth centuries. Rates differ substantially by locality and source quality, so a single medieval European average compared with “below 1 today” is too sweeping.",
+    "2.1.2": "<strong>War:</strong> Pinker distinguishes periods and kinds of conflict, including the post-1945 absence of direct great-power war covered by his book. Conflict frequency, total deaths, and deaths per population are different measures; neither the twentieth century nor subsequent decades form one smooth decline.",
+    "2.1.3": "<strong>Women and minorities:</strong> The book discusses changes in rights, norms, and violence in particular societies. Legal reform, recorded offenses, and actual victimization must be distinguished; improved reporting can increase recorded incidents without proving increased underlying violence.",
+    "2.1.4": "<strong>Mass atrocities:</strong> The book discusses historical episodes and changing norms, but the original response supplies no defined series establishing a general post-1945 decline in genocide. Counts of events, victims, and per-capita rates can diverge. Do not treat a broad trend assertion as a verified statistic.",
+    "2.1.5": "<strong>Punishment:</strong> Pinker describes historical restrictions or abolition of torture and cruel punishment in specific legal systems. Legal prohibition is different from complete elimination of abuse in practice.",
+    "2.1.6": "<strong>Children and animals:</strong> The book examines changing norms and protections. Better legal treatment does not by itself establish a single global downward trend in abuse or animal suffering; definitions, reporting, and population denominators matter.",
+    "2.1.7": "Pinker proposes institutions, commerce, reason, and changing social relations as explanations. Historical association alone does not isolate each cause. His <a href=\"https://stevenpinker.com/frequently-asked-questions-about-better-angels-our-nature-why-violence-has-declined\">methodological discussion</a> identifies different datasets for homicide, war, and mass violence; readers should inspect those measures separately.",
+    "2.2.0": "Steven Pinker’s book concerns declines in several forms of physical violence over specified historical periods. The following summarizes that thesis while distinguishing it from unsupported universal claims:",
+    "2.2.1": "<strong>Homicide:</strong> European historical records support substantial long-run declines, with uneven trajectories and uncertain early estimates. Archaeological evidence of violent deaths in selected nonstate societies is not a representative global prehistoric homicide rate; the original “hundreds of times higher than even today’s most dangerous places” comparison is not established.",
+    "2.2.2": "<strong>Warfare:</strong> Pinker argues for important declines across selected comparisons. The probability, frequency, and severity of war are separate questions. A historical decline does not remove catastrophic risk or demonstrate that every later period improves.",
+    "2.2.3": "<strong>Genocide:</strong> Do not infer that it is “much rarer today” without a definition, date range, and denominator. The book’s historical argument cannot substitute for an updated assessment.",
+    "2.2.4": "<strong>Corporal punishment:</strong> Laws and norms have changed in many jurisdictions, but prevalence differs and legal bans do not guarantee compliance.",
+    "2.2.5": "<strong>Minority protection:</strong> Some societies have expanded rights and reduced particular forms of violence. This does not establish universal tolerance or eliminate reversals, underreporting, and differences between groups.",
+    "3.1.0": "Several psychological mechanisms can contribute to a negative outlook, but the prompt’s generalization should be tested. Concern may reflect real harm or risk, and neither pessimism nor optimism is automatically a cognitive error.",
+    "3.1.1": "<strong>Negativity bias:</strong> Negative information can receive disproportionate attention in some contexts. Threat sensitivity offers an evolutionary hypothesis, not a demonstrated explanation of every individual’s outlook.",
+    "3.1.3": "<strong>Status quo and loss:</strong> Preferring an existing arrangement and weighting losses more than equivalent gains are distinct tendencies. Their presence and size depend on context and do not establish that a particular concern is mistaken.",
+    "3.1.6": "<strong>Education:</strong> The original suggestion that critical-thinking education causes pessimism is speculative. Critical evaluation can expose exaggerated pessimism as readily as unjustified optimism.",
+    "3.2.1": "<strong>Negative information:</strong> Attention to threats can be useful or disproportionate. Calling the response “wired” or attributing it entirely to evolution oversimplifies learning, context, and individual differences.",
+    "3.2.3": "<strong>Confirmation bias:</strong> People may favor evidence that supports existing views. This can sustain both excessive pessimism and excessive optimism, so seek serious counterevidence to either.",
+    "3.2.8": "Seek representative evidence and actively look for what your current view misses. Collecting positive stories alone can create a different selection bias.",
+    "4.1.1": "<strong>Check judgments:</strong> Knowing a bias’s name does not guarantee protection from it. Write down the claim, relevant base rate, timeframe, and evidence that would change your mind; compare forecasts with later outcomes.",
+    "4.1.3": "<strong>Report progress:</strong> Document successful interventions and improvements alongside failures, remaining need, and uncertainty. Select evidence for relevance and quality, not merely to make the news more positive.",
+    "4.2.3": "<strong>Compare time horizons:</strong> Show long-run trends and recent reversals together. A short setback can have lasting consequences, and a favorable historical baseline does not settle a future forecast.",
+    "5.1.4": "What long-run European homicide trend does Steven Pinker discuss, and what cautions apply to the comparison?",
+    "5.1.5": "Why should a claim about declining genocide specify dates, definitions, and denominators?",
+    "5.1.12": "A substantial decline over several centuries in the historical series examined, with regional differences and uncertainty in early records; not one exact rate for all medieval or modern Europe.",
+    "5.1.13": "Event counts, victim totals, and rates per population answer different questions, and a historical comparison does not establish an uninterrupted or current decline.",
+    "5.2.1": "Steven Pinker’s book, The Better Angels of Our Nature, focuses on what kind of historical change?",
+    "5.2.10": "Negative information can receive greater attention in some contexts; that tendency does not prove every pessimistic judgment is false.",
+    "5.2.11": "It can lead us to judge an event as more frequent or likely because examples are easier to recall, even when ease of recall is not representative of actual frequency.",
+    "6.1.3": "Discuss the implications of Steven Pinker’s findings in “The Better Angels of Our Nature” for contemporary peacekeeping and conflict resolution efforts.",
+    "6.1.8": "Explore the role of historical context in evaluating Steven Pinker’s thesis about the decline of violence.",
+    "6.1.15": "Discuss the ethical considerations in presenting statistical data about sensitive topics like poverty, violence, and health, as done by Hans Rosling and Steven Pinker."
+  },
+  "countChecks": [
+    {
+      "name": "prompt-1 ordered lists",
+      "selector": "#prompt-1 .original-response ol",
+      "child": "li",
+      "expected": [
+        5
+      ]
+    },
+    {
+      "name": "prompt-2 ordered lists",
+      "selector": "#prompt-2 .original-response ol",
+      "child": "li",
+      "expected": [
+        6
+      ]
+    },
+    {
+      "name": "prompt-3 ordered lists",
+      "selector": "#prompt-3 .original-response ol",
+      "child": "li",
+      "expected": [
+        6
+      ]
+    },
+    {
+      "name": "prompt-4 ordered lists",
+      "selector": "#prompt-4 .original-response ol",
+      "child": "li",
+      "expected": [
+        8
+      ]
+    },
+    {
+      "name": "prompt-5 ordered lists",
+      "selector": "#prompt-5 .original-response ol",
+      "child": "li",
+      "expected": [
+        7,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "prompt-6 ordered lists",
+      "selector": "#prompt-6 .original-response ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "pageFile": "epistemology/case-5-vanishing-probabilities/index.html",
+  "wordpressId": 6211,
+  "snapshot": "case-5-vanishing-probabilities-wordpress-6211.html",
+  "sourceUrl": "http://byteseismic.com/2024/04/14/case-5-vanishing-probabilities/",
+  "sourceLabel": "Original WordPress conversation, 2024-04-14",
+  "shellRevision": "6b5fb4df56e85247bc7cd169f1f9d7aa80b5c509",
+  "date": "2026-11-26",
+  "sourceSha256": "b5c35f675624c5ff5b2da0aa5674e2b03cf0c5414943a57167a9d12fc0b44336",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "A grade school teacher with 33 students claims a ghost is the best explanation for the disappearance of an apple from the teacher’s desk. Assess the teacher’s rationale below.",
+    "How might the teacher rationally approach the disappearance of the apple? ",
+    "Provide 3 other hypothetical cases in which the high probability that one of many low-probability explanations was irrationally discounted, and another low-probability explanation was asserted.",
+    "Take one of ChatGPT’s scenarios and provide a thorough pedagogical explanation why the rationale is flawed.",
+    "Create a 7-item quiz on the entire thread above.",
+    "Provide 15 discussion questions relevant to the content above. "
+  ],
+  "introHeading": "Small individual probabilities do not disappear",
+  "intro": "The full teacher’s argument, six exchanges, twelve model responses, six hypothetical scenarios, two seven-item quizzes, and thirty discussion questions are preserved. The revision corrects the independence error in the apple calculation, distinguishes disjoint alternatives from overlapping causes, and labels the illustrative percentages as assumptions rather than measured frequencies.",
+  "description": "A missing apple, probability aggregation, and unsupported explanations: complete case study with corrected arithmetic and quizzes.",
+  "highlights": [
+    "A 1/33 chance for each student can be conditional on knowing that one student took the apple.",
+    "Add probabilities only for mutually exclusive alternatives; overlapping explanations require adjustment.",
+    "The source’s percentages are invented examples, not evidence for ghosts or individual guilt."
+  ],
+  "replacements": {
+    "1.1.1": "<strong>Misuse of probability:</strong> Equal treatment of thirty-three students does not by itself justify assigning each a 1/33 unconditional chance of taking the apple. First specify what is known:",
+    "1.1.2": "If exactly one student took the apple and each is equally plausible, each has conditional probability 1/33, about 3.03%. The probability that some student took it is then 1 by assumption. If that premise is uncertain and the probability of a student taking it is q, equal exclusive shares are q/33.",
+    "1.1.3": "The formula 1 − 0.97^33 ≈ 0.634, or 63.4%, applies only if thirty-three events each have probability 0.03 and are mutually independent. That is a different model, allowing several events to occur. It cannot be inferred from uncertainty about the identity of a single taker. If thirty-three mutually exclusive events each have unconditional probability 0.03, their union has probability 0.99. The prompt does not supply enough information to choose these assumptions.",
+    "1.1.4": "<strong>Aggregation error:</strong> Low probability for each individual alternative does not imply zero probability for their union. “Fallacy of division” is the wrong label for this move: division transfers a whole’s property to its parts, whereas this argument dismisses the whole family because its individual members are small.",
+    "1.1.6": "The claim that not all ghost reports are fabricated would not establish ghosts. Sincere mistakes, misidentification, and other causes remain possible. Reports may also share sources, so they cannot automatically be treated as independent evidence.",
+    "1.1.7": "The teacher both shifts the burden of support and appeals to ignorance: failure to disprove the ghost hypothesis is offered as positive evidence. Even evidence for ghosts in general would not establish that one moved this apple.",
+    "1.1.12": "The probability of a union is at least as large as any component, but need not be much larger when events overlap. For mutually exclusive alternatives it equals their sum. In this classroom, the dependence structure must be specified.",
+    "1.1.13": "The teacher has neither eliminated student involvement nor supplied evidence connecting a ghost to the apple. Investigate ordinary possibilities without accusing any particular student from a group-level probability alone.",
+    "1.2.1": "<strong>Ordinary alternatives:</strong> Student involvement, misplacement, or another person moving the apple are live possibilities. The prompt supplies no measured base rate establishing which is most likely, and no positive support for a ghost.",
+    "1.2.2": "<strong>Conditional versus collective probability:</strong> A small probability for a named student is compatible with a large probability for some student. The 1/33 calculation assumes equal shares conditional on a student being responsible; it does not independently prove that premise.",
+    "1.2.3": "<strong>Evidence:</strong> The teacher supplies no verified evidence of ghost involvement. An unexplained sighting is not automatically a fabricated report or a verified supernatural event.",
+    "1.2.4": "<strong>Burden of support:</strong> The person proposing ghost involvement must show evidence favoring it over alternatives. Familiarity or simplicity alone does not prove that a student took the apple.",
+    "2.1.0": "Begin by checking the scene and listing plausible explanations. Numerical credences can help expose assumptions, but an honest qualitative assessment is preferable to unsupported precision. The following is a teaching model, not a diagnosis of what happened.",
+    "2.1.13": "The following original percentages sum to 100%, but they are invented, not estimated from classroom data. To use them as one distribution, define nonoverlapping categories: student removal excluding disposal; teacher misplacement; other staff movement excluding disposal; accidental disposal by anyone; and the stipulated ghost hypothesis. A realistic investigation should also reserve an “other or unresolved” category and revise these weights.",
+    "2.1.21": "A student eating an apple supports the hypothesis only to the extent that this is more likely if it is the missing apple than if it is another apple. Appearance, timing, and independent corroboration matter; the observation alone is not proof of guilt.",
+    "2.1.32": "This process makes assumptions and revisions explicit. It does not guarantee a correct conclusion, and uncertainty may remain. Avoid treating a numerical exercise as grounds for accusing a child.",
+    "2.2.0": "The following original weights are illustrative, not measured probabilities. Define “student took it” here as intentional removal so it does not overlap accidental removal. The five categories still omit teacher misplacement and other possibilities, so a real distribution would need additional categories and revised weights.",
+    "2.2.3": "Justification to investigate: students may have had access. No evidence here establishes a 70% rate or that this is the most common cause.",
+    "2.2.6": "Reliable, relevant evidence about access or conduct can inform inquiry; reputation alone should not substitute for evidence about this event.",
+    "2.2.14": "A staff member may have moved it, but the prompt provides no basis for ranking that possibility at exactly 5%.",
+    "2.2.19": "Animal access depends on the setting. A deer in a secured classroom may be implausible, but the assigned 4% is not an estimate derived from evidence.",
+    "2.2.23": "The 1% weight is stipulated for the exercise, not scientific evidence of ghosts or a required minimum for every imaginable claim.",
+    "2.2.25": "Reports of paranormal activity would matter only if independently credible and more expected under ghost involvement than under rumor, suggestion, or other explanations.",
+    "2.2.27": "Assign initial credences only after clarifying the categories and available evidence. The source’s 70% and 1% figures illustrate a ranking; they do not establish it.",
+    "2.2.33": "Update with diagnostic evidence. A confession may be informative but should be checked for reliability and corroboration. Compare how likely the evidence would be under competing explanations.",
+    "2.2.34": "Draw only the conclusion the evidence supports. It may remain unclear whether a student, staff member, misplacement, or another cause explains the disappearance.",
+    "2.2.35": "A rational inquiry keeps alternatives open in proportion to evidence and avoids false precision. It can reject an unsupported inference without claiming to have identified the actual cause.",
+    "3.1.0": "These three invented scenarios illustrate aggregation, with important limits. Their percentages are stipulated conditional weights after the event is noticed, not measured frequencies. Each list is incomplete, and adding causal categories requires making them mutually exclusive or accounting for overlap.",
+    "3.1.8": "Combined listed conventional weight: 24%, if the four categories are disjoint; with the 1% fictional alternative, 75% remains unassigned.",
+    "3.1.11": "Within this stipulated model, 24% exceeds 1%, but it is not a majority and does not exhaust ordinary explanations. The locked garage also makes access evidence relevant to towing or borrowing. The example shows a faulty comparison, not a measured probability for dimensional shifts.",
+    "3.1.19": "Combined listed weight: 50% only if the categories are defined as mutually exclusive; otherwise ink quality, light, chemicals, and water may overlap. The 2% paranormal weight leaves 48% unassigned in the disjoint toy model.",
+    "3.1.22": "Poor ink, sunlight, water, and mistaken pages are hypotheses to investigate, not calibrated probabilities. Multiple causes can coexist. The conclusion should rest on tests of paper, ink, and storage conditions rather than simply summing overlapping labels.",
+    "3.1.30": "Combined listed weight: 70% under a stipulated disjoint-cause model; with the 5% ghost weight, 25% remains unassigned.",
+    "3.1.33": "Mechanical and natural causes are testable, but several may occur together. The 70% sum requires exclusive categories, and the ghost weight is invented. A building’s legend does not establish a causal link to a tapping sound.",
+    "3.1.35": "The lesson is to compare coherent hypotheses without losing probability by splitting a family into small parts. Many individually unlikely alternatives can have substantial total probability, but counting labels or adding overlapping causes is not enough. None of the illustrative numbers proves the actual likelihood of a supernatural claim.",
+    "3.2.0": "The source curator notes: “GEMINI appears confused about the request.” That criticism is apt: these cases mostly contrast a few already-high-probability alternatives with a dramatic rival, rather than many individually small alternatives. They remain useful contrasts, with all percentages treated as stipulated teaching weights.",
+    "3.2.6": "Imagine a future rover with a hypothetical pneumatic tire that loses pressure. This is not a description of Curiosity: its wheels are aluminum and can suffer holes or tears, as <a href=\"https://www.nasa.gov/image-article/testing-wheels-of-mars-curiosity-rover/\">NASA documents</a>. The 70/20/10 split is invented; alien-technology failure and traces of civilization may overlap and therefore cannot be blindly added.",
+    "3.2.10": "In this hypothetical hospital outage, the 50/40/10 weights are not empirical rates. A cyberattack could itself cause equipment failure, so the categories need clearer definitions before aggregation. A targeted attack can be a real risk in an appropriate context; investigation and protective action depend on evidence and consequences, not vividness alone.",
+    "3.2.14": "In this hypothetical missing-ship case, the 40/30/20/10 split is invented. Weather, human error, and equipment failure can interact. The legend does not supply evidence for the paranormal category, and the numbers are not maritime incident statistics.",
+    "4.1.8": "Combined listed conventional weight: 24%, assuming mutually exclusive explanations; not the probability that the car is missing.",
+    "4.1.12": "The toy weights favor the listed conventional group over the fictional alternative, but 75% remains unassigned. Neither 24% nor 1% is an empirical estimate, and the car’s already-observed absence must not be confused with the probabilities of its causes.",
+    "4.1.15": "Low individual weights can add to a larger group weight when the alternatives are disjoint. Here 24% is larger than each listed component and the stipulated 1% rival, but still below 50%. The example therefore does not establish that the four listed causes jointly are more likely than all remaining causes.",
+    "4.1.16": "Disjoint addition and the law of total probability",
+    "4.1.17": "Let M mean that the car is missing and H₁ through H₄ denote disjoint explanations. Then their conditional union probability is the sum of P(Hᵢ | M). By contrast, the law of total probability calculates P(M) = Σᵢ P(M | Hᵢ)P(Hᵢ) over an exhaustive disjoint partition. These are related but different calculations. See the <a href=\"https://cs229.stanford.edu/lectures-spring2023/cs229-probability_review.pdf\">Stanford probability review</a>.",
+    "4.1.18": "P(H₁ ∪ H₂ ∪ H₃ ∪ H₄ | M) = P(H₁ | M) + P(H₂ | M) + P(H₃ | M) + P(H₄ | M), assuming disjoint categories.",
+    "4.1.19": "Thus the stipulated listed conventional group has weight 10% + 5% + 5% + 4% = 24%. Once M is observed, P(M | M) = 1, not 24%.",
+    "4.1.21": "A recent science-fiction movie might make the dimensional-shift story easier to recall. That would illustrate availability influencing judgment, but the vignette does not establish a psychological diagnosis. The 1% is an invented weight, not evidence that such shifts occur.",
+    "4.1.24": "P(H | E) = P(E | H) × P(H) / P(E), provided P(E) > 0. All probabilities must use the same background information.",
+    "4.1.27": "E is additional evidence, such as a towing record, if the starting weights already condition on the car being missing. Do not update a second time on evidence already included.",
+    "4.1.29": "The current vignette supplies no evidence favoring the dimensional-shift hypothesis. A posterior comparison requires likelihoods and priors; the formula alone cannot supply them.",
+    "4.1.35": "Keep mutually exclusive alternatives distinct from independent events. For overlapping A and B, P(A ∪ B) = P(A) + P(B) − P(A ∩ B); independence gives the product rule for the intersection, not permission simply to add. Conditional probabilities and evidence-sensitive updating help avoid both sensational explanations and unjustified certainty about ordinary ones.",
+    "4.2.2": "<strong>Probability versus possibility:</strong> Assigning an imagined mechanism a 1% toy weight neither establishes its physical possibility nor measures its likelihood. The listed 24% group outweighs that stipulated number but leaves most of the distribution unspecified.",
+    "4.2.3": "<strong>Occam’s razor:</strong> Prefer fewer unsupported assumptions when competing accounts otherwise explain the evidence comparably well. Simplicity is a defeasible guide, not a theorem that the simplest story is always most probable.",
+    "5.1.3": "B) Mistaking small individual probabilities for a negligible collective probability",
+    "5.1.11": "3. Which principle computes P(E) by weighting P(E | Hᵢ) with P(Hᵢ) over an exhaustive, mutually exclusive partition?",
+    "5.1.37": "1. B) Mistaking small individual probabilities for negligible collective probability. 2. B) Spontaneous dimensional shift. 3. B) Law of total probability. 4. B) Availability heuristic. 5. D) Extreme cold temperatures. 6. C) It ignores the more probable conventional group in the stipulated example. 7. C) Update beliefs based on new evidence.",
+    "5.2.1": "Which defeasible principle favors fewer unsupported assumptions when explanations otherwise fit the evidence comparably well?",
+    "5.2.2": "Seeking supporting evidence for a favored explanation while discounting contrary evidence exemplifies which bias?",
+    "5.2.4": "Which ChatGPT scenario assigns the largest total weight to its listed conventional alternatives under the explicitly stipulated disjoint model?",
+    "5.2.13": "The vignette supplies no supporting evidence. Its 1% weight is invented and is lower than the listed conventional group’s stipulated 24%.",
+    "6.1.0": "<strong>Aggregation:</strong> Why does a small chance for each student fail to establish that no student took the apple, and why is “fallacy of division” an inaccurate label?",
+    "6.1.3": "<strong>Conditional probability:</strong> How do disjoint addition, the law of total probability, and conditioning on the already-missing car differ?"
+  },
+  "countChecks": [
+    {
+      "name": "prompt-1 ordered lists",
+      "selector": "#prompt-1 .original-response ol",
+      "child": "li",
+      "expected": [
+        1,
+        2,
+        2,
+        4
+      ]
+    },
+    {
+      "name": "prompt-2 ordered lists",
+      "selector": "#prompt-2 .original-response ol",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        5,
+        4
+      ]
+    },
+    {
+      "name": "prompt-3 ordered lists",
+      "selector": "#prompt-3 .original-response ol",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "prompt-4 ordered lists",
+      "selector": "#prompt-4 .original-response ol",
+      "child": "li",
+      "expected": [
+        4
+      ]
+    },
+    {
+      "name": "prompt-5 ordered lists",
+      "selector": "#prompt-5 .original-response ol",
+      "child": "li",
+      "expected": [
+        7,
+        7
+      ]
+    },
+    {
+      "name": "prompt-6 ordered lists",
+      "selector": "#prompt-6 .original-response ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    }
+  ],
+  "preambleHeadingIndexes": [
+    0
+  ],
+  "promptContinuationPreambleIndexes": {
+    "1": 0
+  },
+  "leadingTextReplacements": {
+    "2.2.2": "Student intentionally removed it: illustrative weight 70%"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "pagePath": "/epistemology/cromwells-rule/",
+  "sourceSha256": "bbaab7796670a5bc0549683ea1933ed3f8f7dfcc0b9dad6a79c3aa444d0bd45b",
+  "originalPrompts": 6,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 6,
+  "sourceColumns": 18,
+  "modelResponses": 18,
+  "blocksRetainedVerbatim": 251,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 87,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "prompt-1 ordered lists": [
+      2,
+      3,
+      3,
+      3,
+      2,
+      2
+    ],
+    "prompt-2 ordered lists": [
+      2,
+      2,
+      3,
+      3,
+      4,
+      3
+    ],
+    "prompt-4 ordered lists": [
+      3,
+      3,
+      3,
+      3,
+      4
+    ],
+    "prompt-5 ordered lists": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "prompt-6 ordered lists": [
+      15,
+      15,
+      15,
+      15
+    ]
+  },
+  "sha256": "183f4d8c9e5d1546b5f6b5087e476e951d0f575f15089e82ba688f183b139365",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "Cromwell&#8217;s Rule",
+  "queueTitle": "Cromwell&#8217;s Rule",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "response",
+    "list item"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 345,
+    "ranges": [
+      [
+        1,
+        345
+      ]
+    ],
+    "complete": true,
+    "indexFile": "quality/original-source-revisions/cromwells-rule-reading-index-2026-11-26.txt",
+    "readingPassNotes": [
+      "1-90",
+      "91-185",
+      "186-344",
+      "345 quoted definition"
+    ]
+  },
+  "currentArticleReadingCoverage": {
+    "indexedLines": 418,
+    "ranges": [
+      [
+        1,
+        418
+      ]
+    ],
+    "complete": true,
+    "snapshot": "quality/original-source-revisions/cromwells-rule-before-review-2026-11-26.html",
+    "sha256": "2f694b9171ec2c4bbe7fd93658e4cde83a24213dded1da4bb1ba8903a6b2e0c2",
+    "readingPassNotes": [
+      "1-95",
+      "96-245",
+      "246-418"
+    ]
+  },
+  "isolatedBuildVerified": true,
+  "verifiedAt": "2026-11-26T15:22:39.370768-05:00",
+  "primarySourcesChecked": [
+    "https://onlinelibrary.wiley.com/doi/book/10.1002/0470055480",
+    "https://cs229.stanford.edu/lectures-spring2023/cs229-probability_review.pdf",
+    "https://www.cambridge.org/core/books/probability-theory/9CA08E224FF30123304E6D8935CF1A99",
+    "https://www.routledge.com/The-Logic-of-Scientific%20Discovery/Popper/p/book/9780203994627",
+    "https://us.macmillan.com/books/9780374275631/thinkingfastandslow/",
+    "https://www.coursera.org/learn/bayesian-statistics",
+    "https://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve",
+    "https://plato.stanford.edu/entries/probability-interpret/",
+    "https://plato.stanford.edu/entries/epistemology-bayesian/"
+  ],
+  "additionalFormatChecks": [
+    "Six prompts, eighteen responses, three dialogues retaining all speaker turns, thirty quiz questions and keys, sixty discussion questions (30+15+15)."
+  ],
+  "limitations": [
+    "Exact titles attributed to Goldstein, Schum, and Savage were not verified; retained with explicit caveats. Unnamed LessWrong/YouTube/DeepAI recommendations are not treated as verified sources."
+  ],
+  "isolatedBuildRecord": "quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json"
+}

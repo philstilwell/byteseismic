@@ -1,0 +1,41 @@
+{
+  "runTime": "2026-11-26T14:16:28.033312-05:00",
+  "phase": 2,
+  "runId": "review-recovery",
+  "sourceReviewedAndFidelityVerified": [
+    "/rational-thought/ai-logic-intelligence/",
+    "/rational-thought/case-2-autism/"
+  ],
+  "count": 2,
+  "remaining": [
+    "/rational-thought/do-rationalists-skew-neurodivergent/",
+    "/rational-thought/the-professional-application-of-rationality/",
+    "/rational-thought/what-is-futurism/",
+    "/rational-thought/what-is-game-theory/",
+    "/rational-thought/what-is-rational-thought/",
+    "/economics/a-living-wage/",
+    "/economics/ai-the-future-of-work/",
+    "/economics/business-risks/",
+    "/economics/economic-complexity/",
+    "/economics/economic-entitlements/",
+    "/economics/economic-optimism/",
+    "/economics/innovation-attractors/",
+    "/economics/justified-optimism/",
+    "/economics/the-poverty-line/",
+    "/economics/what-makes-economics-dismal/",
+    "/epistemology/absolute-certainty/",
+    "/epistemology/case-5-vanishing-probabilities/",
+    "/epistemology/cromwells-rule/"
+  ],
+  "remainingCount": 18,
+  "isolatedBuildVerified": false,
+  "nextStep": "After the second automatic continuation, review Do Rationalists Skew Neurodivergent? from its complete original and current article, then the remaining seventeen in order. Continue final isolated build, gate, commit, push, and published gate.",
+  "scratchDirectory": "/tmp/bs-review-recovery",
+  "inheritedHashes": "/tmp/bs-review-recovery/inherited.json",
+  "baseCommit": "6b5fb4df56e85247bc7cd169f1f9d7aa80b5c509",
+  "intentionalEarlyStops": [
+    "REVIEW_RECOVERY_EARLY_STOP_0_OF_20 received Automatic editorial continuation 1",
+    "REVIEW_RECOVERY_EARLY_STOP_2_OF_20 now due"
+  ],
+  "rendererChange": "Added hash-verified sourceOuterNodes framing preservation; existing three configuration regressions unchanged. Preserve this necessary source-fidelity support with authorized revisions."
+}

@@ -1,0 +1,110 @@
+{
+  "pagePath": "/epistemology/case-5-vanishing-probabilities/",
+  "sourceSha256": "b5c35f675624c5ff5b2da0aa5674e2b03cf0c5414943a57167a9d12fc0b44336",
+  "originalPrompts": 6,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 214,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 63,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "prompt-1 ordered lists": [
+      1,
+      2,
+      2,
+      4
+    ],
+    "prompt-2 ordered lists": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      5,
+      4
+    ],
+    "prompt-3 ordered lists": [
+      1,
+      1,
+      1
+    ],
+    "prompt-4 ordered lists": [
+      4
+    ],
+    "prompt-5 ordered lists": [
+      7,
+      7
+    ],
+    "prompt-6 ordered lists": [
+      15,
+      15
+    ]
+  },
+  "sha256": "c1e81d117ea055f22641444d8c9868a682e4731f7b7ed52bd068e4cc8eecc2bd",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "Case #5 &#8211; Vanishing Probabilities",
+  "queueTitle": "Case #5 &#8211; Vanishing Probabilities",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "response",
+    "list item"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 284,
+    "ranges": [
+      [
+        1,
+        284
+      ]
+    ],
+    "complete": true,
+    "indexFile": "quality/original-source-revisions/case-5-vanishing-probabilities-reading-index-2026-11-26.txt",
+    "readingPassNotes": [
+      "1-130 (including recovered first exchange)",
+      "131-160",
+      "161-260",
+      "261-283",
+      "284 full teacher rationale"
+    ]
+  },
+  "currentArticleReadingCoverage": {
+    "indexedLines": 373,
+    "ranges": [
+      [
+        1,
+        373
+      ]
+    ],
+    "complete": true,
+    "snapshot": "quality/original-source-revisions/case-5-vanishing-probabilities-before-review-2026-11-26.html",
+    "sha256": "24c4972b4c6fec86f3cf9f31929f7d648f70f21617cc5e9d08deb7e17d5c2a27",
+    "readingPassNotes": [
+      "1-165",
+      "166-373"
+    ]
+  },
+  "isolatedBuildVerified": true,
+  "verifiedAt": "2026-11-26T15:22:39.370768-05:00",
+  "primarySourcesChecked": [
+    "https://cs229.stanford.edu/lectures-spring2023/cs229-probability_review.pdf",
+    "https://www.probabilitycourse.com/chapter1/1_4_1_independence.php",
+    "https://www.nasa.gov/image-article/testing-wheels-of-mars-curiosity-rover/"
+  ],
+  "additionalFormatChecks": [
+    "Six prompts, twelve responses, six scenarios, two seven-question quizzes with all keys, thirty discussion questions.",
+    "Numerically checked 1-0.97**33=0.6340116757315108; missing toy mass75%,48%,25%."
+  ],
+  "limitations": [],
+  "isolatedBuildRecord": "quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json"
+}

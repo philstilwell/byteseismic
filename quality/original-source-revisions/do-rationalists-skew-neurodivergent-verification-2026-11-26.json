@@ -1,0 +1,161 @@
+{
+  "pagePath": "/rational-thought/do-rationalists-skew-neurodivergent/",
+  "sourceSha256": "33a843c4ed31150312feca5d37b23a346aacc4bf39880a06371045ec172acdfb",
+  "originalPrompts": 6,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 7,
+  "sourceColumns": 21,
+  "modelResponses": 21,
+  "blocksRetainedVerbatim": 274,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 145,
+  "bareAnswersExplicitlyRevised": 6,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "ten expandable keys per model": [
+      10,
+      10,
+      10
+    ],
+    "fifteen ordered discussion items in first two models": [
+      15,
+      15
+    ],
+    "Claude introduction plus fifteen numbered questions": [
+      16
+    ],
+    "prompt-1 ordered lists": [
+      9
+    ],
+    "prompt-2 ordered lists": [
+      6,
+      3,
+      2,
+      2,
+      2,
+      5
+    ],
+    "prompt-3 ordered lists": [
+      10
+    ],
+    "prompt-4 ordered lists": [
+      2,
+      3,
+      3,
+      2,
+      2,
+      3
+    ],
+    "prompt-5 ordered lists": [
+      3,
+      7,
+      5
+    ],
+    "prompt-7 ordered lists": [
+      15,
+      15
+    ]
+  },
+  "sha256": "ee2b32bc580d988ac12a03d747b3e591db1ca7ae56442bd3f88422dddf7c6c4a",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "Do Rationalists Skew Neurodivergent?",
+  "queueTitle": "Do Rationalists Skew Neurodivergent?",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "response",
+    "list item",
+    "quiz answer"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 456,
+    "ranges": [
+      [
+        1,
+        80
+      ],
+      [
+        81,
+        170
+      ],
+      [
+        171,
+        260
+      ],
+      [
+        261,
+        355
+      ],
+      [
+        356,
+        456
+      ]
+    ],
+    "complete": true,
+    "indexFile": "quality/original-source-revisions/do-rationalists-skew-neurodivergent-reading-index-2026-11-26.txt"
+  },
+  "currentArticleReadingCoverage": {
+    "indexedLines": 497,
+    "ranges": [
+      [
+        1,
+        125
+      ],
+      [
+        126,
+        250
+      ],
+      [
+        251,
+        375
+      ],
+      [
+        376,
+        497
+      ]
+    ],
+    "complete": true,
+    "snapshot": "quality/original-source-revisions/do-rationalists-skew-neurodivergent-before-review-2026-11-26.html",
+    "sha256": "65f67f01e56a83cf285775343e030a34b2f2c2373c466071c4a9505e8b55ef57"
+  },
+  "isolatedBuildVerified": true,
+  "verifiedAt": "2026-11-26T15:22:39.370768-05:00",
+  "primarySourcesChecked": [
+    "https://pubmed.ncbi.nlm.nih.gov/23114569/",
+    "https://www.templegrandin.com/faq.html",
+    "https://cgi.pbs.org/wgbh/amex/nash/filmmore/ps_nobel.html",
+    "https://pubmed.ncbi.nlm.nih.gov/18093025/",
+    "https://pubmed.ncbi.nlm.nih.gov/29734506/",
+    "https://pubmed.ncbi.nlm.nih.gov/29188584/",
+    "https://pubmed.ncbi.nlm.nih.gov/18923049/",
+    "https://journals.sagepub.com/doi/full/10.1177/1362361320919286"
+  ],
+  "additionalFormatChecks": {
+    "quizzes": 3,
+    "questionsPerQuiz": 10,
+    "answersPerQuiz": 10,
+    "discussionQuestionsPerModel": [
+      15,
+      15,
+      15
+    ],
+    "historicalEntriesPerModel": [
+      14,
+      5,
+      15
+    ],
+    "tables": 0,
+    "dialogueTurns": 0,
+    "substantiveImages": 0
+  },
+  "limitations": [
+    "No claim of population-wide rational superiority or retrospective clinical diagnosis is retained as established fact.",
+    "Final isolated full build pending."
+  ],
+  "isolatedBuildRecord": "quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json"
+}

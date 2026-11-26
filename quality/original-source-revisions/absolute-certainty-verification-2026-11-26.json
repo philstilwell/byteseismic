@@ -1,0 +1,96 @@
+{
+  "pagePath": "/epistemology/absolute-certainty/",
+  "sourceSha256": "92793e91fef09f8ec41e0de258eb59847c72e2c67ca7727a3efa6bc0a6e2b2f2",
+  "originalPrompts": 6,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 6,
+  "sourceColumns": 10,
+  "modelResponses": 10,
+  "blocksRetainedVerbatim": 87,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 53,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "prompt-1 ordered lists": [
+      3
+    ],
+    "prompt-2 ordered lists": [
+      3
+    ],
+    "prompt-3 ordered lists": [
+      5
+    ],
+    "prompt-5 ordered lists": [
+      8,
+      8,
+      8
+    ],
+    "prompt-6 ordered lists": [
+      15,
+      15
+    ]
+  },
+  "sha256": "961d7d7cda9aa357c0ba3275be9cf8e965e603a2085f92e159cad21fd4a098ec",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "Absolute Certainty",
+  "queueTitle": "Absolute Certainty",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "response",
+    "list item"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 147,
+    "ranges": [
+      [
+        1,
+        147
+      ]
+    ],
+    "complete": true,
+    "indexFile": "quality/original-source-revisions/absolute-certainty-reading-index-2026-11-26.txt",
+    "readingPassNotes": [
+      "1-20",
+      "21-111",
+      "112-146",
+      "147 complete prompt continuation"
+    ]
+  },
+  "currentArticleReadingCoverage": {
+    "indexedLines": 349,
+    "ranges": [
+      [
+        1,
+        349
+      ]
+    ],
+    "complete": true,
+    "snapshot": "quality/original-source-revisions/absolute-certainty-before-review-2026-11-26.html",
+    "sha256": "4cead18223c3d7e75a13ff894af92ed9230125b6d8e4b1729da9227e4bc4d99f",
+    "readingPassNotes": [
+      "1-175",
+      "176-349"
+    ]
+  },
+  "isolatedBuildVerified": true,
+  "verifiedAt": "2026-11-26T15:22:39.370768-05:00",
+  "primarySourcesChecked": [
+    "https://www.iasp-pain.org/publications/iasp-news/iasp-announces-revised-definition-of-pain/",
+    "https://www.earlymoderntexts.com/assets/pdfs/descartes1641.pdf",
+    "https://www.cs.cornell.edu/info/people/kreitz/Teaching/CS486/notes-23.pdf",
+    "https://plato.stanford.edu/entries/mathematics-constructive/",
+    "https://plato.stanford.edu/entries/goedel-incompleteness/"
+  ],
+  "additionalFormatChecks": [
+    "Six prompts, ten responses including ChatGPT-only3 and Gemini-only4, sixteen quiz questions/answers, thirty discussion questions."
+  ],
+  "limitations": [],
+  "isolatedBuildRecord": "quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json"
+}

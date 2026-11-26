@@ -1,0 +1,158 @@
+{
+  "pageFile": "economics/business-risks/index.html",
+  "wordpressId": 5227,
+  "snapshot": "business-risks-wordpress-5227.html",
+  "sourceUrl": "http://byteseismic.com/2024/04/05/business-risks/",
+  "sourceLabel": "Original WordPress conversation, 2024-04-05",
+  "shellRevision": "6b5fb4df56e85247bc7cd169f1f9d7aa80b5c509",
+  "date": "2026-11-26",
+  "sourceSha256": "13baa04f1496ad7032a81a8e0736d4882c349538b38896fc5309765de4d6454e",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "Which of the business risks introduced below by Claude are too often neglected by entrepreneurs in the current climate of commerce?",
+    "Provide a historical timeline that highlights the evolution of business risks.",
+    "There has been much recent criticism of government policies such as “too big to fail” that distort risks. Discuss the ramifications of a move toward government intervention when a business is teetering on the brink of failure.",
+    "Risk-takers often discount or ignore the stats on business failures, and charge headlong into new business opportunities that are likely to fail. Comment on how the many start-up failures contribute to innovation and the health of an economy.",
+    "Create a 7-item quiz on the entire thread above.",
+    "Provide 15 discussion questions relevant to the content above. "
+  ],
+  "introHeading": "Business Risks",
+  "intro": "The first exchange preserves Claude’s risk inventory and both responses assessing it. Five further exchanges trace changing business hazards, examine intervention in failing firms, and assess how entrepreneurial experiments can create knowledge as well as losses. Two seven-question quizzes and thirty discussion questions follow.",
+  "description": "Business risk categories, historical changes, rescue policies, moral hazard, and the benefits and costs of startup failure, with quizzes and discussion.",
+  "highlights": [
+    "Risk categories overlap; a list becomes useful when tied to exposure, ownership, and tested responses.",
+    "Protecting essential functions need not protect existing investors or managers.",
+    "Failed experiments can create knowledge, but failure itself is neither a guarantee nor a measure of economic health."
+  ],
+  "replacements": {
+    "1.1.0": "The following inventory groups common business risks. Categories overlap: a cyber incident can produce operational disruption, liability, liquidity pressure, and reputational damage. The list is a starting framework rather than a complete or mutually exclusive taxonomy.",
+    "1.1.4": "<strong>Innovation risk:</strong> Both failing to adapt and investing in an unsuccessful innovation can threaten competitiveness. Compare the risks of action and inaction rather than equate more innovation with less risk.",
+    "1.1.17": "<strong>Regulatory and compliance risk:</strong> Changes in requirements can affect costs or feasibility; failing to meet applicable requirements can create penalties and other losses. Industry standards are not all legally binding, and applicability depends on jurisdiction and activity.",
+    "1.1.32": "Assess likelihood, severity, concentration, and the ability to recover. Assign responsibility for monitoring major risks and test contingency plans. Management reduces or redistributes exposure; it cannot ensure long-term success or eliminate every loss.",
+    "1.2.0": "The following are plausible blind spots, not an empirically established ranking of what entrepreneurs neglect most today. The priorities depend on sector, location, business model, and existing controls:",
+    "1.2.2": "<strong>Supply chains:</strong> A venture can overlook dependence on a single supplier, transport route, or platform. Map critical dependencies and test the time and cost of alternatives instead of assuming a contract guarantees continuity.",
+    "1.2.5": "<strong>Data privacy:</strong> Collecting personal information creates responsibilities as well as business opportunities. Applicable requirements vary; identify the data, jurisdictions, uses, retention, and vendors involved rather than assume every named privacy law applies identically to every small business.",
+    "1.2.8": "Prioritize the risks capable of ending the business, including cash shortfalls and correlated disruptions. Scenario reviews, responsible owners, and tested recovery options make the inventory actionable. These practices improve preparedness without guaranteeing a competitive advantage.",
+    "1.3.0": "These are candidate areas for review from Claude’s inventory. The conversation supplies reasons they may be overlooked, not survey evidence establishing their frequency:",
+    "1.3.3": "<strong>Cyber risk:</strong> Small firms can be exposed through weak access controls, untested recovery, or dependence on vendors. Their exposure differs from that of large firms; company size alone does not establish equal vulnerability.",
+    "2.1.0": "This is a selective, mainly European and North American timeline, not a universal progression. Older risks persist while new technologies and institutions change their scale, connections, and management. Approximate periods should not be read as first appearances of every hazard listed.",
+    "2.1.2": "<strong>Agriculture:</strong> Weather, disease, pests, and land-tenure arrangements affected output and livelihoods. Feudal institutions were not universal across all regions or the whole pre-industrial period.",
+    "2.1.4": "<strong>Currency:</strong> Merchants faced exchange, debasement, counterfeiting, and payment risks. Standardized currencies existed in many societies; the issue was not a total absence of currency systems.",
+    "2.1.8": "<strong>Finance:</strong> Industrialization expanded financing needs and market connections. Securities trading and speculation predated this period, so the Industrial Revolution should not be credited with their first appearance.",
+    "2.1.10": "<strong>International trade:</strong> Expanding networks changed the scale of exposure to distant markets and exchange rates; cross-border commercial risks already existed.",
+    "2.2.0": "Historical timeline of changing risk emphasis; dates are approximate and region-specific, and each period retained earlier risks.",
+    "2.2.2": "<strong>Illustrative hazards:</strong> Theft, fire, floods, transport losses, credit, and political disruption affected ancient commerce. This outline does not establish one primary risk for all ancient businesses.",
+    "2.2.3": "<strong>Management:</strong> Physical protection, contracts, records, and ways of distributing trading risk developed in varied settings. Describing all ancient practice as rudimentary conceals this diversity.",
+    "2.2.9": "<strong>Management:</strong> Industrial hazards encouraged changes in insurance and safety arrangements. Insurance predates this period: <a href=\"https://www.lloyds.com/about-lloyds/history/lloyds-buildings\">Lloyd’s history</a> describes marine insurance associated with its seventeenth-century coffee-house origins.",
+    "2.2.10": "Later industrialization and expanding international commerce (approximately 1840–1914):",
+    "2.2.11": "<strong>Focus:</strong> Larger markets and financial connections changed exposure to downturns and exchange movements. These hazards were not newly invented during this period.",
+    "2.2.12": "<strong>Management:</strong> Accounting, insurance, and contracting expanded. Double-entry bookkeeping long predates 1840: <a href=\"https://www.icaew.com/library/historical-resources/timeline\">ICAEW’s historical timeline</a> records medieval examples and Pacioli’s published description in 1494.",
+    "2.2.18": "<strong>Management:</strong> Enterprise risk management considers risks across an organization and their interactions. Integrated risk thinking predates the twenty-first century; the approach continues to adapt rather than beginning abruptly in 2000.",
+    "3.1.0": "“Too big to fail” describes the concern or expectation that authorities will prevent a disorderly collapse because of wider damage. Size matters alongside interconnectedness and the substitutability of essential functions. Intervention can take different forms; preserving payments or services need not mean preserving shareholders or management.",
+    "3.1.4": "<strong>Public exposure:</strong> Guarantees, loans, capital injections, and grants create different risks and costs. Initial outlays are not the same as eventual net losses, and recoveries do not erase the value of public risk-bearing. Identify who receives protection, who bears losses, and who finances the intervention.",
+    "3.1.10": "<strong>Systemic risk:</strong> Disorderly failure can disrupt credit and payments beyond the firm. The comparison is among feasible alternatives, including restructuring and orderly resolution, not simply bailout versus unmitigated collapse. The <a href=\"https://www.fdic.gov/overview-resolution-under-title-ii-dodd-frank-act\">FDIC’s resolution overview</a> describes preserving stability while allocating losses to shareholders and creditors.",
+    "3.2.2": "<strong>Systemic risk:</strong> Intervention may limit contagion when critical functions or connected institutions are threatened. A firm’s large size alone does not prove that support is necessary or that a particular rescue will work.",
+    "3.2.3": "<strong>Essential services:</strong> Maintaining service can be a legitimate objective, but ownership can change and investors can lose money while operations continue. Assess resolution, sale, or restructuring as well as support for the existing company.",
+    "3.2.6": "<strong>Moral hazard:</strong> An expectation of protection can reduce incentives to manage risk. Its strength depends on which parties expect protection and the conditions imposed; it is not evidence that every assisted business knew rescue was certain.",
+    "3.2.9": "<strong>Cost distribution:</strong> Public support can expose taxpayers, but funding and ultimate losses vary by mechanism. Some resolution costs are borne by investors or industry-funded arrangements. Examine the actual terms rather than assume every intervention is an unrecoverable taxpayer grant.",
+    "3.2.11": "<strong>Debt and opportunity cost:</strong> Borrowing or guarantees can affect public finances, but the eventual cost depends on losses, repayments, and the counterfactual economic damage. Higher taxes or spending cuts are possible responses, not automatic consequences.",
+    "4.1.0": "Entrepreneurship can produce useful experiments even when ventures close, but ignoring failure statistics is not what makes experimentation valuable. Use a relevant comparison group and distinguish establishments, firms, and venture-backed startups. The <a href=\"https://www.bls.gov/osmr/research-papers/2004/st040060.htm\">Bureau of Labor Statistics’ survival research</a> studies establishments; such data should not be relabeled as a universal startup-failure probability.",
+    "4.1.2": "<strong>Learning:</strong> Failure can reveal mistaken assumptions if evidence is recorded and the cause is investigated. A failed venture may also reflect timing, financing, or bad luck; failure alone does not teach the right lesson or ensure later success.",
+    "4.1.5": "<strong>Competition:</strong> Entry can challenge incumbents and test alternatives. Exit may release resources, but disruption, unemployment, and lost firm-specific knowledge impose costs; selection is not automatically efficient.",
+    "4.1.6": "<strong>Jobs and activity:</strong> New firms may hire and purchase inputs, while closures destroy jobs and income. Gross activity does not establish a net economic benefit without considering displacement, opportunity costs, and what resources would otherwise have produced.",
+    "4.1.7": "<strong>Investment:</strong> Some investors finance uncertain experiments because a few successes may compensate for losses. This does not make every speculative investment socially useful, and most small businesses are not venture-capital-funded technology startups.",
+    "4.1.10": "<strong>Adaptation:</strong> Experience can improve future decisions when people have feedback and opportunities to try again. Failure can also cause debt, stress, and exclusion; support and limited experiments can reduce those harms.",
+    "4.1.13": "A healthy economy can permit unsuccessful experiments without treating failure as a goal. Encourage testing, learning, and productive reallocation while accounting for losses borne by workers, creditors, customers, and communities. Relevant base rates, staged spending, and explicit stopping criteria can preserve ambition without romanticizing avoidable loss.",
+    "4.2.0": "Some unsuccessful ventures generate information or reusable capabilities. The relevant question is whether those benefits exceed their costs, not whether a high failure rate is inherently healthy:",
+    "4.2.2": "Experiments can test demand or technical feasibility. Lessons benefit others only when the results are interpretable and available; many failures leave ambiguous evidence or repeat known mistakes.",
+    "4.2.4": "Workers and founders may acquire transferable skills, but closures can also damage livelihoods and careers. Stories of successful serial entrepreneurs are selected from survivors and cannot establish what failure usually causes.",
+    "4.2.6": "Exit can release workers, premises, and surviving assets. Capital already consumed is not freed for reuse, and moving people or assets to better opportunities can be slow and costly.",
+    "5.1.11": "How can an unsuccessful startup sometimes contribute to innovation?",
+    "5.1.21": "Which is a possible benefit of entrepreneurial experimentation rather than a guaranteed benefit of failure?",
+    "5.1.23": "B) Useful learning and reallocation, when they outweigh losses and transition costs",
+    "5.1.41": "B) Useful learning and reallocation, when they outweigh losses and transition costs",
+    "5.2.1": "Which areas are presented as possible blind spots, without claiming a measured ranking? (Choose all that apply.) a) Innovation b) Human capital c) Cybersecurity d) Project timing and budgets e) Data privacy and compliance",
+    "5.2.9": "a, b, c, d, e. All are discussed; the conversation does not establish which are most frequently neglected.",
+    "5.2.2": "Which hazards appear in the ancient-commerce examples? a) Modern cyberattacks b) Artificial-intelligence deployment c) Theft, fire, floods, and transport losses d) Modern data-protection rules e) Industrial robot breakdowns",
+    "5.2.4": "Which benefits can occur after a failed venture, without being guaranteed? (Choose all that apply.) a) Automatic recovery of all invested money b) Elimination of transition costs c) Transfer of useful experience d) Guaranteed success next time e) Reallocation of surviving assets and workers",
+    "5.2.5": "Claude’s inventory includes innovation risk. Why might a founder underestimate the risks of failing to adapt or of backing an unsuccessful innovation?",
+    "5.2.13": "A founder may focus on launch, overestimate demand, or neglect competing approaches. Good assessment considers both action and inaction and tests assumptions.",
+    "5.2.15": "Creative destruction concerns new activities replacing older ones. Closure can accompany this process, but not every failure creates innovation or improves resource allocation."
+  },
+  "countChecks": [
+    {
+      "name": "prompt-1 ordered lists",
+      "selector": "#prompt-1 .original-response ol",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        7
+      ]
+    },
+    {
+      "name": "prompt-3 ordered lists",
+      "selector": "#prompt-3 .original-response ol",
+      "child": "li",
+      "expected": [
+        3,
+        2,
+        3
+      ]
+    },
+    {
+      "name": "prompt-4 ordered lists",
+      "selector": "#prompt-4 .original-response ol",
+      "child": "li",
+      "expected": [
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "prompt-5 ordered lists",
+      "selector": "#prompt-5 .original-response ol",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        7,
+        7,
+        7
+      ]
+    },
+    {
+      "name": "prompt-6 ordered lists",
+      "selector": "#prompt-6 .original-response ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    }
+  ],
+  "siblingColumnHeadingIndexes": [
+    0
+  ],
+  "sectionModelLabels": {
+    "1": [
+      "Claude",
+      "ChatGPT",
+      "Gemini"
+    ]
+  }
+}

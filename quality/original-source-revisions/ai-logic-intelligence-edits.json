@@ -1,0 +1,252 @@
+{
+  "pageFile": "rational-thought/ai-logic-intelligence/index.html",
+  "wordpressId": 15580,
+  "snapshot": "ai-logic-intelligence-wordpress-15580.html",
+  "sourceUrl": "http://byteseismic.com/2025/03/07/ai-logic-intelligence/",
+  "sourceLabel": "Original WordPress conversation, 2025-03-07",
+  "shellRevision": "6b5fb4df56e85247bc7cd169f1f9d7aa80b5c509",
+  "date": "2026-11-26",
+  "sourceSha256": "7eb4339c93ae90b952f7301c9b672fa3da067ba44c60a86406e19bb58dae425b",
+  "modelLabels": [
+    "Grok"
+  ],
+  "headings": [
+    "In this document, there seem to be many equivocations on the referents of the terms “logic” and “intelligence“. List every instance of this for each term and add rigorous commentary.",
+    "Extract, as precisely as possible, the author’s notion of the relationship and dynamics between “logic” and “intelligence.”",
+    "Provide an acute critique of the author’s thesis, focusing particularly on how their notion of AI logic deviates from reality.",
+    "Provide an extensive essay that provides a more consistent and rigorous description of the relationship and dynamics between “logic” and “intelligence“, and that predicts the trajectory of AI from raw logic to humanesque intelligence.",
+    "Provide an essay that reflects on the inertia against the acceptance of AI as an actual intelligence that can surpass human intelligence to solve human problems. Discuss how this inertia will begin to give way at the juncture of the salient juxtaposition of superior AI successes and the spotty successes of human intelligence.",
+    "Discussion Questions:"
+  ],
+  "introHeading": "AI &#8220;Logic&#8221; &amp; &#8220;Intelligence&#8221;",
+  "intro": "These five exchanges examine a podcast’s contrast between logic and intelligence, followed by fifteen discussion questions. Grok supplied the first three analyses; the original curator then invited ChatGPT to add the two essays. The revision separates documented AI achievements from predictions and distinguishes ambiguous wording from an argument that actually equivocates.",
+  "description": "Logic, intelligence, and AI: a source-preserving critique distinguishing formal inference, learned abilities, demonstrated results, and future possibilities.",
+  "highlights": [],
+  "replacements": {
+    "1.1.0": "The original conversation reports passages from a supplied podcast transcript, but that transcript is not embedded in the published post. The inventory below preserves its reported quotations and page references; it cannot independently certify exhaustive coverage or verbatim accuracy against that separate document. A change of meaning is not automatically a fallacy: equivocation occurs when an inference depends on treating different meanings as the same. Some entries discuss rationality or algorithms without using the word “logic” at all.",
+    "1.1.4": "<strong>Commentary:</strong> This establishes a broad sense of logic as disciplined inference. Calling it a foundation does not imply that it is sufficient for intelligence. A straw-man objection arises only if the later criticism attributes that stronger claim to the position it attacks.",
+    "1.1.7": "<strong>Commentary:</strong> The quoted sentence concerns rationality, not an occurrence of “logic.” It becomes relevant to equivocation if failures of a particular optimized system are used to discredit valid inference generally. Institutional brittleness can also be criticized without that inferential step.",
+    "1.1.10": "<strong>Commentary:</strong> Ask what allegedly failed: inference rules, factual premises, objectives, or deployment. A valid deduction can deliver a poor practical result when the premises or objectives are unsuitable. The question alone does not establish which failure occurred.",
+    "1.1.13": "<strong>Commentary:</strong> Rational inquiry need not assume perfect predictability or universal quantification. The passage risks substituting that narrow commitment for rationality more broadly. Philosophical rationalism, formal deduction, induction, and abduction should not be treated as interchangeable terms.",
+    "1.1.16": "<strong>Commentary:</strong> “Economic logic” means a policy rationale here. Harm from austerity would not by itself refute formal logic, but neither can it be attributed solely to rational-agent assumptions without economic evidence about the particular policy.",
+    "1.1.19": "<strong>Commentary:</strong> This is an explicit qualification: logic can be useful without being sufficient for every task. Read it as a possible clarification of earlier rhetoric, not automatically as another equivocation. The remaining question is whether the broader argument respects this distinction.",
+    "1.1.22": "<strong>Commentary:</strong> Formal logic and standardized testing are different practices. Discussion can use formal and informal reasoning; their educational value is not an either-or choice. The factual claim about curricula requires evidence beyond this passage.",
+    "1.1.25": "<strong>Commentary:</strong> AI is a broad engineering field, not a synonym for deductive reasoning. Learned statistical models, search procedures, and explicit rule systems have different failure modes. Generalizing from their errors to the inadequacy of logic requires an additional argument.",
+    "1.1.28": "<strong>Commentary:</strong> Fixed inference rules do not imply fixed premises or conclusions: new evidence can change the information supplied. Bayesian updating is one formal way to revise probabilities, distinct from deductive validity. The passage needs to specify which AI architecture it criticizes.",
+    "1.1.31": "<strong>Commentary:</strong> Status and signaling can be modeled as part of consumer preferences. A luxury example may challenge a simple price-demand model without challenging economic explanation or logical inference in general.",
+    "1.1.34": "<strong>Commentary:</strong> Rule-based automation can be context-sensitive, while human discretion can be biased. The useful comparison concerns which decisions can be specified reliably and which require information unavailable to the system; it does not follow the human/machine boundary automatically.",
+    "1.1.37": "<strong>Commentary:</strong> A failed policy could reflect inadequate data, a faulty causal model, conflicting goals, or implementation problems. Calling the failure “over-reliance on data” without identifying the mechanism merely replaces one broad label with another.",
+    "1.1.40": "<strong>Commentary:</strong> This is about economic-model assumptions, with no literal occurrence of “logic.” An assumption’s empirical failure does not establish invalidity in the inference used to derive its implications.",
+    "1.1.47": "<strong>Commentary:</strong> “True intelligence” introduces a normative or idealized sense. Ask whether the author explicitly proposes that definition or silently relies on it to exclude counterexamples; only the latter supports an equivocation charge.",
+    "1.1.50": "<strong>Commentary:</strong> Conversation is one mechanism of intelligent coordination. The evolutionary assertion needs separate evidence and does not establish that all intelligent behavior is conversational.",
+    "1.1.53": "<strong>Commentary:</strong> This can be read as a thesis about the social development of human cognition. It becomes too broad if it denies solitary reasoning, animal problem-solving, or other capacities merely because no conversation occurs.",
+    "1.1.56": "<strong>Commentary:</strong> Identifying intelligence with conversation is stronger than saying conversation supports intelligence. The identity claim needs defense against silent problem-solving and unproductive conversation; rhetorical emphasis alone does not supply it.",
+    "1.1.59": "<strong>Commentary:</strong> A network can implement computations and inference. Brain organization does not establish either that it is incapable of logic or that conversation is its best mode for every task.",
+    "1.1.62": "<strong>Commentary:</strong> “Artificial intelligence” names a field and its systems. Moving between human and artificial capacities is legitimate when the comparison is explicit; calling AI a pinnacle of rationality does not establish that all its operations are deductive.",
+    "1.1.65": "<strong>Commentary:</strong> Asking useful questions and obtaining reliable answers can both express intelligence. This is an emphasis on inquiry, not necessarily a contradictory definition; the relevant objection is the unsupported exclusion of answer-finding.",
+    "1.1.68": "<strong>Commentary:</strong> Discretion is one capability, not an established exhaustive definition. A good decision can use a rule, and a discretionary decision can be poor. Compare results and reasons in the same circumstances.",
+    "1.1.71": "<strong>Commentary:</strong> Understanding meaning can complement rational assessment. The false contrast would be to infer that accounting for emotions requires less rationality, rather than better information about people’s goals and responses.",
+    "1.1.74": "<strong>Commentary:</strong> The explicit contrast is not itself a hidden shift. Its empirical premise is weak if it treats all algorithms as unable to learn: learning algorithms revise model parameters, although a deployed instance need not keep learning.",
+    "1.1.77": "<strong>Commentary:</strong> This is a broad process description that may accommodate the earlier examples. Its adequacy depends on specifying what counts as successful adaptation and how logic contributes, not on assuming every change in emphasis is fallacious.",
+    "1.1.79": "<strong>Logic:</strong> Distinguish validity of inference, empirical adequacy of premises, practical objectives, and implementation. The strongest potential equivocation is an inference from failures of particular policies or AI systems to the inadequacy of formal reasoning as such. The reported passages alone do not establish every alleged instance.",
+    "1.1.80": "<strong>Intelligence:</strong> Conversation, adaptation, and judgment can be related aspects of a broad capacity rather than inconsistent meanings. The strongest criticism targets unsupported identity or exclusion claims, especially the suggestion that conversation exhausts intelligence.",
+    "1.1.81": "The reported rhetoric sharpens a contrast between rigid systems and responsive judgment, but it does not establish the author’s intentions. A rigorous critique reconstructs the inference where each meaning matters, credits explicit qualifications, and tests general claims against counterexamples. No evidence here licenses claiming that every shift was deliberate.",
+    "2.1.3": "In the reported passages, the author uses “logic” broadly for structured, rule-governed approaches: formal inference, algorithms, economic models, and technocratic procedures. This is a reconstruction of the author’s usage, not a standard technical definition of those different activities.",
+    "2.1.12": "The author emphasizes asking productive questions, tolerating uncertainty, and exercising judgment rather than merely returning a fixed answer. That emphasis does not establish that formal inference itself requires permanent beliefs or prevents inquiry.",
+    "2.1.17": "The most charitable reconstruction makes logic a tool available to intelligent agents, valuable but insufficient by itself. Calling it literally a “subset” mixes a discipline or method with a capacity, so the instrumental relationship is more precise.",
+    "2.1.19": "The text presents a practical tension between over-specified procedures and context-sensitive judgment. An inherent conflict between logic and intelligence is a stronger interpretation than the reported qualification and call for integration support.",
+    "2.1.28": "The evolutionary passage places social adaptation before explicit formal theories of logic. That does not show that early cognition lacked inferential structure, or that intelligence first arose through human dialogue; many nonhuman capacities also predate formal logic.",
+    "2.1.33": "The proposed relationship is instrumental and cultural: use formal methods within broader context-sensitive judgment. Its evolutionary history is a separate empirical question, and “over-hyped artifact” would be an evaluative gloss rather than a precise extraction.",
+    "2.1.39": "This reconstruction preserves the reported emphasis while separating it from our evaluation. Because the separate transcript is unavailable in the published source, claims about the author’s exact intent remain interpretations of the passages quoted in the conversation.",
+    "3.1.6": "Neural networks learn numerical parameters rather than requiring a person to write every decision rule. Their architecture, training procedure, and execution still follow algorithms.",
+    "3.1.7": "Reinforcement learning trains behavior using rewards and interaction. A learned policy can respond to changing observations without updating its parameters during each deployment.",
+    "3.1.8": "<strong>Example:</strong> <a href=\"https://www.nature.com/articles/nature16961\">AlphaGo combined trained policy and value networks with tree search</a>. Its success challenges the claim that all AI is a list of hand-written expert rules, not the fact that computation obeys algorithms.",
+    "3.1.13": "Language models can condition an answer on surrounding text and earlier turns. This is measurable context use; it is not proof of robust understanding of unstated intentions.",
+    "3.1.14": "Multimodal systems can combine information from different input types. Their performance still depends on the task, data, and evaluation conditions.",
+    "3.1.15": "Bias can arise from data, labels, objectives, design choices, feedback loops, and deployment conditions. It is inaccurate to attribute every discriminatory result solely to inherited training data.",
+    "3.1.16": "Uncertainty estimation and active learning are available techniques, not automatic properties of every deployed model. A system must be designed and evaluated for them.",
+    "3.1.22": "<a href=\"https://arxiv.org/abs/2203.02155\">Reinforcement learning from human feedback</a> uses human judgments during model training. It does not imply that every user conversation updates the deployed model’s weights.",
+    "3.1.23": "Robotic and game-playing systems can react to observations and other agents. Transfer to unfamiliar physical or social settings requires separate testing.",
+    "3.1.28": "Generative models can produce new combinations and outputs, but they can also memorize and reproduce training material. Novelty must be assessed rather than guaranteed by the model category.",
+    "3.1.29": "<a href=\"https://www.nature.com/articles/s41586-021-03819-2\">AlphaFold2 achieved a major advance in protein-structure prediction</a>. Predicting structures is narrower than solving every aspect of folding mechanisms, dynamics, or biological function.",
+    "3.1.30": "Language models can propose hypotheses and synthesize ideas. Whether those hypotheses are novel and correct depends on independent literature checks and empirical tests.",
+    "3.1.31": "<strong>Critique:</strong> A universal claim that AI only copies is too strong. Neither stochastic output nor a useful prediction alone proves subjective understanding; those are different standards of assessment.",
+    "3.1.44": "<strong>Flaw:</strong> Untested assumptions are an evidential problem, not simply “insufficient logic.” Better inference, empirical validation, objectives, and oversight address different failure modes.",
+    "3.1.48": "<strong>Flaw:</strong> Demonstrated successes such as AlphaGo and AlphaFold rebut an assertion of universal AI failure. They do not establish general superiority in medicine, governance, or open-ended judgment.",
+    "4.1.5": "How can logical methods contribute to intelligence without exhausting its capacities?",
+    "4.1.7": "AI research contains overlapping symbolic, statistical, and hybrid traditions rather than a single ladder from “raw logic” to human cognition. Future possibilities should be tied to specific capabilities and failure tests, not treated as an inevitable progression.",
+    "4.1.11": "Formal logic studies consequence and valid inference within specified systems. Sound deductive inference preserves truth when its premises are true; it does not certify those premises. Induction and abduction extend beyond deductive entailment and require different standards of support. Non-contradiction is central to classical logic, not an unrestricted description of every logical system.",
+    "4.1.19": "Intelligence can be understood operationally through capacities for learning, reasoning, and effective action across tasks. Calling it fluid or emergent does not establish that it cannot be computational; the performance criteria and scope must be stated.",
+    "4.1.25": "The validity of an inference is distinct from the truth and relevance of its premises. A formal system can be unsuitable for a task without its valid inferences becoming invalid.",
+    "4.1.26": "Economic models vary: some assume stable preferences or idealized calculation; others model bounded rationality, social motives, and imperfect information. Emotional behavior does not by itself refute economic reasoning.",
+    "4.1.27": "Algorithmic decisions can reproduce or create inequities through data, objectives, labels, and institutional feedback. Improving them requires testing the whole decision process, not merely adding more data.",
+    "4.1.28": "The practical issue is selecting and testing models whose assumptions fit the decision, while preserving sound inference within them.",
+    "4.1.31": "Integrating context by revising relevant premises, goals, or models; this need not mean changing the rules of valid inference.",
+    "4.1.36": "The categorical claim that AI cannot converse or use context is too broad. Historical systems also varied; symbolic, statistical, and learning approaches have long overlapped.",
+    "4.1.39": "Such systems often had narrow coverage and difficulty outside their encoded knowledge, although some included uncertainty measures and did not require complete certainty.",
+    "4.1.40": "<strong>Example:</strong> Deep Blue combined extensive chess search with an evaluation function and chess knowledge. Describing it as pure brute force or asserting an inner absence of intuition adds little to the architectural comparison.",
+    "4.1.42": "Machine learning estimates parameters from data using specified algorithms. Not every model is probabilistic, and learned computation remains structured computation.",
+    "4.1.43": "A trained model can respond differently to new inputs without learning from them. Continued learning requires an additional update process.",
+    "4.1.44": "<strong>Example:</strong> AlphaGo combined learned evaluations with structured search; the contrast is between how useful strategies are acquired and applied, not rules versus no rules.",
+    "4.1.46": "Possible developments, some already pursued in research, include:",
+    "4.1.50": "<strong>Example:</strong> Human-feedback training can improve instruction following. More convincing conversation is not by itself evidence of reliable self-correction or continuous learning during use.",
+    "4.1.52": "Possible future systems might:",
+    "4.1.56": "These would be additional abilities to demonstrate under controlled and unfamiliar conditions. They would not by themselves establish consciousness or a complete equivalence with human cognition.",
+    "4.1.57": "Conclusion: Intelligence and Formal Methods",
+    "4.1.59": "Logical inference is one method intelligent systems can use; neither successful inference nor one impressive benchmark exhausts intelligence.",
+    "4.1.60": "AI research combines learning, inference, search, and interaction in different ways rather than simply moving away from logic.",
+    "4.1.61": "Robust intelligence requires reliable performance and appropriate correction across the tasks claimed for it; “continuous negotiation” is an evocative description, not a complete test.",
+    "4.1.63": "AI could augment or replace particular human activities, depending on capability, cost, institutions, and choices. Combining learned models with formal checking is promising, but reliable general social judgment and beneficial governance remain separate objectives to establish.",
+    "5.1.3": "Repeated, independently verified successes can weaken resistance, especially when the comparison uses the same task and measures human errors as carefully as machine errors. Yet success in one domain does not establish general cognitive superiority or settle disputes about consciousness, authority, and accountability.",
+    "5.1.4": "This essay examines how a visible contrast between AI successes and human failures could change acceptance, and what evidence would make that change warranted rather than merely fashionable.",
+    "5.1.6": "Resistance can arise from identity, institutional interests, or restrictive definitions of intelligence. It can also reflect well-founded concerns about reliability, distribution of benefits, and control; the explanation should not presume that all skepticism is bias.",
+    "5.1.15": "That AI can detect useful patterns people miss, while still making errors and exhibiting biases of its own.",
+    "5.1.16": "That human performance varies widely across tasks, so comparisons must specify competent baselines and the costs of both kinds of error.",
+    "5.1.22": "Control concerns can remain reasonable even when a system is more accurate on a defined task. Deciding goals, allocating responsibility, and providing appeal are governance questions that accuracy alone cannot settle.",
+    "5.1.25": "Governments may use better forecasts or decision support while retaining democratic responsibility for policy choices.",
+    "5.1.26": "Businesses may delegate bounded tasks when the evidence, monitoring, and incentives justify it.",
+    "5.1.30": "Documented successes can make blanket dismissal harder to sustain. Acceptance should track the tested capability, however, rather than transfer automatically from a successful demonstration to unrelated decisions.",
+    "5.1.32": "Some systems have achieved strong performance on specified tasks. The boundaries of those results matter:",
+    "5.1.33": "<strong>Medicine:</strong> Some medical AI systems perform well on particular datasets or clinical tasks. This conversation supplies no study establishing that AI generally diagnoses cancer more accurately than trained radiologists; clinical deployment requires task-specific prospective evaluation.",
+    "5.1.34": "<strong>Legal analysis:</strong> Search and drafting tools can assist lawyers, but speed does not establish correct legal reasoning or superior precedent selection. Citations and conclusions require verification; broad superiority is not established here.",
+    "5.1.35": "<strong>Scientific discovery:</strong> AlphaFold2 made a major advance in predicting protein structures. This is a concrete achievement, not a solution to every protein-folding question or proof of universal scientific competence.",
+    "5.1.36": "Such results justify taking machine capabilities seriously while measuring their scope and limits. A collection of narrow successes is evidence of useful abilities, not automatically general superiority.",
+    "5.1.39": "Military simulations and operational command are different settings. No evidence supplied in this conversation establishes that AI generally surpasses human tacticians in real battlefield conditions.",
+    "5.1.40": "<a href=\"https://pubmed.ncbi.nlm.nih.gov/36413172/\">CICERO achieved human-level performance in the game Diplomacy</a>, combining language with planning. Game performance does not establish superiority over professional diplomats in real negotiations.",
+    "5.1.41": "Generative models can suggest scientific hypotheses. Their value depends on novelty checks, sound reasoning, and successful experimental tests.",
+    "5.1.42": "These examples support particular kinds of context-sensitive performance. They do not establish a clean boundary between pattern recognition and intelligence or eliminate failure outside the tested setting.",
+    "5.1.44": "Human errors are a reason to compare alternatives, not a reason to assume the machine alternative succeeds. Consider three domains:",
+    "5.1.45": "Economic forecasting: compare AI and human forecasts on unseen periods, including crises, with uncertainty and transaction costs where relevant. Precision is not guaranteed.",
+    "5.1.46": "Governance: simulations depend on assumptions and chosen objectives. Better simulation scores are not proof of legitimate or effective real-world government.",
+    "5.1.47": "Public health: predictive tools can support decisions, but uncertain data, causal assumptions, feasibility, and public trust constrain any claim to an optimal response.",
+    "5.1.48": "Resistance may weaken when the superiority persists in transparent, relevant comparisons. Selective publicity can also create unjustified trust, so failures must remain visible.",
+    "5.1.49": "III. A Possible Tipping Point: When Evidence Changes Expectations",
+    "5.1.50": "A shift in acceptance becomes more plausible when several conditions coincide:",
+    "5.1.51": "AI repeatedly performs better on defined tasks under independent evaluation, including error severity and relevant subgroups.",
+    "5.1.52": "People encounter understandable evidence and accessible remedies when systems fail.",
+    "5.1.53": "Institutions assign authority in proportion to demonstrated competence, accountability, and legitimate public choices.",
+    "5.1.55": "Wider use could change institutional roles, but several different arrangements remain possible:",
+    "5.1.56": "AI may advise policymakers or carry out bounded delegated decisions, with responsibility assigned explicitly.",
+    "5.1.57": "Courts may use reviewed assistance while preserving due process, reasons, and routes of appeal; superiority to judges is not established here.",
+    "5.1.58": "Financial institutions may use models under risk controls without assuming that automated markets will be stable or optimal.",
+    "5.1.59": "These changes could normalize useful assistance without eliminating reasonable disagreement about authority.",
+    "5.1.62": "Future generations may evaluate AI differently as they experience its benefits and failures; increasing trust is not inevitable.",
+    "5.1.63": "Stability, efficiency, and prosperity are outcomes to assess, including who benefits and who bears errors. They cannot be inferred simply from the presence of AI.",
+    "5.1.65": "On a functional account, demonstrated learning and problem-solving can count as intelligence regardless of biological origin. The curator’s proposed contrast becomes persuasive when superior results are sustained and fairly compared. It does not settle consciousness, justify every delegation, or predict an inevitable collapse of resistance.",
+    "5.1.66": "Judge the capability by what it reliably accomplishes, the conditions under which it fails, and the consequences of relying on it. That standard can challenge human exceptionalism without replacing it with machine exceptionalism.",
+    "6.1.0": "Which philosophical, psychological, and practical reasons explain resistance to accepting AI as intelligence, and how can legitimate reliability concerns be distinguished from human exceptionalism?",
+    "6.1.1": "How could comparable AI successes and human failures change perceptions of intelligence? What would make the comparison fair rather than selectively favorable to AI?",
+    "6.1.2": "How might confirmation bias encourage either rejection of useful AI or excessive trust in it?",
+    "6.1.3": "Which institutional interests obstruct useful AI adoption, and which accountability requirements appropriately constrain it?",
+    "6.1.4": "If AI consistently outperforms experts on a defined task, what decisions should remain under human control, and why?",
+    "6.1.5": "How do retraining, updating context, and genuine learning during use differ? Which would count as evidence of self-correction?",
+    "6.1.6": "Which concerns about losing agency are reasonable even when AI performance improves, and which rest on unsupported assumptions?",
+    "6.1.7": "How might AI adoption change professional roles, and what determines whether it complements, displaces, or degrades human expertise?",
+    "6.1.8": "Where does the proposed analogy between AI development and human cognitive development help, and where does it mislead?",
+    "6.1.9": "What experiences could increase or decrease future generations’ trust in AI, and how might institutions shape those experiences?",
+    "6.1.10": "Which tests would establish context-sensitive reasoning beyond a model’s familiar tasks, and which failures would undermine that claim?",
+    "6.1.11": "How could “negotiation with complexity” be turned into measurable criteria applicable to human and artificial cognition?",
+    "6.1.12": "If intelligence is judged by performance, which differences in process or experience still matter, and for what purposes?",
+    "6.1.13": "How might AI tools change expertise in governance, finance, and science without assuming that they already outperform professionals generally?",
+    "6.1.14": "What evidence, accountability, public consent, and appeal mechanisms would be needed before giving AI a leadership or decision-making role?"
+  },
+  "countChecks": [
+    {
+      "name": "discussion questions",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    },
+    {
+      "name": "prompt-1 ordered list sizes",
+      "selector": "#prompt-1 .original-response ol",
+      "child": "li",
+      "expected": [
+        13,
+        12
+      ]
+    },
+    {
+      "name": "prompt-4 ordered list sizes",
+      "selector": "#prompt-4 .original-response ol",
+      "child": "li",
+      "expected": [
+        3
+      ]
+    },
+    {
+      "name": "prompt-6 ordered list sizes",
+      "selector": "#prompt-6 .original-response ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    }
+  ],
+  "sectionModelLabels": {
+    "4": [
+      "ChatGPT"
+    ],
+    "5": [
+      "ChatGPT"
+    ],
+    "6": [
+      "Unattributed discussion questions"
+    ]
+  },
+  "proseSectionHeadingIndexes": [
+    5
+  ],
+  "proseSiblingLimits": {
+    "5": 1
+  },
+  "nonPromptSections": [
+    6
+  ],
+  "leadingTextReplacements": {
+    "3.1.5": "Deviation from reality: AI includes both explicit rule systems and learned models. Learning changes model parameters using data and an objective; it does not remove algorithms or guarantee adaptation after deployment. The following distinctions matter:",
+    "3.1.12": "Deviation from reality: Language and multimodal models can use supplied context, although success on a task does not establish human-like comprehension or reliability in every setting. Separate demonstrated capabilities from explanations of particular failures:",
+    "3.1.20": "Deviation from reality: Conversational behavior can be implemented computationally. Distinguish responding to a changing context from changing the trained model itself:",
+    "3.1.27": "Deviation from reality: Generative systems can produce useful outputs beyond copying an observed example. Novelty, factual validity, and understanding are separate questions:",
+    "3.1.40": "Conversation and adaptive action can benefit from formal and informal reasoning. The following are related capacities, not all instances of formal logic, and not necessarily explicit computations in human minds:"
+  },
+  "sourceOuterNodes": {
+    "before": [
+      {
+        "selector": "figure:has(img.wp-image-15611)",
+        "sha256": "86502505100abe55f2d298d55a7a308f24c2e0f726505d2d18d5fda42e1803f9",
+        "alt": "Original illustration: layered robotic faces transitioning to a human-like face."
+      },
+      {
+        "selector": "p:has(+ blockquote.wp-block-quote)",
+        "sha256": "825eb44ed4b92b99c1953baeb4af1dac7b7fa2d48be7adf8b182294121575b77",
+        "alt": "Original illustration: layered robotic faces transitioning to a human-like face."
+      },
+      {
+        "selector": "blockquote.wp-block-quote",
+        "sha256": "ae23709fcb3352f8c992d33af290f60a32550b06de46c26505bf96a0eda8971f",
+        "alt": "Original illustration: layered robotic faces transitioning to a human-like face."
+      }
+    ],
+    "after": [
+      {
+        "selector": "figure:has(img.wp-image-15614)",
+        "sha256": "79dd48fd8a5069e89b7e73e7228b2d405ce11470a2b19cf43f2a52598158b4fb",
+        "alt": "Original illustration: robotic, digitally overlaid, and human-like faces."
+      }
+    ]
+  },
+  "sourceSectionAttachments": {
+    "3": [
+      {
+        "siblingIndex": 2,
+        "sha256": "590cc69add34327eceedc03af207f43ac70b924102c827f79797a733f77bb8ad"
+      }
+    ]
+  },
+  "nonResponseColumns": [
+    "6.1"
+  ]
+}

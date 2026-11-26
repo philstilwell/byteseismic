@@ -1,0 +1,121 @@
+{
+  "pagePath": "/rational-thought/ai-logic-intelligence/",
+  "sourceSha256": "7eb4339c93ae90b952f7301c9b672fa3da067ba44c60a86406e19bb58dae425b",
+  "originalPrompts": 5,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 6,
+  "sourceColumns": 6,
+  "modelResponses": 5,
+  "blocksRetainedVerbatim": 191,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 131,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "discussion questions": [
+      15
+    ],
+    "prompt-1 ordered list sizes": [
+      13,
+      12
+    ],
+    "prompt-4 ordered list sizes": [
+      3
+    ],
+    "prompt-6 ordered list sizes": [
+      15
+    ]
+  },
+  "sha256": "323cb5d4b62edd42ef76bd825919c7a87db9b841ac34bf7d4d4af47a79a328d0",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "AI &#8220;Logic&#8221; &amp; &#8220;Intelligence&#8221;",
+  "queueTitle": "AI &#8220;Logic&#8221; &amp; &#8220;Intelligence&#8221;",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "response",
+    "list item",
+    "source framing",
+    "curator handoff"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 328,
+    "ranges": [
+      [
+        1,
+        65
+      ],
+      [
+        66,
+        140
+      ],
+      [
+        141,
+        225
+      ],
+      [
+        226,
+        312
+      ],
+      [
+        313,
+        328
+      ]
+    ],
+    "complete": true,
+    "indexFile": "quality/original-source-revisions/ai-logic-intelligence-reading-index-2026-11-26.txt",
+    "additionalFramingRead": "Original highlights, curator framing, model labels, images, and navigation examined separately; navigation is site furniture, not omitted responses."
+  },
+  "currentArticleReadingCoverage": {
+    "snapshot": "quality/original-source-revisions/ai-logic-intelligence-before-review-2026-11-26.html",
+    "sha256": "dd569526e97124e57f228277288fb3aa446e8de85fa96946c7f18fed59a16429",
+    "indexedLines": 433,
+    "ranges": [
+      [
+        1,
+        110
+      ],
+      [
+        111,
+        220
+      ],
+      [
+        221,
+        330
+      ],
+      [
+        331,
+        433
+      ]
+    ],
+    "complete": true
+  },
+  "isolatedBuildVerified": true,
+  "verifiedAt": "2026-11-26T15:22:39.370768-05:00",
+  "primarySourcesChecked": [
+    "https://www.nature.com/articles/nature16961",
+    "https://arxiv.org/abs/2203.02155",
+    "https://www.nature.com/articles/s41586-021-03819-2",
+    "https://pubmed.ncbi.nlm.nih.gov/36413172/",
+    "https://podcasts.apple.com/us/podcast/the-tyranny-of-logic-the-deeper-thinking-podcast/id1772047800?i=1000697230312"
+  ],
+  "additionalFormatChecks": {
+    "tables": 0,
+    "scriptedDialogueTurns": 0,
+    "originalQuizQuestions": 0,
+    "originalQuizAnswers": 0,
+    "discussionItems": 15,
+    "substantiveImagesRetained": 2,
+    "curatorHandoffVerbatim": true
+  },
+  "limitations": [
+    "No isolated full build yet; not counted as reviewed-and-verified partial-batch progress.",
+    "The separately supplied podcast transcript is absent from the published post; quotations remain attributed as reported by the original conversation, without an exhaustive independent transcript claim."
+  ],
+  "isolatedBuildRecord": "quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json"
+}

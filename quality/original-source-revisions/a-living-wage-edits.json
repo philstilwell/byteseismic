@@ -1,0 +1,128 @@
+{
+  "pageFile": "economics/a-living-wage/index.html",
+  "wordpressId": 6411,
+  "snapshot": "a-living-wage-wordpress-6411.html",
+  "sourceUrl": "http://byteseismic.com/2024/04/16/a-living-wage/",
+  "sourceLabel": "Original WordPress conversation, 2024-04-16",
+  "shellRevision": "6b5fb4df56e85247bc7cd169f1f9d7aa80b5c509",
+  "date": "2026-11-26",
+  "sourceSha256": "9c3240985405a223e1e9c6df74f45850434b1834f7a429f415605da332dfcaf0",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "The notion of a living wage appears highly subjective. Is there any objective global standard that we can index?",
+    "Are cellphones and vehicles considered to be essential possessions when a living wage is calculated?",
+    "Is the cost of migrating to a new region part of the living wage calculation?",
+    "Are there global inequities in the calculation of a living wage that make those in developed countries complaining about their  own living wage look spoiled to those in developing countries? List and elaborate if so.",
+    "Create a 7-item quiz on the entire thread above.",
+    "Provide 15 discussion questions relevant to the content above. "
+  ],
+  "introHeading": "A Living Wage",
+  "intro": "Six exchanges examine how living-wage benchmarks combine measurable local costs with judgments about a decent life. They address communication, transport, relocation, and international comparisons without treating hardship in one country as a reason to dismiss hardship elsewhere. Both seven-question quizzes and thirty discussion questions are preserved.",
+  "description": "Living-wage methods, local costs, transport, relocation, and international comparisons, with two seven-question quizzes and thirty discussion questions.",
+  "highlights": [
+    "A living-wage benchmark measures needs; wage setting also considers economic conditions.",
+    "PPP, poverty thresholds, minimum wages, and living wages answer different questions.",
+    "Higher nominal pay does not make local hardship unreal."
+  ],
+  "replacements": {
+    "1.1.0": "A living-wage estimate combines measured prices with explicit judgments about a decent standard of living. There is no single globally adequate wage amount, but transparent methods can support comparison. State the location, date, family size, number of earners, normal working hours, taxes, benefits, and basket of needs before comparing figures.",
+    "1.1.4": "Purchasing power parity (PPP) converts currencies using relative price levels for comparable baskets. It helps compare purchasing power, but a broad national PPP index may not match a particular worker’s regional costs or needs. It is not itself a living-wage threshold.",
+    "1.1.8": "The <a href=\"https://www.ilo.org/topics-and-sectors/wages/living-wages\">International Labour Organization’s 2024 agreement</a> defines a living wage in terms of a decent life for workers and families during normal working hours, taking country circumstances into account. Estimating needs is distinct from the wage-setting process, which also considers economic factors. An employer’s ability to pay does not determine what a family needs.",
+    "1.1.10": "World Bank poverty measures and United Nations development data can inform comparisons, but a poverty threshold is not interchangeable with a living-wage estimate. A household poverty measure must not be relabeled as a worker’s hourly wage.",
+    "1.2.0": "There is no universal wage amount, but that does not make every estimate arbitrary. Comparable methods make their normative choices and local price evidence visible:",
+    "1.2.3": "<strong>International Labour Organization:</strong> See its <a href=\"https://www.ilo.org/topics-and-sectors/wages/living-wages\">living-wage guidance</a> for the definition agreed in 2024 and the distinction between estimating needs and setting wages. The original link to a 2023 event is not evidence of that later agreement.",
+    "2.1.13": "<strong>Costs and needs:</strong> Widespread ownership alone does not prove necessity, and low ownership may reflect deprivation. Assess what adequate communication and transport require, including access, affordability, reliability, and recurring costs.",
+    "2.1.16": "<strong>Global Living Wage Coalition:</strong> The <a href=\"https://www.globallivingwage.org/about/anker-methodology/\">Anker methodology</a> estimates a locally appropriate decent standard and checks important nonfood costs. Whether a particular phone or vehicle expense is included must be established from the specific benchmark, not inferred from a universal ownership rule.",
+    "2.1.17": "<strong>International Labour Organization:</strong> Its principles do not supply one global checklist of possessions. Communication and transport needs should be assessed transparently in the relevant context.",
+    "2.2.4": "The assessment involves normative choices, but local evidence can constrain them. Compare the cost of adequate communication and transport, including accessibility and work schedules, rather than assuming every urban resident can use public transport or every household needs a car.",
+    "3.1.0": "A local living-wage benchmark generally estimates recurring needs rather than a particular household’s relocation bill. Verify the chosen methodology before asserting an exclusion: a contingency allowance is not the same as a budget for moving, recruitment fees, or repeated migration.",
+    "3.1.10": "Moving costs differ with distance, household size, and circumstances, so a local benchmark does not automatically cover them. They can still be estimated separately; variability is a reason to specify assumptions, not proof that the costs cannot be measured.",
+    "3.1.12": "A benchmark specifies the family and earners it assumes. In the <a href=\"https://www.globallivingwage.org/faq/\">Anker approach</a>, family costs are divided by the typical number of full-time-equivalent workers. A living wage therefore does not universally mean one earner supports every household without other income.",
+    "3.1.17": "Some employers offer separate relocation support. Availability, eligibility, and amounts differ; a worker should not infer that a package exists merely because a job involves moving.",
+    "3.1.18": "Relocation can materially affect whether a worker can accept a job even when its pay meets a local benchmark. Compare recurring destination costs and a separate transition budget; the benchmark alone cannot answer the affordability question.",
+    "3.2.8": "<strong>Separate transition budget:</strong> Estimate moving costs and any available support explicitly. A small allowance for unexpected events may be inadequate and may be needed for other shocks; using it for relocation cannot be assumed to leave basic needs secure.",
+    "4.1.0": "Different prices, services, and wage levels can produce stark disparities, but they do not establish that workers in wealthier countries are “spoiled.” Distinguish inequity in actual living conditions from inconsistency in measurement. Compare documented baskets and methods before judging either group’s concerns.",
+    "4.1.3": "In some high-income locations, housing, care, and transport costs are high. A decent-living benchmark may allow modest participation in community life, but it does not generally promise luxury consumption. Specific inclusions require evidence from that benchmark.",
+    "4.1.5": "A credible benchmark in a lower-income region should still aim at basic decency rather than reproduce deprivation. Low observed spending may reflect unmet needs. Do not assume that a lower monetary estimate intentionally endorses unsafe housing or inadequate care.",
+    "4.1.8": "Nominal wages in different countries can differ greatly. Comparing a low wage in one place with an average in another requires a common date, currency basis, working hours, and population definition; no universal comparison follows from the labels “developed” and “developing.”",
+    "4.1.10": "Low pay can leave workers unable to meet needs in either context. Higher nominal earnings do not establish that someone is debating luxuries once local prices, hours, family obligations, and services are considered.",
+    "4.1.13": "Public services and income support differ substantially among high-income countries and within them. Assess actual eligibility, coverage, quality, and out-of-pocket costs rather than assume universal affordable care or housing.",
+    "4.1.15": "Gaps in public provision can increase household exposure to illness, job loss, or housing insecurity. Such gaps are important in many lower-income settings but are not uniform, nor confined to those countries.",
+    "4.1.18": "Requirements for participation can depend on local institutions: digital access may be needed for work or services. Multiple cars or a separate bedroom for every child are not universal living-wage requirements and should not be asserted without a specific standard.",
+    "4.1.20": "Local transport and household arrangements vary, but deprivation should not be treated as an acceptable standard merely because it is common. Compare decent-living criteria and costs explicitly across locations.",
+    "4.1.23": "Trade, outsourcing, and migration can affect wages and employment differently across sectors and workers. Their net effects cannot be inferred from the phrase “cheap labor”; productivity, bargaining institutions, demand, and adjustment costs also matter.",
+    "4.1.25": "Low pay and weak bargaining power can create risks of exploitation in international supply chains. Whether a particular employer improves or worsens local living standards requires evidence about compensation, conditions, and realistic alternatives.",
+    "4.1.27": "International inequality deserves attention without dismissing local hardship. A useful comparison asks whether workers can meet a transparent decent-living standard under normal working hours, and which costs or institutional differences explain the gap.",
+    "4.2.0": "International comparisons can mislead when they omit prices, household assumptions, and public services. Those differences are not automatically inequities in the calculation itself:",
+    "4.2.1": "<strong>Local costs:</strong> The same converted sum can buy different bundles in different places. Avoid claiming it buys an apartment in one country and a house in another without specifying location, quality, and date.",
+    "4.2.2": "<strong>Public provision:</strong> Accessible services may reduce out-of-pocket costs, while taxes and eligibility rules also matter. Estimates handle cash benefits differently; compare their conventions and avoid double-counting support.",
+    "4.2.3": "<strong>Currency:</strong> Market exchange rates do not measure differences in household living costs. PPP can aid broad comparisons, but local price data and a common needs standard remain necessary.",
+    "4.2.5": "For illustration only, suppose Country A pays $20 per hour and Country B $5 per hour, expressed in one currency. These are hypothetical wages, not established living-wage benchmarks. Assume equal paid hours and compare the following invented monthly costs:",
+    "4.2.8": "At 160 paid hours a month, gross earnings would be $3,200 in A and $800 in B. The stated rent and groceries total $2,000 and $300 respectively, or 62.5% and 37.5% of gross earnings. This limited comparison does not establish overall adequacy: taxes, other needs, household size, services, and housing quality are missing.",
+    "5.1.4": "B) A locally costed basic but decent standard under stated household assumptions",
+    "5.1.38": "B) A locally costed basic but decent standard under stated household assumptions",
+    "5.1.23": "A) Moving costs depend on the origin, destination, and household",
+    "5.1.24": "B) The local benchmark estimates recurring needs under specified assumptions",
+    "5.1.25": "C) A particular move may require a separate one-time budget",
+    "5.1.26": "D) A living-wage allowance always guarantees enough money for any move",
+    "5.1.42": "D) A living-wage allowance always guarantees enough money for any move",
+    "5.1.29": "B) Local prices, services, working hours, and household assumptions may differ",
+    "5.1.43": "B) Local prices, services, working hours, and household assumptions may differ",
+    "5.2.14": "Second, eligibility, taxes, and the treatment of cash benefits affect the comparison; support is not uniform or automatically available.",
+    "6.2.1": "<strong>Household assumptions:</strong> How should family size, earners, care needs, and unexpected expenses enter a living-wage estimate, and how do these differ from qualifications that affect market pay?",
+    "6.2.11": "<strong>Work incentives:</strong> A living wage is remuneration for work. How might changing its level affect participation, effort, retention, and employer decisions, and what evidence would distinguish those effects?"
+  },
+  "countChecks": [
+    {
+      "name": "prompt-1 ordered lists",
+      "selector": "#prompt-1 .original-response ol",
+      "child": "li",
+      "expected": [
+        5
+      ]
+    },
+    {
+      "name": "prompt-3 ordered lists",
+      "selector": "#prompt-3 .original-response ol",
+      "child": "li",
+      "expected": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "name": "prompt-5 ordered lists",
+      "selector": "#prompt-5 .original-response ol",
+      "child": "li",
+      "expected": [
+        7,
+        7,
+        7,
+        6
+      ]
+    },
+    {
+      "name": "prompt-6 ordered lists",
+      "selector": "#prompt-6 .original-response ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    }
+  ],
+  "leadingTextReplacements": {
+    "5.1.2": "What should a credible living-wage estimate seek to cover?",
+    "5.1.7": "Which organization supports comparable local benchmarks using the Anker methodology?",
+    "5.1.12": "Why might a vehicle be unnecessary in an urban benchmark where affordable, suitable public transport is available?",
+    "5.1.22": "Which statement is NOT a sound reason for budgeting relocation separately from recurring living costs?",
+    "5.1.27": "Why should nominal wages across countries not be compared on their own?",
+    "5.2.13": "First, accessible public services may reduce particular out-of-pocket costs."
+  }
+}

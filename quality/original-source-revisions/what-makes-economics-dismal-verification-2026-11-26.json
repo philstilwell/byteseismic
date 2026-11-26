@@ -1,0 +1,97 @@
+{
+  "pagePath": "/economics/what-makes-economics-dismal/",
+  "sourceSha256": "df014317ec6a6baee58e6f60f27244780465f21afd58e2e6c034073d145d00ab",
+  "originalPrompts": 6,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 173,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 42,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "prompt-2 ordered lists": [
+      3
+    ],
+    "prompt-3 ordered lists": [
+      5
+    ],
+    "prompt-5 ordered lists": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      10,
+      10,
+      10
+    ],
+    "prompt-6 ordered lists": [
+      15,
+      15
+    ]
+  },
+  "sha256": "98e1de53375df979093bb9d1b16d01f2821201913bee773d2eff9016424fdb85",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "What Makes Economics &#8220;Dismal&#8221;?",
+  "queueTitle": "What Makes Economics &#8220;Dismal&#8221;?",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "response",
+    "list item"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 221,
+    "ranges": [
+      [
+        1,
+        221
+      ]
+    ],
+    "complete": true,
+    "indexFile": "quality/original-source-revisions/what-makes-economics-dismal-reading-index-2026-11-26.txt"
+  },
+  "currentArticleReadingCoverage": {
+    "indexedLines": 347,
+    "ranges": [
+      [
+        1,
+        347
+      ]
+    ],
+    "complete": true,
+    "snapshot": "quality/original-source-revisions/what-makes-economics-dismal-before-review-2026-11-26.html",
+    "sha256": "3a4d8e8f751428b04fd3d745884dbc9f503f2128b010290cda25ed841dbe8c0f",
+    "readingPassNotes": [
+      "1-170",
+      "1-26 rechecked after output truncation",
+      "171-347"
+    ]
+  },
+  "isolatedBuildVerified": true,
+  "verifiedAt": "2026-11-26T15:22:39.370768-05:00",
+  "primarySourcesChecked": [
+    "https://www.hetwebsite.net/het/texts/carlyle/carlyle1849negroquestion.htm",
+    "https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/titles/255/Mill_0223-21_EBk_v6.0.pdf",
+    "https://www.federalreserve.gov/boarddocs/speeches/2004/20040220/default.htm",
+    "https://www.nobelprize.org/prizes/economic-sciences/2021/summary/"
+  ],
+  "additionalFormatChecks": [
+    "Six prompts, twelve responses, twenty quiz questions and keys; both discussion lists have fifteen original items."
+  ],
+  "limitations": [],
+  "isolatedBuildRecord": "quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json"
+}

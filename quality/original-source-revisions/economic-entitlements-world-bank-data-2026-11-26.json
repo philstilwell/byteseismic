@@ -1,0 +1,446 @@
+{
+  "NY.GDP.MKTP.CD": {
+    "url": "https://api.worldbank.org/v2/country/WLD/indicator/NY.GDP.MKTP.CD?date=2015:2020&format=json",
+    "data": [
+      {
+        "page": 1,
+        "pages": 1,
+        "per_page": 50,
+        "total": 6,
+        "sourceid": "2",
+        "lastupdated": "2026-11-11"
+      },
+      [
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+          },
+          "country": {
+            "id": "1W",
+            "value": "World"
+          },
+          "countryiso3code": "WLD",
+          "date": "2020",
+          "value": 86388502867289.2,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+          },
+          "country": {
+            "id": "1W",
+            "value": "World"
+          },
+          "countryiso3code": "WLD",
+          "date": "2019",
+          "value": 88796498078977.6,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+          },
+          "country": {
+            "id": "1W",
+            "value": "World"
+          },
+          "countryiso3code": "WLD",
+          "date": "2018",
+          "value": 87310840056717.8,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+          },
+          "country": {
+            "id": "1W",
+            "value": "World"
+          },
+          "countryiso3code": "WLD",
+          "date": "2017",
+          "value": 82110104984460,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+          },
+          "country": {
+            "id": "1W",
+            "value": "World"
+          },
+          "countryiso3code": "WLD",
+          "date": "2016",
+          "value": 77084966373474.1,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.MKTP.CD",
+            "value": "GDP (current US$)"
+          },
+          "country": {
+            "id": "1W",
+            "value": "World"
+          },
+          "countryiso3code": "WLD",
+          "date": "2015",
+          "value": 75839351828606.1,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0
+        }
+      ]
+    ]
+  },
+  "NY.GDP.PCAP.CD": {
+    "url": "https://api.worldbank.org/v2/country/WLD/indicator/NY.GDP.PCAP.CD?date=2015:2020&format=json",
+    "data": [
+      {
+        "page": 1,
+        "pages": 1,
+        "per_page": 50,
+        "total": 6,
+        "sourceid": "2",
+        "lastupdated": "2026-11-11"
+      },
+      [
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CD",
+            "value": "GDP per capita (current US$)"
+          },
+          "country": {
+            "id": "1W",
+            "value": "World"
+          },
+          "countryiso3code": "WLD",
+          "date": "2020",
+          "value": 10999.4917581781,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 1
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CD",
+            "value": "GDP per capita (current US$)"
+          },
+          "country": {
+            "id": "1W",
+            "value": "World"
+          },
+          "countryiso3code": "WLD",
+          "date": "2019",
+          "value": 11417.5958587724,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 1
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CD",
+            "value": "GDP per capita (current US$)"
+          },
+          "country": {
+            "id": "1W",
+            "value": "World"
+          },
+          "countryiso3code": "WLD",
+          "date": "2018",
+          "value": 11344.728168656,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 1
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CD",
+            "value": "GDP per capita (current US$)"
+          },
+          "country": {
+            "id": "1W",
+            "value": "World"
+          },
+          "countryiso3code": "WLD",
+          "date": "2017",
+          "value": 10784.3950896297,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 1
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CD",
+            "value": "GDP per capita (current US$)"
+          },
+          "country": {
+            "id": "1W",
+            "value": "World"
+          },
+          "countryiso3code": "WLD",
+          "date": "2016",
+          "value": 10239.4656645738,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 1
+        },
+        {
+          "indicator": {
+            "id": "NY.GDP.PCAP.CD",
+            "value": "GDP per capita (current US$)"
+          },
+          "country": {
+            "id": "1W",
+            "value": "World"
+          },
+          "countryiso3code": "WLD",
+          "date": "2015",
+          "value": 10191.9752512663,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 1
+        }
+      ]
+    ]
+  },
+  "SP.DYN.LE00.IN": {
+    "url": "https://api.worldbank.org/v2/country/WLD/indicator/SP.DYN.LE00.IN?date=2015:2020&format=json",
+    "data": [
+      {
+        "page": 1,
+        "pages": 1,
+        "per_page": 50,
+        "total": 6,
+        "sourceid": "2",
+        "lastupdated": "2026-11-11"
+      },
+      [
+        {
+          "indicator": {
+            "id": "SP.DYN.LE00.IN",
+            "value": "Life expectancy at birth, total (years)"
+          },
+          "country": {
+            "id": "1W",
+            "value": "World"
+          },
+          "countryiso3code": "WLD",
+          "date": "2020",
+          "value": 72.1832040176208,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0
+        },
+        {
+          "indicator": {
+            "id": "SP.DYN.LE00.IN",
+            "value": "Life expectancy at birth, total (years)"
+          },
+          "country": {
+            "id": "1W",
+            "value": "World"
+          },
+          "countryiso3code": "WLD",
+          "date": "2019",
+          "value": 72.869911203356,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0
+        },
+        {
+          "indicator": {
+            "id": "SP.DYN.LE00.IN",
+            "value": "Life expectancy at birth, total (years)"
+          },
+          "country": {
+            "id": "1W",
+            "value": "World"
+          },
+          "countryiso3code": "WLD",
+          "date": "2018",
+          "value": 72.6442408544831,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0
+        },
+        {
+          "indicator": {
+            "id": "SP.DYN.LE00.IN",
+            "value": "Life expectancy at birth, total (years)"
+          },
+          "country": {
+            "id": "1W",
+            "value": "World"
+          },
+          "countryiso3code": "WLD",
+          "date": "2017",
+          "value": 72.3662967648278,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0
+        },
+        {
+          "indicator": {
+            "id": "SP.DYN.LE00.IN",
+            "value": "Life expectancy at birth, total (years)"
+          },
+          "country": {
+            "id": "1W",
+            "value": "World"
+          },
+          "countryiso3code": "WLD",
+          "date": "2016",
+          "value": 72.1858228976021,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0
+        },
+        {
+          "indicator": {
+            "id": "SP.DYN.LE00.IN",
+            "value": "Life expectancy at birth, total (years)"
+          },
+          "country": {
+            "id": "1W",
+            "value": "World"
+          },
+          "countryiso3code": "WLD",
+          "date": "2015",
+          "value": 71.9656376386893,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0
+        }
+      ]
+    ]
+  },
+  "SE.ADT.LITR.ZS": {
+    "url": "https://api.worldbank.org/v2/country/WLD/indicator/SE.ADT.LITR.ZS?date=2015:2020&format=json",
+    "data": [
+      {
+        "page": 1,
+        "pages": 1,
+        "per_page": 50,
+        "total": 6,
+        "sourceid": "2",
+        "lastupdated": "2026-11-11"
+      },
+      [
+        {
+          "indicator": {
+            "id": "SE.ADT.LITR.ZS",
+            "value": "Literacy rate, adult total (% of people ages 15 and above)"
+          },
+          "country": {
+            "id": "1W",
+            "value": "World"
+          },
+          "countryiso3code": "WLD",
+          "date": "2020",
+          "value": 86.9800033569336,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0
+        },
+        {
+          "indicator": {
+            "id": "SE.ADT.LITR.ZS",
+            "value": "Literacy rate, adult total (% of people ages 15 and above)"
+          },
+          "country": {
+            "id": "1W",
+            "value": "World"
+          },
+          "countryiso3code": "WLD",
+          "date": "2019",
+          "value": 86.7900009155273,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0
+        },
+        {
+          "indicator": {
+            "id": "SE.ADT.LITR.ZS",
+            "value": "Literacy rate, adult total (% of people ages 15 and above)"
+          },
+          "country": {
+            "id": "1W",
+            "value": "World"
+          },
+          "countryiso3code": "WLD",
+          "date": "2018",
+          "value": 86.7600021362305,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0
+        },
+        {
+          "indicator": {
+            "id": "SE.ADT.LITR.ZS",
+            "value": "Literacy rate, adult total (% of people ages 15 and above)"
+          },
+          "country": {
+            "id": "1W",
+            "value": "World"
+          },
+          "countryiso3code": "WLD",
+          "date": "2017",
+          "value": 86.4700012207031,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0
+        },
+        {
+          "indicator": {
+            "id": "SE.ADT.LITR.ZS",
+            "value": "Literacy rate, adult total (% of people ages 15 and above)"
+          },
+          "country": {
+            "id": "1W",
+            "value": "World"
+          },
+          "countryiso3code": "WLD",
+          "date": "2016",
+          "value": 86.2799987792969,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0
+        },
+        {
+          "indicator": {
+            "id": "SE.ADT.LITR.ZS",
+            "value": "Literacy rate, adult total (% of people ages 15 and above)"
+          },
+          "country": {
+            "id": "1W",
+            "value": "World"
+          },
+          "countryiso3code": "WLD",
+          "date": "2015",
+          "value": 85.9599990844727,
+          "unit": "",
+          "obs_status": "",
+          "decimal": 0
+        }
+      ]
+    ]
+  }
+}

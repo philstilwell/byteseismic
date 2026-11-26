@@ -1,0 +1,192 @@
+{
+  "pageFile": "epistemology/cromwells-rule/index.html",
+  "wordpressId": 9322,
+  "snapshot": "cromwells-rule-wordpress-9322.html",
+  "sourceUrl": "http://byteseismic.com/2024/05/19/cromwells-rule/",
+  "sourceLabel": "Original WordPress conversation, 2024-05-19",
+  "shellRevision": "6b5fb4df56e85247bc7cd169f1f9d7aa80b5c509",
+  "date": "2026-11-26",
+  "sourceSha256": "bbaab7796670a5bc0549683ea1933ed3f8f7dfcc0b9dad6a79c3aa444d0bd45b",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini",
+    "Claude"
+  ],
+  "headings": [
+    "Provide an full elaboration on Cromwell’s Rule defined below:",
+    "Elaborate on how an absolute credence of 0 or 1 entails epistemic blindness.",
+    "Create a hypothetical discussion between an epistemologist who has just introduced Cromwell’s Rule and a student who feels the absolute credences of 0 or 1 are sometimes justified.",
+    "What resources related to Cromwell’s Rule are available?",
+    "Create a 10-item quiz on the entire thread above.",
+    "Provide 15 discussion questions relevant to the content above. "
+  ],
+  "introHeading": "Cromwell&#8217;s Rule",
+  "intro": "Six exchanges preserve the quoted definition, eighteen model responses, three dialogues, all resource entries, thirty quiz questions, and sixty discussion questions, including ChatGPT’s extra set. The revision distinguishes ordinary Bayesian conditioning from changing a model, corrects zero-probability misconceptions, and marks unverifiable references rather than presenting them as established publications.",
+  "description": "Cromwell’s Rule, Bayesian updating, zero-probability events, model revision, verified resources, and complete source dialogues and quizzes.",
+  "highlights": [
+    "Zero prior mass stays zero under ordinary conditioning on evidence with positive probability.",
+    "Changing a model is different from updating within it.",
+    "A continuous distribution can assign probability zero to each possible exact value."
+  ],
+  "replacements": {
+    "1.1.1": "Cromwell’s Rule was named by statistician Dennis Lindley after Oliver Cromwell, not after Lindley himself. It cautions against assigning certainty or impossibility to empirical hypotheses that evidence might reasonably challenge. Lindley discusses the rule in §6.8 of <a href=\"https://onlinelibrary.wiley.com/doi/book/10.1002/0470055480\">Understanding Uncertainty</a> (2006). The slogan needs the qualifications below.",
+    "1.1.5": "For a particular hypothesis, assigning prior mass 0 or 1 excludes one side of the comparison within the model. This can prevent ordinary updating from correcting a mistaken exclusion. Probability zero does not universally mean logical impossibility: in a continuous uniform distribution on [0,1], every exact value has probability zero although some value must occur.",
+    "1.1.6": "<strong>Updating limit:</strong> P(H | E) = P(H ∩ E)/P(E). If P(H)=0 and P(E)>0, the numerator is zero; if P(H)=1, its complement remains zero. If P(E)=0, this elementary ratio is undefined, not a proof that a contradictory observation changes nothing. One may need a different conditional construction or a revised model.",
+    "1.1.8": "<strong>Scope:</strong> Logical tautologies and contradictions receive 1 and 0 in a classical probability model. Continuous point probabilities and conditioning assumptions also require care. The rule is not a ban on every zero-probability event, nor does it settle human certainty about a complicated proof.",
+    "1.1.11": "<strong>Rationality:</strong> Leaving live hypotheses positive support preserves the possibility of learning from them. It does not ensure good calibration: an arbitrarily tiny positive prior can still make revision impractically difficult.",
+    "1.1.14": "<strong>Decisions:</strong> Revisable beliefs can inform decisions, but probabilities alone do not determine action. Costs, benefits, and available choices matter; decisive action does not require absolute certainty.",
+    "1.1.16": "<strong>Diagnostic illustration:</strong> A model that assigns a disease zero prior mass cannot recover it by ordinary conditioning on positive-probability evidence. A clinician can nevertheless reconsider the model and its assumptions. The example illustrates a mathematical limitation, not a clinical rule or guaranteed outcome.",
+    "1.1.18": "The practical lesson is to avoid excluding plausible empirical alternatives without justification. Preserve support for hypotheses that may deserve reconsideration, while distinguishing logical impossibility, probability-zero points, observation assumptions, and revision of the model itself.",
+    "1.2.2": "Cromwell’s Rule was named by Dennis Lindley after Oliver Cromwell. It is a caution about dogmatic prior assignments, not an additional probability axiom forbidding every occurrence of 0 or 1.",
+    "1.2.7": "<strong>Limited knowledge:</strong> Zero prior mass for a hypothesis prevents positive-probability evidence from giving that hypothesis positive posterior mass under ordinary conditioning. It does not physically prevent surprising evidence from arriving or stop a person from replacing the model.",
+    "1.2.8": "<strong>Prior sensitivity:</strong> A nonzero prior allows updating, but how much the posterior changes depends on the prior odds and likelihood ratio. Report sensitivity to reasonable prior choices rather than treating any number strictly between 0 and 1 as equally open-minded.",
+    "1.2.10": "In standard arithmetic, 2 + 2 = 4 and 2 + 2 = 5 are respectively true and false, and can receive 1 and 0 within that framework. This mathematical assignment differs from a person’s confidence that they have interpreted a statement correctly. Probability-zero outcomes in continuous models are another important qualification.",
+    "1.2.12": "For a coin with unknown head probability θ, distinguish P(heads next) from a prior distribution over θ. A prior concentrated entirely at θ=0.5 remains fixed there after three heads. A Beta(1,1) prior, spread over θ, updates after three heads to Beta(4,1), with next-head predictive probability 4/5. Thus a predictive probability of 0.5 does not itself show that uncertainty about fairness was modeled.",
+    "1.3.1": "For ordinary conditioning with P(E)>0, prior mass zero or one for H remains zero or one. That is a property of the updating rule, not a claim that humans cannot change their assumptions. Evidence to which the model assigned probability zero requires special treatment rather than applying a ratio with zero denominator.",
+    "1.3.2": "Both examples in the original response—2 + 2 = 4 in standard arithmetic and “If it is raining, then it is raining” in classical logic—are true and receive probability 1, not 1 and 0 “respectively.” Their negations receive 0. The rule must also accommodate probability-zero points in continuous distributions.",
+    "1.3.3": "<strong>Importance:</strong> A hypothesis excluded from prior support cannot gain support through an ordinary likelihood update where the posterior is well defined. This cautions against an overly restrictive model; it does not make every probability-zero event a logical contradiction.",
+    "2.1.0": "When absolute credence blocks learning within a model",
+    "2.1.1": "“Epistemic blindness” here is a metaphor for excluding an alternative that later evidence should make us reconsider. It is not a diagnosis entailed by writing 0 or 1. The mathematical restriction concerns ordinary conditioning in a fixed model; psychological rigidity and model revision are separate matters.",
+    "2.1.5": "<strong>Non-extreme credence:</strong> Positive probability for both H and its complement allows their relative support to change with diagnostic evidence, but does not guarantee that a person will seek or fairly assess that evidence.",
+    "2.1.6": "<strong>Endpoint assignment:</strong> Zero or one fixes an event’s probability under positive-probability conditioning in the same model. It does not prohibit changing the model, and it is not always equivalent to logical impossibility or necessity.",
+    "2.1.8": "<strong>Bayesian conditioning:</strong> When P(E)>0, conditioning preserves an event’s zero or unit prior probability. If P(E)=0, the elementary formula cannot be applied. A person may respond by revising the model rather than merely updating its existing probabilities.",
+    "2.1.11": "<strong>Dogmatism:</strong> Unjustified certainty can accompany resistance to evidence, but an endpoint assignment does not by itself establish a psychological bias. Some zeros are appropriate structural assumptions or continuous point probabilities.",
+    "2.1.14": "<strong>Rationality:</strong> Unwarranted exclusion of a live alternative can distort decisions. Whether an endpoint is defensible depends on the proposition, model, evidence, and purpose; the rule does not condemn every use of 0 or 1.",
+    "2.1.17": "<strong>Hypothesis testing:</strong> An excluded hypothesis cannot gain posterior mass by ordinary conditioning in a fixed model. Scientists can also enlarge or replace their models; that is a different kind of revision.",
+    "2.1.20": "<strong>Diagnostic flexibility:</strong> An omitted or zero-weight possibility may call for reconsidering the model when new evidence arrives. The mathematical restriction does not force a clinician to ignore symptoms or tests.",
+    "2.1.21": "<strong>Outcomes:</strong> Openness to relevant evidence can improve reasoning, but does not ensure a correct diagnosis or better outcome in every case. Evidence quality and appropriate action also matter.",
+    "2.1.26": "Unjustified endpoint priors can block learning within a fixed model. Keep this conditional mathematical claim separate from the stronger, unsupported claim that every person assigning 0 or 1 is closed-minded. Good inquiry also checks prior sensitivity and revises inadequate models.",
+    "2.2.0": "Unjustified certainty about an empirical hypothesis can obstruct inquiry. The following are possible reasoning failures, not inevitable psychological consequences of every endpoint probability:",
+    "2.2.1": "<strong>Excluded alternatives:</strong> A zero-weight hypothesis cannot recover through ordinary conditioning on positive-probability evidence. This is not the same as saying that every zero-probability event is impossible.",
+    "2.2.5": "<strong>Hypothetical example:</strong> Imagine a person dogmatically refusing evidence for a spherical Earth. This is a thought experiment, not a representative account of seventeenth-century science; the spherical Earth was established in learned astronomy long before then.",
+    "2.2.6": "<strong>Treatment example:</strong> Someone assigning zero chance of benefit might disregard contrary findings. The appropriate response is to assess study quality, effect size, and alternatives; neither blanket dismissal nor uncritical acceptance follows from the rule.",
+    "2.3.0": "For a hypothesis H in a fixed model, prior 0 means exclusion and prior 1 means full commitment—the original response reversed their order. Ordinary conditioning on evidence of positive probability preserves those values. This may impede learning when the exclusion was unjustified, but it does not make model revision impossible.",
+    "2.3.2": "<strong>Inflexibility within a model:</strong> A zero or unit prior remains so under well-defined elementary conditioning. Evidence with model probability zero makes that formula undefined; it may expose inadequate assumptions.",
+    "3.1.3": "“You can condition on an observation treated as certain within a model, giving the observed event probability 1. But if we are uncertain whether the observation was accurate, we should model the report separately from the actual landing. A trick coin changes the chance of heads; it does not by itself make your observation of heads false.”",
+    "3.1.5": "“In standard arithmetic, 2 + 2 = 4 follows from its definitions and axioms. Calling all mathematics tautological would take a controversial philosophical position. The probability assigned within a framework also differs from confidence that we have read or checked a complicated proof correctly. Similarly, ‘the sun will rise tomorrow’ is an empirical forecast that needs location and ordinary astronomical conditions.”",
+    "3.1.9": "“There are different positions on epistemic certainty. Standard conditionalization can assign probability 1 to an observation accepted as certain; a fallibilist model can instead distinguish the observation report from the event. Cromwell’s Rule cautions against unjustified exclusions, rather than proving that every empirical use of 1 is incoherent.”",
+    "3.2.6": "Epistemologist: The possibility of error motivates caution, but a skeptical scenario alone does not calculate its probability. We should distinguish confidence in your present observation from certainty within a model that assumes the observation is correct.",
+    "3.2.8": "Epistemologist: Very high confidence may support the same action as certainty. Mathematically, however, positive odds for an alternative can change with evidence. The original amnesia example concerns losing information, not ordinary Bayesian conditioning; it does not prove that your earlier observation was false. Nor is 0.99 a universally appropriate replacement for 1.",
+    "3.3.3": "Epistemologist: Feeling certain differs from a justified model assignment. In a fixed model, endpoints resist ordinary conditioning, but we can also reconsider the model. The rule does not show that a person can never change a belief once held with certainty.",
+    "3.3.5": "Epistemologist: The cogito raises a distinct question about first-person certainty, and the rule alone does not settle it. We should specify what proposition you mean by “I exist,” and distinguish that philosophical issue from an empirical model’s prior support.",
+    "3.3.8": "Student: Okay, but isn’t there a risk of being too open-minded and never being able to commit to any belief?",
+    "3.3.10": "Student: I see, so it’s about maintaining a degree of flexibility and openness to revising beliefs, even for propositions that seem highly plausible or implausible initially. That makes sense.",
+    "4.1.2": "Popper’s <a href=\"https://www.routledge.com/The-Logic-of-Scientific%20Discovery/Popper/p/book/9780203994627\">book</a> provides a contrasting account of scientific testing and falsifiability. It is not a textbook source for Bayesian updating, and Popper’s account should not be equated with Lindley’s.",
+    "4.1.4": "<a href=\"https://www.cambridge.org/core/books/probability-theory/9CA08E224FF30123304E6D8935CF1A99\">Jaynes’s book</a>, edited by G. Larry Bretthorst, develops probability as plausible reasoning. It offers broader Bayesian background; consult the text for a particular claim rather than assuming every named principle is covered.",
+    "4.1.6": "<a href=\"https://us.macmillan.com/books/9780374275631/thinkingfastandslow/\">Kahneman’s book</a> discusses judgment and cognitive biases. It is useful background on confidence, not a derivation of Cromwell’s Rule or a guarantee that reading about biases removes them.",
+    "4.1.8": "Unverified citation: an identifiable publication with this exact title and author was not located in this review. Do not rely on it as an established reference; Lindley’s verified book below is a direct starting point.",
+    "4.1.10": "Unverified citation: the exact article title and attribution to David Schum could not be confirmed. Schum’s wider work on evidence does not establish that this specific article exists.",
+    "4.1.12": "Unverified citation: this exact title attributed to Leonard J. Savage could not be confirmed. Retained here to document the original recommendation, not to endorse a bibliographic record.",
+    "4.1.14": "The entries <a href=\"https://plato.stanford.edu/entries/probability-interpret/\">Interpretations of Probability</a> and <a href=\"https://plato.stanford.edu/entries/epistemology-bayesian/\">Bayesian Epistemology</a> discuss philosophical interpretations and updating. These are scholarly reference works, distinct from Lindley’s own presentation.",
+    "4.1.16": "The original recommendation does not identify an author or a specific LessWrong article. Treat it as a community-search suggestion, not a verified scholarly citation or a substitute for a probability text.",
+    "4.1.20": "“Introduction to Bayesian Inference” is a topic description here, not an identifiable video: the original supplies no presenter or link. Check the instructor and mathematical assumptions before relying on a video.",
+    "4.1.22": "The <a href=\"https://www.coursera.org/learn/bayesian-statistics\">listed course</a> is a verified introduction to Bayesian concepts and data analysis. Its existence does not establish that it explicitly teaches Cromwell’s Rule.",
+    "4.1.24": "Dweck’s <a href=\"https://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve\">talk</a> concerns growth mindset. Its connection to revisable beliefs is an analogy; it is not a technical resource on Bayesian priors.",
+    "4.2.1": "<strong>Scholarly sources:</strong> The original “[scholarly article on cromwell’s rule]” was a placeholder, not a reference. Begin with Lindley’s Understanding Uncertainty, §6.8, and examine citations in identified probability texts.",
+    "4.2.4": "<strong>DeepAI:</strong> The original bracketed text did not supply a usable citation. A specific current page was not verified here; use the identified book and course sources for technical claims.",
+    "4.2.5": "<strong>Wikipedia:</strong> The prompt quotes an overview of Cromwell’s Rule. It is a starting point whose claims should be checked against the cited original sources, especially for continuous probability and conditioning qualifications.",
+    "4.2.6": "<strong>Dennis Lindley:</strong> <a href=\"https://onlinelibrary.wiley.com/doi/book/10.1002/0470055480\">Understanding Uncertainty</a> (2006) is a verified book by the statistician who named the rule; §6.8 addresses it directly.",
+    "4.3.0": "The original response reported that it could not identify specific resources. The review verifies Lindley’s Understanding Uncertainty as a direct starting point, while preserving the original resource categories below.",
+    "4.3.6": "The original response lacked browsing access. The present review supplies verified book and course links above and explicitly marks uncertain titles; readers need not rely on unidentified placeholders.",
+    "5.1.19": "C) A proved theorem in standard arithmetic, treated within that framework",
+    "5.1.25": "D) “Understanding Uncertainty”",
+    "5.1.32": "A) A fair-coin model is always correct",
+    "5.1.33": "B) Three heads prove a coin is biased",
+    "5.1.34": "C) Predictive probability for the next flip differs from a prior distribution over the coin’s bias",
+    "5.1.35": "D) A prediction of 0.5 proves that all possible biases have positive prior support",
+    "5.1.42": "A) Multiplying existing positive prior weights by likelihoods",
+    "5.1.43": "B) Renormalizing those weights",
+    "5.1.44": "C) Replacing the model to include a previously excluded hypothesis",
+    "5.1.45": "D) Calculating a posterior using the existing assumptions",
+    "5.1.46": "Which listed resource provides scholarly philosophical entries on interpretations of probability and Bayesian epistemology?",
+    "5.1.54": "C) A proved theorem in standard arithmetic, treated within that framework",
+    "5.1.57": "C) Predictive probability for the next flip differs from a prior distribution over the coin’s bias.",
+    "5.1.59": "C) Replacing the model to include a previously excluded hypothesis.",
+    "5.2.9": "Why does the original amnesia thought experiment fail to demonstrate ordinary Bayesian updating?",
+    "5.2.20": "Amnesia concerns loss of information, not conditioning on additional evidence within an unchanged model. It does not show that a past observation was false.",
+    "5.3.7": "Under ordinary conditioning on evidence of positive probability, what happens to a hypothesis assigned zero prior mass?",
+    "5.3.10": "Which verified book provides a direct starting point for the rule, rather than relying on the original response’s uncertainty about resources?",
+    "5.3.18": "It retains zero posterior mass within that model; changing the model is a separate operation.",
+    "5.3.21": "Dennis Lindley’s Understanding Uncertainty (2006), §6.8.",
+    "6.1.7": "How do Popper’s account of falsifiability and Bayesian belief revision differ, despite their shared concern with criticism and evidence?",
+    "6.2.11": "Why is losing information through amnesia different from conditioning on new evidence, and what would be a better example of the updating restriction?",
+    "6.2.12": "How should we distinguish probability judgments from risk preferences? Can two people with the same probability estimate rationally choose different actions?",
+    "6.3.8": "How should we distinguish a legal decision made under a standard of proof from a claim of probability one? What does this distinction contribute to the discussion?"
+  },
+  "countChecks": [
+    {
+      "name": "prompt-1 ordered lists",
+      "selector": "#prompt-1 .original-response ol",
+      "child": "li",
+      "expected": [
+        2,
+        3,
+        3,
+        3,
+        2,
+        2
+      ]
+    },
+    {
+      "name": "prompt-2 ordered lists",
+      "selector": "#prompt-2 .original-response ol",
+      "child": "li",
+      "expected": [
+        2,
+        2,
+        3,
+        3,
+        4,
+        3
+      ]
+    },
+    {
+      "name": "prompt-4 ordered lists",
+      "selector": "#prompt-4 .original-response ol",
+      "child": "li",
+      "expected": [
+        3,
+        3,
+        3,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "prompt-5 ordered lists",
+      "selector": "#prompt-5 .original-response ol",
+      "child": "li",
+      "expected": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "prompt-6 ordered lists",
+      "selector": "#prompt-6 .original-response ol",
+      "child": "li",
+      "expected": [
+        15,
+        15,
+        15,
+        15
+      ]
+    }
+  ],
+  "preambleHeadingIndexes": [
+    0
+  ],
+  "promptContinuationPreambleIndexes": {
+    "1": 0
+  },
+  "leadingTextReplacements": {
+    "4.1.13": "Stanford Encyclopedia of Philosophy: Interpretations of Probability and Bayesian Epistemology",
+    "5.1.16": "Which statement can receive probability 1 within the specified formal framework?",
+    "5.1.31": "Which distinction is illustrated by the coin example?",
+    "5.1.41": "Which operation goes beyond ordinary conditioning within a fixed model?"
+  }
+}

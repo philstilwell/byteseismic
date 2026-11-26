@@ -1,0 +1,101 @@
+{
+  "pagePath": "/rational-thought/what-is-game-theory/",
+  "sourceSha256": "2df1816de0b4dff78bed11393450a129abfb182355843889e4f0dd52ea708fae",
+  "originalPrompts": 8,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 8,
+  "sourceColumns": 16,
+  "modelResponses": 16,
+  "blocksRetainedVerbatim": 199,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 44,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "prompt-1 ordered lists": [
+      3
+    ],
+    "prompt-2 ordered lists": [
+      1,
+      1,
+      1
+    ],
+    "prompt-3 ordered lists": [
+      2
+    ],
+    "prompt-4 ordered lists": [
+      5,
+      4
+    ],
+    "prompt-7 ordered lists": [
+      7,
+      7,
+      7,
+      7
+    ],
+    "prompt-8 ordered lists": [
+      15,
+      15
+    ]
+  },
+  "sha256": "712db3fc6384f4b9d4f1d8c5ee89ab1001dd5481c9b321bb262725a6c371ddd3",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "What is Game Theory?",
+  "queueTitle": "What is Game Theory?",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "response",
+    "list item"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 253,
+    "ranges": [
+      [
+        1,
+        253
+      ]
+    ],
+    "complete": true,
+    "indexFile": "quality/original-source-revisions/what-is-game-theory-reading-index-2026-11-26.txt",
+    "readingPassNotes": [
+      "1-132",
+      "133-253"
+    ]
+  },
+  "currentArticleReadingCoverage": {
+    "indexedLines": 455,
+    "ranges": [
+      [
+        1,
+        455
+      ]
+    ],
+    "complete": true,
+    "snapshot": "quality/original-source-revisions/what-is-game-theory-before-review-2026-11-26.html",
+    "sha256": "7038678b2607537360564f6a985409830c280f39920b8cd3962912976cf9ad60",
+    "readingPassNotes": [
+      "1-228",
+      "229-455"
+    ]
+  },
+  "isolatedBuildVerified": true,
+  "verifiedAt": "2026-11-26T15:22:39.370768-05:00",
+  "primarySourcesChecked": [
+    "https://www.cs.cornell.edu/~rafael/networks-html/chapter1.html",
+    "https://live.ocw.mit.edu/courses/17-810-game-theory-spring-2021/mit17_810s21_lec3.pdf",
+    "https://unidir.org/publication/nuclear-risks-perceptions-pathways/"
+  ],
+  "additionalFormatChecks": [
+    "Two unchanged payoff tables checked against best-response derivations; two7-question quizzes and7keys each; two15-question discussions."
+  ],
+  "limitations": [
+    "Nuclear section is a general model critique, not a current assessment of treaties or force inventories."
+  ],
+  "isolatedBuildRecord": "quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json"
+}

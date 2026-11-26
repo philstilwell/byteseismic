@@ -1,0 +1,89 @@
+{
+  "pagePath": "/economics/economic-optimism/",
+  "sourceSha256": "68454cce0ffd88ece5fa81d37934dc79fee9c0369a640f5d520dd090ad15c3ce",
+  "originalPrompts": 6,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 134,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 41,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "prompt-2 ordered lists": [
+      3
+    ],
+    "prompt-5 ordered lists": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "prompt-6 ordered lists": [
+      15,
+      15
+    ]
+  },
+  "sha256": "2fc81cfd8d5cf6e723ef8bb059474cc0d172aece5c9720e5db9d4956ca6c83ce",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "Economic Optimism",
+  "queueTitle": "Economic Optimism",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "response",
+    "list item"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 181,
+    "ranges": [
+      [
+        1,
+        181
+      ]
+    ],
+    "complete": true,
+    "indexFile": "quality/original-source-revisions/economic-optimism-reading-index-2026-11-26.txt",
+    "readingPassNotes": [
+      "1-181"
+    ]
+  },
+  "currentArticleReadingCoverage": {
+    "indexedLines": 366,
+    "ranges": [
+      [
+        1,
+        366
+      ]
+    ],
+    "complete": true,
+    "snapshot": "quality/original-source-revisions/economic-optimism-before-review-2026-11-26.html",
+    "sha256": "b98d2c5736d8140afc2a23733318cb75766675b2919f764eefb363ad5a10034b",
+    "readingPassNotes": [
+      "1-200",
+      "201-366"
+    ]
+  },
+  "isolatedBuildVerified": true,
+  "verifiedAt": "2026-11-26T15:22:39.370768-05:00",
+  "primarySourcesChecked": [
+    "https://blogs.worldbank.org/en/opendata/september-2020-global-poverty-update-world-bank-new-annual-poverty-estimates-using-revised",
+    "https://www.who.int/news/item/20-05-2022-world-health-statistics-2022",
+    "https://www.rug.nl/ggdc/historicaldevelopment/maddison/releases/maddison-database-2010",
+    "https://pip.worldbank.org/",
+    "https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG",
+    "https://www.uis.unesco.org/en"
+  ],
+  "additionalFormatChecks": [
+    "Sixprompts with firstpromptcontinuation,twelveresponses,two10questionquizzes/keys,30discussionquestions."
+  ],
+  "limitations": [],
+  "isolatedBuildRecord": "quality/original-source-revisions/batch-verification-2026-11-26-review-recovery.json"
+}
