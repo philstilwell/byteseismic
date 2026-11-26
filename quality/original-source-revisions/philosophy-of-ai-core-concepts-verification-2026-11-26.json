@@ -1,0 +1,66 @@
+{
+  "pagePath": "/philosophy-of-ai/philosophy-of-ai-core-concepts/",
+  "sourceSha256": "3b895557ecd7f285faf2a4e2a11e838f7b68852684a192a696f0cd59e7ed9113",
+  "originalPrompts": 6,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 210,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 76,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "Prompt 1 requested list sizes": [
+      30,
+      30
+    ],
+    "Prompt 2 requested list sizes": [
+      15,
+      15
+    ],
+    "Prompt 6 requested list sizes": [
+      15,
+      15
+    ]
+  },
+  "sha256": "aeaa8b51d7e69a4ee1ec45be2cf479142c68936b91eb931f402e48cb0adbb6c8",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": 2,
+  "sourceReadingCoverage": {
+    "indexedLines": 334,
+    "ranges": [
+      [
+        1,
+        100
+      ],
+      [
+        101,
+        200
+      ],
+      [
+        201,
+        334
+      ]
+    ],
+    "currentArticleCharacters": 39198,
+    "currentRanges": [
+      [
+        0,
+        20000
+      ],
+      [
+        20000,
+        39198
+      ]
+    ]
+  },
+  "isolatedBuildVerified": true
+}

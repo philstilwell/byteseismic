@@ -1,0 +1,192 @@
+{
+  "runTime": "2026-11-26T09:18:01.474537-05:00",
+  "dailyTarget": 20,
+  "fullyReviewedToday": 2,
+  "dailyShortfall": 18,
+  "status": "INCOMPLETE DAILY TARGET; no external blocker established",
+  "cycle": 8,
+  "batchStartIndex": 200,
+  "batchReviewed": 11,
+  "batchPending": 39,
+  "substantivelyReviewed": 211,
+  "substantivelyRemaining": 135,
+  "officialCompleted": 200,
+  "officialRemaining": 146,
+  "pages": [
+    {
+      "title": "Philosophy of AI – Core Concepts",
+      "source": "http://byteseismic.com/2024/04/11/philosophy-of-ai-core-concepts/",
+      "wordpressId": 6019,
+      "decisions": [
+        "Source read in indexed ranges 1–100,101–200,201–334 (including duplicated navigation and introductory quotations). Current article read in character ranges 0–20000 and 20000–39198.",
+        "1: retain both thirty-term inventories; repair strong/weak AI versus breadth, consciousness, proxy optimization, frame problem, empathy and oversight.",
+        "2: retain two fifteen-concept explanations; correct behaviorism, computation, consciousness, AGI timetable and explainability.",
+        "3: retained both issue structures; replaced fairness guarantees, uniform employment forecasts, data-volume certainty and blanket legal adequacy claims; distinguished survey preference from moral justification.",
+        "4: retained all categories and item positions; verified or explicitly qualified questionable resource attributions, supplied documented alternatives, and separated documentary from fiction.",
+        "5: retain all institutions and geographic order; cite official routes and distinguish research institutes from degrees; replace unsupported ANU/NYU descriptions.",
+        "6: retain both fifteen-question sets; revise questions dependent on erroneous concepts."
+      ],
+      "verification": {
+        "pagePath": "/philosophy-of-ai/philosophy-of-ai-core-concepts/",
+        "sourceSha256": "3b895557ecd7f285faf2a4e2a11e838f7b68852684a192a696f0cd59e7ed9113",
+        "originalPrompts": 6,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 6,
+        "sourceColumns": 12,
+        "modelResponses": 12,
+        "blocksRetainedVerbatim": 210,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 76,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "Prompt 1 requested list sizes": [
+            30,
+            30
+          ],
+          "Prompt 2 requested list sizes": [
+            15,
+            15
+          ],
+          "Prompt 6 requested list sizes": [
+            15,
+            15
+          ]
+        },
+        "sha256": "aeaa8b51d7e69a4ee1ec45be2cf479142c68936b91eb931f402e48cb0adbb6c8",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 2,
+        "sourceReadingCoverage": {
+          "indexedLines": 334,
+          "ranges": [
+            [
+              1,
+              100
+            ],
+            [
+              101,
+              200
+            ],
+            [
+              201,
+              334
+            ]
+          ],
+          "currentArticleCharacters": 39198,
+          "currentRanges": [
+            [
+              0,
+              20000
+            ],
+            [
+              20000,
+              39198
+            ]
+          ]
+        },
+        "isolatedBuildVerified": true
+      }
+    },
+    {
+      "title": "Linguistic Abstraction",
+      "source": "http://byteseismic.com/2024/03/14/linguistic-abstraction/",
+      "wordpressId": 3663,
+      "decisions": [
+        "Full source read: indexed ranges 1–85,86–155,156–222. Current article: characters 0–20000 and 20000–36253.",
+        "1: retain concrete category examples; distinguish naming from category formation, remove universal-stage claims and repair reversed category examples.",
+        "2: preserve exact quoted curator sentence before both responses; supply five NEW simplifications, label interpretive uncertainty, avoid literal hidden places and unearned universal causal claims.",
+        "3: answer the curator’s loss question while distinguishing actual conceptual loss from prestige, rhetorical mystery and undefined terms.",
+        "4: retain practical strategies; improve comprehension testing, qualify readability tools and engagement proxies.",
+        "5: retain all cases with explicit limitations; correct declaration contents, censorship and unsupported historical causation; original list cannot establish every requested mismatch.",
+        "6: preserve two seven-question quizzes and keys; fix ambiguous Einstein/Bohr question and unsupported Revolution inference.",
+        "7: preserve twenty-four discussion questions; distinguish violations of classical intuition from violations of logic."
+      ],
+      "verification": {
+        "pagePath": "/philosophy-of-language/linguistic-abstraction/",
+        "sourceSha256": "87398993525f59d412cf509b6997b54dcec6c7be8c646d5ab5b34e0b5b79d324",
+        "originalPrompts": 7,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 7,
+        "sourceColumns": 14,
+        "modelResponses": 14,
+        "blocksRetainedVerbatim": 123,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 61,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "Prompt 6 lists": [
+            7,
+            7,
+            7,
+            7
+          ],
+          "Prompt 7 lists": [
+            12,
+            12
+          ]
+        },
+        "sha256": "c45a304d7cae3d326b45dcd5d113cdaa92f70b4ed0b3bc375c4663b57641cd8c",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "rendererReproduces": true,
+        "damagedVariantsRejected": 3,
+        "sourceReadingCoverage": {
+          "indexedLines": 222,
+          "ranges": [
+            [
+              1,
+              85
+            ],
+            [
+              86,
+              155
+            ],
+            [
+              156,
+              222
+            ]
+          ],
+          "currentArticleCharacters": 36253,
+          "currentRanges": [
+            [
+              0,
+              20000
+            ],
+            [
+              20000,
+              36253
+            ]
+          ]
+        },
+        "isolatedBuildVerified": true
+      }
+    }
+  ],
+  "build": {
+    "isolated": true,
+    "log": "Dialectical preservation check passed for all 39 recovered pages, including 17 high-risk regression cases.\nSite audit: pages=840 broken_links=0 duplicate_ids=0 prompt_number_issues=0 orphans=0 oversized_assets=0 style_scars=0 grammar_scars=1 seo_issues=0 json_ld_issues=0 sitemap_issues=0 robots_issues=0\nGenerated or updated 723 content pages.\nVisible hierarchy sections: 15\nExpanded archive years: 2\n",
+    "reviewedPagesByteIdentical": 211,
+    "earlierPagesPreservationOnly": 209
+  },
+  "unrelatedFilesHashPreserved": 476,
+  "limitations": [
+    "Daily completion requirement not met. No external blocker established.",
+    "No browser, mobile or accessibility inspection.",
+    "Linguistic Abstraction retains historical candidates with explicit evidential limitations rather than claiming every original example proves audience mismatch.",
+    "Semantics: Convention vs Stipulation source read only; no revision or verification and no completion credit."
+  ],
+  "nextPage": "Semantics: Convention vs Stipulation",
+  "nextBatch": "Evidence Workshop through What is Faith? (250–299)",
+  "trackerAdvanced": false
+}

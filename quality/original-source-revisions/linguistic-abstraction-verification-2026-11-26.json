@@ -1,0 +1,64 @@
+{
+  "pagePath": "/philosophy-of-language/linguistic-abstraction/",
+  "sourceSha256": "87398993525f59d412cf509b6997b54dcec6c7be8c646d5ab5b34e0b5b79d324",
+  "originalPrompts": 7,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 7,
+  "sourceColumns": 14,
+  "modelResponses": 14,
+  "blocksRetainedVerbatim": 123,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 61,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "Prompt 6 lists": [
+      7,
+      7,
+      7,
+      7
+    ],
+    "Prompt 7 lists": [
+      12,
+      12
+    ]
+  },
+  "sha256": "c45a304d7cae3d326b45dcd5d113cdaa92f70b4ed0b3bc375c4663b57641cd8c",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "rendererReproduces": true,
+  "damagedVariantsRejected": 3,
+  "sourceReadingCoverage": {
+    "indexedLines": 222,
+    "ranges": [
+      [
+        1,
+        85
+      ],
+      [
+        86,
+        155
+      ],
+      [
+        156,
+        222
+      ]
+    ],
+    "currentArticleCharacters": 36253,
+    "currentRanges": [
+      [
+        0,
+        20000
+      ],
+      [
+        20000,
+        36253
+      ]
+    ]
+  },
+  "isolatedBuildVerified": true
+}

@@ -1,0 +1,36 @@
+{
+  "status": "source-read-only; not revised or verified",
+  "countTowardDailyTotal": false,
+  "wordpressId": 1021,
+  "sourceUrl": "http://byteseismic.com/2024/02/24/semantics-convention-vs-stipulation/",
+  "sourceSha256": "6df0413e102a1827392266dc94280246ff2690b427ec036b328513c471fbed98",
+  "sourceReadingCoverage": {
+    "indexedLines": 281,
+    "ranges": [
+      [
+        1,
+        70
+      ],
+      [
+        71,
+        145
+      ],
+      [
+        146,
+        215
+      ],
+      [
+        216,
+        281
+      ]
+    ]
+  },
+  "requiredRepairs": [
+    "Correct quark spelling and mouse chronology; clarify coining versus semantic shift and local stipulation versus universal demand.",
+    "Verify all lexical histories: thug origin, literally chronology reversed, gumption dates, smartphone misclassified, hacker and trigger origins, Netflix binge-watching attribution.",
+    "Ten unsuccessful examples are not established: frishtar and Chesterfield company claims appear unsupported; scientist claim needs source; humankind/netizen/phablet adoption must not be called failures merely because use is bounded or dated.",
+    "Preserve eight prompts, all requested ten-item examples, two ten-question quizzes/keys and thirty discussion questions. Mark unverified cases explicitly and provide documented replacements within original positions where warranted.",
+    "Repair quizzes: individual innovations can influence usage; small influential-group adoption is not inherently least likely to help; gay semantic shift differs from queer reclamation; broad acceptance is outcome rather than causal explanation.",
+    "Current article not yet read. No edits or verification completed."
+  ]
+}

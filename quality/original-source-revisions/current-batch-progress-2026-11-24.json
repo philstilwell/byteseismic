@@ -2,8 +2,8 @@
   "cycle": 8,
   "startIndex": 200,
   "pageCount": 50,
-  "reviewed": 9,
-  "pending": 41,
+  "reviewed": 11,
+  "pending": 39,
   "pages": [
     {
       "pagePath": "/metaphysics/categories-of-nihilism/",
@@ -71,12 +71,16 @@
     {
       "pagePath": "/philosophy-of-ai/philosophy-of-ai-core-concepts/",
       "title": "Philosophy of AI – Core Concepts",
-      "status": "pending-original-review"
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/philosophy-of-ai-core-concepts-verification-2026-11-26.json",
+      "report": "quality/editorial-audit-2026-11-26.json"
     },
     {
       "pagePath": "/philosophy-of-language/linguistic-abstraction/",
       "title": "Linguistic Abstraction",
-      "status": "pending-original-review"
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/linguistic-abstraction-verification-2026-11-26.json",
+      "report": "quality/editorial-audit-2026-11-26.json"
     },
     {
       "pagePath": "/philosophy-of-language/semantics-convention-vs-stipulation/",

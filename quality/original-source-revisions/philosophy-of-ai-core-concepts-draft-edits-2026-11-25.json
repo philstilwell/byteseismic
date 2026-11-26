@@ -30,5 +30,6 @@
     "Review and verify every proposed replacement before incorporation.",
     "Complete resource/university verification and remaining definition repairs documented in partial record.",
     "Render, fidelity-check, isolate-build-check and count only after full review."
-  ]
+  ],
+  "laterRevision": "Completed editorial revision on 2026-11-26; see philosophy-of-ai-core-concepts-edits.json and verification-2026-11-26.json. This record preserves the earlier incomplete state."
 }
