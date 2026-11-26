@@ -26,5 +26,10 @@
     "/political-philosophy/political-philosophy-core-concepts/"
   ],
   "remainingAtPlanning": 137,
-  "endpointException": false
+  "endpointException": false,
+  "scheduledControllerVerification": {
+    "id": "scheduled-controller-20261126-115631",
+    "purpose": "Real scheduled-run automatic continuation verification; the already-complete twenty-page assignment is unchanged.",
+    "requestedAt": "2026-11-26T11:56:31.777637-05:00"
+  }
 }
