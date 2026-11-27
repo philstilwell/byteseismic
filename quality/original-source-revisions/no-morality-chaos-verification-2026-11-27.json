@@ -1,0 +1,66 @@
+{
+  "pagePath": "/ethics/no-morality-chaos/",
+  "sourceSha256": "1488a387df5f9652ba48e50031645ebe70fec5f407b9e91f4e1dd86634d75ae2",
+  "originalPrompts": 6,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 90,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 61,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "two seven-question quizzes and keys": [
+      7,
+      7,
+      7,
+      7
+    ],
+    "two fifteen-question discussions": [
+      15,
+      15
+    ]
+  },
+  "sha256": "6026c62bff355f3d6029d3ca825cfce1ff29c34772c77461ebc7bffde39ae3c9",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "No Morality = Chaos?",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "opening question",
+    "Japan response",
+    "quiz key",
+    "discussion"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 157,
+    "ranges": [
+      [
+        1,
+        157
+      ]
+    ],
+    "indexFile": "quality/original-source-revisions/no-morality-chaos-reading-index-2026-11-27.txt",
+    "complete": true,
+    "additionalFramingRead": "Read complete source/current pages including two seven-item quizzes, answer keys and thirty discussion questions."
+  },
+  "currentReadingCoverage": {
+    "lines": 381,
+    "ranges": [
+      [
+        1,
+        381
+      ]
+    ],
+    "snapshot": "quality/original-source-revisions/no-morality-chaos-current-before-2026-11-27.html"
+  },
+  "isolatedBuildVerified": true,
+  "metadataCorrection": "Shortened search description to160 characters or fewer after isolated site audit.",
+  "verifiedAt": "2026-11-27T10:31:40.935939-05:00"
+}

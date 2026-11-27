@@ -1,0 +1,71 @@
+{
+  "pagePath": "/ethics/trolley-problems/",
+  "sourceSha256": "b4da1dec468bc61c76ae721a085df7732d211990cbf77a4361df502970d808fb",
+  "originalPrompts": 5,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 6,
+  "sourceColumns": 18,
+  "modelResponses": 18,
+  "blocksRetainedVerbatim": 235,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 51,
+  "bareAnswersExplicitlyRevised": 12,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": false,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [
+    "4.3"
+  ],
+  "formatChecks": {
+    "three ten-answer quizzes": [
+      10,
+      10,
+      10
+    ],
+    "three fifteen-question discussions": [
+      15,
+      15
+    ],
+    "Claude fifteen discussion paragraphs": [
+      15
+    ]
+  },
+  "sha256": "d7a6862c27a8bc5a0c0da424ca73748c4c335119bd6ac8369d3980603cc5f71f",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "Trolley Problems",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "scenario image",
+    "formula image",
+    "second model",
+    "third code",
+    "quiz answer"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 403,
+    "ranges": [
+      [
+        1,
+        403
+      ]
+    ],
+    "indexFile": "quality/original-source-revisions/trolley-problems-reading-index-2026-11-27.txt",
+    "complete": true,
+    "additionalFramingRead": "Read full six-section source/current pages, including two computational tracks initially missed because stored in separate sibling groups, both code examples, all30 answers and45 discussions. Visually read all four calculation images and scenario image. Executed original code and checked main outputs, matched-distance and zero-distance behavior, expected-loss tie, numeric weighted-score completion."
+  },
+  "currentReadingCoverage": {
+    "lines": 482,
+    "ranges": [
+      [
+        1,
+        482
+      ]
+    ],
+    "snapshot": "quality/original-source-revisions/trolley-problems-current-before-2026-11-27.html"
+  },
+  "isolatedBuildVerified": true,
+  "metadataCorrection": "Shortened search description to160 characters or fewer after isolated site audit.",
+  "verifiedAt": "2026-11-27T10:31:40.935939-05:00"
+}

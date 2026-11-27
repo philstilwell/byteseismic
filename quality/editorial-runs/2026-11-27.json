@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-27",
+  "timezone": "America/New_York",
+  "cycle": 8,
+  "target": 20,
+  "pagePaths": [
+    "/epistemology/establishing-cognitive-reliability-1/",
+    "/epistemology/evidence-workshop/",
+    "/epistemology/hypostatic-illogic/",
+    "/epistemology/induction-cold-reading/",
+    "/epistemology/mapping-belief-to-evidence/",
+    "/epistemology/non-scientific-ways-of-knowing/",
+    "/epistemology/the-primacy-of-induction/",
+    "/epistemology/vicious-virtuous-circularity/",
+    "/epistemology/what-are-syllogisms/",
+    "/epistemology/what-is-bayes-theorem/",
+    "/epistemology/what-is-faith/",
+    "/ethics/assuming-objective-evil/",
+    "/ethics/divine-command-theory/",
+    "/ethics/ethical-edge-case-1/",
+    "/ethics/no-morality-chaos/",
+    "/ethics/trolley-problems/",
+    "/ethics/value-morality-in-diversity/",
+    "/humanistic-philosophies/are-humans-more-egoistic-or-altruistic/",
+    "/humanistic-philosophies/existentialism-key-concepts/",
+    "/humanistic-philosophies/new-manifestations-of-theism/"
+  ],
+  "remainingAtPlanning": 97,
+  "endpointException": false
+}

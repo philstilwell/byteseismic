@@ -1,0 +1,297 @@
+{
+  "cycle": 8,
+  "startIndex": 250,
+  "pageCount": 50,
+  "reviewed": 19,
+  "pending": 31,
+  "pages": [
+    {
+      "pagePath": "/epistemology/evidence-workshop/",
+      "title": "Evidence Workshop",
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/evidence-workshop-verification-2026-11-27.json",
+      "report": "quality/editorial-audit-2026-11-27.json"
+    },
+    {
+      "pagePath": "/epistemology/hypostatic-illogic/",
+      "title": "Hypostatic Illogic",
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/hypostatic-illogic-verification-2026-11-27.json",
+      "report": "quality/editorial-audit-2026-11-27.json"
+    },
+    {
+      "pagePath": "/epistemology/induction-cold-reading/",
+      "title": "Induction: Cold Reading",
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/induction-cold-reading-verification-2026-11-27.json",
+      "report": "quality/editorial-audit-2026-11-27.json"
+    },
+    {
+      "pagePath": "/epistemology/mapping-belief-to-evidence/",
+      "title": "Mapping Belief to Evidence",
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/mapping-belief-to-evidence-verification-2026-11-27.json",
+      "report": "quality/editorial-audit-2026-11-27.json"
+    },
+    {
+      "pagePath": "/epistemology/non-scientific-ways-of-knowing/",
+      "title": "Non-Scientific Ways of Knowing",
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/non-scientific-ways-of-knowing-verification-2026-11-27.json",
+      "report": "quality/editorial-audit-2026-11-27.json"
+    },
+    {
+      "pagePath": "/epistemology/the-primacy-of-induction/",
+      "title": "The Primacy of Induction",
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/the-primacy-of-induction-verification-2026-11-27.json",
+      "report": "quality/editorial-audit-2026-11-27.json"
+    },
+    {
+      "pagePath": "/epistemology/vicious-virtuous-circularity/",
+      "title": "Vicious & Virtuous Circularity",
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/vicious-virtuous-circularity-verification-2026-11-27.json",
+      "report": "quality/editorial-audit-2026-11-27.json"
+    },
+    {
+      "pagePath": "/epistemology/what-are-syllogisms/",
+      "title": "What are Syllogisms?",
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/what-are-syllogisms-verification-2026-11-27.json",
+      "report": "quality/editorial-audit-2026-11-27.json"
+    },
+    {
+      "pagePath": "/epistemology/what-is-bayes-theorem/",
+      "title": "What is Bayes Theorem?",
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/what-is-bayes-theorem-verification-2026-11-27.json",
+      "report": "quality/editorial-audit-2026-11-27.json"
+    },
+    {
+      "pagePath": "/epistemology/what-is-faith/",
+      "title": "What is Faith?",
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/what-is-faith-verification-2026-11-27.json",
+      "report": "quality/editorial-audit-2026-11-27.json"
+    },
+    {
+      "pagePath": "/ethics/assuming-objective-evil/",
+      "title": "Assuming Objective Evil",
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/assuming-objective-evil-verification-2026-11-27.json",
+      "report": "quality/editorial-audit-2026-11-27.json"
+    },
+    {
+      "pagePath": "/ethics/divine-command-theory/",
+      "title": "Divine Command Theory",
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/divine-command-theory-verification-2026-11-27.json",
+      "report": "quality/editorial-audit-2026-11-27.json"
+    },
+    {
+      "pagePath": "/ethics/ethical-edge-case-1/",
+      "title": "Ethical Edge Case #1",
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/ethical-edge-case-1-verification-2026-11-27.json",
+      "report": "quality/editorial-audit-2026-11-27.json"
+    },
+    {
+      "pagePath": "/ethics/no-morality-chaos/",
+      "title": "No Morality = Chaos?",
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/no-morality-chaos-verification-2026-11-27.json",
+      "report": "quality/editorial-audit-2026-11-27.json"
+    },
+    {
+      "pagePath": "/ethics/trolley-problems/",
+      "title": "Trolley Problems",
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/trolley-problems-verification-2026-11-27.json",
+      "report": "quality/editorial-audit-2026-11-27.json"
+    },
+    {
+      "pagePath": "/ethics/value-morality-in-diversity/",
+      "title": "Value & Morality in Diversity?",
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/value-morality-in-diversity-verification-2026-11-27.json",
+      "report": "quality/editorial-audit-2026-11-27.json"
+    },
+    {
+      "pagePath": "/humanistic-philosophies/are-humans-more-egoistic-or-altruistic/",
+      "title": "Are Humans More Egoistic or Altruistic?",
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/are-humans-more-egoistic-or-altruistic-verification-2026-11-27.json",
+      "report": "quality/editorial-audit-2026-11-27.json"
+    },
+    {
+      "pagePath": "/humanistic-philosophies/existentialism-key-concepts/",
+      "title": "Existentialism: Key Concepts",
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/existentialism-key-concepts-verification-2026-11-27.json",
+      "report": "quality/editorial-audit-2026-11-27.json"
+    },
+    {
+      "pagePath": "/humanistic-philosophies/new-manifestations-of-theism/",
+      "title": "New Manifestations of Theism",
+      "status": "reviewed-and-verified",
+      "verification": "quality/original-source-revisions/new-manifestations-of-theism-verification-2026-11-27.json",
+      "report": "quality/editorial-audit-2026-11-27.json"
+    },
+    {
+      "pagePath": "/introduction/studying-philosophy-resources/",
+      "title": "Studying Philosophy: Resources",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/metaphysics/a-taxonomy-of-impossibilities/",
+      "title": "A Taxonomy of Impossibilities",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/metaphysics/are-quantum-physics-spiritual/",
+      "title": "Are Quantum Physics “Spiritual”?",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/metaphysics/could-mind-be-fundamental/",
+      "title": "Could Mind be Fundamental?",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/metaphysics/emergence/",
+      "title": "Emergence",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/metaphysics/energy-psychic-phenomena/",
+      "title": "Energy & Psychic Phenomena",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/metaphysics/explanations/",
+      "title": "Explanations",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/metaphysics/matthew-pirkowski-on-emergence/",
+      "title": "Matthew Pirkowski on Emergence",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/metaphysics/metaphysics-core-concepts/",
+      "title": "Metaphysics – Core Concepts",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/metaphysics/ontological-domains/",
+      "title": "Ontological Domains",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/metaphysics/stuart-kauffman-on-emergence/",
+      "title": "Stuart Kauffman on Emergence",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/metaphysics/the-principle-of-sufficient-reason/",
+      "title": "The Principle of Sufficient Reason",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/miscellany/cross-culture-emotional-dispositions/",
+      "title": "Cross-Culture Emotional Dispositions",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/miscellany/david-krakauer-on-complexity/",
+      "title": "David Krakauer on Complexity",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/miscellany/flack-mitchell-on-complexity/",
+      "title": "Flack & Mitchell on Complexity",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/miscellany/information-theory/",
+      "title": "Information Theory",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/miscellany/sara-walker-on-lifes-emergence/",
+      "title": "Sara Walker on Life’s Emergence",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/miscellany/the-fantastical-historical-truth/",
+      "title": "The Fantastical & Historical Truth",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/miscellany/zak-stein-on-complexity/",
+      "title": "Zak Stein on Complexity",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/philosophical-inquiry/appreciating-our-insignificance/",
+      "title": "Appreciating our Insignificance",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/philosophical-inquiry/charitable-engagement/",
+      "title": "Charitable Engagement",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/philosophical-inquiry/dangers-anti-intellectualism/",
+      "title": "Dangers: Anti-Intellectualism",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/philosophical-inquiry/dangers-gaslighting/",
+      "title": "Dangers: Gaslighting",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/philosophical-inquiry/dangers-limits-on-doubt/",
+      "title": "Dangers: Limits on Doubt",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/philosophical-inquiry/dangers-removing-the-impossible/",
+      "title": "Dangers: Removing the Impossible",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/philosophy-of-ai/ai-censorship-case/",
+      "title": "AI Censorship Case",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/philosophy-of-ai/ai-meta-post-inner-monologues/",
+      "title": "AI Meta-Post — Inner Monologues",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/philosophy-of-ai/ai-meta-post-overreach/",
+      "title": "AI Meta-Post — Overreach",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/philosophy-of-ai/the-double-descent-phenomenon/",
+      "title": "The Double Descent Phenomenon",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/philosophy-of-language/abandoned-words/",
+      "title": "Abandoned Words",
+      "status": "pending-original-review"
+    },
+    {
+      "pagePath": "/philosophy-of-language/connotative-equivocation/",
+      "title": "Connotative Equivocation",
+      "status": "pending-original-review"
+    }
+  ]
+}

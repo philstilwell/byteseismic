@@ -1,0 +1,12 @@
+{
+  "originalCodeOutput": "Pull the lever\nScenario 1 (Divert) Ethical Score: 2.15\nScenario 2 (Push) Ethical Score: 0.38\nScenario 1 Score: 2.15\nScenario 2 Score: 0.38\nScenario 1 is considered more ethical.\n",
+  "expectedLoss": [
+    -5,
+    -1
+  ],
+  "tieReturns": "Do not pull the lever",
+  "weightedScore": 3.0,
+  "distanceZero": 0,
+  "matchedDistancePush": 1.5015169031198319,
+  "checksPassed": true
+}

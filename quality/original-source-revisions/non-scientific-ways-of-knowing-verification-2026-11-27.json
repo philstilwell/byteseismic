@@ -1,0 +1,67 @@
+{
+  "pagePath": "/epistemology/non-scientific-ways-of-knowing/",
+  "sourceSha256": "189792171739506982f5b0e57da05dbbce2f9ac621cf1806053124624fac3f69",
+  "originalPrompts": 8,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 9,
+  "sourceColumns": 18,
+  "modelResponses": 18,
+  "blocksRetainedVerbatim": 292,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 108,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "three ten-answer quizzes": [
+      10,
+      10,
+      10
+    ],
+    "three fifteen-question discussions": [
+      15,
+      15,
+      15
+    ]
+  },
+  "sha256": "80feae143a874ec5011a68cb8cbc3bbca3195f16f4ecafb96cee476ed5219120",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "Non-Scientific Ways of Knowing",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "opening condition",
+    "five curator rebuttals",
+    "follow-up demand",
+    "marriage example",
+    "quiz answer"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 424,
+    "ranges": [
+      [
+        1,
+        424
+      ]
+    ],
+    "indexFile": "quality/original-source-revisions/non-scientific-ways-of-knowing-reading-index-2026-11-27.txt",
+    "complete": true,
+    "additionalFramingRead": "Read all source preambles, five-point rebuttal lists, model responses, 30 quiz disclosures including bare answers, and 45 discussion questions. No substantive source images; logos are decorative. All original curator wording and historical quotations retained."
+  },
+  "currentReadingCoverage": {
+    "lines": 477,
+    "ranges": [
+      [
+        1,
+        477
+      ]
+    ],
+    "snapshot": "quality/original-source-revisions/non-scientific-ways-of-knowing-current-before-2026-11-27.html"
+  },
+  "isolatedBuildVerified": true,
+  "metadataCorrection": "Shortened search description to160 characters or fewer after isolated site audit.",
+  "verifiedAt": "2026-11-27T10:31:40.935939-05:00"
+}

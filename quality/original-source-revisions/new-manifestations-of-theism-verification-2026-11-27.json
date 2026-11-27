@@ -1,0 +1,66 @@
+{
+  "pagePath": "/humanistic-philosophies/new-manifestations-of-theism/",
+  "sourceSha256": "de1be0b82c4e3128eb94ef8f86dcbdb7cffb5d767c69c8ba4da1aaa8e7bc7031",
+  "originalPrompts": 6,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 91,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 65,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "two seven-item quizzes and keys": [
+      7,
+      7,
+      7,
+      7
+    ],
+    "two fifteen-item discussions": [
+      15,
+      15
+    ]
+  },
+  "sha256": "1971ad3831d4fefdaf8aaed79c6f4d06ce2151e13eadc46c212174c42b853082",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "New Manifestations of Theism",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "historical correction",
+    "quiz key",
+    "last discussion"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 162,
+    "ranges": [
+      [
+        1,
+        162
+      ]
+    ],
+    "indexFile": "quality/original-source-revisions/new-manifestations-of-theism-reading-index-2026-11-27.txt",
+    "complete": true,
+    "additionalFramingRead": "Read162 indexed source lines and431 current lines; checked all6 headings and sibling groups, opening highlights/contents and four branding images; no extra substantive response groups, tables or disclosures."
+  },
+  "currentReadingCoverage": {
+    "lines": 431,
+    "ranges": [
+      [
+        1,
+        431
+      ]
+    ],
+    "snapshot": "quality/original-source-revisions/new-manifestations-of-theism-current-before-2026-11-27.html"
+  },
+  "isolatedBuildVerified": true,
+  "metadataCorrection": "Shortened search description to160 characters or fewer after isolated site audit.",
+  "verifiedAt": "2026-11-27T10:31:40.935939-05:00"
+}

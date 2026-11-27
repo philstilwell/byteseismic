@@ -1,0 +1,94 @@
+{
+  "pagePath": "/epistemology/establishing-cognitive-reliability-1/",
+  "sourceSha256": "f610aa91ae0f35be70f3cb76095fbfa5e71eb41778e2be271b6d19c31445bf28",
+  "originalPrompts": 10,
+  "curatorProsePrompts": 3,
+  "originalHeadings": 8,
+  "sourceColumns": 24,
+  "modelResponses": 24,
+  "blocksRetainedVerbatim": 171,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 116,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "quiz questions and answer sets": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "discussion questions": [
+      15,
+      15,
+      15
+    ]
+  },
+  "sha256": "bd71e800dae5b3d051013b4ceba287914375bd04661dff38f4004b6ce7fe399f",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "Establishing Cognitive Reliability (#1)",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "response",
+    "quiz item",
+    "curator correction",
+    "curator follow-up"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 300,
+    "ranges": [
+      [
+        1,
+        90
+      ],
+      [
+        91,
+        150
+      ],
+      [
+        151,
+        185
+      ],
+      [
+        186,
+        245
+      ],
+      [
+        246,
+        300
+      ]
+    ],
+    "complete": true,
+    "indexFile": "quality/original-source-revisions/establishing-cognitive-reliability-1-reading-index-2026-11-27.txt",
+    "additionalFramingRead": "Read original highlighted excerpts, source model logos, curator summary after section 2, all three quoted prompts and exact Phil comments. No substantive illustrations."
+  },
+  "currentReadingCoverage": {
+    "lines": 405,
+    "ranges": [
+      [
+        1,
+        205
+      ],
+      [
+        206,
+        344
+      ],
+      [
+        345,
+        405
+      ]
+    ],
+    "snapshot": "quality/original-source-revisions/establishing-cognitive-reliability-1-current-before-2026-11-27.html"
+  },
+  "isolatedBuildVerified": true,
+  "browserReview": "Desktop Chrome full rendered accessibility tree inspected; opening layout screenshot inspected. No mobile or full visual-page claim.",
+  "verifiedAt": "2026-11-27T10:31:40.935939-05:00"
+}

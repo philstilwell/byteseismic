@@ -1,0 +1,86 @@
+{
+  "pagePath": "/humanistic-philosophies/existentialism-key-concepts/",
+  "sourceSha256": "6dc46d0a9afcfbd8b263c3043be9fc54a5f1d5fdc3a9ce79588b8bd40573cf3c",
+  "originalPrompts": 6,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 6,
+  "sourceColumns": 6,
+  "modelResponses": 6,
+  "blocksRetainedVerbatim": 126,
+  "tableCellsExplicitlyRevised": 26,
+  "blocksExplicitlyRevised": 54,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "sixteen concepts and header": [
+      17
+    ],
+    "sixteen sets of three scenarios": [
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3,
+      3
+    ],
+    "ten-question quiz and key": [
+      10,
+      10
+    ],
+    "fifteen discussions": [
+      15
+    ]
+  },
+  "sha256": "04a55f86cd6e22d0b999723f3e6a705940f69e625e63f61ab58426b2b8168ea9",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "Existentialism: Key Concepts",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "table row",
+    "late scenario",
+    "quiz key",
+    "last discussion"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 203,
+    "ranges": [
+      [
+        1,
+        203
+      ]
+    ],
+    "indexFile": "quality/original-source-revisions/existentialism-key-concepts-reading-index-2026-11-27.txt",
+    "complete": true,
+    "additionalFramingRead": "Read186 indexed prose lines plus all17 table rows/51 cells appended to index; all369 current lines; checked all6 headings and sibling groups, source highlights/contents and three branding images."
+  },
+  "currentReadingCoverage": {
+    "lines": 369,
+    "ranges": [
+      [
+        1,
+        369
+      ]
+    ],
+    "snapshot": "quality/original-source-revisions/existentialism-key-concepts-current-before-2026-11-27.html"
+  },
+  "isolatedBuildVerified": true,
+  "metadataCorrection": "Shortened search description to160 characters or fewer after isolated site audit.",
+  "verifiedAt": "2026-11-27T10:31:40.935939-05:00",
+  "browserReview": "Desktop Chrome complete accessibility tree inspected; table ending and opening scenario layout inspected by screenshot. No full-page or mobile visual review claimed."
+}

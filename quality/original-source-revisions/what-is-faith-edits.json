@@ -1,0 +1,127 @@
+{
+  "preambleHeadingIndexes": [
+    1
+  ],
+  "proseSectionHeadingIndexes": [
+    0
+  ],
+  "nonPromptSections": [
+    1
+  ],
+  "nonResponseColumns": [
+    "1.1"
+  ],
+  "sectionModelLabels": {
+    "1": [
+      "Original curator framing"
+    ]
+  },
+  "pageFile": "epistemology/what-is-faith/index.html",
+  "wordpressId": 790,
+  "snapshot": "what-is-faith-wordpress-790.html",
+  "sourceUrl": "http://byteseismic.com/2024/02/20/what-is-faith/",
+  "sourceLabel": "Original WordPress conversation",
+  "shellRevision": "bcec2e1e0daf626081e21f76cd652dfb352f5aa8",
+  "date": "2026-11-27",
+  "sourceSha256": "577b9ef5c9f5775f79d5a53fc0e82e3a87a790d5cffc2bca2c41152969624007",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "Faith is a term with denotations that are highly debated. Since the term is most commonly invoked in religious contexts, perhaps it is best to allow religious leaders to define faith. The following images reflect input from 406 Christian Ministers on the notion of faith taken from a 2023 project called Christian Thought Survey.",
+    "While there is no strong consensus, the notion of faith in the minds of these Christian leaders does appear to reflect a degree of belief that exceeds the degree of the evidence. Let’s explore whether that notion of faith can be considered coherent.Is a degree of belief in something that exceeds the degree of the perceived evidence for that thing problematic in any way?",
+    "Has the notion of faith evolved over the centuries?",
+    "Religious individuals sometimes attempt to equivocate between religious faith (disjointed from the degree of the evidence) and the degree of confidence (mapping to the degree of the evidence) scientists have in conclusions that are less than fully certain. How can we prevent this equivocation and encourage the mapping of our degree of belief to the degree of the evidence we perceive?",
+    "What are other problems that a degree of faith in something that exceeds the degree of the evidence for that thing might generate? Pull examples related to professional occupations if possible.",
+    "Would it not be less confusing to simply refer to a degree of “faith” that maps to the degree of the evidence “rational belief” as the term “faith” is associated with other denotations and connotations that are far less clear?",
+    "Create a 7-item quiz on the notion of faith with answers at the end.",
+    "Provide 15 discussion questions related to the discussion on faith above."
+  ],
+  "introHeading": "Faith, evidence, and the difference between belief and commitment",
+  "intro": "The original survey framing, seven questions, and both response tracks are restored. The central issue is whether confidence exceeds its support; acting hopefully under uncertainty is a different question.",
+  "description": "Examine different meanings of faith, trust, evidence, and commitment, with qualified historical claims and the original survey context.",
+  "highlights": [],
+  "replacements": {
+    "2.1.0": "If confidence is stronger than the available evidence warrants, it is overconfidence under the evidential standard proposed in the question. Whether that is logically incoherent, poorly justified, or harmful requires separate arguments. The survey displays attitudes toward three statements; it does not establish a universal definition of faith.",
+    "2.1.1": "<strong>Justification:</strong> Evidentialism asks belief to fit its supporting evidence. Not every theory of knowledge accepts the same account of justification, but psychological conviction alone does not establish truth. Evidence strength is not always a single measurable number.",
+    "2.2.0": "Separate the warrant for believing a proposition from the practical wisdom of acting under uncertainty. A hopeful commitment can be reasonable without treating the hoped-for outcome as highly probable.",
+    "2.2.6": "Distinctions that limit the criticism:",
+    "2.2.7": "<strong>Exploration:</strong> Investigating a spiritual or philosophical possibility does not require believing it more strongly than the evidence supports.",
+    "2.2.8": "<strong>Creativity:</strong> Imagining a fictional possibility is not asserting that it is true; creative freedom therefore provides no exception to standards for factual belief.",
+    "2.2.9": "<strong>Risk:</strong> A worthwhile experiment can have a low chance of success. Its potential benefits may justify undertaking it while keeping that low probability explicit.",
+    "2.2.10": "<strong>Experience:</strong> A personal experience can be evidence, although its interpretation and reliability remain open to question. Difficulty measuring it does not make it either worthless or decisive.",
+    "2.2.16": "The practical consequences vary with the case. That variation does not by itself justify excessive confidence. Ask separately what supports the claim, what probability is defensible, and what action is worth taking.",
+    "3.1.0": "Yes, but there is no single sequence from blind ancient belief to rational modern trust. The following are examples of changing theological debates, not a universal history of every religious tradition.",
+    "3.1.1": "<strong>Ancient terms:</strong> Greek pistis and Latin fides can express trust, belief, or fidelity in different contexts. Neither word should be assigned one uniform attitude toward evidence across all ancient cultures.",
+    "3.1.2": "<strong>Early Christianity:</strong> Christian texts connect faith with trust in God and belief in proclaimed events and promises. Hebrews 11 discusses what is not seen; 1 Corinthians 15 also appeals to witnesses. Neither supports describing all early faith as acceptance without any claimed evidence.",
+    "3.1.3": "<strong>Medieval debate:</strong> Aquinas treats faith as a virtue and distinguishes faith shaped by charity from faith without it in <a href=\"https://www.newadvent.org/summa/3004.htm\">Summa Theologiae II–II, question 4</a>. Augustine belongs to late antiquity, not the medieval period; faith as a virtue was not first invented by medieval theologians.",
+    "3.1.4": "<strong>Reformation:</strong> In his <a href=\"https://www.ccel.org/l/luther/romans/pref_romans.html\">Preface to Romans</a>, Luther presents faith as trust in divine grace that produces good works, rather than mere assent. The dispute over justification concerns how salvation and works relate; it is not simply a contrast between having evidence and having none.",
+    "3.1.5": "<strong>Enlightenment debates:</strong> Criticism of revelation and inherited authority intensified in some influential writings, alongside defenses of religion. This did not produce one definition of faith or turn every religious commitment into a purely private matter.",
+    "3.1.6": "<strong>Contemporary questions:</strong> Faith may mean trust, doctrinal assent, practical commitment, or belief exceeding evidence. Before evaluating it, identify which meaning the speaker intends and what support is claimed.",
+    "3.1.7": "The historical lesson is plurality and disagreement. These examples do not establish a steady progression or a shared evidential standard across traditions.",
+    "3.2.0": "Usage and theological interpretations have varied. Avoid turning those changes into a single story of intellectual progress:",
+    "3.2.1": "<strong>Terms:</strong> Greek pistis is a related ancient term for faith or trust, not the etymological root of the English word faith. Latin fides belongs to the relevant linguistic history.",
+    "3.2.2": "<strong>Christian uses:</strong> Belief, fidelity, and trust overlap in Christian writings. Whether a particular author regards that trust as supported by reasons must be checked in context; “blind” is not an adequate general description.",
+    "3.2.3": "<strong>Scholastic distinctions:</strong> Aquinas distinguishes faith informed by charity from faith without charity. This concerns love and the perfection of the virtue, not simply weak versus strong evidence.",
+    "3.2.4": "<strong>Trust before the Enlightenment:</strong> Luther already emphasizes trust in grace in his Preface to Romans. Fiducial trust was therefore not an Enlightenment invention.",
+    "3.2.7": "Trust and doctrinal assent have coexisted; one did not simply replace the other.",
+    "3.2.8": "Religious and ordinary uses overlap, so context matters more than a supposed universal shift from sacred to secular meanings.",
+    "3.2.9": "Accounts involving reason and experience are not exclusively modern, and uncritical acceptance is not confined to ancient religion.",
+    "4.1.0": "An equivocation occurs when an argument changes the meaning of faith without justification. Identify that change in the particular argument; religious identity alone does not show that it has occurred.",
+    "4.1.1": "<strong>Definitions:</strong> For this discussion, distinguish confidence responsive to evidence from confidence deliberately exceeding it. Some religious speakers claim evidence for their faith; evaluate that evidence rather than excluding it by definition.",
+    "4.1.4": "<strong>Uncertainty:</strong> Scientific confidence should respond to testing and relevant evidence, although scientists can be overconfident. Religious believers can also acknowledge doubt. Compare methods of revision rather than assuming fixed psychological types.",
+    "4.1.6": "<strong>Claims:</strong> Empirical claims call for relevant observations; moral conclusions also require value premises; metaphysical claims require explicit arguments. None becomes justified merely by being placed outside science.",
+    "4.1.9": "Respectful discussion can identify the support for competing claims without assuming that faith and science are always complementary. Where claims conflict, the disagreement must be examined rather than renamed.",
+    "4.2.2": "<strong>Compare practices:</strong> Ask what would change the speaker’s confidence and whether the same standard is applied to rival claims. Do not assume all religious beliefs are static or all scientific beliefs well calibrated.",
+    "5.1.2": "<strong>Engineering:</strong> An engineer who trusts an untested design enough to omit redundancy risks preventable failure. The original Titanic example illustrates the question of inadequate safety provision, but its disaster cannot be explained solely by a general belief in unsinkability; no single-cause historical claim is established here.",
+    "5.1.3": "<strong>Investment:</strong> An investor might extrapolate rapid growth while ignoring costs and uncertain revenue. The dot-com bubble is often invoked as an illustration of excessive optimism, but individual decisions and the causes of a market crash require more evidence than that label supplies.",
+    "5.1.4": "<strong>Environmental planning:</strong> A planner might treat a preferred energy policy as certain to succeed while ignoring emissions, feasibility, or cost evidence. A policy judgment needs both empirical forecasts and explicit priorities; disagreement over priorities alone is not proof of irrational faith.",
+    "5.1.5": "<strong>Education:</strong> Suppose a teacher assigns instruction solely by a presumed learning style without checking learning outcomes. The problem is treating the matching rule as established, not acknowledging that students differ or have preferences.",
+    "5.1.6": "<strong>Forensic evidence:</strong> The <a href=\"https://www.nist.gov/publications/bitemark-analysis-nist-scientific-foundation-review\">2023 NIST review</a> found inadequate scientific support for central premises of bitemark identification. Confidence in an identification should reflect that limitation; a confident examiner is not a substitute for validation.",
+    "5.1.7": "<strong>Therapy:</strong> Consider a practitioner who treats personal conviction in an unvalidated intervention as evidence of both effectiveness and safety. This is a hypothetical illustration of misplaced confidence; the original reference to rebirthing is not developed here as a verified account of a particular case.",
+    "5.2.7": "A lawyer asserting a disputed fact without adequate support illustrates the problem. Arguing for a change in precedent is not by itself irrational; legal reasoning can legitimately challenge an existing rule.",
+    "6.1.0": "For this conversation, “evidence-calibrated confidence” or “rational belief” makes the intended standard clearer. That terminology does not establish that every religious use of faith is opposed to reasons or evidence.",
+    "6.1.1": "<strong>Clarity:</strong> State which evidence supports the claim and how strongly. Calling a belief rational is an evaluative claim to defend, not proof that its reasoning is adequate.",
+    "6.1.6": "Prefer explicit descriptions of support when ambiguity matters. Faith and rational belief are not necessarily disjoint categories under every speaker’s definitions.",
+    "6.2.7": "<strong>Historical language:</strong> Clarifying this discussion does not require erasing the word faith from historical or religious contexts. Quote and explain those uses on their own terms.",
+    "7.1.1": "Question 1: Under the specific meaning being criticized here, faith involves: A) Always matching confidence to evidence B) Confidence exceeding its perceived evidential support C) Mere imagination without belief D) Complete knowledge of spiritual truths",
+    "7.1.7": "Question 7: Which statement avoids an oversimplified history of faith? A) All ancient faith was blind B) Trust originated in the Enlightenment C) Faith has included several overlapping meanings across periods D) All modern believers reject evidence",
+    "7.1.9": "Question 1: B) Confidence exceeding perceived support, under the stipulated meaning. Question 2: C) Scientific inquiry seeks natural explanations; this method alone does not settle whether a supernatural reality exists. Question 3: B) Thomas Aquinas. Question 4: B) Faith alone in justification, without denying that good works matter. Question 5: A) Rational belief. Question 6: C) Misallocation and harm can result. Question 7: C) Several overlapping meanings occur across periods.",
+    "7.2.3": "(a) It can refer to trust.",
+    "7.2.4": "(b) It can refer to a practical commitment.",
+    "7.2.5": "(c) It can refer to religious assent.",
+    "7.2.6": "(d) Every use necessarily means rejecting evidence.",
+    "7.2.9": "(b) Its meanings and interpretations have varied, often overlapping within the same period.",
+    "7.2.34": "(b) Distinguishing the support for a belief from the value of acting hopefully under uncertainty.",
+    "7.2.36": "(d) Treating all uncertainty as evidence against every commitment.",
+    "7.2.38": "(d) The claim that every use means rejecting evidence wrongly collapses different meanings.",
+    "7.2.39": "(b) Usage and interpretation vary; there is no single sequence from blind belief to rational trust.",
+    "7.2.44": "(b) An action can be worthwhile without exaggerating the probability of its hoped-for outcome.",
+    "8.1.0": "How do definitions of faith differ across traditions? Must they share one core element, or could their similarities overlap without a universal definition?",
+    "8.2.5": "When might acting hopefully under uncertainty be worthwhile, and why would that not automatically justify believing the desired outcome more probable?"
+  },
+  "countChecks": [
+    {
+      "name": "two fifteen-question discussions",
+      "selector": "#prompt-8 .original-response ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    }
+  ],
+  "sourceImageDescriptions": {
+    "1.1.img0": "Christian Thought Survey item 47: Faith moves beyond available evidence to a higher certainty. Displayed score 56.6; response distribution from 0 to 100.",
+    "1.1.img1": "Christian Thought Survey item 101: Biblical faith is trust above currently perceived evidence. Displayed score 68.2; response distribution from 0 to 100.",
+    "1.1.img2": "Christian Thought Survey item 158: Accepting the bodily resurrection on faith even with very little supporting evidence. Displayed score 72.0; distribution from 0 to 100."
+  },
+  "responseAppendices": {
+    "1.1": "<aside class=\"source-editorial-note\"><p><strong>Editorial reading of the images:</strong> The displayed scores are 56.6, 68.2, and 72.0 for three differently worded statements. These are not percentages of ministers endorsing a single definition. The curator reports 406 participants; the images alone do not establish representative sampling, the calculation of each score, or a consensus among all Christians. The following question proposes an interpretation for examination.</p></aside>"
+  },
+  "leadingTextReplacements": {
+    "7.2.2": "Which statement incorrectly treats all uses of faith as one definition?",
+    "7.2.32": "Which distinction best clarifies the discussion of faith and evidence?"
+  }
+}

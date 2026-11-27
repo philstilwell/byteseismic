@@ -1,0 +1,73 @@
+{
+  "pagePath": "/ethics/value-morality-in-diversity/",
+  "sourceSha256": "83ae55670f4df383e2b2c7ce5ec10491594e2e2937623f54e9fc34b2d7df4fa3",
+  "originalPrompts": 6,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 118,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 67,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "Gemini seven-question quiz and key": [
+      7,
+      7
+    ],
+    "ChatGPT seven sets of four options": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "two fifteen-question discussions": [
+      15,
+      15
+    ]
+  },
+  "sha256": "b56bb990e3a0b8988fb66183e9807bd985f8917f0c3b88119ac6d2d1b9350661",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "Value &amp; Morality in Diversity?",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "first prompt",
+    "opposing premise",
+    "quiz key",
+    "discussion"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 191,
+    "ranges": [
+      [
+        1,
+        191
+      ]
+    ],
+    "indexFile": "quality/original-source-revisions/value-morality-in-diversity-reading-index-2026-11-27.txt",
+    "complete": true,
+    "additionalFramingRead": "Read all original/current material, both opposing sets of syllogisms, all quiz options and keys, thirty discussions. Checked every revised deduction for explicit evaluative bridge and matching scope."
+  },
+  "currentReadingCoverage": {
+    "lines": 419,
+    "ranges": [
+      [
+        1,
+        419
+      ]
+    ],
+    "snapshot": "quality/original-source-revisions/value-morality-in-diversity-current-before-2026-11-27.html"
+  },
+  "isolatedBuildVerified": true,
+  "metadataCorrection": "Shortened search description to160 characters or fewer after isolated site audit.",
+  "verifiedAt": "2026-11-27T10:31:40.935939-05:00"
+}

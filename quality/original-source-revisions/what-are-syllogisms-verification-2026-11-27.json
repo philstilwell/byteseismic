@@ -1,0 +1,66 @@
+{
+  "pagePath": "/epistemology/what-are-syllogisms/",
+  "sourceSha256": "0505c95b18c59e2fa03bd5b6c5496e3c69e14ef6955bbcad6ab61b36714dfeac",
+  "originalPrompts": 6,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 168,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 76,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "two ten-item quizzes and keys": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "two fifteen-question discussions": [
+      15,
+      15
+    ]
+  },
+  "sha256": "6ef57d8a9798c13e6dcead5cdd81f9f5e582b16e3bba7bfb927f10c96af088f3",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "What are Syllogisms?",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "requested four categories",
+    "denying antecedent correction",
+    "corrected quiz key"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 252,
+    "ranges": [
+      [
+        1,
+        252
+      ]
+    ],
+    "indexFile": "quality/original-source-revisions/what-are-syllogisms-reading-index-2026-11-27.txt",
+    "complete": true,
+    "additionalFramingRead": "Read six headings and entire validity/soundness preamble including impossible invalid-but-sound request; all worked examples, quizzes and keys, thirty discussions read. No substantive source diagram or unindexed answer disclosures."
+  },
+  "currentReadingCoverage": {
+    "lines": 428,
+    "ranges": [
+      [
+        1,
+        428
+      ]
+    ],
+    "snapshot": "quality/original-source-revisions/what-are-syllogisms-current-before-2026-11-27.html"
+  },
+  "isolatedBuildVerified": true,
+  "metadataCorrection": "Shortened search description to160 characters or fewer after isolated site audit.",
+  "verifiedAt": "2026-11-27T10:31:40.935939-05:00"
+}

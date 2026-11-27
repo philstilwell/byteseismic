@@ -1,0 +1,62 @@
+{
+  "pagePath": "/epistemology/mapping-belief-to-evidence/",
+  "sourceSha256": "ca5fca2c3cbd71a3e2ab067eeabf8ad450e0a3adf3362f13ad1a8c4ec75d6d53",
+  "originalPrompts": 5,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 3,
+  "sourceColumns": 6,
+  "modelResponses": 6,
+  "blocksRetainedVerbatim": 74,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 31,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "two fifteen-question discussions": [
+      15,
+      5,
+      5,
+      5
+    ]
+  },
+  "sha256": "141bd6eb8e0f0d9374411c34946209b9e0970fd8e611e0a93bdfb8f20b2d4d51",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "Mapping Belief to Evidence",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "main prompt",
+    "first follow-up",
+    "second follow-up",
+    "discussion item"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 111,
+    "ranges": [
+      [
+        1,
+        111
+      ]
+    ],
+    "indexFile": "quality/original-source-revisions/mapping-belief-to-evidence-reading-index-2026-11-27.txt",
+    "complete": true,
+    "additionalFramingRead": "Both original embedded follow-up h2 questions read verbatim and preserved with their own response tracks. Decorative logos and highlighted excerpts add no independent response; no original quiz, dialogue, substantive diagram or equations."
+  },
+  "currentReadingCoverage": {
+    "lines": 459,
+    "ranges": [
+      [
+        1,
+        459
+      ]
+    ],
+    "snapshot": "quality/original-source-revisions/mapping-belief-to-evidence-current-before-2026-11-27.html"
+  },
+  "isolatedBuildVerified": true,
+  "metadataCorrection": "Shortened search description to160 characters or fewer after isolated site audit.",
+  "verifiedAt": "2026-11-27T10:31:40.935939-05:00"
+}

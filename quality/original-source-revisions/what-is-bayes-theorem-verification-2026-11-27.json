@@ -1,0 +1,80 @@
+{
+  "pagePath": "/epistemology/what-is-bayes-theorem/",
+  "sourceSha256": "f32397e4f8d66c3b1dc57be66c80433a9534fc142488a2c6aa476bd3cbca96a2",
+  "originalPrompts": 6,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 192,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 56,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "Gemini ten-item quiz and key": [
+      10,
+      10
+    ],
+    "two fifteen-question discussions": [
+      15,
+      15
+    ],
+    "ChatGPT ten question paragraphs and ten keys": [
+      20
+    ],
+    "four options for each ChatGPT item": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ]
+  },
+  "sha256": "3b9f1cbbc72e9baaec027c8175877012aa71b3f38f23341ec7e068cc3096b33a",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "What is Bayes Theorem?",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "opening prompt",
+    "formula image",
+    "marble arithmetic",
+    "example result",
+    "quiz key"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 256,
+    "ranges": [
+      [
+        1,
+        256
+      ]
+    ],
+    "indexFile": "quality/original-source-revisions/what-is-bayes-theorem-reading-index-2026-11-27.txt",
+    "complete": true,
+    "additionalFramingRead": "Read the initially missed two-column opening in full, including original formula image (visually inspected), marble example, all remaining original paragraphs, quizzes and keys, thirty discussion questions. All eight numeric posteriors recomputed independently with exact fractions and saved in dated arithmetic artifact."
+  },
+  "currentReadingCoverage": {
+    "lines": 410,
+    "ranges": [
+      [
+        1,
+        410
+      ]
+    ],
+    "snapshot": "quality/original-source-revisions/what-is-bayes-theorem-current-before-2026-11-27.html"
+  },
+  "isolatedBuildVerified": true,
+  "metadataCorrection": "Shortened search description to160 characters or fewer after isolated site audit.",
+  "verifiedAt": "2026-11-27T10:31:40.935939-05:00"
+}

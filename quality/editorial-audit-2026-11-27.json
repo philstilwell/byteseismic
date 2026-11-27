@@ -1,0 +1,2186 @@
+{
+  "date": "2026-11-27",
+  "status": "20/20 fully reviewed, source-fidelity and isolated-build verified; ready for commit and push",
+  "pages": [
+    {
+      "title": "Establishing Cognitive Reliability (#1)",
+      "pagePath": "/epistemology/establishing-cognitive-reliability-1/",
+      "source": "http://byteseismic.com/2024/04/26/establishing-cognitive-reliability-1/",
+      "wordpressId": 7199,
+      "decisions": [
+        "1: Restored all three response tracks. Distinguished stable recollection from accuracy, cross-checking from independent certification, and unfamiliar-task failure from impairment. Removed assumptions that the room is locked or that first principles can reconstruct ordinary memories.",
+        "2: Corrected foundationalism as noninferential justification rather than universal infallibility; separated provisional inquiry from a compulsory coherentist doctrine. Retained the curator summary verbatim in its source position, including its original spelling.",
+        "3: Preserved each exact individualized curator challenge and its model response; corrected coherence-as-calculation, survival-as-endorsement, and the conflation of skepticism with solipsism.",
+        "4: Restored quoted Gemini premise and all three assessments. Identified the inferential gap from cognitive use to metaphysical belief, without inventing a formal contradiction or dismissing the unresolved dependence of tests on cognition.",
+        "5: Restored exact Phil comments and quoted ChatGPT statement. Distinguished the curator’s test-only stipulation from broader tentative ontological belief; clarified regularity, correlated error, and performance versus logical validity.",
+        "6: Retained the two senses and model-specific progression. Added a memory example distinguishing entertained hypothesis from revisable belief, and removed unsupported science-versus-pragmatism and action-versus-suspension dichotomies.",
+        "7: All three ten-question quizzes and ten-answer sets restored; repaired dependent keys, the memory-loss claim, and the unsupported guarantee that no other people can ever become available.",
+        "8: All three fifteen-question lists restored. Retained effective open questions; revised loaded pragmatic framing and the unsupported discovery of a disembodied mind. No scripted dialogue or requested table occurs."
+      ],
+      "verification": {
+        "pagePath": "/epistemology/establishing-cognitive-reliability-1/",
+        "sourceSha256": "f610aa91ae0f35be70f3cb76095fbfa5e71eb41778e2be271b6d19c31445bf28",
+        "originalPrompts": 10,
+        "curatorProsePrompts": 3,
+        "originalHeadings": 8,
+        "sourceColumns": 24,
+        "modelResponses": 24,
+        "blocksRetainedVerbatim": 171,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 116,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "quiz questions and answer sets": [
+            10,
+            10,
+            10,
+            10,
+            10,
+            10
+          ],
+          "discussion questions": [
+            15,
+            15,
+            15
+          ]
+        },
+        "sha256": "bd71e800dae5b3d051013b4ceba287914375bd04661dff38f4004b6ce7fe399f",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "Establishing Cognitive Reliability (#1)",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "response",
+          "quiz item",
+          "curator correction",
+          "curator follow-up"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 300,
+          "ranges": [
+            [
+              1,
+              90
+            ],
+            [
+              91,
+              150
+            ],
+            [
+              151,
+              185
+            ],
+            [
+              186,
+              245
+            ],
+            [
+              246,
+              300
+            ]
+          ],
+          "complete": true,
+          "indexFile": "quality/original-source-revisions/establishing-cognitive-reliability-1-reading-index-2026-11-27.txt",
+          "additionalFramingRead": "Read original highlighted excerpts, source model logos, curator summary after section 2, all three quoted prompts and exact Phil comments. No substantive illustrations."
+        },
+        "currentReadingCoverage": {
+          "lines": 405,
+          "ranges": [
+            [
+              1,
+              205
+            ],
+            [
+              206,
+              344
+            ],
+            [
+              345,
+              405
+            ]
+          ],
+          "snapshot": "quality/original-source-revisions/establishing-cognitive-reliability-1-current-before-2026-11-27.html"
+        },
+        "isolatedBuildVerified": true,
+        "browserReview": "Desktop Chrome full rendered accessibility tree inspected; opening layout screenshot inspected. No mobile or full visual-page claim.",
+        "verifiedAt": "2026-11-27T10:31:40.935939-05:00"
+      },
+      "remainingConcerns": [
+        "Cognitive self-testing does not settle global skepticism; no claim of clinical diagnostic validity."
+      ],
+      "researchSources": [
+        "https://plato.stanford.edu/entries/justep-foundational/"
+      ]
+    },
+    {
+      "title": "Evidence Workshop",
+      "pagePath": "/epistemology/evidence-workshop/",
+      "source": "http://byteseismic.com/2024/02/11/evidence-workshop/",
+      "wordpressId": 505,
+      "decisions": [
+        "1: Distinguished evidence for access to gold from support for a contradictory spherical cube; photographs can clarify wording but cannot instantiate the fixed contradiction. Preserved both original response progressions.",
+        "2: Distinguished equal likelihood ratios from equal posterior probabilities and ordinary witness quality. Corrected unaided flight versus transport and logical versus empirical impossibility; added a labeled invented odds example with checked arithmetic. Preserved both model tracks and original subheadings.",
+        "3: Replaced the blanket dismissal of subjective reports with the diagnostic question: what makes conviction more probable under telepathy than ordinary alternatives? Corrected significance as proof and retained respectful inquiry without treating feeling as established support.",
+        "4: Restored the omitted Koji/fishing exercise and its exact curator note; did not invent a missing Gemini answer. Corrected the conjunction inequality, equality cases and conditional information; clearly labeled an editorial clarification of the retained parsimony note.",
+        "5: Preserved all four ranking premises and each model’s four-item order. Qualified rankings as dependent on actual study/report quality; explicitly tied the anecdote and celebrity where the prompt lacks discriminating details. Corrected peer review as guarantee, correlation as causation, and duplicate reporting as independent confirmation."
+      ],
+      "verification": {
+        "pagePath": "/epistemology/evidence-workshop/",
+        "sourceSha256": "3776d43d2ee48571e5bbd123b045a2a8dbfebd8d2f0259948f7befa7bad6caab",
+        "originalPrompts": 5,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 5,
+        "sourceColumns": 10,
+        "modelResponses": 9,
+        "blocksRetainedVerbatim": 67,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 46,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": false,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [
+          "4.2"
+        ],
+        "formatChecks": {},
+        "sha256": "d2aae624660945948e6dd10fa58787846d4b1232255abb8d4f2c082d48b84de2",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "Evidence Workshop",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "response",
+          "curator note",
+          "ranking premises"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 119,
+          "ranges": [
+            [
+              1,
+              60
+            ],
+            [
+              61,
+              119
+            ]
+          ],
+          "indexFile": "quality/original-source-revisions/evidence-workshop-reading-index-2026-11-27.txt",
+          "complete": true,
+          "additionalFramingRead": "Highlighted response excerpts and model logos inspected; no substantive images, quizzes or scripted dialogue in original."
+        },
+        "currentReadingCoverage": {
+          "lines": 380,
+          "ranges": [
+            [
+              1,
+              110
+            ],
+            [
+              111,
+              245
+            ],
+            [
+              246,
+              380
+            ]
+          ],
+          "snapshot": "quality/original-source-revisions/evidence-workshop-current-before-2026-11-27.html"
+        },
+        "isolatedBuildVerified": true,
+        "verifiedAt": "2026-11-27T10:31:40.935939-05:00"
+      },
+      "researchSources": [
+        "https://plato.stanford.edu/entries/bayes-theorem/"
+      ],
+      "remainingConcerns": [
+        "Ranking is conditional; prompt supplies no real studies to assess."
+      ]
+    },
+    {
+      "title": "Hypostatic Illogic",
+      "pagePath": "/epistemology/hypostatic-illogic/",
+      "source": "http://byteseismic.com/2024/07/09/hypostatic-illogic/",
+      "wordpressId": 12847,
+      "decisions": [
+        "1: Preserved three accounts and their doctrinal alternatives; distinguished two-natures predication from person-level capacity, qualified kenosis, and separated sinless conduct from inability. Mystery is not treated as a classical logical resolution.",
+        "2: Restored the full curator reductio and follow-up instruction verbatim. Repaired four ChatGPT syllogistic replies and made Gemini’s requested premise/conclusion structure explicit within its original list. Identified which replies reject universals, qualify predicates, or merely explain nonexercise; corrected the pre-Fall inference.",
+        "3: Retained the Pat reductio verbatim and all source derivation sequences. Distinguished conditional validity from soundness; removed blanket claims that gender/sex labels universally entail reproductive capacity. Same subject, time, respect and sense govern contradiction.",
+        "4: Preserved the entire17-row two-column comparison and all three model tracks. Affirmed the curator’s equal-treatment challenge for identical fixed formalizations; removed theological exemptions while distinguishing premise truth from validity.",
+        "5: Kept all paired-counter sets and four detailed ChatGPT derivations. Repaired invalid conclusions from guiding forces and mystery, supplied missing direct Gemini parallels, and distinguished reproductive anatomy from identity labels. Exposed can/did equivocations consistently in both domains.",
+        "6: Restored all28source quiz disclosures in original10/8/10sets. Replaced irrelevant background-color question, corrected dependent keys and loaded comparisons. No invented ten-item request: original heading is Quizzes and Gemini supplies8.",
+        "7: Restored three15-question lists, retaining effective open questions and removing a few assumptions that a doctrine already resolves the contradiction.",
+        "8: Restored full symbolic appendix at its original position, transcribed equation images as accessible text, added missing universal quantifiers, and introduced a fresh existential witness. Preserved derivation order and stated the conditional scope.",
+        "9: Restored both the analogy essay and otherwise omitted trailing rigorous appendix. Revised the full argument progression; repaired F(x) into F(x,n), separated person variables from nature constants, and made switching mean loss of possession explicitly. Preserved the emergency-responder and avatar objections while distinguishing possession from exercise. Both essays are unattributed source text, not newly attributed model replies.",
+        "Renderer: added a narrow hash-checked trailing sibling range for the source’s final appendix. It rejects changed source bytes and cannot swallow headings or response columns. Three existing configurations still render byte-for-byte identically."
+      ],
+      "verification": {
+        "pagePath": "/epistemology/hypostatic-illogic/",
+        "sourceSha256": "3c1d266000c6a4f3ddf0d4c2d691e6097c06566479856c7b6d165e99752cfa21",
+        "originalPrompts": 6,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 9,
+        "sourceColumns": 24,
+        "modelResponses": 21,
+        "blocksRetainedVerbatim": 444,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 144,
+        "bareAnswersExplicitlyRevised": 11,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "source quiz answers": [
+            10,
+            8,
+            10
+          ],
+          "discussion questions": [
+            15,
+            15,
+            15
+          ],
+          "parallel comparison table rows": [
+            17
+          ]
+        },
+        "sha256": "61a23d0f08f314feb87129d22f7ca28938deb7f28dc3461fb67e2aa64efbf81b",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "Hypostatic Illogic",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "counter response",
+          "comparison table",
+          "quiz answer",
+          "late appendix",
+          "changed trailing-source hash"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 641,
+          "ranges": [
+            [
+              1,
+              68
+            ],
+            [
+              69,
+              145
+            ],
+            [
+              146,
+              220
+            ],
+            [
+              221,
+              300
+            ],
+            [
+              301,
+              380
+            ],
+            [
+              381,
+              484
+            ],
+            [
+              485,
+              555
+            ],
+            [
+              556,
+              641
+            ]
+          ],
+          "complete": true,
+          "indexFile": "quality/original-source-revisions/hypostatic-illogic-reading-index-2026-11-27.txt",
+          "readingMethod": "Original response index read in eight chunks; all 28 bare disclosure answers read separately; both complete appendices read with every original formula transcribed from its alt text. Full combined index saved after restoring omitted prose layouts."
+        },
+        "currentReadingCoverage": {
+          "lines": 428,
+          "ranges": [
+            [
+              1,
+              140
+            ],
+            [
+              141,
+              280
+            ],
+            [
+              281,
+              428
+            ]
+          ],
+          "snapshot": "quality/original-source-revisions/hypostatic-illogic-current-before-2026-11-27.html"
+        },
+        "isolatedBuildVerified": true,
+        "rendererRegressionChecks": [
+          "cromwells-rule",
+          "establishing-cognitive-reliability-1",
+          "evidence-workshop"
+        ],
+        "verifiedAt": "2026-11-27T10:31:40.935939-05:00"
+      },
+      "researchSources": [
+        "https://www.vatican.va/content/catechism/en/part_one/section_two/chapter_two/artcile_3/paragraph_1.index.html"
+      ],
+      "remainingConcerns": [
+        "Validity is conditional on the explicitly disputed universal premises; this revision does not claim all Christian accounts share one modal interpretation."
+      ]
+    },
+    {
+      "title": "Induction: Cold Reading",
+      "pagePath": "/epistemology/induction-cold-reading/",
+      "source": "http://byteseismic.com/2024/02/27/induction-cold-reading/",
+      "wordpressId": 1234,
+      "decisions": [
+        "1: Separated hot reading from cold reading, guesses from deductions, and broad-description acceptance from high base rates. Removed unsupported therapeutic efficacy claim; retained disclosed entertainment and ordinary observation distinctions.",
+        "2: Qualified blanket success, empathy, leadership, and resilience promises. Added concrete checks against misinterpreting gestures and required misses as well as hits to be counted.",
+        "3: Retained both tracks, original Gemini refusal/rephrasing note and both video destinations. Labeled Sarah/John, Mark/Lisa, Emily/Michael examples fictional and replaced guaranteed outcomes with checkable conversational possibilities.",
+        "4: Retained David, Sarah, Alex workplace examples as fictional; restored refusal, both exact curator challenges and complete follow-up. Preserved historical refusal while separately clarifying the narrow/broad definition disagreement. Corrected continual-learning and inaccessible training-data claims, and rejected personal gain as inherently wrong.",
+        "5: Preserved two five-item quizzes and complete keys; replaced ambiguous NOT-component and multiple-correct-answer items, updated keys, and qualified unsupported neutrality guarantees.",
+        "6: Preserved both ten-question discussion lists; distinguished fictional illustration from evidence and replaced false neutrality/ethics dichotomy with an answerable question."
+      ],
+      "verification": {
+        "pagePath": "/epistemology/induction-cold-reading/",
+        "sourceSha256": "51d4e6939a2ad6df52a1aed98c53d21a4c3977103d7a0130d73f5547e4ee345a",
+        "originalPrompts": 11,
+        "curatorProsePrompts": 2,
+        "originalHeadings": 6,
+        "sourceColumns": 12,
+        "modelResponses": 12,
+        "blocksRetainedVerbatim": 141,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 46,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": false,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [
+          "4.2"
+        ],
+        "formatChecks": {
+          "two five-item quizzes and keys": [
+            5,
+            5,
+            5,
+            5
+          ],
+          "two ten-question discussions": [
+            10,
+            10
+          ]
+        },
+        "sha256": "7f3777444226526af6c9db1546aab14ccdc69de1909fe7f1e16ae4efaa7a147f",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "Induction: Cold Reading",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "original prompt",
+          "curator rephrasing",
+          "second curator challenge",
+          "first curator challenge",
+          "original video link",
+          "quiz answer"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 196,
+          "ranges": [
+            [
+              1,
+              196
+            ]
+          ],
+          "indexFile": "quality/original-source-revisions/induction-cold-reading-reading-index-2026-11-27.txt",
+          "complete": true,
+          "additionalFramingRead": "Read all nine source h2 headings including two supplementary video labels and Phil’s Pushback label. Read complete disclosure-summary challenge about infantilization, original romantic rephrasing, and second challenge verbatim. Preserved both YouTube destinations in source order; videos were not watched and no claims based on their contents were added. Renderer heading count includes embedded labels, not eleven distinct substantive requests."
+        },
+        "currentReadingCoverage": {
+          "lines": 441,
+          "ranges": [
+            [
+              1,
+              441
+            ]
+          ],
+          "snapshot": "quality/original-source-revisions/induction-cold-reading-current-before-2026-11-27.html"
+        },
+        "isolatedBuildVerified": true,
+        "verifiedAt": "2026-11-27T10:31:40.935939-05:00"
+      },
+      "researchSources": [
+        "https://doi.org/10.1037/h0059240",
+        "https://pubmed.ncbi.nlm.nih.gov/18110193/"
+      ],
+      "remainingConcerns": [
+        "Original supplementary video links retained; playback and video factual claims not assessed."
+      ]
+    },
+    {
+      "title": "Mapping Belief to Evidence",
+      "pagePath": "/epistemology/mapping-belief-to-evidence/",
+      "source": "http://byteseismic.com/2024/02/10/mapping-belief-to-evidence/",
+      "wordpressId": 343,
+      "decisions": [
+        "1: Corrected unsupported linear-mapping assumption; distinguished subjective assessment from relativism, evidence from practical stakes, and intellectual habits from definitional requirements. Restored two separate stipulative follow-ups and clarified sincerity versus reliability. Corrected loose Foley attribution using his primary work.",
+        "2: Accepted the curator’s local taxonomy without claiming an established scientific classification or complete bias removal. Added independent-source example and task-specific tests of progress, preserving all original strengths and caveats.",
+        "3: Retained both fifteen-question sets and Gemini’s three five-question groups. Replaced innate/trained dichotomy and too-rational language with specific questions about transfer, cost, and evidential support."
+      ],
+      "verification": {
+        "pagePath": "/epistemology/mapping-belief-to-evidence/",
+        "sourceSha256": "ca5fca2c3cbd71a3e2ab067eeabf8ad450e0a3adf3362f13ad1a8c4ec75d6d53",
+        "originalPrompts": 5,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 3,
+        "sourceColumns": 6,
+        "modelResponses": 6,
+        "blocksRetainedVerbatim": 74,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 31,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "two fifteen-question discussions": [
+            15,
+            5,
+            5,
+            5
+          ]
+        },
+        "sha256": "141bd6eb8e0f0d9374411c34946209b9e0970fd8e611e0a93bdfb8f20b2d4d51",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "Mapping Belief to Evidence",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "main prompt",
+          "first follow-up",
+          "second follow-up",
+          "discussion item"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 111,
+          "ranges": [
+            [
+              1,
+              111
+            ]
+          ],
+          "indexFile": "quality/original-source-revisions/mapping-belief-to-evidence-reading-index-2026-11-27.txt",
+          "complete": true,
+          "additionalFramingRead": "Both original embedded follow-up h2 questions read verbatim and preserved with their own response tracks. Decorative logos and highlighted excerpts add no independent response; no original quiz, dialogue, substantive diagram or equations."
+        },
+        "currentReadingCoverage": {
+          "lines": 459,
+          "ranges": [
+            [
+              1,
+              459
+            ]
+          ],
+          "snapshot": "quality/original-source-revisions/mapping-belief-to-evidence-current-before-2026-11-27.html"
+        },
+        "isolatedBuildVerified": true,
+        "metadataCorrection": "Shortened search description to160 characters or fewer after isolated site audit.",
+        "verifiedAt": "2026-11-27T10:31:40.935939-05:00"
+      },
+      "researchSources": [
+        "https://www.cambridge.org/core/books/intellectual-trust-in-oneself-and-others/4C58E0CED5E6283142DB03B7E3FB7EDA"
+      ],
+      "remainingConcerns": [
+        "Core and deep rationality are explicitly local stipulations rather than a consensus taxonomy."
+      ]
+    },
+    {
+      "title": "Non-Scientific Ways of Knowing",
+      "pagePath": "/epistemology/non-scientific-ways-of-knowing/",
+      "source": "http://byteseismic.com/2024/06/23/non-scientific-ways-of-knowing/",
+      "wordpressId": 12126,
+      "decisions": [
+        "1: Distinguished mathematical consequence, empirical testing, subjective experience and external explanation. Corrected science-excludes-emotion assertion and inaccurate reduction of James to practical benefit.",
+        "2: Preserved all five original rebuttals and their quotations. Corrected automatic agreement that fallibility proves logic is induction, and that conflicting traditions prove only science can establish all knowledge. Kept the stronger critique of self-validating authority.",
+        "3–4: Restored full demand for actual methods and all five counterexamples; replaced coherence, resonance, security and popularity as sufficient truth tests with claim-specific scrutiny, conceding where the proposed method fails.",
+        "5: Preserved ChatGPT and Claude assessments while narrowing verdicts to what arguments establish. Distinguished ordinary empirical learning from a universal definition of science.",
+        "6–7: Retained personal-resonance and marriage challenges verbatim. Distinguished insufficiency from statistical independence; identified the additional normative premise required for universal should. Removed guarantees of knowledge from a bundled checklist.",
+        "8: Restored all three ten-item quizzes and answer disclosures. Corrected keys that repeated already-refuted claims, including religious comfort as knowledge and exclusive scientific prediction.",
+        "9: Retained all 45 questions and revised loaded assumptions about informal learning, private truth, and narratives."
+      ],
+      "verification": {
+        "pagePath": "/epistemology/non-scientific-ways-of-knowing/",
+        "sourceSha256": "189792171739506982f5b0e57da05dbbce2f9ac621cf1806053124624fac3f69",
+        "originalPrompts": 8,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 9,
+        "sourceColumns": 18,
+        "modelResponses": 18,
+        "blocksRetainedVerbatim": 292,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 108,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "three ten-answer quizzes": [
+            10,
+            10,
+            10
+          ],
+          "three fifteen-question discussions": [
+            15,
+            15,
+            15
+          ]
+        },
+        "sha256": "80feae143a874ec5011a68cb8cbc3bbca3195f16f4ecafb96cee476ed5219120",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "Non-Scientific Ways of Knowing",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "opening condition",
+          "five curator rebuttals",
+          "follow-up demand",
+          "marriage example",
+          "quiz answer"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 424,
+          "ranges": [
+            [
+              1,
+              424
+            ]
+          ],
+          "indexFile": "quality/original-source-revisions/non-scientific-ways-of-knowing-reading-index-2026-11-27.txt",
+          "complete": true,
+          "additionalFramingRead": "Read all source preambles, five-point rebuttal lists, model responses, 30 quiz disclosures including bare answers, and 45 discussion questions. No substantive source images; logos are decorative. All original curator wording and historical quotations retained."
+        },
+        "currentReadingCoverage": {
+          "lines": 477,
+          "ranges": [
+            [
+              1,
+              477
+            ]
+          ],
+          "snapshot": "quality/original-source-revisions/non-scientific-ways-of-knowing-current-before-2026-11-27.html"
+        },
+        "isolatedBuildVerified": true,
+        "metadataCorrection": "Shortened search description to160 characters or fewer after isolated site audit.",
+        "verifiedAt": "2026-11-27T10:31:40.935939-05:00"
+      },
+      "researchSources": [
+        "https://brocku.ca/MeadProject/James/James_1907/James_1907_06.html"
+      ],
+      "remainingConcerns": [
+        "Dispute about the scope of science remains explicit; no generic compromise erases it."
+      ]
+    },
+    {
+      "title": "The Primacy of Induction",
+      "pagePath": "/epistemology/the-primacy-of-induction/",
+      "source": "http://byteseismic.com/2024/10/14/the-primacy-of-induction/",
+      "wordpressId": 13827,
+      "decisions": [
+        "1–2: Preserved inductive-web proposal and exact pushback. Corrected general-to-specific definition of deduction, development versus justification, contingent deductive conclusions, and Hume’s alleged all-knowledge-is-induction position.",
+        "3: Retained requested defense of inductive grounding while stating its universal reliability premise. Removed unsupported infant and developmental claims, distinguished validity from confidence, and kept circularity visible instead of claiming practical success resolves it.",
+        "4: Restored readable notation and six arguments. Fixed reversed quantifier scope in argument one, untyped based-on phrases, missing instantiated premises, equivocation between learning and justification, blanket reliable-authority assertion, and foundational versus exclusive conclusion. Every changed formula is source-addressed.",
+        "5: Retained ten disclosures and revised six answer bodies; replaced two questions about formatting instructions absent from the published exchange with substantive questions and aligned answers.",
+        "6: Retained original eighteen questions, revised two loaded questions, and explicitly added nineteen and twenty to satisfy the request."
+      ],
+      "verification": {
+        "pagePath": "/epistemology/the-primacy-of-induction/",
+        "sourceSha256": "fca8ed5ab33b90abf477ce02a8537cfc94e9798efc3fd3befa80cd461ebd0cc4",
+        "originalPrompts": 5,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 6,
+        "sourceColumns": 6,
+        "modelResponses": 6,
+        "blocksRetainedVerbatim": 114,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 95,
+        "bareAnswersExplicitlyRevised": 6,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": false,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [
+          "6.1"
+        ],
+        "formatChecks": {
+          "ten quiz disclosures": [
+            10
+          ],
+          "eighteen original plus two added discussions": [
+            18,
+            2
+          ]
+        },
+        "sha256": "e08c03dc6e93ae8d4beffb11559f1f1690efba38e7662b270772fb8e4d1d63d0",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "The Primacy of Induction",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "curator pushback",
+          "formal premise",
+          "quiz key",
+          "added question"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 228,
+          "ranges": [
+            [
+              1,
+              228
+            ]
+          ],
+          "indexFile": "quality/original-source-revisions/the-primacy-of-induction-reading-index-2026-11-27.txt",
+          "complete": true,
+          "additionalFramingRead": "Read original preambles, all 44 distinct equation alt strings and ten complete disclosure answers; complete reading index includes their transcriptions. Six original argument groups retained. Source has eighteen discussion questions despite request for twenty; two clearly marked additions complete it."
+        },
+        "currentReadingCoverage": {
+          "lines": 453,
+          "ranges": [
+            [
+              1,
+              453
+            ]
+          ],
+          "snapshot": "quality/original-source-revisions/the-primacy-of-induction-current-before-2026-11-27.html"
+        },
+        "isolatedBuildVerified": true,
+        "metadataCorrection": "Shortened search description to160 characters or fewer after isolated site audit.",
+        "verifiedAt": "2026-11-27T10:31:40.935939-05:00"
+      },
+      "researchSources": [
+        "https://davidhume.org/texts/e/full"
+      ],
+      "remainingConcerns": [
+        "Universal inductive-grounding premise remains a philosophical thesis; formal validity alone does not establish it."
+      ]
+    },
+    {
+      "title": "Vicious &amp; Virtuous Circularity",
+      "pagePath": "/epistemology/vicious-virtuous-circularity/",
+      "source": "http://byteseismic.com/2024/10/13/vicious-virtuous-circularity/",
+      "wordpressId": 13765,
+      "decisions": [
+        "1: Distinguished argumentative circularity from recursion and valid inference; corrected Peano, Tarski and Yablo descriptions and stated explicit conditions for legitimate constructions.",
+        "2: Rejected unsupported allegations that System F and Kripke lack rigorous foundations; retained impredicativity discussion with actual results and limits. Kept concrete dictionary-loop and nontermination examples, distinguishing nontermination from undefined behavior.",
+        "3: Preserved critique of self-authentication while narrowing attribution and scope. Corrected foundationalism-infallibility claim, rival-authority-to-relativism inference and Popper-as-all-rationality criterion.",
+        "4: Corrected necessity direction to M→G and showed modus ponens validity. Separately supplied countervaluation for reversed G→M form. Explained that circularity is a dependence in warrant, not something established merely by propositional entailment; a named alternative is not a proved counterexample.",
+        "5–6: Restored all ten quiz answers and fifteen discussion questions. Aligned corrected keys and replaced loaded questions that presupposed invalidity or misuse of Popper."
+      ],
+      "verification": {
+        "pagePath": "/epistemology/vicious-virtuous-circularity/",
+        "sourceSha256": "00327e5a4aa42741ede0a0104f7c163c2099b79eb91d58205dc432f32d3f432e",
+        "originalPrompts": 5,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 6,
+        "sourceColumns": 6,
+        "modelResponses": 6,
+        "blocksRetainedVerbatim": 106,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 81,
+        "bareAnswersExplicitlyRevised": 5,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "ten quiz disclosures": [
+            10
+          ],
+          "fifteen discussion paragraphs": [
+            15
+          ]
+        },
+        "sha256": "4ff21810c502e68d7d729c55ebafc6eedbb3f8391fdf7f8349e34e48d92918f5",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "Vicious &amp; Virtuous Circularity",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "corrected conditional",
+          "countervaluation",
+          "answer disclosure"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 203,
+          "ranges": [
+            [
+              1,
+              203
+            ]
+          ],
+          "indexFile": "quality/original-source-revisions/vicious-virtuous-circularity-reading-index-2026-11-27.txt",
+          "complete": true,
+          "additionalFramingRead": "Read all six sections, all distinct source formula alt strings and ten complete disclosure answers. Preserved bibliographic entries as original references, without treating their mere presence as proof; added direct sources for corrected technical assertions."
+        },
+        "currentReadingCoverage": {
+          "lines": 450,
+          "ranges": [
+            [
+              1,
+              450
+            ]
+          ],
+          "snapshot": "quality/original-source-revisions/vicious-virtuous-circularity-current-before-2026-11-27.html"
+        },
+        "isolatedBuildVerified": true,
+        "metadataCorrection": "Shortened search description to160 characters or fewer after isolated site audit.",
+        "verifiedAt": "2026-11-27T10:31:40.935939-05:00"
+      },
+      "researchSources": [
+        "https://www.impan.pl/~kz/truthseminar/Kripke_Outline.pdf",
+        "https://people.mpi-sws.org/~dreyer/ats/papers/girard.pdf",
+        "https://www.mit.edu/~yablo/pwsr.pdf",
+        "https://www.inf.fu-berlin.de/lehre/WS05/19616-K/materials/PopperScience.pdf",
+        "https://thebahnsenbibleacademy.com/transcendental-arguments-9-of-10-apologetical-transcendental-argument/"
+      ],
+      "remainingConcerns": [
+        "Verdict is limited to the specified argument and its offered warrant; not a universal verdict on all presuppositional apologetics."
+      ]
+    },
+    {
+      "title": "What are Syllogisms?",
+      "pagePath": "/epistemology/what-are-syllogisms/",
+      "source": "http://byteseismic.com/2024/04/16/what-are-syllogisms/",
+      "wordpressId": 6319,
+      "decisions": [
+        "1: Fixed contradictory middle-term definition and major/minor term roles. Corrected valid-but-false premise confusion and false-premise-implies-false-conclusion assertion; replaced fish-flight ambiguity.",
+        "2: Retained legal, medical, business, allergy, cold-remedy and planetary examples while making assumptions and uncertainty explicit. Removed unsupported diagnosis/treatment guarantees, blanket penalty-law statement and profit-from-satisfaction rule. Verified Jupiter metallic-hydrogen distinction with NASA and medical diagnostic limits with primary guidance.",
+        "3: Corrected invalid school-funding inference labeled valid, missing insurance-to-access premise, Seattle shorts reversal and studying conclusion mismatch. Distinguished causal evidence, evaluation and deductive consequence.",
+        "4: Preserved all four requested categories, clearly identifying invalid-but-sound as impossible. Replaced ambiguous fruit/vegetable example; corrected chocolate example and supplied a countermodel for birds/fish/mammals.",
+        "5: Restored both ten-question sets and keys; corrected middle-term explanation, study-hard validity, London umbrella conflict and distinction between valid modus tollens and soundness in speeding option.",
+        "6: Preserved both fifteen-question sets, sharpening true-premises/false-conclusion question and replacing model self-promotion with an evaluable reliability question."
+      ],
+      "verification": {
+        "pagePath": "/epistemology/what-are-syllogisms/",
+        "sourceSha256": "0505c95b18c59e2fa03bd5b6c5496e3c69e14ef6955bbcad6ab61b36714dfeac",
+        "originalPrompts": 6,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 6,
+        "sourceColumns": 12,
+        "modelResponses": 12,
+        "blocksRetainedVerbatim": 168,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 76,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "two ten-item quizzes and keys": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "two fifteen-question discussions": [
+            15,
+            15
+          ]
+        },
+        "sha256": "6ef57d8a9798c13e6dcead5cdd81f9f5e582b16e3bba7bfb927f10c96af088f3",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "What are Syllogisms?",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "requested four categories",
+          "denying antecedent correction",
+          "corrected quiz key"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 252,
+          "ranges": [
+            [
+              1,
+              252
+            ]
+          ],
+          "indexFile": "quality/original-source-revisions/what-are-syllogisms-reading-index-2026-11-27.txt",
+          "complete": true,
+          "additionalFramingRead": "Read six headings and entire validity/soundness preamble including impossible invalid-but-sound request; all worked examples, quizzes and keys, thirty discussions read. No substantive source diagram or unindexed answer disclosures."
+        },
+        "currentReadingCoverage": {
+          "lines": 428,
+          "ranges": [
+            [
+              1,
+              428
+            ]
+          ],
+          "snapshot": "quality/original-source-revisions/what-are-syllogisms-current-before-2026-11-27.html"
+        },
+        "isolatedBuildVerified": true,
+        "metadataCorrection": "Shortened search description to160 characters or fewer after isolated site audit.",
+        "verifiedAt": "2026-11-27T10:31:40.935939-05:00"
+      },
+      "researchSources": [
+        "https://science.nasa.gov/jupiter/jupiter-facts/",
+        "https://www.cdc.gov/tb/hcp/testing-diagnosis/clinical-and-laboratory-diagnosis.html",
+        "https://www.aaaai.org/Aaaai/media/Media-Library-PDFs/Allergist%20Resources/Statements%20and%20Practice%20Parameters/Food-allergy-guidelines-Dec-2010.pdf"
+      ],
+      "remainingConcerns": [
+        "Clinical and legal examples are explicitly illustrations of reasoning; no individual diagnosis or jurisdiction-specific rule is asserted."
+      ]
+    },
+    {
+      "title": "What is Bayes Theorem?",
+      "pagePath": "/epistemology/what-is-bayes-theorem/",
+      "source": "http://byteseismic.com/2024/02/10/what-is-bayes-theorem/",
+      "wordpressId": 361,
+      "decisions": [
+        "1: Restored both introductory responses and original formula image. Defined positive denominator and consistent marble events; corrected designated-marble posterior from claimed10% to20%.",
+        "2: Distinguished probability identity from subjective interpretation, practical model limits, decisions and epistemic humility. Corrected Gettier description without claiming theorem solves epistemic luck.",
+        "3: Completed missing ChatGPT example arithmetic: medical8.76%,spam14.04%,legal70%. Corrected all four Gemini calculations:heart47.06%,spam32.14%,rain46.15%,fraud15.38%. Marked every rate invented; no clinical, legal or forecasting authority inferred.",
+        "4: Separated updates from utility/ethical decisions and prior choice from relativism; stated limitations of zero priors under conditioning.",
+        "5: Preserved two ten-item quizzes and keys; corrected ambiguous answer choices, prior-before-any-evidence claim, independence condition and direct probability versus decision distinction.",
+        "6: Preserved thirty questions; clarified complement probability versus distinct alternative explanations and added model-calibration question."
+      ],
+      "verification": {
+        "pagePath": "/epistemology/what-is-bayes-theorem/",
+        "sourceSha256": "f32397e4f8d66c3b1dc57be66c80433a9534fc142488a2c6aa476bd3cbca96a2",
+        "originalPrompts": 6,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 6,
+        "sourceColumns": 12,
+        "modelResponses": 12,
+        "blocksRetainedVerbatim": 192,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 56,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "Gemini ten-item quiz and key": [
+            10,
+            10
+          ],
+          "two fifteen-question discussions": [
+            15,
+            15
+          ],
+          "ChatGPT ten question paragraphs and ten keys": [
+            20
+          ],
+          "four options for each ChatGPT item": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        "sha256": "3b9f1cbbc72e9baaec027c8175877012aa71b3f38f23341ec7e068cc3096b33a",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "What is Bayes Theorem?",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "opening prompt",
+          "formula image",
+          "marble arithmetic",
+          "example result",
+          "quiz key"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 256,
+          "ranges": [
+            [
+              1,
+              256
+            ]
+          ],
+          "indexFile": "quality/original-source-revisions/what-is-bayes-theorem-reading-index-2026-11-27.txt",
+          "complete": true,
+          "additionalFramingRead": "Read the initially missed two-column opening in full, including original formula image (visually inspected), marble example, all remaining original paragraphs, quizzes and keys, thirty discussion questions. All eight numeric posteriors recomputed independently with exact fractions and saved in dated arithmetic artifact."
+        },
+        "currentReadingCoverage": {
+          "lines": 410,
+          "ranges": [
+            [
+              1,
+              410
+            ]
+          ],
+          "snapshot": "quality/original-source-revisions/what-is-bayes-theorem-current-before-2026-11-27.html"
+        },
+        "isolatedBuildVerified": true,
+        "metadataCorrection": "Shortened search description to160 characters or fewer after isolated site audit.",
+        "verifiedAt": "2026-11-27T10:31:40.935939-05:00"
+      },
+      "researchSources": [
+        "https://plato.stanford.edu/entries/bayes-theorem/",
+        "https://doi.org/10.1093/analys/23.6.121"
+      ],
+      "remainingConcerns": [
+        "All numerical inputs are illustrative; model fit and real-world estimates are outside these arithmetic demonstrations."
+      ]
+    },
+    {
+      "title": "What is Faith?",
+      "pagePath": "/epistemology/what-is-faith/",
+      "source": "http://byteseismic.com/2024/02/20/what-is-faith/",
+      "wordpressId": 790,
+      "decisions": [
+        "1: Restored curator survey framing and three images; distinguished displayed scores from percentages endorsing a definition and limited representativeness claims.",
+        "2: Separated logical coherence, evidential warrant and practical consequences; exploration and hope do not require inflated confidence.",
+        "3: Corrected Augustine period, pistis etymology, blanket blind-faith narrative, and unsupported claim that fiducial trust emerged in the Enlightenment; linked Aquinas and Luther primary texts.",
+        "4: Preserved equivocation challenge while applying its definition conditionally; neither religion nor science guarantees a fixed response to evidence.",
+        "5: Reframed unsupported occupational causal histories; retained concrete professions and qualified Titanic/dot-com examples, supported bitemark limitation with NIST.",
+        "6: Clarified terminology without defining every faith as irrational.",
+        "7: Corrected both seven-item quizzes and answer keys, including inconsistent final Gemini answer.",
+        "8: Preserved both fifteen-question discussions, removing presupposed universal core and belief/action conflation."
+      ],
+      "verification": {
+        "pagePath": "/epistemology/what-is-faith/",
+        "sourceSha256": "577b9ef5c9f5775f79d5a53fc0e82e3a87a790d5cffc2bca2c41152969624007",
+        "originalPrompts": 7,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 8,
+        "sourceColumns": 15,
+        "modelResponses": 14,
+        "blocksRetainedVerbatim": 154,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 59,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": false,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [
+          "1.1"
+        ],
+        "formatChecks": {
+          "two fifteen-question discussions": [
+            15,
+            15
+          ]
+        },
+        "sha256": "09965272625095b7a0a7d4c1967625057978db7244b3ec8692999aebc2d193f0",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "What is Faith?",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "survey image",
+          "original question",
+          "quiz key",
+          "discussion"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 232,
+          "ranges": [
+            [
+              1,
+              232
+            ]
+          ],
+          "indexFile": "quality/original-source-revisions/what-is-faith-reading-index-2026-11-27.txt",
+          "complete": true,
+          "additionalFramingRead": "Read all original questions, responses, quiz keys and discussion questions; visually inspected all three survey images and retained original framing, note and images. Complete current composite page read."
+        },
+        "currentReadingCoverage": {
+          "lines": 472,
+          "ranges": [
+            [
+              1,
+              472
+            ]
+          ],
+          "snapshot": "quality/original-source-revisions/what-is-faith-current-before-2026-11-27.html"
+        },
+        "isolatedBuildVerified": true,
+        "metadataCorrection": "Shortened search description to160 characters or fewer after isolated site audit.",
+        "verifiedAt": "2026-11-27T10:31:40.935939-05:00"
+      },
+      "researchSources": [
+        "https://www.newadvent.org/summa/3004.htm",
+        "https://www.ccel.org/l/luther/romans/pref_romans.html",
+        "https://www.nist.gov/publications/bitemark-analysis-nist-scientific-foundation-review"
+      ],
+      "remainingConcerns": [
+        "Survey images are preserved as curator-supplied evidence; sampling method and score computation are not independently established."
+      ]
+    },
+    {
+      "title": "Assuming Objective Evil",
+      "pagePath": "/ethics/assuming-objective-evil/",
+      "source": "http://byteseismic.com/2024/07/09/assuming-objective-evil/",
+      "wordpressId": 12877,
+      "decisions": [
+        "1: Retained exact curator argument; distinguished unsupported deduction, conditional circular reading, and appeal to reliable intuition from blanket fallacy labeling.",
+        "2: Removed assumptions that empirical facts or definitions establish objective moral authority; distinguished context, consistency, emotional information and responsibility.",
+        "3: Preserved all three skeptical essays while distinguishing skepticism, non-realism and relativism; disagreement and psychological origins do not alone disprove realism.",
+        "4: Kept forceful requested admonitions while removing unsupported attributions of dishonesty/manipulation and the external-evil-force caricature.",
+        "5: Preserved thirty quiz items and disclosures; repaired missing-choice question, false responsibility premise and realism/absolutism conflation.",
+        "6: Preserved forty-five discussions and made presuppositions open questions."
+      ],
+      "verification": {
+        "pagePath": "/ethics/assuming-objective-evil/",
+        "sourceSha256": "1cd77bd8587d66f103c849841e6910f1382685ccfdfb2c609abb7408cb9fddd1",
+        "originalPrompts": 5,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 6,
+        "sourceColumns": 18,
+        "modelResponses": 18,
+        "blocksRetainedVerbatim": 171,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 77,
+        "bareAnswersExplicitlyRevised": 13,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "three ten-answer quizzes": [
+            10,
+            10,
+            10
+          ],
+          "three fifteen-question discussions": [
+            15,
+            15,
+            0
+          ],
+          "Claude fifteen discussion paragraphs plus introduction": [
+            16
+          ]
+        },
+        "sha256": "2dbd500d5792904c508704197cd0effd6c46950ef5181e2be10c2021524c222b",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "Assuming Objective Evil",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "curator premises",
+          "skeptical response",
+          "quiz disclosure",
+          "discussion"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 285,
+          "ranges": [
+            [
+              1,
+              285
+            ]
+          ],
+          "indexFile": "quality/original-source-revisions/assuming-objective-evil-reading-index-2026-11-27.txt",
+          "complete": true,
+          "additionalFramingRead": "Read full original argument, every response paragraph, all thirty disclosure answers, forty-five discussions and complete current page."
+        },
+        "currentReadingCoverage": {
+          "lines": 433,
+          "ranges": [
+            [
+              1,
+              433
+            ]
+          ],
+          "snapshot": "quality/original-source-revisions/assuming-objective-evil-current-before-2026-11-27.html"
+        },
+        "isolatedBuildVerified": true,
+        "metadataCorrection": "Shortened search description to160 characters or fewer after isolated site audit.",
+        "verifiedAt": "2026-11-27T10:31:40.935939-05:00"
+      },
+      "researchSources": [
+        "https://davidhume.org/texts/t/3/1/1"
+      ],
+      "remainingConcerns": [
+        "The page evaluates the supplied argument; it does not resolve the full debate over moral realism."
+      ]
+    },
+    {
+      "title": "Divine Command Theory",
+      "pagePath": "/ethics/divine-command-theory/",
+      "source": "http://byteseismic.com/2024/04/02/divine-command-theory/",
+      "wordpressId": 4954,
+      "decisions": [
+        "1: Distinguished obligation from all value, grounding from knowledge, and unrestricted theory from Adams’s loving-God modification; corrected Plato adaptation.",
+        "2: Retained threshold examples verbatim; did not imply they were independently established commands in specific religions. Distinguished authenticity, moral evaluation and unknown-purpose speculation.",
+        "3: Preserved typo in original prompt and explained intended immorality/disobedience reading; separated property identity from dictionary meaning.",
+        "4: Answered overlooked follow-up: one error defeats infallibility, not all reliability or status as intuition; removed unsupported universal/innate claims.",
+        "5: Corrected theonomy question, conditioned horrific-command hypothetical, repaired intuition definition and precise answer keys.",
+        "6: Retained thirty discussion questions; compared modified theories as well as unrestricted obedience."
+      ],
+      "verification": {
+        "pagePath": "/ethics/divine-command-theory/",
+        "sourceSha256": "c0ccc76c0a3e52ac024665e630afb9a1ad1228dab27af23dd40040f999039954",
+        "originalPrompts": 6,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 6,
+        "sourceColumns": 12,
+        "modelResponses": 12,
+        "blocksRetainedVerbatim": 114,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 52,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "two ten-question quizzes and keys": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "two fifteen-question discussions": [
+            15,
+            15
+          ]
+        },
+        "sha256": "6c372588bb2a7ab6200a51e263d48ab9466c2250b705f3e2f25dc36635b812da",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "Divine Command Theory",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "threshold examples",
+          "curator followup",
+          "quiz answer",
+          "discussion"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 176,
+          "ranges": [
+            [
+              1,
+              176
+            ]
+          ],
+          "indexFile": "quality/original-source-revisions/divine-command-theory-reading-index-2026-11-27.txt",
+          "complete": true,
+          "additionalFramingRead": "Read all source responses, curator threshold examples and follow-up, both ten-item quizzes with keys, thirty discussions and complete current page."
+        },
+        "currentReadingCoverage": {
+          "lines": 395,
+          "ranges": [
+            [
+              1,
+              395
+            ]
+          ],
+          "snapshot": "quality/original-source-revisions/divine-command-theory-current-before-2026-11-27.html"
+        },
+        "isolatedBuildVerified": true,
+        "metadataCorrection": "Shortened search description to160 characters or fewer after isolated site audit.",
+        "verifiedAt": "2026-11-27T10:31:40.935939-05:00"
+      },
+      "researchSources": [
+        "https://summerstudy.yale.edu/sites/default/files/summerschoolmorality.pdf",
+        "https://atlas.perseus.tufts.edu/library/passage/urn%3Acts%3AgreekLit%3Atlg0059.tlg001.perseus-eng2%3A7-11/"
+      ],
+      "remainingConcerns": [
+        "The threshold examples are philosophical tests supplied by the curator, not a historical survey of religious commands."
+      ]
+    },
+    {
+      "title": "Ethical Edge Case #1",
+      "pagePath": "/ethics/ethical-edge-case-1/",
+      "source": "http://byteseismic.com/2024/11/01/ethical-edge-case-1/",
+      "wordpressId": 14680,
+      "decisions": [
+        "1: Restored exact scenario and image; separated inherent rights from grants, physical capacity from declared rights, and institutional proposals from guarantees.",
+        "2: Corrected blanket no-theory-justifies-killing claims, communitarian relativism, capitalist-label inference, unsupported historical analogies and legal universality.",
+        "3: Honored exclusion of rescue and new resources. Made partial survival an explicit additional premise; corrected 400/100 comparison, intention versus foresight, triage analogy, unanimity claim, and action wrongness versus individual culpability.",
+        "4: Repaired essay’s retreat to initial easy case: compassionate non-realist now directly addresses final constraint and states practical commitments without pretending non-realism uniquely determines them.",
+        "5: Retained all thirty quizzes/disclosures with corrected consequentialist, contract and double-effect answers.",
+        "6: Preserved all forty-five discussions and guidelines, qualifying unanimity and hope within the final stipulation."
+      ],
+      "verification": {
+        "pagePath": "/ethics/ethical-edge-case-1/",
+        "sourceSha256": "c14ccdb3685214cb400f2cc0dcf02cbc1d02e3dbb72061d6b92e1f994c66ceaf",
+        "originalPrompts": 5,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 6,
+        "sourceColumns": 16,
+        "modelResponses": 16,
+        "blocksRetainedVerbatim": 362,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 89,
+        "bareAnswersExplicitlyRevised": 11,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "three ten-answer quizzes": [
+            10,
+            10,
+            10
+          ]
+        },
+        "sha256": "6c8c440a15199ee6021e4d0fb5e8a040c01f5254ca33a421d200e15657c8be3d",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "Ethical Edge Case #1",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "scenario",
+          "illustration",
+          "no-rescue stipulation",
+          "non-realist conclusion",
+          "quiz answer"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 514,
+          "ranges": [
+            [
+              1,
+              514
+            ]
+          ],
+          "indexFile": "quality/original-source-revisions/ethical-edge-case-1-reading-index-2026-11-27.txt",
+          "complete": true,
+          "additionalFramingRead": "Read all original source blocks, additional h5 headings, thirty disclosure answers, forty-five discussion questions and six discussion guidelines; visually inspected scenario illustration. Complete current page read."
+        },
+        "currentReadingCoverage": {
+          "lines": 494,
+          "ranges": [
+            [
+              1,
+              494
+            ]
+          ],
+          "snapshot": "quality/original-source-revisions/ethical-edge-case-1-current-before-2026-11-27.html"
+        },
+        "isolatedBuildVerified": true,
+        "metadataCorrection": "Shortened search description to160 characters or fewer after isolated site audit.",
+        "verifiedAt": "2026-11-27T10:31:40.935939-05:00"
+      },
+      "researchSources": [
+        "https://www.un.org/en/about-us/universal-declaration-of-human-rights",
+        "https://www.gutenberg.org/files/11224/11224-h/11224-h.htm",
+        "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-ethics-resource-allocation-and-priority-setting"
+      ],
+      "remainingConcerns": [
+        "The scenario is philosophical; the partial-survival outcome is an explicit assumption, not a resource calculation or real-world policy recommendation."
+      ]
+    },
+    {
+      "title": "No Morality = Chaos?",
+      "pagePath": "/ethics/no-morality-chaos/",
+      "source": "http://byteseismic.com/2024/05/03/no-morality-chaos/",
+      "wordpressId": 7868,
+      "decisions": [
+        "1: Steel-manned normative-reasons challenge, separated it from empirical motivation claim; corrected crude group-benefit evolution and selfish-motive inference.",
+        "2: Made superiority conditional on stated standard; neither rejecting morality nor endorsing a code determines sincerity or consistency.",
+        "3: Corrected Great Law example using Oneida source; qualified guild/empire/city claims and distinguished pluralism from absence of norms.",
+        "4: Corrected Japan premise with affiliation-versus-practice research and explicit MEXT moral education; removed unsupported crime rankings, looting rate, causal national-character and demographic claims.",
+        "5: Preserved both seven-item quizzes/keys; repaired missing-choice question and evolutionary answer.",
+        "6: Preserved thirty discussions, replacing false dichotomies and unsupported Japan premise."
+      ],
+      "verification": {
+        "pagePath": "/ethics/no-morality-chaos/",
+        "sourceSha256": "1488a387df5f9652ba48e50031645ebe70fec5f407b9e91f4e1dd86634d75ae2",
+        "originalPrompts": 6,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 6,
+        "sourceColumns": 12,
+        "modelResponses": 12,
+        "blocksRetainedVerbatim": 90,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 61,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "two seven-question quizzes and keys": [
+            7,
+            7,
+            7,
+            7
+          ],
+          "two fifteen-question discussions": [
+            15,
+            15
+          ]
+        },
+        "sha256": "6026c62bff355f3d6029d3ca825cfce1ff29c34772c77461ebc7bffde39ae3c9",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "No Morality = Chaos?",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "opening question",
+          "Japan response",
+          "quiz key",
+          "discussion"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 157,
+          "ranges": [
+            [
+              1,
+              157
+            ]
+          ],
+          "indexFile": "quality/original-source-revisions/no-morality-chaos-reading-index-2026-11-27.txt",
+          "complete": true,
+          "additionalFramingRead": "Read complete source/current pages including two seven-item quizzes, answer keys and thirty discussion questions."
+        },
+        "currentReadingCoverage": {
+          "lines": 381,
+          "ranges": [
+            [
+              1,
+              381
+            ]
+          ],
+          "snapshot": "quality/original-source-revisions/no-morality-chaos-current-before-2026-11-27.html"
+        },
+        "isolatedBuildVerified": true,
+        "metadataCorrection": "Shortened search description to160 characters or fewer after isolated site audit.",
+        "verifiedAt": "2026-11-27T10:31:40.935939-05:00"
+      },
+      "researchSources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2438392/",
+        "https://oneida-nsn.gov/our-ways/great-law-of-peace/",
+        "https://www.pewresearch.org/religion/2024/06/17/religion-and-spirituality-in-east-asian-societies/",
+        "https://www.mext.go.jp/en/unesco/title04/detail04/sdetail04/1375712.htm"
+      ],
+      "remainingConcerns": [
+        "No comparative causal study of national cohesion is claimed; examples are qualified accordingly."
+      ]
+    },
+    {
+      "title": "Trolley Problems",
+      "pagePath": "/ethics/trolley-problems/",
+      "source": "http://byteseismic.com/2024/07/30/trolley-problems/",
+      "wordpressId": 13086,
+      "decisions": [
+        "1: Distinguished judgments from objective truth and contextual differences from bias; cited psychological evidence with sampling limits.",
+        "2: Removed inference from disagreement/emotional processing to nonexistence of moral facts; preserved skeptical challenge.",
+        "3: Qualified bias-free AI, formal checking, novelty and categorical experience claims; separated descriptions from normative premises.",
+        "4: Restored all three calculation tracks and original images/code. Explained loss assumptions and tie default, replaced undefined high multiplication with explicit unit-scale assumptions, exposed zero-distance/negative-score and ambiguous-age defects without presenting model as valid ethics.",
+        "5: Preserved30 quizzes/answers; corrected models’ classification and unsupported objectivity/AI claims. Age and action modifiers correctly belong to restored third track.",
+        "6: Preserved45 discussions; corrected switching-as-passive error and age model interpretation."
+      ],
+      "verification": {
+        "pagePath": "/ethics/trolley-problems/",
+        "sourceSha256": "b4da1dec468bc61c76ae721a085df7732d211990cbf77a4361df502970d808fb",
+        "originalPrompts": 5,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 6,
+        "sourceColumns": 18,
+        "modelResponses": 18,
+        "blocksRetainedVerbatim": 235,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 51,
+        "bareAnswersExplicitlyRevised": 12,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": false,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [
+          "4.3"
+        ],
+        "formatChecks": {
+          "three ten-answer quizzes": [
+            10,
+            10,
+            10
+          ],
+          "three fifteen-question discussions": [
+            15,
+            15
+          ],
+          "Claude fifteen discussion paragraphs": [
+            15
+          ]
+        },
+        "sha256": "d7a6862c27a8bc5a0c0da424ca73748c4c335119bd6ac8369d3980603cc5f71f",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "Trolley Problems",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "scenario image",
+          "formula image",
+          "second model",
+          "third code",
+          "quiz answer"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 403,
+          "ranges": [
+            [
+              1,
+              403
+            ]
+          ],
+          "indexFile": "quality/original-source-revisions/trolley-problems-reading-index-2026-11-27.txt",
+          "complete": true,
+          "additionalFramingRead": "Read full six-section source/current pages, including two computational tracks initially missed because stored in separate sibling groups, both code examples, all30 answers and45 discussions. Visually read all four calculation images and scenario image. Executed original code and checked main outputs, matched-distance and zero-distance behavior, expected-loss tie, numeric weighted-score completion."
+        },
+        "currentReadingCoverage": {
+          "lines": 482,
+          "ranges": [
+            [
+              1,
+              482
+            ]
+          ],
+          "snapshot": "quality/original-source-revisions/trolley-problems-current-before-2026-11-27.html"
+        },
+        "isolatedBuildVerified": true,
+        "metadataCorrection": "Shortened search description to160 characters or fewer after isolated site audit.",
+        "verifiedAt": "2026-11-27T10:31:40.935939-05:00"
+      },
+      "researchSources": [
+        "https://pubmed.ncbi.nlm.nih.gov/11557895/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7007553/",
+        "https://www.nist.gov/itl/ai-risk-management-framework/ai-risk-management-framework-faqs"
+      ],
+      "remainingConcerns": [
+        "Original toy programs retained as inspectable historical examples; mathematical checks do not validate their moral assumptions."
+      ]
+    },
+    {
+      "title": "Value &amp; Morality in Diversity?",
+      "pagePath": "/ethics/value-morality-in-diversity/",
+      "source": "http://byteseismic.com/2024/04/26/value-morality-in-diversity/",
+      "wordpressId": 7277,
+      "decisions": [
+        "1: Distinguished intrinsic, instrumental and relational values; biodiversity includes genetic/ecosystem variation, not only species count. CBD recognition is a commitment, not philosophical proof.",
+        "2: Repaired pro-conservation deductions with explicit avoidability, necessity and overriding-duty conditions; extinction not equated with sentient suffering.",
+        "3: Repaired opposing deductions without asserting species redundancy is waste or fewer species reduce suffering; distinguished efficiency/profit from welfare and local policy from entire biosphere.",
+        "4: Preserved emotivist challenge while separating expressing attitudes from reporting feelings, relativism, evolutionary origins and disagreement.",
+        "5: Corrected intrinsic-value answer, ambiguous flourishing choices and invalid syllogism in answer key; retained both7-item quizzes.",
+        "6: Preserved30 discussion questions with qualified intrinsic-value premise."
+      ],
+      "verification": {
+        "pagePath": "/ethics/value-morality-in-diversity/",
+        "sourceSha256": "83ae55670f4df383e2b2c7ce5ec10491594e2e2937623f54e9fc34b2d7df4fa3",
+        "originalPrompts": 6,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 6,
+        "sourceColumns": 12,
+        "modelResponses": 12,
+        "blocksRetainedVerbatim": 118,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 67,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "Gemini seven-question quiz and key": [
+            7,
+            7
+          ],
+          "ChatGPT seven sets of four options": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ],
+          "two fifteen-question discussions": [
+            15,
+            15
+          ]
+        },
+        "sha256": "b56bb990e3a0b8988fb66183e9807bd985f8917f0c3b88119ac6d2d1b9350661",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "Value &amp; Morality in Diversity?",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "first prompt",
+          "opposing premise",
+          "quiz key",
+          "discussion"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 191,
+          "ranges": [
+            [
+              1,
+              191
+            ]
+          ],
+          "indexFile": "quality/original-source-revisions/value-morality-in-diversity-reading-index-2026-11-27.txt",
+          "complete": true,
+          "additionalFramingRead": "Read all original/current material, both opposing sets of syllogisms, all quiz options and keys, thirty discussions. Checked every revised deduction for explicit evaluative bridge and matching scope."
+        },
+        "currentReadingCoverage": {
+          "lines": 419,
+          "ranges": [
+            [
+              1,
+              419
+            ]
+          ],
+          "snapshot": "quality/original-source-revisions/value-morality-in-diversity-current-before-2026-11-27.html"
+        },
+        "isolatedBuildVerified": true,
+        "metadataCorrection": "Shortened search description to160 characters or fewer after isolated site audit.",
+        "verifiedAt": "2026-11-27T10:31:40.935939-05:00"
+      },
+      "researchSources": [
+        "https://www.cbd.int/convention/articles?a=cbd-00",
+        "https://www.cbd.int/convention/articles?a=cbd-02"
+      ],
+      "remainingConcerns": [
+        "Conditional ecological premises remain assumptions requiring case-specific evidence; none is presented as an established general result."
+      ]
+    },
+    {
+      "title": "Are Humans More Egoistic or Altruistic?",
+      "pagePath": "/humanistic-philosophies/are-humans-more-egoistic-or-altruistic/",
+      "source": "http://byteseismic.com/2024/03/12/are-humans-more-egoistic-or-altruistic/",
+      "wordpressId": 3125,
+      "decisions": [
+        "1: Distinguished rejecting permanent moral buckets from establishing a continuum, normality or a single dimension; moral realism does not require two kinds of person.",
+        "2: Removed unsupported bell-curve and power-law claims, corrected definition of skewness; cited cohort-specific conviction concentration without treating convictions as motives or a distributional fit.",
+        "3: Added person-level repeated measurement, separate motives/acts, model comparison and uncertainty; experimental giving and tax compliance do not uniquely reveal motivation.",
+        "4: Within-person change challenges fixed labels but establishes neither population normality nor absence of categories.",
+        "5: Restored both10-question quizzes/keys and repaired duration, support necessity, distribution and concentration answers.",
+        "6: Retained thirty substantive discussion questions; separated descriptive variation from relativism."
+      ],
+      "verification": {
+        "pagePath": "/humanistic-philosophies/are-humans-more-egoistic-or-altruistic/",
+        "sourceSha256": "88c3d176d4f0def449598b8f4d22c05eb44821b22e840bed439cf6878dc5a6a8",
+        "originalPrompts": 6,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 6,
+        "sourceColumns": 12,
+        "modelResponses": 12,
+        "blocksRetainedVerbatim": 149,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 51,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "two ten-question quizzes and answer keys": [
+            10,
+            10,
+            10,
+            10
+          ],
+          "two fifteen-question discussions": [
+            15,
+            15
+          ]
+        },
+        "sha256": "c800e20049be072874250e0bb3c0bef498efd7f5a2c9970171d931252b65a21a",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "Are Humans More Egoistic or Altruistic?",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "statistical correction",
+          "answer key",
+          "last discussion"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 206,
+          "ranges": [
+            [
+              1,
+              206
+            ]
+          ],
+          "indexFile": "quality/original-source-revisions/are-humans-more-egoistic-or-altruistic-reading-index-2026-11-27.txt",
+          "complete": true,
+          "additionalFramingRead": "Read all206 source-index lines and356 current lines; inspected all6 headings, sibling groups, source start/end and four branding/footer images; no missing substantive image or extra response group."
+        },
+        "currentReadingCoverage": {
+          "lines": 356,
+          "ranges": [
+            [
+              1,
+              356
+            ]
+          ],
+          "snapshot": "quality/original-source-revisions/are-humans-more-egoistic-or-altruistic-current-before-2026-11-27.html"
+        },
+        "isolatedBuildVerified": true,
+        "metadataCorrection": "Shortened search description to160 characters or fewer after isolated site audit.",
+        "verifiedAt": "2026-11-27T10:31:40.935939-05:00"
+      },
+      "researchSources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3969807/",
+        "https://www.sciencedirect.com/science/article/pii/S0749597805001330"
+      ],
+      "remainingConcerns": [
+        "No original dataset establishes a universal distribution of egoism/altruism; the revised page explicitly leaves that empirical question open."
+      ]
+    },
+    {
+      "title": "Existentialism: Key Concepts",
+      "pagePath": "/humanistic-philosophies/existentialism-key-concepts/",
+      "source": "http://byteseismic.com/2024/05/25/existentialism-key-concepts/",
+      "wordpressId": 10077,
+      "decisions": [
+        "1: Restored16-row table, corrected13 definition/example pairs, distinguished thinker-specific despair/absurdity/otherness/look and thrownness from determinism.",
+        "2: Restored48 scenarios with targeted corrections: authenticity not required disclosure or unconventional career, constraints not bad faith, transcendence not guaranteed success.",
+        "3: Qualified religious/atheist contrast and unsupported popularity causation; preserved curator question.",
+        "4: Reworked technology essay around concrete choices, platform constraints, privacy and institutional responsibility without sweeping causal claims.",
+        "5: Restored10-question quiz/key and aligned answers to corrected definitions.",
+        "6: Retained15 discussions with explicit distinctions for despair and transcendence."
+      ],
+      "verification": {
+        "pagePath": "/humanistic-philosophies/existentialism-key-concepts/",
+        "sourceSha256": "6dc46d0a9afcfbd8b263c3043be9fc54a5f1d5fdc3a9ce79588b8bd40573cf3c",
+        "originalPrompts": 6,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 6,
+        "sourceColumns": 6,
+        "modelResponses": 6,
+        "blocksRetainedVerbatim": 126,
+        "tableCellsExplicitlyRevised": 26,
+        "blocksExplicitlyRevised": 54,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "sixteen concepts and header": [
+            17
+          ],
+          "sixteen sets of three scenarios": [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          "ten-question quiz and key": [
+            10,
+            10
+          ],
+          "fifteen discussions": [
+            15
+          ]
+        },
+        "sha256": "04a55f86cd6e22d0b999723f3e6a705940f69e625e63f61ab58426b2b8168ea9",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "Existentialism: Key Concepts",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "table row",
+          "late scenario",
+          "quiz key",
+          "last discussion"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 203,
+          "ranges": [
+            [
+              1,
+              203
+            ]
+          ],
+          "indexFile": "quality/original-source-revisions/existentialism-key-concepts-reading-index-2026-11-27.txt",
+          "complete": true,
+          "additionalFramingRead": "Read186 indexed prose lines plus all17 table rows/51 cells appended to index; all369 current lines; checked all6 headings and sibling groups, source highlights/contents and three branding images."
+        },
+        "currentReadingCoverage": {
+          "lines": 369,
+          "ranges": [
+            [
+              1,
+              369
+            ]
+          ],
+          "snapshot": "quality/original-source-revisions/existentialism-key-concepts-current-before-2026-11-27.html"
+        },
+        "isolatedBuildVerified": true,
+        "metadataCorrection": "Shortened search description to160 characters or fewer after isolated site audit.",
+        "verifiedAt": "2026-11-27T10:31:40.935939-05:00",
+        "browserReview": "Desktop Chrome complete accessibility tree inspected; table ending and opening scenario layout inspected by screenshot. No full-page or mobile visual review claimed."
+      },
+      "researchSources": [
+        "https://www.marxists.org/reference/archive/sartre/works/exist/sartre.htm",
+        "https://plato.stanford.edu/entries/existentialism/",
+        "https://plato.stanford.edu/entries/kierkegaard/",
+        "https://files.blogs.baruch.cuny.edu/wp-content/blogs.dir/2418/files/2013/04/Albert-Camus-The-Myth-of-Sisyphus.pdf"
+      ],
+      "remainingConcerns": [
+        "Scenarios are teaching illustrations, not diagnostic criteria or evidence of popularity."
+      ]
+    },
+    {
+      "title": "New Manifestations of Theism",
+      "pagePath": "/humanistic-philosophies/new-manifestations-of-theism/",
+      "source": "http://byteseismic.com/2024/04/26/new-manifestations-of-theism/",
+      "wordpressId": 7303,
+      "decisions": [
+        "1: Corrected Copernican chronology and solar-system scope, deism/metaphor distinction, premodern interpretation and personal devotion; added primary1996 evolution message.",
+        "2: Distinguished local closure, falling share, falling count, continuing successor practice and extinction; rejected deterministic adaptation/decline checklist.",
+        "3: Separated measures and ecological associations from individual beliefs, corrected education generalization with dated Pew evidence; public compliance not private belief.",
+        "4: Recast attendance effects as possible mechanisms with reverse causation; distinguished spirituality, deism, pantheism and continued private orthodoxy.",
+        "5: Restored both7-item quizzes and answer keys; corrected chronology and unsupported theology inference, removed absent multiple-choice instructions.",
+        "6: Preserved30 discussions while making religion/existentialism and causal questions more precise."
+      ],
+      "verification": {
+        "pagePath": "/humanistic-philosophies/new-manifestations-of-theism/",
+        "sourceSha256": "de1be0b82c4e3128eb94ef8f86dcbdb7cffb5d767c69c8ba4da1aaa8e7bc7031",
+        "originalPrompts": 6,
+        "curatorProsePrompts": 0,
+        "originalHeadings": 6,
+        "sourceColumns": 12,
+        "modelResponses": 12,
+        "blocksRetainedVerbatim": 91,
+        "tableCellsExplicitlyRevised": 0,
+        "blocksExplicitlyRevised": 65,
+        "bareAnswersExplicitlyRevised": 0,
+        "promptOrderExact": true,
+        "sourceBlockOrderExact": true,
+        "listAndTableStructuresPreserved": true,
+        "explicitListItemSplits": [],
+        "explicitResponseAppendices": [],
+        "formatChecks": {
+          "two seven-item quizzes and keys": [
+            7,
+            7,
+            7,
+            7
+          ],
+          "two fifteen-item discussions": [
+            15,
+            15
+          ]
+        },
+        "sha256": "1971ad3831d4fefdaf8aaed79c6f4d06ce2151e13eadc46c212174c42b853082",
+        "sourceCacheExact": true,
+        "sourceUrlMatched": true,
+        "sourceTitle": "New Manifestations of Theism",
+        "rendererReproduces": true,
+        "damagedVariantsRejected": [
+          "prompt",
+          "historical correction",
+          "quiz key",
+          "last discussion"
+        ],
+        "sourceReadingCoverage": {
+          "indexedLines": 162,
+          "ranges": [
+            [
+              1,
+              162
+            ]
+          ],
+          "indexFile": "quality/original-source-revisions/new-manifestations-of-theism-reading-index-2026-11-27.txt",
+          "complete": true,
+          "additionalFramingRead": "Read162 indexed source lines and431 current lines; checked all6 headings and sibling groups, opening highlights/contents and four branding images; no extra substantive response groups, tables or disclosures."
+        },
+        "currentReadingCoverage": {
+          "lines": 431,
+          "ranges": [
+            [
+              1,
+              431
+            ]
+          ],
+          "snapshot": "quality/original-source-revisions/new-manifestations-of-theism-current-before-2026-11-27.html"
+        },
+        "isolatedBuildVerified": true,
+        "metadataCorrection": "Shortened search description to160 characters or fewer after isolated site audit.",
+        "verifiedAt": "2026-11-27T10:31:40.935939-05:00"
+      },
+      "researchSources": [
+        "https://www.pas.va/en/magisterium/saint-john-paul-ii/1996-22-october.html",
+        "https://www.pewresearch.org/religion/2017/04/26/in-america-does-more-education-equal-less-religion/",
+        "https://www.pewresearch.org/religion/2025/02/26/decline-of-christianity-in-the-us-has-slowed-may-have-leveled-off/",
+        "https://www.pewresearch.org/religion/2025/05/06/religious-importance-and-religious-affiliation/",
+        "https://www.pewresearch.org/religion/2025/02/26/spiritual-and-religious-self-descriptions/",
+        "https://www.pewresearch.org/religion/2025/02/26/religious-switching/",
+        "https://www.pewresearch.org/religion/2025/05/06/believing-in-spirits-and-life-after-death-is-common-around-the-world/"
+      ],
+      "remainingConcerns": [
+        "Dated surveys illustrate defined populations and measures; no comprehensive world trend or validated extinction model is claimed."
+      ]
+    }
+  ],
+  "runTime": "2026-11-27T10:31:40.935939-05:00",
+  "progress": {
+    "completed": 269,
+    "total": 346,
+    "remaining": 77,
+    "completedBatchCursor": 250,
+    "currentBatchReviewed": 19,
+    "currentBatchRemaining": 31,
+    "nextPage": "/introduction/studying-philosophy-resources/"
+  },
+  "verificationSummary": {
+    "isolated": true,
+    "command": "BYTESEISMIC_BUILD_DATE=2026-11-27 python3 scripts/build_archive.py",
+    "log": "Dialectical preservation check passed for all 39 recovered pages, including 17 high-risk regression cases.\nSite audit: pages=840 broken_links=0 duplicate_ids=0 prompt_number_issues=0 orphans=0 oversized_assets=0 style_scars=0 grammar_scars=1 seo_issues=0 json_ld_issues=0 sitemap_issues=0 robots_issues=0\nGenerated or updated 723 content pages.\nVisible hierarchy sections: 15\nExpanded archive years: 2\n",
+    "exitCode": 0,
+    "finishedAt": "2026-11-27T10:31:40.935939-05:00",
+    "reviewedPageHashes": {
+      "/epistemology/induction-cold-reading/": "7f3777444226526af6c9db1546aab14ccdc69de1909fe7f1e16ae4efaa7a147f",
+      "/philosophers/bertrand-russell/": "a7167607f28600bb7b5f02209f386e601151ad8ae76975034ffacb4ec06f052d",
+      "/political-philosophy/critical-race-theory/": "899f878839c637765c782c2831e5137e20fc4db864450e92ae46c3549fa8d15b",
+      "/rational-thought/calculating-risks/": "ad96d75257185ad71c55b9792e5a3dde780c6323a13731c46bf20f46ea6e1a85",
+      "/philosophy-of-science/research-design/": "cb0c2c61f9eb70b7c204ca1c3d79a9e88ad159e8970c1c66292e433b85cb8464",
+      "/political-philosophy/political-philosophy-core-concepts/": "efdf6a78968237e77345954d32380db8902df510bb40e63b3d1eedb0561e9664",
+      "/epistemology/what-is-evidence/": "3d36ebd2905a683a3cb158ec3bf79970efc5329302e742293f87724017fb2c4b",
+      "/philosophers/daniel-dennett/": "ef4613dbae4d5b7807a43ebb3dae14b027f2179515a4e06f7cd5edea18e8aa0a",
+      "/epistemology/the-burden-of-proof/": "76f9890802a32f25713e14fcf83dfcfa69a958dbe407c535a2329af7001cb50f",
+      "/economics/economic-stability/": "3cd58a1aab849afdb46c1829a74c83462e77e7d33fbe57a1b126d687674b6977",
+      "/economics/a-living-wage/": "3c6987f664f474ecbd08f8b865ebb57139f0bf3939df170b840b64eb297d0340",
+      "/philosophers/cicero/": "183b497fb506aa8ccc2a5159664b0a9bf07e34f012968f631b0baba1a7586e56",
+      "/humanistic-philosophies/existentialism-key-concepts/": "04a55f86cd6e22d0b999723f3e6a705940f69e625e63f61ab58426b2b8168ea9",
+      "/epistemology/extraordinary-claims/": "d07d191795c4ca9ddd1838abe632ad9accb237db4d4922d8870cba37d1632ec1",
+      "/philosophical-inquiry/common-sense-blunders/": "7027fed961055f6d128861e85c98c1cc0bff1f5f9eef216cc441a18b8d0ff78e",
+      "/epistemology/abduction-utility-and-issues/": "2fdfb24fd721448a360a6598b79c166898f2c6565426c4dddc79c8ee78c22044",
+      "/philosophical-inquiry/do-i-need-a-worldview/": "5f96d3d576dd829adf42e3540ca59bb7fc6a456e37e70cef2cbc9922540c6e43",
+      "/epistemology/decision-making/": "8b71d3640a856f46d83ca8b87e41ab933a9f5e79939b3c28aa4aa4b630737a12",
+      "/philosophers/john-locke/": "f929c4b7bb87ceb73a7e4ca5f3f3adc55aa00b925c4c03a0f380fc6d3da5cc9b",
+      "/philosophers/arthur-schopenhauer/": "3a5fc239169a38b09f537ae928809f8dbe11f81ec797d745386968f25dbfbf1f",
+      "/epistemology/the-abuse-of-self-evident/": "9271f0595cf7353a43fb5a900156618f47c99a8173043e54e808063cee3661c2",
+      "/philosophers/plotinus/": "124e3c02683f7725255a7422a825dc06e3fa64c6dcfe829a724af4ae1e160c26",
+      "/economics/wealth-creation/": "082fe278b8ded568f91ddfb36625e5583244b37e3146b48fab121534f098126f",
+      "/philosophers/john-dewey/": "9f0e64be3fd39c689c4236f5c0cf4c1ba13fc41c74b21a55617adfc5e278bfef",
+      "/philosophers/averroes/": "a9a1e7d6262f8b8e8f6cda495177cdad81843ae7d1cc1de76b41669941a2474e",
+      "/ethics/value-morality-in-diversity/": "b56bb990e3a0b8988fb66183e9807bd985f8917f0c3b88119ac6d2d1b9350661",
+      "/economics/economic-optimism/": "2fc81cfd8d5cf6e723ef8bb059474cc0d172aece5c9720e5db9d4956ca6c83ce",
+      "/philosophers/g-e-moore/": "685a98b3159bb88fec6a09980b7aacce4f3e57024e7df99d961bc49dbb7d0812",
+      "/philosophical-inquiry/dangers-the-notion-of-fate/": "21b87a3d15380434ccfda7ee63cb91db36243e9b119ffce4af7edb3f78f6e9b7",
+      "/philosophy-of-mind/functionalism-subjectivity/": "943946040dd1449250fd60cddc4c233348d04fc5d3270ada2a97e41beae6a8e3",
+      "/epistemology/core-deep-rationality/": "20b67ea91f29b9fa45ddb220b9067796accb24b284cc2e4cf81d7cb128d84b6c",
+      "/humanistic-philosophies/christian-apologetics/": "381ef597a27b391272d551a79aa648d540ccc50a849adf1ec6f28c48c388e239",
+      "/epistemology/reasoned-probabilities-and-decisions/": "51067e0ade695366a6d088c32c274bf24dd798e13568e3ffdcafebb299fc4813",
+      "/philosophers/saul-kripke/": "d3ecc9840df64ac43ddb0e4d8edf3a10fbb776ff1e523087710c217c6ec936ed",
+      "/ethics/ethics-core-concepts/": "9fecde372765e987dc41892437532fc0e88932edd0f49429966983405bd2ffda",
+      "/philosophical-inquiry/packaged-vs-eclectic-ideologies/": "433d3a8fcee6eb9a8c5d42771e908ae9e84974c5a2d389de0d8fe5c831b6e182",
+      "/philosophy-of-science/scientism-faith/": "91580262b87cc9d2d2a4e82eb2b3a3a63aeb5748270c0307db6f74cac620dff4",
+      "/philosophical-inquiry/dangers-ideologies-of-emotion/": "a284f271f949cd7e0304c2cf93871a7b7d776ea92f9d23ab91269f578e357134",
+      "/epistemology/what-is-bayes-theorem/": "3b9f1cbbc72e9baaec027c8175877012aa71b3f38f23341ec7e068cc3096b33a",
+      "/philosophers/gottfried-wilhelm-leibniz/": "03b0e193fb0232dcf22ec7c7d842524009fb0483d70dd3a167df918df4543c19",
+      "/philosophers/john-stuart-mill/": "22da78f40b030b0ee75bbbcc2deab3ef76dd51d403dfea774d22689b978496b8",
+      "/philosophers/pragmatists/": "af1693ade374b98a07af3743416724b47f7853643b8d1968340512ce96cc027c",
+      "/philosophy-of-mind/where-are-our-thoughts/": "de7823b8277c1d7b4ed78ecd8553b0460e481cc2e0dbfbcc989e4715a3481303",
+      "/philosophers/philosophers-or-philosophy/": "ef6d5726160497b46bf67973cd8031112f439bb9578cfcb958139372d5f43587",
+      "/philosophy-of-mind/manufacturer-or-method/": "d63a1004766d6642c8bb61ec4bcc07d9c49f57e648a7663dcc16bb7ac4a88841",
+      "/economics/business-risks/": "69b5cc86051c44961d3f65e431ec081619164047b49dafd8de9355fa84073b53",
+      "/philosophers/rationalists/": "1b739db04d2e5e257355429d633645e15b972f60dad0037c50d7bd995885ee9b",
+      "/philosophy-of-language/what-is-etymology/": "15a734efe35a9ad3260cf639748ec40fe7ccb71fc6196bf3a9d5e11192996d0e",
+      "/epistemology/predictive-power/": "eafd76fa8d9823db8f65a15214ad88b178e017e7bd1de45e290934d1433adf1e",
+      "/ethics/coherent-moral-systems/": "0687e7bb5530370d10fd1ef09903c8a1622c2f62684ef7acf642211a3eb6969a",
+      "/philosophers/augustine-of-hippo/": "1fb382bd171db24262cde89d668f09e0fcfdfce01c3292169f8afeecf3a73747",
+      "/philosophers/jurgen-habermas/": "0edc9df47c5276814cc38df9230f49a7e420e8f5fb75cf438963c3f82c71a46c",
+      "/philosophers/william-of-ockham/": "93a35d28d0630be7148d89ac48537ca3cc7cc9016b849a0d89789a8eeb74015a",
+      "/epistemology/avoiding-single-cause-dogmatism/": "020d5d18488cf43a24f48a1beee0931ae2a47d81f668e646d6ee53e33f957612",
+      "/rational-thought/regret-assessment/": "df21593f0a80493e3deaf1025046b8fecae4c14fc3e7187fc8f1c5120a6dee9f",
+      "/miscellany/covid-19-science/": "20aa4a6980e53e94f62f454e5fc1843cd52c4c8e9d205c16a7dc8f04fb24ccfb",
+      "/philosophical-inquiry/seeker-scenarios/": "8da87f24a45ff95154e6256820b0ec923383f192a8bbab6b6920251c799339f5",
+      "/philosophy-of-science/methodological-naturalism/": "480b9ad4e212bd999ff4dfdf28ce9bc463c308af2d47ab30f7b6af92a008c18c",
+      "/rational-thought/what-is-rational-thought/": "0a4c4ba4040fcc55cd7521089b3e6d39fe1007e36f1db550491b9c9000c35538",
+      "/philosophers/karl-marx/": "3c3ae1ebea6573e0c610c62bb86dd2389913b06f28e9a4c03eba0950590ae4e9",
+      "/humanistic-philosophies/new-manifestations-of-theism/": "1971ad3831d4fefdaf8aaed79c6f4d06ce2151e13eadc46c212174c42b853082",
+      "/epistemology/case-4-recursive-credences/": "8735bb657c4f169971becf3ea28e188bdc84a2e74f7d9014bc32b151914d45bb",
+      "/ethics/trolley-problems/": "d7a6862c27a8bc5a0c0da424ca73748c4c335119bd6ac8369d3980603cc5f71f",
+      "/epistemology/hypostatic-illogic/": "61a23d0f08f314feb87129d22f7ca28938deb7f28dc3461fb67e2aa64efbf81b",
+      "/philosophers/duns-scotus/": "cb08245839a6e4eb8d999a21a848faa3e28d32b04e5c92201ccda7f051cef20a",
+      "/rational-thought/training-data-bias/": "fd8e36e2bdf503bc504a7ac4844f7e9cb0d51a93fa8d283b634d93b53793f771",
+      "/philosophical-inquiry/conspiracies-misunderstanding-human-nature/": "913dc3315422f059dc2bdb5e47723b21a7ed5478676bad427b08c5b2b6f67cb5",
+      "/introduction/careers-in-philosophy/": "8673cfc40ae68ad696454205ae425213fef2e6856c843161cae643c3c3929fe6",
+      "/rational-thought/ai-logic-intelligence/": "323cb5d4b62edd42ef76bd825919c7a87db9b841ac34bf7d4d4af47a79a328d0",
+      "/epistemology/deduction-utility-and-issues/": "fd70b66a00ef597ff57b8d86657a0540423a39e522e7415124f9c6e8ea474139",
+      "/philosophers/scholastics/": "7f59e00667e426795c5fbc4272f9fa6416bb76330932a6f0a5feb20f5e219d86",
+      "/philosophical-inquiry/dangers-unnuanced-conclusions/": "5c4c0b6403ec4865601889bcc89e4587fe21337195980321ab667ff2d9db8c1d",
+      "/ethics/fictional-meta-ethics-debate/": "3cb63c1fb15a0b4194c89927e86fd925b2e24093febbac1bd339115d9cf93a8a",
+      "/philosophy-of-science/asymmetric-counterfactuals/": "89626b247ff982f7fce004b240fa62ee6b4184154c29aa7b0e9fe18f649dc327",
+      "/political-philosophy/political-philosophy-basics/": "1bbb8f248739b9aee8419f68f209acc9a875fba6688494f649ab8888941aa620",
+      "/introduction/philosophy-higher-education/": "5dda056450cab9a7d9fb50f4dd04da2f3d08ae5ca8928ca8cf0f32a49320304a",
+      "/epistemology/establishing-cognitive-reliability-1/": "bd71e800dae5b3d051013b4ceba287914375bd04661dff38f4004b6ce7fe399f",
+      "/philosophy-of-ai/human-reaction-to-ai/": "7293a9e10c814d87969367646e1a5623c4ca6be0eead5838b2c16d3c1c99b8a4",
+      "/philosophical-inquiry/dangers-half-searches/": "6fd40af06e6256d42ffdcf79b23d9cbad6b88d920427e42174fce359086059f2",
+      "/philosophers/plato-2/": "2b9ecde1724f0c905b3c1938551fd9370105f240f69cf2bbeac311873998ff78",
+      "/philosophers/friedrich-nietzsche/": "11984b03a0049fb51ce6fa7c951ff753ac4c6838d30016436985fe3790b584ba",
+      "/philosophers/al-ghazali/": "ad41d27850d30efe6259708b5362cbc7cb7397e92a2d95d786b47a45bbd3d47c",
+      "/philosophy-of-science/observable-regularity/": "78af6f6b696bf44c4b93ea6e647e89486ae2efefe5723988ade9183d39460519",
+      "/philosophical-inquiry/the-danger-of-resulting/": "9d70a64b1b56c34c76532e45add2beda0708ed00f3964efd01fc66b6be45cb31",
+      "/epistemology/mapping-belief-to-evidence/": "141bd6eb8e0f0d9374411c34946209b9e0970fd8e611e0a93bdfb8f20b2d4d51",
+      "/philosophers/jean-jacques-rousseau/": "bee6fed5edb26a7cb377b1ee2952b6f2188343227660691cd6f1a5d26cd808cd",
+      "/rational-thought/perverse-incentives/": "30807611b86c871a2217a878e9d4a2e128c7101fb8e3daf897eba0f6630a744c",
+      "/philosophers/shankara/": "5422be1e5e78512e9ef8622369278bc95aa5ae29d458c53bb5cd9a87c7c26ac7",
+      "/philosophical-inquiry/selective-pressures-on-ideologies/": "a4c15f815ffd226344a5d2287ffb579c586135e2215423d1b766380ead012427",
+      "/introduction/womens-interest-in-philosophy/": "b260b32d39567581f7e947999433ee7d05336d840099a8529d5214343bbd98fe",
+      "/philosophers/jacques-derrida/": "de32e48e45e1932924d91baf08bcb8830f96902bad29d6145f0cde09e82f15d1",
+      "/philosophers/seneca/": "5390040b1e993fb801c9e69f4f0da4a118a8767058f18d7368c2cb6e4415dcc8",
+      "/philosophy-of-science/elements-of-research-design/": "04b86efe592cdb6e24311dd46a79e2cf365480967ae92746fc5848a33a88e28a",
+      "/philosophers/empiricists/": "304cfb69874c270844c162ab1db83d589577460a50fc5557c11927d5e1388a25",
+      "/philosophers/avicenna/": "3f6b24ec1a2abad4a2ca55f27408bec9427cf2495c5229a50f82fe47fdd267fa",
+      "/epistemology/epistemology-core-concepts/": "13433ce14306bbcd060bf3b3cb8a88d27414a6196fc08e3431dc60411998b2df",
+      "/epistemology/belief-evidence-graphic/": "56965785bafecea466a90698ec81a3145804806bd0ab791f632e5f13592eaa6a",
+      "/epistemology/what-are-syllogisms/": "6ef57d8a9798c13e6dcead5cdd81f9f5e582b16e3bba7bfb927f10c96af088f3",
+      "/epistemology/what-is-doubt/": "7ecd133789f7df4120ae82f8559c9c1b49853551734e27488f0d0684bfb0f340",
+      "/rational-thought/what-is-futurism/": "9e240e0472795d35b9ccd380112265bf92d3119639d1efd7edcb596f43f2125a",
+      "/philosophy-of-science/the-power-of-thought-experiments/": "6e23b6f96552c5e5930ea93c78f5aa9b1ddb8a9dd61abccc767db3708947680c",
+      "/epistemology/rationality-discussion/": "a49f522e8fecec4a8868f4d608bf4801348822070b7d0e99283de20d0f4dd7e4",
+      "/philosophers/continental-philosophers/": "96db798388bb7c44f4d386f14ed5a6921d669c6cebc0175fe2d63ef6f3cc9860",
+      "/philosophers/maimonides/": "375552110c20dfa82de2352c74e1757396250fd02b67ca9d64d898afdfa98ef3",
+      "/philosophers/maurice-merleau-ponty/": "94d91b77f7a76ea74edb36ec93e528528e881cbaccc578280dc7f7ab8ee942c8",
+      "/philosophy-of-mind/subjective-objective-free-will/": "37dba677299e6d02aa28efebdd8cf0e02ddf8320f1b28d1e48edcb2c867d583a",
+      "/humanistic-philosophies/accounting-for-x/": "f6fff754bc032bd0ad7b6402d9544dbfe723ad6e35d8675ec6184fd26fad31d7",
+      "/rational-thought/do-rationalists-skew-neurodivergent/": "ee2b32bc580d988ac12a03d747b3e591db1ca7ae56442bd3f88422dddf7c6c4a",
+      "/ethics/ethical-edge-case-1/": "6c8c440a15199ee6021e4d0fb5e8a040c01f5254ca33a421d200e15657c8be3d",
+      "/epistemology/vicious-virtuous-circularity/": "4ff21810c502e68d7d729c55ebafc6eedbb3f8391fdf7f8349e34e48d92918f5",
+      "/philosophy-of-mind/what-is-consciousness/": "82cca6b9dd3b871625aea753b73a7012b173185097a5a5f95a8726de50ac49be",
+      "/philosophers/phenomenologists/": "77d73c916896fdba5e6ea7263820a70162e880efff16ee28a27d56464a3106fb",
+      "/philosophers/theodor-adorno/": "864c649252d7816cc39ab18ff7be5bacc695869e383e862e2f46224d3f243fec",
+      "/economics/what-is-economics/": "3c46aa288d9704e3c6175b5cadc272b4d8d5233f7b059ab1ce6afc1f8485f417",
+      "/economics/innovation-attractors/": "0b9259ce49b9404cf4d73ecb80717d881f2b3fd038f218e97a95fd093e7abb63",
+      "/ethics/assuming-objective-evil/": "2dbd500d5792904c508704197cd0effd6c46950ef5181e2be10c2021524c222b",
+      "/philosophers/charles-sanders-peirce/": "86ed145d421f1589035c5bd7708e41e446d6d5623ed4fd0d7b95a446391d4ac7",
+      "/philosophers/critical-theorists/": "e1b78a513207e3e79b87297620a07a0c1f3df794954c93f106751373957f5e73",
+      "/ethics/what-are-ethics/": "74ae56e8611547c75b07eda957d147ba4688b916342d41c923e84abb61ed4250",
+      "/philosophers/analytic-philosophers/": "914016b7bc0cf54bd44b93e05ad8aafb1978aec185f01bd3e216278736ce211b",
+      "/philosophers/heraclitus/": "2350448902c1fd7467951e834e1570a9366ab49daac26ac19b14f090f035cc54",
+      "/philosophers/theodor-w-adorno/": "63db6870990b8bc79f4c0cfe938fea6e1d8893dd7dce2bee199b2945cca8e4be",
+      "/philosophy-of-science/p-value-issues/": "02f85581c46683324316e50727c71a179793de54f5da97c2dca835a7febdf717",
+      "/epistemology/cromwells-rule/": "183f4d8c9e5d1546b5f6b5087e476e951d0f575f15089e82ba688f183b139365",
+      "/philosophers/anselm-of-canterbury/": "3a2b4fb4ddb2f461a5499c869d194df4b78dcf95a5605adeff9dfb64caa7e825",
+      "/rational-thought/depth-or-width-of-knowledge/": "f1d239c13bf434e11f7416abb5ec7a9f5bedb5b6fffa530d1be79cf37980ddc1",
+      "/philosophers/dogen/": "ae09eb3cbf0dd58572155b16b871f4fc2ac8ab1225909f45a6134a9d7c7655ae",
+      "/ethics/intrinsic-human-value/": "0d1529a4273be2f2ceb6e877fb27993944b57151c52fd87ffbb7a6cb9c2fb8f6",
+      "/epistemology/black-boxes-epistemology/": "68f8ad9c7009bbd6823baf8b3cf57085b60d9c2fbdac736425c118ef8f360a44",
+      "/philosophy-of-language/the-linearity-of-language/": "e18a645dc98a93d6e23ffa62bb9539bc51b0cac44b58328acbeecad6091d1d7b",
+      "/philosophers/marcus-aurelius/": "e06b49c2ad4e7da3077e4b749f982186af570a84e449034083b3f7e57acabf88",
+      "/philosophers/epicurus/": "7764d58f2bc9c252c8a4ae1d865971f228a5d753fac8c3f0fb7a1698bad028eb",
+      "/rational-thought/the-professional-application-of-rationality/": "f2475161abcd0fcd9d273241c763bc912de7c8fb9c719dc8835cc1480f4ddbbf",
+      "/philosophers/philosophical-gradients/": "94a173c9fb071e5ca7e89af3000926412c05090751892f65c3e00a9502138f92",
+      "/philosophers/at-the-edge-of-miracles/": "81044b95dda86269c2d7aac0244db5f44047f23a50411f31730857b0f05b7c8e",
+      "/ethics/conditions-for-culpability/": "c107765c81f6db5b09622c628ea631ec1b2e72c31824f66b67a71b7c1d2465ba",
+      "/philosophy-of-science/the-power-of-convergence/": "dec7336049fb5ff028452d30740eb092ece49432597c5c82bc20cd933c01dee1",
+      "/philosophers/aquinas-five-ways/": "a6983034b34fe83a02d3b5e278f757419c5edc9fa26e850ff790711b2940b835",
+      "/philosophical-inquiry/how-minds-are-changed/": "f10dc0cd08c35f5103c3db8efbfe2f31157132a58b5323af9ea107e1f4dc4e3e",
+      "/philosophers/willard-van-orman-quine/": "fba4bff48dc6c329768894ba5c1b0d76fd900a72c8740044329df4645a356434",
+      "/philosophy-of-science/what-is-parsimony/": "4bd65db752b34bfb63fb47b9554b981fd8e3917666d20f25ac8b072689c2eadc",
+      "/philosophers/gottlob-frege/": "e75d332526aa75b25e4e1f03ded694416e14ae1bea00afebb8a4d806e15efb21",
+      "/philosophers/niccolo-machiavelli/": "ff96e52d4aa0e3e828193a42e916f2e863978b9b0070680faa471ea86bbf5271",
+      "/philosophical-inquiry/dangers-co-opted-wonders/": "f2f46cb9d933ce6c03a1fb89e4472e7599be2dba7dc4c9130e7e1f709d7317c9",
+      "/economics/what-are-moral-hazards/": "d0c89c0beb9a60111dc6e8f84db7f616a62f33fa73069e5d0309583b0ee2d657",
+      "/ethics/evidences-of-moral-facts/": "4f397d0aac8037195797ed634e14886205db391326f873151017813761972302",
+      "/epistemology/what-is-faith/": "09965272625095b7a0a7d4c1967625057978db7244b3ec8692999aebc2d193f0",
+      "/philosophy-of-science/improving-science/": "973cc3388a5ed278884654c74a0ee0defe266ce3d7c6ab31afb261dbb0bdba67",
+      "/philosophy-of-science/orthogonality/": "38f2bcfcf6afdc67497746000bbf82c9b6d66ad319690d69876d7d1a277d4d76",
+      "/philosophers/john-rawls/": "7d65272389ea402062e118de3d202a2a738efc1fd6f95077cd35f1a0a13f995b",
+      "/philosophical-inquiry/testing-ideologies/": "f4d15f8d1c9ad36c31b260cfbd97d2a2e9b0b6aa0e4bb275713c0171428e46bf",
+      "/epistemology/case-5-vanishing-probabilities/": "c1e81d117ea055f22641444d8c9868a682e4731f7b7ed52bd068e4cc8eecc2bd",
+      "/ethics/meta-ethics/": "d3c31a3b1baf01b4da8e1609ef4fdef8c8018bddc91bfd485ddfab7dc8f3e6c8",
+      "/philosophers/existentialists/": "489912bf15a50846df4e34ae05831815068352d64535b97d4d641d67f9449a28",
+      "/philosophers/philosopher-club-membership/": "22b51b24c8dc1f7b4a557caed68cd4840a004741eb2951960967e4e0c6595388",
+      "/metaphysics/dualismvsmaterialism/": "17f0c493586a98817de6a2e785cf6f7eb81f954675c38e360645d6ef3be793bc",
+      "/epistemology/collapsing-epistemological-terms/": "bd028d82dc490b29675e68308aa8f956db5fc5aa4117d16301401ec2688f8a8f",
+      "/humanistic-philosophies/unpalatable-religions/": "849b01970ff617ce0bbb4f6472fa356952f83ae1b27f1bb2014cdf2477784f2c",
+      "/ethics/no-morality-chaos/": "6026c62bff355f3d6029d3ca825cfce1ff29c34772c77461ebc7bffde39ae3c9",
+      "/metaphysics/jeremy-sherman-on-emergence/": "4ca8d1034ca7e09dffa62d5b449e25aa14417621bf636d86be2a734f220f79bf",
+      "/philosophy-of-science/is-logic-acquired-inductively/": "435c02e5b6c677e7201ebb46bde09b01f6b4344f8f63522b869b02f0b8e428d0",
+      "/philosophers/elizabeth-anscombe/": "12cae8656789b19cbfc2f07e8d1cce851c5b14298515ca3a3d4975506bfe39da",
+      "/philosophy-of-ai/feedback-loops/": "b2fe4d7c92bcd295a541d6a3bb667e7382b0b07d21eadbaf7fa93a49d40fe6cc",
+      "/humanistic-philosophies/personal-cosmic-meaning/": "479f77b3d0aaad3bc0c9953f37f80c86e879419862df9612668826d6a8067a93",
+      "/philosophers/david-hume/": "f032caa34a5e3058688f0cbd41d5d4883f5473c7f44b5c6c86f75d703a4aca81",
+      "/ethics/moral-black-boxes/": "3dfa7e01eda0de918a76a00593c43cd10da6a16795f9480f69ea88bc5a1e9fb7",
+      "/economics/schools-of-economic-thought/": "e0f9fa980e2456ea8e467b1babbfb1285658564eba00b77afad423f82c200571",
+      "/epistemology/counterfactual-reasoning/": "b7ec8a5b225cf7fcfeb736a4441ba97118ac53cc28f5514630042dc034e541bb",
+      "/epistemology/induction-utility-and-issues/": "99119ab290ce618b6d5af49786395b829f723898f40ad089c29c5e61f776d316",
+      "/rational-thought/case-2-autism/": "9195f24993ef744e43393d31162d7e43d33fab4e3a38ca348d43192d776d14d9",
+      "/philosophers/immanuel-kant/": "5004589a31c29149a1155b76997fb334a4cf7b22cdf0399818206c05b10d369d",
+      "/ethics/moral-systems-required-elements/": "d768ae621372ef27fd1370de8a94b94151fa64b3508066d49dec791b269aa9b2",
+      "/epistemology/properly-basic-beliefs/": "23af619a25f1c1cc75d43c189a0bd5e43ac4e5b3384f1c86e7853a74e7589404",
+      "/philosophers/socrates/": "9433330c87a0a25d98ff3922eb7ceb5cbdfada66c4ec391257d1ca2e239b7df9",
+      "/philosophy-of-language/semantics-convention-vs-stipulation/": "f0ca937819d7ed2b87d78d7a35b53281f7b1053c7cd5abd1ec6566307f071e73",
+      "/humanistic-philosophies/are-humans-more-egoistic-or-altruistic/": "c800e20049be072874250e0bb3c0bef498efd7f5a2c9970171d931252b65a21a",
+      "/epistemology/epistemological-case-studies/": "c3007f1807d678b14fec5002a8ed0e1a5bb4b4198f82a1d5d2b2080f0336d50c",
+      "/epistemology/pascals-wager/": "72cff7fc0d0431e6f4567c3c1d4d380198f444587fe95bda74d8c13238b0cfa0",
+      "/metaphysics/establishing-the-spiritual/": "27d1dec0ce33c327c8c55d80f50ebb866385d238201005ea540b2e8b3a046e7b",
+      "/economics/taxation/": "627cb14262d2b7bceecd189bf58725fd8fa8d0f734888d7db0a01cb16ab3d6d8",
+      "/epistemology/the-primacy-of-induction/": "e08c03dc6e93ae8d4beffb11559f1f1690efba38e7662b270772fb8e4d1d63d0",
+      "/philosophers/nagarjuna/": "4c26c25c5f49ff3acf80da2aa7bba9d800fc8c1430705f438841800b1615ac40",
+      "/ethics/is-vs-ought/": "df1586717aaa82fe33c65c6b2ad6287603b71e2306ef310cf5f9e8e713c719ba",
+      "/philosophical-inquiry/dangers-narrative/": "e65c72e5f2e90314fbc3023af26e716bd4dff055626b2709777907ef06599411",
+      "/economics/what-makes-economics-dismal/": "98e1de53375df979093bb9d1b16d01f2821201913bee773d2eff9016424fdb85",
+      "/miscellany/complexity-theory/": "2e5e384a028a6f28ce5bd82a3c165ac3d7034b144d97feb9379c8bdf7ff4cdfb",
+      "/philosophical-inquiry/dangers-strong-leaders/": "8f51a23cd3bb216e6ed908c5ecd115bc82951c2a152121d6186f41710494a9f4",
+      "/epistemology/preponderance-of-evidence/": "a08188b3957b59e50f32f814d07568914e03357d03e9e9108a966f9d467b27e7",
+      "/philosophy-of-language/core-concepts-philosophy-of-language/": "4330aef3730c35a60a7418426d814529d3e4355a45ab3d9943a5d5b01350eae0",
+      "/epistemology/non-scientific-ways-of-knowing/": "80feae143a874ec5011a68cb8cbc3bbca3195f16f4ecafb96cee476ed5219120",
+      "/economics/ai-the-future-of-work/": "6021ca8011a182fc49c9bc19c82ecac8e1a78e39478723b31907f68cc655a432",
+      "/philosophy-of-science/the-use-of-proxies/": "abfcf343db8d8d4395fd78a9a544175ce6bea70b326640ada299804309cdcf4f",
+      "/philosophers/judith-butler/": "0317cc2173ba7167f459d71b572fcddfb98fcfbd373ddc303e0a465c9c94a4d6",
+      "/philosophy-of-science/correlation-and-causation/": "d385bed62bc0744580c3c9eb43ec2e069a081c4d0f514c9bfd545056504ba8d1",
+      "/ethics/finite-agency-moral-demand-and-happiness/": "c2548ac734108a6afeaa4fa870577136da21b4ae82294371c6fcb13261592912",
+      "/epistemology/the-inductive-paradox/": "a2be88bd2cbae2018c659edf20939f4f2854d13438fb7b12ce3a03e0ce854e60",
+      "/philosophers/baruch-spinoza/": "934ac15bf60e33c45c6ca25c26825295b555c88057b4ff1e7deab75aa063d86d",
+      "/philosophers/mozi/": "22e205e62f07d9d646c007811a86adfb5b2295db6c381cac0224f76c797bfe72",
+      "/epistemology/case-1-credence-complexity/": "ec7c0827e3cd7ba7c7da8d725bfc864fa4ea24dfc305fa91c696e3c6645a6756",
+      "/political-philosophy/elements-of-a-stable-state/": "771323fea54b3998dcd5a59999e4859a73cb90e2dfbcbe8b9165b8f778def55d",
+      "/economics/justified-optimism/": "725f4dc667818b61fbb7b236ceb434c8efd287d0e11042effb7725a56a452437",
+      "/humanistic-philosophies/do-humans-have-an-essence/": "e4f23952a9094b68b4eb61d8b5895ad70dec528e45c2117b67cce19a1720f303",
+      "/philosophical-inquiry/dangers-ontological-buffet/": "f9a90330e3cb41b0d12612a2c90a11dfb15a2cdfc575dcb0e2d54fc488cb81c2",
+      "/ethics/divine-command-theory/": "6c372588bb2a7ab6200a51e263d48ab9466c2250b705f3e2f25dc36635b812da",
+      "/philosophers/parmenides/": "fde8d5abb3f2165c82d773499c5db5ef2eb8d9b50cab09b36e7c266e0dae51ec",
+      "/philosophers/hannah-arendt/": "ab04314c19fb7dcbe019ac14b90c4997130ac4c160b31c1933cdc47d59103beb",
+      "/philosophers/walter-benjamin/": "e5230323d28864c18db50748841deab4de083872adad95ca5fbe36ad4a3b7d02",
+      "/economics/minimum-wage/": "d2b4ff019da8ff2ba55bbe3d577bbfa115a56004d0322c450586d47e001105a3",
+      "/philosophy-of-language/what-is-language/": "a543d0a67086dce16deab29e3d2d40825fa9b7939736529ccf660e4ac9cd8f87",
+      "/philosophers/epictetus/": "44857f7372235cab813616e662c12e843265c9460b00780ff8ac87bdba43fe5a",
+      "/philosophers/martin-heidegger/": "4ba141b8d620b6121681bd590768fdfea973fba1f5ab842c375636584152a537",
+      "/rational-thought/scope-of-influence/": "ad323ee62ff2dcf8d0843862f69be2f9e48609e9af87da38d466d979f1f98d6b",
+      "/political-philosophy/peaceful-revolutions/": "2cb0ed9dc166e4516cbd6785bf58af768490f40f67797775c55d30a14d41e136",
+      "/philosophers/thomas-hobbes/": "84c527f790032cc3398726c5ba3c0b9ac2f45020dfe7855d2894c10a08e5256e",
+      "/humanistic-philosophies/the-legitimacy-of-divine-revelation/": "0ea93701567e6439a0bb8f018ed632873545a16c4dc9394e834a85688ee15c6d",
+      "/ethics/model-of-ethical-dynamics/": "8d18275988702a82eb654c6053aa96402037dc25d02fe94bb102620e2465b516",
+      "/miscellany/domains-of-aesthetics/": "792ea37c666d6a57c740190f3233229a90d8691a36f5f64206bc14c45ae1aafb",
+      "/philosophy-of-mind/elitzur-on-consciousness/": "1259de5f9f2a6c764314649682f171d8492329bca19ee431d97c35d54a83a69b",
+      "/philosophical-inquiry/dangers-carrot-stick/": "551910162d73e659a594aa57ff63dc7aa1a56ad18ae2a7c0d7cd35dea7eff410",
+      "/philosophers/confucius/": "1d5307a8ae13e939557b5c627858594824cafdd01b6c950e19c8b3b1eff6b340",
+      "/humanistic-philosophies/what-is-existentialism/": "b3b6f15e2f2d345b269fe14294fb8b548130b85a6f6591570e6d3805c2f95f52",
+      "/introduction/miscellaneous-philosophers/": "1f9cc2ce99d4950cdefde7da1237bc4ab1c13eb792440dd2a0e6f88528a88b32",
+      "/philosophical-inquiry/inscrutability-case-studies/": "4b18728f8f5fae321621f673db564600fd4b218e72ca148fdc099dbeab55cdb1",
+      "/economics/the-poverty-line/": "8bbae39c77d5d65c13baa11d2aeb2a22dddd994bec535318940f08280e58e519",
+      "/philosophers/plato/": "2ae0ab44d28d314cc9a43a71e38d5f81707211aa9b2669e61db5db2562c13d44",
+      "/philosophy-of-mind/philosophy-of-mind-basics/": "224328e081abe6781eca9a549f8fa16291add91ee56adab0dd4aa2fbbf326dad",
+      "/philosophers/edmund-husserl/": "260b752d76e7dd7986f9c425f8ac24d521761ccd9c68e8323c7a88f32827fccc",
+      "/rational-thought/avoiding-logical-fallacies/": "f511c3be5242e6d63e75e90075c0b4d1926738204b2a57469dace457306e6822",
+      "/philosophical-inquiry/dangers-untestable-ideologies/": "9b5efd5c8bb38ec7fd8b28e111e99e13798ba5887ea88630108ae6cdd80d6d46",
+      "/economics/economic-entitlements/": "ef5e07a307ffa9e94f5222de59045cb4daef09a6b4f827a72badb40f3d449aa2",
+      "/philosophers/soren-kierkegaard/": "38e0410f24ab961f61a49513048e7204a6599b3fc8aa9bc3b8ee812359e12390",
+      "/philosophers/thomas-aquinas/": "99de93ae404f7f1bf772ac03b6ad8db197e9cf5c8e7b8e9d002c614913d2d7f3",
+      "/epistemology/pragmatic-considerations-vs-epistemic-assessments/": "80c1f0ab8f6707c94854d4676373b15f59d243123e7dda0a7058729cf11e7e0e",
+      "/humanistic-philosophies/can-humans-change/": "03ab2f42ce8670b10a505378b6c5caeb4e504e13fc9801a07607f7765f390862",
+      "/philosophical-inquiry/dangers-ideologies-of-mystery/": "43d2e0da7ec4d348b9acd568489da94ef099a5103a79d67c96a00a7a014fe80c",
+      "/philosophy-of-language/gradient-concepts-and-binary-terms/": "516abd45f99ee11fb85db6d53b64c032b30cbeccd94a48d7b537e39f3abef2c1",
+      "/philosophy-of-mind/assessing-mind-with-mind/": "3f40e1e6a736a4447c5e0a929d79a1c72545c3b4aeaa17133b4ce8a9d6de1012",
+      "/political-philosophy/the-social-contract/": "a614b05a9c685c5a4620b92f5618420577e8617862abe8fee99ef59a5508e805",
+      "/philosophers/george-berkeley/": "539336a0c32ee7c2938e93489069a2d63291bcf5be886d6a0205ff9959e58fd6",
+      "/philosophers/xunzi/": "39a829e02e46ab988b6f09ebb8a1b86ae37f9b4e0203a9dea12afd37ab9f7d72",
+      "/philosophers/william-james/": "44e8bedfe704c1d4527326bc26c8bf47ff047318dd00c36d8f166d59b71b8661",
+      "/philosophers/laozi/": "b4ee717fdadc3468a3abe954ab6f51992477f856de4bdbfac899fa06824c7d45",
+      "/political-philosophy/identity-politics/": "605e68d873e97f206601dc06a85ce54394692895ad61cfb786e09eea82351fb2",
+      "/epistemology/presuppositions/": "01aa4d157357ff8d2399d02ca2827faf66b181edd8812e1e30819802b731e17c",
+      "/humanistic-philosophies/russell-on-faith/": "bf25fa1110dbc1ab34fb157605d3672af000cd14a5511a00d7d63c098ced193b",
+      "/epistemology/absolute-certainty/": "961d7d7cda9aa357c0ba3275be9cf8e965e603a2085f92e159cad21fd4a098ec",
+      "/ethics/self-evident-morality/": "3a93f39d63c17ef347d2378aa34ba6871f51360c42e2aa9db0a9040e4056257b",
+      "/philosophers/michel-foucault/": "cb37f35fd19c578213dcb74f3cf60d4fecd09389fa5389bdffd6b86db60ac690",
+      "/economics/economic-complexity/": "fe1c88344e243cacaac482d030a3c731e69473ca3b0a33afdb7cc730fe4e051c",
+      "/epistemology/adequate-evidence/": "4db2354ebb73123f53d416a5cd9f640858033a0dffab3ef70db4e1aa28cfdf83",
+      "/philosophers/rene-descartes/": "d74b2fb865522e738a6aaf0293236d0e4000314d630c65b9ea99e1927f46d156",
+      "/philosophy-of-science/is-history-science/": "644fa6b348ed8a695282db0422c21cef89961ad6562d51120cbb589387085908",
+      "/metaphysics/categories-of-nihilism/": "642c1dc03b155944797a1042d4dd70aa3eca2a0ec8f87accd3e6f1ebe3295bd4",
+      "/philosophical-inquiry/personal-truth/": "bd70042b0cb056fa334585785ce897f8968b73c9406cbd97335285aca05ae6d3",
+      "/epistemology/evidence-workshop/": "d2aae624660945948e6dd10fa58787846d4b1232255abb8d4f2c082d48b84de2",
+      "/economics/economic-comparisons/": "2ed28f8400c84e68fcb2e4ee864646139707028eaa43c613cbe32de3742659d5",
+      "/economics/economics-core-concepts/": "98076ede3392b2b99233ef95bf0d494b7346097d654cc42f441c2954cc7d5a09",
+      "/philosophers/ancient-philosophers/": "8390ea2898cacbdc78aecafef134244fabf4a2febf6abc7891ebb7589cde0716",
+      "/epistemology/case-6-insatiable-loops/": "0262424fd006272c95415ea4c0944b636792db97d266491eb0cf558a9d1d974d",
+      "/philosophy-of-ai/philosophy-of-ai-core-concepts/": "aeaa8b51d7e69a4ee1ec45be2cf479142c68936b91eb931f402e48cb0adbb6c8",
+      "/philosophers/mencius/": "a0b9d9950496a4b605fb0d90c1ea64b93a28e7a35c9b23def8a257bf6c500e61",
+      "/philosophy-of-science/what-is-induction/": "bef433a6bec8a3ad1a476d13df540e6a778e62f8014da786b5d6707986b0b7bd",
+      "/epistemology/doxastic-voluntarism/": "ece13d3ad5b581ffbefc3e515a261acbd47b5f455517fdba0e96afe62964af20",
+      "/ethics/assisted-suicide/": "6d6b7bf41291600e1ad0f7d3ec2d529fbe3b18701b30b954190bc4a805f65940",
+      "/philosophers/zhuangzi/": "4885aca68544c977c482d8cc5f20adab414973f96f6c766880b987e9061f474b",
+      "/philosophers/mary-wollstonecraft/": "920e0e5165817a69bb01a9edf9a31614285806da6b6ca0dd08c86cc9ab5a4c7d",
+      "/rational-thought/what-is-game-theory/": "712db3fc6384f4b9d4f1d8c5ee89ab1001dd5481c9b321bb262725a6c371ddd3",
+      "/rational-thought/1-at-99-5-or-5-at-95/": "6913b5f0623ce838c745335b78c5620fade8dc5d17ff2e0f20f2fe314961afaa",
+      "/philosophy-of-language/linguistic-abstraction/": "c45a304d7cae3d326b45dcd5d113cdaa92f70b4ed0b3bc375c4663b57641cd8c"
+    },
+    "reviewedPagesByteIdentical": 269,
+    "earlierPagesPreservationOnly": 249,
+    "unrelatedInheritedFilesUnchanged": 457,
+    "inheritedFilesWithinAuthorizedAssignment": 19,
+    "note": "Exact final twenty-page daily assignment built. Full original-preserving pass now269/346; official completed-batch cursor250 with19 verified pages of next50. No incomplete batch advanced.",
+    "auditCounts": {
+      "pages_scanned": 840,
+      "broken_links": 0,
+      "duplicate_ids": 0,
+      "repeated_headings": 562,
+      "prompt_number_issues": 0,
+      "orphan_pages": 0,
+      "oversized_assets": 0,
+      "style_scars": 0,
+      "grammar_scars": 1,
+      "seo_issues": 0,
+      "duplicate_titles": 0,
+      "duplicate_descriptions": 0,
+      "json_ld_issues": 0,
+      "sitemap_issues": 0,
+      "robots_issues": 0
+    },
+    "preexistingGrammarWarning": [
+      {
+        "page": "/philosophical-inquiry/dangers-unnuanced-conclusions/",
+        "issue": "double-and"
+      }
+    ],
+    "metadataCorrections": "An earlier final build preserved all269 hashes but flagged16 overlong descriptions. Shortened those summaries, rerendered/fidelity-checked the16 pages, and rebuilt these exact final versions."
+  }
+}

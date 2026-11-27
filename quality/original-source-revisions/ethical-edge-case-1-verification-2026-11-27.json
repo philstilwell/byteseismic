@@ -1,0 +1,62 @@
+{
+  "pagePath": "/ethics/ethical-edge-case-1/",
+  "sourceSha256": "c14ccdb3685214cb400f2cc0dcf02cbc1d02e3dbb72061d6b92e1f994c66ceaf",
+  "originalPrompts": 5,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 6,
+  "sourceColumns": 16,
+  "modelResponses": 16,
+  "blocksRetainedVerbatim": 362,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 89,
+  "bareAnswersExplicitlyRevised": 11,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "three ten-answer quizzes": [
+      10,
+      10,
+      10
+    ]
+  },
+  "sha256": "6c8c440a15199ee6021e4d0fb5e8a040c01f5254ca33a421d200e15657c8be3d",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "Ethical Edge Case #1",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "scenario",
+    "illustration",
+    "no-rescue stipulation",
+    "non-realist conclusion",
+    "quiz answer"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 514,
+    "ranges": [
+      [
+        1,
+        514
+      ]
+    ],
+    "indexFile": "quality/original-source-revisions/ethical-edge-case-1-reading-index-2026-11-27.txt",
+    "complete": true,
+    "additionalFramingRead": "Read all original source blocks, additional h5 headings, thirty disclosure answers, forty-five discussion questions and six discussion guidelines; visually inspected scenario illustration. Complete current page read."
+  },
+  "currentReadingCoverage": {
+    "lines": 494,
+    "ranges": [
+      [
+        1,
+        494
+      ]
+    ],
+    "snapshot": "quality/original-source-revisions/ethical-edge-case-1-current-before-2026-11-27.html"
+  },
+  "isolatedBuildVerified": true,
+  "metadataCorrection": "Shortened search description to160 characters or fewer after isolated site audit.",
+  "verifiedAt": "2026-11-27T10:31:40.935939-05:00"
+}

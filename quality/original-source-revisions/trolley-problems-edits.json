@@ -1,0 +1,150 @@
+{
+  "preambleHeadingIndexes": [
+    0
+  ],
+  "siblingColumnHeadingIndexes": [
+    3
+  ],
+  "nonPromptSections": [
+    5
+  ],
+  "preambleImageOrigins": {
+    "1.0": {
+      "sourceAttribute": "data-orig-file",
+      "url": "https://byteseismic.wordpress.com/wp-content/uploads/2024/07/image-edited-1.png",
+      "alt": "Original trolley illustration: a lever can redirect a trolley from five people toward one person.",
+      "maxWidth": "100%"
+    }
+  },
+  "pageFile": "ethics/trolley-problems/index.html",
+  "wordpressId": 13086,
+  "snapshot": "trolley-problems-wordpress-13086.html",
+  "sourceUrl": "http://byteseismic.com/2024/07/30/trolley-problems/",
+  "sourceLabel": "Original WordPress conversation",
+  "shellRevision": "bcec2e1e0daf626081e21f76cd652dfb352f5aa8",
+  "date": "2026-11-27",
+  "sourceSha256": "b4da1dec468bc61c76ae721a085df7732d211990cbf77a4361df502970d808fb",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini",
+    "Claude"
+  ],
+  "headings": [
+    "What do trolley problem scenarios reveal? Emotion-emergent values? Objective moral facts? Something else?",
+    "Does the complexity of the trolley problem strongly suggest there is no objective moral standard readily accessible to humans and that “moral intuitions” are actually emotional dispositions?",
+    "Can AI agents now or in the future contribute to meaningful insights into trolley problem “solutions“? Why or why not?",
+    "Can you produce an example of a computational ethics calculus related to the trolley problem?",
+    "Quizzes",
+    "Provide 15 discussion questions relevant to the content above."
+  ],
+  "introHeading": "Trolley judgments, moral evidence, and explicit computational assumptions",
+  "intro": "The original six sections and all eighteen response tracks are restored, including three separate computational examples. Models reveal the consequences of their assumptions; their numerical outputs do not independently establish moral truth.",
+  "description": "Explore trolley dilemmas, competing ethical principles, checked illustrative calculations, and the limits of numerical moral models.",
+  "highlights": [],
+  "replacements": {
+    "1.1.8": "<strong>Deontological principles:</strong> Some accounts constrain how people may be harmed, even for beneficial outcomes. Deontologists differ about switching, intended means, side effects, and exceptional circumstances.",
+    "1.1.9": "<strong>Objectivity and context:</strong> An objective principle can be sensitive to relevant differences in context. Universality does not require the same action in every superficially similar scenario.",
+    "1.1.14": "Responses reveal patterns of judgment and invite scrutiny of reasons. They do not by themselves measure objective moral facts or establish that every moral value emerges solely from emotion.",
+    "1.2.6": "<strong>Disagreement:</strong> Different answers create a challenge about reliable moral knowledge. Disagreement does not by itself entail relativism or the absence of objective truth.",
+    "1.2.11": "<strong>Cross-cultural evidence:</strong> A <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC7007553/\">study of 70,000 respondents in 42 countries</a> reported both shared patterns and variation. Its online sample was not a representative census of each culture, and neither agreement nor variation alone establishes moral truth.",
+    "1.3.2": "Some responses favor saving more lives while rejecting direct instrumental harm. Both consequentialist and non-consequentialist judgments can be intuitive or reflectively defended; they should not simply be labeled calculation versus emotion.",
+    "1.3.23": "The classic case typically stipulates outcomes with certainty. Probabilistic variants add a separate problem of uncertain consequences:",
+    "2.1.7": "<strong>Emotional processing:</strong> <a href=\"https://pubmed.ncbi.nlm.nih.gov/11557895/\">Greene and colleagues’ 2001 study</a> linked differences among moral dilemmas with emotional engagement. That supports investigating emotion’s role; it does not establish that every intuition is only an emotion or that moral realism is false.",
+    "2.1.8": "<strong>Speed:</strong> An automatic judgment need not be merely emotional or mistaken. Rapid responses can reflect learned discrimination as well as bias; their reliability requires investigation.",
+    "2.1.9": "<strong>Variation:</strong> Differences can arise from interpretation, experience, principles, or emotion. Showing those influences does not establish that the resulting judgments cannot track objective facts.",
+    "2.1.11": "<strong>Subjectivist interpretation:</strong> A non-realist may explain judgments through attitudes and emotions. That is an interpretation to defend, not a deduction from the psychological involvement of emotion.",
+    "2.1.14": "The cases challenge easy claims of self-evident agreement. They leave open whether reliable moral knowledge is possible and whether some intuitions track truth. Emotional influence and absence of objective truth are distinct claims.",
+    "2.2.1": "The complexity challenges claims that a correct answer is always obvious. It does not alone establish the absence of accessible objective standards.",
+    "2.2.4": "<strong>Cultural variation:</strong> Studies can identify differences in responses, but variation in beliefs does not entail variation in truth.",
+    "2.2.6": "<strong>Intuition:</strong> Immediate judgments may involve emotion, learned expectations, or implicit principles. Lack of a consciously stated argument does not identify their entire psychological basis.",
+    "2.2.7": "<strong>Theories:</strong> A specified act-consequentialist model may give a clear answer; deontological accounts may distinguish means from side effects. Disagreement between theories is not the same as every theory failing to give an answer.",
+    "2.2.8": "<strong>Variations:</strong> Changing morally relevant facts can reasonably change a judgment. A framing effect is more troubling when presentation changes while the relevant facts stay fixed.",
+    "2.2.9": "These findings require qualifications before supporting a metaethical conclusion:",
+    "2.3.3": "<strong>Emotion:</strong> Emotional influence challenges a wholly dispassionate picture of moral judgment, without establishing that intuition cannot also convey information or reflect reasons.",
+    "2.3.9": "<strong>Agreement:</strong> Convergence may be relevant evidence under an account of reliable judgment, but shared responses alone do not prove objective moral truth.",
+    "3.1.1": "Computational tools can examine data and the implications of explicitly specified rules. Their output is not automatically unbiased or morally authoritative; a generated argument still needs verification.",
+    "3.1.5": "<strong>Consistency checks:</strong> Formal software can test a precisely encoded rule or model. A language model’s plausible explanation is not itself a proof, and encoding choices can introduce bias.",
+    "3.1.7": "<strong>Experience:</strong> Whether AI could have subjective experience is disputed. In any case, producing a moral answer does not demonstrate lived understanding or establish the answer’s reliability.",
+    "3.1.11": "<strong>Multiple frameworks:</strong> A system can display how different principles change a result. Combining them requires a further rule for resolving conflicts; adding frameworks does not automatically yield a balanced answer.",
+    "3.1.15": "<strong>Evaluation:</strong> Test reliability, transparency, and harmful bias in the intended use. <a href=\"https://www.nist.gov/itl/ai-risk-management-framework/ai-risk-management-framework-faqs\">NIST’s AI Risk Management Framework</a> treats these as matters requiring assessment, not properties guaranteed by computation.",
+    "3.2.5": "<strong>Interpretation:</strong> Fluent responses do not establish understanding or justify moral authority. Questions about machine experience remain disputed; practical evaluation can still test accuracy, consistency, and bias.",
+    "3.3.3": "<strong>Formal checks:</strong> A suitable tool can check a stated formal system; it cannot establish the truth of unexamined moral premises simply by finding no contradiction.",
+    "3.3.5": "<strong>Bias:</strong> A system might avoid a particular human response pattern while inheriting biases from data, objectives, and representation. No general presumption of neutrality follows.",
+    "3.3.8": "<strong>Experience and authority:</strong> Machine subjective experience is not settled by this example. Numerical or verbal performance alone does not establish moral understanding.",
+    "3.3.12": "<strong>Novel proposals:</strong> A generated principle may be new or useful, but novelty does not establish validity. Neither a blanket impossibility of invention nor guaranteed insight is justified here.",
+    "4.1.1": "This is a toy expected-loss calculation, not a complete ethical theory. The original four images and code are retained below, with their assumptions and limitations explained.",
+    "4.1.3": "The code compares -P1×V5 with -P2×V1. It assumes only the listed death events incur losses and all omitted outcomes have zero loss. With P1=P2=1, V1=1, and V5=5, the scores are -5 and -1, so it returns “Pull the lever.” On equal scores, its else branch returns “Do not pull”; that is an added tie rule, not a moral theorem.",
+    "4.1.4": "The arithmetic is correct under those assumptions. The fourth image’s deontological verdict is too broad: some rights-based accounts distinguish diverting a threat from using someone as a means. The code does not implement any deontological constraint or integrate multiple theories.",
+    "4.2.2": "The following weighted score illustrates how assumptions affect an output. It is not an empirically validated or normatively established measure of ethical value.",
+    "4.2.6": "D: Directness score on a stipulated 0–1 scale; the example sets D=1. This is a modeling choice, not an observed moral quantity.",
+    "4.2.7": "F: Foreseeability score on a stipulated 0–1 scale; set F=1. Penalizing foresight requires an argument because knowing consequences need not make an action worse.",
+    "4.2.8": "P: Assumed probability of the specified successful diversion; set P=1 for this example.",
+    "4.2.16": "With D=F=P=1, EV=(0.7×5)−(0.3×1)−(0.2×1)−(0.1×1)+(0.1×1)=3.0. The original use of the word “high” in multiplication was not a numerical calculation.",
+    "4.2.17": "A larger score means only a larger value under this chosen formula. No threshold or score for doing nothing has been specified, so 3.0 alone does not decide between actions. Different weights or constraints may reverse a ranking.",
+    "4.3.0": "This third example is an unvalidated scoring rule mixing a lives-saved difference with action, distance, and age modifiers. It is not pure utilitarianism: those modifiers can change the ranking independently of total welfare. The original code is retained to make its effects inspectable.",
+    "4.3.2": "<strong>Base:</strong> The code subtracts the side-track count from the main-track count. This resembles a net-lives comparison under deterministic assumptions; it does not represent all welfare consequences.",
+    "4.3.3": "<strong>Action modifier:</strong> “divert” receives 1 and every other string receives 0.7, including invalid inputs. The penalty is stipulated, not established as ethically correct.",
+    "4.3.4": "<strong>Distance:</strong> Multiplying by distance/10 makes every zero-distance score zero, regardless of lives involved. With a negative base score, increasing distance makes the score more negative. Thus the code does not uniformly make distant action better.",
+    "4.3.5": "<strong>Age:</strong> The multiplier exp(−age/100) decreases with the input age. The code supplies one ambiguous victim-age average, not separate ages or life expectancies for saved and lost people. It therefore does not actually calculate life-years saved, and its age preference needs independent justification.",
+    "4.3.7": "The model expresses several assumptions that can be examined, but it has not been shown to describe how people generally judge:",
+    "4.3.9": "A stipulated distinction between two kinds of action; both switching and pushing are actions.",
+    "4.3.14": "The weights are arbitrary. Fitting survey answers could validate a descriptive prediction, not establish what is morally right.",
+    "4.3.15": "The formula mixes outcome counts with non-outcome modifiers and is not a complete utilitarian theory.",
+    "6.3.5": "What evidence would establish reliable AI contributions to moral reasoning, and how separate is that question from debates about subjective experience?",
+    "6.3.7": "Both switching and pushing are actions. Is the morally relevant difference physical contact, intention, using a person as a means, or something else?",
+    "6.3.9": "What exactly does the third model’s single age input represent? Can its age multiplier be defended, and why is it not a calculation of life-years saved?"
+  },
+  "countChecks": [
+    {
+      "name": "three ten-answer quizzes",
+      "selector": "#prompt-5 .original-response",
+      "child": "details",
+      "recursive": true,
+      "expected": [
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "three fifteen-question discussions",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    },
+    {
+      "name": "Claude fifteen discussion paragraphs",
+      "selector": "#prompt-6 .original-response[data-source-column=\"3\"]",
+      "child": "p",
+      "expected": [
+        15
+      ]
+    }
+  ],
+  "sourceImageDescriptions": {
+    "4.1.img0": "Original step 1: P1 and P2 are death-event probabilities for the five-person and one-person tracks; V1=1 and V5=5 are chosen loss weights.",
+    "4.1.img1": "Original step 2: EU(not pull)=-P1×V5=-5 and EU(pull)=-P2×V1=-1 when both probabilities are 1.",
+    "4.1.img2": "Original step 3: -1 is greater than -5, so the specified loss model selects pulling.",
+    "4.1.img3": "Original step 4 contrasts maximizing net outcomes with a do-not-kill constraint. Its blanket attribution of not pulling to all deontology is qualified in the revised explanation."
+  },
+  "bareAnswerReplacements": {
+    "5.1.answer0": "They reveal patterns of judgment and invite examination of emotion, principles, and context; they do not directly reveal objective moral facts.",
+    "5.1.answer3": "Yes, by testing explicit models or examining data, with verification and bias assessment. Computation alone does not establish moral authority.",
+    "5.1.answer5": "Intuitions can involve emotion and other influences; complexity alone neither reduces them to emotions nor refutes objective standards.",
+    "5.1.answer8": "A realist must explain reliable moral judgment despite disagreement and psychological influence. Those findings do not by themselves refute realism.",
+    "5.2.answer2": "Complexity alone establishes neither objectivity nor its absence; it challenges claims of easy agreement.",
+    "5.2.answer4": "Inputs and objectives can be biased, outputs can be wrong, and descriptive prediction does not establish an ought. Machine experience is a separate disputed question.",
+    "5.2.answer9": "No. They test judgments and principles without independently settling moral realism.",
+    "5.3.answer3": "Data analysis, explicitly verified consistency checks, and simulations; AI is not automatically unbiased.",
+    "5.3.answer4": "Producing a score or fluent answer does not establish valid moral premises or reliable judgment; experience and consciousness remain disputed.",
+    "5.3.answer5": "A stipulated multiplier of 1 for divert and 0.7 otherwise, including invalid strings. It encodes a preference rather than proving one.",
+    "5.3.answer6": "The examples include expected loss and arbitrary weighted scores; the third mixes lives saved with non-welfare modifiers and is not pure utilitarianism.",
+    "5.3.answer7": "It multiplies by exp(−victim_age/100), using one ambiguous average age. It does not compute the difference in life-years saved."
+  },
+  "responseAppendices": {
+    "4.3": "<aside class=\"source-editorial-note\"><p><strong>Checked outputs:</strong> The original examples produce approximately 2.1450 (divert) and 0.3754 (push), printed as 2.15 and 0.38. They change both action and distance, so their difference does not isolate either factor. Holding distance at 8 gives approximately 1.5015 for push. At distance 0 both actions score 0; this is a consequence of the formula, not ethical equivalence.</p></aside>"
+  }
+}

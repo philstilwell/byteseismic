@@ -1,0 +1,66 @@
+{
+  "pagePath": "/ethics/divine-command-theory/",
+  "sourceSha256": "c0ccc76c0a3e52ac024665e630afb9a1ad1228dab27af23dd40040f999039954",
+  "originalPrompts": 6,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 114,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 52,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "two ten-question quizzes and keys": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "two fifteen-question discussions": [
+      15,
+      15
+    ]
+  },
+  "sha256": "6c372588bb2a7ab6200a51e263d48ab9466c2250b705f3e2f25dc36635b812da",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "Divine Command Theory",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "threshold examples",
+    "curator followup",
+    "quiz answer",
+    "discussion"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 176,
+    "ranges": [
+      [
+        1,
+        176
+      ]
+    ],
+    "indexFile": "quality/original-source-revisions/divine-command-theory-reading-index-2026-11-27.txt",
+    "complete": true,
+    "additionalFramingRead": "Read all source responses, curator threshold examples and follow-up, both ten-item quizzes with keys, thirty discussions and complete current page."
+  },
+  "currentReadingCoverage": {
+    "lines": 395,
+    "ranges": [
+      [
+        1,
+        395
+      ]
+    ],
+    "snapshot": "quality/original-source-revisions/divine-command-theory-current-before-2026-11-27.html"
+  },
+  "isolatedBuildVerified": true,
+  "metadataCorrection": "Shortened search description to160 characters or fewer after isolated site audit.",
+  "verifiedAt": "2026-11-27T10:31:40.935939-05:00"
+}

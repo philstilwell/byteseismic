@@ -1,0 +1,69 @@
+{
+  "pagePath": "/epistemology/induction-cold-reading/",
+  "sourceSha256": "51d4e6939a2ad6df52a1aed98c53d21a4c3977103d7a0130d73f5547e4ee345a",
+  "originalPrompts": 11,
+  "curatorProsePrompts": 2,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 141,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 46,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": false,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [
+    "4.2"
+  ],
+  "formatChecks": {
+    "two five-item quizzes and keys": [
+      5,
+      5,
+      5,
+      5
+    ],
+    "two ten-question discussions": [
+      10,
+      10
+    ]
+  },
+  "sha256": "7f3777444226526af6c9db1546aab14ccdc69de1909fe7f1e16ae4efaa7a147f",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "Induction: Cold Reading",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "original prompt",
+    "curator rephrasing",
+    "second curator challenge",
+    "first curator challenge",
+    "original video link",
+    "quiz answer"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 196,
+    "ranges": [
+      [
+        1,
+        196
+      ]
+    ],
+    "indexFile": "quality/original-source-revisions/induction-cold-reading-reading-index-2026-11-27.txt",
+    "complete": true,
+    "additionalFramingRead": "Read all nine source h2 headings including two supplementary video labels and Phil’s Pushback label. Read complete disclosure-summary challenge about infantilization, original romantic rephrasing, and second challenge verbatim. Preserved both YouTube destinations in source order; videos were not watched and no claims based on their contents were added. Renderer heading count includes embedded labels, not eleven distinct substantive requests."
+  },
+  "currentReadingCoverage": {
+    "lines": 441,
+    "ranges": [
+      [
+        1,
+        441
+      ]
+    ],
+    "snapshot": "quality/original-source-revisions/induction-cold-reading-current-before-2026-11-27.html"
+  },
+  "isolatedBuildVerified": true,
+  "verifiedAt": "2026-11-27T10:31:40.935939-05:00"
+}

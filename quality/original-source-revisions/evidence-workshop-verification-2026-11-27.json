@@ -1,0 +1,68 @@
+{
+  "pagePath": "/epistemology/evidence-workshop/",
+  "sourceSha256": "3776d43d2ee48571e5bbd123b045a2a8dbfebd8d2f0259948f7befa7bad6caab",
+  "originalPrompts": 5,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 5,
+  "sourceColumns": 10,
+  "modelResponses": 9,
+  "blocksRetainedVerbatim": 67,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 46,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": false,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [
+    "4.2"
+  ],
+  "formatChecks": {},
+  "sha256": "d2aae624660945948e6dd10fa58787846d4b1232255abb8d4f2c082d48b84de2",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "Evidence Workshop",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "response",
+    "curator note",
+    "ranking premises"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 119,
+    "ranges": [
+      [
+        1,
+        60
+      ],
+      [
+        61,
+        119
+      ]
+    ],
+    "indexFile": "quality/original-source-revisions/evidence-workshop-reading-index-2026-11-27.txt",
+    "complete": true,
+    "additionalFramingRead": "Highlighted response excerpts and model logos inspected; no substantive images, quizzes or scripted dialogue in original."
+  },
+  "currentReadingCoverage": {
+    "lines": 380,
+    "ranges": [
+      [
+        1,
+        110
+      ],
+      [
+        111,
+        245
+      ],
+      [
+        246,
+        380
+      ]
+    ],
+    "snapshot": "quality/original-source-revisions/evidence-workshop-current-before-2026-11-27.html"
+  },
+  "isolatedBuildVerified": true,
+  "verifiedAt": "2026-11-27T10:31:40.935939-05:00"
+}

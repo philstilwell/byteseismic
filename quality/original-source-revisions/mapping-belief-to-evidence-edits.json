@@ -1,0 +1,77 @@
+{
+  "pageFile": "epistemology/mapping-belief-to-evidence/index.html",
+  "wordpressId": 343,
+  "snapshot": "mapping-belief-to-evidence-wordpress-343.html",
+  "sourceUrl": "http://byteseismic.com/2024/02/10/mapping-belief-to-evidence/",
+  "sourceLabel": "Original WordPress conversation",
+  "shellRevision": "bcec2e1e0daf626081e21f76cd652dfb352f5aa8",
+  "date": "2026-11-27",
+  "sourceSha256": "ca5fca2c3cbd71a3e2ab067eeabf8ad450e0a3adf3362f13ad1a8c4ec75d6d53",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "A good working definition of epistemic rationality might be the mapping of one’s degree of belief to the degree of the relevant evidence one perceives. Are there any weaknesses in this definition?",
+    "Perhaps we can go beyond the notion that the degree of belief must map to the degree of the perceived evidence if one is to maintain “core” rationality and expand the taxonomy. Can we call a practiced rationality in which one has filtered our logical fallacies, cognitive biases and distortions in the perception of evidence “deep” rationality for the purpose of our discussion?",
+    "Provide 15 discussion questions related to the notions of core rationality and deep rationality."
+  ],
+  "introHeading": "Sincerity and correction are different achievements",
+  "intro": "Phil proposes two terms for this discussion: core rationality for honest alignment with perceived evidence, and deep rationality for practiced correction of how evidence is assessed. The original two response tracks and each follow-up remain separate.",
+  "description": "How should belief track evidence? Distinguish sincerity, justification, practical commitment, and the limits of removing bias.",
+  "highlights": [],
+  "replacements": {
+    "1.1.0": "The definition identifies a useful norm: confidence should answer to perceived evidential support. Its limitations depend on whether it is intended as a minimal sincerity condition or a complete account of epistemic rationality.",
+    "1.1.1": "<strong>Interpretation:</strong> The word “mapping” does not entail a linear or objective numerical relationship. The genuine question is what counts as support and how a person checks that assessment. People can honestly interpret the same material differently.",
+    "1.1.2": "<strong>Measurement:</strong> Degrees of confidence can sometimes be represented by probabilities, but “amount of evidence” is not a single scale that mechanically determines belief. Relevance, reliability, dependence between reports, and prior information all matter.",
+    "1.1.3": "<strong>Intellectual habits:</strong> Open-mindedness and willingness to reconsider may help someone follow the proposed norm. Whether they belong in its definition or in the practices that sustain it is a further question; omission alone does not refute the norm.",
+    "1.1.6": "<strong>Scope:</strong> Coherence constrains whether a set of confidence judgments fits together. Practical or moral stakes can change which inquiries are worth pursuing or which actions to take, but a desirable consequence does not by itself make a proposition more likely to be true.",
+    "1.1.8": "Yes, “core rationality” can name that minimal condition for this discussion. It concerns an honest attempt to match confidence to the support one perceives, even where the perception is mistaken. This stipulation is not a claim that sincerity alone meets every philosophical standard of rational belief.",
+    "1.1.9": "<strong>Subjectivity and honesty:</strong> Assessment is made from a person’s perspective. That does not make every claim equally supported or imply that the world itself changes with the assessor. Honesty concerns how the person responds to what they take to be evidence.",
+    "1.1.10": "<strong>Updating:</strong> A continued commitment to matching confidence should motivate revision when perceived support changes. A sincere current judgment alone does not prove that the person will update appropriately later.",
+    "1.1.11": "<strong>Responsibility:</strong> The minimal stipulation distinguishes sincere error from knowingly overstating support. Whether an error is also careless depends on what checks were reasonably available, not sincerity alone.",
+    "1.1.12": "<strong>Limits:</strong> A person can satisfy this minimal condition while failing to recognize a bias. Awareness of that possibility supports humility, but humility is not logically guaranteed by an honest belief.",
+    "1.1.14": "Further checks assess the quality of the perceived evidence itself. Comparing independent sources, testing predictions, and hearing informed objections can reveal mistakes. These extend the minimal condition rather than silently changing its stipulated meaning.",
+    "1.2.7": "<strong>Degrees:</strong> The definition needs an account of evidential weight and confidence. Exact numerical measurement may be unavailable, but comparative judgments such as “less confident after this counterexample” can still be meaningful.",
+    "1.2.8": "<strong>Prior information:</strong> The wording does not exclude prior beliefs. It should clarify which background assumptions are justified and how new evidence changes confidence, so that prior commitment does not merely shield itself from correction.",
+    "1.2.13": "<strong>Intellectual virtues:</strong> Open-mindedness, humility, and diligence offer one way to discuss good inquiry. The original attribution of this list to “Foley’s virtue-based approach” was too loose: Foley’s work on <a href=\"https://www.cambridge.org/core/books/intellectual-trust-in-oneself-and-others/4C58E0CED5E6283142DB03B7E3FB7EDA\">intellectual self-trust and rational belief</a> requires a more specific account than this list.",
+    "1.2.16": "Agreed as a stipulation for this exchange. Calling it “core rationality” marks honest alignment with perceived evidence; it does not erase the distinction between that minimal condition and more demanding checks on evidence quality.",
+    "1.2.18": "<strong>Sincerity:</strong> The term separates honest confidence from knowingly claiming more support than one perceives. It does not establish that the confidence is accurate.",
+    "1.2.20": "<strong>Application:</strong> Ask whether someone’s expressed confidence matches their actual assessment. Active evidence-seeking is a further practice, not something guaranteed by the minimal definition.",
+    "1.2.24": "<strong>Manipulation:</strong> A person can sincerely accept misleading material. That illustrates the difference between core rationality and reliable evidence assessment rather than contradicting the proposed stipulation.",
+    "1.2.27": "<strong>Critical assessment:</strong> Add a separate description of how someone checks sources and reasoning; do not redefine the minimal condition whenever a further virtue is desirable.",
+    "1.2.30": "The stipulation is usable if its limits remain explicit. An honest but poorly informed judgment can be core-rational in this local sense while failing stronger epistemic standards. The next prompt proposes “deep” rationality for corrective practices.",
+    "2.1.0": "Yes. For this discussion, “deep rationality” can name sustained work on the reliability of evidence assessment in addition to core sincerity. Interpret “filtered out” as identifying and reducing errors, not certifying that all bias and fallacy have been eliminated.",
+    "2.1.1": "<strong>Bias checks:</strong> Search for a relevant counterexample, record predictions before seeing outcomes, and compare independent reports. Knowing the name of a bias is not evidence that one has corrected it; evaluate the practice by its results.",
+    "2.1.3": "<strong>Evidence assessment:</strong> Ask whether a source supports this particular claim and whether apparently separate reports share an origin. Ten copies of one unsupported story do not amount to ten independent confirmations.",
+    "2.1.8": "The distinction is a proposed vocabulary, not an established two-level scientific classification. A person may be strong at correction in one domain and weak in another; deeper inquiry remains fallible and can improve without reaching certainty.",
+    "2.2.9": "<strong>Assessing progress:</strong> Specify a task and examine correction, prediction accuracy, or handling of counterevidence over time. Eloquence and self-ratings do not establish a general rank of “deepness.”",
+    "2.2.13": "For example, someone sincerely trusts a repeated news report: that can meet the core condition. Tracing all repetitions to one unverified source and lowering confidence illustrates the added practice. The change improves the basis for belief without guaranteeing the conclusion is true.",
+    "2.2.14": "Use the distinction to identify the next useful check, not to award yourself a permanent status as a superior reasoner.",
+    "3.1.1": "Which practices might improve reasoning on a specific task, and what evidence would show that improvement transfers to a different task?",
+    "3.1.14": "When should an inquiry stop because further checking is unlikely to change the decision enough to justify its cost?",
+    "3.2.16": "Which situations warrant additional checking beyond sincere judgment, given the stakes, uncertainty, and available time?",
+    "3.2.17": "How can excessive time spent checking become impractical without implying that a less accurate belief is thereby better supported?"
+  },
+  "countChecks": [
+    {
+      "name": "two fifteen-question discussions",
+      "selector": "#prompt-3 .original-response ol",
+      "child": "li",
+      "expected": [
+        15,
+        5,
+        5,
+        5
+      ]
+    }
+  ],
+  "embeddedPrompts": {
+    "1.1": [
+      "Yes, evidence is subjective to each individual, but rationality, at its most basic, is an honest mapping of the degree of belief to the degree of the evidence as one understands evidence. This understanding may be unknowingly flawed, but mapping one’s degree of belief to the degree of the evidence as one honestly perceives and defines it is what we might call core rationality, right?"
+    ],
+    "1.2": [
+      "Can we stipulate that “core” rationality is an honest attempt to map one’s degree of belief to the degree of the evidence as one honestly perceives it? We might have a flawed understanding of what constitutes legitimate evidence. Still, if we are honestly attempting to map our degree of belief to the relevant evidence as we perceive it, we are maintaining a core rationality. Agreed?"
+    ]
+  }
+}

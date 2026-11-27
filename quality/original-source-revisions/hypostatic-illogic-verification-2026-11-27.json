@@ -1,0 +1,111 @@
+{
+  "pagePath": "/epistemology/hypostatic-illogic/",
+  "sourceSha256": "3c1d266000c6a4f3ddf0d4c2d691e6097c06566479856c7b6d165e99752cfa21",
+  "originalPrompts": 6,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 9,
+  "sourceColumns": 24,
+  "modelResponses": 21,
+  "blocksRetainedVerbatim": 444,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 144,
+  "bareAnswersExplicitlyRevised": 11,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "source quiz answers": [
+      10,
+      8,
+      10
+    ],
+    "discussion questions": [
+      15,
+      15,
+      15
+    ],
+    "parallel comparison table rows": [
+      17
+    ]
+  },
+  "sha256": "61a23d0f08f314feb87129d22f7ca28938deb7f28dc3461fb67e2aa64efbf81b",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "Hypostatic Illogic",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "counter response",
+    "comparison table",
+    "quiz answer",
+    "late appendix",
+    "changed trailing-source hash"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 641,
+    "ranges": [
+      [
+        1,
+        68
+      ],
+      [
+        69,
+        145
+      ],
+      [
+        146,
+        220
+      ],
+      [
+        221,
+        300
+      ],
+      [
+        301,
+        380
+      ],
+      [
+        381,
+        484
+      ],
+      [
+        485,
+        555
+      ],
+      [
+        556,
+        641
+      ]
+    ],
+    "complete": true,
+    "indexFile": "quality/original-source-revisions/hypostatic-illogic-reading-index-2026-11-27.txt",
+    "readingMethod": "Original response index read in eight chunks; all 28 bare disclosure answers read separately; both complete appendices read with every original formula transcribed from its alt text. Full combined index saved after restoring omitted prose layouts."
+  },
+  "currentReadingCoverage": {
+    "lines": 428,
+    "ranges": [
+      [
+        1,
+        140
+      ],
+      [
+        141,
+        280
+      ],
+      [
+        281,
+        428
+      ]
+    ],
+    "snapshot": "quality/original-source-revisions/hypostatic-illogic-current-before-2026-11-27.html"
+  },
+  "isolatedBuildVerified": true,
+  "rendererRegressionChecks": [
+    "cromwells-rule",
+    "establishing-cognitive-reliability-1",
+    "evidence-workshop"
+  ],
+  "verifiedAt": "2026-11-27T10:31:40.935939-05:00"
+}

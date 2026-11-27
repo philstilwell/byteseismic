@@ -1,0 +1,106 @@
+{
+  "preambleHeadingIndexes": [
+    1,
+    3
+  ],
+  "pageFile": "ethics/divine-command-theory/index.html",
+  "wordpressId": 4954,
+  "snapshot": "divine-command-theory-wordpress-4954.html",
+  "sourceUrl": "http://byteseismic.com/2024/04/02/divine-command-theory/",
+  "sourceLabel": "Original WordPress conversation",
+  "shellRevision": "bcec2e1e0daf626081e21f76cd652dfb352f5aa8",
+  "date": "2026-11-27",
+  "sourceSha256": "c0ccc76c0a3e52ac024665e630afb9a1ad1228dab27af23dd40040f999039954",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "If under divine command theory humans cannot themselves assess whether an action is moral or immoral, doesn’t divine command theory equate to mere obedience to their God? ",
+    "If divine command theory does equate to mere obedience to the divine commands of an inscrutable God, can adherents to the theory ever detect a threshold beyond which the God in question will never go?",
+    "This discussion seems to reveal confusion about the term “moral”. If morality is simply disobedience, calling sometime “disobedient to God” would have the same denotation as the term “immoral”. But the usage of the term “immoral” seems to extend beyond mere disobedience to a God, even among those who hold to divine command theory. Right? ",
+    "ChatGPT suggests that adherents of DCT might still claim “moral intuitions” remain legitimate markers of morality. However, would, say, a divine command to kill infants ever be consistent with the moral intuitions of humans?",
+    "Create a 10-item quiz on the discussion above.",
+    "Provide 15 discussion questions relevant to the content above. "
+  ],
+  "introHeading": "Divine commands: obligation, recognition, and moral limits",
+  "intro": "The original six prompts and both responses are restored, including the curator’s threshold examples and follow-up challenge. The revised exchange separates a theory of what grounds obligation from a theory of how people identify genuine commands.",
+  "description": "Explore divine command theory, the Euthyphro challenge, moral knowledge, and the difference between divine commands and moral grounding.",
+  "highlights": [],
+  "replacements": {
+    "1.1.0": "Divine Command Theory (DCT) is a family of accounts grounding moral requirements in divine commands. In an obligation-focused version, what God commands is obligatory and what God forbids is wrong; not every permissible or admirable act must therefore be commanded. Claims about goodness more broadly require separate treatment.",
+    "1.1.2": "<strong>Autonomy and theonomy:</strong> Theonomy locates moral authority in God. It does not by itself exclude reasoning about duties. Under the question’s stronger assumption that humans cannot assess morality at all, obedience lacks an independently accessible test; that assumption is not shared by every divine command theory.",
+    "1.1.3": "<strong>Euthyphro challenge:</strong> <a href=\"https://atlas.perseus.tufts.edu/library/passage/urn%3Acts%3AgreekLit%3Atlg0059.tlg001.perseus-eng2%3A7-11/\">Plato’s dialogue</a> asks about holiness and the gods’ love. Its modern adaptation asks whether commands constitute moral requirements or respond to prior moral reasons. An unrestricted command theory faces an arbitrariness objection; modified versions appeal to divine character.",
+    "1.1.4": "<strong>Moral knowledge:</strong> How one identifies a duty is distinct from what makes it binding. A theorist can allow conscience, reasoning, and experience as fallible routes to duties allegedly grounded in commands. Revelation and religious authority raise additional questions of authenticity and interpretation.",
+    "1.2.2": "An obligation-focused DCT grounds requirements and prohibitions in divine commands. This need not identify all goodness, virtue, or value with obedience.",
+    "1.2.3": "If one also assumes humans have no independent access to moral reasons, the objection about mere obedience follows. Dependence on commands as a foundation alone does not establish that additional assumption.",
+    "1.2.5": "An unrestricted command theory must explain why an order creates moral authority and whether contrary orders could reverse duties. This objection does not establish that every commanded action lacks value independently of its being commanded.",
+    "1.2.8": "Some versions allow human reasoning to identify duties while commands ground their authority. If a wholly independent moral standard itself determines obligation, however, that moves away from command-based grounding.",
+    "1.2.9": "Robert Adams’s modified account connects wrongness with the commands of a loving God. In his <a href=\"https://summerstudy.yale.edu/sites/default/files/summerschoolmorality.pdf\">discussion of divine command theory</a>, cruelty for its own sake does not become binding merely because an alleged deity commands it. The critic can still ask how love and authentic commands are recognized.",
+    "2.1.0": "The threshold question is strongest under the stipulated combination of unrestricted command authority and complete moral inscrutability. The curator’s examples are preserved as tests; their mention does not establish that each is a verified command in a specified religion.",
+    "2.1.2": "In a theory that makes any divine order decisive without accessible constraints, there is no independent moral threshold available to the adherent. A modified theory can impose a constraint such as a necessarily loving divine character, but must explain how humans recognize it and distinguish revelation from error.",
+    "2.1.4": "<strong>Dependence and variability:</strong> Dependence on divine will is not the same as dependence on human opinion or culture. A theory might make duties objective relative to human attitudes while grounding them in a divine agent. Whether commands can vary is a further question.",
+    "2.1.5": "<strong>Reason and conscience:</strong> Horrific alleged commands can challenge either their authenticity or the theory used to justify them. Using moral judgment to recognize commands does not by itself establish that commands cannot ground obligation; it does create a need to explain the reliability of that recognition.",
+    "2.1.7": "<strong>Evidence:</strong> A cruel alleged order can count against its source’s goodness if “good” has content that excludes such cruelty. If goodness means whatever the source commands, the same test is unavailable. Keep these different definitions explicit.",
+    "2.2.2": "<strong>Inscrutability:</strong> A possible unknown reason is not evidence that a particular order is authentic or justified. If no conceivable order could count against a claim of divine goodness, the theory needs to explain what that claim enables us to assess.",
+    "2.2.3": "<strong>Trust:</strong> Trust in a perfectly good God presupposes an account of goodness and grounds for identifying the speaker. It cannot by itself establish that an alleged command comes from that God.",
+    "2.2.4": "<strong>Interpretation:</strong> Genre, language, and context can matter, but a nonliteral interpretation needs textual reasons. An uncomfortable command cannot simply be relabeled metaphorical whenever convenient.",
+    "2.2.6": "<strong>Substantive limits:</strong> Principles protecting innocent people can be used to test alleged commands, provided their authority and relevance are defended. No claim of universal agreement is needed for that argument.",
+    "2.2.7": "<strong>Conflict:</strong> Conscience can provide a reason to scrutinize an alleged command. Internal distress alone proves neither that a command is false nor that a good deity could never permit disagreement.",
+    "3.1.0": "The prompt’s phrase “morality is simply disobedience” appears to intend “immorality is disobedience”; the original wording is retained above. The substantive issue is whether identifying what makes an act wrong also explains the meaning of wrongness.",
+    "3.1.1": "<strong>Meaning and grounding:</strong> A theory may identify wrongness with contrariety to divine requirements without claiming that ordinary speakers mean “disobedience” whenever they say “wrong.” An explanatory identity is not automatically a dictionary definition.",
+    "3.1.6": "The critique remains: an account of authority must make the moral significance of obedience intelligible. But a theory of obligation can coexist with an account of virtue, value, and fallible human reasoning; complexity of practice alone does not refute it.",
+    "3.2.0": "There is a real question about what moral language explains, but the conclusion needs qualification. Shared reference, ordinary meaning, and the grounds of obligation are different claims.",
+    "3.2.2": "A command theory can concern obligation without defining all moral value as obedience. State which version is under examination before extending its claims.",
+    "3.2.4": "Ordinary judgments often involve welfare, fairness, and reasons beyond explicit orders. That fact challenges an account that dismisses them, but it does not alone establish a foundation independent of God.",
+    "3.2.6": "A theorist may allow reason to discover requirements grounded in commands. If independent reasons instead fully constitute those requirements, the view differs from command-based grounding.",
+    "3.2.11": "Questioning an alleged command shows that the person uses some evaluative standard. It does not establish that the standard’s ultimate foundation is independent of divine authority; the theorist may treat it as a fallible route to that authority.",
+    "3.2.13": "Changing moral judgments need not mean changing commands. A defender can distinguish revised interpretations and changed circumstances from changes in the underlying duties, while critics can ask whether that explanation fits the evidence.",
+    "4.1.0": "A conflict with an alleged command poses a serious test. But one mistaken moral intuition would refute infallibility, not prove that the experience was not a moral intuition at all or that all intuitions are unreliable.",
+    "4.1.1": "Many people strongly condemn intentionally killing innocent infants. That supplies the case’s moral challenge without establishing a universal, innate response in every human being.",
+    "4.1.2": "If a genuine command and a particular intuition conflict, both cannot be correct under the relevant command theory. Before inferring which fails, examine authenticity, interpretation, the theory itself, and the grounds for the intuition.",
+    "4.1.4": "A source of judgment can be fallible yet informative. The question is how errors are detected and when intuition deserves weight, not whether any counterexample eliminates its status as a moral intuition.",
+    "4.1.6": "One established error defeats a claim of infallibility. It does not by itself defeat all reliability. A serious defense must still explain how the adherent distinguishes mistaken intuitions from false claims of revelation.",
+    "4.2.2": "<strong>Overriding aversion:</strong> An adherent might appeal to a greater purpose, but an unspecified purpose supplies no independent evidence for the order. A critical account must explain why that appeal is justified in this case.",
+    "4.2.3": "<strong>Limited perspective:</strong> Limited knowledge is compatible with both true and false alleged revelations. It cannot establish which one is present.",
+    "4.2.5": "<strong>Strong condemnation:</strong> The objection need not claim unanimous human judgment. Defended reasons against harming innocent infants can challenge an alleged command or an unrestricted theory.",
+    "4.2.6": "<strong>Conscience:</strong> Conflict calls for examination; it does not establish that a good God could never allow human uncertainty or mistaken judgment.",
+    "4.2.7": "<strong>Context:</strong> Interpretation requires evidence from the text and circumstances. Modified command theories can also deny that a loving God could issue certain orders, making authenticity a central question.",
+    "4.2.13": "The enduring difficulty is how to recognize legitimate authority and reliable reasons under uncertainty. The alternatives include rejecting the alleged command or the theory, not only overriding one’s conscience.",
+    "5.1.2": "What does an obligation-focused Divine Command Theory propose about moral requirements?",
+    "5.1.5": "What term describes grounding moral authority in divine will, without itself implying that all divine reasons are inscrutable?",
+    "5.1.13": "Moral requirements are grounded in divine commands; this need not be an account of all moral value.",
+    "5.1.16": "Theonomy. It identifies divine authority, not necessarily complete inscrutability.",
+    "5.1.22": "A conflict challenges infallibility and raises questions about reliability, interpretation, authenticity, and the theory. One error does not eliminate all moral intuition.",
+    "5.2.1": "An obligation-focused DCT proposes: a) Consequences alone ground duties. b) Every religious text is infallible. c) Divine commands ground moral requirements and prohibitions. d) Current social opinion grounds duties.",
+    "5.2.4": "Under an unrestricted theory with no character constraint, if a genuinely divine command required a horrific act, the theory would classify it as: a) Forbidden by definition. b) Obligatory under its stipulated rule. c) Evidence that every version of DCT is identical. d) Merely optional. This tests a theory, not the authenticity of any claimed command.",
+    "5.2.5": "Moral intuitions are: a) Always infallible doctrines. b) Only written social rules. c) Immediate moral judgments or appearances, which may be fallible and need not be innate. d) Necessarily divine visions.",
+    "5.2.8": "Which issue must a command theory address? a) Which ritual is most beautiful. b) Which language every believer speaks. c) How changing human interpretations relate to claimed divine requirements. d) Which prayer is longest.",
+    "5.2.9": "Why is appeal to an unknown greater purpose insufficient on its own? a) All purposes must be visible. b) Every intuition is infallible. c) A possible purpose does not establish authenticity or justification. d) Context can never matter.",
+    "5.2.10": "Which distinction is central to this discussion? a) Belief versus sleep. b) Old versus new vocabulary. c) What grounds a duty versus how humans identify it. d) Ritual versus decoration.",
+    "5.2.15": "(b), under the explicitly unrestricted hypothetical. Modified theories may reject the assumed possibility or authenticity.",
+    "6.2.15": "Alternatives: How do consequentialist, deontological, and contractualist accounts compare with both unrestricted and modified command theories?"
+  },
+  "countChecks": [
+    {
+      "name": "two ten-question quizzes and keys",
+      "selector": "#prompt-5 .original-response > ol",
+      "child": "li",
+      "expected": [
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "two fifteen-question discussions",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    }
+  ]
+}

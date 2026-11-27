@@ -1,0 +1,65 @@
+{
+  "pagePath": "/epistemology/the-primacy-of-induction/",
+  "sourceSha256": "fca8ed5ab33b90abf477ce02a8537cfc94e9798efc3fd3befa80cd461ebd0cc4",
+  "originalPrompts": 5,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 6,
+  "sourceColumns": 6,
+  "modelResponses": 6,
+  "blocksRetainedVerbatim": 114,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 95,
+  "bareAnswersExplicitlyRevised": 6,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": false,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [
+    "6.1"
+  ],
+  "formatChecks": {
+    "ten quiz disclosures": [
+      10
+    ],
+    "eighteen original plus two added discussions": [
+      18,
+      2
+    ]
+  },
+  "sha256": "e08c03dc6e93ae8d4beffb11559f1f1690efba38e7662b270772fb8e4d1d63d0",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "The Primacy of Induction",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "curator pushback",
+    "formal premise",
+    "quiz key",
+    "added question"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 228,
+    "ranges": [
+      [
+        1,
+        228
+      ]
+    ],
+    "indexFile": "quality/original-source-revisions/the-primacy-of-induction-reading-index-2026-11-27.txt",
+    "complete": true,
+    "additionalFramingRead": "Read original preambles, all 44 distinct equation alt strings and ten complete disclosure answers; complete reading index includes their transcriptions. Six original argument groups retained. Source has eighteen discussion questions despite request for twenty; two clearly marked additions complete it."
+  },
+  "currentReadingCoverage": {
+    "lines": 453,
+    "ranges": [
+      [
+        1,
+        453
+      ]
+    ],
+    "snapshot": "quality/original-source-revisions/the-primacy-of-induction-current-before-2026-11-27.html"
+  },
+  "isolatedBuildVerified": true,
+  "metadataCorrection": "Shortened search description to160 characters or fewer after isolated site audit.",
+  "verifiedAt": "2026-11-27T10:31:40.935939-05:00"
+}

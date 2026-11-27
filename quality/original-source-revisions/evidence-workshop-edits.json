@@ -1,0 +1,88 @@
+{
+  "preambleHeadingIndexes": [
+    4
+  ],
+  "pageFile": "epistemology/evidence-workshop/index.html",
+  "wordpressId": 505,
+  "snapshot": "evidence-workshop-wordpress-505.html",
+  "sourceUrl": "http://byteseismic.com/2024/02/11/evidence-workshop/",
+  "sourceLabel": "Original WordPress conversation, February 11, 2024",
+  "shellRevision": "bcec2e1e0daf626081e21f76cd652dfb352f5aa8",
+  "date": "2026-11-27",
+  "sourceSha256": "3776d43d2ee48571e5bbd123b045a2a8dbfebd8d2f0259948f7befa7bad6caab",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "Tom claims he has a spherical cube of gold in his pocket. He produces flakes of gold as evidence for his claim. What strength of evidence do those flakes of gold constitute, given Tom’s claim?",
+    "Ron claims that the following two claims have equal evidentiary strength if the number and quality of eyewitnesses for both claims are equal.  1: A dog swam across the lake.  2: A dog flew across the lake.How might we respond to Ron?",
+    "Mary claims that while the evidence for telepathy is inconclusive, her feelings that telepathy must be true are evidence for its truth. How might you respond to Mary?",
+    "Which of the following statements is most likely true for a 30-year-old man in Tokyo who just bought a fishing pole? 1: His name is Koji and he enjoys fishing. 2: His name is Koji.",
+    "Read the following statements and rank the quality of evidence provided from strongest to weakest. Justify your rankings."
+  ],
+  "introHeading": "Five tests of what evidence supports",
+  "intro": "The original five exercises distinguish an impossible description, unusual testimony, conviction about telepathy, a conjunction of claims, and research-source quality. Both response tracks are retained, including the curator’s note where no Gemini answer was supplied.",
+  "description": "Five evidence exercises examine contradictory claims, eyewitness testimony, feelings, conjunction probability, and the limits of ranking research sources.",
+  "highlights": [],
+  "replacements": {
+    "1.1.0": "Under the ordinary meanings of sphere and cube, Tom’s description is contradictory. Gold flakes cannot support the existence of that exact object. They may establish a weaker claim about access to gold, provided their composition is confirmed; that is a different proposition.",
+    "1.1.1": "<strong>Composition:</strong> Confirmed gold flakes show that gold is present. Without a demonstrated connection to a larger object, they do not establish the composition or existence of the object Tom describes.",
+    "1.1.3": "<strong>Strength:</strong> Evidence for a component of a claim is not automatically evidence for the entire conjunction. A contradictory conjunction has no possible instance under the fixed meanings being used.",
+    "1.1.4": "<strong>Conclusion:</strong> The flakes provide no support for a literal spherical cube. Ask whether Tom means a rounded cube, a sphere inside a cube, or some other coherent shape; only after clarification can an object-specific empirical test begin.",
+    "1.2.0": "The flakes provide no support for the exact contradictory description “spherical cube.” They can bear on a weaker claim about gold, but calling that weak evidence for the whole claim obscures the contradiction.",
+    "1.2.3": "<strong>Multiple sources:</strong> Genuine gold flakes could come from jewelry or other gold objects unrelated to the claim. If their composition has not been checked, imitation flakes are another possibility; the prompt itself calls them gold.",
+    "1.2.10": "Photographs or inspection could reveal a real object and clarify the intended description. They cannot turn a contradiction under unchanged definitions into a possible shape. Keep uncertainty about wording separate from evidence for the literal claim.",
+    "2.1.0": "First clarify “flew”: transport by aircraft differs from unaided biological flight. Next distinguish the amount testimony changes the odds from the probability of the claim after all evidence is considered. Equal witness number and general credibility do not settle either quantity.",
+    "2.1.2": "Swimming is compatible with ordinary canine abilities, though the particular distance and conditions matter. Its higher background plausibility does not automatically make any given witness report strong evidence.",
+    "2.1.3": "Unaided dog flight conflicts with established canine anatomy. A report therefore requires careful comparison with transport, misidentification, deception, or mistaken wording. It is an empirical anomaly, unlike the logical contradiction in the spherical-cube exercise.",
+    "2.1.5": "For a low-prior claim to become highly credible, the evidence must strongly favor it over relevant alternatives. The slogan about extraordinary evidence expresses this demand; it does not license rejecting every unfamiliar report regardless of its content.",
+    "2.1.7": "Ask how likely the reports would be if the event occurred and if it did not. Witnesses may share a source or the same misleading view, so multiple accounts need not provide independent checks.",
+    "2.1.9": "Background knowledge affects prior plausibility. The likelihood ratio measures how strongly the report favors the claim over its alternative. These are distinct parts of a Bayesian assessment; an unlikely claim can receive strong evidence while remaining unlikely overall.",
+    "2.1.10": "If “equal quality” means equal likelihood ratios, the two testimony sets can have equal incremental evidential force while yielding different final probabilities because the priors differ. If it merely means equally sincere and observant witnesses, even equal evidential force has not been established. See <a href=\"https://plato.stanford.edu/entries/bayes-theorem/\">Bayes’ theorem and measures of evidential support</a>.",
+    "2.2.0": "Ron’s conclusion depends on what “quality” and “evidentiary strength” mean. Equal numbers and reputations do not ensure equal diagnostic value; equal diagnostic value would still not ensure equal final credibility.",
+    "2.2.2": "<strong>Claim 1:</strong> Swimming is compatible with the animal’s ordinary capacities. Background plausibility and the effect of the actual witness evidence must nevertheless be assessed separately.",
+    "2.2.3": "<strong>Claim 2:</strong> Unaided flight has very low plausibility given canine anatomy. This is not a logical impossibility, and transport would change the interpretation of the claim.",
+    "2.2.6": "<strong>Claim 2:</strong> An unusual biological event requires checking alternatives carefully. Do not replace that work with the unsupported assertion that every interpretation violates physical law.",
+    "2.2.8": "<strong>Misidentification:</strong> For either report, ask what observers could have mistaken for the described event. The relevant alternatives differ between swimming and apparent flight.",
+    "2.2.9": "<strong>Hoax or illusion:</strong> Consider these alternatives where the circumstances support them. An unusual claim alone does not establish that a hoax occurred or that witnesses are dishonest.",
+    "2.2.11": "A report’s evidential force depends on its relative likelihood under competing explanations. Final confidence also depends on prior plausibility; keeping these separate answers Ron more precisely.",
+    "2.2.12": "With equal likelihood ratios and a higher prior for swimming, the swimming claim has the higher posterior probability. For illustration only, prior odds of 1:1 and 1:999 multiplied by the same factor of 9 become 9:1 and 9:999—probabilities 90% and about 0.89%. These invented numbers illustrate the distinction, not measured dog-event frequencies.",
+    "2.2.17": "Good inquiry checks whether evidence challenges background expectations as well as whether it agrees with them. Consistency with accepted knowledge is relevant context, not a rule requiring all evidence to conform.",
+    "3.1.2": "Mary’s feeling is evidence that she feels convinced, assuming an accurate report. Whether it supports telepathy depends on whether that feeling is more likely if telepathy exists than if it does not. Strong conviction alone supplies no such comparison.",
+    "3.1.6": "A useful test specifies predictions before the outcome, prevents ordinary communication or cueing, records failures as well as successes, and checks replication. Statistical significance alone does not exclude chance, bias, error, or fraud; the whole design and record matter.",
+    "3.1.8": "Reported experiences can themselves be data. The inference from an experience to its proposed cause needs separate evaluation; treating all subjective reports as non-evidence would be too broad.",
+    "3.1.13": "Respect Mary’s experience while distinguishing confidence from its object. Ask what observations would favor telepathy over ordinary alternatives and what would reduce her confidence. The prompt supplies no reason to regard intensity of belief alone as diagnostic.",
+    "3.2.2": "Distinguish evidence about the feeling from evidence about telepathy. Subjective reports can be investigated, but Mary must explain why her conviction favors telepathy over alternative causes of conviction.",
+    "3.2.5": "Feelings may reflect experience, expectations, cues, or wishful thinking. This does not make every feeling evidentially worthless; it means its accuracy and diagnostic value cannot be assumed.",
+    "4.1.0": "Statement 2 is at least as probable as statement 1; it need not be strictly more probable. The governing principle is the conjunction rule, not a general preference for shorter descriptions.",
+    "4.1.3": "Let K mean “his name is Koji,” F mean “he enjoys fishing,” and E be all the supplied information. Every case in K and F is also in K, so P(K and F | E) ≤ P(K | E). The frequency of the name is not needed for this comparison.",
+    "4.1.4": "If P(K | E)>0, the product rule gives P(K and F | E)=P(K | E)P(F | K,E). Equality is possible if F is certain conditional on K and E; both sides can also be zero. No numerical probabilities follow from the prompt. The fishing-pole purchase does not reverse the subset relation.",
+    "5.1.0": "For a general claim about exercise and mental health, a provisional ranking is study first, accurate report of that study second, then the two individual endorsements. Their last-place ordering is underdetermined without details. The following preserves the original sequence while making that limitation explicit.",
+    "5.1.2": "<strong>Justification:</strong> A well-conducted study can offer systematic observations and inspectable methods. Peer review does not guarantee soundness, generalizability, or causation; correlation alone does not establish that exercise caused the outcome.",
+    "5.1.4": "<strong>Justification:</strong> An accurate report can convey the study’s findings, but is a secondary route to the same underlying evidence, not independent confirmation. Check the original methods and whether the article fairly describes uncertainty.",
+    "5.1.5": "3 (provisional, tied with 4 unless further details distinguish them): A testimonial from a celebrity endorsing a specific type of exercise for mental health.",
+    "5.1.6": "<strong>Justification:</strong> Fame adds no evidential force to an endorsement. A documented observation may matter, while an unexplained or paid recommendation may tell us little. Nothing in the prompt establishes that this testimonial outranks the personal anecdote.",
+    "5.1.7": "4 (provisional, tied with 3 unless further details distinguish them): A personal anecdote about feeling happier after starting to exercise.",
+    "5.1.8": "<strong>Justification:</strong> The anecdote describes a before-and-after experience. It can motivate investigation, but cannot isolate exercise from other changes or establish a population effect. Its comparative value depends on the detail and reliability of the report.",
+    "5.1.9": "This ranking is conditional on study and reporting quality. Source labels alone do not establish a universal hierarchy. A flawed study can be less informative than a carefully documented observation, and two reports of one study must not be double-counted.",
+    "5.2.1": "A defensible provisional order is the study, an accurate article about it, then the two individual reports. The last two cannot be strictly ranked from their descriptions alone; the listed order is illustrative rather than established.",
+    "5.2.3": "<strong>Strength:</strong> A study may offer systematic comparison and methods that readers can inspect. Its design, measurements, uncertainty, and analysis determine how much the reported association supports the claim; peer review is no guarantee.",
+    "5.2.6": "<strong>Strength:</strong> Accurate reporting can communicate the study and its limitations. It is not a second independent study, and credibility does not follow merely from appearing in a news article.",
+    "5.2.9": "<strong>Strength:</strong> A detailed report can describe one person’s experience and suggest a hypothesis. It cannot by itself support a population-wide causal conclusion.",
+    "5.2.12": "<strong>Strength:</strong> A celebrity may supply an observation like anyone else. Audience size is a measure of reach, not evidential strength.",
+    "5.2.13": "<strong>Weakness:</strong> Check relevant expertise, documentation, and possible sponsorship rather than inferring competence or dishonesty from celebrity status alone. The prompt does not establish whether this report is weaker than the personal anecdote."
+  },
+  "countChecks": [],
+  "nonResponseColumns": [
+    "4.2"
+  ],
+  "sectionResponseLabels": {
+    "4.2": "Curator note · original wording"
+  },
+  "responseAppendices": {
+    "4.2": [
+      "<p><strong>Editorial clarification:</strong> The curator’s original note above is retained verbatim. The decisive mathematical constraint is the conjunction rule: adding “and he enjoys fishing” cannot raise the probability above that of “his name is Koji” under the same information. No missing Gemini response has been invented.</p>"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "pagePath": "/ethics/assuming-objective-evil/",
+  "sourceSha256": "1cd77bd8587d66f103c849841e6910f1382685ccfdfb2c609abb7408cb9fddd1",
+  "originalPrompts": 5,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 6,
+  "sourceColumns": 18,
+  "modelResponses": 18,
+  "blocksRetainedVerbatim": 171,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 77,
+  "bareAnswersExplicitlyRevised": 13,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "three ten-answer quizzes": [
+      10,
+      10,
+      10
+    ],
+    "three fifteen-question discussions": [
+      15,
+      15,
+      0
+    ],
+    "Claude fifteen discussion paragraphs plus introduction": [
+      16
+    ]
+  },
+  "sha256": "2dbd500d5792904c508704197cd0effd6c46950ef5181e2be10c2021524c222b",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "Assuming Objective Evil",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "curator premises",
+    "skeptical response",
+    "quiz disclosure",
+    "discussion"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 285,
+    "ranges": [
+      [
+        1,
+        285
+      ]
+    ],
+    "indexFile": "quality/original-source-revisions/assuming-objective-evil-reading-index-2026-11-27.txt",
+    "complete": true,
+    "additionalFramingRead": "Read full original argument, every response paragraph, all thirty disclosure answers, forty-five discussions and complete current page."
+  },
+  "currentReadingCoverage": {
+    "lines": 433,
+    "ranges": [
+      [
+        1,
+        433
+      ]
+    ],
+    "snapshot": "quality/original-source-revisions/assuming-objective-evil-current-before-2026-11-27.html"
+  },
+  "isolatedBuildVerified": true,
+  "metadataCorrection": "Shortened search description to160 characters or fewer after isolated site audit.",
+  "verifiedAt": "2026-11-27T10:31:40.935939-05:00"
+}

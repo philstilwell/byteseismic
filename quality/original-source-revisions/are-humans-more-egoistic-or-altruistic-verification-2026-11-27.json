@@ -1,0 +1,66 @@
+{
+  "pagePath": "/humanistic-philosophies/are-humans-more-egoistic-or-altruistic/",
+  "sourceSha256": "88c3d176d4f0def449598b8f4d22c05eb44821b22e840bed439cf6878dc5a6a8",
+  "originalPrompts": 6,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 6,
+  "sourceColumns": 12,
+  "modelResponses": 12,
+  "blocksRetainedVerbatim": 149,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 51,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "two ten-question quizzes and answer keys": [
+      10,
+      10,
+      10,
+      10
+    ],
+    "two fifteen-question discussions": [
+      15,
+      15
+    ]
+  },
+  "sha256": "c800e20049be072874250e0bb3c0bef498efd7f5a2c9970171d931252b65a21a",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "Are Humans More Egoistic or Altruistic?",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "statistical correction",
+    "answer key",
+    "last discussion"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 206,
+    "ranges": [
+      [
+        1,
+        206
+      ]
+    ],
+    "indexFile": "quality/original-source-revisions/are-humans-more-egoistic-or-altruistic-reading-index-2026-11-27.txt",
+    "complete": true,
+    "additionalFramingRead": "Read all206 source-index lines and356 current lines; inspected all6 headings, sibling groups, source start/end and four branding/footer images; no missing substantive image or extra response group."
+  },
+  "currentReadingCoverage": {
+    "lines": 356,
+    "ranges": [
+      [
+        1,
+        356
+      ]
+    ],
+    "snapshot": "quality/original-source-revisions/are-humans-more-egoistic-or-altruistic-current-before-2026-11-27.html"
+  },
+  "isolatedBuildVerified": true,
+  "metadataCorrection": "Shortened search description to160 characters or fewer after isolated site audit.",
+  "verifiedAt": "2026-11-27T10:31:40.935939-05:00"
+}

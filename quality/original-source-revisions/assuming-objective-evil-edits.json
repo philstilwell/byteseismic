@@ -1,0 +1,162 @@
+{
+  "preambleHeadingIndexes": [
+    0
+  ],
+  "nonPromptSections": [
+    5
+  ],
+  "pageFile": "ethics/assuming-objective-evil/index.html",
+  "wordpressId": 12877,
+  "snapshot": "assuming-objective-evil-wordpress-12877.html",
+  "sourceUrl": "http://byteseismic.com/2024/07/09/assuming-objective-evil/",
+  "sourceLabel": "Original WordPress conversation",
+  "shellRevision": "bcec2e1e0daf626081e21f76cd652dfb352f5aa8",
+  "date": "2026-11-27",
+  "sourceSha256": "1cd77bd8587d66f103c849841e6910f1382685ccfdfb2c609abb7408cb9fddd1",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini",
+    "Claude"
+  ],
+  "headings": [
+    "Assess the logical coherence of the argument below. Identify all logical flaws.",
+    "Write a short essay on what is logically required to differentiate actual evil from a mere emotional response toward human behaviors.",
+    "Write an essay in response to the argument for objective evil from the perspective of a moral skeptic or non-realist.",
+    "Provide a strong admonition against conjuring up “evil” within a context devoid of actual arguments and claiming everyone “knows” evil exists.",
+    "Quizzes",
+    "Provide 15 discussion questions relevant to the content above."
+  ],
+  "introHeading": "Does abhorrence establish objective evil?",
+  "intro": "The original argument, three response tracks, thirty quiz answers, and forty-five discussion questions are restored. The critique distinguishes a failed proof from a proof that objective moral facts do not exist.",
+  "description": "Examine whether judgments of evil establish objective morality, separating disagreement, skepticism, and arguments about moral reality.",
+  "highlights": [],
+  "replacements": {
+    "1.1.7": "<strong>Limitation:</strong> If universal belief is offered as sufficient proof, the inference is an appeal to popularity. If the claim instead invokes reliable moral intuition, that reliability needs an argument. The assertion of universal knowledge is itself unsupported.",
+    "1.1.13": "<strong>Limitation:</strong> Observations can support objective claims even though observers have subjective experiences. What is missing here is a justified connection between experiencing abhorrence and identifying stance-independent moral wrongness.",
+    "1.1.16": "<strong>Limitation:</strong> Guilt can reflect learning, mistaken self-blame, or a correct assessment. The argument supplies no test distinguishing these possibilities. It therefore does not establish objective evil merely by reporting guilt.",
+    "1.1.24": "It leaves the reliability and moral significance of the experiences undefended.",
+    "1.1.25": "Its conclusion does not follow from the stated descriptive premises without a further bridge premise.",
+    "1.1.26": "These defects make the argument insufficient as stated. They do not establish that its conclusion is false or internally contradictory.",
+    "1.2.3": "<strong>Limitation:</strong> Popular assent is not sufficient proof. A separate appeal to moral intuition would require defending intuition as a source of knowledge.",
+    "1.2.5": "<strong>Example:</strong> Conflicting judgments about slavery show that agreement and moral truth cannot simply be identified. Condemning slavery need not await consensus; explaining the basis of that condemnation is part of the moral argument.",
+    "1.2.10": "<strong>Limitation:</strong> Guilt is fallible evidence about one’s assessment of an action. Its existence alone does not establish the objective truth of that assessment.",
+    "1.2.15": "<strong>Frameworks:</strong> Compare utilitarian and deontological reasons, but defend their premises. Naming an ethical theory does not establish that it captures objective facts.",
+    "1.2.17": "Definitions, facts about harm, and defended moral premises would make the reasoning more explicit. Whether the resulting case establishes stance-independent moral truth remains a further question.",
+    "1.3.6": "<strong>Rhetoric:</strong> “Deep in their heart” invokes conviction. Emotional language is not itself a fallacy; treating conviction as sufficient warrant is the problem.",
+    "1.3.7": "<strong>Missing bridge:</strong> Experiencing an action as abhorrent does not by itself entail its objective evil. This is an unsupported inference rather than necessarily a false equivalence.",
+    "1.3.8": "<strong>Evidence and objectivity:</strong> A subjective experience can be evidence of an objective fact. The missing argument concerns whether these particular experiences reliably track moral facts.",
+    "1.3.11": "<strong>Possible circularity:</strong> If “abhorrent” already means objectively evil, the premise assumes the conclusion. If it means emotionally repellent, the problem is instead a missing bridge. These are alternative readings, not two automatically established fallacies.",
+    "1.3.13": "The argument is incomplete as a proof, and its universality claims are unsupported. Neither observation shows that moral realism is incoherent.",
+    "2.1.1": "Distinguish condemning an action, having reasons for condemning it, and claiming that its wrongness is independent of anyone’s attitudes. Establishing the third requires more than describing the first two.",
+    "2.1.2": "Define the proposed meaning of evil clearly. “Unjustifiable harm” can be a useful starting point, but unjustifiability is itself evaluative; widespread acceptance does not make the definition objectively correct.",
+    "2.1.3": "State and defend the moral principles used. Consequentialism and deontology offer different accounts; using either consistently does not by itself prove its objective authority.",
+    "2.1.5": "Evidence can establish what happened, the effects on victims, and relevant intentions. It does not alone determine how those facts ought to be valued; the evaluative premises must remain visible.",
+    "2.1.6": "Emotions can draw attention to morally relevant features and can also mislead. A reasoned judgment examines the response and its grounds rather than treating either emotion or emotional detachment as a guarantee.",
+    "2.1.7": "Apply the same principles to cases alike in relevant respects. Objectivity does not require ignoring context or applying an exceptionless rule to unlike cases.",
+    "2.1.9": "Clear concepts, defensible principles, accurate facts, and consistent application improve moral reasoning. They are standards for examining a claim to objective evil, not a demonstration that such evil exists.",
+    "2.2.3": "A harm-based account can explain condemnation of deliberate attacks on civilians by invoking suffering and protection of persons. Calling those reasons objectively authoritative requires defending the relevant moral premises; “harm occurs” alone is not that defense.",
+    "2.2.4": "Intent matters, but so can recklessness or negligence. A factory fire may be accidental while avoidable failures remain blameworthy. Distinguish the severity of harm from the responsibility of particular agents.",
+    "2.2.5": "Utilitarianism emphasizes consequences for welfare; deontology emphasizes duties and constraints. Both can structure an assessment, but neither becomes objectively true merely through its use.",
+    "2.2.6": "Examine harms, intentions, responsibilities, and reasons for the moral principles applied. This produces a more accountable judgment while leaving the separate metaethical question open.",
+    "2.3.3": "Specify the intended sense of evil. If the claim is stance-independent wrongness, explain what would make it true independently of approval; do not build that existence claim into the definition.",
+    "2.3.6": "<strong>Assessable:</strong> Criteria should permit reasoned comparison; not every relevant moral consideration must be numerically measurable.",
+    "2.3.7": "<strong>Consistent:</strong> Relevant similarities should receive similar treatment, with differences in context explained.",
+    "2.3.8": "<strong>Defensible:</strong> Reasons should be open to scrutiny; neither emotional intensity nor detachment establishes truth.",
+    "2.3.20": "Relativism is one alternative, not the only one. Skepticism concerns knowledge; error theory denies the relevant moral facts; expressivism analyzes the practical attitudes expressed by moral language. These positions should not be collapsed.",
+    "2.3.22": "Empirical evidence can illuminate behavior, context, intention, and responsibility. A mental-health diagnosis does not by itself establish malevolence, lack of responsibility, or a moral category.",
+    "2.3.23": "A careful analysis makes its factual and evaluative premises explicit. That is more rigorous than relying on disgust, but it is not an independent proof of moral realism.",
+    "3.1.1": "From the requested skeptical perspective, the opening argument fails to establish stance-independent evil. The following objections challenge its warrant without assuming that every form of skepticism, non-realism, or relativism is the same view.",
+    "3.1.2": "Moral judgments are influenced by experience and social learning. A skeptic can ask whether those processes track truth reliably. Disagreement does not deductively establish that no objective truth exists; the challenge concerns the adequacy of the proposed explanation.",
+    "3.1.3": "Cultural and personal influences provide possible explanations of moral conviction that do not presuppose moral facts. A realist can answer that such influences coexist with genuine knowledge. The skeptic must compare these explanations rather than simply announce that diversity disproves realism.",
+    "3.1.4": "Relativism makes moral truth relative to a framework. Epistemic skepticism questions moral knowledge, while some non-realist theories reject stance-independent moral facts or interpret moral language as expressing attitudes. None automatically entails tolerance; that practical commitment needs its own defense.",
+    "3.1.5": "The skeptic asks how purported moral facts are known and how reliable from unreliable judgment can be distinguished. A missing account of access weakens a knowledge claim without by itself proving that the facts do not exist.",
+    "3.1.6": "Persistent disagreement can motivate skepticism when no reliable route to convergence is available. The realist may explain disagreement through ignorance or bias, so the skeptical inference is defeasible and needs further support.",
+    "3.1.7": "Rejecting stance-independent moral facts need not eliminate condemnation, cooperation, or concern for suffering. Nor does it automatically make people empathetic; those practical commitments can be defended without claiming that non-realism guarantees them.",
+    "3.1.9": "The skeptic can withhold assent to this proof and demand an account of how its intuitions track moral truth. A stronger non-realist conclusion requires additional argument; practical commitment to reducing harm can remain explicit throughout.",
+    "3.2.2": "The universal-knowledge claim has not been supported. Disagreement and socially learned intuitions challenge its adequacy, but the existence of disagreement alone does not show that all moral judgments are merely subjective.",
+    "3.2.3": "Guilt is not a conclusive indicator: a child can feel guilty about an innocent accident, while a wrongdoer may feel none. Social learning offers one possible explanation, without excluding the possibility of accurate moral judgment.",
+    "3.2.4": "Objective moral truth does not entail an exceptionless code accepted by every society. Historical changes in judgments challenge easy appeals to consensus; they do not establish that there are no truths about which people can be mistaken.",
+    "3.2.5": "A non-realist can advocate reducing suffering and protecting people as commitments. Utilitarian or deontological arguments may help articulate those commitments, although neither family of theories is inherently non-realist.",
+    "3.2.6": "Facts about suffering can be investigated. A commitment to reducing it supplies an evaluative premise; the mere occurrence of suffering does not entail that premise. The skeptic can own this commitment rather than present it as a consequence of non-realism.",
+    "3.2.7": "On the proposed non-realist view, evil language expresses condemnation rather than detecting a stance-independent property. That is the perspective being defended, not something the opening argument’s failure alone proves.",
+    "3.3.1": "As a skeptic, I reject the sufficiency of the opening proof. I will distinguish that result from the further non-realist interpretation of moral judgment.",
+    "3.3.3": "An appeal to intuition needs an account of its reliability. Variability raises that challenge but does not by itself refute objective truth.",
+    "3.3.5": "What people find abhorrent varies. Social explanations can challenge a claim that these responses reliably detect moral facts, but their existence does not entail relativism.",
+    "3.3.7": "Guilt can be explained in terms of learning and its role in social interaction. An evolutionary account is a hypothesis requiring evidence, not a settled explanation of every case. Even a causal explanation must be connected to unreliability before it defeats moral knowledge.",
+    "3.3.9": "The move from descriptions of reactions to moral conclusions needs explanation. <a href=\"https://davidhume.org/texts/t/3/1/1\">Hume’s Treatise 3.1.1</a> challenges unaccounted transitions from “is” to “ought.” Here the argument must state its evaluative bridge rather than assume it.",
+    "3.3.11": "Emotional responses are not conclusive proof of moral reality. A defender may nevertheless treat some as fallible evidence; the skeptical task is to assess that proposal, not dismiss all experience simply because it is subjective.",
+    "3.3.13": "Disagreement becomes a substantive skeptical argument only with premises about what convergence a truth-tracking moral practice should produce. Without them, it is a challenge rather than a refutation.",
+    "3.3.15": "The initial premises leave the realist conclusion unsupported as a deduction. A non-realist explanation through psychology and culture remains a competing account to defend, not an automatic result.",
+    "3.3.16": "Skepticism can coexist with serious ethical reasoning. Its practical benefits depend on how people use it, not on a guarantee that rejecting realism produces openness.",
+    "3.3.17": "From this non-realist standpoint, I propose cooperation and reducing harm as commitments. A skeptic about knowledge alone need not also reject the possibility of objective moral truth.",
+    "4.1.4": "When a conclusion is challenged, supply the reasons instead of substituting insistence. Criticize the unsupported inference without assuming that its speaker is lazy or dishonest.",
+    "4.1.5": "Unsupported labels can encourage rigid judgment. Moral realism, however, is distinct from absolutism about exceptionless rules, and neither logically entails intolerance. The criticism concerns unexamined applications.",
+    "4.1.8": "Demand definitions, reasons, and attention to relevant facts. A forceful condemnation can be justified, but its intensity cannot do the work of an argument.",
+    "4.2.3": "A label alone can conceal relevant causes and responsibilities. Condemning an act does not logically prevent investigating those causes or considering rehabilitation.",
+    "4.3.1": "Reject the substitution of universal certainty for argument. It can obstruct inquiry, but a person making this mistake need not be deliberately dishonest.",
+    "4.3.3": "When reasons are requested, repetition of a claim is insufficient. Focus on the missing support rather than diagnosing the speaker’s intelligence or effort.",
+    "4.3.5": "Claiming that everyone already knows can pressure dissenters into silence. That possible effect does not establish a deliberate manipulative intention in every speaker.",
+    "4.3.9": "A sweeping label can distract from evidence relevant to responsibility and rehabilitation. It does not logically rule out either fair punishment or restorative approaches.",
+    "4.3.11": "Objective moral wrongness is not necessarily an external force controlling people. A realist may emphasize personal responsibility. The danger is using any label as an excuse to stop examining agency and reasons.",
+    "4.3.13": "Treating a disputed judgment as beyond question can obstruct ethical inquiry. Accepting moral realism while revising particular judgments need not do so.",
+    "5.1.9": "#10: Why distinguish moral realism from unexamined, exceptionless moral rules?",
+    "5.2.5": "6: Give one possible explanation of guilt that does not assume objective evil.",
+    "5.2.7": "8: What should accompany a strong condemnation of cruelty?",
+    "5.3.7": "#8: How can “everyone knows” discourage inquiry even without deliberate manipulation?",
+    "5.3.8": "#9: Why does objective moral wrongness not imply an external force that removes responsibility?",
+    "6.1.10": "How does belief in objective moral facts differ from belief in exceptionless rules? Which criticisms apply to each?",
+    "6.1.15": "Can a non-realist account support inclusion and cooperation? Which further practical commitments would it need?",
+    "6.2.8": "How might a skeptic and a realist differently interpret historical changes in judgments about slavery?"
+  },
+  "countChecks": [
+    {
+      "name": "three ten-answer quizzes",
+      "selector": "#prompt-5 .original-response",
+      "child": "details",
+      "recursive": true,
+      "expected": [
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "three fifteen-question discussions",
+      "selector": "#prompt-6 .original-response",
+      "child": "li",
+      "recursive": true,
+      "expected": [
+        15,
+        15,
+        0
+      ]
+    },
+    {
+      "name": "Claude fifteen discussion paragraphs plus introduction",
+      "selector": "#prompt-6 .original-response[data-source-column=\"3\"]",
+      "child": "p",
+      "recursive": true,
+      "expected": [
+        16
+      ]
+    }
+  ],
+  "bareAnswerReplacements": {
+    "5.1.answer0": "The conclusion needs a defended bridge from human reactions to stance-independent moral truth; popularity alone is insufficient.",
+    "5.1.answer3": "Evidence establishes events and effects; evaluative premises are also needed to assess their moral significance.",
+    "5.1.answer4": "Skeptics question moral knowledge or justification; non-realists deny or reinterpret stance-independent moral facts. These are not identical positions.",
+    "5.1.answer8": "Feelings may be informative or biased; examine their grounds rather than assume that emotion or detachment settles the issue.",
+    "5.1.answer9": "Realism concerns whether moral facts exist independently of attitudes. Absolutism concerns exceptionless rules. Neither is refuted by criticizing careless labeling.",
+    "5.2.answer5": "Social learning or mistaken self-blame can explain guilt without assuming objective evil.",
+    "5.2.answer7": "Relevant facts, explicit values, and reasons should accompany condemnation.",
+    "5.3.answer1": "The universality claim is unsupported; treating widespread assent as sufficient proof also appeals to popularity.",
+    "5.3.answer2": "The argument needs a defended connection between abhorrence and stance-independent wrongness; subjective experience is not automatically worthless as evidence.",
+    "5.3.answer3": "Clarify the proposed meaning and defend the criteria rather than assume an objective property exists by definition.",
+    "5.3.answer5": "Social learning and a role in cooperation are possible explanations; a specific evolutionary claim would require evidence.",
+    "5.3.answer7": "It can make disagreement seem illegitimate. That effect does not demonstrate the speaker intended manipulation.",
+    "5.3.answer8": "Objectivity concerns the status of a moral fact, not a force that controls agents or automatically excuses them."
+  },
+  "leadingTextReplacements": {
+    "1.1.17": "An unsupported inference"
+  }
+}

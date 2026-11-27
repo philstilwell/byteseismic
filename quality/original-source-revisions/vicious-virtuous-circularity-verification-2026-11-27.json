@@ -1,0 +1,62 @@
+{
+  "pagePath": "/epistemology/vicious-virtuous-circularity/",
+  "sourceSha256": "00327e5a4aa42741ede0a0104f7c163c2099b79eb91d58205dc432f32d3f432e",
+  "originalPrompts": 5,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 6,
+  "sourceColumns": 6,
+  "modelResponses": 6,
+  "blocksRetainedVerbatim": 106,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 81,
+  "bareAnswersExplicitlyRevised": 5,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": true,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [],
+  "formatChecks": {
+    "ten quiz disclosures": [
+      10
+    ],
+    "fifteen discussion paragraphs": [
+      15
+    ]
+  },
+  "sha256": "4ff21810c502e68d7d729c55ebafc6eedbb3f8391fdf7f8349e34e48d92918f5",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "Vicious &amp; Virtuous Circularity",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "prompt",
+    "corrected conditional",
+    "countervaluation",
+    "answer disclosure"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 203,
+    "ranges": [
+      [
+        1,
+        203
+      ]
+    ],
+    "indexFile": "quality/original-source-revisions/vicious-virtuous-circularity-reading-index-2026-11-27.txt",
+    "complete": true,
+    "additionalFramingRead": "Read all six sections, all distinct source formula alt strings and ten complete disclosure answers. Preserved bibliographic entries as original references, without treating their mere presence as proof; added direct sources for corrected technical assertions."
+  },
+  "currentReadingCoverage": {
+    "lines": 450,
+    "ranges": [
+      [
+        1,
+        450
+      ]
+    ],
+    "snapshot": "quality/original-source-revisions/vicious-virtuous-circularity-current-before-2026-11-27.html"
+  },
+  "isolatedBuildVerified": true,
+  "metadataCorrection": "Shortened search description to160 characters or fewer after isolated site audit.",
+  "verifiedAt": "2026-11-27T10:31:40.935939-05:00"
+}

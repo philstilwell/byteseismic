@@ -1,0 +1,101 @@
+{
+  "pageFile": "humanistic-philosophies/are-humans-more-egoistic-or-altruistic/index.html",
+  "wordpressId": 3125,
+  "snapshot": "are-humans-more-egoistic-or-altruistic-wordpress-3125.html",
+  "sourceUrl": "http://byteseismic.com/2024/03/12/are-humans-more-egoistic-or-altruistic/",
+  "sourceLabel": "Original WordPress conversation",
+  "shellRevision": "bcec2e1e0daf626081e21f76cd652dfb352f5aa8",
+  "date": "2026-11-27",
+  "sourceSha256": "88c3d176d4f0def449598b8f4d22c05eb44821b22e840bed439cf6878dc5a6a8",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "Some claim humans can be categorized into buckets of “good” and “evil”. Others claim that humans fall on a normal bell curve in respect to their degrees of egoism and altruism. Which is more correct?",
+    "I am asking specifically about the shape of the statistical curve of human egoism/altruism as determined by common markers such as crime rates and charity giving.",
+    "What would be an optimal way to assess whether humans fall into polarized categories of “good” and “bad” or whether they generally tend to possess a balance of both egoism and altruism? What metrics and proxies might we use?",
+    "Would the many anecdotes (and presumably statistics) of people making dramatic changes to their lives from bad to good and vice-versa speak to this in any way?",
+    "Create a 10-item quiz on the discussion above with answers at the end. ",
+    "Provide 15 discussion questions relevant to the content above. "
+  ],
+  "introHeading": "Human motives do not come with a known bell curve",
+  "intro": "The six original prompts and both response tracks are restored. Crime records, donations, experimental choices, and life histories can inform a study of behavior, but none by itself establishes a normal distribution of moral character.",
+  "description": "Can crime and giving reveal a distribution of moral character? Examine motives, behavioral proxies, statistical claims, and personal change.",
+  "highlights": [],
+  "replacements": {
+    "1.1.2": "This perspective classifies people as morally good or evil. Judging a particular act wrong is a different claim from placing its agent permanently in one of two exhaustive kinds.",
+    "1.1.3": "Belief in objective moral standards does not require two types of person: a moral realist can recognize mixed motives, degrees of wrongdoing, and change over time.",
+    "1.1.6": "A spectrum allows degrees of a measured trait. A normal bell curve makes a much stronger statistical claim about the frequency of scores. Neither follows merely from rejecting two moral categories.",
+    "1.1.7": "Psychological and evolutionary theories can suggest mechanisms to investigate; naming them does not establish a particular distribution.",
+    "1.1.9": "A normal distribution allows rare extremes, so extreme kindness or cruelty does not alone refute it. The relevant question is whether a defined measure in a specified population actually fits that distribution.",
+    "1.1.10": "The alternatives are not exhaustive. Mixed and changing behavior undermines an unqualified fixed two-bucket account, but does not establish normality, a single moral dimension, or an even balance in most people. Those are separate hypotheses requiring evidence.",
+    "1.2.0": "Fixed good/evil buckets oversimplify the possibilities. People can show different motives across situations, but this does not tell us that most lie at the middle of one egoism–altruism scale.",
+    "1.2.5": "<strong>Evolutionary perspective:</strong> Evolutionary explanations of cooperation and competition concern selection and fitness. They should not be read as claims that people consciously aim to benefit genes or that biological altruism establishes altruistic motivation.",
+    "1.2.7": "Context and evolutionary history may help explain behavior; they do not determine the statistical shape. A continuous, skewed, multimodal, or multidimensional account remains possible.",
+    "1.2.9": "Mixed motives and behavior are possible; the frequency and balance of particular motives must be measured rather than assumed.",
+    "2.1.0": "Crime rates and charitable giving do not establish a normal distribution of egoism/altruism. We first need to specify the unit—individual, household, neighborhood, or country—and the measured variable. A distribution of recorded events is not automatically a distribution of motives.",
+    "2.1.2": "Crime records measure specified prohibited acts detected and recorded under particular institutions. They are an imperfect indicator of harmful behavior, not a direct measure of selfish motivation or overall moral character.",
+    "2.1.3": "Counts of offenses and severity of offenses are different variables. Many zero counts and a few high counts could produce a strongly asymmetric distribution, not a bell curve.",
+    "2.1.4": "For example, a <a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC3969807/\">Swedish register study</a> of people born in 1958–1980 found that 1.0% of its population accounted for 63.2% of violent-crime convictions in the study period. This is concentration in recorded convictions, not proof of a power law or a distribution of moral character.",
+    "2.1.6": "Giving can benefit others, but donation amounts do not uniquely identify motives. Income, wealth, tax incentives, social recognition, and opportunity also matter; unpaid care and informal assistance may be missed.",
+    "2.1.7": "To describe giving statistically, specify whether non-donors are included, whether the measure is dollars or a share of resources, and the population and period. No dataset supporting a particular curve was supplied in the original exchange.",
+    "2.1.8": "A few large donations can create a long right tail. That possibility is inconsistent with simply assuming a symmetric normal curve, but it does not itself identify a power-law distribution.",
+    "2.1.9": "The warranted conclusion is that these proxies need separate analysis. Neither a population bell curve nor two moral kinds has been established. Joint person-level observations would also be needed to learn how giving and offending relate in the same individuals.",
+    "2.2.4": "Candidate distributions should be tested against data rather than selected because their shapes fit a moral narrative:",
+    "2.2.5": "<strong>Bimodal distribution:</strong> Two peaks in a specified measure are possible. Even if observed, they could reflect a mixture of contexts or populations rather than two intrinsic moral types.",
+    "2.2.6": "<strong>Skewed distribution:</strong> Skewness means asymmetry, not simply a concentration near the middle. A pile of zero counts and a long right tail would be one possible pattern.",
+    "2.2.7": "What the available evidence does and does not support:",
+    "2.2.8": "<strong>Crime:</strong> The Swedish conviction study cited in the other response demonstrates concentration in its defined cohort and period. Concentration alone does not identify a power law, and country-level crime rates differ from person-level conviction counts. The original newspaper link did not establish the claimed distribution.",
+    "2.2.9": "<strong>Giving:</strong> The original retail-giving article did not establish a population power law of altruism. Fit a distribution only after specifying data, including zero giving, and comparing plausible alternatives; do not infer motivation directly from dollar totals.",
+    "2.2.10": "The exact distribution remains unestablished here. Better measurement must address the relation between observed acts and motives, rather than merely find a curve that looks plausible.",
+    "3.1.6": "Experiments measure choices under their particular rules. Sharing can reflect concern for others, fairness, expectations, or the setting. <a href=\"https://www.sciencedirect.com/science/article/pii/S0749597805001330\">Dana, Cain, and Dawes’s dictator-game studies</a> found participants willing to pay to leave quietly, illustrating why observed giving alone cannot identify a pure altruistic motive.",
+    "3.1.12": "Study individual records with their reporting, enforcement, and exposure limitations. Area-level crime rates cannot by themselves establish the motives or distribution of traits among individual residents.",
+    "3.1.19": "Define separate behavioral and motivational measures, collect repeated observations from a representative sample, and test reliability across contexts. Compare continuous, skewed, and mixture models against held-out observations; examine uncertainty and sensitivity to thresholds. Do not assume egoism and altruism are opposite ends of one scale, or that two peaks equal good and evil.",
+    "3.2.1": "<strong>Disputed evaluations:</strong> Cultures and individuals differ in moral judgments. That complicates a shared classification rule without by itself proving that moral truth is subjective.",
+    "3.2.15": "<strong>Tax compliance:</strong> Compliance can reflect civic concern, enforcement, convenience, or fear of penalties. It is not a direct reading of altruistic motivation.",
+    "3.2.26": "The study should leave its answer open rather than build an expected moral conclusion into its design. Competing possibilities include:",
+    "3.2.27": "<strong>Continuous variation:</strong> Scores might vary continuously without following a normal curve or clustering at a balanced midpoint.",
+    "4.1.0": "Well-documented change can challenge a claim that a person’s behavioral tendencies never change. Anecdotes can suggest mechanisms and hypotheses, but neither anecdotes nor unspecified statistics establish the shape of a population distribution.",
+    "4.1.2": "Reliable repeated observations can establish change in measured behavior. A dramatic story alone may omit earlier behavior, temporary setbacks, or differences in opportunity.",
+    "4.1.11": "Change challenges permanent assignments to a category. It is compatible with people moving between two categories, along a continuum, or across several dimensions; it does not uniquely support a bell curve.",
+    "4.1.12": "Mixed motives and contextual effects can complicate classification. The fact that conduct changes does not by itself make the moral distinction between right and wrong ambiguous.",
+    "4.1.13": "Use life histories to generate hypotheses and longitudinal evidence to estimate change. Separate within-person change from the shape of differences between people at one time; one cannot be read directly from the other.",
+    "4.2.8": "<strong>Challenge fixed assignment:</strong> A verified change undermines permanent labeling, but is compatible with either categorical transitions or continuous change. It establishes neither normality nor the absence of categories.",
+    "5.1.4": "What defines a longitudinal study? a) Measuring unrelated people once b) Using only anecdotes c) Repeatedly observing the same units over time d) Necessarily lasting exactly ten years",
+    "5.1.7": "What role can supportive environments play in moral development? a) They can never matter b) They invariably prevent change c) They can facilitate change without being necessary or sufficient in every case d) They determine everyone’s motives completely",
+    "5.1.9": "What does a verified change in a person’s conduct challenge most directly? a) A permanent, unchanging classification of that person b) Every possible moral category c) Every continuous model d) The possibility of objective moral standards",
+    "5.1.15": "c) Repeated observation of the same units over time; duration can vary.",
+    "5.1.18": "c) Support can facilitate change; necessity and sufficiency have not been established.",
+    "5.1.20": "a) Permanent, unchanging classification; change alone does not establish a population curve.",
+    "5.2.2": "Which conclusion is supported by this discussion? a) Everyone belongs permanently to one of two moral kinds b) Mixed behavior is possible, but the population distribution requires defined measures and data c) Most people are proven to be exactly balanced",
+    "5.2.3": "Why are recorded crime rates an imperfect measure of egoistic motivation? a) They reflect selected recorded acts and do not directly measure motives b) Crime is impossible to record c) Every crime has exactly the same motive",
+    "5.2.4": "What would two peaks in a measured score establish by themselves? a) Two immutable moral kinds b) Bimodality in that measure, whose causes still require investigation c) A normal distribution",
+    "5.2.5": "What does a small group accounting for many convictions establish? a) A normal distribution of character b) Concentration in the recorded convictions, without by itself proving a power law c) That all unconvicted people are altruistic",
+    "5.2.8": "Which economic measure might be studied, while recognizing enforcement and other motives? a) A person’s bank-account number b) Tax compliance c) Currency exchange symbols",
+    "5.2.11": "What should a study of the egoism/altruism distribution do? a) Assume two moral groups b) Compare defined measures and competing models without preselecting the result c) Assume everyone is selfish",
+    "6.1.7": "How does moral relativism differ from the descriptive observation that moral beliefs vary across cultures? What additional argument would connect them?"
+  },
+  "countChecks": [
+    {
+      "name": "two ten-question quizzes and answer keys",
+      "selector": "#prompt-5 .original-response > ol",
+      "child": "li",
+      "expected": [
+        10,
+        10,
+        10,
+        10
+      ]
+    },
+    {
+      "name": "two fifteen-question discussions",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    }
+  ]
+}

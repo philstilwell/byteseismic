@@ -1,0 +1,62 @@
+{
+  "pagePath": "/epistemology/what-is-faith/",
+  "sourceSha256": "577b9ef5c9f5775f79d5a53fc0e82e3a87a790d5cffc2bca2c41152969624007",
+  "originalPrompts": 7,
+  "curatorProsePrompts": 0,
+  "originalHeadings": 8,
+  "sourceColumns": 15,
+  "modelResponses": 14,
+  "blocksRetainedVerbatim": 154,
+  "tableCellsExplicitlyRevised": 0,
+  "blocksExplicitlyRevised": 59,
+  "bareAnswersExplicitlyRevised": 0,
+  "promptOrderExact": true,
+  "sourceBlockOrderExact": true,
+  "listAndTableStructuresPreserved": false,
+  "explicitListItemSplits": [],
+  "explicitResponseAppendices": [
+    "1.1"
+  ],
+  "formatChecks": {
+    "two fifteen-question discussions": [
+      15,
+      15
+    ]
+  },
+  "sha256": "09965272625095b7a0a7d4c1967625057978db7244b3ec8692999aebc2d193f0",
+  "sourceCacheExact": true,
+  "sourceUrlMatched": true,
+  "sourceTitle": "What is Faith?",
+  "rendererReproduces": true,
+  "damagedVariantsRejected": [
+    "survey image",
+    "original question",
+    "quiz key",
+    "discussion"
+  ],
+  "sourceReadingCoverage": {
+    "indexedLines": 232,
+    "ranges": [
+      [
+        1,
+        232
+      ]
+    ],
+    "indexFile": "quality/original-source-revisions/what-is-faith-reading-index-2026-11-27.txt",
+    "complete": true,
+    "additionalFramingRead": "Read all original questions, responses, quiz keys and discussion questions; visually inspected all three survey images and retained original framing, note and images. Complete current composite page read."
+  },
+  "currentReadingCoverage": {
+    "lines": 472,
+    "ranges": [
+      [
+        1,
+        472
+      ]
+    ],
+    "snapshot": "quality/original-source-revisions/what-is-faith-current-before-2026-11-27.html"
+  },
+  "isolatedBuildVerified": true,
+  "metadataCorrection": "Shortened search description to160 characters or fewer after isolated site audit.",
+  "verifiedAt": "2026-11-27T10:31:40.935939-05:00"
+}

@@ -1,0 +1,140 @@
+{
+  "headingWithinFirstResponseColumn": {
+    "0": {
+      "groupSha256": "fe9c84571bcdab894d01637fdb03a7aea2ac004e72ba31738f8118cef9a97d27"
+    }
+  },
+  "preambleHeadingIndexes": [
+    2
+  ],
+  "pageFile": "epistemology/what-is-bayes-theorem/index.html",
+  "wordpressId": 361,
+  "snapshot": "what-is-bayes-theorem-wordpress-361.html",
+  "sourceUrl": "http://byteseismic.com/2024/02/10/what-is-bayes-theorem/",
+  "sourceLabel": "Original WordPress conversation",
+  "shellRevision": "bcec2e1e0daf626081e21f76cd652dfb352f5aa8",
+  "date": "2026-11-27",
+  "sourceSha256": "f32397e4f8d66c3b1dc57be66c80433a9534fc142488a2c6aa476bd3cbca96a2",
+  "modelLabels": [
+    "ChatGPT",
+    "Gemini"
+  ],
+  "headings": [
+    "What is Bayes Theorem?",
+    "Why is Bayes Theorem important to philosophy?",
+    "Provide practical examples of the power of Bayes Theorem. Instantiate the variables with clear terms in each example.",
+    "Why should philosophers have a working knowledge of Bayes Theorem?",
+    "Create a 10-item quiz on the essentials of Bayes Theorem with the answers at the end.",
+    "Create 15 discussion questions relevant to Bayes Theorem."
+  ],
+  "introHeading": "Bayes’ theorem: define the events, then check the arithmetic",
+  "intro": "The original six sections and both response tracks are restored. Every numerical example uses stated illustrative assumptions; the revised calculations distinguish the probability of evidence given a hypothesis from the probability of the hypothesis given evidence.",
+  "description": "Learn Bayes’ theorem through checked numerical examples, explicit assumptions, prior probabilities, and conditional evidence.",
+  "highlights": [],
+  "replacements": {
+    "2.1.3": "<strong>Decision theory:</strong> Bayes’ theorem updates probabilities. Choosing an action also requires an account of outcomes, values or losses, and available options; the theorem alone does not select the best action.",
+    "2.1.6": "<strong>Interpretation:</strong> The theorem follows from probability rules and is not limited to subjective belief. Bayesian inference often interprets probability as degree of belief, but empirical frequencies can help determine its inputs.",
+    "2.2.2": "It relates conditional probabilities. Using it to update a person’s beliefs also requires assumptions about learning the evidence and retaining the relevant conditional probabilities. The identity does not itself refute every claim to certainty.",
+    "2.2.6": "A prior represents probability before incorporating the specified new evidence, not before all evidence whatsoever. It may reflect data, background information, modeling choices, or degrees of belief; it does not establish that knowledge itself is purely subjective.",
+    "2.2.12": "The <a href=\"https://doi.org/10.1093/analys/23.6.121\">Gettier problem</a> challenges whether justified true belief suffices for knowledge. Gettier’s examples involve justified belief that can include false premises. A high posterior probability does not by itself eliminate epistemic luck or solve that problem.",
+    "2.2.14": "The mathematical theorem is exact when its probability conditions hold. Practical limitations concern choosing and estimating a suitable model and interpreting its output; cognitive bias is not a counterexample to the identity.",
+    "3.1.0": "These three examples use invented probabilities to show the calculation. They are not clinical estimates, legal priors, or measured spam rates.",
+    "3.1.9": "P(positive)=0.95×0.01+0.10×0.99=0.1085. Thus P(disease | positive)=0.0095/0.1085=19/217≈8.76%. In an illustrative 10,000-person population, 95 true positives and 990 false positives give the same fraction. This is a calculation under assumptions, not an individual diagnosis.",
+    "3.1.17": "P(“free”)=0.80×0.02+0.10×0.98=0.114.",
+    "3.1.18": "P(spam | “free”)=0.016/0.114=8/57≈14.04%. The keyword raises the probability above the 2% prior but does not make spam more likely than not. Choosing a filtering threshold requires considering the costs of mistakes.",
+    "3.1.20": "<strong>Hypothetical evidence model:</strong> Let G mean guilt and E the specified evidence. Suppose P(E|G)=0.70, P(G)=0.50, and P(E|¬G)=0.30. The 50% prior is stipulated for arithmetic; it is not justified by the fact that a case reaches court or by unspecified prior cases.",
+    "3.1.26": "P(E)=0.70×0.50+0.30×0.50=0.50.",
+    "3.1.27": "P(G|E)=0.35/0.50=70% under these assumptions. This demonstrates updating, not a verdict or a legal proof threshold. A real assessment would require justified inputs and applicable evidentiary standards.",
+    "3.2.0": "These four further examples also use invented inputs for arithmetic, not actual clinical, weather, spam, or fraud estimates.",
+    "3.2.2": "<strong>Hypothetical diagnosis illustration:</strong> Let A be the specified heart condition and B a positive test. Treat the following numbers as invented assumptions, not performance figures for a real stress test.",
+    "3.2.5": "P(B|¬A)=0.10: in this model, 10% of people without the specified condition test positive. “Without A” does not mean healthy in every respect.",
+    "3.2.7": "P(A|B)=(0.80×0.10)/(0.80×0.10+0.10×0.90)=0.08/0.17=8/17≈47.06%.",
+    "3.2.8": "Under the stipulated model the posterior is about 47%, not the original 44%. Applying a result to a person requires clinically appropriate inputs and evaluation beyond this illustration.",
+    "3.2.15": "P(A|B)=(0.90×0.05)/(0.90×0.05+0.10×0.95)=0.045/0.14=9/28≈32.14%.",
+    "3.2.16": "The original 86% result was an arithmetic error. The keyword raises the probability from 5% to about 32%; this one example does not establish overall filtering accuracy.",
+    "3.2.21": "P(B|¬A)=0.40: 40% of non-rainy days in the model are cloudy. Non-rainy does not mean sunny.",
+    "3.2.23": "P(A|B)=(0.80×0.30)/(0.80×0.30+0.40×0.70)=0.24/0.52=6/13≈46.15%.",
+    "3.2.24": "Cloudiness raises the model’s rain probability from 30% to about 46%, not 57%. A forecast for a real place and time needs relevant data.",
+    "3.2.26": "<strong>Scenario:</strong> Let A mean “this transaction is fraudulent” and B mean “the specified unusual pattern occurs.” A is an event, not the transaction object itself.",
+    "3.2.31": "P(A|B)=(0.90×0.01)/(0.90×0.01+0.05×0.99)=0.009/0.0585=2/13≈15.38%.",
+    "3.2.32": "The model raises the fraud probability from 1% to about 15.38%; it does not establish fraud. The original 0.158 figure was incorrect.",
+    "4.1.5": "<strong>Uncertainty:</strong> Writing down inputs makes assumptions visible, but the theorem does not ensure humility. For ordinary conditioning, a hypothesis assigned exactly zero remains zero after finite positive-probability evidence; prior choices deserve scrutiny.",
+    "4.1.6": "<strong>Decision theory:</strong> Posterior probabilities can inform expected consequences. A decision rule also needs values or losses; probability alone does not determine what one ought to do.",
+    "4.2.3": "<strong>Priors:</strong> Compare results under defensible prior choices and check how much the evidence changes them. Dependence on a prior is not proof that all knowledge is subjective.",
+    "4.2.6": "<strong>Gettier cases:</strong> High justified confidence and accidental truth must still be distinguished from knowledge. Bayes’ theorem can represent uncertainty without supplying a complete theory of knowledge.",
+    "4.2.7": "The theorem remains valid within probability theory. Limits of an application arise from its inputs, model, evidence handling, and the additional premises needed for decisions.",
+    "5.1.8": "B) The probability of the hypothesis before incorporating the specified new evidence, given the background information.",
+    "5.1.26": "Question 6: Which philosophical area studies knowledge and justification, making Bayesian belief updating especially relevant?",
+    "5.1.53": "Answer 2: B) The probability before incorporating the specified new evidence, given the background information.",
+    "5.2.2": "Bayes’ theorem relates: a) A guaranteed outcome to a wish. b) P(A|B) to P(B|A), P(A), and P(B), when P(B)>0. c) Only future events. d) Only events that are independent.",
+    "5.2.4": "A prior is: a) Always the probability of evidence. b) The probability of the hypothesis before incorporating the specified new evidence. c) A desired result. d) Always 50%.",
+    "5.2.5": "Which is NOT required for the elementary formula P(A|B)=P(B|A)P(A)/P(B)? a) Well-defined events. b) Consistent probability inputs. c) P(B)>0. d) Independence of A and B.",
+    "5.2.7": "A practical limitation of Bayesian modeling is: a) The probability identity can be false when arithmetic is inconvenient. b) Priors or likelihoods may be poorly estimated or based on an unsuitable model. c) The theorem applies only to certain events. d) It cannot represent uncertainty.",
+    "5.2.9": "What does the theorem directly supply? a) A complete ethical decision rule. b) A conditional probability from the specified inputs. c) Elimination of uncertainty. d) A guarantee of predictive accuracy.",
+    "5.2.13": "b) The relation between conditional probabilities, priors, and evidence probability, with a positive denominator.",
+    "5.2.15": "b) Probability before incorporating the specified new evidence.",
+    "5.2.16": "d) Independence is not required. In fact, informative evidence generally changes the probability because the events are dependent.",
+    "5.2.18": "b) Inputs may be poorly estimated or the model inappropriate.",
+    "5.2.20": "b) A conditional probability from the stated inputs. Choosing an action requires further considerations.",
+    "6.2.4": "Complementary events: Since P(¬A|B)=1−P(A|B), what additional information is needed to distinguish the different explanations grouped within ¬A?",
+    "6.2.15": "Model checks: How could you test whether a Bayesian application is miscalibrated even though its arithmetic is correct?",
+    "1.1.0": "For events A and B with P(B)>0, Bayes’ theorem is the identity P(A|B)=P(B|A)P(A)/P(B). It follows by expressing the joint probability P(A and B) in two ways. In belief updating, all probabilities also depend on a specified background of information.",
+    "1.1.1": "The theorem is associated with Thomas Bayes’s posthumously published work. The original formula image is retained below; the readable formula above supplies the same relation and makes the positive-denominator condition explicit.",
+    "1.1.5": "P(A) is the prior probability before incorporating B, given the background information; it need not precede all earlier evidence.",
+    "1.1.6": "P(B) is the overall probability of the evidence. For an exhaustive pair A and ¬A, P(B)=P(B|A)P(A)+P(B|¬A)P(¬A).",
+    "1.2.1": "For the marble example, define A as drawing one particular red marble and B as drawing any red marble. Keep these event meanings fixed throughout the calculation.",
+    "1.2.6": "P(B|A) is the probability of the evidence if A is true. Its evidential force depends on comparison with the probability of the evidence under alternatives, not on this number alone.",
+    "1.2.9": "The theorem reverses the conditioning by accounting for the prior and overall evidence probability. It applies even when A and B are dependent; it does not supply unknown inputs by itself.",
+    "1.2.11": "Assume a uniform random draw from a bag containing five distinct red marbles and five distinct blue marbles. You learn that the drawn marble is red. Let A mean it is your previously designated red marble, and B mean it is red.",
+    "1.2.15": "P(B|A)=1, because the designated marble is red. Hence P(A|B)=(1×1/10)/(5/10)=1/5=20%.",
+    "1.2.16": "Learning the color raises the probability of the designated red marble from 10% to 20%. The original substitution and unchanged-prior conclusion were incorrect. Equivalently, the designated marble is one of five equally likely remaining red possibilities."
+  },
+  "countChecks": [
+    {
+      "name": "Gemini ten-item quiz and key",
+      "selector": "#prompt-5 .original-response[data-source-column=\"2\"] > ol",
+      "child": "li",
+      "expected": [
+        10,
+        10
+      ]
+    },
+    {
+      "name": "two fifteen-question discussions",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        15,
+        15
+      ]
+    },
+    {
+      "name": "ChatGPT ten question paragraphs and ten keys",
+      "selector": "#prompt-5 .original-response[data-source-column=\"1\"]",
+      "child": "p",
+      "expected": [
+        20
+      ]
+    },
+    {
+      "name": "four options for each ChatGPT item",
+      "selector": "#prompt-5 .original-response[data-source-column=\"1\"] > ul",
+      "child": "li",
+      "expected": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "sourceImageDescriptions": {
+    "1.1.img0": "Bayes’ theorem: P(A given B) equals P(B given A) times P(A), divided by P(B). The denominator must be positive."
+  }
+}

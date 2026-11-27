@@ -1,0 +1,74 @@
+[
+  {
+    "example": "marble",
+    "prior": "1/10",
+    "likelihood": "1",
+    "alternativeLikelihood": "4/9",
+    "evidenceProbability": "1/2",
+    "posterior": "1/5",
+    "percent": 20.0
+  },
+  {
+    "example": "medical",
+    "prior": "1/100",
+    "likelihood": "19/20",
+    "alternativeLikelihood": "1/10",
+    "evidenceProbability": "217/2000",
+    "posterior": "19/217",
+    "percent": 8.755760368663594
+  },
+  {
+    "example": "spam1",
+    "prior": "1/50",
+    "likelihood": "4/5",
+    "alternativeLikelihood": "1/10",
+    "evidenceProbability": "57/500",
+    "posterior": "8/57",
+    "percent": 14.035087719298245
+  },
+  {
+    "example": "legal",
+    "prior": "1/2",
+    "likelihood": "7/10",
+    "alternativeLikelihood": "3/10",
+    "evidenceProbability": "1/2",
+    "posterior": "7/10",
+    "percent": 70.0
+  },
+  {
+    "example": "heart",
+    "prior": "1/10",
+    "likelihood": "4/5",
+    "alternativeLikelihood": "1/10",
+    "evidenceProbability": "17/100",
+    "posterior": "8/17",
+    "percent": 47.05882352941176
+  },
+  {
+    "example": "spam2",
+    "prior": "1/20",
+    "likelihood": "9/10",
+    "alternativeLikelihood": "1/10",
+    "evidenceProbability": "7/50",
+    "posterior": "9/28",
+    "percent": 32.142857142857146
+  },
+  {
+    "example": "weather",
+    "prior": "3/10",
+    "likelihood": "4/5",
+    "alternativeLikelihood": "2/5",
+    "evidenceProbability": "13/25",
+    "posterior": "6/13",
+    "percent": 46.15384615384615
+  },
+  {
+    "example": "fraud",
+    "prior": "1/100",
+    "likelihood": "9/10",
+    "alternativeLikelihood": "1/20",
+    "evidenceProbability": "117/2000",
+    "posterior": "2/13",
+    "percent": 15.384615384615385
+  }
+]

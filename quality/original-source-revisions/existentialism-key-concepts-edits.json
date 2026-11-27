@@ -1,0 +1,162 @@
+{
+  "pageFile": "humanistic-philosophies/existentialism-key-concepts/index.html",
+  "wordpressId": 10077,
+  "snapshot": "existentialism-key-concepts-wordpress-10077.html",
+  "sourceUrl": "http://byteseismic.com/2024/05/25/existentialism-key-concepts/",
+  "sourceLabel": "Original WordPress conversation",
+  "shellRevision": "bcec2e1e0daf626081e21f76cd652dfb352f5aa8",
+  "date": "2026-11-27",
+  "sourceSha256": "6dc46d0a9afcfbd8b263c3043be9fc54a5f1d5fdc3a9ce79588b8bd40573cf3c",
+  "modelLabels": [
+    "ChatGPT"
+  ],
+  "headings": [
+    "Create a table on 16 essential Existentialist concepts with columns reflecting 1) the concept, 2) a clear definition of the concept, and 3) a salient example of the concept in practice.",
+    "For each of the 16 concepts above, create 3 scenarios depicting the concept in action.",
+    "Many of the concepts above appear diametrically opposed to the many more hopeful (if unsubstantiated) promises found in religion. Comment on why existentialism remains popular nonetheless.",
+    "Write an essay on the relevance of existentialism in today’s technology-laden world.",
+    "Create a 10-item quiz on the entire thread above.",
+    "Provide 15 discussion questions relevant to the content above. "
+  ],
+  "introHeading": "Sixteen concepts, distinct thinkers, concrete situations",
+  "intro": "The complete sixteen-row table, forty-eight scenarios, six original prompts, essay, quiz, and discussion questions are restored. These concepts belong to overlapping but differing philosophies; they should not be read as a single doctrine of limitless choice or inevitable hopelessness.",
+  "description": "Explore sixteen existentialist concepts through a complete table, forty-eight scenarios, an essay on technology, a quiz, and discussion questions.",
+  "highlights": [],
+  "replacements": {
+    "1.1.1": "These are teaching distinctions, not sixteen articles of a shared creed. Compare <a href=\"https://www.marxists.org/reference/archive/sartre/works/exist/sartre.htm\">Sartre’s lecture</a>, <a href=\"https://plato.stanford.edu/entries/kierkegaard/\">Kierkegaard’s account of despair</a>, and <a href=\"https://plato.stanford.edu/entries/existentialism/\">this overview of the tradition</a>. Religious and atheistic approaches differ, and Camus’s absurdism should not simply be equated with Sartre’s existentialism.",
+    "2.1.1": "<strong>Scenario 1:</strong> Jane reaches a long-sought promotion and finds that career success does not answer her demand for an ultimate reason to live. The contrast between the demand and its nonfulfillment, not disappointment alone, illustrates absurdity.",
+    "2.1.2": "<strong>Scenario 2:</strong> After a disaster, someone demands that the world explain why innocent people suffered and encounters no satisfying cosmic answer. Natural causes can still be investigated; absurdity does not require a physically lawless universe.",
+    "2.1.3": "<strong>Scenario 3:</strong> A philosopher seeks final unity and meaning in the universe and cannot reconcile that demand with what the world discloses. Physical smallness alone would not establish absurdity.",
+    "2.1.5": "<strong>Scenario 1:</strong> Mark chooses art after examining his responsibilities and accepting the uncertainty involved. Choosing an unconventional career alone would not establish authenticity.",
+    "2.1.6": "<strong>Scenario 2:</strong> Emily decides whether and when to disclose her identity, acknowledging both her commitments and risks. Public disclosure is not a requirement of authenticity, especially where safety or dependence constrains options.",
+    "2.1.7": "<strong>Scenario 3:</strong> John examines whether leaving his job reflects an owned commitment or an escape from responsibilities. Travel and following a passion are not automatically more authentic than staying.",
+    "2.1.10": "<strong>Scenario 2:</strong> Tom realizes that choosing a college major involves responsibility without certainty. The choice matters but does not determine every later career possibility.",
+    "2.1.15": "<strong>Scenario 3:</strong> James decides whether to travel or honor an existing commitment, recognizing costs and limits. Freedom is illustrated by taking responsibility, not by having money or an absence of ties.",
+    "2.1.17": "<strong>Scenario 1:</strong> After bereavement, Rachel rejects her own finite life as something she cannot bear to be. This can introduce Kierkegaard’s question about the self’s relation to itself; grief alone is not equivalent to his technical concept of despair.",
+    "2.1.18": "<strong>Scenario 2:</strong> David continues a feasible project without counting on guaranteed recognition. This illustrates Sartre’s practical use of despair in his lecture, rather than ordinary hopelessness.",
+    "2.1.19": "<strong>Scenario 3:</strong> Monica examines whether her wish for a fixed, invulnerable identity prevents her from accepting herself as finite. This illustrates a question about selfhood, not a claim that every ill person is in philosophical despair.",
+    "2.1.21": "<strong>Scenario 1:</strong> Paul undertakes new commitments after a setback, acknowledging that his past remains real without treating it as an exhaustive blueprint for his future.",
+    "2.1.25": "<strong>Scenario 1:</strong> Lisa has feasible alternatives but treats the role of spouse as making all choice impossible. That self-deception illustrates bad faith; remaining in a marriage under coercion or serious material constraints does not by itself do so.",
+    "2.1.26": "<strong>Scenario 2:</strong> A student uses “people like me cannot be musicians” to avoid examining feasible options. A considered decision to choose a secure career can be responsible rather than self-deceptive.",
+    "2.1.30": "<strong>Scenario 2:</strong> Paul recognizes a disability and inaccessible institutions as part of his current situation while advocating for change. Facticity does not require minimizing a disability or treating social barriers as permanent.",
+    "2.1.33": "<strong>Scenario 1:</strong> John’s familiar reflection suddenly seems an inexplicable presence rather than a settled identity. The encounter with contingency, not dislike of his appearance, illustrates nausea.",
+    "2.1.34": "<strong>Scenario 2:</strong> Familiar city objects lose their everyday meanings for Maria and confront her as simply existing. Her experience concerns contingency, not contempt for other people’s activities.",
+    "2.1.35": "<strong>Scenario 3:</strong> Tom’s office objects suddenly appear without their familiar practical justification. This is an analogy for Sartrean nausea, distinct from ordinary boredom with work.",
+    "2.1.41": "<strong>Scenario 1:</strong> John recognizes that his colleagues see him from perspectives he cannot fully control. Their being other subjects, not their unfamiliarity, is the relevant point.",
+    "2.1.42": "<strong>Scenario 2:</strong> Maria resists being reduced to a stereotype by insisting on her own projects and perspective. This connects a social case of exclusion to the wider philosophical issue of subjectivity without defining all otherness as prejudice.",
+    "2.1.49": "<strong>Scenario 1:</strong> Jane resists injustice while refusing to pretend that a final historical victory will resolve every demand for meaning. Her sustained commitment illustrates revolt more specifically than activism alone.",
+    "2.1.50": "<strong>Scenario 2:</strong> Mark continues conservation work without cosmic reassurance or guaranteed success. Revolt lies in sustained engagement, not simply nonconformity.",
+    "2.1.51": "<strong>Scenario 3:</strong> Emily supports a community project while recognizing that its achievements will remain finite. Practical improvement matters without ending the confrontation with the absurd.",
+    "2.1.61": "<strong>Scenario 1:</strong> Jane commits to speaking at a meeting despite fear. Projecting toward that possibility illustrates transcendence even if the speech goes poorly.",
+    "2.1.62": "<strong>Scenario 2:</strong> Mark develops a feasible project within financial limits. He need not become a successful entrepreneur to act beyond a fixed description of his present situation.",
+    "2.1.63": "<strong>Scenario 3:</strong> Emily pursues a writing project while acknowledging her circumstances. Transcendence is the orientation toward possibilities, not a guarantee of eventual publication.",
+    "3.1.1": "The prompt’s opposition needs qualification: religious existentialists also address anxiety and responsibility. The following are plausible sources of intellectual appeal, not measured causes of present popularity. No readership or opinion data in this exchange establishes a trend.",
+    "3.1.3": "Sartre emphasizes that choosing helps constitute a life. This can appeal to readers resisting assigned roles, but responsibility does not imply control over every outcome or erase oppression.",
+    "3.1.5": "Authenticity invites examination and ownership of commitments. It need not mean discovering a hidden fixed personality, always rejecting tradition, or pursuing every desire.",
+    "3.1.9": "Atheistic approaches can appeal to readers seeking projects without divine guarantees. Religious approaches can understand commitment differently; neither existentialism as a whole nor religion as a whole has a single account of meaning.",
+    "3.1.13": "Twentieth-century upheavals form part of the setting in which existentialist writing gained attention. Earlier religious thinkers such as Kierkegaard also shaped the tradition, so it cannot be reduced to a postwar rejection of religion.",
+    "3.1.17": "Existentialist writing can be attractive because it makes uncertainty, commitment, and responsibility explicit. This explains possible appeal without proving how popular it is or assuming that religious hope is always its opposite.",
+    "4.1.3": "A digital service can order the options a person sees, require particular forms of participation, or reward repeated engagement. The existential question is how to recognize those constraints and own available choices. Individual reflection cannot by itself remove institutional power; design and collective action also matter.",
+    "4.1.5": "An edited profile is not necessarily inauthentic: privacy, safety, and artistic presentation can justify selectivity. The relevant question is whether a person treats a public role or approval score as an exhaustive identity, evading responsibility for how it is maintained. Authenticity involves examining commitments, not publishing every personal fact.",
+    "4.1.7": "Consider a person repeatedly postponing a chosen project to browse recommendations. An existential reading asks whether browsing has become a way to avoid committing under uncertainty. It does not establish that all consumption is passive or that technology necessarily destroys meaning.",
+    "4.1.9": "A message platform can sustain a relationship across distance, while a particular use can also substitute performance for engagement. Assess the actual relationship and practices rather than assume that online contact is either inherently alienating or automatically meaningful.",
+    "4.1.11": "A strong technological determinism treats outcomes as fixed by technology alone. An existential response asks where choices remain for users, designers, employers, and institutions. That is a practical challenge to resignation, not a demonstration that individuals can freely escape every technical or economic constraint.",
+    "4.1.13": "For an automated decision system, one useful question is whether its operators hide behind “the system decided” to evade responsibility for deployment, review, or appeal. Existential reflection identifies that evasion; a full ethical assessment still needs evidence of effects, fair procedures, and justified standards.",
+    "4.1.15": "Existential concepts supply questions about agency, commitment, and responsibility in digital life. They do not predict technological effects or substitute for evidence and policy. Their value here is to help identify specific evasions and possibilities within real constraints.",
+    "5.1.23": "B. Owning examined commitments while acknowledging one’s circumstances and possibilities",
+    "5.1.27": "A. They offer questions about agency, commitment, and responsibility under technological conditions.",
+    "5.1.35": "D. Already finding oneself in an unchosen world and situation, without this implying mechanical determination",
+    "5.1.43": "B. Particular designs and practices can influence choices and constrain available options.",
+    "5.1.56": "B. Owning examined commitments while acknowledging circumstances and possibilities.",
+    "5.1.57": "A. Questions about agency, commitment, and responsibility—not a measured explanation of popularity.",
+    "5.1.58": "D. An already given, unchosen situation that does not mechanically determine all actions.",
+    "5.1.60": "B. Particular designs and practices can influence choices and constrain options.",
+    "6.1.14": "How do Kierkegaard’s and Sartre’s uses of despair differ from each other and from ordinary hopelessness?",
+    "6.1.15": "How does projecting toward possibilities differ from successfully overcoming adversity? Can an unsuccessful project still illustrate transcendence?"
+  },
+  "countChecks": [
+    {
+      "name": "sixteen concepts and header",
+      "selector": "#prompt-1 table",
+      "child": "tr",
+      "recursive": true,
+      "expected": [
+        17
+      ]
+    },
+    {
+      "name": "sixteen sets of three scenarios",
+      "selector": "#prompt-2 .original-response > ol",
+      "child": "li",
+      "expected": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "name": "ten-question quiz and key",
+      "selector": "#prompt-5 .original-response > ol",
+      "child": "li",
+      "expected": [
+        10,
+        10
+      ]
+    },
+    {
+      "name": "fifteen discussions",
+      "selector": "#prompt-6 .original-response > ol",
+      "child": "li",
+      "expected": [
+        15
+      ]
+    }
+  ],
+  "tableCellReplacements": {
+    "1.1.table0.1.1": "In Camus, the tension between our demand for intelligible meaning and a world that supplies no final answer to it.",
+    "1.1.table0.1.2": "After a loss, someone seeks a cosmic explanation and confronts the absence of an answer that satisfies that demand.",
+    "1.1.table0.2.1": "Owning one’s situated choices and commitments instead of hiding behind a supposedly fixed essence or an unquestionable role.",
+    "1.1.table0.2.2": "A person examines both a career commitment and its costs, rather than treating either conformity or rebellion as automatically authentic.",
+    "1.1.table0.4.1": "In Sartre, the responsibility of taking up possibilities within a situation; it is not unlimited power to obtain desired outcomes.",
+    "1.1.table0.4.2": "Someone chooses how to respond to a restricted set of job options without pretending either that every option is available or that no agency remains.",
+    "1.1.table0.5.1": "A term with different uses: Kierkegaard analyzes a failure in the self’s relation to itself and God; Sartre’s lecture concerns acting without guarantees beyond what one can reasonably count on.",
+    "1.1.table0.5.2": "An organizer acts on feasible plans without assuming that history guarantees success; this illustrates Sartre’s use, not a diagnosis of sadness.",
+    "1.1.table0.6.1": "Sartre’s thesis that humans have no predetermined human purpose defining what each must become; projects and acts shape a life.",
+    "1.1.table0.6.2": "A person undertakes a commitment without treating an assigned social role as a complete, fixed definition of who they must be.",
+    "1.1.table0.7.1": "Self-deception about the relation between one’s circumstances and possibilities, including denying agency or pretending circumstances do not constrain it.",
+    "1.1.table0.7.2": "A worker with feasible alternatives insists that a job title mechanically dictates a harmful act, avoiding responsibility for endorsing it.",
+    "1.1.table0.8.1": "The given features of a situation—past, body, social position and circumstances—as taken up in projects; not a claim that every present condition is forever unchangeable.",
+    "1.1.table0.8.2": "Someone acknowledges present financial limits while considering feasible ways to alter them.",
+    "1.1.table0.9.1": "In Sartre’s novel, an unsettling encounter with the contingency of existence: things are there without a necessary justification for being.",
+    "1.1.table0.9.2": "A familiar tree root loses its ordinary reassuring meaning and is experienced as sheer, contingent existence.",
+    "1.1.table0.11.1": "Another subject whose perspective and freedom cannot be reduced to my own; distinct from the sociological act of treating a group as outsiders.",
+    "1.1.table0.11.2": "I recognize that another person sees and evaluates me from a standpoint I cannot control.",
+    "1.1.table0.12.1": "Heidegger’s term for already finding oneself in an unchosen world and situation, from which possibilities are encountered; it does not mean actions are mechanically determined.",
+    "1.1.table0.12.2": "Someone recognizes that language, history and family precede their choices while still asking how to take up those conditions.",
+    "1.1.table0.13.1": "For Camus, sustained refusal to surrender to the absurd while living without a final reconciliation; not a guarantee that activism abolishes absurdity.",
+    "1.1.table0.13.2": "Someone continues a meaningful commitment without pretending that success will settle the demand for ultimate meaning.",
+    "1.1.table0.15.1": "In Sartre, experiencing oneself as an object for another subject; literal eyes or continuous surveillance are not required.",
+    "1.1.table0.15.2": "Hearing possible footsteps while eavesdropping, someone suddenly feels exposed as the person another could judge.",
+    "1.1.table0.16.1": "Projecting toward possibilities beyond what one currently is, within a situation; not necessarily exceptional achievement or escape from limitations.",
+    "1.1.table0.16.2": "A person undertakes an ordinary promise whose fulfillment remains uncertain; the projection itself illustrates transcendence."
+  },
+  "leadingTextReplacements": {
+    "5.1.1": "In Camus’s account, which concept names the tension between our demand for meaning and the world’s failure to supply a final answer?",
+    "5.1.11": "In Sartre’s formulation, what precedes essence?",
+    "5.1.26": "Why might existentialist ideas appeal to a reader considering digital life?",
+    "5.1.46": "Which term is associated with Sartre’s unsettling encounter with the contingency of existence?"
+  }
+}

@@ -41,6 +41,20 @@ def sections(source, config=None):
             continue
         sibling = h.find_next_sibling()
         cols = sibling.select(':scope > .wp-block-column') if sibling else []
+        embedded_heading = (config or {}).get('headingWithinFirstResponseColumn', {}).get(str(index))
+        if embedded_heading:
+            group = h.parent.parent
+            assert 'wp-block-column' in h.parent.get('class', [])
+            assert hashlib.sha256(str(group).encode()).hexdigest() == embedded_heading['groupSha256']
+            source_cols = group.select(':scope > .wp-block-column')
+            assert source_cols and h.parent is source_cols[0]
+            assert not any(getattr(node, 'get_text', lambda **kwargs: str(node))().strip()
+                           for node in h.previous_siblings)
+            cols = [copy.deepcopy(col) for col in source_cols]
+            assert len(cols[0].select('h2')) == 1
+            cols[0].h2.decompose()
+            cols[0] = BeautifulSoup(str(cols[0]), 'html.parser').find()
+            assert all(not col.select('h2, .wp-block-column') for col in cols)
         if index in (config or {}).get('siblingColumnHeadingIndexes', []):
             cols = []
             for sibling in h.find_next_siblings():
@@ -107,6 +121,15 @@ def sections(source, config=None):
             # Only unwrap a trailing response; never reorder source prose or tables.
             assert [str(node) for node in outer.find_all(TAGS + ['table'])] == [
                 str(node) for col in cols for node in col.find_all(TAGS + ['table'])]
+        for extra in (config or {}).get('trailingResponseSiblingRanges', {}).get(str(index), []):
+            siblings = list(h.find_next_siblings())
+            nodes = siblings[extra['start']:extra['endExclusive']]
+            assert nodes and not any(node.name == 'h2' or node.select('.wp-block-column') for node in nodes)
+            assert hashlib.sha256(''.join(map(str, nodes)).encode()).hexdigest() == extra['sha256']
+            col = source.new_tag('div')
+            for node in nodes:
+                col.append(copy.deepcopy(node))
+            cols.append(col)
         if cols:
             result.append((h, cols))
     return result
@@ -241,6 +264,18 @@ def edited_column(original, n, c, config):
                     if k in ('href', 'colspan', 'rowspan', 'start')}
     col['class'] = ['original-response']
     col['data-source-column'] = str(c)
+    for i, (old_frame, new_frame) in enumerate(zip(original.find_all('iframe'), col.find_all('iframe'))):
+        key = f'{n}.{c}.video{i}'
+        item = config.get('sourceVideoLinks', {}).get(key)
+        if item:
+            assert old_frame['src'] == item['sourceUrl']
+            assert item['url'].startswith('https://www.youtube.com/watch?v=')
+            assert old_frame['src'].split('/embed/')[1].split('?')[0] == item['url'].split('watch?v=')[1]
+            link = BeautifulSoup('<a></a>', 'html.parser').a
+            link['href'] = item['url']
+            link['data-source-video'] = key
+            link.string = item['label']
+            new_frame.replace_with(link)
     source_images = [(i, im) for i, im in enumerate(original.find_all('img'))
                      if not (config.get('mathImageText') and 'latex' in im.get('class', []))]
     for (i, old_image), new_image in zip(source_images, col.find_all('img')):
